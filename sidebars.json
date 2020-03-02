@@ -5,6 +5,7 @@
 			"label": "First Steps",
 			"ids": ["firststeps_register", "firststeps_rent", "firststeps_rent_contractorprepaid", "firststeps_rent_location"]
 		}],
+		"Account": ["account_contractsandprepaid", "account_2factor", "account_partner_system"],
 		"Beispiel Doc": ["beispiel"]
 	}
 }
