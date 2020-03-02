@@ -4,8 +4,7 @@ title: Beispiel-Eintrag
 sidebar_label: Beispiel Eintrag
 ---
 
-^^^^
-Das hier oben ist immer nötig, auch immer korrekt umändern!
+^^^^ Das hier oben ist immer nötig, auch immer korrekt umändern!
 
 ## Wir untersützen Markdown!
 

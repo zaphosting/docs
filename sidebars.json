@@ -1,14 +1,10 @@
 {
 	"docs": {
-		"Docusaurus": ["doc1", "doc2"],
-		"First Category": ["doc3",
-			{
-				"type": "subcategory",
-				"label": "Some Subcategory",
-				"ids": ["testdoc"]
-			}
-		],
-		"Second Category": ["exampledoc4"],
+		"Overview": ["whatiszap", {
+			"type": "subcategory",
+			"label": "First Steps",
+			"ids": ["firststeps_register", "firststeps_rent", "firststeps_rent_contractorprepaid", "firststeps_rent_location"]
+		}],
 		"Beispiel Doc": ["beispiel"]
 	}
 }
