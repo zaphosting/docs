@@ -1,10 +1,14 @@
 {
 	"docs": {
-		"Docusaurus": ["doc1", "testdoc"],
-		"First Category": {
-			"Sub Category": ["doc4", "doc5"]
-		},
-		"Second Category": ["doc3"],
+		"Docusaurus": ["doc1", "doc2"],
+		"First Category": ["doc3",
+			{
+				"type": "subcategory",
+				"label": "Subcategory",
+				"ids": ["testdoc"]
+			}
+		],
+		"Second Category": ["exampledoc4"],
 		"Third Category": ["testdoc"],
 		"Beispiel Doc": ["beispiel"]
 	}
