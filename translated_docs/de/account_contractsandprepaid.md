@@ -1,5 +1,5 @@
 ---
-id: account_contractsnadprepaid
+id: account_contractsandprepaid
 title: Verträge & Prepaids
 sidebar_label: Verträge & Prepaids
 ---
