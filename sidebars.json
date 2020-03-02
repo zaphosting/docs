@@ -4,12 +4,11 @@
 		"First Category": ["doc3",
 			{
 				"type": "subcategory",
-				"label": "Subcategory",
+				"label": "Some Subcategory",
 				"ids": ["testdoc"]
 			}
 		],
 		"Second Category": ["exampledoc4"],
-		"Third Category": ["testdoc"],
 		"Beispiel Doc": ["beispiel"]
 	}
 }
