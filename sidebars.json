@@ -3,7 +3,7 @@
     "Docusaurus": ["doc1"],
     "First Category": ["doc2"],
     "Second Category": ["doc3"],
-	"Third Category": ["testdoc"],
+    "Third Category": ["testdoc"]
   },
   "docs-other": {
     "First Category": ["doc4", "doc5"]
