@@ -11,7 +11,7 @@ sidebar_label: Beispiel Eintrag
 *Du kannst **alles** machen!*
 
 
-# Hier kannst du deine docs schreiben
+## Hier kannst du deine docs schreiben
 
 
 ### Das geht auch!
