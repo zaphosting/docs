@@ -12,8 +12,9 @@
 				"label": "Databases", 
 				"ids": ["gameserver_databases_pma", "gameserver_databases_self"]
 			}, "gameserver_ftpaccess", "gameserver_restartplaner"],
-		"Gameserver - Minecraft":["beispiel"],
-		"Gameserver - FiveM":["beispiel"],
+		"Minecraft":["beispiel"],
+		"FiveM":["beispiel"],
+		"Source Games":["beispiel"],
 		"Beispiel Doc": ["beispiel"]
 	}
 }
