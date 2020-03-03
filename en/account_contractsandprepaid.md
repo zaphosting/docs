@@ -1,7 +1,7 @@
 ---
 id: account_contractsandprepaid
 title: Contracts & Prepaids
-sidebar_label: contracts & prepaids
+sidebar_label: Contracts & Prepaids
 ---
 
 # 📚 Contracts & Prepaids

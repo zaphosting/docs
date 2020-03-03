@@ -1,7 +1,7 @@
 ---
 id: firststeps_rent_contractorprepaid
 title: Contract or Prepaid
-sidebar_label: contract or prepaid
+sidebar_label: Contract or Prepaid
 ---
 Learn more about the differences between contracts and prepaids
 
