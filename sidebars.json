@@ -16,6 +16,10 @@
 			"type": "subcategory", 
 			"label": "Administration", 
 			"ids": ["minecraft_addop", "minecraft_worlds"]
+		},{
+			"type": "subcategory", 
+			"label": "Spigot & Bukkit", 
+			"ids": ["minecraft_pluginuploader"]
 		}],
 		"FiveM":["beispiel"],
 		"Source Games":["beispiel"],
