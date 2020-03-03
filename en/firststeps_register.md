@@ -4,7 +4,7 @@ title: Register
 sidebar_label: Register
 ---
 
-# 🔐 Register with ZAP hosting
+## 🔐 Register with ZAP hosting
 It's super easy! Visit our website and go to the start page. There you will find a login screen where you have to enter your username, email address and password.
 
 ![](https://i.imgur.com/jWAPfaG.png)

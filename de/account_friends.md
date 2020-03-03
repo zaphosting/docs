@@ -4,20 +4,20 @@ title: Freunde werben
 sidebar_label: Freunde werben
 ---
 
-# Freunde werben Programm
+## Freunde werben Programm
 Das Freunde werben Programm ist unser Affiliate-Programm, mit dem du Geld oder ZAP-Coins verdienen kannst, indem du neue Kunden für ZAP-Hosting wirbst.
 
-# Wie funktioniert es?
+## Wie funktioniert es?
 
 Auf unserer "[Freunde werben-Seite](https://zap-hosting.com/de/customer/affiliate/)" kannst du Affiliate-Links und Banner erstellen. Diese Links und Banner kannst du auf einer Webseite, einem Forum, deinen Social-Media- oder Streaming-Kanälen veröffentlichen und bewerben. Klickt jemand auf den Link und kauft auf ZAP-Hosting.com ein Produkt, erhältst du eine Verkaufsprovision.
 
-# Die Provisionen
+## Die Provisionen
 Über das Freunde werben Programm erhältst du eine Verkaufsprovision von bis zu 50%. Die genauen Verkaufsprovisionen für alle Produkte findest du auf der Freunden werben-Seite unter "[Konditionen](https://zap-hosting.com/de/customer/affiliate/conditions/)".
 
 > Bei der ausgezahlten Provision handelt es sich um einen Netto-Wert.
 Das heißt, dass die Mehrwertsteuer von deinem angezeigten Affiliate-Guthaben bei Auszahlung abgezogen wird. 
 
-# Affiliate-Link erstellen
+## Affiliate-Link erstellen
 
 Um einen Affiliate Link zu erstellen, klicke auf der "[Freunde werben-Seite](https://zap-hosting.com/de/customer/affiliate/)" auf "Neues Werbemittel erstellen" und wähle den Button "Link" aus. Dann kannst du den Link erstellen, indem du folgende Felder ausfüllst und auf "erstellen" klickst:
 
@@ -41,7 +41,7 @@ Um einen Affiliate Link zu erstellen, klicke auf der "[Freunde werben-Seite](htt
 Wenn du alles ausgefüllt hast, klicke auf "Erstellen", um den Link zu erstellen.
 
 
-# Affiliate-Banner erstellen
+## Affiliate-Banner erstellen
 
 Um ein Affiliate Banner zu erstellen, klicke auf der "[Freunde werben-Seite](https://zap-hosting.com/de/customer/affiliate/)" auf "Neues Werbemittel erstellen" und wähle den Button "Banner" aus. Dann kannst du das Banner erstellen, indem du folgende Felder ausfüllst und auf "erstellen" klickst:
 
@@ -64,7 +64,7 @@ Um ein Affiliate Banner zu erstellen, klicke auf der "[Freunde werben-Seite](htt
 
 Wenn du alles ausgefüllt hast, klicke auf "Erstellen", um das Banner zu erstellen.
 
-# Wie beantrage ich eine Auszahlung?
+## Wie beantrage ich eine Auszahlung?
 
 Um eine Auszahlung zu beantragen, klicke in der Übersicht auf der "[Freunde werben-Seite](https://zap-hosting.com/de/customer/affiliate/)" einfach auf den Button "Auszahlung/Umbuchung". Dann kannst du auswählen, ob du dein Affiliate-Guthaben in ZAP-Coins umbuchen willst oder das Guthaben ausgezahlt bekommen möchtest. Wir können Guthaben auf dein Bankkonto überweisen oder per Paypal auszahlen.
 
@@ -76,24 +76,5 @@ Um eine Auszahlung zu beantragen, klicke in der Übersicht auf der "[Freunde wer
 > ZAP-Hosting GmbH & Co. KG
 > Krokusweg 9a
 > 48165 Münster
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 

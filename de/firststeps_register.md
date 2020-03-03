@@ -4,7 +4,7 @@ title: Registrieren
 sidebar_label: Registrieren
 ---
 
-# 🔐 Registriere Dich bei ZAP-Hosting
+## 🔐 Registriere Dich bei ZAP-Hosting
 Das ist super einfach! Besuche unsere Website und begib Dich auf die Startseite. Dort findest Du eine Anmeldemaske, bei der Du Usernamen, E-Mail-Adresse und Passwort eingeben musst.
 
 ![](https://i.imgur.com/jWAPfaG.png)
