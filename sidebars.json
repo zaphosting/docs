@@ -11,7 +11,7 @@
 				"type": "subcategory", 
 				"label": "Databases", 
 				"ids": ["gameserver_databases_pma", "gameserver_databases_self"]
-			}, "gameserver_ftpaccess"],
+				}, "gameserver_ftpaccess"],
 		"Beispiel Doc": ["beispiel"]
 	}
 }
