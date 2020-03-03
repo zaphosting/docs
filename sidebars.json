@@ -12,7 +12,11 @@
 				"label": "Databases", 
 				"ids": ["gameserver_databases_pma", "gameserver_databases_self"]
 			}, "gameserver_ftpaccess", "gameserver_restartplaner"],
-		"Minecraft":["beispiel"],
+		"Minecraft":[{
+			"type": "subcategory", 
+			"label": "Administration", 
+			"ids": ["minecraft_addop", "minecraft_worlds"]
+		}],
 		"FiveM":["beispiel"],
 		"Source Games":["beispiel"],
 		"Beispiel Doc": ["beispiel"]
