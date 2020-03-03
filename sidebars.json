@@ -11,7 +11,12 @@
 				"type": "subcategory", 
 				"label": "Databases", 
 				"ids": ["gameserver_databases_pma", "gameserver_databases_self"]
-			}, "gameserver_ftpaccess"],
+			}, "gameserver_ftpaccess", "gameserver_restartplaner"],
+		"Gameserver - Games":[{
+			"type": "subcategory",
+			"label": "Minecraft",
+			"ids": ["beispiel"]
+		}],
 		"Beispiel Doc": ["beispiel"]
 	}
 }
