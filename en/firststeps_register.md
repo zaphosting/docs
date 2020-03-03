@@ -10,5 +10,3 @@ It's super easy! Visit our website and go to the start page. There you will find
 ![](https://i.imgur.com/jWAPfaG.png)
 
 > After registration you can log in immediately, but you should confirm the activation email to be able to use the full scope of functions.
-
-Translated with www.DeepL.com/Translator (free version)
