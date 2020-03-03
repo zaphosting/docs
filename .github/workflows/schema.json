@@ -12,51 +12,8 @@
 			"$id": "#root/docs", 
 			"title": "Docs", 
 			"type": "object",
-			"required": [
-				"Overview",
-				"Account",
-				"Gameserver",
-				"Beispiel Doc"
-			],
-			"properties": {
-				"Overview": {
-					"$id": "#root/docs/Overview", 
-					"title": "Overview", 
-					"type": "array",
-					"default": []
-				},
-				"Account": {
-					"$id": "#root/docs/Account", 
-					"title": "Account", 
-					"type": "array",
-					"default": [],
-					"items":{
-						"$id": "#root/docs/Account/items", 
-						"title": "Items", 
-						"type": "string",
-						"default": "",
-						"examples": [
-							"account_contractsandprepaid"
-						],
-						"pattern": "^.*$"
-					}
-				},
-				"Gameserver": {
-					"$id": "#root/docs/Gameserver", 
-					"title": "Gameserver", 
-					"type": "array",
-					"default": [],
-					"items":{
-						"$id": "#root/docs/Gameserver/items", 
-						"title": "Items", 
-						"type": "string",
-						"default": "",
-						"examples": [
-							"gameserver_resourcelimit"
-						],
-						"pattern": "^.*$"
-					}
-				}
+			"required": [],
+			"properties": {}
 			}
 		}
 
