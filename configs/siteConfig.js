@@ -22,7 +22,7 @@ const users = [
 
 const siteConfig = {
   title: 'ZAP-Hosting Docs', // Title for your website.
-  tagline: 'ZAP-Hosting Documentation & Guides',
+  tagline: 'ZAP-Hosting Guides',
   url: 'https://docs.zap-hosting.com', // Your website URL
   baseUrl: '/docs/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
