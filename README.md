@@ -57,6 +57,7 @@ Bei neuen kategorien geht das ganze so:
 "NeueKategorie": ["meine_neue_seite"],
 ```
 Immer sichergehen das die json datei nach dem edit auch valide ist.
+
 **Beachten: Kategorien sollten, wenn möglich, in englisch sein, diese können in den sprachvariablen manuell übersetzt werden!**
 
 ## Okay, wie füge ich sie hier ein?
@@ -65,3 +66,4 @@ Die Repository "Forken", das geht rechts oben!
 
 Danach die änderungen auf deinem fork erstellen und unter https://github.com/zap-docs/docs/pulls eine Pull Request von deiner fork auf die master repository erstellen, danach kann sie gemerged werden.
 
+Wenn du sachen änderst nachdem du den pull request erstellst, wird es automatisch zur PR hinzugefügt.
