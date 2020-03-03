@@ -20,6 +20,10 @@
 			"type": "subcategory", 
 			"label": "Spigot & Bukkit", 
 			"ids": ["minecraft_pluginuploader"]
+		},{
+			"type": "subcategory", 
+			"label": "Feed the Beast", 
+			"ids": ["minecraft_direwolf20"]
 		}],
 		"FiveM":["beispiel"],
 		"Source Games":["beispiel"],
