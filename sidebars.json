@@ -5,7 +5,7 @@
 			"label": "First Steps",
 			"ids": ["firststeps_register", "firststeps_rent", "firststeps_rent_contractorprepaid", "firststeps_rent_location"]
 		}],
-		"Account": ["account_contractsandprepaid", "account_2factor", "account_backup_storage", "account_partner_system", "account_friends"],
+		"Account": ["account_contractsandprepaid", "account_2factor", "account_backup_storage", "account_partner_system", "account_friends", "account_cashbox", "account_usermanagement","account_vouchers", "account_donations"],
 		"Gameserver": ["gameserver_resourcelimit"],
 		"Beispiel Doc": ["beispiel"]
 	}
