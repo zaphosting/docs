@@ -10,8 +10,8 @@
         "sidebar_label": "Zwei-Faktor-Authentifizierung"
       },
       "account_contractsandprepaid": {
-        "title": "Contracts & Prepaids",
-        "sidebar_label": "contracts & prepaids"
+        "title": "Verträge & Prepaids",
+        "sidebar_label": "Verträge & Prepaids"
       },
       "account_partner_system": {
         "title": "Partner System",
@@ -22,8 +22,8 @@
         "sidebar_label": "Beispiel Eintrag"
       },
       "firststeps_register": {
-        "title": "Register",
-        "sidebar_label": "Register"
+        "title": "Registrieren",
+        "sidebar_label": "Registrieren"
       },
       "firststeps_rent_contractorprepaid": {
         "title": "Vertrag oder Prepaid",
@@ -54,7 +54,7 @@
       "Docs": "Docs"
     },
     "categories": {
-      "Overview": "Overview",
+      "Overview": "Übersicht",
       "Account": "Account",
       "Gameserver": "Gameserver",
       "Beispiel Doc": "Beispiel Doc"
