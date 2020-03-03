@@ -3,7 +3,7 @@
   "localized-strings": {
     "next": "Next",
     "previous": "Previous",
-    "tagline": "ZAP-Hosting Documentation & Guides",
+    "tagline": "ZAP-Hosting Guides",
     "docs": {
       "account_2factor": {
         "title": "Zwei-Faktor-Authentifizierung",
@@ -65,9 +65,57 @@
         "title": "Die ersten Schritte",
         "sidebar_label": "Die ersten Schritte"
       },
+      "fivem_dashboard": {
+        "title": "Dashboard",
+        "sidebar_label": "Dashboard"
+      },
+      "fivem_windowsorlinux": {
+        "title": "Windows oder Linux",
+        "sidebar_label": "Windows oder Linux"
+      },
+      "gameserver_databases_pma": {
+        "title": "PHPMyAdmin",
+        "sidebar_label": "PHPMyAdmin"
+      },
+      "gameserver_databases_self": {
+        "title": "Zugriff extern (Navicat etc.)",
+        "sidebar_label": "Zugriff extern (Navicat etc.)"
+      },
+      "gameserver_ftpaccess": {
+        "title": "FTP Dateizugriff",
+        "sidebar_label": "FTP Dateizugriff"
+      },
       "gameserver_resourcelimit": {
         "title": "Resourcenlimit",
         "sidebar_label": "Resourcenlimit"
+      },
+      "gameserver_restartplaner": {
+        "title": "Restartplaner",
+        "sidebar_label": "Restartplaner"
+      },
+      "minecraft_addop": {
+        "title": "OP-Rechte",
+        "sidebar_label": "OP-Rechte"
+      },
+      "minecraft_direwolf20": {
+        "title": "Direwolf20",
+        "sidebar_label": "Direwolf20"
+      },
+      "minecraft_pluginuploader": {
+        "title": "Plugin Uploader",
+        "sidebar_label": "Plugin Uploader"
+      },
+      "minecraft_worlds": {
+        "title": "Welten",
+        "sidebar_label": "Welten"
+      },
+      "source_metamod_addadmins": {
+        "title": "Admin werden",
+        "sidebar_label": "Admin werden"
+      },
+      "source_metamod_installation": {
+        "title": "Installation",
+        "sidebar_label": "Installation"
       },
       "whatiszap": {
         "title": "Was ist ZAP-Hosting",
@@ -80,7 +128,10 @@
     "categories": {
       "Overview": "Overview",
       "Account": "Account",
-      "Gameserver": "Gameserver",
+      "Gameserver - General": "Gameserver - General",
+      "Minecraft": "Minecraft",
+      "FiveM": "FiveM",
+      "Source Games": "Source Games",
       "Beispiel Doc": "Beispiel Doc"
     }
   },
