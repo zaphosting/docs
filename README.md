@@ -40,3 +40,28 @@ Weitere beispiele können in
 https://raw.githubusercontent.com/zap-docs/docs/master/de/beispiel.md
 
 gefunden werden.
+
+
+## Seite Fertig, was nun?
+Nun muss diese in der linken sidebar eingefügt werden, das geht über die sidebars.json.
+
+Wenn dort z.b. ein eintrag unter "Gameserver" hinzugefügt wird, muss die zeile folgend geändert werden:
+```
+alt -> "Gameserver": ["gameserver_resourcelimit"],
+neu -> "Gameserver": ["gameserver_resourcelimit", "meine_neue_seite"],
+```
+
+Bei neuen kategorien geht das ganze so:
+```
+"Gameserver": ["gameserver_resourcelimit"],
+"NeueKategorie": ["meine_neue_seite"],
+```
+Immer sichergehen das die json datei nach dem edit auch valide ist.
+**Beachten: Kategorien sollten, wenn möglich, in englisch sein, diese können in den sprachvariablen manuell übersetzt werden!**
+
+## Okay, wie füge ich sie hier ein?
+
+Die Repository "Forken", das geht rechts oben!
+
+Danach die änderungen auf deinem fork erstellen und unter https://github.com/zap-docs/docs/pulls eine Pull Request von deiner fork auf die master repository erstellen, danach kann sie gemerged werden.
+
