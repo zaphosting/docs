@@ -1,39 +1,39 @@
 ---
 id: account_partner_system
-title: Partner-System
-sidebar_label: Partner-System
+title: Partner System
+sidebar_label: Partner System
 ---
 
-# Was ist das Partnersystem?
-Du hast einen Youtube-Kanal, streamst auf Twitch oder leitest einen Gaming-Clan? Dann kannst du dich als Partner bewerben. Unsere Partner bewerben ZAP-Hosting auf ihren Kanälen und können im Gegenzug beispielsweise **kostenfreie Server, Hardware** oder **Server** für Gewinnspiele oder **Geld** erhalten.
+# What's the partner system?
+You have a YouTube channel, stream on Twitch or run a gaming clan? Then you can apply as a partner. Our partners advertise ZAP hosting on their channels and in return they can get for example **free servers, hardware** or **server** for raffles or **money**.
 
-# Wie bewerbe ich mich als Partner?
+# How do I apply as a partner?
 
-Um dich als Partner zu bewerben, klicke auf unserer [Partnerseite](https://zap-hosting.com/de/partner/) einfach auf das Feld "**Jetzt bewerben**" und fülle die Bewerbung aus. 
+To apply as a partner, just click on the field "**Apply now**" on our [partner site](https://zap-hosting.com/de/partner/) and fill out the application. 
 
-# An wen richtet sich das Partnerprogramm?
-Das Partnerprogramm richtet sich an:
+# Who is the partner program for?
+The partner program is aimed at:
 - Content Creator
-- Gaming Clans
+- gaming clans
 - eSports Clans
-- Gaming Communities
-- Blogs und Foren
-- Spiele-Entwickler
+- gaming communities
+- Blogs and forums
+- Game developer
 
-Wichtig ist, dass dein Kanal eine bestimmte Mindestreichweite hat und deine Zielgruppe interessiert an Game-Servern ist. Hast du beispielsweise einen Youtube-Kanal, auf dem du Minecraft-Videos zeigst, bist du genau richtig für unser Partner-Programm. Schmink-Tipps hingegen sind für unser Partnerprogramm eher uninteressant.
+It is important that your channel has a certain minimum reach and that your target group is interested in game servers. For example, if you have a YouTube channel that shows Minecraft videos, then you're perfect for our affiliate program. Makeup tips, on the other hand, are not very interesting for our affiliate program.
 
-# Wie hoch sollte meine Reichweite sein?
+# How high should my range be?
 
-Als Partner solltest du eine bestimmte Reichweite mitbringen, damit eine Partnerschaft sich auch für uns sinvoll erscheint. Bei Videokanälen achten wir beispielsweise vor allem darauf, wie hoch die Anzahl der Videoaufrufe in den letzten Monaten war, bei Foren auf Mitgliederanzahl und ob regelmäßig Beiträge erstellt werden.
+As an affiliate, you should have a certain amount of reach so that a partnership makes sense for us. With video channels, for example, we pay particular attention to the number of video views in the last few months, with forums to the number of members and whether contributions are made regularly.
 
-> Als Faustregel sollte deine Reichweite im vierstelligen Bereich liegen, um als Partner akzeptiert zu werden.
+> As a rule of thumb, your reach should be in the four-figure range in order to be accepted as a partner.
 
-# Was sind die Vorteile?
+# What are the advantages?
 
-Als Partner von ZAP-Hosting kannst du folgende Vorteile erhalten:
+As a partner of ZAP-Hosting you can get the following advantages:
 
-- Du erhältst einen persönlichen Account-Manager, der als Ansprechpartner dient und beispielsweise verschiedene Aktionen mit dir plant.
-- Du kannst kostenfreie Server von uns gestellt bekommen.
-- Du kannst bessere Provisionbedingungen erhalten.
-- Für Events und Aktionen stellen wir gerne Gewinne (z. B. ZAP-Guthaben, Server, Hardware) bereit.
-- Du wirst auf unserer [Partnerseite](https://zap-hosting.com/de/partner/) verlinkt.
+- You get a personal account manager who serves as a contact person and plans for example different actions with you.
+- You can get free servers from us.
+- You can get better commission conditions.
+- For events and promotions we gladly provide profits (e.g. ZAP credit, servers, hardware).
+- You will be linked on our [partner site](https://zap-hosting.com/de/partner/).

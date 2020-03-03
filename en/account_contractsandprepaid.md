@@ -1,16 +1,16 @@
 ---
 id: account_contractsandprepaid
-title: Verträge & Prepaids
-sidebar_label: Verträge & Prepaids
+title: Contracts & Prepaids
+sidebar_label: contracts & prepaids
 ---
 
-#  📚 Verträge & Prepaids
-Eingeloggt in deinem ZAP-Hosting Account findest Du auf der linken Seite den Menüpunkt "Verträge & Prepaids". Dort sind alle aktiven Server, aber auch abgelaufene Server, die noch nicht gelöscht wurden aufgelistet.
+# 📚 Contracts & Prepaids
+Logged in to your ZAP hosting account you will find the menu item "Contracts & Prepaids" on the left side. There all active servers are listed, but also expired servers that have not been deleted yet.
 
 ![](https://i.imgur.com/eN06fAR.png)
 
-> **Unterschied zwischen Verträgen und Prepaids**: Verträge verlängern sich automatisch und müssen gekündigt werden. Prepaids laufen nach der gebuchten Zeit einfach aus, insofern sie nicht manuell verlängert werden.
+> **difference between contracts and prepaids**: Contracts are automatically renewed and must be terminated. Prepaids simply expire after the booked time, as long as they are not extended manually.
 
 
-# 📙 Meine Verträge
-Alle Serverprodukte, bei denen Du während der Bestellung "**Vertrag**" als "**Abrechnungsart**" ausgewählt hast, verlängern sich automatisch, insofern Du sie nicht kündigst.
+# 📙 My contracts
+All server products for which you selected "**Contract**" as "**Billing type**" during the order process will automatically renew unless you cancel them.

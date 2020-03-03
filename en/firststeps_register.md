@@ -1,12 +1,14 @@
 ---
 id: firststeps_register
-title: Registrieren
-sidebar_label: Registrieren
+title: Register
+sidebar_label: Register
 ---
 
-# 🔐 Registriere Dich bei ZAP-Hosting
-Das ist super einfach! Besuche unsere Website und begib Dich auf die Startseite. Dort findest Du eine Anmeldemaske, bei der Du Usernamen, E-Mail-Adresse und Passwort eingeben musst.
+# 🔐 Register with ZAP hosting
+It's super easy! Visit our website and go to the start page. There you will find a login screen where you have to enter your username, email address and password.
 
 ![](https://i.imgur.com/jWAPfaG.png)
 
->  Nach der Registrierung kannst Du dich zwar sofort einloggen, Du solltest jedoch die Aktivierungs-E-Mail bestätigen, um den vollen Funktionsumfang nutzen zu können.
+> After registration you can log in immediately, but you should confirm the activation email to be able to use the full scope of functions.
+
+Translated with www.DeepL.com/Translator (free version)

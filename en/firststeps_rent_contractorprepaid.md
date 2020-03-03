@@ -1,29 +1,29 @@
 ---
 id: firststeps_rent_contractorprepaid
-title: Vertrag oder Prepaid
-sidebar_label: Vertrag oder Prepaid
+title: Contract or Prepaid
+sidebar_label: contract or prepaid
 ---
-Erfahre mehr zu den Unterschieden zwischen Verträgen und Prepaids
+Learn more about the differences between contracts and prepaids
 
-# 📘 Abrechnungsart "Prepaid"
-Alle Serverprodukte, bei denen du "**Prepaid**" als "**Abrechnungsart**" auswählst, laufen automatisch nach der bezahlten Zeit aus. Du hast dann 14 Tage Zeit, deinen gesperrten Server zu reaktivieren. Tust du das nicht, wird dieser unwiderruflich gelöscht.
+# 📘 Billing type "Prepaid"
+All server products where you select "**Prepaid**" as "**Billing type**" will automatically expire after the paid time. You then have 14 days to reactivate your locked server. If you do not do this, it will be irrevocably deleted.
 
 ![](https://i.imgur.com/JZYdxnA.png)
 
-Prepaid Server können auch während der bezahlten Laufzeit jederzeit unter "**Verträge & Prepaids**" gelöscht werden.
-Prepaid Server können im Gegensatz zu Vertragsservern auch für einen **kürzeren Zeitraum von 7 Tagen** gebucht werden.
-Einen Prepaidserver kannst Du **anonym** bestellen. Wir fragen Dich nicht nach persönlichen Daten.
-Prepaidserver sind **10% teurer** als Vertragsserver.
+Prepaid servers can also be deleted at any time during the paid term under "**Contracts & Prepaids**".
+In contrast to contract servers, prepaid servers can also be booked for a **shorter period of 7 days**.
+You can order a prepaid server **anonymously**. We do not ask you for personal data.
+Prepaid servers are **10% more expensive** than contract servers.
 
-# 📙 Abrechnungsart "Vertrag"
+# 📙 Billing type "Contract"
 
-Alle Serverprodukte, bei denen Du während der Bestellung "**Vertrag**" als "**Abrechnungsart**" ausgewählt hast, verlängern sich automatisch, insofern Du sie nicht kündigst.
+All server products for which you selected "**Contract**" as "**Billing type**" during the order process will be automatically renewed unless you cancel them.
 
-![](https://i.imgur.com/3iBgHz7.png)
+[](https://i.imgur.com/3iBgHz7.png)
 
-Insofern Du mit PayPal oder Kreditkarte bezahlst, wird bei einem Vertragsserver automatisch eine Zahlungsvereinbarung angelegt, insofern Du das nicht explizit deaktivierst. So kann es Dir nicht passieren, dass du einmal eine Zahlung vergisst und die Gefahr läufst, Mahngebühren bezahlen zu müssen
+If you pay with PayPal or credit card, a payment agreement is automatically created on a contract server, unless you explicitly deactivate this. So it can't happen that you forget to pay and run the risk of having to pay reminder fees.
 
 ![](https://i.imgur.com/L5wuAsK.png)
 
-> Du hast bei der Bestellung auch die Möglichkeit, den Haken bei "**Abo Zahlung**" zu deaktivieren. Wir schicken dir regelmäßig eine Rechnung, diese musst du dann im Kundenportal manuell bezahlen.
-Du hast die Möglichkeit **jederzeit später eine Abo Zahlung zu einem Vertrag zu entfernen** oder hinzuzufügen. Öffne dazu den Navigationspunkt "**Verträge & Prepaids**" im Kundenportal
+> You also have the possibility to deactivate the checkbox "**subscription payment**" during the order process. We will send you an invoice on a regular basis, which you will have to pay manually in the customer portal.
+You have the possibility to add or remove **subscription payment to a contract at any time later. To do so, open the navigation point "**Contracts & Prepaids**" in the customer portal
