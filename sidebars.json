@@ -24,9 +24,29 @@
 			"type": "subcategory", 
 			"label": "Feed the Beast", 
 			"ids": ["minecraft_direwolf20"]
+		},{
+			"type": "subcategory", 
+			"label": "AT Launcher", 
+			"ids": ["beispiel"]
+		},{
+			"type": "subcategory", 
+			"label": "Technic Launcher", 
+			"ids": ["beispiel"]
 		}],
-		"FiveM":["beispiel"],
-		"Source Games":["beispiel"],
+		"FiveM":["fivem_dashboard", "fivem_windowsorlinux", {
+			"type": "subcategory", 
+			"label": "ESX", 
+			"ids": ["beispiel"]
+		}, {
+			"type": "subcategory", 
+			"label": "Dunko VRP", 
+			"ids": ["beispiel"]
+		}],
+		"Source Games":[{
+			"type": "subcategory", 
+			"label": "Sourcemod / Metamod", 
+			"ids": ["source_metamod_installation", "source_metamod_addadmins"]
+		}],
 		"Beispiel Doc": ["beispiel"]
 	}
 }
