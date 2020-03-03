@@ -6,17 +6,15 @@
 			"ids": ["firststeps_register", "firststeps_rent", "firststeps_rent_contractorprepaid", "firststeps_rent_location"]
 		}],
 		"Account": ["account_contractsandprepaid", "account_2factor", "account_backup_storage", "account_partner_system", "account_friends", "account_cashbox", "account_usermanagement","account_vouchers", "account_donations"],
-		"Gameserver": ["gameserver_resourcelimit",
+		"Gameserver - General": ["gameserver_resourcelimit",
 			{
 				"type": "subcategory", 
 				"label": "Databases", 
 				"ids": ["gameserver_databases_pma", "gameserver_databases_self"]
 			}, "gameserver_ftpaccess", "gameserver_restartplaner"],
-		"Gameserver - Games":[{
-			"type": "subcategory",
-			"label": "Minecraft",
-			"ids": ["beispiel"]
-		}],
+		"Minecraft":["beispiel"],
+		"FiveM":["beispiel"],
+		"Source Games":["beispiel"],
 		"Beispiel Doc": ["beispiel"]
 	}
 }
