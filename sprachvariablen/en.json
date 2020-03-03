@@ -3,7 +3,7 @@
   "localized-strings": {
     "next": "Next",
     "previous": "Previous",
-    "tagline": "A website for testing",
+    "tagline": "ZAP-Hosting Documentation & Guides",
     "docs": {
       "account_2factor": {
         "title": "Zwei-Faktor-Authentifizierung",
@@ -11,7 +11,7 @@
       },
       "account_contractsandprepaid": {
         "title": "Contracts & Prepaids",
-        "sidebar_label": "contracts & prepaids"
+        "sidebar_label": "Contracts & Prepaids"
       },
       "account_partner_system": {
         "title": "Partner System",
