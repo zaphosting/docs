@@ -1,147 +1,64 @@
 {
-    "$schema": "http://json-schema.org/draft-07/schema",
-    "$id": "http://example.com/example.json",
-    "type": "object",
-    "title": "The Root Schema",
-    "description": "The root schema comprises the entire JSON document.",
-    "required": [
-        "docs"
-    ],
-    "properties": {
-        "docs": {
-            "$id": "#/properties/docs",
-            "type": "object",
-            "title": "The Docs Schema",
-            "description": "An explanation about the purpose of this instance.",
-            "default": {},
-            "examples": [
-                {
-                    "Overview": [
-                        "whatiszap",
-                        {
-                            "type": "subcategory",
-                            "label": "First Steps",
-                            "ids": [
-                                "firststeps_register",
-                                "firststeps_rent",
-                                "firststeps_rent_contractorprepaid",
-                                "firststeps_rent_location"
-                            ]
-                        }
-                    ],
-                    "Account": [
-                        "account_contractsandprepaid",
-                        "account_2factor",
-                        "account_backup_storage",
-                        "account_partner_system",
-                        "account_friends",
-                        "account_cashbox",
-                        "account_usermanagement",
-                        "account_vouchers",
-                        "account_donations"
-                    ],
-                    "Beispiel Doc": [
-                        "beispiel"
-                    ],
-                    "Gameserver": [
-                        "gameserver_resourcelimit"
-                    ]
-                }
-            ],
-            "required": [
-                "Overview",
-                "Account",
-                "Gameserver",
-                "Beispiel Doc"
-            ],
-            "properties": {
-                "Overview": {
-                    "$id": "#/properties/docs/properties/Overview",
-                    "type": "array",
-                    "title": "The Overview Schema",
-                    "description": "An explanation about the purpose of this instance.",
-                    "default": [],
-                    "items": {
-                        "$id": "#/properties/docs/properties/Overview/items",
-                        "type": "string",
-                        "title": "The Items Schema",
-                        "description": "An explanation about the purpose of this instance.",
-                        "default": "",
-                        "examples": [
-                            "whatiszap",
-                            {
-                                "label": "First Steps",
-                                "ids": [
-                                    "firststeps_register",
-                                    "firststeps_rent",
-                                    "firststeps_rent_contractorprepaid",
-                                    "firststeps_rent_location"
-                                ],
-                                "type": "subcategory"
-                            }
-                        ]
-                    }
-                },
-                "Account": {
-                    "$id": "#/properties/docs/properties/Account",
-                    "type": "array",
-                    "title": "The Account Schema",
-                    "description": "An explanation about the purpose of this instance.",
-                    "default": [],
-                    "items": {
-                        "$id": "#/properties/docs/properties/Account/items",
-                        "type": "string",
-                        "title": "The Items Schema",
-                        "description": "An explanation about the purpose of this instance.",
-                        "default": "",
-                        "examples": [
-                            "account_contractsandprepaid",
-                            "account_2factor",
-                            "account_backup_storage",
-                            "account_partner_system",
-                            "account_friends",
-                            "account_cashbox",
-                            "account_usermanagement",
-                            "account_vouchers",
-                            "account_donations"
-                        ]
-                    }
-                },
-                "Gameserver": {
-                    "$id": "#/properties/docs/properties/Gameserver",
-                    "type": "array",
-                    "title": "The Gameserver Schema",
-                    "description": "An explanation about the purpose of this instance.",
-                    "default": [],
-                    "items": {
-                        "$id": "#/properties/docs/properties/Gameserver/items",
-                        "type": "string",
-                        "title": "The Items Schema",
-                        "description": "An explanation about the purpose of this instance.",
-                        "default": "",
-                        "examples": [
-                            "gameserver_resourcelimit"
-                        ]
-                    }
-                },
-                "Beispiel Doc": {
-                    "$id": "#/properties/docs/properties/Beispiel Doc",
-                    "type": "array",
-                    "title": "The Beispiel doc Schema",
-                    "description": "An explanation about the purpose of this instance.",
-                    "default": [],
-                    "items": {
-                        "$id": "#/properties/docs/properties/Beispiel Doc/items",
-                        "type": "string",
-                        "title": "The Items Schema",
-                        "description": "An explanation about the purpose of this instance.",
-                        "default": "",
-                        "examples": [
-                            "beispiel"
-                        ]
-                    }
-                }
-            }
-        }
-    }
+	"definitions": {},
+	"$schema": "http://json-schema.org/draft-07/schema#", 
+	"$id": "https://example.com/object1583232129.json", 
+	"title": "Root", 
+	"type": "object",
+	"required": [
+		"docs"
+	],
+	"properties": {
+		"docs": {
+			"$id": "#root/docs", 
+			"title": "Docs", 
+			"type": "object",
+			"required": [
+				"Overview",
+				"Account",
+				"Gameserver",
+				"Beispiel Doc"
+			],
+			"properties": {
+				"Overview": {
+					"$id": "#root/docs/Overview", 
+					"title": "Overview", 
+					"type": "array",
+					"default": []
+				},
+				"Account": {
+					"$id": "#root/docs/Account", 
+					"title": "Account", 
+					"type": "array",
+					"default": [],
+					"items":{
+						"$id": "#root/docs/Account/items", 
+						"title": "Items", 
+						"type": "string",
+						"default": "",
+						"examples": [
+							"account_contractsandprepaid"
+						],
+						"pattern": "^.*$"
+					}
+				},
+				"Gameserver": {
+					"$id": "#root/docs/Gameserver", 
+					"title": "Gameserver", 
+					"type": "array",
+					"default": [],
+					"items":{
+						"$id": "#root/docs/Gameserver/items", 
+						"title": "Items", 
+						"type": "string",
+						"default": "",
+						"examples": [
+							"gameserver_resourcelimit"
+						],
+						"pattern": "^.*$"
+					}
+				}
+			}
+		}
+
+	}
 }
