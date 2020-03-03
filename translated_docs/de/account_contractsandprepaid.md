@@ -7,7 +7,7 @@ sidebar_label: Verträge & Prepaids
 #  📚 Verträge & Prepaids
 Eingeloggt in deinem ZAP-Hosting Account findest Du auf der linken Seite den Menüpunkt "Verträge & Prepaids". Dort sind alle aktiven Server, aber auch abgelaufene Server, die noch nicht gelöscht wurden aufgelistet.
 
-<bild>
+![](https://i.imgur.com/eN06fAR.png)
 
 > **Unterschied zwischen Verträgen und Prepaids**: Verträge verlängern sich automatisch und müssen gekündigt werden. Prepaids laufen nach der gebuchten Zeit einfach aus, insofern sie nicht manuell verlängert werden.
 

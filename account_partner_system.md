@@ -37,4 +37,3 @@ Als Partner von ZAP-Hosting kannst du folgende Vorteile erhalten:
 - Du kannst bessere Provisionbedingungen erhalten.
 - Für Events und Aktionen stellen wir gerne Gewinne (z. B. ZAP-Guthaben, Server, Hardware) bereit.
 - Du wirst auf unserer [Partnerseite](https://zap-hosting.com/de/partner/) verlinkt.
--
