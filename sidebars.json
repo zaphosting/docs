@@ -47,6 +47,11 @@
 			"label": "Sourcemod / Metamod", 
 			"ids": ["source_metamod_installation", "source_metamod_addadmins"]
 		}],
+		"Vserver & Rootserver": [{
+			"type": "subcategory", 
+			"label": "Linux", 
+			"ids": ["vserver_linux_installjava", "vserver_linux_docker"]
+		}],
 		"Beispiel Doc": ["beispiel"]
 	}
 }
