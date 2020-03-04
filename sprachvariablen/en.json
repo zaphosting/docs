@@ -117,6 +117,14 @@
         "title": "Installation",
         "sidebar_label": "Installation"
       },
+      "vserver_linux_docker": {
+        "title": "Docker",
+        "sidebar_label": "Docker"
+      },
+      "vserver_linux_installjava": {
+        "title": "Java installieren",
+        "sidebar_label": "Java installieren"
+      },
       "whatiszap": {
         "title": "Was ist ZAP-Hosting",
         "sidebar_label": "Was ist ZAP-Hosting"
@@ -132,6 +140,7 @@
       "Minecraft": "Minecraft",
       "FiveM": "FiveM",
       "Source Games": "Source Games",
+      "Vserver & Rootserver": "Vserver & Rootserver",
       "Beispiel Doc": "Beispiel Doc"
     }
   },
