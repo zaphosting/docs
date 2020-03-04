@@ -4,16 +4,6 @@
 	"$id": "https://example.com/object1583232129.json", 
 	"title": "Root", 
 	"type": "object",
-	"required": [
-		"docs"
-	],
-	"properties": {
-		"docs": {
-			"$id": "#root/docs", 
-			"title": "Docs", 
-			"type": "object",
-			"required": [],
-			"properties": {}
-			}
-	}
+	"required": [],
+	"properties": {}
 }
