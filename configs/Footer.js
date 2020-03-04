@@ -68,7 +68,7 @@ class Footer extends React.Component {
             <h5>More</h5>
             <a href="https://twitter.com/zaphosting">Twitter</a>
             <a href="https://github.com/zap-docs/docs">GitHub</a>
-            <a href="https://zap-hosting.com/de/impressum/">Impressum</a>
+            <a href="https://zap-hosting.com/de/impressum/" target="new">Impressum</a>
             {this.props.config.twitterUsername && (
               <div className="social">
                 <a
