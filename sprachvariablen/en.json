@@ -137,6 +137,10 @@
         "title": "Plesk",
         "sidebar_label": "Plesk"
       },
+      "vserver_windows_userdp": {
+        "title": "Erstzugriff (RDP)",
+        "sidebar_label": "Erstzugriff (RDP)"
+      },
       "whatiszap": {
         "title": "Was ist ZAP-Hosting",
         "sidebar_label": "Was ist ZAP-Hosting"
