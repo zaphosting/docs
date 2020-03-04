@@ -46,9 +46,9 @@ const siteConfig = {
   // users,
 
   /* path to images for header/footer */
-  headerIcon: 'img/favicon.ico',
-  footerIcon: 'img/favicon.ico',
-  favicon: 'img/favicon.ico',
+  headerIcon: 'https://zap-cdn.com/interface/_images/favicon-32x32.png',
+  footerIcon: 'https://zap-cdn.com/interface/_images/favicon-32x32.png',
+  favicon: 'https://zap-cdn.com/interface/_images/favicon-32x32.png',
 
   /* Colors for website */
   colors: {
