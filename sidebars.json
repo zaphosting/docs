@@ -51,6 +51,10 @@
 			"type": "subcategory", 
 			"label": "Linux", 
 			"ids": ["vserver_linux_installjava", "vserver_linux_docker", "vserver_linux_plesk", "vserver_linux_openvpn"]
+		},{
+			"type": "subcategory", 
+			"label": "Windows", 
+			"ids": ["vserver_windows_userdp"]
 		}],
 		"Beispiel Doc": ["beispiel"]
 	}
