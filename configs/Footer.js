@@ -30,8 +30,6 @@ class Footer extends React.Component {
               <img
                 src={this.props.config.baseUrl + this.props.config.footerIcon}
                 alt={this.props.config.title}
-                width="66"
-                height="58"
               />
             )}
           </a>
@@ -95,7 +93,7 @@ class Footer extends React.Component {
             )}
           </div>
         </section>
-        <section className="copyright">ZAP-Hosting GmbH & Co. KG</section>
+        <section className="copyright">All content is property of ZAP-Hosting GmbH & Co. KG</section>
       </footer>
     );
   }
