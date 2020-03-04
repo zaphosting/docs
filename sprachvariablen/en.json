@@ -6,8 +6,8 @@
     "tagline": "ZAP-Hosting Guides",
     "docs": {
       "account_2factor": {
-        "title": "Zwei-Faktor-Authentifizierung",
-        "sidebar_label": "Zwei-Faktor-Authentifizierung"
+        "title": "Two-Factor-Authenticiation",
+        "sidebar_label": "Two-Factor-Authenticiation"
       },
       "account_backup_storage": {
         "title": "Backup Storage",
@@ -22,24 +22,24 @@
         "sidebar_label": "Contracts & Prepaids"
       },
       "account_donations": {
-        "title": "Spendenlink",
-        "sidebar_label": "Spendenlink"
+        "title": "Donation Link",
+        "sidebar_label": "Donation Link"
       },
       "account_friends": {
-        "title": "Freunde werben",
-        "sidebar_label": "Freunde werben"
+        "title": "Affiliates",
+        "sidebar_label": "Affiliates"
       },
       "account_partner_system": {
         "title": "Partner System",
         "sidebar_label": "Partner System"
       },
       "account_usermanagement": {
-        "title": "Benutzerverwaltung",
-        "sidebar_label": "Benutzerverwaltung"
+        "title": "User Management",
+        "sidebar_label": "User Management"
       },
       "account_vouchers": {
-        "title": "Gutscheine & Codes",
-        "sidebar_label": "Gutscheine & Codes"
+        "title": "Coupons & Codes",
+        "sidebar_label": "Coupons & Codes"
       },
       "beispiel": {
         "title": "Beispiel-Eintrag",
@@ -54,16 +54,16 @@
         "sidebar_label": "Contract or Prepaid"
       },
       "firststeps_rent_location": {
-        "title": "Standort",
-        "sidebar_label": "Standort"
+        "title": "Location",
+        "sidebar_label": "Location"
       },
       "firststeps_rent": {
-        "title": "Server Mieten",
-        "sidebar_label": "Server Mieten"
+        "title": "Rent a Server",
+        "sidebar_label": "Rent a Server"
       },
       "firststeps": {
-        "title": "Die ersten Schritte",
-        "sidebar_label": "Die ersten Schritte"
+        "title": "First Steps",
+        "sidebar_label": "First Steps"
       },
       "fivem_dashboard": {
         "title": "Dashboard",
@@ -86,8 +86,8 @@
         "sidebar_label": "FTP Dateizugriff"
       },
       "gameserver_resourcelimit": {
-        "title": "Resourcenlimit",
-        "sidebar_label": "Resourcenlimit"
+        "title": "Resource Limit",
+        "sidebar_label": "Resource Limit"
       },
       "gameserver_restartplaner": {
         "title": "Restartplaner",
@@ -126,8 +126,8 @@
         "sidebar_label": "Java installieren"
       },
       "whatiszap": {
-        "title": "Was ist ZAP-Hosting",
-        "sidebar_label": "Was ist ZAP-Hosting"
+        "title": "What is ZAP-Hosting",
+        "sidebar_label": "What is ZAP-Hosting"
       }
     },
     "links": {
