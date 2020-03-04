@@ -117,6 +117,10 @@
         "title": "Installation",
         "sidebar_label": "Installation"
       },
+      "vserver_linux_dnsserver": {
+        "title": "DNS Server (ISPConfig)",
+        "sidebar_label": "DNS Server (ISPConfig)"
+      },
       "vserver_linux_docker": {
         "title": "Docker",
         "sidebar_label": "Docker"
@@ -124,6 +128,14 @@
       "vserver_linux_installjava": {
         "title": "Java installieren",
         "sidebar_label": "Java installieren"
+      },
+      "vserver_linux_openvpn": {
+        "title": "OpenVPN",
+        "sidebar_label": "OpenVPN"
+      },
+      "vserver_linux_plesk": {
+        "title": "Plesk",
+        "sidebar_label": "Plesk"
       },
       "whatiszap": {
         "title": "Was ist ZAP-Hosting",
