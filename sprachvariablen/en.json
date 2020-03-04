@@ -8,7 +8,7 @@
       "account_2factor": {
         "title": "Zwei-Faktor-Authentifizierung",
         "sidebar_label": "Zwei-Faktor-Authentifizierung"
-      },
+      }, 
       "account_backup_storage": {
         "title": "Backup Storage",
         "sidebar_label": "Backup Storage"
