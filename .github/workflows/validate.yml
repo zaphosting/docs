@@ -11,4 +11,4 @@ jobs:
         uses: docker://orrosenblatt/validate-json-action:latest
         env:
           INPUT_SCHEMA: "/.github/workflows/schema.json"
-          INPUT_JSONS: /sidebars.json
+          INPUT_JSONS: /sidebars.json,/sprachvariablen/en.json,/sprachvariablen/de.json
