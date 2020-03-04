@@ -53,3 +53,8 @@ blockquote {
 .copyright-home:hover{
     opacity:1
 }
+
+.nav-footer .sitemap{
+    margin:0 auto ;
+	padding-left:16em;
+}
