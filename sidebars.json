@@ -50,7 +50,7 @@
 		"Vserver & Rootserver": [{
 			"type": "subcategory", 
 			"label": "Linux", 
-			"ids": ["vserver_linux_installjava", "vserver_linux_docker"]
+			"ids": ["vserver_linux_installjava", "vserver_linux_docker", "vserver_linux_plesk"]
 		}],
 		"Beispiel Doc": ["beispiel"]
 	}
