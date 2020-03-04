@@ -25,14 +25,6 @@ class Footer extends React.Component {
     return (
       <footer className="nav-footer" id="footer">
         <section className="sitemap">
-          <a href={this.props.config.baseUrl} className="nav-home">
-            {this.props.config.footerIcon && (
-              <img
-                src={this.props.config.baseUrl + this.props.config.footerIcon}
-                alt={this.props.config.title}
-              />
-            )}
-          </a>
           <div>
             <h5>Docs</h5>
             <a href={this.docUrl('doc1.html', this.props.language)}>
@@ -93,6 +85,14 @@ class Footer extends React.Component {
             )}
           </div>
         </section>
+        <a href={this.props.config.baseUrl} className="copyright-home">
+            {this.props.config.footerIcon && (
+              <img
+                src={this.props.config.baseUrl + this.props.config.footerIcon}
+                alt={this.props.config.title}
+              />
+            )}
+          </a>
         <section className="copyright">All content is property of ZAP-Hosting GmbH & Co. KG</section>
       </footer>
     );
