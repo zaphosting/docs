@@ -55,7 +55,6 @@
 			"type": "subcategory", 
 			"label": "Windows", 
 			"ids": ["vserver_windows_userdp"]
-		}],
-		"Beispiel Doc": ["beispiel"]
+		}]
 	}
 }
