@@ -57,7 +57,8 @@
 			 "type":"subcategory",
 			 "label":"Feed the Beast",
 			 "ids":[
-				"minecraft_direwolf20"
+				"minecraft_direwolf20",
+				"test"
 			 ]
 		  },
 		  {
@@ -86,12 +87,13 @@
 			 ]
 		  },
 		  {
-			 "type":"subcategory",
+			 "type":"subcategory",s
 			 "label":"Dunko VRP",
 			 "ids":[
  
 			 ]
-		  }
+		  },
+		  "asdasd"
 	   ],
 	   "Source Games":[
 		  {
