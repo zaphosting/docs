@@ -69,7 +69,7 @@ If you change anything after you create the pull request, it will automatically 
 
 ## How do I set the language variables for the sidebar?
 
-There are 2 options here, either after your PR has been merged or before, after is always easier as the system always updates the en.json language variable, but you can also add it manually, see [en.json](https://github.com/Bluethefurry/docs/blob/master/sprachvariablen/en.json) and [en.json](https://github.com/Bluethefurry/docs/blob/master/sprachvariablen/de.json).
+There are 2 options here, either after your PR has been merged or before, after is always easier as the system always updates the en.json language variable, but you can also add it manually, see [en.json](https://github.com/Bluethefurry/docs/blob/master/sprachvariablen/en.json) and [de.json](https://github.com/Bluethefurry/docs/blob/master/sprachvariablen/de.json).
 **Note: the english file is !always! automatically generated, to translate it you have to translate the pages in the "en" folder**
 
 Then create a PR, as above, and that's it!
