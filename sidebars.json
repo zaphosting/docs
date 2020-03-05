@@ -1,60 +1,126 @@
 {
-	"docs": {
-		"Overview": ["whatiszap", {
-			"type": "subcategory",
-			"label": "First Steps",
-			"ids": ["firststeps_register", "firststeps_rent", "firststeps_rent_contractorprepaid", "firststeps_rent_location"]
-		}],
-		"Account": ["account_contractsandprepaid", "account_2factor", "account_backup_storage", "account_partner_system", "account_friends", "account_cashbox", "account_usermanagement","account_vouchers", "account_donations"],
-		"Gameserver - General": ["gameserver_resourcelimit",
-			{
-				"type": "subcategory", 
-				"label": "Databases", 
-				"ids": ["gameserver_databases_pma", "gameserver_databases_self"]
-			}, "gameserver_ftpaccess", "gameserver_restartplaner"],
-		"Minecraft":[{
-			"type": "subcategory", 
-			"label": "Administration", 
-			"ids": ["minecraft_addop", "minecraft_worlds"]
-		},{
-			"type": "subcategory", 
-			"label": "Spigot & Bukkit", 
-			"ids": ["minecraft_pluginuploader"]
-		},{
-			"type": "subcategory", 
-			"label": "Feed the Beast", 
-			"ids": ["minecraft_direwolf20"]
-		},{
-			"type": "subcategory", 
-			"label": "AT Launcher", 
-			"ids": []
-		},{
-			"type": "subcategory", 
-			"label": "Technic Launcher", 
-			"ids": []
-		}],
-		"FiveM":["fivem_dashboard", "fivem_windowsorlinux", {
-			"type": "subcategory", 
-			"label": "ESX", 
-			"ids": []
-		}, {
-			"type": "subcategory", 
-			"label": "Dunko VRP", 
-			"ids": []
-		}],
-		"Source Games":[{
-			"type": "subcategory", 
-			"label": "Sourcemod / Metamod", 
-			"ids": ["source_metamod_installation", "source_metamod_addadmins"]
-		}],
-		"Vserver & Rootserver": [{
-			"type": "subcategory", 
-			"label": "Linux", 
-			"ids": ["vserver_linux_installjava", "vserver_linux_docker", "vserver_linux_plesk", "vserver_linux_openvpn"]
-		},{
-			"type": "subcategory", 
-			"label": "Windows", 
-			"ids": ["vserver_windows_userdp"]
-		}]
+	"docs":{
+	   "Overview":[
+		  "whatiszap",
+		  {
+			 "type":"subcategory",
+			 "label":"First Steps",
+			 "ids":[
+				"firststeps_register",
+				"firststeps_rent",
+				"firststeps_rent_contractorprepaid",
+				"firststeps_rent_location"
+			 ]
+		  }
+	   ],
+	   "Account":[
+		  "account_contractsandprepaid",
+		  "account_2factor",
+		  "account_backup_storage",
+		  "account_partner_system",
+		  "account_friends",
+		  "account_cashbox",
+		  "account_usermanagement",
+		  "account_vouchers",
+		  "account_donations"
+	   ],
+	   "Gameserver - General":[
+		  "gameserver_resourcelimit",
+		  {
+			 "type":"subcategory",
+			 "label":"Databases",
+			 "ids":[
+				"gameserver_databases_pma",
+				"gameserver_databases_self"
+			 ]
+		  },
+		  "gameserver_ftpaccess",
+		  "gameserver_restartplaner"
+	   ],
+	   "Minecraft":[
+		  {
+			 "type":"subcategory",
+			 "label":"Administration",
+			 "ids":[
+				"minecraft_addop",
+				"minecraft_worlds"
+			 ]
+		  },
+		  {
+			 "type":"subcategory",
+			 "label":"Spigot & Bukkit",
+			 "ids":[
+				"minecraft_pluginuploader"
+			 ]
+		  },
+		  {
+			 "type":"subcategory",
+			 "label":"Feed the Beast",
+			 "ids":[
+				"minecraft_direwolf20"
+			 ]
+		  },
+		  {
+			 "type":"subcategory",
+			 "label":"AT Launcher",
+			 "ids":[
+ 
+			 ]
+		  },
+		  {
+			 "type":"subcategory",
+			 "label":"Technic Launcher",
+			 "ids":[
+ 
+			 ]
+		  }
+	   ],
+	   "FiveM":[
+		  "fivem_dashboard",
+		  "fivem_windowsorlinux",
+		  {
+			 "type":"subcategory",
+			 "label":"ESX",
+			 "ids":[
+ 
+			 ]
+		  },
+		  {
+			 "type":"subcategory",
+			 "label":"Dunko VRP",
+			 "ids":[
+ 
+			 ]
+		  }
+	   ],
+	   "Source Games":[
+		  {
+			 "type":"subcategory",
+			 "label":"Sourcemod / Metamod",
+			 "ids":[
+				"source_metamod_installation",
+				"source_metamod_addadmins"
+			 ]
+		  }
+	   ],
+	   "Vserver & Rootserver":[
+		  {
+			 "type":"subcategory",
+			 "label":"Linux",
+			 "ids":[
+				"vserver_linux_installjava",
+				"vserver_linux_docker",
+				"vserver_linux_plesk",
+				"vserver_linux_openvpn"
+			 ]
+		  },
+		  {
+			 "type":"subcategory",
+			 "label":"Windows",
+			 "ids":[
+				"vserver_windows_userdp"
+			 ]
+		  }
+	   ]
 	}
-}
+ }
