@@ -38,7 +38,7 @@ Wenn die oben genannten Schritte abgeschlossen sind, dann geht es an die eigentl
 Die Dateien müssen in dem Hauptverzeichnis hochgeladen werden. Das Hauptverzeichnis befindet sich unter der folgenden Ordner Struktur:
 
 | Spiel | Verzeichnis  |
-| -----|:-------------:| 
+| :-----: |:-------------:| 
 | CS: Clobal Offensive | csgo |
 | CS: Source | cstrike |
 | Team Fortress 2 | tf2 |
