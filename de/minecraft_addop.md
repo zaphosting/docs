@@ -26,7 +26,7 @@ Nach wenigen Sekunden sollte der gesendete Befehl in der Konsole erscheinen, wor
 Die OP-Rechte sind in vier Level unterteilt, wobei standardmäßig immer Level 4 gesetzt wird. Die jeweiligen Level beinhalten verschiedene Rechte, sodass die Rechte je nach Spieler grob eingeteilt werden können. Die jeweiligen Rechte eines Levels sehen wie folgt aus:
 
 | Level | Bezeichnung | Rechte  |
-| -----|:-------------:| -----:|
+| :-----: |:-------------:| :-----:|
 | 1 | Moderator | Veränderungen innerhalb des geschützten Spawnbereichs können vorgenommen werden. |
 | 2 | Gamemaster | Befehlsblöcke setzen und editieren, sowie das Ausführen diverse Cheat-Befehle (z.B.: /gamemode). |
 | 3 | Admin  | Kicken und bannen von Spielern, sowie weitere Befehle, die der allgemeinen Verwaltung des Servers angehören. Zudem können weitere Operatoren ernannt werden. |
