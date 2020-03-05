@@ -27,20 +27,20 @@
 		},{
 			"type": "subcategory", 
 			"label": "AT Launcher", 
-			"ids": ["beispiel"]
+			"ids": []
 		},{
 			"type": "subcategory", 
 			"label": "Technic Launcher", 
-			"ids": ["beispiel"]
+			"ids": []
 		}],
 		"FiveM":["fivem_dashboard", "fivem_windowsorlinux", {
 			"type": "subcategory", 
 			"label": "ESX", 
-			"ids": ["beispiel"]
+			"ids": []
 		}, {
 			"type": "subcategory", 
 			"label": "Dunko VRP", 
-			"ids": ["beispiel"]
+			"ids": []
 		}],
 		"Source Games":[{
 			"type": "subcategory", 
