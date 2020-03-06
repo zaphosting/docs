@@ -36,10 +36,12 @@ Damit die Titel in der rechten inhaltsanzeige angezeigt werden, sollten immer h2
 
 Verwendet werden, diese können auch untereinander stehen.
 
-Weitere beispiele können in 
-https://raw.githubusercontent.com/zap-docs/docs/master/de/beispiel.md
 
-gefunden werden.
+Resources und how-to's
+
+https://docusaurus.io/docs/en/doc-markdown
+https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+https://raw.githubusercontent.com/zap-docs/docs/master/de/beispiel.md
 
 
 ## Seite Fertig, was nun?

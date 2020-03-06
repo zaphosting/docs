@@ -36,7 +36,10 @@ In order for the titles to be displayed in the right hand content display, alway
 
 h3 also show as subcategories of h2 headers
 
-Further examples can be found in 
+Resources and how-to's
+
+https://docusaurus.io/docs/en/doc-markdown
+https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 https://raw.githubusercontent.com/zap-docs/docs/master/de/beispiel.md
 
 
