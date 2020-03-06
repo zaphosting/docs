@@ -103,7 +103,7 @@
 			 ]
 		  }
 	   ],
-	   "Vserver & Rootserver":[
+	   "vServer & Rootserver":[
 		  {
 			 "type":"subcategory",
 			 "label":"Linux",
