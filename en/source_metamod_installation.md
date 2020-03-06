@@ -2,7 +2,6 @@
 id: source_metamod_installation
 title: Installation
 sidebar_label: Installation
-custom_edit_url: https://github.com/zap-docs/docs/blob/master/en/source_metamod_installation.md
 ---
 
 ## ❓ Was ist SM und MM überhaupt?
@@ -59,7 +58,6 @@ Zum Überprüfen, ob die Erweiterungen fehlerfrei installiert wurden, gibt es zw
 2. Remote Console (HLSW - RCON)
 
 ###  Versionsabfrage via Spiel
-### 🕹️ Versionsabfrage via Spiel
 
 Über die folgenden Schritte können wir die Version für den eigenen Server prüfen
 
@@ -113,4 +111,4 @@ Metamod:Source version 1.10.7-dev
          http://www.metamodsource.net/
 ```
 
-HLSW herunterladen: http://www.hlsw.net/hlsw/download/HLSW herunterladen: http://www.hlsw.net/hlsw/download/
+HLSW herunterladen: http://www.hlsw.net/hlsw/download/

@@ -2,7 +2,6 @@
 id: minecraft_addop
 title: OP-Rechte
 sidebar_label: OP-Rechte
-custom_edit_url: https://github.com/zap-docs/docs/blob/master/en/minecraft_addop.md
 ---
 
 ## OP-Rechte vergeben
@@ -36,7 +35,6 @@ Die OP-Rechte sind in vier Level unterteilt, wobei standardmäßig immer Level 4
 > Durch die Installation eines Rechte-Plugins wie LuckPerms auf deinem Bukkit/Spigot Server, können die Rechte viel spezieller und detailreicher festgelegt werden. Zudem können auch mehrere Gruppe erstellt werden, was die Verteilung von Rechten vereinfacht.
 
 ## Rechte-Level zuweisen
-### Rechte-Level zuweisen
 
 Um das Level eines Spielers anzupassen, muss dieser zuerst zum Operator ernannt werden, wie unter "OP-Rechte vergeben" erklärt wird. Damit das Level angepasst werden kann, muss die Datei "ops.json" mittels FTP-Verbindung bearbeitet werden.
 
@@ -48,4 +46,4 @@ Nun muss bei dem gewünschten Spieler der Wert von "level" auf das gewünschte L
 
 ![](https://i.imgur.com/bq4seRq.png)
 
-Damit die Änderungen übernommen werden, ist ein Neustart des Servers nötig, was mit dem Halten des roten Stop-Buttons im Interface des Servers möglich ist.Damit die Änderungen übernommen werden, ist ein Neustart des Servers nötig, was mit dem Halten des roten Stop-Buttons im Interface des Servers möglich ist.
+Damit die Änderungen übernommen werden, ist ein Neustart des Servers nötig, was mit dem Halten des roten Stop-Buttons im Interface des Servers möglich ist.

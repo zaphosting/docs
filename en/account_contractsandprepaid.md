@@ -2,7 +2,6 @@
 id: account_contractsandprepaid
 title: Contracts & Prepaids
 sidebar_label: Contracts & Prepaids
-custom_edit_url: https://github.com/zap-docs/docs/blob/master/en/account_contractsandprepaid.md
 ---
 
 ## 📚 Contracts & Prepaids
