@@ -2,6 +2,7 @@
 id: firststeps_rent_contractorprepaid
 title: Vertrag oder Prepaid
 sidebar_label: Vertrag oder Prepaid
+custom_edit_url: https://github.com/zap-docs/docs/blob/master/de/firststeps_rent_contractorprepaid.md
 ---
 Erfahre mehr zu den Unterschieden zwischen Verträgen und Prepaids
 

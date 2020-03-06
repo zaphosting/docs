@@ -2,6 +2,7 @@
 id: source_metamod_installation
 title: Installation
 sidebar_label: Installation
+custom_edit_url: https://github.com/zap-docs/docs/blob/master/de/source_metamod_installation.md
 ---
 
 ## ❓ Was ist SM und MM überhaupt?
