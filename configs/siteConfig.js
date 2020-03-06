@@ -86,11 +86,6 @@ const siteConfig = {
   // No .html extensions for paths.
   cleanUrl: true,
 
-  // add "edit" button to docs
-  editUrl:"https://github.com/zap-docs/docs/",
-  // Show documentation's last contributor's name.
-  enableUpdateBy: true,
-
   // Open Graph and Twitter card images.
   ogImage: 'img/undraw_online.svg',
   twitterImage: 'img/undraw_tweetstorm.svg',
@@ -99,6 +94,8 @@ const siteConfig = {
   // Expand/collapse the links and subcategories under categories.
    docsSideNavCollapsible: true,
 
+  // Show documentation's last contributor's name.
+  //enableUpdateBy: true,
 
   // Show documentation's last update time.
   // enableUpdateTime: true,
