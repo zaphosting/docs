@@ -2,6 +2,7 @@
 id: domain_easydns
 title: EasyDNS
 sidebar_label: EasyDNS
+custom_edit_url: https://github.com/zap-docs/docs/blob/master/en/domain_easydns.md
 ---
 
 ## ❓ Was ist EasyDNS überhaupt?

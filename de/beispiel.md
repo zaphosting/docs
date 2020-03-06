@@ -2,6 +2,7 @@
 id: beispiel
 title: Beispiel-Eintrag
 sidebar_label: Beispiel Eintrag
+custom_edit_url: https://github.com/zap-docs/docs/blob/master/de/beispiel.md
 ---
 
 ^^^^ Das hier oben ist immer nötig, auch immer korrekt umändern!

@@ -2,6 +2,7 @@
 id: vserver_windows_userdp
 title: Erstzugriff (RDP)
 sidebar_label: Erstzugriff (RDP)
+custom_edit_url: https://github.com/zap-docs/docs/blob/master/de/vserver_windows_userdp.md
 ---
 
 ## 🖥 Remotedesktopverbindung

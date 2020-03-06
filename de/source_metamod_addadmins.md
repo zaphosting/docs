@@ -2,6 +2,7 @@
 id: source_metamod_addadmins
 title: Admin werden
 sidebar_label: Admin werden
+custom_edit_url: https://github.com/zap-docs/docs/blob/master/de/source_metamod_addadmins.md
 ---
 
 ## 🔐 Admin werden
