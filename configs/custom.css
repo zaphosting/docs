@@ -58,3 +58,10 @@ blockquote {
     margin:0 auto ;
 	padding-left:16em;
 }
+
+.docs-prev.button {
+	display:none;
+}
+.docs-next.button {
+	display:none;
+}
