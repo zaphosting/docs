@@ -2,7 +2,6 @@
 id: gameserver_ftpaccess
 title: FTP Dateizugriff
 sidebar_label: FTP Dateizugriff
-custom_edit_url: https://github.com/zap-docs/docs/blob/master/de/gameserver_ftpaccess.md
 ---
 
 ## Mit FTP verbinden

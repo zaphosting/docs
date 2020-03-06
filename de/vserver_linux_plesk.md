@@ -2,7 +2,6 @@
 id: vserver_linux_plesk
 title: Plesk
 sidebar_label: Plesk
-custom_edit_url: https://github.com/zap-docs/docs/blob/master/de/vserver_linux_plesk.md
 ---
 
 

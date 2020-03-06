@@ -2,7 +2,6 @@
 id: account_partner_system
 title: Partner System
 sidebar_label: Partner System
-custom_edit_url: https://github.com/zap-docs/docs/blob/master/en/account_partner_system.md
 ---
 
 ## What's the partner system?

@@ -2,7 +2,6 @@
 id: account_friends
 title: Freunde werben
 sidebar_label: Freunde werben
-custom_edit_url: https://github.com/zap-docs/docs/blob/master/de/account_friends.md
 ---
 
 ## Freunde werben Programm

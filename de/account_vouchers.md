@@ -2,7 +2,6 @@
 id: account_vouchers
 title: Gutscheine & Codes
 sidebar_label: Gutscheine & Codes
-custom_edit_url: https://github.com/zap-docs/docs/blob/master/de/account_vouchers.md
 ---
 
 

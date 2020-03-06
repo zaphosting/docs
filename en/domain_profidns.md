@@ -2,7 +2,6 @@
 id: domain_profidns
 title: ProfiDNS
 sidebar_label: ProfiDNS
-custom_edit_url: https://github.com/zap-docs/docs/blob/master/en/domain_profidns.md
 ---
 
 ## ❓ Was ist ProfiDNS überhaupt?

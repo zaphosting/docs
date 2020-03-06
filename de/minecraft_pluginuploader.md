@@ -2,7 +2,6 @@
 id: minecraft_pluginuploader
 title: Plugin Uploader
 sidebar_label: Plugin Uploader
-custom_edit_url: https://github.com/zap-docs/docs/blob/master/de/minecraft_pluginuploader.md
 ---
 
 ## 🕹 Plugin Uploader
