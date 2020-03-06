@@ -19,13 +19,14 @@ handler.on('push', function (event) {
   console.log('Received a push event for %s to %s',
     event.payload.repository.name,
     event.payload.ref)
-
-    execSh("./build.sh", {cwd : "/root/docusaurus"}, function(err){
-        if (err) {
-          console.log("Exit code: ", err.code);
-          return;
-        }
-    })
+    if (event.payload.ref == "refs/heads/master") {
+      execSh("./build.sh", {cwd : "/root/docusaurus"}, function(err){
+          if (err) {
+            console.log("Exit code: ", err.code);
+            return;
+          }
+      })
+    }
 
 
 })
