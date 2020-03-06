@@ -57,7 +57,7 @@ Zum Überprüfen, ob die Erweiterungen fehlerfrei installiert wurden, gibt es zw
 1. Spiel Konsole
 2. Remote Console (HLSW - RCON)
 
-###  Versionsabfrage via Spiel
+### 🕹️ Versionsabfrage via Spiel
 
 Über die folgenden Schritte können wir die Version für den eigenen Server prüfen
 
