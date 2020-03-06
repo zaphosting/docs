@@ -34,7 +34,7 @@ Die OP-Rechte sind in vier Level unterteilt, wobei standardmäßig immer Level 4
 
 > Durch die Installation eines Rechte-Plugins wie LuckPerms auf deinem Bukkit/Spigot Server, können die Rechte viel spezieller und detailreicher festgelegt werden. Zudem können auch mehrere Gruppe erstellt werden, was die Verteilung von Rechten vereinfacht.
 
-## Rechte-Level zuweisen
+### Rechte-Level zuweisen
 
 Um das Level eines Spielers anzupassen, muss dieser zuerst zum Operator ernannt werden, wie unter "OP-Rechte vergeben" erklärt wird. Damit das Level angepasst werden kann, muss die Datei "ops.json" mittels FTP-Verbindung bearbeitet werden.
 
