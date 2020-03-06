@@ -2,7 +2,6 @@
 id: vserver_linux_docker
 title: Docker
 sidebar_label: Docker
-custom_edit_url: https://github.com/zap-docs/docs/blob/master/de/vserver_linux_docker.md
 ---
 
 ## Was ist Docker überhaupt?

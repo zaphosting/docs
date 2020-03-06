@@ -2,7 +2,6 @@
 id: minecraft_addop
 title: OP-Rechte
 sidebar_label: OP-Rechte
-custom_edit_url: https://github.com/zap-docs/docs/blob/master/de/minecraft_addop.md
 ---
 
 ## OP-Rechte vergeben

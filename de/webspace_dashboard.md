@@ -2,7 +2,6 @@
 id: webspace_dashboard
 title: Dashboard
 sidebar_label: Dashboard
-custom_edit_url: https://github.com/zap-docs/docs/blob/master/de/webspace_dashboard.md
 ---
 
 ## Webspace
