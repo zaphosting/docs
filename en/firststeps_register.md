@@ -2,6 +2,7 @@
 id: firststeps_register
 title: Register
 sidebar_label: Register
+custom_edit_url: https://github.com/zap-docs/docs/blob/master/en/firststeps_register.md
 ---
 
 ## 🔐 Register with ZAP hosting
