@@ -20,6 +20,13 @@
 }
 
 @media only screen and (min-width: 1500px) {
+
+.nav-footer .sitemap{
+    margin:0 auto ;
+    padding-left:16em;
+}
+
+
 }
 
 blockquote {
@@ -54,9 +61,11 @@ blockquote {
     opacity:1
 }
 
-.nav-footer .sitemap{
-    margin:0 auto ;
-	padding-left:16em;
+.docs-prev.button {
+	display:none;
+}
+.docs-next.button {
+	display:none;
 }
 
 .docs-prev.button {
