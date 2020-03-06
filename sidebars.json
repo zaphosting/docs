@@ -121,6 +121,17 @@
 				"vserver_windows_userdp"
 			 ]
 		  }
-	   ]
+	   ],
+	   "Webspace & Domains":[
+		   {
+			"type":"subcategory",
+			"label":"Domain",
+			"ids":[
+				"domain_easydns",
+				"domain_profidns",
+				"domain_expertdns"
+			]
+		}
+	 ]
 	}
  }
