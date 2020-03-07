@@ -99,7 +99,7 @@
       },
       "gameserver_resourcelimit": {
         "title": "Resource limit",
-        "sidebar_label": "resource limit"
+        "sidebar_label": "Resource limit"
       },
       "gameserver_restartplaner": {
         "title": "Restartplaner",
