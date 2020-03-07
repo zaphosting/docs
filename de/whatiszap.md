@@ -24,6 +24,8 @@ Alle Einträge haben außerdem noch eine Rechte Sidebar, womit man schnell besti
 
 Wenn du einen Fehler findest, ein Bild korrigieren oder gar einen eigenen Eintrag schreiben willst, kannst du das bei uns über unsere [GitHub Repository](https://github.com/zap-docs/docs) machen.
 
+
+
 ### Eine Seite Verändern
 
 Um eine existierende Seite zu verändern kannst du oben rechts auf den "Edit" Button klicken:
@@ -62,6 +64,8 @@ Nun wurde deine Pull Request erstellt, bevor diese in das Wiki integriert wird, 
 Wenn du weitere Änderungen vornehmen willst, kannst du auf deine Branch öffnen, und dort weitere Dateien ändern, diese werden automatisch in die Pull Request integriert:
 
 ![](https://i.imgur.com/Tush4SB.png)
+
+
 
 ### Eine Neue Seite Erstellen
 
