@@ -6,8 +6,8 @@
     "tagline": "ZAP-Hosting Guides",
     "docs": {
       "account_2factor": {
-        "title": "Zwei-Faktor-Authentifizierung",
-        "sidebar_label": "Zwei-Faktor-Authentifizierung"
+        "title": "Zwei-Faktor-Authentication",
+        "sidebar_label": "Zwei-Faktor-Authentication"
       },
       "account_backup_storage": {
         "title": "Backup Storage",
@@ -22,24 +22,24 @@
         "sidebar_label": "Contracts & Prepaids"
       },
       "account_donations": {
-        "title": "Spendenlink",
-        "sidebar_label": "Spendenlink"
+        "title": "Donation Link",
+        "sidebar_label": "Donation Link"
       },
       "account_friends": {
-        "title": "Freunde werben",
-        "sidebar_label": "Freunde werben"
+        "title": "Refer a Friend",
+        "sidebar_label": "Refer a Friend"
       },
       "account_partner_system": {
         "title": "Partner System",
         "sidebar_label": "Partner System"
       },
       "account_usermanagement": {
-        "title": "Benutzerverwaltung",
-        "sidebar_label": "Benutzerverwaltung"
+        "title": "User Management",
+        "sidebar_label": "User Management"
       },
       "account_vouchers": {
-        "title": "Gutscheine & Codes",
-        "sidebar_label": "Gutscheine & Codes"
+        "title": "Coupons & Codes",
+        "sidebar_label": "Coupons & Codes"
       },
       "beispiel": {
         "title": "Beispiel-Eintrag",
@@ -66,24 +66,24 @@
         "sidebar_label": "Contract or Prepaid"
       },
       "firststeps_rent_location": {
-        "title": "Standort",
-        "sidebar_label": "Standort"
+        "title": "Location",
+        "sidebar_label": "Location"
       },
       "firststeps_rent": {
-        "title": "Server Mieten",
-        "sidebar_label": "Server Mieten"
+        "title": "Rent a Server",
+        "sidebar_label": "Rent a Server"
       },
       "firststeps": {
-        "title": "Die ersten Schritte",
-        "sidebar_label": "Die ersten Schritte"
+        "title": "The first steps",
+        "sidebar_label": "The first steps"
       },
       "fivem_dashboard": {
         "title": "Dashboard",
         "sidebar_label": "Dashboard"
       },
       "fivem_windowsorlinux": {
-        "title": "Windows oder Linux",
-        "sidebar_label": "Windows oder Linux"
+        "title": "Windows or Linux",
+        "sidebar_label": "Windows or Linux"
       },
       "gameserver_databases_pma": {
         "title": "PHPMyAdmin",
@@ -94,20 +94,20 @@
         "sidebar_label": "Zugriff extern (Navicat etc.)"
       },
       "gameserver_ftpaccess": {
-        "title": "FTP Dateizugriff",
-        "sidebar_label": "FTP Dateizugriff"
+        "title": "FTP File Access",
+        "sidebar_label": "FTP File Access"
       },
       "gameserver_resourcelimit": {
-        "title": "Resourcenlimit",
-        "sidebar_label": "Resourcenlimit"
+        "title": "Resource limit",
+        "sidebar_label": "resource limit"
       },
       "gameserver_restartplaner": {
         "title": "Restartplaner",
         "sidebar_label": "Restartplaner"
       },
       "minecraft_addop": {
-        "title": "OP-Rechte",
-        "sidebar_label": "OP-Rechte"
+        "title": "OP-Permissions",
+        "sidebar_label": "OP-Permissions"
       },
       "minecraft_direwolf20": {
         "title": "Direwolf20",
@@ -118,12 +118,12 @@
         "sidebar_label": "Plugin Uploader"
       },
       "minecraft_worlds": {
-        "title": "Welten",
-        "sidebar_label": "Welten"
+        "title": "Worlds",
+        "sidebar_label": "Worlds"
       },
       "source_metamod_addadmins": {
-        "title": "Admin werden",
-        "sidebar_label": "Admin werden"
+        "title": "Become an admin",
+        "sidebar_label": "Become an admin"
       },
       "source_metamod_installation": {
         "title": "Installation",
