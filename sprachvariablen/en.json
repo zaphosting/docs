@@ -6,8 +6,8 @@
     "tagline": "ZAP-Hosting Guides",
     "docs": {
       "account_2factor": {
-        "title": "Zwei-Faktor-Authentication",
-        "sidebar_label": "Zwei-Faktor-Authentication"
+        "title": "Two-Factor-Authentication",
+        "sidebar_label": "Two-Factor-Authentication"
       },
       "account_backup_storage": {
         "title": "Backup Storage",
