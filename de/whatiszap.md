@@ -145,13 +145,13 @@ Wenn beide versionen erstellt wurden, muss deine neue Seite nur noch in die side
 
 ![](https://i.imgur.com/YyutX8M.png)
 
-Die sidebars.json datei beschriebt, wo genau in der linken Seitenleiste die Artikel zu finden sind, und folgt dem JSON Format.
+> Die sidebars.json Datei beschriebt, wo genau in der linken Seitenleiste die Artikel zu finden sind, und folgt dem JSON Format.
 
 um die Seite nun bei Minecraft einzufügen, musst du die Minecraft Kategorie finden, und dir überlegen in welche Kategorie sie passt:
 
 ![](https://i.imgur.com/C5XPt7b.png)
 
-Wenn du dir nicht sicher bist, ob eine existierende Kategorie Passt, kann auch eine neue erstellt werden, dazu benutze folgendes beispiel:
+Wenn du dir nicht sicher bist, ob eine existierende Subkategorie Passt, kann auch eine neue erstellt werden, dazu benutze folgendes beispiel:
 
 ```json
 {
