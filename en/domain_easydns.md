@@ -4,25 +4,26 @@ title: EasyDNS
 sidebar_label: EasyDNS
 ---
 
-## ❓ Was ist EasyDNS überhaupt?
+## ❓ What is EasyDNS anyway?
 
-Mit der **EasyDNS Funktion** kann  die Weiterleitung einer Domain, welche bei **uns** gemietet wurde, auf ein anderes Produkt auf dem **selben** Account mit einem Klick eingestellt werden.
+With the **EasyDNS function** the forwarding of a domain, which was rented at **uns**, to another product on the **same** account can be set with one click.
 
-## ✅ Wo finde ich die EasyDNS Option und wie verwende ich es?
+## ✅ Where do I find the EasyDNS option and how do I use it?
 
-Die Option wird einem angezeigt, soweit man die gewünschte Domain bei sich im Interface anklickt.
+The option will be shown, if you click on the desired domain in the interface.
 
 ![](https://i.imgur.com/p8p7Wqk.png)
 
-Hier angekommen, kann man dann einen bestehenden Dienst aus einer Liste auswählen.
-So wie es im obigen Beispiel zu sehen ist.
-Man wählt den gewünschten Dienst aus und bestätigt es dann mit einem Klick auf den "Speichern" Button.
-Es gibt ebenfalls die Option, dass man seine Domain mit einer Subdomain auf einen Minecraft Server weiterleitet.
+Once here, you can then select an existing service from a list.
+As shown in the example above.
+Select the desired service and confirm it by clicking the "Save" button.
+There is also the option to forward your domain to a Minecraft server with a subdomain.
 
 ![](https://i.imgur.com/cwuZN3W.png)
 
-Hier kann im ersten Feld der Name der **gewünschten Subdomain** eingetragen werden.
-Rechts daneben wählt man den gewünschten **Minecraft Server** aus, welchen man mit der Subdomain dann verknüpfen möchte.
+Here you can enter the name of the **desired subdomain** in the first field.
+On the right side you choose the desired **Minecraft Server**, which you want to link to the subdomain.
 
-> Bitte beachte, dass es bis zu 24 Stunden in Anspruch nehmen kann, bis Änderungen an den Domains global übernommen worden sind!
+> Please note that it can take up to 24 hours until changes to the domains have been adopted globally!
+
 

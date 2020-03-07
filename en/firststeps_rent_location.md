@@ -1,7 +1,7 @@
 ---
 id: firststeps_rent_location
-title: Standort
-sidebar_label: Standort
+title: Location
+sidebar_label: Location
 ---
 
-Wieso ist es so wichtig, den passenden Standort für meinen Server zu wählen?
+Why is it so important to choose the right location for my server?

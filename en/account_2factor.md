@@ -1,7 +1,7 @@
 ---
 id: account_2factor
-title: Zwei-Faktor-Authentifizierung
-sidebar_label: Zwei-Faktor-Authentifizierung
+title: Zwei-Faktor-Authentication
+sidebar_label: Zwei-Faktor-Authentication
 ---
 
-Erfahre mehr über die 2FA Authentifizierung deines ZAP Accounts.
+Learn more about the 2FA authentication of your ZAP account.

@@ -1,7 +1,7 @@
 ---
 id: fivem_windowsorlinux
-title: Windows oder Linux
-sidebar_label: Windows oder Linux
+title: Windows or Linux
+sidebar_label: Windows or Linux
 ---
 
 --

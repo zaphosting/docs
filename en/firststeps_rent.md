@@ -1,7 +1,7 @@
 ---
 id: firststeps_rent
-title: Server Mieten
-sidebar_label: Server Mieten
+title: Rent a Server
+sidebar_label: Rent a Server
 ---
 
-asdasd
+--
