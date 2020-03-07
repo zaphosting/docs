@@ -57,7 +57,9 @@ Wenn du dir sicher bist, dass alles korrekt ist, kannst du nun auf "**Create Pul
 ![](https://i.imgur.com/4SdxcHb.png)
 
 
-Nun wurde deine Pull Request erstellt, bevor diese in das Wiki integriert wird, muss diese auf Richtigkeit überprüft werden, dazu erhältst du ggf. eine Antwort auf den Pull Request oder eine E-Mail vom System.
+Nun wurde deine Pull Request erstellt.
+
+> Bevor diese in das Wiki integriert wird, muss diese auf Richtigkeit überprüft werden, dazu erhältst du ggf. eine Antwort auf den Pull Request oder eine E-Mail vom System.
 
 ![](https://i.imgur.com/M4VZpra.png)
 
@@ -224,7 +226,9 @@ Wenn du dir sicher bist, dass alles korrekt ist, kannst du nun auf "**Create Pul
 
 ![](https://i.imgur.com/4SdxcHb.png)
 
-Nun wurde deine Pull Request erstellt, bevor diese in das Wiki integriert wird, muss diese auf Richtigkeit überprüft werden, dazu erhältst du ggf. eine Antwort auf den Pull Request oder eine E-Mail vom System.
+Nun wurde deine Pull Request erstellt.
+
+> Bevor diese in das Wiki integriert wird, muss diese auf Richtigkeit überprüft werden, dazu erhältst du ggf. eine Antwort auf den Pull Request oder eine E-Mail vom System.
 
 ![](https://i.imgur.com/M4VZpra.png)
 
