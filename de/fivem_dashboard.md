@@ -1,7 +1,7 @@
 ---
 id: fivem_dashboard
-title: Dashboard
-sidebar_label: Dashboard
+title: Administration
+sidebar_label: Administration
 ---
 
 ## 📔 Übersicht
