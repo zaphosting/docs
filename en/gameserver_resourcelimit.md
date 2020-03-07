@@ -1,7 +1,7 @@
 ---
 id: gameserver_resourcelimit
-title: Resourcenlimit
-sidebar_label: Resourcenlimit
+title: Resource limit
+sidebar_label: resource limit
 ---
 
-Erfahre hier, was zu einer Sperrung deines Gameservers wegen der Überschreitung des Resourcenlimits führen kann und wie du das Problem behebst.
+Find out here what can lead to a blockage of your game server due to exceeding the resource limit and how to fix the problem.

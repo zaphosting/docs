@@ -1,69 +1,69 @@
 ---
 id: account_vouchers
-title: Gutscheine & Codes
-sidebar_label: Gutscheine & Codes
+title: Coupons & Codes
+sidebar_label: Coupons & Codes
 ---
 
 
-Um unsere Codes nutzen zu können, solltest du dich zuerst auf unserer Website anmelden bzw registrieren. Das geht natürlich mit nur wenigen Klicks und ist absolut kostenlos.
+To use our codes, you should first log in or register on our website. Of course, this can be done with just a few clicks and is absolutely free of charge.
 
 ![](https://i.imgur.com/9XzNr1N.png)
 
-Sobald du eingeloggt bist, landest du automatisch in deinem Webinterface. Um nun einen Code nutzen zu können, solltest du erst in Erfahrung bringen welche Art Code du gerade einlösen möchtest. Grundsätzlich gibt es zwei unterschiedliche Arten von Gutscheincodes:
+As soon as you are logged in, you will automatically land in your web interface. To use a code now, you should first find out what kind of code you want to redeem. Basically there are two different types of coupon codes:
 
-    1. Codes die dein ZAP-Guthaben erhöhen (**Gutscheincodes**)
-    2. Codes die den Preis einer Bestellung senken (**Rabattcodes**)
+    1. codes that increase your ZAP credit (**voucher codes**)
+    2. codes that reduce the price of an order (**discount codes**)
 
-## Guthabencodes
+## Credit codes
 
-Guthabencodes können eingelöst werden, indem du einfach oben in deinem Webinterface auf ZAP Coins klickst.
+Credit codes can be redeemed by simply clicking on ZAP Coins at the top of your web interface.
 
 ![](https://i.imgur.com/9mrom0F.png)
 
-Auf der nächsten Seite kannst du aussuchen, ob du Geld einzahlen, Guthaben automatisch aufladen oder einen Gutschein einlösen möchtest. Klicke also auf **Gutschein einlösen**.
+On the next page you can choose whether you want to deposit money, top up credit automatically or redeem a voucher. So click on ** Redeem voucher**.
 
 ![](https://i.imgur.com/7331SfI.png)
 
-Es öffnet sich ein Popup, in dem du den Code nun einfügen kannst.
+A popup will open where you can now insert the code.
 
 ![](https://i.imgur.com/KnuKndS.png)
 
-Ist der Gutschein korrekt eingegeben, noch immer gültig und wurde von dir nicht bereits verwendet, wird der Betrag automatisch auf dein ZAP-Konto gebucht. 
+If the voucher is entered correctly, is still valid and has not already been used by you, the amount is automatically booked to your ZAP account. 
 
 ![](https://i.imgur.com/H181XL7.png)
 
-> Sollte ein Code nicht funktionieren, kann es sein, dass er bereits abgelaufen ist, bereits verwendet wurde oder dass es sich bei dem Code nicht um einen Guthabencode handelt.
+> If a code does not work, it may be that it has already expired, has already been used or that the code is not a credit code.
 
-## Rabattcodes
+## Discount codes
 
-Rabattcodes funktionieren ähnlich wie die Guthabencodes, werden jedoch an einer anderen Stelle im Webinterface benutzt. Sie reduzieren bereits im Bestellprozess die Kosten für das Paket, das ihr buchen möchtet. Um diese Codes einzulösen, macht einfach folgendes:
-Sucht euch das Produkt, das ihr bestellen möchtet und konfiguriert es nach euren Wünschen.
+Discount codes work similar to credit codes, but are used elsewhere in the web interface. They already reduce the cost of the package you want to book during the ordering process. To redeem these codes, simply do the following:
+Find the product you want to order and configure it according to your wishes.
 
 ![](https://i.imgur.com/ZM8OJML.png)
 
-Sobald alles korrekt konfiguriert ist, könnt ihr euren Code noch im Bestellprozess benutzen. Klickt dazu einfach auf **Gutschein einlösen** unterhalb der Bestellkosten.
+Once everything is configured correctly, you can still use your code in the ordering process. Just click on **redeem voucher** below the order costs.
 
 ![](https://i.imgur.com/yZ9XmUl.png)
 
 ![](https://i.imgur.com/1g8mNXs.png)
 
-Die Kosten reduzieren sich automatisch sobald ihr den Gutschein einlöst. 
+The costs are automatically reduced as soon as you redeem the voucher. 
 
-> Es gibt zwei unterschiedliche Rabattcodes: 
-1. Codes die die Kosten für die zuerst gebuchte Laufzeit reduzieren
-2. Codes die dauerhaft die Kosten während der Laufzeit reduzieren
+> There are two different discount codes: 
+1. codes that reduce the cost of the first booked period
+2. codes that permanently reduce costs during the runtime
 
-## Wo gibt es Codes?
+## Where can i get Codes?
 
-Es gibt verschiedene Möglichkeiten, um an die begehrten Codes zu kommen. Am einfachsten findet man sie an folgenden Orten:
+There are several ways to get the coveted codes. The easiest places to find them are the following:
 
-- Unseren Social Media Plattformen wie [Twitter](https://twitter.com/zaphosting), [Facebook](https://www.facebook.com/zaphosting/) und [Instagram](https://www.instagram.com/zaphosting/)
-- In unserem Live Chat auf unserer Website
-- In unseren Newslettern
-- Direkt nach der Bestellung eines Produkts
+- Our social media platforms like [Twitter](https://twitter.com/zaphosting), [Facebook](https://www.facebook.com/zaphosting/) and [Instagram](https://www.instagram.com/zaphosting/)
+- In our live chat on our website
+- In our newsletters
+- Directly after ordering a product
 
 ![](https://i.imgur.com/Qp6Manc.png)
-Jeden Montag einen Euro? Wer schnell ist, kann sich einen der 100 Codes sichern.
+One euro every Monday? If you are fast, you can get one of the 100 codes.
 
 ![](https://i.imgur.com/7dDOJvh.png)
-Bestellung wird eingerichtet und direkt kann man 10% auf das nächste Produkt sparen!
+Order is set up and directly you can save 10% on the next product!
