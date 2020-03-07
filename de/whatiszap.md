@@ -137,7 +137,7 @@ Damit der Seiteninhalt in der rechten leiste angezeigt wird, **muss** der Titel 
 ```
 
 
-Nachdem die Seite geschrieben wurde, muss diese nun in den "en" ordner erneut erstellt, und übersetzt werden.
+Nachdem die Seite geschrieben wurde, muss diese nun im "en" ordner erneut erstellt, und übersetzt werden.
 
 > Beachte: Seiten müssen **immer** eine Englische und Deutsche Version haben.
 
