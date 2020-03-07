@@ -90,7 +90,7 @@ const siteConfig = {
   // No .html extensions for paths.
   cleanUrl: true,
 
-  editUrl:"https://github.com/zap-docs/docs/de/",
+  editUrl:"https://github.com/zap-docs/docs/tree/master/de/",
 
   // Open Graph and Twitter card images.
   ogImage: 'img/undraw_online.svg',
