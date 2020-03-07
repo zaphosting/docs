@@ -1,7 +1,7 @@
 ---
 id: account_donations
-title: Spendenlink
-sidebar_label: Spendenlink
+title: Donation Link
+sidebar_label: Donation Link
 ---
 
 --

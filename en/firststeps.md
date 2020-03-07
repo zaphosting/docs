@@ -1,7 +1,7 @@
 ---
 id: firststeps
-title: Die ersten Schritte
-sidebar_label: Die ersten Schritte
+title: The first steps
+sidebar_label: The first steps
 ---
 
 --

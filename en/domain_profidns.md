@@ -4,22 +4,22 @@ title: ProfiDNS
 sidebar_label: ProfiDNS
 ---
 
-## ❓ Was ist ProfiDNS überhaupt?
+## ❓ What is ProfiDNS anyway?
 
-Mit der **ProfiDNS Funktion** kann man bei seiner Domain weitere zusätzliche Einträge(Records) erstellen, welche man über die EasyDNS Option nicht vornehmen kann bzw wenn man selbst die gewünschten Einträge für seine Domain erstellen möchte.
+With the **ProfiDNS function** you can create additional entries (records) for your domain, which you cannot do with the EasyDNS option or if you want to create the desired entries for your domain yourself.
 
-## ✅ Wo finde ich die ProfiDNS Option und wie verwende ich es?
+## ✅ Where do I find the ProfiDNS Option and how do I use it?
 
-Die Option wird einem angezeigt, soweit man die gewünschte Domain bei sich im Interface anklickt.
-Scrollt man dann ein wenig nach unten werden einem die 3 zur Verfügung stehenden Optionen angezeigt.
-Die Haken bei ProfiDNS muss angeklickt + gespeichertwerden, damit man im Anschluss in der DNS Verwaltung die Einträge vornehmen kann.
+The option will be displayed, as long as you click on the desired domain in the interface.
+If you then scroll down a little, the 3 available options are displayed.
+The check mark at ProfiDNS must be clicked + saved so that you can make the entries in the DNS administration afterwards.
 
 ![](https://i.imgur.com/3xhoYIb.png)
 
-Im Anschluss findet man auf der linken Seite den Reiter "DNS-Verwaltung" über welchen man dann neue Einträge erstellen kann: 
+On the left hand side you will find the tab "DNS administration" where you can create new entries: 
 
 ![](https://i.imgur.com/LtJkuRL.png)
 
 ![](https://i.imgur.com/nvqte0w.png)
 
-Hier können dann Neue Einträge erstellt werden oder bestehende Einträge können bearbeitet / gelöscht werden.
+New entries can then be created or existing entries can be edited / deleted here.

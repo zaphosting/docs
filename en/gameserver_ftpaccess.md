@@ -1,68 +1,68 @@
 ---
 id: gameserver_ftpaccess
-title: FTP Dateizugriff
-sidebar_label: FTP Dateizugriff
+title: FTP File Access
+sidebar_label: FTP File Access
 ---
 
-## Mit FTP verbinden
+## Connect to FTP
 
-Um eine Verbindung mit dem Server herzustellen, muss die **IP-Adresse(FTP Server)**, der **Username** und das **Passwort** eingegeben werden. Diese Daten können unter FTP-Browser eingesehen werden. Der Port ist immer **21**, dieser wird aber in der Regel automatisch eingetragen.
+To connect to the server, enter the **IP address (FTP server)**, the **username** and the **password**. This data can be viewed under FTP Browser. The port is always **21**, but this is usually entered automatically.
 
 ![](https://i.imgur.com/BbgyBPS.png)
 
-## Über FileZilla verbinden
-### Richtige FileZilla Version
-> Man benötigt die "**FileZilla Client**" Version, nicht die FileZilla Server Version. 
+## Connect via FileZilla
+### Correct FileZilla Version
+> You need the "**FileZilla Client**" version, not the FileZilla Server version 
 
-> Stoppe deinen Server, bevor du Dateien via FTP bearbeitest oder hochlädst.
-> Nach dem Serverstop aktualisiere die FTP Rechte hier.
-> Bei gestartetem Server kann es zu "Permission denied" Fehlern kommen.
+> Stop your server before editing or uploading files via FTP.
+> After stopping the server update your FTP rights here.
+> When the server is started, you may get "Permission denied" errors.
 
-Wenn die Verbindung das erste Mal hergestellt wird, fragt das Programm, ob das Passwort gespeichert werden soll:
+When the connection is established for the first time, the program will ask if the password should be saved:
 
 ![](https://i.imgur.com/KnvtBVV.png)
 
-Ebenfalls wird gefragt, ob diese Verbindung zugelassen werden soll, da das **Passwort** im Klartext übermittelt wird:
+You will also be asked whether this connection should be allowed, since the **password** is transmitted in plain text:
 
 ![](https://i.imgur.com/8fd1uMu.png)
 
-### FileZilla Übersicht
+### FileZilla Overview
 
-Wenn die Verbindung hergestellt ist, kann man alle Daten einsehen und bearbeiten. Oben rechts hat man die Verzeichnisse. Dort kann man schnell zwischen den Ordnern wechseln. Unten rechts sind die Daten, die man mit Rechtsklick **herunterladen, ansehen** und **bearbeiten** kann:
+Once the connection is established, you can view and edit all data. In the upper right corner you have the directories. There you can quickly switch between the folders. At the bottom right are the data, which you can **download, view** and **edit** with a right click:
 
-> Wichtig ist, dass der Server offline sein muss, wenn man die Daten bearbeitet, da sie sonst nicht übernommen werden oder der Server crashen wird.
+> It is important that the server must be offline when you edit the data, otherwise it will not be taken over or the server will crash.
 
 ![](https://i.imgur.com/y0KBKma.png)
 
 
-### Dateien hochladen
+### Upload files
 
-Dateien können per "**Drag and Drop**" von der linken Seite (dem Computer), in die rechte Seite (den Server) gezogen werden. 
+Files can be dragged and dropped from the left side (the computer) to the right side (the server) using "**Drag and Drop**". 
 
-> Wenn man über mehrere Server verfügt, muss vorher die ID des Servers ermittelt werden, damit man die Daten in den richtigen Ordner verschiebt.
+> If you have more than one server, you have to find out the ID of the server first, so that you can move the data into the correct folder.
 
-## Über WinSCP verbinden
+## Connect via WinSCP
 
 WinSCP [Download](https://winscp.net/eng/index.php).
 
-> Stoppe deinen Server, bevor du Dateien via FTP bearbeitest oder hochlädst.
-> Nach dem Serverstop aktualisiere die FTP Rechte hier.
-> Bei gestartetem Server kann es zu "Permission denied" Fehlern kommen.
+> Stop your server before editing or uploading files via FTP.
+> After stopping the server, update your FTP rights here.
+> If the server is started, there may be "Permission denied" errors.
 
-Zum Verbinden muss das Übertragungsprotokoll auf FTP gestellt werden.
+To connect, the transfer protocol must be set to FTP.
 
 ![](https://i.imgur.com/OgQ5AuV.png)
 
-### WinSCP Übersicht
+### WinSCP Overview
 
-Auf der **linken Seite** sind die **eigenen Dateien** des Computers. Auf der **rechten Seite** sind die **Dateien vom Server**, die per Rechtsklick **bearbeitet, gelöscht** oder **heruntergeladen** werden können. **Oben** sieht man die **aktuelle Sitzung**, dort können mehrere Sitzungen gleichzeitig hergestellt werden.
+On the **left side** are the **own files** of the computer. On the **right side** are the **files from the server**, which can be **edited, deleted** or **downloaded** by right-clicking. On the **top** you can see the **current session**, there several sessions can be established at the same time.
 
-> Wichtig ist, dass der Server offline sein muss, wenn man die Daten bearbeitet, da sie sonst nicht übernommen werden oder der Server crashen wird.
+> It is important that the server must be offline when editing the data, otherwise the data will not be taken over or the server will crash.
 
 ![](https://i.imgur.com/OJ2IVZo.png)
 
-### Dateien hochladen
+### Upload files
 
-Dateien können per "**Drag and Drop**" von der linken Seite (dem Computer), in die rechte Seite (den Server) gezogen werden. 
+Files can be dragged and dropped from the left side (the computer) to the right side (the server) using "**Drag and Drop**". 
 
-> Wenn man über mehrere Server verfügt, muss vorher die ID des Servers ermittelt werden, damit man die Daten in den richtigen Ordner verschiebt.
+> If you have more than one server, you have to find out the ID of the server first, so that you can move the data into the correct folder.

@@ -4,64 +4,65 @@ title: Dashboard
 sidebar_label: Dashboard
 ---
 
-## 📔 Übersicht
 
-Das Dashboard ist die Hauptzentrale deines FiveM Servers. Hier kannst du den Server starten und stoppen, die Konsole sehen, Einstellungen ändern und Resourcen Installieren.
+## 📔 Overview
+
+The dashboard is the main center of your FiveM Server. Here you can start and stop the server, view the console, change settings and install resources.
 
 ![](https://i.imgur.com/r4rHxuv.png)
 
-## 🔧 Einstellungen
+## 🔧 Settings
 
-In den Einstellungen können Einstellungen wie z.b. Server Namen, Rcon Passwörter, Spielerslots, aktivierte Sprachen oder der Lizenzschlüssel geändert werden.
+In the settings you can change settings such as server names, Rcon passwords, player slots, activated languages or the license key.
 
 ![](https://i.imgur.com/Z6uu7Gx.png)
 
 ### 🔐 Admins
 
-Unter der Admin Liste können neue SteamIds eingefügt werden, diese werden z. B. bei Essentialmode, vMenu, EasyAdmin, aber auch für das Nucleus Webpanel genutzt.
+New SteamIds can be added under the Admin list, these are used for example for Essentialmode, vMenu, EasyAdmin, but also for the Nucleus Webpanel.
 
 ![](https://i.imgur.com/R7fOFmM.png)
 
-> Du kannst deine SteamID64 über das SteamID Lookup Tool herausfinden, dieser kann dir auch die SteamID von anderen Spielern Anzeigen.
+> You can find out your SteamID64 via the SteamID Lookup Tool, this can also show you the SteamID of other players.
 
-### 🇺🇲 Spracheinstellungen
+### 🇺🇲 Language settings
 
-Unter den Dunko VRP/ESX Einstellungen können die Sprachen welche im Spiel angezeigt werden.
+Under the Dunko VRP/ESX settings you can select the languages which are displayed in the game.
 
 ![](https://i.imgur.com/Sw865wY.png)
 
-> Diese Einstellung kann auch leer gelassen werden, dann wird keine Sprache gesetzt.
+> This setting can also be left blank, in which case no language is set.
 
-### 🔑 Rcon Passwort
+### 🔑 Rcon Password
 
-Das Rcon Passwort definiert das Passwort für den Fernzugriff auf den Server, diesen Zugriff kann über IceCon benutzt werden.
+The Rcon password defines the password for remote access to the server, this access can be used via IceCon.
 
 ![](https://i.imgur.com/CJhyUrI.png)
 
-### 📑 Eigener Lizenzkey
+### 📑 Own license key
 
-Dieser Key kann angegeben werden, wenn die FiveM Patreon Vorteile benutzt werden und ein Lizenzkey im Keymaster erstellt wurde, wenn diese Vorteile nicht benutzt oder benötigt werden kann das Feld leer gelassen werden
+This key can be specified if the FiveM Patreon benefits are used and a license key has been created in the keymaster, if these benefits are not used or needed the field can be left blank
 
 ![](https://i.imgur.com/EAWpClw.png)
 
 ### 📖 Configs
 
-Unter den Configs können die Einstellungen deines FiveM Servers, aber auch Resourcen wie z.b. vMenu oder Trafficadjuster geändert werden.
+Under the Configs you can change the settings of your FiveM Server, but also resources such as vMenu or Trafficadjuster.
 
 ![](https://i.imgur.com/qoIm6GL.png)
 
 ## 🕹 Resources
 
-Unter dem Resources Reiter können vorgefertigte FiveM Resourcen installiert werden, diese müssen meist nicht mehr eingestellt werden und können sofort Ingame benutzt werden.
+Under the Resources tab you can install ready-made FiveM resources, these usually do not need to be set up and can be used ingame immediately.
 
 ![](https://i.imgur.com/bSf41lA.png)
 
-> Erzwinge Überschreiben muss zum Editieren der Scripts deaktiviert werden, sonst werden alle änderungen mit der offiziellen version überschrieben.
+> Force overwrite must be disabled to edit the scripts, otherwise all changes will be overwritten with the official version.
 
 ## 🌏 Nucleus
 
-Nucleus ist ein FiveM-eigenes Admin-Panel zur Überwachung des Servers, hiermit können die Logs überprüft werden, Resourcen gestartet oder gestoppt werden, aber auch Spieler gekickt werden.
+Nucleus is FiveM's own admin panel for monitoring the server, with which logs can be checked, resources can be started or stopped, but also players can be kicked.
 
 ![](https://i.imgur.com/VrJYIu3.png)
 
-> Da Nucleus noch in der Alpha-Phase ist, kann es noch Probleme geben oder Features fehlen
+> As Nucleus is still in alpha phase, there may still be problems or missing features

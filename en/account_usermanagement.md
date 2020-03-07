@@ -1,7 +1,7 @@
 ---
 id: account_usermanagement
-title: Benutzerverwaltung
-sidebar_label: Benutzerverwaltung
+title: User Management
+sidebar_label: User Management
 ---
 
 --
