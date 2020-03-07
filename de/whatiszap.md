@@ -121,7 +121,7 @@ sidebar_label: Server Properties
 ---
 ```
 
-Darunter können dann die Docs geschrieben werden, zu beachten ist das Githubs markdown verwendet wird, hier sind einige Hilfen um Markdown zu verstehen:
+Darunter können dann die Docs geschrieben werden, zu beachten ist das GitHub's markdown verwendet wird, hier sind einige Hilfen um Markdown zu verstehen:
 
 - https://docusaurus.io/docs/en/doc-markdown#extra-features
 - https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
