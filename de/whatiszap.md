@@ -4,7 +4,7 @@ title: Die ZAP-Hosting Docs
 sidebar_label: Die ZAP-Hosting Docs
 ---
 
-## 📙 Die ZAP-Hosting Docs
+## Die ZAP-Hosting Docs
 
 Hier findest du Anleitungen und Erklärungen zu verschiedenen Produkten, Spielen oder dem Webinterface.
 
@@ -20,7 +20,7 @@ Alle Einträge haben außerdem noch eine Rechte Sidebar, womit man schnell besti
 ![](https://i.imgur.com/Tj9Ls48.png)
 
 
-## ✏️ Mitwirken
+## Mitwirken
 
 Wenn du einen Fehler findest, ein Bild korrigieren oder gar einen eigenen Eintrag schreiben willst, kannst du das bei uns über unsere [GitHub Repository](https://github.com/zap-docs/docs) machen.
 
