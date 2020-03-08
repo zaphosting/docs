@@ -1,14 +1,14 @@
 ---
 id: whatiszap
-title: Was ist ZAP-Hosting
-sidebar_label: Was ist ZAP-Hosting
+title: Die ZAP-Hosting Docs
+sidebar_label: Die ZAP-Hosting Docs
 ---
 
-## Die ZAP-Hosting Docs
+## 📙 Die ZAP-Hosting Docs
 
 Hier findest du Anleitungen und Erklärungen zu verschiedenen Produkten, Spielen oder dem Webinterface.
 
-### Navigation
+### 🗺️ Navigation
 
 In der Linken Sidebar können alle Doc-Einträge eingesehen und geöffnet werden:
 
@@ -20,13 +20,13 @@ Alle Einträge haben außerdem noch eine Rechte Sidebar, womit man schnell besti
 ![](https://i.imgur.com/Tj9Ls48.png)
 
 
-## Mitwirken
+## ✏️ Mitwirken
 
 Wenn du einen Fehler findest, ein Bild korrigieren oder gar einen eigenen Eintrag schreiben willst, kannst du das bei uns über unsere [GitHub Repository](https://github.com/zap-docs/docs) machen.
 
 
 
-### Eine Seite Verändern
+### 📝 Eine Seite Verändern
 
 Um eine existierende Seite zu verändern kannst du oben rechts auf den "Edit" Button klicken:
 
@@ -68,8 +68,7 @@ Wenn du weitere Änderungen vornehmen willst, kannst du auf deine Branch öffnen
 ![](https://i.imgur.com/Tush4SB.png)
 
 
-
-### Eine Neue Seite Erstellen
+### ➕ Eine Neue Seite Erstellen
 
 Um eine neue Seite zu erstellen muss die Repository Geforked werden:
 
