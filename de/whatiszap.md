@@ -4,11 +4,9 @@ title: Die ZAP-Hosting Docs
 sidebar_label: Die ZAP-Hosting Docs
 ---
 
-## Die ZAP-Hosting Docs
-
 Hier findest du Anleitungen und Erklärungen zu verschiedenen Produkten, Spielen oder dem Webinterface.
 
-### 🗺️ Navigation
+## 🗺️ Navigation
 
 In der Linken Sidebar können alle Doc-Einträge eingesehen und geöffnet werden:
 
@@ -20,13 +18,11 @@ Alle Einträge haben außerdem noch eine Rechte Sidebar, womit man schnell besti
 ![](https://i.imgur.com/Tj9Ls48.png)
 
 
-## Mitwirken
-
 Wenn du einen Fehler findest, ein Bild korrigieren oder gar einen eigenen Eintrag schreiben willst, kannst du das bei uns über unsere [GitHub Repository](https://github.com/zap-docs/docs) machen.
 
 
 
-### 📝 Eine Seite Verändern
+## 📝 Eine Seite Verändern
 
 Um eine existierende Seite zu verändern kannst du oben rechts auf den "Edit" Button klicken:
 
@@ -45,6 +41,8 @@ Hier kannst du nun auf den "Bearbeiten" Button klicken, dies wird eine Kopie der
 Gehe sicher, dass du deine Änderung auch richtig beschreibst, damit wir sofort wissen, worum es geht:
 
 ![](https://i.imgur.com/brIixcL.png)
+
+### 🥅 Fertigstellen
 
 Wenn du deine Änderungen vorgenommen hast, kannst du nun auf "**Propose File Change**" Klicken, dies bringt dich zum Pull Request Preview, hier kannst du deine Änderungen noch mal überschauen:
 
@@ -68,9 +66,9 @@ Wenn du weitere Änderungen vornehmen willst, kannst du auf deine Branch öffnen
 ![](https://i.imgur.com/Tush4SB.png)
 
 
-### Eine Neue Seite Erstellen
+## Eine Neue Seite Erstellen
 
-##### 🗃️ Repository klonen
+### 🗃️ Repository klonen
 
 Um eine neue Seite zu erstellen muss die Repository Geforked werden:
 
@@ -80,7 +78,7 @@ Dieser fork ist eine 1:1 Kopie der Repository auf deinen eigenen account, worauf
 
 ![](https://i.imgur.com/lIyCWc2.png)
 
-#### 🏴󠁧󠁢󠁥󠁮󠁧󠁿 Sprache auswählen
+### 🏴󠁧󠁢󠁥󠁮󠁧󠁿 Sprache auswählen
 
 Um eine neue datei zu erstellen, öffne zuerst den ordner der Sprache, für welche du die Seite erstellen willst (in unserem beispiel ist es **de**).
 
@@ -90,7 +88,7 @@ Hier sind alle daten der Docs gespeichert, um eine neue zu erstellen, klicke auf
 
 ![](https://i.imgur.com/SaPdUqx.png)
 
-#### 📁 Dateiname
+### 📁 Dateiname
 
 Gebe der datei einen namen, beachte dafür die kategoriesierung, wenn es einen wikieintrag für minecraft ist, sollte die datei mit "minecraft_" anfangen, z.b.
 
@@ -126,7 +124,7 @@ sidebar_label: Server Properties
 ---
 ```
 
-#### 💈 Formatierung
+### 💈 Formatierung
 
 Darunter können dann die Docs geschrieben werden, zu beachten ist das GitHub's markdown verwendet wird, hier sind einige Hilfen um Markdown zu verstehen:
 
@@ -143,13 +141,13 @@ Damit der Seiteninhalt in der rechten leiste angezeigt wird, **muss** der Titel 
 ### Wird als Sub-Eintrag unter dem oberen angezeigt
 ```
 
-#### 📡 Zweite Sprache
+### 📡 Zweite Sprache
 
 Nachdem die Seite geschrieben wurde, muss diese nun im "en" ordner erneut erstellt, und übersetzt werden.
 
 > Beachte: Seiten müssen **immer** eine Englische und Deutsche Version haben.
 
-#### 📚 Navigation
+### 📚 Navigation
 
 Wenn beide versionen erstellt wurden, muss deine neue Seite nur noch in die sidebar.json eingetragen werden:
 
@@ -209,7 +207,7 @@ Bei normalen Kategorien:
     "minecraft_configure"
 ]
 ```
-#### 🥅 Fertigstellen
+### 🥅 Fertigstellen
 
 Damit ist deine neue Seite erstellt und einsatzbereit!
 
