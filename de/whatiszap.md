@@ -25,7 +25,7 @@ Wenn du einen Fehler findest, ein Bild korrigieren oder gar einen eigenen Eintra
 Wichtig ist, dass Anleitungen in einem einheitlichen Stil geschrieben werden. Dabei ist sowohl eine einwandfrei Rechtschreibung, als auch die Benutzung von Formatierungen (Codeblöcken, Screenshots, Einrückungen, Fonts, etc.) und Emojis wichtig für die Übersicht.
 
 
-### Inhaltsverzeichnis
+### 📚 Inhaltsverzeichnis
 
 Auf der rechten Seite neben Anleitungen ist ein Inhaltsverzeichnis zu finden, über das man schnell an die gewünschte Stelle springen kann.
 Dabei werden h2 und h3 Tags berücksichtigt, die so verwendet werden:
@@ -37,6 +37,14 @@ h2 Tag:
 h3 Tag:
 ```
 ### Text
+```
+
+Zum Verständnis nochmal:
+```
+(h1) # Wird nicht in der Liste  angezeigt
+(h2) ## Wird Angezeigt
+(h3) ### Wird als Sub-Eintrag unter dem oberen angezeigt
+(h4) #### Wird nicht in der Liste  angezeig
 ```
 
 ### 😀 Emojis
@@ -206,23 +214,6 @@ id: minecraft_configure
 title: Server Properties
 sidebar_label: Server Properties
 ---
-```
-
-### 💈 Formatierung
-
-Darunter können dann die Docs geschrieben werden, zu beachten ist das GitHub's markdown verwendet wird, hier sind einige Hilfen um Markdown zu verstehen:
-
-- https://docusaurus.io/docs/en/doc-markdown#extra-features
-- https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
-
-**Zu Beachten:**
-
-Damit der Seiteninhalt in der rechten leiste angezeigt wird, **muss** der Titel in H2 oder H3 sein:
-
-```
-# Wird nicht in der liste angezeigt
-## Wird Angezeigt
-### Wird als Sub-Eintrag unter dem oberen angezeigt
 ```
 
 ### 📡 Zweite Sprache
