@@ -7,6 +7,7 @@
 
 
  disabled as we currently dont have defined users.
+ */
 
 const React = require('react');
 
@@ -49,5 +50,3 @@ class Users extends React.Component {
 }
 
 module.exports = Users;
-
- */
