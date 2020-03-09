@@ -130,11 +130,18 @@ Hier kannst du nun auf den "Bearbeiten" Button klicken, dies wird eine Kopie der
 
 ![](https://i.imgur.com/aoD4odD.png)
 
+### Text suchen
+
+Mit der Maus in den Quelltext klicken und danach *STRG + F* drücken
+
+![](https://screensaver01.zap-hosting.com/index.php/apps/files_sharing/publicpreview/SYN5pdmNjDm5fkX?x=1920&y=553&a=true&file=firefox_Dn5cN39pkU.png&scalingup=0)
+
+
+### 🥅 Fertigstellen
+
 Gehe sicher, dass du deine Änderung auch richtig beschreibst, damit wir sofort wissen, worum es geht:
 
 ![](https://i.imgur.com/brIixcL.png)
-
-### 🥅 Fertigstellen
 
 Wenn du deine Änderungen vorgenommen hast, kannst du nun auf "**Propose File Change**" Klicken, dies bringt dich zum Pull Request Preview, hier kannst du deine Änderungen noch mal überschauen:
 
