@@ -68,7 +68,9 @@ Wenn du weitere Änderungen vornehmen willst, kannst du auf deine Branch öffnen
 ![](https://i.imgur.com/Tush4SB.png)
 
 
-### ➕ Eine Neue Seite Erstellen
+### Eine Neue Seite Erstellen
+
+#### 🗃️ Repository klonen
 
 Um eine neue Seite zu erstellen muss die Repository Geforked werden:
 
@@ -78,6 +80,8 @@ Dieser fork ist eine 1:1 Kopie der Repository auf deinen eigenen account, worauf
 
 ![](https://i.imgur.com/lIyCWc2.png)
 
+#### 🏴󠁧󠁢󠁥󠁮󠁧󠁿 Sprache auswählen
+
 Um eine neue datei zu erstellen, öffne zuerst den ordner der Sprache, für welche du die Seite erstellen willst (in unserem beispiel ist es **de**).
 
 ![](https://i.imgur.com/EBXMRts.png)
@@ -85,6 +89,8 @@ Um eine neue datei zu erstellen, öffne zuerst den ordner der Sprache, für welc
 Hier sind alle daten der Docs gespeichert, um eine neue zu erstellen, klicke auf "Create new file"
 
 ![](https://i.imgur.com/SaPdUqx.png)
+
+#### 📁 Dateiname
 
 Gebe der datei einen namen, beachte dafür die kategoriesierung, wenn es einen wikieintrag für minecraft ist, sollte die datei mit "minecraft_" anfangen, z.b.
 
@@ -120,6 +126,8 @@ sidebar_label: Server Properties
 ---
 ```
 
+#### 💈 Formatierung
+
 Darunter können dann die Docs geschrieben werden, zu beachten ist das GitHub's markdown verwendet wird, hier sind einige Hilfen um Markdown zu verstehen:
 
 - https://docusaurus.io/docs/en/doc-markdown#extra-features
@@ -135,10 +143,13 @@ Damit der Seiteninhalt in der rechten leiste angezeigt wird, **muss** der Titel 
 ### Wird als Sub-Eintrag unter dem oberen angezeigt
 ```
 
+#### 📡 Zweite Sprache
 
 Nachdem die Seite geschrieben wurde, muss diese nun im "en" ordner erneut erstellt, und übersetzt werden.
 
 > Beachte: Seiten müssen **immer** eine Englische und Deutsche Version haben.
+
+#### 📚 Navigation
 
 Wenn beide versionen erstellt wurden, muss deine neue Seite nur noch in die sidebar.json eingetragen werden:
 
@@ -198,7 +209,7 @@ Bei normalen Kategorien:
     "minecraft_configure"
 ]
 ```
-
+#### 🥅 Fertigstellen
 
 Damit ist deine neue Seite erstellt und einsatzbereit!
 
