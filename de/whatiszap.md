@@ -49,7 +49,7 @@ Zum Verständnis nochmal:
 
 ### 😀 Emojis
 
-In den Inhaltsverzeichnissen soillen bei allen h3 Tags Emojis verwendet werden.
+In den Inhaltsverzeichnissen sollen bei allen h3 Tags Emojis verwendet werden.
 Lade Dir dazu einen Emoji Picker für Firefox runter. Beispiel: 
 https://addons.mozilla.org/de/firefox/addon/awesome-emoji-picker/
 
