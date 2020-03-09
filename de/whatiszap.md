@@ -6,7 +6,7 @@ sidebar_label: Die ZAP-Hosting Docs
 
 Hier findest du Anleitungen und Erklärungen zu verschiedenen Produkten, Spielen oder dem Webinterface.
 
-## 🗺️ Navigation
+## Navigation
 
 In der Linken Sidebar können alle Doc-Einträge eingesehen und geöffnet werden:
 
@@ -20,9 +20,100 @@ Alle Einträge haben außerdem noch eine Rechte Sidebar, womit man schnell besti
 
 Wenn du einen Fehler findest, ein Bild korrigieren oder gar einen eigenen Eintrag schreiben willst, kannst du das bei uns über unsere [GitHub Repository](https://github.com/zap-docs/docs) machen.
 
+## Aufbau & Tools
+
+Wichtig ist, dass Anleitungen in einem einheitlichen Stil geschrieben werden. Dabei ist sowohl eine einwandfrei Rechtschreibung, als auch die Benutzung von Formatierungen (Codeblöcken, Screenshots, Einrückungen, Fonts, etc.) und Emojis wichtig für die Übersicht.
 
 
-## 📝 Eine Seite Verändern
+### Inhaltsverzeichnis
+
+Auf der rechten Seite neben Anleitungen ist ein Inhaltsverzeichnis zu finden, über das man schnell an die gewünschte Stelle springen kann.
+Dabei werden h2 und h3 Tags berücksichtigt, die so verwendet werden:
+
+h2 Tag:
+``` 
+## Text 
+```
+h3 Tag:
+```
+### Text
+```
+
+### 😀 Emojis
+
+In den Inhaltsverzeichnissen soillen bei allen h3 Tags Emojis verwendet werden.
+Lade Dir dazu einen Emoji Picker für Firefox runter. Beispiel: 
+https://addons.mozilla.org/de/firefox/addon/awesome-emoji-picker/
+
+### ✏️ Sprachkorrektur
+
+Lade Dir ein Rechtschreib-/ Grammatiktools runter, bevor du Anleitungen schreibst.
+Für Firefox: https://addons.mozilla.org/de/firefox/addon/languagetool/
+
+Dabei kannst du den Text mit auswählen und mit *rechtsklick* prüfen:
+![](https://screensaver01.zap-hosting.com/index.php/apps/files_sharing/publicpreview/p6yfWF9jAYbcN8z?x=1920&y=553&a=true&file=firefox_j3QnCDKL5O.png&scalingup=0)
+
+### 📑 Syntax
+
+*Kursiv schreiben*
+```
+*Text*
+``` 
+
+
+**Bold schreiben**
+```
+**Text**
+``` 
+
+> Ich gebe Dir den Tipp, diese Markdown Liste auswendig zu lernen ;-)
+geht so:
+```
+> Das ist der tolle Tipp
+```
+
+
+**Unsortierte Liste**
+```
+* Item 1
+* Item 2
+  * Item 2a
+  * Item 2b
+```
+
+
+**Sortierte Liste**
+```
+1. Item 1
+1. Item 2
+1. Item 3
+   1. Item 3a
+   1. Item 3b
+```
+
+
+**Screenshots**
+```
+![](LinkZumBild)
+```
+Bitte benutze den ZAP-Hosting Screensaver um hier Bilder hochzuladen.
+
+
+>Blockquotes
+>(Zitate)
+```
+> Mein tolles
+> Zitat
+```
+
+
+`Inline code geht so:`
+```
+`Code`
+```
+
+
+## Eine Seite Verändern
 
 Um eine existierende Seite zu verändern kannst du oben rechts auf den "Edit" Button klicken:
 
