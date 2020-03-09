@@ -70,7 +70,7 @@ Wenn du weitere Änderungen vornehmen willst, kannst du auf deine Branch öffnen
 
 ### Eine Neue Seite Erstellen
 
-#### 🗃️ Repository klonen
+##### 🗃️ Repository klonen
 
 Um eine neue Seite zu erstellen muss die Repository Geforked werden:
 
