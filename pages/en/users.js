@@ -8,6 +8,8 @@
 
  disabled as we currently dont have defined users.
 
+ */
+
 const React = require('react');
 
 const CompLibrary = require('../../core/CompLibrary.js');
@@ -49,5 +51,3 @@ class Users extends React.Component {
 }
 
 module.exports = Users;
-
- */

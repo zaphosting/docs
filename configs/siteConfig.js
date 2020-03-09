@@ -9,16 +9,7 @@
 // site configuration options.
 
 // List of projects/orgs using your project for the users page.
-const users = [
-  {
-    caption: 'User1',
-    // You will need to prepend the image path with your baseUrl
-    // if it is not '/', like: '/test-site/img/image.jpg'.
-    image: '/img/undraw_open_source.svg',
-    infoLink: 'https://www.facebook.com',
-    pinned: true,
-  },
-];
+const users = [];
 
 const siteConfig = {
   title: 'ZAP-Hosting Docs', // Title for your website.
@@ -43,7 +34,7 @@ const siteConfig = {
   ],
 
   // If you have users set above, you add it here:
-  // users,
+  users,
 
   /* path to images for header/footer */
   headerIcon: 'img/favicon-32x32.png',
