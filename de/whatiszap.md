@@ -130,7 +130,7 @@ Hier kannst du nun auf den "Bearbeiten" Button klicken, dies wird eine Kopie der
 
 ![](https://i.imgur.com/aoD4odD.png)
 
-### Text suchen
+### 🔎 Text suchen
 
 Mit der Maus in den Quelltext klicken und danach *STRG + F* drücken
 
