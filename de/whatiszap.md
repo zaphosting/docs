@@ -66,12 +66,6 @@ Dabei kannst du den Text mit auswählen und mit *rechtsklick* prüfen:
 **Text**
 ``` 
 
-> Ich gebe Dir den Tipp, diese Markdown Liste auswendig zu lernen ;-)
-geht so:
-```
-> Das ist der tolle Tipp
-```
-
 
 **Unsortierte Liste**
 ```
@@ -99,8 +93,7 @@ geht so:
 Bitte benutze den ZAP-Hosting Screensaver um hier Bilder hochzuladen.
 
 
->Blockquotes
->(Zitate)
+>Blockquotes (Zitate) - bzw. nutzen wir gerne als Tipp, sollte bei jeder Anleitung die Übersicht verbessern und darf auch ruhig mehrzeilig sein.
 ```
 > Mein tolles
 > Zitat
