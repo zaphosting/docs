@@ -83,3 +83,39 @@ article p img {
     max-width: 90%;
     padding: 5px;
 }
+
+.headerWrapper header .logo {
+    margin-right: 15px;
+}
+
+.headerWrapper header .headerTitleWithLogo {
+    font-size: 1.05em;
+    font-weight: 400;
+}
+
+#docsNav .navGroup ul {
+    padding: 0 15px;
+    position: relative;
+}
+
+#docsNav .navGroup ul::before {
+    background-color: #e2e8f0;
+    bottom: 0;
+    content: '';
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1px;
+}
+
+.docsSliderActive .toc .toggleNav ul {
+    padding-left: 15px;
+}
+
+.toc .toggleNav ul li a {
+    font-size: 13px;
+}
+
+.toc .toggleNav .navGroup .navGroupCategoryTitle {
+    font-size: 15px;
+}
