@@ -61,18 +61,8 @@ blockquote {
     opacity:1
 }
 
-.docs-prev.button {
-	display:none;
-}
-.docs-next.button {
-	display:none;
-}
-
-.docs-prev.button {
-	display:none;
-}
-.docs-next.button {
-	display:none;
+.docs-prevnext {
+    display: none;
 }
 
 article p img {
