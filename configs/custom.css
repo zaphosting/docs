@@ -90,11 +90,11 @@ article p img {
 
 #docsNav .navGroup ul::before {
     background-color: #e2e8f0;
-    bottom: 0;
+    bottom: 5px;
     content: '';
     left: 0;
     position: absolute;
-    top: 0;
+    top: 5px;
     width: 1px;
 }
 
