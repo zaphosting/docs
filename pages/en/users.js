@@ -7,7 +7,6 @@
 
 
  disabled as we currently dont have defined users.
-
  */
 
 const React = require('react');
