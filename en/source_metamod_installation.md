@@ -4,38 +4,38 @@ title: Installation
 sidebar_label: Installation
 ---
 
-## ❓ Was ist SM und MM überhaupt?
+## ❓ What is SM und MM anyway?
 
-Source- und Metamod sind zwei Half Life 2 Erweiterungen, welches es ermöglichen einen Source-Engine Gameserver (z.B. CS:S CS:GO, DoD:S, TF2, etc.) noch mehr als üblich zu individualisieren. Dazu gehört zum Beispiel die Nutzung von Plugins und eine erweitere Administration deines Servers.
+Source- and Metamod are two Half Life 2 extensions, which make it possible to individualize a source engine game server (e.g. CS: S CS: GO, DoD: S, TF2, etc.) even more than usual. This includes, for example, the use of plugins and an extended administration of your server.
 
 ## 🔧 SM / MM Installation
 
-### ⏬ Download der Dateien
+### ⏬ Download the files
 
-Zunächst einmal werden die eigentlichen Erweiterungen benötigt. Hierbei ist es wichtig immer die neusten Versionen (**stable**) zu benutzen, damit diese auch noch voll funktionsfähig bzw. kompatibel sind. Die neusten Versionen können unter den folgenden Webseiten heruntergeladen werden: 
+First of all, the actual extensions are needed. It is important to always use the latest versions (**stable**) so that they are still fully functional or compatible. The latest versions can be downloaded from the following websites:
 
 - [Metamod](https://www.sourcemm.net/downloads.php?branch=stable)
 - [Sourcemod](https://www.sourcemod.net/downloads.php?branch=stable)
 
 ![](https://i.imgur.com/q5y6A3W.png)
 
-> Source-Engine Gameserver laufen bei ZAP-Hosting in der Regel unter einem Linux Betriebssystem. Dementsprechend wird die Linux Version der Erweiterungen benötigt.
+> Source engine game servers in ZAP hosting usually run under a Linux operating system. Accordingly, the Linux version of the extensions is required.
 
-### 📦 Entpacken der Dateien
+### 📦 Unzip the files
 
-Beim Herunterladen der beiden Erweiterungen erhält man zunächst zwei gepackte Dateien (sourcemod-X.X.X-gitXXXX-linux.tar / mmsource-X.X.X-gitXXX-linux.tar), welche vor dem Hochladen noch entpackt werden müssen. Dafür kann man entweder Winrar, 7zip oder ähnliche Programme benutzen.
+When downloading the two extensions, you first receive two packed files (sourcemod-XXX-gitXXXX-linux.tar / mmsource-XXX-gitXXX-linux.tar), which have to be unzipped before uploading. You can use either Winrar, 7zip or similar programs for this.
 
 ![](https://i.imgur.com/xAyfFCO.png)
 
-Aus den entpackten Dateien erhält man im Anschluss addons und cfg den Ordner:
+From the extracted files you get the folder addons and cfg:
 
 ![](https://i.imgur.com/k8gJ5Bq.png)
 
-### ⬆ Hochladen der Dateien
+### ⬆ Upload the files
 
-Wenn die oben genannten Schritte abgeschlossen sind, dann geht es an die eigentliche Installation. Hierfür müssen wir uns per FTP mit dem Server verbinden, damit wir die Ordner der Erweiterungen hochladen können.
+When the above steps are complete, the actual installation begins. For this we have to connect to the server via FTP so that we can upload the folder of the extensions.
 
-Die Dateien müssen in dem Hauptverzeichnis hochgeladen werden. Das Hauptverzeichnis befindet sich unter der folgenden Ordner Struktur:
+The files must be uploaded to the main directory. The main directory is located under the following folder structure:
 
 | Spiel | Verzeichnis  |
 | :-----: |:-------------:| 
@@ -46,50 +46,50 @@ Die Dateien müssen in dem Hauptverzeichnis hochgeladen werden. Das Hauptverzeic
 
 ![](https://i.imgur.com/JzVXcGh.png)
 
-Im Anschluss sollte die Ordner Struktur dann wie folgt aussehen:
+The folder structure should then look like this:
 
 ![](https://i.imgur.com/502Mexy.png)
 
-## ✅ SM / MM Installation überprüfen
+## ✅ Check your SM / MM installation
 
-Zum Überprüfen, ob die Erweiterungen fehlerfrei installiert wurden, gibt es zwei Möglichkeiten:
+There are two ways to check whether the extensions have been installed correctly:
 
-1. Spiel Konsole
+1. Game console
 2. Remote Console (HLSW - RCON)
 
-###  Versionsabfrage via Spiel
+###  Version query via commands
 
-Über die folgenden Schritte können wir die Version für den eigenen Server prüfen
+We can use the following steps to check the version for your server:
 
-1. Im Spiel mit dem Server verbinden
-2. Die Konsole öffnen und folgenden Befehl eingeben:
+1. Connect to the server in game
+2. Open the console and enter the following command:
 
 ```
 sm version
 meta version
 ```
 
-Als Resultat erhalten wir dann folgende Ausgabe: 
+As a result we get the following output:
 
 ![](https://i.imgur.com/nkGtZsP.png)
 
-### 📖 Versionsabfrage via RCON
+### 📖 Version query via RCON
 
 ![](https://i.imgur.com/WqNd8dV.png)
 
-Über die folgenden Schritte können wir die Version für den eigenen Server prüfen
+We can use the following steps to check the version for our own server:
 
-1. IP-Adresse oben unter IP/Port eingeben
-2. Unten auf Rcon Konfiguration gehen
-3. Unter Rcon Passwort dein Rcon Passwort angeben
-4. Die Konsole aufrufen und folgenden Befehl eingeben:
+1. Enter the IP address at the top under IP / Port
+2. Go to Rcon Configuration below
+3. Enter your Rcon password under Rcon password
+4. Open the console and enter the following command:
 
 ```
 sm version
 meta version
 ```
 
-Als Resultat erhalten wir dann folgende Ausgabe: 
+As a result we get the following output:
 
 ```
 SourceMod Version Information:
@@ -111,4 +111,4 @@ Metamod:Source version 1.10.7-dev
          http://www.metamodsource.net/
 ```
 
-HLSW herunterladen: http://www.hlsw.net/hlsw/download/
+Download HLSW: http://www.hlsw.net/hlsw/download/
