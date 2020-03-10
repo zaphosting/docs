@@ -29,6 +29,10 @@
 
 }
 
+body {
+    background-color: #f7fafc;
+}
+
 blockquote {
     color:#5c646e;
 }
@@ -108,4 +112,38 @@ article p img {
 
 .toc .toggleNav .navGroup .navGroupCategoryTitle {
     font-size: 15px;
+}
+
+.spaced-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -12px;
+    margin-right: -12px;
+    margin-top: -24px;
+}
+
+.spaced-row > .item {
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 24px;
+}
+
+.teaser-box {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    color: #24292e;
+    display: flex;
+    flex-direction: column;
+    padding: 15px 20px;
+}
+
+.teaser-box .title {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.teaser-box .description {
+    font-size: 15px;
+    margin-top: 10px;
 }
