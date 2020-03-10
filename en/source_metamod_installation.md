@@ -37,7 +37,7 @@ When the above steps are complete, the actual installation begins. For this we h
 
 The files must be uploaded to the main directory. The main directory is located under the following folder structure:
 
-| Spiel | Verzeichnis  |
+| Game | Folder  |
 | :-----: |:-------------:| 
 | CS: Clobal Offensive | csgo |
 | CS: Source | cstrike |
