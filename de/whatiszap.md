@@ -169,33 +169,35 @@ Wenn du weitere Änderungen vornehmen willst, kannst du auf deine Branch öffnen
 
 ### 🗃️ Repository klonen
 
-Um eine neue Seite zu erstellen muss die Repository Geforked werden:
+Um eine neue Seite zu erstellen, muss die Repository Geforked werden:
 
 ![](https://i.imgur.com/IfVrnoY.png)
 
-Dieser fork ist eine 1:1 Kopie der Repository auf deinen eigenen account, worauf Änderungen gemacht werden können.
+Dieser Fork ist eine 1:1 Kopie der Repository auf deinen eigenen Account, worauf Änderungen gemacht werden können.
+
+> Wenn dein Fork schon existiert aber nicht mehr aktuell ist, muss dieser neu erstellt werden, dies wird in (folgendem Video erklärt)[https://screensaver01.zap-hosting.com/index.php/s/JyXci8T6ziCk424/]
 
 ![](https://i.imgur.com/lIyCWc2.png)
 
 ### 🏴󠁧󠁢󠁥󠁮󠁧󠁿 Sprache auswählen
 
-Um eine neue datei zu erstellen, öffne zuerst den ordner der Sprache, für welche du die Seite erstellen willst (in unserem beispiel ist es **de**).
+Um eine neue Datei zu erstellen, öffne zuerst den Ordner der Sprache, für welche du die Seite erstellen willst (in unserem Beispiel ist es **de**).
 
 ![](https://i.imgur.com/EBXMRts.png)
 
-Hier sind alle daten der Docs gespeichert, um eine neue zu erstellen, klicke auf "Create new file"
+Hier sind alle Daten der Docs gespeichert, um eine neue zu erstellen, klicke auf "Create new file"
 
 ![](https://i.imgur.com/SaPdUqx.png)
 
 ### 📁 Dateiname
 
-Gebe der datei einen namen, beachte dafür die kategoriesierung, wenn es einen wikieintrag für minecraft ist, sollte die datei mit "minecraft_" anfangen, z.b.
+Gebe der Datei einen Namen, beachte dafür die Kategorisierung, wenn es einen Wikieintrag für Minecraft ist, sollte die Datei mit "minecraft_" anfangen, z.b.
 
 ```
 minecraft_configure
 ```
 
-Außerdem muss die dateiendung immer `.md` sein, das endresultat sieht dann so aus:
+Außerdem muss die Dateiendung immer `.md` sein, das Endresultat sieht dann so aus:
 
 ```
 minecraft_configure.md
@@ -203,7 +205,7 @@ minecraft_configure.md
 
 ![](https://i.imgur.com/BaxQ8ZA.png)
 
-Nun müssen die Metadaten der Seite erstellt werden, benutze dafür folgendes beispiel:
+Nun müssen die Metadaten der Seite erstellt werden, benutze dafür folgendes Beispiel:
 
 ```
 ---
@@ -213,7 +215,7 @@ sidebar_label: Seiten-Titel
 ---
 ```
 
-In unserem beispiel würde die datei dann so aussehen:
+In unserem Beispiel würde die Datei dann so aussehen:
 
 ```
 ---
@@ -225,23 +227,23 @@ sidebar_label: Server Properties
 
 ### 📡 Zweite Sprache
 
-Nachdem die Seite geschrieben wurde, muss diese nun im "en" ordner erneut erstellt, und übersetzt werden.
+Nachdem die Seite geschrieben wurde, muss diese nun im "en" Ordner erneut erstellt, und übersetzt werden.
 
 > Beachte: Seiten müssen **immer** eine Englische und Deutsche Version haben.
 
 ### 📚 Navigation
 
-Wenn beide versionen erstellt wurden, muss deine neue Seite nur noch in die sidebar.json eingetragen werden:
+Wenn beide Versionen erstellt wurden, muss deine neue Seite nur noch in die sidebar.json eingetragen werden:
 
 ![](https://i.imgur.com/YyutX8M.png)
 
 > Die sidebars.json Datei beschriebt, wo genau in der linken Seitenleiste die Artikel zu finden sind, und folgt dem JSON Format.
 
-um die Seite nun bei Minecraft einzufügen, musst du die Minecraft Kategorie finden, und dir überlegen in welche Kategorie sie passt:
+Um die Seite nun bei Minecraft einzufügen, musst du die Minecraft Kategorie finden, und dir überlegen in welche Kategorie sie passt:
 
 ![](https://i.imgur.com/C5XPt7b.png)
 
-Wenn du dir nicht sicher bist, ob eine existierende Subkategorie Passt, kann auch eine neue erstellt werden, dazu benutze folgendes beispiel:
+Wenn du dir nicht sicher bist, ob eine existierende Subkategorie passt, kann auch eine neue erstellt werden, dazu benutze folgendes Beispiel:
 
 ```json
 {
@@ -255,7 +257,7 @@ Wenn du dir nicht sicher bist, ob eine existierende Subkategorie Passt, kann auc
 },
 ```
 
-In unserem beispiel wäre das wie folgt:
+In unserem Beispiel wäre das wie folgt:
 
 ```json
 {
@@ -268,7 +270,7 @@ In unserem beispiel wäre das wie folgt:
 ```
 
 
-Wenn du bereits eine Passende Kategorie hast, kannst du diese einfach neu einfügen:
+Wenn du bereits eine passende Kategorie hast, kannst du diese einfach neu einfügen:
 
 Bei Subkategorien:
 ```json
@@ -299,12 +301,12 @@ Nun kannst du ein Pull Request erstellen:
 
 ![](https://i.imgur.com/uxTnmvb.png)
 
-Auf der Rechten seite, klicke auf "New Pull Request" und wähle deinen eigenen Fork wie folgt:
+Auf der rechten Seite klicke auf "New Pull Request" und wähle deinen eigenen Fork wie folgt:
 
 ![](https://i.imgur.com/INPzQwX.png)
 
 1. Klicke auf "compare across forks"
-2. Auf der rechten Seite, wähle deinen Fork aus, dieser heißt im normalfall DeinUsername/docs
+2. Auf der rechten Seite, wähle deinen Fork aus, dieser heißt im Normalfall DeinUsername/docs
 3. Klicke auf "Create Pull Request"
 
 
@@ -326,4 +328,4 @@ Wenn du weitere Änderungen vornehmen willst, kannst du auf deinen Fork öffnen,
 
 ![](https://i.imgur.com/Tush4SB.png)
 
-Sobald deine Pull Request Akzeptiert wurde, siehst du diese dann auf docs.zap-hosting.com!
+Sobald deine Pull Request akzeptiert wurde, siehst du diese dann auf docs.zap-hosting.com!
