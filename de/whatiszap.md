@@ -1,24 +1,8 @@
 ---
-id: whatiszap
-title: Die ZAP-Hosting Docs
-sidebar_label: Die ZAP-Hosting Docs
+id: docs_intern
+title: Docs Erstellen -- Intern
+sidebar_label: Docs Erstellen -- Intern
 ---
-
-Hier findest du Anleitungen und Erklärungen zu verschiedenen Produkten, Spielen oder dem Webinterface.
-
-## Navigation
-
-In der Linken Sidebar können alle Doc-Einträge eingesehen und geöffnet werden:
-
-![](https://screensaver01.zap-hosting.com/index.php/apps/files_sharing/publicpreview/4ajTrW35DwFXJYG?x=1920&y=553&a=true&file=firefox_5o8oDnjmBc.png&scalingup=0)
-
-Alle Einträge haben außerdem noch eine Rechte Sidebar, womit man schnell bestimmte Teile des Eintrages finden kann:
-
-
-![](https://screensaver01.zap-hosting.com/index.php/apps/files_sharing/publicpreview/nzDodoLQwM8rCcS?x=1920&y=553&a=true&file=firefox_P1tTEtDoUT.png&scalingup=0)
-
-
-Wenn du einen Fehler findest, ein Bild korrigieren oder gar einen eigenen Eintrag schreiben willst, kannst du das bei uns über unsere [GitHub Repository](https://github.com/zap-docs/docs) machen.
 
 ## Aufbau & Tools
 
@@ -175,7 +159,7 @@ Um eine neue Seite zu erstellen, muss die Repository Geforked werden:
 
 Dieser Fork ist eine 1:1 Kopie der Repository auf deinen eigenen Account, worauf Änderungen gemacht werden können.
 
-> Wenn dein Fork schon existiert aber nicht mehr aktuell ist, muss dieser neu erstellt werden, dies wird in [folgendem Video erklärt][https://screensaver01.zap-hosting.com/index.php/s/JyXci8T6ziCk424/]
+> Wenn dein Fork schon existiert aber nicht mehr aktuell ist, muss dieser neu erstellt werden, dies wird in [folgendem Video erklärt](https://screensaver01.zap-hosting.com/index.php/s/JyXci8T6ziCk424/)
 
 ![](https://i.imgur.com/lIyCWc2.png)
 
