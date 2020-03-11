@@ -175,7 +175,7 @@ Um eine neue Seite zu erstellen, muss die Repository Geforked werden:
 
 Dieser Fork ist eine 1:1 Kopie der Repository auf deinen eigenen Account, worauf Änderungen gemacht werden können.
 
-> Wenn dein Fork schon existiert aber nicht mehr aktuell ist, muss dieser neu erstellt werden, dies wird in [folgendem Video erklärt][https://screensaver01.zap-hosting.com/index.php/s/JyXci8T6ziCk424/]
+> Wenn dein Fork schon existiert aber nicht mehr aktuell ist, muss dieser neu erstellt werden, dies wird in [folgendem Video erklärt](https://screensaver01.zap-hosting.com/index.php/s/JyXci8T6ziCk424/)
 
 ![](https://i.imgur.com/lIyCWc2.png)
 
