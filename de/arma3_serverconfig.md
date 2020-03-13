@@ -50,3 +50,5 @@ Die Setzung von Anführungszeichen so wie Semikolon und Komma fehlen hier, der S
 
 
 ## Bearbeiten der Server.cfg über FTP
+
+Bald verfügbar...
