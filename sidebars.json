@@ -103,6 +103,15 @@
 			 ]
 		  }
 	   ],
+	   "ArmA 3":[
+		  {
+			 "type":"subcategory",
+			 "label":"ArmA 3 Allgemein",
+			 "ids":[
+				"arma3_serverconfig"
+			 ]
+		  }
+	   ],
 	   "vServer & Rootserver":[
 		  {
 			 "type":"subcategory",
