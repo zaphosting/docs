@@ -14,3 +14,39 @@ Editiert wird die Server.cfg entweder direkt über FTP auf einem vorinstallierte
 Bei einem Gameserver steht zudem der Menüpunkt Configs auf der linken Seite im Gameserverinterface zur Verfügung, von dort kann die
 Server.cfg mit wenigen Klicks bearbeitet werden.
 
+
+## Bearbeiten der Server.cfg über den ZAP-Editor
+
+Um die Server.cfg deines ArmA 3 Servers im ZAP-Editor zu bearbeiten klickst du zuerst auf deinen Server im Interface und wählst dort anschließend im Menü auf der linken Seite unter "Einstellungen" den Unterpunkt "Configs" aus. 
+
+![](https://puu.sh/Fk7Ck/9b2d95185f.png)
+
+
+Dort siehst du nun eine Liste der für ArmA 3 verfügbaren Configurationsdateien, wir bearbeiten nun ausschließlich die Server.cfg. 
+Durch einen Klick auf den blauen Button "Datei öffnen" gelangst du in den ZAP-Editor. 
+
+![](https://puu.sh/Fk7Ez/b0f32d8c61.png)
+
+
+Dort hast du nun die Möglichkeit deinen ArmA 3 Server individuell zu konfigurieren, unter anderem auch den Servernamen und die Anzahl der Slots. Du kannst die Einstellungen beliebig anpassen und klickst im Anschluss auf "Speichern".
+
+![](https://puu.sh/Fk7I1/407a039e38.png)
+
+
+Bei Angaben wie dem Servernamen muss darauf geachtet werden den namen in Anführungszeichen zu schreiben, da dieser sonst nicht vom Server gelesen werden kann. Zudem ist es wichtig jede Zeile mit einem Semikolon (;) zu beenden, da der Server sonst nicht in der Lage ist die danach folgenden Einstellungen zu lesen. Eine Ausnahme stellt die Option "motd[]" dar, dort muss jede Zeile mit einem Komma beendet werden, bis auf die letzte in welcher dieses ausgelassen werden muss. 
+
+## Richtig:
+
+Hier sind Anführungszeichen so wie Semikolon und Komma richtig gesetzt.
+
+![](https://puu.sh/Fk7Mq/e2542b12f7.png)
+
+
+## Falsch: 
+
+Die Setzung von Anführungszeichen so wie Semikolon und Komma fehlen hier, der Server würde so nicht starten.
+
+![](https://puu.sh/Fk7NK/f96a31199d.png)
+
+
+## Bearbeiten der Server.cfg über FTP
