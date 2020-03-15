@@ -25,6 +25,8 @@ Nachdem die Resource entpackt wurde, sollte darin nun eine __resource.lua oder f
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/gNtZNKnbjMcgwoE/preview)
 
+> Wenn dies nicht der Fall ist, befinden sich diese ggf. in einem Unterordner, meist mit dem gleichen Namen.
+
 ## Resourcen hochladen
 
 
