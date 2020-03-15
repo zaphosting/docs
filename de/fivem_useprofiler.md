@@ -1,5 +1,5 @@
 ---
-id: fivem_userprofiler
+id: fivem_useprofiler
 title: Profiler Benutzen
 sidebar_label: Profiler Benutzen
 ---
