@@ -78,6 +78,8 @@
 	   "FiveM":[
 		  "fivem_dashboard",
 		  "fivem_windowsorlinux",
+		  "fivem_installresources",
+		  "fivem_useprofiler",
 		  {
 			 "type":"subcategory",
 			 "label":"ESX",
