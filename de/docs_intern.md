@@ -1,24 +1,8 @@
 ---
-id: whatiszap
-title: Die ZAP-Hosting Docs
-sidebar_label: Die ZAP-Hosting Docs
+id: docs_intern
+title: Docs Erstellen -- Intern
+sidebar_label: Docs Erstellen -- Intern
 ---
-
-Hier findest du Anleitungen und Erklärungen zu verschiedenen Produkten, Spielen oder dem Webinterface.
-
-## Navigation
-
-In der Linken Sidebar können alle Doc-Einträge eingesehen und geöffnet werden:
-
-![](https://screensaver01.zap-hosting.com/index.php/apps/files_sharing/publicpreview/4ajTrW35DwFXJYG?x=1920&y=553&a=true&file=firefox_5o8oDnjmBc.png&scalingup=0)
-
-Alle Einträge haben außerdem noch eine Rechte Sidebar, womit man schnell bestimmte Teile des Eintrages finden kann:
-
-
-![](https://screensaver01.zap-hosting.com/index.php/apps/files_sharing/publicpreview/nzDodoLQwM8rCcS?x=1920&y=553&a=true&file=firefox_P1tTEtDoUT.png&scalingup=0)
-
-
-Wenn du einen Fehler findest, ein Bild korrigieren oder gar einen eigenen Eintrag schreiben willst, kannst du das bei uns über unsere [GitHub Repository](https://github.com/zap-docs/docs) machen.
 
 ## Aufbau & Tools
 
@@ -167,17 +151,15 @@ Wenn du weitere Änderungen vornehmen willst, kannst du auf deine Branch öffnen
 
 ## Eine Neue Seite Erstellen
 
-### 🗃️ Repository klonen
+### 🗃️ Branch Erstellen
 
-Um eine neue Seite zu erstellen, muss die Repository Geforked werden:
+Da der direktzugang zur Repo gegeben ist, kannst du ganz einfach eine neue Branch erstellen, um deine änderungen zu speichern:
 
-![](https://i.imgur.com/IfVrnoY.png)
+![](https://i.shol.it/6itzj/em3u5.png)
 
-Dieser Fork ist eine 1:1 Kopie der Repository auf deinen eigenen Account, worauf Änderungen gemacht werden können.
+Auf dieser können nun alle änderungen vorgenommen werden.
 
-> Wenn dein Fork schon existiert aber nicht mehr aktuell ist, muss dieser neu erstellt werden, dies wird in [folgendem Video erklärt](https://screensaver01.zap-hosting.com/index.php/s/JyXci8T6ziCk424/)
-
-![](https://i.imgur.com/lIyCWc2.png)
+> Beachten: Wenn eine branch schon gemerged wurde muss eine neue erstellt werden
 
 ### 🏴󠁧󠁢󠁥󠁮󠁧󠁿 Sprache auswählen
 
@@ -227,90 +209,27 @@ sidebar_label: Server Properties
 
 ### 📡 Zweite Sprache
 
-Nachdem die Seite geschrieben wurde, muss diese nun im "en" Ordner erneut erstellt, und übersetzt werden.
+Nachdem die Seite geschrieben wurde, muss diese nun im "en" Ordner erneut erstellt, und übersetzt werden (dies erledigen erstmal die Amerikaner)
 
-> Beachte: Seiten müssen **immer** eine Englische und Deutsche Version haben.
+> Beachte: Seiten müssen **immer** eine Englische und Deutsche Version haben. Auch unübersetzt.
 
 ### 📚 Navigation
 
-Wenn beide Versionen erstellt wurden, muss deine neue Seite nur noch in die sidebar.json eingetragen werden:
+**Entfernt**, das erledigen dann ich und Marvin im Pull Request erstmal, ihr müsst nur die Seiten selbst schreiben ;)
 
-![](https://i.imgur.com/YyutX8M.png)
-
-> Die sidebars.json Datei beschriebt, wo genau in der linken Seitenleiste die Artikel zu finden sind, und folgt dem JSON Format.
-
-Um die Seite nun bei Minecraft einzufügen, musst du die Minecraft Kategorie finden, und dir überlegen in welche Kategorie sie passt:
-
-![](https://i.imgur.com/C5XPt7b.png)
-
-Wenn du dir nicht sicher bist, ob eine existierende Subkategorie passt, kann auch eine neue erstellt werden, dazu benutze folgendes Beispiel:
-
-```json
-{
- "type":"subcategory",
- "label":"Name der Subkategorie",
- "ids":[
-	"ids",
-    "der",
-    "seiten"
- ]
-},
-```
-
-In unserem Beispiel wäre das wie folgt:
-
-```json
-{
-    "type":"subcategory",
-    "label":"Administration",
-    "ids":[
-        "minecraft_configure"
-    ]
-},
-```
-
-
-Wenn du bereits eine passende Kategorie hast, kannst du diese einfach neu einfügen:
-
-Bei Subkategorien:
-```json
-{
-    "type":"subcategory",
-    "label":"Administration",
-    "ids":[
-        "minecraft_addop",
-        "minecraft_worlds",
-        "minecraft_configure"
-    ]
-},
-```
-
-Bei normalen Kategorien:
-```json
-"Minecraft":[
-    "minecraft_configure"
-]
-```
 ### 🥅 Fertigstellen
 
 Damit ist deine neue Seite erstellt und einsatzbereit!
 
 Nun kannst du ein Pull Request erstellen:
 
-Öffne die Originale zap-docs Repo und öffne das "Pull Requests" Menü:
+Öffne die zap-docs Repo und öffne das "Pull Requests" Menü:
 
 ![](https://i.imgur.com/uxTnmvb.png)
 
-Auf der rechten Seite klicke auf "New Pull Request" und wähle deinen eigenen Fork wie folgt:
+Auf der rechten Seite klicke auf "New Pull Request" und wähle deine Branch auf der rechten seite:
 
-![](https://i.imgur.com/INPzQwX.png)
-
-1. Klicke auf "compare across forks"
-2. Auf der rechten Seite, wähle deinen Fork aus, dieser heißt im Normalfall DeinUsername/docs
-3. Klicke auf "Create Pull Request"
-
-
-![](https://i.imgur.com/22bHojQ.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/ETx33r8GFFf7eQR/preview)
 
 Wenn du dir sicher bist, dass alles korrekt ist, kannst du nun auf "**Create Pull Request**" Klicken
 
@@ -320,12 +239,8 @@ Wenn du dir sicher bist, dass alles korrekt ist, kannst du nun auf "**Create Pul
 
 Nun wurde deine Pull Request erstellt.
 
-> Bevor diese in das Wiki integriert wird, muss diese auf Richtigkeit überprüft werden, dazu erhältst du ggf. eine Antwort auf den Pull Request oder eine E-Mail vom System.
-
 ![](https://i.imgur.com/M4VZpra.png)
 
-Wenn du weitere Änderungen vornehmen willst, kannst du auf deinen Fork öffnen, und dort weitere Dateien ändern, diese werden automatisch in die Pull Request integriert:
+Wenn du weitere Änderungen vornehmen willst, kannst du die Branch öffnen, und dort weitere Dateien ändern, diese werden automatisch in die Pull Request integriert:
 
 ![](https://i.imgur.com/Tush4SB.png)
-
-Sobald deine Pull Request akzeptiert wurde, siehst du diese dann auf docs.zap-hosting.com!
