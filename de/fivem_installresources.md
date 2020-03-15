@@ -4,7 +4,7 @@ title: Resourcen Installieren
 sidebar_label: Resourcen Installieren
 ---
 
-## Mit FTP Verbinden
+## Mit FTP verbinden
 
 Bevor Resourcen installiert werden können, muss der [FTP-Zugang](gameserver_ftpaccess.md) eingerichtet werden:
 
@@ -25,7 +25,7 @@ Nachdem die Resource entpackt wurde, sollte darin nun eine __resource.lua oder f
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/gNtZNKnbjMcgwoE/preview)
 
-## Resourcen Hochladen
+## Resourcen hochladen
 
 
 Um mit WinSCP Resourcen zu installieren, können diese über drag&drop in den "resources" Ordner hochgeladen werden
