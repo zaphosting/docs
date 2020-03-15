@@ -6,7 +6,7 @@ sidebar_label: FTP Verbindung Anlegen
 
 ## Die FTP Verbindung
 
-FTP steht für *file transfer protocole* und wird benötigt, um Dateien von dem PC auf den Webspace zu laden.
+FTP steht für *file transfer protocol* und wird benötigt, um Dateien von dem PC auf den Webspace zu laden.
 Jeder Kunde kriegt automatisch mit dem bestellten Webspace einen FTP Zugang zu diesem. 
 
 Hier erklären wir wie weitere FTP Zugänge eingerichtet werden. Dies bietet sich an, wenn man mit mehreren Personen an einem Projekt arbeitet und jede Person einen eigenen FTP Zugang bekommen soll.
