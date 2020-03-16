@@ -33,11 +33,11 @@ Wenn du nur eine einzige IP hast, kann dieser Wert einfach frei bleiben - Das gl
 
 ### level-seed
 
-Standardmäßig generiert der Weltgenerator immer einen zufälligen [Seed](https://minecraft-de.gamepedia.com/Startwert) und damit auch eine komplett zufällige Welt.
+Standardmäßig generiert der Weltgenerator immer einen zufälligen [Seed](s://minecraft-de.gamepedia.com/Startwert) und damit auch eine komplett zufällige Welt.
 Du kannst hier jedoch einen eigenen Seed aus **Buchstaben oder Zahlen** festlegen, worauf der Server dann die entsprechende Welt erstellt. Die maximale Länge von **32 Zeichen** sollte zudem nicht überschritten werden.
 
 > Es gibt einige Seed-Generatoren, wo man eine Welt nach seinen eigenen Vorstellungen konfigurieren kann.
-> (Dieser)[https://minecraft.tools/de/custom.php] Generator ist einer der besten und ermöglicht nahezu alles.
+> [Dieser](https://minecraft.tools/de/custom.php) Generator ist einer der besten und ermöglicht nahezu alles.
 
 ### gamemode
 
@@ -176,7 +176,7 @@ Diese Option hat keinerlei Einfluss auf die Leistung des Servers.
 
 Damit kann die allgemeine Schwierigkeit auf dem Server festgelegt werden.
 Je nachdem verursachen Mobs als Beispiel mehr oder weniger Schaden.
-Genaue Informationen dazu und den möglichen Optionen lassen sich (hier)[https://minecraft-de.gamepedia.com/Schwierigkeitsgrad#ID] finden.
+Genaue Informationen dazu und den möglichen Optionen lassen sich [hier](https://minecraft-de.gamepedia.com/Schwierigkeitsgrad#ID) finden.
 
 ### network-compression-threshold
 
