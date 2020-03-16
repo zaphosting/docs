@@ -44,6 +44,22 @@
         "title": "Beispiel-Eintrag",
         "sidebar_label": "Beispiel Eintrag"
       },      
+      "docs_intern": {
+        "title": "Docs Erstellen -- Intern",
+        "sidebar_label": "Docs Erstellen -- Intern"
+      },
+      "domain_easydns": {
+        "title": "EasyDNS",
+        "sidebar_label": "EasyDNS"
+      },
+      "domain_expertdns": {
+        "title": "ExpertDNS",
+        "sidebar_label": "ExpertDNS"
+      },
+      "domain_profidns": {
+        "title": "ProfiDNS",
+        "sidebar_label": "ProfiDNS"
+      },
       "firststeps_register": {
         "title": "Registrieren",
         "sidebar_label": "Registrieren"
@@ -65,8 +81,16 @@
         "sidebar_label": "Die ersten Schritte"
       },
       "fivem_dashboard": {
-        "title": "Administration",
-        "sidebar_label": "Administration"
+        "title": "Dashboard",
+        "sidebar_label": "Dashboard"
+      },
+      "fivem_installresources": {
+        "title": "Resourcen Installieren",
+        "sidebar_label": "Resourcen Installieren"
+      },
+      "fivem_useprofiler": {
+        "title": "Profiler Benutzen",
+        "sidebar_label": "Profiler Benutzen"
       },
       "fivem_windowsorlinux": {
         "title": "Windows oder Linux",
@@ -139,6 +163,18 @@
       "vserver_windows_userdp": {
         "title": "Erstzugriff (RDP)",
         "sidebar_label": "Erstzugriff (RDP)"
+      },
+      "webspace_dashboard": {
+        "title": "Dashboard",
+        "sidebar_label": "Dashboard"
+      },
+      "webspace_plesk_ftp": {
+        "title": "FTP Verbindung Anlegen",
+        "sidebar_label": "FTP Verbindung Anlegen"
+      },
+      "webspace_plesk_sendmail": {
+        "title": "E-Mails verschicken",
+        "sidebar_label": "E-Mails verschicken"
       },
       "whatiszap": {
         "title": "Die ZAP-Hosting Docs",
