@@ -37,7 +37,7 @@ Standardmäßig generiert der Weltgenerator immer einen zufälligen (Seed)[https
 Du kannst hier jedoch einen eigenen Seed aus **Buchstaben oder Zahlen** festlegen, worauf der Server dann die entsprechende Welt erstellt. Die maximale Länge von **32 Zeichen** sollte zudem nicht überschritten werden.
 
 > Es gibt einige Seed-Generatoren, wo man eine Welt nach seinen eigenen Vorstellungen konfigurieren kann.
-> (Dieser)[https://minecraft.tools/en/custom.php] Generator ist einer der besten und ermöglicht nahezu alles.
+> (Dieser)[https://minecraft.tools/de/custom.php] Generator ist einer der besten und ermöglicht nahezu alles.
 
 ### gamemode
 
