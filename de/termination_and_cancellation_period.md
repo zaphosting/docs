@@ -1,5 +1,5 @@
 ---
-id: Termination_and_cancellation_period
+id: termination_and_cancellation_period
 title: Kündigung und Kündigungsfrist
 sidebar_label: Kündigung und Kündigungsfrist
 ---
