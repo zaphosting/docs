@@ -4,53 +4,52 @@ title: Docker
 sidebar_label: Docker
 ---
 
-## Was ist Docker überhaupt?
+## What is the Docker anyway?
 
-Docker ist eine leichtgewichtige Open-Source Virtualisierungssoftware um Dienste bzw. Anwendungen isoliert auf einem einzelnen System bereitzustellen. Im Gegensatz zu richtigen Virtuellen Maschinen wird hierfür kein extra Betriebssystem emuliert bzw. gehostet, sondern explizit nur eine Anwendungsumgebung innerhalb des Hostsystemes. Das ist nicht nur allgemein Ressourcen sparend, sondern verursacht gleichzeitig im Vergleich zur Voll Virtualisierung einen niedrigen Overhead.
+Docker is a lightweight, open source virtualization software to provide services or applications in isolation on a single system. In contrast to real virtual machines, no extra operating system is emulated or hosted for this, but rather only an application environment within the host system. This not only saves resources in general, but at the same time causes a low overhead compared to full virtualization.
 
-## Wie installiere ich Docker auf meinem Linux Server?
+## How do I install Docker on my Linux server?
 
-> In diesem Beispiel setzen wir Docker auf einem Debian 9 System auf und installieren es via Paketquellen. Es kann bei einem anderen Betriebssystem Abweichungen geben!
+> In this example we set up Docker on a Debian 9 system and install it via package sources. There may be deviations in another operating system!
 
-Schritt 1: Verbinde dich mit Putty mit deinem Server.
+Step 1: Connect to your server with Putty.
 
-Schritt 2: Soweit du mit deinem Server via Putty verbunden bist, muss am Anfang der GPG-Key, also die Schlüsseldatei von Docker, zu unserem System hinzufügt werden:
+Step 2: As far as you are connected to your server via Putty, the GPG key, i.e. the key file from Docker, must be added to our system at the beginning:
 ```
 apt-key adv –keyserver hkp://p80.pool.sks-keyservers.net:80 –recv-keys 58118E89F3A912897C070ADBF76221572C52609D
 ```
-
-Anschließend fügen wir Docker zu unseren Paketquellen hinzu, sodass wir das Paket via apt-get installieren können.
+Then we add Docker to our package sources so that we can install the package via apt-get.
 ```
 echo "deb https://apt.dockerproject.org/repo debian-jessie main" >> /etc/apt/sources.list.d/docker.list 
 ```
-
-Schritt 3: Nun können wir Docker herunterladen. 
-**Wichtig** ist, dass wir noch apt-get ermöglichen, Pakete von HTTP(S) Seiten herunterzuladen. 
-Dazu einmal den Befehl: 
+Step 3: Now we can download Docker.
+It is **important** that we still enable apt-get to download packages from HTTP (S) pages.
+Here is the command:
 ```
 apt-get -y install apt-transport-https ca-certificates 
 ```
-eingeben und durchlaufen lassen. Danach folgende Befehle eingeben + ausführen: 
+Press enter and let it run. Then enter and execute the following commands:
 ```
 apt-get update && apt-get -y install docker-engine
 systemctl start docker
 systemctl enable docker
 ```
 
-## Überprüfen ob die Installation von Docker erfolgreich war
+## Check if the Docker installation was successful
 
-Wenn das alles erledigt wurde, können wir schauen ob Docker läuft: 
+When all of that is done, we can see if Docker is running:
+
 ```
 systemctl status docker 
 ```
 
 ![](https://i.imgur.com/2jTXkeT.png)
 
-Wenn das so aussieht und bei der Ausgabe "**Active (running)**" steht, wurde Docker komplett ohne Probleme Installiert. 
-Mit einem **docker run hello-world** kann man dann checken ob Docker auch korrekt ausgeführt wird.
-Die Ausgabe sollte so aussehen:
+If it looks like this and it says "**Active (running)**" then Docker was installed completely without any problems.
+With a **docker run hello-worl**d you can then check whether Docker is also running correctly.
+The output should look like this:
 
 ![](https://i.imgur.com/IlRaeXc.png)
 
-Die Installation von Docker war erfolgreich.
-Nun kannst du los legen und Docker verwenden!
+Docker installation was successful.
+Now you can get started and use Docker!
