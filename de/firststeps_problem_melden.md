@@ -1,5 +1,5 @@
 ---
-id: problem_melden
+id: firststeps_problem_melden
 title: Wie melde ich Probleme?
 sidebar_label: Wie melde ich Probleme?
 ---
