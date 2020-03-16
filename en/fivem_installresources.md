@@ -1,49 +1,47 @@
 ---
 id: fivem_installresources
-title: Resourcen Installieren
-sidebar_label: Resourcen Installieren
+title: Resource Installation
+sidebar_label: Resource Installation
 ---
 
-## Mit FTP verbinden
+## Connect with FTP
 
-Bevor Resourcen installiert werden können, muss der [FTP-Zugang](gameserver_ftpaccess.md) eingerichtet werden:
+Before resources can be installed, the [FTP-Access](gameserver_ftpaccess.md) must be set up:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/ekYw27nA4cgiNAk/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/8TAyBqGcwFEf7Gz/preview)
 
-Nachdem dieser eingerichtet wurde, kann sich nun verbunden werden und der Server Ordner geöffnet werden:
+After this has been set up, you can now connect and open the server folder:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/MHt37AFEeZYgs97/preview)
 
 
-## Vorbereitung
+## Preperation
 
-Nachdem eine Resource runtergeladen wurde, ist diese normalerweise ZIP-Gepackt, diese muss nun entpackt werden (z. B. mit 7Zip, WinRar oder WinZip)
+After a resource has been downloaded, it is usually ZIP packed, it must now be unpacked (e.g. with 7Zip, WinRar or WinZip)
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/RAnCTpmKW4GgCS4/preview)
 
-Nachdem die Resource entpackt wurde, sollte darin nun eine __resource.lua oder fxmanifest.lua und Script Files/Ordner sein.
+After the resource has been unpacked, it should now contain a __resource.lua or fxmanifest.lua and script files / folder.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/gNtZNKnbjMcgwoE/preview)
 
-> Wenn dies nicht der Fall ist, befinden sich diese ggf. in einem Unterordner, meist mit dem gleichen Namen.
+> If this is not the case, they may be in a subfolder, usually with the same name.
 
-## Resourcen hochladen
+## Upload Resources
 
-
-Um mit WinSCP Resourcen zu installieren, können diese über drag&drop in den "resources" Ordner hochgeladen werden
+To install resources with WinSCP, they can be uploaded to the "resources" folder using drag & drop.
+It would be the same case with installing via FileZilla. 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/DdYcbM798ZX2iDc/preview)
 
-Nachdem diese hochgeladen wurde, muss die server.cfg im server-data Ordner geöffnet werden:
+After this has been uploaded, the server.cfg must be opened in the server-data folder:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/d3EAFx73JzJfcf9/preview)
 
-Unter den restlichen Starteinträgen für Ressourcen kann nun der Eintrag für unsere resource, in diesem Fall "SexySpeedometer-FiveM-master", hinzugefügt werden:
-
+The entry for our resource, in this case "SexySpeedometer-FiveM-master", can now be added under the remaining start entries for resources:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/ygky6YiDr43C8Ns/preview)
 
-> Beachte: Es muss der Name des Ordners eingetragen werden.
+> Note: The name of the folder must be entered.
 
-
-Danach kann der Server neugestartet werden und die Resource sollte ingame erscheinen!
+Then the server can be restarted and the resource should appear ingame!
