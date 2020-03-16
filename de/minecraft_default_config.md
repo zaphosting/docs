@@ -33,7 +33,7 @@ Wenn du nur eine einzige IP hast, kann dieser Wert einfach frei bleiben - Das gl
 
 ### level-seed
 
-Standardmäßig generiert der Weltgenerator immer einen zufälligen (Seed)[https://minecraft-de.gamepedia.com/Startwert] und damit auch eine komplett zufällige Welt.
+Standardmäßig generiert der Weltgenerator immer einen zufälligen [Seed](https://minecraft-de.gamepedia.com/Startwert) und damit auch eine komplett zufällige Welt.
 Du kannst hier jedoch einen eigenen Seed aus **Buchstaben oder Zahlen** festlegen, worauf der Server dann die entsprechende Welt erstellt. Die maximale Länge von **32 Zeichen** sollte zudem nicht überschritten werden.
 
 > Es gibt einige Seed-Generatoren, wo man eine Welt nach seinen eigenen Vorstellungen konfigurieren kann.
@@ -42,7 +42,7 @@ Du kannst hier jedoch einen eigenen Seed aus **Buchstaben oder Zahlen** festlege
 ### gamemode
 
 Mit dieser Option kannst du den standardmäßigen Spielmodus auf deinem Server festlegen.
-Der Spielmodus wird jedem Spieler zum ersten Besuch des Servers erteilt und kann danach über den (/gamemode)[https://minecraft-de.gamepedia.com/Befehl/gamemode] Befehl jederzeit angepasst werden.
+Der Spielmodus wird jedem Spieler zum ersten Besuch des Servers erteilt und kann danach über den [/gamemode](https://minecraft-de.gamepedia.com/Befehl/gamemode) Befehl jederzeit angepasst werden.
 
 Sofern du die IDs der jeweiligen Spielmodi nicht kannst, findest du hier eine Auflistung:
 
@@ -60,14 +60,14 @@ Sofern du als Beispiel mehrere Server auf deinem Rootserver betreiben möchtest,
 
 ### enable-command-block
 
-Damit können (Befehlsblöcke)[https://minecraft-de.gamepedia.com/Befehlsblock] auf dem Server aktiviert werden.
+Damit können [Befehlsblöcke](https://minecraft-de.gamepedia.com/Befehlsblock) auf dem Server aktiviert werden.
 Sofern keine gebraucht werden, sollte der Wert auf *false* gesetzt werden, da es einige Methoden gibt, womit der Server zerstört oder beschädigt werden kann in Verbindung mit Befehlsblöcken.
 
 ### allow-nether
 
 Diese Option de- oder aktiviert werden Nether.
 Sofern deaktiviert, kann der Nether nicht mehr über ein Portal betreten werden.
-Der Zugang ist jedoch weiterhin über ein Plugin wie (Multiverse Core)[https://www.spigotmc.org/resources/multiverse-core.390/].
+Der Zugang ist jedoch weiterhin über ein Plugin wie [Multiverse Core](https://www.spigotmc.org/resources/multiverse-core.390/).
 
 ### enable-rcon
 
@@ -78,7 +78,7 @@ Wir empfehlen RCON zu deaktivieren, um Eingriffe von unbefugten vorzubeugen.
 ### op-permission-level
 
 Hier kann das standardmäßige OP-Level festgelegt werden, welches einem neuen Operator zu Anfang zugeteilt werden soll.
-Die jeweiligen Level und die einzelne Vergabe je Spieler wird (hier)[https://docs.zap-hosting.com/docs/de/minecraft_addop/] genauer von uns beschrieben.
+Die jeweiligen Level und die einzelne Vergabe je Spieler wird [hier](https://docs.zap-hosting.com/docs/de/minecraft_addop/) genauer von uns beschrieben.
 
 ### enable-query
 
@@ -92,7 +92,7 @@ Eine VPN wird oft zur Umgehung eines IP-Bans genutzt, die Option kann daher sehr
 Teilweise gibt es auch eine Einschränkung, sodass auch normale Verbindungen fälschlicherweise falsch eingestuft und so blockiert werden.
 
 > Um weitreichende Kontrolle über VPN/Proxy Verbindungn gewinnen zu können, loht es sich ein Plugin dafür zu installieren.
-> Viele kostenlose Plugins lassen sich schnell finden, dieses (jedoch kostenpflichtige) (Plugin)[https://www.spigotmc.org/resources/antibotdeluxe-%E2%80%BA-the-most-advanced-antibot-spigot-bungee-1500-purchases-1-7-1-15.31700/updates] hat uns jedoch am meisten überzeugt und sichert deinen Server auch vor jeglichen Bot-Attacken.
+> Viele kostenlose Plugins lassen sich schnell finden, dieses (jedoch kostenpflichtige) [Plugin](https://www.spigotmc.org/resources/antibotdeluxe-%E2%80%BA-the-most-advanced-antibot-spigot-bungee-1500-purchases-1-7-1-15.31700/) hat uns jedoch am meisten überzeugt und sichert deinen Server auch vor jeglichen Bot-Attacken.
 
 ### generator-settings
 
@@ -125,7 +125,7 @@ Die alte Welt bleibt dabei erhalten und befindet sich weiterhin in dem vorherige
 Hier kann eine Nachricht definiert werden, welche in der Serverliste angezeigt wird, sofern hinzugefügt. Die Nachricht wird nicht bei der Direktverbindung angezeigt, sofern im Client keine speziellen Mods installiert sind.
 Die Nachricht kann mit allen möglichen Farben und Formatierungen versehen werden, welche Minecraft bietet.
 
-> Schnell und einfach kann die MOTD über dieses (Tool)[https://minecraft.tools/de/motd.php] erstellt werden.
+> Schnell und einfach kann die MOTD über dieses [Tool](https://minecraft.tools/de/motd.php) erstellt werden.
 
 ### force-gamemode
 
@@ -139,7 +139,7 @@ Sofern dies gewünscht ist, **muss** eine neue Welt erstellt werden, da der Hard
 
 ### white-list
 
-Dies aktiviert die (Whitelist)[https://minecraft-de.gamepedia.com/Befehl/whitelist], wodurch nur Spieler welche sich auf der Liste befinden Zugang erhalten. Den Umgang mit der Whitelist erklären wir (hier)[http://bald.de].
+Dies aktiviert die [Whitelist](https://minecraft-de.gamepedia.com/Befehl/whitelist), wodurch nur Spieler welche sich auf der Liste befinden Zugang erhalten. Den Umgang mit der Whitelist erklären wir [hier](http://bald.de).
 
 ### broadcast-console-to-ops
 
@@ -164,7 +164,7 @@ Damit gemeint sind als Beispiel Dörfer oder Tempel.
 ### spawn-animals
 
 Legt fest, ob auf dem Server Tiere gespawnt werden sollen.
-Eine Auflistung aller Tiere findest du (hier)[https://minecraft-de.gamepedia.com/Kreatur/Tiere]. 
+Eine Auflistung aller Tiere findest du [hier](https://minecraft-de.gamepedia.com/Kreatur/Tiere). 
 
 ### snooper-enabled
 
@@ -203,7 +203,7 @@ Nach einer Änderung dieser Option sollte eine **neue Welt erstellt werden**. An
 ### spawn-monsters
 
 Legt fest, ob auf dem Server Monster gespawnt werden sollen.
-Eine Auflistung aller Monster findest du (hier)[https://minecraft-de.gamepedia.com/Kreatur/Monster]. 
+Eine Auflistung aller Monster findest du [hier](https://minecraft-de.gamepedia.com/Kreatur/Monster). 
 
 ### max-tick-time
 
