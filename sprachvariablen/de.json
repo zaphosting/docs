@@ -86,12 +86,12 @@
         "sidebar_label": "Dashboard"
       },
       "fivem_installresources": {
-        "title": "Resource Installation",
-        "sidebar_label": "Resource Installation"
+        "title": "Resourcen Installieren",
+        "sidebar_label": "Resourcen Installieren"
       },
       "fivem_useprofiler": {
-        "title": "Use Profiler",
-        "sidebar_label": "Use Profiler"
+        "title": "Profiler Benutzen",
+        "sidebar_label": "Profiler Benutzen"
       },
       "fivem_windowsorlinux": {
         "title": "Windows oder Linux",
