@@ -44,7 +44,7 @@ Sobald dieser Befehl ausgeführt wurde, dauert es in der Regel zwischen 30 und 6
 
 Die Installation ist abgeschlossen, sobald dies angezeigt wird
 
-![](https://i.imgur.com/czCN5lj.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/ScJcEeNW3SJPxeP/preview)
 
 Das Webinterface kann über https://IP:8443 oder https://Domain.xx:8443 des Servers erreicht werden. Die Login Daten lauten root/admin und das aktuelle Root Password. Alternativ nutzt man einfach einer der angezeigten URLs, sollte dieser nicht mehr gültig sein, kann man einfach mit dem Befehl "plesk login" eine neue erstellen. 
 
@@ -60,25 +60,25 @@ Sobald man erfolgreich die Login Daten oder eine Login-URL genutzt hat, muss man
 
 ### Sprache einstellen
 
-![](https://i.imgur.com/BsdM0Dj.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/afg8ERCLa3bno6D/preview)
 
 Nach der Installation ist das Panel auf Englisch, möchte man dies auf Deutsch umstellen kann man dies unter Tools&Settings --> Plesk Appearance --> Languages machen.  Dort wählt man de-DE aus und klickt dann auf "Make Default". Nun ist das Panel nach einem Logout und wieder Login in Deutsch 
 
 ### Domain hinzufügen
 
-![](https://i.imgur.com/qPa5xab.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/cndRFgsQwQQToEm/preview)
 
 Um die erste Domain hinzuzufügen klickt man auf den blauen Button "Domain hinzufügen".
 
 Nun trägt man seine Domain ein, wählt eine IP-Adresse aus und trägt einem Benutzernamen sowie ein Passwort ein für den Webspace, den man nun zu der Domain anlegt. Man kann insofern man die Subdomain "www" schon erstellt hat, direkt ein SSL Zertifikat von Lets Encrypt mit generieren lassen, dazu wählt man diese Option aus, trägt eine Mail ein und bestätigt dann alles auf dem blauen "OK" Button ganz unten. 
 
-![](https://i.imgur.com/HP5AgU1.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/CzzFbBckPG6qp5o/preview)
 
 Nun kann man eine Domain eintragen wählt eine IP-Adresse aus und trägt einem Benutzernamen sowie ein Passwort ein für den Webspace, den man nun zu der Domain anlegt. Man kann insofern man die Subdomain "www" schon erstellt hat, direkt ein SSL Zertifikat von Lets Encrypt mit generieren lassen, dazu wählt man diese Option aus, trägt eine Mail ein und bestätigt dann alles auf dem blauen "OK" Button ganz unten. 
 
 > Die Domain muss auf die IP des Webspaces zeigen, liegt die Domain bei ZAP-Hosting, kann man via EasyDNS diese einfach auf den Webspace leiten lassen, liegt sie extern so muss ein A-Record auf die IP gesetzt werden sowie die Subdomain "www", "webmail" müssen ebenfalls auf die IP zeigen. Ein MX Record sollte auch auf die IP angelegt werden. 
 
-![](https://i.imgur.com/WsdNRnN.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/b7oxzgNZAiZSM7r/preview)
 
 > Es kann in der Regel bis zu 24 Stunden dauern, bis ein DNS Eintrag gültig wird bzw. korrekt auf den Webspace weiterleitet. 
 
@@ -88,13 +88,13 @@ Bei der Domain Eintragung/Erstellung vom Webspace wurde bereits ein SSL Zertifik
 
 ## Domain / Website
 
-![](https://i.imgur.com/hnJ0UYS.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/c2ABp4cAGJetpas/preview)
 
 Bei der Domain Eintragung/Erstellung vom Webspace wurde bereits ein SSL Zertifikat von Lets Encrypt mit generiert, dies kann nun unter "Hosting Einstellungen" der Domain eingetragen/ausgewählt werden. Anschließen bestätigt man es mit Klick auf "Übernehmen".
 
 > Damit dauerhaft auf HTTPS (SSL) geleitet wird beim Aufruf der Webseite muss das Häkchen bei "Dauerhafte, für SEO geeignete 301-Weiterleitung von HTTP zu HTTPS" gesetzt werden. 
 
-![](https://i.imgur.com/ion3kL2.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/HNEDfxDQGjp5xKj/preview)
 
 Öffnet man nun seine Domain, so ist die Seite verschlüsselt
 
