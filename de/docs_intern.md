@@ -144,6 +144,12 @@ Nun wurde deine Pull Request erstellt.
 
 ![](https://i.imgur.com/M4VZpra.png)
 
+Auf der Rechten Seite solltest du nun angeben ob dein Doc-Eintrag schon fertig ist, oder ob noch was dran gemacht wird:
+
+![](https://screensaver01.zap-hosting.com/index.php/s/pgGPXH9TWQiqKiN/preview)
+
+> Wenn du fertig mit den Docs bist, setze einfach "Done", ansonsten "WIP" als Label setzen.
+
 Wenn du weitere Änderungen vornehmen willst, kannst du auf deine Branch öffnen, und dort weitere Dateien ändern, diese werden automatisch in die Pull Request integriert:
 
 ![](https://i.imgur.com/Tush4SB.png)
