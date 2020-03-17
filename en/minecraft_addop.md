@@ -1,49 +1,49 @@
 ---
 id: minecraft_addop
-title: OP-Rechte
-sidebar_label: OP-Rechte
+title: OP-Permissions
+sidebar_label: OP-Permissions
 ---
 
-## OP-Rechte vergeben
+## Assign OP rights
 
-Damit man sich selbst oder auch anderen Spielern OP-Recht zuteilen kann, muss man zunächst die Konsole aufrufen, insofern bisher kein anderer Spieler ausreichende OP-Rechte hat, damit die Vergabe im Spiel selbst möglich ist.
+In order to be able to assign OP-rights to yourself or other players, you first have to open the console, as far as no other player has sufficient OP-rights so far, so that the assignment is possible in the game itself.
 
 
-Um die Konsole zu öffnen, muss zunächst der jeweilige Server über das **Dashboard** aufgerufen werden. Im Interface des Servers angekommen ist links in der Liste unter dem Reiter "INFORMATIONEN" der Eintrag "Live Konsole" zu finden, worüber die Konsole geöffnet werden kann.
+To open the console, the respective server must first be called via the ** dashboard**. In the interface of the server you will find the entry "Live Console" on the left side of the list under the tab "INFORMATION".
 
-![](https://screensaver01.zap-hosting.com/index.php/s/XMHYMFodgEwQfa7/preview)
+![](https://i.imgur.com/iueWbsT.png)
 
-Nun sollte ein dunkles Fenster zu sehen sein, was die Konsole des Servers darstellt. Darunter ist ein Eingabefeld zu erkennen, wo jegliche Befehle an die Konsole übergeben werden, sodass diese dort ausgeführt werden. Um nun die OP-Rechte zu setzten, muss in das Eingabefeld der Befehl "op <Spieler>" (ohne "/") eingetragen werden und anschließend auf den grünen Button "Befehl senden" geklickt werden, damit der Befehl an die Konsole gesendet wird.
+Now you should see a dark window representing the console of the server. Underneath it, you can see an input field where any commands are passed to the console. In order to set the OP rights, the command "op <player>" (without "/") must be entered into the input field and then the green button "Send command" has to be clicked to send the command to the console.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/kW3LgMYk2wpGmxX/preview)
+![](https://i.imgur.com/zB5P0WQ.png)
 
-Nach wenigen Sekunden sollte der gesendete Befehl in der Konsole erscheinen, worauf die Meldung "Made <Spieler> a server operator" kommt, welche den Vorgang als erfolgreich markiert. Nun hat der jeweilige Spieler alle OP-Rechte und kann beispielsweise den Spielmodus wechseln.
+After a few seconds, the command sent should appear in the console, followed by the message "Made <player> a server operator", which marks the action as successful. Now the respective player has all OP-rights and can for example change the game mode.
 
-> Das Verteilen von OP-Rechten ist nun auch im Spiel selbst möglich, so dass du das Rechte-Level wie im nächsten Schritt erklärt ggf. anpassen solltest, insofern dies von dir gewünscht ist.
+> The distribution of OP-rights is now also possible in the game itself, so that you should adjust the rights level as explained in the next step, if you wish to do so.
 
-## Rechte-Level
+## Rights level
 
-Die OP-Rechte sind in vier Level unterteilt, wobei standardmäßig immer Level 4 gesetzt wird. Die jeweiligen Level beinhalten verschiedene Rechte, sodass die Rechte je nach Spieler grob eingeteilt werden können. Die jeweiligen Rechte eines Levels sehen wie folgt aus:
+The OP rights are divided into four levels, whereby level 4 is always set by default. The respective levels contain different rights, so that the rights can be roughly divided according to the player. The respective rights of a level are as follows:
 
-| Level | Bezeichnung | Rechte  |
+| Level | Description | Permissions |
 | :-----: |:-------------:| :-----:|
-| 1 | Moderator | Veränderungen innerhalb des geschützten Spawnbereichs können vorgenommen werden. |
-| 2 | Gamemaster | Befehlsblöcke setzen und editieren, sowie das Ausführen diverse Cheat-Befehle (z.B.: /gamemode). |
-| 3 | Admin  | Kicken und bannen von Spielern, sowie weitere Befehle, die der allgemeinen Verwaltung des Servers angehören. Zudem können weitere Operatoren ernannt werden. |
-| 4 | Owner | Keine Einschränkungen mehr vorhanden. |
+| 1 | Moderator | Changes within the protected spawn area can be made. |
+| 2 | Gamemaster | Set and edit command blocks, and execute various cheat commands (e.g.: /gamemode). |
+| 3 | Admin | Kicking and banning players, as well as other commands that are part of the general administration of the server. Additional operators can also be appointed. |
+| 4 | Owner | No more restrictions in place. |
 
-> Durch die Installation eines Rechte-Plugins wie LuckPerms auf deinem Bukkit/Spigot Server, können die Rechte viel spezieller und detailreicher festgelegt werden. Zudem können auch mehrere Gruppe erstellt werden, was die Verteilung von Rechten vereinfacht.
+> By installing a permissions plugin like LuckPerms on your Bukkit/Spigot server, you can set the permissions much more specific and detailed. It is also possible to create multiple groups, which simplifies the distribution of rights.
 
-### Rechte-Level zuweisen
+## Assign rights level
 
-Um das Level eines Spielers anzupassen, muss dieser zuerst zum Operator ernannt werden, wie unter "OP-Rechte vergeben" erklärt wird. Damit das Level angepasst werden kann, muss die Datei "ops.json" mittels FTP-Verbindung bearbeitet werden.
+In order to adjust the level of a player, he must first be appointed as an Operator, as explained under "Granting OP-Rights". To adjust the level, the file "ops.json" must be edited via FTP connection.
 
-Sobald die Verbindung zum Server mittels FTP hergestellt worden ist, muss in das jeweilige Verzeichnis des Servers navigiert werden. Nun muss in unserem Fall bei FileZilla ein Rechtsklick auf die Datei gemacht werden und in dem erschienenen Menü auf "Ansehen/Bearbeiten" geklickt werden.
+As soon as the connection to the server has been established via FTP, you have to navigate to the respective directory of the server. Now in our case at FileZilla you have to right-click on the file and click on "View/Edit" in the menu that appears.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/MEmSTsEdzmmLf9P/preview)
+![](https://i.imgur.com/qW2NHJQ.png)
 
-Nun muss bei dem gewünschten Spieler der Wert von "level" auf das gewünschte Level gesetzt werden, worauf die Datei mit **STRG+S** gespeichert werden muss.
+Now the value of "level" must be set to the desired level for the desired player, whereupon the file must be saved with **STRG+S**.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/QwXEcs4BJpsWzKK/preview)
+![](https://i.imgur.com/bq4seRq.png)
 
-Damit die Änderungen übernommen werden, ist ein Neustart des Servers nötig, was mit dem Halten des roten Stop-Buttons im Interface des Servers möglich ist.
+In order for the changes to take effect, the server must be restarted, which is possible by holding the red Stop button in the server interface.
