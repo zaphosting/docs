@@ -10,12 +10,12 @@ Erfahre mehr zu der Kündigung und der Kündigungsfrist.
 Um dein Produkt bei uns zu Kündigen, kannst du sofern du eingeloggt bist so vorgehen:
 Gehe in das Dashboard also in deine Produktübersicht. Dieses erreichst du über den Knopf oben in der Leiste "Webinterface".
 
-![](https://screensaver01.zap-hosting.com/index.php/s/Jsw9fkz9rKAqng5/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/cck9BCtQTL4axJJ/preview)
 
 
 Anschließend musst du links im Menü auf "Verträge & PrePaids" klicken. Zum Schluss wählst du dein Produkt dort aus und klickst dann auf das Rote *Vertrag Kündigen*.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/rgYjFGSsqYdorJY/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/SHNJMdqMQfsBwgs/preview)
 
 Im Anschluss wird dir angezeigt, zu welchem Datum dein Vertrag gekündigt wird.
 
