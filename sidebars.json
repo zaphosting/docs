@@ -79,6 +79,14 @@
 		  "fivem_installresources",
 		  "fivem_useprofiler",
 		  {
+			"type":"subcategory",
+			"label":"Mods",
+			"ids":[
+				"fivem_mods_installreplace"
+			]
+		 },
+
+		  {
 			 "type":"subcategory",
 			 "label":"ESX",
 			 "ids":[
