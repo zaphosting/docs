@@ -64,7 +64,9 @@ Now scroll in so that we can see the individual times:
 
 Now we can see which resources are consuming a lot of time.
 
-> Resources that consume more than 6 ms in total can cause problems.
-
 In our case, only "Webadmin" is a bit slow, but this does not cause any performance problems. If a resource consumes a lot of time it should be deactivated for testing and a new measurement made.
+
+
+
+> Resources that consume more than 6 ms in total can cause problems.
 
