@@ -89,13 +89,13 @@
         "title": "Resource Installation",
         "sidebar_label": "Resource Installation"
       },
+      "fivem_mods_installreplace": {
+        "title": "Install replace carmods",
+        "sidebar_label": "Install replace carmods"
+      },
       "fivem_useprofiler": {
         "title": "Use Profiler",
         "sidebar_label": "Use Profiler"
-      },
-      "fivem_windowsorlinux": {
-        "title": "Windows or Linux",
-        "sidebar_label": "Windows or Linux"
       },
       "gameserver_databases_pma": {
         "title": "PHPMyAdmin",
