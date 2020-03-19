@@ -33,7 +33,7 @@ In deinem Assets Ordner erstellst du nun einen "stream" Ordner.
 
 ## Mods Hochladen
 
-Öffne diesen stream ordner nun, hier kannst du nun alle ytd und yft Dateien per drag&drop hochladen:
+Öffne diesen stream Ordner nun, hier kannst du nun alle ytd und yft Dateien per drag&drop hochladen:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/g5Dg67pSTYiEWaM/preview)
 
@@ -46,6 +46,6 @@ Diese kannst du mit einem beliebigen Texteditor öffnen, unter den "start" Eintr
 ![](https://screensaver01.zap-hosting.com/index.php/s/D58nmHkXHgwyTf6/preview)
 
 
-Fertig! Nach einem Serverneustart sollte der carmod nun auf dem Server zu finden sein!
+Fertig! Nach einem Serverneustart sollte der Carmod nun auf dem Server zu finden sein!
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/MTWWPwTd9KTSpmX/preview)
