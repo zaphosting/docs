@@ -165,6 +165,10 @@
         "title": "Plesk",
         "sidebar_label": "Plesk"
       },
+      "vserver_windows_addip": {
+        "title": "Zusätzliche IPs hinzufügen",
+        "sidebar_label": "Zusätzliche IPs hinzufügen"
+      },
       "vserver_windows_userdp": {
         "title": "Erstzugriff (RDP)",
         "sidebar_label": "Erstzugriff (RDP)"
