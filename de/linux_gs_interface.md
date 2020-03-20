@@ -10,10 +10,10 @@ Mit dem Interface kannst du bequem in wenigen Klicks einen Teamspeak 3 Server od
 Und dafür brauchst du keinerlei Erfahrung mit dem Umgang von Linux!
 
 > **Wichtig**: Das Interface kann nur auf den folgenden Linux Distributionen installiert werden:
-> 1. Debian 8
-> 1. Debian 9
-> 1. Debian 10
-> 1. Ubuntu 17.10
+> 1. **Debian 8**
+> 1. **Debian 9**
+> 1. **Debian 10**
+> 1. **Ubuntu 17.10**
 
 ## Vorbereitungen
 Bevor das Interface installiert werden kann, muss zuvor der SSH-Login mit dem Passwort aktiviert werden.
@@ -109,7 +109,7 @@ Wie zum Beispiel das ändern der jeweiligen Ports sowie das ändern der Version.
 
 
 Soweit alle Angaben passen kannst du auf "Teamspeak 3 / 5 Server jetzt installieren" klicken.
-> ACHTUNG: Wir empfehlen immer die aktuellste Version zu verwenden.
+> **ACHTUNG**: Wir empfehlen **immer** die aktuellste Version zu verwenden.
 
 Du kannst den installierten Teamspeak 3 Server nun in der "Voiceserver" Übersicht einsehen und anklicken.
 
