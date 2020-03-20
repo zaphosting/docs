@@ -64,7 +64,8 @@ Nun reinscrollen, sodass wir die einzelnen Zeiten sehen:
 
 Nun können wir sehen, welche Resourcen sehr viel zeit verbrauchen.
 
-> Resourcen welche insgesamt über 6 ms Verbrauchen können Probleme verursachen
+In unserem fall ist nur "webadmin" etwas langsam, welches aber keine Performanceprobleme verursacht, wenn eine Ressource sehr viel zeit verbraucht sollte diese testweise deaktiviert werden und eine neue Messung angefertigt werden.
 
-In unserem fall ist nur "Webadmin" etwas langsam, welches aber keine Performanceprobleme verursacht, wenn eine Ressource sehr viel zeit verbraucht sollte diese testweise deaktiviert werden und eine neue Messung angefertigt werden.
+
+> Resourcen welche insgesamt über 6 ms Verbrauchen können Probleme verursachen
 

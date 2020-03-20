@@ -9,7 +9,7 @@ sidebar_label: OP-Permissions
 In order to be able to assign OP-rights to yourself or other players, you first have to open the console, as far as no other player has sufficient OP-rights so far, so that the assignment is possible in the game itself.
 
 
-To open the console, the respective server must first be called via the ** dashboard**. In the interface of the server you will find the entry "Live Console" on the left side of the list under the tab "INFORMATION".
+To open the console, the respective server must first be called via the **Dashboard**. In the interface of the server you will find the entry "Live Console" on the left side of the list under the tab "INFORMATION".
 
 ![](https://i.imgur.com/iueWbsT.png)
 
