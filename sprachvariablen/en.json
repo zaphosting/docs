@@ -45,6 +45,10 @@
         "title": "Beispiel-Eintrag",
         "sidebar_label": "Beispiel Eintrag"
       },
+      "community info": {
+        "title": "Community offers",
+        "sidebar_label": "Community offers"
+      },
       "docs_intern": {
         "title": "Docs Erstellen -- Intern",
         "sidebar_label": "Docs Erstellen -- Intern"
