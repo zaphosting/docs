@@ -1,5 +1,5 @@
 ---
-id: community-info
+id: community_info
 title: Community Angebote
 sidebar_label: Community Angebote
 ---
