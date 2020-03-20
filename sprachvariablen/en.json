@@ -125,6 +125,10 @@
         "title": "Restartplaner",
         "sidebar_label": "Restartplaner"
       },
+      "linux_gs_interface": {
+        "title": "Gameserver / Ts 3 Server Interface",
+        "sidebar_label": "Gameserver / Ts 3 Server Interface"
+      },
       "minecraft_addop": {
         "title": "OP-Permissions",
         "sidebar_label": "OP-Permissions"
