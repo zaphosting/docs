@@ -92,9 +92,9 @@
         "title": "Profiler Benutzen",
         "sidebar_label": "Profiler Benutzen"
       },
-      "fivem_windowsorlinux": {
-        "title": "Windows oder Linux",
-        "sidebar_label": "Windows oder Linux"
+      "fivem_mods_installreplace": {
+        "title": "Replacement Carmods Installieren",
+        "sidebar_label": "Replacement Carmods Installieren"
       },
       "gameserver_databases_pma": {
         "title": "PHPMyAdmin",
