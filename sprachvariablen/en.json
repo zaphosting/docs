@@ -45,6 +45,10 @@
         "title": "Beispiel-Eintrag",
         "sidebar_label": "Beispiel Eintrag"
       },
+      "community_info": {
+        "title": "Community offers",
+        "sidebar_label": "Community offers"
+      },
       "docs_intern": {
         "title": "Docs Erstellen -- Intern",
         "sidebar_label": "Docs Erstellen -- Intern"
@@ -124,6 +128,10 @@
       "minecraft_addop": {
         "title": "OP-Permissions",
         "sidebar_label": "OP-Permissions"
+      },
+      "minecraft_default_config": {
+        "title": "Server Config",
+        "sidebar_label": "Server Config"
       },
       "minecraft_direwolf20": {
         "title": "Direwolf20",
