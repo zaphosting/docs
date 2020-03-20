@@ -77,9 +77,16 @@
 	   ],
 	   "FiveM":[
 		  "fivem_dashboard",
-		  "fivem_windowsorlinux",
 		  "fivem_installresources",
 		  "fivem_useprofiler",
+		  {
+			"type":"subcategory",
+			"label":"Mods",
+			"ids":[
+				"fivem_mods_installreplace"
+			]
+		 },
+
 		  {
 			 "type":"subcategory",
 			 "label":"ESX",

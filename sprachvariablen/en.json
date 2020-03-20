@@ -86,16 +86,20 @@
         "sidebar_label": "Dashboard"
       },
       "fivem_installresources": {
-        "title": "Resourcen Installieren",
-        "sidebar_label": "Resourcen Installieren"
+        "title": "Resource Installation",
+        "sidebar_label": "Resource Installation"
+      },
+      "fivem_mods_installreplace": {
+        "title": "Install replace carmods",
+        "sidebar_label": "Install replace carmods"
       },
       "fivem_useprofiler": {
-        "title": "Profiler Benutzen",
-        "sidebar_label": "Profiler Benutzen"
+        "title": "Use Profiler",
+        "sidebar_label": "Use Profiler"
       },
-      "fivem_windowsorlinux": {
-        "title": "Windows or Linux",
-        "sidebar_label": "Windows or Linux"
+      "gameserver_cloudvslifetime": {
+        "title": "Cloud vs. Lifetime",
+        "sidebar_label": "Cloud vs. Lifetime"
       },
       "gameserver_databases_pma": {
         "title": "PHPMyAdmin",
