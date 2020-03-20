@@ -8,7 +8,8 @@
 				"firststeps_register",
 				"firststeps_rent",
 				"firststeps_rent_contractorprepaid",
-				"firststeps_rent_location"
+				"firststeps_rent_location",
+				"firststeps_problem_melden"
 			 ]
 		  }
 	   ],
@@ -127,7 +128,8 @@
 			 "type":"subcategory",
 			 "label":"Windows",
 			 "ids":[
-				"vserver_windows_userdp"
+				"vserver_windows_userdp",
+				"vserver_windows_addip"
 			 ]
 		  }
 	   ],
