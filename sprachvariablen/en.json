@@ -129,6 +129,10 @@
         "title": "OP-Permissions",
         "sidebar_label": "OP-Permissions"
       },
+      "minecraft_default_config": {
+        "title": "Server Config",
+        "sidebar_label": "Server Config"
+      },
       "minecraft_direwolf20": {
         "title": "Direwolf20",
         "sidebar_label": "Direwolf20"
