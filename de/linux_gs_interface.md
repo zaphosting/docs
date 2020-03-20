@@ -9,7 +9,7 @@ sidebar_label: Gameserver / Ts 3 Server Interface
 Mit dem Interface kannst du bequem in wenigen Klicks einen Teamspeak 3 Server oder verschiedene ausgewählte Gameserver auf deinem Linux Server installieren.
 Und dafür brauchst du keinerlei Erfahrung mit dem Umgang von Linux!
 
-> *Wichtig*: Das Interface kann nur auf den folgenden Linux Distributionen installiert werden:
+> **Wichtig**: Das Interface kann nur auf den folgenden Linux Distributionen installiert werden:
 > 1. Debian 8
 > 1. Debian 9
 > 1. Debian 10
@@ -28,7 +28,7 @@ Das findest du heraus, indem du beim obigen Link auf das Auge bei dem Passwort k
 
 Das Passwort kopierst du nun in deine Zwischenablage, dass wird für den nächsten Schritt benötigt.
 
-> *Achtung*: Das Passwort wird dir nur für 3 Stunden dort angezeigt.
+> **Achtung**: Das Passwort wird dir nur für 3 Stunden dort angezeigt.
 > Solltest du das alte Passwort vergessen haben oder es dort nicht mehr stehen, kannst du unter "Zugang und Sicherheit" deinem Server auch ein neues Kennwort zuweisen.
 
 >![](https://screensaver01.zap-hosting.com/index.php/s/9GD894FJEJRpJZT/preview)
@@ -41,7 +41,7 @@ Dafür kannst du links im Interface von deinem Server auf den Button "Gameserver
 ![](https://screensaver01.zap-hosting.com/index.php/s/43pjjnGmt4fFbGf/preview)
 
 Hier geben wir nun das vorhin kopierte SSH Passwort ein und drücken im Anschluss auf "Anlegen"
-> *Achtung*: Solltest du den SSH Port geändert haben, muss der neue SSH Port dort mit angegeben werden.
+> **Achtung**: Solltest du den SSH Port geändert haben, muss der neue SSH Port dort mit angegeben werden.
 
 ### Abschluss der Installation
 Du siehst jetzt den Fortschritt der Installation.
@@ -49,7 +49,7 @@ Bis alles komplett installiert und konfiguriert ist, kann es rund 15-20 Minuten 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/B3iz7AZfcM2K3dR/preview)
 
-> *Achtung*: Bitte erst weiter machen wenn das Interface komplett installiert ist.
+> **Achtung**: Bitte erst weiter machen wenn das Interface komplett installiert ist.
 > Es ist komplett installiert soweit der Fortschrittsbalken verschwunden ist und sobald bei jedem Paket "Installiert" anstatt "fehlt" steht.
 
 ## Installation eines Gameservers
@@ -116,7 +116,7 @@ Du kannst den installierten Teamspeak 3 Server nun in der "Voiceserver" Übersic
 ![](https://screensaver01.zap-hosting.com/index.php/s/rRHkyJfG4TnYFBq/preview)
 
 
-> *Achtung*: Hierbei handelt es sich um die Instanz auf welchem der tatsächliche Teamspeak 3 Server im Anschluss installiert wird.
+> **Achtung**: Hierbei handelt es sich um die Instanz auf welchem der tatsächliche Teamspeak 3 Server im Anschluss installiert wird.
 
 Du befindest dich nun im Interface der Instanz von deinem installierten Teamspeak 3 Server.
 Die Instanz kannst du nun mit einem Klick auf den "Start" Button starten.
@@ -141,7 +141,7 @@ Du kannst zum Beispiel unter dem Reiter "Berechtigungsschlüssel" einen Token an
 Unter Eisntellungen kannst du zum Beispiel den  Namen von deinem Server ändern, ein Passwort festlegen oder eine Begrüßung hinterlegen.
 
 
-> *Wichtig* : Standardmäßig ist keine Lizenz installiert. Das bedeutet, dass du nur einen Teamspeak 3 Server mit 32 Slots verwenden kannst.
+> **Wichtig** : Standardmäßig ist keine Lizenz installiert. Das bedeutet, dass du nur einen Teamspeak 3 Server mit 32 Slots verwenden kannst.
 
  
 
