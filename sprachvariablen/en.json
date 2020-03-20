@@ -97,6 +97,10 @@
         "title": "Use Profiler",
         "sidebar_label": "Use Profiler"
       },
+      "gameserver_cloudvslifetime": {
+        "title": "Cloud vs. Lifetime",
+        "sidebar_label": "Cloud vs. Lifetime"
+      },
       "gameserver_databases_pma": {
         "title": "PHPMyAdmin",
         "sidebar_label": "PHPMyAdmin"
