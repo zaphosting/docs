@@ -25,6 +25,7 @@
 		  "account_donations"
 	   ],
 	   "Gameserver - General":[
+		  "gameserver_cloudvslifetime",
 		  "gameserver_resourcelimit",
 		  {
 			 "type":"subcategory",

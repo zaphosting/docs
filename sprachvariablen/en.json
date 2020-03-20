@@ -97,6 +97,10 @@
         "title": "Use Profiler",
         "sidebar_label": "Use Profiler"
       },
+      "gameserver_cloudvslifetime": {
+        "title": "Cloud vs. Lifetime",
+        "sidebar_label": "Cloud vs. Lifetime"
+      },
       "gameserver_databases_pma": {
         "title": "PHPMyAdmin",
         "sidebar_label": "PHPMyAdmin"
@@ -160,6 +164,10 @@
       "vserver_linux_plesk": {
         "title": "Plesk",
         "sidebar_label": "Plesk"
+      },
+      "vserver_windows_addip": {
+        "title": "Zusätzliche IPs hinzufügen",
+        "sidebar_label": "Zusätzliche IPs hinzufügen"
       },
       "vserver_windows_userdp": {
         "title": "Erstzugriff (RDP)",
