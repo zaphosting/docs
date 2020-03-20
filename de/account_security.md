@@ -4,7 +4,7 @@ title: Sicherheit
 sidebar_label: Sicherheit
 ---
 
-Dein Account bei uns gibt Zugang zu deinen Diensten, entsprechend ist Sicherheit - besonders in der heutigen Zeit - sehr wichtig. Wir versuchen von unser Seite zu tun was wir können, um dich zu schützen. Beispielsweise bieten wir Belohnungen für Meldungen zu Sicherheitslücken für Whitehat Hacker in [unserem Bug Bounty Programm](https://zap-hosting.com/de/sicherheit/) an.
+Dein Account bei uns gibt Zugang zu deinen Diensten, entsprechend ist Sicherheit - besonders in der heutigen Zeit - sehr wichtig. Wir versuchen von unserer Seite zu tun was wir können, um dich zu schützen. Beispielsweise bieten wir Belohnungen für Meldungen zu Sicherheitslücken für Whitehat Hacker in [unserem Bug Bounty Programm](https://zap-hosting.com/de/sicherheit/) an.
 Zur Sicherheit deines Accounts gehören aber zwei Seiten, deshalb hier einige Informationen, wie du deinen Account besser schützen kannst.
 
 ## 🔑 Sichere Passwörter
