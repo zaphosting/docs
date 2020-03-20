@@ -8,7 +8,9 @@
 				"firststeps_register",
 				"firststeps_rent",
 				"firststeps_rent_contractorprepaid",
-				"firststeps_rent_location"
+				"firststeps_rent_location",
+				"firststeps_problem_melden",
+				"community_info"
 			 ]
 		  }
 	   ],
@@ -24,6 +26,7 @@
 		  "account_donations"
 	   ],
 	   "Gameserver - General":[
+		  "gameserver_cloudvslifetime",
 		  "gameserver_resourcelimit",
 		  {
 			 "type":"subcategory",
@@ -42,6 +45,7 @@
 			 "label":"Administration",
 			 "ids":[
 				"minecraft_addop",
+				"minecraft_default_config",
 				"minecraft_worlds"
 			 ]
 		  },
@@ -126,7 +130,8 @@
 			 "type":"subcategory",
 			 "label":"Windows",
 			 "ids":[
-				"vserver_windows_userdp"
+				"vserver_windows_userdp",
+				"vserver_windows_addip"
 			 ]
 		  }
 	   ],
