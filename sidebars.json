@@ -14,6 +14,7 @@
 	   ],
 	   "Account":[
 		  "account_contractsandprepaid",
+		  "account_termination_and_cancellation_period",
 		  "account_2factor",
 		  "account_backup_storage",
 		  "account_partner_system",
