@@ -35,7 +35,8 @@
 			 ]
 		  },
 		  "gameserver_ftpaccess",
-		  "gameserver_restartplaner"
+		  "gameserver_restartplaner",
+		  "gameserver_server_down_what_now"
 	   ],
 	   "Minecraft":[
 		  {
