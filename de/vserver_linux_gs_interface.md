@@ -1,5 +1,5 @@
 ---
-id: linux_gs_interface
+id: vserver_linux_gs_interface
 title: Gameserver / Ts 3 Server Interface
 sidebar_label: Gameserver / Ts 3 Server Interface
 ---
