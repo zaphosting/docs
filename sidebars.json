@@ -81,6 +81,7 @@
 	   "FiveM":[
 		  "fivem_dashboard",
 		  "fivem_installresources",
+		  "fivem_rcon",
 		  "fivem_useprofiler",
 		  {
 			"type":"subcategory",
