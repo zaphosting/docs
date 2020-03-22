@@ -1,5 +1,5 @@
 ---
-id: ftp_gs_ts_wi_vps_root_server
+id: vps_root_server_linux_webinterface_ftp
 title: FTP Dienst funtkioniert nicht (vServer/Root Server|Game-TS3-WI)
 sidebar_label: FTP Dienst funtkioniert nicht (vServer/Root Server|Game-TS3-WI)
 ---
