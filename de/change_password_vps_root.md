@@ -52,14 +52,14 @@ Um das Passwort einzusehen genügt ein Klick auf das Auge bei "Passwort" auf der
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/B5FnToJ2DDbpsAQ/preview)
 
-Anshließend öffnet sich ein PoP-UP wo das Passwort angezeigt wird.
+Anschließend öffnet sich ein PoP-UP wo das Passwort angezeigt wird.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/AZ7coof6Q5r2aTt/preview)
 
 
 ## Option 2
 
-Das Passwort kann auch üver die Server Console geändert werden, dabei ist es egal ob man diese via Putty erreicht oder z.b vir VNC/Serial.
+Das Passwort kann auch über die Server Console geändert werden, dabei ist es egal ob man diese via Putty erreicht oder z.b via VNC/Serial.
 > Wichtig: Diese Option funktioniert nur wenn noch Zugriff zum Server besteht, sprich man noch auf die Console verbinden sowie anmelden kann. 
 
 Ist man in der Console angemeldet, kann über den Befehl "passwd" das Passwort geändert werden. 
