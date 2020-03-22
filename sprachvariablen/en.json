@@ -125,10 +125,6 @@
         "title": "Restartplaner",
         "sidebar_label": "Restartplaner"
       },
-      "linux_gs_interface": {
-        "title": "Gameserver / Ts 3 Server Interface",
-        "sidebar_label": "Gameserver / Ts 3 Server Interface"
-      },
       "minecraft_addop": {
         "title": "OP-Permissions",
         "sidebar_label": "OP-Permissions"
@@ -165,7 +161,11 @@
         "title": "Docker",
         "sidebar_label": "Docker"
       },
-      "vserver_linux_installjava": {
+      "vserver_linux_gs_interface": {
+        "title": "Gameserver / Ts 3 Server Interface",
+        "sidebar_label": "Gameserver / Ts 3 Server Interface"
+      },
+      "vserver_linux_java": {
         "title": "Java installieren",
         "sidebar_label": "Java installieren"
       },
