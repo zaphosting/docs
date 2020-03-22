@@ -18,7 +18,7 @@ Das Passwort kann über unser Webinterface bei dem jeweiligen Server geändert w
 Dort findet man das Eingabe Feld „Root Password“. 
 Dort kann man ein neues Wunsch Passwort eintragen.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/d4BGafY3TSJ9yTj/previewpreview)
+![](https://screensaver01.zap-hosting.com/index.php/s/d4BGafY3TSJ9yTj/preview)
 
 >Bitte beachte das dies mindestens 8 Zeichen lang sein muss sowie aus Klein und Groß Buchstaben (a-z/A-Z), Zahlen (1-9) und Sonderzeichen (!@=#$%&-?_;:.,) bestehen muss. 
 Sollte dies nicht der Fall sein, wird es bei dem Server nicht gesetzt. 
