@@ -45,6 +45,10 @@
         "title": "Beispiel-Eintrag",
         "sidebar_label": "Beispiel Eintrag"
       },
+      "community_info": {
+        "title": "Community offers",
+        "sidebar_label": "Community offers"
+      },
       "docs_intern": {
         "title": "Docs Erstellen -- Intern",
         "sidebar_label": "Docs Erstellen -- Intern"
@@ -121,9 +125,17 @@
         "title": "Restartplaner",
         "sidebar_label": "Restartplaner"
       },
+      "linux_gs_interface": {
+        "title": "Gameserver / Ts 3 Server Interface",
+        "sidebar_label": "Gameserver / Ts 3 Server Interface"
+      },
       "minecraft_addop": {
         "title": "OP-Permissions",
         "sidebar_label": "OP-Permissions"
+      },
+      "minecraft_default_config": {
+        "title": "Server Config",
+        "sidebar_label": "Server Config"
       },
       "minecraft_direwolf20": {
         "title": "Direwolf20",

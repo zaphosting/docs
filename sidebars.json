@@ -9,7 +9,8 @@
 				"firststeps_rent",
 				"firststeps_rent_contractorprepaid",
 				"firststeps_rent_location",
-				"firststeps_problem_melden"
+				"firststeps_problem_melden",
+				"community_info"
 			 ]
 		  }
 	   ],
@@ -44,6 +45,7 @@
 			 "label":"Administration",
 			 "ids":[
 				"minecraft_addop",
+				"minecraft_default_config",
 				"minecraft_worlds"
 			 ]
 		  },
@@ -121,7 +123,8 @@
 				"vserver_linux_installjava",
 				"vserver_linux_docker",
 				"vserver_linux_plesk",
-				"vserver_linux_openvpn"
+				"vserver_linux_openvpn",
+				"linux_gs_interface"
 			 ]
 		  },
 		  {
