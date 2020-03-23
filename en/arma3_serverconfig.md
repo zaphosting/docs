@@ -21,7 +21,7 @@ Server.cfg can be edited with a few clicks.
 
 To edit the server.cfg of your ArmA 3 server in the ZAP editor, first click on your server in the interface and then select "Configs" in the menu on the left side under "Settings". 
 
-![](https://puu.sh/Fk7Ck/9b2d95185f.png)
+![](https://puu.sh/Fo5i6/183ee65ef3.png)
 
 
 There you will see a list of the configuration files available for ArmA 3, we only edit the Server.cfg now. 
