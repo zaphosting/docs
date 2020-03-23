@@ -20,10 +20,12 @@ die benötigte Ressource **MySQL-Ansync** installiert werden, damit eine Datenba
 
 ![](https://puu.sh/Fo5WF/74b8db03f9.png)
 
+
 Dort scrollst du herunter bis du den Punkt **Konfiguriere Datenbank** erreichst und stellst sicher dass dieser
 auf **Yes, configure!** gesetzt ist. Danach scrollst Du zum Ende der Seite und klickst auf **Speichern** um die Einstellungen zu übernehmen.
 
 ![](https://puu.sh/Fo5ZN/d5fd796e36.png)
+
 
 Nun navigieren wir zum Menüpunkt **Resources** und installieren dort, sofern dies noch nicht geschehen ist, die Resource **MySQL-Async**.
 
@@ -46,6 +48,7 @@ Du öffnest den Ordner der Ressource und findest dort, sofern vorhanden, eine Da
 
 ![](https://puu.sh/Fo5NT/727de4c92a.png)
 
+
 Ist dies der Fall, entferne vorher beide Zeilen da die SQL-Datei sonst nicht importiert werden kann.
 
 **Erklärung:** Die erste zeile teilt dem Datenbankserver mit dass eine neue Datenbank mit dem Namen **essentialmode** erstellt werden soll.
@@ -59,10 +62,12 @@ Die Datenbank deines Fivem Gameservers erreichst du über den Menüpunkt **Daten
 
 ![](https://puu.sh/Fo6fa/ecba0dc960.png)
 
+
 Die Datenbank selbst wird im weiteren über das Tool **phpmyadmin** verwaltet, dieses öffnest du mit einem Klick auf den blauen **Verwalten-Button**
 auf der rechten Seite.
 
 ![](https://puu.sh/Fo6gj/bf5b9d4105.png)
+
 
 In **phpmyadmin** angekommen wählst du zuerst deine Datenbank aus der Liste links via Linksklick aus. 
 
@@ -70,10 +75,12 @@ In **phpmyadmin** angekommen wählst du zuerst deine Datenbank aus der Liste lin
 
 ![](https://puu.sh/Fo6mn/5da34ac4ca.png)
 
+
 Deine Datenbank ist aktuell noch leer, das ändert sich in Kürze. Über den Menüpunkt **Importieren** im oberen Bereich von **phpmyadmin**
 gelangst du zu den Importoptionen.
 
 ![](https://puu.sh/Fo6oE/6e3b9578b0.png)
+
 
 Dort wählst du nun über den Punkt **Datei auswählen** deine SQL Datei aus, diese darf maximal 2MB groß sein!
 
@@ -84,10 +91,12 @@ Nachdem du deine SQL-Datei ausgewählt hast, musst du nur noch auf **OK** klicke
 
 ![](https://puu.sh/Fo6yI/af049b04a5.png)
 
+
 Wenn alles funktionier hat, siehst du einige Erfolgsmeldungen, so wie auf der linken Seite deine neu erstellten Datenbankinhalte.
 
 
 ![](https://puu.sh/Fo6Am/78d0738b1d.png)
+
 
 Du hast nun erfolgreich deine SQL Datei importiert.
 
