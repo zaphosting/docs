@@ -51,4 +51,31 @@ Die Setzung von Anführungszeichen so wie Semikolon und Komma fehlen hier, der S
 
 ## Bearbeiten der Server.cfg über FTP
 
-Bald verfügbar...
+Anstelle des ZAP-Editors kann die Server.cfg auch direkt via FTP bearbeitet werden. In diesem Beispiel verwenden wir "FileZilla"
+um eine Verbindung via FTP zum FTP-Server und den Verzeichnissen deines Gameservers herzustellen.
+
+Wie du dich via FTP zu deinem Gameserver verbindest, lernst du hier: [FTP-Dateizugriff - Mit FTP verbinden](https://docs.zap-hosting.com/docs/de/gameserver_ftpaccess/).
+
+
+## Herstellen der Verbindung und Navigation zum Pfad der Server.cfg
+
+> Stelle sicher dass dein Gameserver gestoppt ist während du auf diesem via FTP arbeitest.
+
+Nachdem du dich wir oben erklärt via FTP auf deinen Gameserver verbunden hast, navigierst du dich via FileZilla im unteren rechsten Fenster zum Verzeichnis deiner Server.cfg, diese findest du unter: **/g198376/arma3/config**
+
+![](https://puu.sh/Fo4Om/5df742a376.png)
+
+> Der Name des ersten Ordners (g198376) entspricht der ID deines Servers, so kannst du die Ordner außeinander halten sofern du mehr als
+einen Gameserver besitzt.
+
+![](https://puu.sh/Fo4Tw/06f7a53914.png)
+
+Im Verzeichnis angekommen findest du die Server.cfg deines ArmA 3 Servers so wie weitere vorhandene Konfigurationsdateien.
+Nun kannst du einen **Rechtsklick** auf die Server.cfg ausführen und auf **Ansehen/Bearbeiten** klicken.
+
+![](https://puu.sh/Fo4Yd/f12db2fbe6.png)
+
+Nun öffnet sich ein Standart-Editor in welchem du deine Server.cfg wie weiter oben beschrieben bearbeiten kannst. 
+Nachdem du deine Server.cfg bearbeitet hast kannst du diese durch das drücken von **STRG+S** speichern und dann wieder schließen,
+dein Server ist nun wieder startbereit.
+
