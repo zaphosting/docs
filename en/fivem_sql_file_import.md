@@ -51,10 +51,9 @@ You open the folder of the resource and find a file with the file extension **.s
 
 If this is the case, first remove both lines, otherwise the SQL file cannot be imported.
 
-**The first line tells the database server that a new database with the name **essentialmode** should be created.
+**Declaration**The first line tells the database server that a new database with the name **essentialmode** should be created.
 But we don't want this because your FiveM gameserver already has a database with another name and we want to use it.
-The second line tells the database server to use the database with the name **essentialmode** for the import, but we don't want this either
-because the existing database is used for the import.
+The second line tells the database server to use the database with the name **essentialmode** for the import, but we don't want this either because the existing database is used for the import.
 
 
 ## Import the SQL file into the FiveM database
