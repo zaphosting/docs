@@ -9,7 +9,7 @@ sidebar_label: FTP Dienst funtkioniert nicht (vServer/Root Server|Game-TS3-WI)
 > ⚠️ Achtung: Die nachfolgenden Schritte funktionieren nur auf einem eigenen vServer/Root Server wenn das ZAP-Webinterface installiert wurde!
 
 Sollten die angelgten Server nicht via FTP erreichbar sein, so ist in den meisten Fällen der FTP Dienst (ProFTPD) nicht aktiv. 
-In selten Fällen kann dies auch an einer nicht korrekten Config oder einem belgten Port liegen wie z.b Port 21 (FTP). 
+In selten Fällen kann dies auch an einer nicht korrekten Config oder einem belegten Port liegen, sprich der FTP Port 21 wird von einem anderen Programm genutzt/belegt. 
 
 ## Das FTP Problem genauer prüfen:
 
