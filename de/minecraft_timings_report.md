@@ -33,9 +33,17 @@ Nach einigen Sekunden erscheint nun eine Nachricht, dass der Export erfolgreich 
 
 ## Auswertung
 
-### 👀 Wie kann ich einen Timings-Report auswerten?
+### 👀 Allgemeine Auswertung
 
+Nachdem der Timings-Report wie oben beschrieben exportiert und geöffnet wurde, sollte ein ähnliches Fenster wie dieses erscheinen:
 
+![](https://i.imgur.com/X6ErJGe.png)
 
-### 🧐 Was sollte ich bei der Auswertung beachten?
+Als erstes sollte man einen genaueren Blick auf den Graphen werfen, um sich grobe Werte zu den einzelnen Aufnahmepunkten anschauen zu können, indem man mit der Maus über die einzelnen Punkte fährt.
+
+Um möglichste genaue Werte zu erhalten, welche sich auf ein mögliches Problem auf Server bezieht sollte zunächste der problematische Zeitraum wie im Graphen einzusehen durch die Schieberegler darunter eingegrenzt werden.
+
+![](https://i.imgur.com/k3pHKOi.gif)
+
+### 🧐 Plugins genauer untersuchen
 
