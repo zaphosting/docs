@@ -54,7 +54,7 @@ Die Setzung von Anführungszeichen so wie Semikolon und Komma fehlen hier, der S
 Anstelle des ZAP-Editors kann die Server.cfg auch direkt via FTP bearbeitet werden. In diesem Beispiel verwenden wir "FileZilla"
 um eine Verbindung via FTP zum FTP-Server und den Verzeichnissen deines Gameservers herzustellen.
 
-Wie du dich via FTP zu deinem Gameserver verbindest, lernst du hier: [FTP-Dateizugriff - Mit FTP verbinden](https://docs.zap-hosting.com/docs/de/gameserver_ftpaccess/).
+Wie du dich via FTP zu deinem Gameserver verbindest, lernst du hier: [FTP-Dateizugriff - Mit FTP verbinden](gameserver_ftpaccess.md).
 
 
 ## Herstellen der Verbindung und Navigation zum Pfad der Server.cfg
