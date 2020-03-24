@@ -27,7 +27,7 @@ Entsprechend ist es sinnvoll für jede Seite ein anderes Passwort zu nutzen. Um 
 
 > Tipp: Bei [haveibeenpwned](https://haveibeenpwned.com/) kannst du unter Angabe deiner E-Mail Adresse kostenlos prüfen, ob diese in einem bekannten Leak einer Datenbank enthalten ist. Darüber hinaus erhältst du Informationen darüber, auf welcher Seite der Vorfall stattgefunden hat und welche Daten entwenden wurden.
 
-![haveibeenpwned Beispiel](https://i.imgur.com/aoaxHEq.jpg)
+![haveibeenpwned Beispiel](https://screensaver01.zap-hosting.com/index.php/apps/files_sharing/publicpreview/ss4yJPQiN4rQXY3?x=2560&y=553&a=true&file=firefox_skyHqus4yD.png&scalingup=0)
 
 ## 🔧 Account Einstellungen
 
