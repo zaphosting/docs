@@ -27,6 +27,8 @@ Damit der Timings-Report nun wirklich erstellt und exportiert wird, muss der fol
 
 `/timings paste`
 
+Nach einigen Sekunden erscheint nun eine Nachricht, dass der Export erfolgreich war und der Timings-Report durch den Link mittels eines Klicks geöffnet werden kann.
+
 ![](https://i.imgur.com/Akum9cl.png)
 
 ## Auswertung
