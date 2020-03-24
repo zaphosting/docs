@@ -43,7 +43,11 @@
       "beispiel": {
         "title": "Beispiel-Eintrag",
         "sidebar_label": "Beispiel Eintrag"
-      },      
+      },
+      "community_info": {
+        "title": "Community Angebote",
+        "sidebar_label": "Community Angebote"
+      },
       "docs_intern": {
         "title": "Docs Erstellen -- Intern",
         "sidebar_label": "Docs Erstellen -- Intern"
@@ -148,7 +152,11 @@
         "title": "Docker",
         "sidebar_label": "Docker"
       },
-      "vserver_linux_installjava": {
+      "vserver_linux_gs_interface": {
+        "title": "Gameserver / Ts 3 Server Interface",
+        "sidebar_label": "Gameserver / Ts 3 Server Interface"
+      },
+      "vserver_linux_java": {
         "title": "Java installieren",
         "sidebar_label": "Java installieren"
       },

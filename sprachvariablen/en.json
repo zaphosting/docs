@@ -45,6 +45,10 @@
         "title": "Beispiel-Eintrag",
         "sidebar_label": "Beispiel Eintrag"
       },
+      "community_info": {
+        "title": "Community offers",
+        "sidebar_label": "Community offers"
+      },
       "docs_intern": {
         "title": "Docs Erstellen -- Intern",
         "sidebar_label": "Docs Erstellen -- Intern"
@@ -125,6 +129,10 @@
         "title": "OP-Permissions",
         "sidebar_label": "OP-Permissions"
       },
+      "minecraft_default_config": {
+        "title": "Server Config",
+        "sidebar_label": "Server Config"
+      },
       "minecraft_direwolf20": {
         "title": "Direwolf20",
         "sidebar_label": "Direwolf20"
@@ -153,7 +161,11 @@
         "title": "Docker",
         "sidebar_label": "Docker"
       },
-      "vserver_linux_installjava": {
+      "vserver_linux_gs_interface": {
+        "title": "Gameserver / Ts 3 Server Interface",
+        "sidebar_label": "Gameserver / Ts 3 Server Interface"
+      },
+      "vserver_linux_java": {
         "title": "Java installieren",
         "sidebar_label": "Java installieren"
       },
