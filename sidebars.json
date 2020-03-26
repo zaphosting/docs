@@ -113,6 +113,13 @@
 				"source_metamod_installation",
 				"source_metamod_addadmins"
 			 ]
+		  },
+		  {
+			 "type":"subcategory",
+			 "label":"CS:GO",
+			 "ids":[
+				 
+			 ]
 		  }
 	   ],
 	   "vServer & Rootserver":[
