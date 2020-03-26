@@ -4,17 +4,6 @@ title: Plesk
 sidebar_label: Plesk
 ---
 
-
-> ###ZAP INTERNE INFORMATION###
-
->DIES IST EINE KOPIERTE FORM, DA ICH SO SCHLAU WAR UND ES BEI PASSI GESPEICHERT HABE. BILDER ETC. WERDEN NOCH NICHT KORREKT ANGEZEIGT, DA ICH SIE MANUELL NEU HOCHLADEN SOWIE EINFÜGEN MUSS. DIE "FERTIGE" VERSION KANN MAN BEI PASSI FINDEN
-
-> ###ZAP INTERNE INFORMATION###
-
-
-> ###ZAP INTERNE INFO###
-> Den Sprachstil überarbeite ich noch
-
 ## Plesk Installieren
 
 > Führe vor dem Install apt update und apt upgrade aus, damit auf dem Server die neusten Pakete installiert sind.
