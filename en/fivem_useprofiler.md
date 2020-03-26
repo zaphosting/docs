@@ -1,27 +1,27 @@
 ---
 id: fivem_useprofiler
-title: Profiler Benutzen
-sidebar_label: Profiler Benutzen
+title: Use Profiler
+sidebar_label: Use Profiler
 ---
 
-## Was ist der Profiler Eigentlich?
+## What is the FiveM Profiler? 
 
-Der Profiler ist dafür da die Performance des Servers zu messen, damit können schlechte und langsame resourcen identifiziert und entfernt werden.
+The Profiler is there to measure the performance of the server, so bad and slow resources can be identified and removed/optimized. 
 
-Dieser Profiler ist in FiveM integriert und kann bei jedem Server benutzt werden.
+This profiler is integrated in FiveM and can be used with any server.
 
-## Nutzung
+## Usage
 
 
 ### 🔑 RCon
 
-Zuerst sollte man sich über IceCon an den Server anmelden, das Passwort dazu kann in den Einstellungen des Servers gefunden werden:
+First you should log on to the server via IceCon, the password can be found in the server settings:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/Y2pcfPJPYC5fnbJ/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/3S2ZZ2gRDsRmXyN/preview)
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/SnNcYqkSgkFFsL8/preview)
 
-Nachdem wir angemeldet sind, können wir nun den Profiler mit folgendem Command starten:
+After we are logged in, we can now start the Profiler with the following command:
 
 ```
 profiler record 25
@@ -29,7 +29,7 @@ profiler record 25
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/syTtBk7RicHYdBP/preview)
 
-Danach sollten wir für ca 10 Sekunden warten, und überprüfen, ob der Profiler noch läuft:
+Then we should wait for about 10 seconds and check whether the profiler is still running:
 
 ```
 profiler status
@@ -37,7 +37,7 @@ profiler status
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/zRwfoRfXQJq5mem/preview)
 
-Wenn dort "Recording: No" steht, dann ist die Aufnahme fertig und wir können uns nun die aufgenommenen Daten anschauen, über dem Command:
+If it says "Recording: No", then the recording is finished and we can now look at the recorded data above the command:
 
 ```
 profiler view
@@ -45,26 +45,28 @@ profiler view
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/jecKZDyboFoGbcA/preview)
 
-Diese URL können wir nun in Chrome oder Firefox öffnen.
+We can now open this URL in Chrome or Firefox.
 
 
-### ❓ Probleme Identifizieren
+### ❓ Identifying Problems
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/ZkW36eTKXsmsxRq/preview)
 
-Nun sind wir im Profiler und können die Performanceinfos sehen, das sieht am Anfang komplizierter aus, als es ist.
+Now we are in the Profiler and can see the performance information, it looks more complicated at the beginning than it is.
 
-Wir wählen nun einen "Tick" aus, welcher viel Performance verbraucht:
+We now select a "tick" that consumes a lot of performance:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/R7Z4HwF3y2wAHGj/preview)
 
-Nun reinscrollen, sodass wir die einzelnen Zeiten sehen:
+Now scroll in so that we can see the individual times:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/BFJgqJE6SrBK5Ws/preview)
 
-Nun können wir sehen, welche Resourcen sehr viel zeit verbrauchen.
+Now we can see which resources are consuming a lot of time.
 
-> Resourcen welche insgesamt über 6 ms Verbrauchen können Probleme verursachen
+In our case, only "Webadmin" is a bit slow, but this does not cause any performance problems. If a resource consumes a lot of time it should be deactivated for testing and a new measurement made.
 
-In unserem fall ist nur "Webadmin" etwas langsam, welches aber keine Performanceprobleme verursacht, wenn eine Ressource sehr viel zeit verbraucht sollte diese testweise deaktiviert werden und eine neue Messung angefertigt werden.
+
+
+> Resources that consume more than 6 ms in total can cause problems.
 

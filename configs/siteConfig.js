@@ -29,10 +29,9 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    {doc: 'whatiszap', label: 'Docs'},
+    {doc: 'firststeps_register', label: 'Docs'},
     {blog: false},
   ],
-
   // If you have users set above, you add it here:
   users,
 
