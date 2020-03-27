@@ -4,14 +4,19 @@ title: Plesk
 sidebar_label: Plesk
 ---
 
+<!--DOCUSAURUS_CODE_TABS-->
+<!--One-Click Installation-->
+
 ## Plesk Installieren
 
 > Führe vor dem Install apt update und apt upgrade aus, damit auf dem Server die neusten Pakete installiert sind.
 
->> Plesk kann aktuell nur auf Debian 8 (Jessie), Debian 9 (Strech), Ubuntu 16.04 (Xenial Xerus), Ubuntu 18.04 (Bionic Beaver), CentOS 6, CentOS 7 installiert werden. Die Architektur muss 64 Bit sein.
+> Plesk kann aktuell nur auf Debian 8 (Jessie), Debian 9 (Strech), Ubuntu 16.04 (Xenial Xerus), Ubuntu 18.04 (Bionic Beaver), CentOS 6, CentOS 7 installiert werden. Die Architektur muss 64 Bit sein.
 
 Verbinde dich z. B. mit Putty zu deinem Server.
 
+<!--DOCUSAURUS_CODE_TABS-->
+<!--One-Click Installation-->
 
 ### Starten der Installation
 
@@ -88,3 +93,9 @@ Bei der Domain Eintragung/Erstellung vom Webspace wurde bereits ein SSL Zertifik
 Öffnet man nun seine Domain, so ist die Seite verschlüsselt
 
 > Die Installation sowie der Einrichtung der ersten Domain mit Verschlüsslung ist nun abgeschlossen. 
+
+<!--Web Instalation-->
+
+<!--Konsolen Installation-->
+
+<!--END_DOCUSAURUS_CODE_TABS-->
