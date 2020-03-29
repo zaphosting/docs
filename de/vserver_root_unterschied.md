@@ -1,7 +1,7 @@
 ---
 id: vserver_root_unterschied
-title: Unterschied Rootserver / V-server
-sidebar_label: Unterschied Rootserver / V-server
+title: Unterschied Rootserver / V-Server
+sidebar_label: Unterschied Rootserver / V-Server
 ---
 
 ## 💻 Virtualisierung
