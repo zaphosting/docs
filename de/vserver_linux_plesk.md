@@ -91,7 +91,8 @@ Wird nun die Domain im Browser geöffnet, so zeigt diese ihre Verschlüsslung an
 
 > Die Installation sowie der Einrichtung der ersten Domain mit Verschlüsslung ist nun vollständig abgeschlossen. 
 
-<!--Web Instalation-->
+<!--Web Installation-->
+
 ## Starten der Installation 
 
 Damit Plesk via Web installiert wird, sind nur wenige Befehle nötig. 
@@ -203,6 +204,7 @@ Wird nun die Domain im Browser geöffnet, so zeigt diese ihre Verschlüsslung an
 
 > Die Installation sowie der Einrichtung der ersten Domain mit Verschlüsslung ist nun vollständig abgeschlossen. 
 
+
 <!--Konsolen Installation-->
 
 ## Starten der Installation 
@@ -311,4 +313,7 @@ Wird nun die Domain im Browser geöffnet, so zeigt diese ihre Verschlüsslung an
 
 > Die Installation sowie der Einrichtung der ersten Domain mit Verschlüsslung ist nun vollständig abgeschlossen. 
 
+
 <!--END_DOCUSAURUS_CODE_TABS-->
+
+
