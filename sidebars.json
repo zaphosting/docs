@@ -78,6 +78,7 @@
 	   "FiveM":[
 		  "fivem_dashboard",
 		  "fivem_windowsorlinux",
+		  "fivem_sql_file_import",
 		  {
 			 "type":"subcategory",
 			 "label":"ESX",
