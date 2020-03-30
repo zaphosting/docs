@@ -41,6 +41,10 @@
         "title": "Coupons & Codes",
         "sidebar_label": "Coupons & Codes"
       },
+      "arma3_serverconfig": {
+        "title": "Server.cfg",
+        "sidebar_label": "Server.cfg"
+      },
       "beispiel": {
         "title": "Beispiel-Eintrag",
         "sidebar_label": "Beispiel Eintrag"
@@ -96,6 +100,10 @@
       "fivem_mods_installreplace": {
         "title": "Install replace carmods",
         "sidebar_label": "Install replace carmods"
+      },
+      "fivem_sql_file_import": {
+        "title": "SQL File Import",
+        "sidebar_label": "SQL File Import"
       },
       "fivem_useprofiler": {
         "title": "Use Profiler",
@@ -212,6 +220,7 @@
       "Minecraft": "Minecraft",
       "FiveM": "FiveM",
       "Source Games": "Source Games",
+      "ArmA 3": "ArmA 3",
       "vServer & Rootserver": "vServer & Rootserver",
       "Webspace & Domains": "Webspace & Domains"
     }
