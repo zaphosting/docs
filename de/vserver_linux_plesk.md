@@ -54,7 +54,7 @@ Plesk kann nun genutzt werden.
 ### Sprache einstellen
 
 
-Nach der Installation ist das Plesk-Panel auf Englischer Sprache, die Deutsche Sprache kann unter Tools&Settings --> Plesk Appearance --> Languages eingestellt bzw. ausgewählt werden. Dort muss dann "de-DE" ausgewählt werden. Anschließend kann die Sprache mit Klick auf "Make default" dauerhaft für alle gesetzt werden. 
+Nach der Installation ist das Plesk-Panel auf Englischer Sprache, die Deutsche Sprache kann unter Tools&Settings ➡️ Plesk Appearance ➡️ Languages eingestellt bzw. ausgewählt werden. Dort muss dann "de-DE" ausgewählt werden. Anschließend kann die Sprache mit Klick auf "Make default" dauerhaft für alle gesetzt werden. 
 Nach einem Logut und anchließendem Login ist das Plesk-Panel in Deutsch vorzufinden.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/z428FDYSsQeiHDK/preview)
@@ -167,7 +167,7 @@ Plesk kann nun genutzt werden.
 ### Sprache einstellen
 
 
-Nach der Installation ist das Plesk-Panel auf Englischer Sprache, die Deutsche Sprache kann unter Tools&Settings --> Plesk Appearance --> Languages eingestellt bzw. ausgewählt werden. Dort muss dann "de-DE" ausgewählt werden. Anschließend kann die Sprache mit Klick auf "Make default" dauerhaft für alle gesetzt werden. 
+Nach der Installation ist das Plesk-Panel auf Englischer Sprache, die Deutsche Sprache kann unter Tools&Settings ➡️ Plesk Appearance ➡️ Languages eingestellt bzw. ausgewählt werden. Dort muss dann "de-DE" ausgewählt werden. Anschließend kann die Sprache mit Klick auf "Make default" dauerhaft für alle gesetzt werden. 
 Nach einem Logut und anchließendem Login ist das Plesk-Panel in Deutsch vorzufinden.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/z428FDYSsQeiHDK/preview)
@@ -276,7 +276,7 @@ Plesk kann nun genutzt werden.
 ### Sprache einstellen
 
 
-Nach der Installation ist das Plesk-Panel auf Englischer Sprache, die Deutsche Sprache kann unter Tools&Settings --> Plesk Appearance --> Languages eingestellt bzw. ausgewählt werden. Dort muss dann "de-DE" ausgewählt werden. Anschließend kann die Sprache mit Klick auf "Make default" dauerhaft für alle gesetzt werden. 
+Nach der Installation ist das Plesk-Panel auf Englischer Sprache, die Deutsche Sprache kann unter Tools&Settings ➡️ Plesk Appearance ➡️ Languages eingestellt bzw. ausgewählt werden. Dort muss dann "de-DE" ausgewählt werden. Anschließend kann die Sprache mit Klick auf "Make default" dauerhaft für alle gesetzt werden. 
 Nach einem Logut und anchließendem Login ist das Plesk-Panel in Deutsch vorzufinden.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/z428FDYSsQeiHDK/preview)
