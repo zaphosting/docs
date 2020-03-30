@@ -33,6 +33,14 @@
         "title": "Partner System",
         "sidebar_label": "Partner System"
       },
+      "account_security": {
+        "title": "Sicherheit",
+        "sidebar_label": "Sicherheit"
+      },
+      "account_termination_and_cancellation_period": {
+        "title": "Termination and Cancellation",
+        "sidebar_label": "Termination and Cancellation"
+      },
       "account_usermanagement": {
         "title": "User Management",
         "sidebar_label": "User Management"
@@ -133,6 +141,9 @@
         "title": "Restartplaner",
         "sidebar_label": "Restartplaner"
       },
+      "gameserver_server_down_what_now": {
+        "title": "gameserver_server_down_what_now"
+      },
       "minecraft_addop": {
         "title": "OP-Permissions",
         "sidebar_label": "OP-Permissions"
@@ -184,6 +195,10 @@
       "vserver_linux_plesk": {
         "title": "Plesk",
         "sidebar_label": "Plesk"
+      },
+      "vserver_vnc": {
+        "title": "What is VNC?",
+        "sidebar_label": "What is  VNC?"
       },
       "vserver_windows_addip": {
         "title": "Zusätzliche IPs hinzufügen",
