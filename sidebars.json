@@ -23,7 +23,8 @@
 		  "account_cashbox",
 		  "account_usermanagement",
 		  "account_vouchers",
-		  "account_donations"
+		  "account_donations",
+		  "account_security"
 	   ],
 	   "Gameserver - General":[
 		  "gameserver_cloudvslifetime",
