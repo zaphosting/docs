@@ -136,6 +136,7 @@
 		  }
 	   ],
 	   "vServer & Rootserver":[
+		   "vserver_vnc",
 		  {
 			 "type":"subcategory",
 			 "label":"Linux",
