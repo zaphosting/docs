@@ -160,6 +160,10 @@
         "title": "Plugin Uploader",
         "sidebar_label": "Plugin Uploader"
       },
+      "minecraft_rcon": {
+        "title": "RCON",
+        "sidebar_label": "RCON"
+      },
       "minecraft_worlds": {
         "title": "Worlds",
         "sidebar_label": "Worlds"
