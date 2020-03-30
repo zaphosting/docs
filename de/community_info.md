@@ -5,10 +5,10 @@ sidebar_label: Community Angebote
 ---
 
 ## 🤗 Mehr als nur "Kunden" - die ZAP-Hosting.com Community
-Bei uns sprechen wir schon lange nicht mehr von "Kunden" - viele interagieren so häufig und intensiv mit unseren sozial-medialen Angeboten, dass wir unsere Kunden schon eher als eine Community sehen. Im Folgenden geben wir eine genaue Auflistung aller ANgebote, die wir neben unseren Produkten zur Verfügung stellen.
+Bei uns sprechen wir schon lange nicht mehr von "Kunden" - viele interagieren so häufig und intensiv mit unseren sozial-medialen Angeboten, dass wir unsere Kunden schon eher als eine Community sehen. Im Folgenden geben wir eine genaue Auflistung aller Angebote, die wir neben unseren Produkten zur Verfügung stellen.
 
 ## 🐦 Twitter
-Unter dem [Handle @zaphosting](https://twitter.com/zaphosting) twittern wir nahezu täglich über unsere neuen Produkte, das Geschehen in der Firma und die besten Rezepte rund um Pizza. (Ja, auch Cat-Content wird geboten)
+Unter dem Handle [@zaphosting](https://twitter.com/zaphosting) twittern wir nahezu täglich über unsere neuen Produkte, das Geschehen in der Firma und die besten Rezepte rund um Pizza. (Ja, auch Cat-Content wird geboten)
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/ED96cpp2fEbBBxA/preview)
 
