@@ -1,6 +1,6 @@
 ---
 id: fivem_sql_file_import
-title: fivem_sql_file_import
+title: SQL Dateiimport
 sidebar_label: SQL Dateiimport
 ---
 

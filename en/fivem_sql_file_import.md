@@ -1,7 +1,7 @@
 ---
 id: fivem_sql_file_import
-title: fivem_sql_file_import
-sidebar_label: SQL Dateiimport
+title: SQL File Import
+sidebar_label: SQL File Import
 ---
 
 ## Importing SQL files into the FiveM database
