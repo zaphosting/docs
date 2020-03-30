@@ -196,6 +196,10 @@
         "title": "Plesk",
         "sidebar_label": "Plesk"
       },
+      "vserver_vnc": {
+        "title": "What is VNC?",
+        "sidebar_label": "What is  VNC?"
+      },
       "vserver_windows_addip": {
         "title": "Zusätzliche IPs hinzufügen",
         "sidebar_label": "Zusätzliche IPs hinzufügen"
