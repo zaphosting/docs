@@ -61,6 +61,10 @@
         "title": "Community offers",
         "sidebar_label": "Community offers"
       },
+      "csgo_gotv": {
+        "title": "GOTV",
+        "sidebar_label": "GOTV"
+      },
       "docs_intern": {
         "title": "Docs Erstellen -- Intern",
         "sidebar_label": "Docs Erstellen -- Intern"
