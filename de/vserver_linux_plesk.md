@@ -17,7 +17,6 @@ Die Verbindung zum Server kann zum Beispiel via Putty erfolgen.
 <!--DOCUSAURUS_CODE_TABS-->
 <!--One-Click Installation-->
 
-
 Damit Plesk sich voll automatisch mit den Standardkomponenten sowie Funktionen installiert, die die meisten Plesk User nutzen, ist nur ein Befehl notwendig:
 
 >Der Plesk Installer installiert immer die neuste/aktuelleste Version von Plesk. Es kann passieren das die hier gezeigten Grafiken/Screenshots nicht die neuste/aktuellese Version von Plesk zeigen.
@@ -41,9 +40,7 @@ Die Installation ist abgeschlossen, sobald dies angezeigt wird
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/P4CBEszxPZTA6qn/preview)
 
-
 <!--Web Installation-->
-
 
 Damit Plesk via Web installiert wird, sind nur wenige Befehle nötig. 
 
@@ -68,9 +65,7 @@ Starten des Installers:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/6gzT95ded8d99RD/preview)
 
-
 <!--Konsolen Installation-->
-
 
 Damit Plesk via Console installiert wird sind nur wenige Befehle nötig. 
 
@@ -121,9 +116,7 @@ Die Installation ist abgeschlossen sobald folgendes erscheint:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/Fyy72nWq4NbRxmz/preview)
 
-
 <!--END_DOCUSAURUS_CODE_TABS-->
-
 
 ## Öffnen des Web-Installers
 
@@ -179,6 +172,3 @@ Wird nun die Domain im Browser geöffnet, so zeigt diese ihre Verschlüsslung an
 ![](https://screensaver01.zap-hosting.com/index.php/s/Nb3jawSSknSQajg/preview)
 
 > Die Installation sowie der Einrichtung der ersten Domain mit Verschlüsslung ist nun vollständig abgeschlossen. 
-
-
-
