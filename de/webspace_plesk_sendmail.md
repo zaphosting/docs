@@ -65,7 +65,7 @@ Dort kann man vorerst auf "**Sicherheits-Ausnahmeregel bestätigen**", bis ein g
 
 Nachdem Outlook heruntergeladen und installiert wurde, wählt man "**Datei**" aus.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/RPBdw57KiBAK995/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/2dXdHPJoo35qiFy/preview)
 
 Nun  muss der "**Konto hinzufügen**" Button betätigt werden.
 
