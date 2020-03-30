@@ -201,6 +201,10 @@
         "title": "Plesk",
         "sidebar_label": "Plesk"
       },
+      "vserver_root_unterschied": {
+        "title": "Unterschied Rootserver / V-Server",
+        "sidebar_label": "Unterschied Rootserver / V-Server"
+      },
       "vserver_vnc": {
         "title": "What is VNC?",
         "sidebar_label": "What is  VNC?"
