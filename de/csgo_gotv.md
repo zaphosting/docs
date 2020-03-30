@@ -55,18 +55,18 @@ Die oben genannten Befehle sind zwingend notwendig, damit der GOTV Masterserver 
 
 |            Befehl            |                         Beschreibung                         |
 | :--------------------------: | :----------------------------------------------------------: |
-|  tv_allow_camera_man "0\|1"  |        Zuschauer können die als Kameramann übernehmen        |
-| tv_allow_static_shots "0\|1" |    Verwendet Kameras mit fester Ausrichtung für Aufnahmen    |
-|     tv_autorecord "0\|1"     | Zeichnet automatisch alle Spiele als GOTV-Demos auf. Alle Spiele werden automatisch aufgezeichnet, das Format der Demodatei lautet auto-YYYYYMMDD-hhmm-map.dem |
-|     tv_autoretry "0\|1"      | Versucht nach einem Netzwerk-Timeout erneut eine Verbindung herzustellen |
+|  tv_allow_camera_man "0/1"  |        Zuschauer können die als Kameramann übernehmen        |
+| tv_allow_static_shots "0/1" |    Verwendet Kameras mit fester Ausrichtung für Aufnahmen    |
+|     tv_autorecord "0/1"     | Zeichnet automatisch alle Spiele als GOTV-Demos auf. Alle Spiele werden automatisch aufgezeichnet, das Format der Demodatei lautet auto-YYYYYMMDD-hhmm-map.dem |
+|     tv_autoretry "0/1"      | Versucht nach einem Netzwerk-Timeout erneut eine Verbindung herzustellen |
 | tv_chattimelimit "sekunden"  | Beschränkt die Zuschauer darauf nur alle n Sekunden zu schreiben |
-|       tv_debug "0\|1"        |             Anzeige von GOTV Debug Informationen             |
-|   tv_delaymapchange "0\|1"   | Verzögert den Kartenwechsel, bis die Übertragung abgeschlossen ist |
+|       tv_debug "0/1"        |             Anzeige von GOTV Debug Informationen             |
+|   tv_delaymapchange "0/1"   | Verzögert den Kartenwechsel, bis die Übertragung abgeschlossen ist |
 |      tv_maxclients "n"       |          Maximale Clientanzahl auf dem GOTV-Server           |
 |        tv_maxrate "n"        | Max. zulässige GOTV-Zuschauer-Bandbreitenrate, 0 == unbegrenzt |
 |        tv_msg "text"         |           Schickt eine Nachricht an alle Zuschauer           |
 |        tv_name "name"        | GOTV-Hostname. Legt den GOTV-Namen so fest, wie er im Server-Browser und in der Statusleiste erscheint. |
-|       tv_nochat "0\|1"       |           Aktiviereren/deaktivieren des GOTV-Chats           |
+|       tv_nochat "0/1"       |           Aktiviereren/deaktivieren des GOTV-Chats           |
 |    tv_password "password"    |       Schützt die GOTV Übertragung mit einem Passwort        |
 |     tv_record "filename"     |             Startet die Aufnahme einer GOTV Demo             |
 |           tv_stop            |                 Stoppt die GOTV-Übertragung                  |
