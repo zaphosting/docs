@@ -1,7 +1,6 @@
 {
 	"docs":{
 	   "Overview":[
-		  "whatiszap",
 		  {
 			 "type":"subcategory",
 			 "label":"First Steps",
@@ -9,7 +8,9 @@
 				"firststeps_register",
 				"firststeps_rent",
 				"firststeps_rent_contractorprepaid",
-				"firststeps_rent_location"
+				"firststeps_rent_location",
+				"firststeps_problem_melden",
+				"community_info"
 			 ]
 		  }
 	   ],
@@ -25,6 +26,7 @@
 		  "account_donations"
 	   ],
 	   "Gameserver - General":[
+		  "gameserver_cloudvslifetime",
 		  "gameserver_resourcelimit",
 		  {
 			 "type":"subcategory",
@@ -43,6 +45,7 @@
 			 "label":"Administration",
 			 "ids":[
 				"minecraft_addop",
+				"minecraft_default_config",
 				"minecraft_worlds"
 			 ]
 		  },
@@ -79,6 +82,15 @@
 		  "fivem_dashboard",
 		  "fivem_windowsorlinux",
 		  "fivem_sql_file_import",
+		  "fivem_installresources",
+		  "fivem_useprofiler",
+		  {
+			"type":"subcategory",
+			"label":"Mods",
+			"ids":[
+				"fivem_mods_installreplace"
+			]
+		 },
 		  {
 			 "type":"subcategory",
 			 "label":"ESX",
@@ -102,6 +114,13 @@
 				"source_metamod_installation",
 				"source_metamod_addadmins"
 			 ]
+		  },
+		  {
+			 "type":"subcategory",
+			 "label":"CS:GO",
+			 "ids":[
+				 
+			 ]
 		  }
 	   ],
 	   "ArmA 3":[
@@ -118,17 +137,19 @@
 			 "type":"subcategory",
 			 "label":"Linux",
 			 "ids":[
-				"vserver_linux_installjava",
+				"vserver_linux_java",
 				"vserver_linux_docker",
 				"vserver_linux_plesk",
-				"vserver_linux_openvpn"
+				"vserver_linux_openvpn",
+				"vserver_linux_gs_interface"
 			 ]
 		  },
 		  {
 			 "type":"subcategory",
 			 "label":"Windows",
 			 "ids":[
-				"vserver_windows_userdp"
+				"vserver_windows_userdp",
+				"vserver_windows_addip"
 			 ]
 		  }
 	   ],

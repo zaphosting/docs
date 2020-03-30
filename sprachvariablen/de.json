@@ -43,7 +43,27 @@
       "beispiel": {
         "title": "Beispiel-Eintrag",
         "sidebar_label": "Beispiel Eintrag"
-      },      
+      },
+      "community_info": {
+        "title": "Community Angebote",
+        "sidebar_label": "Community Angebote"
+      },
+      "docs_intern": {
+        "title": "Docs Erstellen -- Intern",
+        "sidebar_label": "Docs Erstellen -- Intern"
+      },
+      "domain_easydns": {
+        "title": "EasyDNS",
+        "sidebar_label": "EasyDNS"
+      },
+      "domain_expertdns": {
+        "title": "ExpertDNS",
+        "sidebar_label": "ExpertDNS"
+      },
+      "domain_profidns": {
+        "title": "ProfiDNS",
+        "sidebar_label": "ProfiDNS"
+      },
       "firststeps_register": {
         "title": "Registrieren",
         "sidebar_label": "Registrieren"
@@ -65,12 +85,20 @@
         "sidebar_label": "Die ersten Schritte"
       },
       "fivem_dashboard": {
-        "title": "Administration",
-        "sidebar_label": "Administration"
+        "title": "Dashboard",
+        "sidebar_label": "Dashboard"
       },
-      "fivem_windowsorlinux": {
-        "title": "Windows oder Linux",
-        "sidebar_label": "Windows oder Linux"
+      "fivem_installresources": {
+        "title": "Resourcen Installieren",
+        "sidebar_label": "Resourcen Installieren"
+      },
+      "fivem_useprofiler": {
+        "title": "Profiler Benutzen",
+        "sidebar_label": "Profiler Benutzen"
+      },
+      "fivem_mods_installreplace": {
+        "title": "Replacement Carmods Installieren",
+        "sidebar_label": "Replacement Carmods Installieren"
       },
       "gameserver_databases_pma": {
         "title": "PHPMyAdmin",
@@ -124,7 +152,11 @@
         "title": "Docker",
         "sidebar_label": "Docker"
       },
-      "vserver_linux_installjava": {
+      "vserver_linux_gs_interface": {
+        "title": "Gameserver / Ts 3 Server Interface",
+        "sidebar_label": "Gameserver / Ts 3 Server Interface"
+      },
+      "vserver_linux_java": {
         "title": "Java installieren",
         "sidebar_label": "Java installieren"
       },
@@ -139,6 +171,18 @@
       "vserver_windows_userdp": {
         "title": "Erstzugriff (RDP)",
         "sidebar_label": "Erstzugriff (RDP)"
+      },
+      "webspace_dashboard": {
+        "title": "Dashboard",
+        "sidebar_label": "Dashboard"
+      },
+      "webspace_plesk_ftp": {
+        "title": "FTP Verbindung Anlegen",
+        "sidebar_label": "FTP Verbindung Anlegen"
+      },
+      "webspace_plesk_sendmail": {
+        "title": "E-Mails verschicken",
+        "sidebar_label": "E-Mails verschicken"
       },
       "whatiszap": {
         "title": "Die ZAP-Hosting Docs",

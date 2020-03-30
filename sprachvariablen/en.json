@@ -45,6 +45,10 @@
         "title": "Beispiel-Eintrag",
         "sidebar_label": "Beispiel Eintrag"
       },
+      "community_info": {
+        "title": "Community offers",
+        "sidebar_label": "Community offers"
+      },
       "docs_intern": {
         "title": "Docs Erstellen -- Intern",
         "sidebar_label": "Docs Erstellen -- Intern"
@@ -85,9 +89,21 @@
         "title": "Dashboard",
         "sidebar_label": "Dashboard"
       },
-      "fivem_windowsorlinux": {
-        "title": "Windows or Linux",
-        "sidebar_label": "Windows or Linux"
+      "fivem_installresources": {
+        "title": "Resource Installation",
+        "sidebar_label": "Resource Installation"
+      },
+      "fivem_mods_installreplace": {
+        "title": "Install replace carmods",
+        "sidebar_label": "Install replace carmods"
+      },
+      "fivem_useprofiler": {
+        "title": "Use Profiler",
+        "sidebar_label": "Use Profiler"
+      },
+      "gameserver_cloudvslifetime": {
+        "title": "Cloud vs. Lifetime",
+        "sidebar_label": "Cloud vs. Lifetime"
       },
       "gameserver_databases_pma": {
         "title": "PHPMyAdmin",
@@ -112,6 +128,10 @@
       "minecraft_addop": {
         "title": "OP-Permissions",
         "sidebar_label": "OP-Permissions"
+      },
+      "minecraft_default_config": {
+        "title": "Server Config",
+        "sidebar_label": "Server Config"
       },
       "minecraft_direwolf20": {
         "title": "Direwolf20",
@@ -141,7 +161,11 @@
         "title": "Docker",
         "sidebar_label": "Docker"
       },
-      "vserver_linux_installjava": {
+      "vserver_linux_gs_interface": {
+        "title": "Gameserver / Ts 3 Server Interface",
+        "sidebar_label": "Gameserver / Ts 3 Server Interface"
+      },
+      "vserver_linux_java": {
         "title": "Java installieren",
         "sidebar_label": "Java installieren"
       },
@@ -152,6 +176,10 @@
       "vserver_linux_plesk": {
         "title": "Plesk",
         "sidebar_label": "Plesk"
+      },
+      "vserver_windows_addip": {
+        "title": "Zusätzliche IPs hinzufügen",
+        "sidebar_label": "Zusätzliche IPs hinzufügen"
       },
       "vserver_windows_userdp": {
         "title": "Erstzugriff (RDP)",
