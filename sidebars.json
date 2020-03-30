@@ -16,6 +16,7 @@
 	   ],
 	   "Account":[
 		  "account_contractsandprepaid",
+		  "account_termination_and_cancellation_period",
 		  "account_2factor",
 		  "account_backup_storage",
 		  "account_partner_system",
@@ -38,7 +39,8 @@
 			 ]
 		  },
 		  "gameserver_ftpaccess",
-		  "gameserver_restartplaner"
+		  "gameserver_restartplaner",
+		  "gameserver_server_down_what_now"
 	   ],
 	   "Minecraft":[
 		  {
