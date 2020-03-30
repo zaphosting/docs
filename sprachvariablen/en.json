@@ -33,6 +33,10 @@
         "title": "Partner System",
         "sidebar_label": "Partner System"
       },
+      "account_security": {
+        "title": "Sicherheit",
+        "sidebar_label": "Sicherheit"
+      },
       "account_usermanagement": {
         "title": "User Management",
         "sidebar_label": "User Management"
