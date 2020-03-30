@@ -33,6 +33,14 @@
         "title": "Partner System",
         "sidebar_label": "Partner System"
       },
+      "account_security": {
+        "title": "Sicherheit",
+        "sidebar_label": "Sicherheit"
+      },
+      "account_termination_and_cancellation_period": {
+        "title": "Termination and Cancellation",
+        "sidebar_label": "Termination and Cancellation"
+      },
       "account_usermanagement": {
         "title": "User Management",
         "sidebar_label": "User Management"
@@ -40,6 +48,10 @@
       "account_vouchers": {
         "title": "Coupons & Codes",
         "sidebar_label": "Coupons & Codes"
+      },
+      "arma3_serverconfig": {
+        "title": "Server.cfg",
+        "sidebar_label": "Server.cfg"
       },
       "beispiel": {
         "title": "Beispiel-Eintrag",
@@ -97,6 +109,10 @@
         "title": "Install replace carmods",
         "sidebar_label": "Install replace carmods"
       },
+      "fivem_sql_file_import": {
+        "title": "SQL File Import",
+        "sidebar_label": "SQL File Import"
+      },
       "fivem_useprofiler": {
         "title": "Use Profiler",
         "sidebar_label": "Use Profiler"
@@ -124,6 +140,9 @@
       "gameserver_restartplaner": {
         "title": "Restartplaner",
         "sidebar_label": "Restartplaner"
+      },
+      "gameserver_server_down_what_now": {
+        "title": "gameserver_server_down_what_now"
       },
       "minecraft_addop": {
         "title": "OP-Permissions",
@@ -212,6 +231,7 @@
       "Minecraft": "Minecraft",
       "FiveM": "FiveM",
       "Source Games": "Source Games",
+      "ArmA 3": "ArmA 3",
       "vServer & Rootserver": "vServer & Rootserver",
       "Webspace & Domains": "Webspace & Domains"
     }
