@@ -3,6 +3,7 @@ id: gameserver_server_down_what_now
 title: Server down - Was nun?
 sidebar_label: Server down - Was nun?
 ---
+
 ## Server down - Was nun?
 
 Wenn dein Gameserver down ist, kann das viel Gründe haben. **Wichtig** ist, dass du erstmal nicht direkt versucht diesen neu zu starten, sondern erst einen Blick in die **Log-Datei** wirfst. Dort sind in der Regel **Fehlermeldungen**, die beschreiben warum genau der Server abgestürzt ist.
