@@ -142,7 +142,8 @@
         "sidebar_label": "Restartplaner"
       },
       "gameserver_server_down_what_now": {
-        "title": "gameserver_server_down_what_now"
+        "title": "Server down - What now?",
+        "sidebar_label": "Server down - What now?"
       },
       "minecraft_addop": {
         "title": "OP-Permissions",
