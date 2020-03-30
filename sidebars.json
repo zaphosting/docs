@@ -49,7 +49,8 @@
 			 "ids":[
 				"minecraft_addop",
 				"minecraft_default_config",
-				"minecraft_worlds"
+				"minecraft_worlds",
+				"minecraft_rcon"
 			 ]
 		  },
 		  {
