@@ -11,10 +11,11 @@ Plesk kann aktuell nur auf Debian 8 (Jessie), Debian 9 (Strech), Ubuntu 16.04 (X
 
 Die Verbindung zum Server kann zum Beispiel via Putty erfolgen.
 
+
+## Starten der Installation 
+
 <!--DOCUSAURUS_CODE_TABS-->
 <!--One-Click Installation-->
-
-### Starten der Installation
 
 Damit Plesk sich voll automatisch mit den Standardkomponenten sowie Funktionen installiert, die die meisten Plesk User nutzen, ist nur ein Befehl notwendig:
 
@@ -34,7 +35,6 @@ Wird der Installer erneut gestartet ohne vorherigen Reinstalls des Servers, so w
 
 > Es kann passieren das es so aussieht als ob der Installer "stecken" geblieben ist, in 99% der Fälle läuft dieser nach wenigen Minuten weiter, da er erst noch Pakete/Configs und co. konfigurieren muss, benötigt dieser die Zeit.
 
-### Abschluss der Installation
 
 Die Installation ist abgeschlossen, sobald dies angezeigt wird
 
@@ -42,8 +42,6 @@ Die Installation ist abgeschlossen, sobald dies angezeigt wird
 
 
 <!--Web Installation-->
-
-## Starten der Installation 
 
 Damit Plesk via Web installiert wird, sind nur wenige Befehle nötig. 
 
@@ -68,15 +66,7 @@ Starten des Installers:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/6gzT95ded8d99RD/preview)
 
-
-## Öffnen des Web-Installers
-
-Nachdem der Installer gestartet wurde, wird die Installation im Browser vorgenommen. Die Installationsseite ist via https://IP:8447 oder via https://Domain.xx:8447 erreichbar.
-
-
 <!--Konsolen Installation-->
-
-## Starten der Installation 
 
 Damit Plesk via Console installiert wird sind nur wenige Befehle nötig. 
 
@@ -99,8 +89,6 @@ Starten des Installers:
 ```
 ./plesk-installers
 ```
-
-## Installationsmenü
 
 Sobald die drei Befehle zum starten ausgeführt wurden, muss der Lizenz zugestimmt werden mit "F": 
 
@@ -125,14 +113,15 @@ Nun startet der Installer mit der Installation.
 >Die SSH Sitzung darf nicht geschlossen werden solange der Installer noch aktiv ist. Dies würde sonst zum Abbruch führen und der Server müsste neuinstalliert werden, damit der Installer neugestartet werden kann. 
 Es kann passieren das es so aussieht als ob der Installer "stecken" geblieben ist, in 99% der Fälle läuft dieser nach wenigen Minuten weiter, da er erst noch Pakete/Configs und co. konfigurieren muss.
 
-## Abschluss der Installation
-
 Die Installation ist abgeschlossen sobald folgendes erscheint: 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/Fyy72nWq4NbRxmz/preview)
 
 <!--END_DOCUSAURUS_CODE_TABS-->
 
+## Öffnen des Web-Installers
+
+Nachdem der Installer gestartet wurde, wird die Installation im Browser vorgenommen. Die Installationsseite ist via https://IP:8447 oder via https://Domain.xx:8447 erreichbar.
 
 ## Das Plesk Webpanel 
 
