@@ -137,6 +137,7 @@
 		  }
 	   ],
 	   "vServer & Rootserver":[
+		   "vserver_root_unterschied",
 		   "vserver_vnc",
 		  {
 			 "type":"subcategory",
