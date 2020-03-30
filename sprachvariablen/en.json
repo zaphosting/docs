@@ -37,6 +37,9 @@
         "title": "Sicherheit",
         "sidebar_label": "Sicherheit"
       },
+      "account_termination_and_cancellation_period": {
+        "title": "account_termination_and_cancellation_period"
+      },
       "account_usermanagement": {
         "title": "User Management",
         "sidebar_label": "User Management"
@@ -136,6 +139,9 @@
       "gameserver_restartplaner": {
         "title": "Restartplaner",
         "sidebar_label": "Restartplaner"
+      },
+      "gameserver_server_down_what_now": {
+        "title": "gameserver_server_down_what_now"
       },
       "minecraft_addop": {
         "title": "OP-Permissions",
