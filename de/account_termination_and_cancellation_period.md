@@ -3,6 +3,7 @@ id: account_termination_and_cancellation_period
 title: Kündigung und Kündigungsfrist
 sidebar_label: Kündigung und Kündigungsfrist
 ---
+
 Erfahre mehr zu der Kündigung und der Kündigungsfrist.
 
 ## 📙  "Kündigung"
