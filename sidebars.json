@@ -80,7 +80,9 @@
 	   ],
 	   "FiveM":[
 		  "fivem_dashboard",
+		  "fivem_windowsorlinux",
 		  "fivem_installresources",
+		  "fivem_sql_file_import",
 		  "fivem_useprofiler",
 		  {
 			"type":"subcategory",
@@ -89,7 +91,6 @@
 				"fivem_mods_installreplace"
 			]
 		 },
-
 		  {
 			 "type":"subcategory",
 			 "label":"ESX",
@@ -112,6 +113,22 @@
 			 "ids":[
 				"source_metamod_installation",
 				"source_metamod_addadmins"
+			 ]
+		  },
+		  {
+			 "type":"subcategory",
+			 "label":"CS:GO",
+			 "ids":[
+				 
+			 ]
+		  }
+	   ],
+	   "ArmA 3":[
+		  {
+			 "type":"subcategory",
+			 "label":"ArmA 3 Allgemein",
+			 "ids":[
+				"arma3_serverconfig"
 			 ]
 		  }
 	   ],
