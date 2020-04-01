@@ -53,6 +53,7 @@ Klicke dazu hinter einem installierten Plugin auf den grünen Button mit dem Sch
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/oFLgW46xixPij36/preview)
 
+
 ## 🆘 Häufige Probleme
 
 **Mein Plugin lässt sich über den "Drag'n Drop"-Bereich nicht hochladen.**

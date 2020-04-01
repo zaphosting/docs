@@ -47,4 +47,3 @@ Sofern es keine Probleme bei der Änderung gegeben hat, wird dies in dem Plesk I
 Wie dies bei über uns bestellten Domains geht, kann hier eingesehen werden. 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/t4nBwMWzgBjg64D/preview)
-

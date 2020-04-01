@@ -9,4 +9,5 @@ Das ist super einfach! Besuche unsere Website und begib Dich auf die Startseite.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/CmCjyk2pq2cSPzy/preview)
 
+
 >  Nach der Registrierung kannst Du dich zwar sofort einloggen, Du solltest jedoch die Aktivierungs-E-Mail bestätigen, um den vollen Funktionsumfang nutzen zu können.

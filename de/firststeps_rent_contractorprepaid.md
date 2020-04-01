@@ -25,5 +25,6 @@ Insofern Du mit PayPal oder Kreditkarte bezahlst, wird bei einem Vertragsserver 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/FrCXTi5ZKXyL2yZ/preview)
 
+
 > Du hast bei der Bestellung auch die Möglichkeit, den Haken bei "**Abo Zahlung**" zu deaktivieren. Wir schicken dir regelmäßig eine Rechnung, diese musst du dann im Kundenportal manuell bezahlen.
 Du hast die Möglichkeit **jederzeit später eine Abo Zahlung zu einem Vertrag zu entfernen** oder hinzuzufügen. Öffne dazu den Navigationspunkt "**Verträge & Prepaids**" im Kundenportal

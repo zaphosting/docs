@@ -18,7 +18,7 @@ sidebar_label: Beispiel Eintrag
 
 [Wow, links??](google.com)
 
-![Bilder Gehen Auch!](https://i.imgur.com/mHlriLu.png)
+![Bilder Gehen Auch!](https://screensaver01.zap-hosting.com/index.php/s/8tc6xN49rxY2cqS/preview)
 
 https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 

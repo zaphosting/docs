@@ -63,7 +63,9 @@ Es gibt verschiedene Möglichkeiten, um an die begehrten Codes zu kommen. Am ein
 - Direkt nach der Bestellung eines Produkts
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/ZPTcy6cG6BHFaet/preview)
+
 Jeden Montag einen Euro? Wer schnell ist, kann sich einen der 100 Codes sichern.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/SP7RNGYm6NGi2XL/preview)
+
 Bestellung wird eingerichtet und direkt kann man 10% auf das nächste Produkt sparen!

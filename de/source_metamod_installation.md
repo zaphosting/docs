@@ -76,7 +76,6 @@ Als Resultat erhalten wir dann folgende Ausgabe:
 ### 📖 Versionsabfrage via RCON
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/9YbqCqoyxg8ogAk/preview)
-
 Über die folgenden Schritte können wir die Version für den eigenen Server prüfen
 
 1. IP-Adresse oben unter IP/Port eingeben
