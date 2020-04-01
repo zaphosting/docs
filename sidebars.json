@@ -87,6 +87,7 @@
 		  "fivem_windowsorlinux",
 		  "fivem_installresources",
 		  "fivem_sql_file_import",
+      "fivem_rcon",
 		  "fivem_useprofiler",
 		  {
 			"type":"subcategory",
