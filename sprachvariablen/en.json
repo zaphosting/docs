@@ -113,6 +113,10 @@
         "title": "Install replace carmods",
         "sidebar_label": "Install replace carmods"
       },
+      "fivem_rcon": {
+        "title": "Use Rcon",
+        "sidebar_label": "Use Rcon"
+      },
       "fivem_sql_file_import": {
         "title": "SQL File Import",
         "sidebar_label": "SQL File Import"
