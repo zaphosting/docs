@@ -62,8 +62,8 @@ There are several ways to get the coveted codes. The easiest places to find them
 - In our newsletters
 - Directly after ordering a product
 
-![](https://i.imgur.com/Qp6Manc.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/BqiLPZzaZqsMtbt/preview)
 One euro every Monday? If you are fast, you can get one of the 100 codes.
 
-![](https://i.imgur.com/7dDOJvh.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/Sk6bBgSxZZHpqp2/preview)
 Order is set up and directly you can save 10% on the next product!
