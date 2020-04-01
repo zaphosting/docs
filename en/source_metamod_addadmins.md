@@ -14,7 +14,7 @@ Furthermore you need the Steam ID of your Steam Account. There are several ways 
 
 First of all, the profile must be called up in Steam and then right-click anywhere in the profile. There you can copy the Steam URL of the profile.
 
-![](https://i.imgur.com/sx5spW8.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/e9Eb7EDtW7BPSZo/preview)
 
 Afterwards, the URL can be specified on one of the following web pages:
 
@@ -22,7 +22,7 @@ Afterwards, the URL can be specified on one of the following web pages:
 - https://steamidfinder.com/
 - https://steamid.io/
 
-![](https://i.imgur.com/oGaxizz.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/Yxg52KfYA3rMDQj/preview)
 
 Afterwards you will receive the Steam ID in addition to the general account information. There the **Steam ID 32** is needed:
 
@@ -53,7 +53,7 @@ players : 1 humans, 0 bots (16/0 max) (not hibernating)
 
 Next, connect to the server again via FTP and call the admins.cfg config file. This can be found in the following directory: addons/sourcemod/configs
 
-![](https://i.imgur.com/tneOZj1.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/cEcZp8QoJoJ7Yej/preview)
 
 The file already contains an example of how an admin entry might look like. You can copy this and then enter it as follows:
 
@@ -97,4 +97,4 @@ Depending on which rights are to be assigned, the respective flags can be writte
 
 With the command 'admin' in the chat or 'sm_admin' in the console the menu can be called.
 
-![](https://i.imgur.com/00Fabmw.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/sB6wy7btzGgDdbL/preview)

@@ -16,7 +16,7 @@ Solltest du bei beiden Anlaufstationen keine Informationen gefunden haben, die A
 
 
 
-![](https://i.imgur.com/zX9radT.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/w6YK5ob5a6DypDA/preview)
 >  Unser Live Chat steht rund um die Uhr für dich zur Verfügung. Es kann jedoch sein, dass es zu eventuellen Wartezeit kommt. Die Länge dieser Zeit hängt vom aktuellen Andrang ab und wird für dich oben im Chatfenster deutlich angezeigt.
 
 
@@ -32,19 +32,19 @@ Sollte der Live Chat für dich gerade keine Option sein und du möchtest dennoch
 
 
 
-![](https://i.imgur.com/YHLObkV.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/KFopKSAS2NDQEsY/preview)
 
 > Einfach oben im Webinterface auf das Logo klicken
 
 
 
-![](https://i.imgur.com/T2okjri.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/GfcE5e4KAFkqGbH/preview)
 
 > Der Link leitet euch zu allen aktuellen Tickets, die ihr bislang erstellt habt
 
 
 
-![](https://i.imgur.com/iPr4P8A.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/NBeAqaH2eSdMxPj/preview)
 
 > Hier euer Anliegen genau definieren und das Ticket einreichen
 

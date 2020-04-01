@@ -16,6 +16,7 @@
 	   ],
 	   "Account":[
 		  "account_contractsandprepaid",
+		  "account_termination_and_cancellation_period",
 		  "account_2factor",
 		  "account_backup_storage",
 		  "account_partner_system",
@@ -23,7 +24,8 @@
 		  "account_cashbox",
 		  "account_usermanagement",
 		  "account_vouchers",
-		  "account_donations"
+		  "account_donations",
+		  "account_security"
 	   ],
 	   "Gameserver - General":[
 		  "gameserver_cloudvslifetime",
@@ -37,7 +39,8 @@
 			 ]
 		  },
 		  "gameserver_ftpaccess",
-		  "gameserver_restartplaner"
+		  "gameserver_restartplaner",
+		  "gameserver_server_down_what_now"
 	   ],
 	   "Minecraft":[
 		  {
@@ -46,7 +49,8 @@
 			 "ids":[
 				"minecraft_addop",
 				"minecraft_default_config",
-				"minecraft_worlds"
+				"minecraft_worlds",
+				"minecraft_rcon"
 			 ]
 		  },
 		  {
@@ -80,8 +84,10 @@
 	   ],
 	   "FiveM":[
 		  "fivem_dashboard",
+		  "fivem_windowsorlinux",
 		  "fivem_installresources",
-		  "fivem_rcon",
+		  "fivem_sql_file_import",
+      "fivem_rcon",
 		  "fivem_useprofiler",
 		  {
 			"type":"subcategory",
@@ -90,7 +96,6 @@
 				"fivem_mods_installreplace"
 			]
 		 },
-
 		  {
 			 "type":"subcategory",
 			 "label":"ESX",
@@ -114,9 +119,28 @@
 				"source_metamod_installation",
 				"source_metamod_addadmins"
 			 ]
+		  },
+		  {
+			 "type":"subcategory",
+			 "label":"CS:GO",
+			 "ids":[
+				"csgo_gotv"
+				 
+			 ]
+		  }
+	   ],
+	   "ArmA 3":[
+		  {
+			 "type":"subcategory",
+			 "label":"ArmA 3 Allgemein",
+			 "ids":[
+				"arma3_serverconfig"
+			 ]
 		  }
 	   ],
 	   "vServer & Rootserver":[
+		   "vserver_root_unterschied",
+		   "vserver_vnc",
 		  {
 			 "type":"subcategory",
 			 "label":"Linux",
