@@ -27,15 +27,15 @@ If you have booked multiple IPs for your root or vServer, you can specify here w
 
 ### level-seed
 
-By default, the world generator always generates a random (seed))[https://minecraft.gamepedia.com/Seed_(level_generation)] and thus a completely random world.
+By default, the world generator always generates a random [seed](https://minecraft.gamepedia.com/Seed_(level_generation) and thus a completely random world.
 However, you can define your own seed from **letters or numbers** here, and the server will then create the corresponding world. The maximum length of **32 characters** should also not be exceeded.
 
 > There are some seed generators where you can configure a world according to your own ideas.
-> (This one)[https://minecraft.tools/en/custom.php] Generator is one of the best and can do almost anything.
+> [This one](https://minecraft.tools/en/custom.php) Generator is one of the best and can do almost anything.
 
 ### gamemode
 
-This option allows you to set the default game mode on your server. The game mode is given to every player for the first visit to the server and can then be changed at any time using the (/gamemode)[https://minecraft.gamepedia.com/Gameplay] command.
+This option allows you to set the default game mode on your server. The game mode is given to every player for the first visit to the server and can then be changed at any time using the [/gamemode](https://minecraft.gamepedia.com/Gameplay) command.
 
 If you cannot identify the IDs of the respective game modes, you will find a list here:
 
@@ -52,11 +52,11 @@ You can assign a fixed port to your server via which it will be accessible in co
 
 ### enable-command-block
 
-This enables (command blocks)[https://minecraft.gamepedia.com/Command_Block] to be activated on the server. If none are needed, the value should be set to *false* because there are some methods by which the server can be destroyed or damaged in connection with command blocks.
+This enables [command blocks](https://minecraft.gamepedia.com/Command_Block) to be activated on the server. If none are needed, the value should be set to *false* because there are some methods by which the server can be destroyed or damaged in connection with command blocks.
 
 ### allow-nether
 
-This option can turn the Nether on or off. If deactivated, the nether can no longer be accessed via a portal. However, access is still via a plugin such as (Multiverse Core)[https://www.spigotmc.org/resources/multiverse-core.390/].
+This option can turn the Nether on or off. If deactivated, the nether can no longer be accessed via a portal. However, access is still via a plugin such as [Multiverse Core](https://www.spigotmc.org/resources/multiverse-core.390/).
 
 ### enable-rcon
 
@@ -64,7 +64,7 @@ Commands can be executed from anywhere in the console using RCON. A password is 
 
 ### op-permission-level
 
-The standard OP level can be specified here, which should be assigned to a new operator at the beginning. The respective level and the individual allocation per player is (here)[https://docs.zap-hosting.com/docs/en/minecraft_addop/] described in more detail by us.
+The standard OP level can be specified here, which should be assigned to a new operator at the beginning. The respective level and the individual allocation per player is [here](https://docs.zap-hosting.com/docs/en/minecraft_addop/) described in more detail by us.
 
 ### enable-query
 
@@ -75,7 +75,7 @@ The query provides external services such as a website with separate data, such 
 This setting can be used to determine whether players can connect to a VPN / proxy. A VPN is often used to bypass an IP ban, so the option can be very useful. In some cases there is also a restriction, so that even normal connections are wrongly classified and blocked.
 
 > In order to gain extensive control over VPN / proxy connections, it is worth installing a plugin for it.
-> Many free plugins can be found quickly, this (but for a fee) (plugin)[https://www.spigotmc.org/resources/antibotdeluxe-%E2%80%BA-the-most-advanced-antibot-spigot-bungee-1500-purchases-1-7-1-15.31700/updates] convinced us the most and protects your server from any bot attacks.
+> Many free plugins can be found quickly, this (but for a fee) [plugin](https://www.spigotmc.org/resources/antibotdeluxe-%E2%80%BA-the-most-advanced-antibot-spigot-bungee-1500-purchases-1-7-1-15.31700/updates) convinced us the most and protects your server from any bot attacks.
 
 ### generator-settings
 
@@ -102,7 +102,7 @@ The world is named "world" by default. With this option a different name can now
 
 A message can be defined here, which is displayed in the server list, if added. The message is not displayed for the direct connection unless special mods are installed in the client. The message can be provided with all possible colors and formatting that Minecraft offers.
 
-> The MOTD can be created quickly and easily using this (tool)[https://minecraft.tools/en/motd.php] .
+> The MOTD can be created quickly and easily using this [tool](https://minecraft.tools/en/motd.php).
 
 ### force-gamemode
 
@@ -114,7 +114,7 @@ The hardcore mode ensures that players are banished upon death or put into spect
 
 ### white-list
 
-This activates the (Whitelist)[https://minecraft.gamepedia.com/Commands/whitelist], whereby only players who are on the list get access. The commands used to whitelist players, remove whitelisted players, and more are displayed on that page.
+This activates the [Whitelist](https://minecraft.gamepedia.com/Commands/whitelist), whereby only players who are on the list get access. The commands used to whitelist players, remove whitelisted players, and more are displayed on that page.
 
 ### broadcast-console-to-ops
 
@@ -134,7 +134,8 @@ This setting affects the world generator again. It can be used to determine whet
 
 ### spawn-animals
 
-Specifies whether animals should be spawned on the server. You can find a list of all animals (here)[https://minecraft.gamepedia.com/Animal]. 
+Specifies whether animals should be spawned on the server. You can find a list of all animals
+[here](https://minecraft.gamepedia.com/Animal). 
 
 ### snooper-enabled
 
@@ -142,7 +143,7 @@ If activated, the server sends anonymous data to Mojang. The data will be used f
 
 ### difficulty
 
-This allows the general difficulty to be determined on the server. Depending on the example, mobs do more or less damage. Precise information on this and the possible options can be found (here)[https://minecraft.gamepedia.com/Difficulty].
+This allows the general difficulty to be determined on the server. Depending on the example, mobs do more or less damage. Precise information on this and the possible options can be found [here](https://minecraft.gamepedia.com/Difficulty).
 
 ### network-compression-threshold
 
@@ -164,7 +165,8 @@ Determines the world type, according to which the world generator creates a worl
 
 ### spawn-monsters
 
-Determines whether monsters should be spawned on the server. You can find a list of all monsters (here)[https://minecraft.gamepedia.com/Mob]. 
+Determines whether monsters should be spawned on the server. You can find a list of all monsters 
+[here](https://minecraft.gamepedia.com/Mob). 
 
 ### max-tick-time
 
