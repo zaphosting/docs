@@ -17,7 +17,7 @@ Zunächst einmal werden die eigentlichen Erweiterungen benötigt. Hierbei ist es
 - [Metamod](https://www.sourcemm.net/downloads.php?branch=stable)
 - [Sourcemod](https://www.sourcemod.net/downloads.php?branch=stable)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/8XEpA3Gi4kqrdn2/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/azT2zZXrfP6ZCTJ/preview)
 
 > Source-Engine Gameserver laufen bei ZAP-Hosting in der Regel unter einem Linux Betriebssystem. Dementsprechend wird die Linux Version der Erweiterungen benötigt.
 
@@ -25,11 +25,11 @@ Zunächst einmal werden die eigentlichen Erweiterungen benötigt. Hierbei ist es
 
 Beim Herunterladen der beiden Erweiterungen erhält man zunächst zwei gepackte Dateien (sourcemod-X.X.X-gitXXXX-linux.tar / mmsource-X.X.X-gitXXX-linux.tar), welche vor dem Hochladen noch entpackt werden müssen. Dafür kann man entweder Winrar, 7zip oder ähnliche Programme benutzen.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/oGwmMqFmgJiWp2X/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/nTeJs3qGbLcyMBj/preview)
 
 Aus den entpackten Dateien erhält man im Anschluss addons und cfg den Ordner:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/QqyoF2GPSX9KEBY/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/GSw9Sr3rCmsg34m/preview)
 
 ### ⬆ Hochladen der Dateien
 
@@ -44,11 +44,11 @@ Die Dateien müssen in dem Hauptverzeichnis hochgeladen werden. Das Hauptverzeic
 | Team Fortress 2 | tf2 |
 | L4D2 | left4dead2 |
 
-![](https://screensaver01.zap-hosting.com/index.php/s/jr9adQxWicgnEYQ/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/jRYe4tZe9zjXrrs/preview)
 
 Im Anschluss sollte die Ordner Struktur dann wie folgt aussehen:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/o2T6Rmdydgfg3Hr/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/9bXTjdNt2jWfnrx/preview)
 
 ## ✅ SM / MM Installation überprüfen
 
@@ -71,12 +71,11 @@ meta version
 
 Als Resultat erhalten wir dann folgende Ausgabe: 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/5gRWF5xmbeqyDMH/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/j2CarBis4kZe4XP/preview)
 
 ### 📖 Versionsabfrage via RCON
 
-![](https://screensaver01.zap-hosting.com/index.php/s/f5zALXZtH3ApPAX/preview)
-
+![](https://screensaver01.zap-hosting.com/index.php/s/9YbqCqoyxg8ogAk/preview)
 Über die folgenden Schritte können wir die Version für den eigenen Server prüfen
 
 1. IP-Adresse oben unter IP/Port eingeben

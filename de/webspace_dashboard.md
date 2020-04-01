@@ -19,13 +19,13 @@ Im Anschluss an die abgeschlossene Bestellung wird das Webspace im Zap-Hosting D
 
 Auf der nun geöffneten Seite sind die Login Daten einzusehen. Das Passwort wird nicht im Klartext gespeichert. Um sich dieses anzeigen zu lassen, muss man auf das "Augen" Symbol drücken.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/t8jgLFfBpsmPEyX/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/fcX83TbBg9irz2w/preview)
 
 > Wenn dir das dort automatisch generierte Passwort nicht zusagt, kann dieses auf der selben Seite mit der Funktion "Passwort ändern" innerhalb von wenigen Sekunden geändert werden.
 
 Sobald Benutzername und Passwort eingesehen werden, kann das Plesk Interface durch Betätigen der Schaltfläche "**Verwaltung öffnen**" geöffnet werden. Nach  der Weiterleitung auf das Plesk Interface müssen jetzt die vorher ersichtlichen Login Daten eingegeben werden.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/fNpBSqMgrmAiE2a/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/CnfSbjBqsFBtkCz/preview)
 
 > Bei "Sprache der Oberfläche" kann die Sprache von Deutsch auf Englisch umgestellt werden, als "Standard" definierter Wert ist Deutsch gesetzt.
 
@@ -33,18 +33,18 @@ Sobald Benutzername und Passwort eingesehen werden, kann das Plesk Interface dur
 
 Eine eigene Domain kann in dem Plesk Interface bei dem Menü Punkt "**Hosting-Einstellungen**" eingetragen werden.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/k45sNy3JKjYjWqA/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/d85DgCLpMdd7mQw/preview)
 
 Bei "**Hosting Einstellungen**" kann nun bei "**Domainname**" die von Zap-Hosting generierte Subdomain gelöscht werden, damit die eigene Domain in dieses eingetragen werden kann. 
 
 Die Änderungen werden durch das Drücken der Schaltfläche "**OK**" bestätigt. 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/5SA2Jyoz4mpXb5r/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/XWGSE8J39kDyCr8/preview)
 
 > Die Bestätigung kann etwas Zeit in Anspruch nehmen. Solltest du bei diesem Wechsel Fehler erhalten wäre eine mögliche Fehlerquelle, dass deine Domain bereits als Alias in der Domain angelegt ist. 
 
 Sofern es keine Probleme bei der Änderung gegeben hat, wird dies in dem Plesk Interface bestätigt. Um diese Domain für das Webspace nutzen zu können, müssen bei der Domainverwaltung die DNS Einstellungen konfiguriert werden. 
 Wie dies bei über uns bestellten Domains geht, kann hier eingesehen werden. 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/bLk4t8P8cFzpaLq/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/t4nBwMWzgBjg64D/preview)
 

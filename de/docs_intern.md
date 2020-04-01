@@ -231,7 +231,7 @@ Nun kannst du ein Pull Request erstellen:
 
 Öffne die zap-docs Repo und öffne das "Pull Requests" Menü:
 
-![](https://i.imgur.com/uxTnmvb.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/nYrBk2kBMBRreRo/preview)
 
 Auf der rechten Seite klicke auf "New Pull Request" und wähle deine Branch auf der rechten seite:
 
@@ -239,13 +239,13 @@ Auf der rechten Seite klicke auf "New Pull Request" und wähle deine Branch auf 
 
 Wenn du dir sicher bist, dass alles korrekt ist, kannst du nun auf "**Create Pull Request**" Klicken
 
-![](https://i.imgur.com/gOstBbM.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/oo5spWPY9ezSAWG/preview)
 
-![](https://i.imgur.com/4SdxcHb.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/e6iZWHRdNEdqnR7/preview)
 
 Nun wurde deine Pull Request erstellt.
 
-![](https://i.imgur.com/M4VZpra.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/SfgAxYGXRZC6s6S/preview)
 
 Auf der Rechten Seite solltest du nun angeben ob dein Doc-Eintrag schon fertig ist, oder ob noch was dran gemacht wird:
 
@@ -255,4 +255,4 @@ Auf der Rechten Seite solltest du nun angeben ob dein Doc-Eintrag schon fertig i
 
 Wenn du weitere Änderungen vornehmen willst, kannst du die Branch öffnen, und dort weitere Dateien ändern, diese werden automatisch in die Pull Request integriert:
 
-![](https://i.imgur.com/Tush4SB.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/aSbdbfDx7c6zLYy/preview)
