@@ -12,14 +12,14 @@ Mit der **EasyDNS Funktion** kann  die Weiterleitung einer Domain, welche bei **
 
 Die Option wird einem angezeigt, soweit man die gewünschte Domain bei sich im Interface anklickt.
 
-![](https://i.imgur.com/p8p7Wqk.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/WqSPNHXSMASzHbx/preview)
 
 Hier angekommen, kann man dann einen bestehenden Dienst aus einer Liste auswählen.
 So wie es im obigen Beispiel zu sehen ist.
 Man wählt den gewünschten Dienst aus und bestätigt es dann mit einem Klick auf den "Speichern" Button.
 Es gibt ebenfalls die Option, dass man seine Domain mit einer Subdomain auf einen Minecraft Server weiterleitet.
 
-![](https://i.imgur.com/cwuZN3W.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/DSywLqr7N5Q6Jzs/preview)
 
 Hier kann im ersten Feld der Name der **gewünschten Subdomain** eingetragen werden.
 Rechts daneben wählt man den gewünschten **Minecraft Server** aus, welchen man mit der Subdomain dann verknüpfen möchte.
