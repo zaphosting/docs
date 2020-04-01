@@ -17,7 +17,7 @@ Zunächst einmal werden die eigentlichen Erweiterungen benötigt. Hierbei ist es
 - [Metamod](https://www.sourcemm.net/downloads.php?branch=stable)
 - [Sourcemod](https://www.sourcemod.net/downloads.php?branch=stable)
 
-![](https://i.imgur.com/q5y6A3W.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/azT2zZXrfP6ZCTJ/preview)
 
 > Source-Engine Gameserver laufen bei ZAP-Hosting in der Regel unter einem Linux Betriebssystem. Dementsprechend wird die Linux Version der Erweiterungen benötigt.
 
@@ -25,11 +25,11 @@ Zunächst einmal werden die eigentlichen Erweiterungen benötigt. Hierbei ist es
 
 Beim Herunterladen der beiden Erweiterungen erhält man zunächst zwei gepackte Dateien (sourcemod-X.X.X-gitXXXX-linux.tar / mmsource-X.X.X-gitXXX-linux.tar), welche vor dem Hochladen noch entpackt werden müssen. Dafür kann man entweder Winrar, 7zip oder ähnliche Programme benutzen.
 
-![](https://i.imgur.com/xAyfFCO.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/nTeJs3qGbLcyMBj/preview)
 
 Aus den entpackten Dateien erhält man im Anschluss addons und cfg den Ordner:
 
-![](https://i.imgur.com/k8gJ5Bq.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/GSw9Sr3rCmsg34m/preview)
 
 ### ⬆ Hochladen der Dateien
 
@@ -44,11 +44,11 @@ Die Dateien müssen in dem Hauptverzeichnis hochgeladen werden. Das Hauptverzeic
 | Team Fortress 2 | tf2 |
 | L4D2 | left4dead2 |
 
-![](https://i.imgur.com/JzVXcGh.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/jRYe4tZe9zjXrrs/preview)
 
 Im Anschluss sollte die Ordner Struktur dann wie folgt aussehen:
 
-![](https://i.imgur.com/502Mexy.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/9bXTjdNt2jWfnrx/preview)
 
 ## ✅ SM / MM Installation überprüfen
 
@@ -71,11 +71,11 @@ meta version
 
 Als Resultat erhalten wir dann folgende Ausgabe: 
 
-![](https://i.imgur.com/nkGtZsP.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/j2CarBis4kZe4XP/preview)
 
 ### 📖 Versionsabfrage via RCON
 
-![](https://i.imgur.com/WqNd8dV.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/9YbqCqoyxg8ogAk/preview)
 
 Über die folgenden Schritte können wir die Version für den eigenen Server prüfen
 
