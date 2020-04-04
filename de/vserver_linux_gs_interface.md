@@ -150,7 +150,7 @@ Unter Eisntellungen kannst du zum Beispiel den  Namen von deinem Server ändern,
 Im folgenden kommt eine Auflistung der Spiele, die du mit dem Interface aktuell installieren kannst.(Stand 04.04.2020)
 
 
-### Spiele
+### 🎮Spiele
 
 
 ![]( https://zap-hosting.com/interface/_images/icons/samp_icon.png) FIVE: SA:MP
@@ -210,7 +210,7 @@ Im folgenden kommt eine Auflistung der Spiele, die du mit dem Interface aktuell 
 ![]( https://zap-hosting.com/interface/_images/icons/curse-icon.png) Ragnamod V
 
 
-### Counter-Strike
+### 🔫Counter-Strike
 
 
 ![]( https://zap-hosting.com/interface/_images/icons/cs16-icon.png) Counter-Strike: 1.6
@@ -224,7 +224,7 @@ Im folgenden kommt eine Auflistung der Spiele, die du mit dem Interface aktuell 
 ![]( https://zap-hosting.com/interface/_images/icons/cscz-icon.png) Counter-Strike: Condition Zero
 
 
-### ARK
+### 🐉ARK
 
 
 ![]( https://zap-hosting.com/interface/_images/icons/ark-survivalevolved-icon.png) ARK: SE (+ Ragnarok, Aberration)
@@ -238,7 +238,7 @@ Im folgenden kommt eine Auflistung der Spiele, die du mit dem Interface aktuell 
 ![]( https://zap-hosting.com/interface/_images/icons/ark-genesis-icon.png) ARK: Genesis
 
 
-### Garry's Mod
+### 🚀Garry's Mod
 
  
 ![]( https://zap-hosting.com/interface/_images/icons/gmod-icon.png) Garry's Mod: Vanilla
@@ -268,10 +268,10 @@ Im folgenden kommt eine Auflistung der Spiele, die du mit dem Interface aktuell 
 ![]( https://zap-hosting.com/interface/_images/icons/gmod-zsurvival-icon.png) Garry's Mod: Zombie Survival
 
 
-## Minecraft
+## ⛏️Minecraft
 
 
-### Feed the Beast
+### ⛏️Feed the Beast
                                                
  
 ![]( https://zap-hosting.com/interface/_images/icons/ftblite2-icon.png) Feed the Beast: Lite 2
@@ -397,7 +397,7 @@ Im folgenden kommt eine Auflistung der Spiele, die du mit dem Interface aktuell 
 ![]( https://zap-hosting.com/interface/_images/icons/ftb-academy-icon.png) Feed the Beast: FTB Academy
 
 
-### AT Launcher
+### ⛏️AT Launcher
 
 
 ![]( https://zap-hosting.com/interface/_images/icons/bevos-tech-pack-icon.png) AT Launcher: Bevo's Tech Pack
@@ -427,7 +427,7 @@ Im folgenden kommt eine Auflistung der Spiele, die du mit dem Interface aktuell 
 ![]( https://zap-hosting.com/interface/_images/icons/naturalmagic-icon.png) AT Launcher: Natural Magic
 
 
-### Technic Launcher
+### ⛏️Technic Launcher
 
 
 ![]( https://zap-hosting.com/interface/_images/icons/tekkit-icon.png) Technic Launcher: Tekkit
@@ -509,7 +509,7 @@ Im folgenden kommt eine Auflistung der Spiele, die du mit dem Interface aktuell 
 ![]( https://zap-hosting.com/interface/_images/icons/the-1-12-2-pack-icon.png) Technic Launcher: The 1.12.2 Pack
 
 
-### Curse / Twitch
+### ⛏️Curse / Twitch
 
 
 ![]( https://zap-hosting.com/interface/_images/icons/foreverstranded-icon.png) Curse / Twitch: Forever Stranded
@@ -638,7 +638,7 @@ Im folgenden kommt eine Auflistung der Spiele, die du mit dem Interface aktuell 
 
 
 
-### Minecraft Adventure
+### ⛏️Minecraft Adventure
 
 
 ![]( https://zap-hosting.com/interface/_images/icons/zanzer-icon.png) Minecraft Adventure: Escape from Zanzer
@@ -655,7 +655,7 @@ Im folgenden kommt eine Auflistung der Spiele, die du mit dem Interface aktuell 
 
 
 
-### Minecraft Minigames
+### ⛏️Minecraft Minigames
 
 
 ![]( https://zap-hosting.com/interface/_images/icons/buildmything-icon.png) Minecraft Minigames: Build my Thing
@@ -674,7 +674,7 @@ Im folgenden kommt eine Auflistung der Spiele, die du mit dem Interface aktuell 
 
 
 
-### Voids Wrath Launcher
+### ⛏️Voids Wrath Launcher
 
 
 ![]( https://zap-hosting.com/interface/_images/icons/dreamcraft-icon.png) Voids Wrath Launcher: DreamCraft 2
@@ -691,7 +691,7 @@ Im folgenden kommt eine Auflistung der Spiele, die du mit dem Interface aktuell 
 
 
 
-### Life in the Woods
+### ⛏️Life in the Woods
 
 
 ![]( https://zap-hosting.com/interface/_images/icons/gronkhlifeinthewoods-icon.png) Life in the Woods: Gronkh's Life in the Woods
