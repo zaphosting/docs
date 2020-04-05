@@ -111,6 +111,15 @@
 			 ]
 		  }
 	   ],
+	   "RageMP":[
+		  {
+			 "type":"subcategory",
+			 "label":"Pakete installieren",
+			 "ids":[
+				"ragemp_installpackages"
+			 ]
+		  }
+	   ],
 	   "Source Games":[
 		  {
 			 "type":"subcategory",
