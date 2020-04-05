@@ -10,11 +10,11 @@ Here you can find instructions and explanations for various products, games or t
 
 In the left sidebar all Doc entries can be viewed and opened:
 
-![](https://screensaver01.zap-hosting.com/index.php/apps/files_sharing/publicpreview/4ajTrW35DwFXJYG?x=1920&y=553&a=true&file=firefox_5o8oDnjmBc.png&scalingup=0)
+![](https://screensaver01.zap-hosting.com/index.php/apps/files_sharing/publicpreview/wk3KQHNyfrEMHdQ?x=1360&y=307&a=true&file=chrome_4QflWifpEX.png&scalingup=0)
 
 All entries also have a right sidebar, with which you can quickly find certain parts of the entry:
 
-![](https://screensaver01.zap-hosting.com/index.php/apps/files_sharing/publicpreview/nzDodoLQwM8rCcS?x=1920&y=553&a=true&file=firefox_P1tTEtDoUT.png&scalingup=0)
+![](https://screensaver01.zap-hosting.com/index.php/apps/files_sharing/publicpreview/x3DdtocA5bMwf27?x=1360&y=307&a=true&file=chrome_SYWRZeiDbi.png&scalingup=0)
 
 
 If you find a mistake, want to correct an image, or even write your own entry, you can do so through our [GitHub Repository](https://github.com/zap-docs/docs).
@@ -117,51 +117,51 @@ Please use the ZAP-Hosting Screensaver to upload pictures here.
 
 To change an existing page you can click on the "Edit" button in the upper right corner:
 
-![](https://i.imgur.com/S7Jga7m.png)
+![](https://screensaver01.zap-hosting.com/index.php/apps/files_sharing/publicpreview/7iPWKbogzqTTtqk?x=1360&y=307&a=true&file=chrome_pqrvYR1tbN.png&scalingup=0)
 
 This leads you to the source file of the entry:
 
-![](https://i.imgur.com/XXLwOus.png)
+![](https://screensaver01.zap-hosting.com/index.php/apps/files_sharing/publicpreview/Bkem98oMWLpLqi5?x=1360&y=307&a=true&file=chrome_wBZXk8uS3l.png&scalingup=0)
 
 Here you can now click on the "Edit" button, this will create a copy of all the docs on your Github account:
 
-![](https://i.imgur.com/FKjvhW6.png)
+![](https://screensaver01.zap-hosting.com/index.php/apps/files_sharing/publicpreview/iG4zk59H4iPfqGP?x=1360&y=307&a=true&file=chrome_b6Zarqi5ZF.png&scalingup=0)
 
-![](https://i.imgur.com/aoD4odD.png)
+![](https://screensaver01.zap-hosting.com/index.php/apps/files_sharing/publicpreview/BX4Eo5C7Gm32PZa?x=1360&y=307&a=true&file=chrome_3Dl8GmZLg3.png&scalingup=0)
 
 ### 🔎 Text search
 
 Click with the mouse in the source code and then press *Ctrl + F*
 
-![](https://screensaver01.zap-hosting.com/index.php/apps/files_sharing/publicpreview/SYN5pdmNjDm5fkX?x=1920&y=553&a=true&file=firefox_Dn5cN39pkU.png&scalingup=0)
+![](https://screensaver01.zap-hosting.com/index.php/apps/files_sharing/publicpreview/6ZNXnCPz7bJyN9L?x=1360&y=307&a=true&file=chrome_vrme2EhhhD.png&scalingup=0)
 
 
 ### 🥅 Finalization
 
 Make sure that you describe your change correctly so that we know immediately what it is about:
 
-![](https://i.imgur.com/brIixcL.png)
+![](https://screensaver01.zap-hosting.com/index.php/apps/files_sharing/publicpreview/xQFx9mGga944H5e?x=1360&y=307&a=true&file=chrome_AnU3cUQ4g6.png&scalingup=0)
 
 When you have made your changes, you can now click on "**Propose File Change**", this will take you to the Pull Request Preview, here you can review your changes again:
 
-![](https://i.imgur.com/22bHojQ.png)
+![](https://screensaver01.zap-hosting.com/index.php/apps/files_sharing/publicpreview/JPngB6oxwLxf5FS?x=1360&y=307&a=true&file=chrome_epV68uY37A.png&scalingup=0)
 
 If you are sure that everything is correct, you can now click on "**Create Pull Request**"
 
 ![](https://i.imgur.com/gOstBbM.png)
 
-![](https://i.imgur.com/4SdxcHb.png)
+![](https://screensaver01.zap-hosting.com/index.php/apps/files_sharing/publicpreview/5CCdc8gAP4GieoQ?x=1360&y=307&a=true&file=chrome_i8iw1rmiFp.png&scalingup=0)
 
 
 Now your Pull Request has been created.
 
 > Before it is integrated into the Wiki, it must be checked for correctness. For this purpose you may receive a response to the pull request or an e-mail from the system.
 
-![](https://i.imgur.com/M4VZpra.png)
+![](https://screensaver01.zap-hosting.com/index.php/apps/files_sharing/publicpreview/TW9kgmKCWHYJkdt?x=1360&y=307&a=true&file=chrome_Y9hyUdNNUr.png&scalingup=0)
 
 If you want to make further changes, you can open to your branch and change more files there, they will be automatically integrated into the Pull Request:
 
-![](https://i.imgur.com/Tush4SB.png)
+![](https://screensaver01.zap-hosting.com/index.php/apps/files_sharing/publicpreview/YMJc97JjHgJcrEg?x=1360&y=307&a=true&file=chrome_EHSDX3cDWM.png&scalingup=0)
 
 
 ## Creating a new page
@@ -309,22 +309,22 @@ On the right side click on "New Pull Request" and select your own fork as follow
 3. Click on "Create Pull Request"
 
 
-![](https://i.imgur.com/22bHojQ.png)
+![](https://screensaver01.zap-hosting.com/index.php/apps/files_sharing/publicpreview/JPngB6oxwLxf5FS?x=1360&y=307&a=true&file=chrome_epV68uY37A.png&scalingup=0)
 
 If you are sure that everything is correct, you can now click on "**Create Pull Request**"
 
 ![](https://i.imgur.com/gOstBbM.png)
 
-![](https://i.imgur.com/4SdxcHb.png)
+![](https://screensaver01.zap-hosting.com/index.php/apps/files_sharing/publicpreview/5CCdc8gAP4GieoQ?x=1360&y=307&a=true&file=chrome_i8iw1rmiFp.png&scalingup=0)
 
 Now your Pull Request has been created.
 
 > Before it is integrated into the Wiki, it must be checked for correctness. For this purpose you may receive a response to the pull request or an e-mail from the system.
 
-![](https://i.imgur.com/M4VZpra.png)
+![](https://screensaver01.zap-hosting.com/index.php/apps/files_sharing/publicpreview/TW9kgmKCWHYJkdt?x=1360&y=307&a=true&file=chrome_Y9hyUdNNUr.png&scalingup=0)
 
 If you want to make further changes, you can open on your fork and change other files there, they will be automatically integrated into the Pull Request:
 
-![](https://i.imgur.com/Tush4SB.png)
+![](https://screensaver01.zap-hosting.com/index.php/apps/files_sharing/publicpreview/YMJc97JjHgJcrEg?x=1360&y=307&a=true&file=chrome_EHSDX3cDWM.png&scalingup=0)
 
 As soon as your Pull Request is accepted, you will see it on docs.zap-hosting.com!
