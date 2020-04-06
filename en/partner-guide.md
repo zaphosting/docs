@@ -26,20 +26,20 @@ Since we know how well thought out some of our influencer channel brandings are,
 
 Here are a few examples of how you could create bot timers, video descriptions and shoutouts:
 
-> Your own server is waiting! Create your dream server now at ZAP-Hosting.com: (YOUR LINK) #Advertising
+> Your own server is waiting! Create your dream server now at ZAP-Hosting.com: (YOUR LINK) #Ad
 
-> Powerful game servers, root servers and domains! Online immediately! Now at my partner ZAP-Hosting.com (YOUR LINK) #Advertising
+> Powerful game servers, root servers and domains! Online immediately! Now at my partner ZAP-Hosting.com (YOUR LINK) #Ad
 
-> Server provided by my partner in terms of gameserver, rootserver and domains: (YOUR LINK) #Advertising
+> Server provided by my partner in terms of gameserver, rootserver and domains: (YOUR LINK) #Ad
 
 ## 🥇 The partner ranks
 As soon as you have logged in at ZAP-Hosting.com, you will notice two changes in the header as a ZAP partner: First, a ring around your avatar image is now shining, which represents your rank as a partner, and second, a star has appeared next to your avatar, which leads you to the **Partner menu**.
 
 [](https://screensaver01.zap-hosting.com/index.php/apps/files_sharing/publicpreview/yGckAEzby3JxpEW?x=1920&y=587&a=true&file=chrome_TykWOICnk8.png&scalingup=0)
 
-Our partners are divided into the ranks **Silver**, **Gold** and **Diamond**. These ranks differ not only in their names, but also in the services we provide and of course the services of the respective influencer/partner. For the first time, each partner starts in the **Silver Rank** and receives a basic equipment with free servers, graphics and a contact person for questions (Partner Manager). 
+Our partners are divided into the ranks **Silver**, **Gold** and **Diamond**. These ranks differ not only in their names, but also in the services we provide and of course the services of the respective influencer/partner. At first each partner starts in the **Silver Rank** and receives a basic equipment with free servers, graphics and a contact person for questions (Partner Manager). 
 
-After a few weeks or months, if we recognize that the partner is particularly active, implements creative ideas and his community is particularly enthusiastic about us, we invite him to a Discord discussion and discuss future visions together. During such discussions, we will clarify, among other things, whether there is a desire to negotiate a fixed monthly remuneration in case of continued performance. 
+After a few weeks or months, if we recognize that the partner is particularly active, implements creative ideas and his community is particularly enthusiastic about us, we invite him to a Discord talk and discuss future visions together. During such discussions, we will clarify, among other things, whether there is a desire to negotiate a fixed monthly remuneration in case of continued performance. 
 
 As soon as partners have reached the final rank of **Diamond Partner**, other benefits such as hardware equipment, individual hardware sets and bonus programs will be offered in addition to monthly financial compensation.
 
@@ -49,8 +49,8 @@ Every ZAP partner gets access to the paner menu, where he can find the contact d
 
 [](https://screensaver01.zap-hosting.com/index.php/apps/files_sharing/publicpreview/2FLZnd2qBj2q2sG?x=1920&y=587&a=true&file=chrome_1r2PNNLlAV.png&scalingup=0)
 
-### Advertising material
-You need a Monecraft banner that you can put on your website? You are missing the ZAP logo? Or do you need some ideas how your panel could look like? Then have a look around in the drop-down menu and download all the graphics you need here. Besides the graphic itself, we will give you a link with which you can easily integrate your graphic.
+### ▶️ Advertising material
+You need a Minecraft banner that you can put on your website? You are missing the ZAP logo? Or do you need some ideas how your panel could look like? Then have a look around in the drop-down menu and download all the graphics you need here. Besides the graphic itself, we will give you a link with which you can easily integrate your graphic.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/gAiaHGd3T7MHkDd/preview)
 
@@ -62,14 +62,14 @@ Simply click on the green button **Create new advertising material** and choose 
 
 **Name/Description:** The name of your banner. If it is the banner for your Frontpage, you could simply call it "Minecraft Banner Frontpage".
 
-;-)(https://screensaver01.zap-hosting.com/index.php/s/Ax4Lxnepjxgq3k6/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/Ax4Lxnepjxgq3k6/preview)
 
-### Left
+### ▶️ Links
 Under the same menu item you will get to the link generator. This works basically the same as the banner generator, but without offering you a banner. Instead, you can enter your own link text, which will be shown to others in the preview.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/HiiZGfnQ6DsEpbW/preview)
 
-### Events
+### ▶️ Events
 Under **Events** you can create your own events to keep track of planned projects. Unfortunately, this event area is not linked to our messaging system, so events planned by you do not automatically end up in the inbox of your partner manager and should be discussed separately (mail or discord) with your manager.
 
 ## 💸 Earn money as a partner
