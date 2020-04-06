@@ -177,6 +177,10 @@
         "title": "Worlds",
         "sidebar_label": "Worlds"
       },
+      "partner-guide": {
+        "title": "Partner Guide",
+        "sidebar_label": "Partner Guide"
+      },
       "source_metamod_addadmins": {
         "title": "Become an admin",
         "sidebar_label": "Become an admin"
