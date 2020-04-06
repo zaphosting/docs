@@ -19,14 +19,20 @@
 		  "account_termination_and_cancellation_period",
 		  "account_2factor",
 		  "account_backup_storage",
-		  "account_partner_system",
-		  "partner-guide",
 		  "account_friends",
 		  "account_cashbox",
 		  "account_usermanagement",
 		  "account_vouchers",
 		  "account_donations",
-		  "account_security"
+		  "account_security",
+		  {
+			  "type":"subcategory",
+			  "label":"Partner",
+			  "ids":[
+				"account_partner_system",
+				"partner-guide"
+			  ]
+		  }
 	   ],
 	   "Gameserver - General":[
 		  "gameserver_cloudvslifetime",
