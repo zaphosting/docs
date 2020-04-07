@@ -3,6 +3,7 @@ id: gameswitch
 title: Spielwechsel mit der Gameservercloud
 sidebar_label: Spielwechsel
 ---
+
 ## Spielwechsel
 ### ☁️ Die Gameservercloud
 Mit einem Gameserver bei ZAP-Hosting kannst du jederzeit das Spiel, dass auf deinem Gameserver installiert ist, wechseln.
