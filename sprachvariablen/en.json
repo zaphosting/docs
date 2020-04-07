@@ -34,8 +34,8 @@
         "sidebar_label": "Partner System"
       },
       "account_security": {
-        "title": "Sicherheit",
-        "sidebar_label": "Sicherheit"
+        "title": "Safety",
+        "sidebar_label": "Safety"
       },
       "account_termination_and_cancellation_period": {
         "title": "Termination and Cancellation",
@@ -110,8 +110,8 @@
         "sidebar_label": "Resource Installation"
       },
       "fivem_mods_installreplace": {
-        "title": "Install replace carmods",
-        "sidebar_label": "Install replace carmods"
+        "title": "Install Replace Carmods",
+        "sidebar_label": "Install Replace Carmods"
       },
       "fivem_rcon": {
         "title": "Use Rcon",
@@ -153,6 +153,10 @@
         "title": "Server down - What now?",
         "sidebar_label": "Server down - What now?"
       },
+      "gameswitch": {
+        "title": "Spielwechsel mit der Gameservercloud",
+        "sidebar_label": "Spielwechsel"
+      },
       "minecraft_addop": {
         "title": "OP-Permissions",
         "sidebar_label": "OP-Permissions"
@@ -180,6 +184,14 @@
       "partner-guide": {
         "title": "Partner Guide",
         "sidebar_label": "Partner Guide"
+      },
+      "paymentoptions": {
+        "title": "Payment Options",
+        "sidebar_label": "Payment Options"
+      },
+      "ragemp_installpackages": {
+        "title": "Install Packages",
+        "sidebar_label": "Install Packages"
       },
       "source_metamod_addadmins": {
         "title": "Become an admin",
@@ -212,6 +224,10 @@
       "vserver_linux_plesk": {
         "title": "Plesk",
         "sidebar_label": "Plesk"
+      },
+      "vserver_linux_ssh": {
+        "title": "Erstzugriff (SSH)",
+        "sidebar_label": "Erstzugriff (SSH)"
       },
       "vserver_root_unterschied": {
         "title": "Unterschied Rootserver / V-Server",
@@ -255,6 +271,7 @@
       "Gameserver - General": "Gameserver - General",
       "Minecraft": "Minecraft",
       "FiveM": "FiveM",
+      "RageMP": "RageMP",
       "Source Games": "Source Games",
       "ArmA 3": "ArmA 3",
       "vServer & Rootserver": "vServer & Rootserver",
