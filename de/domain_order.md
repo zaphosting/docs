@@ -22,7 +22,7 @@ Um eine Domain mieten zu können müssen alle Felder wie Vorname, Nachname und A
 
 
 
-## Domain's bei ZAP-Hosting.com
+## Nach der Bereitstellung
 
 ### Nachdem deine Domain bereitgestellt wurde findest du diese auf der Startseite in deinem Interface.
 
