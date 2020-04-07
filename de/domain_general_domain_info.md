@@ -10,7 +10,7 @@ sidebar_label: Was ist eine Domain?
 Eine Domain kann deinen Namen oder dein Projekt im Internet repräsentieren und weltweit erreichbar machen.
 Du kannst eine Domain dazu benutzen um zum Beispiel eine Website online erreichbar zu machen, 
 außerdem kannst du eine Domain auf einen Game- oder TeamSpeak 3 Server weiterleiten und diesen 
-dann ebenfalls mit einem leicht zu merkenden Namen online erreichen. Wie genau du das anstellst findest du links Im Menü. :)
+dann ebenfalls mit einem leicht zu merkenden Namen online erreichen.
 
 
 ### Subdomains
