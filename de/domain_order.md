@@ -32,8 +32,6 @@ Um eine Domain mieten zu können müssen alle Felder wie Vorname, Nachname und A
 
 
 
-### Dort kannst du deine Domain anklicken und gelangst so zu deinen Domaineinstellungen.
 
-![](https://puu.sh/FutVG/5ff847ec9d.png)
 
  
