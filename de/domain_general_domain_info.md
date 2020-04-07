@@ -31,6 +31,7 @@ Neben **.net** gibt es natürlich noch viele weitere Domainendungen wie **.com**
 
 
 
+
 ### Dort kannst du deine Domain anklicken und gelangst so zu deinen Domaineinstellungen.
 
 ![](https://puu.sh/FutVG/5ff847ec9d.png)
