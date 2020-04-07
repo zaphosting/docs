@@ -120,6 +120,9 @@
 			 ]
 		  }
 	   ],
+	   "RageMP":[
+			"ragemp_installpackages"
+	   ],
 	   "Source Games":[
 		  {
 			 "type":"subcategory",
