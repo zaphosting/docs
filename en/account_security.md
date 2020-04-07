@@ -1,44 +1,42 @@
 ---
 id: account_security
-title: Sicherheit
-sidebar_label: Sicherheit
+title: Safety
+sidebar_label: Safety
 ---
 
-(For translation)
+Your account with us gives you access to your services, so security is very important - especially nowadays. We try to do what we can to protect you. For example, we offer rewards for reporting vulnerabilities to whitehat hackers in [our bug bounty program](https://zap-hosting.com/en/security/).
+However, there are two sides to the security of your account, so here is some information on how you can better protect your account.
 
-Dein Account bei uns gibt Zugang zu deinen Diensten, entsprechend ist Sicherheit - besonders in der heutigen Zeit - sehr wichtig. Wir versuchen von unserer Seite zu tun was wir können, um dich zu schützen. Beispielsweise bieten wir Belohnungen für Meldungen zu Sicherheitslücken für Whitehat Hacker in [unserem Bug Bounty Programm](https://zap-hosting.com/de/sicherheit/) an.  
-Zur Sicherheit deines Accounts gehören aber zwei Seiten, deshalb hier einige Informationen, wie du deinen Account besser schützen kannst.
+## 🔑 Secure passwords
 
-## 🔑 Sichere Passwörter
+Your password is a central part of checking whether a person can have access to your account or not. This makes it important to design your password so that it is not used by others (e.g. typical passwords such as 123456), has a certain minimum length and complexity and cannot be guessed by information about you and yourself (e.g. birth dates).
 
-Dein Passwort ist ein zentraler Bestandteil um zu prüfen, ob eine Person Zugang zu deinem Account erhalten darf oder nicht. Dadurch ist es wichtig dein Passwort so zu gestalten, dass es möglichst nicht von anderen benutzt wird (z.B. typische Passwörter wie 123456), eine gewisse Mindestlänge und Komplexität erreicht und nicht durch Informationen zu dir und deiner Person erraten werden kann (z.B. Geburtsdaten).
+You can invent a solid password, for example, by forming a sentence.
 
-Ein solides Passwort kannst du z.B. durch das Bilden eines Satzes erfinden.
+**I** **l**ike **t**o **t**ake **l**ong **w**alks **i**n **t**he **w**inter **w**onderlands, **w**earing **a** **m**ask **b**ecause **i**ts **a**round **20** **d**egrees**!**
 
-**I**ch **f**ahre **i**m **S**ommer **i**n **d**ie **B**erge **,** **d**ort **w**erde **i**ch **S**ki **f**ahren **w**eil **e**s **d**ort **0** **G**rad **k**alt **i**st **.**
 
-Fügst du nun die Anfangsbuchstaben der Wörter, Satzzeichen und Zahlen zusammen, hast du ein schwer zu erratendes Passwort mit einer gewissen Komplexität, was man sich durch den Satz merken kann:
-IfiSidB,wiSfwed0Gki.
+If you put together the first letters of the words, punctuation marks and numbers, you have a difficult-to-guess password with a certain complexity, which can be remembered by the sentence: Ilttlwitwwwambia20d.
 
-Solltest du, wie im nächsten Schritt empfohlen, einen Passwörter Manager nutzen, so kannst du dort in der Regel direkt ein gutes Passwort generieren und musst es dir nicht merken.
+If, as recommended in the next step, you use a password manager, you can usually generate a good password there and do not have to remember it.
 
-## 🔃 🚫 Passwörter nur einmal verwenden
+## 🔃 🚫 Use passwords only once
 
-Durch ein sicheres Passwort machst du es Angreifern schwerer, automatisiert oder durch Raten Zugang zu deinem Account zu erlangen. Allerdings ist es wichtig ein Passwort im Bestfall nicht mehrmals, also auf verschiedenen Webseiten und Diensten, zu verwenden. Sollte es bei einem deiner genutzten Anbieter und Webseiten zu einem Sicherheitsproblem kommen, bei dem dein Passwort in die falschen Hände gerät, sind deine Accounts bei anderen Webseiten ebenfalls in Gefahr.  
-Entsprechend ist es sinnvoll für jede Seite ein anderes Passwort zu nutzen. Um die Passwörter nicht durcheinander zu bringen oder zu vergessen, ist ein Passwortmanager wie beispielsweise [KeePass](https://keepass.info/) empfehlenswert.
+A secure password makes it harder for attackers to gain access to your account automatically or in installments. However, at best it is important not to use a password more than once, i.e. on different websites and services. If there is a security problem with one of the providers and websites you are using and your password falls into the wrong hands, your accounts with other websites are also at risk.
+Accordingly, it makes sense to use a different password for each page. In order not to confuse or forget the passwords, a password manager such as [KeePass](https://keepass.info/) is recommended. 
 
-> Tipp: Bei [haveibeenpwned](https://haveibeenpwned.com/) kannst du unter Angabe deiner E-Mail Adresse kostenlos prüfen, ob diese in einem bekannten Leak einer Datenbank enthalten ist. Darüber hinaus erhältst du Informationen darüber, auf welcher Seite der Vorfall stattgefunden hat und welche Daten entwenden wurden.
+> Tip: At [haveibeenpwned](https://haveibeenpwned.com/) you can check your email address free of charge to see whether it is contained in a known leak in a database. You will also receive information on which side the incident took place and which data was stolen.
 
 ![haveibeenpwned Beispiel](https://screensaver01.zap-hosting.com/index.php/s/oEkax9CboMHqDwx/preview)
 
-## 🔧 Account Einstellungen
+## 🔧 Account Settings
 
-Neben der [2-Factor Authentication](/docs/de/account_2factor/) kannst du im Reiter [Sicherheit](https://zap-hosting.com/de/customer/home/security/) in deinem Account auch OneClick Login deaktivieren. In einigen E-Mails versenden wir Links, durch die du per Klick eingeloggt wirst und direkt zur relevanten Seite im jeweiligen Kontext geleitet wirst. Grundsätzlich versendet man keine sensiblen Informationen per E-Mail. Entsprechend ist es für Accounts mit Zugriff zu wichtigen Diensten sinnvoll, die Funktion gegebenenfalls auszuschalten.
+In addition to [2-Factor Authentication](/docs/en/account_2factor/)you can also deactivate OneClick Login in the [Security](https://zap-hosting.com/en/customer/home/security/) tab in your account. In some e-mails we send links through which you can be logged in with a click and directed to the relevant page in the respective context. Basically, you don't send sensitive information via email. Accordingly, it makes sense for accounts with access to important services to switch off the function if necessary.
 
-## 🚨 Ich wurde gehackt
+## 🚨 I was hacked
 
-Solltest du dennoch einem Angriff zum Opfer fallen, bei dem sich Unbefugte Zugang zu deinem Account verschaffen, haben wir Systeme implementiert, um den Schaden zu minimieren und dir zu helfen, möglichst schnell wieder Herr der Lage zu werden.
+Should you nevertheless fall victim to an attack in which unauthorized persons gain access to your account, we have implemented systems to minimize the damage and help you to get the situation under control as quickly as possible.
 
-Die in deinem Account hinterlegte E-Mail Adresse kann bei bestätigten Accounts nur geändert werden, wenn beide E-Mail Adressen (aktuelle E-Mail Adresse und gewünschte neue Adresse) die Änderung bestätigen. Entsprechend kannst du, sobald dir Ungereimtheiten aufallen, sofort dein Passwort mit deiner aktuellen E-Mail Adresse zurücksetzen. Bei einer Passwortänderung werden alle bestehenden Sessions aufgefordert, sich neu einzuloggen. Dadurch solltest du den Angreifer schnell aussperren können.
+The email address stored in your account can only be changed for confirmed accounts if both email addresses (current email address and desired new address) confirm the change. Accordingly, as soon as you notice any inconsistencies, you can immediately reset your password with your current email address. If a password is changed, all existing sessions are asked to log in again. This should allow you to quickly lock out the attacker.
 
-Bei Unklarheiten und sonstigen Fragen, sind wir im Support natürlich immer gerne für dich da um im Notfall zu helfen, wo wir können.
+In the case of ambiguities and other questions, we are of course always happy to be there for you in support to help in an emergency where we can.
