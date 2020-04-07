@@ -186,7 +186,8 @@
         "sidebar_label": "Partner Guide"
       },
       "paymentoptions": {
-        "title": "paymentoptions"
+        "title": "Payment Options",
+        "sidebar_label": "Payment Options"
       },
       "ragemp_installpackages": {
         "title": "Install Packages",
