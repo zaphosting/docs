@@ -1,5 +1,5 @@
 ---
-id: domains_general_domain_info
+id: domain_general_domain_info
 title: Was ist eine Domain?
 sidebar_label: Was ist eine Domain?
 ---
