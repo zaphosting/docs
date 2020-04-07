@@ -24,13 +24,14 @@ Neben **.net** gibt es natürlich noch viele weitere Domainendungen wie **.com**
 
 ## Domain's bei ZAP-Hosting.com
 
-Nachdem deine Domain bereitgestellt wurde findest du diese auf der Startseite in deinem Interface.
+###Nachdem deine Domain bereitgestellt wurde findest du diese auf der Startseite in deinem Interface.
 
 
 ![](https://puu.sh/FutQB/428307294e.png)
 
 
-Dort kannst du deine Domain anklicken und gelangst so zu deinen Domaineinstellungen.
+
+###Dort kannst du deine Domain anklicken und gelangst so zu deinen Domaineinstellungen.
 
 ![](https://puu.sh/FutVG/5ff847ec9d.png)
 
