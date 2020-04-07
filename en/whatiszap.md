@@ -10,25 +10,24 @@ Here you can find instructions and explanations for various products, games or t
 
 In the left sidebar all Doc entries can be viewed and opened:
 
-![](https://i.imgur.com/LkJz0YF.png)
+![](https://screensaver01.zap-hosting.com/index.php/apps/files_sharing/publicpreview/wk3KQHNyfrEMHdQ?x=1360&y=307&a=true&file=chrome_4QflWifpEX.png&scalingup=0)
 
 All entries also have a right sidebar, with which you can quickly find certain parts of the entry:
 
-
-![](https://i.imgur.com/Tj9Ls48.png)
-
-
-Wenn du einen Fehler findest, ein Bild korrigieren oder gar einen eigenen Eintrag schreiben willst, kannst du das bei uns über unsere [GitHub Repository](https://github.com/zap-docs/docs) machen.
-
-## Aufbau & Tools
-
-Wichtig ist, dass Anleitungen in einem einheitlichen Stil geschrieben werden. Dabei ist sowohl eine einwandfrei Rechtschreibung, als auch die Benutzung von Formatierungen (Codeblöcken, Screenshots, Einrückungen, Fonts, etc.) und Emojis wichtig für die Übersicht.
+![](https://screensaver01.zap-hosting.com/index.php/apps/files_sharing/publicpreview/x3DdtocA5bMwf27?x=1360&y=307&a=true&file=chrome_SYWRZeiDbi.png&scalingup=0)
 
 
-### 📚 Inhaltsverzeichnis
+If you find a mistake, want to correct an image, or even write your own entry, you can do so through our [GitHub Repository](https://github.com/zap-docs/docs).
 
-Auf der rechten Seite neben Anleitungen ist ein Inhaltsverzeichnis zu finden, über das man schnell an die gewünschte Stelle springen kann.
-Dabei werden h2 und h3 Tags berücksichtigt, die so verwendet werden:
+## Structure & Tools
+
+It is important that instructions are written in a consistent style. This includes proper spelling as well as the use of formatting (code blocks, screenshots, indentations, fonts, etc.) and emojis.
+
+
+### 📚 Table of contents
+
+On the right hand side next to Instructions you will find a table of contents which you can use to quickly jump to the desired location.
+This includes h2 and h3 tags that are used in this way:
 
 h2 Tag:
 ``` 
@@ -39,43 +38,43 @@ h3 Tag:
 ### Text
 ```
 
-Zum Verständnis nochmal:
+For understanding once again:
 ```
-(h1) # Wird nicht in der Liste  angezeigt
-(h2) ## Wird Angezeigt
-(h3) ### Wird als Sub-Eintrag unter dem oberen angezeigt
-(h4) #### Wird nicht in der Liste  angezeig
+(h1) # Not displayed in the list
+(h2) ## Displayed
+(h3) ### Is displayed as a sub-entry below the upper one
+(h4) #### Not displayed in the list
 ```
 
 ### 😀 Emojis
 
-In den Inhaltsverzeichnissen sollen bei allen h3 Tags Emojis verwendet werden.
-Lade Dir dazu einen Emoji Picker für Firefox runter. Beispiel: 
+In the tables of contents emojis should be used for all h3 tags.
+Download an Emoji Picker for Firefox. Example:
 https://addons.mozilla.org/de/firefox/addon/awesome-emoji-picker/
 
-### ✏️ Sprachkorrektur
+### ✏️ Speech Correction
 
-Lade Dir ein Rechtschreib-/ Grammatiktools runter, bevor du Anleitungen schreibst.
-Für Firefox: https://addons.mozilla.org/de/firefox/addon/languagetool/
+Download a spelling/grammar tools before writing instructions.
+For Firefox: https://addons.mozilla.org/de/firefox/addon/languagetool/
 
-Dabei kannst du den Text mit auswählen und mit *rechtsklick* prüfen:
+You can select the text with and check it with *right click*:
 ![](https://screensaver01.zap-hosting.com/index.php/apps/files_sharing/publicpreview/p6yfWF9jAYbcN8z?x=1920&y=553&a=true&file=firefox_j3QnCDKL5O.png&scalingup=0)
 
 ### 📑 Syntax
 
-*Kursiv schreiben*
+*Italicizing*
 ```
 *Text*
 ``` 
 
 
-**Bold schreiben**
+**Bold Text**
 ```
 **Text**
 ``` 
 
 
-**Unsortierte Liste**
+**Unordered List**
 ```
 * Item 1
 * Item 2
@@ -84,7 +83,7 @@ Dabei kannst du den Text mit auswählen und mit *rechtsklick* prüfen:
 ```
 
 
-**Sortierte Liste**
+**Ordered List**
 ```
 1. Item 1
 1. Item 2
@@ -98,104 +97,106 @@ Dabei kannst du den Text mit auswählen und mit *rechtsklick* prüfen:
 ```
 ![](LinkZumBild)
 ```
-Bitte benutze den ZAP-Hosting Screensaver um hier Bilder hochzuladen.
+Please use the ZAP-Hosting Screensaver to upload pictures here.
 
 
->Blockquotes (Zitate) - bzw. nutzen wir gerne als Tipp, sollte bei jeder Anleitung die Übersicht verbessern und darf auch ruhig mehrzeilig sein.
+>Blockquotes (Quotes) - or. we like to use Quotes as a tip, they should improve the overview in every manual and can also be multiline.
 ```
-> Mein tolles
-> Zitat
+> MY wonderful
+> Quote
 ```
 
 
-`Inline code geht so:`
+`Inline code goes like this:`
 ```
 `Code`
 ```
 
 
-## Eine Seite Verändern
+## Modifying a page
 
-Um eine existierende Seite zu verändern kannst du oben rechts auf den "Edit" Button klicken:
+To change an existing page you can click on the "Edit" button in the upper right corner:
 
-![](https://i.imgur.com/S7Jga7m.png)
+![](https://screensaver01.zap-hosting.com/index.php/apps/files_sharing/publicpreview/7iPWKbogzqTTtqk?x=1360&y=307&a=true&file=chrome_pqrvYR1tbN.png&scalingup=0)
 
-Diese leitet dich auf die Source-Datei des Eintrags:
+This leads you to the source file of the entry:
 
-![](https://i.imgur.com/XXLwOus.png)
+![](https://screensaver01.zap-hosting.com/index.php/apps/files_sharing/publicpreview/Bkem98oMWLpLqi5?x=1360&y=307&a=true&file=chrome_wBZXk8uS3l.png&scalingup=0)
 
-Hier kannst du nun auf den "Bearbeiten" Button klicken, dies wird eine Kopie der gesamten Docs auf deinem Github Konto erstellen:
+Here you can now click on the "Edit" button, this will create a copy of all the docs on your Github account:
 
-![](https://i.imgur.com/FKjvhW6.png)
+![](https://screensaver01.zap-hosting.com/index.php/apps/files_sharing/publicpreview/iG4zk59H4iPfqGP?x=1360&y=307&a=true&file=chrome_b6Zarqi5ZF.png&scalingup=0)
 
-![](https://i.imgur.com/aoD4odD.png)
+![](https://screensaver01.zap-hosting.com/index.php/apps/files_sharing/publicpreview/BX4Eo5C7Gm32PZa?x=1360&y=307&a=true&file=chrome_3Dl8GmZLg3.png&scalingup=0)
 
-### 🔎 Text suchen
+### 🔎 Text search
 
-Mit der Maus in den Quelltext klicken und danach *STRG + F* drücken
+Click with the mouse in the source code and then press *Ctrl + F*
 
-![](https://screensaver01.zap-hosting.com/index.php/apps/files_sharing/publicpreview/SYN5pdmNjDm5fkX?x=1920&y=553&a=true&file=firefox_Dn5cN39pkU.png&scalingup=0)
+![](https://screensaver01.zap-hosting.com/index.php/apps/files_sharing/publicpreview/6ZNXnCPz7bJyN9L?x=1360&y=307&a=true&file=chrome_vrme2EhhhD.png&scalingup=0)
 
 
-### 🥅 Fertigstellen
+### 🥅 Finalization
 
-Gehe sicher, dass du deine Änderung auch richtig beschreibst, damit wir sofort wissen, worum es geht:
+Make sure that you describe your change correctly so that we know immediately what it is about:
 
-![](https://i.imgur.com/brIixcL.png)
+![](https://screensaver01.zap-hosting.com/index.php/apps/files_sharing/publicpreview/xQFx9mGga944H5e?x=1360&y=307&a=true&file=chrome_AnU3cUQ4g6.png&scalingup=0)
 
-Wenn du deine Änderungen vorgenommen hast, kannst du nun auf "**Propose File Change**" Klicken, dies bringt dich zum Pull Request Preview, hier kannst du deine Änderungen noch mal überschauen:
+When you have made your changes, you can now click on "**Propose File Change**", this will take you to the Pull Request Preview, here you can review your changes again:
 
-![](https://i.imgur.com/22bHojQ.png)
+![](https://screensaver01.zap-hosting.com/index.php/apps/files_sharing/publicpreview/JPngB6oxwLxf5FS?x=1360&y=307&a=true&file=chrome_epV68uY37A.png&scalingup=0)
 
-Wenn du dir sicher bist, dass alles korrekt ist, kannst du nun auf "**Create Pull Request**" Klicken
+If you are sure that everything is correct, you can now click on "**Create Pull Request**"
 
 ![](https://i.imgur.com/gOstBbM.png)
 
-![](https://i.imgur.com/4SdxcHb.png)
+![](https://screensaver01.zap-hosting.com/index.php/apps/files_sharing/publicpreview/5CCdc8gAP4GieoQ?x=1360&y=307&a=true&file=chrome_i8iw1rmiFp.png&scalingup=0)
 
 
-Nun wurde deine Pull Request erstellt.
+Now your Pull Request has been created.
 
-> Bevor diese in das Wiki integriert wird, muss diese auf Richtigkeit überprüft werden, dazu erhältst du ggf. eine Antwort auf den Pull Request oder eine E-Mail vom System.
+> Before it is integrated into the Wiki, it must be checked for correctness. For this purpose you may receive a response to the pull request or an e-mail from the system.
 
-![](https://i.imgur.com/M4VZpra.png)
+![](https://screensaver01.zap-hosting.com/index.php/apps/files_sharing/publicpreview/TW9kgmKCWHYJkdt?x=1360&y=307&a=true&file=chrome_Y9hyUdNNUr.png&scalingup=0)
 
-Wenn du weitere Änderungen vornehmen willst, kannst du auf deine Branch öffnen, und dort weitere Dateien ändern, diese werden automatisch in die Pull Request integriert:
+If you want to make further changes, you can open to your branch and change more files there, they will be automatically integrated into the Pull Request:
 
-![](https://i.imgur.com/Tush4SB.png)
+![](https://screensaver01.zap-hosting.com/index.php/apps/files_sharing/publicpreview/YMJc97JjHgJcrEg?x=1360&y=307&a=true&file=chrome_EHSDX3cDWM.png&scalingup=0)
 
 
-## Eine Neue Seite Erstellen
+## Creating a new page
 
 ### 🗃️ Repository klonen
 
-Um eine neue Seite zu erstellen muss die Repository Geforked werden:
+To create a new page, the repository must be forked:
 
 ![](https://i.imgur.com/IfVrnoY.png)
 
-Dieser fork ist eine 1:1 Kopie der Repository auf deinen eigenen account, worauf Änderungen gemacht werden können.
+This fork is a 1:1 copy of the repository on your own account, where changes can be made.
+
+> If your fork already exists but is no longer up to date, it must be recreated, this is done in [the following video](https://screensaver01.zap-hosting.com/index.php/s/JyXci8T6ziCk424/)
 
 ![](https://i.imgur.com/lIyCWc2.png)
 
-### 🏴󠁧󠁢󠁥󠁮󠁧󠁿 Sprache auswählen
+### 🏴󠁧󠁢󠁥󠁮󠁧󠁿 Language selection
 
-Um eine neue datei zu erstellen, öffne zuerst den ordner der Sprache, für welche du die Seite erstellen willst (in unserem beispiel ist es **de**).
+To create a new file, first open the folder of the language you want to create the page for (in our example it is **en**).
 
 ![](https://i.imgur.com/EBXMRts.png)
 
-Hier sind alle daten der Docs gespeichert, um eine neue zu erstellen, klicke auf "Create new file"
+Here all data of the Docs are stored, to create a new one, click on "Create new file"
 
 ![](https://i.imgur.com/SaPdUqx.png)
 
-### 📁 Dateiname
+### 📁 Filename
 
-Gebe der datei einen namen, beachte dafür die kategoriesierung, wenn es einen wikieintrag für minecraft ist, sollte die datei mit "minecraft_" anfangen, z.b.
+Give the file a name, pay attention to the categorization, if it is a wiki entry for Minecraft, the file should start with "minecraft_", e.g.
 
 ```
 minecraft_configure
 ```
 
-Außerdem muss die dateiendung immer `.md` sein, das endresultat sieht dann so aus:
+Also, the file extension must always be 'md', the end result will look like this:
 
 ```
 minecraft_configure.md
@@ -203,17 +204,17 @@ minecraft_configure.md
 
 ![](https://i.imgur.com/BaxQ8ZA.png)
 
-Nun müssen die Metadaten der Seite erstellt werden, benutze dafür folgendes beispiel:
+Now the metadata of the page must be created, use the following example:
 
 ```
 ---
-id: seitenname
-title: Seiten-Titel
-sidebar_label: Seiten-Titel
+id: pagename
+title: Page-Title
+sidebar_label: Page-Title
 ---
 ```
 
-In unserem beispiel würde die datei dann so aussehen:
+In our example the file would look like this:
 
 ```
 ---
@@ -223,39 +224,39 @@ sidebar_label: Server Properties
 ---
 ```
 
-### 📡 Zweite Sprache
+### 📡 Second Language
 
-Nachdem die Seite geschrieben wurde, muss diese nun im "en" ordner erneut erstellt, und übersetzt werden.
+After the page has been written, it must now be recreated in the "en" folder and translated.
 
-> Beachte: Seiten müssen **immer** eine Englische und Deutsche Version haben.
+> Note: pages must **always** have an English and German version.
 
 ### 📚 Navigation
 
-Wenn beide versionen erstellt wurden, muss deine neue Seite nur noch in die sidebar.json eingetragen werden:
+Once both versions have been created, all you need to do is add your new page to sidebar.json:
 
 ![](https://i.imgur.com/YyutX8M.png)
 
-> Die sidebars.json Datei beschriebt, wo genau in der linken Seitenleiste die Artikel zu finden sind, und folgt dem JSON Format.
+> The sidebars.json file describes where exactly in the left sidebar the articles are located and follows the JSON format.
 
-um die Seite nun bei Minecraft einzufügen, musst du die Minecraft Kategorie finden, und dir überlegen in welche Kategorie sie passt:
+To add the page to Minecraft, you need to find the Minecraft category and decide which category it fits into:
 
 ![](https://i.imgur.com/C5XPt7b.png)
 
-Wenn du dir nicht sicher bist, ob eine existierende Subkategorie Passt, kann auch eine neue erstellt werden, dazu benutze folgendes beispiel:
+If you are not sure if an existing subcategory fits, a new one can be created using the following example:
 
 ```json
 {
  "type":"subcategory",
- "label":"Name der Subkategorie",
+ "label":"Name of subcategory",
  "ids":[
 	"ids",
-    "der",
-    "seiten"
+    "the",
+    "pages"
  ]
 },
 ```
 
-In unserem beispiel wäre das wie folgt:
+In our example this would be as follows:
 
 ```json
 {
@@ -268,9 +269,9 @@ In unserem beispiel wäre das wie folgt:
 ```
 
 
-Wenn du bereits eine Passende Kategorie hast, kannst du diese einfach neu einfügen:
+If you already have a suitable category, you can simply add it again:
 
-Bei Subkategorien:
+For subcategories:
 ```json
 {
     "type":"subcategory",
@@ -283,47 +284,47 @@ Bei Subkategorien:
 },
 ```
 
-Bei normalen Kategorien:
+For normal categories:
 ```json
 "Minecraft":[
     "minecraft_configure"
 ]
 ```
-### 🥅 Fertigstellen
+### 🥅 Finalization
 
-Damit ist deine neue Seite erstellt und einsatzbereit!
+Now your new page is created and ready to use!
 
-Nun kannst du ein Pull Request erstellen:
+Now you can create a Pull Request:
 
-Öffne die Originale zap-docs Repo und öffne das "Pull Requests" Menü:
+Open the original zap-docs repo and open the "Pull Requests" menu:
 
 ![](https://i.imgur.com/uxTnmvb.png)
 
-Auf der Rechten seite, klicke auf "New Pull Request" und wähle deinen eigenen Fork wie folgt:
+On the right side click on "New Pull Request" and select your own fork as follows:
 
 ![](https://i.imgur.com/INPzQwX.png)
 
-1. Klicke auf "compare across forks"
-2. Auf der rechten Seite, wähle deinen Fork aus, dieser heißt im normalfall DeinUsername/docs
-3. Klicke auf "Create Pull Request"
+1. Click on "compare across forks"
+2. On the right side, select your fork, this is normally called your username/docs
+3. Click on "Create Pull Request"
 
 
-![](https://i.imgur.com/22bHojQ.png)
+![](https://screensaver01.zap-hosting.com/index.php/apps/files_sharing/publicpreview/JPngB6oxwLxf5FS?x=1360&y=307&a=true&file=chrome_epV68uY37A.png&scalingup=0)
 
-Wenn du dir sicher bist, dass alles korrekt ist, kannst du nun auf "**Create Pull Request**" Klicken
+If you are sure that everything is correct, you can now click on "**Create Pull Request**"
 
 ![](https://i.imgur.com/gOstBbM.png)
 
-![](https://i.imgur.com/4SdxcHb.png)
+![](https://screensaver01.zap-hosting.com/index.php/apps/files_sharing/publicpreview/5CCdc8gAP4GieoQ?x=1360&y=307&a=true&file=chrome_i8iw1rmiFp.png&scalingup=0)
 
-Nun wurde deine Pull Request erstellt.
+Now your Pull Request has been created.
 
-> Bevor diese in das Wiki integriert wird, muss diese auf Richtigkeit überprüft werden, dazu erhältst du ggf. eine Antwort auf den Pull Request oder eine E-Mail vom System.
+> Before it is integrated into the Wiki, it must be checked for correctness. For this purpose you may receive a response to the pull request or an e-mail from the system.
 
-![](https://i.imgur.com/M4VZpra.png)
+![](https://screensaver01.zap-hosting.com/index.php/apps/files_sharing/publicpreview/TW9kgmKCWHYJkdt?x=1360&y=307&a=true&file=chrome_Y9hyUdNNUr.png&scalingup=0)
 
-Wenn du weitere Änderungen vornehmen willst, kannst du auf deinen Fork öffnen, und dort weitere Dateien ändern, diese werden automatisch in die Pull Request integriert:
+If you want to make further changes, you can open on your fork and change other files there, they will be automatically integrated into the Pull Request:
 
-![](https://i.imgur.com/Tush4SB.png)
+![](https://screensaver01.zap-hosting.com/index.php/apps/files_sharing/publicpreview/YMJc97JjHgJcrEg?x=1360&y=307&a=true&file=chrome_EHSDX3cDWM.png&scalingup=0)
 
-Sobald deine Pull Request Akzeptiert wurde, siehst du diese dann auf docs.zap-hosting.com!
+As soon as your Pull Request is accepted, you will see it on docs.zap-hosting.com!
