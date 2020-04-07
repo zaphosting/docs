@@ -153,6 +153,10 @@
         "title": "Server down - What now?",
         "sidebar_label": "Server down - What now?"
       },
+      "gameswitch": {
+        "title": "Spielwechsel mit der Gameservercloud",
+        "sidebar_label": "Spielwechsel"
+      },
       "minecraft_addop": {
         "title": "OP-Permissions",
         "sidebar_label": "OP-Permissions"
@@ -176,6 +180,13 @@
       "minecraft_worlds": {
         "title": "Worlds",
         "sidebar_label": "Worlds"
+      },
+      "partner-guide": {
+        "title": "Partner Guide",
+        "sidebar_label": "Partner Guide"
+      },
+      "paymentoptions": {
+        "title": "paymentoptions"
       },
       "source_metamod_addadmins": {
         "title": "Become an admin",
@@ -208,6 +219,10 @@
       "vserver_linux_plesk": {
         "title": "Plesk",
         "sidebar_label": "Plesk"
+      },
+      "vserver_linux_ssh": {
+        "title": "Erstzugriff (SSH)",
+        "sidebar_label": "Erstzugriff (SSH)"
       },
       "vserver_root_unterschied": {
         "title": "Unterschied Rootserver / V-Server",
