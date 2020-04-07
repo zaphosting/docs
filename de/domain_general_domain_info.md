@@ -12,8 +12,6 @@ Du kannst eine Domain dazu benutzen um zum Beispiel eine Website online erreichb
 außerdem kannst du eine Domain auf einen Game- oder TeamSpeak 3 Server weiterleiten und diesen 
 dann ebenfalls mit einem leicht zu merkenden Namen online erreichen. Wie genau du das anstellst findest du links Im Menü. :)
 
-## Aufbau einer Domain
-
 
 ### Subdomains
 
@@ -33,7 +31,7 @@ Eine Domain unterscheidet sich bereits im Aussehen von einer IP Adresse. Währen
 richtigen Namen und eine entsprechende Domainendung, zum Beispiel fivem.net. Hierbei wäre **fivem** der Name der Domain und **.net** die Domainendung.
 Neben **.net** gibt es natürlich noch viele weitere Domainendungen wie **.com** oder **.de**.
 
-Hier erfährst du wie du eine Domain mieten kannst: [](domain_order.md)
+### Hier erfährst du wie du eine Domain mieten kannst: [](domain_order.md)
 
 
 
