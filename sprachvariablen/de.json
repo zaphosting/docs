@@ -108,6 +108,10 @@
         "title": "Resourcen Installieren",
         "sidebar_label": "Resourcen Installieren"
       },
+      "fivem_mods_installreplace": {
+        "title": "Install Replace Carmods",
+        "sidebar_label": "Install Replace Carmods"
+      },
       "fivem_rcon": {
         "title": "Rcon Benutzen",
         "sidebar_label": "Rcon Benutzen"
@@ -148,9 +152,13 @@
         "title": "Server down - was nun?",
         "sidebar_label": "Server down - was nun?"
       },
+      "gameswitch": {
+        "title": "Spielwechsel mit der Gameservercloud",
+        "sidebar_label": "Spielwechsel"
+      },
       "minecraft_addop": {
-        "title": "OP-Rechte",
-        "sidebar_label": "OP-Rechte"
+        "title": "OP-Permissions",
+        "sidebar_label": "OP-Permissions"
       },
       "minecraft_default_config": {
         "title": "Server Config",
@@ -171,6 +179,18 @@
       "minecraft_worlds": {
         "title": "Welten",
         "sidebar_label": "Welten"
+      },
+      "partner-guide": {
+        "title": "Partner Guide",
+        "sidebar_label": "Partner Guide"
+      },
+      "paymentoptions": {
+        "title": "Zahlungsoptionen",
+        "sidebar_label": "Zahlungsoptionen"
+      },
+      "ragemp_installpackages": {
+        "title": "Pakete Installieren",
+        "sidebar_label": "Pakete Installieren"
       },
       "source_metamod_addadmins": {
         "title": "Admin werden",
@@ -203,6 +223,10 @@
       "vserver_linux_plesk": {
         "title": "Plesk",
         "sidebar_label": "Plesk"
+      },
+      "vserver_linux_ssh": {
+        "title": "Erstzugriff (SSH)",
+        "sidebar_label": "Erstzugriff (SSH)"
       },
       "vserver_root_unterschied": {
         "title": "Unterschied Rootserver / V-Server",
@@ -246,6 +270,7 @@
       "Gameserver - General": "Gameserver - General",
       "Minecraft": "Minecraft",
       "FiveM": "FiveM",
+      "RageMP": "RageMP",
       "Source Games": "Source Games",
       "ArmA 3": "ArmA 3",
       "vServer & Rootserver": "vServer & Rootserver",
