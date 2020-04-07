@@ -24,6 +24,7 @@ Neben **.net** gibt es natürlich noch viele weitere Domainendungen wie **.com**
 ## Bestellung einer Domain
 
 Zur Domainbestellung bei ZAP gelangst du hier: [Domain konfigurieren und bestellen](https://zap-hosting.com/de/shop/product/domain/)
+
 Im Feld **meine-domain.de** kannst du nun nach deinem Domainnamen suchen und prüfen, ob dieser verfügbar oder vielleicht bereits vergeben ist. Domains werden immer ein Jahr im Voraus bezahlt und müssen dann entsprechend gekündigt oder verlängert werden.
 
 ![](https://puu.sh/FuuuD/33c112c6e0.png)
