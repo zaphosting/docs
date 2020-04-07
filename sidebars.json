@@ -20,12 +20,14 @@
 		  "account_partner_system",
 		  "account_friends",
 		  "account_cashbox",
+		  "paymentoptions",
 		  "account_usermanagement",
 		  "account_vouchers",
 		  "account_donations"
 	   ],
 	   "Gameserver - General":[
 		  "gameserver_resourcelimit",
+		  "gameswitch",
 		  {
 			 "type":"subcategory",
 			 "label":"Databases",
