@@ -188,6 +188,9 @@
       "paymentoptions": {
         "title": "paymentoptions"
       },
+      "ragemp_installpackages": {
+        "title": "ragemp_installpackages"
+      },
       "source_metamod_addadmins": {
         "title": "Become an admin",
         "sidebar_label": "Become an admin"
@@ -266,6 +269,7 @@
       "Gameserver - General": "Gameserver - General",
       "Minecraft": "Minecraft",
       "FiveM": "FiveM",
+      "RageMP": "RageMP",
       "Source Games": "Source Games",
       "ArmA 3": "ArmA 3",
       "vServer & Rootserver": "vServer & Rootserver",
