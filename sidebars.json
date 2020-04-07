@@ -19,17 +19,26 @@
 		  "account_termination_and_cancellation_period",
 		  "account_2factor",
 		  "account_backup_storage",
-		  "account_partner_system",
 		  "account_friends",
 		  "account_cashbox",
+		  "paymentoptions",
 		  "account_usermanagement",
 		  "account_vouchers",
 		  "account_donations",
-		  "account_security"
+		  "account_security",
+		  {
+			  "type":"subcategory",
+			  "label":"Partner",
+			  "ids":[
+				"account_partner_system",
+				"partner-guide"
+			  ]
+		  }
 	   ],
 	   "Gameserver - General":[
 		  "gameserver_cloudvslifetime",
 		  "gameserver_resourcelimit",
+		  "gameswitch",
 		  {
 			 "type":"subcategory",
 			 "label":"Databases",
@@ -145,6 +154,7 @@
 			 "type":"subcategory",
 			 "label":"Linux",
 			 "ids":[
+				"vserver_linux_ssh",
 				"vserver_linux_java",
 				"vserver_linux_docker",
 				"vserver_linux_plesk",
