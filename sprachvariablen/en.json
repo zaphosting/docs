@@ -189,7 +189,8 @@
         "title": "paymentoptions"
       },
       "ragemp_installpackages": {
-        "title": "ragemp_installpackages"
+        "title": "Install Packages",
+        "sidebar_label": "Install Packages"
       },
       "source_metamod_addadmins": {
         "title": "Become an admin",
