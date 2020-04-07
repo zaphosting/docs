@@ -8,7 +8,7 @@ sidebar_label: FTP Dateizugriff
 
 Um eine Verbindung mit dem Server herzustellen, muss die **IP-Adresse(FTP Server)**, der **Username** und das **Passwort** eingegeben werden. Diese Daten können unter FTP-Browser eingesehen werden. Der Port ist immer **21**, dieser wird aber in der Regel automatisch eingetragen.
 
-![](https://i.imgur.com/BbgyBPS.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/LFGaYCsiQwEJCxz/preview)
 
 ## Über FileZilla verbinden
 ### Richtige FileZilla Version
@@ -20,11 +20,11 @@ Um eine Verbindung mit dem Server herzustellen, muss die **IP-Adresse(FTP Server
 
 Wenn die Verbindung das erste Mal hergestellt wird, fragt das Programm, ob das Passwort gespeichert werden soll:
 
-![](https://i.imgur.com/KnvtBVV.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/F7jCHBDtjndmwra/preview)
 
 Ebenfalls wird gefragt, ob diese Verbindung zugelassen werden soll, da das **Passwort** im Klartext übermittelt wird:
 
-![](https://i.imgur.com/8fd1uMu.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/bAK2PBoJixQ4a63/preview)
 
 ### FileZilla Übersicht
 
@@ -32,7 +32,7 @@ Wenn die Verbindung hergestellt ist, kann man alle Daten einsehen und bearbeiten
 
 > Wichtig ist, dass der Server offline sein muss, wenn man die Daten bearbeitet, da sie sonst nicht übernommen werden oder der Server crashen wird.
 
-![](https://i.imgur.com/y0KBKma.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/q4Cjfff5o8WbiBF/preview)
 
 
 ### Dateien hochladen
@@ -51,7 +51,7 @@ WinSCP [Download](https://winscp.net/eng/index.php).
 
 Zum Verbinden muss das Übertragungsprotokoll auf FTP gestellt werden.
 
-![](https://i.imgur.com/OgQ5AuV.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/PYeJS74JKFDaNwc/preview)
 
 ### WinSCP Übersicht
 
@@ -59,7 +59,7 @@ Auf der **linken Seite** sind die **eigenen Dateien** des Computers. Auf der **r
 
 > Wichtig ist, dass der Server offline sein muss, wenn man die Daten bearbeitet, da sie sonst nicht übernommen werden oder der Server crashen wird.
 
-![](https://i.imgur.com/OJ2IVZo.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/RroJDQDG5rqEtAH/preview)
 
 ### Dateien hochladen
 

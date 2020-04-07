@@ -33,6 +33,14 @@
         "title": "Partner System",
         "sidebar_label": "Partner System"
       },
+      "account_security": {
+        "title": "Sicherheit",
+        "sidebar_label": "Sicherheit"
+      },
+      "account_termination_and_cancellation_period": {
+        "title": "Termination and Cancellation",
+        "sidebar_label": "Termination and Cancellation"
+      },
       "account_usermanagement": {
         "title": "User Management",
         "sidebar_label": "User Management"
@@ -41,9 +49,25 @@
         "title": "Coupons & Codes",
         "sidebar_label": "Coupons & Codes"
       },
+      "arma3_serverconfig": {
+        "title": "Server.cfg",
+        "sidebar_label": "Server.cfg"
+      },
       "beispiel": {
         "title": "Beispiel-Eintrag",
         "sidebar_label": "Beispiel Eintrag"
+      },
+      "community_info": {
+        "title": "Community offers",
+        "sidebar_label": "Community offers"
+      },
+      "csgo_gotv": {
+        "title": "GOTV",
+        "sidebar_label": "GOTV"
+      },
+      "docs_intern": {
+        "title": "Docs Erstellen -- Intern",
+        "sidebar_label": "Docs Erstellen -- Intern"
       },
       "domain_easydns": {
         "title": "EasyDNS",
@@ -81,9 +105,29 @@
         "title": "Dashboard",
         "sidebar_label": "Dashboard"
       },
-      "fivem_windowsorlinux": {
-        "title": "Windows or Linux",
-        "sidebar_label": "Windows or Linux"
+      "fivem_installresources": {
+        "title": "Resource Installation",
+        "sidebar_label": "Resource Installation"
+      },
+      "fivem_mods_installreplace": {
+        "title": "Install replace carmods",
+        "sidebar_label": "Install replace carmods"
+      },
+      "fivem_rcon": {
+        "title": "Use Rcon",
+        "sidebar_label": "Use Rcon"
+      },
+      "fivem_sql_file_import": {
+        "title": "SQL File Import",
+        "sidebar_label": "SQL File Import"
+      },
+      "fivem_useprofiler": {
+        "title": "Use Profiler",
+        "sidebar_label": "Use Profiler"
+      },
+      "gameserver_cloudvslifetime": {
+        "title": "Cloud vs. Lifetime",
+        "sidebar_label": "Cloud vs. Lifetime"
       },
       "gameserver_databases_pma": {
         "title": "PHPMyAdmin",
@@ -105,9 +149,17 @@
         "title": "Restartplaner",
         "sidebar_label": "Restartplaner"
       },
+      "gameserver_server_down_what_now": {
+        "title": "Server down - What now?",
+        "sidebar_label": "Server down - What now?"
+      },
       "minecraft_addop": {
         "title": "OP-Permissions",
         "sidebar_label": "OP-Permissions"
+      },
+      "minecraft_default_config": {
+        "title": "Server Config",
+        "sidebar_label": "Server Config"
       },
       "minecraft_direwolf20": {
         "title": "Direwolf20",
@@ -117,9 +169,17 @@
         "title": "Plugin Uploader",
         "sidebar_label": "Plugin Uploader"
       },
+      "minecraft_rcon": {
+        "title": "RCON",
+        "sidebar_label": "RCON"
+      },
       "minecraft_worlds": {
         "title": "Worlds",
         "sidebar_label": "Worlds"
+      },
+      "partner-guide": {
+        "title": "Partner Guide",
+        "sidebar_label": "Partner Guide"
       },
       "source_metamod_addadmins": {
         "title": "Become an admin",
@@ -137,7 +197,11 @@
         "title": "Docker",
         "sidebar_label": "Docker"
       },
-      "vserver_linux_installjava": {
+      "vserver_linux_gs_interface": {
+        "title": "Gameserver / Ts 3 Server Interface",
+        "sidebar_label": "Gameserver / Ts 3 Server Interface"
+      },
+      "vserver_linux_java": {
         "title": "Java installieren",
         "sidebar_label": "Java installieren"
       },
@@ -148,6 +212,18 @@
       "vserver_linux_plesk": {
         "title": "Plesk",
         "sidebar_label": "Plesk"
+      },
+      "vserver_root_unterschied": {
+        "title": "Unterschied Rootserver / V-Server",
+        "sidebar_label": "Unterschied Rootserver / V-Server"
+      },
+      "vserver_vnc": {
+        "title": "What is VNC?",
+        "sidebar_label": "What is  VNC?"
+      },
+      "vserver_windows_addip": {
+        "title": "Zusätzliche IPs hinzufügen",
+        "sidebar_label": "Zusätzliche IPs hinzufügen"
       },
       "vserver_windows_userdp": {
         "title": "Erstzugriff (RDP)",
@@ -180,6 +256,7 @@
       "Minecraft": "Minecraft",
       "FiveM": "FiveM",
       "Source Games": "Source Games",
+      "ArmA 3": "ArmA 3",
       "vServer & Rootserver": "vServer & Rootserver",
       "Webspace & Domains": "Webspace & Domains"
     }

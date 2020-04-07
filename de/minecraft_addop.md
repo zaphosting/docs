@@ -11,11 +11,11 @@ Damit man sich selbst oder auch anderen Spielern OP-Recht zuteilen kann, muss ma
 
 Um die Konsole zu öffnen, muss zunächst der jeweilige Server über das **Dashboard** aufgerufen werden. Im Interface des Servers angekommen ist links in der Liste unter dem Reiter "INFORMATIONEN" der Eintrag "Live Konsole" zu finden, worüber die Konsole geöffnet werden kann.
 
-![](https://i.imgur.com/iueWbsT.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/XMHYMFodgEwQfa7/preview)
 
 Nun sollte ein dunkles Fenster zu sehen sein, was die Konsole des Servers darstellt. Darunter ist ein Eingabefeld zu erkennen, wo jegliche Befehle an die Konsole übergeben werden, sodass diese dort ausgeführt werden. Um nun die OP-Rechte zu setzten, muss in das Eingabefeld der Befehl "op <Spieler>" (ohne "/") eingetragen werden und anschließend auf den grünen Button "Befehl senden" geklickt werden, damit der Befehl an die Konsole gesendet wird.
 
-![](https://i.imgur.com/zB5P0WQ.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/kW3LgMYk2wpGmxX/preview)
 
 Nach wenigen Sekunden sollte der gesendete Befehl in der Konsole erscheinen, worauf die Meldung "Made <Spieler> a server operator" kommt, welche den Vorgang als erfolgreich markiert. Nun hat der jeweilige Spieler alle OP-Rechte und kann beispielsweise den Spielmodus wechseln.
 
@@ -40,10 +40,10 @@ Um das Level eines Spielers anzupassen, muss dieser zuerst zum Operator ernannt 
 
 Sobald die Verbindung zum Server mittels FTP hergestellt worden ist, muss in das jeweilige Verzeichnis des Servers navigiert werden. Nun muss in unserem Fall bei FileZilla ein Rechtsklick auf die Datei gemacht werden und in dem erschienenen Menü auf "Ansehen/Bearbeiten" geklickt werden.
 
-![](https://i.imgur.com/qW2NHJQ.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/MEmSTsEdzmmLf9P/preview)
 
 Nun muss bei dem gewünschten Spieler der Wert von "level" auf das gewünschte Level gesetzt werden, worauf die Datei mit **STRG+S** gespeichert werden muss.
 
-![](https://i.imgur.com/bq4seRq.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/QwXEcs4BJpsWzKK/preview)
 
 Damit die Änderungen übernommen werden, ist ein Neustart des Servers nötig, was mit dem Halten des roten Stop-Buttons im Interface des Servers möglich ist.

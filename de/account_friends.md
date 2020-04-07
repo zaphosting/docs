@@ -68,13 +68,21 @@ Wenn du alles ausgefüllt hast, klicke auf "Erstellen", um das Banner zu erstell
 
 Um eine Auszahlung zu beantragen, klicke in der Übersicht auf der "[Freunde werben-Seite](https://zap-hosting.com/de/customer/affiliate/)" einfach auf den Button "Auszahlung/Umbuchung". Dann kannst du auswählen, ob du dein Affiliate-Guthaben in ZAP-Coins umbuchen willst oder das Guthaben ausgezahlt bekommen möchtest. Wir können Guthaben auf dein Bankkonto überweisen oder per Paypal auszahlen.
 
->> Wenn du dein Guthaben in ZAP-Coins umbuchen lässt, kannst du dir diese ZAP-Coins nicht mehr auszahlen lassen!
+**Achtung:**
+Wenn du dein Guthaben in ZAP-Coins umbuchen lässt, kannst du dir diese ZAP-Coins nicht mehr auszahlen lassen!
 
-> Wenn du eine Auszahlung beantragst, erhältst du eine Email-Adresse, an die du eine Rechnung schickst. Als Betrag kannst du den als Guthaben angezeigten Betrag eintragen.
-> Im Internet kannst du Rechnungs-Vorlagen finden, die du verwenden kannst. Wir empfehlen die Verwendung der Rechnungs-Vorlage von Paypal.
-> Folgende Firmendaten müssen auf der Rechnung erscheinen:
-> ZAP-Hosting GmbH & Co. KG
-> Krokusweg 9a
-> 48165 Münster
+Per PayPal auszahlen lassen:**
+Nutze das PayPal Rechnungs Feature: "[PayPal Invoice Creator](https://www.paypal.com/invoice/create?fromWidget=newuser)"
 
+Hier müssen unsere Firmen Informationen als Rechnungsempfänger angegeben werden:
+
+`ZAP-Hosting GmbH & Co. KG,
+Krokusweg 9a,
+48165 Münster,
+Deutschland`
+
+
+In der Beschreibung muss `zap affiliate payout <Kundennummer>` vorkommen.
+
+Bitte sende die PayPal Rechnung an: `m.kluck@zap-hosting.com`
 
