@@ -17,7 +17,7 @@ First of all, the actual extensions are needed. It is important to always use th
 - [Metamod](https://www.sourcemm.net/downloads.php?branch=stable)
 - [Sourcemod](https://www.sourcemod.net/downloads.php?branch=stable)
 
-![](https://i.imgur.com/q5y6A3W.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/8XEpA3Gi4kqrdn2/preview)
 
 > Source engine game servers in ZAP hosting usually run under a Linux operating system. Accordingly, the Linux version of the extensions is required.
 
@@ -25,11 +25,11 @@ First of all, the actual extensions are needed. It is important to always use th
 
 When downloading the two extensions, you first receive two packed files (sourcemod-XXX-gitXXXX-linux.tar / mmsource-XXX-gitXXX-linux.tar), which have to be unzipped before uploading. You can use either Winrar, 7zip or similar programs for this.
 
-![](https://i.imgur.com/xAyfFCO.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/oGwmMqFmgJiWp2X/preview)
 
 From the extracted files you get the folder addons and cfg:
 
-![](https://i.imgur.com/k8gJ5Bq.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/QqyoF2GPSX9KEBY/preview)
 
 ### ⬆ Upload the files
 
@@ -44,11 +44,11 @@ The files must be uploaded to the main directory. The main directory is located 
 | Team Fortress 2 | tf2 |
 | L4D2 | left4dead2 |
 
-![](https://i.imgur.com/JzVXcGh.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/jr9adQxWicgnEYQ/preview)
 
 The folder structure should then look like this:
 
-![](https://i.imgur.com/502Mexy.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/o2T6Rmdydgfg3Hr/preview)
 
 ## ✅ Check your SM / MM installation
 
@@ -71,11 +71,11 @@ meta version
 
 As a result we get the following output:
 
-![](https://i.imgur.com/nkGtZsP.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/5gRWF5xmbeqyDMH/preview)
 
 ### 📖 Version query via RCON
 
-![](https://i.imgur.com/WqNd8dV.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/f5zALXZtH3ApPAX/preview)
 
 We can use the following steps to check the version for our own server:
 

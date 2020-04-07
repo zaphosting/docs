@@ -10,7 +10,7 @@ Klicke auf der Serverübersicht auf deinen Minecraft Server. Wähle dann den Rei
 
 > Stelle sicher, dass dein aktuelles Spiel Spigot oder Bukkit ist. Nur dort ist der Plugin Uploader verfügbar.
 
-![](https://i.imgur.com/VSmWHA2.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/QebjPJ7kb3jAjEQ/preview)
 
 ## 🔼 Plugin installieren / hochladen
 
@@ -23,17 +23,17 @@ Es gibt zwei verschiedene Möglichkeiten, wie du ein Plugin auf deinem Minecraft
 
 Wähle aus der Liste "Alle Plugins" dein Wunschplugin aus und klicke auf den grünen Button "Installieren". Die Installation kann je nach Plugingröße einen Augenblick dauern.
 
-![](https://i.imgur.com/e8t9e3X.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/pS3CWPBT3mxXyHr/preview)
 
 ###  Eigenes Plugin hochladen 
 
 Ziehe die gewünschte Plugin .jar Datei in die auf dem Bild markierte Box. Es ist auch möglich mehrere Plugins gleichzeitig in diesen Bereich zu ziehen und zu installieren.
 
-![](https://i.imgur.com/mLabQiq.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/EWB49StdDnf2aEC/preview)
 
 Hast du das Plugin in das Uploadfeld gezogen, dauert es einen Augenblick, bis sich das Plugin auf dem Server befindet.
 
-![](https://i.imgur.com/52A7WBK.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/gLJEP6msd6Wypsc/preview)
 
 Um das Plugin nun nutzen zu können musst du deinen Server mit dem Befehl `/rl` oder `/reload` über deine Gameserver Konsole neu laden (oder den gesamten Server neu starten). 
 
@@ -41,7 +41,7 @@ Um das Plugin nun nutzen zu können musst du deinen Server mit dem Befehl `/rl` 
 
 ## 🚮 Plugin deinstallieren
 
-![](https://i.imgur.com/puCrcog.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/bXBA4GXNg6Znd5p/preview)
 
 Um ein Plugin zu deinstallieren, klicke auf die rote Mülltone neben dem Eintrag.
 
@@ -51,7 +51,7 @@ Klicke dazu hinter einem installierten Plugin auf den grünen Button mit dem Sch
 
 > Nachdem du dein Plugin deaktiviert hast, musst du den Server einmal reloaden, damit die Änderungen wirksam werden. Verwende dazu einen der beiden folgenden Befehle in deiner Gameserverkonsole oder Ingame: `/rl` oder `/reload`
 
-![](https://i.imgur.com/SRiRCUr.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/oFLgW46xixPij36/preview)
 
 ## 🆘 Häufige Probleme
 
@@ -80,7 +80,7 @@ Lösungsvorschläge:
 
 - Für die aktuell installierte Version deines Gameservers gibt es möglicherweise keine aktuelle Version dieses Plugins. Um dir ein Plugin zu wünschen, benutze den blauen Button Plugin fehlt?.
 
-![](https://i.imgur.com/PU2xnWm.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/waDKkT4bSXiGMTb/preview)
 
 ### Das Neu-/De-/Installieren in der vorgefertigten Liste scheint nicht zu funktionieren.
 
