@@ -16,7 +16,7 @@ dann ebenfalls mit einem leicht zu merkenden Namen online erreichen. Wie genau d
 ### Domain's und IP Adressen
 
 Im gegensatz zu einer IP Adresse musst du eine Domain einzeln mieten, diese ist bei einem Gameserver, Rootserver, vServer oder Voiceserver **NICHT** automatisch dabei.
-Eine Domain unterscheidet sich bereits im Aussehen von einer IP Adresse. Während eine IP Adresse aus Zahlen besteht, zum Beispiel *140.82.118.3*, hat eine Domain einen 
+Eine Domain unterscheidet sich bereits im Aussehen von einer IP Adresse. Während eine IP Adresse aus Zahlen besteht, zum Beispiel **140.82.118.3**, hat eine Domain einen 
 richtigen Namen und eine entsprechende Domainendung, zum Beispiel fivem.net. Hierbei wäre **fivem** der Name der Domain und **.net** die Domainendung.
 Neben **.net** gibt es natürlich noch viele weitere Domainendungen wie **.com** oder **.de**.
 
