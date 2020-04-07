@@ -4,30 +4,24 @@ title: GOTV
 sidebar_label: GOTV
 ---
 
-## Was ist GOTV?
+## What is GOTV?
 
 
-GOTV bietet die Möglichkeit Spiele mit etwas Verzögerung live zu übertragen. Somit können auch außenstehende die nicht selbst am Spiel beteiligt sind das Geschehen auf dem Server mitverfolgen. Diese Technologie wird auch bei den bekannten Counter-Strike Turnieren eingesetzt, damit die Zuschauer sich das Spektakel anschauen können. Des Weiteren können die Übertragungen auch automatisch gespeichert werden, sodass auch im Anschluss ein erneutes Anschauen möglich ist. 
-
-
+GOTV offers the possibility to broadcast games live with a little delay. This means that outsiders who are not involved in the game can also follow what is happening on the server. This technology is also used in the well-known counter-strike tournaments so that the spectators can watch the spectacle. Furthermore, the transmissions can also be saved automatically, so that you can watch them again afterwards.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/GmptDMS3NNKCQZz/preview)
 
 
+## How to use GOTV?
 
-
-
-## Wie benutzt man GOTV?
-
-Wenn die Funktion beim Server aktiviert ist, dann ist der Zugriff über die IP-Adresse und den dafür zugewiesenen GOTV Port des Servers möglich. Zum Verbinden benötigt man die Konsole im Spiel. Dort kannst du dich dann mit dem folgenden Befehl verbinden: 
+If the function is activated on the server, access is possible via the IP address and the GOTV port assigned to it on the server. To connect, you need the console in the game. There you can then connect with the following command:
 
 ```
 connect SERVERIP:27020
 ```
 
 
-
-Manuelle und automatische aufgenommene Demos werden im Hauptverzeichnis (gxxxxx/csgo/csgo/) des CS:GO Server abgelegt. Diese können über den bereitgestellten FTP-Zugang heruntergeladen werden. Sollte du noch nicht wissen wie der Zugang via FTP möglich ist, dann findest du hierzu eine entsprechende Anleitung: https://docs.zap-hosting.com/docs/de/gameserver_ftpaccess/
+Manual and automatic recorded demos are stored in the main directory (gxxxxx / csgo / csgo /) of the CS: GO server. These can be downloaded via the FTP access provided. If you do not yet know how to access via FTP, you will find instructions on how to do this: https://docs.zap-hosting.com/docs/en/gameserver_ftpaccess/
 
 
 
@@ -35,13 +29,13 @@ Manuelle und automatische aufgenommene Demos werden im Hauptverzeichnis (gxxxxx/
 
 
 
-Mit dem Demo-Playback aus dem Spiel kann die heruntergeladene Demo über **Load** ausgewählt und über den **Play** Button gestartet werden. 
+With the demo playback from the game, the downloaded demo can be selected via **Load** and started via the **Play** button.
 
 
 
-## Installation GOTV Masterserver
+## Installation of GOTV Master Server
 
-Zum Aktivieren des GOTV Masterserver müssen in der **server.cfg** noch fehlende Befehle hinzugefügt werden. Es handelt sich hierbei um folgende Befehle:
+To activate the GOTV master server, missing commands have to be added in **server.cfg**. These are the following commands:
 
 ```
 tv_enable 1
@@ -51,24 +45,24 @@ tv_advertise_watchable 1
 
 
 
-Die oben genannten Befehle sind zwingend notwendig, damit der GOTV Masterserver aktiviert und erreichbar ist. Allerdings gibt es im folgenden auch noch weitere Befehle zum erweiterten Konfigurieren:
+The above commands are mandatory so that the GOTV master server is activated and accessible. However, there are other commands for advanced configuration below:
 
-|            Befehl            |                         Beschreibung                         |
+|            Command            |                         Description                         |
 | :--------------------------: | :----------------------------------------------------------: |
-|  tv_allow_camera_man "0\|1"  |        Zuschauer können die als Kameramann übernehmen        |
-| tv_allow_static_shots "0\|1" |    Verwendet Kameras mit fester Ausrichtung für Aufnahmen    |
-|     tv_autorecord "0\|1"     | Zeichnet automatisch alle Spiele als GOTV-Demos auf. Alle Spiele werden automatisch aufgezeichnet, das Format der Demodatei lautet auto-YYYYYMMDD-hhmm-map.dem |
-|     tv_autoretry "0\|1"      | Versucht nach einem Netzwerk-Timeout erneut eine Verbindung herzustellen |
-| tv_chattimelimit "sekunden"  | Beschränkt die Zuschauer darauf nur alle n Sekunden zu schreiben |
-|       tv_debug "0\|1"        |             Anzeige von GOTV Debug Informationen             |
-|   tv_delaymapchange "0\|1"   | Verzögert den Kartenwechsel, bis die Übertragung abgeschlossen ist |
-|      tv_maxclients "n"       |          Maximale Clientanzahl auf dem GOTV-Server           |
-|        tv_maxrate "n"        | Max. zulässige GOTV-Zuschauer-Bandbreitenrate, 0 == unbegrenzt |
-|        tv_msg "text"         |           Schickt eine Nachricht an alle Zuschauer           |
-|        tv_name "name"        | GOTV-Hostname. Legt den GOTV-Namen so fest, wie er im Server-Browser und in der Statusleiste erscheint. |
-|       tv_nochat "0\|1"       |           Aktiviereren/deaktivieren des GOTV-Chats           |
-|    tv_password "password"    |       Schützt die GOTV Übertragung mit einem Passwort        |
-|     tv_record "filename"     |             Startet die Aufnahme einer GOTV Demo             |
-|           tv_stop            |                 Stoppt die GOTV-Übertragung                  |
-|        tv_stoprecord         |             Stoppt die Aufnahme einer GOTV Demo              |
-|           tv_title           |           Definiert den Namen der GOTV Übertragung           |
+|  tv_allow_camera_man "0\|1"  |        Spectators can take over as a cameraman        |
+| tv_allow_static_shots "0\|1" |    Uses fixed-orientation cameras for shooting    |
+|     tv_autorecord "0\|1"     | Automatically records all games as GOTV demos. All games are recorded automatically, the format of the demo file is auto-YYYYYMMDD-hhmm-map.dem |
+|     tv_autoretry "0\|1"      | Tries to connect again after a network timeout |
+| tv_chattimelimit "seconds"  | Restricts viewers to write only every x seconds |
+|       tv_debug "0\|1"        |             Display of GOTV debug information             |
+|   tv_delaymapchange "0\|1"   | Delays the card change until the transfer is complete |
+|      tv_maxclients "n"       |          Maximum number of clients on the GOTV server           |
+|        tv_maxrate "n"        | Max. Allowed GOTV viewer bandwidth rate, 0 == unlimited |
+|        tv_msg "text"         |           Sends a message to all viewers           |
+|        tv_name "name"        | GOTV hostname. Defines the GOTV name as it appears in the server browser and in the status bar |
+|       tv_nochat "0\|1"       |           Activate/Deactivate the GOTV chat           |
+|    tv_password "password"    |       Protects the GOTV transmission with a password        |
+|     tv_record "filename"     |             Starts recording a GOTV demo             |
+|           tv_stop            |                 Stops the GOTV transmission                  |
+|        tv_stoprecord         |            Stops recording a GOTV demo              |
+|           tv_title           |           Defines the name of the GOTV transmission           |
