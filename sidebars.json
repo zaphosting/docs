@@ -144,6 +144,7 @@
 			 "type":"subcategory",
 			 "label":"Linux",
 			 "ids":[
+				"vserver_linux_ssh",
 				"vserver_linux_java",
 				"vserver_linux_docker",
 				"vserver_linux_plesk",
