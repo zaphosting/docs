@@ -17,7 +17,7 @@ Die Linux Server Produkte beinhalten standardmäßig keine grafische Verwaltungs
 | SSH-Client | Unterstützte Betriebssysteme | Open-Source |                           Download                           |
 | :--------: | :--------------------------: | :---------: | :----------------------------------------------------------: |
 |   Putty    |        Windows, Linux        |     Ja      |               [Klick](https://www.putty.org/)                |
-|   Kitty    |        Windows, Linux        |     Ja      |        [Klick](http://www.9bis.net/kitty/#!index.md)         |
+|   Kitty    |        Windows, Linux        |     Ja      |        [Klick](http://www.9bis.net/kitty/)                   |
 | MobaXterm  |        Windows, Linux        |     Ja      |           [Klick](https://mobaxterm.mobatek.net/)            |
 | SecureCRT  |     Windows, Linux, Mac      |    Nein     | [Klick](https://www.vandyke.com/cgi-bin/releases.php?product=securecrt) |
 | mRemoteNG  |           Windows            |     Ja      |           [Klick](https://mremoteng.org/download)            |
