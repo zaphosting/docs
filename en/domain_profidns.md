@@ -14,12 +14,12 @@ The option will be displayed, as long as you click on the desired domain in the 
 If you then scroll down a little, the 3 available options are displayed.
 The check mark at ProfiDNS must be clicked + saved so that you can make the entries in the DNS administration afterwards.
 
-![](https://i.imgur.com/3xhoYIb.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/qn6T3FwFeoEgaiN/preview)
 
 On the left hand side you will find the tab "DNS administration" where you can create new entries: 
 
-![](https://i.imgur.com/LtJkuRL.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/62GLGZBmxNZmq6m/preview)
 
-![](https://i.imgur.com/nvqte0w.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/jb7Sj9XRNEFFXES/preview)
 
 New entries can then be created or existing entries can be edited / deleted here.
