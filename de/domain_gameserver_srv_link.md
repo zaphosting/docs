@@ -4,6 +4,7 @@ title: Domain Gameserver Weiterleitung
 sidebar_label: Domain Gameserver Weiterleitung
 ---
 
+> Bitte beachte dass es immer bis zu 24 Stunden dauern kann bis Änderungen an DNS Einträgen aktiv werden!
 
 ## Domain auf Gameserver weiterleiten
 
@@ -91,11 +92,22 @@ und erstellst einen Eintrag der wie folgt aussieht:
 
 ![](https://puu.sh/FuXZs/a4d7149643.png)
 
-Das Feld **Name** beinhaltet den Namen des Service's, was in diesem Fall unser Minecraft Gameserver ist, also **_minecraft**.
+Das Feld **Name** beinhaltet den Namen des Service's, was in diesem Fall unser Minecraft Gameserver ist, also **_minecraft**. Ebenso ist dort der Protokolltyp, in diesem Fall **_tcp** so wie der **Domainname** angegeben. 
 Das Feld **Typ** gibt an um welche Art von Eintrag es sich handelt, in diesem Fall ist es ein **SRV** Eintrag.
-Der Wert ist in diesem Fall **0 2132 fivem-server.de**, wobei **2132** der **Port des Spiels** ist und **fivem-server.de** die Domain zu welcher die Weiterleitung erfolgt. 
+Das Feld **Wert** enthält den Spielport und die Domain, also in diesem Fall **0 2132 fivem-server.de**, wobei **2132** der **Port des Spiels** ist und **fivem-server.de** die Domain zu welcher die Weiterleitung erfolgt. 
 Der Wert **0** ist nicht weiter relevant und bleibt immer gleich. Das Feld **TTL** lässt du ebenfalls unberührt.
 
 Danach kannst du auf **Speichern** klicken.
 
 > Wichtig ist, dass im Feld **Wert** am Ende der Domain ein **Punkt** gesetzt wird!
+
+### Weiterleitung mit Subdomain
+
+Mit einer Subdomain verhält es sich fast genau so. Du erstellst zuerst wie oben beschrieben eine Subdomain und leitest diese auf die IP Adresse deines Gameservers weiter. Im Anschluss klickst du auf **Neuer Eintrag** und erstellst dort einen Eintrag mit folgendem Inhalt:
+
+![](https://puu.sh/FuYbj/423a8cb5eb.png)
+
+Das Feld **Name** beinhaltet den Namen des Service's, was in diesem Fall unser Minecraft Gameserver ist, also **_minecraft**. Ebenso ist dort der Protokolltyp, in diesem Fall **_tcp** so wie der **Domainname** zusammen mit der **Subdomain**, also **minecraft.fivem-server.de** angegeben. 
+Das Feld **Typ** gibt an um welche Art von Eintrag es sich handelt, in diesem Fall ist es ein **SRV** Eintrag.
+Das Feld **Wert** enthält den Spielport und die Domain mit Subdomain, also in diesem Fall **0 2132 minecraft.fivem-server.de**, wobei **2132** der **Port des Spiels** ist und **minecraft.fivem-server.de** die Domain mit Subdomain zu welcher die Weiterleitung erfolgt. 
+Der Wert **0** ist nicht weiter relevant und bleibt immer gleich. Das Feld **TTL** lässt du ebenfalls unberührt.
