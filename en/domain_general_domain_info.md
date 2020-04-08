@@ -31,7 +31,7 @@ A domain is already different in appearance from an IP address. While an IP addr
 correct name and a corresponding domain ending, for example fivem.net. Here **fivem** would be the name of the domain and **.net** the domain ending.
 Besides **.net** there are of course many other domain extensions like **.com** or **.de**.
 
-### Here you can find out how you can rent a domain: [](domain_order.md)
+### Here you can find out how you can rent a domain: [Configure and order domain](domain_order.md)
 
 
 
