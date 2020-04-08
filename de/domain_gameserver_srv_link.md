@@ -74,3 +74,27 @@ Das sieht so aus:
 
 ![](https://puu.sh/Fuzxd/de90d297e8.png)
 
+
+## Weiterleitung der Domain mit Spielport (SRV)
+
+Wird nicht der Spielport genutzt so muss zusätzlich ein sogenannter **SRV Eintrag** angelegt werden um nicht nur die Domain
+auf die IP des Gameservers sondern auch auf den korrekten Port weiterzuleiten.
+
+Zuerst erstellt du wie oben beschrieben entweder eine **Subdomain** oder du leitest die Domain wie oben beschrieben
+direkt auf den Gameserver weiter, beides ist möglich. 
+
+### Weiterleitung ohne Subdomain
+
+
+Nachdem du wie oben beschrieben deine Domain auf die IP Adresse deines Gameservers weitergeleitet hast klickst du auf **Neuer Eintrag**
+und erstellst einen Eintrag der wie folgt aussieht:
+
+![](https://puu.sh/FuXZs/a4d7149643.png)
+
+Das Feld **Name** beinhaltet den Namen des Service's, was in diesem Fall unser Minecraft Gameserver ist, also **_minecraft**.
+Das Feld **Typ** gibt an um welche Art von Eintrag es sich handelt, in diesem Fall ist es ein **SRV** Eintrag.
+Der Wert ist in diesem Fall **0 2132 fivem-server.de**, wobei **2132** der **Port des Spiels** ist und **fivem-server.de** die Domain zu welcher die Weiterleitung erfolgt. 
+Der Wert **0** ist nicht weiter relevant und bleibt immer gleich.
+
+Danach kannst du auf **Speichern** klicken.
+
