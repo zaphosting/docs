@@ -55,7 +55,7 @@ auf den roten Mülleimer auf der rechten Seite löschen.
 ![](https://puu.sh/Fuzm8/39f3c72fa6.png)
 
 Anschließend klickst du auf **Neuer Eintrag** und landest dann in der Erstellung für einen neuen DNS Eintrag.
-Als **Name** wählen wir hier den Namen der Domain, als Beispiel fivem-server.de, der **Typ ist A** und der **Wert** entspricht der
+Als **Name** wählen wir hier den Namen der Domain, als Beispiel **fivem-server.de**, der **Typ ist A** und der **Wert** entspricht der
 zahlen IP deines Gameservers, in diesem Fall **88.214.57.116**.
 Das Feld **TTL** kannst du unberührt lassen.
 
