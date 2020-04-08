@@ -16,7 +16,7 @@ In den folgenden Beispielen erstellen zir zwei Subdomains und leiten diese auf e
 ## Wie funktioniert das?
 
 ### Bevor wir mit der Erstellung von Einträgen in den DNS Einstellungen der Domain beginnen, hier ein paar Informationen vorab:
-Für die Weiterleitung der IP Adresse wird eine Subdomain erstellt welche auf die IP Adresse des Gameservers leitet.
+Für die Weiterleitung der IP Adresse wird entweder eine Subdomain erstellt welche auf die IP Adresse des Gameservers leitet, oder du leitest die komplette Domain ohne Subdomain weiter.
 Dies würde bereits ausreichen wenn der Gameserver den Standartport des jeweiligen Spiels verwendet.
 Verwendet der Gameserver jedoch einen anderen Port als den Standartport des jeweiligen Spiels, wird zusätzlich noch ein sogenannter **SRV Eintrag**
 benötigt um die Subdomain auf den richtigen Port weiterleiten zu können.
