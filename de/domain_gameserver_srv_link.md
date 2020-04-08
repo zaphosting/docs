@@ -94,7 +94,8 @@ und erstellst einen Eintrag der wie folgt aussieht:
 Das Feld **Name** beinhaltet den Namen des Service's, was in diesem Fall unser Minecraft Gameserver ist, also **_minecraft**.
 Das Feld **Typ** gibt an um welche Art von Eintrag es sich handelt, in diesem Fall ist es ein **SRV** Eintrag.
 Der Wert ist in diesem Fall **0 2132 fivem-server.de**, wobei **2132** der **Port des Spiels** ist und **fivem-server.de** die Domain zu welcher die Weiterleitung erfolgt. 
-Der Wert **0** ist nicht weiter relevant und bleibt immer gleich.
+Der Wert **0** ist nicht weiter relevant und bleibt immer gleich. Das Feld **TTL** lässt du ebenfalls unberührt.
 
 Danach kannst du auf **Speichern** klicken.
 
+> Wichtig ist, dass im Feld **Wert** am Ende der Domain ein **Punkt** gesetzt wird!
