@@ -230,8 +230,8 @@
         "sidebar_label": "Erstzugriff (SSH)"
       },
       "vserver_root_unterschied": {
-        "title": "Unterschied Rootserver / V-Server",
-        "sidebar_label": "Unterschied Rootserver / V-Server"
+        "title": "Rootserver versus vServer",
+        "sidebar_label": "Rootserver versus vServer"
       },
       "vserver_vnc": {
         "title": "What is VNC?",
