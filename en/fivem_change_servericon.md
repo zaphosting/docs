@@ -1,14 +1,14 @@
 ---
 id: fivem_change_servericon
-title: Server Icon Ändern
-sidebar_label: Server Icon Ändern
+title: Change Server Icon
+sidebar_label: Change Server Icon
 ---
 
-## Bild Vorbereiten
+## Prepare Image
 
 For your server icon to be displayed correctly, it must be a PNG file that is 96x96 pixels in size, other formats are not supported by FiveM.
 
-## Mit FTP verbinden
+## Connect Using FTP
 
 Before resources can be installed, the [FTP access](gameserver_ftpaccess.md) must be set up:
 
@@ -19,7 +19,7 @@ After this has been set up, you can now connect and open the server folder:
 ![](https://screensaver01.zap-hosting.com/index.php/s/MHt37AFEeZYgs97/preview)
 
 
-## Bild Einfügen
+## Insert Image
 
 Navigate to the folder gXXXX/gta-fivem/Server-data/ and upload your server icon file there.
 
