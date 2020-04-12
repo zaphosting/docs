@@ -124,6 +124,14 @@
 				"title": "Replacement Carmods Installieren",
 				"sidebar_label": "Replacement Carmods Installieren"
 			},
+			"fivem_change_servericon": {
+				"title": "Server Icon Ändern",
+				"sidebar_label": "Server Icon Ändern"
+			},
+			"fivem_mods_installaddon": {
+				"title": "Addon Carmods Installieren",
+				"sidebar_label": "Addon Carmods Installieren"
+			},
 			"gameserver_databases_pma": {
 				"title": "PHPMyAdmin",
 				"sidebar_label": "PHPMyAdmin"
