@@ -1,7 +1,7 @@
 ---
-id: vps_root_server_linux_webinterface_ftp
-title: FTP Dienst funtkioniert nicht (vServer/Root Server|Game-TS3-WI)
-sidebar_label: FTP Dienst funtkioniert nicht (vServer/Root Server|Game-TS3-WI)
+id: vserver_linux_ftp
+title: FTP Dienst funtkioniert nicht
+sidebar_label: FTP Dienst funtkioniert nicht
 ---
 
 ## Was kann man tun wenn der Gameserver oder Teamspeak Server nicht via FTP erreichbar ist? 
