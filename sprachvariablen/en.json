@@ -77,7 +77,7 @@
         "title": "ExpertDNS",
         "sidebar_label": "ExpertDNS"
       },
-      "domain_gameserver_link": {
+      "domain_gameserver_srv_link": {
         "title": "Domain Gameserver Redirect",
         "sidebar_label": "Domain Gameserver Redirect"
       },
