@@ -101,6 +101,10 @@
         "title": "The first steps",
         "sidebar_label": "The first steps"
       },
+      "fivem_change_servericon": {
+        "title": "Change Server Icon",
+        "sidebar_label": "Change Server Icon"
+      },
       "fivem_dashboard": {
         "title": "Dashboard",
         "sidebar_label": "Dashboard"
@@ -108,6 +112,10 @@
       "fivem_installresources": {
         "title": "Resource Installation",
         "sidebar_label": "Resource Installation"
+      },
+      "fivem_mods_installaddon": {
+        "title": "Addon Carmods Installieren",
+        "sidebar_label": "Addon Carmods Installieren"
       },
       "fivem_mods_installreplace": {
         "title": "Install Replace Carmods",
@@ -230,8 +238,8 @@
         "sidebar_label": "Erstzugriff (SSH)"
       },
       "vserver_root_unterschied": {
-        "title": "Unterschied Rootserver / V-Server",
-        "sidebar_label": "Unterschied Rootserver / V-Server"
+        "title": "Rootserver versus vServer",
+        "sidebar_label": "Rootserver versus vServer"
       },
       "vserver_vnc": {
         "title": "What is VNC?",

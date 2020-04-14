@@ -95,6 +95,7 @@
 		  "fivem_dashboard",
 		  "fivem_windowsorlinux",
 		  "fivem_installresources",
+		  "fivem_change_servericon",
 		  "fivem_sql_file_import",
       "fivem_rcon",
 		  "fivem_useprofiler",
@@ -102,7 +103,8 @@
 			"type":"subcategory",
 			"label":"Mods",
 			"ids":[
-				"fivem_mods_installreplace"
+				"fivem_mods_installreplace",
+				"fivem_mods_installaddon"
 			]
 		 },
 		  {
