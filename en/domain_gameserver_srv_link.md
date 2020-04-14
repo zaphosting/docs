@@ -1,5 +1,5 @@
 ---
-id: domain_gameserver_link
+id: domain_gameserver_srv_link
 title: Domain Gameserver Redirect
 sidebar_label: Domain Gameserver Redirect
 ---
