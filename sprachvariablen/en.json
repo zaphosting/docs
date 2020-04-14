@@ -241,6 +241,10 @@
         "title": "OpenVPN",
         "sidebar_label": "OpenVPN"
       },
+      "vserver_linux_phpmyadmin": {
+        "title": "phpMyAdmin",
+        "sidebar_label": "phpMyAdmin"
+      },
       "vserver_linux_plesk": {
         "title": "Plesk",
         "sidebar_label": "Plesk"
