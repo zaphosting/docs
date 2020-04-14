@@ -266,7 +266,8 @@
         "sidebar_label": "Zusätzliche IPs hinzufügen"
       },
       "vserver_windows_nointernet": {
-        "title": "vserver_windows_nointernet"
+        "title": "No Internet what now?",
+        "sidebar_label": "No Internet what now?"
       },
       "vserver_windows_userdp": {
         "title": "Erstzugriff (RDP)",
