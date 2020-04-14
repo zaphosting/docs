@@ -76,6 +76,18 @@
 				"title": "ExpertDNS",
 				"sidebar_label": "ExpertDNS"
 			},
+			"domain_gameserver_srv_link": {
+				"title": "Domain Gameserver Weiterleitung",
+				"sidebar_label": "Domain Gameserver Weiterleitung"
+			  },
+			  "domain_general_domain_info": {
+				"title": "Was ist eine Domain?",
+				"sidebar_label": "Was ist eine Domain?"
+			  },
+			  "domain_order": {
+				"title": "Eine Domain bestellen",
+				"sidebar_label": "Eine Domain bestellen"
+			  },
 			"domain_profidns": {
 				"title": "ProfiDNS",
 				"sidebar_label": "ProfiDNS"
@@ -100,6 +112,10 @@
 				"title": "Die ersten Schritte",
 				"sidebar_label": "Die ersten Schritte"
 			},
+			"fivem_change_servericon": {
+				"title": "Server Icon Ändern",
+				"sidebar_label": "Server Icon Ändern"
+			  },
 			"fivem_dashboard": {
 				"title": "Dashboard",
 				"sidebar_label": "Dashboard"
@@ -108,6 +124,14 @@
 				"title": "Resourcen Installieren",
 				"sidebar_label": "Resourcen Installieren"
 			},
+			"fivem_mods_installaddon": {
+				"title": "Addon Carmods Installieren",
+				"sidebar_label": "Addon Carmods Installieren"
+			  },
+			  "fivem_mods_installreplace": {
+				"title": "Replacement Carmods Installieren",
+				"sidebar_label": "Replacement Carmods Installieren"
+			  },
 			"fivem_rcon": {
 				"title": "Rcon Benutzen",
 				"sidebar_label": "Rcon Benutzen"
@@ -224,6 +248,10 @@
 				"title": "OpenVPN",
 				"sidebar_label": "OpenVPN"
 			},
+			"vserver_linux_phpmyadmin": {
+				"title": "phpMyAdmin",
+				"sidebar_label": "phpMyAdmin"
+			  },
 			"vserver_linux_plesk": {
 				"title": "Plesk",
 				"sidebar_label": "Plesk"
@@ -244,6 +272,10 @@
 				"title": "Zusätzliche IPs hinzufügen",
 				"sidebar_label": "Zusätzliche IPs hinzufügen"
 			},
+			"vserver_windows_nointernet": {
+				"title": "Kein Internet was nun?",
+				"sidebar_label": "Kein Internet was nun?"
+			  },
 			"vserver_windows_userdp": {
 				"title": "Erstzugriff (RDP)",
 				"sidebar_label": "Erstzugriff (RDP)"
