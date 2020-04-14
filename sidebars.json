@@ -172,7 +172,8 @@
 			 "label":"Windows",
 			 "ids":[
 				"vserver_windows_userdp",
-				"vserver_windows_addip"
+				"vserver_windows_addip",
+				"vserver_windows_nointernet"
 			 ]
 		  }
 	   ],
