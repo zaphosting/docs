@@ -77,6 +77,18 @@
         "title": "ExpertDNS",
         "sidebar_label": "ExpertDNS"
       },
+      "domain_gameserver_link": {
+        "title": "Domain Gameserver Redirect",
+        "sidebar_label": "Domain Gameserver Redirect"
+      },
+      "domain_general_domain_info": {
+        "title": "What is a domain?",
+        "sidebar_label": "What is a domain?"
+      },
+      "domain_order": {
+        "title": "Order a domain",
+        "sidebar_label": "Order a domain"
+      },
       "domain_profidns": {
         "title": "ProfiDNS",
         "sidebar_label": "ProfiDNS"
@@ -248,6 +260,9 @@
       "vserver_windows_addip": {
         "title": "Zusätzliche IPs hinzufügen",
         "sidebar_label": "Zusätzliche IPs hinzufügen"
+      },
+      "vserver_windows_nointernet": {
+        "title": "vserver_windows_nointernet"
       },
       "vserver_windows_userdp": {
         "title": "Erstzugriff (RDP)",
