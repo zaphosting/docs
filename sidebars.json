@@ -181,9 +181,12 @@
 			"type":"subcategory",
 			"label":"Domain",
 			"ids":[
+				"domain_general_domain_info",
+				"domain_order",
 				"domain_easydns",
 				"domain_profidns",
-				"domain_expertdns"
+				"domain_expertdns",
+				"domain_gameserver_srv_link"
 			]
 		},
 		{
