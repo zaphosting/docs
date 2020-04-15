@@ -301,13 +301,13 @@
       "Overview": "Overview",
       "Account": "Account",
       "Gameserver - General": "Gameserver - General",
+      "vServer & Rootserver": "vServer & Rootserver",
+      "Webspace & Domains": "Webspace & Domains",
       "Minecraft": "Minecraft",
       "FiveM": "FiveM",
       "RageMP": "RageMP",
       "Source Games": "Source Games",
-      "ArmA 3": "ArmA 3",
-      "vServer & Rootserver": "vServer & Rootserver",
-      "Webspace & Domains": "Webspace & Domains"
+      "ArmA 3": "ArmA 3"
     }
   },
   "pages-strings": {
