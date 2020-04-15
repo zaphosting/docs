@@ -95,6 +95,7 @@
 		  "fivem_dashboard",
 		  "fivem_windowsorlinux",
 		  "fivem_installresources",
+		  "fivem_change_servericon",
 		  "fivem_sql_file_import",
       "fivem_rcon",
 		  "fivem_useprofiler",
@@ -102,7 +103,8 @@
 			"type":"subcategory",
 			"label":"Mods",
 			"ids":[
-				"fivem_mods_installreplace"
+				"fivem_mods_installreplace",
+				"fivem_mods_installaddon"
 			]
 		 },
 		  {
@@ -159,6 +161,7 @@
 			 "ids":[
 				"vserver_linux_ssh",
 				"vserver_linux_java",
+				"vserver_linux_phpmyadmin",
 				"vserver_linux_docker",
 				"vserver_linux_plesk",
 				"vserver_linux_openvpn",
@@ -170,7 +173,8 @@
 			 "label":"Windows",
 			 "ids":[
 				"vserver_windows_userdp",
-				"vserver_windows_addip"
+				"vserver_windows_addip",
+				"vserver_windows_nointernet"
 			 ]
 		  }
 	   ],
@@ -179,9 +183,12 @@
 			"type":"subcategory",
 			"label":"Domain",
 			"ids":[
+				"domain_general_domain_info",
+				"domain_order",
 				"domain_easydns",
 				"domain_profidns",
-				"domain_expertdns"
+				"domain_expertdns",
+				"domain_gameserver_srv_link"
 			]
 		},
 		{

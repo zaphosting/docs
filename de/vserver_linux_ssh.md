@@ -93,7 +93,7 @@ Für eine optimale Nutzung des SSH-Clients ist es unerlässlich, die Grundbefehl
 ### Datei Verwaltung
 
 | Befehl | Beschreibung                               | Syntax                                   |
-| ------ | ------------------------------------------ | ---------------------------------------- |
+| :------: | :------------------------------------------: | :----------------------------------------: |
 | ls     | Dateien und Ordner im Verzeichnis anzeigen | ls                                       |
 | cd     | Verzeichnis wechseln                       | cd [OPTION] VERZEICHNIS                  |
 | cp     | Dateien oder Verzeichnisse kopieren        | cp [OPTIONEN] QUELLE ZIEL                |
@@ -108,7 +108,7 @@ Für eine optimale Nutzung des SSH-Clients ist es unerlässlich, die Grundbefehl
 ### Netzwerk Verwaltung
 
 | Befehl   | Beschreibung                                      | Syntax                                    |
-| -------- | ------------------------------------------------- | ----------------------------------------- |
+| :--------: | :-------------------------------------------------: | :-----------------------------------------: |
 | ip       | Netzwerkschnittstellen abfragen und konfigurieren | ip [OPTIONEN] OBJEKT [BEFEHL [ARGUMENTE]] |
 | netstat  | Status der Netzwerkschnittstellen abfragen        | netstat [OPTIONEN]                        |
 | nslookup | DNS-Informationen abfragen                        | nslookup                                  |

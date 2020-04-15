@@ -77,6 +77,18 @@
         "title": "ExpertDNS",
         "sidebar_label": "ExpertDNS"
       },
+      "domain_gameserver_srv_link": {
+        "title": "Domain Gameserver Redirect",
+        "sidebar_label": "Domain Gameserver Redirect"
+      },
+      "domain_general_domain_info": {
+        "title": "What is a domain?",
+        "sidebar_label": "What is a domain?"
+      },
+      "domain_order": {
+        "title": "Order a domain",
+        "sidebar_label": "Order a domain"
+      },
       "domain_profidns": {
         "title": "ProfiDNS",
         "sidebar_label": "ProfiDNS"
@@ -101,6 +113,10 @@
         "title": "The first steps",
         "sidebar_label": "The first steps"
       },
+      "fivem_change_servericon": {
+        "title": "Change Server Icon",
+        "sidebar_label": "Change Server Icon"
+      },
       "fivem_dashboard": {
         "title": "Dashboard",
         "sidebar_label": "Dashboard"
@@ -108,6 +124,10 @@
       "fivem_installresources": {
         "title": "Resource Installation",
         "sidebar_label": "Resource Installation"
+      },
+      "fivem_mods_installaddon": {
+        "title": "Addon Carmods Installieren",
+        "sidebar_label": "Addon Carmods Installieren"
       },
       "fivem_mods_installreplace": {
         "title": "Install Replace Carmods",
@@ -221,6 +241,10 @@
         "title": "OpenVPN",
         "sidebar_label": "OpenVPN"
       },
+      "vserver_linux_phpmyadmin": {
+        "title": "phpMyAdmin",
+        "sidebar_label": "phpMyAdmin"
+      },
       "vserver_linux_plesk": {
         "title": "Plesk",
         "sidebar_label": "Plesk"
@@ -230,8 +254,8 @@
         "sidebar_label": "Erstzugriff (SSH)"
       },
       "vserver_root_unterschied": {
-        "title": "Unterschied Rootserver / V-Server",
-        "sidebar_label": "Unterschied Rootserver / V-Server"
+        "title": "Rootserver versus vServer",
+        "sidebar_label": "Rootserver versus vServer"
       },
       "vserver_vnc": {
         "title": "What is VNC?",
@@ -240,6 +264,10 @@
       "vserver_windows_addip": {
         "title": "Zusätzliche IPs hinzufügen",
         "sidebar_label": "Zusätzliche IPs hinzufügen"
+      },
+      "vserver_windows_nointernet": {
+        "title": "No Internet what now?",
+        "sidebar_label": "No Internet what now?"
       },
       "vserver_windows_userdp": {
         "title": "Erstzugriff (RDP)",
