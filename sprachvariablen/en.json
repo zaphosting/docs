@@ -177,6 +177,10 @@
         "title": "Spielwechsel mit der Gameservercloud",
         "sidebar_label": "Spielwechsel"
       },
+      "legal_use_brand_assets": {
+        "title": "Use of logo and name",
+        "sidebar_label": "Use of logo and name"
+      },
       "minecraft_addop": {
         "title": "OP-Permissions",
         "sidebar_label": "OP-Permissions"
