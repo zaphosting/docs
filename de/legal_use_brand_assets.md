@@ -1,5 +1,5 @@
 ---
-id: legal-use-brand-assets
+id: legal_use_brand_assets
 title: Verwendung von Logo und Name
 sidebar_label: Verwendung von Logo und Name
 ---
