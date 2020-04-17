@@ -75,7 +75,7 @@ Wir müssen nun den Content für den Server generieren, damit Car&Map Mods auf d
 
 Dieser Prozess kann einige Minuten in Anspruch nehmen, es werden nun alle Maps & Cars zu Serverdateien umgewandelt.
 
-Nachdem dieser Prozess vollendet ist, kann es ggf. zu einer "Could not update" Meldung kommen, diese ist unproblematisch.
+> Nachdem dieser Prozess vollendet ist, kann es ggf. zu einer "Could not update" Meldung kommen, diese ist unproblematisch.
 
 Nun Öffnen wir den "Server" Ordner, indem auch der AcServerManager ist, dort befindet sich ein "Content" Ordner, welchen wir nun über Drag&Drop auf unseren Assetto Corsa Server hochladen, und damit unseren alten "Content" Ordner überschreiben:
 
