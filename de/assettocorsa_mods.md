@@ -81,4 +81,4 @@ Nun Öffnen wir den "Server" Ordner, indem auch der AcServerManager ist, dort be
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/JHELeMApML8aamn/preview)
 
-Nachdem der Content hochgeladen wurde, sind die carmods nach einem Serverneustart installiert.
+Nachdem der Content hochgeladen wurde, sind die Carmods nach einem Serverneustart installiert und Aktiv.
