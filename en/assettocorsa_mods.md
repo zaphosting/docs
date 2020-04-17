@@ -1,7 +1,7 @@
 ---
-id: assettocorsa_configure
-title: Server Konfigurieren
-sidebar_label: Server Konfigurieren
+id: assettocorsa_mods
+title: Mods Installieren
+sidebar_label: Mods Installieren
 ---
 
 ## Mit FTP verbinden
