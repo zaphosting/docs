@@ -3,69 +3,85 @@ id: vserver_linux_phpmyadmin
 title: phpMyAdmin
 sidebar_label: phpMyAdmin
 ---
-## phpMyAdmin installieren
+## phpMyAdmin installation
 
-> ⚠️Es wird ein funktionierender MySQL/MariaDB sowie ein Apache2 Server vorausgesetzt!
+> ⚠️ A working MySQL/MariaDB and an Apache2 server is required!
 
-## System aktualisieren
+## System Update
 
-Zuerst sollte geprüft werden ob der Server auf dem neusten Stand ist. 
-Dazu wird der Update Befehl ausgeführt: 
+First, you should check whether the server is up to date. To do this, the update command is executed: 
+
 ```
 sudo apt update
 ```
-Sollte der Server neue Updates/Pakete geufunden haben, können diese mit dem Upgrade Befehl installiert werden. 
+
+If the server has found new updates/packages, they can be installed with the upgrade command. 
+
 ```
 sudo apt upgrade -y
 ```
-Nun befindet sich der Server auf dem neusten Stand. 
 
+The server is now up to date. 
 
-> ℹ️Sollte "sudo" nicht gefunden werden, so kann dies mit folgendem Befehl nachinstalliert werden: 
+> ℹ️ If "sudo" is not found, this can be installed with the following command: 
+
 ```
 apt install sudo -y
 ```
 
-## Start der Installation von phpMyAdmin
+## Start the Installation of phpMyAdmin
 
-Zuerst wird das Installationsverzeichnis aufgerufen in dem phpMyAdmin installiert werden soll. 
-Das geschieht mit folgendem Befehl: 
+First, the installation directory is selected in which phpMyAdmin is to be installed. This is done with the following command: 
+
 ```
 cd /usr/share
 ```
-Anschließend wird mit Hilfe von wget die letzte phpMyAdmin Version in das Installationsverzechnis gedownloadet:
+
+Then, the latest phpMyAdmin version is downloaded to the installation directory using wget:
+
 ```
 wget https://www.phpmyadmin.net/downloads/phpMyAdmin-latest-all-languages.zip -O phpmyadmin.zip
 ```
-> ℹ️Sollte "wget" nicht gefunden werden, so kann dies mit folgendem Befehl nachinstalliert werden: 
+
+> ℹ️ If "wget" is not found, this can be installed with the following command: 
+
 ```
 sudo apt install wget -y
 ```
-Sobald der Download abgeschlossen ist, kann die ZIP-Datei mit folgendem Befehl entpackt werden: 
+
+As soon as the download is complete, the ZIP file can be extracted using the following command: 
+
 ```
 unzip phpmyadmin.zip
 ```
-> ℹ️Sollte "unzip" nicht gefunden werden, so kann dies mit folgendem Befehl nachinstalliert werden: 
+
+> ℹ️ If "unzip" is not found, this can be installed with the following command: 
+
 ```
 sudo apt install unzip -y
 ```
-Nun kann das entpackte Archiv in einen einfacheren Namen umbenannt werden: 
+
+Now, the extracted archive can be renamed to a simpler name: 
+
 ```
 mv phpMyAdmin-*-all-languages phpmyadmin
 ```
-Nachdem dies erledigt ist, kann die ursprüngliche ZIP-Datei entfernt werden sowie die nötigen Rechte für das phpMyAdmin Verzeichnis gesetzt werden. 
+
+After this is done, the original ZIP file can be removed and the necessary rights for the phpMyAdmin directory can be set by using this: 
+
 ```
 rm phpmyadmin.zip; chmod -R 0755 phpmyadmin
 ```
 
-### Erstellung der Apache2 phpMyAdmin-Config 
+### Creation of the Apache2 phpMyAdmin-Config 
 
-Die Apache2-phpMyAdmin-Config wird mit folgendem Befehl erstellt:
+The Apache2-phpMyAdmin-Config is created with the following command:
 
 ```
 nano /etc/apache2/conf-available/phpmyadmin.conf
 ```
-Die leere Apache2-phpMyAdmin-Config muss nun mit folgenden Inahlt bestückt werden: 
+The empty Apache2-phpMyAdmin-Config must now be equipped with the following content: 
+
 ```
 # phpMyAdmin Apache configuration
 
@@ -87,28 +103,33 @@ Alias /phpmyadmin /usr/share/phpmyadmin
     Require all denied
 </Directory>
 ```
-Ist die Apach2-phpMyAdmin-Config nun mit dem Inhalt befüllt, kann diese gespeichert und geschlossen werden mit ***STRG+X***, anschließend die ***Y-Taste*** drücken und mit ***Enter*** bestätigen.
 
-Die nun neuerstelle Apache2-phpMyAdmin-Config muss vom Apache2 Server aktiviert/eingelesen werden:
+If the Apach2-phpMyAdmin-Config is now filled with the content, it can be saved and closed with *** CTRL + X ***, then press the *** Y key *** and with *** Enter *** to confirm. The newly created Apache2-phpMyAdmin-Config must be activated/read in by the Apache2 server:
 
 ```
 a2enconf phpmyadmin
 ```
-Anschließend muss der Apache2 Server neu geladen werden: 
+
+The Apache2 server must then be reloaded: 
+
 ```
 systemctl reload apache2
 ```
 
-### Benötigtes temporäres Verzeichnis für phpMyAdmin anlegen
+### Creating the required temporary directory for phpMyAdmin
 
-Damit phpMyAdmin auch ordnungsgemäß funktioniert muss folgendes Verzeichnis angelegt werden:
+For phpMyAdmin to work properly, the following directory must be created:
+
 ```
 mkdir /usr/share/phpmyadmin/tmp/
 ```
-Das gerade erstelle Verzeichnis benötigt noch die richtigen Rechte:
+
+The directory just created still needs the correct rights, here is how to do this:
+
 ```
 chown -R www-data:www-data /usr/share/phpmyadmin/tmp/
 ```
-✅Fertig ist die phpMyAdmin Installation. 
 
-Das phpMyAdmin Webinterface kann nun via Browser mit /phpmyadmin geöffnet werden, z.B 123.123.123.123/phpmyadmin
+✅ The phpMyAdmin installation is finished. 
+
+The phpMyAdmin web interface can now be opened via browser with/phpmyadmin, e.g. 123.123.123.123/phpmyadmin
