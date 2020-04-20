@@ -48,7 +48,7 @@ Daraufhin prüfen wir, ob dort **unsere** Ip aus dem Interface eingetragen ist. 
 
 Im Anschluss übernimmt man die Einstellungen und startet den Server ggf. neu.
 
-**Sollte danach immer noch keine aktive Internetverbindung da sein, dann muss der Support angeschrieben werden sodass diese die Ip ein mal ändern, da sie dann woanders bereits vergeben ist.** 
+**Sollte danach immer noch keine aktive Internetverbindung da sein, dann muss der Support angeschrieben werden, sodass diese die Ip ein mal ändern, da sie dann woanders bereits vergeben ist.** 
 
 
 
