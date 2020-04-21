@@ -85,6 +85,7 @@
 					"domain_easydns",
 					"domain_profidns",
 					"domain_expertdns",
+					"domain_records",
 					"domain_gameserver_srv_link"
 				]
 			},
