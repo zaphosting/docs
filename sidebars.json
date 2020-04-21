@@ -194,6 +194,10 @@
 			"ids": [
 				"arma3_serverconfig"
 			]
-		}]
+		}],
+		"Assetto Corsa": [
+			"assettocorsa_configure",
+			"assettocorsa_mods"
+		]
 	}
 }
