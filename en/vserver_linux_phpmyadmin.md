@@ -104,7 +104,7 @@ Alias /phpmyadmin /usr/share/phpmyadmin
 </Directory>
 ```
 
-If the Apach2-phpMyAdmin-Config is now filled with the content, it can be saved and closed with *** CTRL + X ***, then press the *** Y key *** and with *** Enter *** to confirm. The newly created Apache2-phpMyAdmin-Config must be activated/read in by the Apache2 server:
+If the Apache2-phpMyAdmin-Config is now filled with the content, it can be saved and closed with *** CTRL + X ***, then press the *** Y key *** and with *** Enter *** to confirm. The newly created Apache2-phpMyAdmin-Config must be activated/read in by the Apache2 server:
 
 ```
 a2enconf phpmyadmin
