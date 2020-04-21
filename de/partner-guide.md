@@ -45,7 +45,7 @@ Sobald Partner den finalen Rang des **Diamond Partners** erreicht haben, winken 
 
 
 ## ⭐️ Das Partner Menü
-Jeder ZAP-Partner bekommt Zugriff auf das Paner Menü, in dem er unter Anderem die Kontaktdaten seines Partner Managers findet, Einblick in seine Statistiken bekommt, Werbemittel erstellen kann und natürlich auch individuelle Links anlegen kann.
+Jeder ZAP-Partner bekommt Zugriff auf das Partner Menü, in dem er unter anderem die Kontaktdaten seines Partner Managers findet, Einblick in seine Statistiken bekommt, Werbemittel erstellen kann und natürlich auch individuelle Links anlegen kann.
 
 ![](https://screensaver01.zap-hosting.com/index.php/apps/files_sharing/publicpreview/2FLZnd2qBj2q2sG?x=1920&y=587&a=true&file=chrome_1r2PNNLlAV.png&scalingup=0)
 
