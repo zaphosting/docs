@@ -101,6 +101,10 @@
         "title": "ProfiDNS",
         "sidebar_label": "ProfiDNS"
       },
+      "domain_records": {
+        "title": "Domain Records",
+        "sidebar_label": "Domain Records"
+      },
       "firststeps_register": {
         "title": "Register",
         "sidebar_label": "Register"
