@@ -53,6 +53,14 @@
         "title": "Server.cfg",
         "sidebar_label": "Server.cfg"
       },
+      "assettocorsa_configure": {
+        "title": "Server Konfigurieren",
+        "sidebar_label": "Server Konfigurieren"
+      },
+      "assettocorsa_mods": {
+        "title": "Mods Installieren",
+        "sidebar_label": "Mods Installieren"
+      },
       "beispiel": {
         "title": "Beispiel-Eintrag",
         "sidebar_label": "Beispiel Eintrag"
@@ -92,6 +100,10 @@
       "domain_profidns": {
         "title": "ProfiDNS",
         "sidebar_label": "ProfiDNS"
+      },
+      "domain_records": {
+        "title": "Domain Records",
+        "sidebar_label": "Domain Records"
       },
       "firststeps_register": {
         "title": "Register",
@@ -307,7 +319,8 @@
       "FiveM": "FiveM",
       "RageMP": "RageMP",
       "Source Games": "Source Games",
-      "ArmA 3": "ArmA 3"
+      "ArmA 3": "ArmA 3",
+      "Assetto Corsa": "Assetto Corsa"
     }
   },
   "pages-strings": {

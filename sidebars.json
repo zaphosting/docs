@@ -86,6 +86,7 @@
 					"domain_easydns",
 					"domain_profidns",
 					"domain_expertdns",
+					"domain_records",
 					"domain_gameserver_srv_link"
 				]
 			},
@@ -195,6 +196,10 @@
 			"ids": [
 				"arma3_serverconfig"
 			]
-		}]
+		}],
+		"Assetto Corsa": [
+			"assettocorsa_configure",
+			"assettocorsa_mods"
+		]
 	}
 }
