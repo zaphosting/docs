@@ -21,7 +21,7 @@ Diese kann nach einem Klick auf das Windows Logo gesucht werden
 Bei der eingehenden Regel werden die Ports für Anwendungen freigegeben welche von außen versuchen mit dem Server zu kommunizieren.
 Bei der ausgehenden Regel werden die Ports für Anwendungen freigegeben welche vom Server nach außen kommunizieren möchten.
 
-Die Portfreigabe für die ""**Ausgehende Regel**" funktioniert auf gleichem Wege wie für die "**Eingehende Regel**", wir zeigen in diesem Beispiel daher nur die Freigabe eines Ports für die "**Eingehende Regel**".
+Die Portfreigabe für die "**Ausgehende Regel**" funktioniert auf gleichem Wege wie für die "**Eingehende Regel**", wir zeigen in diesem Beispiel daher nur die Freigabe eines Ports für die "**Eingehende Regel**".
 
 Sobald in der Firewall Verwaltung die "**Eingehende Regel**" oder "**Ausgehende Regel**" ausgewählt wurde, muss bei diesem eine "**Neue Regel**" erstellt werden.
 
