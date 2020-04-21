@@ -238,7 +238,8 @@
         "sidebar_label": "Installation"
       },
       "voiceserver_voicebot_connection": {
-        "title": "voiceserver_voicebot_connection"
+        "title": "Voicebot Connection",
+        "sidebar_label": "Voicebot Connection"
       },
       "vserver_linux_dnsserver": {
         "title": "DNS Server (ISPConfig)",
