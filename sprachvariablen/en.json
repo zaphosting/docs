@@ -237,6 +237,9 @@
         "title": "Installation",
         "sidebar_label": "Installation"
       },
+      "voiceserver_voicebot_connection": {
+        "title": "voiceserver_voicebot_connection"
+      },
       "vserver_linux_dnsserver": {
         "title": "DNS Server (ISPConfig)",
         "sidebar_label": "DNS Server (ISPConfig)"
@@ -319,6 +322,7 @@
       "Gameserver - General": "Gameserver - General",
       "vServer & Rootserver": "vServer & Rootserver",
       "Webspace & Domains": "Webspace & Domains",
+      "Voicebot/Voiceserver": "Voicebot/Voiceserver",
       "Minecraft": "Minecraft",
       "FiveM": "FiveM",
       "RageMP": "RageMP",
