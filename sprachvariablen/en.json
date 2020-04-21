@@ -285,6 +285,10 @@
         "title": "No Internet what now?",
         "sidebar_label": "No Internet what now?"
       },
+      "vserver_windows_port": {
+        "title": "Open Ports",
+        "sidebar_label": "Open Ports"
+      },
       "vserver_windows_userdp": {
         "title": "Erstzugriff (RDP)",
         "sidebar_label": "Erstzugriff (RDP)"
