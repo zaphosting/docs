@@ -16,7 +16,7 @@ However, in many cases, one or more files with the file extension **.sql** are e
 ## Preparation and establishment of the database
 
 In the settings of your FiveM Server the option **Configure database** must be activated at the beginning and 
-the required resource **MySQL-Ansync** must be installed, so that a database can be created and used
+the required resource **MySQL-Async** must be installed, so that a database can be created and used
 
 ![](https://puu.sh/Fo5WF/74b8db03f9.png)
 
