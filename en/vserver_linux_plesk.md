@@ -6,110 +6,58 @@ sidebar_label: Plesk
 
 ## Plesk installieren
 
-> Führe vor dem Install apt update und apt upgrade aus, damit auf dem Server die neusten Pakete installiert sind. 
-Plesk kann aktuell nur auf Debian 8 (Jessie), Debian 9 (Strech), Ubuntu 16.04 (Xenial Xerus), Ubuntu 18.04 (Bionic Beaver), CentOS 6/7/8, Red Hat Enterprise Linux 6.x/7.x/8.x, CloudLinux 6.x/7.1+ und Virtuozzo Linux 7 installiert werden. Die Architektur muss 64 Bit sein.
+> Before installing, run apt update and apt upgrade so that the latest packages are installed on the server. 
+Plesk can currently only be installed on Debian 8 (Jessie), Debian 9 (Strech), Ubuntu 16.04 (Xenial Xerus), Ubuntu 18.04 (Bionic Beaver), CentOS 6/7/8, Red Hat Enterprise Linux 6.x/7.x/8.x, CloudLinux 6.x/7.1+ and Virtuozzo Linux 7. The architecture must be 64-bit.
 
-Die Verbindung zum Server kann zum Beispiel via Putty erfolgen.
+The connection to the server can be made via Putty, for example.
+
+
+## Starting the installation 
 
 <!--DOCUSAURUS_CODE_TABS-->
 <!--One-Click Installation-->
 
-### Starten der Installation
+For Plesk to install fully automatically with the standard components and features used by most Plesk users, only one command is required:
 
-Damit Plesk sich voll automatisch mit den Standardkomponenten sowie Funktionen installiert, die die meisten Plesk User nutzen, ist nur ein Befehl notwendig:
-
->Der Plesk Installer installiert immer die neuste/aktuelleste Version von Plesk. Es kann passieren das die hier gezeigten Grafiken/Screenshots nicht die neuste/aktuellese Version von Plesk zeigen.
+>The Plesk installer always installs the latest/most recent version of Plesk. It may happen that the graphics/screenshots shown here do not show the latest/most recent version of Plesk.
 
 ```
 sh <(curl https://autoinstall.plesk.com/one-click-installer || wget -O - https://autoinstall.plesk.com/one-click-installer)
 ```
 
-> Sollte dieser Fehler angezeigt werden: "-bash: curl: command not found" so muss mit ``` apt install curl``` das Paket nachgeladen werden.
+> If this error is displayed: "-bash: curl: command not found" you have to reload the package with `` apt install curl``.
 
-Sobald dieser Befehl ausgeführt wurde, dauert es in der Regel zwischen 15 und 60 Minuten bis Plesk vollständig installiert ist.
+Once this command has been executed, it usually takes between 15 and 60 minutes to fully install Plesk.
 
-> Die SSH Sitzung darf nicht geschlossen werden solange der Installer noch aktiv ist. Dies würde sonst zum Abbruch führen. 
-Ebenfalls müsste der Server anschließend neu installiert werden, damit der Installer erneut gestartet werden kann. 
-Wird der Installer erneut gestartet ohne vorherigen Reinstalls des Servers, so wird es bei der Installation, spätestens jedoch im Plesk Panel selber Probleme mit nicht funktionierenden Features geben. 
+> The SSH session must not be closed while the installer is still active. This would otherwise lead to termination. 
+Also, the server would have to be reinstalled to restart the installer. 
+If the installer is restarted without first reinstalling the server, there will be problems with non-functioning features during the installation or in the Plesk panel itself. 
 
-> Es kann passieren das es so aussieht als ob der Installer "stecken" geblieben ist, in 99% der Fälle läuft dieser nach wenigen Minuten weiter, da er erst noch Pakete/Configs und co. konfigurieren muss, benötigt dieser die Zeit.
+> It can happen that it looks like the installer is "stuck", in 99% of the cases the installer will continue to run after a few minutes, because it still has to configure packages/configs and co.
 
-### Abschluss der Installation
 
-Die Installation ist abgeschlossen, sobald dies angezeigt wird
+The installation is complete when this is displayed
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/P4CBEszxPZTA6qn/preview)
 
-## Das Plesk Webpanel 
+<!--Web Installation-->
 
-> Es wird beim Aufruf des Webpanels folgendes angezeigt: "Dies ist keine sichere Verbindung". Das muss beim ersten mal bestätigt werden, anschließend öffnet sich die Seite. 
+Only a few commands are needed to install Plesk via the Web. 
 
-Das Webinterface kann über https://IP:8443 oder https://Domain.xx:8443 des Servers erreicht werden. Die Login Daten lauten root/admin und das aktuelle Root Password. Alternativ kann einfach einer der angezeigten URLs genutzt werden, sollten diese nicht mehr gültig sein, kann einfach mit dem Befehl ```plesk login``` neue URLs erstellt werden. 
+> The Plesk installer always installs the latest/most recent version of Plesk. It may happen that the graphics/screenshots shown here do not show the latest/most recent version of Plesk.
 
-### Einrichtung
-
-Sobald die Anmeldung erfolgreich war, muss der Admin Account eingerichtet werden. Es muss ein Kontakt Namen, eine E-Mail sowie ein Password angegeben werden. Sollte bereits eine Plesk Lizenz vorhanden sein, so kann diese direkt eingetragen werden. Alternativ kann eine 15 Tägige Test/Trial Lizenz von Plesk angefordert werden. Zum Schluss muss noch der Nutzungsvertrag bestätigt werden. 
-Plesk kann nun genutzt werden. 
-
-### Sprache einstellen
-
-
-Nach der Installation ist das Plesk-Panel auf Englischer Sprache, die Deutsche Sprache kann unter Tools&Settings --> Plesk Appearance --> Languages eingestellt bzw. ausgewählt werden. Dort muss dann "de-DE" ausgewählt werden. Anschließend kann die Sprache mit Klick auf "Make default" dauerhaft für alle gesetzt werden. 
-Nach einem Logut und anchließendem Login ist das Plesk-Panel in Deutsch vorzufinden.
-
-![](https://screensaver01.zap-hosting.com/index.php/s/z428FDYSsQeiHDK/preview)
-
-### Domain hinzufügen
-
-Um die erste Domain hinzuzufügen klickt man auf den blauen Button "Domain hinzufügen".
-
-![](https://screensaver01.zap-hosting.com/index.php/s/iaeTSKXWCSeN9Kk/preview)
-
-Nun kann die eigene Domain eingetragen werden. Ebenfalls muss eine IP sowie ein Benutzernamen und Passwort für den Webspace der Domain festgelegt werden. Sollte bereits die Subdoimain "www" im DNS der Domain eingetragen sein, kann direkt ein SSL Zertifikat von Lets Encrypt mit erstellt werden. Dazu kann diese Option ausgewählt werden, nachdem eine Mail Adresse eingetragen wurde, wird es auf dem blauen "OK" Button bestätigt.  
-
-![](https://screensaver01.zap-hosting.com/index.php/s/GPdFbozmJBgLEYZ/preview)
-
-Nun kann man eine Domain eintragen wählt eine IP-Adresse aus und trägt einem Benutzernamen sowie ein Passwort ein für den Webspace, den man nun zu der Domain anlegt. Man kann insofern man die Subdomain "www" schon erstellt hat, direkt ein SSL Zertifikat von Lets Encrypt mit generieren lassen, dazu wählt man diese Option aus, trägt eine Mail ein und bestätigt dann alles auf dem blauen "OK" Button ganz unten. 
-
-> Die Domain muss auf die IP des Webspaces zeigen, liegt die Domain bei ZAP-Hosting, kann diese via EasyDNS einfach auf den Webspace geleitet werden, liegt sie extern so muss ein A-Record auf die IP gesetzt werden sowie die Subdomain "www", "webmail" müssen ebenfalls auf die IP zeigen. Ein MX Record sollte auch auf die IP des Webspaces angelegt werden. 
-
-![](https://screensaver01.zap-hosting.com/index.php/s/PeYANEka7rysPdN/preview)
-
-> Es kann bis zu 24 Stunden dauern, bis ein neuer/geänderter DNS Eintrag auf das richtige Ziel weiterleitet. 
-
-## SSL Verschlüsselung
-
-Bei der Domain Eintragung/Erstellung vom Webspace wurde bereits ein SSL Zertifikat von Lets Encrypt mit generiert, dies kann nun unter "Hosting Einstellungen" der Domain, eingetragen/ausgewählt werden. Anschließen muss es mit einem Klick auf "Übernehmen" bestätigen.
-
-> Damit dauerhaft auf HTTPS (SSL) geleitet wird beim Aufruf der Webseite muss das Häkchen bei "Dauerhafte, für SEO geeignete 301-Weiterleitung von HTTP zu HTTPS" gesetzt werden. 
-
-![](https://screensaver01.zap-hosting.com/index.php/s/cPQxT5qFAkfy6Gb/preview)
-
-Wird nun die Domain im Browser geöffnet, so zeigt diese ihre Verschlüsslung an.
-
-![](https://screensaver01.zap-hosting.com/index.php/s/Nb3jawSSknSQajg/preview)
-
-> Die Installation sowie der Einrichtung der ersten Domain mit Verschlüsslung ist nun vollständig abgeschlossen. 
-
-<!--Web Instalation-->
-## Starten der Installation 
-
-Damit Plesk via Web installiert wird, sind nur wenige Befehle nötig. 
-
->Der Plesk Installer installiert immer die neuste/aktuelleste Version von Plesk. Es kann passieren das die hier gezeigten Grafiken/Screenshots nicht die neuste/aktuellese Version von Plesk zeigen.
-
-Download des Plesk Installers:
+Download the Plesk Installer:
 ```
 wget https://autoinstall.plesk.com/plesk-installer
 ```
 
-Korrekte Berechtigung setzen:
+Set correct authorization:
 
 ```
 chmod +x plesk-installer
 ```
 
-Starten des Installers:
+Start the installer:
 
 ```
 ./plesk-installer --web-interface
@@ -117,198 +65,110 @@ Starten des Installers:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/6gzT95ded8d99RD/preview)
 
-
-## Öffnen des Web-Installers
-
-Nachdem der Installer gestartet wurde, wird die Installation im Browser vorgenommen. Die Installationsseite ist via https://IP:8447 oder via https://Domain.xx:8447 erreichbar.
-
-## Installationsmenü 
-
-Das System fragt nach den Root Login Daten des Servers:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/TG56okP3yj78SFq/preview)
-
-Nun muss ausgewählt werden das der Installer Plesk installieren soll.
-
-![](https://screensaver01.zap-hosting.com/index.php/s/CM5xppTmzjFdpKw/preview)
-
-Nun muss ausgewählt werden was der Installer installieren soll. In den meisten Fällen ist die "Stable" Version von Plesk die bessere Wahl, vor allem wenn es ein Produktiv System sein soll. Des Weiteren kann ausgewählt werden ob Produkt Daten zur Verbesserung an Plesk übertragen werden dürfen:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/2od57fnQAfreaEZ/preview)
-
-Nun startet der Installer mit der Installation:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/ayf6aPWiwsSjZ83/preview)
-
-![](https://screensaver01.zap-hosting.com/index.php/s/beMTecoE6AYEWeP/preview)
-
->Die SSH Sitzung darf nicht geschlossen werden solange der Installer noch aktiv ist. Dies würde sonst zum Abbruch führen und der Server müsste neuinstalliert werden, damit der Installer neugestartet werden kann. 
-Es kann passieren das es so aussieht als ob der Installer "stecken" geblieben ist, in 99% der Fälle läuft dieser nach wenigen Minuten weiter, da er erst noch Pakete/Configs und co. konfigurieren muss.
-
-## Abschluss der Installation 
-
-Die Installation ist abgeschlossen sobald folgendes erscheint: 
-
-![](https://screensaver01.zap-hosting.com/index.php/s/aZCwB9dYEQ3ip84/preview)
-
-
-## Das Plesk Webpanel 
-
-> Es wird beim Aufruf des Webpanels folgendes angezeigt: "Dies ist keine sichere Verbindung". Das muss beim ersten mal bestätigt werden, anschließend öffnet sich die Seite. 
-
-Das Webinterface kann über https://IP:8443 oder https://Domain.xx:8443 des Servers erreicht werden. Die Login Daten lauten root/admin und das aktuelle Root Password. Alternativ kann einfach einer der angezeigten URLs genutzt werden, sollten diese nicht mehr gültig sein, kann einfach mit dem Befehl ```plesk login``` neue URLs erstellt werden. 
-
-### Einrichtung
-
-Sobald die Anmeldung erfolgreich war, muss der Admin Account eingerichtet werden. Es muss ein Kontakt Namen, eine E-Mail sowie ein Password angegeben werden. Sollte bereits eine Plesk Lizenz vorhanden sein, so kann diese direkt eingetragen werden. Alternativ kann eine 15 Tägige Test/Trial Lizenz von Plesk angefordert werden. Zum Schluss muss noch der Nutzungsvertrag bestätigt werden. 
-Plesk kann nun genutzt werden. 
-
-### Sprache einstellen
-
-
-Nach der Installation ist das Plesk-Panel auf Englischer Sprache, die Deutsche Sprache kann unter Tools&Settings --> Plesk Appearance --> Languages eingestellt bzw. ausgewählt werden. Dort muss dann "de-DE" ausgewählt werden. Anschließend kann die Sprache mit Klick auf "Make default" dauerhaft für alle gesetzt werden. 
-Nach einem Logut und anchließendem Login ist das Plesk-Panel in Deutsch vorzufinden.
-
-![](https://screensaver01.zap-hosting.com/index.php/s/z428FDYSsQeiHDK/preview)
-
-### Domain hinzufügen
-
-Um die erste Domain hinzuzufügen klickt man auf den blauen Button "Domain hinzufügen".
-
-![](https://screensaver01.zap-hosting.com/index.php/s/iaeTSKXWCSeN9Kk/preview)
-
-Nun kann die eigene Domain eingetragen werden. Ebenfalls muss eine IP sowie ein Benutzernamen und Passwort für den Webspace der Domain festgelegt werden. Sollte bereits die Subdoimain "www" im DNS der Domain eingetragen sein, kann direkt ein SSL Zertifikat von Lets Encrypt mit erstellt werden. Dazu kann diese Option ausgewählt werden, nachdem eine Mail Adresse eingetragen wurde, wird es auf dem blauen "OK" Button bestätigt.  
-
-![](https://screensaver01.zap-hosting.com/index.php/s/GPdFbozmJBgLEYZ/preview)
-
-Nun kann man eine Domain eintragen wählt eine IP-Adresse aus und trägt einem Benutzernamen sowie ein Passwort ein für den Webspace, den man nun zu der Domain anlegt. Man kann insofern man die Subdomain "www" schon erstellt hat, direkt ein SSL Zertifikat von Lets Encrypt mit generieren lassen, dazu wählt man diese Option aus, trägt eine Mail ein und bestätigt dann alles auf dem blauen "OK" Button ganz unten. 
-
-> Die Domain muss auf die IP des Webspaces zeigen, liegt die Domain bei ZAP-Hosting, kann diese via EasyDNS einfach auf den Webspace geleitet werden, liegt sie extern so muss ein A-Record auf die IP gesetzt werden sowie die Subdomain "www", "webmail" müssen ebenfalls auf die IP zeigen. Ein MX Record sollte auch auf die IP des Webspaces angelegt werden. 
-
-![](https://screensaver01.zap-hosting.com/index.php/s/PeYANEka7rysPdN/preview)
-
-> Es kann bis zu 24 Stunden dauern, bis ein neuer/geänderter DNS Eintrag auf das richtige Ziel weiterleitet. 
-
-## SSL Verschlüsselung
-
-Bei der Domain Eintragung/Erstellung vom Webspace wurde bereits ein SSL Zertifikat von Lets Encrypt mit generiert, dies kann nun unter "Hosting Einstellungen" der Domain, eingetragen/ausgewählt werden. Anschließen muss es mit einem Klick auf "Übernehmen" bestätigen.
-
-> Damit dauerhaft auf HTTPS (SSL) geleitet wird beim Aufruf der Webseite muss das Häkchen bei "Dauerhafte, für SEO geeignete 301-Weiterleitung von HTTP zu HTTPS" gesetzt werden. 
-
-![](https://screensaver01.zap-hosting.com/index.php/s/cPQxT5qFAkfy6Gb/preview)
-
-Wird nun die Domain im Browser geöffnet, so zeigt diese ihre Verschlüsslung an.
-
-![](https://screensaver01.zap-hosting.com/index.php/s/Nb3jawSSknSQajg/preview)
-
-> Die Installation sowie der Einrichtung der ersten Domain mit Verschlüsslung ist nun vollständig abgeschlossen. 
-
 <!--Konsolen Installation-->
 
-## Starten der Installation 
+Only a few commands are required to install Plesk via the console. 
 
-Damit Plesk via Console installiert wird sind nur wenige Befehle nötig. 
+> The Plesk installer always installs the latest/most recent version of Plesk. It may happen that the graphics/screenshots shown here do not show the latest/most recent version of Plesk.
 
->Der Plesk Installer installiert immer die neuste/aktuelleste Version von Plesk. Es kann passieren das die hier gezeigten Grafiken/Screenshots nicht die neuste/aktuellese Version von Plesk zeigen.
-
-Download des Installers:
+Download the installer:
 
 ```
 wget https://autoinstall.plesk.com/plesk-installer
 ```
 
-Korrekte Berechtigung setzen:
+Set correct authorization:
 
 ```
 chmod +x plesk-installer
 ```
 
-Starten des Installers:
+Start the installer:
 
 ```
 ./plesk-installers
 ```
-## Installationsmenü
 
-Sobald die drei Befehle zum starten ausgeführt wurden, muss der Lizenz zugestimmt werden mit "F": 
+Once the three startup commands have been executed, the license must be approved with "F": 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/B3fEBqeDkzxf3iQ/preview)
 
-Nach der Zustimmung fragt das System, welches Plesk installiert werden soll. In diesem Fall Plesk Obsidian oder Plesk Onyx. Es wird auch gekennzeichnet, welches das stabilere davon ist. In der Regel wird eine "Stable" Version für den Produktiv Einsatz genutzt. Da die ausgewählten Optionen bereits auf die Stable Version zeigen, bestätigt man dies erneut mit "F"
+After approval, the system will ask which Plesk to install. In this case Plesk Obsidian or Plesk Onyx. It will also indicate which is the more stable one. Usually a "stable" version is used for productive use. Since the selected options already point to the stable version, confirm this again with "F".
 
-Die Frage ob Plesk Daten für die Verbesserung der Produkte erheben darf, kann mit "Y"(Yes) oder "n"(No) beantwortet werden. 
+The question of whether Plesk may collect data for product improvement can be answered with "Y"(Yes) or "n"(No). 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/6PEEjG9zTSZTcfJ/preview)
+[](https://screensaver01.zap-hosting.com/index.php/s/6PEEjG9zTSZTcfJ/preview)
 
-Nach der Beantwortung, fragt das System welchen Typ von der ausgewählten Plesk Version installiert werden soll. In der Regel ist der bereits eingestellte Typ "Recommended" ausreichend. Module die später eventuell nicht installiert wurden, aber benötigt werden, können im Plesk Panel nachinstalliert werden. 
+After answering, the system will ask you what type of the selected Plesk version you want to install. Usually the type "Recommended" already set is sufficient. Modules that may not be installed later but are needed can be installed in the Plesk panel. 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/a8Bi982gTtgAcrx/preview)
+[](https://screensaver01.zap-hosting.com/index.php/s/a8Bi982gTtgAcrx/preview)
 
-Die nächste Frage ob Pakete installiert/upgegradet werden dürfen, wird mit "F" bestätigt.
+The next question whether packages may be installed/upgraded is confirmed with "F".
 
-![](https://screensaver01.zap-hosting.com/index.php/s/Sp9DjKBEKkowoo4/preview)
+[](https://screensaver01.zap-hosting.com/index.php/s/Sp9DjKBEKkowoo4/preview)
 
-Nun startet der Installer mit der Installation.
+Now the installer starts the installation.
 
->Die SSH Sitzung darf nicht geschlossen werden solange der Installer noch aktiv ist. Dies würde sonst zum Abbruch führen und der Server müsste neuinstalliert werden, damit der Installer neugestartet werden kann. 
-Es kann passieren das es so aussieht als ob der Installer "stecken" geblieben ist, in 99% der Fälle läuft dieser nach wenigen Minuten weiter, da er erst noch Pakete/Configs und co. konfigurieren muss.
+> The SSH session must not be closed while the installer is still active. This would lead to an abort and the server would have to be reinstalled for the installer to restart. 
+It can happen that it looks like the installer is "stuck", in 99% of the cases the installer continues running after a few minutes, because it has to configure packages/configs and co.
 
-## Abschluss der Installation
-
-Die Installation ist abgeschlossen sobald folgendes erscheint: 
+The installation is complete as soon as the following appears: 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/Fyy72nWq4NbRxmz/preview)
 
+<!--END_DOCUSAURUS_CODE_TABS-->
 
-## Das Plesk Webpanel 
+## Open the Web Installer
 
-> Es wird beim Aufruf des Webpanels folgendes angezeigt: "Dies ist keine sichere Verbindung". Das muss beim ersten mal bestätigt werden, anschließend öffnet sich die Seite. 
+After the installer has been started, the installation is carried out in the browser. The installation page can be reached via https://IP:8447 or via https://Domain.xx:8447.
 
-Das Webinterface kann über https://IP:8443 oder https://Domain.xx:8443 des Servers erreicht werden. Die Login Daten lauten root/admin und das aktuelle Root Password. Alternativ kann einfach einer der angezeigten URLs genutzt werden, sollten diese nicht mehr gültig sein, kann einfach mit dem Befehl ```plesk login``` neue URLs erstellt werden. 
+## The Plesk Web Panel 
 
-### Einrichtung
+> The following is displayed when calling the Web Panel: "This is not a secure connection". This must be confirmed the first time, then the page opens. 
 
-Sobald die Anmeldung erfolgreich war, muss der Admin Account eingerichtet werden. Es muss ein Kontakt Namen, eine E-Mail sowie ein Password angegeben werden. Sollte bereits eine Plesk Lizenz vorhanden sein, so kann diese direkt eingetragen werden. Alternativ kann eine 15 Tägige Test/Trial Lizenz von Plesk angefordert werden. Zum Schluss muss noch der Nutzungsvertrag bestätigt werden. 
-Plesk kann nun genutzt werden. 
+The web interface can be reached via https://IP:8443 or https://Domain.xx:8443 of the server. The login data is root/admin and the current root password. Alternatively you can simply use one of the displayed URLs. If these are no longer valid, you can create new URLs with the command ``plesk login``. 
 
-### Sprache einstellen
+### Setup
+
+As soon as the registration was successful, the Admin Account must be set up. A contact name, an e-mail and a password must be entered. If you already have a Plesk license, you can enter it directly. Alternatively, a 15-day trial license can be requested from Plesk. Finally, the user contract must be confirmed. 
+Plesk can now be used. 
+
+### Set language
 
 
-Nach der Installation ist das Plesk-Panel auf Englischer Sprache, die Deutsche Sprache kann unter Tools&Settings --> Plesk Appearance --> Languages eingestellt bzw. ausgewählt werden. Dort muss dann "de-DE" ausgewählt werden. Anschließend kann die Sprache mit Klick auf "Make default" dauerhaft für alle gesetzt werden. 
-Nach einem Logut und anchließendem Login ist das Plesk-Panel in Deutsch vorzufinden.
+After installation, the Plesk panel is in English, the German language can be set or selected under Tools&Settings ➡️ Plesk Appearance ➡️ Languages. There "de-DE" must be selected. Afterwards the language can be set permanently for all by clicking on "Make default". 
+After a logout and login you will find the Plesk panel in German.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/z428FDYSsQeiHDK/preview)
 
-### Domain hinzufügen
+### Add domain
 
-Um die erste Domain hinzuzufügen klickt man auf den blauen Button "Domain hinzufügen".
+To add the first domain click on the blue button "Add domain".
 
-![](https://screensaver01.zap-hosting.com/index.php/s/iaeTSKXWCSeN9Kk/preview)
+[](https://screensaver01.zap-hosting.com/index.php/s/iaeTSKXWCSeN9Kk/preview)
 
-Nun kann die eigene Domain eingetragen werden. Ebenfalls muss eine IP sowie ein Benutzernamen und Passwort für den Webspace der Domain festgelegt werden. Sollte bereits die Subdoimain "www" im DNS der Domain eingetragen sein, kann direkt ein SSL Zertifikat von Lets Encrypt mit erstellt werden. Dazu kann diese Option ausgewählt werden, nachdem eine Mail Adresse eingetragen wurde, wird es auf dem blauen "OK" Button bestätigt.  
+Now the own domain can be entered. Also an IP as well as a user name and password for the web space of the domain must be defined. If the subdoimain "www" is already entered in the DNS of the domain, an SSL certificate from Lets Encrypt can be created directly. This option can be selected, after entering a mail address, it is confirmed on the blue "OK" button.  
 
-![](https://screensaver01.zap-hosting.com/index.php/s/GPdFbozmJBgLEYZ/preview)
+[](https://screensaver01.zap-hosting.com/index.php/s/GPdFbozmJBgLEYZ/preview)
 
-Nun kann man eine Domain eintragen wählt eine IP-Adresse aus und trägt einem Benutzernamen sowie ein Passwort ein für den Webspace, den man nun zu der Domain anlegt. Man kann insofern man die Subdomain "www" schon erstellt hat, direkt ein SSL Zertifikat von Lets Encrypt mit generieren lassen, dazu wählt man diese Option aus, trägt eine Mail ein und bestätigt dann alles auf dem blauen "OK" Button ganz unten. 
+Now you can enter a domain, select an IP address and enter a user name and password for the web space that you now create for the domain. If you have already created the subdomain "www", you can have Lets Encrypt generate an SSL certificate for you directly, select this option, enter a mail and confirm everything on the blue "OK" button at the bottom. 
 
-> Die Domain muss auf die IP des Webspaces zeigen, liegt die Domain bei ZAP-Hosting, kann diese via EasyDNS einfach auf den Webspace geleitet werden, liegt sie extern so muss ein A-Record auf die IP gesetzt werden sowie die Subdomain "www", "webmail" müssen ebenfalls auf die IP zeigen. Ein MX Record sollte auch auf die IP des Webspaces angelegt werden. 
+> The domain must point to the IP of the webspace, if the domain is ZAP-hosting, it can be easily redirected to the webspace via EasyDNS, if it is external, an A-record must be set to the IP and the subdomain "www", "webmail" must also point to the IP. An MX record should also be set to the IP of the web space. 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/PeYANEka7rysPdN/preview)
 
-> Es kann bis zu 24 Stunden dauern, bis ein neuer/geänderter DNS Eintrag auf das richtige Ziel weiterleitet. 
+> It can take up to 24 hours until a new/changed DNS entry is forwarded to the correct destination. 
 
-## SSL Verschlüsselung
+## SSL encryption
 
-Bei der Domain Eintragung/Erstellung vom Webspace wurde bereits ein SSL Zertifikat von Lets Encrypt mit generiert, dies kann nun unter "Hosting Einstellungen" der Domain, eingetragen/ausgewählt werden. Anschließen muss es mit einem Klick auf "Übernehmen" bestätigen.
+During the domain registration/creation of the web space, an SSL certificate from Lets Encrypt was already generated, this can now be entered/selected under "Hosting settings" of the domain. Afterwards it must confirm with a click on "Apply".
 
-> Damit dauerhaft auf HTTPS (SSL) geleitet wird beim Aufruf der Webseite muss das Häkchen bei "Dauerhafte, für SEO geeignete 301-Weiterleitung von HTTP zu HTTPS" gesetzt werden. 
+> In order to be permanently redirected to HTTPS (SSL) when calling up the web page, the checkbox "Permanent, SEO-suitable 301 forwarding from HTTP to HTTPS" must be checked. 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/cPQxT5qFAkfy6Gb/preview)
+[](https://screensaver01.zap-hosting.com/index.php/s/cPQxT5qFAkfy6Gb/preview)
 
-Wird nun die Domain im Browser geöffnet, so zeigt diese ihre Verschlüsslung an.
+If the domain is now opened in the browser, it shows its encryption.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/Nb3jawSSknSQajg/preview)
 
-> Die Installation sowie der Einrichtung der ersten Domain mit Verschlüsslung ist nun vollständig abgeschlossen. 
-
-<!--END_DOCUSAURUS_CODE_TABS-->
+> The installation as well as the setup of the first domain with encryption is now completely finished. 
