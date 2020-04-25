@@ -1,5 +1,5 @@
 ---
-id: paymentoptions
+id: account_paymentoptions
 title: Zahlungsoptionen
 sidebar_label: Zahlungsoptionen
 ---
