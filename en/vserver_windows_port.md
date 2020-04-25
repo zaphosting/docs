@@ -1,6 +1,6 @@
 ---
 id: vserver_windows_port
-title: Ports freigeben
+title: Port forwarding
 sidebar_label: Port forwarding
 ---
 
