@@ -119,27 +119,6 @@
                 "ids": [
                     "minecraft_pluginuploader"
                 ]
-            },
-            {
-                "type": "subcategory",
-                "label": "Feed the Beast",
-                "ids": [
-                    "minecraft_direwolf20"
-                ]
-            },
-            {
-                "type": "subcategory",
-                "label": "AT Launcher",
-                "ids": [
-
-                ]
-            },
-            {
-                "type": "subcategory",
-                "label": "Technic Launcher",
-                "ids": [
-
-                ]
             }
         ],
         "FiveM": [
