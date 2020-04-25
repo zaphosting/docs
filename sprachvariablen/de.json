@@ -144,6 +144,14 @@
                 "title": "Replacement Carmods Installieren",
                 "sidebar_label": "Replacement Carmods Installieren"
             },
+            "fivem_esx_changemoneyicon": {
+                "title": "Geldicon Ändern",
+                "sidebar_label": "Geldicon Ändern"
+            },
+            "fivem_esx_disableinventory": {
+                "title": "Inventar (F2) Deaktivieren",
+                "sidebar_label": "Inventar (F2) Deaktivieren"
+            },
             "fivem_rcon": {
                 "title": "Rcon Benutzen",
                 "sidebar_label": "Rcon Benutzen"
