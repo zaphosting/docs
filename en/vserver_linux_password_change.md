@@ -1,7 +1,7 @@
 ---
-id: change_password_vps_root
-title: Passwort ändern (vServer/Root Server)
-sidebar_label: Passwort ändern (vServer/Root Server)
+id: vserver_linux_password_change
+title: Passwort ändern
+sidebar_label: Passwort ändern
 ---
 
 ## Wie ändert man das Passwort von einem vServer oder Root Server richtig? 
