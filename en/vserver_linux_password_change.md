@@ -1,6 +1,6 @@
 ---
 id: vserver_linux_password_change
-title: Passwort ändern
+title: Passwort ändern 
 sidebar_label: Passwort ändern
 ---
 
