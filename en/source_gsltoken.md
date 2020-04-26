@@ -4,13 +4,13 @@ title: Gameserver Login Token
 sidebar_label: GSL-Token
 ---
 
-## Was ist ein GSL Token?
+## ❓ Was ist ein GSL Token?
 
 Gameserver Login Tokens (GSLTs) ist ein Verfahren, welches Steam als Schutzmaßnahme implementiert hat. Um Gameserver von gewissen Steam Games (hauptsächlich Source-Games) zu betreiben ist es zwingend notwendig einen Token zu generieren. 
 
 
 
-## Was ist der Sinn eines GSL Token?
+## ❓ Was ist der Sinn eines GSL Token?
 
 In der Vergangenheit gab es seitens Valve einige Regeländerungen für das Betreiben eines Gameservers. An diese haben sich nicht alle Betreiber eines Gameserver gehalten. Als Folge wurden dann die IP-Adressen der Gameserver gesperrt, welche sich nicht an die Richtlinien gehalten haben. 
 
@@ -22,7 +22,7 @@ Deshalb wurde das Verfahren eingebunden, welches stattdessen nun die Tokens und 
 
 
 
-## Token erstellen
+## ➕ Token erstellen
 
 Um einen Gameserver Login Token zu erstellen, muss man auf der Steam Webseite eingeloggt sein. Der Token kann unter hier erstellt werden: [Steam Game Server Account Management](https://steamcommunity.com/dev/managegameservers)
 
@@ -55,7 +55,7 @@ Wenn dieser Schritt abgeschlossen ist und im Anschluss der Server neu gestartet 
 
 
 
-## Häufig gestellte Fragen
+## ⁉ Häufig gestellte Fragen
 
 **Was sind die Voraussetzungen für einen GSL-Token?**
 
@@ -63,7 +63,7 @@ Der Steam Account darf keine Einschränkung wie einen Community Ban vorweisen. Z
 
 
 
-**Kann ich einen GSL-Token für mehrere Server verwenden? **
+**Kann ich einen GSL-Token für mehrere Server verwenden?**
 
 Für jeden einzelnen Gameserver wird ein individueller Token benötigt.
 
