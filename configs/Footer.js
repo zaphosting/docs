@@ -27,13 +27,13 @@ class Footer extends React.Component {
         <section className="sitemap">
           <div>
           <h5>Rent a Server</h5>
-            <a href="/en/rent-a-virtual-server/">Rent a VPS</a>
-            <a href="/en/rent-a-root-server/">Rent a rootserver</a>
-            <a href="/en/rent-a-gameserver/">Rent a gameserver</a>
-            <a href="/en/rent-a-teamspeak-3-server/">Rent a TS3 server</a>
-            <a href="/en/rent-a-discord-musicbot/">Rent a Discord Musicbot</a>
-            <a href="/en/domain-check/">Rent a domain</a>
-            <a href="/en/webhosting-rent-a-webspace/">Rent a webspace</a>
+            <a href="https://zap-hosting.com/en/rent-a-virtual-server/">Rent a VPS</a>
+            <a href="https://zap-hosting.com/en/rent-a-root-server/">Rent a rootserver</a>
+            <a href="https://zap-hosting.com/en/rent-a-gameserver/">Rent a gameserver</a>
+            <a href="https://zap-hosting.com/en/rent-a-teamspeak-3-server/">Rent a TS3 server</a>
+            <a href="https://zap-hosting.com/en/rent-a-discord-musicbot/">Rent a Discord Musicbot</a>
+            <a href="https://zap-hosting.com/en/domain-check/">Rent a domain</a>
+            <a href="https://zap-hosting.com/en/webhosting-rent-a-webspace/">Rent a webspace</a>
           </div>
           <div>
             <h5>Social</h5>
