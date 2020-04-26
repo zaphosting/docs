@@ -42,8 +42,8 @@ class Footer extends React.Component {
             <a href="https://zap-hosting.com/en/blog/">Blog</a>
             <a href="https://zap-hosting.com/en/jobs/">Jobs</a>
             <a href="https://zap-hosting.com/en/gutscheinportal/">Voucher Codes</a>
-            <a href="https://zap-hosting.com//en/partner/">Our partners</a>
-            <a href="https://zap-hosting.com//en/affiliate/">Earn money</a>
+            <a href="https://zap-hosting.com/en/partner/">Our partners</a>
+            <a href="https://zap-hosting.com/en/affiliate/">Earn money</a>
           </div>
           <div>
             <h5>Support</h5>
@@ -55,7 +55,7 @@ class Footer extends React.Component {
           <div>
           <h5>Legal</h5>
           <a href="https://zap-hosting.com/en/terms/" target="new">Terms</a>
-          <a href="https://zap-hosting.com/de/impressum/" target="new">Imprint</a>
+          <a href="https://zap-hosting.com/en/imprint/" target="new">Imprint</a>
           <a href="https://zap-hosting.com/en/privacy-policy/" target="new">Privacy Policy</a>
           <a href="https://zap-hosting.com/en/security/" target="new">Security</a>
           </div>
