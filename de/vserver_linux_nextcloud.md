@@ -43,7 +43,7 @@ Um eine optimale Leistung, Stabilität und Funktionalität zu gewährleisten, wi
 
 ### Vorbereitung
 
-Damit die Cloud auf einem Linux-Server installiert werden kann, muss eine Verbindung über einen SSH-Client hergestellt werden. Wenn du dir nicht sicher bist, wie man SSH benutzt, findest du hier eine Anleitung dazu: [Erstzugriff (SSH)]([vserver_linux_ssh.md](https://github.com/zap-docs/docs/blob/master/de/vserver_linux_ssh.md))
+Damit die Cloud auf einem Linux-Server installiert werden kann, muss eine Verbindung über einen SSH-Client hergestellt werden. Wenn du dir nicht sicher bist, wie man SSH benutzt, findest du hier eine Anleitung dazu: [Erstzugriff (SSH)](vserver_linux_ssh.md)
 
 Sobald die Verbindung hergestellt wurde, ist es möglich, mit der Installation der notwendigen Pakete zu beginnen, welche für die eigentliche Installation von Nextcloud erforderlich sind. Dazu gehört zum einen die Installation eines Webservers als auch PHP.
 
