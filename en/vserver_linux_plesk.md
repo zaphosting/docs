@@ -25,7 +25,7 @@ For Plesk to install fully automatically with the standard components and featur
 sh <(curl https://autoinstall.plesk.com/one-click-installer || wget -O - https://autoinstall.plesk.com/one-click-installer)
 ```
 
-> If this error is displayed: "-bash: curl: command not found" you have to reload the package with `` apt install curl``.
+> If this error is displayed: "-bash: curl: command not found" you have to reload the package with `apt install curl`.
 
 Once this command has been executed, it usually takes between 15 and 60 minutes to fully install Plesk.
 
