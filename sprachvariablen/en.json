@@ -221,6 +221,10 @@
         "title": "RCON",
         "sidebar_label": "RCON"
       },
+      "minecraft_whitelist": {
+        "title": "Whitelist",
+        "sidebar_label": "Whitelist"
+      },
       "minecraft_worlds": {
         "title": "Worlds",
         "sidebar_label": "Worlds"
@@ -233,6 +237,10 @@
         "title": "Installing packages",
         "sidebar_label": "Installing packages"
       },
+      "source_gsltoken": {
+        "title": "Gameserver Login Token",
+        "sidebar_label": "GSL-Token"
+      },
       "source_metamod_addadmins": {
         "title": "Become an admin",
         "sidebar_label": "Become an admin"
@@ -240,6 +248,10 @@
       "source_metamod_installation": {
         "title": "Installation",
         "sidebar_label": "Installation"
+      },
+      "source_metamod_plugins": {
+        "title": "Plugins",
+        "sidebar_label": "Plugins"
       },
       "spaceengineers_becomeadmin": {
         "title": "Admin werden",
@@ -264,6 +276,10 @@
       "vserver_linux_java": {
         "title": "Java installieren",
         "sidebar_label": "Java installieren"
+      },
+      "vserver_linux_nextcloud": {
+        "title": "Nextcloud",
+        "sidebar_label": "Nextcloud"
       },
       "vserver_linux_openvpn": {
         "title": "OpenVPN",
