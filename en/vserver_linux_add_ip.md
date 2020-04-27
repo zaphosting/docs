@@ -74,7 +74,7 @@ Das Netzwerkmodul muss nun neugestartet werden, damit die die neue IPv4 Adresse 
 ```
 sudo service networking restart
 ```
-Sobald dies abgeschlossen ist, ist der Server über beide IPv4 erreichbar. 
+Sobald dies abgeschlossen ist, ist der Server über beide IPv4 Adressen erreichbar. 
 Dies kann z.b mit einem Ping Check via Windows CMD oder Linux Terminal, je nach eigenem Rechner Betriebsystem geprüft werden:
 ```
 ping DieNeueIP
