@@ -133,6 +133,14 @@
         "title": "Dashboard",
         "sidebar_label": "Dashboard"
       },
+      "fivem_esx_changemoneyicon": {
+        "title": "Change Money Icon",
+        "sidebar_label": "Change Money Icon"
+      },
+      "fivem_esx_disableinventory": {
+        "title": "Deactivate the Inventory (F2)",
+        "sidebar_label": "Deactivate the Inventory (F2)"
+      },
       "fivem_installresources": {
         "title": "Resource Installation",
         "sidebar_label": "Resource Installation"
@@ -200,10 +208,6 @@
       "minecraft_default_config": {
         "title": "Server Config",
         "sidebar_label": "Server Config"
-      },
-      "minecraft_direwolf20": {
-        "title": "Direwolf20",
-        "sidebar_label": "Direwolf20"
       },
       "minecraft_pluginuploader": {
         "title": "Plugin Uploader",
