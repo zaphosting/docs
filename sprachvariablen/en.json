@@ -286,8 +286,8 @@
         "sidebar_label": "What is  VNC (Serial console)?"
       },
       "vserver_windows_addip": {
-        "title": "Zusätzliche IPs hinzufügen",
-        "sidebar_label": "Zusätzliche IPs hinzufügen"
+        "title": "Add additional IPs",
+        "sidebar_label": "Add additional IPs"
       },
       "vserver_windows_nointernet": {
         "title": "No Internet what now?",
