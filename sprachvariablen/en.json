@@ -33,6 +33,10 @@
         "title": "Partner System",
         "sidebar_label": "Partner System"
       },
+      "account_paymentoptions": {
+        "title": "Payment options",
+        "sidebar_label": "Payment options"
+      },
       "account_security": {
         "title": "Safety",
         "sidebar_label": "Safety"
@@ -133,6 +137,14 @@
         "title": "Dashboard",
         "sidebar_label": "Dashboard"
       },
+      "fivem_esx_changemoneyicon": {
+        "title": "Change Money Icon",
+        "sidebar_label": "Change Money Icon"
+      },
+      "fivem_esx_disableinventory": {
+        "title": "Deactivate the Inventory (F2)",
+        "sidebar_label": "Deactivate the Inventory (F2)"
+      },
       "fivem_installresources": {
         "title": "Resource Installation",
         "sidebar_label": "Resource Installation"
@@ -182,8 +194,8 @@
         "sidebar_label": "Restartplaner"
       },
       "gameserver_server_down_what_now": {
-        "title": "Server down - What now?",
-        "sidebar_label": "Server down - What now?"
+        "title": "Server crash - What to do?",
+        "sidebar_label": "Server crash - What to do?"
       },
       "gameswitch": {
         "title": "Spielwechsel mit der Gameservercloud",
@@ -201,10 +213,6 @@
         "title": "Server Config",
         "sidebar_label": "Server Config"
       },
-      "minecraft_direwolf20": {
-        "title": "Direwolf20",
-        "sidebar_label": "Direwolf20"
-      },
       "minecraft_pluginuploader": {
         "title": "Plugin Uploader",
         "sidebar_label": "Plugin Uploader"
@@ -221,13 +229,9 @@
         "title": "Partner Guide",
         "sidebar_label": "Partner Guide"
       },
-      "paymentoptions": {
-        "title": "Payment Options",
-        "sidebar_label": "Payment Options"
-      },
       "ragemp_installpackages": {
-        "title": "Install Packages",
-        "sidebar_label": "Install Packages"
+        "title": "Installing packages",
+        "sidebar_label": "Installing packages"
       },
       "source_metamod_addadmins": {
         "title": "Become an admin",
@@ -271,7 +275,7 @@
       },
       "vserver_linux_ssh": {
         "title": "Erstzugriff (SSH)",
-        "sidebar_label": "Erstzugriff (SSH)"
+        "sidebar_label": "Initial access (SSH)"
       },
       "vserver_root_unterschied": {
         "title": "Rootserver versus vServer",
@@ -279,7 +283,7 @@
       },
       "vserver_vnc": {
         "title": "What is VNC?",
-        "sidebar_label": "What is  VNC?"
+        "sidebar_label": "What is  VNC (Serial console)?"
       },
       "vserver_windows_addip": {
         "title": "Zusätzliche IPs hinzufügen",
@@ -290,20 +294,20 @@
         "sidebar_label": "No Internet what now?"
       },
       "vserver_windows_port": {
-        "title": "Open Ports",
-        "sidebar_label": "Open Ports"
+        "title": "Port forwarding",
+        "sidebar_label": "Port forwarding"
       },
       "vserver_windows_userdp": {
-        "title": "Erstzugriff (RDP)",
-        "sidebar_label": "Erstzugriff (RDP)"
+        "title": "Initial access (RDP)",
+        "sidebar_label": "Initial access (RDP)"
       },
       "webspace_dashboard": {
         "title": "Dashboard",
         "sidebar_label": "Dashboard"
       },
       "webspace_plesk_ftp": {
-        "title": "FTP Verbindung Anlegen",
-        "sidebar_label": "FTP Verbindung Anlegen"
+        "title": "FTP Connection",
+        "sidebar_label": "FTP Connection"
       },
       "webspace_plesk_sendmail": {
         "title": "E-Mails verschicken",
