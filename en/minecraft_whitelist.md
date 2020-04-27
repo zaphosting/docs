@@ -2,7 +2,6 @@
 id: minecraft_whitelist
 title: Whitelist
 sidebar_label: Whitelist
-
 ---
 
 Die **Minecraft Whitelist** ist eine Möglichkeit um seinen Server zu schützen, indem nur ausgewählte Spieler, die auf der Liste stehen die Erlaubnis haben, sich mit dem Server zu verbinden. Denn Minecraft bietet standardmäßig keine Server Passwort Option wie manch andere Spiele.
