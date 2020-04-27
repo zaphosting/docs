@@ -273,6 +273,10 @@
         "title": "Docker",
         "sidebar_label": "Docker"
       },
+      "vserver_linux_ftp": {
+        "title": "FTP Dienst funtkioniert nicht",
+        "sidebar_label": "FTP Dienst funtkioniert nicht"
+      },
       "vserver_linux_gs_interface": {
         "title": "Gameserver / Ts 3 Server Interface",
         "sidebar_label": "Gameserver / Ts 3 Server Interface"
@@ -288,6 +292,10 @@
       "vserver_linux_openvpn": {
         "title": "OpenVPN",
         "sidebar_label": "OpenVPN"
+      },
+      "vserver_linux_password_change": {
+        "title": "Passwort ändern",
+        "sidebar_label": "Passwort ändern"
       },
       "vserver_linux_phpmyadmin": {
         "title": "phpMyAdmin",
