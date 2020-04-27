@@ -58,12 +58,12 @@
         "sidebar_label": "Server.cfg"
       },
       "assettocorsa_configure": {
-        "title": "Server Konfigurieren",
-        "sidebar_label": "Server Konfigurieren"
+        "title": "Configure Server",
+        "sidebar_label": "Configure Server"
       },
       "assettocorsa_mods": {
-        "title": "Mods Installieren",
-        "sidebar_label": "Mods Installieren"
+        "title": "Install Mods",
+        "sidebar_label": "Install Mods"
       },
       "beispiel": {
         "title": "Beispiel-Eintrag",
@@ -150,8 +150,8 @@
         "sidebar_label": "Resource Installation"
       },
       "fivem_mods_installaddon": {
-        "title": "Addon Carmods Installieren",
-        "sidebar_label": "Addon Carmods Installieren"
+        "title": "Install Addon Carmods",
+        "sidebar_label": "Install Addon Carmods"
       },
       "fivem_mods_installreplace": {
         "title": "Install Replace Carmods",
