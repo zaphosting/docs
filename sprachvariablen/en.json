@@ -261,6 +261,10 @@
         "title": "Voicebot Connection",
         "sidebar_label": "Voicebot Connection"
       },
+      "vserver_linux_add_ip": {
+        "title": "IPv4 Adresse hinzufügen",
+        "sidebar_label": "IPv4 Adresse hinzufügen"
+      },
       "vserver_linux_dnsserver": {
         "title": "DNS Server (ISPConfig)",
         "sidebar_label": "DNS Server (ISPConfig)"
