@@ -1,3 +1,9 @@
+---
+id: source_metamod_plugins
+title: Plugins
+sidebar_label: Plugins
+---
+
 ## 🔼 Plugin Installation
 
 Im Folgenden wird erklärt wie man Plugins installieren kann. Für das Nutzen von Plugins wird Sourcemod / Metamod vorausgesetzt. Eine Anleitung zur Installation findest du hier: [SM / MM installation](source_metamod_installation.md)
