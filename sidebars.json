@@ -15,6 +15,7 @@
         "Account": [
             "account_contractsandprepaid",
             "account_termination_and_cancellation_period",
+            "account_paymentoptions",
             "account_2factor",
             "account_backup_storage",
             "account_friends",
@@ -64,7 +65,9 @@
                     "vserver_linux_plesk",
                     "vserver_linux_openvpn",
                     "vserver_linux_gs_interface",
+                    "vserver_linux_nextcloud",                    
                     "vserver_linux_add_ip"
+
                 ]
             },
             {
@@ -111,7 +114,8 @@
                     "minecraft_addop",
                     "minecraft_default_config",
                     "minecraft_worlds",
-                    "minecraft_rcon"
+                    "minecraft_rcon",
+                    "minecraft_whitelist"
                 ]
             },
             {
@@ -158,12 +162,15 @@
         "RageMP": [
             "ragemp_installpackages"
         ],
-        "Source Games": [{
+        "Source Games": [
+            "source_gsltoken",
+            {
                 "type": "subcategory",
                 "label": "Sourcemod / Metamod",
                 "ids": [
                     "source_metamod_installation",
-                    "source_metamod_addadmins"
+                    "source_metamod_addadmins",
+                    "source_metamod_plugins"
                 ]
             },
             {
@@ -185,6 +192,9 @@
         "Assetto Corsa": [
             "assettocorsa_configure",
             "assettocorsa_mods"
+        ],
+        "Space Engineers": [
+            "spaceengineers_becomeadmin"
         ]
     }
 }
