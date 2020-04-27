@@ -32,6 +32,10 @@
                 "title": "Partner System",
                 "sidebar_label": "Partner System"
             },
+            "account_paymentoptions": {
+                "title": "Zahlungsoptionen",
+                "sidebar_label": "Zahlungsoptionen"
+            },
             "account_security": {
                 "title": "Sicherheit",
                 "sidebar_label": "Sicherheit"
@@ -208,10 +212,6 @@
                 "title": "Server Config",
                 "sidebar_label": "Server Config"
             },
-            "minecraft_direwolf20": {
-                "title": "Direwolf20",
-                "sidebar_label": "Direwolf20"
-            },
             "minecraft_pluginuploader": {
                 "title": "Plugin Uploader",
                 "sidebar_label": "Plugin Uploader"
@@ -243,6 +243,10 @@
             "source_metamod_installation": {
                 "title": "Installation",
                 "sidebar_label": "Installation"
+            },
+            "spaceengineers_becomeadmin": {
+                "title": "Admin werden",
+                "sidebar_label": "Admin werden"
             },
             "voiceserver_voicebot_connection": {
                 "title": "Voicebot Verbinden",
@@ -336,7 +340,8 @@
             "RageMP": "RageMP",
             "Source Games": "Source Games",
             "ArmA 3": "ArmA 3",
-            "Assetto Corsa": "Assetto Corsa"
+            "Assetto Corsa": "Assetto Corsa",
+            "Space Engineers": "Space Engineers"
         }
     },
     "pages-strings": {
