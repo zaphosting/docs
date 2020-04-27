@@ -1,32 +1,32 @@
 ---
 id: vserver_linux_ssh
 title: Erstzugriff (SSH)
-sidebar_label: Erstzugriff (SSH)
+sidebar_label: Initial access (SSH)
 ---
 
-## Erstzugriff (SSH)
+## Initial access (SSH)
 
 
 
-### 🖥 SSH-Verbindung
+### 🖥 SSH-Connection
 
-Die Linux Server Produkte beinhalten standardmäßig keine grafische Verwaltungsoberfläche, weshalb die Verbindung und Verwaltung über einen SSH-Client (Konsole) erfolgt. Hierbei gibt es eine große Auswahl an SSH-Clients. Im Folgenden gibt es eine Übersicht der bekannten/oft genutzten SSH-Clients. 
+Linux server products do not include a graphical management interface by default, which is why the connection and management is done via an SSH client (console). There is a wide range of SSH clients available. Below is an overview of the known / often used SSH clients. 
 
 
 
-| SSH-Client | Unterstützte Betriebssysteme | Open-Source |                           Download                           |
+| SSH-Client | Supported operating systems | Open-Source |                           Download                           |
 | :--------: | :--------------------------: | :---------: | :----------------------------------------------------------: |
-|   Putty    |        Windows, Linux        |     Ja      |               [Klick](https://www.putty.org/)                |
-|   Kitty    |        Windows, Linux        |     Ja      |        [Klick](http://www.9bis.net/kitty/)                   |
-| MobaXterm  |        Windows, Linux        |     Ja      |           [Klick](https://mobaxterm.mobatek.net/)            |
-| SecureCRT  |     Windows, Linux, Mac      |    Nein     | [Klick](https://www.vandyke.com/cgi-bin/releases.php?product=securecrt) |
-| mRemoteNG  |           Windows            |     Ja      |           [Klick](https://mremoteng.org/download)            |
+|   Putty    |        Windows, Linux        |     Yes      |               [Klick](https://www.putty.org/)                |
+|   Kitty    |        Windows, Linux        |     Yes      |        [Klick](http://www.9bis.net/kitty/)                   |
+| MobaXterm  |        Windows, Linux        |     Yes      |           [Klick](https://mobaxterm.mobatek.net/)            |
+| SecureCRT  |     Windows, Linux, Mac      |    No     | [Klick](https://www.vandyke.com/cgi-bin/releases.php?product=securecrt) |
+| mRemoteNG  |           Windows            |     Yes      |           [Klick](https://mremoteng.org/download)            |
 
 
 
-## 🏘 IP-Adresse & Zugang
+## 🏘 IP address & access
 
-Im Folgenden wird die Verbindung mittels des Putty SSH-Client erläutert. Im Konfigurationsfenster wird hierbei beim **Hostname** die IP-Adresse des Server und der SSH Port 22 eingetragen. Im Anschluss kann der Verbindungsaufbau über den **Open** Button gestartet werden.
+In the following, the connection using the Putty SSH client is explained. In the configuration window, the IP address of the server and the SSH port 22 are entered for the **hostname**. Afterwards, the connection establishment can be started via the **Open** button.
 
 
 
@@ -34,7 +34,7 @@ Im Folgenden wird die Verbindung mittels des Putty SSH-Client erläutert. Im Kon
 
 
 
-> Standardmäßig ist der SSH-Login via Passwort deaktiviert. Solltest du dich mit dem Passwort einloggen wollen, dann muss unter **Zugang & Sicherheit** die Option dafür erst aktiviert werden.
+> By default, SSH login via password is disabled. If you want to log in with the password, you have to activate the option under **Access & Security** first.
 
 
 
@@ -42,11 +42,11 @@ Im Folgenden wird die Verbindung mittels des Putty SSH-Client erläutert. Im Kon
 
 
 
-> Wenn die Verbindung zum Server ersten Mal erfolgt, dann erscheint eine Sicherheitsmeldung von Putty, in der mitgeteilt wird, dass noch kein Host-Schlüssel in der Registrierung zwischengespeichert wurde. Dies kann mit **Ja** bestätigt werden, wenn der Hinweis nicht weiterhin jedes mal erfolgen soll. 
+> When connecting to the server for the first time, a security message from Putty appears, informing you that no host key has been cached in the registry yet. This can be confirmed with **Yes** if you do not want to continue to receive this message every time. 
 
  
 
-Daraufhin öffnet sich die SSH-Konsole in der nach einem **Benutzernamen** und **Kennwort** gefragt wird. Der Benutzername lautet "**root**". Das Passwort ist im Webinterface unter "**Zugang & Sicherheit**" zu finden beziehungsweise kann dort gesetzt werden.
+This opens the SSH console and prompts for a **user name** and **password**. The user name is "**root**". The password can be found in the web interface under "**Access & Security**" or can be set there.
 
 
 
@@ -56,61 +56,61 @@ Daraufhin öffnet sich die SSH-Konsole in der nach einem **Benutzernamen** und *
 
 
 
-## 🔧 Verwaltung des Servers per SSH
+## 🔧 Administration via SSH
 
-Für eine optimale Nutzung des SSH-Clients ist es unerlässlich, die Grundbefehle zu kennen. Im Folgenden findest du eine grobe Übersicht mit allen relevanten Befehlen und deren Bedeutung:
-
+For optimal use of the SSH client, it is essential to know the basic commands. In the following you will find a rough overview with all relevant commands and their meaning:
 
 
 ### Account Verwaltung
 
-| Befehl  |                Beschreibung                |            Syntax            |
+| Command  |                Description                |            Syntax            |
 | :-----: | :----------------------------------------: | :--------------------------: |
-| useradd |          Neuen Benutzer erstellen          | useradd <options> <username> |
-| usermod |      Vorhandenen Benutzer bearbeiten       | usermod <options> <username> |
-| userdel |        Vorhandenen Benutzer löschen        | userdel <options> <username> |
-| passwd  | Passwort eines bestehenden Benutzer ändern |      passwd <username>       |
+| useradd |          Creating a New User          | useradd <options> <username> |
+| usermod |      Edit Existing User       | usermod <options> <username> |
+| userdel |        Remove existing user        | userdel <options> <username> |
+| passwd  | Change password of an existing user |      passwd <username>       |
 
 
 
-### System Verwaltung
+### System Management
 
-| Befehl  |                         Beschreibung                         | Syntax                                       |
+| Befehl  |                         Description                         | Syntax                                       |
 | :-----: | :----------------------------------------------------------: | -------------------------------------------- |
-|   top   | Übersicht von Auslastung, Prozessen und weiteren Informationen (ähnlich wie der Task-Manager von Windows) | top                                          |
-|   df    |            Spreicherverbrauch anzeigen (Patition)            | df -h                                        |
-|   du    |          Spreicherverbrauch anzeigen (Verzeichnis)           | du -sh *                                     |
-|  free   | Speicherauslastung des Systems. Geteilt in RAM und SWAP-Space. | free                                         |
-|  kill   |  Beendet den Prozess mit der uebergebenen Prozess-ID (PID)   | kill <ID>                                    |
-| killall |       Beendet alle Prozesse mit dem uebergebenen Namen       | killall <name>                               |
+|   top   | Overview of workload, processes and other information (similar to the Windows Task Manager)  | top                                          |
+|   df    |            Displaying the use of storage tanks (Patition)            | df -h                                        |
+|   du    |          Displaying the storage tank consumption (directory)           | du -sh *                                     |
+|  free   | Memory usage of the system. Divided into RAM and SWAP space. | free                                         |
+|  kill   |  Terminates the process with the transferred process ID (PID)   | kill <ID>                                    |
+| killall |        Terminates all processes with the given name        | killall <name>                               |
 |   mv    |       Move files or directory to a different location        | mv sourcepath newPath                        |
 |  mkdir  |                    Create a new directory                    | mkdir directoryname                          |
-| service |    Dienst starten, stoppen, neustarten und Status prüfen     | service DienstName start/stop/restart/status |
-| reboot  |                      System neustarten                       | reboot                                       |
+| service |    Start, stop, restart service and check status     | service DienstName start/stop/restart/status |
+| reboot  |                      Restarting the system                        | reboot                                       |
 
 
 
-### Datei Verwaltung
+### File management
 
-| Befehl | Beschreibung                               | Syntax                                   |
+| Command | Description | Syntax
 | ------ | ------------------------------------------ | ---------------------------------------- |
-| ls     | Dateien und Ordner im Verzeichnis anzeigen | ls                                       |
-| cd     | Verzeichnis wechseln                       | cd [OPTION] VERZEICHNIS                  |
-| cp     | Dateien oder Verzeichnisse kopieren        | cp [OPTIONEN] QUELLE ZIEL                |
-| mv     | Datei oder Verzeichnis verschieben         | mv [OPTION] QUELLE ZIEL                  |
-| mkdir  | Neues Verzeichnis erstellen                | mkdir [OPTION] VERZEICHNISNAME           |
-| rmdir  | Existierendes Verzeichnis entfernen        | rmdir [OPTION] VERZEICHNIS               |
-| find   | Dateisystem durchsuchen                    | find [OPTIONEN] [VERZEICHNIS] [AKTIONEN] |
-| grep   | Textdateien durchsuchen                    | grep [OPTIONEN] SUCHMUSTER [DATEI(EN)]   |
+| ls | Show files and folders in directory | ls |
+| cd | change directory | cd [OPTION] DIRECTORY |
+| cp | Copy files or directories | cp [OPTIONS] SOURCE DESTINATION |
+| mv | move file or directory | mv [OPTION] SOURCE DESTINATION |
+| mkdir | Create new directory | mkdir [OPTION] DIRECTORY NAME |
+| rmdir | Remove existing directory | rmdir [OPTION] DIRECTORY
+| find | browse file system | find [OPTIONS] [DIRECTORY] [ACTIONS] |
+| grep | Search text files | grep [OPTIONS] SEARCH PATTERN [FILE(S)] |
 
 
 
-### Netzwerk Verwaltung
+### Network administration
 
-| Befehl   | Beschreibung                                      | Syntax                                    |
+| Command | Description | Syntax
 | -------- | ------------------------------------------------- | ----------------------------------------- |
-| ip       | Netzwerkschnittstellen abfragen und konfigurieren | ip [OPTIONEN] OBJEKT [BEFEHL [ARGUMENTE]] |
-| netstat  | Status der Netzwerkschnittstellen abfragen        | netstat [OPTIONEN]                        |
-| nslookup | DNS-Informationen abfragen                        | nslookup                                  |
-| ping     | Netzverbindung prüfen                             | ping [OPTIONEN] ZIEL                      |
-| rmdir    | Remove an existing directory                      | rmdir directoryname                       |
+| ip | Query and configure network interfaces | ip [OPTIONS] OBJECT [COMMAND [ARGUMENTS]] |
+| netstat | Query status of network interfaces | netstat [OPTIONS] |
+| nslookup | Query DNS information | nslookup |
+| ping | Check network connection | ping [OPTIONS] DESTINATION
+| rmdir | Remove an existing directory | rmdir directoryname
+
