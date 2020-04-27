@@ -16,11 +16,11 @@ Linux server products do not include a graphical management interface by default
 
 | SSH-Client | Supported operating systems | Open-Source |                           Download                           |
 | :--------: | :--------------------------: | :---------: | :----------------------------------------------------------: |
-|   Putty    |        Windows, Linux        |     Ja      |               [Klick](https://www.putty.org/)                |
-|   Kitty    |        Windows, Linux        |     Ja      |        [Klick](http://www.9bis.net/kitty/)                   |
-| MobaXterm  |        Windows, Linux        |     Ja      |           [Klick](https://mobaxterm.mobatek.net/)            |
-| SecureCRT  |     Windows, Linux, Mac      |    Nein     | [Klick](https://www.vandyke.com/cgi-bin/releases.php?product=securecrt) |
-| mRemoteNG  |           Windows            |     Ja      |           [Klick](https://mremoteng.org/download)            |
+|   Putty    |        Windows, Linux        |     Yes      |               [Klick](https://www.putty.org/)                |
+|   Kitty    |        Windows, Linux        |     Yes      |        [Klick](http://www.9bis.net/kitty/)                   |
+| MobaXterm  |        Windows, Linux        |     Yes      |           [Klick](https://mobaxterm.mobatek.net/)            |
+| SecureCRT  |     Windows, Linux, Mac      |    No     | [Klick](https://www.vandyke.com/cgi-bin/releases.php?product=securecrt) |
+| mRemoteNG  |           Windows            |     Yes      |           [Klick](https://mremoteng.org/download)            |
 
 
 
@@ -66,8 +66,8 @@ For optimal use of the SSH client, it is essential to know the basic commands. I
 | Command  |                Description                |            Syntax            |
 | :-----: | :----------------------------------------: | :--------------------------: |
 | useradd |          Creating a New User          | useradd <options> <username> |
-| usermod |      Vorhandenen Benutzer bearbeiten       | usermod <options> <username> |
-| userdel |        Edit existing user        | userdel <options> <username> |
+| usermod |      Edit Existing User       | usermod <options> <username> |
+| userdel |        Remove existing user        | userdel <options> <username> |
 | passwd  | Change password of an existing user |      passwd <username>       |
 
 
