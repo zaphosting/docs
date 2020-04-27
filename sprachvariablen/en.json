@@ -241,6 +241,9 @@
         "title": "Installation",
         "sidebar_label": "Installation"
       },
+      "spaceengineers_becomeadmin": {
+        "title": "spaceengineers_becomeadmin"
+      },
       "voiceserver_voicebot_connection": {
         "title": "Voicebot Connection",
         "sidebar_label": "Voicebot Connection"
@@ -333,7 +336,8 @@
       "RageMP": "RageMP",
       "Source Games": "Source Games",
       "ArmA 3": "ArmA 3",
-      "Assetto Corsa": "Assetto Corsa"
+      "Assetto Corsa": "Assetto Corsa",
+      "Space Engineers": "Space Engineers"
     }
   },
   "pages-strings": {
