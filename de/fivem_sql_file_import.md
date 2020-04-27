@@ -16,7 +16,7 @@ liegt dort jedoch in vielen Fällen eine oder mehrere Dateien mit der Dateiendun
 ## Vorbereitung und Einrichtung der Datenbank
 
 In den Einstellungen deines FiveM Servers muss zu Beginn die Option **Konfiguriere Datenbank** aktiviert und 
-die benötigte Ressource **MySQL-Ansync** installiert werden, damit eine Datenbank erstellt und genutzt werden kann.
+die benötigte Ressource **MySQL-Async** installiert werden, damit eine Datenbank erstellt und genutzt werden kann.
 
 ![](https://puu.sh/Fo5WF/74b8db03f9.png)
 

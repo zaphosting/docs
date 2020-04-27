@@ -33,6 +33,10 @@
         "title": "Partner System",
         "sidebar_label": "Partner System"
       },
+      "account_paymentoptions": {
+        "title": "Payment options",
+        "sidebar_label": "Payment options"
+      },
       "account_security": {
         "title": "Safety",
         "sidebar_label": "Safety"
@@ -52,6 +56,14 @@
       "arma3_serverconfig": {
         "title": "Server.cfg",
         "sidebar_label": "Server.cfg"
+      },
+      "assettocorsa_configure": {
+        "title": "Configure Server",
+        "sidebar_label": "Configure Server"
+      },
+      "assettocorsa_mods": {
+        "title": "Install Mods",
+        "sidebar_label": "Install Mods"
       },
       "beispiel": {
         "title": "Beispiel-Eintrag",
@@ -93,6 +105,10 @@
         "title": "ProfiDNS",
         "sidebar_label": "ProfiDNS"
       },
+      "domain_records": {
+        "title": "Domain Records",
+        "sidebar_label": "Domain Records"
+      },
       "firststeps_register": {
         "title": "Register",
         "sidebar_label": "Register"
@@ -121,13 +137,21 @@
         "title": "Dashboard",
         "sidebar_label": "Dashboard"
       },
+      "fivem_esx_changemoneyicon": {
+        "title": "Change Money Icon",
+        "sidebar_label": "Change Money Icon"
+      },
+      "fivem_esx_disableinventory": {
+        "title": "Deactivate the Inventory (F2)",
+        "sidebar_label": "Deactivate the Inventory (F2)"
+      },
       "fivem_installresources": {
         "title": "Resource Installation",
         "sidebar_label": "Resource Installation"
       },
       "fivem_mods_installaddon": {
-        "title": "Addon Carmods Installieren",
-        "sidebar_label": "Addon Carmods Installieren"
+        "title": "Install Addon Carmods",
+        "sidebar_label": "Install Addon Carmods"
       },
       "fivem_mods_installreplace": {
         "title": "Install Replace Carmods",
@@ -170,8 +194,8 @@
         "sidebar_label": "Restartplaner"
       },
       "gameserver_server_down_what_now": {
-        "title": "Server down - What now?",
-        "sidebar_label": "Server down - What now?"
+        "title": "Server crash - What to do?",
+        "sidebar_label": "Server crash - What to do?"
       },
       "gameswitch": {
         "title": "Spielwechsel mit der Gameservercloud",
@@ -189,10 +213,6 @@
         "title": "Server Config",
         "sidebar_label": "Server Config"
       },
-      "minecraft_direwolf20": {
-        "title": "Direwolf20",
-        "sidebar_label": "Direwolf20"
-      },
       "minecraft_pluginuploader": {
         "title": "Plugin Uploader",
         "sidebar_label": "Plugin Uploader"
@@ -209,13 +229,9 @@
         "title": "Partner Guide",
         "sidebar_label": "Partner Guide"
       },
-      "paymentoptions": {
-        "title": "Payment Options",
-        "sidebar_label": "Payment Options"
-      },
       "ragemp_installpackages": {
-        "title": "Install Packages",
-        "sidebar_label": "Install Packages"
+        "title": "Installing packages",
+        "sidebar_label": "Installing packages"
       },
       "source_metamod_addadmins": {
         "title": "Become an admin",
@@ -224,6 +240,14 @@
       "source_metamod_installation": {
         "title": "Installation",
         "sidebar_label": "Installation"
+      },
+      "spaceengineers_becomeadmin": {
+        "title": "Admin werden",
+        "sidebar_label": "Admin werden"
+      },
+      "voiceserver_voicebot_connection": {
+        "title": "Voicebot Connection",
+        "sidebar_label": "Voicebot Connection"
       },
       "vserver_linux_dnsserver": {
         "title": "DNS Server (ISPConfig)",
@@ -255,7 +279,7 @@
       },
       "vserver_linux_ssh": {
         "title": "Erstzugriff (SSH)",
-        "sidebar_label": "Erstzugriff (SSH)"
+        "sidebar_label": "Initial access (SSH)"
       },
       "vserver_root_unterschied": {
         "title": "Rootserver versus vServer",
@@ -263,27 +287,31 @@
       },
       "vserver_vnc": {
         "title": "What is VNC?",
-        "sidebar_label": "What is  VNC?"
+        "sidebar_label": "What is  VNC (Serial console)?"
       },
       "vserver_windows_addip": {
-        "title": "Zusätzliche IPs hinzufügen",
-        "sidebar_label": "Zusätzliche IPs hinzufügen"
+        "title": "Add additional IPs",
+        "sidebar_label": "Add additional IPs"
       },
       "vserver_windows_nointernet": {
         "title": "No Internet what now?",
         "sidebar_label": "No Internet what now?"
       },
+      "vserver_windows_port": {
+        "title": "Port forwarding",
+        "sidebar_label": "Port forwarding"
+      },
       "vserver_windows_userdp": {
-        "title": "Erstzugriff (RDP)",
-        "sidebar_label": "Erstzugriff (RDP)"
+        "title": "Initial access (RDP)",
+        "sidebar_label": "Initial access (RDP)"
       },
       "webspace_dashboard": {
         "title": "Dashboard",
         "sidebar_label": "Dashboard"
       },
       "webspace_plesk_ftp": {
-        "title": "FTP Verbindung Anlegen",
-        "sidebar_label": "FTP Verbindung Anlegen"
+        "title": "FTP Connection",
+        "sidebar_label": "FTP Connection"
       },
       "webspace_plesk_sendmail": {
         "title": "E-Mails verschicken",
@@ -303,11 +331,14 @@
       "Gameserver - General": "Gameserver - General",
       "vServer & Rootserver": "vServer & Rootserver",
       "Webspace & Domains": "Webspace & Domains",
+      "Voicebot/Voiceserver": "Voicebot/Voiceserver",
       "Minecraft": "Minecraft",
       "FiveM": "FiveM",
       "RageMP": "RageMP",
       "Source Games": "Source Games",
-      "ArmA 3": "ArmA 3"
+      "ArmA 3": "ArmA 3",
+      "Assetto Corsa": "Assetto Corsa",
+      "Space Engineers": "Space Engineers"
     }
   },
   "pages-strings": {
