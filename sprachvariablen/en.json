@@ -274,8 +274,8 @@
         "sidebar_label": "Docker"
       },
       "vserver_linux_ftp": {
-        "title": "FTP Dienst funtkioniert nicht",
-        "sidebar_label": "FTP Dienst funtkioniert nicht"
+        "title": "FTP Dienst funktioniert nicht",
+        "sidebar_label": "FTP Dienst funktioniert nicht"
       },
       "vserver_linux_gs_interface": {
         "title": "Gameserver / Ts 3 Server Interface",
