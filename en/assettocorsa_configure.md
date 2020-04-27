@@ -8,7 +8,7 @@ sidebar_label: Configure Server
 
 Before we can configure the server, the [FTP access](gameserver_ftpaccess.md) must be set up:
 
-[](https://screensaver01.zap-hosting.com/index.php/s/ekYw27nA4cgiNAk/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/ekYw27nA4cgiNAk/preview)
 
 After this has been set up, you can now connect and open the server folder:
 
