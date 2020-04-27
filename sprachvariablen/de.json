@@ -136,6 +136,14 @@
                 "title": "Dashboard",
                 "sidebar_label": "Dashboard"
             },
+            "fivem_esx_changemoneyicon": {
+                "title": "Geldicon Ändern",
+                "sidebar_label": "Geldicon Ändern"
+            },
+            "fivem_esx_disableinventory": {
+                "title": "Inventar (F2) Deaktivieren",
+                "sidebar_label": "Inventar (F2) Deaktivieren"
+            },
             "fivem_installresources": {
                 "title": "Resourcen Installieren",
                 "sidebar_label": "Resourcen Installieren"
@@ -147,14 +155,6 @@
             "fivem_mods_installreplace": {
                 "title": "Replacement Carmods Installieren",
                 "sidebar_label": "Replacement Carmods Installieren"
-            },
-            "fivem_esx_changemoneyicon": {
-                "title": "Geldicon Ändern",
-                "sidebar_label": "Geldicon Ändern"
-            },
-            "fivem_esx_disableinventory": {
-                "title": "Inventar (F2) Deaktivieren",
-                "sidebar_label": "Inventar (F2) Deaktivieren"
             },
             "fivem_rcon": {
                 "title": "Rcon Benutzen",
@@ -220,6 +220,10 @@
                 "title": "RCON",
                 "sidebar_label": "RCON"
             },
+            "minecraft_whitelist": {
+                "title": "Whitelist",
+                "sidebar_label": "Whitelist"
+            },
             "minecraft_worlds": {
                 "title": "Welten",
                 "sidebar_label": "Welten"
@@ -244,6 +248,10 @@
                 "title": "Installation",
                 "sidebar_label": "Installation"
             },
+            "source_metamod_plugins": {
+                "title": "Plugins",
+                "sidebar_label": "Plugins"
+            },
             "spaceengineers_becomeadmin": {
                 "title": "Admin werden",
                 "sidebar_label": "Admin werden"
@@ -251,6 +259,10 @@
             "voiceserver_voicebot_connection": {
                 "title": "Voicebot Verbinden",
                 "sidebar_label": "Voicebot Verbinden"
+            },
+            "vserver_linux_add_ip": {
+                "title": "IPv4 Adresse hinzufügen",
+                "sidebar_label": "IPv4 Adresse hinzufügen"
             },
             "vserver_linux_dnsserver": {
                 "title": "DNS Server (ISPConfig)",
@@ -267,6 +279,10 @@
             "vserver_linux_java": {
                 "title": "Java installieren",
                 "sidebar_label": "Java installieren"
+            },
+            "vserver_linux_nextcloud": {
+                "title": "Nextcloud",
+                "sidebar_label": "Nextcloud"
             },
             "vserver_linux_openvpn": {
                 "title": "OpenVPN",
