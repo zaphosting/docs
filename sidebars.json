@@ -63,7 +63,8 @@
                     "vserver_linux_docker",
                     "vserver_linux_plesk",
                     "vserver_linux_openvpn",
-                    "vserver_linux_gs_interface"
+                    "vserver_linux_gs_interface",
+                    "vserver_linux_add_ip"
                 ]
             },
             {
