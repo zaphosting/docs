@@ -39,7 +39,7 @@ Sobald du dich auf ZAP-Hosting.com eingeloggt hast, wirst du in der Kopfzeile al
 
 Unterteilt werden Partner bei uns in die Ränge **Silver**, **Gold** und **Diamond**. Diese Ränge unterscheiden sich nicht nur in ihrem Namen, sondern vor allem in der von uns gestellten Leistung und natürlich der Leistung des jeweiligen Influencers/Partners. Erstmal startet jeder Partner im **Silver-Rang** und erhält von uns eine Basisausstattung mit kostenlosen Servern, Grafiken und einem Ansprechpartner bei Rückfragen (Partner Manager). 
 
-Erkennen wir nach einigen Wochen oder Monaten, dass der Partner besonders aktiv ist, kreative Ideen umsetzt und seine Community besonders von uns begeistert, laden wir ihn zu einem Discord-Gespräch ein und besprechen gemeinsam künftige Zukunftsvisionen. Bei solchen Gesprächen wird unter anderem geklärt, ob der Wunsch besteht bei anhaltender Leistung eine feste monatliche Vergüting zu verhandeln. 
+Erkennen wir nach einigen Wochen oder Monaten, dass der Partner besonders aktiv ist, kreative Ideen umsetzt und seine Community besonders von uns begeistert, laden wir ihn zu einem Discord-Gespräch ein und besprechen gemeinsam künftige Zukunftsvisionen. Bei solchen Gesprächen wird unter anderem geklärt, ob der Wunsch besteht bei anhaltender Leistung eine feste monatliche Vergütung zu verhandeln. 
 
 Sobald Partner den finalen Rang des **Diamond Partners** erreicht haben, winken neben monatlichen finanziellen Vergütungen auch andere Leistungen wie Hardware-Ausstattungen, individuelle Hardware-Sets und Bonusprogramme.
 
