@@ -95,7 +95,7 @@ Um einen Client zu entfernen, führe zuerst folgenden Befehl aus:
 wget https://git.io/vpn -O openvpn-install.sh && bash openvpn-install.sh
 ```
 
-Danach drücke `1` und dann `Enter`.
+Danach drücke `2` und dann `Enter`.
 Gebe nun die Zahl des Clients in der Liste an, welchen du entfernen möchtest. Drücke danach `Enter`.
 Du wirst nun aufgefordert, das löschen zu Bestätigen. Wenn du dir sicher bist, drücke `y` und dann `Enter`.
 Nun sollte dieser Client entfernt sein. 
@@ -105,7 +105,7 @@ Wenn du OpenVPN nicht mehr benötigst, aber deinen Server nicht neuinstallieren 
 ```
 wget https://git.io/vpn -O openvpn-install.sh && bash openvpn-install.sh
 ```
-Drücke dann `4` und danach `Enter`.
+Drücke dann `3` und danach `Enter`.
 
 Du wirst nun aufgefordert, die Deinstallation zu bestätigen. Wenn du dir wirklich Sicher bist, drücke `y` und dann `Enter`.
 Nun wird OpenVPN deinstalliert.
