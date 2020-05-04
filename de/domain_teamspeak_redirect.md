@@ -10,12 +10,12 @@ sidebar_label: Domain TeamSpeak 3 Weiterleitung
 
 Du kannst entweder deine Domain vollständig, oder lediglich eine Subdomain auf deinen TeamSpeak 3 Server weiterleiten.
 So muss sich niemand die komplizierte IP Adresse welche aus Zahlen besteht merken sondern kann sich einfach mithilfe der Domain auf deinen TeamSpeak 3 Server verbinden.
-In den folgenden Beispielen erstellen wir zwei Subdomains und leiten diese auf einen Minecraft- und auf einen FiveM Gameserver weiter.
 
 
 ## Wie funktioniert das?
 
 ### Bevor wir mit der Erstellung von Einträgen in den DNS Einstellungen der Domain beginnen, hier ein paar Informationen vorab:
+
 Für die Weiterleitung der IP Adresse wird entweder eine Subdomain erstellt welche auf die IP Adresse des TeamSpeak 3 Servers leitet, oder du leitest die komplette Domain ohne Subdomain weiter.
 Dies würde bereits ausreichen wenn der TeamSpeak 3 Server den Standartport **9987** verwendet.
 Verwendet der TeamSpeak 3 Server jedoch einen anderen Port als den Standartport, wird zusätzlich noch ein sogenannter **SRV Eintrag**
