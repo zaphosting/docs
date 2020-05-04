@@ -52,7 +52,7 @@ on the red trash can on the right side.
 
 Then click **New entry** and you will be taken to the creation of a new DNS record.
 As **Name** we choose here the name of the domain, as an example **teamspeak-server.de**, the **type is A** and the **value** is the
-pay IP of your TeamSpeak 3 server, in this case **88.214.57.116**.
+IP of your TeamSpeak 3 server, in this case **88.214.57.116**.
 You can leave the **TTL** field untouched.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/5LZBjHzAr3ZEcYM/preview)
