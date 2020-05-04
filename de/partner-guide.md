@@ -50,7 +50,7 @@ Jeder ZAP-Partner bekommt Zugriff auf das Partner Menü, in dem er unter anderem
 ![](https://screensaver01.zap-hosting.com/index.php/apps/files_sharing/publicpreview/2FLZnd2qBj2q2sG?x=1920&y=587&a=true&file=chrome_1r2PNNLlAV.png&scalingup=0)
 
 ### Werbemittel
-Du benötigst einen Monecraft-Banner, den du auf deiner Website anbringen kannst? Dir fehlt das ZAP Logo? Oder brauchst du ein paar Ideen, wie dein Panel aussehen kann? Dann schau dich im Dropdown Menü um und lade dir hier alle benötigten Grafiken runter. Wir geben dir neben der Grafik selbst auch einen Link, mit dem du deine Grafik unkompliziert einbinden kannst.
+Du benötigst einen Minecraft-Banner, den du auf deiner Website anbringen kannst? Dir fehlt das ZAP Logo? Oder brauchst du ein paar Ideen, wie dein Panel aussehen kann? Dann schau dich im Dropdown Menü um und lade dir hier alle benötigten Grafiken runter. Wir geben dir neben der Grafik selbst auch einen Link, mit dem du deine Grafik unkompliziert einbinden kannst.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/gAiaHGd3T7MHkDd/preview)
 
