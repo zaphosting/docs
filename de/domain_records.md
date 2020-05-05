@@ -49,8 +49,10 @@ In der Regel wird dafür eine E-mail Adresse eingetragen, bei welcher das "**@**
 
 Mit einem SRV Record wird eine Weiterleitung von einer "**Sub-**" oder "**Hauptdomain**" auf einen "**A-Record**" erstellt.
 Dieser SRV Record wird für Anwendungen genutzt wo kein Standard Port gegeben ist und somit eine Portweiterleitung benötigt wird.
+Die Priorität gibt an welcher der Dienste bevorzugt genutzt werden soll, wenn mehrere SRV Records für die gleichen Dienste erstellt werden.
+Die Priorität muss eine Ganzzahl sein, je niedriger der Wert desto höher die Priorität.
 
-![](https://screensaver01.zap-hosting.com/index.php/apps/files_sharing/publicpreview/FxA7oTqD8Amxozr?x=1600&y=439&a=true&file=chrome_xNgf9ZcgVE.png&scalingup=0)
+![](https://screensaver01.zap-hosting.com/index.php/apps/files_sharing/publicpreview/ZAGDC9tAdErrm4E?x=1920&y=562&a=true&file=firefox_Q7FB36BIg2.png&scalingup=0)
 
 ## TXT Records
 

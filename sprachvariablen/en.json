@@ -149,6 +149,10 @@
         "title": "Resource Installation",
         "sidebar_label": "Resource Installation"
       },
+      "fivem_licensekey": {
+        "title": "Eigener Lizenzkey",
+        "sidebar_label": "Eigener Lizenzkey"
+      },
       "fivem_mods_installaddon": {
         "title": "Install Addon Carmods",
         "sidebar_label": "Install Addon Carmods"
@@ -168,6 +172,10 @@
       "fivem_useprofiler": {
         "title": "Use Profiler",
         "sidebar_label": "Use Profiler"
+      },
+      "fivem_vrp_changemoneyicon": {
+        "title": "Geldicon Ändern",
+        "sidebar_label": "Geldicon Ändern"
       },
       "gameserver_cloudvslifetime": {
         "title": "Cloud vs. Lifetime",
