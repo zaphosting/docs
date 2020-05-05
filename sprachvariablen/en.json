@@ -169,6 +169,10 @@
         "title": "Use Profiler",
         "sidebar_label": "Use Profiler"
       },
+      "fivem_vrp_changemoneyicon": {
+        "title": "Geldicon Ändern",
+        "sidebar_label": "Geldicon Ändern"
+      },
       "gameserver_cloudvslifetime": {
         "title": "Cloud vs. Lifetime",
         "sidebar_label": "Cloud vs. Lifetime"
