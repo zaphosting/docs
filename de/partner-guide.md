@@ -39,7 +39,7 @@ Sobald du dich auf ZAP-Hosting.com eingeloggt hast, wirst du in der Kopfzeile al
 
 Unterteilt werden Partner bei uns in die Ränge **Silver**, **Gold** und **Diamond**. Diese Ränge unterscheiden sich nicht nur in ihrem Namen, sondern vor allem in der von uns gestellten Leistung und natürlich der Leistung des jeweiligen Influencers/Partners. Erstmal startet jeder Partner im **Silver-Rang** und erhält von uns eine Basisausstattung mit kostenlosen Servern, Grafiken und einem Ansprechpartner bei Rückfragen (Partner Manager). 
 
-Erkennen wir nach einigen Wochen oder Monaten, dass der Partner besonders aktiv ist, kreative Ideen umsetzt und seine Community besonders von uns begeistert, laden wir ihn zu einem Discord-Gespräch ein und besprechen gemeinsam künftige Zukunftsvisionen. Bei solchen Gesprächen wird unter anderem geklärt, ob der Wunsch besteht bei anhaltender Leistung eine feste monatliche Vergüting zu verhandeln. 
+Erkennen wir nach einigen Wochen oder Monaten, dass der Partner besonders aktiv ist, kreative Ideen umsetzt und seine Community besonders von uns begeistert, laden wir ihn zu einem Discord-Gespräch ein und besprechen gemeinsam künftige Zukunftsvisionen. Bei solchen Gesprächen wird unter anderem geklärt, ob der Wunsch besteht bei anhaltender Leistung eine feste monatliche Vergütung zu verhandeln. 
 
 Sobald Partner den finalen Rang des **Diamond Partners** erreicht haben, winken neben monatlichen finanziellen Vergütungen auch andere Leistungen wie Hardware-Ausstattungen, individuelle Hardware-Sets und Bonusprogramme.
 
@@ -50,7 +50,7 @@ Jeder ZAP-Partner bekommt Zugriff auf das Partner Menü, in dem er unter anderem
 ![](https://screensaver01.zap-hosting.com/index.php/apps/files_sharing/publicpreview/2FLZnd2qBj2q2sG?x=1920&y=587&a=true&file=chrome_1r2PNNLlAV.png&scalingup=0)
 
 ### Werbemittel
-Du benötigst einen Monecraft-Banner, den du auf deiner Website anbringen kannst? Dir fehlt das ZAP Logo? Oder brauchst du ein paar Ideen, wie dein Panel aussehen kann? Dann schau dich im Dropdown Menü um und lade dir hier alle benötigten Grafiken runter. Wir geben dir neben der Grafik selbst auch einen Link, mit dem du deine Grafik unkompliziert einbinden kannst.
+Du benötigst einen Minecraft-Banner, den du auf deiner Website anbringen kannst? Dir fehlt das ZAP Logo? Oder brauchst du ein paar Ideen, wie dein Panel aussehen kann? Dann schau dich im Dropdown Menü um und lade dir hier alle benötigten Grafiken runter. Wir geben dir neben der Grafik selbst auch einen Link, mit dem du deine Grafik unkompliziert einbinden kannst.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/gAiaHGd3T7MHkDd/preview)
 
@@ -84,8 +84,7 @@ Erst nach einer persönlichen Absprache ist es einzelnen Partnern gestattet auch
 > Erfahrungen zeigen, dass aktive Partner des Gold-Ranges durchaus häufig unsere Erlaubnis erhalten zusätzlich zu den gesponserten Servern und Produkten Affiliate Links zu nutzen.
 
 ## 🔑 Ambitioniert sein ist der Schlüssel
-Mal ganz unter uns: Wir sind eine junge Firma und auch wir feiern außergewöhliche Ideen und unkomplizierte Kommunikation. Solltest du also eine außergewühnliche Idee für ein Event oder eine Promo-Aktion haben, **dann nimm gern Kontakt mit deinem Partner Manager auf!** Wir helfen dir gern diese Idee umzusetzen und unterstützen dich ggf. auch mit Hardware, Giveaway-Produkten und Gutscheinen. Wir schätzen aktives Handeln unserer Partner sehr und wünschen und vor allem Partner, die aus eigenem Antrieb kreativ die Partnerschaft pflegen. Partner, die sich unser Logo in die Beschreibung kleben und inaktiv kostenfreie Server genießen werden wir nicht langfristig in unserem Repertoir führen.
-
+Mal ganz unter uns: Wir sind eine junge Firma und auch wir feiern außergewöhliche Ideen und unkomplizierte Kommunikation. Solltest du also eine außergewöhnliche Idee für ein Event oder eine Promo-Aktion haben, **dann nimm gern Kontakt mit deinem Partner Manager auf!** Wir helfen dir gern diese Idee umzusetzen und unterstützen dich ggf. auch mit Hardware, Giveaway-Produkten und Gutscheinen. Wir schätzen aktives Handeln unserer Partner sehr und wünschen und vor allem Partner, die aus eigenem Antrieb kreativ die Partnerschaft pflegen. Partner, die sich unser Logo in die Beschreibung kleben und inaktiv kostenfreie Server genießen werden wir nicht langfristig in unserem Repertoir führen.
 Begeistere deine Follower, Mitglieder, Freunde oder Zuschauer und stelle ihnen einfach deine Links zur Verfügung. Sie zahlen keinen Cent mehr und unterstützen dich dennoch immens! Und nicht vergessen: **Jeder Partner findet in seinem Webinterface einen individuellen Gutscheincode, mit dem jeder Nutzer zwischen 10-20% spart.** Wer diese ideale Grundlage zu nutzen weiß, kann in kürzester Zeit zum Diamond Partner aufsteigen! 
 
 ## 👁 Beendigung der Partnerschaft
@@ -93,6 +92,6 @@ Wir behalten unsere Partner im Auge und kontaktieren sie in unregelmäßigen Abs
 
 Solltet ihr aus gesundheitlichen oder anderen wichtigen Gründen über einen längeren Zeitraum inaktiv sein, informiert bitte euren Partner Manager, damit er diesen Umstand berücksichtigen kann. 
 
-Wofür wir jedoch leider **kein Verständnis** mehr zeigen werden, sind eine wiederholte Verzögerung in der Umsetzung von Einigungen, Verstoß gegen besprochene Verhaltensweisen, erzeugen eines negativen Images, das auf das Image von ZAP-Hosting Einfluss nehmen könnte, unabgesprochene Bewerbung eines themenghleichen Mitbewerbers und unangemeldete Inaktivität über einen langen Zeitraum. In diesen Fällen werden wir persönlich Kontakt zu euch aufnehmen, die Sachlage besprechen und **eventuell mit sofortiger Wirkung unser Sponsoring beenden**.
+Wofür wir jedoch leider **kein Verständnis** mehr zeigen werden, sind eine wiederholte Verzögerung in der Umsetzung von Einigungen, Verstoß gegen besprochene Verhaltensweisen, erzeugen eines negativen Images, das auf das Image von ZAP-Hosting Einfluss nehmen könnte, unabgesprochene Bewerbung eines themengleichen Mitbewerbers und unangemeldete Inaktivität über einen langen Zeitraum. In diesen Fällen werden wir persönlich Kontakt zu euch aufnehmen, die Sachlage besprechen und **eventuell mit sofortiger Wirkung unser Sponsoring beenden**.
 
 Solltet ihr die Absicht haben, das Sponsoring-Programm von ZAP zu verlassen, dann meldet euch gern bei eurem Partner Manager. Er wird euch durch die Schritte führen und euch die Möglichkeit geben alle relevanten Daten von euren Produkten zu laden. Ist das geschafft entziehen wir eurem Account den Partnerrang und den Zugriff zum Partner Menü. Bis zu diesem Zeitpunkt generierte Umsätze über die **Affiliate/"Freunde werben"-Funktion** bleiben davon natürlich unberührt und können weiterhin genutzt werden.
