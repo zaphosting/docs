@@ -83,8 +83,8 @@ Für eine optimale Nutzung des SSH-Clients ist es unerlässlich, die Grundbefehl
 |  free   | Speicherauslastung des Systems. Geteilt in RAM und SWAP-Space. | free                                         |
 |  kill   |  Beendet den Prozess mit der uebergebenen Prozess-ID (PID)   | kill <ID>                                    |
 | killall |       Beendet alle Prozesse mit dem uebergebenen Namen       | killall <name>                               |
-|   mv    |       Move files or directory to a different location        | mv sourcepath newPath                        |
-|  mkdir  |                    Create a new directory                    | mkdir directoryname                          |
+|   mv    |         Verschiebt Dateien in ein anderes Verzeichnis        | mv sourcepath newPath                        |
+|  mkdir  |               Erstellt einen neuen Ordner                    | mkdir directoryname                          |
 | service |    Dienst starten, stoppen, neustarten und Status prüfen     | service DienstName start/stop/restart/status |
 | reboot  |                      System neustarten                       | reboot                                       |
 
@@ -113,4 +113,4 @@ Für eine optimale Nutzung des SSH-Clients ist es unerlässlich, die Grundbefehl
 | netstat  | Status der Netzwerkschnittstellen abfragen        | netstat [OPTIONEN]                        |
 | nslookup | DNS-Informationen abfragen                        | nslookup                                  |
 | ping     | Netzverbindung prüfen                             | ping [OPTIONEN] ZIEL                      |
-| rmdir    | Remove an existing directory                      | rmdir directoryname                       |
+| rmdir    | Entfernt einen bestehenden Ordner                 | rmdir directoryname                       |
