@@ -16,6 +16,10 @@
                 "title": "Cashbox",
                 "sidebar_label": "Cashbox"
             },
+            "account_community_ads": {
+                "title": "Community Werbung",
+                "sidebar_label": "Community Werbung"
+            },
             "account_contractsandprepaid": {
                 "title": "Verträge & Prepaids",
                 "sidebar_label": "Verträge & Prepaids"
@@ -108,6 +112,10 @@
                 "title": "Domain Records",
                 "sidebar_label": "Domain Records"
             },
+            "domain_teamspeak_redirect": {
+                "title": "Domain TeamSpeak 3 Weiterleitung",
+                "sidebar_label": "Domain TeamSpeak 3 Weiterleitung"
+            },
             "firststeps_register": {
                 "title": "Registrieren",
                 "sidebar_label": "Registrieren"
@@ -148,6 +156,10 @@
                 "title": "Resourcen Installieren",
                 "sidebar_label": "Resourcen Installieren"
             },
+            "fivem_licensekey": {
+                "title": "Eigener Lizenzkey",
+                "sidebar_label": "Eigener Lizenzkey"
+            },
             "fivem_mods_installaddon": {
                 "title": "Addon Carmods Installieren",
                 "sidebar_label": "Addon Carmods Installieren"
@@ -167,6 +179,10 @@
             "fivem_useprofiler": {
                 "title": "Profiler Benutzen",
                 "sidebar_label": "Profiler Benutzen"
+            },
+            "fivem_vrp_changemoneyicon": {
+                "title": "Geldicon Ändern",
+                "sidebar_label": "Geldicon Ändern"
             },
             "gameserver_cloudvslifetime": {
                 "title": "Cloud vs. Lifetime",
@@ -240,6 +256,10 @@
                 "title": "Pakete Installieren",
                 "sidebar_label": "Pakete Installieren"
             },
+            "source_gsltoken": {
+                "title": "Gameserver Login Token",
+                "sidebar_label": "GSL-Token"
+            },
             "source_metamod_addadmins": {
                 "title": "Admin werden",
                 "sidebar_label": "Admin werden"
@@ -272,6 +292,10 @@
                 "title": "Docker",
                 "sidebar_label": "Docker"
             },
+            "vserver_linux_ftp": {
+                "title": "FTP Dienst funktioniert nicht",
+                "sidebar_label": "FTP Dienst funktioniert nicht"
+            },
             "vserver_linux_gs_interface": {
                 "title": "Gameserver / Ts 3 Server Interface",
                 "sidebar_label": "Gameserver / Ts 3 Server Interface"
@@ -287,6 +311,10 @@
             "vserver_linux_openvpn": {
                 "title": "OpenVPN",
                 "sidebar_label": "OpenVPN"
+            },
+            "vserver_linux_password_change": {
+                "title": "Passwort ändern",
+                "sidebar_label": "Passwort ändern"
             },
             "vserver_linux_phpmyadmin": {
                 "title": "phpMyAdmin",
