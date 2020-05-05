@@ -94,7 +94,8 @@
                     "domain_profidns",
                     "domain_expertdns",
                     "domain_records",
-                    "domain_gameserver_srv_link"
+                    "domain_gameserver_srv_link",
+                    "domain_teamspeak_redirect"
                 ]
             },
             {
