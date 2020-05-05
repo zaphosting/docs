@@ -24,6 +24,7 @@
             "account_usermanagement",
             "account_vouchers",
             "account_donations",
+            "account_account_community_ads",
             "account_security",
             {
                 "type": "subcategory",
@@ -135,6 +136,7 @@
             "fivem_change_servericon",
             "fivem_sql_file_import",
             "fivem_rcon",
+            "fivem_licensekey",
             "fivem_useprofiler",
             {
                 "type": "subcategory",
@@ -157,6 +159,7 @@
                 "type": "subcategory",
                 "label": "Dunko VRP",
                 "ids": [
+                    "fivem_vrp_changemoneyicon"
 
                 ]
             }
