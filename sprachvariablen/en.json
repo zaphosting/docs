@@ -149,6 +149,10 @@
         "title": "Resource Installation",
         "sidebar_label": "Resource Installation"
       },
+      "fivem_licensekey": {
+        "title": "Eigener Lizenzkey",
+        "sidebar_label": "Eigener Lizenzkey"
+      },
       "fivem_mods_installaddon": {
         "title": "Install Addon Carmods",
         "sidebar_label": "Install Addon Carmods"
