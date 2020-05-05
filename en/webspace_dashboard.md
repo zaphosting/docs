@@ -6,44 +6,42 @@ sidebar_label: Dashboard
 
 ## Webspace
 
-Das Webspace Paket bietet die Möglichkeit, über das externe Plesk Interface, sowohl Webseiten als auch E-Mail-Adressen zu erstellen und verwalten. Das Webspace fungiert als Webspeicher. Dateien und Ordner können über eine FTP Verbindung hochgeladen werden.
+The web space package offers the possibility to create and manage both websites and email addresses via the external Plesk interface. The web space acts as web storage. Files and folders can be uploaded via an FTP connection.
 
-Jedes über Zap-Hosting gebuchte Webspace kriegt eine automatisch generierte Subdomain zugewiesen. 
-Diese Subdomain besteht aus der Kundennummer, dem Hostserver und der Domain "zap-webspace.com". In der Anleitung "Domain verknüpfen" wird gezeigt, wie eine eigene Domain zu dem Webspace verbunden werden kann.
+Every webspace booked through Zap-Hosting is assigned an automatically generated subdomain. This subdomain consists of the customer number, the host server and the domain "zap-webspace.com". The instructions "Link Domain" shows how your own domain can be connected to the web space.
 
-## Erste Schritte
+## First steps
 
-Im Anschluss an die abgeschlossene Bestellung wird das Webspace im Zap-Hosting Dashboard angezeigt.
+After the order has been completed, the web space is displayed in the Zap-Hosting Dashboard.
 
-### Plesk öffnen
+### Open Plesk
 
-Auf der nun geöffneten Seite sind die Login Daten einzusehen. Das Passwort wird nicht im Klartext gespeichert. Um sich dieses anzeigen zu lassen, muss man auf das "Augen" Symbol drücken.
+The login data can be viewed on the now open page. The password is not saved in plain text. To display this, you have to press the "eyes" symbol.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/fcX83TbBg9irz2w/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/YrtD3MMJpDfG9wC/preview)
 
-> Wenn dir das dort automatisch generierte Passwort nicht zusagt, kann dieses auf der selben Seite mit der Funktion "Passwort ändern" innerhalb von wenigen Sekunden geändert werden.
+> If you don't like the automatically generated password, you can change it on the same page using the "Change password" button directly.
 
-Sobald Benutzername und Passwort eingesehen werden, kann das Plesk Interface durch Betätigen der Schaltfläche "**Verwaltung öffnen**" geöffnet werden. Nach  der Weiterleitung auf das Plesk Interface müssen jetzt die vorher ersichtlichen Login Daten eingegeben werden.
+As soon as the user name and password are viewed, the Plesk interface can be opened by pressing the "**Open Administration Button**" button. After being forwarded to the Plesk interface, the previously visible login data must now be entered.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/CnfSbjBqsFBtkCz/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/FcMSg9bNeyRXZy7/preview)
 
-> Bei "Sprache der Oberfläche" kann die Sprache von Deutsch auf Englisch umgestellt werden, als "Standard" definierter Wert ist Deutsch gesetzt.
+> The language of the user interface can be changed from German to English, the value defined as "Standard" is German.
 
-### Domain verknüpfen
+### Link domain
 
-Eine eigene Domain kann in dem Plesk Interface bei dem Menü Punkt "**Hosting-Einstellungen**" eingetragen werden.
+Your own domain can be entered in the Plesk interface under the menu item "**Add Domain**".
 
-![](https://screensaver01.zap-hosting.com/index.php/s/d85DgCLpMdd7mQw/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/cDAzcwzHmdywLWN/preview)
 
-Bei "**Hosting Einstellungen**" kann nun bei "**Domainname**" die von Zap-Hosting generierte Subdomain gelöscht werden, damit die eigene Domain in dieses eingetragen werden kann. 
+In "**Add Domain**", you can enter your domain url directly and choose your desired settings for things regarding the location of the files, ssl, etc. 
 
-Die Änderungen werden durch das Drücken der Schaltfläche "**OK**" bestätigt. 
+The changes are confirmed by pressing the "**OK**" button. 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/XWGSE8J39kDyCr8/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/f2Q2cTk5iQRRW5i/preview)
 
-> Die Bestätigung kann etwas Zeit in Anspruch nehmen. Solltest du bei diesem Wechsel Fehler erhalten wäre eine mögliche Fehlerquelle, dass deine Domain bereits als Alias in der Domain angelegt ist. 
+> Confirmation may take some time. If you get errors during this change, a possible source of error would be that your domain is already created as an alias in the domain.
 
-Sofern es keine Probleme bei der Änderung gegeben hat, wird dies in dem Plesk Interface bestätigt. Um diese Domain für das Webspace nutzen zu können, müssen bei der Domainverwaltung die DNS Einstellungen konfiguriert werden. 
-Wie dies bei über uns bestellten Domains geht, kann hier eingesehen werden. 
+If there were no problems with the change, this is confirmed in the Plesk interface. In order to be able to use this domain for the web space, the DNS settings must be configured in the domain management. How this works with domains ordered through us can be seen here.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/t4nBwMWzgBjg64D/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/mgnnMqAnYp6XLeX/preview)
