@@ -17,6 +17,10 @@
         "title": "Cashbox",
         "sidebar_label": "Cashbox"
       },
+      "account_community_ads": {
+        "title": "Community ads",
+        "sidebar_label": "Community ads"
+      },
       "account_contractsandprepaid": {
         "title": "Contracts & Prepaids",
         "sidebar_label": "Contracts & Prepaids"
