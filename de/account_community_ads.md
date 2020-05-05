@@ -1,7 +1,7 @@
 ---
 id: account_community_ads
-title: Community ads
-sidebar_label: Community ads
+title: Community Werbung
+sidebar_label: Community Werbung
 ---
 
 ## 📃 Community Werbung
