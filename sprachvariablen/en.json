@@ -113,6 +113,10 @@
         "title": "Domain Records",
         "sidebar_label": "Domain Records"
       },
+      "domain_teamspeak_redirect": {
+        "title": "Domain TeamSpeak 3 Redirect",
+        "sidebar_label": "Domain TeamSpeak 3 Redirect"
+      },
       "firststeps_register": {
         "title": "Register",
         "sidebar_label": "Register"
