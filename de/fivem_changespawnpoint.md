@@ -9,6 +9,7 @@ sidebar_label: Spawnpoint setzen
 Zu allererst müssen wir herrausfinden, welche Map auf unserem FiveM Server läuft.
 Dafür gehen wir wie folgt vor:
 **1** Gehe in dein Dashboard deines Servers
+
 ![](https://screensaver01.zap-hosting.com/index.php/s/xqHpJSFHMmBKksq/preview)
 
 ## 📑 Ressource für Koordinaten
@@ -22,17 +23,22 @@ Wie du das tun kannst findest du hier: https://docs.zap-hosting.com/docs/de/five
 
 Nun öffnen wir unsere Map welche wir vorhin herrausgefunden haben.
 Dies tun wir zb per Filezilla
+
 ![](https://screensaver01.zap-hosting.com/index.php/s/oeSKrtBTWk9qGaB/preview)
 
 Dort öffnen wir dann die Map.lua
+
 ![](https://screensaver01.zap-hosting.com/index.php/s/Bpe9tyw8JdSifn6/preview)
 
 Nun erhalten wir eine Datei mit sehr vielen Koordinaten Einträgen
+
 ![](https://screensaver01.zap-hosting.com/index.php/s/MpPeciA3yaAATWR/preview)
 
 Davon löschen wir jetzt **alle** Einträge bis auf zwei
 
+
 ![](https://screensaver01.zap-hosting.com/index.php/s/ySrZ4MkgwjskrCt/preview)
+
 
 ## 📖 Koordinaten bestimmen
 
@@ -42,6 +48,7 @@ Siehe da, nun haben wir die Koordinaten.
 Jetzt suchen wir uns eine geeignete Stelle und ersetzen dann die Koordinaten
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/2x8EfJFXWAgfJS7/preview)
+
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/BPPzEmq7aGJ8bPf/preview)
 
@@ -61,8 +68,8 @@ Nun spawnen neue Spieler an der festgelegten Position
 ## 🌏 Troubleshooting
 Solltet ihr nicht an der Position spawnen wie erwünscht geht bitte folgende Schritte durch:
 
-**1** Checkt ob ihr auch die richtige Map benutzt habt, oft kann das passieren dass die falsche Map benutzt wird
-**2** Bearbeitet wirklich nur die Map die benutzt wird keine andere, es kann sonst zu Fehlern kommen
-**3** Leert den Cache eures Servers und startet den Server neu
+Checkt ob ihr auch die richtige Map benutzt habt, oft kann das passieren dass die falsche Map benutzt wird
+Bearbeitet wirklich nur die Map die benutzt wird keine andere, es kann sonst zu Fehlern kommen
+Leert den Cache eures Servers und startet den Server neu
 
 Wenn ihr diese Schritte befolgt sollte es klappen
