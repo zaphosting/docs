@@ -15,7 +15,7 @@ Auffinden kann man diese Funktion daher in dem Gameserver Interface von dem best
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/2FkbFm3Yg6W2kny/preview)
 
-## Neue Einträge erstellen
+## ✍️ Neue Einträge erstellen
 
 > ***Hinweis:*** Die Änderungen vom Restartplaner werden nur bei einem Serverneustart übernommen. Nach Fertigstellung aller gewünschten automatischen Neustarts, sollte der Server einmal gestoppt und wieder gestartet werden.
 Alternativ können die Änderungen auch direkt bei gestopptem Server durchgeführt werden, diese wären dann nach einem Start aktiv.
@@ -36,12 +36,12 @@ Bei "**24:00**" wird von dem System eine Fehlermeldung angezeigt. Um diesen Fehl
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/d8dgKspw7RLWnMF/preview)
 
-### Offline Server starten
+###  Offline Server starten
 
 Ist diese Funktion aktiviert, dann wird auch ein gestoppter Server automatisch zum festgelegten Zeitpunkt gestartet.
 Bleibt diese Funktion deaktiviert, so wird ein Gameserver von unserem System nur zum festgelegten Zeitpunkt neugestartet, wenn dieser auch vorher "**Online**" war.
 
-## Befehl Funktion
+## ⏲️ Befehl Funktion
 
 Die Befehle unter den festgelegten automatischen Neustarts, sollen dafür genutzt werden Befehle automatisch durchzuführen kurz bevor der Neustart erfolgt.
 Die möglichen Befehle welche genutzt werden können, hängen von dem Spiel ab und was die Spieleentwickler dort für Befehle bereitstellen.
@@ -52,7 +52,7 @@ Sollen Spieler vorgewarnt werden kann bei Minecraft der *say* Befehl genutzt wer
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/8oofqcYkMjK8XPM/preview)
 
-### Verzögerung
+###  Verzögerung
 
 Die Verzögerung bei dem Befehl ist die Zeit, in welcher der Befehl vor dem Server Neustart an die Konsole weitergegeben wird.
 Diese Verzögerung wird in **Sekunden** gesetzt.
