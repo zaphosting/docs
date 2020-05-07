@@ -1,37 +1,37 @@
 ---
 id: vserver_windows_userdp
-title: Erstzugriff (RDP)
-sidebar_label: Erstzugriff (RDP)
+title: Initial access (RDP)
+sidebar_label: Initial access (RDP)
 ---
 
-## 🖥 Remotedesktopverbindung
+## 🖥 Remotedesktop connection
 
-Die Verbindung zu deinem Windows Server erfolgt über das von Windows mitgelieferte Programm "Remotedesktopverbindung".  Das Programm lässt sich über die Windows Suche unter dem Begriff "remote" finden.
+You connect to your Windows server using the Remote Desktop Connection program provided by Windows.  The program can be found via the Windows search under the term "remote".
 
-> Die Windows Suchfunktion ist über das Windows Symbol in der linken unteren Ecke zu finden.
+> The Windows search function can be found via the Windows icon in the lower left corner.
 
-![](https://i.imgur.com/Qw6aXLC.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/38n9fBNMszJqt95/preview)
 
-## 🏘 IP-Adresse & Zugang
+## 🏘 IP address & access
 
-"Remotedesktopverbindung", fragt nach einem "**Computernamen**". Das ist die IP-Adresse des Servers.
+"Remote Desktop Connection", asks for a "**computer name**". This is the IP address of the server.
 
-![](https://i.imgur.com/mA623fL.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/JjB66m4t5cmqYdb/preview)
 
-Die IP-Adresse findet sich im ZAP Webinterface unter "**Zugang & Sicherheit**", sowie in der Infobar.
+The IP address can be found in the ZAP web interface under "**Access & Security**" and in the Infobar.
 
-![](https://i.imgur.com/UomsPjz.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/wqSy3kMWMTP2ZTp/preview)
 
-Das Programm fragt nach einem **Benutzernamen** und **Kennwort**. Der Benutzername lautet "**Administrator**". Das Passwort lässt sich im Webinterface unter "**Zugang & Sicherheit**" setzen.
+The program asks for a **user name** and **password**. The user name is "**administrator**". The password can be set in the web interface under "**Access & Security**".
 
-![](https://i.imgur.com/eRrhKND.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/XFzk76HXsb7BTCs/preview)
 
-> Standardgemäß ist kein Zertifikat installiert. Das Passwort wird daher unsicher übermittelt. Erfahre hier, wie du ein Zertifikat erstellst: RDP Zertifikat
+> No certificate is installed by default. The password is therefore transmitted insecurely. Learn how to create a certificate here: RDP Certificate
 
 
-## 🤷♂ Alternative Remote Programme
+## 🤷♂ Alternative Remote Programs
 
-Folgende alternative Programme sind geeignet um per Remote auf einen Windows Server zu verbinden: 
+The following alternative programs are suitable for connecting to a Windows server via remote desktop:
 
 - Remote Desktop Connection Manager (RDCMan)
 - mRemoteNG
@@ -39,4 +39,4 @@ Folgende alternative Programme sind geeignet um per Remote auf einen Windows Ser
 - Devolutions Remote Desktop Manager
 - DameWare Mini Remote Control
 
-> Für die **iOS** User : **Microsoft Remote Desktop 10** im Mac App Store
+> For **iOS** users : **Microsoft Remote Desktop 10** in the Mac App Store

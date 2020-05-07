@@ -1,18 +1,22 @@
 <!DOCTYPE html>
 <html lang="en-US">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
-    <meta
-      http-equiv="refresh"
-      content="0; url=docs/firststeps_register.html"
-    />
     <script type="text/javascript">
-      window.location.href = 'docs/firststeps_register.html';
+        var userLang = navigator.language || navigator.userLanguage;
+        if (userLang == "de" || userLang == "de-DE") {
+            window.location.replace("docs/de/firststeps_register.html");
+        } else {
+            window.location.replace("docs/en/firststeps_register.html");
+        }
     </script>
     <title>ZAP-Hosting Docs</title>
-  </head>
-  <body>
+</head>
+
+<body>
     If you are not redirected automatically, follow this
     <a href="docs/firststeps_register.html">link</a>.
-  </body>
+</body>
+
 </html>

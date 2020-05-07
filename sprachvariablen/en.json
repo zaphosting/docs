@@ -17,6 +17,10 @@
         "title": "Cashbox",
         "sidebar_label": "Cashbox"
       },
+      "account_community_ads": {
+        "title": "Community ads",
+        "sidebar_label": "Community ads"
+      },
       "account_contractsandprepaid": {
         "title": "Contracts & Prepaids",
         "sidebar_label": "Contracts & Prepaids"
@@ -33,6 +37,18 @@
         "title": "Partner System",
         "sidebar_label": "Partner System"
       },
+      "account_paymentoptions": {
+        "title": "Payment options",
+        "sidebar_label": "Payment options"
+      },
+      "account_security": {
+        "title": "Safety",
+        "sidebar_label": "Safety"
+      },
+      "account_termination_and_cancellation_period": {
+        "title": "Termination and Cancellation",
+        "sidebar_label": "Termination and Cancellation"
+      },
       "account_usermanagement": {
         "title": "User Management",
         "sidebar_label": "User Management"
@@ -41,6 +57,18 @@
         "title": "Coupons & Codes",
         "sidebar_label": "Coupons & Codes"
       },
+      "arma3_serverconfig": {
+        "title": "Server.cfg",
+        "sidebar_label": "Server.cfg"
+      },
+      "assettocorsa_configure": {
+        "title": "Configure Server",
+        "sidebar_label": "Configure Server"
+      },
+      "assettocorsa_mods": {
+        "title": "Install Mods",
+        "sidebar_label": "Install Mods"
+      },
       "beispiel": {
         "title": "Beispiel-Eintrag",
         "sidebar_label": "Beispiel Eintrag"
@@ -48,6 +76,10 @@
       "community_info": {
         "title": "Community offers",
         "sidebar_label": "Community offers"
+      },
+      "csgo_gotv": {
+        "title": "GOTV",
+        "sidebar_label": "GOTV"
       },
       "docs_intern": {
         "title": "Docs Erstellen -- Intern",
@@ -61,9 +93,29 @@
         "title": "ExpertDNS",
         "sidebar_label": "ExpertDNS"
       },
+      "domain_gameserver_srv_link": {
+        "title": "Domain Gameserver Redirect",
+        "sidebar_label": "Domain Gameserver Redirect"
+      },
+      "domain_general_domain_info": {
+        "title": "What is a domain?",
+        "sidebar_label": "What is a domain?"
+      },
+      "domain_order": {
+        "title": "Order a domain",
+        "sidebar_label": "Order a domain"
+      },
       "domain_profidns": {
         "title": "ProfiDNS",
         "sidebar_label": "ProfiDNS"
+      },
+      "domain_records": {
+        "title": "Domain Records",
+        "sidebar_label": "Domain Records"
+      },
+      "domain_teamspeak_redirect": {
+        "title": "Domain TeamSpeak 3 Redirect",
+        "sidebar_label": "Domain TeamSpeak 3 Redirect"
       },
       "firststeps_register": {
         "title": "Register",
@@ -85,21 +137,53 @@
         "title": "The first steps",
         "sidebar_label": "The first steps"
       },
+      "fivem_change_servericon": {
+        "title": "Change Server Icon",
+        "sidebar_label": "Change Server Icon"
+      },
       "fivem_dashboard": {
         "title": "Dashboard",
         "sidebar_label": "Dashboard"
+      },
+      "fivem_esx_changemoneyicon": {
+        "title": "Change Money Icon",
+        "sidebar_label": "Change Money Icon"
+      },
+      "fivem_esx_disableinventory": {
+        "title": "Deactivate the Inventory (F2)",
+        "sidebar_label": "Deactivate the Inventory (F2)"
       },
       "fivem_installresources": {
         "title": "Resource Installation",
         "sidebar_label": "Resource Installation"
       },
+      "fivem_licensekey": {
+        "title": "Eigener Lizenzkey",
+        "sidebar_label": "Eigener Lizenzkey"
+      },
+      "fivem_mods_installaddon": {
+        "title": "Install Addon Carmods",
+        "sidebar_label": "Install Addon Carmods"
+      },
       "fivem_mods_installreplace": {
-        "title": "Install replace carmods",
-        "sidebar_label": "Install replace carmods"
+        "title": "Install Replace Carmods",
+        "sidebar_label": "Install Replace Carmods"
+      },
+      "fivem_rcon": {
+        "title": "Use Rcon",
+        "sidebar_label": "Use Rcon"
+      },
+      "fivem_sql_file_import": {
+        "title": "SQL File Import",
+        "sidebar_label": "SQL File Import"
       },
       "fivem_useprofiler": {
         "title": "Use Profiler",
         "sidebar_label": "Use Profiler"
+      },
+      "fivem_vrp_changemoneyicon": {
+        "title": "Geldicon Ändern",
+        "sidebar_label": "Geldicon Ändern"
       },
       "gameserver_cloudvslifetime": {
         "title": "Cloud vs. Lifetime",
@@ -125,6 +209,18 @@
         "title": "Restartplaner",
         "sidebar_label": "Restartplaner"
       },
+      "gameserver_server_down_what_now": {
+        "title": "Server crash - What to do?",
+        "sidebar_label": "Server crash - What to do?"
+      },
+      "gameswitch": {
+        "title": "Spielwechsel mit der Gameservercloud",
+        "sidebar_label": "Spielwechsel"
+      },
+      "legal_use_brand_assets": {
+        "title": "Use of logo and name",
+        "sidebar_label": "Use of logo and name"
+      },
       "minecraft_addop": {
         "title": "OP-Permissions",
         "sidebar_label": "OP-Permissions"
@@ -133,17 +229,33 @@
         "title": "Server Config",
         "sidebar_label": "Server Config"
       },
-      "minecraft_direwolf20": {
-        "title": "Direwolf20",
-        "sidebar_label": "Direwolf20"
-      },
       "minecraft_pluginuploader": {
         "title": "Plugin Uploader",
         "sidebar_label": "Plugin Uploader"
       },
+      "minecraft_rcon": {
+        "title": "RCON",
+        "sidebar_label": "RCON"
+      },
+      "minecraft_whitelist": {
+        "title": "Whitelist",
+        "sidebar_label": "Whitelist"
+      },
       "minecraft_worlds": {
         "title": "Worlds",
         "sidebar_label": "Worlds"
+      },
+      "partner-guide": {
+        "title": "Partner Guide",
+        "sidebar_label": "Partner Guide"
+      },
+      "ragemp_installpackages": {
+        "title": "Installing packages",
+        "sidebar_label": "Installing packages"
+      },
+      "source_gsltoken": {
+        "title": "Gameserver Login Token",
+        "sidebar_label": "GSL-Token"
       },
       "source_metamod_addadmins": {
         "title": "Become an admin",
@@ -153,6 +265,22 @@
         "title": "Installation",
         "sidebar_label": "Installation"
       },
+      "source_metamod_plugins": {
+        "title": "Plugins",
+        "sidebar_label": "Plugins"
+      },
+      "spaceengineers_becomeadmin": {
+        "title": "Admin werden",
+        "sidebar_label": "Admin werden"
+      },
+      "voiceserver_voicebot_connection": {
+        "title": "Voicebot Connection",
+        "sidebar_label": "Voicebot Connection"
+      },
+      "vserver_linux_add_ip": {
+        "title": "IPv4 Adresse hinzufügen",
+        "sidebar_label": "IPv4 Adresse hinzufügen"
+      },
       "vserver_linux_dnsserver": {
         "title": "DNS Server (ISPConfig)",
         "sidebar_label": "DNS Server (ISPConfig)"
@@ -160,6 +288,10 @@
       "vserver_linux_docker": {
         "title": "Docker",
         "sidebar_label": "Docker"
+      },
+      "vserver_linux_ftp": {
+        "title": "FTP Dienst funktioniert nicht",
+        "sidebar_label": "FTP Dienst funktioniert nicht"
       },
       "vserver_linux_gs_interface": {
         "title": "Gameserver / Ts 3 Server Interface",
@@ -169,29 +301,61 @@
         "title": "Java installieren",
         "sidebar_label": "Java installieren"
       },
+      "vserver_linux_nextcloud": {
+        "title": "Nextcloud",
+        "sidebar_label": "Nextcloud"
+      },
       "vserver_linux_openvpn": {
         "title": "OpenVPN",
         "sidebar_label": "OpenVPN"
+      },
+      "vserver_linux_password_change": {
+        "title": "Passwort ändern",
+        "sidebar_label": "Passwort ändern"
+      },
+      "vserver_linux_phpmyadmin": {
+        "title": "phpMyAdmin",
+        "sidebar_label": "phpMyAdmin"
       },
       "vserver_linux_plesk": {
         "title": "Plesk",
         "sidebar_label": "Plesk"
       },
+      "vserver_linux_ssh": {
+        "title": "Erstzugriff (SSH)",
+        "sidebar_label": "Initial access (SSH)"
+      },
+      "vserver_root_unterschied": {
+        "title": "Rootserver versus vServer",
+        "sidebar_label": "Rootserver versus vServer"
+      },
+      "vserver_vnc": {
+        "title": "What is VNC?",
+        "sidebar_label": "What is  VNC (Serial console)?"
+      },
       "vserver_windows_addip": {
-        "title": "Zusätzliche IPs hinzufügen",
-        "sidebar_label": "Zusätzliche IPs hinzufügen"
+        "title": "Add additional IPs",
+        "sidebar_label": "Add additional IPs"
+      },
+      "vserver_windows_nointernet": {
+        "title": "No Internet what now?",
+        "sidebar_label": "No Internet what now?"
+      },
+      "vserver_windows_port": {
+        "title": "Port forwarding",
+        "sidebar_label": "Port forwarding"
       },
       "vserver_windows_userdp": {
-        "title": "Erstzugriff (RDP)",
-        "sidebar_label": "Erstzugriff (RDP)"
+        "title": "Initial access (RDP)",
+        "sidebar_label": "Initial access (RDP)"
       },
       "webspace_dashboard": {
         "title": "Dashboard",
         "sidebar_label": "Dashboard"
       },
       "webspace_plesk_ftp": {
-        "title": "FTP Verbindung Anlegen",
-        "sidebar_label": "FTP Verbindung Anlegen"
+        "title": "FTP Connection",
+        "sidebar_label": "FTP Connection"
       },
       "webspace_plesk_sendmail": {
         "title": "E-Mails verschicken",
@@ -209,11 +373,16 @@
       "Overview": "Overview",
       "Account": "Account",
       "Gameserver - General": "Gameserver - General",
+      "vServer & Rootserver": "vServer & Rootserver",
+      "Webspace & Domains": "Webspace & Domains",
+      "Voicebot/Voiceserver": "Voicebot/Voiceserver",
       "Minecraft": "Minecraft",
       "FiveM": "FiveM",
+      "RageMP": "RageMP",
       "Source Games": "Source Games",
-      "vServer & Rootserver": "vServer & Rootserver",
-      "Webspace & Domains": "Webspace & Domains"
+      "ArmA 3": "ArmA 3",
+      "Assetto Corsa": "Assetto Corsa",
+      "Space Engineers": "Space Engineers"
     }
   },
   "pages-strings": {
