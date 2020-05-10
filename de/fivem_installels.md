@@ -14,7 +14,9 @@ Zuerst laden wir die neuste [ELS-FiveM Version](https://github.com/MrDaGree/ELS-
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/q7ftdNXaZybDEtg/preview)
 
-Nachdem wir ELS Runtergeladen haben, entpacken wir zunächst die Zip Datei, nachdem wir dies getan haben öffnen wir den "ELS-FiveM" Ordner
+Nachdem wir ELS Runtergeladen haben, entpacken wir zunächst die Zip Datei, nachdem wir dies getan haben öffnen wir den "ELS-FiveM" Ordner, dieser sollte so aussehen:
+
+![](https://screensaver01.zap-hosting.com/index.php/s/a2pm84dy77izHZg/preview)
 
 ## Konfiguration
 
