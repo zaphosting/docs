@@ -237,6 +237,10 @@
         "title": "RCON",
         "sidebar_label": "RCON"
       },
+      "minecraft_timings_report": {
+        "title": "Timings-Report",
+        "sidebar_label": "Timings-Report"
+      },
       "minecraft_whitelist": {
         "title": "Whitelist",
         "sidebar_label": "Whitelist"
