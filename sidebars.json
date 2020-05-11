@@ -119,7 +119,8 @@
                     "minecraft_default_config",
                     "minecraft_worlds",
                     "minecraft_rcon",
-                    "minecraft_whitelist"
+                    "minecraft_whitelist",
+                    "minecraft_timings_report"
                 ]
             },
             {
@@ -144,7 +145,8 @@
                 "label": "Mods",
                 "ids": [
                     "fivem_mods_installreplace",
-                    "fivem_mods_installaddon"
+                    "fivem_mods_installaddon",
+                    "fivem_installels"
                 ]
             },
             {
