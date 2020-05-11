@@ -141,6 +141,10 @@
         "title": "Change Server Icon",
         "sidebar_label": "Change Server Icon"
       },
+      "fivem_changespawnpoint": {
+        "title": "Spawnpoint setzen",
+        "sidebar_label": "Spawnpoint setzen"
+      },
       "fivem_dashboard": {
         "title": "Dashboard",
         "sidebar_label": "Dashboard"
