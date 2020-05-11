@@ -24,7 +24,7 @@
             "account_usermanagement",
             "account_vouchers",
             "account_donations",
-            "account_account_community_ads",
+            "account_community_ads",
             "account_security",
             {
                 "type": "subcategory",
