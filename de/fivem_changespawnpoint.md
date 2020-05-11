@@ -10,7 +10,7 @@ Zu allererst müssen wir herrausfinden, welche Map auf unserem FiveM Server läu
 Dafür gehen wir wie folgt vor:
 **1** Gehe in dein Dashboard deines Servers
 
-![](https://screensaver01.zap-hosting.com/index.php/s/xqHpJSFHMmBKksq/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/6NyyJx8adoN227F/preview)
 
 ## 📑 Ressource für Koordinaten
 
@@ -24,11 +24,11 @@ Wie du das tun kannst findest du hier: https://docs.zap-hosting.com/docs/de/five
 Nun öffnen wir unsere Map welche wir vorhin herrausgefunden haben.
 Dies tun wir zb per Filezilla
 
-![](https://screensaver01.zap-hosting.com/index.php/s/oeSKrtBTWk9qGaB/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/7fPmWTPyjgnz4yC/preview)
 
 Dort öffnen wir dann die Map.lua
 
-![](https://screensaver01.zap-hosting.com/index.php/s/Bpe9tyw8JdSifn6/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/bMbfGydeN5tyTfp/preview)
 
 Nun erhalten wir eine Datei mit sehr vielen Koordinaten Einträgen
 
