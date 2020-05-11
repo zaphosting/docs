@@ -139,6 +139,7 @@
             "fivem_rcon",
             "fivem_licensekey",
             "fivem_useprofiler",
+            "fivem_changespawnpoint",
             {
                 "type": "subcategory",
                 "label": "Mods",
