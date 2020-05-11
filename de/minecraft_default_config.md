@@ -11,6 +11,8 @@ In der  kann der Server grundlegend konfiguriert werden.
 Wir beschreiben hier, was die einzelnen Punkte bewirken und was bei Änderungen zu beachten ist.
 Einige Einstellungen sind **behutsam** zu behandeln, da diese teilweise drastischen Einfluss auf die Performance des Servers haben, was unter anderem auch zu Instabilität des Servers führen kann.
 
+## Einstellungen
+
 ### view-distance
 
 Bei dieser Einstellung kann die *maximale Sichtweite vom Server* festgelegt werden. Unabhängig wie die Sichtweite im Client eingestellt wurde, sendet der Server niemals mehr Chunk-Daten an den Client wie hier festgelegt. Hierbei kann man den Wert auch herrabsetzen, um die Performance des Servers etwas zu schonen.
