@@ -1,7 +1,7 @@
 ---
 id: firststeps_problem_melden
-title: Wie melde ich Probleme? ENG
-sidebar_label: Wie melde ich Probleme? ENG
+title: How do i report problems?
+sidebar_label: How do i report problems?
 ---
 
 ## 🤔 Is something going wrong?
