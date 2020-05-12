@@ -116,6 +116,10 @@
                 "title": "Domain TeamSpeak 3 Weiterleitung",
                 "sidebar_label": "Domain TeamSpeak 3 Weiterleitung"
             },
+            "firststeps_problem_melden": {
+                "title": "Wie melde ich Probleme?",
+                "sidebar_label": "Wie melde ich Probleme?"
+            },
             "firststeps_register": {
                 "title": "Registrieren",
                 "sidebar_label": "Registrieren"
@@ -140,6 +144,10 @@
                 "title": "Server Icon Ändern",
                 "sidebar_label": "Server Icon Ändern"
             },
+            "fivem_changespawnpoint": {
+                "title": "Spawnpoint setzen",
+                "sidebar_label": "Spawnpoint setzen"
+            },
             "fivem_dashboard": {
                 "title": "Dashboard",
                 "sidebar_label": "Dashboard"
@@ -151,6 +159,10 @@
             "fivem_esx_disableinventory": {
                 "title": "Inventar (F2) Deaktivieren",
                 "sidebar_label": "Inventar (F2) Deaktivieren"
+            },
+            "fivem_installels": {
+                "title": "ELS Installieren",
+                "sidebar_label": "ELS Installieren"
             },
             "fivem_installresources": {
                 "title": "Resourcen Installieren",
@@ -235,6 +247,10 @@
             "minecraft_rcon": {
                 "title": "RCON",
                 "sidebar_label": "RCON"
+            },
+            "minecraft_timings_report": {
+                "title": "Timings-Report",
+                "sidebar_label": "Timings-Report"
             },
             "minecraft_whitelist": {
                 "title": "Whitelist",
@@ -363,6 +379,10 @@
             "webspace_plesk_sendmail": {
                 "title": "E-Mails verschicken",
                 "sidebar_label": "E-Mails verschicken"
+            },
+            "webspace_plesk_ssl": {
+                "title": "SSL Zertifikat erstellen",
+                "sidebar_label": "SSL Zertifikat erstellen"
             },
             "whatiszap": {
                 "title": "Die ZAP-Hosting Docs",
