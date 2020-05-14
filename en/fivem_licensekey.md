@@ -50,7 +50,7 @@ On the homepage of the keymaster we can now see our new key:
 
 Now we open the settings of our game server and scroll down, here we can enter our own key under "Own license key (optional)", the final result should look like this.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/ipngFwftZ9rCGpN/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/f9r2iMWqPssFYxt/preview)
 
 Now we save the settings and restart the server.
 
