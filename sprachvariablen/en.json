@@ -341,6 +341,9 @@
         "title": "Erstzugriff (SSH)",
         "sidebar_label": "Initial access (SSH)"
       },
+      "vserver_linux_ssh2fa": {
+        "title": "vserver_linux_ssh2fa"
+      },
       "vserver_root_unterschied": {
         "title": "Rootserver versus vServer",
         "sidebar_label": "Rootserver versus vServer"
