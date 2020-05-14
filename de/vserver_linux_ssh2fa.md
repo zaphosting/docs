@@ -9,7 +9,9 @@ sidebar_label: vServer/Rootserver Linux SSH 2FA
 Als erstes musst du den Google Authenticator auf deinem Linux vServer/Rootserver installieren.
 Kopiere dir dafür einfach diese Zeile:
 
-`sudo apt install libpam-google-authenticator`
+```
+sudo apt install libpam-google-authenticator
+```
 
 Danach wirst du aufgefordert werden "Y" einzugeben um das Packet zu installieren, gib dies ein, drücke Enter und dann ist der Google Authenticator installiert!
 
@@ -61,7 +63,11 @@ Dafür sind nur zwei Dateiänderungen nötig.
 
 In der `/etc/ssh/sshd_config` aktivieren wir die erforderlichen Module.
 
-Öffne die `/etc/ssh/sshd_config` Datei indem du `sudo nano /etc/ssh/sshd_config` eingibst.
+Öffne die `/etc/ssh/sshd_config` Datei indem du 
+```
+sudo nano /etc/ssh/sshd_config
+``` 
+eingibst.
 
 Du siehst nun dieses Fenster vor dir:
 
@@ -77,7 +83,11 @@ Stelle nun Sicher das die beiden Zeilen `UsePAM` und `ChallengeResponseAuthentic
 
 Speichere danach die Datei mit `CTRL + X` dann `Y` und letzlich `Enter`
 
-Starte danach SSH neu mit `sudo systemctl restart ssh`. Wenn keine Fehler kommen gehen wir zum nächsten Schritt.
+Starte danach SSH neu mit 
+```
+sudo systemctl restart ssh
+``` 
+Wenn keine Fehler kommen gehen wir zum nächsten Schritt.
 
 ### /etc/pam.d/sshd
 
