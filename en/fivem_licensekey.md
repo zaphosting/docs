@@ -1,56 +1,57 @@
 ---
 id: fivem_licensekey
-title: Eigener Lizenzkey
-sidebar_label: Eigener Lizenzkey
+title: Own License Key
+sidebar_label: Own License Key
 ---
 
-## Wieso brauche ich einen Key?
+## Why would I need a key?
 
-Ein Key wird benötigt, wenn z. B. die [FiveM Patreon](https://patreon.com/fivem) Vorteile gekauft wurden, um Onesync freizuschalten, oder wenn das Nucleus Interface den falschen Gameserver anzeigt.
+A key is required if, for example, the [FiveM Patreon](https://patreon.com/fivem) benefits were purchased to unlock Onesync, or if the Nucleus interface shows the wrong game server.
 
-## Vorbereitung
-Um einen eigenen Lizenzkey zu erstellen, melden wir uns zunächst auf https://keymaster.fivem.net an, wenn noch kein FiveM Forum Account erstellt wurde, muss hier nun einer erstellt werden.
+## Preparation
+To create your own license key, we first log in at https://keymaster.fivem.net. If no FiveM Forum account has been created yet, one must be created here.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/J8GZosBtNtpwcsJ/preview)
 
-Nachdem wir angemeldet sind, klicken wir oben auf "New", damit kommen wir ins Menü zum Lizenzkey Erstellen:
+After we are logged in, we click on "New" at the top, which takes us to the Create license key menu:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/XHJc9FjW7Pz6PAz/preview)
 
 
-## Daten Angeben
+## Specify data
 
-Nun können wir die Daten wie folgt befüllen:
+Now we can fill the data as follows:
 
-- **Label:**  Beschreibung des Servers, z. B. der Name.
-- **Server IP Address:** Die Server IP, ohne Port
-- **Server Type:** Der Servertyp, in unserem Fall "Server Provider (rented server)"
+- **Label:** Description of the server, e.g. the name.
+- **Server IP Address:** The server IP, without port
+- **Server Type:** The server type, in our case "Server Provider (rented server)"
 
 
-### IP Angeben
+### Enter IP
 
-Die IP muss ohne den Port angegeben werden, diese finden wir in unserem Interface ganz oben:
+The IP must be specified without the port, we find this at the top of our interface:
+
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/iaw2Af6GEC5LWR6/preview)
 
-## Key Generieren
+## Generate Key
 
-Nachdem alle unsere Daten befüllt sind, sollte die Keymaster Seite ungefähr so aussehen:
+After all our data is filled, the Keymaster page should look something like this:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/kBR3kZJYafZD5LR/preview)
 
-Nun klicken wir auf "Generate", es wird nun ein Key generiert.
+Now we click on "Generate", a key will now be generated.
 
-Auf der Homepage des keymasters können wir unseren neuen Key nun sehen:
+On the homepage of the keymaster we can now see our new key:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/9cqJEbFeNgqrc9Z/preview)
 
-## Key Einstellen
+## Configure Key
 
-Nun Öffnen wir die Einstellungen unseres Gameservers und scrollen nach unten, hier können wir nun unseren eigenen Key unter "Eigener Lizenzkey (optional)" Angeben, das Endresultat sollte so aussehen.
+Now we open the settings of our game server and scroll down, here we can enter our own key under "Own license key (optional)", the final result should look like this.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/ipngFwftZ9rCGpN/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/f9r2iMWqPssFYxt/preview)
 
-Nun speichern wir die Einstellungen und Starten den Server neu.
+Now we save the settings and restart the server.
 
-Fertig! Der Key ist nun angewandt.
+Done! The key is now applied.
