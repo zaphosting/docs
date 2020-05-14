@@ -42,10 +42,10 @@ In unserem Fall sieht das jetzt so aus:
 
 Du wirst nun 4 Dinge gefragt.
 
-1. Die Google Authenticator Konfiguration speichern
-2. Ein Token kann nur einmal benutzt werden (Also nur ein Login alle 30 Sekunden).
-3. Erhört die Zeit in der ein Code nutzbar ist.
-4. Es sind nur Drei Logins alle 30 Sekunden möglich. (Schutz gegen Brute Force)
+1. Soll die Google Authenticator Konfiguration gespeichert werden?
+2. Soll nur ein Login alle 30 Sekunden möglich sein? (Also nur ein Login alle 30 Sekunden).
+3. Soll die Zeit erhöt werden in der ein Code nutzbar ist?
+4. Sollen nur Drei Logins alle 30 Sekunden möglich sein? (Schutz gegen Brute Force)
 
 Aus Sicherheitsgründen empfehlen wir bei allen 4 Fragen "Y" einzugeben und dann Enter zu drücken.
 
