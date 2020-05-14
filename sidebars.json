@@ -24,7 +24,7 @@
             "account_usermanagement",
             "account_vouchers",
             "account_donations",
-            "account_account_community_ads",
+            "account_community_ads",
             "account_security",
             {
                 "type": "subcategory",
@@ -104,7 +104,8 @@
                 "ids": [
                     "webspace_dashboard",
                     "webspace_plesk_ftp",
-                    "webspace_plesk_sendmail"
+                    "webspace_plesk_sendmail",
+                    "webspace_plesk_ssl"
                 ]
             }
         ],
@@ -119,7 +120,8 @@
                     "minecraft_default_config",
                     "minecraft_worlds",
                     "minecraft_rcon",
-                    "minecraft_whitelist"
+                    "minecraft_whitelist",
+                    "minecraft_timings_report"
                 ]
             },
             {
@@ -139,12 +141,14 @@
             "fivem_rcon",
             "fivem_licensekey",
             "fivem_useprofiler",
+            "fivem_changespawnpoint",
             {
                 "type": "subcategory",
                 "label": "Mods",
                 "ids": [
                     "fivem_mods_installreplace",
-                    "fivem_mods_installaddon"
+                    "fivem_mods_installaddon",
+                    "fivem_installels"
                 ]
             },
             {

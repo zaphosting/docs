@@ -117,6 +117,10 @@
         "title": "Domain TeamSpeak 3 Redirect",
         "sidebar_label": "Domain TeamSpeak 3 Redirect"
       },
+      "firststeps_problem_melden": {
+        "title": "How do i report problems?",
+        "sidebar_label": "How do i report problems?"
+      },
       "firststeps_register": {
         "title": "Register",
         "sidebar_label": "Register"
@@ -141,6 +145,10 @@
         "title": "Change Server Icon",
         "sidebar_label": "Change Server Icon"
       },
+      "fivem_changespawnpoint": {
+        "title": "Spawnpoint setzen",
+        "sidebar_label": "Spawnpoint setzen"
+      },
       "fivem_dashboard": {
         "title": "Dashboard",
         "sidebar_label": "Dashboard"
@@ -152,6 +160,10 @@
       "fivem_esx_disableinventory": {
         "title": "Deactivate the Inventory (F2)",
         "sidebar_label": "Deactivate the Inventory (F2)"
+      },
+      "fivem_installels": {
+        "title": "ELS Installieren",
+        "sidebar_label": "ELS Installieren"
       },
       "fivem_installresources": {
         "title": "Resource Installation",
@@ -236,6 +248,10 @@
       "minecraft_rcon": {
         "title": "RCON",
         "sidebar_label": "RCON"
+      },
+      "minecraft_timings_report": {
+        "title": "Timings-Report",
+        "sidebar_label": "Timings-Report"
       },
       "minecraft_whitelist": {
         "title": "Whitelist",
@@ -360,6 +376,10 @@
       "webspace_plesk_sendmail": {
         "title": "E-Mails verschicken",
         "sidebar_label": "E-Mails verschicken"
+      },
+      "webspace_plesk_ssl": {
+        "title": "SSL Zertifikat erstellen",
+        "sidebar_label": "SSL Zertifikat erstellen"
       },
       "whatiszap": {
         "title": "The ZAP-Hosting Docs",
