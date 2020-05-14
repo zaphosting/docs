@@ -50,4 +50,3 @@ Then, we will check whether the **server's** IP address from the control panel i
 
 Then, take over the settings and restart the server if necessary.
 
-**If there is still no active internet connection afterwards, then we recommend to contact support via live chat or the ticket system so that they can change the IP address of the server once, as it is already assigned elsewhere.**
