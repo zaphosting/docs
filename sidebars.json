@@ -60,6 +60,7 @@
                 "label": "Linux",
                 "ids": [
                     "vserver_linux_ssh",
+                    "vserver_linux_ssh2fa",
                     "vserver_linux_password_change",
                     "vserver_linux_java",
                     "vserver_linux_phpmyadmin",
