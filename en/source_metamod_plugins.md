@@ -6,7 +6,7 @@ sidebar_label: Plugins
 
 ## 🔼 Plugin Installation
 
-This section explains how to install plugins. To use plugins you need Sourcemod / Metamod. Instructions on how to install it can be found here: [SM / MM installation](source_metamod_installation.md)
+The following explains how to install plugins. In order to be able to use plugins you need Sourcemod / Metamod. Instructions on how to install it can be found here: [SM / MM installation](source_metamod_installation.md)
 
 
 
@@ -32,10 +32,7 @@ If you want to disable a plugin permanently then it is necessary to delete the c
 ## 🆘 Common issues
 
 
-
 **Why does my installed plugin not work?**
-
-
 
 Solutions:
 
