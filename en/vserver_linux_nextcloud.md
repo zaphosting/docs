@@ -43,7 +43,7 @@ In order to achieve optimal performance, stability and functionality, the follow
 
 ### Preparation
 
-A connection must be made using an SSH client to install the cloud on a Linux server. In case you are not sure how to use SSH, here is a guide to do so: [Initial access (SSH)](vserver_linux_ssh.md)
+A connection has to be established via a SSH client in order to install the cloud on a Linux server. In case you are not sure how to use SSH, here is a guide how to do so: [Initial access (SSH)](vserver_linux_ssh.md)
 
 Once the connection is established, you can start to install the necessary packages that are required for the actual installation of Nextcloud. This includes the installation of a web server as well as PHP.
 
@@ -421,7 +421,7 @@ chown -R www-data:www-data nextcloud
 rm nextcloud-16.0.4.zip
 ```
 
-Once this step is finished, then it' s time to run the installation script. Access is possible via the browser with the following address:
+Once this step is finished, it's time to run the installation script. Access is possible via the browser via the following URL:
 
 > **http://domain.tld/nextcloud/** 
 
