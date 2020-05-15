@@ -12,9 +12,9 @@ Gameserver Login Tokens (GSLTs) is a procedure that Steam has implemented as a s
 
 ## ❓ What is the purpose of a GSL token?
 
-In the past, Valve made some rule changes for hosting a game server. Not all game server operators have followed those regulations. As a consequence, the IP addresses of game servers were banned.
+In the past, Valve made a few rule changes for hosting a game server. Not all game server operators have followed those regulations. As a consequence, the IP addresses of game servers were banned.
 
-However, this method was not effective, since it could easily be bypassed with a new IP address and was also a huge issue for game server providers.The reason for this is that by banning the IP address, other customers were often also affected.
+However, this method was not effective, since it could easily be bypassed with a new IP address and was also a huge issue for game server providers. The reason for this is that by banning the IP address, other customers were often also affected.
 
 That's why this system has been implemented, which instead bans the token and blocks the linked Steam Account for further game server operation. 
 
