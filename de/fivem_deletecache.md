@@ -10,7 +10,7 @@ Diesen finden wir unter dem Reiter **Werkzeuge**
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/YE3nctY2KswDZdL/preview)
 
-Her haben wir nun unsere Daten welche wir nun nur noch in Filezilla eintragen müssen.
+Hier haben wir nun unsere Daten welche wir nun nur noch in Filezilla eintragen müssen.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/wnJiraqerqdsSWx/preview)
 
