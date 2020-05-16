@@ -1,5 +1,5 @@
 ---
-id: fivem_sql_file_import
+id: fivem_deletecache
 title: Cache leeren
 sidebar_label: Cache leeren
 ---
