@@ -10,7 +10,7 @@ Die Cashbox ist dafür da, um Geld einzuzahlen. Dafür bieten wir dir mehrere M�
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/daaL8rAaNepQKDN/preview)
 
-Diese Option lässt sich mit einem Klick auf "Geld einzahlen" öffnen: 
+Diese Option lässt sich mit einem Klick auf **Geld einzahlen** öffnen: 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/xYsr6HWAbWfSq4N/preview)
 
