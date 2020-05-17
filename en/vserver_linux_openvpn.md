@@ -82,6 +82,4 @@ If you no longer need OpenVPN, then you can uninstall it this way:
 ```
 wget https://git.io/vpn -O openvpn-install.sh && bash openvpn-install.sh
 ```
-Press '3' and confirm
-
-Confirm once again and OpenVPN is uninstalled after that.
+Press '3' and confirm. Confirm once again and OpenVPN is uninstalled after that.
