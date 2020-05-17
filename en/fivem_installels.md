@@ -20,7 +20,7 @@ Once we have downloaded ELS, unzip the file and open the "ELS-FiveM" folder whic
 
 ## Configuration
 
-Now we configure ELS-FiveM by making a copy of the `vcf.default.lua', and rename it to `vcf.lua'.
+Now we configure ELS-FiveM by making a copy of the `vcf.default.lua`, and rename it to `vcf.lua`.
 
 > Note: The old `vcf.default.lua' should not be deleted.
 
