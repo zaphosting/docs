@@ -12,25 +12,25 @@ An A record is used to create a forwarding of a "**sub**" or "**main domain**" t
 
 ## AAAA Records
 
-An AAAA record is used to create a forwarding of a " **sub**" or "**main domain**" to an "**IPv6 address**".
+An AAAA record is used to create a forwarding of a "**sub**" or "**main domain**" to an "**IPv6 address**".
 
 ![](https://screensaver01.zap-hosting.com/index.php/apps/files_sharing/publicpreview/NzqWfaL5HbFMdBQ?x=1600&y=439&a=true&file=chrome_JoZK1NlneQ.png&scalingup=0)
 
 ## CNAME Records
 
-A CNAME record is used to create a forwarding of a " **subdomain**" to a "**sub-**" or "**main domain**".
+A CNAME record is used to create a forwarding of a "**subdomain**" to a "**sub-**" or "**main domain**".
 
 ![](https://screensaver01.zap-hosting.com/index.php/apps/files_sharing/publicpreview/P6Nkeb72peSnDxA?x=1601&y=382&a=true&file=chrome_NlXO80Ur0A.png&scalingup=0)
 
 ## MX Records
 
-An MX record is used to create a redirection of a " **Sub-**" or "**Main domain**" to a "**Domain**" or "**A-Record**". This MX record is used to specify one or more mail servers. The priority specifies which mail server should be used preferably if there are multiple MX records. The priority must be an integer between 0 and 65535, the lower the value the higher the priority.
+An MX record is used to create a redirection of a "**Sub-**" or "**Main domain**" to a "**Domain**" or "**A-Record**". This MX record is used to specify one or more mail servers. The priority specifies which mail server should be used preferably if there are multiple MX records. The priority must be an integer between 0 and 65535, the lower the value the higher the priority.
 
 ![](https://screensaver01.zap-hosting.com/index.php/apps/files_sharing/publicpreview/WHTctYLnZHFmsqp?x=1600&y=439&a=true&file=chrome_erEMYDqm2o.png&scalingup=0)
 
 ## PTR Records
 
-A PTR record is used to create a forwarding of a " **IPv4 address**" or "**IPv6 address**" to a "**sub-**" or "**main domain**". This PTR record represents the opposite of the A or AAAA record.
+A PTR record is used to create a forwarding of a "**IPv4 address**" or "**IPv6 address**" to a "**sub-**" or "**main domain**". This PTR record represents the opposite of the A or AAAA record.
 
 ![](https://screensaver01.zap-hosting.com/index.php/apps/files_sharing/publicpreview/FtFwWRAxKYP4eEg?x=1601&y=382&a=true&file=chrome_YXmJpZcvJ1.png&scalingup=0)
 
