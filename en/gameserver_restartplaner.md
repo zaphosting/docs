@@ -44,4 +44,4 @@ If you want to warn players beforehand, then you can use the *say* command in Mi
 
 ### Delay
 
-The Delay field defines the interval between the execution of the command and the restart of the server. This delay is defined in **seconds**.For example, if a delay of 5 minutes should be set, then the value 300 needs to be set in this case. 
+The Delay field defines the interval between the execution of the command and the restart of the server. This delay is defined in **seconds**. For example, if a delay of 5 minutes should be set, then the value 300 needs to be set in this case. 
