@@ -22,7 +22,7 @@ Once we have downloaded ELS, unzip the file and open the "ELS-FiveM" folder whic
 
 Now we configure ELS-FiveM by making a copy of the `vcf.default.lua`, and rename it to `vcf.lua`.
 
-> Note: The old `vcf.default.lua' should not be deleted.
+> Note: The old `vcf.default.lua` should not be deleted.
 
 Further settings can also be adjusted in the "config.lua", but we will leave them as default.
 
@@ -44,7 +44,7 @@ Afterwards the server can be restarted and ELS-FiveM is available in game!
 
 ## Carmods Configuration
 
-To add new carmods to ELS-FiveM we first need the ELS-Config which you can often find in the folder of the downloaded carmod. Usually it is called `autoname.xml', in our case it is `scpdvic.xml'.
+To add new carmods to ELS-FiveM we first need the ELS-Config which you can often find in the folder of the downloaded carmod. Usually it is called `autoname.xml`, in our case it is `scpdvic.xml`.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/TQCsWyTj3gZaZc6/preview)
 
