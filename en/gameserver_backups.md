@@ -13,9 +13,9 @@ Besides creating backups manually, backups can also be created fully automatical
 
 Um ein Backup manuell zu erstellen muss der grüne **+** Button neben der Backup Liste gedrückt werden. Im Anschluss startet der Backup Vorgang. 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/HNXMd5NAF8YceCs/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/cmtWFxAK2Wr4C9s/preview)
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/TRFjK44sDjgQaFB/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/DPCEK9scWrZMmQG/preview)
 
 > The backup creation process can take a few minutes depending on the file size of your server!
 
@@ -24,7 +24,7 @@ Um ein Backup manuell zu erstellen muss der grüne **+** Button neben der Backup
 
 At the bottom of the page you will find more options, including the settings for automated backups. The option **Create backups automatically** needs to be enabled in order for this feature to be active. Furthermore the interval must be set. 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/9w5JpZgi6rxZ7Ab/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/PgMSKY7X2eTt9w6/preview)
 
 Depending on the game, it's usually also a good idea to back up the database as well, since important data such as scores, permissions and much more is often stored there. 
 
@@ -34,6 +34,6 @@ Depending on the game, it's usually also a good idea to back up the database as 
 If you want to download or delete backups you have to connect to the storage server via FTP. Here you can find instructions to use FTP: [FTP access](gameserver_ftpaccess.md)
 ![img](https://screensaver01.zap-hosting.com/index.php/s/tPNdJ4YKMtwA635/preview)
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/HQxRLJPg9ADLGqR/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/AGdpoZXYpqYGjx8/preview)
 
 There, you can view the user credentials of your storage server and the currently used storage space. If you are connected via FTP, you can download or delete the backups there.
