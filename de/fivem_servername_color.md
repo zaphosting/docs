@@ -12,8 +12,8 @@ Damit der Fivem Servername unter "**Configs**" bearbeitet werden kann, muss dies
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/TtX7XxtyJZWoTtg/preview)
 
-In diesem Einstellungsfenster, kann nun das Schloss-Symbol betätigt werden um die Einstellungen in der "**Config**" vornehmen zu können.
-Die Änderungen werden durch nutzen des "**Speichern**" Buttons übernommen.
+In diesem Einstellungsfenster kann nun das Schloss-Symbol betätigt werden um die Einstellungen in der "**Config**" vornehmen zu können.
+Die Änderungen werden durch Nutzen des "**Speichern**" Buttons übernommen.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/KizwKET8oHk7tWR/preview)
 
