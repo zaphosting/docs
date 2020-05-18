@@ -5,7 +5,7 @@ sidebar_label: Admin werden (tShock)
 ---
 
 
-## Abrufen des AuthKeys
+## Abrufen des Token's
 
 Um dich als Admin auf deinem Terraria Server eintragen zu können, benötigtst du deinen einzigartigen Token.
 Dieser wird generiert wenn du den Server das erste Mal startest, im Anschluss öffnest du die Live Konsole in welcher du den Token findest:
