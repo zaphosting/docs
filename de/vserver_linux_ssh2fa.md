@@ -1,7 +1,7 @@
 ---
 id: vserver_linux_ssh2fa
-title: vServer/Rootserver Linux SSH 2FA
-sidebar_label: vServer/Rootserver Linux SSH 2FA
+title: Zwei Faktor Authentifizierung
+sidebar_label: Zwei Faktor Authentifizierung
 ---
 
 ## 💾 Google Authenticator Installieren

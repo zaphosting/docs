@@ -289,6 +289,10 @@
         "title": "Admin werden",
         "sidebar_label": "Admin werden"
       },
+      "terraria_tshock_add_admin": {
+        "title": "Become an admin (tShock)",
+        "sidebar_label": "Become an admin (tShock)"
+      },
       "voiceserver_voicebot_connection": {
         "title": "Voicebot Connection",
         "sidebar_label": "Voicebot Connection"
@@ -342,8 +346,8 @@
         "sidebar_label": "Initial access (SSH)"
       },
       "vserver_linux_ssh2fa": {
-        "title": "vServer/Rootserver Linux SSH 2FA",
-        "sidebar_label": "vServer/Rootserver Linux SSH 2FA"
+        "title": "two factor authentication",
+        "sidebar_label": "two factor authentication"
       },
       "vserver_root_unterschied": {
         "title": "Rootserver versus vServer",
@@ -403,6 +407,7 @@
       "Minecraft": "Minecraft",
       "FiveM": "FiveM",
       "RageMP": "RageMP",
+      "Terraria": "Terraria",
       "Source Games": "Source Games",
       "ArmA 3": "ArmA 3",
       "Assetto Corsa": "Assetto Corsa",
