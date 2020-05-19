@@ -1,10 +1,10 @@
 ---
 id: fivem_servername_color
-title: colored servername
-sidebar_label: colored severname
+title: Coloured Servername
+sidebar_label: Coloured Servername
 ---
 
-> To change the color of your servername, the fivem element argentum membership is required ![Fivem Patreon](https://www.patreon.com/fivem)
+> To change the color of your servername, the fivem element argentum membership is required [Fivem Patreon](https://www.patreon.com/fivem)
 
 ## Servername
 

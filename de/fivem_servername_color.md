@@ -4,7 +4,7 @@ title: Servernamen färben
 sidebar_label: Servernamen färben
 ---
 
-> Um den Servernamen zu färben wird ein Fivem Element Argentum Schlüssel benötigt ![Fivem Patreon](https://www.patreon.com/fivem)
+> Um den Servernamen zu färben wird ein Fivem Element Argentum Schlüssel benötigt [Fivem Patreon](https://www.patreon.com/fivem)
 
 ## Servername
 
