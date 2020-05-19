@@ -201,6 +201,10 @@
         "title": "Geldicon Ändern",
         "sidebar_label": "Geldicon Ändern"
       },
+      "gameserver_backups": {
+        "title": "Backups",
+        "sidebar_label": "Backups"
+      },
       "gameserver_cloudvslifetime": {
         "title": "Cloud vs. Lifetime",
         "sidebar_label": "Cloud vs. Lifetime"
