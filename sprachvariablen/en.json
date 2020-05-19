@@ -153,6 +153,10 @@
         "title": "Dashboard",
         "sidebar_label": "Dashboard"
       },
+      "fivem_deletecache": {
+        "title": "Delete Cache",
+        "sidebar_label": "Delete Cache"
+      },
       "fivem_esx_changemoneyicon": {
         "title": "Change Money Icon",
         "sidebar_label": "Change Money Icon"
