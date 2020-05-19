@@ -218,8 +218,8 @@
         "sidebar_label": "Resource limit"
       },
       "gameserver_restartplaner": {
-        "title": "Restartplaner",
-        "sidebar_label": "Restartplaner"
+        "title": "Restart planner",
+        "sidebar_label": "Restart planner"
       },
       "gameserver_server_down_what_now": {
         "title": "Server crash - What to do?",
@@ -288,6 +288,10 @@
       "spaceengineers_becomeadmin": {
         "title": "Admin werden",
         "sidebar_label": "Admin werden"
+      },
+      "terraria_tshock_add_admin": {
+        "title": "Become an admin (tShock)",
+        "sidebar_label": "Become an admin (tShock)"
       },
       "voiceserver_voicebot_connection": {
         "title": "Voicebot Connection",
@@ -403,6 +407,7 @@
       "Minecraft": "Minecraft",
       "FiveM": "FiveM",
       "RageMP": "RageMP",
+      "Terraria": "Terraria",
       "Source Games": "Source Games",
       "ArmA 3": "ArmA 3",
       "Assetto Corsa": "Assetto Corsa",

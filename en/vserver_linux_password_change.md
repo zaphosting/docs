@@ -4,79 +4,63 @@ title: Passwort ändern
 sidebar_label: Passwort ändern
 ---
 
-## Wie ändert man das Passwort von einem vServer oder Root Server richtig? 
+## How to change the password of VPS/Rootserver?
 
-Es gibt 2 Optionen um das Passwort zu ändern.
+You can change your password in two different ways:
 
 ## Option 1
 
-Das Passwort kann über unser Webinterface bei dem jeweiligen Server geändert werden. 
-Öffne dazu die Seite „Zugang und Sicherheit“, diese findet man Links im Menü
+The password can be changed via our web interface. Open the page "Access and Security", which you can find at the left of the navigation.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/8JxbxJS6aXNZipG/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/G7PG4NwxcrKKmMD/preview)
 
-Dort findet man das Eingabe Feld „Root Password“. 
-Dort kann man ein neues Wunsch Passwort eintragen.
+The root password field is located there where the desired password can be set. 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/d4BGafY3TSJ9yTj/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/LWZLeYrZqoiWFoW/preview)
 
->Bitte beachte das dies mindestens 8 Zeichen lang sein muss sowie aus Klein und Groß Buchstaben (a-z/A-Z), Zahlen (1-9) und Sonderzeichen (!@=#$%&-?_;:.,) bestehen muss. 
-Sollte dies nicht der Fall sein, wird es bei dem Server nicht gesetzt. 
+> Please keep in mind that it has to be at least 8 characters long and contain upper and lower case letters (a-z/A-Z), numbers (1-9) and special characters (!@=#$%&-?_;:.,). If that's not the case, then it won't be applied to the server.
 
-Nachdem das Passwort eingetragen wurde, erscheint noch ein Hinweis Pop-UP dieses kann mit "ok" bestätigt werden. 
+After the password has been entered, a pop-up message appears which can be confirmed with "ok". 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/7nCStmPddwExdBS/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/Sdi7rg6cBzLS3FQ/preview)
 
-Nun bestätigt das System das das Passwort geändert wurde. 
+If all requirements are met, the system will confirm that the password has been successfully changed. 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/5SbD3Nrp6PXcFtL/preview)
 
-## Server neu starten
-Jetzt muss der Server neugestartet werden damit das Passwort auch richtig gesetzt wird. 
+## Restart the server
+In order to ensure that the password is set correctly, the server has to be restarted once.
 
-Dazu klickt man einfach auf das rote Stop Symbol ⏸️ und wartet bis der Server ausgeschaltet ist. 
+To do so, simply click on the red stop icon ⏸️ and wait till the server is off. 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/SqZro6RfSoYpaad/preview)
 
-Anschließend kann der Server wieder auf dem grünen Start Symol ▶️ gestartet werden. 
-
+Afterwards the server can be started again with the green start icon ▶️. 
 ![](https://screensaver01.zap-hosting.com/index.php/s/79HiKs2QDbGknkK/preview)
 
 
-✅ Das Passwort wurde nun geändert. 
+✅ The password has now been changed. 
 
-## Passwort noch einmal einsehen
+## View password again
 
-Das Passwort kann ab jetzt noch 3 Stunden in unserem Webinterface eingesehen werden, danach löschen wir dieses aus Sicherheitsgründen zur Einsicht raus. 
-Um das Passwort einzusehen genügt ein Klick auf das Auge bei "Passwort" auf der Seite "Login und Sicherheit". 
+From now on, the password can be viewed in our web interface for 3 hours. After that it will be deleted due to security reasons. To view the password, just click on the eye icon at "Password"
 
-![](https://screensaver01.zap-hosting.com/index.php/s/B5FnToJ2DDbpsAQ/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/E6qPLZ7dgZccMMw/preview)
 
-Anshließend öffnet sich ein PoP-UP wo das Passwort angezeigt wird.
-
-![](https://screensaver01.zap-hosting.com/index.php/s/AZ7coof6Q5r2aTt/preview)
+Afterwards a pop-up window appears where the password is displayed.
+![](https://screensaver01.zap-hosting.com/index.php/s/jnPkDzQ6XyXzP46/preview)
 
 
 ## Option 2
 
-Das Passwort kann auch üver die Server Console geändert werden, dabei ist es egal ob man diese via Putty erreicht oder z.b vir VNC/Serial.
-> Wichtig: Diese Option funktioniert nur wenn noch Zugriff zum Server besteht, sprich man noch auf die Console verbinden sowie anmelden kann. 
+The password can also be changed via the Server Console, it doesn't matter if you access it via Putty or via Serial console.
 
-Ist man in der Console angemeldet, kann über den Befehl "passwd" das Passwort geändert werden. 
-Nachdem man diesen Befehl "abgesendet" hat mit der Taste "Enter" wird man aufgefordert sein neues Passwort einzugeben. 
-Dies geschieht "Unsichtbar"
+> Important: This option can only be used if you still have access to the server.
 
-Anschließnd muss man das Passwort erneut zur Bestätigung eigegeben werden. 
-Ist dies gemacht und das Passwort stimmte mit der ersten Eingabe überein, so bestätigt die Console die Änderung. 
+If you are logged into the console, you can change the password with the command "passwd". After that you have to type in the password once again to confirm it. If this is done and the password matches the first one, the console will confirm the change.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/4fTNxQB82TkcSwr/preview)
 
-Stimmen die beiden Eingaben nicht überein, so wird die Console den Vorgang beenden und man muss erneut den Befehl "passwd" eingeben. 
+If both passwords are not equal, then the console will stop the operation. in this case you have to run the command "passwd" once again.
 
-> ⚠️Wichtig: Ändert man das Password via Console, kann es nicht für 3 Stunden in unserem Webinterface unter Zugang und Sicherheit angezeigt werden. 
-
-
-
-
-
-
+> ⚠️ Important: If you change the password via Console, it cannot be displayed for 3 hours in our web interface under Access and Security.
