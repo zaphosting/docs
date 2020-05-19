@@ -50,6 +50,7 @@
             },
             "gameserver_ftpaccess",
             "gameserver_restartplaner",
+            "gameserver_backups",
             "gameserver_server_down_what_now"
         ],
         "vServer & Rootserver": [
