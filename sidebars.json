@@ -144,6 +144,7 @@
             "fivem_licensekey",
             "fivem_useprofiler",
             "fivem_changespawnpoint",
+            "fivem_deletecache",
             {
                 "type": "subcategory",
                 "label": "Mods",
@@ -173,6 +174,9 @@
         ],
         "RageMP": [
             "ragemp_installpackages"
+        ],
+        "Terraria": [
+            "terraria_tshock_add_admin"
         ],
         "Source Games": [
             "source_gsltoken",

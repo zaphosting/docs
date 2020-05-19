@@ -6,13 +6,13 @@ sidebar_label: Nextcloud
 
 ## ❓ Was ist Nextcloud?
 
-Nextcloud ist eine Open-Source-Cloud-Lösung und Abspaltung von Owncloud, die 2016 vom ehemaligen Owncloud-Gründer Frank Kalitschek aufgrund unterschiedlicher Auffassungen ins Leben gerufen wurde.
+Nextcloud is an open source cloud solution and fork of Owncloud, which was founded in 2016 by former Owncloud founder Frank Kalitschek.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/psZWxkYQebyiqoc/preview)
 
-Um eine optimale Leistung, Stabilität und Funktionalität zu gewährleisten, wird für den Betrieb eines Nextcloud-Servers die folgende Einrichtung empfohlen. Der Nextcloud-Server ist nicht mit Windows und MacOS kompatibel. Zumindest nicht ohne weitere Virtualisierung oder ähnlichen Workarounds.<br>
+In order to achieve optimal performance, stability and functionality, the following setup is recommended for hosting a Nextcloud server. The Nextcloud server is not compatible with Windows and MacOS. At least not without any further virtualization or similar workarounds.<br>
 
-**Systemvoraussetzungen**
+**System requirements**
 
 <br>
 **Hardware**
@@ -22,7 +22,7 @@ Um eine optimale Leistung, Stabilität und Funktionalität zu gewährleisten, wi
 | CPU            | 2x 1 GHz               | 4x 2+ GHz                   |
 | RAM            | 512 MB                 | 4+ GB                       |
 | Disc           | 10 GB                  | 50+ GB                      |
-| Bandwidth      | 100 mbit/s (up & down) | 500mbit/s (up & down) Sinnvoll, wenn mehrere User die Cloud benutzen sollen |
+| Bandwidth      | 100 mbit/s (up & down) | 500mbit/s (up & down) Recommended if several users are supposed to use the cloud |
 
 <br>
 **Software**
@@ -34,18 +34,18 @@ Um eine optimale Leistung, Stabilität und Funktionalität zu gewährleisten, wi
 | Web server       | Apache 2.4 with `mod_php` or `php-fpm` (recommended)         |
 | PHP              | 5.6, 7.0 (recommended), 7.1 (recommended), 7.2               |
 
-> Die Anforderungen wurden aus unseren eigenen Erfahrungen und den Informationen der Entwickler zusammengestellt.
+> The requirements are based on our own experience and the information provided by the developers..
 
 
 
-## 🛠 Nextcloud einrichten
+## 🛠 Nextcloud set up
 
 
-### Vorbereitung
+### Preparation
 
-Damit die Cloud auf einem Linux-Server installiert werden kann, muss eine Verbindung über einen SSH-Client hergestellt werden. Wenn du dir nicht sicher bist, wie man SSH benutzt, findest du hier eine Anleitung dazu: [Erstzugriff (SSH)](vserver_linux_ssh.md)
+A connection has to be established via a SSH client in order to install the cloud on a Linux server. In case you are not sure how to use SSH, here is a guide how to do so: [Initial access (SSH)](vserver_linux_ssh.md)
 
-Sobald die Verbindung hergestellt wurde, ist es möglich, mit der Installation der notwendigen Pakete zu beginnen, welche für die eigentliche Installation von Nextcloud erforderlich sind. Dazu gehört zum einen die Installation eines Webservers als auch PHP.
+Once the connection is established, you can start to install the necessary packages that are required for the actual installation of Nextcloud. This includes the installation of a web server as well as PHP.
 
 <!--DOCUSAURUS_CODE_TABS-->
 <!--Debian-->
@@ -63,42 +63,42 @@ sudo apt -y install apache2
 
 🗄️ Debian 8:
 ```
-# Schritt 1: Hinzufügen des PHP 7.3 PPA Repository
+# Step 1: Adding the PHP 7.3 PPA repository
 sudo apt -y install lsb-release apt-transport-https ca-certificates 
 sudo wget -O /etc/apt/trusted.gpg.d/php.gpg https://packages.sury.org/php/apt.gpg
 echo "deb https://packages.sury.org/php/ $(lsb_release -sc) main" | sudo tee /etc/apt/sources.list.d/php7.3.list
 
-# Schritt 2: PHP 7.3 installieren
+# Step 2: Install PHP 7.3
 sudo apt -y install php7.3
 
-# Schritt 3: PHP 7.3 Erweiterungen installieren
+# Step 3: Install PHP 7.3 extensions
 sudo apt install php7.3-cli php7.3-fpm php7.3-json php7.3-pdo php7.3-mysql php7.3-zip php7.3-gd  php7.3-mbstring php7.3-curl php7.3-xml php7.3-bcmath php7.3-json
 ```
 
 🗄️ Debian 9:
 ```
-# Schritt 1: Hinzufügen des PHP 7.3 PPA Repository
+# Step 1: Adding the PHP 7.3 PPA repository
 sudo apt -y install lsb-release apt-transport-https ca-certificates 
 sudo wget -O /etc/apt/trusted.gpg.d/php.gpg https://packages.sury.org/php/apt.gpg
 echo "deb https://packages.sury.org/php/ $(lsb_release -sc) main" | sudo tee /etc/apt/sources.list.d/php7.3.list
 
-# Schritt 2: PHP 7.3 installieren
+# Step 2: Install PHP 7.3
 sudo apt -y install php7.3
 
-# Schritt 3: PHP 7.3 Erweiterungen installieren
+# Step 3: Install PHP 7.3 extensions
 sudo apt install php7.3-cli php7.3-fpm php7.3-json php7.3-pdo php7.3-mysql php7.3-zip php7.3-gd  php7.3-mbstring php7.3-curl php7.3-xml php7.3-bcmath php7.3-json
 ```
 
 🗄️ Debian 10:
 ```
-# Schritt 1: PHP 7.3 installieren
+# Step 1: Install PHP 7.3
 sudo apt -y install php php-common
 
-# Schritt 2: PHP 7.3 Erweiterungen installieren
+# Step 2: Install PHP 7.3 extensions
 sudo apt -y install php-cli php-fpm php-json php-pdo php-mysql php-zip php-gd  php-mbstring php-curl php-xml php-pear php-bcmath
 ```
 
-PHP-Version auf Funktionalität prüfen
+Check PHP version for functionality
 ```
 php -v
 ```
@@ -119,47 +119,47 @@ sudo apt-get -y install apache2
 
 🗄️ Ubuntu 16.X:
 ```
-# Schritt 1: PHP 7.3 PPA hinzufügen
+# Step 1: Add PHP 7.3 PPA
 sudo apt-get install software-properties-common
 sudo add-apt-repository ppa:ondrej/php
 
-# Schritt 2: PHP 7.3 installieren
+# Step 2: Install PHP 7.3
 sudo apt-get update
 sudo apt-get install -y php7.3
 
-# Schritt 3: PHP 7.3 Erweiterungen installieren
+# Step 3: Install PHP 7.3 extensions
 sudo apt install php7.3-cli php7.3-fpm php7.3-json php7.3-pdo php7.3-mysql php7.3-zip php7.3-gd  php7.3-mbstring php7.3-curl php7.3-xml php7.3-bcmath php7.3-json
 ```
 
 🗄️ Ubuntu 18.X:
 ```
-# Schritt 1: PHP 7.3 PPA hinzufügen
+# Step 1: Add PHP 7.3 PPA
 sudo apt-get install software-properties-common
 sudo add-apt-repository ppa:ondrej/php
 
-# Schritt 2: PHP 7.3 installieren
+# Step 2: Install PHP 7.3
 sudo apt-get update
 sudo apt-get install -y php7.3
 
-# Schritt 3: PHP 7.3 Erweiterungen installieren
+# Step 3: Install PHP 7.3 extensions
 sudo apt install php7.3-cli php7.3-fpm php7.3-json php7.3-pdo php7.3-mysql php7.3-zip php7.3-gd  php7.3-mbstring php7.3-curl php7.3-xml php7.3-bcmath php7.3-json
 ```
 
 🗄️ Ubuntu 19.X:
 ```
-# Schritt 1: PHP 7.3 PPA hinzufügen
+# Step 1: Add PHP 7.3 PPA
 sudo apt-get install software-properties-common
 sudo add-apt-repository ppa:ondrej/php
 
-# Schritt 2: PHP 7.3 installieren
+# Step 2: Install PHP 7.3
 sudo apt-get update
 sudo apt-get install -y php7.3
 
-# Schritt 3: PHP 7.3 Erweiterungen installieren
+# Step 3: Install PHP 7.3 extensions
 sudo apt install php7.3-cli php7.3-fpm php7.3-json php7.3-pdo php7.3-mysql php7.3-zip php7.3-gd  php7.3-mbstring php7.3-curl php7.3-xml php7.3-bcmath php7.3-json
 ```
 
-PHP-Version auf Funktionalität prüfen
+Check PHP version for functionality
 ```
 php -v
 ```
@@ -207,64 +207,64 @@ sudo systemctl enable httpd
 
 🗄️ CentOS 6:
 ```
-# Schritt 1: Yum-Repository einrichten
+# Step 1: Set up Yum repository
 yum install epel-release
 rpm -Uvh http://rpms.famillecollet.com/enterprise/remi-release-6.rpm
 
-# Schritt 2: PHP 7.3 installieren
+# Step 2: Install PHP 7.3
 yum --enablerepo=remi-php73 install php
 
-# Schritt 3: PHP 7.3 Erweiterungen installieren
+# Step 3: Install PHP 7.3 extensions
 yum --enablerepo=remi-php73 install php-xml php-soap php-xmlrpc php-mbstring php-json php-gd php-mcrypt
 ```
 
 🗄️ CentOS 7:
 ```
-# Schritt 1: Yum-Repository einrichten
+# Step 1: Set up Yum repository
 yum install epel-release
 rpm -Uvh http://rpms.famillecollet.com/enterprise/remi-release-7.rpm
 
-# Schritt 2: PHP 7.3 installieren
+# Step 2: Install PHP 7.3
 yum --enablerepo=remi-php73 install php
 
-# Schritt 3: PHP 7.3 Erweiterungen installieren
+# Step 3: Install PHP 7.3 extensions
 yum --enablerepo=remi-php73 install php-xml php-soap php-xmlrpc php-mbstring php-json php-gd php-mcrypt
 ```
 
 🗄️ CentOS 8:
 ```
-# Schritt 1: Yum-Repository einrichten
+# Step 1: Set up Yum repository
 dnf install dnf-utils http://rpms.remirepo.net/enterprise/remi-release-8.rpm
 
-# Schritt 2: PHP 7.3 installieren
+# Step 2: Install PHP 7.3
 dnf module reset php
 dnf module enable php:remi-7.3
 dnf install php
 ```
 
-PHP-Version auf Funktionalität prüfen
+Check PHP version for functionality
 ```
 php -v
 ```
 
 <!--END_DOCUSAURUS_CODE_TABS-->
 
-Als Nächstes wird ein Datenbank Typ benötigt um die relevanten Informationen abspeichern zu können. Dabei gibt es mehrere Optionen:
+The next step is to define a database type to store the relevant information. There are several options:
 
 <!--DOCUSAURUS_CODE_TABS-->
 
 <!--MariaDB-->
 <br>
-Wenn du dich für diesen Datenbanktypen entschieden hast, dann musst du folgende Schritte befolgen:
+If you have decided to use this type of database, then you have to follow these steps:
 
-Pakete installieren:
+Package installation:
 ```
 sudo apt-get install mariadb-server php-mysql
 ```
 
-Während der Installation wird man aufgefordert, ein Root-Passwort  zu setzen. Wenn keine Aufforderung zur Auswahl eines Passworts kommt, ist das Standardpasswort leer. Dies ist unsicher und sollte daher unmittelbar danach geändert werden! 
+During the installation you will be asked to set a root password. If there is no password request, then the default password is blank. This is not secure and should therefore be changed immediately afterwards! 
 
-Der nächste Schritt besteht darin, eine Verbindung zum Datenbankserver herzustellen und die erforderliche Datenbank zu erstellen:
+The next step is to connect to the database server and create the required database:
 
 ```sql
 mysql -u root -p
@@ -275,35 +275,35 @@ CREATE DATABASE nextcloud;
 CREATE USER 'nc_user'@'localhost' IDENTIFIED BY 'YOUR_PASSWORD_HERE';
 ```
 
-Danach muss ein Benutzer angelegt werden, welcher Zugriff auf die Nextcloud DB erhält. 
+Afterwards a user has to be created, which gets access to the Nextcloud database. 
 
 ```sql
 CREATE USER 'nc_user'@'localhost' IDENTIFIED BY 'YOUR_PASSWORD_HERE';
 ```
 
-> Überspringen diesen Schritt nicht, indem der Benutzer root verwendet wird. Dies ist nicht sicher und gefährdet deine Daten!
+> Don't skip this step by using the root user.This is not safe and can put your data at risk!
 
-Der letzte Schritt ist die Vergabe der Berechtigungen für den neuen Benutzer:
+The last step is to assign the permissions to the new user:
 
 ```SQL
 GRANT ALL PRIVILEGES ON nextcloud.* TO 'nc_user'@'localhost';
 FLUSH PRIVILEGES;
 ```
 
-Wenn du damit fertig bist, dann kannst du Strg-D drücken, um die Datenbank zu verlassen um mit den weiteren Schritten fortzufahren.
+Once you are done, you can press Ctrl-D to exit the database and continue with the next steps.
 
 <!--MySQL-->
 <br>
-Wenn du dich für diesen Datenbanktypen entschieden hast, dann musst du folgende Schritte befolgen:
+If you have decided to use this type of database, then you have to follow these steps:
 
-Pakete installieren:
+Package installation:
 ```
 sudo apt-get install mysql-server php-mysql
 ```
 
-Während der Installation wird man aufgefordert, ein Root-Passwort  zu setzen. Wenn keine Aufforderung zur Auswahl eines Passworts kommt, ist das Standardpasswort leer. Dies ist unsicher und sollte daher unmittelbar danach geändert werden! 
+During the installation you will be asked to set a root password. If there is no password request, then the default password is blank. This is not secure and should therefore be changed immediately afterwards! 
 
-Der nächste Schritt besteht darin, eine Verbindung zum Datenbankserver herzustellen und die erforderliche Datenbank zu erstellen:
+The next step is to connect to the database server and create the required database:
 
 ```sql
 mysql -u root -p
@@ -314,37 +314,37 @@ CREATE DATABASE nextcloud;
 CREATE USER 'nc_user'@'localhost' IDENTIFIED BY 'YOUR_PASSWORD_HERE';
 ```
 
-Danach muss ein Benutzer angelegt werden, welcher Zugriff auf die Nextcloud DB erhält. 
+Afterwards a user has to be created, which gets access to the Nextcloud database. 
 
 ```sql
 CREATE USER 'nc_user'@'localhost' IDENTIFIED BY 'YOUR_PASSWORD_HERE';
 ```
 
-> Überspringen diesen Schritt nicht, indem der Benutzer root verwendet wird. Dies ist nicht sicher und gefährdet deine Daten!
+> Don't skip this step by using the root user.This is not safe and can put your data at risk!
 
 
-Der letzte Schritt ist die Vergabe der Berechtigungen für den neuen Benutzer:
+The last step is to assign the permissions to the new user:
 
 ```SQL
 GRANT ALL PRIVILEGES ON nextcloud.* TO 'nc_user'@'localhost';
 FLUSH PRIVILEGES;
 ```
 
-Wenn du damit fertig bist, dann kannst du Strg-D drücken, um die Datenbank zu verlassen um mit den weiteren Schritten fortzufahren.
+Once you are done, you can press Ctrl-D to exit the database and continue with the next steps.
 
 <!--PostgreSQL-->
 <br>
-Wenn du dich für diesen Datenbanktypen entschieden hast, dann musst du folgende Schritte befolgen:
+If you have decided to use this type of database, then you have to follow these steps:
 
-Pakete installieren:
+Package installation:
 ```
 sudo apt-get update
 sudo apt-get install postgresql postgresql-contrib
 ```
 
-Während der Installation wird man aufgefordert, ein Root-Passwort zu setzen.
+During the installation you will be asked to set a root password. If there is no password request, then the default password is blank. This is not secure and should therefore be changed immediately afterwards! 
 
-Der nächste Schritt besteht darin, eine Verbindung zum Datenbankserver herzustellen und die erforderliche Datenbank zu erstellen:
+The next step is to connect to the database server and create the required database:
 
 ```sql
 sudo -u postgres psql
@@ -355,22 +355,22 @@ CREATE DATABASE nextcloud;
 CREATE USER nextcloud with encrypted password 'YOUR_PASSWORD_HERE';
 ```
 
-Danach muss ein Benutzer angelegt werden, welcher Zugriff auf die Nextcloud DB erhält. 
+Afterwards a user has to be created, which gets access to the Nextcloud database. 
 
 ```sql
 CREATE USER 'nc_user'@'localhost' IDENTIFIED BY 'YOUR_PASSWORD_HERE';
 ```
 
-> Überspringe diesen Schritt nicht, indem der Benutzer root verwendet wird. Dies ist nicht sicher und gefährdet deine Daten!
+> Don't skip this step by using the root user.This is not safe and can put your data at risk!
 
-Der letzte Schritt ist die Vergabe der Berechtigungen für den neuen Benutzer:
+The last step is to assign the permissions to the new user:
 
 ```SQL
 grant all privileges on database mydb to myuser;
 FLUSH PRIVILEGES;
 ```
 
-Wenn du damit fertig bist, dann kannst du Strg-D drücken, um die Datenbank zu verlassen. Im Anschluss kann die PostgreSQL Datenbank entweder über den Webinstaller oder über die **config.php** Config bearbeitet werden.
+Once you are done, you can press Ctrl-D to exit the database. Afterwards you can modify the PostgreSQL database either via the web installer or via the **config.php** Config.
 
 ```
 <?php
@@ -386,19 +386,19 @@ $AUTOCONFIG = array(
 
 <!--SQLite-->
 <br>
-Wenn du dich für diesen Datenbanktypen entschieden hast, dann musst du folgende Schritte befolgen:
+If you have decided to use this type of database, then you have to follow these steps:
 
-Pakete installieren:
+Package installation:
 ```
 apt-get install sqlite3 php-sqlite3
 ```
 
-Neue SQLite 3 Datenbank anlegen
+Create new SQLite 3 database
 ```
 sqlite3 DatabaseName.db
 ```
 
-Im Anschluss kann die SQLite 3 Datenbank entweder über den Webinstaller oder über die **config.php** Config bearbeitet werden.
+After that, the SQLite 3 database can be modified either via the web installer or via the **config.php** Config.
 ```
 <?php
 $AUTOCONFIG = array(
@@ -411,8 +411,7 @@ $AUTOCONFIG = array(
 
 ### Installation
 
-Nun kann die eigentliche Installation von Nextcloud gestartet werden. Die Software muss heruntergeladen und entpackt werden:
-
+Now the actual installation of Nextcloud can be started. The software needs to be downloaded and unpacked:
 ```
 cd /var/www/nextcloud/
 wget https://download.nextcloud.com/server/releases/nextcloud-16.0.4.zip
@@ -422,11 +421,11 @@ chown -R www-data:www-data nextcloud
 rm nextcloud-16.0.4.zip
 ```
 
-Wenn dieser Schritt abgeschlossen ist, dann ist es an der Zeit  das Installationsscript auszuführen. Der Zugriff erfolgt über den Browser mit folgender Adresse:
+Once this step is finished, it's time to run the installation script. Access is possible via the browser via the following URL:
 
 > **http://domain.tld/nextcloud/** 
 
-Es erscheint die Konfiguration des Installationsscipt, in der ein Root-Benutzer angelegt und die Datenbankinformationen definiert werden:
+The installation script configuration appears, in which a root user is created and database information defined:
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/DeEyH2Ni6fKDbTm/preview)
 
@@ -434,19 +433,17 @@ Es erscheint die Konfiguration des Installationsscipt, in der ein Root-Benutzer 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/pidgFL4z2o7ZJc6/preview)
 
 
-### Absicherung und Sicherheit
+### Security and safety
 
-
-**Setup Warnungen**
+**Setup Warnings**
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/y5RSDRRdHiRRLgm/preview)
 
 
 
-**Daten-Verzeichnis**
+**Data Directory**
 
-Es wird dringend empfohlen, das Datenverzeichnis außerhalb des Web-Stammverzeichnisses zu platzieren (d.h. außerhalb von /var/www). Am einfachsten ist es, dies bei einer Neuinstallation zu tun. Das Verzeichnis kann im Setup definiert werden. Allerdings muss das Verzeichnis zuerst erstellt und die entsprechenden Rechte gesetzt werden. Die Daten könnten z.B. in einem Verzeichnis mit dem Namen Cloud im Home-Verzeichnis gespeichert werden.
-
+It is strongly recommended to place the data directory outside of the web root directory (i.e. outside of /var/www). The easiest way to do this is with a new installation. The directory can be defined during the setup. However, the directory must first be created and the corresponding permissions have to be set. The data could for example be stored in a directory called Cloud in the home directory.
 
 
 ```
@@ -456,11 +453,9 @@ chown -R www-data:www-data /home/cloud/
 
 
 
-**HTTPS via SSL-Zertifikat (Let's Encrypt)** 
+**HTTPS via SSL certificate (Let's Encrypt)** 
 
-Eine gute Cloud sollte nur über eine SSL-Verschlüsselung zugänglich sein. Ohne eine SSL-Verschlüsselung werden die Daten und Informationen im Klartext übertragen. Solche Informationen können ohne Verschlüsselung schnell und einfach abgefangen und gelesen werden.
-
-
+A good cloud solution should only be accessible via SSL connection. Without SSL encryption, data and information is transferred in plain text. Such information can easily and quickly be intercepted and read without encryption.
 
 ```
 <IfModule mod_ssl.c>
@@ -497,7 +492,7 @@ SSLCertificateKeyFile /etc/letsencrypt/live/domain.tld/privkey.pem
 
 
 
-Darüber hinaus sollte der gesamte HTTP-Verkehr unter Verwendung einer permanenten Umleitung mit Statuscode 301 auf HTTPS umgeleitet werden. Dies kann unter Verwendung des Apache mit einer Konfiguration wie der folgenden Apache-VirtualHosts-Konfiguration erreicht werden:
+Furthermore, all HTTP traffic should be redirected to HTTPS by using a permanent redirection with status code 301. This can be achieved by using Apache with a configuration like the following Apache VirtualHosts configuration:
 
 ```
 <VirtualHost *:80>
@@ -506,22 +501,22 @@ Darüber hinaus sollte der gesamte HTTP-Verkehr unter Verwendung einer permanent
 </VirtualHost>
 ```
 
-Wenn du dir nicht sicher bist, wie du ein SSL-Zertifikat generieren kannst, dann findest du hier eine Anleitung dazu: [Placeholder](vserver_linux_ssh.md)
+If you are not sure how to generate an SSL certificate, then you can find instructions here about it: [Let's Encrypt](vserver_linux_letsencrypt.md)
 
 
 
-## 💻 Nextcloud verwalten
+## 💻 Manage Nextcloud
 
-Der Zugriff auf die Nextcloud ist sowohl über den Browser, als auch über das Smartphone und den Computer per App möglich. Die Downloadquellen sind hier zu finden: https://nextcloud.com/install/#install-clients
+Access to Nextcloud is possible via the browser, as well as via the smartphone and computer using the app. The download sources can be found here: https://nextcloud.com/install/#install-clients
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/jHPsfXDf5dHFk2y/preview)
 
-Unter den Einstellungen können auch nach der Einrichtung noch einige Optionen angepasst und wichtige Informationen wie Logs, Aktivitäten eingesehen werden. Dazu gehören unter anderem zusätzliche Sicherheitseinstellungen (Zwei-Faktor-Authentifizierung, Verschlüsselung, ... ), Designeinstellungen (Logo, Farbe, Slogan, Header), Zugriffseinstellungen und vieles mehr.
+Under settings you can adjust a few more options even after the setup and view important information like logs, activities. This includes additional security settings (two-factor authentication, encryption, ... ), design settings (logo, color, slogan, header), access settings and much more.
 
 **Apps**
 
-Zusätzlich gibt es auch die Möglichkeit neben den Standard Apps noch weitere Apps zu installieren. Diese können über den Menüpunkt **Apps** eingesehen werden.
+Moreover, there is also the possibility to install additional apps apart from the default apps. You can access them via the menu item **Apps**.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/MtXpFpCEt7ZQ7ZY/preview)
 
-Mit solchen **Apps** ist es möglich die Nextcloud zusätzlich noch weiter nach seinen Wünschen zu individualisieren.
+With such **Apps** it is possible to further individualize Nextcloud according to your wishes.
