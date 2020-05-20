@@ -10,7 +10,7 @@ sidebar_label: Domain Gameserver Weiterleitung
 
 Du kannst entweder deine Domain vollständig, oder lediglich eine Subdomain auf deinen Gameserver weiterleiten.
 So muss sich niemand die komplizierte IP Adresse welche aus Zahlen besteht merken sondern kann sich einfach mithilfe der Domain auf deinen Gameserver verbinden.
-In den folgenden Beispielen erstellen zir zwei Subdomains und leiten diese auf einen Minecraft- und auf einen FiveM Gameserver weiter.
+In den folgenden Beispielen erstellen wir zwei Subdomains und leiten diese auf einen Minecraft- und auf einen FiveM Gameserver weiter.
 
 
 ## Wie funktioniert das?
