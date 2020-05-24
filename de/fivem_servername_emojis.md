@@ -30,7 +30,7 @@ Nun öffnen wir die `server.cfg` Datei mit einem Texteditor, wie Notepad++, Atom
 
 <!--DOCUSAURUS_CODE_TABS-->
 <!--Notepad++-->
-
+<br>
 Um die Emojis mit Notepad++ einzufügen, muss nach dem öffnen der Datei die Encodierung geändert werden:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/BHBntRGHP6xaGQy/preview)
@@ -40,8 +40,7 @@ Nachdem beides gesetzt wurde, kann der sv_hostname Parameter eingestellt werden:
 ![](https://screensaver01.zap-hosting.com/index.php/s/n4LcG6G3fY44tMk/preview)
 
 <!--Visual Studio Code-->
-
-
+<br>
 Um die Emojis mit VSCode einzufügen, muss nach dem öffnen der Datei die Encodierung geändert werden, dies machen wir indem wir F1 drücken und Folgendes eingeben:
 
 ```
