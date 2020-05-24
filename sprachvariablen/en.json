@@ -193,6 +193,10 @@
         "title": "Coloured Servername",
         "sidebar_label": "Coloured Servername"
       },
+      "fivem_servername_emojis": {
+        "title": "Emojis in Server Name",
+        "sidebar_label": "Emojis in Server Name"
+      },
       "fivem_sql_file_import": {
         "title": "SQL File Import",
         "sidebar_label": "SQL File Import"
