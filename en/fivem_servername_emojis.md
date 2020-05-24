@@ -4,45 +4,44 @@ title: Emojis in Server Name
 sidebar_label: Emojis in Server Name
 ---
 
-## Vorbereitung
-Um Emojis im Server Namen zu haben, muss zunächst der Server Name in den Einstellungen Deaktiviert werden.
+## Preparation
+To have emojis in the server name you first have to disable the server name in the settings.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/w29qALyaoaxF9NT/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/5XWH3s38TCKBd8K/preview)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/xdYSaawZwBTDa3n/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/dFtyZT6JLL5aB7w/preview)
 
-Nun richten wir unseren [FTP-Zugang](gameserver_ftpaccess.md) ein
+Now we set up our [FTP access](gameserver_ftpaccess.md)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/ekYw27nA4cgiNAk/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/cC28HfFFFaiJG4G/preview)
 
-Nachdem dieser eingerichtet wurde, kann sich nun verbunden werden und der Server Ordner geöffnet werden:
+After this has been set up, you can now connect and open the server folder:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/MHt37AFEeZYgs97/preview)
 
-Hier öffnen wir folgenden pfad: `gta5-fivem/server-data/`
+Here we open the following path: `gta5-fivem/server-data/`
 
-## Konfiguration
+## Configuration
 
-Nun öffnen wir die `server.cfg` Datei mit einem Texteditor, wie Notepad++, Atom oder Visual Studio Code
+Now we open the `server.cfg` file with a text editor like Notepad++, Atom or Visual Studio Code
 
-> Wichtig: der Texteditor muss UTF-8 Encodierung Unterstützen
-
+> Important: the text editor must support UTF-8 encoding
 
 <!--DOCUSAURUS_CODE_TABS-->
 <!--Notepad++-->
 
-Um die Emojis mit Notepad++ einzufügen, muss nach dem öffnen der Datei die Encodierung geändert werden:
+To insert the emojis with Notepad++ you have to change the encoding after opening the file:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/BHBntRGHP6xaGQy/preview)
 
-Nachdem beides gesetzt wurde, kann der sv_hostname parameter eingestellt werden:
+After both are set, the sv_hostname parameter can be set:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/n4LcG6G3fY44tMk/preview)
 
 <!--Visual Studio Code-->
 
 
-Um die Emojis mit VSCode einzufügen, muss nach dem öffnen der Datei die Encodierung geändert werden, dies machen wir indem wir F1 drücken und folgendes eingeben:
+To insert the emojis with VSCode, after opening the file you have to change the encoding, we do this by pressing F1 and entering the following:
 
 ```
 >Change File Encoding
@@ -50,17 +49,17 @@ Um die Emojis mit VSCode einzufügen, muss nach dem öffnen der Datei die Encodi
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/K4xeYdByYeQYYNC/preview)
 
-Nun Drücken wir Enter und wählen "Save with Encoding", danach wählen wir UTF8 aus:
+Now we press Enter and select "Save with Encoding", then we select UTF8:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/MDdg3CENgesRxY4/preview)
 
-Nachdem es gesetzt wurde, kann der sv_hostname parameter eingestellt werden:
+After it is set, the sv_hostname parameter can be set:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/fNX4Yn8QW6HkGdF/preview)
 
 <!--END_DOCUSAURUS_CODE_TABS-->
 
-Fertig! Nun speichern wir die Datei ab und laden sie wieder über FTP Hoch, nach einem Serverrestart ist der Emoji sichtbar:
+Done! Now we save the file and upload it again via FTP, after a server restart the emoji is visible:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/eLD8tBMHxrQtbZp/preview)
 
