@@ -183,6 +183,7 @@
         ],
         "Source Games": [
             "source_gsltoken",
+            "source_custom_content",
             {
                 "type": "subcategory",
                 "label": "Sourcemod / Metamod",
