@@ -204,7 +204,8 @@
             "type": "subcategory",
             "label": "ArmA 3 Allgemein",
             "ids": [
-                "arma3_serverconfig"
+                "arma3_serverconfig",
+                "arma3_altislife_ranks"
             ]
         }],
         "Assetto Corsa": [
