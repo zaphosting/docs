@@ -269,6 +269,10 @@
         "title": "RCON",
         "sidebar_label": "RCON"
       },
+      "minecraft_server-icon": {
+        "title": "Server Icon",
+        "sidebar_label": "Server Icon"
+      },
       "minecraft_timings_report": {
         "title": "Timings-Report",
         "sidebar_label": "Timings-Report"
@@ -288,6 +292,10 @@
       "ragemp_installpackages": {
         "title": "Installing packages",
         "sidebar_label": "Installing packages"
+      },
+      "source_custom_content": {
+        "title": "Custom Content",
+        "sidebar_label": "Custom Content"
       },
       "source_gsltoken": {
         "title": "Gameserver Login Token",
