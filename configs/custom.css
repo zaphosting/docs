@@ -150,6 +150,7 @@ article p img {
 table {
     border-collapse: collapse;
     border-spacing: 0;
+    display: none !important;
     margin-bottom: 16px;
     margin-top: 0;
     overflow: auto;
