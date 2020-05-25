@@ -4,19 +4,18 @@ title: Whitelist
 sidebar_label: Whitelist
 ---
 
-Die **Minecraft Whitelist** ist eine Möglichkeit um seinen Server zu schützen, indem nur ausgewählte Spieler, die auf der Liste stehen die Erlaubnis haben, sich mit dem Server zu verbinden. Denn Minecraft bietet standardmäßig keine Server Passwort Option wie manch andere Spiele.
-
+The **Minecraft Whitelist** is an option to protect your server by only allowing selected players on the list to connect to yourserver. By default, Minecraft doesn't offer a server password option like other games do.
 ![img](https://screensaver01.zap-hosting.com/index.php/s/MzNpHycMNAFTMjB/preview)
 
 
 
-## Whitelist aktivieren
+## Activate whitelist
 
 
 
-### 📄 Aktivierung (Config)
+### 📄 Activation (Config)
 
-Um die Whitelist zu aktivieren, muss der Wert des Befehls in der **server.properties** Config auf **true** gesetzt werden. Ein Neustart des Servers ist im Anschluss zwingend notwendig, damit die Änderung wirksam wird. 
+In order to activate the whitelist, the value of the command in the **server.properties** Config has to be set to **true**. A restart of the server is necessary for the change to take effect. 
 
 ```
 white-list=true
@@ -24,36 +23,35 @@ white-list=true
 
 
 
-### 💬 Aktivierung (Chat)
+### 💬 Activation (Chat)
 
-Alternativ kann die Whitelist Funktion auch im Spiel oder per Live Konsole aktiviert werden:
+Alternatively, the whitelist option can also be activated in-game or via the live console:
 
 ```
-/whitelist on			(Aktiviert die Whitelist Funktion)
-/whitelist off			(Deaktiviert die Whitelist Funktion)
+/whitelist on			(Enable whitelist option)
+/whitelist off			(Disable whitelist option)
 ```
 
 
 
-Um die Whitelist Funktion über das Spiel zu aktivieren sind Operator Rechte zwingend notwendig! Alternativ kann dies ansonsten auch über die Live Konsole (Webinterface) gemacht werden. Allerdings ist dort zu beachten, dass die Befehle dort ohne das **/** Symbole ausgeführt werden müssen.
-
+To enable the whitelist option via the game, operator permissions are required! Otherwise, this can also be done via the live console (interface). Be aware that the commands have to be executed without the **/** symbol there.
 
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/TYnXZY4DfjSfNNg/preview)
 
 
 
-## Whitelist verwalten
+## Manage Whitelist
 
 
 
-### 🧑‍🤝‍🧑 Spieler hinzufügen / entfernen
+### 🧑‍🤝‍🧑 Add / remove players
 
 
 
 **Chat**
 
-Mit den folgenden Befehlen können Spieler zur Whitelist hinzugefügt oder entfernt werden:
+You can add or remove players from the whitelist by using the following commands:
 
 ```
 /whitelist add SpielerName
@@ -64,7 +62,7 @@ Mit den folgenden Befehlen können Spieler zur Whitelist hinzugefügt oder entfe
 
 **white-list.json**
 
-Wenn die UUID des Spielers bekannt ist, dann kann der Spieler auch manuell über die **white-list.json** hinzugefügt werden. Diese kannst du per FTP-Verbindung aufrufen und bearbeiten. Eine Anleitung zum Verbinden per FTP findest du hier: [FTP Dateizugriff](gameserver_ftpaccess.md)
+In case the UUID of the player is known, then the player can also be added manually via the **white-list.json** file. This can be accessed and modified by using FTP. You can find instructions for connecting via FTP here: [FTP File Access](gameserver_ftpaccess.md)
 
 ```
 [
@@ -85,9 +83,9 @@ Wenn die UUID des Spielers bekannt ist, dann kann der Spieler auch manuell über
 
 
 
-### 🔄 Liste aktualisieren
+### 🔄 Update list
 
-Wenn die Spieler manuell hinzugefügt werden, dann muss die Whitelist im Spiel neu geladen werden. Um den Server deshalb nicht zwingend Neustarten zu müssen ist dies auch per Befehl möglich:
+If you add players manually, then you will need to reload the whitelist in-game. This is also possible by using a command to avoid a restart of the server:
 
 ```
  /whitelist reload
@@ -95,9 +93,9 @@ Wenn die Spieler manuell hinzugefügt werden, dann muss die Whitelist im Spiel n
 
 
 
-### 🗃 Ansicht der Liste
+### 🗃 View the list
 
-Um nicht jedes Mal die Whitelist Datei per FTP öffnen zu müssen ist es auch möglich alle Spieler, die auf der Whitelist stehen über folgenden Befehl anzuzeigen: 
+If you don't want to open the whitelist file via FTP every time, you can also display all players on the whitelist with the following command: 
 
 ```
 /whitelist list

@@ -57,6 +57,10 @@
         "title": "Coupons & Codes",
         "sidebar_label": "Coupons & Codes"
       },
+      "arma3_altislife_ranks": {
+        "title": "Altis Life Ranks",
+        "sidebar_label": "Altis Life Ranks"
+      },
       "arma3_serverconfig": {
         "title": "Server.cfg",
         "sidebar_label": "Server.cfg"
@@ -117,6 +121,10 @@
         "title": "Domain TeamSpeak 3 Redirect",
         "sidebar_label": "Domain TeamSpeak 3 Redirect"
       },
+      "firststeps_problem_melden": {
+        "title": "How do i report problems?",
+        "sidebar_label": "How do i report problems?"
+      },
       "firststeps_register": {
         "title": "Register",
         "sidebar_label": "Register"
@@ -141,9 +149,17 @@
         "title": "Change Server Icon",
         "sidebar_label": "Change Server Icon"
       },
+      "fivem_changespawnpoint": {
+        "title": "Spawnpoint setzen",
+        "sidebar_label": "Spawnpoint setzen"
+      },
       "fivem_dashboard": {
         "title": "Dashboard",
         "sidebar_label": "Dashboard"
+      },
+      "fivem_deletecache": {
+        "title": "Delete Cache",
+        "sidebar_label": "Delete Cache"
       },
       "fivem_esx_changemoneyicon": {
         "title": "Change Money Icon",
@@ -162,8 +178,8 @@
         "sidebar_label": "Resource Installation"
       },
       "fivem_licensekey": {
-        "title": "Eigener Lizenzkey",
-        "sidebar_label": "Eigener Lizenzkey"
+        "title": "Own License Key",
+        "sidebar_label": "Own License Key"
       },
       "fivem_mods_installaddon": {
         "title": "Install Addon Carmods",
@@ -177,6 +193,14 @@
         "title": "Use Rcon",
         "sidebar_label": "Use Rcon"
       },
+      "fivem_servername_color": {
+        "title": "Coloured Servername",
+        "sidebar_label": "Coloured Servername"
+      },
+      "fivem_servername_emojis": {
+        "title": "Emojis in Server Name",
+        "sidebar_label": "Emojis in Server Name"
+      },
       "fivem_sql_file_import": {
         "title": "SQL File Import",
         "sidebar_label": "SQL File Import"
@@ -188,6 +212,10 @@
       "fivem_vrp_changemoneyicon": {
         "title": "Geldicon Ändern",
         "sidebar_label": "Geldicon Ändern"
+      },
+      "gameserver_backups": {
+        "title": "Backups",
+        "sidebar_label": "Backups"
       },
       "gameserver_cloudvslifetime": {
         "title": "Cloud vs. Lifetime",
@@ -210,8 +238,8 @@
         "sidebar_label": "Resource limit"
       },
       "gameserver_restartplaner": {
-        "title": "Restartplaner",
-        "sidebar_label": "Restartplaner"
+        "title": "Restart planner",
+        "sidebar_label": "Restart planner"
       },
       "gameserver_server_down_what_now": {
         "title": "Server crash - What to do?",
@@ -281,6 +309,10 @@
         "title": "Admin werden",
         "sidebar_label": "Admin werden"
       },
+      "terraria_tshock_add_admin": {
+        "title": "Become an admin (tShock)",
+        "sidebar_label": "Become an admin (tShock)"
+      },
       "voiceserver_voicebot_connection": {
         "title": "Voicebot Connection",
         "sidebar_label": "Voicebot Connection"
@@ -332,6 +364,10 @@
       "vserver_linux_ssh": {
         "title": "Erstzugriff (SSH)",
         "sidebar_label": "Initial access (SSH)"
+      },
+      "vserver_linux_ssh2fa": {
+        "title": "two factor authentication",
+        "sidebar_label": "two factor authentication"
       },
       "vserver_root_unterschied": {
         "title": "Rootserver versus vServer",
@@ -391,6 +427,7 @@
       "Minecraft": "Minecraft",
       "FiveM": "FiveM",
       "RageMP": "RageMP",
+      "Terraria": "Terraria",
       "Source Games": "Source Games",
       "ArmA 3": "ArmA 3",
       "Assetto Corsa": "Assetto Corsa",

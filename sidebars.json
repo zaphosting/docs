@@ -24,7 +24,7 @@
             "account_usermanagement",
             "account_vouchers",
             "account_donations",
-            "account_account_community_ads",
+            "account_community_ads",
             "account_security",
             {
                 "type": "subcategory",
@@ -50,6 +50,7 @@
             },
             "gameserver_ftpaccess",
             "gameserver_restartplaner",
+            "gameserver_backups",
             "gameserver_server_down_what_now"
         ],
         "vServer & Rootserver": [
@@ -60,6 +61,7 @@
                 "label": "Linux",
                 "ids": [
                     "vserver_linux_ssh",
+                    "vserver_linux_ssh2fa",
                     "vserver_linux_password_change",
                     "vserver_linux_java",
                     "vserver_linux_phpmyadmin",
@@ -68,7 +70,7 @@
                     "vserver_linux_plesk",
                     "vserver_linux_openvpn",
                     "vserver_linux_gs_interface",
-                    "vserver_linux_nextcloud",                    
+                    "vserver_linux_nextcloud",
                     "vserver_linux_add_ip"
 
                 ]
@@ -137,11 +139,14 @@
             "fivem_windowsorlinux",
             "fivem_installresources",
             "fivem_change_servericon",
+            "fivem_servername_emojis",
+            "fivem_servername_color",
             "fivem_sql_file_import",
             "fivem_rcon",
             "fivem_licensekey",
             "fivem_useprofiler",
             "fivem_changespawnpoint",
+            "fivem_deletecache",
             {
                 "type": "subcategory",
                 "label": "Mods",
@@ -172,6 +177,9 @@
         "RageMP": [
             "ragemp_installpackages"
         ],
+        "Terraria": [
+            "terraria_tshock_add_admin"
+        ],
         "Source Games": [
             "source_gsltoken",
             {
@@ -196,7 +204,8 @@
             "type": "subcategory",
             "label": "ArmA 3 Allgemein",
             "ids": [
-                "arma3_serverconfig"
+                "arma3_serverconfig",
+                "arma3_altislife_ranks"
             ]
         }],
         "Assetto Corsa": [
