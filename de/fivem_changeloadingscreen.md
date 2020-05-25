@@ -28,10 +28,6 @@ Dort trägst du nun folgendes ein **start loqscript-material_load-loadingscreen*
 
 Nun kannst du deinen Server starten und er wird mit dem Loadingscreen starten.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/6sCfyTJjgQ2sbKB/preview)
-
-
-
 
 
 
