@@ -293,6 +293,10 @@
         "title": "Installing packages",
         "sidebar_label": "Installing packages"
       },
+      "source_custom_content": {
+        "title": "Custom Content",
+        "sidebar_label": "Custom Content"
+      },
       "source_gsltoken": {
         "title": "Gameserver Login Token",
         "sidebar_label": "GSL-Token"
