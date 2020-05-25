@@ -269,6 +269,10 @@
         "title": "RCON",
         "sidebar_label": "RCON"
       },
+      "minecraft_server-icon": {
+        "title": "Server Icon",
+        "sidebar_label": "Server Icon"
+      },
       "minecraft_timings_report": {
         "title": "Timings-Report",
         "sidebar_label": "Timings-Report"

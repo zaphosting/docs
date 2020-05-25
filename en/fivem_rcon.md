@@ -10,7 +10,7 @@ Rcon is a protocol for executing commands on the server without having direct ac
 
 ### Preparation
 
-First of all [Icecon](https://github.com/icedream/icecon/releases) is needed, because we are working on Windows we download `icecon_windows_amd64.exe` in this case.
+First of all [Icecon](https://github.com/icedream/icecon/releases) is needed, we download `icecon_windows_amd64.exe` in this case.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/MaX6jZEA2mQGDDY/preview)
 
