@@ -15,7 +15,7 @@ This profiler is integrated in FiveM and can be used with any server.
 
 ### 🔑 RCon
 
-First you should log on to the server via IceCon, the password can be found in the server settings:
+First you should log on to the server via [Icecon](https://github.com/icedream/icecon/releases), the password can be found in the server settings:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/3S2ZZ2gRDsRmXyN/preview)
 
