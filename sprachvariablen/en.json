@@ -57,6 +57,10 @@
         "title": "Coupons & Codes",
         "sidebar_label": "Coupons & Codes"
       },
+      "arma3_altislife_ranks": {
+        "title": "Altis Life Ranks",
+        "sidebar_label": "Altis Life Ranks"
+      },
       "arma3_serverconfig": {
         "title": "Server.cfg",
         "sidebar_label": "Server.cfg"
@@ -193,6 +197,10 @@
         "title": "Coloured Servername",
         "sidebar_label": "Coloured Servername"
       },
+      "fivem_servername_emojis": {
+        "title": "Emojis in Server Name",
+        "sidebar_label": "Emojis in Server Name"
+      },
       "fivem_sql_file_import": {
         "title": "SQL File Import",
         "sidebar_label": "SQL File Import"
@@ -261,6 +269,10 @@
         "title": "RCON",
         "sidebar_label": "RCON"
       },
+      "minecraft_server-icon": {
+        "title": "Server Icon",
+        "sidebar_label": "Server Icon"
+      },
       "minecraft_timings_report": {
         "title": "Timings-Report",
         "sidebar_label": "Timings-Report"
@@ -280,6 +292,10 @@
       "ragemp_installpackages": {
         "title": "Installing packages",
         "sidebar_label": "Installing packages"
+      },
+      "source_custom_content": {
+        "title": "Custom Content",
+        "sidebar_label": "Custom Content"
       },
       "source_gsltoken": {
         "title": "Gameserver Login Token",
