@@ -20,7 +20,7 @@ Nachdem du deine .ovpn Datei auf deinen Server kopiert hast, kannst du sie nun s
 
 ```nohup openvpn --config MeineDatei.ovpn```
 
-Gebe nun Optional das Passwort ein, und du bist verbunden!
+Gebe nun Optional das Passwort ein und du bist verbunden!
 
 ## ❌ OpenVPN beenden
 
