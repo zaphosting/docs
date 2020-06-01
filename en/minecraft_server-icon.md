@@ -4,35 +4,34 @@ title: Server Icon
 sidebar_label: Server Icon
 ---
 
-Minecraft bietet die Option an ein eigenes Server Icon hinzuzufügen, das im Multiplayer vor dem Server angezeigt wird, sofern der Server eingespeichert wurde.
+Minecraft offers the option to add your own server icon, which is displayed in multiplayer in front of the server, provided the server has been saved.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/zFQLZmRrLWrKN7r/preview)
 
-## Hinzufügen des Icons 
+## Add the icon
 
-Um das Icon hinzuzufügen werden FTP Rechte sowie das Icon selbst benötigt. 
+To add the icon, FTP rights and the icon itself are required.
 
->Wichtig: Das Icon muss in der Größe 64x64 Pixel sein und den Namen server-icon.png tragen. 
+>Important: The icon must be 64x64 pixels in size and bear the name server-icon.png. 
 
-Zuerst wird eine Verbindung via FTP zum Gameserver aufgebaut, wie genau das funktioniert, kann hier eingesehen werden: 
-https://docs.zap-hosting.com/docs/de/gameserver_ftpaccess/
+First, a connection is established via FTP to the game server, how exactly that works can be seen here: https://docs.zap-hosting.com/docs/en/gameserver_ftpaccess/
 
-Sobald die Verbindung besteht, sieht man die Server-Daten wie z.b: 
+As soon as the connection is established, you can see the server data such as:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/rN4AyjzqoRp42wg/preview)
 
-Das Icon muss nun in das Hauptverzeichnis hochgeladen werden, es darf in keinem Unterverzeichnis hohgeladen werden:
+The icon must now be uploaded to the main directory, it must not be uploaded to any subdirectory:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/MdF57nE7LbdMFwA/preview)
 
-Ist dies erfolgt, so muss der Server nun gestartet/restartet werden über die Kontroll Buttons im Webinterface oben rechts bei dem jeweiligen Server:
+Once this has been done, the server must now be started / restarted using the control buttons in the web interface at the top right of the respective server:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/oWGndazWCWy9bL5/preview)
 
-## Überprüfung des Icons 
+## Checking the icon 
 
-Wenn nun Name und Größe gepasst haben, wird es im Multiplayer vor dem Server angezeigt: 
+If the name and size have now been matched, it is displayed in multiplayer in front of the server:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/YAyaEcH4XPiSe8a/preview)
 
-Das Icon kann auf diesem Wege auch jederzeit getauscht oder gelöscht werden.
+The icon can also be exchanged or deleted at any time in this way.
