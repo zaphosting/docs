@@ -1,7 +1,7 @@
 ---
 id: fivem_changeloadingscreen
 title: Loadingscreen installieren
-sidebar_label: Fivem Loadingscreen
+sidebar_label: Loadingscreen installieren
 ---
 
 ## Einen Loadingscreen bei Fivem installieren
