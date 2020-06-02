@@ -5,9 +5,11 @@ sidebar_label: Ts3 Backup
 ---
 
 
-## 💾 Ts3 Server Backup internal
+<!--DOCUSAURUS_CODE_TABS-->
+<!--Webinterface-->
 
-To make an internal backup of your Ts3 server, just go to **Snapshots** on the left.
+
+To make a backup of your Ts3 server in our Webinterface, just go to **Snapshots** on the left.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/6kRs6W3ebMQXt7o/preview)
 
@@ -16,7 +18,7 @@ Then you go to **Create a snapshot**. Below you will see all your snapshots and 
 ![](https://screensaver01.zap-hosting.com/index.php/s/P2CDSK83HG3EzzG/preview)
 
 
-## 💾 Ts3 Server Backup on your v/rootserver
+ <!--v/Rootserver-->
 
 To make a backup of your Ts3 server, which is installed on your v/Rootserver, you have to download the program Yatqa. **https://yat.qa/**
 
@@ -30,5 +32,4 @@ To create the backup you have to go to **Miscellaneous** and then to **Create an
 
 To import a backup you can simply go to **Restore snapshot**.
 
-
-
+ <!--END_DOCUSAURUS_CODE_TABS-->
