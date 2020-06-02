@@ -7,7 +7,7 @@ sidebar_label: Coupons & Codes
 
 To use our codes, you should first log in or register on our website. Of course, this can be done with just a few clicks and is absolutely free of charge.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/cX8DB3SPgRE3EmZ/preview)
+![](https://i.imgur.com/uj2y5vP.png)
 
 As soon as you are logged in, you will automatically land in your web interface. To use a code now, you should first find out what kind of code you want to redeem. Basically there are two different types of coupon codes:
 
@@ -22,11 +22,11 @@ Credit codes can be redeemed by simply clicking on ZAP Coins at the top of your 
 
 On the next page you can choose whether you want to deposit money, top up credit automatically or redeem a voucher. So click on ** Redeem voucher**.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SEwYAkYSqBN2mgY/preview)
+![](https://i.imgur.com/GybjG2z.png)
 
 A popup will open where you can now insert the code.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/bQdwGe4kAbLe7Ko/preview)
+![](https://i.imgur.com/LAaF5Vr.png)
 
 If the voucher is entered correctly, is still valid and has not already been used by you, the amount is automatically booked to your ZAP account. 
 
@@ -43,9 +43,9 @@ Find the product you want to order and configure it according to your wishes.
 
 Once everything is configured correctly, you can still use your code in the ordering process. Just click on **redeem voucher** below the order costs.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/tqZgRgE4H6MA9nP/preview)
+![](https://i.imgur.com/0lrrHrX.png)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/DwXfn7oZd46Wig7/preview)
+![](https://i.imgur.com/jrJVoiQ.png)
 
 The costs are automatically reduced as soon as you redeem the voucher. 
 
