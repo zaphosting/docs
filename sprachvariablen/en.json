@@ -329,6 +329,10 @@
         "title": "Become an admin (tShock)",
         "sidebar_label": "Become an admin (tShock)"
       },
+      "voiceserver_ts3backup": {
+        "title": "Teamspeak Backup",
+        "sidebar_label": "Ts3 Backup"
+      },
       "voiceserver_voicebot_connection": {
         "title": "Voicebot Connection",
         "sidebar_label": "Voicebot Connection"
