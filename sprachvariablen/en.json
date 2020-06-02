@@ -149,6 +149,10 @@
         "title": "Change Server Icon",
         "sidebar_label": "Change Server Icon"
       },
+      "fivem_changeloadingscreen": {
+        "title": "Loadingscreen installation",
+        "sidebar_label": "Loadingscreen installation"
+      },
       "fivem_changespawnpoint": {
         "title": "Spawnpoint setzen",
         "sidebar_label": "Spawnpoint setzen"
