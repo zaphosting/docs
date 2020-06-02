@@ -7,7 +7,7 @@ sidebar_label: Ts3 Backup
 
 <!--DOCUSAURUS_CODE_TABS-->
 <!--Webinterface-->
-
+<br>
 Um im Webinterface ein Backup von deinem Ts3 Server zu machen, gehst du einfach links auf **Snapshots**.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/KyHDAHkYACakNAs/preview)
@@ -18,7 +18,7 @@ Anschließend gehst du auf **Snapshot erstellen**. Unten siehst du dann alle dei
 
 
 <!--v/Rootserver-->
-
+<br>
 Um ein Backup von deinem Ts3 Server zu machen, welcher auf deinem v/Rootserver installiert ist, musst du dir das Programm Yatqa downloaden. **https://yat.qa/herunterladen/**
 
 Anschließend rufst du deine Ts3 Instanz auf und meldest dich mit den Daten bei Yatqa an: 
