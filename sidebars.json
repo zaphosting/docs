@@ -163,7 +163,8 @@
                 "label": "ESX",
                 "ids": [
                     "fivem_esx_disableinventory",
-                    "fivem_esx_changemoneyicon"
+                    "fivem_esx_changemoneyicon",
+                    "fivem_esx_becomeadminoverdatabase"
 
                 ]
             },
