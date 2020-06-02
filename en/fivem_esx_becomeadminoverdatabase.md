@@ -4,8 +4,7 @@ title: Become Admin over the Database
 sidebar_label: Become Admin over the Database
 ---
 
-**Important**
-A character must be created by you, so that you can find it in the database.
+> **Important:** A character must be created by you, so that you can find it in the database.
 
 ## 📔 Become Admin
 
