@@ -165,6 +165,10 @@
         "title": "Delete Cache",
         "sidebar_label": "Delete Cache"
       },
+      "fivem_esx_becomeadminoverdatabase": {
+        "title": "Become Admin over the Database",
+        "sidebar_label": "Become Admin over the Database"
+      },
       "fivem_esx_changemoneyicon": {
         "title": "Change Money Icon",
         "sidebar_label": "Change Money Icon"
