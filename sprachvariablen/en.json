@@ -149,6 +149,10 @@
         "title": "Change Server Icon",
         "sidebar_label": "Change Server Icon"
       },
+      "fivem_changeloadingscreen": {
+        "title": "Loadingscreen installation",
+        "sidebar_label": "Loadingscreen installation"
+      },
       "fivem_changespawnpoint": {
         "title": "Spawnpoint setzen",
         "sidebar_label": "Spawnpoint setzen"
@@ -160,6 +164,10 @@
       "fivem_deletecache": {
         "title": "Delete Cache",
         "sidebar_label": "Delete Cache"
+      },
+      "fivem_esx_becomeadminoverdatabase": {
+        "title": "Become Admin over the Database",
+        "sidebar_label": "Become Admin over the Database"
       },
       "fivem_esx_changemoneyicon": {
         "title": "Change Money Icon",
