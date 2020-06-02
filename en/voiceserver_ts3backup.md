@@ -7,7 +7,7 @@ sidebar_label: Ts3 Backup
 
 <!--DOCUSAURUS_CODE_TABS-->
 <!--Webinterface-->
-
+<br>
 
 To make a backup of your Ts3 server in our Webinterface, just go to **Snapshots** on the left.
 
@@ -19,7 +19,7 @@ Then you go to **Create a snapshot**. Below you will see all your snapshots and 
 
 
  <!--v/Rootserver-->
-
+<br>
 To make a backup of your Ts3 server, which is installed on your v/Rootserver, you have to download the program Yatqa. **https://yat.qa/**
 
 Then you call up your Ts3 instance and log in to Yatqa with the data: 
