@@ -330,8 +330,8 @@
         "sidebar_label": "Plugins"
       },
       "spaceengineers_becomeadmin": {
-        "title": "Admin werden",
-        "sidebar_label": "Admin werden"
+        "title": "Become Admin",
+        "sidebar_label": "Become Admin"
       },
       "terraria_tshock_add_admin": {
         "title": "Become an admin (tShock)",
