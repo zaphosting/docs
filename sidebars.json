@@ -65,6 +65,7 @@
                     "vserver_linux_password_change",
                     "vserver_linux_java",
                     "vserver_linux_phpmyadmin",
+                    "vserver_linux_ftp_install",
                     "vserver_linux_ftp",
                     "vserver_linux_docker",
                     "vserver_linux_plesk",
