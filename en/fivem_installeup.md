@@ -1,3 +1,5 @@
+---
+id: fivem_installeup
 title: Install EUP
 sidebar_label: Install EUP
 ---
