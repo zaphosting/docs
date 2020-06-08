@@ -173,6 +173,10 @@
         "title": "Change Money Icon",
         "sidebar_label": "Change Money Icon"
       },
+      "fivem_esx_disablehud": {
+        "title": "Disable HUD",
+        "sidebar_label": "Disable HUD"
+      },
       "fivem_esx_disableinventory": {
         "title": "Deactivate the Inventory (F2)",
         "sidebar_label": "Deactivate the Inventory (F2)"
