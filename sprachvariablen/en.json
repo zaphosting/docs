@@ -349,6 +349,10 @@
         "title": "Docker",
         "sidebar_label": "Docker"
       },
+      "vserver_linux_ftp_install": {
+        "title": "FTP Setup",
+        "sidebar_label": "FTP Setup"
+      },
       "vserver_linux_ftp": {
         "title": "FTP Dienst funktioniert nicht",
         "sidebar_label": "FTP Dienst funktioniert nicht"
