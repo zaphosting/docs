@@ -56,6 +56,10 @@
                 "title": "Gutscheine & Codes",
                 "sidebar_label": "Gutscheine & Codes"
             },
+            "arma3_altislife_ranks": {
+                "title": "Altis Life Ränge",
+                "sidebar_label": "Altis Life Ränge"
+            },
             "arma3_serverconfig": {
                 "title": "Server.cfg",
                 "sidebar_label": "Server.cfg"
@@ -144,6 +148,10 @@
                 "title": "Server Icon Ändern",
                 "sidebar_label": "Server Icon Ändern"
             },
+            "fivem_changeloadingscreen": {
+                "title": "Loadingscreen installieren",
+                "sidebar_label": "Loadingscreen installieren"
+            },
             "fivem_changespawnpoint": {
                 "title": "Spawnpoint setzen",
                 "sidebar_label": "Spawnpoint setzen"
@@ -151,6 +159,14 @@
             "fivem_dashboard": {
                 "title": "Dashboard",
                 "sidebar_label": "Dashboard"
+            },
+            "fivem_deletecache": {
+                "title": "Cache leeren",
+                "sidebar_label": "Cache leeren"
+            },
+            "fivem_esx_becomeadminoverdatabase": {
+                "title": "Admin über Datenbank werden",
+                "sidebar_label": "Admin über Datenbank werden"
             },
             "fivem_esx_changemoneyicon": {
                 "title": "Geldicon Ändern",
@@ -184,9 +200,17 @@
                 "title": "Rcon Benutzen",
                 "sidebar_label": "Rcon Benutzen"
             },
+            "fivem_servername_color": {
+                "title": "Servernamen färben",
+                "sidebar_label": "Servernamen färben"
+            },
+            "fivem_servername_emojis": {
+                "title": "Emojis in Server Name",
+                "sidebar_label": "Emojis in Server Name"
+            },
             "fivem_sql_file_import": {
-                "title": "SQL Datei Importieren",
-                "sidebar_label": "SQL Datei Importieren"
+                "title": "SQL Dateiimport",
+                "sidebar_label": "SQL Dateiimport"
             },
             "fivem_useprofiler": {
                 "title": "Profiler Benutzen",
@@ -195,6 +219,10 @@
             "fivem_vrp_changemoneyicon": {
                 "title": "Geldicon Ändern",
                 "sidebar_label": "Geldicon Ändern"
+            },
+            "gameserver_backups": {
+                "title": "Backups",
+                "sidebar_label": "Backups"
             },
             "gameserver_cloudvslifetime": {
                 "title": "Cloud vs. Lifetime",
@@ -248,6 +276,10 @@
                 "title": "RCON",
                 "sidebar_label": "RCON"
             },
+            "minecraft_server-icon": {
+                "title": "Server Icon",
+                "sidebar_label": "Server Icon"
+            },
             "minecraft_timings_report": {
                 "title": "Timings-Report",
                 "sidebar_label": "Timings-Report"
@@ -272,6 +304,10 @@
                 "title": "Pakete Installieren",
                 "sidebar_label": "Pakete Installieren"
             },
+            "source_custom_content": {
+                "title": "Custom Inhalte",
+                "sidebar_label": "Custom Inhalte"
+            },
             "source_gsltoken": {
                 "title": "Gameserver Login Token",
                 "sidebar_label": "GSL-Token"
@@ -291,6 +327,14 @@
             "spaceengineers_becomeadmin": {
                 "title": "Admin werden",
                 "sidebar_label": "Admin werden"
+            },
+            "terraria_tshock_add_admin": {
+                "title": "Admin werden (tShock)",
+                "sidebar_label": "Admin werden (tShock)"
+            },
+            "voiceserver_ts3backup": {
+                "title": "Teamspeak Backup",
+                "sidebar_label": "Ts3 Backup"
             },
             "voiceserver_voicebot_connection": {
                 "title": "Voicebot Verbinden",
@@ -343,6 +387,10 @@
             "vserver_linux_ssh": {
                 "title": "Erstzugriff (SSH)",
                 "sidebar_label": "Erstzugriff (SSH)"
+            },
+            "vserver_linux_ssh2fa": {
+                "title": "Zwei Faktor Authentifizierung",
+                "sidebar_label": "Zwei Faktor Authentifizierung"
             },
             "vserver_root_unterschied": {
                 "title": "Unterschied Rootserver / V-Server",
