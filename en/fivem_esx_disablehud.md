@@ -30,4 +30,10 @@ Now let's have a look: Config.EnableHUD.
 
 We then set this to false and save the file.
 
+Then we go to the Server.cfg.
+This can also be found on the Config page
+There we search again with STR + F for es_
+We then search for es_ui and delete this line kpmplett out.
+Now we save again.
+
 When you have done that you only have to restart the server and that's it.
