@@ -1,7 +1,7 @@
 ---
 id: fivem_esx_becomeadminoverdatabase
 title: Admin über die Datenbank werden
-sidebar_label: Admin über die Datenbank werden
+sidebar_label: Admin über Datenbank werden
 ---
 
 > **Wichtig**: Ein Charakter muss erstellt sein von euch, sodass ihr diesen dann auch in der Datenbank findet.
