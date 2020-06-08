@@ -181,6 +181,9 @@
         "title": "ELS Installieren",
         "sidebar_label": "ELS Installieren"
       },
+      "fivem_installeup": {
+        "title": "fivem_installeup"
+      },
       "fivem_installresources": {
         "title": "Resource Installation",
         "sidebar_label": "Resource Installation"
