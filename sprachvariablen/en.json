@@ -173,6 +173,10 @@
         "title": "Change Money Icon",
         "sidebar_label": "Change Money Icon"
       },
+      "fivem_esx_disablehud": {
+        "title": "Disable HUD",
+        "sidebar_label": "Disable HUD"
+      },
       "fivem_esx_disableinventory": {
         "title": "Deactivate the Inventory (F2)",
         "sidebar_label": "Deactivate the Inventory (F2)"
@@ -180,6 +184,10 @@
       "fivem_installels": {
         "title": "ELS Installieren",
         "sidebar_label": "ELS Installieren"
+      },
+      "fivem_installeup": {
+        "title": "Install EUP",
+        "sidebar_label": "Install EUP"
       },
       "fivem_installresources": {
         "title": "Resource Installation",
