@@ -1,12 +1,12 @@
 ---
 id: vserver_linux_add_ftp_user
-title: FTP Nutzer Hinzufügen
-sidebar_label: FTP Nutzer Hinzufügen
+title: FTP Einrichten
+sidebar_label: FTP Einrichten
 ---
 
-## Wie installiere ich den FTP Server, um einen Nutzer hinzuzufügen? 
+## Wie installiere ich den FTP Server, und füge einen Nutzer hinzu? 
 
-Um einen FTP Nutzer hinzuzufügen, musst du als Erstes den FTP Server installieren. Dafür verbindest du dich ein mal via SSH(Putty) mit dem Server.
+Als Erstes muss ein FTP Server installiert werden. Dafür verbindest du dich ein mal via SSH(Putty) mit dem Server.
 
 Um den FTP Server nun zu installieren, gibst du folgendes ein **apt-get install proftpd**. Die Abfrage musst du dann noch mit einem **Y** und enter bestätigen:
 
