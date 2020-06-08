@@ -30,4 +30,11 @@ Nun schauen wir nach: Config.EnableHUD.
 
 Diese setzen wir dann auf false und speichern dann die Datei.
 
+Anschließend gehen wir in die Server.cfg.
+Diese finden wir auch auf der Config Seite
+Dort suchen wir wieder mit STR + F nach es_
+Wir suchen dann nach es_ui und löschen diese Zeile kpmplett raus.
+Nun speichern wir wieder.
+
+
 Wenn ihr das geschafft habt müsst ihr nur noch den Server neustarten und das wars.
