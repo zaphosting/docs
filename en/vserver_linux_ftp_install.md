@@ -1,7 +1,7 @@
 ---
-id: vserver_linux_add_ftp_user
-title: Add FTP User
-sidebar_label: FTP Add FTP User
+id: vserver_linux_ftp_install
+title: FTP Setup
+sidebar_label: FTP Setup
 ---
 
 ## How do I install the FTP server to add a user? 
