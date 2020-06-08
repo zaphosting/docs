@@ -182,7 +182,8 @@
         "sidebar_label": "ELS Installieren"
       },
       "fivem_installeup": {
-        "title": "fivem_installeup"
+        "title": "Install EUP",
+        "sidebar_label": "Install EUP"
       },
       "fivem_installresources": {
         "title": "Resource Installation",
