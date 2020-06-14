@@ -10,14 +10,6 @@ An sich ist BungeeCord die Verwaltung eines Bündels von Servern, welche durch d
 
 ## Einstellungen
 
-### server_connect_timeout
-
--- 404 --
-
-### remote_ping_cache
-
--- 404 --
-
 ### forge_support
 
 Der Wert kann auf false (falsch) oder true (wahr) gestellt werden. Falls du diesen auf wahr stellst können Spieler mit einem Forge Klienten (für Modpacks gedacht) den Server betreten. Bei einer Negation werden diese Verbindungen abgelehnt.
@@ -47,7 +39,7 @@ Der Wert kann auf false (falsch) oder true (wahr) gestellt werden. Falls du dies
 
 ### network_compression_threshold
 
--- 404 --
+Dies setzt die Größe der an die Spieler versendeten Pakete fest. Ein kleinerer Wert als der Standardmäßige *256* wie zum Beispiel 128 kann die Verbindung zu anderen, weit entfernten Nutzern verbessern. Dies führt allerdings auch zu einer stark erhöhten CPU-Auslastung, weshalb die Veränderung des Wertes mit Vorsicht zu genießen ist.
 
 ### online_mode
 
@@ -78,28 +70,25 @@ Unter **address** gibst du die entsprechende IP des Unterservers ein. Wenn der W
 ### listeners
 
 Hinter dieser Variable stecken viele Optionsmöglichkeiten, die für die Verbindung zum BungeeCord Server wichtig sind. Es können mehrere Horcher angelegt werden, um die Verbindung auf verschiedene IP Adressen und Ports zu ermöglichen. Ein Horcher besteht aus folgenden Konfigurationswerten:
-* query_port - Durch diesen Wert wird der Port des Horchers festgelegt
-* motd - Hier wird die Nachricht festgelegt, welche in der Serverliste angezeigt wird, wenn der Spieler direkt den BungeeCord Server in seiner Liste eingetragen hat
-* tab_list - 
-* query_enabled - 
-* proxy_protocol - 
-* forced_hosts - 
-* ping_passthrough - 
-* priorities - 
-* bind_local_address - 
-* host - 
-* max_players - 
-* tab_size - 
-* force_default_server - 
+* query_port - Durch diesen Wert wird der Port des Horchers festgelegt.
+* motd - Hier wird die Nachricht festgelegt, welche in der Serverliste angezeigt wird, wenn der Spieler direkt den BungeeCord Server in seiner Liste eingetragen hat.
+* tab_list - Du kannst hier zwischen den Werten *GLOBAL_PING*, *GLOBAL* und *SERVER* wählen. Durch GLOBAL_PING werden in der Tablist serverübergreifend alle Spieler inklusive deren Pings angezeigt. Durch die Verwendung von GLOBAL werden ebenso alle Spieler serverübergreifend angezeigt, allerdings wird der Ping nicht angezeigt. Mit dem Begriff SERVER werden den Spielern nur die Mitspieler angezeigt, welche sich auch auf dem gleichen Unterserver befinden.
+**Wichtig:** Diese Funktion funktioniert nicht mehr in den Versionen 1.8 und älter.
+* query_enabled - Der Wert kann auf false (falsch) oder true (wahr) gestellt werden. Falls du diesen auf wahr stellst wird während des DNS Durchlaufes eine UDP Abfrage geprüft, welche nur solche Verbindungen erlaubt. Bei einer Negation können auch andere Verbindungen über Weiterleitungen zum Server hergestellt werden.
+* proxy_protocol - Der Wert kann auf false (falsch) oder true (wahr) gestellt werden. Falls du diesen auf wahr stellst kannst du das HAProxy Protokoll verwenden. Bei einer Negation wird dies verweigert.
+* forced_hosts - Hier kannst du einzelne Direktverbindungen auf Unterserver erlauben. Syntax: `Deine.EigeneDomain.de: ServerName`
+* ping_passthrough - Der Wert kann auf false (falsch) oder true (wahr) gestellt werden. Falls du diesen auf wahr stellst wird dir beispielsweise die echte MOTD des Unterservers statt der in der BungeeCord Config stehenden angezeigt, wenn du den Unterserver über die Funktion *forced_hosts* anpingst. Bei einer Negation wird der Wert aus der festgelegten Variable von *servers* zurückgegeben.
+* priorities - Hier kannst du absteigend aufzählen, auf welchen Server die Spieler als Erstes verbinden sollen. Ein Server wird übersprungen, wenn dieser offline oder nicht erreichbar ist.
+* bind_local_address - Der Wert kann auf false (falsch) oder true (wahr) gestellt werden. Falls du diesen auf wahr stellst wird immer versucht den Spieler auf Server weiterzuleiten, die auf die gleiche IP wie die des BungeeCord Servers hören. Bei einer Negation können die Unterserver auch unterschiedliche IP Adressen besitzen. Dieser Wert ist nur für Netzwerke relevant, welche Server auf unterschiedlichen Systemen laufen lassen.
+* host - Mit dieser Variable wird die IP und der Port des Hosts festgelegt. Wenn als IP 0.0.0.0 gesetzt wird werden alle IP Adressen und Domains akzeptiert, die auf den Host weiterleiten.
+* max_players - Der Zahlenwert legt die maximale Spieleranzahl dieses Horchers fest.
+* tab_size - Dieser Wert legt die maximale Zahl an angezeigten Spielern in der Tablist fest.
+* force_default_server - Der Wert kann auf false (falsch) oder true (wahr) gestellt werden. Falls du diesen auf wahr stellst wird der Spieler immer auf den Standardserver (der erste, erreichbare Server aus *priorities*) verbinden. Bei einer Negation landet der Spieler auf dem Unterserver, auf welchem er sich zuletzt befand. **Wichtig:** Wenn du diesen Wert aktivierst werden Verbindungen über *forced_hosts* auch auf den Standardserver weitergeleitet.
 
 ### ip_forward
 
 Der Wert kann auf false (falsch) oder true (wahr) gestellt werden. Falls du diesen auf wahr stellst können Spieler nur direkt über den BungeeCord Server auf das Netzwerk. Bei einer Negation können Spieler auch direkt auf einen Unterserver, falls diese die IP und den Port kennen.
 **Wichtig:** Wenn du den *online_mode* auf true setzt solltest du diese Funktion auch aktivieren, um eine Sicherheitslücke zu schließen.
-
-### remote_ping_timeout
-
--- 404 --
 
 ### prevent_proxy_connections
 
@@ -127,7 +116,3 @@ Hier wird von BungeeCord ein zufällig generierter Code eingefügt. Es wird empf
 ### connection_throttle_limit
 
 Dieser Wert bestimmt die Anzahl ab wie vielen Verbindungsversuchen der Spieler den angegebenen Wert von *connection_throttle* abwarten muss, bis er wieder versuchen darf sich zum Server zu verbinden.
-
-### log_pings
-
--- 404 --
