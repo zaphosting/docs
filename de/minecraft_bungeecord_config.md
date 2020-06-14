@@ -77,20 +77,57 @@ Unter **address** gibst du die entsprechende IP des Unterservers ein. Wenn der W
 
 ### listeners
 
-
+Hinter dieser Variable stecken viele Optionsmöglichkeiten, die für die Verbindung zum BungeeCord Server wichtig sind. Es können mehrere Horcher angelegt werden, um die Verbindung auf verschiedene IP Adressen und Ports zu ermöglichen. Ein Horcher besteht aus folgenden Konfigurationswerten:
+* query_port - Durch diesen Wert wird der Port des Horchers festgelegt
+* motd - Hier wird die Nachricht festgelegt, welche in der Serverliste angezeigt wird, wenn der Spieler direkt den BungeeCord Server in seiner Liste eingetragen hat
+* tab_list - 
+* query_enabled - 
+* proxy_protocol - 
+* forced_hosts - 
+* ping_passthrough - 
+* priorities - 
+* bind_local_address - 
+* host - 
+* max_players - 
+* tab_size - 
+* force_default_server - 
 
 ### ip_forward
 
+Der Wert kann auf false (falsch) oder true (wahr) gestellt werden. Falls du diesen auf wahr stellst können Spieler nur direkt über den BungeeCord Server auf das Netzwerk. Bei einer Negation können Spieler auch direkt auf einen Unterserver, falls diese die IP und den Port kennen.
+**Wichtig:** Wenn du den *online_mode* auf true setzt solltest du diese Funktion auch aktivieren, um eine Sicherheitslücke zu schließen.
+
 ### remote_ping_timeout
+
+-- 404 --
 
 ### prevent_proxy_connections
 
+Der Wert kann auf false (falsch) oder true (wahr) gestellt werden. Falls du diesen auf wahr stellst werden die IP Adressen der verbundenen Spieler an den Mojang Server gesendet. Bei einer Negation wird eine IP Weiterleitung an Mojang unterbunden.
+Der Wert hat keinen wirklichen Einfluss auf das Spielempfinden.
+
 ### groups
+
+In dieser Liste kannst du einzelnen Spielern eine oder mehrere Gruppen zuweisen. Dadurch erhalten diese dann die entsprechenden BungeeCord Berechtigungen, die unter *permissions* festgelegt wurden.
+Die Syntax beziehungsweise Einrückungen (in Form von 2 Leerzeichen) sind dabei wichtig zu beachten:
+```
+groups:
+  SpielerName:
+  - GruppenName
+```
 
 ### connection_throttle
 
+Dieser Zahlenwert sagt aus wie lange ein Spieler warten muss bis er wieder versuchen darf sich zum Server zu verbinden. Standardmäßig ist dieser Wert auf 4000, was einer maximalen Antwortzeit von 4 Sekunden entspricht. 
+
 ### stats
+
+Hier wird von BungeeCord ein zufällig generierter Code eingefügt. Es wird empfohlen diesen nicht zu verändern, da BungeeCord dadurch besser optimiert werden kann und Fehler behoben werden können. Analysedaten werden anonym und verschlüsselt an die Entwickler weitergeleitet.
 
 ### connection_throttle_limit
 
+Dieser Wert bestimmt die Anzahl ab wie vielen Verbindungsversuchen der Spieler den angegebenen Wert von *connection_throttle* abwarten muss, bis er wieder versuchen darf sich zum Server zu verbinden.
+
 ### log_pings
+
+-- 404 --
