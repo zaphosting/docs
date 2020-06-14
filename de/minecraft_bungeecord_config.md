@@ -107,7 +107,7 @@ groups:
 
 ### connection_throttle
 
-Dieser Zahlenwert sagt aus wie lange ein Spieler warten muss bis er wieder versuchen darf sich zum Server zu verbinden. Standardmäßig ist dieser Wert auf 4000, was einer maximalen Antwortzeit von 4 Sekunden entspricht. 
+Dieser Zahlenwert sagt aus wie lange ein Spieler warten muss bis er wieder versuchen darf sich zum Server zu verbinden. Standardmäßig ist dieser Wert auf 4000, was einer Wartezeit von 4 Sekunden entspricht. 
 
 ### stats
 
