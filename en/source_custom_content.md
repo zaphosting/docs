@@ -4,20 +4,20 @@ title: Custom Content
 sidebar_label: Custom Content
 ---
 
-## Was sind Custom Inhalte?
+## What are custom contents?
 
-Einige Source-Games wie zum Beispiel Counter-Strike oder Garrys Mod sind durch ihre Vielfältigkeit bekannt geworden. Ermöglicht wurde das Ganze durch die Unterstützung von Plugins und sogenannten **Custom Inhalten**. So entwickelten sich über die Jahre diverse Spielmodi wie zum Beispiel Zombie Mod, Hide and Seek, Minigames, Jailbreak und vieles mehr. 
+Some source games such as Counter-Strike or Garry's Mod have become known for their variety. All of this was made possible by the support of plugins and **custom content**. Various game modes have been developed over the years, such as Zombie Mod, Hide and Seek, Minigames, Jailbreak and much more. 
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/D4cfNkDdyyqH55R/preview)
 
 
 
-Auf solchen Server werden oftmals Maps, Player Skins und Sounds die von der Community erstellt wurden benutzt. Damit Spieler auch die verwendeten Custom Inhalte vom Server benutzen bzw. sehen können müssen diese vorher erst vom Server heruntergeladen werden. Hierbei gibt es zwei Möglichkeiten:
+Such servers often use maps, player skins and sounds created by the community. In order for players to be able to use or view the custom content of the server, the content must first be downloaded from the server. In this case there are two possibilities:
 
 - FastDL
 - Steam Workshop
 
-Je nach Anwendungsbereich lohnt sich die eine Option eher als die andere Optionen. Im Folgenden siehst du eine Übersicht der Unterschiede zwischen FastDL und Workshop:
+Depending on the scope of application, one option is more useful than the other. Below is an overview of the differences between FastDL and Workshop:
 
 |  Custom Inhalte  | FastDL | Steam Workshop |
 | :--------------: | :----: | :------------: |
@@ -27,19 +27,19 @@ Je nach Anwendungsbereich lohnt sich die eine Option eher als die andere Optione
 
 
 
-## Custom Inhalte einrichten
+## Set up custom content
 
 
 
 ### FastDL
 
-Im Folgenden wird die Einrichtung des FastDL Servers mittels eines unserer [Webspace Produkte](https://zap-hosting.com/de/shop/product/webspace/) erklärt. Allerdings kann hierfür auch eine beliebige andere Option benutzt werden die einen öffentlich zugänglichen Webserver beinhaltet. Um mit der Einrichtung zu beginnen, rufen wir das Webspace Produkt auf und öffnen die Verwaltung:
+In the following, the setup of the FastDL server using one of our [Webspace Products](https://zap-hosting.com/en/shop/product/webspace/) is explained. However, you can also use any other option that provides a publicly accessible web server. To start with the setup, we open the webspace product and open the administration:
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/TaMGiFBS58WDJkt/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/xFeEwAS3ZJ3MzzX/preview)
 
 
 
-Dort angelangt rufen wir den File-Manager auf und legen dabei die folgenden Ordner an:
+Once there, we open the file manager and create the following folders:
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/ywx4gn9fSJoSQc2/preview)
 
@@ -47,23 +47,23 @@ Dort angelangt rufen wir den File-Manager auf und legen dabei die folgenden Ordn
 
 
 
-Als Nächstes müssen beim Webspace noch die Berechtigungen vorgenommen werden, damit das Herunterladen der Inhalte im Spiel im Anschluss auch funktioniert:
+Afterwards, the web space has to be authorized so that the download of the content in the game will work properly:
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/jd3Q7L8xLZr45P4/preview)
 
-> Die Berechtigungen müssen für alle Ordner gesetzt werden!
+> The permissions must be set for all folders!
 
-Nun können die Custom Inhalte hochgeladen werden. Hierfür müssen die Dateien sowohl auf dem Server als auch auf dem FastDL(Webspace) vorhanden sein. Auf dem Gameserver werden die Dateien ungepackt hochgeladen und auf dem FastDL sollten sie als bzip2 gepackt hochgeladen werden. Hierfür eignet sich das Programm 7Zip.
+Now the custom content can be uploaded. For this, the files must be available on the server as well as on the FastDL(webspace). On the game server the files are uploaded unpacked and on the FastDL they should be uploaded packed as bzip2. The program 7Zip is recommended for this purpose.
 
-Als letztes muss der FastDL Server nur noch beim Gameserver eingetragen werden. Die Konfiguration erfolgt hierbei über die **server.cfg**. Dafür müssen die folgenden Befehle zu der Config hinzugefügt werden:
+Finally, the FastDL server only needs to be specified with the game server. The configuration is done via the **server.cfg**. For this purpose the following commands must be added to the Config:
 
 ```
 sv_allowdownload 1
 sv_allowupload 1
-sv_downloadurl "https://zapXXXXX-1.plesk08.zap-hosting.com" // Ersetze die URL durch deine ZAP Webspace URL.
+sv_downloadurl "https://zapXXXXX-1.plesk08.zap-hosting.com" // Replace the URL with your ZAP webspace URL.
 ```
 
-Nach neu starten und verbinden des Servers sollten die entsprechenden Inhalte heruntergeladen werden. Das kann in der Konsole vom Spiel auch überprüft werden:
+After restarting and connecting to the server the corresponding content should be downloaded. This can also be checked in the console of the game:
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/m7rkTna8jbXdc2R/preview)
 
@@ -71,27 +71,27 @@ Nach neu starten und verbinden des Servers sollten die entsprechenden Inhalte he
 
 ### Steam Workshop
 
-Im Folgenden wird die Einrichtung des Steam Workshops erklärt. Zu Beginn muss die Steam Workshop Seite aufgerufen werden. Dafür wählt ihr in Steam das entsprechende Spiel aus und ruft dort den Workshop auf. In diesem Fall nehmen wir [CS:GO](https://steamcommunity.com/workshop/browse/?appid=730&browsesort=trend&section=collections) als Beispiel. Dort angelangt klicken wir im Menüpunkt auf Durchsuchen und wählen Kollektion aus:
+In the following, the setup of the Steam Workshop is explained. First of all, the Steam Workshop page must be opened. To do this, select the appropriate game in Steam and open the workshop there. In this case we take [CS:GO](https://steamcommunity.com/workshop/browse/?appid=730&browsesort=trend&section=collections) as an example. Once there, we click on the menu item Browse and select Collection:
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/e9MkLE3cE974Lmb/preview)
 
 
 
-Dort klicken wir nun rechts auf Kollektion und legen die Kollektion für den Gameserver an:
+There we click right on Collection and create the collection for the game server:
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/cxbwBtwbjEtpNMC/preview)
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/k7kWNYNdwirp2Nq/preview)
 
-Danach wurde die Kollektion erfolgreich erstellt. Diese ist standardmäßig aber noch leer. Daher rufen wir nun den Workshop des Spiels wieder auf und wählen die Objekte aus, die wir hinzufügen wollen:
+The collection has then been successfully created. However, it is still empty by default. Therefore, we now reopen the workshop of the game and select the objects we want to add:
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/4y7D2wtHQgH9tRb/preview)
 
 
-Wenn du die mit dem Zusammenstellen der Inhalte fertig bist, dann musst du im Anschluss erneut die Kollektion aufrufen und dort dann rechtsklick drücken und Seiten-URL kopieren auswählen. Aus der URL wird die ID der Kollektion benötigt, welche wie folgt aussehen kann:
+When you are done collecting, you will need to go back to the collection, right click and select Copy Page URL. The ID of the collection is needed from the URL, which can look like this:
 
 ...steamcommunity.com/sharedfiles/filedetails/?id=**2108505414**
 
-Diese muss am Ende dann nur noch unter Steam Workshop in der Gameserver Verwaltung eingetragen werden:
+At the end this has to be added at Steam Workshop in your game server administration:
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/XXEwq6yoANAx5gJ/preview)
