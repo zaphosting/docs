@@ -1,5 +1,5 @@
 ---
-id: vserver_netzwerkanalyse_WinMTR
+id: vserver_network_analysis_winmtr
 title: Netzwerkanalyse MTR/WinMTR
 sidebar_label: Netzwerkanalyse MTR/WinMTR
 ---
@@ -10,7 +10,7 @@ WinMTR ist ein Netzwerk-Diagnose-Programm, welches die Funktion von Ping und Tra
 
 
 
-![img](https://cloud.galz.dev/index.php/s/FQ53jHQ26GxxwQK/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/4KzrnjDSnipdeS9/preview)
 
 
 
@@ -32,7 +32,7 @@ Der Netzwerk-Diagnose Test sollte durchgeführt werden, wenn die Problematik ger
 
 Die Windows Version für WinMTR kann über die [ZAP-Hosting](https://zap-hosting.com/de/winmtr) Seite heruntergeladen werden. Nach der Installation muss das Programm gestartet werden und der Hostname oder die IP-Adresse des betroffenen Falls eingetragen werden:
 
-![img](https://cloud.galz.dev/index.php/s/2wgJbMdkgwA5tiw/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/NMM89KjjpxRXWdY/preview)
 
 
 
@@ -48,13 +48,13 @@ Nun kann das Paket mit dem folgenden Befehl installiert werden:
 apt-get install mtr
 ```
 
-![img](https://cloud.galz.dev/index.php/s/PXKQyDFskM92MxS/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/m7Xo2HMiK2WErcJ/preview)
 
 
 
 Im Anschluss lässt sich die Auswertung mit dem Befehl **mtr IP-Adresse** starten. Mit STRG+C kann der Test je nach Wunsch jederzeit gestoppt werden.
 
-![img](https://cloud.galz.dev/index.php/s/g49D84NjjJC7SPi/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/Fc3Z3wFoxDdL3HH/preview)
 
 
 
@@ -64,7 +64,7 @@ Im Anschluss lässt sich die Auswertung mit dem Befehl **mtr IP-Adresse** starte
 
 Das Programm liefert mehrere Informationen. Diese muss man genau überprüfen um das Problem auch richtig zuordnen zu können. Zu den Informationen gehören folgende Punkte:
 
-![img](https://cloud.galz.dev/index.php/s/t8EjJarDg9wCJMp/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/RLNmFsgdMBzXpyC/preview)
 
 
 
