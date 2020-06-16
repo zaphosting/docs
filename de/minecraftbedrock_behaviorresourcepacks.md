@@ -11,7 +11,7 @@ Als erstes musst du den Server herunterfahren, deine Welt vom Server downloaden 
 Für das downloaden kannst du dich einfach per FTP auf den Server verbinden und den Welten Ordner downloaden den du unter "worlds" findest.
 Nach dem download kannst du den Ordner einfach hier einfügen:
 
-``C:\Users\%username%\AppData\Local\Packages\Microsoft.MinecraftUWP_8wekyb3d8bbwe\LocalState\games\com.mojang\minecraftWorlds``
+```C:\Users\%username%\AppData\Local\Packages\Microsoft.MinecraftUWP_8wekyb3d8bbwe\LocalState\games\com.mojang\minecraftWorlds```
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/NzTt3KAAYE75q5c/preview)
 
@@ -49,7 +49,7 @@ Diese sind in dem gleichen Ordner wo auch der "worlds" Ordner liegt.
 
 Anschliessend musst du noch server.properties öffnen und die Zeile
 
-``texturepack-required=false`` auf ``texturepack-required=true``
+```texturepack-required=false``` auf ```texturepack-required=true```
 
 setzen. Dies stellt sicher das Spieler die auf deinen Server joinen auch die erforderlichen Resourcen downloaden.
 
