@@ -40,7 +40,7 @@ WinMTR for Windows can be downloaded from the [ZAP-Hosting](https://zap-hosting.
 
 ### Linux
 
-MTR on Linux requires an SSH connection to the server. If you don't know exactly how to do this, you can have a look at the following instructions: [Initial access (SSH)](https://docs.zap-hosting.com/docs/de/vserver_linux_ssh/)
+MTR on Linux requires an SSH connection to the server. If you don't know exactly how to do this, you can have a look at the following instructions: [Initial access (SSH)](https://docs.zap-hosting.com/docs/en/vserver_linux_ssh/)
 
 Now the package can be installed with the following command:
 
