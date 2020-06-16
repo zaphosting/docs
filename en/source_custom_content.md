@@ -94,4 +94,4 @@ When you are done collecting, you will need to go back to the collection, right 
 
 At the end this has to be added at Steam Workshop in your game server administration:
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/XXEwq6yoANAx5gJ/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/MPmAjpXq86z4q8R/preview)
