@@ -35,7 +35,9 @@ Deine Addons sollten nun im Spiel verfügbar sein. Funktioniert alles, schliesse
 
 Gehe nun wieder auf FileZilla.
 
-Dort ladest du nun im "worlds" Ordner wieder deinen Ordner hoch. Wichtig dabei ist das der Name sich nicht verändert hat.
+Lösche dort nun die Welt die du vorher heruntergeladen hast, da wir diese nun ersetzen werden.
+
+Lade jetzt einfach wieder den Ordner auf deinen Server hoch. Wichtig dabei ist das der Name sich nicht verändert hat.
 
 Ein letzter Schritt kommt noch. In dem Welt Ordner auf deinem PC hast du jetzt die Ordner "behavior_packs" und/oder "resource_packs"
 
