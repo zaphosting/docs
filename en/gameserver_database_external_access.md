@@ -20,7 +20,7 @@ First of all the Navicat software is necessary. In addition to the Premium versi
 
 The user credentials to access the database are required for this purpose. Those can be found in the game server administration under databases. For this you need the information regarding **server/IP**, **database**, **user**, **password** and the default port **3306**:
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/8dB7HY5b4bFCPfJ/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/H4KKNyEssgjBPes/preview)
 
 In order to establish the connection in Navicat we create a new connection. Under **Connection** we select **MySQL**. Afterwards another popup window opens where the database information must be inserted.
 
