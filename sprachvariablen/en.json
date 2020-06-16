@@ -401,6 +401,10 @@
         "title": "two factor authentication",
         "sidebar_label": "two factor authentication"
       },
+      "vserver_network_analysis_winmtr": {
+        "title": "Network analysis MTR/WinMTR",
+        "sidebar_label": "Network analysis MTR/WinMTR"
+      },
       "vserver_root_unterschied": {
         "title": "Rootserver versus vServer",
         "sidebar_label": "Rootserver versus vServer"
