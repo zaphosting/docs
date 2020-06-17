@@ -20,7 +20,7 @@ Then you have to click on "Contracts & PrePaids" in the menu on the left. Finall
 
 You will then be shown the date on which your contract will be cancelled.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/PbrzKmEWxwCYnwJ/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/Nfzzk6F5fbPYGwm/preview)
 
 ## 📙  "Term of notice"
 
