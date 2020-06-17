@@ -14,6 +14,7 @@ sudo apt install libpam-google-authenticator
 ```
 
 You will then be prompted to type "Y" to install the package, type this, press Enter and then the Google Authenticator will be installed!
+
 ![](https://screensaver01.zap-hosting.com/index.php/s/MFfdxA2ib4FnxJe/preview)
 
 ## ⌨ Run Google Authenticator
@@ -84,7 +85,7 @@ Now we add the Google Authenticator to the login in the `/etc/pam.d/sshd`.Open t
 
 The last step is to scroll down to the end of the file and enter 'auth required pam_google_authenticator.so'.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/pTpMQYZ2FDNR5yE)
+![](https://screensaver01.zap-hosting.com/index.php/s/pTpMQYZ2FDNR5yE/preview)
 
 Save the file with 'CTRL + X' then 'Y' and lastly 'Enter`
 
