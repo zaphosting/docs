@@ -42,6 +42,6 @@ Nun fügen wir ein neues Fahrzeug hinzu. Eine kurze Erklärung was für was steh
 **price** Preis des Fahrzeugs
 **category** Kategorie welche wir gerade rausgesucht haben
 
-Ich habe hier noch ein kleines Beispiel für euch:
+Hier noch ein Beispiel:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/keqnrezZKbYcoqH/preview)
