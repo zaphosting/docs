@@ -23,7 +23,7 @@ Plugins für den Rocketmod sind zum Beispiel auf Github zu finden: https://githu
 Nachdem das gewünschte Plugin dedownloadet wurde, muss es entapckt werden. 
 Je nach Betriebssystem kann es direkt entpackt werden, manche können aber zusatz Programme wie zum Beispiel 7Zip benötigen um das Archiv entpacken zu können.
 
-Unter Windows reicht es zum Beispiel aus das ZIP-Archiv via Doppelklick zu öffnen und dann via "Drag" and Drop" auf den Desktop zu ziehen: 
+Unter Windows reicht es zum Beispiel aus das ZIP-Archiv via Doppelklick zu öffnen und dann den Inhalt via "Drag" and Drop" auf den Desktop zu ziehen: 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/N9MxoBjfJTPsHeF/preview)
 
@@ -31,7 +31,7 @@ Ist dies erfolgt, so kann es hochgeladen werden, ebenfalls via "Drag and Drop":
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/pbmZXA4ca4BM4km/preview)
 
-Nun ist das geüwnschte Plugin auf dem Server verfügbar:
+Nun ist das gewünschte Plugin auf dem Server verfügbar:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/js8YtCXjqfR6FJC/preview)+
 
