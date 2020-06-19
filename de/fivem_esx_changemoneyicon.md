@@ -8,7 +8,7 @@ sidebar_label: Geldicon Ändern
 
 Zuerst muss der [FTP-Zugang](gameserver_ftpaccess.md) eingerichtet werden:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/QAyH2tdjj7cNrwC/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/spb2ZfNNS9e5Dia/preview)
 
 Nachdem dieser eingerichtet wurde, kann sich nun verbunden werden und der Server Ordner geöffnet werden:
 
