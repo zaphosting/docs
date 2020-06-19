@@ -22,7 +22,7 @@ Haben wir unsere Koordinaten gehen wir in den Config TAB
 
 Hier drücken wir dann **STR + F** und suchen nach **ambulance**
 Diese Datei öffnen wir dann.
-Hier Scrollen wir dann nach unten bis wir **Confog_RespawnPoint** finden.
+Hier Scrollen wir dann nach unten bis wir **Config_RespawnPoint** finden.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/Nz9qMExnqoN5Kpt/preview)
 
