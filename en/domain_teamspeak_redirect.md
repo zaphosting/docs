@@ -55,7 +55,7 @@ As **Name** we choose here the name of the domain, as an example **teamspeak-ser
 IP of your TeamSpeak 3 server, in this case **88.214.57.116**.
 You can leave the **TTL** field untouched.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/5LZBjHzAr3ZEcYM/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/dZjn2zFF5dXG7CS/preview)
 
 When you have entered everything, click on **Save**, the entry will be saved in the DNS settings and will be displayed within
 of 24 hours.
@@ -68,7 +68,7 @@ If you want to create a subdomain, for example ts.teamspeak-server.de, you do it
 However, for **Name** you do not enter the name of the domain, but the subdomain.
 This looks like this:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/Q4JFdKtgtgbmt5e/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/8iTQztyx4kCdsFZ/preview)
 
 
 ## Forwarding the domain with port (SRV)

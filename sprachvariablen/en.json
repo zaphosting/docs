@@ -57,6 +57,10 @@
         "title": "Coupons & Codes",
         "sidebar_label": "Coupons & Codes"
       },
+      "arma3_altislife_ranks": {
+        "title": "Altis Life Ranks",
+        "sidebar_label": "Altis Life Ranks"
+      },
       "arma3_serverconfig": {
         "title": "Server.cfg",
         "sidebar_label": "Server.cfg"
@@ -117,6 +121,10 @@
         "title": "Domain TeamSpeak 3 Redirect",
         "sidebar_label": "Domain TeamSpeak 3 Redirect"
       },
+      "firststeps_problem_melden": {
+        "title": "How do i report problems?",
+        "sidebar_label": "How do i report problems?"
+      },
       "firststeps_register": {
         "title": "Register",
         "sidebar_label": "Register"
@@ -141,25 +149,57 @@
         "title": "Change Server Icon",
         "sidebar_label": "Change Server Icon"
       },
+      "fivem_changeloadingscreen": {
+        "title": "Loadingscreen installation",
+        "sidebar_label": "Loadingscreen installation"
+      },
+      "fivem_changespawnpoint": {
+        "title": "Spawnpoint setzen",
+        "sidebar_label": "Spawnpoint setzen"
+      },
       "fivem_dashboard": {
         "title": "Dashboard",
         "sidebar_label": "Dashboard"
+      },
+      "fivem_deletecache": {
+        "title": "Delete Cache",
+        "sidebar_label": "Delete Cache"
+      },
+      "fivem_esx_addcarstoshop": {
+        "title": "Add Cars to Dealership",
+        "sidebar_label": "Add Cars to Dealership"
+      },
+      "fivem_esx_becomeadminoverdatabase": {
+        "title": "Become Admin over the Database",
+        "sidebar_label": "Become Admin over the Database"
       },
       "fivem_esx_changemoneyicon": {
         "title": "Change Money Icon",
         "sidebar_label": "Change Money Icon"
       },
+      "fivem_esx_disablehud": {
+        "title": "Disable HUD",
+        "sidebar_label": "Disable HUD"
+      },
       "fivem_esx_disableinventory": {
         "title": "Deactivate the Inventory (F2)",
         "sidebar_label": "Deactivate the Inventory (F2)"
+      },
+      "fivem_installels": {
+        "title": "ELS Installieren",
+        "sidebar_label": "ELS Installieren"
+      },
+      "fivem_installeup": {
+        "title": "Install EUP",
+        "sidebar_label": "Install EUP"
       },
       "fivem_installresources": {
         "title": "Resource Installation",
         "sidebar_label": "Resource Installation"
       },
       "fivem_licensekey": {
-        "title": "Eigener Lizenzkey",
-        "sidebar_label": "Eigener Lizenzkey"
+        "title": "Own License Key",
+        "sidebar_label": "Own License Key"
       },
       "fivem_mods_installaddon": {
         "title": "Install Addon Carmods",
@@ -173,6 +213,14 @@
         "title": "Use Rcon",
         "sidebar_label": "Use Rcon"
       },
+      "fivem_servername_color": {
+        "title": "Coloured Servername",
+        "sidebar_label": "Coloured Servername"
+      },
+      "fivem_servername_emojis": {
+        "title": "Emojis in Server Name",
+        "sidebar_label": "Emojis in Server Name"
+      },
       "fivem_sql_file_import": {
         "title": "SQL File Import",
         "sidebar_label": "SQL File Import"
@@ -184,6 +232,10 @@
       "fivem_vrp_changemoneyicon": {
         "title": "Geldicon Ändern",
         "sidebar_label": "Geldicon Ändern"
+      },
+      "gameserver_backups": {
+        "title": "Backups",
+        "sidebar_label": "Backups"
       },
       "gameserver_cloudvslifetime": {
         "title": "Cloud vs. Lifetime",
@@ -206,8 +258,8 @@
         "sidebar_label": "Resource limit"
       },
       "gameserver_restartplaner": {
-        "title": "Restartplaner",
-        "sidebar_label": "Restartplaner"
+        "title": "Restart planner",
+        "sidebar_label": "Restart planner"
       },
       "gameserver_server_down_what_now": {
         "title": "Server crash - What to do?",
@@ -237,6 +289,14 @@
         "title": "RCON",
         "sidebar_label": "RCON"
       },
+      "minecraft_server-icon": {
+        "title": "Server Icon",
+        "sidebar_label": "Server Icon"
+      },
+      "minecraft_timings_report": {
+        "title": "Timings-Report",
+        "sidebar_label": "Timings-Report"
+      },
       "minecraft_whitelist": {
         "title": "Whitelist",
         "sidebar_label": "Whitelist"
@@ -252,6 +312,10 @@
       "ragemp_installpackages": {
         "title": "Installing packages",
         "sidebar_label": "Installing packages"
+      },
+      "source_custom_content": {
+        "title": "Custom Content",
+        "sidebar_label": "Custom Content"
       },
       "source_gsltoken": {
         "title": "Gameserver Login Token",
@@ -270,8 +334,16 @@
         "sidebar_label": "Plugins"
       },
       "spaceengineers_becomeadmin": {
-        "title": "Admin werden",
-        "sidebar_label": "Admin werden"
+        "title": "Become Admin",
+        "sidebar_label": "Become Admin"
+      },
+      "terraria_tshock_add_admin": {
+        "title": "Become an admin (tShock)",
+        "sidebar_label": "Become an admin (tShock)"
+      },
+      "voiceserver_ts3backup": {
+        "title": "Teamspeak Backup",
+        "sidebar_label": "Ts3 Backup"
       },
       "voiceserver_voicebot_connection": {
         "title": "Voicebot Connection",
@@ -288,6 +360,10 @@
       "vserver_linux_docker": {
         "title": "Docker",
         "sidebar_label": "Docker"
+      },
+      "vserver_linux_ftp_install": {
+        "title": "FTP Setup",
+        "sidebar_label": "FTP Setup"
       },
       "vserver_linux_ftp": {
         "title": "FTP Dienst funktioniert nicht",
@@ -325,6 +401,14 @@
         "title": "Erstzugriff (SSH)",
         "sidebar_label": "Initial access (SSH)"
       },
+      "vserver_linux_ssh2fa": {
+        "title": "two factor authentication",
+        "sidebar_label": "two factor authentication"
+      },
+      "vserver_network_analysis_winmtr": {
+        "title": "Network analysis MTR/WinMTR",
+        "sidebar_label": "Network analysis MTR/WinMTR"
+      },
       "vserver_root_unterschied": {
         "title": "Rootserver versus vServer",
         "sidebar_label": "Rootserver versus vServer"
@@ -361,6 +445,10 @@
         "title": "E-Mails verschicken",
         "sidebar_label": "E-Mails verschicken"
       },
+      "webspace_plesk_ssl": {
+        "title": "SSL Zertifikat erstellen",
+        "sidebar_label": "SSL Zertifikat erstellen"
+      },
       "whatiszap": {
         "title": "The ZAP-Hosting Docs",
         "sidebar_label": "The ZAP-Hosting Docs"
@@ -379,6 +467,7 @@
       "Minecraft": "Minecraft",
       "FiveM": "FiveM",
       "RageMP": "RageMP",
+      "Terraria": "Terraria",
       "Source Games": "Source Games",
       "ArmA 3": "ArmA 3",
       "Assetto Corsa": "Assetto Corsa",

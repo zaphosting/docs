@@ -8,7 +8,8 @@ sidebar_label: Passwort ändern
 
 Es gibt 2 Optionen um das Passwort zu ändern.
 
-## Option 1
+<!--DOCUSAURUS_CODE_TABS-->
+<!--Webinterface-->
 
 Das Passwort kann über unser Webinterface bei dem jeweiligen Server geändert werden. 
 Öffne dazu die Seite „Zugang und Sicherheit“, diese findet man Links im Menü
@@ -57,7 +58,7 @@ Anschließend öffnet sich ein PoP-UP wo das Passwort angezeigt wird.
 ![](https://screensaver01.zap-hosting.com/index.php/s/AZ7coof6Q5r2aTt/preview)
 
 
-## Option 2
+<!--Server Console-->
 
 Das Passwort kann auch über die Server Console geändert werden, dabei ist es egal ob man diese via Putty erreicht oder z.b via VNC/Serial.
 > Wichtig: Diese Option funktioniert nur wenn noch Zugriff zum Server besteht, sprich man noch auf die Console verbinden sowie anmelden kann. 
@@ -76,7 +77,7 @@ Stimmen die beiden Eingaben nicht überein, so wird die Console den Vorgang been
 > ⚠️Wichtig: Ändert man das Password via Console, kann es nicht für 3 Stunden in unserem Webinterface unter Zugang und Sicherheit angezeigt werden. 
 
 
-
+<!--END_DOCUSAURUS_CODE_TABS-->
 
 
 

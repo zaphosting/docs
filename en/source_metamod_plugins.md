@@ -6,42 +6,36 @@ sidebar_label: Plugins
 
 ## 🔼 Plugin Installation
 
-Im Folgenden wird erklärt wie man Plugins installieren kann. Für das Nutzen von Plugins wird Sourcemod / Metamod vorausgesetzt. Eine Anleitung zur Installation findest du hier: [SM / MM installation](source_metamod_installation.md)
+The following explains how to install plugins. In order to be able to use plugins you need Sourcemod / Metamod. Instructions on how to install it can be found here: [SM / MM installation](source_metamod_installation.md)
 
 
 
-Um Plugins zu installieren, müssen diese dementsprechend per FTP hochgeladen werden. Dabei müssen die Dateien des Plugins in das **Plugins** Verzeichnis unter **../addons/sourcemod/** hochgeladen werden. Je nach Komplexität des Plugins kann es sein, dass bereits Configs und Übersetzungsdateien vorhanden sind. Ist dies der Fall, dann müssen diese in den **configs** und **translations** Ordner hochgeladen werden.
-
-
+In order to install plugins, you need to upload them via FTP. The files of the plugin have to be uploaded into the **Plugins** directory under **../addons/sourcemod/**. Depending on the complexity of the plugin it's possible that there are already configs and translation files available. If this is the case, then these have to be uploaded into the **configs** and **translations** folder.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/WR2fbqTtsTZPARH/preview)
 
 
 
-## 🚮 Plugins deaktivieren / deinstallieren
+## 🚮 Disable / remove plugins
 
-Im **Plugins** Verzeichnis gibt es einen Unterordner mit dem Namen **disabled**. Dort können die Plugins hineingeschoben werden, welche temporär nicht geladen werden sollen. Hierbei ist es ausreichend die entsprechende **.smx** Datei zu verschieben. 
-
+In the **Plugins** directory you will find a subfolder named **disabled**. There you can put in the plugins which you don't want to be loaded temporarily. It is sufficient to move the corresponding **.smx** file. 
 
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/ed6NcaQZ5YaBy8j/preview)
 
 
 
-Um ein Plugins permanent zu deaktivieren ist es notwendig die entsprechende Plugin Dateien wieder zu löschen. Nach einem Mapwechsel oder Neustart des Servers ist das Plugin dann deaktiviert.
+If you want to disable a plugin permanently then it is necessary to delete the corresponding plugin files. The plugin will then be deactivated after a map change or restart of the server.
 
 
 
-## 🆘 Häufige Probleme
+## 🆘 Common issues
 
 
+**Why does my installed plugin not work?**
 
-**Wieso lässt sich mein installiertes Plugin nicht starten?**
+Solutions:
 
-
-
-Lösungsvorschläge:
-
-- Überprüfe ob bei der Plugin Installation alle Voraussetzungen erfüllt wurden. Manche Plugins benötigen eine Zusammenarbeit mit einer Datenbank, damit sie funktional sind. In dem Fall müssen im Configsverzeichnis in der **database.cfg** weitere Einstellungen vorgenommen werden
-- Es gibt regelmäßig Änderungen in der Source-Engine. Daher kann es sein, dass ein Plugin, welches bereits vor einer längeren Zeit veröffentlicht, aber nicht gewartet wurde nicht mehr kompatibel ist. In dem Fall gibt es nur noch die Möglichkeit im Alliedmodders Forum eine inoffizielle behobene Version zu finden oder generell ein alternatives Plugin zu benutzen.
-- Treffen bei der oben genannten Optionen nicht zu, dann empfiehlt es sich einen Blick in die Live Konsole oder in den Log-Dateien zu schauen. Dort steht in der Regel die Ursache für die Problematik.
+- Make sure that all requirements are met during the plugin setup. Some plugins require a database to work properly. In this case you have to make further adjustments to the **database.cfg** located in theconfig directory.
+- Changes to the source engine occur regularly. Hence, a plugin which has been released a long time ago but hasn't been maintained may no longer be compatible. In this case, the only possibility is to visit the Alliedmodders Forum to find an unofficial fixed version or to use an alternative plugin in general.
+- If none of the above options work, then it's recommended to have a look at the Live Console or the log files. Usually the cause of the issue can be found there.
