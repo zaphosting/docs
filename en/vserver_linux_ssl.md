@@ -8,7 +8,6 @@ sidebar_label: SSL-Certificate (Let's Encrypt)
 
 Let's Encrypt is a Certificate Authority (CA) that offers free SSL/TLS certificates. This way you can get a valid SSL certificate for your domain for free. The certificates can only be requested from the server the domain points to. Let's Encrypt checks the DNS of the domain which points to the current server. Then the certificate will be generated. In this tutorial we explain the setup with both Apache and Nginx web servers. 
 
-Translated with www.DeepL.com/Translator (free version)
 
 
 ## Preparation
