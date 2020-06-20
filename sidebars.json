@@ -45,7 +45,7 @@
                 "label": "Databases",
                 "ids": [
                     "gameserver_databases_pma",
-                    "gameserver_databases_self"
+                    "gameserver_database_external_access"
                 ]
             },
             "gameserver_ftpaccess",
