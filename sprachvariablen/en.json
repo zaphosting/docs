@@ -309,6 +309,10 @@
         "title": "Worlds",
         "sidebar_label": "Worlds"
       },
+      "minecraftbedrock_behaviorresourcepacks": {
+        "title": "Installing Behavior/Resource Packs",
+        "sidebar_label": "Installing Behavior/Resource Packs"
+      },
       "partner-guide": {
         "title": "Partner Guide",
         "sidebar_label": "Partner Guide"
