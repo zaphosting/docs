@@ -241,13 +241,13 @@
         "title": "Cloud vs. Lifetime",
         "sidebar_label": "Cloud vs. Lifetime"
       },
+      "gameserver_database_external_access": {
+        "title": "External database access",
+        "sidebar_label": "External database access"
+      },
       "gameserver_databases_pma": {
         "title": "PHPMyAdmin",
         "sidebar_label": "PHPMyAdmin"
-      },
-      "gameserver_databases_self": {
-        "title": "Zugriff extern (Navicat etc.)",
-        "sidebar_label": "Zugriff extern (Navicat etc.)"
       },
       "gameserver_ftpaccess": {
         "title": "FTP File Access",
