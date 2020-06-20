@@ -123,6 +123,7 @@
                     "minecraft_addop",
                     "minecraft_default_config",
                     "minecraft_server-icon",
+                    "minecraftbedrock_behaviorresourcepacks",
                     "minecraft_worlds",
                     "minecraft_rcon",
                     "minecraft_whitelist",
@@ -134,6 +135,13 @@
                 "label": "Spigot & Bukkit",
                 "ids": [
                     "minecraft_pluginuploader"
+                ]
+            },
+            {
+                "type": "subcategory",
+                "label": "Bungeecord",
+                "ids": [
+                    "minecraft_bungeecord_config"
                 ]
             }
         ],
@@ -168,7 +176,8 @@
                     "fivem_esx_disableinventory",
                     "fivem_esx_changemoneyicon",
                     "fivem_esx_becomeadminoverdatabase",
-                    "fivem_esx_disablehud"
+                    "fivem_esx_disablehud",
+                    "fivem_esx_addcarstoshop"
 
                 ]
             },
