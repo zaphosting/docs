@@ -277,6 +277,10 @@
         "title": "OP-Permissions",
         "sidebar_label": "OP-Permissions"
       },
+      "minecraft_bungeecord_config": {
+        "title": "Server Properties",
+        "sidebar_label": "Server Properties"
+      },
       "minecraft_default_config": {
         "title": "Server Config",
         "sidebar_label": "Server Config"
