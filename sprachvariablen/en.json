@@ -165,6 +165,10 @@
         "title": "Delete Cache",
         "sidebar_label": "Delete Cache"
       },
+      "fivem_esx_addcarstoshop": {
+        "title": "Add Cars to Dealership",
+        "sidebar_label": "Add Cars to Dealership"
+      },
       "fivem_esx_becomeadminoverdatabase": {
         "title": "Become Admin over the Database",
         "sidebar_label": "Become Admin over the Database"
@@ -272,6 +276,10 @@
       "minecraft_addop": {
         "title": "OP-Permissions",
         "sidebar_label": "OP-Permissions"
+      },
+      "minecraft_bungeecord_config": {
+        "title": "Server Properties",
+        "sidebar_label": "Server Properties"
       },
       "minecraft_default_config": {
         "title": "Server Config",
@@ -400,6 +408,10 @@
       "vserver_linux_ssh2fa": {
         "title": "two factor authentication",
         "sidebar_label": "two factor authentication"
+      },
+      "vserver_network_analysis_winmtr": {
+        "title": "Network analysis MTR/WinMTR",
+        "sidebar_label": "Network analysis MTR/WinMTR"
       },
       "vserver_root_unterschied": {
         "title": "Rootserver versus vServer",
