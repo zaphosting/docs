@@ -222,6 +222,9 @@
         ],
         "Space Engineers": [
             "spaceengineers_becomeadmin"
+        ],
+        "Unturned": [
+            "unturned_rocketmod_plugins"
         ]
     }
 }
