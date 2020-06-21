@@ -7,8 +7,7 @@ sidebar_label: Install Plugins
 ## Install plugins on an Unturned Rocket Mod Server
 
 ### Step 1️⃣
-First, a connection to the server via FTP must be established.
-(Guide: https://docs.zap-hosting.com/docs/en/gameserver_ftpaccess/)
+First, a connection to the server via [FTP](gameserver_ftpaccess.md) must be established.
 
 As soon as the FTP connection is established, the "Plugins" directory must be opened. 
 This should be found under /gXXXXXX/unturned-rocket/Servers/ZAP001/Rocket/Plugins. 
