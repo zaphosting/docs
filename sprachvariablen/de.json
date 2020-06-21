@@ -164,6 +164,10 @@
                 "title": "Cache leeren",
                 "sidebar_label": "Cache leeren"
             },
+            "fivem_esx_addcarstoshop": {
+                "title": "Autos zum Shop hinzufügen",
+                "sidebar_label": "Autos zum Shop hinzufügen"
+            },
             "fivem_esx_becomeadminoverdatabase": {
                 "title": "Admin über Datenbank werden",
                 "sidebar_label": "Admin über Datenbank werden"
@@ -172,6 +176,14 @@
                 "title": "Geldicon Ändern",
                 "sidebar_label": "Geldicon Ändern"
             },
+            "fivem_esx_changerespawnpoint": {
+                "title": "Respawnpoint setzen",
+                "sidebar_label": "Respawnpoint setzen"
+            },
+            "fivem_esx_disablehud": {
+                "title": "HUD deaktivieren",
+                "sidebar_label": "HUD deaktivieren"
+            },
             "fivem_esx_disableinventory": {
                 "title": "Inventar (F2) Deaktivieren",
                 "sidebar_label": "Inventar (F2) Deaktivieren"
@@ -179,6 +191,10 @@
             "fivem_installels": {
                 "title": "ELS Installieren",
                 "sidebar_label": "ELS Installieren"
+            },
+            "fivem_installeup": {
+                "title": "EUP Installieren",
+                "sidebar_label": "EUP Installieren"
             },
             "fivem_installresources": {
                 "title": "Resourcen Installieren",
@@ -228,6 +244,10 @@
                 "title": "Cloud vs. Lifetime",
                 "sidebar_label": "Cloud vs. Lifetime"
             },
+            "gameserver_database_external_access": {
+                "title": "Externer Datenbankzugriff",
+                "sidebar_label": "Externer Datenbankzugriff"
+            },
             "gameserver_databases_pma": {
                 "title": "PHPMyAdmin",
                 "sidebar_label": "PHPMyAdmin"
@@ -260,9 +280,17 @@
                 "title": "Verwendung von Logo und Name",
                 "sidebar_label": "Verwendung von Logo und Name"
             },
+            "minecraft_add_own_world": {
+                "title": "Eigene Welt hinzufügen",
+                "sidebar_label": "Eigene Welt hinzufügen"
+            },
             "minecraft_addop": {
                 "title": "OP-Permissions",
                 "sidebar_label": "OP-Permissions"
+            },
+            "minecraft_bungeecord_config": {
+                "title": "Server Config",
+                "sidebar_label": "Server Config"
             },
             "minecraft_default_config": {
                 "title": "Server Config",
@@ -332,6 +360,10 @@
                 "title": "Admin werden (tShock)",
                 "sidebar_label": "Admin werden (tShock)"
             },
+            "unturned_rocketmod_plugins": {
+                "title": "Plugins installieren",
+                "sidebar_label": "Plugins installieren"
+            },
             "voiceserver_ts3backup": {
                 "title": "Teamspeak Backup",
                 "sidebar_label": "Ts3 Backup"
@@ -351,6 +383,10 @@
             "vserver_linux_docker": {
                 "title": "Docker",
                 "sidebar_label": "Docker"
+            },
+            "vserver_linux_ftp_install": {
+                "title": "FTP Einrichten",
+                "sidebar_label": "FTP Einrichten"
             },
             "vserver_linux_ftp": {
                 "title": "FTP Dienst funktioniert nicht",
@@ -391,6 +427,14 @@
             "vserver_linux_ssh2fa": {
                 "title": "Zwei Faktor Authentifizierung",
                 "sidebar_label": "Zwei Faktor Authentifizierung"
+            },
+            "vserver_linux_ssl": {
+                "title": "SSL-Zertifikat (Let's Encrypt)",
+                "sidebar_label": "SSL-Zertifikat (Let's Encrypt)"
+            },
+            "vserver_network_analysis_winmtr": {
+                "title": "Netzwerkanalyse MTR/WinMTR",
+                "sidebar_label": "Netzwerkanalyse MTR/WinMTR"
             },
             "vserver_root_unterschied": {
                 "title": "Unterschied Rootserver / V-Server",
@@ -450,10 +494,12 @@
             "Minecraft": "Minecraft",
             "FiveM": "FiveM",
             "RageMP": "RageMP",
+            "Terraria": "Terraria",
             "Source Games": "Source Games",
             "ArmA 3": "ArmA 3",
             "Assetto Corsa": "Assetto Corsa",
-            "Space Engineers": "Space Engineers"
+            "Space Engineers": "Space Engineers",
+            "Unturned": "Unturned"
         }
     },
     "pages-strings": {
