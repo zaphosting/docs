@@ -277,6 +277,10 @@
         "title": "Use of logo and name",
         "sidebar_label": "Use of logo and name"
       },
+      "minecraft_add_own_world": {
+        "title": "Add your own world",
+        "sidebar_label": "Add your own world"
+      },
       "minecraft_addop": {
         "title": "OP-Permissions",
         "sidebar_label": "OP-Permissions"
@@ -308,10 +312,6 @@
       "minecraft_whitelist": {
         "title": "Whitelist",
         "sidebar_label": "Whitelist"
-      },
-      "minecraft_worlds": {
-        "title": "Worlds",
-        "sidebar_label": "Worlds"
       },
       "minecraftbedrock_behaviorresourcepacks": {
         "title": "Installing Behavior/Resource Packs",
