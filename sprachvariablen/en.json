@@ -421,6 +421,10 @@
         "title": "two factor authentication",
         "sidebar_label": "two factor authentication"
       },
+      "vserver_linux_ssl": {
+        "title": "SSL-Certificate (Let's Encrypt)",
+        "sidebar_label": "SSL-Certificate (Let's Encrypt)"
+      },
       "vserver_network_analysis_winmtr": {
         "title": "Network analysis MTR/WinMTR",
         "sidebar_label": "Network analysis MTR/WinMTR"
