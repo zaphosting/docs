@@ -9,8 +9,13 @@ sidebar_label: Plugins installieren
 ### Schritt 1️⃣
 Zuerst muss eine Verbindung zum Server über [FTP](gameserver_ftpaccess.md) hergestellt werden.
 
-Sobald die FTP Verbindung steht, muss das Verzeichnis "Plugins" geöffnet werden. 
-Dieses sollte unter /g257083/unturned-rocket/Servers/ZAP001/Rocket/Plugins zu finden sein. 
+Sobald die FTP Verbindung steht, muss das Verzeichnis "Plugins" geöffnet werden.
+
+Dieses sollte unter folgendem Pfad zu finden sein. 
+```
+/unturned-rocket/Servers/ZAP001/Rocket/Plugins
+```
+
 Es sollte ebenfalls standardmäßig leer sein: 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/GJJfKgrk7WTPe54/preview)
