@@ -1,5 +1,5 @@
 ---
-id: Unturned Rocket Mod
+id: unturned_rocketmod_plugins
 title: Install Plugins
 sidebar_label: Install Plugins
 ---
