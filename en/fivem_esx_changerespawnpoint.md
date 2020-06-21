@@ -1,5 +1,5 @@
 ---
-id: esx_changerespawnpoint
+id: fivem_esx_changerespawnpoint
 title: Change Respawnpoint
 sidebar_label: Change Respawnpoint 
 ---
