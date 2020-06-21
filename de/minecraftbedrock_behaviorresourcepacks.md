@@ -53,7 +53,9 @@ Anschliessend musst du noch server.properties öffnen und die Zeile
 
 ```
 texturepack-required=false
-``` auf 
+```
+
+auf
 
 ```
 texturepack-required=true
