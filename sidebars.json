@@ -124,8 +124,8 @@
                     "minecraft_addop",
                     "minecraft_default_config",
                     "minecraft_server-icon",
+                    "minecraft_add_own_world",
                     "minecraftbedrock_behaviorresourcepacks",
-                    "minecraft_worlds",
                     "minecraft_rcon",
                     "minecraft_whitelist",
                     "minecraft_timings_report"
