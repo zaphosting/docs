@@ -177,6 +177,10 @@
         "title": "Change Money Icon",
         "sidebar_label": "Change Money Icon"
       },
+      "fivem_esx_changerespawnpoint": {
+        "title": "Change Respawnpoint",
+        "sidebar_label": "Change Respawnpoint"
+      },
       "fivem_esx_disablehud": {
         "title": "Disable HUD",
         "sidebar_label": "Disable HUD"
@@ -241,13 +245,13 @@
         "title": "Cloud vs. Lifetime",
         "sidebar_label": "Cloud vs. Lifetime"
       },
+      "gameserver_database_external_access": {
+        "title": "External database access",
+        "sidebar_label": "External database access"
+      },
       "gameserver_databases_pma": {
         "title": "PHPMyAdmin",
         "sidebar_label": "PHPMyAdmin"
-      },
-      "gameserver_databases_self": {
-        "title": "Zugriff extern (Navicat etc.)",
-        "sidebar_label": "Zugriff extern (Navicat etc.)"
       },
       "gameserver_ftpaccess": {
         "title": "FTP File Access",
@@ -277,6 +281,10 @@
         "title": "OP-Permissions",
         "sidebar_label": "OP-Permissions"
       },
+      "minecraft_bungeecord_config": {
+        "title": "Server Properties",
+        "sidebar_label": "Server Properties"
+      },
       "minecraft_default_config": {
         "title": "Server Config",
         "sidebar_label": "Server Config"
@@ -304,6 +312,10 @@
       "minecraft_worlds": {
         "title": "Worlds",
         "sidebar_label": "Worlds"
+      },
+      "minecraftbedrock_behaviorresourcepacks": {
+        "title": "Installing Behavior/Resource Packs",
+        "sidebar_label": "Installing Behavior/Resource Packs"
       },
       "partner-guide": {
         "title": "Partner Guide",
@@ -340,6 +352,10 @@
       "terraria_tshock_add_admin": {
         "title": "Become an admin (tShock)",
         "sidebar_label": "Become an admin (tShock)"
+      },
+      "unturned_rocketmod_plugins": {
+        "title": "Install Plugins",
+        "sidebar_label": "Install Plugins"
       },
       "voiceserver_ts3backup": {
         "title": "Teamspeak Backup",
@@ -404,6 +420,10 @@
       "vserver_linux_ssh2fa": {
         "title": "two factor authentication",
         "sidebar_label": "two factor authentication"
+      },
+      "vserver_linux_ssl": {
+        "title": "SSL-Certificate (Let's Encrypt)",
+        "sidebar_label": "SSL-Certificate (Let's Encrypt)"
       },
       "vserver_network_analysis_winmtr": {
         "title": "Network analysis MTR/WinMTR",
@@ -471,7 +491,8 @@
       "Source Games": "Source Games",
       "ArmA 3": "ArmA 3",
       "Assetto Corsa": "Assetto Corsa",
-      "Space Engineers": "Space Engineers"
+      "Space Engineers": "Space Engineers",
+      "Unturned": "Unturned"
     }
   },
   "pages-strings": {
