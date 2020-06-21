@@ -349,6 +349,10 @@
         "title": "Become an admin (tShock)",
         "sidebar_label": "Become an admin (tShock)"
       },
+      "unturned_rocketmod_plugins": {
+        "title": "Install Plugins",
+        "sidebar_label": "Install Plugins"
+      },
       "voiceserver_ts3backup": {
         "title": "Teamspeak Backup",
         "sidebar_label": "Ts3 Backup"
@@ -479,7 +483,8 @@
       "Source Games": "Source Games",
       "ArmA 3": "ArmA 3",
       "Assetto Corsa": "Assetto Corsa",
-      "Space Engineers": "Space Engineers"
+      "Space Engineers": "Space Engineers",
+      "Unturned": "Unturned"
     }
   },
   "pages-strings": {
