@@ -8,11 +8,11 @@ sidebar_label: Geldicon Ändern
 
 Zuerst muss der [FTP-Zugang](gameserver_ftpaccess.md) eingerichtet werden:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/ekYw27nA4cgiNAk/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/QAyH2tdjj7cNrwC/preview)
 
 Nachdem dieser eingerichtet wurde, kann sich nun verbunden werden und der Server Ordner geöffnet werden:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/MHt37AFEeZYgs97/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/QoXf3iSZirN7Ndy/preview)
 
 Hier öffnen wir folgenden pfad: `gta5-fivem/server-data/resources/vrp/cfg/money.lua`
 

@@ -8,11 +8,11 @@ sidebar_label: Change Money Icon
 
 First the [FTP access](gameserver_ftpaccess.md) must be set up:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/ekYw27nA4cgiNAk/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/QAyH2tdjj7cNrwC/preview)
 
 After this has been set up, you can now connect and open the server folder:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/MHt37AFEeZYgs97/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/4fdz3BC8QBsBtKA/preview)
 
 Here we open the `server.cfg` file in the `server-data` folder.
 
