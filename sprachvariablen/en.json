@@ -177,6 +177,10 @@
         "title": "Change Money Icon",
         "sidebar_label": "Change Money Icon"
       },
+      "fivem_esx_changerespawnpoint": {
+        "title": "Change Respawnpoint",
+        "sidebar_label": "Change Respawnpoint"
+      },
       "fivem_esx_disablehud": {
         "title": "Disable HUD",
         "sidebar_label": "Disable HUD"
