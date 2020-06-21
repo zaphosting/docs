@@ -8,7 +8,7 @@ sidebar_label: Server Properties
 
 BungeeCord is the management of a bundle of servers that are connected through the proxy server (BungeeCord server). To customize the network of these servers, the file *config.yml* must be edited. On this page you will learn the exact meaning of each setting and you get additional information about the impact on the sub-servers such as PaperSpigot and Bukkit servers.
 
-## Einstellungen
+## Settings
 
 ### forge_support
 
