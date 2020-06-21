@@ -10,7 +10,10 @@ sidebar_label: Install Plugins
 First, a connection to the server via [FTP](gameserver_ftpaccess.md) must be established.
 
 As soon as the FTP connection is established, the "Plugins" directory must be opened. 
-This should be found under /gXXXXXX/unturned-rocket/Servers/ZAP001/Rocket/Plugins. 
+This should be found under 
+```
+/unturned-rocket/Servers/ZAP001/Rocket/Plugins. 
+```
 It should also be empty by default: 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/A2MtkD7Akmt3mbD/preview)
