@@ -34,7 +34,7 @@ Je nach Spiel ist es oftmals auch zu empfehlen die Datenbank mit zu sichern, da 
 
 ## Backups herunterladen/löschen
 
-Um Backups herunterladen oder zu löschen muss man sich per FTP mit dem Storage Server verbinden. Eine Anleitung zum benutzen von FTP findest du hier: [FTP-Zugang](gameserver_ftpaccess.md)
+Um Backups herunterladen oder zu löschen muss man sich per FTP mit dem Storage Server verbinden. Eine Anleitung zum Benutzen von FTP findest du hier: [FTP-Zugang](gameserver_ftpaccess.md)
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/tPNdJ4YKMtwA635/preview)
 
