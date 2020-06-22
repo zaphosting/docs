@@ -53,7 +53,7 @@ Um das Passwort einzusehen genügt ein Klick auf das Auge bei "Passwort" auf der
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/B5FnToJ2DDbpsAQ/preview)
 
-Anschließend öffnet sich ein PoP-UP wo das Passwort angezeigt wird.
+Anschließend öffnet sich ein Popup wo das Passwort angezeigt wird.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/AZ7coof6Q5r2aTt/preview)
 
