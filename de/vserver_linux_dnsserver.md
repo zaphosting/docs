@@ -4,4 +4,4 @@ title: DNS Server (ISPConfig)
 sidebar_label: DNS Server (ISPConfig)
 ---
 
-Erfahre mehr über die Installation eines DNS Servers (ISPConfig).
+Erfahre mehr über die Installation eines DNS Servers (mit ISPConfig).
