@@ -4,7 +4,7 @@ title: Change Respawnpoint
 sidebar_label: Change Respawnpoint 
 ---
 
-> **Wichtig**: ESX muss installiert sein
+> **Important**: ESX must be installed
 
 📔 Preparations
 
@@ -37,8 +37,8 @@ Therefore we go to the tab "Resources".
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/6ZXxWHN4wCE6WcE/preview)
 
-There we will remove the hook.
+There we will remove the checkmark.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/KqWnnT98PB8W9QD/preview)
 
-Haben wir das erledigt müssen wir nur noch den Server **Neustarten**
+After this is done we can restart the server, the change will then be applied.
