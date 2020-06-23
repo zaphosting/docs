@@ -173,6 +173,10 @@
         "title": "Become Admin over the Database",
         "sidebar_label": "Become Admin over the Database"
       },
+      "fivem_esx_changejobgarages": {
+        "title": "Add Job-Garage Cars",
+        "sidebar_label": "Add Job-Garage Cars"
+      },
       "fivem_esx_changemoneyicon": {
         "title": "Change Money Icon",
         "sidebar_label": "Change Money Icon"
