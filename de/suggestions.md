@@ -12,7 +12,7 @@ https://zap-hosting.com/de/suggestion/
 Grundsätzlich können jegliche Arten von Vorschlägen eingereicht werden. Besonderen Fokus legen wir auf Vorschlägen zu den Kategorien "Spielewunsch" und "Web Interface Features".
 
 ### 🧾 Wie werden Vorschläge eingereicht?
-Um einen Vorschlag einzureichen, muss lediglich auf der Vorschlagsseite auf den Button "Vorschlag einreichen" geklickt werden. Es öffnet sich ein Formular, in das der Vorschlag eingetragen werden kann sowie die Kategorie ("Spielewunsch", Web Interface Features" und "Sonstiges" ausgewählt werden kann. Über den Button "Jetzt vorschlagen" wird der Vorschlag eingereicht.
+Um einen Vorschlag einzureichen, muss lediglich auf der Vorschlagsseite auf den Button "Vorschlag einreichen" geklickt werden. Es öffnet sich ein Formular, in das der Vorschlag eingetragen werden kann sowie die Kategorie ("Spielewunsch", Web Interface Features" und "Sonstiges") ausgewählt werden kann. Über den Button "Jetzt vorschlagen" wird der Vorschlag eingereicht.
 
 ![](https://screensaver01.zap-hosting.com/index.php/apps/files_sharing/publicpreview/rxX8WJ6a7onBXM4?x=1921&y=602&a=true&file=msedge_XT55hWykqQ.png&scalingup=0)
 
