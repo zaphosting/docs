@@ -5,7 +5,7 @@ sidebar_label: Voicebot Verbinden
 ---
 
 
-## 🎧 Voiceserver mit deinem Ts3 verbinden
+## 🎧 Voiceserver mit deinem TeamSpeak verbinden
 
 Um deinen Voicebot mit deinem Ts3 zu verbinden, musst du diesen im Interface aufrufen. Im Anschluss gehst du links auf die **Server-Einstellungen**.
 
@@ -18,7 +18,7 @@ Im Anschluss können unten die Daten eingetragen werden. Dann nur noch abspeiche
 ![](https://screensaver01.zap-hosting.com/index.php/s/TGXjWkH3RcWGddb/preview)
 
 
-## 🎧 Voiceserver mit deinem Discord verbinden
+## 🎧 Voicebot mit deinem Discord verbinden
 
 Um deinen Voicebot mit deinem Discord zu verbinden, musst du dich in die Servereinstellungen begeben.Unter **Server-Einstellungen** musst du dann **Discord** auswählen.
 
