@@ -5,7 +5,7 @@ sidebar_label: FTP Server installieren
 ---
 
 
-## FTP Server mit FilaZilla Server unter Windows
+## FTP Server mit FileZilla Server unter Windows
 
 Mit FileZilla Server steht dir eine kostenlose Software zur Verfügung welche es dir ermöglich deinen eigenen FTP Server auf einem Windows Server zu installieren.
 Die Installation so wie Einrichting ist übersichtlich und unkompliziert, daher eignet sich das ganze auch für unerfahrene Nutzer. 
