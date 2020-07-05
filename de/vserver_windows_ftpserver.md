@@ -84,6 +84,5 @@ In diesem Beispiel lautet der Pfad **C:\Program Files (x86)\FileZilla Server\Fil
 
 Danach kannst du das ganze mit einem Klick auf **OK** schließen, eine Verbindung zu deinem FTP Server ist nun möglich. 
 
-Wie du diese Freigabe einrichtest, findest du hier: ![Ports freigeben unter Windows](https://zap-hosting.com/guides/docs/de/vserver_windows_port/)
 
 
