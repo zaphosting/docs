@@ -326,7 +326,8 @@
         "sidebar_label": "Partner Guide"
       },
       "preorders": {
-        "title": "preorders"
+        "title": "Preorders",
+        "sidebar_label": "Preorders"
       },
       "ragemp_installpackages": {
         "title": "Installing packages",
@@ -357,7 +358,8 @@
         "sidebar_label": "Become Admin"
       },
       "suggestions": {
-        "title": "suggestions"
+        "title": "Submit suggestions",
+        "sidebar_label": "Submit suggestions"
       },
       "terraria_tshock_add_admin": {
         "title": "Become an admin (tShock)",
@@ -452,7 +454,8 @@
         "sidebar_label": "Add additional IPs"
       },
       "vserver_windows_installmysql": {
-        "title": "vserver_windows_installmysql"
+        "title": "Install MySQL Server",
+        "sidebar_label": "Install MySQL Server"
       },
       "vserver_windows_nointernet": {
         "title": "No Internet what now?",
