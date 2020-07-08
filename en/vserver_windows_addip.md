@@ -1,79 +1,62 @@
 ---
 id: vserver_windows_addip
-title: Zusätzliche IPs hinzufügen
-sidebar_label: Zusätzliche IPs hinzufügen
+title: Add additional IPs
+sidebar_label: Add additional IPs
 ---
 
-## 🆕 Die neuen extra IPs ermitteln
-Als erstes musst du in Erfahrung bringen wie deine Extra IP lautet.
-Dafür kannst du im Interface von deinem Server auf den Reiter "IP-Adressen" klicken.
-Hier werden die alle IPs angezeigt, welche deinem Server zur Verfügung stehen.
-Du kannst auch direkt erkennen, welche IP bereits eingetragen ist und welche noch nicht funktioniert.
+## 🆕 Determine the new extra IPs
+First you have to find out what your extra IP is. To do this, you can click on the "IP addresses" tab in the interface of your server. All the IPs that are available to your server are displayed here. You can also directly see which IP has already been entered and which is not yet working.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/67wk6GoX3Nd3xei/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/DJPwCGwfDmAqRex/preview)
 
-## 🖥 Verbindung zum Server herstellen
-Um die extra IPs deinem Server hinzuzufügen, musst du dich erstmal mit diesen verbinden.
-Wie das geht ist hier in unserer separaten Anleitung ausführlich erläutert:
-https://docs.zap-hosting.com/docs/de/vserver_windows_userdp/#-remotedesktopverbindung
+## 🖥 Connect to the server
+To add the extra IPs to your server, you first need to connect to them. How this is done is explained in detail in our separate instructions: https://docs.zap-hosting.com/docs/en/vserver_windows_userdp/#-remotedesktopverbindung
 
-##  Netzwerk Adapter öffnen
-Damit du eigene IPs eintragen kannst, musst du erstmal deinen Adapter auf deinem Server öffnen.
-Mache dafür einen Rechtsklick auf das Internetsymbol von deinem Server, welches du unten rechts am Bildschirmrand findest(direkt neben der Uhrzeit):
+##  Open network adapter
+So that you can enter your own IPs, you first have to open your adapter on your server. To do this, right-click on the internet symbol from your server, which you can find at the bottom right of the screen (right next to the time):
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/9gHXLwgYC9KM3KL/preview)
 
-Nun auf die Option "Netzwerk und Interneteinstellungen öffnen" klicken.
-Es sollte sich nun folgendes Fenster geöffnet haben:
+Now click on the "Open Network and Internet Settings" option. The following window should now open:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SajCiLdixjxb9HQ/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/aQwn7EKYoB2Xprq/preview)
 
-Hier kannst du auf "Adapteroptionen ändern" klicken.
+Here you can click on "Change adapter options".
 
-### Netwerk Adapter editieren
-Jetzt öffnet sich ein weiteres Fenster mit deinem Adapter.
-Mache einen rechtsklick auf den Adapter und wähle Eigenschaften aus:
+### Edit network adapter
+Now another window opens with your adapter. Right click on the adapter and select properties:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/DkDFNEAa6WNewNm/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/piaXTnM23XkjmRG/preview)
 
-Hier angekommen musst du nun auf "Internetprotokoll, Version 4(TCP/IPv4) klicken und dann rechts unten auf "Eigenschaften" klicken.
-Denn wir möchten ja eine zusätzliche IPv4 Adresse deinem Server zuweisen.
+Once here you have to click on "Internet Protocol, Version 4 (TCP / IPv4) and then click on" Properties "at the bottom right, because we want to assign an additional IPv4 address to your server.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/5NSPoJPmwW4qLJb/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/pALiT5fcSy4i5DQ/preview)
 
-Nun siehst du die bereits eingetragene IP auf deinem Server. Mit welcher du auch aktuell mit deinem Server verbunden bist.
-Um nun eine neue IP einzutragen, musst du auf "erweitert" klicken:
+Now you see the already entered IP on your server. Which one you are currently connected to your server with. To enter a new IP, you have to click on "extended":
 
-![](https://screensaver01.zap-hosting.com/index.php/s/FH47MT8pkKmtSxG/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/6TC4G9Er9APj8tr/preview)
 
-### Zusätzliche IP dem Adapter zuweisen
-Jetzt kannst du bei der Option "IP-Adressen" auf "Hinzufügen.." klicken um deine eigene IP Adresse einzutragen:
+### Assign additional IP to the adapter
+Now you can click on "Add .." in the "IP addresses" option to enter your own IP address:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/WZXJ8xbCcg7Nkwb/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/KE3Z6LPfP9Latyi/preview)
 
-Trage nun in das erste Feld die IP von deinem Server ein, welche du im ersten Schritt ermittelt hast.
-In das Feld darunter (Subnetzmaske) trägst du "255.255.255.0" ein.
-Das ist ein fixer Wert, welcher bei jeder IP identisch ist.
-Das sieht dann in unserem Beispiel wie folgt aus:
+Now enter the IP of your server in the first field, which you determined in the first step. In the field below (subnet mask) you enter "255.255.255.0". This is a fixed value, which is identical for every IP. This looks like this in our example:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/PX9WWnX8XtmeDof/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/NJs3yapFgWf3yGq/preview)
 
-Nun klickst du auf "Hinzufügen". Die IP wird dir nun in der Liste der IP Adressen angezeigt.
-Klicke nun auf "Ok".
+Now click on "Add". The IP is now displayed in the list of IP addresses. Now click on "Ok".
 
-![](https://screensaver01.zap-hosting.com/index.php/s/9MREpgs8ifKH4GT/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/6KgiYg7ZbmbYfpq/preview)
 
-Klicke im nächste Fenster ebenfalls auf "Ok", damit die Änderungen übernommen werden:
+In the next window, click on "Ok" for the changes to take effect:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/Zg49F34xKpxTQMP/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/GX3y7oWzN523ref/preview)
 
-### ✅ Eigene IP überprüfen
-Die IP wurde nun korrekt auf deinem Server hinzugefügt.
-Du kannst jetzt den "IP-Adressen" Reiter im Interface von deinem Server aufrufen und nach dem Status der IP-Adresse schauen.
-Insofern alles korrekt erledigt wurde, wird die IP nun als "IP erreichbar" angezeigt.
-Mit der IP kannst du dich nun beispielsweise auch via RDP mit deinem Server verbinden:
+### ✅ Check your own IP
+The IP has now been added correctly to your server. You can now go to the "IP addresses" tab in the interface of your server and look for the status of the IP address. If everything was done correctly, the IP is now displayed as "IP reachable". With the IP you can now also connect to your server via RDP, for example:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/N4zMpo7GKB4ZdXt/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/qS9F5YamPmGqJpF/preview)
 
 
 

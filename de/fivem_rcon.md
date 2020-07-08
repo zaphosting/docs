@@ -11,7 +11,7 @@ Rcon ist ein Protokoll zur Ausführung von Kommandos auf den Server, ohne direkt
 
 ### Vorbereitung
 
-Zuerst wird [Icecon](https://github.com/icedream/icecon/releases) Benötigt, da wir auf Windows Arbeiten laden wir in diesem Fall `icecon_windows_amd64.exe` runter
+Zuerst wird [Icecon](https://github.com/icedream/icecon/releases) Benötigt, da laden die `icecon_windows_amd64.exe` Datei runter
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/MaX6jZEA2mQGDDY/preview)
 

@@ -1,268 +1,518 @@
 {
-  "localized-strings": {
-    "next": "Nächste",
-    "previous": "Zurück",
-    "tagline": "ZAP-Hosting Dokumentation & Guides",
-    "docs": {
-      "account_2factor": {
-        "title": "Zwei-Faktor-Authentifizierung",
-        "sidebar_label": "Zwei-Faktor-Authentifizierung"
-      },
-      "account_backup_storage": {
-        "title": "Backup Storage",
-        "sidebar_label": "Backup Storage"
-      },
-      "account_cashbox": {
-        "title": "Cashbox",
-        "sidebar_label": "Cashbox"
-      },
-      "account_contractsandprepaid": {
-        "title": "Verträge & Prepaids",
-        "sidebar_label": "Verträge & Prepaids"
-      },
-      "account_donations": {
-        "title": "Spendenlink",
-        "sidebar_label": "Spendenlink"
-      },
-      "account_friends": {
-        "title": "Freunde werben",
-        "sidebar_label": "Freunde werben"
-      },
-      "account_partner_system": {
-        "title": "Partner System",
-        "sidebar_label": "Partner System"
-      },
-      "account_security": {
-        "title": "Sicherheit",
-        "sidebar_label": "Sicherheit"
-      },
-      "account_termination_and_cancellation_period": {
-        "title": "Kündigung und Kündigungsfrist",
-        "sidebar_label": "Kündigung und Kündigungsfrist"
-      },
-      "account_usermanagement": {
-        "title": "Benutzerverwaltung",
-        "sidebar_label": "Benutzerverwaltung"
-      },
-      "account_vouchers": {
-        "title": "Gutscheine & Codes",
-        "sidebar_label": "Gutscheine & Codes"
-      },
-      "arma3_serverconfig": {
-        "title": "Server.cfg",
-        "sidebar_label": "Server.cfg"
-      },
-      "beispiel": {
-        "title": "Beispiel-Eintrag",
-        "sidebar_label": "Beispiel Eintrag"
-      },
-      "community_info": {
-        "title": "Community Angebote",
-        "sidebar_label": "Community Angebote"
-      },
-      "csgo_gotv": {
-        "title": "GOTV",
-        "sidebar_label": "GOTV"
-      },
-      "docs_intern": {
-        "title": "Docs Erstellen -- Intern",
-        "sidebar_label": "Docs Erstellen -- Intern"
-      },
-      "domain_easydns": {
-        "title": "EasyDNS",
-        "sidebar_label": "EasyDNS"
-      },
-      "domain_expertdns": {
-        "title": "ExpertDNS",
-        "sidebar_label": "ExpertDNS"
-      },
-      "domain_profidns": {
-        "title": "ProfiDNS",
-        "sidebar_label": "ProfiDNS"
-      },
-      "firststeps_register": {
-        "title": "Registrieren",
-        "sidebar_label": "Registrieren"
-      },
-      "firststeps_rent_contractorprepaid": {
-        "title": "Vertrag oder Prepaid",
-        "sidebar_label": "Vertrag oder Prepaid"
-      },
-      "firststeps_rent_location": {
-        "title": "Standort",
-        "sidebar_label": "Standort"
-      },
-      "firststeps_rent": {
-        "title": "Server Mieten",
-        "sidebar_label": "Server Mieten"
-      },
-      "firststeps": {
-        "title": "Die ersten Schritte",
-        "sidebar_label": "Die ersten Schritte"
-      },
-      "fivem_dashboard": {
-        "title": "Dashboard",
-        "sidebar_label": "Dashboard"
-      },
-      "fivem_installresources": {
-        "title": "Resourcen Installieren",
-        "sidebar_label": "Resourcen Installieren"
-      },
-      "fivem_rcon": {
-        "title": "Rcon Benutzen",
-        "sidebar_label": "Rcon Benutzen"
-      },
-      "fivem_sql_file_import": {
-        "title": "SQL Datei Importieren",
-        "sidebar_label": "SQL Datei Importieren"
-      },
-      "fivem_useprofiler": {
-        "title": "Profiler Benutzen",
-        "sidebar_label": "Profiler Benutzen"
-      },
-      "fivem_mods_installreplace": {
-        "title": "Replacement Carmods Installieren",
-        "sidebar_label": "Replacement Carmods Installieren"
-      },
-      "gameserver_databases_pma": {
-        "title": "PHPMyAdmin",
-        "sidebar_label": "PHPMyAdmin"
-      },
-      "gameserver_databases_self": {
-        "title": "Zugriff extern (Navicat etc.)",
-        "sidebar_label": "Zugriff extern (Navicat etc.)"
-      },
-      "gameserver_ftpaccess": {
-        "title": "FTP Dateizugriff",
-        "sidebar_label": "FTP Dateizugriff"
-      },
-      "gameserver_resourcelimit": {
-        "title": "Resourcenlimit",
-        "sidebar_label": "Resourcenlimit"
-      },
-      "gameserver_restartplaner": {
-        "title": "Restartplaner",
-        "sidebar_label": "Restartplaner"
-      },
-      "gameserver_server_down_what_now": {
-        "title": "Server down - was nun?",
-        "sidebar_label": "Server down - was nun?"
-      },
-      "minecraft_addop": {
-        "title": "OP-Rechte",
-        "sidebar_label": "OP-Rechte"
-      },
-      "minecraft_default_config": {
-        "title": "Server Config",
-        "sidebar_label": "Server Config"
-      },
-      "minecraft_direwolf20": {
-        "title": "Direwolf20",
-        "sidebar_label": "Direwolf20"
-      },
-      "minecraft_pluginuploader": {
-        "title": "Plugin Uploader",
-        "sidebar_label": "Plugin Uploader"
-      },
-      "minecraft_rcon": {
-        "title": "RCON",
-        "sidebar_label": "RCON"
-      },
-      "minecraft_worlds": {
-        "title": "Welten",
-        "sidebar_label": "Welten"
-      },
-      "source_metamod_addadmins": {
-        "title": "Admin werden",
-        "sidebar_label": "Admin werden"
-      },
-      "source_metamod_installation": {
-        "title": "Installation",
-        "sidebar_label": "Installation"
-      },
-      "vserver_linux_dnsserver": {
-        "title": "DNS Server (ISPConfig)",
-        "sidebar_label": "DNS Server (ISPConfig)"
-      },
-      "vserver_linux_docker": {
-        "title": "Docker",
-        "sidebar_label": "Docker"
-      },
-      "vserver_linux_gs_interface": {
-        "title": "Gameserver / Ts 3 Server Interface",
-        "sidebar_label": "Gameserver / Ts 3 Server Interface"
-      },
-      "vserver_linux_java": {
-        "title": "Java installieren",
-        "sidebar_label": "Java installieren"
-      },
-      "vserver_linux_openvpn": {
-        "title": "OpenVPN",
-        "sidebar_label": "OpenVPN"
-      },
-      "vserver_linux_plesk": {
-        "title": "Plesk",
-        "sidebar_label": "Plesk"
-      },
-      "vserver_root_unterschied": {
-        "title": "Unterschied Rootserver / V-Server",
-        "sidebar_label": "Unterschied Rootserver / V-Server"
-      },
-      "vserver_vnc": {
-        "title": "What is VNC?",
-        "sidebar_label": "What is  VNC?"
-      },
-      "vserver_windows_addip": {
-        "title": "Zusätzliche IPs hinzufügen",
-        "sidebar_label": "Zusätzliche IPs hinzufügen"
-      },
-      "vserver_windows_userdp": {
-        "title": "Erstzugriff (RDP)",
-        "sidebar_label": "Erstzugriff (RDP)"
-      },
-      "webspace_dashboard": {
-        "title": "Dashboard",
-        "sidebar_label": "Dashboard"
-      },
-      "webspace_plesk_ftp": {
-        "title": "FTP Verbindung Anlegen",
-        "sidebar_label": "FTP Verbindung Anlegen"
-      },
-      "webspace_plesk_sendmail": {
-        "title": "E-Mails verschicken",
-        "sidebar_label": "E-Mails verschicken"
-      },
-      "whatiszap": {
-        "title": "Die ZAP-Hosting Docs",
-        "sidebar_label": "Die ZAP-Hosting Docs"
-      }
+    "localized-strings": {
+        "next": "Nächste",
+        "previous": "Zurück",
+        "tagline": "ZAP-Hosting Dokumentation & Guides",
+        "docs": {
+            "account_2factor": {
+                "title": "Zwei-Faktor-Authentifizierung",
+                "sidebar_label": "Zwei-Faktor-Authentifizierung"
+            },
+            "account_backup_storage": {
+                "title": "Backup Storage",
+                "sidebar_label": "Backup Storage"
+            },
+            "account_cashbox": {
+                "title": "Cashbox",
+                "sidebar_label": "Cashbox"
+            },
+            "account_community_ads": {
+                "title": "Community Werbung",
+                "sidebar_label": "Community Werbung"
+            },
+            "account_contractsandprepaid": {
+                "title": "Verträge & Prepaids",
+                "sidebar_label": "Verträge & Prepaids"
+            },
+            "account_donations": {
+                "title": "Spendenlink",
+                "sidebar_label": "Spendenlink"
+            },
+            "account_friends": {
+                "title": "Freunde werben",
+                "sidebar_label": "Freunde werben"
+            },
+            "account_partner_system": {
+                "title": "Partner System",
+                "sidebar_label": "Partner System"
+            },
+            "account_paymentoptions": {
+                "title": "Zahlungsoptionen",
+                "sidebar_label": "Zahlungsoptionen"
+            },
+            "account_security": {
+                "title": "Sicherheit",
+                "sidebar_label": "Sicherheit"
+            },
+            "account_termination_and_cancellation_period": {
+                "title": "Kündigung und Kündigungsfrist",
+                "sidebar_label": "Kündigung und Kündigungsfrist"
+            },
+            "account_usermanagement": {
+                "title": "Benutzerverwaltung",
+                "sidebar_label": "Benutzerverwaltung"
+            },
+            "account_vouchers": {
+                "title": "Gutscheine & Codes",
+                "sidebar_label": "Gutscheine & Codes"
+            },
+            "arma3_altislife_ranks": {
+                "title": "Altis Life Ränge",
+                "sidebar_label": "Altis Life Ränge"
+            },
+            "arma3_serverconfig": {
+                "title": "Server.cfg",
+                "sidebar_label": "Server.cfg"
+            },
+            "assettocorsa_configure": {
+                "title": "Server Konfigurieren",
+                "sidebar_label": "Server Konfigurieren"
+            },
+            "assettocorsa_mods": {
+                "title": "Mods Installieren",
+                "sidebar_label": "Mods Installieren"
+            },
+            "beispiel": {
+                "title": "Beispiel-Eintrag",
+                "sidebar_label": "Beispiel Eintrag"
+            },
+            "community_info": {
+                "title": "Community Angebote",
+                "sidebar_label": "Community Angebote"
+            },
+            "csgo_gotv": {
+                "title": "GOTV",
+                "sidebar_label": "GOTV"
+            },
+            "docs_intern": {
+                "title": "Docs Erstellen -- Intern",
+                "sidebar_label": "Docs Erstellen -- Intern"
+            },
+            "domain_easydns": {
+                "title": "EasyDNS",
+                "sidebar_label": "EasyDNS"
+            },
+            "domain_expertdns": {
+                "title": "ExpertDNS",
+                "sidebar_label": "ExpertDNS"
+            },
+            "domain_gameserver_srv_link": {
+                "title": "Domain Gameserver Weiterleitung",
+                "sidebar_label": "Domain Gameserver Weiterleitung"
+            },
+            "domain_general_domain_info": {
+                "title": "Was ist eine Domain?",
+                "sidebar_label": "Was ist eine Domain?"
+            },
+            "domain_order": {
+                "title": "Eine Domain bestellen",
+                "sidebar_label": "Eine Domain bestellen"
+            },
+            "domain_profidns": {
+                "title": "ProfiDNS",
+                "sidebar_label": "ProfiDNS"
+            },
+            "domain_records": {
+                "title": "Domain Records",
+                "sidebar_label": "Domain Records"
+            },
+            "domain_teamspeak_redirect": {
+                "title": "Domain TeamSpeak 3 Weiterleitung",
+                "sidebar_label": "Domain TeamSpeak 3 Weiterleitung"
+            },
+            "firststeps_problem_melden": {
+                "title": "Wie melde ich Probleme?",
+                "sidebar_label": "Wie melde ich Probleme?"
+            },
+            "firststeps_register": {
+                "title": "Registrieren",
+                "sidebar_label": "Registrieren"
+            },
+            "firststeps_rent_contractorprepaid": {
+                "title": "Vertrag oder Prepaid",
+                "sidebar_label": "Vertrag oder Prepaid"
+            },
+            "firststeps_rent_location": {
+                "title": "Standort",
+                "sidebar_label": "Standort"
+            },
+            "firststeps_rent": {
+                "title": "Server Mieten",
+                "sidebar_label": "Server Mieten"
+            },
+            "firststeps": {
+                "title": "Die ersten Schritte",
+                "sidebar_label": "Die ersten Schritte"
+            },
+            "fivem_change_servericon": {
+                "title": "Server Icon Ändern",
+                "sidebar_label": "Server Icon Ändern"
+            },
+            "fivem_changeloadingscreen": {
+                "title": "Loadingscreen installieren",
+                "sidebar_label": "Loadingscreen installieren"
+            },
+            "fivem_changespawnpoint": {
+                "title": "Spawnpoint setzen",
+                "sidebar_label": "Spawnpoint setzen"
+            },
+            "fivem_dashboard": {
+                "title": "Dashboard",
+                "sidebar_label": "Dashboard"
+            },
+            "fivem_deletecache": {
+                "title": "Cache leeren",
+                "sidebar_label": "Cache leeren"
+            },
+            "fivem_esx_addcarstoshop": {
+                "title": "Autos zum Shop hinzufügen",
+                "sidebar_label": "Autos zum Shop hinzufügen"
+            },
+            "fivem_esx_becomeadminoverdatabase": {
+                "title": "Admin über Datenbank werden",
+                "sidebar_label": "Admin über Datenbank werden"
+            },
+            "fivem_esx_changemoneyicon": {
+                "title": "Geldicon Ändern",
+                "sidebar_label": "Geldicon Ändern"
+            },
+            "fivem_esx_changerespawnpoint": {
+                "title": "Respawnpoint setzen",
+                "sidebar_label": "Respawnpoint setzen"
+            },
+            "fivem_esx_disablehud": {
+                "title": "HUD deaktivieren",
+                "sidebar_label": "HUD deaktivieren"
+            },
+            "fivem_esx_disableinventory": {
+                "title": "Inventar (F2) Deaktivieren",
+                "sidebar_label": "Inventar (F2) Deaktivieren"
+            },
+            "fivem_installels": {
+                "title": "ELS Installieren",
+                "sidebar_label": "ELS Installieren"
+            },
+            "fivem_installeup": {
+                "title": "EUP Installieren",
+                "sidebar_label": "EUP Installieren"
+            },
+            "fivem_installresources": {
+                "title": "Resourcen Installieren",
+                "sidebar_label": "Resourcen Installieren"
+            },
+            "fivem_licensekey": {
+                "title": "Eigener Lizenzkey",
+                "sidebar_label": "Eigener Lizenzkey"
+            },
+            "fivem_mods_installaddon": {
+                "title": "Addon Carmods Installieren",
+                "sidebar_label": "Addon Carmods Installieren"
+            },
+            "fivem_mods_installreplace": {
+                "title": "Replacement Carmods Installieren",
+                "sidebar_label": "Replacement Carmods Installieren"
+            },
+            "fivem_rcon": {
+                "title": "Rcon Benutzen",
+                "sidebar_label": "Rcon Benutzen"
+            },
+            "fivem_servername_color": {
+                "title": "Servernamen färben",
+                "sidebar_label": "Servernamen färben"
+            },
+            "fivem_servername_emojis": {
+                "title": "Emojis in Server Name",
+                "sidebar_label": "Emojis in Server Name"
+            },
+            "fivem_sql_file_import": {
+                "title": "SQL Dateiimport",
+                "sidebar_label": "SQL Dateiimport"
+            },
+            "fivem_useprofiler": {
+                "title": "Profiler Benutzen",
+                "sidebar_label": "Profiler Benutzen"
+            },
+            "fivem_vrp_changemoneyicon": {
+                "title": "Geldicon Ändern",
+                "sidebar_label": "Geldicon Ändern"
+            },
+            "gameserver_backups": {
+                "title": "Backups",
+                "sidebar_label": "Backups"
+            },
+            "gameserver_cloudvslifetime": {
+                "title": "Cloud vs. Lifetime",
+                "sidebar_label": "Cloud vs. Lifetime"
+            },
+            "gameserver_database_external_access": {
+                "title": "Externer Datenbankzugriff",
+                "sidebar_label": "Externer Datenbankzugriff"
+            },
+            "gameserver_databases_pma": {
+                "title": "PHPMyAdmin",
+                "sidebar_label": "PHPMyAdmin"
+            },
+            "gameserver_databases_self": {
+                "title": "Zugriff extern (Navicat etc.)",
+                "sidebar_label": "Zugriff extern (Navicat etc.)"
+            },
+            "gameserver_ftpaccess": {
+                "title": "FTP Dateizugriff",
+                "sidebar_label": "FTP Dateizugriff"
+            },
+            "gameserver_resourcelimit": {
+                "title": "Resourcenlimit",
+                "sidebar_label": "Resourcenlimit"
+            },
+            "gameserver_restartplaner": {
+                "title": "Restartplaner",
+                "sidebar_label": "Restartplaner"
+            },
+            "gameserver_server_down_what_now": {
+                "title": "Server down - was nun?",
+                "sidebar_label": "Server down - was nun?"
+            },
+            "gameswitch": {
+                "title": "Spielwechsel mit der Gameservercloud",
+                "sidebar_label": "Spielwechsel"
+            },
+            "legal_use_brand_assets": {
+                "title": "Verwendung von Logo und Name",
+                "sidebar_label": "Verwendung von Logo und Name"
+            },
+            "minecraft_add_own_world": {
+                "title": "Eigene Welt hinzufügen",
+                "sidebar_label": "Eigene Welt hinzufügen"
+            },
+            "minecraft_addop": {
+                "title": "OP-Permissions",
+                "sidebar_label": "OP-Permissions"
+            },
+            "minecraft_bungeecord_config": {
+                "title": "Server Config",
+                "sidebar_label": "Server Config"
+            },
+            "minecraft_default_config": {
+                "title": "Server Config",
+                "sidebar_label": "Server Config"
+            },
+            "minecraft_pluginuploader": {
+                "title": "Plugin Uploader",
+                "sidebar_label": "Plugin Uploader"
+            },
+            "minecraft_rcon": {
+                "title": "RCON",
+                "sidebar_label": "RCON"
+            },
+            "minecraft_server-icon": {
+                "title": "Server Icon",
+                "sidebar_label": "Server Icon"
+            },
+            "minecraft_timings_report": {
+                "title": "Timings-Report",
+                "sidebar_label": "Timings-Report"
+            },
+            "minecraft_whitelist": {
+                "title": "Whitelist",
+                "sidebar_label": "Whitelist"
+            },
+            "minecraft_worlds": {
+                "title": "Welten",
+                "sidebar_label": "Welten"
+            },
+            "partner-guide": {
+                "title": "Partner Guide",
+                "sidebar_label": "Partner Guide"
+            },
+            "paymentoptions": {
+                "title": "Zahlungsoptionen",
+                "sidebar_label": "Zahlungsoptionen"
+            },
+            "ragemp_installpackages": {
+                "title": "Pakete Installieren",
+                "sidebar_label": "Pakete Installieren"
+            },
+            "source_custom_content": {
+                "title": "Custom Inhalte",
+                "sidebar_label": "Custom Inhalte"
+            },
+            "source_gsltoken": {
+                "title": "Gameserver Login Token",
+                "sidebar_label": "GSL-Token"
+            },
+            "source_metamod_addadmins": {
+                "title": "Admin werden",
+                "sidebar_label": "Admin werden"
+            },
+            "source_metamod_installation": {
+                "title": "Installation",
+                "sidebar_label": "Installation"
+            },
+            "source_metamod_plugins": {
+                "title": "Plugins",
+                "sidebar_label": "Plugins"
+            },
+            "spaceengineers_becomeadmin": {
+                "title": "Admin werden",
+                "sidebar_label": "Admin werden"
+            },
+            "terraria_tshock_add_admin": {
+                "title": "Admin werden (tShock)",
+                "sidebar_label": "Admin werden (tShock)"
+            },
+            "unturned_rocketmod_plugins": {
+                "title": "Plugins installieren",
+                "sidebar_label": "Plugins installieren"
+            },
+            "voiceserver_ts3backup": {
+                "title": "Teamspeak Backup",
+                "sidebar_label": "Ts3 Backup"
+            },
+            "voiceserver_voicebot_connection": {
+                "title": "Voicebot Verbinden",
+                "sidebar_label": "Voicebot Verbinden"
+            },
+            "vserver_linux_add_ip": {
+                "title": "IPv4 Adresse hinzufügen",
+                "sidebar_label": "IPv4 Adresse hinzufügen"
+            },
+            "vserver_linux_dnsserver": {
+                "title": "DNS Server (ISPConfig)",
+                "sidebar_label": "DNS Server (ISPConfig)"
+            },
+            "vserver_linux_docker": {
+                "title": "Docker",
+                "sidebar_label": "Docker"
+            },
+            "vserver_linux_ftp_install": {
+                "title": "FTP Einrichten",
+                "sidebar_label": "FTP Einrichten"
+            },
+            "vserver_linux_ftp": {
+                "title": "FTP Dienst funktioniert nicht",
+                "sidebar_label": "FTP Dienst funktioniert nicht"
+            },
+            "vserver_linux_gs_interface": {
+                "title": "Gameserver / Ts 3 Server Interface",
+                "sidebar_label": "Gameserver / Ts 3 Server Interface"
+            },
+            "vserver_linux_java": {
+                "title": "Java installieren",
+                "sidebar_label": "Java installieren"
+            },
+            "vserver_linux_nextcloud": {
+                "title": "Nextcloud",
+                "sidebar_label": "Nextcloud"
+            },
+            "vserver_linux_openvpn": {
+                "title": "OpenVPN",
+                "sidebar_label": "OpenVPN"
+            },
+            "vserver_linux_password_change": {
+                "title": "Passwort ändern",
+                "sidebar_label": "Passwort ändern"
+            },
+            "vserver_linux_phpmyadmin": {
+                "title": "phpMyAdmin",
+                "sidebar_label": "phpMyAdmin"
+            },
+            "vserver_linux_plesk": {
+                "title": "Plesk",
+                "sidebar_label": "Plesk"
+            },
+            "vserver_linux_ssh": {
+                "title": "Erstzugriff (SSH)",
+                "sidebar_label": "Erstzugriff (SSH)"
+            },
+            "vserver_linux_ssh2fa": {
+                "title": "Zwei Faktor Authentifizierung",
+                "sidebar_label": "Zwei Faktor Authentifizierung"
+            },
+            "vserver_linux_ssl": {
+                "title": "SSL-Zertifikat (Let's Encrypt)",
+                "sidebar_label": "SSL-Zertifikat (Let's Encrypt)"
+            },
+            "vserver_network_analysis_winmtr": {
+                "title": "Netzwerkanalyse MTR/WinMTR",
+                "sidebar_label": "Netzwerkanalyse MTR/WinMTR"
+            },
+            "vserver_root_unterschied": {
+                "title": "Unterschied Rootserver / V-Server",
+                "sidebar_label": "Unterschied Rootserver / V-Server"
+            },
+            "vserver_vnc": {
+                "title": "Was ist VNC?",
+                "sidebar_label": "Was ist VNC?"
+            },
+            "vserver_windows_addip": {
+                "title": "Zusätzliche IPs hinzufügen",
+                "sidebar_label": "Zusätzliche IPs hinzufügen"
+            },
+            "vserver_windows_nointernet": {
+                "title": "Kein Internet was nun?",
+                "sidebar_label": "Kein Internet was nun?"
+            },
+            "vserver_windows_port": {
+                "title": "Ports freigeben",
+                "sidebar_label": "Ports freigeben"
+            },
+            "vserver_windows_userdp": {
+                "title": "Erstzugriff (RDP)",
+                "sidebar_label": "Erstzugriff (RDP)"
+            },
+            "webspace_dashboard": {
+                "title": "Dashboard",
+                "sidebar_label": "Dashboard"
+            },
+            "webspace_plesk_ftp": {
+                "title": "FTP Verbindung Anlegen",
+                "sidebar_label": "FTP Verbindung Anlegen"
+            },
+            "webspace_plesk_sendmail": {
+                "title": "E-Mails verschicken",
+                "sidebar_label": "E-Mails verschicken"
+            },
+            "webspace_plesk_ssl": {
+                "title": "SSL Zertifikat erstellen",
+                "sidebar_label": "SSL Zertifikat erstellen"
+            },
+            "whatiszap": {
+                "title": "Die ZAP-Hosting Docs",
+                "sidebar_label": "Die ZAP-Hosting Docs"
+            }
+        },
+        "links": {
+            "Docs": "Docs"
+        },
+        "categories": {
+            "Overview": "Übersicht",
+            "Account": "Account",
+            "Gameserver - General": "Gameserver - General",
+            "vServer & Rootserver": "vServer & Rootserver",
+            "Webspace & Domains": "Webspace & Domains",
+            "Voicebot/Voiceserver": "Voicebot/Voiceserver",
+            "Minecraft": "Minecraft",
+            "FiveM": "FiveM",
+            "RageMP": "RageMP",
+            "Terraria": "Terraria",
+            "Source Games": "Source Games",
+            "ArmA 3": "ArmA 3",
+            "Assetto Corsa": "Assetto Corsa",
+            "Space Engineers": "Space Engineers",
+            "Unturned": "Unturned"
+        }
     },
-    "links": {
-      "Docs": "Docs"
-    },
-    "categories": {
-      "Overview": "Übersicht",
-      "Account": "Account",
-      "Gameserver - General": "Gameserver - General",
-      "Minecraft": "Minecraft",
-      "FiveM": "FiveM",
-      "Source Games": "Source Games",
-      "ArmA 3": "ArmA 3",
-      "vServer & Rootserver": "vServer & Rootserver",
-      "Webspace & Domains": "Webspace & Domains"
+    "pages-strings": {
+        "Learn more using the [documentation on this site.](/test-site/docs/en/doc1.html)|no description given": "Learn more using the [documentation on this site.](/test-site/docs/en/doc1.html)",
+        "Browse Docs|no description given": "Browse Docs",
+        "Ask questions about the documentation and project|no description given": "Ask questions about the documentation and project",
+        "Join the community|no description given": "Join the community",
+        "Find out what's new with this project|no description given": "Find out what's new with this project",
+        "Stay up to date|no description given": "Stay up to date",
+        "Need help?|no description given": "Need help?",
+        "This project is maintained by a dedicated group of people.|statement made to reader": "This project is maintained by a dedicated group of people.",
+        "Help Translate|recruit community translators for your project": "Help Translate",
+        "Edit this Doc|recruitment message asking to edit the doc source": "Edit",
+        "Translate this Doc|recruitment message asking to translate the docs": "Translate"
     }
-  },
-  "pages-strings": {
-    "Learn more using the [documentation on this site.](/test-site/docs/en/doc1.html)|no description given": "Learn more using the [documentation on this site.](/test-site/docs/en/doc1.html)",
-    "Browse Docs|no description given": "Browse Docs",
-    "Ask questions about the documentation and project|no description given": "Ask questions about the documentation and project",
-    "Join the community|no description given": "Join the community",
-    "Find out what's new with this project|no description given": "Find out what's new with this project",
-    "Stay up to date|no description given": "Stay up to date",
-    "Need help?|no description given": "Need help?",
-    "This project is maintained by a dedicated group of people.|statement made to reader": "This project is maintained by a dedicated group of people.",
-    "Help Translate|recruit community translators for your project": "Help Translate",
-    "Edit this Doc|recruitment message asking to edit the doc source": "Edit",
-    "Translate this Doc|recruitment message asking to translate the docs": "Translate"
-  }
 }

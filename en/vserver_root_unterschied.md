@@ -1,36 +1,26 @@
 ---
 id: vserver_root_unterschied
-title: Unterschied Rootserver / V-Server
-sidebar_label: Unterschied Rootserver / V-Server
+title: Rootserver versus vServer
+sidebar_label: Rootserver versus vServer
 ---
 
-## 💻 Virtualisierung
+## 💻 Virtualization
 ### V-Server (Linux)
-Unsere Linux V-Server werden mittels LXC virtualisiert.
-Dabei handelt es sich um eine Container Virtualisierung.
-Mehrere V-Server können somit voneinander isoliert auf einem einzigen Hauptsystem betrieben werden.
-Allerdings werden die Resourcen hierbei untereinander geteilt, was zu Leistungsschwankungen führen kann.
-Außerden teilen sich Container den gleichen Betriebssystem-Kernel,
-weshalb es auch nicht möglich ist andere Betriebssysteme, wie Windows, als LXC-Gast zu starten. 
+Our Linux virtual servers are virtualized using LXC. This is a container virtualization, several virtual servers can thus be operated while isolated from each other on a single main system.
+
+However, the resources are shared, which can lead to performance fluctuations. Furthermore, containers share the same operating system kernel, which is why it is also not possible to start other operating systems, such as Windows, as LXC guest. 
 
 ### Rootserver & Windows V-Server
-Die Rootserver sowie Windows V-Server werden mittels KVM vollvirtualisiert.
-Eine Vollvirtualisierung unterscheidet sich vom klassichen VServer dadurch, 
-dass ein komplett eigenständiger Server simuliert wird, der unabhängig von allen anderen Servern läuft.
-Der  Vorteil liegt darin, dass es sich um jeweils eigenständige, abgeschottete  und abgeschlossene Systeme handelt. 
-Dadurch laufen die Rootserver stabil und haben eine gleichbleibende Leistung.
+The root servers and Windows virtual servers are fully virtualized using KVM. A full virtualization differs from the classic virtual server in the sense that a completely independent server is simulated, which runs independently from all other servers.
 
-## ❓ Was ist für mich die richtige Entscheidung?
-Hierbei muss erstmal geschaut werden, was ich mit meinem Server überhaupt vor habe.
-Brauche ich den Server für kleine Projekte, wie zum Beispiel für einen Webserver, einen Teamspeak 3 Server oder einen Mailserver , dann reicht ein V-Server aus.
-Auch für  Gameserver ist ein V-Server oftmals ausreichend. (Wie zum Beispiel ein kleiner Minecraft Server)
+The advantage is that these are independent, as well as isolated and self-contained systems, thus the root servers run stable and have a constant performance rate.
 
-Gerade für größere Projekte ist ein Rootserver oftmals die bessere Entscheidung.
-Zum Beispiel wenn ich einen Server für eine Community benötige oder wenn ich Gameserver installieren möchte, welche viel Leistung benötigen.
-(Zum Beispiel CS:GO Server (128 Tick) oder Rust Server mit vielen Spielern)
-Auch für eine große Webpräsenz ist ein Rootserver die oftmals bessere Wahl.
+## ❓ What is the right decision for me?
+First of all, you have to see what you have planned to do with the server. If you need the server for small projects, such as a web server, a Teamspeak 3 server or a mail server, then a virtual server is sufficient and for gameservers a virtual server is often sufficient as well (for example: a small minecraft server).
 
-> Solltest du dir noch immer nicht sicher sein, was für dich die bessere Wahl ist, kannst du dich gerne bei uns im Support melden.
-> Teile uns dort mit, was du genau für Wünsche mit dem Server realisieren möchtest und wir beraten dich dann gerne! 
+Especially for larger projects, a root server is often the better decision. For example, if you need a server for a community or if you want to install gameservers which need a lot of power (for example: a CS:GO Server (128 Tick) or Rust Server with many players).
 
+If you wanted to have a large web presence, a root server would often also be the best choice for this as well.
 
+> If you are still not sure what is the better choice for you, you are welcome to contact our support.
+> Let us know what exactly you want to do with the server and we will gladly advise you of what we think is best! 
