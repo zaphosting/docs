@@ -21,7 +21,7 @@ Hier öffnen wir folgenden pfad: `gta5-fivem/server-data/resources/CustomScripts
 
 ## Config Editieren
 
-In der config.lua können einige Einstellungen der Geldanzeige angepasst werden, um das Speedometer zu deaktivieren, können wir folgende Zeile editieren:
+In der config.lua, um das Speedometer zu deaktivieren, können wir folgende Zeile editieren:
 
 `cfg.speedometer = true`
 
