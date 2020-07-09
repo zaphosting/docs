@@ -452,6 +452,10 @@
                 "title": "Zusätzliche IPs hinzufügen",
                 "sidebar_label": "Zusätzliche IPs hinzufügen"
             },
+            "vserver_windows_ftpserver": {
+               "title": "FTP Server installieren",
+               "sidebar_label": "FTP Server installieren"
+            },
             "vserver_windows_installmysql": {
                 "title": "MySQL Server Installieren",
                 "sidebar_label": "MySQL Server Installieren"
