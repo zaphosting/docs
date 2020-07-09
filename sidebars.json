@@ -87,6 +87,7 @@
                     "vserver_windows_port",
                     "vserver_windows_addip",
                     "vserver_windows_nointernet",
+                    "vserver_windows_ftpserver",
                     "vserver_windows_installmysql"
                 ]
             }
