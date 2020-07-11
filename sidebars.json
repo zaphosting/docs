@@ -7,9 +7,11 @@
                 "firststeps_register",
                 "firststeps_rent",
                 "firststeps_rent_contractorprepaid",
+                "preorders",
                 "firststeps_rent_location",
                 "firststeps_problem_melden",
-                "community_info"
+                "community_info",
+                "suggestions"
             ]
         }],
         "Account": [
@@ -20,7 +22,6 @@
             "account_backup_storage",
             "account_friends",
             "account_cashbox",
-            "paymentoptions",
             "account_usermanagement",
             "account_vouchers",
             "account_donations",
@@ -85,7 +86,9 @@
                     "vserver_windows_userdp",
                     "vserver_windows_port",
                     "vserver_windows_addip",
-                    "vserver_windows_nointernet"
+                    "vserver_windows_nointernet",
+                    "vserver_windows_ftpserver",
+                    "vserver_windows_installmysql"
                 ]
             }
         ],
