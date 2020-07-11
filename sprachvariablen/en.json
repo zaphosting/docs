@@ -402,8 +402,8 @@
         "sidebar_label": "FTP Setup"
       },
       "vserver_linux_ftp": {
-        "title": "FTP Dienst funktioniert nicht",
-        "sidebar_label": "FTP Dienst funktioniert nicht"
+        "title": "FTP Service isn't working",
+        "sidebar_label": "FTP Service isn't working"
       },
       "vserver_linux_gs_interface": {
         "title": "Gameserver / Ts 3 Server Interface",
