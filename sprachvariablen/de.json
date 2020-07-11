@@ -240,6 +240,10 @@
                 "title": "Geldicon Ändern",
                 "sidebar_label": "Geldicon Ändern"
             },
+            "fivem_vrp_removespeedo": {
+                "title": "Speedometer Entfernen",
+                "sidebar_label": "Speedometer Entfernen"
+              },
             "gameserver_backups": {
                 "title": "Backups",
                 "sidebar_label": "Backups"
@@ -316,6 +320,10 @@
                 "title": "Whitelist",
                 "sidebar_label": "Whitelist"
             },
+            "minecraft_worlds": {
+                "title": "Welten Verwalten",
+                "sidebar_label": "Welten Verwalten"
+              },
             "minecraftbedrock_behaviorresourcepacks": {
                 "title": "Behavior/Resource Packs installieren",
                 "sidebar_label": "Behavior/Resource Packs installieren"
