@@ -87,6 +87,7 @@
                     "vserver_windows_port",
                     "vserver_windows_addip",
                     "vserver_windows_nointernet",
+                    "vserver_windows_ftpserver",
                     "vserver_windows_installmysql"
                 ]
             }
@@ -128,6 +129,7 @@
                     "minecraft_default_config",
                     "minecraft_server-icon",
                     "minecraft_add_own_world",
+                    "minecraft_worlds",
                     "minecraftbedrock_behaviorresourcepacks",
                     "minecraft_rcon",
                     "minecraft_whitelist",
