@@ -317,6 +317,10 @@
         "title": "Whitelist",
         "sidebar_label": "Whitelist"
       },
+      "minecraft_worlds": {
+        "title": "Manage worlds",
+        "sidebar_label": "Manage worlds"
+      },
       "minecraftbedrock_behaviorresourcepacks": {
         "title": "Installing Behavior/Resource Packs",
         "sidebar_label": "Installing Behavior/Resource Packs"
