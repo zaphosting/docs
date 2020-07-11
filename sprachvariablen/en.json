@@ -241,6 +241,10 @@
         "title": "Geldicon Ändern",
         "sidebar_label": "Geldicon Ändern"
       },
+      "fivem_vrp_removespeedo": {
+        "title": "Remove Speedometer",
+        "sidebar_label": "Remove Speedometer"
+      },
       "gameserver_backups": {
         "title": "Backups",
         "sidebar_label": "Backups"
@@ -316,6 +320,10 @@
       "minecraft_whitelist": {
         "title": "Whitelist",
         "sidebar_label": "Whitelist"
+      },
+      "minecraft_worlds": {
+        "title": "Manage worlds",
+        "sidebar_label": "Manage worlds"
       },
       "minecraftbedrock_behaviorresourcepacks": {
         "title": "Installing Behavior/Resource Packs",
@@ -394,8 +402,8 @@
         "sidebar_label": "FTP Setup"
       },
       "vserver_linux_ftp": {
-        "title": "FTP Dienst funktioniert nicht",
-        "sidebar_label": "FTP Dienst funktioniert nicht"
+        "title": "FTP Service isn't working",
+        "sidebar_label": "FTP Service isn't working"
       },
       "vserver_linux_gs_interface": {
         "title": "Gameserver / Ts 3 Server Interface",
@@ -414,8 +422,8 @@
         "sidebar_label": "OpenVPN"
       },
       "vserver_linux_password_change": {
-        "title": "Passwort ändern",
-        "sidebar_label": "Passwort ändern"
+        "title": "Change Password",
+        "sidebar_label": "Change Password"
       },
       "vserver_linux_phpmyadmin": {
         "title": "phpMyAdmin",
