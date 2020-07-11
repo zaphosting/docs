@@ -241,6 +241,10 @@
         "title": "Geldicon Ändern",
         "sidebar_label": "Geldicon Ändern"
       },
+      "fivem_vrp_removespeedo": {
+        "title": "Remove Speedometer",
+        "sidebar_label": "Remove Speedometer"
+      },
       "gameserver_backups": {
         "title": "Backups",
         "sidebar_label": "Backups"
