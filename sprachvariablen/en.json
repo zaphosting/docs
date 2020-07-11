@@ -410,8 +410,8 @@
         "sidebar_label": "Gameserver / Ts 3 Server Interface"
       },
       "vserver_linux_java": {
-        "title": "Java installieren",
-        "sidebar_label": "Java installieren"
+        "title": "Install Java",
+        "sidebar_label": "Install Java"
       },
       "vserver_linux_nextcloud": {
         "title": "Nextcloud",
