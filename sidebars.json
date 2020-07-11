@@ -193,7 +193,8 @@
                 "type": "subcategory",
                 "label": "Dunko VRP",
                 "ids": [
-                    "fivem_vrp_changemoneyicon"
+                    "fivem_vrp_changemoneyicon",
+                    "fivem_vrp_removespeedo"
 
                 ]
             }
