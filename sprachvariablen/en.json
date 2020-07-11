@@ -173,6 +173,10 @@
         "title": "Become Admin over the Database",
         "sidebar_label": "Become Admin over the Database"
       },
+      "fivem_esx_changejobgarages": {
+        "title": "Add Job-Garage Cars",
+        "sidebar_label": "Add Job-Garage Cars"
+      },
       "fivem_esx_changemoneyicon": {
         "title": "Change Money Icon",
         "sidebar_label": "Change Money Icon"
@@ -313,6 +317,10 @@
         "title": "Whitelist",
         "sidebar_label": "Whitelist"
       },
+      "minecraft_worlds": {
+        "title": "Manage worlds",
+        "sidebar_label": "Manage worlds"
+      },
       "minecraftbedrock_behaviorresourcepacks": {
         "title": "Installing Behavior/Resource Packs",
         "sidebar_label": "Installing Behavior/Resource Packs"
@@ -320,6 +328,10 @@
       "partner-guide": {
         "title": "Partner Guide",
         "sidebar_label": "Partner Guide"
+      },
+      "preorders": {
+        "title": "Preorders",
+        "sidebar_label": "Preorders"
       },
       "ragemp_installpackages": {
         "title": "Installing packages",
@@ -348,6 +360,10 @@
       "spaceengineers_becomeadmin": {
         "title": "Become Admin",
         "sidebar_label": "Become Admin"
+      },
+      "suggestions": {
+        "title": "Submit suggestions",
+        "sidebar_label": "Submit suggestions"
       },
       "terraria_tshock_add_admin": {
         "title": "Become an admin (tShock)",
@@ -440,6 +456,14 @@
       "vserver_windows_addip": {
         "title": "Add additional IPs",
         "sidebar_label": "Add additional IPs"
+      },
+      "vserver_windows_ftpserver": {
+        "title": "FTP Server installieren",
+        "sidebar_label": "FTP Server installieren"
+      },
+      "vserver_windows_installmysql": {
+        "title": "Install MySQL Server",
+        "sidebar_label": "Install MySQL Server"
       },
       "vserver_windows_nointernet": {
         "title": "No Internet what now?",
