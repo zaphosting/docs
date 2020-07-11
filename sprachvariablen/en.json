@@ -422,8 +422,8 @@
         "sidebar_label": "OpenVPN"
       },
       "vserver_linux_password_change": {
-        "title": "Passwort ändern",
-        "sidebar_label": "Passwort ändern"
+        "title": "Change Password",
+        "sidebar_label": "Change Password"
       },
       "vserver_linux_phpmyadmin": {
         "title": "phpMyAdmin",
