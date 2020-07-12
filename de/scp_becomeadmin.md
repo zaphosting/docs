@@ -18,7 +18,7 @@ Bei "**Einstellungen**" angekommen ist die RemoteAdmin Passwort Funktion erstell
 Dort kann nun ein beliebiges eigenes Passwort erstellt werden.
 
 > Dieses Passwort muss mindestens 8 Zeichen, maximal 16 Zeichen, einen kleinen Buchstaben, einen großen Buchstaben, eine Zahl und zusätzlich ein Sonderzeichen enthalten.
-> In unserem Beispiel wird daher *123Change!* genutzt, da dieses alle Kriterien erfüllt
+> In unserem Beispiel wird daher *123Change!* genutzt, da dieses alle Kriterien erfüllt.
 > Du kannst das Passwort Feld auch leer lassen, sollte keine Passwort Eingabe gewünscht sein.
 
 ## Remote Admin Passwort nutzen
