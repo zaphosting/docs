@@ -120,6 +120,10 @@
                 "title": "Domain TeamSpeak 3 Weiterleitung",
                 "sidebar_label": "Domain TeamSpeak 3 Weiterleitung"
             },
+            "dst_create_cave": {
+                "title": "Höhlen erstellen",
+                "sidebar_label": "Höhlen erstellen"
+              },
             "firststeps_problem_melden": {
                 "title": "Wie melde ich Probleme?",
                 "sidebar_label": "Wie melde ich Probleme?"
@@ -208,6 +212,10 @@
                 "title": "Eigener Lizenzkey",
                 "sidebar_label": "Eigener Lizenzkey"
             },
+            "fivem_mastadon": {
+                "title": "Activity Feed Einrichten",
+                "sidebar_label": "Activity Feed Einrichten"
+              },
             "fivem_mods_installaddon": {
                 "title": "Addon Carmods Installieren",
                 "sidebar_label": "Addon Carmods Installieren"
@@ -340,6 +348,10 @@
                 "title": "Pakete Installieren",
                 "sidebar_label": "Pakete Installieren"
             },
+            "scp_becomeadmin": {
+                "title": "Admin werden",
+                "sidebar_label": "Admin werden"
+              },
             "source_custom_content": {
                 "title": "Custom Inhalte",
                 "sidebar_label": "Custom Inhalte"
@@ -412,6 +424,10 @@
                 "title": "Java installieren",
                 "sidebar_label": "Java installieren"
             },
+            "vserver_linux_mariadbinstall": {
+                "title": "MariaDB (MySQL) Installation",
+                "sidebar_label": "MariaDB (MySQL) Installation"
+              },
             "vserver_linux_nextcloud": {
                 "title": "Nextcloud",
                 "sidebar_label": "Nextcloud"
@@ -472,6 +488,10 @@
                 "title": "Kein Internet was nun?",
                 "sidebar_label": "Kein Internet was nun?"
             },
+            "vserver_windows_plesk": {
+                "title": "Plesk installation",
+                "sidebar_label": "Plesk installation"
+              },
             "vserver_windows_port": {
                 "title": "Ports freigeben",
                 "sidebar_label": "Ports freigeben"
@@ -519,7 +539,9 @@
             "ArmA 3": "ArmA 3",
             "Assetto Corsa": "Assetto Corsa",
             "Space Engineers": "Space Engineers",
-            "Unturned": "Unturned"
+            "Unturned": "Unturned",
+            "SCP: Secret Laboratory": "SCP: Secret Laboratory",
+            "Don't Starve Together": "Don't Starve Together"
         }
     },
     "pages-strings": {
