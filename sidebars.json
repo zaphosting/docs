@@ -245,6 +245,9 @@
         ],
         "Unturned": [
             "unturned_rocketmod_plugins"
+        ],
+        "SCP: Secret Laboratory": [
+            "scp_becomeadmin"
         ]
     }
 }
