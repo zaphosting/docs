@@ -248,6 +248,9 @@
         ],
         "SCP: Secret Laboratory": [
             "scp_becomeadmin"
+        ],
+        "Don't Starve Together": [
+            "dst_create_cave"
         ]
     }
 }
