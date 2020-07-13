@@ -1,7 +1,7 @@
 ---
 id: vserver_linux_password_change
-title: Passwort ändern 
-sidebar_label: Passwort ändern
+title: Change Password
+sidebar_label: Change Password
 ---
 
 ## How to change the password of VPS/Rootserver?

@@ -172,6 +172,10 @@
                 "title": "Admin über Datenbank werden",
                 "sidebar_label": "Admin über Datenbank werden"
             },
+            "fivem_esx_changejobgarages": {
+                "title": "Job-Garagen Autos Hinzufügen",
+                "sidebar_label": "Job-Garagen Autos Hinzufügen"
+            },
             "fivem_esx_changemoneyicon": {
                 "title": "Geldicon Ändern",
                 "sidebar_label": "Geldicon Ändern"
@@ -236,6 +240,10 @@
                 "title": "Geldicon Ändern",
                 "sidebar_label": "Geldicon Ändern"
             },
+            "fivem_vrp_removespeedo": {
+                "title": "Speedometer Entfernen",
+                "sidebar_label": "Speedometer Entfernen"
+              },
             "gameserver_backups": {
                 "title": "Backups",
                 "sidebar_label": "Backups"
@@ -251,10 +259,6 @@
             "gameserver_databases_pma": {
                 "title": "PHPMyAdmin",
                 "sidebar_label": "PHPMyAdmin"
-            },
-            "gameserver_databases_self": {
-                "title": "Zugriff extern (Navicat etc.)",
-                "sidebar_label": "Zugriff extern (Navicat etc.)"
             },
             "gameserver_ftpaccess": {
                 "title": "FTP Dateizugriff",
@@ -317,16 +321,20 @@
                 "sidebar_label": "Whitelist"
             },
             "minecraft_worlds": {
-                "title": "Welten",
-                "sidebar_label": "Welten"
+                "title": "Welten Verwalten",
+                "sidebar_label": "Welten Verwalten"
+              },
+            "minecraftbedrock_behaviorresourcepacks": {
+                "title": "Behavior/Resource Packs installieren",
+                "sidebar_label": "Behavior/Resource Packs installieren"
             },
             "partner-guide": {
                 "title": "Partner Guide",
                 "sidebar_label": "Partner Guide"
             },
-            "paymentoptions": {
-                "title": "Zahlungsoptionen",
-                "sidebar_label": "Zahlungsoptionen"
+            "preorders": {
+                "title": "Vorbestellungen",
+                "sidebar_label": "Vorbestellungen"
             },
             "ragemp_installpackages": {
                 "title": "Pakete Installieren",
@@ -355,6 +363,10 @@
             "spaceengineers_becomeadmin": {
                 "title": "Admin werden",
                 "sidebar_label": "Admin werden"
+            },
+            "suggestions": {
+                "title": "Vorschläge einreichen",
+                "sidebar_label": "Vorschläge einreichen"
             },
             "terraria_tshock_add_admin": {
                 "title": "Admin werden (tShock)",
@@ -447,6 +459,14 @@
             "vserver_windows_addip": {
                 "title": "Zusätzliche IPs hinzufügen",
                 "sidebar_label": "Zusätzliche IPs hinzufügen"
+            },
+            "vserver_windows_ftpserver": {
+               "title": "FTP Server installieren",
+               "sidebar_label": "FTP Server installieren"
+            },
+            "vserver_windows_installmysql": {
+                "title": "MySQL Server Installieren",
+                "sidebar_label": "MySQL Server Installieren"
             },
             "vserver_windows_nointernet": {
                 "title": "Kein Internet was nun?",
