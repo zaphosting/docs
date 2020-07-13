@@ -209,6 +209,10 @@
         "title": "Own License Key",
         "sidebar_label": "Own License Key"
       },
+      "fivem_mastadon": {
+        "title": "Configure Activity Feed",
+        "sidebar_label": "Configure Activity Feed"
+      },
       "fivem_mods_installaddon": {
         "title": "Install Addon Carmods",
         "sidebar_label": "Install Addon Carmods"
@@ -472,6 +476,10 @@
       "vserver_windows_nointernet": {
         "title": "No Internet what now?",
         "sidebar_label": "No Internet what now?"
+      },
+      "vserver_windows_plesk": {
+        "title": "Plesk installation",
+        "sidebar_label": "Plesk installation"
       },
       "vserver_windows_port": {
         "title": "Port forwarding",
