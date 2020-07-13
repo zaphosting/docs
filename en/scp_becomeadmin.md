@@ -1,6 +1,6 @@
 ---
 id: scp_becomeadmin
-title: SCP become admin
+title: Become admin
 sidebar_label: Become admin
 ---
 
