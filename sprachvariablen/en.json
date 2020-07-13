@@ -121,6 +121,10 @@
         "title": "Domain TeamSpeak 3 Redirect",
         "sidebar_label": "Domain TeamSpeak 3 Redirect"
       },
+      "dst_create_cave": {
+        "title": "Create caves",
+        "sidebar_label": "Create caves"
+      },
       "firststeps_problem_melden": {
         "title": "How do i report problems?",
         "sidebar_label": "How do i report problems?"
@@ -533,7 +537,8 @@
       "Assetto Corsa": "Assetto Corsa",
       "Space Engineers": "Space Engineers",
       "Unturned": "Unturned",
-      "SCP: Secret Laboratory": "SCP: Secret Laboratory"
+      "SCP: Secret Laboratory": "SCP: Secret Laboratory",
+      "Don't Starve Together": "Don't Starve Together"
     }
   },
   "pages-strings": {
