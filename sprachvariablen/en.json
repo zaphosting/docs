@@ -345,6 +345,10 @@
         "title": "Installing packages",
         "sidebar_label": "Installing packages"
       },
+      "scp_becomeadmin": {
+        "title": "Become admin",
+        "sidebar_label": "Become admin"
+      },
       "source_custom_content": {
         "title": "Custom Content",
         "sidebar_label": "Custom Content"
@@ -528,7 +532,8 @@
       "ArmA 3": "ArmA 3",
       "Assetto Corsa": "Assetto Corsa",
       "Space Engineers": "Space Engineers",
-      "Unturned": "Unturned"
+      "Unturned": "Unturned",
+      "SCP: Secret Laboratory": "SCP: Secret Laboratory"
     }
   },
   "pages-strings": {
