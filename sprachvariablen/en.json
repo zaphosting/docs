@@ -477,6 +477,10 @@
         "title": "No Internet what now?",
         "sidebar_label": "No Internet what now?"
       },
+      "vserver_windows_plesk": {
+        "title": "Plesk installation",
+        "sidebar_label": "Plesk installation"
+      },
       "vserver_windows_port": {
         "title": "Port forwarding",
         "sidebar_label": "Port forwarding"
