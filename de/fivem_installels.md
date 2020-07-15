@@ -1,7 +1,7 @@
 ---
 id: fivem_installels
-title: ELS Installieren
-sidebar_label: ELS Installieren
+title: Install ELS
+sidebar_label: Install ELS
 ---
 
 ## Mit FTP verbinden
