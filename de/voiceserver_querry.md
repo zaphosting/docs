@@ -6,7 +6,12 @@ sidebar_label: Teamspeak Querry Login
 
 ## Teamspeak Querry Login
 
-### Gemiteter Teamspeak Server von ZAP-Hosting
+### Selbst gehosteter Teamspeak-Server
+
+Wenn der Teamspeak Server auf dem eigenen vServer oder Root Server über unser Webinterface gehostet wird, kann der normale "Server Admin Querry" Login genutzt werden. 
+Die Login Daten sind bei der Teamspeak Instanz im Webinterface verfügbar. 
+
+### Gemieteter Teamspeak Server von ZAP-Hosting
 
 Bei einem direkt gemieteten Teamspeak Server steht aus Sicherheitsgründen der "Server Admin Querry" Login nicht zur Verfügung. 
 Es kann jedoch wie folgt ein eigener Querry Login erstellt werden, sofern man Admin Rechte auf seinem Teamspeak Server besitzt. 
