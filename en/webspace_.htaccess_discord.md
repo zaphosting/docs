@@ -40,8 +40,8 @@ Values that must be changed:
 
 ```
 RewriteEngine On
-RewriteCond %{HTTP_HOST} (www\.)?***EIGENE-DOMAIN***
-RewriteRule (.*) ***EIGENE-DISCORD-DOMAIN*** [R=301,L]
+RewriteCond %{HTTP_HOST} (www\.)?***OWN-DOMAIN***
+RewriteRule (.*) ***OWN-DISCORD-DOMAIN*** [R=301,L]
 ```
 After saving, the forwarding is immediately active.
 
