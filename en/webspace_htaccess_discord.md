@@ -1,5 +1,5 @@
 ---
-id: webspace_.htaccess_discord
+id: webspace_htaccess_discord
 title: Discord forwarding via domain
 sidebar_label: Discord forwarding via domain
 ---
