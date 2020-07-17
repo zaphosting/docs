@@ -122,7 +122,8 @@
         ],
         "Voicebot/Voiceserver": [
             "voiceserver_voicebot_connection",
-            "voiceserver_ts3backup"
+            "voiceserver_ts3backup",
+            "voiceserver_query"
         ],
         "Minecraft": [{
                 "type": "subcategory",
