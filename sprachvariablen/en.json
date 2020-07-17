@@ -505,6 +505,10 @@
         "title": "Dashboard",
         "sidebar_label": "Dashboard"
       },
+      "webspace_htaccess_discord": {
+        "title": "Discord forwarding via domain",
+        "sidebar_label": "Discord forwarding via domain"
+      },
       "webspace_plesk_ftp": {
         "title": "FTP Connection",
         "sidebar_label": "FTP Connection"
