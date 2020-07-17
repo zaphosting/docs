@@ -389,6 +389,10 @@
         "title": "Install Plugins",
         "sidebar_label": "Install Plugins"
       },
+      "voiceserver_query": {
+        "title": "Teamspeak Query Login",
+        "sidebar_label": "Teamspeak Query Login"
+      },
       "voiceserver_ts3backup": {
         "title": "Teamspeak Backup",
         "sidebar_label": "Ts3 Backup"
