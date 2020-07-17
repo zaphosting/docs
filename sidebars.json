@@ -113,7 +113,8 @@
                     "webspace_dashboard",
                     "webspace_plesk_ftp",
                     "webspace_plesk_sendmail",
-                    "webspace_plesk_ssl"
+                    "webspace_plesk_ssl",
+                    "webspace_htaccess_discord"
                 ]
             }
         ],
