@@ -1,5 +1,5 @@
 ---
-id: webspace_.htaccess_discord
+id: webspace_htaccess_discord
 title: Discord Weiterleitung via Domain
 sidebar_label: Discord Weiterleitung via Domain
 ---
