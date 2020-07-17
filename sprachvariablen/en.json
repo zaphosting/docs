@@ -121,6 +121,10 @@
         "title": "Domain TeamSpeak 3 Redirect",
         "sidebar_label": "Domain TeamSpeak 3 Redirect"
       },
+      "dst_create_cave": {
+        "title": "Create caves",
+        "sidebar_label": "Create caves"
+      },
       "firststeps_problem_melden": {
         "title": "How do i report problems?",
         "sidebar_label": "How do i report problems?"
@@ -194,8 +198,8 @@
         "sidebar_label": "Deactivate the Inventory (F2)"
       },
       "fivem_installels": {
-        "title": "ELS Installieren",
-        "sidebar_label": "ELS Installieren"
+        "title": "Install ELS",
+        "sidebar_label": "Install ELS"
       },
       "fivem_installeup": {
         "title": "Install EUP",
@@ -208,6 +212,10 @@
       "fivem_licensekey": {
         "title": "Own License Key",
         "sidebar_label": "Own License Key"
+      },
+      "fivem_mastadon": {
+        "title": "Configure Activity Feed",
+        "sidebar_label": "Configure Activity Feed"
       },
       "fivem_mods_installaddon": {
         "title": "Install Addon Carmods",
@@ -240,6 +248,10 @@
       "fivem_vrp_changemoneyicon": {
         "title": "Geldicon Ändern",
         "sidebar_label": "Geldicon Ändern"
+      },
+      "fivem_vrp_removespeedo": {
+        "title": "Remove Speedometer",
+        "sidebar_label": "Remove Speedometer"
       },
       "gameserver_backups": {
         "title": "Backups",
@@ -317,6 +329,10 @@
         "title": "Whitelist",
         "sidebar_label": "Whitelist"
       },
+      "minecraft_worlds": {
+        "title": "Manage worlds",
+        "sidebar_label": "Manage worlds"
+      },
       "minecraftbedrock_behaviorresourcepacks": {
         "title": "Installing Behavior/Resource Packs",
         "sidebar_label": "Installing Behavior/Resource Packs"
@@ -332,6 +348,10 @@
       "ragemp_installpackages": {
         "title": "Installing packages",
         "sidebar_label": "Installing packages"
+      },
+      "scp_becomeadmin": {
+        "title": "Become admin",
+        "sidebar_label": "Become admin"
       },
       "source_custom_content": {
         "title": "Custom Content",
@@ -394,16 +414,20 @@
         "sidebar_label": "FTP Setup"
       },
       "vserver_linux_ftp": {
-        "title": "FTP Dienst funktioniert nicht",
-        "sidebar_label": "FTP Dienst funktioniert nicht"
+        "title": "FTP Service isn't working",
+        "sidebar_label": "FTP Service isn't working"
       },
       "vserver_linux_gs_interface": {
         "title": "Gameserver / Ts 3 Server Interface",
         "sidebar_label": "Gameserver / Ts 3 Server Interface"
       },
       "vserver_linux_java": {
-        "title": "Java installieren",
-        "sidebar_label": "Java installieren"
+        "title": "Install Java",
+        "sidebar_label": "Install Java"
+      },
+      "vserver_linux_mariadbinstall": {
+        "title": "MariaDB (MySQL) Installation",
+        "sidebar_label": "MariaDB (MySQL) Installation"
       },
       "vserver_linux_nextcloud": {
         "title": "Nextcloud",
@@ -414,8 +438,8 @@
         "sidebar_label": "OpenVPN"
       },
       "vserver_linux_password_change": {
-        "title": "Passwort ändern",
-        "sidebar_label": "Passwort ändern"
+        "title": "Change Password",
+        "sidebar_label": "Change Password"
       },
       "vserver_linux_phpmyadmin": {
         "title": "phpMyAdmin",
@@ -465,6 +489,10 @@
         "title": "No Internet what now?",
         "sidebar_label": "No Internet what now?"
       },
+      "vserver_windows_plesk": {
+        "title": "Plesk installation",
+        "sidebar_label": "Plesk installation"
+      },
       "vserver_windows_port": {
         "title": "Port forwarding",
         "sidebar_label": "Port forwarding"
@@ -512,7 +540,9 @@
       "ArmA 3": "ArmA 3",
       "Assetto Corsa": "Assetto Corsa",
       "Space Engineers": "Space Engineers",
-      "Unturned": "Unturned"
+      "Unturned": "Unturned",
+      "SCP: Secret Laboratory": "SCP: Secret Laboratory",
+      "Don't Starve Together": "Don't Starve Together"
     }
   },
   "pages-strings": {

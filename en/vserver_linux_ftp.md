@@ -1,7 +1,7 @@
 ---
 id: vserver_linux_ftp
-title: FTP Dienst funktioniert nicht
-sidebar_label: FTP Dienst funktioniert nicht
+title: FTP Service isn't working
+sidebar_label: FTP Service isn't working
 ---
 
 ## Was kann man tun wenn der Gameserver oder Teamspeak Server nicht via FTP erreichbar ist? 
