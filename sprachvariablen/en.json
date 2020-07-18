@@ -241,6 +241,10 @@
         "title": "SQL File Import",
         "sidebar_label": "SQL File Import"
       },
+      "fivem_upvotes": {
+        "title": "Upvotes",
+        "sidebar_label": "Upvotes"
+      },
       "fivem_useprofiler": {
         "title": "Use Profiler",
         "sidebar_label": "Use Profiler"
