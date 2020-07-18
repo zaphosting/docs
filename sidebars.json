@@ -247,7 +247,8 @@
             "spaceengineers_becomeadmin"
         ],
         "Unturned": [
-            "unturned_rocketmod_plugins"
+            "unturned_rocketmod_plugins",
+            "unturned_rocketmod_admin"
         ],
         "SCP: Secret Laboratory": [
             "scp_becomeadmin"
