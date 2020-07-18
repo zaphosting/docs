@@ -167,6 +167,7 @@
             "fivem_mastadon",
             "fivem_useprofiler",
             "fivem_deletecache",
+            "fivem_upvotes",
             {
                 "type": "subcategory",
                 "label": "Resources & Mods",
