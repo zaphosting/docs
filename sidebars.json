@@ -63,6 +63,7 @@
                 "label": "Linux",
                 "ids": [
                     "vserver_linux_ssh",
+                    "vserver_linux_sftp",
                     "vserver_linux_ssh2fa",
                     "vserver_linux_password_change",
                     "vserver_linux_java",
@@ -115,13 +116,15 @@
                     "webspace_dashboard",
                     "webspace_plesk_ftp",
                     "webspace_plesk_sendmail",
-                    "webspace_plesk_ssl"
+                    "webspace_plesk_ssl",
+                    "webspace_htaccess_discord"
                 ]
             }
         ],
         "Voicebot/Voiceserver": [
             "voiceserver_voicebot_connection",
-            "voiceserver_ts3backup"
+            "voiceserver_ts3backup",
+            "voiceserver_query"
         ],
         "Minecraft": [{
                 "type": "subcategory",
@@ -246,7 +249,8 @@
             "spaceengineers_becomeadmin"
         ],
         "Unturned": [
-            "unturned_rocketmod_plugins"
+            "unturned_rocketmod_plugins",
+            "unturned_rocketmod_admin"
         ],
         "SCP: Secret Laboratory": [
             "scp_becomeadmin"

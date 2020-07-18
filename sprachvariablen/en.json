@@ -385,9 +385,17 @@
         "title": "Become an admin (tShock)",
         "sidebar_label": "Become an admin (tShock)"
       },
+      "unturned_rocketmod_admin": {
+        "title": "Admin werden (Rocket Mod)",
+        "sidebar_label": "Admin werden (Rocket Mod)"
+      },
       "unturned_rocketmod_plugins": {
         "title": "Install Plugins",
         "sidebar_label": "Install Plugins"
+      },
+      "voiceserver_query": {
+        "title": "Teamspeak Query Login",
+        "sidebar_label": "Teamspeak Query Login"
       },
       "voiceserver_ts3backup": {
         "title": "Teamspeak Backup",
@@ -504,6 +512,10 @@
       "webspace_dashboard": {
         "title": "Dashboard",
         "sidebar_label": "Dashboard"
+      },
+      "webspace_htaccess_discord": {
+        "title": "Discord forwarding via domain",
+        "sidebar_label": "Discord forwarding via domain"
       },
       "webspace_plesk_ftp": {
         "title": "FTP Connection",
