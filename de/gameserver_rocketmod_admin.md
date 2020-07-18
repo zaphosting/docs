@@ -1,5 +1,5 @@
 ---
-id: gameserver_unturned_rocket_mod_become_admin
+id: gameserver_rocketmod_admin
 title: Admin werden (Rocket Mod)
 sidebar_label: Admin werden (Rocket Mod)
 ---
