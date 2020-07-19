@@ -385,6 +385,10 @@
         "title": "Submit suggestions",
         "sidebar_label": "Submit suggestions"
       },
+      "terraria_tmodloader_installmod": {
+        "title": "Mod installieren (tModLoader)",
+        "sidebar_label": "Mod installieren (tModLoader)"
+      },
       "terraria_tshock_add_admin": {
         "title": "Become an admin (tShock)",
         "sidebar_label": "Become an admin (tShock)"
