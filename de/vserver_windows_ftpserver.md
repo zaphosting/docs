@@ -13,7 +13,7 @@ Die Installation so wie Einrichting ist übersichtlich und unkompliziert, daher 
 
 ## Download und Installation
 
-Zuerst lädst du dir die aktuellste Version von **FileZilla Server** hier herunter: ![FileZilla Server Download](https://filezilla-project.org/download.php?type=server)
+Zuerst lädst du dir die aktuellste Version von **FileZilla Server** hier herunter: [FileZilla Server Download](https://filezilla-project.org/download.php?type=server)
 Die heruntergeladene Datei führst du mit einem Doppelklick aus wodurch der Installationsprozess gestartet wird, dort klickst du dich vor bis du zu folgendem Fenster gelangst:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/ybWZmNbrLgLbMmK/preview)
