@@ -113,6 +113,43 @@ Um die Regelmäßigkeit dieses Austausches etwas eleganter zu gestallten, kann m
 Hierzu muss ebenfalls wieder in der "server.properties" Config der Wert "network-compression-threshold" angepasst werden. Hierbei sollte der Wert auf 512 gestellt werden.
 Auch hier haben wir bereits einen Eintrag in unserer Dokumentation  zu, welcher [hier](https://zap-hosting.com/guides/docs/de/minecraft_default_config/#network-compression-threshold) gefunden werden kann.
 
+## Spawn-Limits
+
+Bei diesem Schritt werden die generellen Spawn-Raten von Mobs auf dem Server etwas gedrosselt.
+Hierbei gibt es nahezu keinen spürbaren Unterschied, als gegenüber den normalen Werten.
+Dennoch kann es hierbei stellenweise bei Mob-Farmen als Beispiel vorkommen, dass die Mobfarm nicht so funktioniert wie geplant.
+
+Um die Einstellungen hierfür anzupassen, muss die Config "bukkit.yml" bearbeitet werden.
+Hier müssen dann beim Punkt "spawn-limits" die folgenden Werte angepasst werden:
+- monsters: 50 #Default: 70
+- animals: 10 #Default: 15
+- water-animals: 3 #Default: 5
+- ambient: 4 #Default: 15
+
+> Du kannst die Werte hier natürlich noch gerne selbst anpassen sofern du dies wünscht, andernfalls sind die oben genannten Werte ein sehr guter Mittelwert.
+
+Um das Spawning zusätzlich noch etwas zu verbessern, sollte in der "bukkit.yml" Config zusätzlich noch der Wert "monster-spawns" Wert im Punkt "tickes-per" geändert werden:
+- monster-spawns: 2 #Default: 1
+
+Sollte es generell ein Problem mit Monstern als Beispiel geben (wie man als Beispiel im Timings-Report ermitteln kann), so kann der Wert bis auf 5 gestellt werden.
+Hierbei sollte sich das Verhalten des Servers dann mit jedem Wert angeschaut werden, um den besten Wert für den eigenen Server zu finden.
+
+## Chunk-Verarbeitung
+
+Minecraft arbeitet mit so genannten Chunks. Ein Chunk wird immer aus 16x16 Blöcken gebildet, welche dann aneinander gereiht werden und für den Client die Welt visuell darstellt.
+Der Server arbeitet demnach auch nur mit Chunks und lädt benötigte Chunks dann in den RAM. Je mehr Chunks geladen und dauerhaft vom Server verarbeitet werden, desto mehr Leistung muss der Server hierfür aufbringen, was stellenweise die Server in die Knie zwingt.
+
+Server mit den Standard-Einstellungen werden geladene Chunks nie wieder entladen, was zur Folge hat, dass der RAM stellenweise sehr stark ausgelastet wird und unheimlich viel davon benötigt wird. Natürlich wird hierbei auch die Performance des Servers leider sehr stark runtergezogen, da immer mehr verarbeitet werden muss.
+
+Damit der Server wirklich nur die Chunks geladen lässt, welche auch derzeit gebraucht werden, müssen folgenden Optionen in der "bukkit.yml" Config unter den Punkt "chunk-gc" angepasst werden:
+- period-in-ticks: 300 #Default: 600
+- load-threshold: 300 #Default: 0
+
+Die Option "period-in-ticks" bestimmt hierbei in welchen Abständen in Sekunden die Chunks entladen werden sollen.
+Wenn gewünscht kann dieser Wert auch noch weiter runtergestellt werden, jedoch sollte man hierbei beachten, dass es dann möglicherweise ein ungewünschter Effekt auftritt: Ein Loop
+
+Beim Loop würde der Chunk entladen werden, worauf der Chunk dann auch nur wenige Später wieder gebraucht wird, wodurch der Server dann erneut Leistung und Zeit investieren muss, um diesen Chunk erneut zu laden. Dies würde sich dann immer wieder wiederholen, was den Server stärker belastet, als wenn die Chunks für eine Minuten länger als Beispiel geladen bleiben.
+
 ### Spigot
 
 ## Sichtweite
@@ -130,6 +167,81 @@ Um die Regelmäßigkeit dieses Austausches etwas eleganter zu gestallten, kann m
 Hierzu muss ebenfalls wieder in der "server.properties" Config der Wert "network-compression-threshold" angepasst werden. Hierbei sollte der Wert auf 512 gestellt werden.
 Auch hier haben wir bereits einen Eintrag in unserer Dokumentation  zu, welcher [hier](https://zap-hosting.com/guides/docs/de/minecraft_default_config/#network-compression-threshold) gefunden werden kann.
 
+## Spawn-Limits
+
+Bei diesem Schritt werden die generellen Spawn-Raten von Mobs auf dem Server etwas gedrosselt.
+Hierbei gibt es nahezu keinen spürbaren Unterschied, als gegenüber den normalen Werten.
+Dennoch kann es hierbei stellenweise bei Mob-Farmen als Beispiel vorkommen, dass die Mobfarm nicht so funktioniert wie geplant.
+
+Um die Einstellungen hierfür anzupassen, muss die Config "bukkit.yml" bearbeitet werden.
+Hier müssen dann beim Punkt "spawn-limits" die folgenden Werte angepasst werden:
+- monsters: 50 #Default: 70
+- animals: 10 #Default: 15
+- water-animals: 3 #Default: 5
+- ambient: 4 #Default: 15
+
+> Du kannst die Werte hier natürlich noch gerne selbst anpassen sofern du dies wünscht, andernfalls sind die oben genannten Werte ein sehr guter Mittelwert.
+
+Um das Spawning zusätzlich noch etwas zu verbessern, sollte in der "bukkit.yml" Config zusätzlich noch der Wert "monster-spawns" Wert im Punkt "tickes-per" geändert werden:
+- monster-spawns: 2 #Default: 1
+
+Sollte es generell ein Problem mit Monstern als Beispiel geben (wie man als Beispiel im Timings-Report ermitteln kann), so kann der Wert bis auf 5 gestellt werden.
+Hierbei sollte sich das Verhalten des Servers dann mit jedem Wert angeschaut werden, um den besten Wert für den eigenen Server zu finden.
+
+## Chunk-Verarbeitung
+
+Minecraft arbeitet mit so genannten Chunks. Ein Chunk wird immer aus 16x16 Blöcken gebildet, welche dann aneinander gereiht werden und für den Client die Welt visuell darstellt.
+Der Server arbeitet demnach auch nur mit Chunks und lädt benötigte Chunks dann in den RAM. Je mehr Chunks geladen und dauerhaft vom Server verarbeitet werden, desto mehr Leistung muss der Server hierfür aufbringen, was stellenweise die Server in die Knie zwingt.
+
+Server mit den Standard-Einstellungen werden geladene Chunks nie wieder entladen, was zur Folge hat, dass der RAM stellenweise sehr stark ausgelastet wird und unheimlich viel davon benötigt wird. Natürlich wird hierbei auch die Performance des Servers leider sehr stark runtergezogen, da immer mehr verarbeitet werden muss.
+
+Damit der Server wirklich nur die Chunks geladen lässt, welche auch derzeit gebraucht werden, müssen folgenden Optionen in der "bukkit.yml" Config unter den Punkt "chunk-gc" angepasst werden:
+- period-in-ticks: 300 #Default: 600
+- load-threshold: 300 #Default: 0
+
+Die Option "period-in-ticks" bestimmt hierbei in welchen Abständen in Sekunden die Chunks entladen werden sollen.
+Wenn gewünscht kann dieser Wert auch noch weiter runtergestellt werden, jedoch sollte man hierbei beachten, dass es dann möglicherweise ein ungewünschter Effekt auftritt: Ein Loop
+
+Beim Loop würde der Chunk entladen werden, worauf der Chunk dann auch nur wenige Später wieder gebraucht wird, wodurch der Server dann erneut Leistung und Zeit investieren muss, um diesen Chunk erneut zu laden. Dies würde sich dann immer wieder wiederholen, was den Server stärker belastet, als wenn die Chunks für eine Minuten länger als Beispiel geladen bleiben.
+
+## Spawn-Range
+
+Mobs können immer in bestimmten Abständen von Spielern spawnen. Hierbei stellen wir diese Rate etwas runter, damit es keine Probleme mit dem Mob-Spawning gibt.
+Diese Einstellung ist sehr wichtig, da bereits einige Einstellungen zum Thema Spawning angepasst wurden, welche oben erläutert wurden.
+
+Wir stellen hierbei in der "spigot.yml" Config in den "world-settings" nun folgende Einstellungen um:
+- mob-spawn-range: 3 #Default: 4
+
+## Entity-Ranges
+
+Bei diesem Punkt stellen wir nun ein, ab wann Entitys - also Tiere und Monster - aktiviert werden.
+Damit gemeint ist, dass die Tiere sich als Beispiel bewegen können oder Monster auch Spieler erkennen können.
+Grundlegend ist dies für alle Mobs aktiviert, jedoch in eine Art von Standby.
+Im Standby-Mode können sich die Mobs weiterhin bewegen und auch Spieler erkennen, aber können sich die Mobs als Beispiel nur sehr stockend fortbewegen, wodurch der Server hierbei nur wenig Leistung aufbringen muss.
+
+Auch hier müssen die Änderungen in der "spigot.yml" Config unter dem Punkt "entity-activation-range" gemacht werden.
+Hierbei empfehlen wir folgende Werte zu verwenden:
+- animals: 6 #Default: 32
+- monsters: 16 #Default: 32
+- misc: 2 #Default: 16
+- water: 6 #Default: 6
+- tick-inactive-villagers: true #Default: true
+
+## Trichter-Optimierung
+
+Trichter sind in Minecraft ein sehr wichtiger Bestandteil des Spieles. Aber für Server sind diese wahres Gift!
+Für jeden gesetzten Trichter muss der Server jede Sekunde 20x prüfen, ob ein Item zum aufsammeln bereit liegt.
+Auch das verschieben der Items von Trichter zu Trichter oder in eine Kiste kostet wertvolle Leistung!
+
+Um das ganze etwas zu verbessern, stellen wir die erhöhen wir die zeitlichen Abstände, zu wann der Server solche Aktionen jeweils durchführen soll.
+Mit den hier verwendeten Werten wird solch eine Aktion alle 3 Sekunden durchgeführt und geprüft. Die Übertragungsraten ändert sich hierbei aber nicht.
+Hierbei kann es jedoch passieren, dass Redstone-Clocks, welche mit Hoppern erstellt wurden, möglicherweise nicht mehr korrekt funktionieren.
+
+Um die Einstellungen anzupassen, müssen hierbei folgende Werte in der "spigot.yml" Config angepasst werden:
+- hopper-transfer: 24 #Default: 8
+- hopper-check: 24 #Default: 8
+- hopper-amount: 3 #Default: 1
+
 ### Paper Spigot
 
 ## Sichtweite
@@ -146,4 +258,41 @@ Aber auch Spieler-Aktionen oder Ereignisse in der Welt, wie Explosionen als Beis
 Um die Regelmäßigkeit dieses Austausches etwas eleganter zu gestallten, kann man die Größe der gepackten Daten verdoppeln, wodurch erzielt wird, dass der Server im Vergleich zu vorher nur 50% des Aufwandes betreiben muss, um die gleichen Daten mit den Spielern auszutauschen.
 Hierzu muss ebenfalls wieder in der "server.properties" Config der Wert "network-compression-threshold" angepasst werden. Hierbei sollte der Wert auf 512 gestellt werden.
 Auch hier haben wir bereits einen Eintrag in unserer Dokumentation  zu, welcher [hier](https://zap-hosting.com/guides/docs/de/minecraft_default_config/#network-compression-threshold) gefunden werden kann.
+
+## Spawn-Limits
+
+Bei diesem Schritt werden die generellen Spawn-Raten von Mobs auf dem Server etwas gedrosselt.
+Hierbei gibt es nahezu keinen spürbaren Unterschied, als gegenüber den normalen Werten.
+Dennoch kann es hierbei stellenweise bei Mob-Farmen als Beispiel vorkommen, dass die Mobfarm nicht so funktioniert wie geplant.
+
+Um die Einstellungen hierfür anzupassen, muss die Config "bukkit.yml" bearbeitet werden.
+Hier müssen dann beim Punkt "spawn-limits" die folgenden Werte angepasst werden:
+- monsters: 50 #Default: 70
+- animals: 10 #Default: 15
+- water-animals: 3 #Default: 5
+- ambient: 4 #Default: 15
+
+> Du kannst die Werte hier natürlich noch gerne selbst anpassen sofern du dies wünscht, andernfalls sind die oben genannten Werte ein sehr guter Mittelwert.
+
+Um das Spawning zusätzlich noch etwas zu verbessern, sollte in der "bukkit.yml" Config zusätzlich noch der Wert "monster-spawns" Wert im Punkt "tickes-per" geändert werden:
+- monster-spawns: 2 #Default: 1
+
+Sollte es generell ein Problem mit Monstern als Beispiel geben (wie man als Beispiel im Timings-Report ermitteln kann), so kann der Wert bis auf 5 gestellt werden.
+Hierbei sollte sich das Verhalten des Servers dann mit jedem Wert angeschaut werden, um den besten Wert für den eigenen Server zu finden.
+
+## Chunk-Verarbeitung
+
+Minecraft arbeitet mit so genannten Chunks. Ein Chunk wird immer aus 16x16 Blöcken gebildet, welche dann aneinander gereiht werden und für den Client die Welt visuell darstellt.
+Der Server arbeitet demnach auch nur mit Chunks und lädt benötigte Chunks dann in den RAM. Je mehr Chunks geladen und dauerhaft vom Server verarbeitet werden, desto mehr Leistung muss der Server hierfür aufbringen, was stellenweise die Server in die Knie zwingt.
+
+Server mit den Standard-Einstellungen werden geladene Chunks nie wieder entladen, was zur Folge hat, dass der RAM stellenweise sehr stark ausgelastet wird und unheimlich viel davon benötigt wird. Natürlich wird hierbei auch die Performance des Servers leider sehr stark runtergezogen, da immer mehr verarbeitet werden muss.
+
+Damit der Server wirklich nur die Chunks geladen lässt, welche auch derzeit gebraucht werden, müssen folgenden Optionen in der "bukkit.yml" Config unter den Punkt "chunk-gc" angepasst werden:
+- period-in-ticks: 300 #Default: 600
+- load-threshold: 300 #Default: 0
+
+Die Option "period-in-ticks" bestimmt hierbei in welchen Abständen in Sekunden die Chunks entladen werden sollen.
+Wenn gewünscht kann dieser Wert auch noch weiter runtergestellt werden, jedoch sollte man hierbei beachten, dass es dann möglicherweise ein ungewünschter Effekt auftritt: Ein Loop
+
+Beim Loop würde der Chunk entladen werden, worauf der Chunk dann auch nur wenige Später wieder gebraucht wird, wodurch der Server dann erneut Leistung und Zeit investieren muss, um diesen Chunk erneut zu laden. Dies würde sich dann immer wieder wiederholen, was den Server stärker belastet, als wenn die Chunks für eine Minuten länger als Beispiel geladen bleiben.
 
