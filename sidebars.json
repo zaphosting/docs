@@ -63,6 +63,7 @@
                 "label": "Linux",
                 "ids": [
                     "vserver_linux_ssh",
+                    "vserver_linux_sftp",
                     "vserver_linux_ssh2fa",
                     "vserver_linux_password_change",
                     "vserver_linux_java",
@@ -166,6 +167,7 @@
             "fivem_mastadon",
             "fivem_useprofiler",
             "fivem_deletecache",
+            "fivem_upvotes",
             {
                 "type": "subcategory",
                 "label": "Resources & Mods",
@@ -247,7 +249,8 @@
             "spaceengineers_becomeadmin"
         ],
         "Unturned": [
-            "unturned_rocketmod_plugins"
+            "unturned_rocketmod_plugins",
+            "unturned_rocketmod_admin"
         ],
         "SCP: Secret Laboratory": [
             "scp_becomeadmin"
