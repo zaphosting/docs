@@ -210,7 +210,8 @@
             "ragemp_installpackages"
         ],
         "Terraria": [
-            "terraria_tshock_add_admin"
+            "terraria_tshock_add_admin",
+            "terraria_tmodloader_installmod"
         ],
         "Source Games": [
             "source_gsltoken",
