@@ -27,7 +27,7 @@ Anschließend rufst du deine Ts3 Instanz auf und meldest dich mit den Daten bei 
 
 Um nun das Backup zu erstellen, musst du auf **Miscellaneous** gehen und dann auf **Create and save a snapshot**:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/5cyfs7PwSMMH354/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/sNsedtmG5YECc9g/preview)
 
 Zum Einspielen eines Backups kannst du dann einfach auf **Restore snapshot** gehen.
 
