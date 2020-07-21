@@ -138,7 +138,8 @@
                     "minecraftbedrock_behaviorresourcepacks",
                     "minecraft_rcon",
                     "minecraft_whitelist",
-                    "minecraft_timings_report"
+                    "minecraft_timings_report",
+                    "minecraft_server_optimize"
                 ]
             },
             {
