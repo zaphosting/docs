@@ -14,7 +14,7 @@ Die Installation geschieht via Drag & Drop und mit nur einer Anpassung an deinem
 ## Installation von tModLoader auf deinem PC
 
 Falls du tModLoader noch nicht installier hast, kannst du dir diesen **kostenlos** direkt via Steam herunterladen.
-Suche dazu im Steam Store einfach nach **tModLoader** oder verwende folgenden Link: ![tModLoader im Steam Store](https://store.steampowered.com/app/1281930/tModLoader/)
+Suche dazu im Steam Store einfach nach **tModLoader** oder verwende folgenden Link: [tModLoader im Steam Store](https://store.steampowered.com/app/1281930/tModLoader/)
 
 Nach dem Download und der Installation kannst du deinen tModLoader direkt über Steam starten.
 
@@ -48,7 +48,7 @@ Damit die Mod aktiv wird klickst du nun auf **Mods neu laden**, danach kannst du
 
 ## Installation von Mod's auf deinem Server
 
-Um die Mod nun auch auf deinem Server installieren zu können verbindest du dich via FTP zu deinem Server, wie das funktionkiert erfährst du hier: ![FTP Dateizugriff](https://zap-hosting.com/guides/docs/de/gameserver_ftpaccess/)
+Um die Mod nun auch auf deinem Server installieren zu können verbindest du dich via FTP zu deinem Server, wie das funktionkiert erfährst du hier: [FTP Dateizugriff](https://zap-hosting.com/guides/docs/de/gameserver_ftpaccess/)
 
 Dort navigierst du in folgendes Verzeichnis: /g******/terraria/mods/ wo du ebenfalls die zuvor verwendete **.tmod** Datei einfügst:
 
