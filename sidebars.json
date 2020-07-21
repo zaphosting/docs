@@ -248,7 +248,8 @@
             "assettocorsa_mods"
         ],
         "Space Engineers": [
-            "spaceengineers_becomeadmin"
+            "spaceengineers_becomeadmin",
+            "spaceengineers_addmods"
         ],
         "Unturned": [
             "unturned_rocketmod_plugins",
