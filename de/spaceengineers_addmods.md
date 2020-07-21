@@ -61,7 +61,7 @@ Es muss genau diese Config geöffnet werden, wie im Screenshot dargestellt!
 Es gibt bereits einen Mod-Bereich in der Config, welcher sich am Ende der Config befindet. Diesen Teil markieren wir jedoch einmal mit der Maus und entfernen diesen dann.
 Im Anschluss fügen wir folgenden Inhalt ein:
 
-``<Mods></Mods>``
+`<Mods></Mods>`
 
 Sobald der Inhalt eingefügt ist, gehen wir mit dem Cursor zwischen ">" & "<" und drücken dann einmal ENTER.
 Damit wird automatisch die korrekte Sytnax genutzt und wir können fortfahren.
@@ -71,7 +71,7 @@ Damit wird automatisch die korrekte Sytnax genutzt und wir können fortfahren.
 Im nächsten Schritt fügen wir die erste Mod hinzu. Hierzu arbeiten wir mit einem "ModItem", welches eine Mod bildet.
 Hierzu kopieren wir den folgenden Inhalt und fügen Ihn dann wie im GIF gezeigt in die Config ein:
 
-```sbd
+```xml
 	<ModItem>
 		<Name>12345.sbm</Name>
 		<PublishedFileId>12345</PublishedFileId>
