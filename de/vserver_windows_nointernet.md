@@ -40,6 +40,8 @@ Daraufhin prüfen wir, ob dort **unsere** Ip aus dem Interface eingetragen ist. 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/KtR7nfiN4LJJyjg/preview)
 
+> Gehe sicher das du **deine** Server IP unter "Ip Addresse" Eingibst
+
 > Wichtig hierbei ist, dass die Subnetzmaske immer ein Typ C Netz ist und somit immer 255.255.255.0 lautet.
 
 > Das Standardgateway ist immer die Ip selber mit der 1 am Ende.

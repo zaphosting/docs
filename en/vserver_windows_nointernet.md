@@ -42,6 +42,8 @@ Then, we will check whether the **server's** IP address from the control panel i
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/ZnLC26QHDBMi3c9/preview)
 
+> Make sure that you enter **your** Server IP under "IP Address"
+
 > It is important here that the subnet mask is always a type C network and is therefore always set as "255.255.255.0".
 
 > The default gateway is always the IP itself with the "1" at the end.
