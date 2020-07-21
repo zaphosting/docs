@@ -4,7 +4,7 @@ title: Minecraft-Server optimieren
 sidebar_label: Minecraft-Server optimieren
 ---
 
-### Was genau passiert bei der Optimierung?
+# Was genau passiert bei der Optimierung?
 
 Die Optimierung ist ein wichtige Punkt bei Minecraft-Servern, damit ein reibungsloser Betrieb möglich ist und man sollte sich in jedem Fall bei einem öffentlichen Server hierfür ausreichend Zeit nehmen.
 Nur mit viel Zeit und tests ist es möglich das optimale Ergebnis zu erzielen. Dieses Dokumentation ist daher nicht zwanghaft genau zu befolgen, sondern eher als Hilfe gedacht, um in die richtige Richtung zu gehen.
@@ -13,7 +13,7 @@ Bei der Optimierung werden in den meisten Fällen sehr viele Einstellungen an de
 Unter anderem werden einige Einstellungen heruntergeschaubt, wodurch der Server entlastet wird und dadurch mehr Performance erbringen kann.
 Damit das allgemeine Spielerlebnis jedoch nicht zu stark beeinflusst wird, sollte man hier immer die goldene Mitte finden.
 
-### Vanilla
+# Vanilla
 
 Die Möglichkeiten einen Vanilla-Server zu optimieren, sind leider sehr begrenzt, da hierbei nur sehr wenige Einstellungsmöglichkeiten bereitstehen.
 Wir versuchen den Vanilla-Server dennoch etwas mehr Power zu verschaffen, indem wir folgende Maßnahmen durchführen:
@@ -37,7 +37,7 @@ Um die Regelmäßigkeit dieses Austausches etwas eleganter zu gestallten, kann m
 Hierzu muss ebenfalls wieder in der "server.properties" Config der Wert "network-compression-threshold" angepasst werden. Hierbei sollte der Wert auf 512 gestellt werden.
 Auch hier haben wir bereits einen Eintrag in unserer Dokumentation  zu, welcher [hier](https://zap-hosting.com/guides/docs/de/minecraft_default_config/#network-compression-threshold) gefunden werden kann.
 
-### Forge
+# Forge
 
 Ähnlich wie bei Vanilla sind auch hier die Möglichkeiten die am Server selbst gemacht werden können leider etwas eingeschränkt, da nur sehr kleine Config-Dateien zur Verfügung stehen.
 Jedoch ist die Installation von zusätzlichen Mods hierbei möglich, wodurch der Server auch etwas entlasst werden kann.
@@ -96,7 +96,7 @@ Um die Regelmäßigkeit dieses Austausches etwas eleganter zu gestallten, kann m
 Hierzu muss ebenfalls wieder in der "server.properties" Config der Wert "network-compression-threshold" angepasst werden. Hierbei sollte der Wert auf 512 gestellt werden.
 Auch hier haben wir bereits einen Eintrag in unserer Dokumentation  zu, welcher [hier](https://zap-hosting.com/guides/docs/de/minecraft_default_config/#network-compression-threshold) gefunden werden kann.
 
-### Bukkit
+# Bukkit
 
 ## Sichtweite
 
@@ -154,7 +154,7 @@ Wenn gewünscht kann dieser Wert auch noch weiter runtergestellt werden, jedoch 
 
 Beim Loop würde der Chunk entladen werden, worauf der Chunk dann auch nur wenige Später wieder gebraucht wird, wodurch der Server dann erneut Leistung und Zeit investieren muss, um diesen Chunk erneut zu laden. Dies würde sich dann immer wieder wiederholen, was den Server stärker belastet, als wenn die Chunks für eine Minuten länger als Beispiel geladen bleiben.
 
-### Spigot
+# Spigot
 
 ## Sichtweite
 
@@ -273,7 +273,7 @@ Um die Einstellung anzupassen, muss unter dem Punkt "merge-radius" in der "spigo
 
 > Die Werte hierbei sollten nicht höher als 8 gestellt werden, andernfalls kann der oben angesprochene Lagg-Effekt entstehen!
 
-### Paper Spigot
+# Paper Spigot
 
 ## Sichtweite
 
