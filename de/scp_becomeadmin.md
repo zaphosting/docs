@@ -58,7 +58,7 @@ Dort wird nun die "**config_remoteadmin.txt**" geöffnet in welcher die nötigen
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/pgqrEwTMeAykPcM/preview)
 
-Ganz unten in der Konfiguration Datei werden die Rollen zugewiesen.
+Dort werden nun die Rollen erstellt und zugewiesen.
 In dieser muss "**SomeSteamId64**" welches vor "**@steam: owner**" steht mit deiner SteamID64 ersetzt werden, welche du vorher bei "**steamid lookup**" eingesehen hast.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/ZMreaSdWA2FexXj/preview)
