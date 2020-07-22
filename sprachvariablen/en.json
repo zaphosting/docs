@@ -548,10 +548,6 @@
       "webspace_plesk_ssl": {
         "title": "SSL Zertifikat erstellen",
         "sidebar_label": "SSL Zertifikat erstellen"
-      },
-      "whatiszap": {
-        "title": "The ZAP-Hosting Docs",
-        "sidebar_label": "The ZAP-Hosting Docs"
       }
     },
     "links": {
