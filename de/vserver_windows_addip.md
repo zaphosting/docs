@@ -65,7 +65,7 @@ Klicke nun auf "Ok".
 
 Klicke im nächste Fenster ebenfalls auf "Ok", damit die Änderungen übernommen werden:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/zjdEnbyXxbSXgoF/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/QxqB7NG8KFDkYBy/preview)
 
 ### ✅ Eigene IP überprüfen
 Die IP wurde nun korrekt auf deinem Server hinzugefügt.
