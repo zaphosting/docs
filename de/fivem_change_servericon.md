@@ -16,7 +16,7 @@ Bevor Resourcen installiert werden können, muss der [FTP-Zugang](gameserver_ftp
 
 Nachdem dieser eingerichtet wurde, kann sich nun verbunden werden und der Server Ordner geöffnet werden:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/MHt37AFEeZYgs97/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/omjKDgFcn64rRMF/preview)
 
 
 ## Bild Einfügen
