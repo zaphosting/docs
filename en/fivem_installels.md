@@ -34,7 +34,7 @@ You can install ELS-FiveM by uploading the files via drag & drop into the "resou
 
 Once uploaded, you need to open the server.cfg in the server-data folder:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/d3EAFx73JzJfcf9/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/eM8MtkZJCLg3gdz/preview)
 
 Among the remaining start entries for resources the entry for ELS-FiveM can now be added:
 
