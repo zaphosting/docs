@@ -129,11 +129,11 @@ files {
 
 After the mods are all uploaded, you only have to add your resource in the server.cfg, which you can find in the "server-data" folder of your FiveM server.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/tFa8yALGJwj82bK/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/eM8MtkZJCLg3gdz/preview)
 
 You can open it with any text editor, under the "start" entries you can now enter your resource as follows
 
-![](https://screensaver01.zap-hosting.com/index.php/s/D58nmHkXHgwyTf6/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/H6Y5SHHKqeMPoLo/preview)
 
 
 Done! After a server restart, the Carmod should now be on the server!
