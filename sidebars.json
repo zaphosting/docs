@@ -5,7 +5,6 @@
             "label": "First Steps",
             "ids": [
                 "firststeps_register",
-                "firststeps_rent",
                 "firststeps_rent_contractorprepaid",
                 "preorders",
                 "firststeps_rent_location",
