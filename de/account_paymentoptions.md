@@ -4,7 +4,6 @@ title: Zahlungsoptionen
 sidebar_label: Zahlungsoptionen
 ---
 
-## Zahlungsoptionen - Allgemeines
 ### 🧾 Übersicht
 Wir bieten eine große Anzahl verschiedener Zahlungsoptionen an, mit denen Server sofort gemietet werden und bereitgestellt werden können. Der Zahlungsprozess ist einfach und schnell. Folgende Zahlungsoptionen werden von uns angeboten:
 *  ZAP-Guthaben (ZAP Coins) 
