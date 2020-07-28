@@ -16,7 +16,7 @@ Sollte er aber online sein und dennoch kein Internet haben, kann man dies über 
 
 
 ## 🖥 Wie stelle ich die Verbindung wieder her?
-Als Erstes verbinden wir uns via VNC-Konsole mit dem Server. 
+Als Erstes verbinden wir uns via VNC-Konsole mit dem Server und melden uns an.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/wrjFksQ4jWFGEz4/preview)
 
