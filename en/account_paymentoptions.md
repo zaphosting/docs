@@ -4,7 +4,6 @@ title: Payment options
 sidebar_label: Payment options
 ---
 
-## Payment options - General
 ### 🧾 Overview
 ZAP-Hosting offers a large number of different payment options with which servers can be rented and deployed immediately. The payment process is simple and fast. The following payment options are offered by us:
 *  ZAP-Credits (ZAP Coins) 
