@@ -4,10 +4,6 @@ title: Erstzugriff (SSH)
 sidebar_label: Erstzugriff (SSH)
 ---
 
-## Erstzugriff (SSH)
-
-
-
 ### 🖥 SSH-Verbindung
 
 Die Linux Server Produkte beinhalten standardmäßig keine grafische Verwaltungsoberfläche, weshalb die Verbindung und Verwaltung über einen SSH-Client (Konsole) erfolgt. Hierbei gibt es eine große Auswahl an SSH-Clients. Im Folgenden gibt es eine Übersicht der bekannten/oft genutzten SSH-Clients. 
@@ -62,7 +58,7 @@ Für eine optimale Nutzung des SSH-Clients ist es unerlässlich, die Grundbefehl
 
 
 
-### Account Verwaltung
+### 👩 Account Verwaltung
 
 | Befehl  |                Beschreibung                |            Syntax            |
 | :-----: | :----------------------------------------: | :--------------------------: |
@@ -73,7 +69,7 @@ Für eine optimale Nutzung des SSH-Clients ist es unerlässlich, die Grundbefehl
 
 
 
-### System Verwaltung
+### 🖥️ System Verwaltung
 
 | Befehl  |                         Beschreibung                         | Syntax                                       |
 | :-----: | :----------------------------------------------------------: | -------------------------------------------- |
@@ -90,7 +86,7 @@ Für eine optimale Nutzung des SSH-Clients ist es unerlässlich, die Grundbefehl
 
 
 
-### Datei Verwaltung
+### 📁 Datei Verwaltung
 
 | Befehl | Beschreibung                               | Syntax                                   |
 | :------: | :------------------------------------------: | :----------------------------------------: |
@@ -105,7 +101,7 @@ Für eine optimale Nutzung des SSH-Clients ist es unerlässlich, die Grundbefehl
 
 
 
-### Netzwerk Verwaltung
+### 🌐 Netzwerk Verwaltung
 
 | Befehl   | Beschreibung                                      | Syntax                                    |
 | :--------: | :-------------------------------------------------: | :-----------------------------------------: |

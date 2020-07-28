@@ -4,10 +4,6 @@ title: Erstzugriff (SSH)
 sidebar_label: Initial access (SSH)
 ---
 
-## Initial access (SSH)
-
-
-
 ### 🖥 SSH-Connection
 
 Linux server products do not include a graphical management interface by default, which is why the connection and management is done via an SSH client (console). There is a wide range of SSH clients available. Below is an overview of the known / often used SSH clients. 
@@ -61,7 +57,7 @@ This opens the SSH console and prompts for a **user name** and **password**. The
 For optimal use of the SSH client, it is essential to know the basic commands. In the following you will find a rough overview with all relevant commands and their meaning:
 
 
-### Account Verwaltung
+### 👩 Account Management
 
 | Command  |                Description                |            Syntax            |
 | :-----: | :----------------------------------------: | :--------------------------: |
@@ -72,7 +68,7 @@ For optimal use of the SSH client, it is essential to know the basic commands. I
 
 
 
-### System Management
+### 🖥️ System Management
 
 | Befehl  |                         Description                         | Syntax                                       |
 | :-----: | :----------------------------------------------------------: | -------------------------------------------- |
@@ -89,7 +85,7 @@ For optimal use of the SSH client, it is essential to know the basic commands. I
 
 
 
-### File management
+### 📁 File management
 
 | Command | Description | Syntax
 | ------ | ------------------------------------------ | ---------------------------------------- |
@@ -104,7 +100,7 @@ For optimal use of the SSH client, it is essential to know the basic commands. I
 
 
 
-### Network administration
+### 🌐 Network administration
 
 | Command | Description | Syntax
 | -------- | ------------------------------------------------- | ----------------------------------------- |
