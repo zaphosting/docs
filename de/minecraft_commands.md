@@ -107,90 +107,67 @@ Command Example Content
 
 ### /gamerule
 
-Command Description Contect
+Durch diesen Befehl können spezielle Einstellungen in einer Welt geändert werden oder besondere Funktionen de/aktiviert werden.
+So kann - wie unten im Beispiel gezeigt - als Beispiel aktiviert werden, dass Spieler das Inventar behalten, sollten diese sterben.
 
 **Beispiele:**
 
-``/worldborder``
+``/gamerule keepInventory true``
 
-Command Example Content
+Hierdurch wird in der Welt eingestellt, dass Spieler beim Tot ihr Inventar (inkl. Erfahrungen) behalten.
 
-### /gamemode
+``/gamerule mobGriefing false``
 
-Command Description Contect
-
-**Beispiele:**
-
-``/worldborder``
-
-Command Example Content
+Mit diesem Befehl wird für die Welt bestimmt, dass Monsters wie etwas Creeper keinen Schaden an der Welt verursachen können.
 
 ### /save-all
 
-Command Description Contect
-
-**Beispiele:**
-
-``/worldborder``
-
-Command Example Content
+Der Server speichert alle 5 Minuten die Welt und schreibt damit die Änderungen auf die Festplatte.
+Mit diesem Befehl wird die Welt sofort gespeichert und der Countdown für die automatische Speicherung wird auf 5 Minuten zurückgesetzt.
 
 ### /tps
 
-Command Description Contect
-
-**Beispiele:**
-
-``/worldborder``
-
-Command Example Content
+Mit diesem Befehl kann bei Spigot und Paper Spigot die TPS (Ticks pro Sekunde) abgefragt werden.
+Die TPS gibt Aufschluss über die Performance des Servers. Die max. und beste TPS die der Server erzielen kann liegt bei 20.
+Die TPS wird für die letzten 60 Sekunden ausgegeben, wobei die zwei darauf folgenden Werte jeweils der Durchschnitt von 5 und 15 Minuten darstellen.
 
 ### /ban
 
-Command Description Contect
+Durch diesen Befehl kann ein Spieler vom Server ausgeschlossen werden, sodass dieser den Server unter keinen Umständen mehr betreten kann. Hierbei wird der Spieler-Account anhand dessen UUID selbst gebannt.
+
+> Bei Servern mit deaktiviertem Online-Mode können Spieler ihnen Namen ändern und erlangen somit wieder Zugang. in solch einem Fall wäre der IP-Ban durch Plugins die beste Lösung.
 
 **Beispiele:**
 
-``/worldborder``
+``/ban SpielerA``
 
-Command Example Content
+Hiermit wird als Beispiel der Spieler *SpielerA* vom Server gebannt.
+
+``/ban @a``
+
+Durch die Ausführung dieses Befehls werden alle aktuellen Spieler auf dem Server vom Server gebannt.
+Administratoren mit OP-Rechten sind hiervon nicht betroffen und bleiben weiterhin auf dem Server.
 
 ### /pardon
 
-Command Description Contect
+Durch die Nutzung dieses Befehls ist es möglich einen Ban (wie ein Punkt weiter oben beschrieben) wieder aufzuheben, sodass der Spieler den Server wieder betreten kann.
 
 **Beispiele:**
 
-``/worldborder``
+``/pardon SpielerA``
 
-Command Example Content
+Der Spieler *SpielerA* wird von der Ban-Liste entfernt und kann den Server damit wieder betreten.
 
 ### /kick
 
-Command Description Contect
+Mit diesem Befehl wird die Verbindung zwischen Server und dem angegebenen Spieler geschlossen. Dadurch verlässt der Server zwangsweise den Server kann aber direkt wieder verbinden.
 
 **Beispiele:**
 
-``/worldborder``
+``/kick SpielerA``
 
-Command Example Content
+Hierdurch wird der Spieler *SpielerA* vom Server geworfen mit der Nachricht "Kicked by an operator."
 
-### /whitelist
+``/kick SpielerA Kickgrund``
 
-Command Description Contect
-
-**Beispiele:**
-
-``/worldborder``
-
-Command Example Content
-
-### /summon
-
-Command Description Contect
-
-**Beispiele:**
-
-``/worldborder``
-
-Command Example Content
+Hierdurch wird der Spieler *SpielerA* vom Server geworfen mit der Nachricht "Kickgrund"
