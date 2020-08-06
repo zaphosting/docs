@@ -13,7 +13,7 @@ sidebar_label: Become Admin
 #### Requirements
 
 Firstly, you would need to locate your Steam64ID.
-You can use the following tool: [SteamID Lookup](https://steamid.io/lookup)
+You can use the following tool: [SteamID Lookup](https://steamid.io/lookup).
 The ID will later be entered in the configuration file.
 
 Here you can find an example of how you can get your steamid by inputting your profile link there:
