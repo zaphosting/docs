@@ -58,6 +58,6 @@ For example, to add admin and moderator to override the password:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/TmQHGLaTKZnj4fD/preview)
 
-> Hint: To open the remote admin console ingame, once you are logged into the server, you would use the "**M**" key to open the remote admin console. 
+> Hint: To open the remote admin console ingame, once you are logged into the server, you would use the "**M**" key. 
 
 > If the server is running, you will have to restart the server for it to take affect. Or if the server is offline, simply turn the server on and then check the Remote Admin Console ingame.
