@@ -20,7 +20,7 @@ Here you can find an example of how you can get your steamid by inputting your p
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/yPeWAQAGAiHRSKM/preview)
 
-#### Change Configuration File
+### Add Admins
 
 Now the configuration file has to be opened and edited.
 This is located in "**Configs**" under "**Settings**".
@@ -43,6 +43,20 @@ This can now be done for every additional user who should receive rights.
 In our example we set rights for three users, one of them gets "**owner**" the other two get "**admin**".
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/dpGCZcszyGGc3XR/preview)
+
+### Add More Roles to Override the Password
+
+If you have multiple roles you want to override the remote admin password, you can simply adjust the following line in the following file:
+"**config_remoteadmin.txt**
+
+Find exactly the following section: 
+
+![](https://screensaver01.zap-hosting.com/index.php/s/cX33xRnPZA2tn9z/preview)
+
+To add more roles, you simply write your desired roles with a comma.
+For example, to add admin and moderator to override the password:
+
+![](https://screensaver01.zap-hosting.com/index.php/s/TmQHGLaTKZnj4fD/preview)
 
 > Hint: To open the remote admin console ingame, once you are logged into the server, you would use the "**M**" key to open the remote admin console. 
 
