@@ -90,7 +90,8 @@
                     "vserver_windows_nointernet",
                     "vserver_windows_ftpserver",
                     "vserver_windows_installmysql",
-                    "vserver_windows_plesk"
+                    "vserver_windows_plesk",
+                    "vserver_windows_change_language"
                 ]
             }
         ],
@@ -129,6 +130,7 @@
                 "type": "subcategory",
                 "label": "Administration",
                 "ids": [
+                    "minecraft_commands",
                     "minecraft_addop",
                     "minecraft_default_config",
                     "minecraft_server-icon",
@@ -153,6 +155,13 @@
                 "label": "Bungeecord",
                 "ids": [
                     "minecraft_bungeecord_config"
+                ]
+            },
+            {
+                "type": "subcategory",
+                "label": "Forge",
+                "ids": [
+                    "minecraft_forge_add_mods"
                 ]
             }
         ],
@@ -229,6 +238,7 @@
                 "type": "subcategory",
                 "label": "CS:GO",
                 "ids": [
+                    "csgo_configuration",
                     "csgo_gotv"
 
                 ]
