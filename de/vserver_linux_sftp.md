@@ -4,7 +4,7 @@ title: Via SFTP verbinden
 sidebar_label: SFTP Verbindung
 ---
 
-## Wie verbinde ich mich via SFTP?
+## ❓ Wie verbinde ich mich via SFTP?
 
 Um dich via SFTP zu verbinden, musst du in Winscp auf SFTP umstellen: 
 

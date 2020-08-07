@@ -5,7 +5,6 @@
             "label": "First Steps",
             "ids": [
                 "firststeps_register",
-                "firststeps_rent",
                 "firststeps_rent_contractorprepaid",
                 "preorders",
                 "firststeps_rent_location",
@@ -91,7 +90,8 @@
                     "vserver_windows_nointernet",
                     "vserver_windows_ftpserver",
                     "vserver_windows_installmysql",
-                    "vserver_windows_plesk"
+                    "vserver_windows_plesk",
+                    "vserver_windows_change_language"
                 ]
             }
         ],
@@ -230,6 +230,7 @@
                 "type": "subcategory",
                 "label": "CS:GO",
                 "ids": [
+                    "csgo_configuration",
                     "csgo_gotv"
 
                 ]

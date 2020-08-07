@@ -18,7 +18,7 @@ But if he is online and still has no internet, you can check this via the serial
 
 ## 🖥 How do I re-establish the connection?
 
-First of all, we connect to the server via the serial console as shown below. 
+First of all, we connect to the server via the serial console as shown below and log into it. 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/2WjFgoyE5fdstd6/preview)
 

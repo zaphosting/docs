@@ -19,8 +19,6 @@ First you should log on to the server via [Icecon](https://github.com/icedream/i
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/3S2ZZ2gRDsRmXyN/preview)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SnNcYqkSgkFFsL8/preview)
-
 After we are logged in, we can now start the Profiler with the following command:
 
 ```
@@ -43,24 +41,24 @@ If it says "Recording: No", then the recording is finished and we can now look a
 profiler view
 ```
 
-![](https://screensaver01.zap-hosting.com/index.php/s/jecKZDyboFoGbcA/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/FRgiSsiYeoQ5EER/preview)
 
 We can now open this URL in Chrome or Firefox.
 
 
 ### ❓ Identifying Problems
 
-![](https://screensaver01.zap-hosting.com/index.php/s/ZkW36eTKXsmsxRq/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/ksymeAb62DtY4Kg/preview)
 
 Now we are in the Profiler and can see the performance information, it looks more complicated at the beginning than it is.
 
 We now select a "tick" that consumes a lot of performance:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/R7Z4HwF3y2wAHGj/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/gPaQ2LwowKtN8W6/preview)
 
 Now scroll in so that we can see the individual times:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/BFJgqJE6SrBK5Ws/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/7bYbwFkwdKFJRbB/preview)
 
 Now we can see which resources are consuming a lot of time.
 

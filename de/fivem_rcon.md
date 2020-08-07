@@ -27,10 +27,10 @@ Bei der Server IP & Port geben wir einfach die ganze IP unseres Gameservers an.
 
 Das Passwort kann in den Einstellungen deines Gameservers gefunden werden.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/Y2pcfPJPYC5fnbJ/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/MErKnmEN6XYzkXj/preview)
 
 Diese Daten geben wir nun in Icecon ein und drücken OK
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SnNcYqkSgkFFsL8/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/A6EPZJorgoCNLK9/preview)
 
 Nun sind wir in Icecon angemeldet und können Commands Ausführen.

@@ -4,10 +4,12 @@ title: What is VNC?
 sidebar_label: What is  VNC (Serial console)?
 ---
 
-## What is  VNC (Serial console)?
+## ❓ What is VNC (Serial console)?
 
 VNC or Serial console is a way to connect to your v/RootServer if it has no active internet connection. So if you ever got your ip settings messed up, this is the best solution to fix it.
 
+
+## 💻 How do i use VNC?
 The VNC console can be accessed via the menu on the left side.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/pQ97SiZLTGKdgCN/preview)

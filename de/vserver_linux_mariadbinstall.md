@@ -4,13 +4,11 @@ title: MariaDB (MySQL) Installation
 sidebar_label: MariaDB (MySQL) Installation
 ---
 
-## MariaDB (MySQL) unter Linux
-
 Im folgenden lernst du wie du einen MariaDB (MySQL) Server auf deinem Linux vServer oder Rootserver installieren kannst. 
 In den Beispielen wird Debian 10 als Betriebssystem verwendet, die Befehle können bei anderen Linux Distributionen abweichen.
 Verbinde dich nun via SSH mit deinem Server, wie das funktioniert erfähst du hier: ![Erstzugriff (SSH) unter Linux](https://zap-hosting.com/guides/docs/de/vserver_linux_ssh/)
 
-## Aktualisieren der Pakete
+## 🔄 Aktualisieren der Pakete
 
 Zu Beginn müssen vorhandene Pakete aktualisiert werden, dies geschieht mithilfe des folgenden Befehls: **apt update**
 
@@ -19,9 +17,12 @@ Zu Beginn müssen vorhandene Pakete aktualisiert werden, dies geschieht mithilfe
 Dadurch werden nun alle Paketquellen aktualisiert, im Anschluss kannst du die Aktualisierungen mit folgendem Befehl installieren: **apt upgrade -y**
 
 
-## Starten der Installation von MariaDB (MySQL)
+## 📥 Starten der Installation
 
 Die Installation von MariaDB (MySQL) startest du mit folgendem Befehl: **apt install mariadb-server mariadb-client -y**
+
+
+## ⚙️ Konfiguration
 Nachdem die Installation abgeschlossen ist gibst du folghenden Befehl ein um die Konfiguration des Servers zu starten: **mysql_secure_installation**
 
 Führe nun die Konfiguration deines MariaDB (MySQL) Servers durch, im folgenden legen wir auch ein Passwort für deinen Server fest.

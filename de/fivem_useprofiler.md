@@ -19,15 +19,11 @@ Zuerst sollte man sich über [Icecon](https://github.com/icedream/icecon/release
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/Y2pcfPJPYC5fnbJ/preview)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SnNcYqkSgkFFsL8/preview)
-
 Nachdem wir angemeldet sind, können wir nun den Profiler mit folgendem Command starten:
 
 ```
 profiler record 25
 ```
-
-![](https://screensaver01.zap-hosting.com/index.php/s/syTtBk7RicHYdBP/preview)
 
 Danach sollten wir für ca 10 Sekunden warten, und überprüfen, ob der Profiler noch läuft:
 
@@ -35,32 +31,30 @@ Danach sollten wir für ca 10 Sekunden warten, und überprüfen, ob der Profiler
 profiler status
 ```
 
-![](https://screensaver01.zap-hosting.com/index.php/s/zRwfoRfXQJq5mem/preview)
-
 Wenn dort "Recording: No" steht, dann ist die Aufnahme fertig und wir können uns nun die aufgenommenen Daten anschauen, über dem Command:
 
 ```
 profiler view
 ```
 
-![](https://screensaver01.zap-hosting.com/index.php/s/jecKZDyboFoGbcA/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/FRgiSsiYeoQ5EER/preview)
 
 Diese URL können wir nun in Chrome oder Firefox öffnen.
 
 
 ### ❓ Probleme Identifizieren
 
-![](https://screensaver01.zap-hosting.com/index.php/s/ZkW36eTKXsmsxRq/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/ksymeAb62DtY4Kg/preview)
 
 Nun sind wir im Profiler und können die Performanceinfos sehen, das sieht am Anfang komplizierter aus, als es ist.
 
 Wir wählen nun einen "Tick" aus, welcher viel Performance verbraucht:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/R7Z4HwF3y2wAHGj/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/gPaQ2LwowKtN8W6/preview)
 
 Nun reinscrollen, sodass wir die einzelnen Zeiten sehen:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/BFJgqJE6SrBK5Ws/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/7bYbwFkwdKFJRbB/preview)
 
 Nun können wir sehen, welche Resourcen sehr viel zeit verbrauchen.
 

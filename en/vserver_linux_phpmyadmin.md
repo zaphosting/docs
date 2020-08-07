@@ -3,11 +3,10 @@ id: vserver_linux_phpmyadmin
 title: phpMyAdmin
 sidebar_label: phpMyAdmin
 ---
-## phpMyAdmin installation
 
 > ⚠️ A working MySQL/MariaDB and an Apache2 server is required!
 
-## System Update
+## 🔄 System Update
 
 First, you should check whether the server is up to date. To do this, the update command is executed: 
 
@@ -29,7 +28,7 @@ The server is now up to date.
 apt install sudo -y
 ```
 
-## Start the Installation of phpMyAdmin
+## 📥 Start the Installation of phpMyAdmin
 
 First, the installation directory is selected in which phpMyAdmin is to be installed. This is done with the following command: 
 
@@ -73,7 +72,7 @@ After this is done, the original ZIP file can be removed and the necessary right
 rm phpmyadmin.zip; chmod -R 0755 phpmyadmin
 ```
 
-### Creation of the Apache2 phpMyAdmin-Config 
+### 🔨 Creation of the Apache2 phpMyAdmin-Config 
 
 The Apache2-phpMyAdmin-Config is created with the following command:
 
@@ -116,7 +115,7 @@ The Apache2 server must then be reloaded:
 systemctl reload apache2
 ```
 
-### Creating the required temporary directory for phpMyAdmin
+### 📁 Creating the required temporary directory for phpMyAdmin
 
 For phpMyAdmin to work properly, the following directory must be created:
 
