@@ -321,6 +321,10 @@
         "title": "Server Config",
         "sidebar_label": "Server Config"
       },
+      "minecraft_forge_add_mods": {
+        "title": "Mods installieren",
+        "sidebar_label": "Mods installieren"
+      },
       "minecraft_pluginuploader": {
         "title": "Plugin Uploader",
         "sidebar_label": "Plugin Uploader"
