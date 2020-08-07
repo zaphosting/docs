@@ -4,79 +4,72 @@ title: FTP Service isn't working
 sidebar_label: FTP Service isn't working
 ---
 
-## Was kann man tun wenn der Gameserver oder Teamspeak Server nicht via FTP erreichbar ist? 
+## What can you do if the gameserver or teamspeak server is not accessible via FTP?
 
-> ⚠️ Achtung: Die nachfolgenden Schritte funktionieren nur auf einem eigenen vServer/Root Server wenn das ZAP-Webinterface installiert wurde!
+> ⚠️ Attention: The following steps only work on your own vServer/Root Server if the ZAP web interface has been installed!
 
-Sollten die angelgten Server nicht via FTP erreichbar sein, so ist in den meisten Fällen der FTP Dienst (ProFTPD) nicht aktiv. 
-In selten Fällen kann dies auch an einer nicht korrekten Config oder einem belegten Port liegen, sprich der FTP Port 21 wird von einem anderen Programm genutzt/belegt. 
+If the created server cannot be reached via FTP, the FTP service (ProFTPD) is not active in most cases. In rare cases this can also be due to an incorrect config or an occupied port, i.e. FTP port 21 is used / occupied by another program.
 
-## Das FTP Problem genauer prüfen:
+## Check the FTP problem more closely:
 
-### Erreichbarkeit Prüfen
-Das kann man ganz einfach über den FTP Browser im Webinterface machen. 
-Man klickt links im Menü unter Werkzeuge des jeweilgen Servers auf "FTP-Browser"
+### Check Availability
+You can easily do this using the FTP browser in the web interface. Click on "FTP browser" in the menu under Tools of the respective server
 
-![](https://screensaver01.zap-hosting.com/index.php/s/3anaWAXfTfnRCry/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/SmJ4zQaFjz67mXm/preview)
 
+Then press the "Direct Connection" button once. 
 
-Anschließen klingt man auf den grünen Button "Direktverbindung"
+![](https://screensaver01.zap-hosting.com/index.php/s/szbdPj6k4kpoKk7/preview)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/XPb7MmdxLpDreTa/preview)
+Now you will probably see the following picture:
 
-Nun wird man vermutlich folgendes Bild sehen: 
+![](https://screensaver01.zap-hosting.com/index.php/s/egSesA5JyCTgfPQ/preview)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/qiKZBsDDj2BaSwX/preview)
+If you have already tried an FTP tool, it will very likely have already displayed an error similar to the following:
 
-Hat man bereits ein FTP-Tool probiert, so wird dieses sehr wahrscheinlich auch bereits einen ähnlichen Fehler wie folgenden Fehler angezeigt haben: 
-
-![](https://screensaver01.zap-hosting.com/index.php/s/oM7dkPdfZ9r2Ann/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/kHwStfCDqbkJpJW/preview)
 
 
-Da nun klar ist, das weder eine Verbindung via WebFTP oder FTP-Tool möglich ist, muss man sich nun den FTP Dienst auf dem vServer oder Root Server genauer ansehen. 
+Since it is now clear that a connection via WebFTP or FTP tool is not possible, you have to take a closer look at the FTP service on the vServer or root server.
+
+### Check ProFTPD Status
+
+To do this, you connect to your server via SSH / Console and then enter the command "service proftpd status". The status is now read out and displayed accordingly:
+
+![](https://screensaver01.zap-hosting.com/index.php/s/dtPGebjqBgrFwrH/preview)
 
 
-### ProFTPD Status Prüfen
-Dazu verbindet man sich via SSH/Console mit seinem Server und gibt anschließend den Befehl "service proftpd status" ein. 
-Es wird nun der Status ausgelesen und entsprechend angezeigt:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/qTeq5MZksCXymYM/preview)
+There you can see that the status reports "dead", in short the service is offline and therefore not accessible.
 
 
-Dort ist zu erkennen das der Status "dead" meldet, kurz gesagt ist der Dienst offline und somit nicht erreichbar. 
-
-
-### FTP Dienst Neustarten
-Folgendem Befehl kann der FTP Dienst neugestartet werden:
-
+### Restart FTP Service
+The FTP service can be restarted with the following command:
 
 ```
 service proftpd start
 ```
 
-Kommt keine Rückmeldung nach der Ausführung des Befehls, ist der Dienst in der Regel wieder online/verfügbar. 
+If there is no response after the command has been executed, the service is usually online/available again.
 
-Das ganze kann dann mit dem Befehl "service proftpd status" noch einmal verifiziert werden. 
-Es sollte dann wie folgt aussehen: 
+The whole thing can then be verified again with the command "service proftpd status". It should look like this:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/ZHCFppHqH6LQLxw/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/6DtNF7c6g7pTxHN/preview)
 
+Since the status is now "active" again and no longer "dead", the FTP connection can be tried again using the FTP tool and WebFTP.
 
-Da der Status nun wieder "active" lautet und nicht mehr "dead" kann die FTP Verbindung via FTP-Tool und WebFTP erneut probiert werden. 
-
-### Verbindung erneut prüfen
-Man sollte nun eine Verbindung aufbauen und seine Daten einsehen können: 
+### Check the connection again
+You should now be able to establish a connection and view your data:
 
 #### Via WebFTP: 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/kXZXoYFLE7AZRgg/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/r2XG5dgJDj98mZH/preview)
 
 
 #### Via FTP-Tool: 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/mKAwzTfkSkHosL9/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/yFyKEnL8gYYrj3C/preview)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/sPDj9f35HxtL6GF/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/8TKakoMaR6kLbRq/preview)
 
-### Problem gelöst
-✅ Der FTP Dienst (ProFTPD) ist nun wieder gestartet/aktiv und dem Datenaustausch steht nichts mehr im Wege!
+### Problem Solved
+✅ The FTP service (ProFTPD) is now started/active again and nothing stands in the way of data exchange!
