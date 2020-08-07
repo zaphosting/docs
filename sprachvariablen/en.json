@@ -81,6 +81,10 @@
         "title": "Community offers",
         "sidebar_label": "Community offers"
       },
+      "cs_configuration": {
+        "title": "Server configuration",
+        "sidebar_label": "Server Configration"
+      },
       "csgo_gotv": {
         "title": "GOTV",
         "sidebar_label": "GOTV"
@@ -504,6 +508,10 @@
       "vserver_windows_addip": {
         "title": "Add additional IPs",
         "sidebar_label": "Add additional IPs"
+      },
+      "vserver_windows_change_language": {
+        "title": "Add/change language",
+        "sidebar_label": "Add/change language"
       },
       "vserver_windows_ftpserver": {
         "title": "FTP Server installieren",
