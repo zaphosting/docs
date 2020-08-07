@@ -522,8 +522,8 @@
         "sidebar_label": "Add/change language"
       },
       "vserver_windows_ftpserver": {
-        "title": "FTP Server installieren",
-        "sidebar_label": "FTP Server installieren"
+        "title": "FTP Server Installation",
+        "sidebar_label": "FTP Server Installation"
       },
       "vserver_windows_installmysql": {
         "title": "Install MySQL Server",
