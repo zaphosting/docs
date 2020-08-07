@@ -434,8 +434,8 @@
         "sidebar_label": "Voicebot Connection"
       },
       "vserver_linux_add_ip": {
-        "title": "IPv4 Adresse hinzufügen",
-        "sidebar_label": "IPv4 Adresse hinzufügen"
+        "title": "Add IPv4 Address",
+        "sidebar_label": "Add IPv4 Address"
       },
       "vserver_linux_dnsserver": {
         "title": "DNS Server (ISPConfig)",
