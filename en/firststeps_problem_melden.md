@@ -31,24 +31,27 @@ If live chat is not an option for you and you still want to report your problem 
 * A detailed description of your problem *(Since when has the problem existed? How often does it happen? What was changed on the server before?)* 
 
 
-
 ![](https://screensaver01.zap-hosting.com/index.php/s/Jwoq727oomXQ5bx/preview)
 
 > Simply click on the logo at the top of the web interface
 
+![](https://screensaver01.zap-hosting.com/index.php/s/KSMHbAQnS3GEJFP/preview)
 
+> You will then be taken to a page where you can see all your previous tickets, as well as write new ones. 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/TnnE87894KBBAMQ/preview)
+## 📰 Writing The Ticket 
 
-> The link leads you to all current tickets you have created so far
+![](https://screensaver01.zap-hosting.com/index.php/s/8HoWmJck7jNxF7D)
 
+> To write the ticket, you can simply push the "**Create Ticket**" button. 
 
+![](https://screensaver01.zap-hosting.com/index.php/s/QpWdzRjJpo9FfH7/preview)
+
+> You can then choose between a "**No Speed-UP**" and a "**Speed-UP**" ticket. Of course this would be decided by you. 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/QexXxcYj923TnzY/preview)
 
 > Define your request exactly here and submit the ticket
-
-
 
 ## ☹️ No help via social media?
 
