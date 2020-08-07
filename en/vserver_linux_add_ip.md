@@ -1,21 +1,22 @@
 ---
 id: vserver_linux_add_ip
-title: IPv4 Adresse hinzufügen
-sidebar_label: IPv4 Adresse hinzufügen
+title: Add IPv4 Address
+sidebar_label: Add IPv4 Address
 ---
 
-## Zusätzlich(e) IPv4 Adresse(en) hinzufügen
+## Add Additional IPv4 address(es)
 
-Sofern diese nicht bereits automatisch eingetragen wurde, kann diese manuell in die Netzwerkconfig eingetragen werden. 
+If this has not already been entered automatically, it can be entered manually in the network config.
 
-### Schrit 1️⃣
-Die Netzwerkconfig wird mit einem Editor geöffnet, z.b mit "nano". 
+### Step 1️⃣
+The network config is opened with an editor, eg with "nano".
 ```
 sudo nano /etc/network/interfaces
 ```
-> ⚠️Achtung die Config muss mit root Rechten bearbeitet werden.
+> ⚠️ The config must be edited with root rights.
 
-In der Config ist bereits ein Eintrag vorhanden der z.b so aussehen könnte:
+There is already an entry in the config that could look like this:
+
 ```
 auto lo
 iface lo inet loopback
@@ -26,19 +27,16 @@ iface eth0 inet static
         netmask 255.255.255.0
         gateway 123.123.123.1
 ```
-Dort wird das Interface "eth0" angegeben sowie die IPv4, ihre Netzmaske und Gateway. 
+There the interface "eth0" is specified as well as the IPv4, its netmask and gateway.
 
-### Schrit 2️⃣
+### Step 2️⃣
 
-Um eine weitete IPv4 hinzuzufügen, muss ein weiteres Interface eingetragen werden, z.b "eth1".
-Die zusätzliche IPv4 lautet z.b 124.124.124.55.
-Die Netzwerkmaske lautet 255.255.255.0, da es ein Klasse C Netz ist. 
-Das Gateway ist immer die IPv4 Adresse mit einer 1 am Ende.
+In order to add a further IPv4, another interface must be entered, eg "eth1". The additional IPv4 is e.g. 124.124.124.55. The network mask is 255.255.255.0 because it is a class C network. The gateway is always the IPv4 address with a 1 at the end.
 
->⚠️Wichtig: Es muss die zusätzliche IPv4 sein, die im Webinterface unter IP Adressen angezeigt wird. 
+>⚠️ Important: It must be the additional IPv4 that is displayed in the web interface under IP addresses.
 
 
-Die zusätzliche Schnittstelle sehe dann wie folgt aus: 
+The additional interface then looks like this: 
 
 ```
 auto eth1
@@ -48,7 +46,7 @@ iface eth1 inet static
         gateway 124.124.124.1
 ```
 
-Zusammen mit der Schnittstelle "eth0" sieht die Config nun so aus:
+Together with the "eth0" interface, the config now looks like this:
 
 ```
 auto lo
@@ -66,19 +64,18 @@ iface eth1 inet static
         netmask 255.255.255.0
         gateway 124.124.124.1
 ```
-Die Confing muss dann gespeichert werden, bei "nano" z.b mit **STRG+X, y dann Enter**
+The confing must then be saved, with "nano" eg with **CTRL+X, y then Enter**
 
-### Schrit 3️⃣
+### Step 3️⃣
 
-Das Netzwerkmodul muss nun neugestartet werden, damit die die neue IPv4 Adresse aktiv wird, dies geschieht mit folgendem Befehl:
+The network module must now be restarted so that the new IPv4 address becomes active, this is done with the following command:
 ```
 sudo service networking restart
 ```
-Sobald dies abgeschlossen ist, ist der Server über beide IPv4 Adressen erreichbar. 
-Dies kann z.b mit einem Ping Check via Windows CMD oder Linux Terminal, je nach eigenem Rechner Betriebsystem geprüft werden:
+As soon as this is completed, the server can be reached via both IPv4 addresses. This can be checked, for example, with a ping check via Windows CMD or Linux Terminal, depending on your own computer operating system:
 ```
-ping DieNeueIP
+ping TheNewIP
 ```
-Die gleichen Schritte sind bei noch mehr zusätzliche IPv4 Adressen zu erledigen, das Interface erhöht sich dann immer um eine Zahl z.b "eth2", "eht3" usw.
+The same steps have to be done with even more additional IPv4 addresses, the interface then always increases by a number e.g. "eth2", "eht3" etc.
 
-✅Die zusätzliche IPv4 Adresse ist nun erfolgreich eingerichtet.
+✅ The additional IPv4 address has now been successfully set up.
