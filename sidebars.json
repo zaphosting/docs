@@ -156,6 +156,13 @@
                 "ids": [
                     "minecraft_bungeecord_config"
                 ]
+            },
+            {
+                "type": "subcategory",
+                "label": "Forge",
+                "ids": [
+                    "minecraft_forge_add_mods"
+                ]
             }
         ],
         "FiveM": [
