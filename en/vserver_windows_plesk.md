@@ -1,7 +1,7 @@
 ---
 id: vserver_windows_plesk
 title: Plesk Installation
-sidebar_label: Plesk installieren
+sidebar_label: Plesk Installation
 ---
 
 ## 🖥️ Establish a connection to the server
