@@ -130,6 +130,7 @@
                 "type": "subcategory",
                 "label": "Administration",
                 "ids": [
+                    "minecraft_commands",
                     "minecraft_addop",
                     "minecraft_default_config",
                     "minecraft_server-icon",
