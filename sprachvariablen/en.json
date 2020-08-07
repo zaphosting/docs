@@ -81,6 +81,10 @@
         "title": "Community offers",
         "sidebar_label": "Community offers"
       },
+      "cs_configuration": {
+        "title": "Server configuration",
+        "sidebar_label": "Server Configration"
+      },
       "csgo_gotv": {
         "title": "GOTV",
         "sidebar_label": "GOTV"
@@ -122,8 +126,8 @@
         "sidebar_label": "Domain TeamSpeak 3 Redirect"
       },
       "dst_create_cave": {
-        "title": "Create caves",
-        "sidebar_label": "Create caves"
+        "title": "Create Caves",
+        "sidebar_label": "Create Caves"
       },
       "firststeps_problem_melden": {
         "title": "How do i report problems?",
@@ -309,9 +313,17 @@
         "title": "Server Properties",
         "sidebar_label": "Server Properties"
       },
+      "minecraft_commands": {
+        "title": "General commands",
+        "sidebar_label": "General commands"
+      },
       "minecraft_default_config": {
         "title": "Server Config",
         "sidebar_label": "Server Config"
+      },
+      "minecraft_forge_add_mods": {
+        "title": "Mods installieren",
+        "sidebar_label": "Mods installieren"
       },
       "minecraft_pluginuploader": {
         "title": "Plugin Uploader",
@@ -358,8 +370,8 @@
         "sidebar_label": "Installing packages"
       },
       "scp_becomeadmin": {
-        "title": "Become admin",
-        "sidebar_label": "Become admin"
+        "title": "Become Admin",
+        "sidebar_label": "Become Admin"
       },
       "source_custom_content": {
         "title": "Custom Content",
@@ -390,8 +402,8 @@
         "sidebar_label": "Become Admin"
       },
       "suggestions": {
-        "title": "Submit suggestions",
-        "sidebar_label": "Submit suggestions"
+        "title": "Submit Suggestions",
+        "sidebar_label": "Submit Suggestions"
       },
       "terraria_tmodloader_installmod": {
         "title": "Mod installieren (tModLoader)",
@@ -505,6 +517,10 @@
         "title": "Add additional IPs",
         "sidebar_label": "Add additional IPs"
       },
+      "vserver_windows_change_language": {
+        "title": "Add/change language",
+        "sidebar_label": "Add/change language"
+      },
       "vserver_windows_ftpserver": {
         "title": "FTP Server installieren",
         "sidebar_label": "FTP Server installieren"
@@ -518,12 +534,12 @@
         "sidebar_label": "No Internet what now?"
       },
       "vserver_windows_plesk": {
-        "title": "Plesk installation",
-        "sidebar_label": "Plesk installation"
+        "title": "Plesk Installation",
+        "sidebar_label": "Plesk installieren"
       },
       "vserver_windows_port": {
         "title": "Port forwarding",
-        "sidebar_label": "Port forwarding"
+        "sidebar_label": "Port Forwarding"
       },
       "vserver_windows_userdp": {
         "title": "Initial access (RDP)",
@@ -542,8 +558,8 @@
         "sidebar_label": "FTP Connection"
       },
       "webspace_plesk_sendmail": {
-        "title": "E-Mails verschicken",
-        "sidebar_label": "E-Mails verschicken"
+        "title": "Sending Emails",
+        "sidebar_label": "Sending Emails"
       },
       "webspace_plesk_ssl": {
         "title": "SSL Zertifikat erstellen",
