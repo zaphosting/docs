@@ -90,7 +90,8 @@
                     "vserver_windows_nointernet",
                     "vserver_windows_ftpserver",
                     "vserver_windows_installmysql",
-                    "vserver_windows_plesk"
+                    "vserver_windows_plesk",
+                    "vserver_change_language"
                 ]
             }
         ],
@@ -229,6 +230,7 @@
                 "type": "subcategory",
                 "label": "CS:GO",
                 "ids": [
+                    "csgo_configuration",
                     "csgo_gotv"
 
                 ]
