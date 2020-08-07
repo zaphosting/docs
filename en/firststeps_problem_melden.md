@@ -49,9 +49,9 @@ If live chat is not an option for you and you still want to report your problem 
 
 > You can then choose between a "**No Speed-UP**" and a "**Speed-UP**" ticket. Of course this would be decided by you. 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/QexXxcYj923TnzY/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/wNAk3RfjWPYE3Hz/preview)
 
-> Define your request exactly here and submit the ticket
+> Define your request exactly here and submit the ticket. You'll be emailed, as well as notified in LiveChat, as soon as you have a reply!
 
 ## ☹️ No help via social media?
 
