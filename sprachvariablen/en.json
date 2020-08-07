@@ -313,6 +313,10 @@
         "title": "Server Properties",
         "sidebar_label": "Server Properties"
       },
+      "minecraft_commands": {
+        "title": "sidebar_label: General commands",
+        "sidebar_label": "General commands"
+      },
       "minecraft_default_config": {
         "title": "Server Config",
         "sidebar_label": "Server Config"
