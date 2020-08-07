@@ -534,8 +534,8 @@
         "sidebar_label": "No Internet what now?"
       },
       "vserver_windows_plesk": {
-        "title": "Plesk installation",
-        "sidebar_label": "Plesk installation"
+        "title": "Plesk Installation",
+        "sidebar_label": "Plesk installieren"
       },
       "vserver_windows_port": {
         "title": "Port forwarding",
