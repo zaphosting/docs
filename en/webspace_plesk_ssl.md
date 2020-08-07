@@ -1,120 +1,103 @@
 ---
 id: webspace_plesk_ssl
-title: SSL Zertifikat erstellen
-sidebar_label: SSL Zertifikat erstellen
+title: Create SSL Certificate
+sidebar_label: Create SSL Certificate
 ---
 
-## Webseite mit SSL verschlüsseln
+## Encrypt website with SSL
 
->Es wird vorausgesetzt das die Domain bereits auf die IP des Webspaces zeigt.
+> It is assumed that the domain already points to the IP of the web space.
 
-Wird eine Domain im Webspace angelegt, so ist diese am Anfang immer unverschlüsselt. 
-Dies ist A im Plesk Panel zusehen: 
+If a domain is created in the web space, it is always unencrypted at the beginning. This can be seen in the Plesk panel:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/9Zrc5wkL8EM4GfL/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/2P6HNRTgwqiqqrW/preview)
 
-Und B im Browser, beim öffnen der Domain:
+And the notification in the browser when opening the domain:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/8eJwt8wqFy3b2NX/preview)
-![](https://screensaver01.zap-hosting.com/index.php/s/KCE9fTnwXFKEd8W/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/xJkG6dQL2wLX5T7/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/gKC6datzja8mD6q/preview)
 
-Durch ein SSL Zertifikat, kann eine Domain entsprechend geschützt/verschlüsselt werden. 
+With an SSL certificate, a domain can be protected/encrypted accordingly.
 
-## Anlegen des Zertifkates 
+## Creation of the Certificate 
 
-Schritt 1️⃣: Durch ein Doppelklick auf "SSL/TLS-Zertifikat" öffent sich folgendes Menü:
-![](https://screensaver01.zap-hosting.com/index.php/s/PDgzLNWWycPYwfP/preview)
+Step 1️⃣: With a double click on "SSL/TLS Certificate" the following menu opens::
+![](https://screensaver01.zap-hosting.com/index.php/s/kpC2f9zaLL2AsYn/preview)
 
-Dort kann kostenlos ein Lets Encrypt Zertifikat angefordert werden. 
+A Lets Encrypt Certificate can be requested free of charge.
 
-Schritt 2️⃣: Erorferliche Angaben eintragen/setzen. 
-Damit das Zertifikat angefordert werden kann, müssen Angeben erfolgen. 
+Step 2️⃣: Enter/fill in the required information. In order for the certificate to be requested, details must be provided.
 
-Es muss eine Mail Adresse angegeben werden sowie muss angehakt werden, für was das Zertifikat gültig sein soll. 
-In der Regel hat jede Domain auch die Subdomain "www" aktiv, daher wird es ebenfalls ausgewählt, sofern es auch im DNS der Domain eingetragen wurde. 
+A mail address must be specified and a check must be made of what the certificate should be valid for. As a rule, each domain also has the subdomain "www" active, which is why it is also selected if it has also been entered in the DNS of the domain.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/59tNrkoMktsEFd5/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/N5JT5CyHKBb4nWF/preview)
 
-Anschließend wird das Zertifikat mit einem Klick auf auf "Kostenlos nutzen" angefordert.
+If webmail is also used and is stored as a subdomain in the DNS of the domain, this can also be applied to it. If you want to do it without webmail, you can deactivate it accordingly by clicking on the blue CheckBox:
 
-Schritt 3️⃣: Das Zertifikat wurde nun erstellt, dies ist oben Rechts zu sehen. Zusätzlich muss nun die automatische Weiterleitung von HTTP zu HTTPS erfolgen, da sonst keine Verschlüsslung aufgebaut werden kann. 
-Dies erfolgt mit einem Klick auf den SChieberegler bei "Von HTTP auf HTTPS umleiten" links am Rand:
+![](https://screensaver01.zap-hosting.com/index.php/s/KfGDnKqQSF6jn94/preview)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/KmJLFgeCTTWa5RR/preview)
+The certificate is then requested by clicking on "Get it free".
 
-Sofern auch Webmail genutzt wird und im DNS der Domain als Subdomain hinterlegt ist, kann dieses mit darauf angewendet werden. 
-Soll es ohne Webmail geschen, so kann dies entsprechend deaktiviert werden mit einem Klick auf die blaube CheckBox:
+Step 3️⃣: The certificate has now been created, this can be seen at the top right. In addition, the automatic forwarding from HTTP to HTTPS must now take place, since otherwise encryption cannot be established: 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/gqWDRQ25BX8QxPr/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/fGWx4LjBoR8tbgz/preview)
 
-Ist dies erfolgt, so ist die Weiterleitung nun aktiv. Egal ob man die Seite mit http oder direkt https öffnet im Browser, es wird nun immer zu https geleitet. 
+If this has been done, the forwarding is now active. No matter whether you open the page with http or https directly in the browser, it is now always directed to https. 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/wqsGd33jkoqR9xY/preview)
+Step 4️⃣: Now you can check in the browser whether the certificate has been recognized:
 
-Im SSL/TLS Zertifikats Menü wird nun angezeigt was geschützt ist und was nicht: 
+The lock must be present: 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/cEiH84QgoweCDXq/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/KwAJAdFmr3R9Sa3/preview)
 
-Schritt 4️⃣: Nun kann im Browser geprüft werden, ob das Zertifikat anerkannt wurde:
+The certificate info, which can be opened by clicking on the lock, should also show the domain:
 
-Das Schloss muss vorhanden sein: 
+![](https://screensaver01.zap-hosting.com/index.php/s/GRKwCdr6dinQrCE/preview)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/Wq78oWc74LKZzjR/preview)
+The website is now properly protected/encrypted. 
 
-Ebenfalls sollte die Zertifikat Info, welche mit einem Klick auf das Schloss geöffnet werden kann, die Domain anzeigen: 
+## Certificates for Subdomains 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/J9y9wQysx4Q2zfn/preview)
+The same steps can theoretically also be followed for a subdomain. However, there is also an easier way to encrypt all subdomains at the same time, regardless of whether they already exist or which are new. A "wildcard certificate" can be used for this. This requires a special TXT entry in the DNS of the domain. As soon as it is available, however, it can issue an SSL certificate for all subdomains.
 
-Die Webseite ist nun korrekt geschützt/verschlüsselt. 
+Step 1️⃣: The SSL/TLS certificate menu is opened again.
 
-## Zertifikate für Subdomains 
+![](https://screensaver01.zap-hosting.com/index.php/s/ZxaByKzwWiAcmKK/preview)
 
-Die gleichen Schritte sind bei einer Subdomain theoretisch ebenfalls zu befolgen. 
-Jedoch gibt es auch eine einfachere Möglichkeit alle Subdomains gleichzeitg zu verschlüsseln, egal ob bereits bestehende oder welche die erst noch neu hinzukommen. 
-Dazu kann ein "Wildcard-Zertifikat" genutzt werden. 
-Dies benötigt einen speziellen TXT Eintrag im DNS der Domain, kann sobald dieser vorhanden ist, jedoch für alle Subdomains ein SSL Zertifkat austellen. 
+Then click on "Renew Certificate" in the top left. 
+Now the Lets Encrypt request window opens:
 
-Schritt 1️⃣: Es wird erneut das SSL/TLS Zertifikat Menü geöffnet. 
+![](https://screensaver01.zap-hosting.com/index.php/s/9CEB9tpm6yw3kwB/preview)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/tzmRmMGgzqfsfBe/preview)
+Now select "Secure the wildcard domainn":
 
-Anschließend wird links oben auf "Zertifikat erneuern" geklickt. 
-Nun öffnet sich das Anfrage Fenster von Lets Encrypt:
+![](https://screensaver01.zap-hosting.com/index.php/s/9CEB9tpm6yw3kwB/preview)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/tt8oyA7pQNk8cXs/preview)
+The subdomain "www" and "webmail" are automatically added. 
+The button "Get it free" is then clicked again.
 
-Dort wird nun "Wildcard-Domain schützen" ausgewählt:
+Step 2️⃣: A blue box now appears with important information:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/tt8oyA7pQNk8cXs/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/KA972jR4N9Tfsze/preview)
 
-Es wird automatisch die Subdomain "www" sowie "webmail" hinzugefügt. 
-Anschließen wird wieder der Button "Kostenlos nutzen" angeglickt. 
+A domain name and a value are given there. This must be permanently available as a TXT in the DNS of the domain, this is the only way Lets Encrypt can ensure that the domain is genuine and can be verified.
 
-Schritt 2️⃣: Es erscheint nun eine blaue Box mit wichtigen Informationen: 
+An entry in the DNS should look like this:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/Pm2BqmHcTesgYoi/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/PSRWy836JQArcB8/preview)
 
-Dort wird ein Domain Name sowie ein Wert genannt. 
-Dieser muss als TXT dauerhaft im DNS der Domain abrufbar sein, nur so kann Lets Encrypt sicherstellen, das die Domain echt ist und verifiziert werden kann. 
+> A DNS entry can take up to 24 hours to be accessible from anywhere in the world.
 
-Ein Eintrag im DNS sollte so aussehen: 
+To ensure that the TXT entry is already active, the "TXT Lookup SuperTool" from mxtoolbox can be used: https://mxtoolbox.com/SuperTool.aspx:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/G8CGqgR7yaAHBmX/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/cbdmKAc55zrQPHZ/preview)
 
->Ein DNS Eintrag kann nach der Eintragung bist zu 24 Stunden benötigen, bis dieser von der ganzen Welt aus erreichbar ist. 
+If the entered entry is already displayed, it can be confirmed in the blue box in Plesk by clicking on "Reload". Now it is checked whether the DNS entry is present, since this is the case, after a few seconds "protected" is displayed for "SSL/TLS-holder Ccertificate" aka "Wildcard Certificate":
 
-Um sicherzustellen, das der TXT Eintrag bereits aktiv ist, kann das "TXT-Lookup-SuperTool" von mxtoolbox genutzt werden: https://mxtoolbox.com/SuperTool.aspx:
+![](https://screensaver01.zap-hosting.com/index.php/s/dgdTX6tnJzgsdCP/preview)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/rkwpzLe79K3WDsz/preview)
-
-Sofern der eingetrage Eintrag bereits angezeigt wird, kann es in der blauen Box in Plesk bestätigt werden mit einem Klick auf "Neu laden". 
-Nun wird geprüft ob der DNS Eintrag vorhanden ist, da dies der Fall ist, wird nach wenigen Sekunden "geschützt" bei "SSL/TLS-Paltzhalterzertifikat" aka "Wildcard-Zertifikat" angezeigt: 
-
-![](https://screensaver01.zap-hosting.com/index.php/s/yiTGafez5Grkd3j/preview)
-
-Wird nun eine Subdomain angelegt, ist diese bereits geshützt: 
+If a subdomain is now created, it is already protected: 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/MjyFH7SWgeiy54s/preview)
 
-Nun erfolgt der vollständige Datentransfer zur Seite verschlüsselt, fertig. 
-
+Now the complete data transfer is encrypted to the side, done.
