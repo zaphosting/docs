@@ -562,8 +562,8 @@
         "sidebar_label": "Sending Emails"
       },
       "webspace_plesk_ssl": {
-        "title": "SSL Zertifikat erstellen",
-        "sidebar_label": "SSL Zertifikat erstellen"
+        "title": "Create SSL Certificate",
+        "sidebar_label": "Create SSL Certificate"
       }
     },
     "links": {
