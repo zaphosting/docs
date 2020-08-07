@@ -539,7 +539,7 @@
       },
       "vserver_windows_port": {
         "title": "Port forwarding",
-        "sidebar_label": "Port forwarding"
+        "sidebar_label": "Port Forwarding"
       },
       "vserver_windows_userdp": {
         "title": "Initial access (RDP)",
