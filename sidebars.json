@@ -91,7 +91,7 @@
                     "vserver_windows_ftpserver",
                     "vserver_windows_installmysql",
                     "vserver_windows_plesk",
-                    "vserver_change_language"
+                    "vserver_windows_change_language"
                 ]
             }
         ],
