@@ -558,8 +558,8 @@
         "sidebar_label": "FTP Connection"
       },
       "webspace_plesk_sendmail": {
-        "title": "E-Mails verschicken",
-        "sidebar_label": "E-Mails verschicken"
+        "title": "Sending Emails",
+        "sidebar_label": "Sending Emails"
       },
       "webspace_plesk_ssl": {
         "title": "SSL Zertifikat erstellen",
