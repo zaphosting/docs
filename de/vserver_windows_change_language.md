@@ -1,5 +1,5 @@
 ---
-id: vserver_change_language
+id: vserver_windows_change_language
 title: Sprache hinzufügen/ändern
 sidebar_label: Sprache hinzufügen/ändern
 ---
