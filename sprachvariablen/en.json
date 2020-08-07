@@ -394,8 +394,8 @@
         "sidebar_label": "Plugins"
       },
       "spaceengineers_addmods": {
-        "title": "Mods installieren",
-        "sidebar_label": "Space Engineers Mods installieren"
+        "title": "Mods Installation",
+        "sidebar_label": "Space Engineers Mods Installation"
       },
       "spaceengineers_becomeadmin": {
         "title": "Become Admin",
