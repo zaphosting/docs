@@ -535,7 +535,7 @@
       },
       "vserver_windows_plesk": {
         "title": "Plesk Installation",
-        "sidebar_label": "Plesk installieren"
+        "sidebar_label": "Plesk Installation"
       },
       "vserver_windows_port": {
         "title": "Port forwarding",
