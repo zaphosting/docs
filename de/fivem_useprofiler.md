@@ -17,7 +17,7 @@ Dieser Profiler ist in FiveM integriert und kann bei jedem Server benutzt werden
 
 Zuerst sollte man sich über [Icecon](https://github.com/icedream/icecon/releases) an den Server anmelden, das Passwort dazu kann in den Einstellungen des Servers gefunden werden:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/Y2pcfPJPYC5fnbJ/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/YkH4JRrCTx8GD6P/preview)
 
 Nachdem wir angemeldet sind, können wir nun den Profiler mit folgendem Command starten:
 
