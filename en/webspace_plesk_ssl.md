@@ -34,7 +34,7 @@ A mail address must be specified and a check must be made of what the certificat
 
 If webmail is also used and is stored as a subdomain in the DNS of the domain, this can also be applied to it. If you want to do it without webmail, you can deactivate it accordingly by clicking on the blue CheckBox:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/KfGDnKqQSF6jn94/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/nbyHPwX6BokrKqs/preview)
 
 The certificate is then requested by clicking on "Get it free".
 
