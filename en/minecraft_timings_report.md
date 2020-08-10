@@ -4,80 +4,79 @@ title: Timings-Report
 sidebar_label: Timings-Report
 ---
 
-## Erklärung
+## Explanation
 
-### ❓ What is a Timing Report?
+### ❓ What is a timing report?
 
-A timing report is very similar to the task manager on your PC and makes it possible to find the problem, especially at Lags. A timing report records all processes on the server and then visually displays them.
+Timings reports are very similar to the task manager of your computer which allows you to find the problem especially in case of laggs. A timing report records all activities of the server and displays them visually.
 
-## Create a Timing Report
+## Timing report
 
-## 📈 Create Timing Report
+## 📈 Create timing report
 
-Depending on the server software, the timing report is created differently. Basically, with the exception of **Paper Spigot** (unless the settings have been changed), you first have to start the recording with the following command:
+Depending on the server software, the timing report is created differently. Basically you have to start the recording first with the following command (except for **Paper Spigot** (if the settings have not been changed)
 
 `/timings start`
 
-During the recording, the server should be played on as normal as possible so that the respective problems can also be recorded and then analyzed more precisely. The recording should be given around 10 minutes, if possible longer.
+While recording, make sure to use the server as you always do, so that the respective issues can be recorded and subsequently analyzed in more detail. The duration of the recording should last **min. 10 minutes** or longer if possible.
 
-## 🔍 Timings-Report Export
+## 🔍 Export timing report
 
-In order for the timing report to really be created and exported, the following command must be used:
+In order to create and export the Timings report you have to use the following command:
 
 `/timings paste`
 
-After a few seconds, a message appears that the export was successful and the timing report can be opened by clicking on the link.
+After a few seconds a message appears stating that the export was successful. The Timings-Report can be opened by clicking the link.
 
-![](https://i.imgur.com/Akum9cl.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/Q5r26Ryb2BYjmxX/preview)
 
-## Evaluation
+## Analysis
 
-### Narrow Down Values
+### ↔️ Narrow down values
 
-After the timings report has been exported and opened as described above, a window similar to this should appear:
+Once the Timings report has been exported and opened as described above, a window similar to this one should appear:
 
-![](https://i.imgur.com/X6ErJGe.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/rG2TCfCmjJ5ae64/preview)
 
-First, you should take a closer look at the graph to be able to view rough values for the individual recording points by moving the mouse over the individual points.
+First of all, a closer look at the graph should be taken to be able to check rough values for the individual recording points by moving the mouse over the individual points.
 
-In order to obtain the most accurate values possible, which refers to a possible problem on the server, the problematic period as shown in the graph should first be limited by the sliders below.
+In order to get the most accurate values possible, which refer to a possible problem on the server, the problematic period should first be narrowed down by the sliders below, as shown in the graph:
 
 ![](https://i.imgur.com/k3pHKOi.gif)
 
-### 🧐 Examine Server Values
+### 🧐 Investigate server values
 
-There are 3 columns in total, as shown in the screenshot below, Box 1 shows what % of a tick (with 20 ticks per second) takes the main process. Among other things, you can see here how often this process was carried out during the recording.
+There are 3 columns in total. As you can see on the screenshot below, box number 1 shows how much % of a tick ( 20 ticks is one second) the main process needs. Among other things, you can also see how often this process was executed during the recording.
 
-In Box 2 we see more precise values ​​in milliseconds, here you should note that the times should never be higher than 50ms. Should this nevertheless be the case, this would trigger a chain reaction and all other processes accumulate something, which ultimately leads to lag, as the server can only process the processes with a delay.
+In Box number 2 you can see more precise values in miliseconds, but please note that the time should never be higher than 50ms. If this is the case, it would cause a chain reaction and all further processes would accumulate a bit, which would eventually lead to laggs as the server can only handle the processes with delay.
 
-> The **full server tick** can usually be ignored, as the values ​​are always in the red area, which is not a problem.
+> The **Full Server Tick** can usually be ignored, since the values are always in the red area, but this is not a big issue.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/FR5aqdsXjeLJ5tZ/preview)
 
-In any case, you should always examine the color-highlighted points more closely.
+In any case you should always investigate the colored highlighted values points more closely.
 
-In this example we look at the process for all entities (animals, monsters, items, etc.) because the values are already shown in orange. From this one could directly conclude that there is a problem with too many entities on the server. Such mob farms may be running on the server, or new mobs may be spawned by the crowd. If you have problems with too many entities, it is helpful to reduce the spawn rate in the settings or to install plugins, which limit entities and automatically remove them as needed.
+In this example, we have a look at the process for all entities (animals, monsters, items, etc.), as the values are already displayed as orange. From this you might be able to directly conclude that there is a problem with too many entities on the server.
+Possibly there are mob farms on the server, or masses of new mobs are being spawned. If you have problems with too many entities, you can throttle the spawn rate in the settings or install plugins that limit the number of entities and remove them automatically if necessary.
 
-As described above, the list always shows the main process. With one click on a process, we can examine and examine individual processes for each type of entity more precisely. Again, you should note columns 2 and 3, as described above.
+As described above, the list basically always shows the main process. By clicking on a process, we can take a closer look at individual processes for each type of entity and investigate them. Please also pay attention to columns 2 and 3 as mentioned earlier.
 
-It is noticeable that **Minecraft :: tickEntity - nms.EntitySkeleton** has executed a lot of processes. Again, such bullying farms can be the problem.
+You will notice that **Minecraft::tickEntity - nms.EntitySkeleton** has executed a lot of processes. Again, mob farms may be the problem.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/fZzeemocpsNfxXL/preview)
 
-Another process with values that are already orange are blocks waiting in German. Blocks that are waiting are particularly performance-hungry because the server has to check the status of each waiting block every tick. As an example this would be flying sand, gravel or lava and water.
+Another process with already orange values are waiting blocks. Blocks that wait can be particularly inefficient because the server has to check the status of each waiting block every tick.As an example, this would be flying sand, gravel or even lava and water.
 
-After the main process has been expanded, another process is already in the orange area. As the name of the process suggests, these are liquids like lava and water.
+If a lot of water is used as an example on a large farm, this can cause many problems, among other things. The problem can also arise if new chunks are generated and water sources are created in these chunks in a mountain. The server has to calculate the status each time again so that the water flows smoothly. In addition, the server must create and load the chunks, which is also a very intense process.
 
-Taking a lot of water as an example at a large farm as an example can cause many problems, among other things. The problem can also arise if new chunks are generated and water sources were created in these chunks as an example in a mountain. Again, the server has to calculate the status so that the water runs normally. In addition, the server has to create and load the chunks, which is also a very intensive process.
+![](https://screensaver01.zap-hosting.com/index.php/s/GWz98fTiknCkWZW)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/GWz98fTiknCkWZW/preview)
+All further investigations can also be carried out in the same way, since the steps are exactly the same for any other process. If you still need help with the evaluation, we are always available for you!
 
-All other examinations can also be carried out in this way, since the same steps are also used in every other process. If you still need help with the evaluation, we are always available in support!
+### ✔️ Check plugins
 
-### ✔️ Check Plugins
+In some cases issues are also caused by plugins. To determine that a plugin is possibly the cause, you can temporarily remove installed plugins from the server and check the current state of the system again.
 
-Sometimes problems also come from plugins, in order to be able to determine at all that a plugin is possibly to blame, you can temporarily remove installed plugins from the server and then get an idea of the situation again.
+If an issue with plugins exists, this can also be investigated in the "Plugins" section. The values are also listed in three columns, which have exactly the same structure as the normal server values above. The difference is that there is no longer a main process shown. Instead, the plugin itself is shown. However, we can still check all processes by clicking on them and investigate the values more closely.
 
-If a problem with plugins is possible, this can also be examined more closely in the "Plugins" area. Again, the values are broken down into three columns, which are structured exactly the same as the normal server values above. It is different here that the main process is no longer shown, but the plugin itself. Nevertheless, we can click on the processes to see them all and better examine the values.
-
-![](https://screensaver01.zap-hosting.com/index.php/s/CzitKykWC2dzExD/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/CzitKykWC2dzExD)
