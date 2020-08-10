@@ -57,6 +57,10 @@
         "title": "Coupons & Codes",
         "sidebar_label": "Coupons & Codes"
       },
+      "altv_installresources": {
+        "title": "Resource Installation",
+        "sidebar_label": "Resource Installation"
+      },
       "arma3_altislife_ranks": {
         "title": "Altis Life Ranks",
         "sidebar_label": "Altis Life Ranks"
@@ -586,7 +590,8 @@
       "Space Engineers": "Space Engineers",
       "Unturned": "Unturned",
       "SCP: Secret Laboratory": "SCP: Secret Laboratory",
-      "Don't Starve Together": "Don't Starve Together"
+      "Don't Starve Together": "Don't Starve Together",
+      "Alt:V": "Alt:V"
     }
   },
   "pages-strings": {
