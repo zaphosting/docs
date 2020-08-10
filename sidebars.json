@@ -270,5 +270,8 @@
         "Don't Starve Together": [
             "dst_create_cave"
         ]
+        "Alt:V": [
+            "altv_installresources"    
+        ]
     }
 }
