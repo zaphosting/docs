@@ -24,7 +24,7 @@ Um ein Backup manuell zu erstellen muss der grüne **+** Button neben der Backup
 
 ## Backup automatisiert erstellen
 
-Unten am Ende der Seite befinden sich weitere Optionen, wo unter anderem auch die Einstellungen für automatisierte Backups zu finden. Die Option **Backups automatisch erstellen** muss aktiviert sein, damit die Funktion aktiv ist. Zudem muss der Intervall gesetzt werden. 
+Unten am Ende der Seite befinden sich weitere Optionen, wo unter anderem auch die Einstellungen für automatisierte Backups zu finden. Die Option **Backups automatisch erstellen** muss aktiviert sein, damit die Funktion aktiv ist. Zudem muss das Intervall gesetzt werden. 
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/9w5JpZgi6rxZ7Ab/preview)
 
@@ -34,7 +34,7 @@ Je nach Spiel ist es oftmals auch zu empfehlen die Datenbank mit zu sichern, da 
 
 ## Backups herunterladen/löschen
 
-Um Backups herunterladen oder zu löschen muss man sich per FTP mit dem Storage Server verbinden. Eine Anleitung zum benutzen von FTP findest du hier: [FTP-Zugang](gameserver_ftpaccess.md)
+Um Backups herunterladen oder zu löschen muss man sich per FTP mit dem Storage Server verbinden. Eine Anleitung zum Benutzen von FTP findest du hier: [FTP-Zugang](gameserver_ftpaccess.md)
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/tPNdJ4YKMtwA635/preview)
 

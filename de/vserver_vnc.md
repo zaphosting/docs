@@ -4,10 +4,11 @@ title: Was ist VNC?
 sidebar_label: Was ist VNC?
 ---
 
-## Was ist VNC?
+## ❓ Was ist VNC überhaupt?
 
 VNC ist eine Möglichkeit sich mit deinem v/RootServer zu verbinden, wenn dieser keine aktive Internetverbindung hat. Wenn man also mal die IpEinstellungen durcheinander gebracht hat, ist das die beste Lösung, um dies wieder in Ordnung zu bringen.
 
+## 💻 VNC Benutzen
 Die VNC Konsole kann über das Menü auf der linken Seite aufgerufen werden.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/D6ScJtcFrEmjJWq/preview)
@@ -21,15 +22,6 @@ Nun könnt ihr euren Server wie gewohnt benutzen und verwalten.
 **Sollte es nicht klappen mit dem Passwort könnt ihr die Bildschirmtastatur nutzen, um sicherzugehen, dass die korrekte Tastatur eingestellt ist.**
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/o8anxmQRCpLznJb/preview)
-
-
-
-
-
-
-
-
-
 
 
 

@@ -1,7 +1,6 @@
 ---
 id: minecraft_worlds
-title: Worlds
-sidebar_label: Worlds
+title: Manage worlds
+sidebar_label: Manage worlds
 ---
 
-Erfahre mehr über den Umgang mit Minecraft Welten

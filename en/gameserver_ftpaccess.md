@@ -8,7 +8,7 @@ sidebar_label: FTP File Access
 
 To connect to the server, enter the **IP address (FTP server)**, the **username** and the **password**. This data can be viewed under FTP Browser. The port is always **21**, but this is usually entered automatically.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/7Kn7YgsZZ44yn8D/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/QGD9crcqQKN95X5/preview)
 
 ## Connect via FileZilla
 ### Correct FileZilla Version
@@ -20,11 +20,11 @@ To connect to the server, enter the **IP address (FTP server)**, the **username*
 
 When the connection is established for the first time, the program will ask if the password should be saved:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/fWoYF9ttpHFKd5C/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/xNZxKJAZqJgHAjx/preview)
 
 You will also be asked whether this connection should be allowed, since the **password** is transmitted in plain text:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/7Nctet3aQP9xnkG/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/KKKkrG6rGdyMtHc/preview)
 
 ### FileZilla Overview
 
@@ -32,7 +32,7 @@ Once the connection is established, you can view and edit all data. In the upper
 
 > It is important that the server must be offline when you edit the data, otherwise it will not be taken over or the server will crash.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/a2TYNQJJREtfZGZ/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/iT2jiqkynqrcZce/preview)
 
 
 ### Upload files
@@ -51,7 +51,7 @@ WinSCP [Download](https://winscp.net/eng/index.php).
 
 To connect, the transfer protocol must be set to FTP.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/fY8ekPJtyr5f4oY/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/Rzz6X82BNmDcXPi/preview)
 
 ### WinSCP Overview
 
@@ -59,7 +59,7 @@ On the **left side** are the **own files** of the computer. On the **right side*
 
 > It is important that the server must be offline when editing the data, otherwise the data will not be taken over or the server will crash.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/Lm9QxFW3SnsbWyZ/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/bKQX8edijNnBcBt/preview)
 
 ### Upload files
 

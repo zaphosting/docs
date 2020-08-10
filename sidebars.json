@@ -5,11 +5,12 @@
             "label": "First Steps",
             "ids": [
                 "firststeps_register",
-                "firststeps_rent",
                 "firststeps_rent_contractorprepaid",
+                "preorders",
                 "firststeps_rent_location",
                 "firststeps_problem_melden",
-                "community_info"
+                "community_info",
+                "suggestions"
             ]
         }],
         "Account": [
@@ -20,7 +21,6 @@
             "account_backup_storage",
             "account_friends",
             "account_cashbox",
-            "paymentoptions",
             "account_usermanagement",
             "account_vouchers",
             "account_donations",
@@ -45,7 +45,7 @@
                 "label": "Databases",
                 "ids": [
                     "gameserver_databases_pma",
-                    "gameserver_databases_self"
+                    "gameserver_database_external_access"
                 ]
             },
             "gameserver_ftpaccess",
@@ -56,14 +56,17 @@
         "vServer & Rootserver": [
             "vserver_root_unterschied",
             "vserver_vnc",
+            "vserver_network_analysis_winmtr",
             {
                 "type": "subcategory",
                 "label": "Linux",
                 "ids": [
                     "vserver_linux_ssh",
+                    "vserver_linux_sftp",
                     "vserver_linux_ssh2fa",
                     "vserver_linux_password_change",
                     "vserver_linux_java",
+                    "vserver_linux_mariadbinstall",
                     "vserver_linux_phpmyadmin",
                     "vserver_linux_ftp_install",
                     "vserver_linux_ftp",
@@ -72,7 +75,8 @@
                     "vserver_linux_openvpn",
                     "vserver_linux_gs_interface",
                     "vserver_linux_nextcloud",
-                    "vserver_linux_add_ip"
+                    "vserver_linux_add_ip",
+                    "vserver_linux_ssl"
 
                 ]
             },
@@ -83,7 +87,11 @@
                     "vserver_windows_userdp",
                     "vserver_windows_port",
                     "vserver_windows_addip",
-                    "vserver_windows_nointernet"
+                    "vserver_windows_nointernet",
+                    "vserver_windows_ftpserver",
+                    "vserver_windows_installmysql",
+                    "vserver_windows_plesk",
+                    "vserver_windows_change_language"
                 ]
             }
         ],
@@ -108,25 +116,31 @@
                     "webspace_dashboard",
                     "webspace_plesk_ftp",
                     "webspace_plesk_sendmail",
-                    "webspace_plesk_ssl"
+                    "webspace_plesk_ssl",
+                    "webspace_htaccess_discord"
                 ]
             }
         ],
         "Voicebot/Voiceserver": [
             "voiceserver_voicebot_connection",
-            "voiceserver_ts3backup"
+            "voiceserver_ts3backup",
+            "voiceserver_query"
         ],
         "Minecraft": [{
                 "type": "subcategory",
                 "label": "Administration",
                 "ids": [
+                    "minecraft_commands",
                     "minecraft_addop",
                     "minecraft_default_config",
                     "minecraft_server-icon",
+                    "minecraft_add_own_world",
                     "minecraft_worlds",
+                    "minecraftbedrock_behaviorresourcepacks",
                     "minecraft_rcon",
                     "minecraft_whitelist",
-                    "minecraft_timings_report"
+                    "minecraft_timings_report",
+                    "minecraft_server_optimize"
                 ]
             },
             {
@@ -134,6 +148,20 @@
                 "label": "Spigot & Bukkit",
                 "ids": [
                     "minecraft_pluginuploader"
+                ]
+            },
+            {
+                "type": "subcategory",
+                "label": "Bungeecord",
+                "ids": [
+                    "minecraft_bungeecord_config"
+                ]
+            },
+            {
+                "type": "subcategory",
+                "label": "Forge",
+                "ids": [
+                    "minecraft_forge_add_mods"
                 ]
             }
         ],
@@ -145,8 +173,10 @@
             "fivem_servername_color",
             "fivem_rcon",
             "fivem_licensekey",
+            "fivem_mastadon",
             "fivem_useprofiler",
             "fivem_deletecache",
+            "fivem_upvotes",
             {
                 "type": "subcategory",
                 "label": "Resources & Mods",
@@ -168,7 +198,10 @@
                     "fivem_esx_disableinventory",
                     "fivem_esx_changemoneyicon",
                     "fivem_esx_becomeadminoverdatabase",
-                    "fivem_esx_disablehud"
+                    "fivem_esx_disablehud",
+                    "fivem_esx_addcarstoshop",
+                    "fivem_esx_changejobgarages",
+                    "fivem_esx_changerespawnpoint"
 
                 ]
             },
@@ -176,7 +209,8 @@
                 "type": "subcategory",
                 "label": "Dunko VRP",
                 "ids": [
-                    "fivem_vrp_changemoneyicon"
+                    "fivem_vrp_changemoneyicon",
+                    "fivem_vrp_removespeedo"
 
                 ]
             }
@@ -185,7 +219,8 @@
             "ragemp_installpackages"
         ],
         "Terraria": [
-            "terraria_tshock_add_admin"
+            "terraria_tshock_add_admin",
+            "terraria_tmodloader_installmod"
         ],
         "Source Games": [
             "source_gsltoken",
@@ -203,6 +238,7 @@
                 "type": "subcategory",
                 "label": "CS:GO",
                 "ids": [
+                    "csgo_configuration",
                     "csgo_gotv"
 
                 ]
@@ -221,7 +257,18 @@
             "assettocorsa_mods"
         ],
         "Space Engineers": [
-            "spaceengineers_becomeadmin"
+            "spaceengineers_becomeadmin",
+            "spaceengineers_addmods"
+        ],
+        "Unturned": [
+            "unturned_rocketmod_plugins",
+            "unturned_rocketmod_admin"
+        ],
+        "SCP: Secret Laboratory": [
+            "scp_becomeadmin"
+        ],
+        "Don't Starve Together": [
+            "dst_create_cave"
         ]
     }
 }
