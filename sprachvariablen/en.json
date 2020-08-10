@@ -494,8 +494,8 @@
         "sidebar_label": "Initial access (SSH)"
       },
       "vserver_linux_ssh2fa": {
-        "title": "two factor authentication",
-        "sidebar_label": "two factor authentication"
+        "title": "Two factor authentication",
+        "sidebar_label": "Two factor authentication"
       },
       "vserver_linux_ssl": {
         "title": "SSL-Certificate (Let's Encrypt)",
