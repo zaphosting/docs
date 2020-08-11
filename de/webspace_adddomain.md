@@ -1,7 +1,7 @@
 ---
-id: webspace_dashboard
-title: Dashboard
-sidebar_label: Dashboard
+id: webspace_adddomain
+title: Domain Hinzufügen
+sidebar_label: Domain Hinzufügen
 ---
 
 ## Webspace
