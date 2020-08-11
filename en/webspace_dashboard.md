@@ -5,4 +5,4 @@ sidebar_label: Add Domain
 ---
 
 
-[Diese Seite ist umgezogen](webspace_adddomain.md)
+[This Page has moved](webspace_adddomain.md)
