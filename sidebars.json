@@ -113,7 +113,7 @@
                 "type": "subcategory",
                 "label": "Webspace",
                 "ids": [
-                    "webspace_dashboard",
+                    "webspace_adddomain",
                     "webspace_plesk_ftp",
                     "webspace_plesk_sendmail",
                     "webspace_plesk_ssl",
@@ -271,7 +271,7 @@
             "dst_create_cave"
         ],
         "Alt:V": [
-            "altv_installresources"    
+            "altv_installresources"
         ]
     }
 }

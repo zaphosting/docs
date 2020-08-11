@@ -83,7 +83,7 @@
             "csgo_configuration": {
                 "title": "Server Konfiguration",
                 "sidebar_label": "Server Konfiguration"
-              },
+            },
             "csgo_gotv": {
                 "title": "GOTV",
                 "sidebar_label": "GOTV"
@@ -315,7 +315,7 @@
             "minecraft_commands": {
                 "title": "Allgemeine Befehle",
                 "sidebar_label": "Allgemeine Befehle"
-              },
+            },
             "minecraft_default_config": {
                 "title": "Server Config",
                 "sidebar_label": "Server Config"
@@ -323,7 +323,7 @@
             "minecraft_forge_add_mods": {
                 "title": "Mods installieren",
                 "sidebar_label": "Mods installieren"
-              },
+            },
             "minecraft_pluginuploader": {
                 "title": "Plugin Uploader",
                 "sidebar_label": "Plugin Uploader"
@@ -335,7 +335,7 @@
             "minecraft_server_optimize": {
                 "title": "Minecraft-Server optimieren",
                 "sidebar_label": "Minecraft-Server optimieren"
-              },
+            },
             "minecraft_server-icon": {
                 "title": "Server Icon",
                 "sidebar_label": "Server Icon"
@@ -395,7 +395,7 @@
             "spaceengineers_addmods": {
                 "title": "Mods installieren",
                 "sidebar_label": "Space Engineers Mods installieren"
-              },
+            },
             "spaceengineers_becomeadmin": {
                 "title": "Admin werden",
                 "sidebar_label": "Admin werden"
@@ -519,7 +519,7 @@
             "vserver_windows_change_language": {
                 "title": "Sprache hinzufügen/ändern",
                 "sidebar_label": "Sprache hinzufügen/ändern"
-              },
+            },
             "vserver_windows_ftpserver": {
                 "title": "FTP Server installieren",
                 "sidebar_label": "FTP Server installieren"
@@ -544,9 +544,9 @@
                 "title": "Erstzugriff (RDP)",
                 "sidebar_label": "Erstzugriff (RDP)"
             },
-            "webspace_dashboard": {
-                "title": "Dashboard",
-                "sidebar_label": "Dashboard"
+            "webspace_adddomain": {
+                "title": "Domain Hinzufügen",
+                "sidebar_label": "Domain Hinzufügen"
             },
             "webspace_htaccess_discord": {
                 "title": "Discord Weiterleitung via Domain",
