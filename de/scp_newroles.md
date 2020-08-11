@@ -38,7 +38,7 @@ Das geht ebenfalls in der identischen Config nur minimal weiter darunter.
 Unsere Rolle tragen wir also unter der "moderator" Rolle ein.
 ACHTUNG: Bitte die Leerzeichen vor und nach dem "-" beachten!
 
-## Berechtigungenn
+## Berechtigungen
 Ganz unten in der "config_remoteadmin.txt" Config Datei können wir die Berechtigungen für die jeweiligen Rollen anpassen.
 Wenn wir unserer Rolle also einer Berechtigung zuweisen wollen, können wir den Namen der Rolle in die Klammern eintragen.
 So wie es in diesem Beispiel zu sehen ist:
