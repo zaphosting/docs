@@ -36,7 +36,7 @@ This also goes only slightly further down in the identical Config.
 ![](https://screensaver01.zap-hosting.com/index.php/s/HtTePKdCCGn7osC/preview)
 
 We therefore enter our role under the "moderator" role.
-ATTENTION: Please note the spaces before and after the "-"!
+> ATTENTION: Please note the spaces before and after the "-"!
 
 ## Permissions
 At the very bottom of the "config_remoteadmin.txt" config file we can adjust the permissions for the respective roles.
