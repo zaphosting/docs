@@ -1,5 +1,5 @@
 ---
-id: Domain Hinzufügen
+id: webspace_adddomain
 title: Add Domain
 sidebar_label: Add Domain
 ---
