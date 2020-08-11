@@ -36,7 +36,7 @@ Das geht ebenfalls in der identischen Config nur minimal weiter darunter.
 ![](https://screensaver01.zap-hosting.com/index.php/s/HtTePKdCCGn7osC/preview)
 
 Unsere Rolle tragen wir also unter der "moderator" Rolle ein.
-ACHTUNG: Bitte die Leerzeichen vor und nach dem "-" beachten!
+> ACHTUNG: Bitte die Leerzeichen vor und nach dem "-" beachten!
 
 ## Berechtigungen
 Ganz unten in der "config_remoteadmin.txt" Config Datei können wir die Berechtigungen für die jeweiligen Rollen anpassen.
