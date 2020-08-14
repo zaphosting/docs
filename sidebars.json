@@ -5,7 +5,6 @@
             "label": "First Steps",
             "ids": [
                 "firststeps_register",
-                "firststeps_rent",
                 "firststeps_rent_contractorprepaid",
                 "preorders",
                 "firststeps_rent_location",
@@ -63,6 +62,7 @@
                 "label": "Linux",
                 "ids": [
                     "vserver_linux_ssh",
+                    "vserver_linux_sftp",
                     "vserver_linux_ssh2fa",
                     "vserver_linux_password_change",
                     "vserver_linux_java",
@@ -90,7 +90,8 @@
                     "vserver_windows_nointernet",
                     "vserver_windows_ftpserver",
                     "vserver_windows_installmysql",
-                    "vserver_windows_plesk"
+                    "vserver_windows_plesk",
+                    "vserver_windows_change_language"
                 ]
             }
         ],
@@ -112,21 +113,24 @@
                 "type": "subcategory",
                 "label": "Webspace",
                 "ids": [
-                    "webspace_dashboard",
+                    "webspace_adddomain",
                     "webspace_plesk_ftp",
                     "webspace_plesk_sendmail",
-                    "webspace_plesk_ssl"
+                    "webspace_plesk_ssl",
+                    "webspace_htaccess_discord"
                 ]
             }
         ],
         "Voicebot/Voiceserver": [
             "voiceserver_voicebot_connection",
-            "voiceserver_ts3backup"
+            "voiceserver_ts3backup",
+            "voiceserver_query"
         ],
         "Minecraft": [{
                 "type": "subcategory",
                 "label": "Administration",
                 "ids": [
+                    "minecraft_commands",
                     "minecraft_addop",
                     "minecraft_default_config",
                     "minecraft_server-icon",
@@ -135,7 +139,8 @@
                     "minecraftbedrock_behaviorresourcepacks",
                     "minecraft_rcon",
                     "minecraft_whitelist",
-                    "minecraft_timings_report"
+                    "minecraft_timings_report",
+                    "minecraft_server_optimize"
                 ]
             },
             {
@@ -151,6 +156,13 @@
                 "ids": [
                     "minecraft_bungeecord_config"
                 ]
+            },
+            {
+                "type": "subcategory",
+                "label": "Forge",
+                "ids": [
+                    "minecraft_forge_add_mods"
+                ]
             }
         ],
         "FiveM": [
@@ -164,6 +176,7 @@
             "fivem_mastadon",
             "fivem_useprofiler",
             "fivem_deletecache",
+            "fivem_upvotes",
             {
                 "type": "subcategory",
                 "label": "Resources & Mods",
@@ -206,7 +219,8 @@
             "ragemp_installpackages"
         ],
         "Terraria": [
-            "terraria_tshock_add_admin"
+            "terraria_tshock_add_admin",
+            "terraria_tmodloader_installmod"
         ],
         "Source Games": [
             "source_gsltoken",
@@ -224,6 +238,7 @@
                 "type": "subcategory",
                 "label": "CS:GO",
                 "ids": [
+                    "csgo_configuration",
                     "csgo_gotv"
 
                 ]
@@ -242,16 +257,21 @@
             "assettocorsa_mods"
         ],
         "Space Engineers": [
-            "spaceengineers_becomeadmin"
+            "spaceengineers_becomeadmin",
+            "spaceengineers_addmods"
         ],
         "Unturned": [
-            "unturned_rocketmod_plugins"
+            "unturned_rocketmod_plugins",
+            "unturned_rocketmod_admin"
         ],
         "SCP: Secret Laboratory": [
             "scp_becomeadmin"
         ],
         "Don't Starve Together": [
             "dst_create_cave"
+        ],
+        "Alt:V": [
+            "altv_installresources"
         ]
     }
 }

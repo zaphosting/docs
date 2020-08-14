@@ -28,7 +28,7 @@ The network diagnostic test should be performed when the problem actively occurs
 
 
 
-### Windows
+### 💻 Windows
 
 WinMTR for Windows can be downloaded from the [ZAP-Hosting](https://zap-hosting.com/de/winmtr) page. Once installed, the program must be started and the host name or IP address of the affected case needs to be filled in:
 
@@ -38,7 +38,7 @@ WinMTR for Windows can be downloaded from the [ZAP-Hosting](https://zap-hosting.
 
 
 
-### Linux
+### 🐧 Linux
 
 MTR on Linux requires an SSH connection to the server. If you don't know exactly how to do this, you can have a look at the following instructions: [Initial access (SSH)](https://docs.zap-hosting.com/docs/en/vserver_linux_ssh/)
 

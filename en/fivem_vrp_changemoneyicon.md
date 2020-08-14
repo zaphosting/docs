@@ -1,43 +1,43 @@
 ---
 id: fivem_vrp_changemoneyicon
-title: Geldicon Ändern
-sidebar_label: Geldicon Ändern
+title: Change Money Icon
+sidebar_label: Change Money Icon
 ---
 
-## Mit FTP verbinden
+## Connect with FTP
 
-Zuerst muss der [FTP-Zugang](gameserver_ftpaccess.md) eingerichtet werden:
+First, the [FTP-Access](gameserver_ftpaccess.md) must be set up:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/QAyH2tdjj7cNrwC/preview)
 
-Nachdem dieser eingerichtet wurde, kann sich nun verbunden werden und der Server Ordner geöffnet werden:
+After this has been set up, you can now connect and open the server folder:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/QoXf3iSZirN7Ndy/preview)
 
-Hier öffnen wir folgenden pfad: `gta5-fivem/server-data/resources/vrp/cfg/money.lua`
+Here we open the following path: `gta5-fivem/server-data/resources/vrp/cfg/money.lua`
 
-## Geldicon Hochladen
+## Upload Money Icon
 
-Um ein eigenes Geldicon zu verwenden, muss dieses erst auf Imgur hochgeladen werden:
+To use your own money icon, you first have to upload it to Imgur (or your desired uploader):
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/5sA37RxfLQqQFjA/preview)
 
-Hier können wir nun unser Bild via Drag&Drop hochladen:
+Here we can now upload our picture via drag & drop:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/Y5Q57pW5znbEPMP/preview)
 
-Nach dem upload sehen wir unser Bild hochgeladen, um die URL zu kopieren, klicken wir per Rechtsklick auf das Icon und wählen "Grafikadresse kopieren"
+After the upload we see our picture uploaded to copy the URL, we right click on the icon and choose "Copy Image Address"
 
-![](https://screensaver01.zap-hosting.com/index.php/s/39fB2Qf2W2stdCW/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/xRqX73NHiA59JXZ/preview)
 
-Diese URL kann nun in die Config Eintragen werden.
+This URL can now be entered in the config.
 
-## Config Editieren
+## Edit Config
 
-In der money.lua können einige Einstellungen der Geldanzeige angepasst werden, um das Geldicon zu ändern, können wir folgende Zeile editieren:
+In the money.lua some settings of the money display can be adjusted. To change the money icon, we can edit the following line:
 
 `content: url('https://i.imgur.com/JUz1njC.png'); `
 
-Diese URL ersetzen wir einfach mit unseren eigenen Imgur Link und speichern die Datei.
+We just replace this URL with our own Imgur link and save the file.
 
-Nach einem Serverneustart wird das Geldicon Ingame Sichtbar sein.
+After a server restart, the Icon Ingame will be visible.

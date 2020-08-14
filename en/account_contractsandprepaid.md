@@ -7,9 +7,9 @@ sidebar_label: Contracts & Prepaids
 ## 📚 Contracts & Prepaids
 Logged in to your ZAP hosting account you will find the menu item "Contracts & Prepaids" on the left side. There all active servers are listed, but also expired servers that have not been deleted yet.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/YrM7eeg6grC4WXt/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/DB596bLRC5bHcc8/preview)
 
-> **difference between contracts and prepaids**: Contracts are automatically renewed and must be terminated. Prepaids simply expire after the booked time, as long as they are not extended manually.
+> **Difference Between Contracts and Prepaids**: Contracts are automatically renewed and must be terminated. Prepaids simply expire after the booked time, as long as they are not extended manually.
 
 
 ## 📙 My contracts

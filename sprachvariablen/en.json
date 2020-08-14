@@ -57,6 +57,10 @@
         "title": "Coupons & Codes",
         "sidebar_label": "Coupons & Codes"
       },
+      "altv_installresources": {
+        "title": "Resource Installation",
+        "sidebar_label": "Resource Installation"
+      },
       "arma3_altislife_ranks": {
         "title": "Altis Life Ranks",
         "sidebar_label": "Altis Life Ranks"
@@ -80,6 +84,10 @@
       "community_info": {
         "title": "Community offers",
         "sidebar_label": "Community offers"
+      },
+      "csgo_configuration": {
+        "title": "Server configuration",
+        "sidebar_label": "Server Configration"
       },
       "csgo_gotv": {
         "title": "GOTV",
@@ -122,8 +130,8 @@
         "sidebar_label": "Domain TeamSpeak 3 Redirect"
       },
       "dst_create_cave": {
-        "title": "Create caves",
-        "sidebar_label": "Create caves"
+        "title": "Create Caves",
+        "sidebar_label": "Create Caves"
       },
       "firststeps_problem_melden": {
         "title": "How do i report problems?",
@@ -241,13 +249,17 @@
         "title": "SQL File Import",
         "sidebar_label": "SQL File Import"
       },
+      "fivem_upvotes": {
+        "title": "Upvotes",
+        "sidebar_label": "Upvotes"
+      },
       "fivem_useprofiler": {
         "title": "Use Profiler",
         "sidebar_label": "Use Profiler"
       },
       "fivem_vrp_changemoneyicon": {
-        "title": "Geldicon Ändern",
-        "sidebar_label": "Geldicon Ändern"
+        "title": "Change Money Icon",
+        "sidebar_label": "Change Money Icon"
       },
       "fivem_vrp_removespeedo": {
         "title": "Remove Speedometer",
@@ -305,9 +317,17 @@
         "title": "Server Properties",
         "sidebar_label": "Server Properties"
       },
+      "minecraft_commands": {
+        "title": "General commands",
+        "sidebar_label": "General commands"
+      },
       "minecraft_default_config": {
         "title": "Server Config",
         "sidebar_label": "Server Config"
+      },
+      "minecraft_forge_add_mods": {
+        "title": "Mods installieren",
+        "sidebar_label": "Mods installieren"
       },
       "minecraft_pluginuploader": {
         "title": "Plugin Uploader",
@@ -316,6 +336,10 @@
       "minecraft_rcon": {
         "title": "RCON",
         "sidebar_label": "RCON"
+      },
+      "minecraft_server_optimize": {
+        "title": "Optimize Minecraft Server",
+        "sidebar_label": "Optimize Minecraft Server"
       },
       "minecraft_server-icon": {
         "title": "Server Icon",
@@ -350,8 +374,8 @@
         "sidebar_label": "Installing packages"
       },
       "scp_becomeadmin": {
-        "title": "Become admin",
-        "sidebar_label": "Become admin"
+        "title": "Become Admin",
+        "sidebar_label": "Become Admin"
       },
       "source_custom_content": {
         "title": "Custom Content",
@@ -373,21 +397,37 @@
         "title": "Plugins",
         "sidebar_label": "Plugins"
       },
+      "spaceengineers_addmods": {
+        "title": "Mods Installation",
+        "sidebar_label": "Space Engineers Mods Installation"
+      },
       "spaceengineers_becomeadmin": {
         "title": "Become Admin",
         "sidebar_label": "Become Admin"
       },
       "suggestions": {
-        "title": "Submit suggestions",
-        "sidebar_label": "Submit suggestions"
+        "title": "Submit Suggestions",
+        "sidebar_label": "Submit Suggestions"
+      },
+      "terraria_tmodloader_installmod": {
+        "title": "Mod installieren (tModLoader)",
+        "sidebar_label": "Mod installieren (tModLoader)"
       },
       "terraria_tshock_add_admin": {
         "title": "Become an admin (tShock)",
         "sidebar_label": "Become an admin (tShock)"
       },
+      "unturned_rocketmod_admin": {
+        "title": "Admin werden (Rocket Mod)",
+        "sidebar_label": "Admin werden (Rocket Mod)"
+      },
       "unturned_rocketmod_plugins": {
         "title": "Install Plugins",
         "sidebar_label": "Install Plugins"
+      },
+      "voiceserver_query": {
+        "title": "Teamspeak Query Login",
+        "sidebar_label": "Teamspeak Query Login"
       },
       "voiceserver_ts3backup": {
         "title": "Teamspeak Backup",
@@ -398,8 +438,8 @@
         "sidebar_label": "Voicebot Connection"
       },
       "vserver_linux_add_ip": {
-        "title": "IPv4 Adresse hinzufügen",
-        "sidebar_label": "IPv4 Adresse hinzufügen"
+        "title": "Add IPv4 Address",
+        "sidebar_label": "Add IPv4 Address"
       },
       "vserver_linux_dnsserver": {
         "title": "DNS Server (ISPConfig)",
@@ -449,13 +489,17 @@
         "title": "Plesk",
         "sidebar_label": "Plesk"
       },
+      "vserver_linux_sftp": {
+        "title": "Connect via SFTP",
+        "sidebar_label": "SFTP Connection"
+      },
       "vserver_linux_ssh": {
         "title": "Erstzugriff (SSH)",
         "sidebar_label": "Initial access (SSH)"
       },
       "vserver_linux_ssh2fa": {
-        "title": "two factor authentication",
-        "sidebar_label": "two factor authentication"
+        "title": "Two factor authentication",
+        "sidebar_label": "Two factor authentication"
       },
       "vserver_linux_ssl": {
         "title": "SSL-Certificate (Let's Encrypt)",
@@ -477,9 +521,13 @@
         "title": "Add additional IPs",
         "sidebar_label": "Add additional IPs"
       },
+      "vserver_windows_change_language": {
+        "title": "Add/change language",
+        "sidebar_label": "Add/change language"
+      },
       "vserver_windows_ftpserver": {
-        "title": "FTP Server installieren",
-        "sidebar_label": "FTP Server installieren"
+        "title": "FTP Server Installation",
+        "sidebar_label": "FTP Server Installation"
       },
       "vserver_windows_installmysql": {
         "title": "Install MySQL Server",
@@ -490,36 +538,40 @@
         "sidebar_label": "No Internet what now?"
       },
       "vserver_windows_plesk": {
-        "title": "Plesk installation",
-        "sidebar_label": "Plesk installation"
+        "title": "Plesk Installation",
+        "sidebar_label": "Plesk Installation"
       },
       "vserver_windows_port": {
         "title": "Port forwarding",
-        "sidebar_label": "Port forwarding"
+        "sidebar_label": "Port Forwarding"
       },
       "vserver_windows_userdp": {
         "title": "Initial access (RDP)",
         "sidebar_label": "Initial access (RDP)"
       },
+      "webspace_adddomain": {
+        "title": "Add Domain",
+        "sidebar_label": "Add Domain"
+      },
       "webspace_dashboard": {
-        "title": "Dashboard",
-        "sidebar_label": "Dashboard"
+        "title": "Add Domain",
+        "sidebar_label": "Add Domain"
+      },
+      "webspace_htaccess_discord": {
+        "title": "Discord forwarding via domain",
+        "sidebar_label": "Discord forwarding via domain"
       },
       "webspace_plesk_ftp": {
         "title": "FTP Connection",
         "sidebar_label": "FTP Connection"
       },
       "webspace_plesk_sendmail": {
-        "title": "E-Mails verschicken",
-        "sidebar_label": "E-Mails verschicken"
+        "title": "Sending Emails",
+        "sidebar_label": "Sending Emails"
       },
       "webspace_plesk_ssl": {
-        "title": "SSL Zertifikat erstellen",
-        "sidebar_label": "SSL Zertifikat erstellen"
-      },
-      "whatiszap": {
-        "title": "The ZAP-Hosting Docs",
-        "sidebar_label": "The ZAP-Hosting Docs"
+        "title": "Create SSL Certificate",
+        "sidebar_label": "Create SSL Certificate"
       }
     },
     "links": {
@@ -542,7 +594,8 @@
       "Space Engineers": "Space Engineers",
       "Unturned": "Unturned",
       "SCP: Secret Laboratory": "SCP: Secret Laboratory",
-      "Don't Starve Together": "Don't Starve Together"
+      "Don't Starve Together": "Don't Starve Together",
+      "Alt:V": "Alt:V"
     }
   },
   "pages-strings": {

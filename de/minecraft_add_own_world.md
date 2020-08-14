@@ -5,7 +5,6 @@ sidebar_label: Eigene Welt hinzufügen
 ---
 
 Du möchtest eine eigene oder aus dem Internet heruntergeladene Welt auf deinem Server benutzen? Dann bist du hier genau richtig! Alles was du dafür benötigst, ist deine Welt und einen FTP-Client. Falls du noch nicht weißt, was ein FTP-Client ist und wie du diesen benutzen kannst, dann schaue am besten in die folgende Anleitung: [FTP-Dateizugriff](https://docs.zap-hosting.com/docs/de/gameserver_ftpaccess/)
-](https://docs.zap-hosting.com/docs/de/gameserver_ftpaccess/)
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/nqwNoN742GPqs4H/preview)
 

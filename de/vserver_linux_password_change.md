@@ -4,7 +4,7 @@ title: Passwort ändern
 sidebar_label: Passwort ändern
 ---
 
-## Wie ändert man das Passwort von einem vServer oder Root Server richtig? 
+## ❓ Wie ändert man das Passwort von einem vServer oder Root Server richtig? 
 
 Es gibt 2 Optionen um das Passwort zu ändern.
 
@@ -14,25 +14,22 @@ Es gibt 2 Optionen um das Passwort zu ändern.
 Das Passwort kann über unser Webinterface bei dem jeweiligen Server geändert werden. 
 Öffne dazu die Seite „Zugang und Sicherheit“, diese findet man Links im Menü
 
-![](https://screensaver01.zap-hosting.com/index.php/s/8JxbxJS6aXNZipG/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/bd6rtQKN6mWbM7k/preview)
 
 Dort findet man das Eingabe Feld „Root Password“. 
 Dort kann man ein neues Wunsch Passwort eintragen.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/d4BGafY3TSJ9yTj/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/2aNzCHa8roGBZMG/preview)
 
 >Bitte beachte das dies mindestens 8 Zeichen lang sein muss sowie aus Klein und Groß Buchstaben (a-z/A-Z), Zahlen (1-9) und Sonderzeichen (!@=#$%&-?_;:.,) bestehen muss. 
 Sollte dies nicht der Fall sein, wird es bei dem Server nicht gesetzt. 
 
-Nachdem das Passwort eingetragen wurde, erscheint noch ein Hinweis Pop-UP dieses kann mit "ok" bestätigt werden. 
-
-![](https://screensaver01.zap-hosting.com/index.php/s/7nCStmPddwExdBS/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/rNMxmKkdtKFEW2a/preview)
 
 Nun bestätigt das System das das Passwort geändert wurde. 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/5SbD3Nrp6PXcFtL/preview)
 
-## Server neu starten
 Jetzt muss der Server neugestartet werden damit das Passwort auch richtig gesetzt wird. 
 
 Dazu klickt man einfach auf das rote Stop Symbol ⏸️ und wartet bis der Server ausgeschaltet ist. 
@@ -41,21 +38,20 @@ Dazu klickt man einfach auf das rote Stop Symbol ⏸️ und wartet bis der Serve
 
 Anschließend kann der Server wieder auf dem grünen Start Symol ▶️ gestartet werden. 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/79HiKs2QDbGknkK/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/BotGSG2cCZZPSQB/preview)
 
 
 ✅ Das Passwort wurde nun geändert. 
 
-## Passwort noch einmal einsehen
 
 Das Passwort kann ab jetzt noch 3 Stunden in unserem Webinterface eingesehen werden, danach löschen wir dieses aus Sicherheitsgründen zur Einsicht raus. 
 Um das Passwort einzusehen genügt ein Klick auf das Auge bei "Passwort" auf der Seite "Login und Sicherheit". 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/B5FnToJ2DDbpsAQ/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/T8ixwjss6GymwP4/preview)
 
 Anschließend öffnet sich ein Popup wo das Passwort angezeigt wird.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/AZ7coof6Q5r2aTt/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/jCFzDGizyFjmWef/preview)
 
 
 <!--Server Console-->
@@ -70,7 +66,7 @@ Dies geschieht "Unsichtbar"
 Anschließnd muss man das Passwort erneut zur Bestätigung eigegeben werden. 
 Ist dies gemacht und das Passwort stimmte mit der ersten Eingabe überein, so bestätigt die Console die Änderung. 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/4fTNxQB82TkcSwr/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/MacSseNQEdiygW3/preview)
 
 Stimmen die beiden Eingaben nicht überein, so wird die Console den Vorgang beenden und man muss erneut den Befehl "passwd" eingeben. 
 

@@ -80,6 +80,10 @@
                 "title": "Community Angebote",
                 "sidebar_label": "Community Angebote"
             },
+            "csgo_configuration": {
+                "title": "Server Konfiguration",
+                "sidebar_label": "Server Konfiguration"
+            },
             "csgo_gotv": {
                 "title": "GOTV",
                 "sidebar_label": "GOTV"
@@ -123,7 +127,7 @@
             "dst_create_cave": {
                 "title": "Höhlen erstellen",
                 "sidebar_label": "Höhlen erstellen"
-              },
+            },
             "firststeps_problem_melden": {
                 "title": "Wie melde ich Probleme?",
                 "sidebar_label": "Wie melde ich Probleme?"
@@ -215,7 +219,7 @@
             "fivem_mastadon": {
                 "title": "Activity Feed Einrichten",
                 "sidebar_label": "Activity Feed Einrichten"
-              },
+            },
             "fivem_mods_installaddon": {
                 "title": "Addon Carmods Installieren",
                 "sidebar_label": "Addon Carmods Installieren"
@@ -240,6 +244,10 @@
                 "title": "SQL Dateiimport",
                 "sidebar_label": "SQL Dateiimport"
             },
+            "fivem_upvotes": {
+                "title": "Upvotes",
+                "sidebar_label": "Upvotes"
+            },
             "fivem_useprofiler": {
                 "title": "Profiler Benutzen",
                 "sidebar_label": "Profiler Benutzen"
@@ -251,7 +259,7 @@
             "fivem_vrp_removespeedo": {
                 "title": "Speedometer Entfernen",
                 "sidebar_label": "Speedometer Entfernen"
-              },
+            },
             "gameserver_backups": {
                 "title": "Backups",
                 "sidebar_label": "Backups"
@@ -304,9 +312,17 @@
                 "title": "Server Config",
                 "sidebar_label": "Server Config"
             },
+            "minecraft_commands": {
+                "title": "Allgemeine Befehle",
+                "sidebar_label": "Allgemeine Befehle"
+            },
             "minecraft_default_config": {
                 "title": "Server Config",
                 "sidebar_label": "Server Config"
+            },
+            "minecraft_forge_add_mods": {
+                "title": "Mods installieren",
+                "sidebar_label": "Mods installieren"
             },
             "minecraft_pluginuploader": {
                 "title": "Plugin Uploader",
@@ -315,6 +331,10 @@
             "minecraft_rcon": {
                 "title": "RCON",
                 "sidebar_label": "RCON"
+            },
+            "minecraft_server_optimize": {
+                "title": "Minecraft-Server optimieren",
+                "sidebar_label": "Minecraft-Server optimieren"
             },
             "minecraft_server-icon": {
                 "title": "Server Icon",
@@ -331,7 +351,7 @@
             "minecraft_worlds": {
                 "title": "Welten Verwalten",
                 "sidebar_label": "Welten Verwalten"
-              },
+            },
             "minecraftbedrock_behaviorresourcepacks": {
                 "title": "Behavior/Resource Packs installieren",
                 "sidebar_label": "Behavior/Resource Packs installieren"
@@ -351,7 +371,7 @@
             "scp_becomeadmin": {
                 "title": "Admin werden",
                 "sidebar_label": "Admin werden"
-              },
+            },
             "source_custom_content": {
                 "title": "Custom Inhalte",
                 "sidebar_label": "Custom Inhalte"
@@ -372,6 +392,10 @@
                 "title": "Plugins",
                 "sidebar_label": "Plugins"
             },
+            "spaceengineers_addmods": {
+                "title": "Mods installieren",
+                "sidebar_label": "Space Engineers Mods installieren"
+            },
             "spaceengineers_becomeadmin": {
                 "title": "Admin werden",
                 "sidebar_label": "Admin werden"
@@ -380,13 +404,25 @@
                 "title": "Vorschläge einreichen",
                 "sidebar_label": "Vorschläge einreichen"
             },
+            "terraria_tmodloader_installmod": {
+                "title": "Mod installieren (tModLoader)",
+                "sidebar_label": "Mod installieren (tModLoader)"
+            },
             "terraria_tshock_add_admin": {
                 "title": "Admin werden (tShock)",
                 "sidebar_label": "Admin werden (tShock)"
             },
+            "unturned_rocketmod_admin": {
+                "title": "Admin werden (Rocket Mod)",
+                "sidebar_label": "Admin werden (Rocket Mod)"
+            },
             "unturned_rocketmod_plugins": {
                 "title": "Plugins installieren",
                 "sidebar_label": "Plugins installieren"
+            },
+            "voiceserver_query": {
+                "title": "Teamspeak Query Login",
+                "sidebar_label": "Teamspeak Query Login"
             },
             "voiceserver_ts3backup": {
                 "title": "Teamspeak Backup",
@@ -427,7 +463,7 @@
             "vserver_linux_mariadbinstall": {
                 "title": "MariaDB (MySQL) Installation",
                 "sidebar_label": "MariaDB (MySQL) Installation"
-              },
+            },
             "vserver_linux_nextcloud": {
                 "title": "Nextcloud",
                 "sidebar_label": "Nextcloud"
@@ -447,6 +483,10 @@
             "vserver_linux_plesk": {
                 "title": "Plesk",
                 "sidebar_label": "Plesk"
+            },
+            "vserver_linux_sftp": {
+                "title": "Via SFTP verbinden",
+                "sidebar_label": "SFTP Verbindung"
             },
             "vserver_linux_ssh": {
                 "title": "Erstzugriff (SSH)",
@@ -476,9 +516,13 @@
                 "title": "Zusätzliche IPs hinzufügen",
                 "sidebar_label": "Zusätzliche IPs hinzufügen"
             },
+            "vserver_windows_change_language": {
+                "title": "Sprache hinzufügen/ändern",
+                "sidebar_label": "Sprache hinzufügen/ändern"
+            },
             "vserver_windows_ftpserver": {
-               "title": "FTP Server installieren",
-               "sidebar_label": "FTP Server installieren"
+                "title": "FTP Server installieren",
+                "sidebar_label": "FTP Server installieren"
             },
             "vserver_windows_installmysql": {
                 "title": "MySQL Server Installieren",
@@ -491,7 +535,7 @@
             "vserver_windows_plesk": {
                 "title": "Plesk installation",
                 "sidebar_label": "Plesk installation"
-              },
+            },
             "vserver_windows_port": {
                 "title": "Ports freigeben",
                 "sidebar_label": "Ports freigeben"
@@ -500,9 +544,13 @@
                 "title": "Erstzugriff (RDP)",
                 "sidebar_label": "Erstzugriff (RDP)"
             },
-            "webspace_dashboard": {
-                "title": "Dashboard",
-                "sidebar_label": "Dashboard"
+            "webspace_adddomain": {
+                "title": "Domain Hinzufügen",
+                "sidebar_label": "Domain Hinzufügen"
+            },
+            "webspace_htaccess_discord": {
+                "title": "Discord Weiterleitung via Domain",
+                "sidebar_label": "Discord Weiterleitung via Domain"
             },
             "webspace_plesk_ftp": {
                 "title": "FTP Verbindung Anlegen",
@@ -515,10 +563,6 @@
             "webspace_plesk_ssl": {
                 "title": "SSL Zertifikat erstellen",
                 "sidebar_label": "SSL Zertifikat erstellen"
-            },
-            "whatiszap": {
-                "title": "Die ZAP-Hosting Docs",
-                "sidebar_label": "Die ZAP-Hosting Docs"
             }
         },
         "links": {

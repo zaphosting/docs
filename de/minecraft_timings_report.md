@@ -78,7 +78,7 @@ Wenn viel Wasser als Beispiel bei einer großen Farm als Beispiel verwendet wird
 Das Problem kann sich aber auch ergeben, wenn neue Chunks generiert werden und in diesen Chunks Wasserquellen als Beispiel in einem Berg erstellt wurden. Der Server muss auch hier wieder den Status jeweils berechnen, damit das Wasser normal verläuft.
 Hierbei kommt hinzu, dass der Server die Chunks erstellen und laden muss, was ebenfalls ein sehr intensiver Prozess ist.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/GWz98fTiknCkWZW)
+![](https://screensaver01.zap-hosting.com/index.php/s/GWz98fTiknCkWZW/preview)
 
 Alle weiteren Untersuchungen können ebenfalls so vorgenommen werden, da es bei jedem anderen Prozess ebenfalls genau die gleichen Schritte sind. Solltest du dennoch Hilfe bei der Auswertung benötigen, so stehen wir dir im Support jederzeit zur Verfügung!
 
@@ -91,4 +91,4 @@ Auch hier werden die Werte wieder in drei Spalten aufgeleitet, die genau gleich 
 Anders hierbei ist es, dass nun kein Hauptprozess mehr dargestellt wird, sondern das Plugin selbst.
 Dennoch können wir die Prozesse durch anklicken alle einsehen und die Werte besser untersuchen.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/CzitKykWC2dzExD)
+![](https://screensaver01.zap-hosting.com/index.php/s/CzitKykWC2dzExD/preview)

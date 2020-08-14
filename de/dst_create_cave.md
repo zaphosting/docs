@@ -29,11 +29,13 @@ Bei dem Master handelt es sich um den Oberwelt Server, bei diesem Server muss in
 
 Standardmäßig steht in der server.ini bei "**[SHARD]**" nur "is_master = true", dort werden nun folgende Befehle nachgetragen.
 
-`shard_enabled = true
+```
+shard_enabled = true
 is_master = true
 bind_ip = MASTERIP
 name = Overworld
-id=100`
+id=100
+```
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/TDoHPHyBd9ZZ8LY/preview)
 
@@ -41,12 +43,14 @@ id=100`
 
 Standardmäßig steht in der cluster.ini bei "**[SHARD]**" nur "is_master = true", dort werden nun folgende Befehle nachgetragen.
 
-`shard_enabled = true
+```
+shard_enabled = true
 is_master = true
 master_ip = MASTERIP
 master_port = 27002
 shard_name = Overworld
-cluster_key = deinclusterkey`
+cluster_key = deinclusterkey
+```
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/DYcBWDzSgH3EJRz/preview)
 
@@ -62,12 +66,14 @@ Bei dem Slave handelt es sich um den Höhlen Server, bei welchem die Daten vom M
 
 Standardmäßig steht in der server.ini bei "**[SHARD]**" nur "is_master = true", dort werden nun folgende Befehle nachgetragen.
 
-`shard_enabled = true
+```
+shard_enabled = true
 is_master = false
 bind_ip = SLAVEIP
 master_ip = MASTERIP
 name = Cave
-id=200`
+id=200
+```
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/aNpjmxDmzdTcCFH/preview)
 
@@ -75,12 +81,14 @@ id=200`
 
 Standardmäßig steht in der cluster.ini bei "**[SHARD]**" nur "is_master = true", dort werden nun folgende Befehle nachgetragen.
 
-`shard_enabled = true
+```
+shard_enabled = true
 is_master = false
 master_ip = MASTERIP
 master_port = 27002
 shard_name = Cave
-cluster_key = deinclusterkey`
+cluster_key = deinclusterkey
+```
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/FWtpJyt7K3swNnM/preview)
 
@@ -93,11 +101,13 @@ Navigiere mithilfe dieser [FTP-Verbindung](https://zap-hosting.com/guides/docs/d
 In diesem Verzeichnis wird nun eine neue Datei mit dem Namen "*worldgenoverwrite.lua*" angelegt.
 Diese Datei wird mit folgendem Inhalt gefüllt.
 
-`return {
+```
+return {
 override_enabled = true,
 preset = "DST_CAVE", -- "SURVIVAL_TOGETHER", "MOD_MISSING", "SURVIVAL_TOGETHER_CLASSIC", "SURVIVAL_DEFAULT_PLUS", "COMPLETE_DARKNESS", "DST_CAVE", "DST_CAVE_PLUS"
 overrides = {},
-}`
+}
+```
 
 Im Anschluss muss nun im Spiel bei dem Server die "**TAB**" Taste gehalten werden, um den Serverstatus abzurufen, dort kann man oben links dann auf 3 Punkte klicken und mit "**Regenerate World**" die Welt einmal mit dem überschriebenen Parameter neu generieren.
 

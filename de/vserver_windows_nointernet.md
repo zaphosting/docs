@@ -16,7 +16,7 @@ Sollte er aber online sein und dennoch kein Internet haben, kann man dies über 
 
 
 ## 🖥 Wie stelle ich die Verbindung wieder her?
-Als Erstes verbinden wir uns via VNC-Konsole mit dem Server. 
+Als Erstes verbinden wir uns via VNC-Konsole mit dem Server und melden uns an.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/wrjFksQ4jWFGEz4/preview)
 
@@ -39,6 +39,8 @@ Im Anschluss machen dort einen **Doppelklick** auf die **Ipv4** Verbindung.
 Daraufhin prüfen wir, ob dort **unsere** Ip aus dem Interface eingetragen ist. Im Folgenden zeige ich ein Beispiel wie es bei der Ip 185.249.196.108 korrekt wäre:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/KtR7nfiN4LJJyjg/preview)
+
+> Gehe sicher das du **deine** Server IP unter "IP Addresse" Eingibst
 
 > Wichtig hierbei ist, dass die Subnetzmaske immer ein Typ C Netz ist und somit immer 255.255.255.0 lautet.
 

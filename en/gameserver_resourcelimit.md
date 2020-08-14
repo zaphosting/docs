@@ -17,7 +17,7 @@ There you will also see the upgrades **recommended by us** to solve the problem 
 
 ## Unlocking your Gameservers🔓
 
-### Option 1 Console
+### 🖥️ Console
 These mods or scripts, can be partially viewed or determined via the console. To do this, you can click on the console to view the latest logs/console lines:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/XQ9mz9YfacWLCKX/preview)
@@ -26,12 +26,12 @@ These mods or scripts, can be partially viewed or determined via the console. To
 
 Afterwards the server is **temporarily** activated again. If the server is overloaded again, it is immediately locked again.
 
-### Option 2 Upgrade
+### ↕️ Upgrade
 For example, if it was triggered due to big things on the server ("farms" "buildings" etc.) and you want to keep them, we offer the recommended upgrade as **option 2**.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/bEz2atpCp4pdsP9/preview)
 
-### Option 3 Ticket
+### 🎫 Ticket
 
 If you don't have a direct explanation of what caused it, the last option is to create a ticket by clicking on it and ask us about it:
 

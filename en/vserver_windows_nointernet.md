@@ -18,7 +18,7 @@ But if he is online and still has no internet, you can check this via the serial
 
 ## 🖥 How do I re-establish the connection?
 
-First of all, we connect to the server via the serial console as shown below. 
+First of all, we connect to the server via the serial console as shown below and log into it. 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/2WjFgoyE5fdstd6/preview)
 
@@ -41,6 +41,8 @@ Then, we will **double click** on the **IPv4 connection** as shown here:
 Then, we will check whether the **server's** IP address from the control panel is entered there. In the following, you see an example of how it should be with the IP of "45.146.254.252" in order to work properly:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/ZnLC26QHDBMi3c9/preview)
+
+> Make sure that you enter **your** Server IP under "IP Address"
 
 > It is important here that the subnet mask is always a type C network and is therefore always set as "255.255.255.0".
 
