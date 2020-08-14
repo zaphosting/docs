@@ -92,7 +92,7 @@ In diesem Beispiel soll der Ordner "Client" unter /home in den Ordner "Backups" 
 
 >Wichtig: Auf dem Remote Server muss ebenfalls Rsync installiert sein. 
 >```
->`apt install rsync
+>apt install rsync
 >````
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/84yY84CAJE83aHo/preview)
