@@ -76,7 +76,8 @@
                     "vserver_linux_gs_interface",
                     "vserver_linux_nextcloud",
                     "vserver_linux_add_ip",
-                    "vserver_linux_ssl"
+                    "vserver_linux_ssl",
+                    "vserver_linux_rsync"
 
                 ]
             },
@@ -265,7 +266,8 @@
             "unturned_rocketmod_admin"
         ],
         "SCP: Secret Laboratory": [
-            "scp_becomeadmin"
+            "scp_becomeadmin",
+            "scp_newroles"
         ],
         "Don't Starve Together": [
             "dst_create_cave"

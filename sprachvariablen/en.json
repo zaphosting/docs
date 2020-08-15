@@ -377,6 +377,10 @@
         "title": "Become Admin",
         "sidebar_label": "Become Admin"
       },
+      "scp_newroles": {
+        "title": "Add new roles",
+        "sidebar_label": "Add new roles"
+      },
       "source_custom_content": {
         "title": "Custom Content",
         "sidebar_label": "Custom Content"
@@ -488,6 +492,10 @@
       "vserver_linux_plesk": {
         "title": "Plesk",
         "sidebar_label": "Plesk"
+      },
+      "vserver_linux_rsync": {
+        "title": "Rsync Linux",
+        "sidebar_label": "Rsync Linux"
       },
       "vserver_linux_sftp": {
         "title": "Connect via SFTP",
