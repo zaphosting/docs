@@ -489,6 +489,10 @@
         "title": "Plesk",
         "sidebar_label": "Plesk"
       },
+      "vserver_linux_rsync": {
+        "title": "Rsync Linux",
+        "sidebar_label": "Rsync Linux"
+      },
       "vserver_linux_sftp": {
         "title": "Connect via SFTP",
         "sidebar_label": "SFTP Connection"
