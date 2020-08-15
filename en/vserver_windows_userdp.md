@@ -16,15 +16,15 @@ You connect to your Windows server using the Remote Desktop Connection program p
 
 "Remote Desktop Connection", asks for a "**computer name**". This is the IP address of the server.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/JjB66m4t5cmqYdb/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/LdCwYp9CfjWM7gt/preview)
 
 The IP address can be found in the ZAP web interface under "**Access & Security**" and in the Infobar.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/wqSy3kMWMTP2ZTp/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/yc5KwTPcbNJAAa8/preview)
 
 The program asks for a **user name** and **password**. The user name is "**administrator**". The password can be set in the web interface under "**Access & Security**".
 
-![](https://screensaver01.zap-hosting.com/index.php/s/XFzk76HXsb7BTCs/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/sELAysb47je9fQe/preview)
 
 > No certificate is installed by default. The password is therefore transmitted insecurely. Learn how to create a certificate here: RDP Certificate
 
