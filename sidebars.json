@@ -76,7 +76,8 @@
                     "vserver_linux_gs_interface",
                     "vserver_linux_nextcloud",
                     "vserver_linux_add_ip",
-                    "vserver_linux_ssl"
+                    "vserver_linux_ssl",
+                    "vserver_linux_rsync"
 
                 ]
             },
@@ -113,7 +114,7 @@
                 "type": "subcategory",
                 "label": "Webspace",
                 "ids": [
-                    "webspace_dashboard",
+                    "webspace_adddomain",
                     "webspace_plesk_ftp",
                     "webspace_plesk_sendmail",
                     "webspace_plesk_ssl",
@@ -271,7 +272,7 @@
             "dst_create_cave"
         ],
         "Alt:V": [
-            "altv_installresources"    
+            "altv_installresources"
         ]
     }
 }
