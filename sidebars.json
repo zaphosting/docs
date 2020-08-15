@@ -76,7 +76,8 @@
                     "vserver_linux_gs_interface",
                     "vserver_linux_nextcloud",
                     "vserver_linux_add_ip",
-                    "vserver_linux_ssl"
+                    "vserver_linux_ssl",
+                    "vserver_linux_rsync"
 
                 ]
             },
