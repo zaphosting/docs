@@ -4,7 +4,7 @@ title: Change Spawnpoint
 sidebar_label: Change Spawnpoint
 ---
 
-## 📔 Map out
+## 📔 Find Map
 
 First of all we have to find out which map is running on our FiveM server.
 
