@@ -22,6 +22,7 @@ Wie du das tun kannst findest du hier: https://docs.zap-hosting.com/docs/de/five
 ## 🔧 Map öffnen
 
 Nun öffnen wir unsere Map welche wir vorhin herrausgefunden haben.
+Die Standardmaps befinden sich in `server-data/resources/[gamemodes]/[maps]`
 Dies tun wir zb per Filezilla
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/7fPmWTPyjgnz4yC/preview)
