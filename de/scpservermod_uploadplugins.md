@@ -1,5 +1,5 @@
 ---
 id: scpservermod_uploadplugins
-title: Upload Plugins
-sidebar_label: Upload Plugins
+title: Install Plugins
+sidebar_label: Install Plugins
 ---
