@@ -272,7 +272,7 @@
                 "type": "subcategory",
                 "label": "ServerMod",
                 "ids": [
-                    "scpservermod_uploadmods",
+                    "scpservermod_uploadplugins",
                 ]
             },       
         ],
