@@ -267,14 +267,7 @@
         ],
         "SCP: Secret Laboratory": [
             "scp_becomeadmin",
-            "scp_newroles"
-            {
-                "type": "subcategory",
-                "label": "ServerMod",
-                "ids": [
-                    "scpservermod_uploadplugins",
-                ]
-            },       
+            "scp_newroles"    
         ],
         "Don't Starve Together": [
             "dst_create_cave"
