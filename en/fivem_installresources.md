@@ -8,7 +8,7 @@ sidebar_label: Resource Installation
 
 Before resources can be installed, the [FTP-Access](gameserver_ftpaccess.md) must be set up:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/8TAyBqGcwFEf7Gz/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/PkowAdzot9tjZeY/preview)
 
 After this has been set up, you can now connect and open the server folder:
 
