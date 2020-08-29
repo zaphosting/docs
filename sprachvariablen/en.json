@@ -385,6 +385,10 @@
         "title": "Add new roles",
         "sidebar_label": "Add new roles"
       },
+      "scpservermod_uploadplugins": {
+        "title": "Install Plugins",
+        "sidebar_label": "Install Plugins"
+      },
       "source_custom_content": {
         "title": "Custom Content",
         "sidebar_label": "Custom Content"
