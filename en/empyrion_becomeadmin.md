@@ -1,7 +1,7 @@
 ---
 id: empyrion_becomeadmin
-title: become admin
-sidebar_label: become admin
+title: Become Admin
+sidebar_label: Become Admin
 ---
 
 ## 🗝️ locate Steam64ID
