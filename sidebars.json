@@ -275,6 +275,9 @@
         ],
         "Alt:V": [
             "altv_installresources"
+        ],
+        "Empyrion": [
+            "empyrion_becomeadmin"
         ]
     }
 }
