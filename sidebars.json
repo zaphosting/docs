@@ -263,7 +263,8 @@
         ],
         "Unturned": [
             "unturned_rocketmod_plugins",
-            "unturned_rocketmod_admin"
+            "unturned_rocketmod_admin",
+            "unturned_rocketmod_permissions"
         ],
         "SCP: Secret Laboratory": [
             "scp_becomeadmin",
