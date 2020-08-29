@@ -3,6 +3,7 @@ id: scpservermod_uploadplugins
 title: Install Plugins
 sidebar_label: Install Plugins
 ---
+
 > To install plugins onto your server, you require SCP: ServerMod. Sadly it will not work on main vanilla version of the game. 
 
 ## Connect to FTP
