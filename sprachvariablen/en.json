@@ -133,6 +133,10 @@
         "title": "Create Caves",
         "sidebar_label": "Create Caves"
       },
+      "empyrion_becomeadmin": {
+        "title": "become admin",
+        "sidebar_label": "become admin"
+      },
       "firststeps_problem_melden": {
         "title": "How do i report problems?",
         "sidebar_label": "How do i report problems?"
@@ -607,7 +611,8 @@
       "Unturned": "Unturned",
       "SCP: Secret Laboratory": "SCP: Secret Laboratory",
       "Don't Starve Together": "Don't Starve Together",
-      "Alt:V": "Alt:V"
+      "Alt:V": "Alt:V",
+      "Empyrion": "Empyrion"
     }
   },
   "pages-strings": {
