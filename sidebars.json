@@ -63,6 +63,7 @@
                 "ids": [
                     "vserver_linux_ssh",
                     "vserver_linux_sftp",
+                    "vserver_linux_sshkey",
                     "vserver_linux_ssh2fa",
                     "vserver_linux_password_change",
                     "vserver_linux_java",
