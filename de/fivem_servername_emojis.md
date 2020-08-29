@@ -13,7 +13,7 @@ Um Emojis im Server Namen zu haben, muss zunächst der Server Name in den Einste
 
 Nun richten wir unseren [FTP-Zugang](gameserver_ftpaccess.md) ein
 
-![](https://screensaver01.zap-hosting.com/index.php/s/ekYw27nA4cgiNAk/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/PkowAdzot9tjZeY/preview)
 
 Nachdem dieser eingerichtet wurde, kann sich nun verbunden werden und der Server Ordner geöffnet werden:
 
