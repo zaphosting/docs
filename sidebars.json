@@ -63,6 +63,7 @@
                 "ids": [
                     "vserver_linux_ssh",
                     "vserver_linux_sftp",
+                    "vserver_linux_sshkey",
                     "vserver_linux_ssh2fa",
                     "vserver_linux_password_change",
                     "vserver_linux_java",
@@ -263,7 +264,8 @@
         ],
         "Unturned": [
             "unturned_rocketmod_plugins",
-            "unturned_rocketmod_admin"
+            "unturned_rocketmod_admin",
+            "unturned_rocketmod_permissions"
         ],
         "SCP: Secret Laboratory": [
             "scp_becomeadmin",
@@ -274,6 +276,9 @@
         ],
         "Alt:V": [
             "altv_installresources"
+        ],
+        "Empyrion": [
+            "empyrion_becomeadmin"
         ]
     }
 }
