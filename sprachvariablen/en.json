@@ -517,6 +517,10 @@
         "title": "Two factor authentication",
         "sidebar_label": "Two factor authentication"
       },
+      "vserver_linux_sshkey": {
+        "title": "SSH Key",
+        "sidebar_label": "SSH Key"
+      },
       "vserver_linux_ssl": {
         "title": "SSL-Certificate (Let's Encrypt)",
         "sidebar_label": "SSL-Certificate (Let's Encrypt)"
