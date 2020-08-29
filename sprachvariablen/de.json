@@ -56,6 +56,10 @@
                 "title": "Gutscheine & Codes",
                 "sidebar_label": "Gutscheine & Codes"
             },
+            "altv_installresources": {
+                "title": "Resourcen Installieren",
+                "sidebar_label": "Resourcen Installieren"
+              },
             "arma3_altislife_ranks": {
                 "title": "Altis Life Ränge",
                 "sidebar_label": "Altis Life Ränge"
@@ -128,6 +132,10 @@
                 "title": "Höhlen erstellen",
                 "sidebar_label": "Höhlen erstellen"
             },
+            "empyrion_becomeadmin": {
+                "title": "Admin werden",
+                "sidebar_label": "Admin werden"
+              },
             "firststeps_problem_melden": {
                 "title": "Wie melde ich Probleme?",
                 "sidebar_label": "Wie melde ich Probleme?"
@@ -372,6 +380,10 @@
                 "title": "Admin werden",
                 "sidebar_label": "Admin werden"
             },
+            "scp_newroles": {
+                "title": "Neue Rollen hinzufügen",
+                "sidebar_label": "Neue Rollen hinzufügen"
+              },
             "source_custom_content": {
                 "title": "Custom Inhalte",
                 "sidebar_label": "Custom Inhalte"
@@ -416,6 +428,10 @@
                 "title": "Admin werden (Rocket Mod)",
                 "sidebar_label": "Admin werden (Rocket Mod)"
             },
+            "unturned_rocketmod_permissions": {
+                "title": "Berechtigungen anpassen",
+                "sidebar_label": "Berechtigungen anpassen"
+              },
             "unturned_rocketmod_plugins": {
                 "title": "Plugins installieren",
                 "sidebar_label": "Plugins installieren"
@@ -484,6 +500,10 @@
                 "title": "Plesk",
                 "sidebar_label": "Plesk"
             },
+            "vserver_linux_rsync": {
+                "title": "Rsync Linux",
+                "sidebar_label": "Rsync Linux"
+              },
             "vserver_linux_sftp": {
                 "title": "Via SFTP verbinden",
                 "sidebar_label": "SFTP Verbindung"
@@ -496,6 +516,10 @@
                 "title": "Zwei Faktor Authentifizierung",
                 "sidebar_label": "Zwei Faktor Authentifizierung"
             },
+            "vserver_linux_sshkey": {
+                "title": "SSH Key",
+                "sidebar_label": "SSH Key"
+              },
             "vserver_linux_ssl": {
                 "title": "SSL-Zertifikat (Let's Encrypt)",
                 "sidebar_label": "SSL-Zertifikat (Let's Encrypt)"
@@ -548,6 +572,10 @@
                 "title": "Domain Hinzufügen",
                 "sidebar_label": "Domain Hinzufügen"
             },
+            "webspace_dashboard": {
+                "title": "Add Domain",
+                "sidebar_label": "Add Domain"
+              },
             "webspace_htaccess_discord": {
                 "title": "Discord Weiterleitung via Domain",
                 "sidebar_label": "Discord Weiterleitung via Domain"
