@@ -20,7 +20,7 @@ In der Config ist bereits ein Eintrag vorhanden der z.b so aussehen könnte:
 auto lo
 iface lo inet loopback
 
-auto eth0
+allow-hotplug eth0
 iface eth0 inet static
         address 123.123.123.100
         netmask 255.255.255.0
@@ -41,7 +41,7 @@ Das Gateway ist immer die IPv4 Adresse mit einer 1 am Ende.
 Die zusätzliche Schnittstelle sehe dann wie folgt aus: 
 
 ```
-auto eth1
+allow-hotplug eth1
 iface eth1 inet static
         address 124.124.124.55
         netmask 255.255.255.0
@@ -54,13 +54,13 @@ Zusammen mit der Schnittstelle "eth0" sieht die Config nun so aus:
 auto lo
 iface lo inet loopback
 
-auto eth0
+allow-hotplug eth0
 iface eth0 inet static
         address 123.123.123.100
         netmask 255.255.255.0
         gateway 123.123.123.1
         
-auto eth1
+allow-hotplug eth1
 iface eth1 inet static
         address 124.124.124.55
         netmask 255.255.255.0
