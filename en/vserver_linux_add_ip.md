@@ -21,7 +21,7 @@ There is already an entry in the config that could look like this:
 auto lo
 iface lo inet loopback
 
-auto eth0
+allow-hotplug eth0
 iface eth0 inet static
         address 123.123.123.100
         netmask 255.255.255.0
@@ -39,7 +39,7 @@ In order to add a further IPv4, another interface must be entered, eg "eth1". Th
 The additional interface then looks like this: 
 
 ```
-auto eth1
+allow-hotplug eth1
 iface eth1 inet static
         address 124.124.124.55
         netmask 255.255.255.0
@@ -52,13 +52,13 @@ Together with the "eth0" interface, the config now looks like this:
 auto lo
 iface lo inet loopback
 
-auto eth0
+allow-hotplug eth0
 iface eth0 inet static
         address 123.123.123.100
         netmask 255.255.255.0
         gateway 123.123.123.1
         
-auto eth1
+allow-hotplug eth1
 iface eth1 inet static
         address 124.124.124.55
         netmask 255.255.255.0
