@@ -19,7 +19,7 @@ Zunächst einmal empfehlen wir dringend, Resourcen zu entfernen, die diese spezi
 ![](https://screensaver01.zap-hosting.com/index.php/s/n6MxRCPiFSDtjGS/preview)
 
 
-dann stelle sicher, dass nur Resourcen aus seriösen Quellen, wie den [FiveM Foren](https://forum.cfx.re/), und nicht von Websites Dritter herunterladen. Der Kauf von Resourcen verstößt ebenfalls gegen die FiveM Nutzungsbedingungen und kann dazu führen, dass dein Server auf die blacklist gesetzt wird.
+dann stelle sicher, dass nur Resourcen aus seriösen Quellen, wie den [FiveM Foren](https://forum.cfx.re/), und nicht von Websites Dritter heruntergeladen werden. Der Kauf von Resourcen verstößt ebenfalls gegen die FiveM Nutzungsbedingungen und kann dazu führen, dass dein Server auf die blacklist gesetzt wird.
 
 
 
