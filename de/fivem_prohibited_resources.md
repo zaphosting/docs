@@ -14,7 +14,14 @@ Du kannst diese Resourcen im Allgemeinen mit Viren vergleichen.
 
 ## Was kann ich dagegen tun?
 
-Zunächst einmal empfehlen wir dringend, Resourcen zu entfernen, die diese spezifische Nachricht verursachen, und dann stelle sicher, dass nur Resourcen aus seriösen Quellen, wie den [FiveM Foren](https://forum.cfx.re/), und nicht von Websites Dritter herunterladen. Der Kauf von Resourcen verstößt ebenfalls gegen die FiveM Nutzungsbedingungen und kann dazu führen, dass dein Server auf die blacklist gesetzt wird.
+Zunächst einmal empfehlen wir dringend, Resourcen zu entfernen, die diese spezifische Nachricht verursachen:
+
+![](https://screensaver01.zap-hosting.com/index.php/s/n6MxRCPiFSDtjGS/preview)
+
+
+dann stelle sicher, dass nur Resourcen aus seriösen Quellen, wie den [FiveM Foren](https://forum.cfx.re/), und nicht von Websites Dritter herunterladen. Der Kauf von Resourcen verstößt ebenfalls gegen die FiveM Nutzungsbedingungen und kann dazu führen, dass dein Server auf die blacklist gesetzt wird.
+
+
 
 
 ## Welche Resourcen sind genau verboten?
