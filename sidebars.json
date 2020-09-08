@@ -179,6 +179,7 @@
             "fivem_useprofiler",
             "fivem_deletecache",
             "fivem_upvotes",
+            "fivem_prohibited_resources",
             {
                 "type": "subcategory",
                 "label": "Resources & Mods",
