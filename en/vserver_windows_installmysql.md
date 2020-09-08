@@ -1,4 +1,3 @@
-
 ---
 id: vserver_windows_installmysql
 title: MySQL Server Installation
