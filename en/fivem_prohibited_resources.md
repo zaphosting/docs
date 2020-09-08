@@ -4,7 +4,7 @@ title: Resource contains prohibited logic?
 sidebar_label: Resource contains prohibited logic?
 ---
 
-## What does "Resource contains prohibited logic mean?
+## What does "Resource contains prohibited logic" mean?
 
 FiveM has recently started blocking malicious resources that contain code to infect your Server and other resources on it, that means that those resources try to "spread" their code to other resources, in order to allow Hackers and Cheaters Access to your Scripts and Database.
 
