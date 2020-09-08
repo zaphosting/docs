@@ -68,7 +68,7 @@ Once activated, you can play your new game on your server. In the overview you c
 ![](https://screensaver01.zap-hosting.com/index.php/s/TntbaffsKw8SaH4/preview)
 <br><br>
 Via the game server cloud, you can reinstall your game servers with one click (Attention: All data of the game will be deleted during reinstallation):
-![](https://screensaver01.zap-hosting.com/index.php/s/j4eDSs7rGAy7fim/preview
+![](https://screensaver01.zap-hosting.com/index.php/s/j4eDSs7rGAy7fim/preview)
 
 
 ### 💸 Change slot prices
