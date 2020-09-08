@@ -29,7 +29,7 @@ First of all only the start page of phpMyAdmin is displayed. To view and edit th
 
 Now all tables of the database and some tools are listed with which you can perform certain actions, e.g. tables can be deleted by clicking the red "Delete" button.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/XN3t8D3dn4R9AJF/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/rFT6bknBsqxieZ5/preview)
 
 
 
