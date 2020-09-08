@@ -237,6 +237,10 @@
         "title": "Install Replace Carmods",
         "sidebar_label": "Install Replace Carmods"
       },
+      "fivem_prohibited_resources": {
+        "title": "Resource contains prohibited logic?",
+        "sidebar_label": "Resource contains prohibited logic?"
+      },
       "fivem_rcon": {
         "title": "Use Rcon",
         "sidebar_label": "Use Rcon"
