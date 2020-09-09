@@ -69,6 +69,10 @@
         "title": "Server.cfg",
         "sidebar_label": "Server.cfg"
       },
+      "assetto_competizione_becomeadmin": {
+        "title": "Become Admin",
+        "sidebar_label": "Become Admin"
+      },
       "assettocorsa_configure": {
         "title": "Configure Server",
         "sidebar_label": "Configure Server"
@@ -619,6 +623,7 @@
       "Source Games": "Source Games",
       "ArmA 3": "ArmA 3",
       "Assetto Corsa": "Assetto Corsa",
+      "Assetto Corsa Competizione": "Assetto Corsa Competizione",
       "Space Engineers": "Space Engineers",
       "Unturned": "Unturned",
       "SCP: Secret Laboratory": "SCP: Secret Laboratory",
