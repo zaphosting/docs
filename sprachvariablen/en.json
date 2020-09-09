@@ -306,8 +306,8 @@
         "sidebar_label": "Server crash - What to do?"
       },
       "gameswitch": {
-        "title": "Spielwechsel mit der Gameservercloud",
-        "sidebar_label": "Spielwechsel"
+        "title": "Change the game",
+        "sidebar_label": "Change the game"
       },
       "legal_use_brand_assets": {
         "title": "Use of logo and name",
@@ -558,8 +558,8 @@
         "sidebar_label": "FTP Server Installation"
       },
       "vserver_windows_installmysql": {
-        "title": "Install MySQL Server",
-        "sidebar_label": "Install MySQL Server"
+        "title": "MySQL Server Installation",
+        "sidebar_label": "MySQL Server Installation"
       },
       "vserver_windows_nointernet": {
         "title": "No Internet what now?",
