@@ -259,6 +259,9 @@
             "assettocorsa_configure",
             "assettocorsa_mods"
         ],
+        "Assetto Corsa Competizione": [
+            "assetto_competizione_becomeadmin"
+        ],
         "Space Engineers": [
             "spaceengineers_becomeadmin",
             "spaceengineers_addmods"
