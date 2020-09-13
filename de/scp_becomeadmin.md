@@ -1,6 +1,6 @@
 ---
 id: scp_becomeadmin
-title: Become Admin
+title: Admin werden
 sidebar_label: Admin werden
 ---
 
