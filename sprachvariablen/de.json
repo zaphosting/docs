@@ -64,10 +64,18 @@
                 "title": "Altis Life Ränge",
                 "sidebar_label": "Altis Life Ränge"
             },
+            "arma3_mods": {
+                "title": "Mods Installieren",
+                "sidebar_label": "Mods Installieren"
+              },
             "arma3_serverconfig": {
                 "title": "Server.cfg",
                 "sidebar_label": "Server.cfg"
             },
+            "assetto_competizione_becomeadmin": {
+                "title": "Admin werden",
+                "sidebar_label": "Admin werden"
+              },
             "assettocorsa_configure": {
                 "title": "Server Konfigurieren",
                 "sidebar_label": "Server Konfigurieren"
@@ -180,6 +188,10 @@
                 "title": "Cache leeren",
                 "sidebar_label": "Cache leeren"
             },
+            "fivem_editlocalfiles": {
+                "title": "Localesfiles bearbeiten",
+                "sidebar_label": "Localesfiles bearbeiten"
+              },
             "fivem_esx_addcarstoshop": {
                 "title": "Autos zum Shop hinzufügen",
                 "sidebar_label": "Autos zum Shop hinzufügen"
@@ -236,6 +248,10 @@
                 "title": "Replacement Carmods Installieren",
                 "sidebar_label": "Replacement Carmods Installieren"
             },
+            "fivem_prohibited_resources": {
+                "title": "Resource contains prohibited logic?",
+                "sidebar_label": "Resource contains prohibited logic?"
+              },
             "fivem_rcon": {
                 "title": "Rcon Benutzen",
                 "sidebar_label": "Rcon Benutzen"
@@ -376,6 +392,14 @@
                 "title": "Pakete Installieren",
                 "sidebar_label": "Pakete Installieren"
             },
+            "rust_becomeadmin": {
+                "title": "Admin werden",
+                "sidebar_label": "Admin werden"
+              },
+              "rust_connectrcon": {
+                "title": "Connect via RCON",
+                "sidebar_label": "Connect via RCON"
+              },
             "scp_becomeadmin": {
                 "title": "Admin werden",
                 "sidebar_label": "Admin werden"
@@ -383,6 +407,10 @@
             "scp_newroles": {
                 "title": "Neue Rollen hinzufügen",
                 "sidebar_label": "Neue Rollen hinzufügen"
+              },
+              "scpservermod_uploadplugins": {
+                "title": "Plugins installieren",
+                "sidebar_label": "Plugins installieren"
               },
             "source_custom_content": {
                 "title": "Custom Inhalte",
@@ -544,6 +572,10 @@
                 "title": "Sprache hinzufügen/ändern",
                 "sidebar_label": "Sprache hinzufügen/ändern"
             },
+            "vserver_windows_expand_disk": {
+                "title": "Festplatte erweitern",
+                "sidebar_label": "Festplatte erweitern"
+              },
             "vserver_windows_ftpserver": {
                 "title": "FTP Server installieren",
                 "sidebar_label": "FTP Server installieren"
@@ -613,7 +645,10 @@
             "Space Engineers": "Space Engineers",
             "Unturned": "Unturned",
             "SCP: Secret Laboratory": "SCP: Secret Laboratory",
-            "Don't Starve Together": "Don't Starve Together"
+            "Don't Starve Together": "Don't Starve Together",
+            "Alt:V": "Alt:V",
+            "Empyrion": "Empyrion",
+            "Rust": "Rust"
         }
     },
     "pages-strings": {
