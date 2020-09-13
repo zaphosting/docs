@@ -223,6 +223,9 @@
         "RageMP": [
             "ragemp_installpackages"
         ],
+        "Alt:V": [
+            "altv_installresources"
+        ],
         "Terraria": [
             "terraria_tshock_add_admin",
             "terraria_tmodloader_installmod"
@@ -286,9 +289,6 @@
         ],
         "Don't Starve Together": [
             "dst_create_cave"
-        ],
-        "Alt:V": [
-            "altv_installresources"
         ],
         "Empyrion": [
             "empyrion_becomeadmin"
