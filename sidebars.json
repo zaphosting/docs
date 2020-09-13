@@ -290,6 +290,10 @@
         ],
         "Empyrion": [
             "empyrion_becomeadmin"
+        ],
+        "Rust": [
+            "rust_becomeadmin",
+            "rust_connectrcon"
         ]
     }
 }
