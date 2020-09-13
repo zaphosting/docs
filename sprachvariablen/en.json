@@ -569,6 +569,10 @@
         "title": "Add/change language",
         "sidebar_label": "Add/change language"
       },
+      "vserver_windows_expand_disk": {
+        "title": "Extend disk",
+        "sidebar_label": "Extend disk"
+      },
       "vserver_windows_ftpserver": {
         "title": "FTP Server Installation",
         "sidebar_label": "FTP Server Installation"
