@@ -65,6 +65,10 @@
         "title": "Altis Life Ranks",
         "sidebar_label": "Altis Life Ranks"
       },
+      "arma3_mods": {
+        "title": "Install Mods",
+        "sidebar_label": "Install Mods"
+      },
       "arma3_serverconfig": {
         "title": "Server.cfg",
         "sidebar_label": "Server.cfg"
