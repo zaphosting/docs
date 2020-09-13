@@ -4,7 +4,7 @@ title: phpMyAdmin
 sidebar_label: phpMyAdmin
 ---
 
-> ⚠️Es wird ein funktionierender MySQL/MariaDB sowie ein Apache2 Server vorausgesetzt!
+> ⚠️Es wird ein funktionierender MySQL/MariaDB sowie ein Apache2 Server inkl. PHP vorausgesetzt!
 
 ## 🔄 System aktualisieren
 

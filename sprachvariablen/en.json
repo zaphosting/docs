@@ -69,6 +69,10 @@
         "title": "Server.cfg",
         "sidebar_label": "Server.cfg"
       },
+      "assetto_competizione_becomeadmin": {
+        "title": "Become Admin",
+        "sidebar_label": "Become Admin"
+      },
       "assettocorsa_configure": {
         "title": "Configure Server",
         "sidebar_label": "Configure Server"
@@ -181,6 +185,10 @@
         "title": "Delete Cache",
         "sidebar_label": "Delete Cache"
       },
+      "fivem_editlocalfiles": {
+        "title": "Edit Locales Files",
+        "sidebar_label": "Edit Locales Files"
+      },
       "fivem_esx_addcarstoshop": {
         "title": "Add Cars to Dealership",
         "sidebar_label": "Add Cars to Dealership"
@@ -236,6 +244,10 @@
       "fivem_mods_installreplace": {
         "title": "Install Replace Carmods",
         "sidebar_label": "Install Replace Carmods"
+      },
+      "fivem_prohibited_resources": {
+        "title": "Resource contains prohibited logic?",
+        "sidebar_label": "Resource contains prohibited logic?"
       },
       "fivem_rcon": {
         "title": "Use Rcon",
@@ -302,8 +314,8 @@
         "sidebar_label": "Server crash - What to do?"
       },
       "gameswitch": {
-        "title": "Spielwechsel mit der Gameservercloud",
-        "sidebar_label": "Spielwechsel"
+        "title": "Change the game",
+        "sidebar_label": "Change the game"
       },
       "legal_use_brand_assets": {
         "title": "Use of logo and name",
@@ -554,8 +566,8 @@
         "sidebar_label": "FTP Server Installation"
       },
       "vserver_windows_installmysql": {
-        "title": "Install MySQL Server",
-        "sidebar_label": "Install MySQL Server"
+        "title": "MySQL Server Installation",
+        "sidebar_label": "MySQL Server Installation"
       },
       "vserver_windows_nointernet": {
         "title": "No Internet what now?",
@@ -615,6 +627,7 @@
       "Source Games": "Source Games",
       "ArmA 3": "ArmA 3",
       "Assetto Corsa": "Assetto Corsa",
+      "Assetto Corsa Competizione": "Assetto Corsa Competizione",
       "Space Engineers": "Space Engineers",
       "Unturned": "Unturned",
       "SCP: Secret Laboratory": "SCP: Secret Laboratory",
