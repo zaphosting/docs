@@ -254,6 +254,7 @@
             "label": "ArmA 3 Allgemein",
             "ids": [
                 "arma3_serverconfig",
+                "arma3_mods",
                 "arma3_altislife_ranks"
             ]
         }],
