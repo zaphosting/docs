@@ -389,6 +389,14 @@
         "title": "Installing packages",
         "sidebar_label": "Installing packages"
       },
+      "rust_becomeadmin": {
+        "title": "Become Admin",
+        "sidebar_label": "Become Admin"
+      },
+      "rust_connectrcon": {
+        "title": "Connect via RCON",
+        "sidebar_label": "Connect via RCON"
+      },
       "scp_becomeadmin": {
         "title": "Become Admin",
         "sidebar_label": "Become Admin"
@@ -633,7 +641,8 @@
       "SCP: Secret Laboratory": "SCP: Secret Laboratory",
       "Don't Starve Together": "Don't Starve Together",
       "Alt:V": "Alt:V",
-      "Empyrion": "Empyrion"
+      "Empyrion": "Empyrion",
+      "Rust": "Rust"
     }
   },
   "pages-strings": {
