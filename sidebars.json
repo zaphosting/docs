@@ -171,16 +171,23 @@
         "FiveM": [
             "fivem_dashboard",
             "fivem_windowsorlinux",
-            "fivem_change_servericon",
-            "fivem_servername_emojis",
-            "fivem_servername_color",
-            "fivem_rcon",
-            "fivem_licensekey",
-            "fivem_mastadon",
-            "fivem_useprofiler",
-            "fivem_deletecache",
             "fivem_upvotes",
             "fivem_prohibited_resources",
+            {
+                "type": "subcategory",
+                "label": "Configuration & Administration",
+                "ids": [
+                    "fivem_change_servericon",
+                    "fivem_servername_emojis",
+                    "fivem_servername_color",
+                    "fivem_rcon",
+                    "fivem_licensekey",
+                    "fivem_deletecache",
+                    "fivem_useprofiler",
+                    "fivem_mastadon"
+                ]
+            },
+            
             {
                 "type": "subcategory",
                 "label": "Resources & Mods",
