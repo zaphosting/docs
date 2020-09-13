@@ -172,7 +172,6 @@
             "fivem_dashboard",
             "fivem_windowsorlinux",
             "fivem_upvotes",
-            "fivem_prohibited_resources",
             {
                 "type": "subcategory",
                 "label": "Configuration & Administration",
@@ -184,7 +183,8 @@
                     "fivem_licensekey",
                     "fivem_deletecache",
                     "fivem_useprofiler",
-                    "fivem_mastadon"
+                    "fivem_mastadon",
+                    "fivem_prohibited_resources",
                 ]
             },
             
