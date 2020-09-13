@@ -204,7 +204,8 @@
                     "fivem_esx_disablehud",
                     "fivem_esx_addcarstoshop",
                     "fivem_esx_changejobgarages",
-                    "fivem_esx_changerespawnpoint"
+                    "fivem_esx_changerespawnpoint",
+                    "fivem_editlocalfiles"
 
                 ]
             },
@@ -289,6 +290,10 @@
         ],
         "Empyrion": [
             "empyrion_becomeadmin"
+        ],
+        "Rust": [
+            "rust_becomeadmin",
+            "rust_connectrcon"
         ]
     }
 }
