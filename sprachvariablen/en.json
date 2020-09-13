@@ -185,6 +185,10 @@
         "title": "Delete Cache",
         "sidebar_label": "Delete Cache"
       },
+      "fivem_editlocalfiles": {
+        "title": "Edit Locales Files",
+        "sidebar_label": "Edit Locales Files"
+      },
       "fivem_esx_addcarstoshop": {
         "title": "Add Cars to Dealership",
         "sidebar_label": "Add Cars to Dealership"
