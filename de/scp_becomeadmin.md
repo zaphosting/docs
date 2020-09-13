@@ -4,68 +4,60 @@ title: Admin werden
 sidebar_label: Admin werden
 ---
 
-## Admin Optionen
+## Admin Options
 
-Es gibt zwei mögliche Wege um Admin auf dem Server zu werden.
+> HINWEIS: Seit den letzten SCP-Updates ist die Passwort-Anmeldung nicht mehr möglich. Mit der folgenden Anleitung kannst du die Rollen stattdessen mithilfe der Steam ID hinzufügen.
 
-1️⃣ Bei der ersten Option meldet man sich auf dem Server mit einem vorher gesetzten Remote Admin Passwort ein.
-*Diese Option wird von den Entwicklern nicht empfohlen.*
+###  📃 Konfiguration der Remote Admin Config
 
-2️⃣ Bei der zweiten Option setzt man sich in der Remote Admin Konfig als Admin. Dafür muss das Remote Admin Passwort auf "**none**" gesetzt werden.
+#### Voraussetzungen
 
-> Für beide Wege muss ein Remote Admin Passwort gesetzt werden, daher mit folgenden Schritten das Passwort setzen.
+Zuerst benötigst du deine Steam64ID.
+Diese kannst du mit folgendem Tool ermitteln: [SteamID Finder](https://steamid.io/lookup).
+Die ID muss später in die entsprechende Konfigurationsdatei eingetragen werden.
 
-## 🔒 Remote Admin Passwort setzen
+Hier findest du ein Beispiel wie du deine Steam64ID herausfindest indem du den Link zu deinem Steam-Profil einträgst:
 
-Die Funktion für dieses Remote Admin Passwort befindet sich in "**Einstellungen**" bei dem Gameserver Dashboard.
+![](https://screensaver01.zap-hosting.com/index.php/s/yPeWAQAGAiHRSKM/preview)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/wQ85AnkMH7PtG3D/preview)
+### Admins hinzufügen
 
-Bei "**Einstellungen**" angekommen ist die RemoteAdmin Passwort Funktion erstellt.
+Nun musst du die Konfiguratinsdatei öffnen une bearbeiten.
+Diese findest du links im Menü als "**Configs**", direkt unter dem Menüpunkt "**Einstellungen**".
 
-![](https://screensaver01.zap-hosting.com/index.php/s/cZ2A7CmZCo5G6rE/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/oH5YB7tsGCfaZcs/preview)
 
-Dort kann nun ein beliebiges eigenes Passwort erstellt werden.
+Dort befindet sich die "**config_remoteadmin.txt**" welche du mit dem Online-Editor öffnen und bearbeiten kannst.
 
-> Dieses Passwort muss mindestens 8 Zeichen, maximal 16 Zeichen, einen kleinen Buchstaben, einen großen Buchstaben, eine Zahl und zusätzlich ein Sonderzeichen enthalten.
-> In unserem Beispiel wird daher *123Change!* genutzt, da dieses alle Kriterien erfüllt.
-> Du kannst das Passwort Feld auch auf "**none**" stellen, sollte keine Passwort Eingabe gewünscht sein.
+![](https://screensaver01.zap-hosting.com/index.php/s/tBZofytXqRBrGSp/preview)
 
-### 1️⃣ 🗝️ Remote Admin Passwort nutzen
+Dort werden die verschiedenen Serverrollen erstellt und zugewiesen.
+Das "**SomeSteamId64**" welches direkt vor "**@steam: owner**" steht muss mit deiner Steam64ID ersetzt werden, welche du zuvor herausgefunden hast.
 
-Sobald das Passwort gesetzt wurde, muss der Server gestartet werden.
-Im Anschluss direkt zu dem Server verbinden und nach der Verbindung die Taste "**M**" drücken.
+![](https://screensaver01.zap-hosting.com/index.php/s/stbApKLcs9x3tDF/preview)
 
-Dort öffnet sich das Admin Menü, in welchem man das zuvor gesetzte Passwort eintragen muss. 
-Nach Bestätigung dieser Eingabe bist du nun Admin auf dem Server und hast Zugriff auf das Remote Admin Menü
+Sobald due deine Steam64ID eingetragen hast sollte es so aussehen (natürlich mit deiner eigenen Steam64ID):
+![](https://screensaver01.zap-hosting.com/index.php/s/6zHMtDXiopC72Z9/preview)
 
-### 2️⃣ 📃 Remote Admin Konfig konfigurieren
+Diesen Vorgang kannst du für jeden Spieler wiederholen welcher Rechte auf dem Server bekommen soll.
+In unserem Beispiel setzen wir doe Rechte für drei benutzer, einer von ihnen bekommt die Rechte als "**owner**" und die anderen beiden bekommen "**admin**".
 
-#### Voraussetzung
+![](https://screensaver01.zap-hosting.com/index.php/s/dpGCZcszyGGc3XR/preview)
 
-Sobald das Passwort gesetzt wurde, benötigst du nun deine Steam64ID.
-Diese kannst du über "**steamdid lookup**" einsehen: https://steamid.io/lookup . 
-Die ID wird später in die Konfigurationsdatei eingetragen.
+### Mehr Rollen hinzufügen - Remotepasswort überschreiben
 
-#### Konfiguration Datei ändern
+Wenn du mehrere Rollen hast und das Remotepasswort überschreiben möchtest, kannst du einfach die folgende Zeile in der folgenden Datei editieren:
+"**config_remoteadmin.txt**
 
-Nun muss die Konfigurationsdatei geöffnet und bearbeitet werden.
-Diese befindet sich in "**Configs**" bei "**Einstellungen**".
+Dort findest du folgende Sektion: 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/LGwjH44sYQAKPnb/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/cX33xRnPZA2tn9z/preview)
 
-Dort wird nun die "**config_remoteadmin.txt**" geöffnet in welcher die nötigen Zeilen umgeschrieben werden.
+Um mehr Rollen hinzufügen zu können kannst du diese einfach mit einem Komma getrennt dort eintragen.
+Als Beispiel fügen wir admin und moderator hinzu um das Passwort zu überschreiben:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/pgqrEwTMeAykPcM/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/TmQHGLaTKZnj4fD/preview)
 
-Dort werden nun die Rollen erstellt und zugewiesen.
-In dieser muss "**SomeSteamId64**" welches vor "**@steam: owner**" steht mit deiner SteamID64 ersetzt werden, welche du vorher bei "**steamid lookup**" eingesehen hast.
+> Hint: Die Adminkonsole im Spiel lässt sich jederzeit mit der Taste **M** öffnen.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/ZMreaSdWA2FexXj/preview)
-
-Dies kann nun für jeden weiteren Nutzer der Rechte erhalten soll gemacht werden.
-In unserem Beispiel setzen wir für drei User Rechte, einer davon bekommt "**owner**" die anderen beiden erhalten "**admin**".
-
-![](https://screensaver01.zap-hosting.com/index.php/s/oieKCK9ZAXyiwBz/preview)
-
-
+> Nun kannst du deinen Server starten und die vergebenen Rechte im Spiel nutzen.
