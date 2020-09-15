@@ -1,11 +1,11 @@
 ---
-id: gameswitch
+id: account_gameswitch
 title: Spielwechsel mit der Gameservercloud
 sidebar_label: Spielwechsel
 ---
 
-## Spielwechsel
-### ☁️ Die Gameservercloud
+## ☁️ Die Gameservercloud
+
 Mit einem Gameserver bei ZAP-Hosting kannst du jederzeit das Spiel, dass auf deinem Gameserver installiert ist, wechseln.
 Dazu installierst du ein neues Spiel über das Web Interface und aktivierst es auf deinem Server. Inaktive Spiele bleiben erhalten und werden nicht gelöscht!
 Folgende Punkte sind bei einem Spielwechsel zu beachten:
@@ -18,41 +18,52 @@ Folgende Punkte sind bei einem Spielwechsel zu beachten:
 
 > Minecraft-Modpacks haben den gleichen Slotpreis. Da keine Hostsystemwechsel notwendig ist, werden keine Daten beim Spielewechsel gelöscht. Du kannst ein neues Modpack testen und bei Bedarf deinen bisherigen Server wieder aktivieren.
 
-### 🎮 Spielewechsel
+## 🎮 Spielewechsel
+
 Du kannst im Web Interface deines Gameservers unter Einstellungen - Spiele weitere Gameserver hinzufügen und aktivieren:
-<br>
+
 ![](https://screensaver01.zap-hosting.com/index.php/apps/files_sharing/publicpreview/iQeHpcdtfkZmTHH?x=1920&y=619&a=true&file=chrome_Zl0rtA1Pgg.png&scalingup=0)
-<br><br>
+
 Dir wird eine Liste mit den bereits installierten Spielen angezeigt:
+
 ![](https://screensaver01.zap-hosting.com/index.php/apps/files_sharing/publicpreview/dpEKYzGfzknmYJ5?x=1920&y=619&a=true&file=chrome_46CdBM7eNE.png&scalingup=0)
-<br><br>
+
 Unter "Verfügbar Spiele" werden dir alle Spiele angezeigt, die du auf deinem Server ohne zusätzliche Kosten installieren kannst. Um ein weiteres Spiel zu installieren, wähle das gewünschte Spiel aus. Zur Installation, klicke auf den grünen Button:
 Gebe das gewünschte Spiel in das Suchfeld ein, um die Auswahl einzuschränken.
+
 ![](https://screensaver01.zap-hosting.com/index.php/apps/files_sharing/publicpreview/dGSZnNrTcYC5rKf?x=1920&y=619&a=true&file=chrome_9WnHXFjHry.png&scalingup=0)
-<br><br>
+
 Bestätige die Installation:
+
 ![](https://screensaver01.zap-hosting.com/index.php/apps/files_sharing/publicpreview/yW9zHjPKsLdNCPe?x=1920&y=619&a=true&file=chrome_S4RMlYGpRA.png&scalingup=0)
-<br><br>
+
 Nach der Installation, wird das neue Spiel in der Liste der installierten Spiele angezeigt. Um das Spiel zu wechseln, muss das neue Spiel noch aktiviert werden:
+
 ![](https://screensaver01.zap-hosting.com/index.php/apps/files_sharing/publicpreview/7yeJnQJRdNm2SqH?x=1920&y=619&a=true&file=chrome_9XUqBPeRhp.png&scalingup=0)
-<br><br>
+
 Nach der Aktivierung, kannst du dein neues Spiel auf deinem Server spielen. In der Übersicht kannst du jederzeit dein altes Spiel wieder aktivieren:
+
 ![](https://screensaver01.zap-hosting.com/index.php/apps/files_sharing/publicpreview/XpMMSCo4giH5ipe?x=1920&y=619&a=true&file=chrome_UyXoPF8cwc.png&scalingup=0)
-<br><br>
+
 Über die Gameservercloud, kannst du deine Gameserver mit einem Klick neuinstallieren (Achtung: Alle Daten des Spiels gehen bei einer Neuinstallation verloren):
+
 ![](https://screensaver01.zap-hosting.com/index.php/apps/files_sharing/publicpreview/b3SJagFMLnCs9w8?x=1920&y=619&a=true&file=chrome_dyRDV27QSm.png&scalingup=0)
-<br><br>
-### 💸 Slotpreisänderung
+
+## 💸 Slotpreisänderung
+
 Willst du zu einem Spiel wechseln, das einen höheren Slotpreis hat oder du benötigst für ein Spiel mit geringerem Slotpreis keine zusätzlichen Slot, kannst du den Slotpreis deines Gameserver ändern.
 Spiele mit einem höheren Slotpreis werden unter "Weitere Spiele" aufgelistet.
-<br><br>
+
 Um den Slotpreis zu ändern, klicke auf "Slotpreis ändern":
+
 ![](https://screensaver01.zap-hosting.com/index.php/apps/files_sharing/publicpreview/dLMwzKpN5SWMGx8?x=1920&y=619&a=true&file=chrome_d8yTtjuuul.png&scalingup=0)
-<br><br>
+
 Im Änderungsmenü kannst du deinen neuen Slotpreis auswählen. Der nachzuzahlende Betrag (bei Slotpreiserhöhung) bzw. die Gutschrift wird dir angezeigt. Außerdem werden die zu dem neuen Slotpreis verfügbaren Spiele angezeigt:
+
 ![](https://screensaver01.zap-hosting.com/index.php/apps/files_sharing/publicpreview/xPJfFpd3F6FG2KA?x=1920&y=619&a=true&file=chrome_5VhtNKgmo0.png&scalingup=0)
-<br><br>
+
 Bei einer Änderung des Slotpreises werden deine gebuchten Slots automatisch angeglichen. Achtung: Wird der Slotpreis unterhalb des Slotpreises für die installierten Spiele reduziert, so werden diese Spiele gelöscht!
+
 ![](https://screensaver01.zap-hosting.com/index.php/apps/files_sharing/publicpreview/6YqgrxGkRrTqPwL?x=1920&y=619&a=true&file=chrome_JMO8Syi1Yd.png&scalingup=0)
-<br><br>
+
 Nach einer Slotpreisänderung, können alle Spiele bis zu dem gewählten Slotpreis installiert und aktiviert werden.
