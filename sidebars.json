@@ -39,7 +39,7 @@
         "Gameserver - General": [
             "gameserver_cloudvslifetime",
             "gameserver_resourcelimit",
-            "gameswitch",
+            "gameserver_gameswitch",
             {
                 "type": "subcategory",
                 "label": "Databases",
