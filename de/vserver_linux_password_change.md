@@ -4,12 +4,7 @@ title: Passwort ändern
 sidebar_label: Passwort ändern
 ---
 
-## ❓ Wie ändert man das Passwort von einem vServer oder Root Server richtig? 
-
-Es gibt 2 Optionen um das Passwort zu ändern.
-
-<!--DOCUSAURUS_CODE_TABS-->
-<!--Webinterface-->
+## 📄 Webinterface
 
 Das Passwort kann über unser Webinterface bei dem jeweiligen Server geändert werden. 
 Öffne dazu die Seite „Zugang und Sicherheit“, diese findet man Links im Menü
@@ -54,7 +49,7 @@ Anschließend öffnet sich ein Popup wo das Passwort angezeigt wird.
 ![](https://screensaver01.zap-hosting.com/index.php/s/jCFzDGizyFjmWef/preview)
 
 
-<!--Server Console-->
+## 💻 Server Konsole
 
 Das Passwort kann auch über die Server Console geändert werden, dabei ist es egal ob man diese via Putty erreicht oder z.b via VNC/Serial.
 > Wichtig: Diese Option funktioniert nur wenn noch Zugriff zum Server besteht, sprich man noch auf die Console verbinden sowie anmelden kann. 
@@ -71,9 +66,3 @@ Ist dies gemacht und das Passwort stimmte mit der ersten Eingabe überein, so be
 Stimmen die beiden Eingaben nicht überein, so wird die Console den Vorgang beenden und man muss erneut den Befehl "passwd" eingeben. 
 
 > ⚠️Wichtig: Ändert man das Password via Console, kann es nicht für 3 Stunden in unserem Webinterface unter Zugang und Sicherheit angezeigt werden. 
-
-
-<!--END_DOCUSAURUS_CODE_TABS-->
-
-
-
