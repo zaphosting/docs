@@ -4,12 +4,7 @@ title: Change Password
 sidebar_label: Change Password
 ---
 
-## ❓ How to change the password of VPS/Rootserver?
-
-You can change your password in two different ways:
-
-<!--DOCUSAURUS_CODE_TABS-->
-<!--Webinterface-->
+## 📄 Webinterface
 
 The password can be changed via our web interface. Open the page "Access and Security", which you can find at the left of the navigation.
 
@@ -51,7 +46,7 @@ Afterwards a pop-up window appears where the password is displayed.
 ![](https://screensaver01.zap-hosting.com/index.php/s/jnPkDzQ6XyXzP46/preview)
 
 
-<!--Server Console-->
+## 💻 Server Console
 
 The password can also be changed via the Server Console, it doesn't matter if you access it via Putty or via Serial console.
 
@@ -64,7 +59,3 @@ If you are logged into the console, you can change the password with the command
 If both passwords are not equal, then the console will stop the operation. in this case you have to run the command "passwd" once again.
 
 > ⚠️ Important: If you change the password via Console, it cannot be displayed for 3 hours in our web interface under Access and Security.
-
-<!--END_DOCUSAURUS_CODE_TABS--> 
-
-

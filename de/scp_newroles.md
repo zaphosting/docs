@@ -4,7 +4,7 @@ title: Neue Rollen hinzufügen
 sidebar_label: Neue Rollen hinzufügen
 ---
 
-## Die Config aufrufen
+## 📃 Die Config aufrufen
 Neue Rollen werden in der "config_remoteadmin.txt" Datei eingetragen.
 Diese Config Datei findest du, indem du im Interface von deinem Server auf "Configs" klickst.
 
@@ -12,7 +12,7 @@ Diese Config Datei findest du, indem du im Interface von deinem Server auf "Conf
 
 Hier dann nach der obigen Config suchen und dann rechts daneben auf das "Auge" klicken, um diese zu öffnen.
 
-## Bestehende Rolle kopieren
+## 🕴️ Bestehende Rolle kopieren
 Soweit du die Config offen hast, kannst du nach diesen Einträgen darin suchen:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/5DZ3BWqbPHRQMqy/preview)
@@ -24,7 +24,7 @@ In unserem Beispiel haben wir die Rolle "Moderator" kopiert und darunter eingef�
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/eKawc5nSSEZL7Mi/preview)
 
-## Eigene Rolle eintragen
+## ✏️ Eigene Rolle eintragen
 Den gerade eingefügten Block von der bereits existenten Rolle, können wir nun nach belieben bearbeiten und unsere eigenen gewünschten Werte dort eintragen.
 In unserem Beispiel haben wir den Namen "ZAP" genutzt:
 
@@ -38,7 +38,7 @@ Das geht ebenfalls in der identischen Config nur minimal weiter darunter.
 Unsere Rolle tragen wir also unter der "moderator" Rolle ein.
 > ACHTUNG: Bitte die Leerzeichen vor und nach dem "-" beachten!
 
-## Berechtigungen
+## 🔒 Berechtigungen
 Ganz unten in der "config_remoteadmin.txt" Config Datei können wir die Berechtigungen für die jeweiligen Rollen anpassen.
 Wenn wir unserer Rolle also einer Berechtigung zuweisen wollen, können wir den Namen der Rolle in die Klammern eintragen.
 So wie es in diesem Beispiel zu sehen ist:

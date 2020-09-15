@@ -4,11 +4,11 @@ title: User Management
 sidebar_label: User Management
 ---
 
-### ❓ What is the user administration?
+## ❓ What is the user administration?
 
 We provide the possibility to create additional sub users. That way you can give your friends access to your services. The advantage of this feature is that there is no need to give your friends access to your main account. Furthermore it' s possible to control the access. 
 
-### ❓  How do I activate the user administration?
+## ❓  How do I activate the user administration?
 
 Click on the arrow to the right of your avatar and select the submenu item **User management**.
 

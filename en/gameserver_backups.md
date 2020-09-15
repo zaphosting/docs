@@ -9,7 +9,7 @@ We offer the possibility to create individual backups per click. This allows you
 Besides creating backups manually, backups can also be created fully automatically. Backups can be created either daily or weekly at a specified time. After restoring a backup, the server will be at the state at the time of backup creation.
 
 
-## Create backups manually
+## 🤏 Create backups manually
 
 Um ein Backup manuell zu erstellen muss der grüne **+** Button neben der Backup Liste gedrückt werden. Im Anschluss startet der Backup Vorgang. 
 
@@ -20,7 +20,7 @@ Um ein Backup manuell zu erstellen muss der grüne **+** Button neben der Backup
 > The backup creation process can take a few minutes depending on the file size of your server!
 
 
-## Create backups automatically
+## 🔄 Create backups automatically
 
 At the bottom of the page you will find more options, including the settings for automated backups. The option **Create backups automatically** needs to be enabled in order for this feature to be active. Furthermore the interval must be set. 
 
@@ -29,7 +29,7 @@ At the bottom of the page you will find more options, including the settings for
 Depending on the game, it's usually also a good idea to back up the database as well, since important data such as scores, permissions and much more is often stored there. 
 
 
-## Download/delete backups
+## ⬇️ Download/delete backups
 
 If you want to download or delete backups you have to connect to the storage server via FTP. Here you can find instructions to use FTP: [FTP access](gameserver_ftpaccess.md)
 ![img](https://screensaver01.zap-hosting.com/index.php/s/tPNdJ4YKMtwA635/preview)
