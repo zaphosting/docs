@@ -301,6 +301,10 @@
         "title": "FTP File Access",
         "sidebar_label": "FTP File Access"
       },
+      "gameserver_gameswitch": {
+        "title": "Change the game",
+        "sidebar_label": "Change the game"
+      },
       "gameserver_resourcelimit": {
         "title": "Resource limit",
         "sidebar_label": "Resource limit"
@@ -312,10 +316,6 @@
       "gameserver_server_down_what_now": {
         "title": "Server crash - What to do?",
         "sidebar_label": "Server crash - What to do?"
-      },
-      "gameswitch": {
-        "title": "Change the game",
-        "sidebar_label": "Change the game"
       },
       "legal_use_brand_assets": {
         "title": "Use of logo and name",
