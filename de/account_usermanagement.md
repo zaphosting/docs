@@ -4,11 +4,11 @@ title: Benutzerverwaltung
 sidebar_label: Benutzerverwaltung
 ---
 
-### ❓ Was ist die Benutzerverwaltung?
+## ❓ Was ist die Benutzerverwaltung?
 
 Wir bieten die Möglichkeit weitere Unternutzer anzulegen. Somit hast du die Möglichkeit zum Beispiel Freunden Zugriff auf deine Dienste zu geben. Der Vorteil an diesem System ist es, dass du deinen Freunden über diesen Weg nicht Zugang zu deinem Haupt-Account geben musst. Zudem ist es möglich den Zugriff einzuschränken. 
 
-### ❓ Wie aktiviere ich die Benutzerverwaltung?
+## ❓ Wie aktiviere ich die Benutzerverwaltung?
 
 Die Benutzerverwaltung findest du, indem du auf den Pfeil rechts neben deinem Avatar klickst und dort im Anschluss auf den Unterpunkt **Benutzerverwaltung** gehst.
 
