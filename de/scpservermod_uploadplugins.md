@@ -6,7 +6,7 @@ sidebar_label: Plugins installieren
 
 > Um Plugins auf deinem Server installieren zu können benötigst du **SCP: ServerMod**. Leider ist die Installation von Plugins bei der Vanilla Version von SCP nicht möglich. 
 
-## Verbinden via FTP
+## 📶 Verbinden via FTP
 Bevor Plugins installiert werden können, muss dein [FTP Zugang](gameserver_ftpaccess.md) eingerichtet werden.
 
 Nachdem dies erledigt ist, kannst du dich via FTP auf deinen Server verbinden und öffnest dort folgendes Verzeichnis.
@@ -14,7 +14,7 @@ Nachdem dies erledigt ist, kannst du dich via FTP auf deinen Server verbinden un
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/ttm3MLyR8CpFZFt/preview)
 
-## Plugins Installieren
+## ⬇️ Plugins Installieren
 
 ### Plugins Finden
 
