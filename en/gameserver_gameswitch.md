@@ -1,5 +1,5 @@
 ---
-id: account_gameswitch
+id: gameserver_gameswitch
 title: Change the game
 sidebar_label: Change the game
 
