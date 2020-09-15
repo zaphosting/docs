@@ -4,13 +4,11 @@ title: Become Admin
 sidebar_label: Become Admin
 ---
 
-## Admin Options
-
 > NOTICE: Since recent SCP Updates, the password login is no longer functional. Please use the following guide to add your roles directly by the steamid. 
 
-###  📃 Configuration for the Remote Admin Config
+##  📃 Configuration for the Remote Admin Config
 
-#### Requirements
+### Requirements
 
 Firstly, you would need to locate your Steam64ID.
 You can use the following tool: [SteamID Lookup](https://steamid.io/lookup).
@@ -20,7 +18,7 @@ Here you can find an example of how you can get your steamid by inputting your p
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/yPeWAQAGAiHRSKM/preview)
 
-### Add Admins
+## ➕ Add Admins
 
 Now the configuration file has to be opened and edited.
 This is located in "**Configs**" under "**Settings**".
@@ -44,7 +42,7 @@ In our example we set rights for three users, one of them gets "**owner**" the o
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/dpGCZcszyGGc3XR/preview)
 
-### Add More Roles to Override the Password
+## 🕴️ Add More Roles to Override the Password
 
 If you have multiple roles you want to override the remote admin password, you can simply adjust the following line in the following file:
 "**config_remoteadmin.txt**
