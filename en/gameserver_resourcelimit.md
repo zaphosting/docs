@@ -3,7 +3,7 @@ id: gameserver_resourcelimit
 title: Resource limit
 sidebar_label: Resource limit
 ---
-## Locked game server 🔒
+## 🔒 Locked game server
 
 If your game server has been locked, then the whole thing looks like this: 
 
@@ -15,7 +15,7 @@ This is then because you have exceeded your resource limit. We sometimes provide
 
 There you will also see the upgrades **recommended by us** to solve the problem permanently. Usually this extreme workload is due to mods or scripts that require extreme performance. 
 
-## Unlocking your Gameservers🔓
+## 🔓 Unlocking your Gameservers
 
 ### 🖥️ Console
 These mods or scripts, can be partially viewed or determined via the console. To do this, you can click on the console to view the latest logs/console lines:
