@@ -1,5 +1,5 @@
 ---
-id: account_gameswitch
+id: gameserver_gameswitch
 title: Spielwechsel mit der Gameservercloud
 sidebar_label: Spielwechsel
 ---
