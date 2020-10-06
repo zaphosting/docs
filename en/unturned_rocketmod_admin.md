@@ -1,49 +1,42 @@
 ---
 id: unturned_rocketmod_admin
-title: Admin werden (Rocket Mod)
-sidebar_label: Admin werden (Rocket Mod)
+title: Become Admin
+sidebar_label: Become Admin
 ---
 
-## Vorbereitungen
+## Preparations
 
-Um Admins auf einem Server hinzufügen zu können, muss hierbei eine Config-Datei bearbeitet werden.
-Damit es hierbei keine Probleme bei der Übernahe der Änderungen gibt, stelle bitte sicher, dass dein Server hierbei zuvor gestoppt wird!
+In order to be able to add admins on a server, a config file must be edited. So that there are no problems applying the changes, please make sure that your server is stopped beforehand!
 
-Zudem wird die jeweilige Steam-ID (64er) benötigt, sodass der Server den Spieler auch identifizieren kann, sobald der Name als Beispiel geändert wird.
-Hierzu kann als Beispiel [dieses Tool](https://steamidfinder.com/) verwendet werden.
-Auf der Seite des Tools angekommen, können die benötigen Informationen in der Regel durch die Eingabe des Namens ermittelt werden.
-
+In addition, the respective Steam ID (64) is required so that the server can also identify the player. This [Tool](https://steamidfinder.com/) can be used as an example.
+Once on the side of the tool, the required information can usually be determined by entering the name.
 ![](https://screensaver01.zap-hosting.com/index.php/s/qZnyjHcecmYnLoB/preview)
 
-## Config-Dateien öffnen
+## Open Config Files
 
-Es gibt zwei Möglichkeiten die Dateien eines Servers bearbeiten zu können.
-Zum einen wäre dies via [FTP](https://zap-hosting.com/guides/docs/de/gameserver_ftpaccess/) möglich und einmal durch den Config-Editor im Webinterface selbst.
+There are two ways to edit the files on a server.
+One would way would be possible using [FTP](https://zap-hosting.com/guides/docs/en/gameserver_ftpaccess/).
 
-In diesem Fall verwenden wir den eingebauten Editor des Webinterfaces.
-Hierzu muss in der linken Sidebar des Servers unter dem Reiter "Einstellungen" der Menü-Punkt "Configs" geöffnet werden.
+The other way would be using the Config Editor in the web interface itself. 
+In this case we use the built-in editor of the web interface. To do this, the menu item "Configs" must be opened in the left sidebar of the server under the "Settings" tab.
+![](https://screensaver01.zap-hosting.com/index.php/s/7JLg4dwSJA58Ajp/preview)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/YEYEtDkpnW23Fyb/preview)
+The system now loads all available configs and then lists them. A little patience is required here, this process usually takes a few seconds. As soon as all config files have been loaded, the "commands.dat" file must be edited. All you have to do is click on the blue button "Open file", whereupon the file is opened in the web editor.
 
-Das System lädt nun alle verfügbaren Configs und listet dieses dann auf. Hierbei ist ein wenig Geduld gefragt, dieser Vorgang dauert in der Regel wenige Sekunden.
-Sobald alle Config-Dateien geladen wurden, muss die Datei "dommands.dat" bearbeitet werden. Hierzu reicht ein Klick auf den blauen Button "Datei öffnen", worauf die Datei im Web-Editor geöffnet wird.
+![](https://screensaver01.zap-hosting.com/index.php/s/ZpGeCBmy6Dy83Xk/preview)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/6ELk4885jr6p4oM/preview)
+## Add Admins
 
-## Admins ernennen
+Admin or owner can now be appointed in the config. Please note that the owner rank can only be assigned once!
 
-Es können nun Admin oder auch Owner in der Config ernannt werden.
-Hierbei ist zu beachten, dass der Owner-Rank nur einmal vergeben werden kann!
+For this purpose, the following must be entered in a new line in the case for the assignment of the owner rank:
 
-Hierzu muss in einer neuen Zeile im Fall für die Vergabe des Owner-Ranges folgendes eingetragen werden:
+`owner Steam64IDReplacedHere //<-- Must be replaced with your own Steam64-ID`
 
-`owner 0123456789 //<-- Muss durch deine eigene Steam-ID ersetzt werden`
+For adding an Administrator, the "owner" is simply replaced by "admin".
 
-Im Fall von Administratoren wird das "owner" einfach nur durch "admin" ersetzt.
-
-`admin 0123456789 //<-- Muss durch deine eigene Steam-ID ersetzt werden`
+`admin Steam64IDReplacedHere //<-- Must be replaced with your own Steam64-ID`
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/7b3XFY2FjNcq4L8/preview)
 
-Nachdem alle Ränge in der Config vergeben worden sind, kann die Config mit einem Klick auf "Speichern" gespeichert werden.
-Der Server kann nun wieder gestartet werden und alle in die Config eingetragenen Spieler erhalten ihren Rang automatisch.
+After all ranks have been assigned in the config, the config can be saved with a click on "Save". The server can now be restarted and all players entered in the config receive their rank automatically.
