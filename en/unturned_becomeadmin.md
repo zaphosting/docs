@@ -1,5 +1,5 @@
 ---
-id: unturned_rocketmod_admin
+id: unturned_becomeadmin
 title: Become Admin
 sidebar_label: Become Admin
 ---
