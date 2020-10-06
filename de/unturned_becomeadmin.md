@@ -1,7 +1,7 @@
 ---
-id: unturned_rocketmod_admin
-title: Admin werden (Rocket Mod)
-sidebar_label: Admin werden (Rocket Mod)
+id: unturned_becomeadmin
+title: Admin werden
+sidebar_label: Admin werden
 ---
 
 ## Vorbereitungen
