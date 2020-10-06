@@ -26,7 +26,7 @@ Hierzu muss in der linken Sidebar des Servers unter dem Reiter "Einstellungen" d
 ![](https://screensaver01.zap-hosting.com/index.php/s/YEYEtDkpnW23Fyb/preview)
 
 Das System lädt nun alle verfügbaren Configs und listet dieses dann auf. Hierbei ist ein wenig Geduld gefragt, dieser Vorgang dauert in der Regel wenige Sekunden.
-Sobald alle Config-Dateien geladen wurden, muss die Datei "dommands.dat" bearbeitet werden. Hierzu reicht ein Klick auf den blauen Button "Datei öffnen", worauf die Datei im Web-Editor geöffnet wird.
+Sobald alle Config-Dateien geladen wurden, muss die Datei "commands.dat" bearbeitet werden. Hierzu reicht ein Klick auf den blauen Button "Datei öffnen", worauf die Datei im Web-Editor geöffnet wird.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/6ELk4885jr6p4oM/preview)
 
