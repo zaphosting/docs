@@ -1,6 +1,6 @@
 ---
 id: vserver_linux_ssh
-title: Erstzugriff (SSH)
+title: Initial access (SSH)
 sidebar_label: Initial access (SSH)
 ---
 
