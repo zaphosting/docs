@@ -280,9 +280,14 @@
             "spaceengineers_addmods"
         ],
         "Unturned": [
-            "unturned_rocketmod_plugins",
-            "unturned_rocketmod_admin",
-            "unturned_rocketmod_permissions"
+            "unturned_becomeadmin",
+             {
+            "type": "subcategory",
+            "label": "RocketMod",
+            "ids": [
+                "unturned_rocketmod_plugins",
+                "unturned_rocketmod_permissions"
+            ]}
         ],
         "SCP: Secret Laboratory": [
             "scp_becomeadmin",

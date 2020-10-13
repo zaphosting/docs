@@ -342,8 +342,8 @@
         "sidebar_label": "Server Config"
       },
       "minecraft_forge_add_mods": {
-        "title": "Mods installieren",
-        "sidebar_label": "Mods installieren"
+        "title": "Mods Installation",
+        "sidebar_label": "Mods Installation"
       },
       "minecraft_pluginuploader": {
         "title": "Plugin Uploader",
@@ -442,16 +442,16 @@
         "sidebar_label": "Submit Suggestions"
       },
       "terraria_tmodloader_installmod": {
-        "title": "Mod installieren (tModLoader)",
-        "sidebar_label": "Mod installieren (tModLoader)"
+        "title": "Mod Installation (tModLoader)",
+        "sidebar_label": "Mod Installation (tModLoader)"
       },
       "terraria_tshock_add_admin": {
         "title": "Become an admin (tShock)",
         "sidebar_label": "Become an admin (tShock)"
       },
-      "unturned_rocketmod_admin": {
-        "title": "Admin werden (Rocket Mod)",
-        "sidebar_label": "Admin werden (Rocket Mod)"
+      "unturned_becomeadmin": {
+        "title": "Become Admin",
+        "sidebar_label": "Become Admin"
       },
       "unturned_rocketmod_permissions": {
         "title": "Adjust Permissions",
@@ -534,7 +534,7 @@
         "sidebar_label": "SFTP Connection"
       },
       "vserver_linux_ssh": {
-        "title": "Erstzugriff (SSH)",
+        "title": "Initial access (SSH)",
         "sidebar_label": "Initial access (SSH)"
       },
       "vserver_linux_ssh2fa": {
