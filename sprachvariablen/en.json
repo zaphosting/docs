@@ -449,9 +449,9 @@
         "title": "Become an admin (tShock)",
         "sidebar_label": "Become an admin (tShock)"
       },
-      "unturned_rocketmod_admin": {
-        "title": "Admin werden (Rocket Mod)",
-        "sidebar_label": "Admin werden (Rocket Mod)"
+      "unturned_becomeadmin": {
+        "title": "Become Admin",
+        "sidebar_label": "Become Admin"
       },
       "unturned_rocketmod_permissions": {
         "title": "Adjust Permissions",
