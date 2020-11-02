@@ -141,7 +141,7 @@ Sofern dies gewünscht ist, **muss** eine neue Welt erstellt werden, da der Hard
 
 ### white-list
 
-Dies aktiviert die [Whitelist](https://minecraft-de.gamepedia.com/Befehl/whitelist), wodurch nur Spieler welche sich auf der Liste befinden Zugang erhalten. Den Umgang mit der Whitelist erklären wir [hier](http://bald.de).
+Dies aktiviert die [Whitelist](https://minecraft-de.gamepedia.com/Befehl/whitelist), wodurch nur Spieler welche sich auf der Liste befinden Zugang erhalten. Den Umgang mit der Whitelist erklären wir [hier](http://zap-hosting.com/guides/docs/de/minecraft_whitelist/).
 
 ### broadcast-console-to-ops
 
