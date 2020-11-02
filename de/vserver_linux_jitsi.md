@@ -1,5 +1,5 @@
 ---
-id: jitsi-meet-setup
+id: vserver_linux_jitsi
 title: Jitsi Meet installieren
 sidebar_label: Jitsi Meet
 ---
