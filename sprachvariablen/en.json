@@ -354,8 +354,8 @@
         "sidebar_label": "RCON"
       },
       "minecraft_server_optimize": {
-        "title": "Optimize Minecraft Server",
-        "sidebar_label": "Optimize Minecraft Server"
+        "title": "Minecraft-Server Optimization",
+        "sidebar_label": "Minecraft-Server Optimization"
       },
       "minecraft_server-icon": {
         "title": "Server Icon",
