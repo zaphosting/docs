@@ -142,8 +142,8 @@
         "sidebar_label": "Become Admin"
       },
       "firststeps_problem_melden": {
-        "title": "How do i report problems?",
-        "sidebar_label": "How do i report problems?"
+        "title": "Report problems",
+        "sidebar_label": "Report problems"
       },
       "firststeps_register": {
         "title": "Register",
@@ -374,8 +374,8 @@
         "sidebar_label": "Manage Worlds"
       },
       "minecraftbedrock_behaviorresourcepacks": {
-        "title": "Installing Behavior/Resource Packs",
-        "sidebar_label": "Installing Behavior/Resource Packs"
+        "title": "Behavior/Resource Packs Installation",
+        "sidebar_label": "Behavior/Resource Packs Installation"
       },
       "partner-guide": {
         "title": "Partner Guide",
@@ -430,8 +430,8 @@
         "sidebar_label": "Plugins"
       },
       "spaceengineers_addmods": {
-        "title": "Mods Installation",
-        "sidebar_label": "Space Engineers Mods Installation"
+        "title": "Install Mods",
+        "sidebar_label": "Install Mods"
       },
       "spaceengineers_becomeadmin": {
         "title": "Become Admin",
@@ -500,6 +500,10 @@
       "vserver_linux_java": {
         "title": "Install Java",
         "sidebar_label": "Install Java"
+      },
+      "vserver_linux_jitsi": {
+        "title": "Jitsi Meet installieren",
+        "sidebar_label": "Jitsi Meet"
       },
       "vserver_linux_mariadbinstall": {
         "title": "MariaDB (MySQL) Installation",

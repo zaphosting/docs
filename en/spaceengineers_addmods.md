@@ -1,7 +1,7 @@
 ---
 id: spaceengineers_addmods
-title: Mods Installation
-sidebar_label: Space Engineers Mods Installation
+title: Install Mods
+sidebar_label: Install Mods
 ---
 
 ### Prepartion
