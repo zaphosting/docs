@@ -1,7 +1,7 @@
 ---
 id: firststeps_problem_melden
-title: Wie melde ich Probleme?
-sidebar_label: Wie melde ich Probleme?
+title: Probleme melden
+sidebar_label: Probleme melden
 ---
 
 ## 🤔 Läuft etwas nicht so, wie es soll?

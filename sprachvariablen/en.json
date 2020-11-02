@@ -142,8 +142,8 @@
         "sidebar_label": "Become Admin"
       },
       "firststeps_problem_melden": {
-        "title": "How do i report problems?",
-        "sidebar_label": "How do i report problems?"
+        "title": "Report problems",
+        "sidebar_label": "Report problems"
       },
       "firststeps_register": {
         "title": "Register",
@@ -430,8 +430,8 @@
         "sidebar_label": "Plugins"
       },
       "spaceengineers_addmods": {
-        "title": "Mods Installation",
-        "sidebar_label": "Space Engineers Mods Installation"
+        "title": "Install Mods",
+        "sidebar_label": "Install Mods"
       },
       "spaceengineers_becomeadmin": {
         "title": "Become Admin",
