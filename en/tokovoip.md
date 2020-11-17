@@ -1,7 +1,7 @@
 ---
 id: tokovoip
-title: Configure TokoVOIP
-sidebar_label: Configure TokoVOIP
+title: Install TokoVOIP
+sidebar_label: Install TokoVOIP
 ---
 
 > IMPORTANT: A **seperate Teamspeak Server is required for TokoVOIP to work.** You can book a Teamspeak Server from ZAP directly [here](https://zap-hosting.com/en/shop/product/teamspeak3-server/)(clickable)!
