@@ -156,6 +156,6 @@ For specific information relating to the configurations, you should visit their 
 
 If you encounter any issue, its best to **review your server console** for **any errors** and ensure you have defined the **correct IP/ports** within your configs.
 
-> Note: Customers who have **booked a 'Own IPV4 Address'** will still need to specify the **FTP-Browser** IP address as shown in the guide. 
+Customers who have **booked a 'Own IPV4 Address'** will still need to specify the **FTP-Browser** IP address as shown in the guide. 
 
 For bugs/errors from the script itself, its best to report it directly to the TokoVOIP [Github](https://github.com/Itokoyamato/TokoVOIP_TS3).
