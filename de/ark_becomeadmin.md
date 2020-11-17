@@ -1,5 +1,5 @@
 ---
-id: csgo_configuration
+id: ark_configuration
 title: Admin werden
 sidebar_label: Admin werden
 ---
