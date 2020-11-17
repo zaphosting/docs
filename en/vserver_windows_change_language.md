@@ -4,7 +4,7 @@ title: Add/change language
 sidebar_label: Add/change language
 ---
 
-ZAP hosting offers the Windows Server products in German and English as default. During the order process and in the server settings you can choose between these languages. You prefer to use a different language? Then you are in the right place!
+ZAP hosting offers the Windows Server products in German and English as default options. During the order process and in the server settings you can choose between these languages. You prefer to use a different language? Then you are in the right place!
 
 In the following, we explain how you can set up/install another language. To do this you have to connect to your server via remote desktop connection.
 
