@@ -47,10 +47,10 @@ In this file, we are only modifying the **TSServer** and the **WSServerPort**.
 
 Replace TSServer with your teamspeak servers **IPV4 ADDRESS**
 
-`
+```
 TSServer = Your teamspeak IP Address (DO NOT INCLUDE THE PORT)
 WSServerPort = CAN BE ANYTHING ABOVE 30000 (DO NOT MAKE YOUR TS3 PORT) 
-`
+```
 
 Example:
 
@@ -76,10 +76,12 @@ Right Click, and then Edit the file  `c_config.lua`
 ![](https://screensaver01.zap-hosting.com/index.php/s/CYApowwqfR4SymK/preview)
 
 In this file, we will be modifying the following values:
-`wsServer
+```
+wsServer
 TSChannel,
 TSPassword, 
-TSChannelWait`
+TSChannelWait
+```
 
 For **wsServer** you will put in your FTP-Browser address found on the 'FTP-Browser' page, along with the port of the ws_server that you defined in the ws_server/config.js
 
@@ -117,10 +119,10 @@ You can do this either via FTP, or directly through the ZAP 'Configs' tab.
 
 Once you have opened your server.cfg, you will need to add the following start lines in your server.cfg:
 
-`
+```
 start ws_server
 start tokovoip_script
-`
+```
 ![](https://screensaver01.zap-hosting.com/index.php/s/mqr2E42jSAYHtMz/preview)
 
 ### Test the plugin
