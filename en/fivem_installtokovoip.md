@@ -135,7 +135,7 @@ start tokovoip_script
 
 Once you have configured both the ws_server and tokovoip_script and have added the start lines to the server.cfg, you have finished the base install of TokoVOIP. 
 
-Then, **join your teamspeak waiting channel** that you have created, **start the server**, and **test it directly.
+Then, **join your teamspeak waiting channel** that you have created, **start the server**, and **test it directly.**
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/9yiZP2NgyJ7DyMS/preview)
 
