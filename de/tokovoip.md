@@ -1,5 +1,5 @@
 ---
 id: tokovoip
-title: Configure TokoVOIP
-sidebar_label: Configure TokoVOIP
+title: Install TokoVOIP
+sidebar_label: Install TokoVOIP
 ---
