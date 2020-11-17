@@ -4,6 +4,8 @@ title: Admin werden
 sidebar_label: Admin werden
 ---
 
+## Admin werden
+
 
 Mit Administrator-Rechten kannst du direkt im Spiel Änderungen im Live Zustand an deinem Server vornehmen, ohne diese in der Config vorzunehmen. Damit man sich selbst oder auch anderen Spielern Administrator-Rechte zuweisen kann, muss als erstes ein Serveradmin Passwort definiert werden. Das definieren des Passworts erfolgt über die Gameusersettings.ini Config, welche du im Interface unter Configs findest. 
 
