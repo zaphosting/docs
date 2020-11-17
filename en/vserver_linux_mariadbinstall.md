@@ -8,7 +8,7 @@ Below you get to know how to install a MariaDB (MySQL) Server on your Linux vSer
 
 [Initial access (SSH)]: https://zap-hosting.com/guides/docs/en/vserver_linux_ssh/	"Initial access (SSH)"
 
-  ![Erstzugriff (SSH) unter Linux](https://zap-hosting.com/guides/docs/de/vserver_linux_ssh/)
+  [Erstzugriff (SSH) unter Linux](https://zap-hosting.com/guides/docs/de/vserver_linux_ssh/)
 
 ## 🔄 Updating packages
 
