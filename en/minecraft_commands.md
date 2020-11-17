@@ -4,12 +4,6 @@ title: General commands
 sidebar_label: General commands
 ---
 
----
-id: minecraft_commands
-title: General Commands
-sidebar_label: General Commands
-
----
 
 ### What are commands?
 
