@@ -38,7 +38,7 @@ Afterwards you can execute all server commands as admin. In the following you wi
 
 
 
-## Häufig verwendete Befehle
+## Common used commands
 
 | Command                                        | Description                                                  |
 | ---------------------------------------------- | ------------------------------------------------------------ |
