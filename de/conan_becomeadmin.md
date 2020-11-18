@@ -37,7 +37,7 @@ Im Anschluss kannst du sämtliche Server-Befehle als Admin ausführen. Im folgen
 
 ## Häufig verwendete Befehle
 
-| Command                                                | Description                                                  |
+| Befehl                                                | Beschreibung                                                  |
 | ------------------------------------------------------ | ------------------------------------------------------------ |
 | MakeMeAdmin [AdminPassword]                            | Aktiviert den Admin-Modus                                    |
 | MakeMeNormal                                           | Beendet den Admin-Modus                                      |
