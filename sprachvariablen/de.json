@@ -84,10 +84,6 @@
                 "title": "Mods Installieren",
                 "sidebar_label": "Mods Installieren"
             },
-            "beispiel": {
-                "title": "Beispiel-Eintrag",
-                "sidebar_label": "Beispiel Eintrag"
-            },
             "community_info": {
                 "title": "Community Angebote",
                 "sidebar_label": "Community Angebote"
@@ -232,6 +228,10 @@
                 "title": "Resourcen Installieren",
                 "sidebar_label": "Resourcen Installieren"
             },
+            "fivem_installtokovoip": {
+                "title": "TokoVOIP Installieren",
+                "sidebar_label": "TokoVOIP Installieren"
+              },
             "fivem_licensekey": {
                 "title": "Eigener Lizenzkey",
                 "sidebar_label": "Eigener Lizenzkey"
@@ -304,6 +304,10 @@
                 "title": "FTP Dateizugriff",
                 "sidebar_label": "FTP Dateizugriff"
             },
+            "gameserver_gameswitch": {
+                "title": "Spielwechsel mit der Gameservercloud",
+                "sidebar_label": "Spielwechsel"
+              },
             "gameserver_resourcelimit": {
                 "title": "Resourcenlimit",
                 "sidebar_label": "Resourcenlimit"
@@ -315,10 +319,6 @@
             "gameserver_server_down_what_now": {
                 "title": "Server down - was nun?",
                 "sidebar_label": "Server down - was nun?"
-            },
-            "gameswitch": {
-                "title": "Spielwechsel mit der Gameservercloud",
-                "sidebar_label": "Spielwechsel"
             },
             "legal_use_brand_assets": {
                 "title": "Verwendung von Logo und Name",
@@ -504,6 +504,10 @@
                 "title": "Java installieren",
                 "sidebar_label": "Java installieren"
             },
+            "vserver_linux_jitsi": {
+                "title": "Jitsi Meet installieren",
+                "sidebar_label": "Jitsi Meet"
+              },
             "vserver_linux_mariadbinstall": {
                 "title": "MariaDB (MySQL) Installation",
                 "sidebar_label": "MariaDB (MySQL) Installation"
@@ -638,15 +642,16 @@
             "Minecraft": "Minecraft",
             "FiveM": "FiveM",
             "RageMP": "RageMP",
+            "Alt:V": "Alt:V",
             "Terraria": "Terraria",
             "Source Games": "Source Games",
             "ArmA 3": "ArmA 3",
             "Assetto Corsa": "Assetto Corsa",
+            "Assetto Corsa Competizione": "Assetto Corsa Competizione",
             "Space Engineers": "Space Engineers",
             "Unturned": "Unturned",
             "SCP: Secret Laboratory": "SCP: Secret Laboratory",
             "Don't Starve Together": "Don't Starve Together",
-            "Alt:V": "Alt:V",
             "Empyrion": "Empyrion",
             "Rust": "Rust"
         }
