@@ -30,7 +30,7 @@ The network diagnostic test should be performed when the problem actively occurs
 
 ### 💻 Windows
 
-WinMTR for Windows can be downloaded from the [ZAP-Hosting](https://zap-hosting.com/de/winmtr) page. Once installed, the program must be started and the host name or IP address of the affected case needs to be filled in:
+WinMTR for Windows can be downloaded from the [ZAP-Hosting](https://zap-hosting.com/winmtr.zip) page. Once installed, the program must be started and the host name or IP address of the affected case needs to be filled in:
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/NMM89KjjpxRXWdY/preview)
 
