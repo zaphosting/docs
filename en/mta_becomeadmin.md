@@ -12,7 +12,7 @@ Administrator rights allow you to make changes directly in the game on your serv
 
 
 
-### Vorbereitung
+### Preparation
 
 First of all a user account has to be created which will later be given the admin rights. To do this you have to execute the following command in the Live Console:
 
