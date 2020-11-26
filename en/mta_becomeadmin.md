@@ -79,5 +79,5 @@ Now that you have finished the configuration of the **acl.xml** config you can s
 login USERNAME PASSWORD
 ```
 
-Now you have your administrator privileges and can manage your server as you wish!
+Now you have your administrator privileges and you can manage your server as you wish!
 
