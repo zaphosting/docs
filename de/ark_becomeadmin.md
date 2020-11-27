@@ -1,5 +1,5 @@
 ---
-id: ark_configuration
+id: ark_becomeadmin
 title: Admin werden
 sidebar_label: Admin werden
 ---
