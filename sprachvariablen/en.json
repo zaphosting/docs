@@ -61,6 +61,14 @@
         "title": "Resource Installation",
         "sidebar_label": "Resource Installation"
       },
+      "ark_becomeadmin": {
+        "title": "Become Admin",
+        "sidebar_label": "Become Admin"
+      },
+      "ark_mods": {
+        "title": "Install Mods",
+        "sidebar_label": "Install Mods"
+      },
       "arma3_altislife_ranks": {
         "title": "Altis Life Ranks",
         "sidebar_label": "Altis Life Ranks"
@@ -85,9 +93,17 @@
         "title": "Install Mods",
         "sidebar_label": "Install Mods"
       },
+      "barotrauma_becomeadmin": {
+        "title": "Become Admin",
+        "sidebar_label": "Become Admin"
+      },
       "community_info": {
         "title": "Community offers",
         "sidebar_label": "Community offers"
+      },
+      "conan_becomeadmin": {
+        "title": "Become Admin",
+        "sidebar_label": "Become Admin"
       },
       "csgo_configuration": {
         "title": "Server configuration",
@@ -137,9 +153,21 @@
         "title": "Create Caves",
         "sidebar_label": "Create Caves"
       },
+      "eco_becomeadmin": {
+        "title": "Become Admin",
+        "sidebar_label": "Become Admin"
+      },
       "empyrion_becomeadmin": {
         "title": "Become Admin",
         "sidebar_label": "Become Admin"
+      },
+      "factorio_becomeadmin": {
+        "title": "Become Admin",
+        "sidebar_label": "Become Admin"
+      },
+      "factorio_mods": {
+        "title": "Install Mods",
+        "sidebar_label": "Install Mods"
       },
       "firststeps_problem_melden": {
         "title": "Report problems",
@@ -381,6 +409,10 @@
         "title": "Behavior/Resource Packs Installation",
         "sidebar_label": "Behavior/Resource Packs Installation"
       },
+      "mta_becomeadmin": {
+        "title": "Become Admin",
+        "sidebar_label": "Become Admin"
+      },
       "partner-guide": {
         "title": "Partner Guide",
         "sidebar_label": "Partner Guide"
@@ -464,6 +496,10 @@
       "unturned_rocketmod_plugins": {
         "title": "Install Plugins",
         "sidebar_label": "Install Plugins"
+      },
+      "unturned_workshop": {
+        "title": "Workshop Content",
+        "sidebar_label": "Workshop Content"
       },
       "voiceserver_query": {
         "title": "Teamspeak Query Login",
@@ -647,8 +683,14 @@
       "Terraria": "Terraria",
       "Source Games": "Source Games",
       "ArmA 3": "ArmA 3",
+      "ARK": "ARK",
       "Assetto Corsa": "Assetto Corsa",
       "Assetto Corsa Competizione": "Assetto Corsa Competizione",
+      "Barotrauma": "Barotrauma",
+      "Conan Exiles": "Conan Exiles",
+      "ECO": "ECO",
+      "Factorio": "Factorio",
+      "Multi Theft Auto": "Multi Theft Auto",
       "Space Engineers": "Space Engineers",
       "Unturned": "Unturned",
       "SCP: Secret Laboratory": "SCP: Secret Laboratory",
