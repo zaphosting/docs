@@ -30,7 +30,7 @@ Der Netzwerk-Diagnose Test sollte durchgeführt werden, wenn die Problematik ger
 
 ### 💻 Windows
 
-Die Windows Version für WinMTR kann über die [ZAP-Hosting](https://zap-hosting.com/de/winmtr) Seite heruntergeladen werden. Nach der Installation muss das Programm gestartet werden und der Hostname oder die IP-Adresse des betroffenen Falls eingetragen werden:
+Die Windows Version für WinMTR kann über die [ZAP-Hosting](https://zap-hosting.com/winmtr.zip) Seite heruntergeladen werden. Nach der Installation muss das Programm gestartet werden und der Hostname oder die IP-Adresse des betroffenen Falls eingetragen werden:
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/NMM89KjjpxRXWdY/preview)
 

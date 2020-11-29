@@ -229,6 +229,10 @@
         "title": "Resource Installation",
         "sidebar_label": "Resource Installation"
       },
+      "fivem_installtokovoip": {
+        "title": "Install TokoVOIP",
+        "sidebar_label": "Install TokoVOIP"
+      },
       "fivem_licensekey": {
         "title": "Own License Key",
         "sidebar_label": "Own License Key"
