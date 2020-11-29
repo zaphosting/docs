@@ -270,12 +270,32 @@
                 "arma3_altislife_ranks"
             ]
         }],
+        "ARK": [
+            "ark_becomeadmin",
+            "ark_mods"
+        ],
         "Assetto Corsa": [
             "assettocorsa_configure",
             "assettocorsa_mods"
         ],
         "Assetto Corsa Competizione": [
             "assetto_competizione_becomeadmin"
+        ],        
+        "Barotrauma": [
+            "barotrauma_becomeadmin"
+        ],
+        "Conan Exiles": [
+            "conan_becomeadmin"
+        ],        
+        "ECO": [
+            "eco_becomeadmin"
+        ],
+        "Factorio": [
+            "factorio_becomeadmin",
+            "factorio_mods"
+        ],
+        "Multi Theft Auto": [
+            "mta_becomeadmin"
         ],
         "Space Engineers": [
             "spaceengineers_becomeadmin",
@@ -283,6 +303,7 @@
         ],
         "Unturned": [
             "unturned_becomeadmin",
+            "unturned_workshop",
              {
             "type": "subcategory",
             "label": "RocketMod",
