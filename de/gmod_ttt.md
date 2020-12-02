@@ -18,7 +18,7 @@ In unserem Webinterface findest du diese Funktion unter "Configs" dort öffnest 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/cNH2E4WKJnZy2zE/preview)
 
-Dort findfen wir die Einstellungen von unserem TTT Server, die wichtigsten Variablen kurz erklärt:
+Dort finden wir die Einstellungen von unserem TTT Server, die wichtigsten Variablen kurz erklärt:
 
 ##Runden und Mapwechsel
 ttt_round_limit 
@@ -110,7 +110,7 @@ ttt_karma_clean_half
 
 Wenn du alle Variablen angepasst hast, musst du deine Änderungen nurnoch speichern.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/Y5TtednnxJQmjBP)
+![](https://screensaver01.zap-hosting.com/index.php/s/Y5TtednnxJQmjBP/preview)
 
 Danach kannst du deinen Server starten! 
 
