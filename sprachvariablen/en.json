@@ -61,6 +61,10 @@
         "title": "Resource Installation",
         "sidebar_label": "Resource Installation"
       },
+      "amongus_connection": {
+        "title": "Connection",
+        "sidebar_label": "Connection to the Server"
+      },
       "ark_becomeadmin": {
         "title": "Become Admin",
         "sidebar_label": "Become Admin"
@@ -696,7 +700,8 @@
       "SCP: Secret Laboratory": "SCP: Secret Laboratory",
       "Don't Starve Together": "Don't Starve Together",
       "Empyrion": "Empyrion",
-      "Rust": "Rust"
+      "Rust": "Rust",
+      "Among Us": "Among Us"
     }
   },
   "pages-strings": {
