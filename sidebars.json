@@ -331,6 +331,9 @@
         "Rust": [
             "rust_becomeadmin",
             "rust_connectrcon"
+        ]        
+        "Among Us": [
+            "amongus_connection"
         ]
     }
 }
