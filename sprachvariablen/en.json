@@ -353,6 +353,10 @@
         "title": "Server crash - What to do?",
         "sidebar_label": "Server crash - What to do?"
       },
+      "gmod_ttt": {
+        "title": "Garry's Mod TTT Configuration",
+        "sidebar_label": "Garry's Mod TTT Configuration"
+      },
       "legal_use_brand_assets": {
         "title": "Use of logo and name",
         "sidebar_label": "Use of logo and name"
