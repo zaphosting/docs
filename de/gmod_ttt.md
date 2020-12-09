@@ -20,7 +20,7 @@ In unserem Webinterface findest du diese Funktion unter "Configs" dort öffnest 
 
 Dort finden wir die Einstellungen von unserem TTT Server, die wichtigsten Variablen kurz erklärt:
 
-##Runden und Mapwechsel
+## Runden und Mapwechsel
 ttt_round_limit 
 > Dieser Wert legt die Anzahl der Runden bis zum nächsten Mapwechsel fest. (Standardmäßig: 6)
 
@@ -33,7 +33,7 @@ ttt_postround_dm
 ttt_ragdoll_pinning_innocents 
 > Sofern dieser Wert auf 1 steht, ist es für die Innocents möglich, Leichen an Wänden und Decken aufzuhängen. (Standardmäßig: 1)
 
-##Gameplay
+## Gameplay
 ttt_traitor_pct
 > Dieser Wert definiert die prozentuale Anzahl der Spieler welche Verräter sind. Die Anzahl der Spieler wird mit diesem Wert multipliziert. (Standardmäßig: 0.25)
 
@@ -55,11 +55,11 @@ ttt_detective_karma_min
 ttt_minimum_players
 > Die Anzahl der Spieler welche mindestens auf dem Server sein müssen, damit eine Runde beginnt. (Standardmäßig: 2)
 
-##DNA
+## DNA
 ttt_killer_dna_range
 > Maximaler Bereich um welchen eine DNA-Probe hinterlassen wird. (Standardmäßig: 300)
 
-##Karma
+## Karma
 ttt_karma
 > Aktiviert oder Deaktiviert das Karma-System. Spieler starten mit einer bestimmten Anzahl von Karma-Punkten, sie verlieren diese durch das verletzen oder töten von Team-Mitgliedern. Die Menge hängt vom Karma-Wert des getöteten/verletzten ab. (Standardmäßig: 1)
 
