@@ -257,7 +257,13 @@
                 "ids": [
                     "csgo_configuration",
                     "csgo_gotv"
-
+                ]
+            },
+            {
+                "type": "subcategory",
+                "label": "Garry's Mod",
+                "ids": [
+                    "gmod_ttt"
                 ]
             }
         ],
