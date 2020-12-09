@@ -257,9 +257,16 @@
                 "ids": [
                     "csgo_configuration",
                     "csgo_gotv"
-
                 ]
-            }
+            },
+            {
+                "type": "subcategory",
+                "label": "Garry's Mod",
+                "ids": [
+                    "gmod_ttt"
+                ]
+            },
+            
         ],
         "ArmA 3": [{
             "type": "subcategory",
