@@ -6,7 +6,7 @@ sidebar_label: Garry's Mod TTT Configuration
 
 ## The Configuration of your TTT-Server
 
-**Important: Turn down your server for all changes.**
+**Important: Turn off your server for all changes.**
 
 The Basic-Configuration can be done easily in our Webinterface, as example Servername, Rcon- and Serverpassword.
 
