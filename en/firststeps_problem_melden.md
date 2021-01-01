@@ -1,7 +1,7 @@
 ---
 id: firststeps_problem_melden
-title: How do i report problems?
-sidebar_label: How do i report problems?
+title: Report problems
+sidebar_label: Report problems
 ---
 
 ## 🤔 Is something going wrong?

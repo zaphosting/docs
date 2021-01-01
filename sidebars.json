@@ -78,7 +78,8 @@
                     "vserver_linux_nextcloud",
                     "vserver_linux_add_ip",
                     "vserver_linux_ssl",
-                    "vserver_linux_rsync"
+                    "vserver_linux_rsync",
+                    "vserver_linux_jitsi"
 
                 ]
             },
@@ -199,7 +200,8 @@
                     "fivem_mods_installaddon",
                     "fivem_changeloadingscreen",
                     "fivem_installels",
-                    "fivem_installeup"
+                    "fivem_installeup",
+                    "fivem_installtokovoip"
                 ]
             },
             {
@@ -255,7 +257,13 @@
                 "ids": [
                     "csgo_configuration",
                     "csgo_gotv"
-
+                ]
+            },
+            {
+                "type": "subcategory",
+                "label": "Garry's Mod",
+                "ids": [
+                    "gmod_ttt"
                 ]
             }
         ],
@@ -268,21 +276,47 @@
                 "arma3_altislife_ranks"
             ]
         }],
+        "ARK": [
+            "ark_becomeadmin",
+            "ark_mods"
+        ],
         "Assetto Corsa": [
             "assettocorsa_configure",
             "assettocorsa_mods"
         ],
         "Assetto Corsa Competizione": [
             "assetto_competizione_becomeadmin"
+        ],        
+        "Barotrauma": [
+            "barotrauma_becomeadmin"
+        ],
+        "Conan Exiles": [
+            "conan_becomeadmin"
+        ],        
+        "ECO": [
+            "eco_becomeadmin"
+        ],
+        "Factorio": [
+            "factorio_becomeadmin",
+            "factorio_mods"
+        ],
+        "Multi Theft Auto": [
+            "mta_becomeadmin"
         ],
         "Space Engineers": [
             "spaceengineers_becomeadmin",
             "spaceengineers_addmods"
         ],
         "Unturned": [
-            "unturned_rocketmod_plugins",
-            "unturned_rocketmod_admin",
-            "unturned_rocketmod_permissions"
+            "unturned_becomeadmin",
+            "unturned_workshop",
+             {
+            "type": "subcategory",
+            "label": "RocketMod",
+            "ids": [
+                "unturned_rocketmod_plugins",
+                "unturned_rocketmod_permissions"
+            ]}
         ],
         "SCP: Secret Laboratory": [
             "scp_becomeadmin",
@@ -303,6 +337,9 @@
         "Rust": [
             "rust_becomeadmin",
             "rust_connectrcon"
+        ],
+        "Among Us": [
+            "amongus_connection"
         ]
     }
 }

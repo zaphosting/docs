@@ -1,4 +1,5 @@
 {
+    "_comment": "This file needs to be manually translated with every change to a Doc Metadata, or when a new Doc is added.",
     "localized-strings": {
         "next": "Nächste",
         "previous": "Zurück",
@@ -59,7 +60,15 @@
             "altv_installresources": {
                 "title": "Resourcen Installieren",
                 "sidebar_label": "Resourcen Installieren"
-              },
+            },
+            "ark_becomeadmin": {
+                "title": "Admin werden",
+                "sidebar_label": "Admin werden"
+            },
+            "ark_mods": {
+                "title": "Mods installieren",
+                "sidebar_label": "Mods installieren"
+            },
             "arma3_altislife_ranks": {
                 "title": "Altis Life Ränge",
                 "sidebar_label": "Altis Life Ränge"
@@ -67,7 +76,7 @@
             "arma3_mods": {
                 "title": "Mods Installieren",
                 "sidebar_label": "Mods Installieren"
-              },
+            },
             "arma3_serverconfig": {
                 "title": "Server.cfg",
                 "sidebar_label": "Server.cfg"
@@ -75,7 +84,7 @@
             "assetto_competizione_becomeadmin": {
                 "title": "Admin werden",
                 "sidebar_label": "Admin werden"
-              },
+            },
             "assettocorsa_configure": {
                 "title": "Server Konfigurieren",
                 "sidebar_label": "Server Konfigurieren"
@@ -84,13 +93,17 @@
                 "title": "Mods Installieren",
                 "sidebar_label": "Mods Installieren"
             },
-            "beispiel": {
-                "title": "Beispiel-Eintrag",
-                "sidebar_label": "Beispiel Eintrag"
+            "barotrauma_becomeadmin": {
+                "title": "Admin werden",
+                "sidebar_label": "Admin werden"
             },
             "community_info": {
                 "title": "Community Angebote",
                 "sidebar_label": "Community Angebote"
+            },
+            "conan_becomeadmin": {
+                "title": "Admin werden",
+                "sidebar_label": "Admin werden"
             },
             "csgo_configuration": {
                 "title": "Server Konfiguration",
@@ -140,10 +153,22 @@
                 "title": "Höhlen erstellen",
                 "sidebar_label": "Höhlen erstellen"
             },
+            "eco_becomeadmin": {
+                "title": "Admin werden",
+                "sidebar_label": "Admin werden"
+            },
             "empyrion_becomeadmin": {
                 "title": "Admin werden",
                 "sidebar_label": "Admin werden"
-              },
+            },
+            "factorio_becomeadmin": {
+                "title": "Admin werden",
+                "sidebar_label": "Admin werden"
+            },
+            "factorio_mods": {
+                "title": "Mods installieren",
+                "sidebar_label": "Mods installieren"
+            },
             "firststeps_problem_melden": {
                 "title": "Wie melde ich Probleme?",
                 "sidebar_label": "Wie melde ich Probleme?"
@@ -191,7 +216,7 @@
             "fivem_editlocalfiles": {
                 "title": "Localesfiles bearbeiten",
                 "sidebar_label": "Localesfiles bearbeiten"
-              },
+            },
             "fivem_esx_addcarstoshop": {
                 "title": "Autos zum Shop hinzufügen",
                 "sidebar_label": "Autos zum Shop hinzufügen"
@@ -232,6 +257,10 @@
                 "title": "Resourcen Installieren",
                 "sidebar_label": "Resourcen Installieren"
             },
+            "fivem_installtokovoip": {
+                "title": "TokoVOIP Installieren",
+                "sidebar_label": "TokoVOIP Installieren"
+            },
             "fivem_licensekey": {
                 "title": "Eigener Lizenzkey",
                 "sidebar_label": "Eigener Lizenzkey"
@@ -251,7 +280,7 @@
             "fivem_prohibited_resources": {
                 "title": "Resource contains prohibited logic?",
                 "sidebar_label": "Resource contains prohibited logic?"
-              },
+            },
             "fivem_rcon": {
                 "title": "Rcon Benutzen",
                 "sidebar_label": "Rcon Benutzen"
@@ -304,6 +333,10 @@
                 "title": "FTP Dateizugriff",
                 "sidebar_label": "FTP Dateizugriff"
             },
+            "gameserver_gameswitch": {
+                "title": "Spielwechsel mit der Gameservercloud",
+                "sidebar_label": "Spielwechsel"
+            },
             "gameserver_resourcelimit": {
                 "title": "Resourcenlimit",
                 "sidebar_label": "Resourcenlimit"
@@ -315,10 +348,6 @@
             "gameserver_server_down_what_now": {
                 "title": "Server down - was nun?",
                 "sidebar_label": "Server down - was nun?"
-            },
-            "gameswitch": {
-                "title": "Spielwechsel mit der Gameservercloud",
-                "sidebar_label": "Spielwechsel"
             },
             "legal_use_brand_assets": {
                 "title": "Verwendung von Logo und Name",
@@ -380,6 +409,10 @@
                 "title": "Behavior/Resource Packs installieren",
                 "sidebar_label": "Behavior/Resource Packs installieren"
             },
+            "mta_becomeadmin": {
+                "title": "Admin werden",
+                "sidebar_label": "Admin werden"
+            },
             "partner-guide": {
                 "title": "Partner Guide",
                 "sidebar_label": "Partner Guide"
@@ -395,11 +428,11 @@
             "rust_becomeadmin": {
                 "title": "Admin werden",
                 "sidebar_label": "Admin werden"
-              },
-              "rust_connectrcon": {
+            },
+            "rust_connectrcon": {
                 "title": "Connect via RCON",
                 "sidebar_label": "Connect via RCON"
-              },
+            },
             "scp_becomeadmin": {
                 "title": "Admin werden",
                 "sidebar_label": "Admin werden"
@@ -407,11 +440,11 @@
             "scp_newroles": {
                 "title": "Neue Rollen hinzufügen",
                 "sidebar_label": "Neue Rollen hinzufügen"
-              },
-              "scpservermod_uploadplugins": {
+            },
+            "scpservermod_uploadplugins": {
                 "title": "Plugins installieren",
                 "sidebar_label": "Plugins installieren"
-              },
+            },
             "source_custom_content": {
                 "title": "Custom Inhalte",
                 "sidebar_label": "Custom Inhalte"
@@ -459,10 +492,14 @@
             "unturned_rocketmod_permissions": {
                 "title": "Berechtigungen anpassen",
                 "sidebar_label": "Berechtigungen anpassen"
-              },
+            },
             "unturned_rocketmod_plugins": {
                 "title": "Plugins installieren",
                 "sidebar_label": "Plugins installieren"
+            },
+            "unturned_workshop": {
+                "title": "Workshop Inhalte",
+                "sidebar_label": "Workshop Inhalte"
             },
             "voiceserver_query": {
                 "title": "Teamspeak Query Login",
@@ -504,6 +541,10 @@
                 "title": "Java installieren",
                 "sidebar_label": "Java installieren"
             },
+            "vserver_linux_jitsi": {
+                "title": "Jitsi Meet installieren",
+                "sidebar_label": "Jitsi Meet"
+            },
             "vserver_linux_mariadbinstall": {
                 "title": "MariaDB (MySQL) Installation",
                 "sidebar_label": "MariaDB (MySQL) Installation"
@@ -531,7 +572,7 @@
             "vserver_linux_rsync": {
                 "title": "Rsync Linux",
                 "sidebar_label": "Rsync Linux"
-              },
+            },
             "vserver_linux_sftp": {
                 "title": "Via SFTP verbinden",
                 "sidebar_label": "SFTP Verbindung"
@@ -547,7 +588,7 @@
             "vserver_linux_sshkey": {
                 "title": "SSH Key",
                 "sidebar_label": "SSH Key"
-              },
+            },
             "vserver_linux_ssl": {
                 "title": "SSL-Zertifikat (Let's Encrypt)",
                 "sidebar_label": "SSL-Zertifikat (Let's Encrypt)"
@@ -575,7 +616,7 @@
             "vserver_windows_expand_disk": {
                 "title": "Festplatte erweitern",
                 "sidebar_label": "Festplatte erweitern"
-              },
+            },
             "vserver_windows_ftpserver": {
                 "title": "FTP Server installieren",
                 "sidebar_label": "FTP Server installieren"
@@ -607,7 +648,7 @@
             "webspace_dashboard": {
                 "title": "Add Domain",
                 "sidebar_label": "Add Domain"
-              },
+            },
             "webspace_htaccess_discord": {
                 "title": "Discord Weiterleitung via Domain",
                 "sidebar_label": "Discord Weiterleitung via Domain"
@@ -638,15 +679,22 @@
             "Minecraft": "Minecraft",
             "FiveM": "FiveM",
             "RageMP": "RageMP",
+            "Alt:V": "Alt:V",
             "Terraria": "Terraria",
             "Source Games": "Source Games",
             "ArmA 3": "ArmA 3",
+            "ARK": "ARK",
             "Assetto Corsa": "Assetto Corsa",
+            "Assetto Corsa Competizione": "Assetto Corsa Competizione",
+            "Barotrauma": "Barotrauma",
+            "Conan Exiles": "Conan Exiles",
+            "ECO": "ECO",
+            "Factorio": "Factorio",
+            "Multi Theft Auto": "Multi Theft Auto",
             "Space Engineers": "Space Engineers",
             "Unturned": "Unturned",
             "SCP: Secret Laboratory": "SCP: Secret Laboratory",
             "Don't Starve Together": "Don't Starve Together",
-            "Alt:V": "Alt:V",
             "Empyrion": "Empyrion",
             "Rust": "Rust"
         }

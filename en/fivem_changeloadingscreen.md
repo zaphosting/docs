@@ -22,7 +22,7 @@ As a last step you have to enter it into the Server.cfg. For this you have to go
 
 There you enter the following **start loadingscreen** and save it afterwards
 
-![]( ![](https://screensaver01.zap-hosting.com/index.php/s/gE52MxjbCcSnMgK/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/gE52MxjbCcSnMgK/preview)
 
 Now you can start your server and the loadingscreen will show ingame.
 

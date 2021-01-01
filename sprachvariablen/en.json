@@ -26,8 +26,8 @@
         "sidebar_label": "Contracts & Prepaids"
       },
       "account_donations": {
-        "title": "Donation Link",
-        "sidebar_label": "Donation Link"
+        "title": "Donations",
+        "sidebar_label": "Donations"
       },
       "account_friends": {
         "title": "Refer a Friend",
@@ -61,6 +61,18 @@
         "title": "Resource Installation",
         "sidebar_label": "Resource Installation"
       },
+      "amongus_connection": {
+        "title": "Connection",
+        "sidebar_label": "Connection to the Server"
+      },
+      "ark_becomeadmin": {
+        "title": "Become Admin",
+        "sidebar_label": "Become Admin"
+      },
+      "ark_mods": {
+        "title": "Install Mods",
+        "sidebar_label": "Install Mods"
+      },
       "arma3_altislife_ranks": {
         "title": "Altis Life Ranks",
         "sidebar_label": "Altis Life Ranks"
@@ -85,9 +97,17 @@
         "title": "Install Mods",
         "sidebar_label": "Install Mods"
       },
+      "barotrauma_becomeadmin": {
+        "title": "Become Admin",
+        "sidebar_label": "Become Admin"
+      },
       "community_info": {
         "title": "Community offers",
         "sidebar_label": "Community offers"
+      },
+      "conan_becomeadmin": {
+        "title": "Become Admin",
+        "sidebar_label": "Become Admin"
       },
       "csgo_configuration": {
         "title": "Server configuration",
@@ -137,13 +157,25 @@
         "title": "Create Caves",
         "sidebar_label": "Create Caves"
       },
+      "eco_becomeadmin": {
+        "title": "Become Admin",
+        "sidebar_label": "Become Admin"
+      },
       "empyrion_becomeadmin": {
         "title": "Become Admin",
         "sidebar_label": "Become Admin"
       },
+      "factorio_becomeadmin": {
+        "title": "Become Admin",
+        "sidebar_label": "Become Admin"
+      },
+      "factorio_mods": {
+        "title": "Install Mods",
+        "sidebar_label": "Install Mods"
+      },
       "firststeps_problem_melden": {
-        "title": "How do i report problems?",
-        "sidebar_label": "How do i report problems?"
+        "title": "Report problems",
+        "sidebar_label": "Report problems"
       },
       "firststeps_register": {
         "title": "Register",
@@ -228,6 +260,10 @@
       "fivem_installresources": {
         "title": "Resource Installation",
         "sidebar_label": "Resource Installation"
+      },
+      "fivem_installtokovoip": {
+        "title": "Install TokoVOIP",
+        "sidebar_label": "Install TokoVOIP"
       },
       "fivem_licensekey": {
         "title": "Own License Key",
@@ -317,6 +353,10 @@
         "title": "Server crash - What to do?",
         "sidebar_label": "Server crash - What to do?"
       },
+      "gmod_ttt": {
+        "title": "Garry's Mod TTT Configuration",
+        "sidebar_label": "Garry's Mod TTT Configuration"
+      },
       "legal_use_brand_assets": {
         "title": "Use of logo and name",
         "sidebar_label": "Use of logo and name"
@@ -342,8 +382,8 @@
         "sidebar_label": "Server Config"
       },
       "minecraft_forge_add_mods": {
-        "title": "Mods installieren",
-        "sidebar_label": "Mods installieren"
+        "title": "Mods Installation",
+        "sidebar_label": "Mods Installation"
       },
       "minecraft_pluginuploader": {
         "title": "Plugin Uploader",
@@ -354,8 +394,8 @@
         "sidebar_label": "RCON"
       },
       "minecraft_server_optimize": {
-        "title": "Optimize Minecraft Server",
-        "sidebar_label": "Optimize Minecraft Server"
+        "title": "Minecraft-Server Optimization",
+        "sidebar_label": "Minecraft-Server Optimization"
       },
       "minecraft_server-icon": {
         "title": "Server Icon",
@@ -370,12 +410,16 @@
         "sidebar_label": "Whitelist"
       },
       "minecraft_worlds": {
-        "title": "Manage worlds",
-        "sidebar_label": "Manage worlds"
+        "title": "Manage Worlds",
+        "sidebar_label": "Manage Worlds"
       },
       "minecraftbedrock_behaviorresourcepacks": {
-        "title": "Installing Behavior/Resource Packs",
-        "sidebar_label": "Installing Behavior/Resource Packs"
+        "title": "Behavior/Resource Packs Installation",
+        "sidebar_label": "Behavior/Resource Packs Installation"
+      },
+      "mta_becomeadmin": {
+        "title": "Become Admin",
+        "sidebar_label": "Become Admin"
       },
       "partner-guide": {
         "title": "Partner Guide",
@@ -430,8 +474,8 @@
         "sidebar_label": "Plugins"
       },
       "spaceengineers_addmods": {
-        "title": "Mods Installation",
-        "sidebar_label": "Space Engineers Mods Installation"
+        "title": "Install Mods",
+        "sidebar_label": "Install Mods"
       },
       "spaceengineers_becomeadmin": {
         "title": "Become Admin",
@@ -442,16 +486,16 @@
         "sidebar_label": "Submit Suggestions"
       },
       "terraria_tmodloader_installmod": {
-        "title": "Mod installieren (tModLoader)",
-        "sidebar_label": "Mod installieren (tModLoader)"
+        "title": "Mod Installation (tModLoader)",
+        "sidebar_label": "Mod Installation (tModLoader)"
       },
       "terraria_tshock_add_admin": {
         "title": "Become an admin (tShock)",
         "sidebar_label": "Become an admin (tShock)"
       },
-      "unturned_rocketmod_admin": {
-        "title": "Admin werden (Rocket Mod)",
-        "sidebar_label": "Admin werden (Rocket Mod)"
+      "unturned_becomeadmin": {
+        "title": "Become Admin",
+        "sidebar_label": "Become Admin"
       },
       "unturned_rocketmod_permissions": {
         "title": "Adjust Permissions",
@@ -460,6 +504,10 @@
       "unturned_rocketmod_plugins": {
         "title": "Install Plugins",
         "sidebar_label": "Install Plugins"
+      },
+      "unturned_workshop": {
+        "title": "Workshop Content",
+        "sidebar_label": "Workshop Content"
       },
       "voiceserver_query": {
         "title": "Teamspeak Query Login",
@@ -501,6 +549,10 @@
         "title": "Install Java",
         "sidebar_label": "Install Java"
       },
+      "vserver_linux_jitsi": {
+        "title": "Jitsi Meet installieren",
+        "sidebar_label": "Jitsi Meet"
+      },
       "vserver_linux_mariadbinstall": {
         "title": "MariaDB (MySQL) Installation",
         "sidebar_label": "MariaDB (MySQL) Installation"
@@ -534,7 +586,7 @@
         "sidebar_label": "SFTP Connection"
       },
       "vserver_linux_ssh": {
-        "title": "Erstzugriff (SSH)",
+        "title": "Initial access (SSH)",
         "sidebar_label": "Initial access (SSH)"
       },
       "vserver_linux_ssh2fa": {
@@ -639,14 +691,21 @@
       "Terraria": "Terraria",
       "Source Games": "Source Games",
       "ArmA 3": "ArmA 3",
+      "ARK": "ARK",
       "Assetto Corsa": "Assetto Corsa",
       "Assetto Corsa Competizione": "Assetto Corsa Competizione",
+      "Barotrauma": "Barotrauma",
+      "Conan Exiles": "Conan Exiles",
+      "ECO": "ECO",
+      "Factorio": "Factorio",
+      "Multi Theft Auto": "Multi Theft Auto",
       "Space Engineers": "Space Engineers",
       "Unturned": "Unturned",
       "SCP: Secret Laboratory": "SCP: Secret Laboratory",
       "Don't Starve Together": "Don't Starve Together",
       "Empyrion": "Empyrion",
-      "Rust": "Rust"
+      "Rust": "Rust",
+      "Among Us": "Among Us"
     }
   },
   "pages-strings": {
