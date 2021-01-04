@@ -263,6 +263,7 @@
                 "type": "subcategory",
                 "label": "Garry's Mod",
                 "ids": [
+                    "gmod_servercfg",
                     "gmod_ttt"
                 ]
             }
