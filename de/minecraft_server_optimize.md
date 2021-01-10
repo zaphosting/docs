@@ -464,7 +464,7 @@ Hierzu muss folgende Einstellung in der "paper.yml" gemacht werden:
 
 ### Sichtweite ohne Chunk Updates
 
-In Paper Spigot ist es möglich eine Sichtweite einzustellen, in der dem Spieler Blöcke angezeigt werden, aber Entities nicht "getickt" werden. Sprich der Spiele sieht alle Blöcke aber keine Tiere, Mobs, Minecarts etc. Dies ist gerade in den neuen Minecraft Versionen nützlich, denn dort verbrauchen die Entities deutlich mehr Leistung. 
+In Paper Spigot ist es möglich eine Sichtweite einzustellen, in der dem Spieler Blöcke angezeigt werden, aber Entities nicht "getickt" werden. Sprich der Spieler sieht alle Blöcke aber keine Tiere, Mobs, Minecarts etc. Dies ist gerade in den neuen Minecraft Versionen nützlich, denn dort verbrauchen die Entities deutlich mehr Leistung. 
 
 Hierzu muss folgender Wert in der "paper.yml" geändert werden:
 - no-tick-view-distance: deine Sichtweite #Default: -1 (0)
