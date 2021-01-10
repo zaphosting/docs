@@ -469,5 +469,5 @@ In Paper Spigot ist es möglich eine Sichtweite einzustellen, in der dem Spieler
 Hierzu muss folgender Wert in der "paper.yml" geändert werden:
 - no-tick-view-distance: deine Sichtweite #Default: -1 (0)
 
-Hier wird empfpohlen den doppelten Wert deiner "richtigen" Sichtweite zu nehmen, du kannst aber trotzdem frei entscheiden um den perfekten Wert zu finden.
+Hier wird empfohlen den doppelten Wert deiner "richtigen" Sichtweite zu nehmen, du kannst aber frei entscheiden um den perfekten Wert zu finden.
 
