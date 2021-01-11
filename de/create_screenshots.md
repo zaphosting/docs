@@ -61,7 +61,7 @@ Anschließend kann standardmäßig mit der Taste "Druck" ein Scrrenshot erstellt
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/mmLtmZNJb8wg3xX/preview)
 
-Nachdem der Bereits ausgewählt wurde, kann der Screenshot noch bearbeitet werden. 
+Nachdem der Bereich ausgewählt wurde, kann der Screenshot noch bearbeitet werden. 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/s27RNkCEDxsTDdo/preview)
 
