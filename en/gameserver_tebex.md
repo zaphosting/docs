@@ -23,7 +23,11 @@ and choose the download button to install it. As soon as this is done, proceed t
 
 ### 2. Send yourself a TEBEX invite
 If the game you chose supports TEBEX you will see a tab called "TEBEX Shop" in the sidebar. Click 
-on the image that appears upon loading the page. TEBEX will now sent an invite to the email address
+on the image that appears upon loading the page. 
+
+![](https://screensaver01.zap-hosting.com/index.php/s/PRs5qwmMmj7b5Ny/preview)
+
+TEBEX will now sent an invite to the email address
 linked to your ZAP-Hosting customer account. Please follow the instructions within the email to 
 activate your TEBEX account. You will be guided through the basic configuration of your shop.
 
@@ -37,6 +41,12 @@ from game to game. Basic instructions on how to install the plugins can be found
 [here](https://docs.tebex.io/store/integrating-with-your-game-server-or-website/minecraft-java-edition).
 
 #### 3.2 Confirm the successful installation with us
-Finally you will have to confirm that you installed the gameserver plugin successfully. In some 
-cases you may be required to enter your TEBEX webstore plugin api key to establish 
+Finally you will have to confirm that you installed the gameserver plugin successfully. 
+
+![](https://screensaver01.zap-hosting.com/index.php/s/HdTM4p4arYTMBdr/preview)
+
+In some cases you may be required to enter your TEBEX webstore plugin api key to establish
 the connection from ZAP 2.5 to your TEBEX store.
+
+![](https://screensaver01.zap-hosting.com/index.php/s/JGTizyLBD6eNrFt/preview)
+
