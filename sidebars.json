@@ -51,7 +51,8 @@
             "gameserver_ftpaccess",
             "gameserver_restartplaner",
             "gameserver_backups",
-            "gameserver_server_down_what_now"
+            "gameserver_server_down_what_now",
+            "gameserver_tebex"
         ],
         "vServer & Rootserver": [
             "vserver_root_unterschied",
