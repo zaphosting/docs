@@ -8,7 +8,8 @@ sidebar_label: TEBEX Monetization
 TEBEX is a platform which allows you to monetize your Gameserver and make real money 
 from in-game items, ranks and much more. The platform provides you with a professional 
 webstore where you can sell goods and view how your store is doing. Visit 
-[tebex.io](https://tebex.io) for more information on how it works.
+[tebex.io](https://affiliate.tebex.io/r/690a6731-fee1-4054-84e1-30c26729403a) for 
+more information on how it works.
 
 ## Which games are supported by TEBEX?
 The platform currently supports the following games: [Click Here](https://www.tebex.io/games)
