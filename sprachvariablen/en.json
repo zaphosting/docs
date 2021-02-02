@@ -109,6 +109,10 @@
         "title": "Become Admin",
         "sidebar_label": "Become Admin"
       },
+      "create_screenshots": {
+        "title": "Screenshots erstellen",
+        "sidebar_label": "create_screenshots"
+      },
       "csgo_configuration": {
         "title": "Server configuration",
         "sidebar_label": "Server Configration"
