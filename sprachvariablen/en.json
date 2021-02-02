@@ -353,6 +353,10 @@
         "title": "Server crash - What to do?",
         "sidebar_label": "Server crash - What to do?"
       },
+      "gameserver_tebex": {
+        "title": "TEBEX Gameserver Monetization",
+        "sidebar_label": "TEBEX Monetization"
+      },
       "gmod_ttt": {
         "title": "Garry's Mod TTT Configuration",
         "sidebar_label": "Garry's Mod TTT Configuration"
