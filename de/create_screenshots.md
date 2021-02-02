@@ -1,7 +1,7 @@
 ---
 id: create_screenshots
 title: Screenshots erstellen
-sidebar_label: create_screenshots
+sidebar_label: Screenshots erstellen
 ---
 
 ## Screenshots erstellen
