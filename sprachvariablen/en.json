@@ -109,6 +109,10 @@
         "title": "Become Admin",
         "sidebar_label": "Become Admin"
       },
+      "create_screenshots": {
+        "title": "Create Screenshots",
+        "sidebar_label": "Create Screenshots"
+      },
       "csgo_configuration": {
         "title": "Server configuration",
         "sidebar_label": "Server Configration"
@@ -352,6 +356,10 @@
       "gameserver_server_down_what_now": {
         "title": "Server crash - What to do?",
         "sidebar_label": "Server crash - What to do?"
+      },
+      "gameserver_tebex": {
+        "title": "TEBEX Gameserver Monetization",
+        "sidebar_label": "TEBEX Monetization"
       },
       "gmod_ttt": {
         "title": "Garry's Mod TTT Configuration",
