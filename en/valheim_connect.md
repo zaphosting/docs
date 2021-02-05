@@ -4,7 +4,13 @@ title: Connect to a Server
 sidebar_label: Connect to a Server
 ---
 
-To connect to your Valheim Server first we will open our Interface and make sure that our Server is Online:
+To connect to your Valheim server, we first open our web interface and make sure we have set a secure password in the settings:
+
+![](https://screensaver01.zap-hosting.com/index.php/s/Lf58LHFQX72tK49/preview)
+
+> Note: Without the password your Valheim server will not start.
+
+After setting the password we can start the server, it may take a few minutes until it switches to "Online":
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/D83iNmMQHtJmgTp/preview)
 

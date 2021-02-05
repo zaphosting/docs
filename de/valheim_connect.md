@@ -4,12 +4,17 @@ title: Zu einem Server verbinden
 sidebar_label: Zu einem Server verbinden
 ---
 
-Um sich mit deinem Valheim-Server zu verbinden, öffnen wir zunächst unser Webinterface und stellen sicher, dass unser Server online ist:
+Um sich mit deinem Valheim-Server zu verbinden, öffnen wir zunächst unser Webinterface und stellen sicher, dass wir ein sicheres Passwort in den Einstellungen gesetzt haben:
+
+![](https://screensaver01.zap-hosting.com/index.php/s/bjZzJ9jJFSidAnw/preview)
+
+> Beachte: Ohne Password wird dein Valheim-Server nicht starten.
+
+Nachdem wir das Passwort gesetzt haben, können wir den Server starten, hierbei kann es ein paar Minuten dauern, bis dieser zu "Online" schaltet:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/D83iNmMQHtJmgTp/preview)
 
 Jetzt, wo unser Server online ist, öffnen wir Valheim und klicken auf `Start Game`, wenn noch kein Charakter erstellt wurde, muss jetzt einer erstellt werden, dann klicken wir auf `Start`
-
 
 Hier wollen wir keine neue Welt anlegen, also drücken wir "Abbrechen"
 
