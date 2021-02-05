@@ -21,7 +21,7 @@ Here we do not want to create a new World, so we press "Cancel"
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/8LetLjTjmgyBf2a/preview)
 
-Now we can click on `Join Game` at the top of the Menu and Enter our Servername in the "Filter" Section
+Now we can click on `Join Game` at the top of the Menu and Enter our Servername in the "Filter" Section, we will also set a Checkmark at "Community"
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/YJg8Mj35RbXwtJH/preview)
 
