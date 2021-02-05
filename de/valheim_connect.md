@@ -20,7 +20,7 @@ Hier wollen wir keine neue Welt anlegen, also drücken wir "Abbrechen"
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/8LetLjTjmgyBf2a/preview)
 
-Jetzt können wir oben im Menü auf `Join Game` klicken und unseren Servernamen in der "Filter"-Sektion eingeben
+Jetzt können wir oben im Menü auf `Join Game` klicken und unseren Servernamen in der "Filter"-Sektion eingeben, ebenfalls setzen wir einen Haken bei "Community"
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/YJg8Mj35RbXwtJH/preview)
 
