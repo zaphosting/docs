@@ -1,7 +1,7 @@
 ---
 id: valheim_connect
-title: Zu einem Server verbinden
-sidebar_label: Zu einem Server verbinden
+title: Zum Server Verbinden
+sidebar_label: Zum Server Verbinden
 ---
 
 Um sich mit deinem Valheim-Server zu verbinden, öffnen wir zunächst unser Webinterface und stellen sicher, dass wir ein sicheres Passwort in den Einstellungen gesetzt haben:
