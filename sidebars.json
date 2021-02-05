@@ -303,6 +303,21 @@
 		"Conan Exiles": [
 			"conan_becomeadmin"
 		],
+		"Valheim": [
+			"valheim_connect",
+			"valheim_savegame"
+		],
+		"SCP: Secret Laboratory": [
+			"scp_becomeadmin",
+			"scp_newroles",
+			{
+				"type": "subcategory",
+				"label": "ServerMod",
+				"ids": [
+					"scpservermod_uploadplugins"
+				]
+			}
+		],
 		"ECO": [
 			"eco_becomeadmin"
 		],
@@ -326,17 +341,6 @@
 				"ids": [
 					"unturned_rocketmod_plugins",
 					"unturned_rocketmod_permissions"
-				]
-			}
-		],
-		"SCP: Secret Laboratory": [
-			"scp_becomeadmin",
-			"scp_newroles",
-			{
-				"type": "subcategory",
-				"label": "ServerMod",
-				"ids": [
-					"scpservermod_uploadplugins"
 				]
 			}
 		],

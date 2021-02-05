@@ -517,6 +517,14 @@
         "title": "Workshop Content",
         "sidebar_label": "Workshop Content"
       },
+      "valheim_connect": {
+        "title": "Connect to a Server",
+        "sidebar_label": "Connect to a Server"
+      },
+      "valheim_savegame": {
+        "title": "Manage Savegames",
+        "sidebar_label": "Manage Savegames"
+      },
       "voiceserver_query": {
         "title": "Teamspeak Query Login",
         "sidebar_label": "Teamspeak Query Login"
@@ -704,12 +712,13 @@
       "Assetto Corsa Competizione": "Assetto Corsa Competizione",
       "Barotrauma": "Barotrauma",
       "Conan Exiles": "Conan Exiles",
+      "Valheim": "Valheim",
+      "SCP: Secret Laboratory": "SCP: Secret Laboratory",
       "ECO": "ECO",
       "Factorio": "Factorio",
       "Multi Theft Auto": "Multi Theft Auto",
       "Space Engineers": "Space Engineers",
       "Unturned": "Unturned",
-      "SCP: Secret Laboratory": "SCP: Secret Laboratory",
       "Don't Starve Together": "Don't Starve Together",
       "Empyrion": "Empyrion",
       "Rust": "Rust",
