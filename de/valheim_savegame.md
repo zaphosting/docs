@@ -14,7 +14,9 @@ Um dein Savegame herunterladen zu können, kannst du den `Savegame-Manager` im W
 
 Hier kannst du dein Savegame ganz einfach über den grünen "Download" Button herunterladen:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/NCzZQzeBsii4cCk/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/GEAsY3MJWjdtmWk/preview)
+
+> Beachte, dass du die `.db` **und** `.fwl` Dateien runterladen musst.
 
 Fertig! Du kannst das Backup nun anderweitig nutzen, oder später wieder hochladen.
 
@@ -27,7 +29,7 @@ Nachdem wir uns per FTP Angemeldet haben, können wir den `world-backups` Ordner
 
 Hier können wir nun unser eigenes Savegame per Drag&Drop hochladen, dies sollte danach wie folgt aussehen:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/NFdw9M94oFpCgzG/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/AXwfFHs7yMZ7kWN/preview)
 
 > db-backup Dateien in diesen Ordner werden erstellt, wenn dein Server gestartet oder gestoppt wird, diese kannst du ignorieren.
 
@@ -37,9 +39,9 @@ Jetzt können wir im Webinterface den `Savegame-Manager` öffnen:
 
 Unter `Backups` sollten wir die gleichen Saves finden, welche im `world-backups` Ordner sind, hier suchen wir unser Savegame raus:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/PGHqRwi2JawT3db/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/d8Q68crjokoSEqR/preview)
 
-Nun müssen wir nur noch den Gelben "Wiederherstellen" Button Drücken und das Ganze bestätigen, dann wird unser Savegame geladen.
+Nun müssen wir nur noch bei beiden Dateien den Gelben "Wiederherstellen" Button Drücken und das Ganze bestätigen, dann wird unser Savegame geladen.
 
 Nachdem dies geladen wurde, erscheint unten rechts eine Meldung:
 

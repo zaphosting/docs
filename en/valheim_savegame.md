@@ -14,7 +14,9 @@ To download your savegame you can use the `Savegame-Manager` in the webinterface
 
 Here you can easily download your savegame by clicking the green "Download" button:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/R7JRqSHsE2fkc4T/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/GEAsY3MJWjdtmWk/preview)
+
+> Note, you need to download both the `.db` **and** `.fwl` Files.
 
 Done! You can now use the backup for other purposes, or upload it again later.
 
@@ -26,7 +28,7 @@ After we logged in via FTP we can open the `world-backups` folder, here are all 
 
 We can now upload our own savegame in this folder via drag&drop, this should look like this afterwards:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/NFdw9M94oFpCgzG/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/AXwfFHs7yMZ7kWN/preview)
 
 > db-backup files in this folder are created when your server is started or stopped, you can ignore them.
 
@@ -36,9 +38,9 @@ Now we can open the `Savegame-Manager` in the web interface:
 
 Under `Backups` we should find the same saves that are in the `world-backups` folder, here we look for our savegame:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/PGHqRwi2JawT3db/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/d8Q68crjokoSEqR/preview)
 
-Now we just have to press the yellow "Restore" button and confirm the whole thing, then our savegame will be loaded.
+Now we just have to press the yellow "Restore" button on both files and confirm the whole thing, then our savegame will be loaded.
 
 After this has been loaded, a message appears at the bottom right:
 
