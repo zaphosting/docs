@@ -1,5 +1,5 @@
 ---
-id: valheim_connect
+id: valheim_serverlisting
 title: Server nicht in der Serverliste
 sidebar_label: Server nicht in der Serverliste
 ---
