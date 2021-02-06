@@ -518,12 +518,16 @@
         "sidebar_label": "Workshop Content"
       },
       "valheim_connect": {
-        "title": "Server not listed",
-        "sidebar_label": "Server not listed"
+        "title": "Connect to a Server",
+        "sidebar_label": "Connect to a Server"
       },
       "valheim_savegame": {
         "title": "Manage Savegames",
         "sidebar_label": "Manage Savegames"
+      },
+      "valheim_serverlisting": {
+        "title": "Server not listed",
+        "sidebar_label": "Server not listed"
       },
       "voiceserver_query": {
         "title": "Teamspeak Query Login",
