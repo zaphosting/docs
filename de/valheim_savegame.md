@@ -32,6 +32,18 @@ Hier können wir nun unser eigenes Savegame per Drag&Drop hochladen, dies sollte
 ![](https://screensaver01.zap-hosting.com/index.php/s/AXwfFHs7yMZ7kWN/preview)
 
 > db-backup Dateien in diesen Ordner werden erstellt, wenn dein Server gestartet oder gestoppt wird, diese kannst du ignorieren.
+> Beachte, dass dein Savegame genauso heißen sollte, wie es vom Spiel erstellt wurde.
+
+In Unseren fall heißen die Backup-Dateien `meinewelt123.db` und `meinewelt123.fwl`.
+
+Nun öffnen wir die Einstellungen unseres Gameservers:
+![](https://screensaver01.zap-hosting.com/index.php/s/HJqbTtBYY6Djffx/preview)
+
+Hier müssen wir unter `Savegame` den namen des Savegames eintragen:
+
+![](https://screensaver01.zap-hosting.com/index.php/s/p8BTKRnBNwTGQ2C/preview)
+
+Da bei uns das Savegame `meinewelt123.db` heißt, wird hier `meinewelt123` eingetragen.
 
 Jetzt können wir im Webinterface den `Savegame-Manager` öffnen:
 
