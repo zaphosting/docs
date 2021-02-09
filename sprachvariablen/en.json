@@ -74,7 +74,7 @@
         "sidebar_label": "Install Mods"
       },
       "ark_serverlisting": {
-        "title": "Serverlisting Problems",
+        "title": "Server listing problems with Steam games that use Steamworks",
         "sidebar_label": "Serverlisting Problems"
       },
       "arma3_altislife_ranks": {
@@ -530,7 +530,7 @@
         "sidebar_label": "Manage Savegames"
       },
       "valheim_serverlisting": {
-        "title": "Serverlisting Problems",
+        "title": "Server listing problems with Steam games that use Steamworks",
         "sidebar_label": "Serverlisting Problems"
       },
       "voiceserver_query": {
