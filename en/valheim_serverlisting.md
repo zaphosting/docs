@@ -1,10 +1,8 @@
 ---
 id: valheim_serverlisting
-title: Serverlisting Problems
+title: Server listing problems with Steam games that use Steamworks
 sidebar_label: Serverlisting Problems
 ---
-
-# Server listing problems with Steam games that use Steamworks
 
 Unfortunately, many popular games like ARK or Valheim have massive problems with listing all servers in the ingame server list. 
 
