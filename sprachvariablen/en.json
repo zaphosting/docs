@@ -73,7 +73,7 @@
         "title": "Install Mods",
         "sidebar_label": "Install Mods"
       },
-      "ark_valheim_serverlisting": {
+      "ark_serverlisting": {
         "title": "Serverlisting Problems",
         "sidebar_label": "Serverlisting Problems"
       },
@@ -528,6 +528,10 @@
       "valheim_savegame": {
         "title": "Manage Savegames",
         "sidebar_label": "Manage Savegames"
+      },
+      "valheim_serverlisting": {
+        "title": "Serverlisting Problems",
+        "sidebar_label": "Serverlisting Problems"
       },
       "voiceserver_query": {
         "title": "Teamspeak Query Login",
