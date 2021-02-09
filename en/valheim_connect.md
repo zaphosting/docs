@@ -21,9 +21,11 @@ First we copy the IP from the server from the Webinterface:
 
 
 To connect to the Valheim server directly, we need to open the server list in Steam:
+
 ![](https://screensaver01.zap-hosting.com/index.php/s/WaPYS6qowjidXjm/preview)
 
 Here we now add our server as follows:
+
 ![](https://screensaver01.zap-hosting.com/index.php/s/ymSyerFEkCCKzyc/preview)
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/PM5MkKTksKqPwpP/preview)
