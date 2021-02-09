@@ -284,7 +284,7 @@
         "ARK": [
             "ark_becomeadmin",
             "ark_mods",
-            "ark_valheim_serverlisting"
+            "ark_serverlisting"
         ],
         "Assetto Corsa": [
             "assettocorsa_configure",
@@ -302,7 +302,7 @@
         "Valheim": [
             "valheim_connect",
             "valheim_savegame",
-            "ark_valheim_serverlisting"
+            "valheim_serverlisting"
         ],
         "SCP: Secret Laboratory": [
             "scp_becomeadmin",
