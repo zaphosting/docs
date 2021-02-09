@@ -1,5 +1,5 @@
 ---
-id: ark_valheim_serverlisting
+id: valheim_serverlisting
 title: Serverlisting Problems
 sidebar_label: Serverlisting Problems
 ---
