@@ -27,7 +27,10 @@ Source: https://twitter.com/garrynewman/status/1334446218437681152?s=20
 Or even Rust, as they write in their blog:
 
 ```
-It's not all roses and rainbows when you have such a sudden boost in popularity. You start seeing cracks forming in the foundations, most noticeable for us the server browser was never intended to handle such a large amount of servers. Without going into the technicality this has resulted in many servers not displaying for users and causing a lot of frustration for server owners. We're currently working on and exploring solutions so please bear with us.
+It's not all roses and rainbows when you have such a sudden boost in popularity. 
+You start seeing cracks forming in the foundations, most noticeable for us the server browser was never intended to handle such a large amount of servers.
+Without going into the technicality this has resulted in many servers not displaying for users and causing a lot of frustration for server owners. 
+We're currently working on and exploring solutions so please bear with us.
 ```
 
 Source: https://rust.facepunch.com/blog/
