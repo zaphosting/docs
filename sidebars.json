@@ -302,7 +302,8 @@
         "Valheim": [
             "valheim_connect",
             "valheim_savegame",
-            "valheim_serverlisting"
+            "valheim_serverlisting",
+            "valheim_admin"
         ],
         "SCP: Secret Laboratory": [
             "scp_becomeadmin",
