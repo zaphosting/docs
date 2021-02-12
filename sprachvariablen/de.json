@@ -64,7 +64,7 @@
             "amongus_connection": {
                 "title": "Verbindung zum Server",
                 "sidebar_label": "Verbindung"
-              },
+            },
             "ark_becomeadmin": {
                 "title": "Admin werden",
                 "sidebar_label": "Admin werden"
@@ -72,6 +72,10 @@
             "ark_mods": {
                 "title": "Mods installieren",
                 "sidebar_label": "Mods installieren"
+            },
+            "ark_serverlisting": {
+                "title": "Serverlisting Probleme bei Steam Spielen, die Steamworks nutzen",
+                "sidebar_label": "Serverlisting Probleme"
             },
             "arma3_altislife_ranks": {
                 "title": "Altis Life Ränge",
@@ -112,7 +116,7 @@
             "create_screenshots": {
                 "title": "Screenshots erstellen",
                 "sidebar_label": "Screenshots erstellen"
-              },
+            },
             "csgo_configuration": {
                 "title": "Server Konfiguration",
                 "sidebar_label": "Server Konfiguration"
@@ -360,11 +364,11 @@
             "gameserver_tebex": {
                 "title": "TEBEX Gameserver Monetarisierung",
                 "sidebar_label": "TEBEX Monetarisierung"
-              },
-              "gmod_ttt": {
+            },
+            "gmod_ttt": {
                 "title": "Garry's Mod TTT Konfiguration",
                 "sidebar_label": "Garry's Mod TTT Konfiguration"
-              },
+            },
             "legal_use_brand_assets": {
                 "title": "Verwendung von Logo und Name",
                 "sidebar_label": "Verwendung von Logo und Name"
@@ -520,11 +524,15 @@
             "valheim_connect": {
                 "title": "Zum Server Verbinden",
                 "sidebar_label": "Zum Server Verbinden"
-              },
-              "valheim_savegame": {
+            },
+            "valheim_savegame": {
                 "title": "Savegames Verwalten",
                 "sidebar_label": "Savegames Verwalten"
-              },
+            },
+            "valheim_serverlisting": {
+                "title": "Serverlisting Probleme bei Steam Spielen, die Steamworks nutzen",
+                "sidebar_label": "Serverlisting Probleme"
+            },
             "voiceserver_query": {
                 "title": "Teamspeak Query Login",
                 "sidebar_label": "Teamspeak Query Login"

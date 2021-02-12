@@ -283,7 +283,8 @@
         }],
         "ARK": [
             "ark_becomeadmin",
-            "ark_mods"
+            "ark_mods",
+            "ark_serverlisting"
         ],
         "Assetto Corsa": [
             "assettocorsa_configure",

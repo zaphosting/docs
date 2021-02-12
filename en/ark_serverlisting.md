@@ -1,5 +1,5 @@
 ---
-id: valheim_serverlisting
+id: ark_serverlisting
 title: Server listing problems with Steam games that use Steamworks
 sidebar_label: Serverlisting Problems
 ---

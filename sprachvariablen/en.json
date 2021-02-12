@@ -73,6 +73,10 @@
         "title": "Install Mods",
         "sidebar_label": "Install Mods"
       },
+      "ark_serverlisting": {
+        "title": "Server listing problems with Steam games that use Steamworks",
+        "sidebar_label": "Serverlisting Problems"
+      },
       "arma3_altislife_ranks": {
         "title": "Altis Life Ranks",
         "sidebar_label": "Altis Life Ranks"
@@ -526,8 +530,8 @@
         "sidebar_label": "Manage Savegames"
       },
       "valheim_serverlisting": {
-        "title": "Server not listed",
-        "sidebar_label": "Server not listed"
+        "title": "Server listing problems with Steam games that use Steamworks",
+        "sidebar_label": "Serverlisting Problems"
       },
       "voiceserver_query": {
         "title": "Teamspeak Query Login",

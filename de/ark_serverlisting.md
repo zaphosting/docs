@@ -1,5 +1,5 @@
 ---
-id: valheim_serverlisting
+id: ark_serverlisting
 title: Serverlisting Probleme bei Steam Spielen, die Steamworks nutzen
 sidebar_label: Serverlisting Probleme
 ---
