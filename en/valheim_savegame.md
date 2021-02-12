@@ -60,3 +60,20 @@ After this has been loaded, a message appears at the bottom right:
 ![](https://screensaver01.zap-hosting.com/index.php/s/eAsK7bqYtEfNMRR/preview)
 
 Now the server can be started, the uploaded savegame will then be active on the server.
+
+
+## Autosaves
+
+Sadly Valheim does not currently support Autosaves, to save your game process, the server has to be stopped, the Restart Planer in the Webinterface can be used to automatically restart your server at specific times:
+
+![](https://screensaver01.zap-hosting.com/index.php/s/Zj4MT83T8W6pFko/preview)
+
+Here we can simply add a time for a Daily or Weekly restart:
+
+![](https://screensaver01.zap-hosting.com/index.php/s/rjQLrqmLo9oy8RD/preview)
+
+Once we have saved the restart, we can also add more than one daily or weekly restart.
+
+![](https://screensaver01.zap-hosting.com/index.php/s/GQPCJBzHSiiJrbz/preview)
+
+Done! Your Server will now restart at those specific times, the Savegame will be saved during those Restarts.
