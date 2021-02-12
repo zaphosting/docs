@@ -27,7 +27,7 @@ Danach wird der Server Neuinstalliert, nach der neuinstallation können die Admi
 
 
 ## Herausfinden der SteamID
-Um sich selbst als Admin hinzuzufügen, muss zunächst die SteamID herausgefunden. Dazu kann der [Steam ID Finder](https://steamid.xyz/) verwendet werden.
+Um sich selbst als Admin hinzuzufügen, muss zunächst die SteamID herausgefunden. Dazu kann der [Steam ID Finder](https://steamidfinder.com/) verwendet werden.
 
 
 Hier gibt man seine Steam-URL ein:
@@ -36,14 +36,14 @@ Hier gibt man seine Steam-URL ein:
 
 Dann drücken wir auf `Submit`.
 
-Jetzt sollten wir unser Steam-Profil sehen können, hier kopieren wir unsere "Steam64 ID".
+Jetzt sollten wir unser Steam-Profil sehen können, hier kopieren wir unsere "Steam64ID (Dec)".
 
 
 ## In den Einstellungen Eintragen
 
 Nun öffnen wir unser Server-Webinterface und öffnen die Einstellungen, hier sehen wir eine "Admins"-Option, wo wir unsere Steam-ID hinzufügen können:
 
-![](PLACEHOLDER)
+![](https://screensaver01.zap-hosting.com/index.php/s/NjPiyg7La8R5i2L/preview)
 
 
 Nachdem wir unsere Steam-ID hinzugefügt haben, speichern wir die Einstellungen und starten dann den Server neu.

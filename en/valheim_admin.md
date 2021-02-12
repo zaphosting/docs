@@ -25,7 +25,7 @@ Now we get a warning, this we simply confirm:
 After that the server will be reinstalled, after the reinstallation the admin rights can be managed.
 
 ## Getting your Steam ID
-To Add yourself as Admin, you first need to get your SteamID64, you can use a tool like the [Steam ID Finder](https://steamid.xyz/)
+To Add yourself as Admin, you first need to get your SteamID64, you can use a tool like the [Steam ID Finder](https://steamidfinder.com/)
 
 Here you enter your Steam URL:
 
@@ -33,14 +33,14 @@ Here you enter your Steam URL:
 
 Then press `Submit`
 
-Now we should be able to see our Steam Profile, here we copy our "Steam64 ID".
+Now we should be able to see our Steam Profile, here we copy our "Steam64ID (Dec)".
 
 
 ## Adding yourself as Admin
 
 Now we open our Servers Webinterface and open the Settings Page, here we will see an "Admins" Option where we can add our Steam ID:
 
-![](PLACEHOLDER)
+![](https://screensaver01.zap-hosting.com/index.php/s/9kMApBaLKxZymjF/preview)
 
 
 After we have added our Steam ID, we save the Settings and then Restart the Server.
