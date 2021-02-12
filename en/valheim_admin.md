@@ -11,12 +11,15 @@ sidebar_label: Admin Commands & Cheats
 First of all we have to make sure that the game is on our server `Valheim`, unfortunately `Valheim (old)` does not work.
 
 To change the game we first open the games tab on our server:
+
 ![](https://screensaver01.zap-hosting.com/index.php/s/RX678ZECRXfo8rC/preview)
 
 Here we search for Valheim under "Available games" and click on the download button:
+
 ![](https://screensaver01.zap-hosting.com/index.php/s/kGyxDD6YoNFSHkT/preview)
 
 Now we get a warning, this we simply confirm:
+
 ![](https://screensaver01.zap-hosting.com/index.php/s/jkQ4QEMjiN9LcEb/preview)
 
 After that the server will be reinstalled, after the reinstallation the admin rights can be managed.
@@ -25,6 +28,7 @@ After that the server will be reinstalled, after the reinstallation the admin ri
 To Add yourself as Admin, you first need to get your SteamID64, you can use a tool like the [Steam ID Finder](https://steamid.xyz/)
 
 Here you enter your Steam URL:
+
 ![](https://screensaver01.zap-hosting.com/index.php/s/bybzMbKicjWpfeW/preview)
 
 Then press `Submit`

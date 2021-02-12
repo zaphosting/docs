@@ -12,12 +12,15 @@ sidebar_label: Admin Commands & Cheats
 Zuerst müssen wir Sichergehen, dass das Spiel auf unserem Server `Valheim` ist, `Valheim (old)` funktioniert leider nicht.
 
 Um das Spiel zu wechseln öffnen wir zuerst das Spiele Tab auf unserem Server:
+
 ![](https://screensaver01.zap-hosting.com/index.php/s/BbBAmKHto6mrSDx/preview)
 
 Hier Suchen wir unter "Verfügbare Spiele" nun nach Valheim und klicken auf den Download Button:
+
 ![](https://screensaver01.zap-hosting.com/index.php/s/DmBdFnT487aPwME/preview)
 
 Nun bekommen wir eine Warnung, diese bestätigen wir einfach:
+
 ![](https://screensaver01.zap-hosting.com/index.php/s/bTZYCnDMAHTwMPt/preview)
 
 Danach wird der Server Neuinstalliert, nach der neuinstallation können die Adminrechte verwaltet werden.
@@ -28,6 +31,7 @@ Um sich selbst als Admin hinzuzufügen, muss zunächst die SteamID herausgefunde
 
 
 Hier gibt man seine Steam-URL ein:
+
 ![](https://screensaver01.zap-hosting.com/index.php/s/bybzMbKicjWpfeW/preview)
 
 Dann drücken wir auf `Submit`.
