@@ -521,6 +521,10 @@
                 "title": "Workshop Inhalte",
                 "sidebar_label": "Workshop Inhalte"
             },
+            "valheim_admin": {
+                "title": "Admin Commands & Cheats",
+                "sidebar_label": "Admin Commands & Cheats"
+              },
             "valheim_connect": {
                 "title": "Zum Server Verbinden",
                 "sidebar_label": "Zum Server Verbinden"
