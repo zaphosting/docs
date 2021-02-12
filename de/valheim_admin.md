@@ -4,7 +4,23 @@ title: Admin Commands & Cheats
 sidebar_label: Admin Commands & Cheats
 ---
 
-## Als Admin hinzufügen
+# Als Admin hinzufügen
+
+
+## Richtiges Spiel Installieren
+
+Zuerst müssen wir Sichergehen, dass das Spiel auf unserem Server `Valheim` ist, `Valheim (old)` funktioniert leider nicht.
+
+Um das Spiel zu wechseln öffnen wir zuerst das Spiele Tab auf unserem Server:
+![](https://screensaver01.zap-hosting.com/index.php/s/BbBAmKHto6mrSDx/preview)
+
+Hier Suchen wir unter "Verfügbare Spiele" nun nach Valheim und klicken auf den Download Button:
+![](https://screensaver01.zap-hosting.com/index.php/s/DmBdFnT487aPwME/preview)
+
+Nun bekommen wir eine Warnung, diese bestätigen wir einfach:
+![](https://screensaver01.zap-hosting.com/index.php/s/bTZYCnDMAHTwMPt/preview)
+
+Danach wird der Server Neuinstalliert, nach der neuinstallation können die Adminrechte verwaltet werden.
 
 
 ## Herausfinden der SteamID
