@@ -4,8 +4,6 @@ title: Admin Commands & Cheats
 sidebar_label: Admin Commands & Cheats
 ---
 
-# Adding yourself as Admin
-
 ## Install the Correct Game
 
 First of all we have to make sure that the game is on our server `Valheim`, unfortunately `Valheim (old)` does not work.
@@ -24,7 +22,9 @@ Now we get a warning, this we simply confirm:
 
 After that the server will be reinstalled, after the reinstallation the admin rights can be managed.
 
-## Getting your Steam ID
+## Adding yourself as Admin
+
+### Getting your Steam ID
 To Add yourself as Admin, you first need to get your SteamID64, you can use a tool like the [Steam ID Finder](https://steamidfinder.com/)
 
 Here you enter your Steam URL:
@@ -35,9 +35,6 @@ Then press `Submit`
 
 Now we should be able to see our Steam Profile, here we copy our "Steam64ID (Dec)".
 
-
-## Adding yourself as Admin
-
 Now we open our Servers Webinterface and open the Settings Page, here we will see an "Admins" Option where we can add our Steam ID:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/9kMApBaLKxZymjF/preview)
@@ -45,12 +42,12 @@ Now we open our Servers Webinterface and open the Settings Page, here we will se
 
 After we have added our Steam ID, we save the Settings and then Restart the Server.
 
-# Access the Console
+## Access the Console
 
 The Console in Valheim can be accessed by pressing "F5" While Ingame, there you can type all Admin Commands or Cheats
 
 
-## Admin Commands
+### Admin Commands
 
 |  Command   |           Arguments          |                  Effect               |
 | :--------: | :--------------------------: |  :---------------------------------:  |
@@ -62,7 +59,7 @@ The Console in Valheim can be accessed by pressing "F5" While Ingame, there you 
 |   ping     |           None               |     Shows your Ping to the Server     |
 
 
-## Cheat Commands
+### Cheat Commands
 
 To access Cheat Commands, first you will need to type `imacheater` into the Console, then you can access the following commands:
 
