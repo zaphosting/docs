@@ -22,44 +22,33 @@ Done! You can now use the backup for other purposes, or upload it again later.
 
 ## Upload & Activate Savegame
 
-To upload your own savegames you need FTP access to your server, we have a guide to set this up, [here](gameserver_ftpaccess.md).
+To upload your own savegames, we first open our savegame manager.
 
-After we logged in via FTP we can open the `world-backups` folder, here are all our worlds except the active one.
+Here we can now upload our own savegame by drag&drop, this should look like this afterwards:
 
-We can now upload our own savegame in this folder via drag&drop, this should look like this afterwards:
+![](https://screensaver01.zap-hosting.com/index.php/s/nAKLoJ7CiFLBids/preview)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/AXwfFHs7yMZ7kWN/preview)
+> Note that your savegame should have the same name as it was created by the game.
 
-> db-backup files in this folder are created when your server is started or stopped, you can ignore them.
+In our case the backup files are called `myworld123-test-upload.fwl` and `myworld123-test-upload.db`.
 
-> Note that your savegame should be named exactly as it was created by the game.
+Now we enter the name of the backup above under `Savegame (worlds)`:
 
-In our case the backup files are called `meinewelt123.db` and `meinewelt123.fwl`.
+![](https://screensaver01.zap-hosting.com/index.php/s/KkjrG3gtz9773R4/preview)
 
-Now we open the settings of our game server:
-![](https://screensaver01.zap-hosting.com/index.php/s/X8wgqWdnpZNk3J5/preview)
+Under `ZAP Backups` here we look for our savegame:
 
-Here we have to enter the name of the savegame under `Savegame`:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/bx9T5n3SH4xYq26/preview)
-
-Since our savegame is called `meinewelt123.db`, `meinewelt123` is entered here.
-
-Now we can open the `Savegame-Manager` in the web interface:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/BK8WoBMGQJnfQPb/preview)
-
-Under `Backups` we should find the same saves that are in the `world-backups` folder, here we look for our savegame:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/d8Q68crjokoSEqR/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/eYeyWg2ifMniskT/preview)
 
 Now we just have to press the yellow "Restore" button on both files and confirm the whole thing, then our savegame will be loaded.
 
 After this has been loaded, a message appears at the bottom right:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/eAsK7bqYtEfNMRR/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/jXLoxcWRHSEbFWF/preview)
 
-Now the server can be started, the uploaded savegame will then be active on the server.
+Now the server can be started, the uploaded savegame will be active on the server.
+
+Translated with www.DeepL.com/Translator (free version)
 
 
 ## Autosaves

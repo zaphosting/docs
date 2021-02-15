@@ -23,36 +23,23 @@ Fertig! Du kannst das Backup nun anderweitig nutzen, oder später wieder hochlad
 
 ## Savegame Hochladen & Aktivieren
 
-Um deine eigenen Savegames hochzuladen, benötigst du den FTP-Zugang deines Servers, wir haben einen Guide, um diesen einzurichten, [hier](gameserver_ftpaccess.md).
-
-Nachdem wir uns per FTP Angemeldet haben, können wir den `world-backups` Ordner öffnen, hier befinden sich alle unsere Welten, außer die Aktive.
+Um deine eigenen Savegames hochzuladen, öffnen wir zunächst unseren Savegame-Manager.
 
 Hier können wir nun unser eigenes Savegame per Drag&Drop hochladen, dies sollte danach wie folgt aussehen:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/AXwfFHs7yMZ7kWN/preview)
-
-> db-backup Dateien in diesen Ordner werden erstellt, wenn dein Server gestartet oder gestoppt wird, diese kannst du ignorieren.
+![](https://screensaver01.zap-hosting.com/index.php/s/TiZGzY9b83qNEgD/preview)
 
 > Beachte, dass dein Savegame genauso heißen sollte, wie es vom Spiel erstellt wurde.
 
-In Unseren fall heißen die Backup-Dateien `meinewelt123.db` und `meinewelt123.fwl`.
+In Unseren fall heißen die Backup-Dateien `meinewelt123-test-upload.fwl` und `meinewelt123-test-upload.db`.
 
-Nun öffnen wir die Einstellungen unseres Gameservers:
-![](https://screensaver01.zap-hosting.com/index.php/s/HJqbTtBYY6Djffx/preview)
+Nun tragen wir den Namen des Backups oben unter `Savegame (worlds)` ein:
 
-Hier müssen wir unter `Savegame` den namen des Savegames eintragen:
+![](https://screensaver01.zap-hosting.com/index.php/s/6N2KCfeaJDSCNbS/preview)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/p8BTKRnBNwTGQ2C/preview)
+Unter `ZAP Backups` hier suchen wir nun unser Savegame raus:
 
-Da bei uns das Savegame `meinewelt123.db` heißt, wird hier `meinewelt123` eingetragen.
-
-Jetzt können wir im Webinterface den `Savegame-Manager` öffnen:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/assFxGRHqMWsToC/preview)
-
-Unter `Backups` sollten wir die gleichen Saves finden, welche im `world-backups` Ordner sind, hier suchen wir unser Savegame raus:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/d8Q68crjokoSEqR/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/eYeyWg2ifMniskT/preview)
 
 Nun müssen wir nur noch bei beiden Dateien den Gelben "Wiederherstellen" Button Drücken und das Ganze bestätigen, dann wird unser Savegame geladen.
 
