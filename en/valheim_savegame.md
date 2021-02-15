@@ -48,7 +48,6 @@ After this has been loaded, a message appears at the bottom right:
 
 Now the server can be started, the uploaded savegame will be active on the server.
 
-Translated with www.DeepL.com/Translator (free version)
 
 
 ## Autosaves
