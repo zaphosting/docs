@@ -59,33 +59,3 @@ Die Konsole in Valheim kann durch Drücken von "F5" während des Spiels aufgeruf
 |   ban      |        Name/PlayerID/IP      |     Bannt den Angegebenen Spieler     |
 |   unban    |        PlayerID/IP           |     Entbannt den Angegebenen Spieler  |
 |   banned   |           None               |  Zeigt alle Gebannten Spieler an      |
-|   save     |           None               |     Erzwingt das Speichern der Welt   |
-|   ping     |           None               |           Zeigt deinen Ping An        |
-
-
-### Cheat Commands
-
-To access Cheat Commands, first you will need to type `imacheater` into the Console, then you can access the following commands:
-
-|  Command   |           Arguments          |                  Effect               |
-| :--------: | :--------------------------: |  :---------------------------------:  |
-|   god     |        None                   |     Schaltet den Godmode ein/aus      |
-|   pos      |        None     				|     Zeigt die aktuellen Koordinaten an|
-|   goto    |        x,z Coordinates        |     Teleportiert zu den Koordinaten   |
-|   killall  |           None               |    Tötet alle Feinde in der Nähe      |
-| exploremap |           None               |     Erforscht/offenbart die gesamte Karte|
-| resetmap   |           None               |     Verdeckt die gesamte Karte        |
-| tame		 |           None               |     Zähmt alle Kreaturen in der Nähe  |
-| freefly	 |           None               |     Schaltet auf die freie Kamera um  |
-| ffsmooth   |      Smoothness              |     Lässt die Freie Kamera flüssiger sein|
-| raiseskill |      Skill, Amount           |Erhöht die Stufe einer bestimmten Fertigkeit|
-| resetskill |           Skill              |Setzt die Stufe einer bestimmten Fertigkeit zurück|
-| tod		 |         -1 or 0-1            |   	Tageszeit einstellen		    |
-| wind		 |    angle, intensity          |     Windwinkel und -intensität einstellen|
-| resetwind  |           None               |     Windwinkel/Intensität zurücksetzen|
-| event		 |         Event Name           |     Startet ein bestimmtes Event      |
-| stopevent  |           None               |     Stoppt das aktive Event           |
-| randomevent|           None               |         Startet ein zufälliges Event  |
-|resetcharacter|           None             |     Setzt Spielerdaten Zurück         |
-| players	 |  	 Player Amount (0=reset)|     Ändert die Schwierigkeit          |
-| removedrops |           None              |   Entfernt alle Item-Drops in der nähe|
