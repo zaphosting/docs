@@ -61,6 +61,10 @@
                 "title": "Resourcen Installieren",
                 "sidebar_label": "Resourcen Installieren"
             },
+            "amongus_connection": {
+                "title": "Verbindung zum Server",
+                "sidebar_label": "Verbindung"
+            },
             "ark_becomeadmin": {
                 "title": "Admin werden",
                 "sidebar_label": "Admin werden"
@@ -68,6 +72,10 @@
             "ark_mods": {
                 "title": "Mods installieren",
                 "sidebar_label": "Mods installieren"
+            },
+            "ark_serverlisting": {
+                "title": "Serverlisting Probleme bei Steam Spielen, die Steamworks nutzen",
+                "sidebar_label": "Serverlisting Probleme"
             },
             "arma3_altislife_ranks": {
                 "title": "Altis Life Ränge",
@@ -104,6 +112,10 @@
             "conan_becomeadmin": {
                 "title": "Admin werden",
                 "sidebar_label": "Admin werden"
+            },
+            "create_screenshots": {
+                "title": "Screenshots erstellen",
+                "sidebar_label": "Screenshots erstellen"
             },
             "csgo_configuration": {
                 "title": "Server Konfiguration",
@@ -349,6 +361,14 @@
                 "title": "Server down - was nun?",
                 "sidebar_label": "Server down - was nun?"
             },
+            "gameserver_tebex": {
+                "title": "TEBEX Gameserver Monetarisierung",
+                "sidebar_label": "TEBEX Monetarisierung"
+            },
+            "gmod_ttt": {
+                "title": "Garry's Mod TTT Konfiguration",
+                "sidebar_label": "Garry's Mod TTT Konfiguration"
+            },
             "legal_use_brand_assets": {
                 "title": "Verwendung von Logo und Name",
                 "sidebar_label": "Verwendung von Logo und Name"
@@ -500,6 +520,22 @@
             "unturned_workshop": {
                 "title": "Workshop Inhalte",
                 "sidebar_label": "Workshop Inhalte"
+            },
+            "valheim_admin": {
+                "title": "Admin Commands & Cheats",
+                "sidebar_label": "Admin Commands & Cheats"
+              },
+            "valheim_connect": {
+                "title": "Zum Server Verbinden",
+                "sidebar_label": "Zum Server Verbinden"
+            },
+            "valheim_savegame": {
+                "title": "Savegames Verwalten",
+                "sidebar_label": "Savegames Verwalten"
+            },
+            "valheim_serverlisting": {
+                "title": "Serverlisting Probleme bei Steam Spielen, die Steamworks nutzen",
+                "sidebar_label": "Serverlisting Probleme"
             },
             "voiceserver_query": {
                 "title": "Teamspeak Query Login",
@@ -688,15 +724,17 @@
             "Assetto Corsa Competizione": "Assetto Corsa Competizione",
             "Barotrauma": "Barotrauma",
             "Conan Exiles": "Conan Exiles",
+            "Valheim": "Valheim",
+            "SCP: Secret Laboratory": "SCP: Secret Laboratory",
             "ECO": "ECO",
             "Factorio": "Factorio",
             "Multi Theft Auto": "Multi Theft Auto",
             "Space Engineers": "Space Engineers",
             "Unturned": "Unturned",
-            "SCP: Secret Laboratory": "SCP: Secret Laboratory",
             "Don't Starve Together": "Don't Starve Together",
             "Empyrion": "Empyrion",
-            "Rust": "Rust"
+            "Rust": "Rust",
+            "Among Us": "Among Us"
         }
     },
     "pages-strings": {
