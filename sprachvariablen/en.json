@@ -365,6 +365,10 @@
         "title": "TEBEX Gameserver Monetization",
         "sidebar_label": "TEBEX Monetization"
       },
+      "gmod_servercfg": {
+        "title": "Garry's Mod Server.cfg Modification",
+        "sidebar_label": "Garry's Mod Server.cfg Modification"
+      },
       "gmod_ttt": {
         "title": "Garry's Mod TTT Configuration",
         "sidebar_label": "Garry's Mod TTT Configuration"
@@ -524,6 +528,10 @@
       "valheim_admin": {
         "title": "Admin Commands & Cheats",
         "sidebar_label": "Admin Commands & Cheats"
+      },
+      "valheim_backup_schedule": {
+        "title": "Automated Backups",
+        "sidebar_label": "Automated Backups"
       },
       "valheim_connect": {
         "title": "Connect to a Server",
