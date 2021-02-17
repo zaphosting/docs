@@ -1,361 +1,361 @@
 {
-	"docs": {
-		"Overview": [
-			{
-				"type": "subcategory",
-				"label": "First Steps",
-				"ids": [
-					"firststeps_register",
-					"firststeps_rent_contractorprepaid",
-					"preorders",
-					"firststeps_rent_location",
-					"community_info",
-					"suggestions"
-				]
-			},
-			{
-				"type": "subcategory",
-				"label": "Support",
-				"ids": [
-					"firststeps_problem_melden",
-					"create_screenshots"
-				]
-			}
-		],
-		"Account": [
-			"account_contractsandprepaid",
-			"account_termination_and_cancellation_period",
-			"account_paymentoptions",
-			"account_2factor",
-			"account_backup_storage",
-			"account_friends",
-			"account_cashbox",
-			"account_usermanagement",
-			"account_vouchers",
-			"account_donations",
-			"account_community_ads",
-			"account_security",
-			{
-				"type": "subcategory",
-				"label": "Partner",
-				"ids": [
-					"account_partner_system",
-					"partner-guide",
-					"legal_use_brand_assets"
-				]
-			}
-		],
-		"Gameserver - General": [
-			"gameserver_cloudvslifetime",
-			"gameserver_resourcelimit",
-			"gameserver_gameswitch",
-			{
-				"type": "subcategory",
-				"label": "Databases",
-				"ids": [
-					"gameserver_databases_pma",
-					"gameserver_database_external_access"
-				]
-			},
-			"gameserver_ftpaccess",
-			"gameserver_restartplaner",
-			"gameserver_backups",
-			"gameserver_server_down_what_now",
-			"gameserver_tebex"
-		],
-		"vServer & Rootserver": [
-			"vserver_root_unterschied",
-			"vserver_vnc",
-			"vserver_network_analysis_winmtr",
-			{
-				"type": "subcategory",
-				"label": "Linux",
-				"ids": [
-					"vserver_linux_ssh",
-					"vserver_linux_sftp",
-					"vserver_linux_sshkey",
-					"vserver_linux_ssh2fa",
-					"vserver_linux_password_change",
-					"vserver_linux_java",
-					"vserver_linux_mariadbinstall",
-					"vserver_linux_phpmyadmin",
-					"vserver_linux_ftp_install",
-					"vserver_linux_ftp",
-					"vserver_linux_docker",
-					"vserver_linux_plesk",
-					"vserver_linux_openvpn",
-					"vserver_linux_gs_interface",
-					"vserver_linux_nextcloud",
-					"vserver_linux_add_ip",
-					"vserver_linux_ssl",
-					"vserver_linux_rsync",
-					"vserver_linux_jitsi"
-				]
-			},
-			{
-				"type": "subcategory",
-				"label": "Windows",
-				"ids": [
-					"vserver_windows_userdp",
-					"vserver_windows_port",
-					"vserver_windows_addip",
-					"vserver_windows_nointernet",
-					"vserver_windows_ftpserver",
-					"vserver_windows_installmysql",
-					"vserver_windows_plesk",
-					"vserver_windows_change_language",
-					"vserver_windows_expand_disk"
-				]
-			}
-		],
-		"Webspace & Domains": [
-			{
-				"type": "subcategory",
-				"label": "Domain",
-				"ids": [
-					"domain_general_domain_info",
-					"domain_order",
-					"domain_easydns",
-					"domain_profidns",
-					"domain_expertdns",
-					"domain_records",
-					"domain_gameserver_srv_link",
-					"domain_teamspeak_redirect"
-				]
-			},
-			{
-				"type": "subcategory",
-				"label": "Webspace",
-				"ids": [
-					"webspace_adddomain",
-					"webspace_plesk_ftp",
-					"webspace_plesk_sendmail",
-					"webspace_plesk_ssl",
-					"webspace_htaccess_discord"
-				]
-			}
-		],
-		"Voicebot/Voiceserver": [
-			"voiceserver_voicebot_connection",
-			"voiceserver_ts3backup",
-			"voiceserver_query"
-		],
-		"Minecraft": [
-			{
-				"type": "subcategory",
-				"label": "Administration",
-				"ids": [
-					"minecraft_commands",
-					"minecraft_addop",
-					"minecraft_default_config",
-					"minecraft_server-icon",
-					"minecraft_add_own_world",
-					"minecraft_worlds",
-					"minecraftbedrock_behaviorresourcepacks",
-					"minecraft_rcon",
-					"minecraft_whitelist",
-					"minecraft_timings_report",
-					"minecraft_server_optimize"
-				]
-			},
-			{
-				"type": "subcategory",
-				"label": "Spigot & Bukkit",
-				"ids": [
-					"minecraft_pluginuploader"
-				]
-			},
-			{
-				"type": "subcategory",
-				"label": "Bungeecord",
-				"ids": [
-					"minecraft_bungeecord_config"
-				]
-			},
-			{
-				"type": "subcategory",
-				"label": "Forge",
-				"ids": [
-					"minecraft_forge_add_mods"
-				]
-			}
-		],
-		"FiveM": [
-			"fivem_dashboard",
-			"fivem_windowsorlinux",
-			"fivem_upvotes",
-			{
-				"type": "subcategory",
-				"label": "Configuration & Administration",
-				"ids": [
-					"fivem_change_servericon",
-					"fivem_servername_emojis",
-					"fivem_servername_color",
-					"fivem_rcon",
-					"fivem_licensekey",
-					"fivem_deletecache",
-					"fivem_useprofiler",
-					"fivem_mastadon",
-					"fivem_prohibited_resources"
-				]
-			},
-			{
-				"type": "subcategory",
-				"label": "Resources & Mods",
-				"ids": [
-					"fivem_installresources",
-					"fivem_sql_file_import",
-					"fivem_changespawnpoint",
-					"fivem_mods_installreplace",
-					"fivem_mods_installaddon",
-					"fivem_changeloadingscreen",
-					"fivem_installels",
-					"fivem_installeup",
-					"fivem_installtokovoip"
-				]
-			},
-			{
-				"type": "subcategory",
-				"label": "ESX",
-				"ids": [
-					"fivem_esx_disableinventory",
-					"fivem_esx_changemoneyicon",
-					"fivem_esx_becomeadminoverdatabase",
-					"fivem_esx_disablehud",
-					"fivem_esx_addcarstoshop",
-					"fivem_esx_changejobgarages",
-					"fivem_esx_changerespawnpoint",
-					"fivem_editlocalfiles"
-				]
-			},
-			{
-				"type": "subcategory",
-				"label": "Dunko VRP",
-				"ids": [
-					"fivem_vrp_changemoneyicon",
-					"fivem_vrp_removespeedo"
-				]
-			}
-		],
-		"RageMP": [
-			"ragemp_installpackages"
-		],
-		"Alt:V": [
-			"altv_installresources"
-		],
-		"Terraria": [
-			"terraria_tshock_add_admin",
-			"terraria_tmodloader_installmod"
-		],
-		"Source Games": [
-			"source_gsltoken",
-			"source_custom_content",
-			{
-				"type": "subcategory",
-				"label": "Sourcemod / Metamod",
-				"ids": [
-					"source_metamod_installation",
-					"source_metamod_addadmins",
-					"source_metamod_plugins"
-				]
-			},
-			{
-				"type": "subcategory",
-				"label": "CS:GO",
-				"ids": [
-					"csgo_configuration",
-					"csgo_gotv"
-				]
-			},
-			{
-				"type": "subcategory",
-				"label": "Garry's Mod",
-				"ids": [
-					"gmod_ttt"
-				]
-			}
-		],
-		"ArmA 3": [
-			{
-				"type": "subcategory",
-				"label": "ArmA 3 Allgemein",
-				"ids": [
-					"arma3_serverconfig",
-					"arma3_mods",
-					"arma3_altislife_ranks"
-				]
-			}
-		],
-		"ARK": [
-			"ark_becomeadmin",
-			"ark_mods"
-		],
-		"Assetto Corsa": [
-			"assettocorsa_configure",
-			"assettocorsa_mods"
-		],
-		"Assetto Corsa Competizione": [
-			"assetto_competizione_becomeadmin"
-		],
-		"Barotrauma": [
-			"barotrauma_becomeadmin"
-		],
-		"Conan Exiles": [
-			"conan_becomeadmin"
-		],
-		"Valheim": [
-			"valheim_connect",
-			"valheim_savegame"
-		],
-		"SCP: Secret Laboratory": [
-			"scp_becomeadmin",
-			"scp_newroles",
-			{
-				"type": "subcategory",
-				"label": "ServerMod",
-				"ids": [
-					"scpservermod_uploadplugins"
-				]
-			}
-		],
-		"ECO": [
-			"eco_becomeadmin"
-		],
-		"Factorio": [
-			"factorio_becomeadmin",
-			"factorio_mods"
-		],
-		"Multi Theft Auto": [
-			"mta_becomeadmin"
-		],
-		"Space Engineers": [
-			"spaceengineers_becomeadmin",
-			"spaceengineers_addmods"
-		],
-		"Unturned": [
-			"unturned_becomeadmin",
-			"unturned_workshop",
-			{
-				"type": "subcategory",
-				"label": "RocketMod",
-				"ids": [
-					"unturned_rocketmod_plugins",
-					"unturned_rocketmod_permissions"
-				]
-			}
-		],
-		"Don't Starve Together": [
-			"dst_create_cave"
-		],
-		"Empyrion": [
-			"empyrion_becomeadmin"
-		],
-		"Rust": [
-			"rust_becomeadmin",
-			"rust_connectrcon"
-		],
-		"Among Us": [
-			"amongus_connection"
-		]
-	}
+    "docs": {
+        "Overview": [{
+                "type": "subcategory",
+                "label": "First Steps",
+                "ids": [
+                    "firststeps_register",
+                    "firststeps_rent_contractorprepaid",
+                    "preorders",
+                    "firststeps_rent_location",
+                    "community_info",
+                    "suggestions"
+                ]
+            },
+            {
+                "type": "subcategory",
+                "label": "Support",
+                "ids": [
+                    "firststeps_problem_melden",
+                    "create_screenshots"
+                ]
+            }
+        ],
+        "Account": [
+            "account_contractsandprepaid",
+            "account_termination_and_cancellation_period",
+            "account_paymentoptions",
+            "account_2factor",
+            "account_backup_storage",
+            "account_friends",
+            "account_cashbox",
+            "account_usermanagement",
+            "account_vouchers",
+            "account_donations",
+            "account_community_ads",
+            "account_security",
+            {
+                "type": "subcategory",
+                "label": "Partner",
+                "ids": [
+                    "account_partner_system",
+                    "partner-guide",
+                    "legal_use_brand_assets"
+                ]
+            }
+        ],
+        "Gameserver - General": [
+            "gameserver_cloudvslifetime",
+            "gameserver_resourcelimit",
+            "gameserver_gameswitch",
+            {
+                "type": "subcategory",
+                "label": "Databases",
+                "ids": [
+                    "gameserver_databases_pma",
+                    "gameserver_database_external_access"
+                ]
+            },
+            "gameserver_ftpaccess",
+            "gameserver_restartplaner",
+            "gameserver_backups",
+            "gameserver_server_down_what_now",
+            "gameserver_tebex"
+        ],
+        "vServer & Rootserver": [
+            "vserver_root_unterschied",
+            "vserver_vnc",
+            "vserver_network_analysis_winmtr",
+            {
+                "type": "subcategory",
+                "label": "Linux",
+                "ids": [
+                    "vserver_linux_ssh",
+                    "vserver_linux_sftp",
+                    "vserver_linux_sshkey",
+                    "vserver_linux_ssh2fa",
+                    "vserver_linux_password_change",
+                    "vserver_linux_java",
+                    "vserver_linux_mariadbinstall",
+                    "vserver_linux_phpmyadmin",
+                    "vserver_linux_ftp_install",
+                    "vserver_linux_ftp",
+                    "vserver_linux_docker",
+                    "vserver_linux_plesk",
+                    "vserver_linux_openvpn",
+                    "vserver_linux_gs_interface",
+                    "vserver_linux_nextcloud",
+                    "vserver_linux_add_ip",
+                    "vserver_linux_ssl",
+                    "vserver_linux_rsync",
+                    "vserver_linux_jitsi"
+                ]
+            },
+            {
+                "type": "subcategory",
+                "label": "Windows",
+                "ids": [
+                    "vserver_windows_userdp",
+                    "vserver_windows_port",
+                    "vserver_windows_addip",
+                    "vserver_windows_nointernet",
+                    "vserver_windows_ftpserver",
+                    "vserver_windows_installmysql",
+                    "vserver_windows_plesk",
+                    "vserver_windows_change_language",
+                    "vserver_windows_expand_disk"
+                ]
+            }
+        ],
+        "Webspace & Domains": [{
+                "type": "subcategory",
+                "label": "Domain",
+                "ids": [
+                    "domain_general_domain_info",
+                    "domain_order",
+                    "domain_easydns",
+                    "domain_profidns",
+                    "domain_expertdns",
+                    "domain_records",
+                    "domain_gameserver_srv_link",
+                    "domain_teamspeak_redirect"
+                ]
+            },
+            {
+                "type": "subcategory",
+                "label": "Webspace",
+                "ids": [
+                    "webspace_adddomain",
+                    "webspace_plesk_ftp",
+                    "webspace_plesk_sendmail",
+                    "webspace_plesk_ssl",
+                    "webspace_htaccess_discord"
+                ]
+            }
+        ],
+        "Voicebot/Voiceserver": [
+            "voiceserver_voicebot_connection",
+            "voiceserver_ts3backup",
+            "voiceserver_query"
+        ],
+        "Minecraft": [{
+                "type": "subcategory",
+                "label": "Administration",
+                "ids": [
+                    "minecraft_commands",
+                    "minecraft_addop",
+                    "minecraft_default_config",
+                    "minecraft_server-icon",
+                    "minecraft_add_own_world",
+                    "minecraft_worlds",
+                    "minecraftbedrock_behaviorresourcepacks",
+                    "minecraft_rcon",
+                    "minecraft_whitelist",
+                    "minecraft_timings_report",
+                    "minecraft_server_optimize"
+                ]
+            },
+            {
+                "type": "subcategory",
+                "label": "Spigot & Bukkit",
+                "ids": [
+                    "minecraft_pluginuploader"
+                ]
+            },
+            {
+                "type": "subcategory",
+                "label": "Bungeecord",
+                "ids": [
+                    "minecraft_bungeecord_config"
+                ]
+            },
+            {
+                "type": "subcategory",
+                "label": "Forge",
+                "ids": [
+                    "minecraft_forge_add_mods"
+                ]
+            }
+        ],
+        "FiveM": [
+            "fivem_dashboard",
+            "fivem_windowsorlinux",
+            "fivem_upvotes",
+            {
+                "type": "subcategory",
+                "label": "Configuration & Administration",
+                "ids": [
+                    "fivem_change_servericon",
+                    "fivem_servername_emojis",
+                    "fivem_servername_color",
+                    "fivem_rcon",
+                    "fivem_licensekey",
+                    "fivem_deletecache",
+                    "fivem_useprofiler",
+                    "fivem_mastadon",
+                    "fivem_prohibited_resources"
+                ]
+            },
+            {
+                "type": "subcategory",
+                "label": "Resources & Mods",
+                "ids": [
+                    "fivem_installresources",
+                    "fivem_sql_file_import",
+                    "fivem_changespawnpoint",
+                    "fivem_mods_installreplace",
+                    "fivem_mods_installaddon",
+                    "fivem_changeloadingscreen",
+                    "fivem_installels",
+                    "fivem_installeup",
+                    "fivem_installtokovoip"
+                ]
+            },
+            {
+                "type": "subcategory",
+                "label": "ESX",
+                "ids": [
+                    "fivem_esx_disableinventory",
+                    "fivem_esx_changemoneyicon",
+                    "fivem_esx_becomeadminoverdatabase",
+                    "fivem_esx_disablehud",
+                    "fivem_esx_addcarstoshop",
+                    "fivem_esx_changejobgarages",
+                    "fivem_esx_changerespawnpoint",
+                    "fivem_editlocalfiles"
+                ]
+            },
+            {
+                "type": "subcategory",
+                "label": "Dunko VRP",
+                "ids": [
+                    "fivem_vrp_changemoneyicon",
+                    "fivem_vrp_removespeedo"
+                ]
+            }
+        ],
+        "RageMP": [
+            "ragemp_installpackages"
+        ],
+        "Alt:V": [
+            "altv_installresources"
+        ],
+        "Terraria": [
+            "terraria_tshock_add_admin",
+            "terraria_tmodloader_installmod"
+        ],
+        "Source Games": [
+            "source_gsltoken",
+            "source_custom_content",
+            {
+                "type": "subcategory",
+                "label": "Sourcemod / Metamod",
+                "ids": [
+                    "source_metamod_installation",
+                    "source_metamod_addadmins",
+                    "source_metamod_plugins"
+                ]
+            },
+            {
+                "type": "subcategory",
+                "label": "CS:GO",
+                "ids": [
+                    "csgo_configuration",
+                    "csgo_gotv"
+                ]
+            },
+            {
+                "type": "subcategory",
+                "label": "Garry's Mod",
+                "ids": [
+                    "gmod_servercfg",
+                    "gmod_ttt"
+                ]
+            }
+        ],
+        "ArmA 3": [{
+            "type": "subcategory",
+            "label": "ArmA 3 Allgemein",
+            "ids": [
+                "arma3_serverconfig",
+                "arma3_mods",
+                "arma3_altislife_ranks"
+            ]
+        }],
+        "ARK": [
+            "ark_becomeadmin",
+            "ark_mods",
+            "ark_serverlisting"
+        ],
+        "Assetto Corsa": [
+            "assettocorsa_configure",
+            "assettocorsa_mods"
+        ],
+        "Assetto Corsa Competizione": [
+            "assetto_competizione_becomeadmin"
+        ],
+        "Barotrauma": [
+            "barotrauma_becomeadmin"
+        ],
+        "Conan Exiles": [
+            "conan_becomeadmin"
+        ],
+        "Valheim": [
+            "valheim_connect",
+            "valheim_savegame",
+            "valheim_backup_schedule",
+            "valheim_serverlisting",
+            "valheim_admin"
+        ],
+        "SCP: Secret Laboratory": [
+            "scp_becomeadmin",
+            "scp_newroles",
+            {
+                "type": "subcategory",
+                "label": "ServerMod",
+                "ids": [
+                    "scpservermod_uploadplugins"
+                ]
+            }
+        ],
+        "ECO": [
+            "eco_becomeadmin"
+        ],
+        "Factorio": [
+            "factorio_becomeadmin",
+            "factorio_mods"
+        ],
+        "Multi Theft Auto": [
+            "mta_becomeadmin"
+        ],
+        "Space Engineers": [
+            "spaceengineers_becomeadmin",
+            "spaceengineers_addmods"
+        ],
+        "Unturned": [
+            "unturned_becomeadmin",
+            "unturned_workshop",
+            {
+                "type": "subcategory",
+                "label": "RocketMod",
+                "ids": [
+                    "unturned_rocketmod_plugins",
+                    "unturned_rocketmod_permissions"
+                ]
+            }
+        ],
+        "Don't Starve Together": [
+            "dst_create_cave"
+        ],
+        "Empyrion": [
+            "empyrion_becomeadmin"
+        ],
+        "Rust": [
+            "rust_becomeadmin",
+            "rust_connectrcon"
+        ],
+        "Among Us": [
+            "amongus_connection"
+        ]
+    }
 }

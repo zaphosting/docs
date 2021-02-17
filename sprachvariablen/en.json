@@ -73,6 +73,10 @@
         "title": "Install Mods",
         "sidebar_label": "Install Mods"
       },
+      "ark_serverlisting": {
+        "title": "Server listing problems with Steam games that use Steamworks",
+        "sidebar_label": "Serverlisting Problems"
+      },
       "arma3_altislife_ranks": {
         "title": "Altis Life Ranks",
         "sidebar_label": "Altis Life Ranks"
@@ -361,6 +365,10 @@
         "title": "TEBEX Gameserver Monetization",
         "sidebar_label": "TEBEX Monetization"
       },
+      "gmod_servercfg": {
+        "title": "Garry's Mod Server.cfg Modification",
+        "sidebar_label": "Garry's Mod Server.cfg Modification"
+      },
       "gmod_ttt": {
         "title": "Garry's Mod TTT Configuration",
         "sidebar_label": "Garry's Mod TTT Configuration"
@@ -517,6 +525,14 @@
         "title": "Workshop Content",
         "sidebar_label": "Workshop Content"
       },
+      "valheim_admin": {
+        "title": "Admin Commands & Cheats",
+        "sidebar_label": "Admin Commands & Cheats"
+      },
+      "valheim_backup_schedule": {
+        "title": "Automated Backups",
+        "sidebar_label": "Automated Backups"
+      },
       "valheim_connect": {
         "title": "Connect to a Server",
         "sidebar_label": "Connect to a Server"
@@ -524,6 +540,10 @@
       "valheim_savegame": {
         "title": "Manage Savegames",
         "sidebar_label": "Manage Savegames"
+      },
+      "valheim_serverlisting": {
+        "title": "Server listing problems with Steam games that use Steamworks",
+        "sidebar_label": "Serverlisting Problems"
       },
       "voiceserver_query": {
         "title": "Teamspeak Query Login",
