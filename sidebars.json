@@ -268,6 +268,7 @@
                 "type": "subcategory",
                 "label": "Garry's Mod",
                 "ids": [
+                    "gmod_servercfg",
                     "gmod_ttt"
                 ]
             }
@@ -302,6 +303,7 @@
         "Valheim": [
             "valheim_connect",
             "valheim_savegame",
+            "valheim_backup_schedule",
             "valheim_serverlisting",
             "valheim_admin"
         ],
