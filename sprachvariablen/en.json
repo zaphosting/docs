@@ -289,6 +289,10 @@
         "title": "Install Replace Carmods",
         "sidebar_label": "Install Replace Carmods"
       },
+      "fivem_notlisted": {
+        "title": "Server does not appear in Serverlist",
+        "sidebar_label": "Server not in Serverlist"
+      },
       "fivem_prohibited_resources": {
         "title": "Resource contains prohibited logic?",
         "sidebar_label": "Resource contains prohibited logic?"
