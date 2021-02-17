@@ -193,7 +193,8 @@
                     "fivem_deletecache",
                     "fivem_useprofiler",
                     "fivem_mastadon",
-                    "fivem_prohibited_resources"
+                    "fivem_prohibited_resources",
+                    "fivem_notlisted"
                 ]
             },
             {
