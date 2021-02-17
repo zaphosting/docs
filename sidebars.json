@@ -303,6 +303,7 @@
         "Valheim": [
             "valheim_connect",
             "valheim_savegame",
+            "valheim_backup_schedule",
             "valheim_serverlisting",
             "valheim_admin"
         ],
