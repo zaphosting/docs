@@ -289,6 +289,10 @@
                 "title": "Replacement Carmods Installieren",
                 "sidebar_label": "Replacement Carmods Installieren"
             },
+            "fivem_notlisted": {
+                "title": "Server erscheint nicht in der Serverliste",
+                "sidebar_label": "Server nicht in Serverliste"
+            },
             "fivem_prohibited_resources": {
                 "title": "Resource contains prohibited logic?",
                 "sidebar_label": "Resource contains prohibited logic?"
@@ -364,6 +368,10 @@
             "gameserver_tebex": {
                 "title": "TEBEX Gameserver Monetarisierung",
                 "sidebar_label": "TEBEX Monetarisierung"
+            },
+            "gmod_servercfg": {
+                "title": "Garry's Mod Server.cfg Anpassungen",
+                "sidebar_label": "Garry's Mod Server.cfg Anpassungen"
             },
             "gmod_ttt": {
                 "title": "Garry's Mod TTT Konfiguration",
@@ -524,7 +532,11 @@
             "valheim_admin": {
                 "title": "Admin Commands & Cheats",
                 "sidebar_label": "Admin Commands & Cheats"
-              },
+            },
+            "valheim_backup_schedule": {
+                "title": "Automatisierte Backups",
+                "sidebar_label": "Automatisierte Backups"
+            },
             "valheim_connect": {
                 "title": "Zum Server Verbinden",
                 "sidebar_label": "Zum Server Verbinden"
