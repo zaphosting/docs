@@ -14,26 +14,23 @@ Steamworks kann maximal 4880 Server listen. Wenn ein Spiel mehr als diese Anzahl
 Dabei ist es sehr zufällig, ob Spieler 1 den Server Y sieht oder nicht. 
 Es kommt daher auch vor, dass Spieler 1 den Server Y sieht, aber Spieler 2 nicht. Spieler 3 hingegen sieht ihn wieder, dafür aber einen anderen Server nicht, den Spieler 1 sieht.
 
+Um auszuschließen, dass es ein Problem bei dem Serveranbieter gibt, kann man den Server unter Steam > Ansicht > Favoriten > Server hinzufügen. 
+Wird er dort gefunden, ist die Verbindung zwischen Spieler und Server einwandfrei. Hier findet nämlich eine direkte Abfrage seitens des Spielers statt.
 
-Um auzuschließen, dass es ein Problem bei dem Serveranbieter gibt, kann man den Server unter "Steam" - "Ansicht" - "Server" mit IP und Port suchen. Wird er dort gefunden, ist die Verbindung zwischen Spieler und Server einwandfrei. Hier findet nämlich eine direkte Abfrage seitens des Spielers statt.
+Ein gutes Beispiel, um das Problem zu validieren, ist auch, dass insbesondere ARK Spieler, die das Spiel über Steam geöffnet haben Server nicht finden. Öffnen sie ARK in Epic Games, werden die Server einwandfrei gefunden. Hier wird kein Steamworks genutzt.
 
-Ein gutes Beispiel um das Problem zu validieren ist auch, dass insbesondere ARK Spieler, die das Spiel über Steam geöffnet haben Server nicht finden. Öffnen sie ARK in Epic Games, werden die Server einwandfrei gefunden. Hier wird kein Steamworks genutzt.
+Es gibt zu diesem Problem auch verschiedene Spieleentwickler, die sich dazu äußerten. Beispielsweise dachte Garry Newman von Garrysmod, dass das Problem mit seinem Serveranbieter OVH zusammenhängt.[^1] Das war jedoch nicht der Fall. Das Problem hat auch ZAP-Hosting und jeder andere Serveranbieter, da es direkt bei Steamworks liegt.
 
-Es gibt zu diesem Problem auch verschiedene Spieleentwickler, die sich dazu äußerten. Beispielsweise dachte Garry Newman von Garrysmod, dass das Problem mit seinem Serveranbieter OVH zusammenhängt. Das war jedoch nicht der Fall. Das Problem hat auch ZAP-Hosting und jeder andere Serveranbieter, da es direkt bei Steamworks liegt:
+Oder auch Rust, wie sie in Ihrem Blog schreiben:[^2]
 
-![](https://screensaver01.zap-hosting.com/index.php/s/TRjt4PYFRaXnJ7z/preview)
 
-Quelle: https://twitter.com/garrynewman/status/1334446218437681152?s=20
+> It's not all roses and rainbows when you have such a sudden boost in popularity. 
+> You start seeing cracks forming in the foundations, most noticeable for us the server browser was never intended to handle such a large amount of servers.
+> Without going into the technicality this has resulted in many servers not displaying for users and causing a lot of frustration for server owners. 
+> We're currently working on and exploring solutions so please bear with us.
 
-Oder auch Rust, wie sie in Ihrem Blog schreiben:
-
-```
-It's not all roses and rainbows when you have such a sudden boost in popularity. 
-You start seeing cracks forming in the foundations, most noticeable for us the server browser was never intended to handle such a large amount of servers.
-Without going into the technicality this has resulted in many servers not displaying for users and causing a lot of frustration for server owners. 
-We're currently working on and exploring solutions so please bear with us.
-```
-
-Quelle: https://rust.facepunch.com/blog/
 
 Wir behalten weiterhin ein Auge auf das Problem und informieren hier, wenn es eine Lösung gibt.
+
+[^1]: [Twitter - Garry Newman](https://twitter.com/garrynewman/status/1334446218437681152?s=20)
+[^2]: [Rust Blog](https://rust.facepunch.com/blog/)
