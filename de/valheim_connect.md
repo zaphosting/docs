@@ -14,10 +14,29 @@ Nachdem wir das Passwort gesetzt haben, können wir den Server starten, hierbei 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/D83iNmMQHtJmgTp/preview)
 
-## Per Direct-Connect Verbinden
+
+## Über Valheim Direktverbinden
 
 Zuerst kopieren wir uns die IP vom Server, welche im Webinterface steht:
 ![](https://screensaver01.zap-hosting.com/index.php/s/NJZoDEsmo6H8Bdc/preview)
+
+
+Nun öffnen wir Valheim und klicken in der Serverliste auf den "Join IP" Button:
+
+![](https://screensaver01.zap-hosting.com/index.php/s/yZZ9iySWBFg6Tt5/preview)
+
+
+Hier Fügen wir nun unsere Server IP ein:
+![](https://screensaver01.zap-hosting.com/index.php/s/zjzSDAofyi3j7Go/preview)
+
+
+Über den "Connect" Button können wir uns nun direkt auf den Server verbinden.
+
+
+## Über Steam Direktverbinden
+
+Zuerst kopieren wir uns die IP vom Server, welche im Webinterface steht:
+![](https://screensaver01.zap-hosting.com/index.php/s/iQBZriKBoHt9W2F/preview)
 
 
 Um sich auf den Valheim Server Direkt zu verbinden, müssen wir in Steam die Serverliste öffnen:
@@ -28,7 +47,9 @@ Hier fügen wir nun unseren Server wie folgt hinzu:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/ymSyerFEkCCKzyc/preview)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/PM5MkKTksKqPwpP/preview)
+> Beachte: Der Port am ende muss +1 gerechnet werden, d.h. wenn dein Port 27043 ist, solltest du in Steam 27044 angeben.
+
+![](https://screensaver01.zap-hosting.com/index.php/s/PjWzSXFDEykiboZ/preview)
 
 Nachdem wir diesen Hinzugefügt haben, sollten wir unseren Server nun in der Serverliste sehen:
 
