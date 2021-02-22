@@ -35,6 +35,12 @@ Afterwards the content of the "***WindowsClient.zip***" has to be unzipped into 
 
 Then Valheim can be started and the setup at the client is finished.
 
+### Incompatible version
+
+If the error "**incompatible version**" is displayed when connecting to the server, it must be ensured that the same "**valheim_plus.cfg**" is used on the client side as is set on the server. Since the *enforceConfiguration* was set to "**true**" on the server.
+
+![](https://screensaver01.zap-hosting.com/index.php/s/DdQytkte54AYi4D/preview)
+
 ## Valheim Plus Installation Server
 
 To change the game we first open the games tab on our server:
