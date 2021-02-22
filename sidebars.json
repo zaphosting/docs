@@ -307,6 +307,7 @@
             "valheim_backup_schedule",
             "valheim_serverlisting",
             "valheim_admin"
+            "valheim_plus"
         ],
         "SCP: Secret Laboratory": [
             "scp_becomeadmin",
