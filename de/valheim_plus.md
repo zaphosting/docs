@@ -1,7 +1,7 @@
 ---
 id: valheim_plus
 title: Valheim Plus
-sidebar_label: Admin Plus
+sidebar_label: Valheim Plus
 ---
 
 ## Valheim Plus Installation auf dem Client
