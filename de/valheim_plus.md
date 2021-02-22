@@ -4,6 +4,19 @@ title: Valheim Plus
 sidebar_label: Valheim Plus
 ---
 
+## Vorwort
+
+Bei Valheim Plus handelt es sich um eine Clientseitige Modifikation, sämtliche Änderungen müssen daher vom Client ebenfalls im Spielverzeichnis vorgenommen werden.
+Sofern enforceConfiguration bei den Server deaktiviert wurde kann jeder Client mit jeder Konfiguration auf den Server verbinden. Dadurch wäre es auch möglich, dass Personen mit verschiedenstens Konfigurationen zu den Server verbinden können. Wodurch Spieler unterschiedliche Geschwindigkeiten zu Fertigungen und Ausdauerwerten Clientseitig einstellen könnten.
+
+Um dies zu verhindern un ein faires Spielerlebnis zu bieten muss enforceConfiguration auf "**true**" gesetzt werden. Anschließend müsste der Server owner seine bei "**Configs**" gesetzte "**valheim_plus.cfg**" raus kopieren und an jeden Spieler versenden.
+Diese Spieler müssen dann exakt die gleiche "**valheim_plus.cfg**" Datei wie auf dem Server eingestellt ist, in den "**BepInEx\config**" Pfad einfügen.
+
+Eine Erklärung wie man zu der "**valheim_plus.cfg**" gelangt und dort die entsprechenden Konfigurationen einstellt ist bei "**Valheim Plus Config**" gegeben.
+Wie man zu dem "**BepInEx\config**" Pfad gelangt ist bei ***Valheim Plus Installation auf dem Client*** erklärt.
+
+Erst dann wäre eine valide Verbindung zum Server möglich.
+
 ## Valheim Plus Installation auf dem Client
 
 Zuerst muss der Valheim Ordner auf dem PC geöffnet werden. 
