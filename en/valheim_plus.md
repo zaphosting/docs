@@ -4,7 +4,20 @@ title: Valheim Plus
 sidebar_label: Valheim Plus
 ---
 
-## Valheim Plus Installation auf dem Client
+## Introduction
+
+Valheim Plus is a client-side modification, so all changes must also be made by the client in the game directory.
+If *enforceConfiguration* is disabled on the server, any client with any configuration can connect to the server. This would also allow people with different configurations to connect to the server. This would allow players to set different speeds for crafting and stamina values on the client.
+
+To prevent this and provide a fair gaming experience *enforceConfiguration* must be set to "**true**". Then the server owner would have to copy out the "**valheim_plus.cfg**" set at "**Configs**" and send it to every player.
+These players must then paste the exact same "**valheim_plus.cfg**" file as it is set on the server into the "**BepInEx\config**" path.
+
+An explanation of how to get to the "**valheim_plus.cfg**" and set the appropriate configurations there is given at "**Valheim Plus Config**".
+How to get to the "**BepInEx\config**" path is explained at ***Valheim Plus Installation on Client***.
+
+Only then a valid connection to the server would be possible.
+
+## Valheim Plus Installation Client
 
 First you have to open the Valheim folder on your PC. 
 To do this, right-click on Valheim in the Steam library, select "***Manage***" in the options and then "***Browse local files***".
