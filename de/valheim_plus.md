@@ -11,7 +11,7 @@ Dafür bei Steam in der Bibliothek 'Rechtsklick' auf Valheim, bei den Optionen d
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/47cHNZKijzaawbL/preview)
 
-Sobald dieser Ordner geöffnet wurde, muss nun die "***WindowsClient.zip***" runtergeladen werden. 
+Sobald dieser Ordner geöffnet wurde, muss nun die "***WindowsClient.zip***" heruntergeladen werden. 
 Die "***WindowsClient.zip***" kann ![hier](https://github.com/nxPublic/ValheimPlus/releases/tag/0.8) heruntergeladen werden.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/dPxaH3m4to25igt/preview)
@@ -24,7 +24,7 @@ Dann kann Valheim gestartet werden und die Einrichtung bei dem Client ist beende
 
 ## Valheim Plus Installation Server
 
-Um das Spiel zu wechseln öffnen wir zuerst das Spiele Tab auf unserem Server:
+Um das Spiel zu wechseln, öffnen wir zuerst das Spiele-Tab auf unserem Server:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/BbBAmKHto6mrSDx/preview)
 
@@ -32,7 +32,7 @@ Hier suchen wir unter "Verfügbare Spiele" nun nach Valheim Plus und klicken auf
 
 ![]()
 
-Danach wird der Server neuinstalliert. Nach der Neuinstallation hat man die Möglichkeit das Passwort bei "**Configs**" zu entfernen und man kann nun auf mehr Slots upgraden.
+Danach wird der Server neu installiert. Nach der Neuinstallation hat man die Möglichkeit das Passwort bei "**Configs**" zu entfernen und man kann nun auf mehr Slots upgraden.
 
 ## Slots Upgrade
 
@@ -40,21 +40,21 @@ Um nun ein Slotupgrade durchführen zu können, muss die "**UP- und Downgrade**"
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/gmZMnEgTNfg9eYB/preview)
 
-Bei der Upgrade Seite wählt man nun die gewünschte Anzahl an Slots aus. 
+Bei der Upgrade-Seite wählt man nun die gewünschte Anzahl an Slots aus. 
 
 > Hierbei muss nur der "**Aufpreis**" bezahlt werden, dieser berechnet sich für die noch verbliebene Laufzeit
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/eH5mKpSzLGAM3qf/preview)
 
 Um das Upgrade abzuschließen, muss auf der Seite ganz unten nun die Bezahlmethode ausgewählt werden.
-Sobald ausgewählt drückt man den "***Upgrade durchführen***" button und das Upgrade wird durchgeführt
+Sobald ausgewählt drückt man den "***Upgrade durchführen***" Button und das Upgrade wird durchgeführt
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/G6k56YGNsGQ6Kjf/preview)
 
 ## Valheim Plus Config
 
-Um die Konfigurationsdatei zu öffnen muss im Gameserver Interface die "**Configs**" Seite geöffnet werden, bei dieser ist dann die "*ValheimPlus: valheim_plus.cfg*" zu sehen.
-Diese kann über das blauce Icon geöffnet werden welches sich neben der Konfigurationsdatei befindet.
+Um die Konfigurationsdatei zu öffnen, muss im Gameserver Interface die "**Configs**" Seite geöffnet werden, bei dieser ist dann die "*ValheimPlus: valheim_plus.cfg*" zu sehen.
+Diese kann über das blaue Icon geöffnet werden, welches sich neben der Konfigurationsdatei befindet.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/W7wQncJXEaj6pzZ/preview)
 
@@ -145,8 +145,8 @@ Eine Liste sämtlicher in der Konfigurationsdatei nutzbaren Befehle:
 |  Befehl   |           Werte          |                  Funktion               |
 | :--------: | :--------------------------: |  :---------------------------------:  |
 |   enabled     |      true / false      |     aktiviert bzw. deaktiviert Änderungen an der Map    |
-|   exploreRadius      |      100 (float)     |    setzt den Radius um jeden Spieler bei welchem die Map aufgedeckt wird  |
-|   shareMapProgression      |     true / false      |    wenn aktiviert wird für jeden Spieler das aufdecken der Map geteilt, nur Spieler die Sichtbar gestellt sind tragen dazu bei  |
+|   exploreRadius      |      100 (float)     |    setzt den Radius um jeden Spieler, bei welchem die Map aufgedeckt wird  |
+|   shareMapProgression      |     true / false      |    wenn aktiviert wird für jeden Spieler das Aufdecken der Map geteilt, nur Spieler die Sichtbar gestellt sind tragen dazu bei  |
 
 ### [Hotkeys]
 
@@ -161,7 +161,7 @@ Eine Liste der möglichen Tasten wäre ![hier](https://docs.unity3d.com/ScriptRe
 |   enterAdvancedEditingMode      |      Keypad0     |    das angeschaute Objekt wird ausgewählt und mit AEM modifiziert    |
 |   confirmPlacementOfAdvancedEditingMode      |     KeypadEnter      |    bestätigt die Änderung aller ausgewählten und modifizierten Objekte   |
 |   resetAdvancedEditingMode      |      F7     |    setzt die Position und Rotation der ausgewählten Objekte mit AEM zurück    |
-|   abortAndExitAdvancedEditingMode      |      F8     |    setzt die Position und Rotation der ausgewählten Objekte mit AEM zurück und beendet den AEM modus  |
+|   abortAndExitAdvancedEditingMode      |      F8     |    setzt die Position und Rotation der ausgewählten Objekte mit AEM zurück und beendet den AEM Modus  |
 
 ### [AdvancedBuildingMode]
 
@@ -182,10 +182,10 @@ Eine Liste der möglichen Tasten wäre ![hier](https://docs.unity3d.com/ScriptRe
 |   enabled     |      true / false      |     aktiviert bzw. deaktiviert Änderungen an der Ausdauer    |
 |   dodgeStaminaUsage      |     10 (float)      |   setzt die Anzahl an Ausdauer für das Ausweichen   |
 |   encumberedStaminaDrain      |     10 (float)      |   setzt die Anzahl an Ausdauer für den Ausdauerentzug bei Belastung  |
-|   sneakStaminaDrain      |     5 (float)      |   setzt die Anzahl an Ausdauer für den Ausdauerentzug  beim schleichen  |
-|   runStaminaDrain      |     10 (float)      |   setzt die Anzahl an Ausdauer für den Ausdauerentzug beim rennen |
-|   staminaRegenDelay      |      1 (float)     |   setzt die Verzögerung für das regenerieren von Ausdauer  |
+|   sneakStaminaDrain      |     5 (float)      |   setzt die Anzahl an Ausdauer für den Ausdauerentzug  beim Schleichen  |
+|   runStaminaDrain      |     10 (float)      |   setzt die Anzahl an Ausdauer für den Ausdauerentzug beim Rennen |
+|   staminaRegenDelay      |      1 (float)     |   setzt die Verzögerung für das Regenerieren von Ausdauer  |
 |   staminaRegen      |      5 (float)     |   setzt die Anzahl an Ausdauer welche regeneriert wird  |
-|   swimStaminaDrain      |     5 (float)      |   setzt die Anzahl an Ausdauer für den Ausdauerentzug beim schwimmen   |
-|   jumpStaminaUsage      |      10 (float)     |   setzt die Anzahl an Ausdauer für den Ausdauerentzug beim springen   |
+|   swimStaminaDrain      |     5 (float)      |   setzt die Anzahl an Ausdauer für den Ausdauerentzug beim Schwimmen   |
+|   jumpStaminaUsage      |      10 (float)     |   setzt die Anzahl an Ausdauer für den Ausdauerentzug beim Springen   |
 
