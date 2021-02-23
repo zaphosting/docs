@@ -41,6 +41,16 @@ If the error "**incompatible version**" is displayed when connecting to the serv
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/DdQytkte54AYi4D/preview)
 
+That means, you - as a server admin - have to share your "**valheim_plus.cfg**" with your players, so they can drag the config into the Valheim Steam folder and then into the subfolder *BepInEx\config\valheim_plus.cfg*. 
+
+Only if server and client config are syncron, connecting is possible. If you set *enforceConfiguration* to *false*, every player can connect. But then you will have an unfair game experience, because the configs of your players may have "better" values than those of the other players. So make sure that you force your player to use the same config as the server.
+
+You can download the config in the webinterface under "**Configs**" and "**send it to your players**":
+
+![](https://screensaver01.zap-hosting.com/index.php/s/MDBEGB7XCfn5gBt/preview)
+
+Translated with www.DeepL.com/Translator (free version)
+
 ## Valheim Plus Installation Server
 
 To change the game we first open the games tab on our server:
