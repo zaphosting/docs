@@ -57,7 +57,7 @@ To change the game we first open the games tab on our server:
 
 Here we now search for Valheim Plus under "Available games" and click on the download button:
 
-![]()
+![](https://screensaver01.zap-hosting.com/index.php/s/xArgW7EcCxyXxKb/preview)
 
 After that the server will be reinstalled. After the reinstallation is finished you have the possibility to remove the password at "**Configs**" and you can now upgrade to more slots.
 
