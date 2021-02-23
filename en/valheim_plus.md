@@ -49,8 +49,6 @@ You can download the config in the webinterface under "**Configs**" and "**send 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/MDBEGB7XCfn5gBt/preview)
 
-Translated with www.DeepL.com/Translator (free version)
-
 ## Valheim Plus Installation Server
 
 To change the game we first open the games tab on our server:
