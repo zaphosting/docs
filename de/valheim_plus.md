@@ -41,6 +41,14 @@ Sofern beim verbinden zu dem Server der Fehler "**Inkompatible Version**" zu seh
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/DdQytkte54AYi4D/preview)
 
+Das bedeutet, du musst als Server Admin deine "**valheim_plus.cfg**" mit deinen Spielern teilen, damit sie sich die Config in den Valheim Steam Ordner und dann in den Unterordner *BepInEx\config\valheim_plus.cfg* ziehen können. 
+
+Nur wenn Server- und Client Config syncron sind, ist ein Verbinden möglich. Wenn du hingegen *enforceConfiguration* auf *false* setzt, kann jeder Spieler verbinden. Dann hast du jedoch ein unfaires Spielerlebnis, weil die Configs deiner Spieler ggf. "bessere" Werte haben als die der anderen Spieler. Stelle also sicher, dass du deinen Spieler zwingst, die gleiche Config wie der Server zu benutzen
+
+Die Config kannst du im Webinterface unter "**Configs**" herunterladen und "**deinen Spielern schicken**":
+
+![](https://screensaver01.zap-hosting.com/index.php/s/MDBEGB7XCfn5gBt/preview)
+
 ## Valheim Plus Installation Server
 
 Um das Spiel zu wechseln, öffnen wir zuerst das Spiele-Tab auf unserem Server:
