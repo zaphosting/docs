@@ -6,16 +6,16 @@ sidebar_label: Valheim Plus
 
 ## Vorwort
 
-Bei Valheim Plus handelt es sich um eine Clientseitige Modifikation ~sämtliche Änderungen müssen daher vom Client ebenfalls im Spielverzeichnis vorgenommen werden.
-Sofern enforceConfiguration bei den Server deaktiviert wurde kann jeder Client mit jeder Konfiguration auf den Server verbinden. Dadurch wäre es auch möglich, dass Personen mit verschiedenstens Konfigurationen zu den Server verbinden können. Wodurch Spieler unterschiedliche Geschwindigkeiten zu Fertigungen und Ausdauerwerten Clientseitig einstellen könnten.~
+Bei Valheim Plus handelt es sich um eine Clientseitige Modifikation ~~sämtliche Änderungen müssen daher vom Client ebenfalls im Spielverzeichnis vorgenommen werden.
+Sofern enforceConfiguration bei den Server deaktiviert wurde kann jeder Client mit jeder Konfiguration auf den Server verbinden. Dadurch wäre es auch möglich, dass Personen mit verschiedenstens Konfigurationen zu den Server verbinden können. Wodurch Spieler unterschiedliche Geschwindigkeiten zu Fertigungen und Ausdauerwerten Clientseitig einstellen könnten.~~
 
-~Um dies zu verhindern un ein faires Spielerlebnis zu bieten muss enforceConfiguration auf "**true**" gesetzt werden. Anschließend müsste der Server owner seine bei "**Configs**" gesetzte "**valheim_plus.cfg**" raus kopieren und an jeden Spieler versenden.
-Diese Spieler müssen dann exakt die gleiche "**valheim_plus.cfg**" Datei wie auf dem Server eingestellt ist, in den "**BepInEx\config**" Pfad einfügen.~
+~~Um dies zu verhindern un ein faires Spielerlebnis zu bieten muss enforceConfiguration auf "**true**" gesetzt werden. Anschließend müsste der Server owner seine bei "**Configs**" gesetzte "**valheim_plus.cfg**" raus kopieren und an jeden Spieler versenden.
+Diese Spieler müssen dann exakt die gleiche "**valheim_plus.cfg**" Datei wie auf dem Server eingestellt ist, in den "**BepInEx\config**" Pfad einfügen.~~
 
-> ~Eine Erklärung wie man zu der "**valheim_plus.cfg**" gelangt und dort die entsprechenden Konfigurationen einstellt ist bei "**Valheim Plus Config**" gegeben.~
-> ~Wie man zu dem "**BepInEx\config**" Pfad gelangt ist bei ***Valheim Plus Installation auf dem Client*** erklärt.~
+> ~~Eine Erklärung wie man zu der "**valheim_plus.cfg**" gelangt und dort die entsprechenden Konfigurationen einstellt ist bei "**Valheim Plus Config**" gegeben.~~
+> ~~Wie man zu dem "**BepInEx\config**" Pfad gelangt ist bei ***Valheim Plus Installation auf dem Client*** erklärt.~~
 
-~Erst dann wäre eine valide Verbindung zum Server möglich.~
+~~Erst dann wäre eine valide Verbindung zum Server möglich.~~
 
 Seit Version 0.9 bekommt der Spieler nun vollautomatisch beim Verbinden zu dem Server die Config. Die Config muss also vorher nicht mehr vom Server heruntergeladen und an alle Spieler geschickt werden!
 
@@ -37,15 +37,15 @@ Im Anschluss muss nur noch der Inhalt der "***WindowsClient.zip***" in den vorhe
 
 Dann kann Valheim gestartet werden und die Einrichtung bei dem Client ist beendet.
 
-~### Inkompatible Version~
+~~### Inkompatible Version~~
 
-~Sofern beim verbinden zu dem Server der Fehler "**Inkompatible Version**" zu sehen ist muss sichergestellt werden, dass Clientseitig die gleiche "**valheim_plus.cfg**" genutzt wird wie auf dem Server eingestellt. Da der *enforceConfiguration* Serverseitig auf "**true**" gesetzt wurde.~
+~~Sofern beim verbinden zu dem Server der Fehler "**Inkompatible Version**" zu sehen ist muss sichergestellt werden, dass Clientseitig die gleiche "**valheim_plus.cfg**" genutzt wird wie auf dem Server eingestellt. Da der *enforceConfiguration* Serverseitig auf "**true**" gesetzt wurde.~~
 
-~Das bedeutet, du musst als Server Admin deine "**valheim_plus.cfg**" mit deinen Spielern teilen, damit sie sich die Config in den Valheim Steam Ordner und dann in den Unterordner *BepInEx\config\valheim_plus.cfg* ziehen können.~
+~~Das bedeutet, du musst als Server Admin deine "**valheim_plus.cfg**" mit deinen Spielern teilen, damit sie sich die Config in den Valheim Steam Ordner und dann in den Unterordner *BepInEx\config\valheim_plus.cfg* ziehen können.~~
 
-~Nur wenn Server- und Client Config syncron sind, ist ein Verbinden möglich. Wenn du hingegen *enforceConfiguration* auf *false* setzt, kann jeder Spieler verbinden. Dann hast du jedoch ein unfaires Spielerlebnis, weil die Configs deiner Spieler ggf. "bessere" Werte haben als die der anderen Spieler. Stelle also sicher, dass du deinen Spieler zwingst, die gleiche Config wie der Server zu benutzen~
+~~Nur wenn Server- und Client Config syncron sind, ist ein Verbinden möglich. Wenn du hingegen *enforceConfiguration* auf *false* setzt, kann jeder Spieler verbinden. Dann hast du jedoch ein unfaires Spielerlebnis, weil die Configs deiner Spieler ggf. "bessere" Werte haben als die der anderen Spieler. Stelle also sicher, dass du deinen Spieler zwingst, die gleiche Config wie der Server zu benutzen~~
 
-~Die Config kannst du im Webinterface unter "**Configs**" herunterladen und "**deinen Spielern schicken**":~
+~~Die Config kannst du im Webinterface unter "**Configs**" herunterladen und "**deinen Spielern schicken**":~~
 
 Seit Version 0.9 bekommt der Spieler nun vollautomatisch beim Verbinden zu dem Server die Config. Die Config muss also vorher nicht mehr vom Server heruntergeladen und an alle Spieler geschickt werden!
 
