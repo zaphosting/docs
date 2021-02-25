@@ -17,7 +17,7 @@ Diese Spieler müssen dann exakt die gleiche "**valheim_plus.cfg**" Datei wie au
 
 ~~Erst dann wäre eine valide Verbindung zum Server möglich.~~
 
-Seit Version 0.9 bekommt der Spieler nun vollautomatisch beim Verbinden zu dem Server die Config. Die Config muss also vorher nicht mehr vom Server heruntergeladen und an alle Spieler geschickt werden!
+🎉 Seit Version 0.9.0 bekommt der Spieler nun vollautomatisch beim Verbinden zu dem Server die Config. Die Config muss also vorher nicht mehr vom Server heruntergeladen und an alle Spieler geschickt werden!
 
 ## Valheim Plus Installation auf dem Client
 
@@ -47,7 +47,7 @@ Dann kann Valheim gestartet werden und die Einrichtung bei dem Client ist beende
 
 ~~Die Config kannst du im Webinterface unter "**Configs**" herunterladen und "**deinen Spielern schicken**":~~
 
-Seit Version 0.9 bekommt der Spieler nun vollautomatisch beim Verbinden zu dem Server die Config. Die Config muss also vorher nicht mehr vom Server heruntergeladen und an alle Spieler geschickt werden!
+🎉 Seit Version 0.9.0 bekommt der Spieler nun vollautomatisch beim Verbinden zu dem Server die Config. Die Config muss also vorher nicht mehr vom Server heruntergeladen und an alle Spieler geschickt werden!
 
 ## Valheim Plus Installation Server
 
