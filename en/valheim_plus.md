@@ -6,16 +6,18 @@ sidebar_label: Valheim Plus
 
 ## Introduction
 
-Valheim Plus is a client-side modification, so all changes must also be made by the client in the game directory.
+Valheim Plus is a client-side modification ~~so all changes must also be made by the client in the game directory.
 If *enforceConfiguration* is disabled on the server, any client with any configuration can connect to the server. This would also allow people with different configurations to connect to the server. This would allow players to set different speeds for crafting and stamina values on the client.
 
-To prevent this and provide a fair gaming experience *enforceConfiguration* must be set to "**true**". Then the server owner would have to copy out the "**valheim_plus.cfg**" set at "**Configs**" and send it to every player.
+~~To prevent this and provide a fair gaming experience *enforceConfiguration* must be set to "**true**". Then the server owner would have to copy out the "**valheim_plus.cfg**" set at "**Configs**" and send it to every player.
 These players must then paste the exact same "**valheim_plus.cfg**" file as it is set on the server into the "**BepInEx\config**" path.
 
-An explanation of how to get to the "**valheim_plus.cfg**" and set the appropriate configurations there is given at "**Valheim Plus Config**".
+~~An explanation of how to get to the "**valheim_plus.cfg**" and set the appropriate configurations there is given at "**Valheim Plus Config**".
 How to get to the "**BepInEx\config**" path is explained at ***Valheim Plus Installation on Client***.
 
-Only then a valid connection to the server would be possible.
+~~Only then a valid connection to the server would be possible.
+
+🎉 Since version 0.9.0 the player gets the config automatically when connecting to the server. The config must no longer be downloaded from the server and sent to all players!
 
 ## Valheim Plus Installation Client
 
@@ -35,19 +37,17 @@ Afterwards the content of the "***WindowsClient.zip***" has to be unzipped into 
 
 Then Valheim can be started and the setup at the client is finished.
 
-### Incompatible version
+~~### Incompatible version
 
-If the error "**incompatible version**" is displayed when connecting to the server, it must be ensured that the same "**valheim_plus.cfg**" is used on the client side as is set on the server. Since the *enforceConfiguration* was set to "**true**" on the server.
+~~If the error "**incompatible version**" is displayed when connecting to the server, it must be ensured that the same "**valheim_plus.cfg**" is used on the client side as is set on the server. Since the *enforceConfiguration* was set to "**true**" on the server.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/DdQytkte54AYi4D/preview)
+~~That means, you - as a server admin - have to share your "**valheim_plus.cfg**" with your players, so they can drag the config into the Valheim Steam folder and then into the subfolder *BepInEx\config\valheim_plus.cfg*. 
 
-That means, you - as a server admin - have to share your "**valheim_plus.cfg**" with your players, so they can drag the config into the Valheim Steam folder and then into the subfolder *BepInEx\config\valheim_plus.cfg*. 
+~~Only if server and client config are syncron, connecting is possible. If you set *enforceConfiguration* to *false*, every player can connect. But then you will have an unfair game experience, because the configs of your players may have "better" values than those of the other players. So make sure that you force your player to use the same config as the server.
 
-Only if server and client config are syncron, connecting is possible. If you set *enforceConfiguration* to *false*, every player can connect. But then you will have an unfair game experience, because the configs of your players may have "better" values than those of the other players. So make sure that you force your player to use the same config as the server.
+~~You can download the config in the webinterface under "**Configs**" and "**send it to your players**":
 
-You can download the config in the webinterface under "**Configs**" and "**send it to your players**":
-
-![](https://screensaver01.zap-hosting.com/index.php/s/MDBEGB7XCfn5gBt/preview)
+🎉 Since version 0.9.0 the player gets the config automatically when connecting to the server. The config must no longer be downloaded from the server and sent to all players!
 
 ## Valheim Plus Installation Server
 
