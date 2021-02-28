@@ -27,7 +27,7 @@ To do this, right-click on Valheim in the Steam library, select "***Manage***" i
 ![](https://screensaver01.zap-hosting.com/index.php/s/JR4CFY7jEdXqDp9/preview)
 
 Once this folder has been opened, the "***WindowsClient.zip***" has to be downloaded. 
-The "***WindowsClient.zip***" can be downloaded ![here](https://github.com/valheimPlus/ValheimPlus/releases) (go to "Assets").
+The "***WindowsClient.zip***" can be downloaded [here](https://github.com/valheimPlus/ValheimPlus/releases) (go to "Assets").
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/dPxaH3m4to25igt/preview)
 
