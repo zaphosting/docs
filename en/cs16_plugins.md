@@ -11,10 +11,6 @@ sidebar_label: Install Plugins
 
 **AMXmodX** and **Metamod** is necessary to use plugins on a Counter-Strike 1.6 server. These are two Half Life extensions that allow you to customize the server even more than usual. This includes for example the use of plugins and an extended administration of your server.
 
-<img src="C:\Users\fgalz\AppData\Roaming\Typora\typora-user-images\image-20201222152046149.png" alt="image-20201222152046149" style="zoom: 80%;" />
-
-
-
 ### Preparation
 
 First of all, the actual extensions are needed. The extensions can be downloaded from [amxmodx.org](https://www.amxmodx.org/downloads.php). Please always use the latest versions (**stable**), so that they are still fully functional and compatible.
