@@ -199,7 +199,8 @@
                     "fivem_deletecache",
                     "fivem_useprofiler",
                     "fivem_mastadon",
-                    "fivem_prohibited_resources"
+                    "fivem_prohibited_resources",
+                    "fivem_notlisted"
                 ]
             },
             {
@@ -321,7 +322,8 @@
             "valheim_savegame",
             "valheim_backup_schedule",
             "valheim_serverlisting",
-            "valheim_admin"
+            "valheim_admin",
+            "valheim_plus"
         ],
         "SCP: Secret Laboratory": [
             "scp_becomeadmin",
