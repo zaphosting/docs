@@ -23,7 +23,7 @@ Wir versuchen den Vanilla-Server dennoch etwas mehr Power zu verschaffen, indem 
 Eine Maßnahme welche sehr oft ergriffen wird, ist es die Sichtweite runterzustellen. Standardmäßig liegt die Sichtweite bei 10 Chunks, viele Spieler spielen aber mit weit aus weniger, wie etwa 6-8.
 Einige Spieler übertreiben es aber auch sehr mit den Chunks und stellen dieses teilweise auf 32 Chunks als Beispiel, wodurch der Server dann all dieses Chunks laden und verarbeiten muss, was sehr viel Leistung kostet.
 
-Die Sichtweite kann bei einem Vanilla-Server in der "server.properties" Config angepasst werden, hierzu musst der Wert "view-disance" angepasst werden.
+Die Sichtweite kann bei einem Vanilla-Server in der "server.properties" Config angepasst werden, hierzu musst der Wert "view-distance" angepasst werden.
 Um das Spielerlebnis selbst nicht besonders groß einzuschränken, wird empfohlen diesen Wert auf 5-6 zu stellen, wodurch der Server bis zu 50% entlastet wird.  
 Wir halten hierzu auch bereits eine Eintrag in unserer Dokumentation bereit, welcher [hier](https://zap-hosting.com/guides/docs/de/minecraft_default_config/#view-distance) gefunden werden kann.
 
@@ -82,7 +82,7 @@ Sobald der Prozesse abgeschlossen ist, wird dies ebenfalls in der Konsole ausgeg
 Eine Maßnahme welche sehr oft ergriffen wird, ist es die Sichtweite runterzustellen. Standardmäßig liegt die Sichtweite bei 10 Chunks, viele Spieler spielen aber mit weit aus weniger, wie etwa 6-8.
 Einige Spieler übertreiben es aber auch sehr mit den Chunks und stellen dieses teilweise auf 32 Chunks als Beispiel, wodurch der Server dann all dieses Chunks laden und verarbeiten muss, was sehr viel Leistung kostet.
 
-Die Sichtweite kann bei einem Forge-Server in der "server.properties" Config angepasst werden, hierzu musst der Wert "view-disance" angepasst werden.
+Die Sichtweite kann bei einem Forge-Server in der "server.properties" Config angepasst werden, hierzu musst der Wert "view-distance" angepasst werden.
 Um das Spielerlebnis selbst nicht besonders groß einzuschränken, wird empfohlen diesen Wert auf 5-6 zu stellen, wodurch der Server bis zu 50% entlastet wird.  
 Wir halten hierzu auch bereits eine Eintrag in unserer Dokumentation bereit, welcher [hier](https://zap-hosting.com/guides/docs/de/minecraft_default_config/#view-distance) gefunden werden kann.
 
@@ -103,7 +103,7 @@ Auch hier haben wir bereits einen Eintrag in unserer Dokumentation  zu, welcher 
 Eine Maßnahme welche sehr oft ergriffen wird, ist es die Sichtweite runterzustellen. Standardmäßig liegt die Sichtweite bei 10 Chunks, viele Spieler spielen aber mit weit aus weniger, wie etwa 6-8.
 Einige Spieler übertreiben es aber auch sehr mit den Chunks und stellen dieses teilweise auf 32 Chunks als Beispiel, wodurch der Server dann all dieses Chunks laden und verarbeiten muss, was sehr viel Leistung kostet.
 
-Die Sichtweite kann bei einem Bukkit-Server in der "server.properties" Config angepasst werden, hierzu musst der Wert "view-disance" angepasst werden.
+Die Sichtweite kann bei einem Bukkit-Server in der "server.properties" Config angepasst werden, hierzu musst der Wert "view-distance" angepasst werden.
 Um das Spielerlebnis selbst nicht besonders groß einzuschränken, wird empfohlen diesen Wert auf 5-6 zu stellen, wodurch der Server bis zu 50% entlastet wird.  
 Wir halten hierzu auch bereits eine Eintrag in unserer Dokumentation bereit, welcher [hier](https://zap-hosting.com/guides/docs/de/minecraft_default_config/#view-distance) gefunden werden kann.
 
@@ -160,7 +160,7 @@ Beim Loop würde der Chunk entladen werden, worauf der Chunk dann auch nur wenig
 
 Eine Maßnahme welche sehr oft ergriffen wird, ist es die Sichtweite runterzustellen. Standardmäßig liegt die Sichtweite bei 10 Chunks, viele Spieler spielen aber mit weit aus weniger, wie etwa 6-8. Einige Spieler übertreiben es aber auch sehr mit den Chunks und stellen dieses teilweise auf 32 Chunks als Beispiel, wodurch der Server dann all dieses Chunks laden und verarbeiten muss, was sehr viel Leistung kostet.
 
-Die Sichtweite kann bei einem Spigot-Server in der "spigot.yml" Config angepasst werden, hierzu musst der Wert "view-disance" angepasst werden.
+Die Sichtweite kann bei einem Spigot-Server in der "spigot.yml" Config angepasst werden, hierzu musst der Wert "view-distance" angepasst werden.
 Um das Spielerlebnis selbst nicht besonders groß einzuschränken, wird empfohlen diesen Wert auf 5-6 zu stellen, wodurch der Server bis zu 50% entlastet wird.  
 
 > Je nach belieben kann der Wert auch auf 4 gestellt werden, was als Beispiel sehr gut gegen Laggs hilft, wenn man Farmwelt-Server betreibt, die auf der Version 1.13+ betrieben werden
@@ -279,7 +279,7 @@ Um die Einstellung anzupassen, muss unter dem Punkt "merge-radius" in der "spigo
 
 Eine Maßnahme welche sehr oft ergriffen wird, ist es die Sichtweite runterzustellen. Standardmäßig liegt die Sichtweite bei 10 Chunks, viele Spieler spielen aber mit weit aus weniger, wie etwa 6-8. Einige Spieler übertreiben es aber auch sehr mit den Chunks und stellen dieses teilweise auf 32 Chunks als Beispiel, wodurch der Server dann all dieses Chunks laden und verarbeiten muss, was sehr viel Leistung kostet.
 
-Die Sichtweite kann bei einem (Paper-)Spigot-Server in der "spigot.yml" Config angepasst werden, hierzu musst der Wert "view-disance" angepasst werden.
+Die Sichtweite kann bei einem (Paper-)Spigot-Server in der "spigot.yml" Config angepasst werden, hierzu musst der Wert "view-distance" angepasst werden.
 Um das Spielerlebnis selbst nicht besonders groß einzuschränken, wird empfohlen diesen Wert auf 5-6 zu stellen, wodurch der Server bis zu 50% entlastet wird.  
 
 > Je nach belieben kann der Wert auch auf 4 gestellt werden, was als Beispiel sehr gut gegen Laggs hilft, wenn man Farmwelt-Server betreibt, die auf der Version 1.13+ betrieben werden
