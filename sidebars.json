@@ -323,7 +323,8 @@
             "valheim_backup_schedule",
             "valheim_serverlisting",
             "valheim_admin",
-            "valheim_plus"
+            "valheim_plus",
+            "valheim_plugins_bepinex"
         ],
         "SCP: Secret Laboratory": [
             "scp_becomeadmin",
