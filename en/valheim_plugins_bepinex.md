@@ -1,6 +1,6 @@
 ---
 id: valheim_plugins_bepinex
-title: valheim_plugins_bepinex
+title: Install plugins (BepInEx)
 sidebar_label: Install plugins (BepInEx)
 ---
 
@@ -25,7 +25,7 @@ In this directory you can upload your plugins, these consist mostly of one **.dl
 
 In our example we upload an anticheat to the server which consists of three files: 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/Qbqf3qcKN555byq)
+![](https://screensaver01.zap-hosting.com/index.php/s/Qbqf3qcKN555byq/preview)
 
 
 ## Start your server
