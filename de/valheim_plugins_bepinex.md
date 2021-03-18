@@ -1,6 +1,6 @@
 ---
 id: valheim_plugins_bepinex
-title: valheim_plugins_bepinex
+title: Plugin's installieren (BepInEx)
 sidebar_label: Plugin's installieren (BepInEx)
 ---
 
@@ -25,7 +25,7 @@ In diesem Verzeichnis kannst du nun deine Plugin's hochladen, diese bestehenden 
 
 In unserem Beispiel laden wir ein Anticheat auf den Server welches aus drei Dateien besteht: 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/Qbqf3qcKN555byq)
+![](https://screensaver01.zap-hosting.com/index.php/s/Qbqf3qcKN555byq/preview)
 
 
 ## Starten deines Servers
