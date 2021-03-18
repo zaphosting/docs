@@ -585,6 +585,10 @@
         "title": "Connect to a Server",
         "sidebar_label": "Connect to a Server"
       },
+      "valheim_plugins_bepinex": {
+        "title": "Install plugins (BepInEx)",
+        "sidebar_label": "Install plugins (BepInEx)"
+      },
       "valheim_plus": {
         "title": "Valheim Plus",
         "sidebar_label": "Valheim Plus"
