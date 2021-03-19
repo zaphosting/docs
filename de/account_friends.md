@@ -1,6 +1,6 @@
 ---
 id: account_friends
-title: Freunde werben und Geld bei ZAP-Hosting.com verdienent
+title: Freunde werben und Geld ,it ZAP-Hosting verdienen
 description: Anleitung wie du Geld mit ZAP-Hosting verdienen kannst, indem du Freunde per Reflink wirbst - ZAP-Hosting.com Dokumentationen
 sidebar_label: Freunde werben
 ---
