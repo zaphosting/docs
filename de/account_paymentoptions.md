@@ -1,7 +1,7 @@
 ---
 id: account_paymentoptions
 title: Zahlungsoptionen - Welche Zahlungsoptionen gibt es bei ZAP-Hosting.com
-description: Informationen zu den verschiedenen Zahlungsoptionen bei ZAP-Hosting: PayPal, Kreditkarte, ZAP-Guthaben und mehr
+description: Informationen zu den verschiedenen Zahlungsoptionen bei ZAP-Hosting: 
 sidebar_label: Zahlungsoptionen
 ---
 
