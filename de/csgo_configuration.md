@@ -1,6 +1,7 @@
 ---
 id: csgo_configuration
-title: Server Konfiguration
+title: Counter-Strike GO: Server Konfiguration
+description: Informationen zu den Einstellungen und Konfigurationsmöglichkeiten deines CS GO-Servers von ZAP-Hosting - ZAP-Hosting.com Dokumentationen
 sidebar_label: Server Konfiguration
 ---
 
