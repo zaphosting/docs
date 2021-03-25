@@ -1,6 +1,7 @@
 ---
 id: create_screenshots
-title: Screenshots erstellen
+title: Screenshots: Wie und mit welchem Tool Screenshots erstellen
+descriptionen: Informationen, wie du Screenshots aufnehmen kannst und welche Tools empfehlenswert sind - ZAP-Hosting.com Dokumentationen
 sidebar_label: Screenshots erstellen
 ---
 
