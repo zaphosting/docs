@@ -8,7 +8,6 @@ sidebar_label: TxAdmin Einrichtung
 
 TxAdmin ist ein Interface für FiveM Server, welches unter anderem ein Server-Installer, Admin- und Management Interface ist.
 
-
 # Einrichtung
 
 Nachdem wir unseren TxAdmin Server gemietet haben, wird dieser im Interface wie folgt angezeigt:
@@ -55,7 +54,7 @@ Falls eine Template aufgespielt werden soll, welche in TxAdmin selbst nicht verl
 
 Diese Option ist für Benutzer gedacht, welche ein eigenes Recipe bereits erstellt haben, und dieses erneut laden möchten.
 
-
+### Einrichtung
 
 In unserem Fall wählen wir unter Popular Templates Plume ESX aus, nun können wir einen eigenen Pfad für das Pack generieren, generell würden wir empfehlen, diesen Pfad Standard zu lassen.
 
