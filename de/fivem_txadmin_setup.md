@@ -54,7 +54,7 @@ Falls eine Template aufgespielt werden soll, welche in TxAdmin selbst nicht verl
 
 Diese Option ist für Benutzer gedacht, welche ein eigenes Recipe bereits erstellt haben, und dieses erneut laden möchten.
 
-### Einrichtung
+## Einrichtung
 
 In unserem Fall wählen wir unter Popular Templates Plume ESX aus, nun können wir einen eigenen Pfad für das Pack generieren, generell würden wir empfehlen, diesen Pfad Standard zu lassen.
 
