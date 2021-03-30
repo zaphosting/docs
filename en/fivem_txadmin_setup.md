@@ -54,7 +54,7 @@ If a template is to be installed that is not linked in TxAdmin itself, this func
 
 This option is intended for users who have already created their own recipe and want to reload it.
 
-### Setup
+## Setup
 
 In our case we select Plume ESX under Popular Templates, now we can generate a custom path for the pack, generally we would recommend to leave this path default.
 
