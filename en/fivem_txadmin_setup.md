@@ -8,7 +8,7 @@ sidebar_label: TxAdmin Setup
 
 TxAdmin is an interface for FiveM Servers, which is among other things a server installer, admin and management interface.
 
-# Setup
+# First-Time Setup
 
 After we have rented our TxAdmin server, it will be displayed in the interface as follows:
 
@@ -25,8 +25,6 @@ After logging in we land directly in the TxAdmin setup, here we can now select h
 > This setting is **not** the server name in the server list, but an internal name for ingame messages and the Discord webhook.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/GfJJF73bqZCJZRK/preview)
-
-## Resource Deployer
 
 Now we can choose how exactly we want to set up the server, there are several options here:
 
@@ -45,18 +43,7 @@ Popular Templates are pre-made packs that can be used directly, this is the easi
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/78zSH3zJDz8Bagw/preview)
 
-
-### Remote URL Template
-
-If a template is to be installed that is not linked in TxAdmin itself, this function can be used to specify a separate recipe that is executed on the server.
-
-### Custom Template
-
-This option is intended for users who have already created their own recipe and want to reload it.
-
-## Setup
-
-In our case we select Plume ESX under Popular Templates, now we can generate a custom path for the pack, generally we would recommend to leave this path default.
+Now we can set a custom path for the pack, generally we would recommend to leave this path default.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/kBLEayMPR5DFo5m/preview)
 
@@ -71,3 +58,12 @@ If own database settings or License Key should be used, this can be changed now,
 
 
 Almost done! Now we can make the last changes in the server.cfg, now we just press "Save & Run Server" and the FiveM server will start automatically!
+
+### Remote URL Template
+
+If a template is to be installed that is not linked in TxAdmin itself, this function can be used to specify a separate recipe that is executed on the server.
+
+### Custom Template
+
+This option is intended for users who have already created their own recipe and want to reload it.
+
