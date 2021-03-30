@@ -220,6 +220,13 @@
             },
             {
                 "type": "subcategory",
+                "label": "TxAdmin",
+                "ids": [
+                    "fivem_txadmin_setup"
+                ]
+            },
+            {
+                "type": "subcategory",
                 "label": "ESX",
                 "ids": [
                     "fivem_esx_disableinventory",
