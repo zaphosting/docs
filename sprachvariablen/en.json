@@ -345,6 +345,10 @@
         "title": "SQL File Import",
         "sidebar_label": "SQL File Import"
       },
+      "fivem_txadmin_features": {
+        "title": "TxAdmin Interface",
+        "sidebar_label": "TxAdmin Interface"
+      },
       "fivem_txadmin_setup": {
         "title": "TxAdmin Setup",
         "sidebar_label": "TxAdmin Setup"
