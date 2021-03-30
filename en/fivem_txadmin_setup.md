@@ -8,7 +8,6 @@ sidebar_label: TxAdmin Setup
 
 TxAdmin is an interface for FiveM Servers, which is among other things a server installer, admin and management interface.
 
-
 # Setup
 
 After we have rented our TxAdmin server, it will be displayed in the interface as follows:
@@ -55,7 +54,7 @@ If a template is to be installed that is not linked in TxAdmin itself, this func
 
 This option is intended for users who have already created their own recipe and want to reload it.
 
-
+### Setup
 
 In our case we select Plume ESX under Popular Templates, now we can generate a custom path for the pack, generally we would recommend to leave this path default.
 
