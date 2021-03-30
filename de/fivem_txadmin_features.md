@@ -8,6 +8,7 @@ sidebar_label: TxAdmin Interface
 
 Im Dashboard von TxAdmin können wir einsehen, wie viele auf dem Server sind und wie performant der Server läuft, hier können wir ebenfalls den Server Starten oder Stoppen, Announcements auf dem Server anzeigen lassen oder alle Spieler kicken:
 
+![](https://screensaver01.zap-hosting.com/index.php/s/TMeYZR5TocopQBf/preview)
 
 ## Rechte Sidebar
 
