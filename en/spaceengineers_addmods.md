@@ -62,6 +62,7 @@ In the next step we add the first mod. For this we work with a "ModItem", which 
 	<ModItem>
 		<Name>12345.sbm</Name>
 		<PublishedFileId>12345</PublishedFileId>
+		<PublishedServiceName>Steam</PublishedServiceName>
 	</ModItem>
 ```
 
