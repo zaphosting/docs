@@ -1,7 +1,7 @@
 ---
 id: fivem_txadmin_setup
-title: TxAdmin Einrichtung
-sidebar_label: TxAdmin Einrichtung
+title: TxAdmin Setup
+sidebar_label: TxAdmin Setup
 ---
 
 # What exactly is TxAdmin?
