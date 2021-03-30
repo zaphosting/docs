@@ -1,12 +1,12 @@
 ---
 id: fivem_txadmin_features
-title: TxAdmin Interface
-sidebar_label: TxAdmin Interface
+title: txAdmin Interface
+sidebar_label: txAdmin Interface
 ---
 
 ## Dashboard
 
-Im Dashboard von TxAdmin können wir einsehen, wie viele auf dem Server sind und wie performant der Server läuft, hier können wir ebenfalls den Server Starten oder Stoppen, Announcements auf dem Server anzeigen lassen oder alle Spieler kicken:
+Im Dashboard von txAdmin können wir einsehen, wie viele auf dem Server sind und wie performant der Server läuft, hier können wir ebenfalls den Server Starten oder Stoppen, Announcements auf dem Server anzeigen lassen oder alle Spieler kicken:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/TMeYZR5TocopQBf/preview)
 
@@ -54,7 +54,7 @@ Hier können alle Resourcen, welche sich auf dem Server befinden, verwaltet werd
 
 ## Server Log
 
-Das Server Log ist das TxAdmin Log, hier werden einige Infos von TxAdmin angezeigt, falls die Resource es unterstützt, werden hier auch Logs von bestimmten Resourcen angezeigt.
+Das Server Log ist das txAdmin Log, hier werden einige Infos von txAdmin angezeigt, falls die Resource es unterstützt, werden hier auch Logs von bestimmten Resourcen angezeigt.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/9N4d3KN5FQCfM9r/preview)
 
@@ -66,13 +66,13 @@ Im Cfg Editor kann deine server.cfg konfiguriert werden, das ganze funktioniert 
 
 ## Diagnostics
 
-Die Diagnostics zeigen an, wie gut der FiveM Server läuft, und zeigt mögliche Probleme mit TxAdmin oder dem FiveM Server an:
+Die Diagnostics zeigen an, wie gut der FiveM Server läuft, und zeigt mögliche Probleme mit txAdmin oder dem FiveM Server an:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/kQFpT9gCgZ8AJgo/preview)
 
 ## Admin Manager
 
-Im Admin Manager können neue User zum TxAdmin Interface hinzugefügt werden, diese kannst du ganz einfach per Username/Passwort hinzufügen, du kannst aber auch die Discord ID oder den FiveM Forum Account linken.
+Im Admin Manager können neue User zum txAdmin Interface hinzugefügt werden, diese kannst du ganz einfach per Username/Passwort hinzufügen, du kannst aber auch die Discord ID oder den FiveM Forum Account linken.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/ysmmQ9rJpTLq2X3/preview)
 
@@ -86,7 +86,7 @@ Hier können wir ebenfalls angeben, welche Funktionen der Account zur Verfügung
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/dCkSpMcrBFFCq6Z/preview)
 
-Nun bekommen wir ein temporäres Passwort, dieses muss beim Anmelden dieses Nutzers angegeben werden, danach kann man das Passwort in TxAdmin direkt ändern:
+Nun bekommen wir ein temporäres Passwort, dieses muss beim Anmelden dieses Nutzers angegeben werden, danach kann man das Passwort in txAdmin direkt ändern:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/ia3tpWEfkzEzoRT/preview)
 
@@ -94,13 +94,13 @@ Fertig! Nun wurde der neue Nutzer angelegt, in Zukunft kann dieser auch hier wie
 
 ## txAdmin Log
 
-Im TxAdmin Log können wir einsehen, was in letzter Zeit im TxAdmin Interface gemacht wurde, damit können wir z. B. prüfen, was erstellte Nutzer im Interface genau machen:
+Im txAdmin Log können wir einsehen, was in letzter Zeit im txAdmin Interface gemacht wurde, damit können wir z. B. prüfen, was erstellte Nutzer im Interface genau machen:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/jYzJZGdALfKqF8s/preview)
 
 ## Settings
 
-In den Settings können mehrere Einstellungen zu TxAdmin und dem FiveM Server vorgenommen werden, diese sind in mehreren Kategorien eingeteilt.
+In den Settings können mehrere Einstellungen zu txAdmin und dem FiveM Server vorgenommen werden, diese sind in mehreren Kategorien eingeteilt.
 
 Hier können ebenfalls Backups der Datenbank angelegt werden, Bans aus anderen Resourcen importiert werden oder der FiveM Server zurückgesetzt werden.
 ![](https://screensaver01.zap-hosting.com/index.php/s/JiHtm8J3fH7W4R7/preview)
@@ -121,7 +121,7 @@ Falls eigene Startparameter hinzugefügt werden sollen, kann dies hier auch geta
 
 Onesync kann hier ebenfalls aktiviert oder deaktiviert werden.
 
-Falls du TxAdmin öfters Neustartest, kannst du hier einstellen, ob TxAdmin automatisch den FiveM Server wieder starten soll, das Ganze ist standardmäßig aktiviert.
+Falls du txAdmin öfters Neustartest, kannst du hier einstellen, ob txAdmin automatisch den FiveM Server wieder starten soll, das Ganze ist standardmäßig aktiviert.
 
 Die "Quiet" Option stellt um, ob Nachrichten in der FiveM Konsole in der Livekonsole des Servers angezeigt werden, diese Option sollte am besten deaktiviert bleiben.
 
@@ -143,11 +143,11 @@ Der Player Manager hat einige Features zur Moderierung des Servers, unter andere
 
 Falls die Whitelist aktiviert ist, können wir hier auch angeben, welche Nachricht beim Verbinden kommen soll, falls ein Spieler noch nicht whitelisted wurde.
 
-Die Option "Wipe Pending Whitelist On txAdmin Start" bestimmt, ob die Whitelisting Anfragen, welche beim Verbinden erstellt werden, beim TxAdmin Neustart gelöscht werden sollen, falls die Whitelisting anfragen über mehrere Tage bearbeitet werden, sollte diese Option am besten deaktiviert werden.
+Die Option "Wipe Pending Whitelist On txAdmin Start" bestimmt, ob die Whitelisting Anfragen, welche beim Verbinden erstellt werden, beim txAdmin Neustart gelöscht werden sollen, falls die Whitelisting anfragen über mehrere Tage bearbeitet werden, sollte diese Option am besten deaktiviert werden.
 
 
 ### Discord
 
-In dem letzten Menü der Settings können wir einen Discord Bot einstellen, welcher Infos zu TxAdmin in einem Channel postet, hierzu muss der Discord Bot Token und die Channel ID, in welchem diese Infos gepostet werden sollen, eingetragen werden.
+In dem letzten Menü der Settings können wir einen Discord Bot einstellen, welcher Infos zu txAdmin in einem Channel postet, hierzu muss der Discord Bot Token und die Channel ID, in welchem diese Infos gepostet werden sollen, eingetragen werden.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/NNKTBSSB5DXLXiQ/preview)
