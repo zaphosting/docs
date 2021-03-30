@@ -4,11 +4,11 @@ title: TxAdmin Einrichtung
 sidebar_label: TxAdmin Einrichtung
 ---
 
-# Was genau ist TxAdmin?
+## Was genau ist TxAdmin?
 
 TxAdmin ist ein Interface für FiveM Server, welches unter anderem ein Server-Installer, Admin- und Management Interface ist.
 
-# Ersteinrichtung
+## Ersteinrichtung
 
 Nachdem wir unseren TxAdmin Server gemietet haben, wird dieser im Interface wie folgt angezeigt:
 
