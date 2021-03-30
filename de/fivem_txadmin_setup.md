@@ -8,7 +8,7 @@ sidebar_label: TxAdmin Einrichtung
 
 TxAdmin ist ein Interface für FiveM Server, welches unter anderem ein Server-Installer, Admin- und Management Interface ist.
 
-# Einrichtung
+# Ersteinrichtung
 
 Nachdem wir unseren TxAdmin Server gemietet haben, wird dieser im Interface wie folgt angezeigt:
 
@@ -25,8 +25,6 @@ Nach der Anmeldung landen wir direkt im TxAdmin Setup, hier können wir nun ausw
 > Diese Einstellung ist **nicht** der Server Name in der Serverliste, sondern ein interner Name für Ingame Meldungen und den Discord Webhook.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/GfJJF73bqZCJZRK/preview)
-
-## Resource Deployer
 
 Nun können wir auswählen, wie genau wir den Server Einrichten wollen, hier gibt es mehrere Optionen:
 
@@ -45,17 +43,6 @@ Popular Templates sind vorgefertigte Packs, welche direkt benutzt werden können
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/78zSH3zJDz8Bagw/preview)
 
-
-### Remote URL Template
-
-Falls eine Template aufgespielt werden soll, welche in TxAdmin selbst nicht verlinkt ist, kann mit dieser Funktion ein eigenes Recipe an gegeben werden, welches auf dem Server ausgeführt wird.
-
-### Custom Template
-
-Diese Option ist für Benutzer gedacht, welche ein eigenes Recipe bereits erstellt haben, und dieses erneut laden möchten.
-
-## Einrichtung
-
 In unserem Fall wählen wir unter Popular Templates Plume ESX aus, nun können wir einen eigenen Pfad für das Pack generieren, generell würden wir empfehlen, diesen Pfad Standard zu lassen.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/kBLEayMPR5DFo5m/preview)
@@ -71,3 +58,12 @@ Falls eigene Datenbank-Einstellungen oder License Key genutzt werden sollen, kan
 
 
 Fast fertig! Nun können wir noch die letzten Änderungen in der server.cfg vornehmen, nun drücken wir einfach nur noch "Save & Run Server", und der FiveM Server wird automatisch starten!
+
+
+### Remote URL Template
+
+Falls eine Template aufgespielt werden soll, welche in TxAdmin selbst nicht verlinkt ist, kann mit dieser Funktion ein eigenes Recipe an gegeben werden, welches auf dem Server ausgeführt wird.
+
+### Custom Template
+
+Diese Option ist für Benutzer gedacht, welche ein eigenes Recipe bereits erstellt haben, und dieses erneut laden möchten.
