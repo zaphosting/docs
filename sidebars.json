@@ -239,6 +239,13 @@
                     "fivem_vrp_changemoneyicon",
                     "fivem_vrp_removespeedo"
                 ]
+            },
+            {
+                "type": "subcategory",
+                "label": "TxAdmin",
+                "ids": [
+                    "fivem_txadmin_setup"
+                ]
             }
         ],
         "RageMP": [
