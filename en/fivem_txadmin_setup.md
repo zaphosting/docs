@@ -43,7 +43,7 @@ Popular Templates are pre-made packs that can be used directly, this is the easi
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/78zSH3zJDz8Bagw/preview)
 
-In our case we select Plume ESX under Popular Templates, now we can generate a custom path for the pack, generally we would recommend to leave this path default.
+Now we can set a custom path for the pack, generally we would recommend to leave this path default.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/kBLEayMPR5DFo5m/preview)
 
