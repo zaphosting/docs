@@ -244,7 +244,8 @@
                 "type": "subcategory",
                 "label": "TxAdmin",
                 "ids": [
-                    "fivem_txadmin_setup"
+                    "fivem_txadmin_setup",
+                    "fivem_txadmin_features"
                 ]
             }
         ],
