@@ -5,6 +5,14 @@
     "previous": "Previous",
     "tagline": "ZAP-Hosting Guides",
     "docs": {
+      "7d2d_becomeadmin": {
+        "title": "Become Admin",
+        "sidebar_label": "Become Admin"
+      },
+      "7d2d_mods": {
+        "title": "Install Mods",
+        "sidebar_label": "Install Mods"
+      },
       "account_2factor": {
         "title": "Two-Factor-Authentication",
         "sidebar_label": "Two-Factor-Authentication"
@@ -69,6 +77,10 @@
         "title": "Become Admin",
         "sidebar_label": "Become Admin"
       },
+      "ark_configuration": {
+        "title": "Server Configuration",
+        "sidebar_label": "Server Configuration"
+      },
       "ark_mods": {
         "title": "Install Mods",
         "sidebar_label": "Install Mods"
@@ -101,6 +113,10 @@
         "title": "Install Mods",
         "sidebar_label": "Install Mods"
       },
+      "avorion_becomeadmin": {
+        "title": "Become Admin",
+        "sidebar_label": "Become Admin"
+      },
       "barotrauma_becomeadmin": {
         "title": "Become Admin",
         "sidebar_label": "Become Admin"
@@ -113,9 +129,21 @@
         "title": "Become Admin",
         "sidebar_label": "Become Admin"
       },
+      "conan_configuration": {
+        "title": "Server Configuration",
+        "sidebar_label": "Server Configuration"
+      },
       "create_screenshots": {
         "title": "Create Screenshots",
         "sidebar_label": "Create Screenshots"
+      },
+      "cs16_becomeadmin": {
+        "title": "Become Admin",
+        "sidebar_label": "Become Admin"
+      },
+      "cs16_plugins": {
+        "title": "Install Plugins",
+        "sidebar_label": "Install Plugins"
       },
       "csgo_configuration": {
         "title": "Server configuration",
@@ -168,6 +196,10 @@
       "eco_becomeadmin": {
         "title": "Become Admin",
         "sidebar_label": "Become Admin"
+      },
+      "eco_whitelist": {
+        "title": "Whitelist",
+        "sidebar_label": "Whitelist"
       },
       "empyrion_becomeadmin": {
         "title": "Become Admin",
@@ -289,6 +321,10 @@
         "title": "Install Replace Carmods",
         "sidebar_label": "Install Replace Carmods"
       },
+      "fivem_notlisted": {
+        "title": "Server does not appear in Serverlist",
+        "sidebar_label": "Server not in Serverlist"
+      },
       "fivem_prohibited_resources": {
         "title": "Resource contains prohibited logic?",
         "sidebar_label": "Resource contains prohibited logic?"
@@ -308,6 +344,14 @@
       "fivem_sql_file_import": {
         "title": "SQL File Import",
         "sidebar_label": "SQL File Import"
+      },
+      "fivem_txadmin_features": {
+        "title": "txAdmin Interface",
+        "sidebar_label": "txAdmin Interface"
+      },
+      "fivem_txadmin_setup": {
+        "title": "txAdmin Setup",
+        "sidebar_label": "txAdmin Setup"
       },
       "fivem_upvotes": {
         "title": "Upvotes",
@@ -364,6 +408,10 @@
       "gameserver_tebex": {
         "title": "TEBEX Gameserver Monetization",
         "sidebar_label": "TEBEX Monetization"
+      },
+      "gmod_servercfg": {
+        "title": "Garry's Mod Server.cfg Modification",
+        "sidebar_label": "Garry's Mod Server.cfg Modification"
       },
       "gmod_ttt": {
         "title": "Garry's Mod TTT Configuration",
@@ -453,6 +501,10 @@
         "title": "Connect via RCON",
         "sidebar_label": "Connect via RCON"
       },
+      "rust_plugins": {
+        "title": "Plugins Install",
+        "sidebar_label": "Plugins Install"
+      },
       "scp_becomeadmin": {
         "title": "Become Admin",
         "sidebar_label": "Become Admin"
@@ -509,6 +561,10 @@
         "title": "Become Admin",
         "sidebar_label": "Become Admin"
       },
+      "unturned_firstthirdperson": {
+        "title": "1st/3rd Person",
+        "sidebar_label": "1st/3rd Person"
+      },
       "unturned_rocketmod_permissions": {
         "title": "Adjust Permissions",
         "sidebar_label": "Adjust Permissions"
@@ -516,6 +572,10 @@
       "unturned_rocketmod_plugins": {
         "title": "Install Plugins",
         "sidebar_label": "Install Plugins"
+      },
+      "unturned_whitelist": {
+        "title": "Whitelist",
+        "sidebar_label": "Whitelist"
       },
       "unturned_workshop": {
         "title": "Workshop Content",
@@ -525,9 +585,21 @@
         "title": "Admin Commands & Cheats",
         "sidebar_label": "Admin Commands & Cheats"
       },
+      "valheim_backup_schedule": {
+        "title": "Automated Backups",
+        "sidebar_label": "Automated Backups"
+      },
       "valheim_connect": {
         "title": "Connect to a Server",
         "sidebar_label": "Connect to a Server"
+      },
+      "valheim_plugins_bepinex": {
+        "title": "Install plugins (BepInEx)",
+        "sidebar_label": "Install plugins (BepInEx)"
+      },
+      "valheim_plus": {
+        "title": "Valheim Plus",
+        "sidebar_label": "Valheim Plus"
       },
       "valheim_savegame": {
         "title": "Manage Savegames",
@@ -536,6 +608,14 @@
       "valheim_serverlisting": {
         "title": "Server listing problems with Steam games that use Steamworks",
         "sidebar_label": "Serverlisting Problems"
+      },
+      "voiceserver_becomeadmin": {
+        "title": "Become Admin",
+        "sidebar_label": "Become Admin"
+      },
+      "voiceserver_configuration": {
+        "title": "Server configuration",
+        "sidebar_label": "Server configuration"
       },
       "voiceserver_query": {
         "title": "Teamspeak Query Login",
@@ -629,6 +709,10 @@
         "title": "SSL-Certificate (Let's Encrypt)",
         "sidebar_label": "SSL-Certificate (Let's Encrypt)"
       },
+      "vserver_linux_webserver": {
+        "title": "Install webserver",
+        "sidebar_label": "Install webserver"
+      },
       "vserver_network_analysis_winmtr": {
         "title": "Network analysis MTR/WinMTR",
         "sidebar_label": "Network analysis MTR/WinMTR"
@@ -689,6 +773,10 @@
         "title": "Discord forwarding via domain",
         "sidebar_label": "Discord forwarding via domain"
       },
+      "webspace_mybb": {
+        "title": "Install MyBB",
+        "sidebar_label": "Install MyBB"
+      },
       "webspace_plesk_ftp": {
         "title": "FTP Connection",
         "sidebar_label": "FTP Connection"
@@ -700,6 +788,14 @@
       "webspace_plesk_ssl": {
         "title": "Create SSL Certificate",
         "sidebar_label": "Create SSL Certificate"
+      },
+      "webspace_woltlab": {
+        "title": "Install Woltlab",
+        "sidebar_label": "Install Woltlab"
+      },
+      "webspace_wordpress": {
+        "title": "Install WordPress",
+        "sidebar_label": "Install WordPress"
       }
     },
     "links": {
@@ -734,7 +830,9 @@
       "Don't Starve Together": "Don't Starve Together",
       "Empyrion": "Empyrion",
       "Rust": "Rust",
-      "Among Us": "Among Us"
+      "Among Us": "Among Us",
+      "7 Days to Die": "7 Days to Die",
+      "Avorion": "Avorion"
     }
   },
   "pages-strings": {

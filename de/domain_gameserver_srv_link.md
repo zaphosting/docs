@@ -207,7 +207,7 @@ Der Wert **0** ist nicht weiter relevant und bleibt immer gleich. Das Feld **TTL
 
 Der fertige komplette SRV Eintrag sieht wie folgt aus:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/fP2QWwdTDzdWaWy/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/s8WskQR22GXAiCH/preview)
 
 Danach kannst du auf **Speichern** klicken.
 

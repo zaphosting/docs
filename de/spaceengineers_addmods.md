@@ -75,6 +75,7 @@ Hierzu kopieren wir den folgenden Inhalt und fügen Ihn dann wie im GIF gezeigt 
 	<ModItem>
 		<Name>12345.sbm</Name>
 		<PublishedFileId>12345</PublishedFileId>
+		<PublishedServiceName>Steam</PublishedServiceName>
 	</ModItem>
 ```
 

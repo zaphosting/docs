@@ -88,7 +88,8 @@
                     "vserver_linux_add_ip",
                     "vserver_linux_ssl",
                     "vserver_linux_rsync",
-                    "vserver_linux_jitsi"
+                    "vserver_linux_jitsi",
+                    "vserver_linux_webserver"
                 ]
             },
             {
@@ -129,12 +130,17 @@
                     "webspace_plesk_ftp",
                     "webspace_plesk_sendmail",
                     "webspace_plesk_ssl",
-                    "webspace_htaccess_discord"
+                    "webspace_htaccess_discord",
+                    "webspace_mybb",
+                    "webspace_woltlab",
+                    "webspace_wordpress"
                 ]
             }
         ],
         "Voicebot/Voiceserver": [
             "voiceserver_voicebot_connection",
+            "voiceserver_becomeadmin",
+            "voiceserver_configuration",
             "voiceserver_ts3backup",
             "voiceserver_query"
         ],
@@ -193,7 +199,8 @@
                     "fivem_deletecache",
                     "fivem_useprofiler",
                     "fivem_mastadon",
-                    "fivem_prohibited_resources"
+                    "fivem_prohibited_resources",
+                    "fivem_notlisted"
                 ]
             },
             {
@@ -232,6 +239,14 @@
                     "fivem_vrp_changemoneyicon",
                     "fivem_vrp_removespeedo"
                 ]
+            },
+            {
+                "type": "subcategory",
+                "label": "txAdmin",
+                "ids": [
+                    "fivem_txadmin_setup",
+                    "fivem_txadmin_features"
+                ]
             }
         ],
         "RageMP": [
@@ -266,6 +281,14 @@
             },
             {
                 "type": "subcategory",
+                "label": "Counter Strike 1.6",
+                "ids": [
+                    "cs16_becomeadmin",
+                    "cs16_plugins"
+                ]
+            },
+            {
+                "type": "subcategory",
                 "label": "Garry's Mod",
                 "ids": [
                     "gmod_servercfg",
@@ -285,7 +308,8 @@
         "ARK": [
             "ark_becomeadmin",
             "ark_mods",
-            "ark_serverlisting"
+            "ark_serverlisting",
+            "ark_configuration"
         ],
         "Assetto Corsa": [
             "assettocorsa_configure",
@@ -298,14 +322,17 @@
             "barotrauma_becomeadmin"
         ],
         "Conan Exiles": [
-            "conan_becomeadmin"
+            "conan_becomeadmin",
+            "conan_configuration"
         ],
         "Valheim": [
             "valheim_connect",
             "valheim_savegame",
             "valheim_backup_schedule",
             "valheim_serverlisting",
-            "valheim_admin"
+            "valheim_admin",
+            "valheim_plus",
+            "valheim_plugins_bepinex"
         ],
         "SCP: Secret Laboratory": [
             "scp_becomeadmin",
@@ -319,7 +346,8 @@
             }
         ],
         "ECO": [
-            "eco_becomeadmin"
+            "eco_becomeadmin",
+            "eco_whitelist"
         ],
         "Factorio": [
             "factorio_becomeadmin",
@@ -335,6 +363,8 @@
         "Unturned": [
             "unturned_becomeadmin",
             "unturned_workshop",
+            "unturned_firstthirdperson",
+            "unturned_whitelist",
             {
                 "type": "subcategory",
                 "label": "RocketMod",
@@ -352,10 +382,18 @@
         ],
         "Rust": [
             "rust_becomeadmin",
-            "rust_connectrcon"
+            "rust_connectrcon",
+            "rust_plugins"
         ],
         "Among Us": [
             "amongus_connection"
+        ],
+        "7 Days to Die": [
+            "7d2d_becomeadmin",
+            "7d2d_mods"
+        ],
+        "Avorion": [
+            "avorion_becomeadmin"
         ]
     }
 }
