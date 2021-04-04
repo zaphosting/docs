@@ -337,6 +337,8 @@
         "SCP: Secret Laboratory": [
             "scp_becomeadmin",
             "scp_newroles",
+            "scp_colored_servername",
+            "scp_pastebin",
             {
                 "type": "subcategory",
                 "label": "ServerMod",
@@ -383,7 +385,8 @@
         "Rust": [
             "rust_becomeadmin",
             "rust_connectrcon",
-            "rust_plugins"
+            "rust_plugins",
+            "rust_decay"
         ],
         "Among Us": [
             "amongus_connection"
