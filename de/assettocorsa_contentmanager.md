@@ -9,7 +9,7 @@ sidebar_label: Server Konfigurieren mit Content Manager
 
 ## Vorbereitung
 
-Zunächst öffnen wir unseren Content Manager, und klicken rechts oben auf das Sandvich Menü, dort wählen wir "Server":
+Zunächst öffnen wir unseren Content Manager, und klicken rechts oben auf das Sandwich Menü, dort wählen wir "Server":
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/55HGpBj2DqiiEam/preview)
 
@@ -19,13 +19,13 @@ Hier erstellen wir nun ein neues Preset und wählen dieses aus:
 
 ## Server Slots Einstellen
 
-Wir müssen zuerst einstellen, wie viel Kapzität unser Server hat, in unserem fall ist unser Server nur 10 Slots, daher wählen wir bei Capacity '10' aus:
+Wir müssen zuerst einstellen, wie viel Kapazität unser Server hat, in unserem Fall ist unser Server nur 10 Slots, daher wählen wir bei Capacity '10' aus:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/8F7D6FMYAzPnpyM/preview)
 
 ## Map Einstellen
 
-Hier wird Standardmäßig Imola als Map ausgewählt, indem wir auf die Map klicken, können wir unsere eigene Map auswählen:
+Hier wird standardmäßig Imola als Map ausgewählt, indem wir auf die Map klicken, können wir unsere eigene Map auswählen:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/xR3HPg5sZMHNo44/preview)
 
@@ -44,7 +44,7 @@ Nun wechseln wir in das Tab "Entry List", hier können wir nun neue Autos hinzuf
 
 ## FTP Upload Konfigurieren
 
-Über das "Advanced" Menü, können wir einen FTP-Uploader Konfigurieren, damit du deine Serverconfig mit einem Click hochladen kannst.
+Über das "Advanced" Menü können wir einen FTP-Uploader Konfigurieren, damit du deine Serverconfig mit einem Click hochladen kannst.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/sXTox6o95aJL2Lb/preview)
 
@@ -54,13 +54,13 @@ Hier gibst du nun deine FTP-Daten ein:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/S2gCrPBcaxAmXpr/preview)
 
-> **Achtung!** Im "Folder", muss die ID deines Gameservers angegeben werden, wie du sie in der URL deines Gameservers siehst:
+> **Achtung!** Im "Folder" muss die ID deines Gameservers angegeben werden, wie du sie in der URL deines Gameservers siehst:
 ![](https://screensaver01.zap-hosting.com/index.php/s/252NDecxs97wes5/preview)
 
-In unserem fall wäre das ganze 
+In unserem Fall wäre das Ganze dann:
 
 ```
 /g300395/assettocorsa/
 ```
 
-Danach kann auf "Upload Content" geklickt werden, die Config, Strecke und Autos, welche konfiguriert wurden, werden Automatisch hochgeladen, danach brauchst du nur noch deinen Server starten!
+Danach kann auf "Upload Content" geklickt werden, die Config, Strecke und Autos, welche konfiguriert wurden, werden automatisch hochgeladen, danach brauchst du nur noch deinen Server starten!
