@@ -40,9 +40,9 @@ After you do that, press **STR + F** and look for *admin*
 
 Now you write this:
 ```
-<Administrators >
+<Administrators>
 <unsignedLong>STEAM64ID</unsignedLong>
-</administrator>
+</Administrators>
 ````
 The whole thing should look like this afterwards:
 

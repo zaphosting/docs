@@ -108,5 +108,4 @@ For optimal use of the SSH client, it is essential to know the basic commands. I
 | netstat | Query status of network interfaces | netstat [OPTIONS] |
 | nslookup | Query DNS information | nslookup |
 | ping | Check network connection | ping [OPTIONS] DESTINATION
-| rmdir | Remove an existing directory | rmdir directoryname
 
