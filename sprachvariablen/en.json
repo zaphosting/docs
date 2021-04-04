@@ -501,6 +501,10 @@
         "title": "Connect via RCON",
         "sidebar_label": "Connect via RCON"
       },
+      "rust_decay": {
+        "title": "Modify Decay",
+        "sidebar_label": "Decay"
+      },
       "rust_plugins": {
         "title": "Plugins Install",
         "sidebar_label": "Plugins Install"
@@ -509,9 +513,17 @@
         "title": "Become Admin",
         "sidebar_label": "Become Admin"
       },
+      "scp_colored_servername": {
+        "title": "Colored Servername",
+        "sidebar_label": "Colored Servername"
+      },
       "scp_newroles": {
         "title": "Add new roles",
         "sidebar_label": "Add new roles"
+      },
+      "scp_pastebin": {
+        "title": "Pastebin ID",
+        "sidebar_label": "Pastebin ID"
       },
       "scpservermod_uploadplugins": {
         "title": "Install Plugins",
