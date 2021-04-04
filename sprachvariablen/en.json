@@ -109,6 +109,10 @@
         "title": "Configure Server",
         "sidebar_label": "Configure Server"
       },
+      "assettocorsa_contentmanager": {
+        "title": "Configure Server with Content Manager",
+        "sidebar_label": "Configure Server with Content Manager"
+      },
       "assettocorsa_mods": {
         "title": "Install Mods",
         "sidebar_label": "Install Mods"
