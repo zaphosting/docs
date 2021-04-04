@@ -4,8 +4,8 @@ title: Configure Server with Content Manager
 sidebar_label: Configure Server with Content Manager
 ---
 
-**Important** 
-> To manage the server with Content Manager, the full version is required, the lite version can *not* manage servers.
+
+> **Important** To manage the server with Content Manager, the full version is required, the lite version can *not* manage servers.
 
 
 ## Preparation
@@ -31,7 +31,7 @@ Here Imola is selected as map by default, by clicking on the map we can select o
 ![](https://screensaver01.zap-hosting.com/index.php/s/xR3HPg5sZMHNo44/preview)
 
 
-## Set cars
+## Set Cars
 
 Now we change to the tab "Entry List", here we can now add new cars:
 
