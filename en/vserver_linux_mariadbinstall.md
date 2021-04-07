@@ -24,7 +24,7 @@ This will update all packages. Afterwards you can upgrade the packages with the 
 The installation of MariaDB (MySQL) can be started with the following command: **apt install mariadb-server mariadb-client -y**
 
 
-## ⚙️ Konfiguration
+## ⚙️ Configuration
 
 Once the installation is complete, type in the following command to start the configuration of the server: **mysql_secure_installation**
 
