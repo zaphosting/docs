@@ -1,6 +1,7 @@
 ---
 id: eco_whitelist
-title: Whitelist
+title: ECO -Global Surival Server: Whitelist aktivieren
+description: Informationen wie du eine Whitelist für deinen ECO-Server bei ZAP-Hosting erstellst und verwaltest - ZAP-Hosting.com Dokumentationen
 sidebar_label: Whitelist
 
 ---
