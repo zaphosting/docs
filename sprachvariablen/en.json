@@ -125,6 +125,10 @@
         "title": "Become Admin",
         "sidebar_label": "Become Admin"
       },
+      "beammp_authkey": {
+        "title": "Create an Auth Key",
+        "sidebar_label": "Create an Auth Key"
+      },
       "community_info": {
         "title": "Community offers",
         "sidebar_label": "Community offers"
@@ -835,6 +839,7 @@
       "Assetto Corsa": "Assetto Corsa",
       "Assetto Corsa Competizione": "Assetto Corsa Competizione",
       "Barotrauma": "Barotrauma",
+      "BeamMP": "BeamMP",
       "Conan Exiles": "Conan Exiles",
       "Valheim": "Valheim",
       "SCP: Secret Laboratory": "SCP: Secret Laboratory",

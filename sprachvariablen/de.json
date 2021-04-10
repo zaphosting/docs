@@ -5,7 +5,16 @@
         "previous": "Zurück",
         "tagline": "ZAP-Hosting Dokumentation & Guides",
         "docs": {
-            "account_2factor": {
+
+            "7d2d_becomeadmin": {
+                "title": "Admin werden",
+                "sidebar_label": "Admin werden"
+              },
+              "7d2d_mods": {
+                "title": "Mods installieren",
+                "sidebar_label": "Mods installieren"
+              },
+              "account_2factor": {
                 "title": "Zwei-Faktor-Authentifizierung",
                 "sidebar_label": "Zwei-Faktor-Authentifizierung"
             },
@@ -69,6 +78,10 @@
                 "title": "Admin werden",
                 "sidebar_label": "Admin werden"
             },
+            "ark_configuration": {
+                "title": "Server Konfiguration",
+                "sidebar_label": "Server Konfiguration"
+              },
             "ark_mods": {
                 "title": "Mods installieren",
                 "sidebar_label": "Mods installieren"
@@ -97,14 +110,26 @@
                 "title": "Server Konfigurieren",
                 "sidebar_label": "Server Konfigurieren"
             },
+            "assettocorsa_contentmanager": {
+                "title": "Server Konfigurieren mit Content Manager",
+                "sidebar_label": "Server Konfigurieren mit Content Manager"
+              },
             "assettocorsa_mods": {
                 "title": "Mods Installieren",
                 "sidebar_label": "Mods Installieren"
             },
-            "barotrauma_becomeadmin": {
+            "avorion_becomeadmin": {
                 "title": "Admin werden",
                 "sidebar_label": "Admin werden"
-            },
+              },
+              "barotrauma_becomeadmin": {
+                "title": "Admin werden",
+                "sidebar_label": "Admin werden"
+              },
+              "beammp_authkey": {
+                "title": "Auth Key Erstellen",
+                "sidebar_label": "Auth Key Erstellen"
+              },
             "community_info": {
                 "title": "Community Angebote",
                 "sidebar_label": "Community Angebote"
@@ -113,10 +138,22 @@
                 "title": "Admin werden",
                 "sidebar_label": "Admin werden"
             },
+            "conan_configuration": {
+                "title": "Server Konfiguration",
+                "sidebar_label": "Server Konfiguration"
+              },
             "create_screenshots": {
                 "title": "Screenshots erstellen",
                 "sidebar_label": "Screenshots erstellen"
             },
+            "cs16_becomeadmin": {
+                "title": "Admin werden",
+                "sidebar_label": "Admin werden"
+              },
+              "cs16_plugins": {
+                "title": "Plugins installieren",
+                "sidebar_label": "Plugins installieren"
+              },
             "csgo_configuration": {
                 "title": "Server Konfiguration",
                 "sidebar_label": "Server Konfiguration"
@@ -169,6 +206,10 @@
                 "title": "Admin werden",
                 "sidebar_label": "Admin werden"
             },
+            "eco_whitelist": {
+                "title": "Whitelist",
+                "sidebar_label": "Whitelist"
+              },
             "empyrion_becomeadmin": {
                 "title": "Admin werden",
                 "sidebar_label": "Admin werden"
@@ -313,6 +354,14 @@
                 "title": "SQL Dateiimport",
                 "sidebar_label": "SQL Dateiimport"
             },
+            "fivem_txadmin_features": {
+                "title": "txAdmin Interface",
+                "sidebar_label": "txAdmin Interface"
+              },
+              "fivem_txadmin_setup": {
+                "title": "txAdmin Einrichtung",
+                "sidebar_label": "txAdmin Einrichtung"
+              },
             "fivem_upvotes": {
                 "title": "Upvotes",
                 "sidebar_label": "Upvotes"
@@ -461,14 +510,30 @@
                 "title": "Connect via RCON",
                 "sidebar_label": "Connect via RCON"
             },
+            "rust_decay": {
+                "title": "Decay verändern",
+                "sidebar_label": "Decay"
+              },
+              "rust_plugins": {
+                "title": "Plugins installieren",
+                "sidebar_label": "Plugins installieren"
+              },
             "scp_becomeadmin": {
                 "title": "Admin werden",
                 "sidebar_label": "Admin werden"
             },
+            "scp_colored_servername": {
+                "title": "Farbiger Servername",
+                "sidebar_label": "Farbiger Servername"
+              },
             "scp_newroles": {
                 "title": "Neue Rollen hinzufügen",
                 "sidebar_label": "Neue Rollen hinzufügen"
             },
+            "scp_pastebin": {
+                "title": "Pastebin ID",
+                "sidebar_label": "Pastebin ID"
+              },
             "scpservermod_uploadplugins": {
                 "title": "Plugins installieren",
                 "sidebar_label": "Plugins installieren"
@@ -513,10 +578,14 @@
                 "title": "Admin werden (tShock)",
                 "sidebar_label": "Admin werden (tShock)"
             },
-            "unturned_rocketmod_admin": {
-                "title": "Admin werden (Rocket Mod)",
-                "sidebar_label": "Admin werden (Rocket Mod)"
-            },
+            "unturned_becomeadmin": {
+                "title": "Admin werden",
+                "sidebar_label": "Admin werden"
+              },
+              "unturned_firstthirdperson": {
+                "title": "1st/3rd Person",
+                "sidebar_label": "1st/3rd Person"
+              },
             "unturned_rocketmod_permissions": {
                 "title": "Berechtigungen anpassen",
                 "sidebar_label": "Berechtigungen anpassen"
@@ -524,7 +593,12 @@
             "unturned_rocketmod_plugins": {
                 "title": "Plugins installieren",
                 "sidebar_label": "Plugins installieren"
+
             },
+            "unturned_whitelist": {
+                "title": "Whitelist",
+                "sidebar_label": "Whitelist"
+              },
             "unturned_workshop": {
                 "title": "Workshop Inhalte",
                 "sidebar_label": "Workshop Inhalte"
@@ -541,6 +615,14 @@
                 "title": "Zum Server Verbinden",
                 "sidebar_label": "Zum Server Verbinden"
             },
+            "valheim_plugins_bepinex": {
+                "title": "Plugin's installieren (BepInEx)",
+                "sidebar_label": "Plugin's installieren (BepInEx)"
+              },
+              "valheim_plus": {
+                "title": "Valheim Plus",
+                "sidebar_label": "Valheim Plus"
+              },
             "valheim_savegame": {
                 "title": "Savegames Verwalten",
                 "sidebar_label": "Savegames Verwalten"
@@ -549,6 +631,14 @@
                 "title": "Serverlisting Probleme bei Steam Spielen, die Steamworks nutzen",
                 "sidebar_label": "Serverlisting Probleme"
             },
+            "voiceserver_becomeadmin": {
+                "title": "Admin werden",
+                "sidebar_label": "Admin werden"
+              },
+              "voiceserver_configuration": {
+                "title": "Server Konfiguration",
+                "sidebar_label": "Server Konfiguration"
+              },
             "voiceserver_query": {
                 "title": "Teamspeak Query Login",
                 "sidebar_label": "Teamspeak Query Login"
@@ -641,6 +731,10 @@
                 "title": "SSL-Zertifikat (Let's Encrypt)",
                 "sidebar_label": "SSL-Zertifikat (Let's Encrypt)"
             },
+            "vserver_linux_webserver": {
+                "title": "Webserver installieren",
+                "sidebar_label": "Webserver installieren"
+              },
             "vserver_network_analysis_winmtr": {
                 "title": "Netzwerkanalyse MTR/WinMTR",
                 "sidebar_label": "Netzwerkanalyse MTR/WinMTR"
@@ -701,6 +795,10 @@
                 "title": "Discord Weiterleitung via Domain",
                 "sidebar_label": "Discord Weiterleitung via Domain"
             },
+            "webspace_mybb": {
+                "title": "MyBB installieren",
+                "sidebar_label": "MyBB installieren"
+              },
             "webspace_plesk_ftp": {
                 "title": "FTP Verbindung Anlegen",
                 "sidebar_label": "FTP Verbindung Anlegen"
@@ -712,7 +810,15 @@
             "webspace_plesk_ssl": {
                 "title": "SSL Zertifikat erstellen",
                 "sidebar_label": "SSL Zertifikat erstellen"
-            }
+            },
+            "webspace_woltlab": {
+                "title": "Woltlab installieren",
+                "sidebar_label": "Woltlab installieren"
+              },
+              "webspace_wordpress": {
+                "title": "WordPress installieren",
+                "sidebar_label": "WordPress installieren"
+              }
         },
         "links": {
             "Docs": "Docs"
@@ -735,6 +841,7 @@
             "Assetto Corsa": "Assetto Corsa",
             "Assetto Corsa Competizione": "Assetto Corsa Competizione",
             "Barotrauma": "Barotrauma",
+            "BeamMP": "BeamMP",
             "Conan Exiles": "Conan Exiles",
             "Valheim": "Valheim",
             "SCP: Secret Laboratory": "SCP: Secret Laboratory",
@@ -746,7 +853,9 @@
             "Don't Starve Together": "Don't Starve Together",
             "Empyrion": "Empyrion",
             "Rust": "Rust",
-            "Among Us": "Among Us"
+            "Among Us": "Among Us",
+            "7 Days to Die": "7 Days to Die",
+            "Avorion": "Avorion"
         }
     },
     "pages-strings": {
