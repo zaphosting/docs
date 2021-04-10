@@ -322,6 +322,9 @@
         "Barotrauma": [
             "barotrauma_becomeadmin"
         ],
+        "BeamMP": [
+            "beammp_authkey"
+        ],
         "Conan Exiles": [
             "conan_becomeadmin",
             "conan_configuration"
