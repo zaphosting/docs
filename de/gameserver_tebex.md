@@ -1,6 +1,7 @@
 ---
 id: gameserver_tebex
-title: TEBEX Gameserver Monetarisierung
+title: TEBEX Gameserver Monetarisierung einrichten
+description: Informationen wie du mit TEBEX mit deinem Gameserver von ZAP-Hosting Geld verdienen kannst und wie du TEBEX auf deinem Server einrichtest - ZAP-Hosting.com Dokumentationen
 sidebar_label: TEBEX Monetarisierung
 ---
 
