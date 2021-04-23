@@ -15,8 +15,9 @@ On our "[Refer a Friend](https://zap-hosting.com/de/customer/affiliate/)" page y
 ## The commissions
 Through the Refer a Friend program you will receive a sales commission of up to 50%. The exact sales commissions for all products can be found on the refer a friend page under "[conditions](https://zap-hosting.com/de/customer/affiliate/conditions/)".
 
-> The commission paid is a net value.
-This means that the VAT will be deducted from your displayed affiliate balance when the commission is paid out. 
+> The commission paid out is a net value.
+This means that you have to deduct the VAT from your displayed affiliate balance when paying out. You can do this by dividing the displayed amount by 1.19 (19% German VAT). Example: 100€ affiliate credit. To be invoiced are: 100 / 1,19 = 84,03€. If you pay out in ZAP Coins, you will receive the full amount.
+> If VAT has to be shown in the invoice, the full amount will be shown in the invoice including VAT. With an affiliate credit of 100€, an invoice of 100€, consisting of 84.03€ invoice amount and 15.97€ VAT will be sent. Non-German invoices generally will not have to add VAT to the invoice.
 
 ## Create affiliate link
 
