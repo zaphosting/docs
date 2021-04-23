@@ -1,7 +1,7 @@
 ---
 id: unturned_whitelist
-title: Unturned Rocketmod: Install plugins on server
-description: Information on how to install plugins on your Unturned Rocketmod server from ZAP-Hosting - ZAP-Hosting.com documentation
+title: Unturned: Activate and edit whitelist on server
+description: Information on how to activate and edit a whitelist on your Unturned server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Whitelist
 
 ---
