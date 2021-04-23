@@ -1,7 +1,7 @@
 ---
 id: fivem_installeup
-title: FiveM: Installing ELS on your server
-description: Information on how to install ELS on your FiveM server from ZAP-Hosting - ZAP-Hosting.com documentation
+title: FiveM: Install EUP on server
+description: Information on how to install EUP on your FiveM server from ZAP-Hosting.com - ZAP-Hosting.com documentation
 sidebar_label: Install EUP
 ---
 
