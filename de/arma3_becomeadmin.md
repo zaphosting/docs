@@ -30,7 +30,7 @@ Um das Passwort so wie die Steam64ID zu hinterlegen bearbeitest du deine server.
 
 Dort wird jeweils das Adminpasswort und/oder die Steam64ID hinterlegt, danach kann der Login im Spiel mit dem Befehl **#login** oder **#login passwort** erfolgen.
 
-Eine Liste mit Befehlen findest du hier: https://community.bistudio.com/wiki/Multiplayer_Server_Commands
+Eine Liste mit Befehlen findest du hier: [ArmA 3 Befehle](https://community.bistudio.com/wiki/Multiplayer_Server_Commands)
 
 
 
@@ -43,7 +43,7 @@ Diese Informationen erreichst du über das Menü deines Servers auf der linken S
 ![](https://screensaver01.zap-hosting.com/index.php/s/oZmzFpJEZknNE9Q/preview)
 ![](https://screensaver01.zap-hosting.com/index.php/s/RstZtd3FYZQNQoP/preview)
 
-Für die Verbindung kannst du nun ein **RCON Tool** nutzen, am besten dafür eignet sich das kostenlose Tool **EPM RCON**: https://native-network.net/downloads/file/153-epm-rcon-tool/
+Für die Verbindung kannst du nun ein **RCON Tool** nutzen, am besten dafür eignet sich das kostenlose Tool **EPM RCON**: [EPM RCON Tool](https://native-network.net/downloads/file/153-epm-rcon-tool/)
 
 Im Tool klickst du auf **Connect** un dim Anschluss auf **Connect to**, dort kannst du dann IP Adressem RCON Port und dein RCON Passwort eingeben:
 
