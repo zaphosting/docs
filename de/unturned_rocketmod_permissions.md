@@ -1,6 +1,6 @@
 ---
 id: unturned_rocketmod_permissions
-title: Untunred Rocketmod: Server-Berechtigungen anpassen
+title: Unturned Rocketmod: Server-Berechtigungen anpassen
 description: Informationen, wie du die Berechtigungen für deinen Unturned Rocketmod Server von ZAP-Hosting anpassen kannst - ZAP-Hosting.com Dokumentationen
 sidebar_label: Berechtigungen anpassen
 ---
