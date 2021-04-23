@@ -1,6 +1,7 @@
 ---
 id: unturned_rocketmod_plugins
-title: Install Plugins
+title: Unturned Rocketmod: Adjusting server permissions
+description: Information on how to customise the permissions for your Unturned Rocketmod server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Install Plugins
 ---
 
