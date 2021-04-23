@@ -1,6 +1,6 @@
 ---
 id: unturned_becomeadmin
-title: Unturnded: Server-Admin werden
+title: Unturned: Server-Admin werden
 description: Informationen, wie du dich zum Admin auf deinem Unturned-Server von ZAP-Hosting machen kannst - ZAP-Hosting.com Dokumentationen
 sidebar_label: Admin werden
 ---
