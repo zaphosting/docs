@@ -1,6 +1,7 @@
 ---
 id: gameserver_gameswitch
-title: Change the game
+title: Gameserver: Game switching with the gameservercloud
+description: Information on how to install more games on your gameserver from ZAP-Hosting.com and how to switch between games - ZAP-Hosting.com documentation
 sidebar_label: Change the game
 
 ---
