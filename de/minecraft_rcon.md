@@ -1,7 +1,7 @@
 ---
 id: minecraft_rcon
 title: Minecraft Server: RCON verwenden
-Informationen, wie du RCON mit deinem Minecraft-Server von ZAP-Hosting verwendest, um deinen Server zu verwalten - ZAP-Hosting.com Dokumentationen
+description: Informationen, wie du RCON mit deinem Minecraft-Server von ZAP-Hosting verwendest, um deinen Server zu verwalten - ZAP-Hosting.com Dokumentationen
 sidebar_label: RCON
 ---
 
