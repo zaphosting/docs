@@ -1,6 +1,7 @@
 ---
 id: terraria_tmodloader_installmod
-title: Mod Installation (tModLoader)
+title: Terraria: Installing mods on servers (tModLoader)
+description: Information on how to install mods on your Terraria server using tModLoader - ZAP-Hosting.com documentation
 sidebar_label: Mod Installation (tModLoader)
 ---
 
