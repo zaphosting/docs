@@ -1,6 +1,7 @@
 ---
 id: vserver_windows_nointernet
-title: No Internet what now?
+title: VPS: No internet access on Windows Server. What now?
+description: Information on how to solve problems when your Windows VPS from ZAP-Hosting does not show Internet access - ZAP-Hosting.com documentation
 sidebar_label: No Internet what now?
 ---
 
