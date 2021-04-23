@@ -1,6 +1,7 @@
 ---
 id: account_vouchers
-title: Coupons & Codes
+title: Vouchers & Coupon Codes - Save money with vouchers
+description: Information on how to redeem vouchers for ZAP Coins or a price reduction for servers - ZAP-Hosting.com Documentation
 sidebar_label: Coupons & Codes
 ---
 
