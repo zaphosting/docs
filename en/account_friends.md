@@ -1,6 +1,7 @@
 ---
 id: account_friends
-title: Refer a Friend
+title: Refer friends and earn money with ZAP-Hosting
+description: How to earn money with ZAP-Hosting by referring friends - ZAP-Hosting.com documentations
 sidebar_label: Refer a Friend
 ---
 
