@@ -1,6 +1,7 @@
 ---
 id: 7d2d_mods
-title: Install Mods
+title: How to install 7 Days to Die mods on your server - ZAP-Hosting's game server
+description: How to install mods on a 7 Days to Die game server - ZAP-Hosting.com documentations 
 sidebar_label: Install Mods
 ---
 
