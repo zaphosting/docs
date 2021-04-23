@@ -1,6 +1,7 @@
 ---
 id: vserver_linux_sftp
-title: Connect via SFTP
+title: VPS:Connecting to Linux Server via SFTP
+description: Information on how to connect via SFTP to your Linux VPS from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: SFTP Connection
 ---
 
