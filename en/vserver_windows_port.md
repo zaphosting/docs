@@ -1,7 +1,7 @@
 ---
 id: vserver_windows_port
-title: VPS: Unblocking ports on Windows servers
-description: Information on how to share ports on your Windows VPS from ZAP-Hosting - ZAP-Hosting.com documentation
+title: VPS: Forwarding ports on Windows servers
+description: Information on how to forward ports on your Windows VPS from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Port Forwarding
 ---
 
