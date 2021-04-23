@@ -1,6 +1,7 @@
 ---
 id: suggestions
-title: Submit Suggestions
+title: Submit suggestions for new game servers and features on ZAP-Hosting
+description: Information on how to submit suggestions for new game servers and features on ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Submit Suggestions
 ---
 ## Submit Suggestions
