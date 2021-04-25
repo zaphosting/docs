@@ -18,7 +18,7 @@ Und dafür brauchst du keinerlei Erfahrung mit dem Umgang von Linux!
 ## Installation
 Um das Gameserver-Webinterface zu installieren. Wähle diesen Menüpunkt in deinen Einstellungen aus.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/x96e7cQ99WQ9e4e/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/9QRTqYGkPXF5kw5/preview)
 
 Wir landen in unserem Setup-Assistenten, welcher uns dazu auffordert einen SSH-Key zu generieren.
 Klicke einfach auf "SSH-Key generieren" dann öffnet sich dieses Fenster:
@@ -692,5 +692,3 @@ Im folgenden kommt eine Auflistung der Spiele, die du mit dem Interface aktuell 
 ![]( https://zap-hosting.com/interface/_images/icons/litw-hungry-icon.png) Life in the Woods: Renaissance Hungry
 
 ![]( https://zap-hosting.com/interface/_images/icons/litw-after-human-icon.png) Life in the Woods: Gronkh's After Humans 1.7.10
-
-
