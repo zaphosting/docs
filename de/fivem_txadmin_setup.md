@@ -4,6 +4,9 @@ title: txAdmin Einrichtung
 sidebar_label: txAdmin Einrichtung
 ---
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dGXEj_06WEw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
 ## Was genau ist txAdmin?
 
 txAdmin ist ein Interface für FiveM Server, welches unter anderem ein Server-Installer, Admin- und Management Interface ist.
