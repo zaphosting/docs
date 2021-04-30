@@ -161,6 +161,10 @@
         "title": "GOTV",
         "sidebar_label": "GOTV"
       },
+      "dedicated_ilo": {
+        "title": "iLO",
+        "sidebar_label": "iLO"
+      },
       "dedicated_remote": {
         "title": "iLO Remote Consoles",
         "sidebar_label": "iLO Remote Consoles"
