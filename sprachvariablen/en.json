@@ -93,6 +93,14 @@
         "title": "Altis Life Ranks",
         "sidebar_label": "Altis Life Ranks"
       },
+      "arma3_gamemode": {
+        "title": "Change game mode",
+        "sidebar_label": "Change game mode"
+      },
+      "arma3_missionfile": {
+        "title": "Upload your own mission file",
+        "sidebar_label": "Upload your own mission file"
+      },
       "arma3_mods": {
         "title": "Install Mods",
         "sidebar_label": "Install Mods"
@@ -160,6 +168,14 @@
       "csgo_gotv": {
         "title": "GOTV",
         "sidebar_label": "GOTV"
+      },
+      "dedicated_ilo": {
+        "title": "iLO",
+        "sidebar_label": "iLO"
+      },
+      "dedicated_remote": {
+        "title": "iLO Remote Consoles",
+        "sidebar_label": "iLO Remote Consoles"
       },
       "docs_intern": {
         "title": "Docs Erstellen -- Intern",
