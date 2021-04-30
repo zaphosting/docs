@@ -93,6 +93,14 @@
         "title": "Altis Life Ranks",
         "sidebar_label": "Altis Life Ranks"
       },
+      "arma3_gamemode": {
+        "title": "Change game mode",
+        "sidebar_label": "Change game mode"
+      },
+      "arma3_missionfile": {
+        "title": "Upload your own mission file",
+        "sidebar_label": "Upload your own mission file"
+      },
       "arma3_mods": {
         "title": "Install Mods",
         "sidebar_label": "Install Mods"
