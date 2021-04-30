@@ -302,7 +302,9 @@
             "ids": [
                 "arma3_serverconfig",
                 "arma3_mods",
-                "arma3_altislife_ranks"
+                "arma3_altislife_ranks",
+                "arma3_gamemode",
+                "arma3_missionfile"
             ]
         }],
         "ARK": [
