@@ -108,6 +108,10 @@
                 ]
             }
         ],
+        "Dedicated Server": [
+            "dedicated_remote",
+            "dedicated_ilo"
+        ],
         "Webspace & Domains": [{
                 "type": "subcategory",
                 "label": "Domain",
