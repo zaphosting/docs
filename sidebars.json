@@ -1,18 +1,26 @@
 {
     "docs": {
         "Overview": [{
-            "type": "subcategory",
-            "label": "First Steps",
-            "ids": [
-                "firststeps_register",
-                "firststeps_rent_contractorprepaid",
-                "preorders",
-                "firststeps_rent_location",
-                "firststeps_problem_melden",
-                "community_info",
-                "suggestions"
-            ]
-        }],
+                "type": "subcategory",
+                "label": "First Steps",
+                "ids": [
+                    "firststeps_register",
+                    "firststeps_rent_contractorprepaid",
+                    "preorders",
+                    "firststeps_rent_location",
+                    "community_info",
+                    "suggestions"
+                ]
+            },
+            {
+                "type": "subcategory",
+                "label": "Support",
+                "ids": [
+                    "firststeps_problem_melden",
+                    "create_screenshots"
+                ]
+            }
+        ],
         "Account": [
             "account_contractsandprepaid",
             "account_termination_and_cancellation_period",
@@ -51,7 +59,8 @@
             "gameserver_ftpaccess",
             "gameserver_restartplaner",
             "gameserver_backups",
-            "gameserver_server_down_what_now"
+            "gameserver_server_down_what_now",
+            "gameserver_tebex"
         ],
         "vServer & Rootserver": [
             "vserver_root_unterschied",
@@ -79,8 +88,8 @@
                     "vserver_linux_add_ip",
                     "vserver_linux_ssl",
                     "vserver_linux_rsync",
-                    "vserver_linux_jitsi"
-
+                    "vserver_linux_jitsi",
+                    "vserver_linux_webserver"
                 ]
             },
             {
@@ -121,12 +130,17 @@
                     "webspace_plesk_ftp",
                     "webspace_plesk_sendmail",
                     "webspace_plesk_ssl",
-                    "webspace_htaccess_discord"
+                    "webspace_htaccess_discord",
+                    "webspace_mybb",
+                    "webspace_woltlab",
+                    "webspace_wordpress"
                 ]
             }
         ],
         "Voicebot/Voiceserver": [
             "voiceserver_voicebot_connection",
+            "voiceserver_becomeadmin",
+            "voiceserver_configuration",
             "voiceserver_ts3backup",
             "voiceserver_query"
         ],
@@ -185,10 +199,10 @@
                     "fivem_deletecache",
                     "fivem_useprofiler",
                     "fivem_mastadon",
-                    "fivem_prohibited_resources"
+                    "fivem_prohibited_resources",
+                    "fivem_notlisted"
                 ]
             },
-            
             {
                 "type": "subcategory",
                 "label": "Resources & Mods",
@@ -216,7 +230,6 @@
                     "fivem_esx_changejobgarages",
                     "fivem_esx_changerespawnpoint",
                     "fivem_editlocalfiles"
-
                 ]
             },
             {
@@ -225,7 +238,14 @@
                 "ids": [
                     "fivem_vrp_changemoneyicon",
                     "fivem_vrp_removespeedo"
-
+                ]
+            },
+            {
+                "type": "subcategory",
+                "label": "txAdmin",
+                "ids": [
+                    "fivem_txadmin_setup",
+                    "fivem_txadmin_features"
                 ]
             }
         ],
@@ -261,8 +281,17 @@
             },
             {
                 "type": "subcategory",
+                "label": "Counter Strike 1.6",
+                "ids": [
+                    "cs16_becomeadmin",
+                    "cs16_plugins"
+                ]
+            },
+            {
+                "type": "subcategory",
                 "label": "Garry's Mod",
                 "ids": [
+                    "gmod_servercfg",
                     "gmod_ttt"
                 ]
             }
@@ -278,23 +307,53 @@
         }],
         "ARK": [
             "ark_becomeadmin",
-            "ark_mods"
+            "ark_mods",
+            "ark_serverlisting",
+            "ark_configuration"
         ],
         "Assetto Corsa": [
             "assettocorsa_configure",
+            "assettocorsa_contentmanager",
             "assettocorsa_mods"
         ],
         "Assetto Corsa Competizione": [
             "assetto_competizione_becomeadmin"
-        ],        
+        ],
         "Barotrauma": [
             "barotrauma_becomeadmin"
         ],
+        "BeamMP": [
+            "beammp_authkey"
+        ],
         "Conan Exiles": [
-            "conan_becomeadmin"
-        ],        
+            "conan_becomeadmin",
+            "conan_configuration"
+        ],
+        "Valheim": [
+            "valheim_connect",
+            "valheim_savegame",
+            "valheim_backup_schedule",
+            "valheim_serverlisting",
+            "valheim_admin",
+            "valheim_plus",
+            "valheim_plugins_bepinex"
+        ],
+        "SCP: Secret Laboratory": [
+            "scp_becomeadmin",
+            "scp_newroles",
+            "scp_colored_servername",
+            "scp_pastebin",
+            {
+                "type": "subcategory",
+                "label": "ServerMod",
+                "ids": [
+                    "scpservermod_uploadplugins"
+                ]
+            }
+        ],
         "ECO": [
-            "eco_becomeadmin"
+            "eco_becomeadmin",
+            "eco_whitelist"
         ],
         "Factorio": [
             "factorio_becomeadmin",
@@ -310,23 +369,16 @@
         "Unturned": [
             "unturned_becomeadmin",
             "unturned_workshop",
-             {
-            "type": "subcategory",
-            "label": "RocketMod",
-            "ids": [
-                "unturned_rocketmod_plugins",
-                "unturned_rocketmod_permissions"
-            ]}
-        ],
-        "SCP: Secret Laboratory": [
-            "scp_becomeadmin",
-            "scp_newroles",
+            "unturned_firstthirdperson",
+            "unturned_whitelist",
             {
-            "type": "subcategory",
-            "label": "ServerMod",
-            "ids": [
-                "scpservermod_uploadplugins"
-            ]}
+                "type": "subcategory",
+                "label": "RocketMod",
+                "ids": [
+                    "unturned_rocketmod_plugins",
+                    "unturned_rocketmod_permissions"
+                ]
+            }
         ],
         "Don't Starve Together": [
             "dst_create_cave"
@@ -336,10 +388,19 @@
         ],
         "Rust": [
             "rust_becomeadmin",
-            "rust_connectrcon"
+            "rust_connectrcon",
+            "rust_plugins",
+            "rust_decay"
         ],
         "Among Us": [
             "amongus_connection"
+        ],
+        "7 Days to Die": [
+            "7d2d_becomeadmin",
+            "7d2d_mods"
+        ],
+        "Avorion": [
+            "avorion_becomeadmin"
         ]
     }
 }

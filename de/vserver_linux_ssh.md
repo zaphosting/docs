@@ -109,4 +109,3 @@ Für eine optimale Nutzung des SSH-Clients ist es unerlässlich, die Grundbefehl
 | netstat  | Status der Netzwerkschnittstellen abfragen        | netstat [OPTIONEN]                        |
 | nslookup | DNS-Informationen abfragen                        | nslookup                                  |
 | ping     | Netzverbindung prüfen                             | ping [OPTIONEN] ZIEL                      |
-| rmdir    | Entfernt einen bestehenden Ordner                 | rmdir directoryname                       |
