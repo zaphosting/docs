@@ -533,6 +533,10 @@
         "title": "Plugins Install",
         "sidebar_label": "Plugins Install"
       },
+      "satisfactory_connect": {
+        "title": "Connect to the Server",
+        "sidebar_label": "Connect to the Server"
+      },
       "scp_becomeadmin": {
         "title": "Become Admin",
         "sidebar_label": "Become Admin"
@@ -849,6 +853,7 @@
       "FiveM": "FiveM",
       "RageMP": "RageMP",
       "Alt:V": "Alt:V",
+      "Satisfactory": "Satisfactory",
       "Terraria": "Terraria",
       "Source Games": "Source Games",
       "ArmA 3": "ArmA 3",
