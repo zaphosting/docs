@@ -518,9 +518,13 @@
                 "title": "Plugins installieren",
                 "sidebar_label": "Plugins installieren"
               },
-            "scp_becomeadmin": {
+             "scp_becomeadmin": {
                 "title": "Admin werden",
                 "sidebar_label": "Admin werden"
+            },
+            "satisfactory_connect": {
+                "title": "Zum Server verbinden",
+                "sidebar_label": "Zum Server verbinden"
             },
             "scp_colored_servername": {
                 "title": "Farbiger Servername",
