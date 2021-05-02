@@ -66,5 +66,5 @@ Du findest das HUB ganz einfach in dem du dich an der Markierung im Spiel orient
 ![](https://screensaver01.zap-hosting.com/index.php/s/EfmqDj78SiTeNtf/preview)
 
 ## Autosave
-Dein Server speichert alle 5 Minuten automatisch, du kannst alle Saves sehen im Savegame-Manager sehen.
-Es werden immer die letzten 6 Saves behalten, was 30 Minuten deines Fortschritts entsprechen.
+Dein Server speichert alle 5 Minuten automatisch, du kannst alle Saves sehen im Savegame-Manager sehen. Es werden immer die letzten 6 Autosaves deines Servers behalten. Wenn du
+deinen Server stoppst, kopiert er das aktuelle Autosave automatisch über dein aktives Savegame, damit beim nächsten Server Start auch der aktuelle Fortschritt geladen wird.
