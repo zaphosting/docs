@@ -42,3 +42,4 @@ As on the HTML5 console, the iso file is also directly mounted in the applicatio
 The difference between "Image File CD/DVD-ROM" and "URL CD/DVD-ROM" is that you can mount a iso file which is uploaded to a server/webspace or directly choose with "Image File CD/DVD-ROM" a file from your computer, without uploading it somewhere.
 
 When you choosed your iso file, its required to reboot the server.
+
