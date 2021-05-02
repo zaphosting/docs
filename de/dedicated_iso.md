@@ -43,3 +43,4 @@ Wie auch bei der HTML5 Console wird die ISO-Datei auch in der Java Console direk
 Der Unterschied zwischen "Image File CD/DVD-ROM" und "URL CD/DVD-ROM" ist wie auch bei der HTML5-Console das über "Image File CD/DVD-ROM" direkt eine Datei von deinem Computer hochgeladen werden kann.
 
 Nach erfolgtem Laden der ISO-Datei muss der Server neugestartet werden.
+
