@@ -173,6 +173,10 @@
         "title": "iLO",
         "sidebar_label": "iLO"
       },
+      "dedicated_iso": {
+        "title": "Own ISO",
+        "sidebar_label": "Own ISO"
+      },
       "dedicated_remote": {
         "title": "iLO Remote Consoles",
         "sidebar_label": "iLO Remote Consoles"
