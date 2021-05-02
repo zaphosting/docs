@@ -166,6 +166,14 @@
                 "title": "Docs Erstellen -- Intern",
                 "sidebar_label": "Docs Erstellen -- Intern"
             },
+             "dedicated_iso": {
+                "title": "Eigene ISO",
+                "sidebar_label": "Eigene ISO"
+             },
+             "dedicated_remote": {
+                "title": "iLO Remote Consolen",
+                "sidebar_label": "iLO Remote Consolen"
+            },
             "domain_easydns": {
                 "title": "EasyDNS",
                 "sidebar_label": "EasyDNS"
