@@ -110,7 +110,8 @@
         ],
         "Dedicated Server": [
             "dedicated_remote",
-            "dedicated_ilo"
+            "dedicated_ilo",
+            "dedicated_iso"
         ],
         "Webspace & Domains": [{
                 "type": "subcategory",
