@@ -259,6 +259,9 @@
         "Alt:V": [
             "altv_installresources"
         ],
+        "Satisfactory": [
+            "satisfactory_connect"
+        ],
         "Terraria": [
             "terraria_tshock_add_admin",
             "terraria_tmodloader_installmod"
