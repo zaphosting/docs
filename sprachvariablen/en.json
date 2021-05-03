@@ -541,6 +541,10 @@
         "title": "Connect to the Server",
         "sidebar_label": "Connect to the Server"
       },
+      "satisfactory_savegame": {
+        "title": "Savegame-Manager",
+        "sidebar_label": "Savegame-Manager"
+      },
       "scp_becomeadmin": {
         "title": "Become Admin",
         "sidebar_label": "Become Admin"
