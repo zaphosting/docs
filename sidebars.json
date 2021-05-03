@@ -261,9 +261,7 @@
             "altv_installresources"
         ],
         "Satisfactory": [
-            "satisfactory_connect"
-        ],
-        "Satisfactory": [
+            "satisfactory_connect",
             "satisfactory_savegame"
         ],
         "Terraria": [
