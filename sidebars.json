@@ -109,9 +109,10 @@
             }
         ],
         "Dedicated Server": [
-            "dedicated_remote",
             "dedicated_ilo",
-            "dedicated_iso"
+            "dedicated_remote",
+            "dedicated_iso",
+            "dedicated_windows.md"
         ],
         "Webspace & Domains": [{
                 "type": "subcategory",
