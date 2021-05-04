@@ -112,7 +112,7 @@
             "dedicated_ilo",
             "dedicated_remote",
             "dedicated_iso",
-            "dedicated_windows.md"
+            "dedicated_windows"
         ],
         "Webspace & Domains": [{
                 "type": "subcategory",
