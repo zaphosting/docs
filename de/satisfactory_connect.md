@@ -3,6 +3,9 @@ id: satisfactory_connect
 title: Zum Server verbinden
 sidebar_label: Zum Server binden
 ---
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/EC4FXT5Mwb8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 > Nutzer eines QWERTY Layouts müssen diese Schritte nicht machen, lediglich STRG + SHIFT + L drücken und mit ~ die Console öffnen
 
 Um auf deinen Satisfactory-Gameserver zu verbinden musst du die Console des Spiels öffnen. Hierzu gibt es zwei verschiedene Wege.
