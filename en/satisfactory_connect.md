@@ -3,6 +3,9 @@ id: satisfactory_connect
 title: Connect to the Server
 sidebar_label: Connect to the Server
 ---
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/EC4FXT5Mwb8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 > If you're already using a QWERTY keyboard layout, you must not do these steps, just press CTRL + SHIFT + L and open the Console with ~
 
 To connect to your Satisfactory Server, its required to open the console of the game, there are two ways on how to do that.
