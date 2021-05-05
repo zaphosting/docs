@@ -3,6 +3,9 @@ id: satisfactory_savegame
 title: Savegame-Manager
 sidebar_label: Savegame-Manager
 ---
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/EC4FXT5Mwb8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 You can easily modify savegames through our interface, with only a few clicks you can upload your own savegame.
 Navigate to "Savegame-Manager" in your servers dashboard. 
 
