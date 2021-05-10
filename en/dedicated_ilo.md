@@ -72,7 +72,7 @@ The server will now load your inserted ISO.
 ### Power Management
 In this menu item you can do everything concerning starting & stopping your ZAP Dedicated Server. 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/gzp2Cxg3nQC2Q8G)
+![](https://screensaver01.zap-hosting.com/index.php/s/gzp2Cxg3nQC2Q8G/preview)
 
 * Gracefull Power Off
 Gracefully shuts down your server, the same result as pressing the power button of your notebook/computer once.
