@@ -72,7 +72,7 @@ Der Server wird nach dem Neustart deines eingelegte ISO laden.
 ### Power Management
 In diesem Menüpunkt kann alles gemacht werden was das Starten & Stoppen deines ZAP Dedicated Servers betrifft. 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/gzp2Cxg3nQC2Q8G)
+![](https://screensaver01.zap-hosting.com/index.php/s/gzp2Cxg3nQC2Q8G/preview)
 
 * Gracefull Power Off
 Fährt deinen Server schonend herunter, das selbe Ergebnis wie wenn die Power Taste deines Notebooks/Computers einmal kurz gedrückt wird.
