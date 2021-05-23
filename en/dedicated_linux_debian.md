@@ -1,4 +1,4 @@
---
+---
 id: dedicated_linux_debian
 title: Install Debian
 sidebar_label: Install Debian
