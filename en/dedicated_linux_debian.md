@@ -1,186 +1,238 @@
----
+--
 id: dedicated_linux_debian
 title: Install Debian
 sidebar_label: Install Debian
 ---
-> In diesem Beispiel wird die Installation von Debian 10 durchgeführt
+> In this example, the installation of Debian 10 is performed
 
-## Vorbereitungen
-Wähle in deinem ZAP-Interface die gewünschte ISO von Debian aus und lasse den Server mit der ISO booten, bis dieser im Setup ist.
+## 📋 Preparations
+In your ZAP interface, select the desired ISO of Debian and let the server boot with the ISO until it is in the setup process.
 
-> Die Navigation im Setup Prozess erfolgt mit TAB, Leertaste und Enter.
-> TAB = Zwischen Menüpunkten wechseln, Leertaste = markieren, Enter = Bestätigen
+> Navigation in the setup process is done with TAB, Space and Enter.
+> TAB = switch between items, Space = highlight, Enter = confirm
 
-## Das Setup
-### Vorbereitungen
-Wenn die ISO erfolgreich geladen wurde ist der Server erfolgreich im Setup.
+***
+
+## ⌚ The setup
+When the ISO is successfully loaded, the server is in the setup process.
+
 ![](https://screensaver01.zap-hosting.com/index.php/s/xBid8JHQYrnEAHw/preview)
 
-In diesem Beispiel durchlaufen wir den Installations-Prozess mit dem "klassischen" Install.
+In this example, we will go through the installation process using the "classic" install.
+
+***
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/mpNtF7dPnyGSaXW/preview)
 
-Wähle die gewünschte Sprache des Installations-Setups und auch deines Systems aus.
+Select your desired language in which the installation wizard will be displayed.
+Keep in mind that this language will later affect the installed system in the end.
+
+***
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/H9oKPoij5PZGzt4/preview)
 
-Da unsere Zeitzone nicht aufgeführt ist, wählen wir "Other"
+Our desired location is not in the first selection page, so we go to the next page with "Other".
+
+***
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/6MqRL3q86ZQKLnc/preview)
 
-In unserem Fall wählen wir Europe und bestätigen mit Enter.
+In our example we select the "Europe" option.
+
+***
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/eF4LZZcEtA37NTo/preview)
 
-Abhängig von der gewünschten Zeitzone, wählen wir die Deutsche Zeitzone.
+Depending on the desired time zone, we choose the german time zone in this example.
+
+***
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/P3yYYppRS9WzXmX/preview)
 
-Wir wählen United States als locale.
+We choose United States as locale.
+
+***
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/SQYySTyANQSmCyn/preview)
 
-In unserem Fall wählen wir das deutsche Tastaturlayout (QWERTZ)
+In our case we choose the German keyboard layout which is the QWERTZ layout.
+If you're from America the default layout would by QWERTY
 
-Dein Server bereitet nun einige für die Installation notwendige Komponenten vor, dies kann einen Augenblick in Anspruch nehmen.
+> Your server is now preparing some components which are necessary for the installation, this can take a few minutes.
 
-### Konfigurationen
+### 🔧 Configurations
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/A498pCB6wYoxq4q/preview)
 
-Dein Server konfiguiert alle Netzwerkkonfigurationen via DHCP, wähle "eno1" als Netzwerkinterface.
+Your server configures its network interface automatically by using dhcp.
+Select `eno1` this is the default network adapter of your ZAP Dedicated Server.
+
+***
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/7F8qJHEBAnDby8i/preview)
 
-Der Hostname kann von dir beliebig verändert werden, muss jedoch nicht angepasst werden.
+The hostname can be modified if you'd like to, but does not need to be changed.
+
+***
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/kQQfeLFB8j9GMys/preview)
 
-Der Domain Name muss ebenfalls nicht verändert werden.
+The domain name does not have to be changed either.
+
+***
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/HA9dxxopPrMKxJr/preview)
 
-Hier muss das Passwort für deinen "Root" Account gesetzt werden, notiere dir das gewählte Passwort unbedingt.
+Here you have to set the password for your "root" account, make a note of the chosen password.
+
+***
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/baisp9KTsWSrg75/preview)
 
-Zur Bestätigung muss das Passwort erneut eingegeben werden.
+To confirm the password you have to enter it again.
+
+***
+
+> The installation wizard asks you to create a second user account
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/WW5bySQkwXpggNm/preview)
 
-Gib nun den Namen des Besitzers für ein normales Nutzerkonto ein, du kannst hier natürlich frei wählen.
-Du kannst natürlich nach dem Setup das "Root" Konto benutzen.
+Now enter the name of the owner for a normal user account, you can of course freely choose what you'd like to enter here.
+
+> You can of course use the "root" account in the end
+
+***
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/JjAdtZCpDjCXqw7/preview)
 
-Gib nun den Nutzernamen des Kontos ein.
-Wähle außerdem ein Passwort deiner Wahl und bestätige dies nochmals.
+Now enter the username of the account.
+Also choose a password of your choice and confirm it again.
 
-Dein Server bereitet nun den nächsten Installationsabschnitt vor.
+Your server will now prepare the next installation steps.
 
-### Partitionierung
+### 💾 Partitioning
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/k4NCSf4fX4LPC5s/preview)
 
-Du hast nun die Möglichkeit nach Wunsch Partitionen anzulegen oder alternativ die ganze SSD als 1 Partition zu nutzen.
-Solltest du nichts an der Partition verändern wollen wähle einfach "Guided - Use entire disk"
+You have now the possibility to create partitions or alternatively to use the whole ssd as 1 partition.
+If you don't want to change anything on the partition just choose "Guided - Use entire disk".
+
+***
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/JKmKXDNKgSWsq7e/preview)
 
-Wähle deine SSD
+Select the ssd which is installed in your server.
+
+***
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/Py2N7bjAiGQDCJr/preview)
 
-Grundsätzlich ist es ausreichend wenn die komplette Struktur auf einer Partition abgespeichert wird.
+Basically it is fine if the complete structure is stored on one partition.
+
+***
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/H9NnqCEj4SecmwA/preview)
 
-Wir bestätigen die Konfiguration mit "Finish partitioning and write changes to disk"
+We confirm the configuration with "Finish partitioning and write changes to disk".
 
-> Sollten alte Partitionen auf deiner SSD vorhanden sein bestätigen wir das überschreiben einfach mit "Yes"
+> If there are old partitions on your ssd we confirm the overwrite with "Yes".
 
-Dein Server führt nun die Partitionierung durch und bereitet die Installation des Systems vor.
+Your server now performs the partitioning and prepares the installation of the system.
 
-### Installation des Systems
+### 💻 Installation of the operating system
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/r6bSFtZHxxQdTdc/preview)
 
-Solltest du noch andere Installationsmedien beispielsweise für bestimmte Pakete einbinden wollen, könnte das nun geschehen.
-Im Regelfall kannst du jedoch alle Pakete bequem nachher über die Paketverwaltung (apt) herunterladen.
+If you want to include other installation media, for example for certain packages, this could be done now.
+Normally, however, you can download all packages conveniently afterwards via the package manager (apt).
+
+***
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/mSAwskDZ34NYAoS/preview)
 
-Unser dedizierter Server steht in Deutschland, somit wählen wir auch den Deutschen Mirror-Standort um die bestmögliche Download-Rate zu erreichen.
+Our dedicated server is located in Germany, so we also choose the german mirror location to achieve the best possible download rates.
+
+***
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/nyzFW3L6grRjqMJ/preview)
 
-Grundsätzlich empfehlen wir das normale Debian Repository zu benutzen.
+Basically we recommend to use the default Debian repository.
+
+***
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/XwfL5FEXeo69Z43/preview)
 
-Solltest du einen HTTP-Proxy nutzen wollen, könntest du die Daten eintragen. (nicht erforderlich)
+If you'd like to use a HTTP proxy, you could enter the data. (this is not required)
+
+***
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/y6LogDT7qjcoXkT/preview)
 
-Das System möchte anonymisierte Statistiken sammeln, dies kann abgelehnt oder bestätigt werden.
+The system wants to collect anonymized statistics, this can be refused or confirmed.
+
+***
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/xf7FrndLM7ipBtC/preview)
 
-Wähle nun die Pakete aus welche installiert werden sollen:
+Now select the packages you want to install:
 
 * Debian desktop enviroment
-Würde eine grafische Oberfläche auf deinem Server erzeugen, wir nutzen jedoch in diesem Beispiel lediglich die Shell Ebene des Servers.
+Would create a graphical user interface on your server, but in this example we only use the shell level of the server.
 
 * SSH server
-Wird benötigt um beispielsweise mit PuTTY verbinden zu können.
+Is needed to connect to PuTTY for example.
 
 * standard system utilities
-Wird benötigt um eine Anzahl gewisser Grundpakete bereitstellen zu können.
+Is needed to provide a number of basic packages.
 
-Die Auswahl der verschiedenen Pakete erfolgt hier per TAB, Pfeiltasten. Markiert oder Abgewählt werden Pakete mit der Leertaste.
-Wenn du mit deiner Auswahl zufrieden bist drücke so lange TAB bis du bei <Continue> landest und bestätige mit Enter.
+The selection of the different packages is done by TAB and arrow keys. Packages are selected or deselected with the space bar.
+When you are satisfied with your selection press TAB until you reach <Continue> and confirm with Enter.
+
+***
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/CimtpY6czxYLK7D/preview)
 
-Dadurch das dieses Betriebssystem, das einzige auf dem aktuellen Server ist, mit <Yes> bestätigen.
+Confirm that this operating system is the only one on the current server with `Yes`.
+
+***
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/6nzySkt8rCS5KiJ/preview)
 
-Als Speicherort wählen wir den vorgegebenen Ort auf unserer SSD.
+As storage location we choose the default location on our ssd.
 
-> Die Installation deines Debian-Systems ist nun fertig.
+> 🎉 The installation of your Debian system is now finished.
 
-Öffne in deiner iLO "Virtual Media" und drücke "Eject Media" um die ISO aus dem System zu entfernen.
+Open "Virtual Media" in your iLO and press "Eject Media" to remove the ISO from the system.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/iD7FzJLcjtbzx8c/preview)
 
-Wenn dies erfolgreich erledigt ist, wählen wir Continue, der Server wird nun einen neustart durchführen.
+When this is done successfully, we select Continue, the server will now perform a reboot.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/EFo6yZCRaMQXFek/preview)
 
-### SSH Login aktivieren
+### 🔑 Enable SSH Login
 
-Wenn der Neustart deines Servers durchgeführt wurde und die Installation erfolgreich verlaufen ist, wirst du nun zur Anmeldung aufgefordert.
+Once the reboot of your server is done and the installation was successful, you will now be prompted to login.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/ywxgaSb5rQSNmZM/preview)
 
-Natürlich möchte man auch seinen Server über SSH also beispielsweise PuTTY verwalten können, weshalb wir den Login dafür noch aktivieren müssen:
+Of course you also want to be able to manage your server through SSH i.e. PuTTY for example, so we still need to enable the login for that:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/G9QWBR9eb8yE6gP/preview)
 
-Öffne mit nano die Konfigurations-Datei deines SSH-Dienstes `nano /etc/ssh/sshd_config`
+Open with nano the configuration file of your SSH service `nano /etc/ssh/sshd_config`.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/jAJbexQBJ4XBzNP/preview)
 
-Suche die Stelle `#PermitRootLogin no` und ändere es zu `PermitRootLogin yes`
+Search for `#PermitRootLogin no` and change it to `PermitRootLogin yes`.
 
-Drücke nun `STRG + X` und bestätige deine Änderungen mit `Y`
+Now press `STRG + X` and confirm your changes with `Y`.
 
-Als nächstes muss der SSH-Dienst noch neugestartet werden, gib hierzu `service ssh restart` ein.
+After that you have to restart the SSH service, by typing `service ssh restart`.
 
-Dein SSH-Login ist nun aktiv und du kannst beispielsweise per PuTTY verbinden.
-Gib hierzu die IP-Adresse deines Servers, welche du in deinem Dashboard siehst ein und nutze die vorher definierten Anmeldedaten.
+Your SSH login is now active and you can connect via PuTTY for example.
+Enter the IP address of your server, which you see in your zap dashboard and use the previously defined credentials.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/KPkMeEaqcABz9RB/preview)
 
-> Bei weiteren Fragen und Problemen steht dir unser Support jederzeit gerne zur Verfügung
+> If you have any further questions or problems, our support is happy to assist you!
