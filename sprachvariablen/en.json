@@ -173,9 +173,17 @@
         "title": "iLO",
         "sidebar_label": "iLO"
       },
+      "dedicated_iso": {
+        "title": "Own ISO",
+        "sidebar_label": "Own ISO"
+      },
       "dedicated_remote": {
         "title": "iLO Remote Consoles",
         "sidebar_label": "iLO Remote Consoles"
+      },
+      "dedicated_windows": {
+        "title": "Windows Installation",
+        "sidebar_label": "Windows Installation"
       },
       "docs_intern": {
         "title": "Docs Erstellen -- Intern",
@@ -536,6 +544,10 @@
       "satisfactory_connect": {
         "title": "Connect to the Server",
         "sidebar_label": "Connect to the Server"
+      },
+      "satisfactory_savegame": {
+        "title": "Savegame-Manager",
+        "sidebar_label": "Savegame-Manager"
       },
       "scp_becomeadmin": {
         "title": "Become Admin",

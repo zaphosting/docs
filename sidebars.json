@@ -109,9 +109,11 @@
             }
         ],
         "Dedicated Server": [
-            "dedicated_remote",
             "dedicated_ilo",
-            "dedicated_iso"
+            "dedicated_remote",
+            "dedicated_iso",
+            "dedicated_windows",
+            "dedicated_linux_debian"
         ],
         "Webspace & Domains": [{
                 "type": "subcategory",
@@ -261,7 +263,8 @@
             "altv_installresources"
         ],
         "Satisfactory": [
-            "satisfactory_connect"
+            "satisfactory_connect",
+            "satisfactory_savegame"
         ],
         "Terraria": [
             "terraria_tshock_add_admin",
