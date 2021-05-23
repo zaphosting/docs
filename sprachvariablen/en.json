@@ -178,7 +178,8 @@
         "sidebar_label": "Own ISO"
       },
       "dedicated_linux_debian": {
-        "title": "dedicated_linux_debian"
+        "title": "Install Debian",
+        "sidebar_label": "Install Debian"
       },
       "dedicated_remote": {
         "title": "iLO Remote Consoles",
