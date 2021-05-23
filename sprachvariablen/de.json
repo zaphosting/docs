@@ -173,6 +173,10 @@
              "dedicated_remote": {
                 "title": "iLO Remote Consolen",
                 "sidebar_label": "iLO Remote Consolen"
+             },
+             "dedicated_linux_debian": {
+                "title": "Debian installieren",
+                "sidebar_label": "Debian installieren"
             },
             "domain_easydns": {
                 "title": "EasyDNS",
