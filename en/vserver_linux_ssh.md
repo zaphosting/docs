@@ -12,11 +12,11 @@ Linux server products do not include a graphical management interface by default
 
 | SSH-Client | Supported operating systems | Open-Source |                           Download                           |
 | :--------: | :--------------------------: | :---------: | :----------------------------------------------------------: |
-|   Putty    |        Windows, Linux        |     Yes      |               [Klick](https://www.putty.org/)                |
-|   Kitty    |        Windows, Linux        |     Yes      |        [Klick](http://www.9bis.net/kitty/)                   |
-| MobaXterm  |        Windows, Linux        |     Yes      |           [Klick](https://mobaxterm.mobatek.net/)            |
-| SecureCRT  |     Windows, Linux, Mac      |    No     | [Klick](https://www.vandyke.com/cgi-bin/releases.php?product=securecrt) |
-| mRemoteNG  |           Windows            |     Yes      |           [Klick](https://mremoteng.org/download)            |
+|   Putty    |        Windows, Linux        |     Yes      |               [Click](https://www.putty.org/)                |
+|   Kitty    |        Windows, Linux        |     Yes      |        [Click](http://www.9bis.net/kitty/)                   |
+| MobaXterm  |        Windows, Linux        |     Yes      |           [Click](https://mobaxterm.mobatek.net/)            |
+| SecureCRT  |     Windows, Linux, Mac      |    No     | [Click](https://www.vandyke.com/cgi-bin/releases.php?product=securecrt) |
+| mRemoteNG  |           Windows            |     Yes      |           [Click](https://mremoteng.org/download)            |
 
 
 
