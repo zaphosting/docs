@@ -85,13 +85,13 @@ Um deinen Server auch beispielsweise per PuTTY erreichen zu können, muss ein Op
 
 ***
 
-![](https://screensaver01.zap-hosting.com/index.php/s/996KHanMda7Q9q8/preivew)
+![](https://screensaver01.zap-hosting.com/index.php/s/996KHanMda7Q9q8/preview)
 
 Ubuntu bietet dir ein paar Paketsammlungen aus, sofern du etwas davon nutzen möchtest, wähle diese einfach aus.
 
 > 🎉 Der Server installiert nun das Betriebssystem, nach diesem Schritt ist das Setup beendet.
 
-![](Eject: https://screensaver01.zap-hosting.com/index.php/s/NpcN6jb4nNZQbLQ/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/NpcN6jb4nNZQbLQ/preview)
 
 Bitte entferne nun die ISO-Datei in deiner iLO, damit dein Server bei einem Neustart nicht wieder das Setup läd.
 
@@ -106,7 +106,7 @@ Das Passwort des Root-Nutzers kann einfach geändert werden.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/Te3sZxM6WH65nH2/preview)
 
-schreib`sudo su -` und gib dein vorhin gesetztes Passwort ein, danach `sudo passwd root` um das Passwort zu ändern.
+Trage in der Console `sudo su -` ein und gib dein vorhin gesetztes Passwort ein, danach `sudo passwd root` um das Passwort zu ändern.
 Gib nun das neue Passwort für deinen Root-Nutzer ein.
 
 Fertig! Du kannst dich jetzt mit dem gesetzten Passwort als `root` anmelden.
