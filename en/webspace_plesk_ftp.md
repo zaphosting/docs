@@ -1,6 +1,7 @@
 ---
 id: webspace_plesk_ftp
-title: FTP Connection
+title: Webspace: Setting up FTP access for webspace
+description: Information on how to set up FTP access for your webspace from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: FTP Connection
 ---
 

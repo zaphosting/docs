@@ -1,6 +1,7 @@
 ---
 id: valheim_serverlisting
-title: Server listing problems with Steam games that use Steamworks
+title: Server listing problems with Steam games using Steamworks
+description: Information about the problem that servers for Steamworks games are not shown in the server listing - ZAP-Hosting.com documentation
 sidebar_label: Serverlisting Problems
 ---
 

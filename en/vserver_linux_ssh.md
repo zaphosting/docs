@@ -1,6 +1,7 @@
 ---
 id: vserver_linux_ssh
-title: Initial access (SSH)
+title: VPS: Initial access to Linux server with SSH
+description: Information on how to access your Linux VPS from ZAP-Hosting with SSH for the first time - ZAP-Hosting.com documentation
 sidebar_label: Initial access (SSH)
 ---
 
@@ -12,11 +13,11 @@ Linux server products do not include a graphical management interface by default
 
 | SSH-Client | Supported operating systems | Open-Source |                           Download                           |
 | :--------: | :--------------------------: | :---------: | :----------------------------------------------------------: |
-|   Putty    |        Windows, Linux        |     Yes      |               [Klick](https://www.putty.org/)                |
-|   Kitty    |        Windows, Linux        |     Yes      |        [Klick](http://www.9bis.net/kitty/)                   |
-| MobaXterm  |        Windows, Linux        |     Yes      |           [Klick](https://mobaxterm.mobatek.net/)            |
-| SecureCRT  |     Windows, Linux, Mac      |    No     | [Klick](https://www.vandyke.com/cgi-bin/releases.php?product=securecrt) |
-| mRemoteNG  |           Windows            |     Yes      |           [Klick](https://mremoteng.org/download)            |
+|   Putty    |        Windows, Linux        |     Yes      |               [Click](https://www.putty.org/)                |
+|   Kitty    |        Windows, Linux        |     Yes      |        [Click](http://www.9bis.net/kitty/)                   |
+| MobaXterm  |        Windows, Linux        |     Yes      |           [Click](https://mobaxterm.mobatek.net/)            |
+| SecureCRT  |     Windows, Linux, Mac      |    No     | [Click](https://www.vandyke.com/cgi-bin/releases.php?product=securecrt) |
+| mRemoteNG  |           Windows            |     Yes      |           [Click](https://mremoteng.org/download)            |
 
 
 

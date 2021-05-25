@@ -1,6 +1,7 @@
 ---
 id: gameserver_server_down_what_now
-title: Server crash - What to do?
+title: Gameserver: Server down - What now?
+descriptionen: Information on what to do if your game server from ZAP-Hosting has crashed or is down - ZAP-Hosting.com documentation
 sidebar_label: Server crash - What to do?
 ---
 

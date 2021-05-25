@@ -1,6 +1,7 @@
 ---
 id: account_cashbox
-title: Cashbox
+title: Cashbox - Geld bei ZAP-Hosting.com einzahlen
+description: Anleitung, wie du die Cashbox benutzt, um Geld auf dein Zap-Hosting Kundenkonto einzuzahlen - ZAP-Hosting.com Dokumentationen
 sidebar_label: Cashbox
 ---
 

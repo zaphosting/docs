@@ -1,6 +1,7 @@
 ---
 id: vserver_linux_password_change
-title: Passwort ändern
+title: vServer: Root Passwort für Linux-Server ändern
+description: Informationen, wie du das Root-Passwort für deinen Linux vServer von ZAP-Hosting ändern kannst - ZAP-Hosting.com Dokumentationen
 sidebar_label: Passwort ändern
 ---
 

@@ -1,6 +1,7 @@
 ---
 id: gameserver_database_external_access
-title: External database access
+title: Gameserver: External database access
+description: Information on how to access the databases of game servers from ZAP-Hosting with external administration programs - ZAP-Hosting.com documentation
 sidebar_label: External database access
 ---
 

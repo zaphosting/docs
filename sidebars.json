@@ -112,7 +112,9 @@
             "dedicated_ilo",
             "dedicated_remote",
             "dedicated_iso",
-            "dedicated_windows"
+            "dedicated_windows",
+            "dedicated_linux_debian",
+            "dedicated_linux_ubuntu"
         ],
         "Webspace & Domains": [{
                 "type": "subcategory",

@@ -1,6 +1,7 @@
 ---
 id: 7d2d_becomeadmin
-title: Admin werden
+title: 7 Days to Die Admin werden - Gameserver von ZAP-Hosting
+description: Anleitung, wie du dich zum Admin für 7 Days to Die Gameserver machst - ZAP-Hosting.com Dokumentationen 
 sidebar_label: Admin werden
 
 ---

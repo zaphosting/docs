@@ -1,6 +1,7 @@
 ---
 id: scpservermod_uploadplugins
-title: Plugins installieren
+title: SCP: Secret Laboratory: Plugins auf Server installieren installieren
+description: Informationen, wie du Plugins auf deinen SCP: ServerMod Server von ZAP-Hosting.com installieren kannst - ZAP-Hosting.com Dokumentationen
 sidebar_label: Plugins installieren
 ---
 

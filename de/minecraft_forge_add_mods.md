@@ -1,6 +1,7 @@
 ---
 id: minecraft_forge_add_mods
-title: Mods installieren
+title: Minecraft: Mods auf Server installieren
+description: Informationen, wie du Mods auf deinen Minecraft Forge-Server von ZAP-Hosting.com installieren kannst - ZAP-Hosting.com Dokumentationen
 sidebar_label: Mods installieren
 ---
 

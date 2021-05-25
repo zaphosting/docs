@@ -1,6 +1,7 @@
 ---
 id: fivem_prohibited_resources
-title: Resource contains prohibited logic?
+title: FiveM Server: Error message "Resource contains prohibited logic"?
+description: Information about the error message "Resource contains prohibited logic" at FiveM-Server - ZAP-Hosting.com documentation
 sidebar_label: Resource contains prohibited logic?
 ---
 
