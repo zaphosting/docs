@@ -108,6 +108,14 @@
                 ]
             }
         ],
+        "Dedicated Server": [
+            "dedicated_ilo",
+            "dedicated_remote",
+            "dedicated_iso",
+            "dedicated_windows",
+            "dedicated_linux_debian",
+            "dedicated_linux_ubuntu"
+        ],
         "Webspace & Domains": [{
                 "type": "subcategory",
                 "label": "Domain",
@@ -239,6 +247,14 @@
                     "fivem_vrp_changemoneyicon",
                     "fivem_vrp_removespeedo"
                 ]
+            },
+            {
+                "type": "subcategory",
+                "label": "txAdmin",
+                "ids": [
+                    "fivem_txadmin_setup",
+                    "fivem_txadmin_features"
+                ]
             }
         ],
         "RageMP": [
@@ -246,6 +262,10 @@
         ],
         "Alt:V": [
             "altv_installresources"
+        ],
+        "Satisfactory": [
+            "satisfactory_connect",
+            "satisfactory_savegame"
         ],
         "Terraria": [
             "terraria_tshock_add_admin",
@@ -294,7 +314,9 @@
             "ids": [
                 "arma3_serverconfig",
                 "arma3_mods",
-                "arma3_altislife_ranks"
+                "arma3_altislife_ranks",
+                "arma3_gamemode",
+                "arma3_missionfile"
             ]
         }],
         "ARK": [
@@ -305,6 +327,7 @@
         ],
         "Assetto Corsa": [
             "assettocorsa_configure",
+            "assettocorsa_contentmanager",
             "assettocorsa_mods"
         ],
         "Assetto Corsa Competizione": [
@@ -312,6 +335,9 @@
         ],
         "Barotrauma": [
             "barotrauma_becomeadmin"
+        ],
+        "BeamMP": [
+            "beammp_authkey"
         ],
         "Conan Exiles": [
             "conan_becomeadmin",
@@ -329,6 +355,8 @@
         "SCP: Secret Laboratory": [
             "scp_becomeadmin",
             "scp_newroles",
+            "scp_colored_servername",
+            "scp_pastebin",
             {
                 "type": "subcategory",
                 "label": "ServerMod",
@@ -375,7 +403,8 @@
         "Rust": [
             "rust_becomeadmin",
             "rust_connectrcon",
-            "rust_plugins"
+            "rust_plugins",
+            "rust_decay"
         ],
         "Among Us": [
             "amongus_connection"

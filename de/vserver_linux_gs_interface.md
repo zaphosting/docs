@@ -16,39 +16,30 @@ Und dafür brauchst du keinerlei Erfahrung mit dem Umgang von Linux!
 > 1. **Debian 10**
 > 1. **Ubuntu 17.10**
 
-## Vorbereitungen
-Bevor das Interface installiert werden kann, muss zuvor der SSH-Login mit dem Passwort aktiviert werden.
-Das kannst du im Interface von deinem Server unter dem Reiter "Zugang und Sicherheit" tun.
-
-![](https://screensaver01.zap-hosting.com/index.php/s/PjosXGmTJistcBr/preview)
-
-Jetzt brauchst du noch das aktuell zugewiesene SSH Kennwort.
-Das findest du heraus, indem du beim obigen Link auf das Auge bei dem Passwort klickst:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/e9tj2mgXcsbHNR2/preview)
-
-Das Passwort kopierst du nun in deine Zwischenablage, dass wird für den nächsten Schritt benötigt.
-
-> **Achtung**: Das Passwort wird dir nur für 3 Stunden dort angezeigt.
-> Solltest du das alte Passwort vergessen haben oder es dort nicht mehr stehen, kannst du unter "Zugang und Sicherheit" deinem Server auch ein neues Kennwort zuweisen.
-
->![](https://screensaver01.zap-hosting.com/index.php/s/Fo3EAnWSdo53Q6Q/preview)
-
-> Das neue gewünschte Kennwort eintragen und dann auf den "Speichern" Button drücken.
 ## Installation
-Wir können nun die Installation starten.
-Dafür kannst du links im Interface von deinem Server auf den Button "Gameserver / Ts3 klicken:
+Um das Gameserver-Webinterface zu installieren. Wähle diesen Menüpunkt in deinen Einstellungen aus.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/H9pQ2wExdHkQxKp/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/9QRTqYGkPXF5kw5/preview)
 
-Hier geben wir nun das vorhin kopierte SSH Passwort ein und drücken im Anschluss auf "Anlegen"
-> **Achtung**: Solltest du den SSH Port geändert haben, muss der neue SSH Port dort mit angegeben werden.
+Wir landen in unserem Setup-Assistenten, welcher uns dazu auffordert einen SSH-Key zu generieren.
+Klicke einfach auf "SSH-Key generieren" dann öffnet sich dieses Fenster:
+
+![](https://screensaver01.zap-hosting.com/index.php/s/bKgcAjBFDGa47kf/preview)
+
+Alles was du dort machen musst, iat auf "Key hinzufügen" klicken. 
+Dein Key wird nun im Server eingetragen und du wirst auf diese Seite weitergleitet:
+
+![](https://screensaver01.zap-hosting.com/index.php/s/AcFocaWxAF2XdZQ/preview)
+
+> **Wichtig**: Sollte der Key noch nicht erkannt werden, starte bitte den Server einmal neu und lade auch die Seite neu.
+
+Klicke nun einfach auf Anlegen, das Gameserver-Webinterface macht alles weitere vollautomatisch.
 
 ### Abschluss der Installation
 Du siehst jetzt den Fortschritt der Installation.
 Bis alles komplett installiert und konfiguriert ist, kann es rund 15-20 Minuten andauern.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/qbrgdkFF9yZ7Q92/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/ArWfJ4EAMEZ2rW7/preview)
 
 > **Achtung**: Bitte erst weiter machen wenn das Interface komplett installiert ist.
 > Es ist komplett installiert soweit der Fortschrittsbalken verschwunden ist und sobald bei jedem Paket "Installiert" anstatt "fehlt" steht.
@@ -702,11 +693,3 @@ Im folgenden kommt eine Auflistung der Spiele, die du mit dem Interface aktuell 
 ![]( https://zap-hosting.com/interface/_images/icons/litw-hungry-icon.png) Life in the Woods: Renaissance Hungry
 
 ![]( https://zap-hosting.com/interface/_images/icons/litw-after-human-icon.png) Life in the Woods: Gronkh's After Humans 1.7.10
-
-
-
-
-
-
-
-

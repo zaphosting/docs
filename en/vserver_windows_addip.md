@@ -16,7 +16,7 @@ To add the extra IPs to your server, you first need to connect to them. How this
 ##  Open network adapter
 So that you can enter your own IPs, you first have to open your adapter on your server. To do this, right-click on the internet symbol from your server, which you can find at the bottom right of the screen (right next to the time):
 
-![](https://screensaver01.zap-hosting.com/index.php/s/9gHXLwgYC9KM3KL/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/xD4CwRajgQJB3QG/preview)
 
 Now click on the "Open Network and Internet Settings" option. The following window should now open:
 

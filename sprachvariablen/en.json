@@ -93,6 +93,14 @@
         "title": "Altis Life Ranks",
         "sidebar_label": "Altis Life Ranks"
       },
+      "arma3_gamemode": {
+        "title": "Change game mode",
+        "sidebar_label": "Change game mode"
+      },
+      "arma3_missionfile": {
+        "title": "Upload your own mission file",
+        "sidebar_label": "Upload your own mission file"
+      },
       "arma3_mods": {
         "title": "Install Mods",
         "sidebar_label": "Install Mods"
@@ -109,6 +117,10 @@
         "title": "Configure Server",
         "sidebar_label": "Configure Server"
       },
+      "assettocorsa_contentmanager": {
+        "title": "Configure Server with Content Manager",
+        "sidebar_label": "Configure Server with Content Manager"
+      },
       "assettocorsa_mods": {
         "title": "Install Mods",
         "sidebar_label": "Install Mods"
@@ -120,6 +132,10 @@
       "barotrauma_becomeadmin": {
         "title": "Become Admin",
         "sidebar_label": "Become Admin"
+      },
+      "beammp_authkey": {
+        "title": "Create an Auth Key",
+        "sidebar_label": "Create an Auth Key"
       },
       "community_info": {
         "title": "Community offers",
@@ -152,6 +168,30 @@
       "csgo_gotv": {
         "title": "GOTV",
         "sidebar_label": "GOTV"
+      },
+      "dedicated_ilo": {
+        "title": "iLO",
+        "sidebar_label": "iLO"
+      },
+      "dedicated_iso": {
+        "title": "Own ISO",
+        "sidebar_label": "Own ISO"
+      },
+      "dedicated_linux_debian": {
+        "title": "Install Debian",
+        "sidebar_label": "Install Debian"
+      },
+      "dedicated_linux_ubuntu": {
+        "title": "Install Ubuntu",
+        "sidebar_label": "Install Ubuntu"
+      },
+      "dedicated_remote": {
+        "title": "iLO Remote Consoles",
+        "sidebar_label": "iLO Remote Consoles"
+      },
+      "dedicated_windows": {
+        "title": "Windows Installation",
+        "sidebar_label": "Windows Installation"
       },
       "docs_intern": {
         "title": "Docs Erstellen -- Intern",
@@ -345,6 +385,14 @@
         "title": "SQL File Import",
         "sidebar_label": "SQL File Import"
       },
+      "fivem_txadmin_features": {
+        "title": "txAdmin Interface",
+        "sidebar_label": "txAdmin Interface"
+      },
+      "fivem_txadmin_setup": {
+        "title": "txAdmin Setup",
+        "sidebar_label": "txAdmin Setup"
+      },
       "fivem_upvotes": {
         "title": "Upvotes",
         "sidebar_label": "Upvotes"
@@ -493,17 +541,37 @@
         "title": "Connect via RCON",
         "sidebar_label": "Connect via RCON"
       },
+      "rust_decay": {
+        "title": "Modify Decay",
+        "sidebar_label": "Decay"
+      },
       "rust_plugins": {
         "title": "Plugins Install",
         "sidebar_label": "Plugins Install"
+      },
+      "satisfactory_connect": {
+        "title": "Connect to the Server",
+        "sidebar_label": "Connect to the Server"
+      },
+      "satisfactory_savegame": {
+        "title": "Savegame-Manager",
+        "sidebar_label": "Savegame-Manager"
       },
       "scp_becomeadmin": {
         "title": "Become Admin",
         "sidebar_label": "Become Admin"
       },
+      "scp_colored_servername": {
+        "title": "Colored Servername",
+        "sidebar_label": "Colored Servername"
+      },
       "scp_newroles": {
         "title": "Add new roles",
         "sidebar_label": "Add new roles"
+      },
+      "scp_pastebin": {
+        "title": "Pastebin ID",
+        "sidebar_label": "Pastebin ID"
       },
       "scpservermod_uploadplugins": {
         "title": "Install Plugins",
@@ -798,12 +866,14 @@
       "Account": "Account",
       "Gameserver - General": "Gameserver - General",
       "vServer & Rootserver": "vServer & Rootserver",
+      "Dedicated Server": "Dedicated Server",
       "Webspace & Domains": "Webspace & Domains",
       "Voicebot/Voiceserver": "Voicebot/Voiceserver",
       "Minecraft": "Minecraft",
       "FiveM": "FiveM",
       "RageMP": "RageMP",
       "Alt:V": "Alt:V",
+      "Satisfactory": "Satisfactory",
       "Terraria": "Terraria",
       "Source Games": "Source Games",
       "ArmA 3": "ArmA 3",
@@ -811,6 +881,7 @@
       "Assetto Corsa": "Assetto Corsa",
       "Assetto Corsa Competizione": "Assetto Corsa Competizione",
       "Barotrauma": "Barotrauma",
+      "BeamMP": "BeamMP",
       "Conan Exiles": "Conan Exiles",
       "Valheim": "Valheim",
       "SCP: Secret Laboratory": "SCP: Secret Laboratory",
