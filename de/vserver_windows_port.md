@@ -1,6 +1,7 @@
 ---
 id: vserver_windows_port
-title: Ports freigeben
+title: vServer: Ports bei Windows Servern freigeben
+description: Informationen, wie du Ports bei deinem Windows vServer von ZAP-Hosting freigeben kannst - ZAP-Hosting.com Dokumentationen
 sidebar_label: Port freigeben
 ---
 

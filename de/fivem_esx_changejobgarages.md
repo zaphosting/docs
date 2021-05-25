@@ -1,6 +1,7 @@
 ---
 id: fivem_esx_changejobgarages
-title: Job-Garagen Autos Hinzufügen
+title: FiveM ESX Server: Job-Garagen - Autos hinzufügen
+description: Informationen, wie du Autos zu Job-Garagen auf deinem FiveM-Server mit ESX von ZAP-Hosting hinzufügen kannst - ZAP-Hosting.com Dokumentationen
 sidebar_label: Job-Garagen Autos Hinzufügen
 ---
 

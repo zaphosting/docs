@@ -1,6 +1,7 @@
 ---
 id: domain_gameserver_srv_link
-title: Domain Gameserver Redirect
+title: Domains: Set up game server forwarding
+description: Information on how to set up a forwarding from your domain to a game server - ZAP-Hosting.com documentation
 sidebar_label: Domain Gameserver Redirect
 ---
 

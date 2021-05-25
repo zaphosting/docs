@@ -1,6 +1,7 @@
 ---
 id: fivem_changeloadingscreen
-title: Loadingscreen installation
+title: FiveM: Install/change loadingscreen for FiveM-Server
+description: Information on how to add/change new loadingscreens on a FiveM server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Loadingscreen installation
 ---
 

@@ -1,6 +1,7 @@
 ---
 id: fivem_installtokovoip
-title: TokoVOIP Installieren
+title: FiveM: TokoVOIP auf Server installieren
+description: Informatoinen, wie du TokoVOIP auf deinen FiveM-Server von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentationen
 sidebar_label: TokoVOIP Installieren
 ---
 

@@ -1,6 +1,7 @@
 ---
 id: fivem_notlisted
-title: Server does not appear in Serverlist
+title: FiveM Server: Server does not appear in the server list
+description: Information on what to do if your FiveM server from ZAP-Hosting does not appear in the server list - ZAP-Hosting.com documentation
 sidebar_label: Server not in Serverlist
 ---
 

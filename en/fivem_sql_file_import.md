@@ -1,6 +1,7 @@
 ---
 id: fivem_sql_file_import
-title: SQL File Import
+title: FiveM Server: SQL file import
+description: Information on how to import SQL files into the database of your FiveM server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: SQL File Import
 ---
 

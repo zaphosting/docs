@@ -1,6 +1,7 @@
 ---
 id: domain_gameserver_srv_link
-title: Domain Gameserver Weiterleitung
+title: Domains: Gameserver-Weiterleitung einrichten
+description: Informationen wie du eine Weiterleitung von deiner Domain auf einen Gameserver einrichtest - ZAP-Hosting.com Dokumentationen
 sidebar_label: Domain Gameserver Weiterleitung
 ---
 

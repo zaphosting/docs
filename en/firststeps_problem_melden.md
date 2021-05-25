@@ -1,6 +1,7 @@
 ---
 id: firststeps_problem_melden
-title: Report problems
+title: ZAP-Hosting: What to do if you have problems with your server?
+descriptionen: Information on how to contact support if you have problems with your ZAP-Hosting server - ZAP-Hosting.com documentation
 sidebar_label: Report problems
 ---
 

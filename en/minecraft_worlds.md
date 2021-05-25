@@ -1,6 +1,7 @@
 ---
 id: minecraft_worlds
-title: Manage Worlds
+title: Minecraft Server: Manage worlds
+description: Information on how to manage multiple worlds on your Minecraft server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Manage Worlds
 ---
 
