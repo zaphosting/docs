@@ -83,13 +83,13 @@ We would recommend to enable the installation of the OpenSSH-Server if you'd lik
 
 ***
 
-![](https://screensaver01.zap-hosting.com/index.php/s/996KHanMda7Q9q8/preivew)
+![](https://screensaver01.zap-hosting.com/index.php/s/996KHanMda7Q9q8/preview)
 
 Ubuntu offers a few default snaps, if you'd like to use some of them, just tick the ones of your like.
 
 > 🎉 The server is now installing everything, after thats done ubuntu is installed.
 
-![](Eject: https://screensaver01.zap-hosting.com/index.php/s/NpcN6jb4nNZQbLQ/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/NpcN6jb4nNZQbLQ/preview)
 
 Please Eject now the ISO-File in your iLO to prevent the server from loading the setup again.
 
