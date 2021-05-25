@@ -1,9 +1,9 @@
-```
+---
 id: voiceserver_becomeadmin
 title: Teamspeak Server: Admin werden
 description: Informationen, wie du Admins für deinen Teamspeak Server von ZAP-Hosting erstellst und zuweist - ZAP-Hosting.com Dokumentationen
 sidebar_label: Admin werden
-```
+---
 
 
 
