@@ -181,6 +181,10 @@
         "title": "Install Debian",
         "sidebar_label": "Install Debian"
       },
+      "dedicated_linux_ubuntu": {
+        "title": "Install Ubuntu",
+        "sidebar_label": "Install Ubuntu"
+      },
       "dedicated_remote": {
         "title": "iLO Remote Consoles",
         "sidebar_label": "iLO Remote Consoles"
