@@ -1,6 +1,7 @@
 ---
 id: valheim_admin
-title: Admin Commands & Cheats
+title: Valheim: Server Admin Befehle & Cheats
+description: Informationen zu Admin Befehlen und Cheats für deinen Valheim-Server von ZAP-Hosting - ZAP-Hosting.com Dokumentationen
 sidebar_label: Admin Commands & Cheats
 ---
 

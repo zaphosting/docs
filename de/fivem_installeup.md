@@ -1,6 +1,7 @@
 ---
 id: fivem_installeup
-title: EUP Installieren
+title: FiveM: EUP auf Server installieren
+description: Informationen, wie du EUP auf deinen FiveM-Server von ZAP-Hosting.com installieren kannst - ZAP-Hosting.com Dokumenationen
 sidebar_label: EUP Installieren
 ---
 

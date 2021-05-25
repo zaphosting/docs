@@ -1,6 +1,7 @@
 ---
 id: minecraftbedrock_behaviorresourcepacks
-title: Behavior/Resource Packs installieren
+title: Minecraft Bedrock: Behavior/Resource Packs installieren
+description: Informationen, wie du Behaviour/Resource Packs auf deinen Minecraft Bedrock Server von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentationen
 sidebar_label: Behavior/Resource Packs installieren
 ---
 

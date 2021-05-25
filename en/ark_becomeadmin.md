@@ -1,6 +1,7 @@
 ---
 id: ark_becomeadmin
-title: Become Admin
+title: ARK: Become an admin
+description: Information on how to become an admin on your ARK server at ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Become Admin
 ---
 

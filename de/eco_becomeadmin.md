@@ -1,6 +1,7 @@
 ---
 id: eco_becomeadmin
-title: Admin werden
+title: ECO - Global Survival Server: Admin werden
+description: Informationen, wie du Admin auf deinem ECO-Server bei ZAP-Hosting wirst - ZAP-Hosting.com Dokumentationen
 sidebar_label: Admin werden
 
 ---

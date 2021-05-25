@@ -1,6 +1,7 @@
 ---
 id: scp_newroles
-title: Neue Rollen hinzufügen
+title: SCP: Secret Laboratory Server: Neue Rollen hinzufügen
+description: Informationen, wie du neue Rollen auf deinen SCP-Server von ZAP-Hosting hinzufügen kannst - ZAP-Hosting.com Dokumentationen
 sidebar_label: Neue Rollen hinzufügen
 ---
 

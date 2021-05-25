@@ -1,6 +1,7 @@
 ---
 id: fivem_vrp_changemoneyicon
-title: Change Money Icon
+title: FiveM VRP Server: Change money icon
+description: Information on how to change the money icon for your FiveM server with VRP from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Change Money Icon
 ---
 

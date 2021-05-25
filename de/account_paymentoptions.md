@@ -1,6 +1,7 @@
 ---
 id: account_paymentoptions
-title: Zahlungsoptionen
+title: Zahlungsoptionen - Welche Zahlungsoptionen gibt es bei ZAP-Hosting.com
+description: Informationen zu den verschiedenen Zahlungsoptionen bei ZAP-Hosting: PayPal, Kreditkarte, ZAP-Guthaben und mehr - ZAP-Hosting.com Dokumentationen
 sidebar_label: Zahlungsoptionen
 ---
 
@@ -28,8 +29,10 @@ Wir bieten eine große Anzahl verschiedener Zahlungsoptionen an, mit denen Serve
 > Bezahlung über das Festnetztelefon.
 * Überweisung (nur für ZAP-Guthaben)
 > Nur erhältlich, um ZAP-Guthaben einzuzahlen. Nach Zahlungseingang wird das Guthaben freigeschaltet.
+* Paymentwall
+> Paymentwall ist ein Zahlungsanbieter, über den zusätzliche auch lokal begrenzte Zahlungsoptionen angeboten werden. Wenn eine Zahlung mit den übrigen Zahlungsoptionen nicht möglich ist, bietet Paymentwall zusätzlich Optionen wie beispielsweise lokale Prepaidkarten.
 
-![](https://screensaver01.zap-hosting.com/index.php/apps/files_sharing/publicpreview/Ea95im39JEMCeBB?x=1920&y=619&a=true&file=chrome_IRPmUcH6Cm.png&scalingup=0)
+![](https://screensaver01.zap-hosting.com/index.php/apps/files_sharing/publicpreview/NZZcKWizMpBf8MK?x=1912&y=616&a=true&file=firefox_VW5fwNOZWG.png&scalingup=0)
 
 ## 💸 Bezahlvorgang
 Der Bezahlvorgang ist simpel: Die Serverkonfiguration wird auf der Konfigurationsseite zusammengestellt, am Ende der Seite wird die gewünschte Zahlungsoption ausgewählt. Nach einem Klick auf "Kostenpflichtig bestellen" findet ggf. eine Weiterleitung auf den gewählten Zahlungsdienstleister statt über den die Zahlung getätigt werden kann. Nach Erhalt der Zahlung wird der Server innerhalb weniger Sekunden eingerichtet.

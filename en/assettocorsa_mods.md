@@ -1,6 +1,7 @@
 ---
 id: assettocorsa_mods
-title: Install Mods
+title: Assetto Corsa: Installing mods on a server
+description: Information on how to install mods on your Assetto Corsa server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Install Mods
 ---
 

@@ -1,6 +1,7 @@
 ---
 id: cs16_plugins
-title: Install Plugins
+title: Counter-Strike 1.6: Install plugins on your own server
+description: Information on how to install plugins on your CS 1.6 server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Install Plugins
 
 ---

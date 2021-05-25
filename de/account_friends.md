@@ -1,6 +1,7 @@
 ---
 id: account_friends
-title: Freunde werben
+title: Freunde werben und Geld ,it ZAP-Hosting verdienen
+description: Anleitung wie du Geld mit ZAP-Hosting verdienen kannst, indem du Freunde per Reflink wirbst - ZAP-Hosting.com Dokumentationen
 sidebar_label: Freunde werben
 ---
 
@@ -15,7 +16,8 @@ Auf unserer "[Freunde werben-Seite](https://zap-hosting.com/de/customer/affiliat
 Über das Freunde werben Programm erhältst du eine Verkaufsprovision von bis zu 50%. Die genauen Verkaufsprovisionen für alle Produkte findest du auf der Freunden werben-Seite unter "[Konditionen](https://zap-hosting.com/de/customer/affiliate/conditions/)".
 
 > Bei der ausgezahlten Provision handelt es sich um einen Netto-Wert.
-Das heißt, dass die Mehrwertsteuer von deinem angezeigten Affiliate-Guthaben bei Auszahlung abgezogen wird. 
+Das heißt, dass du die Mehrwertsteuer von deinem angezeigten Affiliate-Guthaben bei Auszahlung anbziehen musst. Dies kannst du machen, indem du den angezeigten Betrag durch 1.19 teilst (19% deutsche MWST.). Beispiel: 100€ Affiliate Guthaben. In Rechnung zu stellen sind: 100 / 1,19 = 84,03€. Bei einer Auszahlung in ZAP Coins erhältst du den vollen Betrag.
+> Muss Mehrwertsteuer in der Rechnung ausgewiesen werden, wird der volle Betrag in der Rechnung inklusive Mehrwertsteuer ausgewiesen. Bei einem Affiliate Guthaben von 100€ wird eine Rechnung von 100€, bestehend aus 84,03€ Rechnungsbetrag und 15,97€ Mehrwertsteuer abgeschickt.
 
 ## Affiliate-Link erstellen
 

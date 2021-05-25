@@ -1,6 +1,7 @@
 ---
 id: empyrion_becomeadmin
-title: Become Admin
+title: Empyrion Server: Become an Admin
+description: Information on how to become an admin on your Empyrion server at ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Become Admin
 ---
 

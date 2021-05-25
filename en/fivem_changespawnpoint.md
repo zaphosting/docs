@@ -1,6 +1,7 @@
 ---
 id: fivem_changespawnpoint
-title: Change Spawnpoint
+title: FiveM server settings: Set Spawnpoint
+description: Information on how to set/change spawnpoints on a FiveM server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Change Spawnpoint
 ---
 

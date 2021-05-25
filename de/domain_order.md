@@ -1,6 +1,7 @@
 ---
 id: domain_order
-title: Eine Domain bestellen
+title: Domains: Eine Domain bei ZAP-Hosting bestellen
+description: Informationen zum Bestellprozess von Domains bei ZAP-Hosting - ZAP-Hosting.com Dokumentationen
 sidebar_label: Eine Domain bestellen
 ---
 

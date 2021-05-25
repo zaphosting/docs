@@ -1,6 +1,7 @@
 ---
 id: webspace_plesk_ssl
-title: SSL Zertifikat erstellen
+title: Webspace: SSL Zertifikat erstellen
+description: Informationen, wie du eni SSL Zertifikat für deinen Webspace von ZAP-Hosting erstellen kannst - ZAP-Hosting.com Dokumentationen
 sidebar_label: SSL Zertifikat erstellen
 ---
 

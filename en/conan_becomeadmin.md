@@ -1,6 +1,7 @@
 ---
 id: conan_becomeadmin
-title: Become Admin 
+title: Conan Exiles: Become an admin on your own server
+description: Information on how to become an admin on your Conan Exiles server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Become Admin
 ---
 

@@ -1,6 +1,7 @@
 ---
 id: rust_becomeadmin
-title: Admin werden
+title: Rust: Admin auf eigenem Server werden
+description: Informationen, wie du dich zum Admin auf deinem Rust-Server von ZAP-Hosting machen kannst - ZAP-Hosting.com Dokumentationen
 sidebar_label: Admin werden
 ---
 

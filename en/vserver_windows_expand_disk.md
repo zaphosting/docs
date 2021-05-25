@@ -1,6 +1,7 @@
 ---
 id: vserver_windows_expand_disk
-title: Extend disk
+title: VPS: Extending the hard disk on Windows Server
+description: Information on how to expand the hard disk of your Windows VPS from ZAP-Hosting after an upgrade - ZAP-Hosting.com documentation
 sidebar_label: Extend disk
 ---
 

@@ -1,6 +1,7 @@
 ---
 id: account_2factor
-title: Two-Factor-Authentication
+title: Setup two-factor authentication at ZAP-Hosting.com
+description: Instructions on how to set up two-factor authentication at ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Two-Factor-Authentication
 ---
 
