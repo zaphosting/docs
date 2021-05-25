@@ -169,14 +169,22 @@
              "dedicated_iso": {
                 "title": "Eigene ISO",
                 "sidebar_label": "Eigene ISO"
-             },
+            },
              "dedicated_remote": {
                 "title": "iLO Remote Consolen",
                 "sidebar_label": "iLO Remote Consolen"
-             },
+            },
+             "dedicated_windows": {
+                "title": "Windows installieren",
+                "sidebar_label": "Windows installieren"
+            },
              "dedicated_linux_debian": {
                 "title": "Debian installieren",
                 "sidebar_label": "Debian installieren"
+            },
+             "dedicated_linux_ubuntu": {
+                "title": "Ubuntu installieren",
+                "sidebar_label": "Ubuntu installieren"
             },
             "domain_easydns": {
                 "title": "EasyDNS",
