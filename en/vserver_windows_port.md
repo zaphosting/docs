@@ -1,6 +1,7 @@
 ---
 id: vserver_windows_port
-title: Port forwarding
+title: VPS: Forwarding ports on Windows servers
+description: Information on how to forward ports on your Windows VPS from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Port Forwarding
 ---
 

@@ -1,6 +1,7 @@
 ---
 id: community_info
-title: Community offers
+title: Community offers - become part of the ZAP-Hosting community
+description: Information about the different social media channels of ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Community offers
 ---
 

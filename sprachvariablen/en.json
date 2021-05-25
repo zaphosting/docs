@@ -6,15 +6,15 @@
     "tagline": "ZAP-Hosting Guides",
     "docs": {
       "7d2d_becomeadmin": {
-        "title": "Become Admin",
+        "title": "How to become an admin for 7 Days to Die - Gameserver from ZAP-Hosting",
         "sidebar_label": "Become Admin"
       },
       "7d2d_mods": {
-        "title": "Install Mods",
+        "title": "How to install 7 Days to Die mods on your server - ZAP-Hosting's game server",
         "sidebar_label": "Install Mods"
       },
       "account_2factor": {
-        "title": "Two-Factor-Authentication",
+        "title": "Setup two-factor authentication at ZAP-Hosting.com",
         "sidebar_label": "Two-Factor-Authentication"
       },
       "account_backup_storage": {
@@ -22,75 +22,75 @@
         "sidebar_label": "Backup Storage"
       },
       "account_cashbox": {
-        "title": "Cashbox",
+        "title": "Cashbox - Deposit money at ZAP-Hosting.com",
         "sidebar_label": "Cashbox"
       },
       "account_community_ads": {
-        "title": "Community ads",
+        "title": "Community Advertising",
         "sidebar_label": "Community ads"
       },
       "account_contractsandprepaid": {
-        "title": "Contracts & Prepaids",
+        "title": "Contracts & Prepaids - Contract options at ZAP-Hosting.com",
         "sidebar_label": "Contracts & Prepaids"
       },
       "account_donations": {
-        "title": "Donations",
+        "title": "Donate - Finance servers together with your friends at ZAP-Hosting",
         "sidebar_label": "Donations"
       },
       "account_friends": {
-        "title": "Refer a Friend",
+        "title": "Refer friends and earn money with ZAP-Hosting",
         "sidebar_label": "Refer a Friend"
       },
       "account_partner_system": {
-        "title": "Partner System",
+        "title": "Partner System - Advantages and conditions of a partnership with ZAP-Hosting",
         "sidebar_label": "Partner System"
       },
       "account_paymentoptions": {
-        "title": "Payment options",
+        "title": "Payment options - What payment options are available at ZAP-Hosting.com",
         "sidebar_label": "Payment options"
       },
       "account_security": {
-        "title": "Safety",
+        "title": "Account security - Information on securing a ZAP account",
         "sidebar_label": "Safety"
       },
       "account_termination_and_cancellation_period": {
-        "title": "Termination and Cancellation",
+        "title": "Cancellation and notice periods of contract servers at ZAP-Hosting",
         "sidebar_label": "Termination and Cancellation"
       },
       "account_usermanagement": {
-        "title": "User Management",
+        "title": "User administration - Servers at ZAP-Hosting can be administered by several users",
         "sidebar_label": "User Management"
       },
       "account_vouchers": {
-        "title": "Coupons & Codes",
+        "title": "Vouchers & Coupon Codes - Save money with vouchers",
         "sidebar_label": "Coupons & Codes"
       },
       "altv_installresources": {
-        "title": "Resource Installation",
+        "title": "AltV: Installing resources on the server",
         "sidebar_label": "Resource Installation"
       },
       "amongus_connection": {
-        "title": "Connection",
+        "title": "Among Us: Connecting to the server",
         "sidebar_label": "Connection to the Server"
       },
       "ark_becomeadmin": {
-        "title": "Become Admin",
+        "title": "ARK: Become an admin",
         "sidebar_label": "Become Admin"
       },
       "ark_configuration": {
-        "title": "Server Configuration",
+        "title": "ARK: Server configuration at ZAP-Hosting",
         "sidebar_label": "Server Configuration"
       },
       "ark_mods": {
-        "title": "Install Mods",
+        "title": "ARK: Installing mods on a server at ZAP-Hosting",
         "sidebar_label": "Install Mods"
       },
       "ark_serverlisting": {
-        "title": "Server listing problems with Steam games that use Steamworks",
+        "title": "Server listing problems with Steam games using Steamworks",
         "sidebar_label": "Serverlisting Problems"
       },
       "arma3_altislife_ranks": {
-        "title": "Altis Life Ranks",
+        "title": "Arma 3: Altis Life - Adding ranks to an Altis Life server",
         "sidebar_label": "Altis Life Ranks"
       },
       "arma3_gamemode": {
@@ -102,19 +102,19 @@
         "sidebar_label": "Upload your own mission file"
       },
       "arma3_mods": {
-        "title": "Install Mods",
+        "title": "Arma 3: Installing mods on your own server",
         "sidebar_label": "Install Mods"
       },
       "arma3_serverconfig": {
-        "title": "Server.cfg",
+        "title": "Arma 3: Server.cfg - Edit server configuration file",
         "sidebar_label": "Server.cfg"
       },
       "assetto_competizione_becomeadmin": {
-        "title": "Become Admin",
+        "title": "Assetto Corsa Competizione: Become an admin on your own server",
         "sidebar_label": "Become Admin"
       },
       "assettocorsa_configure": {
-        "title": "Configure Server",
+        "title": "Assetto Corsa: Configure your server",
         "sidebar_label": "Configure Server"
       },
       "assettocorsa_contentmanager": {
@@ -122,15 +122,15 @@
         "sidebar_label": "Configure Server with Content Manager"
       },
       "assettocorsa_mods": {
-        "title": "Install Mods",
+        "title": "Assetto Corsa: Installing mods on a server",
         "sidebar_label": "Install Mods"
       },
       "avorion_becomeadmin": {
-        "title": "Become Admin",
+        "title": "Avorion: Become an admin on your own server",
         "sidebar_label": "Become Admin"
       },
       "barotrauma_becomeadmin": {
-        "title": "Become Admin",
+        "title": "Barotrauma: Become an admin on your own server",
         "sidebar_label": "Become Admin"
       },
       "beammp_authkey": {
@@ -138,35 +138,35 @@
         "sidebar_label": "Create an Auth Key"
       },
       "community_info": {
-        "title": "Community offers",
+        "title": "Community offers - become part of the ZAP-Hosting community",
         "sidebar_label": "Community offers"
       },
       "conan_becomeadmin": {
-        "title": "Become Admin",
+        "title": "Conan Exiles: Become an admin on your own server",
         "sidebar_label": "Become Admin"
       },
       "conan_configuration": {
-        "title": "Server Configuration",
+        "title": "Conan Exiles: configure your own server",
         "sidebar_label": "Server Configuration"
       },
       "create_screenshots": {
-        "title": "Create Screenshots",
+        "title": "Screenshots: How and with which tool to create screenshots",
         "sidebar_label": "Create Screenshots"
       },
       "cs16_becomeadmin": {
-        "title": "Become Admin",
+        "title": "Counter-Strike 1.6: Become an admin on your own server",
         "sidebar_label": "Become Admin"
       },
       "cs16_plugins": {
-        "title": "Install Plugins",
+        "title": "Counter-Strike 1.6: Install plugins on your own server",
         "sidebar_label": "Install Plugins"
       },
       "csgo_configuration": {
-        "title": "Server configuration",
+        "title": "Counter-Strike GO: Server configuration",
         "sidebar_label": "Server Configration"
       },
       "csgo_gotv": {
-        "title": "GOTV",
+        "title": "CS GO Server: Information about GOTV",
         "sidebar_label": "GOTV"
       },
       "dedicated_ilo": {
@@ -177,6 +177,14 @@
         "title": "Own ISO",
         "sidebar_label": "Own ISO"
       },
+      "dedicated_linux_debian": {
+        "title": "Install Debian",
+        "sidebar_label": "Install Debian"
+      },
+      "dedicated_linux_ubuntu": {
+        "title": "Install Ubuntu",
+        "sidebar_label": "Install Ubuntu"
+      },
       "dedicated_remote": {
         "title": "iLO Remote Consoles",
         "sidebar_label": "iLO Remote Consoles"
@@ -185,28 +193,24 @@
         "title": "Windows Installation",
         "sidebar_label": "Windows Installation"
       },
-      "docs_intern": {
-        "title": "Docs Erstellen -- Intern",
-        "sidebar_label": "Docs Erstellen -- Intern"
-      },
       "domain_easydns": {
-        "title": "EasyDNS",
+        "title": "Domains: EasyDNS",
         "sidebar_label": "EasyDNS"
       },
       "domain_expertdns": {
-        "title": "ExpertDNS",
+        "title": "Domains: ExpertDNS",
         "sidebar_label": "ExpertDNS"
       },
       "domain_gameserver_srv_link": {
-        "title": "Domain Gameserver Redirect",
+        "title": "Domains: Set up game server forwarding",
         "sidebar_label": "Domain Gameserver Redirect"
       },
       "domain_general_domain_info": {
-        "title": "What is a domain?",
+        "title": "Domains: What is a domain?",
         "sidebar_label": "What is a domain?"
       },
       "domain_order": {
-        "title": "Order a domain",
+        "title": "Domains: Ordering a domain at ZAP-Hosting",
         "sidebar_label": "Order a domain"
       },
       "domain_profidns": {
@@ -214,51 +218,51 @@
         "sidebar_label": "ProfiDNS"
       },
       "domain_records": {
-        "title": "Domain Records",
+        "title": "Domains: Domain records settings",
         "sidebar_label": "Domain Records"
       },
       "domain_teamspeak_redirect": {
-        "title": "Domain TeamSpeak 3 Redirect",
+        "title": "Domains: Domain TeamSpeak 3 forwarding setup",
         "sidebar_label": "Domain TeamSpeak 3 Redirect"
       },
       "dst_create_cave": {
-        "title": "Create Caves",
+        "title": "Don't Starve Together: Creating caves on servers",
         "sidebar_label": "Create Caves"
       },
       "eco_becomeadmin": {
-        "title": "Become Admin",
+        "title": "ECO - Global Survival Server: Become an Admin",
         "sidebar_label": "Become Admin"
       },
       "eco_whitelist": {
-        "title": "Whitelist",
+        "title": "ECO -Global Survival Server: Activate Whitelist",
         "sidebar_label": "Whitelist"
       },
       "empyrion_becomeadmin": {
-        "title": "Become Admin",
+        "title": "Empyrion Server: Become an Admin",
         "sidebar_label": "Become Admin"
       },
       "factorio_becomeadmin": {
-        "title": "Become Admin",
+        "title": "Factorio Server: Become an Admin",
         "sidebar_label": "Become Admin"
       },
       "factorio_mods": {
-        "title": "Install Mods",
+        "title": "Factorio Server: Installing Mods",
         "sidebar_label": "Install Mods"
       },
       "firststeps_problem_melden": {
-        "title": "Report problems",
+        "title": "ZAP-Hosting: What to do if you have problems with your server?",
         "sidebar_label": "Report problems"
       },
       "firststeps_register": {
-        "title": "Register",
+        "title": "ZAP-Hosting: Registration",
         "sidebar_label": "Register"
       },
       "firststeps_rent_contractorprepaid": {
-        "title": "Contract or Prepaid",
+        "title": "ZAP-Hosting.com: Contract or Prepaid - What are the differences?",
         "sidebar_label": "Contract or Prepaid"
       },
       "firststeps_rent_location": {
-        "title": "Location",
+        "title": "Server locations at ZAP-Hosting",
         "sidebar_label": "Location"
       },
       "firststeps_rent": {
@@ -270,111 +274,111 @@
         "sidebar_label": "The first steps"
       },
       "fivem_change_servericon": {
-        "title": "Change Server Icon",
+        "title": "FiveM: Change server icon for server list",
         "sidebar_label": "Change Server Icon"
       },
       "fivem_changeloadingscreen": {
-        "title": "Loadingscreen installation",
+        "title": "FiveM: Install/change loadingscreen for FiveM-Server",
         "sidebar_label": "Loadingscreen installation"
       },
       "fivem_changespawnpoint": {
-        "title": "Change Spawnpoint",
+        "title": "FiveM server settings: Set Spawnpoint",
         "sidebar_label": "Change Spawnpoint"
       },
       "fivem_dashboard": {
-        "title": "Dashboard",
+        "title": "FiveM: Server administration via the web interface dashboard",
         "sidebar_label": "Dashboard"
       },
       "fivem_deletecache": {
-        "title": "Delete Cache",
+        "title": "FiveM Server: Empty Cache",
         "sidebar_label": "Delete Cache"
       },
       "fivem_editlocalfiles": {
-        "title": "Edit Locales Files",
+        "title": "FiveM Server: Editing the locales files",
         "sidebar_label": "Edit Locales Files"
       },
       "fivem_esx_addcarstoshop": {
-        "title": "Add Cars to Dealership",
+        "title": "FiveM ESX Server: Adding cars to the shop",
         "sidebar_label": "Add Cars to Dealership"
       },
       "fivem_esx_becomeadminoverdatabase": {
-        "title": "Become Admin over the Database",
+        "title": "FiveM ESX Server: Become admin over the database",
         "sidebar_label": "Become Admin over the Database"
       },
       "fivem_esx_changejobgarages": {
-        "title": "Add Job-Garage Cars",
+        "title": "FiveM ESX Server: Job Garages - Adding Cars",
         "sidebar_label": "Add Job-Garage Cars"
       },
       "fivem_esx_changemoneyicon": {
-        "title": "Change Money Icon",
+        "title": "FiveM ESX Server: Change money icon",
         "sidebar_label": "Change Money Icon"
       },
       "fivem_esx_changerespawnpoint": {
-        "title": "Change Respawnpoint",
+        "title": "FiveM ESX Server: Set respawn point",
         "sidebar_label": "Change Respawnpoint"
       },
       "fivem_esx_disablehud": {
-        "title": "Disable HUD",
+        "title": "FiveM ESX Server: Disable/enable HUD",
         "sidebar_label": "Disable HUD"
       },
       "fivem_esx_disableinventory": {
-        "title": "Deactivate the Inventory (F2)",
+        "title": "FiveM ESX Server: Disable inventory (F2)",
         "sidebar_label": "Deactivate the Inventory (F2)"
       },
       "fivem_installels": {
-        "title": "Install ELS",
+        "title": "FiveM: Installing ELS on your server",
         "sidebar_label": "Install ELS"
       },
       "fivem_installeup": {
-        "title": "Install EUP",
+        "title": "FiveM: Install EUP on server",
         "sidebar_label": "Install EUP"
       },
       "fivem_installresources": {
-        "title": "Resource Installation",
+        "title": "FiveM: Installing resources, mods and scripts on server",
         "sidebar_label": "Resource Installation"
       },
       "fivem_installtokovoip": {
-        "title": "Install TokoVOIP",
+        "title": "FiveM: Install TokoVOIP on server",
         "sidebar_label": "Install TokoVOIP"
       },
       "fivem_licensekey": {
-        "title": "Own License Key",
+        "title": "FiveM: Add your own license key (Patreon) to the server",
         "sidebar_label": "Own License Key"
       },
       "fivem_mastadon": {
-        "title": "Configure Activity Feed",
+        "title": "FiveM: Setting up an activity feed for your server",
         "sidebar_label": "Configure Activity Feed"
       },
       "fivem_mods_installaddon": {
-        "title": "Install Addon Carmods",
+        "title": "FiveM: Install Addon Carmods on Server",
         "sidebar_label": "Install Addon Carmods"
       },
       "fivem_mods_installreplace": {
-        "title": "Install Replace Carmods",
+        "title": "FiveM: Install Replacement Carmods on server",
         "sidebar_label": "Install Replace Carmods"
       },
       "fivem_notlisted": {
-        "title": "Server does not appear in Serverlist",
+        "title": "FiveM Server: Server does not appear in the server list",
         "sidebar_label": "Server not in Serverlist"
       },
       "fivem_prohibited_resources": {
-        "title": "Resource contains prohibited logic?",
+        "title": "FiveM Server: Error message \"Resource contains prohibited logic\"?",
         "sidebar_label": "Resource contains prohibited logic?"
       },
       "fivem_rcon": {
-        "title": "Use Rcon",
+        "title": "FiveM Server: Using Rcon",
         "sidebar_label": "Use Rcon"
       },
       "fivem_servername_color": {
-        "title": "Coloured Servername",
+        "title": "FiveM: Display server names in colour",
         "sidebar_label": "Coloured Servername"
       },
       "fivem_servername_emojis": {
-        "title": "Emojis in Server Name",
+        "title": "FiveM: Display emojis in the server name",
         "sidebar_label": "Emojis in Server Name"
       },
       "fivem_sql_file_import": {
-        "title": "SQL File Import",
+        "title": "FiveM Server: SQL file import",
         "sidebar_label": "SQL File Import"
       },
       "fivem_txadmin_features": {
@@ -386,67 +390,67 @@
         "sidebar_label": "txAdmin Setup"
       },
       "fivem_upvotes": {
-        "title": "Upvotes",
+        "title": "FiveM: Upvotes and Server Boosts",
         "sidebar_label": "Upvotes"
       },
       "fivem_useprofiler": {
-        "title": "Use Profiler",
+        "title": "FiveM: Using the Profiler and Identifying Server Problems",
         "sidebar_label": "Use Profiler"
       },
       "fivem_vrp_changemoneyicon": {
-        "title": "Change Money Icon",
+        "title": "FiveM VRP Server: Change money icon",
         "sidebar_label": "Change Money Icon"
       },
       "fivem_vrp_removespeedo": {
-        "title": "Remove Speedometer",
+        "title": "FiveM VRP Server: Remove Speedometer",
         "sidebar_label": "Remove Speedometer"
       },
       "gameserver_backups": {
-        "title": "Backups",
+        "title": "Gameserver: Creating, downloading and importing backups at ZAP-Hosting",
         "sidebar_label": "Backups"
       },
       "gameserver_cloudvslifetime": {
-        "title": "Cloud vs. Lifetime",
+        "title": "Gameserver: Differences Cloud Gameserver vs. Lifetime Server from ZAP-Hosting",
         "sidebar_label": "Cloud vs. Lifetime"
       },
       "gameserver_database_external_access": {
-        "title": "External database access",
+        "title": "Gameserver: External database access",
         "sidebar_label": "External database access"
       },
       "gameserver_databases_pma": {
-        "title": "PHPMyAdmin",
+        "title": "Gameserver: PHPMyAdmin for servers of ZAP-Hosting",
         "sidebar_label": "PHPMyAdmin"
       },
       "gameserver_ftpaccess": {
-        "title": "FTP File Access",
+        "title": "Gameserver: Uploading and downloading files with FTP",
         "sidebar_label": "FTP File Access"
       },
       "gameserver_gameswitch": {
-        "title": "Change the game",
+        "title": "Gameserver: Game switching with the gameservercloud",
         "sidebar_label": "Change the game"
       },
       "gameserver_resourcelimit": {
-        "title": "Resource limit",
+        "title": "Gameserver: Resource limit - Unlocking a game server",
         "sidebar_label": "Resource limit"
       },
       "gameserver_restartplaner": {
-        "title": "Restart planner",
+        "title": "Gameserver: Restartplaner - Perform server restarts automatically",
         "sidebar_label": "Restart planner"
       },
       "gameserver_server_down_what_now": {
-        "title": "Server crash - What to do?",
+        "title": "Gameserver: Server down - What now?",
         "sidebar_label": "Server crash - What to do?"
       },
       "gameserver_tebex": {
-        "title": "TEBEX Gameserver Monetization",
+        "title": "TEBEX Gameserver monetization setup",
         "sidebar_label": "TEBEX Monetization"
       },
       "gmod_servercfg": {
-        "title": "Garry's Mod Server.cfg Modification",
+        "title": "Garry's Mod: Server.cfg settings",
         "sidebar_label": "Garry's Mod Server.cfg Modification"
       },
       "gmod_ttt": {
-        "title": "Garry's Mod TTT Configuration",
+        "title": "Garry's Mod: TTT configuration",
         "sidebar_label": "Garry's Mod TTT Configuration"
       },
       "legal_use_brand_assets": {
@@ -454,83 +458,83 @@
         "sidebar_label": "Use of logo and name"
       },
       "minecraft_add_own_world": {
-        "title": "Add your own world",
+        "title": "Minecraft: Adding your own world to the server",
         "sidebar_label": "Add your own world"
       },
       "minecraft_addop": {
-        "title": "OP-Permissions",
+        "title": "Minecraft Server: Assigning OP rights",
         "sidebar_label": "OP-Permissions"
       },
       "minecraft_bungeecord_config": {
-        "title": "Server Properties",
+        "title": "Minecraft Bungeecord Server: Server Config Settings",
         "sidebar_label": "Server Properties"
       },
       "minecraft_commands": {
-        "title": "General commands",
+        "title": "Minecraft: General Server Commands",
         "sidebar_label": "General commands"
       },
       "minecraft_default_config": {
-        "title": "Server Config",
+        "title": "Minecraft: Server Config settings",
         "sidebar_label": "Server Config"
       },
       "minecraft_forge_add_mods": {
-        "title": "Mods Installation",
+        "title": "Minecraft: Installing mods on your server",
         "sidebar_label": "Mods Installation"
       },
       "minecraft_pluginuploader": {
-        "title": "Plugin Uploader",
+        "title": "Minecraft Server: Using ZAP-Hosting Plugin Uploader",
         "sidebar_label": "Plugin Uploader"
       },
       "minecraft_rcon": {
-        "title": "RCON",
+        "title": "Minecraft Server: Using RCON",
         "sidebar_label": "RCON"
       },
       "minecraft_server_optimize": {
-        "title": "Minecraft-Server Optimization",
+        "title": "Minecraft: Minecraft server performance optimisation",
         "sidebar_label": "Minecraft-Server Optimization"
       },
       "minecraft_server-icon": {
-        "title": "Server Icon",
+        "title": "Minecraft: Add or change server icon",
         "sidebar_label": "Server Icon"
       },
       "minecraft_timings_report": {
-        "title": "Timings-Report",
+        "title": "Minecraft: Identify server problems with timings report",
         "sidebar_label": "Timings-Report"
       },
       "minecraft_whitelist": {
-        "title": "Whitelist",
+        "title": "Minecraft Server: Activating and editing a whitelist",
         "sidebar_label": "Whitelist"
       },
       "minecraft_worlds": {
-        "title": "Manage Worlds",
+        "title": "Minecraft Server: Manage worlds",
         "sidebar_label": "Manage Worlds"
       },
       "minecraftbedrock_behaviorresourcepacks": {
-        "title": "Behavior/Resource Packs Installation",
+        "title": "Minecraft Bedrock: Install Behaviour/Resource Packs",
         "sidebar_label": "Behavior/Resource Packs Installation"
       },
       "mta_becomeadmin": {
-        "title": "Become Admin",
+        "title": "MTA: Become an admin on MTA servers",
         "sidebar_label": "Become Admin"
       },
       "partner-guide": {
-        "title": "Partner Guide",
+        "title": "Partner Guide: The Partner Program of ZAP-Hosting",
         "sidebar_label": "Partner Guide"
       },
       "preorders": {
-        "title": "Preorders",
+        "title": "Pre-orders",
         "sidebar_label": "Preorders"
       },
       "ragemp_installpackages": {
-        "title": "Installing packages",
+        "title": "RageMP: Installing packages on servers",
         "sidebar_label": "Installing packages"
       },
       "rust_becomeadmin": {
-        "title": "Become Admin",
+        "title": "Rust: Become an admin on your own server",
         "sidebar_label": "Become Admin"
       },
       "rust_connectrcon": {
-        "title": "Connect via RCON",
+        "title": "Rust: Connecting to the server via RCON",
         "sidebar_label": "Connect via RCON"
       },
       "rust_decay": {
@@ -538,7 +542,7 @@
         "sidebar_label": "Decay"
       },
       "rust_plugins": {
-        "title": "Plugins Install",
+        "title": "Rust: Installing plugins on your server",
         "sidebar_label": "Plugins Install"
       },
       "satisfactory_connect": {
@@ -550,7 +554,7 @@
         "sidebar_label": "Savegame-Manager"
       },
       "scp_becomeadmin": {
-        "title": "Become Admin",
+        "title": "SCP: Secret Laboratory: Become an admin on your own server",
         "sidebar_label": "Become Admin"
       },
       "scp_colored_servername": {
@@ -558,7 +562,7 @@
         "sidebar_label": "Colored Servername"
       },
       "scp_newroles": {
-        "title": "Add new roles",
+        "title": "SCP: Secret Laboratory Server: Adding new roles",
         "sidebar_label": "Add new roles"
       },
       "scp_pastebin": {
@@ -566,255 +570,255 @@
         "sidebar_label": "Pastebin ID"
       },
       "scpservermod_uploadplugins": {
-        "title": "Install Plugins",
+        "title": "SCP: Secret Laboratory: Installing plugins on server",
         "sidebar_label": "Install Plugins"
       },
       "source_custom_content": {
-        "title": "Custom Content",
+        "title": "Source Games: Installing custom content and mods on game servers",
         "sidebar_label": "Custom Content"
       },
       "source_gsltoken": {
-        "title": "Gameserver Login Token",
+        "title": "Source Games: Using game server login tokens",
         "sidebar_label": "GSL-Token"
       },
       "source_metamod_addadmins": {
-        "title": "Become an admin",
+        "title": "Source Games: Become a server admin",
         "sidebar_label": "Become an admin"
       },
       "source_metamod_installation": {
-        "title": "Installation",
+        "title": "Source Games: Install Source Mod and Meta Mod on server",
         "sidebar_label": "Installation"
       },
       "source_metamod_plugins": {
-        "title": "Plugins",
+        "title": "Source games with Sourcemod/Metamod: installing plugins",
         "sidebar_label": "Plugins"
       },
       "spaceengineers_addmods": {
-        "title": "Install Mods",
+        "title": "Space Engineers: Installing mods on your server",
         "sidebar_label": "Install Mods"
       },
       "spaceengineers_becomeadmin": {
-        "title": "Become Admin",
+        "title": "Space Engineers: Become a server admin",
         "sidebar_label": "Become Admin"
       },
       "suggestions": {
-        "title": "Submit Suggestions",
+        "title": "Submit suggestions for new game servers and features on ZAP-Hosting",
         "sidebar_label": "Submit Suggestions"
       },
       "terraria_tmodloader_installmod": {
-        "title": "Mod Installation (tModLoader)",
+        "title": "Terraria: Installing mods on servers (tModLoader)",
         "sidebar_label": "Mod Installation (tModLoader)"
       },
       "terraria_tshock_add_admin": {
-        "title": "Become an admin (tShock)",
+        "title": "Terraria: Become a server admin (tShock)",
         "sidebar_label": "Become an admin (tShock)"
       },
       "unturned_becomeadmin": {
-        "title": "Become Admin",
+        "title": "Unturned: Become a server admin",
         "sidebar_label": "Become Admin"
       },
       "unturned_firstthirdperson": {
-        "title": "1st/3rd Person",
+        "title": "Unturned: Set 1st/3rd person for server",
         "sidebar_label": "1st/3rd Person"
       },
       "unturned_rocketmod_permissions": {
-        "title": "Adjust Permissions",
+        "title": "Unturned Rocketmod: Adjusting server permissions",
         "sidebar_label": "Adjust Permissions"
       },
       "unturned_rocketmod_plugins": {
-        "title": "Install Plugins",
+        "title": "Unturned Rocketmod: Install plugins on server",
         "sidebar_label": "Install Plugins"
       },
       "unturned_whitelist": {
-        "title": "Whitelist",
+        "title": "Unturned: Activate and edit whitelist on server",
         "sidebar_label": "Whitelist"
       },
       "unturned_workshop": {
-        "title": "Workshop Content",
+        "title": "Unturned: Install Workshop content on server",
         "sidebar_label": "Workshop Content"
       },
       "valheim_admin": {
-        "title": "Admin Commands & Cheats",
+        "title": "Valheim: Server Admin Commands & Cheats",
         "sidebar_label": "Admin Commands & Cheats"
       },
       "valheim_backup_schedule": {
-        "title": "Automated Backups",
+        "title": "Valheim: Enable automated backups for servers",
         "sidebar_label": "Automated Backups"
       },
       "valheim_connect": {
-        "title": "Connect to a Server",
+        "title": "Valheim: Connecting to Valheim servers",
         "sidebar_label": "Connect to a Server"
       },
       "valheim_plugins_bepinex": {
-        "title": "Install plugins (BepInEx)",
+        "title": "Valheim: Installing plugins on server (BepInEx)",
         "sidebar_label": "Install plugins (BepInEx)"
       },
       "valheim_plus": {
-        "title": "Valheim Plus",
+        "title": "Valheim: Valheim Plus Server",
         "sidebar_label": "Valheim Plus"
       },
       "valheim_savegame": {
-        "title": "Manage Savegames",
+        "title": "Valheim: Managing savegames on servers",
         "sidebar_label": "Manage Savegames"
       },
       "valheim_serverlisting": {
-        "title": "Server listing problems with Steam games that use Steamworks",
+        "title": "Server listing problems with Steam games using Steamworks",
         "sidebar_label": "Serverlisting Problems"
       },
       "voiceserver_becomeadmin": {
-        "title": "Become Admin",
+        "title": "Teamspeak Server: Become an admin",
         "sidebar_label": "Become Admin"
       },
       "voiceserver_configuration": {
-        "title": "Server configuration",
+        "title": "Teamspeak: Server Configuration",
         "sidebar_label": "Server configuration"
       },
       "voiceserver_query": {
-        "title": "Teamspeak Query Login",
+        "title": "Teanspeak Server: Teamspeak query login setup",
         "sidebar_label": "Teamspeak Query Login"
       },
       "voiceserver_ts3backup": {
-        "title": "Teamspeak Backup",
+        "title": "Teamspeak: Set up and download server backup",
         "sidebar_label": "Ts3 Backup"
       },
       "voiceserver_voicebot_connection": {
-        "title": "Voicebot Connection",
+        "title": "Teamspeak: Connecting a voicebot to your Teamspeak server",
         "sidebar_label": "Voicebot Connection"
       },
       "vserver_linux_add_ip": {
-        "title": "Add IPv4 Address",
+        "title": "vServer: Add IPv4 address to server",
         "sidebar_label": "Add IPv4 Address"
       },
       "vserver_linux_dnsserver": {
-        "title": "DNS Server (ISPConfig)",
+        "title": "vServer: DNS Server Installation and Setup (ISPConfig)",
         "sidebar_label": "DNS Server (ISPConfig)"
       },
       "vserver_linux_docker": {
-        "title": "Docker",
+        "title": "vServer: Installing Docker on your server",
         "sidebar_label": "Docker"
       },
       "vserver_linux_ftp_install": {
-        "title": "FTP Setup",
+        "title": "vServer: FTP server installation and setup",
         "sidebar_label": "FTP Setup"
       },
       "vserver_linux_ftp": {
-        "title": "FTP Service isn't working",
+        "title": "vServer: FTP service does not work - Troubleshooting",
         "sidebar_label": "FTP Service isn't working"
       },
       "vserver_linux_gs_interface": {
-        "title": "Gameserver / Ts 3 Server Interface",
+        "title": "VPS: Gameserver / Ts 3 Server Interface",
         "sidebar_label": "Gameserver / Ts 3 Server Interface"
       },
       "vserver_linux_java": {
-        "title": "Install Java",
+        "title": "VPS: Install Java on Server",
         "sidebar_label": "Install Java"
       },
       "vserver_linux_jitsi": {
-        "title": "Jitsi Meet installieren",
+        "title": "VPS: Install Jitsi Meet on Server",
         "sidebar_label": "Jitsi Meet"
       },
       "vserver_linux_mariadbinstall": {
-        "title": "MariaDB (MySQL) Installation",
+        "title": "VPS: Install MariaDB (MySQL) on server",
         "sidebar_label": "MariaDB (MySQL) Installation"
       },
       "vserver_linux_nextcloud": {
-        "title": "Nextcloud",
+        "title": "VPS: Install Nextcloud on server",
         "sidebar_label": "Nextcloud"
       },
       "vserver_linux_openvpn": {
-        "title": "OpenVPN",
+        "title": "VPS: Install OpenVPN on server",
         "sidebar_label": "OpenVPN"
       },
       "vserver_linux_password_change": {
-        "title": "Change Password",
+        "title": "VPS: Change root password for Linux server",
         "sidebar_label": "Change Password"
       },
       "vserver_linux_phpmyadmin": {
-        "title": "phpMyAdmin",
+        "title": "VPS: Setting up phpMyAdmin on Linux VPS",
         "sidebar_label": "phpMyAdmin"
       },
       "vserver_linux_plesk": {
-        "title": "Plesk",
+        "title": "VPS: Installing Plesk on Linux servers",
         "sidebar_label": "Plesk"
       },
       "vserver_linux_rsync": {
-        "title": "Rsync Linux",
+        "title": "VPS: Backing up Linux servers with Rsync",
         "sidebar_label": "Rsync Linux"
       },
       "vserver_linux_sftp": {
-        "title": "Connect via SFTP",
+        "title": "VPS:Connecting to Linux Server via SFTP",
         "sidebar_label": "SFTP Connection"
       },
       "vserver_linux_ssh": {
-        "title": "Initial access (SSH)",
+        "title": "VPS: Initial access to Linux server with SSH",
         "sidebar_label": "Initial access (SSH)"
       },
       "vserver_linux_ssh2fa": {
-        "title": "Two factor authentication",
+        "title": "VPS: Setting up two-factor authentication for Linux servers",
         "sidebar_label": "Two factor authentication"
       },
       "vserver_linux_sshkey": {
-        "title": "SSH Key",
+        "title": "VPS: Generating and using SSH keys for Linux servers",
         "sidebar_label": "SSH Key"
       },
       "vserver_linux_ssl": {
-        "title": "SSL-Certificate (Let's Encrypt)",
+        "title": "VPS: Create SSL certificate (Let's Encrypt) for Linux server",
         "sidebar_label": "SSL-Certificate (Let's Encrypt)"
       },
       "vserver_linux_webserver": {
-        "title": "Install webserver",
+        "title": "VPS: Installing Nginx and Apache Webserver",
         "sidebar_label": "Install webserver"
       },
       "vserver_network_analysis_winmtr": {
-        "title": "Network analysis MTR/WinMTR",
+        "title": "VPS: Network analysis with MTR/WinMTR",
         "sidebar_label": "Network analysis MTR/WinMTR"
       },
       "vserver_root_unterschied": {
-        "title": "Rootserver versus vServer",
+        "title": "Difference Rootserver / VPS at ZAP-Hosting",
         "sidebar_label": "Rootserver versus vServer"
       },
       "vserver_vnc": {
-        "title": "What is VNC?",
+        "title": "VPS: What is VNC?",
         "sidebar_label": "What is  VNC (Serial console)?"
       },
       "vserver_windows_addip": {
-        "title": "Add additional IPs",
+        "title": "VPS: Adding additional IPs to a Windows server",
         "sidebar_label": "Add additional IPs"
       },
       "vserver_windows_change_language": {
-        "title": "Add/change language",
+        "title": "VPS: Add/change language on Windows Server",
         "sidebar_label": "Add/change language"
       },
       "vserver_windows_expand_disk": {
-        "title": "Extend disk",
+        "title": "VPS: Extending the hard disk on Windows Server",
         "sidebar_label": "Extend disk"
       },
       "vserver_windows_ftpserver": {
-        "title": "FTP Server Installation",
+        "title": "VPS: Install FTP Server on Windows Server",
         "sidebar_label": "FTP Server Installation"
       },
       "vserver_windows_installmysql": {
-        "title": "MySQL Server Installation",
+        "title": "VPS: Installing MySQL Server on Windows Server",
         "sidebar_label": "MySQL Server Installation"
       },
       "vserver_windows_nointernet": {
-        "title": "No Internet what now?",
+        "title": "VPS: No internet access on Windows Server. What now?",
         "sidebar_label": "No Internet what now?"
       },
       "vserver_windows_plesk": {
-        "title": "Plesk Installation",
+        "title": "VPS: Installing Plesk on Windows Server",
         "sidebar_label": "Plesk Installation"
       },
       "vserver_windows_port": {
-        "title": "Port forwarding",
+        "title": "VPS: Forwarding ports on Windows servers",
         "sidebar_label": "Port Forwarding"
       },
       "vserver_windows_userdp": {
-        "title": "Initial access (RDP)",
+        "title": "VPS: Initial access to Windows Server with RDP",
         "sidebar_label": "Initial access (RDP)"
       },
       "webspace_adddomain": {
-        "title": "Add Domain",
+        "title": "Webspace: Add a domain",
         "sidebar_label": "Add Domain"
       },
       "webspace_dashboard": {
@@ -822,31 +826,31 @@
         "sidebar_label": "Add Domain"
       },
       "webspace_htaccess_discord": {
-        "title": "Discord forwarding via domain",
+        "title": "Webspace: Set up Discord forwarding via domain",
         "sidebar_label": "Discord forwarding via domain"
       },
       "webspace_mybb": {
-        "title": "Install MyBB",
+        "title": "Webspace: Install MyBB forum software",
         "sidebar_label": "Install MyBB"
       },
       "webspace_plesk_ftp": {
-        "title": "FTP Connection",
+        "title": "Webspace: Setting up FTP access for webspace",
         "sidebar_label": "FTP Connection"
       },
       "webspace_plesk_sendmail": {
-        "title": "Sending Emails",
+        "title": "Webspace: Setting up email addresses and sending emails",
         "sidebar_label": "Sending Emails"
       },
       "webspace_plesk_ssl": {
-        "title": "Create SSL Certificate",
+        "title": "Webspace: Create SSL certificate",
         "sidebar_label": "Create SSL Certificate"
       },
       "webspace_woltlab": {
-        "title": "Install Woltlab",
+        "title": "Webspace: Install Woltlab forum software",
         "sidebar_label": "Install Woltlab"
       },
       "webspace_wordpress": {
-        "title": "Install WordPress",
+        "title": "Webspace: Install WordPress",
         "sidebar_label": "Install WordPress"
       }
     },

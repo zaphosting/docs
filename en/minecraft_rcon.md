@@ -1,6 +1,7 @@
 ---
 id: minecraft_rcon
-title: RCON
+title: Minecraft Server: Using RCON
+description: Information on how to use RCON with your Minecraft server from ZAP-Hosting to manage your server - ZAP-Hosting.com documentation
 sidebar_label: RCON
 ---
 

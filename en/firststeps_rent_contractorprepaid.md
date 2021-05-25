@@ -1,6 +1,7 @@
 ---
 id: firststeps_rent_contractorprepaid
-title: Contract or Prepaid
+title: ZAP-Hosting.com: Contract or Prepaid - What are the differences?
+description: Information on the differences between the prepaid and contract options for servers from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Contract or Prepaid
 ---
 Learn more about the differences between contracts and prepaids

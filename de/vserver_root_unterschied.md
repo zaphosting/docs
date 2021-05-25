@@ -1,6 +1,7 @@
 ---
 id: vserver_root_unterschied
-title: Unterschied Rootserver / V-Server
+title: Unterschied Rootserver / V-Server bei ZAP-Hosting
+description: Informationen zu den Unterschieden zwischen Rootservern und vServern bei ZAP-Hosting - ZAP-Hosting.com Dokumnentationen
 sidebar_label: Unterschied Rootserver / V-Server
 ---
 

@@ -1,6 +1,7 @@
 ---
 id: dst_create_cave
-title: Höhlen erstellen
+title: Don't Starve Together: Höhlen auf Server erstellen
+description: Informationen wie du für Don't Starve Together Höhlen auf Servern erstellst und verwendest - ZAP-Hosting.com Dokumentationen
 sidebar_label: Höhlen erstellen
 ---
 

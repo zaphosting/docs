@@ -1,6 +1,7 @@
 ---
 id: eco_whitelist
-title: Whitelist
+title: ECO -Global Survival Server: Activate Whitelist
+description: Information on how to create and manage a whitelist for your ECO server at ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Whitelist
 ---
 
