@@ -1,6 +1,7 @@
 ---
 id: arma3_mods
-title: Mods Installieren
+title: Arma 3: Mods auf dem eigenen Server installieren
+description: Informationen, wie du Mods auf deinem Arma 3-Server von ZAP-Hosting installierst - ZAP-Hosting.com Dokumentationen
 sidebar_label: Mods Installieren
 ---
 

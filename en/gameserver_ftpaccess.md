@@ -1,6 +1,7 @@
 ---
 id: gameserver_ftpaccess
-title: FTP File Access
+title: Gameserver: Uploading and downloading files with FTP
+description: Information on how to use FTP to upload and download files to your game server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: FTP File Access
 ---
 

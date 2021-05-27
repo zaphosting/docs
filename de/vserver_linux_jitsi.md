@@ -1,6 +1,7 @@
 ---
 id: vserver_linux_jitsi
-title: Jitsi Meet installieren
+title: vServer: Jitsi Meet auf Server installieren
+descriptin: Informationen, wie du die Videokonferenzsoftware Jitsi Meet auf deinen vServer von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentationen
 sidebar_label: Jitsi Meet
 ---
 
@@ -105,7 +106,7 @@ Bestätigt die Eingabe mit "Ok". Es öffnet sich ein neues Fenster, in dem ihr g
 Die Installation von Jitsi Meet ist damit abgeschlossen und jetzt muss nur noch TLS-Zertifikat abgerufen werden.
 Installiere hierzu das Paket Certbot:
 ```
-$	apt apt install certbot
+$	apt install certbot
 ```
 
 Führe das Script für das Installationsprogramm für TLS-Zertifikate aus:

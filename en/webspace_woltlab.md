@@ -1,6 +1,7 @@
 ---
 id: webspace_woltlab
-title: Install Woltlab
+title: Webspace: Install Woltlab forum software
+description: Information on how to install the Woltlab forum software on your webspace from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Install Woltlab
 
 ---

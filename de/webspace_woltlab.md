@@ -1,6 +1,7 @@
 ---
 id: webspace_woltlab
-title: Woltlab installieren
+title: Webspace: Woltlab Forensoftware installieren
+description: Informationen, wie du die Woltlab Forensoftware auf deinen Webspace von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentationen
 sidebar_label: Woltlab installieren
 
 ---

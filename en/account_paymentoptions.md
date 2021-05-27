@@ -1,6 +1,7 @@
 ---
 id: account_paymentoptions
-title: Payment options
+title: Payment options - What payment options are available at ZAP-Hosting.com
+description: Information about the different payment options at ZAP-Hosting: PayPal, credit card, ZAP credit and more - ZAP-Hosting.com documentations
 sidebar_label: Payment options
 ---
 

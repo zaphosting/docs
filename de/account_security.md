@@ -1,6 +1,7 @@
 ---
 id: account_security
-title: Sicherheit
+title: Account-Sicherheit - Informationen zur Absicherung eines ZAP-Accounts
+description: Wie du deinen Account  bei ZAP-Hosting mit sicheren Passwörtern und 2-Faktor-Authentifizierung absichern kannst - ZAP-Hosting.com Dokumentationen
 sidebar_label: Sicherheit
 ---
 

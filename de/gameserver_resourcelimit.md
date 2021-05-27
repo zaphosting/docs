@@ -1,6 +1,7 @@
 ---
 id: gameserver_resourcelimit
-title: Resourcenlimit
+title: Gameserver: Resourcenlimit - Gameserver freischalten
+description: Informationen, wie du deinen Gameserver freischalten kannst, wenn er durch Überschreitung des Resourcenlimits gesperrt wurde - ZAP-Hosting.com Dokumentationen
 sidebar_label: Resourcenlimit
 ---
 

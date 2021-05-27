@@ -1,6 +1,7 @@
 ---
 id: domain_profidns
-title: ProfiDNS
+title: Domains: ProfiDNS Domain-Einstellungen
+description: Informationen zu den ProfiDNS Domain-Einstellungen bei ZAP-Hosting - ZAP-Hosting.com Dokumentationen
 sidebar_label: ProfiDNS
 ---
 

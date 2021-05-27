@@ -1,6 +1,7 @@
 ---
 id: preorders
-title: Preorders
+title: Pre-orders
+description: Information about pre-orders at ZAP-Hosting. What are pre-orders? When are servers set up? Can pre-orders be cancelled? - ZAP-Hosting.com documentation
 sidebar_label: Preorders
 ---
 ## First Steps - Preorders

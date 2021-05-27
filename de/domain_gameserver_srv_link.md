@@ -1,6 +1,7 @@
 ---
 id: domain_gameserver_srv_link
-title: Domain Gameserver Weiterleitung
+title: Domains: Gameserver-Weiterleitung einrichten
+description: Informationen wie du eine Weiterleitung von deiner Domain auf einen Gameserver einrichtest - ZAP-Hosting.com Dokumentationen
 sidebar_label: Domain Gameserver Weiterleitung
 ---
 
@@ -61,7 +62,7 @@ Das Feld **TTL** kannst du unberührt lassen.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/iCX7mJScBTZSqQe/preview)
 
-Wenn du alle seingetragen hast klickst du auf **Speichern**, der Eintrag wird dann in den DNS Einstellungen hinterlegt und wird innerhalb
+Wenn du alles eingetragen hast, klickst du auf **Speichern**, der Eintrag wird dann in den DNS Einstellungen hinterlegt und wird innerhalb
 von 24 Stunden erreichbar. Somit kannst du dich dann im Anschluss mit der Domain "minecraft-server.de" mit deinem Fivem Server bzw Minecraft Server verbinden!
 
 > Es kann immer **bis** zu 24 Stunden dauern bis neue DNS Einträge aktiv werden. Darauf hat leider niemand Einfluss.

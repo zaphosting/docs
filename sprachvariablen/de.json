@@ -166,6 +166,26 @@
                 "title": "Docs Erstellen -- Intern",
                 "sidebar_label": "Docs Erstellen -- Intern"
             },
+             "dedicated_iso": {
+                "title": "Eigene ISO",
+                "sidebar_label": "Eigene ISO"
+            },
+             "dedicated_remote": {
+                "title": "iLO Remote Consolen",
+                "sidebar_label": "iLO Remote Consolen"
+            },
+             "dedicated_windows": {
+                "title": "Windows installieren",
+                "sidebar_label": "Windows installieren"
+            },
+             "dedicated_linux_debian": {
+                "title": "Debian installieren",
+                "sidebar_label": "Debian installieren"
+            },
+             "dedicated_linux_ubuntu": {
+                "title": "Ubuntu installieren",
+                "sidebar_label": "Ubuntu installieren"
+            },
             "domain_easydns": {
                 "title": "EasyDNS",
                 "sidebar_label": "EasyDNS"
@@ -518,9 +538,13 @@
                 "title": "Plugins installieren",
                 "sidebar_label": "Plugins installieren"
               },
-            "scp_becomeadmin": {
+             "scp_becomeadmin": {
                 "title": "Admin werden",
                 "sidebar_label": "Admin werden"
+            },
+            "satisfactory_connect": {
+                "title": "Zum Server verbinden",
+                "sidebar_label": "Zum Server verbinden"
             },
             "scp_colored_servername": {
                 "title": "Farbiger Servername",

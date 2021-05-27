@@ -1,6 +1,7 @@
 ---
 id: unturned_whitelist
-title: Whitelist
+title: Unturned: Whitelist auf Server aktivieren und bearbeiten
+description: Informationen, wie du eine Whitelist auf deinen Unturned-Server von ZAP-Hosting aktivieren und bearbeiten kannst - ZAP-Hosting.com Dokumentationen
 sidebar_label: Whitelist
 
 ---

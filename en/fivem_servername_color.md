@@ -1,6 +1,7 @@
 ---
 id: fivem_servername_color
-title: Coloured Servername
+title: FiveM: Display server names in colour
+description: Information on how to set the colours of the server name displayed in the server list for FiveM servers - ZAP-Hosting.com 
 sidebar_label: Coloured Servername
 ---
 

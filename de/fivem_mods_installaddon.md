@@ -1,6 +1,7 @@
 ---
 id: fivem_mods_installaddon
-title: Addon Carmods Installieren
+title: FiveM: Addon Carmods auf Server installieren
+description: Informationen, wie du Addon Carmods auf deinen FiveM-Server von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentationen
 sidebar_label: Addon Carmods Installieren
 ---
 

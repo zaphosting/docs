@@ -1,6 +1,7 @@
 ---
 id: vserver_linux_gs_interface
-title: Gameserver / Ts 3 Server Interface
+title: VPS: Gameserver / Ts 3 Server Interface
+description: Information on how to install TS and game servers on your VPS from ZAP-Hosting.com via the game server/TS3 interface with just a few clicks - ZAP-Hosting.com documentation
 sidebar_label: Gameserver / Ts 3 Server Interface
 ---
 
@@ -16,38 +17,29 @@ And you don't need any experience with Linux!
 > 1. **Ubuntu 17.10**
 
 ## Preparations
-Before the interface can be installed, the SSH login must be activated with the password.
-You can do this in the interface from your server under the tab "Access and Security".
+To install the Gameserver-Webinterface. Navigate to the menu in your settings category.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/335CrKx8fA554Rc/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/fEGw2qoRZWt295Z/preview)
 
-Now you need the currently assigned SSH password.
-You can find this out by clicking on the eye next to the password in the link above:
+You're now in the setup assistant, which requires to generate a ssh key.
+Just press on "Generate SSH key"
 
-![](https://screensaver01.zap-hosting.com/index.php/s/e9tj2mgXcsbHNR2/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/yGtTedBEZYzmZA4/preview)
 
-Copy the password to your clipboard, which is needed for the next step.
+A new window opens, you just need to press  "Add key" 
+The key will now be added into your server and you will be redirected.
 
-> **Attention**: The password will only be shown to you for 3 hours.
-> If you have forgotten the old password or it is no longer there, you can also assign a new password to your server under "Access and Security".
+![](https://screensaver01.zap-hosting.com/index.php/s/W8DfqBxMTTmd36N/preview)
 
->![](https://screensaver01.zap-hosting.com/index.php/s/GGSbFbRnbTqafSK/preview)
+> ** Important**: If the key is not recognized the first time successfully, please restart the server once and also reload the page after that.
 
-> Enter the new desired password and then press the "Save" button.
-## Installation
-We can now start the installation.
-For this you can click on the button "Gameserver / Ts3:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/LFHHH78gofoPAT8/preview)
-
-Here we enter the SSH password we copied earlier and press "Create" afterwards
-> **Attention**: If you have changed the SSH port, the new SSH port must be specified there.
+Simply press on "Create" now, the gameserver webinterface will do everything else by itself.
 
 ### Completing the installation
 You can now see the progress of the installation.
 Until everything is completely installed and configured, it can take about 15-20 minutes.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/qbrgdkFF9yZ7Q92/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/Ppsxbgq6Y9tFWxe/preview)
 
 > **Attention**: Please do not continue until the interface is completely installed.
 > It is completely installed as long as the progress bar has disappeared and as soon as every package says "installed" instead of "missing".
@@ -701,11 +693,3 @@ The following is a list of the games you can currently install with the interfac
 ![]( https://zap-hosting.com/interface/_images/icons/litw-hungry-icon.png) Life in the Woods: Renaissance Hungry
 
 ![]( https://zap-hosting.com/interface/_images/icons/litw-after-human-icon.png) Life in the Woods: Gronkh's After Humans 1.7.10
-
-
-
-
-
-
-
-
