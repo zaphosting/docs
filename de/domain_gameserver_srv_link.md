@@ -41,15 +41,15 @@ mit einem **Unterstrich** und lautet entweder **_udp** oder **_tcp**.
 Um deine Domain ohne die Erstellung einer Subdomain auf einen Gameserver weiterzuleiten, öffnest du zuerst deine Domain indem du
 im Dashboard auf diese klickst, anschließend öffnest du die DNS-Verwaltung über das Menü auf der linken Seite.
 
-![](https://puu.sh/Fuzfa/0927cbb177.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/arRoyHj3wR4sCGw/preview)
 
-![](https://puu.sh/FuzhO/6f4694ab62.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/3WEqw4aTdqaanYi/preview)
 
 Dort siehst du nun alle bereits vorhandenen DNS Einträge für deine Domain.
 Sofern du dort noch keine eigenen Einträge erstellt hast kannst du alle bisher vorhandenen EInträge durch einen Klick 
 auf den roten Mülleimer auf der rechten Seite löschen.
 
-![](https://puu.sh/Fuzm8/39f3c72fa6.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/F5kEtW5XHx5Y8Lk/preview)
 
 ## Weiterleitung der Domain ohne Subdomain aber mit dem Standardport
 Insofern du die Hauptdomain verwenden möchtest UND der Zielserver den Standardport besitzt, bist du hier richtig!
