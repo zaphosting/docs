@@ -545,6 +545,10 @@
         "title": "Rust: Installing plugins on your server",
         "sidebar_label": "Plugins Install"
       },
+      "satisfactory_addmods": {
+        "title": "Install Mods",
+        "sidebar_label": "Install Mods"
+      },
       "satisfactory_connect": {
         "title": "Connect to the Server",
         "sidebar_label": "Connect to the Server"
