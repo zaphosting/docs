@@ -16,11 +16,11 @@ If you have already rented a Satisfactory server, the game can be changed at any
 
 ## Install Mod-Manager
 
-Das Tool "SatisfactoryModManager" gestaltet die Verwaltung und Installation von Mods sehr einfach und kann mit wenigen Klicks abgewickelt werden.
-Das Tool ist verfügbar für Windows und Linux und kann hier herruntergeladen werden: https://github.com/satisfactorymodding/SatisfactoryModManager/releases
+The tool "SatisfactoryModManager" makes the administration and installation of mods very easy and can be done with just a few clicks.
+The tool is available for Windows and Linux and can be downloaded here: https://github.com/satisfactorymodding/SatisfactoryModManager/releases
 
-Auf der verlinkten Seite werden alle Versionen aufgelistet, in der Regel sollte immer die neuste Version verwendet werden, also der erste Eintrag von oben.
-Unter "Assets" kann das Tool nun heruntergeladen werden. Je nachdem welches Betriebssystem (Windows oder Linux) du verwendest, klickst du die passende Datei an, wodurch der Download automatisch startet bzw. abhängig von deinem Browser oder gewählten Einstellungen bestätigt werden muss.
+All versions are listed on the linked page; as a rule, the latest version should always be used, i.e. the first entry from the top.
+The tool can now be downloaded under "Assets". Depending on which operating system (Windows or Linux) you use, you click on the appropriate file, which starts the download automatically or, depending on your browser or selected settings, you have to confirm it.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/xn9W7dW7HJpRGBA/preview)
 
