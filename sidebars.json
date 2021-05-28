@@ -265,7 +265,8 @@
         ],
         "Satisfactory": [
             "satisfactory_connect",
-            "satisfactory_savegame"
+            "satisfactory_savegame",
+            "satisfactory_addmods"
         ],
         "Terraria": [
             "terraria_tshock_add_admin",
