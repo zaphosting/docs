@@ -538,6 +538,10 @@
                 "title": "Plugins installieren",
                 "sidebar_label": "Plugins installieren"
               },
+              "satisfactory_addmods": {
+                "title": "Mods installieren",
+                "sidebar_label": "Mods installieren"
+              },
              "scp_becomeadmin": {
                 "title": "Admin werden",
                 "sidebar_label": "Admin werden"
