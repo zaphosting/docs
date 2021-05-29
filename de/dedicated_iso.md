@@ -5,11 +5,11 @@ sidebar_label: Eigene ISO
 ---
 > Das einbinden eigener ISO Dateien erfolgt auf eigene Verantwortung
 
-## Welche Möglichkeiten gibt es?
+## 💿 Welche Möglichkeiten gibt es?
 Es gibt zwei verschiedene Wege eine eigene ISO einzubinden. Bei allen Wegen ist es erforderlich das der Server neugestartet wird.
 Grundsätzlich gibt es kieine Beschränkungen welche ISOs eingebunden werden können, solange diese bootfähig sind funktionieren sie.
 
-### Einbinden über die iLO
+### 🔧 Einbinden über die iLO
 Öffne deine iLO Verwaltungsoberfläche, navigiere zum Menü "Virtual Media" und öffne dieses.
 ![](https://screensaver01.zap-hosting.com/index.php/s/zHMmYxq45ECe5GL/preview)
 
@@ -19,7 +19,7 @@ Grundsätzlich gibt es kieine Beschränkungen welche ISOs eingebunden werden kö
 
 Deine ausgewählte ISO wird nun geladen.
 
-### Einbinden über eine Remote Console
+### 💻 Einbinden über eine Remote Console
 
 HTML5 Console
 Das Einbinden der ISO-Datei erfolgt direkt in der Console selbst:

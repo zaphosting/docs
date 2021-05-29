@@ -4,12 +4,12 @@ title: iLO
 sidebar_label: iLO
 ---
 
-## Was ist das und was kann es?
+## ❓ Was ist das und was kann es?
 Auf unseren Enterprise Dedicated Servern wird die Verwaltungsoberfläche iLO eingesetzt, sie ermöglicht eine uneingeschränkte volle Verwaltbarkeit deines Servers.
 Zu ihren Funktionsumfängen zählen z.B. Server Start/Stop/Reboot, Management-Console über Java oder HTML5, das einbinden von Bootmedien (ISOs)
 Du solltest mit einer grundsätzlichen Vorsicht dort Einstellungen verändern, bei falschen Änderungen könnte dies Probleme hervorrufen.
 
-## Wie komme ich in die iLO?
+## ❓ Wie komme ich in die iLO?
 Öffne mit einem Browser deiner Wahl das Server Dashboard deines ZAP Dedicated Servers. Dort findest du bereits die wichtigsten Informationen zu deiner iLO.
 Um die iLO zu aktivieren klicke ganz einfach auf "iLO aktivieren"
 ![](https://screensaver01.zap-hosting.com/index.php/s/DDrZPSrLrPXtfnE/preview)
@@ -19,6 +19,8 @@ Wenn das System die Verwaltungsoberfläche gestartet hat und sie zugänglich ist
 Um die iLO zu öffnen klicke auf die angezeigt IP-Adresse und verwende die Logindaten um dich anzumelden.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/g4jyqgfM6p7akb3/preview)
+
+*** 
 
 Nach einem kurzen Augenblick bist du nun in der Verwaltungsoberfläche deines Dedicated Servers eingeloggt. 
 Hierbei findest du viele wichtige Informationen auf den ersten Blick:
@@ -95,7 +97,53 @@ In den Powereinstellungen deines Servers sollte nur etwas verändert werden sofe
 ### Network
 Zeigt dir die Netzwerkkonfiguration deiner iLO, bitte beachte das diese Einstellungen nichts mit der IP deines Servers zu tun haben.
 
-## Häufige Probleme, Tipps & Tricks
+## 💻 Remote Console (Bildschirm)
+
+> Um deinen Server einzurichten oder falls der Zugriff über das Netzwerk nicht funktioniert. Hast du jederzeit die Möglichkeit direkt auf deinen Server zu schauen als würdest du einen Bildschirm anschließen.
+
+Die iLO bietet dir standardmäßig zwei verschiedene Arten einer Remote Console:
+
+![](https://screensaver01.zap-hosting.com/index.php/s/mwbB8kTZLRFEgPw/preview)
+
+### Die HTML5 Console
+Mit einem einfachen Klick bist du schon auf deinem Server, du benötigst keine weitere Drittanbieter Software und es wird direkt in deinem Browser gestartet.
+Die Console steht den Funktionen in nichts nach, sie bietet dir viele weitere nützliche Tools:
+
+![](https://screensaver01.zap-hosting.com/index.php/s/qzNfYob7J4F9Zzf/preview)
+
+* 1 - Einstellungen der Power-Verwaltung (Starten, Stoppen, Rebooten) des Servers
+* 2 - Das Senden von Tastenkombinationen (z.B. STRG + ALT + DEL)
+* 3 - Einbinden von ISOs > CD/DVD > Scripted Media URL
+* 4 - System Health
+* 5 - Server Power Status (ON / OFF)
+
+Sofern dein Server über eine grafische Oberfläche verfügt, kannst du deinen Mauszeiger ganz normal verwenden, Eingaben deiner Tastatur werden ebenfalls übertragen.
+
+### Die Java Console
+Um die diese Console zu verwenden ist es erforderlich das Java installiert ist. (Kann auf java.com heruntergeladen werden)
+> Alle auftretenden Meldungen zu Sicherheitsbedenken können ignoriert werden.
+
+Nach dem öffnen der Datei wird uns folgende Meldung angezeigt, diese wird mit "Weiter" bestätigt.
+![](https://screensaver01.zap-hosting.com/index.php/s/WWN28xzEfgkqrmx/preview)
+
+Wir bestätigen das Risiko und bestätigen mit "Ausführen"
+
+![](https://screensaver01.zap-hosting.com/index.php/s/YCSG9tjiQnGCfs9/preview)
+
+Es öffnet sich nun die Java-Console.
+> Die Anwendung stellt häufig das Tastaturlayout auf "EN" um.
+
+![](https://screensaver01.zap-hosting.com/index.php/s/SxFkiqHPe4Yfrgr/preview)
+
+* 1 - Einstellungen der Power-Verwaltung (Starten, Stoppen, Rebooten) des Servers
+* 2 - Einbinden von ISOs > URL CD/DVD-ROM
+* 3 - Das Senden von Tastenkombinationen (z.B. STRG + ALT + DEL)
+* 4 - System Health
+* 5 - Server Power Status (ON / OFF)
+
+Sofern dein Server über eine grafische Oberfläche verfügt, kannst du deinen Mauszeiger ganz normal verwenden, Eingaben deiner Tastatur werden ebenfalls übertragen.
+
+## 📌 Häufige Probleme, Tipps & Tricks
 
 * Der Server hängt im POST (Power on Self Test) und bootet nicht mehr.
 Verbinde dich mittels einer Remote Console und prüfe wo genau dein Server hängt. Zeigt er dort Fehler?

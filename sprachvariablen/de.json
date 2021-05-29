@@ -170,10 +170,6 @@
                 "title": "Eigene ISO",
                 "sidebar_label": "Eigene ISO"
             },
-             "dedicated_remote": {
-                "title": "iLO Remote Consolen",
-                "sidebar_label": "iLO Remote Consolen"
-            },
              "dedicated_windows": {
                 "title": "Windows installieren",
                 "sidebar_label": "Windows installieren"

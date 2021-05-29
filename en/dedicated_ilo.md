@@ -4,12 +4,12 @@ title: iLO
 sidebar_label: iLO
 ---
 
-## What is it and what can it do?
+## ❓ What is it and what can it do?
 On our Enterprise Dedicated Servers we use the management interface iLo, it allows unrestricted full manageability of your server.
 Its functionalities include server start/stop/reboot, management console via Java or HTML5, mounting of boot media (ISOs).
 You should modify the settings carefully, in case of wrong changes it can cause big problems.
 
-## How do I get into the iLO?
+## ❓ How do I get into the iLO?
 Open the server dashboard of your ZAP Dedicated Server with a browser of your choice. There you will already find the most important information about your iLO.
 To activate the iLO simply click on "Activate iLO".
 ![](https://screensaver01.zap-hosting.com/index.php/s/EYzj9BBckk6QqfD/preview)
@@ -95,7 +95,52 @@ The power settings of your server should only be changed if problems occur, it i
 ### Network
 Shows you the network configuration of your iLO, please mention that this settings are not related to the network configurations of your server itself.
 
-## Common Problems, Tips & Tricks
+> To setup your server or if the access via the network does not work. You always have the possibility to look directly at your server
+
+## 💻 Remote Consoles (Display)
+The iLO offers you two different types of remote consoles by default:
+
+![](https://screensaver01.zap-hosting.com/index.php/s/mwbB8kTZLRFEgPw/preview)
+
+### The HTML5 Console
+With a simple click you are already on your server, you don't need any other third party software and it is launched directly in your webbrowser.
+It offers you lots of useful tools:
+
+![](https://screensaver01.zap-hosting.com/index.php/s/qzNfYob7J4F9Zzf/preview)
+
+* 1 - power management settings (start, stop, reboot) of the server
+* 2 - Sending keyboard shortcuts (as example CTRL + ALT + DEL)
+* 3 - Including ISOs > CD/DVD > Scripted Media URL
+* 4 - System Health
+* 5 - Server Power Status (ON / OFF)
+
+If your server has a graphical user interface (gui), you can use your mouse as usual, input from your keyboard will also be transferred.
+
+### The Java Console
+To use the Java Console you need to have Java installed. (Can be downloaded from java.com)
+> Any messages that appear regarding security concerns can be ignored.
+
+After opening the file we get the following message, confirm it with "Continue".
+![](https://screensaver01.zap-hosting.com/index.php/s/oXxkstqAHpFDNNK/preview)
+
+We acknowledge the risk and confirm with "Run".
+
+![](https://screensaver01.zap-hosting.com/index.php/s/ynnmFRN4EWtRcSr/preview)
+
+Now the Java console opens.
+> The application often changes the keyboard layout to "EN".
+
+![](https://screensaver01.zap-hosting.com/index.php/s/SxFkiqHPe4Yfrgr/preview)
+
+* 1 - Settings of the power management (start, stop, reboot) of the server
+* 2 - Including ISOs > URL CD/DVD-ROM
+* 3 - Sending key combinations (e.g. CTRL + ALT + DEL)
+* 4 - System Health
+* 5 - Server Power Status (ON / OFF)
+
+If your server has a graphical user interface (gui), you can use your mouse as usual, input from your keyboard will also be transferred.
+
+## 📌 Common Problems, Tips & Tricks
 
 * The server stucks in POST (Power on Self Test) on does not boot anymore.
 Connect to a remote console and check where exactly your server stucks. Does it show errors there?
