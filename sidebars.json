@@ -110,7 +110,6 @@
         ],
         "Dedicated Server": [
             "dedicated_ilo",
-            "dedicated_remote",
             "dedicated_iso",
             "dedicated_windows",
             "dedicated_linux_debian",
