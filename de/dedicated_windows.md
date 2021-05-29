@@ -5,7 +5,7 @@ sidebar_label: Windows installieren
 ---
 > Die Anleitung basiert auf Windows Server 2019, bei anderen Versionen sind die Schritte aber nahezu identisch
 
-## Installation eines Windows Servers
+## 💻 Installation eines Windows Servers
 Um einen Windows Server zu installieren, benötigen wir eine ISO unserer Wahl, bitte wähle im Webinterface die gewünschte Version von Windows und wähle die ISO aus.
 Alternativ kannst du natürlich eine eigene ISO einbinden. Detailierte Anleitungen hierzu findest du in der "Dedicated Server" Kategorie hier unseren Docs.
 
@@ -64,7 +64,7 @@ Wenn du mit deiner Partitionierung zufrieden bist, wähle die korrekte aus auf w
 Das Windows-Setup erledigt nun alles weitere, dies kann einige Zeit in Anspruch nehmen.
 Ein weiteres Eingreifen ist vorerst nicht erforderlich.
 
-## Konfiguration eines Windows Servers
+## 🔧 Konfiguration eines Windows Servers
 
 Wenn das Setup abgeschlossen ist, fordert Windows uns dazu auf ein Passwort festzulegen.
 
