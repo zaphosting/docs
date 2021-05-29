@@ -185,13 +185,9 @@
         "title": "Install Ubuntu",
         "sidebar_label": "Install Ubuntu"
       },
-      "dedicated_remote": {
-        "title": "iLO Remote Consoles",
-        "sidebar_label": "iLO Remote Consoles"
-      },
       "dedicated_windows": {
-        "title": "Install Windows",
-        "sidebar_label": "Install Windows"
+        "title": "Windows Installation",
+        "sidebar_label": "Windows Installation"
       },
       "domain_easydns": {
         "title": "Domains: EasyDNS",
