@@ -7,15 +7,15 @@
         "docs": {
 
             "7d2d_becomeadmin": {
-                "title": "Admin werden",
+                "title": "7 Days to Die Admin werden - Gameserver von ZAP-Hosting",
                 "sidebar_label": "Admin werden"
               },
               "7d2d_mods": {
-                "title": "Mods installieren",
+                "title": "7 Days to Die Mods auf Server installieren - Gameserver von ZAP-Hosting",
                 "sidebar_label": "Mods installieren"
               },
               "account_2factor": {
-                "title": "Zwei-Faktor-Authentifizierung",
+                "title": "Setup Zwei-Faktor-Authentifizierung bei ZAP-Hosting.com",
                 "sidebar_label": "Zwei-Faktor-Authentifizierung"
             },
             "account_backup_storage": {
@@ -23,7 +23,7 @@
                 "sidebar_label": "Backup Storage"
             },
             "account_cashbox": {
-                "title": "Cashbox",
+                "title": "Cashbox - Geld bei ZAP-Hosting.com einzahlen",
                 "sidebar_label": "Cashbox"
             },
             "account_community_ads": {
@@ -31,59 +31,59 @@
                 "sidebar_label": "Community Werbung"
             },
             "account_contractsandprepaid": {
-                "title": "Verträge & Prepaids",
+                "title": "Verträge & Prepaids - Vertragsoptionen bei ZAP-Hosting.com",
                 "sidebar_label": "Verträge & Prepaids"
             },
             "account_donations": {
-                "title": "Spendenlink",
+                "title": "Spenden- Server bei ZAP-Hosting gemeinsam finanzieren",
                 "sidebar_label": "Spendenlink"
             },
             "account_friends": {
-                "title": "Freunde werben",
+                "title": "Freunde werben und Geld mit ZAP-Hosting verdienen",
                 "sidebar_label": "Freunde werben"
             },
             "account_partner_system": {
-                "title": "Partner System",
+                "title": "Partner-System - Vorteile und Konditionen einer Partnerschaft mit ZAP-Hosting",
                 "sidebar_label": "Partner System"
             },
             "account_paymentoptions": {
-                "title": "Zahlungsoptionen",
+                "title": "Zahlungsoptionen - Welche Zahlungsoptionen gibt es bei ZAP-Hosting.com",
                 "sidebar_label": "Zahlungsoptionen"
             },
             "account_security": {
-                "title": "Sicherheit",
+                "title": "Account-Sicherheit - Informationen zur Absicherung eines ZAP-Accounts",
                 "sidebar_label": "Sicherheit"
             },
             "account_termination_and_cancellation_period": {
-                "title": "Kündigung und Kündigungsfrist",
+                "title": "Kündigung und Kündigungsfristen von Vertragsservern bei ZAP-Hosting",
                 "sidebar_label": "Kündigung und Kündigungsfrist"
             },
             "account_usermanagement": {
-                "title": "Benutzerverwaltung",
+                "title": "Benutzerverwaltung - Server bei ZAP-Hosting von mehreren Nutzern verwalten lassen",
                 "sidebar_label": "Benutzerverwaltung"
             },
             "account_vouchers": {
-                "title": "Gutscheine & Codes",
+                "title": "Gutscheine & Codes - Spare mit Gutscheinen",
                 "sidebar_label": "Gutscheine & Codes"
             },
             "altv_installresources": {
-                "title": "Resourcen Installieren",
+                "title": "AltV: Resourcen auf dem Server installieren",
                 "sidebar_label": "Resourcen Installieren"
             },
             "amongus_connection": {
-                "title": "Verbindung zum Server",
+                "title": "Among Us: Verbindung mit dem Server herstellen",
                 "sidebar_label": "Verbindung"
             },
             "ark_becomeadmin": {
-                "title": "Admin werden",
+                "title": "ARK: Admin werden",
                 "sidebar_label": "Admin werden"
             },
             "ark_configuration": {
-                "title": "Server Konfiguration",
+                "title": "ARK: Server Konfiguration bei ZAP-Hosting",
                 "sidebar_label": "Server Konfiguration"
               },
             "ark_mods": {
-                "title": "Mods installieren",
+                "title": "ARK: Mods auf einem Server bei ZAP-Hosting installieren",
                 "sidebar_label": "Mods installieren"
             },
             "ark_serverlisting": {
@@ -91,39 +91,47 @@
                 "sidebar_label": "Serverlisting Probleme"
             },
             "arma3_altislife_ranks": {
-                "title": "Altis Life Ränge",
+                "title": "Arma 3: Altis Life - Ränge bei einem Altis Life Server hinzufügen",
                 "sidebar_label": "Altis Life Ränge"
             },
+            "arma3_gamemode": {
+                "title": "Arma 3: Spielmodus ändern",
+                "sidebar_label": "Change game mode"
+              },
+              "arma3_missionfile": {
+                "title": "Arma 3: Eigene Missionsdatei hochladen",
+                "sidebar_label": "Upload your own mission file"
+              },
             "arma3_mods": {
-                "title": "Mods Installieren",
+                "title": "Arma 3: Mods auf dem eigenen Server installieren",
                 "sidebar_label": "Mods Installieren"
             },
             "arma3_serverconfig": {
-                "title": "Server.cfg",
+                "title": "Arma 3: Server.cfg - Serverkonfigurationsdatei bearbeiten",
                 "sidebar_label": "Server.cfg"
             },
             "assetto_competizione_becomeadmin": {
-                "title": "Admin werden",
+                "title": "Assetto Corsa Competizione: Admin auf dem eigenen Server werden",
                 "sidebar_label": "Admin werden"
             },
             "assettocorsa_configure": {
-                "title": "Server Konfigurieren",
+                "title": "Assetto Corsa: Server Konfigurieren",
                 "sidebar_label": "Server Konfigurieren"
             },
             "assettocorsa_contentmanager": {
-                "title": "Server Konfigurieren mit Content Manager",
+                "title": "Assetto Corsa: Server Konfigurieren mit Content Manager",
                 "sidebar_label": "Server Konfigurieren mit Content Manager"
               },
             "assettocorsa_mods": {
-                "title": "Mods Installieren",
+                "title": "Assetto Corsa: Mods auf einen Server installieren",
                 "sidebar_label": "Mods Installieren"
             },
             "avorion_becomeadmin": {
-                "title": "Admin werden",
+                "title": "Avorion: Admin auf dem eigenen Server werden",
                 "sidebar_label": "Admin werden"
               },
               "barotrauma_becomeadmin": {
-                "title": "Admin werden",
+                "title": "Barotrauma: Admin auf dem eigenen Server werden",
                 "sidebar_label": "Admin werden"
               },
               "beammp_authkey": {
@@ -131,48 +139,44 @@
                 "sidebar_label": "Auth Key Erstellen"
               },
             "community_info": {
-                "title": "Community Angebote",
+                "title": "Community Angebote - werde Teil der ZAP-Hosting Community",
                 "sidebar_label": "Community Angebote"
             },
             "conan_becomeadmin": {
-                "title": "Admin werden",
+                "title": "Conan Exiles: Admin auf dem eigenen Server werden",
                 "sidebar_label": "Admin werden"
             },
             "conan_configuration": {
-                "title": "Server Konfiguration",
+                "title": "Conan Exiles: den eigenen Server konfigurieren",
                 "sidebar_label": "Server Konfiguration"
               },
             "create_screenshots": {
-                "title": "Screenshots erstellen",
+                "title": "Screenshots: Wie und mit welchem Tool Screenshots erstellen",
                 "sidebar_label": "Screenshots erstellen"
             },
             "cs16_becomeadmin": {
-                "title": "Admin werden",
+                "title": "Counter-Strike 1.6: Admin auf dem eigenen Server werden",
                 "sidebar_label": "Admin werden"
               },
               "cs16_plugins": {
-                "title": "Plugins installieren",
+                "title": "Counter-Strike 1.6: Plugins auf dem eigenen Server installieren",
                 "sidebar_label": "Plugins installieren"
               },
             "csgo_configuration": {
-                "title": "Server Konfiguration",
+                "title": "Counter-Strike GO: Server Konfiguration",
                 "sidebar_label": "Server Konfiguration"
             },
             "csgo_gotv": {
-                "title": "GOTV",
+                "title": "CS GO Server: Informationen zu GOTV",
                 "sidebar_label": "GOTV"
             },
-            "docs_intern": {
-                "title": "Docs Erstellen -- Intern",
-                "sidebar_label": "Docs Erstellen -- Intern"
-            },
+            "dedicated_ilo": {
+                "title": "iLO",
+                "sidebar_label": "iLO"
+              },
              "dedicated_iso": {
                 "title": "Eigene ISO",
                 "sidebar_label": "Eigene ISO"
-            },
-             "dedicated_windows": {
-                "title": "Windows installieren",
-                "sidebar_label": "Windows installieren"
             },
              "dedicated_linux_debian": {
                 "title": "Debian installieren",
@@ -182,48 +186,52 @@
                 "title": "Ubuntu installieren",
                 "sidebar_label": "Ubuntu installieren"
             },
+            "dedicated_windows": {
+                "title": "Windows Installation",
+                "sidebar_label": "Windows Installation"
+              },
             "domain_easydns": {
-                "title": "EasyDNS",
+                "title": "Domains: EasyDNS",
                 "sidebar_label": "EasyDNS"
             },
             "domain_expertdns": {
-                "title": "ExpertDNS",
+                "title": "Domains: ExpertDNS",
                 "sidebar_label": "ExpertDNS"
             },
             "domain_gameserver_srv_link": {
-                "title": "Domain Gameserver Weiterleitung",
+                "title": "Domains: Gameserver-Weiterleitung einrichten",
                 "sidebar_label": "Domain Gameserver Weiterleitung"
             },
             "domain_general_domain_info": {
-                "title": "Was ist eine Domain?",
+                "title": "Domains: Was ist eine Domain?",
                 "sidebar_label": "Was ist eine Domain?"
             },
             "domain_order": {
-                "title": "Eine Domain bestellen",
+                "title": "Domains: Eine Domain bei ZAP-Hosting bestellen",
                 "sidebar_label": "Eine Domain bestellen"
             },
             "domain_profidns": {
-                "title": "ProfiDNS",
+                "title": "Domains: ProfiDNS",
                 "sidebar_label": "ProfiDNS"
             },
             "domain_records": {
-                "title": "Domain Records",
+                "title": "Domains: Domain Records-Einstellungen",
                 "sidebar_label": "Domain Records"
             },
             "domain_teamspeak_redirect": {
-                "title": "Domain TeamSpeak 3 Weiterleitung",
+                "title": "Domains: Domain TeamSpeak 3 Weiterleitung einrichten",
                 "sidebar_label": "Domain TeamSpeak 3 Weiterleitung"
             },
             "dst_create_cave": {
-                "title": "Höhlen erstellen",
+                "title": "Don't Starve Together: Höhlen auf Server erstellen",
                 "sidebar_label": "Höhlen erstellen"
             },
             "eco_becomeadmin": {
-                "title": "Admin werden",
+                "title": "ECO - Global Survival Server: Admin werden",
                 "sidebar_label": "Admin werden"
             },
             "eco_whitelist": {
-                "title": "Whitelist",
+                "title": "ECO - Global Surival Server: Whitelist aktivieren",
                 "sidebar_label": "Whitelist"
               },
             "empyrion_becomeadmin": {
