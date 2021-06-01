@@ -21,7 +21,7 @@ Deine ausgewählte ISO wird nun geladen.
 
 ### 💻 Einbinden über eine Remote Console
 
-HTML5 Console
+**HTML5 Console**
 Das Einbinden der ISO-Datei erfolgt direkt in der Console selbst:
 ![](https://screensaver01.zap-hosting.com/index.php/s/8TFjzAEeqKY628K/preview)
 
@@ -34,7 +34,9 @@ Bei der Auswahl "Local *.iso file" kannst du direkt eine Datei von deinem Comput
 
 Wenn du deine ISO erfolgreich geladen hast, muss der Server neugestartet werden.
 
-Java Console
+***
+
+**Java Console**
 Wie auch bei der HTML5 Console wird die ISO-Datei auch in der Java Console direkt eingebunden.
 ![](https://screensaver01.zap-hosting.com/index.php/s/x99HAMKGTafEMo9/preview)
 

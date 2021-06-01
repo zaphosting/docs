@@ -6,7 +6,7 @@ sidebar_label: iLO
 
 ## ❓ Was ist das und was kann es?
 Auf unseren Enterprise Dedicated Servern wird die Verwaltungsoberfläche iLO eingesetzt, sie ermöglicht eine uneingeschränkte volle Verwaltbarkeit deines Servers.
-Zu ihren Funktionsumfängen zählen z.B. Server Start/Stop/Reboot, Management-Console über Java oder HTML5, das einbinden von Bootmedien (ISOs)
+Zu ihren Funktionsumfängen zählen z.B. Server Start/Stop/Reboot, Management-Consolen über Java oder HTML5 und das einbinden von Bootmedien (ISOs).
 Du solltest mit einer grundsätzlichen Vorsicht dort Einstellungen verändern, bei falschen Änderungen könnte dies Probleme hervorrufen.
 
 ## ❓ Wie komme ich in die iLO?
@@ -14,8 +14,8 @@ Du solltest mit einer grundsätzlichen Vorsicht dort Einstellungen verändern, b
 Um die iLO zu aktivieren klicke ganz einfach auf "iLO aktivieren"
 ![](https://screensaver01.zap-hosting.com/index.php/s/DDrZPSrLrPXtfnE/preview)
 
-Bitte beachte dass es einige Sekunden dauern kann bis deine iLO vollständig zur Verfügung steht. 
-Wenn das System die Verwaltungsoberfläche gestartet hat und sie zugänglich ist, werden dir die Logininformationen angezeigt.
+Bitte beachte dass es einige Augenblicke dauern kann bis deine iLO vollständig zur Verfügung steht. 
+Wenn das System die Verwaltungsoberfläche gestartet hat und sie für dich zugänglich ist, werden dir die Logininformationen angezeigt.
 Um die iLO zu öffnen klicke auf die angezeigt IP-Adresse und verwende die Logindaten um dich anzumelden.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/g4jyqgfM6p7akb3/preview)
@@ -29,13 +29,13 @@ Hierbei findest du viele wichtige Informationen auf den ersten Blick:
 
 ### Overview
 * System Health
-Sollte im Regelfall grün sein, hierbei wird bei jedem Serverstart die Hardware deines Servers überprüft, sofern irgendwelche Unstimmigkeiten vorliegen meldet das System diese sofort.
+Sollte im Regelfall grün sein, hierbei wird bei jedem Serverstart die Hardware deines Servers überprüft, sofern irgendwelche Unstimmigkeiten vorliegen meldet das System diese sofort automatisiert an einen Techniker.
 Mögliche Varianten wären: Grün (OK), Gelb (Degraded) und Rot (Critical) es kann durchaus vorkommen dass der Server deine SSD als Degraded anzeigt, dies ist in der Regel jedoch kein Grund zur Sorge.
-Natürlich kannst du den Support darauf hinweisen, dann werden wir gerne für dich prüfen ob handlungsbedarf besteht. Sollte der System-Status auf Rot also "Critical" stehen, ist der Support umgehend in Kenntnis zu setzen.
-Als erster Problemlösungsschritt sollte immer ein kompletter Neustart des Servers durchgeführt werden.
+Natürlich kannst du den Support darauf hinweisen, dann werden wir gerne für dich prüfen ob handlungsbedarf besteht. Sollte der System-Status auf Rot also "Critical" stehen, ist der Support umgehend zusätzlich in Kenntnis zu setzen.
+Als erster Problemlösungsschritt sollte immer ein kompletter Neustart des Systems durchgeführt werden.
 
 * System Health
-Zeigt weitere Informationen zu den iLO-Parametern, hierbei sollte  es keine nennenswerten Veränderungen geben.
+Zeigt weitere Informationen zu den iLO-Parametern, hierbei sollte es keine nennenswerten Veränderungen geben.
 Ein eingreifen in diesem Tab ist in der Regel nicht erforderlich.
 
 * System Health
@@ -47,7 +47,7 @@ Die Remote Consoles unterscheiden sich in zwei Aspekten.
 HTML5 wird direkt in deinem Browser gestartet und benötigt keine weitere Drittanbieter Software.
 Java Web Start nutzt wie der Name schon sagt Java um die Verwaltungskonsole zu öffnen.
 Alle auftretenden Sicherheitswarnungen kannst du bedenkenlos ignorieren.
-Wie die Schritt für Schritt Verbindung zu deinem Server mit einer Remote Console erfolgt, kannst du in der detailierten Anleitung dafür nachlesen.
+Wie die Schritt für Schritt Verbindung zu deinem Server mit einer Remote Console erfolgt, kannst du in den nächsten Schritten nachlesen.
 
 * Active Sessions
 Du kannst hier alle Nutzer sehen welche derzeit mit deiner iLO verbunden sind. 
@@ -97,7 +97,7 @@ In den Powereinstellungen deines Servers sollte nur etwas verändert werden sofe
 ### Network
 Zeigt dir die Netzwerkkonfiguration deiner iLO, bitte beachte das diese Einstellungen nichts mit der IP deines Servers zu tun haben.
 
-## 💻 Remote Console (Bildschirm)
+## 💻 Remote Consoles (Bildschirm)
 
 > Um deinen Server einzurichten oder falls der Zugriff über das Netzwerk nicht funktioniert. Hast du jederzeit die Möglichkeit direkt auf deinen Server zu schauen als würdest du einen Bildschirm anschließen.
 
