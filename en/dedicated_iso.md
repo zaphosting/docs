@@ -5,7 +5,7 @@ sidebar_label: Own ISO
 ---
 > Mounting your own ISO-file is on your own risk.
 
-## 💿 Which possibilities there are?
+## 💿 Which options are there?
 There are two ways to mount your own iso file. Its always necessary to restart the server, to load the file.
 There are in general no restrictions on mounting a file, its important that the iso is bootable.
 
