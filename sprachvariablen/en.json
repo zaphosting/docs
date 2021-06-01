@@ -186,8 +186,8 @@
         "sidebar_label": "Install Ubuntu"
       },
       "dedicated_windows": {
-        "title": "Windows Installation",
-        "sidebar_label": "Windows Installation"
+        "title": "Install Windows",
+        "sidebar_label": "Install Windows"
       },
       "domain_easydns": {
         "title": "Domains: EasyDNS",
