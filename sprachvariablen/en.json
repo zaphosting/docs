@@ -185,13 +185,13 @@
         "title": "Install Ubuntu",
         "sidebar_label": "Install Ubuntu"
       },
-      "dedicated_windows": {
-        "title": "Windows Installation",
-        "sidebar_label": "Windows Installation"
-      },
       "dedicated_raid": {
         "title": "RAID Configuration",
         "sidebar_label": "RAID Configuration"
+      },
+      "dedicated_windows": {
+        "title": "Windows Installation",
+        "sidebar_label": "Windows Installation"
       },
       "domain_easydns": {
         "title": "Domains: EasyDNS",
