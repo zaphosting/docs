@@ -560,7 +560,7 @@
             },
             "scp_becomeadmin": {
                 "title": "SCP: Secret Laboratory: Admin auf dem eigenen Server werden",
-                "sidebar_label": "Become Admin"
+                "sidebar_label": "Admin werden"
             },
             "scp_colored_servername": {
                 "title": "Farbiger Servername",
