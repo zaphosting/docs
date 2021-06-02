@@ -189,6 +189,10 @@
         "title": "Windows Installation",
         "sidebar_label": "Windows Installation"
       },
+      "dedicated_raid": {
+        "title": "RAID Configuration",
+        "sidebar_label": "RAID Configuration"
+      },
       "domain_easydns": {
         "title": "Domains: EasyDNS",
         "sidebar_label": "EasyDNS"
