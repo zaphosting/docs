@@ -190,6 +190,10 @@
                 "title": "Windows installieren",
                 "sidebar_label": "Windows installieren"
             },
+            "dedicated_raid": {
+                "title": "RAID konfigurieren",
+                "sidebar_label": "RAID konfigurieren"
+            },
             "domain_easydns": {
                 "title": "Domains: EasyDNS",
                 "sidebar_label": "EasyDNS"
