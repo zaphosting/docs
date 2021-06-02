@@ -113,7 +113,8 @@
             "dedicated_iso",
             "dedicated_windows",
             "dedicated_linux_debian",
-            "dedicated_linux_ubuntu"
+            "dedicated_linux_ubuntu",
+            "dedicated_raid"
         ],
         "Webspace & Domains": [{
                 "type": "subcategory",
