@@ -118,7 +118,7 @@ Um den Netzwerk-Adapter zu aktivieren, logge dich mit dem Passwort in dein Syste
 
 ```if_oce_load="YES"```
 
-Mit `STRG+C` kann der Editor wieder verlassen werden, starte nun deinen Dedicated Server neu
+Mit `STRG+C` kann der Editor wieder verlassen werden nach dem Tastendruck muss noch "exit" eingegeben werden, starte nun deinen Dedicated Server neu
 
 ***
 
@@ -142,8 +142,6 @@ Das sollte dann in etwa so aussehen:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/pgGdbSerTe5236B/preview)
 
-Verlasse ebenfalls mit `STRG+C` den Editor und führe zum Abschluss einmal `etc/netstart` aus
+Verlasse den Editor ebenfalls mit `STRG+C` und der Eingabe von "exit" und führe zum Abschluss einmal `etc/netstart` aus
 
 > Dein Server sollte nun eine Netzwerkverbindung haben
-
-
