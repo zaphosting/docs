@@ -114,6 +114,7 @@
             "dedicated_windows",
             "dedicated_linux_debian",
             "dedicated_linux_ubuntu",
+            "dedicated_freebsd",
             "dedicated_raid"
         ],
         "Webspace & Domains": [{

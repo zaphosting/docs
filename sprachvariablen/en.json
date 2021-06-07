@@ -193,6 +193,10 @@
         "title": "Windows Installation",
         "sidebar_label": "Windows Installation"
       },
+      "dedicated_freebsd": {
+        "title": "FreeBSD Installation",
+        "sidebar_label": "FreeBSD Installation"
+      },
       "domain_easydns": {
         "title": "Domains: EasyDNS",
         "sidebar_label": "EasyDNS"
