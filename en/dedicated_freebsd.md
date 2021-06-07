@@ -117,7 +117,7 @@ Open loader.conf with a editor of your decision, as example `ee /boot/loader.con
 
 ```if_oce_load="YES"```
 
-You can leave the editor by pressing `CTRL+C` after that please reboot your dedicated server
+You can leave the editor by pressing `CTRL+C` and writing exit, after that please reboot your dedicated server
 
 ***
 
@@ -140,6 +140,6 @@ This should in example look like:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/pgGdbSerTe5236B/preview)
 
-Leave the editor by pressing `CTRL+C` and execute the command `etc/netstart` once
+Leave the editor by pressing `CTRL+C`and writing "exit" after that execute the command `etc/netstart` once
 
 > Your server should have an active internet connection now
