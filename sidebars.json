@@ -115,6 +115,7 @@
             "dedicated_linux_debian",
             "dedicated_linux_ubuntu",
             "dedicated_freebsd",
+            "dedicated_centos",
             "dedicated_raid"
         ],
         "Webspace & Domains": [{
