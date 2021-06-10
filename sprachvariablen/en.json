@@ -197,6 +197,10 @@
         "title": "Windows Installation",
         "sidebar_label": "Windows Installation"
       },
+      "dedicated_centos": {
+        "title": "CentOS Installation",
+        "sidebar_label": "CentOS Installation"
+      },
       "domain_easydns": {
         "title": "Domains: EasyDNS",
         "sidebar_label": "EasyDNS"

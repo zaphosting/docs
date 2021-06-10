@@ -198,6 +198,10 @@
                 "title": "RAID konfigurieren",
                 "sidebar_label": "RAID konfigurieren"
             },
+            "dedicated_centos": {
+                "title": "CentOS installieren",
+                "sidebar_label": "CentOS installieren"
+            },
             "domain_easydns": {
                 "title": "Domains: EasyDNS",
                 "sidebar_label": "EasyDNS"
