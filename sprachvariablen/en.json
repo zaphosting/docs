@@ -169,6 +169,10 @@
         "title": "CS GO Server: Information about GOTV",
         "sidebar_label": "GOTV"
       },
+      "dedicated_centos": {
+        "title": "Install CentOS",
+        "sidebar_label": "Install CentOS"
+      },
       "dedicated_freebsd": {
         "title": "Install FreeBSD",
         "sidebar_label": "Install FreebSD"
@@ -196,10 +200,6 @@
       "dedicated_windows": {
         "title": "Windows Installation",
         "sidebar_label": "Windows Installation"
-      },
-      "dedicated_centos": {
-        "title": "CentOS Installation",
-        "sidebar_label": "CentOS Installation"
       },
       "domain_easydns": {
         "title": "Domains: EasyDNS",
