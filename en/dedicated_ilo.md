@@ -90,7 +90,19 @@ Causes an immediate reboot of your system.
 Shows you the average power consumption of your system, basically the higher the power consumption, the higher the load on your system.
 
 ### Power Settings
-The power settings of your server should only be changed if problems occur, it is recommended to contact support before doing changes.
+There you can find different types of power plans.
+
+* Dynamic Power Savings Mode
+This mode is extremly balanced, it will decide on your current requirements how much power your server currently needs, it will provide the maximum if you require it and will lower the consumption when there is no significantly need for it. So you can save some energy which is great for the enviroment.
+
+* Static Low Power Mode
+This mode will reduce the energy consumption to the smallest possible, it will reduce the power of your server.
+
+* Static High Performance Mode
+This mod will provide you the maximum of power which your server can be provide, this should be only used if its really necessary, since the energy consumption raises significantly.
+
+* OS Control Mode
+Disables all energy settings through the iLO, which means it will not touch it anymore, it will only follow the power plans of your operating system.
 
 ### Network
 Shows you the network configuration of your iLO, please mention that this settings are not related to the network configurations of your server itself.
