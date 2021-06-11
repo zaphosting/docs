@@ -88,7 +88,7 @@ Das System geht ohne Verzögerung sofort aus.
 * Force System Reset
 Verursacht einen sofortigen Neustart deines Systems.
 
-### Power Management
+### Power Meter
 Zeigt dir den durchschnittlichen Stromverbrauch deines Systems, grundsätzlich gilt je höher die Stromabnahme, desto höher die Last auf deinem System.
 
 ### Power Settings
