@@ -92,7 +92,23 @@ Verursacht einen sofortigen Neustart deines Systems.
 Zeigt dir den durchschnittlichen Stromverbrauch deines Systems, grundsätzlich gilt je höher die Stromabnahme, desto höher die Last auf deinem System.
 
 ### Power Settings
-In den Powereinstellungen deines Servers sollte nur etwas verändert werden sofern Probleme auftreten, es ist empfehlenswert den Support hinzuzuziehen.
+Dort findest du die Auswahl von verschiedenen Energieeinstellungen
+
+* Dynamic Power Savings Mode
+Ist ein sehr gut ausbalancierter Modus, dein Dedicated Server taktet entsprechend der aktuellen Leistungsaufnahme und arbeitet sehr Effizienz. Dein Server kann in Augenblicken bei hohen Performanceansprüchen, dir die nötige Power zur Verfügung stellen, sollte im Augenblick ein geringer Verbrauch sein wird entsprechend die Leistungsaufnahme reduziert. Dies spart Kosten und schont natürlich die Umwelt.
+
+* Static Low Power Mode
+In diesem Modus wird dein Dedicated Server auf dem minimalen Leistungsniveau gehalten. Dies gleicht der Einstellung Energiesparmodus auf deinem Computer.
+
+* Static High Performance Mode
+Stellt durchgehend die maximale Leistung zur Verfügung, hierbei werden keine nennenswerten Energieeinsparungen erzielt.
+Grundsätzlich raten wir sofern nicht begründet, davon ab.
+
+* OS Control Mode
+Deaktiviert die Energieeinstellungen über die iLO selbst, das heißt das diese nicht mehr aktiv in die Regulation eingreifen wird.
+Alles weitere muss dann in deinem Betriebssystem bspw. mit Energiesparrichtlinien konfiguriert werden.
+
+Bei Fragen oder Unklarheiten zu den Energieeinstellungen steht dir unser Support gerne zur Verfügung!
 
 ### Network
 Zeigt dir die Netzwerkkonfiguration deiner iLO, bitte beachte das diese Einstellungen nichts mit der IP deines Servers zu tun haben.
