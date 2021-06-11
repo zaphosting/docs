@@ -28,7 +28,7 @@ Hierbei findest du viele wichtige Informationen auf den ersten Blick:
 ![](https://screensaver01.zap-hosting.com/index.php/s/ST65wBDs4bJgjJJ/preview)
 
 ### Overview
-* *System Health*
+* **System Health**
 Sollte im Regelfall grün sein, hierbei wird bei jedem Serverstart die Hardware deines Servers überprüft, sofern irgendwelche Unstimmigkeiten vorliegen meldet das System diese sofort automatisiert an einen Techniker.
 Mögliche Varianten wären: Grün (OK), Gelb (Degraded) und Rot (Critical) es kann durchaus vorkommen dass der Server deine SSD als Degraded anzeigt, dies ist in der Regel jedoch kein Grund zur Sorge.
 Natürlich kannst du den Support darauf hinweisen, dann werden wir gerne für dich prüfen ob handlungsbedarf besteht. Sollte der System-Status auf Rot also "Critical" stehen, ist der Support umgehend zusätzlich in Kenntnis zu setzen.
