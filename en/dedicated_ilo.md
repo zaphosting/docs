@@ -26,20 +26,20 @@ Here you will find a lot of important informations:
 ![](https://screensaver01.zap-hosting.com/index.php/s/ST65wBDs4bJgjJJ/preview)
 
 ### Overview
-* System Health
+* **System Health**
 Should usually be green, at every server startup the hardware of your server is checking itself, if there are any issues, the system reports them immediately.
 Possible variants are: green (OK), yellow (Degraded) and red (Critical) it can happen that the server shows your SSD as degraded, usually thats not a problem.
 Of course you can inform the support, then we will check for you if there is a need for action. If the system status is red ("Critical"), support should be informed immediately.
 The first step to solve the problem should always be a complete reboot of the server.
 
-* System Health
+* **iLO Health**
 Shows more information about the iLO parameters, there should be no significant changes.
 It is not necessary to modify something in this tab.
 
-* System Health
+* **Server Power**
 Shows you the status of your server, as example "ON" means that your server is running.
 
-* Integrated Remote Console
+* **Integrated Remote Console**
 Here you have the possibility to visually look at your server and execute commands there.
 The remote consoles differ in two aspects. 
 HTML5 is started directly in your webbrowser and does not require any kind of third party software.
@@ -47,7 +47,7 @@ Java Web Start, as the name suggests, uses Java to open the management console.
 Any security warnings that appear can be safely clicked away.
 How to connect step by step to your server with a remote console, you can read in the detailed instructions for it.
 
-* Active Sessions
+* **Active Sessions**
 You can see all users currently connected to iLO here. 
 
 ### iLO Event Log
@@ -74,16 +74,16 @@ In this menu item you can do everything concerning starting & stopping your ZAP 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/gzp2Cxg3nQC2Q8G/preview)
 
-* Gracefull Power Off
+* **Gracefull Power Off**
 Gracefully shuts down your server, the same result as pressing the power button of your notebook/computer once.
 All applications are shut down correctly and the server shuts down in a scheduled manner.
 Of course this can take some time depending on the applications.
 
-* Force Power Off
+* **Force Power Off**
 If your server needs to be turned off immediately without waiting, this is the right option. It is equivalent to pulling the power cord.
 The system goes off immediately without any delay.
 
-* Force System Reset
+* **Force System Reset**
 Causes an immediate reboot of your system.
 
 ### Power Meter
@@ -92,16 +92,16 @@ Shows you the average power consumption of your system, basically the higher the
 ### Power Settings
 There you can find different types of power plans.
 
-* Dynamic Power Savings Mode
+* **Dynamic Power Savings Mode**
 This mode is extremly balanced, it will decide on your current requirements how much power your server currently needs, it will provide the maximum if you require it and will lower the consumption when there is no significantly need for it. So you can save some energy which is great for the enviroment.
 
-* Static Low Power Mode
+* **Static Low Power Mode**
 This mode will reduce the energy consumption to the smallest possible, it will reduce the power of your server.
 
-* Static High Performance Mode
+* **Static High Performance Mode**
 This mod will provide you the maximum of power which your server can be provide, this should be only used if its really necessary, since the energy consumption raises significantly.
 
-* OS Control Mode
+* **OS Control Mode**
 Disables all energy settings through the iLO, which means it will not touch it anymore, it will only follow the power plans of your operating system.
 
 ### Network
