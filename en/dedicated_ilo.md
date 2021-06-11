@@ -86,7 +86,7 @@ The system goes off immediately without any delay.
 * Force System Reset
 Causes an immediate reboot of your system.
 
-### Power Management
+### Power Meter
 Shows you the average power consumption of your system, basically the higher the power consumption, the higher the load on your system.
 
 ### Power Settings
