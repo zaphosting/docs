@@ -7,13 +7,13 @@ sidebar_label: Eigene ISO
 
 ## 💿 Welche Möglichkeiten gibt es?
 Es gibt zwei verschiedene Wege eine eigene ISO einzubinden. Bei allen Wegen ist es erforderlich das der Server neugestartet wird.
-Grundsätzlich gibt es kieine Beschränkungen welche ISOs eingebunden werden können, solange diese bootfähig sind funktionieren sie.
+Grundsätzlich gibt es keine Beschränkungen welche ISOs eingebunden werden können, solange diese bootfähig sind funktionieren sie.
 
 ### 🔧 Einbinden über die iLO
 Öffne deine iLO Verwaltungsoberfläche, navigiere zum Menü "Virtual Media" und öffne dieses.
 ![](https://screensaver01.zap-hosting.com/index.php/s/zHMmYxq45ECe5GL/preview)
 
-* Trage die URL zu deiner ISO-Datei ein, bitte beachte das diese URL mit .iso enden muss.
+* Trage die URL zu deiner ISO-Datei ein, bitte beachte das diese URL zwingend mit .iso enden muss.
 * Klicke auf "Insert Media"
 * Klicke auf "Server Reset" (Startet deinen Server neu)
 
@@ -45,4 +45,3 @@ Wie auch bei der HTML5 Console wird die ISO-Datei auch in der Java Console direk
 Der Unterschied zwischen "Image File CD/DVD-ROM" und "URL CD/DVD-ROM" ist wie auch bei der HTML5-Console das über "Image File CD/DVD-ROM" direkt eine Datei von deinem Computer hochgeladen werden kann.
 
 Nach erfolgtem Laden der ISO-Datei muss der Server neugestartet werden.
-
