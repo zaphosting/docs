@@ -7,7 +7,7 @@ sidebar_label: CentOS installieren
 > In diesem Beispiel wird die Installation von CentOS 8.3 durchgeführt
 
 ## 📋 Vorbereitungen
-Wähle in deinem ZAP-Interface die gewünschte ISO von FreeBSD aus und lasse den Server mit der ISO booten, bis dieser im Setup ist.
+Wähle in deinem ZAP-Interface die gewünschte ISO von CentOS aus und lasse den Server mit der ISO booten, bis dieser im Setup ist.
 
 > Die Navigation im Setup-Prozess erfolgt ganz bequem mit deiner Maus
 
