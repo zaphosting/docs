@@ -7,7 +7,7 @@ sidebar_label: RAID Configuration
 > We're offering up to 2 SSDs in our dedicated server products, so you could use RAID0 or RAID1
 
 ## ❓ Which types of raid are there?
-Basically tehre are difficult raid types. Since our dedicated servers are only offering 2 ssd bays, there is only a configuration of RAID0 or RAID1 possible.
+Basically, there are different raid types. Since our dedicated servers are only offering 2 ssd bays, there is only a configuration of RAID0 or RAID1 possible.
 Other raid types would require to have more ssds.
 
 > RAID0 has slightly faster read and write rates
