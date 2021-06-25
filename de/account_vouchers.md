@@ -8,7 +8,7 @@ sidebar_label: Gutscheine & Codes
 
 Um unsere Codes nutzen zu können, solltest du dich zuerst auf unserer Website anmelden bzw registrieren. Das geht natürlich mit nur wenigen Klicks und ist absolut kostenlos.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/cX8DB3SPgRE3EmZ/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/qPtbCFXwZi85ebD/preview)
 
 Sobald du eingeloggt bist, landest du automatisch in deinem Webinterface. Um nun einen Code nutzen zu können, solltest du erst in Erfahrung bringen welche Art Code du gerade einlösen möchtest. Grundsätzlich gibt es zwei unterschiedliche Arten von Gutscheincodes:
 
@@ -19,15 +19,15 @@ Sobald du eingeloggt bist, landest du automatisch in deinem Webinterface. Um nun
 
 Guthabencodes können eingelöst werden, indem du einfach oben in deinem Webinterface auf ZAP Coins klickst.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/gXFTCaJeZLBrDG7/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/gKiKbknGGJdQoWk/preview)
 
 Auf der nächsten Seite kannst du aussuchen, ob du Geld einzahlen, Guthaben automatisch aufladen oder einen Gutschein einlösen möchtest. Klicke also auf **Gutschein einlösen**.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SEwYAkYSqBN2mgY/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/Hjzgm3iHDLA2HEb/preview)
 
 Es öffnet sich ein Popup, in dem du den Code nun einfügen kannst.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/bQdwGe4kAbLe7Ko/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/TqYHgnM2RQayL3m/preview)
 
 Ist der Gutschein korrekt eingegeben, noch immer gültig und wurde von dir nicht bereits verwendet, wird der Betrag automatisch auf dein ZAP-Konto gebucht. 
 
@@ -40,13 +40,13 @@ Ist der Gutschein korrekt eingegeben, noch immer gültig und wurde von dir nicht
 Rabattcodes funktionieren ähnlich wie die Guthabencodes, werden jedoch an einer anderen Stelle im Webinterface benutzt. Sie reduzieren bereits im Bestellprozess die Kosten für das Paket, das ihr buchen möchtet. Um diese Codes einzulösen, macht einfach folgendes:
 Sucht euch das Produkt, das ihr bestellen möchtet und konfiguriert es nach euren Wünschen.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/9rXfEXcA9cSMFfK/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/GmWpKxtwGePPLiq/preview)
 
 Sobald alles korrekt konfiguriert ist, könnt ihr euren Code noch im Bestellprozess benutzen. Klickt dazu einfach auf **Gutschein einlösen** unterhalb der Bestellkosten.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/tqZgRgE4H6MA9nP/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/aXGpGLdJF4aFHKm/preview)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/DwXfn7oZd46Wig7/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/qWZkPjG7xbMgwFF/preview)
 
 Die Kosten reduzieren sich automatisch sobald ihr den Gutschein einlöst. 
 
@@ -63,10 +63,10 @@ Es gibt verschiedene Möglichkeiten, um an die begehrten Codes zu kommen. Am ein
 - In unseren Newslettern
 - Direkt nach der Bestellung eines Produkts
 
-![](https://screensaver01.zap-hosting.com/index.php/s/BqiLPZzaZqsMtbt/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/oGeZKds56CjGpHd/preview)
 
 Jeden Montag einen Euro? Wer schnell ist, kann sich einen der 100 Codes sichern.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/Sk6bBgSxZZHpqp2/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/R3KGGDZMKpFNaj9/preview)
 
-Bestellung wird eingerichtet und direkt kann man 10% auf das nächste Produkt sparen!
+Bestellung wird eingerichtet und direkt kann man 50% auf das nächste Produkt sparen!
