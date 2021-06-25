@@ -8,7 +8,7 @@ sidebar_label: Coupons & Codes
 
 To use our codes, you should first log in or register on our website. Of course, this can be done with just a few clicks and is absolutely free of charge.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/XDQRAGdnsyG9N8g/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/A5H5KpXCXBkDkQ5/preview)
 
 As soon as you are logged in, you will automatically land in your web interface. To use a code now, you should first find out what kind of code you want to redeem. Basically there are two different types of coupon codes:
 
@@ -19,19 +19,19 @@ As soon as you are logged in, you will automatically land in your web interface.
 
 Credit codes can be redeemed by simply clicking on ZAP Coins at the top of your web interface.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/gXFTCaJeZLBrDG7/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/gKiKbknGGJdQoWk/preview)
 
 On the next page you can choose whether you want to deposit money, top up credit automatically or redeem a voucher. So click on ** Redeem voucher**.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/D35Lyx7sG5xWLXC/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/9X7HDkwsLMm3DgK/preview)
 
 A popup will open where you can now insert the code.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/t4a99nsR6LAeEf8/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/kdoTeAYniGb8P9Q/preview)
 
 If the voucher is entered correctly, is still valid and has not already been used by you, the amount is automatically booked to your ZAP account. 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/XY8LtZ4gfWw62iY/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/JB7RZ7z32ieyiX8/preview)
 
 > If a code does not work, it may be that it has already expired, has already been used or that the code is not a credit code.
 
@@ -40,13 +40,13 @@ If the voucher is entered correctly, is still valid and has not already been use
 Discount codes work similar to credit codes, but are used elsewhere in the web interface. They already reduce the cost of the package you want to book during the ordering process. To redeem these codes, simply do the following:
 Find the product you want to order and configure it according to your wishes.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/9rXfEXcA9cSMFfK/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/YtB69Hqed4X9PH6/preview)
 
 Once everything is configured correctly, you can still use your code in the ordering process. Just click on **redeem voucher** below the order costs.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/4JTxjCrSbgdRr4m/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/sxRCikknHXtnrjn/preview)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/5waFdE3MTcraF76/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/qWm9wxmKHAWLFL5/preview)
 
 The costs are automatically reduced as soon as you redeem the voucher. 
 
@@ -63,8 +63,8 @@ There are several ways to get the coveted codes. The easiest places to find them
 - In our newsletters
 - Directly after ordering a product
 
-![](https://screensaver01.zap-hosting.com/index.php/s/BqiLPZzaZqsMtbt/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/oGeZKds56CjGpHd/preview)
 One euro every Monday? If you are fast, you can get one of the 100 codes.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/Sk6bBgSxZZHpqp2/preview)
-Order is set up and directly you can save 10% on the next product!
+![](https://screensaver01.zap-hosting.com/index.php/s/bbiQEjqaWEKsXcD/preview)
+Order is set up and directly you can save 50% on the next product!
