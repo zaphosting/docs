@@ -22,9 +22,6 @@ Sobald wir diesen Bedarf geklärt und entsprechend gedeckt haben, besprechen wir
 
 Da wir wissen, wie durchdacht einige Kanal-Brandings unserer Influencer sind, möchten wir hier nur ungern Vorgaben machen und euch vorgefertigte Grafiken aufzwingen. Lieber stellen wir euch unser Logo zur Verfügung und überlassen euch das Design. Was wir uns hier jedoch wünschen würden, wäre eine **prominente Platzierung des Panels** unter deinem Stream, sowie in deinem Overlay.
 
-
-![](https://screensaver01.zap-hosting.com/index.php/apps/files_sharing/publicpreview/QmDo7sHBy7x9Zos?x=1920&y=587&a=true&file=ApplicationFrameHost_Cbkd9iTyTq.png&scalingup=0)
-
 Hier ein paar Beispiele, wie ihr Bot-Timer, Videobeschreibungen und Shoutouts gestalten könntet:
 
 > Dein eigener Server wartet! Jetzt bei ZAP-Hosting.com deinen Traumserver erstellen: (DEIN LINK) #Werbung
@@ -36,7 +33,7 @@ Hier ein paar Beispiele, wie ihr Bot-Timer, Videobeschreibungen und Shoutouts ge
 ## 🥇 Die Partner-Ränge
 Sobald du dich auf ZAP-Hosting.com eingeloggt hast, wirst du in der Kopfzeile als ZAP-Partner zwei Veränderungen feststellen: Erstens glänzt nun ein Ring um dein Avatarbild, der deinen Rang als Partner darstellt und zweitens ist ein Sternn neben deinem Avatar aufgetaucht, der dich zum **Partner Menü** führt.
 
-![](https://screensaver01.zap-hosting.com/index.php/apps/files_sharing/publicpreview/yGckAEzby3JxpEW?x=1920&y=587&a=true&file=chrome_TykWOICnk8.png&scalingup=0)
+![](https://screensaver01.zap-hosting.com/index.php/s/6H77WjJ7cNS2jrL/preview)
 
 Unterteilt werden Partner bei uns in die Ränge **Silver**, **Gold** und **Diamond**. Diese Ränge unterscheiden sich nicht nur in ihrem Namen, sondern vor allem in der von uns gestellten Leistung und natürlich der Leistung des jeweiligen Influencers/Partners. Erstmal startet jeder Partner im **Silver-Rang** und erhält von uns eine Basisausstattung mit kostenlosen Servern, Grafiken und einem Ansprechpartner bei Rückfragen (Partner Manager). 
 
@@ -48,12 +45,12 @@ Sobald Partner den finalen Rang des **Diamond Partners** erreicht haben, winken 
 ## ⭐️ Das Partner Menü
 Jeder ZAP-Partner bekommt Zugriff auf das Partner Menü, in dem er unter anderem die Kontaktdaten seines Partner Managers findet, Einblick in seine Statistiken bekommt, Werbemittel erstellen kann und natürlich auch individuelle Links anlegen kann.
 
-![](https://screensaver01.zap-hosting.com/index.php/apps/files_sharing/publicpreview/2FLZnd2qBj2q2sG?x=1920&y=587&a=true&file=chrome_1r2PNNLlAV.png&scalingup=0)
+![](https://screensaver01.zap-hosting.com/index.php/s/7op5CnePCDg7okk/preview)
 
 ### Werbemittel
 Du benötigst einen Minecraft-Banner, den du auf deiner Website anbringen kannst? Dir fehlt das ZAP Logo? Oder brauchst du ein paar Ideen, wie dein Panel aussehen kann? Dann schau dich im Dropdown Menü um und lade dir hier alle benötigten Grafiken runter. Wir geben dir neben der Grafik selbst auch einen Link, mit dem du deine Grafik unkompliziert einbinden kannst.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/gAiaHGd3T7MHkDd/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/skctFGtFNReEBzs/preview)
 
 Klicke einfach auf den grünen Button **Neues Werbemittel erstellen** und wähle im Dropdown Menü aus unseren Vorlagen deinen Favoriten.
 
@@ -63,12 +60,12 @@ Klicke einfach auf den grünen Button **Neues Werbemittel erstellen** und wähle
 
 **Name/Beschreibung:** Der Name deines Banners. Sollte es der Banner für deine Frontpage werden, so könnte man den Banner einfach "Minecraft Banner Frontpage" nennen.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/Ax4Lxnepjxgq3k6/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/w8RfWyd5GMWikWG/preview)
 
 ### Links
 Unter dem selben Menüpunkt gelangst du zum Link-Generator. Dieser funktioniert im Grunde genau wie der Banner-Generator, jedoch ohne euch ein Banner anzubieten. Stattdessen könnt ihr einen eigenen Linktext eingeben, der Anderen in der Vorschau angezeigt wird.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/HiiZGfnQ6DsEpbW/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/EejRpyCGNAMcxMp/preview)
 
 ### Events
 Unter **Events** kannst du eigene Events anlegen, um die Übersicht über geplante Projekte nicht zu verlieren. Leider ist dieser Eventbereich nicht mit unserem Mitteilungssystem verknüpft; von dir geplante Events landen also nicht automatisch in der Inbox deines Partner Managers und sollten auf jeden Fall nochmal separat (Mail oder Discord) mit deinem Manager durchgesprochen werden.
