@@ -32,21 +32,17 @@ Wir bieten eine große Anzahl verschiedener Zahlungsoptionen an, mit denen Serve
 * Paymentwall
 > Paymentwall ist ein Zahlungsanbieter, über den zusätzliche auch lokal begrenzte Zahlungsoptionen angeboten werden. Wenn eine Zahlung mit den übrigen Zahlungsoptionen nicht möglich ist, bietet Paymentwall zusätzlich Optionen wie beispielsweise lokale Prepaidkarten.
 
-![](https://screensaver01.zap-hosting.com/index.php/apps/files_sharing/publicpreview/NZZcKWizMpBf8MK?x=1912&y=616&a=true&file=firefox_VW5fwNOZWG.png&scalingup=0)
+![](https://screensaver01.zap-hosting.com/index.php/s/3k9J3csBx3B3eZp/preview)
 
 ## 💸 Bezahlvorgang
 Der Bezahlvorgang ist simpel: Die Serverkonfiguration wird auf der Konfigurationsseite zusammengestellt, am Ende der Seite wird die gewünschte Zahlungsoption ausgewählt. Nach einem Klick auf "Kostenpflichtig bestellen" findet ggf. eine Weiterleitung auf den gewählten Zahlungsdienstleister statt über den die Zahlung getätigt werden kann. Nach Erhalt der Zahlung wird der Server innerhalb weniger Sekunden eingerichtet.
-
-![](https://screensaver01.zap-hosting.com/index.php/apps/files_sharing/publicpreview/Rz5yqxeeZF7WN2y?x=1920&y=619&a=true&file=chrome_b2F6lXb8AP.png&scalingup=0)
 
 ## 🏦 ZAP Guthaben: Einzahlung
 Guthaben kann über sämtliche anderen von uns angebotenen Zahlungsoptionen eingezahlt werden und auch Vertragsserver können über ZAP-Coins bezahlten werden. Im Web Interface lässt sich Guthaben unter dem Punkt **Geld einzahlen** einzahlen.
 > Eine anteillige Finanzierung über Guthaben ist nicht möglich. Wenn du bereits Guthaben hast, beispielsweise weil du einen Guthaben-Code verwendest hast, kannst du Guthaben beliebig hinzufügen. Tipp: Wenn du mit ZAP-Guthaben bezahlst, achte auf unsere Cash In Deals: Ist der Cash In Deal aktiviert, erhältst du zusätzliches Guthaben, wenn du deine Einzahlung erhöhst.
 Überweisungen können verwendet werden, um ZAP-Guthaben einzuzahlen. Sobald die Überweisung bei uns eingegangen ist, wird das Guthaben freigeschaltet und kann verwendet werden.
 
-![](https://screensaver01.zap-hosting.com/index.php/apps/files_sharing/publicpreview/iPDYFjbm9e9Nm6p?x=1920&y=620&a=true&file=chrome_rQewWKD9qK.png&scalingup=0)
-
-![](https://screensaver01.zap-hosting.com/index.php/apps/files_sharing/publicpreview/Qb9sznKMiZSyGS9?x=1920&y=620&a=true&file=chrome_CqTtPV6j5Y.png&scalingup=0)
+![](https://screensaver01.zap-hosting.com/index.php/s/ttQrmkkcwy2Yid4/preview)
 
 ## 💰 Cashbox
 Die Cashbox ist über das Web Interface unter dem Punkt **Cashbox** erreichbar. Neben der Möglichkeit Guthaben einzuzahlen, bietet die Cashbox folgende Zusatzfunktionen:
@@ -61,4 +57,4 @@ Die Cashbox ist über das Web Interface unter dem Punkt **Cashbox** erreichbar. 
 * Transaktionsübersicht
 > Eine Übersicht aller bisher getätigten Transaktionen.
 
-![](https://screensaver01.zap-hosting.com/index.php/apps/files_sharing/publicpreview/Rxj5EAbXqffbjij?x=1920&y=620&a=true&file=chrome_EImA32HhiQ.png&scalingup=0)
+![](https://screensaver01.zap-hosting.com/index.php/s/qmENetPibyB2SBG/preview)
