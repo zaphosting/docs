@@ -11,14 +11,14 @@ Wenn der Server nicht in der Serverliste angezeigt wird, kann dies mehrere Grün
 
 Oftmals sind es simple Konfigurationsfehler, welches dieses Problem verursacht, zuerst sollten wir prüfen, ob unser Server das Listing deaktiviert hat, hierzu prüfen wir die `sv_master1` Zeile:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/dQtk9z7S6NmsgnK/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/KzMWGaFH6dETF6w/preview)
 
 > Diese Zeile sollte **immer** mit einem # auskommentiert werden, wenn dies nicht der Fall ist, wird der Server nicht gelistet.
 
 
 Ebenfalls sollte der Servername (`sv_hostname`) geprüft werden:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/6kSEiw4D8XYGejM/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/sk2ZpQomYniYPyG/preview)
 
 In diesem Fall fehlt das Anführungszeichen am Ende der Zeile, bei manchen Servernamen kann es auch durch Formatierung Probleme geben, wir würden in diesem Fall empfehlen, z. B. [DE], Sonderzeichen wie ä, ü, ö zu entfernen.
 
@@ -27,11 +27,8 @@ In diesem Fall fehlt das Anführungszeichen am Ende der Zeile, bei manchen Serve
 
 Wenn deine Serverversion stark veraltet ist, wird FiveM den Server nicht mehr in der Serverliste anzeigen, wir würden daher immer empfehlen, den Server auf der neusten Version zu haben und automatische Updates zu Aktivieren:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/9FdTFRkbGFN9Tx4/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/YNr6s59bpWSxseQ/preview)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/6AWRp3QD4kpRCze/preview)
-
-![](https://screensaver01.zap-hosting.com/index.php/s/yDdtcAzWPweaLZP/preview)
 
 ## Problematische Resourcen
 
@@ -43,11 +40,3 @@ Es können auch Resourcen verhindern, dass der Server gelistet wurde, in diesem 
 Falls nichts davon abhilfe bringt, ist eine Neuinstallation empfehlenswert, damit werden alle Serverdateien auf Standard zurückgesetzt.
 
 > Gehe sicher, dass vor der Neuinstallation ein Backup erstellt wird, ansonsten werden die Daten auf dem Server verloren gehen.
-
-Du kannst wie folgt deinen Server neu installieren:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/ks6QH6EgS3g5CmZ/preview)
-
-![](https://screensaver01.zap-hosting.com/index.php/s/gxzegM6r6nmdgp9/preview)
-
-![](https://screensaver01.zap-hosting.com/index.php/s/EP6XtoPLE7FxBrY/preview)

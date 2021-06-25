@@ -15,7 +15,7 @@ Nun öffnen wir unser [Mastadon Profil](https://mstdn.social/settings/profile) u
 
 Jetzt können wir unsere "Configs", bei unserem FiveM Server öffnen, und die server.cfg editieren:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/PaQHqny89EFXNYK/preview)
+[](https://screensaver01.zap-hosting.com/index.php/s/6gfSWmbfGBpRaNb/preview)
 
 
 Wir Fügen nun ganz unten folgende Zeile ein:
@@ -26,8 +26,6 @@ sets activitypubFeed username
 
 "username" sollte mit deinem Mastadon Usernamen ersetzt werden.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/JkwaEpJbDqqPmjK/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/KyW5rMNrQRrfGji/preview)
 
 Nun speichern wir die Datei und starten unseren Server neu, nach ~20 Minuten wird das "Feed" Tab verfügbar sein, nachdem dein Server geöffnet wurde.
-
-![](https://screensaver01.zap-hosting.com/index.php/s/ZwsnnABibqZncEx/preview)
