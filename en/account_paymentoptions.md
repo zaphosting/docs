@@ -30,12 +30,10 @@ ZAP-Hosting offers a large number of different payment options with which server
 * Bank transfer (only for ZAP-Credits)
 > Only available for depositing ZAP-Credits. After receipt of payment the credit will be activated.
 
-![](https://screensaver01.zap-hosting.com/index.php/apps/files_sharing/publicpreview/Ea95im39JEMCeBB?x=1920&y=619&a=true&file=chrome_IRPmUcH6Cm.png&scalingup=0)
+![](https://screensaver01.zap-hosting.com/index.php/s/pdnHke4o46iSg2q/preview)
 
 ## 💸 Payment process
 The payment process is simple: the server configuration is put together on the configuration page, at the bottom of the page the desired payment option is selected. After a click on "Buy now", a redirection to the selected payment service provider will take place if necessary, via which the payment can be made. After receiving the payment, the server is set up within a few seconds.
-
-![](https://screensaver01.zap-hosting.com/index.php/apps/files_sharing/publicpreview/Rz5yqxeeZF7WN2y?x=1920&y=619&a=true&file=chrome_b2F6lXb8AP.png&scalingup=0)
 
 ## 🏦 ZAP-Credits: Deposit
 ZAP-Credits can be deposited via all other payment options offered by us and also contract servers can be paid via ZAP-Coins. In the web interface you can deposit ZAP-Credits under the point **Cash in** in your Cashbox.
@@ -43,9 +41,7 @@ ZAP-Credits can be deposited via all other payment options offered by us and als
 Transfers can be used to deposit ZAP credits. As soon as we have received the transfer, the credit will be activated and can be used.
 
 
-![](https://screensaver01.zap-hosting.com/index.php/apps/files_sharing/publicpreview/iPDYFjbm9e9Nm6p?x=1920&y=620&a=true&file=chrome_rQewWKD9qK.png&scalingup=0)
-
-![](https://screensaver01.zap-hosting.com/index.php/apps/files_sharing/publicpreview/Qb9sznKMiZSyGS9?x=1920&y=620&a=true&file=chrome_CqTtPV6j5Y.png&scalingup=0)
+![](https://screensaver01.zap-hosting.com/index.php/s/HAYDpFs9syCgXD6/preview)
 
 ## 💰 Cashbox
 The Cashbox can be accessed via the web interface under the item **Cashbox**. In addition to the possibility of depositing ZAP-Credits, the Cashbox offers the following additional functions:
@@ -61,4 +57,4 @@ The Cashbox can be accessed via the web interface under the item **Cashbox**. In
 > An overview of all transactions made so far.
 
 
-![](https://screensaver01.zap-hosting.com/index.php/apps/files_sharing/publicpreview/Rxj5EAbXqffbjij?x=1920&y=620&a=true&file=chrome_EImA32HhiQ.png&scalingup=0)
+![](https://screensaver01.zap-hosting.com/index.php/s/RBq6dNK2TYSkHPF/preview)
