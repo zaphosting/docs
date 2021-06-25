@@ -15,9 +15,9 @@ In principle, all types of suggestions can be submitted. We place particular emp
 ### 🧾 How are suggestions submitted?
 To submit a suggestion, simply click on the "Suggest Feature" button on the suggestion page. A form opens in which the suggestion can be entered and the category ("Game request", "Web Interface Feature" and "Miscellaneous") can be selected. The suggestion is submitted using the "Suggest Now" button.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/2KRCcpatQEN4jDq/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/FxrN5q2K9YXdAGp/preview)
 
-![](https://screensaver01.zap-hosting.com/index.php/apps/files_sharing/publicpreview/pfiHPMrdGnaG3DL?x=1914&y=623&a=true&file=brave_mjHonRPWrC.png&scalingup=0)
+![](https://screensaver01.zap-hosting.com/index.php/s/7b2n4ec5qN2saGM/preview)
 
 ### 🎮 What should be considered when suggesting games?
 In principle, any game or modpack for which we do not yet offer a game server can be proposed. We review all suggestions and decide whether it makes sense to add a particular game. Minecraft modpacks can of course be suggested under "Game Request".
@@ -37,5 +37,5 @@ Web interface features are all features that are available on our website zap-ho
 ### ⏳ What happens after my suggestion is submitted?
 We look at all the new suggestions and decide whether it makes sense to accept the suggestion or even implement it directly. If a suggestion is accepted, but is not implemented directly, you can use a "Like" to show that this suggestion is important to you. The more likes, the higher the likelihood that a suggestion that has not yet been implemented will be considered.
 
-![](https://screensaver01.zap-hosting.com/index.php/apps/files_sharing/publicpreview/cx6CCioizaG4DsP?x=1914&y=623&a=true&file=brave_EsoN5bMuX8.png&scalingup=0)
+![](https://screensaver01.zap-hosting.com/index.php/s/9QG49oT2Y7pcPjp/preview)
 
