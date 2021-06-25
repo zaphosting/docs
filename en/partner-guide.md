@@ -23,8 +23,6 @@ Once we have clarified this need and covered it accordingly, we **discuss indivi
 Since we know how well thought out some of our influencer channel brandings are, we don't want to give you guidelines and impose ready-made graphics. We prefer to provide you with our logo and leave the design to you. But what we would like to see here is a **prominent placement of the panel** under your stream and in your overlay.
 
 
-![](https://screensaver01.zap-hosting.com/index.php/apps/files_sharing/publicpreview/QmDo7sHBy7x9Zos?x=1920&y=587&a=true&file=ApplicationFrameHost_Cbkd9iTyTq.png&scalingup=0)
-
 Here are a few examples of how you could create bot timers, video descriptions and shoutouts:
 
 > Your own server is waiting! Create your dream server now at ZAP-Hosting.com: (YOUR LINK) #Ad
@@ -36,7 +34,7 @@ Here are a few examples of how you could create bot timers, video descriptions a
 ## 🥇 The partner ranks
 As soon as you have logged in at ZAP-Hosting.com, you will notice two changes in the header as a ZAP partner: First, a ring around your avatar image is now shining, which represents your rank as a partner, and second, a star has appeared next to your avatar, which leads you to the **Partner menu**.
 
-[](https://screensaver01.zap-hosting.com/index.php/apps/files_sharing/publicpreview/yGckAEzby3JxpEW?x=1920&y=587&a=true&file=chrome_TykWOICnk8.png&scalingup=0)
+![](https://screensaver01.zap-hosting.com/index.php/s/6H77WjJ7cNS2jrL/preview)
 
 Our partners are divided into the ranks **Silver**, **Gold** and **Diamond**. These ranks differ not only in their names, but also in the services we provide and of course the services of the respective influencer/partner. At first each partner starts in the **Silver Rank** and receives a basic equipment with free servers, graphics and a contact person for questions (Partner Manager). 
 
@@ -48,12 +46,12 @@ As soon as partners have reached the final rank of **Diamond Partner**, other be
 ## ⭐️ The Partner Menu
 Every ZAP partner gets access to the paner menu, where he can find the contact data of his partner manager, see his statistics, create advertising material and of course create individual links.
 
-[](https://screensaver01.zap-hosting.com/index.php/apps/files_sharing/publicpreview/2FLZnd2qBj2q2sG?x=1920&y=587&a=true&file=chrome_1r2PNNLlAV.png&scalingup=0)
+![](https://screensaver01.zap-hosting.com/index.php/s/C4qK7Foe2LN683i/preview)
 
 ### ▶️ Advertising material
 You need a Minecraft banner that you can put on your website? You are missing the ZAP logo? Or do you need some ideas how your panel could look like? Then have a look around in the drop-down menu and download all the graphics you need here. Besides the graphic itself, we will give you a link with which you can easily integrate your graphic.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/gAiaHGd3T7MHkDd/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/NGMCfKdNm5aCwnF/preview)
 
 Simply click on the green button **Create new advertising material** and choose your favourite from our templates in the drop-down menu.
 
@@ -68,7 +66,7 @@ Simply click on the green button **Create new advertising material** and choose 
 ### ▶️ Links
 Under the same menu item you will get to the link generator. This works basically the same as the banner generator, but without offering you a banner. Instead, you can enter your own link text, which will be shown to others in the preview.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/HiiZGfnQ6DsEpbW/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/6PQQQEMzGnETgwE/preview)
 
 ### ▶️ Events
 Under **Events** you can create your own events to keep track of planned projects. Unfortunately, this event area is not linked to our messaging system, so events planned by you do not automatically end up in the inbox of your partner manager and should be discussed separately (mail or discord) with your manager.
@@ -77,8 +75,6 @@ Under **Events** you can create your own events to keep track of planned project
 First of all we have to distinguish between links you created in the **Partner Menu** and links created in the **Advertise Friends** section. Partner links are only for tracking your services and the clicks of your target group. We use the activity through your links to get an impression of how active our influencers are in promoting us and how many customers found us through them. These values are always relevant when it comes to talks about upgrading to the next partner rank or introducing a fixed monthly payment. So partner links primarily generate data and not money for you. 
 
 In contrast to this are the links that were created via the generator in the category **Advertise friends**. Sales generated through these links track the link's sales and allow a **percentage revenue share**. These turnovers are summed up over time and can be paid out to us via a written invoice.
-
-![](https://screensaver01.zap-hosting.com/index.php/s/drpi3zkw8w7Y4QD/preview)
 
 However, some of our partners will provide products worth several hundred euros free of charge, ** we will prohibit all partners from using "refer a friend" links for the time being, unless otherwise agreed!
 Only after a personal agreement, individual partners are allowed to use these *Affiliate Links* as well.
