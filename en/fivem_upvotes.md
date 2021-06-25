@@ -15,9 +15,9 @@ FiveM Upvotes can be purchased from [our shop](https://zap-hosting.com/de/shop/p
 
 After your number of Upvotes has been set, you must click on the "FiveM username" field and confirm access to your FiveM forum account:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/HzbcD7C85xtLeM8/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/Mc7sLiZcBeiJnTb/preview)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/ioboYQfjJ6gKxDr/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/PB6dyM8oxFiA7ae/preview)
 
 After this has been confirmed the order can be completed.
 
@@ -25,19 +25,15 @@ After this has been confirmed the order can be completed.
 
 After the Upvotes are visible in the web interface, they can be assigned via the FiveM client:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/RMgc4QHaqzMdPpe/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/ziNae5Kan8ijtYb/preview)
 
 Now comes a pop-up which confirms this.
-
-![](https://screensaver01.zap-hosting.com/index.php/s/8QDrSD5L7tLQcqG/preview)
 
 Done! Your favorite server is now boosted.
 
 
 ## Reset Upvotes
 
-If the upvotes should be assigned to another server, or if an error occurs during the upvoting, they can be reset via the dashboard:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/9Zi7KYeqCedSiiL/preview)
+If the upvotes should be assigned to another server, or if an error occurs during the upvoting, they can be reset via the dashboard.
 
 After about 60 minutes, the upvotes can be reassigned.

@@ -11,7 +11,7 @@ Einige Produkte können bei ZAP-Hosting.com als Vorbestellungen bestellt werden.
 ### 🔎 Woran erkenne ich Vorbestellungen?
 Vorbestellungen sind auf der Produktseite als Vorbestellung gekennzeichnet.
 
-![](https://screensaver01.zap-hosting.com/index.php/apps/files_sharing/publicpreview/SSdxaT7FXtrdZ3y?x=1921&y=602&a=true&file=msedge_daXTbsDJJh.png&scalingup=0)
+![](https://screensaver01.zap-hosting.com/index.php/s/NS3CBREwP9SexcL/preview)
 
 ### ⏰ Wann erhalte ich meinen vorbestellten Server?
 Vorbestellte Server werden vollautomatisch eingerichtet, sobald das Produkt in unsere Gameserver-Cloud eingerichtet wurde. Wir verschicken eine Email, sobald der Server eingerichtet wurde. Die Zeit, bis vorzubestellende Server eingebaut werden, kann stark variieren, da es beispielsweise davon abhängen kann, wann Server Files freigegeben werden. Grundsätzlich versuchen wir, Vorbesteller-Produkte so schnell wie möglich einzubauen.

@@ -11,7 +11,7 @@ Some products can be ordered at ZAP-Hosting.com as pre-orders. This means that t
 ### 🔎 How do I recognize pre-orders?
 Pre-orders are marked as pre-orders on the product page.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/W7beACXt2wEDD5X/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/3am8PqrxRAxt6yH/preview)
 
 ### ⏰ When will I receive my pre-ordered server?
 Pre-ordered servers will be set up fully automatically once the product is set up in our gameserver cloud. We will send an email as soon as the server has been set up. The time until pre-ordered servers are installed can vary greatly, because it may depend on when server files are released. Basically we try to install pre-ordered products as soon as possible.
