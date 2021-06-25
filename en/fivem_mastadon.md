@@ -15,7 +15,7 @@ Now we open our [Mastadon Profile](https://mstdn.social/settings/profile) and co
 
 Now we can open our "Configs" on our FiveM server and edit the server.cfg:
 
-[](https://screensaver01.zap-hosting.com/index.php/s/PaQHqny89EFXNYK/preview)
+[](https://screensaver01.zap-hosting.com/index.php/s/6gfSWmbfGBpRaNb/preview)
 
 
 We now insert the following line at the very bottom:
@@ -26,8 +26,7 @@ sets activitypubFeed username
 
 "username" should be replaced with your mastadon username.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/JkwaEpJbDqqPmjK/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/KyW5rMNrQRrfGji/preview)
 
 Now we save the file and restart our server, after ~20 minutes the "Feed" tab will be available after your server is opened.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/ZwsnnABibqZncEx/preview)
