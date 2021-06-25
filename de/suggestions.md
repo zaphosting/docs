@@ -15,9 +15,9 @@ Grundsätzlich können jegliche Arten von Vorschlägen eingereicht werden. Beson
 ### 🧾 Wie werden Vorschläge eingereicht?
 Um einen Vorschlag einzureichen, muss lediglich auf der Vorschlagsseite auf den Button "Vorschlag einreichen" geklickt werden. Es öffnet sich ein Formular, in das der Vorschlag eingetragen werden kann sowie die Kategorie ("Spielewunsch", Web Interface Features" und "Sonstiges") ausgewählt werden kann. Über den Button "Jetzt vorschlagen" wird der Vorschlag eingereicht.
 
-![](https://screensaver01.zap-hosting.com/index.php/apps/files_sharing/publicpreview/rxX8WJ6a7onBXM4?x=1921&y=602&a=true&file=msedge_XT55hWykqQ.png&scalingup=0)
+![](https://screensaver01.zap-hosting.com/index.php/s/Pjxbn6D57Sq9Saq/preview)
 
-![](https://screensaver01.zap-hosting.com/index.php/apps/files_sharing/publicpreview/8spmawdNXoF3fDg?x=1921&y=602&a=true&file=msedge_SVOqYSujUC.png&scalingup=0)
+![](https://screensaver01.zap-hosting.com/index.php/s/goaYsBeXqt9ddao/preview)
 
 ### 🎮 Was ist bei Spielvorschlägen zu beachten?
 Grundsätzlich kann jedes Spiel oder Modpack vorgeschlagen werden, für das wir noch keine Gameserver anbieten. Wir prüfen alle Vorschläge und entscheiden, ob es sinnvoll ist, ein bestimmtes Spiel hinzuzufügen. Minecraft Modpacks können natürlich unter "Spielewunsch" vorgeschlagen werden.
@@ -35,5 +35,5 @@ Web Interface Features sind alle Features, die auf unserer Seite zap-hosting.com
 ### ⏳ Was geschieht nachdem mein Vorschlag eingereicht wurde?
 Wir schauen uns alle neuen Vorschläge an und entscheiden, ob es sinnvoll ist den Vorschlag anzunehmen oder sogar direkt umzusetzen. Ist ein Vorschlag angenommen, wird aber nicht direkt umgesetzt, könnt ihr durch einen "Like" zeigen, dass euch dieser Vorschlag wichtig ist. Je mehr Likes, desto höher die Wahrscheinlichkeit, dass ein bisher noch nicht umgesetzer Vorschlag in Betracht gezogen wird.
 
-![](https://screensaver01.zap-hosting.com/index.php/apps/files_sharing/publicpreview/fzq7J6wJTSb6Q9k?x=1921&y=602&a=true&file=msedge_ulAi6W6n01.png&scalingup=0)
+![](https://screensaver01.zap-hosting.com/index.php/s/tfDtiwHG2WiYrMd/preview)
 
