@@ -21,7 +21,7 @@ Anschließend musst du links im Menü auf "Verträge & PrePaids" klicken. Zum Sc
 
 Im Anschluss wird dir angezeigt, zu welchem Datum dein Vertrag gekündigt wird.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/zo5Y3z9GitDQqZF/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/FTRFPEkgNZgA5sW/preview)
 
 ## 📙  "Kündigungsfrist"
 
