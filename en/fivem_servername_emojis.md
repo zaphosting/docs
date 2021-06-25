@@ -12,15 +12,7 @@ To have emojis in the server name you first have to disable the server name in t
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/dFtyZT6JLL5aB7w/preview)
 
-Now we set up our [FTP access](gameserver_ftpaccess.md)
-
-![](https://screensaver01.zap-hosting.com/index.php/s/cC28HfFFFaiJG4G/preview)
-
-After this has been set up, you can now connect and open the server folder:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/omjKDgFcn64rRMF/preview)
-
-Here we open the following path: `gta5-fivem/server-data/`
+Now we set up our [FTP access](gameserver_ftpaccess.md).
 
 ## Configuration
 
