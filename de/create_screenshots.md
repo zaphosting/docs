@@ -33,19 +33,19 @@ Wichtig: Da es keine Screenshot Funktion dort gibt, muss der Screenshot bereits 
 
 Upload Option:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/H3eWYDiEPwQ5ore/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/kxGFndBeFPp42AJ/preview)
 
 Nachdem der Screenshot hochgeladen wurde, können noch kleine Bearbeitungen vorgenommen werden:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/GAaHCHwZNKHfs9t/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/jgSTiEwg5dEdXWn/preview)
 
 Anschließend kann der der Screenshot als Post zur Community (wird öffentlich gelistet) oder als Versteckt (wird nicht öffentlich gelistet) gepostet werden. 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/tzm5rbWyb7yQeo8/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/24JHDQEskG8RPZJ/preview)
 
 Ist dies erfolgt, wird der Link angezeigt der zum teilen genutzt werden kann:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/e2mQaWeCH7LCH8s/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/JDGXqNBCqZBeNoH/preview)
 
 ### Lightshot
 
@@ -55,23 +55,21 @@ Der Client kann direkt auf der Webseite bezogen werden und bietet zu dem noch ei
 Download des Clients [Download](https://app.prntscr.com/en/)
 Wichtig: Eine Version für Linux wird nicht angeboten. 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/HLPWCCBikNXacGQ/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/9ME3CTR8DKcEPtS/preview)
 
 Nach dem Download kann der Client installiert werden. 
 Anschließend kann standardmäßig mit der Taste "Druck" ein Scrrenshot erstellt werden bzw.ein Bereich ausgewählt werden. 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/mmLtmZNJb8wg3xX/preview)
-
 Nachdem der Bereich ausgewählt wurde, kann der Screenshot noch bearbeitet werden. 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/s27RNkCEDxsTDdo/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/ss7NCafdDFrqzeY/preview)
 
 Ist die Bearbeitung sofern nötig abgeschlossen, wird der Screenshot mit Klick auf die "Wolke" hochgeladen. 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/nZH2rRgaYQHYk6o/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/ELzCWngbErkEMYS/preview)
 
 Nach dem Upload kann der Link kopiert und mit anderen geteilt werden.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/XnwKk8ek6qJjQjH/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/NKEntqPpx9te2BW/preview)
 
 
