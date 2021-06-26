@@ -197,13 +197,13 @@
         "title": "RAID Configuration",
         "sidebar_label": "RAID Configuration"
       },
-      "dedicated_windows": {
-        "title": "Windows Installation",
-        "sidebar_label": "Windows Installation"
-      },
       "dedicated_reset": {
         "title": "Server reset",
         "sidebar_label": "Server reset"
+      },
+      "dedicated_windows": {
+        "title": "Windows Installation",
+        "sidebar_label": "Windows Installation"
       },
       "domain_easydns": {
         "title": "Domains: EasyDNS",
