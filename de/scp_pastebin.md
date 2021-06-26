@@ -8,17 +8,17 @@ sidebar_label: Pastebin ID
 
 Als erstes öffne Pastebin.com in einem Webbrowser deiner Wahl.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/pZ3wjWoSBkq2bKB/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/WdGgdTd6tS3tJQ7/preview)
 
 Schreibe nun die gewünschte Beschreibung deines Servers in das Textfeld und klicke auf 'Create New Paste'
 
-![](https://screensaver01.zap-hosting.com/index.php/s/LTFoYnmrqKrenrm/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/GDrBGWTD4EZJ89j/preview)
 
 Dein Pastebin-Eintrag wurde erfolgreich erstellt. Kopiere nun die ID von der Adresszeile deines Browsers.
 
 Die kopierte ID muss nun in den Einstellungen deines SCP Servers in deinem Server Dashboard eingetragen werden.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/mEdC428bfaW5LfD/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/rnDn3N4RYdSZ4QH/preview)
 
 Als nächstes noch die Änderungen speichern.
 
