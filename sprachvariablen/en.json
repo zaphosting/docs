@@ -201,6 +201,10 @@
         "title": "Windows Installation",
         "sidebar_label": "Windows Installation"
       },
+      "dedicated_reset": {
+        "title": "Server reset",
+        "sidebar_label": "Server reset"
+      },
       "domain_easydns": {
         "title": "Domains: EasyDNS",
         "sidebar_label": "EasyDNS"
