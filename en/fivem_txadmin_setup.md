@@ -15,11 +15,11 @@ txAdmin is an interface for FiveM Servers, which is among other things a server 
 
 After we have rented our txAdmin server, it will be displayed in the interface as follows:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/bmGWLPsH64AMGzp/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/AQxetLPWAs4Js36/preview)
 
 Here we now open the txAdmin interface via the link in the interface:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/JsN2rSJkHizBZcW/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/fB9zkS2Ra76i2zJ/preview)
 
 In the txAdmin interface we now enter our user and our password, which can be found under the link and log in.
 
@@ -27,28 +27,28 @@ After logging in we land directly in the txAdmin setup, here we can now select h
 
 > This setting is **not** the server name in the server list, but an internal name for ingame messages and the Discord webhook.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/GfJJF73bqZCJZRK/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/BiBi8LQfZKGDSQZ/preview)
 
 Now we can choose how exactly we want to set up the server, there are several options here:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/eNAky8TaQ4KCBCX/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/fzFwHGyioxJGn6A/preview)
 
 ### Local Server Data
 
 You should use this setting if you have already run a server with txAdmin and now want to run it with us, in this case you can simply upload the data via FTP, and specify the path of it in the setup:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/MCjcBF8r7qDJsRK/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/FAGyABxz3ENkygx/preview)
 
 
 ### Popular Template
 
 Popular Templates are pre-made packs that can be used directly, this is the easiest way to use the FiveM server directly, if this is your first server this option is recommended:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/78zSH3zJDz8Bagw/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/aB228Rj4wKzQjG2/preview)
 
 Now we can set a custom path for the pack, generally we would recommend to leave this path default.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/kBLEayMPR5DFo5m/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/b4Xm4i9PFWkx6ET/preview)
 
 
 After confirming this, we immediately end up in the Recipe Deployer, if changes are to be made to the Recipe, this can be done now, otherwise this can simply be confirmed with the "Next" button.
@@ -56,7 +56,7 @@ After confirming this, we immediately end up in the Recipe Deployer, if changes 
 
 If own database settings or License Key should be used, this can be changed now, we recommend not to change the database information.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/A2Wtkqp4HTzXwCt/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/PwqRXgcwbfKcEYX/preview)
 
 
 
