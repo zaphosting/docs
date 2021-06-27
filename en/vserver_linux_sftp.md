@@ -9,17 +9,17 @@ sidebar_label: SFTP Connection
 
 To connect via SFTP, you have to switch to SFTP in Winscp: 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/c7CJz9yH2jHSPFC/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/WFY4Dn6BB5WGc52/preview)
 
 Then enter the connection data. As server address you use the **Ip** of your **server**. As **username** **root** and then the **password** of your **root user**.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/rZ2kcxB2G7cnqsJ/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/BkfCNjdHY6zBL8t/preview)
 
 The following window has to be confirmed:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/ZANj6G5iLdGHPNp/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/jXmRJTttppF3n9p/preview)
 
 
 Now you are connected to your server via SFTP: 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/N48EoDYdNyTB9fH/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/FLrND5pRRj4aK2P/preview)
