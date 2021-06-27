@@ -13,19 +13,15 @@ VNC or Serial console is a way to connect to your v/RootServer if it has no acti
 ## 💻 How do i use VNC?
 The VNC console can be accessed via the menu on the left side.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/pQ97SiZLTGKdgCN/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/EN3wk3RtpTMZaat/preview)
 
 Then the web client of the VNC console opens. Here you can now log in even if the server has no active internet connection. Just press the "Send CtrlAltDel" button and login with your username and password.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/k83JwQYr2nycisp/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/wLCjrsQA25fafn7/preview)
 
 Now you can use and manage your server as usual.
 
 **If it doesn't work with the password, you can use the on-screen keyboard to make sure that the correct keyboard is set.**
 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/pfrGiNMkCq9LGQC/preview)
-
-
-
-
+![](https://screensaver01.zap-hosting.com/index.php/s/gSdoHXA3563Do9D/preview)

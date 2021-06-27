@@ -11,7 +11,7 @@ WinMTR is a network diagnostics program that combines the features of ping and t
 
 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/4KzrnjDSnipdeS9/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/H2YkbL2p84LrEEb/preview)
 
 
 
@@ -33,7 +33,7 @@ The network diagnostic test should be performed when the problem actively occurs
 
 WinMTR for Windows can be downloaded from the [ZAP-Hosting](https://zap-hosting.com/winmtr.zip) page. Once installed, the program must be started and the host name or IP address of the affected case needs to be filled in:
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/NMM89KjjpxRXWdY/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/REAqPw47ETCiqGd/preview)
 
 
 
@@ -46,16 +46,16 @@ MTR on Linux requires an SSH connection to the server. If you don't know exactly
 Now the package can be installed with the following command:
 
 ```
-apt-get install mtr
+apt install -y mtr
 ```
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/m7Xo2HMiK2WErcJ/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/AnSM5mac3wCtC5q/preview)
 
 
 
 The evaluation can then be started with the command **mtr IP address**. By pressing CTRL+C you can stop the test at any time as desired.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/Fc3Z3wFoxDdL3HH/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/nToANwPi8FNZbNC/preview)
 
 
 
@@ -63,10 +63,7 @@ The evaluation can then be started with the command **mtr IP address**. By press
 
 ## ❓ Analyzing the evaluation
 
-The program provides several kinds of information. You have to check this information carefully in order to identify the problem correctly. The information includes the following aspects:
-
-![img](https://screensaver01.zap-hosting.com/index.php/s/RLNmFsgdMBzXpyC/preview)
-
+The program provides several kinds of information. You have to check this information carefully in order to identify the problem correctly.
 
 
 While evaluating a route, the message **No response from host** may appear from time to time, reporting 100% packet loss. However, this is often not the direct cause. In such a case it is possible that only the packets are filtered by the firewall and therefore no response comes or is generally unreachable. The next possible option for the route is then selected. Only if the packet loss starts at one point and continues through others is there active packet loss. 
