@@ -17,6 +17,8 @@ Diese kann nach einem Klick auf das Windows Logo gesucht werden
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/7XNio37KeCjEj59/preview)
 
+***
+
 <!--DOCUSAURUS_CODE_TABS-->
 
 <!--💾 Programme in der Windows-Firewall freigeben-->
