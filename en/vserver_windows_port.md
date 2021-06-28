@@ -20,6 +20,9 @@ This can be searched for by clicking on the Windows logo:
 With the incoming rule, the ports are forwarded for applications that try to communicate with the server from outside.
 In the outbound rule, the ports are forwarded for applications that want to communicate from the server to the outside.
 
+
+***
+
 <!--DOCUSAURUS_CODE_TABS-->
 
 <!--💾 Allowing programs in the Windows firewall-->
