@@ -306,6 +306,10 @@
                 "title": "FiveM Server: Cache leeren",
                 "sidebar_label": "Cache leeren"
             },
+            "fivem_devtools": {
+                "title": "FiveM: Devtools Aktivieren",
+                "sidebar_label": "Devtools Aktivieren"
+            },
             "fivem_editlocalfiles": {
                 "title": "FiveM Server: Die Locales-Dateien bearbeiten",
                 "sidebar_label": "Localesfiles bearbeiten"
