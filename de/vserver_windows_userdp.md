@@ -11,21 +11,21 @@ Die Verbindung zu deinem Windows Server erfolgt über das von Windows mitgeliefe
 
 > Die Windows Suchfunktion ist über das Windows Symbol in der linken unteren Ecke zu finden.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/bqyexFfJwWW7Wpo/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/DxQbNxdsJAbswMZ/preview)
 
 ## 🏘 IP-Adresse & Zugang
 
 "Remotedesktopverbindung", fragt nach einem "**Computernamen**". Das ist die IP-Adresse des Servers.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/LdCwYp9CfjWM7gt/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/cm9C6wKbmZBLc9Z/preview)
 
 Die IP-Adresse findet sich im ZAP Webinterface unter "**Zugang & Sicherheit**", sowie in der Infobar.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/R2tda9GX2z2fG29/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/yjWNHRjyGfMGpEP/preview)
 
 Das Programm fragt nach einem **Benutzernamen** und **Kennwort**. Der Benutzername lautet "**Administrator**". Das Passwort lässt sich im Webinterface unter "**Zugang & Sicherheit**" setzen.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/LeaJGKPc3fmMWdg/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/4xttpQWwC6i6pLx/preview)
 
 > Standardgemäß ist kein Zertifikat installiert. Das Passwort wird daher unsicher übermittelt. Erfahre hier, wie du ein Zertifikat erstellst: RDP Zertifikat
 
@@ -40,4 +40,4 @@ Folgende alternative Programme sind geeignet um per Remote auf einen Windows Ser
 - Devolutions Remote Desktop Manager
 - DameWare Mini Remote Control
 
-> Für die **iOS** User : **Microsoft Remote Desktop 10** im Mac App Store
+> Für die **iOS** User: **Microsoft Remote Desktop 10** im Mac App Store, **Android** Parallels Client

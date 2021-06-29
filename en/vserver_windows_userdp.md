@@ -11,21 +11,21 @@ You connect to your Windows server using the Remote Desktop Connection program p
 
 > The Windows search function can be found via the Windows icon in the lower left corner.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/38n9fBNMszJqt95/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/g8s5nPfeLdEYgcp/preview)
 
 ## 🏘 IP address & access
 
 "Remote Desktop Connection", asks for a "**computer name**". This is the IP address of the server.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/LdCwYp9CfjWM7gt/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/pA4BcpHPEkkYror/preview)
 
 The IP address can be found in the ZAP web interface under "**Access & Security**" and in the Infobar.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/yc5KwTPcbNJAAa8/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/cf2AaeBCBtJnBT2/preview)
 
 The program asks for a **user name** and **password**. The user name is "**administrator**". The password can be set in the web interface under "**Access & Security**".
 
-![](https://screensaver01.zap-hosting.com/index.php/s/sELAysb47je9fQe/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/8L9J3R57RWjnJzW/preview)
 
 > No certificate is installed by default. The password is therefore transmitted insecurely. Learn how to create a certificate here: RDP Certificate
 
@@ -40,4 +40,4 @@ The following alternative programs are suitable for connecting to a Windows serv
 - Devolutions Remote Desktop Manager
 - DameWare Mini Remote Control
 
-> For **iOS** users : **Microsoft Remote Desktop 10** in the Mac App Store
+> For **iOS** users : **Microsoft Remote Desktop 10** in the Mac App Store, **Android** Parallels Client
