@@ -38,7 +38,7 @@ Im Anschluss machen dort einen **Doppelklick** auf die **Ipv4** Verbindung.
 
 Daraufhin prüfen wir, ob dort **unsere** IP aus dem ZAP Webinterface eingetragen ist. Im folgenden zeige ich ein Beispiel wie es bei der IP 185.249.196.108 korrekt wäre:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/KtR7nfiN4LJJyjg/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/yi6kN86JFjpFrFw/preview)
 
 > Gehe sicher das du **deine** Server IP unter "IP Addresse" Eingibst
 
