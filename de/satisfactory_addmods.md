@@ -22,7 +22,7 @@ Das Tool ist verfügbar für Windows und Linux und kann hier herruntergeladen we
 Auf der verlinkten Seite werden alle Versionen aufgelistet, in der Regel sollte immer die neuste Version verwendet werden, also der erste Eintrag von oben.
 Unter "Assets" kann das Tool nun heruntergeladen werden. Je nachdem welches Betriebssystem (Windows oder Linux) du verwendest, klickst du die passende Datei an, wodurch der Download automatisch startet bzw. abhängig von deinem Browser oder gewählten Einstellungen bestätigt werden muss.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/xn9W7dW7HJpRGBA/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/e7q5qCBP7D4ZL5g/preview)
 
 Wenn der Download abgeschlossen ist, führe die Datei aus und installiere den Mod-Manager auf deinem PC und wähle bei der Installation die für dich passenden Optionen aus.
 
@@ -41,15 +41,15 @@ Im ersten Schritt werden die Mods auf dem Client zusammengestellt und installier
 Die Mods werden in Profilen gespeichern, sodass als Beispiel in einer Test-Welt andere Mods getestet werden können und mit einem Klick zu den regulären Mods zurück gewechselt werden kann.
 Wähle also zuerst ein Profil aus bzw. erstelle wie im Screenshot dargestellt ein neues.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/sAYyLdMA5YiozBF/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/EMFsKnrsowZAxJE/preview)
 
 Stelle den Filter zunächst auf "Compatible", damit nur Mods angezeigt werden, welche derzeit mit der Version kompatibel sind.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/EM9q87scfbR3cq9/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/jg82aG3ketFxesD/preview)
 
 Mods können nun einfach mit einem Klick auf das Download-Symbol installiert werden, wenn sichergestellt ist, dass die Mod mit dem Multiplayer kompatibel ist, wie oben beschrieben.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/ZCGqJGXYiqXWSPC/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/CH2pBzS8iXxEpRz/preview)
 
 ### Server
 
@@ -68,7 +68,7 @@ Die Schritte unterscheiden sich zwischen Steam und Epic Games etwas:
 <!--Steam-->
 Sofern du Satisfactory via Steam installiert hast, dann kannst du den Ordner direkt über den Steam-Client öffnen lassen:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/8cayikgpkoH6cgN/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/ryEKHqEQFDBkkME/preview)
 
 <!--Epic Games-->
 Bei Epic Games gibt es leider keinen Button, um den Installations-Ordner zu öffnen, der Ordner muss also manuell geöffnet werden.
@@ -82,11 +82,9 @@ Um an die Mods selbst zu können, müssen die folgenden Ordner nach einander ge�
 
 Nun markieren wir alle Ordner **außer den SML Ordner** mit gedrückter STRG-Taste und einem Mausklick auf den Ordner.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/LzXgsiGwc4gXGY5/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/jCNjLHiF3JRgB24/preview)
 
-Die ausgewählten Ordner werden nun mittels Drag&Drop in den zuvor geöffnet Mod-Ordner in FTP reingezogen:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/bpXNB9Fw6wSMgP3/download) 
+Die ausgewählten Ordner werden nun mittels Drag&Drop in den zuvor geöffnet Mod-Ordner in FTP reingezogen.
 
 ## Server starten
 
