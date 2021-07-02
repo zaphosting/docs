@@ -32,17 +32,17 @@ You can find the guide for this [here](https://github.com/Itokoyamato/TokoVOIP_T
 
 Firstly, you will need to download [ws_server](https://github.com/Itokoyamato/TokoVOIP_TS3/releases) from the TokoVOIP Github. 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/zecMzwqWJbXXws7/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/wwK8WjafYbH3s97/preview)
 
 You will then simply drag it over to your `resources` folder via FTP.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/HT2pDJDxA2GkWjf/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/wGHKGbFCCF5HwaD/preview)
 
 Then open the directory `ws_server` that you have uploaded to the servers FTP.
 
 Right Click, and then Edit the file  `config.js`
 
-![](https://screensaver01.zap-hosting.com/index.php/s/tPgiQBgjTkRKAC2/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/kT4qyH6pJD4SHYJ/preview)
 
 In this file, we are only modifying the **TSServer** and the **WSServerPort**.
 
@@ -55,7 +55,7 @@ Replace **TSServer** with your teamspeak servers **IPV4 ADDRESS**
 
 Example:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/kwEWMBGifyLNXfN/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/ezM8i4dmJEGCLEQ/preview)
 
 > Note: It HAS to be the IPV4 (as shown in the example). The ######.zap-ts3.com will **NOT** work. 
 
@@ -63,7 +63,7 @@ Replace **WSServerPort** with one of the 3 Additional Ports found directly throu
 
 Example:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/9G74ZL377qPWaMC/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/CAjjYWwAPozL9or/preview)
 
 Then save your changes, and ensure they upload successfully back to the server. 
 
@@ -71,16 +71,16 @@ Then save your changes, and ensure they upload successfully back to the server.
 
 You will need to download [tokovoip_script](https://github.com/Itokoyamato/TokoVOIP_TS3/releases) from the TokoVOIP Github. 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/MZAbALc9TAnCYpp/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/DWbddAJYa2bbBDX/preview)
 
 You will then simply drag it over to your `resources` folder via FTP.
-![](https://screensaver01.zap-hosting.com/index.php/s/bprDorAtjj6kwSc/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/CbMWPPgn5pkwxxz/preview)
 
 Then open the directory `tokovoip_script` that you have uploaded to the servers FTP.
 
 Right Click, and then Edit the file  `c_config.lua`
 
-![](https://screensaver01.zap-hosting.com/index.php/s/CYApowwqfR4SymK/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/beZzcJ58Z4qYfmC/preview)
 
 In this file, we will be modifying the following values:
 ```
@@ -95,9 +95,9 @@ For **wsServer** you will put in your FTP-Browser address found on the 'FTP-Brow
 In our example, it will look like:
 
 To get the IP:
-![](https://screensaver01.zap-hosting.com/index.php/s/zNeoJSZ2CCTAKX3/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/WHscefzccyncDDt/preview)
 To get the port: 
-![](https://screensaver01.zap-hosting.com/index.php/s/XspTrR84NkksS3H/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/agXn5tSdXf6ZEcT/preview)
 
 > Note: Customers who have booked a 'Own IPV4 Address' will still need to specify the **FTP-Browser** IP address as shown above. 
 
@@ -106,15 +106,11 @@ For the **TSChannel** and **TSPassword** you will set these to the names of the 
 > This will be the channel that your players are moved into for communications once they have fully loaded into your FiveM server. Therefore, a password is recommended so any players that are not on the server cannot join the channel. 
 
 In our example we configure it as:  
-![](https://screensaver01.zap-hosting.com/index.php/s/zd4BjWNed9TWzpb/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/WmX2j5DKZcoCJT8/preview)
 
 For the **TSChannelWait** you will put the **exact** waiting channel name your players will enter when loading into the server. You will need to create this channel, and can name it anything you wish. 
 
 > IMPORTANT: You **must** have  **TokoVOIP** somewhere in the name of this channel. 
-
-In our example, we configure it as shown:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/PBzcD6BZ8c2cTpQ/preview)
 
 Then save your changes, and ensure they upload successfully back to the server.
 
@@ -130,15 +126,12 @@ Once you have opened your server.cfg, you will need to add the following start l
 start ws_server
 start tokovoip_script
 ```
-![](https://screensaver01.zap-hosting.com/index.php/s/mqr2E42jSAYHtMz/preview)
 
 ### Test the plugin
 
 Once you have configured both the ws_server and tokovoip_script and have added the start lines to the server.cfg, you have finished the base install of TokoVOIP. 
 
 Then, **join your teamspeak waiting channel** that you have created, **start the server**, and **test it directly.**
-
-![](https://screensaver01.zap-hosting.com/index.php/s/9yiZP2NgyJ7DyMS/preview)
 
 > Note: If it does not work, please review the Problems section at the bottom of the guide. 
 
