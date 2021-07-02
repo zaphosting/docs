@@ -20,7 +20,7 @@ Bevor wir das Inventar Deaktivieren können, muss der [FTP-Zugang](gameserver_ft
 
 Nachdem dieser eingerichtet wurde, kann sich nun verbunden werden und der Server Ordner geöffnet werden:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/omjKDgFcn64rRMF/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/REzpxtQXT4RKfCb/preview)
 
 
 ## Änderungen Vornehmen
