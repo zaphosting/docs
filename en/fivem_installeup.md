@@ -50,7 +50,7 @@ Now we install the resources, in our example via WinSCP, we can upload them via 
 
 After this has been uploaded, the server.cfg must be opened in the server-data folder:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/eM8MtkZJCLg3gdz/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/6LjYGCLFyLJBaS5/preview)
 
 Among the remaining start entries for resources you can now add the entry for our resources, in this case "NativeUI", "eup-stream" and "eup-ui":
 
