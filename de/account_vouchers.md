@@ -31,8 +31,6 @@ Es öffnet sich ein Popup, in dem du den Code nun einfügen kannst.
 
 Ist der Gutschein korrekt eingegeben, noch immer gültig und wurde von dir nicht bereits verwendet, wird der Betrag automatisch auf dein ZAP-Konto gebucht. 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/XY8LtZ4gfWw62iY/preview)
-
 > Sollte ein Code nicht funktionieren, kann es sein, dass er bereits abgelaufen ist, bereits verwendet wurde oder dass es sich bei dem Code nicht um einen Guthabencode handelt.
 
 ## 💳 Rabattcodes
