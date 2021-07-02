@@ -45,7 +45,7 @@ So first select a profile or create a new one as shown in the screenshot.
 
 First set the filter to "Compatible" so that only mods that are currently compatible with the version are displayed.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/EM9q87scfbR3cq9/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/jg82aG3ketFxesD/preview)
 
 Mods can now be installed simply by clicking on the download icon if it is ensured that the mod is compatible with the multiplayer, as described above.
 
