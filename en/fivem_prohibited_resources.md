@@ -17,16 +17,14 @@ You can generally compare these resources to viruses.
 
 First of all we highly recommend removing resources that show this message:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/n6MxRCPiFSDtjGS/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/qWGfnyXfxcEE3MJ/preview)
 
 then make sure that you only download resources from respectable sources, like the [FiveM Forums](https://forum.cfx.re/), and not from Third Party Websites. Buying Resources is also against the FiveM Terms of Service, and can cause your server to get blacklisted.
 
 
 ## What exact resources are banned?
 
-Sadly there is no official list of Resources that can cause this message, generally it is recommended to avoid resources that have script files made out of random letters in it, like this:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/BtHZW6tnRwR5NKK/preview)
+Sadly there is no official list of Resources that can cause this message, generally it is recommended to avoid resources that have script files made out of random letters/characters in it.
 
 Also, avoid resources where the code is obfuscated or hidden, as that can also be malicious in nature.
 
