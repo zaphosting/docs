@@ -22,7 +22,7 @@ The tool is available for Windows and Linux and can be downloaded here: https://
 All versions are listed on the linked page; as a rule, the latest version should always be used, i.e. the first entry from the top.
 The tool can now be downloaded under "Assets". Depending on which operating system (Windows or Linux) you use, you click on the appropriate file, which starts the download automatically or, depending on your browser or selected settings, you have to confirm it.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/xn9W7dW7HJpRGBA/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/e7q5qCBP7D4ZL5g/preview)
 
 When the download is complete, run the file and install the mod manager on your PC, choosing the options that suit you during installation.
 
@@ -41,7 +41,7 @@ In the first step, the mods are compiled and installed on the client so that the
 The mods are saved in profiles so that, for example, other mods can be tested in a test world and you can switch back to the regular mods with one click.
 So first select a profile or create a new one as shown in the screenshot.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/sAYyLdMA5YiozBF/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/EMFsKnrsowZAxJE/preview)
 
 First set the filter to "Compatible" so that only mods that are currently compatible with the version are displayed.
 
@@ -49,7 +49,7 @@ First set the filter to "Compatible" so that only mods that are currently compat
 
 Mods can now be installed simply by clicking on the download icon if it is ensured that the mod is compatible with the multiplayer, as described above.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/ZCGqJGXYiqXWSPC/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/CH2pBzS8iXxEpRz/preview)
 
 ### Server
 
@@ -68,7 +68,7 @@ The steps differ slightly between Steam and Epic Games:
 <!--Steam-->
 If you have installed Satisfactory via Steam, you can open the folder directly via the Steam client:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/8PEXmfXkE2JGsZT/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/ryEKHqEQFDBkkME/preview)
 
 <!--Epic Games-->
 Epic Games does not have a button to open the installation folder, so the folder must be opened manually.
@@ -82,11 +82,9 @@ In order to access the mods themselves, the following folders must be opened one
 
 Now we select all folders **except the SML folder** by holding down the CTRL key and clicking on the folder.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/LzXgsiGwc4gXGY5/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/jCNjLHiF3JRgB24/preview)
 
-The selected folders are now dragged and dropped into the previously opened mod folder in FTP:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/bpXNB9Fw6wSMgP3/download) 
+The selected folders are now dragged and dropped into the previously opened mod folder in FTP. 
 
 ## Server starten
 
