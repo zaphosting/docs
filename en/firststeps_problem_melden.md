@@ -34,8 +34,6 @@ If live chat is not an option for you and you still want to report your problem 
 
 ## 📰 Writing The Ticket 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/8HoWmJck7jNxF7D)
-
 > To write the ticket, you can simply push the "**Create Ticket**" button. 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/AipM7to9XrqoyZg/preview)
