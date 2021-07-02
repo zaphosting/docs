@@ -38,7 +38,7 @@ Now open this stream folder, here you can now upload all ytd and yft files by dr
 
 After all the mods have been uploaded, all you have to do is enter your resource in the server.cfg, you will find this in the "server-data" folder of your FiveM server.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/eM8MtkZJCLg3gdz/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/6LjYGCLFyLJBaS5/preview)
 
 You can open this with any text editor, under the "start" entries you can now enter your resource as follows:
 

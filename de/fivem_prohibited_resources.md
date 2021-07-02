@@ -17,7 +17,7 @@ Du kannst diese Resourcen im Allgemeinen mit Viren vergleichen.
 
 Zunächst einmal empfehlen wir dringend, Resourcen zu entfernen, die diese spezifische Nachricht verursachen:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/n6MxRCPiFSDtjGS/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/qWGfnyXfxcEE3MJ/preview)
 
 
 dann stelle sicher, dass nur Resourcen aus seriösen Quellen, wie den [FiveM Foren](https://forum.cfx.re/), und nicht von Websites Dritter heruntergeladen werden. Der Kauf von Resourcen verstößt ebenfalls gegen die FiveM Nutzungsbedingungen und kann dazu führen, dass dein Server auf die blacklist gesetzt wird.
@@ -27,8 +27,6 @@ dann stelle sicher, dass nur Resourcen aus seriösen Quellen, wie den [FiveM For
 
 ## Welche Resourcen sind genau verboten?
 
-Leider gibt es keine offizielle Liste von Resourcen, die zu dieser Meldung führen können. Generell wird empfohlen, Resourcen zu vermeiden, die Skriptdateien aus zufälligen Buchstaben enthalten, wie z.B:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/BtHZW6tnRwR5NKK/preview)
+Leider gibt es keine offizielle Liste von Resourcen, die zu dieser Meldung führen können. Generell wird empfohlen, Resourcen zu vermeiden, die Skriptdateien aus zufälligen Buchstaben enthalten
 
 Vermeide auch Resourcen, bei denen der Code verschleiert oder versteckt ist, da dies ebenfalls bösartig sein kann.

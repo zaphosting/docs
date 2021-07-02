@@ -20,7 +20,7 @@ Before we can deactivate the inventory, the [FTP access](gameserver_ftpaccess.md
 
 After this has been set up, you can now connect and open the server folder:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/omjKDgFcn64rRMF/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/REzpxtQXT4RKfCb/preview)
 
 
 ## Makig the Changes

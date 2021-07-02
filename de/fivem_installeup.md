@@ -13,7 +13,7 @@ Bevor EUP installiert werden kann, muss der [FTP-Zugang](gameserver_ftpaccess.md
 
 Nachdem dieser eingerichtet wurde, kann sich nun verbunden werden und der Server Ordner geöffnet werden:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/omjKDgFcn64rRMF/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/REzpxtQXT4RKfCb/preview)
 
 
 ## Vorbereitung
@@ -50,7 +50,7 @@ Nun installieren wir die resourcen, in unserem beispiel über WinSCP, wir könne
 
 Nachdem diese hochgeladen wurde, muss die server.cfg im server-data Ordner geöffnet werden:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/eM8MtkZJCLg3gdz/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/6LjYGCLFyLJBaS5/preview)
 
 Unter den restlichen Starteinträgen für Ressourcen kann nun der Eintrag für unsere resources, in diesem Fall "NativeUI", "eup-stream" und "eup-ui", hinzugefügt werden:
 

@@ -130,7 +130,7 @@ files {
 
 After the mods are all uploaded, you only have to add your resource in the server.cfg, which you can find in the "server-data" folder of your FiveM server.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/eM8MtkZJCLg3gdz/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/6LjYGCLFyLJBaS5/preview)
 
 You can open it with any text editor, under the "start" entries you can now enter your resource as follows
 
