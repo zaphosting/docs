@@ -12,11 +12,11 @@ sidebar_label: Admin werden
 
 Mit Administrator-Rechten kannst du direkt im Spiel Änderungen im Live-Zustand an deinem Server vornehmen, ohne diese in der Config vorzunehmen. Das Hinzufügen eines Admins erfolgt über die **serveradmin.xml** Config, welche du im Webinterface unter Configs findest.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/zDoFi6YF65s3Me4/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/6YtDGy6WqFZY3gy/preview)
 
 Deine SteamID64 kannst du ausfindig machen, indem du zunächst dein Steam Profil aufrufst und dort dann an einer beliebigen Stelle einen Rechtsklick machst. Dort klickst du dann auf **Steam URL kopieren**. 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/e9Eb7EDtW7BPSZo/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/jSY7ZdQKo2ibksp/preview)
 
 
 
@@ -31,9 +31,9 @@ Im Anschluss rufst du dann eine der folgenden Seiten auf:
 Dadurch erhältst du dort sowohl allgemeine Informationen als auch die Steam ID von deinem Account. In dem Fall benötigen wir nur die SteamID64. Diese wird dann unter ``<admins>...</admins>`` eingetragen. Das sieht dann folgendermaßen aus:
 
 ```
-<admins>
-	<admin steamID="DeineSTEAM64ID" permission_level="0" />
-</admins>
+ <admins>
+    <user steamID="765**************" name="Hint on who this user is" permission_level="0" ></user>
+  </admins>
 ```
 
 Das Spiel bietet bei den Administrator-Berechtigungen die Möglichkeit unterschiedliche Berechtigungsstufen zu definieren. Somit ist es also möglich verschiedene Administrator Gruppen mit unterschiedlichen Berechtigungen zu definieren. Das Ganze wird über die ``permission_level`` Option definiert. Diese kann von 0 bis 100 eingestellt werden. Je nachdem wie diese konfiguriert wurde haben die Administratoren dann Zugriff auf die zugewiesenen Berechtigungen. Wenn das erledigt wurde, dann wurden die Administrator-Berechtigungen erfolgreich zugewiesen. 
