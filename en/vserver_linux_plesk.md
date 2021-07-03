@@ -39,7 +39,7 @@ If the installer is restarted without first reinstalling the server, there will 
 
 The installation is complete when this is displayed
 
-![](https://screensaver01.zap-hosting.com/index.php/s/P4CBEszxPZTA6qn/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/fpWfEdgRi77zb3t/preview)
 
 <!--Web Installation-->
 
@@ -146,17 +146,17 @@ After a logout and login you will find the Plesk panel in German.
 
 To add the first domain click on the blue button "Add domain".
 
-[](https://screensaver01.zap-hosting.com/index.php/s/iaeTSKXWCSeN9Kk/preview)
+[](https://screensaver01.zap-hosting.com/index.php/s/EgDxHS4kp6rmKXk/preview)
 
 Now the own domain can be entered. Also an IP as well as a user name and password for the web space of the domain must be defined. If the subdoimain "www" is already entered in the DNS of the domain, an SSL certificate from Lets Encrypt can be created directly. This option can be selected, after entering a mail address, it is confirmed on the blue "OK" button.  
 
-[](https://screensaver01.zap-hosting.com/index.php/s/GPdFbozmJBgLEYZ/preview)
+[](hhttps://screensaver01.zap-hosting.com/index.php/s/w3ntk7AnErtKroN/preview)
 
 Now you can enter a domain, select an IP address and enter a user name and password for the web space that you now create for the domain. If you have already created the subdomain "www", you can have Lets Encrypt generate an SSL certificate for you directly, select this option, enter a mail and confirm everything on the blue "OK" button at the bottom. 
 
 > The domain must point to the IP of the webspace, if the domain is ZAP-hosting, it can be easily redirected to the webspace via EasyDNS, if it is external, an A-record must be set to the IP and the subdomain "www", "webmail" must also point to the IP. An MX record should also be set to the IP of the web space. 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/PeYANEka7rysPdN/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/qQtYooj8BfC9cY3/preview)
 
 > It can take up to 24 hours until a new/changed DNS entry is forwarded to the correct destination. 
 
