@@ -15,18 +15,18 @@ If your game server is down, this can have many reasons. **It is important that 
 
 The log file can be easily accessed via the menu on the left.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/poAwxFbwPc6qGdT/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/qmmTn7SbaSYewgZ/preview)
 
 Afterwards you can view them via the green eye. **The important thing is that you always open the latest log.
 You can recognize it by the date or the name.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/tzyYzJdafXK6b84/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/c559Y2Rf9ARB9AP/preview)
 
 Once you have opened them, you must check them for errors (**Errors usually contain something like "Error" "Cant find" "Couldnt load "**)
 
 In the following screenshot I have an example of a FivemServer with a wrong server license key.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/DrA2AkRDd6QNPNo/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/SxkyyMjpjsJ5eSE/preview)
 
 You could then enter this error e.g. at Google and see if it is known. Usually you can find the reason for this error quite quickly.
 
@@ -46,13 +46,13 @@ The second solution would be to install a backup or reinstall the server.
 
 To restore a backup, simply go to Backups on the left and import the latest backup using the green arrow. Afterwards your server should run as usual.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/Dgw3YwPc8QfjAn3/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/iSAw9SeN8S5bkf9/preview)
 
 ### 🔄Reinstall the server
 
 The reinstallation can be started under "Settings" on the left side. Afterwards the complete server will be reset to the first day (additionally the settings can also be reset "**Reset all options**")
 
-![](https://screensaver01.zap-hosting.com/index.php/s/DDmDzDR6685Hj7H/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/aGpiPoataCDjcSt/preview)
 
 ## The reinstallation was also not successful?
 
