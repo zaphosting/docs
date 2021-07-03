@@ -15,12 +15,12 @@ Die Option wird einem angezeigt, soweit man die gewünschte Domain bei sich im I
 Scrollt man dann ein wenig nach unten werden einem die 3 zur Verfügung stehenden Optionen angezeigt.
 Die Haken bei ProfiDNS muss angeklickt + gespeichertwerden, damit man im Anschluss in der DNS Verwaltung die Einträge vornehmen kann.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/qn6T3FwFeoEgaiN/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/iJD5RpQ89CA3pFy/preview)
 
 Im Anschluss findet man auf der linken Seite den Reiter "DNS-Verwaltung" über welchen man dann neue Einträge erstellen kann: 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/62GLGZBmxNZmq6m/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/k2X6QybbkTxii5j/preview)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/jb7Sj9XRNEFFXES/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/LKTHRdfDpZwyowT/preview)
 
 Hier können dann Neue Einträge erstellt werden oder bestehende Einträge können bearbeitet / gelöscht werden.
