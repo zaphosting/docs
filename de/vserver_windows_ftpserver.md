@@ -55,7 +55,7 @@ Um für den Benutzer das Passwort zu setzen aktivierst du dieses einfach mit ein
 
 Damit der Benutzer auch die entsprechenden Berechtigungen hat musst du noch festlegen auf welche Verzeichnisse dieser zugreifen darf, dazui genügt ein Klick auf **Shared Folders** und anschließend ein weiterer Klick auf **Add**:  
 
-![](https://screensaver01.zap-hosting.com/index.php/s/BYiYnSJ2gmMPmTg/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/MwXRFeKx6Fti9mT/preview)
 
 In diesem Beispiel erhält der Benutzer lediglich Zugriff auf das Verzeichnis **Dokumente**, dieses wählst du dann mit einem Linksklick aus und klickst auf **OK**:
 
