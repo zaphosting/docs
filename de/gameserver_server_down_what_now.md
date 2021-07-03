@@ -15,18 +15,18 @@ Wenn dein Gameserver down ist, kann das viel Gründe haben. **Wichtig** ist, das
 
 Die Log-Datei kann einfach links über das Menü aufgerufen werden.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/poAwxFbwPc6qGdT/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/tNmd92XBJtcPBkb/preview)
 
 Im Anschluss kannst du diese über das grüne Auge einsehen. **Wichtig ist dabei, dass du immer die neuste Log öffnet.**
 Diese kannst du am Datum oder dem Namen erkennen.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/tzyYzJdafXK6b84/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/A73YisojCYsyxpq/preview)
 
 Wenn du diese dann geöffnet hast, musst du sie auf Fehler prüfen.(**Fehler enthalten meistens etwas wie "Error" "Cant find" "Couldnt load"**)
 
 Im folgenden Screenshot habe ich ein Beispiel eines FivemServers mit falschem Server Lizenz Key.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/DrA2AkRDd6QNPNo/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/dqJ4z77owWGzbmp/preview)
 
 Diesen Fehler könntest du dann z.B. bei Google eingeben und schauen ob dieser bekannt ist. In der Regel findet man dort recht schnell den Grund, der diesen Fehler ausgelöst hat.
 
@@ -46,13 +46,13 @@ Die zweite Lösung wäre es ein Backup einzuspielen oder den Server neu zu insta
 
 Um ein Backup einzuspielen, musst du lediglich links auf Backups gehen und dort dann das neuste Backup über den grünen Pfeil einspielen. Im Anschluss sollte dein Server wieder wie gewohnt laufen.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/Dgw3YwPc8QfjAn3/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/dDDKJ6cTraySWX9/preview)
 
 ### 🔄Server neu installieren
 
 Die Neuinstallation kann unter "Einstellungen" auf der linken Seite gestartet werden. Im Anschluss wird der komplette Server wieder auf den ersten Tag zurückgesetzt.(zusätzlich können die Einstellungen auch zurückgesetzt werden "**Alle Optionen zurücksetzen**")
 
-![](https://screensaver01.zap-hosting.com/index.php/s/DDmDzDR6685Hj7H/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/mEXoJrtc4PJkHDK/preview)
 
 ## Auch die Neuinstallation brachte keinen Erfolg?
 
