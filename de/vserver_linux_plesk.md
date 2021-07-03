@@ -39,7 +39,7 @@ Wird der Installer erneut gestartet ohne vorherigen Reinstalls des Servers, so w
 
 Die Installation ist abgeschlossen, sobald dies angezeigt wird
 
-![](https://screensaver01.zap-hosting.com/index.php/s/P4CBEszxPZTA6qn/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/fpWfEdgRi77zb3t/preview)
 
 <!--Web Installation-->
 
@@ -146,17 +146,17 @@ Nach einem Logut und anchließendem Login ist das Plesk-Panel in Deutsch vorzufi
 
 Um die erste Domain hinzuzufügen klickt man auf den blauen Button "Domain hinzufügen".
 
-![](https://screensaver01.zap-hosting.com/index.php/s/iaeTSKXWCSeN9Kk/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/i4gmrL3S79GYMdg/preview)
 
 Nun kann die eigene Domain eingetragen werden. Ebenfalls muss eine IP sowie ein Benutzernamen und Passwort für den Webspace der Domain festgelegt werden. Sollte bereits die Subdoimain "www" im DNS der Domain eingetragen sein, kann direkt ein SSL Zertifikat von Lets Encrypt mit erstellt werden. Dazu kann diese Option ausgewählt werden, nachdem eine Mail Adresse eingetragen wurde, wird es auf dem blauen "OK" Button bestätigt.  
 
-![](https://screensaver01.zap-hosting.com/index.php/s/GPdFbozmJBgLEYZ/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/rSPCzD5ECMZmkQC/preview)
 
 Nun kann man eine Domain eintragen wählt eine IP-Adresse aus und trägt einem Benutzernamen sowie ein Passwort ein für den Webspace, den man nun zu der Domain anlegt. Man kann insofern man die Subdomain "www" schon erstellt hat, direkt ein SSL Zertifikat von Lets Encrypt mit generieren lassen, dazu wählt man diese Option aus, trägt eine Mail ein und bestätigt dann alles auf dem blauen "OK" Button ganz unten. 
 
 > Die Domain muss auf die IP des Webspaces zeigen, liegt die Domain bei ZAP-Hosting, kann diese via EasyDNS einfach auf den Webspace geleitet werden, liegt sie extern so muss ein A-Record auf die IP gesetzt werden sowie die Subdomain "www", "webmail" müssen ebenfalls auf die IP zeigen. Ein MX Record sollte auch auf die IP des Webspaces angelegt werden. 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/PeYANEka7rysPdN/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/PGHznNFxoTXycW5/preview)
 
 > Es kann bis zu 24 Stunden dauern, bis ein neuer/geänderter DNS Eintrag auf das richtige Ziel weiterleitet. 
 
@@ -166,7 +166,7 @@ Bei der Domain Eintragung/Erstellung vom Webspace wurde bereits ein SSL Zertifik
 
 > Damit dauerhaft auf HTTPS (SSL) geleitet wird beim Aufruf der Webseite muss das Häkchen bei "Dauerhafte, für SEO geeignete 301-Weiterleitung von HTTP zu HTTPS" gesetzt werden. 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/cPQxT5qFAkfy6Gb/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/Kc3Ssajgm7KCz4b/preview)
 
 Wird nun die Domain im Browser geöffnet, so zeigt diese ihre Verschlüsslung an.
 
