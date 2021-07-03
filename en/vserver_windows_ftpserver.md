@@ -47,11 +47,11 @@ In this example the user is called **Testbenutzer**. Of course you can choose yo
 
 To set the password for the user, simply activate it by clicking on the **Password** field , and then enter the password for the user:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/BYiYnSJ2gmMPmTg/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/snjxbG2FNnYD6nX/preview)
 
 So that the user also has the appropriate permissions, you still have to specify which directories they can access, just click on **Shared Folders** and then click on **Add**: 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/BYiYnSJ2gmMPmTg/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/MwXRFeKx6Fti9mT/preview)
 
 In this example, the user only has access to the **Documents**, directory , which you then select with a left click and click on **OK**:
 
