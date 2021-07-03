@@ -29,7 +29,7 @@ dieser Vorgang abgeschlossen ist, kannst du mit Schritt 2 fortfahren.
 Wenn das Spiel, welches du ausgewählt hast, TEBEX unterstützt, siehst du nun den Tab "TEBEX Shop"
 in der Seitenleiste. Klicke nach dem laden der Seite auf das Bild mit dem TEBEX Logo. 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/8KDNSkmkDPFDwLs/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/sE2CXJFZa2Tqn9K/preview)
 
 TEBEX sendet dir nun eine Einladung an die E-Mail Adresse, die in deinem ZAP-Hosting Kundenaccount hinterlegt
 ist. Bitte folge den Schritten in der E-Mail um deinen TEBEX Account zu aktivieren. Du wirst im 
@@ -48,9 +48,9 @@ Installation einiger Plugins findest du [hier](https://docs.tebex.io/store/integ
 #### 3.2 Bestätige die erfolgreiche Installation im Webinterface
 Zu guter letzt solltest du noch die erfolgreiche Installation des Plugins bestätigen. 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/HxDLNrmLsXsfJfN/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/BJbyxCL8tsrRpxj/preview)
 
 In einigen Fällen kann es sein, dass du uns noch einmal den TEBEX Webstore API Schlüssel 
 mitteilen musst, damit wir aus ZAP 2.5 eine Verbindung zu deinem TEBEX Shop aufbauen können.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/Deg6tdTy6fQGN79/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/Wmmg5qzPKd6EL7q/preview)

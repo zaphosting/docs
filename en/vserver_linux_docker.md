@@ -44,13 +44,13 @@ When all of that is done, we can see if Docker is running:
 systemctl status docker 
 ```
 
-![](https://screensaver01.zap-hosting.com/index.php/s/492kc5RBqcHf5qF/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/EzqepyGXnKo2mCt/preview)
 
 If it looks like this and it says "**Active (running)**" then Docker was installed completely without any problems.
 With a **docker run hello-worl**d you can then check whether Docker is also running correctly.
 The output should look like this:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/gbFj5W2rnrYzdom/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/2ZGR4aDJPZKTwgd/preview)
 
 Docker installation was successful.
 Now you can get started and use Docker!
