@@ -20,16 +20,16 @@ In dem Plesk Dashboard die Funktion "**FTP-Zugang**" öffnen
 
 > Auf dieser Hauptseite wäre auch bereits die IP-Adresse zu sehen, welche später für den Test benötigt wird.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/DsSkopdaLqZkWHk/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/C2QoxEa9C277jya/preview)
 
 Dort wäre nun der eine FTP Zugang zu sehen, welcher von dem System automatisch mit der fertigen Bestellung von dem Webspace erstellt wird.
 Um ein weiteres Konto zu erstellen, muss dort der Button "**FTP-Konto hinzufügen**" angeklickt werden.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/TQRyTik2yEpnbzC/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/mPrYRMAxRPcd7Bk/preview)
 
 Im Anschluss müssen die gewünschten Daten eingetragen werden. Sobald fertig eingetragen werden die Eingaben mit "**OK**" bestätigt.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/8EdSrpC67A34yeP/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/z5fmNfHt2qCkAoQ/preview)
 
 > Bei "**Basisverzeichnis**" kann man nun das Verzeichnis wählen auf welches der FTP Zugang zugriff haben soll. Wenn der FTP Zugang alles einsehen und bearbeiten darf, muss dort nichts umgestellt werden. 
 
@@ -40,12 +40,9 @@ Bei "**Server**" wird die IP von dem Server eingetragen welche auf der Hauptseit
 Bei "**Benutzername**" und "**Passwort**" werden die Daten eingetragen, welche wir für den FTP Zugang erstellt haben.
 Der Port ist standardmäßig "**21**"
 
-![](https://screensaver01.zap-hosting.com/index.php/s/zza5yMRKKMYsjwr/preview)
-
 ### ⚠️ Benutzerkonto existiert bereits
 
 Diese Meldung entsteht, wenn der FTP-Kontoname von einer anderen Person auf dem System genutzt wird.
 Der bestellte Webspace wurde auf einem System mit mehreren Kunden angelegt, wenn einer dieser Kunden nun den Namen benutzt, kann  kein anderer Kunde diesen benutzen.
 In einem solchen Fall müsste ein anderer Kontoname gewählt werden.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/TsRKDzqJpAg9L3Y/preview)
