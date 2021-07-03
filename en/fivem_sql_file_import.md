@@ -19,18 +19,18 @@ However, in many cases, one or more files with the file extension **.sql** are e
 In the settings of your FiveM Server the option **Configure database** must be activated at the beginning and 
 the required resource **MySQL-Async** must be installed, so that a database can be created and used.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/teBeyodKMND5wLM/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/xcAKgPao5MoibKs/preview)
 
 
 There you scroll down until you reach the point **Configure database** and make sure that this
 is set to **yes, configure!** Then scroll to the bottom of the page and click **Save** at the bottom to apply the settings.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/fEJ7bLgjcZrLpjz/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/HePLtHr3pdskB7M/preview)
 
 
 Now navigate to the menu item **Resources** and install the resource **MySQL-Async** there, if this has not already been done.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/WBME5WCnzQfozro/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/w2wofBNNkGxJwQ3/preview)
 
 
 The database is now configured and ready for use.
@@ -41,13 +41,13 @@ The database is now configured and ready for use.
 In this example the SQL file for the resource **es_extended** is imported into the database.
 You open the folder of the resource and find a file with the file extension **.sql** there, if available.
 
-![](https://puu.sh/Fo5LS/64e0758dc4.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/je33JbzW7eGXJER/preview)
 
 
 > CAUTION: Before importing, open the .sql file with any editor and check if the following lines are present:
 
 
-![](https://puu.sh/Fo5NT/727de4c92a.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/QY4dwpDbiAJpja2/preview)
 
 
 If this is the case, first remove both lines, otherwise the SQL file cannot be imported.
@@ -61,25 +61,23 @@ The second line tells the database server to use the database with the name **es
 
 You can access the database of your Fivem game server via the menu item **Databases** on the left side of the menu.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/ACaAcEeBL8BAiLR/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/fJDX7fT9MBDKxks/preview)
 
 
 The database itself is managed by the tool **phpmyadmin**, which you open by clicking on the blue **Administer button**.
 on the right side.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/zBXfzQnHRbCHW7G/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/KQg9AKwEAgCfw2y/preview)
 
 
 Arrived in **phpmyadmin** you first select your database from the list on the left via left click. 
 
 > The name of your database starts **ALWAYS** with zap!
 
-![](https://screensaver01.zap-hosting.com/index.php/s/bqe6bbMT3rjMyCM/preview)
-
 Your database is currently still empty, this will change shortly. Via the menu item **Import** in the upper part of **phpmyadmin**
 you get to the import options.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/MDneBboX5qrBc3R/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/zaoami9zKQxQZdx/preview)
 
 
 There you select now over the point **Select file** your SQL file, this may be maximally 2MB large!
@@ -89,14 +87,13 @@ into several small SQL files. An example of a **SQL splitter** is as follows [Pi
 
 After you have selected your SQL file, you only have to click on **Go** to start the import process.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/obzKcD7mMgrJSaF/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/tzCGYWeDFX5tjny/preview)
 
 
 If everything worked, you will see some success messages, like on the left side your newly created database contents.
 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/xgtJZit8CBAHZcy/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/QDTTdEEDNtNKDgK/preview)
 
 
 You have now successfully imported your SQL file.
-
