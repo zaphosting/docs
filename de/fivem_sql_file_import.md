@@ -96,7 +96,7 @@ Nachdem du deine SQL-Datei ausgewählt hast, musst du nur noch auf **OK** klicke
 Wenn alles funktionier hat, siehst du einige Erfolgsmeldungen, so wie auf der linken Seite deine neu erstellten Datenbankinhalte.
 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/Zm2bYCZpz28e6db)
+![](https://screensaver01.zap-hosting.com/index.php/s/Zm2bYCZpz28e6db/preview)
 
 
 Du hast nun erfolgreich deine SQL Datei importiert.
