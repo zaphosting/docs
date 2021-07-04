@@ -5,22 +5,40 @@ description: Informationen, wie du die Sprache deines Windows vServers von ZAP-H
 sidebar_label: Sprache hinzufügen/ändern
 ---
 
-Standardmäßig bietet ZAP-Hosting die Windows Server Produkte in Deutsch und Englisch an. Während des Bestellvorgangs und in den Einstellungen des Servers kannst du zwischen diesen Sprachen wählen. Du möchtest, aber lieber eine andere Sprache verwenden? Dann bist du hier genau richtig!
+> ℹ️ Wir bieten dir grundsätzlich Windows in Deutsch und Englisch an, dies erkannst du an den Kürzeln (DE) und (EN)
+***
+Windows bietet die Möglichkeit Sprachpakete nachzuinstallieren, hierbei ist darauf zu achten das die Sprache eine sogenannte Anzeigesprache ist. Dies ist an folgender Kennzeichnung ersichtlich:
 
-Im Folgenden wird erklärt, wie du eine weitere Sprache einrichten/installieren kannst. Hierfür musst du dich per Remotedesktopverbindung mit deinem Server verbinden.
+![](https://screensaver01.zap-hosting.com/index.php/s/edMH5s4NaX6MTKj/preview)
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/DBSjxEKKwx3iJRX/preview)
+Sollte diese Markierung bei deiner gewünschten Sprache fehlen, so ist es leider nicht möglich Windows in entsprechender Sprache darzustellen.
 
+## 📖 Vorbereitung
 
+Verbinde dich per Remotedesktop auf deinen Windows Server und öffne die Einstellungen.
 
-Wenn die Verbindung hergestellt wurde, dann müssen im Anschluss die Windows Einstellungen aufgerufen werden. Über das Startmenü von Windows kannst du die Einstellungen suchen und aufrufen. Dort angelangt gehen wir in die Optionen von **Zeit und Sprache**.
+![](https://screensaver01.zap-hosting.com/index.php/s/4gbebaywRTSawFK/preview)
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/kPSsz7FnaxKb6yp/preview)
+Wähle das Menü "Zeit und Sprache" dort den Unterpunkt "Sprache"
 
-Nun klicken wir auf Region und Sprache und fügen die gewünschte Sprache hinzu:
+Klicke nun auf "Sprache hinzufügen"
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/EFCmqq6WP3N4For/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/nTaaNcPKYPMLLwm/preview)
 
-Wenn die Sprache hinzugefügt wurde, dann muss sie im Anschluss noch ausgewählt und daraufhin die Optionen aufgerufen werden. Dort werden dann die Sprachpakete der hinzugefügten Sprache heruntergeladen.![img](https://screensaver01.zap-hosting.com/index.php/s/GYxdWcHbrEHS9fe/preview)
+Suche nach deiner gewünschten Sprache und achte darauf dass diese eine Anzeigesprache ist.
 
-Abschließend muss die Sprache noch als Standard gesetzt werden. Wähle dafür Land/Region aus und klicke bei der Sprache **Als Standard** aus.![img](https://screensaver01.zap-hosting.com/index.php/s/wgngXRB5ETeBGkb/preview)
+## 🖥️ Installation
+
+![](https://screensaver01.zap-hosting.com/index.php/s/FqKnsCAGpeNDnbE/preview)
+
+Wähle die gewünschte Sprache mit einem Mausklick aus und fahre fort mit "Weiter", akzeptiere die Installation aller nötigen Pakete
+
+> ⚠️ "Sprachpaket installieren und als Windows-Anzeigesprache festlegen muss aktiviert sein
+
+Windows läd nun deine gewünschte Sprache herunter, dieser Vorgang kann einige Minuten (circa 30-60 Minuten) in Anspruch nehmen.
+
+![](https://screensaver01.zap-hosting.com/index.php/s/NS7eLneEEbSEj2t/preview)
+
+Sobald die Installation deiner Sprache abgeschlossen ist, musst du dich lediglich erneut anmelden bzw. deinen Server neustarten.
+
+![](https://screensaver01.zap-hosting.com/index.php/s/YEeNKb7ztXtFRkM/preview)
