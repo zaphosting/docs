@@ -10,7 +10,7 @@ sidebar_label: Manage Worlds
 You can manage your world with a program like FileZilla Client or WinSCP. In our example we use FileZilla. 
 Please reference the guide [FTP-Access](gameserver_ftpaccess.md) for connecting via FTP. 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/7siMiD3rAJ5KJQE/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/dxy7Ga7YcKHqDC4/preview)
 
 The folder "world" is the standard folder. The name of this is set in the server.properties file. This file is where the "world" folder is located. The value can be changed by editing the line "level-name". If a name is entered that does not exist as a folder, a new world is generated.
 
