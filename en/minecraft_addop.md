@@ -12,11 +12,11 @@ In order to be able to assign OP-rights to yourself or other players, you first 
 
 To open the console, the respective server must first be called via the **Dashboard**. In the interface of the server you will find the entry "Live Console" on the left side of the list under the tab "INFORMATION".
 
-![](https://screensaver01.zap-hosting.com/index.php/s/mzNZttELCdKz7nN/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/iJApBPEdtZzwDyE/preview)
 
 Now you should see a dark window representing the console of the server. Underneath it, you can see an input field where any commands are passed to the console. In order to set the OP rights, the command "op <player>" (without "/") must be entered into the input field and then the green button "Send command" has to be clicked to send the command to the console.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/m7mMRx3kCtGDgj6/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/tF6y4Htet3oL5PY/preview)
 
 After a few seconds, the command sent should appear in the console, followed by the message "Made <player> a server operator", which marks the action as successful. Now the respective player has all OP-rights and can for example change the game mode.
 
