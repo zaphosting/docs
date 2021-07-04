@@ -107,3 +107,23 @@ In our example we choose RAID0 or RAID1.
 When you're done choosing your RAID configuration, you can confirm them by pressing `Enter`.
 
 > You can close the configuration assistant by pressing `ESC`
+
+### ⚠️ Select Boot Volume
+
+If you have touched your RAID, it is necessary to select boot volume.
+This can easily be done in **Select Voot Volume**, choose there the logical drive which you have created, otherwise your server will stuck in a bootloop.
+
+**Select Boot Volume**<br>
+![](https://screensaver01.zap-hosting.com/index.php/s/KWF23AaBEYWy7rc/preview)
+***
+**Direct Attached Storage**<br>
+![](https://screensaver01.zap-hosting.com/index.php/s/dJTmtKYY2mzAPTW/preview)
+***
+**Logical Drive 01**<br>
+![](https://screensaver01.zap-hosting.com/index.php/s/2yBfqmFxsoQsqj6/preview)
+***
+**Press `F8` to save as bootvolume**<br>
+![](https://screensaver01.zap-hosting.com/index.php/s/zejQrDoTYz8QtkA/preview)
+
+In the end you have the possibility by pressing `F8` to directly reboto your system or to return into the main menu by pressing `Enter`.
+Mention that the boot volume must be set **anytime** when you have touched your raid configuration.
