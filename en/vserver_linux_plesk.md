@@ -87,26 +87,26 @@ chmod +x plesk-installer
 Start the installer:
 
 ```
-./plesk-installers
+./plesk-installer
 ```
 
 Once the three startup commands have been executed, the license must be approved with "F": 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/B3fEBqeDkzxf3iQ/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/59BScYTc8RgQcLq/preview)
 
 After approval, the system will ask which Plesk to install. In this case Plesk Obsidian or Plesk Onyx. It will also indicate which is the more stable one. Usually a "stable" version is used for productive use. Since the selected options already point to the stable version, confirm this again with "F".
 
 The question of whether Plesk may collect data for product improvement can be answered with "Y"(Yes) or "n"(No). 
 
-[](https://screensaver01.zap-hosting.com/index.php/s/6PEEjG9zTSZTcfJ/preview)
+[](https://screensaver01.zap-hosting.com/index.php/s/e5o2dyk4HLR5F8g/preview)
 
 After answering, the system will ask you what type of the selected Plesk version you want to install. Usually the type "Recommended" already set is sufficient. Modules that may not be installed later but are needed can be installed in the Plesk panel. 
 
-[](https://screensaver01.zap-hosting.com/index.php/s/a8Bi982gTtgAcrx/preview)
+[](https://screensaver01.zap-hosting.com/index.php/s/cnzRc9te8QBDg3q/preview)
 
 The next question whether packages may be installed/upgraded is confirmed with "F".
 
-[](https://screensaver01.zap-hosting.com/index.php/s/Sp9DjKBEKkowoo4/preview)
+[](https://screensaver01.zap-hosting.com/index.php/s/RGLRMQAi7YK4tLt/preview)
 
 Now the installer starts the installation.
 
@@ -115,7 +115,7 @@ It can happen that it looks like the installer is "stuck", in 99% of the cases t
 
 The installation is complete as soon as the following appears: 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/Fyy72nWq4NbRxmz/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/46qmbzcisdwC2Wf/preview)
 
 <!--END_DOCUSAURUS_CODE_TABS-->
 
