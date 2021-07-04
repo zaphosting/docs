@@ -12,11 +12,11 @@ Damit man sich selbst oder auch anderen Spielern OP-Recht zuteilen kann, muss ma
 
 Um die Konsole zu öffnen, muss zunächst der jeweilige Server über das **Dashboard** aufgerufen werden. Im Interface des Servers angekommen ist links in der Liste unter dem Reiter "INFORMATIONEN" der Eintrag "Live Konsole" zu finden, worüber die Konsole geöffnet werden kann.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/mzNZttELCdKz7nN/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/bdDspAkkLGpoiaM/preview)
 
 Nun sollte ein dunkles Fenster zu sehen sein, was die Konsole des Servers darstellt. Darunter ist ein Eingabefeld zu erkennen, wo jegliche Befehle an die Konsole übergeben werden, sodass diese dort ausgeführt werden. Um nun die OP-Rechte zu setzten, muss in das Eingabefeld der Befehl "op <Spieler>" (ohne "/") eingetragen werden und anschließend auf den grünen Button "Befehl senden" geklickt werden, damit der Befehl an die Konsole gesendet wird.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/m7mMRx3kCtGDgj6/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/WRxLdk9Hr7t43EX/preview)
 
 Nach wenigen Sekunden sollte der gesendete Befehl in der Konsole erscheinen, worauf die Meldung "Made <Spieler> a server operator" kommt, welche den Vorgang als erfolgreich markiert. Nun hat der jeweilige Spieler alle OP-Rechte und kann beispielsweise den Spielmodus wechseln.
 
