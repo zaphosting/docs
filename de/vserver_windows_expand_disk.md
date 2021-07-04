@@ -24,7 +24,7 @@ Anschließend wurde die Festplatte erweitert.
 
 Um deine Festplatte über die Einstellungen von Windows zu erweitern, musst du in die Suchzeile **Festplatte** eingeben. Anschließend erscheint dann als Vorschlag **Festplattenpartition erstellen und formatieren**.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/2GKxkW42GzMKzbj/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/nNKPr2rENxHAnQq/preview)
 
 Dort siehst du, welcher Speicher noch nicht zugewiesen worden ist. Um diesen nun einzubinden, musst du lediglich einen **Rechtsklick** machen und dann auf **Volumen erweitern...**.
 
