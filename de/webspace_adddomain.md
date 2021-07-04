@@ -20,7 +20,7 @@ Im Anschluss an die abgeschlossene Bestellung wird das Webspace im Zap-Hosting D
 
 Auf der nun geöffneten Seite sind die Login Daten einzusehen. Das Passwort wird nicht im Klartext gespeichert. Um sich dieses anzeigen zu lassen, muss man auf das "Augen" Symbol drücken.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/5awt6cS6HPNfj8L/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/AfK8yiSz7cCfDLZ/preview)
 
 > Wenn dir das dort automatisch generierte Passwort nicht zusagt, kann dieses auf der selben Seite mit der Funktion "Passwort ändern" innerhalb von wenigen Sekunden geändert werden.
 
