@@ -12,7 +12,7 @@ sidebar_label: Server Konfiguration
 
 Du kannst deinen Teamspeak Server individuell konfigurieren. Im Folgenden wird erklärt, wie du deinen Server konfigurieren kannst. Dabei erklären wir dir, wie du allgemeine Einstellungen wie zum Beispiel den Servername, Icon, Banner bis hin zu den Berechtigungen von Benutzer, Channel und Server-Gruppen anpassen kannst. 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/Xob49BbsfZpTtWD/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/G7msoM7BbfcfB28/preview)
 
 
 
@@ -28,7 +28,7 @@ Die Konfiguration des Servers kann prinzipiell über das Webinterface und direkt
 
 Wenn du die allgemeine Konfiguration deines Servers über das Webinterface vornehmen möchtest, dann findest du die Optionen in der Teamspeak Server Verwaltung unter Einstellungen. Die Einstellungsseite sieht dann wie folgt aus: 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/PYeMdqDo3RkJNfT/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/dt2LSeEps2FttQr/preview)
 
 
 
@@ -36,7 +36,7 @@ Wenn du die allgemeine Konfiguration deines Servers über das Webinterface vorne
 
 Wenn du die allgemeine Konfiguration deines Servers über den Teamspeak Client direkt vornehmen möchtest, dann findest du die Optionen, in dem du auf den obersten Channel **TeamSpeak ]I[ Server** einen Rechtsklick machst und dann auf **Virtuellen Server editieren** klickst.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/7HaL4kHc87XAydT/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/XLafxcxcjjARL8b/preview)
 
 
 
@@ -70,7 +70,7 @@ Die Slots werden von uns gesetzt und können nicht verändert werden. Allerdings
 
 Hierbei kannst du eine beliebige Willkommensnachricht hinzufügen. Diese wird dann beim Verbinden angezeigt. Das kann dann zum Beispiel so aussehen:
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/TNKWCnJwm4fXrjt/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/TimyaMg2ncnNyo6/preview)
 
 
 
@@ -105,7 +105,7 @@ Du kannst bei deinem Teamspeak Server noch weitere Channel und Server-Gruppen an
 
 Um weitere Channel anzulegen, musst du unter den vorhandenen Channels einen **Rechtsklick** machen und dann auf **Channel erstellen** klicken. Im Anschluss öffnet sich ein Popup-Fenster. Dort kannst du den Channel dann nach den folgenden Optionen konfigurieren: Channel-Name, Passwort, Icon, Beschreibung, Channel Typ und noch mehr. 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/twHKR8yGtZxWb8k/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/54YJAYcHjEC255Y/preview)
 
 
 
@@ -113,7 +113,7 @@ Um weitere Channel anzulegen, musst du unter den vorhandenen Channels einen **Re
 
 Um weitere Server-Gruppen anzulegen, musst du in der **Navigationszeile** auf **Rechte** klicken und dann auf **Server-Gruppen gehen**. Dort findest du dann eine Übersicht der vorhandenen Server-Gruppen, deren Berechtigungen und den zugewiesenen Benutzer. In der Liste der Server-Gruppen kannst du unten auf das **Plus Symbol** klicken und dann eine neue Gruppe anlegen. 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/mrxQM9Zam54JiSG/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/JHx9WtziD892RPt/preview)
 
 
 
@@ -131,7 +131,7 @@ Bis hierhin sollte klar sein, wie du allgemeine Einstellungen vom Teamspeak Serv
 
 Die Berechtigungen der Benutzer hängen von den zugewiesenen Server-Gruppen ab. Standardmäßig erhält ein Benutzer die **Normal** Gruppe. Wenn dem Benutzer weitere Berechtigungen hinzugefügt werden sollen, dann kann das gemacht werden, in dem ein Rechtsklick auf den Benutzer macht, dann auf Server-Gruppen klickt und im Anschluss die gewünschte Gruppe zugewiesen wird. 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/WbimAtW5agqRx7Q/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/qdQXDTGiBNYz8kP/preview)
 
 
 
@@ -139,7 +139,7 @@ Die Berechtigungen der Benutzer hängen von den zugewiesenen Server-Gruppen ab. 
 
 Für die einzelnen Channels können jeweils Berechtigungen definiert werden. So kann zum Beispiel definiert werden, welche Benutzer den Channel **Betreten, Abonnieren, Beschreibung, sehen, Ändern, Löschen kann** und **Zugriff auf den Channel Datei-Browser haben dürfen**. 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/cLSTRDHaSTLKBtL/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/apcKExNZ3dan9BF/preview)
 
 
 
@@ -160,7 +160,7 @@ Bei den Berechtigungen der Server-Gruppen gibt es verschiedene Kategorien die an
 
 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/izeAaD6KqcXbwte/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/6XYG8rxGg36NtZA/preview)
 
 
 
