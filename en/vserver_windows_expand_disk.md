@@ -24,7 +24,7 @@ Then the hard disk was extended.
 
 To expand your hard disk using the Windows settings, you must enter **hard disk** in the search line. Then the suggestion **Create and format hard disk partition** appears.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/2GKxkW42GzMKzbj/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/EfxjPn2ENLCcp4c/preview)
 
 There you can see which memory has not yet been allocated. To include it now, you just have to do a **right click** and then **extend volume...**.
 
