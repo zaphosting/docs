@@ -5,22 +5,40 @@ description: Information on how to change the language of your Windows VPS from 
 sidebar_label: Add/change language
 ---
 
-ZAP hosting offers the Windows Server products in German and English as default options. During the order process and in the server settings you can choose between these languages. You prefer to use a different language? Then you are in the right place!
+> ℹ️ By default we provide Windows in German and English, you can identify that on the (DE) and (EN) tags
+***
+Windows provides the opportunity to install language packages, its important to check before if the language is a display language. You can check this by the following flag:
 
-In the following, we explain how you can set up/install another language. To do this you have to connect to your server via remote desktop connection.
+![](https://screensaver01.zap-hosting.com/index.php/s/TWSc8z6EgM4LW3C/preview)
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/DBSjxEKKwx3iJRX/preview)
+If that flag is missing at the language of your like, its sadly not possible to change the display language of windows.
 
+## 📖 Preparation
 
+Connect through Remotedesktop on your Windows Server and open the settings.
 
-Once the connection has been established, you have to navigate to the Windows settings. You can find and access the settings via the Windows start menu. Once there we go to the options of **time and language**.
+![](https://screensaver01.zap-hosting.com/index.php/s/wYEb5xjPaX7kFLC/preview)
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/BpesxbgsHP7DDfF/preview)
+Choose the menu "Time & Language", there the submenu "Language"
 
-Now we click on Region and Language and add the desired language:
+Press on "Add a language"
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/dKoJXGg9aPTpzWg/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/4q8NDL9GH3Q9j53/preview)
 
-Once the language has been added, it must be selected and the options called up. The language packs of the added language can be downloaded there.![img](https://screensaver01.zap-hosting.com/index.php/s/RHkmkDoWiF7Ko3W/preview)
+Search for the language of your like and be sure that its a display language.
 
-At the end the language must be set as default. Select country/region and click on **As default** for the language.![img](https://screensaver01.zap-hosting.com/index.php/s/YFZHFy88bqbxcdq/preview)
+## 🖥️ Installation
+
+![](https://screensaver01.zap-hosting.com/index.php/s/yZsg6ogMH36cFEC/preview)
+
+Choose the language of your like by a mouseclick and proceed by pressing "Next", accept the installation of all additional packages
+
+> ⚠️ "Display Language installation and use as windows display language" must be enabled.
+
+Windows is now downloading the language of your decision, this can take several minutes (30-60 minutes).
+
+![](https://screensaver01.zap-hosting.com/index.php/s/NS7eLneEEbSEj2t/preview)
+
+After the installation of your language was successfully done, you just need to sign in again or restart your server.
+
+![](https://screensaver01.zap-hosting.com/index.php/s/S69kR4KdN3rHyYd/preview)
