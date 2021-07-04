@@ -87,26 +87,26 @@ chmod +x plesk-installer
 Starten des Installers:
 
 ```
-./plesk-installers
+./plesk-installer
 ```
 
 Sobald die drei Befehle zum starten ausgeführt wurden, muss der Lizenz zugestimmt werden mit "F": 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/B3fEBqeDkzxf3iQ/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/59BScYTc8RgQcLq/preview)
 
 Nach der Zustimmung fragt das System, welches Plesk installiert werden soll. In diesem Fall Plesk Obsidian oder Plesk Onyx. Es wird auch gekennzeichnet, welches das stabilere davon ist. In der Regel wird eine "Stable" Version für den Produktiv Einsatz genutzt. Da die ausgewählten Optionen bereits auf die Stable Version zeigen, bestätigt man dies erneut mit "F"
 
 Die Frage ob Plesk Daten für die Verbesserung der Produkte erheben darf, kann mit "Y"(Yes) oder "n"(No) beantwortet werden. 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/6PEEjG9zTSZTcfJ/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/e5o2dyk4HLR5F8g/preview)
 
 Nach der Beantwortung, fragt das System welchen Typ von der ausgewählten Plesk Version installiert werden soll. In der Regel ist der bereits eingestellte Typ "Recommended" ausreichend. Module die später eventuell nicht installiert wurden, aber benötigt werden, können im Plesk Panel nachinstalliert werden. 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/a8Bi982gTtgAcrx/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/cnzRc9te8QBDg3q/preview)
 
 Die nächste Frage ob Pakete installiert/upgegradet werden dürfen, wird mit "F" bestätigt.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/Sp9DjKBEKkowoo4/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/RGLRMQAi7YK4tLt/preview)
 
 Nun startet der Installer mit der Installation.
 
@@ -115,7 +115,7 @@ Es kann passieren das es so aussieht als ob der Installer "stecken" geblieben is
 
 Die Installation ist abgeschlossen sobald folgendes erscheint: 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/Fyy72nWq4NbRxmz/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/46qmbzcisdwC2Wf/preview)
 
 <!--END_DOCUSAURUS_CODE_TABS-->
 
