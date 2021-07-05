@@ -16,7 +16,7 @@ Mods allow you to customize your server more individually. In the following we w
 
 First of all it is necessary to find out where to download mods for Factorio. Factorio itself offers a wide range of mods on their website. These can be found here: [Factorio - Mods](https://mods.factorio.com/)
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/FAxqfS2xTg8Jggf/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/DEp8GRoTDN98CrS/preview)
 
 On this site you have the possibility to apply different filters. For example, you can differ between popularity, category or version. It is important that the mods support the installed server version. Otherwise it is possible that the mod doesn't load or that the server doesn't start anymore. 
 
@@ -28,7 +28,7 @@ Once you have chosen your desired mods and downloaded them, you can start instal
 
 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/pKHbWDmoytkCzCA/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/WKXGJNgjwstKSLK/preview)
 
 
 
