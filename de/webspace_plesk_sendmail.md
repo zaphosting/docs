@@ -17,14 +17,14 @@ Dort "**Email Adresses**" anklicken
 
 Im Anschluss kann nun in dem neuen Fenster der Button "**Create Email Address**" gedrückt werden
 
-![](https://screensaver01.zap-hosting.com/index.php/s/D6CAwXdbdZzsRJA/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/MfGtSS56YYaT5oL/preview)
 
 in der ersten Zeile gibt man seine Wunschdomain an, bei dem Passwort kann ein eigenes genutzt werden.
 Alternativ kann über den Button "**Generate**" eins erstellt werden, welches raus kopiert werden kann.
 
 Sobald alle Wunscheinträge eingetragen über den "**OK**" Button die Eingabe bestätigen.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/rzFnE9axpnzHKTM/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/RaiHYejSCAsDmfF/preview)
 
 ## ⚡ Thunderbird einrichten
 
