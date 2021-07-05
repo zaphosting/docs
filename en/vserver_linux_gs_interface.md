@@ -11,10 +11,8 @@ With the interface you can easily install a Teamspeak 3 server or various select
 And you don't need any experience with Linux!
 
 > **Important**: The interface can only be installed on the following Linux distributions:
-> 1. **Debian 8**
 > 1. **Debian 9**
 > 1. **Debian 10**
-> 1. **Ubuntu 17.10**
 
 ## Preparations
 To install the Gameserver-Webinterface. Navigate to the menu in your settings category.
@@ -48,38 +46,38 @@ Until everything is completely installed and configured, it can take about 15-20
 Now that the installation is complete, we can start installing a game server.
 For this you can click here on "Install game server":
 
-![](https://screensaver01.zap-hosting.com/index.php/s/kLqBKKJyb5yasJx/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/FPtNr5MAS6YoPks/preview)
 
 In the following window you can select the IP address of the desired game server. (If your server has more than one IP)
 You can also specify the desired port, the number of slos and the RAM boost.
 As far as all details fit you can click on "Install game server now".
 
-![](https://screensaver01.zap-hosting.com/index.php/s/oFBKYGCFRRm2aDA/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/HeT2kCP4fCpysWB/preview)
 
 
 ### Install the desired game
 You can now view your server in the gameserver list and click on it.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/JdcyskLbZjzNkGk/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/m6Nja6pi43m3YAm/preview)
 
 
 You are now in the administration of your game server.
 Here you can click on the tab "Games" on the left.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/5yFMWnkfj86L6TC/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/XnfdsWZaCrRt8ER/preview)
 
 
 Here you can find a list of all games you could install on your server.
 In our example we want to install Paperspigot.
 To do so, we type "Paperspigot" into the search bar and click on the green "install" button to the right of the game.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/kMFqymBdLFyB5x6/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/e4He92iSWayDzWs/preview)
 
 
 Now you see the conditions of the game and can choose the version to be installed.
 By clicking on "Accept and install" the game will be installed.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/K9zCqSWJznwSb4f/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/KK64gfSoJ9jBDoQ/preview)
 
 
 This takes a few minutes, depending on the game.
@@ -91,13 +89,13 @@ The installation of a Teamspeak 3 server is almost identical to the installation
 First you have to click on "Gameserver / Ts3" again.
 Here you can now click on "Install Voiceserver".
 
-![](https://screensaver01.zap-hosting.com/index.php/s/zLA5Jxjz8ptoiga/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/sF2rygPpy2MJKKE/preview)
 
 
 In the following window you can also make some small changes.
 For example, changing the respective ports and changing the version.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/HD5BrRGXKbjtpie/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/ARHHgMZFFwyK8by/preview)
 
 
 As far as all information fits you can click on "Install Teamspeak 3 / 5 Server now".
@@ -105,7 +103,7 @@ As far as all information fits you can click on "Install Teamspeak 3 / 5 Server 
 
 You can now view and click on the installed Teamspeak 3 server in the "Voiceserver" overview.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/xcw9X8AFDSGomRT/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/bJY7WomJdZRpQXn/preview)
 
 
 > **Attention**: This is the instance where the actual Teamspeak 3 server will be installed.
@@ -113,19 +111,19 @@ You can now view and click on the installed Teamspeak 3 server in the "Voiceserv
 You are now in the interface of the instance of your installed Teamspeak 3 server.
 You can now start the instance by clicking on the "Start" button.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/bC8gn4xgFjgiZ44/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/RTJF4mxt8Rw4HTr/preview)
 
 
 ### Interface from the installed Teamspeak 3 server
 You can now click on "virtual servers".
 
-![](https://screensaver01.zap-hosting.com/index.php/s/5wsnK3TdeWiAeCx/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/37sDLSsRaqRbfAW/preview)
 
 
 Here you can see your installed Teamspeak 3 servers on your instance.
 With a click on the "eye" you can access the interface of the pure Teamspeak 3 server.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/5nygx4W8wECRFHa/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/46N7iARm29YgD3t/preview)
 
 
 In the interface of the Teamspeak 3 server you will find all necessary information.
