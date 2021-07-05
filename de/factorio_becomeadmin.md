@@ -10,7 +10,7 @@ sidebar_label: Admin werden
 
 Mit Administrator-Rechten kannst du direkt im Spiel Änderungen im Live Zustand an deinem Server vornehmen, ohne diese in der Config vorzunehmen. Das hinzufügen eines Admins erfolgt über die **server-settings.json** Config, welche du im Interface unter Configs findest.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/7eoD426g7i5p2Kd/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/ATPNdY4SKCBAF4x/preview)
 
 Am Ende der Config-Datei befindet sich der wichtige Part. Dort werden die Admins definiert:
 
