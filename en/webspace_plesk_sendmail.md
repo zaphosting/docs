@@ -9,50 +9,50 @@ sidebar_label: Sending Emails
 
 In the Plesk Dashboard press the "**Mail**" button. 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/gpHZANtsFb8BdAn/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/wCJTPs9q4b2YCyf/preview)
 
-Click on "**Mail Accounts**" there:
+Click on "**Email Adresses**" there:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/zYZd8nEM35N273G/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/bmd4rWajJGRQFS8/preview)
 
 The "**Create Email Address**" button can now be pressed in the new window:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/YSK9aRRBsz535Ar/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/MfGtSS56YYaT5oL/preview)
 
 In the first line you enter your desired domain; you can use your own password for the password.
 Alternatively, one can be created using the "**Generate**" button , which can be copied out.
 
 As soon as all the desired entries have been entered, click "**OK**" to confirm your entry.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/g2jWAQN7QwiNNjj/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/RaiHYejSCAsDmfF/preview)
 
 ## ⚡ Set Up Thunderbird
 
 After Thunderbird has been downloaded and installed, select "**Local Folders**".
 There you can now see the "**View Settings for this account**" which you use to manage the accounts. The new e-mail is now added above this.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/aBfeWiK8Bib2MD8/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/FoNTQZGQE5fij5W/preview)
 
 In the newly opened window, click on the "**Account Actions**" dropdown menu.
 Then click on then "**Add Mail Account**" button. 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/AkxfNJ7zmMcJ9YY/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/xZ8gK674wZHrx4X/preview)
 
 You now enter the desired name, how the mailbox should be listed at Thunderbird, as well as the e-mail address just created and the generated or imagined password.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/fjwraKSDqpkFqJ6/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/t9ML4KnDXAj8qT3/preview)
 
 Then you can confirm the entries with the "**Done**" Button.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/DgypGgdo63qoNfM/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/btPrsCHP8357jG9/preview)
 
 As soon as the mail has been created, you can select it from Thunderbird and click on "**Write a new message**".
 
-![](https://screensaver01.zap-hosting.com/index.php/s/PCeXkQ3fHy3sQd6/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/E7yk9CNEoXMEN9L/preview)
 
 There you now enter the recipient, the subject, and the text.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/n9jH2GZT45bF4Yj/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/QxwnzmyCtqdMJPR/preview)
 
 ### ⚠️ Certificate is missing
 

@@ -9,51 +9,49 @@ sidebar_label: E-Mails verschicken
 
 In dem Plesk Dashboar die Funktion "**Mail**" öffnen
 
-![](https://screensaver01.zap-hosting.com/index.php/s/8denj5ieAsAoMaG/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/wCJTPs9q4b2YCyf/preview)
 
-Dort "**Mail Accounts**" anklicken
+Dort "**Email Adresses**" anklicken
 
-![](https://screensaver01.zap-hosting.com/index.php/s/x8k37rZ77kWfaJQ/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/bmd4rWajJGRQFS8/preview)
 
 Im Anschluss kann nun in dem neuen Fenster der Button "**Create Email Address**" gedrückt werden
 
-![](https://screensaver01.zap-hosting.com/index.php/s/soBxqmgTinFasCm/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/MfGtSS56YYaT5oL/preview)
 
 in der ersten Zeile gibt man seine Wunschdomain an, bei dem Passwort kann ein eigenes genutzt werden.
 Alternativ kann über den Button "**Generate**" eins erstellt werden, welches raus kopiert werden kann.
 
 Sobald alle Wunscheinträge eingetragen über den "**OK**" Button die Eingabe bestätigen.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/8sZfofpPMmMSbZ4/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/RaiHYejSCAsDmfF/preview)
 
 ## ⚡ Thunderbird einrichten
 
-Nachdem Thunderbird heruntergeladen und installiert wurde, wählt man "**Lokale Ordner**" aus. 
-Dort sieht man nun die "**Konten-Einstellungen bearbeiten**" über welche man die Konten verwaltet.
-Darüber wird nun die neue E-mail hinzugefügt.
+Nachdem Thunderbird heruntergeladen und installiert werude, wähle einfach bei "**Einrichtung starten**", "**E-Mail**" aus.
+Es öffnet sich nun ein Fenster um eine Bestehende E-Mail Adresse hinzuzufügen.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/gyzSdWyKTcpN3yz/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/Yr8T9GGgatt3miR/preview)
 
-Bei dem gerade neu geöffnetem Fenster klickt man auf das "**Konten-Aktionen**" Dropdown-Menü.
-Im Anschluss darauf betätigt man den "**E-Mail-Konto hinzufügen**" Button
+Wir tragen unsere Informationen ein und klicken dann auf "**Weiter**"
 
-![](https://screensaver01.zap-hosting.com/index.php/s/EiKBnN6QzJCERd8/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/penosEwRwEiSF3L/preview)
 
-Man gibt jetzt sowohl den Wunschnamen ein, wie das Postfach bei Thunderbird gelistet werden soll, als auch die gerade erstellte E-mail-Adresse und das generierte bzw. erdachte Passwort.
+Thunderbird versucht nun automatisch alle nötigen Informationen zu beziehen, dies dauert in der Regel nur wenige Sekunden.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/NiFpnTDemRmL9Gz/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/zwTYsf9sfScnD3J/preview)
 
 Die Eingaben werden mit dem "**Fertig**" Button bestätigt.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/pFrgxoAfyZJpE4t/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/FGnRG9ajZ3yLaxq/preview)
 
-Sobald die Mail erstellt wurde, kann man diese bei Thunderbird auswählen und auf "**Neue Nachricht verfassen**".
+Sobald die Mail erstellt wurde, kann man diese bei Thunderbird auswählen und auf "**Verfassen**".
 
-![](https://screensaver01.zap-hosting.com/index.php/s/J9m2Fqa3Y37Cx42/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/gfr86BkLHKaJHeM/preview)
 
 Dort trägt man nun den Empfänger als auch den Betreff und den Text ein.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/KPA8GYDRbfCrEXd/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/aHrmii4y4SbXPiX/preview)
 
 ### ⚠️ Zertifikat fehlt
 
