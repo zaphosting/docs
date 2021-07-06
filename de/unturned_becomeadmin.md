@@ -14,7 +14,7 @@ Zudem wird die jeweilige Steam-ID (64er) benötigt, sodass der Server den Spiele
 Hierzu kann als Beispiel [dieses Tool](https://steamidfinder.com/) verwendet werden.
 Auf der Seite des Tools angekommen, können die benötigen Informationen in der Regel durch die Eingabe des Namens ermittelt werden.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/qZnyjHcecmYnLoB/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/mgWFZCTnY9HQTTH/preview)
 
 ## Config-Dateien öffnen
 
@@ -24,12 +24,12 @@ Zum einen wäre dies via [FTP](https://zap-hosting.com/guides/docs/de/gameserver
 In diesem Fall verwenden wir den eingebauten Editor des Webinterfaces.
 Hierzu muss in der linken Sidebar des Servers unter dem Reiter "Einstellungen" der Menü-Punkt "Configs" geöffnet werden.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/YEYEtDkpnW23Fyb/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/MtJfGXGZ4sk4RTa/preview)
 
 Das System lädt nun alle verfügbaren Configs und listet dieses dann auf. Hierbei ist ein wenig Geduld gefragt, dieser Vorgang dauert in der Regel wenige Sekunden.
 Sobald alle Config-Dateien geladen wurden, muss die Datei "commands.dat" bearbeitet werden. Hierzu reicht ein Klick auf den blauen Button "Datei öffnen", worauf die Datei im Web-Editor geöffnet wird.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/6ELk4885jr6p4oM/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/fQra57QePbbQ7X2/preview)
 
 ## Admins ernennen
 
@@ -44,7 +44,7 @@ Im Fall von Administratoren wird das "owner" einfach nur durch "admin" ersetzt.
 
 `admin 0123456789 //<-- Muss durch deine eigene Steam-ID ersetzt werden`
 
-![](https://screensaver01.zap-hosting.com/index.php/s/7b3XFY2FjNcq4L8/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/ot96z7RgqKqtwkd/preview)
 
 Nachdem alle Ränge in der Config vergeben worden sind, kann die Config mit einem Klick auf "Speichern" gespeichert werden.
 Der Server kann nun wieder gestartet werden und alle in die Config eingetragenen Spieler erhalten ihren Rang automatisch.

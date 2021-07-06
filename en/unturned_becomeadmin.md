@@ -11,7 +11,8 @@ In order to be able to add admins on a server, a config file must be edited. So 
 
 In addition, the respective Steam ID (64) is required so that the server can also identify the player. This [Tool](https://steamidfinder.com/) can be used as an example.
 Once on the side of the tool, the required information can usually be determined by entering the name.
-![](https://screensaver01.zap-hosting.com/index.php/s/qZnyjHcecmYnLoB/preview)
+
+![](https://screensaver01.zap-hosting.com/index.php/s/mgWFZCTnY9HQTTH/preview)
 
 ## Open Config Files
 
@@ -20,11 +21,11 @@ One would way would be possible using [FTP](https://zap-hosting.com/guides/docs/
 
 The other way would be using the Config Editor in the web interface itself. 
 In this case we use the built-in editor of the web interface. To do this, the menu item "Configs" must be opened in the left sidebar of the server under the "Settings" tab.
-![](https://screensaver01.zap-hosting.com/index.php/s/7JLg4dwSJA58Ajp/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/Epq4isYLZzkoLtR/preview)
 
 The system now loads all available configs and then lists them. A little patience is required here, this process usually takes a few seconds. As soon as all config files have been loaded, the "commands.dat" file must be edited. All you have to do is click on the blue button "Open file", whereupon the file is opened in the web editor.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/ZpGeCBmy6Dy83Xk/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/oRtg33k8FMSdRKj/preview)
 
 ## Add Admins
 

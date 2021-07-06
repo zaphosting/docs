@@ -12,15 +12,13 @@ sidebar_label: 1st/3rd Person
 
 Unturned provides the possibility to change the perspective on the server. You can choose between the first and third person perspective. The game is played in the first person perspective by default. However, since the 3.9.9.0 version, this can also be changed. In the following we explain how you can change this for your server. 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/E7mjsSabacdMQL3/preview)
-
 
 
 ## Configuration
 
 The change for this is made in the **Commands.dat** config. This can be found in the **Webinterface under Configs**. Depending on how the view should be set, the following command has to be added to the config:
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/67ei8WcKFQcCCMY/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/tayac3Wqsg36JXr/preview)
 
 
 

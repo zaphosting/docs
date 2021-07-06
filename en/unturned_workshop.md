@@ -19,7 +19,7 @@ Once you have decided, you have to copy the ID of the workshop item and then add
 
   Do a right click on the Steam Workshop page of the workshop item and click on Copy page url. Copy the ID from the URL.
 
-  ![img](https://screensaver01.zap-hosting.com/index.php/s/GFRMkRyFemGYJkJ/preview)
+  ![img](https://screensaver01.zap-hosting.com/index.php/s/zS3ojg79yWmqCLS/preview)
 
   
 
@@ -27,7 +27,7 @@ Once you have decided, you have to copy the ID of the workshop item and then add
 
   You will find a combination of numbers after **.../?id=** in the URL bar. Copy it.
 
-  ![img](https://screensaver01.zap-hosting.com/index.php/s/d5t8p3iSZm52KbS/preview)
+  ![img](https://screensaver01.zap-hosting.com/index.php/s/wLMjEx5Y8g6Db3P/preview)
 
 
 
@@ -37,7 +37,7 @@ Once you have decided, you have to copy the ID of the workshop item and then add
 
 Once the desired contents have been collected, they are now added to the server. The desired contents will be specified in the **WorkshopDownloadConfig.json** Config, which can be found in the interface under Configs.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/GfmCJcCHZCxywtJ/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/o5bw8PtL6Wea7Cy/preview)
 
 We now add the IDs of the individual Steam Workshop items to 'FileIDs'. The final result of this can look like this:
 
