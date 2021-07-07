@@ -5,7 +5,7 @@ description: Informationen, wie du Mod auf deinen Space Engeineers Server von ZA
 sidebar_label: Mods installieren
 ---
 
-### Vorbereitung
+### 📋 Vorbereitung
 
 Um Mods auf einem Server hinzufügen zu können, muss hierbei eine Config-Datei bearbeitet werden.
 Damit es hierbei keine Probleme bei der Übernahe der Änderungen gibt, stelle bitte sicher, dass dein Server hierbei zuvor gestoppt wird!
@@ -24,7 +24,7 @@ Dieser Name muss sich nun gemerkt werden, damit später die richtige Config-Date
 
 Die Installation von **Notepad++** ist zudem Vorrausetzung dieser Anleitung, damit die Schritte auch genau gleich durchgeführt werden können!
 
-## Mods raussuchen
+## 🆕 Mods raussuchen
 
 Sehr viele Mods kann man im Workshop von Space Engineers finden.
 Der Workshop kann [hier](https://steamcommunity.com/workshop/about/?appid=244850) gefunden werden.
@@ -34,7 +34,7 @@ Wenn die Mod einem gefällt, dann muss sich nun die Mod-ID nortiert werden. Die 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/X3HX3FNtqkKHCco/preview)
 
-## Config-Dateien öffnen
+## 🛠️ Config-Dateien öffnen
 
 Es gibt zwei Möglichkeiten die Dateien eines Servers bearbeiten zu können.
 Zum einen wäre dies via [FTP](https://zap-hosting.com/guides/docs/de/gameserver_ftpaccess/) möglich und einmal durch den Config-Editor im Webinterface selbst.
@@ -57,7 +57,7 @@ Es muss genau diese Config geöffnet werden, wie im Screenshot dargestellt!
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/GbDZ5QSZ7AecKz9/preview)
 
-## Mods hinzufügen
+## ➕ Mods hinzufügen
 
 Es gibt bereits einen Mod-Bereich in der Config, welcher sich am Ende der Config befindet. Diesen Teil markieren wir jedoch einmal mit der Maus und entfernen diesen dann.
 Im Anschluss fügen wir folgenden Inhalt ein:
