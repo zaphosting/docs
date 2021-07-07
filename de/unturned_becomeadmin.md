@@ -5,7 +5,7 @@ description: Informationen, wie du dich zum Admin auf deinem Unturned-Server von
 sidebar_label: Admin werden
 ---
 
-## Vorbereitungen
+## 📋 Vorbereitungen
 
 Um Admins auf einem Server hinzufügen zu können, muss hierbei eine Config-Datei bearbeitet werden.
 Damit es hierbei keine Probleme bei der Übernahe der Änderungen gibt, stelle bitte sicher, dass dein Server hierbei zuvor gestoppt wird!
@@ -16,7 +16,7 @@ Auf der Seite des Tools angekommen, können die benötigen Informationen in der 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/mgWFZCTnY9HQTTH/preview)
 
-## Config-Dateien öffnen
+## 🛠️ Config-Dateien öffnen
 
 Es gibt zwei Möglichkeiten die Dateien eines Servers bearbeiten zu können.
 Zum einen wäre dies via [FTP](https://zap-hosting.com/guides/docs/de/gameserver_ftpaccess/) möglich und einmal durch den Config-Editor im Webinterface selbst.
@@ -31,7 +31,7 @@ Sobald alle Config-Dateien geladen wurden, muss die Datei "commands.dat" bearbei
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/fQra57QePbbQ7X2/preview)
 
-## Admins ernennen
+## 🔑 Admins ernennen
 
 Es können nun Admin oder auch Owner in der Config ernannt werden.
 Hierbei ist zu beachten, dass der Owner-Rank nur einmal vergeben werden kann!
