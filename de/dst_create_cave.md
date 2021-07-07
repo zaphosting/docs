@@ -5,7 +5,7 @@ description: Informationen wie du für Don't Starve Together Höhlen auf Servern
 sidebar_label: Höhlen erstellen
 ---
 
-## Voraussetzungen für Höhlen
+## 📋 Voraussetzungen für Höhlen
 
 Um Höhlen bei Don't Starve Together nutzen zu können, werden zwei über uns bestellte Server benötigt.
 Der eine Server wäre der "Master" welcher für die Oberwelt genutzt wird und der zweite Server wäre der "Slave" welcher einzig und allein für die Höhlen genutzt wird.
@@ -13,13 +13,11 @@ Welchen Server du zum "Master" machst und welcher davon der "Slave" wird entsche
 
 Beide Configs sind im Interface unter "**Configs**" zu sehen und können dort bearbeitet werden.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/8p5QjnQXAXswZGk/preview)
-
-![](https://screensaver01.zap-hosting.com/index.php/s/CqRy9pYfTStopo6/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/QycjmKD4WmmDf5c/preview)
 
 Bearbeitet wird in beiden .ini Dateien nur der "**[SHARD]**" Teil.
 
-## Master
+## ⬆️ Master
 
 Bei dem Master handelt es sich um den Oberwelt Server, bei diesem Server muss in den Configs der Server als Master gesetzt werden.
 
@@ -38,7 +36,7 @@ name = Overworld
 id=100
 ```
 
-![](https://screensaver01.zap-hosting.com/index.php/s/TDoHPHyBd9ZZ8LY/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/c8rS4bcFKFQmmpX/preview)
 
 ### cluster.ini
 
@@ -53,9 +51,9 @@ shard_name = Overworld
 cluster_key = deinclusterkey
 ```
 
-![](https://screensaver01.zap-hosting.com/index.php/s/DYcBWDzSgH3EJRz/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/WmQKBWZ8SXjysKm/preview)
 
-## Slave
+## ⬇️ Slave
 
 Bei dem Slave handelt es sich um den Höhlen Server, bei welchem die Daten vom Master in die Configs eingetragen werden müssen.
 
@@ -76,7 +74,7 @@ name = Cave
 id=200
 ```
 
-![](https://screensaver01.zap-hosting.com/index.php/s/aNpjmxDmzdTcCFH/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/DSTdfgBTs78cday/preview)
 
 ### cluster.ini
 
@@ -91,7 +89,7 @@ shard_name = Cave
 cluster_key = deinclusterkey
 ```
 
-![](https://screensaver01.zap-hosting.com/index.php/s/FWtpJyt7K3swNnM/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/Lf57cxzH7bmJKKF/preview)
 
 ### neue Welt generieren
 
