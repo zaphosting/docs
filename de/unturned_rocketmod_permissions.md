@@ -5,12 +5,12 @@ description: Informationen, wie du die Berechtigungen für deinen Unturned Rocke
 sidebar_label: Berechtigungen anpassen
 ---
 
-## Vorbereitungen
+## 📋 Vorbereitungen
 Damit die notwendigen Config Dateien vom Server generiert werden, muss dieser erst einmal gestartet werden.
 Soweit der Server dann online ist, kannst du diesen wieder stoppen.
 Denn alle notwendigen Dateien welche wir bzw der Server benötigt wurden dann erstellt.
 
-## Config aufrufen
+## 📂 Config aufrufen
 Die Berechtigungen werden in der "Permissions.config.xml" Datei gespeichert.
 Diese kannst du ganz bequem über unser Interface einsehen und bearbeiten.
 Klicke dafür im Interface von deinem Server auf den Reiter "Configs":
@@ -21,7 +21,7 @@ Die Config heißt "Rocket Permissions" und kann mit einem Klick auf den blauen S
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/2WrrtAei78XKT6F/preview)
 
-## Die Config verstehen
+## 📌 Die Config verstehen
 Die Config sieht auf dem ersten Blick umständlich und komplex aus.
 Wir helfen dir bei dem Verständnis!
 Unterteilt ist die Datei in den verschiedenen Gruppen.
@@ -43,7 +43,7 @@ Der ganze Block stellt zum Beispiel eine Gruppe dar:
 
 In welchem dann alle notwendigen Paramter der Gruppe zugewiesen werden.
 
-## Berechtigungen anpassen
+## 🛠️ Berechtigungen anpassen
 Innerhalb der Gruppe findest du dann auch die "Permissions" Kategorie.
 Wie in diesem Screenshot zu sehen ist:
 
