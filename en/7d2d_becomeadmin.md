@@ -8,7 +8,7 @@ sidebar_label: Become Admin
 
 
 
-## Become Admin
+## 🔑 Become Admin
 
 Administrator rights allow you to make changes to your server directly in the game, without having to modify the config. Adding an admin is done via the **serveradmin.xml** config, which you can find in the web interface under Configs.
 
