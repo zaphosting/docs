@@ -5,7 +5,7 @@ description: Information on how to become an admin on your Unturned server from 
 sidebar_label: Become Admin
 ---
 
-## Preparations
+## 📋 Preparations
 
 In order to be able to add admins on a server, a config file must be edited. So that there are no problems applying the changes, please make sure that your server is stopped beforehand!
 
@@ -14,7 +14,7 @@ Once on the side of the tool, the required information can usually be determined
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/mgWFZCTnY9HQTTH/preview)
 
-## Open Config Files
+## 🛠️ Open Config Files
 
 There are two ways to edit the files on a server.
 One would way would be possible using [FTP](https://zap-hosting.com/guides/docs/en/gameserver_ftpaccess/).
@@ -27,7 +27,7 @@ The system now loads all available configs and then lists them. A little patienc
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/oRtg33k8FMSdRKj/preview)
 
-## Add Admins
+## 🔑 Add Admins
 
 Admin or owner can now be appointed in the config. Please note that the owner rank can only be assigned once!
 
