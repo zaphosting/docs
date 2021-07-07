@@ -5,19 +5,17 @@ description: Information on how to create and use caves on servers for Don't Sta
 sidebar_label: Create Caves
 ---
 
-## Requirements for Caves
+## 📋 Requirements for Caves
 
 In order to use caves at Don't Starve Together, two servers ordered through us are required. One server would be the "master" which is used for the upper world and the second server would be the "slave" which is used solely for the caves. Which server you make the "master" and which one becomes the "slave" is decided by the configurations of the server.ini and cluster.ini.
 
 Both configs can be seen in the interface under "**Configs**" and can be edited there.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/B7L8borSQAsiPA2/preview)
-
-![](https://screensaver01.zap-hosting.com/index.php/s/6Qc7MCGgbYHzPDr/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/M7YFCSxLcHeZ2RR/preview)
 
 Only the "**[SHARD]**" part is edited in both .ini files 
 
-## Master
+## ⬆️ Master
 
 The master is the Upperworld server, this server must be set as the master in the configs.
 
@@ -35,7 +33,7 @@ name = Overworld
 id=100
 ```
 
-![](https://screensaver01.zap-hosting.com/index.php/s/2B2NiSEjeoeB5ma/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/c8rS4bcFKFQmmpX/preview)
 
 ### cluster.ini
 
@@ -50,9 +48,9 @@ shard_name = Overworld
 cluster_key = deinclusterkey
 ```
 
-![](https://screensaver01.zap-hosting.com/index.php/s/GfJ9sgKnEG8kx9x/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/WmQKBWZ8SXjysKm/preview)
 
-## Slave
+## ⬇️ Slave
 
 The slave is the cave server, where the data from the master must be entered in the configs.
 
@@ -73,7 +71,7 @@ name = Cave
 id=200
 ```
 
-![](https://screensaver01.zap-hosting.com/index.php/s/A7AKWqrKJHjifWy/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/DSTdfgBTs78cday/preview)
 
 ### cluster.ini
 
@@ -87,7 +85,7 @@ shard_name = Cave
 cluster_key = deinclusterkey
 ```
 
-![](https://screensaver01.zap-hosting.com/index.php/s/fdNGdXoinww7Rsd/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/Lf57cxzH7bmJKKF/preview)
 
 ### Generate New World
 
