@@ -7,7 +7,7 @@ sidebar_label: Plugins installieren
 
 
 
-## Plugins installieren
+## 🔧 Plugins installieren
 
 Mit Plugins hast du die Möglichkeit deinen Server noch individueller anzupassen. Im Folgenden wird erklärt wo du die beliebtesten Servers-Plugins finden kannst und wie du diese eingerichtet werden. 
 
