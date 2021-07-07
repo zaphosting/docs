@@ -8,7 +8,7 @@ sidebar_label: Whitelist
 
 
 
-## Whitelist aktivieren
+## 🔒 Whitelist aktivieren
 
 Die Whitelist in Unturned ermöglicht es dir deinen Server zu schützen, indem nur ausgewählte Spieler, die auf der Liste stehen Erlaubnis haben, sich mit dem Server zu verbinden. Die Aktivierung der Whitelist erfolgt im Spiel per Befehl. Hierzu werden **Owner Berechtigungen** benötigt. Falls du nicht weißt, was das ist und wie du dir diese zuweist, dann schaue dir folgende Anleitung dazu an: [Unturned - Admin werden](https://zap-hosting.com/guides/docs/en/unturned_becomeadmin/)
 
@@ -26,7 +26,7 @@ Die Whitelist sollte nun aktiv sein und dementsprechend nur noch Spieler auf den
 
 
 
-## Whitelist verwalten
+## 🛠️ Whitelist verwalten
 
 **Spieler zur Whitelist hinzufügen:**
 
