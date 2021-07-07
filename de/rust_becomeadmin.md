@@ -5,7 +5,7 @@ description: Informationen, wie du dich zum Admin auf deinem Rust-Server von ZAP
 sidebar_label: Admin werden
 ---
 
-## Admin werden via RCON
+## 🖥️ Admin werden via RCON
 
 Mithilfe eines RCON Tools kannst du auf deinem Server beliebige Befehle ausführen, auch Adminrechte können so vergeben werden.
 Zuerst musst du [via RCON verbinden](rust_connectrcon.md).
@@ -25,7 +25,7 @@ Im Anschluss hast du direkt Adminrechte auf deinem Server.
 
 Nun bist du Administrator. :) 
 
-## Adminrechte via FTP setzen
+## ↕️ Adminrechte via FTP setzen
 
 Ein weiterer Weg dir Adminrechte auf deinem Server zu geben ist via FTP.
 Zuerst musst du auf deinen Server via [FTP verbinden](gameserver_ftpaccess.md).

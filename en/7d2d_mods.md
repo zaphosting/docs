@@ -7,7 +7,7 @@ sidebar_label: Install Mods
 
 
 
-## Mods installation
+## 🔧 Mods installation
 
 With mods you have the possibility to customize your server even more. In the following, we will explain where you can find the most popular server mods and how to set them up. With the introduction of Alpha 17 Experimental, the concept of modlets was introduced. Modlets are smaller mods that do not overwrite the vanilla XML files, but are loaded from the mods folder. 
 
@@ -15,7 +15,7 @@ With mods you have the possibility to customize your server even more. In the fo
 
 
 
-## Preparation
+## 📋 Preparation
 
 The first thing you need to do is to download the mods that you want to install on your server. You can find a large selection of mods at [7daystodiemods.com](https://7daystodiemods.com/). There you will find more than 1000 mods and more are added regularly. If you have downloaded a mod, then it should contain the following file structure:
 
@@ -28,7 +28,7 @@ The first thing you need to do is to download the mods that you want to install 
 
 
 
-## Installation
+## 🖥️ Installation
 
 Once the desired mods have been downloaded, you can start with the actual installation of the mods. The setup of the mods is done via FTP. You need a FTP client to be able to upload files to your server. If you don't know what FTP is and how it works, then you should have a look at the following guide:  [FTP File Access](https://zap-hosting.com/guides/docs/en/gameserver_ftpaccess/)
 

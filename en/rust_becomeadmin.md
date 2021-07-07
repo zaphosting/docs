@@ -5,7 +5,7 @@ description: Information on how to become an admin on your Rust server from ZAP-
 sidebar_label: Become Admin 
 ---
 
-## Using RCON to Become Admin
+## 🖥️ Using RCON to Become Admin
 
 Using RCON, you can run a command directly to make yourself admin.
 Firstly, you must [Connect via RCON](rust_connectrcon.md).
@@ -25,7 +25,7 @@ Then you will be made directly in admin.
 
 Then you are now an administrator! :)
 
-## Using FTP to Become Admin
+## ↕️ Using FTP to Become Admin
 
 Alternatively, you can assign your self admin directly through FTP.
 Firstly, you must connect using [FTP](gameserver_ftpaccess.md).
