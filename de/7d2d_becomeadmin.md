@@ -8,7 +8,7 @@ sidebar_label: Admin werden
 
 
 
-## Admin werden
+## 🔑 Admin werden
 
 Mit Administrator-Rechten kannst du direkt im Spiel Änderungen im Live-Zustand an deinem Server vornehmen, ohne diese in der Config vorzunehmen. Das Hinzufügen eines Admins erfolgt über die **serveradmin.xml** Config, welche du im Webinterface unter Configs findest.
 
