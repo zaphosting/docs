@@ -8,7 +8,7 @@ sidebar_label: Whitelist
 
 
 
-## Activate whitelist
+## 🔒 Activate whitelist
 
 The whitelist in Unturned allows you to protect your server by only allowing selected players who are on the list to connect to the server. Activating the whitelist is done in the game via command. This requires **owner permissions**. If you don't know what this is and how to assign them then check out the following guide: [Unturned - Admin]: [Unturned - Become Admin](https://zap-hosting.com/guides/docs/en/unturned_becomeadmin/)
 
@@ -24,7 +24,7 @@ The whitelist should be active now and accordingly only allow players to join th
 
 
 
-## Manage whitelist
+## 🛠️ Manage whitelist
 
 **Add player to whitelist:**
 
