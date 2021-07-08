@@ -8,7 +8,7 @@ sidebar_label: Whitelist
 
 
 
-## Whitelist aktivieren
+## 🔒 Whitelist aktivieren
 
 Die Whitelist in ECO ermöglicht es dir deinen Server zu schützen, indem nur ausgewählte Spieler, die auf der Liste stehen die Erlaubnis haben sich mit dem Server zu verbieten.
 
@@ -73,6 +73,6 @@ Alternativ ist es ebenfalls möglich mit Administrator-Berechtigungen im Spiel w
 
 
 
-## Whitelist verwalten
+## 🛠️ Whitelist verwalten
 
 Die Verwaltung der Whitelist erfolgt ausschließlich über die **Users.eco** Config-Datei, da es keinen Server Befehl zum entfernen eines Spielers gibt. Wenn du also einen Spieler entfernen möchtest, dann muss dieser wieder aus der Config ausgetragen werden. Ebenfalls ist dann ein Neustart des Servers notwendig, damit die Änderung wirksam wird. 
