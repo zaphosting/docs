@@ -5,11 +5,11 @@ description: Informationen zu Valheim-Serven von ZAP-Hosting, auf denen die Valh
 sidebar_label: Valheim Plus
 ---
 
-## Vorwort
+## 📋 Vorwort
 
 > Valheim Plus ist eine Clientseitige Modifikation. Sie ermöglicht es einige Änderungen am Spiel vorzunehmen.
 
-## Valheim Plus Installation auf dem Client
+## 🖥️ Valheim Plus Installation auf dem Client
 
 Zuerst muss der Valheim Ordner auf dem PC geöffnet werden. 
 Dafür bei Steam in der Bibliothek 'Rechtsklick' auf Valheim, bei den Optionen dann auf "***Verwalten***" und dort auf "***Lokale Dateien durchsuchen***".
@@ -28,7 +28,7 @@ Im Anschluss muss nur noch der Inhalt der "***WindowsClient.zip***" in den vorhe
 
 Dann kann Valheim gestartet werden und die Einrichtung bei dem Client ist beendet.
 
-## Valheim Plus Installation Server
+## ➕ Valheim Plus Installation Server
 
 Um das Spiel zu wechseln, öffnen wir zuerst das Spiele-Tab auf unserem Server:
 
@@ -40,7 +40,7 @@ Hier suchen wir unter "Verfügbare Spiele" nun nach Valheim Plus und klicken auf
 
 Danach wird der Server neu installiert. Nach der Neuinstallation hat man die Möglichkeit das Passwort bei "**Configs**" zu entfernen und man kann nun auf mehr Slots upgraden.
 
-## Slots Upgrade
+## ⬆️ Slots Upgrade
 
 Um nun ein Slotupgrade durchführen zu können, muss die "**UP- und Downgrade**" Funktion im Gameserver Dashboard geöffnet werden.
 
@@ -57,7 +57,7 @@ Sobald ausgewählt drückt man den "***Upgrade durchführen***" Button und das U
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/wDzTYjzSNARzY9p/preview)
 
-## Valheim Plus Config
+## 🔧 Valheim Plus Config
 
 Um die Konfigurationsdatei zu öffnen, muss im Gameserver Interface die "**Configs**" Seite geöffnet werden, bei dieser ist dann die "*ValheimPlus: valheim_plus.cfg*" zu sehen.
 Diese kann über das blaue Icon geöffnet werden, welches sich neben der Konfigurationsdatei befindet.
