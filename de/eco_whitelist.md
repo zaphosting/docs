@@ -32,7 +32,7 @@ Die Aktivierung der Whitelist erfolgt automatisch. Diese wird aktiviert, sobald 
 
 Beim dem Feld **$values** werden die SteamIDs von den Spielern eingetragen, die zur Whitelist hinzugefügt werden sollen. Diese findest du, indem du zunächst einmal dein Steam Profil aufrufst und dort dann an einer beliebigen Stelle Rechtsklick drückst. Dort kann dann die Steam URL des Profils kopiert werden. 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/e9Eb7EDtW7BPSZo/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/deb9bg5Jx8xXJ6B/preview)
 
 
 
@@ -44,7 +44,7 @@ Im Anschluss kann die URL auf einer der folgenden Webseiten angeben werden:
 
 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/Yxg52KfYA3rMDQj/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/EQHnQxyBxYyxcGY/preview)
 
 Dadurch erhältst du dort die sowohl die allgemeinen Accountinformationen als auch die Steam ID. Diese wird dann bei **$values** eingetragen. Das sieht dann folgendermaßen aus:
 
