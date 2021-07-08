@@ -16,7 +16,7 @@ Nachdem wir das Passwort gesetzt haben, können wir den Server starten, hierbei 
 ![](https://screensaver01.zap-hosting.com/index.php/s/rask2nLSCZCXtgS/preview)
 
 
-## Über Valheim Direktverbinden
+## 📶 Über Valheim Direktverbinden
 
 Zuerst kopieren wir uns die IP vom Server, welche im Webinterface steht:
 
@@ -36,7 +36,7 @@ Hier Fügen wir nun unsere Server IP ein:
 Über den "Connect" Button können wir uns nun direkt auf den Server verbinden.
 
 
-## Über Steam Direktverbinden
+## 📶 Über Steam Direktverbinden
 
 Zuerst kopieren wir uns die IP vom Server, welche im Webinterface steht:
 
@@ -61,7 +61,7 @@ Nachdem wir diesen Hinzugefügt haben, sollten wir unseren Server nun in der Ser
 Über den "Join Game" Button können wir uns nun direkt auf den Server verbinden.
 
 
-## Per Serverliste Verbinden
+## 📶 Per Serverliste Verbinden
 Wir öffnen Valheim und klicken auf `Start Game`, wenn noch kein Charakter erstellt wurde, muss jetzt einer erstellt werden, dann klicken wir auf `Start`
 
 Hier wollen wir keine neue Welt anlegen, also drücken wir "Abbrechen"
