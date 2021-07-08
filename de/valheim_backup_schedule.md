@@ -9,11 +9,11 @@ Leider bietet Valheim keine direkte Möglichkeit automatisiert Backups zu erstel
 
 Zuerst öffnest du in deinem Dashboard den "Restart Planer". 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/KxQ5XzHjp5wqgCk/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/prd6xMR5mSg9rco/preview)
 
 Danach klicken wir auf das "+" es öffnet sich nun ein weiteres Fenster in welchem wir die gewünschten Restartzeiten definieren können.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/KD3nzaZX8BNZMRX/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/nqnWAJXNNm5DoXW/preview)
 
 Zuerst wählen wir sofern gewünscht "Täglich", dies bedeutet das dieser Neustart dann täglich zu einer bestimmten Uhrzeit erfolgt. 
 Als nächstes definieren wir die gewünschte Uhrzeit an welcher der Neustart durchgeführt werden soll.
@@ -25,4 +25,4 @@ Als nächstes klicken wir auf Speichern.
 
 > Du könntest z.B. alle 6 Stunden einen Neustart durchführen lassen, somit wird also alle 6 Stunden ein Backup deines Savegames angelegt.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/Cbw2XznK8rNiSmN/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/32XwsGmDNMRz9jH/preview)
