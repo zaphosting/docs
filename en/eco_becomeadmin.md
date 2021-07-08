@@ -10,7 +10,7 @@ sidebar_label: Become Admin
 
 Administrator rights allow you to make changes directly in the game on your server without having to change it in the Config. Adding an admin is done via the **Users.eco** Config, which you can find in the interface under Configs.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/ebGA5kCCKXwkifA/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/9no6NPf9PTCt8rA/preview)
 
 
 
@@ -31,7 +31,7 @@ The player who is supposed to become admin is specified in the field **values**.
 
 You can find it by accessing your Steam profile and then right-clicking anywhere on the profile. There you can copy the Steam URL of your profile..
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/e9Eb7EDtW7BPSZo/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/deb9bg5Jx8xXJ6B/preview)
 
 
 
@@ -41,7 +41,7 @@ Afterwards, the URL must be typed in one of the following websites:
 - https://steamidfinder.com/
 - https://steamid.io/
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/Yxg52KfYA3rMDQj/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/EQHnQxyBxYyxcGY/preview)
 
 
 
