@@ -9,7 +9,7 @@ sidebar_label: Add new roles
 New roles are entered in the "config_remoteadmin.txt" file.
 You can find this config file by clicking on "Configs" in the interface of your server.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/5EH5MGXojAZPDFn/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/fTEN8W4a6RSKLKH/preview)
 
 Here you can then then search for the above Config and then click on the "eye" to the right to open it.
 
