@@ -5,7 +5,7 @@ description: Information on how to manage savegames and worlds on your Valheim s
 sidebar_label: Manage Savegames
 ---
 
-## Download Savegames
+## ⬇️ Download Savegames
 
 > Note: Before downloading the savegame you have to stop the server, to save the active savegame, after stopping the server the savegame will show up after reloading the page once.
 
@@ -21,7 +21,7 @@ Here you can easily download your savegame by clicking the green "Download" butt
 
 Done! You can now use the backup for other purposes, or upload it again later.
 
-## Upload & Activate Savegame
+## ⬆️ Upload & Activate Savegame
 
 To upload your own savegames, we first open our savegame manager.
 
@@ -51,7 +51,7 @@ Now the server can be started, the uploaded savegame will be active on the serve
 
 
 
-## Autosaves
+## 🔃 Autosaves
 
 Sadly Valheim does not currently support Autosaves, to save your game process, the server has to be stopped, the Restart Planer in the Webinterface can be used to automatically restart your server at specific times:
 
