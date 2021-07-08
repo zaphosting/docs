@@ -13,7 +13,7 @@ Bevor Plugins installiert werden können, muss dein [FTP Zugang](gameserver_ftpa
 Nachdem dies erledigt ist, kannst du dich via FTP auf deinen Server verbinden und öffnest dort folgendes Verzeichnis.
 `/g#####/scp/sm_plugins`
 
-![](https://screensaver01.zap-hosting.com/index.php/s/ttm3MLyR8CpFZFt/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/2wKT5XzXKnR43wy/preview)
 
 ## ⬇️ Plugins Installieren
 
@@ -27,42 +27,40 @@ Am einfachsten findest du Plugins auf deren [Discord](https://discord.gg/T9aurNf
 
 Im folgenden Beispiel verwenden wir folgendes Plugin:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/smGccFjzBbR5iRw/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/PxLQEndgjTTtX8T/preview)
 
-### Plugins Hochladen
+### Plugins hochladen
 
 Nachdem du ein Plugin heruntergeladen hast, kannst du dies via FTP auf deinen Server hochladen. Das geht am einfachsten via **drag&drop** in den Ordner **sm_plugins folder.**
 
-![](https://screensaver01.zap-hosting.com/index.php/s/kKCZ66323om7DRm/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/KBCCmeBn8LqWszZ/preview)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/6xPEzC2fTDjzNrj/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/KDJtsQNp73WtkRW/preview)
 
 > Beachte: Nach der Installation des Plugins wirst du deinen Server **neu starten** müssen damit das plugin **aktiv wird.**
 
-### Plugins Konfigurieren
+### Plugins knfigurieren
 
 Je nach Plugin gibt es verschiedene Konfigurationsmöglichkeiten welche du deiner config_gameplay.txt hinzufügen kannst.
 
 Für unser Beispiel-Plugin sind folgende Konfigurationsmöglichkeiten definiert:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/DQbaycE3Fze8Hyb/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/LbxeBmf6e2NWX5w/preview)
 
 Um diese hinzufügen zu können musst du nun deine **config_gameplay.txt** bearbeiten.
 
 Diese findest du links im Menü deines Servers über den **Configs** Tab.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/c4P7PMmoqQbgi8E/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/w6bfmpRn8fmyt6Y/preview)
 
 Die **config_gameplay.txt** findest du im Anschluss dort:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/2NcpJqjNQDjkRgj/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/M3zNTxGszGixjig/preview)
 
 > Die Konfiguration kannst du an beliebiger Stelle in dder Datei einfügen. Für eine bessere Übersicht fügen wir das ganze im Beispiel direkt unter '#Misc gameplay settings' in die **config.gameplay.txt** ein.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/gr2AR2mywrH4z6q/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/qNbyngmjRpiLD9S/preview)
 
 > Beachte: Je nach Plugin wird sich die Konfiguration von der in diesem Beispiel verwendeten unterscheiden. Stelle sicher immer die Anleitung des jeweiligen Plugins zu lesen damit du die Konfiguration korrekt hinzufügen kannst.
 
 Nachdem du die Konfiguration vorgenommen hast kannst du deinen Server starten und findest dein Plugin ab sofort im Spiel.  
-
-![](https://screensaver01.zap-hosting.com/index.php/s/L3C3xTZYfyPLS5Z/preview)
