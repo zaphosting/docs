@@ -5,7 +5,7 @@ description: Informationen, wie du Savegames und Welten auf deinem Valheim-Serve
 sidebar_label: Savegames Verwalten
 ---
 
-## Savegames Runterladen
+## ⬇️ Savegames herunterladen
 
 > Beachte: Vor dem Herunterladen des Savegames muss der Server gestoppt werden, damit das aktive Savegame gespeichert wird, nachdem der Server gestoppt wurde, wird das Savegame nach dem neu laden der Seite auftauchen.
 
@@ -22,7 +22,7 @@ Hier kannst du dein Savegame ganz einfach über den grünen "Download" Button he
 Fertig! Du kannst das Backup nun anderweitig nutzen, oder später wieder hochladen.
 
 
-## Savegame Hochladen & Aktivieren
+## ⬆️ Savegame hochladen & aktivieren
 
 Um deine eigenen Savegames hochzuladen, öffnen wir zunächst unseren Savegame-Manager.
 
@@ -50,7 +50,7 @@ Nachdem dies geladen wurde, erscheint unten rechts eine Meldung:
 
 Jetzt kann der Server gestartet werden, das hochgeladene Savegame wird dann auf dem Server aktiv sein.
 
-## Autosaves
+## 🔃 Autosaves
 
 Leider unterstützt Valheim derzeit keine Autosaves, um den Spielverlauf zu speichern, muss der Server gestoppt werden. Mit dem Restart Planer im Webinterface kann der Server zu bestimmten Zeiten automatisch neu gestartet werden:
 

@@ -5,89 +5,64 @@ description: Informationen zu Valheim-Serven von ZAP-Hosting, auf denen die Valh
 sidebar_label: Valheim Plus
 ---
 
-## Vorwort
+## 📋 Vorwort
 
-Bei Valheim Plus handelt es sich um eine Clientseitige Modifikation ~~sämtliche Änderungen müssen daher vom Client ebenfalls im Spielverzeichnis vorgenommen werden.
-Sofern enforceConfiguration bei den Server deaktiviert wurde kann jeder Client mit jeder Konfiguration auf den Server verbinden. Dadurch wäre es auch möglich, dass Personen mit verschiedenstens Konfigurationen zu den Server verbinden können. Wodurch Spieler unterschiedliche Geschwindigkeiten zu Fertigungen und Ausdauerwerten Clientseitig einstellen könnten.~~
+> Valheim Plus ist eine Clientseitige Modifikation. Sie ermöglicht es einige Änderungen am Spiel vorzunehmen.
 
-~~Um dies zu verhindern un ein faires Spielerlebnis zu bieten muss enforceConfiguration auf "**true**" gesetzt werden. Anschließend müsste der Server owner seine bei "**Configs**" gesetzte "**valheim_plus.cfg**" raus kopieren und an jeden Spieler versenden.
-Diese Spieler müssen dann exakt die gleiche "**valheim_plus.cfg**" Datei wie auf dem Server eingestellt ist, in den "**BepInEx\config**" Pfad einfügen.~~
-
-> ~~Eine Erklärung wie man zu der "**valheim_plus.cfg**" gelangt und dort die entsprechenden Konfigurationen einstellt ist bei "**Valheim Plus Config**" gegeben.~~
-> ~~Wie man zu dem "**BepInEx\config**" Pfad gelangt ist bei ***Valheim Plus Installation auf dem Client*** erklärt.~~
-
-~~Erst dann wäre eine valide Verbindung zum Server möglich.~~
-
-🎉 Seit Version 0.9.0 bekommt der Spieler nun vollautomatisch beim Verbinden zu dem Server die Config. Die Config muss also vorher nicht mehr vom Server heruntergeladen und an alle Spieler geschickt werden!
-
-## Valheim Plus Installation auf dem Client
+## 🖥️ Valheim Plus Installation auf dem Client
 
 Zuerst muss der Valheim Ordner auf dem PC geöffnet werden. 
 Dafür bei Steam in der Bibliothek 'Rechtsklick' auf Valheim, bei den Optionen dann auf "***Verwalten***" und dort auf "***Lokale Dateien durchsuchen***".
 
-![](https://screensaver01.zap-hosting.com/index.php/s/47cHNZKijzaawbL/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/NBxwsGWnntPZDcN/preview)
 
 Sobald dieser Ordner geöffnet wurde, muss nun die "***WindowsClient.zip***" heruntergeladen werden. 
 Die "***WindowsClient.zip***" kann [hier](https://github.com/valheimPlus/ValheimPlus/releases) (runterscrollen bis "Assets") heruntergeladen werden.
 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/dPxaH3m4to25igt/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/kzoEZLCMeTJGzZY/preview)
 
 Im Anschluss muss nur noch der Inhalt der "***WindowsClient.zip***" in den vorher geöffneten Valheim Server entpackt werden
 
-![](https://screensaver01.zap-hosting.com/index.php/s/EftHnQeiB8GSpS4/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/4G95YMM2Aayk6JC/preview)
 
 Dann kann Valheim gestartet werden und die Einrichtung bei dem Client ist beendet.
 
-~~### Inkompatible Version~~
-
-~~Sofern beim verbinden zu dem Server der Fehler "**Inkompatible Version**" zu sehen ist muss sichergestellt werden, dass Clientseitig die gleiche "**valheim_plus.cfg**" genutzt wird wie auf dem Server eingestellt. Da der *enforceConfiguration* Serverseitig auf "**true**" gesetzt wurde.~~
-
-~~Das bedeutet, du musst als Server Admin deine "**valheim_plus.cfg**" mit deinen Spielern teilen, damit sie sich die Config in den Valheim Steam Ordner und dann in den Unterordner *BepInEx\config\valheim_plus.cfg* ziehen können.~~
-
-~~Nur wenn Server- und Client Config syncron sind, ist ein Verbinden möglich. Wenn du hingegen *enforceConfiguration* auf *false* setzt, kann jeder Spieler verbinden. Dann hast du jedoch ein unfaires Spielerlebnis, weil die Configs deiner Spieler ggf. "bessere" Werte haben als die der anderen Spieler. Stelle also sicher, dass du deinen Spieler zwingst, die gleiche Config wie der Server zu benutzen~~
-
-~~Die Config kannst du im Webinterface unter "**Configs**" herunterladen und "**deinen Spielern schicken**":~~
-
-🎉 Seit Version 0.9.0 bekommt der Spieler nun vollautomatisch beim Verbinden zu dem Server die Config. Die Config muss also vorher nicht mehr vom Server heruntergeladen und an alle Spieler geschickt werden!
-
-## Valheim Plus Installation Server
+## ➕ Valheim Plus Installation Server
 
 Um das Spiel zu wechseln, öffnen wir zuerst das Spiele-Tab auf unserem Server:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/BbBAmKHto6mrSDx/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/7xCDfTKiQxdwZfw/preview)
 
 Hier suchen wir unter "Verfügbare Spiele" nun nach Valheim Plus und klicken auf den Download Button:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/xArgW7EcCxyXxKb/preview)
-
-![]()
+![](https://screensaver01.zap-hosting.com/index.php/s/GsRyy6cWfGjMfJA/preview)
 
 Danach wird der Server neu installiert. Nach der Neuinstallation hat man die Möglichkeit das Passwort bei "**Configs**" zu entfernen und man kann nun auf mehr Slots upgraden.
 
-## Slots Upgrade
+## ⬆️ Slots Upgrade
 
 Um nun ein Slotupgrade durchführen zu können, muss die "**UP- und Downgrade**" Funktion im Gameserver Dashboard geöffnet werden.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/gmZMnEgTNfg9eYB/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/ZzqYZoyFS7ew5iF/preview)
 
 Bei der Upgrade-Seite wählt man nun die gewünschte Anzahl an Slots aus. 
 
 > Hierbei muss nur der "**Aufpreis**" bezahlt werden, dieser berechnet sich für die noch verbliebene Laufzeit
 
-![](https://screensaver01.zap-hosting.com/index.php/s/eH5mKpSzLGAM3qf/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/49fFwnHfsk8tegP/preview)
 
 Um das Upgrade abzuschließen, muss auf der Seite ganz unten nun die Bezahlmethode ausgewählt werden.
 Sobald ausgewählt drückt man den "***Upgrade durchführen***" Button und das Upgrade wird durchgeführt
 
-![](https://screensaver01.zap-hosting.com/index.php/s/G6k56YGNsGQ6Kjf/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/wDzTYjzSNARzY9p/preview)
 
-## Valheim Plus Config
+## 🔧 Valheim Plus Config
 
 Um die Konfigurationsdatei zu öffnen, muss im Gameserver Interface die "**Configs**" Seite geöffnet werden, bei dieser ist dann die "*ValheimPlus: valheim_plus.cfg*" zu sehen.
 Diese kann über das blaue Icon geöffnet werden, welches sich neben der Konfigurationsdatei befindet.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/W7wQncJXEaj6pzZ/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/dbSYkkm3qMcoL25/preview)
 
 Eine Liste sämtlicher in der Konfigurationsdatei nutzbaren Befehle:
 
@@ -219,4 +194,3 @@ Eine Liste der möglichen Tasten wäre ![hier](https://docs.unity3d.com/ScriptRe
 |   staminaRegen      |      5 (float)     |   setzt die Anzahl an Ausdauer welche regeneriert wird  |
 |   swimStaminaDrain      |     5 (float)      |   setzt die Anzahl an Ausdauer für den Ausdauerentzug beim Schwimmen   |
 |   jumpStaminaUsage      |      10 (float)     |   setzt die Anzahl an Ausdauer für den Ausdauerentzug beim Springen   |
-

@@ -5,86 +5,63 @@ description: Information about Valheim-Servers from ZAP-Hosting, on which the Va
 sidebar_label: Valheim Plus
 ---
 
-## Introduction
+## 📋 Introduction
 
-Valheim Plus is a client-side modification ~~so all changes must also be made by the client in the game directory.
-If *enforceConfiguration* is disabled on the server, any client with any configuration can connect to the server. This would also allow people with different configurations to connect to the server. This would allow players to set different speeds for crafting and stamina values on the client.~~
+> Valheim Plus is a client sided moficiation. It allows you to do changes on the basic game.
 
-~~To prevent this and provide a fair gaming experience *enforceConfiguration* must be set to "**true**". Then the server owner would have to copy out the "**valheim_plus.cfg**" set at "**Configs**" and send it to every player.
-These players must then paste the exact same "**valheim_plus.cfg**" file as it is set on the server into the "**BepInEx\config**" path.~~
-
-~~An explanation of how to get to the "**valheim_plus.cfg**" and set the appropriate configurations there is given at "**Valheim Plus Config**".
-How to get to the "**BepInEx\config**" path is explained at ***Valheim Plus Installation on Client***.~~
-
-~~Only then a valid connection to the server would be possible.~~
-
-🎉 Since version 0.9.0 the player gets the config automatically when connecting to the server. The config must no longer be downloaded from the server and sent to all players!
-
-## Valheim Plus Installation Client
+## 🖥️ Valheim Plus Installation Client
 
 First you have to open the Valheim folder on your PC. 
 To do this, right-click on Valheim in the Steam library, select "***Manage***" in the options and then "***Browse local files***".
 
-![](https://screensaver01.zap-hosting.com/index.php/s/JR4CFY7jEdXqDp9/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/MT5yq4XAzApqB5J/preview)
 
 Once this folder has been opened, the "***WindowsClient.zip***" has to be downloaded. 
 The "***WindowsClient.zip***" can be downloaded [here](https://github.com/valheimPlus/ValheimPlus/releases) (go to "Assets").
 
-![](https://screensaver01.zap-hosting.com/index.php/s/dPxaH3m4to25igt/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/kzoEZLCMeTJGzZY/preview)
 
 Afterwards the content of the "***WindowsClient.zip***" has to be unzipped into the previously opened Valheim server folder.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/EftHnQeiB8GSpS4/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/4G95YMM2Aayk6JC/preview)
 
 Then Valheim can be started and the setup at the client is finished.
 
-~~### Incompatible version~~
-
-~~If the error "**incompatible version**" is displayed when connecting to the server, it must be ensured that the same "**valheim_plus.cfg**" is used on the client side as is set on the server. Since the *enforceConfiguration* was set to "**true**" on the server.~~
-
-~~That means, you - as a server admin - have to share your "**valheim_plus.cfg**" with your players, so they can drag the config into the Valheim Steam folder and then into the subfolder *BepInEx\config\valheim_plus.cfg*. ~~
-
-~~Only if server and client config are syncron, connecting is possible. If you set *enforceConfiguration* to *false*, every player can connect. But then you will have an unfair game experience, because the configs of your players may have "better" values than those of the other players. So make sure that you force your player to use the same config as the server.~~
-
-~~You can download the config in the webinterface under "**Configs**" and "**send it to your players**":~~
-
-🎉 Since version 0.9.0 the player gets the config automatically when connecting to the server. The config must no longer be downloaded from the server and sent to all players!
-
-## Valheim Plus Installation Server
+## ➕ Valheim Plus Installation Server
 
 To change the game we first open the games tab on our server:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/TsoGNq4EYB5Yq3J/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/5wDLo9EMbtH7LyW/preview)
 
 Here we now search for Valheim Plus under "Available games" and click on the download button:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/xArgW7EcCxyXxKb/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/8ocJto2s5kZetq2/preview)
 
 After that the server will be reinstalled. After the reinstallation is finished you have the possibility to remove the password at "**Configs**" and you can now upgrade to more slots.
 
-## Slots Upgrade
+## ⬆️ Slots Upgrade
 
 To be able to perform a slot upgrade now, the "**UP and Downgrade**" function in the game server dashboard has to be opened.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/Cewk4E9Fdfj5GDi/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/MgnyrasCD45FBjW/preview)
 
 Now select the desired number of slots on the UP and Downgrade page.
 
 > Here only the "**surcharge**" has to be paid, this is calculated for the remaining runtime
 
-![](https://screensaver01.zap-hosting.com/index.php/s/Ma5BccAHWrpJPCK/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/WHGsG4LWapoG4bb/preview)
 
 To complete the upgrade, the payment method must be selected at the bottom of the page.
 Once selected, press the "***Perform upgrade***" button and the upgrade will be performed.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/59sxTd8ZrAYpr4j/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/WXDPpfq2iLZbzt7/preview)
 
-## Valheim Plus Config
+## 🔧 Valheim Plus Config
 
 To open the configuration file you have to open the "**Configs**" page in the game server interface, where you can see the "*ValheimPlus: valheim_plus.cfg*".
 This can be opened via the blue icon which is located next to the configuration file.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/sA8fEWCijpYgQgb/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/dbSYkkm3qMcoL25/preview)
 
 A list of all commands that can be used in the configuration file:
 
