@@ -5,7 +5,7 @@ description: Information about admin commands and cheats for your Valheim server
 sidebar_label: Admin Commands & Cheats
 ---
 
-## Adding yourself as Admin
+## 🔑 Adding yourself as Admin
 
 ### Getting your Steam ID
 To Add yourself as Admin, you first need to get your SteamID64, you can use a tool like the [Steam ID Finder](https://steamidfinder.com/)
@@ -25,7 +25,7 @@ Now we open our Servers Webinterface and open the Settings Page, here we will se
 
 After we have added our Steam ID, we save the Settings and then Restart the Server.
 
-## Access the Console
+## 🖥️ Access the Console
 
 The Console in Valheim can be accessed by pressing "F5" While Ingame, there you can type all Admin Commands or Cheats
 
