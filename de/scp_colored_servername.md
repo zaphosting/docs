@@ -10,17 +10,17 @@ sidebar_label: Farbiger Servername
 
 Öffne die Einstellungen deines Servers und stelle sicher das in 'SCP Servername' nichts eingetragen ist.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/8qfKZGDQrfCQbpb/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/FQmQTEN3K5mArqb/preview)
 
 Wenn du sichergestellt hast das kein Name eingetragen ist, öffnen nun die 'Configs' deines Gameservers. Welche sich einen Menüpunkt unterhalb befinden.
 
 Öffne nun die config_gameplay.txt in dem du auf den blauen Button klickst.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/EX6ZY8H65o4cYfP/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/Dto4p58yaS7LMPx/preview)
 
 Die Config-Datei öffnet sich nun, bei server_name kann nun mit [RichText](https://docs.unity3d.com/Packages/com.unity.ugui@1.0/manual/StyledText.html) verschiedene Farben definiert werden.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/A6MfRrAm9JkfyRD/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/bYxXEmDNJHdeszt/preview)
 
 In diesem Beispiel möchte ich dass "Grüner Text", "Blauer Text" und "Roter Text" in der jeweiligen Farbe angezeigt wird.
 
