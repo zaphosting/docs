@@ -15,7 +15,7 @@ After setting the password we can start the server, it may take a few minutes un
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/rask2nLSCZCXtgS/preview)
 
-## Direct Connect using Valheim
+## 📶 Direct Connect using Valheim
 
 First we copy the IP from the server from the Webinterface:
 
@@ -35,7 +35,7 @@ Here we add our server IP:
 We can now connect directly to the server via the "Connect" button.
 
 
-## Direct Connect using Steam
+## 📶 Direct Connect using Steam
 
 First we copy the IP from the server from the Webinterface:
 
@@ -61,7 +61,7 @@ After adding this, we should now see our server in the server list:
 Now we can connect directly to the server via the "Connect" button.
 
 
-## Connect using the Server List
+## 📶 Connect using the Server List
 First we open Valheim and click on `Start Game`, if you do not have a Character yet, one has to be created now, then we will click on `Start`
 
 
