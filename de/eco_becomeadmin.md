@@ -7,7 +7,7 @@ sidebar_label: Admin werden
 ---
 
 
-## Admin werden
+## 🔑 Admin werden
 
 Mit Administrator-Rechten kannst du direkt im Spiel Änderungen im Live Zustand an deinem Server vornehmen, ohne diese in der Config vorzunehmen. Das hinzufügen eines Admins erfolgt über die **Users.eco** Config, welche du im Interface unter Configs findest.
 
@@ -74,7 +74,7 @@ Im folgenden findest du eine Übersicht von häufig verwendeten Admin Befehlen d
 
 
 
-## Häufig verwendete Befehle
+## ⌨️ Häufig verwendete Befehle
 
 |               Befehl               |                    Beschreibung                    |
 | :--------------------------------: | :------------------------------------------------: |

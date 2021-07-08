@@ -6,7 +6,7 @@ sidebar_label: Become Admin
 ---
 
 
-## Become Admin
+## 🔑 Become Admin
 
 Administrator rights allow you to make changes directly in the game on your server without having to change it in the Config. Adding an admin is done via the **Users.eco** Config, which you can find in the interface under Configs.
 
@@ -73,7 +73,7 @@ In the following you will find an overview of common used admin commands that yo
 
 
 
-## Common used commands
+## ⌨️ Common used commands
 
 |              Commands              |                      Description                       |
 | :--------------------------------: | :----------------------------------------------------: |
