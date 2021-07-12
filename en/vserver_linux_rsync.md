@@ -67,7 +67,7 @@ rsync -arz --delete /home/Client /home/Backup
 
 ## Step 3️⃣
 
-So that the command does not always have to be executed manually, it can simply be placed in a cronjob. 
+So that the command does not always have to be d manually, it can simply be placed in a cronjob. 
 For example, a backup should be created daily at 3 am: 
 
 Open crontab -e: 
