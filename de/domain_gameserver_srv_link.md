@@ -57,10 +57,10 @@ Insofern du die Hauptdomain verwenden möchtest UND der Zielserver den Standardp
 ### Minecraft + Fivem
 Du kannst in deiner Domain Verwaltung auf **Neuer Eintrag** klicken und landest dann in der Erstellung für einen neuen DNS Eintrag.
 Als **Name** wählen wir hier den Namen der Domain, als Beispiel **minecraft-server.de**, der **Typ ist A** und der **Wert** entspricht der
-IP deines Gameservers, in diesem Fall **88.214.57.116**.
+IP deines Gameservers.
 Das Feld **TTL** kannst du unberührt lassen.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/iCX7mJScBTZSqQe/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/3o9kyP6n4pCnjes/preview)
 
 Wenn du alles eingetragen hast, klickst du auf **Speichern**, der Eintrag wird dann in den DNS Einstellungen hinterlegt und wird innerhalb
 von 24 Stunden erreichbar. Somit kannst du dich dann im Anschluss mit der Domain "minecraft-server.de" mit deinem Fivem Server bzw Minecraft Server verbinden!
@@ -75,7 +75,7 @@ Willst du eine Subdomain, also zum Beispiel lobby.minecraft-server.de erstellen,
 gibst jedoch bei **Name** nicht den Namen der Domain, sondern der Subdomain an.
 Das sieht so aus:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/NzmLzAJkgcaZpqa/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/SxCwS7X55ebGXzz/preview)
 
 Auch hier nach dem eintragen auf **Speichern** klicken.
 Es kann dann **bis** zu 24 Stunden dauern bis dieser global übernommen wurde.
@@ -91,7 +91,7 @@ Der Name der Subdomain spielt dabei überhaupt keine Rolle.
 In unserem Beispiel heißt unsere Subdomain "SRV".
 Das sieht dann so aus:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/DXTB2MtjC8FcgqE/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/TPaAFspNJaTL5Rz/preview)
 
 Im Anschluss muss ein weiterer Record erstellt werden. In diesem Fall nun der besagte reine SRV Eintrag.
 Hierbei unterscheiden wir aber nun zwischen Fivem und Minecraft.
@@ -111,14 +111,9 @@ Das Feld **Typ** gibt an um welche Art von Eintrag es sich handelt, in diesem Fa
 Das Feld **Wert** enthält den Port vom Server sowie die Subdomain welche du anfangs erstellt hast und welche auf die IP vom Server verweist. Also in diesem Fall **0 2132 srv.minecraft-server.de**, wobei **2132** der **Port des Spiels** ist und **srv.minecraft-server.de** die Domain zu welcher die Weiterleitung erfolgt.
 In unserem Beispiel würde das so aussehen:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/TjAcNMW4jRMFema/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/E3WsebFZE9pgo5c/preview)
  
 Der Wert **0** ist nicht weiter relevant und bleibt immer gleich. Das Feld **TTL** sowie **Prio** lässt du ebenfalls unberührt.
-
-Der fertige komplette SRV Eintrag sieht wie folgt aus:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/34ByFQMrs3YKkzT/preview)
-
 Danach kannst du auf **Speichern** klicken.
 
 > Wichtig ist, dass im Feld **Wert** am Ende der Domain ein **Punkt** gesetzt wird!
@@ -129,22 +124,15 @@ Auch hier erstellen wir einen neuen Eintrag, indem wir auf **Neuer Eintrag** kli
 Hier arbeiten wir uns nun auch Zeile für Zeile durch, um die Verknüpfung abzuschließen.
 
 Das Feld **Name** beinhaltet den Namen des Service's, was in diesem Fall unser Fivem Gameserver ist, also **_cfx**. Ebenso ist dort der Protokolltyp, in diesem Fall **_udp** so wie der **Domainname** anzugeben.
-Das würde dann wie folgt aussehen: 
-
-![](https://screensaver01.zap-hosting.com/index.php/s/jj5epyCGe5pDLsz/preview)
 
 Das Feld **Typ** gibt an um welche Art von Eintrag es sich handelt, in diesem Fall ist es ein **SRV** Eintrag.
 
 Das Feld **Wert** enthält den Port vom Server sowie die Subdomain welche du anfangs erstellt hast und welche auf die IP vom Server verweist. Also in diesem Fall **0 33121 srv.fivem-server.de**, wobei **33121** der **Port vom Fivem Server** ist und **srv.fivem-server.de** die Domain zu welcher die Weiterleitung erfolgt.
 In unserem Beispiel würde das so aussehen:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/nHoMS5FkXmCWYGQ/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/CZTkbtWGLjb7Y8G/preview)
  
 Der Wert **0** ist nicht weiter relevant und bleibt immer gleich. Das Feld **TTL** sowie **Prio** lässt du ebenfalls unberührt.
-
-Der fertige komplette SRV Eintrag sieht wie folgt aus:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/GaJ4H3afityAked/preview)
 
 Danach kannst du auf **Speichern** klicken.
 
