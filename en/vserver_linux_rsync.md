@@ -22,7 +22,7 @@ Rsync can be installed with the following command:
 ```
 apt install rsync
 ```
-![](https://screensaver01.zap-hosting.com/index.php/s/qJNwcR8yTnXHAbx/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/BKRnHd8MQY2eDnT/preview)
 
 After it has been installed, it can be used directly. 
 
@@ -32,7 +32,7 @@ After it has been installed, it can be used directly.
 
 In this example, the Client folder under /home should be synchronized to the Backups folder under /home. 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/3QoJJacxBLrj6px/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/37i9DT9mXCd8JB5)
 
 This can be done with the following command: 
 
@@ -45,7 +45,7 @@ rsync -arz /home/Client /home/Backup
 <br>
 -z=Compression, depending on data quantity/data size is compressed 
 
-The folder was not synchronized successfully 
+The folder was  synchronized successfully 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/mcHas3pPoDGrrHk/preview)
 
@@ -170,7 +170,7 @@ A crontab can be created with this [Generator](https://crontab-generator.org/).
 
 The entered crontab then looks as follows: 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/sqFdc6wyqkGAgZL/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/x3kKAXMxYYKHWqR/preview)
 
 Every day at 3 a.m. the command is executed and a backup is created. 
 
