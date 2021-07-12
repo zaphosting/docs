@@ -62,7 +62,7 @@ As **Name** we select the name of the domain, for example **minecraft-server.de*
 IP of your game server, in this case **88.214.57.116**.
 You can leave the **TTL** field untouched.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/iCX7mJScBTZSqQe/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/3o9kyP6n4pCnjes/preview)
 
 When you have entered everything, click on **Save**, the entry will then be stored in the DNS settings and will be accessible within 24 hours.
 within 24 hours. You can then connect to your Fivem server or Minecraft server with the domain "minecraft-server.de"!
@@ -77,7 +77,7 @@ If you want to create a subdomain, for example lobby.minecraft-server.de, you do
 but do not enter the name of the domain in **Name**, but the name of the subdomain.
 This looks like this:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/NzmLzAJkgcaZpqa/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/SxCwS7X55ebGXzz/preview)
 
 Click on **Save** after entering the data.
 It can then take up to 24 hours until this has been globally adopted.
@@ -93,7 +93,7 @@ The name of the subdomain does not matter at all.
 In our example, our subdomain is called "SRV".
 It looks like this:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/DXTB2MtjC8FcgqE/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/TPaAFspNJaTL5Rz/preview)
 
 Subsequently, another record must be created. In this case, the aforementioned pure SRV entry.
 Here we distinguish between Fivem and Minecraft.
@@ -104,23 +104,15 @@ Click on **New entry** in your domain administration again.
 Here we work through line by line to complete the link.
 
 The **Name** field contains the name of the service, which in this case is our Minecraft game server, i.e. **_minecraft**. Also the protocol type, in this case **_tcp** as well as the **domain name** is to be entered there.
-This would then look like this: 
-
-![](https://screensaver01.zap-hosting.com/index.php/s/MPtWqE3WHkYBKGr/preview)
 
 The **Type** field indicates what type of entry it is, in this case it is a **SRV** entry.
 
 The **Value** field contains the port of the server as well as the subdomain that you initially created and which points to the IP of the server. So in this case **0 2132 srv.minecraft-server.de**, where **2132** is the **port of the game** and **srv.minecraft-server.de** is the domain to which the redirection is made.
 In our example, it would look like this:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/TjAcNMW4jRMFema/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/E3WsebFZE9pgo5c/preview)
  
 The value **0** is not relevant and always remains the same. You also leave the field **TTL** and **Prio** untouched.
-
-The completed full SRV entry looks like this:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/34ByFQMrs3YKkzT/preview)
-
 Then you can click on **Save**.
 
 > It is important that a **dot** is set in the **value** field at the end of the domain!
@@ -131,23 +123,15 @@ Here, too, we create a new entry by clicking on **New Entry**.
 Here we also work through line by line to complete the link.
 
 The **Name** field contains the name of the service, which in this case is our Fivem game server, i.e. **_cfx**. The protocol type, in this case **_udp**, as well as the **domain name** must also be entered there.
-This would then look like this: 
-
-![](https://screensaver01.zap-hosting.com/index.php/s/jj5epyCGe5pDLsz/preview)
 
 The **Type** field indicates what type of entry it is, in this case it is a **SRV** entry.
 
 The **Value** field contains the port of the server as well as the subdomain you initially created and which points to the IP of the server. So in this case **0 33121 srv.fivem-server.com**, where **33121** is the **port from the Fivem server** and **srv.fivem-server.com** is the domain to which the redirection is made.
 In our example, it would look like this:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/nHoMS5FkXmCWYGQ/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/CZTkbtWGLjb7Y8G/preview)
  
 The value **0** is not relevant and always remains the same. The field **TTL** and **Prio** are also left untouched.
-
-The complete SRV entry looks as follows:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/GaJ4H3afityAked/preview)
-
 Then you can click on **Save**.
 
 > It is important that a **dot** is set in the **value** field at the end of the domain!
@@ -168,23 +152,15 @@ You create a new entry by clicking on **New entry**.
 Here we go through the possible fields one by one.
 
 The **Name** field contains the name of the service, which in this case is our Minecraft game server, i.e. **_minecraft**. The protocol type, in this case **_tcp**, as well as the **domain name WITH the initially created subdomain** must also be entered there.
-This would then look like this: 
-
-![](https://screensaver01.zap-hosting.com/index.php/s/nLMqFxsAAabd8wT/preview)
 
 The **Type** field indicates what type of entry it is, in this case it is a **SRV** entry.
 
 The **Value** field contains the port of the server as well as the subdomain you initially created and which points to the IP of the server. So in this case **0 2132 docs.minecraft-server.com**, where **2132** is the **port of the game** and **docs.minecraft-server.com** is the domain to which the redirection is made.
 In our example, it would look like this:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/gm6bKkPGSEX7osx/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/62qeENaA3B2nDzY/preview)
  
 The value **0** is not relevant and always remains the same. The field **TTL** and **Prio** are also left untouched.
-
-The complete SRV entry looks as follows:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/DFjAbKwLoZCtgpS/preview)
-
 Then you can click on **Save**.
 
 > It is important that a **dot** is set in the **value** field at the end of the domain!
@@ -204,14 +180,9 @@ The **Type** field indicates what type of entry it is, in this case it is a **SR
 The **Value** field contains the port of the server as well as the subdomain you initially created and which points to the IP of the server. So in this case **0 33121 docs.fivem-server.com**, where **33121** is the **port from the Fivem server** and **docs.fivem-server.com** is the domain to which the redirection is made.
 In our example, it would look like this:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/4mot7XSbMGZw7Pa/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/ZWMF6QZabnAGBR3/preview)
  
 The value **0** is not relevant and always remains the same. You also leave the field **TTL** and **Prio** untouched.
-
-The completed full SRV entry looks like this:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/s8WskQR22GXAiCH/preview)
-
 Then you can click on **Save**.
 
 > It is important that a **dot** is set in the **value** field at the end of the domain!
