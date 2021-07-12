@@ -10,20 +10,20 @@ sidebar_label: Voicebot Connection
 
 To connect your voice bot to your TeamSpeak 3 server, you have to call it up in the control panel. Then, you will go to the **TeamSpeak Server** on the left as shown below:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/bL6Sbwk9H5qxcKp/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/rsoqGiWjXiQjLzQ/preview)
 
 Now you can select a TeamSpeak under **TeamSpeak Server** if this has also been booked with your account. If this is hosted externally, you can select **Custom Teamspeak Server** there as well.
 
 The data can then be entered below, then just save and the voice bot connects to your TeamSpeak 3 server, here is an example:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/yaDmEkLHPcP3DBP/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/TGXjWkH3RcWGddb/preview)
 
 
 ## 🎧 Connecting the bot to your Discord
 
 To connect your voice bot to your Discord, you have to go to **TeamSpeak Server*, then under **TeamSpeak Server** you will have to select **Discord**.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/TqtZiW4SwWLsRSM/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/664nnAaCfYT2iCx/preview)
 
 The **Discord Bot Token** and **Discord Bot Client ID** must then be entered. Then, the voice bot connects to your Discord server.
 
