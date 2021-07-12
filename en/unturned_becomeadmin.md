@@ -39,6 +39,6 @@ For adding an Administrator, the "owner" is simply replaced by "admin".
 
 `admin Steam64IDReplacedHere //<-- Must be replaced with your own Steam64-ID`
 
-![](https://screensaver01.zap-hosting.com/index.php/s/7b3XFY2FjNcq4L8/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/yTrsyyS35jFPMbq/preview)
 
 After all ranks have been assigned in the config, the config can be saved with a click on "Save". The server can now be restarted and all players entered in the config receive their rank automatically.
