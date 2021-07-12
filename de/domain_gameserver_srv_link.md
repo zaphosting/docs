@@ -102,9 +102,6 @@ Klicke in deiner Domain Verwaltung erneut auf **Neuer Eintrag**.
 Hier arbeiten wir uns nun Zeile für Zeile durch um die Verknüpfung abzuschließen.
 
 Das Feld **Name** beinhaltet den Namen des Service's, was in diesem Fall unser Minecraft Gameserver ist, also **_minecraft**. Ebenso ist dort der Protokolltyp, in diesem Fall **_tcp** so wie der **Domainname** anzugeben.
-Das würde dann wie folgt aussehen: 
-
-![](https://screensaver01.zap-hosting.com/index.php/s/MPtWqE3WHkYBKGr/preview)
 
 Das Feld **Typ** gibt an um welche Art von Eintrag es sich handelt, in diesem Fall ist es ein **SRV** Eintrag.
 
@@ -142,9 +139,6 @@ Danach kannst du auf **Speichern** klicken.
 
 Mit einer Subdomain verhält es sich fast genau so. Du erstellst zuerst wie oben beschrieben eine Subdomain und leitest diese auf die IP Adresse deines Gameservers weiter. 
 Beispielsweise "docs.fivem-server.de" bzw "docs.minecraft-server.de".
-Das würde dann so aussehen:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/dKpXBQgQG7frCfR/preview)
 
 Nun differenzieren wir erneut zwischen FiveM und zwischen Minecraft. Allerdings ist die Prozedur bei beiden 1:1 identisch.
 
@@ -154,23 +148,15 @@ Du erstellst einen neuen Eintrag indem du auf **Neuer Eintrag** klickst.
 Hier gehen wir nun nach und nach die möglichen Felder durch.
 
 Das Feld **Name** beinhaltet den Namen des Service's, was in diesem Fall unser Minecraft Gameserver ist, also **_minecraft**. Ebenso ist dort der Protokolltyp, in diesem Fall **_tcp** so wie der **Domainname MIT der anfangs erstellten Subdomain** anzugeben.
-Das würde dann wie folgt aussehen: 
-
-![](https://screensaver01.zap-hosting.com/index.php/s/nLMqFxsAAabd8wT/preview)
 
 Das Feld **Typ** gibt an um welche Art von Eintrag es sich handelt, in diesem Fall ist es ein **SRV** Eintrag.
 
 Das Feld **Wert** enthält den Port vom Server sowie die Subdomain welche du anfangs erstellt hast und welche auf die IP vom Server verweist. Also in diesem Fall **0 2132 docs.minecraft-server.de**, wobei **2132** der **Port des Spiels** ist und **docs.minecraft-server.de** die Domain zu welcher die Weiterleitung erfolgt.
 In unserem Beispiel würde das so aussehen:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/gm6bKkPGSEX7osx/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/62qeENaA3B2nDzY/preview)
  
 Der Wert **0** ist nicht weiter relevant und bleibt immer gleich. Das Feld **TTL** sowie **Prio** lässt du ebenfalls unberührt.
-
-Der fertige komplette SRV Eintrag sieht wie folgt aus:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/DFjAbKwLoZCtgpS/preview)
-
 Danach kannst du auf **Speichern** klicken.
 
 > Wichtig ist, dass im Feld **Wert** am Ende der Domain ein **Punkt** gesetzt wird!
@@ -181,23 +167,15 @@ Auch hier erstellen wir einen neuen Eintrag, indem wir auf **Neuer Eintrag** kli
 Hier arbeiten wir uns nun auch Zeile für Zeile durch, um die Verknüpfung abzuschließen.
 
 Das Feld **Name** beinhaltet den Namen des Service's, was in diesem Fall unser Fivem Gameserver ist, also **_cfx**. Ebenso ist dort der Protokolltyp, in diesem Fall **_udp** so wie der **Domainname MIT Subdomain** anzugeben.
-Das würde dann wie folgt aussehen: 
-
-![](https://screensaver01.zap-hosting.com/index.php/s/gxkLiFmB9g4HfBL/preview)
 
 Das Feld **Typ** gibt an um welche Art von Eintrag es sich handelt, in diesem Fall ist es ein **SRV** Eintrag.
 
 Das Feld **Wert** enthält den Port vom Server sowie die Subdomain welche du anfangs erstellt hast und welche auf die IP vom Server verweist. Also in diesem Fall **0 33121 docs.fivem-server.de**, wobei **33121** der **Port vom Fivem Server** ist und **docs.fivem-server.de** die Domain zu welcher die Weiterleitung erfolgt.
 In unserem Beispiel würde das so aussehen:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/4mot7XSbMGZw7Pa/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/ZWMF6QZabnAGBR3/preview)
  
 Der Wert **0** ist nicht weiter relevant und bleibt immer gleich. Das Feld **TTL** sowie **Prio** lässt du ebenfalls unberührt.
-
-Der fertige komplette SRV Eintrag sieht wie folgt aus:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/s8WskQR22GXAiCH/preview)
-
 Danach kannst du auf **Speichern** klicken.
 
 > Wichtig ist, dass im Feld **Wert** am Ende der Domain ein **Punkt** gesetzt wird!
