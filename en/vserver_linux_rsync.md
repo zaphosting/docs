@@ -160,7 +160,7 @@ For example, a backup should be created daily at 3 am:
 
 Open crontab -e:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/GsPeM9xpWYbnWdZ/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/3xpJKHSf9ZEdrBs/preview)
 
 With the number 1 "nano" can be used as an editor.
 With the number 2, "vim" can be used as an editor.  
@@ -170,7 +170,7 @@ A crontab can be created with this [Generator](https://crontab-generator.org/).
 
 The entered crontab then looks as follows: 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/x3kKAXMxYYKHWqR/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/xJXMjqGeWce4jDw/preview)
 
 Every day at 3 a.m. the command is executed and a backup is created. 
 
