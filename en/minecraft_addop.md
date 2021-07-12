@@ -41,10 +41,10 @@ In order to adjust the level of a player, he must first be appointed as an Opera
 
 As soon as the connection to the server has been established via FTP, you have to navigate to the respective directory of the server. Now in our case at FileZilla you have to right-click on the file and click on "View/Edit" in the menu that appears.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/bjiB4dscHbZE7aC/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/WKrXtq7GweMFc8w/preview)
 
 Now the value of "level" must be set to the desired level for the desired player, whereupon the file must be saved with **STRG+S**.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/qAfF8N9XLHR79HJ/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/9RsLFQqCEGbsXcM/preview)
 
 In order for the changes to take effect, the server must be restarted, which is possible by holding the red Stop button in the server interface.
