@@ -22,7 +22,7 @@ Rsync kann mit folgendem Befehl installiert werden:
 ```
 apt install rsync
 ```
-![](https://screensaver01.zap-hosting.com/index.php/s/qJNwcR8yTnXHAbx/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/BKRnHd8MQY2eDnT/preview)
 
 Nachdem es installiert wurde, kann es direkt genutzt werden. 
 
@@ -32,7 +32,7 @@ Nachdem es installiert wurde, kann es direkt genutzt werden.
 
 In diesem Beispiel soll der Ordner "Client" unter /home in den Ordner "Backups" unter /home syncronsiert werden. 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/3QoJJacxBLrj6px/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/37i9DT9mXCd8JB5)
 
 Das kann mit folgendem Befehl gemacht werden: 
 
@@ -47,7 +47,6 @@ rsync -arz /home/Client /home/Backup
 
 Der Ordner wurde erfolgreicht syncronisiert 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/mcHas3pPoDGrrHk/preview)
 
 Wenn jetzt eine Datei etc. im Client Ordner gelöscht wird, so verbleibt sie weiterhin im Backup Ordner. 
 Da die Date aber immer 1:1 syncron sein sollen, kann der rsync Befehl leicht abgeändert werden, diese Änderung sorgt dann dafür das Daten etc. die im Client Ordner nicht mehr vorhanden sind auch im Backup Ordner entfernt werden. 
@@ -157,7 +156,7 @@ Es soll z.b täglich um 3 Uhr Morgens ein Backup erstellt werden:
 
 Crontab -e öffnen: 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/GsPeM9xpWYbnWdZ/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/3xpJKHSf9ZEdrBs)
 
 Mit der Ziffer 1 kann "nano" als Editor genutzt werden.
 Mit der Ziffer 2 kann "vim" als Editor genutzt werden. 
@@ -167,7 +166,7 @@ Ein Crontab kann z.b mit diesem [Generator](https://crontab-generator.org/) erst
 
 Der eingetragene Crontab sieht dann wie folgt aus: 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/sqFdc6wyqkGAgZL/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/xJXMjqGeWce4jDw/preview)
 
 Jeden Tag um 3 Uhr morgens wird der Befehl ausgeführt und es wird ein Backup erstellt. 
 
