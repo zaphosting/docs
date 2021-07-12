@@ -41,10 +41,10 @@ Um das Level eines Spielers anzupassen, muss dieser zuerst zum Operator ernannt 
 
 Sobald die Verbindung zum Server mittels FTP hergestellt worden ist, muss in das jeweilige Verzeichnis des Servers navigiert werden. Nun muss in unserem Fall bei FileZilla ein Rechtsklick auf die Datei gemacht werden und in dem erschienenen Menü auf "Ansehen/Bearbeiten" geklickt werden.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/bjiB4dscHbZE7aC/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/6c7rCgRmRzaw6K3/preview)
 
 Nun muss bei dem gewünschten Spieler der Wert von "level" auf das gewünschte Level gesetzt werden, worauf die Datei mit **STRG+S** gespeichert werden muss.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/qAfF8N9XLHR79HJ/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/9RsLFQqCEGbsXcM/preview)
 
 Damit die Änderungen übernommen werden, ist ein Neustart des Servers nötig, was mit dem Halten des roten Stop-Buttons im Interface des Servers möglich ist.
