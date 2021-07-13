@@ -16,17 +16,19 @@ Es soll zum Beispiel über die Domain beispiel-example.de/discord eine Weiterlei
 ### Schritt 1️⃣
 Anlegen des Unterverzeichnis "discord" auf dem Webspace/Webserver: 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/zqQ7pbXdBAbiZt4/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/cCZpFNcKobjWbEB/preview)
 
 ### Schritt 2️⃣
 Anlegen der ".htaccess" Datei auf dem Webspace/Webserver: 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/JXN57oAZTeCTe8j/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/rBYgLioT9scsG5X/preview)
+
+![](https://screensaver01.zap-hosting.com/index.php/s/5BWYXLDWC4b4cBG/preview)
 
 ### Schritt 3️⃣
 Erstellen der Weiterleitungsregel in der ".htaccess" Datei:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/Ame6nxmBdgNNM2d/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/xnRs7j3ocDDMcC2/preview)
 
 Wichtig bei der Weiterleitungsregel ist das die ursprüngliche Domain durch eine andere "getauscht" bzw. weitergeleitet wird. 
 Es muss also in der Weiterleitungsregel "beispiel-example.de" durch die eigene Domain ersetzt werden und "https://discord.gg/A6e4jyg" durch die eigene Discord Server Adresse. 
