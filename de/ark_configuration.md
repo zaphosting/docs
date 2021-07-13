@@ -10,7 +10,7 @@ sidebar_label: Server Konfiguration
 
 Die Konfiguration eines **ARK Gameservers** mag bei dem einen oder anderen für Verwirrung und Ratlosigkeit sorgen. Allerdings geschieht das nicht ohne Grund. ARK bietet bei seinem Spiel sehr viele Konfigurationsmöglichkeiten an. Dazu kommt noch, dass die Konfiguration über verschiedene Konfigurationsdateien stattfindet, bei denen ebenfalls aufgepasst werden muss, in welche Datei welche Befehle gehören. In dieser Anleitung versuchen wir dir einen besseren Überblick über die Funktionsweise der Konfiguration eines ARK Gameservers zu vermitteln. 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/JZdXAsJb35ZwFaS/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/spRsSB68DxX3R9G/preview)
 
 
 
@@ -56,7 +56,7 @@ Trage dafür den Befehlsname der Map einfach in das Feld **Karte / Map** ein und
 
 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/zDWttYqaJ7LRRXD/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/R2LpZngQS8LcJ29/preview)
 
 
 
