@@ -16,17 +16,19 @@ For example, the domain example-example.de/discord should enable a forwarding to
 ### Step 1️⃣
 Create the subdirectory "discord" on the web space/web server: 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/zqQ7pbXdBAbiZt4/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/cJ3r2cfsxPYCBaw/preview)
 
 ### Step 2️⃣
 Creating the ".htaccess" file on the web space/web server:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/JXN57oAZTeCTe8j/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/WCcbLypdPzMd46c/preview)
+
+![](https://screensaver01.zap-hosting.com/index.php/s/FYs7j2anyqBNxak/preview)
 
 ### Step 3️⃣
 Create the forwarding rule in the ".htaccess" file:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/Ame6nxmBdgNNM2d/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/xnRs7j3ocDDMcC2/preview)
 
 Important with the forwarding rule is that the original domain is "exchanged" for another one. 
 So in the forwarding rule "example-example.de" has to be replaced by the own domain and "https://discord.gg/A6e4jyg" by the own discord server address. 
