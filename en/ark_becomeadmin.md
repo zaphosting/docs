@@ -13,7 +13,7 @@ Administrator rights allow you to make changes directly in the game on your serv
 
 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/PHmtWF8BRnpSMzH/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/eA86ZaG66nFwCen/preview)
 
 
 
@@ -21,7 +21,7 @@ In the Config we look for the **ServerAdminPassword=** command and define the pa
 
 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/8QxkctxsCSAEAXK/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/GWkyAcnLpJdLbTW/preview)
 
 
 
