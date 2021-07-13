@@ -9,11 +9,11 @@ sidebar_label: Mods Installieren
 
 Bevor mods installiert werden können, muss der [FTP-Zugang](gameserver_ftpaccess.md) eingerichtet werden:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/spb2ZfNNS9e5Dia/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/4Zfnp7Mo8CHdr77/preview)
 
 Nachdem dieser eingerichtet wurde, kann sich nun verbunden werden und der Server Ordner geöffnet werden:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/8E55mdBx8YydG8g/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/SAW5bnPjCpGDE8P/preview)
 
 
 ## Vorbereitung

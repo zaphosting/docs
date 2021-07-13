@@ -12,13 +12,13 @@ Mit Administrator-Rechten kannst du direkt im Spiel Änderungen im Live Zustand 
 
 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/wgnZ4Ao6xwg5nsy/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/BXYxkpXripSncSP/preview)
 
 
 
 In der Config angekommen suchen wir den **ServerAdminPassword=** Befehl und definieren dahinter das Passwort. Das ganze sieht dann folgendermaßen aus:
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/CjEsDJdmoGKXkzq/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/NnYKepAYRGBfMCe/preview)
 
 
 
