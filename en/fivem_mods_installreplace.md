@@ -14,7 +14,7 @@ Now create a folder for your mods in the "resources" folder.
 
 > You can name the folder anything as long as it does not contain any special characters. In our example it is "assets".
 
-![](https://screensaver01.zap-hosting.com/index.php/s/4ezY3AMxCR889YA/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/WmLim2HXFtwkMHn/preview)
 
 Now create a __resource.lua file in your freshly created "assets" folder
 
@@ -28,7 +28,7 @@ Then the __resource.lua can be saved and closed, we no longer need it.
 
 In your assets folder you now create a "stream" folder.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/Xm2R8zyB3cFkgdz/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/jkLQoW7Qp8a25pp/preview)
 
 ## Upload Mods
 
@@ -42,6 +42,6 @@ After all the mods have been uploaded, all you have to do is enter your resource
 
 You can open this with any text editor, under the "start" entries you can now enter your resource as follows:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/H6Y5SHHKqeMPoLo/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/gaxNFGXXRopkHS5/preview)
 
 Finished! After a server restart, the Carmod should now be found on the server!
