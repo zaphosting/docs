@@ -115,13 +115,8 @@ RemoteHost(root@123.123.123.123:)= Login Name of the user on the RemoteHost and 
 <br>
 Target directory for the data on the RemoteHost(:/home/Backup/Home-Server1/)= :/<Path to target directory>
 
-Execute the command: 
-
-![](https://screensaver01.zap-hosting.com/index.php/s/n3YMZgEWXrJsDct/preview)
-
-The folder/files have been successfully synchronized/saved to the remote directory: 
-
-![](https://screensaver01.zap-hosting.com/index.php/s/BDNcNnwiENZR9bc/preview)
+The folder/files have been successfully synchronized/saved to the remote directory after executing the command.
+  
 
 If a file etc. is deleted in the client folder, it will remain in the backup folder on the remote host. 
 But since the files should always be 1:1 synchronous, the rsync command can easily be modified to remove data etc. that is no longer present in the client folder from the backup folder on the remote host. 
@@ -156,17 +151,11 @@ For example, a backup should be created daily at 3 am:
 
 Open crontab -e:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/GsPeM9xpWYbnWdZ/preview)
-
 With the number 1 "nano" can be used as an editor.
 With the number 2, "vim" can be used as an editor.  
 
 After the file has been opened with e.g. Nano, a crontab can be generated and entered. 
 A crontab can be created with this [Generator](https://crontab-generator.org/). 
-
-The entered crontab then looks as follows: 
-
-![](https://screensaver01.zap-hosting.com/index.php/s/sqFdc6wyqkGAgZL/preview)
 
 Every day at 3 a.m. the command is executed and a backup is created. 
 
