@@ -7,13 +7,9 @@ sidebar_label: Change Money Icon
 
 ## Connect with FTP
 
-First, the [FTP-Access](gameserver_ftpaccess.md) must be set up:
+First, the [FTP-Access](gameserver_ftpaccess.md) must be set up.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/QAyH2tdjj7cNrwC/preview)
-
-After this has been set up, you can now connect and open the server folder:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/QoXf3iSZirN7Ndy/preview)
+After this has been set up, you can now connect and open the server folder.
 
 Here we open the following path: `gta5-fivem/server-data/resources/vrp/cfg/money.lua`
 

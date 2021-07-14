@@ -22,7 +22,7 @@ Rsync kann mit folgendem Befehl installiert werden:
 ```
 apt install rsync
 ```
-![](https://screensaver01.zap-hosting.com/index.php/s/qJNwcR8yTnXHAbx/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/Mxpp8w5ykzosdXc/preview)
 
 Nachdem es installiert wurde, kann es direkt genutzt werden. 
 
@@ -31,8 +31,6 @@ Nachdem es installiert wurde, kann es direkt genutzt werden.
 ## Schritt 2️⃣
 
 In diesem Beispiel soll der Ordner "Client" unter /home in den Ordner "Backups" unter /home syncronsiert werden. 
-
-![](https://screensaver01.zap-hosting.com/index.php/s/3QoJJacxBLrj6px/preview)
 
 Das kann mit folgendem Befehl gemacht werden: 
 
@@ -47,7 +45,7 @@ rsync -arz /home/Client /home/Backup
 
 Der Ordner wurde erfolgreicht syncronisiert 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/mcHas3pPoDGrrHk/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/kB59A5TGRomsse8/preview)
 
 Wenn jetzt eine Datei etc. im Client Ordner gelöscht wird, so verbleibt sie weiterhin im Backup Ordner. 
 Da die Date aber immer 1:1 syncron sein sollen, kann der rsync Befehl leicht abgeändert werden, diese Änderung sorgt dann dafür das Daten etc. die im Client Ordner nicht mehr vorhanden sind auch im Backup Ordner entfernt werden. 
@@ -72,7 +70,7 @@ Es soll z.b täglich um 3 Uhr Morgens ein Backup erstellt werden:
 
 Crontab -e öffnen: 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/GsPeM9xpWYbnWdZ/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/jyiTa3jEts3MK4H/preview)
 
 Mit der Ziffer 1 kann "nano" als Editor genutzt werden.
 Mit der Ziffer 2 kann "vim" als Editor genutzt werden. 
@@ -82,7 +80,7 @@ Ein Crontab kann z.b mit diesem [Generator](https://crontab-generator.org/) erst
 
 Der eingetragene Crontab sieht dann wie folgt aus: 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/x3kKAXMxYYKHWqR/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/fLKbCcYAQkFydH4/preview)
 
 Jeden Tag um 3 Uhr morgens wird der Befehl ausgeführt und es wird ein Backup erstellt. 
 
@@ -95,8 +93,6 @@ In diesem Beispiel soll der Ordner "Client" unter /home in den Ordner "Backups" 
 >```
 >apt install rsync
 >````
-
-![](https://screensaver01.zap-hosting.com/index.php/s/84yY84CAJE83aHo/preview)
 
 Mit folgendem Befehl können z.b die Daten gesichert werden auf den Remote Host (Eigene Anpassung notwendig): 
 

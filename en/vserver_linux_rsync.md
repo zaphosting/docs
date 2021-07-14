@@ -22,7 +22,7 @@ Rsync can be installed with the following command:
 ```
 apt install rsync
 ```
-![](https://screensaver01.zap-hosting.com/index.php/s/qJNwcR8yTnXHAbx/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/Mxpp8w5ykzosdXc/preview)
 
 After it has been installed, it can be used directly. 
 
@@ -31,8 +31,6 @@ After it has been installed, it can be used directly.
 ## Step 2️⃣
 
 In this example, the Client folder under /home should be synchronized to the Backups folder under /home. 
-
-![](https://screensaver01.zap-hosting.com/index.php/s/3QoJJacxBLrj6px/preview)
 
 This can be done with the following command: 
 
@@ -45,9 +43,9 @@ rsync -arz /home/Client /home/Backup
 <br>
 -z=Compression, depending on data quantity/data size is compressed 
 
-The folder was not synchronized successfully 
+The folder was synchronized successfully 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/mcHas3pPoDGrrHk/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/kB59A5TGRomsse8/preview)
 
 If a file etc. in the client folder is deleted now, it will remain in the backup folder. 
 But since the files should always be 1:1 synchronous, the rsync command can easily be changed, this change will ensure that data etc. that are no longer present in the client folder are also removed from the backup folder. 
@@ -72,7 +70,7 @@ For example, a backup should be created daily at 3 am:
 
 Open crontab -e: 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/GsPeM9xpWYbnWdZ/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/jyiTa3jEts3MK4H/preview)
 
 With the number 1 "nano" can be used as an editor.
 With the number 2, "vim" can be used as an editor. 
@@ -82,7 +80,7 @@ A crontab can be created with this [Generator](https://crontab-generator.org/).
 
 The entered crontab then looks as follows: 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/x3kKAXMxYYKHWqR/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/fLKbCcYAQkFydH4/preview)
 
 Every day at 3 a.m. the command is executed and a backup is created. 
 
@@ -94,8 +92,6 @@ In this example, the Client folder under /home should be synchronized to the Bac
 >```
 >apt install rsync
 >````
-
-![](https://screensaver01.zap-hosting.com/index.php/s/84yY84CAJE83aHo/preview)
 
 For example, the following command can be used to back up the data to the remote host (customization required): 
 
@@ -119,13 +115,8 @@ RemoteHost(root@123.123.123.123:)= Login Name of the user on the RemoteHost and 
 <br>
 Target directory for the data on the RemoteHost(:/home/Backup/Home-Server1/)= :/<Path to target directory>
 
-Execute the command: 
-
-![](https://screensaver01.zap-hosting.com/index.php/s/n3YMZgEWXrJsDct/preview)
-
-The folder/files have been successfully synchronized/saved to the remote directory: 
-
-![](https://screensaver01.zap-hosting.com/index.php/s/BDNcNnwiENZR9bc/preview)
+The folder/files have been successfully synchronized/saved to the remote directory after executing the command.
+  
 
 If a file etc. is deleted in the client folder, it will remain in the backup folder on the remote host. 
 But since the files should always be 1:1 synchronous, the rsync command can easily be modified to remove data etc. that is no longer present in the client folder from the backup folder on the remote host. 
@@ -160,17 +151,11 @@ For example, a backup should be created daily at 3 am:
 
 Open crontab -e:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/GsPeM9xpWYbnWdZ/preview)
-
 With the number 1 "nano" can be used as an editor.
 With the number 2, "vim" can be used as an editor.  
 
 After the file has been opened with e.g. Nano, a crontab can be generated and entered. 
 A crontab can be created with this [Generator](https://crontab-generator.org/). 
-
-The entered crontab then looks as follows: 
-
-![](https://screensaver01.zap-hosting.com/index.php/s/sqFdc6wyqkGAgZL/preview)
 
 Every day at 3 a.m. the command is executed and a backup is created. 
 
