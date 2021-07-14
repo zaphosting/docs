@@ -52,7 +52,7 @@ To register an account at the forum you need a mailserver with an e-mail address
 
 If all steps of the preparation have been fulfilled, then you can start with the actual installation of WoltLab. For this, the installer file (**install.php**) of the forum software must now be called in the Internet browser, on our test webspace this is **https://zap65083-1.plesk06.zap-webspace.com/install.php**. This then looks like this: 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/PbSAPfaTJ68FKeC/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/34nRCqp4p2pGm94/preview)
 
 
 At the beginning you can choose which language the installation wizard should use. Select the language and click **Next**. Next, you have to agree to WoltLab's license terms for the use of the forum software. 
@@ -65,35 +65,34 @@ If any requirements are not met, please contact support. Otherwise you can just 
 
 Thereupon the installation path of the forum is determined, you should leave this normally unchanged. There you can click on **Next**:
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/wN3r3CMp93idrQY/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/5N4NMcxk7prZ5tz/preview)
 
 
 Afterwards you can select which languages the forum should support, both **German** and **English** are possible:
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/FPBRe92rezZxKHW/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/YskWZYKYRQojW3t/preview)
 
 
 Now the configuration of the database is pending, which was already created in advance. The database information from the created database must now be entered there: 
 
 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/yxZFATYeLJzYZA3/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/pRmpkE8YNfCM8pp/preview)
 
 
 
 The database will be configured afterwards. This may take a moment. Afterwards, an administrator account can be created, which can later be used for administration. 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/X46Qoc5TwaDENzF/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/Ny9otpLiw5Tem5S/preview)
 
 Afterwards the package installation starts, there we select the following free packages: 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/Z76HmkR6TNkxqKs/preview)
-![img](https://screensaver01.zap-hosting.com/index.php/s/WapwQ3nP5fc95Q8/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/Re3ayfttgqWsBfB/preview)
 
 Afterwards, the initial setup can be completed in the administration interface. Once there, information such as the title of the website, time zone, mail settings, license key, etc. can be entered. It is important that the correct e-mail information is stored so that mails can be sent successfully. The license key from Woltlab must also be entered there.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/By8wZ3JcZg2knyn/preview)
-![img](https://screensaver01.zap-hosting.com/index.php/s/Fafm4pSqAAcFKPE/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/WoB7fmxCAbC8Sfg/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/H3Y7gwZ9MqmBx9w/preview)
 
 > Woltlab is chargeable and can therefore only be used with a valid authentication code. 
 
