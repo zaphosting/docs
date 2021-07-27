@@ -50,15 +50,16 @@ Nun wechseln wir in das Tab "Entry List", hier können wir nun neue Autos hinzuf
 
 Hier gibst du nun deine FTP-Daten ein:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/FbLFSN5S4EffMto/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/oqXLoZBQJdSjxCL/preview)
 
 
-> **Achtung!** Im "Folder" muss die ID deines Gameservers angegeben werden, wie du sie in der URL deines Gameservers siehst
+> **Achtung!** Im "Folder" muss die ID deines Gameservers angegeben werden, wie du sie in der URL deines Gameservers siehst, z.b. 
+> https://zap-hosting.com/en/customer/gameserver/show/**300395**/ftpBrowser/
 
 In unserem Fall wäre das Ganze dann:
 
 ```
-/g300395/assettocorsa/
+/g300395/assetto-corsa/
 ```
 
 Danach kann auf "Upload Content" geklickt werden, die Config, Strecke und Autos, welche konfiguriert wurden, werden automatisch hochgeladen, danach brauchst du nur noch deinen Server starten!
