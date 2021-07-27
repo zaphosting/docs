@@ -5,18 +5,9 @@ descriptionen: Informationen, wie du das Inventar auf deinem FiveM-Server mit ES
 sidebar_label: Inventar (F2) Deaktivieren
 ---
 
-## Vorbereitung
-
-Zuerst gehen wir sicher das "Überschreiben Erzwingen" in den Resourcen Deaktiviert ist, damit unsere änderungen auch gespeichert werden:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/NXnmWJgJd8DW7Sf/preview)
-
-
 ## Mit FTP verbinden
 
-Bevor wir das Inventar Deaktivieren können, muss der [FTP-Zugang](gameserver_ftpaccess.md) eingerichtet werden:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/PkowAdzot9tjZeY/preview)
+Bevor wir das Inventar Deaktivieren können, muss der [FTP-Zugang](gameserver_ftpaccess.md) eingerichtet werden.
 
 Nachdem dieser eingerichtet wurde, kann sich nun verbunden werden und der Server Ordner geöffnet werden:
 
@@ -29,44 +20,18 @@ Nun öffnen wir den `server-data/resources/[esx]` Pfad, hier finden wie einen es
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/w4y7sPz5NmDD2Jw/preview)
 
-In diesem Ordner öffnen wir nun den `client` Ordner, und öffnen die `main.lua` Datei.
+In diesem Ordner öffnen wir nun die `config.lua` Datei.
 
 Nachdem wir diese Datei in einem Texteditor geöffnet haben, suchen wir nach folgendem Code:
 
 ```Lua
--- Menu interactions
-Citizen.CreateThread(function()
-	while true do
-		Citizen.Wait(0)
-
-		if IsControlJustReleased(0, 289) and IsInputDisabled(0) and not isDead and not ESX.UI.Menu.IsOpen('default', 'es_extended', 'inventory') then
-			ESX.ShowInventory()
-		end
-	end
-end)
+Config.EnableDefaultInventory   = true
 ```
 
-Hier ersetzen wir nun:
-
-`ESX.ShowInventory()`
-
-mit:
-
-`--ESX.ShowInventory()`
-
-Sodass unser Endresultat so aussieht:
+Das ersetzen wir nun hiermit:
 
 ```Lua
--- Menu interactions
-Citizen.CreateThread(function()
-	while true do
-		Citizen.Wait(0)
-
-		if IsControlJustReleased(0, 289) and IsInputDisabled(0) and not isDead and not ESX.UI.Menu.IsOpen('default', 'es_extended', 'inventory') then
-			--ESX.ShowInventory()
-		end
-	end
-end)
+Config.EnableDefaultInventory   = false
 ```
 
 
