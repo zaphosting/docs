@@ -16,15 +16,15 @@ Now create a folder for your mods in the "resources" folder.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/WmLim2HXFtwkMHn/preview)
 
-Now create a __resource.lua file in your freshly created "assets" folder
+Now create a fxmanifest.lua file in your freshly created "assets" folder
 
 The following text is now entered in this file:
 
 ```
-resource_manifest_version '77731fab-63ca-442c-a67b-abc70f28dfa5'
+fx_version 'cerulean'
 ```
 
-Then the __resource.lua can be saved and closed, we no longer need it.
+Then the fxmanifest.lua can be saved and closed, we no longer need it.
 
 In your assets folder you now create a "stream" folder.
 
