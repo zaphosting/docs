@@ -38,7 +38,7 @@ Now we just have to right-click on the download button and press "Copy link addr
 
 Here we can type in our own resource name and press "Add to queue":
 
-![](https://screensaver01.zap-hosting.com/index.php/s/s9d25qzttRQpWLD/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/o3GHM4E2mQByfLd/preview)
 
 
 If further mods are to be downloaded, they can simply be added in the same way, several carmods can be installed at the same time:
