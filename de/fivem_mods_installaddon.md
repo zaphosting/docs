@@ -6,132 +6,60 @@ sidebar_label: Addon Carmods Installieren
 ---
 
 ## Mit FTP Verbinden
+
 Zuerst solltest du dich über FTP auf deinen Server Verbinden, dazu kannst du unser [FTP-Tutorial](gameserver_ftpaccess.md) nutzen.
 
 ## Vorbereitung
 
-Wenn dein carmod eine "rpf" datei ist, müssen wir [OpenIV](https://openiv.com/) runterladen und installieren, damit diese datei geöffnet werden kann
+Für dieses Tutorial benutzen wir das [rpf2fivem](https://github.com/Avenze/rpf2fivem-repository/releases/latest) Tool, dies vereinfacht den Prozess um einiges, hierzu laden wir uns die "NConvert.zip" und "rpf2fivem.zip" Ordner von der "Releases" Sektion runter:
 
-Wenn alle meta und ytd/yft dateien schon verhanden sind, ist OpenIV nicht nötig.
+![](https://screensaver01.zap-hosting.com/index.php/s/HeFZebkMZQAK4Dw/preview)
 
-Nun erstellen wir einen Ordner unter "Resources" (zb: carmod, alle Arbeit wird in diesem Ordner gemacht), in unserem carmod ordner erstellen wir ebenfalls einen "stream" ordner und eine "__resource.lua" Datei
+Nun entpacken wir zuerst rpf2fivem in einen leeren Ordner:
 
-Die Lua Datei wird später noch mit Informationen Befüllt.
+![](https://screensaver01.zap-hosting.com/index.php/s/fNdbWdnDr44KofT/preview)
 
+Danach öffnen wir die NConvert Zipdatei und kopieren den "NConvert" Ordner in den gleichen Ordner:
 
-## Carmod Installieren
-Nun öffnen wir die Carmod Files, wenn es eine RPF ist benutzen wir dafür OpenIV, wir brauchen folgende ordner daraus:
-
-```
-data/
-common/data
-```
-
-Dateien in diesen Ordner und Unterordner sollten in deinen "carmod" ordner kopiert werden.
-
-![](https://screensaver01.zap-hosting.com/index.php/s/QB9DHkm9BHmixHs/preview)
-
-Kopiere ebenfalls die content.xml im hauptordner des carmods in deinen carmod Ordner.
-
-Öffne nun den x64 ordner.
+![](https://screensaver01.zap-hosting.com/index.php/s/cafFciLEeejdszm/preview)
 
 
-### Sprachvariablen Anlegen
-
-Wenn in x64 ein Ordner mit dem Namen data/ ist, Öffne diesen und öffne darin den lang/ Ordner
-
-Öffne eine Sprache, z.b. americandlc.rpf
-
-Nun rechtsklicken wir auf die global.gx2 und Klicken auf "Export to openFormat Text File"
-
-![](https://screensaver01.zap-hosting.com/index.php/s/zn8D9rciFoPSyj7/preview)
-
-Als ziel wählen wir ebenfalls unseren Carmod-Ordner aus.
-
-Nun erstellen wir eine "vehicle_names.lua" Datei im Carmod-Ordner und öffnen diese
-
-Dort fügen wir dann folgendes ein:
-
-```
-Citizen.CreateThread(function()
-AddTextEntry('0xC593CAF5', 'Nissan GT-R 35 Nismo 2015')
-AddTextEntry('0xC990C46A', 'Nissan GT-R 35 Nismo 2015')
-end)
-```
-
-Nun öffnen wir die "global.oxt" datei in dem Carmod Ordner mit einem Texteditor, dort sehen wir nun die Addresse & Namen, welchen wir in die Einträge oben einfügen müssen, in unserem fall so:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/qycjwbmiZpd6i5P/preview)
-
-Diese Fügen wir dann auch so in der Datei ein:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/mCGxMbx4yr77aMH/preview)
+Nun können wir die `rpf2fivem.exe` öffnen!
 
 
-Die Datei kann nun abgespeichert werden, nun öffnen wir die __resource.lua und fügen folgendes am ende ein:
+## Mods Runterladen
 
-```
-client_script 'vehicle_names.lua'
-```
+Um Mods über rpf2fivem zu installieren, müssen wir Direktlinks darin hinzufügen, z. B. von gta5-mods.com, hier suchen wir uns einfach den Carmod aus den wir haben möchten und klicken auf "Download".
 
-Die global.oxt Datei kann nun gelöscht werden, diese brauchen wir nicht mehr.
+Nun müssen wir einfach nur auf den Download Button Rechtsklicken und "Adresse des Links kopieren" drücken, diesen fügen wir dann links oben in rpf2fivem ein:
 
-### Meta-Daten Einstellen
+![](https://screensaver01.zap-hosting.com/index.php/s/a6qjRGsg2QT89A6/preview)
 
 
-Öffne nun den x64/levels/gta5/vehicles/vehicles.rpf Ordner und Kopiere alle daten darin in den "stream" ordner unseres carmods.
+Hier können wir nun unseren eigenen Resource Namen eintippen und "Add to queue" drücken:
 
-Wenn in x64 andere einzelne Ordner mit RPF Dateien sind, öffnen wir diese ebenfalls und kopieren sie in den "stream" ordner.
-
-OpenIV kann nun geschlossen werden.
-
-Nun öffnen wir die __resource.lua und content.xml Datei, die content.xml datei nutzen wir nun als Referenz zum Hinzufügen der Metadaten
-
-Zuerst fügen wir in die __resource.lua ganz oben folgendes ein:
-
-```
-resource_manifest_version '77731fab-63ca-442c-a67b-abc70f28dfa5'
-```
-
-In der __resource.lua fügen wir nun data_file einträge ein:
-
-```
-data_file "TYP" "DATEINAME"
-```
+![](https://screensaver01.zap-hosting.com/index.php/s/s9d25qzttRQpWLD/preview)
 
 
-Nun erstellen wir eine neue zeile mit den jeweiligen Einträgen in der content.xml, es sollte einen Dateinamen und darunter einen Typ stehen, diese kopieren wir und fügen sie in der __resource.lua ein. 
+Falls weitere Mods runtergeladen werden sollen, können diese einfach genauso hinzugefügt werden, es können mehrere carmods gleichzeitig installiert werden:
 
-Folgende Einträge sollten ignoriert werden:
+## Mods Konvertieren
 
-```
-RPF/.rpf 
-TEXTFILE_METAFILE/dlctext.meta
-```
+Nachdem wir uns nun eine liste von Mods gemacht haben, können wir einfach den "Start" Button drücken.
 
-Ganz unten in der content.xml befindet sich eine weitere Liste mit nur den Dateinamen. Die Einträge in der Datei __resource.lua müssen in der gleichen Reihenfolge sein.
+> Beachte: der `compress/downsize textures` haken sollte immer gesetzt werden, um zu verhindern, dass Carmods Texturfehler in FiveM haben.
 
-in der __resource.lua musst du auch ein Array dieser Meta Dateien Hinzufügen. Fügen Sie für jede data_file den Dateinamen/Pfad in die files {} Tabelle ein.
-Die Dateipfade müssen geändert werden, sodass sie mit der Struktur im Ordner übereinstimmen!
+![](https://screensaver01.zap-hosting.com/index.php/s/G6ieBPeEesXdr52/preview)
 
-Die "files" Tabelle sollte so aussehen:
+Nun werden die Carmods runtergeladen und für FiveM vorbereitet.
 
-```
-files {
-    "vehicles.meta",
-    "handling.meta",
-    "vehicles.meta",
-    "carvariations.meta"
-}
-```
+## Resourcen Hochladen
 
-Nachdem die Mods alle hochgeladen sind, muss nun nur noch deine resource in der server.cfg eingetragen werden, diese findest du im "server-data" Ordner deines FiveM Servers.
+Nachdem rpf2fivem fertig ist, können die Carmods im "rpf2fivem" Ordner gefunden werden:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/6LjYGCLFyLJBaS5/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/GiQKz2LBjboKycR/preview)
 
-Diese kannst du mit einem beliebigen Texteditor öffnen, unter den "start" Einträgen kannst du nun deine Resource wie folgt eintragen:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/H6Y5SHHKqeMPoLo/preview)
+Diese können wir nun einfach per [FTP Hochladen](fivem_installresources.md), ebenfalls wird eine `servercfg.txt` angelegt, welche die Einträge enthält, um die Carmods direkt in die server.cfg einzutragen, diese Einträge können wir einfach in die server.cfg kopieren.
 
 
-Fertig! Nach einem Serverneustart sollte der Carmod nun auf dem Server zu finden sein!
+Fertig! Die Carmods sind nun auf deinem Server installiert, nach einem Neustart des Servers können diese benutzt werden.
