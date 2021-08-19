@@ -12,12 +12,13 @@ sidebar_label: Become Admin
 Administrator rights allow you to make changes directly in the game on your server without having to change it in the Config. In order to assign administrator rights to yourself or other players, you must first define a server admin password. This password is defined in the **ServerSettings.ini** Config, which you can find in the interface under Configs.
 
 
+[img](https://screensaver01.zap-hosting.com/index.php/s/FpGzXdqNq6X6jZe/preview)
+
+
 In the Config we look for the **AdminPassword=** command and define the password. This will look like this:
 
 
-
-
-![img](https://screensaver01.zap-hosting.com/index.php/s/pFYfDrGiFgGAWwe/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/j3WR438x3iWDoTL/preview)
 
 
 
@@ -25,7 +26,7 @@ Once the password has been defined, the Config must be saved and the server rest
 
 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/RTnxioH8sgCoxsq/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/Jjj6y83KQ7yzKPD/preview)
 
 
 
