@@ -14,6 +14,10 @@
                 "title": "7 Days to Die Mods auf Server installieren - Gameserver von ZAP-Hosting",
                 "sidebar_label": "Mods installieren"
             },
+              "7d2d_commands": {
+                "title": "7 Days to Die Befehle ausführen - Gameserver von ZAP-Hosting",
+                "sidebar_label": "Befehle ausführen"
+            },
             "account_2factor": {
                 "title": "Setup Zwei-Faktor-Authentifizierung bei ZAP-Hosting.com",
                 "sidebar_label": "Zwei-Faktor-Authentifizierung"
