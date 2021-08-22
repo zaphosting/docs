@@ -12,7 +12,7 @@ Conan Exiles servers can be configured extensively. The configuration of the ser
 
 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/YAxj2WR3R9BRwic/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/FpGzXdqNq6X6jZe/preview)
 
 
 
