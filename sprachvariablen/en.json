@@ -117,6 +117,10 @@
         "title": "Assetto Corsa Competizione: Become an admin on your own server",
         "sidebar_label": "Become Admin"
       },
+      "assetto_competizione_slot_requirement": {
+        "title": "Assetto Corsa Competizione: Car Slot Requirement",
+        "sidebar_label": "Car Slot Requirement"
+      },
       "assettocorsa_configure": {
         "title": "Assetto Corsa: Configure your server",
         "sidebar_label": "Configure Server"
