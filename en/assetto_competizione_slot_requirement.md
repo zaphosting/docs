@@ -9,7 +9,7 @@ sidebar_label: Car Slot Requirement
 
 In Assetto Corsa, 10 slots can be used correctly without any further modification. 
 However, to use more than 10 slots, certain requirements must be met.
-These requirements are set under "**Configs**" and in there the "**settings.json**" has to be edited
+These requirements are set under "**Configs**" and in there the "**settings.json**" has to be edited.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/m2tR8eos9NC4Fp3/preview)
 
