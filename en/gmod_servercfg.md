@@ -9,11 +9,11 @@ sidebar_label: Garry's Mod Server.cfg Modification
 
 To change the server.cfg directly through our webinterface, we go to the Configs-Tab.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/M3cWDbBkQCqN9eD/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/aqiWaw3tW5tNAS5/preview)
 
 after that we open the server.cfg in our built in Config-Editor.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/Zq7ditL4Z8cP7ED/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/F2BjN763yTALxYS/preview)
 
 You are now in our Config-Editor, here you can change all variables as desired, please be sure to do not mix Settings between our Settings-Tab and the server.cfg this could effect: hostname, rcon_password and sv_password.
 
@@ -57,6 +57,6 @@ sv_region 3				//0+1 = US, 2 = South Africa, 3 = Europe, 4 = Asia, 5 = Australia
 
 If you have changed everything as desired, you just need to save your changes.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/tgarwstRG9XRY9C/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/pSXcDZnpWBqS78Y/preview)
 
 After a server reboot all changes are live.
