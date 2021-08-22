@@ -12,7 +12,7 @@ sidebar_label: Become Admin
 
 Administrator rights allows you to make changes directly in the game on your server without having to change it in the Config. Adding an admin is done via the **Clientpermissions.xml** Config, which you can find in the interface under Configs.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/yg2f2ZbpRMo8Qmk/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/58qydgSWDNDdoPt/preview)
 
 
 A new client entry must be added to the Config to add a new player. The syntax for this looks like this:
@@ -35,7 +35,7 @@ You can find it by accessing your Steam profile and then right-clicking anywhere
 
 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/45E5zxZcCjytJ28/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/y25RgxJwzWYm7e6/preview)
 
 
 
@@ -45,7 +45,7 @@ Afterwards, the URL must be typed in one of the following websites:
 - https://steamidfinder.com/
 - https://steamid.io/
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/Yxg52KfYA3rMDQj/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/EQHnQxyBxYyxcGY/preview)
 
 
 
