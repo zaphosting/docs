@@ -9,13 +9,13 @@
         "title": "How to become an admin for 7 Days to Die - Gameserver from ZAP-Hosting",
         "sidebar_label": "Become Admin"
       },
+      "7d2d_commands": {
+        "title": "Commands",
+        "sidebar_label": "Commands"
+      },
       "7d2d_mods": {
         "title": "How to install 7 Days to Die mods on your server - ZAP-Hosting's game server",
         "sidebar_label": "Install Mods"
-      },
-       "7d2d_commands": {
-        "title": "Use Commands on your 7 Days To Die Server - ZAP-Hosting's game server",
-        "sidebar_label": "Use Commands"
       },
       "account_2factor": {
         "title": "Setup two-factor authentication at ZAP-Hosting.com",
