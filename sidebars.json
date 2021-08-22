@@ -416,7 +416,8 @@
         ],
         "7 Days to Die": [
             "7d2d_becomeadmin",
-            "7d2d_mods"
+            "7d2d_mods",
+            "7d2d_commands"
         ],
         "Avorion": [
             "avorion_becomeadmin"
