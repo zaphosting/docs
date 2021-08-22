@@ -20,7 +20,7 @@ Eine kleine Auswahl der wichtigsten Befehle haben wir hier für dich zusammenges
 | debugmenu on/off | Aktiviert das Debug-Menü, kann mit G geöffnet werden |
 | giveselfxp [amount] | Fügt deinem Charakter Erfahrungspunkte hinzu |
 | creativemenu on/off | Aktiviert das Creative-Menü, kann mit U geöffnet werden |
-| spawnsupplycreate | Spawnt eine Supplykiste an deiner Position |
+| spawnsupplycrate | Spawnt eine Supplykiste an deiner Position |
 | admin [add] [remove] [list] | Hiermit können, Admins angepasst werden. |
 | kick [playername] [grund] | Kickt einen Spieler vom Server |
 | tele [Spieler A] [Spieler B] | Teleportiert Spieler A nach Spieler B |
