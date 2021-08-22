@@ -9,7 +9,7 @@ sidebar_label: Car Slot Voraussetzungen
 
 Bei Assetto Corsa lassen sich 10 Slots ohne weitere Änderung korrekt nutzen. 
 Allerdings müssen für die Nutzung von mehr als 10 Slots bestimmte Voraussetzungen erfüllt sein.
-Diese Voraussetzungen werden unter "**Configs**" eingestellt. Dort wird die "**settings.json**" bearbeitet
+Diese Voraussetzungen werden unter "**Configs**" eingestellt. Dort wird die "**settings.json**" bearbeitet.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/mabZax4a4qZfcoD/preview)
 
@@ -25,7 +25,7 @@ Slots = safetyRating / 4 + trackMedals + 10
 
 ### Liste möglicher Kombinationen
 
-Im nachfolgenden wird eine Liste mit möglichen Kombinationen angezeigt um die gewünschte Slotanzahl nutzen zu können.
+Im Nachfolgenden wird eine Liste mit möglichen Kombinationen angezeigt um die gewünschte Slotanzahl nutzen zu können.
 Hierbei gibt es auch mehr als eine mögliche Lösung, um die nötige Slot Voraussetzung zu erreichen.
 Aus diesem Grund wurden in der Liste auch die verschiedenen Möglichkeiten dargestellt.
 
