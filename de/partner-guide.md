@@ -75,7 +75,7 @@ Erstmal müssen wir zwischen Links unterscheiden, die du im **Partner Menü** er
 
 Im Gegensatz hierzu stehen die Links, die über den Generator in der Rubrik **Freunde werben** erstellt wurden. Umsätze, die über diese Links erstellt wurden, tracken die Umsätze des Lnks und ermöglichen eine **prozentuale Umsatzbeteiligung**. Diese Umsätzle werden mit der Zeit summiert und können über eine schriftliche Rechnung bei uns ausgezahlt werden.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/drpi3zkw8w7Y4QD/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/X2D3zWjSg7oEQmX/preview)
 
 Da wird unseren Partner jedoch teils Produkte im Wert von mehreren hundert Euro kostenfrei zur Verfügung stellen, **untersagen wir die Nutzung von "Freunde werben"-Links erstmal allen Partnern, sofern nicht anders vereinbart!**
 Erst nach einer persönlichen Absprache ist es einzelnen Partnern gestattet auch diese *Affiliate Links* zu nutzen.
