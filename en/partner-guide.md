@@ -76,6 +76,8 @@ First of all we have to distinguish between links you created in the **Partner M
 
 In contrast to this are the links that were created via the generator in the category **Advertise friends**. Sales generated through these links track the link's sales and allow a **percentage revenue share**. These turnovers are summed up over time and can be paid out to us via a written invoice.
 
+![](https://screensaver01.zap-hosting.com/index.php/s/SpToqbSf8KRNWm3/preview)
+
 However, some of our partners will provide products worth several hundred euros free of charge, ** we will prohibit all partners from using "refer a friend" links for the time being, unless otherwise agreed!
 Only after a personal agreement, individual partners are allowed to use these *Affiliate Links* as well.
 > Experience has shown that active partners of the gold rank often receive our permission to use affiliate links in addition to the sponsored servers and products.
