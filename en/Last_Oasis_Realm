@@ -1,77 +1,76 @@
 ---
 id: Last_Oasis_Realm
-title: Last Oasis Realm Erstellung
-description: Anleitung, wie du ein Realm erstellst und deinem Server die Keys zuweist.
+title: Last Oasis create Realm
+description: Instructions on how to create a realm and assign keys to your server.
 
 
 ---
 
 
-## 🔧 Wieso brauche ich einen key?
+## 🔧 Why do I need a key?
 
-Der Key wird benötigt, damit die Server verifiziert sind und mit den Online Diensten kommunizieren können.
+The key is needed so that the servers are verified and can communicate with the online services.
 
+## 📋 Preparation
 
-## 📋 Vorbereitung
-
-Um die besagten Keys zu erstellen / dir anzeigen zu lassen, musst du dich zunächst auf "https://myrealm.lastoasis.gg/" anmelden.
-Klicke dann im Anschluss auf "Settings":
+To create / display the mentioned keys, you have to log in to "https://myrealm.lastoasis.gg/" first.
+Then click on "Settings":
 ![img](https://screensaver01.zap-hosting.com/index.php/s/W5GXbXmG7N65WRA/preview)
 
 ## 🖥️ Game Key + Host Key
 
-Hier angekommen, kannst du bereits deinen Game Server Key einsehen.
-Den Key musst du bei dir im Interface vom Server unter dem Reiter "Einstellungen" bei "Customer Key" eintragen:
+Once here, you can already see your game server key.
+You have to enter the key in the interface of the server under the tab "Settings" at "Customer Key":
 ![img](https://screensaver01.zap-hosting.com/index.php/s/xaNMYaqQx63MT2n/preview)
 
-Darunter kannst du einen Provider Key erstellen, indem du auf "Add New Key" klickst:
+Below that you can create a provider key by clicking on "Add New Key":
 ![img](https://screensaver01.zap-hosting.com/index.php/s/T5MBZ83boK4SKWB/preview)
 
-Hier kannst du dem Key einen Namen und eine Beschreibung zuweisen, damit du den Key eindeutig zuordnen kannst.
-In unserem Beispiel tragen wir folgendes ein:
+Here you can assign a name and a description to the key, so that you can clearly assign the key.
+In our example we enter the following:
 ![img](https://screensaver01.zap-hosting.com/index.php/s/CfKkjwtqQGjCHkA/preview)
 
-> Achtung! Ein Provider Key kann nur für einen Server genutzt werden, für jeden weiteren Server muss ein neuer Provider Key angelegt und zugewiesen werden!
+> Attention! A provider key can only be used for one server, for each additional server a new provider key must be created and assigned!
 
 
 ## Realm
-Nun müssen wir noch ein Realm anlegen, wo die Server eingetragen werden können.
-Dafür gehst du auf der myrealm.lastoasis.gg Seite ins Dashboard zurück:
+Now we need to create a realm where the servers can be entered.
+To do this, go back to the dashboard on the myrealm.lastoasis.gg page:
 ![img](https://screensaver01.zap-hosting.com/index.php/s/EZ9WNQjFq3RLwPW/preview)
 
-Weiter unten auf der Seite kannst du dann auf "Create Realm" klicken, um ein Realm zu erstellen.
+Further down the page you can then click on "Create Realm" to create a realm.
 
-Das ist notwendig, damit du dich überhaupt mit deinem Server verbinden kannst.
+This is necessary so that you can connect to your server at all.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/97gWKWpgjB3xGRF/preview)
 
-Den Namen kannst du frei auswählen, in unserem Beispiel nennen wir es "ZAP-Hosting Test Realm"
+You can choose the name freely, in our example we call it "ZAP-Hosting Test Realm".
 ![img](https://screensaver01.zap-hosting.com/index.php/s/a5WLsw6g79Xj6cJ/preview)
 
-## Realm Übersicht
-Im Anschluss findest du eine Übersicht von dem gerade erstellten Realm wo du viele Einstellungen vornehmen kannst:
+## Realm overview
+Afterwards you will find an overview of the realm you just created where you can change many settings:
 https://screensaver01.zap-hosting.com/index.php/s/xjwftHQZsRwEm5E
 
-Um dort Einstellungen zu ändern, musst du lediglichi auf den blauen "Change" Button klicken.
+To change settings there, you just have to click on the blue "Change" button.
 
-## Oase erstellen
-Nun muss noch eine Oase erstellt werden, welche quasi deinen Server widerspiegelt.
-Für jeden Server muss eine Oase angelegt werden.
-Wenn du also 2 Gameserver hast, musst du für jeden der beiden Gameserver eine eigene Oase anlegen.
+## Create oasis
+Now you need to create an oasis, which will reflect your server.
+For each server you have to create an oasis.
+So if you have 2 game servers, you have to create a separate oasis for each of the two game servers.
 
-Um die Oase zu erstellen, kannst du in der Realm Übersicht auf "Manage" klicken:
+To create the oasis, you can click on "Manage" in the realm overview:
 ![img](https://screensaver01.zap-hosting.com/index.php/s/im6cRSogiZfnnke/preview)
 
-Wähle nun einen gewünschten Platz für deine "Oase" aus:
+Now select a desired place for your "oasis":
 ![img](https://screensaver01.zap-hosting.com/index.php/s/aSXitEc7dYoc7gC/preview)
-Klicke dann auf "Add" soweit du dich für einen Platz entschieden hast:
+Then click on "Add" as far as you have decided for a place:
 ![img](https://screensaver01.zap-hosting.com/index.php/s/EGtbJcWMMneS25X/preview)
 
-Hier kannst du der "Oase" nun einen Namen geben sowie die Map auswählen:
+Here you can give the "Oasis" a name and select the map:
 ![img](https://screensaver01.zap-hosting.com/index.php/s/BWcRoXQLpZ9TFsx/preview)
 ![img](https://screensaver01.zap-hosting.com/index.php/s/XG39wjyN7jSLsH2/preview)
 
-Und dann im Anschluss auf "Add Oasis" klicken , damit diese angelegt wird.
-Nun musst du wieder zurück in die Übersicht von deinem Realm gehen und kannst dort die Oase aktivieren:
+And then click on "Add Oasis" so that it is created.
+Now you have to go back to the overview of your realm and can activate the oasis there:
 ![img](https://screensaver01.zap-hosting.com/index.php/s/oAi2kT6XjcbPiG2/preview)
-Soweit das erledigt ist, kannst du deinen Server neu starten und dich dann im Anschluss ingame damit verbinden.
+As far as this is done, you can restart your server and then connect to it ingame.
