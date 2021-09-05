@@ -422,6 +422,9 @@
         ],
         "Avorion": [
             "avorion_becomeadmin"
+        ],
+        "BeamMP": [
+            "beammp_mods"
         ]
     }
 }
