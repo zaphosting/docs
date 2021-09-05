@@ -145,6 +145,10 @@
         "title": "Create an Auth Key",
         "sidebar_label": "Create an Auth Key"
       },
+        "beammp_mods": {
+        "title": "Install Mods",
+        "sidebar_label": "Install Mods"
+      },
       "community_info": {
         "title": "Community offers - become part of the ZAP-Hosting community",
         "sidebar_label": "Community offers"
