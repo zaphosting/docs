@@ -141,6 +141,10 @@
             "beammp_authkey": {
                 "title": "Auth Key Erstellen",
                 "sidebar_label": "Auth Key Erstellen"
+             },
+            "beammp_mods": {
+                "title": "Mods installieren",
+                "sidebar_label": "Mods installieren"
             },
             "community_info": {
                 "title": "Community Angebote - werde Teil der ZAP-Hosting Community",
