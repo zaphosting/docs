@@ -145,7 +145,7 @@
         "title": "Create an Auth Key",
         "sidebar_label": "Create an Auth Key"
       },
-        "beammp_mods": {
+      "beammp_mods": {
         "title": "Install Mods",
         "sidebar_label": "Install Mods"
       },
