@@ -343,7 +343,8 @@
             "barotrauma_becomeadmin"
         ],
         "BeamMP": [
-            "beammp_authkey"
+            "beammp_authkey",
+            "beammp_mods"
         ],
         "Conan Exiles": [
             "conan_becomeadmin",
@@ -422,9 +423,6 @@
         ],
         "Avorion": [
             "avorion_becomeadmin"
-        ],
-        "BeamMP": [
-            "beammp_mods"
         ]
     }
 }
