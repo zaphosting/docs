@@ -18,6 +18,7 @@ This will give us the coordinates.
 📑 Edit Config
 
 Once we have our coordinates we go to the Config TAB
+
 ![](https://screensaver01.zap-hosting.com/index.php/s/wpcoqFHq99rRKox/preview)
 
 Here we press **CTRL + F** and search for **ambulance**
