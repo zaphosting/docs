@@ -1,6 +1,6 @@
 ---
 id: lastoasis_createrealm
-title: Last Oasis create Realm
+title: Create Realm
 description: Instructions on how to create a realm and assign keys to your server.
 
 
