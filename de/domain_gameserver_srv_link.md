@@ -8,10 +8,8 @@ sidebar_label: Domain Gameserver Weiterleitung
 > Bitte beachte dass es immer bis zu 24 Stunden dauern kann bis Änderungen an DNS Einträgen aktiv werden!
 
 ## Domain auf Gameserver weiterleiten
-
 Du kannst entweder deine Domain vollständig, oder lediglich eine Subdomain auf deinen Gameserver weiterleiten.
 So muss sich niemand die komplizierte IP Adresse welche aus Zahlen besteht merken sondern kann sich einfach mithilfe der Domain auf deinen Gameserver verbinden.
-In den folgenden Beispielen erstellen wir zwei Subdomains und leiten diese auf einen Minecraft- und auf einen FiveM Gameserver weiter.
 
 ## Wie funktioniert das?
 
@@ -26,13 +24,11 @@ dein Spiel SRV Einträge unterstützt.
 
 
 ### SRV Service
-
 Der Servicename hängt vom jeweiligen Spiel ab und beginnt immer mit einem **Unterstrich**.
 Zum Beispiel lautet der Servicename für einen Minecraft Gameserver immer **_minecraft** und für einen FiveM Gameserver **_cfx**.
 
 
 ### SRV Protokoll
-
 Als Protokoll geben wir das für die Verbindung verwendete Internetprotokoll an. Hier stehen **UDP** und **TCP** zur Verfügung.
 Welches Protokoll hier verwendet wird hängt ebenfalls vom jeweiligen Spiel ab, die Angabe des Protokolls beginnt ebenfalls immer
 mit einem **Unterstrich** und lautet entweder **_udp** oder **_tcp**.
@@ -41,141 +37,106 @@ mit einem **Unterstrich** und lautet entweder **_udp** oder **_tcp**.
 Um deine Domain ohne die Erstellung einer Subdomain auf einen Gameserver weiterzuleiten, öffnest du zuerst deine Domain indem du
 im Dashboard auf diese klickst, anschließend öffnest du die DNS-Verwaltung über das Menü auf der linken Seite.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/arRoyHj3wR4sCGw/preview)
-
-![](https://screensaver01.zap-hosting.com/index.php/s/3WEqw4aTdqaanYi/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/4X38fmafBRHt5dG/preview)
 
 Dort siehst du nun alle bereits vorhandenen DNS Einträge für deine Domain.
-Sofern du dort noch keine eigenen Einträge erstellt hast kannst du alle bisher vorhandenen EInträge durch einen Klick 
-auf den roten Mülleimer auf der rechten Seite löschen.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/F5kEtW5XHx5Y8Lk/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/pBxr2seQiFqNyom/preview)
 
-## Weiterleitung der Domain ohne Subdomain aber mit dem Standardport
-Insofern du die Hauptdomain verwenden möchtest UND der Zielserver den Standardport besitzt, bist du hier richtig!
+## ⛏ Weiterleitung der Domain für Minecraft
+Zunächst muss für die korrekte Weiterleitung auf Minecraft Server sowohl IP und Port von dem Minecraft Server rausgesucht werden auf welchen weitergeleitet werden soll.
+Mit diesen Daten können nun die nachfolgenden Schritte befolgt werden.
 
-### Minecraft + Fivem
-Du kannst in deiner Domain Verwaltung auf **Neuer Eintrag** klicken und landest dann in der Erstellung für einen neuen DNS Eintrag.
-Als **Name** wählen wir hier den Namen der Domain, als Beispiel **minecraft-server.de**, der **Typ ist A** und der **Wert** entspricht der
-IP deines Gameservers.
-Das Feld **TTL** kannst du unberührt lassen.
+In unserem Beispiel nutzen wir als Domainnamen die "testserver-domain.de", als Server IP "123.123.123.123" und PORT "25500".
 
-![](https://screensaver01.zap-hosting.com/index.php/s/3o9kyP6n4pCnjes/preview)
+### Erstellung A Record
+Für die Erstellung von einem neuen Record muss der Button "**Neuer Eintrag**" genutzt werden.
 
-Wenn du alles eingetragen hast, klickst du auf **Speichern**, der Eintrag wird dann in den DNS Einstellungen hinterlegt und wird innerhalb
-von 24 Stunden erreichbar. Somit kannst du dich dann im Anschluss mit der Domain "minecraft-server.de" mit deinem Fivem Server bzw Minecraft Server verbinden!
+![](https://screensaver01.zap-hosting.com/index.php/s/DAobcpEmfk8Apbz/preview)
 
-> Es kann immer **bis** zu 24 Stunden dauern bis neue DNS Einträge aktiv werden. Darauf hat leider niemand Einfluss.
+Dabei öffnet sich dann ein Fenster mit vier Feldern welche befüllt werden müssen:
 
+![](https://screensaver01.zap-hosting.com/index.php/s/nzZje7jpwxpEsNZ/preview)
 
-## Weiterleitung der Domain mit Subdomain und mit dem Standardport
+Der "**Name**" ist die Haupt- oder auch Subdomain über welche die Weiterleitung auf die IP erfolgt, dieser Name ist frei wählbar. Der "**Typ**" wird in diesem Schritt auf "**A**" belassen. Bei dem "**Wert**" muss dann nur noch die IP von dem Minecraft Server eingetragen werden welche vorher rausgesucht wurde.
+In unserem Beispiel sieht es daher wie folgt aus.
 
-### Minecraft + Fivem
-Willst du eine Subdomain, also zum Beispiel lobby.minecraft-server.de erstellen, erledigst du das wie im vorheringen Beispiel, 
-gibst jedoch bei **Name** nicht den Namen der Domain, sondern der Subdomain an.
-Das sieht so aus:
+![](https://screensaver01.zap-hosting.com/index.php/s/SRjQ9N5ZKPGdwCw/preview)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SxCwS7X55ebGXzz/preview)
+Sobald gespeichert wird dieser Eintrag auch korrekt angezeigt:
 
-Auch hier nach dem eintragen auf **Speichern** klicken.
-Es kann dann **bis** zu 24 Stunden dauern bis dieser global übernommen wurde.
-Du kannst dich dann mit lobby.minecraft-server.de mit deinem Minecraft / Fivem Server verbinden.
+![](https://screensaver01.zap-hosting.com/index.php/s/z5MNifTEEECApEb/preview)
 
-## Weiterleitung der Domain ohne Standardport und ohne Subdomain
+### Erstellung SRV Record
+Nun muss noch ein SRV Record erstellt werden, dieser dient zur Portweiterleitung welche erforderlich ist, wenn man nicht den Default Port besitzt.
+Dafür also erneut auf den Button "**Neuer Eintrag**". 
 
-Wird nicht der Spielport genutzt so muss zusätzlich ein sogenannter **SRV Eintrag** angelegt werden um nicht nur die Domain
-auf die IP des Gameservers sondern auch auf den korrekten Port weiterzuleiten.
+![](https://screensaver01.zap-hosting.com/index.php/s/DAobcpEmfk8Apbz/preview)
 
-Anfangs erstellst du wieder wie gewohnt eine Subdomain, welche auf die IP deines Servers verweist.
-Der Name der Subdomain spielt dabei überhaupt keine Rolle.
-In unserem Beispiel heißt unsere Subdomain "SRV".
-Das sieht dann so aus:
+Hierbei muss bei "**Name**" nun das Protokol als auch die Verbindungsdomain rein. Der Domainname welcher dort eingetragen wird, wird später für die Verbindung zu dem Server genutzt. Als "**Typ**" wird in diesem Schritt über das Drop Down Menü der Wert "**SRV**" ausgewählt:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/TPaAFspNJaTL5Rz/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/etaCx7mpay62TGJ/preview)
 
-Im Anschluss muss ein weiterer Record erstellt werden. In diesem Fall nun der besagte reine SRV Eintrag.
-Hierbei unterscheiden wir aber nun zwischen Fivem und Minecraft.
+Bei dem "**Wert**" müssen nun drei Werte eingetragen werden, erst die Priorität welche standardmäßig auf 0 belassen werden kann, dann als zweites der Port vom Spieleserver in unserem Beispiel "25500" und zu guter Letzt den Domainnamen des gerade erstellten "**A-Records**".
 
-### Minecraft
-Hast du einen Minecraft Server bist du hier richtig!
-Klicke in deiner Domain Verwaltung erneut auf **Neuer Eintrag**.
-Hier arbeiten wir uns nun Zeile für Zeile durch um die Verknüpfung abzuschließen.
+In unserem Beispiel sieht es dann wie folgt aus:
 
-Das Feld **Name** beinhaltet den Namen des Service's, was in diesem Fall unser Minecraft Gameserver ist, also **_minecraft**. Ebenso ist dort der Protokolltyp, in diesem Fall **_tcp** so wie der **Domainname** anzugeben.
+![](https://screensaver01.zap-hosting.com/index.php/s/xXQ7AbjPNxrcaK9/preview)
 
-Das Feld **Typ** gibt an um welche Art von Eintrag es sich handelt, in diesem Fall ist es ein **SRV** Eintrag.
+### Troubleshooting & Ergebnis
+> WICHTIG! am Ende von dem Eintrag muss ein Punkt geschrieben werden, ohne diesen Punkt versucht das System die Domain anzuhängen. 
 
-Das Feld **Wert** enthält den Port vom Server sowie die Subdomain welche du anfangs erstellt hast und welche auf die IP vom Server verweist. Also in diesem Fall **0 2132 srv.minecraft-server.de**, wobei **2132** der **Port des Spiels** ist und **srv.minecraft-server.de** die Domain zu welcher die Weiterleitung erfolgt.
-In unserem Beispiel würde das so aussehen:
+Wird dieser Hinweis nicht beachtet, dann macht das System aus minecraft.testserver-domain.de die Weiterleitung zu minecraft.testserver-domain.de.testserver-domain.de wodurch die Weiterleitung fehlschlägt.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/E3WsebFZE9pgo5c/preview)
- 
-Der Wert **0** ist nicht weiter relevant und bleibt immer gleich. Das Feld **TTL** sowie **Prio** lässt du ebenfalls unberührt.
-Danach kannst du auf **Speichern** klicken.
+Korrekt erstellt sieht das Ergebnis dann wie folgt aus:
 
-> Wichtig ist, dass im Feld **Wert** am Ende der Domain ein **Punkt** gesetzt wird!
+![](https://screensaver01.zap-hosting.com/index.php/s/bzyZf85yeiCxmYW/preview)
 
-### Fivem
-Bei Fivem ist das nahezu identisch wie auch bei Minecraft.
-Auch hier erstellen wir einen neuen Eintrag, indem wir auf **Neuer Eintrag** klicken.
-Hier arbeiten wir uns nun auch Zeile für Zeile durch, um die Verknüpfung abzuschließen.
+## 🐌 Weiterleitung der Domain für Fivem
+Zunächst muss für die korrekte Weiterleitung auf Fivem Server sowohl IP und Port von dem Fivem Server rausgesucht werden auf welchen weitergeleitet werden soll.
+Mit diesen Daten können nun die nachfolgenden Schritte befolgt werden.
 
-Das Feld **Name** beinhaltet den Namen des Service's, was in diesem Fall unser Fivem Gameserver ist, also **_cfx**. Ebenso ist dort der Protokolltyp, in diesem Fall **_udp** so wie der **Domainname** anzugeben.
+In unserem Beispiel nutzen wir als Domainnamen die "testserver-domain.de", als Server IP "123.123.123.123" und PORT "30300".
 
-Das Feld **Typ** gibt an um welche Art von Eintrag es sich handelt, in diesem Fall ist es ein **SRV** Eintrag.
+### Erstellung A Record
+Für die Erstellung von einem neuen Record muss der Button "**Neuer Eintrag**" genutzt werden.
 
-Das Feld **Wert** enthält den Port vom Server sowie die Subdomain welche du anfangs erstellt hast und welche auf die IP vom Server verweist. Also in diesem Fall **0 33121 srv.fivem-server.de**, wobei **33121** der **Port vom Fivem Server** ist und **srv.fivem-server.de** die Domain zu welcher die Weiterleitung erfolgt.
-In unserem Beispiel würde das so aussehen:
+![](https://screensaver01.zap-hosting.com/index.php/s/DAobcpEmfk8Apbz/preview)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/CZTkbtWGLjb7Y8G/preview)
- 
-Der Wert **0** ist nicht weiter relevant und bleibt immer gleich. Das Feld **TTL** sowie **Prio** lässt du ebenfalls unberührt.
+Dabei öffnet sich dann ein Fenster mit vier Feldern welche befüllt werden müssen:
 
-Danach kannst du auf **Speichern** klicken.
+![](https://screensaver01.zap-hosting.com/index.php/s/nzZje7jpwxpEsNZ/preview)
 
-> Wichtig ist, dass im Feld **Wert** am Ende der Domain ein **Punkt** gesetzt wird!
+Der "**Name**" ist die Haupt- oder auch Subdomain über welche die Weiterleitung auf die IP erfolgt, dieser Name ist frei wählbar. Der "**Typ**" wird in diesem Schritt auf "**A**" belassen. Bei dem "**Wert**" muss dann nur noch die IP von dem Fivem Server eingetragen werden welche vorher rausgesucht wurde.
+In unserem Beispiel sieht es daher wie folgt aus.
 
-## Weiterleitung der Domain ohne Standardport und mit Subdomain
+![](https://screensaver01.zap-hosting.com/index.php/s/8kyPYTyZaJaMZMm/preview)
 
-Mit einer Subdomain verhält es sich fast genau so. Du erstellst zuerst wie oben beschrieben eine Subdomain und leitest diese auf die IP Adresse deines Gameservers weiter. 
-Beispielsweise "docs.fivem-server.de" bzw "docs.minecraft-server.de".
+Sobald gespeichert wird dieser Eintrag auch korrekt angezeigt:
 
-Nun differenzieren wir erneut zwischen FiveM und zwischen Minecraft. Allerdings ist die Prozedur bei beiden 1:1 identisch.
+![](https://screensaver01.zap-hosting.com/index.php/s/aiPNTBgpRC5PXqD/preview)
 
-### Minecraft
+### Erstellung SRV Record
+Nun muss noch ein SRV Record erstellt werden, dieser dient zur Portweiterleitung welche erforderlich ist, wenn man nicht den Default Port besitzt.
+Dafür also erneut auf den Button "**Neuer Eintrag**".
 
-Du erstellst einen neuen Eintrag indem du auf **Neuer Eintrag** klickst.
-Hier gehen wir nun nach und nach die möglichen Felder durch.
+![](https://screensaver01.zap-hosting.com/index.php/s/DAobcpEmfk8Apbz/preview)
 
-Das Feld **Name** beinhaltet den Namen des Service's, was in diesem Fall unser Minecraft Gameserver ist, also **_minecraft**. Ebenso ist dort der Protokolltyp, in diesem Fall **_tcp** so wie der **Domainname MIT der anfangs erstellten Subdomain** anzugeben.
+Hierbei muss bei "**Name**" nun das Protokol als auch die Verbindungsdomain rein. Der Domainname welcher dort eingetragen wird, wird später für die Verbindung zu dem Server genutzt. Als "**Typ**" wird in diesem Schritt über das Drop Down Menü der Wert "**SRV**" ausgewählt:
 
-Das Feld **Typ** gibt an um welche Art von Eintrag es sich handelt, in diesem Fall ist es ein **SRV** Eintrag.
+![](https://screensaver01.zap-hosting.com/index.php/s/etaCx7mpay62TGJ/preview)
 
-Das Feld **Wert** enthält den Port vom Server sowie die Subdomain welche du anfangs erstellt hast und welche auf die IP vom Server verweist. Also in diesem Fall **0 2132 docs.minecraft-server.de**, wobei **2132** der **Port des Spiels** ist und **docs.minecraft-server.de** die Domain zu welcher die Weiterleitung erfolgt.
-In unserem Beispiel würde das so aussehen:
+Bei dem "**Wert**" müssen nun drei Werte eingetragen werden, erst die Priorität welche standardmäßig auf 0 belassen werden kann, dann als zweites der Port vom Spieleserver in unserem Beispiel "30300" und zu guter Letzt den Domainnamen des gerade erstellten "**A-Records**".
 
-![](https://screensaver01.zap-hosting.com/index.php/s/62qeENaA3B2nDzY/preview)
- 
-Der Wert **0** ist nicht weiter relevant und bleibt immer gleich. Das Feld **TTL** sowie **Prio** lässt du ebenfalls unberührt.
-Danach kannst du auf **Speichern** klicken.
+In unserem Beispiel sieht es dann wie folgt aus:
 
-> Wichtig ist, dass im Feld **Wert** am Ende der Domain ein **Punkt** gesetzt wird!
+![](https://screensaver01.zap-hosting.com/index.php/s/TcKi2CQnDFkXbfg/preview)
 
-### Fivem
-Bei Fivem ist das nahezu identisch wie auch bei Minecraft.
-Auch hier erstellen wir einen neuen Eintrag, indem wir auf **Neuer Eintrag** klicken.
-Hier arbeiten wir uns nun auch Zeile für Zeile durch, um die Verknüpfung abzuschließen.
+### Troubleshooting & Ergebnis
+> WICHTIG! am Ende von dem Eintrag muss ein Punkt geschrieben werden, ohne diesen Punkt versucht das System die Domain anzuhängen. 
 
-Das Feld **Name** beinhaltet den Namen des Service's, was in diesem Fall unser Fivem Gameserver ist, also **_cfx**. Ebenso ist dort der Protokolltyp, in diesem Fall **_udp** so wie der **Domainname MIT Subdomain** anzugeben.
+Wird dieser Hinweis nicht beachtet, dann macht das System aus fivem.testserver-domain.de die Weiterleitung zu fivem.testserver-domain.de.testserver-domain.de wodurch die Weiterleitung fehlschlägt.
 
-Das Feld **Typ** gibt an um welche Art von Eintrag es sich handelt, in diesem Fall ist es ein **SRV** Eintrag.
+Korrekt erstellt sieht das Ergebnis dann wie folgt aus:
 
-Das Feld **Wert** enthält den Port vom Server sowie die Subdomain welche du anfangs erstellt hast und welche auf die IP vom Server verweist. Also in diesem Fall **0 33121 docs.fivem-server.de**, wobei **33121** der **Port vom Fivem Server** ist und **docs.fivem-server.de** die Domain zu welcher die Weiterleitung erfolgt.
-In unserem Beispiel würde das so aussehen:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/ZWMF6QZabnAGBR3/preview)
- 
-Der Wert **0** ist nicht weiter relevant und bleibt immer gleich. Das Feld **TTL** sowie **Prio** lässt du ebenfalls unberührt.
-Danach kannst du auf **Speichern** klicken.
-
-> Wichtig ist, dass im Feld **Wert** am Ende der Domain ein **Punkt** gesetzt wird!
+![](https://screensaver01.zap-hosting.com/index.php/s/y7NP22JFk34JKRk/preview)

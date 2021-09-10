@@ -19,28 +19,17 @@ Damit erhalten wir dann die Koordinaten.
 
 Haben wir unsere Koordinaten gehen wir in den Config TAB
 
-![](https://screensaver01.zap-hosting.com/index.php/s/33je8aGWKRr3kyt/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/EDfkc5pDLyYYXq4/preview)
 
 Hier drücken wir dann **STR + F** und suchen nach **ambulance**
 Diese Datei öffnen wir dann.
 Hier Scrollen wir dann nach unten bis wir **Config_RespawnPoint** finden.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/Nz9qMExnqoN5Kpt/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/5HXdRQWNeRNKYfd/preview)
 
 Diese bearbeiten wir nun und ersetzen die Koordinaten.
 Danach nur noch auf Speichern und das wars.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/4HegmRJsosNXaW6/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/dxzXNxkMR9PHmq8/preview)
 
-## 📔 Überschreiben erzwingen Ausstellen
-
-Wir müssen zuerst sichergehen dass "Überschreiben erzwingen" deaktiviert ist.
-Dafür gehen wir auf den TAB "Ressourcen".
-
-![](https://screensaver01.zap-hosting.com/index.php/s/6ZXxWHN4wCE6WcE/preview)
-
-Dort entfernen wir dir dann den Haken.
-
-![](https://screensaver01.zap-hosting.com/index.php/s/gQ885gn4qkCyxbi/preview)
-
-Haben wir das erledigt müssen wir nur noch den Server **Neustarten**
+> Nach einem Serverneustart, werden die Änderungen übernommen.
