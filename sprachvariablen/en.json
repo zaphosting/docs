@@ -481,6 +481,9 @@
         "title": "Garry's Mod: TTT configuration",
         "sidebar_label": "Garry's Mod TTT Configuration"
       },
+      "lastoasis_createrealm": {
+        "title": "Create Realm"
+      },
       "legal_use_brand_assets": {
         "title": "Use of logo and name",
         "sidebar_label": "Use of logo and name"
@@ -923,7 +926,8 @@
       "Rust": "Rust",
       "Among Us": "Among Us",
       "7 Days to Die": "7 Days to Die",
-      "Avorion": "Avorion"
+      "Avorion": "Avorion",
+      "Last Oasis": "Last Oasis"
     }
   },
   "pages-strings": {
