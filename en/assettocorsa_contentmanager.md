@@ -40,7 +40,7 @@ Now we change to the tab "Entry List", here we can now add new cars:
 ![](https://screensaver01.zap-hosting.com/index.php/s/R5KpGwAEAm8La2J/preview)
 
 
-> Note that all autoslots are filled and no more than the amount of available slots are set.
+> Note that all car slots are filled and no more than the amount of available slots are set.
 > ![](https://screensaver01.zap-hosting.com/index.php/s/RcJpb7MSd65zLf7/preview)
 
 ## Configure FTP Upload
