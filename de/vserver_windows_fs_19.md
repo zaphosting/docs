@@ -33,6 +33,7 @@ Verbinde dich via [RDP](https://zap-hosting.com/guides/docs/de/vserver_windows_u
 ![](https://screensaver01.zap-hosting.com/index.php/s/YaSo85pefHf5r5n/preview)
 
 Anschließend wird die Datei heruntergeladen und sollte sich dann im Download Verzeichnis befinden. (Das Downloadverzeichnis kann abweichend sein) 
+
 ![](https://screensaver01.zap-hosting.com/index.php/s/oKGSpHfkcwNTAyf/preview)
 
 Mit einem Doppelklick wird die Datei geöffnet und es kann die Setup.exe ausgeführt werden.
