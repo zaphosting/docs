@@ -10,9 +10,9 @@ sidebar_label: FarmingSimulator
 > :information_source: Diese Anleitung gilt auch für einen Dedicated Server von ZAP-Hosting mit Windowsserver 2016/2019. Wie Windows auf einem Dedicated Server installiert werden kann, erklären wir [hier](https://zap-hosting.com/guides/docs/de/dedicated_windows/).
 
 ## Basic Informationen: 
-Es wird ein Server, basieren auf Windowsserver 2016/2019 mit mindestens 4x 2,4 GHz CPU (AMD/Intel) sowie mindestens 2GB RAM (DDR3/4) und 6GB freien Speicher (SSD oder besser, bevorzugt) benötigt. Der Server muss auf der 64 Bit Architektur laufen. 
+Es wird ein Server, basierend auf Windowsserver 2016/2019 mit mindestens 4x 2,4 GHz CPU (AMD/Intel) sowie mindestens 2GB RAM (DDR3/4) und 6GB freien Speicher (SSD oder besser, bevorzugt) benötigt. Der Server muss auf der 64 Bit Architektur laufen. 
 Des Weiteren wird eine eigene GameLizenz benötigt (keine Steam Version), sowie eine öffentliche IPv4 Adresse. Eine GPU oder eine Soundkarte sind für den Dedicated Server nicht notwendig. 
-Je nachdem wie stark der Dedicated Server gemodded wird, mit Mods oder mit DLCś erweitert wird, sind ggf. mehr Ressourcen nötig. 
+Je nachdem, wie stark der Dedicated Server gemodded wird, mit Mods oder mit DLCs erweitert wird, sind ggf. mehr Ressourcen nötig. 
 
 
 ## Schritt 1 Digitale Lizenz erwerben
@@ -32,7 +32,8 @@ Verbinde dich via [RDP](https://zap-hosting.com/guides/docs/de/vserver_windows_u
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/YaSo85pefHf5r5n/preview)
 
-Anschließend wird die Datei heruntergeladen und sollte sich dann im Download Verzeichnis befinden. (Das Downloadverzeichnis kann abweichend sein) 
+Anschließend wird die Datei heruntergeladen und sollte sich dann im Download Verzeichnis befinden. (Das Downloadverzeichnis kann abweichend sein)
+
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/oKGSpHfkcwNTAyf/preview)
 
