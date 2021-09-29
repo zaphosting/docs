@@ -16,16 +16,16 @@ Damit der Fivem Servername unter "**Configs**" bearbeitet werden kann, muss dies
 In diesem Einstellungsfenster kann nun das Schloss-Symbol betätigt werden um die Einstellungen in der "**Config**" vornehmen zu können.
 Die Änderungen werden durch Nutzen des "**Speichern**" Buttons übernommen.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/KizwKET8oHk7tWR/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/2bnGcdBisPmBqfK/preview)
 
 Nun kann der Servername mit den gewünschten Codes in der "**Server.cfg**" gesetzt werden. 
 Diese befindet sich bei der Kategorie "**Configs**" 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/BgmDMGGHxYMxEYo/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/cMic2zTf9mKXDHW/preview)
 
-Der Servername und die gewünschten Farbcodes werden nun bei `sv_hostname="DEIN SERVERNAME"` gesetzt.
+Der Servername und die gewünschten Farbcodes werden nun bei `sets sv_projectName "DEIN SERVERNAME"` gesetzt.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/X6Y8W36rB6WisXr/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/RfiEfZ8gPiM4rxk/preview)
 
 ## Farben/ Farbcodes
 
