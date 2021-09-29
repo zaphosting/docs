@@ -8,9 +8,9 @@ sidebar_label: Emojis in Server Name
 ## Vorbereitung
 Um Emojis im Server Namen zu haben, muss zunächst der Server Name in den Einstellungen deaktiviert werden.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/w29qALyaoaxF9NT/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/6teRwxgDcEgeB4F/preview)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/xdYSaawZwBTDa3n/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/q8pp5y2QFiFHZXm/preview)
 
 Nun richten wir unseren [FTP-Zugang](gameserver_ftpaccess.md) ein.
 
@@ -30,9 +30,9 @@ Um die Emojis mit Notepad++ einzufügen, muss nach dem öffnen der Datei die Enc
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/BHBntRGHP6xaGQy/preview)
 
-Nachdem beides gesetzt wurde, kann der sv_hostname Parameter eingestellt werden:
+Nachdem beides gesetzt wurde, kann der sets sv_projectName Parameter eingestellt werden:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/n4LcG6G3fY44tMk/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/MkFyjNgDcWTiikf/preview)
 
 <!--Visual Studio Code-->
 <br>
@@ -48,9 +48,9 @@ Nun Drücken wir Enter und wählen "Save with Encoding", danach wählen wir UTF8
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/MDdg3CENgesRxY4/preview)
 
-Nachdem es gesetzt wurde, kann der sv_hostname Parameter eingestellt werden:
+Nachdem es gesetzt wurde, kann der sets sv_projectName Parameter eingestellt werden:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/fNX4Yn8QW6HkGdF/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/MkFyjNgDcWTiikf/preview)
 
 <!--END_DOCUSAURUS_CODE_TABS-->
 
