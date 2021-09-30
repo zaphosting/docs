@@ -19,7 +19,7 @@ Nachdem wir angemeldet sind, klicken wir oben auf "New", damit kommen wir ins Me
 ![](https://screensaver01.zap-hosting.com/index.php/s/XHJc9FjW7Pz6PAz/preview)
 
 
-## Daten Angeben
+## Daten angeben
 
 Nun können wir die Daten wie folgt befüllen:
 
@@ -28,13 +28,17 @@ Nun können wir die Daten wie folgt befüllen:
 - **Server Type:** Der Servertyp, in unserem Fall "Server Provider (rented server)"
 
 
-### IP Angeben
+### IP herausfinden
 
-Die IP muss ohne den Port angegeben werden, diese finden wir in unserem Interface ganz oben:
+Die IP deines Servers findest du im Tab FTP-Browser
 
-![](https://screensaver01.zap-hosting.com/index.php/s/iaw2Af6GEC5LWR6/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/LenaKY5iK7AQSMp/preview)
 
-## Key Generieren
+Die IP muss ohne den Port angegeben werden:
+
+![](https://screensaver01.zap-hosting.com/index.php/s/Y632MZJgrQNbYgr/preview)
+
+## Key generieren
 
 Nachdem alle unsere Daten befüllt sind, sollte die Keymaster Seite ungefähr so aussehen:
 
@@ -46,7 +50,9 @@ Auf der Homepage des keymasters können wir unseren neuen Key nun sehen:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/9cqJEbFeNgqrc9Z/preview)
 
-## Key Einstellen
+## Key einstellen
+
+> ⚠️ Bei txAdmin Servern muss der Lizenz-Key in der server.cfg bei sv_licensekey definiert werden!
 
 Nun Öffnen wir die Einstellungen unseres Gameservers und scrollen nach unten, hier können wir nun unseren eigenen Key unter "Eigener Lizenzkey (optional)" Angeben, das Endresultat sollte so aussehen.
 
