@@ -54,11 +54,11 @@ Fehler bezüglich einer fehlenden GPU oder ähnliches können ignoriert bzw. mit
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/CK6izaPpk7JLi67/preview)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/RdrFdQkWtX2JG65/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/SqrNNYyHZ9Cwqps/preview)
 
 Sobald der Key anerkannt wurde, erscheint eine Bestätigung. 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/MXgZBM4DyG8SCbB/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/RS9QGLspjeA4Pf2/preview)
 
 Nun muss in der Config des Dedicated Servers ein Login Name und Passwort gesetzt bzw. geändert/ausgelesen werden, damit ein Login in das Webinterface des Dedicated Servers möglich ist. 
 Die Config ist in der Standardinstallation unter 
