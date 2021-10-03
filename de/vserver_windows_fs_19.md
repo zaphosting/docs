@@ -33,13 +33,13 @@ Verbinde dich via [RDP](https://zap-hosting.com/guides/docs/de/vserver_windows_u
 Anschließend wird die Datei heruntergeladen und sollte sich dann im Download Verzeichnis befinden. (Das Downloadverzeichnis kann abweichend sein)
 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/oKGSpHfkcwNTAyf/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/YZaRsXW99TMEFAw/preview)
 
 Mit einem Doppelklick wird die Datei geöffnet und es kann die Setup.exe ausgeführt werden.
 Anschließend liest man die TOS und bestätigt sie. Danach kann die Installation als Standard oder Benutzerdefiniert erfolgen, in der Regel reicht Standard aus. 
 Zum Abschluss klickt man auf installieren und der FarmingSimulator 2019 wird nun installiert, dies kann einige Minuten dauern. 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/4dQAnKgYoEHxcex/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/5A2efQGi4yk3fjw/preview)
 
 Sobald der Installationsvorgang beendet ist, erscheint folgende Meldung, welche mit "Fertigstellen" bestätigt werden kann. 
 
