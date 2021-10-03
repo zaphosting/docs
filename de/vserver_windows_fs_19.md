@@ -22,13 +22,11 @@ Die digitale Version kann auf der [FarmingSimulator Webseite](https://www.farmin
 Nachdem die digitale Version erworben wurde, kann der FarmingSimulator online gedownloadet werden, folge dazu dem [Link](https://eshop.giants-software.com/downloads.php) aus der Mail, die du von Giants erhalten hast.
 > Wichtig: In der Mail befindet sich der GameKey der zum Download als auch zur späteren Aktivierung der Installation benötigt wird. 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/69SnoSLrbe2DNmi/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/KbccgYdHFLp3gWp/preview)
 
 ## Schritt 2 Download des Farmingsimulators direkt auf deinen Windowserver
 
 Verbinde dich via [RDP](https://zap-hosting.com/guides/docs/de/vserver_windows_userdp/) zu deinem Windowsserver. Nachdem du verbinden bist, öffne den Browser und rufe erneut den [Link](https://eshop.giants-software.com/downloads.php) aus der Mail auf. Gebe dort dann deinen GameKey ein und wähle dann den Download für Windows8/10. 
-
-![](https://screensaver01.zap-hosting.com/index.php/s/mnYbZNgimAF55aK/preview)
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/YaSo85pefHf5r5n/preview)
 
@@ -64,14 +62,14 @@ Sobald der Key anerkannt wurde, erscheint eine Bestätigung.
 
 Nun muss in der Config des Dedicated Servers ein Login Name und Passwort gesetzt bzw. geändert/ausgelesen werden, damit ein Login in das Webinterface des Dedicated Servers möglich ist. 
 Die Config ist in der Standardinstallation unter 
-C:\Program Files (x86)\Farming Simulator 2019 zu finden unter dem Namen "dedicatedServer.xml". 
+`C:\Program Files (x86)\Farming Simulator 2019` zu finden unter dem Namen `"dedicatedServer.xml"`. 
 Die Logindaten können frei angepasst werden. 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/wDcfAgymENcJ3Aa/preview)
 
 ## Schritt 4 Farming Simulator 2019 Dedicated Server starten
 
-Um den Dedicated Server zu starten, muss im gleichen Verzeichnis, wo auch die "dedicatedServer.xml" liegt, die "dedicatedServer.exe" ausgeführt werden.
+Um den Dedicated Server zu starten, muss im gleichen Verzeichnis, wo auch die `"dedicatedServer.xml"` liegt, die `"dedicatedServer.exe"` ausgeführt werden.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/5YGepFzoR9bHAcF/preview)
 
