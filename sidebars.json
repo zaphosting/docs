@@ -104,7 +104,8 @@
                     "vserver_windows_installmysql",
                     "vserver_windows_plesk",
                     "vserver_windows_change_language",
-                    "vserver_windows_expand_disk"
+                    "vserver_windows_expand_disk",
+                    "vserver_windows_fs_19"
                 ]
             }
         ],
