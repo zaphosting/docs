@@ -73,11 +73,11 @@ Um den Dedicated Server zu starten, muss im gleichen Verzeichnis, wo auch die `"
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/5YGepFzoR9bHAcF/preview)
 
-Anschließend kann das Webinterface via https://SERVER-IP:8080 geöffnet werden. 
+Anschließend kann das Webinterface via `https://SERVER-IP:8080` geöffnet werden. 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/ybm8aEYLN2ECJJr/preview)
 
-Der Login ist mit den zuvor gesetzten/ausgelesenen Login Daten aus der "dedicatedServer.xml" möglich. 
+Der Login ist mit den zuvor gesetzten/ausgelesenen Login Daten aus der `"dedicatedServer.xml"` möglich. 
 Die weitere Konfiguration ist im Webinterface selbsterklärend und kann mit wenigen Klicks vorgenommen werden, ganz nach den persönlichen Wünschen. 
 
 ## Schritt 5 Ports freischalten in der Firewall
