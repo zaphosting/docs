@@ -22,6 +22,8 @@ The following text is now entered in this file:
 
 ```
 fx_version 'cerulean'
+games { 'gta5' }
+
 ```
 
 Then the fxmanifest.lua can be saved and closed, we no longer need it.
