@@ -22,6 +22,7 @@ In dieser Datei wird nun folgender Text eingetragen:
 
 ```
 fx_version 'cerulean'
+games { 'gta5' }
 ```
 
 Danach kann die fxmanifest.lua gespeichert und geschlossen werden, diese brauchen wir nun nicht mehr.
