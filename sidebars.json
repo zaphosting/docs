@@ -270,6 +270,7 @@
         ],
         "Satisfactory": [
             "satisfactory_connect",
+            "satisfactory_connect_experimental",
             "satisfactory_savegame",
             "satisfactory_addmods"
         ],
