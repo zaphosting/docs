@@ -580,13 +580,13 @@
         "title": "Install Mods",
         "sidebar_label": "Install Mods"
       },
-      "satisfactory_connect": {
-        "title": "Connect to the Server",
-        "sidebar_label": "Connect to the Server"
-      },
       "satisfactory_connect_experimental": {
         "title": "Connect to the Server (Experimental)",
         "sidebar_label": "Connect to the Server (Experimental)"
+      },
+      "satisfactory_connect": {
+        "title": "Connect to the Server",
+        "sidebar_label": "Connect to the Server"
       },
       "satisfactory_savegame": {
         "title": "Savegame-Manager",
