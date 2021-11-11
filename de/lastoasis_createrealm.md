@@ -24,6 +24,8 @@ Klicke dann im Anschluss auf "Settings":
 Hier angekommen, kannst du bereits deinen Game Server Key einsehen.
 Den Key musst du bei dir im Interface vom Server unter dem Reiter "Einstellungen" bei "Customer Key" eintragen:
 
+![img](https://screensaver01.zap-hosting.com/index.php/s/RYp88x9k3p5QSKK/preview)
+
 ![img](https://screensaver01.zap-hosting.com/index.php/s/xaNMYaqQx63MT2n/preview)
 
 Darunter kannst du einen Provider Key erstellen, indem du auf "Add New Key" klickst:
