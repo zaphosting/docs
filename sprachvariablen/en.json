@@ -265,6 +265,10 @@
         "title": "Empyrion Server: Become an Admin",
         "sidebar_label": "Become Admin"
       },
+      "exiled_plugins": {
+        "title": "EXILED: Installing plugins on your server",
+        "sidebar_label": "Plugins Install"
+      },
       "factorio_becomeadmin": {
         "title": "Factorio Server: Become an Admin",
         "sidebar_label": "Become Admin"
