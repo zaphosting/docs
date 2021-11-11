@@ -580,6 +580,10 @@
         "title": "Install Mods",
         "sidebar_label": "Install Mods"
       },
+      "satisfactory_connect_experimental": {
+        "title": "Connect to the Server (Experimental)",
+        "sidebar_label": "Connect to the Server (Experimental)"
+      },
       "satisfactory_connect": {
         "title": "Connect to the Server",
         "sidebar_label": "Connect to the Server"
@@ -827,6 +831,10 @@
       "vserver_windows_expand_disk": {
         "title": "VPS: Extending the hard disk on Windows Server",
         "sidebar_label": "Extend disk"
+      },
+      "vserver_windows_fs_19": {
+        "title": "vServer: Install FarmingSimulator 2019 on Windows",
+        "sidebar_label": "FarmingSimulator"
       },
       "vserver_windows_ftpserver": {
         "title": "VPS: Install FTP Server on Windows Server",

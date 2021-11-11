@@ -104,7 +104,8 @@
                     "vserver_windows_installmysql",
                     "vserver_windows_plesk",
                     "vserver_windows_change_language",
-                    "vserver_windows_expand_disk"
+                    "vserver_windows_expand_disk",
+                    "vserver_windows_fs_19"
                 ]
             }
         ],
@@ -269,6 +270,7 @@
         ],
         "Satisfactory": [
             "satisfactory_connect",
+            "satisfactory_connect_experimental",
             "satisfactory_savegame",
             "satisfactory_addmods"
         ],
@@ -369,6 +371,13 @@
                 "label": "ServerMod",
                 "ids": [
                     "scpservermod_uploadplugins"
+                ]
+            },
+            {
+                "type": "subcategory",
+                "label": "Exiled",
+                "ids": [
+                    "exiled_plugins"
                 ]
             }
         ],

@@ -36,10 +36,9 @@ Nun suchen wir unseren Charakter und drücken dann auf  *Bearbeiten*
 
 **6** Superadmin rang zuweisen
 
-Nun scrollen wir nach unten bis wir beim Punkt *permission_level* und *group* angekommen sind
+Nun scrollen wir nach unten bis wir beim Punkt und *group* angekommen sind
 ![](https://screensaver01.zap-hosting.com/index.php/s/G6Fp9MS9eBBz4fi/preview)
-Diese beiden ändern wir nun wie im Bild gezeigt um:
-![](https://screensaver01.zap-hosting.com/index.php/s/jS24NGqzxGtJ7sr/preview)
 
+Diese ändern wir dann zu `admin`.
 
 Das wars auch schon. Nun seit ihr Admin auf eurem eigenen Server

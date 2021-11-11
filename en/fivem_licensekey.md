@@ -30,10 +30,13 @@ Now we can fill the data as follows:
 
 ### Enter IP
 
-The IP must be specified without the port, we find this at the top of our interface:
+You will find the IP of your server in the "FTP-Browser" tab:
 
+![](https://screensaver01.zap-hosting.com/index.php/s/LenaKY5iK7AQSMp/preview)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/iaw2Af6GEC5LWR6/preview)
+You need to enter the IP without port.
+
+![](https://screensaver01.zap-hosting.com/index.php/s/ANJEtYo22tZf3Tx/preview)
 
 ## Generate Key
 
@@ -48,6 +51,8 @@ On the homepage of the keymaster we can now see our new key:
 ![](https://screensaver01.zap-hosting.com/index.php/s/9cqJEbFeNgqrc9Z/preview)
 
 ## Configure Key
+
+> ⚠️ on txAdmin servers the key must be defined in server.cfg at sv_licensekey!
 
 Now we open the settings of our game server and scroll down, here we can enter our own key under "Own license key (optional)", the final result should look like this.
 
