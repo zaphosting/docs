@@ -15,11 +15,7 @@ Mit Plugins hast du die Möglichkeit deinen Server noch individueller anzupassen
 
 ### Vorbereitung
 
-Zunächst einmal müssen die Plugins heruntergeladen werden, die auf dem Server installiert werden sollen. Eine große Auswahl an Plugins findest du unter [umod.org (ehemals OXIDE)](https://umod.org/plugins). Beim Download erhältst du dann eine **.cs** Datei. 
-
-![img](https://screensaver01.zap-hosting.com/index.php/s/dTXrJPLCD9YfD7y/preview)
-
-
+Zunächst einmal müssen die Plugins heruntergeladen werden, die auf dem Server installiert werden sollen. Eine große Auswahl an Plugins findest du unter (https://plugins.exiled.host/). Beim Download erhältst du dann eine **.cs** Datei. 
 
 ### Installation
 
