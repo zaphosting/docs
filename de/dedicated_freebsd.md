@@ -142,6 +142,6 @@ Das sollte dann in etwa so aussehen:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/pgGdbSerTe5236B/preview)
 
-Verlasse den Editor ebenfalls mit `STRG+C` und der Eingabe von "exit" und führe zum Abschluss einmal `etc/netstart` aus
+Verlasse den Editor ebenfalls mit `STRG+C` und der Eingabe von "exit" und führe zum Abschluss einmal `/etc/netstart` aus
 
 > Dein Server sollte nun eine Netzwerkverbindung haben
