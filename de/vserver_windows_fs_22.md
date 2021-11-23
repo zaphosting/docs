@@ -54,7 +54,7 @@ Fehler bezüglich einer fehlenden GPU oder ähnliches können ignoriert bzw. mit
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/aGWWdQ3jJMSB7Mr/preview)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/GjPaAQDws3jCtX9)
+![](https://screensaver01.zap-hosting.com/index.php/s/GjPaAQDws3jCtX9/preview)
 
 Nun muss in der Config des Dedicated Servers ein Login Name und Passwort gesetzt bzw. geändert/ausgelesen werden, damit ein Login in das Webinterface des Dedicated Servers möglich ist. 
 Die Config ist in der Standardinstallation unter 
