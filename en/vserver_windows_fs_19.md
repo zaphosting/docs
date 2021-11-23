@@ -2,7 +2,7 @@
 id: vserver_windows_fs_19
 title: vServer: Install FarmingSimulator 2019 on Windows
 description: Information on how to install and set up a FarmingSimulator Dedicated Server 2019 on your Windows vServer and Dedicated Server from ZAP-Hosting - ZAP-Hosting.com Documentations
-sidebar_label: FarmingSimulator
+sidebar_label: FarmingSimulator 19
 ---
 
 # Installing a dedicated server for Farming Simulator 2019
