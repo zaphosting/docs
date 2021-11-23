@@ -838,7 +838,11 @@
       },
       "vserver_windows_fs_19": {
         "title": "vServer: Install FarmingSimulator 2019 on Windows",
-        "sidebar_label": "FarmingSimulator"
+        "sidebar_label": "Farming-Simulator 2019"
+      },
+      "vserver_windows_fs_22": {
+        "title": "vServer: Install FarmingSimulator 2022 on Windows",
+        "sidebar_label": "Farming-Simulator 2022"
       },
       "vserver_windows_ftpserver": {
         "title": "VPS: Install FTP Server on Windows Server",
