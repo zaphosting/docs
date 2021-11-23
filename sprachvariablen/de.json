@@ -118,6 +118,10 @@
                 "title": "Assetto Corsa Competizione: Admin auf dem eigenen Server werden",
                 "sidebar_label": "Admin werden"
             },
+            "assetto_competizione_slot_requirement": {
+                "title": "Assetto Corsa Competizione: Car Slot Voraussetzungen",
+                "sidebar_label": "Car Slot Voraussetzungen"
+              },
             "assettocorsa_configure": {
                 "title": "Assetto Corsa: Server Konfigurieren",
                 "sidebar_label": "Server Konfigurieren"
@@ -262,6 +266,10 @@
                 "title": "Empyrion Server: Admin werden",
                 "sidebar_label": "Admin werden"
             },
+            "exiled_plugins": {
+                "title": "EXILED: Plugins auf Server installieren",
+                "sidebar_label": "Plugins installieren"
+              },
             "factorio_becomeadmin": {
                 "title": "Factorio Server: Admin werden",
                 "sidebar_label": "Admin werden"
@@ -478,6 +486,9 @@
                 "title": "Garry's Mod: TTT Konfiguration",
                 "sidebar_label": "Garry's Mod TTT Konfiguration"
             },
+            "lastoasis_createrealm": {
+                "title": "Realm Erstellen"
+              },
             "legal_use_brand_assets": {
                 "title": "Verwendung von Logo und Name",
                 "sidebar_label": "Verwendung von Logo und Name"
@@ -826,6 +837,14 @@
                 "title": "vServer: Festplatte auf Windows Server erweitern",
                 "sidebar_label": "Festplatte erweitern"
             },
+            "vserver_windows_fs_19": {
+                "title": "vServer: Landwirtschafts-Simulator 2019 auf Windows installieren",
+                "sidebar_label": "Landwirtschafts-Simulator 2019"
+              },
+              "vserver_windows_fs_22": {
+                "title": "vServer: Landwirtschafts-Simulator 2022 auf Windows installieren",
+                "sidebar_label": "Landwirtschafts-Simulator 2022"
+              },
             "vserver_windows_ftpserver": {
                 "title": "vServer: FTP Server auf Windows Server installieren",
                 "sidebar_label": "FTP Server installieren"
@@ -924,7 +943,8 @@
             "Rust": "Rust",
             "Among Us": "Among Us",
             "7 Days to Die": "7 Days to Die",
-            "Avorion": "Avorion"
+            "Avorion": "Avorion",
+            "Last Oasis": "Last Oasis"
         }
     },
     "pages-strings": {
