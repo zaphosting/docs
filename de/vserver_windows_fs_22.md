@@ -1,11 +1,11 @@
 ---
-id: vserver_windows_fs_19
-title: vServer: FarmingSimulator 2019 auf Windows installieren
-description: Informationen wie du einen FarmingSimulator Dedicated Server 2019 auf deinen Windows vServer und Dedicated Server von ZAP-Hosting installieren und einrichten kannst - ZAP-Hosting.com Dokumentationen
-sidebar_label: Landwirtschafts-Simulator 2019
+id: vserver_windows_fs_22
+title: vServer: FarmingSimulator 2022 auf Windows installieren
+description: Informationen wie du einen FarmingSimulator Dedicated Server 2022 auf deinen Windows vServer und Dedicated Server von ZAP-Hosting installieren und einrichten kannst - ZAP-Hosting.com Dokumentationen
+sidebar_label: Landwirtschafts-Simulator 2022
 ---
 
-# Installation eines Dedicated Servers für den Farming Simulator 2019
+# Installation eines Dedicated Servers für den Farming Simulator 2022
 
 > :information_source: Diese Anleitung gilt auch für einen Dedicated Server von ZAP-Hosting mit Windowsserver 2016/2019. Wie Windows auf einem Dedicated Server installiert werden kann, erklären wir [hier](https://zap-hosting.com/guides/docs/de/dedicated_windows/).
 
@@ -17,33 +17,33 @@ Je nachdem, wie stark der Dedicated Server gemodded wird, mit Mods oder mit DLCs
 
 ## Schritt 1 Digitale Lizenz erwerben
 
-Es wird eine digitale Version des FarmingSimulators 2019 benötigt, es darf keine Steam Version sein. 
+Es wird eine digitale Version des FarmingSimulators 2022 benötigt, es darf keine Steam Version sein. 
 Die digitale Version kann auf der [FarmingSimulator Webseite](https://www.farming-simulator.com/buy-now.php?lang=de&country=de&platform=pcdigital) erworben werden.
 Nachdem die digitale Version erworben wurde, kann der FarmingSimulator online gedownloadet werden, folge dazu dem [Link](https://eshop.giants-software.com/downloads.php) aus der Mail, die du von Giants erhalten hast.
 > Wichtig: In der Mail befindet sich der GameKey der zum Download als auch zur späteren Aktivierung der Installation benötigt wird. 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/KbccgYdHFLp3gWp/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/T259C43GH9H7kWt/preview)
 
 ## Schritt 2 Download des Farmingsimulators direkt auf deinen Windowserver
 
-Verbinde dich via [RDP](https://zap-hosting.com/guides/docs/de/vserver_windows_userdp/) zu deinem Windowsserver. Nachdem du verbinden bist, öffne den Browser und rufe erneut den [Link](https://eshop.giants-software.com/downloads.php) aus der Mail auf. Gebe dort dann deinen GameKey ein und wähle dann den Download für Windows8/10. 
+Verbinde dich via [RDP](https://zap-hosting.com/guides/docs/de/vserver_windows_userdp/) zu deinem Windowsserver. Nachdem du verbunden bist, öffne den Browser und rufe erneut den [Link](https://eshop.giants-software.com/downloads.php) aus der Mail auf. Gebe dort dann deinen GameKey ein und wähle dann den Download für Windows8/10. 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/YaSo85pefHf5r5n/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/zmdSogySFe7kpnN/preview)
 
 Anschließend wird die Datei heruntergeladen und sollte sich dann im Download Verzeichnis befinden. (Das Downloadverzeichnis kann abweichend sein)
 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/YZaRsXW99TMEFAw/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/ko2xte3pwPNpZt9/preview)
 
 Mit einem Doppelklick wird die Datei geöffnet und es kann die Setup.exe ausgeführt werden.
 Anschließend liest man die TOS und bestätigt sie. Danach kann die Installation als Standard oder Benutzerdefiniert erfolgen, in der Regel reicht Standard aus. 
-Zum Abschluss klickt man auf installieren und der FarmingSimulator 2019 wird nun installiert, dies kann einige Minuten dauern. 
+Zum Abschluss klickt man auf installieren und der FarmingSimulator 2022 wird nun installiert, dies kann einige Minuten dauern. 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/5A2efQGi4yk3fjw/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/M7SJTdXdReR7jNg/preview)
 
 Sobald der Installationsvorgang beendet ist, erscheint folgende Meldung, welche mit "Fertigstellen" bestätigt werden kann. 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/BbET9BNdjQMdCLN/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/2wJfDEJ34odSnPj/preview)
 
 Die Basis-Installation ist nun abgeschlossen. 
 
@@ -52,30 +52,26 @@ Die Basis-Installation ist nun abgeschlossen.
 Nun muss der Farming Simulator gestartet werden. Auf dem Desktop sollte eine Verknüpfung liegen, falls nicht, kann er auch über das Windows Menü gestartet werden. 
 Fehler bezüglich einer fehlenden GPU oder ähnliches können ignoriert bzw. mit Nein/Abbrechen geschlossen werden. Der Farming Simulator muss nur gestartet werden, um den Key eingeben zu können. 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/CK6izaPpk7JLi67/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/aGWWdQ3jJMSB7Mr/preview)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SqrNNYyHZ9Cwqps/preview)
-
-Sobald der Key anerkannt wurde, erscheint eine Bestätigung. 
-
-![](https://screensaver01.zap-hosting.com/index.php/s/RS9QGLspjeA4Pf2/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/GjPaAQDws3jCtX9/preview)
 
 Nun muss in der Config des Dedicated Servers ein Login Name und Passwort gesetzt bzw. geändert/ausgelesen werden, damit ein Login in das Webinterface des Dedicated Servers möglich ist. 
 Die Config ist in der Standardinstallation unter 
-`C:\Program Files (x86)\Farming Simulator 2019` zu finden unter dem Namen `"dedicatedServer.xml"`. 
+`C:\Program Files (x86)\Farming Simulator 2022` zu finden unter dem Namen `"dedicatedServer.xml"`. 
 Die Logindaten können frei angepasst werden. 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/wDcfAgymENcJ3Aa/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/AiYeAzCiikwCLqD/preview)
 
-## Schritt 4 Farming Simulator 2019 Dedicated Server starten
+## Schritt 4 Farming Simulator 2022 Dedicated Server starten
 
 Um den Dedicated Server zu starten, muss im gleichen Verzeichnis, wo auch die `"dedicatedServer.xml"` liegt, die `"dedicatedServer.exe"` ausgeführt werden.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/5YGepFzoR9bHAcF/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/wm5J9rsSWxKQabc/preview)
 
 Anschließend kann das Webinterface via `https://SERVER-IP:8080` geöffnet werden. 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/ybm8aEYLN2ECJJr/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/W6KszSCLpWXTKiL/preview)
 
 Der Login ist mit den zuvor gesetzten/ausgelesenen Login Daten aus der `"dedicatedServer.xml"` möglich. 
 Die weitere Konfiguration ist im Webinterface selbsterklärend und kann mit wenigen Klicks vorgenommen werden, ganz nach den persönlichen Wünschen. 
