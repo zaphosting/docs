@@ -1,11 +1,11 @@
 ---
 id: vserver_windows_fs_22
-title: vServer: FarmingSimulator 2022 auf Windows installieren
-description: Informationen wie du einen FarmingSimulator Dedicated Server 2022 auf deinen Windows vServer und Dedicated Server von ZAP-Hosting installieren und einrichten kannst - ZAP-Hosting.com Dokumentationen
+title: vServer: Landwirtschafts-Simulator 2022 auf Windows installieren
+description: Informationen wie du einen Landwirtschafts-Simulator Dedicated Server 2022 auf deinen Windows vServer und Dedicated Server von ZAP-Hosting installieren und einrichten kannst - ZAP-Hosting.com Dokumentationen
 sidebar_label: Landwirtschafts-Simulator 2022
 ---
 
-# Installation eines Dedicated Servers für den Farming Simulator 2022
+# Installation eines Dedicated Servers für den Landwirtschafts-Simulator 2022
 
 > :information_source: Diese Anleitung gilt auch für einen Dedicated Server von ZAP-Hosting mit Windowsserver 2016/2019. Wie Windows auf einem Dedicated Server installiert werden kann, erklären wir [hier](https://zap-hosting.com/guides/docs/de/dedicated_windows/).
 
@@ -17,14 +17,14 @@ Je nachdem, wie stark der Dedicated Server gemodded wird, mit Mods oder mit DLCs
 
 ## Schritt 1 Digitale Lizenz erwerben
 
-Es wird eine digitale Version des FarmingSimulators 2022 benötigt, es darf keine Steam Version sein. 
-Die digitale Version kann auf der [FarmingSimulator Webseite](https://www.farming-simulator.com/buy-now.php?lang=de&country=de&platform=pcdigital) erworben werden.
-Nachdem die digitale Version erworben wurde, kann der FarmingSimulator online gedownloadet werden, folge dazu dem [Link](https://eshop.giants-software.com/downloads.php) aus der Mail, die du von Giants erhalten hast.
+Es wird eine digitale Version des Landwirtschafts-Simulator 2022 benötigt, es darf keine Steam Version sein. 
+Die digitale Version kann auf der [Landwirtschafts-Simulator Webseite](https://www.farming-simulator.com/buy-now.php?lang=de&country=de&platform=pcdigital) erworben werden.
+Nachdem die digitale Version erworben wurde, kann der Landwirtschafts-Simulator online gedownloadet werden, folge dazu dem [Link](https://eshop.giants-software.com/downloads.php) aus der Mail, die du von Giants erhalten hast.
 > Wichtig: In der Mail befindet sich der GameKey der zum Download als auch zur späteren Aktivierung der Installation benötigt wird. 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/T259C43GH9H7kWt/preview)
 
-## Schritt 2 Download des Farmingsimulators direkt auf deinen Windowserver
+## Schritt 2 Download des Landwirtschafts-Simulator direkt auf deinen Windowserver
 
 Verbinde dich via [RDP](https://zap-hosting.com/guides/docs/de/vserver_windows_userdp/) zu deinem Windowsserver. Nachdem du verbunden bist, öffne den Browser und rufe erneut den [Link](https://eshop.giants-software.com/downloads.php) aus der Mail auf. Gebe dort dann deinen GameKey ein und wähle dann den Download für Windows8/10. 
 
@@ -37,7 +37,7 @@ Anschließend wird die Datei heruntergeladen und sollte sich dann im Download Ve
 
 Mit einem Doppelklick wird die Datei geöffnet und es kann die Setup.exe ausgeführt werden.
 Anschließend liest man die TOS und bestätigt sie. Danach kann die Installation als Standard oder Benutzerdefiniert erfolgen, in der Regel reicht Standard aus. 
-Zum Abschluss klickt man auf installieren und der FarmingSimulator 2022 wird nun installiert, dies kann einige Minuten dauern. 
+Zum Abschluss klickt man auf installieren und der Landwirtschafts-Simulator 2022 wird nun installiert, dies kann einige Minuten dauern. 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/M7SJTdXdReR7jNg/preview)
 
@@ -49,8 +49,8 @@ Die Basis-Installation ist nun abgeschlossen.
 
 ## Schritt 3 Aktivierung des Games und Konfiguration des Dedicated Servers
 
-Nun muss der Farming Simulator gestartet werden. Auf dem Desktop sollte eine Verknüpfung liegen, falls nicht, kann er auch über das Windows Menü gestartet werden. 
-Fehler bezüglich einer fehlenden GPU oder ähnliches können ignoriert bzw. mit Nein/Abbrechen geschlossen werden. Der Farming Simulator muss nur gestartet werden, um den Key eingeben zu können. 
+Nun muss der Landwirtschafts-Simulator  gestartet werden. Auf dem Desktop sollte eine Verknüpfung liegen, falls nicht, kann er auch über das Windows Menü gestartet werden. 
+Fehler bezüglich einer fehlenden GPU oder ähnliches können ignoriert bzw. mit Nein/Abbrechen geschlossen werden. Der Landwirtschafts-Simulator muss nur gestartet werden, um den Key eingeben zu können. 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/aGWWdQ3jJMSB7Mr/preview)
 
@@ -58,12 +58,12 @@ Fehler bezüglich einer fehlenden GPU oder ähnliches können ignoriert bzw. mit
 
 Nun muss in der Config des Dedicated Servers ein Login Name und Passwort gesetzt bzw. geändert/ausgelesen werden, damit ein Login in das Webinterface des Dedicated Servers möglich ist. 
 Die Config ist in der Standardinstallation unter 
-`C:\Program Files (x86)\Farming Simulator 2022` zu finden unter dem Namen `"dedicatedServer.xml"`. 
+`C:\Program Files (x86)\Landwirtschafts-Simulator 2022` zu finden unter dem Namen `"dedicatedServer.xml"`. 
 Die Logindaten können frei angepasst werden. 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/AiYeAzCiikwCLqD/preview)
 
-## Schritt 4 Farming Simulator 2022 Dedicated Server starten
+## Schritt 4 Landwirtschafts-Simulator 2022 Dedicated Server starten
 
 Um den Dedicated Server zu starten, muss im gleichen Verzeichnis, wo auch die `"dedicatedServer.xml"` liegt, die `"dedicatedServer.exe"` ausgeführt werden.
 
