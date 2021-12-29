@@ -438,6 +438,10 @@
                 "title": "FiveM VRP Server: Speedometer entfernen",
                 "sidebar_label": "Speedometer Entfernen"
             },
+               "fivem_gamebuild": {
+                "title": "FiveM DLC Gamebuild aktivieren",
+                "sidebar_label": "DLC Gamebuild aktivieren"
+            },
             "gameserver_backups": {
                 "title": "Gameserver: Backups bei ZAP-Hosting erstellen, herunterladen und einspielen",
                 "sidebar_label": "Backups"
