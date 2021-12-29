@@ -214,7 +214,8 @@
                     "fivem_mastadon",
                     "fivem_prohibited_resources",
                     "fivem_notlisted",
-                    "fivem_devtools"
+                    "fivem_devtools",
+                    "fivem_gamebuild"
                 ]
             },
             {
