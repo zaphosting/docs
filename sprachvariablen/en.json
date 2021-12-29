@@ -360,6 +360,10 @@
       "fivem_gamebuild": {
         "title": "Enable DLC Content",
         "sidebar_label": "Enable DLC Gamebuild"
+              },
+      "fivem_gamechange": {
+        "title": "FiveM Change Game",
+        "sidebar_label": "Change Game"
       },
       "fivem_installels": {
         "title": "FiveM: Installing ELS on your server",
