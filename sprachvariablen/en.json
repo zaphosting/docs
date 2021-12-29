@@ -357,6 +357,10 @@
         "title": "FiveM ESX Server: Disable inventory (F2)",
         "sidebar_label": "Deactivate the Inventory (F2)"
       },
+      "fivem_gamebuild": {
+        "title": "Enable DLC Content",
+        "sidebar_label": "Enable DLC Gamebuild"
+      },
       "fivem_installels": {
         "title": "FiveM: Installing ELS on your server",
         "sidebar_label": "Install ELS"
@@ -436,10 +440,6 @@
       "fivem_vrp_removespeedo": {
         "title": "FiveM VRP Server: Remove Speedometer",
         "sidebar_label": "Remove Speedometer"
-      },
-       "fivem_gamebuild": {
-        "title": "FiveM Enable DLC Gamebuild",
-        "sidebar_label": "Enable DLC Gamebuild"
       },
       "gameserver_backups": {
         "title": "Gameserver: Creating, downloading and importing backups at ZAP-Hosting",
