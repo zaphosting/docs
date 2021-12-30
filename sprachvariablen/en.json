@@ -593,8 +593,8 @@
         "sidebar_label": "Install Mods"
       },
       "satisfactory_connect_experimental": {
-        "title": "Connect to the Server (Experimental)",
-        "sidebar_label": "Connect to the Server (Experimental)"
+        "title": "Connect to the Server",
+        "sidebar_label": "Connect to the Server"
       },
       "satisfactory_connect": {
         "title": "Connect to the Server",
