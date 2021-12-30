@@ -4,8 +4,6 @@ title: Connect to the Server (Experimental)
 sidebar_label: Connect to the Server (Experimental)
 ---
 
-> ⚠️ This guide only works with Satisfactory Experimental (Update 5.0)
-
 Open your ZAP-Hosting Gameserver Dashboard and verify that the Server is Online:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/4SnRTZHYps44ffD/preview)
