@@ -4,8 +4,6 @@ title: Zum Server verbinden (Experimental)
 sidebar_label: Zum Server binden (Experimental)
 ---
 
-> ⚠️ Diese Anleitung funktioniert nur mit Satisfactory Experimental (Update 5.0)
-
 Öffne dein ZAP-Hosting Gameserver Dashboard und stelle sicher das dein Server gestartet ist:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/4SnRTZHYps44ffD/preview)
