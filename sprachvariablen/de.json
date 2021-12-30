@@ -598,8 +598,8 @@
                 "sidebar_label": "Zum Server verbinden"
                 },
             "satisfactory_connect_experimental": {
-                "title": "Zum Server verbinden (Experimental)",
-                "sidebar_label": "Zum Server verbinden (Experimental)"
+                "title": "Zum Server verbinden",
+                "sidebar_label": "Zum Server verbinden"
             },
             "satisfactory_savegame": {
                 "title": "Savegame-Manager",
