@@ -37,3 +37,4 @@ Aktuelle Builds:
 - Build 2060 Los Santos Summer Special
 - Build 2189 Cayo Perico
 - Build 2372 Tuner DLC
+- Build 2545 The Contract
