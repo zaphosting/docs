@@ -27,7 +27,7 @@ To enable the content on a txadmin server, you need to open your txadmin-interfa
 Just add the desired gamebuild in the Additional Arguments
 
 ```
-+sev sv_enforceGameBuild ID
++set sv_enforceGameBuild ID
 ```
 
 After adding the command, be sure the changes and to save and reboot the server.
