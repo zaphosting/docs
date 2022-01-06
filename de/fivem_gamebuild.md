@@ -27,7 +27,7 @@ Um die Inhalte auf einem txAdmin Server zu aktivieren, muss in den FXServer Eins
 Füge einfach unter Additional Arguments 
 
 ```
-+sev sv_enforceGameBuild ID
++set sv_enforceGameBuild ID
 ```
 
 hinzu und speichere die Änderungen, sowie starte den Server neu.
