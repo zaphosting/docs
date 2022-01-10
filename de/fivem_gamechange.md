@@ -1,8 +1,8 @@
 ---
 id: fivem_gamechange
-title: Spielwechsel
-description: Wechsel zwischen den FiveM Versionen
-sidebar_label: Spielwechsel
+title: Spielversion ändern
+description: Wechsel zwischen den Spielversionen
+sidebar_label: Spielversion ändern
 
 ---
 
