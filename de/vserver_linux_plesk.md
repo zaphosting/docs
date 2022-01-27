@@ -8,7 +8,7 @@ sidebar_label: Plesk
 ## Plesk installieren
 
 > Führe vor dem Install apt update und apt upgrade aus, damit auf dem Server die neusten Pakete installiert sind. 
-Plesk kann aktuell nur auf Debian 8 (Jessie), Debian 9 (Strech), Ubuntu 16.04 (Xenial Xerus), Ubuntu 18.04 (Bionic Beaver), CentOS 6/7/8, Red Hat Enterprise Linux 6.x/7.x/8.x, CloudLinux 6.x/7.1+ und Virtuozzo Linux 7 installiert werden. Die Architektur muss 64 Bit sein.
+Plesk kann aktuell nur auf Debian 9 (Strech), Debian 10 (Buster), Ubuntu 18.04 (Bionic Beaver), Ubuntu 20.04 (Focal Fossa), CentOS 7/8, Red Hat Enterprise Linux 7.x/8.x, CloudLinux 7.1+/8, AlmaLinux OS, Rocky Linux 8.x und Virtuozzo Linux 7 installiert werden. Die Architektur muss 64 Bit sein.
 
 Die Verbindung zum Server kann zum Beispiel via Putty erfolgen.
 
