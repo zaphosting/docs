@@ -11,8 +11,8 @@ With the interface you can easily install a Teamspeak 3 server or various select
 And you don't need any experience with Linux!
 
 > **Important**: The interface can only be installed on the following Linux distributions:
-> 1. **Debian 9**
 > 1. **Debian 10**
+> 1. **Debian 11**
 
 ## Preparations
 To install the Gameserver-Webinterface. Navigate to the menu in your settings category.
