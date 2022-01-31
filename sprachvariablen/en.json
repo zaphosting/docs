@@ -187,7 +187,7 @@
       },
       "dedicated_freebsd": {
         "title": "Install FreeBSD",
-        "sidebar_label": "Install FreebSD"
+        "sidebar_label": "Install FreeBSD"
       },
       "dedicated_ilo": {
         "title": "iLO",
