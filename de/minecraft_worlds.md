@@ -5,6 +5,8 @@ description: Informationen, wie du mehrere Welten auf deinem Minecraft-Server vo
 sidebar_label: Welten Verwalten
 ---
 
+Hier gelangst du zu unseren Minecraft Server: [Minecraft Server mieten](https://zap-hosting.com/minecraft-server-mieten/)
+
 ## 📶 Verbindung aufbauen
 
 Deine Welt kannst du über ein Programm wie FileZilla Client oder WinSCP verwalten. In unserem Beispiel benutzen wir FileZilla.
