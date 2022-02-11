@@ -5,7 +5,7 @@ description: Informationen, wie du deinen Minecraft-Server von ZAP-Hosting für 
 sidebar_label: Minecraft-Server optimieren
 ---
 
-ier gelangst du zu unseren Minecraft Servern: [Minecraft Server mieten](https://zap-hosting.com/de/minecraft-server-mieten/)
+Hier gelangst du zu unseren Minecraft Servern: [Minecraft Server mieten](https://zap-hosting.com/de/minecraft-server-mieten/)
 
 ### Was genau passiert bei der Optimierung?
 
