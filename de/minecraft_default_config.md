@@ -5,6 +5,8 @@ description: Informationen zu den Server Config-Einstellungen deines Minecraft-S
 sidebar_label: Server Config
 ---
 
+Hier gelangst du zu unseren Minecraft Server: [Minecraft Server mieten](https://zap-hosting.com/minecraft-server-mieten/)
+
 ## Was kann ich in dieser Config einstellen?
 
 Minecraft bringt bereits eine kleine Config mit sich, welche sich *server.properties* nennt.
