@@ -40,11 +40,3 @@ It is also possible that resources prevent the server from being listed, in this
 If none of this helps, a fresh install is recommended, this will reset all server files to default.
 
 > Be sure to make a backup before reinstalling, otherwise the data on the server will be lost.
-
-You can reinstall your server as follows:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/iMsLskaZJC8FWgC/preview)
-
-![](https://screensaver01.zap-hosting.com/index.php/s/is5Tq7i8XdizErH/preview)
-
-![](https://screensaver01.zap-hosting.com/index.php/s/qYriD6i3R7X7xdz/preview)
