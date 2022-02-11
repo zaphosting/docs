@@ -5,6 +5,8 @@ description: Informationen, wie du deinen Minecraft-Server von ZAP-Hosting für 
 sidebar_label: Minecraft-Server optimieren
 ---
 
+Hier gelangst du zu unseren Minecraft Server: [Minecraft Server mieten](https://zap-hosting.com/minecraft-server-mieten/)
+
 ### Was genau passiert bei der Optimierung?
 
 Die Optimierung ist ein wichtige Punkt bei Minecraft-Servern, damit ein reibungsloser Betrieb möglich ist und man sollte sich in jedem Fall bei einem öffentlichen Server hierfür ausreichend Zeit nehmen.
