@@ -5,7 +5,7 @@ description: Informationen wie du Lag-Probleme bei deinem Minecraft-Server mit e
 sidebar_label: Timings-Report
 ---
 
-Hier gelangst du zu unseren Minecraft Server: [Minecraft Server mieten](https://zap-hosting.com/de/minecraft-server-mieten/)
+Hier gelangst du zu unseren Minecraft Servern: [Minecraft Server mieten](https://zap-hosting.com/de/minecraft-server-mieten/)
 
 ## Erklärung
 
