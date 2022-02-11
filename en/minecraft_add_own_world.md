@@ -5,6 +5,8 @@ description: Information on how to add your own world to your Minecraft server f
 sidebar_label: Add your own world
 ---
 
+Click here to get to our Minecraft servers: [Minecraft server hosting](https://zap-hosting.com/en/minecraft-server-hosting/)
+
 You want to use your own world or a world downloaded from the internet on your server? Then this is the right place for you! All you need is your world and an FTP client. If you don't know what a FTP client is and how to use it, then have a look at the following instructions: [FTP file access](https://docs.zap-hosting.com/docs/de/gameserver_ftpaccess/)
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/prEoEyBQ6WAqnEH/preview)
