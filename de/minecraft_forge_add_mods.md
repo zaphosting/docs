@@ -5,7 +5,7 @@ description: Informationen, wie du Mods auf deinen Minecraft Forge-Server von ZA
 sidebar_label: Mods installieren
 ---
 
-Hier gelangst du zu unseren Minecraft Server: [Minecraft Server mieten](https://zap-hosting.com/minecraft-server-mieten/)
+Hier gelangst du zu unseren Minecraft Server: [Minecraft Server mieten](https://zap-hosting.com/de/minecraft-server-mieten/)
 
 ## Mods finden
 
