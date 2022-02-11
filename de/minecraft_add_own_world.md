@@ -5,6 +5,8 @@ description: Informationen, wie du eine eigene Welt zu deinem Minecraft-Server v
 sidebar_label: Eigene Welt hinzufügen
 ---
 
+Hier gelangst du zu unseren Minecraft Server: [Minecraft Server mieten](https://zap-hosting.com/minecraft-server-mieten/)
+
 Du möchtest eine eigene oder aus dem Internet heruntergeladene Welt auf deinem Server benutzen? Dann bist du hier genau richtig! Alles was du dafür benötigst, ist deine Welt und einen FTP-Client. Falls du noch nicht weißt, was ein FTP-Client ist und wie du diesen benutzen kannst, dann schaue am besten in die folgende Anleitung: [FTP-Dateizugriff](https://docs.zap-hosting.com/docs/de/gameserver_ftpaccess/)
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/Zfe6MyGX7MxSarS/preview)
