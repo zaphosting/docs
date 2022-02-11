@@ -5,6 +5,8 @@ description: Information on how to manage multiple worlds on your Minecraft serv
 sidebar_label: Manage Worlds
 ---
 
+Click here to get to our Minecraft servers: [Minecraft server hosting](https://zap-hosting.com/en/minecraft-server-hosting/)
+
 ## 📶 Connecting to FTP
 
 You can manage your world with a program like FileZilla Client or WinSCP. In our example we use FileZilla. 
