@@ -5,6 +5,8 @@ description: Information on how to install mods on your Minecraft Forge server f
 sidebar_label: Mods Installation
 ---
 
+Click here to get to our Minecraft servers: [Minecraft server hosting](https://zap-hosting.com/en/minecraft-server-hosting/)
+
 ## Find Mods
 
 There are many places on the internet to find mods. The largest platform for this is CurseForge: https://www.curseforge.com/minecraft/mc-mods Almost 99% of all mods for Minecraft can be found there and downloaded with just a few clicks.
