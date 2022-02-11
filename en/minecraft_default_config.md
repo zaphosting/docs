@@ -5,6 +5,8 @@ description: Information about the server config settings of your Minecraft serv
 sidebar_label: Server Config
 ---
 
+Click here to get to our Minecraft servers: [Minecraft server hosting](https://zap-hosting.com/en/minecraft-server-hosting/)
+
 ## What can I set in this config?
 
 Minecraft already comes with a small config called *server.properties*.
