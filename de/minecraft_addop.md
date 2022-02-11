@@ -5,7 +5,7 @@ description: Informationen, wie du OP-Rechte für deinen Minecraft-Server von ZA
 sidebar_label: OP-Rechte
 ---
 
-Hier gelangst du zu unseren Minecraft Server: [Minecraft Server mieten](https://zap-hosting.com/minecraft-server-mieten/)
+Hier gelangst du zu unseren Minecraft Server: [Minecraft Server mieten](https://zap-hosting.com/de/minecraft-server-mieten/)
 
 ## OP-Rechte vergeben
 
