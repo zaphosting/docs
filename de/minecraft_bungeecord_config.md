@@ -5,7 +5,7 @@ description: Informationen den den Server Config-Einstellungen für deinen Bunge
 sidebar_label: Server Config
 ---
 
-Hier gelangst du zu unseren Minecraft Server: [Minecraft Server mieten](https://zap-hosting.com/de/minecraft-server-mieten/)
+Hier gelangst du zu unseren Minecraft Servern: [Minecraft Server mieten](https://zap-hosting.com/de/minecraft-server-mieten/)
 
 ## Wofür brauche ich eine BungeeCord Config?
 
