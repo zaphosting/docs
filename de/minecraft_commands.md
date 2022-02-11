@@ -5,6 +5,8 @@ description: Informationen zu allgemeinen Befehlen, die du auf deinen Minecraft-
 sidebar_label: Allgemeine Befehle
 ---
 
+Hier gelangst du zu unseren Minecraft Server: [Minecraft Server mieten](https://zap-hosting.com/minecraft-server-mieten/)
+
 ### Was sind Befehle?
 
 Mit Befehlen können in Minecraft zusätzliche Funktionen genutzt werden oder auch spezielle Funktionen ausgeführt werden.
