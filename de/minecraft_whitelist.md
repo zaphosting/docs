@@ -11,6 +11,8 @@ Die **Minecraft Whitelist** ist eine Möglichkeit um seinen Server zu schützen,
 
 
 
+Hier gelangst du zu unseren Minecraft Server: [Minecraft Server mieten](https://zap-hosting.com/minecraft-server-mieten/)
+
 ## Whitelist aktivieren
 
 
