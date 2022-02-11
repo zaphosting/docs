@@ -5,6 +5,8 @@ description: Information on how to use the plugin uploader to upload plugins to 
 sidebar_label: Plugin Uploader
 ---
 
+Click here to get to our Minecraft servers: [Minecraft server hosting](https://zap-hosting.com/en/minecraft-server-hosting/)
+
 ## 🕹 Plugin Uploader
 
 Click your Minecraft server on the server overview. Then select the Plugins tab, which is located in the Settings sub-item.
