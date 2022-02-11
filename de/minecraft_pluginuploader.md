@@ -5,7 +5,7 @@ description: Informationen, wie du den Plugin-Uploader verwenden kannst, um Plug
 sidebar_label: Plugin Uploader
 ---
 
-Hier gelangst du zu unseren Minecraft Server: [Minecraft Server mieten](https://zap-hosting.com/minecraft-server-mieten/)
+Hier gelangst du zu unseren Minecraft Server: [Minecraft Server mieten](https://zap-hosting.com/de/minecraft-server-mieten/)
 
 ## 🕹 Plugin Uploader
 
