@@ -24,6 +24,7 @@ apt install rsync
 ```
 ![](https://screensaver01.zap-hosting.com/index.php/s/BKRnHd8MQY2eDnT/preview)
 
+
 Nachdem es installiert wurde, kann es direkt genutzt werden. 
 
 <!--DOCUSAURUS_CODE_TABS-->
@@ -46,6 +47,8 @@ rsync -arz /home/Client /home/Backup
 -z=Komprimierung, je nach Datenmengen/Datengrößen wird komprimiert 
 
 Der Ordner wurde erfolgreicht syncronisiert 
+
+![](https://screensaver01.zap-hosting.com/index.php/s/kB59A5TGRomsse8/preview)
 
 
 Wenn jetzt eine Datei etc. im Client Ordner gelöscht wird, so verbleibt sie weiterhin im Backup Ordner. 
@@ -71,7 +74,7 @@ Es soll z.b täglich um 3 Uhr Morgens ein Backup erstellt werden:
 
 Crontab -e öffnen: 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/GsPeM9xpWYbnWdZ/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/jyiTa3jEts3MK4H/preview)
 
 Mit der Ziffer 1 kann "nano" als Editor genutzt werden.
 Mit der Ziffer 2 kann "vim" als Editor genutzt werden. 
@@ -81,7 +84,7 @@ Ein Crontab kann z.b mit diesem [Generator](https://crontab-generator.org/) erst
 
 Der eingetragene Crontab sieht dann wie folgt aus: 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/x3kKAXMxYYKHWqR/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/fLKbCcYAQkFydH4/preview)
 
 Jeden Tag um 3 Uhr morgens wird der Befehl ausgeführt und es wird ein Backup erstellt. 
 
@@ -94,8 +97,6 @@ In diesem Beispiel soll der Ordner "Client" unter /home in den Ordner "Backups" 
 >```
 >apt install rsync
 >````
-
-![](https://screensaver01.zap-hosting.com/index.php/s/84yY84CAJE83aHo/preview)
 
 Mit folgendem Befehl können z.b die Daten gesichert werden auf den Remote Host (Eigene Anpassung notwendig): 
 

@@ -140,6 +140,6 @@ This should in example look like:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/pgGdbSerTe5236B/preview)
 
-Leave the editor by pressing `CTRL+C`and writing "exit" after that execute the command `etc/netstart` once
+Leave the editor by pressing `CTRL+C`and writing "exit" after that execute the command `/etc/netstart` once
 
 > Your server should have an active internet connection now

@@ -18,28 +18,18 @@ This will give us the coordinates.
 📑 Edit Config
 
 Once we have our coordinates we go to the Config TAB
-![](https://screensaver01.zap-hosting.com/index.php/s/zSGtzZJf955QJqK/preview)
+
+![](https://screensaver01.zap-hosting.com/index.php/s/wpcoqFHq99rRKox/preview)
 
 Here we press **CTRL + F** and search for **ambulance**
 We will then open this file.
 Here we scroll down until we find **Config_RespawnPoint**.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/Nz9qMExnqoN5Kpt/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/5HXdRQWNeRNKYfd/preview)
 
 We will now edit these and replace the coordinates.
 After that we just click on Save and that's it.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/4HegmRJsosNXaW6/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/dxzXNxkMR9PHmq8/preview)
 
-## 📔 Deactivate Force overwrite
-
-We must first make sure that "Force overwrite" is disabled.
-Therefore we go to the tab "Resources".
-
-![](https://screensaver01.zap-hosting.com/index.php/s/6ZXxWHN4wCE6WcE/preview)
-
-There we will remove the checkmark.
-
-![](https://screensaver01.zap-hosting.com/index.php/s/KqWnnT98PB8W9QD/preview)
-
-After this is done we can restart the server, the change will then be applied.
+> After a server restart, the changes will take effect.

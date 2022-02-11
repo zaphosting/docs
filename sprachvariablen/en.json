@@ -9,6 +9,10 @@
         "title": "How to become an admin for 7 Days to Die - Gameserver from ZAP-Hosting",
         "sidebar_label": "Become Admin"
       },
+      "7d2d_commands": {
+        "title": "Commands",
+        "sidebar_label": "Commands"
+      },
       "7d2d_mods": {
         "title": "How to install 7 Days to Die mods on your server - ZAP-Hosting's game server",
         "sidebar_label": "Install Mods"
@@ -113,6 +117,10 @@
         "title": "Assetto Corsa Competizione: Become an admin on your own server",
         "sidebar_label": "Become Admin"
       },
+      "assetto_competizione_slot_requirement": {
+        "title": "Assetto Corsa Competizione: Car Slot Requirement",
+        "sidebar_label": "Car Slot Requirement"
+      },
       "assettocorsa_configure": {
         "title": "Assetto Corsa: Configure your server",
         "sidebar_label": "Configure Server"
@@ -136,6 +144,10 @@
       "beammp_authkey": {
         "title": "Create an Auth Key",
         "sidebar_label": "Create an Auth Key"
+      },
+      "beammp_mods": {
+        "title": "Install Mods",
+        "sidebar_label": "Install Mods"
       },
       "community_info": {
         "title": "Community offers - become part of the ZAP-Hosting community",
@@ -253,6 +265,10 @@
         "title": "Empyrion Server: Become an Admin",
         "sidebar_label": "Become Admin"
       },
+      "exiled_plugins": {
+        "title": "EXILED: Installing plugins on your server",
+        "sidebar_label": "Plugins Install"
+      },
       "factorio_becomeadmin": {
         "title": "Factorio Server: Become an Admin",
         "sidebar_label": "Become Admin"
@@ -340,6 +356,14 @@
       "fivem_esx_disableinventory": {
         "title": "FiveM ESX Server: Disable inventory (F2)",
         "sidebar_label": "Deactivate the Inventory (F2)"
+      },
+      "fivem_gamebuild": {
+        "title": "Enable DLC Content",
+        "sidebar_label": "Enable DLC Gamebuild"
+      },
+      "fivem_gamechange": {
+        "title": "Gamechange",
+        "sidebar_label": "Gamechange"
       },
       "fivem_installels": {
         "title": "FiveM: Installing ELS on your server",
@@ -469,6 +493,9 @@
         "title": "Garry's Mod: TTT configuration",
         "sidebar_label": "Garry's Mod TTT Configuration"
       },
+      "lastoasis_createrealm": {
+        "title": "Create Realm"
+      },
       "legal_use_brand_assets": {
         "title": "Use of logo and name",
         "sidebar_label": "Use of logo and name"
@@ -564,6 +591,10 @@
       "satisfactory_addmods": {
         "title": "Install Mods",
         "sidebar_label": "Install Mods"
+      },
+      "satisfactory_connect_experimental": {
+        "title": "Connect to the Server (Experimental)",
+        "sidebar_label": "Connect to the Server (Experimental)"
       },
       "satisfactory_connect": {
         "title": "Connect to the Server",
@@ -813,6 +844,14 @@
         "title": "VPS: Extending the hard disk on Windows Server",
         "sidebar_label": "Extend disk"
       },
+      "vserver_windows_fs_19": {
+        "title": "vServer: Install FarmingSimulator 2019 on Windows",
+        "sidebar_label": "Farming-Simulator 2019"
+      },
+      "vserver_windows_fs_22": {
+        "title": "vServer: Install FarmingSimulator 2022 on Windows",
+        "sidebar_label": "Farming-Simulator 2022"
+      },
       "vserver_windows_ftpserver": {
         "title": "VPS: Install FTP Server on Windows Server",
         "sidebar_label": "FTP Server Installation"
@@ -911,7 +950,8 @@
       "Rust": "Rust",
       "Among Us": "Among Us",
       "7 Days to Die": "7 Days to Die",
-      "Avorion": "Avorion"
+      "Avorion": "Avorion",
+      "Last Oasis": "Last Oasis"
     }
   },
   "pages-strings": {

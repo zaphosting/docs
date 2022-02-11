@@ -7,13 +7,9 @@ sidebar_label: Geldicon Ändern
 
 ## Mit FTP verbinden
 
-Zuerst muss der [FTP-Zugang](gameserver_ftpaccess.md) eingerichtet werden:
+Zuerst muss der [FTP-Zugang](gameserver_ftpaccess.md) eingerichtet werden.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/spb2ZfNNS9e5Dia/preview)
-
-Nachdem dieser eingerichtet wurde, kann sich nun verbunden werden und der Server Ordner geöffnet werden:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/QoXf3iSZirN7Ndy/preview)
+Nachdem dieser eingerichtet wurde, kann sich nun verbunden werden und der Server Ordner geöffnet werden.
 
 Hier öffnen wir folgenden pfad: `gta5-fivem/server-data/resources/vrp/cfg/money.lua`
 

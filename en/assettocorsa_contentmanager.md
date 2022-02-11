@@ -40,7 +40,7 @@ Now we change to the tab "Entry List", here we can now add new cars:
 ![](https://screensaver01.zap-hosting.com/index.php/s/R5KpGwAEAm8La2J/preview)
 
 
-> Note that all autoslots are filled and no more than the amount of available slots are set.
+> Note that all car slots are filled and no more than the amount of available slots are set.
 > ![](https://screensaver01.zap-hosting.com/index.php/s/RcJpb7MSd65zLf7/preview)
 
 ## Configure FTP Upload
@@ -51,14 +51,15 @@ Via the "Advanced" menu we can configure an FTP uploader so that you can upload 
 
 Now enter your FTP data here:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/FbLFSN5S4EffMto/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/oqXLoZBQJdSjxCL/preview)
 
-> In the "Folder" you must enter the ID of your game server as you see it in the URL of your game server:
+> In the "Folder" you must enter the ID of your game server as you see it in the URL of your game server, for example:
+> > https://zap-hosting.com/en/customer/gameserver/show/**300395**/ftpBrowser/
 
 In our case, the whole thing would be:
 
 ```
-/g300395/assettocorsa/
+/g300395/assetto-corsa/
 ```
 
 After that you can click on "Upload Content", the config, track and cars that have been configured will be uploaded automatically, then you only need to start your server!

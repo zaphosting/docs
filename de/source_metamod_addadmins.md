@@ -15,7 +15,7 @@ Des Weiteren benötigt man die Steam ID des Steam Accounts. Es gibt mehrere Mög
 
 Zunächst einmal muss in Steam das Profil aufgerufen und dort dann an einer beliebigen Stelle Rechtsklick klicken werden. Dort kann man dann die Steam URL des Profils kopieren.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/e9Eb7EDtW7BPSZo/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/jSY7ZdQKo2ibksp/preview)
 
 Im Anschluss kann die URL auf einer der folgenden Webseiten angeben werden:
 
@@ -23,7 +23,7 @@ Im Anschluss kann die URL auf einer der folgenden Webseiten angeben werden:
 - https://steamidfinder.com/
 - https://steamid.io/
 
-![](https://screensaver01.zap-hosting.com/index.php/s/Yxg52KfYA3rMDQj/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/XzWpN5bGxWXjtqY/preview)
 
 Im Anschluss  erhält man neben den allgemeinen Account Informationen auch die Steam ID. Dort wird die **Steam ID 32** benötigt:
 
@@ -53,8 +53,6 @@ players : 1 humans, 0 bots (16/0 max) (not hibernating)
 ### 📔 Config
 
 Als Nächstes verbindet man sich wieder mit dem Server per FTP und ruft die admins.cfg Config-Datei auf. Diese findet man unter dem folgenden Verzeichnis: addons/sourcemod/configs
-
-![](https://screensaver01.zap-hosting.com/index.php/s/cEcZp8QoJoJ7Yej/preview)
 
 In der Datei befindet sich bereits ein Beispiel, wie ein Admin Eintrag zum Beispiel aussehen kann. Diesen kann man so kopieren und dann wie folgt eintragen:
 
@@ -98,4 +96,4 @@ Je nachdem, welche Rechte vergeben werden sollen, kann man die jeweiligen Flags 
 
 Mit dem Befehl `!admin` im Chat oder `sm_admin` in der Konsole kann das Menü aufgerufen werden.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/sB6wy7btzGgDdbL/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/cKKQjDDeyYR9KAP/preview)

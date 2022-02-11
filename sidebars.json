@@ -104,7 +104,9 @@
                     "vserver_windows_installmysql",
                     "vserver_windows_plesk",
                     "vserver_windows_change_language",
-                    "vserver_windows_expand_disk"
+                    "vserver_windows_expand_disk",
+                    "vserver_windows_fs_19",
+                    "vserver_windows_fs_22"
                 ]
             }
         ],
@@ -212,7 +214,9 @@
                     "fivem_mastadon",
                     "fivem_prohibited_resources",
                     "fivem_notlisted",
-                    "fivem_devtools"
+                    "fivem_devtools",
+                    "fivem_gamebuild",
+                    "fivem_gamechange"
                 ]
             },
             {
@@ -221,7 +225,6 @@
                 "ids": [
                     "fivem_installresources",
                     "fivem_sql_file_import",
-                    "fivem_changespawnpoint",
                     "fivem_mods_installreplace",
                     "fivem_mods_installaddon",
                     "fivem_changeloadingscreen",
@@ -268,9 +271,8 @@
             "altv_installresources"
         ],
         "Satisfactory": [
-            "satisfactory_connect",
-            "satisfactory_savegame",
-            "satisfactory_addmods"
+            "satisfactory_connect_experimental",
+            "satisfactory_savegame"
         ],
         "Terraria": [
             "terraria_tshock_add_admin",
@@ -336,13 +338,15 @@
             "assettocorsa_mods"
         ],
         "Assetto Corsa Competizione": [
-            "assetto_competizione_becomeadmin"
+            "assetto_competizione_becomeadmin",
+            "assetto_competizione_slot_requirement"
         ],
         "Barotrauma": [
             "barotrauma_becomeadmin"
         ],
         "BeamMP": [
-            "beammp_authkey"
+            "beammp_authkey",
+            "beammp_mods"
         ],
         "Conan Exiles": [
             "conan_becomeadmin",
@@ -367,6 +371,13 @@
                 "label": "ServerMod",
                 "ids": [
                     "scpservermod_uploadplugins"
+                ]
+            },
+            {
+                "type": "subcategory",
+                "label": "Exiled",
+                "ids": [
+                    "exiled_plugins"
                 ]
             }
         ],
@@ -416,10 +427,14 @@
         ],
         "7 Days to Die": [
             "7d2d_becomeadmin",
-            "7d2d_mods"
+            "7d2d_mods",
+            "7d2d_commands"
         ],
         "Avorion": [
             "avorion_becomeadmin"
+        ],
+        "Last Oasis": [
+            "lastoasis_createrealm"
         ]
     }
 }
