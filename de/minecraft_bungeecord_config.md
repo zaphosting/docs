@@ -5,6 +5,8 @@ description: Informationen den den Server Config-Einstellungen für deinen Bunge
 sidebar_label: Server Config
 ---
 
+Hier gelangst du zu unseren Minecraft Server: [Minecraft Server mieten](https://zap-hosting.com/minecraft-server-mieten/)
+
 ## Wofür brauche ich eine BungeeCord Config?
 
 An sich ist BungeeCord die Verwaltung eines Bündels von Servern, welche durch den Proxyserver (BungeeCord-Server) verbunden werden. Um das Netzwerk dieser Server anzupassen, muss die Datei *config.yml* bearbeitet werden. Auf dieser Seite erfährst du die genaue Bedeutung jeder Einstellung und zusätzliche Informationen über die Auswirkung auf die Unterserver wie zum Beispiel PaperSpigot-/ und Bukkit-Server.
