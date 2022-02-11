@@ -5,7 +5,7 @@ description: Informationen, wie du Behaviour/Resource Packs auf deinen Minecraft
 sidebar_label: Behavior/Resource Packs installieren
 ---
 
-Hier gelangst du zu unseren Minecraft Server: [Minecraft Server mieten](https://zap-hosting.com/minecraft-server-mieten/)
+Hier gelangst du zu unseren Minecraft Servern: [Minecraft Server mieten](https://zap-hosting.com/de/minecraft-server-mieten/)
 
 ## 🖱 Welt vom Server downloaden
 
