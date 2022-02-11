@@ -5,6 +5,8 @@ description: Information on how to install Behaviour/Resource Packs on your Mine
 sidebar_label: Behavior/Resource Packs Installation
 ---
 
+Click here to get to our Minecraft servers: [Minecraft server hosting](https://zap-hosting.com/en/minecraft-server-hosting/)
+
 ## 🖱 Download the world from the server
 
 First of all you have to shut down the server, download your world from the server and add it to your Minecraft. (If you just want to have a fresh world, ignore the step and go directly to "add addon". For the download you can simply connect to the server via FTP and download the worlds folder which you can find under "worlds". After the download you can just paste the folder here:
