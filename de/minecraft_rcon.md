@@ -5,7 +5,7 @@ description: Informationen, wie du RCON mit deinem Minecraft-Server von ZAP-Host
 sidebar_label: RCON
 ---
 
-Hier gelangst du zu unseren Minecraft Server: [Minecraft Server mieten](https://zap-hosting.com/minecraft-server-mieten/)
+Hier gelangst du zu unseren Minecraft Server: [Minecraft Server mieten](https://zap-hosting.com/de/minecraft-server-mieten/)
 
 ## 🔎 Was ist RCON?
 RCON ist eine Schnittstelle in verschiedenen Programmen, wie also auch Gameservern, 
