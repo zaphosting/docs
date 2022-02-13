@@ -6,6 +6,8 @@ sidebar_label: Windows Installation
 
 > This guide is based on Windows Server 2019, the steps are pretty similar to the other windows server versions
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yVFnAQH6GsM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## 💻 Installation of Windows Server
 To install a Windows Server its required to have a iso file of your decision, you could choose in our webinterface the desired version of windows.
 Alternatively, you could choose a own iso file, a detailed guide for that you could find in the "dedicated servers" category here in the docs.
