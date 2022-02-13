@@ -3,6 +3,8 @@ id: satisfactory_addmods
 title: Install Mods
 sidebar_label: Install Mods
 ---
+> **WARNING**
+> Mods are currently not working!
 
 > **CAUTION**
 > Mods are **not officially** supported by the developers, but they are tolerated!
