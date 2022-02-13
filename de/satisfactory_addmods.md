@@ -5,6 +5,9 @@ sidebar_label: Mods installieren
 ---
 
 > **ACHTUNG**
+> Mods sind zum aktuellen Zeitpunkt NICHT nutzbar!
+
+> **ACHTUNG**
 > Mods sind von den Entwicklern bisher **nicht offiziell** unterstützt, sie werden jedoch geduldet!
 > Die Installation von Mods kann im schlimmsten Fall den Spielstand zerstören, durch ein Update temporär nicht mehr spielbar sein oder ebenfalls zerstört werden!
 > Es sollte **in jedem Fall vor** der Installation von Mods ein Backup angelegt werden und auch sonst regelmäßig Backups angelegt werden für den Fall der Fälle!
