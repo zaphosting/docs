@@ -11,8 +11,6 @@ ZAP-Hosting offers a large number of different payment options with which server
 > ZAP-Credits are added via the Cashbox (deposit money) and can be used for all products.
 * Sofortüberweisung
 > Payment with online banking via Sofortüberweisung.de. Available for almost all German online banking accesses.
-* Handypay
-> Payment via mobile phone.
 * Credit card
 > Payment by credit card
 * giropay
@@ -25,8 +23,6 @@ ZAP-Hosting offers a large number of different payment options with which server
 > PaySafeCards are prepaid cards that can be purchased at over 25,000 sales outlets in Germany. The card code is required for payment.
 * Bitcoin
 > Pay with Bitcoin. The transaction will be processed by the provider Coinify.
-* Call2Pay
-> Payment by telephone.
 * Bank transfer (only for ZAP-Credits)
 > Only available for depositing ZAP-Credits. After receipt of payment the credit will be activated.
 
@@ -41,7 +37,7 @@ ZAP-Credits can be deposited via all other payment options offered by us and als
 Transfers can be used to deposit ZAP credits. As soon as we have received the transfer, the credit will be activated and can be used.
 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/HAYDpFs9syCgXD6/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/tzn3QD6iAE7J9B7/preview)
 
 ## 💰 Cashbox
 The Cashbox can be accessed via the web interface under the item **Cashbox**. In addition to the possibility of depositing ZAP-Credits, the Cashbox offers the following additional functions:
