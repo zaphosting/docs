@@ -9,7 +9,7 @@ sidebar_label: Cashbox
 
 Die Cashbox ist dafür da, um Geld einzuzahlen. Dafür bieten wir dir mehrere Möglichkeiten an. Dies sind die aktuellen Möglichkeiten:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/daaL8rAaNepQKDN/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/829b4LdGjmKM5YS/preview)
 
 Diese Option lässt sich mit einem Klick auf **Geld einzahlen** öffnen: 
 
