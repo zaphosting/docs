@@ -14,6 +14,7 @@ Um im Webinterface ein Backup von deinem Ts3 Server zu machen, gehst du einfach 
 ![](https://screensaver01.zap-hosting.com/index.php/s/KyHDAHkYACakNAs/preview)
 
 Anschließend gehst du auf **Snapshot erstellen**. Unten siehst du dann alle deine Snapshots und kannst diese bei Bedarf einspielen, downloaden oder löschen.
+> Info: Das einbinden eigener Snapshots ist aus Sicherheitsgründen nicht erlaubt!
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/RLMCt3BAoK4txsf/preview)
 
