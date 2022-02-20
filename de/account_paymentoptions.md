@@ -11,8 +11,6 @@ Wir bieten eine große Anzahl verschiedener Zahlungsoptionen an, mit denen Serve
 > ZAP Guthaben wird über die Cashbox (Geld einzahlen) hinzugefügt und kann für alle Produkte verwendet werden.
 * Sofortüberweisung
 > Bezahlung mit Onlinebanking über Sofortüberweisung.de. Verfügbar für fast alle deutschen Onlinebanking-Zugänge.
-* Handypay
-> Bezahlung über das Handy.
 * Kreditkarte
 > Bezahlung über Kreditkarte
 * giropay
@@ -25,8 +23,6 @@ Wir bieten eine große Anzahl verschiedener Zahlungsoptionen an, mit denen Serve
 > PaySafeCards sind Prepaidkarten, die an über 25.000 Verkaufsstellen in Deutschand erworben werden können. Zur Zahlung wird der Kartencode benötigt.
 * Bitcoin
 > Bezahlung mit Bitcoin bezahlen. Die Abwicklung wird über den Anbieter Coinify durchgeführt.
-* Call2Pay
-> Bezahlung über das Festnetztelefon.
 * Überweisung (nur für ZAP-Guthaben)
 > Nur erhältlich, um ZAP-Guthaben einzuzahlen. Nach Zahlungseingang wird das Guthaben freigeschaltet.
 * Paymentwall
@@ -42,7 +38,7 @@ Guthaben kann über sämtliche anderen von uns angebotenen Zahlungsoptionen eing
 > Eine anteillige Finanzierung über Guthaben ist nicht möglich. Wenn du bereits Guthaben hast, beispielsweise weil du einen Guthaben-Code verwendest hast, kannst du Guthaben beliebig hinzufügen. Tipp: Wenn du mit ZAP-Guthaben bezahlst, achte auf unsere Cash In Deals: Ist der Cash In Deal aktiviert, erhältst du zusätzliches Guthaben, wenn du deine Einzahlung erhöhst.
 Überweisungen können verwendet werden, um ZAP-Guthaben einzuzahlen. Sobald die Überweisung bei uns eingegangen ist, wird das Guthaben freigeschaltet und kann verwendet werden.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/ttQrmkkcwy2Yid4/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/829b4LdGjmKM5YS/preview)
 
 ## 💰 Cashbox
 Die Cashbox ist über das Web Interface unter dem Punkt **Cashbox** erreichbar. Neben der Möglichkeit Guthaben einzuzahlen, bietet die Cashbox folgende Zusatzfunktionen:
