@@ -33,6 +33,24 @@ Dateien können per "**Drag and Drop**" von der linken Seite (dem Computer), in 
 
 > Wenn man über mehrere Server verfügt, muss vorher die ID des Servers ermittelt werden, damit man die Daten in den richtigen Ordner verschiebt.
 
+### 🚩 "Transfer connection interrupted" Fehler Meldung
+
+Sollte bei der Verbindung oder auch Übertragung die Fehlermeldung "Transfer connection interrupted: ECCONABORTED - Connection aborted" bestehen, so kann testweise der Übertragungsmodus von *Passive* auf *Active* umgestellt werden.
+In den folgenden Schritten wird gezeigt, wie das bei Filezilla in den Einstellungen umgestellt werden kann.
+
+![](https://screensaver01.zap-hosting.com/index.php/s/3Bjwr2it7RP323X/preview)
+
+Drücke in deinem Filezilla Client auf "**Bearbeiten**", dort dann direkt die "**Einstellungen...**" öffnen:
+
+![](https://screensaver01.zap-hosting.com/index.php/s/sZywbCrRAf29CrS/preview)
+
+Im Anschluss daran öffnet sich das "Einstellungen" Fenster. Dort kannst du nun auf "**FTP**" um die Einstellungen für die FTP Verbindung einzusehen.
+Bei "**FTP**" angekommen, wird der Standard Übertragungsmodus auf  "Passiv" stehen, dort kannst du den Radio-Button bei "**Aktiv**" auswählen und die Änderung mit "**OK**" bestätigen.
+
+![](https://screensaver01.zap-hosting.com/index.php/s/DQJsZkFxwmcsfHe/preview)
+
+Sobald auch dies getan ist, kann jetzt die FTP Verbindung erneut getestet werden.
+
 ## Über WinSCP verbinden
 
 WinSCP [Download](https://winscp.net/eng/index.php).
