@@ -36,7 +36,7 @@ Ist die Verbindung erfolgreich hergestellt, findest du in den jeweiligen Ordnern
 
 Die Backups befinden sich in gepackter Form als **\*.tar.gz** Datei in den jeweiligen Ordnern und können mit Programmen, wie WinRAR oder 7-Zip entpackt werden.
 
-### 🚩 "Transfer connection interrupted" Fehler Meldung
+## 🚩 "Transfer connection interrupted" Fehler Meldung
 
 Sollte bei der Verbindung oder auch Übertragung die Fehlermeldung "Transfer connection interrupted: ECCONABORTED - Connection aborted" bestehen, so kann testweise der Übertragungsmodus von *Passive* auf *Active* umgestellt werden.
 In den folgenden Schritten wird gezeigt, wie das bei Filezilla in den Einstellungen umgestellt werden kann.
