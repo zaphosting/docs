@@ -35,7 +35,7 @@ If the connection is successful, you will find the backups created by your servi
 
 The backups are in packed form as **\*.tar.gz** files in the respective folders and can be unpacked with programs like WinRAR or 7-Zip.
 
-### "Transfer connection interrupted" Error Message
+## 🚩 "Transfer connection interrupted" Error Message
 
 If the error message "Transfer connection interrupted: ECCONABORTED - Connection aborted" appears during the connection or transfer, the transfer mode can be changed from "**Passive**" to "**Active**".
 The following steps show how this can be changed in the Filezilla settings.
