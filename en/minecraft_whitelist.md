@@ -5,6 +5,8 @@ description: Information on how to activate and edit a whitelist for your Minecr
 sidebar_label: Whitelist
 ---
 
+Click here to get to our Minecraft servers: [Minecraft server hosting](https://zap-hosting.com/en/minecraft-server-hosting/)
+
 The **Minecraft Whitelist** is an option to protect your server by only allowing selected players on the list to connect to yourserver. By default, Minecraft doesn't offer a server password option like other games do.
 ![img](https://screensaver01.zap-hosting.com/index.php/s/MzNpHycMNAFTMjB/preview)
 

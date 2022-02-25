@@ -5,6 +5,7 @@ description: Information about general commands you can use on your Minecraft se
 sidebar_label: General commands
 ---
 
+Click here to get to our Minecraft servers: [Minecraft server hosting](https://zap-hosting.com/en/minecraft-server-hosting/)
 
 ### What are commands?
 

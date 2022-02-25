@@ -5,6 +5,8 @@ description: Information on how to optimise your Minecraft server from ZAP-Hosti
 sidebar_label: Minecraft-Server Optimization
 ---
 
+Click here to get to our Minecraft servers: [Minecraft server hosting](https://zap-hosting.com/en/minecraft-server-hosting/)
+
 ### What exactly happens during optimization?
 
 Optimization is an important point for Minecraft servers so that they can run smoothly and you should definitely take enough time for this on a public server. Only with a lot of time and tests is it possible to achieve the best result. This documentation is therefore not necessarily to be followed exactly, but rather intended as a help in going in the right direction.

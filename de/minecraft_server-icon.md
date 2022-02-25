@@ -5,6 +5,8 @@ description: Informationen, wie du ein Server Icon für deinen Minecraft Server 
 sidebar_label: Server Icon
 ---
 
+Hier gelangst du zu unseren Minecraft Servern: [Minecraft Server mieten](https://zap-hosting.com/de/minecraft-server-mieten/)
+
 Minecraft bietet die Option an ein eigenes Server Icon hinzuzufügen, das im Multiplayer vor dem Server angezeigt wird, sofern der Server eingespeichert wurde.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/zFQLZmRrLWrKN7r/preview)

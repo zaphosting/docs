@@ -5,6 +5,8 @@ description: Information on how to assign and edit OP rights for your Minecraft 
 sidebar_label: OP-Permissions
 ---
 
+Click here to get to our Minecraft servers: [Minecraft server hosting](https://zap-hosting.com/en/minecraft-server-hosting/)
+
 ## Assign OP rights
 
 In order to be able to assign OP-rights to yourself or other players, you first have to open the console, as far as no other player has sufficient OP-rights so far, so that the assignment is possible in the game itself.

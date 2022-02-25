@@ -5,6 +5,8 @@ description: Information about the server config settings for your bungeecord se
 sidebar_label: Server Properties
 ---
 
+Click here to get to our Minecraft servers: [Minecraft server hosting](https://zap-hosting.com/en/minecraft-server-hosting/)
+
 ## What do I need a BungeeCord Configuration for?
 
 BungeeCord is the management of a bundle of servers that are connected through the proxy server (BungeeCord server). To customize the network of these servers, the file *config.yml* must be edited. On this page you will learn the exact meaning of each setting and you get additional information about the impact on the sub-servers such as PaperSpigot and Bukkit servers.

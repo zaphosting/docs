@@ -5,6 +5,8 @@ description: Informationen, wie du eine Whitelist für deinen Minecraft-Server v
 sidebar_label: Whitelist
 ---
 
+Hier gelangst du zu unseren Minecraft Servern: [Minecraft Server mieten](https://zap-hosting.com/de/minecraft-server-mieten/)
+
 Die **Minecraft Whitelist** ist eine Möglichkeit um seinen Server zu schützen, indem nur ausgewählte Spieler, die auf der Liste stehen die Erlaubnis haben, sich mit dem Server zu verbinden. Denn Minecraft bietet standardmäßig keine Server Passwort Option wie manch andere Spiele.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/MzNpHycMNAFTMjB/preview)

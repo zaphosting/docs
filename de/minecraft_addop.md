@@ -5,6 +5,8 @@ description: Informationen, wie du OP-Rechte für deinen Minecraft-Server von ZA
 sidebar_label: OP-Rechte
 ---
 
+Hier gelangst du zu unseren Minecraft Servern: [Minecraft Server mieten](https://zap-hosting.com/de/minecraft-server-mieten/)
+
 ## OP-Rechte vergeben
 
 Damit man sich selbst oder auch anderen Spielern OP-Recht zuteilen kann, muss man zunächst die Konsole aufrufen, insofern bisher kein anderer Spieler ausreichende OP-Rechte hat, damit die Vergabe im Spiel selbst möglich ist.

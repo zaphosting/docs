@@ -5,6 +5,8 @@ description: Information on how to identify lag problems on your Minecraft serve
 sidebar_label: Timings-Report
 ---
 
+Click here to get to our Minecraft servers: [Minecraft server hosting](https://zap-hosting.com/en/minecraft-server-hosting/)
+
 ## Explanation
 
 ### ❓ What is a timing report?
