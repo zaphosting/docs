@@ -21,7 +21,6 @@ In the following we show how to install a Jitsi Meet Server on a Debian Server. 
 In order to use Jitsi Meet properly, you should use your own domain to access the Jitsi Server. It makes sense to create your own subdomain for the Jitsi Meet server. As an example we use the domain meet.zap-testdomain.de.
 For ZAP-Hosting domains, you have to create a new entry under DNS administration. Enter the name of the subdomain in the field "Name" and the IP address of your server in the field "Value". In our example we will enter "meet" in the Name field and the IP address of the ZAP test server where we will install Jitsi Meet in the Value field: 185.239.239.49 (enter the IP of your server, not this example IP)
 
-![](https://screensaver01.zap-hosting.com/index.php/apps/files_sharing/publicpreview/YEpRdTW4EXLXfpR?x=1912&y=616&a=true&file=firefox_qMb6bq0NIW.png&scalingup=0)
 
 to a Jitsi Meet server via the IP address. However, a domain is required for the SSL certificate. Without a domain the browser will give a security warning.
 
@@ -96,11 +95,11 @@ $	apt install jitsi-meet
 
 During the installation you will be asked to enter a hostname. Enter the subdomain you created for your Jitsi Meet server here In the example of our test server, this is: meet.zap-testdomain.de
 
-![](https://screensaver01.zap-hosting.com/index.php/apps/files_sharing/publicpreview/MQzpKXJNPKbYpJF?x=1912&y=616&a=true&file=putty_k0SyyZiwxN.png&scalingup=0)
+![](https://screensaver01.zap-hosting.com/index.php/s/ngR66yS4xGPz4Ha/preview)
 
 Confirm the input with "Ok". A new window will open asking her whether a self-signed TLS certificate should be created or an existing one should be used. Select the option "Generate a new self-signed certificate":
 
-![](https://screensaver01.zap-hosting.com/index.php/apps/files_sharing/publicpreview/GE2dTDLZzmL2izq?x=1912&y=616&a=true&file=putty_B9TptkOgNG.png&scalingup=0)
+![](https://screensaver01.zap-hosting.com/index.php/s/idBqGzgTcptRo8j/preview)
 
 The installation of Jitsi Meet is now complete and all you need to do is retrieve the TLS certificate.
 Install the package Certbot:
@@ -113,9 +112,7 @@ Run the script for the TLS certificate installation program:
 $	/usr/share/jitsi-meet/scripts/install-letsencrypt-cert.sh
 ```
 
-During the execution you will be asked to enter an email address that will be sent to letsenrypt.org. Enter an email address and confirm by typing:
-
-![](https://screensaver01.zap-hosting.com/index.php/apps/files_sharing/publicpreview/CJ5GGnFrF7qrCjx?x=1912&y=616&a=true&file=putty_7NCynToEXd.png&scalingup=0)
+During the execution you will be asked to enter an email address that will be sent to letsenrypt.org. Enter an email address and confirm by typing.
 
 
 After that Jitsi Meet should be fully installed and active on your server. To test if Jitsi Meet has been installed correctly, just enter the subdomain you have set up into the URL bar of your browser. In this tutorial this is:
@@ -123,5 +120,4 @@ After that Jitsi Meet should be fully installed and active on your server. To te
 https://meet.zap-testdomain.de
 ```
 
-If the page loads with Jitsi Meet you can directly start your 1st video conference:
-![](https://screensaver01.zap-hosting.com/index.php/apps/files_sharing/publicpreview/owFaJnTzjGoWTfn?x=1912&y=616&a=true&file=firefox_H3AGinYmm7.png&scalingup=0)
+If the page loads with Jitsi Meet you can directly start your 1st video conference.

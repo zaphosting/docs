@@ -5,6 +5,8 @@ description: Informationen wie du einen Landwirtschafts-Simulator Dedicated Serv
 sidebar_label: Landwirtschafts-Simulator 2022
 ---
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VGVPt0cmgTg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 # Installation eines Dedicated Servers für den Landwirtschafts-Simulator 2022
 
 > :information_source: Diese Anleitung gilt auch für einen Dedicated Server von ZAP-Hosting mit Windowsserver 2016/2019. Wie Windows auf einem Dedicated Server installiert werden kann, erklären wir [hier](https://zap-hosting.com/guides/docs/de/dedicated_windows/).

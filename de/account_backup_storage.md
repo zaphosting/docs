@@ -36,6 +36,24 @@ Ist die Verbindung erfolgreich hergestellt, findest du in den jeweiligen Ordnern
 
 Die Backups befinden sich in gepackter Form als **\*.tar.gz** Datei in den jeweiligen Ordnern und können mit Programmen, wie WinRAR oder 7-Zip entpackt werden.
 
+## 🚩 "Transfer connection interrupted" Fehler Meldung
+
+Sollte bei der Verbindung oder auch Übertragung die Fehlermeldung "Transfer connection interrupted: ECCONABORTED - Connection aborted" bestehen, so kann testweise der Übertragungsmodus von *Passive* auf *Active* umgestellt werden.
+In den folgenden Schritten wird gezeigt, wie das bei Filezilla in den Einstellungen umgestellt werden kann.
+
+![](https://screensaver01.zap-hosting.com/index.php/s/3Bjwr2it7RP323X/preview)
+
+Drücke in deinem Filezilla Client auf "**Bearbeiten**", dort dann direkt die "**Einstellungen...**" öffnen:
+
+![](https://screensaver01.zap-hosting.com/index.php/s/sZywbCrRAf29CrS/preview)
+
+Im Anschluss daran öffnet sich das "Einstellungen" Fenster. Dort kannst du nun auf "**FTP**" um die Einstellungen für die FTP Verbindung einzusehen.
+Bei "**FTP**" angekommen, wird der Standard Übertragungsmodus auf  "Passiv" stehen, dort kannst du den Radio-Button bei "**Aktiv**" auswählen und die Änderung mit "**OK**" bestätigen.
+
+![](https://screensaver01.zap-hosting.com/index.php/s/DQJsZkFxwmcsfHe/preview)
+
+Sobald auch dies getan ist, kann jetzt die FTP Verbindung erneut getestet werden.
+
 ## ℹ Meldungen
 In der Sidebar im Unterpunkt *Meldungen* wird der Log wiedergegeben, welcher anzeigt, unter welchem Auslöser/Grund welche Aktion bei den Backups bei welchem Paket wann ausgeführt wurde.
 

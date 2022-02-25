@@ -35,6 +35,24 @@ If the connection is successful, you will find the backups created by your servi
 
 The backups are in packed form as **\*.tar.gz** files in the respective folders and can be unpacked with programs like WinRAR or 7-Zip.
 
+## 🚩 "Transfer connection interrupted" Error Message
+
+If the error message "Transfer connection interrupted: ECCONABORTED - Connection aborted" appears during the connection or transfer, the transfer mode can be changed from "**Passive**" to "**Active**".
+The following steps show how this can be changed in the Filezilla settings.
+
+![](https://screensaver01.zap-hosting.com/index.php/s/3Bjwr2it7RP323X/preview)
+
+Press "**Edit**" in your Filezilla client, then open the "**Settings...**" directly:
+
+![](https://screensaver01.zap-hosting.com/index.php/s/ipKHjQG5YCFP5Jb/preview)
+
+After that the "**Settings**" window opens. There you can click on "**FTP**" to see the settings for the FTP connection.
+At "**FTP**" the default transfer mode will be set to "**Passive**", there you can select the radio button "**Active**" and confirm the change with "**OK**".
+
+![](https://screensaver01.zap-hosting.com/index.php/s/Bo7yf5J5Dxipwnk/preview)
+
+As soon as this is done, the FTP connection can be tested again.
+
 ## ℹ Messages
 In the sidebar in the sub-item *Messages* the log is displayed, which shows under which trigger/reason which action was executed during the backups for which package and when.
 

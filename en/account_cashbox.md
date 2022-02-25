@@ -9,7 +9,7 @@ sidebar_label: Cashbox
 
 The Cashbox is for depositing money. We offer you several options for this. These are the current possibilities:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/JEZxqczRfftzp8D/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/tzn3QD6iAE7J9B7/preview)
 
 This option can be opened by clicking on **Cash in**: 
 

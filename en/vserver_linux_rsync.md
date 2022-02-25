@@ -22,7 +22,8 @@ Rsync can be installed with the following command:
 ```
 apt install rsync
 ```
-![](https://screensaver01.zap-hosting.com/index.php/s/Mxpp8w5ykzosdXc/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/BKRnHd8MQY2eDnT/preview)
+
 
 After it has been installed, it can be used directly. 
 
@@ -32,6 +33,7 @@ After it has been installed, it can be used directly.
 
 In this example, the Client folder under /home should be synchronized to the Backups folder under /home. 
 
+![](https://screensaver01.zap-hosting.com/index.php/s/37i9DT9mXCd8JB5)
 This can be done with the following command: 
 
 ```
@@ -42,6 +44,7 @@ rsync -arz /home/Client /home/Backup
 -r=Recursive, subfolders are synchronized too
 <br>
 -z=Compression, depending on data quantity/data size is compressed 
+
 
 The folder was synchronized successfully 
 
@@ -65,7 +68,7 @@ rsync -arz --delete /home/Client /home/Backup
 
 ## Step 3️⃣
 
-So that the command does not always have to be executed manually, it can simply be placed in a cronjob. 
+So that the command does not always have to be d manually, it can simply be placed in a cronjob. 
 For example, a backup should be created daily at 3 am: 
 
 Open crontab -e: 
@@ -151,11 +154,17 @@ For example, a backup should be created daily at 3 am:
 
 Open crontab -e:
 
+![](https://screensaver01.zap-hosting.com/index.php/s/3xpJKHSf9ZEdrBs/preview)
+
 With the number 1 "nano" can be used as an editor.
 With the number 2, "vim" can be used as an editor.  
 
 After the file has been opened with e.g. Nano, a crontab can be generated and entered. 
 A crontab can be created with this [Generator](https://crontab-generator.org/). 
+
+The entered crontab then looks as follows: 
+
+![](https://screensaver01.zap-hosting.com/index.php/s/xJXMjqGeWce4jDw/preview)
 
 Every day at 3 a.m. the command is executed and a backup is created. 
 
