@@ -70,3 +70,6 @@ If a template is to be installed that is not linked in txAdmin itself, this func
 
 This option is intended for users who have already created their own recipe and want to reload it.
 
+### Additional Support
+
+For txAdmin specific support, please contact the txAdmin team through https://txadm.in/ or https://discord.gg/txAdmin/
