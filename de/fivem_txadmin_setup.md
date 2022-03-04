@@ -70,3 +70,7 @@ Falls eine Template aufgespielt werden soll, welche in txAdmin selbst nicht verl
 ### Custom Template
 
 Diese Option ist für Benutzer gedacht, welche ein eigenes Recipe bereits erstellt haben, und dieses erneut laden möchten.
+
+### Zusätzliche Unterstützung
+
+Für txAdmin spezifischen Support kontaktieren bitte die txAdmin team über https://txadm.in/ oder https://discord.gg/txAdmin/
