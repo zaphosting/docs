@@ -73,4 +73,4 @@ Diese Option ist für Benutzer gedacht, welche ein eigenes Recipe bereits erstel
 
 ### Zusätzliche Unterstützung
 
-Für txAdmin spezifischen Support kontaktieren bitte die txAdmin team über https://txadm.in/ oder https://discord.gg/txAdmin/
+Für txAdmin-spezifischen Support kontaktiere bitte das txAdmin-Team über https://txadm.in/ oder https://discord.gg/txAdmin/
