@@ -25,6 +25,6 @@ You will then be shown the date on which your contract will be cancelled.
 
 ## 📙  "Term of notice"
 
-The cancellation period is 7 days (28 days for root servers) If the customer does not cancel the contractual relationship in time in the case of an agreed contract term, the contract is extended by the same term as the previous contract.
+The cancellation period is 7 days (28 days for root servers and dedicated servers) If the customer does not cancel the contractual relationship in time in the case of an agreed contract term, the contract is extended by the same term as the previous contract.
 
 
