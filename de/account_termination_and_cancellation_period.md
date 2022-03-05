@@ -25,6 +25,6 @@ Im Anschluss wird dir angezeigt, zu welchem Datum dein Vertrag gekündigt wird.
 
 ## 📙  "Kündigungsfrist"
 
-Die Kündigungsfrist beträgt 7 Tage(Bei Rootservern 28 Tage).Kündigt der Kunde das Vertragsverhältnis im Falle einer vereinbarten Vertragslaufzeit nicht rechtzeitig, so verlängert sich der Vertrag um dieselbe Laufzeit wie der bisherige Vertrag.
+Die Kündigungsfrist beträgt 7 Tage(Bei Rootservern und Dedicated Servern 28 Tage).Kündigt der Kunde das Vertragsverhältnis im Falle einer vereinbarten Vertragslaufzeit nicht rechtzeitig, so verlängert sich der Vertrag um dieselbe Laufzeit wie der bisherige Vertrag.
 
 
