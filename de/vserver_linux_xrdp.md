@@ -47,4 +47,34 @@ sudo systemctl status xrdp
 // Ubuntu
 sudo systemctl status xrdp
 ```
-![](https://screensaver01.zap-hosting.com/index.php/s/HDpcXZETwnfZAo7/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/nRs68GNnkB5Axbm/preview)
+
+Nachdem der Status okay ist, muss noch ein User erstellt werden. Anschließend wird der xRDP Service neu gestartet: 
+```
+// Debian
+sudo adduser xrdp ssl-cert; sudo systemctl restart xrdp
+
+// Ubuntu
+sudo adduser xrdp ssl-cert; sudo systemctl restart xrdp
+```
+
+Nach Abschluss der Konfiguration kann man sich mit den Root oder den jeweiligen User Daten des Servers via Remote Desktop verbinden. 
+Der default Port lautet: 3389
+
+## Verbindung 
+
+Die Verbindung kann über jedes RDP Tool erfolgen, verbunden wird mit IP:PORT. 
+Beim verbinden wird man nach den Logindaten gefragt: 
+
+![](https://screensaver01.zap-hosting.com/index.php/s/RncaLZpTjbTeTW3/preview)
+
+Nach erfolgreicher Anmeldung sieht man den Desktop. 
+Bei Ubuntu sieht es etwas anders aus als bei Debian:
+
+Ubuntu: 
+
+![](https://screensaver01.zap-hosting.com/index.php/s/yLfCEC3M3oeZ3XL/preview)
+
+Debian: 
+
+![](https://screensaver01.zap-hosting.com/index.php/s/G227tAg75fr33ix/preview)
