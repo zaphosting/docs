@@ -25,6 +25,8 @@ Nun öffnen wir "Lokale Dateien" und Öffnen die Lokalen Spieldateien:
 
 ![image](https://user-images.githubusercontent.com/13604413/159136021-cd23c04f-0db5-4051-8993-7fddfd0edfaa.png)
 
+Dort öffnen wir den "server" Ordner und öffnen den ACServerManager.exe.
+
 
 ## Map Einstellen
 
