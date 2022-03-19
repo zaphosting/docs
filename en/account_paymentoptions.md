@@ -26,7 +26,8 @@ ZAP-Hosting offers a large number of different payment options with which server
 * Bank transfer (only for ZAP-Credits)
 > Only available for depositing ZAP-Credits. After receipt of payment the credit will be activated.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/pdnHke4o46iSg2q/preview)
+![](https://user-images.githubusercontent.com/61953937/159141611-341f5196-c480-488a-bd02-c620935154b1.png)
+
 
 ## 💸 Payment process
 The payment process is simple: the server configuration is put together on the configuration page, at the bottom of the page the desired payment option is selected. After a click on "Buy now", a redirection to the selected payment service provider will take place if necessary, via which the payment can be made. After receiving the payment, the server is set up within a few seconds.
@@ -37,7 +38,7 @@ ZAP-Credits can be deposited via all other payment options offered by us and als
 Transfers can be used to deposit ZAP credits. As soon as we have received the transfer, the credit will be activated and can be used.
 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/tzn3QD6iAE7J9B7/preview)
+![image](https://user-images.githubusercontent.com/61953937/159141689-90e712e8-1a0d-41ad-a75b-ad067c7d8e68.png)
 
 ## 💰 Cashbox
 The Cashbox can be accessed via the web interface under the item **Cashbox**. In addition to the possibility of depositing ZAP-Credits, the Cashbox offers the following additional functions:
@@ -53,4 +54,4 @@ The Cashbox can be accessed via the web interface under the item **Cashbox**. In
 > An overview of all transactions made so far.
 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/RBq6dNK2TYSkHPF/preview)
+![image](https://user-images.githubusercontent.com/61953937/159141718-7036a1a1-3316-43f3-95e6-df0efb3172f8.png) 
