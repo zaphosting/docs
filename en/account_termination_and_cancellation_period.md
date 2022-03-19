@@ -12,16 +12,15 @@ Learn more about the termination and the notice period.
 To cancel your product with us, you can do so if you are logged in:
 Go to the dashboard, i.e. your product overview. You can reach it by clicking the button at the top of the "Webinterface" bar.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/wwC4cqN7My6HtkM/preview)
-
+![image](https://user-images.githubusercontent.com/61953937/159140841-8a9503dd-33a9-4a74-97e4-0fe4bff7c220.png)
 
 Then you have to click on "Contracts & PrePaids" in the menu on the left. Finally, select your product there and click on the red *Cancel contract*.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/KneABRQFJDnMd3n/preview)
+![image](https://user-images.githubusercontent.com/61953937/159140954-70635121-6bab-4875-9154-8d3a61da824e.png)
 
 You will then be shown the date on which your contract will be cancelled.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/ExapfTFCHbTpSrb/preview)
+![image](https://user-images.githubusercontent.com/61953937/159141030-b4155339-4711-4114-b2e3-d6271d945c6b.png)
 
 ## 📙  "Term of notice"
 
