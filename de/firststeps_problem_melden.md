@@ -24,19 +24,19 @@ Sollte der Live Chat für dich gerade keine Option sein und du möchtest dennoch
 
 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/Lw5dderAQjfGZoo/preview)
+![image](https://user-images.githubusercontent.com/61953937/159140599-79251eeb-1601-49c7-8dfb-77ad199c9f73.png)
 
 > Einfach oben im Webinterface auf das Logo klicken
 
 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/FZdS5qrJ7Adop2Q/preview)
+![image](https://user-images.githubusercontent.com/61953937/159140621-25caea44-8a01-4c54-a15b-509f39ad42d1.png)
 
 > Der Link leitet euch zu allen aktuellen Tickets, die ihr bislang erstellt habt
 
 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/K2zQ5L6DXJR7SPk/preview)
+![image](https://user-images.githubusercontent.com/61953937/159140627-d93a5c05-e9a9-410e-810e-588c3fb0ccaf.png)
 
 > Hier euer Anliegen genau definieren und das Ticket einreichen
 
