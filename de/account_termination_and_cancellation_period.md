@@ -12,16 +12,15 @@ Erfahre mehr zu der Kündigung und der Kündigungsfrist.
 Um dein Produkt bei uns zu Kündigen, kannst du sofern du eingeloggt bist so vorgehen:
 Gehe in das Dashboard also in deine Produktübersicht. Dieses erreichst du über den Knopf oben in der Leiste "Webinterface".
 
-![](https://screensaver01.zap-hosting.com/index.php/s/wwC4cqN7My6HtkM/preview)
-
+![image](https://user-images.githubusercontent.com/61953937/159140839-4f8173fa-0a60-4b56-9daf-af7c0868df2e.png)
 
 Anschließend musst du links im Menü auf "Verträge & PrePaids" klicken. Zum Schluss wählst du dein Produkt dort aus und klickst dann auf das Rote *Vertrag Kündigen*.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/KneABRQFJDnMd3n/preview)
+![image](https://user-images.githubusercontent.com/61953937/159140952-38a70f87-5ab3-4ff4-b2ef-c17239fcdbb6.png)
 
 Im Anschluss wird dir angezeigt, zu welchem Datum dein Vertrag gekündigt wird.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/FTRFPEkgNZgA5sW/preview)
+![image](https://user-images.githubusercontent.com/61953937/159140986-9b83e169-7d7d-496a-88be-17509eb9993a.png)
 
 ## 📙  "Kündigungsfrist"
 
