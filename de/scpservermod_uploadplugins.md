@@ -27,15 +27,15 @@ Am einfachsten findest du Plugins auf deren [Discord](https://discord.gg/T9aurNf
 
 Im folgenden Beispiel verwenden wir folgendes Plugin:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/PxLQEndgjTTtX8T/preview)
+![image](https://user-images.githubusercontent.com/13604413/159183661-4e3c22ac-4d4b-44d2-b74c-4f521d581ac0.png)
 
 ### Plugins hochladen
 
 Nachdem du ein Plugin heruntergeladen hast, kannst du dies via FTP auf deinen Server hochladen. Das geht am einfachsten via **drag&drop** in den Ordner **sm_plugins folder.**
 
-![](https://screensaver01.zap-hosting.com/index.php/s/KBCCmeBn8LqWszZ/preview)
+![image](https://user-images.githubusercontent.com/13604413/159183662-b9032125-b4d6-46dd-aba2-e34f1f70762a.png)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/KDJtsQNp73WtkRW/preview)
+![image](https://user-images.githubusercontent.com/13604413/159183666-e5ed02fb-c7e3-44bd-83e7-2ecb99a8befe.png)
 
 > Beachte: Nach der Installation des Plugins wirst du deinen Server **neu starten** müssen damit das plugin **aktiv wird.**
 
@@ -45,7 +45,7 @@ Je nach Plugin gibt es verschiedene Konfigurationsmöglichkeiten welche du deine
 
 Für unser Beispiel-Plugin sind folgende Konfigurationsmöglichkeiten definiert:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/LbxeBmf6e2NWX5w/preview)
+![image](https://user-images.githubusercontent.com/13604413/159183671-0cbad21c-98e4-4a9c-831c-2313a7072c78.png)
 
 Um diese hinzufügen zu können musst du nun deine **config_gameplay.txt** bearbeiten.
 
