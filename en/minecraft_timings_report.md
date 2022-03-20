@@ -55,7 +55,7 @@ In Box number 2 you can see more precise values in miliseconds, but please note 
 
 > The **Full Server Tick** can usually be ignored, since the values are always in the red area, but this is not a big issue.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/FR5aqdsXjeLJ5tZ/preview)
+![image](https://user-images.githubusercontent.com/13604413/159177796-03f504fc-94f4-4f88-af53-d4ce33ed8039.png)
 
 In any case you should always investigate the colored highlighted values points more closely.
 
