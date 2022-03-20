@@ -14,7 +14,6 @@ Erstelle im "resources" Ordner nun einen Ordner für deine Mods.
 
 > Du kannst den Ordner alles nennen, solange es keine speziellen Zeichen enthält, bei unserem Beispiel ist es "assets"
 
-![](https://screensaver01.zap-hosting.com/index.php/s/WmLim2HXFtwkMHn/preview)
 
 Nun erstelle in deinem Frisch erstelltem "assets" Ordner eine fxmanifest.lua Datei
 
@@ -29,21 +28,24 @@ Danach kann die fxmanifest.lua gespeichert und geschlossen werden, diese brauche
 
 In deinem Assets Ordner erstellst du nun einen "stream" Ordner.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/jkLQoW7Qp8a25pp/preview)
+![image](https://user-images.githubusercontent.com/13604413/159168259-1508dc05-118c-4508-a1b3-7d11316b56fd.png)
+
 
 ## Mods Hochladen
 
 Öffne diesen stream Ordner nun, hier kannst du nun alle ytd und yft Dateien per drag&drop hochladen:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/kys9J3d3tC7nsyT/preview)
+![image](https://user-images.githubusercontent.com/13604413/159168290-8136adcb-6bb3-4c97-af56-b834bb3311ab.png)
 
 Nachdem die Mods alle hochgeladen sind, muss nun nur noch deine resource in der server.cfg eingetragen werden, diese findest du im "server-data" Ordner deines FiveM Servers.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/6LjYGCLFyLJBaS5/preview)
 
 Diese kannst du mit einem beliebigen Texteditor öffnen, unter den "start" Einträgen kannst du nun deine Resource wie folgt eintragen:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/gaxNFGXXRopkHS5/preview)
+
+```
+start assets
+```
 
 
 Fertig! Nach einem Serverneustart sollte der Carmod nun auf dem Server zu finden sein!
