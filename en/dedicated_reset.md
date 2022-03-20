@@ -22,7 +22,7 @@ The server does automatically go through the reset process
 
 > ⚠️ The reset can not be undone
 
-![](https://screensaver01.zap-hosting.com/index.php/s/edoXaaNZnW3fk57/preview)
+![image](https://user-images.githubusercontent.com/13604413/159174333-ef109e7e-2e79-4201-81cf-b33301c4d0b7.png)
 
 Your server is now overwriting all storage devices, there will be no data left in the end.
 Depending on the size of your ssd this process can take 45 minutes to 2 hours.
