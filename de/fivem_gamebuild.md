@@ -10,11 +10,11 @@ sidebar_label: DLC Gamebuild aktivieren
 Um die Inhalte von Cayo Perico, dem Tuner DLC  oder dem Los Santos Summer Special zu nutzen, ist es notwendig diese in den Einstellungen zu aktivieren.
 Die Einstellungen deines Servers findest du im Menü.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/JCdpYxDoc2E3XdD/preview)
+![image](https://user-images.githubusercontent.com/13604413/159138053-e9b031f6-0316-4330-9ffa-be661259b6ce.png)
 
 Scrolle dann bis ziemlich zum Ende deiner Einstellungen runter, dort findest du den Menüpunkt Enforce Game Build.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/zZsspsbd7TpEA43/preview)
+![image](https://user-images.githubusercontent.com/13604413/159138054-48f0b832-e2ae-45ea-9f3b-67ee9c55cc6e.png)
 
 Hier kannst du zwischen den verschiedenen Builds wählen. Danach speichere deine Änderung und starte den Server neu.
 Der erweiterte Inahlt steht dir nun zur Verfügung
@@ -22,7 +22,7 @@ Der erweiterte Inahlt steht dir nun zur Verfügung
 ## 🔧 Aktivierung bei txAdmin
 Um die Inhalte auf einem txAdmin Server zu aktivieren, muss in den FXServer Einstellungen in deinem Admin-Menü, der Gamebuild dort hinzugefügt werden.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/z4F6jjfr6CyRWHm/preview)
+![image](https://user-images.githubusercontent.com/13604413/159138094-9d72159c-36f7-4193-aea9-fb1c0260ad04.png)
 
 Füge einfach unter Additional Arguments 
 

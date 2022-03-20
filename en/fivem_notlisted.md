@@ -11,24 +11,17 @@ If the server does not appear in the server list, this can be due to several rea
 
 Often it is simple configuration errors which causes this problem, first we should check if our server has disabled the listing, for this we check the `sv_master1` line:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/KzMWGaFH6dETF6w/preview)
+![image](https://user-images.githubusercontent.com/13604413/159138135-be595288-7548-47f6-aef9-877b9cdb06af.png)
 
 > This line should **always** be commented out with a #, if this is not the case, the server will not be listed.
 
 
 Also the server name (`sv_hostname`) should be checked:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/sk2ZpQomYniYPyG/preview)
+![image](https://user-images.githubusercontent.com/13604413/159138144-52856120-f3df-4d37-91ad-a36be4244c13.png)
 
 
 In this case the quotation mark at the end of the line is missing, with some server names there may also be problems due to formatting, we would recommend to remove them in this case, e.g. [DE], special characters like ä, ü, ö.
-
-
-## Server version outdated
-
-If your server version is severely outdated, FiveM will no longer show the server in the server list, so we would always recommend having the server on the latest version and enabling automatic updates:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/YNr6s59bpWSxseQ/preview)
 
 ## Problematic resources
 

@@ -24,20 +24,20 @@ Außerdem müssen wir [NativeUI herunterladen](https://github.com/FrazzIe/Native
 
 nachdem wir die `eup-ui.7z`, `eup-stream.7z` und "NativeUI-master.zip" runtergeladen haben, müssen wir diese entpacken:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/5k99WrAfJAktmfm/preview)
+![image](https://user-images.githubusercontent.com/13604413/159167172-33ea451b-fc5f-4dd7-8768-c55dd4e791c5.png)
 
 > Beachte: Bei NativeUI muss erst der "NativeUI-master" ordner geöffnet werden, dort befinden sich die richtigen scripts.
 
 Nachdem die Resource entpackt wurde, sollte darin nun eine __resource.lua oder fxmanifest.lua und Script Files/Ordner sein.
 
 **eup-ui**
-![](https://screensaver01.zap-hosting.com/index.php/s/2DHfLodNrsyfAk2/preview)
+![image](https://user-images.githubusercontent.com/13604413/159167183-5a3c682f-5e9f-4df3-938f-f8168f2c8ab6.png)
 
 **eup-stream**
-![](https://screensaver01.zap-hosting.com/index.php/s/pLrT8mcgHHjQfcp/preview)
+![image](https://user-images.githubusercontent.com/13604413/159167191-887fb1a0-961d-4b57-9beb-78a6a0a5ef00.png)
 
 **NativeUI**
-![](https://screensaver01.zap-hosting.com/index.php/s/DTtctZn4cKzEKpo/preview)
+![image](https://user-images.githubusercontent.com/13604413/159167198-1c976213-42f3-41df-b444-b8dafb8ebeec.png)
 
 > Wenn dies nicht der Fall ist, befinden sich diese ggf. in einem Unterordner, meist mit dem gleichen Namen.
 
@@ -46,15 +46,16 @@ Nachdem die Resource entpackt wurde, sollte darin nun eine __resource.lua oder f
 
 Nun installieren wir die resourcen, in unserem beispiel über WinSCP, wir können diese über drag&drop in den "resources" Ordner hochladen
 
-![](https://screensaver01.zap-hosting.com/index.php/s/sFme5NHHxCjGand/preview)
+![image](https://user-images.githubusercontent.com/13604413/159167216-255c1841-8db9-4d43-a0ec-58f6783ead3a.png)
 
 Nachdem diese hochgeladen wurde, muss die server.cfg im server-data Ordner geöffnet werden:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/6LjYGCLFyLJBaS5/preview)
+![image](https://user-images.githubusercontent.com/13604413/159167223-cd8e0b4b-67a4-420e-9f0d-c74e070e489f.png)
+
 
 Unter den restlichen Starteinträgen für Ressourcen kann nun der Eintrag für unsere resources, in diesem Fall "NativeUI", "eup-stream" und "eup-ui", hinzugefügt werden:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/KEojnnKk9WsXR8M/preview)
+![image](https://user-images.githubusercontent.com/13604413/159167238-56880863-9a49-4651-a95c-daa070743def.png)
 
 
 Danach kann der Server neugestartet werden und EUP sollte Ingame über das `/eup` Command verfügbar sein!

@@ -15,9 +15,7 @@ You can generally compare these resources to viruses.
 
 ## What can i do against this?
 
-First of all we highly recommend removing resources that show this message:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/qWGfnyXfxcEE3MJ/preview)
+First of all we highly recommend removing resources that show the message.
 
 then make sure that you only download resources from respectable sources, like the [FiveM Forums](https://forum.cfx.re/), and not from Third Party Websites. Buying Resources is also against the FiveM Terms of Service, and can cause your server to get blacklisted.
 
