@@ -11,7 +11,7 @@ There are several locations, from where you could download mods, the official on
 ## 📂 Uploading the data
 First of all you need to connect with FTP to your BeamMP-Gameserver. The credentials can be found in "FTP-Browser" in your ZAP Interface.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/RBpKYHJkTKxajHk/preview)
+![image](https://user-images.githubusercontent.com/13604413/159179655-1a67846c-c767-45a5-a86c-5aa617e992a2.png)
 
 Connect with a ftp program of your like and open the directory
 
