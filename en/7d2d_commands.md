@@ -10,7 +10,7 @@ All commands are required to be executed through the developers console. You can
 
 The console looks like that:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/yEELEHTyctMjnm7/preview)
+![image](https://user-images.githubusercontent.com/13604413/159166040-1ddbb5ea-e072-4c91-87a3-f4e71051c9fb.png)
 
 ## 🖥️ The Commands
 The most important commands:
