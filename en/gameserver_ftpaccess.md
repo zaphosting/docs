@@ -9,7 +9,7 @@ sidebar_label: FTP File Access
 
 To connect to the server, enter the **IP address (FTP server)**, the **username** and the **password**. This data can be viewed under FTP Browser. The port is always **21**, but this is usually entered automatically.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/5n9ATzFKPbebdiD/preview)
+![image](https://user-images.githubusercontent.com/13604413/159184693-261d0660-4cfb-472e-b3bb-945ab6a33346.png)
 
 ## Connect via FileZilla
 ### Correct FileZilla Version
@@ -41,16 +41,16 @@ Files can be dragged and dropped from the left side (the computer) to the right 
 If the error message "Transfer connection interrupted: ECCONABORTED - Connection aborted" appears during the connection or transfer, the transfer mode can be changed from "**Passive**" to "**Active**".
 The following steps show how this can be changed in the Filezilla settings.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/3Bjwr2it7RP323X/preview)
+![image](https://user-images.githubusercontent.com/13604413/159184695-c03a49df-113a-4435-b253-5418843f150c.png)
 
 Press "**Edit**" in your Filezilla client, then open the "**Settings...**" directly:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/ipKHjQG5YCFP5Jb/preview)
+![image](https://user-images.githubusercontent.com/13604413/159184700-af55e7e0-484f-4992-8b56-d0cdedc3ddf0.png)
 
 After that the "**Settings**" window opens. There you can click on "**FTP**" to see the settings for the FTP connection.
 At "**FTP**" the default transfer mode will be set to "**Passive**", there you can select the radio button "**Active**" and confirm the change with "**OK**".
 
-![](https://screensaver01.zap-hosting.com/index.php/s/Bo7yf5J5Dxipwnk/preview)
+![image](https://user-images.githubusercontent.com/13604413/159184704-95564d7c-f103-45a5-894e-fa24c8af54f7.png)
 
 As soon as this is done, the FTP connection can be tested again.
 
@@ -67,6 +67,8 @@ To connect, the transfer protocol must be set to FTP.
 ### WinSCP Overview
 
 On the **left side** are the **own files** of the computer. On the **right side** are the **files from the server**, which can be **edited, deleted** or **downloaded** by right-clicking. On the **top** you can see the **current session**, there several sessions can be established at the same time.
+
+![image](https://user-images.githubusercontent.com/13604413/159184711-6ca6c2d0-03f8-4c35-8e8e-dbf46f40afe5.png)
 
 > It is important that the server must be offline when editing the data, otherwise the data will not be taken over or the server will crash.
 
