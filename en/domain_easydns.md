@@ -20,7 +20,7 @@ As shown in the example above.
 Select the desired service and confirm it by clicking the "Save" button.
 There is also the option to forward your domain to a Minecraft server with a subdomain.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/KYE7CMGmnDx2A6B/preview)
+![image](https://user-images.githubusercontent.com/13604413/159176049-875a72ff-c18e-4253-89cd-af5960c656f5.png)
 
 Here you can enter the name of the **desired subdomain** in the first field.
 On the right side you choose the desired **Minecraft Server**, which you want to link to the subdomain.
