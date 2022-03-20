@@ -8,37 +8,37 @@ sidebar_label: Kein Internet was nun?
 ## 🖥 Kein Internet was nun?
 In der Regel steht dein Windows Server auf "Gestartet", sollte er über keine Internetverbindung verfügen.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/qSJjBQiLJKgyReK/preview)
+![image](https://user-images.githubusercontent.com/13604413/159165538-4c9c7858-ce7a-44eb-982e-fe614f731dfa.png)
 
 Sollte dein Server regulär Online sein, dennoch aber keine Verbindung haben, muss die Netzwerkkonfiguration über die VNC-Konsole geprüft werden.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/6jtNLPRw4TfTL8L/preview)
+![image](https://user-images.githubusercontent.com/13604413/159165541-d23bfcaf-d745-4b98-96bb-5960a113723c.png)
 
 
 ## 🖥 Wie stelle ich die Verbindung wieder her?
 Wir verbinden uns über die VNC-Konsole und melden uns auf dem Server an.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/nHtJAMEx2EfxLsw/preview)
+![image](https://user-images.githubusercontent.com/13604413/159165545-bb459a8b-f900-4d7c-95b6-c73b10d494ef.png)
 
 Im Anschluss öffnen wir die Adaptereinstellungen. Dafür machen wir einen Rechtsklick auf die Internetverbindung.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/TjqqwyRj5rEEBww/preview)
+![image](https://user-images.githubusercontent.com/13604413/159165546-ce7eedcc-2761-4109-a72b-a41ef19f4b5e.png)
 
 Anschließend klicken wir auf **Adapteroptionen ändern**.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/szKJLktSqq8HA2z/preview)
+![image](https://user-images.githubusercontent.com/13604413/159165551-c3d6190f-f9cf-4b0c-8e09-14d6c55b02b8.png)
 
 Nun öffnen wir per **Rechtsklick** die **Eigenschaften** des Adapters. 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/c8tmdfzrDXDN6Mj/preview)
+![image](https://user-images.githubusercontent.com/13604413/159165554-6c7e2ff3-c4ab-42bc-ba9a-b34d1974e3b4.png)
 
 Im Anschluss machen dort einen **Doppelklick** auf die **Ipv4** Verbindung.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/J4ZL7t6awrRJ5a4/preview)
+![image](https://user-images.githubusercontent.com/13604413/159165558-e73e6c72-5c7f-4218-8fbd-7879ea9858b3.png)
 
 Daraufhin prüfen wir, ob dort **unsere** IP aus dem ZAP Webinterface eingetragen ist. Im folgenden zeige ich ein Beispiel wie es bei der IP 185.249.196.108 korrekt wäre:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/yi6kN86JFjpFrFw/preview)
+![image](https://user-images.githubusercontent.com/13604413/159165560-ca15c764-dc9e-460d-a5ac-2cd4eee8bf5f.png)
 
 > Gehe sicher das du **deine** Server IP unter "IP Addresse" Eingibst
 
