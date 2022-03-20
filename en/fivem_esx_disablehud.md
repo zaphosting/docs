@@ -5,17 +5,6 @@ description: Information on how to disable/enable the HUD on your FiveM server r
 sidebar_label: Disable HUD
 ---
 
-## 📔 Deactivate Force overwrite
-
-We must first make sure that "Force overwrite" is disabled.
-Therefore we go to the tab "Resources".
-
-![](https://screensaver01.zap-hosting.com/index.php/s/6ZXxWHN4wCE6WcE/preview)
-
-There we will remove the hook.
-
-![](https://screensaver01.zap-hosting.com/index.php/s/KqWnnT98PB8W9QD/preview)
-
 ## 📑 Find and edit Config
 
 Once we have done this we open the Config page and search for es_extended.
@@ -23,11 +12,11 @@ Just press CTRL + F and search for es_extended.
 Then you better find it fast.
 We'll work on these.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/gNyanXGeexobkeC/preview)
+![image](https://user-images.githubusercontent.com/13604413/159166882-9f7ff88e-e82e-4f0f-8942-c729fe037906.png)
 
 Now let's have a look: Config.EnableHUD.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/25HfeCciXc3wRZr/preview)
+![image](https://user-images.githubusercontent.com/13604413/159166890-39e92b90-cb40-4650-8733-c08fa926775a.png)
 
 We then set this to false and save the file.
 
