@@ -14,7 +14,7 @@ Mit dieser kann im Vorfeld ein automatischer Restart erstellt, damit der Server 
 
 Auffinden kann man diese Funktion daher in dem Gameserver Interface von dem bestellten Gameserver.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/2FkbFm3Yg6W2kny/preview)
+![image](https://user-images.githubusercontent.com/13604413/159171151-58a2ede5-609b-4d9d-b1fd-2e1640050b19.png)
 
 ## ✍️ Neue Einträge erstellen
 
@@ -23,19 +23,16 @@ Alternativ können die Änderungen auch direkt bei gestopptem Server durchgefüh
 
 Um einen automatischen Neustart einzutragen, muss auf das graue "**+**" Icon geklickt werden
 
-![](https://screensaver01.zap-hosting.com/index.php/s/BQwpCcKbDW4eBTi/preview)
-
 In dem neuen Fenster kann nun zwischen Wöchentlichen und Täglichen Restart gewählt werden.
 In unserem Beispiel wollen wir vier Restart pro Tag in einem Abstand von 6 Stunden.
 Deswegen wählen wir "**Täglich**" und tragen "**06:00**" ein.
 Die Eingabe bestätigen wir mit "**Speichern**"
 
-![](https://screensaver01.zap-hosting.com/index.php/s/9rxf29yQ2oNbLjQ/preview)
 
 Dieser Vorgang wird nun für jeden gewünschten automatischen Neustart wiederholt.
 Bei "**24:00**" wird von dem System eine Fehlermeldung angezeigt. Um diesen Fehler zu vermeiden, muss dort stattdessen "**00:00**" genutzt werden.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/d8dgKspw7RLWnMF/preview)
+![image](https://user-images.githubusercontent.com/13604413/159171159-94dfe1d5-e218-4e2a-b0fe-388a884b81d2.png)
 
 ###  Offline Server starten
 
@@ -51,7 +48,7 @@ Diese Funktion würde den Befehl so wie er dort eingetragen wird an die Konsole 
 
 Sollen Spieler vorgewarnt werden kann bei Minecraft der *say* Befehl genutzt werden
 
-![](https://screensaver01.zap-hosting.com/index.php/s/8oofqcYkMjK8XPM/preview)
+![image](https://user-images.githubusercontent.com/13604413/159171163-7be2fa64-9219-4f36-802b-34eccc379894.png)
 
 ###  Verzögerung
 
