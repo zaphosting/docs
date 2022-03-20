@@ -33,19 +33,15 @@ Wichtig: Da es keine Screenshot Funktion dort gibt, muss der Screenshot bereits 
 
 Upload Option:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/kxGFndBeFPp42AJ/preview)
+![image](https://user-images.githubusercontent.com/13604413/159170265-740e9052-41fc-43c3-9b3b-d4ce3725239f.png)
 
-Nachdem der Screenshot hochgeladen wurde, können noch kleine Bearbeitungen vorgenommen werden:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/jgSTiEwg5dEdXWn/preview)
+Nachdem der Screenshot hochgeladen wurde, können noch kleine Bearbeitungen vorgenommen werden
 
 Anschließend kann der der Screenshot als Post zur Community (wird öffentlich gelistet) oder als Versteckt (wird nicht öffentlich gelistet) gepostet werden. 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/24JHDQEskG8RPZJ/preview)
-
 Ist dies erfolgt, wird der Link angezeigt der zum teilen genutzt werden kann:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/JDGXqNBCqZBeNoH/preview)
+![image](https://user-images.githubusercontent.com/13604413/159170268-ee36e695-4354-439e-b98f-5a6ab953f935.png)
 
 ### Lightshot
 
@@ -55,21 +51,15 @@ Der Client kann direkt auf der Webseite bezogen werden und bietet zu dem noch ei
 Download des Clients [Download](https://app.prntscr.com/en/)
 Wichtig: Eine Version für Linux wird nicht angeboten. 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/9ME3CTR8DKcEPtS/preview)
+![image](https://user-images.githubusercontent.com/13604413/159170271-13f1373f-b5e2-4c8a-8546-bf0f0359daaf.png)
 
 Nach dem Download kann der Client installiert werden. 
 Anschließend kann standardmäßig mit der Taste "Druck" ein Scrrenshot erstellt werden bzw.ein Bereich ausgewählt werden. 
 
 Nachdem der Bereich ausgewählt wurde, kann der Screenshot noch bearbeitet werden. 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/ss7NCafdDFrqzeY/preview)
-
 Ist die Bearbeitung sofern nötig abgeschlossen, wird der Screenshot mit Klick auf die "Wolke" hochgeladen. 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/ELzCWngbErkEMYS/preview)
-
 Nach dem Upload kann der Link kopiert und mit anderen geteilt werden.
-
-![](https://screensaver01.zap-hosting.com/index.php/s/NKEntqPpx9te2BW/preview)
 
 
