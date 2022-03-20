@@ -13,7 +13,7 @@ The restart planner is a feature offered for game servers which allows you to cr
 
 This feature can be found in the interface of the game server.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/LjwmTQHZFZYHf7Z/preview)
+![image](https://user-images.githubusercontent.com/13604413/159171151-58a2ede5-609b-4d9d-b1fd-2e1640050b19.png)
 
 ## ✍️ Create new entries
 
@@ -21,15 +21,11 @@ This feature can be found in the interface of the game server.
 
 If you want to add an automatic restart, then you need to click on the grey "**+**" button.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/F7sn4boM7R5Ffkq/preview)
-
 Within the next window you can now choose between Weekly and Daily restarts. In our example, we want four restarts per day with an interval of 6 hours. Therefore we select "**Daily**" and set "**06:00**". Confirm the entry with "**Save**".
-
-![](https://screensaver01.zap-hosting.com/index.php/s/XZksribiEYAp89a/preview)
 
 This procedure is now repeated for each desired automatic restart. If "**24:00**" occurs, the system displays an error message. To avoid this error, "**00:00**" needs to be used instead.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/5GKJCnK2TXpZ4WC/preview)
+![image](https://user-images.githubusercontent.com/13604413/159171159-94dfe1d5-e218-4e2a-b0fe-388a884b81d2.png)
 
 ###  Start offline server
 
@@ -41,7 +37,7 @@ The command option among the specified automatic restarts is intended to be used
 
 If you want to warn players beforehand, then you can use the *say* command in Minecraft
 
-![](https://screensaver01.zap-hosting.com/index.php/s/fxfb2FnsbtMG7Hp/preview)
+![image](https://user-images.githubusercontent.com/13604413/159171163-7be2fa64-9219-4f36-802b-34eccc379894.png)
 
 ### Delay
 
