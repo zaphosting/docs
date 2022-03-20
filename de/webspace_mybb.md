@@ -24,14 +24,14 @@ Bevor die eigentliche Installation von MyBB durchgeführt werden kann, müssen g
 
 Die Forensoftware  kann auf der offiziellen Webseite von MyBB heruntergeladen werden. Der Download dazu ist hier zu finden: [MyBB](https://mybb.com/download/)
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/q5WfRKpZSRxF4K8/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/q5WfRKpZSRxF4K8/preview)
 
 Beim Download erhält man eine gepackte Datei, welche auf dem lokalen Computer entpackt werden muss. Darin befindet sich dann ein Ordner mit dem Namen **Upload**. Dessen Inhalt wird benötigt und muss entweder per **FTP oder Datei-Manager** hochgeladen werden. Unter **Websites & Domains** bei **FTP-Access** kannst du einen FTP-Benutzer anlegen.
 
 
 Nach dem öffnen des Datei-Managers im Pleskpanel, navigieren wir in das **httpdocs** Verzeichnis und laden im Anschluss die Dateien der Forensoftware hoch.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/Ec2tgPfxGcFNEQ9/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/Ec2tgPfxGcFNEQ9/preview)
 
 
 
@@ -39,7 +39,7 @@ Nach dem öffnen des Datei-Managers im Pleskpanel, navigieren wir in das **httpd
 
 Als Nächstes muss die Datenbank angelegt werden, in der später alle Informationen vom Forum gespeichert werden sollen. Klicke dazu wieder auf **Websites & Domains** und dann auf **Datenbanken**. Dort klicken wir dann auf Datenbank hinzufügen und legen eine Datenbank an: 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/bwsnxLFpcZXJjRK/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/bwsnxLFpcZXJjRK/preview)
 
 Im Anschluss auf **OK** klicken und schon wurde die Datenbank hinzugefügt.
 
@@ -55,7 +55,7 @@ Um einen Account beim Forum zu registrieren wird ein Mailserver mit einer E-Mail
 
 Wenn alle Schritte von der Vorbereitung erfüllt wurden, dann kann mit der eigentlichen Einrichtung von MyBB begonnen werden. Dafür muss nun im Internetbrowser die Webseite aufgerufen werden. Das sieht dann so aus: 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/R5tqJkFkeptDaWM/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/R5tqJkFkeptDaWM/preview)
 
 
 
@@ -64,12 +64,12 @@ Dort angelangt, müssen wir bei der Einrichtung nun die 9 Kategorien konfigurier
 Anschließend sollte eine Übersicht aller notwendigen Voraussetzungen angezeigt werden. Standardmäßig sollten das Webspace bereits so konfiguriert sein, dass diese alle erfüllt werden.
 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/83PEwRkKbrwSTeZ/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/83PEwRkKbrwSTeZ/preview)
 
 
 Sollten irgendwelche Voraussetzungen nicht erfüllt werden, dann melde dich diesbezüglich bitte im Support. Ansonsten kannst du einfach auf **Weiter** klicken und die Einrichtung fortsetzen. Nun steht die Konfiguration der Datenbank an, welche bereits im Voraus erstellt wurde. Die Datenbank Informationen von der erstellten Datenbank müssen nun dort eingetragen werden: 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/i2GrCiGw7KkjK7J/preview)
+![image](https://user-images.githubusercontent.com/13604413/159177023-e839a466-f66e-4bdf-a11a-d505734eecfc.png)
 
 
 Die Datenbank wird im Anschluss konfiguriert. Das kann einen Augenblick dauern. Im Anschluss erfolgt dann die Implementierung der Standard Daten und Designs. Hier musst du ebenfalls nur auf **Weiter** klicken.
@@ -78,15 +78,15 @@ Die Datenbank wird im Anschluss konfiguriert. Das kann einen Augenblick dauern. 
 Darauffolgend kommen wir dann schon zur allgemeinen Konfiguration. Hier kann nun der Name der, Website, Forum, URL und mehr definiert werden:
 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/SfYAJpMegJRR4AH/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/SfYAJpMegJRR4AH/preview)
 
 
 Zu guter Letzt wird nun noch ein allgemeiner Administrator Account angelegt, bevor die Einrichtung dann endgültig abgeschlossen werden kann. 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/e2RKWMicgAgQs2x/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/e2RKWMicgAgQs2x/preview)
 
 Wenn du das erledigt hast und auch ansonsten alles erfolgreich konfiguriert wurde, dann solltest du im Anschluss folgende Meldung sehen und dein Forum ebenfalls aufrufen können:
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/GxA2iZBLcTr2a9j/preview)
+![image](https://user-images.githubusercontent.com/13604413/159177053-541b8e05-9fb5-4dfa-a536-ab1958a0f598.png)
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/f7K4jNyRDbJPRqA/preview)
+![image](https://user-images.githubusercontent.com/13604413/159177056-647941dd-31f1-4c75-a656-da73c3edf2cc.png)
