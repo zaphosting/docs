@@ -14,16 +14,16 @@ sidebar_label: Valheim Plus
 First you have to open the Valheim folder on your PC. 
 To do this, right-click on Valheim in the Steam library, select "***Manage***" in the options and then "***Browse local files***".
 
-![](https://screensaver01.zap-hosting.com/index.php/s/MT5yq4XAzApqB5J/preview)
+![image](https://user-images.githubusercontent.com/13604413/159180035-ac9c6116-bbf9-44c2-9927-7c31cbebbf4c.png)
 
 Once this folder has been opened, the "***WindowsClient.zip***" has to be downloaded. 
 The "***WindowsClient.zip***" can be downloaded [here](https://github.com/valheimPlus/ValheimPlus/releases) (go to "Assets").
 
-![](https://screensaver01.zap-hosting.com/index.php/s/kzoEZLCMeTJGzZY/preview)
+![image](https://user-images.githubusercontent.com/13604413/159180038-9eb609a1-3e14-461b-b7ae-5afb5d3bbc89.png)
 
 Afterwards the content of the "***WindowsClient.zip***" has to be unzipped into the previously opened Valheim server folder.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/4G95YMM2Aayk6JC/preview)
+![image](https://user-images.githubusercontent.com/13604413/159180041-de775b09-a531-4d37-b232-7bf06e3f8130.png)
 
 Then Valheim can be started and the setup at the client is finished.
 
@@ -31,7 +31,7 @@ Then Valheim can be started and the setup at the client is finished.
 
 To change the game we first open the games tab on our server:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/5wDLo9EMbtH7LyW/preview)
+![image](https://user-images.githubusercontent.com/13604413/159180043-551c13d9-8c8c-4e92-8a71-3af7dd5264cc.png)
 
 Here we now search for Valheim Plus under "Available games" and click on the download button:
 
@@ -49,19 +49,19 @@ Now select the desired number of slots on the UP and Downgrade page.
 
 > Here only the "**surcharge**" has to be paid, this is calculated for the remaining runtime
 
-![](https://screensaver01.zap-hosting.com/index.php/s/WHGsG4LWapoG4bb/preview)
+![image](https://user-images.githubusercontent.com/13604413/159180047-0089d7b6-3a2f-4ce1-9c6f-daa2eb5acc64.png)
 
 To complete the upgrade, the payment method must be selected at the bottom of the page.
 Once selected, press the "***Perform upgrade***" button and the upgrade will be performed.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/WXDPpfq2iLZbzt7/preview)
+![image](https://user-images.githubusercontent.com/13604413/159180050-43c2fe91-48a5-413d-ac17-f451858bed7d.png)
 
 ## 🔧 Valheim Plus Config
 
 To open the configuration file you have to open the "**Configs**" page in the game server interface, where you can see the "*ValheimPlus: valheim_plus.cfg*".
 This can be opened via the blue icon which is located next to the configuration file.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/dbSYkkm3qMcoL25/preview)
+![image](https://user-images.githubusercontent.com/13604413/159180059-4d68cc14-b0d9-4a6e-8804-4c48647f503a.png)
 
 A list of all commands that can be used in the configuration file:
 
