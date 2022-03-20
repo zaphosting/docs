@@ -28,7 +28,7 @@ You will now be prompted again if you want to execute it, type "Y" to accept.
 
 You will now get a QR Code. Open your Authenticator app on your smartphone and scan the QR Code.For this example we use the Google Authenticator:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/ZnabwTXa5qZPtkS/preview)
+![image](https://user-images.githubusercontent.com/13604413/159171815-4a7368da-fab1-4284-9c90-e310a577dbbf.png)
 
 Make sure to copy the backup codes, these can each be used once in case you lose your authenticator.
 
@@ -94,7 +94,7 @@ Save the file with 'CTRL + X' then 'Y' and lastly 'Enter`
 
 Now it is time to log in for the first time with 2FA. After you have followed the steps above, all you need to do is restart your SSH connection.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/meaMHTJBYqPwJnt/preview)
+![image](https://user-images.githubusercontent.com/13604413/159171829-90fb3349-c238-4558-818a-0657b87062e5.png)
 
 You now enter your password as normal. You will be asked for a code, simply enter the recent 2FA code.
 
