@@ -12,7 +12,7 @@ sidebar_label: Become Admin
 
 Adding an admin is done via the settings page in the web interface. Click in the **Gameserver Administration** on **Settings** and scroll down to the **Server Settings**.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/PEatzck2Mob7RNK/preview)
+![image](https://user-images.githubusercontent.com/13604413/159184322-cb6e4aeb-690b-4bed-8ba4-7d9527e873be.png)
 
 
 
@@ -20,7 +20,7 @@ Once there, you will find a field called **Admin SteamIDs**. There you have to e
 
 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/x8fpPwdiTrW84HG/preview)
+![image](https://user-images.githubusercontent.com/13604413/159184330-9b4155c9-6ca3-4a9a-9a3e-050597e23038.png)
 
 
 

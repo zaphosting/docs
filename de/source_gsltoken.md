@@ -29,7 +29,7 @@ Um einen Gameserver Login Token zu erstellen, muss man auf der Steam Webseite ei
 
 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/W3g6NZSJawddYcq/preview)
+![image](https://user-images.githubusercontent.com/13604413/159178565-0844dacc-31d2-4a11-980d-d1b5caba44d6.png)
 
 
 

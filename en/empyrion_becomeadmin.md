@@ -13,7 +13,7 @@ The ID will later be entered in the configuration file.
 
 Here you can find an example of how you can get your steamid by inputting your profile link there:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/EQHnQxyBxYyxcGY/preview)
+![image](https://user-images.githubusercontent.com/13604413/159184139-e07456a3-965e-4e66-9aed-11a3a1cc9f76.png)
 
 ## 📃 configure adminconfig
 

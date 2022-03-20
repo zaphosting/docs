@@ -18,7 +18,7 @@ Zunächst einmal werden die eigentlichen Erweiterungen benötigt. Hierbei ist es
 - [Metamod](https://www.sourcemm.net/downloads.php?branch=stable)
 - [Sourcemod](https://www.sourcemod.net/downloads.php?branch=stable)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/8XEpA3Gi4kqrdn2/preview)
+![image](https://user-images.githubusercontent.com/13604413/159178791-f9949d57-45ec-42af-9e5f-5eb9190ae602.png)
 
 > Source-Engine Gameserver laufen bei ZAP-Hosting in der Regel unter einem Linux Betriebssystem. Dementsprechend wird die Linux Version der Erweiterungen benötigt.
 
@@ -26,11 +26,11 @@ Zunächst einmal werden die eigentlichen Erweiterungen benötigt. Hierbei ist es
 
 Beim Herunterladen der beiden Erweiterungen erhält man zunächst zwei gepackte Dateien (sourcemod-X.X.X-gitXXXX-linux.tar / mmsource-X.X.X-gitXXX-linux.tar), welche vor dem Hochladen noch entpackt werden müssen. Dafür kann man entweder Winrar, 7zip oder ähnliche Programme benutzen.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/oGwmMqFmgJiWp2X/preview)
+![image](https://user-images.githubusercontent.com/13604413/159178794-4b9bc301-1b64-4b87-b7d1-1ac9500f6a57.png)
 
 Aus den entpackten Dateien erhält man im Anschluss addons und cfg den Ordner:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/QqyoF2GPSX9KEBY/preview)
+![image](https://user-images.githubusercontent.com/13604413/159178797-76cc4be0-ff07-4a6a-a85a-d31ec71c76eb.png)
 
 ### ⬆ Hochladen der Dateien
 
@@ -45,11 +45,11 @@ Die Dateien müssen in dem Hauptverzeichnis hochgeladen werden. Das Hauptverzeic
 | Team Fortress 2 | tf2 |
 | L4D2 | left4dead2 |
 
-![](https://screensaver01.zap-hosting.com/index.php/s/jr9adQxWicgnEYQ/preview)
+![image](https://user-images.githubusercontent.com/13604413/159178805-066652c8-c5b9-43c3-9c16-e27d6f90e6e4.png)
 
 Im Anschluss sollte die Ordner Struktur dann wie folgt aussehen:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/o2T6Rmdydgfg3Hr/preview)
+![image](https://user-images.githubusercontent.com/13604413/159178810-43bff013-43ab-47ce-9806-38423cc91fb5.png)
 
 ## ✅ SM / MM Installation überprüfen
 
@@ -72,11 +72,12 @@ meta version
 
 Als Resultat erhalten wir dann folgende Ausgabe: 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/5gRWF5xmbeqyDMH/preview)
+![image](https://user-images.githubusercontent.com/13604413/159178813-83f8c4a3-03ac-469d-9315-54631c89c4f3.png)
 
 ### 📖 Versionsabfrage via RCON
 
-![](https://screensaver01.zap-hosting.com/index.php/s/f5zALXZtH3ApPAX/preview)
+![image](https://user-images.githubusercontent.com/13604413/159178818-bc81a67e-4068-4198-a03b-0abf0eef3b5d.png)
+
 Über die folgenden Schritte können wir die Version für den eigenen Server prüfen
 
 1. IP-Adresse oben unter IP/Port eingeben
