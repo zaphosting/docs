@@ -9,7 +9,7 @@ sidebar_label: Pakete Installieren
 
 Bevor Pakete installiert werden können, muss der [FTP-Zugang](gameserver_ftpaccess.md) eingerichtet werden:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/imH3yFWaFNmD9AH/preview)
+![image](https://user-images.githubusercontent.com/13604413/159178012-0172691b-d49f-49d6-ab34-cc01eadbacf5.png)
 
 ## 📦 RageMP Pakete
 
@@ -35,7 +35,7 @@ In den "**gamemode**" Ordner werden nun die Scripte hochgeladen, welche man auf 
 Sobald alle gewünschten Scripte hochgeladen wurden, muss die vorher erstellte "**index.js**" editiert werden.
 Dort wird für jedes Script die Zeile ***require(./gamemode/DEINSCRIPTNAME.js);*** eingefügt
 
-![](https://screensaver01.zap-hosting.com/index.php/s/DaRrftmqZSRrAm3/preview)
+![image](https://user-images.githubusercontent.com/13604413/159178015-9106b7ea-41c4-4876-868c-dbca30410d62.png)
 
 ### 🖥️ Server Pakete
 
@@ -44,15 +44,15 @@ Beispielsweise: Spawn, Spieler, Autos, Marker
 
 Die Serverseitigen Pakete werden in den "**packages**" Ordner hochgeladen
 
-![](https://screensaver01.zap-hosting.com/index.php/s/QRspdA2sXBW93oH/preview)
+![image](https://user-images.githubusercontent.com/13604413/159178021-7b030066-b72a-41a9-9baa-c9abba124ff2.png)
 
 In diesem Ordner wird nun ein weiterer Ordner erstellt, der Name von diesem Ordner ist frei wählbar.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/Rxe23ToBE7M84Dz/preview)
+![image](https://user-images.githubusercontent.com/13604413/159178028-2b2bbd99-c4a1-4422-b4c8-bad298aefea7.png)
 
 Sobald der Ordner erstellt wurde, wird in dieser Ordner mit den Serverseitigen Scripten befüllt.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/Y3NzTR9ow7iDSec/preview)
+![image](https://user-images.githubusercontent.com/13604413/159178033-5240c361-d4de-40dd-8d1f-64d207529842.png)
 
 Nachdem alle Wunschscripte auf dem Server liegen muss in dem gleichen Ordner eine "**index.js**" erstellt werden.
 
