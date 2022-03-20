@@ -9,7 +9,7 @@ sidebar_label: Custom Content
 
 Some source games such as Counter-Strike or Garry's Mod have become known for their variety. All of this was made possible by the support of plugins and **custom content**. Various game modes have been developed over the years, such as Zombie Mod, Hide and Seek, Minigames, Jailbreak and much more. 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/D4cfNkDdyyqH55R/preview)
+![image](https://user-images.githubusercontent.com/13604413/159178680-6fd1ea06-9ee9-4bfc-a23e-2f3457800c04.png)
 
 
 
@@ -44,7 +44,7 @@ Once there, we open the file manager and create the following folders:
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/ywx4gn9fSJoSQc2/preview)
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/jHk4grkTyaBSxrC/preview)
+![image](https://user-images.githubusercontent.com/13604413/159178687-7ea690cf-0d73-4e22-a302-023be7603cef.png)
 
 
 
@@ -66,7 +66,7 @@ sv_downloadurl "https://zapXXXXX-1.plesk08.zap-hosting.com" // Replace the URL w
 
 After restarting and connecting to the server the corresponding content should be downloaded. This can also be checked in the console of the game:
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/m7rkTna8jbXdc2R/preview)
+![image](https://user-images.githubusercontent.com/13604413/159178720-35ccc5ca-7367-467a-869c-5cf87a834d95.png)
 
 
 
@@ -80,7 +80,7 @@ There we click right on Collection and create the collection for the game server
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/yiE7yXzpNwLyHLP/preview)
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/gKEeQJTJspeiyTQ/preview)
+![image](https://user-images.githubusercontent.com/13604413/159178741-f3d5bd5a-88e7-4bbc-9d9d-5273d16c3676.png)
 
 The collection has then been successfully created. However, it is still empty by default. Therefore, we now reopen the workshop of the game and select the objects we want to add:
 
