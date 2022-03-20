@@ -24,24 +24,21 @@ Hier findest du ein Beispiel wie du deine Steam64ID herausfindest indem du den L
 Nun musst du die Konfiguratinsdatei öffnen une bearbeiten.
 Diese findest du links im Menü als "**Configs**", direkt unter dem Menüpunkt "**Einstellungen**".
 
-![](https://screensaver01.zap-hosting.com/index.php/s/skPdcw2DDy5zo3H/preview)
+![image](https://user-images.githubusercontent.com/13604413/159181503-5c3ddda0-88e2-4bae-a2a0-a2160268ac0f.png)
 
 Dort befindet sich die "**config_remoteadmin.txt**" welche du mit dem Online-Editor öffnen und bearbeiten kannst.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/p9BwZkyzXeZ42nn/preview)
+![image](https://user-images.githubusercontent.com/13604413/159181547-d354215d-2563-42ee-803e-673822364aed.png)
 
 Dort werden die verschiedenen Serverrollen erstellt und zugewiesen.
 Das "**SomeSteamId64**" welches direkt vor "**@steam: owner**" steht muss mit deiner Steam64ID ersetzt werden, welche du zuvor herausgefunden hast.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/oaTqEsxPaeD52SA/preview)
-
-Sobald du deine Steam64ID eingetragen hast sollte es so aussehen (natürlich mit deiner eigenen Steam64ID):
-![](https://screensaver01.zap-hosting.com/index.php/s/kNcH4qiT3sEtnoJ/preview)
+![image](https://user-images.githubusercontent.com/13604413/159181591-fe0fb375-db67-45a6-8790-1a497e81c69b.png)
 
 Diesen Vorgang kannst du für jeden Spieler wiederholen welcher Rechte auf dem Server bekommen soll.
 In unserem Beispiel setzen wir doe Rechte für drei benutzer, einer von ihnen bekommt die Rechte als "**owner**" und die anderen beiden bekommen "**admin**".
 
-![](https://screensaver01.zap-hosting.com/index.php/s/xLBKPqePiHCcZ7C/preview)
+![image](https://user-images.githubusercontent.com/13604413/159181666-fd68aac0-2c42-470c-b0c2-b1448d67a2cd.png)
 
 ## 🕴️ Mehr Rollen hinzufügen - Remotepasswort überschreiben
 
