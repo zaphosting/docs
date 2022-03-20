@@ -19,17 +19,15 @@ This will give us the coordinates.
 
 Once we have our coordinates we go to the Config TAB
 
-![](https://screensaver01.zap-hosting.com/index.php/s/wpcoqFHq99rRKox/preview)
-
 Here we press **CTRL + F** and search for **ambulance**
 We will then open this file.
 Here we scroll down until we find **Config_RespawnPoint**.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/5HXdRQWNeRNKYfd/preview)
+![image](https://user-images.githubusercontent.com/13604413/159166852-965cc0d9-e82e-469a-8680-7c9efa891a73.png)
 
 We will now edit these and replace the coordinates.
 After that we just click on Save and that's it.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/dxzXNxkMR9PHmq8/preview)
+![image](https://user-images.githubusercontent.com/13604413/159166856-e2d31e0d-6b75-4f1b-8797-1c4891b5b335.png)
 
 > After a server restart, the changes will take effect.
