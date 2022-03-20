@@ -12,12 +12,12 @@ sidebar_label: Ts3 Backup
 
 To make a backup of your Ts3 server in our Webinterface, just go to **Snapshots** on the left.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/6kRs6W3ebMQXt7o/preview)
+![image](https://user-images.githubusercontent.com/13604413/159177305-ec17ce4e-42da-4669-a54c-3b9ea7aef2e4.png)
 
 Then you go to **Create a snapshot**. Below you will see all your snapshots and can import, download or delete them.
 >Info: For security reasons, it is not allowed to upload your own snapshots!
 
-![](https://screensaver01.zap-hosting.com/index.php/s/P2CDSK83HG3EzzG/preview)
+![image](https://user-images.githubusercontent.com/13604413/159177311-8b87f8d4-b8ed-41dd-9a77-ca84886da311.png)
 
 
  <!--v/Rootserver-->
@@ -26,11 +26,11 @@ To make a backup of your Ts3 server, which is installed on your v/Rootserver, yo
 
 Then you call up your Ts3 instance and log in to Yatqa with the data: 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/d3azqsz3rFs2txp/preview)
+![image](https://user-images.githubusercontent.com/13604413/159177323-172ee599-9091-41c3-b44e-95b9533b928d.png)
 
 To create the backup you have to go to **Miscellaneous** and then to **Create and save a snapshot**:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/5cyfs7PwSMMH354/preview)
+![image](https://user-images.githubusercontent.com/13604413/159177326-da70288f-aeb9-497d-b870-4768ec710768.png)
 
 To import a backup you can simply go to **Restore snapshot**.
 
