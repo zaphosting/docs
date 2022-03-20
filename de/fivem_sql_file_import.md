@@ -19,18 +19,18 @@ liegt dort jedoch in vielen Fällen eine oder mehrere Dateien mit der Dateiendun
 In den Einstellungen deines FiveM Servers muss zu Beginn die Option **Konfiguriere Datenbank** aktiviert und 
 die benötigte Ressource **MySQL-Async** installiert werden, damit eine Datenbank erstellt und genutzt werden kann.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/J6WjWF9Q4ZApE8t/preview)
+![image](https://user-images.githubusercontent.com/13604413/159168765-ce6eb80a-71eb-4e3a-8834-ed0e50da1ebe.png)
 
 
 Dort scrollst du herunter bis du den Punkt **Konfiguriere Datenbank** erreichst und stellst sicher dass dieser
 auf **Yes, configure!** gesetzt ist. Danach scrollst Du zum Ende der Seite und klickst auf **Speichern** um die Einstellungen zu übernehmen.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/Qmg5jtG9mWDZ5G8/preview)
+![image](https://user-images.githubusercontent.com/13604413/159168774-3302004e-4b6f-4c58-809b-c40cb2a14901.png)
 
 
 Nun navigieren wir zum Menüpunkt **Resources** und installieren dort, sofern dies noch nicht geschehen ist, die Resource **MySQL-Async**.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/iNMwLf4ffkpWKLy/preview)
+![image](https://user-images.githubusercontent.com/13604413/159168777-0d4102db-8568-4751-a0b0-a4329ddc9a2d.png)
 
 
 Die Datenbank ist nun konfiguriert und einsatzbereit.
@@ -41,13 +41,13 @@ Die Datenbank ist nun konfiguriert und einsatzbereit.
 In diesem Beispiel wird die SQL Datei für die Ressource **es_extended** in die Datenbank importiert.
 Du öffnest den Ordner der Ressource und findest dort, sofern vorhanden, eine Datei mit der Dateiendung **.sql**.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/Dqc2zNGYnd7CTk2/preview)
+![image](https://user-images.githubusercontent.com/13604413/159168782-da143379-084a-47d7-b466-8c7dbd22e1d8.png)
 
 
 > ACHTUNG! Öffne vor dem Import die .sql Datei mit einem beliebigen Editor und prüfe ob dort die folgenden Zeilen vorhanden sind:
 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/KjyrB8zWAeMQLwP/preview)
+![image](https://user-images.githubusercontent.com/13604413/159168784-570f0855-173d-4e1f-8a05-5a17e06d1daf.png)
 
 
 Ist dies der Fall, entferne vorher beide Zeilen da die SQL-Datei sonst nicht importiert werden kann.
@@ -61,26 +61,27 @@ da für den Import die bereits vorhandene Datenbank genutzt wird.
 
 Die Datenbank deines Fivem Gameservers erreichst du über den Menüpunkt **Datenbanken** auf der linken Seite im Menü.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/mR82WJ8Q8Ha5Txo/preview)
+
+![image](https://user-images.githubusercontent.com/13604413/159168788-e4899697-48e4-4d14-baa6-e4e37ff1a72e.png)
 
 
 Die Datenbank selbst wird im weiteren über das Tool **phpmyadmin** verwaltet, dieses öffnest du mit einem Klick auf den blauen **Verwalten-Button**
 auf der rechten Seite.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/XcMWRKoXRsSN9s9/preview)
+![image](https://user-images.githubusercontent.com/13604413/159168791-f5c360cf-ca61-4b91-86b7-cf76d868ea62.png)
 
 
 In **phpmyadmin** angekommen wählst du zuerst deine Datenbank aus der Liste links via Linksklick aus. 
 
 > Der Name deiner Datenbank beginnt **IMMER** mit zap!
 
-![](https://screensaver01.zap-hosting.com/index.php/s/T8DW7Jz8E5nfiZ9/preview)
+![image](https://user-images.githubusercontent.com/13604413/159168811-626eba00-b7b3-4c45-894e-ca497571b2d7.png)
 
 
 Deine Datenbank ist aktuell noch leer, das ändert sich in Kürze. Über den Menüpunkt **Importieren** im oberen Bereich von **phpmyadmin**
 gelangst du zu den Importoptionen.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/brD4GYnbTxxH35H/preview)
+![image](https://user-images.githubusercontent.com/13604413/159168816-f4f95697-782d-4bfa-b78c-4f2b7bc3c6fe.png)
 
 
 Dort wählst du nun über den Punkt **Datei auswählen** deine SQL Datei aus, diese darf maximal 2MB groß sein!
@@ -90,13 +91,13 @@ in mehrere kleine SQL Dateien aufzuteilen. Ein Beispiel für einen **SQL-Splitte
 
 Nachdem du deine SQL-Datei ausgewählt hast, musst du nur noch auf **OK** klicken um den Importvorgang zu starten.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/DW2tcLgk59bCo6M/preview)
+![image](https://user-images.githubusercontent.com/13604413/159168819-a12db25e-dee1-42a1-9b83-1653900e5be2.png)
 
 
 Wenn alles funktionier hat, siehst du einige Erfolgsmeldungen, so wie auf der linken Seite deine neu erstellten Datenbankinhalte.
 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/Zm2bYCZpz28e6db/preview)
+![image](https://user-images.githubusercontent.com/13604413/159168822-94541dda-2c21-428f-9c31-d0a5b965e1e3.png)
 
 
 Du hast nun erfolgreich deine SQL Datei importiert.
