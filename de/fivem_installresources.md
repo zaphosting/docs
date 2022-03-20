@@ -31,6 +31,11 @@ Nachdem diese hochgeladen wurde, muss die server.cfg im server-data Ordner geöf
 
 Unter den restlichen Starteinträgen für Ressourcen kann nun der Eintrag für unsere resource, in diesem Fall "eup-ui", hinzugefügt werden:
 
+
+```
+start eup-ui
+```
+
 > Beachte: Es muss der Name des Ordners eingetragen werden.
 
 
