@@ -36,7 +36,7 @@ Once this is done, it can be uploaded, also via "drag and drop":
 
 Now the desired plugin is available on the server:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/HeBQEXeRkCEsr6S/preview)
+![image](https://user-images.githubusercontent.com/13604413/159184025-60f26935-3f9c-47b5-9766-8f033bfe8e54.png)
 
 ### Step 3️⃣
 
@@ -46,5 +46,5 @@ The game server can now be started in the web interface:
 
 The server is now online with the desired plugin: 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/sPknMr3ecRWWM9Q/preview)
+![image](https://user-images.githubusercontent.com/13604413/159184018-6dbe42dc-6f7f-4dc5-ab7a-8308c76284ea.png)
 
