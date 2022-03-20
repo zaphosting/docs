@@ -12,11 +12,11 @@ A key is required if, for example, the [FiveM Patreon](https://patreon.com/fivem
 ## Preparation
 To create your own license key, we first log in at https://keymaster.fivem.net. If no FiveM Forum account has been created yet, one must be created here.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/J8GZosBtNtpwcsJ/preview)
+![image](https://user-images.githubusercontent.com/13604413/159167431-44672d55-c5a2-458c-9849-b2f7275d3cdf.png)
 
 After we are logged in, we click on "New" at the top, which takes us to the Create license key menu:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/XHJc9FjW7Pz6PAz/preview)
+![image](https://user-images.githubusercontent.com/13604413/159167435-0e204772-57bf-406f-ba33-e13737fad42d.png)
 
 
 ## Specify data
@@ -30,25 +30,21 @@ Now we can fill the data as follows:
 
 ### Enter IP
 
-You will find the IP of your server in the "FTP-Browser" tab:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/LenaKY5iK7AQSMp/preview)
+You will find the IP of your server in the "FTP-Browser" tab
 
 You need to enter the IP without port.
-
-![](https://screensaver01.zap-hosting.com/index.php/s/ANJEtYo22tZf3Tx/preview)
 
 ## Generate Key
 
 After all our data is filled, the Keymaster page should look something like this:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/kBR3kZJYafZD5LR/preview)
+![image](https://user-images.githubusercontent.com/13604413/159167479-a5964ac5-a6de-43a9-bd12-a459bb94e002.png)
 
 Now we click on "Generate", a key will now be generated.
 
 On the homepage of the keymaster we can now see our new key:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/9cqJEbFeNgqrc9Z/preview)
+![image](https://user-images.githubusercontent.com/13604413/159167482-70076a07-9f9a-48cf-ad21-68a0907f5d87.png)
 
 ## Configure Key
 
@@ -56,7 +52,7 @@ On the homepage of the keymaster we can now see our new key:
 
 Now we open the settings of our game server and scroll down, here we can enter our own key under "Own license key (optional)", the final result should look like this.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/f9r2iMWqPssFYxt/preview)
+![image](https://user-images.githubusercontent.com/13604413/159167488-29414748-f743-47ff-a52e-8d6e7154090d.png)
 
 Now we save the settings and restart the server.
 
