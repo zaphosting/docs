@@ -27,9 +27,13 @@ To install resources with WinSCP, they can be uploaded to the "resources" folder
 It would be the same case with installing via FileZilla. 
 
 
-After this has been uploaded, the server.cfg must be opened in the server-data folder:.
+After this has been uploaded, the server.cfg must be opened in the server-data folder.
 
 The entry for our resource, in this case "SexySpeedometer-FiveM-master", can now be added under the remaining start entries for resources.
+
+```
+start SexySpeedometer-FiveM-master
+```
 
 > Note: The name of the folder must be entered.
 
