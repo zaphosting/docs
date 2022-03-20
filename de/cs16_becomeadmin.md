@@ -30,6 +30,8 @@ Im Anschluss rufst du dann eine der folgenden Seiten auf:
 - https://steamidfinder.com/
 - https://steamid.io/
 
+![image](https://user-images.githubusercontent.com/13604413/159179089-7c731c8b-9e85-4d9d-a6f0-2748752e6537.png)
+
 Dadurch erhältst du dort sowohl allgemeine Informationen als auch die Steam ID von deinem Account. In dem Fall wird nur die SteamID64 benötigt. Den vorhandenen Eintrag passen wir dann wie folgt an: 
 
 ```
