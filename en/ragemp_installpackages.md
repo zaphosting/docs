@@ -9,7 +9,8 @@ sidebar_label: Installing packages
 
 Before packages can be installed, the [FTP-Access](gameserver_ftpaccess.md) must be set up:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/imH3yFWaFNmD9AH/preview)
+![image](https://user-images.githubusercontent.com/13604413/159178012-0172691b-d49f-49d6-ab34-cc01eadbacf5.png)
+
 
 ## 📦 RageMP Packages
 
@@ -35,7 +36,7 @@ In the "**gamemode**" folder the scripts are uploaded, which you want to use on 
 As soon as all desired scripts have been uploaded, the previously created "**index.js**" must be edited.
 There for each script the line ***require(./gamemode/DEINSCRIPTNAME.js);*** is inserted
 
-![](https://screensaver01.zap-hosting.com/index.php/s/DaRrftmqZSRrAm3/preview)
+![image](https://user-images.githubusercontent.com/13604413/159178015-9106b7ea-41c4-4876-868c-dbca30410d62.png)
 
 ### 🖥️ Server packages
 
@@ -44,15 +45,15 @@ For example: Spawn, players, cars, markers
 
 The server side packages are uploaded to the "**packages**" folder
 
-![](https://screensaver01.zap-hosting.com/index.php/s/QRspdA2sXBW93oH/preview)
+![image](https://user-images.githubusercontent.com/13604413/159178021-7b030066-b72a-41a9-9baa-c9abba124ff2.png)
 
 In this folder another folder will be created, the name of this folder is freely selectable.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/Rxe23ToBE7M84Dz/preview)
+![image](https://user-images.githubusercontent.com/13604413/159178028-2b2bbd99-c4a1-4422-b4c8-bad298aefea7.png)
 
 Once the folder is created, this folder will be filled with the server-side scripts.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/Y3NzTR9ow7iDSec/preview)
+![image](https://user-images.githubusercontent.com/13604413/159178033-5240c361-d4de-40dd-8d1f-64d207529842.png)
 
 After all desired scripts are on the server a "**index.js**" must be created in the same folder.
 
