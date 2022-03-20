@@ -16,15 +16,15 @@ If the created server cannot be reached via FTP, the FTP service (ProFTPD) is no
 ### Check Availability
 You can easily do this using the FTP browser in the web interface. Click on "FTP browser" in the menu under Tools of the respective server
 
-![](https://screensaver01.zap-hosting.com/index.php/s/xE6Pg2NwG8jCwLK/preview)
+![image](https://user-images.githubusercontent.com/13604413/159172130-2649e590-639d-4b1b-a464-fb4956c52929.png)
 
 Then press the "Direct Connection" button once. 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/AJKydEysDeny3qt/preview)
+![image](https://user-images.githubusercontent.com/13604413/159172131-2a355b01-508f-4b8a-8e67-f011e48a1b30.png)
 
 Now you will probably see the following picture:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/qiKZBsDDj2BaSwX/preview)
+![image](https://user-images.githubusercontent.com/13604413/159172135-52ee9fe3-dc99-4f70-8331-253514e6a949.png)
 
 Since it is now clear that a connection via WebFTP or FTP tool is not possible, you have to take a closer look at the FTP service on the vServer or root server.
 
@@ -32,7 +32,7 @@ Since it is now clear that a connection via WebFTP or FTP tool is not possible, 
 
 To do this, you connect to your server via SSH / Console and then enter the command "service proftpd status". The status is now read out and displayed accordingly:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/W8ekSTtoQceT8of/preview)
+![image](https://user-images.githubusercontent.com/13604413/159172148-c736c6ed-9cca-42f6-8766-8170011e9848.png)
 
 
 There you can see that the status reports "dead", in short the service is offline and therefore not accessible.
@@ -49,7 +49,7 @@ If there is no response after the command has been executed, the service is usua
 
 The whole thing can then be verified again with the command "service proftpd status". It should look like this:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/8SopkDLYkZk44Re/preview)
+![image](https://user-images.githubusercontent.com/13604413/159172153-f66bf3f5-6c56-45ed-b79e-04c645171c9d.png)
 
 Since the status is now "active" again and no longer "dead", the FTP connection can be tried again using the FTP tool and WebFTP.
 

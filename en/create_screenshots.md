@@ -33,19 +33,15 @@ Important: Since there is no screenshot function there, the screenshot must be m
 
 Upload Option:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/kxGFndBeFPp42AJ/preview)
+![image](https://user-images.githubusercontent.com/13604413/159170265-740e9052-41fc-43c3-9b3b-d4ce3725239f.png)
 
-After the screenshot has been uploaded, small edits can still be made:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/jgSTiEwg5dEdXWn/preview)
+After the screenshot has been uploaded, small edits can still be made
 
 Afterwards, the screenshot can be posted as a Post to Community (will be listed publicly) or as Hidden (will not be listed publicly). 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/24JHDQEskG8RPZJ/preview)
-
 Once this is done, the link that can be used for sharing will be displayed:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/JDGXqNBCqZBeNoH/preview)
+![image](https://user-images.githubusercontent.com/13604413/159170268-ee36e695-4354-439e-b98f-5a6ab953f935.png)
 
 ### Lightshot
 
@@ -55,7 +51,7 @@ The client can be obtained directly from the website and also offers a few tools
 Download the client [Download](https://app.prntscr.com/en/)
 Important: A version for Linux is not offered. 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/9ME3CTR8DKcEPtS/preview)
+![image](https://user-images.githubusercontent.com/13604413/159170271-13f1373f-b5e2-4c8a-8546-bf0f0359daaf.png)
 
 After the download, the client can be installed. 
 Afterwards, by default, a scrrenshot can be created or an area can be selected with the "Print" button. 
@@ -63,14 +59,7 @@ Afterwards, by default, a scrrenshot can be created or an area can be selected w
 
 After the area is selected, the screenshot can still be edited. 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/ss7NCafdDFrqzeY/preview)
-
 Once the editing is completed, if necessary, the screenshot can be uploaded by clicking on the "Cloud". 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/ELzCWngbErkEMYS/preview)
-
 After uploading, the link can be copied and shared with others.
-
-![](https://screensaver01.zap-hosting.com/index.php/s/NKEntqPpx9te2BW/preview)
-
 

@@ -7,29 +7,24 @@ sidebar_label: Sprache hinzufügen/ändern
 
 > ℹ️ Wir bieten dir grundsätzlich Windows in Deutsch und Englisch an, dies erkannst du an den Kürzeln (DE) und (EN)
 ***
-Windows bietet die Möglichkeit Sprachpakete nachzuinstallieren, hierbei ist darauf zu achten das die Sprache eine sogenannte Anzeigesprache ist. Dies ist an folgender Kennzeichnung ersichtlich:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/edMH5s4NaX6MTKj/preview)
-
-Sollte diese Markierung bei deiner gewünschten Sprache fehlen, so ist es leider nicht möglich Windows in entsprechender Sprache darzustellen.
 
 ## 📖 Vorbereitung
 
 Verbinde dich per Remotedesktop auf deinen Windows Server und öffne die Einstellungen.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/4gbebaywRTSawFK/preview)
+![image](https://user-images.githubusercontent.com/13604413/159173307-1c9b4b7c-d70b-4ed5-bfa9-cc5e68c093f1.png)
 
 Wähle das Menü "Zeit und Sprache" dort den Unterpunkt "Sprache"
 
 Klicke nun auf "Sprache hinzufügen"
 
-![](https://screensaver01.zap-hosting.com/index.php/s/nTaaNcPKYPMLLwm/preview)
+![image](https://user-images.githubusercontent.com/13604413/159173310-f9ebd0aa-9e59-4c9b-9cde-5f7bd8e14172.png)
 
 Suche nach deiner gewünschten Sprache und achte darauf dass diese eine Anzeigesprache ist.
 
 ## 🖥️ Installation
 
-![](https://screensaver01.zap-hosting.com/index.php/s/FqKnsCAGpeNDnbE/preview)
+![image](https://user-images.githubusercontent.com/13604413/159173312-f53f9fe0-dec9-493f-8046-f2f05b96955c.png)
 
 Wähle die gewünschte Sprache mit einem Mausklick aus und fahre fort mit "Weiter", akzeptiere die Installation aller nötigen Pakete
 
@@ -37,8 +32,8 @@ Wähle die gewünschte Sprache mit einem Mausklick aus und fahre fort mit "Weite
 
 Windows läd nun deine gewünschte Sprache herunter, dieser Vorgang kann einige Minuten (circa 30-60 Minuten) in Anspruch nehmen.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/NS7eLneEEbSEj2t/preview)
+![image](https://user-images.githubusercontent.com/13604413/159173315-2927599d-7894-4171-8c7f-37516d6c5997.png)
 
 Sobald die Installation deiner Sprache abgeschlossen ist, musst du dich lediglich erneut anmelden bzw. deinen Server neustarten.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/YEeNKb7ztXtFRkM/preview)
+![image](https://user-images.githubusercontent.com/13604413/159173318-6fa1e87a-2f5d-401e-abbf-383456b8bb70.png)
