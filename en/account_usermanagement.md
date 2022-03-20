@@ -13,7 +13,7 @@ We provide the possibility to create additional sub users. That way you can give
 
 Click on the arrow to the right of your avatar and select the submenu item **User management**.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/8Cb9MpsDKyygeFz/preview)
+![image](https://user-images.githubusercontent.com/13604413/159166404-9fe157f9-449c-4579-8460-66776f70d2d2.png)
 
 At first you have to create a user group, in order to be able to create and assign sub users to the group. Permissions can be defined during the creation of the group. The following permissions options are available:
 
@@ -35,21 +35,21 @@ At first you have to create a user group, in order to be able to create and assi
 
   
 
-  ![img](https://screensaver01.zap-hosting.com/index.php/s/BX2Z2XF6YGc4B7R/preview)
+![image](https://user-images.githubusercontent.com/13604413/159166441-6c76333f-0438-4e2c-9173-78795407b869.png)
 
-  ![img](https://screensaver01.zap-hosting.com/index.php/s/CYyqJwRQLK4ftfq/preview)
+![image](https://user-images.githubusercontent.com/13604413/159166456-61c74453-1507-403a-b9de-96852b8016ad.png)
 
   
 
  You can create the group with the desired permissions by using the **Create group** button. As soon as the name of the group and the permissions have been set, the sub-user can be added.
   
 
-  ![img](https://screensaver01.zap-hosting.com/index.php/s/bKeC7cg86KxLDma/preview)
+![image](https://user-images.githubusercontent.com/13604413/159166491-7ba540de-0476-40ce-bc6e-e6cc11e1cdb7.png)
   
 
 Following this, a pop-up window opens where you can add the user. This is where the desired group is assigned and the user name, e-mail address and password specified.
 
-  ![img](https://screensaver01.zap-hosting.com/index.php/s/nEWqKRbYLJTsr8r/preview)
+![image](https://user-images.githubusercontent.com/13604413/159166498-43a56b30-a50a-41b0-a5ee-32c2ca0d3f24.png)
 
   
 
