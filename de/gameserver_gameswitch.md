@@ -23,32 +23,32 @@ Folgende Punkte sind bei einem Spielwechsel zu beachten:
 
 Du kannst im Web Interface deines Gameservers unter Einstellungen - Spiele weitere Gameserver hinzufügen und aktivieren:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/trQbijJGXswneD6/preview))
+![image](https://user-images.githubusercontent.com/13604413/159170825-a17edb2f-c46c-4444-aa4d-561b6f333134.png)
 
 Dir wird eine Liste mit den bereits installierten Spielen angezeigt:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/A6B5LiHBb86ZtNQ/preview)
+![image](https://user-images.githubusercontent.com/13604413/159170827-f936b73e-94c1-48c4-b8ea-28975a1c6d25.png)
 
 Unter "Verfügbar Spiele" werden dir alle Spiele angezeigt, die du auf deinem Server ohne zusätzliche Kosten installieren kannst. Um ein weiteres Spiel zu installieren, wähle das gewünschte Spiel aus. Zur Installation, klicke auf den grünen Button:
 Gebe das gewünschte Spiel in das Suchfeld ein, um die Auswahl einzuschränken.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/fdPMbNnEKYoQHn9/preview)
+![image](https://user-images.githubusercontent.com/13604413/159170831-ae8019f7-17fc-424f-a4c8-99e2c65047cf.png)
 
 Bestätige die Installation:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/t2d8q9boxDWd6sd/preview)
+![image](https://user-images.githubusercontent.com/13604413/159170834-222f027f-0c3e-42ae-96c2-415d22db2d2a.png)
 
 Nach der Installation, wird das neue Spiel in der Liste der installierten Spiele angezeigt. Um das Spiel zu wechseln, muss das neue Spiel noch aktiviert werden:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/i8fs2HRfR9TC9aT/preview)
+![image](https://user-images.githubusercontent.com/13604413/159170836-829b5596-e4cd-42df-930d-ddb481864198.png)
 
 Nach der Aktivierung, kannst du dein neues Spiel auf deinem Server spielen. In der Übersicht kannst du jederzeit dein altes Spiel wieder aktivieren:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/Zrd6dw9tCHmjMZ6/preview)
+![image](https://user-images.githubusercontent.com/13604413/159170838-d3c792fa-4684-4560-8e07-dfa227603d01.png)
 
 Über die Gameservercloud, kannst du deine Gameserver mit einem Klick neuinstallieren (Achtung: Alle Daten des Spiels gehen bei einer Neuinstallation verloren):
 
-![](https://screensaver01.zap-hosting.com/index.php/s/L2Wbfj59XZ8KGNm/preview)
+![image](https://user-images.githubusercontent.com/13604413/159170841-d6c08d01-6393-45a7-ac7d-54bc8bc14e0c.png)
 
 ## 💸 Slotpreisänderung
 
@@ -57,14 +57,14 @@ Spiele mit einem höheren Slotpreis werden unter "Weitere Spiele" aufgelistet.
 
 Um den Slotpreis zu ändern, klicke auf "Slotpreis ändern":
 
-![](https://screensaver01.zap-hosting.com/index.php/s/Z7Nn9TRSyjZZ9JM/preview)
+![image](https://user-images.githubusercontent.com/13604413/159170844-e0b4a9d6-e0a5-48da-a840-5f51a6a6eb30.png)
 
 Im Änderungsmenü kannst du deinen neuen Slotpreis auswählen. Der nachzuzahlende Betrag (bei Slotpreiserhöhung) bzw. die Gutschrift wird dir angezeigt. Außerdem werden die zu dem neuen Slotpreis verfügbaren Spiele angezeigt:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/qecpHJPXeq8TsSz/preview)
+![image](https://user-images.githubusercontent.com/13604413/159170847-33972191-3c8c-46eb-9549-857b903d3e6f.png)
 
 Bei einer Änderung des Slotpreises werden deine gebuchten Slots automatisch angeglichen. Achtung: Wird der Slotpreis unterhalb des Slotpreises für die installierten Spiele reduziert, so werden diese Spiele gelöscht!
 
-![](https://screensaver01.zap-hosting.com/index.php/s/x3paRG9L5csgTHd/preview)
+![image](https://user-images.githubusercontent.com/13604413/159170851-18689a22-7ac4-4697-95ab-0ec179c7560d.png)
 
 Nach einer Slotpreisänderung, können alle Spiele bis zu dem gewählten Slotpreis installiert und aktiviert werden.
