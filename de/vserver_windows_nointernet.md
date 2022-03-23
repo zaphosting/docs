@@ -15,10 +15,13 @@ Sollte dein Server regulär Online sein, dennoch aber keine Verbindung haben, mu
 ![image](https://user-images.githubusercontent.com/13604413/159165541-d23bfcaf-d745-4b98-96bb-5960a113723c.png)
 
 
-## 🖥 Wie stelle ich die Verbindung wieder her?
+## 🖥 Anmelden über die VNC-Konsole
+
 Wir verbinden uns über die VNC-Konsole und melden uns auf dem Server an.
 
 ![image](https://user-images.githubusercontent.com/13604413/159165545-bb459a8b-f900-4d7c-95b6-c73b10d494ef.png)
+
+## 🖥 Wie stelle ich die Verbindung wieder her?
 
 Im Anschluss öffnen wir die Adaptereinstellungen. Dafür machen wir einen Rechtsklick auf die Internetverbindung.
 
