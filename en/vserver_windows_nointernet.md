@@ -17,7 +17,7 @@ But if he is online and still has no internet, you can check this via the serial
 ![image](https://user-images.githubusercontent.com/13604413/159165541-d23bfcaf-d745-4b98-96bb-5960a113723c.png)
 
 
-## 🖥 How do I re-establish the connection?
+## 🖥 Logging in using the VNC Console
 
 First of all, we connect to the server via the serial console as shown below and log into it. 
 
@@ -26,6 +26,8 @@ First of all, we connect to the server via the serial console as shown below and
 Then, we proceed to open the adapter settings. For this, we do a left click on the internet connection as shown here:
 
 ![image](https://user-images.githubusercontent.com/13604413/159165546-ce7eedcc-2761-4109-a72b-a41ef19f4b5e.png)
+
+## 🖥 How do I re-establish the connection?
 
 Then, we would click on **change adapter options** as shown here:
 
