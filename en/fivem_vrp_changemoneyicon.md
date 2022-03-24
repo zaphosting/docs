@@ -17,15 +17,13 @@ Here we open the following path: `gta5-fivem/server-data/resources/vrp/cfg/money
 
 To use your own money icon, you first have to upload it to Imgur (or your desired uploader):
 
-![](https://screensaver01.zap-hosting.com/index.php/s/5sA37RxfLQqQFjA/preview)
+![image](https://user-images.githubusercontent.com/13604413/159137839-6556817e-d237-44fe-b6f1-671a7bd2d7c4.png)
 
 Here we can now upload our picture via drag & drop:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/Y5Q57pW5znbEPMP/preview)
+![image](https://user-images.githubusercontent.com/13604413/159137847-9890edeb-af8e-4b40-9791-cd0c9e524238.png)
 
 After the upload we see our picture uploaded to copy the URL, we right click on the icon and choose "Copy Image Address"
-
-![](https://screensaver01.zap-hosting.com/index.php/s/xRqX73NHiA59JXZ/preview)
 
 This URL can now be entered in the config.
 

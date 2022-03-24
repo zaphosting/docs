@@ -11,7 +11,7 @@ sidebar_label: Server Configuration
 
 The configuration of an **ARK game server** may cause confusion and helplessness for some people. However, there is a reason for this. ARK provides a lot of configuration options for the game. Additionally, the configuration takes place in different configuration files, where you also have to pay attention to which commands belong in which file. In this guide we would like to give you a better overview of how the configuration of an ARK game server works. 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/azcapSNKHkfwt3p/preview)
+![image](https://user-images.githubusercontent.com/13604413/159179441-19eea1bc-fe87-4c31-ab2f-c44b45e8a130.png)
 
 
 
@@ -57,7 +57,7 @@ Simply enter the command name of the map in the **Map** field and it will be loa
 
 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/zXWYsX7ecs8SbzK/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/zXWYsX7ecs8SbzK/preview)
 
 
 

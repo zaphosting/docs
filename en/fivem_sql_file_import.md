@@ -19,18 +19,18 @@ However, in many cases, one or more files with the file extension **.sql** are e
 In the settings of your FiveM Server the option **Configure database** must be activated at the beginning and 
 the required resource **MySQL-Async** must be installed, so that a database can be created and used.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/xcAKgPao5MoibKs/preview)
+![image](https://user-images.githubusercontent.com/13604413/159168765-ce6eb80a-71eb-4e3a-8834-ed0e50da1ebe.png)
 
 
 There you scroll down until you reach the point **Configure database** and make sure that this
 is set to **yes, configure!** Then scroll to the bottom of the page and click **Save** at the bottom to apply the settings.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/HePLtHr3pdskB7M/preview)
+![image](https://user-images.githubusercontent.com/13604413/159168774-3302004e-4b6f-4c58-809b-c40cb2a14901.png)
 
 
 Now navigate to the menu item **Resources** and install the resource **MySQL-Async** there, if this has not already been done.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/w2wofBNNkGxJwQ3/preview)
+![image](https://user-images.githubusercontent.com/13604413/159168777-0d4102db-8568-4751-a0b0-a4329ddc9a2d.png)
 
 
 The database is now configured and ready for use.
@@ -41,13 +41,13 @@ The database is now configured and ready for use.
 In this example the SQL file for the resource **es_extended** is imported into the database.
 You open the folder of the resource and find a file with the file extension **.sql** there, if available.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/je33JbzW7eGXJER/preview)
+![image](https://user-images.githubusercontent.com/13604413/159168782-da143379-084a-47d7-b466-8c7dbd22e1d8.png)
 
 
 > CAUTION: Before importing, open the .sql file with any editor and check if the following lines are present:
 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/QY4dwpDbiAJpja2/preview)
+![image](https://user-images.githubusercontent.com/13604413/159168784-570f0855-173d-4e1f-8a05-5a17e06d1daf.png)
 
 
 If this is the case, first remove both lines, otherwise the SQL file cannot be imported.
@@ -61,23 +61,26 @@ The second line tells the database server to use the database with the name **es
 
 You can access the database of your Fivem game server via the menu item **Databases** on the left side of the menu.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/fJDX7fT9MBDKxks/preview)
+![image](https://user-images.githubusercontent.com/13604413/159168788-e4899697-48e4-4d14-baa6-e4e37ff1a72e.png)
 
 
 The database itself is managed by the tool **phpmyadmin**, which you open by clicking on the blue **Administer button**.
 on the right side.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/KQg9AKwEAgCfw2y/preview)
+![image](https://user-images.githubusercontent.com/13604413/159168791-f5c360cf-ca61-4b91-86b7-cf76d868ea62.png)
 
 
 Arrived in **phpmyadmin** you first select your database from the list on the left via left click. 
 
 > The name of your database starts **ALWAYS** with zap!
 
+![image](https://user-images.githubusercontent.com/13604413/159168811-626eba00-b7b3-4c45-894e-ca497571b2d7.png)
+
+
 Your database is currently still empty, this will change shortly. Via the menu item **Import** in the upper part of **phpmyadmin**
 you get to the import options.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/zaoami9zKQxQZdx/preview)
+![image](https://user-images.githubusercontent.com/13604413/159168816-f4f95697-782d-4bfa-b78c-4f2b7bc3c6fe.png)
 
 
 There you select now over the point **Select file** your SQL file, this may be maximally 2MB large!
@@ -87,13 +90,13 @@ into several small SQL files. An example of a **SQL splitter** is as follows [Pi
 
 After you have selected your SQL file, you only have to click on **Go** to start the import process.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/tzCGYWeDFX5tjny/preview)
+![image](https://user-images.githubusercontent.com/13604413/159168819-a12db25e-dee1-42a1-9b83-1653900e5be2.png)
 
 
 If everything worked, you will see some success messages, like on the left side your newly created database contents.
 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/QDTTdEEDNtNKDgK/preview)
+![image](https://user-images.githubusercontent.com/13604413/159168822-94541dda-2c21-428f-9c31-d0a5b965e1e3.png)
 
 
 You have now successfully imported your SQL file.

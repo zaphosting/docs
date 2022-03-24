@@ -11,13 +11,13 @@ You connect to your Windows server using the Remote Desktop Connection program p
 
 > The Windows search function can be found via the Windows icon in the lower left corner.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/g8s5nPfeLdEYgcp/preview)
+![image](https://user-images.githubusercontent.com/13604413/159172603-28ab83df-7b01-47ff-a7de-820a2f9b21cd.png)
 
 ## 🏘 IP address & access
 
 "Remote Desktop Connection", asks for a "**computer name**". This is the IP address of the server.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/pA4BcpHPEkkYror/preview)
+![image](https://user-images.githubusercontent.com/13604413/159172608-95cba5ba-111f-41e5-b3c5-edc28ef495b5.png)
 
 The IP address can be found in the ZAP web interface under "**Access & Security**" and in the Infobar.
 

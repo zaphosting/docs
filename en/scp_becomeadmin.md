@@ -24,24 +24,21 @@ Here you can find an example of how you can get your steamid by inputting your p
 Now the configuration file has to be opened and edited.
 This is located in "**Configs**" under "**Settings**".
 
-![](https://screensaver01.zap-hosting.com/index.php/s/Zf8Cg5R7Qfn64YG/preview)
+![image](https://user-images.githubusercontent.com/13604413/159181503-5c3ddda0-88e2-4bae-a2a0-a2160268ac0f.png)
 
 There the "**config_remoteadmin.txt**" can be opened in which the necessary lines are rewritten.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/4ZEX4f2XimcwZMD/preview)
+![image](https://user-images.githubusercontent.com/13604413/159181547-d354215d-2563-42ee-803e-673822364aed.png)
 
 The roles are now created and assigned there.
 In this, "**SomeSteamId64**" which stands in front of "**@steam: owner**" must be replaced with your SteamID64, which you have previously viewed under "**steamid lookup**"
 
-![]((https://screensaver01.zap-hosting.com/index.php/s/oaTqEsxPaeD52SA/preview)
-
-And once you have replaced your Steam64ID, it should look something like this (with your Steam64ID there instead):
-![](https://screensaver01.zap-hosting.com/index.php/s/kNcH4qiT3sEtnoJ/preview)
+![image](https://user-images.githubusercontent.com/13604413/159181591-fe0fb375-db67-45a6-8790-1a497e81c69b.png)
 
 This can now be done for every additional user who should receive rights.
 In our example we set rights for three users, one of them gets "**owner**" the other two get "**admin**".
 
-![](https://screensaver01.zap-hosting.com/index.php/s/xLBKPqePiHCcZ7C/preview)
+![image](https://user-images.githubusercontent.com/13604413/159181666-fd68aac0-2c42-470c-b0c2-b1448d67a2cd.png)
 
 ## 🕴️ Add More Roles to Override the Password
 

@@ -11,7 +11,7 @@ WinMTR ist ein Netzwerk-Diagnose-Programm, welches die Funktion von Ping und Tra
 
 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/H2YkbL2p84LrEEb/preview)
+![image](https://user-images.githubusercontent.com/13604413/159171609-82df7202-a2a2-4d8a-8e16-168f5b90366f.png)
 
 
 
@@ -33,7 +33,7 @@ Der Netzwerk-Diagnose Test sollte durchgeführt werden, wenn die Problematik ger
 
 Die Windows Version für WinMTR kann über die [ZAP-Hosting](https://zap-hosting.com/winmtr.zip) Seite heruntergeladen werden. Nach der Installation muss das Programm gestartet werden und der Hostname oder die IP-Adresse des betroffenen Falls eingetragen werden:
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/REAqPw47ETCiqGd/preview)
+![image](https://user-images.githubusercontent.com/13604413/159171614-5ffff921-5d69-4786-8c8f-1a1f63413a97.png)
 
 
 
@@ -49,13 +49,13 @@ Nun kann das Paket mit dem folgenden Befehl installiert werden:
 apt-get install mtr
 ```
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/AnSM5mac3wCtC5q/preview)
+![image](https://user-images.githubusercontent.com/13604413/159171623-715da5a6-bc37-4449-ad26-d2bdf9b4288e.png)
 
 
 
 Im Anschluss lässt sich die Auswertung mit dem Befehl **mtr IP-Adresse** starten. Mit STRG+C kann der Test je nach Wunsch jederzeit gestoppt werden.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/nToANwPi8FNZbNC/preview)
+![image](https://user-images.githubusercontent.com/13604413/159171625-4c77447f-a9df-466c-9117-8af6252eeba3.png)
 
 
 
@@ -64,6 +64,8 @@ Im Anschluss lässt sich die Auswertung mit dem Befehl **mtr IP-Adresse** starte
 ## ❓ Auswertung auslesen
 
 Das Programm liefert mehrere Informationen. Diese muss man genau überprüfen um das Problem auch richtig zuordnen zu können.
+
+![image](https://user-images.githubusercontent.com/13604413/159171629-26be5afd-7493-4a48-bdb6-2fa5facbfa72.png)
 
 Während der Auswertung einer Route kann hin und wieder mal die Meldung **Keine Antwort vom Host** erscheinen, wo 100% Paketverlust gemeldet werden. Das ist oftmals aber nicht direkt die Ursache. In solch einem Fall kann es sein, dass lediglich die Pakete durch die Firewall gefiltert werden und daher keine Rückmeldung kommt oder generell nicht erreichbar ist. Es wird dann die nächst mögliche Option für die Route gewählt. Erst wenn der Paketverlust an einer Stelle beginnt und sich auch über weitere zieht ist die Rede von einem aktiven Paketverlust. 
 

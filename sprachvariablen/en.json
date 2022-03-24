@@ -309,10 +309,6 @@
         "title": "FiveM: Install/change loadingscreen for FiveM-Server",
         "sidebar_label": "Loadingscreen installation"
       },
-      "fivem_changespawnpoint": {
-        "title": "FiveM server settings: Set Spawnpoint",
-        "sidebar_label": "Change Spawnpoint"
-      },
       "fivem_dashboard": {
         "title": "FiveM: Server administration via the web interface dashboard",
         "sidebar_label": "Dashboard"

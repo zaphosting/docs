@@ -32,7 +32,7 @@ Accordingly, it makes sense to use a different password for each page. In order 
 
 ## 🔧 Account Settings
 
-In addition to [2-Factor Authentication](/docs/en/account_2factor/)you can also deactivate OneClick Login in the [Security](https://zap-hosting.com/en/customer/home/security/) tab in your account. In some e-mails we send links through which you can be logged in with a click and directed to the relevant page in the respective context. Basically, you don't send sensitive information via email. Accordingly, it makes sense for accounts with access to important services to switch off the function if necessary.
+In addition to [2-Factor Authentication](https://zap-hosting.com/guides/docs/en/account_2factor/)you can also deactivate OneClick Login in the [Security](https://zap-hosting.com/en/customer/home/security/) tab in your account. In some e-mails we send links through which you can be logged in with a click and directed to the relevant page in the respective context. Basically, you don't send sensitive information via email. Accordingly, it makes sense for accounts with access to important services to switch off the function if necessary.
 
 ## 🚨 I was hacked
 

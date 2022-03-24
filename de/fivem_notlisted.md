@@ -11,23 +11,16 @@ Wenn der Server nicht in der Serverliste angezeigt wird, kann dies mehrere Grün
 
 Oftmals sind es simple Konfigurationsfehler, welches dieses Problem verursacht, zuerst sollten wir prüfen, ob unser Server das Listing deaktiviert hat, hierzu prüfen wir die `sv_master1` Zeile:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/KzMWGaFH6dETF6w/preview)
+![image](https://user-images.githubusercontent.com/13604413/159138135-be595288-7548-47f6-aef9-877b9cdb06af.png)
 
 > Diese Zeile sollte **immer** mit einem # auskommentiert werden, wenn dies nicht der Fall ist, wird der Server nicht gelistet.
 
 
 Ebenfalls sollte der Servername (`sv_hostname`) geprüft werden:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/sk2ZpQomYniYPyG/preview)
+![image](https://user-images.githubusercontent.com/13604413/159138144-52856120-f3df-4d37-91ad-a36be4244c13.png)
 
 In diesem Fall fehlt das Anführungszeichen am Ende der Zeile, bei manchen Servernamen kann es auch durch Formatierung Probleme geben, wir würden in diesem Fall empfehlen, z. B. [DE], Sonderzeichen wie ä, ü, ö zu entfernen.
-
-
-## Serverversion Veraltet
-
-Wenn deine Serverversion stark veraltet ist, wird FiveM den Server nicht mehr in der Serverliste anzeigen, wir würden daher immer empfehlen, den Server auf der neusten Version zu haben und automatische Updates zu Aktivieren:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/YNr6s59bpWSxseQ/preview)
 
 
 ## Problematische Resourcen

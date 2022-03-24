@@ -15,11 +15,11 @@ txAdmin is an interface for FiveM Servers, which is among other things a server 
 
 After we have rented our txAdmin server, it will be displayed in the interface as follows:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/AQxetLPWAs4Js36/preview)
+![image](https://user-images.githubusercontent.com/13604413/159169306-97751551-ef77-47a1-9fe2-acf2a437c16c.png)
 
 Here we now open the txAdmin interface via the link in the interface:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/fB9zkS2Ra76i2zJ/preview)
+![image](https://user-images.githubusercontent.com/13604413/159169313-5e9e3c01-1c48-48e5-855e-6126c39bfdf9.png)
 
 In the txAdmin interface we now enter our user and our password, which can be found under the link and log in.
 
@@ -27,28 +27,28 @@ After logging in we land directly in the txAdmin setup, here we can now select h
 
 > This setting is **not** the server name in the server list, but an internal name for ingame messages and the Discord webhook.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/BiBi8LQfZKGDSQZ/preview)
+![image](https://user-images.githubusercontent.com/13604413/159169329-6b9670f4-e472-4619-8451-4dc8158a33cf.png)
 
 Now we can choose how exactly we want to set up the server, there are several options here:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/fzFwHGyioxJGn6A/preview)
+![image](https://user-images.githubusercontent.com/13604413/159169335-a4a52bc6-020e-4116-985c-9145ae7d5d84.png)
 
 ### Local Server Data
 
 You should use this setting if you have already run a server with txAdmin and now want to run it with us, in this case you can simply upload the data via FTP, and specify the path of it in the setup:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/FAGyABxz3ENkygx/preview)
+![image](https://user-images.githubusercontent.com/13604413/159169346-9d8536fc-8fe2-4746-aa78-67b54b60c89c.png)
 
 
 ### Popular Template
 
 Popular Templates are pre-made packs that can be used directly, this is the easiest way to use the FiveM server directly, if this is your first server this option is recommended:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/aB228Rj4wKzQjG2/preview)
+![image](https://user-images.githubusercontent.com/13604413/159169359-1a0e1e9e-17c3-4d60-9da7-7fd6362da8b7.png)
 
 Now we can set a custom path for the pack, generally we would recommend to leave this path default.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/b4Xm4i9PFWkx6ET/preview)
+![image](https://user-images.githubusercontent.com/13604413/159169394-3fc332b4-4537-46cf-bd25-57235783c843.png)
 
 
 After confirming this, we immediately end up in the Recipe Deployer, if changes are to be made to the Recipe, this can be done now, otherwise this can simply be confirmed with the "Next" button.
@@ -56,7 +56,7 @@ After confirming this, we immediately end up in the Recipe Deployer, if changes 
 
 If own database settings or License Key should be used, this can be changed now, we recommend not to change the database information.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/PwqRXgcwbfKcEYX/preview)
+![image](https://user-images.githubusercontent.com/13604413/159169403-1909153c-67ac-4b6b-9623-7d8cf6f0751b.png)
 
 
 

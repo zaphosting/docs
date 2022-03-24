@@ -15,9 +15,9 @@ Grundsätzlich können jegliche Arten von Vorschlägen eingereicht werden. Beson
 ### 🧾 Wie werden Vorschläge eingereicht?
 Um einen Vorschlag einzureichen, muss lediglich auf der Vorschlagsseite auf den Button "Vorschlag einreichen" geklickt werden. Es öffnet sich ein Formular, in das der Vorschlag eingetragen werden kann sowie die Kategorie ("Spielewunsch", Web Interface Features" und "Sonstiges") ausgewählt werden kann. Über den Button "Jetzt vorschlagen" wird der Vorschlag eingereicht.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/Pjxbn6D57Sq9Saq/preview)
+![image](https://user-images.githubusercontent.com/61953937/159140276-9692419e-e736-4389-a45d-b2853f59315f.png)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/goaYsBeXqt9ddao/preview)
+![image](https://user-images.githubusercontent.com/61953937/159140289-a5c7ec36-07e4-4d9c-8a92-40193b953dca.png)
 
 ### 🎮 Was ist bei Spielvorschlägen zu beachten?
 Grundsätzlich kann jedes Spiel oder Modpack vorgeschlagen werden, für das wir noch keine Gameserver anbieten. Wir prüfen alle Vorschläge und entscheiden, ob es sinnvoll ist, ein bestimmtes Spiel hinzuzufügen. Minecraft Modpacks können natürlich unter "Spielewunsch" vorgeschlagen werden.
@@ -35,5 +35,4 @@ Web Interface Features sind alle Features, die auf unserer Seite zap-hosting.com
 ### ⏳ Was geschieht nachdem mein Vorschlag eingereicht wurde?
 Wir schauen uns alle neuen Vorschläge an und entscheiden, ob es sinnvoll ist den Vorschlag anzunehmen oder sogar direkt umzusetzen. Ist ein Vorschlag angenommen, wird aber nicht direkt umgesetzt, könnt ihr durch einen "Like" zeigen, dass euch dieser Vorschlag wichtig ist. Je mehr Likes, desto höher die Wahrscheinlichkeit, dass ein bisher noch nicht umgesetzer Vorschlag in Betracht gezogen wird.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/tfDtiwHG2WiYrMd/preview)
-
+![image](https://user-images.githubusercontent.com/61953937/159140318-1bf32331-bebd-4ef9-acbc-582de2517603.png)

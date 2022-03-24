@@ -27,8 +27,9 @@ Wir bieten eine große Anzahl verschiedener Zahlungsoptionen an, mit denen Serve
 > Nur erhältlich, um ZAP-Guthaben einzuzahlen. Nach Zahlungseingang wird das Guthaben freigeschaltet.
 * Paymentwall
 > Paymentwall ist ein Zahlungsanbieter, über den zusätzliche auch lokal begrenzte Zahlungsoptionen angeboten werden. Wenn eine Zahlung mit den übrigen Zahlungsoptionen nicht möglich ist, bietet Paymentwall zusätzlich Optionen wie beispielsweise lokale Prepaidkarten.
+> 
+![](https://user-images.githubusercontent.com/61953937/159141599-67b3f748-3b49-4f1a-b904-e01f88bd279f.png)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/3k9J3csBx3B3eZp/preview)
 
 ## 💸 Bezahlvorgang
 Der Bezahlvorgang ist simpel: Die Serverkonfiguration wird auf der Konfigurationsseite zusammengestellt, am Ende der Seite wird die gewünschte Zahlungsoption ausgewählt. Nach einem Klick auf "Kostenpflichtig bestellen" findet ggf. eine Weiterleitung auf den gewählten Zahlungsdienstleister statt über den die Zahlung getätigt werden kann. Nach Erhalt der Zahlung wird der Server innerhalb weniger Sekunden eingerichtet.
@@ -38,7 +39,7 @@ Guthaben kann über sämtliche anderen von uns angebotenen Zahlungsoptionen eing
 > Eine anteillige Finanzierung über Guthaben ist nicht möglich. Wenn du bereits Guthaben hast, beispielsweise weil du einen Guthaben-Code verwendest hast, kannst du Guthaben beliebig hinzufügen. Tipp: Wenn du mit ZAP-Guthaben bezahlst, achte auf unsere Cash In Deals: Ist der Cash In Deal aktiviert, erhältst du zusätzliches Guthaben, wenn du deine Einzahlung erhöhst.
 Überweisungen können verwendet werden, um ZAP-Guthaben einzuzahlen. Sobald die Überweisung bei uns eingegangen ist, wird das Guthaben freigeschaltet und kann verwendet werden.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/829b4LdGjmKM5YS/preview)
+![image](https://user-images.githubusercontent.com/61953937/159141626-cf9deb26-fef5-4c79-967b-42f2d36b974b.png)
 
 ## 💰 Cashbox
 Die Cashbox ist über das Web Interface unter dem Punkt **Cashbox** erreichbar. Neben der Möglichkeit Guthaben einzuzahlen, bietet die Cashbox folgende Zusatzfunktionen:
@@ -53,4 +54,4 @@ Die Cashbox ist über das Web Interface unter dem Punkt **Cashbox** erreichbar. 
 * Transaktionsübersicht
 > Eine Übersicht aller bisher getätigten Transaktionen.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/qmENetPibyB2SBG/preview)
+![image](https://user-images.githubusercontent.com/61953937/159141735-071c3f5c-3561-46fe-a301-d3dfb9963ef4.png)

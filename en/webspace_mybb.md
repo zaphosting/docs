@@ -23,21 +23,21 @@ Before the actual installation of MyBB can be performed, certain preparations mu
 
 The forum software can be downloaded from the official website of MyBB. The download for it can be found here: [MyBB](https://mybb.com/download/)
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/q5WfRKpZSRxF4K8/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/q5WfRKpZSRxF4K8/preview)
 
 The download contains a packed file, which must be unpacked on your local computer. Inside you will find a folder with the name **Upload**. Its content is needed and must be uploaded either via **FTP or File Manager**. Under **Websites & Domains** at **FTP-Access** you can create a FTP user.
 
 After opening the file manager in the Pleskpanel, we navigate to the **httpdocs** directory and upload the files of the forum software.
 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/tpP4aaxAkEX4JLD/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/tpP4aaxAkEX4JLD/preview)
 
 
 **Database**
 
 As next, the database must be created, which will later be used to store all information of the forum. To do this, click again on **Websites & Domains** and then on **Databases**. Then click on Add Database and create a database:  
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/Lp3Sedg5AyZBbXQ/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/Lp3Sedg5AyZBbXQ/preview)
 
 Click on **OK** and the database will be created.
 
@@ -53,7 +53,7 @@ For registering an account at the forum a mail server with an e-mail address is 
 
 If all the steps from the preparation have been fulfilled, then the actual setup of MyBB can be started. For this, the website must now be called up in the Internet browser. This should look like this: 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/R5tqJkFkeptDaWM/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/R5tqJkFkeptDaWM/preview)
 
 
 
@@ -63,13 +63,13 @@ An overview of the required system requirements should then be displayed. This i
 
 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/83PEwRkKbrwSTeZ/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/83PEwRkKbrwSTeZ/preview)
 
 
 
 In case any requirements are not met, please contact the support. Otherwise you can click on **Next** and continue the setup. Now we have to configure the database, which has already been created in advance. The database information from the created database must be filled in there: 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/i2GrCiGw7KkjK7J/preview)
+![image](https://user-images.githubusercontent.com/13604413/159177023-e839a466-f66e-4bdf-a11a-d505734eecfc.png)
 
 
 
@@ -81,16 +81,16 @@ Subsequently, we come to the general configuration. Here you can define the name
 
 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/SfYAJpMegJRR4AH/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/SfYAJpMegJRR4AH/preview)
 
 
 
 Last but not least, a general administrator account must be created before the setup can finally be completed. 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/e2RKWMicgAgQs2x/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/e2RKWMicgAgQs2x/preview)
 
 If you have done this and everything else has been configured successfully, then you should see the following message and be able to access your forum as well:
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/GxA2iZBLcTr2a9j/preview)
+![image](https://user-images.githubusercontent.com/13604413/159177053-541b8e05-9fb5-4dfa-a536-ab1958a0f598.png)
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/f7K4jNyRDbJPRqA/preview)
+![image](https://user-images.githubusercontent.com/13604413/159177056-647941dd-31f1-4c75-a656-da73c3edf2cc.png)

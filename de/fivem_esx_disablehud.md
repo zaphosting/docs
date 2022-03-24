@@ -5,17 +5,6 @@ description: Informationen, wie du das HUD auf deinem FiveM-Server mit ESX von Z
 sidebar_label: HUD deaktivieren
 ---
 
-## 📔 Überschreiben erzwingen Ausstellen
-
-Wir müssen zuerst sichergehen dass "Überschreiben erzwingen" deaktiviert ist.
-Dafür gehen wir auf den TAB "Ressourcen".
-
-![](https://screensaver01.zap-hosting.com/index.php/s/6ZXxWHN4wCE6WcE/preview)
-
-Dort entfernen wir dir dann den Haken.
-
-![](https://screensaver01.zap-hosting.com/index.php/s/gQ885gn4qkCyxbi/preview)
-
 ## 📑 Config finden und bearbeiten
 
 Haben wir das erledigt öffnen wir die Config Seite und suchen dort dann nach es_extended.
@@ -23,11 +12,11 @@ Drücke dafür einfach STRG + F und suche nach `es_`
 Dann solltest du es schnell finden.
 Diese bearbeiten wir dann.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/gNyanXGeexobkeC/preview)
+![image](https://user-images.githubusercontent.com/13604413/159166882-9f7ff88e-e82e-4f0f-8942-c729fe037906.png)
 
 Nun schauen wir nach: Config.EnableHUD.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/25HfeCciXc3wRZr/preview)
+![image](https://user-images.githubusercontent.com/13604413/159166890-39e92b90-cb40-4650-8733-c08fa926775a.png)
 
 Diese setzen wir dann auf false und speichern dann die Datei.
 

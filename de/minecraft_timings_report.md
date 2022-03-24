@@ -56,7 +56,7 @@ In Box 2 sehen wir genauere Werte in Milisekunden, hierbei sollte man beachten, 
 
 > Der **Full Server Tick** kann in der Regel ignoriert werden, da die Werte hierbei immer im roten Bereich liegen, was jedoch kein Problem darstellt.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/FR5aqdsXjeLJ5tZ/preview)
+![image](https://user-images.githubusercontent.com/13604413/159177796-03f504fc-94f4-4f88-af53-d4ce33ed8039.png)
 
 Grundlegend sollte man in jedem Fall die farblich hervorgehobenen Werte Punkte genauer untersuchen.
 
