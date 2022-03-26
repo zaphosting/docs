@@ -7,11 +7,11 @@ sidebar_label: Activity Feed Einrichten
 
 ## Vorbereitung
 
-Um auf unserem Server einen Activity Feed einzurichten, müssen wir zunächst einen Account auf [Mastodon](https://mstdn.social/about) Registrieren.
+Um auf unserem Server einen Activity Feed einzurichten, müssen wir zunächst einen Account auf [Mastodon](https://fivem-paradise.com/about) Registrieren.
 
 ## Einrichtung
 
-Nun öffnen wir unser [Mastodon Profil](https://mstdn.social/settings/profile) und Kopieren unseren Username, in unserem fall ist das `zaphosting@mstdn.social`
+Nun öffnen wir unser [Mastodon Profil](https://fivem-paradise.com/settings/profile) und Kopieren unseren Username, in unserem fall ist das `zaphosting@mstdn.social`
 
 Jetzt können wir unsere "Configs", bei unserem FiveM Server öffnen, und die server.cfg editieren.
 
