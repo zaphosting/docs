@@ -7,16 +7,16 @@ sidebar_label: Activity Feed Einrichten
 
 ## Vorbereitung
 
-Um auf unserem Server einen Activity Feed einzurichten, müssen wir zunächst einen Account auf einer Mastodon Instanz Registrieren.
+Um auf unserem Server einen Activity Feed einzurichten, müssen wir zunächst einen Account auf einer Mastodon Instanz registrieren.
 
 ## Einrichtung
 
-Nun öffnen wir unser Mastodon Profil und Kopieren unseren Username, in unserem fall ist das `zaphosting@mastodon.instance`
+Nun öffnen wir unser Mastodon Profil und kopieren unseren Username, in unserem Fall ist das `zaphosting@mastodon.instance`
 
 Jetzt können wir unsere "Configs", bei unserem FiveM Server öffnen, und die server.cfg editieren.
 
 
-Wir Fügen nun ganz unten folgende Zeile ein:
+Wir fügen nun ganz unten folgende Zeile ein:
 
 ```
 sets activitypubFeed username
