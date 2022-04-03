@@ -14,8 +14,7 @@ Bei den Gameserver Produkten bietet ZAP-Hosting MySQL Datenbanken inklusive an. 
 
 ### Vorbereitung
 
-Zunächst wird die Navicat Software benötigt. Neben der Premium Version gibt es diese auch als Lite Version. Heruntergeladen werden kann Sie hier: [Download](https://www.chip.de/downloads/Navicat-Lite_70358373.html) Im Anschluss wird die heruntergeladene Datei ausgeführt und der Einrichtungsvorgang befolgt. Wenn dieser Schritt abgeschlossen ist, dann kann das Programm gestartet werden und die Verbindung zur Datenbank hergestellt werden. 
-
+Zunächst benötigen wir eine Software um zur Datenbank zu verbinden, in diesem Beispiel zeigen wir die Nutzung von [Navicat](https://www.chip.de/downloads/Navicat-Lite_70358373.html) oder [HeidiSQL](https://www.heidisql.com/download.php) Im Anschluss wird die heruntergeladene Datei ausgeführt und der Einrichtungsvorgang befolgt. Wenn dieser Schritt abgeschlossen ist, dann kann das Programm gestartet werden und die Verbindung zur Datenbank hergestellt werden. 
 
 ### Einrichtung
 
