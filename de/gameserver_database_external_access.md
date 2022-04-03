@@ -7,7 +7,7 @@ sidebar_label: Externer Datenbankzugriff
 
 ## Datenbank Zugriff (Extern)
 
-Bei den Gameserver Produkten bietet ZAP-Hosting MySQL Datenbanken inklusive an. Diese können sowohl intern via phpMyAdmin als auch über externen MySQL-Verwaltungsprogrammen wie zum Beispiel Navicat oder HeidiSQL verwaltet werden. Im Folgenden wird die Einrichtung und Verwaltung der Datenbank mittels Navicat erläutert. 
+Bei den Gameserver Produkten bietet ZAP-Hosting MySQL Datenbanken inklusive an. Diese können sowohl intern via phpMyAdmin als auch über externen MySQL-Verwaltungsprogrammen wie zum Beispiel Navicat oder HeidiSQL verwaltet werden. 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/ySbAL7f8rwQQdKE/preview)
 
@@ -22,6 +22,20 @@ Zunächst wird die Navicat Software benötigt. Neben der Premium Version gibt es
 Hierfür werden die Zugangsdaten zu der Datenbank benötigt. Diese befinden sich in der Gameserver Verwaltung unter Datenbanken. Hierbei werden die Informationen bezüglich **Server/IP**, **Datenbank**, **Benutzer**, **Passwort** und des Standard Port **3306** benötigt:
 
 ![image](https://user-images.githubusercontent.com/13604413/159171035-cbada76f-c540-42d1-8a77-26d9b09acaa1.png)
+
+
+### HeidiSQL
+
+Damit die Verbindung in HeidiSQL hergestellt werden kann, legen wir mit "Neu" eine neue Verbindung an.
+
+![image](https://user-images.githubusercontent.com/71441339/161415767-8acd5679-6462-4207-9021-8d5ea4b4c4c5.png)
+
+Bei Hostname / IP, tragen wir den Namen deiner Datenbank an, in unserem Beispiel "mysql-mariadb-5-101.zap-hosting.com"
+Benutzername und Passwort sind ebenso den Angaben zu entnehmen, Port bleibt auf 3306
+
+Danach klicken wir einfach "Öffnen"
+
+### Navicat
 
 Damit die Verbindung in Navicat hergestellt werden kann legen wir eine neue Verbindung an. Unter **Connection** wählen wir **MySQL** aus. Im Anschluss öffnet sich ein weiteres Popup Fenster wo die Datenbank Informationen eingetragen werden.
 
