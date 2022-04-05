@@ -67,4 +67,10 @@ In unserem Fall wäre das Ganze dann:
 /g427814/assetto-corsa/
 ```
 
+Für AssettoServer: 
+
+```
+/g427814/assettoserver/
+```
+
 Danach kann auf "Upload Content" geklickt werden, die Config, Strecke und Autos, welche konfiguriert wurden, werden automatisch hochgeladen, danach brauchst du nur noch deinen Server starten!
