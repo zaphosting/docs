@@ -44,6 +44,6 @@ The available disk space will be detected automatically, you just have to contin
 
 Now finish the wizard with (1) **Finish**.
 
-> 💚 Your hard disk partition is now enlarged by the new memory!
+> 💚 Your disk partition is now enlarged by the new space!
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/M46ca4FkeG42AZz/preview)
