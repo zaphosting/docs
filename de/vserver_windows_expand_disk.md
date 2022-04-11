@@ -5,33 +5,45 @@ description: Informationen, wie du die Festplatte deines Windows vServers von ZA
 sidebar_label: Festplatte erweitern
 ---
 
-## 💾Festplattenspeicher über die Konsole hinzufügen
+Nach einem Upgrade deines ZAP Windows vServers, ist es möglicherweise notwendig deiner bestehenden Partition den neuen Speicher hinzuzufügen.
 
-Um deine Festplatte über die Konsole zu erweitern, musst du dich via RDP mit dem Server verbinden. Im Anschluss, gibst du in die Suchzeile **CMD** ein.
+> ⚠️ Keine Sorge, bei diesem Schritt werden keine Daten gelöscht
 
-![](https://screensaver01.zap-hosting.com/index.php/s/LxemaKjEetCRKzy/preview)
+## 💾 Die Partition erweitern
 
-Nun gibst du folgende Befehle nacheinander ein: 
-1. **DISKPART**
-2. **select volume 2**
-3. **extend filesystem**
+Drücke `Windows-Taste` + `R` und gib dort 
 
-Anschließend wurde die Festplatte erweitert.
+```diskmgmt.msc``` ein und bestätige mit `Enter`
 
-![](https://screensaver01.zap-hosting.com/index.php/s/ZE4LJAQBraGMb7J/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/xPAZaPKckYXSsQR/preview)
 
-## 💾Festplattenspeicher über die Einstellungen hinzufügen
+***
+Es öffnet sich nun die **Datenträgerverwaltung** hier hast du die Möglichkeit Partitionen anzupassen.
 
-Um deine Festplatte über die Einstellungen von Windows zu erweitern, musst du in die Suchzeile **Festplatte** eingeben. Anschließend erscheint dann als Vorschlag **Festplattenpartition erstellen und formatieren**.
+Klicke mit **Rechtsklick** auf die bereits bestehende Partition und wähle (1) Volume erweitern
 
-![](https://screensaver01.zap-hosting.com/index.php/s/nNKPr2rENxHAnQq/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/Qo3aKWgeL94DgyQ/preview)
 
-Dort siehst du, welcher Speicher noch nicht zugewiesen worden ist. Um diesen nun einzubinden, musst du lediglich einen **Rechtsklick** machen und dann auf **Volumen erweitern...**.
+***
 
-![](https://screensaver01.zap-hosting.com/index.php/s/TSRZsFC4YTwjNwY/preview)
+Es öffnet sich nun der Assistent um Volumes erweitern zu können:
 
-Anschließend einfach die Seiten durchklicken auf **Weiter** durchgehen und anschließend auf **Fertig stellen**.
+![](https://screensaver01.zap-hosting.com/index.php/s/3YpMgfy7tWYNawz/preview)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/2fbeX38CocBQijw/preview)
+Starte den Assistenten in dem du (1) **Weiiter** klickst.
 
-Nun kann der erweiterte Speicher eingesehen und genutzt werden.
+***
+
+![](https://screensaver01.zap-hosting.com/index.php/s/wD5nwinGBRqksyR/preview)
+
+Der verfügbare Festplattenspeicher wird automatisiert erkannt, du musst lediglich mit (1) **Weiter** fortfahren.
+
+***
+
+![](https://screensaver01.zap-hosting.com/index.php/s/y8fxAj72AsqJ3RH/preview)
+
+Beende nun den Assistenten mit (1) **Fertig stellen**
+
+> 💚 Deine Festplattenpartition ist nun um den neuen Speicher vergrößert!
+
+![](https://screensaver01.zap-hosting.com/index.php/s/gRKJziB8WY5ZHNR/preview)
