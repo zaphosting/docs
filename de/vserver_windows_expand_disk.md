@@ -30,7 +30,7 @@ Es öffnet sich nun der Assistent um Volumes erweitern zu können:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/3YpMgfy7tWYNawz/preview)
 
-Starte den Assistenten in dem du (1) **Weiiter** klickst.
+Starte den Assistenten in dem du (1) **Weiter** klickst.
 
 ***
 
