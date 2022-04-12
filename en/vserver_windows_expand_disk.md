@@ -11,6 +11,8 @@ After upgrading your ZAP Windows vServer, it may be necessary to add the new sto
 
 ## 💾 Extend the partition
 
+![](https://screensaver01.zap-hosting.com/index.php/s/63wNzRxDy36rT3E/download/Extend.gif)
+
 Press `Windows key` + `R` and type. 
 
 ```diskmgmt.msc``` and confirm with `Enter`

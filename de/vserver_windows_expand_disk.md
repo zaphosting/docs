@@ -11,6 +11,8 @@ Nach einem Upgrade deines ZAP Windows vServers, ist es möglicherweise notwendig
 
 ## 💾 Die Partition erweitern
 
+![](https://screensaver01.zap-hosting.com/index.php/s/63wNzRxDy36rT3E/download/Extend.gif)
+
 Drücke `Windows-Taste` + `R` und gib dort 
 
 ```diskmgmt.msc``` ein und bestätige mit `Enter`
