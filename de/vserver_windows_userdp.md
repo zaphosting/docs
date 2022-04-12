@@ -7,6 +7,8 @@ sidebar_label: Erstzugriff (RDP)
 
 ## 🖥 Remotedesktopverbindung
 
+![](https://screensaver01.zap-hosting.com/index.php/s/iKzYiHJ46WRQq2G/download/Remote.gif)
+
 Die Verbindung zu deinem Windows Server erfolgt über das von Windows mitgelieferte Programm "Remotedesktopverbindung".  Das Programm lässt sich über die Windows Suche unter dem Begriff "remote" finden.
 
 > Die Windows Suchfunktion ist über das Windows Symbol in der linken unteren Ecke zu finden.
