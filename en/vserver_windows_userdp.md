@@ -7,6 +7,8 @@ sidebar_label: Initial access (RDP)
 
 ## 🖥 Remotedesktop connection
 
+![](https://screensaver01.zap-hosting.com/index.php/s/iKzYiHJ46WRQq2G/download/Remote.gif)
+
 You connect to your Windows server using the Remote Desktop Connection program provided by Windows.  The program can be found via the Windows search under the term "remote".
 
 > The Windows search function can be found via the Windows icon in the lower left corner.
