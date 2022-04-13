@@ -14,23 +14,23 @@ By using phpMyAdmin, MySQL databases can be managed quickly and easily via a web
 
 First we go to the list of databases created for the game server. To do so, we open the menu item "Databases" in the left sidebar of the server under the tab "Tools".
 
-![](https://screensaver01.zap-hosting.com/index.php/s/NEsoaLW3ArerniT/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/ay9X6jBsCRWYdDB/preview)
 
 On this page all databases for this server are listed. The login to phpMyAdmin is quite easy because the login is done automatically by our system. You only have to click on the blue button "Manage".
 
 > If the login does not work automatically, then the login must be done manually with the corresponding user credentials. The information for this can be taken from the red marked area in this example.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/BjiQ9ZTzoefnH2j/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/jy77GRz3XAMGQAx/download/chrome_PQLzM1xCNm.gif)
 
 ## Table-Tools
 
 First of all only the start page of phpMyAdmin is displayed. To view and edit the tables of the respective database, the database must be opened: 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/3e4HdEfJMg9Gkyf/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/YYMPCwo4MP85k2P/download/chrome_dWzcdBaNsX.gif)
 
 Now all tables of the database and some tools are listed with which you can perform certain actions, e.g. tables can be deleted by clicking the red "Delete" button.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/YAMq2db6fBBzMXe/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/LDRWezTiwC2S8oj/preview)
 
 
 
@@ -38,7 +38,7 @@ To save time, actions can be performed on several tables at the same time. To do
 
 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/HGXn8Txbn9ScbnJ/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/DP4nt8D9Cokjixj/preview)
 
 
 
@@ -48,7 +48,7 @@ Values in a table can be edited quickly and easily by double-clicking on the res
 
 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/NRcBED37cEfmd3c/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/EcJaNL6qYdsPBAT/preview)
 
 
 
@@ -58,4 +58,4 @@ With phpMyAdmin it is also possible to execute normal SQL commands. To do this, 
 
 Once you have reached the command prompt, you can enter all desired SQL commands, which are then executed by clicking on "OK".
 
-![](https://screensaver01.zap-hosting.com/index.php/s/b3nEgKR72eLndxP/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/XSq7C9EmNMj8Xqs/preview)
