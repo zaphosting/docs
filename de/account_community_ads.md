@@ -38,14 +38,14 @@ Dort kann nun bei "**Deine Links**" auf das grüne "**+**" Icon geklickt werden,
 
 > Dieser Link muss ein Direktverweis auf die eigens erstellte Werbung sein. Sollte bei dem Link keine Werbung ersichtlich sein wird diese abgelehnt.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/mmTysiLajtDrCzx/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/5R8BK9BzSAiNcwc/preview)
 
 ## 💲 Auszahlung/ Umbuchung
 
 Um eine Auszahlung zu beantragen, klicke in der Übersicht auf der "[Community Werbung](https://zap-hosting.com/de/customer/communityads/)"
 In dieser Übersicht kann nun bei "**Verfügbares Guthaben**" das Icon mit den zwei entgegengesetzten Pfeilen betätigt werden.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/wsDBQbqQbNKJXBb/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/FMXZdZpkrJHQEXD/preview)
 
 ### ZAP-Coins
 
@@ -55,7 +55,7 @@ Wenn du dein Guthaben in ZAP-Coins umbuchen lässt, kannst du dir diese ZAP-Coin
 Bei der "**Buchungsart**" kann nun "**Auf ZAP-Guthaben**" ausgewählt werden.
 Dort wäre es möglich sowohl das vollständige Guthaben als auch ein Teilguthaben zu ZAP-Coins umzuwandeln: 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/nfzJXSjWJpskDbg/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/99jMMDPmoJHXNF5/download/chrome_BpNBvNjrZJ.gif)
 
 Sobald eine Auswahl getroffen und bei "**Teilguthaben**" ein Wunschwert eingetragen wurde, wird der Vorgang durch den Button "**Umbuchen**" bestätigt.
 

@@ -32,13 +32,13 @@ Click the link in the overview on [[Community Advertising](https://zap-hosting.c
 
 > The link must point to the advertisement created for this purpose. If the link does not contain any advertising, then it will be declined.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/z5nkP5tRoMN5Eme/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/SFTfRE32TzdjpaM/preview)
 
 ## 💲 Cash out / Transfer
 
 Click in the overview on the "[Community Advertising](https://zap-hosting.com/de/customer/communityads/)" to request a payout. There you can now click on the icon with the two opposite arrows at "**Available Credit**".
 
-![](https://screensaver01.zap-hosting.com/index.php/s/gw7t9LgP78Ls7Da/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/AdNWpLCyx4zHH69/preview)
 
 ### ZAP-Coins
 
@@ -48,7 +48,7 @@ Once you have your credit transferred to ZAP-Coins, you can no longer cash out t
 At the " **Posting type**" you can now select "**ZAP credit balance**".
 There it's possible to convert either the full credit balance or a partial credit balance to ZAP-Coins: 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/oS63xZCS3mmHC9n/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/4ftXpjDe47bj7nC/download/chrome_1sGrOf9AKk.gif)
 
 As soon as a selection has been made and a desired value has been set at "**Part credit**", the process is confirmed by the button "**Rebook**".
 

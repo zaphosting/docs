@@ -28,7 +28,7 @@ Accordingly, it makes sense to use a different password for each page. In order 
 
 > Tip: At [haveibeenpwned](https://haveibeenpwned.com/) you can check your email address free of charge to see whether it is contained in a known leak in a database. You will also receive information on which side the incident took place and which data was stolen.
 
-![haveibeenpwned Example](https://screensaver01.zap-hosting.com/index.php/s/7AxDKnpbysYzwNr/preview)
+![haveibeenpwned Example](https://screensaver01.zap-hosting.com/index.php/s/t6KrTmmPertFciD/preview)
 
 ## 🔧 Account Settings
 
