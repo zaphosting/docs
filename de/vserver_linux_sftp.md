@@ -7,7 +7,7 @@ sidebar_label: SFTP Verbindung
 
 ## ❓ Wie verbinde ich mich via SFTP?
 
-![](https://screensaver01.zap-hosting.com/index.php/s/4xp7yaw6tfnMD3E/download/vps-sftp.gif)
+![](https://screensaver01.zap-hosting.com/index.php/s/R5QRq5t8spGezE9/download/vps-sftp-3.gif)
 
 Um dich via SFTP zu verbinden, musst du in Winscp auf SFTP umstellen: 
 
