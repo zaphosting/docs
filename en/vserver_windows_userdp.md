@@ -23,11 +23,11 @@ You connect to your Windows server using the Remote Desktop Connection program p
 
 The IP address can be found in the ZAP web interface under "**Access & Security**" and in the Infobar.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/cf2AaeBCBtJnBT2/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/yynJ3otyBXAn8dC/preview)
 
 The program asks for a **user name** and **password**. The user name is "**administrator**". The password can be set in the web interface under "**Access & Security**".
 
-![](https://screensaver01.zap-hosting.com/index.php/s/8L9J3R57RWjnJzW/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/2dJnoBHddPG6fsb/preview)
 
 > No certificate is installed by default. The password is therefore transmitted insecurely. Learn how to create a certificate here: RDP Certificate
 
