@@ -7,6 +7,8 @@ sidebar_label: Initial access (SSH)
 
 ### 🖥 SSH-Connection
 
+![](https://screensaver01.zap-hosting.com/index.php/s/TYEHE38gNQoFjBx/download/ssh_connect.gif)
+
 Linux server products do not include a graphical management interface by default, which is why the connection and management is done via an SSH client (console). There is a wide range of SSH clients available. Below is an overview of the known / often used SSH clients. 
 
 
