@@ -8,6 +8,8 @@ sidebar_label: No Internet what now?
 
 ## 🖥 No internet, what now?
 
+![](https://screensaver01.zap-hosting.com/index.php/s/HqwTRTWqHT5LAas/download/NoInternet.gif)
+
 As a rule, the server is "started" when it has no active internet connection as shown below:
 
 ![image](https://user-images.githubusercontent.com/13604413/159165538-4c9c7858-ce7a-44eb-982e-fe614f731dfa.png)

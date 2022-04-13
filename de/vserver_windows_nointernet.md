@@ -6,6 +6,9 @@ sidebar_label: Kein Internet was nun?
 ---
 
 ## 🖥 Kein Internet was nun?
+
+![](https://screensaver01.zap-hosting.com/index.php/s/HqwTRTWqHT5LAas/download/NoInternet.gif)
+
 In der Regel steht dein Windows Server auf "Gestartet", sollte er über keine Internetverbindung verfügen.
 
 ![image](https://user-images.githubusercontent.com/13604413/159165538-4c9c7858-ce7a-44eb-982e-fe614f731dfa.png)
