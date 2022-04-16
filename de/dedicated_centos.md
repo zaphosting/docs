@@ -16,7 +16,7 @@ Wähle in deinem ZAP-Interface die gewünschte ISO von CentOS aus und lasse den 
 ## ⌚ Das Setup
 Wenn die ISO erfolgreich geladen wurde, ist der Server erfolgreich im Setup.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/gPCZM8xSeeY78Le/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/YFQt6Jmw5wi4QZZ/preview)
 
 * Keyboard
 Wähle hier dein gewünschtes Tastaturlayout
@@ -38,7 +38,7 @@ Wenn du alles gewünschte konfiguriert hast, klicke auf "Begin Installation"
 
 ***
 
-![](https://screensaver01.zap-hosting.com/index.php/s/n4Fem88GnDc8zrd/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/iqF8KzziQix3jyd/preview)
 
 Wenn die Installation abgeschlossen ist, entferne die ISO-Datei von deinem Server und klicke "Reboot System"
 
@@ -47,7 +47,7 @@ Wenn die Installation abgeschlossen ist, entferne die ISO-Datei von deinem Serve
 In diesem Schritt muss noch die Netzwerkschnittstelle konfiguriert werden, hierzu ist ein Update notwendig.
 Lade unsere ISO-Datei in deinen Server, entweder über deine Remote Console oder die iLO selbst.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/PCyFp8EsfcwzAHZ/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/skiKLacFGZnMwr9/preview)
 
 ```http://185.223.30.65/dedicatedisos/centos-network-554flb.iso```
 
