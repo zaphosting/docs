@@ -12,18 +12,18 @@ You should modify the settings carefully, in case of wrong changes it can cause 
 ## ❓ How do I get into the iLO?
 Open the server dashboard of your ZAP Dedicated Server with a browser of your choice. There you will already find the most important information about your iLO.
 To activate the iLO simply click on "Activate iLO".
-![](https://screensaver01.zap-hosting.com/index.php/s/EYzj9BBckk6QqfD/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/grj9PxttLKiZg6m/preview)
 
 Please mention that it may take a few seconds until your iLO is fully available. 
 When the system has started the management interface and it is accessible, you will see the login informations.
 To open the iLO click on the displayed IP address and use the login credentials to log in.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/qXCt3E4cD77NqFT/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/MJeEW2LLrjxsAGN/preview)
 
 After a short moment you are now logged in to the administration interface of your dedicated server. 
 Here you will find a lot of important informations:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/ST65wBDs4bJgjJJ/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/BGWGXDRgS9A74dB/preview)
 
 ### Overview
 * **System Health**
@@ -62,7 +62,7 @@ The integration of own boot media (ISOs) is done by the submenu "Connect CD/DVD-
 The boot order of the server is configured so that it would always boot a registered ISO first by default.
 The order can also be changed in the menu called "Boot Order".
 
-![](https://screensaver01.zap-hosting.com/index.php/s/B9ApD7HeSXT9NFf/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/6ezDgt2dsCMwEam/preview)
 
 At "Scriptes Media URL" you have to enter the full link of the ISO you want to mount, as example: http://mydomain.com/bootimage.iso
 Your entry must point directly to the ISO, so it must also end with .iso.
@@ -72,7 +72,7 @@ The server will now load your inserted ISO.
 ### Power Management
 In this menu item you can do everything concerning starting & stopping your ZAP Dedicated Server. 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/gzp2Cxg3nQC2Q8G/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/NHW8iafC3zjcsJG/preview)
 
 * **Gracefull Power Off**
 Gracefully shuts down your server, the same result as pressing the power button of your notebook/computer once.
@@ -97,13 +97,13 @@ Shows you the network configuration of your iLO, please mention that this settin
 ## 💻 Remote Consoles (Display)
 The iLO offers you two different types of remote consoles by default:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/mwbB8kTZLRFEgPw/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/cozRqRt9KLTMCkd/preview)
 
 ### The HTML5 Console
 With a simple click you are already on your server, you don't need any other third party software and it is launched directly in your webbrowser.
 It offers you lots of useful tools:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/qzNfYob7J4F9Zzf/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/G8DjtHYnJosiQBy/preview)
 
 * 1 - power management settings (start, stop, reboot) of the server
 * 2 - Sending keyboard shortcuts (as example CTRL + ALT + DEL)
@@ -118,16 +118,16 @@ To use the Java Console you need to have Java installed. (Can be downloaded from
 > Any messages that appear regarding security concerns can be ignored.
 
 After opening the file we get the following message, confirm it with "Continue".
-![](https://screensaver01.zap-hosting.com/index.php/s/oXxkstqAHpFDNNK/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/nByYm3X8DXNHXmP/preview)
 
 We acknowledge the risk and confirm with "Run".
 
-![](https://screensaver01.zap-hosting.com/index.php/s/ynnmFRN4EWtRcSr/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/eWzpyXgQPWWz4J4/preview)
 
 Now the Java console opens.
 > The application often changes the keyboard layout to "EN".
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SxFkiqHPe4Yfrgr/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/kAp5rddEDjdLNwi/preview)
 
 * 1 - Settings of the power management (start, stop, reboot) of the server
 * 2 - Including ISOs > URL CD/DVD-ROM
