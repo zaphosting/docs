@@ -16,7 +16,7 @@ In your ZAP interface, select the desired ISO of CentOS and let the server boot 
 ## ⌚ The setup
 When the ISO is successfully loaded, the server is in the setup process.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/gPCZM8xSeeY78Le/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/YFQt6Jmw5wi4QZZ/preview)
 
 * Keyboard
 Choose the keyboard layout of your like
@@ -37,7 +37,7 @@ When everything's configured to your like, you can press "Begn Installation"
 
 ***
 
-![](https://screensaver01.zap-hosting.com/index.php/s/n4Fem88GnDc8zrd/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/iqF8KzziQix3jyd/preview)
 
 When the installation is done, just remove the ISO-file fromy our server and press "Reboot System"
 
@@ -46,7 +46,7 @@ When the installation is done, just remove the ISO-file fromy our server and pre
 In this step we will configure our network device, to do that we need to update some files.
 Please mount this iso file into your server, through the remote console or the iLO itself.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/PCyFp8EsfcwzAHZ/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/skiKLacFGZnMwr9/preview)
 
 ```http://185.223.30.65/dedicatedisos/centos-network-554flb.iso```
 
