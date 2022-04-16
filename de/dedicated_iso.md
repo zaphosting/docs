@@ -11,7 +11,7 @@ Grundsätzlich gibt es keine Beschränkungen welche ISOs eingebunden werden kön
 
 ### 🔧 Einbinden über die iLO
 Öffne deine iLO Verwaltungsoberfläche, navigiere zum Menü "Virtual Media" und öffne dieses.
-![](https://screensaver01.zap-hosting.com/index.php/s/zHMmYxq45ECe5GL/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/myWMSi3GgyLBHXR/preview)
 
 * Trage die URL zu deiner ISO-Datei ein, bitte beachte das diese URL zwingend mit .iso enden muss.
 * Klicke auf "Insert Media"
@@ -23,7 +23,7 @@ Deine ausgewählte ISO wird nun geladen.
 
 **HTML5 Console**
 Das Einbinden der ISO-Datei erfolgt direkt in der Console selbst:
-![](https://screensaver01.zap-hosting.com/index.php/s/8TFjzAEeqKY628K/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/x4EDgLZ3e3B6MMC/preview)
 
 * Klicke auf das CD-Symbol
 * Wähle CD/DVD aus
@@ -38,7 +38,7 @@ Wenn du deine ISO erfolgreich geladen hast, muss der Server neugestartet werden.
 
 **Java Console**
 Wie auch bei der HTML5 Console wird die ISO-Datei auch in der Java Console direkt eingebunden.
-![](https://screensaver01.zap-hosting.com/index.php/s/x99HAMKGTafEMo9/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/2CdR5d5AcsG7YdH/preview)
 
 * Öffne "Virtual Drives"
 
