@@ -12,20 +12,20 @@ Du solltest mit einer grundsätzlichen Vorsicht dort Einstellungen verändern, b
 ## ❓ Wie komme ich in die iLO?
 Öffne mit einem Browser deiner Wahl das Server Dashboard deines ZAP Dedicated Servers. Dort findest du bereits die wichtigsten Informationen zu deiner iLO.
 Um die iLO zu aktivieren klicke ganz einfach auf "iLO aktivieren"
-![](https://screensaver01.zap-hosting.com/index.php/s/DDrZPSrLrPXtfnE/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/qYPEPiwCKKrzLDL/preview)
 
 Bitte beachte dass es einige Augenblicke dauern kann bis deine iLO vollständig zur Verfügung steht. 
 Wenn das System die Verwaltungsoberfläche gestartet hat und sie für dich zugänglich ist, werden dir die Logininformationen angezeigt.
 Um die iLO zu öffnen klicke auf die angezeigte IP-Adresse und verwende die Logindaten um dich anzumelden.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/g4jyqgfM6p7akb3/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/qktwjwRcPmcRzAA/preview)
 
 *** 
 
 Nach einem kurzen Augenblick bist du nun in der Verwaltungsoberfläche deines Dedicated Servers eingeloggt. 
 Hierbei findest du viele wichtige Informationen auf den ersten Blick:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/ST65wBDs4bJgjJJ/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/BGWGXDRgS9A74dB/preview)
 
 ### Overview
 * **System Health**
@@ -64,7 +64,7 @@ Das einbinden von eigenen Bootmedien (ISOs) erfolgt durch das Untermenü "Connec
 Die Bootreihenfolge des Servers ist so konfiguriert das sie standardmäßig immer eine eingetragene ISO zuerst booten würde.
 Die Reihenfolge kann auch im Menüpunkt "Boot Order" verändert werden.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/B9ApD7HeSXT9NFf/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/6ezDgt2dsCMwEam/preview)
 
 Bei "Scripted Media URL" ist der volle Link der einzubindenden ISO einzutragen, z.B. http://meinedomain.de/bootimage.iso
 Deine Angabe muss direkt auf die ISO zeigen, also auch mit .iso enden.
@@ -74,7 +74,7 @@ Der Server wird nach dem Neustart deines eingelegte ISO laden.
 ### Power Management
 In diesem Menüpunkt kann alles gemacht werden was das Starten & Stoppen deines ZAP Dedicated Servers betrifft. 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/gzp2Cxg3nQC2Q8G/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/NHW8iafC3zjcsJG/preview)
 
 * **Gracefull Power Off**
 Stoppt deinen Server schonend, das selbe Ergebnis wie wenn die Power Taste deines Notebooks/Computers einmal kurz gedrückt wird.
@@ -100,13 +100,13 @@ Zeigt dir die Netzwerkkonfiguration deiner iLO, bitte beachte das diese Einstell
 
 Die iLO bietet dir standardmäßig zwei verschiedene Arten einer Remote Console:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/mwbB8kTZLRFEgPw/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/cozRqRt9KLTMCkd/preview)
 
 ### Die HTML5 Console
 Mit einem einfachen Klick bist du schon auf deinem Server, du benötigst keine weitere Drittanbieter Software und es wird direkt in deinem Browser gestartet.
 Die Console steht den Funktionen in nichts nach, sie bietet dir viele weitere nützliche Tools:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/qzNfYob7J4F9Zzf/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/G8DjtHYnJosiQBy/preview)
 
 * 1 - Einstellungen der Power-Verwaltung (Starten, Stoppen, Rebooten) des Servers
 * 2 - Das Senden von Tastenkombinationen (z.B. STRG + ALT + DEL)
@@ -121,16 +121,16 @@ Um die diese Console zu verwenden ist es erforderlich das Java installiert ist. 
 > Alle auftretenden Meldungen zu Sicherheitsbedenken können ignoriert werden.
 
 Nach dem öffnen der Datei wird uns folgende Meldung angezeigt, diese wird mit "Weiter" bestätigt.
-![](https://screensaver01.zap-hosting.com/index.php/s/WWN28xzEfgkqrmx/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/nByYm3X8DXNHXmP/preview)
 
 Wir bestätigen das Risiko und bestätigen mit "Ausführen"
 
-![](https://screensaver01.zap-hosting.com/index.php/s/YCSG9tjiQnGCfs9/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/eWzpyXgQPWWz4J4/preview)
 
 Es öffnet sich nun die Java-Console.
 > Die Anwendung stellt häufig das Tastaturlayout auf "EN" um.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SxFkiqHPe4Yfrgr/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/kAp5rddEDjdLNwi/preview)
 
 * 1 - Einstellungen der Power-Verwaltung (Starten, Stoppen, Rebooten) des Servers
 * 2 - Einbinden von ISOs > URL CD/DVD-ROM
