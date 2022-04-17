@@ -17,55 +17,55 @@ In your ZAP interface, select the desired ISO of FreeBSD and let the server boot
 ## ⌚ The setup
 When the ISO is successfully loaded, the server is in the setup process.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/NpXzwWEeHd9nLN8/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/wSa8eGnrtJDLHB5/preview)
 
 We start the installation by pressing `Enter`
 
 ***
 
-![](https://screensaver01.zap-hosting.com/index.php/s/YggRe58jXHszJHy/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/CK4xnGEqBe5Kd4y/preview)
 
 Choose the keymap of your like and proceed with continue
 
 ***
 
-![](https://screensaver01.zap-hosting.com/index.php/s/wR4iq9GdzsDfgoZ/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/BSrWrN9TnqEEmmb/preview)
 
 Choose your desired hostname
 
 ***
 
-![](https://screensaver01.zap-hosting.com/index.php/s/qjHnRJ2eSLsWdf9/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/zqXPS6fHdkoMPH2/preview)
 
 You could choose optional systempackages which should be installed, after you're done proceed with OK
 ***
 
-![](https://screensaver01.zap-hosting.com/index.php/s/zKzZMgPxRP9gTpB/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/zTSBQRGRFLHDxDo/preview)
 
 In this step you could create partitions, in this example we're using a RAID0.
 More informations about RAIDs are explained in our special guide.
 
 ***
 
-![](https://screensaver01.zap-hosting.com/index.php/s/rG2f2bopCqPEAwP/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/DTk5zgjbpCWwbmp/preview)
 
 You can proceed with `Enter` if there are no changes
 
 ***
 
-![](https://screensaver01.zap-hosting.com/index.php/s/yxpQCWn6zCZK2HE/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/MR3eJKMpdExXnsJ/preview)
 
 Since we've got a RAID0 we choose no redundandy
 
 ***
 
-![](https://screensaver01.zap-hosting.com/index.php/s/Wd4ntdirBoMjeeg/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/Qf5JZMKs5HzDXnT/preview)
 
 Mark your volume, with `Space` and process by pressing `Enter`
 
 ***
 
-![](https://screensaver01.zap-hosting.com/index.php/s/GdTn5ztzQk8Q5nA/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/4d93FtfDmSEtifY/preview)
 
 We verify that all data will be erased
 
@@ -73,37 +73,37 @@ We verify that all data will be erased
 
 ### 🔧 Configuration
 
-![](https://screensaver01.zap-hosting.com/index.php/s/yrY4223owaDFaKs/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/NmR5PcTPe3Kdc4i/preview)
 
 Please fillin your password and proceed by pressing `Enter`
 
 ***
 
-![](https://screensaver01.zap-hosting.com/index.php/s/WqEAD3HDrZr4wC5/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/f9aJF57b2w3g9qY/preview)
 
 Choose "No" at IPv4/IPv6 Configuration, this must be done in the end
 
 ***
 
-![](https://screensaver01.zap-hosting.com/index.php/s/t8Ptgqqq4Fj3Cx3/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/88bxbHsRjwCoYJQ/preview)
 
 Choose "Yes" and select your timezone and the date/time configurations
 
 ***
 
-![](https://screensaver01.zap-hosting.com/index.php/s/smtKkCiHwzobZoe/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/MCtpoQkLdc8Wd7Y/preview)
 
 You could change the systems which will be automatically started on a server start
 
 ***
 
-![](https://screensaver01.zap-hosting.com/index.php/s/WRmMrR7m2gtmXNc/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/wPbL3HJGYBTLdyD/preview)
 
 If necessary, you can modify the security settings
 
 ***
 
-![](https://screensaver01.zap-hosting.com/index.php/s/mJzxzSQqxtQK72H/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/BXEs3sFYCbFE4Q4/preview)
 
 The setup is now done, choose "Exit" and confirm by pressing `Enter`
 
@@ -138,7 +138,7 @@ Gateway: 123.123.123.1
 
 This should in example look like:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/pgGdbSerTe5236B/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/mBCZpbG37N9Dj5e/preview)
 
 Leave the editor by pressing `CTRL+C`and writing "exit" after that execute the command `/etc/netstart` once
 
