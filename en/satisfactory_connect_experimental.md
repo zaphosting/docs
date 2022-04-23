@@ -6,52 +6,52 @@ sidebar_label: Connect to the Server (Experimental)
 
 Open your ZAP-Hosting Gameserver Dashboard and verify that the Server is Online:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/4SnRTZHYps44ffD/preview)
+![](https://user-images.githubusercontent.com/61839701/164882436-aa74d037-dda7-4db2-a327-bbdfc67deecc.png)
 
 ***
 
 Launch Satisfactory then navigate to the "Server-Manager" tab
 
-![](https://screensaver01.zap-hosting.com/index.php/s/x6sQi3FXYRdpGCQ/preview)
+![](https://user-images.githubusercontent.com/61839701/164882463-33559f96-322e-4b3f-8e50-5ec9e8d18612.png)
 
 ***
 
 Press on "Add Server" to add your gameserver.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/B8MJSGCio5dGSfH/preview)
+![](https://user-images.githubusercontent.com/61839701/164882476-410b461f-9a1b-4e04-9350-91fbb9809fd8.png)
 
 ***
 
 Add now the ip informations, from the interface:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/MKawXgCMnmyGg2i/preview)
+![](https://user-images.githubusercontent.com/61839701/164882489-6ff9ee4c-b12f-4359-a2c9-f2903bb39d75.png)
 
 ***
 
 Name your server:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/EzZ5xKi6MMibMoK/preview)
+![](https://user-images.githubusercontent.com/61839701/164882496-ef5d731f-6122-413f-8097-91681c0fa495.png)
 
 ***
 
 Set an admin password to edit settings in future:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/HE54XoMZ5xLcgBa/preview)
+![](https://user-images.githubusercontent.com/61839701/164882502-9d6b8815-dab8-4937-9d63-68e265de9ca1.png)
 
 ***
 
 Its required to create a savegame, click on "Create Game":
 
-![](https://screensaver01.zap-hosting.com/index.php/s/y8aajNJ4DGXMyT6/preview)
+![](https://user-images.githubusercontent.com/61839701/164882509-37c73034-7717-43c9-ac0c-0d26a7dde336.png)
 
 ***
 
 In this step, you need to name your savegame and pick one of the 4 worlds, which should be used:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/wSGtTjEgk823y7G/preview)
+![](https://user-images.githubusercontent.com/61839701/164882515-b1e37248-0ea7-44e1-b805-844afc6238bf.png)
 
 ***
 
 After that you can join your server in the "Status" tab:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/8kzJE2jBq7LqrW2/preview)
+![](https://user-images.githubusercontent.com/61839701/164882520-54deec6c-d74e-49ee-844e-4856afc79e17.png)
