@@ -54,4 +54,4 @@ In diesem Schritt muss der Name des Savegames festgelegt werden und welche der 4
 
 Danach kann in "Status" dem Server gejoint werden:
 
-(https://user-images.githubusercontent.com/61839701/164882520-54deec6c-d74e-49ee-844e-4856afc79e17.png)
+![](https://user-images.githubusercontent.com/61839701/164882520-54deec6c-d74e-49ee-844e-4856afc79e17.png)
