@@ -17,17 +17,17 @@ Und dafür brauchst du keinerlei Erfahrung mit dem Umgang von Linux!
 ## Installation
 Um das Gameserver-Webinterface zu installieren. Wähle diesen Menüpunkt in deinen Einstellungen aus.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/9QRTqYGkPXF5kw5/preview)
+![](https://user-images.githubusercontent.com/61839701/165695829-ff08b99e-3639-4152-a2ca-b7136737d027.png)
 
 Wir landen in unserem Setup-Assistenten, welcher uns dazu auffordert einen SSH-Key zu generieren.
 Klicke einfach auf "SSH-Key generieren" dann öffnet sich dieses Fenster:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/bKgcAjBFDGa47kf/preview)
+![](https://user-images.githubusercontent.com/61839701/165696223-4920716e-048b-4dac-a4b2-9ffa74b97d07.png)
 
 Alles was du dort machen musst, iat auf "Key hinzufügen" klicken. 
 Dein Key wird nun im Server eingetragen und du wirst auf diese Seite weitergleitet:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/AcFocaWxAF2XdZQ/preview)
+![](https://user-images.githubusercontent.com/61839701/165696681-e5b4363e-693c-4843-91fb-e1cf677b4b2e.png)
 
 > **Wichtig**: Sollte der Key noch nicht erkannt werden, starte bitte den Server einmal neu und lade auch die Seite neu.
 
@@ -37,7 +37,7 @@ Klicke nun einfach auf Anlegen, das Gameserver-Webinterface macht alles weitere 
 Du siehst jetzt den Fortschritt der Installation.
 Bis alles komplett installiert und konfiguriert ist, kann es rund 15-20 Minuten andauern.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/ArWfJ4EAMEZ2rW7/preview)
+![]https://user-images.githubusercontent.com/61839701/165697201-b3b7be30-473a-44f4-aedf-a03f374d7fdb.png)
 
 > **Achtung**: Bitte erst weiter machen wenn das Interface komplett installiert ist.
 > Es ist komplett installiert soweit der Fortschrittsbalken verschwunden ist und sobald bei jedem Paket "Installiert" anstatt "fehlt" steht.
@@ -46,38 +46,36 @@ Bis alles komplett installiert und konfiguriert ist, kann es rund 15-20 Minuten 
 Nach Abschluss der Installation können wir nun mit der Installation eines Gameservers beginnen.
 Dafür kannst du hier auf "Gameserver installieren" klicken:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/ybWXXEP8dHqs2HC/preview)
+![](https://user-images.githubusercontent.com/61839701/165700099-164ab755-9b72-43c2-8aaa-fe40de33acb9.png)
 
 Im nachfolgenden Fenster kannst du die IP Adresse von dem gewünschten Gameserver auswählen. (Insofern dein Server mehr als eine IP besitzt)
 Außerdem kannst du den gewünschten Port sowie die Anzahl der Slos sowie den RAM Boost mit angeben.
 Soweit alle Angaben passen kannst du auf "Gameserver jetzt installieren" klicken.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/nj6XzX7oFBoSD2H/preview)
-
+![](https://user-images.githubusercontent.com/61839701/165700329-85bd7dc4-52cc-43cd-958b-8dc2c9585b55.png)
 
 ### Das gewünschte Spiel installieren
 Du kannst nun deinen Server in der Gameserver Liste einsehen und darauf klicken.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/m6Nja6pi43m3YAm/preview)
+![](https://user-images.githubusercontent.com/61839701/165700566-ce663969-7d54-4f82-81be-87b470064e2d.png)
 
 
 Du befindest dich nun in der Verwaltung von deinem Gameserver.
 Hier kannst du links auf den Reiter "Spiele" klicken.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/TLqF3HgQb2NCFfb/preview)
+![](https://user-images.githubusercontent.com/61839701/165700748-fc8305dc-485b-46bf-b8a5-da35e33abaa9.png)
 
 
 Hier findest du eine Liste aller Spiele welche du auf deinem Server installieren könntest.
 In unserem Beispiel möchten wir Paperspigot  installieren.
 Dafür geben wir in die Suchleiste "Paperspigot" ein und klicken dann rechts neben dem Spiel auf den grünen "installieren" Button.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/nQkzntLF4m8EroM/preview)
+![](https://user-images.githubusercontent.com/61839701/165700899-ddaf5731-0a4e-4daf-a691-339cd7942a32.png)
 
 Nun siehst du die Bedingungen von dem Spiel und kannst die Version auswählen welche installiert werden soll.
 Mit dem klicken auf "Akzeptieren und installieren" wird das Spiel nun installiert.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/zL9jHWzDKDYoQym/preview)
-
+![](https://user-images.githubusercontent.com/61839701/165701111-9aca99fd-05d9-4943-a257-346e28ad223e.png)
 
 Das dauert, je nach Spiel,  einige Minuten.
 Im Anschluss kannst du deinen Gameserver starten und dich im Spiel damit verbinden!
@@ -88,42 +86,35 @@ Die Installation eines Teamspeak 3 Servers ist nahezu identisch wie mit der Inst
 Als erstes musst du wieder auf "Gameserver / Ts3" klicken.
 Hier kannst du nun auf "Voiceserver installieren" klicken.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/AatgX7fCK68k6wP/preview)
-
+![](https://user-images.githubusercontent.com/61839701/165701549-a1aa2e32-5b24-4bac-95b6-7f1902c6a45d.png)
 
 Im nachfolgenden Fenster kannst du auch einige kleine Änderungen vornehmen.
 Wie zum Beispiel das ändern der jeweiligen Ports sowie das ändern der Version.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/fwWo6Q3WYHocpMq/preview)
-
+![](https://user-images.githubusercontent.com/61839701/165702079-8b30e248-6d90-442f-8b67-592bf8c8774c.png)
 
 Soweit alle Angaben passen kannst du auf "Teamspeak 3 / 5 Server jetzt installieren" klicken.
 > **ACHTUNG**: Wir empfehlen **immer** die aktuellste Version zu verwenden.
 
 Du kannst den installierten Teamspeak 3 Server nun in der "Voiceserver" Übersicht einsehen und anklicken.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/bJY7WomJdZRpQXn/preview)
-
+![](https://user-images.githubusercontent.com/61839701/165702380-5169d23a-21d0-4d58-a538-ab7b65f76615.png)
 
 > **Achtung**: Hierbei handelt es sich um die Instanz auf welchem der tatsächliche Teamspeak 3 Server im Anschluss installiert wird.
 
 Du befindest dich nun im Interface der Instanz von deinem installierten Teamspeak 3 Server.
 Die Instanz kannst du nun mit einem Klick auf den "Start" Button starten.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/RTJF4mxt8Rw4HTr/preview)
+![](https://user-images.githubusercontent.com/61839701/165703148-bfc3c0ee-43aa-456d-86ed-89194a368bc8.png)
 
 
 ### Interface vom installierten Teamspeak 3 Server aufrufen
 Du kannst jetzt auf "virtuelle Server" klicken.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/QP68KjeSqy9YgKY/preview)
-
-
 Hier siehst du deine installierten Teamspeak 3 Server auf deiner Instanz.
 Mit einem Klick auf das "Auge" gelangst du in das Interface von dem reinen Teamspeak 3 Server.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/wen5eQNExzTALXM/preview)
-
+![](https://user-images.githubusercontent.com/61839701/165704911-cc2f2d4c-441c-4fdf-9fb5-6299245fb1b2.png)
 
 Im Interface von dem Teamspeak 3 Server findest du nun alle notwendigen Informationen.
 Du kannst zum Beispiel unter dem Reiter "Berechtigungsschlüssel" einen Token anlegen mit welchem du Admin Rechte auf deinem Server erhältst.
