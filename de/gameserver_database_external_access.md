@@ -46,3 +46,4 @@ werden. Klicke dafür einmal einen Doppelklick auf deine Datenbank oder Rechtskl
 
 
 Im Anschluss öffnet sich die Datenbank mit allen vorhandenen Datenbanktabellen. Dort kann nun deine Datenbank ähnlich wie in phpMyAdmin sowohl per Klick als auch per SQL-Befehle verändert oder verwaltet werden. 
+![image](https://user-images.githubusercontent.com/13604413/159171040-0e45c5ef-997f-49dd-aab8-3f6e0171a1dd.png)
