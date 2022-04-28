@@ -40,7 +40,7 @@ Damit die Verbindung in Navicat hergestellt werden kann legen wir eine neue Verb
 Der **Connection Name** gilt nur zur Übersicht der Datenbanken und kann daher frei gewählt werden. Alle weiteren Informationen übernehmen wir aus dem Interface wie oben beschrieben. Im Anschluss klicken wir auf **OK** und fertig ist die Einrichtung. Die Verbindung kann im Anschluss links in der Datenbank Übersicht hergestellt 
 werden. Klicke dafür einmal einen Doppelklick auf deine Datenbank oder Rechtsklick und wähle "Öffne Verbindung":
 
-![](https://user-images.githubusercontent.com/61839701/165672933-6ba9594e-50b3-40cc-b9e4-1178ea91fbca.png)
+![](https://user-images.githubusercontent.com/61839701/165673163-213ab077-478f-4102-b36b-60ff5e1f2262.png)
 ![](https://user-images.githubusercontent.com/61839701/165673099-e1cd908a-5421-4ec4-bb88-186c3d894c39.png)
 
 
