@@ -28,7 +28,7 @@ Nachdem die Installation abgeschlossen ist gibst du folghenden Befehl ein um die
 
 Führe nun die Konfiguration deines MariaDB (MySQL) Servers durch, im folgenden legen wir auch ein Passwort für deinen Server fest.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/PTTfCaLgTbTcPXn/preview)
+![](https://user-images.githubusercontent.com/61839701/165693963-35a8ec5e-829a-4644-9f81-b0f1ea4609dc.png)
 
 Dort übersprichst du die Eingabe vorerst durch das drücken auf **Enter**, das Passwort für den root User legen wir im gleich fest.
 
@@ -68,5 +68,4 @@ unter anderem das zuvor gesetzte Passwort für den root Benutzer aktiv wird:
 
 Dein MariaDB (MySQL) Server ist nun einsatzbereit!
 
-![](https://screensaver01.zap-hosting.com/index.php/s/LR8gWDmrQnBm8D5/preview)
-
+![](https://user-images.githubusercontent.com/61839701/165694424-34436049-d798-49b4-ad95-4e4a73a6a76a.png)
