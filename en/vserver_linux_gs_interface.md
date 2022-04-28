@@ -17,17 +17,17 @@ And you don't need any experience with Linux!
 ## Preparations
 To install the Gameserver-Webinterface. Navigate to the menu in your settings category.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/fEGw2qoRZWt295Z/preview)
+![](https://user-images.githubusercontent.com/61839701/165695840-73fe0cfb-2a24-4375-883d-a41b02c9d5ad.png)
 
 You're now in the setup assistant, which requires to generate a ssh key.
 Just press on "Generate SSH key"
 
-![](https://screensaver01.zap-hosting.com/index.php/s/yGtTedBEZYzmZA4/preview)
+![](https://user-images.githubusercontent.com/61839701/165696291-b5c31c89-3b4e-4099-b29c-bfda756b19a6.png)
 
 A new window opens, you just need to press  "Add key" 
 The key will now be added into your server and you will be redirected.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/W8DfqBxMTTmd36N/preview)
+![](https://user-images.githubusercontent.com/61839701/165696735-8428cebb-8563-431b-837c-2fdbe47cb67f.png)
 
 > ** Important**: If the key is not recognized the first time successfully, please restart the server once and also reload the page after that.
 
@@ -37,7 +37,7 @@ Simply press on "Create" now, the gameserver webinterface will do everything els
 You can now see the progress of the installation.
 Until everything is completely installed and configured, it can take about 15-20 minutes.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/Ppsxbgq6Y9tFWxe/preview)
+![](https://user-images.githubusercontent.com/61839701/165697094-ddf800a2-2618-441d-912b-994afe8099bf.png)
 
 > **Attention**: Please do not continue until the interface is completely installed.
 > It is completely installed as long as the progress bar has disappeared and as soon as every package says "installed" instead of "missing".
@@ -46,38 +46,35 @@ Until everything is completely installed and configured, it can take about 15-20
 Now that the installation is complete, we can start installing a game server.
 For this you can click here on "Install game server":
 
-![](https://screensaver01.zap-hosting.com/index.php/s/FPtNr5MAS6YoPks/preview)
+![](https://user-images.githubusercontent.com/61839701/165700146-8ee11ace-99f6-477b-9958-3a7c29599204.png)
 
 In the following window you can select the IP address of the desired game server. (If your server has more than one IP)
 You can also specify the desired port, the number of slos and the RAM boost.
 As far as all details fit you can click on "Install game server now".
 
-![](https://screensaver01.zap-hosting.com/index.php/s/HeT2kCP4fCpysWB/preview)
-
+![](https://user-images.githubusercontent.com/61839701/165700364-b4b07d72-f7a5-47f6-bdf8-d9f8993a8cbf.png)
 
 ### Install the desired game
 You can now view your server in the gameserver list and click on it.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/m6Nja6pi43m3YAm/preview)
-
+![](https://user-images.githubusercontent.com/61839701/165700581-7e790682-31fe-487b-9371-6a6590a58208.png)
 
 You are now in the administration of your game server.
 Here you can click on the tab "Games" on the left.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/XnfdsWZaCrRt8ER/preview)
+![](https://user-images.githubusercontent.com/61839701/165700781-450a1116-65ad-43bf-bcc8-f17dbf30d53f.png)
 
 
 Here you can find a list of all games you could install on your server.
 In our example we want to install Paperspigot.
 To do so, we type "Paperspigot" into the search bar and click on the green "install" button to the right of the game.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/e4He92iSWayDzWs/preview)
-
+![](https://user-images.githubusercontent.com/61839701/165700868-1d135fe0-fd19-4963-aad0-d98f07017bb6.png)
 
 Now you see the conditions of the game and can choose the version to be installed.
 By clicking on "Accept and install" the game will be installed.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/KK64gfSoJ9jBDoQ/preview)
+![](https://user-images.githubusercontent.com/61839701/165701029-1d566a87-d4e7-4a6a-a0f2-03503466553b.png)
 
 
 This takes a few minutes, depending on the game.
@@ -89,13 +86,13 @@ The installation of a Teamspeak 3 server is almost identical to the installation
 First you have to click on "Gameserver / Ts3" again.
 Here you can now click on "Install Voiceserver".
 
-![](https://screensaver01.zap-hosting.com/index.php/s/sF2rygPpy2MJKKE/preview)
+![](https://user-images.githubusercontent.com/61839701/165701625-b6443738-3b39-432e-a486-baedd6266bf6.png)
 
 
 In the following window you can also make some small changes.
 For example, changing the respective ports and changing the version.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/ARHHgMZFFwyK8by/preview)
+![](https://user-images.githubusercontent.com/61839701/165702011-e54549cc-4d83-4e86-b732-da3751c7c5a4.png)
 
 
 As far as all information fits you can click on "Install Teamspeak 3 / 5 Server now".
@@ -103,27 +100,22 @@ As far as all information fits you can click on "Install Teamspeak 3 / 5 Server 
 
 You can now view and click on the installed Teamspeak 3 server in the "Voiceserver" overview.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/bJY7WomJdZRpQXn/preview)
-
+![](https://user-images.githubusercontent.com/61839701/165702380-5169d23a-21d0-4d58-a538-ab7b65f76615.png)
 
 > **Attention**: This is the instance where the actual Teamspeak 3 server will be installed.
 
 You are now in the interface of the instance of your installed Teamspeak 3 server.
 You can now start the instance by clicking on the "Start" button.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/RTJF4mxt8Rw4HTr/preview)
-
+![](https://user-images.githubusercontent.com/61839701/165703330-79208d9b-ee05-4bad-8a9d-c3bb126b5f93.png)
 
 ### Interface from the installed Teamspeak 3 server
 You can now click on "virtual servers".
 
-![](https://screensaver01.zap-hosting.com/index.php/s/37sDLSsRaqRbfAW/preview)
-
-
 Here you can see your installed Teamspeak 3 servers on your instance.
 With a click on the "eye" you can access the interface of the pure Teamspeak 3 server.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/46N7iARm29YgD3t/preview)
+![](https://user-images.githubusercontent.com/61839701/165704968-0db2248f-9012-48c8-9005-320ea03d0b8b.png)
 
 
 In the interface of the Teamspeak 3 server you will find all necessary information.
