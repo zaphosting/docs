@@ -35,12 +35,15 @@ After that we just click "Open"
 
 In order to establish the connection in Navicat we create a new connection. Under **Connection** we select **MySQL**. Afterwards another popup window opens where the database information must be inserted.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/ty8jN4W9Frf6Ywx/preview)
+![](https://user-images.githubusercontent.com/61839701/165672645-81f0c3ed-0f1c-4be5-8a85-d92df335981f.png)
 
 
 The **Connection Name** is only used for the overview of the databases and can therefore be chosen as desired. All other information is taken from the interface as described above. Afterwards we click on **OK** and the setup is finished. The connection can then be established on the left in the database overview. To do so, double click on your database or right click once and choose "Open connection":
 
-![](https://screensaver01.zap-hosting.com/index.php/s/ppmZfnzBdRQ3Cfw/preview)
+![](https://user-images.githubusercontent.com/61839701/165673163-213ab077-478f-4102-b36b-60ff5e1f2262.png)
+
+![](https://user-images.githubusercontent.com/61839701/165673099-e1cd908a-5421-4ec4-bb88-186c3d894c39.png)
+
 
 Afterwards the database opens with all existing database tables. There your can now modify or manage your database similar to phpMyAdmin by click as well as by using SQL commands.
 ![image](https://user-images.githubusercontent.com/13604413/159171040-0e45c5ef-997f-49dd-aab8-3f6e0171a1dd.png)
