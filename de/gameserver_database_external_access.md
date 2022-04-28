@@ -41,6 +41,7 @@ Der **Connection Name** gilt nur zur Übersicht der Datenbanken und kann daher f
 werden. Klicke dafür einmal einen Doppelklick auf deine Datenbank oder Rechtsklick und wähle "Öffne Verbindung":
 
 ![](https://user-images.githubusercontent.com/61839701/165673163-213ab077-478f-4102-b36b-60ff5e1f2262.png)
+
 ![](https://user-images.githubusercontent.com/61839701/165673099-e1cd908a-5421-4ec4-bb88-186c3d894c39.png)
 
 
