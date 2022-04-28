@@ -9,8 +9,6 @@ sidebar_label: External database access
 
 ZAP-Hosting offers MySQL databases inclusive for the gameserver products. These can be managed either internally via phpMyAdmin or externally via MySQL administration tools such as Navicat or HeidiSQL. 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/ySbAL7f8rwQQdKE/preview)
-
 The user credentials to access the database are required for this purpose. Those can be found in the game server administration under databases. For this you need the information regarding **server/IP**, **database**, **user**, **password** and the default port **3306**:
 
 ![image](https://user-images.githubusercontent.com/13604413/159171035-cbada76f-c540-42d1-8a77-26d9b09acaa1.png)
