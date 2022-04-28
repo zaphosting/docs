@@ -15,12 +15,12 @@ If your game server is down, this can have many reasons. **It is important that 
 
 The log file can be easily accessed via the menu on the left.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/qmmTn7SbaSYewgZ/preview)
+![](https://user-images.githubusercontent.com/61839701/165680036-1fb28664-9f57-4b76-a4ce-49a474041265.png)
 
 Afterwards you can view them via the green eye. **The important thing is that you always open the latest log.
 You can recognize it by the date or the name.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/c559Y2Rf9ARB9AP/preview)
+![](https://user-images.githubusercontent.com/61839701/165680131-819bdd9d-59ae-4dbc-8a78-9442ef97a117.png)
 
 Once you have opened them, you must check them for errors (**Errors usually contain something like "Error" "Cant find" "Couldnt load "**)
 
@@ -46,13 +46,13 @@ The second solution would be to install a backup or reinstall the server.
 
 To restore a backup, simply go to Backups on the left and import the latest backup using the green arrow. Afterwards your server should run as usual.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/iSAw9SeN8S5bkf9/preview)
+![](https://user-images.githubusercontent.com/61839701/165680192-6c2b7a55-5ee3-4b75-9069-d9785376d415.png)
 
 ### 🔄Reinstall the server
 
 The reinstallation can be started under "Settings" on the left side. Afterwards the complete server will be reset to the first day (additionally the settings can also be reset "**Reset all options**")
 
-![](https://screensaver01.zap-hosting.com/index.php/s/aGpiPoataCDjcSt/preview)
+![](https://user-images.githubusercontent.com/61839701/165680228-0189545d-6662-424b-976d-af96ac633c65.png)
 
 ## The reinstallation was also not successful?
 
