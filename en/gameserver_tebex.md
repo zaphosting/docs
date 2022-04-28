@@ -27,7 +27,7 @@ and choose the download button to install it. As soon as this is done, proceed t
 If the game you chose supports TEBEX you will see a tab called "TEBEX Shop" in the sidebar. Click 
 on the image that appears upon loading the page. 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/Xn9o6nrr6k3FFqA/preview)
+![](https://user-images.githubusercontent.com/61839701/165710982-2b62bf91-96b1-4b31-a3b0-ffd5aafceddb.png)
 
 TEBEX will now sent an invite to the email address
 linked to your ZAP-Hosting customer account. Please follow the instructions within the email to 
@@ -45,10 +45,11 @@ from game to game. Basic instructions on how to install the plugins can be found
 #### 3.2 Confirm the successful installation with us
 Finally you will have to confirm that you installed the gameserver plugin successfully. 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/3yeSsr8LMnxCNDw/preview)
+![](https://user-images.githubusercontent.com/61839701/165711046-51bdf1b4-b92d-4e24-ab81-c7b4debb4653.png)
 
 In some cases you may be required to enter your TEBEX webstore plugin api key to establish
 the connection from ZAP 2.5 to your TEBEX store.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/d5NofZdGWftqcSp/preview)
+You can then see that the connection was successfull:
+![](https://user-images.githubusercontent.com/61839701/165711320-579443a5-2a1f-4701-a590-a138e63e24d1.png)
 
