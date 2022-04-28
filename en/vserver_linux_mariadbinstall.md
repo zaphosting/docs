@@ -29,7 +29,7 @@ Once the installation is complete, type in the following command to start the co
 
 Now configure your MariaDB (MySQL) server and set a password for your server.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/PTTfCaLgTbTcPXn/preview)
+![](https://user-images.githubusercontent.com/61839701/165694493-b113409b-3f2a-41ba-8113-59f86ded31b8.png)
 
 There you skip the input for now by pressing **Enter**.
 
@@ -65,5 +65,4 @@ At the end of the configuration process you will be asked if you want to update 
 
 Your MariaDB (MySQL) server is now ready for use!
 
-![](https://screensaver01.zap-hosting.com/index.php/s/LR8gWDmrQnBm8D5/preview)
-
+![](https://user-images.githubusercontent.com/61839701/165694518-162f9567-e95e-43e8-98b2-c2450f26c975.png)
