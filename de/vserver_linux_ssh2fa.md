@@ -16,32 +16,32 @@ sudo apt install libpam-google-authenticator
 
 Danach wirst du aufgefordert werden "Y" einzugeben um das Packet zu installieren, gib dies ein, drücke Enter und dann ist der Google Authenticator installiert!
 
-![](https://screensaver01.zap-hosting.com/index.php/s/MFfdxA2ib4FnxJe/preview)
+![](https://user-images.githubusercontent.com/61839701/166183702-67a07bf3-e199-4f20-a166-9fed0f297d1c.pn)
 
 ## ⌨ Google Authenticator Ausführen
 
 Führe nun den Google Authenticator aus, indem du `google-authenticator` eingibst.
 
-Achte darauf das dein Fenster groß genug für den QR Code ist, ansonsten Drücke "CTRL+C" und gib es erneu ein.
-
-![](https://screensaver01.zap-hosting.com/index.php/s/Cs3oCH27xKr3C2a/preview)
+![](https://user-images.githubusercontent.com/61839701/166183758-869cf62d-a242-4365-9ca3-3bbeda553870.png)
 
 Du wirst nun gefragt ob du es ausführen möchtest, schreibe dort auch einfach "Y"
 
-Du kriegst nun einen großen QR Code. Öffne deine Authenticator App auf deinem Smartphone und scanne den QR Code.
+Du kriegst nun einen großen QR Code.
+Achte darauf das dein Fenster groß genug für den QR Code ist, ansonsten Drücke "CTRL+C" und gib es erneu ein.
+ Öffne deine Authenticator App auf deinem Smartphone und scanne den QR Code.
 Für dieses Beispiel benutzen wir den Google Authenticator.
 
 ![image](https://user-images.githubusercontent.com/13604413/159171815-4a7368da-fab1-4284-9c90-e310a577dbbf.png)
 
 Stelle sicher das du dir die Backup Codes kopierst, diese können jeweils einmal eingesetzt werden im Fall das du deinen Authenticator verlierst.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/yJGHF9pgseSCdMj/preview)
+![](https://user-images.githubusercontent.com/61839701/166183779-055a3e93-1040-460a-a589-366d9c8bdedf.png)
 
 Jetzt kannst du in der App bereits die Codes sehen mit denen du dich später einloggst.
 
 In unserem Fall sieht das jetzt so aus:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/cZjx8zoCcY3CSFa/preview)
+![](https://user-images.githubusercontent.com/61839701/166183807-7e5e04a2-8da6-4d2e-bd3b-a42c2baa045a.png)
 
 Du wirst nun 4 Dinge gefragt.
 
@@ -52,7 +52,7 @@ Du wirst nun 4 Dinge gefragt.
 
 Aus Sicherheitsgründen empfehlen wir bei allen 4 Fragen "Y" einzugeben und dann Enter zu drücken.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/Z8HibKcB9WnseR8/preview)
+![](https://user-images.githubusercontent.com/61839701/166183833-fdb07942-51c2-446e-b87b-e0e0d839e6d4.png)
 
 ## 💽 Google Authenticator Konfigurieren
 
@@ -70,17 +70,13 @@ sudo nano /etc/ssh/sshd_config
 ``` 
 eingibst.
 
-Du siehst nun dieses Fenster vor dir:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/ykWsTHCYKNoRNwg/preview)
-
 Du bist nun in einem Text Editor. Du kannst dich mit den Pfeiltasten bewegen, frei Text löschen und Eingeben und schliesslich mit `CTRL + X` dann `Y` und letzlich `Enter` die Datei Speichern.
 
 Stelle nun Sicher das die beiden Zeilen `UsePAM` und `ChallengeResponseAuthentication` auf `yes` stehen. So wie hier:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/DH9nDHjfyPGYtbz/preview)
+![](https://user-images.githubusercontent.com/61839701/166183852-ea0dc9dd-b5db-40eb-b90e-6c53e71d0908.png)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/rteESXsZzWLRJPa/preview)
+![](https://user-images.githubusercontent.com/61839701/166183859-2fe15906-efec-4c62-b24f-a1b0fc364ebd.png)
 
 Speichere danach die Datei mit `CTRL + X` dann `Y` und letzlich `Enter`
 
@@ -96,13 +92,9 @@ In der `/etc/pam.d/sshd` fügen wir den Google Authenticator dem Login hinzu.
 
 Öffne die `/etc/pam.d/sshd` Datei indem du `sudo nano /etc/pam.d/sshd` eingibst.
 
-Du siehst nun dieses Fenster vor dir:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/NHxgbcYfZFPqJEy/preview)
-
 Der letzte Schritt ist nun an das Ende der Datei runterzuscrollen und `auth required pam_google_authenticator.so` einzutragen.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/pTpMQYZ2FDNR5yE)
+![](https://user-images.githubusercontent.com/61839701/166183887-7a683371-6ff5-4260-9300-4f79bcc29e60.png)
 
 Speichere danach die Datei mit `CTRL + X` dann `Y` und letzlich `Enter`
 
@@ -116,6 +108,6 @@ Nachdem du die oben genannten Schritte befolgt hast musst du nurnoch deine SSH V
 
 Du gibst nun ganz normal dein Passwort ein. Danach wirst du nach einem Code gefragt, gebe dort einfach den aktuellen 2FA Code ein.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/Mwe4cMfFwBGnnNM/preview)
+![](https://user-images.githubusercontent.com/61839701/166183906-b2d6e770-66fa-4096-a642-b3873470dc85.png)
 
 Und schon bist du eingeloggt! Du hast nun 2FA für SSH aktiviert.
