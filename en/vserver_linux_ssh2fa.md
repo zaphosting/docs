@@ -16,13 +16,13 @@ sudo apt install libpam-google-authenticator
 
 You will then be prompted to type "Y" to install the package, type this, press Enter and then the Google Authenticator will be installed!
 
-![](https://screensaver01.zap-hosting.com/index.php/s/MFfdxA2ib4FnxJe/preview)
+![](https://user-images.githubusercontent.com/61839701/166183966-276ee6c7-4b17-4fb3-9283-94f2a663b0a1.png)
 
 ## ⌨ Run Google Authenticator
 
 Start the Google Authenticator by typing 'google-authenticator'. Make sure that your window size is sufficient for the QR Code, otherwise press "CTRL+C" and enter it again.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/Cs3oCH27xKr3C2a/preview)
+![](https://user-images.githubusercontent.com/61839701/166183981-22467640-91a8-41e2-ad2d-a48532e1b9fc.png)
 
 You will now be prompted again if you want to execute it, type "Y" to accept. 
 
@@ -32,11 +32,11 @@ You will now get a QR Code. Open your Authenticator app on your smartphone and s
 
 Make sure to copy the backup codes, these can each be used once in case you lose your authenticator.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/yJGHF9pgseSCdMj/preview)
+![](https://user-images.githubusercontent.com/61839701/166183994-39e1b89a-0227-4c92-b455-23995d06acb5.png)
 
 Now the app already shows you the codes you need to log in later. In this case it looks like this:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/QZcizgQPn5QYC2n/preview)
+![](https://user-images.githubusercontent.com/61839701/166184007-8faed2ff-1559-4f19-8143-f4acaee70918.png)
 
 The following questions are now prompted:
 
@@ -47,7 +47,7 @@ The following questions are now prompted:
 
 For security reasons we recommend to confirm all with Yes. 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/Z8HibKcB9WnseR8/preview)
+![](https://user-images.githubusercontent.com/61839701/166184028-9636c936-18da-414d-bc1e-4ea233bb6185.png)
 
 ## 💽 Configure Google Authenticator
 
@@ -60,18 +60,13 @@ Activate the required modules in the `/etc/ssh/sshd_config'. Open the `/etc/ssh/
 sudo nano /etc/ssh/sshd_config
 ``` 
 
-Now you will see this window:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/ykWsTHCYKNoRNwg/preview)
-
 You are now in a text editor. You can move around with the arrow keys, freely delete text and enter and then press 'CTRL + X' then 'Y' and lastly 'Enter' to save the file.
 
 Make sure that the two lines 'UsePAM' and 'ChallengeResponseAuthentication' are set to 'yes'. Like this:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/DH9nDHjfyPGYtbz/preview)
+![](https://user-images.githubusercontent.com/61839701/166184047-0f7784fc-67bd-4380-9f68-5630736a9422.png)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/rteESXsZzWLRJPa/preview)
-
+![](https://user-images.githubusercontent.com/61839701/166184062-5de87b6c-2e49-4352-9665-9823178257c9.png)
 
 Save the file with 'CTRL + X' then 'Y' and lastly 'Enter`. Restart SSH afterwards with the following command:
 ```
@@ -80,13 +75,11 @@ sudo systemctl restart ssh
 
 ### /etc/pam.d/sshd
 
-Now we add the Google Authenticator to the login in the `/etc/pam.d/sshd`.Open the `/etc/pam.d/sshd` file by typing `sudo nano /etc/pam.d/sshd`. Now you will see this window:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/NHxgbcYfZFPqJEy/preview)
+Now we add the Google Authenticator to the login in the `/etc/pam.d/sshd`.Open the `/etc/pam.d/sshd` file by typing `sudo nano /etc/pam.d/sshd`. 
 
 The last step is to scroll down to the end of the file and enter 'auth required pam_google_authenticator.so'.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/pTpMQYZ2FDNR5yE/preview)
+![](https://user-images.githubusercontent.com/61839701/166184084-1e07230b-6691-4bb8-8977-bcc784342afa.png)
 
 Save the file with 'CTRL + X' then 'Y' and lastly 'Enter`
 
@@ -98,6 +91,6 @@ Now it is time to log in for the first time with 2FA. After you have followed th
 
 You now enter your password as normal. You will be asked for a code, simply enter the recent 2FA code.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/Mwe4cMfFwBGnnNM/preview)
+![](https://user-images.githubusercontent.com/61839701/166184108-ed9c504c-e6cc-4b28-8afa-210f245f76d3.png)
 
 Now you are logged in!
