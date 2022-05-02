@@ -39,7 +39,7 @@ If the installer is restarted without first reinstalling the server, there will 
 
 The installation is complete when this is displayed
 
-![](https://screensaver01.zap-hosting.com/index.php/s/fpWfEdgRi77zb3t/preview)
+![](https://user-images.githubusercontent.com/61839701/166189499-4b9c47d5-fbac-4fbb-a00a-5eca544dc6db.png)
 
 <!--Web Installation-->
 
@@ -63,8 +63,6 @@ Start the installer:
 ```
 ./plesk-installer --web-interface
 ```
-
-![](https://screensaver01.zap-hosting.com/index.php/s/6gzT95ded8d99RD/preview)
 
 <!--Konsolen Installation-->
 
@@ -92,21 +90,15 @@ Start the installer:
 
 Once the three startup commands have been executed, the license must be approved with "F": 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/59BScYTc8RgQcLq/preview)
+![](https://user-images.githubusercontent.com/61839701/166189577-89149da5-e232-4b90-8e96-5ec43425ff33.png)
 
 After approval, the system will ask which Plesk to install. In this case Plesk Obsidian or Plesk Onyx. It will also indicate which is the more stable one. Usually a "stable" version is used for productive use. Since the selected options already point to the stable version, confirm this again with "F".
 
 The question of whether Plesk may collect data for product improvement can be answered with "Y"(Yes) or "n"(No). 
 
-[](https://screensaver01.zap-hosting.com/index.php/s/e5o2dyk4HLR5F8g/preview)
-
 After answering, the system will ask you what type of the selected Plesk version you want to install. Usually the type "Recommended" already set is sufficient. Modules that may not be installed later but are needed can be installed in the Plesk panel. 
 
-[](https://screensaver01.zap-hosting.com/index.php/s/cnzRc9te8QBDg3q/preview)
-
 The next question whether packages may be installed/upgraded is confirmed with "F".
-
-[](https://screensaver01.zap-hosting.com/index.php/s/RGLRMQAi7YK4tLt/preview)
 
 Now the installer starts the installation.
 
@@ -115,7 +107,7 @@ It can happen that it looks like the installer is "stuck", in 99% of the cases t
 
 The installation is complete as soon as the following appears: 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/46qmbzcisdwC2Wf/preview)
+![](https://user-images.githubusercontent.com/61839701/166189643-fea60039-0bb9-42ee-a7c9-4e534c543b17.png)
 
 <!--END_DOCUSAURUS_CODE_TABS-->
 
@@ -140,23 +132,20 @@ Plesk can now be used.
 After installation, the Plesk panel is in English, the German language can be set or selected under Tools&Settings ➡️ Plesk Appearance ➡️ Languages. There "de-DE" must be selected. Afterwards the language can be set permanently for all by clicking on "Make default". 
 After a logout and login you will find the Plesk panel in German.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/z428FDYSsQeiHDK/preview)
+![](https://user-images.githubusercontent.com/61839701/166189663-4e64ede1-e179-4e7a-81f1-6445f8798991.png)
 
 ### Add domain
 
 To add the first domain click on the blue button "Add domain".
 
-[](https://screensaver01.zap-hosting.com/index.php/s/EgDxHS4kp6rmKXk/preview)
+[](https://user-images.githubusercontent.com/61839701/166189693-2a36e8af-2cd9-4c50-9788-cfc236433479.png)
 
 Now the own domain can be entered. Also an IP as well as a user name and password for the web space of the domain must be defined. If the subdoimain "www" is already entered in the DNS of the domain, an SSL certificate from Lets Encrypt can be created directly. This option can be selected, after entering a mail address, it is confirmed on the blue "OK" button.  
 
-[](hhttps://screensaver01.zap-hosting.com/index.php/s/w3ntk7AnErtKroN/preview)
+[](https://user-images.githubusercontent.com/61839701/166189713-a3a201c3-c4ad-4c57-a8d3-3dab31316a43.png)
 
-Now you can enter a domain, select an IP address and enter a user name and password for the web space that you now create for the domain. If you have already created the subdomain "www", you can have Lets Encrypt generate an SSL certificate for you directly, select this option, enter a mail and confirm everything on the blue "OK" button at the bottom. 
 
 > The domain must point to the IP of the webspace, if the domain is ZAP-hosting, it can be easily redirected to the webspace via EasyDNS, if it is external, an A-record must be set to the IP and the subdomain "www", "webmail" must also point to the IP. An MX record should also be set to the IP of the web space. 
-
-![](https://screensaver01.zap-hosting.com/index.php/s/qQtYooj8BfC9cY3/preview)
 
 > It can take up to 24 hours until a new/changed DNS entry is forwarded to the correct destination. 
 
@@ -166,10 +155,10 @@ During the domain registration/creation of the web space, an SSL certificate fro
 
 > In order to be permanently redirected to HTTPS (SSL) when calling up the web page, the checkbox "Permanent, SEO-suitable 301 forwarding from HTTP to HTTPS" must be checked. 
 
-[](https://screensaver01.zap-hosting.com/index.php/s/cPQxT5qFAkfy6Gb/preview)
+[](https://user-images.githubusercontent.com/61839701/166189750-13548aa4-98f3-4f51-b0fe-1611b42c8171.png)
 
 If the domain is now opened in the browser, it shows its encryption.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/Nb3jawSSknSQajg/preview)
+![](https://user-images.githubusercontent.com/61839701/166189776-af720eaa-3c80-4768-ad52-fb6e3862d3b6.png)
 
 > The installation as well as the setup of the first domain with encryption is now completely finished. 
