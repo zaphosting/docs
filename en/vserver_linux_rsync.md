@@ -78,7 +78,9 @@ A crontab can be created with this [Generator](https://crontab-generator.org/).
 
 The entered crontab then looks as follows: 
 
-![](https://user-images.githubusercontent.com/61839701/166191663-20c2a132-e96f-4c28-93a4-106af9059322.png)
+ ```
+0 3 * * * rsync --progress -arz --delete -e  "ssh -i /home/sshkey/keybackup" /home/Client/ root@123.123.123.123:/home/Backup/Home-Server1/ >/dev/null 2>&1
+```
 
 Every day at 3 a.m. the command is executed and a backup is created. 
 
@@ -158,8 +160,11 @@ After the file has been opened with e.g. Nano, a crontab can be generated and en
 A crontab can be created with this [Generator](https://crontab-generator.org/). 
 
 The entered crontab then looks as follows: 
-
-![](https://user-images.githubusercontent.com/61839701/166191663-20c2a132-e96f-4c28-93a4-106af9059322.png)
+  
+  
+ ```
+0 3 * * * rsync --progress -arz --delete -e  "ssh -i /home/sshkey/keybackup" /home/Client/ root@123.123.123.123:/home/Backup/Home-Server1/ >/dev/null 2>&1
+```
 
 Every day at 3 a.m. the command is executed and a backup is created. 
 
