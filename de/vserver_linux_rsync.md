@@ -78,7 +78,9 @@ Ein Crontab kann z.b mit diesem [Generator](https://crontab-generator.org/) erst
 
 Der eingetragene Crontab sieht dann wie folgt aus: 
 
-![](https://user-images.githubusercontent.com/61839701/166191631-eb85e52c-a872-441a-8713-dfc730f9a689.png)
+ ```
+0 3 * * * rsync --progress -arz --delete -e  "ssh -i /home/sshkey/keybackup" /home/Client/ root@123.123.123.123:/home/Backup/Home-Server1/ >/dev/null 2>&1
+```
 
 Jeden Tag um 3 Uhr morgens wird der Befehl ausgeführt und es wird ein Backup erstellt. 
 
@@ -152,8 +154,9 @@ Nachem die Datei z.b mit Nano geöffnet wurde, kann ein Crontab generiert und ei
 Ein Crontab kann z.b mit diesem [Generator](https://crontab-generator.org/) erstellt werden. 
 
 Der eingetragene Crontab sieht dann wie folgt aus: 
-
-![](https://user-images.githubusercontent.com/61839701/166191631-eb85e52c-a872-441a-8713-dfc730f9a689.png)
+ ```
+0 3 * * * rsync --progress -arz --delete -e  "ssh -i /home/sshkey/keybackup" /home/Client/ root@123.123.123.123:/home/Backup/Home-Server1/ >/dev/null 2>&1
+```
 
 Jeden Tag um 3 Uhr morgens wird der Befehl ausgeführt und es wird ein Backup erstellt. 
 
