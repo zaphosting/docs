@@ -66,19 +66,19 @@ rsync -arz --delete /home/Client /home/Backup
 So that the command does not always have to be d manually, it can simply be placed in a cronjob. 
 For example, a backup should be created daily at 3 am: 
 
-Open crontab -e: 
+Open crontab -e:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/jyiTa3jEts3MK4H/preview)
+![](https://user-images.githubusercontent.com/61839701/166191682-3b56805e-1677-4c48-b5d9-107148e76367.png)
 
 With the number 1 "nano" can be used as an editor.
-With the number 2, "vim" can be used as an editor. 
+With the number 2, "vim" can be used as an editor.  
 
 After the file has been opened with e.g. Nano, a crontab can be generated and entered. 
 A crontab can be created with this [Generator](https://crontab-generator.org/). 
 
 The entered crontab then looks as follows: 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/fLKbCcYAQkFydH4/preview)
+![](https://user-images.githubusercontent.com/61839701/166191663-20c2a132-e96f-4c28-93a4-106af9059322.png)
 
 Every day at 3 a.m. the command is executed and a backup is created. 
 
