@@ -68,7 +68,7 @@ Es soll z.b täglich um 3 Uhr Morgens ein Backup erstellt werden:
 
 Crontab -e öffnen: 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/jyiTa3jEts3MK4H/preview)
+![](https://user-images.githubusercontent.com/61839701/166191606-3a05da59-82f7-439f-8f44-b94c4ba9d153.png)
 
 Mit der Ziffer 1 kann "nano" als Editor genutzt werden.
 Mit der Ziffer 2 kann "vim" als Editor genutzt werden. 
@@ -78,7 +78,7 @@ Ein Crontab kann z.b mit diesem [Generator](https://crontab-generator.org/) erst
 
 Der eingetragene Crontab sieht dann wie folgt aus: 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/fLKbCcYAQkFydH4/preview)
+![](https://user-images.githubusercontent.com/61839701/166191631-eb85e52c-a872-441a-8713-dfc730f9a689.png)
 
 Jeden Tag um 3 Uhr morgens wird der Befehl ausgeführt und es wird ein Backup erstellt. 
 
@@ -109,14 +109,6 @@ SSH Key angeben (Pfad)("ssh -i /home/sshkey/keybackup")= ssh -i /<Pfad zum Key>
 Zu sicherendes Verzeichnis angeben (/home/Client/)= /<Verzeichnis>
 RemoteHost(root@123.123.123.123:)= Login Name des Benutzers auf dem RemoteHost sowie Adresse angeben: name@IP/Domain
 Ziel Verzeichnis für die Daten auf dem RemoteHost(:/home/Backup/Home-Server1/)= :/<Pfad-zum-Ziel-Verzeichnis>
-
-Ausführen des Befehls: 
-
-![](https://screensaver01.zap-hosting.com/index.php/s/n3YMZgEWXrJsDct/preview)
-
-Der Ordner/ die Datei(en) wurde erfolgreicht syncronisiert/gesichert in das Remote Verzeichnis: 
-
-![](https://screensaver01.zap-hosting.com/index.php/s/BDNcNnwiENZR9bc/preview)
 
 Wenn jetzt eine Datei etc. im Client Ordner gelöscht wird, so verbleibt sie weiterhin im Backup Ordner auf dem Remote Host. 
 Da die Date aber immer 1:1 syncron sein sollen, kann der rsync Befehl leicht abgeändert werden, diese Änderung sorgt dann dafür das Daten etc. die im Client Ordner nicht mehr vorhanden sind auch im Backup Ordner auf dem Remote Host entfernt werden. 
