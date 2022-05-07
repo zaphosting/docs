@@ -13,7 +13,7 @@ With the **EasyDNS function** the forwarding of a domain, which was rented with 
 
 The option will be shown, if you click on the desired domain in the interface.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/wLXzFPtDcPFbwfo/preview)
+![2022-05-07_21-43](https://user-images.githubusercontent.com/61953937/167269530-b14ac281-4ced-41df-beba-06d4aec70574.png)
 
 Once here, you can then select an existing service from a list.
 As shown in the example above.
