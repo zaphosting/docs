@@ -21,6 +21,7 @@ Im Anschluss findet man auf der linken Seite den Reiter "DNS-Verwaltung" über w
 
 ![2022-05-07_21-49](https://user-images.githubusercontent.com/61953937/167269713-0e920f4b-ee96-42bb-94fb-3338f9f1b2c6.png)
 
+Hier können dann Neue Einträge erstellt werden oder bestehende Einträge können bearbeitet / gelöscht werden.
+
 ![2022-05-07_21-50](https://user-images.githubusercontent.com/61953937/167269729-b8aca9ca-f3b2-44cb-b4b2-1dca6b3d29fe.png)
 
-Hier können dann Neue Einträge erstellt werden oder bestehende Einträge können bearbeitet / gelöscht werden.
