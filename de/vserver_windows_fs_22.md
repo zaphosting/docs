@@ -5,7 +5,7 @@ description: Informationen wie du einen Landwirtschafts-Simulator Dedicated Serv
 sidebar_label: Landwirtschafts-Simulator 2022
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/VGVPt0cmgTg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/VGVPt0cmgTg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
 
 # Installation eines Dedicated Servers für den Landwirtschafts-Simulator 2022
 
