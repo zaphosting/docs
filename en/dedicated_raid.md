@@ -32,7 +32,7 @@ Especially for more sensitive data this configuration is highly recommended, but
 
 When your server is booting, the raid configuration tool, is required to be started this can be done by pressing `F8` at the necessary boot step.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/9srD7FgQkkbp9MA/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/cYzj7L6dL5g7255/preview)
 
 Press `F8` on this point to open the raid configuration tool
 
@@ -59,7 +59,7 @@ RAID0
 
 RAID1
 
-![](https://screensaver01.zap-hosting.com/index.php/s/kxjN5jrxB9SKNjd/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/749Kxjq6Mkzdc69/preview)
 ***
 
 * Delete Logical Drive
@@ -114,16 +114,16 @@ If you have touched your RAID, it is necessary to select boot volume.
 This can easily be done in **Select Voot Volume**, choose there the logical drive which you have created, otherwise your server will stuck in a bootloop.
 
 **Select Boot Volume**<br>
-![](https://screensaver01.zap-hosting.com/index.php/s/KWF23AaBEYWy7rc/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/2GDEYfjnkmaKF9F/preview)
 ***
 **Direct Attached Storage**<br>
-![](https://screensaver01.zap-hosting.com/index.php/s/dJTmtKYY2mzAPTW/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/2468ZCGkr2ninxM/preview)
 ***
 **Logical Drive 01**<br>
-![](https://screensaver01.zap-hosting.com/index.php/s/2yBfqmFxsoQsqj6/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/tN6pRiJbZexbzmg/preview)
 ***
 **Press `F8` to save as bootvolume**<br>
-![](https://screensaver01.zap-hosting.com/index.php/s/zejQrDoTYz8QtkA/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/tqGFzGZGgeo4JjZ/preview)
 
 In the end you have the possibility by pressing `F8` to directly reboto your system or to return into the main menu by pressing `Enter`.
 Mention that the boot volume must be set **anytime** when you have touched your raid configuration.

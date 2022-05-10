@@ -32,7 +32,7 @@ Gerade für sensiblere Daten ist diese Konfiguration sehr empfehlenswert, dennoc
 
 Zuerst muss der Konfigurator für RAIDs aufgerufen werden, dies wird mit `F8` während dem Bootprozess erledigt.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/9srD7FgQkkbp9MA/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/cYzj7L6dL5g7255/preview)
 
 Drücke `F8` an dieser Stelle des Bootvorgangs
 
@@ -59,7 +59,7 @@ RAID0
 
 RAID1
 
-![](https://screensaver01.zap-hosting.com/index.php/s/kxjN5jrxB9SKNjd/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/749Kxjq6Mkzdc69/preview)
 ***
 
 * Delete Logical Drive
@@ -113,16 +113,16 @@ Sofern dein RAID in irgendeiner Form modifiziert wurde muss zwingend zum Abschlu
 Dies kann unter **Select Boot Volume** erledigt werden, wähle hierbei dein Speichermedium, andernfalls wird der Server in einer Bootschleife hängen.
 
 **Select Boot Volume**<br>
-![](https://screensaver01.zap-hosting.com/index.php/s/KWF23AaBEYWy7rc/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/2GDEYfjnkmaKF9F/preview)
 ***
 **Direct Attached Storage**<br>
-![](https://screensaver01.zap-hosting.com/index.php/s/dJTmtKYY2mzAPTW/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/2468ZCGkr2ninxM/preview)
 ***
 **Logical Drive 01**<br>
-![](https://screensaver01.zap-hosting.com/index.php/s/2yBfqmFxsoQsqj6/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/tN6pRiJbZexbzmg/preview)
 ***
 **Press `F8` to save as bootvolume**<br>
-![](https://screensaver01.zap-hosting.com/index.php/s/zejQrDoTYz8QtkA/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/tqGFzGZGgeo4JjZ/preview)
 
 Danach hast du die Möglichkeit mit `F8` direkt dein System neuzustarten oder mit `Enter` weitere Einstellungen im RAID-Manager vorzunehmen.
 Bedenke dass das Boot Volume **immer** nach Veränderungen deines RAIDs angepasst werden muss.
