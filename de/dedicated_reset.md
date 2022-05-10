@@ -16,7 +16,7 @@ http://185.223.30.65/wipe.iso
 
 Verbinde dich mit einer Remote Console deiner Wahl auf deinen Dedicated Server.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/JrFgHt8FBofKGjC/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/cozRqRt9KLTMCkd/preview)
 
 Der Server startet automatisch den Reset Prozess
 
