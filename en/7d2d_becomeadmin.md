@@ -12,11 +12,11 @@ sidebar_label: Become Admin
 
 Administrator rights allow you to make changes to your server directly in the game, without having to modify the config. Adding an admin is done via the **serveradmin.xml** config, which you can find in the web interface under Configs.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/6YtDGy6WqFZY3gy/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/wXpLL2qyZE2zCYa/preview)
 
 You can find your SteamID64 by going to your Steam profile and right-clicking anywhere in it. There you then click on **Copy Steam URL**. 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/jSY7ZdQKo2ibksp/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/Q9WJ8GwbHCmTRPx/preview)
 
 
 
@@ -30,7 +30,7 @@ This will provide you with general information as well as the Steam ID of your a
 
 ```
  <admins>
-    <user steamID="765**************" name="Hint on who this user is" permission_level="0" ></user>
+    <user steamID="76561198021925107" name="Hint on who this user is" permission_level="0" />
   </admins>
 ```
 
