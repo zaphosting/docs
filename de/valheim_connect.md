@@ -7,7 +7,7 @@ sidebar_label: Zum Server Verbinden
 
 Um sich mit deinem Valheim-Server zu verbinden, öffnen wir zunächst unser Webinterface und stellen sicher, dass wir ein sicheres Passwort in den Einstellungen gesetzt haben:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/HZWK4fHEfnKwLPe/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/q8qYZs6ZQqtBqWB/preview)
 
 > Beachte: Ohne Password wird dein Valheim-Server nicht starten.
 
@@ -25,7 +25,7 @@ Zuerst kopieren wir uns die IP vom Server, welche im Webinterface steht:
 
 Nun öffnen wir Valheim und klicken in der Serverliste auf den "Join IP" Button:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/pTGjfqWdBMAbFmy/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/rPYCWmzQKYYgHof/preview)
 
 
 Hier Fügen wir nun unsere Server IP ein:
