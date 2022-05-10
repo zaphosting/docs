@@ -11,7 +11,7 @@ sidebar_label: Install Mods
 
 With mods you have the possibility to customize your server even more. In the following, we will explain where you can find the most popular server mods and how to set them up. With the introduction of Alpha 17 Experimental, the concept of modlets was introduced. Modlets are smaller mods that do not overwrite the vanilla XML files, but are loaded from the mods folder. 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/t6GABM4HQsZzcN4/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/McQLetfwmEMbo6N/preview)
 
 
 
@@ -32,19 +32,19 @@ The first thing you need to do is to download the mods that you want to install 
 
 Once the desired mods have been downloaded, you can start with the actual installation of the mods. The setup of the mods is done via FTP. You need a FTP client to be able to upload files to your server. If you don't know what FTP is and how it works, then you should have a look at the following guide:  [FTP File Access](https://zap-hosting.com/guides/docs/en/gameserver_ftpaccess/)
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/fZXBY2R7Ec7LqMg/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/9Q86iArComw55cH/preview)
 
 
 
 Under the ``/gXXXXX4/7dtd-linux-exp/`` directory you have to create a folder named **Mods**. To do this, right-click and click on **Create directory**. 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/EbCtzGiMJjGPbz2/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/RE2n6WodsWq38Pr/preview)
 
 
 
 Afterwards the files of the mod have to be uploaded to the mods directory:
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/jxFDjgGi3nXZQzw/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/WjNY5tMnAt7jfga/preview)
 
 
 
