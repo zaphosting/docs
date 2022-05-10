@@ -271,8 +271,7 @@
             "altv_installresources"
         ],
         "Satisfactory": [
-            "satisfactory_connect_experimental",
-            "satisfactory_savegame"
+            "satisfactory_connect_experimental"
         ],
         "Terraria": [
             "terraria_tshock_add_admin",
