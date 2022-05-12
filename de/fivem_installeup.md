@@ -18,7 +18,7 @@ Nachdem dieser eingerichtet wurde, kann sich nun verbunden werden und der Server
 
 ## Vorbereitung
 
-Nun laden wir EUP von den [FiveM Foren](https://forum.cfx.re/t/release-eup-for-fivem-server-sided/139848) runter.
+Nun laden wir EUP von den [FiveM Foren](https://forum.cfx.re/t/emergency-uniform-pack-client-server-sided-easy-install-update-5-0-announcement/97599) runter.
 
 Außerdem müssen wir [NativeUI herunterladen](https://github.com/FrazzIe/NativeUILua/archive/master.zip)
 
