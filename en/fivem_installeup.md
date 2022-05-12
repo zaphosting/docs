@@ -16,7 +16,7 @@ After this has been set up, you can now connect and open the server folder.
 
 ## Preparation
 
-Now we download EUP from the [FiveM Forums](https://forum.cfx.re/t/release-eup-for-fivem-server-sided/139848)
+Now we download EUP from the [FiveM Forums](https://forum.cfx.re/t/emergency-uniform-pack-client-server-sided-easy-install-update-5-0-announcement/97599)
 
 We also need to [download NativeUI](https://github.com/FrazzIe/NativeUILua/archive/master.zip)
 
