@@ -20,16 +20,16 @@ In the Plesk Dashboard, open the "**FTP access**" function
 
 > On this main page you would also see the IP address, which will be needed for the test later.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/P2QPR2yHFe7cbWN/preview)
+![Bildschirmfoto vom 2022-05-13 05-29-41](https://user-images.githubusercontent.com/61953937/168206121-b21fa681-e9b7-41ab-bc8e-49e1a89fcd95.png)
 
 There would be now the one FTP access to see, which is automatically created by the system with the finished order from the web space.
 To create another account, you have to click on the button "**Add FTP account**".
 
-![](https://screensaver01.zap-hosting.com/index.php/s/txEjYwRsr3jGLDC/preview)
+![Bildschirmfoto vom 2022-05-13 05-29-53](https://user-images.githubusercontent.com/61953937/168206130-0dd67f84-b7ce-45c0-8b18-512381b9cb15.png)
 
 Afterwards the desired data must be entered. As soon as the entries are complete, confirm them with "**OK**".
 
-![](https://screensaver01.zap-hosting.com/index.php/s/c7xp7Gx2F9r3H7H/preview)
+![Bildschirmfoto vom 2022-05-13 05-30-10](https://user-images.githubusercontent.com/61953937/168206141-869eafc8-c54e-4b57-9cbd-2907bf2de73e.png)
 
 > At "**Base directory**" you can now select the directory to which the FTP access should have access. If the FTP access is allowed to view and edit everything, nothing has to be changed there. 
 
