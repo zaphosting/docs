@@ -20,16 +20,16 @@ In dem Plesk Dashboard die Funktion "**FTP-Zugang**" öffnen
 
 > Auf dieser Hauptseite wäre auch bereits die IP-Adresse zu sehen, welche später für den Test benötigt wird.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/C2QoxEa9C277jya/preview)
+![Bildschirmfoto vom 2022-05-13 05-28-17](https://user-images.githubusercontent.com/61953937/168205808-9936533a-6b3f-4125-ab9e-4fd583a58e00.png)
 
 Dort wäre nun der eine FTP Zugang zu sehen, welcher von dem System automatisch mit der fertigen Bestellung von dem Webspace erstellt wird.
 Um ein weiteres Konto zu erstellen, muss dort der Button "**FTP-Konto hinzufügen**" angeklickt werden.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/mPrYRMAxRPcd7Bk/preview)
+![Bildschirmfoto vom 2022-05-13 05-29-12](https://user-images.githubusercontent.com/61953937/168205820-d7dc9fe6-2570-44be-8a43-8b8cef61b6f2.png)
 
 Im Anschluss müssen die gewünschten Daten eingetragen werden. Sobald fertig eingetragen werden die Eingaben mit "**OK**" bestätigt.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/z5fmNfHt2qCkAoQ/preview)
+![Bildschirmfoto vom 2022-05-13 05-28-53](https://user-images.githubusercontent.com/61953937/168205826-b52395a2-6248-4fe4-908d-3eee5e194969.png)
 
 > Bei "**Basisverzeichnis**" kann man nun das Verzeichnis wählen auf welches der FTP Zugang zugriff haben soll. Wenn der FTP Zugang alles einsehen und bearbeiten darf, muss dort nichts umgestellt werden. 
 
