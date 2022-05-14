@@ -5,7 +5,7 @@ sidebar_label: Windows installieren
 ---
 > Die Anleitung basiert auf Windows Server 2019, bei anderen Versionen sind die Schritte aber nahezu identisch
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/yVFnAQH6GsM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yEjQOrcEus0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## 💻 Installation eines Windows Servers
 Um einen Windows Server zu installieren, benötigen wir eine ISO unserer Wahl, bitte wähle im Webinterface die gewünschte Version von Windows und wähle die ISO aus.
