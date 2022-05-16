@@ -12,8 +12,7 @@ sidebar_label: Woltlab installieren
 
 Woltlab ist eine verbreitete Forensoftware, welche erstmals 2001 veröffentlicht wurde und seitdem weiterhin entwickelt wird. In dieser Anleitung erklären wir, wie diese Forensoftware auf unserem Webspace Produkt installiert werden kann. 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/yzDHFJ4ELHBSEYf/preview)
-
+![de-woltlab](https://user-images.githubusercontent.com/61953937/168514151-08b2223c-5a81-40e0-ab39-e89a57bb4d6c.png)
 
 
 ## Woltlab einrichten
@@ -32,16 +31,14 @@ Diese muss heruntergeladen werden. Man erhält dann eine ZIP-Datei, die dann auf
 
 Das Hochladen der Dateien kann entweder per FTP oder über den File-Manager durchgeführt werden. In dem Beispiel zeigen wir es anhand des File-Managers. Diesen findest du im Dashboard deines Webspaces unter **Datei-Manager**. Dort angelangt ziehen wir die drei Dateien, die wir aus der ZIP-Datei bekommen haben per Drag-and-drop in den File-Manager. 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/RTqRZWrRKcDCrdr/preview)
-![img](https://screensaver01.zap-hosting.com/index.php/s/B7CiGrHxSJocyKz/preview)
-![img](https://screensaver01.zap-hosting.com/index.php/s/yCrPoCtYksiRo5y/preview)
+![de-file](https://user-images.githubusercontent.com/61953937/168514968-970e00e2-3a2f-4680-985a-0dc3e12d01d5.png)
+
 
 **Datenbank**
 
 Als Nächstes muss die Datenbank angelegt werden, in der später alle Informationen vom Forum gespeichert werden sollen. Klicke dazu wieder auf **Websites & Domains** und dann auf **Datenbanken**. Dort klicken wir dann auf **Datenbank hinzufügen**, tragen Den **Datenbanknamen** so wie den gewünschten **Benutzernamen** und das **Passwort** ein und klicken dann auf **OK**: 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/oDMpf3csBinesbg/preview)
-
+![de-db](https://user-images.githubusercontent.com/61953937/168515321-8ec35a47-af18-41d0-84a2-77b11adc4008.png)
 
 **Mailserver (E-Mail Adresse)**
 
