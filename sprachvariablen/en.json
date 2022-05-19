@@ -732,6 +732,10 @@
         "title": "vServer: Add IPv4 address to server",
         "sidebar_label": "Add IPv4 Address"
       },
+      "vserver_linux_cockpit": {
+        "title": "vServer/Dedicated Server: Cockpit installation",
+        "sidebar_label": "Cockpit"
+      },
       "vserver_linux_dnsserver": {
         "title": "vServer: DNS Server Installation and Setup (ISPConfig)",
         "sidebar_label": "DNS Server (ISPConfig)"
