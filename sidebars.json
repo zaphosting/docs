@@ -90,7 +90,8 @@
                     "vserver_linux_rsync",
                     "vserver_linux_jitsi",
                     "vserver_linux_webserver",
-                    "vserver_linux_xrdp"
+                    "vserver_linux_xrdp",
+                    "vserver_linux_cockpit"
                 ]
             },
             {
