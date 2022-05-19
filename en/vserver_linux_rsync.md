@@ -22,8 +22,6 @@ Rsync can be installed with the following command:
 ```
 apt install rsync
 ```
-![](https://screensaver01.zap-hosting.com/index.php/s/BKRnHd8MQY2eDnT/preview)
-
 
 After it has been installed, it can be used directly. 
 
@@ -33,7 +31,6 @@ After it has been installed, it can be used directly.
 
 In this example, the Client folder under /home should be synchronized to the Backups folder under /home. 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/37i9DT9mXCd8JB5)
 This can be done with the following command: 
 
 ```
@@ -47,8 +44,6 @@ rsync -arz /home/Client /home/Backup
 
 
 The folder was synchronized successfully 
-
-![](https://screensaver01.zap-hosting.com/index.php/s/kB59A5TGRomsse8/preview)
 
 If a file etc. in the client folder is deleted now, it will remain in the backup folder. 
 But since the files should always be 1:1 synchronous, the rsync command can easily be changed, this change will ensure that data etc. that are no longer present in the client folder are also removed from the backup folder. 
@@ -71,19 +66,21 @@ rsync -arz --delete /home/Client /home/Backup
 So that the command does not always have to be d manually, it can simply be placed in a cronjob. 
 For example, a backup should be created daily at 3 am: 
 
-Open crontab -e: 
+Open crontab -e:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/jyiTa3jEts3MK4H/preview)
+![](https://user-images.githubusercontent.com/61839701/166191682-3b56805e-1677-4c48-b5d9-107148e76367.png)
 
 With the number 1 "nano" can be used as an editor.
-With the number 2, "vim" can be used as an editor. 
+With the number 2, "vim" can be used as an editor.  
 
 After the file has been opened with e.g. Nano, a crontab can be generated and entered. 
 A crontab can be created with this [Generator](https://crontab-generator.org/). 
 
 The entered crontab then looks as follows: 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/fLKbCcYAQkFydH4/preview)
+ ```
+0 3 * * * rsync --progress -arz --delete -e  "ssh -i /home/sshkey/keybackup" /home/Client/ root@123.123.123.123:/home/Backup/Home-Server1/ >/dev/null 2>&1
+```
 
 Every day at 3 a.m. the command is executed and a backup is created. 
 
@@ -154,7 +151,7 @@ For example, a backup should be created daily at 3 am:
 
 Open crontab -e:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/3xpJKHSf9ZEdrBs/preview)
+![](https://user-images.githubusercontent.com/61839701/166191682-3b56805e-1677-4c48-b5d9-107148e76367.png)
 
 With the number 1 "nano" can be used as an editor.
 With the number 2, "vim" can be used as an editor.  
@@ -163,8 +160,11 @@ After the file has been opened with e.g. Nano, a crontab can be generated and en
 A crontab can be created with this [Generator](https://crontab-generator.org/). 
 
 The entered crontab then looks as follows: 
-
-![](https://screensaver01.zap-hosting.com/index.php/s/xJXMjqGeWce4jDw/preview)
+  
+  
+ ```
+0 3 * * * rsync --progress -arz --delete -e  "ssh -i /home/sshkey/keybackup" /home/Client/ root@123.123.123.123:/home/Backup/Home-Server1/ >/dev/null 2>&1
+```
 
 Every day at 3 a.m. the command is executed and a backup is created. 
 

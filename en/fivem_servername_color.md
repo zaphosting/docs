@@ -11,21 +11,19 @@ sidebar_label: Coloured Servername
 
 To change the fivem servername in "**Configs**", it must first be locked under "**Settings**".
 
-![](https://screensaver01.zap-hosting.com/index.php/s/eyAPci3Pe5P2wRZ/preview)
+![image](https://user-images.githubusercontent.com/13604413/159138187-8ca712ab-7a1f-4595-8e34-814ddd6a7eab.png)
 
 You can now lock the servername in the settings window by pressing on the lock icon.
 The changes are accepted by using the "**Save**" button.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/2bnGcdBisPmBqfK/preview)
-
 Now the servername can be set with the desired color codes in the "**Server.cfg**". 
 This can be found in the category "**Configs**". 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/aYtmfRPSmTytRqT/preview)
+![image](https://user-images.githubusercontent.com/13604413/159138210-294e1683-551d-46d5-b5e2-7e8919e71e2e.png)
 
 The name and the desired color codes are now set at `sv_hostname="YOUR SERVERNAME"`.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/RfiEfZ8gPiM4rxk/preview)
+![image](https://user-images.githubusercontent.com/13604413/159138205-d97a8017-e602-4e26-81af-c59055f4ff02.png)
 
 ## Color/ Color codes
 

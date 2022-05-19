@@ -11,7 +11,7 @@ There are in general no restrictions on mounting a file, its important that the 
 
 ### 🔧 Mounting through the iLO
 Open your iLO Management Interface and open "Virtual" Media
-![](https://screensaver01.zap-hosting.com/index.php/s/zHMmYxq45ECe5GL/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/myWMSi3GgyLBHXR/preview)
 
 * Fill in your url which points to the iso file, you'd like to use. Be sure that the link ends with .iso
 * Press now "Insert Media"
@@ -23,7 +23,7 @@ Your iso-file will now be loaded.
 
 **HTML5 Console**
 You can easily mount the file itself, in the remote console itself:
-![](https://screensaver01.zap-hosting.com/index.php/s/8TFjzAEeqKY628K/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/x4EDgLZ3e3B6MMC/preview)
 
 * Press on the disc symbol
 * Choose "CD/DVD"
@@ -37,7 +37,7 @@ When you choosed your iso file, its required to reboot the server.
 
 **Java Console**
 As on the HTML5 console, the iso file is also directly mounted in the application itself.
-![](https://screensaver01.zap-hosting.com/index.php/s/x99HAMKGTafEMo9/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/2CdR5d5AcsG7YdH/preview)
 
 * Open "Virtual Drives"
 

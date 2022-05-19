@@ -18,11 +18,11 @@ aktuellste Version von MariaDB herunter, diese verwenden wir als unseren Datenba
 
 Das heruntergeladene Archiv entpackst du mit WinRAR oder 7Zip und startest die darin befindliche Installationsdatei mit einem Doppelklick: 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/AP5CLB42cSkyDtW/preview)
+![](https://user-images.githubusercontent.com/61839701/166200051-bfd13072-ba5e-4013-a927-a9c848897976.png)
 
 Im Anschluss navigierst du durch das klicken auf **Next** durch den Installationsvorgang bis du zur Eingabe des root-Passwortes aufgefordert wirst:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/wd6pAmZ2g5nFDqx/preview)
+![](https://user-images.githubusercontent.com/61839701/166200079-25b262be-a90b-45e6-8361-95956c204381.png)
 
 Dort legst du nun das Hauptpasswort für den Zugang zu deinem Datenbankserver fest, achte bitte unbedingt darauf dass du hier ein sicheres Passwort verwendest und dass 
 niemand außer dir dieses Passwort kennt!
@@ -31,27 +31,16 @@ niemand außer dir dieses Passwort kennt!
 
 Im Anschluss klickst du auch hier auf **Next** bis du zum Ende der Installation gelangst, dort klickst du dann abschließend auf **Install**:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/TM4Mkr6FftcDcH8/preview)
+![](https://user-images.githubusercontent.com/61839701/166200095-9d3ae478-42a3-4ef7-91f7-10adf549148a.png)
 
 Dein Datenbankserver ist nun online und einsatzbereit!
 
 ## Freigabe des MySQL Ports für eine Verbindung von außen
 
 Wenn du während der Installation den Zugriff von Außen (Enable access from remote machins for root user" aktiviert hast musst du zusätzlich noch den MySQL Port **3306** in der 
-Windows-Firewall freigeben, dazu öffnest du diese und legst dort eine neue Regel an welche du wie folgt einstellst:
+Windows-Firewall freigeben, dazu öffnest du diese und legst dort eine neue Regel an.
+Dafür findest du eine seperate Anleitung:
+[Firewall Ports freigeben](https://zap-hosting.com/guides/docs/de/vserver_windows_port)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/2bjZ7FRfZLytkYR/preview)
-
-![](https://screensaver01.zap-hosting.com/index.php/s/wRq6FsrBfoFe6pA/preview)
-
-![](https://screensaver01.zap-hosting.com/index.php/s/MDydornj7T7fcxE/preview)
-
-![](https://screensaver01.zap-hosting.com/index.php/s/StD3CdZ5WSD9n3M/preview)
-
-![](https://screensaver01.zap-hosting.com/index.php/s/CDqwNXzywgHq3Yc/preview)
-
-![](https://screensaver01.zap-hosting.com/index.php/s/DDeLHr5aCNL9a4X/preview)
-
-![](https://screensaver01.zap-hosting.com/index.php/s/c6zQATN7m9nTMaE/preview)
 
 Damit ist dein MySQL Server nun auch von außen erreichbar. 

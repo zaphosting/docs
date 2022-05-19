@@ -15,14 +15,16 @@ Before resources can be installed, the [FTP access](gameserver_ftpaccess.md) mus
 
 ## Insert Image
 
-Navigate to the folder gXXXX/gta-fivem/Server-data/ and upload your server icon file there.
+Navigate to the folder gXXXX/gta-fivem/server-data/ and upload your server icon file there.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/R3ZgqiYN3eByxag/preview)
+![image](https://user-images.githubusercontent.com/13604413/159137598-e4bd90d5-047e-4b16-8020-b9fc7c68f007.png)
+
 
 Copy the file name of the icon and open the Server.cfg file, which you can also find in the Server-data folder or via the tab "Configs" in the web interface.
 
-Now you should find the line "load_server_icon zap96x96.png" in the Server.cfg, there you have to replace zap96x96.png with the file name of your logo.
+Now you should find the line "load_server_icon zap96x96.png" in the server.cfg, there you have to replace zap96x96.png with the file name of your logo.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/PaCKN95oLdtSkoJ/preview)
+![image](https://user-images.githubusercontent.com/13604413/159137604-c8383001-abef-4cc9-ae10-e270c7aa33b3.png)
+
 
 Once you have restarted the server, you should be able to see the logo in the server list or via Direct Connect.

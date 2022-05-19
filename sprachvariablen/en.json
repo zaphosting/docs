@@ -289,10 +289,6 @@
         "title": "ZAP-Hosting.com: Contract or Prepaid - What are the differences?",
         "sidebar_label": "Contract or Prepaid"
       },
-      "firststeps_rent_location": {
-        "title": "Server locations at ZAP-Hosting",
-        "sidebar_label": "Location"
-      },
       "firststeps_rent": {
         "title": "Rent a Server",
         "sidebar_label": "Rent a Server"
@@ -308,10 +304,6 @@
       "fivem_changeloadingscreen": {
         "title": "FiveM: Install/change loadingscreen for FiveM-Server",
         "sidebar_label": "Loadingscreen installation"
-      },
-      "fivem_changespawnpoint": {
-        "title": "FiveM server settings: Set Spawnpoint",
-        "sidebar_label": "Change Spawnpoint"
       },
       "fivem_dashboard": {
         "title": "FiveM: Server administration via the web interface dashboard",
@@ -819,6 +811,10 @@
       "vserver_linux_webserver": {
         "title": "VPS: Installing Nginx and Apache Webserver",
         "sidebar_label": "Install webserver"
+      },
+      "vserver_linux_xrdp": {
+        "title": "vServer/Dedicated Server: Installing xRDP (Remote Desktop)",
+        "sidebar_label": "Linux Remotedesktop (xRDP)"
       },
       "vserver_network_analysis_winmtr": {
         "title": "VPS: Network analysis with MTR/WinMTR",

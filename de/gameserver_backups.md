@@ -15,10 +15,6 @@ Neben dem manuellen erstellen von Backups können auch Backups voll automatisier
 
 Um ein Backup manuell zu erstellen muss der grüne **+** Button neben der Backup Liste gedrückt werden. Im Anschluss startet der Backup Vorgang. 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/HNXMd5NAF8YceCs/preview)
-
-![img](https://screensaver01.zap-hosting.com/index.php/s/TRFjK44sDjgQaFB/preview)
-
 > Je nach Speichergröße des Servers kann das anlegen das Backups durchaus ein paar Minuten dauern!
 
 
@@ -27,7 +23,7 @@ Um ein Backup manuell zu erstellen muss der grüne **+** Button neben der Backup
 
 Unten am Ende der Seite befinden sich weitere Optionen, wo unter anderem auch die Einstellungen für automatisierte Backups zu finden. Die Option **Backups automatisch erstellen** muss aktiviert sein, damit die Funktion aktiv ist. Zudem muss das Intervall gesetzt werden. 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/9w5JpZgi6rxZ7Ab/preview)
+![image](https://user-images.githubusercontent.com/13604413/159171260-f3d1775e-25bc-45a0-b4aa-d6bdc13bfa0f.png)
 
 Je nach Spiel ist es oftmals auch zu empfehlen die Datenbank mit zu sichern, da dort oftmals wichtige Daten wie Spielstände, Rechte und vieles mehr gespeichert werden. 
 
@@ -37,9 +33,9 @@ Je nach Spiel ist es oftmals auch zu empfehlen die Datenbank mit zu sichern, da 
 
 Um Backups herunterladen oder zu löschen muss man sich per FTP mit dem Storage Server verbinden. Eine Anleitung zum Benutzen von FTP findest du hier: [FTP-Zugang](gameserver_ftpaccess.md)
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/tPNdJ4YKMtwA635/preview)
+![image](https://user-images.githubusercontent.com/13604413/159171263-ef2c31b3-1541-4f41-b7b1-e8a70c96a422.png)
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/HQxRLJPg9ADLGqR/preview)
+![image](https://user-images.githubusercontent.com/13604413/159171264-187a5aca-1829-41a0-967b-f9125df236c1.png)
 
 Dort angelangt findet man die Zugangsdaten zum Storage Server und den aktuell belegten Speicherplatz. Wenn du per FTP verbunden bist, dann findest du dort die Backups und kannst sie darüber herunterladen oder löschen.
 

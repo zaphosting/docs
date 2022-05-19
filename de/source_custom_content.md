@@ -9,7 +9,7 @@ sidebar_label: Custom Inhalte
 
 Einige Source-Games wie zum Beispiel Counter-Strike oder Garrys Mod sind durch ihre Vielfältigkeit bekannt geworden. Ermöglicht wurde das Ganze durch die Unterstützung von Plugins und sogenannten **Custom Inhalten**. So entwickelten sich über die Jahre diverse Spielmodi wie zum Beispiel Zombie Mod, Hide and Seek, Minigames, Jailbreak und vieles mehr. 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/D4cfNkDdyyqH55R/preview)
+![image](https://user-images.githubusercontent.com/13604413/159178680-6fd1ea06-9ee9-4bfc-a23e-2f3457800c04.png)
 
 
 
@@ -44,7 +44,7 @@ Dort angelangt rufen wir den File-Manager auf und legen dabei die folgenden Ordn
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/ywx4gn9fSJoSQc2/preview)
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/jHk4grkTyaBSxrC/preview)
+![image](https://user-images.githubusercontent.com/13604413/159178687-7ea690cf-0d73-4e22-a302-023be7603cef.png)
 
 
 
@@ -66,7 +66,7 @@ sv_downloadurl "https://zapXXXXX-1.plesk08.zap-hosting.com" // Ersetze die URL d
 
 Nach neu starten und verbinden des Servers sollten die entsprechenden Inhalte heruntergeladen werden. Das kann in der Konsole vom Spiel auch überprüft werden:
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/m7rkTna8jbXdc2R/preview)
+![image](https://user-images.githubusercontent.com/13604413/159178720-35ccc5ca-7367-467a-869c-5cf87a834d95.png)
 
 
 
@@ -82,7 +82,7 @@ Dort klicken wir nun rechts auf Kollektion und legen die Kollektion für den Gam
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/cxbwBtwbjEtpNMC/preview)
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/k7kWNYNdwirp2Nq/preview)
+![image](https://user-images.githubusercontent.com/13604413/159178741-f3d5bd5a-88e7-4bbc-9d9d-5273d16c3676.png)
 
 Danach wurde die Kollektion erfolgreich erstellt. Diese ist standardmäßig aber noch leer. Daher rufen wir nun den Workshop des Spiels wieder auf und wählen die Objekte aus, die wir hinzufügen wollen:
 

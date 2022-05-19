@@ -41,7 +41,7 @@ Afterwards open one of the following pages and paste the URL of your profile the
 - https://steamid.io/
 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/EQHnQxyBxYyxcGY/preview)
+![image](https://user-images.githubusercontent.com/13604413/159183763-7e2db2ca-ca78-4a08-9e30-77d58ce51fef.png)
 
 This will provide you with general information as well as the Steam ID of your account. In this case we only need the SteamID64. The SteamID64 will then be set at **$values**. This will look like this:
 

@@ -45,7 +45,7 @@ Afterwards, the URL must be typed in one of the following websites:
 - https://steamidfinder.com/
 - https://steamid.io/
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/EQHnQxyBxYyxcGY/preview)
+![image](https://user-images.githubusercontent.com/13604413/159179580-c562bce5-444a-4ec6-8993-21483f7f85be.png)
 
 
 

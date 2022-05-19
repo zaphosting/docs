@@ -28,11 +28,11 @@ Entsprechend ist es sinnvoll für jede Seite ein anderes Passwort zu nutzen. Um 
 
 > Tipp: Bei [haveibeenpwned](https://haveibeenpwned.com/) kannst du unter Angabe deiner E-Mail Adresse kostenlos prüfen, ob diese in einem bekannten Leak einer Datenbank enthalten ist. Darüber hinaus erhältst du Informationen darüber, auf welcher Seite der Vorfall stattgefunden hat und welche Daten entwenden wurden.
 
-![haveibeenpwned Beispiel](https://screensaver01.zap-hosting.com/index.php/s/7AxDKnpbysYzwNr/preview)
+![haveibeenpwned Beispiel](https://screensaver01.zap-hosting.com/index.php/s/t6KrTmmPertFciD/preview)
 
 ## 🔧 Account Einstellungen
 
-Neben der [2-Factor Authentication](/docs/de/account_2factor/) kannst du im Reiter [Sicherheit](https://zap-hosting.com/de/customer/home/security/) in deinem Account auch OneClick Login deaktivieren. In einigen E-Mails versenden wir Links, durch die du per Klick eingeloggt wirst und direkt zur relevanten Seite im jeweiligen Kontext geleitet wirst. Grundsätzlich versendet man keine sensiblen Informationen per E-Mail. Entsprechend ist es für Accounts mit Zugriff zu wichtigen Diensten sinnvoll, die Funktion gegebenenfalls auszuschalten.
+Neben der [2-Factor Authentication](https://zap-hosting.com/guides/docs/de/account_2factor/) kannst du im Reiter [Sicherheit](https://zap-hosting.com/de/customer/home/security/) in deinem Account auch OneClick Login deaktivieren. In einigen E-Mails versenden wir Links, durch die du per Klick eingeloggt wirst und direkt zur relevanten Seite im jeweiligen Kontext geleitet wirst. Grundsätzlich versendet man keine sensiblen Informationen per E-Mail. Entsprechend ist es für Accounts mit Zugriff zu wichtigen Diensten sinnvoll, die Funktion gegebenenfalls auszuschalten.
 
 ## 🚨 Ich wurde gehackt
 

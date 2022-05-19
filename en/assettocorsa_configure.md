@@ -9,42 +9,34 @@ sidebar_label: Configure Server
 
 Before we can configure the server, the [FTP access](gameserver_ftpaccess.md) must be set up:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/YHTrcTS3x5a8wMn/preview)
+![image](https://user-images.githubusercontent.com/13604413/159135972-112ad9ef-5f6b-4bc6-ba9f-7471b4f8c22b.png)
 
 After this has been set up, you can now connect and open the server folder:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SAW5bnPjCpGDE8P/preview)
+![image](https://user-images.githubusercontent.com/13604413/159135981-9119c0c9-1b37-4fcc-ad76-1c88bc4b116b.png)
 
 
 ## Preparation
 
-First we open the Assetto Corsa folder, we can open it by opening Steam and right-clicking "Assetto Corsa" in the Games List, then we select "Properties"
-
-![](https://screensaver01.zap-hosting.com/index.php/s/eC9ny8CTa5PwAEN/preview)
+First we open the Assetto Corsa folder, we can open it by opening Steam and right-clicking "Assetto Corsa" in the Games List
 
 Now we open "Local Files" and open the local game files:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/NM5QR9PeJzjSiY8/preview)
+![image](https://user-images.githubusercontent.com/13604413/159136021-cd23c04f-0db5-4051-8993-7fddfd0edfaa.png)
 
-Now we open the "server" folder, there is a "acServerManager" file there, we open it:
-
-
-![](https://screensaver01.zap-hosting.com/index.php/s/onqBCHqaezK2csf/preview)
-
+Now we open the "server" folder, there is a "acServerManager" file there, we open it
 
 ## Set Map
 
 We are now in the "AC Server Manager" interface, with this we can create and manage serverconfigs, first we create a new config
 
-![](https://screensaver01.zap-hosting.com/index.php/s/gDXC8MQeiGgZ7Rq/preview)
+![image](https://user-images.githubusercontent.com/13604413/159136101-06de0307-c485-4673-bbc7-4eed1c32ef7b.png)
 
 Now we can configure our server, in our case we only want to edit the tracks & cars, for this we open the "Tracks" tab
 
-![](https://screensaver01.zap-hosting.com/index.php/s/ePC7TwT4nEkJ88P/preview)
-
 Here we can now click on our preferred map, above we can adjust the number of cars on the track.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/oizKLpW3wWfaw6g/preview)
+![image](https://user-images.githubusercontent.com/13604413/159136194-814b2206-bfc8-44bc-a363-7a275dc73dfc.png)
 
 > Make sure that you do not specify more cars than slots on your server, otherwise the server will not start
 
@@ -52,35 +44,34 @@ Here we can now click on our preferred map, above we can adjust the number of ca
 
 Now we switch to the tab "Cars / Entry List", here we can now add new cars:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/ExfRpRW9LbjRNkP/preview)
 
 To activate cars, the checkmark must be set on the left
 
-![](https://screensaver01.zap-hosting.com/index.php/s/7tZqtpfMKLz7oiR/preview)
+![image](https://user-images.githubusercontent.com/13604413/159136202-40a079e2-8558-4c13-825a-f4a73c90b833.png)
 
 In the middle you can see cars which can be placed on the grid, here we can choose cars in the colors which should be in the grid:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/D67miafjkCAQTkZ/preview)
+![image](https://user-images.githubusercontent.com/13604413/159136214-b58c2720-6a04-4882-a661-12cbde86cf31.png)
 
 > To select multiple cars, several checks can be set to add the different cars in the middle.
 
 > Note that all car slots are filled and not more than the amount of available slots is set.
-> ![](https://screensaver01.zap-hosting.com/index.php/s/rGKR2zNwgEagYMa/preview)
+> ![image](https://user-images.githubusercontent.com/13604413/159136228-57a877cd-e75b-4df0-ad57-30c6b05af255.png)
 
 ## Upload Config
 
 Now we can save the Config with the "Save" button and export it with the "Export" button:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/ixFdiQHfA9q6ca4/preview)
+![image](https://user-images.githubusercontent.com/13604413/159136248-2aa62490-c2a7-49ae-b97e-0c731cebd7a1.png)
 
 Here we now select a free folder where the config data will be stored.
 
 Now the AC Server Manager can be closed, we now open the folder into which the Configs were exported.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/trBYPXFQT6AcxWL/preview)
+![image](https://user-images.githubusercontent.com/13604413/159136258-33c0896a-2ec7-4c80-9fa1-1bf65ebdd083.png)
 
 These Configs can now be copied via Drag&Drop into the "cfg" folder of your gameserver.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/9yFE96xgBQwHgsg/preview)
+![image](https://user-images.githubusercontent.com/13604413/159136263-cb78e326-bdf5-40c5-9581-804b4f786ce9.png)
 
 The server can now be started with the new Config.

@@ -279,7 +279,7 @@
                 "sidebar_label": "Mods installieren"
             },
             "firststeps_problem_melden": {
-                "title": "ZAP-Hosting: Was zun bei Problemen mit dem eigenen Server?",
+                "title": "ZAP-Hosting: Was tun bei Problemen mit dem eigenen Server?",
                 "sidebar_label": "Wie melde ich Probleme?"
             },
             "firststeps_register": {
@@ -289,10 +289,6 @@
             "firststeps_rent_contractorprepaid": {
                 "title": "ZAP-Hosting.com: Vertrag oder Prepaid - Was sind die Unterschiede?",
                 "sidebar_label": "Vertrag oder Prepaid"
-            },
-            "firststeps_rent_location": {
-                "title": "Server-Standorte bei ZAP-Hosting",
-                "sidebar_label": "Standort"
             },
             "firststeps_rent": {
                 "title": "Server Mieten",

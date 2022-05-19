@@ -44,7 +44,7 @@ Im Anschluss kann die URL auf einer der folgenden Webseiten angeben werden:
 
 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/EQHnQxyBxYyxcGY/preview)
+![image](https://user-images.githubusercontent.com/13604413/159183763-7e2db2ca-ca78-4a08-9e30-77d58ce51fef.png)
 
 Dadurch erhältst du dort die sowohl die allgemeinen Accountinformationen als auch die Steam ID. Diese wird dann bei **$values** eingetragen. Das sieht dann folgendermaßen aus:
 

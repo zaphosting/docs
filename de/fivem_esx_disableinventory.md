@@ -11,14 +11,14 @@ Bevor wir das Inventar Deaktivieren können, muss der [FTP-Zugang](gameserver_ft
 
 Nachdem dieser eingerichtet wurde, kann sich nun verbunden werden und der Server Ordner geöffnet werden:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/REzpxtQXT4RKfCb/preview)
+![image](https://user-images.githubusercontent.com/13604413/159166925-5cadf617-bda1-4a9c-9536-5d24fecb88e1.png)
 
 
 ## Änderungen Vornehmen
 
 Nun öffnen wir den `server-data/resources/[esx]` Pfad, hier finden wie einen es_extended Ordner:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/w4y7sPz5NmDD2Jw/preview)
+![image](https://user-images.githubusercontent.com/13604413/159166929-13142744-b36f-4d41-a55e-400d9088c673.png)
 
 In diesem Ordner öffnen wir nun die `config.lua` Datei.
 

@@ -7,6 +7,8 @@ sidebar_label: Erstzugriff (SSH)
 
 ### 🖥 SSH-Verbindung
 
+![](https://screensaver01.zap-hosting.com/index.php/s/TYEHE38gNQoFjBx/download/ssh_connect.gif)
+
 Die Linux Server Produkte beinhalten standardmäßig keine grafische Verwaltungsoberfläche, weshalb die Verbindung und Verwaltung über einen SSH-Client (Konsole) erfolgt. Hierbei gibt es eine große Auswahl an SSH-Clients. Im Folgenden gibt es eine Übersicht der bekannten/oft genutzten SSH-Clients. 
 
 
@@ -27,7 +29,7 @@ Im Folgenden wird die Verbindung mittels des Putty SSH-Client erläutert. Im Kon
 
 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/HDpcXZETwnfZAo7/preview)
+![image](https://user-images.githubusercontent.com/13604413/159171679-e55411b6-17be-49f8-a80f-645f4652c9c4.png)
 
 
 
@@ -35,7 +37,7 @@ Im Folgenden wird die Verbindung mittels des Putty SSH-Client erläutert. Im Kon
 
 
 
-![Putty Configurationj](https://screensaver01.zap-hosting.com/index.php/s/TmQ9MyqR8bxDX2g/preview)
+![image](https://user-images.githubusercontent.com/13604413/159171681-abfa1472-41cf-4219-92fe-9ad948c7e8d2.png)
 
 
 
@@ -47,7 +49,7 @@ Daraufhin öffnet sich die SSH-Konsole in der nach einem **Benutzernamen** und *
 
 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/f7yC7ELYM5kA2on/preview)
+![image](https://user-images.githubusercontent.com/13604413/159171684-d50db714-df08-46ed-9453-1d186edda3de.png)
 
 
 

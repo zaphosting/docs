@@ -13,14 +13,14 @@ Um sich mit deinem Valheim-Server zu verbinden, öffnen wir zunächst unser Webi
 
 Nachdem wir das Passwort gesetzt haben, können wir den Server starten, hierbei kann es ein paar Minuten dauern, bis dieser zu "Online" schaltet:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/rask2nLSCZCXtgS/preview)
+![image](https://user-images.githubusercontent.com/13604413/159179762-23d41680-df0e-46e7-b484-d9f99f6e88db.png)
 
 
 ## 📶 Über Valheim Direktverbinden
 
 Zuerst kopieren wir uns die IP vom Server, welche im Webinterface steht:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/AHSnR64GkETsm7x/preview)
+![image](https://user-images.githubusercontent.com/13604413/159179774-6ff4f3aa-9978-4a43-8fa2-a16731057d61.png)
 
 
 Nun öffnen wir Valheim und klicken in der Serverliste auf den "Join IP" Button:
@@ -30,7 +30,7 @@ Nun öffnen wir Valheim und klicken in der Serverliste auf den "Join IP" Button:
 
 Hier Fügen wir nun unsere Server IP ein:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/sktWomY2m3EPPbL/preview)
+![image](https://user-images.githubusercontent.com/13604413/159179777-35c7201d-c5da-4a59-a752-4090f470b701.png)
 
 
 Über den "Connect" Button können wir uns nun direkt auf den Server verbinden.
@@ -39,16 +39,15 @@ Hier Fügen wir nun unsere Server IP ein:
 ## 📶 Über Steam Direktverbinden
 
 Zuerst kopieren wir uns die IP vom Server, welche im Webinterface steht:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/AHSnR64GkETsm7x/preview)
+![image](https://user-images.githubusercontent.com/13604413/159179803-d22fb02c-22a5-4a03-9f43-2b415773742d.png)
 
 Um sich auf den Valheim Server Direkt zu verbinden, müssen wir in Steam die Serverliste öffnen:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/dz32my3zfBoFnis185.249.198.114:27445/preview)
+![image](https://user-images.githubusercontent.com/13604413/159179809-2fdfa72b-2940-4081-9284-1a5ed7f0a085.png)
 
 Hier fügen wir nun unseren Server wie folgt hinzu:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/8qfbCNgfig8kHLW/preview)
+![image](https://user-images.githubusercontent.com/13604413/159179811-47456cd9-674e-4017-bc95-219c83349950.png)
 
 > Beachte: Der Port am ende muss +1 gerechnet werden, d.h. wenn dein Port 27043 ist, solltest du in Steam 27044 angeben.
 
@@ -70,7 +69,7 @@ Hier wollen wir keine neue Welt anlegen, also drücken wir "Abbrechen"
 
 Jetzt können wir oben im Menü auf `Join Game` klicken und unseren Servernamen in der "Filter"-Sektion eingeben, ebenfalls setzen wir einen Haken bei "Community"
 
-![](https://screensaver01.zap-hosting.com/index.php/s/tPk5TKJAxP7297s/preview)
+![image](https://user-images.githubusercontent.com/13604413/159179817-c7c921fb-5d4b-4b34-9ef4-4c93288937fb.png)
 
 > Wenn du deinen Server noch nicht siehst, warte ein bisschen, je nach Anzahl der Server kann ein Refresh ein paar Minuten dauern.
 

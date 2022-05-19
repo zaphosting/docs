@@ -13,7 +13,7 @@ Wir bieten die Möglichkeit weitere Unternutzer anzulegen. Somit hast du die Mö
 
 Die Benutzerverwaltung findest du, indem du auf den Pfeil rechts neben deinem Avatar klickst und dort im Anschluss auf den Unterpunkt **Benutzerverwaltung** gehst.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/gAmm2ksr9K4PZtx/preview)
+![image](https://user-images.githubusercontent.com/13604413/159166150-ccb5e808-877a-47b6-943a-85f881da1999.png)
 
 
 
@@ -37,9 +37,9 @@ Zunächst muss eine Benutzergruppe angelegt werden, damit im Anschluss die Unter
 
   
 
-  ![img](https://screensaver01.zap-hosting.com/index.php/s/brPYRgktP5TFiyp/preview)
+![image](https://user-images.githubusercontent.com/13604413/159166160-186c0e33-7b2f-4a34-8b29-a5e76a2ea05c.png)
 
-  ![img](https://screensaver01.zap-hosting.com/index.php/s/zpJBR2JRAbDyZ7t/preview)
+![image](https://user-images.githubusercontent.com/13604413/159166167-8c4a780a-fc7e-41f9-bdaa-bb510d7f231d.png)
 
   
 
@@ -47,7 +47,7 @@ Zunächst muss eine Benutzergruppe angelegt werden, damit im Anschluss die Unter
 
   
 
-  ![img](https://screensaver01.zap-hosting.com/index.php/s/gsT7spPMdWwYRko/preview)
+![image](https://user-images.githubusercontent.com/13604413/159166173-be2561db-d07e-450e-98ec-49ea4ae454ef.png)
 
   
 
@@ -55,7 +55,7 @@ Zunächst muss eine Benutzergruppe angelegt werden, damit im Anschluss die Unter
 
   Im Anschluss öffnet sich ein Popup-Fenster, wo der Benutzer angelegt wird. Hierbei wird die gewünschte Gruppe zugewiesen, der Benutzername, E-Mail Adresse und Passwort definiert.
 
-  ![img](https://screensaver01.zap-hosting.com/index.php/s/mtzFEiDHdCbKWwp/preview)
+![image](https://user-images.githubusercontent.com/13604413/159166187-55a3ff5e-1b7c-490f-b3b8-988a2713d0e7.png)
 
   
 

@@ -11,13 +11,9 @@ Bevor die Resource installiert werden können, muss der [FTP-Zugang](gameserver_
 
 ## Vorbereitung
 
-Zuerst laden wir die neuste [ELS-FiveM Version](https://github.com/MrDaGree/ELS-FiveM/releases/latest) runter, diese finden wir unter "Assets":
+Zuerst laden wir die neuste [ELS-FiveM Version](https://github.com/MrDaGree/ELS-FiveM/releases/latest) runter, diese finden wir unter "Assets"
 
-![](https://screensaver01.zap-hosting.com/index.php/s/q7ftdNXaZybDEtg/preview)
-
-Nachdem wir ELS runtergeladen haben, entpacken wir zunächst die Zipdatei, nachdem wir dies getan haben, öffnen wir den "ELS-FiveM" Ordner, dieser sollte so aussehen:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/a2pm84dy77izHZg/preview)
+Nachdem wir ELS runtergeladen haben, entpacken wir zunächst die Zipdatei, nachdem wir dies getan haben, öffnen wir den "ELS-FiveM" Ordner.
 
 ## Konfiguration
 
@@ -31,17 +27,11 @@ Es können auch weitere Einstellungen in der "config.lua" vorgenommen werden, wi
 
 Um ELS-FiveM zu installieren, können diese über Drag&Drop in den "resources" Ordner hochgeladen werden
 
-![](https://screensaver01.zap-hosting.com/index.php/s/PeCsrNmqDgPmaTn/preview)
-
 Nachdem diese hochgeladen wurde, muss die server.cfg im server-data Ordner geöffnet werden:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/6LjYGCLFyLJBaS5/preview)
+![image](https://user-images.githubusercontent.com/13604413/159167045-d0e3d23b-9fd9-4bf8-a7ef-eb018b71b11d.png)
 
-Unter den restlichen Starteinträgen für Ressourcen kann nun der Eintrag für ELS-FiveM hinzugefügt werden:
-
-
-![](https://screensaver01.zap-hosting.com/index.php/s/bqqwkH6d6rX4kcq/preview)
-
+Unter den restlichen Starteinträgen für Ressourcen kann nun der Eintrag für ELS-FiveM hinzugefügt werden
 
 Danach kann der Server neugestartet werden und ELS-FiveM ist ingame verfügbar!
 
@@ -50,21 +40,9 @@ Danach kann der Server neugestartet werden und ELS-FiveM ist ingame verfügbar!
 
 Um neue Carmods in ELS-FiveM einzufügen brauchen wir zunächst dessen ELS-Config, diese findet man oft im Ordner des runtergeladenen Carmods, meist heißen diese `autoname.xml`, in unserem Fall ist es `scpdvic.xml`.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/TQCsWyTj3gZaZc6/preview)
+Diese laden wir nun in den "vcf" Ordner unseres ELS-FiveM Ordners über FTP Hoch.
 
-Diese laden wir nun in den "vcf" Ordner unseres ELS-FiveM Ordners über FTP Hoch:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/c8CRmDdW3KDt5Rj/preview)
-
-Nachdem die Datei hochgeladen wurde, öffnen wir nun die `vcf.lua` Datei, im ELS-FiveM Ordner:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/6fDTMeDLc5DWeEC/preview)
-
-![](https://screensaver01.zap-hosting.com/index.php/s/2W6SG2eoDq9g9Yo/preview)
-
-Hier fügen wir nun unsere neue Datei wie folgt ein:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/tirH3rHBiq79Rz9/preview)
+Nachdem die Datei hochgeladen wurde, öffnen wir nun die `vcf.lua` Datei, im ELS-FiveM Ordner.
 
 > Gehe sicher das die vorherige zeile immer ein Komma am ende ha
 

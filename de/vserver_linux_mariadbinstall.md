@@ -13,7 +13,7 @@ Verbinde dich nun via SSH mit deinem Server, wie das funktioniert erfähst du hi
 
 Zu Beginn müssen vorhandene Pakete aktualisiert werden, dies geschieht mithilfe des folgenden Befehls: **apt update**
 
-![](https://screensaver01.zap-hosting.com/index.php/s/HiKJ3N2jMkEwFtG/preview)
+![image](https://user-images.githubusercontent.com/13604413/159171933-8c48ca29-b8f3-450b-980e-b0e06a8550d8.png)
 
 Dadurch werden nun alle Paketquellen aktualisiert, im Anschluss kannst du die Aktualisierungen mit folgendem Befehl installieren, sofern welche vorhanden sind: **apt upgrade -y**
 
@@ -28,7 +28,7 @@ Nachdem die Installation abgeschlossen ist gibst du folghenden Befehl ein um die
 
 Führe nun die Konfiguration deines MariaDB (MySQL) Servers durch, im folgenden legen wir auch ein Passwort für deinen Server fest.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/PTTfCaLgTbTcPXn/preview)
+![](https://user-images.githubusercontent.com/61839701/165693963-35a8ec5e-829a-4644-9f81-b0f1ea4609dc.png)
 
 Dort übersprichst du die Eingabe vorerst durch das drücken auf **Enter**, das Passwort für den root User legen wir im gleich fest.
 
@@ -42,31 +42,30 @@ Im Anschluss gibst du dort das neue Passwort für den Benutzer root ein.
 > Während der Eingabe des Passwortest kannst du dieses zwar nicht sehen, das ist jedoch normal und dein Passwort wird trotzdem hinterlegt. Achte unbedingt darauf ein sicheres 
 Passwort für deinen root Benutzer zu wählen und verwahre dieses an einem sicheren Ort. 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/2EaytsgrWYqNPjg/preview)
+![image](https://user-images.githubusercontent.com/13604413/159171942-82667636-b148-4248-a95d-ad3d9ed3ab47.png)
 
 Nun wirst du gefragt ob du anonyme Benutzer von deinem Server entfernen möchtest, dies solltest du aus Sicherheitsgründen auf jeden Fall tun, daher bestätigst du auch dies
 mit einem **y** für yes, also ja: 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/j8XJdEXn2jQryDf/preview)
+![image](https://user-images.githubusercontent.com/13604413/159171944-d897a99a-a0f4-421b-bfb9-92c0640f2db0.png)
 
 In der folgenden Abfrage legst du fest ob der Benutzer root von Außen zum Server verbinden darf, dies solltest du aus Sicherheitsgründen ebenfalls deaktivieren und bestätigst dies
 daher mit **y**:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/a6D5D9i6dpXYYGX/preview)
+![image](https://user-images.githubusercontent.com/13604413/159171945-e7b4f9ef-1ec0-409f-ad5f-dff05f42c561.png)
 
 Im nächsten Schritt bestätigst du ebenfalls mit **y** um die von MariaDB (MySQL) mitgelieferte Testdatenbank zu entfernen, diese benötigst du nicht und daher kann diese einfach 
 gelöscht werden:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/icwxknJRHySGgpg/preview)
+![image](https://user-images.githubusercontent.com/13604413/159171948-625983b8-897f-4b47-a8a8-e47cc72b90f4.png)
 
 
 Zum Abschluss der Konfiguration wirst du gefragt ob du die gesetzten Berechtigungen der Datenbank aktualisieren möchtest, dies bestätigst du ebenfalls mit **y** damit
 unter anderem das zuvor gesetzte Passwort für den root Benutzer aktiv wird:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/2LwRwdPP9MwDFwr/preview)
+![image](https://user-images.githubusercontent.com/13604413/159171953-8a6cb526-6fac-47fd-be04-eb752f57b1a1.png)
 
 
 Dein MariaDB (MySQL) Server ist nun einsatzbereit!
 
-![](https://screensaver01.zap-hosting.com/index.php/s/LR8gWDmrQnBm8D5/preview)
-
+![](https://user-images.githubusercontent.com/61839701/165694424-34436049-d798-49b4-ad95-4e4a73a6a76a.png)

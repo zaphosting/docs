@@ -13,14 +13,14 @@ With the **EasyDNS function** the forwarding of a domain, which was rented with 
 
 The option will be shown, if you click on the desired domain in the interface.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/wLXzFPtDcPFbwfo/preview)
+![2022-05-07_21-43](https://user-images.githubusercontent.com/61953937/167269530-b14ac281-4ced-41df-beba-06d4aec70574.png)
 
 Once here, you can then select an existing service from a list.
 As shown in the example above.
 Select the desired service and confirm it by clicking the "Save" button.
 There is also the option to forward your domain to a Minecraft server with a subdomain.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/KYE7CMGmnDx2A6B/preview)
+![image](https://user-images.githubusercontent.com/13604413/159176049-875a72ff-c18e-4253-89cd-af5960c656f5.png)
 
 Here you can enter the name of the **desired subdomain** in the first field.
 On the right side you choose the desired **Minecraft Server**, which you want to link to the subdomain.

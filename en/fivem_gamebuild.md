@@ -10,11 +10,11 @@ sidebar_label: Enable DLC Gamebuild
 To use additional contents as Cayo Perico, the Tuner DLC or Los Santos Summer Special, its required to set them in the settings of your server.
 You can find the settings tab in your menu.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/9ssbowYr3i8NjNk/preview)
+![image](https://user-images.githubusercontent.com/13604413/159138053-e9b031f6-0316-4330-9ffa-be661259b6ce.png)
 
 Scoll down to almost the end of the settings, there you'll find this option.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/DFsHMq3L86PjFpn/preview)
+![image](https://user-images.githubusercontent.com/13604413/159138054-48f0b832-e2ae-45ea-9f3b-67ee9c55cc6e.png)
 
 Here you can pick between the specific builds, after you choose the one of your like, save the changes and reboot the server.
 Your additional content is now available.
@@ -22,7 +22,7 @@ Your additional content is now available.
 ## 🔧 txAdmin
 To enable the content on a txadmin server, you need to open your txadmin-interface and there open the FXServer settings.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/z4F6jjfr6CyRWHm/preview)
+![image](https://user-images.githubusercontent.com/13604413/159138094-9d72159c-36f7-4193-aea9-fb1c0260ad04.png)
 
 Just add the desired gamebuild in the Additional Arguments
 

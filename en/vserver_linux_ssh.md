@@ -7,6 +7,8 @@ sidebar_label: Initial access (SSH)
 
 ### 🖥 SSH-Connection
 
+![](https://screensaver01.zap-hosting.com/index.php/s/TYEHE38gNQoFjBx/download/ssh_connect.gif)
+
 Linux server products do not include a graphical management interface by default, which is why the connection and management is done via an SSH client (console). There is a wide range of SSH clients available. Below is an overview of the known / often used SSH clients. 
 
 
@@ -27,7 +29,7 @@ In the following, the connection using the Putty SSH client is explained. In the
 
 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/HDpcXZETwnfZAo7/preview)
+![image](https://user-images.githubusercontent.com/13604413/159171679-e55411b6-17be-49f8-a80f-645f4652c9c4.png)
 
 
 
@@ -35,7 +37,7 @@ In the following, the connection using the Putty SSH client is explained. In the
 
 
 
-![Putty Configurationj](https://screensaver01.zap-hosting.com/index.php/s/TmQ9MyqR8bxDX2g/preview)
+![image](https://user-images.githubusercontent.com/13604413/159171681-abfa1472-41cf-4219-92fe-9ad948c7e8d2.png)
 
 
 
@@ -47,7 +49,7 @@ This opens the SSH console and prompts for a **user name** and **password**. The
 
 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/f7yC7ELYM5kA2on/preview)
+![image](https://user-images.githubusercontent.com/13604413/159171684-d50db714-df08-46ed-9453-1d186edda3de.png)
 
 
 

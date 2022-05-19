@@ -22,8 +22,6 @@ Rsync kann mit folgendem Befehl installiert werden:
 ```
 apt install rsync
 ```
-![](https://screensaver01.zap-hosting.com/index.php/s/BKRnHd8MQY2eDnT/preview)
-
 
 Nachdem es installiert wurde, kann es direkt genutzt werden. 
 
@@ -32,8 +30,6 @@ Nachdem es installiert wurde, kann es direkt genutzt werden.
 ## Schritt 2️⃣
 
 In diesem Beispiel soll der Ordner "Client" unter /home in den Ordner "Backups" unter /home syncronsiert werden. 
-
-![](https://screensaver01.zap-hosting.com/index.php/s/37i9DT9mXCd8JB5)
 
 Das kann mit folgendem Befehl gemacht werden: 
 
@@ -47,8 +43,6 @@ rsync -arz /home/Client /home/Backup
 -z=Komprimierung, je nach Datenmengen/Datengrößen wird komprimiert 
 
 Der Ordner wurde erfolgreicht syncronisiert 
-
-![](https://screensaver01.zap-hosting.com/index.php/s/kB59A5TGRomsse8/preview)
 
 
 Wenn jetzt eine Datei etc. im Client Ordner gelöscht wird, so verbleibt sie weiterhin im Backup Ordner. 
@@ -74,7 +68,7 @@ Es soll z.b täglich um 3 Uhr Morgens ein Backup erstellt werden:
 
 Crontab -e öffnen: 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/jyiTa3jEts3MK4H/preview)
+![](https://user-images.githubusercontent.com/61839701/166191606-3a05da59-82f7-439f-8f44-b94c4ba9d153.png)
 
 Mit der Ziffer 1 kann "nano" als Editor genutzt werden.
 Mit der Ziffer 2 kann "vim" als Editor genutzt werden. 
@@ -84,7 +78,9 @@ Ein Crontab kann z.b mit diesem [Generator](https://crontab-generator.org/) erst
 
 Der eingetragene Crontab sieht dann wie folgt aus: 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/fLKbCcYAQkFydH4/preview)
+ ```
+0 3 * * * rsync --progress -arz --delete -e  "ssh -i /home/sshkey/keybackup" /home/Client/ root@123.123.123.123:/home/Backup/Home-Server1/ >/dev/null 2>&1
+```
 
 Jeden Tag um 3 Uhr morgens wird der Befehl ausgeführt und es wird ein Backup erstellt. 
 
@@ -115,14 +111,6 @@ SSH Key angeben (Pfad)("ssh -i /home/sshkey/keybackup")= ssh -i /<Pfad zum Key>
 Zu sicherendes Verzeichnis angeben (/home/Client/)= /<Verzeichnis>
 RemoteHost(root@123.123.123.123:)= Login Name des Benutzers auf dem RemoteHost sowie Adresse angeben: name@IP/Domain
 Ziel Verzeichnis für die Daten auf dem RemoteHost(:/home/Backup/Home-Server1/)= :/<Pfad-zum-Ziel-Verzeichnis>
-
-Ausführen des Befehls: 
-
-![](https://screensaver01.zap-hosting.com/index.php/s/n3YMZgEWXrJsDct/preview)
-
-Der Ordner/ die Datei(en) wurde erfolgreicht syncronisiert/gesichert in das Remote Verzeichnis: 
-
-![](https://screensaver01.zap-hosting.com/index.php/s/BDNcNnwiENZR9bc/preview)
 
 Wenn jetzt eine Datei etc. im Client Ordner gelöscht wird, so verbleibt sie weiterhin im Backup Ordner auf dem Remote Host. 
 Da die Date aber immer 1:1 syncron sein sollen, kann der rsync Befehl leicht abgeändert werden, diese Änderung sorgt dann dafür das Daten etc. die im Client Ordner nicht mehr vorhanden sind auch im Backup Ordner auf dem Remote Host entfernt werden. 
@@ -157,7 +145,7 @@ Es soll z.b täglich um 3 Uhr Morgens ein Backup erstellt werden:
 
 Crontab -e öffnen: 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/3xpJKHSf9ZEdrBs)
+![](https://user-images.githubusercontent.com/61839701/166191606-3a05da59-82f7-439f-8f44-b94c4ba9d153.png)
 
 Mit der Ziffer 1 kann "nano" als Editor genutzt werden.
 Mit der Ziffer 2 kann "vim" als Editor genutzt werden. 
@@ -166,8 +154,9 @@ Nachem die Datei z.b mit Nano geöffnet wurde, kann ein Crontab generiert und ei
 Ein Crontab kann z.b mit diesem [Generator](https://crontab-generator.org/) erstellt werden. 
 
 Der eingetragene Crontab sieht dann wie folgt aus: 
-
-![](https://screensaver01.zap-hosting.com/index.php/s/xJXMjqGeWce4jDw/preview)
+ ```
+0 3 * * * rsync --progress -arz --delete -e  "ssh -i /home/sshkey/keybackup" /home/Client/ root@123.123.123.123:/home/Backup/Home-Server1/ >/dev/null 2>&1
+```
 
 Jeden Tag um 3 Uhr morgens wird der Befehl ausgeführt und es wird ein Backup erstellt. 
 

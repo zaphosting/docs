@@ -28,15 +28,15 @@ The best place to get these, are directly in their [discord](https://discord.gg/
 
 In this example, we will get the following plugin:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/PxLQEndgjTTtX8T/preview)
+![image](https://user-images.githubusercontent.com/13604413/159183661-4e3c22ac-4d4b-44d2-b74c-4f521d581ac0.png)
 
 ### Uploading Plugins
 
 Once you have your wanted plugins installed, you will then upload them to your server FTP. You can upload them via **drag&drop** into the **sm_plugins folder.**
 
-![](https://screensaver01.zap-hosting.com/index.php/s/KBCCmeBn8LqWszZ/preview)
+![image](https://user-images.githubusercontent.com/13604413/159183662-b9032125-b4d6-46dd-aba2-e34f1f70762a.png)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/KDJtsQNp73WtkRW/preview)
+![image](https://user-images.githubusercontent.com/13604413/159183666-e5ed02fb-c7e3-44bd-83e7-2ecb99a8befe.png)
 
 > Note: After any plugin installation, you will have to **restart your server** for them **to take affect.**
 

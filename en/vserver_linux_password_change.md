@@ -9,7 +9,7 @@ sidebar_label: Change Password
 
 The password can be changed via our web interface. Open the page "Access and Security", which you can find at the left of the navigation.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/DFNK29ndSq84XmY/preview)
+![](https://user-images.githubusercontent.com/61839701/165682186-8ebee656-d0d1-4697-bef7-b93877549aee.png)
 
 The root password field is located there where the desired password can be set. 
 
@@ -17,7 +17,7 @@ The root password field is located there where the desired password can be set.
 
 After the password has been entered, a pop-up message appears which can be confirmed with "ok". 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/YLaknHS8L42e5s8/preview)
+![](https://user-images.githubusercontent.com/61839701/165682312-00ebebbb-1f93-492a-ae53-56a8d689afe0.png)
 
 If all requirements are met, the system will confirm that the password has been successfully changed. 
 
@@ -27,7 +27,7 @@ If all requirements are met, the system will confirm that the password has been 
 
 From now on, the password can be viewed in our web interface for 3 hours. After that it will be deleted due to security reasons. To view the password, just click on the eye icon at "Password"
 
-![](https://screensaver01.zap-hosting.com/index.php/s/e9aQDLjDC9AbCRi/preview)
+![](https://user-images.githubusercontent.com/61839701/165682372-657ce47d-ff36-4ec2-892a-5fba1f02d996.png)
 
 Afterwards a pop-up window appears where the password is displayed.
 

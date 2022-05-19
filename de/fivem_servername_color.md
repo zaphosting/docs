@@ -11,21 +11,19 @@ sidebar_label: Servernamen färben
 
 Damit der Fivem Servername unter "**Configs**" bearbeitet werden kann, muss dieser vorher bei "**Einstellungen**" leer gelassen werden.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/TtX7XxtyJZWoTtg/preview)
+![image](https://user-images.githubusercontent.com/13604413/159138187-8ca712ab-7a1f-4595-8e34-814ddd6a7eab.png)
 
 In diesem Einstellungsfenster kann nun das Schloss-Symbol betätigt werden um die Einstellungen in der "**Config**" vornehmen zu können.
 Die Änderungen werden durch Nutzen des "**Speichern**" Buttons übernommen.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/2bnGcdBisPmBqfK/preview)
-
 Nun kann der Servername mit den gewünschten Codes in der "**Server.cfg**" gesetzt werden. 
 Diese befindet sich bei der Kategorie "**Configs**" 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/cMic2zTf9mKXDHW/preview)
+![image](https://user-images.githubusercontent.com/13604413/159138210-294e1683-551d-46d5-b5e2-7e8919e71e2e.png)
 
 Der Servername und die gewünschten Farbcodes werden nun bei `sets sv_projectName "DEIN SERVERNAME"` gesetzt.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/RfiEfZ8gPiM4rxk/preview)
+![image](https://user-images.githubusercontent.com/13604413/159138205-d97a8017-e602-4e26-81af-c59055f4ff02.png)
 
 ## Farben/ Farbcodes
 

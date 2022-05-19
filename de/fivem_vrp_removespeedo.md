@@ -11,11 +11,9 @@ sidebar_label: Speedometer Entfernen
 
 Zuerst muss der [FTP-Zugang](gameserver_ftpaccess.md) eingerichtet werden:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/7pzj7cyGawdJAgi/preview)
+![image](https://user-images.githubusercontent.com/13604413/159137870-82291650-2fbe-4c53-be81-19f8552069c4.png)
 
-Nachdem dieser eingerichtet wurde, kann sich nun verbunden werden und der Server Ordner geöffnet werden:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/yzwyxpX8aTjBHcJ/preview)
+Nachdem dieser eingerichtet wurde, kann sich nun verbunden werden und der Server Ordner geöffnet werden.
 
 Hier öffnen wir folgenden pfad: `gta5-fivem/server-data/resources/CustomScripts/cfg/config.lua`
 

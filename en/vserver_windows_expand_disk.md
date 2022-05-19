@@ -5,42 +5,47 @@ description: Information on how to expand the hard disk of your Windows VPS from
 sidebar_label: Extend disk
 ---
 
-## 💾Add Hard disk space via the CMD console
+After upgrading your ZAP Windows vServer, it may be necessary to add the new storage to your existing partition.
 
-To expand your hard disk via the console, you need to connect to the server via RDP. After that, enter **CMD** in the search line.
+> ⚠️ Don't worry, this step will not delete any data.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/MbsLCraiLENS3fZ/preview)
+## 💾 Extend the partition
 
-Now you enter the following commands one after the other: 
-1. **DISKPART**
-2. **select volume 2**
-3. **extend filesystem**
+![](https://screensaver01.zap-hosting.com/index.php/s/63wNzRxDy36rT3E/download/Extend.gif)
 
-Then the hard disk was extended.
+Press `Windows key` + `R` and type. 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/kkZeG4eMqXZNoyB/preview)
+```diskmgmt.msc``` and confirm with `Enter`
 
-## Add 💾Add Hard disk space via the settings
+![](https://screensaver01.zap-hosting.com/index.php/s/NBSLGqCNZDtebdS/preview)
 
-To expand your hard disk using the Windows settings, you must enter **hard disk** in the search line. Then the suggestion **Create and format hard disk partition** appears.
+***
+Now the **Disk management** opens. Here you have the possibility to adjust partitions.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/EfxjPn2ENLCcp4c/preview)
+Click with **right click** on the already existing partition and select (1) Extend Volume
 
-There you can see which memory has not yet been allocated. To include it now, you just have to do a **right click** and then **extend volume...**.
+![](https://screensaver01.zap-hosting.com/index.php/s/nWMStW6T74SrrRe/preview)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/AZsmjmsYFBwooDs/preview)
+***
 
-Then simply click through the pages by clicking on **Continue** and then on **Finish**.
+Now the wizard opens to extend volumes:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SEaPTzboQcfRiy8/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/NFk59pimy4dFdAk/preview)
 
-Now the extended memory can be viewed and used.
+Start the wizard by clicking (1) **Next**.
 
+***
 
+![](https://screensaver01.zap-hosting.com/index.php/s/QQpqeNEPdNnixXD/preview)
 
+The available disk space will be detected automatically, you just have to continue with (1) **Next**.
 
+***
 
+![](https://screensaver01.zap-hosting.com/index.php/s/rNKzKmGzXYf5tos/preview)
 
+Now finish the wizard with (1) **Finish**.
 
+> 💚 Your disk partition is now enlarged by the new space!
 
-
+![](https://screensaver01.zap-hosting.com/index.php/s/M46ca4FkeG42AZz/preview)

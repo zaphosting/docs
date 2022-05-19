@@ -32,13 +32,13 @@ Gerade für sensiblere Daten ist diese Konfiguration sehr empfehlenswert, dennoc
 
 Zuerst muss der Konfigurator für RAIDs aufgerufen werden, dies wird mit `F8` während dem Bootprozess erledigt.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/9srD7FgQkkbp9MA/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/cYzj7L6dL5g7255/preview)
 
 Drücke `F8` an dieser Stelle des Bootvorgangs
 
 ***
 
-![](https://screensaver01.zap-hosting.com/index.php/s/dm9PNkQNYTjb3nA/preview)
+![image](https://user-images.githubusercontent.com/13604413/159174280-cc8ed679-8e8e-4aca-a274-e4d30f1cdc46.png)
 
 Nach einigen Sekunden wird die Konfigurationsoberfläche geladen
 
@@ -55,11 +55,11 @@ Hier kann die aktuelle RAID-Konfiguration eingesehen werden.
 ***
 RAID0
 
-![](https://screensaver01.zap-hosting.com/index.php/s/NirypdWZffbTAAq/preview)
+![image](https://user-images.githubusercontent.com/13604413/159174281-0fe86927-7543-40cf-af2e-3918b0501fb5.png)
 
 RAID1
 
-![](https://screensaver01.zap-hosting.com/index.php/s/kxjN5jrxB9SKNjd/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/749Kxjq6Mkzdc69/preview)
 ***
 
 * Delete Logical Drive
@@ -80,13 +80,13 @@ Was einen minimalen Leistungsnachteil verursacht.
 
 Zuerst stellen wir sicher das kein Volume erstellt wurde, hierzu öffnen wir `Delete Logical Drive`
 
-![](https://screensaver01.zap-hosting.com/index.php/s/J35NgxcjYGNCfE9/preview)
+![image](https://user-images.githubusercontent.com/13604413/159174286-c6802e19-befd-46dc-a856-65e9fc6265e5.png)
 
 Wir drücken `F8` um das bestehende RAID zu löschen.
 
 ***
 
-![](https://screensaver01.zap-hosting.com/index.php/s/zroezRTe7My3Tye/preview)
+![image](https://user-images.githubusercontent.com/13604413/159174291-2fc9d81f-cc48-4ecb-9043-2ec29b61d322.png)
 
 Mit `F3` bestätigen wir das löschen erneut
 
@@ -94,7 +94,7 @@ Mit `F3` bestätigen wir das löschen erneut
 
 Nachdem das RAID erfolgreich gelöscht wurde öffnen wir `Create Logical Drive`
 
-![](https://screensaver01.zap-hosting.com/index.php/s/6LeniycPw4HWzrS/preview)
+![image](https://user-images.githubusercontent.com/13604413/159174294-c7c8de68-61ba-4cdd-8afa-ede25b850322.png)
 
 Hier kannst du alle deine SSDs sehen und hast eine Auswahl der RAID-Konfigurationen.
 Natürlich sind nicht alle dieser RAIDs in der aktuellen Konstellation umsetzbar.
@@ -113,16 +113,16 @@ Sofern dein RAID in irgendeiner Form modifiziert wurde muss zwingend zum Abschlu
 Dies kann unter **Select Boot Volume** erledigt werden, wähle hierbei dein Speichermedium, andernfalls wird der Server in einer Bootschleife hängen.
 
 **Select Boot Volume**<br>
-![](https://screensaver01.zap-hosting.com/index.php/s/KWF23AaBEYWy7rc/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/2GDEYfjnkmaKF9F/preview)
 ***
 **Direct Attached Storage**<br>
-![](https://screensaver01.zap-hosting.com/index.php/s/dJTmtKYY2mzAPTW/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/2468ZCGkr2ninxM/preview)
 ***
 **Logical Drive 01**<br>
-![](https://screensaver01.zap-hosting.com/index.php/s/2yBfqmFxsoQsqj6/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/tN6pRiJbZexbzmg/preview)
 ***
 **Press `F8` to save as bootvolume**<br>
-![](https://screensaver01.zap-hosting.com/index.php/s/zejQrDoTYz8QtkA/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/tqGFzGZGgeo4JjZ/preview)
 
 Danach hast du die Möglichkeit mit `F8` direkt dein System neuzustarten oder mit `Enter` weitere Einstellungen im RAID-Manager vorzunehmen.
 Bedenke dass das Boot Volume **immer** nach Veränderungen deines RAIDs angepasst werden muss.

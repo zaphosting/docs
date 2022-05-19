@@ -15,14 +15,14 @@ Next you need the Plesk Installer, which is required for the installation of Ple
 
 This installer is now stored in a folder, in our example we use a "Plesk" folder created on our desktop. The path to this file would be important for the next steps.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/Jyywa67MEpK9Lro/preview)
+![](https://user-images.githubusercontent.com/61839701/166202787-3ce5f5bd-ab1d-4d72-9316-703136e92f18.png)
 
 ### Open Command Prompt
 
 The CMD console must now be opened for the installation.
 This would go over the key combination [Windows] + [R] or also if one searches "command" in the windows console. 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/Wn3P7TXLpi7KYok/preview)
+![](https://user-images.githubusercontent.com/61839701/166202804-694e3d29-dc3c-4963-9d3d-2c1abf5c1784.png)
 
 ### Plesk Installation
 
@@ -30,11 +30,11 @@ In this CMD console you have to navigate to the directory into which the Plesk i
 
 This directory is accessed via CMD with the "*cd*" command.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/6GKnwJn9WMGi58G/preview)
+![](https://user-images.githubusercontent.com/61839701/166202847-222f8fb2-a776-4d53-ae5d-77470eb184a7.png)
 
 Correctly in this directory, the last step would be the execution of the installer command. This would run Plesk-installer.exe and the latest Plesk version would be installed automatically.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/QAeHoJJ9T2dXxCk/preview)
+![](https://user-images.githubusercontent.com/61839701/166202878-f14baaa5-0405-40b3-ab5b-ac4d49bf76a8.png)
 
 Command: `plesk-installer.exe --select-product-id=panel --select-release-latest --installation-type=recommended`
 

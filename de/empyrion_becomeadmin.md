@@ -13,7 +13,7 @@ Die ID wird später in die Konfigurationsdatei eingetragen.
 
 Hier ist ein Beispiel zu sehen, wie die Steam64ID lokalisiert wird.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/EQHnQxyBxYyxcGY/preview)
+![image](https://user-images.githubusercontent.com/13604413/159184139-e07456a3-965e-4e66-9aed-11a3a1cc9f76.png)
 
 ## 📃 Admin Konfig konfigurieren
 

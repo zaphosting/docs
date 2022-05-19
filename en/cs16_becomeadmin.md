@@ -30,7 +30,7 @@ Afterwards, the URL must be typed in one of the following websites:
 - https://steamidfinder.com/
 - https://steamid.io/
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/Yxg52KfYA3rMDQj/preview)
+![image](https://user-images.githubusercontent.com/13604413/159179089-7c731c8b-9e85-4d9d-a6f0-2748752e6537.png)
 
 
 

@@ -89,7 +89,8 @@
                     "vserver_linux_ssl",
                     "vserver_linux_rsync",
                     "vserver_linux_jitsi",
-                    "vserver_linux_webserver"
+                    "vserver_linux_webserver",
+                    "vserver_linux_xrdp"
                 ]
             },
             {
@@ -271,8 +272,7 @@
             "altv_installresources"
         ],
         "Satisfactory": [
-            "satisfactory_connect_experimental",
-            "satisfactory_savegame"
+            "satisfactory_connect_experimental"
         ],
         "Terraria": [
             "terraria_tshock_add_admin",
