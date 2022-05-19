@@ -812,6 +812,10 @@
         "title": "VPS: Installing Nginx and Apache Webserver",
         "sidebar_label": "Install webserver"
       },
+      "vserver_linux_xrdp": {
+        "title": "vServer/Dedicated Server: Installing xRDP (Remote Desktop)",
+        "sidebar_label": "Linux Remotedesktop (xRDP)"
+      },
       "vserver_network_analysis_winmtr": {
         "title": "VPS: Network analysis with MTR/WinMTR",
         "sidebar_label": "Network analysis MTR/WinMTR"
