@@ -76,7 +76,7 @@ Dafür muss "login anonymous" eingegeben werden.
 ![image](https://user-images.githubusercontent.com/61839701/169506398-1b9d0538-46e0-47b0-9500-86689a16d36f.png)
 
 Soweit das abgeschlossen ist, können wir jetzt endlich die Spieldateien herunterladen.
-Das geht mit dem folgenden Befhel:
+Das geht mit dem folgenden Befehl:
 ``app_update 1829350 validate``
 
 Die Dateien werden im Anschluss heruntergeladen, der Vorgang kann einige Minuten in Anspruch nehmen.
