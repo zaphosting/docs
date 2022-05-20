@@ -46,7 +46,7 @@ Make a right click on the steamcmd.zip File now and choose Extract All. Accept t
 
 ![image](https://user-images.githubusercontent.com/61839701/169503185-c5eca884-9bf1-4b84-a916-35ee0c93505e.png)
 
-![image]([https://user-images.githubusercontent.com/61839701/169503433-3f9558f2-600a-4be0-8ce7-24eca7195ba1.png
+![image](https://user-images.githubusercontent.com/61839701/169503433-3f9558f2-600a-4be0-8ce7-24eca7195ba1.png)
 
 Once that is done, make a doubleclick on the steamcmd file.
 A new window should be opened now, installing the steamcmd files.
