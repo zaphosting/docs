@@ -876,6 +876,10 @@
         "title": "VPS: Initial access to Windows Server with RDP",
         "sidebar_label": "Initial access (RDP)"
       },
+      "vserver_windows_vrising.md": {
+        "title": "vServer: Install V-Rising  on Windows",
+        "sidebar_label": "V-Rising"
+      },
       "webspace_adddomain": {
         "title": "Webspace: Add a domain",
         "sidebar_label": "Add Domain"
