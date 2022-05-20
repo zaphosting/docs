@@ -1,5 +1,5 @@
 ---
-id: vserver_windows_vrising.md
+id: vserver_windows_vrising
 title: vServer: Install V-Rising  on Windows
 description: Information on how to install and set up a V-Rising Server on your Windows vServer and Dedicated Server from ZAP-Hosting - ZAP-Hosting.com Documentations
 sidebar_label: V-Rising
