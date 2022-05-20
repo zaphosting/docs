@@ -108,7 +108,8 @@
                     "vserver_windows_change_language",
                     "vserver_windows_expand_disk",
                     "vserver_windows_fs_19",
-                    "vserver_windows_fs_22"
+                    "vserver_windows_fs_22",
+                    "vserver_windows_vrising"
                 ]
             }
         ],
