@@ -7,7 +7,7 @@ sidebar_label: V-Rising
 
 <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/VGVPt0cmgTg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
 
-# Installing a dedicated server for Farming Simulator 2022
+# Installing a dedicated server for V-Rising
 
 > :information_source: These instructions are also valid for a Dedicated Server from ZAP-Hosting with Windows Server 2016/2019. How to install Windows on a Dedicated Server we explain [here](https://zap-hosting.com/guides/docs/en/dedicated_windows/).
 
@@ -20,7 +20,7 @@ First, you need to connect to your server by using [RDP](https://zap-hosting.com
 In this example, we will create a new Folder on our Desktop.
 This can be done by making a right mousclick.
 Then choose "New -> Folder".
-![image]([https://user-images.githubusercontent.com/13604413/159173431-deafbefa-f186-4acc-9605-1d980142c5c0.png](https://user-images.githubusercontent.com/61839701/169501564-26497f2b-658f-43c9-b9b8-213c059bae1b.png))
+![image](https://user-images.githubusercontent.com/61839701/169501564-26497f2b-658f-43c9-b9b8-213c059bae1b.png)
 
 You can name it whatever you want. In our example we will name it "VRising"
 
@@ -28,18 +28,18 @@ You can name it whatever you want. In our example we will name it "VRising"
 
 Open the browser and go to the [link](https://steamcdn-a.akamaihd.net/client/installer/steamcmd.zip). That will download SteamCMD for Windows to your Server.
 
-![image]([https://user-images.githubusercontent.com/13604413/159173433-c3c90cb4-0c5c-4e60-a61c-ce150e5b99f2.png](https://user-images.githubusercontent.com/61839701/169502302-e7914931-d11b-4ffb-856c-2d14aef993e4.png))
+![image](https://user-images.githubusercontent.com/61839701/169502302-e7914931-d11b-4ffb-856c-2d14aef993e4.png)
 
 The file will then be downloaded and should be located in the download directory. (The download directory can be different)
 
-![image]([https://user-images.githubusercontent.com/13604413/159173436-409b2130-0165-424f-bbff-996f7b149730.png](https://user-images.githubusercontent.com/61839701/169502419-07b532b6-c27e-46f5-b61e-9e73940df789.png))
+![image](https://user-images.githubusercontent.com/61839701/169502419-07b532b6-c27e-46f5-b61e-9e73940df789.png)
 
 For overview purposes we copy the steamcmd.zip file into the VRising folder we created earlier on our desktop.
 To do this, click on the file and press the key combination "CTRL+C".
 Then open the VRising folder on our desktop and press the key combination "CTRL+V".
 Now you can see the file in the VRising folder.
 
-![image]([https://user-images.githubusercontent.com/13604413/159173444-037c1c40-e2a1-4551-9aaf-bc2aa402c9d0.png](https://user-images.githubusercontent.com/61839701/169503028-300c9585-f1d8-42bf-ae89-b2e42ffccfe2.png))
+![image](https://user-images.githubusercontent.com/61839701/169503028-300c9585-f1d8-42bf-ae89-b2e42ffccfe2.png)
 
 Make a right click on the steamcmd.zip File now and choose Extract All. Accept the upcoming message by clicking on the Extract Button.
 ![image](https://user-images.githubusercontent.com/61839701/169503185-c5eca884-9bf1-4b84-a916-35ee0c93505e.png)
