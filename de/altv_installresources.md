@@ -42,7 +42,7 @@ Nachdem diese hochgeladen wurde, muss die server.cfg im gta5-altv-linux Ordner g
 Unter den restlichen Starteinträgen für Ressourcen kann nun der Eintrag für unsere resource, in diesem Fall "altV-3D-Speedo", hinzugefügt werden:
 
 
-![](![image](https://user-images.githubusercontent.com/13604413/169707378-85eb7c30-aba5-4b17-8b5f-4ed931aee14d.png))
+![image](https://user-images.githubusercontent.com/13604413/169707378-85eb7c30-aba5-4b17-8b5f-4ed931aee14d.png)
 
 > Beachte: Es muss nach jeder Zeile in dieser liste, außer bei der letzten, ein Komma stehen.
 
