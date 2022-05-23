@@ -6,7 +6,7 @@ sidebar_label: Partner Guide
 ---
 
 ## 🤝 Welcome to the partner program
-Your application has arrived and we have sent you a confirmation? **Then welcome to our ZAP partner program! From now on you belong to a carefully selected team of influencers who officially represent our products and our company. 
+Your application has arrived and we have sent you a confirmation? **Then welcome to our ZAP partner program!** From now on you belong to a carefully selected team of influencers who officially represent our products and our company. 
 
 But to be able to do this adequately, you need a small overview of the **Do's and Don'ts**, as well as a good equipment with graphics and contact persons. Let's start with our requirements for our partners.
 
