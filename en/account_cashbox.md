@@ -1,7 +1,7 @@
 ---
 id: account_cashbox
 title: Cashbox - Deposit money at ZAP-Hosting.com
-description: Instructions on how to use the Cashbox to deposit money into your Zap-Hosting account - ZAP-Hosting.com Documentation
+description: Instructions on how to use the Cashbox to deposit money into your ZAP-Hosting account - ZAP-Hosting.com Documentation
 sidebar_label: Cashbox
 ---
 
@@ -34,7 +34,7 @@ To activate the automatic payment, you only have to click on **Automatical cash 
 ![image](https://user-images.githubusercontent.com/13604413/159164715-4f2331a4-cff7-4a20-9065-d0c3a39938e5.png)
 
 
-## 🎟️ How do I redeem a voucher for credit?
+## 🎟️ How do I redeem a voucher for ZAP Coins?
 
 To redeem a voucher you only have to press the **Use Voucher** button: 
 
