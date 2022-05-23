@@ -14,7 +14,7 @@ Um dich als Partner zu bewerben, klicke auf unserer [Partnerseite](https://zap-h
 
 ## 👦 An wen richtet sich das Partnerprogramm?
 Das Partnerprogramm richtet sich an:
-- Content Creator
+- Content Creators
 - Gaming Clans
 - eSports Clans
 - Gaming Communities
@@ -35,6 +35,6 @@ Als Partner von ZAP-Hosting kannst du folgende Vorteile erhalten:
 
 - Du erhältst einen persönlichen Account-Manager, der als Ansprechpartner dient und beispielsweise verschiedene Aktionen mit dir plant.
 - Du kannst kostenfreie Server von uns gestellt bekommen.
-- Du kannst bessere Provisionbedingungen erhalten.
-- Für Events und Aktionen stellen wir gerne Gewinne (z. B. ZAP-Guthaben, Server, Hardware) bereit.
+- Du kannst bessere affiliate Provisionbedingungen erhalten.
+- Für Events und Aktionen stellen wir gerne Gewinne (z. B. ZAP Coins, Server, Hardware) bereit.
 - Du wirst auf unserer [Partnerseite](https://zap-hosting.com/de/partner/) verlinkt.
