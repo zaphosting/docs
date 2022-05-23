@@ -1,7 +1,7 @@
 ---
 id: account_cashbox
 title: Cashbox - Geld bei ZAP-Hosting.com einzahlen
-description: Anleitung, wie du die Cashbox benutzt, um Geld auf dein Zap-Hosting Kundenkonto einzuzahlen - ZAP-Hosting.com Dokumentationen
+description: Anleitung, wie du die Cashbox benutzt, um Geld auf dein ZAP-Hosting Kundenkonto einzuzahlen - ZAP-Hosting.com Dokumentationen
 sidebar_label: Cashbox
 ---
 
@@ -34,7 +34,7 @@ Um die automatische Zahlung zu aktivieren, muss lediglich auf **Guthaben automat
 ![image](https://user-images.githubusercontent.com/13604413/159164492-19d1e735-9d74-47b1-8b0f-cdec02cf7216.png)
 
 
-##  🎟️ Wie löse ich einen Gutschein für Guthaben ein?
+##  🎟️ Wie löse ich einen Gutschein für ZAP Coins ein?
 
 Für das Einlösen eines Gutscheines muss lediglich der **Gutschein einlösen** Knopf gedrückt werden: 
 
