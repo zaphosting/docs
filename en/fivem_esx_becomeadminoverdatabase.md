@@ -14,31 +14,25 @@ Here's what we do.
 
 **1** Select Database TAB
 
-![](https://screensaver01.zap-hosting.com/index.php/s/otNqNWHxMcdkpes/preview)
+![](https://user-images.githubusercontent.com/61839701/170336190-734ed2f3-d15e-4ec3-b65b-06e15be710bf.png)
 
 **2** Click on Manage
 
-![](https://screensaver01.zap-hosting.com/index.php/s/s5dy3G4ty4mAmPn/preview)
+![](https://user-images.githubusercontent.com/61839701/170336314-313d0933-c623-4807-9fd7-7dcaf39739a9.png)
 
 **3** Login with our data
 
 If necessary login with our data which we find here:
-![](https://screensaver01.zap-hosting.com/index.php/s/f574YrdrrfxTt7k/preview)
+![](https://user-images.githubusercontent.com/61839701/170336408-2dc1282f-ba45-4f50-a4bc-d80e332706e9.png)
 
 **4** Open the users table
 
-![](https://screensaver01.zap-hosting.com/index.php/s/n5pmgw9FbosisBF/preview)
+![](https://user-images.githubusercontent.com/61839701/170336447-7818172c-4015-4b8e-ae59-e6cec38d4a9a.png)
 
 **5** Find our Character
 
-Now we look for our character and then press *Edit* 
-![](https://screensaver01.zap-hosting.com/index.php/s/CGLK7BboSDKoqcR/preview)
-
-**6** Assign Superadmin Rank
-
-Now we scroll down until we reach the point *group*
-![](https://screensaver01.zap-hosting.com/index.php/s/G6Fp9MS9eBBz4fi/preview)
-
-here we now change it to `admin`.
+Now we look for our character and make a doubleclick in the group column.
+Enter "admin" in there.
+![](https://user-images.githubusercontent.com/61839701/170336566-70ef56a1-839e-4d18-9b6d-d7b47d29f876.png)
 
 That's about it. Now you are admin on your own server
