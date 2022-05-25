@@ -13,8 +13,6 @@ Click your Minecraft server on the server overview. Then select the Plugins tab,
 
 > Make sure your current game is Spigot or Bukkit. The plugin uploader is only available there.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/85EQDC4yFMRDP9J/preview)
-
 ## 🔼 Install/Upload Plugins
 
 There are two different ways you can install a plugin on your Minecraft server.
@@ -26,17 +24,15 @@ There are two different ways you can install a plugin on your Minecraft server.
 
 Select your desired plug-in from the "All plugins" list and click on the green "Install" button. The installation may take a moment depending on the size of the plug-in.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/R5nmsdPRsyzfERe/preview)
+![](https://user-images.githubusercontent.com/61839701/170331439-f78360fb-ddb3-4278-bd1b-f86ee88b8a9d.png)
 
 ###  Upload your own Plugin
 
 Drag the desired plugin .jar file into the box marked on the picture. It is also possible to drag and install several plugins into this area at the same time.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/6ws2Nn3B8tLDBEC/preview)
+![](https://user-images.githubusercontent.com/61839701/170331518-03585cc4-db01-4221-8073-246084a959ed.png)
 
 If you have dragged the plugin into the upload field, it takes a moment until the plugin is on the server.
-
-![](https://screensaver01.zap-hosting.com/index.php/s/QTFFSNRDcWyHyjk/preview)
 
 In order to be able to use the plugin you have to reload your server with the command `/rl` or `/reload` via your game server console (or restart the entire server).
 
@@ -45,7 +41,7 @@ In order to be able to use the plugin you have to reload your server with the co
 
 ## 🚮 Uninstall Plugin
 
-![](https://screensaver01.zap-hosting.com/index.php/s/XHHeAwj5HWyREH6/preview)
+![](https://user-images.githubusercontent.com/61839701/170331549-c08e53b1-6ba1-4cbf-95c9-ea20585977f0.png)
 
 To uninstall a plugin, click on the red bin next to the entry.
 
@@ -54,8 +50,6 @@ To uninstall a plugin, click on the red bin next to the entry.
 To do this, click on the green button with the lock behind an installed plugin. If the button changes its color from green to orange, you have deactivated your plugin. The other way around, you activate your plugin again. The plugin file is still on the server after deactivation, but is no longer loaded by the game server.
 
 > After you have deactivated your plugin, you have to reload the server once for the changes to take effect. Use one of the following two commands in your game server console or in-game: `/rl` or `/reload`
-
-![](https://screensaver01.zap-hosting.com/index.php/s/PzrodHsLynxCxL8/preview)
 
 ## 🆘 Common Problems
 
@@ -84,7 +78,7 @@ Suggested solutions:
 
 - There may not be a current version of this plugin for the currently installed version of your game server. To request a plugin, use the blue button Plugin missing ?.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/cJ6H7XfgAXEaZLW/preview)
+![](https://user-images.githubusercontent.com/61839701/170331621-3befcec0-b4d3-46f3-b8df-78aeb303a1a6.png)
 
 ### The Uninstall/Install in the pre-made list does not seem to work.
 
