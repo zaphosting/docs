@@ -13,8 +13,6 @@ Klicke auf der Serverübersicht auf deinen Minecraft Server. Wähle dann den Rei
 
 > Stelle sicher, dass dein aktuelles Spiel Spigot oder Bukkit ist. Nur dort ist der Plugin Uploader verfügbar.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/kxiTWiqjemJHGDo/preview)
-
 ## 🔼 Plugin installieren / hochladen
 
 Es gibt zwei verschiedene Möglichkeiten, wie du ein Plugin auf deinem Minecraft Server installieren kannst. 
@@ -26,17 +24,15 @@ Es gibt zwei verschiedene Möglichkeiten, wie du ein Plugin auf deinem Minecraft
 
 Wähle aus der Liste "Alle Plugins" dein Wunschplugin aus und klicke auf den grünen Button "Installieren". Die Installation kann je nach Plugingröße einen Augenblick dauern.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/PzAxF86fKjqgfd3/preview)
+![](https://user-images.githubusercontent.com/61839701/170331189-08e40996-da59-4cd0-9cd4-9dfea46af331.png)
 
 ###  Eigenes Plugin hochladen 
 
 Ziehe die gewünschte Plugin .jar Datei in die auf dem Bild markierte Box. Es ist auch möglich mehrere Plugins gleichzeitig in diesen Bereich zu ziehen und zu installieren.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/5Er5m3zTnkS8b5B/preview)
+![](https://user-images.githubusercontent.com/61839701/170331249-e5eae815-f38c-4291-b5f1-0867a18dd5ad.png)
 
 Hast du das Plugin in das Uploadfeld gezogen, dauert es einen Augenblick, bis sich das Plugin auf dem Server befindet.
-
-![](https://screensaver01.zap-hosting.com/index.php/s/fYYp8pyKgw39CSM/preview)
 
 Um das Plugin nun nutzen zu können musst du deinen Server mit dem Befehl `/rl` oder `/reload` über deine Gameserver Konsole neu laden (oder den gesamten Server neu starten). 
 
@@ -44,7 +40,7 @@ Um das Plugin nun nutzen zu können musst du deinen Server mit dem Befehl `/rl` 
 
 ## 🚮 Plugin deinstallieren
 
-![](https://screensaver01.zap-hosting.com/index.php/s/TTz4emfpGwnGFCM/preview)
+![](https://user-images.githubusercontent.com/61839701/170331287-2511ab44-6127-4a19-8761-a0bd6780b908.png)
 
 Um ein Plugin zu deinstallieren, klicke auf die rote Mülltone neben dem Eintrag.
 
@@ -53,8 +49,6 @@ Um ein Plugin zu deinstallieren, klicke auf die rote Mülltone neben dem Eintrag
 Klicke dazu hinter einem installierten Plugin auf den grünen Button mit dem Schloss. Wechselt der Button seine Farbe von grün zu orange, hast du dein Plugin deaktiviert. Andersherum aktivierst du dein Plugin wieder. Die Plugindatei befindet sich nach dem Deaktivieren weiterhin auf dem Server, wird jedoch vom Gameserver nicht mehr geladen.
 
 > Nachdem du dein Plugin deaktiviert hast, musst du den Server einmal reloaden, damit die Änderungen wirksam werden. Verwende dazu einen der beiden folgenden Befehle in deiner Gameserverkonsole oder Ingame: `/rl` oder `/reload`
-
-![](https://screensaver01.zap-hosting.com/index.php/s/z27KeAzLiHrLZyd/preview)
 
 ## 🆘 Häufige Probleme
 
@@ -83,7 +77,7 @@ Lösungsvorschläge:
 
 - Für die aktuell installierte Version deines Gameservers gibt es möglicherweise keine aktuelle Version dieses Plugins. Um dir ein Plugin zu wünschen, benutze den blauen Button Plugin fehlt?.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/cDkt3pz5cFrsG2E/preview)
+![](https://user-images.githubusercontent.com/61839701/170331324-c63b78fb-5bfa-4355-81ac-3d01f25bb910.png)
 
 ### Das Neu-/De-/Installieren in der vorgefertigten Liste scheint nicht zu funktionieren.
 
