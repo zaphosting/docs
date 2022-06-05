@@ -95,11 +95,13 @@ $	apt install jitsi-meet
 
 During the installation you will be asked to enter a hostname. Enter the subdomain you created for your Jitsi Meet server here In the example of our test server, this is: meet.zap-testdomain.de
 
-![](https://screensaver01.zap-hosting.com/index.php/s/ngR66yS4xGPz4Ha/preview)
+![image](https://user-images.githubusercontent.com/13604413/172061367-4edb06c0-46ff-4c50-a913-77e9f72e5955.png)
+
 
 Confirm the input with "Ok". A new window will open asking her whether a self-signed TLS certificate should be created or an existing one should be used. Select the option "Generate a new self-signed certificate":
 
-![](https://screensaver01.zap-hosting.com/index.php/s/idBqGzgTcptRo8j/preview)
+![image](https://user-images.githubusercontent.com/13604413/172061376-1a4489b5-eb67-4d67-b8a8-143e704d9e39.png)
+
 
 The installation of Jitsi Meet is now complete and all you need to do is retrieve the TLS certificate.
 Install the package Certbot:

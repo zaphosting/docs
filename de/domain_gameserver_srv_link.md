@@ -37,11 +37,11 @@ mit einem **Unterstrich** und lautet entweder **_udp** oder **_tcp**.
 Um deine Domain ohne die Erstellung einer Subdomain auf einen Gameserver weiterzuleiten, öffnest du zuerst deine Domain indem du
 im Dashboard auf diese klickst, anschließend öffnest du die DNS-Verwaltung über das Menü auf der linken Seite.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/4X38fmafBRHt5dG/preview)
+![image](https://user-images.githubusercontent.com/13604413/172062132-fbd375ad-4fee-4c28-af6f-370005f560eb.png)
 
 Dort siehst du nun alle bereits vorhandenen DNS Einträge für deine Domain.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/pBxr2seQiFqNyom/preview)
+![image](https://user-images.githubusercontent.com/13604413/172062190-77af42af-4639-4908-91d5-1320684049a9.png)
 
 ## ⛏ Weiterleitung der Domain für Minecraft
 Zunächst muss für die korrekte Weiterleitung auf Minecraft Server sowohl IP und Port von dem Minecraft Server rausgesucht werden auf welchen weitergeleitet werden soll.
@@ -52,45 +52,33 @@ In unserem Beispiel nutzen wir als Domainnamen die "testserver-domain.de", als S
 ### Erstellung A Record
 Für die Erstellung von einem neuen Record muss der Button "**Neuer Eintrag**" genutzt werden.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/DAobcpEmfk8Apbz/preview)
-
 Dabei öffnet sich dann ein Fenster mit vier Feldern welche befüllt werden müssen:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/nzZje7jpwxpEsNZ/preview)
+![image](https://user-images.githubusercontent.com/13604413/172062215-06dc635b-eec9-4ad2-9901-0b7554b7e7b9.png)
 
 Der "**Name**" ist die Haupt- oder auch Subdomain über welche die Weiterleitung auf die IP erfolgt, dieser Name ist frei wählbar. Der "**Typ**" wird in diesem Schritt auf "**A**" belassen. Bei dem "**Wert**" muss dann nur noch die IP von dem Minecraft Server eingetragen werden welche vorher rausgesucht wurde.
 In unserem Beispiel sieht es daher wie folgt aus.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SRjQ9N5ZKPGdwCw/preview)
-
-Sobald gespeichert wird dieser Eintrag auch korrekt angezeigt:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/z5MNifTEEECApEb/preview)
+![image](https://user-images.githubusercontent.com/13604413/172062230-a8019e62-9c82-4601-af01-ac5340c1cba5.png)
 
 ### Erstellung SRV Record
 Nun muss noch ein SRV Record erstellt werden, dieser dient zur Portweiterleitung welche erforderlich ist, wenn man nicht den Default Port besitzt.
 Dafür also erneut auf den Button "**Neuer Eintrag**". 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/DAobcpEmfk8Apbz/preview)
-
 Hierbei muss bei "**Name**" nun das Protokol als auch die Verbindungsdomain rein. Der Domainname welcher dort eingetragen wird, wird später für die Verbindung zu dem Server genutzt. Als "**Typ**" wird in diesem Schritt über das Drop Down Menü der Wert "**SRV**" ausgewählt:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/etaCx7mpay62TGJ/preview)
+![image](https://user-images.githubusercontent.com/13604413/172062272-0394edff-aa9c-4587-9a17-77ac74dc3cb5.png)
 
 Bei dem "**Wert**" müssen nun drei Werte eingetragen werden, erst die Priorität welche standardmäßig auf 0 belassen werden kann, dann als zweites der Port vom Spieleserver in unserem Beispiel "25500" und zu guter Letzt den Domainnamen des gerade erstellten "**A-Records**".
 
 In unserem Beispiel sieht es dann wie folgt aus:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/xXQ7AbjPNxrcaK9/preview)
+![image](https://user-images.githubusercontent.com/13604413/172062452-ec6e0fdb-5c6d-4a30-b578-933f5da0446d.png)
 
 ### Troubleshooting & Ergebnis
 > WICHTIG! am Ende von dem Eintrag muss ein Punkt geschrieben werden, ohne diesen Punkt versucht das System die Domain anzuhängen. 
 
 Wird dieser Hinweis nicht beachtet, dann macht das System aus minecraft.testserver-domain.de die Weiterleitung zu minecraft.testserver-domain.de.testserver-domain.de wodurch die Weiterleitung fehlschlägt.
-
-Korrekt erstellt sieht das Ergebnis dann wie folgt aus:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/bzyZf85yeiCxmYW/preview)
 
 ## 🐌 Weiterleitung der Domain für Fivem
 Zunächst muss für die korrekte Weiterleitung auf Fivem Server sowohl IP und Port von dem Fivem Server rausgesucht werden auf welchen weitergeleitet werden soll.
@@ -100,43 +88,34 @@ In unserem Beispiel nutzen wir als Domainnamen die "testserver-domain.de", als S
 
 ### Erstellung A Record
 Für die Erstellung von einem neuen Record muss der Button "**Neuer Eintrag**" genutzt werden.
-
-![](https://screensaver01.zap-hosting.com/index.php/s/DAobcpEmfk8Apbz/preview)
-
 Dabei öffnet sich dann ein Fenster mit vier Feldern welche befüllt werden müssen:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/nzZje7jpwxpEsNZ/preview)
+![image](https://user-images.githubusercontent.com/13604413/172062501-ad0a0629-3c36-480e-96bb-1c09960d7e78.png)
 
 Der "**Name**" ist die Haupt- oder auch Subdomain über welche die Weiterleitung auf die IP erfolgt, dieser Name ist frei wählbar. Der "**Typ**" wird in diesem Schritt auf "**A**" belassen. Bei dem "**Wert**" muss dann nur noch die IP von dem Fivem Server eingetragen werden welche vorher rausgesucht wurde.
 In unserem Beispiel sieht es daher wie folgt aus.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/8kyPYTyZaJaMZMm/preview)
+![image](https://user-images.githubusercontent.com/13604413/172062490-cf3bab81-573c-448a-98a1-fcd12ec0823d.png)
 
 Sobald gespeichert wird dieser Eintrag auch korrekt angezeigt:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/aiPNTBgpRC5PXqD/preview)
+![image](https://user-images.githubusercontent.com/13604413/172062510-8b24fc94-49fa-440e-abb2-7cff693be8d2.png)
 
 ### Erstellung SRV Record
 Nun muss noch ein SRV Record erstellt werden, dieser dient zur Portweiterleitung welche erforderlich ist, wenn man nicht den Default Port besitzt.
 Dafür also erneut auf den Button "**Neuer Eintrag**".
 
-![](https://screensaver01.zap-hosting.com/index.php/s/DAobcpEmfk8Apbz/preview)
-
 Hierbei muss bei "**Name**" nun das Protokol als auch die Verbindungsdomain rein. Der Domainname welcher dort eingetragen wird, wird später für die Verbindung zu dem Server genutzt. Als "**Typ**" wird in diesem Schritt über das Drop Down Menü der Wert "**SRV**" ausgewählt:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/etaCx7mpay62TGJ/preview)
+![image](https://user-images.githubusercontent.com/13604413/172062652-3400e743-37ba-4906-8c30-8162d05c865c.png)
 
 Bei dem "**Wert**" müssen nun drei Werte eingetragen werden, erst die Priorität welche standardmäßig auf 0 belassen werden kann, dann als zweites der Port vom Spieleserver in unserem Beispiel "30300" und zu guter Letzt den Domainnamen des gerade erstellten "**A-Records**".
 
 In unserem Beispiel sieht es dann wie folgt aus:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/TcKi2CQnDFkXbfg/preview)
+![image](https://user-images.githubusercontent.com/13604413/172062644-89dcfad2-073c-435f-839d-115dba26bf94.png)
 
 ### Troubleshooting & Ergebnis
 > WICHTIG! am Ende von dem Eintrag muss ein Punkt geschrieben werden, ohne diesen Punkt versucht das System die Domain anzuhängen. 
 
 Wird dieser Hinweis nicht beachtet, dann macht das System aus fivem.testserver-domain.de die Weiterleitung zu fivem.testserver-domain.de.testserver-domain.de wodurch die Weiterleitung fehlschlägt.
-
-Korrekt erstellt sieht das Ergebnis dann wie folgt aus:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/y7NP22JFk34JKRk/preview)
