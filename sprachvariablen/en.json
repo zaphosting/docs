@@ -369,10 +369,6 @@
         "title": "FiveM: Installing resources, mods and scripts on server",
         "sidebar_label": "Resource Installation"
       },
-      "fivem_installtokovoip": {
-        "title": "FiveM: Install TokoVOIP on server",
-        "sidebar_label": "Install TokoVOIP"
-      },
       "fivem_licensekey": {
         "title": "FiveM: Add your own license key (Patreon) to the server",
         "sidebar_label": "Own License Key"
