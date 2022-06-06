@@ -10,7 +10,7 @@ sidebar_label: GOTV
 
 GOTV offers the possibility to broadcast games live with a little delay. This means that outsiders who are not involved in the game can also follow what is happening on the server. This technology is also used in the well-known counter-strike tournaments so that the spectators can watch the spectacle. Furthermore, the transmissions can also be saved automatically, so that you can watch them again afterwards.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/GmptDMS3NNKCQZz/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/zrzMZmJiCPdNHk6/preview)
 
 
 ## How to use GOTV?
@@ -26,7 +26,7 @@ Manual and automatic recorded demos are stored in the main directory (gxxxxx / c
 
 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/bLADK6LPqGF62FS/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/N2bK2wG9syKyBJz/preview)
 
 
 
