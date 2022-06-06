@@ -36,13 +36,13 @@ Je nach Anwendungsbereich lohnt sich die eine Option eher als die andere Optione
 
 Im Folgenden wird die Einrichtung des FastDL Servers mittels eines unserer [Webspace Produkte](https://zap-hosting.com/de/shop/product/webspace/) erklärt. Allerdings kann hierfür auch eine beliebige andere Option benutzt werden die einen öffentlich zugänglichen Webserver beinhaltet. Um mit der Einrichtung zu beginnen, rufen wir das Webspace Produkt auf und öffnen die Verwaltung:
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/TaMGiFBS58WDJkt/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/dAwjLtmZMC26APG/preview)
 
 
 
 Dort angelangt rufen wir den File-Manager auf und legen dabei die folgenden Ordner an:
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/ywx4gn9fSJoSQc2/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/sK75ft8bTw4kADT/preview)
 
 ![image](https://user-images.githubusercontent.com/13604413/159178687-7ea690cf-0d73-4e22-a302-023be7603cef.png)
 
@@ -50,7 +50,7 @@ Dort angelangt rufen wir den File-Manager auf und legen dabei die folgenden Ordn
 
 Als Nächstes müssen beim Webspace noch die Berechtigungen vorgenommen werden, damit das Herunterladen der Inhalte im Spiel im Anschluss auch funktioniert:
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/jd3Q7L8xLZr45P4/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/BJmLyT28QB58d8f/preview)
 
 > Die Berechtigungen müssen für alle Ordner gesetzt werden!
 
