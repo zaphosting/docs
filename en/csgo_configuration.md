@@ -19,7 +19,7 @@ Under the settings you can choose the gamemode you want to use. The commands of 
 
 At the settings page you can adjust basic settings for the GSL token, gametype/gamemode, mapgroup, tickrate and more.  
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/R8qTSbszCYfqRL5/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/PtNBZ7QrKRzr6Mp/preview)
 
 
 
@@ -88,7 +88,7 @@ Pingboost is a way to change the feel of the game by various methods to achieve 
 
 In the **server.cfg** you can change the settings for server name, rcon password and server password. 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/RqX6bX7sC8SL7qx/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/JmtxqAntxZNa26d/preview)
 
 
 
