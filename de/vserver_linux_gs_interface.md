@@ -37,7 +37,7 @@ Klicke nun einfach auf Anlegen, das Gameserver-Webinterface macht alles weitere 
 Du siehst jetzt den Fortschritt der Installation.
 Bis alles komplett installiert und konfiguriert ist, kann es rund 15-20 Minuten andauern.
 
-![]https://user-images.githubusercontent.com/61839701/165697201-b3b7be30-473a-44f4-aedf-a03f374d7fdb.png)
+![](https://user-images.githubusercontent.com/61839701/165697201-b3b7be30-473a-44f4-aedf-a03f374d7fdb.png)
 
 > **Achtung**: Bitte erst weiter machen wenn das Interface komplett installiert ist.
 > Es ist komplett installiert soweit der Fortschrittsbalken verschwunden ist und sobald bei jedem Paket "Installiert" anstatt "fehlt" steht.
