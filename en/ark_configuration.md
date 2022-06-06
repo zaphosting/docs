@@ -57,7 +57,7 @@ Simply enter the command name of the map in the **Map** field and it will be loa
 
 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/zXWYsX7ecs8SbzK/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/93JNW5Hbpf35RTJ/preview)
 
 
 
