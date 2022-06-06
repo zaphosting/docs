@@ -36,13 +36,13 @@ Depending on the scope of application, one option is more useful than the other.
 
 In the following, the setup of the FastDL server using one of our [Webspace Products](https://zap-hosting.com/en/shop/product/webspace/) is explained. However, you can also use any other option that provides a publicly accessible web server. To start with the setup, we open the webspace product and open the administration:
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/xFeEwAS3ZJ3MzzX/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/dAwjLtmZMC26APG/preview)
 
 
 
 Once there, we open the file manager and create the following folders:
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/ywx4gn9fSJoSQc2/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/sK75ft8bTw4kADT/preview)
 
 ![image](https://user-images.githubusercontent.com/13604413/159178687-7ea690cf-0d73-4e22-a302-023be7603cef.png)
 
@@ -50,7 +50,7 @@ Once there, we open the file manager and create the following folders:
 
 Afterwards, the web space has to be authorized so that the download of the content in the game will work properly:
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/jd3Q7L8xLZr45P4/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/BJmLyT28QB58d8f/preview)
 
 > The permissions must be set for all folders!
 
