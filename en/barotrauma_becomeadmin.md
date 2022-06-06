@@ -12,7 +12,7 @@ sidebar_label: Become Admin
 
 Administrator rights allows you to make changes directly in the game on your server without having to change it in the Config. Adding an admin is done via the **Clientpermissions.xml** Config, which you can find in the interface under Configs.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/xZQSo9Tqx8QdLK7/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/Q5zdSJg8HDeHJSz/preview)
 
 
 A new client entry must be added to the Config to add a new player. The syntax for this looks like this:
