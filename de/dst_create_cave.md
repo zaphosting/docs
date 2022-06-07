@@ -13,7 +13,7 @@ Welchen Server du zum "Master" machst und welcher davon der "Slave" wird entsche
 
 Beide Configs sind im Interface unter "**Configs**" zu sehen und können dort bearbeitet werden.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/QycjmKD4WmmDf5c/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/GPTxWpmfYY9CKbd/preview)
 
 Bearbeitet wird in beiden .ini Dateien nur der "**[SHARD]**" Teil.
 
@@ -36,8 +36,6 @@ name = Overworld
 id=100
 ```
 
-![](https://screensaver01.zap-hosting.com/index.php/s/c8rS4bcFKFQmmpX/preview)
-
 ### cluster.ini
 
 Standardmäßig steht in der cluster.ini bei "**[SHARD]**" nur "is_master = true", dort werden nun folgende Befehle nachgetragen.
@@ -50,8 +48,6 @@ master_port = 27002
 shard_name = Overworld
 cluster_key = deinclusterkey
 ```
-
-![](https://screensaver01.zap-hosting.com/index.php/s/WmQKBWZ8SXjysKm/preview)
 
 ## ⬇️ Slave
 
@@ -74,8 +70,6 @@ name = Cave
 id=200
 ```
 
-![](https://screensaver01.zap-hosting.com/index.php/s/DSTdfgBTs78cday/preview)
-
 ### cluster.ini
 
 Standardmäßig steht in der cluster.ini bei "**[SHARD]**" nur "is_master = true", dort werden nun folgende Befehle nachgetragen.
@@ -88,8 +82,6 @@ master_port = 27002
 shard_name = Cave
 cluster_key = deinclusterkey
 ```
-
-![](https://screensaver01.zap-hosting.com/index.php/s/Lf57cxzH7bmJKKF/preview)
 
 ### neue Welt generieren
 
