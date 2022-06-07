@@ -18,7 +18,7 @@ Unturned provides the possibility to change the perspective on the server. You c
 
 The change for this is made in the **Commands.dat** config. This can be found in the **Webinterface under Configs**. Depending on how the view should be set, the following command has to be added to the config:
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/tayac3Wqsg36JXr/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/9mZyJKX6xCTeDeA/preview)
 
 
 
