@@ -17,7 +17,7 @@ Unturned bietet die Möglichkeit die Sichtweise auf dem Server zu ändern. So ka
 
 Die Änderung dafür wird in der **Commands.dat** Config vorgenommen. Diese findest du im **Webinterface bei der Verwaltungsoberfläche deines Gameservers unter Configs**. Bei der Config angelangt müssen wir dann je nachdem wie die Ansicht eingestellt werden soll folgenden Befehl hinzufügen:
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/EwNBFTdRJkSJ8Qn/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/4BFfETwJFDktBcX/preview)
 
 
 
