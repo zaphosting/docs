@@ -7,7 +7,7 @@ sidebar_label: Connect to a Server
 
 To connect to your Valheim server, we first open our web interface and make sure we have set a secure password in the settings:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/JHr9we966tNzPHZ/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/4Db2RdJPwJEqWYQ/preview)
 
 > Note: Without the password your Valheim server will not start.
 
@@ -24,7 +24,7 @@ First we copy the IP from the server from the Webinterface:
 
 Now we open Valheim and click on the "Join IP" button in the server list:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/pTGjfqWdBMAbFmy/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/aTQSTs3qDjNNXfo/preview)
 
 
 Here we add our server IP:
@@ -52,11 +52,11 @@ Here we now add our server as follows:
 
 > Note: The Port has to be calculated with +1 at the end, that means if your port is 27043, you need to enter 27044 in Steam.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/BMLcW5YMwnCt6mj/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/t3ADtfFE659rjqe/preview)
 
 After adding this, we should now see our server in the server list:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/xtbsDSN3yDX8nEC/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/PYFEBLK3TK2EGCd/preview)
 
 Now we can connect directly to the server via the "Connect" button.
 
@@ -67,7 +67,7 @@ First we open Valheim and click on `Start Game`, if you do not have a Character 
 
 Here we do not want to create a new World, so we press "Cancel"
 
-![](https://screensaver01.zap-hosting.com/index.php/s/op4tYfXA2ndgjgL/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/SGAQdsGZTEBxF9N/preview)
 
 Now we can click on `Join Game` at the top of the Menu and Enter our Servername in the "Filter" Section, we will also set a Checkmark at "Community"
 
