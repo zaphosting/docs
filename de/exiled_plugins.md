@@ -21,13 +21,13 @@ Zunächst einmal müssen die Plugins heruntergeladen werden, die auf dem Server 
 
 Nun wenn die gewünschten Plugins heruntergeladen wurden, dann kann mit der eigentlichen Installation der Plugins angefangen werden. Die Einrichtung der Plugins erfolgt per FTP. Um Dateien auf deinen Server hochladen zu können benötigst du einen FTP-Client. Falls du noch nicht weißt, was FTP ist und wie es funktioniert, dann schaue dir am besten die folgende Anleitung an: [FTP Dateizugriff](https://zap-hosting.com/guides/docs/de/gameserver_ftpaccess/)
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/L3ZwgxD9gdH47R5/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/5zw75KKYa5Qi5Sz/preview)
 
 Unter dem ``/gXXXXXX/.config/EXILED/`` Verzeichnis findest du den **Plugins** Ordner. Dort werden deine ausgewählten Plugins dann in das Verzeichnis hochgeladen. Das Ganze kann dann wie folgt aussehen:
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/YnbkD3X456HmtPo/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/PY3wgAx8WC97zeo/preview)
 
 Mehr muss nicht gemacht werden. Damit ist die Installation bereits abgeschlossen. Im Anschluss kannst du in der Live-Konsole nachschauen, ob das Plugin erfolgreich kompiliert und geladen wurde. Die Ausgabe sollte dann wie folgt aussehen:
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/TnWfsAKrBbWt6FA/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/5rtw4tp8W8NGfS5/preview)
 
