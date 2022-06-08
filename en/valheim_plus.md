@@ -35,7 +35,7 @@ To change the game we first open the games tab on our server:
 
 Here we now search for Valheim Plus under "Available games" and click on the download button:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/8ocJto2s5kZetq2/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/4Ki9JKrffdNJxfp/preview)
 
 After that the server will be reinstalled. After the reinstallation is finished you have the possibility to remove the password at "**Configs**" and you can now upgrade to more slots.
 
@@ -43,7 +43,7 @@ After that the server will be reinstalled. After the reinstallation is finished 
 
 To be able to perform a slot upgrade now, the "**UP and Downgrade**" function in the game server dashboard has to be opened.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/MgnyrasCD45FBjW/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/Jngkpka4Mctd8y6/preview)
 
 Now select the desired number of slots on the UP and Downgrade page.
 
@@ -155,7 +155,7 @@ A list of all commands that can be used in the configuration file:
 
 ### [Hotkeys]
 
-A list of possible controls would be ![here](https://docs.unity3d.com/ScriptReference/KeyCode.html).
+A list of possible controls would be [here](https://docs.unity3d.com/ScriptReference/KeyCode.html).
 
 | Command | Values | Function |
 | :--------: | :--------------------------: | :---------------------------------:  |
