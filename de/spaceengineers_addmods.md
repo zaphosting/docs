@@ -15,12 +15,12 @@ Sofern die Einstellungen hierzu nicht angepasst wurden, lautet dieser Standardm�
 
 Um zu den Einstellungen von deinem Server zu gelangen, öffne in der linke Listen unter dem Reiter "Einstellungen" den Punkt "Einstellungen"
 
-![](https://screensaver01.zap-hosting.com/index.php/s/mA4DoTg3fQmpEx3/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/4L4e3RbnzLFKpBA/preview)
 
 Auf dieser Seite kann im ersten Feld der Name des Savegames eingesehen werden oder auch angepasst werden.
 Dieser Name muss sich nun gemerkt werden, damit später die richtige Config-Datei bearbeitet wird.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/zRjdyRgZzNibwzK/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/Sqd8Keip7rCocYj/preview)
 
 Die Installation von **Notepad++** ist zudem Vorrausetzung dieser Anleitung, damit die Schritte auch genau gleich durchgeführt werden können!
 
@@ -32,7 +32,7 @@ Der Workshop kann [hier](https://steamcommunity.com/workshop/about/?appid=244850
 Nachdem eine interessante Mod gefunden wurde, klicken wir diese einmal an um alle weiteren Details einsehen zu können.
 Wenn die Mod einem gefällt, dann muss sich nun die Mod-ID nortiert werden. Die Mod-ID ist meist Fett markiert auf der Seite oder oben in der URL-Leiste zu finden:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/X3HX3FNtqkKHCco/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/4tbz7dncAHTN9gL/preview)
 
 ## 🛠️ Config-Dateien öffnen
 
@@ -50,12 +50,12 @@ In diesem Ordner sind alle Savegames aufgelistet, welche jemals auf dem Server e
 Um die Configs des jeweiligen Savegames anpassen zu können, muss nun der entsprechende Ordner geöffnet werden.
 In unserem Beispiel wäre das der Ordner "zap001":
 
-![](https://screensaver01.zap-hosting.com/index.php/s/sCeiTDT68BcLdGd/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/3gW6yrCE7srrAX4/preview)
 
 In diesem Ordner muss nun die Sandbox-Datei bearbeitet werden.
 Es muss genau diese Config geöffnet werden, wie im Screenshot dargestellt!
 
-![](https://screensaver01.zap-hosting.com/index.php/s/GbDZ5QSZ7AecKz9/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/5jT79xdQXTmexWm/preview)
 
 ## ➕ Mods hinzufügen
 
@@ -67,7 +67,7 @@ Im Anschluss fügen wir folgenden Inhalt ein:
 Sobald der Inhalt eingefügt ist, gehen wir mit dem Cursor zwischen ">" & "<" und drücken dann einmal ENTER.
 Damit wird automatisch die korrekte Sytnax genutzt und wir können fortfahren.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/t8dQLkQjcZkfJme/download)
+![](https://screensaver01.zap-hosting.com/index.php/s/E4SLSHqAAZFCcMY/preview)
 
 Im nächsten Schritt fügen wir die erste Mod hinzu. Hierzu arbeiten wir mit einem "ModItem", welches eine Mod bildet.
 Hierzu kopieren wir den folgenden Inhalt und fügen Ihn dann wie im Screenshot gezeigt in die Config ein:
@@ -80,7 +80,7 @@ Hierzu kopieren wir den folgenden Inhalt und fügen Ihn dann wie im Screenshot g
 	</ModItem>
 ```
 
-![](https://screensaver01.zap-hosting.com/index.php/s/NSoMEnFpnsmNye7/download)
+![](https://screensaver01.zap-hosting.com/index.php/s/ZEskwz9ko7Rtbfw/preview)
 
 > Hierbei muss 12345 mit der Mod-ID deiner ausgeäwhlten Mod getauscht werden!
 

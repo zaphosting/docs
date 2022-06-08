@@ -13,11 +13,11 @@ So that the correct config is processed in the further course, the name of the s
 
 To get to the settings of your server, open the item "Settings" in the left list under the tab "Settings"
 
-![](https://screensaver01.zap-hosting.com/index.php/s/mA4DoTg3fQmpEx3/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/NgsJKeHo4Q36eGq/preview)
 
 The name of the savegame can be viewed or adapted in the first field on this page. This name must now be remembered so that the correct config file can be edited later.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/zRjdyRgZzNibwzK/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/qr6jzLYPDCyqsFD/preview)
 
 The installation of **Notepad++** is also a prerequisite for this manual so that the steps can be carried out exactly the same way!
 
@@ -27,7 +27,7 @@ A lot of mods can be found in the Space Engineers workshop. The workshop can be 
 
 After an interesting mod has been found, we click on it once to see all further details. If you like the mod, then the mod ID must now be saved. The Mod-ID is usually marked in bold on the side or at the top of the URL bar:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/X3HX3FNtqkKHCco/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/4tbz7dncAHTN9gL/preview)
 
 ## 🛠️ Open Config Files
 
@@ -41,11 +41,11 @@ As soon as the connection has been established via FTP, you have to navigate to 
 
 This folder lists all savegames that have ever been created on the server. To be able to adapt the configs of the respective savegame, the corresponding folder must now be opened. In our example this would be the folder "zap001":
 
-![](https://screensaver01.zap-hosting.com/index.php/s/sCeiTDT68BcLdGd/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/3gW6yrCE7srrAX4/preview)
 
 The sandbox file must now be edited in this folder. Exactly this config has to be opened as shown in the screenshot!
 
-![](https://screensaver01.zap-hosting.com/index.php/s/GbDZ5QSZ7AecKz9/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/5jT79xdQXTmexWm/preview)
 
 ## ➕ Add Mods
 
@@ -55,7 +55,7 @@ There is already a mod area in the config, which is at the end of the config. We
 
 As soon as the content is inserted, we move the cursor between ">" & "<" and then press ENTER once. This will automatically use the correct Sytnax and we can continue.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/t8dQLkQjcZkfJme/download)
+![](https://screensaver01.zap-hosting.com/index.php/s/E4SLSHqAAZFCcMY/preview)
 
 In the next step we add the first mod. For this we work with a "ModItem", which forms a mod. To do this, we copy the following content and then paste it into the config as shown in the GIF:
 
@@ -67,7 +67,7 @@ In the next step we add the first mod. For this we work with a "ModItem", which 
 	</ModItem>
 ```
 
-![](https://screensaver01.zap-hosting.com/index.php/s/NSoMEnFpnsmNye7/download)
+![](https://screensaver01.zap-hosting.com/index.php/s/ZEskwz9ko7Rtbfw/preview)
 
 > Here 12345 must be exchanged with the mod ID of your selected mod!
 
