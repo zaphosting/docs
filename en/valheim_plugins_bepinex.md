@@ -26,7 +26,7 @@ In this directory you can upload your plugins, these consist mostly of one **.dl
 
 In our example we upload an anticheat to the server which consists of three files: 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/Qbqf3qcKN555byq/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/9GQTJ65Wp2JznZz/preview)
 
 
 ## ⬆️ Start your server
