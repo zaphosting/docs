@@ -12,7 +12,7 @@ GOTV bietet die Möglichkeit Spiele mit etwas Verzögerung live zu übertragen. 
 
 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/GmptDMS3NNKCQZz/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/zrzMZmJiCPdNHk6/preview)
 
 
 
@@ -32,7 +32,7 @@ Manuelle und automatische aufgenommene Demos werden im Hauptverzeichnis (gxxxxx/
 
 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/bLADK6LPqGF62FS/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/N2bK2wG9syKyBJz/preview)
 
 
 

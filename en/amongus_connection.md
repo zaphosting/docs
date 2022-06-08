@@ -11,13 +11,13 @@ In order for you to join your server, we need a file that enables the connection
 First open [Impostor](https://impostor.github.io/Impostor/) where we need to enter our information.
 
 To create the file, we need information such as the IP, port and a name.
-![](https://screensaver01.zap-hosting.com/index.php/s/KitDSBHWa9WWjok/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/b5xJXqM2BsFzgp9/preview)
 
 Enter the data from your ZAP hosting interface here, it looks like this for example:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/C8bN9iN8HTgiJ6t/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/Nc955JddJrEF6Y4/preview)
 
-Where 92.42.45.216 is your IP and 2210 is the port.
+Where 31.214.245.215 is your IP and 2000 is the port.
 
 The server name can be chosen freely, when all data has been entered click on "Download Server File".
 A file with the name "regioninfo.json" will now be downloaded.
@@ -30,25 +30,19 @@ Next press `Win` + `R` and enter there
 
 and confirm with Enter, a directory will open. Move the regioninfo.json into it and overwrite the existing one.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/Ki42qrAZzwNXiNL/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/KQHKWkBCs7Fk7Z4/preview)
 
-## Create server ingame
-
-Now start Among Us on your PC.
-Click on "online" in the main menu and then click on "Create Game".
-
-![](https://screensaver01.zap-hosting.com/index.php/s/Fi6jWNne3pQGLWH/preview)
 
 ## Create Server "ingame"
 
 Start Among Us on your PC.
 Click on "online" in the main menu and then click on "Create Game".
 
-![](https://screensaver01.zap-hosting.com/index.php/s/Fi6jWNne3pQGLWH/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/CWjEP3jsE6tsYzW/preview)
 
 Here you can now make the desired settings for your server:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/sPNiPB52iy9cnZ2/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/omkWqrSHixZdzHc/preview)
 
 If you are finished with the settings you can click on "confirm".
 You are now connected to your server!

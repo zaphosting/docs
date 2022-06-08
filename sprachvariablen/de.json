@@ -366,10 +366,6 @@
                 "title": "FiveM: Resourcen, Mods und Scripts auf Server installieren",
                 "sidebar_label": "Resourcen Installieren"
             },
-            "fivem_installtokovoip": {
-                "title": "FiveM: TokoVOIP auf Server installieren",
-                "sidebar_label": "TokoVOIP Installieren"
-            },
             "fivem_licensekey": {
                 "title": "FiveM: Eigenen Lizenzkey (Patreon) zu Server hinzufügen",
                 "sidebar_label": "Eigener Lizenzkey"
@@ -872,6 +868,10 @@
             "vserver_windows_userdp": {
                 "title": "vServer: Erstzugriff auf Windows Server mit RDP",
                 "sidebar_label": "Erstzugriff (RDP)"
+            },
+            "vserver_windows_vrising": {
+                "title": "vServer: V-Rising auf Windows installieren",
+                "sidebar_label": "V-Rising"
             },
             "webspace_adddomain": {
                 "title": "Webspace: Domain hinzufügen",

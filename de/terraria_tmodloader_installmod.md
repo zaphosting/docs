@@ -22,27 +22,27 @@ Nach dem Download und der Installation kannst du deinen tModLoader direkt über 
 
 ## Hinzufügen von Mod's auf deinem PC
 
-Im Hauptmenü angekommen öffnest du deinen Mod-Ordner, dies tust du durch einen Klick auf **Mods** und im Anschluss auf **Mod Ordner öffnen**:
+Im Hauptmenü angekommen öffnest du deinen Mod-Ordner, dies tust du durch einen Klick auf **Workshop** und im Anschluss auf **Mods verwalten** dann :
 
-![](https://screensaver01.zap-hosting.com/index.php/s/CPpSBLE75zwiWCC/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/YGMWDGYnLqGxmL7/preview)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/DNeRpCmtmd4eiY2/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/WZLXdGqFCs9Sqgn/preview)
 
 In den nun geöffneten Ordner welcher sich standartmäßig unter **C:\Users\Benutzername\Documents\My Games\Terraria\ModLoader\Mods** befindet kannst du nun deine gewünschten Mod's legen.
 In diesem Beispiel installieren wir die Calamity-Mod.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/NDbGQYLeRP9bcPN/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/ZRfipZ2TtEzFtdC/preview)
 
 > Eine Mod muss immer die Endung **.tmod** haben, sonst kann diese nicht vom Server geladen werden! 
 
 
 Danach kannst du den Ordner wieder schließen, klickst dann im Spiel auf **Zurück** und im Anschluss erneut auf **Mods**: 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/r6BQ3gtfTrcXaka/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/tpXrPHx2ZfSLP35/preview)
 
 Dort wird dir nun deine hinzugefügte Mod angezeigt welche du mit einem Klick auf **Deaktiviert** aktivieren kannst: 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/x2zQnJ2k8dRdH4Y/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/ZMHXD63HMHADwDX/preview)
 
 Damit die Mod aktiv wird klickst du nun auf **Mods neu laden**, danach kannst du das Spiiel erst einmal wieder schließen und du beginnst mit der Installation der Mod auf deinem Server.
 
@@ -53,18 +53,18 @@ Um die Mod nun auch auf deinem Server installieren zu können verbindest du dich
 
 Dort navigierst du in folgendes Verzeichnis: /g******/terraria/mods/ wo du ebenfalls die zuvor verwendete **.tmod** Datei einfügst:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/p3RQqQjKFLDYLYB/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/SwcqF7FF7w4i6YB/preview)
 
 > Sollte dort keine Datei mit dem Namen **enabled.json** existieren musst du den Server zuerst einmal starten, danach sollte diese erscheinen. Alternativ kannst du die Datei auch selbst erstellen.
 
 
 Im Anschluss öffnest du die Datei **enabled.json** via **Rechtsklick > Bearbeiten** und fügst dort den Namen deiner Mod ein, was so aussehen sollte: 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/EeGXKfnFwQJo37W/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/NiewmdRdT35j8Zo/preview)
 
 Solltest du mehrere Mod's einfügen wollen, kannst du dies so tun: 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/fEmD9jQbHTpsCTy/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/AZkf5XnbK6xfrJR/preview)
 
 > Beachte bitte dass hinter jedem Mod-Namen ein Komma gesetzt werden muss, außer beim Namen der letzten Mod!
 

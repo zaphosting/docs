@@ -89,7 +89,9 @@
                     "vserver_linux_ssl",
                     "vserver_linux_rsync",
                     "vserver_linux_jitsi",
-                    "vserver_linux_webserver"
+                    "vserver_linux_webserver",
+                    "vserver_linux_xrdp",
+                    "vserver_linux_cockpit"
                 ]
             },
             {
@@ -106,7 +108,8 @@
                     "vserver_windows_change_language",
                     "vserver_windows_expand_disk",
                     "vserver_windows_fs_19",
-                    "vserver_windows_fs_22"
+                    "vserver_windows_fs_22",
+                    "vserver_windows_vrising"
                 ]
             }
         ],
@@ -229,8 +232,7 @@
                     "fivem_mods_installaddon",
                     "fivem_changeloadingscreen",
                     "fivem_installels",
-                    "fivem_installeup",
-                    "fivem_installtokovoip"
+                    "fivem_installeup"
                 ]
             },
             {

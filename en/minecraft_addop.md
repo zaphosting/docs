@@ -14,11 +14,11 @@ In order to be able to assign OP-rights to yourself or other players, you first 
 
 To open the console, the respective server must first be called via the **Dashboard**. In the interface of the server you will find the entry "Live Console" on the left side of the list under the tab "INFORMATION".
 
-![](https://screensaver01.zap-hosting.com/index.php/s/iJApBPEdtZzwDyE/preview)
+![](https://user-images.githubusercontent.com/61839701/170326176-ff51713e-d128-4657-bce6-a6d4e41101ec.png)
 
 Now you should see a dark window representing the console of the server. Underneath it, you can see an input field where any commands are passed to the console. In order to set the OP rights, the command "op <player>" (without "/") must be entered into the input field and then the green button "Send command" has to be clicked to send the command to the console.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/tF6y4Htet3oL5PY/preview)
+![](https://user-images.githubusercontent.com/61839701/170326239-c1cbf343-c4df-4178-b858-7edbb75aee71.png)
 
 After a few seconds, the command sent should appear in the console, followed by the message "Made <player> a server operator", which marks the action as successful. Now the respective player has all OP-rights and can for example change the game mode.
 
@@ -43,10 +43,10 @@ In order to adjust the level of a player, he must first be appointed as an Opera
 
 As soon as the connection to the server has been established via FTP, you have to navigate to the respective directory of the server. Now in our case at FileZilla you have to right-click on the file and click on "View/Edit" in the menu that appears.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/WKrXtq7GweMFc8w/preview)
+![](https://user-images.githubusercontent.com/61839701/170326275-f49b704b-f4a5-420a-9fc9-30918b735a1e.png)
 
 Now the value of "level" must be set to the desired level for the desired player, whereupon the file must be saved with **STRG+S**.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/9RsLFQqCEGbsXcM/preview)
+![](https://user-images.githubusercontent.com/61839701/170326305-aca1913c-37a8-4441-9025-705fd5b416e7.png)
 
 In order for the changes to take effect, the server must be restarted, which is possible by holding the red Stop button in the server interface.

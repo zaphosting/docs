@@ -13,12 +13,12 @@ Bevor EUP installiert werden kann, muss der [FTP-Zugang](gameserver_ftpaccess.md
 
 Nachdem dieser eingerichtet wurde, kann sich nun verbunden werden und der Server Ordner geöffnet werden:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/REzpxtQXT4RKfCb/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/kDLyywf9bMB7Fbw/preview)
 
 
 ## Vorbereitung
 
-Nun laden wir EUP von den [FiveM Foren](https://forum.cfx.re/t/release-eup-for-fivem-server-sided/139848) runter.
+Nun laden wir EUP von den [FiveM Foren](https://forum.cfx.re/t/emergency-uniform-pack-client-server-sided-easy-install-update-5-0-announcement/97599) runter.
 
 Außerdem müssen wir [NativeUI herunterladen](https://github.com/FrazzIe/NativeUILua/archive/master.zip)
 

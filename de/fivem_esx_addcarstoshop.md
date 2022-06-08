@@ -8,11 +8,13 @@ sidebar_label: Autos zum Shop hinzufügen
 
 Zu allererst müssen wir uns mit unserer Datenbank verbinden. Dies tun wir unter dem Reiter "Datenbanken"
 
-![](https://screensaver01.zap-hosting.com/index.php/s/HawSP7eiRRXr7Pf/preview)
+![image](https://user-images.githubusercontent.com/13604413/172065852-e653eed4-82b2-4adb-b204-401766830be0.png)
+
 
 Dort klicken wir dann auf das Blaue Icon und Loggen uns dann mit unseren Daten, welche wir auch auf der Seite finden ein.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/6PEx3jEGrLctiyS/preview)
+![image](https://user-images.githubusercontent.com/13604413/172065857-ca86be43-dbbd-4045-b2cd-a836c06ddd27.png)
+
 
 ## 📖 Spawnnamen finden
 
@@ -28,13 +30,19 @@ Haben wir uns ein Autos ausgesucht können wir es dann hinzufügen.
 Zu aller erst kontrollieren wir die Fahrzeugkategorien. Sodass wir wissen welche wir hinterlegen können.
 Das machen wir im "vehicle_categories Table
 
-![](https://screensaver01.zap-hosting.com/index.php/s/nN7Hx67j8Gz7BnD/preview)
+![image](https://user-images.githubusercontent.com/13604413/172065895-321b78a5-7952-44e4-a15c-050d80e2aa2a.png)
+
 
 Hier brauchen wir die "name" Spalte. Diese merken wir uns.
+
+![image](https://user-images.githubusercontent.com/13604413/172065901-53ff6c6a-e671-4ee3-9db9-6e26336f4ac3.png)
+
+
 Haben wir das gemacht gehen wir in den "vehicles" Table.
 Und gehen dann auf Einfügen
 
-![](https://screensaver01.zap-hosting.com/index.php/s/Y8Kdpn6Y5dWxBne/preview)
+![image](https://user-images.githubusercontent.com/13604413/172065912-157e9132-78ed-4557-827f-d55c4dcb8aa6.png)
+
 
 Nun fügen wir ein neues Fahrzeug hinzu. Eine kurze Erklärung was für was steht:
 
@@ -45,4 +53,5 @@ Nun fügen wir ein neues Fahrzeug hinzu. Eine kurze Erklärung was für was steh
 
 Hier noch ein Beispiel:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/keqnrezZKbYcoqH/preview)
+![image](https://user-images.githubusercontent.com/13604413/172065930-4de7949f-b59f-4dd5-a1f0-4773fcfd3c41.png)
+

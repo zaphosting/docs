@@ -11,7 +11,7 @@ Bei Assetto Corsa lassen sich 10 Slots ohne weitere Änderung korrekt nutzen.
 Allerdings müssen für die Nutzung von mehr als 10 Slots bestimmte Voraussetzungen erfüllt sein.
 Diese Voraussetzungen werden unter "**Configs**" eingestellt. Dort wird die "**settings.json**" bearbeitet.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/mabZax4a4qZfcoD/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/nScLnXLXDjrX786/preview)
 
 ## Voraussetzungen und Slot Limits
 

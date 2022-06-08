@@ -36,13 +36,13 @@ Depending on the scope of application, one option is more useful than the other.
 
 In the following, the setup of the FastDL server using one of our [Webspace Products](https://zap-hosting.com/en/shop/product/webspace/) is explained. However, you can also use any other option that provides a publicly accessible web server. To start with the setup, we open the webspace product and open the administration:
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/xFeEwAS3ZJ3MzzX/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/dAwjLtmZMC26APG/preview)
 
 
 
 Once there, we open the file manager and create the following folders:
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/ywx4gn9fSJoSQc2/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/sK75ft8bTw4kADT/preview)
 
 ![image](https://user-images.githubusercontent.com/13604413/159178687-7ea690cf-0d73-4e22-a302-023be7603cef.png)
 
@@ -50,7 +50,7 @@ Once there, we open the file manager and create the following folders:
 
 Afterwards, the web space has to be authorized so that the download of the content in the game will work properly:
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/jd3Q7L8xLZr45P4/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/BJmLyT28QB58d8f/preview)
 
 > The permissions must be set for all folders!
 
@@ -74,17 +74,17 @@ After restarting and connecting to the server the corresponding content should b
 
 In the following, the setup of the Steam Workshop is explained. First of all, the Steam Workshop page must be opened. To do this, select the appropriate game in Steam and open the workshop there. In this case we take [CS:GO](https://steamcommunity.com/workshop/browse/?appid=730&browsesort=trend&section=collections) as an example. Once there, we click on the menu item Browse and select Collection:
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/Tp7pJpFLnqZ2iYT/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/Ljmm5fdzNjbSaXY/preview)
 
 There we click right on Collection and create the collection for the game server:
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/yiE7yXzpNwLyHLP/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/YKrz6qABKEiXznn/preview)
 
 ![image](https://user-images.githubusercontent.com/13604413/159178741-f3d5bd5a-88e7-4bbc-9d9d-5273d16c3676.png)
 
 The collection has then been successfully created. However, it is still empty by default. Therefore, we now reopen the workshop of the game and select the objects we want to add:
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/4y7D2wtHQgH9tRb/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/s62wfMcwKs5pjtd/preview)
 
 When you are done collecting, you will need to go back to the collection, right click and select Copy Page URL. The ID of the collection is needed from the URL, which can look like this:
 
@@ -92,4 +92,4 @@ When you are done collecting, you will need to go back to the collection, right 
 
 At the end this has to be added at Steam Workshop in your game server administration:
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/zYfL8DPdDxaKGEm/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/M2Kot2q6tjHkDXg/preview)

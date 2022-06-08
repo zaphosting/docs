@@ -8,11 +8,11 @@ sidebar_label: Add Cars to Dealership
 
 First of all we have to connect to our database. We do this under the tab "Databases"
 
-![](https://screensaver01.zap-hosting.com/index.php/s/tTAtzbpnx8kSow7/preview)
+![image](https://user-images.githubusercontent.com/13604413/172065955-25e74b2b-ce4c-495d-b846-c3fecaec0216.png)
 
 There we click on the blue icon and log in with our data, which we also find on the page.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/6PEx3jEGrLctiyS/preview)
+![image](https://user-images.githubusercontent.com/13604413/172065959-8abe71a9-321f-42ee-a6b5-9294f0fbdbd0.png)
 
 ## 📖 Find spawn names
 
@@ -28,13 +28,18 @@ Once we have chosen a car, we can add it to the list.
 First of all we check the car categories. So we know which ones we can add.
 We do this in the "vehicle_categories table
 
-![](https://screensaver01.zap-hosting.com/index.php/s/nN7Hx67j8Gz7BnD/preview)
+![image](https://user-images.githubusercontent.com/13604413/172065895-321b78a5-7952-44e4-a15c-050d80e2aa2a.png)
 
 Here we need the "name" column. We'll remember this one.
+
+
+![image](https://user-images.githubusercontent.com/13604413/172065901-53ff6c6a-e671-4ee3-9db9-6e26336f4ac3.png)
+
 Once we do that, we go to the "vehicles" table.
 And then go to Insert
 
-![](https://screensaver01.zap-hosting.com/index.php/s/Y8Kdpn6Y5dWxBne/preview)
+
+![image](https://user-images.githubusercontent.com/13604413/172065912-157e9132-78ed-4557-827f-d55c4dcb8aa6.png)
 
 Now we add a new vehicle. A short explanation what stands for what:
 
@@ -45,4 +50,6 @@ Now we add a new vehicle. A short explanation what stands for what:
 
 Ich habe hier noch ein kleines Beispiel für euch:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/keqnrezZKbYcoqH/preview)
+
+![image](https://user-images.githubusercontent.com/13604413/172065930-4de7949f-b59f-4dd5-a1f0-4773fcfd3c41.png)
+

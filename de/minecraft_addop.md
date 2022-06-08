@@ -14,11 +14,11 @@ Damit man sich selbst oder auch anderen Spielern OP-Recht zuteilen kann, muss ma
 
 Um die Konsole zu öffnen, muss zunächst der jeweilige Server über das **Dashboard** aufgerufen werden. Im Interface des Servers angekommen ist links in der Liste unter dem Reiter "INFORMATIONEN" der Eintrag "Live Konsole" zu finden, worüber die Konsole geöffnet werden kann.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/bdDspAkkLGpoiaM/preview)
+![](https://user-images.githubusercontent.com/61839701/170325753-9512317c-616e-4258-b96a-17711b136da7.png)
 
 Nun sollte ein dunkles Fenster zu sehen sein, was die Konsole des Servers darstellt. Darunter ist ein Eingabefeld zu erkennen, wo jegliche Befehle an die Konsole übergeben werden, sodass diese dort ausgeführt werden. Um nun die OP-Rechte zu setzten, muss in das Eingabefeld der Befehl "op <Spieler>" (ohne "/") eingetragen werden und anschließend auf den grünen Button "Befehl senden" geklickt werden, damit der Befehl an die Konsole gesendet wird.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/WRxLdk9Hr7t43EX/preview)
+![](https://user-images.githubusercontent.com/61839701/170325860-ea9db416-ea37-4280-b7f7-5013cdbfbb0d.png)
 
 Nach wenigen Sekunden sollte der gesendete Befehl in der Konsole erscheinen, worauf die Meldung "Made <Spieler> a server operator" kommt, welche den Vorgang als erfolgreich markiert. Nun hat der jeweilige Spieler alle OP-Rechte und kann beispielsweise den Spielmodus wechseln.
 
@@ -43,10 +43,10 @@ Um das Level eines Spielers anzupassen, muss dieser zuerst zum Operator ernannt 
 
 Sobald die Verbindung zum Server mittels FTP hergestellt worden ist, muss in das jeweilige Verzeichnis des Servers navigiert werden. Nun muss in unserem Fall bei FileZilla ein Rechtsklick auf die Datei gemacht werden und in dem erschienenen Menü auf "Ansehen/Bearbeiten" geklickt werden.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/6c7rCgRmRzaw6K3/preview)
+![](https://user-images.githubusercontent.com/61839701/170325921-6de8c47c-1755-48a1-8784-bda4e1d1d685.png)
 
 Nun muss bei dem gewünschten Spieler der Wert von "level" auf das gewünschte Level gesetzt werden, worauf die Datei mit **STRG+S** gespeichert werden muss.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/9RsLFQqCEGbsXcM/preview)
+![](https://user-images.githubusercontent.com/61839701/170325982-8b7c784e-07cd-4483-a683-4132e9316b64.png)
 
 Damit die Änderungen übernommen werden, ist ein Neustart des Servers nötig, was mit dem Halten des roten Stop-Buttons im Interface des Servers möglich ist.

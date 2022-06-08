@@ -12,7 +12,7 @@ Click here to get to our Minecraft servers: [Minecraft server hosting](https://z
 You can manage your world with a program like FileZilla Client or WinSCP. In our example we use FileZilla. 
 Please reference the guide [FTP-Access](gameserver_ftpaccess.md) for connecting via FTP. 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/dxy7Ga7YcKHqDC4/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/pHYF8Erdpm67egn/preview)
 
 The folder "world" is the standard folder. The name of this is set in the server.properties file. This file is where the "world" folder is located. The value can be changed by editing the line "level-name". If a name is entered that does not exist as a folder, a new world is generated.
 

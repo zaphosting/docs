@@ -369,10 +369,6 @@
         "title": "FiveM: Installing resources, mods and scripts on server",
         "sidebar_label": "Resource Installation"
       },
-      "fivem_installtokovoip": {
-        "title": "FiveM: Install TokoVOIP on server",
-        "sidebar_label": "Install TokoVOIP"
-      },
       "fivem_licensekey": {
         "title": "FiveM: Add your own license key (Patreon) to the server",
         "sidebar_label": "Own License Key"
@@ -732,6 +728,10 @@
         "title": "vServer: Add IPv4 address to server",
         "sidebar_label": "Add IPv4 Address"
       },
+      "vserver_linux_cockpit": {
+        "title": "vServer/Dedicated Server: Cockpit installation",
+        "sidebar_label": "Cockpit"
+      },
       "vserver_linux_dnsserver": {
         "title": "vServer: DNS Server Installation and Setup (ISPConfig)",
         "sidebar_label": "DNS Server (ISPConfig)"
@@ -812,6 +812,10 @@
         "title": "VPS: Installing Nginx and Apache Webserver",
         "sidebar_label": "Install webserver"
       },
+      "vserver_linux_xrdp": {
+        "title": "vServer/Dedicated Server: Installing xRDP (Remote Desktop)",
+        "sidebar_label": "Linux Remotedesktop (xRDP)"
+      },
       "vserver_network_analysis_winmtr": {
         "title": "VPS: Network analysis with MTR/WinMTR",
         "sidebar_label": "Network analysis MTR/WinMTR"
@@ -867,6 +871,10 @@
       "vserver_windows_userdp": {
         "title": "VPS: Initial access to Windows Server with RDP",
         "sidebar_label": "Initial access (RDP)"
+      },
+      "vserver_windows_vrising": {
+        "title": "vServer: Install V-Rising  on Windows",
+        "sidebar_label": "V-Rising"
       },
       "webspace_adddomain": {
         "title": "Webspace: Add a domain",

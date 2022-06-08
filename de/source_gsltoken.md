@@ -48,7 +48,7 @@ Unter den Einstellungen deines Gameservers kann in den Basiseinstellungen der GS
 
 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/rMeQjwCjgw66qxQ/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/Gy2rbWsdGdywa96/preview)
 
 
 

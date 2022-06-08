@@ -17,7 +17,7 @@ Die ID muss später in die entsprechende Konfigurationsdatei eingetragen werden.
 
 Hier findest du ein Beispiel wie du deine Steam64ID herausfindest indem du den Link zu deinem Steam-Profil einträgst:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/e3RmtQ4MPXreT4a/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/92WJfgmrdZWXbFd/preview)
 
 ## ➕ Admins hinzufügen
 
@@ -47,12 +47,12 @@ Wenn du mehrere Rollen hast und das Remotepasswort überschreiben möchtest, kan
 
 Dort findest du folgende Sektion: 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/7otKf2fwcPRZzwL/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/8MB5E5X9j274ZT5/preview)
 
 Um mehr Rollen hinzufügen zu können kannst du diese einfach mit einem Komma getrennt dort eintragen.
 Als Beispiel fügen wir admin und moderator hinzu um das Passwort zu überschreiben:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/pLpMRiipT5J3btk/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/7otg34iLKzASX4q/preview)
 
 > Hint: Die Adminkonsole im Spiel lässt sich jederzeit mit der Taste **M** öffnen.
 

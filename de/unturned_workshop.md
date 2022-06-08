@@ -19,7 +19,7 @@ Wenn du dich entschieden hast, dann musst du die ID des Workshop Eintrags kopier
 
   Mache einen Rechtsklick bei der Steam Workshop Seite des Mods und klicke auf Seitenurl kopieren. Aus der URL kopierst du die ID. 
 
-  ![img](https://screensaver01.zap-hosting.com/index.php/s/zS3ojg79yWmqCLS/preview)
+  ![img](https://screensaver01.zap-hosting.com/index.php/s/QD89esrFTQ8gZfb/preview)
 
   
 
@@ -27,7 +27,7 @@ Wenn du dich entschieden hast, dann musst du die ID des Workshop Eintrags kopier
 
   In der URL-Leiste findest du in der URL hinter **.../?id=** eine Zahlenkombination. Diese musst du kopieren. 
 
-  ![img](https://screensaver01.zap-hosting.com/index.php/s/wLMjEx5Y8g6Db3P/preview)
+  ![img](https://screensaver01.zap-hosting.com/index.php/s/XzRRT98ess4dyFX/preview)
 
 
 
@@ -37,7 +37,7 @@ Wenn du dich entschieden hast, dann musst du die ID des Workshop Eintrags kopier
 
 Nachdem die gewünschten Inhalte rausgesucht wurden, werden diese nun beim Server eingetragen. Die Inhalte werden in der **WorkshopDownloadConfig.json** Config eingetragen, die im Interface unter Configs gefunden werden kann.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/kfYqP4MW65C8GGW/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/xRyD4jX9g5YBorM/preview)
 
 Bei `FileIDs` werden nun die IDs der einzelnen Steam Workshop Inhalte eingetragen. Das Endresultat davon kann dann die folgt aussehen:
 
