@@ -52,7 +52,7 @@ Dort findest du folgende Sektion:
 Um mehr Rollen hinzufügen zu können kannst du diese einfach mit einem Komma getrennt dort eintragen.
 Als Beispiel fügen wir admin und moderator hinzu um das Passwort zu überschreiben:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/W4AEN2awAYTF96d/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/7otg34iLKzASX4q/preview)
 
 > Hint: Die Adminkonsole im Spiel lässt sich jederzeit mit der Taste **M** öffnen.
 
