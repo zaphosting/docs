@@ -22,7 +22,7 @@ Ein gutes Beispiel um das Problem zu validieren ist auch, dass insbesondere ARK 
 
 Es gibt zu diesem Problem auch verschiedene Spieleentwickler, die sich dazu äußerten. Beispielsweise dachte Garry Newman von Garrysmod, dass das Problem mit seinem Serveranbieter OVH zusammenhängt. Das war jedoch nicht der Fall. Das Problem hat auch ZAP-Hosting und jeder andere Serveranbieter, da es direkt bei Steamworks liegt:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/iCJKMFkMgYmncHe/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/mgCgANbyoAARTXS/preview)
 
 Quelle: https://twitter.com/garrynewman/status/1334446218437681152?s=20
 
