@@ -21,16 +21,16 @@ RageMP unterscheidet hierbei zwischen "**Client**" und "**Server**" Paketen
 Clientseitige Pakete werden genutzt um beispielsweise das Userinterface im Spiel oder auch andere visuelle Effekte zu editieren.
 Die Clientseitigen Pakete werden in den "**client_packages**" Ordner hochgeladen
 
-![](https://screensaver01.zap-hosting.com/index.php/s/WCgLYZxNKHnnwW7/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/mdZ4kpHgbdCL6Zc/preview)
 
 In diesem Ordner werden nun ein "**gamemode**" Ordner und eine "**index.js**" Datei erstellt.
 Die "**index.js**" ist wichtig sobald alle Scripte hochgeladen wurden. 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/MzezDL79zYnGpwK/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/9YjtaZ5HpEsqy7q/preview)
 
 In den "**gamemode**" Ordner werden nun die Scripte hochgeladen, welche man auf dem Server nutzen möchte.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/PdTa7dAYxotz57P/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/iteCJkT9A4gwCdE/preview)
 
 Sobald alle gewünschten Scripte hochgeladen wurden, muss die vorher erstellte "**index.js**" editiert werden.
 Dort wird für jedes Script die Zeile ***require(./gamemode/DEINSCRIPTNAME.js);*** eingefügt
@@ -56,10 +56,10 @@ Sobald der Ordner erstellt wurde, wird in dieser Ordner mit den Serverseitigen S
 
 Nachdem alle Wunschscripte auf dem Server liegen muss in dem gleichen Ordner eine "**index.js**" erstellt werden.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/gqc4RrHsseK2nze/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/6s9p5FaQaLxwsz8/preview)
 
 Dort wird für jedes Script die Zeile ***require(./DEINSCRIPTNAME.js);*** eingefügt
 
-![](https://screensaver01.zap-hosting.com/index.php/s/6ate3XEJ33cHNW4/preview)
+![](https://user-images.githubusercontent.com/13604413/159178015-9106b7ea-41c4-4876-868c-dbca30410d62.png)
 
 Die "**Client**" als auch "**Server**" Pakete sollten nach einem Server Neustart direkt auf dem Sever aktiv sein
