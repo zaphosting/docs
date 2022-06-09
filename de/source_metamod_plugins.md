@@ -15,7 +15,6 @@ Um Plugins zu installieren, müssen diese dementsprechend per FTP hochgeladen we
 
 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/WR2fbqTtsTZPARH/preview)
 
 
 
@@ -25,7 +24,6 @@ Im **Plugins** Verzeichnis gibt es einen Unterordner mit dem Namen **disabled**.
 
 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/ed6NcaQZ5YaBy8j/preview)
 
 
 
