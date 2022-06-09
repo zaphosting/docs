@@ -904,10 +904,6 @@
         "title": "Webspace: Create SSL certificate",
         "sidebar_label": "Create SSL Certificate"
       },
-      "webspace_woltlab": {
-        "title": "Webspace: Install Woltlab forum software",
-        "sidebar_label": "Install Woltlab"
-      },
       "webspace_wordpress": {
         "title": "Webspace: Install WordPress",
         "sidebar_label": "Install WordPress"
