@@ -148,7 +148,6 @@
                     "webspace_plesk_ssl",
                     "webspace_htaccess_discord",
                     "webspace_mybb",
-                    "webspace_woltlab",
                     "webspace_wordpress"
                 ]
             }
