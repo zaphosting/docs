@@ -13,16 +13,11 @@ The following explains how to install plugins. In order to be able to use plugin
 
 In order to install plugins, you need to upload them via FTP. The files of the plugin have to be uploaded into the **Plugins** directory under **../addons/sourcemod/**. Depending on the complexity of the plugin it's possible that there are already configs and translation files available. If this is the case, then these have to be uploaded into the **configs** and **translations** folder.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/WR2fbqTtsTZPARH/preview)
-
 
 
 ## 🚮 Disable / remove plugins
 
 In the **Plugins** directory you will find a subfolder named **disabled**. There you can put in the plugins which you don't want to be loaded temporarily. It is sufficient to move the corresponding **.smx** file. 
-
-
-![img](https://screensaver01.zap-hosting.com/index.php/s/ed6NcaQZ5YaBy8j/preview)
 
 
 
