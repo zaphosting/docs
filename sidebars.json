@@ -48,6 +48,7 @@
             "gameserver_cloudvslifetime",
             "gameserver_resourcelimit",
             "gameserver_gameswitch",
+            "gameserver_upgrade",
             {
                 "type": "subcategory",
                 "label": "Databases",
