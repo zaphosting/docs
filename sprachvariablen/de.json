@@ -100,11 +100,11 @@
             },
             "arma3_gamemode": {
                 "title": "Arma 3: Spielmodus ändern",
-                "sidebar_label": "Change game mode"
+                "sidebar_label": "Spielmodus ändern"
             },
             "arma3_missionfile": {
                 "title": "Arma 3: Eigene Missionsdatei hochladen",
-                "sidebar_label": "Upload your own mission file"
+                "sidebar_label": "Eigene Missionsdatei hochladen"
             },
             "arma3_mods": {
                 "title": "Arma 3: Mods auf dem eigenen Server installieren",
