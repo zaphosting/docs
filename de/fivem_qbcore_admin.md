@@ -5,7 +5,7 @@ description: Informationen, wie du auf deinem FiveM QBCore Server admin werden k
 sidebar_label: Admin werden
 ---
 
-🛡️ Admin werden
+## 🛡️ Admin werden
 
 Dank unseres Webinterfaces kannst du schnell und unkompliziert Admin werden.
 Öffne hierzu die Einstellungen deines Servers:
