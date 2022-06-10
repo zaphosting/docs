@@ -265,6 +265,13 @@
                     "fivem_txadmin_features"
                 ]
             }
+                {
+                "type": "subcategory",
+                "label": "QBCore",
+                "ids": [
+                    "fivem_qbcore_admin"
+                ]
+            }
         ],
         "RageMP": [
             "ragemp_installpackages"
