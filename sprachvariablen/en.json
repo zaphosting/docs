@@ -357,6 +357,10 @@
         "title": "Gamechange",
         "sidebar_label": "Gamechange"
       },
+      "fivem_qbcore_admin": {
+        "title": "QBCore become an admin",
+        "sidebar_label": "Become admin"   
+      },
       "fivem_installels": {
         "title": "FiveM: Installing ELS on your server",
         "sidebar_label": "Install ELS"

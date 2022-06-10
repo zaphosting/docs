@@ -433,10 +433,14 @@
                "fivem_gamebuild": {
                 "title": "FiveM DLC Gamebuild aktivieren",
                 "sidebar_label": "DLC Gamebuild aktivieren"
-                               },
+            },
                "fivem_gamechange": {
                 "title": "FiveM Spielwechsel",
                 "sidebar_label": "Spielwechsel"
+            },
+               "fivem_qbcore_admin": {
+                "title": "QBCore Admin werden",
+                "sidebar_label": "Admin werden"
             },
             "gameserver_backups": {
                 "title": "Gameserver: Backups bei ZAP-Hosting erstellen, herunterladen und einspielen",
