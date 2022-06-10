@@ -264,7 +264,7 @@
                     "fivem_txadmin_setup",
                     "fivem_txadmin_features"
                 ]
-            }
+            },
                 {
                 "type": "subcategory",
                 "label": "QBCore",
