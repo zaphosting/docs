@@ -406,8 +406,8 @@
         "sidebar_label": "Coloured Servername"
       },
       "fivem_servername_emojis": {
-        "title": "FiveM: Display emojis in the server name",
-        "sidebar_label": "Emojis in Server Name"
+        "title": "FiveM: Show emojis in server name",
+        "sidebar_label": "Emojis in server name"
       },
       "fivem_sql_file_import": {
         "title": "FiveM Server: SQL file import",
