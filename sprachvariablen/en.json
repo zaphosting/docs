@@ -473,6 +473,10 @@
         "title": "TEBEX Gameserver monetization setup",
         "sidebar_label": "TEBEX Monetization"
       },
+      "gameserver_upgrade": {
+        "title": "Gameserver: Up-/Downgrade",
+        "sidebar_label": "Up-/Downgrade"
+      },
       "gmod_servercfg": {
         "title": "Garry's Mod: Server.cfg settings",
         "sidebar_label": "Garry's Mod Server.cfg Modification"
