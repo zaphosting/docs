@@ -5,7 +5,7 @@ description: Information on how to register a user account with ZAP-Hosting - ZA
 sidebar_label: Register
 ---
 
-## 🔐 Register with ZAP hosting
+## 🔐 Register with ZAP-Hosting
 It's super easy! Visit our website and go to the start page. There you will find a login screen where you have to enter your username, email address and password.
 
 ![image](https://user-images.githubusercontent.com/61953937/159139329-e7c11a36-6286-4980-8217-4ce92f8fa0de.png)
