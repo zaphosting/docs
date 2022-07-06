@@ -8,23 +8,11 @@ sidebar_label: Admin werden
 ## Admin werden
 
 
-Mit Administrator-Rechten kannst du direkt im Spiel Änderungen im Live Zustand an deinem Server vornehmen, ohne diese in der Config vorzunehmen. Damit man sich selbst oder auch anderen Spielern Administrator-Rechte zuweisen kann, muss als erstes ein Serveradmin Passwort definiert werden. Das definieren des Passworts erfolgt über die Gameusersettings.ini Config, welche du im Interface unter Configs findest. 
+Mit Administrator-Rechten kannst du direkt im Spiel Änderungen im Live Zustand an deinem Server vornehmen, ohne diese in der Config vorzunehmen. Damit man sich selbst oder auch anderen Spielern Administrator-Rechte zuweisen kann, muss als erstes ein Serveradmin Passwort definiert werden. Das definieren des Passworts erfolgt über die Einstellungen in unserem Interface:
 
+![](https://screensaver01.zap-hosting.com/index.php/s/mJrDsH34G2iCq3c/preview)
 
-
-![img](https://screensaver01.zap-hosting.com/index.php/s/BXYxkpXripSncSP/preview)
-
-
-
-In der Config angekommen suchen wir den **ServerAdminPassword=** Befehl und definieren dahinter das Passwort. Das ganze sieht dann folgendermaßen aus:
-
-![img](https://screensaver01.zap-hosting.com/index.php/s/NnYKepAYRGBfMCe/preview)
-
-
-
-
-
-Nach dem definieren des Passwort muss die Config gespeichert und der Server gestartet werden. Im Anschluss kannst du dich mit deinem Server verbinden und über die Konsole im Spiel mit dem folgenden Befehl und deinem Server Admin Passwort als Admin einloggen:
+Nach dem definieren des Passworts muss der Server neu gestartet werden. Im Anschluss kannst du dich mit deinem Server verbinden und über die Konsole im Spiel mit dem folgenden Befehl und deinem Server Admin Passwort als Admin einloggen:
 
 ```
 enableCheats password

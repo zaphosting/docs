@@ -13,11 +13,11 @@ Um einen eigenen Authkey zu erstellen, melden wir uns zunächst auf https://beam
 
 Nachdem wir angemeldet sind, klicken wir links auf "Keys", damit kommen wir in die Licensekey Übersicht:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/5EgfNTqdDcRLQJB/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/JCCsEWFTn58EJRw/preview)
 
 Hier klicken wir nun auf das blaue "here", um den Key zu erstellen:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/C9FgaTjFcYzxsJ8/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/RQ2s76fdd8yiTJz/preview)
 
 
 ## Daten Angeben
@@ -32,19 +32,19 @@ Nun können wir die Daten wie folgt befüllen:
 
 Die IP muss ohne den Port angegeben werden, diese finden wir in unserem Interface ganz oben:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/g2HFYAqJQz9tmiF/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/dXcQJ5iYJ6M74Cd/preview)
 
 ## Key Erstellen
 
 Nun klicken wir auf "Create", es wird nun ein Key generiert.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/betWm7qQ7JEoR7N/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/7e2k4tAjxiCfB4Y/preview)
 
 ## Key Einstellen
 
 Nun Öffnen wir die Einstellungen unseres Gameservers und scrollen nach unten, hier können wir nun unseren eigenen Key unter "Auth Key" Angeben, das Endresultat sollte so aussehen.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/iXsn78gZSjBLNoe/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/Jy5tXNZtGes35rW/preview)
 
 Nun speichern wir die Einstellungen und Starten den Server neu.
 

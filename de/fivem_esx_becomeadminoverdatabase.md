@@ -14,31 +14,25 @@ Das machen wir wie folgt.
 
 **1** Datenbank TAB auswählen
 
-![](https://screensaver01.zap-hosting.com/index.php/s/wSqRDd5aDXMAz4m/preview)
+![](https://user-images.githubusercontent.com/61839701/170333733-b0a5f7d2-472c-401a-8403-56a11fbc2fab.png)
 
 **2** Auf Verwalten klicken
 
-![](https://screensaver01.zap-hosting.com/index.php/s/okXctcTKn7pTZTN/preview)
+![](https://user-images.githubusercontent.com/61839701/170333965-24f2827e-2051-4e5a-881f-dee77f4dc062.png)
 
 **3** Uns mit unseren Daten anmelden
 
 Falls nötig mit unseren Daten anmelden welche wir hier finden:
-![](https://screensaver01.zap-hosting.com/index.php/s/eYDAyRFWXYWie3T/preview)
+![](https://user-images.githubusercontent.com/61839701/170334437-3eefea79-ca49-4fa8-ab15-bd1fabd570df.png)
 
 **4** Den users Table öffnen
 
-![](https://screensaver01.zap-hosting.com/index.php/s/n5pmgw9FbosisBF/preview)
+![](https://user-images.githubusercontent.com/61839701/170334709-1fad99b2-a713-4e73-af56-9ff9a89a8a05.png)
 
 **5** Eigenen Charakter finden
 
-Nun suchen wir unseren Charakter und drücken dann auf  *Bearbeiten* 
-![](https://screensaver01.zap-hosting.com/index.php/s/CGLK7BboSDKoqcR/preview)
-
-**6** Superadmin rang zuweisen
-
-Nun scrollen wir nach unten bis wir beim Punkt und *group* angekommen sind
-![](https://screensaver01.zap-hosting.com/index.php/s/G6Fp9MS9eBBz4fi/preview)
-
-Diese ändern wir dann zu `admin`.
+Nun suchen wir unseren Charakter und machen einen doppelklick auf die "group" spalte. 
+Dort muss "admin" eingetragen werden.
+![](https://user-images.githubusercontent.com/61839701/170335077-b3552090-94c5-438e-81a2-fa61b5890b01.png)
 
 Das wars auch schon. Nun seit ihr Admin auf eurem eigenen Server

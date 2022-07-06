@@ -11,7 +11,7 @@ In order to use caves at Don't Starve Together, two servers ordered through us a
 
 Both configs can be seen in the interface under "**Configs**" and can be edited there.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/M7YFCSxLcHeZ2RR/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/x872MGFpMLbTBj2/preview)
 
 Only the "**[SHARD]**" part is edited in both .ini files 
 
@@ -33,8 +33,6 @@ name = Overworld
 id=100
 ```
 
-![](https://screensaver01.zap-hosting.com/index.php/s/c8rS4bcFKFQmmpX/preview)
-
 ### cluster.ini
 
 By default, "**[SHARD]**" in cluster.ini contains only "is_master = true", where the following commands are now added.
@@ -47,8 +45,6 @@ master_port = 27002
 shard_name = Overworld
 cluster_key = deinclusterkey
 ```
-
-![](https://screensaver01.zap-hosting.com/index.php/s/WmQKBWZ8SXjysKm/preview)
 
 ## ⬇️ Slave
 
@@ -71,8 +67,6 @@ name = Cave
 id=200
 ```
 
-![](https://screensaver01.zap-hosting.com/index.php/s/DSTdfgBTs78cday/preview)
-
 ### cluster.ini
 
 By default, "**[SHARD]**" in cluster.ini contains only "is_master = true", where the following commands are now added.
@@ -84,8 +78,6 @@ master_port = 27002
 shard_name = Cave
 cluster_key = deinclusterkey
 ```
-
-![](https://screensaver01.zap-hosting.com/index.php/s/Lf57cxzH7bmJKKF/preview)
 
 ### Generate New World
 

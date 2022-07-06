@@ -23,11 +23,11 @@ addaccount <USERNAME> <PASSWORD>
 
 The Live Console can be found in the gameserver dashboard in the interface while the server is running. This looks like this:
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/GTW28ECpzDSdnBZ/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/nLKatKB59XxMDj2/preview)
 
 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/FqAnk9HdYd8MT3Y/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/QpJJopEg5QGcodN/preview)
 
 
 

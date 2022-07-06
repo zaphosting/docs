@@ -48,6 +48,7 @@
             "gameserver_cloudvslifetime",
             "gameserver_resourcelimit",
             "gameserver_gameswitch",
+            "gameserver_upgrade",
             {
                 "type": "subcategory",
                 "label": "Databases",
@@ -148,7 +149,6 @@
                     "webspace_plesk_ssl",
                     "webspace_htaccess_discord",
                     "webspace_mybb",
-                    "webspace_woltlab",
                     "webspace_wordpress"
                 ]
             }
@@ -232,8 +232,7 @@
                     "fivem_mods_installaddon",
                     "fivem_changeloadingscreen",
                     "fivem_installels",
-                    "fivem_installeup",
-                    "fivem_installtokovoip"
+                    "fivem_installeup"
                 ]
             },
             {
@@ -264,6 +263,13 @@
                 "ids": [
                     "fivem_txadmin_setup",
                     "fivem_txadmin_features"
+                ]
+            },
+                {
+                "type": "subcategory",
+                "label": "QBCore",
+                "ids": [
+                    "fivem_qbcore_admin"
                 ]
             }
         ],

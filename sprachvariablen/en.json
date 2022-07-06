@@ -369,10 +369,6 @@
         "title": "FiveM: Installing resources, mods and scripts on server",
         "sidebar_label": "Resource Installation"
       },
-      "fivem_installtokovoip": {
-        "title": "FiveM: Install TokoVOIP on server",
-        "sidebar_label": "Install TokoVOIP"
-      },
       "fivem_licensekey": {
         "title": "FiveM: Add your own license key (Patreon) to the server",
         "sidebar_label": "Own License Key"
@@ -397,6 +393,10 @@
         "title": "FiveM Server: Error message \"Resource contains prohibited logic\"?",
         "sidebar_label": "Resource contains prohibited logic?"
       },
+      "fivem_qbcore_admin": {
+        "title": "FiveM QBCore Server: Become admin",
+        "sidebar_label": "Become admin"
+      },
       "fivem_rcon": {
         "title": "FiveM Server: Using Rcon",
         "sidebar_label": "Use Rcon"
@@ -406,8 +406,8 @@
         "sidebar_label": "Coloured Servername"
       },
       "fivem_servername_emojis": {
-        "title": "FiveM: Display emojis in the server name",
-        "sidebar_label": "Emojis in Server Name"
+        "title": "FiveM: Show emojis in server name",
+        "sidebar_label": "Emojis in server name"
       },
       "fivem_sql_file_import": {
         "title": "FiveM Server: SQL file import",
@@ -476,6 +476,10 @@
       "gameserver_tebex": {
         "title": "TEBEX Gameserver monetization setup",
         "sidebar_label": "TEBEX Monetization"
+      },
+      "gameserver_upgrade": {
+        "title": "Gameserver: Up-/Downgrade",
+        "sidebar_label": "Up-/Downgrade"
       },
       "gmod_servercfg": {
         "title": "Garry's Mod: Server.cfg settings",
@@ -907,10 +911,6 @@
       "webspace_plesk_ssl": {
         "title": "Webspace: Create SSL certificate",
         "sidebar_label": "Create SSL Certificate"
-      },
-      "webspace_woltlab": {
-        "title": "Webspace: Install Woltlab forum software",
-        "sidebar_label": "Install Woltlab"
       },
       "webspace_wordpress": {
         "title": "Webspace: Install WordPress",

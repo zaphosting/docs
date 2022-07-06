@@ -11,13 +11,13 @@ Damit du deinem Server beitreten kannst, benötigen wir eine Datei, welche die V
 Öffne zuerst [Impostor](https://impostor.github.io/Impostor/) dort müssen wir unsere Informationen eintragen.
 
 Zur Erstellung der Datei werden Informationen, wie die IP, Port und ein Name benötigt.
-![](https://screensaver01.zap-hosting.com/index.php/s/KitDSBHWa9WWjok/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/b5xJXqM2BsFzgp9/preview)
 
 Trage hier die Daten aus deinem ZAP-Hosting Interface ein, diese sehen beispielsweise so aus:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/C8bN9iN8HTgiJ6t/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/Nc955JddJrEF6Y4/preview)
 
-Wobei 92.42.45.216 deine IP ist und 2210 der Port.
+Wobei 31.214.245.215 deine IP ist und 2000 der Port.
 
 Den Servernamen kannst du frei wählen, wenn alle Daten eingetragen wurden klicke auf "Download Server File"
 Es wird nun eine Datei mit dem Namen "regioninfo.json" heruntergeladen.
@@ -30,18 +30,18 @@ Drücke als nächstes `Win` + `R` und gib dort
 
 ein und bestätige mit Enter, es öffnet sich nun ein Verzeichnis. Schiebe dort die regioninfo.json hinein und überschreibe die bestehende.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/Ki42qrAZzwNXiNL/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/KQHKWkBCs7Fk7Z4/preview)
 
 ## Server ingame "erstellen"
 
 Starte nun Among Us auf deinem PC.
 Klicke im Hauptmenü auf "online" und klicke dann auf "Create Game".
 
-![](https://screensaver01.zap-hosting.com/index.php/s/Fi6jWNne3pQGLWH/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/CWjEP3jsE6tsYzW/preview)
 
 Hier kannst du nun die gewünschten Einstellungen für deinen Server vornehmen:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/sPNiPB52iy9cnZ2/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/omkWqrSHixZdzHc/preview)
 
 Soweit du fertig bist mit den Einstellungen kannst du auf "confirm" klicken.
 Du bist nun mit deinem Server verbunden!

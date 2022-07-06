@@ -10,25 +10,23 @@ sidebar_label: Admin werden
 
 ## Admin werden
 
-Mit Administrator-Rechten kannst du direkt im Spiel Änderungen im Live Zustand an deinem Server vornehmen, ohne diese in der Config vorzunehmen. Damit man sich selbst oder auch anderen Spielern Administrator-Rechte zuweisen kann, muss als erstes ein Serveradmin Passwort definiert werden. Das definieren des Passworts erfolgt über die **ServerSettings.ini** Config, welche du im Interface unter Configs findest. 
+Mit Administrator-Rechten kannst du direkt im Spiel Änderungen im Live Zustand an deinem Server vornehmen, ohne diese in der Config vorzunehmen. Damit man sich selbst oder auch anderen Spielern Administrator-Rechte zuweisen kann, muss als erstes ein Serveradmin Passwort definiert werden. Das definieren des Passworts erfolgt in den **Einstellungen** deines Servers.
 
 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/kAjn5pNziYxZHCY/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/b2kefSCmNNc3NfY/preview)
+
+
+In den Einstellungen angekommen, suchen wir nach **Admin Passwort** und setzen dort sofern gewünscht ein individuelles Passwort.
+
+
+![img](https://screensaver01.zap-hosting.com/index.php/s/LwdnjoitzKC3paD/preview)
 
 
 
-In der Config angekommen suchen wir den **AdminPassword=** Befehl und definieren dahinter das Passwort. Das ganze sieht dann folgendermaßen aus:
+Sofern das gewünschte Passwort angegeben wurde, bitte die Änderungen speichern und den Server einmal neu starten. Im Anschluss kannst du dich mit deinem Server verbinden und über die ESC-Taste auf Server-Einstellungen klicken und dort dann das Admin Passwort setzen und dich zum Admin machen.
 
-
-
-![img](https://screensaver01.zap-hosting.com/index.php/s/LqLRq86dXwdjziW/preview)
-
-
-
-Nach dem Definieren des Passwortes muss die Config gespeichert und der Server gestartet werden. Im Anschluss kannst du dich mit deinem Server verbinden und über die ESC-Taste auf Server-Einstellungen klicken und dort dann das Admin Passwort setzen und dich zum Admin machen.
-
-![img](https://screensaver01.zap-hosting.com/index.php/s/kiPxRLgAx7fNNQb/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/wCmX3HZXWawsFCE/preview)
 
 
 
@@ -55,6 +53,3 @@ Im Anschluss kannst du sämtliche Server-Befehle als Admin ausführen. Im folgen
 
 
 Weitere Admin-Befehle rund ums Spiel findest du auf der [Gamepedia](https://conanexiles.gamepedia.com/Admin_Panel) von Conan Exiles. 
-
-
-

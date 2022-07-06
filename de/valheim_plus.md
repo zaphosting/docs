@@ -32,11 +32,11 @@ Dann kann Valheim gestartet werden und die Einrichtung bei dem Client ist beende
 
 Um das Spiel zu wechseln, öffnen wir zuerst das Spiele-Tab auf unserem Server:
 
-![image](https://user-images.githubusercontent.com/13604413/159180043-551c13d9-8c8c-4e92-8a71-3af7dd5264cc.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/zKgRCryf7KaR4Hb/preview)
 
 Hier suchen wir unter "Verfügbare Spiele" nun nach Valheim Plus und klicken auf den Download Button:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/GsRyy6cWfGjMfJA/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/EiJswTe4zkpZxk6/preview)
 
 Danach wird der Server neu installiert. Nach der Neuinstallation hat man die Möglichkeit das Passwort bei "**Configs**" zu entfernen und man kann nun auf mehr Slots upgraden.
 
@@ -44,7 +44,7 @@ Danach wird der Server neu installiert. Nach der Neuinstallation hat man die Mö
 
 Um nun ein Slotupgrade durchführen zu können, muss die "**UP- und Downgrade**" Funktion im Gameserver Dashboard geöffnet werden.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/ZzqYZoyFS7ew5iF/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/83GLfks4M4NKBX3/preview)
 
 Bei der Upgrade-Seite wählt man nun die gewünschte Anzahl an Slots aus. 
 
@@ -156,7 +156,7 @@ Eine Liste sämtlicher in der Konfigurationsdatei nutzbaren Befehle:
 
 ### [Hotkeys]
 
-Eine Liste der möglichen Tasten wäre ![hier](https://docs.unity3d.com/ScriptReference/KeyCode.html) zu sehen.
+Eine Liste der möglichen Tasten wäre [hier](https://docs.unity3d.com/ScriptReference/KeyCode.html) zu sehen.
 
 |  Befehl   |           Werte          |                  Funktion               |
 | :--------: | :--------------------------: |  :---------------------------------:  |

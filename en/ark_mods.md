@@ -13,7 +13,7 @@ The installation of mods for ARK servers is possible by using the Steam Workshop
 
 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/3cKdFL6Zca2CqrR/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/y3LMKrzJdYsT8yt/preview)
 
 
 
@@ -37,7 +37,7 @@ If you have chosen a mod, then you have to copy the ID of the workshop item of t
 
   Right click on the Steam Workshop page of the mod and click on Copy page url. Copy the ID of the mod from the URL. 
 
-  ![img](https://screensaver01.zap-hosting.com/index.php/s/N8HcxHBiNRE5BGM/preview)
+  ![img](https://screensaver01.zap-hosting.com/index.php/s/CSpqR3GzFoJHT5w/preview)
 
   
 
@@ -45,7 +45,7 @@ If you have chosen a mod, then you have to copy the ID of the workshop item of t
 
   You will find a combination of numbers after **.../?id=** in the URL bar. Copy it. 
 
-  ![img](https://screensaver01.zap-hosting.com/index.php/s/BxtTFzc2qxP3ztt/preview)
+  ![img](https://screensaver01.zap-hosting.com/index.php/s/PAM8ty6c2K6E4D4/preview)
 
 
 
@@ -53,7 +53,7 @@ This one must then be added to the interface under Steam Workshop. If you want t
 
 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/n8eyWiwxxRyjtDo/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/z92366spjAXTCaS/preview)
 
 
 
