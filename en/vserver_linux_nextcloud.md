@@ -5,7 +5,7 @@ description: Information on how to set up a Nextcloud server on your VPS from ZA
 sidebar_label: Nextcloud
 ---
 
-## ❓ Was ist Nextcloud?
+## ❓ What is Nextcloud?
 
 Nextcloud is an open source cloud solution and fork of Owncloud, which was founded in 2016 by former Owncloud founder Frank Kalitschek.
 
