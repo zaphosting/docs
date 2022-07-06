@@ -29,7 +29,7 @@ Whoever deals with game servers must of course also test them. Exactly for this 
 
 
 ## 💬 Discord
-Of course we also offer our community a common Discord Server. Here you get the chance to exchange with other gamers, get informed about new updates and chat with our staff. You want to join the server? Then use [this invitation](https://discord.gg/hosting).
+Of course we also offer our community a common Discord Server. Here you get the chance to exchange with other gamers, get informed about new updates and chat with our staff. You want to join the server? Then use [this invitation](https://discord.gg/zaphosting).
 
 
 ## ✉️ The direct line
