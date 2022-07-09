@@ -7,7 +7,8 @@ sidebar_label: Erstzugriff (RDP)
 
 ## 🖥 Remotedesktopverbindung
 
-![](https://screensaver01.zap-hosting.com/index.php/s/iKzYiHJ46WRQq2G/download/Remote.gif)
+![Remote](https://user-images.githubusercontent.com/13604413/178118543-4b8ca75d-1308-44b6-80c0-da5eb7c48bfc.gif)
+
 
 Die Verbindung zu deinem Windows Server erfolgt über das von Windows mitgelieferte Programm "Remotedesktopverbindung".  Das Programm lässt sich über die Windows Suche unter dem Begriff "remote" finden.
 
@@ -23,11 +24,13 @@ Die Verbindung zu deinem Windows Server erfolgt über das von Windows mitgeliefe
 
 Die IP-Adresse findet sich im ZAP Webinterface unter "**Zugang & Sicherheit**", sowie in der Infobar.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/pC4HanWNWjornqN/preview)
+![image](https://user-images.githubusercontent.com/13604413/178118559-6afaf372-99f4-48b4-ad3e-c02df91f549c.png)
+
 
 Das Programm fragt nach einem **Benutzernamen** und **Kennwort**. Der Benutzername lautet "**Administrator**". Das Passwort lässt sich im Webinterface unter "**Zugang & Sicherheit**" setzen.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/pC93m7bABAMkMXw/preview)
+![image](https://user-images.githubusercontent.com/13604413/178118566-ab8b05d1-d827-46fb-b680-cbca549593bb.png)
+
 
 > Standardgemäß ist kein Zertifikat installiert. Das Passwort wird daher unsicher übermittelt. Erfahre hier, wie du ein Zertifikat erstellst: RDP Zertifikat
 
