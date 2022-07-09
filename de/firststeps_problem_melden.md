@@ -44,5 +44,5 @@ Sollte der Live Chat für dich gerade keine Option sein und du möchtest dennoch
 
 ## ☹️ Keine Hilfe über Social Media?
 
-Nein, denn unsere Kundendaten sind uns heilig - genau wie ein schneller Support. Genau darum verweisen wir Kunden, die uns in Tweets, Facebook PN's oder auf Instagram um direkten Rat bitten **immer** auf unseren Live Chat. Nur so haben unsere Supporter einen direkten Zugriff auf die betroffenen Produkte und können eventuelle Probleme beheben. 
+Nein, denn unsere Kundendaten sind uns heilig - genau wie ein schneller Support. Genau darum verweisen wir Kunden, die uns in Tweets, Facebook Comments oder auf Instagram um direkten Rat bitten **immer** auf unseren Live Chat. Nur so haben unsere Supporter einen direkten Zugriff auf die betroffenen Produkte und können eventuelle Probleme beheben. 
 

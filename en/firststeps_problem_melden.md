@@ -46,4 +46,4 @@ If live chat is not an option for you and you still want to report your problem 
 
 ## ☹️ No help via social media?
 
-No, because our customer data is sacred to us - just like fast support. That's exactly why we refer customers who ask us for direct advice in Tweets, Facebook PN's or on Instagram **always** to our Live Chat. This is the only way our supporters have direct access to the affected products and can solve any problems. 
+No, because our customer data is sacred to us - just like fast support. That's exactly why we refer customers who ask us for direct advice in Tweets, Facebook or on Instagram **always** to our Live Chat. This is the only way our supporters have direct access to the affected products and can solve any problems. 
