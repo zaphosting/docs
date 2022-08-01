@@ -8,7 +8,7 @@ sidebar_label: Payment options
 ## 🧾 Overview
 ZAP-Hosting offers a large number of different payment options with which servers can be rented and deployed immediately. The payment process is simple and fast. The following payment options are offered by us:
 *  ZAP Coins
-> ZAP Coins are added via the Cashbox (deposit money) and can be used for all products.
+> ZAP Coins are added via the Cashbox (deposit money) and can be used for almost all products.
 * Sofortüberweisung
 > Payment with online banking via Sofortüberweisung.de. Available for almost all German online banking accesses.
 * Credit card
