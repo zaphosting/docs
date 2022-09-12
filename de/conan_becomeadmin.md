@@ -14,19 +14,19 @@ Mit Administrator-Rechten kannst du direkt im Spiel Änderungen im Live Zustand 
 
 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/b2kefSCmNNc3NfY/preview)
+![image](https://user-images.githubusercontent.com/26007280/189707562-a06d3a2e-5b3e-4f39-a633-221e64437662.png)
 
 
 In den Einstellungen angekommen, suchen wir nach **Admin Passwort** und setzen dort sofern gewünscht ein individuelles Passwort.
 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/LwdnjoitzKC3paD/preview)
+![image](https://user-images.githubusercontent.com/26007280/189707600-0046b896-0519-4ed7-b35e-badcdb6cd837.png)
 
 
 
 Sofern das gewünschte Passwort angegeben wurde, bitte die Änderungen speichern und den Server einmal neu starten. Im Anschluss kannst du dich mit deinem Server verbinden und über die ESC-Taste auf Server-Einstellungen klicken und dort dann das Admin Passwort setzen und dich zum Admin machen.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/wCmX3HZXWawsFCE/preview)
+![image](https://user-images.githubusercontent.com/26007280/189707621-659be0b9-571b-44bd-bb8f-9472836115e8.png)
 
 
 
