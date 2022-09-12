@@ -21,16 +21,16 @@ RageMP unterscheidet hierbei zwischen "**Client**" und "**Server**" Paketen
 Clientseitige Pakete werden genutzt um beispielsweise das Userinterface im Spiel oder auch andere visuelle Effekte zu editieren.
 Die Clientseitigen Pakete werden in den "**client_packages**" Ordner hochgeladen
 
-![](https://screensaver01.zap-hosting.com/index.php/s/mdZ4kpHgbdCL6Zc/preview)
+![image](https://user-images.githubusercontent.com/26007280/189705054-14877243-9134-4ebb-8d64-3ec3448fdc4c.png)
 
 In diesem Ordner werden nun ein "**gamemode**" Ordner und eine "**index.js**" Datei erstellt.
 Die "**index.js**" ist wichtig sobald alle Scripte hochgeladen wurden. 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/9YjtaZ5HpEsqy7q/preview)
+![image](https://user-images.githubusercontent.com/26007280/189705088-ef6465ed-9703-44d2-b985-1cff402ccc27.png)
 
 In den "**gamemode**" Ordner werden nun die Scripte hochgeladen, welche man auf dem Server nutzen möchte.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/iteCJkT9A4gwCdE/preview)
+![image](https://user-images.githubusercontent.com/26007280/189705208-dd29df8a-6299-4300-99ef-485fc6e624a5.png)
 
 Sobald alle gewünschten Scripte hochgeladen wurden, muss die vorher erstellte "**index.js**" editiert werden.
 Dort wird für jedes Script die Zeile ***require(./gamemode/DEINSCRIPTNAME.js);*** eingefügt
@@ -56,7 +56,7 @@ Sobald der Ordner erstellt wurde, wird in dieser Ordner mit den Serverseitigen S
 
 Nachdem alle Wunschscripte auf dem Server liegen muss in dem gleichen Ordner eine "**index.js**" erstellt werden.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/6s9p5FaQaLxwsz8/preview)
+![image](https://user-images.githubusercontent.com/26007280/189705250-0dd24ec9-ae1e-4468-a8b0-cbbf8c0c89c6.png)
 
 Dort wird für jedes Script die Zeile ***require(./DEINSCRIPTNAME.js);*** eingefügt
 
