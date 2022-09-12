@@ -24,7 +24,7 @@ Upgrades sind zum aktuellen Zeitpunkt bei allen Produkten außer Dedicated Serve
 
 Der Up-/Downgrade Manager wird im linken Menü in deinem Produktdashboard angezeigt:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/zDo2Yt2EoWffGYa/preview)
+![image](https://user-images.githubusercontent.com/26007280/189680146-5841f8d4-dc1b-47f0-ad71-e441d404bf9a.png)
 
 ### Upgrademöglichkeiten
 
@@ -32,7 +32,7 @@ In unserem Manager angekommen, findest du die Parameter deines Produktes, welche
 
 Bei Gameservern, ist es möglich diese zwischen verschiedenen Standorten umzuziehen.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/3LEYbP8xdEGw6ck/preview)
+![image](https://user-images.githubusercontent.com/26007280/189680179-ee47a082-cb57-4972-8781-8dc55d54c1ae.png)
 
 > ⚠️ **WICHTIG** Bei diesem Prozess kann Datenverlust entstehen, stelle zu jederzeit sicher ein Backup deiner Daten zu haben!
 
@@ -40,7 +40,7 @@ Klicke sofern ein Umzug gewünscht ist, einfach auf den entsprechenden Standort 
 
 Darunter befinden sich noch weitere Parameter, in unserem Beispiel eines FiveM Servers die Slot-Anzahl und der RAM Boost sowie die Systemart und eigene IP-Adresse:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/Z3gPabbGjwQbbrK/preview)
+![image](https://user-images.githubusercontent.com/26007280/189680215-5fc99929-4c53-450c-adc2-fe1f800ff905.png)
 
 *** 
 
@@ -58,13 +58,13 @@ Darunter befinden sich noch weitere Parameter, in unserem Beispiel eines FiveM S
 
 Die Bezahlung des Upgrades erfolgt ganz unkompliziert, scrolle hierzu einfach nach unten bis du bei den Zahlungsmethoden ankommst:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/Ak2FcpgYdbkBsJY/preview)
+![image](https://user-images.githubusercontent.com/26007280/189680250-36069b30-0403-4468-b1d7-c18adc6ed289.png)
 
 * 1: Dein neuer monatlicher Paketpreis, in diesem Beispiel kostet dein Paket 16.54€ monatlich, dies beinhaltet bereits die gewählten Upgrades.
 
 * 2: Der Aufpreis ist die Summe welche für die Restlaufzeit deines Produktes noch beglichen werden muss, dies muss sofort bezahlt werden.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/ZMpgwWkRH3JA5Hb/preview)
+![image](https://user-images.githubusercontent.com/26007280/189680283-821db11d-9d10-4060-a260-c7eaeaa3e352.png)
 
 Wähle die Zahlungsmethode deiner Wahl und beende den Upgrade-Prozess mit "Upgrade durchführen"
 
