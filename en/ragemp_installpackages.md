@@ -22,16 +22,16 @@ RageMP distinguishes between "**Client**" and "**Server**" packages
 Client-side packages are used to edit the in-game user interface or other visual effects.
 The client-side packages are uploaded to the "**client_packages**" folder
 
-![](https://screensaver01.zap-hosting.com/index.php/s/mdZ4kpHgbdCL6Zc/preview)
+![image](https://user-images.githubusercontent.com/26007280/189705362-37e49dcd-0fbf-479d-ab58-548c25f4704b.png)
 
 In this folder a "**gamemode**" folder and a "**index.js**" file will be created.
 The "**index.js**" file is important as soon as all scripts have been uploaded. 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/9YjtaZ5HpEsqy7q/preview)
+![image](https://user-images.githubusercontent.com/26007280/189705391-d9403807-a2bc-4093-a00a-69bf8424defe.png)
 
 In the "**gamemode**" folder the scripts are uploaded, which you want to use on the server.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/iteCJkT9A4gwCdE/preview)
+![image](https://user-images.githubusercontent.com/26007280/189705412-54cacbd1-fa8e-4d9d-a439-a1e8058ae51e.png)
 
 As soon as all desired scripts have been uploaded, the previously created "**index.js**" must be edited.
 There for each script the line ***require(./gamemode/DEINSCRIPTNAME.js);*** is inserted
@@ -57,7 +57,7 @@ Once the folder is created, this folder will be filled with the server-side scri
 
 After all desired scripts are on the server a "**index.js**" must be created in the same folder.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/6s9p5FaQaLxwsz8/preview)
+![image](https://user-images.githubusercontent.com/26007280/189705458-b76e51c6-152e-4a7c-9f33-e8b693ec7c8b.png)
 
 There for each script the line ***require(./DEINSCRIPTNAME.js);*** is inserted
 
