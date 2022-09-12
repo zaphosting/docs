@@ -10,11 +10,11 @@ sidebar_label: Admin werden
 Dank unseres Webinterfaces kannst du schnell und unkompliziert Admin werden.
 Öffne hierzu die Einstellungen deines Servers:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/FPNWHyao9wo7SeX/preview)
+![image](https://user-images.githubusercontent.com/26007280/189679425-b5c6e6bf-1052-49f0-93e4-8004697152fb.png)
 
 dort angekommen suche nach der Option "Admins - Steam64 IDs (z.B. für Nucleus, vMenu, EasyAdmin)"
 
-![](https://screensaver01.zap-hosting.com/index.php/s/F2JrQiqXrmG2xBo/preview)
+![image](https://user-images.githubusercontent.com/26007280/189679463-b50d2ede-2ff6-486d-915a-69f97452d842.png)
 
 im nächsten Schritt musst du deine STEAM64 ID herausfinden, öffne hierzu eine der folgenden Seiten:
 
@@ -24,13 +24,13 @@ im nächsten Schritt musst du deine STEAM64 ID herausfinden, öffne hierzu eine 
 
 in diesem Beispiel benutzen wir steamid.io, melde dich dort via STEAM an:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/yifjkA4xFZBJwip/preview)
+![image](https://user-images.githubusercontent.com/26007280/189679500-d994559c-0dcd-4c1f-856f-dab078b9fdf4.png)
 
 kopiere nun deine STEAM64-ID und füge diese in die Admins ein:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/iFWa3Pea9czHrMJ/preview)
+![image](https://user-images.githubusercontent.com/26007280/189679528-61ee11b3-7465-4768-b3e5-a8af9b882a88.png)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/oHiyayzq58Bjqp4/preview)
+![image](https://user-images.githubusercontent.com/26007280/189679564-9a6d61f2-09b7-4ba7-8687-ec586c259b1e.png)
 
 Scrolle nun bis zum Ende der Seite und klicke auf Speichern.
 
