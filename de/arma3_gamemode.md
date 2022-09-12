@@ -22,19 +22,19 @@ Für das hochladen der Missionsdatei musst du zuvor via FTP auf deinen Server ve
 Dort lädst du nun die entsprechende Missionsdatei in dein **mpmissions** Verzeichnis welches du unter **/gxxxxxx/arma3/** finden kannst.
 In diesem Beispiel laden wir Den Spielmodus **King of the Hill** auf unseren Server.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/TsLrK87iLtsePE6/preview)
+![image](https://user-images.githubusercontent.com/26007280/189677073-6a032e47-45c5-4d55-9749-4a7cae334ab2.png)
 
 
 ## Laden der Missionsdatei auf dem Server
 
 Damit die Missionsdatei nun vom Server geladen wird begibst du dich in dein ArmA 3 Serverinterface und klickst links im Menü auf den Tab **Configs**:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/m4aQmxMZy7Ben4m/preview)
+![image](https://user-images.githubusercontent.com/26007280/189677126-cb56dc14-7616-4a74-92b3-676192ea2d07.png)
 
 Dort bearbeitest du nun die Datei **server.cfg** und trägst dort wie auf dem Bild zu sehen den Namen deiner Missionsdatei ein: 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/fx9JS7MPMspprLC/preview)
+![image](https://user-images.githubusercontent.com/26007280/189677159-ecb35caf-552b-46aa-8fb0-a275ef1456a7.png)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/T43D52qD74r3iYm/preview)
+![image](https://user-images.githubusercontent.com/26007280/189677281-4c7b3ff7-ef0d-49ae-9efc-8adf9bf17c28.png)
 
 Danach klickst du auf **Speichern** und kannst deinen Server im Anschluss starten. Die neue Missionsdatei wird dann geladen.
