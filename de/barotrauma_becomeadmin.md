@@ -11,7 +11,7 @@ sidebar_label: Admin werden
 
 Mit Administrator-Rechten kannst du direkt im Spiel Änderungen im Live Zustand an deinem Server vornehmen, ohne diese in der Config vorzunehmen. Das hinzufügen eines Admins erfolgt über die **Clientpermissions.xml** Config, welche du im Interface unter Configs findest.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/y6YmYmw7sZekaEr/preview)
+![image](https://user-images.githubusercontent.com/26007280/189937640-321e9e45-c344-4107-aad8-77100b7834c5.png)
 
 
 Um einen neuen Spieler hinzuzufügen, muss ein neuer Client Eintrag zu der Config hinzugefügt werden. Die Syntax dazu sieht wie folgt aus:
@@ -32,7 +32,7 @@ In dem Client Eintrag sind die Variablen **Name, SteamID, Permissions, und Comma
 
 Diese findest du, indem du zunächst einmal Steam Profil aufrufst und dort dann an einer beliebigen Stelle Rechtsklick drückst. Dort kann dann die Steam URL des Profils kopieren.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/CSpqR3GzFoJHT5w/preview)
+![image](https://user-images.githubusercontent.com/26007280/189937665-dab6dc92-b94b-489d-9241-e8ad2ad4dc9c.png)
 
 
 
