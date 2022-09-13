@@ -11,7 +11,7 @@ sidebar_label: Admin werden
 
 Mit Administrator-Rechten kannst du direkt im Spiel Änderungen im Live Zustand an deinem Server vornehmen, ohne diese in der Config vorzunehmen. Das hinzufügen eines Admins erfolgt über die **Users.eco** Config, welche du im Interface unter Configs findest.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/X7Mzrnc8DCe5pjm/preview)
+![image](https://user-images.githubusercontent.com/26007280/189889325-21709231-9f93-49a4-a4dc-57fe2a7188e2.png)
 
 
 
@@ -32,7 +32,7 @@ Im Feld **values** wird der Spieler eingetragen, der Admin werden soll. Bei mehr
 
 Diese findest du, indem du zunächst einmal dein Steam Profil aufrufst und dort dann an einer beliebigen Stelle Rechtsklick drückst. Dort kann dann die Steam URL des Profils kopiert werden.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/9ERnWan6k39FsHX/preview)
+![image](https://user-images.githubusercontent.com/26007280/189889346-754e34b7-6702-4705-95b4-98108832c095.png)
 
 
 
@@ -42,7 +42,7 @@ Im Anschluss kann die URL auf einer der folgenden Webseiten angeben werden:
 - https://steamidfinder.com/
 - https://steamid.io/
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/92WJfgmrdZWXbFd/preview)
+![image](https://user-images.githubusercontent.com/26007280/189889366-7c977f37-bf4f-47b0-a91e-18358180ed11.png)
 
 
 
