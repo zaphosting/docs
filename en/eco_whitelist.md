@@ -31,7 +31,7 @@ The field **$values** contains the SteamIDs of the players that should be added 
 
 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/9ERnWan6k39FsHX/preview)
+![image](https://user-images.githubusercontent.com/26007280/189889186-9c30b86c-5339-4c54-945a-39c0f8b56f40.png)
 
 
 Afterwards open one of the following pages and paste the URL of your profile there: 
