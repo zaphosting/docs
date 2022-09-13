@@ -19,7 +19,7 @@ With plugins you have the possibility to customize your server even more. Below 
 
 First of all, you need to download the plugins that you want to install on the server. A large selection of plugins can be found at [umod.org (formerly OXIDE)](https://umod.org/plugins). During the download you will get a **.cs** file.  
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/6qp6NXMZDfnnmjW/preview)
+![image](https://user-images.githubusercontent.com/26007280/189931606-5be034d4-5516-47ab-a12e-5553d7c1afe7.png)
 
 
 
@@ -27,11 +27,11 @@ First of all, you need to download the plugins that you want to install on the s
 
 Once the desired plugins have been downloaded, the actual installation of the plugins can be started. The setup of the plugins is done via FTP. You need a FTP client to be able to upload files to your server. If you don't know yet what FTP is and how it works, then you should have a look at the following guide: [FTP file access](https://zap-hosting.com/guides/docs/en/gameserver_ftpaccess/)
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/mRPzcHSPnwnMq2D/preview)
+![image](https://user-images.githubusercontent.com/26007280/189931629-87c49504-e9df-45a5-85de-ccf6eb565bdf.png)
 
 You can find the **Plugins** folder under the ``/gXXXXXX/rust-oxide/oxide`` directory. There you can upload your selected plugins into the directory. This could look like this:
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/Ckq9xoGPf4Nqewf/preview)
+![image](https://user-images.githubusercontent.com/26007280/189931670-4c0e05bd-54a6-4ac8-aabc-88ef100d91af.png)
 
 Nothing more needs to be done. This already completes the installation. Afterwards you can check in the live console if the plugin was compiled and loaded successfully. The output should look like this:
 
