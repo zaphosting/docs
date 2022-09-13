@@ -43,7 +43,7 @@ When you get there, you will be asked for the App ID and a memo (any name you wi
 
 The GSL token can be defined in the interface under the settings.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/fRmXAsWtS3Zc3pR/preview)
+![image](https://user-images.githubusercontent.com/26007280/189975649-7eda2073-2e15-4e89-97c6-9b0b594029ae.png)
 
 
 Once this step is done and the server has been restarted, the server will also appear in the public server list. 
