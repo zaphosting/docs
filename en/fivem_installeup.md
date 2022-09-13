@@ -13,7 +13,7 @@ Before EUP can be installed, the [FTP access](gameserver_ftpaccess.md) must be s
 
 After this has been set up, you can now connect and open the server folder.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/kDLyywf9bMB7Fbw/preview)
+![image](https://user-images.githubusercontent.com/26007280/189978708-0b6694b6-861d-456e-a154-93e0c1262158.png)
 
 ## Preparation
 
