@@ -32,11 +32,11 @@ Dann kann Valheim gestartet werden und die Einrichtung bei dem Client ist beende
 
 Um das Spiel zu wechseln, öffnen wir zuerst das Spiele-Tab auf unserem Server:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/zKgRCryf7KaR4Hb/preview)
+![image](https://user-images.githubusercontent.com/26007280/189885529-009cc0c7-356c-4ab9-83f0-e4c69533df23.png)
 
 Hier suchen wir unter "Verfügbare Spiele" nun nach Valheim Plus und klicken auf den Download Button:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/EiJswTe4zkpZxk6/preview)
+![image](https://user-images.githubusercontent.com/26007280/189885558-f233535b-8cde-4efa-896f-13b9a82cd857.png)
 
 Danach wird der Server neu installiert. Nach der Neuinstallation hat man die Möglichkeit das Passwort bei "**Configs**" zu entfernen und man kann nun auf mehr Slots upgraden.
 
@@ -44,7 +44,7 @@ Danach wird der Server neu installiert. Nach der Neuinstallation hat man die Mö
 
 Um nun ein Slotupgrade durchführen zu können, muss die "**UP- und Downgrade**" Funktion im Gameserver Dashboard geöffnet werden.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/83GLfks4M4NKBX3/preview)
+![image](https://user-images.githubusercontent.com/26007280/189885583-b4086c3d-4891-4d22-9ba6-8bec12118916.png)
 
 Bei der Upgrade-Seite wählt man nun die gewünschte Anzahl an Slots aus. 
 
