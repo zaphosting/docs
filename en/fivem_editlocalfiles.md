@@ -15,11 +15,11 @@ Once we have done that we look for the script where we want to change the local 
 
 There we search for the Folder **locales**.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/8rJTjH3q75w7AcE/preview)
+![image](https://user-images.githubusercontent.com/26007280/189978328-12e1af59-f429-48df-a2db-51238bdc2648.png)
 
 There we look for our localesfile. In our case this is de.lua
 
-![](https://screensaver01.zap-hosting.com/index.php/s/iZPD2ssYPZsPzkE/preview)
+![image](https://user-images.githubusercontent.com/26007280/189978346-553ed369-5f09-44cf-b67a-221bd89f9c2f.png)
 
 Then we open it
 
@@ -28,7 +28,7 @@ Then we open it
 Now we can change the locales.
 **Important** Always write in the '.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/sH53NxrFJ29g7Lj/preview)
+![image](https://user-images.githubusercontent.com/26007280/189978393-e3010950-6c9a-4a72-bf15-05924c37f0a9.png)
 
 If we have changed everything we wanted to change, we save the file and upload it.
 
@@ -36,6 +36,6 @@ If we have changed everything we wanted to change, we save the file and upload i
 
 After this is done we have to make sure that the correct locales file is specified in the config.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/CrCrceNRTxoaSYB/preview)
+![image](https://user-images.githubusercontent.com/26007280/189978443-cdf9523c-c499-4b16-88d7-fe0e5eb6df87.png)
 
 Once this is done we upload the file again and restart the server.
