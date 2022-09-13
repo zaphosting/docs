@@ -23,14 +23,14 @@ Angenommen du möchtest den Decay komplett deaktivieren dann muss der Befehl
 
 Du kannst nun im Consolen-Tab sehen ob der Befehl erfolgreich übermittelt wurde.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/opfx5QQ5BrZkzS7/preview)
+![image](https://user-images.githubusercontent.com/26007280/189934246-35f2930a-02d4-4ab3-a203-23ca6345d6ed.png)
 
 
 Um unsere Änderungen nun zu speichern, muss noch einmalig
 
 ```server.writecfg``` eingegeben und ebenfalls mit Enter bestätigt werden.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/dqRyDgXDtzczCZj/preview)
+![image](https://user-images.githubusercontent.com/26007280/189934350-a5b8f858-3e6d-4258-b896-d59e30673884.png)
 
 Sofern nun in deiner Console `Config Saved` steht, wurde die Änderung erfolgreich übernommen.
 
