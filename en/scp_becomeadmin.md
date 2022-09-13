@@ -17,7 +17,7 @@ The ID will later be entered in the configuration file.
 
 Here you can find an example of how you can get your steamid by inputting your profile link there:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/92WJfgmrdZWXbFd/preview)
+![image](https://user-images.githubusercontent.com/26007280/189888449-eda43870-464c-416e-b3ae-b373b71cc6a0.png)
 
 ## ➕ Add Admins
 
@@ -47,12 +47,12 @@ If you have multiple roles you want to override the remote admin password, you c
 
 Find exactly the following section: 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/W4AEN2awAYTF96d/preview)
+![image](https://user-images.githubusercontent.com/26007280/189888482-6a066272-bf6d-4741-a73b-447d020015e8.png)
 
 To add more roles, you simply write your desired roles with a comma.
 For example, to add admin and moderator to override the password:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/7otg34iLKzASX4q/preview)
+![image](https://user-images.githubusercontent.com/26007280/189888498-75842a1c-848b-4169-a468-270a32edccf9.png)
 
 > Hint: To open the remote admin console ingame, once you are logged into the server, you would use the "**M**" key. 
 
