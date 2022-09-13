@@ -35,7 +35,7 @@ To change the game we first open the games tab on our server:
 
 Here we now search for Valheim Plus under "Available games" and click on the download button:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/4Ki9JKrffdNJxfp/preview)
+![image](https://user-images.githubusercontent.com/26007280/189885700-bf87dac6-fb20-4f03-beac-fd8aa5de2348.png)
 
 After that the server will be reinstalled. After the reinstallation is finished you have the possibility to remove the password at "**Configs**" and you can now upgrade to more slots.
 
@@ -43,7 +43,7 @@ After that the server will be reinstalled. After the reinstallation is finished 
 
 To be able to perform a slot upgrade now, the "**UP and Downgrade**" function in the game server dashboard has to be opened.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/Jngkpka4Mctd8y6/preview)
+![image](https://user-images.githubusercontent.com/26007280/189885731-8e160ced-dabd-472d-b72a-8b1b48a0f7e1.png)
 
 Now select the desired number of slots on the UP and Downgrade page.
 
