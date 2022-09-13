@@ -11,7 +11,7 @@ In Assetto Corsa, 10 slots can be used correctly without any further modificatio
 However, to use more than 10 slots, certain requirements must be met.
 These requirements are set under "**Configs**" and in there the "**settings.json**" has to be edited.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/xZQSo9Tqx8QdLK7/preview)
+![image](https://user-images.githubusercontent.com/26007280/189936976-7f2838bd-f1cd-490f-90ad-fd095b6f2529.png)
 
 ## Requirements and Slot Limits
 
