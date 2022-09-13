@@ -15,11 +15,11 @@ The permissions are stored in the "Permissions.config.xml" file.
 You can easily view and edit this file via our interface.
 Just click on the tab "Configs" in the interface of your server:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/x872MGFpMLbTBj2/preview)
+![image](https://user-images.githubusercontent.com/26007280/189918422-3106d39d-c995-4cb3-8c3c-926bd7cbb033.png)
 
 The Config is called "Rocket Permissions" and can be opened with a click on the blue pen for editing:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/sgWdirGy8TJjTDE/preview)
+![image](https://user-images.githubusercontent.com/26007280/189918453-66b0fae6-82f4-43fc-bfa1-b882c472731f.png)
 
 ## 📌 Understand the Config
 The Config looks complicated and complex at first sight.
@@ -30,16 +30,16 @@ Speak with "<groups>" it starts and with "</groups>" it ends:
 
 Begin:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/DnqnAAdeeqaXpNM/preview)
+![image](https://user-images.githubusercontent.com/26007280/189918486-c919a187-b471-45ca-b4ac-e07dda78aaab.png)
 
 End:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/JzpDagbYB2sgGWY/preview)
+![image](https://user-images.githubusercontent.com/26007280/189918515-73219a82-3fac-4887-a70f-bc4b671748a7.png)
 
 The groups are then displayed in between.
 For example, the whole block represents one group:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/oYd9z2akRWyka98/preview)
+![image](https://user-images.githubusercontent.com/26007280/189918541-99c7cbd5-95eb-4f5f-a9b4-da70e82965a9.png)
 
 In which all necessary parameters are then assigned to the group.
 
@@ -47,20 +47,20 @@ In which all necessary parameters are then assigned to the group.
 Within the group you will also find the "Permissions" category.
 As you can see in this screenshot:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/d2DjzNm8LPD2cmb/preview)
+![image](https://user-images.githubusercontent.com/26007280/189918574-4bba12b9-b6f2-42bc-85f3-69a7be45d753.png)
 
 There we can now adjust the permissions of the group.
 As well as specify the waiting time when the command can be used again.
 Suppose we want to give the group the right to ban users.
 Then we can enter the following:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/ZMBCm2xdm64gSpz/preview)
+![image](https://user-images.githubusercontent.com/26007280/189918612-98bb7d60-d561-48d8-93db-f63a00cb59eb.png)
 
 This would mean that the group can now ban ingame people, and since the "cool down" was set to 0 seconds, this can be done consistently.
 
 If we still want to give the group the right to heal itself, it can be entered as follows
 
-![](https://screensaver01.zap-hosting.com/index.php/s/wXQ9bPaMWW8zJZP/preview)
+![image](https://user-images.githubusercontent.com/26007280/189918634-b1c25de2-002e-4880-bcfd-75edd378eea1.png)
 
 However, the user can only use the command every 3600 seconds.
 The procedure is identical for other rights.
@@ -76,11 +76,11 @@ https://steamid.io/
 If you have determined the Steam64ID you can enter it into the Config.
 This can be done here with the Member parameter:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/x24YEgr3P7sHycX/preview)
+![image](https://user-images.githubusercontent.com/26007280/189918696-6026b6e0-4ef6-4465-9d83-d10e28cdd2b5.png)
 
 This would look like this in an example as follows:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/EF5ry27mp6JcAGL/preview)
+![image](https://user-images.githubusercontent.com/26007280/189918723-0f245bc0-b208-4f9d-861c-b3b163caaa28.png)
 
 So it is always necessary to create a new line for new users who should be assigned to the group.
 If you have entered all desired users, you can save the config by clicking the "Save" button.
