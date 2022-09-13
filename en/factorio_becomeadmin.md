@@ -10,7 +10,7 @@ sidebar_label: Become Admin
 
 Administrator rights allow you to make changes directly in the game on your server without having to change it in the Config. Adding an admin is done via the **server-settings.json** Config, which you can find in the interface under Configs.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/3c8d8zM7qDdf8kA/preview)
+![image](https://user-images.githubusercontent.com/26007280/189889743-e124e5f1-0042-4200-9d35-7223c36a20a3.png)
 
 At the end of the config file is the important part. The admins are defined there:
 
