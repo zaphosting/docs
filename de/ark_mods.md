@@ -12,7 +12,7 @@ Die Installation von Mods für ARK-Server wird die Nutzung des Steam Workshops e
 
 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/YdpsHpSKQqyp5q2/preview)
+![image](https://user-images.githubusercontent.com/26007280/189939980-6d2d9dd6-9661-4d95-ab4b-c2a95e8637db.png)
 
 
 
@@ -38,7 +38,7 @@ Wenn du dich für einen Mod entschieden hast, dann musst du die ID des Workshop 
 
   Mache einen Rechtsklick bei der Steam Workshop Seite des Mods und klicke auf Seitenurl kopieren. Aus der URL kopierst du die ID des Mods. 
 
-  ![img](https://screensaver01.zap-hosting.com/index.php/s/CSpqR3GzFoJHT5w/preview)
+![image](https://user-images.githubusercontent.com/26007280/189940001-dd4d0715-ae3f-4dbc-8e00-7540a5a54c7f.png)
 
   
 
@@ -46,7 +46,7 @@ Wenn du dich für einen Mod entschieden hast, dann musst du die ID des Workshop 
 
   In der URL-Leiste findest du in der URL hinter **.../?id=** eine Zahlenkombination. Diese musst du kopieren. 
 
-  ![img](https://screensaver01.zap-hosting.com/index.php/s/PAM8ty6c2K6E4D4/preview)
+![image](https://user-images.githubusercontent.com/26007280/189940101-213214ac-f0f0-4e14-bc55-0f798d5056c3.png)
 
 
 
@@ -54,7 +54,7 @@ Diese muss im Anschluss im Interface unter Steam Workshop eingetragen werden. We
 
 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/DKM277WiE9zdBtD/preview)
+![image](https://user-images.githubusercontent.com/26007280/189940155-f1c89711-5ab8-4431-bc2b-8c50f1e144c4.png)
 
 
 
