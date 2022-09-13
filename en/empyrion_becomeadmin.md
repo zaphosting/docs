@@ -20,15 +20,15 @@ Here you can find an example of how you can get your steamid by inputting your p
 The "**adminconfig.yaml**" which must be edited is located in the "**Saves**" directory.
 To open this directory, the instructions for the [FTP connection](https://zap-hosting.com/guides/docs/en/gameserver_ftpaccess) must be followed.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/DNezokxtJqYZ5cy/preview)
+![image](https://user-images.githubusercontent.com/26007280/189930998-9c22c865-d2fb-4a6d-8cd9-e039cac8ff81.png)
 
 The following values are specified as standard:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/ja6Wf88JBberYTH/preview)
+![image](https://user-images.githubusercontent.com/26007280/189931028-535b2c79-dcd5-4838-9318-795ffad325a8.png)
 
 The previously selected Steam64ID must now be written after "**Id:**".
 
-![](https://screensaver01.zap-hosting.com/index.php/s/ZYwCqmYryWHHzyZ/preview)
+![image](https://user-images.githubusercontent.com/26007280/189931066-796567e9-2d96-4b31-8131-2184f5ea6645.png)
 
 With "**Permission**" the rank is determined, which should be given to the user.
 The ranks are assigned as follows:
