@@ -56,7 +56,7 @@ Trage dafür den Befehlsname der Map einfach in das Feld **Karte / Map** ein und
 
 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/LsGT3Q47qr5m7Js/preview)
+![image](https://user-images.githubusercontent.com/26007280/189939084-5cd5cc89-05d3-4bc9-9b9b-0887fdaaf068.png)
 
 
 
