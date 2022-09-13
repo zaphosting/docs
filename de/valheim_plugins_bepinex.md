@@ -26,7 +26,7 @@ In diesem Verzeichnis kannst du nun deine Plugin's hochladen, diese bestehenden 
 
 In unserem Beispiel laden wir ein Anticheat auf den Server welches aus drei Dateien besteht: 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/9GQTJ65Wp2JznZz/preview)
+![image](https://user-images.githubusercontent.com/26007280/189885370-0cf3d3d8-d725-4ea4-9a62-34f471e9ff44.png)
 
 
 ## ⬆️ Starten deines Servers
