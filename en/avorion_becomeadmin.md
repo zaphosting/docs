@@ -34,7 +34,7 @@ This will provide you with general information as well as the Steam ID of your a
 
 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/XkyaokMx8a5Z37J/preview)
+![image](https://user-images.githubusercontent.com/26007280/189938255-dc3fb7b5-a05c-4b58-b640-92d2481b6f3d.png)
 
 
 
