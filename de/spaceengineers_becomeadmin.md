@@ -14,7 +14,7 @@ Um den eigenen Spielserver gut Ingame verwalten zu können ist es wichtig den Ad
 Zunächst einmal muss in Steam das Profil aufgerufen und dort dann an einer beliebigen Stelle Rechtsklick klicken werden.
 Dort kann man dann die Steam URL des Profils kopieren.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/9ERnWan6k39FsHX/preview)
+![image](https://user-images.githubusercontent.com/26007280/189890542-53ea224a-e530-466a-8cfb-b416111ce636.png)
 
 Sobald das erledigt ist, kann man dann die URL auf folgenden Webseiten engeben:
 
@@ -22,22 +22,22 @@ Sobald das erledigt ist, kann man dann die URL auf folgenden Webseiten engeben:
 - https://steamid.io/
 - https://steamrep.com/
 
-![](https://screensaver01.zap-hosting.com/index.php/s/92WJfgmrdZWXbFd/preview)
+![image](https://user-images.githubusercontent.com/26007280/189890562-60f73099-0d50-47f0-a38a-800ad3b3778a.png)
 
 ### 📄 SteamID in die Config eintragen
 
 Als nächstes rufst du dein Interface un den Server auf. 
 Dort gehst du dann auf den Reiter **Configs**
 
-![](https://screensaver01.zap-hosting.com/index.php/s/Bj4MceqzXnnRRjE/preview)
+![image](https://user-images.githubusercontent.com/26007280/189890578-d404d3c2-0d82-4f63-865a-073404dda486.png)
 
 Anschließend öffnest du die **SpaceEngineers-Dedicated.cfg**
 
-![](https://screensaver01.zap-hosting.com/index.php/s/edb5wMeWxR3JS2g/preview)
+![image](https://user-images.githubusercontent.com/26007280/189890601-283ea429-4505-4c54-a6c8-0e33f5fec0d8.png)
 
 Wenn du das gemacht hast drückst du **STR + F** und suchst nach *admin*
 
-![](https://screensaver01.zap-hosting.com/index.php/s/Mwnfdb7PqgFgAAW/preview)
+![image](https://user-images.githubusercontent.com/26007280/189890632-8cacffc0-c7b8-4e53-a9f7-e3ea339f6d28.png)
 
 Nun schreibst du folgendes:
 ```
@@ -47,6 +47,6 @@ Nun schreibst du folgendes:
 ````
 Das ganze sollte danach dann so aussehen:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/i7QGeJ2dsc7DQQR/preview)
+![image](https://user-images.githubusercontent.com/26007280/189890656-e5ad6ab6-ac25-46e9-b372-02ae3752ae5b.png)
 
 Jetzt nur noch die Config Datei **Speichern** und fertig.
