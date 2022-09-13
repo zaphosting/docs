@@ -33,7 +33,7 @@ Dadurch erhältst du dort sowohl allgemeine Informationen als auch die Steam ID 
 
 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/cyDKk3mDW7Y9z8s/preview)
+![image](https://user-images.githubusercontent.com/26007280/189938182-d37cea80-fa23-4265-8357-244b5da63900.png)
 
 
 
