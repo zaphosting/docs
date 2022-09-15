@@ -20,13 +20,15 @@ Es ist keine zusätzliche Installation notwendig. Das Programm lässt sich umgeh
 
 # Rcon Passwort bestimmen
 
-**Konfiguration unter den Einstellungen**
+**Konfiguration über die Einstellungen**
+
 Bei den FiveM Server Produkten "FiveM (Linux/Windows/ESX RP Server/QBCore)" kann das Rcon Passwort standardmäßig unter den Einstellungen definiert werden. Das dort definierte Passwort wird dann für die darauffolgende Rcon Verbindung via Icecon benötigt.
 
 ![image](https://user-images.githubusercontent.com/26007280/190450001-6ee350eb-9744-454a-bd6e-44e40cb285e5.png)
 
 
-**Konfiguration unter der Server Configuration**
+**Konfiguration über die Server Config**
+
 Alternativ kann das Rcon Passwort auch direkt über die Server Config vorgenommen werden. Hierfür muss der Wert des folgenden Befehls angepasst werden:
 ```
 rcon_password "DeinWunschRconPasswort"
