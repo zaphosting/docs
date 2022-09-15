@@ -6,7 +6,7 @@ sidebar_label: Rcon benutzen
 ---
 
 
-## Was ist Rcon Eigentlich?
+## Was ist Rcon?
 
 Rcon ist ein Protokoll zur Ausführung von Kommandos auf den Server, ohne direkt zugriff auf die Konsole haben zu müssen.
 
