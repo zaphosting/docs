@@ -11,11 +11,11 @@ Do you want to get more control over your server? As an admin, you have the abil
 
 The administration of the admin permissions is handled by the **adminlist.txt** config file. You can access this file in the web interface under Configs. The SteamID64 of the player is needed to add an admin. You can get it by opening your Steam profile and doing a right click at any place. There you will have the possibility to copy the page URL. The URL can then be entered on one of the following websites: https://steamid.io/ https://steamrep.com/ https://steamidfinder.com/ 
 
-![image-20220914123502144](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220914123502144.png)
+![image](https://user-images.githubusercontent.com/26007280/190596090-43982c79-be63-43ae-8191-0c1616b7253e.png)
 
 Once there, enter your Steam profile URL in the field, which you have copied, and you will then receive your SteamID64. Add the SteamID64 to the **adminlist.txt** config file. To do this, go to the web interface to your game server administration in the category Configs and open the adminlist.txt config file. 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/8kYC95Krgr8NYwi/preview)
+![image](https://user-images.githubusercontent.com/26007280/190596127-d35f62f3-ef68-4d3d-b1fe-d0cbb3522276.png)
 
 > If you are planning to assign admin permissions to multiple players, then the SteamIDs must have their own line for each player. 
 
@@ -23,7 +23,7 @@ Once there, enter your Steam profile URL in the field, which you have copied, an
 
 Before you can assign the admin permissions in the game, you have to activate the console for your game. Connect to your server and go to the settings. In the settings you have to activate the option **Console Enabled**. The console can be opened by default with the Gravis key on the keyboard. The admin permissions can then be activated in the console with the `adminauth` command. 
 
-![image-20220914124535073](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220914124535073.png)
+![image](https://user-images.githubusercontent.com/26007280/190596168-424a0e6b-bfb0-4f01-90ad-78c52151ba92.png)
 
 
 ### Admin command list
