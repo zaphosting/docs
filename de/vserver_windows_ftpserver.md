@@ -38,7 +38,7 @@ Klicke dazu oberhalb im Menü auf **Server** und dann auf **Configure**.
 ![image](https://user-images.githubusercontent.com/26007280/190913231-5cda42fb-c47a-4b92-a32d-dd3eb1d23b61.png)
 
 Unter dem Menüpunkt Users kannst du daraufhin mit einem Klick auf **Add** einen neuen Benutzer hinzufügen:
-![image](https://user-images.githubusercontent.com/26007280/190912011-d557adbe-e65b-4e7b-b3e9-3f88bb45fcee.png)
+![image](https://user-images.githubusercontent.com/26007280/190913620-936d4430-51a7-44c9-9023-ad4087c01599.png)
 
 In diesem Beispiel heist der Benutzer **YourUserName**. Hier kannst du natürlich einen eigenen Benutzernamen wählen.
 
