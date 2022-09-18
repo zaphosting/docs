@@ -34,13 +34,11 @@ Es sollte sich ein Fenster öffnen, wo du die Felder Host, Port und Password sie
 ## 👨 Anlegen eines Benutzers
 
 Um via FTP auf deinen Server verbinden zu können, muss nun ein entsprechender Benutzer angelegt werden. 
-Klicke dazu oberhalb im Menü auf **Server** und dann auf **Configure**:
+Klicke dazu oberhalb im Menü auf **Server** und dann auf **Configure**. 
+![image](https://user-images.githubusercontent.com/26007280/190913231-5cda42fb-c47a-4b92-a32d-dd3eb1d23b61.png)
 
+Unter dem Menüpunkt Users kannst du daraufhin mit einem Klick auf **Add** einen neuen Benutzer hinzufügen:
 ![image](https://user-images.githubusercontent.com/26007280/190912011-d557adbe-e65b-4e7b-b3e9-3f88bb45fcee.png)
-
-Klicke nun auf den Menüpunkt Users. Mit einem Klick auf **Add** kannst du dort dann einen neuen Benutzer hinzufügen:
-
-![image](https://user-images.githubusercontent.com/26007280/190912151-4ebd8d2e-bfc9-4006-8a6b-8fc1e6775adc.png)
 
 In diesem Beispiel heist der Benutzer **YourUserName**. Hier kannst du natürlich einen eigenen Benutzernamen wählen.
 
