@@ -5,86 +5,70 @@ description: Informationen, wie du einen FTP Server auf deinen Windows vServer v
 sidebar_label: FTP Server installieren
 ---
 
-
 ## 🖥️ FTP Server mit FileZilla Server unter Windows
 
-Mit FileZilla Server steht dir eine kostenlose Software zur Verfügung welche es dir ermöglich deinen eigenen FTP Server auf einem Windows Server zu installieren.
-Die Installation so wie Einrichting ist übersichtlich und unkompliziert, daher eignet sich das ganze auch für unerfahrene Nutzer. 
+Mit FileZilla Server steht dir eine kostenlose Software zur Verfügung, welche es dir ermöglicht deinen eigenen FTP Server auf einem Windows Server zu installieren. Die Installation so wie Einrichtung ist übersichtlich und unkompliziert, daher eignet sich das ganze auch für unerfahrene Nutzer. 
 
 
 ## 💾 Download und Installation
 
 Zuerst lädst du dir die aktuellste Version von **FileZilla Server** hier herunter: [FileZilla Server Download](https://filezilla-project.org/download.php?type=server)
-Die heruntergeladene Datei führst du mit einem Doppelklick aus wodurch der Installationsprozess gestartet wird, dort klickst du dich vor bis du zu folgendem Fenster gelangst:
+Die heruntergeladene Datei führst du mit einem Doppelklick aus, wodurch der Installationsprozess gestartet wird, dort klickst du dich vor bis du zu folgendem Fenster gelangst:
 
-![image](https://user-images.githubusercontent.com/13604413/159172969-1c0f99f5-bfdb-4044-9b1f-50a0fe1a920e.png)
+![image](https://user-images.githubusercontent.com/26007280/190911353-3b3fc815-f7ed-4df8-9303-8d639ff9ff2b.png)
 
-Dort kannst du nun die zu installierenden Pakete wählen, es genügt wenn du dort die bereits ausgewählten Pakete installierst, daher klickst du einfach auf **Next** und wählst im Anschluss den Installationspfad aus: 
+Dort kannst du nun die zu installierenden Pakete auswählen. Es genügt, wenn du dort die bereits ausgewählten Pakete installierst, daher klickst du einfach auf **Next** und wählst im Anschluss den Installationspfad aus: 
 
-![image](https://user-images.githubusercontent.com/13604413/159172973-37b19d92-dbf8-4397-b3e6-9b2b71e3d3a2.png)
+![image](https://user-images.githubusercontent.com/26007280/190911361-b3b5fc61-8648-4378-a920-d7faa8118fc3.png)
 
-In diesem Beispiel wird das ganze nach **C:\Program Files (x86)\FileZilla Server** installiert, du kannst jedoch auch einen eigenen Pfad wählen.
-Anschließen klickst du auch dort auf **Next** und im darauf folgenden Schritt ebenfalls. Zum Abschluss klickst du auf **Install** womit du die Installation startest, danach 
-kannst du das ganze mit einem Klick auf **Close** schließen. 
+In diesem Beispiel wird der Filezilla Server unter **C:\Program Files (x86)\FileZilla Server** installiert. Du kannst jedoch auch einen eigenen Pfad wählen. Nach der Auswahl des Pfads muss indessen noch bestimmt werden, in welcher Form der FTP-Server installiert und gestartet werden soll. Des Weiteren kann der Port bestimmt werden. Zu guter Letzt muss dann noch ein Administrator Passwort bestimmt werden. 
 
+![image](https://user-images.githubusercontent.com/26007280/190911700-52fd9613-70ac-413c-a171-b6d581ddd622.png)
 
-Nun öffnet sich die Verwaltungsoberfläche des FileZilla FTP Servers, den **Host** so wie **Port** kannst du unverändert lassen, das Feld **Password** bleibt zudem leer.
-Klicke dort einfach auf Connect:
+Anschließend klickst du auch dort auf **Next** und im darauf folgenden Schritt ebenfalls. Zum Abschluss klickst du auf **Install** womit du die Installation startest. Jetzt öffnet sich die Verwaltungsoberfläche des FileZilla FTP-Servers. Klicke dort auf den Button **Connect to FileZilla FTP Server**. 
 
+Es sollte sich ein Fenster öffnen, wo du die Felder Host, Port und Password siehst. Die ersten beiden Felder kannst du unverändert lassen und gibst dein angegebenes Administratorpasswort vom FTP-Server an. Im Anschluss stellst du die Verbindung her, in dem du auf den **Ok** Button klickst. 
 
-![image](https://user-images.githubusercontent.com/13604413/159172976-a54bad3d-99f5-4c80-a93c-ea7d40a20a9f.png)
+![image](https://user-images.githubusercontent.com/26007280/190911836-b3840fce-e575-4c69-864d-7fbb5fbe84a9.png)
 
 ## 👨 Anlegen eines Benutzers
 
-Um via FTP auf deinen Server verbinden zu können muss nun ein entsprechender Benutzer angelegt werden. 
-Klicke dazu oberhalb im Menü auf **Edit** und dann auf **Users**:
+Um via FTP auf deinen Server verbinden zu können, muss nun ein entsprechender Benutzer angelegt werden. 
+Klicke dazu oberhalb im Menü auf **Server** und dann auf **Configure**:
 
-![image](https://user-images.githubusercontent.com/13604413/159172982-05180815-3f8c-45d6-9029-89449dc3c780.png)
+![image](https://user-images.githubusercontent.com/26007280/190912011-d557adbe-e65b-4e7b-b3e9-3f88bb45fcee.png)
 
+Klicke nun auf den Menüpunkt Users. Mit einem Klick auf **Add** kannst du dort dann einen neuen Benutzer hinzufügen:
 
-Mit einem Klick auf **Add** kannst du dort dann einen neuen Benutzer hinzufügen:
+![image](https://user-images.githubusercontent.com/26007280/190912151-4ebd8d2e-bfc9-4006-8a6b-8fc1e6775adc.png)
 
-![image](https://user-images.githubusercontent.com/13604413/159172984-7906789a-9bbe-41ad-a9e7-17ef45e8493b.png)
-
-In diesem Beispiel heist der Benutzer **Testbenutzer**, du kannst natürlich einen eigenen Namen wählen.
+In diesem Beispiel heist der Benutzer **YourUserName**. Hier kannst du natürlich einen eigenen Benutzernamen wählen.
 
 ### 🔒 Passwort und Berechtigungen setzen
 
-Um für den Benutzer das Passwort zu setzen aktivierst du dieses einfach mit einem Klick auf das Feld **Password**, dahinter trägst du dann das Passwort für den Benutzer ein:
+Nun, nachdem der Benutzer angelegt wurde, muss nun noch der Zugang und die Zugriffsberechtigungen bestimmt werden. Dafür wird in der Kategorie **General** bei **Credentials** der Benutzer aktiviert und die Passwortoption konfiguriert. Aus Sicherheitsgründen empfehlen wir dringend ein Passwort zu verwenden. Wähle dafür **Require a password to log in** aus und definiere dein gewünschtes Passwort. 
 
-![image](https://user-images.githubusercontent.com/13604413/159172988-8501e87a-154a-47a2-b8a5-552afc3d6cff.png)
+![image](https://user-images.githubusercontent.com/26007280/190912515-a4952bc3-b4ce-45e6-ba33-42b358f01074.png)
 
-Damit der Benutzer auch die entsprechenden Berechtigungen hat musst du noch festlegen auf welche Verzeichnisse dieser zugreifen darf, dazui genügt ein Klick auf **Shared Folders** und anschließend ein weiterer Klick auf **Add**:  
+Damit der Benutzer auch die entsprechenden Berechtigungen hat, musst du noch festlegen, auf welche Verzeichnisse dieser zugreifen darf, dazu genügt ein Klick auf **Add** bei Mount points. Hierbei muss einmal ein Virtual und ein Native Pfad angegeben werden. In unserem Beispiel definieren wir, dass die C Fesplatte unter \ aufgelistet wird.  
 
-![image](https://user-images.githubusercontent.com/13604413/159172994-3ec8adb3-2b2a-4ff8-b600-0294865416fb.png)
+![image](https://user-images.githubusercontent.com/26007280/190912711-90f6c4b6-35de-4339-b2a0-d3aa1d0ed8fd.png)
 
-In diesem Beispiel erhält der Benutzer lediglich Zugriff auf das Verzeichnis **Dokumente**, dieses wählst du dann mit einem Linksklick aus und klickst auf **OK**:
+Rechts daneben findest du dann die Option **Permissions**, worüber du die Zugriffsrechte auf den angegebenen Pfad bestimmen kannst. Solltest du die Daten sowohl lesen als auch bearbeiten können, dann empfiehlt es sich **Read+Write** zu setzen. 
 
-![image](https://user-images.githubusercontent.com/13604413/159172998-9f900ab7-d16f-452e-a3c3-9c7ecaaaabb6.png)
+> ACHTUNG! Aus Sicherheitsgründen solltest du einem Benutzer immer nur Zugriff auf bestimmte Ordner geben. 
 
-> ACHTUNG! Aus Sicherheitsgründen solltest du einem Benutzer immer nur Zugriff auf bestimmte Ordner geben, zum Beispiel zu deinem Gameserver.
-
-Anschließend kannst du dem Benutzer noch die nötigen Berechtigungen geben um in dem gewählten Verzeichnis Dateien hochladen, herunterladen, löschen oder auch neue Verzeichnisse
-oder zu löschen zu können:
-
-![image](https://user-images.githubusercontent.com/13604413/159172999-9161b0ac-5a06-4ba2-8316-5d656e18f0da.png)
-
-Das Fenster kannst du dann durch einen Klick auf **OK** schließen. 
+Die vorgenommenen Änderungen kannst du nun über den **Apply** Button übernehmen und bestätigen. 
 
 
 ## 🔥Freigabe in der Windows-Firewall
 
-Um eine Verbindung zu deinem FTP Server zu ermöglichen, muss nun noch die Anwendung des FTP Servers in der Windows-Firewall freigegeben werden, dazu öffnest du die Firewall-Einstellungen 
-unter **Systemsteuerung\System und Sicherheit\Windows Firewall** und klickst dort links oben auf **Eine App oder ein Feature durch die Windows Firewall zulassen**.
-Im folgenden Fenster wählst du dann die freizugebene Anwendung aus:
+Um eine Verbindung zu deinem FTP Server zu ermöglichen, muss nun noch die Anwendung des FTP Servers in der Windows-Firewall freigegeben werden. Dazu öffnest du die Firewall-Einstellungen unter **Systemsteuerung\System und Sicherheit\Windows Firewall** und klickst dort links oben auf **Eine App oder ein Feature durch die Windows Firewall zulassen**. Im folgenden Fenster wählst du dann die freizugebene Anwendung aus:
 
 ![image](https://user-images.githubusercontent.com/13604413/159173002-024980dd-0d16-40a1-8316-979ceec99e7b.png)
 
 In diesem Beispiel lautet der Pfad **C:\Program Files (x86)\FileZilla Server\FileZilla Server.exe**:
 
-![image](https://user-images.githubusercontent.com/13604413/159173004-60bccc27-e66d-425c-a9dc-945fb1468d40.png)
+![image](https://user-images.githubusercontent.com/26007280/190912805-1a972dec-1e60-425a-806f-4c7dad3663dc.png)
 
 Danach kannst du das ganze mit einem Klick auf **OK** schließen, eine Verbindung zu deinem FTP Server ist nun möglich. 
-
-
-
