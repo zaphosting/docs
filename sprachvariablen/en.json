@@ -213,6 +213,10 @@
         "title": "Server reset",
         "sidebar_label": "Server reset"
       },
+      "discordbot_setup": {
+        "title": "Set up your Discord Bot",
+        "sidebar_label": "Setup"
+    },
       "dedicated_windows": {
         "title": "Windows Installation",
         "sidebar_label": "Windows Installation"
