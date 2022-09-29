@@ -25,11 +25,11 @@ Jetzt können wir unsere Bot-Dateien einfach in den leeren Ordner hochladen:
 
 Um Ihren Bot über das Dashboard laufen lassen zu können, muss er auf der Seite "Einstellungen" konfiguriert werden:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/qSEopXCqrNWmti2/preview)
+![image](https://screensaver01.zap-hosting.com/index.php/s/nq7RkJ2qoArLiqD/preview)
 
 Hier müssen wir nun konfigurieren, welche Programmiersprache der Bot verwendet und wie seine Hauptdatei aufgerufen wird:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/B9SYfA3gkoW86MP/preview)
+![image](https://screensaver01.zap-hosting.com/index.php/s/Npa3GzQtHTBnrNG/preview)
 
 in unserem Fall ist das jeweils Python 3 und main.py.
 
