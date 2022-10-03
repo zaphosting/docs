@@ -218,6 +218,10 @@
                 "title": "Server resetten",
                 "sidebar_label": "Server resetten"
             },
+            "discordbot_setup": {
+                "title": "Discord Bot einrichten",
+                "sidebar_label": "Einrichtung"
+            },
             "domain_easydns": {
                 "title": "Domains: EasyDNS",
                 "sidebar_label": "EasyDNS"

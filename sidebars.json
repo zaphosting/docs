@@ -443,6 +443,9 @@
         ],
         "Last Oasis": [
             "lastoasis_createrealm"
+        ],
+        "Discord Bot": [
+            "discordbot_setup"
         ]
     }
 }
