@@ -3,40 +3,56 @@ id: fivem_installresources
 title: FiveM: Resourcen, Mods und Scripts auf Server installieren
 description: Informationen, wie du Ressourcen, Mods und Scripts auf deinen FiveM-Server von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentationen
 sidebar_label: Resourcen Installieren
+
 ---
 
-## Mit FTP verbinden
 
-Bevor Resourcen installiert werden können, muss der [FTP-Zugang](gameserver_ftpaccess.md) eingerichtet werden:
 
-Nachdem dieser eingerichtet wurde, kann sich nun verbunden werden und der Server Ordner geöffnet werden
+## Einführung
+
+Resourcen können verwendet werden, um deinen FiveM Server um zusätzliche Funktionen zu erweitern. Dies ist gerade dann interessant, wenn du größere Projekte angehen möchtest, wie zum Beispiel einen Roleplay Server oder ähnlichen. Ohne solche zusätzlichen Resourcen lässt sich das so direkt nicht umsetzen. 
+
+FiveM beziehungsweise dessen Community bietet hierbei eine große Auswahl an Resourcen an. Eine Übersicht mit den beliebtesten Resourcen findest du hier: https://forum.cfx.re/c/development/releases/7
+
+
 
 
 ## Vorbereitung
 
-Nachdem eine Resource runtergeladen wurde, ist diese normalerweise ZIP-Gepackt, diese muss nun entpackt werden (z. B. mit 7Zip, WinRar oder WinZip)
+Die Installation von Resourcen erfolgt per FTP. Um Dateien auf deinen Server hochladen zu können, benötigst du einen FTP-Client. Falls du noch nicht weißt, was FTP ist und wie es funktioniert, dann schaue dir am besten die folgende Anleitung an: [FTP Dateizugriff](https://zap-hosting.com/guides/docs/de/gameserver_ftpaccess/)
 
 
-Nachdem die Resource entpackt wurde, sollte darin nun eine __resource.lua oder fxmanifest.lua und Script Files/Ordner sein.
+Heruntergeladene Resourcen werden in der Regel in einem gepackten Format angeboten. Das bedeutet, dass du diese gepackte Datei erst noch mit einem Entpackungsprogramm, wie zum Beispiel 7Zip, Winrar oder WinZip entpacken musst. Die entpackte Resource sollte im Anschluss mindestens die folgenden Dateien beinhalten:  __resource.lua / fxmanifest.lua und die zugehörigen Script-Dateien. 
+
+> Sollten diese Dateien nicht vorhanden sein, dann kann es unter Umständen sein, dass diese in einem Unterverzeichnis liegen. 
 
 
-> Wenn dies nicht der Fall ist, befinden sich diese ggf. in einem Unterordner, meist mit dem gleichen Namen.
+## Installation
 
-## Resourcen hochladen
+### Hochladen
+
+Die zuvor entpackten Dateien müssen nun, sofern noch nicht vorhanden, in einen eigenen Ordner hochgeladen werden. Dieser Ordner muss dann in das Resource Verzeichnis des Servers hochgeladen werden. Die Verzeichnisstruktur sieht in der Regel wie folgt aus:
+
+```
+/gXXXXXX/gta5-fivem/server-data/resources
+```
+
+> Die Verzeichnisstruktur von FiveM TxAdmin unterscheidet sich zu den restlichen FiveM Produkten, da diese noch ihr eigenes Template Verzeichnis beinhalten. Die Resourcen befinden sich dann ebenfalls in dem Template Verzeichnis. 
 
 
-Um mit WinSCP Resourcen zu installieren, können diese über drag&drop in den "resources" Ordner hochgeladen werden
 
-Nachdem diese hochgeladen wurde, muss die server.cfg im server-data Ordner geöffnet werden
+Gewisse Resourcen arbeiten mit einer Datenbank zusammen und beinhalten daher oftmals bereits SQL-Dateien, die in der Datenbank importiert werden müssen. Wenn dir die Funktionsweise von Datenbanken beziehungsweise dessen Import noch nicht bekannt ist, dann lohnt sich ein Blick in die [FiveM Server: SQL Dateiimport](https://zap-hosting.com/guides/docs/de/fivem_sql_file_import/) Anleitung.
 
-Unter den restlichen Starteinträgen für Ressourcen kann nun der Eintrag für unsere resource, in diesem Fall "eup-ui", hinzugefügt werden:
 
+### Aktivierung
+
+Damit die installierte Resource auch geladen wird, muss diese in der Server Config erst noch aktiviert werden. Die Aktivierung erfolgt über den **Start** Befehl. Wenn du beispielsweise die Resource mit dem Namen "eup-ui" hochgeladen hast, dann muss der Start Befehl in der Config folgendermaßen aussehen: 
 
 ```
 start eup-ui
 ```
 
-> Beachte: Es muss der Name des Ordners eingetragen werden.
+> Hierbei ist zu beachten, dass der Name des zuvor erstellten Ordners mit dem Namen des Startbefehls übereinstimmen muss. Dabei ist auch die Groß- und Kleinschreibung essentiell. 
 
 
-Danach kann der Server neugestartet werden und die Resource sollte ingame erscheinen!
+Der Server kann anschließend wieder gestartet werden, sobald dieser Schritt abgeschlossen wurde. Im nächsten Startvorgang sollte die installierte Resource nun geladen werden. 
