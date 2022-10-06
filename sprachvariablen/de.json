@@ -717,6 +717,10 @@
                 "title": "Serverlisting Probleme bei Steam Spielen, die Steamworks nutzen",
                 "sidebar_label": "Serverlisting Probleme"
             },
+            "vrising-becomeadmin": {
+            "title": "V Rising: Admin werden",
+            "sidebar_label": "Admin werden"
+            },
             "voiceserver_becomeadmin": {
                 "title": "Teamspeak Server: Admin werden",
                 "sidebar_label": "Admin werden"
