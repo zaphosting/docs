@@ -716,6 +716,10 @@
         "title": "Server listing problems with Steam games using Steamworks",
         "sidebar_label": "Serverlisting Problems"
       },
+      "vrising-becomeadmin": {
+        "title": "V Rising: Become admin",
+        "sidebar_label": "Become admin"
+      },
       "voiceserver_becomeadmin": {
         "title": "Teamspeak Server: Become an admin",
         "sidebar_label": "Become Admin"
@@ -960,6 +964,7 @@
       "7 Days to Die": "7 Days to Die",
       "Avorion": "Avorion",
       "Last Oasis": "Last Oasis",
+      "V Rising": "V Rising",
       "Discord Bot": "Discord Bot"
     }
   },
