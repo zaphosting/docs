@@ -444,6 +444,9 @@
         "Last Oasis": [
             "lastoasis_createrealm"
         ],
+        "V Rising": [
+            "vrising-becomeadmin"
+        ],
         "Discord Bot": [
             "discordbot_setup"
         ]
