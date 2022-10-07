@@ -5,7 +5,7 @@ description: Informationen zur Registrierung eines Nutzeraccounts bei ZAP-Hostin
 sidebar_label: Registrieren
 ---
 
-## 🔐 Registriere Dich bei ZAP-Hosting
+## Registriere Dich bei ZAP-Hosting
 Das ist super einfach! Besuche unsere Website und begib Dich auf die Startseite. Dort findest Du eine Anmeldemaske, bei der Du Usernamen, E-Mail-Adresse und Passwort eingeben musst.
 
 ![image](https://user-images.githubusercontent.com/61953937/159139295-517c94d1-0983-49cd-9676-ebc615d8e606.png)
