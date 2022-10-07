@@ -6,7 +6,7 @@ sidebar_label: Vertrag oder Prepaid
 ---
 Erfahre mehr zu den Unterschieden zwischen Verträgen und Prepaids
 
-## 📘 Abrechnungsart "Prepaid"
+## Abrechnungsart "Prepaid"
 Alle Serverprodukte, bei denen du "**Prepaid**" als "**Abrechnungsart**" auswählst, laufen automatisch nach der bezahlten Zeit aus. Du hast dann 14 Tage Zeit, deinen gesperrten Server zu reaktivieren. Tust du das nicht, wird dieser unwiderruflich gelöscht.
 
 ![image](https://user-images.githubusercontent.com/61953937/159139455-2abbb991-6a3a-4c6c-9ec8-a85c51864cb7.png)
@@ -16,7 +16,7 @@ Prepaid Server können im Gegensatz zu Vertragsservern auch für einen **kürzer
 Einen Prepaidserver kannst Du **anonym** bestellen. Wir fragen Dich nicht nach persönlichen Daten.
 Prepaidserver sind **10% teurer** als Vertragsserver.
 
-## 📙 Abrechnungsart "Vertrag"
+## Abrechnungsart "Vertrag"
 
 Alle Serverprodukte, bei denen Du während der Bestellung "**Vertrag**" als "**Abrechnungsart**" ausgewählt hast, verlängern sich automatisch, insofern Du sie nicht kündigst.
 
