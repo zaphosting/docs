@@ -15,7 +15,7 @@ Sobald du eingeloggt bist, landest du automatisch in deinem Webinterface. Um nun
     1. Codes die dein ZAP-Guthaben erhöhen (**Gutscheincodes**)
     2. Codes die den Preis einer Bestellung senken (**Rabattcodes**)
 
-## 💲 Guthabencodes
+## Guthabencodes
 
 Guthabencodes können eingelöst werden, indem du einfach oben in deinem Webinterface auf ZAP Coins klickst.
 
@@ -36,7 +36,7 @@ Ist der Gutschein korrekt eingegeben, noch immer gültig und wurde von dir nicht
 
 > Sollte ein Code nicht funktionieren, kann es sein, dass er bereits abgelaufen ist, bereits verwendet wurde oder dass es sich bei dem Code nicht um einen Guthabencode handelt.
 
-## 💳 Rabattcodes
+## Rabattcodes
 
 Rabattcodes funktionieren ähnlich wie die Guthabencodes, werden jedoch an einer anderen Stelle im Webinterface benutzt. Sie reduzieren bereits im Bestellprozess die Kosten für das Paket, das ihr buchen möchtet. Um diese Codes einzulösen, macht einfach folgendes:
 Sucht euch das Produkt, das ihr bestellen möchtet und konfiguriert es nach euren Wünschen.
@@ -55,7 +55,7 @@ Die Kosten reduzieren sich automatisch sobald ihr den Gutschein einlöst.
 1. Codes die die Kosten für die zuerst gebuchte Laufzeit reduzieren
 2. Codes die dauerhaft die Kosten während der Laufzeit reduzieren
 
-## 💰 Wo gibt es Codes?
+## Wo gibt es Codes?
 
 Es gibt verschiedene Möglichkeiten, um an die begehrten Codes zu kommen. Am einfachsten findet man sie an folgenden Orten:
 
