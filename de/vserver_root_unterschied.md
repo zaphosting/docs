@@ -5,7 +5,7 @@ description: Informationen zu den Unterschieden zwischen Rootservern und vServer
 sidebar_label: Unterschied Rootserver / V-Server
 ---
 
-## 💻 Virtualisierung
+## Virtualisierung
 ### V-Server (Linux)
 Unsere Linux V-Server werden mittels LXC virtualisiert.
 Dabei handelt es sich um eine Container Virtualisierung.
@@ -21,7 +21,7 @@ dass ein komplett eigenständiger Server simuliert wird, der unabhängig von all
 Der  Vorteil liegt darin, dass es sich um jeweils eigenständige, abgeschottete  und abgeschlossene Systeme handelt. 
 Dadurch laufen die Rootserver stabil und haben eine gleichbleibende Leistung.
 
-## ❓ Was ist für mich die richtige Entscheidung?
+## Was ist für mich die richtige Entscheidung?
 Hierbei muss erstmal geschaut werden, was ich mit meinem Server überhaupt vor habe.
 Brauche ich den Server für kleine Projekte, wie zum Beispiel für einen Webserver, einen Teamspeak 3 Server oder einen Mailserver , dann reicht ein V-Server aus.
 Auch für  Gameserver ist ein V-Server oftmals ausreichend. (Wie zum Beispiel ein kleiner Minecraft Server)
@@ -33,5 +33,3 @@ Auch für eine große Webpräsenz ist ein Rootserver die oftmals bessere Wahl.
 
 > Solltest du dir noch immer nicht sicher sein, was für dich die bessere Wahl ist, kannst du dich gerne bei uns im Support melden.
 > Teile uns dort mit, was du genau für Wünsche mit dem Server realisieren möchtest und wir beraten dich dann gerne! 
-
-
