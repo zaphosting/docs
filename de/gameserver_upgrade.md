@@ -5,19 +5,19 @@ description: Informationen, wie du deinen Gameserver von ZAP-Hosting.com Up-/Dow
 sidebar_label: Up-/Downgrade
 ---
 
-## ℹ️ Vorwort
+## Vorwort
 
 Dank unseres Cloud Systems, kannst du jederzeit deinen ZAP-Hosting Gameserver und V- Rootserver nach deinen Wünschen und Bedürfnissen modifizieren.
 Solltest du beispielsweise mehr Slots benötigen oder mehr RAM ist dies kein Problem und kann jederzeit angepasst werden.
 Bitte bedenke, sofern du einen Gutschein genutzt hast, ist ein Downgrade nicht mehr möglich, im Gutscheinzeitraum.
 
-## ♻️ Funktionsprinzip
+## Funktionsprinzip
 
 Bei einer Änderung deines Paketes, wird immer die Restlaufzeit nachberechnet, angenommen du möchtest deinen Server upgraden, musst du also den Mehrpreis für die Restlaufzeit bezahlen.
 Dein Produktpreis ändert sich ebenso automatisch zur nächsten Verlängerung, hinsichtlich deiner neuen Konditionen.
 Bitte bedenke, dass Gutscheine leider nicht auf Upgrades angewendet werden können, diese gelten lediglich für neue Bestellungen.
 
-## ⬆️ Upgrades
+## Upgrades
 
 Den Up-/Downgrade Manager findest du immer auf dem Dashboard deines Produktes, hierbei ist es unerheblich um welche Art von Produkten es sich handelt.
 Upgrades sind zum aktuellen Zeitpunkt bei allen Produkten außer Dedicated Servern möglich.
