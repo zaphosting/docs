@@ -5,7 +5,7 @@ description: Instructions on how to set up two-factor authentication at ZAP-Host
 sidebar_label: Two-Factor-Authentication
 ---
 
-## 🔒 How do I enable Two-Factor Authentication?
+## How do I enable Two-Factor Authentication?
 
 To activate the **Two-Factor Authentication** you must click on your name and then on **Security**:
 
@@ -27,16 +27,10 @@ In the app you can then activate it under **scan barcode**:
 
 Afterwards you have to enter a code when logging in which will be displayed in the app.
 
-## 🔓 How do I deactivate Two-Factor Authentication?
+## How do I deactivate Two-Factor Authentication?
 
 To **deactivate Two-Factor Authentication** you can go back to the Security tab and select Deactivate: 
 
 ![2022-04-08_04-06](https://user-images.githubusercontent.com/61953937/162349870-3f99c8e7-296a-4703-b8e4-e22498d9dd4c.png)
 
 If you no longer have the app or your mobile phone the second option would be to send an email to **support@zap-hosting.com**. **This email must come from the account email**. Afterwards the support will deactivate it for you.
-
-
-
-
-
-
