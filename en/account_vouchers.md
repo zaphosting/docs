@@ -15,7 +15,7 @@ As soon as you are logged in, you will automatically land in your web interface.
     1. codes that increase your ZAP credit (**voucher codes**)
     2. codes that reduce the price of an order (**discount codes**)
 
-## 💲 Credit codes
+## Credit codes
 
 Credit codes can be redeemed by simply clicking on ZAP Coins at the top of your web interface.
 
@@ -31,7 +31,7 @@ If the voucher is entered correctly, is still valid and has not already been use
 
 > If a code does not work, it may be that it has already expired, has already been used or that the code is not a credit code.
 
-## 💳 Discount codes
+## Discount codes
 
 Discount codes work similar to credit codes, but are used elsewhere in the web interface. They already reduce the cost of the package you want to book during the ordering process. To redeem these codes, simply do the following:
 Find the product you want to order and configure it according to your wishes.
@@ -50,7 +50,7 @@ The costs are automatically reduced as soon as you redeem the voucher.
 1. codes that reduce the cost of the first booked period
 2. codes that permanently reduce costs during the runtime
 
-## 💰 Where can i get Codes?
+## Where can i get Codes?
 
 There are several ways to get the coveted codes. The easiest places to find them are the following:
 
