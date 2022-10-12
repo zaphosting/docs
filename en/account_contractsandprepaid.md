@@ -10,7 +10,7 @@ Logged in to your ZAP hosting account you will find the menu item "Contracts & P
 
 ![image](https://user-images.githubusercontent.com/61953937/159140780-878e902c-bdcc-4e89-be60-c3fad2c7f827.png)
 
-> **Difference Between Contracts and Prepaids**: Contracts are automatically renewed and must be terminated. Prepaids simply expire after the booked time, as long as they are not extended manually.
+> ⚠️ **Difference Between Contracts and Prepaids**: Contracts are automatically renewed and must be terminated. Prepaids simply expire after the booked time, as long as they are not extended manually.
 
 
 ## My contracts
