@@ -5,12 +5,12 @@ description: Informationen zum Partnerprogramm von ZAP-Hosting - ZAP-Hosting.com
 sidebar_label: Partner Guide
 ---
 
-## 🤝 Willkommen im Partnerprogramm
+## Willkommen im Partnerprogramm
 Deine Bewerbung ist angekommen und wir haben dir eine Bestätigung geschickt? **Dann herzlich willkommen in unserem ZAP-Partnerprogramm!** Ab jetzt zählst du zu einem sorgfältig ausgesuchtem Team von Influencern, die offiziell unsere Produkte und unsere Firma repräsentieren. 
 
 Um das aber angemessen tun zu können, benötigst du jedoch noch eine kleine Übersicht über die **Do's and Don'ts**, sowie eine gute Ausstattung mit Grafiken und Ansprechpartnern. Fangen wir erstmal mit unseren Anforderungen an unsere Partner an.
 
-## 🤔 Partner, was nun?
+## Partner, was nun?
 In den ersten Gesprächen mit deinem Partner Manager klären wir, welchen Bedarf du derzeit hast und welche Produkte wir dir kostenfrei zur Verfügung stellen, damit du angemessen für uns die Werbetrommel schlagen kannst. Natürlich achten wir dabei auf ein gesundes Verhältnis zwischen deiner Reichweite und dem Wert der von uns gestellten Produkte. Zwar werden sie von uns kostenfrei zur Verfügung gestellt, jedoch müssen sie dennoch von unseren Technikern betreut und die Hardware in Stand gehalten werden.
 
 Sobald wir diesen Bedarf geklärt und entsprechend gedeckt haben, besprechen wir **individuell mit jedem Influencer** wie die künftige Zusammenarbeit gestaltet werden soll. Generell wünschen wir uns hier vor allem motivierte Partner, die eigenständig Ideen entwickeln und umsetzen, jedoch gibt es ein paar Basics, die wir uns von jedem Partner als Grundlage unserer Zusammenarbeit wünschen. Zu diesen Basics zählen wir folgende Punkte:
@@ -30,7 +30,7 @@ Hier ein paar Beispiele, wie ihr Bot-Timer, Videobeschreibungen und Shoutouts ge
 
 > Server zur Verfügung gestellt von meinem Partner in Sachen Gameserver, Rootserver und Domains: (DEIN LINK) #Werbung
 
-## 🥇 Die Partner-Ränge
+## Die Partner-Ränge
 Sobald du dich auf ZAP-Hosting.com eingeloggt hast, wirst du in der Kopfzeile als ZAP-Partner zwei Veränderungen feststellen: Erstens glänzt nun ein Ring um dein Avatarbild, der deinen Rang als Partner darstellt und zweitens ist ein Sternn neben deinem Avatar aufgetaucht, der dich zum **Partner Menü** führt.
 
 ![2022-04-14_04-49](https://user-images.githubusercontent.com/61953937/164868573-675a8595-7930-465e-911d-2b345d41a281.png)
@@ -42,7 +42,7 @@ Erkennen wir nach einigen Wochen oder Monaten, dass der Partner besonders aktiv 
 Sobald Partner den finalen Rang des **Diamond Partners** erreicht haben, winken neben monatlichen finanziellen Vergütungen auch andere Leistungen wie Hardware-Ausstattungen, individuelle Hardware-Sets und Bonusprogramme.
 
 
-## ⭐️ Das Partner Menü
+## Das Partner Menü
 Jeder ZAP-Partner bekommt Zugriff auf das Partner Menü, in dem er unter anderem die Kontaktdaten seines Partner Managers findet, Einblick in seine Statistiken bekommt, Werbemittel erstellen kann und natürlich auch individuelle Links anlegen kann.
 
 ![2022-04-23_03-55_1](https://user-images.githubusercontent.com/61953937/164868620-839f04f7-0d93-43b5-846a-13e41d39be01.png)
@@ -70,7 +70,7 @@ Unter dem selben Menüpunkt gelangst du zum Link-Generator. Dieser funktioniert 
 ### Events
 Unter **Events** kannst du eigene Events anlegen, um die Übersicht über geplante Projekte nicht zu verlieren. Leider ist dieser Eventbereich nicht mit unserem Mitteilungssystem verknüpft; von dir geplante Events landen also nicht automatisch in der Inbox deines Partner Managers und sollten auf jeden Fall nochmal separat (Mail oder Discord) mit deinem Manager durchgesprochen werden.
 
-## 💸 Geld verdienen als Partner
+## Geld verdienen als Partner
 Erstmal müssen wir zwischen Links unterscheiden, die du im **Partner Menü** erstellt hast und Links, die im Bereich **Freunde werben** erstellt wurden. Partner Links dienen allein dem Tracking deiner Leistungen und den Klicks deiner Zielgruppe. Wir nutzen die Aktivität über deine Links, um einen Eindruck davon zu bekommen, wie aktiv unsere Influencer uns bewerben und wie viele Kunden über sie zu uns fanden. Diese Werte sind immer dann relevant, wenn es um Gespräche über eine Hochstufung in den nächsten Partnerrang geht oder um die Einführung einer festen monatlichen Zahlung. Partner-Links generieren also in erster Linie Daten und kein Geld für dich. 
 
 Im Gegensatz hierzu stehen die Links, die über den Generator in der Rubrik **Freunde werben** erstellt wurden. Umsätze, die über diese Links erstellt wurden, tracken die Umsätze des Lnks und ermöglichen eine **prozentuale Umsatzbeteiligung**. Diese Umsätzle werden mit der Zeit summiert und können über eine schriftliche Rechnung bei uns ausgezahlt werden.
@@ -79,11 +79,11 @@ Da wird unseren Partner jedoch teils Produkte im Wert von mehreren hundert Euro 
 Erst nach einer persönlichen Absprache ist es einzelnen Partnern gestattet auch diese *Affiliate Links* zu nutzen.
 > Erfahrungen zeigen, dass aktive Partner des Gold-Ranges durchaus häufig unsere Erlaubnis erhalten zusätzlich zu den gesponserten Servern und Produkten Affiliate Links zu nutzen.
 
-## 🔑 Ambitioniert sein ist der Schlüssel
+## Ambitioniert sein ist der Schlüssel
 Mal ganz unter uns: Wir sind eine junge Firma und auch wir feiern außergewöhliche Ideen und unkomplizierte Kommunikation. Solltest du also eine außergewöhnliche Idee für ein Event oder eine Promo-Aktion haben, **dann nimm gern Kontakt mit deinem Partner Manager auf!** Wir helfen dir gern diese Idee umzusetzen und unterstützen dich ggf. auch mit Hardware, Giveaway-Produkten und Gutscheinen. Wir schätzen aktives Handeln unserer Partner sehr und wünschen und vor allem Partner, die aus eigenem Antrieb kreativ die Partnerschaft pflegen. Partner, die sich unser Logo in die Beschreibung kleben und inaktiv kostenfreie Server genießen werden wir nicht langfristig in unserem Repertoir führen.
 Begeistere deine Follower, Mitglieder, Freunde oder Zuschauer und stelle ihnen einfach deine Links zur Verfügung. Sie zahlen keinen Cent mehr und unterstützen dich dennoch immens! Und nicht vergessen: **Jeder Partner findet in seinem Webinterface einen individuellen Gutscheincode, mit dem jeder Nutzer zwischen 10-20% spart.** Wer diese ideale Grundlage zu nutzen weiß, kann in kürzester Zeit zum Diamond Partner aufsteigen! 
 
-## 👁 Beendigung der Partnerschaft
+## Beendigung der Partnerschaft
 Wir behalten unsere Partner im Auge und kontaktieren sie in unregelmäßigen Abständen auf den von ihnen bevorzugten Wegen, um über die aktuellen Statistiken und Aktivitäten zu sprechen. Sollten wir jedoch basierend auf den Statistiken sehen, dass Parner inaktiv wurden, unsere Absprachen nicht eingehalten haben oder anderweitig gegen unsere Einigungen gehandelt haben, **behalten wir uns vor die bestehende Partnerschaft aufzulösen und die kostenfreie Versorgung mit Produkten einzustellen**. Natürlich geben wir in solchen Fällen ausreichend Zeit, um die Daten zu sichern und diese Veränderung zu strukturieren. 
 
 Solltet ihr aus gesundheitlichen oder anderen wichtigen Gründen über einen längeren Zeitraum inaktiv sein, informiert bitte euren Partner Manager, damit er diesen Umstand berücksichtigen kann. 
