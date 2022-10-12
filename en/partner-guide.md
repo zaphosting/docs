@@ -5,12 +5,12 @@ description: Information on ZAP-Hosting's partner programme - ZAP-Hosting.com do
 sidebar_label: Partner Guide
 ---
 
-## 🤝 Welcome to the partner program
+## Welcome to the partner program
 Your application has arrived and we have sent you a confirmation? **Then welcome to our ZAP partner program!** From now on you belong to a carefully selected team of influencers who officially represent our products and our company. 
 
 But to be able to do this adequately, you need a small overview of the **Do's and Don'ts**, as well as a good equipment with graphics and contact persons. Let's start with our requirements for our partners.
 
-## 🤔 Partnered, what now?
+## Partnered, what now?
 In the first discussions with your partner manager we will clarify what your current needs are and which products we will provide you with free of charge so that you can adequately advertise for us. Of course, we make sure that there is a healthy balance between your reach and the value of the products we provide. Although we provide them free of charge, they still have to be maintained by our technicians and the hardware has to be kept in good condition.
 
 Once we have clarified this need and covered it accordingly, we **discuss individually with each Influencer** how the future cooperation should be arranged. In general, we would like to have motivated partners who develop and implement ideas independently, but there are a few basics we would like to have from each partner as a basis for our cooperation. Among these basics we count the following points:
@@ -31,7 +31,7 @@ Here are a few examples of how you could create bot timers, video descriptions a
 
 > Server provided by my partner in terms of gameserver, rootserver and domains: (YOUR LINK) #Ad
 
-## 🥇 The partner ranks
+## The partner ranks
 As soon as you have logged in at ZAP-Hosting.com, you will notice two changes in the header as a ZAP partner: First, a ring around your avatar image is now shining, which represents your rank as a partner, and second, a star has appeared next to your avatar, which leads you to the **Partner menu**.
 
 ![2022-04-14_04-49](https://user-images.githubusercontent.com/61953937/164869069-52107924-4515-48be-9109-7b650a2aadec.png)
@@ -43,12 +43,12 @@ After a few weeks or months, if we recognize that the partner is particularly ac
 As soon as partners have reached the final rank of **Diamond Partner**, other benefits such as hardware equipment, individual hardware sets and bonus programs will be offered in addition to monthly financial compensation.
 
 
-## ⭐️ The Partner Menu
+## The Partner Menu
 Every ZAP partner gets access to the paner menu, where he can find the contact data of his partner manager, see his statistics, create advertising material and of course create individual links.
 
 ![2022-04-23_03-55](https://user-images.githubusercontent.com/61953937/164869077-02d3d359-06a7-46b1-b962-b1532dbacc8c.png)
 
-### ▶️ Advertising material
+### Advertising material
 You need a Minecraft banner that you can put on your website? You are missing the ZAP logo? Or do you need some ideas how your panel could look like? Then have a look around in the drop-down menu and download all the graphics you need here. Besides the graphic itself, we will give you a link with which you can easily integrate your graphic.
 
 ![2022-04-23_04-46_1](https://user-images.githubusercontent.com/61953937/164869086-d5f4596b-3fe0-4c7e-a758-396c79d23fb7.png)
@@ -63,15 +63,15 @@ Simply click on the green button **Create new advertising material** and choose 
 
 ![2022-04-23_03-56_1](https://user-images.githubusercontent.com/61953937/164869090-2317d383-221a-414e-a71d-c6d0421327fa.png)
 
-### ▶️ Links
+### Links
 Under the same menu item you will get to the link generator. This works basically the same as the banner generator, but without offering you a banner. Instead, you can enter your own link text, which will be shown to others in the preview.
 
 ![2022-04-23_03-56_2](https://user-images.githubusercontent.com/61953937/164869094-e44d88ea-9343-47d1-a6c2-8dea123ec476.png)
 
-### ▶️ Events
+### Events
 Under **Events** you can create your own events to keep track of planned projects. Unfortunately, this event area is not linked to our messaging system, so events planned by you do not automatically end up in the inbox of your partner manager and should be discussed separately (mail or discord) with your manager.
 
-## 💸 Earn money as a partner
+## Earn money as a partner
 First of all we have to distinguish between links you created in the **Partner Menu** and links created in the **Advertise Friends** section. Partner links are only for tracking your services and the clicks of your target group. We use the activity through your links to get an impression of how active our influencers are in promoting us and how many customers found us through them. These values are always relevant when it comes to talks about upgrading to the next partner rank or introducing a fixed monthly payment. So partner links primarily generate data and not money for you. 
 
 In contrast to this are the links that were created via the generator in the category **Advertise friends**. Sales generated through these links track the link's sales and allow a **percentage revenue share**. These turnovers are summed up over time and can be paid out to us via a written invoice.
@@ -80,12 +80,12 @@ However, some of our partners will provide products worth several hundred euros 
 Only after a personal agreement, individual partners are allowed to use these *Affiliate Links* as well.
 > Experience has shown that active partners of the gold rank often receive our permission to use affiliate links in addition to the sponsored servers and products.
 
-## 🔑 Being ambitious is the key
+## Being ambitious is the key
 Just between you and me: We are a young company and we too celebrate extraordinary ideas and uncomplicated communication. So if you have an extraordinary idea for an event or a promotion, **then please contact your partner manager! ** We will help you to realize this idea and support you with hardware, giveaway products and vouchers. We appreciate active actions of our partners very much and wish and above all partners who creatively maintain the partnership on their own initiative. Partners who stick our logo into their description and enjoy inactive free servers will not be part of our repertoire in the long run.
 
 Inspire your followers, members, friends or viewers and simply provide them with your links. They won't pay a cent more and still support you immensely! And do not forget: **Each partner will find an individual voucher code in his web interface, with which every user saves between 10-20%.** If you know how to use this ideal basis, you can become a Diamond Partner in no time! 
 
-## 👁 Termination of the partnership
+## Termination of the partnership
 We keep an eye on our partners and contact them at irregular intervals through their preferred channels to discuss current statistics and activities. However, if we see, based on the statistics, that partners have become inactive, have not kept our agreements or have otherwise acted against our agreements, ** we reserve the right to dissolve the existing partnership and to stop the free supply of products**. Of course, in such cases we will give sufficient time to secure the data and structure this change. 
 
 Should you be inactive for a longer period of time for health or other important reasons, please inform your Partner Manager so that he can take this into account. 
