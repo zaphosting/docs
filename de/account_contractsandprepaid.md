@@ -11,7 +11,7 @@ Eingeloggt in deinem ZAP-Hosting Account findest Du auf der linken Seite den Men
 
 ![image](https://user-images.githubusercontent.com/61953937/159140760-b7cb7f67-599d-4383-8e39-37cbc94a557b.png)
 
-> **Unterschied zwischen Verträgen und Prepaids**: Verträge verlängern sich automatisch und müssen gekündigt werden. Prepaids laufen nach der gebuchten Zeit einfach aus, insofern sie nicht manuell verlängert werden.
+> ⚠️ **Unterschied zwischen Verträgen und Prepaids**: Verträge verlängern sich automatisch und müssen gekündigt werden. Prepaids laufen nach der gebuchten Zeit einfach aus, insofern sie nicht manuell verlängert werden.
 
 
 ## Meine Verträge
