@@ -6,7 +6,7 @@ sidebar_label: Change the game
 
 ---
 
-## ☁️ The gameserver cloud
+## The gameserver cloud
 
 ZAP-Hosting's game server allows you to change the game that is installed on your game server at any time. To do so, you install a new game via the web interface and activate it on your server. Inactive games will remain and will not be deleted! The following aspects must be considered when changing games:
 
@@ -22,7 +22,7 @@ ZAP-Hosting's game server allows you to change the game that is installed on you
 
 > Minecraft modpacks have the same slot price. Since no host system change is necessary, no data is deleted when changing games. You can test a new modpack and reactivate your previous server as you need it.
 
-## 🎮 Change the game
+## Change the game
 
 You can add and activate more games in the web interface of your game server under Settings - Games:
 
@@ -52,7 +52,7 @@ Via the game server cloud, you can reinstall your game servers with one click (A
 
 ![image](https://user-images.githubusercontent.com/13604413/159170841-d6c08d01-6393-45a7-ac7d-54bc8bc14e0c.png)
 
-## 💸 Change slot prices
+## Change slot prices
 
 If you want to switch to a game that has a higher slot price or you don't need additional slots for a game with a lower slot price, then you can change the slot price of your game server. Games with a higher slot price are listed under "More games". To change the slot price, click on "Change slot price":
 
