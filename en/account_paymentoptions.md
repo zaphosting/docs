@@ -5,7 +5,7 @@ description: Information about the different payment options at ZAP-Hosting: Pay
 sidebar_label: Payment options
 ---
 
-## 🧾 Overview
+## Overview
 ZAP-Hosting offers a large number of different payment options with which servers can be rented and deployed immediately. The payment process is simple and fast. The following payment options are offered by us:
 *  ZAP Coins
 > ZAP Coins are added via the Cashbox (deposit money) and can be used for almost all products.
@@ -29,10 +29,10 @@ ZAP-Hosting offers a large number of different payment options with which server
 ![](https://user-images.githubusercontent.com/61953937/159141611-341f5196-c480-488a-bd02-c620935154b1.png)
 
 
-## 💸 Payment process
+## Payment process
 The payment process is simple: the server configuration is put together on the configuration page, at the bottom of the page the desired payment option is selected. After a click on "Buy now", a redirection to the selected payment service provider will take place if necessary, via which the payment can be made. After receiving the payment, the server is set up within a few seconds.
 
-## 🏦 ZAP Coins: Deposit
+## ZAP Coins: Deposit
 ZAP Coins can be deposited via all other payment options offered by us and also contract servers can be paid via ZAP Coins. In the web interface you can deposit ZAP Coins under the point **Cash in** in your Cashbox.
 > A proportionate financing via ZAP Coins is not possible. If you already have ZAP Coins, for example because you have a ZAP Coins code, you can add credit as you like. Tip: If you pay with ZAP Coins, pay attention to our Cash In Deals: If the Cash In Deal is activated, you will receive additional credit if you increase your deposit.
 Transfers can be used to deposit ZAP Coins. As soon as we have received the transfer, the credit will be activated and can be used.
@@ -40,7 +40,7 @@ Transfers can be used to deposit ZAP Coins. As soon as we have received the tran
 
 ![image](https://user-images.githubusercontent.com/61953937/159141689-90e712e8-1a0d-41ad-a75b-ad067c7d8e68.png)
 
-## 💰 Cashbox
+## Cashbox
 The Cashbox can be accessed via the web interface under the item **Cashbox**. In addition to the possibility of depositing ZAP Coins, the Cashbox offers the following additional functions:
 * Add credit card
 > Credit cards can be deposited. By depositing a credit card, it is no longer necessary to enter all data for each payment transaction when paying by credit card.
