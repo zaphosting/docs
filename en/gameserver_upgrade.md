@@ -5,7 +5,7 @@ description: Information on how to Upgrade/Downgrade your gameserver from ZAP-Ho
 sidebar_label: Up-/Downgrade
 ---
 
-## ℹ️ Preface
+## Preface
 
 Thanks to our cloud system, you can always modify your ZAP-Hosting gameserver and V-Rootserver according to your wishes and needs.
 For example, if you need more slots or more RAM, this is not a problem and can be adjusted at any time.
