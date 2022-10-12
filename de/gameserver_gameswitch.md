@@ -5,7 +5,7 @@ description: Informationen, wie du weitere Spiele auf deinen Gameserver von ZAP-
 sidebar_label: Spielwechsel
 ---
 
-## ☁️ Die Gameservercloud
+## Die Gameservercloud
 
 Mit einem Gameserver bei ZAP-Hosting kannst du jederzeit das Spiel, dass auf deinem Gameserver installiert ist, wechseln.
 Dazu installierst du ein neues Spiel über das Web Interface und aktivierst es auf deinem Server. Inaktive Spiele bleiben erhalten und werden nicht gelöscht!
@@ -19,7 +19,7 @@ Folgende Punkte sind bei einem Spielwechsel zu beachten:
 
 > Minecraft-Modpacks haben den gleichen Slotpreis. Da keine Hostsystemwechsel notwendig ist, werden keine Daten beim Spielewechsel gelöscht. Du kannst ein neues Modpack testen und bei Bedarf deinen bisherigen Server wieder aktivieren.
 
-## 🎮 Spielewechsel
+## Spielewechsel
 
 Du kannst im Web Interface deines Gameservers unter Einstellungen - Spiele weitere Gameserver hinzufügen und aktivieren:
 
@@ -50,7 +50,7 @@ Nach der Aktivierung, kannst du dein neues Spiel auf deinem Server spielen. In d
 
 ![image](https://user-images.githubusercontent.com/13604413/159170841-d6c08d01-6393-45a7-ac7d-54bc8bc14e0c.png)
 
-## 💸 Slotpreisänderung
+## Slotpreisänderung
 
 Willst du zu einem Spiel wechseln, das einen höheren Slotpreis hat oder du benötigst für ein Spiel mit geringerem Slotpreis keine zusätzlichen Slot, kannst du den Slotpreis deines Gameserver ändern.
 Spiele mit einem höheren Slotpreis werden unter "Weitere Spiele" aufgelistet.
