@@ -7,7 +7,7 @@ sidebar_label: Termination and Cancellation
 
 Learn more about the termination and the notice period.
 
-## 📙  "Cancellation"
+## Cancellation
 
 To cancel your product with us, you can do so if you are logged in:
 Go to the dashboard, i.e. your product overview. You can reach it by clicking the button at the top of the "Webinterface" bar.
@@ -22,7 +22,7 @@ You will then be shown the date on which your contract will be cancelled.
 
 ![image](https://user-images.githubusercontent.com/61953937/159141030-b4155339-4711-4114-b2e3-d6271d945c6b.png)
 
-## 📙  "Term of notice"
+## Term of notice
 
 The cancellation period is 7 days (28 days for root servers and dedicated servers) If the customer does not cancel the contractual relationship in time in the case of an agreed contract term, the contract is extended by the same term as the previous contract.
 
