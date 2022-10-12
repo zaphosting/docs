@@ -70,10 +70,9 @@ When you have filled out everything, click on "Create" to create the banner.
 
 To request a cashout, simply click on the "Cashout/Rebooking" button in the overview on the "[Refer a Friend](https://zap-hosting.com/de/customer/affiliate/)" page. Then you can choose whether you want to transfer your affiliate credit into ZAP-Coins or whether you want to get the credit paid out. We can transfer funds to your bank account or pay out via Paypal.
 
-**Attention.*** 
-If you have your credit transferred to ZAP-Coins, you can't have these ZAP-Coins paid out anymore!
+> ⚠️**Attention:** If you have your credit transferred to ZAP-Coins, you can't have these ZAP-Coins paid out anymore. This step is final!
 
-***PayPal payout:**
+**PayPal payout:**
 Use the PayPal invoice feature: "[PayPal Invoice Creator](https://www.paypal.com/invoice/create?fromWidget=newuser)"
 
 Here our company information must be entered as invoice recipient:
