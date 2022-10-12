@@ -11,13 +11,13 @@ Thanks to our cloud system, you can always modify your ZAP-Hosting gameserver an
 For example, if you need more slots or more RAM, this is not a problem and can be adjusted at any time.
 Please keep in mind, if you have used a voucher, a downgrade is no longer possible, in the voucher period.
 
-## ♻️ How it works
+## How it works
 
 When you change your package, the remaining term will always be recalculated, so assuming you want to upgrade your server, you will have to pay the additional price for the remaining term.
 Your product price will also change automatically to the next renewal, regarding your new conditions.
 Please keep in mind that unfortunately coupons cannot be applied to upgrades, they only apply to new orders.
 
-## ⬆️ Upgrades
+## Upgrades
 
 You can always find the Up-/Downgrade Manager on the dashboard of your product, it doesn't matter what kind of product it is.
 Upgrades are currently possible for all products except Dedicated Servers.
