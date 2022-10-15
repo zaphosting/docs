@@ -30,6 +30,8 @@ Produkt-Keys können in zahlreichen Webshops erworben werden, stelle sicher das 
 Bei 2019 z.B. die normale Edition und die sogenannte Datacenter Edition.
 Solltest du dir noch unsicher sein was genau du brauchst, kannst du auch erstmal mit "Ich habe keinen Produkt Key" fortfahren.
 
+![image](https://screensaver01.zap-hosting.com/index.php/s/jH5dYQBq7FtT2SL/preview)
+
 Wähle nun die gewünschte Version aus welche du auf deinem Dedicated Server nutzen möchtest.
 Stelle sicher das du die richtige Version installierst, das ändern der Version ist später nicht mehr möglich.
 Achte darauf immer eine Version mit (Desktopdarstellung) zu nehmen, da andernfalls dein Windows über keine grafische Oberfläche verfügt.
