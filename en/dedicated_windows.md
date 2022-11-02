@@ -31,6 +31,8 @@ You can buy Windows-Keys in several websops, verify to buy the matching key, sin
 In Windows Server 2019 there are as example two editions, the normal one and datacenter edition. 
 If you're not sure what exactly you need, just press "I don't have a product key" you can always add a key afterwards.
 
+![image](https://screensaver01.zap-hosting.com/index.php/s/jH5dYQBq7FtT2SL/preview)
+
 Pick now your desired version which you would like to run on your dedicated server.
 Be sure to pick the right version, its not possible to change this afterwards.
 Please mention also to pick a version with "(Desktop Experience)" otherwise your windows would be shell based.

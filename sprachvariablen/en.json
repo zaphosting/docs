@@ -217,6 +217,10 @@
         "title": "Windows Installation",
         "sidebar_label": "Windows Installation"
       },
+      "discordbot_setup": {
+        "title": "Set up your Discord Bot",
+        "sidebar_label": "Setup"
+      },
       "domain_easydns": {
         "title": "Domains: EasyDNS",
         "sidebar_label": "EasyDNS"
@@ -955,7 +959,8 @@
       "Among Us": "Among Us",
       "7 Days to Die": "7 Days to Die",
       "Avorion": "Avorion",
-      "Last Oasis": "Last Oasis"
+      "Last Oasis": "Last Oasis",
+      "Discord Bot": "Discord Bot"
     }
   },
   "pages-strings": {
