@@ -5,6 +5,9 @@ description: Information on how to set up your own Discord Bot - ZAP-Hosting.com
 sidebar_label: Setup
 ---
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OoKA8UJ_N5A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
 ## Connect to FTP
 
 In order to be able to set up your Bot, the [FTP access](gameserver_ftpaccess.md) needs to be configured.
