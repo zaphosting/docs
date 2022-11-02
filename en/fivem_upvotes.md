@@ -5,6 +5,9 @@ descriptionen: Information about upvotes for FiveM servers and how to boost your
 sidebar_label: Upvotes
 ---
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/H-bdMJTQkSM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
 ## What are FiveM Upvotes?
 
 FiveM Upvotes is a system that pushes your favourite server higher on the server list, the more Upvotes it has, you can also assign these Upvotes to your own server.
