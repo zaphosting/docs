@@ -5,6 +5,9 @@ description: Information on how to install resources, mods and scripts on your F
 sidebar_label: Resource Installation
 ---
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/V7us5V6KLho" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
 ## Connect with FTP
 
 Before resources can be installed, the [FTP-Access](gameserver_ftpaccess.md) must be set up:
