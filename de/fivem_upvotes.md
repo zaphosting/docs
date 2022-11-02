@@ -5,6 +5,9 @@ descriptionen: Informationen zu Upvotes für FiveM Server und wie du deinen Serv
 sidebar_label: Upvotes
 ---
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/H-bdMJTQkSM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
 ## Was sind denn FiveM Upvotes?
 
 FiveM Upvotes ist ein System, womit dein Lieblingsserver auf der Serverliste höher gepusht wird, um so mehr Upvotes er hat, du kannst diese Upvotes auch deinen eigenen Server zuweisen.
