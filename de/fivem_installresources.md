@@ -5,6 +5,9 @@ description: Informationen, wie du Ressourcen, Mods und Scripts auf deinen FiveM
 sidebar_label: Resourcen Installieren
 ---
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/V7us5V6KLho" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
 ## Mit FTP verbinden
 
 Bevor Resourcen installiert werden können, muss der [FTP-Zugang](gameserver_ftpaccess.md) eingerichtet werden:
