@@ -5,6 +5,9 @@ description: Informationen, wie man seinen eigenen Discord-Bot einrichtet - ZAP-
 sidebar_label: Einrichtung
 ---
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OoKA8UJ_N5A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
 ## Verbinden mit FTP
 
 Um deinen Bot einrichten zu können, muss der [FTP-Zugang](gameserver_ftpaccess.md) konfiguriert werden.
