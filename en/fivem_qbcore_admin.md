@@ -5,7 +5,7 @@ description: Information on how to become admin on your FiveM QBCore server. - Z
 sidebar_label: Become admin
 ---
 
-## 🛡️ Become an admin
+## Become an admin
 
 Thanks to our web interface you can quickly and easily become an admin.
 Open the settings of your server:
