@@ -5,7 +5,7 @@ description: Informationen, wie du das HUD auf deinem FiveM-Server mit ESX von Z
 sidebar_label: HUD deaktivieren
 ---
 
-## 📑 Config finden und bearbeiten
+## Config finden und bearbeiten
 
 Haben wir das erledigt öffnen wir die Config Seite und suchen dort dann nach es_extended.
 Drücke dafür einfach STRG + F und suche nach `es_`
