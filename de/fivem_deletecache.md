@@ -4,7 +4,7 @@ title: FiveM Server: Cache leeren
 description: Informationen, wie du den Cache deines FiveM Server von ZAP-Hosting leeren kannst - ZAP-Hosting.com Dokumentationen
 sidebar_label: Cache leeren
 ---
-## 📔 Übersicht
+## Übersicht
 
 Zu allererst brauchen wir unsere Daten für den FTP Server.
 
@@ -13,7 +13,7 @@ Zu allererst brauchen wir unsere Daten für den FTP Server.
 
 Hier haben wir nun unsere Daten welche wir nun nur noch in Filezilla eintragen müssen.
 
-## 🔐 FTP Verbinung
+## FTP Verbinung
 
 Nun können wir uns per FTP zu unserem Server verbinden.
 
@@ -22,7 +22,7 @@ Nun können wir uns per FTP zu unserem Server verbinden.
 
 Gebt hier einfach die Daten ein, welche wir gerade gesucht haben.
 
-## 📑 Cache lokalisieren
+## Cache lokalisieren
 
 Nun heißt es den Ordner zu finden und zu löschen.
 Dafür gehen wir wie folgt vor:
@@ -32,7 +32,7 @@ Dort angekommen finden wir auch den *Cache* Odner.
 
 ![image](https://user-images.githubusercontent.com/13604413/159137776-328b84d3-992b-47ef-b8d8-c1abb0beae45.png)
 
-## 📖 Cache löschen
+## Cache löschen
 
 Jetzt müssen wir nur noch den Cache löschen/leeren
 

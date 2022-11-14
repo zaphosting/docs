@@ -44,7 +44,7 @@ There you can see all existing DNS entries for your domain.
 ![image](https://user-images.githubusercontent.com/13604413/172062190-77af42af-4639-4908-91d5-1320684049a9.png)
 
 
-## ⛏ Forwarding the domain for Minecraft
+## Forwarding the domain for Minecraft
 First you have to find out the IP and port of the Minecraft server you want to redirect to.
 With this information, the following steps can be followed.
 
@@ -89,7 +89,7 @@ In our example it looks like this:
 
 If this hint is not followed, the system will redirect minecraft.testserver-domain.de to minecraft.testserver-domain.de.testserver-domain.de and the redirection will fail.
 
-## 🐌 Forwarding the domain for FiveM
+## Forwarding the domain for FiveM
 First you have to find out the IP and port of the FiveM server you want to redirect to.
 With this data the following steps can be followed.
 

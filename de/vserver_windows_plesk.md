@@ -5,12 +5,12 @@ description: Informationen, wie du Plesk auf deinen Windows vServer von ZAP-Host
 sidebar_label: Plesk installieren
 ---
 
-## 🖥️ Verbindung zum Server herstellen
+## Verbindung zum Server herstellen
 
 Um Plesk auf dem Server zu installieren, musst du dich erstmal mit diesen verbinden. 
 Wie das geht ist hier in unserer separaten Anleitung ausführlich erläutert: [RDP Erstzugriff](https://docs.zap-hosting.com/docs/de/vserver_windows_userdp/#-remotedesktopverbindung)
 
-## ⏳ Plesk Installer 
+## Plesk Installer 
 
 Als nächstes wird der Plesk Installer benötigt, welche für die Installation von Plesk benötigt wird.
 Diese kann über einen Klick auf [Plesk Installer](https://installer-win.plesk.com/plesk-installer.exe) runtergeladen werden
@@ -43,4 +43,4 @@ Mit diesem würde die Plesk-installer.exe ausgeführt und es würde automatisch 
 
 Befehl: `plesk-installer.exe --select-product-id=panel --select-release-latest --installation-type=recommended`
 
-> Der Installationsprozess kann 30 bis 60 Minuten dauern, im Anschluss wäre Plesk installiert und kann genutzt werden.
+> ⚠️ Der Installationsprozess kann 30 bis 60 Minuten dauern, im Anschluss wäre Plesk installiert und kann genutzt werden.

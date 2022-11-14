@@ -9,24 +9,18 @@ Nach einem Upgrade deines ZAP Windows vServers, ist es möglicherweise notwendig
 
 > ⚠️ Keine Sorge, bei diesem Schritt werden keine Daten gelöscht
 
-## 💾 Die Partition erweitern
+## Die Partition erweitern
 
-![](https://screensaver01.zap-hosting.com/index.php/s/63wNzRxDy36rT3E/download/Extend.gif)
 
-Drücke `Windows-Taste` + `R` und gib dort 
-
-```diskmgmt.msc``` ein und bestätige mit `Enter`
+Drücke `Windows-Taste` + `R` und gib dort ```diskmgmt.msc``` ein und bestätige mit `Enter`
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/xPAZaPKckYXSsQR/preview)
 
-***
 Es öffnet sich nun die **Datenträgerverwaltung** hier hast du die Möglichkeit Partitionen anzupassen.
 
 Klicke mit **Rechtsklick** auf die bereits bestehende Partition und wähle (1) Volume erweitern
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/Qo3aKWgeL94DgyQ/preview)
-
-***
 
 Es öffnet sich nun der Assistent um Volumes erweitern zu können:
 
@@ -34,13 +28,9 @@ Es öffnet sich nun der Assistent um Volumes erweitern zu können:
 
 Starte den Assistenten in dem du (1) **Weiter** klickst.
 
-***
-
 ![](https://screensaver01.zap-hosting.com/index.php/s/wD5nwinGBRqksyR/preview)
 
 Der verfügbare Festplattenspeicher wird automatisiert erkannt, du musst lediglich mit (1) **Weiter** fortfahren.
-
-***
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/y8fxAj72AsqJ3RH/preview)
 

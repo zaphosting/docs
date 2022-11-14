@@ -5,7 +5,7 @@ description: Informationen, wie du Email Adressen für deinen Webspace von ZAP-H
 sidebar_label: E-Mails verschicken
 ---
 
-## 📧 E-mail erstellen
+## E-mail erstellen
 
 In dem Plesk Dashboar die Funktion "**Mail**" öffnen
 
@@ -26,7 +26,7 @@ Sobald alle Wunscheinträge eingetragen über den "**OK**" Button die Eingabe be
 
 ![image](https://user-images.githubusercontent.com/13604413/159176540-00691706-f866-4930-bf42-beddd4c96fef.png)
 
-## ⚡ Thunderbird einrichten
+## Thunderbird einrichten
 
 Nachdem Thunderbird heruntergeladen und installiert werude, wähle einfach bei "**Einrichtung starten**", "**E-Mail**" aus.
 Es öffnet sich nun ein Fenster um eine Bestehende E-Mail Adresse hinzuzufügen.
@@ -53,14 +53,14 @@ Dort trägt man nun den Empfänger als auch den Betreff und den Text ein.
 
 ![image](https://user-images.githubusercontent.com/13604413/159176575-0fbf1122-57b0-4c93-8364-083f36b44fd1.png)
 
-### ⚠️ Zertifikat fehlt
+### Zertifikat fehlt
 
 Wenn noch kein Zertifikat auf dem Webspace für die Mail angelegt wurde, wird man um folgende Fehlermeldung nicht herumkommen.
 Dort kann man vorerst auf "**Sicherheits-Ausnahmeregel bestätigen**", bis ein gültiges SSL Zertifikat auf dem Webspace angelegt wurde.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/RPBdw57KiBAK995/preview)
 
-## 📘 Outlook einrichten
+## Outlook einrichten
 
 Nachdem Outlook heruntergeladen und installiert wurde, wählt man "**Datei**" aus.
 
@@ -83,4 +83,3 @@ Sobald fertiggestellt wird die "**Neue E-mail**" Funktion ausgewählt.
 Dort trägt man nun den Empfänger als auch den Betreff und Text ein.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/2Fi2BW7E2xajftF/preview)
-

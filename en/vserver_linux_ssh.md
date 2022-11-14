@@ -5,7 +5,7 @@ description: Information on how to access your Linux VPS from ZAP-Hosting with S
 sidebar_label: Initial access (SSH)
 ---
 
-### 🖥 SSH-Connection
+### SSH-Connection
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/TYEHE38gNQoFjBx/download/ssh_connect.gif)
 
@@ -23,7 +23,7 @@ Linux server products do not include a graphical management interface by default
 
 
 
-## 🏘 IP address & access
+## IP address & access
 
 In the following, the connection using the Putty SSH client is explained. In the configuration window, the IP address of the server and the SSH port 22 are entered for the **hostname**. Afterwards, the connection establishment can be started via the **Open** button.
 
@@ -33,7 +33,7 @@ In the following, the connection using the Putty SSH client is explained. In the
 
 
 
-> By default, SSH login via password is disabled. If you want to log in with the password, you have to activate the option under **Access & Security** first.
+> ⚠️ SSH login via password is disabled by default. If you want to log in with the password, you have to activate the option under **Access & Security** first.
 
 
 
@@ -55,12 +55,12 @@ This opens the SSH console and prompts for a **user name** and **password**. The
 
 
 
-## 🔧 Administration via SSH
+## Administration via SSH
 
 For optimal use of the SSH client, it is essential to know the basic commands. In the following you will find a rough overview with all relevant commands and their meaning:
 
 
-### 👩 Account Management
+### Account Management
 
 | Command  |                Description                |            Syntax            |
 | :-----: | :----------------------------------------: | :--------------------------: |
@@ -71,7 +71,7 @@ For optimal use of the SSH client, it is essential to know the basic commands. I
 
 
 
-### 🖥️ System Management
+### System Management
 
 | Befehl  |                         Description                         | Syntax                                       |
 | :-----: | :----------------------------------------------------------: | -------------------------------------------- |
@@ -88,7 +88,7 @@ For optimal use of the SSH client, it is essential to know the basic commands. I
 
 
 
-### 📁 File management
+### File management
 
 | Command | Description | Syntax
 | ------ | ------------------------------------------ | ---------------------------------------- |
@@ -103,7 +103,7 @@ For optimal use of the SSH client, it is essential to know the basic commands. I
 
 
 
-### 🌐 Network administration
+### Network administration
 
 | Command | Description | Syntax
 | -------- | ------------------------------------------------- | ----------------------------------------- |

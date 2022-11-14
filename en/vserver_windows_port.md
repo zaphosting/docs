@@ -5,7 +5,7 @@ description: Information on how to forward ports on your Windows VPS from ZAP-Ho
 sidebar_label: Port Forwarding
 ---
 
-## 📝 Port Forwarding
+## Port Forwarding
 
 A firewall controls the incoming and outgoing traffic between the server and the Internet.
 Opened ports can be a security risk, due to which not every port is automatically opened.
@@ -25,9 +25,9 @@ In the outbound rule, the ports are forwarded for applications that want to comm
 
 <!--DOCUSAURUS_CODE_TABS-->
 
-<!--💾 Allowing programs in the Windows firewall-->
+<!--Allowing programs in the Windows firewall-->
 
-## 💾 Allowing programs in the Windows firewall
+## Allowing programs in the Windows firewall
 
 The release for the "**Outgoing rule**" works in the same way as for the "**Incoming rule**", so in this example we only show the release of a programme for the "**Incoming rule**".
 
@@ -55,16 +55,16 @@ In the "**Profile**" you can now choose whether this rule should only be active 
 
 At "**Name**" only a name for this new "**Rule**" must be entered, this is freely selectable.
 
-> A name should be chosen that is still unused and unique so that it can be found again under "**Incoming rule**" or "**Outgoing rule**".
+> ⚠️ A name should be chosen that is still unused and unique so that it can be found again under "**Incoming rule**" or "**Outgoing rule**".
 
 ![](https://user-images.githubusercontent.com/61839701/166197676-0e575fa1-5ae7-48be-b5fc-b9d1ddad0d8c.png)
 
 As soon as you confirm with the button "**Complete**", the rule is activated and the port is released.
 
 
-<!--🔓 Port forwarding with Windows Firewall-->
+<!--Port forwarding with Windows Firewall-->
 
-## 🔓 Port forwarding with Windows Firewall
+## Port forwarding with Windows Firewall
 
 
 The port forwarding for the "**Outgoing Rule**" works the same way as for the "**Incoming Rule**", so in this example we only show the port forwarding for the "**Incoming Rule**".
@@ -95,7 +95,7 @@ This is confirmed again with "**Next >**".
 
 With "**Name**" only a name for this new "**Rule**" must be entered, this can be freely selected.
 
-> You should choose a name that is still unused and unique so that it can be found under "**Incoming rule**" or "**Outgoing rule**".
+> ⚠️ You should choose a name that is still unused and unique so that it can be found under "**Incoming rule**" or "**Outgoing rule**".
 ![715-570-max](https://screensaver01.zap-hosting.com/index.php/s/cfRpq3zA9on2aoW/preview)
 
 As soon as "**Finish**" is confirmed with the button, the rule is activated and the port is forwarded.

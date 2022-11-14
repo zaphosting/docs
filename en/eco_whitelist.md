@@ -7,7 +7,7 @@ sidebar_label: Whitelist
 
 
 
-## 🔒 Activate whitelist
+## Activate whitelist
 
 ECO's whitelist allows you to protect your server by only allowing selected players on the list to connect to the server.
 
@@ -31,7 +31,7 @@ The field **$values** contains the SteamIDs of the players that should be added 
 
 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/9ERnWan6k39FsHX/preview)
+![image](https://user-images.githubusercontent.com/26007280/189889186-9c30b86c-5339-4c54-945a-39c0f8b56f40.png)
 
 
 Afterwards open one of the following pages and paste the URL of your profile there: 
@@ -68,6 +68,6 @@ Alternatively, it is also possible to add more players to the whitelist with in-
 
 
 
-## 🛠️ Manage Whitelist
+## Manage Whitelist
 
 The management of the whitelist can only be done in the **Users.eco** config file, because there is no server command to remove a player from the whitelist. If you would like to remove a player, then all you have to do is to remove him from the config file. Also a restart of the server is necessary for the change to take effect. 

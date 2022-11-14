@@ -5,11 +5,11 @@ description: Instructions on how to use Community Advertising to earn ZAP credit
 sidebar_label: Community ads
 ---
 
-## 📃 Community Advertising
+## Community Advertising
 
 Community advertising is a way to earn money by advertising ZAP hosting. By using this feature it's also possible to get "**free**" servers. Good advertising which is submitted and also accepted would be compensated with "**0.24€**" for each link.
 
-## ❓ What has to be considered when advertising?
+## What has to be considered when advertising?
 
 ### The advertisement needs to be independently 
 
@@ -26,7 +26,7 @@ If you don't know them yet, you could also see all products and prices here: htt
 
 An advertisement has to be placed in areas that could be interesting for ZAP hosting. The aim of the advertisement is to draw people's attention to ZAP-Hosting and to win them as new customers. This is therefore more likely to happen in a forum about servers and server providers than in a forum about agriculture.
 
-## 🔗 Submit Link
+## Submit Link
 
 Click the link in the overview on [[Community Advertising](https://zap-hosting.com/de/customer/communityads/)]. There you can click on the green "**+**" icon to submit the link.
 
@@ -34,7 +34,7 @@ Click the link in the overview on [[Community Advertising](https://zap-hosting.c
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/SFTfRE32TzdjpaM/preview)
 
-## 💲 Cash out / Transfer
+## Cash out / Transfer
 
 Click in the overview on the "[Community Advertising](https://zap-hosting.com/de/customer/communityads/)" to request a payout. There you can now click on the icon with the two opposite arrows at "**Available Credit**".
 

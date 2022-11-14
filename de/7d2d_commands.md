@@ -4,7 +4,7 @@ title: Befehle ausführen
 sidebar_label: Befehle ausführen
 ---
 
-## 📋 Die Console
+## Die Console
 Um Befehle ausführen zu können musst du Admin sein, solltest du nicht wissen wie du ein Admin in 7 Days To die wirst, kannst du unserer Anleitung hierzu folgen.
 Alle Befehle werden im Spiel über die sogenannte Entwicklerconsole ausgeführt. Diese Console wird mit `F1` geöffnet.
 
@@ -12,7 +12,7 @@ Diese sieht in etwa so aus:
 
 ![image](https://user-images.githubusercontent.com/13604413/159166053-18e1223b-6ff8-45a0-8c26-aebddd14df1c.png)
 
-## 🖥️ Die Befehle
+## Die Befehle
 Eine kleine Auswahl der wichtigsten Befehle haben wir hier für dich zusammengestellt:
 | Befehl    | Beschreibung                                                 |
 | ----------------- | ------------------------------------------------------------ |

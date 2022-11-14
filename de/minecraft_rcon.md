@@ -7,14 +7,14 @@ sidebar_label: RCON
 
 Hier gelangst du zu unseren Minecraft Servern: [Minecraft Server mieten](https://zap-hosting.com/de/minecraft-server-mieten/)
 
-## 🔎 Was ist RCON?
+## Was ist RCON?
 RCON ist eine Schnittstelle in verschiedenen Programmen, wie also auch Gameservern, 
 mit der Fernwartungen wie auch Fernverwaltungen durchgeführt werden können.
 Mit dieser Schnittstelle können Server verwaltet werden, die bereits laufen und erreichbar sind.
 Mit einem bestimmten Fernwartungsprogramm kann dann auf die Schnittstelle zugegriffen werden
 und der Server somit verwaltet werden.
 
-## ⚙ Wie benutze ich RCON bei Minecraft?
+## Wie benutze ich RCON bei Minecraft?
 Um bei Minecraft RCON nutzen zu können, muss es vorerst in der Datei `server.properties`
 aktiviert werden. Suche dazu die Zeile mit folgendem Inhalt auf:
 `enable-rcon=false`

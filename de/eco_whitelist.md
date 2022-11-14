@@ -8,7 +8,7 @@ sidebar_label: Whitelist
 
 
 
-## 🔒 Whitelist aktivieren
+## Whitelist aktivieren
 
 Die Whitelist in ECO ermöglicht es dir deinen Server zu schützen, indem nur ausgewählte Spieler, die auf der Liste stehen die Erlaubnis haben sich mit dem Server zu verbieten.
 
@@ -32,7 +32,7 @@ Die Aktivierung der Whitelist erfolgt automatisch. Diese wird aktiviert, sobald 
 
 Beim dem Feld **$values** werden die SteamIDs von den Spielern eingetragen, die zur Whitelist hinzugefügt werden sollen. Diese findest du, indem du zunächst einmal dein Steam Profil aufrufst und dort dann an einer beliebigen Stelle Rechtsklick drückst. Dort kann dann die Steam URL des Profils kopiert werden. 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/9ERnWan6k39FsHX/preview)
+![image](https://user-images.githubusercontent.com/26007280/189889117-d9b73df6-69ff-43af-b098-05e3d7ec8cfd.png)
 
 
 
@@ -73,6 +73,6 @@ Alternativ ist es ebenfalls möglich mit Administrator-Berechtigungen im Spiel w
 
 
 
-## 🛠️ Whitelist verwalten
+## Whitelist verwalten
 
 Die Verwaltung der Whitelist erfolgt ausschließlich über die **Users.eco** Config-Datei, da es keinen Server Befehl zum entfernen eines Spielers gibt. Wenn du also einen Spieler entfernen möchtest, dann muss dieser wieder aus der Config ausgetragen werden. Ebenfalls ist dann ein Neustart des Servers notwendig, damit die Änderung wirksam wird. 

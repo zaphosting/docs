@@ -13,19 +13,19 @@ To be able to reach a discord server via your own domain, a .htaccess file with 
 
 For example, the domain example-example.de/discord should enable a forwarding to the discord server.
 
-### Step 1️⃣
+### Step 1
 Create the subdirectory "discord" on the web space/web server: 
 
 ![Bildschirmfoto vom 2022-05-13 05-38-40](https://user-images.githubusercontent.com/61953937/168207049-be0c345b-d28d-4b1e-ada5-454c5cf26e98.png)
 
-### Step 2️⃣
+### Step 2
 Creating the ".htaccess" file on the web space/web server:
 
 ![Bildschirmfoto vom 2022-05-13 05-39-09](https://user-images.githubusercontent.com/61953937/168207066-331ffbe9-edb2-448f-8182-4235df7bae80.png)
 
 ![Bildschirmfoto vom 2022-05-13 05-39-58](https://user-images.githubusercontent.com/61953937/168207072-e2a0cb99-6e9d-48ea-8489-b93b9c75b57b.png)
 
-### Step 3️⃣
+### Step 3
 Create the forwarding rule in the ".htaccess" file:
 
 ![Bildschirmfoto vom 2022-05-13 05-40-23](https://user-images.githubusercontent.com/61953937/168207079-f08308b9-9a04-4e8a-a3d5-bedce79936e8.png)#
@@ -48,7 +48,7 @@ RewriteRule (.*) ***OWN-DISCORD-DOMAIN*** [R=301,L]
 ```
 After saving, the forwarding is immediately active.
 
-### Step 4️⃣
+### Step 4
 Test forwarding:
 
 If the domain/discord is now accessed, a redirection to Discord should take place.  

@@ -21,7 +21,7 @@ A good example to validate the problem is that ARK players in particular who hav
 
 There are also various game developers who have commented on this problem. For example, Garry Newman from Garrysmod thought that the problem was related to his server provider OVH. However, this was not the case. The problem is also with ZAP hosting and every other server provider, as it is directly with Steamworks:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/mgCgANbyoAARTXS/preview)
+![image](https://user-images.githubusercontent.com/26007280/189887401-d7672655-5700-4bad-9944-98b29b55df9b.png)
 
 Source: https://twitter.com/garrynewman/status/1334446218437681152?s=20
 

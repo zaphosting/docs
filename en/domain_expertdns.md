@@ -5,11 +5,11 @@ description: Information about the ExpertDNS domain settings at ZAP-Hosting - ZA
 sidebar_label: ExpertDNS
 ---
 
-## ❓ What is ExpertDNS anyway?
+## What is ExpertDNS anyway?
 
 With the **ExpertDNS function** you can set which name servers should be used for the domain.
 
-## ✅ Where do I find the ExpertDNS option and how do I use it?
+## Where do I find the ExpertDNS option and how do I use it?
 
 The option is displayed in the domain administration page. **EasyDNS** would be selected by default in there, so you must first check "**expertDNS Activate**"
 

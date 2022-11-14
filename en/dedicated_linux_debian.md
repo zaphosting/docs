@@ -3,17 +3,15 @@ id: dedicated_linux_debian
 title: Install Debian
 sidebar_label: Install Debian
 ---
-> In this example, the installation of Debian 10 is performed
 
-## 📋 Preparations
-In your ZAP interface, select the desired ISO of Debian and let the server boot with the ISO until it is in the setup process.
+## Preparations
+In your ZAP interface, select the desired ISO of Debian and let the server boot with the ISO until it is in the setup process. Navigation in the setup process is done with TAB, Space and Enter.
 
-> Navigation in the setup process is done with TAB, Space and Enter.
 > TAB = switch between items, Space = highlight, Enter = confirm
 
 ***
 
-## ⌚ The setup
+## The setup
 When the ISO is successfully loaded, the server is in the setup process.
 
 ![image](https://user-images.githubusercontent.com/13604413/159173874-c0b29b7a-2581-466e-8829-9fd400ab43ed.png)
@@ -60,7 +58,7 @@ If you're from America the default layout would by QWERTY
 
 > Your server is now preparing some components which are necessary for the installation, this can take a few minutes.
 
-### 🔧 Configurations
+### Configurations
 
 ![image](https://user-images.githubusercontent.com/13604413/159173907-17d2a4f8-35ce-42fc-a22e-2b0d60079e81.png)
 
@@ -110,7 +108,7 @@ Also choose a password of your choice and confirm it again.
 
 Your server will now prepare the next installation steps.
 
-### 💾 Partitioning
+### Partitioning
 
 ![image](https://user-images.githubusercontent.com/13604413/159173949-e58c9c27-9dc5-4018-8334-085f52cdc9ae.png)
 
@@ -139,7 +137,7 @@ We confirm the configuration with "Finish partitioning and write changes to disk
 
 Your server now performs the partitioning and prepares the installation of the system.
 
-### 💻 Installation of the operating system
+### Installation of the operating system
 
 ![image](https://user-images.githubusercontent.com/13604413/159173960-6290e5b5-2205-4d48-a5fc-54ce108d53e7.png)
 
@@ -210,7 +208,7 @@ When this is done successfully, we select Continue, the server will now perform 
 
 ![image](https://user-images.githubusercontent.com/13604413/159173996-5278b311-c648-4bfc-a7b6-cbc4f3e7c5bb.png)
 
-### 🔑 Enable SSH Login
+### Enable SSH Login
 
 Once the reboot of your server is done and the installation was successful, you will now be prompted to login.
 
@@ -235,4 +233,4 @@ Enter the IP address of your server, which you see in your zap dashboard and use
 
 ![image](https://user-images.githubusercontent.com/13604413/159174010-4cf4901a-9481-45f9-b51a-6f07f53f050e.png)
 
-> If you have any further questions or problems, our support is happy to assist you!
+> ⚠️ If you have any further questions or problems, our support is happy to assist you!

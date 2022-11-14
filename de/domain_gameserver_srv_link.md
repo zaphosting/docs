@@ -43,7 +43,7 @@ Dort siehst du nun alle bereits vorhandenen DNS Einträge für deine Domain.
 
 ![image](https://user-images.githubusercontent.com/13604413/172062190-77af42af-4639-4908-91d5-1320684049a9.png)
 
-## ⛏ Weiterleitung der Domain für Minecraft
+## Weiterleitung der Domain für Minecraft
 Zunächst muss für die korrekte Weiterleitung auf Minecraft Server sowohl IP und Port von dem Minecraft Server rausgesucht werden auf welchen weitergeleitet werden soll.
 Mit diesen Daten können nun die nachfolgenden Schritte befolgt werden.
 
@@ -80,7 +80,7 @@ In unserem Beispiel sieht es dann wie folgt aus:
 
 Wird dieser Hinweis nicht beachtet, dann macht das System aus minecraft.testserver-domain.de die Weiterleitung zu minecraft.testserver-domain.de.testserver-domain.de wodurch die Weiterleitung fehlschlägt.
 
-## 🐌 Weiterleitung der Domain für Fivem
+## Weiterleitung der Domain für Fivem
 Zunächst muss für die korrekte Weiterleitung auf Fivem Server sowohl IP und Port von dem Fivem Server rausgesucht werden auf welchen weitergeleitet werden soll.
 Mit diesen Daten können nun die nachfolgenden Schritte befolgt werden.
 

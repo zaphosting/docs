@@ -9,13 +9,13 @@ Click here to get to our Minecraft servers: [Minecraft server hosting](https://z
 
 ## Explanation
 
-### ❓ What is a timing report?
+### What is a timing report?
 
 Timings reports are very similar to the task manager of your computer which allows you to find the problem especially in case of laggs. A timing report records all activities of the server and displays them visually.
 
 ## Timing report
 
-## 📈 Create timing report
+## Create timing report
 
 Depending on the server software, the timing report is created differently. Basically you have to start the recording first with the following command (except for **Paper Spigot** (if the settings have not been changed)
 
@@ -23,7 +23,7 @@ Depending on the server software, the timing report is created differently. Basi
 
 While recording, make sure to use the server as you always do, so that the respective issues can be recorded and subsequently analyzed in more detail. The duration of the recording should last **min. 10 minutes** or longer if possible.
 
-## 🔍 Export timing report
+## Export timing report
 
 In order to create and export the Timings report you have to use the following command:
 
@@ -47,7 +47,7 @@ In order to get the most accurate values possible, which refer to a possible pro
 
 ![](https://i.imgur.com/k3pHKOi.gif)
 
-### 🧐 Investigate server values
+### Investigate server values
 
 There are 3 columns in total. As you can see on the screenshot below, box number 1 shows how much % of a tick ( 20 ticks is one second) the main process needs. Among other things, you can also see how often this process was executed during the recording.
 
@@ -76,7 +76,7 @@ If a lot of water is used as an example on a large farm, this can cause many pro
 
 All further investigations can also be carried out in the same way, since the steps are exactly the same for any other process. If you still need help with the evaluation, we are always available for you!
 
-### ✔️ Check plugins
+### Check plugins
 
 In some cases issues are also caused by plugins. To determine that a plugin is possibly the cause, you can temporarily remove installed plugins from the server and check the current state of the system again.
 

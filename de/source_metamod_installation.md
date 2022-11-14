@@ -5,13 +5,13 @@ description: Informationen, wie du Source Mod und Meta Mod auf deinen Source Gam
 sidebar_label: Installation
 ---
 
-## ❓ Was ist SM und MM überhaupt?
+## Was ist SM und MM überhaupt?
 
 Source- und Metamod sind zwei Half Life 2 Erweiterungen, welches es ermöglichen einen Source-Engine Gameserver (z.B. CS:S CS:GO, DoD:S, TF2, etc.) noch mehr als üblich zu individualisieren. Dazu gehört zum Beispiel die Nutzung von Plugins und eine erweitere Administration deines Servers.
 
-## 🔧 SM / MM Installation
+## SM / MM Installation
 
-### ⏬ Download der Dateien
+### Download der Dateien
 
 Zunächst einmal werden die eigentlichen Erweiterungen benötigt. Hierbei ist es wichtig immer die neusten Versionen (**stable**) zu benutzen, damit diese auch noch voll funktionsfähig bzw. kompatibel sind. Die neusten Versionen können unter den folgenden Webseiten heruntergeladen werden: 
 
@@ -22,7 +22,7 @@ Zunächst einmal werden die eigentlichen Erweiterungen benötigt. Hierbei ist es
 
 > Source-Engine Gameserver laufen bei ZAP-Hosting in der Regel unter einem Linux Betriebssystem. Dementsprechend wird die Linux Version der Erweiterungen benötigt.
 
-### 📦 Entpacken der Dateien
+### Entpacken der Dateien
 
 Beim Herunterladen der beiden Erweiterungen erhält man zunächst zwei gepackte Dateien (sourcemod-X.X.X-gitXXXX-linux.tar / mmsource-X.X.X-gitXXX-linux.tar), welche vor dem Hochladen noch entpackt werden müssen. Dafür kann man entweder Winrar, 7zip oder ähnliche Programme benutzen.
 
@@ -32,7 +32,7 @@ Aus den entpackten Dateien erhält man im Anschluss addons und cfg den Ordner:
 
 ![image](https://user-images.githubusercontent.com/13604413/159178797-76cc4be0-ff07-4a6a-a85a-d31ec71c76eb.png)
 
-### ⬆ Hochladen der Dateien
+### Hochladen der Dateien
 
 Wenn die oben genannten Schritte abgeschlossen sind, dann geht es an die eigentliche Installation. Hierfür müssen wir uns per FTP mit dem Server verbinden, damit wir die Ordner der Erweiterungen hochladen können.
 
@@ -51,14 +51,14 @@ Im Anschluss sollte die Ordner Struktur dann wie folgt aussehen:
 
 ![image](https://user-images.githubusercontent.com/13604413/159178810-43bff013-43ab-47ce-9806-38423cc91fb5.png)
 
-## ✅ SM / MM Installation überprüfen
+## SM / MM Installation überprüfen
 
 Zum Überprüfen, ob die Erweiterungen fehlerfrei installiert wurden, gibt es zwei Möglichkeiten:
 
 1. Spiel Konsole
 2. Remote Console (HLSW - RCON)
 
-### 🕹️ Versionsabfrage via Spiel
+### Versionsabfrage via Spiel
 
 Über die folgenden Schritte können wir die Version für den eigenen Server prüfen
 
@@ -74,7 +74,7 @@ Als Resultat erhalten wir dann folgende Ausgabe:
 
 ![image](https://user-images.githubusercontent.com/13604413/159178813-83f8c4a3-03ac-469d-9315-54631c89c4f3.png)
 
-### 📖 Versionsabfrage via RCON
+### Versionsabfrage via RCON
 
 ![image](https://user-images.githubusercontent.com/13604413/159178818-bc81a67e-4068-4198-a03b-0abf0eef3b5d.png)
 

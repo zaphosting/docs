@@ -7,26 +7,26 @@ sidebar_label: Plugin Uploader
 
 Click here to get to our Minecraft servers: [Minecraft server hosting](https://zap-hosting.com/en/minecraft-server-hosting/)
 
-## 🕹 Plugin Uploader
+## Plugin Uploader
 
 Click your Minecraft server on the server overview. Then select the Plugins tab, which is located in the Settings sub-item.
 
 > Make sure your current game is Spigot or Bukkit. The plugin uploader is only available there.
 
-## 🔼 Install/Upload Plugins
+## Install/Upload Plugins
 
 There are two different ways you can install a plugin on your Minecraft server.
 
 - You can install your plugin from one of our pre-made selections (if available)
 - You can upload your own plugins using drag'n drop
 
-### 📚 Plugins from List
+### Plugins from List
 
 Select your desired plug-in from the "All plugins" list and click on the green "Install" button. The installation may take a moment depending on the size of the plug-in.
 
 ![](https://user-images.githubusercontent.com/61839701/170331439-f78360fb-ddb3-4278-bd1b-f86ee88b8a9d.png)
 
-###  Upload your own Plugin
+### Upload your own Plugin
 
 Drag the desired plugin .jar file into the box marked on the picture. It is also possible to drag and install several plugins into this area at the same time.
 
@@ -39,19 +39,19 @@ In order to be able to use the plugin you have to reload your server with the co
 > In rare cases the server has to be restarted so that the plugin runs smoothly.
 
 
-## 🚮 Uninstall Plugin
+## Uninstall Plugin
 
 ![](https://user-images.githubusercontent.com/61839701/170331549-c08e53b1-6ba1-4cbf-95c9-ea20585977f0.png)
 
 To uninstall a plugin, click on the red bin next to the entry.
 
-## 🔴 Deactivate Plugin
+## Deactivate Plugin
 
 To do this, click on the green button with the lock behind an installed plugin. If the button changes its color from green to orange, you have deactivated your plugin. The other way around, you activate your plugin again. The plugin file is still on the server after deactivation, but is no longer loaded by the game server.
 
 > After you have deactivated your plugin, you have to reload the server once for the changes to take effect. Use one of the following two commands in your game server console or in-game: `/rl` or `/reload`
 
-## 🆘 Common Problems
+## Common Problems
 
 **My plug-in cannot be uploaded via the "Drag'n Drop" area.**
 
