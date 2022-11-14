@@ -161,6 +161,10 @@
         "title": "Conan Exiles: configure your own server",
         "sidebar_label": "Server Configuration"
       },
+      "corekepper-connecttoserver": {
+        "title": "Core Keeper connect to server - Gameserver from ZAP-Hosting",
+        "sidebar_label": "Connect to the server"
+      },
       "create_screenshots": {
         "title": "Screenshots: How and with which tool to create screenshots",
         "sidebar_label": "Create Screenshots"
@@ -655,6 +659,10 @@
       "spaceengineers_becomeadmin": {
         "title": "Space Engineers: Become a server admin",
         "sidebar_label": "Become Admin"
+      },
+      "stormworks-becomeadmin": {
+        "title": "Become a Stormworks Admin - Gameserver from ZAP-Hosting",
+        "sidebar_label": "Become an admin"
       },
       "suggestions": {
         "title": "Submit suggestions for new game servers and features on ZAP-Hosting",
