@@ -4,7 +4,7 @@ title: FiveM ESX Server: Adding cars to the shop
 description: Information on how to add cars to the shop on your FiveM server with ESX from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Add Cars to Dealership
 ---
-## 📔 Access to the database
+## Access to the database
 
 First of all we have to connect to our database. We do this under the tab "Databases"
 
@@ -14,12 +14,12 @@ There we click on the blue icon and log in with our data, which we also find on 
 
 ![image](https://user-images.githubusercontent.com/13604413/172065959-8abe71a9-321f-42ee-a6b5-9294f0fbdbd0.png)
 
-## 📖 Find spawn names
+## Find spawn names
 
 Then we have to find out the spawn name of the car. We can do this by simply trying around or by browsing through the following page:
 https://wiki.gtanet.work/index.php?title=Vehicle_Models
 
-## 📑 Add new vehicle
+## Add new vehicle
 
 Once we have chosen a car, we can add it to the list.
 
@@ -52,4 +52,3 @@ Ich habe hier noch ein kleines Beispiel für euch:
 
 
 ![image](https://user-images.githubusercontent.com/13604413/172065930-4de7949f-b59f-4dd5-a1f0-4773fcfd3c41.png)
-
