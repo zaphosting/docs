@@ -7,18 +7,18 @@ description: Instructions on how to create a realm and assign keys to your serve
 ---
 
 
-## 🔧 Why do I need a key?
+## Why do I need a key?
 
 The key is needed so that the servers are verified and can communicate with the online services.
 
-## 📋 Preparation
+## Preparation
 
 To create / display the mentioned keys, you have to log in to "https://myrealm.lastoasis.gg/" first.
 Then click on "Settings":
 
 ![image](https://user-images.githubusercontent.com/26007280/189681463-3331d6c8-2771-43ee-9b71-a520ad323c98.png)
 
-## 🖥️ Game Key + Host Key
+## Game Key + Host Key
 
 Once here, you can already see your game server key.
 You have to enter the key in the interface of the server under the tab "Settings" at "Customer Key":
