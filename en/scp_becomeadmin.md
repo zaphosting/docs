@@ -7,7 +7,7 @@ sidebar_label: Become Admin
 
 > NOTICE: Since recent SCP Updates, the password login is no longer functional. Please use the following guide to add your roles directly by the steamid. 
 
-##  📃 Configuration for the Remote Admin Config
+## Configuration for the Remote Admin Config
 
 ### Requirements
 
@@ -19,7 +19,7 @@ Here you can find an example of how you can get your steamid by inputting your p
 
 ![image](https://user-images.githubusercontent.com/26007280/189888449-eda43870-464c-416e-b3ae-b373b71cc6a0.png)
 
-## ➕ Add Admins
+## Add Admins
 
 Now the configuration file has to be opened and edited.
 This is located in "**Configs**" under "**Settings**".
@@ -40,7 +40,7 @@ In our example we set rights for three users, one of them gets "**owner**" the o
 
 ![image](https://user-images.githubusercontent.com/13604413/159181666-fd68aac0-2c42-470c-b0c2-b1448d67a2cd.png)
 
-## 🕴️ Add More Roles to Override the Password
+## Add More Roles to Override the Password
 
 If you have multiple roles you want to override the remote admin password, you can simply adjust the following line in the following file:
 "**config_remoteadmin.txt**
