@@ -5,19 +5,19 @@ description: Information on how to install packages on your RageMP server from Z
 sidebar_label: Installing packages
 ---
 
-## 🔑 Connect via FTP
+## Connect via FTP
 
 Before packages can be installed, the [FTP-Access](gameserver_ftpaccess.md) must be set up:
 
 ![image](https://user-images.githubusercontent.com/13604413/159178012-0172691b-d49f-49d6-ab34-cc01eadbacf5.png)
 
 
-## 📦 RageMP Packages
+## RageMP Packages
 
 RageMP packages are extensions or modifications. 
 RageMP distinguishes between "**Client**" and "**Server**" packages
 
-### 🚶‍♂️ Client packages
+### Client packages
 
 Client-side packages are used to edit the in-game user interface or other visual effects.
 The client-side packages are uploaded to the "**client_packages**" folder
@@ -38,7 +38,7 @@ There for each script the line ***require(./gamemode/DEINSCRIPTNAME.js);*** is i
 
 ![image](https://user-images.githubusercontent.com/13604413/159178015-9106b7ea-41c4-4876-868c-dbca30410d62.png)
 
-### 🖥️ Server packages
+### Server packages
 
 Server side packages are used to edit basic settings from the server.
 For example: Spawn, players, cars, markers
