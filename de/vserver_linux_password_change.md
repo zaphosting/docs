@@ -5,7 +5,7 @@ description: Informationen, wie du das Root-Passwort für deinen Linux vServer v
 sidebar_label: Passwort ändern
 ---
 
-## 📄 Webinterface
+## Webinterface
 
 Das Passwort kann über unser Webinterface bei dem jeweiligen Server geändert werden. 
 Öffne dazu die Seite „Zugang und Sicherheit“, diese findet man Links im Menü
@@ -35,7 +35,7 @@ Anschließend öffnet sich ein Popup wo das Passwort angezeigt wird.
 
 
 
-## 💻 Server Konsole
+## Server Konsole
 
 Das Passwort kann auch über die Server Console geändert werden, dabei ist es egal ob man diese via Putty erreicht oder z.b via VNC/Serial.
 > Wichtig: Diese Option funktioniert nur wenn noch Zugriff zum Server besteht, sprich man noch auf die Console verbinden sowie anmelden kann. 
@@ -49,4 +49,4 @@ Ist dies gemacht und das Passwort stimmte mit der ersten Eingabe überein, so be
 
 Stimmen die beiden Eingaben nicht überein, so wird die Console den Vorgang beenden und man muss erneut den Befehl "passwd" eingeben. 
 
-> ⚠️Wichtig: Ändert man das Password via Console, kann es nicht für 3 Stunden in unserem Webinterface unter Zugang und Sicherheit angezeigt werden. 
+> ⚠️ Wichtig: Ändert man das Password via Console, kann es nicht für 3 Stunden in unserem Webinterface unter Zugang und Sicherheit angezeigt werden. 
