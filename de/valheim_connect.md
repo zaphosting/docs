@@ -16,7 +16,7 @@ Nachdem wir das Passwort gesetzt haben, können wir den Server starten, hierbei 
 ![image](https://user-images.githubusercontent.com/13604413/159179762-23d41680-df0e-46e7-b484-d9f99f6e88db.png)
 
 
-## 📶 Über Valheim Direktverbinden
+## Über Valheim Direktverbinden
 
 Zuerst kopieren wir uns die IP vom Server, welche im Webinterface steht:
 
@@ -36,7 +36,7 @@ Hier Fügen wir nun unsere Server IP ein:
 Über den "Connect" Button können wir uns nun direkt auf den Server verbinden.
 
 
-## 📶 Über Steam Direktverbinden
+## Über Steam Direktverbinden
 
 Zuerst kopieren wir uns die IP vom Server, welche im Webinterface steht:
 ![image](https://user-images.githubusercontent.com/13604413/159179803-d22fb02c-22a5-4a03-9f43-2b415773742d.png)
@@ -60,7 +60,7 @@ Nachdem wir diesen Hinzugefügt haben, sollten wir unseren Server nun in der Ser
 Über den "Join Game" Button können wir uns nun direkt auf den Server verbinden.
 
 
-## 📶 Per Serverliste Verbinden
+## Per Serverliste Verbinden
 Wir öffnen Valheim und klicken auf `Start Game`, wenn noch kein Charakter erstellt wurde, muss jetzt einer erstellt werden, dann klicken wir auf `Start`
 
 Hier wollen wir keine neue Welt anlegen, also drücken wir "Abbrechen"
@@ -76,4 +76,3 @@ Jetzt können wir oben im Menü auf `Join Game` klicken und unseren Servernamen 
 Nun sollte unser Server bereits in der Liste zu sehen sein, wir können ihn nun anklicken und dann auf `Connect` klicken, sobald wir uns verbunden haben, müssen wir nur noch das Server-Passwort eingeben, das wir in den Einstellungen festgelegt haben und Enter drücken!
 
 Fertig! Du kannst jetzt auf deinem eigenen Valheim-Server spielen!
-
