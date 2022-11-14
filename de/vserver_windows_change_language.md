@@ -5,10 +5,10 @@ description: Informationen, wie du die Sprache deines Windows vServers von ZAP-H
 sidebar_label: Sprache hinzufügen/ändern
 ---
 
-> ℹ️ Wir bieten dir grundsätzlich Windows in Deutsch und Englisch an, dies erkannst du an den Kürzeln (DE) und (EN)
+> ⚠️ Wir bieten Windows grundsätzlich in Deutsch und Englisch an, dies erkannst du an den Kürzeln (DE) und (EN)
 ***
 
-## 📖 Vorbereitung
+## Vorbereitung
 
 Verbinde dich per Remotedesktop auf deinen Windows Server und öffne die Einstellungen.
 
@@ -22,7 +22,7 @@ Klicke nun auf "Sprache hinzufügen"
 
 Suche nach deiner gewünschten Sprache und achte darauf dass diese eine Anzeigesprache ist.
 
-## 🖥️ Installation
+## Installation
 
 ![image](https://user-images.githubusercontent.com/13604413/159173312-f53f9fe0-dec9-493f-8046-f2f05b96955c.png)
 
