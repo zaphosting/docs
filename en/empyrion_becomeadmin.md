@@ -5,7 +5,7 @@ description: Information on how to become an admin on your Empyrion server at ZA
 sidebar_label: Become Admin
 ---
 
-## 🗝️ locate Steam64ID
+## Locate Steam64ID
 
 Firstly, you would need to locate your Steam64ID.
 You can use the following tool: [SteamID Lookup](https://steamid.io/lookup).
@@ -15,7 +15,7 @@ Here you can find an example of how you can get your steamid by inputting your p
 
 ![image](https://user-images.githubusercontent.com/13604413/159184139-e07456a3-965e-4e66-9aed-11a3a1cc9f76.png)
 
-## 📃 configure adminconfig
+## Configure adminconfig
 
 The "**adminconfig.yaml**" which must be edited is located in the "**Saves**" directory.
 To open this directory, the instructions for the [FTP connection](https://zap-hosting.com/guides/docs/en/gameserver_ftpaccess) must be followed.
