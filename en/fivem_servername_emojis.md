@@ -5,7 +5,7 @@ description: Information on how to display emojis in the server name of your Fiv
 sidebar_label: Emojis in server name
 ---
 
-## 💪 Emojis in server name
+## Emojis in server name
 
 Thanks to our web interface, you can easily add emojis to your server name.
 You can find this function in the settings of your product:
