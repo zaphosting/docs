@@ -5,7 +5,7 @@ description: Informationen, wie die Emojis im Servernamen deines FiveM-Servers i
 sidebar_label: Emojis in Server Name
 ---
 
-## 💪 Emojis im Servernamen
+## Emojis im Servernamen
 
 Dank unseres Webinterfaces, kannst du kinderleicht Emojis in deinen Servernamen einfügen.
 Diese Funktion findest du in den Einstellungen deines Produktes:
