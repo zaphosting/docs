@@ -19,7 +19,7 @@ But you can create your own Query Login as follows, if you have admin rights on 
 
 >Important: The functions such as import snapshot, change slots/ports and similar are not available for security reasons.
 
-## Step 1️⃣: 
+## Step 1️: 
 To create your own Query Login, you have to click on "Server Query Login" in the Teamspeak Client under Tools.
 Afterwards you have to enter a name for the login, this is also the login name e.g. "MyQueryLogin":
 
@@ -30,7 +30,7 @@ This must be saved, it cannot be changed later.
 
 ![image](https://user-images.githubusercontent.com/13604413/159177369-80ce4ec5-e9b5-4ff4-a3e5-2afac1aabdfd.png)
 
-## Step 2️⃣
+## Step 2️:
 With the now created login data a connection can be established e.g. via [YaTQA](https://yat.qa). 
 For this purpose, the server IP, the Query port, the server port and the Query login name and password are required. 
 The Server IP, the Query Port and the Server Port can be viewed on the Dashboard in the web interface: 
