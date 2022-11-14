@@ -5,7 +5,7 @@ description: Informationen, wie du zusätzliche IPs zu deinem Windows vServer vo
 sidebar_label: Zusätzliche IPs hinzufügen
 ---
 
-## 🆕 Die neuen extra IPs ermitteln
+## Die neuen extra IPs ermitteln
 Als erstes musst du in Erfahrung bringen wie deine Extra IP lautet.
 Dafür kannst du im Interface von deinem Server auf den Reiter "IP-Adressen" klicken.
 Hier werden die alle IPs angezeigt, welche deinem Server zur Verfügung stehen.
@@ -13,7 +13,7 @@ Du kannst auch direkt erkennen, welche IP bereits eingetragen ist und welche noc
 
 ![image](https://user-images.githubusercontent.com/13604413/159172829-7297f0a3-4678-4690-a303-0a17dda275e6.png)
 
-## 🖥 Verbindung zum Server herstellen
+## Verbindung zum Server herstellen
 Um die extra IPs deinem Server hinzuzufügen, musst du dich erstmal mit diesen verbinden.
 Wie das geht ist hier in unserer separaten Anleitung ausführlich erläutert:
 https://docs.zap-hosting.com/docs/de/vserver_windows_userdp/#-remotedesktopverbindung
@@ -72,13 +72,8 @@ Klicke im nächste Fenster ebenfalls auf "Ok", damit die Änderungen übernommen
 
 ![image](https://user-images.githubusercontent.com/13604413/159172866-0afd8b75-a90a-49bf-92f4-4447dbcdb697.png)
 
-### ✅ Eigene IP überprüfen
-Die IP wurde nun korrekt auf deinem Server hinzugefügt.
-Du kannst jetzt den "IP-Adressen" Reiter im Interface von deinem Server aufrufen und nach dem Status der IP-Adresse schauen.
-Insofern alles korrekt erledigt wurde, wird die IP nun als "IP erreichbar" angezeigt.
+### Eigene IP überprüfen
+Die IP wurde nun korrekt auf deinem Server hinzugefügt. Du kannst jetzt den "IP-Adressen" Reiter im Interface von deinem Server aufrufen und nach dem Status der IP-Adresse schauen. Insofern alles korrekt erledigt wurde, wird die IP nun als "IP erreichbar" angezeigt.
 Mit der IP kannst du dich nun beispielsweise auch via RDP mit deinem Server verbinden:
 
 ![image](https://user-images.githubusercontent.com/13604413/159172869-04429e1f-96c5-4e68-9add-0c08e22ad714.png)
-
-
-
