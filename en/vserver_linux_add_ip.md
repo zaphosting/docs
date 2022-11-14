@@ -9,12 +9,12 @@ sidebar_label: Add IPv4 Address
 
 If this has not already been entered automatically, it can be entered manually in the network config.
 
-### Step 1️⃣
+### Step 1
 The network config is opened with an editor, eg with "nano".
 ```
 sudo nano /etc/network/interfaces
 ```
-> ⚠️ The config must be edited with root rights.
+> ⚠️ Attention: The config must be edited with root rights.
 
 There is already an entry in the config that could look like this:
 
@@ -30,7 +30,7 @@ iface eth0 inet static
 ```
 There the interface "eth0" is specified as well as the IPv4, its netmask and gateway.
 
-### Step 2️⃣
+### Step 2
 
 In order to add a further IPv4, another interface must be entered, eg "eth1". The additional IPv4 is e.g. 124.124.124.55. The network mask is 255.255.255.0 because it is a class C network. The gateway is always the IPv4 address with a 1 at the end.
 
@@ -67,7 +67,7 @@ iface eth1 inet static
 ```
 The confing must then be saved, with "nano" eg with **CTRL+X, y then Enter**
 
-### Step 3️⃣
+### Step 3
 
 The network module must now be restarted so that the new IPv4 address becomes active, this is done with the following command:
 ```
