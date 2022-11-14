@@ -5,7 +5,7 @@ description: Information on how to set up a Nextcloud server on your VPS from ZA
 sidebar_label: Nextcloud
 ---
 
-## ❓ What is Nextcloud?
+## What is Nextcloud?
 
 Nextcloud is an open source cloud solution and fork of Owncloud, which was founded in 2016 by former Owncloud founder Frank Kalitschek.
 
@@ -35,11 +35,11 @@ In order to achieve optimal performance, stability and functionality, the follow
 | Web server       | Apache 2.4 with `mod_php` or `php-fpm` (recommended)         |
 | PHP              | 5.6, 7.0 (recommended), 7.1 (recommended), 7.2               |
 
-> The requirements are based on our own experience and the information provided by the developers..
+> ⚠️ The requirements are based on our own experience and the information provided by the developers..
 
 
 
-## 🛠 Nextcloud set up
+## Nextcloud set up
 
 
 ### Preparation
@@ -282,7 +282,7 @@ Afterwards a user has to be created, which gets access to the Nextcloud database
 CREATE USER 'nc_user'@'localhost' IDENTIFIED BY 'YOUR_PASSWORD_HERE';
 ```
 
-> Don't skip this step by using the root user.This is not safe and can put your data at risk!
+> ⚠️ Don't skip this step by using the root user. This is not safe and can put your data at risk!
 
 The last step is to assign the permissions to the new user:
 
@@ -506,7 +506,7 @@ If you are not sure how to generate an SSL certificate, then you can find instru
 
 
 
-## 💻 Manage Nextcloud
+## Manage Nextcloud
 
 Access to Nextcloud is possible via the browser, as well as via the smartphone and computer using the app. The download sources can be found here: https://nextcloud.com/install/#install-clients
 
