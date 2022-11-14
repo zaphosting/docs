@@ -5,11 +5,11 @@ description: Information on how to become an admin on your Space Engineers serve
 sidebar_label: Become Admin
 ---
 
-## 🔐 Become Admin
+## Become Admin
 
 To be able to manage your own game server well ingame it is important to have the Admin rank.
 
-### 🔢 SteamID64 over Website
+### SteamID64 over Website
 
 First of all, the profile must be called up in Steam and then right-click anywhere in it.
 There you can then copy the Steam URL of the profile.
@@ -24,7 +24,7 @@ Once this is done, you can enter the URL on the following websites:
 
 ![image](https://user-images.githubusercontent.com/26007280/189890738-382f7bd1-a0f7-4c1e-83e2-6b0b1ce17d47.png)
 
-### 📄 SteamID in die Config eintragen
+### SteamID in die Config eintragen
 
 Next you call your interface and the server. 
 There you go to the tab **Configs**
