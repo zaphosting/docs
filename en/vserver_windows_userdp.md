@@ -5,17 +5,17 @@ description: Information on how to gain initial access to your Windows VPS from 
 sidebar_label: Initial access (RDP)
 ---
 
-## 🖥 Remotedesktop connection
+## Remotedesktop connection
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/iKzYiHJ46WRQq2G/download/Remote.gif)
 
 You connect to your Windows server using the Remote Desktop Connection program provided by Windows.  The program can be found via the Windows search under the term "remote".
 
-> The Windows search function can be found via the Windows icon in the lower left corner.
+> ⚠️ The Windows search function can be found via the Windows icon in the lower left corner.
 
 ![image](https://user-images.githubusercontent.com/13604413/159172603-28ab83df-7b01-47ff-a7de-820a2f9b21cd.png)
 
-## 🏘 IP address & access
+## IP address & access
 
 "Remote Desktop Connection", asks for a "**computer name**". This is the IP address of the server.
 
@@ -29,10 +29,10 @@ The program asks for a **user name** and **password**. The user name is "**admin
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/2dJnoBHddPG6fsb/preview)
 
-> No certificate is installed by default. The password is therefore transmitted insecurely. Learn how to create a certificate here: RDP Certificate
+> ⚠️ No certificate is installed by default. The password is therefore transmitted insecurely. Learn how to create a certificate here: RDP Certificate
 
 
-## 🤷♂ Alternative Remote Programs
+## Alternative Remote Programs
 
 The following alternative programs are suitable for connecting to a Windows server via remote desktop:
 
@@ -42,4 +42,4 @@ The following alternative programs are suitable for connecting to a Windows serv
 - Devolutions Remote Desktop Manager
 - DameWare Mini Remote Control
 
-> For **iOS** users : **Microsoft Remote Desktop 10** in the Mac App Store, **Android** Parallels Client
+> ⚠️ For **iOS** users : **Microsoft Remote Desktop 10** in the Mac App Store, **Android** Parallels Client
