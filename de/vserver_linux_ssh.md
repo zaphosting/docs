@@ -31,7 +31,7 @@ Im Folgenden wird die Verbindung mittels des Putty SSH-Client erläutert. Im Kon
 
 
 
-> Standardmäßig ist der SSH-Login via Passwort deaktiviert. Solltest du dich mit dem Passwort einloggen wollen, dann muss unter **Zugang & Sicherheit** die Option dafür erst aktiviert werden.
+> ⚠️ Standardmäßig ist der SSH-Login via Passwort deaktiviert. Solltest du dich mit dem Passwort einloggen wollen, dann muss unter **Zugang & Sicherheit** die Option dafür erst aktiviert werden.
 
 
 
