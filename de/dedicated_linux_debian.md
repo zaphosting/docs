@@ -3,17 +3,15 @@ id: dedicated_linux_debian
 title: Debian installieren
 sidebar_label: Debian installieren
 ---
-> In diesem Beispiel wird die Installation von Debian 10 durchgeführt
 
 ## 📋 Vorbereitungen
-Wähle in deinem ZAP-Interface die gewünschte ISO von Debian aus und lasse den Server mit der ISO booten, bis dieser im Setup ist.
+Wähle in deinem ZAP-Interface die gewünschte ISO von Debian aus und lasse den Server mit der ISO booten, bis dieser im Setup ist. Die Navigation im Setup Prozess erfolgt mit TAB, Leertaste und Enter.
 
-> Die Navigation im Setup Prozess erfolgt mit TAB, Leertaste und Enter.
 > TAB = Zwischen Menüpunkten wechseln, Leertaste = markieren, Enter = Bestätigen
 
 ***
 
-## ⌚ Das Setup
+## Das Setup
 Wenn die ISO erfolgreich geladen wurde, ist der Server erfolgreich im Setup.
 
 ![image](https://user-images.githubusercontent.com/13604413/159173874-c0b29b7a-2581-466e-8829-9fd400ab43ed.png)
@@ -59,7 +57,7 @@ In unserem Fall wählen wir das deutsche Tastaturlayout welches dem QWERTZ Layou
 
 > Dein Server bereitet nun einige für die Installation notwendige Komponenten vor, dies kann einen Augenblick in Anspruch nehmen.
 
-### 🔧 Konfigurationen
+### Konfigurationen
 
 ![image](https://user-images.githubusercontent.com/13604413/159173907-17d2a4f8-35ce-42fc-a22e-2b0d60079e81.png)
 
@@ -109,7 +107,7 @@ Wähle außerdem ein Passwort deiner Wahl und bestätige dies nochmals.
 
 Dein Server bereitet nun den nächsten Installationsabschnitt vor.
 
-### 💾 Partitionierung
+### Partitionierung
 
 ![image](https://user-images.githubusercontent.com/13604413/159173949-e58c9c27-9dc5-4018-8334-085f52cdc9ae.png)
 
@@ -138,7 +136,7 @@ Wir bestätigen die Konfiguration mit "Finish partitioning and write changes to 
 
 Dein Server führt nun die Partitionierung durch und bereitet die Installation des Systems vor.
 
-### 💻 Installation des Systems
+### Installation des Systems
 
 ![image](https://user-images.githubusercontent.com/13604413/159173960-6290e5b5-2205-4d48-a5fc-54ce108d53e7.png)
 
@@ -209,7 +207,7 @@ Wenn dies erfolgreich erledigt ist, wählen wir Continue, der Server wird nun ei
 
 ![image](https://user-images.githubusercontent.com/13604413/159173996-5278b311-c648-4bfc-a7b6-cbc4f3e7c5bb.png)
 
-### 🔑 SSH Login aktivieren
+### SSH Login aktivieren
 
 Wenn der Neustart deines Servers durchgeführt wurde und die Installation erfolgreich verlaufen ist, wirst du nun zur Anmeldung aufgefordert.
 
