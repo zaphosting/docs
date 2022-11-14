@@ -9,7 +9,7 @@ sidebar_label: Own ISO
 There are two ways to mount your own iso file. Its always necessary to restart the server, to load the file.
 There are in general no restrictions on mounting a file, its important that the iso is bootable.
 
-### ⚠️ Mounting through the iLO
+### Mounting through the iLO
 Open your iLO Management Interface and open "Virtual" Media
 ![](https://screensaver01.zap-hosting.com/index.php/s/myWMSi3GgyLBHXR/preview)
 
@@ -19,7 +19,7 @@ Open your iLO Management Interface and open "Virtual" Media
 
 Your iso-file will now be loaded.
 
-### ⚠️ Mounting through a remote console
+### Mounting through a remote console
 
 **HTML5 Console**
 You can easily mount the file itself, in the remote console itself:
