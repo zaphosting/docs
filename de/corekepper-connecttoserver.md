@@ -1,5 +1,5 @@
 ---
-id: corekepper_connecttoserver
+id: corekepper-connecttoserver
 title: Core Keeper zum Server verbinden - Gameserver von ZAP-Hosting
 description: Anleitung, wie du dich zum Server für Core Keeper verbindest - ZAP-Hosting.com Dokumentationen 
 sidebar_label: Zum Server verbinden
@@ -7,7 +7,7 @@ sidebar_label: Zum Server verbinden
 
 ### Zum Gameserver Core Keeper kannst du wie folgt verbinden:
 
-Öffne dein ZAP-Hosting Gameserver Dashboard und stelle sicher das dein Server gestartet ist:
+Öffne dein ZAP-Hosting Gameserver Dashboard und stelle sicher, dass dein Server gestartet ist:
 
 ![1184-113-max](https://user-images.githubusercontent.com/61953937/196052048-fa2ae971-b1bf-46c0-96c0-55c5e42877da.png)
 
@@ -23,4 +23,4 @@ Dort trägst du die IP und Port ein, welche auf deinem Gameserver Dashboard ange
 
 ![image](https://user-images.githubusercontent.com/61953937/196052291-66142f5c-6c4a-466a-9e8a-21924fc3c696.png)
 
-Nach dem Klick auf "Connect" verbindet sich der Client zum Server. 
+Nach dem Klick auf "Connect" verbindet sich der Client zu deinem Server.
