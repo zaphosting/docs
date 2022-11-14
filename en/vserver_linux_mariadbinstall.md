@@ -9,7 +9,7 @@ Below you get to know how to install a MariaDB (MySQL) Server on your Linux vSer
 
 [Initial access (SSH)](https://zap-hosting.com/guides/docs/en/vserver_linux_ssh/)
 
-## 🔄 Updating packages
+## Updating packages
 
 First of all, existing packages must be updated, this can be done by using the following command: **apt update**
 
@@ -18,12 +18,12 @@ First of all, existing packages must be updated, this can be done by using the f
 This will update all packages. Afterwards you can upgrade the packages with the following command: **apt upgrade -y**
 
 
-## 📥 Start the installation
+## Start the installation
 
 The installation of MariaDB (MySQL) can be started with the following command: **apt install mariadb-server mariadb-client -y**
 
 
-## ⚙️ Configuration
+## Configuration
 
 Once the installation is complete, type in the following command to start the configuration of the server: **mysql_secure_installation**
 
@@ -33,14 +33,14 @@ Now configure your MariaDB (MySQL) server and set a password for your server.
 
 There you skip the input for now by pressing **Enter**.
 
-> The user root is the main user of your MariaDB (MySQL) server!
+> ⚠️ The user root is the main user of your MariaDB (MySQL) server!
 
 Now you are being asked if you want to set a password for the root user, confirm this with **y** for yes.
 
 Afterwards you have to type in the new password for the user root.
 
 
-> While typing in the password, you won't be able to see it. However, this is normal and your password will still be stored. Make sure you use a secure 
+> ⚠️ While typing in the password, you won't be able to see it. However, this is normal and your password will still be stored. Make sure you use a secure 
 > password for your root user and keep it in a safe place. 
 
 ![image](https://user-images.githubusercontent.com/13604413/159171942-82667636-b148-4248-a95d-ad3d9ed3ab47.png)
