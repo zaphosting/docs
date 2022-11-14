@@ -6,7 +6,7 @@ sidebar_label: Two factor authentication
 ---
 
 
-## 💾 Install Google Authenticator
+## Install Google Authenticator
 
 First you need to install the Google Authenticator on your Linux vServer/Rootserver. Execute the following command:
 
@@ -18,7 +18,7 @@ You will then be prompted to type "Y" to install the package, type this, press E
 
 ![](https://user-images.githubusercontent.com/61839701/166183966-276ee6c7-4b17-4fb3-9283-94f2a663b0a1.png)
 
-## ⌨ Run Google Authenticator
+## Run Google Authenticator
 
 Start the Google Authenticator by typing 'google-authenticator'. Make sure that your window size is sufficient for the QR Code, otherwise press "CTRL+C" and enter it again.
 
@@ -49,7 +49,7 @@ For security reasons we recommend to confirm all with Yes.
 
 ![](https://user-images.githubusercontent.com/61839701/166184028-9636c936-18da-414d-bc1e-4ea233bb6185.png)
 
-## 💽 Configure Google Authenticator
+## Configure Google Authenticator
 
 Now we have to adjust the Google Authenticator so that it is also used. This requires two adjustments. 
 
@@ -83,7 +83,7 @@ The last step is to scroll down to the end of the file and enter 'auth required 
 
 Save the file with 'CTRL + X' then 'Y' and lastly 'Enter`
 
-## 💻 Log in with 2FA
+## Log in with 2FA
 
 Now it is time to log in for the first time with 2FA. After you have followed the steps above, all you need to do is restart your SSH connection.
 
