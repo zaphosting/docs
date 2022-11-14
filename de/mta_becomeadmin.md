@@ -7,13 +7,13 @@ sidebar_label: Admin werden
 ---
 
 
-## 🔐 Admin werden
+## Admin werden
 
 Mit Administrator-Rechten kannst du direkt im Spiel Änderungen im Live Zustand an deinem Server vornehmen, ohne diese in der Config vorzunehmen. 
 
 
 
-### 📋 Vorbereitung
+### Vorbereitung
 
 Am Anfang muss zunächst ein Benutzer Account erstellt werden welchem später die Admin Rechte zugewiesen werden. Dazu muss in der Live Konsole folgender Befehl aus geführt werden:
 
