@@ -5,7 +5,7 @@ description: Information on how to change the root password for your Linux VPS f
 sidebar_label: Change Password
 ---
 
-## 📄 Webinterface
+## Webinterface
 
 The password can be changed via our web interface. Open the page "Access and Security", which you can find at the left of the navigation.
 
@@ -32,7 +32,7 @@ From now on, the password can be viewed in our web interface for 3 hours. After 
 Afterwards a pop-up window appears where the password is displayed.
 
 
-## 💻 Server Console
+## Server Console
 
 The password can also be changed via the Server Console, it doesn't matter if you access it via Putty or via Serial console.
 
