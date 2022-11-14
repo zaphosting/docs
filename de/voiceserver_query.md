@@ -19,7 +19,7 @@ Es kann jedoch wie folgt ein eigener Query Login erstellt werden, sofern man Adm
 
 >Wichtig: Die Funktionen wie Snapshot einspielen, Slots/Ports ändern und ähnliches stehen unter anderem aus Sicherheitsgründen nicht zur Verfügung.
 
-## Schritt 1️⃣: 
+## Schritt 1: 
 Um einen eigenen Query Login zu erstellen, muss im Teamspeak Client unter Extras der Punkt "Server Query Login" angeklickt werden.
 Anschließend muss ein Name für den Login eingetragen werden, dieser ist auch gleichzeit der Login Name z.b "MeinQueryLogin":
 
@@ -30,7 +30,7 @@ Dies muss umbedingt gespeichert werden, es lässt sich später nicht mehr änder
 
 ![image](https://user-images.githubusercontent.com/13604413/159177369-80ce4ec5-e9b5-4ff4-a3e5-2afac1aabdfd.png)
 
-## Schritt 2️⃣
+## Schritt 2:
 Mit den nun erstellten Login Daten kann eine Verbindung z.b via [YaTQA](https://yat.qa) hergestellt werden. 
 Dazu wird die Server IP, der Query Port, der Server Port sowie der Query Loginname und das dazugehörige Passwort benötigt. 
 Die Server IP sowie der Query Port als auch der Server Port kann auf dem Dashboard im Webinterface eingesehen werden: 
