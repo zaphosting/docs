@@ -5,12 +5,12 @@ description: Information on how to edit the locales files of your FiveM server f
 sidebar_label: Edit Locales Files
 ---
 
-## 📔 Overview
+## Overview
 
 First of all we have to connect to the server.
 Here you can find the [Instructions](gameserver_ftpaccess.md)
 
-## 📑 Find Locales Files
+## Find Locales Files
 Once we have done that we look for the script where we want to change the local files.
 
 There we search for the Folder **locales**.
@@ -23,7 +23,7 @@ There we look for our localesfile. In our case this is de.lua
 
 Then we open it
 
-## 📖 Edit Locales File
+## Edit Locales File
 
 Now we can change the locales.
 **Important** Always write in the '.
@@ -32,7 +32,7 @@ Now we can change the locales.
 
 If we have changed everything we wanted to change, we save the file and upload it.
 
-## 🔐 Set Config
+## Set Config
 
 After this is done we have to make sure that the correct locales file is specified in the config.
 
