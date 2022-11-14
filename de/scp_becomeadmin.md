@@ -7,7 +7,7 @@ sidebar_label: Admin werden
 
 > HINWEIS: Seit den letzten SCP-Updates ist die Passwort-Anmeldung nicht mehr möglich. Mit der folgenden Anleitung kannst du die Rollen stattdessen mithilfe der Steam ID hinzufügen.
 
-##  📃 Konfiguration der Remote Admin Config
+## Konfiguration der Remote Admin Config
 
 ### Voraussetzungen
 
@@ -19,7 +19,7 @@ Hier findest du ein Beispiel wie du deine Steam64ID herausfindest indem du den L
 
 ![image](https://user-images.githubusercontent.com/26007280/189888228-2dbc315d-9b48-499c-a765-de4bebeac6fa.png)
 
-## ➕ Admins hinzufügen
+## Admins hinzufügen
 
 Nun musst du die Konfiguratinsdatei öffnen une bearbeiten.
 Diese findest du links im Menü als "**Configs**", direkt unter dem Menüpunkt "**Einstellungen**".
@@ -40,7 +40,7 @@ In unserem Beispiel setzen wir doe Rechte für drei benutzer, einer von ihnen be
 
 ![image](https://user-images.githubusercontent.com/13604413/159181666-fd68aac0-2c42-470c-b0c2-b1448d67a2cd.png)
 
-## 🕴️ Mehr Rollen hinzufügen - Remotepasswort überschreiben
+## Mehr Rollen hinzufügen - Remotepasswort überschreiben
 
 Wenn du mehrere Rollen hast und das Remotepasswort überschreiben möchtest, kannst du einfach die folgende Zeile in der folgenden Datei editieren:
 "**config_remoteadmin.txt**
