@@ -7,7 +7,7 @@ sidebar_label: Plugins Install
 ---
 
 
-## 🔧 Plugins installation
+## Plugins installation
 
 With plugins you have the possibility to customize your server even more. Below we will explain where you can find the most popular server plugins and how to set them up. 
 
