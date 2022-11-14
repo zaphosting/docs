@@ -7,20 +7,20 @@ sidebar_label: Plugin Uploader
 
 Hier gelangst du zu unseren Minecraft Servern: [Minecraft Server mieten](https://zap-hosting.com/de/minecraft-server-mieten/)
 
-## 🕹 Plugin Uploader
+## Plugin Uploader
 
 Klicke auf der Serverübersicht auf deinen Minecraft Server. Wähle dann den Reiter Plugins, der sich im Unterpunkt Einstellungen befindet.
 
 > Stelle sicher, dass dein aktuelles Spiel Spigot oder Bukkit ist. Nur dort ist der Plugin Uploader verfügbar.
 
-## 🔼 Plugin installieren / hochladen
+## Plugin installieren / hochladen
 
 Es gibt zwei verschiedene Möglichkeiten, wie du ein Plugin auf deinem Minecraft Server installieren kannst. 
 
 - Du kannst dein Plugin aus einer von uns vorgefertigten Auswahl installieren (falls vorhanden)
 - Du kannst deine eigenen Plugins per Drag'n Drop hochladen
 
-### 📚 Plugins aus Liste
+### Plugins aus Liste
 
 Wähle aus der Liste "Alle Plugins" dein Wunschplugin aus und klicke auf den grünen Button "Installieren". Die Installation kann je nach Plugingröße einen Augenblick dauern.
 
@@ -38,19 +38,19 @@ Um das Plugin nun nutzen zu können musst du deinen Server mit dem Befehl `/rl` 
 
 > In seltenen Fällen muss der Server einmal neugestartet werden, damit das Plugin reibungslos läuft.
 
-## 🚮 Plugin deinstallieren
+## Plugin deinstallieren
 
 ![](https://user-images.githubusercontent.com/61839701/170331287-2511ab44-6127-4a19-8761-a0bd6780b908.png)
 
 Um ein Plugin zu deinstallieren, klicke auf die rote Mülltone neben dem Eintrag.
 
-## 🔴 Plugin deaktivieren
+## Plugin deaktivieren
 
 Klicke dazu hinter einem installierten Plugin auf den grünen Button mit dem Schloss. Wechselt der Button seine Farbe von grün zu orange, hast du dein Plugin deaktiviert. Andersherum aktivierst du dein Plugin wieder. Die Plugindatei befindet sich nach dem Deaktivieren weiterhin auf dem Server, wird jedoch vom Gameserver nicht mehr geladen.
 
 > Nachdem du dein Plugin deaktiviert hast, musst du den Server einmal reloaden, damit die Änderungen wirksam werden. Verwende dazu einen der beiden folgenden Befehle in deiner Gameserverkonsole oder Ingame: `/rl` oder `/reload`
 
-## 🆘 Häufige Probleme
+## Häufige Probleme
 
 **Mein Plugin lässt sich über den "Drag'n Drop"-Bereich nicht hochladen.**
 
