@@ -5,9 +5,7 @@ description: Informationen, wie der Erstzugriff mit SSH auf deinen Linux vServer
 sidebar_label: Erstzugriff (SSH)
 ---
 
-### 🖥 SSH-Verbindung
-
-![](https://screensaver01.zap-hosting.com/index.php/s/TYEHE38gNQoFjBx/download/ssh_connect.gif)
+### SSH-Verbindung
 
 Die Linux Server Produkte beinhalten standardmäßig keine grafische Verwaltungsoberfläche, weshalb die Verbindung und Verwaltung über einen SSH-Client (Konsole) erfolgt. Hierbei gibt es eine große Auswahl an SSH-Clients. Im Folgenden gibt es eine Übersicht der bekannten/oft genutzten SSH-Clients. 
 
@@ -23,7 +21,7 @@ Die Linux Server Produkte beinhalten standardmäßig keine grafische Verwaltungs
 
 
 
-## 🏘 IP-Adresse & Zugang
+## IP-Adresse & Zugang
 
 Im Folgenden wird die Verbindung mittels des Putty SSH-Client erläutert. Im Konfigurationsfenster wird hierbei beim **Hostname** die IP-Adresse des Server und der SSH Port 22 eingetragen. Im Anschluss kann der Verbindungsaufbau über den **Open** Button gestartet werden.
 
@@ -55,13 +53,13 @@ Daraufhin öffnet sich die SSH-Konsole in der nach einem **Benutzernamen** und *
 
 
 
-## 🔧 Verwaltung des Servers per SSH
+## Verwaltung des Servers per SSH
 
 Für eine optimale Nutzung des SSH-Clients ist es unerlässlich, die Grundbefehle zu kennen. Im Folgenden findest du eine grobe Übersicht mit allen relevanten Befehlen und deren Bedeutung:
 
 
 
-### 👩 Account Verwaltung
+### Account Verwaltung
 
 | Befehl  |                Beschreibung                |            Syntax            |
 | :-----: | :----------------------------------------: | :--------------------------: |
@@ -72,7 +70,7 @@ Für eine optimale Nutzung des SSH-Clients ist es unerlässlich, die Grundbefehl
 
 
 
-### 🖥️ System Verwaltung
+### System Verwaltung
 
 | Befehl  |                         Beschreibung                         | Syntax                                       |
 | :-----: | :----------------------------------------------------------: | -------------------------------------------- |
@@ -89,7 +87,7 @@ Für eine optimale Nutzung des SSH-Clients ist es unerlässlich, die Grundbefehl
 
 
 
-### 📁 Datei Verwaltung
+### Datei Verwaltung
 
 | Befehl | Beschreibung                               | Syntax                                   |
 | :------: | :------------------------------------------: | :----------------------------------------: |
@@ -104,7 +102,7 @@ Für eine optimale Nutzung des SSH-Clients ist es unerlässlich, die Grundbefehl
 
 
 
-### 🌐 Netzwerk Verwaltung
+### Netzwerk Verwaltung
 
 | Befehl   | Beschreibung                                      | Syntax                                    |
 | :--------: | :-------------------------------------------------: | :-----------------------------------------: |
