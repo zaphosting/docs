@@ -7,7 +7,7 @@ sidebar_label: Behavior/Resource Packs installieren
 
 Hier gelangst du zu unseren Minecraft Servern: [Minecraft Server mieten](https://zap-hosting.com/de/minecraft-server-mieten/)
 
-## 🖱 Welt vom Server downloaden
+## Welt vom Server downloaden
 
 Als erstes musst du den Server herunterfahren, deine Welt vom Server downloaden und zu deinem Minecraft hinzufügen.
 (Falls du einfach eine Frische Welt haben möchtest, ignoriere den Schritt und gehe direkt zu "Addon hinzufügen"
@@ -20,7 +20,7 @@ C:\Users\%username%\AppData\Local\Packages\Microsoft.MinecraftUWP_8wekyb3d8bbwe\
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/NzTt3KAAYE75q5c/preview)
 
-## 🎮 Addon Hinzufügen
+## Addon Hinzufügen
 Öffne nun die .mcpack Datei von deinem Addon. Das Spiel sollte sich öffnen und automatisch das Addon importieren.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/sqArcir3gsEmi5c/preview)
@@ -36,7 +36,7 @@ Hier hast du die Option deine Resourcen & Behavior packs auszuwählen
 Stelle sicher das du hier alles ausgewählt hast was du haben möchtest und gehe dann auf "Spielen".
 Deine Addons sollten nun im Spiel verfügbar sein. Funktioniert alles, schliesse einfach Minecraft.
 
-## 📀 Welt auf den Server hochladen
+## Welt auf den Server hochladen
 
 Gehe nun wieder auf FileZilla.
 

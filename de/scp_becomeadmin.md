@@ -7,7 +7,7 @@ sidebar_label: Admin werden
 
 > HINWEIS: Seit den letzten SCP-Updates ist die Passwort-Anmeldung nicht mehr möglich. Mit der folgenden Anleitung kannst du die Rollen stattdessen mithilfe der Steam ID hinzufügen.
 
-##  📃 Konfiguration der Remote Admin Config
+## Konfiguration der Remote Admin Config
 
 ### Voraussetzungen
 
@@ -17,9 +17,9 @@ Die ID muss später in die entsprechende Konfigurationsdatei eingetragen werden.
 
 Hier findest du ein Beispiel wie du deine Steam64ID herausfindest indem du den Link zu deinem Steam-Profil einträgst:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/92WJfgmrdZWXbFd/preview)
+![image](https://user-images.githubusercontent.com/26007280/189888228-2dbc315d-9b48-499c-a765-de4bebeac6fa.png)
 
-## ➕ Admins hinzufügen
+## Admins hinzufügen
 
 Nun musst du die Konfiguratinsdatei öffnen une bearbeiten.
 Diese findest du links im Menü als "**Configs**", direkt unter dem Menüpunkt "**Einstellungen**".
@@ -40,19 +40,19 @@ In unserem Beispiel setzen wir doe Rechte für drei benutzer, einer von ihnen be
 
 ![image](https://user-images.githubusercontent.com/13604413/159181666-fd68aac0-2c42-470c-b0c2-b1448d67a2cd.png)
 
-## 🕴️ Mehr Rollen hinzufügen - Remotepasswort überschreiben
+## Mehr Rollen hinzufügen - Remotepasswort überschreiben
 
 Wenn du mehrere Rollen hast und das Remotepasswort überschreiben möchtest, kannst du einfach die folgende Zeile in der folgenden Datei editieren:
 "**config_remoteadmin.txt**
 
 Dort findest du folgende Sektion: 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/8MB5E5X9j274ZT5/preview)
+![image](https://user-images.githubusercontent.com/26007280/189888266-1af83395-e867-4fde-9e4a-a442179bf704.png)
 
 Um mehr Rollen hinzufügen zu können kannst du diese einfach mit einem Komma getrennt dort eintragen.
 Als Beispiel fügen wir admin und moderator hinzu um das Passwort zu überschreiben:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/7otg34iLKzASX4q/preview)
+![image](https://user-images.githubusercontent.com/26007280/189888296-22f532af-44d4-4269-ba73-4a91686c5f66.png)
 
 > Hint: Die Adminkonsole im Spiel lässt sich jederzeit mit der Taste **M** öffnen.
 

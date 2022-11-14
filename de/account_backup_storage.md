@@ -5,10 +5,10 @@ description: Anleitung zum Backup Storage von ZAP-Hosting Serven - ZAP-Hosting.c
 sidebar_label: Backup Storage
 ---
 
-## 💾 Was ist ein Backup Storage?
+## Was ist ein Backup Storage?
 Der Backup Storage bietet unseren Kunden eine Möglichkeit über ihre Dienste Backups zu erstellen. Jeder Kunde hat grundsätzlich einen kostenlosen Speicherplatz von 10GB auf seinem Backup Storage, den er voll nutzen kann. Für einen geringen Aufpreis kann jedoch eine Erweiterung des Storage auf bis zu 200GB gebucht werden.
 
-## 🔗 Wie komm ich an meine Backupdateien ran?
+## Wie komm ich an meine Backupdateien ran?
 Die Backupdateien werden auf den Backup Storage gelegt, sobald ein Backup über das Webinterface angelegt wird. Die Dateien können dann entweder über die Backupfunktion des jeweiligen Dienstes auf diesen wieder aufgespielt werden oder per FTP-Verbindung vom Backup Storage heruntergeladen werden.
 
 ### Per FTP auf den Backup Storage verbinden
@@ -37,7 +37,7 @@ Ist die Verbindung erfolgreich hergestellt, findest du in den jeweiligen Ordnern
 
 Die Backups befinden sich in gepackter Form als **\*.tar.gz** Datei in den jeweiligen Ordnern und können mit Programmen, wie WinRAR oder 7-Zip entpackt werden.
 
-## 🚩 "Transfer connection interrupted" Fehler Meldung
+## "Transfer connection interrupted" Fehler Meldung
 
 Sollte bei der Verbindung oder auch Übertragung die Fehlermeldung "Transfer connection interrupted: ECCONABORTED - Connection aborted" bestehen, so kann testweise der Übertragungsmodus von *Passive* auf *Active* umgestellt werden.
 In den folgenden Schritten wird gezeigt, wie das bei Filezilla in den Einstellungen umgestellt werden kann.
@@ -53,7 +53,7 @@ Bei "**FTP**" angekommen, wird der Standard Übertragungsmodus auf  "Passiv" ste
 
 Sobald auch dies getan ist, kann jetzt die FTP Verbindung erneut getestet werden.
 
-## ℹ Meldungen
+## Meldungen
 In der Sidebar im Unterpunkt *Meldungen* wird der Log wiedergegeben, welcher anzeigt, unter welchem Auslöser/Grund welche Aktion bei den Backups bei welchem Paket wann ausgeführt wurde.
 
 ![2022-04-08_04-43](https://user-images.githubusercontent.com/61953937/162357196-19f17823-db1f-438e-b236-f7a5690e9795.png)

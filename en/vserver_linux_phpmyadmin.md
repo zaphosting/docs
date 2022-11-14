@@ -7,7 +7,7 @@ sidebar_label: phpMyAdmin
 
 > ⚠️ A working MySQL/MariaDB and an Apache2 server is required!
 
-## 🔄 System Update
+## System Update
 
 First, you should check whether the server is up to date. To do this, the update command is executed: 
 
@@ -23,13 +23,13 @@ sudo apt upgrade -y
 
 The server is now up to date. 
 
-> ℹ️ If "sudo" is not found, this can be installed with the following command: 
+> ⚠️ If "sudo" is not found, this can be installed with the following command: 
 
 ```
 apt install sudo -y
 ```
 
-## 📥 Start the Installation of phpMyAdmin
+## Start the Installation of phpMyAdmin
 
 First, the installation directory is selected in which phpMyAdmin is to be installed. This is done with the following command: 
 
@@ -43,7 +43,7 @@ Then, the latest phpMyAdmin version is downloaded to the installation directory 
 wget https://www.phpmyadmin.net/downloads/phpMyAdmin-latest-all-languages.zip -O phpmyadmin.zip
 ```
 
-> ℹ️ If "wget" is not found, this can be installed with the following command: 
+> ⚠️ If "wget" is not found, this can be installed with the following command: 
 
 ```
 sudo apt install wget -y
@@ -55,7 +55,7 @@ As soon as the download is complete, the ZIP file can be extracted using the fol
 unzip phpmyadmin.zip
 ```
 
-> ℹ️ If "unzip" is not found, this can be installed with the following command: 
+> ⚠️ If "unzip" is not found, this can be installed with the following command: 
 
 ```
 sudo apt install unzip -y
@@ -73,7 +73,7 @@ After this is done, the original ZIP file can be removed and the necessary right
 rm phpmyadmin.zip; chmod -R 0755 phpmyadmin
 ```
 
-### 🔨 Creation of the Apache2 phpMyAdmin-Config 
+### ⚠️ Creation of the Apache2 phpMyAdmin-Config 
 
 The Apache2-phpMyAdmin-Config is created with the following command:
 
@@ -116,7 +116,7 @@ The Apache2 server must then be reloaded:
 systemctl reload apache2
 ```
 
-### 📁 Creating the required temporary directory for phpMyAdmin
+### Creating the required temporary directory for phpMyAdmin
 
 For phpMyAdmin to work properly, the following directory must be created:
 

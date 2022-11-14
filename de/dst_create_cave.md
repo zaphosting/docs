@@ -5,7 +5,7 @@ description: Informationen wie du für Don't Starve Together Höhlen auf Servern
 sidebar_label: Höhlen erstellen
 ---
 
-## 📋 Voraussetzungen für Höhlen
+## Voraussetzungen für Höhlen
 
 Um Höhlen bei Don't Starve Together nutzen zu können, werden zwei über uns bestellte Server benötigt.
 Der eine Server wäre der "Master" welcher für die Oberwelt genutzt wird und der zweite Server wäre der "Slave" welcher einzig und allein für die Höhlen genutzt wird.
@@ -13,11 +13,11 @@ Welchen Server du zum "Master" machst und welcher davon der "Slave" wird entsche
 
 Beide Configs sind im Interface unter "**Configs**" zu sehen und können dort bearbeitet werden.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/GPTxWpmfYY9CKbd/preview)
+![image](https://user-images.githubusercontent.com/26007280/189925993-137d1375-4461-41bf-a36c-3f62fd4c8cab.png)
 
 Bearbeitet wird in beiden .ini Dateien nur der "**[SHARD]**" Teil.
 
-## ⬆️ Master
+## Master
 
 Bei dem Master handelt es sich um den Oberwelt Server, bei diesem Server muss in den Configs der Server als Master gesetzt werden.
 
@@ -49,7 +49,7 @@ shard_name = Overworld
 cluster_key = deinclusterkey
 ```
 
-## ⬇️ Slave
+## Slave
 
 Bei dem Slave handelt es sich um den Höhlen Server, bei welchem die Daten vom Master in die Configs eingetragen werden müssen.
 

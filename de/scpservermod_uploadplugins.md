@@ -7,15 +7,15 @@ sidebar_label: Plugins installieren
 
 > Um Plugins auf deinem Server installieren zu können benötigst du **SCP: ServerMod**. Leider ist die Installation von Plugins bei der Vanilla Version von SCP nicht möglich. 
 
-## 📶 Verbinden via FTP
+## Verbinden via FTP
 Bevor Plugins installiert werden können, muss dein [FTP Zugang](gameserver_ftpaccess.md) eingerichtet werden.
 
 Nachdem dies erledigt ist, kannst du dich via FTP auf deinen Server verbinden und öffnest dort folgendes Verzeichnis.
 `/g#####/scp/sm_plugins`
 
-![](https://screensaver01.zap-hosting.com/index.php/s/7nXoR7FpLoYzbqP/preview)
+![image](https://user-images.githubusercontent.com/26007280/189887742-cffa89c2-22d1-4045-a957-b01018e0fb82.png)
 
-## ⬇️ Plugins Installieren
+## Plugins Installieren
 
 ### Plugins Finden
 
@@ -51,15 +51,15 @@ Um diese hinzufügen zu können musst du nun deine **config_gameplay.txt** bearb
 
 Diese findest du links im Menü deines Servers über den **Configs** Tab.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/Bj4MceqzXnnRRjE/preview)
+![image](https://user-images.githubusercontent.com/26007280/189887768-2fa73fc0-0619-4b49-bb39-3d052cc45d1e.png)
 
 Die **config_gameplay.txt** findest du im Anschluss dort:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/geJQaJXsb9sw5of/preview)
+![image](https://user-images.githubusercontent.com/26007280/189887799-af4f698d-2685-4f8a-a710-98c940604b35.png)
 
 > Die Konfiguration kannst du an beliebiger Stelle in dder Datei einfügen. Für eine bessere Übersicht fügen wir das ganze im Beispiel direkt unter '#Misc gameplay settings' in die **config.gameplay.txt** ein.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/6aiWkF8H6tTdpyx/preview)
+![image](https://user-images.githubusercontent.com/26007280/189887814-114eb6e2-06e7-4014-bb82-93ed23db16f3.png)
 
 > Beachte: Je nach Plugin wird sich die Konfiguration von der in diesem Beispiel verwendeten unterscheiden. Stelle sicher immer die Anleitung des jeweiligen Plugins zu lesen damit du die Konfiguration korrekt hinzufügen kannst.
 

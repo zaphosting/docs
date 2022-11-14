@@ -4,12 +4,12 @@ title: iLO
 sidebar_label: iLO
 ---
 
-## ❓ What is it and what can it do?
+## What is it and what can it do?
 On our Enterprise Dedicated Servers we use the management interface iLo, it allows unrestricted full manageability of your server.
 Its functionalities include server start/stop/reboot, management console via Java or HTML5, mounting of boot media (ISOs).
 You should modify the settings carefully, in case of wrong changes it can cause big problems.
 
-## ❓ How do I get into the iLO?
+## How do I get into the iLO?
 Open the server dashboard of your ZAP Dedicated Server with a browser of your choice. There you will already find the most important information about your iLO.
 To activate the iLO simply click on "Activate iLO".
 ![](https://screensaver01.zap-hosting.com/index.php/s/grj9PxttLKiZg6m/preview)
@@ -92,9 +92,9 @@ Shows you the average power consumption of your system, basically the higher the
 ### Network
 Shows you the network configuration of your iLO, please mention that this settings are not related to the network configurations of your server itself.
 
-> To setup your server or if the access via the network does not work. You always have the possibility to look directly at your server
+> ⚠️ To setup your server or if the access via the network does not work. You always have the possibility to look directly at your server
 
-## 💻 Remote Consoles (Display)
+## Remote Consoles (Display)
 The iLO offers you two different types of remote consoles by default:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/cozRqRt9KLTMCkd/preview)
@@ -137,7 +137,7 @@ Now the Java console opens.
 
 If your server has a graphical user interface (gui), you can use your mouse as usual, input from your keyboard will also be transferred.
 
-## 📌 Common Problems, Tips & Tricks
+## Common Problems, Tips & Tricks
 
 * The server stucks in POST (Power on Self Test) on does not boot anymore.
 Connect to a remote console and check where exactly your server stucks. Does it show errors there?

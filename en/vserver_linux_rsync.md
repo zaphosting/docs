@@ -12,10 +12,10 @@ They can be copied on the local system itself to another directory/drive or to a
 
 ## Copy data to another local directory or drive:
 
->Attention: The first run can take much longer than the following runs, depending on the amount of data. This is because the first time Rsync syncs all data, from the second time on only changed data will be synchronized. 
+> ⚠️ Attention: The first run can take much longer than the following runs, depending on the amount of data. This is because the first time Rsync syncs all data, from the second time on only changed data will be synchronized. 
 >So then a incremental backup is created.  
 
-## Step 1️⃣:
+## Step 1
 
 Rsync can be installed with the following command:
 
@@ -27,7 +27,7 @@ After it has been installed, it can be used directly.
 
 <!--DOCUSAURUS_CODE_TABS-->
 <!--Daily backup to a local directory/drive-->
-## Step 2️⃣
+## Step 2
 
 In this example, the Client folder under /home should be synchronized to the Backups folder under /home. 
 
@@ -61,7 +61,7 @@ rsync -arz --delete /home/Client /home/Backup
 <br>
 --delete= Deletes data that no longer exists in the source but still exists in the target
 
-## Step 3️⃣
+## Step 3
 
 So that the command does not always have to be d manually, it can simply be placed in a cronjob. 
 For example, a backup should be created daily at 3 am: 
@@ -85,7 +85,7 @@ The entered crontab then looks as follows:
 Every day at 3 a.m. the command is executed and a backup is created. 
 
 <!--Daily backup to a remote system-->
-## Step 2️⃣
+## Step 4
 
 In this example, the Client folder under /home should be synchronized to the Backups folder under on a remote system. The connection is to be made via SSH key, so that a backup can also be automated.  
 >Important: Rsync must also be installed on the remote server. 
@@ -144,7 +144,7 @@ RemoteHost(root@123.123.123.123:)= Login Name of the user on the RemoteHost and 
 <br>
 Target directory for the data on the RemoteHost(:/home/Backup/Home-Server1/)= :/<Path to target directory>
 
-## Step 3️⃣
+## Step 5
 
 So that the command does not always have to be executed manually, it can simply be placed in a cronjob. 
 For example, a backup should be created daily at 3 am: 

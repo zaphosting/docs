@@ -5,7 +5,7 @@ description: Informationen, wie du dich mit SFTP auf deinen Linux vServer von ZA
 sidebar_label: SFTP Verbindung
 ---
 
-## ❓ Wie verbinde ich mich via SFTP?
+## Wie verbinde ich mich via SFTP?
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/R5QRq5t8spGezE9/download/vps-sftp-3.gif)
 
@@ -25,4 +25,3 @@ Das anschließende Fenster muss noch bestätigt werden:
 Nun bist du via SFTP mit deinem Server verbunden: 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/xA44qPQB6zcFc75/preview)
-

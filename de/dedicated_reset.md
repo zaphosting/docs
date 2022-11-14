@@ -4,7 +4,7 @@ title: Server resetten
 sidebar_label: Server resetten
 ---
 
-## 📋 Vorbereitungen
+## Vorbereitungen
 
 Binde die folgende ISO in deinen Server ein und starte diesen neu:
 
@@ -12,7 +12,7 @@ Binde die folgende ISO in deinen Server ein und starte diesen neu:
 http://185.223.30.65/wipe.iso
 ```
 
-## 💻 Der Reset
+## Der Reset
 
 Verbinde dich mit einer Remote Console deiner Wahl auf deinen Dedicated Server.
 
@@ -26,5 +26,3 @@ Der Server startet automatisch den Reset Prozess
 
 Dein Server überschreibt nun einmalig alle vorhandenen Datenträger, somit sind keine Daten mehr vorhanden.
 Je nach Größe der SSD kann dieser Prozess circa 45 Minuten - 2 Stunden dauern.
-
-

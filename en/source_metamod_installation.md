@@ -5,13 +5,13 @@ description: Information how to install Source Mod and Meta Mod on your Source G
 sidebar_label: Installation
 ---
 
-## ❓ What is SM and MM anyway?
+## What is SM and MM anyway?
 
 Source- and Metamod are two Half Life 2 extensions, which make it possible to individualize a source engine game server (e.g. CS: S CS: GO, DoD: S, TF2, etc.) even more than usual. This includes, for example, the use of plugins and an extended administration of your server.
 
-## 🔧 SM / MM Installation
+## SM / MM Installation
 
-### ⏬ Download the files
+### Download the files
 
 First of all, the actual extensions are needed. It is important to always use the latest versions (**stable**) so that they are still fully functional or compatible. The latest versions can be downloaded from the following websites:
 
@@ -22,7 +22,7 @@ First of all, the actual extensions are needed. It is important to always use th
 
 > Source engine game servers in ZAP hosting usually run under a Linux operating system. Accordingly, the Linux version of the extensions is required.
 
-### 📦 Unzip the files
+### Unzip the files
 
 When downloading the two extensions, you first receive two packed files (sourcemod-XXX-gitXXXX-linux.tar / mmsource-XXX-gitXXX-linux.tar), which have to be unzipped before uploading. You can use either Winrar, 7zip or similar programs for this.
 
@@ -32,7 +32,7 @@ From the extracted files you get the folder addons and cfg:
 
 ![image](https://user-images.githubusercontent.com/13604413/159178797-76cc4be0-ff07-4a6a-a85a-d31ec71c76eb.png)
 
-### ⬆ Upload the files
+### Upload the files
 
 When the above steps are complete, the actual installation begins. For this we have to connect to the server via FTP so that we can upload the folder of the extensions.
 
@@ -51,7 +51,7 @@ The folder structure should then look like this:
 
 ![image](https://user-images.githubusercontent.com/13604413/159178810-43bff013-43ab-47ce-9806-38423cc91fb5.png)
 
-## ✅ Check your SM / MM installation
+## Check your SM / MM installation
 
 There are two ways to check whether the extensions have been installed correctly:
 

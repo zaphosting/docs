@@ -4,7 +4,7 @@ title: Commands
 sidebar_label: Commands
 ---
 
-## 📋 The Console
+## The Console
 To run commands on your server, you need to be an admin. If you dont know how to become an admin, please checkout our guide.
 All commands are required to be executed through the developers console. You can open it by pressing `F1`
 
@@ -12,7 +12,7 @@ The console looks like that:
 
 ![image](https://user-images.githubusercontent.com/13604413/159166040-1ddbb5ea-e072-4c91-87a3-f4e71051c9fb.png)
 
-## 🖥️ The Commands
+## The Commands
 The most important commands:
 
 | Befehl    | Beschreibung                                                 |

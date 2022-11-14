@@ -8,7 +8,7 @@ sidebar_label: Add Job-Garage Cars
 > **Important**: ESX must be installed
 
 
-## 📔 Preparations
+## Preparations
 
 First we have to make sure that "Force overwrite" is disabled.
 To do this, we go to the Resources tab.

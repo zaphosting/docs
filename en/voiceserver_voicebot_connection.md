@@ -6,7 +6,7 @@ sidebar_label: Voicebot Connection
 ---
 
 
-## 🎧 Connecting the bot to your TeamSpeak
+## Connecting the bot to your TeamSpeak
 
 To connect your voice bot to your TeamSpeak 3 server, you have to call it up in the control panel. Then, you will go to the **TeamSpeak Server** on the left as shown below:
 
@@ -19,7 +19,7 @@ The data can then be entered below, then just save and the voice bot connects to
 ![image](https://user-images.githubusercontent.com/13604413/159177226-fdf5fba8-7d75-4cbf-b6cb-c6119dd1e553.png)
 
 
-## 🎧 Connecting the bot to your Discord
+## Connecting the bot to your Discord
 
 To connect your voice bot to your Discord, you have to go to **TeamSpeak Server*, then under **TeamSpeak Server** you will have to select **Discord**.
 
@@ -28,7 +28,7 @@ To connect your voice bot to your Discord, you have to go to **TeamSpeak Server*
 The **Discord Bot Token** and **Discord Bot Client ID** must then be entered. Then, the voice bot connects to your Discord server.
 
 
-## 🎧 Getting your Discord Bot Token and Client ID
+## Getting your Discord Bot Token and Client ID
 
 Since your Discord server doesn't have a direct IP address or port, there are a few steps to prepare before you can use your bot on a Discord server.
 

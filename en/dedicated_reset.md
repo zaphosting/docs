@@ -4,7 +4,7 @@ title: Server reset
 sidebar_label: Server reset
 ---
 
-## 📋 Preparations
+## Preparations
 
 Attach this ISO-file into your dedicated server and reboot it:
 
@@ -12,7 +12,7 @@ Attach this ISO-file into your dedicated server and reboot it:
 http://185.223.30.65/wipe.iso
 ```
 
-## 💻 The reset
+## The reset
 
 Connect with a remote console of your like, to your dedicated server.
 

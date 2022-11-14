@@ -6,12 +6,12 @@ sidebar_label: FTP Server Installation
 ---
 
 
-## 🖥️ FTP Server with FileZilla Server under Windows
+## FTP Server with FileZilla Server under Windows
 
 With FileZilla Server you have free software available which enables you to install your own FTP server on a Windows server. The installation and setup is clear and uncomplicated, so the whole thing is also suitable for inexperienced users.
 
 
-## 💾 Download and Installation
+## Download and Installation
 
 First you download the latest version of **FileZilla Server** here: [FileZilla Server Download](https://filezilla-project.org/download.php?type=server).
 You then execute the downloaded file with a double click, which starts the installation process, which will show then show you the following window: 
@@ -29,7 +29,7 @@ Now the management interface of the FileZilla FTP server opens, you can leave th
 
 ![image](https://user-images.githubusercontent.com/13604413/159172976-a54bad3d-99f5-4c80-a93c-ea7d40a20a9f.png)
 
-## 👨 Create a User
+## Create a User
 
 In order to be able to connect to your server via FTP, a corresponding user must now be created.
 To do this, click on **Edit** in the menu and then on **Users**:
@@ -43,7 +43,7 @@ With a click on **Add** you can add new user there:
 
 In this example the user is called **Testbenutzer**. Of course you can choose your own name.
 
-### 🔒 Set Password and Permissions
+### Set Password and Permissions
 
 To set the password for the user, simply activate it by clicking on the **Password** field , and then enter the password for the user:
 
@@ -57,7 +57,7 @@ In this example, the user only has access to the **Documents**, directory , whic
 
 ![image](https://user-images.githubusercontent.com/13604413/159172998-9f900ab7-d16f-452e-a3c3-9c7ecaaaabb6.png)
 
-> ATTENTION! For security reasons, you should only ever give a user access to certain folders, for example to your game server.
+> ⚠️ ATTENTION! For security reasons, you should only ever give a user access to certain folders, for example to your game server.
 
 You can then give the user the necessary permissions to upload, download, delete, or even delete or delete files in the selected directory:
 
@@ -66,7 +66,7 @@ You can then give the user the necessary permissions to upload, download, delete
 You can then close the window by clicking **OK**.
 
 
-## 🔥 Exceptions in the Windows Firewall
+## Exceptions in the Windows Firewall
 
 To enable a connection to your FTP server, the use of the FTP server in the Windows firewall must now be enabled. To do this, open the firewall settings under **Control Panel\System and Security\Windows Defender Firewall** and click on **Allow an app or feature through Windows Defender Firewall**.
 In the following window you then select the application to be allowed:

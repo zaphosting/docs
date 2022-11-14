@@ -5,9 +5,9 @@ description: Informationen zu Problemlösungen, wenn der Windows vServer von ZAP
 sidebar_label: Kein Internet was nun?
 ---
 
-## 🖥 Kein Internet was nun?
+## Kein Internet was nun?
 
-![](https://screensaver01.zap-hosting.com/index.php/s/HqwTRTWqHT5LAas/download/NoInternet.gif)
+![image](https://user-images.githubusercontent.com/13604413/159165541-d23bfcaf-d745-4b98-96bb-5960a113723c.png)
 
 In der Regel steht dein Windows Server auf "Gestartet", sollte er über keine Internetverbindung verfügen.
 
@@ -15,16 +15,14 @@ In der Regel steht dein Windows Server auf "Gestartet", sollte er über keine In
 
 Sollte dein Server regulär Online sein, dennoch aber keine Verbindung haben, muss die Netzwerkkonfiguration über die VNC-Konsole geprüft werden.
 
-![image](https://user-images.githubusercontent.com/13604413/159165541-d23bfcaf-d745-4b98-96bb-5960a113723c.png)
 
-
-## 🖥 Anmelden über die VNC-Konsole
+## Anmelden über die VNC-Konsole
 
 Wir verbinden uns über die VNC-Konsole und melden uns auf dem Server an.
 
 ![image](https://user-images.githubusercontent.com/13604413/159165545-bb459a8b-f900-4d7c-95b6-c73b10d494ef.png)
 
-## 🖥 Wie stelle ich die Verbindung wieder her?
+## Wie stelle ich die Verbindung wieder her?
 
 Im Anschluss öffnen wir die Adaptereinstellungen. Dafür machen wir einen Rechtsklick auf die Internetverbindung.
 
@@ -46,12 +44,6 @@ Daraufhin prüfen wir, ob dort **unsere** IP aus dem ZAP Webinterface eingetrage
 
 ![image](https://user-images.githubusercontent.com/13604413/159165560-ca15c764-dc9e-460d-a5ac-2cd4eee8bf5f.png)
 
-> Gehe sicher das du **deine** Server IP unter "IP Addresse" Eingibst
-
-> Wichtig hierbei ist, dass die Subnetzmaske immer ein Typ C Netz ist und somit immer 255.255.255.0 lautet.
-
-> Das Standardgateway ist immer die Ip selber mit der 1 am Ende.
-
-> Als DNS-Server nimmt man in der Regel den Google DNS wie im obigen Screenshot.
+Gehe sicher das du **deine** Server IP unter "IP Addresse" eingibst. Wichtig hierbei ist, dass die Subnetzmaske immer ein Typ C Netz ist und somit immer 255.255.255.0 lautet. Das Standardgateway ist immer die Ip selber mit der 1 am Ende. Als DNS-Server nimmt man in der Regel den Google DNS wie im obigen Screenshot.
 
 Im Anschluss übernimmt man die Einstellungen und startet den Server ggf. neu.

@@ -5,7 +5,7 @@ description: Information under which conditions you can use the ZAP-Hosting logo
 sidebar_label: Use of logo and name
 ---
 
-## ℹ️ Introduction
+## Introduction
 
 In general, we support ideas and creative concepts based on ZAP-Hosting's brand assets (i.e. ZAP-Hosting's trademarks, logos, trade dress, websites, copyrighted designs, original content or other brand assets). However, we are obliged to protect our reputation and brand identity.
 
@@ -17,7 +17,7 @@ ZAP-Hosting reserves the right to revoke, modify or change any granted permissio
 
 <br>
 
-### ❓ Questions
+### Questions
 
 **I want to use a banner from the preset list in the web interface for my website. Is this allowed without permission?**
 
@@ -52,7 +52,7 @@ If you have any questions about this policy, please contact raz@zap-hosting.com.
 
 <br>
 
-## 📣 General guidelines for use
+## General guidelines for use
 
 **Permitted use:**
 
@@ -80,7 +80,7 @@ ZAP-Hosting's rights to ZAP-Hosting's trademarked graphics and logos may not be 
 
 <br>
 
-## 🤝 Logos
+## Logos
 
 In general, we do not allow the use of the ZAP hosting logos in marketing materials of third parties. This includes online and offline advertising material such as
 - customer and recommendation lists
@@ -96,7 +96,7 @@ We reserve the right to decide on an individual basis whether there has been any
 
 <br>
 
-## 🎥 commercials, TV programs, YouTube videos, movies or articles
+## Commercials, TV programs, YouTube videos, movies or articles
 If you would like to use our brand assets as part of an article, in a film or within a radio program, please contact us. We are open for such requests. Please include the following information with your request:
 - Description of the project/content 
 - Type of use of the ZAP-Hosting Brand Assets
@@ -106,7 +106,7 @@ In the case of unapproved published content of this kind, we reserve the right o
 
 <br>
 
-## 🔨 Legal Annex
+## Legal Annex
 
 ZAP-Hosting reserves the right to change the appearance of the ZAP-Hosting brand assets at any time and without prior notice. Any use of the ZAP-Hosting brand assets must be for the benefit of ZAP-Hosting. By using the Brand Assets as authorized by ZAP-Hosting, you acknowledge ZAP-Hosting's ownership of all Brand Assets and warrant that you will not take any action inconsistent with ZAP-Hosting's ownership. Strict adherence to these guidelines is required at all times, and any use of ZAP-Hosting's proprietary graphics and logos in violation of these guidelines automatically terminates any license and permission relating to your use of ZAP-Hosting's Brand Assets.
 

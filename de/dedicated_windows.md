@@ -3,7 +3,7 @@ id: dedicated_windows
 title: Windows installieren
 sidebar_label: Windows installieren
 ---
-> Die Anleitung basiert auf Windows Server 2019, bei anderen Versionen sind die Schritte aber nahezu identisch
+> ⚠️ Die Anleitung basiert auf Windows Server 2019, bei anderen Versionen sind die Schritte allerdings nahezu identisch.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/yEjQOrcEus0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -24,7 +24,7 @@ Mit "Jetzt installieren" das Setup starten.
 
 Windows verlangt nun die Eingabe eines Produkt-Keys, solltest du bereits einen haben, kannst du diesen dort eintragen.
 
-> Wir vertreiben keine Windows-Lizenzen, du musst also den Key selbst beschaffen
+> ⚠️ Wichtig: Wir vertreiben keine Windows-Lizenzen, du musst also den Key selbst beschaffen.
 
 Produkt-Keys können in zahlreichen Webshops erworben werden, stelle sicher das du den richtigen Key kaufst, da es bei Windows verschiedene Versionen gibt.
 Bei 2019 z.B. die normale Edition und die sogenannte Datacenter Edition.
@@ -66,7 +66,7 @@ Wenn du mit deiner Partitionierung zufrieden bist, wähle die korrekte aus auf w
 Das Windows-Setup erledigt nun alles weitere, dies kann einige Zeit in Anspruch nehmen.
 Ein weiteres Eingreifen ist vorerst nicht erforderlich.
 
-## 🔧 Konfiguration eines Windows Servers
+## Konfiguration eines Windows Servers
 
 Wenn das Setup abgeschlossen ist, fordert Windows uns dazu auf ein Passwort festzulegen.
 
@@ -115,4 +115,4 @@ Die Netzwerkkonfiguration wird direkt via DHCP auf deinem Server gespeichert, so
 
 ![image](https://user-images.githubusercontent.com/13604413/159173768-3dea37b5-fd8d-4e0d-89c7-e7101189d8c3.png)
 
-> Bei weiteren Fragen oder Problemen steht dir unser Support jederzeit gerne zur Verfügung!
+> ⚠️ Bei weiteren Fragen oder Problemen steht dir unser Support jederzeit gerne zur Verfügung!

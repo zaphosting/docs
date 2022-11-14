@@ -9,12 +9,12 @@ sidebar_label: IPv4 Adresse hinzufügen
 
 Sofern diese nicht bereits automatisch eingetragen wurde, kann diese manuell in die Netzwerkconfig eingetragen werden. 
 
-### Schrit 1️⃣
+### Schritt 1
 Die Netzwerkconfig wird mit einem Editor geöffnet, z.b mit "nano". 
 ```
 sudo nano /etc/network/interfaces
 ```
-> ⚠️Achtung die Config muss mit root Rechten bearbeitet werden.
+> ⚠️ Achtung: Die Config muss mit root Rechten bearbeitet werden.
 
 In der Config ist bereits ein Eintrag vorhanden der z.b so aussehen könnte:
 ```
@@ -29,7 +29,7 @@ iface eth0 inet static
 ```
 Dort wird das Interface "eth0" angegeben sowie die IPv4, ihre Netzmaske und Gateway. 
 
-### Schrit 2️⃣
+### Schritt 2
 
 Um eine weitete IPv4 hinzuzufügen, muss ein weiteres Interface eingetragen werden, z.b "eth1".
 Die zusätzliche IPv4 lautet z.b 124.124.124.55.
@@ -69,7 +69,7 @@ iface eth1 inet static
 ```
 Die Confing muss dann gespeichert werden, bei "nano" z.b mit **STRG+X, y dann Enter**
 
-### Schrit 3️⃣
+### Schritt 3
 
 Das Netzwerkmodul muss nun neugestartet werden, damit die die neue IPv4 Adresse aktiv wird, dies geschieht mit folgendem Befehl:
 ```

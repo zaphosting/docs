@@ -5,7 +5,7 @@ description: Information on how to perform a network analysis with MTR/WinMTR to
 sidebar_label: Network analysis MTR/WinMTR
 ---
 
-## ❓ What is MTR/WinMTR?
+## What is MTR/WinMTR?
 
 WinMTR is a network diagnostics program that combines the features of ping and traceroute. The program was developed by Matt Kimball based on the well-known MTR program for Linux. It offers the possibility to get detailed information about possible network problems. The program also allows to track the time between sending a signal and receiving the corresponding response packet. In the following screenshot the outgoing route to ZAP-Hosting.com is shown as an example:
 
@@ -19,17 +19,17 @@ All nodes are listed, which are used to reach the destination. In case of possib
 
 
 
-## ❓ When should the test be performed?
+## When should the test be performed?
 
 The network diagnostic test should be performed when the problem actively occurs. The person who is affected by the problem should perform the test. In order to be able to analyze the network problems as well as possible, an evaluation of the outgoing and ingoing route should be made. Depending on the operating system either WinMTR (Windows) or MTR (Linux) is used. 
 
 
 
-## 🔧 Configuration of MTR / WinMTR
+## Configuration of MTR / WinMTR
 
 
 
-### 💻 Windows
+### Windows
 
 WinMTR for Windows can be downloaded from the [ZAP-Hosting](https://zap-hosting.com/winmtr.zip) page. Once installed, the program must be started and the host name or IP address of the affected case needs to be filled in:
 
@@ -39,7 +39,7 @@ WinMTR for Windows can be downloaded from the [ZAP-Hosting](https://zap-hosting.
 
 
 
-### 🐧 Linux
+### Linux
 
 MTR on Linux requires an SSH connection to the server. If you don't know exactly how to do this, you can have a look at the following instructions: [Initial access (SSH)](https://docs.zap-hosting.com/docs/en/vserver_linux_ssh/)
 
@@ -61,7 +61,7 @@ The evaluation can then be started with the command **mtr IP address**. By press
 
 
 
-## ❓ Analyzing the evaluation
+## Analyzing the evaluation
 
 The program provides several kinds of information. You have to check this information carefully in order to identify the problem correctly.
 

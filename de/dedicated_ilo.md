@@ -4,12 +4,12 @@ title: iLO
 sidebar_label: iLO
 ---
 
-## ❓ Was ist das und was kann es?
+## Was ist das und was kann es?
 Auf unseren Enterprise Dedicated Servern wird die Verwaltungsoberfläche iLO eingesetzt, sie ermöglicht eine uneingeschränkte volle Verwaltbarkeit deines Servers.
 Zu ihren Funktionsumfängen zählen z.B. Server Start/Stop/Reboot, Management-Consolen über Java oder HTML5 und das einbinden von Bootmedien (ISOs).
 Du solltest mit einer grundsätzlichen Vorsicht dort Einstellungen verändern, bei falschen Änderungen könnte dies Probleme hervorrufen.
 
-## ❓ Wie komme ich in die iLO?
+## Wie komme ich in die iLO?
 Öffne mit einem Browser deiner Wahl das Server Dashboard deines ZAP Dedicated Servers. Dort findest du bereits die wichtigsten Informationen zu deiner iLO.
 Um die iLO zu aktivieren klicke ganz einfach auf "iLO aktivieren"
 ![](https://screensaver01.zap-hosting.com/index.php/s/qYPEPiwCKKrzLDL/preview)
@@ -94,9 +94,9 @@ Zeigt dir den durchschnittlichen Stromverbrauch deines Systems an, grundsätzlic
 ### Network
 Zeigt dir die Netzwerkkonfiguration deiner iLO, bitte beachte das diese Einstellungen **nichts** mit der IP deines Servers zu tun haben.
 
-## 💻 Remote Consoles (Bildschirm)
+## Remote Consoles (Bildschirm)
 
-> Um deinen Server einzurichten oder falls der Zugriff über das Netzwerk nicht funktioniert. Hast du jederzeit die Möglichkeit direkt auf deinen Server zu schauen als würdest du einen Bildschirm anschließen.
+> ⚠️ Um deinen Server einzurichten oder falls der Zugriff über das Netzwerk nicht funktioniert. Hast du jederzeit die Möglichkeit direkt auf deinen Server zu schauen als würdest du einen Bildschirm anschließen.
 
 Die iLO bietet dir standardmäßig zwei verschiedene Arten einer Remote Console:
 
@@ -140,7 +140,7 @@ Es öffnet sich nun die Java-Console.
 
 Sofern dein Server über eine grafische Oberfläche verfügt, kannst du deinen Mauszeiger ganz normal verwenden, Eingaben deiner Tastatur werden ebenfalls übertragen.
 
-## 📌 Häufige Probleme, Tipps & Tricks
+## Häufige Probleme, Tipps & Tricks
 
 * Der Server hängt im POST (Power on Self Test) und bootet nicht mehr.
 Verbinde dich mittels einer Remote Console und prüfe wo genau dein Server hängt. Zeigt er dort Fehler?
@@ -158,4 +158,4 @@ Bei der eingesetzten Enterprise Hardware ist eine lange Bootzeit völlig normal,
 Stelle sicher das die iLO in deinem Server Dashboard aktiviert ist, aus Sicherheitsgründen schaltet sich die Verwaltungsoberfläche nach einiger Zeit automatisiert ab.
 Du kannst selbstverständlich auch die iLO nochmals deaktivieren und wieder aktivieren. (Warte mindestens 5 Minuten nach dem aktivieren)
 
-> Bei weiteren Fragen und Problemen steht dir unser Support jederzeit gerne mit Rat & Tat zur Verfügung!
+> ⚠️ Bei weiteren Fragen und Problemen steht dir unser Support jederzeit gerne mit Rat & Tat zur Verfügung!

@@ -5,17 +5,17 @@ description: Information on how to create and use caves on servers for Don't Sta
 sidebar_label: Create Caves
 ---
 
-## 📋 Requirements for Caves
+## Requirements for Caves
 
 In order to use caves at Don't Starve Together, two servers ordered through us are required. One server would be the "master" which is used for the upper world and the second server would be the "slave" which is used solely for the caves. Which server you make the "master" and which one becomes the "slave" is decided by the configurations of the server.ini and cluster.ini.
 
 Both configs can be seen in the interface under "**Configs**" and can be edited there.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/x872MGFpMLbTBj2/preview)
+![image](https://user-images.githubusercontent.com/26007280/189930223-83128fc2-0a12-4ef4-8ace-ee38cc5f011c.png)
 
 Only the "**[SHARD]**" part is edited in both .ini files 
 
-## ⬆️ Master
+## Master
 
 The master is the Upperworld server, this server must be set as the master in the configs.
 
@@ -46,7 +46,7 @@ shard_name = Overworld
 cluster_key = deinclusterkey
 ```
 
-## ⬇️ Slave
+## Slave
 
 The slave is the cave server, where the data from the master must be entered in the configs.
 

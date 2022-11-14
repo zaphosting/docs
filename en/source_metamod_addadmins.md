@@ -5,13 +5,13 @@ description: Information on how to become an admin on your Source gameserver fro
 sidebar_label: Become an admin
 ---
 
-## 🔐 Become an admin
+## Become an admin
 
 To be able to register as admin, the installation of Source- / Metamod is essential.
 
 Furthermore you need the Steam ID of your Steam Account. There are several ways to get this. Either you use an external website that offers such a service or you use the game console.
 
-### 🔢 SteamID via website
+### SteamID via website
 
 First of all, the profile must be called up in Steam and then right-click anywhere in the profile. There you can copy the Steam URL of the profile.
 
@@ -31,7 +31,7 @@ Afterwards you will receive the Steam ID in addition to the general account info
 steamID32: STEAM_0:1:XXXXXX
 ```
 
-### ⬛ SteamID via game console
+### SteamID via game console
 
 Start the game and connect to your server. By opening the game console and using the 'status' command there you will get the following output:
 
@@ -50,7 +50,7 @@ players : 1 humans, 0 bots (16/0 max) (not hibernating)
 #end
 ```
 
-### 📔 Config
+### Config
 
 Next, connect to the server again via FTP and call the admins.cfg config file. This can be found in the following directory: addons/sourcemod/configs
 
@@ -92,7 +92,7 @@ The **player name** must **not** match the name of the Steam Account. It is only
 
 Depending on which rights are to be assigned, the respective flags can be written one after the other. For example, if you only want to give the rights to kick, you would assign the flags 'b' and 'c'. But if you want to give full access, then only the flag `z` is sufficient.
 
-### 📄 Using the Admin Menu 
+### Using the Admin Menu 
 
 With the command 'admin' in the chat or 'sm_admin' in the console the menu can be called.
 

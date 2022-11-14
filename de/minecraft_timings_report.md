@@ -9,14 +9,14 @@ Hier gelangst du zu unseren Minecraft Servern: [Minecraft Server mieten](https:/
 
 ## Erklärung
 
-### ❓ Was ist ein Timings-Report?
+### Was ist ein Timings-Report?
 
 Ein Timings-Report ähnelt dem Task-Manager von deinem PC sehr und ermöglicht es gerade bei Laggs das Problem zu finden.
 Durch einen Timings-Report werden alle Prozesse auf dem Server aufgezeichnet und dann visuell dargestellt.
 
 ## Einen Timings-Report erstellen
 
-## 📈 Timings-Report erstellen
+## Timings-Report erstellen
 
 Je nach Server-Software wird der Timings-Report anderes erstellt. Grundlegend muss man bis auf Ausnahme von **Paper Spigot** (sofern die Einstellungen nicht geändert wurden) die Aufnahme zuerst mit folgendem Befehl starten:
 
@@ -24,7 +24,7 @@ Je nach Server-Software wird der Timings-Report anderes erstellt. Grundlegend mu
 
 Während der Aufnahme sollte der Server möglichst normale bespielt werden, sodass auch die jeweiligen Probleme aufgezeichnet und im Anschluss genauer analysiert werden können. Die Aufnahme sollte **min. 10 Minuten** dauern, nach Möglichkeit auch länger.
 
-## 🔍 Timings-Report exportieren
+## Timings-Report exportieren
 
 Damit der Timings-Report nun wirklich erstellt und exportiert wird, muss der folgende Befehl verwendet werden:
 
@@ -48,7 +48,7 @@ Um möglichste genaue Werte zu erhalten, welche sich auf ein mögliches Problem 
 
 ![](https://i.imgur.com/k3pHKOi.gif)
 
-### 🧐 Server-Werte untersuchen
+### Server-Werte untersuchen
 
 Es gibt insgesamt 3 Spalten, wobei wie unten auf dem Screenshot zu sehen Box 1 darstellt, wie viel % eines Ticks (wobei 20 Ticks einer Sekunden entspricht) der Hauptprozess in Anspruch nimmt. Unter anderem kann hier auch eingesehen werden, wie oft dieser Prozess insgesamt ausgeführt wurde während der Aufnahme.
 
@@ -85,7 +85,7 @@ Hierbei kommt hinzu, dass der Server die Chunks erstellen und laden muss, was eb
 
 Alle weiteren Untersuchungen können ebenfalls so vorgenommen werden, da es bei jedem anderen Prozess ebenfalls genau die gleichen Schritte sind. Solltest du dennoch Hilfe bei der Auswertung benötigen, so stehen wir dir im Support jederzeit zur Verfügung!
 
-### ✔️ Plugins prüfen
+### Plugins prüfen
 
 Teilweise stammen Probleme auch von Plugins, um überhaupt feststellen zu können, dass möglicherweise ein Plugin schuld ist, kann man installierte Plugins temporär vom Server einmal entfernen und sich dann nochmal ein Bild der Lage machen.
 

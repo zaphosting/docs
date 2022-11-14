@@ -14,7 +14,7 @@ Dieser Profiler ist in FiveM integriert und kann bei jedem Server benutzt werden
 ## Nutzung
 
 
-### 🔑 RCon
+### RCon
 
 Zuerst sollte man sich über [Icecon](https://github.com/icedream/icecon/releases) an den Server anmelden, das Passwort dazu kann in den Einstellungen des Servers gefunden werden:
 
@@ -41,7 +41,7 @@ profiler view
 Diese URL können wir nun in Chrome oder Firefox öffnen.
 
 
-### ❓ Probleme Identifizieren
+### Probleme Identifizieren
 
 Nun sind wir im Profiler und können die Performanceinfos sehen, das sieht am Anfang komplizierter aus, als es ist.
 

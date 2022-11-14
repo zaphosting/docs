@@ -4,19 +4,16 @@ title: Ubuntu installieren
 sidebar_label: Ubuntu installieren
 ---
 
-> In diesem Beispiel wird die Installation von Ubuntu 21.04 durchgeführt
 
-> Das laden der ISO-Datei kann einige Zeit in Anspruch nehmen!
 
-## 📋 Vorbereitungen
-Wähle in deinem ZAP-Interface die gewünschte ISO von Ubuntu aus und lasse den Server mit der ISO booten, bis dieser im Setup ist.
+## Vorbereitungen
+Wähle in deinem ZAP-Interface die gewünschte ISO von Ubuntu aus und lasse den Server mit der ISO booten, bis dieser im Setup ist. Die Navigation im Setup Prozess erfolgt mit TAB, Leertaste und Enter.
 
-> Die Navigation im Setup Prozess erfolgt mit TAB, Leertaste und Enter.
 > TAB = Zwischen Menüpunkten wechseln, Leertaste = markieren, Enter = Bestätigen
 
 ***
 
-## 💻 Installation des Systems
+## Installation des Systems
 Wenn die ISO erfolgreich geladen wurde, ist der Server erfolgreich im Setup.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/yrHMNzstM23XZH6/preview)
@@ -101,7 +98,7 @@ Bitte entferne nun die ISO-Datei in deiner iLO, damit dein Server bei einem Neus
 
 wähle "Reboot now" und bestätige das du die ISO-Datei entfernt hast.
 
-## 🔑 Passwortänderung des Root-Nutzers
+## Passwortänderung des Root-Nutzers
 Das Passwort des Root-Nutzers kann einfach geändert werden.
 
 Trage in der Console `sudo su -` ein und gib dein vorhin gesetztes Passwort ein, danach `sudo passwd root` um das Passwort zu ändern.

@@ -56,7 +56,7 @@ Trage dafür den Befehlsname der Map einfach in das Feld **Karte / Map** ein und
 
 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/LsGT3Q47qr5m7Js/preview)
+![image](https://user-images.githubusercontent.com/26007280/189939084-5cd5cc89-05d3-4bc9-9b9b-0887fdaaf068.png)
 
 
 
@@ -872,6 +872,4 @@ OverridePlayerLevelEngramPoints=50
 Die Anzahl der Befehlszeilen hängt generell von der vorher definierten Levelgrenze ab. 
 
 
-
-
-
+> Ark ist ein schnelllebiges Spiel und bringt daher auch in regelmäßigen Abständen viele Änderungen mit sich. Das betrifft ebenfalls die Konfiguration eines Servers. Wir empfehlen daher einen Blick in die offizielle Dokumentation für weitere und ausführlichere Informationen zu werfen: https://ark.fandom.com/wiki/Server_configuration
