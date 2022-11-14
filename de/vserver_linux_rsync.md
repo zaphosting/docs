@@ -12,10 +12,10 @@ Sie können auf dem lokalen System selber z.b in ein anderes Verzeichnis/Laufwer
 
 ## Kopieren von Daten in ein anderes lokales Verzeichnis oder Laufwerk:
 
->Achtung: Der erste Durchgang kann je nach Datenmenge deutlich länger dauern als weitere. Dies liegt daran das Rsync beim ersten mal alle Daten syncronsiert, ab dem zweiten Mal werden nur noch veränderte Daten syncronsiert. 
+> ⚠️ Achtung: Der erste Durchgang kann je nach Datenmenge deutlich länger dauern als weitere. Dies liegt daran das Rsync beim ersten mal alle Daten syncronsiert, ab dem zweiten Mal werden nur noch veränderte Daten syncronsiert. 
 >Es wird also dann ein inkrementelles Backup erstellt. 
 
-## Schritt 1️⃣:
+## Schritt 1
 
 Rsync kann mit folgendem Befehl installiert werden: 
 
@@ -27,7 +27,7 @@ Nachdem es installiert wurde, kann es direkt genutzt werden.
 
 <!--DOCUSAURUS_CODE_TABS-->
 <!--Tägliches Backup in ein lokales Verzeichnis/Laufwerk-->
-## Schritt 2️⃣
+## Schritt 2
 
 In diesem Beispiel soll der Ordner "Client" unter /home in den Ordner "Backups" unter /home syncronsiert werden. 
 
@@ -61,7 +61,7 @@ rsync -arz --delete /home/Client /home/Backup
 <br>
 --delete= Löscht Daten die in der Quelle nicht mehr vorhanden sind aber im Ziel noch bestehen
 
-## Schritt 3️⃣
+## Schritt 3
 
 Damit der Befehl nicht immer manuell ausgeführt werden muss, kann dieser einfach in ein Cronjob gesetzt werden. 
 Es soll z.b täglich um 3 Uhr Morgens ein Backup erstellt werden: 
@@ -85,11 +85,11 @@ Der eingetragene Crontab sieht dann wie folgt aus:
 Jeden Tag um 3 Uhr morgens wird der Befehl ausgeführt und es wird ein Backup erstellt. 
 
 <!--Tägliches Backup auf ein Remote System-->
-## Schritt 2️⃣
+## Schritt 4
 
 In diesem Beispiel soll der Ordner "Client" unter /home in den Ordner "Backups" unter auf einem Remote System syncronsiert werden. Die Verbindung soll via SSH Key erfolgen, damit eine Sicherung ebenfalls automatisiert erfolgen kann.  
 
->Wichtig: Auf dem Remote Server muss ebenfalls Rsync installiert sein. 
+> ⚠️ Wichtig: Auf dem Remote Server muss ebenfalls Rsync installiert sein. 
 >```
 >apt install rsync
 >````
@@ -138,7 +138,7 @@ RemoteHost(root@123.123.123.123:)= Login Name des Benutzers auf dem RemoteHost s
 <br>
 Ziel Verzeichnis für die Daten auf dem RemoteHost(:/home/Backup/Home-Server1/)= :/<Pfad-zum-Ziel-Verzeichnis>
 
-## Schritt 3️⃣
+## Schritt 5
 
 Damit der Befehl nicht immer manuell ausgeführt werden muss, kann dieser einfach in ein Cronjob gesetzt werden. 
 Es soll z.b täglich um 3 Uhr Morgens ein Backup erstellt werden: 
