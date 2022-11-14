@@ -7,7 +7,7 @@ sidebar_label: Install Plugins
 
 > To install plugins onto your server, you require SCP: ServerMod. Sadly it will not work on main vanilla version of the game. 
 
-## 📶 Connect to FTP
+## Connect to FTP
 
 Before plugins can be installed, the [FTP access](gameserver_ftpaccess.md) must be set up.
 
@@ -16,7 +16,7 @@ After this has been setup, you can connect and open the following server folder.
 
 ![image](https://user-images.githubusercontent.com/26007280/189887882-337f89e3-15bf-47dd-978d-f71e83647901.png)
 
-## ⬇️ Installing Plugins
+## Installing Plugins
 
 ### Finding Plugins
 
