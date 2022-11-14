@@ -5,7 +5,7 @@ description: Informationen, wie du Zwei Faktor Authentifizierung für deinen Lin
 sidebar_label: Zwei Faktor Authentifizierung
 ---
 
-## 💾 Google Authenticator Installieren
+## Google Authenticator Installieren
 
 Als erstes musst du den Google Authenticator auf deinem Linux vServer/Rootserver installieren.
 Kopiere dir dafür einfach diese Zeile:
@@ -18,7 +18,7 @@ Danach wirst du aufgefordert werden "Y" einzugeben um das Packet zu installieren
 
 ![](https://user-images.githubusercontent.com/61839701/166183702-67a07bf3-e199-4f20-a166-9fed0f297d1c.pn)
 
-## ⌨ Google Authenticator Ausführen
+## Google Authenticator Ausführen
 
 Führe nun den Google Authenticator aus, indem du `google-authenticator` eingibst.
 
@@ -54,7 +54,7 @@ Aus Sicherheitsgründen empfehlen wir bei allen 4 Fragen "Y" einzugeben und dann
 
 ![](https://user-images.githubusercontent.com/61839701/166183833-fdb07942-51c2-446e-b87b-e0e0d839e6d4.png)
 
-## 💽 Google Authenticator Konfigurieren
+## Google Authenticator Konfigurieren
 
 Nun müssen wir noch anpassen das der Google Authenticator auch genutzt wird.
 
@@ -98,7 +98,7 @@ Der letzte Schritt ist nun an das Ende der Datei runterzuscrollen und `auth requ
 
 Speichere danach die Datei mit `CTRL + X` dann `Y` und letzlich `Enter`
 
-## 💻 Einloggen mit 2FA
+## Einloggen mit 2FA
 
 Jetzt ist die Zeit gekommen sich das erste mal mit 2FA einzuloggen.
 
