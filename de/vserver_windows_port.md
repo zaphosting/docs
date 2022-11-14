@@ -5,7 +5,7 @@ description: Informationen, wie du Ports bei deinem Windows vServer von ZAP-Host
 sidebar_label: Port freigeben
 ---
 
-## 📝 Die Firewall
+## Die Firewall
 
 Eine Firewall kontrolliert den ein- und ausgehenden Verkehr zwischen Server und Internet.
 Geöffnete Ports können ein Sicherheitsrisiko darstellen, aufgrund dessen wird nicht automatisch jeder Port geöffnet.
@@ -21,10 +21,10 @@ Diese kann nach einem Klick auf das Windows Logo gesucht werden
 
 <!--DOCUSAURUS_CODE_TABS-->
 
-<!--💾 Programme in der Windows-Firewall freigeben-->
+<!-- Programme in der Windows-Firewall freigeben-->
 
 
-## 💾 Programme in der Windows-Firewall freigeben
+## Programme in der Windows-Firewall freigeben
 
 Die freigabe für die "**Ausgehende Regel**" funktioniert auf gleichem Wege wie für die "**Eingehende Regel**", wir zeigen in diesem Beispiel daher nur die Freigabe eines Programms für die "**Eingehende Regel**".
 
@@ -52,16 +52,16 @@ In dem "**Profil**" kann nun gewählt werden, ob diese Regel nur für bestimmte 
 
 Bei "**Name**" muss nur noch ein Name für diese neue "**Regel**" eingetragen werden, dieser ist frei wählbar.
 
-> Hierbei sollte ein Name gewählt werden der noch ungenutzt und eindeutig ist, damit dieser unter "**Eingehende Regel**" bzw. "**Ausgehende Regel**" wiedergefunden werden kann.
+> ⚠️ Hierbei sollte ein Name gewählt werden der noch ungenutzt und eindeutig ist, damit dieser unter "**Eingehende Regel**" bzw. "**Ausgehende Regel**" wiedergefunden werden kann.
 
 ![](https://user-images.githubusercontent.com/61839701/166196419-6d443e71-18ff-4e46-9bda-4f32db3c9fd8.png)
 
 Sobald mit dem Button "**Fertig stellen**" bestätigt, wird die Regel aktiviert und der Port ist freigegeben.
 
-<!--🔓 Port in der Windows-Firewall freigeben-->
+<!-- Port in der Windows-Firewall freigeben-->
 
 
-## 🔓 Port in der Windows-Firewall freigeben
+## Port in der Windows-Firewall freigeben
 
 
 Bei der eingehenden Regel werden die Ports für Anwendungen freigegeben welche von außen versuchen mit dem Server zu kommunizieren.
@@ -95,7 +95,7 @@ Dies wird erneut mit dem "**Weiter >**" bestätigt.
 
 Bei "**Name**" muss nur noch ein Name für diese neue "**Regel**" eingetragen werden, dieser ist frei wählbar.
 
-> Hierbei sollte ein Name gewählt werden der noch ungenutzt und eindeutig ist, damit dieser unter "**Eingehende Regel**" bzw. "**Ausgehende Regel**" wiedergefunden werden kann.
+> ⚠️ Hierbei sollte ein Name gewählt werden der noch ungenutzt und eindeutig ist, damit dieser unter "**Eingehende Regel**" bzw. "**Ausgehende Regel**" wiedergefunden werden kann.
 
 ![](https://user-images.githubusercontent.com/61839701/166196602-7cd1ce91-a826-4737-b74e-d062489b7630.png)
 
