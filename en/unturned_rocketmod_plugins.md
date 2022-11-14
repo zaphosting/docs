@@ -7,7 +7,7 @@ sidebar_label: Install Plugins
 
 ## Install plugins on an Unturned Rocket Mod Server
 
-### Step 1️⃣
+### Step 1
 First, a connection to the server via [FTP](gameserver_ftpaccess.md) must be established.
 
 As soon as the FTP connection is established, the "Plugins" directory must be opened. 
@@ -19,7 +19,7 @@ It should also be empty by default:
 
 ![image](https://user-images.githubusercontent.com/26007280/189902971-7c5c6ec2-1567-4732-9eed-6bb41342559e.png)
 
-### Step 2️⃣
+### Step 2
 
 Now a plugin can be uploaded. 
 Plugins for the Rocketmod can be found for example on Github: https://github.com/RocketModPlugins
@@ -38,7 +38,7 @@ Now the desired plugin is available on the server:
 
 ![image](https://user-images.githubusercontent.com/26007280/189903108-3fde66e1-54a4-419a-8a77-6d557fb35c3a.png)
 
-### Step 3️⃣
+### Step 3
 
 The game server can now be started in the web interface: 
 
