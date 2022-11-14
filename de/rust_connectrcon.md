@@ -5,7 +5,7 @@ description: Informationen, wie du dich via RCON mit deinem Rust-Server von ZAP-
 sidebar_label: Verbindung via RCON
 ---
 
-## ❓ Was ist RCON?
+## Was ist RCON?
 
 Bei RCON handelt es sich um ein Protokoll mit welchem Befehle auf einem Server ausgeführt werden können ohne dass ein direkter Zugriff auf die Serverkonsole erforderlich ist.
 
@@ -29,7 +29,7 @@ Als Beispiel und als Empfehlung nutzen wir [RustAdmin](https://www.rustadmin.com
 Diest kannst du direkt über die Website von **RustAdmin** installieren.
 ![image](https://user-images.githubusercontent.com/26007280/189935195-073a0878-1aa1-437a-8761-d1434d069469.png)
 
-## 🖥️ Verbinden via RCON
+## Verbinden via RCON
 
 Nachdem du WebAdmin geöffnet hast klickst du auf **Server** und im Anschluss auf **Connect**.
 
