@@ -1,5 +1,5 @@
 ---
-id: stormworks_becomeadmin
+id: stormworks-becomeadmin
 title: Stormworks Admin werden - Gameserver von ZAP-Hosting
 description: Anleitung, wie du dich zum Admin für Stormworks Gameserver machst - ZAP-Hosting.com Dokumentationen 
 sidebar_label: Admin werden
@@ -23,8 +23,8 @@ Wenn du weitere Admins hinzufügen möchtest, trage sie untereinander ein:
 
 ![image](https://user-images.githubusercontent.com/61953937/196053706-8771a909-c21a-4bc6-9ef9-a1b544592f0b.png)
 
-Nachdem du die Admins eingetragen hast, kannst du die Config auf dem "Speichern" Button speichern:
+Nachdem du die Admins eingetragen hast, kannst du die Config mit dem "Speichern" Button speichern:
 
 ![image](https://user-images.githubusercontent.com/61953937/196053744-54e76888-4be1-4302-9ed2-e54c7354bacc.png)
 
-Starte nun deinen Server neu und alle eingetragenen Steam64IDs haben Admin Rechte. 
+Starte nun deinen Server neu, damit alle eingetragenen Steam64IDs ihre Admin Berechtigungen erhalten. 
