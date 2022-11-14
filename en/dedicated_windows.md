@@ -4,11 +4,11 @@ title: Windows Installation
 sidebar_label: Windows Installation
 ---
 
-> This guide is based on Windows Server 2019, the steps are pretty similar to the other windows server versions
+> ⚠️ This guide is based on Windows Server 2019, the steps are pretty similar to the other windows server versions.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/yEjQOrcEus0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## 💻 Installation of Windows Server
+## Installation of Windows Server
 To install a Windows Server its required to have a iso file of your decision, you could choose in our webinterface the desired version of windows.
 Alternatively, you could choose a own iso file, a detailed guide for that you could find in the "dedicated servers" category here in the docs.
 
@@ -25,7 +25,7 @@ Press "Install now" to start the setup process.
 
 Windows requires now a product key, if you have one then enter it.
 
-> We're not selling Windows-Licenses, its required to buy a key by your own.
+> ⚠️ Important: We're not selling Windows-Licenses, its required to buy a key by your own.
 
 You can buy Windows-Keys in several websops, verify to buy the matching key, since there are different windows versions.
 In Windows Server 2019 there are as example two editions, the normal one and datacenter edition. 
@@ -64,7 +64,7 @@ If you're happy with your partitions, please choose the partition on which windo
 The Windows-Setup does now everything by itself, this can take several minutes.
 There is nothing else to do, until the setup is finished.
 
-## 🔧 Configuration of Windows Server
+## Configuration of Windows Server
 
 When your setup process was successfully, windows forces you to define a password.
 
@@ -114,4 +114,4 @@ The network configuration was automatically applied by dhcp so there is no need 
 
 ![image](https://user-images.githubusercontent.com/13604413/159173768-3dea37b5-fd8d-4e0d-89c7-e7101189d8c3.png)
 
-> If you have further questions or issues, our support will help you out!
+> ⚠️ If you have further questions or issues, our support will help you out!
