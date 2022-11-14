@@ -5,7 +5,7 @@ description: Information on how to set up email addresses for your webspace from
 sidebar_label: Sending Emails
 ---
 
-## 📧 Create Email
+## Create Email
 
 In the Plesk Dashboard press the "**Mail**" button. 
 
@@ -26,7 +26,7 @@ As soon as all the desired entries have been entered, click "**OK**" to confirm 
 
 ![image](https://user-images.githubusercontent.com/13604413/159176540-00691706-f866-4930-bf42-beddd4c96fef.png)
 
-## ⚡ Set Up Thunderbird
+## Set Up Thunderbird
 
 After Thunderbird has been downloaded and installed, select "**Local Folders**".
 There you can now see the "**View Settings for this account**" which you use to manage the accounts. The new e-mail is now added above this.
@@ -54,14 +54,14 @@ There you now enter the recipient, the subject, and the text.
 
 ![image](https://user-images.githubusercontent.com/13604413/159176575-0fbf1122-57b0-4c93-8364-083f36b44fd1.png)
 
-### ⚠️ Certificate is missing
+### Certificate is missing
 
 If no certificate has yet been created on the web space for the mail, you will not be able to avoid the following error message.
 There you can initially "**Confirm Security Exception**", until a valid SSL certificate has been created on the web space.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/3GLdResJW7KMYPj/preview)
 
-## 📘 Set up Outlook
+## Set up Outlook
 
 Ater Outlook has been downloaded and installed, select "**File**".
 
@@ -84,4 +84,3 @@ As soon as the "**New E-mail**" function is selected.
 There you now enter the recipient as well as the subject and text.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/2Fi2BW7E2xajftF/preview)
-
