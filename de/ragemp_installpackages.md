@@ -5,18 +5,18 @@ description: Informationen, wie du Pakete auf deinen RageMP-Server von ZAP-Hosti
 sidebar_label: Pakete Installieren
 ---
 
-## 🔑 Mit FTP verbinden
+## Mit FTP verbinden
 
 Bevor Pakete installiert werden können, muss der [FTP-Zugang](gameserver_ftpaccess.md) eingerichtet werden:
 
 ![image](https://user-images.githubusercontent.com/13604413/159178012-0172691b-d49f-49d6-ab34-cc01eadbacf5.png)
 
-## 📦 RageMP Pakete
+## RageMP Pakete
 
 Bei RageMP Paketen handelt es sich um Erweiterungen oder auch Modifikationen. 
 RageMP unterscheidet hierbei zwischen "**Client**" und "**Server**" Paketen
 
-### 🚶‍♂️ Client Pakete
+### Client Pakete
 
 Clientseitige Pakete werden genutzt um beispielsweise das Userinterface im Spiel oder auch andere visuelle Effekte zu editieren.
 Die Clientseitigen Pakete werden in den "**client_packages**" Ordner hochgeladen
@@ -37,7 +37,7 @@ Dort wird für jedes Script die Zeile ***require(./gamemode/DEINSCRIPTNAME.js);*
 
 ![image](https://user-images.githubusercontent.com/13604413/159178015-9106b7ea-41c4-4876-868c-dbca30410d62.png)
 
-### 🖥️ Server Pakete
+### Server Pakete
 
 Serverseitige Pakete werden genutzt um grundlegende Einstellungen vom Server zu editieren.
 Beispielsweise: Spawn, Spieler, Autos, Marker
