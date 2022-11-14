@@ -4,7 +4,7 @@ title: Debian installieren
 sidebar_label: Debian installieren
 ---
 
-## 📋 Vorbereitungen
+## Vorbereitungen
 Wähle in deinem ZAP-Interface die gewünschte ISO von Debian aus und lasse den Server mit der ISO booten, bis dieser im Setup ist. Die Navigation im Setup Prozess erfolgt mit TAB, Leertaste und Enter.
 
 > TAB = Zwischen Menüpunkten wechseln, Leertaste = markieren, Enter = Bestätigen
