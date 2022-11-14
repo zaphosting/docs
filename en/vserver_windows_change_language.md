@@ -5,10 +5,10 @@ description: Information on how to change the language of your Windows VPS from 
 sidebar_label: Add/change language
 ---
 
-> ℹ️ By default we provide Windows in German and English, you can identify that on the (DE) and (EN) tags
+> ⚠️ By default we provide Windows in German and English, you can identify that on the (DE) and (EN) tags
 ***
 
-## 📖 Preparation
+## Preparation
 
 Connect through Remotedesktop on your Windows Server and open the settings.
 
@@ -22,7 +22,7 @@ Press on "Add a language"
 
 Search for the language of your like and be sure that its a display language.
 
-## 🖥️ Installation
+## Installation
 
 ![image](https://user-images.githubusercontent.com/13604413/159173312-f53f9fe0-dec9-493f-8046-f2f05b96955c.png)
 
