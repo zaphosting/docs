@@ -5,7 +5,7 @@ description: Information on how to add new roles to your SCP server from ZAP-Hos
 sidebar_label: Add new roles 
 ---
 
-## 📃 View the Config
+## View the Config
 New roles are entered in the "config_remoteadmin.txt" file.
 You can find this config file by clicking on "Configs" in the interface of your server.
 
@@ -13,7 +13,7 @@ You can find this config file by clicking on "Configs" in the interface of your 
 
 Here you can then then search for the above Config and then click on the "eye" to the right to open it.
 
-## 🕴️ Copy existing roles
+## Copy existing roles
 If you have the Config open, you can search for these entries in it:
 
 ![image](https://user-images.githubusercontent.com/13604413/159182751-0185aab8-bd2e-4927-b3dd-ea47692f1d67.png)
@@ -25,7 +25,7 @@ In our example, we copied the role "Moderator" and inserted it below:
 
 ![image](https://user-images.githubusercontent.com/13604413/159182791-570da30e-7155-4550-b9c6-acf1b21311ab.png)
 
-## ✏️ Add own role
+## Add own role
 We can now edit the just inserted block from the already existing role and enter our own desired values there.
 In our example we used the name "ZAP":
 
@@ -39,7 +39,7 @@ This also goes only slightly further down in the identical Config.
 We therefore enter our role under the "moderator" role.
 > ATTENTION: Please note the spaces before and after the "-"!
 
-## 🔒 Permissions
+## Permissions
 At the very bottom of the "config_remoteadmin.txt" config file we can adjust the permissions for the respective roles.
 So if we want to assign a permission to our role, we can enter the name of the role in the brackets.
 Like it is shown in this example:
