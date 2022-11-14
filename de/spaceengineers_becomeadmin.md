@@ -5,11 +5,11 @@ description: Informationen, wie du dich um Admin auf deinem Space Engineers-Serv
 sidebar_label: Admin werden
 ---
 
-## 🔐 Admin werden
+## Admin werden
 
 Um den eigenen Spielserver gut Ingame verwalten zu können ist es wichtig den Admin Rang zu haben.
 
-### 🔢 SteamID64 via Webseite
+### SteamID64 via Webseite
 
 Zunächst einmal muss in Steam das Profil aufgerufen und dort dann an einer beliebigen Stelle Rechtsklick klicken werden.
 Dort kann man dann die Steam URL des Profils kopieren.
@@ -24,7 +24,7 @@ Sobald das erledigt ist, kann man dann die URL auf folgenden Webseiten engeben:
 
 ![image](https://user-images.githubusercontent.com/26007280/189890562-60f73099-0d50-47f0-a38a-800ad3b3778a.png)
 
-### 📄 SteamID in die Config eintragen
+### SteamID in die Config eintragen
 
 Als nächstes rufst du dein Interface un den Server auf. 
 Dort gehst du dann auf den Reiter **Configs**
