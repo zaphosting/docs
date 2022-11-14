@@ -5,31 +5,27 @@ description: Informationen, wie du eine Netzwerkanalyse mit MTR/WinMTR durchfüh
 sidebar_label: Netzwerkanalyse MTR/WinMTR
 ---
 
-## ❓ Was ist MTR/WinMTR?
+## Was ist MTR/WinMTR?
 
 WinMTR ist ein Netzwerk-Diagnose-Programm, welches die Funktion von Ping und Traceroute vereint. Entwickelt wurde das Programm von Matt Kimball auf der Grundlage des bekannten MTR-Programm für Linux. Es bietet die Möglichkeit detaillierte Informationen über mögliche Netzwerkprobleme zu erhalten. Außerdem misst das Programm die Zeitspanne zwischen dem Aussenden eines Signals und dem Empfangen des entsprechenden Antwortpaketes. In dem folgenden Screenshot wird die Hinroute zu ZAP-Hosting.com als Beispiel gezeigt:
 
-
-
 ![image](https://user-images.githubusercontent.com/13604413/159171609-82df7202-a2a2-4d8a-8e16-168f5b90366f.png)
-
-
 
 Hierbei werden alles Nodes aufgelistet, welche benutzt werden, um ans Ziel zu kommen. Bei möglichen Problemen kann man so erkennen, ob es Probleme seitens des Servers oder diese bereits bei einem selbst auftreten. Der Startpunkt fängt mit dem ersten Eintrag an und das Ende (ZAP - 104.xx.xx) als letzter Eintrag.
 
 
 
-## ❓ Wann sollte die Diagnose durchgeführt werden?
+## Wann sollte die Diagnose durchgeführt werden?
 
 Der Netzwerk-Diagnose Test sollte durchgeführt werden, wenn die Problematik gerade aktiv besteht. Dabei ist es wichtig, dass die Person die davon betroffen ist den Test durchführt. Um die Netzwerk-Diagnose so gut wie möglich analysieren zu können sollte eine Auswertung von der Hinroute und Rückroute gemacht werden, falls möglich. Je nach Betriebssystem wird entweder WinMTR (Windows) oder MTR (Linux) benutzt. 
 
 
 
-## 🔧 Einrichtung von MTR / WinMTR
+## Einrichtung von MTR / WinMTR
 
 
 
-### 💻 Windows
+### Windows
 
 Die Windows Version für WinMTR kann über die [ZAP-Hosting](https://zap-hosting.com/winmtr.zip) Seite heruntergeladen werden. Nach der Installation muss das Programm gestartet werden und der Hostname oder die IP-Adresse des betroffenen Falls eingetragen werden:
 
@@ -39,7 +35,7 @@ Die Windows Version für WinMTR kann über die [ZAP-Hosting](https://zap-hosting
 
 
 
-### 🐧 Linux
+### Linux
 
 Um MTR auf Linux zu Installieren muss eine Verbindung per SSH zum Server aufgebaut werden. Falls du nicht genau weißt wie das funktioniert, dann kannst du dir dazu folgende Anleitung anschauen: [Erstzugriff (SSH)](https://docs.zap-hosting.com/docs/de/vserver_linux_ssh/)
 
@@ -61,7 +57,7 @@ Im Anschluss lässt sich die Auswertung mit dem Befehl **mtr IP-Adresse** starte
 
 
 
-## ❓ Auswertung auslesen
+## Auswertung auslesen
 
 Das Programm liefert mehrere Informationen. Diese muss man genau überprüfen um das Problem auch richtig zuordnen zu können.
 
