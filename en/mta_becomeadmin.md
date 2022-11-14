@@ -7,13 +7,13 @@ sidebar_label: Become Admin
 ---
 
 
-## 🔐 Become werden
+## Become werden
 
 Administrator rights allow you to make changes directly in the game on your server without having to change it in the Config. 
 
 
 
-### 📋 Preparation
+### Preparation
 
 First of all a user account has to be created which will later be given the admin rights. To do this you have to execute the following command in the Live Console:
 
