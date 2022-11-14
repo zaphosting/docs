@@ -5,12 +5,12 @@ description: Informationen, wie du die Locales-Dateien deines FiveM-Server von Z
 sidebar_label: Localesfiles bearbeiten
 ---
 
-## 📔 Übersicht
+## Übersicht
 
 Zu allererst müssen wir uns auf den Server verbinden.
 Hier geht es zur [Anleitung](gameserver_ftpaccess.md)
 
-## 📑 Locales Files finden
+## Locales Files finden
 Haben wir das gemacht suchen wir nach dem Script wo wir die Localfiles verändern wollen.
 
 Dort suchen wir dann nach dem Ordnder **locales**
@@ -23,7 +23,7 @@ Dort suchen wir uns dann unseren localesfile. In unserem Fall ist das de.lua
 
 Diesen öffnen wir dann.
 
-## 📖 Locales File bearbeiten
+## Locales File bearbeiten
 
 Jetzt können wir die Locales ändern.
 **Wichtig** Immer in den ' schreiben.
@@ -32,7 +32,7 @@ Jetzt können wir die Locales ändern.
 
 Haben wir alles geändert was wir ändern wollten speichern wir die Datei ab und laden sie hoch.
 
-## 🔐 Config einstellen
+## Config einstellen
 
 Nachdem das alles erledigt ist müssen wir noch sichergehen dass in der Config die richtige Locales Datei angegeben ist.
 
