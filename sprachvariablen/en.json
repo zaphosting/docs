@@ -441,6 +441,10 @@
         "title": "FiveM VRP Server: Remove Speedometer",
         "sidebar_label": "Remove Speedometer"
       },
+      "fivem-steam-web-api-key": {
+        "title": "FiveM: Steam Web API Key setup",
+        "sidebar_label": "Steam Web API Key"
+      },
       "gameserver_backups": {
         "title": "Gameserver: Creating, downloading and importing backups at ZAP-Hosting",
         "sidebar_label": "Backups"
