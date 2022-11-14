@@ -7,7 +7,7 @@ sidebar_label: phpMyAdmin
 
 > ⚠️Es wird ein funktionierender MySQL/MariaDB sowie ein Apache2 Server inkl. PHP vorausgesetzt!
 
-## 🔄 System aktualisieren
+## System aktualisieren
 
 Zuerst sollte geprüft werden ob der Server auf dem neusten Stand ist. 
 Dazu wird der Update Befehl ausgeführt: 
@@ -21,12 +21,12 @@ sudo apt upgrade -y
 Nun befindet sich der Server auf dem neusten Stand. 
 
 
-> ℹ️Sollte "sudo" nicht gefunden werden, so kann dies mit folgendem Befehl nachinstalliert werden: 
+> ⚠️Sollte "sudo" nicht gefunden werden, so kann dies mit folgendem Befehl nachinstalliert werden: 
 ```
 apt install sudo -y
 ```
 
-## 📥 Start der Installation von phpMyAdmin
+## Start der Installation von phpMyAdmin
 
 Zuerst wird das Installationsverzeichnis aufgerufen in dem phpMyAdmin installiert werden soll. 
 Das geschieht mit folgendem Befehl: 
@@ -37,7 +37,7 @@ Anschließend wird mit Hilfe von wget die letzte phpMyAdmin Version in das Insta
 ```
 wget https://www.phpmyadmin.net/downloads/phpMyAdmin-latest-all-languages.zip -O phpmyadmin.zip
 ```
-> ℹ️Sollte "wget" nicht gefunden werden, so kann dies mit folgendem Befehl nachinstalliert werden: 
+> ⚠️ Sollte "wget" nicht gefunden werden, so kann dies mit folgendem Befehl nachinstalliert werden: 
 ```
 sudo apt install wget -y
 ```
@@ -45,7 +45,7 @@ Sobald der Download abgeschlossen ist, kann die ZIP-Datei mit folgendem Befehl e
 ```
 unzip phpmyadmin.zip
 ```
-> ℹ️Sollte "unzip" nicht gefunden werden, so kann dies mit folgendem Befehl nachinstalliert werden: 
+> ⚠️ Sollte "unzip" nicht gefunden werden, so kann dies mit folgendem Befehl nachinstalliert werden: 
 ```
 sudo apt install unzip -y
 ```
@@ -58,7 +58,7 @@ Nachdem dies erledigt ist, kann die ursprüngliche ZIP-Datei entfernt werden sow
 rm phpmyadmin.zip; chmod -R 0755 phpmyadmin
 ```
 
-### 🔨 Erstellung der Apache2 phpMyAdmin-Config 
+### Erstellung der Apache2 phpMyAdmin-Config 
 
 Die Apache2-phpMyAdmin-Config wird mit folgendem Befehl erstellt:
 
@@ -99,7 +99,7 @@ Anschließend muss der Apache2 Server neu geladen werden:
 systemctl reload apache2
 ```
 
-### 📁 Benötigtes temporäres Verzeichnis für phpMyAdmin anlegen
+### Benötigtes temporäres Verzeichnis für phpMyAdmin anlegen
 
 Damit phpMyAdmin auch ordnungsgemäß funktioniert muss folgendes Verzeichnis angelegt werden:
 ```
