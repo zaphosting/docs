@@ -5,7 +5,7 @@ description: Information on how to install mods on your Space Engineers server f
 sidebar_label: Install Mods
 ---
 
-### 📋 Prepartion
+### Prepartion
 
 In order to be able to add mods on a server, a config file must be edited. So that there are no problems applying the changes, please make sure that your server is stopped beforehand!
 
@@ -21,7 +21,7 @@ The name of the savegame can be viewed or adapted in the first field on this pag
 
 The installation of **Notepad++** is also a prerequisite for this manual so that the steps can be carried out exactly the same way!
 
-## 🆕 Pick Out Mods
+## Pick Out Mods
 
 A lot of mods can be found in the Space Engineers workshop. The workshop can be found [here](https://steamcommunity.com/workshop/about/?appid=244850).
 
@@ -29,7 +29,7 @@ After an interesting mod has been found, we click on it once to see all further 
 
 ![image](https://user-images.githubusercontent.com/26007280/189898817-181c3f21-671c-4cc4-adf8-60d30f6ba7c5.png)
 
-## 🛠️ Open Config Files
+## Open Config Files
 
 There are two ways to edit a server's files. On the one hand, this would be possible via [FTP](https://zap-hosting.com/guides/docs/en/gameserver_ftpaccess/) and once through the Config Editor in the web interface itself.
 
@@ -47,7 +47,7 @@ The sandbox file must now be edited in this folder. Exactly this config has to b
 
 ![image](https://user-images.githubusercontent.com/26007280/189900173-79a90811-c37e-4d8f-9a0f-6c93f323ddef.png)
 
-## ➕ Add Mods
+## Add Mods
 
 There is already a mod area in the config, which is at the end of the config. We mark this part with the mouse and then remove it. Then we add the following content:
 
