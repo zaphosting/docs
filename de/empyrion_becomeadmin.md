@@ -5,7 +5,7 @@ description: Informationen, wie du Admin auf deinem Empyrion-Server bei ZAP-Host
 sidebar_label: Admin werden
 ---
 
-## 🗝️ Steam64ID lokalisieren
+## Steam64ID lokalisieren
 
 Zuerst müsste die Steam64ID lokalisiert werden.
 Dafür kann diese Seite genutzt werden: [SteamID-Lookup](https://steamid.io/lookup).
@@ -15,7 +15,7 @@ Hier ist ein Beispiel zu sehen, wie die Steam64ID lokalisiert wird.
 
 ![image](https://user-images.githubusercontent.com/13604413/159184139-e07456a3-965e-4e66-9aed-11a3a1cc9f76.png)
 
-## 📃 Admin Konfig konfigurieren
+## Admin Konfig konfigurieren
 
 Die "**adminconfig.yaml**" welche bearbeitet werden muss befindet sich in dem "**Saves**" Verzeichnis.
 Um dieses Verzeichnis zu öffnen, muss die Anleitung für die [FTP-Verbindung](https://zap-hosting.com/guides/docs/de/gameserver_ftpaccess) befolgt werden.
