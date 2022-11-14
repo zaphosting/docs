@@ -5,7 +5,7 @@ description: Information on how to connect via SFTP to your Linux VPS from ZAP-H
 sidebar_label: SFTP Connection
 ---
 
-## ❓ How do I connect via SFTP?
+## How do I connect via SFTP?
 
 To connect via SFTP, you have to switch to SFTP in Winscp: 
 
