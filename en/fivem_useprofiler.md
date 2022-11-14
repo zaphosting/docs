@@ -14,7 +14,7 @@ This profiler is integrated in FiveM and can be used with any server.
 ## Usage
 
 
-### 🔑 RCon
+### RCon
 
 First you should log on to the server via [Icecon](https://github.com/icedream/icecon/releases), the password can be found in the server settings
 
@@ -39,7 +39,7 @@ profiler view
 We can now open this URL in Chrome or Firefox.
 
 
-### ❓ Identifying Problems
+### Identifying Problems
 
 
 Now we are in the Profiler and can see the performance information, it looks more complicated at the beginning than it is.
@@ -53,4 +53,3 @@ Now we can see which resources are consuming a lot of time.
 
 
 > Resources that consume more than 6 ms in total can cause problems.
-

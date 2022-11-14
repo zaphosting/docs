@@ -5,12 +5,12 @@ description: Information on how to add additional IPs to your Windows VPS from Z
 sidebar_label: Add additional IPs
 ---
 
-## 🆕 Determine the new extra IPs
+## Determine the new extra IPs
 First you have to find out what your extra IP is. To do this, you can click on the "IP addresses" tab in the interface of your server. All the IPs that are available to your server are displayed here. You can also directly see which IP has already been entered and which is not yet working.
 
 ![image](https://user-images.githubusercontent.com/13604413/159172829-7297f0a3-4678-4690-a303-0a17dda275e6.png)
 
-## 🖥 Connect to the server
+## Connect to the server
 To add the extra IPs to your server, you first need to connect to them. How this is done is explained in detail in our separate instructions: https://docs.zap-hosting.com/docs/en/vserver_windows_userdp/#-remotedesktopverbindung
 
 ##  Open network adapter
@@ -60,9 +60,7 @@ In the next window, click on "Ok" for the changes to take effect:
 ![image](https://user-images.githubusercontent.com/13604413/159172866-0afd8b75-a90a-49bf-92f4-4447dbcdb697.png)
 
 
-### ✅ Check your own IP
+### Check your own IP
 The IP has now been added correctly to your server. You can now go to the "IP addresses" tab in the interface of your server and look for the status of the IP address. If everything was done correctly, the IP is now displayed as "IP reachable". With the IP you can now also connect to your server via RDP, for example:
 
 ![image](https://user-images.githubusercontent.com/13604413/159172869-04429e1f-96c5-4e68-9add-0c08e22ad714.png)
-
-

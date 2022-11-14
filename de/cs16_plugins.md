@@ -12,18 +12,20 @@ sidebar_label: Plugins installieren
 
 Um Plugins auf einem Counter-Strike 1.6 Server zu installieren wird **AMXmodX** und **Metamod** benötigt. Dies sind zwei Half Life Erweiterungen, welche es ermöglichen den Server noch mehr als üblich zu individualisieren. Dazu gehört zum Beispiel die Nutzung von Plugins und eine erweitere Administration deines Servers.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/XAR9zipC99DXCZf/preview)
+![image](https://user-images.githubusercontent.com/26007280/189676187-c08cf45f-578d-4cbe-ba76-8d59792ea5c3.png)
 
 
 ### Vorbereitung
 
 Zunächst einmal werden die eigentlichen Erweiterungen benötigt. Die Erweiterungen können auf [amxmodx.org](https://www.amxmodx.org/downloads.php heruntergeladen werden. Hierbei ist es wichtig immer die neusten Versionen (**stable**) zu benutzen, damit diese auch noch voll funktionsfähig bzw. kompatibel sind.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/mWrA5sCB54mqA3E/preview)
+![image](https://user-images.githubusercontent.com/26007280/189676150-be03a51b-65d2-4de5-9670-c9b0b9fc5f31.png)
 
 Es werden die Linux Pakete **AMX Mod X Base, Counter-Strike Addon und Metamod** benötigt. Diese laden wir dort herunter. Im Anschluss solltest du drei gepackte Dateien heruntergeladen haben. Diese entpackst du auf deinem Computer. Dadurch solltest du einen Addons Ordner erhalten, indem sich ein **amxmodx** und **metamod** Ordner befindet: 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/NsHdyWk3Ebtggj3/preview)
+
+![image](https://user-images.githubusercontent.com/26007280/189676092-8c9e94c0-dccf-469d-b58b-c67681cb4828.png)
+
 
 
 
@@ -35,7 +37,7 @@ Wenn die oben genannten Schritte abgeschlossen sind, dann geht es an die eigentl
 
 Dort angelangt. wird nun der **addons** Ordner in das Hauptverzeichnis des Servers hochgeladen. Die Dateistruktur des Ordners sollte im Anschluss dann wie folgt aussehen:
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/mDjKmoo6XzFNnqj/preview)
+![image](https://user-images.githubusercontent.com/26007280/189676236-81210c54-5319-4c72-b350-d41f3c40b95c.png)
 
 
 
@@ -65,7 +67,7 @@ Nachdem die Einrichtung von **AMXmodX** und **Metamod** abgeschlossen ist und di
 
 Nun wenn die gewünschten Plugins heruntergeladen wurden, dann kann mit der eigentlichen Installation der Plugins begonnen werden. Die Einrichtung der Plugins erfolgt ebenfalls per FTP. Die Plugin-Dateien werde nun in das Plugins Verzeichnis unter ``../addons/amx`` hochgeladen. 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/52SeJoXr9Nyjq9o/preview)
+![image](https://user-images.githubusercontent.com/26007280/189676311-9a9ccc7b-6694-417f-80cb-3ca7b0bb49e4.png)
 
 
 Beim nächsten Serverstart sollten die hochgeladenen Plugins dann automatisch geladen werden. 

@@ -6,7 +6,7 @@ sidebar_label: FreeBSD installieren
 
 > In diesem Beispiel wird die Installation von FreeBSD 13.0 durchgeführt
 
-## 📋 Vorbereitungen
+## Vorbereitungen
 Wähle in deinem ZAP-Interface die gewünschte ISO von FreeBSD aus und lasse den Server mit der ISO booten, bis dieser im Setup ist.
 
 > Die Navigation im Setup Prozess erfolgt mit TAB, Leertaste und Enter.
@@ -14,7 +14,7 @@ Wähle in deinem ZAP-Interface die gewünschte ISO von FreeBSD aus und lasse den
 
 ***
 
-## ⌚ Das Setup
+## Das Setup
 Wenn die ISO erfolgreich geladen wurde, ist der Server erfolgreich im Setup.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/wSa8eGnrtJDLHB5/preview)
@@ -72,7 +72,7 @@ Wir bestätigen das alle Daten überschrieben werden dürfen
 
 > Dein Server führt nun das Setup aus, dies kann einige Zeit in Anspruch nehmen
 
-### 🔧 Konfiguration
+### Konfiguration
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/NmR5PcTPe3Kdc4i/preview)
 
@@ -110,7 +110,7 @@ Das Setup ist beendet. Wir wählen "Exit" und bestätigen mit Enter.
 
 > Entferne nun die ISO-Datei aus deiner iLO und wähle Reboot
 
-### 💻 Netzwerk
+### Netzwerk
 
 Um den Netzwerk-Adapter zu aktivieren, logge dich mit dem Passwort in dein System ein
 

@@ -4,7 +4,7 @@ title: FiveM Server: Empty Cache
 description: Information on how to clear the cache of your FiveM Server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Delete Cache
 ---
-## 📔 Overview
+## Overview
 
 First of all we need our data for the FTP server.
 We find this under the tab **Tools**.
@@ -13,7 +13,7 @@ We find this under the tab **Tools**.
 
 Here we have now our data which we only have to enter into Filezilla.
 
-## 🔐 FTP connection
+## FTP connection
 
 Now we can connect to our server using FTP.
 
@@ -21,7 +21,7 @@ Now we can connect to our server using FTP.
 
 Just enter here the data we have just searched for.
 
-## 📑 Locate Cache
+## Locate Cache
 
 Now you have to find the folder and delete it.
 To do this we proceed as follows:
@@ -31,7 +31,7 @@ Once there, we also find the *Cache* folder.
 
 ![image](https://user-images.githubusercontent.com/13604413/159137776-328b84d3-992b-47ef-b8d8-c1abb0beae45.png)
 
-## 📖 Clear Cache
+## Clear Cache
 
 Now we just have to clear/empty the cache
 

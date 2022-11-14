@@ -402,7 +402,7 @@
         "sidebar_label": "Become admin"
       },
       "fivem_rcon": {
-        "title": "FiveM Server: Using Rcon",
+        "title": "FiveM Server: Use Rcon",
         "sidebar_label": "Use Rcon"
       },
       "fivem_servername_color": {
@@ -735,6 +735,10 @@
       "voiceserver_voicebot_connection": {
         "title": "Teamspeak: Connecting a voicebot to your Teamspeak server",
         "sidebar_label": "Voicebot Connection"
+      },
+      "vrising-becomeadmin": {
+        "title": "V Rising: Become admin",
+        "sidebar_label": "Become admin"
       },
       "vserver_linux_add_ip": {
         "title": "vServer: Add IPv4 address to server",

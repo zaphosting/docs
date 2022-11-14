@@ -860,5 +860,4 @@ OverridePlayerLevelEngramPoints=50
 
 The number of command lines depends generally on the previously defined level limit. 
 
-
-
+> Ark is a fast-moving game and therefore also includes many changes at regular intervals. This also affects the server configuration. We therefore recommend to have a look at the official documentation for further and more detailed information: https://ark.fandom.com/wiki/Server_configuration

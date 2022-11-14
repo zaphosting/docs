@@ -12,7 +12,7 @@ Conan Exiles Server können umfangreich konfiguriert werden. Die Konfiguration d
 
 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/7oFPykjGFr7pWAC/preview)
+![image](https://user-images.githubusercontent.com/26007280/189717766-857109c7-0eb9-4c85-9ef0-49ee392e716f.png)
 
 
 
@@ -229,26 +229,3 @@ In den Haustiere und Hunger-Einstellungen findest du alle relevanten Befehle zum
 | Animal Pen Crafting Time Multiplier          | Vervielfacht die Geschwindigkeit des Craftings in Tierställen | AnimalPenCraftingTimeMultiplier= |
 | Lebensmittel Container Bereich Multiplikator | Erhöht die Entfernung, über die Nahrungsmittelbehälter Ihre Gefährten füttern können | FeedBoxRangeMultiplier=          |
 | Exklusive Diät                               | Legt fest, ob Begleitpersonen ausschließlich Elemente essen, die auf ihrer Diät aufgeführt sind. Deaktiviert bedeutet, dass sie zusätzlich zu ihrer Diät jedes beliebige Nahrungsmittel fressen werden | ExclusiveDiet=                   |
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

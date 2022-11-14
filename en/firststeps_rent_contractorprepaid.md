@@ -6,7 +6,7 @@ sidebar_label: Contract or Prepaid
 ---
 Learn more about the differences between contracts and prepaids
 
-## 📘 Billing type "Prepaid"
+## Billing type "Prepaid"
 All server products where you select "**Prepaid**" as "**Billing type**" will automatically expire after the paid time. You then have 14 days to reactivate your locked server. If you do not do this, it will be irrevocably deleted.
 
 ![image](https://user-images.githubusercontent.com/61953937/159139489-5ad1bcbc-8d28-4c1a-b955-5ab37b589992.png)
@@ -16,7 +16,7 @@ In contrast to contract servers, prepaid servers can also be booked for a **shor
 You can order a prepaid server **anonymously**. We do not ask you for personal data.
 Prepaid servers are **10% more expensive** than contract servers.
 
-## 📙 Billing type "Contract"
+## Billing type "Contract"
 
 All server products for which you selected "**Contract**" as "**Billing type**" during the order process will be automatically renewed unless you cancel them.
 

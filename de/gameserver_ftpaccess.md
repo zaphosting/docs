@@ -33,7 +33,7 @@ Dateien können per "**Drag and Drop**" von der linken Seite (dem Computer), in 
 
 > Wenn man über mehrere Server verfügt, muss vorher die ID des Servers ermittelt werden, damit man die Daten in den richtigen Ordner verschiebt.
 
-### 🚩 "Transfer connection interrupted" Fehler Meldung
+### "Transfer connection interrupted" Fehler Meldung
 
 Sollte bei der Verbindung oder auch Übertragung die Fehlermeldung "Transfer connection interrupted: ECCONABORTED - Connection aborted" bestehen, so kann testweise der Übertragungsmodus von *Passive* auf *Active* umgestellt werden.
 In den folgenden Schritten wird gezeigt, wie das bei Filezilla in den Einstellungen umgestellt werden kann.

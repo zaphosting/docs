@@ -15,7 +15,7 @@ This feature can be found in the interface of the game server.
 
 ![image](https://user-images.githubusercontent.com/13604413/159171151-58a2ede5-609b-4d9d-b1fd-2e1640050b19.png)
 
-## ✍️ Create new entries
+## Create new entries
 
 > ***Note:*** Changes made to the restart planner are only applied once the server has been restarted.
 
@@ -31,7 +31,7 @@ This procedure is now repeated for each desired automatic restart. If "**24:00**
 
 If this option is enabled, then a stopped server will be started automatically at this point of time. If this option remains disabled, then the game server will only be restarted by our system if it was "**Online**" before.
 
-## ⏲️ Command option
+## Command option
 
 The command option among the specified automatic restarts is intended to be used to execute commands automatically just before the restart occurs.The amount of available commands which can be used depends on the game. Not all games offer an option for this.
 

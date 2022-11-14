@@ -11,14 +11,14 @@ sidebar_label: Garry's Mod TTT Configuration
 
 The Basic-Configuration can be done easily in our Webinterface, as example Servername, Rcon- and Serverpassword.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/BQnfooF5RyYGKos/preview)
+![image](https://user-images.githubusercontent.com/26007280/189975998-d6cc350c-13a1-4ed4-b237-c5289e04a4db.png)
 
 When you have configured the server as desired, we can proceed with configuring the specific settings of the TTT-Gamemode. You can use for that our Webinterface, or change the file by ftp.
 
 You can find the Configuration Editor in our Webinterface in the tab "Configs" open there the server.cfg file.
 In unserem Webinterface findest du diese Funktion unter "Configs" dort öffnest du die server.cfg
 
-![](https://screensaver01.zap-hosting.com/index.php/s/w3CK97iz95cC42x/preview)
+![image](https://user-images.githubusercontent.com/26007280/189976031-646a71bc-bfb1-4b67-af1e-f6616be77aa7.png)
 
 You'll find there the values to modify the gameplay on your TTT-Server, the important variables explained quickly: 
 
@@ -114,6 +114,6 @@ ttt_karma_clean_half
 
 When you have changed all variables as desired, the next Step is to save your changes.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/j38s3CcsGpNFDND/preview)
+![image](https://user-images.githubusercontent.com/26007280/189976092-c8d32408-af27-4bf1-aa25-4d226e1808e5.png)
 
 After that, you're able to start your server!

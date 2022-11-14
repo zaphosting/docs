@@ -5,7 +5,7 @@ description: Informationen, wie du Plugins auf deinen Source Gameserver von ZAP-
 sidebar_label: Plugins
 ---
 
-## 🔼 Plugin Installation
+## Plugin Installation
 
 Im Folgenden wird erklärt wie man Plugins installieren kann. Für das Nutzen von Plugins wird Sourcemod / Metamod vorausgesetzt. Eine Anleitung zur Installation findest du hier: [SM / MM installation](source_metamod_installation.md)
 
@@ -18,7 +18,7 @@ Um Plugins zu installieren, müssen diese dementsprechend per FTP hochgeladen we
 
 
 
-## 🚮 Plugins deaktivieren / deinstallieren
+## Plugins deaktivieren / deinstallieren
 
 Im **Plugins** Verzeichnis gibt es einen Unterordner mit dem Namen **disabled**. Dort können die Plugins hineingeschoben werden, welche temporär nicht geladen werden sollen. Hierbei ist es ausreichend die entsprechende **.smx** Datei zu verschieben. 
 
@@ -31,7 +31,7 @@ Um ein Plugins permanent zu deaktivieren ist es notwendig die entsprechende Plug
 
 
 
-## 🆘 Häufige Probleme
+## Häufige Probleme
 
 
 

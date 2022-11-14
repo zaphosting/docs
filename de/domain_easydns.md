@@ -5,11 +5,11 @@ description: Informationen zu den EasyDNS Domaineinstellungen bei ZAP-Hosting - 
 sidebar_label: EasyDNS
 ---
 
-## ❓ Was ist EasyDNS überhaupt?
+## Was ist EasyDNS überhaupt?
 
 Mit der **EasyDNS Funktion** kann  die Weiterleitung einer Domain, welche bei **uns** gemietet wurde, auf ein anderes Produkt auf dem **selben** Account mit einem Klick eingestellt werden.
 
-## ✅ Wo finde ich die EasyDNS Option und wie verwende ich es?
+## Wo finde ich die EasyDNS Option und wie verwende ich es?
 
 Die Option wird einem angezeigt, soweit man die gewünschte Domain bei sich im Interface anklickt.
 
@@ -25,5 +25,4 @@ Es gibt ebenfalls die Option, dass man seine Domain mit einer Subdomain auf eine
 Hier kann im ersten Feld der Name der **gewünschten Subdomain** eingetragen werden.
 Rechts daneben wählt man den gewünschten **Minecraft Server** aus, welchen man mit der Subdomain dann verknüpfen möchte.
 
-> Bitte beachte, dass es bis zu 24 Stunden in Anspruch nehmen kann, bis Änderungen an den Domains global übernommen worden sind!
-
+> ⚠️ Bitte beachte, dass es bis zu 24 Stunden in Anspruch nehmen kann, bis Änderungen an den Domains global übernommen worden sind!

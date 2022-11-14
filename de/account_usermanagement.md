@@ -5,11 +5,11 @@ description: Informationen zur Benutzerverwaltung - Gebe anderen Nutzern ausgew�
 sidebar_label: Benutzerverwaltung
 ---
 
-## ❓ Was ist die Benutzerverwaltung?
+## Was ist die Benutzerverwaltung?
 
 Wir bieten die Möglichkeit weitere Unternutzer anzulegen. Somit hast du die Möglichkeit zum Beispiel Freunden Zugriff auf deine Dienste zu geben. Der Vorteil an diesem System ist es, dass du deinen Freunden über diesen Weg nicht Zugang zu deinem Haupt-Account geben musst. Zudem ist es möglich den Zugriff einzuschränken. 
 
-## ❓ Wie aktiviere ich die Benutzerverwaltung?
+## Wie aktiviere ich die Benutzerverwaltung?
 
 Die Benutzerverwaltung findest du, indem du auf den Pfeil rechts neben deinem Avatar klickst und dort im Anschluss auf den Unterpunkt **Benutzerverwaltung** gehst.
 
@@ -51,14 +51,12 @@ Zunächst muss eine Benutzergruppe angelegt werden, damit im Anschluss die Unter
 
   
 
-  
 
   Im Anschluss öffnet sich ein Popup-Fenster, wo der Benutzer angelegt wird. Hierbei wird die gewünschte Gruppe zugewiesen, der Benutzername, E-Mail Adresse und Passwort definiert.
 
 ![image](https://user-images.githubusercontent.com/13604413/159166187-55a3ff5e-1b7c-490f-b3b8-988a2713d0e7.png)
 
   
-
 > ⚠️ Es muss eine E-Mail Adresse angegeben werden, welche noch nicht für die Registrierung eines ZAP-Hosting Accounts benutzt wurde. 
 
 

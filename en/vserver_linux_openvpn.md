@@ -67,7 +67,7 @@ As soon as you have installed the client, start the program. Right click on the 
 
 To connect, click again on icon and select "Connect".
 
-> In case you have imported several files, you have to select the client you want to use and then click on Connect
+> ⚠️ In case you have imported several files, you have to select the client you want to use and then click on Connect
 
 # Remove clients
 Run the following command to remove a Client:

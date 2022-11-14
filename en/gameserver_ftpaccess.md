@@ -36,7 +36,7 @@ Files can be dragged and dropped from the left side (the computer) to the right 
 
 > If you have more than one server, you have to find out the ID of the server first, so that you can move the data into the correct folder.
 
-### 🚩 "Transfer connection interrupted" Error Message
+### "Transfer connection interrupted" Error Message
 
 If the error message "Transfer connection interrupted: ECCONABORTED - Connection aborted" appears during the connection or transfer, the transfer mode can be changed from "**Passive**" to "**Active**".
 The following steps show how this can be changed in the Filezilla settings.

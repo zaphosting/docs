@@ -6,7 +6,7 @@ sidebar_label: Enable DLC Gamebuild
 
 ---
 
-## 🔧 FiveM Mod Linux/Windows
+## FiveM Mod Linux/Windows
 To use additional contents as Cayo Perico, the Tuner DLC or Los Santos Summer Special, its required to set them in the settings of your server.
 You can find the settings tab in your menu.
 
@@ -19,7 +19,7 @@ Scoll down to almost the end of the settings, there you'll find this option.
 Here you can pick between the specific builds, after you choose the one of your like, save the changes and reboot the server.
 Your additional content is now available.
 
-## 🔧 txAdmin
+## txAdmin
 To enable the content on a txadmin server, you need to open your txadmin-interface and there open the FXServer settings.
 
 ![image](https://user-images.githubusercontent.com/13604413/159138094-9d72159c-36f7-4193-aea9-fb1c0260ad04.png)

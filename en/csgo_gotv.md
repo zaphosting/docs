@@ -10,7 +10,7 @@ sidebar_label: GOTV
 
 GOTV offers the possibility to broadcast games live with a little delay. This means that outsiders who are not involved in the game can also follow what is happening on the server. This technology is also used in the well-known counter-strike tournaments so that the spectators can watch the spectacle. Furthermore, the transmissions can also be saved automatically, so that you can watch them again afterwards.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/zrzMZmJiCPdNHk6/preview)
+![image](https://user-images.githubusercontent.com/26007280/189976964-4da26fdc-6714-4266-acbc-3eb1dbb80d1c.png)
 
 
 ## How to use GOTV?
@@ -25,8 +25,7 @@ connect SERVERIP:27020
 Manual and automatic recorded demos are stored in the main directory (gxxxxx / csgo / csgo /) of the CS: GO server. These can be downloaded via the FTP access provided. If you do not yet know how to access via FTP, you will find instructions on how to do this: https://docs.zap-hosting.com/docs/en/gameserver_ftpaccess/
 
 
-
-![](https://screensaver01.zap-hosting.com/index.php/s/N2bK2wG9syKyBJz/preview)
+![image](https://user-images.githubusercontent.com/26007280/189976977-8ec37bd6-eff7-46bb-9114-d82c58140388.png)
 
 
 

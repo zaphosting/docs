@@ -5,11 +5,11 @@ description: Informationen zu Valheim-Serven von ZAP-Hosting, auf denen die Valh
 sidebar_label: Valheim Plus
 ---
 
-## 📋 Vorwort
+## Vorwort
 
 > Valheim Plus ist eine Clientseitige Modifikation. Sie ermöglicht es einige Änderungen am Spiel vorzunehmen.
 
-## 🖥️ Valheim Plus Installation auf dem Client
+## Valheim Plus Installation auf dem Client
 
 Zuerst muss der Valheim Ordner auf dem PC geöffnet werden. 
 Dafür bei Steam in der Bibliothek 'Rechtsklick' auf Valheim, bei den Optionen dann auf "***Verwalten***" und dort auf "***Lokale Dateien durchsuchen***".
@@ -28,23 +28,23 @@ Im Anschluss muss nur noch der Inhalt der "***WindowsClient.zip***" in den vorhe
 
 Dann kann Valheim gestartet werden und die Einrichtung bei dem Client ist beendet.
 
-## ➕ Valheim Plus Installation Server
+## Valheim Plus Installation Server
 
 Um das Spiel zu wechseln, öffnen wir zuerst das Spiele-Tab auf unserem Server:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/zKgRCryf7KaR4Hb/preview)
+![image](https://user-images.githubusercontent.com/26007280/189885529-009cc0c7-356c-4ab9-83f0-e4c69533df23.png)
 
 Hier suchen wir unter "Verfügbare Spiele" nun nach Valheim Plus und klicken auf den Download Button:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/EiJswTe4zkpZxk6/preview)
+![image](https://user-images.githubusercontent.com/26007280/189885558-f233535b-8cde-4efa-896f-13b9a82cd857.png)
 
 Danach wird der Server neu installiert. Nach der Neuinstallation hat man die Möglichkeit das Passwort bei "**Configs**" zu entfernen und man kann nun auf mehr Slots upgraden.
 
-## ⬆️ Slots Upgrade
+## Slots Upgrade
 
 Um nun ein Slotupgrade durchführen zu können, muss die "**UP- und Downgrade**" Funktion im Gameserver Dashboard geöffnet werden.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/83GLfks4M4NKBX3/preview)
+![image](https://user-images.githubusercontent.com/26007280/189885583-b4086c3d-4891-4d22-9ba6-8bec12118916.png)
 
 Bei der Upgrade-Seite wählt man nun die gewünschte Anzahl an Slots aus. 
 
@@ -57,7 +57,7 @@ Sobald ausgewählt drückt man den "***Upgrade durchführen***" Button und das U
 
 ![image](https://user-images.githubusercontent.com/13604413/159180050-43c2fe91-48a5-413d-ac17-f451858bed7d.png)
 
-## 🔧 Valheim Plus Config
+## Valheim Plus Config
 
 Um die Konfigurationsdatei zu öffnen, muss im Gameserver Interface die "**Configs**" Seite geöffnet werden, bei dieser ist dann die "*ValheimPlus: valheim_plus.cfg*" zu sehen.
 Diese kann über das blaue Icon geöffnet werden, welches sich neben der Konfigurationsdatei befindet.

@@ -13,19 +13,19 @@ Damit über eine eigene Domain ein Discord Server erreicht werden kann, wird ein
 
 Es soll zum Beispiel über die Domain beispiel-example.de/discord eine Weiterleitung zum Discord Server ermöglich werden. 
 
-### Schritt 1️⃣
+### Schritt 1
 Anlegen des Unterverzeichnis "discord" auf dem Webspace/Webserver: 
 
 ![Bildschirmfoto vom 2022-05-13 05-40-52](https://user-images.githubusercontent.com/61953937/168206898-35423959-dbde-4dc1-afbf-13d366201a44.png)
 
-### Schritt 2️⃣
+### Schritt 2
 Anlegen der ".htaccess" Datei auf dem Webspace/Webserver: 
 
 ![Bildschirmfoto vom 2022-05-13 05-41-14](https://user-images.githubusercontent.com/61953937/168206912-705bc4e8-c1a8-4523-87a8-62a1a3b59802.png)
 
 ![Bildschirmfoto vom 2022-05-13 05-41-31](https://user-images.githubusercontent.com/61953937/168206923-59fcc59a-ae79-447f-962f-9e7a3f8062eb.png)
 
-### Schritt 3️⃣
+### Schritt 3
 Erstellen der Weiterleitungsregel in der ".htaccess" Datei:
 
 ![Bildschirmfoto vom 2022-05-13 05-40-23](https://user-images.githubusercontent.com/61953937/168206933-f9ac7d75-420a-4760-99e3-77d1493fba42.png)
@@ -48,7 +48,7 @@ RewriteRule (.*) ***EIGENE-DISCORD-DOMAIN*** [R=301,L]
 ```
 Nach dem speichern, ist die Weiterleitung direkt aktiv.
 
-### Schritt 4️⃣
+### Schritt 4
 Weiterleitung testen:
 
 Wird nun die Domain/discord aufgerufen, so sollte eine Weiterleitung zu Discord erfolgen. 

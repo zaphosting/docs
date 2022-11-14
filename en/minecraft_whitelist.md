@@ -17,7 +17,7 @@ The **Minecraft Whitelist** is an option to protect your server by only allowing
 
 
 
-### 📄 Activation (Config)
+### Activation (Config)
 
 In order to activate the whitelist, the value of the command in the **server.properties** Config has to be set to **true**. A restart of the server is necessary for the change to take effect. 
 
@@ -27,7 +27,7 @@ white-list=true
 
 
 
-### 💬 Activation (Chat)
+### Activation (Chat)
 
 Alternatively, the whitelist option can also be activated in-game or via the live console:
 
@@ -49,7 +49,7 @@ To enable the whitelist option via the game, operator permissions are required! 
 
 
 
-### 🧑‍🤝‍🧑 Add / remove players
+### Add / remove players
 
 
 
@@ -87,7 +87,7 @@ In case the UUID of the player is known, then the player can also be added manua
 
 
 
-### 🔄 Update list
+### Update list
 
 If you add players manually, then you will need to reload the whitelist in-game. This is also possible by using a command to avoid a restart of the server:
 
@@ -97,7 +97,7 @@ If you add players manually, then you will need to reload the whitelist in-game.
 
 
 
-### 🗃 View the list
+### View the list
 
 If you don't want to open the whitelist file via FTP every time, you can also display all players on the whitelist with the following command: 
 

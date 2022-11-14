@@ -6,19 +6,19 @@ sidebar_label: Dashboard
 ---
 
 
-## 📔 Overview
+## Overview
 
 The dashboard is the main center of your FiveM Server. Here you can start and stop the server, view the console, change settings and install resources.
 
 ![image](https://user-images.githubusercontent.com/13604413/159137358-52f58e7f-3eb9-4aa0-a9ea-d05a9eb05c4d.png)
 
-## 🔧 Settings
+## Settings
 
 In the settings you can change settings such as server names, Rcon passwords, player slots, activated languages or the license key.
 
 ![image](https://user-images.githubusercontent.com/13604413/159137364-84216d76-b908-45f3-a24e-66e4ede9fb45.png)
 
-### 🔐 Admins
+### Admins
 
 New SteamIds can be added under the Admin list, these are used for example for Essentialmode, vMenu, EasyAdmin, but also for the Nucleus Webpanel.
 
@@ -34,25 +34,25 @@ Under the Dunko VRP/ESX settings you can select the languages which are displaye
 
 > This setting can also be left blank, in which case no language is set.
 
-### 🔑 Rcon Password
+### Rcon Password
 
 The Rcon password defines the password for remote access to the server, this access can be used via IceCon.
 
 ![image](https://user-images.githubusercontent.com/13604413/159137412-9375ad1b-c0a4-4a18-a785-88aeae7ab7c3.png)
 
-### 📑 Own license key
+### Own license key
 
 This key can be specified if the FiveM Patreon benefits are used and a license key has been created in the keymaster, if these benefits are not used or needed the field can be left blank
 
 ![image](https://user-images.githubusercontent.com/13604413/159137443-ba9d35dd-ffaf-4998-bfea-6e37f9166dd5.png)
 
-### 📖 Configs
+### Configs
 
 Under the Configs you can change the settings of your FiveM Server, but also resources such as vMenu or Trafficadjuster.
 
 ![image](https://user-images.githubusercontent.com/13604413/159137456-cc13345e-4f18-4e14-ba13-f6b6e4a7db50.png)
 
-## 🕹 Resources
+## Resources
 
 Under the Resources tab you can install ready-made FiveM resources, these usually do not need to be set up and can be used ingame immediately.
 

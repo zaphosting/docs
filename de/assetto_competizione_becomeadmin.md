@@ -9,7 +9,7 @@ sidebar_label: Admin werden
 Das Admin Passwort kannst du im Interface von deinem Server unter dem Reiter "Einstellungen" einsehen und ändern.
 Zu den Einstellungen gelangst du hier:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/WWYHCmaF6ZwkiYo/preview)*
+![image](https://user-images.githubusercontent.com/26007280/189937410-40b43828-17fe-4c00-8573-9e01763494a8.png)
 
 ## Mit dem Server verbinden
 Verbinde dich nun mit deinem Server.

@@ -7,7 +7,7 @@ sidebar_label: Become Admin over the Database
 
 > **Important:** A character must be created by you, so that you can find it in the database.
 
-## 📔 Become Admin
+## Become Admin
 
 First of all we have to connect to our database.
 Here's what we do.

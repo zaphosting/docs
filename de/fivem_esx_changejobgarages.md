@@ -8,7 +8,7 @@ sidebar_label: Job-Garagen Autos Hinzufügen
 > **Wichtig**: ESX muss installiert sein
 
 
-## 📔 Vorbereitungen
+## Vorbereitungen
 
 Wir müssen zuerst sichergehen dass "Überschreiben erzwingen" deaktiviert ist.
 Dafür gehen wir auf den Tab "Ressourcen".

@@ -6,7 +6,7 @@ sidebar_label: No Internet what now?
 ---
 
 
-## 🖥 No internet, what now?
+## No internet, what now?
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/HqwTRTWqHT5LAas/download/NoInternet.gif)
 
@@ -19,7 +19,7 @@ But if he is online and still has no internet, you can check this via the serial
 ![image](https://user-images.githubusercontent.com/13604413/159165541-d23bfcaf-d745-4b98-96bb-5960a113723c.png)
 
 
-## 🖥 Logging in using the VNC Console
+## Logging in using the VNC Console
 
 First of all, we connect to the server via the serial console as shown below and log into it. 
 
@@ -29,7 +29,7 @@ Then, we proceed to open the adapter settings. For this, we do a left click on t
 
 ![image](https://user-images.githubusercontent.com/13604413/159165546-ce7eedcc-2761-4109-a72b-a41ef19f4b5e.png)
 
-## 🖥 How do I re-establish the connection?
+## How do I re-establish the connection?
 
 Then, we would click on **change adapter options** as shown here:
 
@@ -47,13 +47,7 @@ Then, we will check whether the **server's** IP address from the control panel i
 
 ![image](https://user-images.githubusercontent.com/13604413/159165560-ca15c764-dc9e-460d-a5ac-2cd4eee8bf5f.png)
 
-> Make sure that you enter **your** Server IP under "IP Address"
+Make sure that you enter **your** Server IP under "IP Address". It is important  that the subnet mask is always a type C network and is therefore always set as "255.255.255.0". The default gateway is always the IP itself with the "1" at the end. As a DNS server, you usually use the Google DNS as in the screenshot above.
 
-> It is important here that the subnet mask is always a type C network and is therefore always set as "255.255.255.0".
-
-> The default gateway is always the IP itself with the "1" at the end.
-
-> As a DNS server, you usually use the Google DNS as in the screenshot above.
-
-Then, take over the settings and restart the server if necessary.
+After this, apply the settings and restart the server.
 

@@ -5,7 +5,7 @@ description: Information on how to install plugins on your source game server fr
 sidebar_label: Plugins
 ---
 
-## 🔼 Plugin Installation
+## Plugin Installation
 
 The following explains how to install plugins. In order to be able to use plugins you need Sourcemod / Metamod. Instructions on how to install it can be found here: [SM / MM installation](source_metamod_installation.md)
 
@@ -15,7 +15,7 @@ In order to install plugins, you need to upload them via FTP. The files of the p
 
 
 
-## 🚮 Disable / remove plugins
+## Disable / remove plugins
 
 In the **Plugins** directory you will find a subfolder named **disabled**. There you can put in the plugins which you don't want to be loaded temporarily. It is sufficient to move the corresponding **.smx** file. 
 
@@ -25,7 +25,7 @@ If you want to disable a plugin permanently then it is necessary to delete the c
 
 
 
-## 🆘 Common issues
+## Common issues
 
 
 **Why does my installed plugin not work?**

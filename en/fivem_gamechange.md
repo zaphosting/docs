@@ -6,14 +6,14 @@ sidebar_label: Gamechange
 
 ---
 
-## ♻️ Changing your FiveM Version
+## Changing your FiveM Version
 Thanks to our gamecloud, you can easily switch between all fivem versions for free.
 
 > ⚠️ The change between the linux based Games (txAdmin, ESX Roleplay, FiveM Linux) to Windows, will erase all data
 
 You should always have a backup of your data, you can easily create one in your "Backup"-tab in the interface.
 
-## 🔧 The change in detail
+## The change in detail
 To change the game (the version) of your FiveM-Server, you need to open "Games" in our interface.
 
 ![image](https://user-images.githubusercontent.com/13604413/159138107-da3e5822-307c-41d1-ab79-fd68c2963f53.png)

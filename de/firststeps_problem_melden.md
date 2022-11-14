@@ -5,14 +5,14 @@ descriptionen: Informationen, wie du den Support bei Problemen mit deinem ZAP-Ho
 sidebar_label: Probleme melden
 ---
 
-## 🤔 Läuft etwas nicht so, wie es soll?
+## Läuft etwas nicht so, wie es soll?
 
 Dein Server startet nicht? Oder kommt es zu Problemen, die du allein nicht lösen kannst? Kein Thema! Wir sind gern für dich da. Allerdings empfehlen wir dir folgenden Ablauf, um schnell und unkompliziert eine ungehinderte Nutzung deiner Produkte zu ermöglichen.
 
 
 Ob nun ausschließlich dein Server betroffen ist, ein ganzes Cluster oder gar das ganze Rechenzentrum erfährst du am einfachsten in unseren [Störungsmeldungen](https://zap-hosting.com/de/interruption/) wo wir genaue Auskunft über aktuelle Störungen und Ausfälle geben. Sollte einer deiner Produkte akut betroffen sein, weisen wir dich über ein Symbol neben deinem Produkt auf eine Störung hin.
 
-## 😅 Ein Ticket spart Zeit!
+## Ein Ticket spart Zeit!
 
 Sollte der Live Chat für dich gerade keine Option sein und du möchtest dennoch dein Problem unserem Support vortragen? Dann erstelle einfach in deinem Webinterface ein [Ticket](https://zap-hosting.com/de/customer/support/)! Gib hier einfach in die Maske alle erforderlichen Information an, die für eine Lösung deines Problems relevant sind. Hierzu zählen:
 
@@ -42,7 +42,7 @@ Sollte der Live Chat für dich gerade keine Option sein und du möchtest dennoch
 
 
 
-## ☹️ Keine Hilfe über Social Media?
+## Keine Hilfe über Social Media?
 
 Nein, denn unsere Kundendaten sind uns heilig - genau wie ein schneller Support. Genau darum verweisen wir Kunden, die uns in Tweets, Facebook Comments oder auf Instagram um direkten Rat bitten **immer** auf unseren Live Chat. Nur so haben unsere Supporter einen direkten Zugriff auf die betroffenen Produkte und können eventuelle Probleme beheben. 
 

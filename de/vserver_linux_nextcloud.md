@@ -5,7 +5,7 @@ description: Informationen, wie du einen Nextcloud Server auf deinem vServer von
 sidebar_label: Nextcloud
 ---
 
-## ❓ Was ist Nextcloud?
+## Was ist Nextcloud?
 
 Nextcloud ist eine Open-Source-Cloud-Lösung und Abspaltung von Owncloud, die 2016 vom ehemaligen Owncloud-Gründer Frank Kalitschek aufgrund unterschiedlicher Auffassungen ins Leben gerufen wurde.
 
@@ -35,11 +35,11 @@ Um eine optimale Leistung, Stabilität und Funktionalität zu gewährleisten, wi
 | Web server       | Apache 2.4 with `mod_php` or `php-fpm` (recommended)         |
 | PHP              | 5.6, 7.0 (recommended), 7.1 (recommended), 7.2               |
 
-> Die Anforderungen wurden aus unseren eigenen Erfahrungen und den Informationen der Entwickler zusammengestellt.
+> ⚠️ Die Anforderungen wurden aus unseren eigenen Erfahrungen und den Informationen der Entwickler zusammengestellt.
 
 
 
-## 🛠 Nextcloud einrichten
+## Nextcloud einrichten
 
 
 ### Vorbereitung
@@ -282,7 +282,7 @@ Danach muss ein Benutzer angelegt werden, welcher Zugriff auf die Nextcloud DB e
 CREATE USER 'nc_user'@'localhost' IDENTIFIED BY 'YOUR_PASSWORD_HERE';
 ```
 
-> Überspringen diesen Schritt nicht, indem der Benutzer root verwendet wird. Dies ist nicht sicher und gefährdet deine Daten!
+> ⚠️ Überspringen diesen Schritt nicht, indem der Benutzer root verwendet wird. Dies ist nicht sicher und gefährdet deine Daten!
 
 Der letzte Schritt ist die Vergabe der Berechtigungen für den neuen Benutzer:
 
@@ -512,7 +512,7 @@ Wenn du dir nicht sicher bist, wie du ein SSL-Zertifikat generieren kannst, dann
 
 
 
-## 💻 Nextcloud verwalten
+## Nextcloud verwalten
 
 Der Zugriff auf die Nextcloud ist sowohl über den Browser, als auch über das Smartphone und den Computer per App möglich. Die Downloadquellen sind hier zu finden: https://nextcloud.com/install/#install-clients
 

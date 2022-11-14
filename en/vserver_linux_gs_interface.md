@@ -132,7 +132,7 @@ Under "Settings" you can for example change the name of your server, set a passw
 The following is a list of the games you can currently install with the interface (as of 04.04.2020)
 
 
-### 🎮Games
+### Games
 
 
 ![]( https://zap-hosting.com/interface/_images/icons/samp_icon.png) FIVE: SA:MP
@@ -192,7 +192,7 @@ The following is a list of the games you can currently install with the interfac
 ![]( https://zap-hosting.com/interface/_images/icons/curse-icon.png) Ragnamod V
 
 
-### 🔫Counter-Strike
+### Counter-Strike
 
 
 ![]( https://zap-hosting.com/interface/_images/icons/cs16-icon.png) Counter-Strike: 1.6
@@ -206,7 +206,7 @@ The following is a list of the games you can currently install with the interfac
 ![]( https://zap-hosting.com/interface/_images/icons/cscz-icon.png) Counter-Strike: Condition Zero
 
 
-### 🐉ARK
+### ARK
 
 
 ![]( https://zap-hosting.com/interface/_images/icons/ark-survivalevolved-icon.png) ARK: SE (+ Ragnarok, Aberration)
@@ -220,7 +220,7 @@ The following is a list of the games you can currently install with the interfac
 ![]( https://zap-hosting.com/interface/_images/icons/ark-genesis-icon.png) ARK: Genesis
 
 
-### 🚀Garry's Mod
+### Garry's Mod
 
  
 ![]( https://zap-hosting.com/interface/_images/icons/gmod-icon.png) Garry's Mod: Vanilla
@@ -250,10 +250,10 @@ The following is a list of the games you can currently install with the interfac
 ![]( https://zap-hosting.com/interface/_images/icons/gmod-zsurvival-icon.png) Garry's Mod: Zombie Survival
 
 
-## ⛏️Minecraft
+## Minecraft
 
 
-### ⛏️Feed the Beast
+### Feed the Beast
                                                
  
 ![]( https://zap-hosting.com/interface/_images/icons/ftblite2-icon.png) Feed the Beast: Lite 2
@@ -379,7 +379,7 @@ The following is a list of the games you can currently install with the interfac
 ![]( https://zap-hosting.com/interface/_images/icons/ftb-academy-icon.png) Feed the Beast: FTB Academy
 
 
-### ⛏️AT Launcher
+### AT Launcher
 
 
 ![]( https://zap-hosting.com/interface/_images/icons/bevos-tech-pack-icon.png) AT Launcher: Bevo's Tech Pack
@@ -409,7 +409,7 @@ The following is a list of the games you can currently install with the interfac
 ![]( https://zap-hosting.com/interface/_images/icons/naturalmagic-icon.png) AT Launcher: Natural Magic
 
 
-### ⛏️Technic Launcher
+### Technic Launcher
 
 
 ![]( https://zap-hosting.com/interface/_images/icons/tekkit-icon.png) Technic Launcher: Tekkit
@@ -491,7 +491,7 @@ The following is a list of the games you can currently install with the interfac
 ![]( https://zap-hosting.com/interface/_images/icons/the-1-12-2-pack-icon.png) Technic Launcher: The 1.12.2 Pack
 
 
-### ⛏️Curse / Twitch
+### Curse / Twitch
 
 
 ![]( https://zap-hosting.com/interface/_images/icons/foreverstranded-icon.png) Curse / Twitch: Forever Stranded
@@ -620,7 +620,7 @@ The following is a list of the games you can currently install with the interfac
 
 
 
-### ⛏️Minecraft Adventure
+### Minecraft Adventure
 
 
 ![]( https://zap-hosting.com/interface/_images/icons/zanzer-icon.png) Minecraft Adventure: Escape from Zanzer
@@ -637,7 +637,7 @@ The following is a list of the games you can currently install with the interfac
 
 
 
-### ⛏️Minecraft Minigames
+### Minecraft Minigames
 
 
 ![]( https://zap-hosting.com/interface/_images/icons/buildmything-icon.png) Minecraft Minigames: Build my Thing
@@ -656,7 +656,7 @@ The following is a list of the games you can currently install with the interfac
 
 
 
-### ⛏️Voids Wrath Launcher
+### Voids Wrath Launcher
 
 
 ![]( https://zap-hosting.com/interface/_images/icons/dreamcraft-icon.png) Voids Wrath Launcher: DreamCraft 2
@@ -673,7 +673,7 @@ The following is a list of the games you can currently install with the interfac
 
 
 
-### ⛏️Life in the Woods
+### Life in the Woods
 
 
 ![]( https://zap-hosting.com/interface/_images/icons/gronkhlifeinthewoods-icon.png) Life in the Woods: Gronkh's Life in the Woods

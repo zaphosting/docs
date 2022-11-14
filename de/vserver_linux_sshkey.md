@@ -5,7 +5,7 @@ description: Informationen wie du einen SSH Key für deinen Linux vServer von ZA
 sidebar_label: SSH Key
 ---
 
-## 🔑 SSH Key generieren
+## SSH Key generieren
 
 Für eine Verbindung die deutlich sicherer ist, wie eine herkömmliche Verbindung mit dem SSH Password, wird die Nutzung von SSH Keys empfohlen.
 Hierzu im Dashboard von dem Linux Server den Reiter "**Zugang & Sicherheit**" öffnen.
@@ -16,7 +16,7 @@ Bei "**Zugang & Sicherheit**" kann nun mit dem "**SSH-Key generieren**" Button i
 Sobald dieser gedrückt wird, öffnet sich ein Popup und ein Key zufällig erstellter Key wird direkt auf den PC heruntergeladen.
 Damit der Key zu dem Server hinzugefügt wird, muss der "**Key hinzufügen**" Button betätigt werden.
 
-> Bei Linux vServern wird der Key direkt hinzugefügt
+> ⚠️ Bei Linux vServern wird der Key direkt hinzugefügt
 > Bei Linux Rootservern ist ein Neustart von dem Server erfoderlich, damit diese Änderungen übernommen werden
 
 ![](https://user-images.githubusercontent.com/61839701/166181092-391eb0bf-aaee-426a-ab8c-241ac788b4bc.png)
@@ -35,7 +35,7 @@ Solltest du einen eigenen Public Key haben welchen du vorher extern und nicht ü
 Es öffnet sich dann ein leeres Panel in welchem du deinen eigenen Public Key einfügen kannst. 
 Der Key wird dann mit Betätigen der "**Key hinzufügen**" Funktion zum Server hinzugefügt und in unserem Panel angezeigt.
 
-## ♻️ OpenSSH zu PuTTY-Private-Key mit PuTTYGen
+## OpenSSH zu PuTTY-Private-Key mit PuTTYGen
 
 Die SSH Keys die von unserem Panel erstellt werden, befinden sich im OpenSSH Format.
 Damit man diese bei PuTTY nutzen kann, müssen diese Keys vorher zu dem PuTTY-Private-Key Format konvertiert werden.
@@ -51,7 +51,7 @@ Die PuTTYGen Anwendung starten und dort dann auf "**File**" -> "**Load private k
 Nun muss die vom ZAP-Hosting generierte Datei geöffnet werden.
 Dafür musst du in das Standardverzeichnis wo alle deine Downloads abgelegt werden.
 
-> **Wichtig:** stelle sicher, dass du den Filter wie im Bild zu sehen auf "**ALL Files**" stehen hast, da die vom System erstellte .pri Datei nicht zu sehen ist.
+> ⚠️ **Wichtig:** stelle sicher, dass du den Filter wie im Bild zu sehen auf "**ALL Files**" stehen hast, da die vom System erstellte .pri Datei nicht zu sehen ist.
 
 ![](https://user-images.githubusercontent.com/61839701/166181140-46c617ad-17a3-4900-848c-8412f5945b91.png)
 
@@ -64,7 +64,7 @@ Sobald alle Wunscheinträge gesetzt, kann nun mit dem Button "**Save private key
 
 Diese .ppk Datei benennen und so abspeichern, dass diese später wiedergefunden werden kann.
 
-## 📶 SSH Key Verbindung
+## SSH Key Verbindung
 
 Damit der Key für die Verbindungen genutzt werden kann, muss dieser bei Putty erst verknüpft werden.
 Dafür im PuTTY Panel auf "**SSH**" - "**Auth**" - "**Browse...**".
@@ -80,7 +80,7 @@ Dafür auf "**Session**" - "**Default Settings**" - "**Save**" , sowie es im Scr
 
 Nun kann bei Putty der Login zu dem Server durchgeführt werden.
 
-## 🔓 Login mit Passwort deaktivieren
+## Login mit Passwort deaktivieren
 
 Die SSH Keys wurden erstellt, um die Sicherheit zu erhöhen. Sofern der Login mit dem SSH Passwort aber noch möglich ist, hat sich an der Sicherheit vom Server noch nichts getan.
 Aus diesem Grund muss nun der SSH Login via Passwort deaktiviert werden.

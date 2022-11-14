@@ -6,14 +6,14 @@ sidebar_label: CentOS installieren
 
 > In diesem Beispiel wird die Installation von CentOS 8.3 durchgeführt
 
-## 📋 Vorbereitungen
+## Vorbereitungen
 Wähle in deinem ZAP-Interface die gewünschte ISO von CentOS aus und lasse den Server mit der ISO booten, bis dieser im Setup ist.
 
 > Die Navigation im Setup-Prozess erfolgt ganz bequem mit deiner Maus
 
 ***
 
-## ⌚ Das Setup
+## Das Setup
 Wenn die ISO erfolgreich geladen wurde, ist der Server erfolgreich im Setup.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/YFQt6Jmw5wi4QZZ/preview)
@@ -42,7 +42,7 @@ Wenn du alles gewünschte konfiguriert hast, klicke auf "Begin Installation"
 
 Wenn die Installation abgeschlossen ist, entferne die ISO-Datei von deinem Server und klicke "Reboot System"
 
-## 💻 Netzwerk
+## Netzwerk
 
 In diesem Schritt muss noch die Netzwerkschnittstelle konfiguriert werden, hierzu ist ein Update notwendig.
 Lade unsere ISO-Datei in deinen Server, entweder über deine Remote Console oder die iLO selbst.
