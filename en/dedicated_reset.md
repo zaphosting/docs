@@ -4,25 +4,37 @@ title: Server reset
 sidebar_label: Server reset
 ---
 
+
+
+Are you experiencing problems with your server or would you like to completely wipe the data of your server? This is no problem and can be easily realized. The existing data can for example be completely deleted by the use of a Wipe ISO. 
+
+
+
 ## Preparations
 
-Attach this ISO-file into your dedicated server and reboot it:
+First of all, the required Wipe ISO must be mounted and executed in order to perform the actual process of resetting the data. ISO files can be mounted either via the ILO or via the remote console. If you don't know exactly how to do this yet, please have a look at the [Own ISO](dedicated_iso) guide. 
+
+Now mount the following ISO to your server and restart it afterwards:
+
 
 ```
 http://185.223.30.65/wipe.iso
 ```
 
-## The reset
 
-Connect with a remote console of your like, to your dedicated server.
+
+## Reset of data
+
+Once the server has been restarted, the Wipe ISO should be automatically detected and loaded. Connect to your dedicated server using a remote console of your choice.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/cozRqRt9KLTMCkd/preview)
 
-The server does automatically go through the reset process
 
-> ⚠️ The reset can not be undone
+
+There you will see how the server automatically executes the process and how far the formatting progress is. Your server will overwrite all existing volumes once, so that there will be no more data. Depending on the size of the SSD, this process may take about 45 minutes - 2 hours.
 
 ![image](https://user-images.githubusercontent.com/13604413/159174333-ef109e7e-2e79-4201-81cf-b33301c4d0b7.png)
 
-Your server is now overwriting all storage devices, there will be no data left in the end.
-Depending on the size of your ssd this process can take 45 minutes to 2 hours.
+
+
+> ⚠️ Important: This process cannot be undone and is therefore final. There are no additional backups that can be imported in case of need. We therefore advise you not to perform this process unless you are absolutely sure that you want to delete your data. 

@@ -24,7 +24,7 @@ On our [YouTube channel](https://www.youtube.com/user/zaphosting) we regularly b
 
 
 ## Twitch
-Whoever deals with game servers must of course also test them. Exactly for this reason we fulfilled the wish and established a [own Twitch channel](https://www.twitch.tv/zaphostinglive/)! Here we are regularly live and present among other things our gameservers, test new modpacks, or realize gigantic giveaways!
+Whoever deals with game servers must of course also test them. Exactly for this reason we fulfilled the wish and established a [own Twitch channel](https://www.twitch.tv/zaphosting)! Here we are regularly live and present among other things our gameservers, test new modpacks, or realize gigantic giveaways!
 
 
 
