@@ -12,9 +12,7 @@ Mastodon is free and open-source software for running self-hosted social network
 
 It has microblogging features similar to the Twitter service, which are offered by a large number of independently run nodes, known as instances,
 each with its own code of conduct, terms of service, privacy policy, privacy options, and moderation policies.
-
-## Setting up Mastodon
-This guide focuses the installation on a Debian based Distro. Examples are Debian and Ubuntu. This guide differs depending on what OS you are using.
+> This guide focuses the installation on a Debian based Distro. Examples are Debian and Ubuntu. This guide differs depending on what OS you are using.
 
 ## System requirements
 If you want to setup a Mastodon Instance on your Server, you have to meet some requirements
@@ -113,3 +111,42 @@ bundle config without 'development test'
 bundle install -j$(getconf _NPROCESSORS_ONLN)
 yarn install --pure-lockfile
 ```
+Next create your mastodon configuration file by using the following command:
+```bash
+RAILS_ENV=production bundle exec rake mastodon:setup
+```
+> If your Database Setup fails, please login to your postgres with `sudo -u postgres psql` and follow this documentation: 
+> https://gist.github.com/amolkhanorkar/8706915
+
+After that, switch back to the root user, using the command `exit`
+
+## Configuring the Webserver
+Now comes the tricky part. You have to configure your Webserver. First, create an A-Record and/or AAAA-Record in your DNS and let it point directly to your server. Alternativly you can point the Root-Record to your Server.
+
+Next you have to use the following two commands to copy and enable the mastodon webserver configuration.
+```bash
+cp /home/mastodon/live/dist/nginx.conf /etc/nginx/sites-available/mastodon
+ln -s /etc/nginx/sites-available/mastodon /etc/nginx/sites-enabled/mastodon
+```
+
+After that, edit the `/etc/nginx/sites-available/mastodon` file with a text editor like vim or nano and change example.com to your wanted domain. 
+Next, you have to aquire a SSL-Certificate for your domain. You can easily do this with this command: 
+```bash
+certbot --nginx -d <your domain>
+```
+Enter your domain. You'll be asked about several credentials. At the end it will ask you, if you automatically want to redirect http requests to https, we recommend you, to enable it.
+
+## Creating a mastodon service
+Lastly, we are creating a mastodon system service. It is pretty straigt forward. 
+Use this command to copy default service configuration to the service directory of your distribution. 
+```sh
+cp /home/mastodon/live/dist/mastodon-*.service /etc/systemd/system/
+```
+
+Now enable and start your new services with the following to commands:
+```sh
+systemctl daemon-reload
+systemctl enable --now mastodon-web mastodon-sidekiq mastodon-streaming
+```
+
+After a reboot you should be finished with your setup. Have fun with your instance!
