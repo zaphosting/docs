@@ -27,6 +27,10 @@ Unten am Ende der Seite befinden sich weitere Optionen, wo unter anderem auch di
 
 Je nach Spiel ist es oftmals auch zu empfehlen die Datenbank mit zu sichern, da dort oftmals wichtige Daten wie Spielstände, Rechte und vieles mehr gespeichert werden. 
 
+> ⚠️ Ausreichend Speicherplatz ist essenziell, damit regelmäßige Backups erstellt werden können. Stelle daher sicher, dass du immer ausreichend Speicherplatz hast. 
+
+
+
 
 ## Backups herunterladen/löschen
 
