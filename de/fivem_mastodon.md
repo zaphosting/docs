@@ -1,5 +1,5 @@
 ---
-id: fivem_mastadon
+id: fivem_mastodon
 title: FiveM: Activity Feed für Server einrichten
 description: Informationen, wie du einen Activity Feed für deinen FiveM-Server von ZAP-Hosting einrichten kannst - ZAP-Hosting.com Dokumentationen
 sidebar_label: Activity Feed Einrichten
