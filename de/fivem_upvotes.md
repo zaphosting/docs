@@ -7,6 +7,12 @@ sidebar_label: Upvotes
 
 
 
+**📺Video:** Du bevorzugst eine Anleitung eher in Form eines Videos oder als zusätzliche visuelle Ergänzung? Kein Problem! Für dieses Thema stellen wir ebenfalls ein Video zur Verfügung: 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/H-bdMJTQkSM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
 ## Was sind Upvotes?
 
 Mit den sogenannten FiveM Upvotes hast du die Möglichkeit deinen eigenen oder einen beliebigen Server in der Serverliste höher platzieren zu lassen. So mehr aktive Upvote-Punkte ein Server hat, desto höher wird dieser eingestuft. 

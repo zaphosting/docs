@@ -1,15 +1,13 @@
 ---
 id: fivem_change_servericon
-title: FiveM: Server Icon für Serverliste ändern
-description: Informationen, wie du das Servericon für FiveM-Server von ZAP-Hosting ändern kannst - ZAP-Hosting.com Dokumentationen
-sidebar_label: Server Icon Ändern
+title: RedM: Server Icon für Serverliste ändern
+description: Informationen, wie du das Servericon für RedM-Server von ZAP-Hosting ändern kannst - ZAP-Hosting.com Dokumentationen
+sidebar_label: Server Icon ändern
 ---
 
 
 
-Du möchtest deinen Server individualisieren und ein eigenes Icon Bild verpassen? Keine Sorge, das lässt sich leicht umsetzen!  Im Folgenden werden wir dir erläutern, welche Aspekte zu berücksichtigen sind und wie die Einrichtung erfolgt. **📺Video:** Du bevorzugst eine Anleitung eher in Form eines Videos oder als zusätzliche visuelle Ergänzung? Kein Problem! Für dieses Thema stellen wir ebenfalls ein Video zur Verfügung: 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/nv0Ss5fo_ps" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Du möchtest deinen Server individualisieren und ein eigenes Icon Bild verpassen? Keine Sorge, das lässt sich leicht umsetzen!  Im Folgenden werden wir dir erläutern, welche Aspekte zu berücksichtigen sind und wie die Einrichtung erfolgt. 
 
 
 

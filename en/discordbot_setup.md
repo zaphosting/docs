@@ -5,6 +5,10 @@ description: Information on how to set up your own Discord Bot - ZAP-Hosting.com
 sidebar_label: Setup
 ---
 
+
+
+**📺Video:** Do you prefer instructions in the form of a video or as an additional visual supplement? No problem! We also provide a video for this topic: 
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/OoKA8UJ_N5A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Connect to FTP

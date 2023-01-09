@@ -1,21 +1,15 @@
 ---
-id: fivem_installresources
-title: FiveM: Installing resources, mods and scripts on server
-description: Information on how to install resources, mods and scripts on your FiveM server from ZAP-Hosting - ZAP-Hosting.com documentation
-sidebar_label: Resource Installation
+id: redm_installresources
+title: RedM: Installing resources, mods and scripts on server
+description: Information on how to install resources, mods and scripts on your RedM server from ZAP-Hosting - ZAP-Hosting.com documentation
+sidebar_label: Resource installation
 ---
-
-
-
-**📺Video:** Do you prefer instructions in the form of a video or as an additional visual supplement? No problem! We also provide a video for this topic: 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/V7us5V6KLho" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Introduction
 
 Resources can be used to expand your FiveM server with additional features. This is especially interesting if you are planning to start larger projects, such as a roleplay server or similar. Something like this can't be done without such additional resources. 
 
-FiveM and its community offers a large variety of resources. An overview of the most popular resources can be found here: https://forum.cfx.re/c/development/releases/7
+RedM and its community offers a large variety of resources. An overview of the most popular resources can be found here: https://forum.cfx.re/c/development/releases/7
 
 
 ## Preperation
@@ -32,11 +26,9 @@ Downloaded resources are usually offered in a packed format. This means that you
 ### Upload 
 The previously unpacked files must now be uploaded as an individual folder, if it doesn't exist already. The folder must then be uploaded to the server's resource directory. The directory structure usually looks like this:
 ```
-/gXXXXXX/gta5-fivem/server-data/resources
+/gXXXXXX/redm/server-data/resources
 ```
-> The directory structure of FiveM TxAdmin differs from the rest of the FiveM products, as they still contain their own template directory. The resources are also located in the template directory. 
-
-Certain resources cooperate with a database and therefore often already contain SQL files that have to be imported into the database. If you are not familiar with how databases work or how to import them, it is worth taking a look at the [FiveM Server: SQL File Import](https://zap-hosting.com/guides/docs/en/fivem_sql_file_import/) guide.
+Certain resources cooperate with a database and therefore often already contain SQL files that have to be imported into the database.
 
 ### Activation
 To ensure that the installed resource is also loaded, it must first be activated in the server config. The activation is done via the **Start** command. For instance, if you have uploaded the resource with the name "eup-ui", then the start command in the config must look like this: 
