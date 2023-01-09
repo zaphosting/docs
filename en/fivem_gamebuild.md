@@ -38,3 +38,4 @@ Current Builds:
 - Build 2189 Cayo Perico
 - Build 2372 Tuner DLC
 - Build 2545 The Contract
+- Build 2699 The Criminal Enterprises
