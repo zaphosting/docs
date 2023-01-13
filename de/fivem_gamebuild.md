@@ -35,6 +35,7 @@ hinzu und speichere die Änderungen, sowie starte den Server neu.
 Aktuelle Builds:
 
 | Build ID | Build Name                |
+| :------: | :-----------------------: |
 | 2060     | Los Santos Summer Special |
 | 2189     | Cayo Perico               |
 | 2372     | Tuner DLC                 |
