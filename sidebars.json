@@ -446,6 +446,9 @@
         ],
         "Discord Bot": [
             "discordbot_setup"
+        ],
+        "Truck Sim": [
+            "trucksim_dlc"
         ]
     }
 }
