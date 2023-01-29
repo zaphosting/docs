@@ -55,7 +55,8 @@ In unserem Beispiel wäre das der Ordner "zap001":
 In diesem Ordner muss nun die Sandbox-Datei bearbeitet werden.
 Es muss genau diese Config geöffnet werden, wie im Screenshot dargestellt!
 
-![image](https://user-images.githubusercontent.com/26007280/189891018-dd251a70-675d-45ab-aee2-9f5105325212.png)
+![grafik](https://user-images.githubusercontent.com/13604413/215349596-768ea75a-4347-4f70-bf2b-63cd81455dc2.png)
+
 
 ## Mods hinzufügen
 
