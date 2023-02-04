@@ -19,8 +19,8 @@ Scroll down and near the bottom of the page, you will see your active savegames 
 
 ![Screenshot 2023-02-04 003915](https://user-images.githubusercontent.com/42719082/216735431-ad1fb5c8-773b-40b3-ad6e-62142415b9c6.png)
 
-## Using your own gamesave
-It is very easy to use your own game save by using the Savegame Uploader section of the Savegame Manager.
+## Using your own Savegame
+It is very easy to use your own savegame by using the Savegame Uploader section of the Savegame Manager.
 However, firstly you must find the savegame on your own computer.
 
 > It is sometimes possible that your inventory may not save correctly, so ensure to move them into chests and saving before continuing.
