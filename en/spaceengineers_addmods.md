@@ -45,7 +45,7 @@ This folder lists all savegames that have ever been created on the server. To be
 
 The sandbox file must now be edited in this folder. Exactly this config has to be opened as shown in the screenshot!
 
-![image](https://user-images.githubusercontent.com/26007280/189900173-79a90811-c37e-4d8f-9a0f-6c93f323ddef.png)
+![image](https://user-images.githubusercontent.com/13604413/215349611-17c9ce1c-2fb6-461c-9834-af4b8a13c821.png)
 
 ## Add Mods
 

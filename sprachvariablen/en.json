@@ -676,6 +676,10 @@
         "title": "Terraria: Become a server admin (tShock)",
         "sidebar_label": "Become an admin (tShock)"
       },
+      "trucksim_dlc": {
+        "title": "Trucksim: Activate DLC/Mods",
+        "sidebar_label": "Activate DLC/Mods"
+      },
       "unturned_becomeadmin": {
         "title": "Unturned: Become a server admin",
         "sidebar_label": "Become Admin"
@@ -980,7 +984,8 @@
       "7 Days to Die": "7 Days to Die",
       "Avorion": "Avorion",
       "Last Oasis": "Last Oasis",
-      "Discord Bot": "Discord Bot"
+      "Discord Bot": "Discord Bot",
+      "Truck Sim": "Truck Sim"
     }
   },
   "pages-strings": {

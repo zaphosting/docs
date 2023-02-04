@@ -34,8 +34,10 @@ After adding the command, be sure the changes and to save and reboot the server.
 
 Current Builds:
 
-- Build 2060 Los Santos Summer Special
-- Build 2189 Cayo Perico
-- Build 2372 Tuner DLC
-- Build 2545 The Contract
-- Build 2699 The Criminal Enterprises
+| Build ID | Build Name                |
+| :------: | :-----------------------: |
+| 2060     | Los Santos Summer Special |
+| 2189     | Cayo Perico               |
+| 2372     | Tuner DLC                 |
+| 2545     | The Contract              |
+| 2699     | The Criminal Enterprises  |
