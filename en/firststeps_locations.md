@@ -32,7 +32,7 @@ You are unsure which location is the best for you? That's no problem! We have de
 
 You will find the ping check option during the order process at the location selection. Click there on the **Ping-Check 🚀** button. The result of the respective location will then be displayed to you. 
 
-![img](https://cloud.galz.dev/index.php/apps/files_sharing/publicpreview/bWxHYczB5SqBHcy?x=1908&y=587&a=true&file=chrome_Xrm57PAldL.png&scalingup=0)
+![image](https://user-images.githubusercontent.com/26007280/217032895-b27ae202-cd44-4f5b-bb97-f6912ad233ab.png)
 
 
 
