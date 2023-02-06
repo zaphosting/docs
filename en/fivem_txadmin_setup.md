@@ -4,6 +4,10 @@ title: txAdmin Setup
 sidebar_label: txAdmin Setup
 ---
 
+
+
+**📺Video:** Do you prefer instructions in the form of a video or as an additional visual supplement? No problem! We also provide a video for this topic: 
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/n3RoiExrvN0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 

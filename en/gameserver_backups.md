@@ -10,11 +10,14 @@ We offer the possibility to create individual backups per click. This allows you
 Besides creating backups manually, backups can also be created fully automatically. Backups can be created either daily or weekly at a specified time. After restoring a backup, the server will be at the state at the time of backup creation.
 
 
+
+
 ## Create backups manually
 
-Um ein Backup manuell zu erstellen muss der grüne **+** Button neben der Backup Liste gedrückt werden. Im Anschluss startet der Backup Vorgang. 
+Press the green **+** button next to the backup list to create a backup manually. The backup process will start afterwards,  
 
 > The backup creation process can take a few minutes depending on the file size of your server!
+
 
 
 ## Create backups automatically
@@ -24,6 +27,10 @@ At the bottom of the page you will find more options, including the settings for
 ![image](https://user-images.githubusercontent.com/13604413/159171260-f3d1775e-25bc-45a0-b4aa-d6bdc13bfa0f.png)
 
 Depending on the game, it's usually also a good idea to back up the database as well, since important data such as scores, permissions and much more is often stored there. 
+
+>⚠️ Having sufficient storage space is essential for creating regular backups. Make sure that you always have enough storage available. 
+
+
 
 
 ## Download/delete backups
