@@ -141,9 +141,6 @@
         "title": "Barotrauma: Become an admin on your own server",
         "sidebar_label": "Become Admin"
       },
-      "barotrauma_mods": {
-        "title": "barotrauma_mods"
-      },
       "beammp_authkey": {
         "title": "Create an Auth Key",
         "sidebar_label": "Create an Auth Key"
@@ -241,8 +238,8 @@
         "sidebar_label": "Domain Gameserver Redirect"
       },
       "domain_general_domain_info": {
-        "title": "Domains: Was ist eine Domain?",
-        "sidebar_label": "Was ist eine Domain?"
+        "title": "Domains: What is a domain?",
+        "sidebar_label": "What is a domain?"
       },
       "domain_order": {
         "title": "Domains: Ordering a domain at ZAP-Hosting",
@@ -288,9 +285,6 @@
         "title": "Factorio Server: Installing Mods",
         "sidebar_label": "Install Mods"
       },
-      "firststeps_locations": {
-        "title": "firststeps_locations"
-      },
       "firststeps_problem_melden": {
         "title": "ZAP-Hosting: What to do if you have problems with your server?",
         "sidebar_label": "Report problems"
@@ -312,8 +306,8 @@
         "sidebar_label": "The first steps"
       },
       "fivem_change_servericon": {
-        "title": "RedM: Server Icon für Serverliste ändern",
-        "sidebar_label": "Server Icon ändern"
+        "title": "FiveM: Change server icon for server list",
+        "sidebar_label": "Change Server Icon"
       },
       "fivem_changeloadingscreen": {
         "title": "FiveM: Install/change loadingscreen for FiveM-Server",
@@ -404,8 +398,8 @@
         "sidebar_label": "Server not in Serverlist"
       },
       "fivem_prohibited_resources": {
-        "title": "FiveM Server: Fehlermeldung \"Resource contains prohibited logic\"?",
-        "sidebar_label": "Resource contains prohibited logic"
+        "title": "FiveM Server: Error message \"Resource contains prohibited logic\"?",
+        "sidebar_label": "Resource contains prohibited logic?"
       },
       "fivem_qbcore_admin": {
         "title": "FiveM QBCore Server: Become admin",
@@ -450,9 +444,6 @@
       "fivem_vrp_removespeedo": {
         "title": "FiveM VRP Server: Remove Speedometer",
         "sidebar_label": "Remove Speedometer"
-      },
-      "fivem_whitelist": {
-        "title": "fivem_whitelist"
       },
       "fivem-steam-web-api-key": {
         "title": "FiveM: Steam Web API Key setup",
@@ -537,9 +528,6 @@
         "title": "Minecraft: Server Config settings",
         "sidebar_label": "Server Config"
       },
-      "minecraft_firststeps_connect": {
-        "title": "Minecraft: Connect to the server"
-      },
       "minecraft_forge_add_mods": {
         "title": "Minecraft: Installing mods on your server",
         "sidebar_label": "Mods Installation"
@@ -584,9 +572,6 @@
         "title": "Partner Guide: The Partner Program of ZAP-Hosting",
         "sidebar_label": "Partner Guide"
       },
-      "pathoftitans_becomeadmin": {
-        "title": "pathoftitans_becomeadmin"
-      },
       "preorders": {
         "title": "Pre-orders",
         "sidebar_label": "Preorders"
@@ -594,10 +579,6 @@
       "ragemp_installpackages": {
         "title": "RageMP: Installing packages on servers",
         "sidebar_label": "Installing packages"
-      },
-      "redm_installresources": {
-        "title": "RedM: Installing resources, mods and scripts on server",
-        "sidebar_label": "Resource installation"
       },
       "rust_becomeadmin": {
         "title": "Rust: Become an admin on your own server",
@@ -887,10 +868,6 @@
         "title": "VPS: Adding additional IPs to a Windows server",
         "sidebar_label": "Add additional IPs"
       },
-      "vserver_windows_ark": {
-        "title": "VPS/ROOT: ARK: Survival Evolved Dedicated Server Setup",
-        "sidebar_label": "ARK: Survival Evolved Dedicated Server Setup"
-      },
       "vserver_windows_change_language": {
         "title": "VPS: Add/change language on Windows Server",
         "sidebar_label": "Add/change language"
@@ -927,17 +904,9 @@
         "title": "VPS: Forwarding ports on Windows servers",
         "sidebar_label": "Port Forwarding"
       },
-      "vserver_windows_satisfactory": {
-        "title": "VPS/ROOT: Satisfactory Dedicated Server Setup",
-        "sidebar_label": "Satisfactory Dedicated Server Setup"
-      },
       "vserver_windows_userdp": {
         "title": "VPS: Initial access to Windows Server with RDP",
         "sidebar_label": "Initial access (RDP)"
-      },
-      "vserver_windows_valheim": {
-        "title": "VPS/ROOT: Valheim Dedicated Server Setup",
-        "sidebar_label": "Valheim Dedicated Server Setup"
       },
       "vserver_windows_vrising": {
         "title": "vServer: Install V-Rising  on Windows",
