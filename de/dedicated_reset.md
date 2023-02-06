@@ -26,7 +26,7 @@ http://185.223.30.65/wipe.iso
 
 Nach dem Neustart des Servers sollte die Wipe ISO automatisch erkannt und geladen werden. Verbinde dich nun mit einer Remote Konsole deiner Wahl auf deinen Dedicated Server.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/cozRqRt9KLTMCkd/preview)
+![image](https://user-images.githubusercontent.com/26007280/217033937-d9b15ebc-eb3f-401f-95e2-5cc871f3b018.png)
 
 
 
