@@ -27,7 +27,7 @@ Für die Einrichtung eines ARK Servers wird die SteamCMD benötigt. Die SteamCMD
 
 Im Anschluss erfolgt der Download. Dieser beinhaltet die **steamcmd.zip** Datei, welche zunächst entpackt werden muss. Erstelle dafür am besten einen separaten Ordner, wo die Datei dann entpackt wird. Als Resultat solltest du nun die **steamcmd.exe** sehen. Führe diese aus und warte, bis der Installationsprozess abgeschlossen ist. 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/H4NFMZXQ62mC3Ca/preview)
+![image](https://user-images.githubusercontent.com/26007280/217031201-9998c3b6-08a7-4550-b8c3-795c7553ca8f.png)
 
 Sobald die Meldung **Loading Steam API... OK** angezeigt wird, wurde der Vorgang erfolgreich abgeschlossen und es kann mit der Installation des ARK Servers begonnen werden. 
 
@@ -39,7 +39,7 @@ Nach der Installation solltest du die Möglichkeit haben, Befehle in der **Steam
 
 Als nächstes erfolgt die Installation. Diese wird mit dem `app_update 376030` Befehl durchgeführt. Die App ID **376030** steht in dem Fall für die **ARK: Survival Evolved Dedicated Server** Applikation. 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/FnYDXDN274Knddw/preview)
+![image](https://user-images.githubusercontent.com/26007280/217031272-ec28f4e4-c981-4053-b97e-ba15be3f1b03.png)
 
 
 
@@ -64,7 +64,7 @@ exit
 
 Damit der Server auch extern sichtbar und erreichbar ist, müssen die verwendeten Server Ports in der Firewall freigeschaltet/weitergeleitet werden. Öffne dazu die Windows Firewall Einstellungen. 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/5LYjRypFNkdjBrZ/preview)
+![image](https://user-images.githubusercontent.com/26007280/217031321-d56cd679-9423-49e5-b477-4412e4ffbc24.png)
 
 
 
@@ -73,7 +73,6 @@ In den Einstellungen müssen nun weitere Regeln angelegt werden. Klicke dazu jew
 - TCP eingehend und ausgehend: 27020
 - UDP eingehend und ausgehend: 27015
 - UDP eingehend und ausgehend: 7777-7778
-
 
 
 ## Konfiguration
@@ -86,9 +85,8 @@ Die eigentliche Einrichtung ist damit bereits abgeschlossen. Weitere Änderungen
 ```
 
 
-
 ## Spielen
 
 Zum Abschluss der Einrichtung kannst du nun den Server starten, indem du die zuvor erstellte **start-ark.bat** Datei ausführst. Hierdurch sollte sich die Konsole des Servers öffnen und der Startprozess beginnen. Wenn alles wie erwartet verläuft, sollte der Server nach dem erfolgreichen Start in der Liste der Server sichtbar sein.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/q7fxET6RTQaRT5Y/preview)
+![image](https://user-images.githubusercontent.com/26007280/217031374-cd159a55-3dc8-4b62-9f1b-0b35bb0917e7.png)
