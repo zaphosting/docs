@@ -21,7 +21,7 @@ Our system checks all resources before the startup process for the above-mention
 
 In case one of your uploaded resources is affected, the server console will provide additional information about it. The content of this information can for example look like the following: 
 
-![image-20230109185341047](C:\Users\flori\AppData\Roaming\Typora\typora-user-images\image-20230109185341047.png)
+![image-20230109185341047](https://user-images.githubusercontent.com/26007280/217035956-c62a44cc-7651-4d87-bf0d-60a870181863.png)
 
 
 
