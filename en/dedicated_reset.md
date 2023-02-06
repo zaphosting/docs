@@ -27,7 +27,7 @@ http://185.223.30.65/wipe.iso
 
 Once the server has been restarted, the Wipe ISO should be automatically detected and loaded. Connect to your dedicated server using a remote console of your choice.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/cozRqRt9KLTMCkd/preview)
+![image](https://user-images.githubusercontent.com/26007280/217034014-ae5b5477-7ac8-4f67-ba6c-3c8e419ad621.png)
 
 
 
