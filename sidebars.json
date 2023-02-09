@@ -7,7 +7,7 @@
                     "firststeps_register",
                     "firststeps_rent_contractorprepaid",
                     "preorders",
-                    "firststeps_rent_location",
+                    "firststeps_location",
                     "community_info",
                     "suggestions"
                 ]
@@ -25,7 +25,6 @@
             "account_contractsandprepaid",
             "account_termination_and_cancellation_period",
             "account_paymentoptions",
-            "account_2factor",
             "account_backup_storage",
             "account_friends",
             "account_cashbox",
@@ -33,8 +32,15 @@
             "account_vouchers",
             "account_donations",
             "account_community_ads",
-            "account_security",
             {
+                "type": "subcategory",
+                "label": "Security",
+                "ids": [
+					"account_2factor",
+					"account_security",
+                ]
+            },
+			{
                 "type": "subcategory",
                 "label": "Partner",
                 "ids": [
