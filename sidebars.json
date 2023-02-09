@@ -37,7 +37,7 @@
                 "label": "Security",
                 "ids": [
 					"account_2factor",
-					"account_security",
+					"account_security"
                 ]
             },
 			{
