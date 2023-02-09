@@ -7,7 +7,7 @@
                     "firststeps_register",
                     "firststeps_rent_contractorprepaid",
                     "preorders",
-                    "firststeps_location",
+                    "firststeps_rent_location",
                     "community_info",
                     "suggestions"
                 ]
@@ -25,6 +25,7 @@
             "account_contractsandprepaid",
             "account_termination_and_cancellation_period",
             "account_paymentoptions",
+            "account_2factor",
             "account_backup_storage",
             "account_friends",
             "account_cashbox",
@@ -32,15 +33,8 @@
             "account_vouchers",
             "account_donations",
             "account_community_ads",
+            "account_security",
             {
-                "type": "subcategory",
-                "label": "Security",
-                "ids": [
-					"account_2factor",
-					"account_security",
-                ]
-            },
-			{
                 "type": "subcategory",
                 "label": "Partner",
                 "ids": [
@@ -248,15 +242,10 @@
                 ]
             }
         ],
-"FiveM": [{
-                "type": "subcategory",
-                "label": "First Steps",
-                "ids": [
-					"fivem_dashboard",
-					"fivem_windowsorlinux",
-					"fivem_upvotes"
-                ]
-            },
+        "FiveM": [
+            "fivem_dashboard",
+            "fivem_windowsorlinux",
+            "fivem_upvotes",
             {
                 "type": "subcategory",
                 "label": "Configuration & Administration",
@@ -266,8 +255,6 @@
                     "fivem_servername_color",
                     "fivem_rcon",
                     "fivem_licensekey",
-					"fivem-steam-web-api-key",
-					"fivem_whitelist.md",
                     "fivem_deletecache",
                     "fivem_useprofiler",
                     "fivem_mastadon",
@@ -276,8 +263,6 @@
                     "fivem_devtools",
                     "fivem_gamebuild",
                     "fivem_gamechange"
-		    "fivem_whitelist"
-		    "fivem-steam-web-api-key"	
                 ]
             },
             {
@@ -328,21 +313,6 @@
                 "label": "QBCore",
                 "ids": [
                     "fivem_qbcore_admin"
-                ]
-            }
-        ],
-	"RedM": [{
-                "type": "subcategory",
-                "label": "Configuration & Administration",
-                "ids": [
-		     "redm_change_servericon"
-                ]
-            },
-            {
-                "type": "subcategory",
-                "label": "Resources & Mods",
-                "ids": [
-                    "redm_installresources"
                 ]
             }
         ],
