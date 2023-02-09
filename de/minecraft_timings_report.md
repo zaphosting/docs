@@ -32,7 +32,7 @@ Damit der Timings-Report nun wirklich erstellt und exportiert wird, muss der fol
 
 Nach einigen Sekunden erscheint nun eine Nachricht, dass der Export erfolgreich war und der Timings-Report durch den Link mittels eines Klicks geöffnet werden kann.
 
-![](https://i.imgur.com/Akum9cl.png)
+![image](https://user-images.githubusercontent.com/26007280/217858464-3032bea9-8c9b-4793-9cff-5654238cb282.png)
 
 ## Auswertung
 
@@ -40,13 +40,13 @@ Nach einigen Sekunden erscheint nun eine Nachricht, dass der Export erfolgreich 
 
 Nachdem der Timings-Report wie oben beschrieben exportiert und geöffnet wurde, sollte ein ähnliches Fenster wie dieses erscheinen:
 
-![](https://i.imgur.com/X6ErJGe.png)
+![image](https://user-images.githubusercontent.com/26007280/217858514-2c42db5e-51ad-4e5b-aeb9-3b5710accb61.png)
 
 Als erstes sollte man einen genaueren Blick auf den Graphen werfen, um sich grobe Werte zu den einzelnen Aufnahmepunkten anschauen zu können, indem man mit der Maus über die einzelnen Punkte fährt.
 
 Um möglichste genaue Werte zu erhalten, welche sich auf ein mögliches Problem auf Server bezieht sollte zunächste der problematische Zeitraum wie im Graphen einzusehen durch die Schieberegler darunter eingegrenzt werden.
 
-![](https://i.imgur.com/k3pHKOi.gif)
+![image](https://user-images.githubusercontent.com/26007280/217858561-bf2febcf-904e-4694-99e2-9dfdcdcc0091.png)
 
 ### Server-Werte untersuchen
 
