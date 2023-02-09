@@ -31,7 +31,7 @@ In order to create and export the Timings report you have to use the following c
 
 After a few seconds a message appears stating that the export was successful. The Timings-Report can be opened by clicking the link.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/Q5r26Ryb2BYjmxX/preview)
+![image](https://user-images.githubusercontent.com/26007280/217858875-1feea824-9642-4026-a08d-ab45604af2c6.png)
 
 ## Analysis
 
@@ -39,13 +39,13 @@ After a few seconds a message appears stating that the export was successful. Th
 
 Once the Timings report has been exported and opened as described above, a window similar to this one should appear:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/rG2TCfCmjJ5ae64/preview)
+![image](https://user-images.githubusercontent.com/26007280/217858906-38d680a6-422e-4495-8479-38ed97a0a3da.png)
 
 First of all, a closer look at the graph should be taken to be able to check rough values for the individual recording points by moving the mouse over the individual points.
 
 In order to get the most accurate values possible, which refer to a possible problem on the server, the problematic period should first be narrowed down by the sliders below, as shown in the graph:
 
-![](https://i.imgur.com/k3pHKOi.gif)
+![image](https://user-images.githubusercontent.com/26007280/217858947-054902c7-7095-462e-9499-c4e8c7f86faf.png)
 
 ### Investigate server values
 
