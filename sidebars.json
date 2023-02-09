@@ -184,12 +184,24 @@
                 ]
             }
         ],
-        "Voicebot/Voiceserver": [
-            "voiceserver_voicebot_connection",
-            "voiceserver_becomeadmin",
-            "voiceserver_configuration",
-            "voiceserver_ts3backup",
-            "voiceserver_query"
+                "Voicebot/Voiceserver": [{
+                "type": "subcategory",
+                "label": "Voicebot",
+                "ids": [
+					"voiceserver_voicebot_connection"
+                ]
+            },
+            {
+                "type": "subcategory",
+                "label": "Voiceserver",
+                "ids": [
+					"voiceserver_becomeadmin",
+					"voiceserver_configuration",
+					"voiceserver_ts3backup",
+					"voiceserver_query"
+                ]
+            }
+
         ],
         "Minecraft": [{
                 "type": "subcategory",
