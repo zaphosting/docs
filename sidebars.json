@@ -134,16 +134,27 @@
                 ]
             }
         ],
-        "Dedicated Server": [
-            "dedicated_ilo",
-            "dedicated_iso",
-            "dedicated_windows",
-            "dedicated_linux_debian",
-            "dedicated_linux_ubuntu",
-            "dedicated_freebsd",
-            "dedicated_centos",
-            "dedicated_raid",
-            "dedicated_reset"
+        "Dedicated Server": [{
+                "type": "subcategory",
+                "label": "First Steps",
+                "ids": [
+					"dedicated_ilo",
+                    "dedicated_iso",
+				    "dedicated_raid",
+					"dedicated_reset"
+                ]
+            },
+            {
+                "type": "subcategory",
+                "label": "Installation of operating system",
+                "ids": [
+					"dedicated_windows",
+					"dedicated_linux_debian",
+					"dedicated_linux_ubuntu",
+					"dedicated_freebsd",
+					"dedicated_centos"
+                ]
+            }
         ],
         "Webspace & Domains": [{
                 "type": "subcategory",
