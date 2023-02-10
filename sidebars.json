@@ -98,6 +98,7 @@
 					"vserver_linux_ftp_install",
 					"vserver_linux_mariadbinstall",
 					"vserver_linux_nextcloud",
+					"vserver_linux_mastodon",
 					"vserver_linux_docker",
 					"vserver_linux_plesk",
                     "vserver_linux_openvpn",
