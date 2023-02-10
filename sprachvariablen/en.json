@@ -989,6 +989,7 @@
       "Voicebot/Voiceserver": "Voicebot/Voiceserver",
       "Minecraft": "Minecraft",
       "FiveM": "FiveM",
+      "RedM": "RedM",
       "RageMP": "RageMP",
       "Alt:V": "Alt:V",
       "Satisfactory": "Satisfactory",
@@ -1017,7 +1018,9 @@
       "Last Oasis": "Last Oasis",
       "Discord Bot": "Discord Bot",
       "Truck Sim": "Truck Sim",
-      "V Rising": "V Rising"
+      "V Rising": "V Rising",
+      "Stormworks": "Stormworks",
+      "Core Keeper": "Core Keeper"
     }
   },
   "pages-strings": {
