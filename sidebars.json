@@ -269,9 +269,9 @@
                     "fivem_notlisted",
                     "fivem_devtools",
                     "fivem_gamebuild",
-                    "fivem_gamechange"
-		    "fivem-steam-web-api-key"
-		    "fivem_whitelist"
+                    "fivem_gamechange",
+					"fivem-steam-web-api-key",
+					"fivem_whitelist"
                 ]
             },
             {
