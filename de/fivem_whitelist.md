@@ -1,9 +1,9 @@
-```
+---
 id: fivem_whitelist
 title: FiveM: Whitelist
-description: Informationen zur Nutzung einer Whitelist bei FiveM Server von ZAP-Hosting - ZAP-Hosting.com Dokumentationen
+description: Informationen zur Nutzung einer Whitelist bei FiveM Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Whitelist
-```
+---
 
 
 
