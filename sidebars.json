@@ -67,7 +67,7 @@
                     "gameserver_databases_pma",
                     "gameserver_database_external_access"
                 ]
-            },
+            }
         ],
         "vServer & Rootserver": [
             "vserver_root_unterschied",
