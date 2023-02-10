@@ -289,7 +289,8 @@
         "sidebar_label": "Install Mods"
       },
       "firststeps_locations": {
-        "title": "firststeps_locations"
+        "title": "ZAP-Hosting: Locations",
+        "sidebar_label": "Locations"
       },
       "firststeps_problem_melden": {
         "title": "ZAP-Hosting: What to do if you have problems with your server?",
@@ -452,7 +453,8 @@
         "sidebar_label": "Remove Speedometer"
       },
       "fivem_whitelist": {
-        "title": "fivem_whitelist"
+        "title": "FiveM: Whitelist",
+        "sidebar_label": "Whitelist"
       },
       "fivem-steam-web-api-key": {
         "title": "FiveM: Steam Web API Key setup",
