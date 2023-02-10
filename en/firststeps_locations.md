@@ -1,4 +1,9 @@
-
+---
+id: firststeps_locations
+title: ZAP-Hosting: Locations
+description: ZAP Hosting Locations Information - ZAP-Hosting.com documentation
+sidebar_label: Locations
+---
 
 More locations, faster connections and more enjoyment with the server. This is the goal of ZAP-Hosting, which was founded in 2010 in Germany where it also offered its first server location. More locations have been added steadily since then to provide the best possible experience for all of our customers. 
 
