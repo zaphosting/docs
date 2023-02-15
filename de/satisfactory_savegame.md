@@ -1,90 +1,77 @@
 ---
 id: satisfactory_savegame
-title: Savegame-Manager
-sidebar_label: Savegame-Manager
+title: Savegame Manager
+sidebar_label: Savegame Manager
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/EC4FXT5Mwb8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Unser Interface bietet dir einen bequemen Weg deine Savegames zu verwalten. Mit wenigen Klicks kannst du ein eigenes Savegame hochladen.
-Den "Savegame-Manager" findest du unter Einstellungen in deinem Server Dashboard.
 
-> Dein Server speichert alle 5 Minuten automatisch, es werden immer die letzten 6 Autosaves deines Servers behalten. 
+**📺Video:** Do you prefer instructions in the form of a video or as an additional visual supplement? No problem! We also provide a video for this topic: 
 
-## Neues Savegame
-Satisfactory bietet dir die Wahl zwischen 4 verschiedenen Welten
+<iframe width="560" height="315" src="https://www.youtube.com/embed/H-bdMJTQkSM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-![](https://screensaver01.zap-hosting.com/index.php/s/TG5yRDNFrGXQLGW/preview)
+Du kannst deine Spielstände ganz einfach über unsere Website bearbeiten. Mit nur wenigen Klicks kannst du deine Savegames verwalten, hochladen und wiederherstellen. Navigieren dazu im Dashboard deines Servers zu `Savegame Manager`.
 
-Du findest in deinem Savegame-Manager 4 verschiedene Saves mit unterschiedlichen Namen
+> Hinweis: Dein Server speichert automatisch in Abständen von 5 Minuten und behält immer die letzten 6 automatischen Speicherungen.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/8TodT3dCHaGtznB/preview)
 
-grass-fields.sav ist Grasfelder
-rocky-desert.sav ist Felswüste
-northern-forest ist Nördlicher Wald
-dune-desert ist Dünenlandschaft
 
-Suche dir eine der Karten aus, diese zeichnen sich durch unterschiedliche Aspekte, aus und folgen auch unterschiedlichen Schwierigkeitsgraden.
-Für Satisfactory Neulinge bietet sich Grasfelder an, da es viele gerade Flächen und sehr viel Platz bietet.
+## Savegame herunterladen
 
-Trage nun dein gewünschtes Savegame bei "Aktives Savegame" ein, achte darauf nur den Namen ohne das .sav einzutragen
+Das Herunterladen deines Spielstands ist sehr einfach. Gehe dazu zum Abschnitt `Savegame Manager` im Webinterface:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/HkXtdFGqqRzbdNC/preview)
+![Screenshot 2023-02-04 002245](https://user-images.githubusercontent.com/42719082/216734438-33eb2c0a-970c-4a8e-b250-ece262f94978.png)
 
-Bei jedem Server Stopp wird automatisiert das älteste erstellte Savegame geladen.
-Es könnte also bei einem Server Stopp immer zu einem kleinen Rollback kommen, da der Fortschritt lediglich alle 5 Minuten gespeichert wird.
-Im Zweifel warte also noch bis zu 5 Minuten bis du deinen Server stoppst, somit sollte kein Datenverlust auftreten.
+Scrolle nach unten und am unteren Ende der Seite siehst du deine aktiven Spielstände und alle Sicherungen, die du derzeit von deinen Spielständen hast. Zum Herunterladen klickst du einfach auf die Schaltfläche "Herunterladen" auf der rechten Seite der Datei, die du herunterladen möchtest.
 
-Starte danach einfach deinen Server und das gewünschte Savegame wird geladen
+![Screenshot 2023-02-04 003915](https://user-images.githubusercontent.com/42719082/216735431-ad1fb5c8-773b-40b3-ad6e-62142415b9c6.png)
 
-## Dein eigenes Savegame
-Eigene Savegames können ebenfalls bequem über den Savegame-Manager eingebunden werden.
-Hierzu lokalisiere dein Savegame auf deinem Computer
 
-Drücke `Windows-Taste + R` 
-und kopiere dort diesen Pfad hinein: `%LOCALAPPDATA%\FactoryGame\Saved\SaveGames\`
 
-![](https://screensaver01.zap-hosting.com/index.php/s/JSJoocLZyiipZzp/preview)
+## Eigenes Savegame verwenden
 
-Es öffnet sich nun dein Savegame-Verzeichnis von Satisfactory, dort findest du alle welche sich in deinem Spiel befinden.
-Anhand des Änderungsdatums solltest du diese identifizieren können.
+Die Verwendung eines eigenen Spielstandes ist sehr einfach, indem du den Savegame Uploader Bereich des Savegame Managers benutzt.
+Allerdings musst du zunächst das Savegame auf deinem eigenen Computer finden.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/kHqYB2bDt5RiMNT/preview)
+> Es kann vorkommen, dass dein Inventar nicht richtig gespeichert wird. Stelle also sicher, dass du die Gegenstände in die Kisten legst und speicherst, bevor du weitermachst.
 
-Als nächstes solltest du das Savegame umbennenen, ich würde empfehlen alles bis auf den Hauptnamen zu entfernen.
-In diesem Beispiel würde das Savegame also am Ende "TolleSpiel" heißen.
+Drücke `Windows-Key + R` und kopiere diesen Pfad dort hinein: `%LOCALAPPDATA%\FactoryGame\Saved\SaveGames\`
+Nun befindest du dich im Ordner "SaveGames" deines Satisfactory-Spiels. Drücke jetzt auf den Ordner mit den vielen Zahlen (grün auf dem Screenshot).
 
-Kopiere nun dein Savegame einfach per Drag&Drop in unseren Savegame-Manager
+![Screenshot 2023-02-04 004351](https://user-images.githubusercontent.com/42719082/216735823-397d0c03-5f4f-467c-8ceb-95dc3574d840.png)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/Wy2bteaWAT4r7FD/preview)
+Du bist jetzt in deinem Savegame-Verzeichnis deines Spiels. In diesem Ordner kannst du alle Savegames sehen, die du hast.
+Du solltest in der Lage sein, die Savegames anhand des Dateinamens, des Datums, des Zeitstempels oder der Größe zu identifizieren. Wenn du Autosaves verwendest, ist `x_autosave_0` immer das Letzte, das gespeichert wurde.
 
-und trage bei "Aktives Savegame" den Namen deines Savegames ein.
+![Screenshot 2023-02-04 004903](https://user-images.githubusercontent.com/42719082/216736126-9ead16f1-1f81-410c-8271-fdb915fac348.png)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/8XG5BEGw3BzWzJ3/preview)
+> Optional: Wir empfehlen, alles außer dem Namen des Spielstands selbst zu entfernen, um ihn in Zukunft leichter identifizieren zu können. In diesem Beispiel würde das Savegame "Factory" heißen.
 
-Wenn du den Server nun startest, wird das Savegame geladen.
+Lade nun deine Datei über den Savegame Manager per Drag & Drop auf deinen Server hoch:
 
-> Es wäre möglich das du nicht dein eigenes Inventar behältst, alle Objekte darin könnten also verloren gehen
+![Screenshot 2023-02-04 005404(1)](https://user-images.githubusercontent.com/42719082/216736491-11424805-59c3-421f-bb84-e3b3ab8e6da1.png)
 
-## Savegames editieren
-Wenn du etwas an deinem Savegame verändern möchtest, beispielweise Cheaten, ist der einzige Weg einen Savegame Editor zu nutzen.
-Beispielsweise könnte [dieser](https://github.com/Goz3rr/SatisfactorySaveEditor) Savegame Editor benutzt werden. 
-Download Version [0.9.17](https://github.com/Goz3rr/SatisfactorySaveEditor/releases/tag/v0.9.17)
+Stelle zum Schluss sicher, dass du das `Active savegame` oben auf der Seite in den Namen des hochgeladenen Spiels änderst und drücke auf Speichern! In diesem Beispiel heißt die hochgeladene Datei "Factory", also wird sie in diesen Namen geändert.
 
-Lade das Savegame in deinem Savegame-Manager herunter und öffne es im Savegame Editor (File > Open Recent)
+![Screenshot 2023-02-04 005836](https://user-images.githubusercontent.com/42719082/216736588-9b0a8258-8f06-4f48-9645-48c0d25c22f6.png)
 
-Wenn du das Inventar eines Spielers verändern möchtest, suche nach:
-`FactoryGame.FGInventoryComponent` darin suchst du nach `Persistent_Level:PersistentLevel.Char_Player_C *************.Inventory`
-Bei mehreren Spielern gibt es natürlich hierbei mehrere Einträge, du musst am Inhalt des Inventars identifizeiren welches Profil das richtige ist.
-Angenommen du möchtest nun die Anzahl der Power Shards in deinem Inventar verändern, suche dir diesen Eintrag heraus und verändere "NumItems" zur gewünschten Anzahl
+Wenn du nun das nächste Mal den Server startest, wird das Savegame geladen.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/LsGsCAAEW49wQzw/preview)
 
-Wenn du die Änderungen durchgeführt hast, klicke auf File und Save.
 
-Du kannst nun das editierte Savegame wieder hochladen und den Server starten.
+## Savegames bearbeiten
+Wenn du dein Savegame verändern möchtest, um beispielsweise zu cheaten, ist das Editieren deines Savegames die einzige Möglichkeit dazu.
+Dafür kannst du [das Satisfactory Save Editor Tool] (https://github.com/Goz3rr/SatisfactorySaveEditor) verwenden.
 
-Der Savegame Editor bietet dir u.a. noch einige weitere Cheats öffne hierzu einfach "Cheats"
+> Wir können die volle Funktionalität des Tools nicht garantieren, da es sich um ein Open-Source-Projekt handelt. 
 
-> Für die Funktionalität dieser Cheats können wir nicht garantieren
+Downloade das Savegame von deinem Savegame-Manager und öffne es im Savegame-Editor ("Datei > Zuletzt öffnen")
+
+Wenn du zum Beispiel das Inventar ändern möchtest, suche nach:
+`FactoryGame.FGInventoryComponent` in dieser Suche nach `Persistent_Level:PersistentLevel.Char_Player_C *************.Inventory`
+
+Wenn du mehr Spieler hast, gibt es mehr Einträge, du könntest den Spieler anhand der Gegenstände im Inventar identifizieren. Wenn du zum Beispiel die Anzahl der Machtsplitter in deinem Inventar ändern möchtest, suche nach diesem Gegenstand und ändere den Wert in "NumItems".
+
+Wenn du mit deinen Änderungen fertig bist, öffne " Datei " und drücke Speichern. Nun kannst du das bearbeitete Savegame wieder hochladen und den Server starten.
+
+Der Savegame-Editor bietet dir noch einige weitere Cheats, öffne dazu einfach den "Cheats"-Tab
