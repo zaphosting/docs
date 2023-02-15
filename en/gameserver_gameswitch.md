@@ -48,7 +48,9 @@ Once activated, you can play your new game on your server. In the overview you c
 
 ![image](https://user-images.githubusercontent.com/13604413/159170838-d3c792fa-4684-4560-8e07-dfa227603d01.png)
 
-Via the game server cloud, you can reinstall your game servers with one click (Attention: All data of the game will be deleted during reinstallation):
+Via the game server cloud, you can reinstall your game servers with one click:
+
+> ***Attention:*** All data of the game will be deleted during reinstallation
 
 ![image](https://user-images.githubusercontent.com/13604413/159170841-d6c08d01-6393-45a7-ac7d-54bc8bc14e0c.png)
 
@@ -62,6 +64,8 @@ You can select your new slot price in the edit box. The additional amount that h
 
 ![image](https://user-images.githubusercontent.com/13604413/159170847-33972191-3c8c-46eb-9549-857b903d3e6f.png)
 
-If the slot price changes, your booked slots will automatically be adjusted. Attention: If the slot price is reduced below the slot price for the installed games, then those games will be deleted!
+If the slot price changes, your booked slots will automatically be adjusted.
+
+> Note: If the slot price is reduced below the slot price for the installed games, then those games will be deleted!
 
 ![image](https://user-images.githubusercontent.com/13604413/159170851-18689a22-7ac4-4697-95ab-0ec179c7560d.png)
