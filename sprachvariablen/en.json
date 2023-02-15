@@ -630,8 +630,8 @@
         "sidebar_label": "Connect to the Server"
       },
       "satisfactory_savegame": {
-        "title": "Savegame-Manager",
-        "sidebar_label": "Savegame-Manager"
+        "title": "Savegame Manager",
+        "sidebar_label": "Savegame Manager"
       },
       "scp_becomeadmin": {
         "title": "SCP: Secret Laboratory: Become an admin on your own server",
