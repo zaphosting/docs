@@ -15,7 +15,18 @@ With plugins you have the possibility to customize your server even more. Below 
 
 ### Preparation
 
-First of all, you need to download the plugins that will be installed on the server. A large selection of plugins can be found at (https://plugins.exiled.host/). During the download you will receive a **.dll** file. 
+First of all, you need to download the plugins that will be installed on the server. A large selection of EXILED Plugins can be found on their own github (https://github.com/Exiled-Team) and once selected the plugin repo, a releases section will appear on the side to which you will be brought to a download page, instructions on how to do this will be shown below.
+
+### Downloading plugins
+
+To download a plugin you will need to head to the EXILED Github as shown below and select a plugin-repo.
+![image](https://user-images.githubusercontent.com/17176877/219128457-a7a4aa64-5b7c-4778-9602-fa1286150b51.png)
+
+Once you have found the plugin-repo you wish to download a releases section will appear on the right side.
+![image](https://user-images.githubusercontent.com/17176877/219128727-89f515af-394d-44d6-beb5-3ee6bed1a90b.png)
+
+Once you selected the release section it will provide a **.dll** resource, once clicking on this a download will begin.
+![image](https://user-images.githubusercontent.com/17176877/219129751-2303885c-f09f-4513-ad92-699d6bc49546.png)
 
 
 ### Installation
