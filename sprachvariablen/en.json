@@ -313,8 +313,8 @@
         "sidebar_label": "The first steps"
       },
       "fivem_change_servericon": {
-        "title": "RedM: Server Icon für Serverliste ändern",
-        "sidebar_label": "Server Icon ändern"
+        "title": "FiveM: Server Icon für Serverliste ändern",
+        "sidebar_label": "Change server icon"
       },
       "fivem_changeloadingscreen": {
         "title": "FiveM: Install/change loadingscreen for FiveM-Server",
@@ -597,6 +597,10 @@
         "title": "RageMP: Installing packages on servers",
         "sidebar_label": "Installing packages"
       },
+      "redm_change_servericon": {
+        "title": "RedM: Change server icon for the server list",
+        "sidebar_label": "Change server icon"
+      },
       "redm_installresources": {
         "title": "RedM: Installing resources, mods and scripts on server",
         "sidebar_label": "Resource installation"
@@ -640,6 +644,10 @@
       "scp_colored_servername": {
         "title": "Colored Servername",
         "sidebar_label": "Colored Servername"
+      },
+      "scp_firststeps_connect": {
+        "title": "SCP: Connect to the server",
+        "sidebar_label": "Connect to the server"
       },
       "scp_newroles": {
         "title": "SCP: Secret Laboratory Server: Adding new roles",
@@ -736,6 +744,10 @@
       "valheim_connect": {
         "title": "Valheim: Connecting to Valheim servers",
         "sidebar_label": "Connect to a Server"
+      },
+      "valheim_firststeps_connect": {
+        "title": "Valheim: Connect to the server",
+        "sidebar_label": "Connect to the server"
       },
       "valheim_plugins_bepinex": {
         "title": "Valheim: Installing plugins on server (BepInEx)",
