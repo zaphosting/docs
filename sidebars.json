@@ -91,7 +91,7 @@
             },
 			{
                 "type": "subcategory",
-                "label": "Installation of services (Linux)",
+                "label": "Services (Linux)",
                 "ids": [
                     "vserver_linux_webserver",
 	            "vserver_linux_java",
@@ -122,7 +122,7 @@
             }, 
 			{
                 "type": "subcategory",
-                "label": "Installation of services (Windows)",
+                "label": "Services (Windows)",
                 "ids": [
                     "vserver_windows_ftpserver",
                     "vserver_windows_installmysql",
@@ -131,7 +131,7 @@
             },
 			{
                 "type": "subcategory",
-                "label": "Installation of game server (Windows)",
+                "label": "Game server services (Windows)",
                 "ids": [
 					"vserver_windows_valheim",
                     "vserver_windows_vrising",
@@ -153,7 +153,7 @@
             },
             {
                 "type": "subcategory",
-                "label": "Installation of operating system",
+                "label": "Operating system",
                 "ids": [
 					"dedicated_windows",
 					"dedicated_linux_debian",
@@ -211,6 +211,13 @@
 
         ],
         "Minecraft": [{
+                "type": "subcategory",
+                "label": "First Steps",
+                "ids": [
+                    "minecraft_firststeps_connect"
+                ]
+            },
+			{
                 "type": "subcategory",
                 "label": "Administration",
                 "ids": [
@@ -437,7 +444,13 @@
             "valheim_plus",
             "valheim_plugins_bepinex"
         ],
-        "SCP: Secret Laboratory": [
+        "SCP: Secret Laboratory": [{
+                "type": "subcategory",
+                "label": "First Steps",
+                "ids": [
+                    "scp_firststeps_connect"
+                ]
+            },		
             "scp_becomeadmin",
             "scp_newroles",
             "scp_colored_servername",
@@ -521,7 +534,7 @@
         "V Rising": [
             "vrising-becomeadmin"
         ],
-	"Stormworks": [
+	    "Stormworks": [
             "stormworks-becomeadmin"
         ],
 		"Core Keeper": [{

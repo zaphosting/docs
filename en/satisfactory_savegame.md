@@ -4,6 +4,9 @@ title: Savegame Manager
 sidebar_label: Savegame Manager
 ---
 
+**📺Video:** Do you prefer instructions in the form of a video or as an additional visual supplement? No problem! We also provide a video for this topic: 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/EC4FXT5Mwb8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 You can easily modify savegames through our interface. With only a few clicks you can manage your savegames including uploading and restoring.
 Navigate to `Savegame Manager` in your server's dashboard. 
 
