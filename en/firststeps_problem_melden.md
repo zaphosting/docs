@@ -10,7 +10,7 @@ sidebar_label: Report problems
 Your server won't start? Or are there problems that you can't solve on your own? No problem! We are here for you. However, we recommend the following procedure in order to enable a quick and uncomplicated use of your products.
 
 
-Whether only your server is affected, a whole cluster or even the whole data center, you can easily find out in our [Fault Reports](https://zap-hosting.com/en/interruption/) where we provide exact information about current malfunctions and failures. If one of your products is acutely affected, we will inform you about a malfunction via a symbol next to your product.
+Whether only your server is affected, a whole cluster or even the whole data center, you can easily find out in our [Fault Reports](https://status.zap-hosting.com/) where we provide exact information about current malfunctions and failures. If one of your products is acutely affected, we will inform you about a malfunction via a symbol next to your product.
 
 
 ## A ticket saves time!
@@ -42,8 +42,9 @@ If live chat is not an option for you and you still want to report your problem 
 
 ![image](https://user-images.githubusercontent.com/61953937/159140646-2389853a-22f1-4fcb-9882-aa5e37dececf.png)
 
-> Define your request exactly here and submit the ticket. You'll be emailed, as well as notified in LiveChat, as soon as you have a reply!
 
-## No help via social media?
+> Important: To ensure that your issue can be resolved as quickly as possible, it is important that the problem is described as detailed as possible. Any additional information about the error message or screenshots may also help. No help via social media?
+>
+> 
 
 No, because our customer data is sacred to us - just like fast support. That's exactly why we refer customers who ask us for direct advice in Tweets, Facebook or on Instagram **always** to our Live Chat. This is the only way our supporters have direct access to the affected products and can solve any problems. 

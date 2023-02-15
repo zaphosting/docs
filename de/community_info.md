@@ -21,11 +21,10 @@ Gestartet haben wir damals wie viele anderen Firmen auch auf [Facebook](https://
 Auf unserem [YouTube Kanal](https://www.youtube.com/user/zaphosting) bringen wir euch regelmäßig Tutorials zu unseren Produkten, Informationen zu den interessantesten Games und natürlich auch hier HD-Einblicke in alles, was in unserer Firma so passiert.
 
 ## Twitch
-Wer sich mit Gameservern beschäftigt, der muss sie natürlich auch testen. Genau aus diesem Grund entsprachen wir dem Wunsch und etablierten einen [eigenen Twitch Kanal](https://www.twitch.tv/zaphostinglive/)! Hier sind wir regelmäßig live und präsentieren unter Anderem unsere Gameserver, testen neue Modpacks, oder verwirklichen gigantische Giveaways!
+Wer sich mit Gameservern beschäftigt, der muss sie natürlich auch testen. Genau aus diesem Grund entsprachen wir dem Wunsch und etablierten einen [eigenen Twitch Kanal](https://www.twitch.tv/zaphosting)! Hier sind wir regelmäßig live und präsentieren unter Anderem unsere Gameserver, testen neue Modpacks, oder verwirklichen gigantische Giveaways!
 
 ## Discord
 Natürlich bieten wir unserer Community auch einen gemeinsamen Discord Server. Hier bekommt ihr die Chance, euch mit anderen Gamern auszutauschen, euch über neue Updates zu informieren und mit unseren Mitarbeitern ein wenig zu chatten. Du hast Lust dem Server beizuteten? Dann nutze [diese Einladung](https://discord.gg/zaphosting).
 
 ## Der direkte Draht
 Natürlich kann man uns über jede der oben genannten Plattformen auch persönlich kontaktieren. Jedoch möchten wir betonen, dass wir über Social Media keinen direkten Support anbieten können und werden. Wendet euch deshalb bei Server-bezogenen Problemen bitte *immer* direkt an unseren Live Chat oder das Ticket System wie in /firststeps_problem_melden beschrieben. Für alle anderen Anliegen stehen wir euch hier aber immer gern zur Verfügung.
-

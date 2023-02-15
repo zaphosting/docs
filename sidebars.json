@@ -7,7 +7,7 @@
                     "firststeps_register",
                     "firststeps_rent_contractorprepaid",
                     "preorders",
-                    "firststeps_rent_location",
+                    "firststeps_locations",
                     "community_info",
                     "suggestions"
                 ]
@@ -25,7 +25,6 @@
             "account_contractsandprepaid",
             "account_termination_and_cancellation_period",
             "account_paymentoptions",
-            "account_2factor",
             "account_backup_storage",
             "account_friends",
             "account_cashbox",
@@ -33,8 +32,15 @@
             "account_vouchers",
             "account_donations",
             "account_community_ads",
-            "account_security",
             {
+                "type": "subcategory",
+                "label": "Security",
+                "ids": [
+					"account_2factor",
+					"account_security"
+                ]
+            },
+			{
                 "type": "subcategory",
                 "label": "Partner",
                 "ids": [
@@ -49,19 +55,19 @@
             "gameserver_resourcelimit",
             "gameserver_gameswitch",
             "gameserver_upgrade",
-            {
+            "gameserver_ftpaccess",
+            "gameserver_restartplaner",
+            "gameserver_backups",
+            "gameserver_server_down_what_now",
+            "gameserver_tebex",
+			{
                 "type": "subcategory",
                 "label": "Databases",
                 "ids": [
                     "gameserver_databases_pma",
                     "gameserver_database_external_access"
                 ]
-            },
-            "gameserver_ftpaccess",
-            "gameserver_restartplaner",
-            "gameserver_backups",
-            "gameserver_server_down_what_now",
-            "gameserver_tebex"
+            }
         ],
         "vServer & Rootserver": [
             "vserver_root_unterschied",
@@ -76,21 +82,28 @@
                     "vserver_linux_sshkey",
                     "vserver_linux_ssh2fa",
                     "vserver_linux_password_change",
-                    "vserver_linux_java",
-                    "vserver_linux_mariadbinstall",
-                    "vserver_linux_phpmyadmin",
-                    "vserver_linux_ftp_install",
+					"vserver_linux_gs_interface",
                     "vserver_linux_ftp",
-                    "vserver_linux_docker",
-                    "vserver_linux_plesk",
-                    "vserver_linux_openvpn",
-                    "vserver_linux_gs_interface",
-                    "vserver_linux_nextcloud",
                     "vserver_linux_add_ip",
                     "vserver_linux_ssl",
-                    "vserver_linux_rsync",
-                    "vserver_linux_jitsi",
+                    "vserver_linux_rsync"
+                ]
+            },
+			{
+                "type": "subcategory",
+                "label": "Installation of services (Linux)",
+                "ids": [
                     "vserver_linux_webserver",
+	            "vserver_linux_java",
+		    "vserver_linux_ftp_install",
+		    "vserver_linux_mariadbinstall",
+		    "vserver_linux_nextcloud",
+		    "vserver_linux_mastodon",
+		    "vserver_linux_docker",
+		    "vserver_linux_plesk",
+                    "vserver_linux_openvpn",
+		    "vserver_linux_phpmyadmin",
+		    "vserver_linux_jitsi",
                     "vserver_linux_xrdp",
                     "vserver_linux_cockpit"
                 ]
@@ -103,27 +116,52 @@
                     "vserver_windows_port",
                     "vserver_windows_addip",
                     "vserver_windows_nointernet",
+                    "vserver_windows_change_language",
+                    "vserver_windows_expand_disk"
+                ]
+            }, 
+			{
+                "type": "subcategory",
+                "label": "Installation of services (Windows)",
+                "ids": [
                     "vserver_windows_ftpserver",
                     "vserver_windows_installmysql",
-                    "vserver_windows_plesk",
-                    "vserver_windows_change_language",
-                    "vserver_windows_expand_disk",
-                    "vserver_windows_fs_19",
-                    "vserver_windows_fs_22",
-                    "vserver_windows_vrising"
+                    "vserver_windows_plesk"
+                ]
+            },
+			{
+                "type": "subcategory",
+                "label": "Installation of game server (Windows)",
+                "ids": [
+					"vserver_windows_valheim",
+                    "vserver_windows_vrising",
+                    "vserver_windows_satisfactory",
+					"vserver_windows_fs_19",
+                    "vserver_windows_fs_22"
                 ]
             }
         ],
-        "Dedicated Server": [
-            "dedicated_ilo",
-            "dedicated_iso",
-            "dedicated_windows",
-            "dedicated_linux_debian",
-            "dedicated_linux_ubuntu",
-            "dedicated_freebsd",
-            "dedicated_centos",
-            "dedicated_raid",
-            "dedicated_reset"
+        "Dedicated Server": [{
+                "type": "subcategory",
+                "label": "First Steps",
+                "ids": [
+					"dedicated_ilo",
+                    "dedicated_iso",
+				    "dedicated_raid",
+					"dedicated_reset"
+                ]
+            },
+            {
+                "type": "subcategory",
+                "label": "Installation of operating system",
+                "ids": [
+					"dedicated_windows",
+					"dedicated_linux_debian",
+					"dedicated_linux_ubuntu",
+					"dedicated_freebsd",
+					"dedicated_centos"
+                ]
+            }
         ],
         "Webspace & Domains": [{
                 "type": "subcategory",
@@ -153,12 +191,24 @@
                 ]
             }
         ],
-        "Voicebot/Voiceserver": [
-            "voiceserver_voicebot_connection",
-            "voiceserver_becomeadmin",
-            "voiceserver_configuration",
-            "voiceserver_ts3backup",
-            "voiceserver_query"
+                "Voicebot/Voiceserver": [{
+                "type": "subcategory",
+                "label": "Voicebot",
+                "ids": [
+					"voiceserver_voicebot_connection"
+                ]
+            },
+            {
+                "type": "subcategory",
+                "label": "Voiceserver",
+                "ids": [
+					"voiceserver_becomeadmin",
+					"voiceserver_configuration",
+					"voiceserver_ts3backup",
+					"voiceserver_query"
+                ]
+            }
+
         ],
         "Minecraft": [{
                 "type": "subcategory",
@@ -219,7 +269,9 @@
                     "fivem_notlisted",
                     "fivem_devtools",
                     "fivem_gamebuild",
-                    "fivem_gamechange"
+                    "fivem_gamechange",
+					"fivem-steam-web-api-key",
+					"fivem_whitelist"
                 ]
             },
             {
@@ -273,6 +325,21 @@
                 ]
             }
         ],
+	"RedM": [{
+                "type": "subcategory",
+                "label": "Configuration & Administration",
+                "ids": [
+					"redm_change_servericon"
+                ]
+            },
+            {
+                "type": "subcategory",
+                "label": "Resources & Mods",
+                "ids": [
+                    "redm_installresources"
+                ]
+            }
+        ],    
         "RageMP": [
             "ragemp_installpackages"
         ],
@@ -450,6 +517,20 @@
         ],
         "Truck Sim": [
             "trucksim_dlc"
+        ],
+        "V Rising": [
+            "vrising-becomeadmin"
+        ],
+	"Stormworks": [
+            "stormworks-becomeadmin"
+        ],
+		"Core Keeper": [{
+                "type": "subcategory",
+                "label": "First Steps",
+                "ids": [
+                    "corekeeper-connecttoserver"
+                ]
+            }
         ]
     }
 }

@@ -2,28 +2,41 @@
 id: fivem_prohibited_resources
 title: FiveM Server: Fehlermeldung "Resource contains prohibited logic"?
 description: Informationen zur Fehlermeldung "Resource contains prohibited logic" bei FiveM-Server - ZAP-Hosting.com Dokumentationen
-sidebar_label: Resource contains prohibited logic?
+sidebar_label: Resource contains prohibited logic
 ---
+
+
+
+## Einführung
+
+Die Entwickler von FiveM Ressourcen haben sich in den letzten Jahren große Mühe gegeben, um ihren Quellcode mithilfe von Techniken wie Verschleierung, IP-Locking, Remote Code Loading und anderen Methoden zu schützen. Bedauerlicherweise führen diese Maßnahmen jedoch häufig zu Problemen, wovon viele bereits wissen. Einige dieser Tools verlangsamen nicht nur die Leistung des Codes erheblich, sondern bringen auch zahlreiche Sicherheitsbedenken mit sich.
+
+FiveM hat aus diesem Grund damit begonnen, bösartige Ressourcen zu blockieren, die böswilligen Code enthalten, der darauf ausgelegt ist, Server und andere Ressourcen zu infizieren. Diese Ressourcen versuchen manchmal, ihren Code auf andere Ressourcen "zu verbreiten", um Hackern und Cheatern den Zugriff auf Skripte und Datenbanken zu ermöglichen. Es ist wichtig zu beachten, dass diese Ressourcen im Allgemeinen mit Viren verglichen werden können und daher eine ernsthafte Bedrohung darstellen.
+
+
 
 ## Was bedeutet "Resource enthält verbotene Logik"?
 
-FiveM hat vor kurzem damit begonnen, bösartige Ressourcen zu blockieren, die Code enthalten, um Server und andere Ressourcen darauf zu infizieren, d.h. dass diese Resourcen versuchen, ihren Code auf andere Resourcen zu "verbreiten", um Hackern und Cheatern den Zugriff auf deine Skripte und Datenbank zu ermöglichen.
+Unser System prüft aus den oben genannten Sicherheitsgründen alle Resource vor dem Startvorgang und deaktiviert dabei alle als gefährlich erkannten Resourcen. Dieser Schritt ist zwingend notwendig, weshalb hier leider auch kein Spielraum für Ausnahmen besteht. Die Sicherheit steht an erster Stelle! 
 
+Im Falle dessen, dass eine deiner hochgeladenen Resourcen davon betroffen ist, liefert die Server-Konsole diesbezüglich zusätzliche Informationen. Der Inhalt dieser Informationen kann beispielsweise wie folgt aussehen: 
 
-Du kannst diese Resourcen im Allgemeinen mit Viren vergleichen.
+![image-20230109185341047](https://user-images.githubusercontent.com/26007280/217035909-10035095-c285-4ad7-9853-675c30ec389e.png)
+
 
 
 ## Was kann ich dagegen tun?
 
-Zunächst einmal empfehlen wir dringend, Resourcen zu entfernen, welche diese Nachricht verursachen.
+Als ersten und wichtigsten Schritt dazu empfehlen wir alle schädlich erkannten Resourcen umgehend zu entfernen. Des Weiteren sollten nur Resourcen installiert werden, die aus seriösen Quellen stammen. Eine gute Anlaufstelle dafür ist beispielsweise die offizielle Webseite beziehungsweise das [Forum](https://forum.cfx.re/c/development/releases/7) von FiveM. Dort wird eine große Auswahl an Resourcen angeboten. 
 
-dann stelle sicher, dass nur Resourcen aus seriösen Quellen, wie den [FiveM Foren](https://forum.cfx.re/), und nicht von Websites Dritter heruntergeladen werden. Der Kauf von Resourcen verstößt ebenfalls gegen die FiveM Nutzungsbedingungen und kann dazu führen, dass dein Server auf die blacklist gesetzt wird.
-
-
+Als Entwickler oder eine Person, die kontakt zu dem Entwickler hat, empfehlen wir auf das **FiveM Asset Escrow system** zu verweisen, welches FiveM in Zusammenarbeit mit Tebex entwickelt hat. Diesbezüglich wurde auch ein Beitrag im [FiveM Forum](https://forum.cfx.re/t/introducing-asset-escrow-for-your-resources/4777151) veröffentlicht.
 
 
-## Welche Resourcen sind genau verboten?
 
-Leider gibt es keine offizielle Liste von Resourcen, die zu dieser Meldung führen können. Generell wird empfohlen, Resourcen zu vermeiden, die Skriptdateien aus zufälligen Buchstaben enthalten
 
-Vermeide auch Resourcen, bei denen der Code verschleiert oder versteckt ist, da dies ebenfalls bösartig sein kann.
+## Welche Resourcen genau sind verboten?
+
+Es gibt bedauerlicherweise keine offizielle Liste an Resourcen, die zu dieser Meldung führen können. Prinzipiell sollten generell keine Resourcen verwendet werden, die anderweitige Verschleierungsmethoden im Einsatz haben oder auf dem FiveM Asset Escrow system basieren. 
+
+
+
