@@ -17,9 +17,15 @@ With plugins you have the possibility to customize your server even more. Below 
 
 First of all, you need to download the plugins that will be installed on the server. A large selection of EXILED Plugins can be found on their own github (https://github.com/Exiled-Team) and once selected the plugin repo, a releases section will appear on the side to which you will be brought to a download page, instructions on how to do this will be shown below.
 
-### Downloading plugins
+### Downloading a plugin
+Plugins can be downloaded from many sources for your server. However these are only recognised as the safest options. Please be careful with which plugins you install onto your gameserver - Always check the source of the plugin by looking for its developers and what the plugin actually does.
 
-To download a plugin you will need to head to the EXILED Github as shown below and select a plugin-repo.
+## Download option 1 via SCPSL Site
+By heading to (https://plugins.scpslgame.com/) you will be provided a list of plugins that are featured for use within SCPSL with a github repo link which option 2 explains what to do.
+(At the time of writing this the site is new and is being worked on therefore option 2 has been provided) 
+
+## Download option 2 via Github
+To download a plugin via the github you will need to head to the EXILED Github as shown below and select a plugin-repo.
 ![image](https://user-images.githubusercontent.com/17176877/219128457-a7a4aa64-5b7c-4778-9602-fa1286150b51.png)
 
 Once you have found the plugin-repo you wish to download a releases section will appear on the right side.
@@ -28,6 +34,7 @@ Once you have found the plugin-repo you wish to download a releases section will
 Once you selected the release section it will provide a **.dll** resource, once clicking on this a download will begin.
 ![image](https://user-images.githubusercontent.com/17176877/219129751-2303885c-f09f-4513-ad92-699d6bc49546.png)
 
+And that's it you can now follow the Installation part of this document to learn how to install the **.dll** onto your server.
 
 ### Installation
 
