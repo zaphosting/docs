@@ -508,6 +508,7 @@
         "Rust": [
             "rust_becomeadmin",
             "rust_connectrcon",
+            "rust_commands",
             "rust_plugins",
             "rust_decay"
         ],
