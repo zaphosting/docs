@@ -26,7 +26,7 @@ The whitelist is a list that makes it possible to allow a certain selection of p
 
 Through our resource installer, which you can find in your game server dashboard under **Settings** at **Resources**, you can install our offered whitelist resource per click. Click on the green button at the **Whitelist** resource to install the resource. 
 
-![image-20230109225350949](C:\Users\flori\AppData\Roaming\Typora\typora-user-images\image-20230109225350949.png)
+![image](https://user-images.githubusercontent.com/26007280/219639570-e43bebd5-7821-4f66-a896-540628ae2d22.png)
 
 Once the installation is complete, click on the blue configuration button to configure the whitelist. There you will have the option to add the desired people to the whitelist. 
 
@@ -35,6 +35,6 @@ Once the installation is complete, click on the blue configuration button to con
 
 Under the Whitelist settings the Steam64 IDs of the persons have to be entered. For each line one record will be added. If you don't know what your ID is, you have for example the possibility to check it on the page [steamid.io](https://steamid.io/lookup). Copy the URL from your Steam profile and paste it into the search field. Afterwards you will get the Steam64 ID, which you can enter into the field.
 
-![image-20230109232753996](C:\Users\flori\AppData\Roaming\Typora\typora-user-images\image-20230109232753996.png)
+![image](https://user-images.githubusercontent.com/26007280/219639588-3a74fbe3-cf13-4835-ad30-a1c189b095b0.png)
 
 When restarting the server, the list will now be taken into account and only players that are deposited will be able to connect. 
