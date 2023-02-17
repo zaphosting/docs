@@ -5,16 +5,32 @@ description: Informationen, wie du Plugins auf deinen Exiled Gameserver von ZAP-
 sidebar_label: Plugins installieren
 ---
 
-
 ## Plugins installieren
 
 Mit Plugins hast du die Möglichkeit deinen Server noch individueller anzupassen. Im Folgenden wird erklärt wo du die beliebtesten Servers-Plugins finden kannst und wie du diese eingerichtet werden. 
 
-
-
 ### Vorbereitung
 
-Zunächst einmal müssen die Plugins heruntergeladen werden, die auf dem Server installiert werden sollen. Eine große Auswahl an Plugins findest du unter (https://plugins.exiled.host/). Beim Download erhältst du dann eine **.cs** Datei. 
+Zunächst einmal müssen Sie die Plugins herunterladen, die auf dem Server installiert werden sollen. Eine große Auswahl an EXILED-Seite (https://github.com/Exiled-Team). Sobald Sie das Plugin-Repo ausgewählt haben, erscheint auf der Seite ein Abschnitt "Releases", über den Sie auf eine Download-Seite gelangen; Anweisungen dazu finden Sie unten.
+
+### Herunterladen eines Plugins
+Plugins können von vielen Quellen für Ihren Server heruntergeladen werden. Diese sind jedoch nur als die sichersten Optionen anerkannt. Bitte sei vorsichtig, welche Plugins du auf deinem Gameserver installierst - überprüfe immer die Quelle des Plugins, indem du nach den Entwicklern suchst und was das Plugin tatsächlich tut.
+
+## Option 1 über die SCPSL-Website herunterladen
+Unter (https://plugins.scpslgame.com/) finden Sie eine Liste von Plugins, die für die Verwendung in SCPSL zur Verfügung stehen, mit einem Github Repo Link, der Option 2 erklärt, was zu tun ist.
+(Zum Zeitpunkt des Verfassens dieses Artikels ist die Seite neu und wird gerade überarbeitet, daher wurde Option 2 bereitgestellt) 
+
+## Option 2 über Github herunterladen
+Um ein Plugin über Github herunterzuladen, müssen Sie zum EXILED Github gehen, wie unten gezeigt, und ein Plugin-Repository auswählen.
+![image](https://user-images.githubusercontent.com/17176877/219128457-a7a4aa64-5b7c-4778-9602-fa1286150b51.png)
+
+Sobald Sie das Plugin-Repository gefunden haben, das Sie herunterladen möchten, erscheint auf der rechten Seite ein Abschnitt mit den Veröffentlichungen.
+![image](https://user-images.githubusercontent.com/17176877/219128727-89f515af-394d-44d6-beb5-3ee6bed1a90b.png)
+
+Sobald Sie den Abschnitt "Releases" ausgewählt haben, wird eine **.dll**-Ressource angezeigt, auf die Sie klicken müssen, um den Download zu starten.
+![image](https://user-images.githubusercontent.com/17176877/219129751-2303885c-f09f-4513-ad92-699d6bc49546.png)
+
+Und das war's. Sie können nun dem Installationsteil dieses Dokuments folgen, um zu erfahren, wie Sie die **.dll** auf Ihrem Server installieren.
 
 ### Installation
 
