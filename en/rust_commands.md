@@ -71,12 +71,12 @@ Use the section tabs below to switch between each category. The tables consist o
 
 | Command Syntax                  | Accepted Values | Description | 
 | ----------------------- | ---------- | --------- | 
-| global.kill      | -          | Kill your own player         | 
+| kill      | -          | Kill your own player         | 
 | global.quit      | -          | Saves and quits the game         | 
-| global.respawn      | -          | Respawns your player         | 
-| global.respawn_sleepingbag      | -          | Respawns your player in your sleeping bag         | 
+| global.god      | true/false          | Toggles God mode so the player cannot take any damage (for admins only)          | 
+| global.noclip      | true/false          | Toggles Noclip mode so the player can fly freely (for admins only)          | 
+| global.debugcamera      | true/false          | Toggles Debug camera mode so the player can go into free camera mode (for admins only)          | 
 | player.sleep      | -          | Force your player to go to sleep         | 
-| player.wakeup      | -          | Force your player to wakeup         | 
 | commands.find "command"      | String (e.g. "quit")          | Searches for a command which is available for the player
 | chat.say "text"     | String (e.g. "Hello World!")          | Sends a message to all players in the server         | 
 | inventory.give "itemID" "amount"     | Integer (itemID), Integer (e.g. 5)          | Gives an item to your inventory         | 
