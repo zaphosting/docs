@@ -1,6 +1,7 @@
 ---
 id: 7d2d_commands
 title: Befehle ausführen
+description: Information, wie du Server Befehle bei deinem 7 Days to Die Server von ZAP-Hosting ausführen kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Befehle ausführen
 ---
 
