@@ -1,7 +1,7 @@
 ---
 id: dedicated_ilo
 title: iLO
-description: Informationen, wie du eine eigene ISO-Datei auf deinen Dedicated Server von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentation
+description: Informationen, über die ILO Verwaltung für deinen Dedicated Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: iLO
 ---
 
