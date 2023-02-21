@@ -1,6 +1,7 @@
 ---
 id: arma3_missionfile
 title: Eigene Missionsdatei hochladen
+description: Information, wie du eine eigene Missionsdatei bei deinem Arma 3 Server von ZAP-Hosting hinzufügen kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Eigene Missionsdatei hochladen
 ---
 
