@@ -1,6 +1,7 @@
 ---
 id: dedicated_linux_debian
 title: Debian installieren
+description: Informationen zu der Installation des Debian Betriebssystem auf deinem Dedicated Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Debian installieren
 ---
 
