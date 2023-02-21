@@ -1,6 +1,7 @@
 ---
 id: dedicated_windows
 title: Windows Installation
+description: Information on how to install the Windows operating system on your dedicated server from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Windows Installation
 ---
 
