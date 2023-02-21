@@ -581,6 +581,10 @@
                 "title": "Rust: Verbindung via RCON zum Server herstellen",
                 "sidebar_label": "Connect via RCON"
             },
+            "rust_commands": {
+                "title": "Rust: Admin Befehle",
+                "sidebar_label": "Admin Befehle"
+              },
             "rust_decay": {
                 "title": "Decay verändern",
                 "sidebar_label": "Decay"
