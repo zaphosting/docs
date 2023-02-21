@@ -1,6 +1,7 @@
 ---
 id: arma3_gamemode
 title: Spielmodus ändern
+description: Information, wie du den Spielmodus bei deinem Arma 3 Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Spielmodus ändern
 ---
 
