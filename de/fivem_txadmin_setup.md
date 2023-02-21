@@ -1,6 +1,7 @@
 ---
 id: fivem_txadmin_setup
 title: txAdmin Einrichtung
+description: Informationen zur Einrichtung des TxAdmin Interfaces für FiveM Gameserver von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: txAdmin Einrichtung
 ---
 
