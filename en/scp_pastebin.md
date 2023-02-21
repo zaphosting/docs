@@ -1,6 +1,7 @@
 ---
 id: scp_pastebin
 title: Pastebin ID
+description: Information on how to add a Pastebin entry to create a server description on your SCP server from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Pastebin ID
 ---
 

@@ -1,6 +1,7 @@
 ---
 id: scp_colored_servername
 title: Farbiger Servername
+description: Information, wie du den Servernamen bei deinem SCP Server von ZAP-Hosting färben kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Farbiger Servername
 ---
 

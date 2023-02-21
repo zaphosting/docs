@@ -1,7 +1,7 @@
 ---
 id: fivem_upvotes
 title: FiveM: Upvotes und Server Boosts
-descriptionen: Informationen zu Upvotes für FiveM Server und wie du deinen Server in der Serverliste boosten kannst - ZAP-Hosting.com Dokumentationen
+description: Informationen zu Upvotes für FiveM Server und wie du deinen Server in der Serverliste boosten kannst - ZAP-Hosting.com Dokumentationen
 sidebar_label: Upvotes
 ---
 

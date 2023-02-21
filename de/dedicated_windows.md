@@ -1,6 +1,7 @@
 ---
 id: dedicated_windows
 title: Windows installieren
+description: Informationen, wie du das Windows Betriebssystem auf deinem Dedicated Server von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Windows installieren
 ---
 > ⚠️ Die Anleitung basiert auf Windows Server 2019, bei anderen Versionen sind die Schritte allerdings nahezu identisch.

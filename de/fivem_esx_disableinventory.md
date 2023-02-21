@@ -1,7 +1,7 @@
 ---
 id: fivem_esx_disableinventory
 title: FiveM ESX Server: Inventar (F2) deaktivieren
-descriptionen: Informationen, wie du das Inventar auf deinem FiveM-Server mit ESX von ZAP-Hosting deaktivieren kannst - ZAP-Hosting.com Dokumentationen
+description: Informationen, wie du das Inventar auf deinem FiveM-Server mit ESX von ZAP-Hosting deaktivieren kannst - ZAP-Hosting.com Dokumentationen
 sidebar_label: Inventar (F2) Deaktivieren
 ---
 

@@ -1,6 +1,7 @@
 ---
 id: dedicated_linux_ubuntu
 title: Ubuntu installieren
+description: Informationen zu der Installation des Ubuntu Betriebssystem auf deinem Dedicated Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Ubuntu installieren
 ---
 
