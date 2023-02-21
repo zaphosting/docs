@@ -1,6 +1,7 @@
 ---
 id: dedicated_raid
 title: RAID konfigurieren
+description: Informationen, über die RAID Konfigurationsmöglichkeiten für deinen Dedicated Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation 
 sidebar_label: RAID konfigurieren
 ---
 
