@@ -1,6 +1,7 @@
 ---
 id: dedicated_iso
 title: Own ISO
+description: Information on how to install your own ISO file on your dedicated server from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Own ISO
 ---
 > ⚠️ Mounting your own ISO-file is on your own risk.
