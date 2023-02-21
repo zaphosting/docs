@@ -610,13 +610,13 @@
         "title": "Rust: Become an admin on your own server",
         "sidebar_label": "Become Admin"
       },
+      "rust_commands": {
+        "title": "Rust: Admin Commands",
+        "sidebar_label": "Admin Commands"
+      },
       "rust_connectrcon": {
         "title": "Rust: Connecting to the server via RCON",
         "sidebar_label": "Connect via RCON"
-      },
-	    "rust_commands": {
-        "title": "Rust: Admin Commands",
-        "sidebar_label": "Admin Commands"
       },
       "rust_decay": {
         "title": "Modify Decay",
