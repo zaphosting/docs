@@ -1,6 +1,7 @@
 ---
 id: dedicated_reset
 title: Server resetten
+description: Informationen, wie du deinen Dedicated Server von ZAP-Hosting zurücksetzen kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Server resetten
 ---
 
