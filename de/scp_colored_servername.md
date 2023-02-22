@@ -25,7 +25,8 @@ Die Config-Datei öffnet sich nun, bei server_name kann nun mit [RichText](https
 
 In diesem Beispiel möchte ich dass "Grüner Text", "Blauer Text" und "Roter Text" in der jeweiligen Farbe angezeigt wird.
 
-Hierzu benutzen wir den Tag `<color=FARBE>Dein Text</color>` eine Auswahl von verschiedenen Farben findest du [hier](https://docs.unity3d.com/Packages/com.unity.ugui@1.0/manual/StyledText.html) es ist ebenfalls möglich die größe und andere Attribute zu verändern.
+Hierzu benutzen wir den Tag `<color="FARBE">Dein Text</color>` eine Auswahl von verschiedenen Farben findest du [hier](https://docs.unity3d.com/Packages/com.unity.ugui@1.0/manual/StyledText.html) es ist ebenfalls möglich die größe und andere Attribute zu verändern.
+> Es ist wichtig, daran zu denken, dass "quote" " um die tatsächliche Farbe innerhalb des Tags erforderlich ist. Wie das Beispiel oben hat.
 
 Wenn du alle Änderungen deinen Wünschen nach verändert hast, müssen diese noch gespeichert werden.
 
