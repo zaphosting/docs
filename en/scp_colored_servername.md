@@ -25,7 +25,8 @@ Our Config-Editor is now open, you can modify your Servername with "server_name"
 
 In this example, I would like that "Green Text, "Blue Text" and "Red Text" is shown in the matching color.
 
-To do that, its required to use the `<color=COLOR>Your Text</color>` tag, you can see all availabel colors [here](https://docs.unity3d.com/Packages/com.unity.ugui@1.0/manual/StyledText.html) its also possible to change other attributes, like the size.
+To do that, its required to use the `<color="COLOR">Your Text</color>` tag, you can see all availabel colors [here](https://docs.unity3d.com/Packages/com.unity.ugui@1.0/manual/StyledText.html) its also possible to change other attributes, like the size.
+> It is important to remember that quotes " " is required around the actual color inside the tag. As the example above has.
 
 When you're done with your customization, save them.
 
