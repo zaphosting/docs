@@ -9,7 +9,7 @@ sidebar_label: Add new roles
 New roles are entered in the "config_remoteadmin.txt" file.
 You can find this config file by clicking on "Configs" in the interface of your server.
 
-![image](https://user-images.githubusercontent.com/17176877/220734053-85e536e9-1c9b-42dd-b8a6-960cc06d4624.png)
+![image](https://user-images.githubusercontent.com/42719082/220796418-717e1ee5-bbcc-4688-ae60-18570411f21f.png)
 
 Here you can then then search for the above Config and then click on the "eye" to the right to open it.
 
