@@ -13,7 +13,7 @@ Are you experiencing problems with your server or would you like to completely w
 
 ## Preparations
 
-First of all, the required Wipe ISO must be mounted and executed in order to perform the actual process of resetting the data. ISO files can be mounted either via the ILO or via the remote console. If you don't know exactly how to do this yet, please have a look at the [Own ISO](dedicated_iso) guide. 
+First of all, the required Wipe ISO must be mounted and executed in order to perform the actual process of resetting the data. ISO files can be mounted either via the ILO or via the remote console. If you don't know exactly how to do this yet, please have a look at the [Own ISO](dedicated_iso.md) guide. 
 
 Now mount the following ISO to your server and restart it afterwards:
 
