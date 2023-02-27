@@ -1,14 +1,14 @@
 ---
 id: satisfactory_switchexperimental
 title: Satisfactory: Experimentelles Version
-description: Informationen zu Experimentelles Version für Satisfactory von ZAP-Hosting - ZAP-Hosting.com Dokumentationen
+description: Informationen zur experimentellen Version für Satisfactory von ZAP-Hosting - ZAP-Hosting.com Dokumentationen
 sidebar_label: Experimentelles Version
 ---
 
-## Was ist ein experimentelles Version?
-Satisfactory besteht aus zwei Versionen, dem regulären Build und dem experimentellen Build. Das reguläre Build ist zuverlässiger, stabiler und weniger fehleranfällig, da es ein endgültigeres Build ist. Das experimentelle Build hingegen bietet zunächst Zugang zu größeren Patches, bevor es als reguläres Build veröffentlicht wird. Es birgt daher ein höheres Risiko von Fehlern und wird viel häufiger aktualisiert, hat aber den Vorteil, dass größere Aktualisierungen zuerst ausprobiert werden können!
+## Was ist eine experimentelle Version?
+Satisfactory besteht aus zwei Versionen, dem regulären Build und dem experimentellen Build. Der reguläre Build ist zuverlässiger, stabiler und weniger fehleranfällig, da es ein endgültigerer Build ist. Der experimentelle Build hingegen bietet zunächst Zugang zu größeren Patches, bevor es als regulärer Build veröffentlicht wird. Es birgt daher ein höheres Risiko von Fehlern und wird viel häufiger aktualisiert, hat aber den Vorteil, dass größere Aktualisierungen zuerst ausprobiert werden können!
 
-> Hinweis: Unabhängig davon, welches Build du wählst, müssen sowohl dein Server als auch dein Spielclient die gleiche Build-Version haben, damit eine Verbindung hergestellt werden kann.
+> Hinweis: Unabhängig davon, welchen Build du wählst, müssen sowohl dein Server als auch dein Spielclient die gleiche Build-Version haben, damit eine Verbindung hergestellt werden kann.
 
 ## Wie wechsle ich zur experimentellen Version?
 Durch unser Gameserver-System ist es sehr einfach, den Build des Servers über unsere Website zu ändern. Bevor du beginnst, empfehlen wir dir, deine Satisfactory-Savegames zu sichern, da beim Wechsel des Spiels alle Dateien gelöscht werden.
@@ -24,9 +24,9 @@ Drücke oben auf der Seite einfach auf das grüne + Symbol und akzeptiere die Au
 
 ![Screenshot 2023-02-21 193113](https://user-images.githubusercontent.com/42719082/220440713-4f7acd14-3b9f-4f2b-a03d-72b8b1a9ec2d.png)
 
-Dein Backup wurde nun erstellt und du kannst über FTP darauf zugreifen, wie [auf dieser Seite](https://zap-hosting.com/guides/docs/en/gameserver_ftpaccess/) gezeigt wird.
+Dein Backup wurde nun erstellt und du kannst über FTP darauf zugreifen, wie [auf dieser Seite](gameserver_ftpaccess.md) gezeigt wird.
 
-Alternativ kannst du die Savegame-Dateien auch direkt aus dem Bereich "Savegame Manager" im Webinterface herunterladen. Diesen findest du [auf dieser Seite](https://zap-hosting.com/guides/docs/en/satisfactory_savegame/).
+Alternativ kannst du die Savegame-Dateien auch direkt aus dem Bereich "Savegame Manager" im Webinterface herunterladen. Diesen findest du [auf dieser Seite](satisfactory_savegame.md).
 
 ### Zur experimentellen Version wechseln
 Gehe zunächst auf deine Satisfactory Produktseite und öffne den Reiter "Einstellungen -> Spiele".
@@ -35,15 +35,15 @@ Gehe zunächst auf deine Satisfactory Produktseite und öffne den Reiter "Einste
 
 Du siehst den Abschnitt `Installierte Spiele`, in dem die Spiele angezeigt werden, die du bereits installiert hast. Wenn du bereits zwischen den beiden Versionen gewechselt hast, werden sie dort angezeigt und du kannst zum letzten Schritt übergehen, um das Spiel zu aktivieren.
 
-Scrolle dann nach unten, klicke auf das Dropdown-Menü "Verfügbare Spiele" und suche im Textfeld nach "Satisfactory".
+Scrolle anschließen nach unten, klicke auf das Dropdown-Menü "Verfügbare Spiele" und suche im Textfeld nach "Satisfactory".
 
 ![Screenshot 2023-02-21 191713](https://user-images.githubusercontent.com/42719082/220438422-c1f512c0-a0c3-4940-8423-0155b1692875.png)
 
-Drücke auf die grüne Download-Schaltfläche und bestätige die Einrichtung bei der daraufhin erscheinenden Aufforderung. Der Download des angegebenen Server-Builds wird nun gestartet.
+Drücke auf die grüne Download-Schaltfläche und bestätige die Einrichtung, bei der daraufhin erscheinenden Aufforderung. Der Download des angegebenen Server-Builds wird nun gestartet.
 
 ![Screenshot 2023-02-21 191956](https://user-images.githubusercontent.com/42719082/220438714-8dc8ccb2-24f1-4a12-86da-112edb58277d.png)
 
->Der Download kann bis zu einigen Minuten dauern. Bitte warte, bis er abgeschlossen ist, bevor du mit dem letzten Schritt fortfährst.
+>Der Download kann einigen Minuten beanspruchen. Bitte warte, bis der Vorgang abgeschlossen ist, bevor du mit dem letzten Schritt fortfährst.
 
 Jetzt werden beide Versionen unter `Installierte Spiele` angezeigt, so dass es einfacher ist, zwischen beiden zu wechseln.
 
@@ -53,15 +53,15 @@ Schließlich musst du das Spiel unter dem Abschnitt `Installierte Spiele` aktivi
 
 ![Screenshot 2023-02-22 020606](https://user-images.githubusercontent.com/42719082/220502401-4738e1b7-e083-40e4-88f8-8e5e044f3270.png)
 
-Wenn du wieder zum regulären Build wechseln möchtest, befolge dieselben Schritte, wähle aber stattdessen den regulären Satisfactory Gameserver während des Auswahlprozesses!
+Wenn du wieder zum regulären Build wechseln möchtest, befolge dieselben Schritte, wähle aber stattdessen das regulären Satisfactory Spielpaket während des Auswahlprozesses!
 
-## Spielclient auf experimentell umstellen
+## Spielclient auf Experimentell umstellen
 > Hinweis: Unabhängig davon, welches Build du wählst, müssen sowohl dein Server als auch dein Spielclient die gleiche Build-Version haben, um eine Verbindung herstellen zu können.
 
 <!--DOCUSAURUS_CODE_TABS-->
 
 <!--Steam Version-->
-Öffne zunächst dein Steam und gehe zu deiner Spielebibliothek. Suche nach "Satisfactory", klicke mit der rechten Maustaste darauf und wähle das Menü "Eigenschaften".
+Öffne zunächst dein Steam und gehe zu deiner Spielebibliothek. Suche nach "Satisfactory", klicke mit der rechten Maustaste darauf und wähle das Menü "Eigenschaften" aus.
 
 ![Screenshot 2023-02-21 203108](https://user-images.githubusercontent.com/42719082/220451989-b90762b7-0b13-4374-82e6-af24d3da321a.png)
 
@@ -72,8 +72,6 @@ Im neuen Menü gehst du zum Abschnitt `Betas` und wählst `Experimentell` aus.
 Das war's. Jetzt musst du nur noch darauf warten, dass Steam das Spiel auf den ausgewählten Spiel-Version aktualisiert, dann kannst du dein Spiel starten und deinen Server genießen!
 
 <!--Epic Games Version-->
-Bei Epic Games ist es sogar noch einfacher, zu Experimental zu wechseln. Alles, was du tun musst, ist, in deine Bibliothek zu gehen und das Spiel "Satisfactory Experimental" zu finden. Beide Spiel Versionen auf dem Epic Games Launcher sind ihre eigenen in der Bibliothek.
-
-Das war's. Jetzt musst du nur noch darauf warten, dass Epic Games das Spiel herunterlädt und installiert. Danach kannst du dein Spiel starten und deinen Server genießen!
+Bei Epic Games ist es sogar noch einfacher, zu Experimentell zu wechseln. Alles, was du tun musst, ist es in deine Bibliothek zu gehen und das Spiel "Satisfactory Experimental" zu finden. Beide Spiel Versionen auf dem Epic Games Launcher sind eigenständig in der Bibliothek. Das war's. Jetzt musst du nur noch darauf warten, dass Epic Games das Spiel herunterlädt und installiert. Danach kannst du dein Spiel starten und deinen Server genießen!
 
 <!--END_DOCUSAURUS_CODE_TABS-->
