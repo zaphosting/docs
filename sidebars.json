@@ -355,7 +355,9 @@
         ],
         "Satisfactory": [
             "satisfactory_connect_experimental",
-            "satisfactory_savegame"
+            "satisfactory_savegame",
+            "satisfactory_switchexperimental",
+            "satisfactory_commands"
         ],
         "Terraria": [
             "terraria_tshock_add_admin",

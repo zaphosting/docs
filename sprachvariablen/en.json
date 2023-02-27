@@ -630,6 +630,10 @@
         "title": "Install Mods",
         "sidebar_label": "Install Mods"
       },
+      "satisfactory_commands": {
+        "title": "Satisfactory: Console Commands",
+        "sidebar_label": "Console Commands"
+      },
       "satisfactory_connect_experimental": {
         "title": "Connect to the Server (Experimental)",
         "sidebar_label": "Connect to the Server (Experimental)"
@@ -641,6 +645,10 @@
       "satisfactory_savegame": {
         "title": "Savegame Manager",
         "sidebar_label": "Savegame Manager"
+      },
+      "satisfactory_switchexperimental": {
+        "title": "Satisfactory: Experimental Build",
+        "sidebar_label": "Experimental Build"
       },
       "scp_becomeadmin": {
         "title": "SCP: Secret Laboratory: Become an admin on your own server",
