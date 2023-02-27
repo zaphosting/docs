@@ -642,6 +642,14 @@
         "title": "Savegame Manager",
         "sidebar_label": "Savegame Manager"
       },
+      "satisfactory_switchexperimental": {
+        "title": "Experimental Build",
+        "sidebar_label": "Experimental Build"
+      },
+      "satisfactory_commands": {
+        "title": "Console Commands",
+        "sidebar_label": "Console Commands"
+      },
       "scp_becomeadmin": {
         "title": "SCP: Secret Laboratory: Become an admin on your own server",
         "sidebar_label": "Become Admin"
