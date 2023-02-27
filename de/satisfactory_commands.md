@@ -1,21 +1,21 @@
 ---
 id: satisfactory_commands
 title: Satisfactory: Konsolen-Befehle
-description: Informationen zu Konsolen-Befehle für Satisfactory von ZAP-Hosting - ZAP-Hosting.com Dokumentationen
+description: Informationen zu den möglichen Konsolen-Befehle für deinen Satisfactory Server von ZAP-Hosting - ZAP-Hosting.com Dokumentationen
 sidebar_label: Konsolen-Befehle
 ---
 
-In Satisfactory gibt es viele nützliche Befehle, mit denen Du die Einstellungen Deines Clients anpassen kannst. Auf dieser Seite fassen wir die beliebtesten und nützlichsten Befehle zusammen, die von Spielern in Satisfactory häufig verwendet werden.
+In Satisfactory gibt es viele nützliche Befehle, mit denen du die Einstellungen deines Clients anpassen kannst. Auf dieser Seite fassen wir die beliebtesten und nützlichsten Befehle zusammen, die von Spielern in Satisfactory häufig verwendet werden.
 
 ## Zugriff auf die Konsole
-Die Verwendung der Konsole in Satisfactory ist sehr einfach: Drücke einfach die Taste ` (der Akut befindet sich neben der Rücktaste), um zwischen der Sichtbarkeit der Konsole zu wechseln. Die Konsole wird entweder geschlossen, mit einem kleinen Befehlsfenster am unteren Rand geöffnet oder ganz ausgeklappt, wenn Du umschaltest.
+Die Verwendung der Konsole in Satisfactory ist sehr einfach: Drücke einfach die Taste ` (der Akut befindet sich neben der Rücktaste), um zwischen der Sichtbarkeit der Konsole zu wechseln. Die Konsole wird entweder geschlossen, mit einem kleinen Befehlsfenster am unteren Rand geöffnet oder ganz ausgeklappt, wenn du umschaltest.
 
-> Wenn die Akut-Taste bei Dir nicht funktioniert, befolge die Schritte im folgenden Unterabschnitt, um eine neue Tastenkombination festzulegen und zu aktivieren.
+> Wenn die Akut-Taste bei dir nicht funktioniert, befolge die Schritte im folgenden Unterabschnitt, um eine neue Tastenkombination festzulegen und zu aktivieren.
 
 ### Zugriff auf die Konsole nicht möglich
-Aufgrund regionaler Tastaturen kann es vorkommen, dass die Standardtaste für die Aktivierung der Konsole nicht funktioniert, so dass Du eine neue Taste einrichten musst. Bevor Du dies tust, schließe Satisfactory, falls es noch läuft.
+Aufgrund regionaler Tastaturen kann es vorkommen, dass die Standardtaste für die Aktivierung der Konsole nicht funktioniert, so dass du eine neue Taste einrichten musst. Bevor du dies tust, schließe Satisfactory, falls es noch läuft.
 
-Drücke Windows-Taste + R oder suche in Deinem Startmenü nach Ausführen. Kopiere dann den folgenden Pfad hinein:
+Drücke Windows-Taste + R oder suche in deinem Startmenü nach Ausführen. Kopiere dann den folgenden Pfad hinein:
 
 > %LOCALAPPDATA%\FactoryGame\Saved\Config\WindowsNoEditor
 
@@ -35,7 +35,7 @@ Speichere abschließend und starte Dein Spiel neu. Nun kannst Du die Konsole mit
 
 Die Tabelle besteht aus dem Befehl selbst, den akzeptierten Werten für den Befehl (falls zutreffend) und einer Beschreibung, um es leichter zu verstehen.
 
-Um die gesamte Liste der Befehle anzuzeigen, verwende `?` in der Konsole, wodurch eine schwebende Liste aller verschiedenen Befehle angezeigt wird. Mit den Pfeiltasten `HOCH` und `RUNTER` kannst Du in dieser Liste navigieren.
+Um die gesamte Liste der Befehle anzuzeigen, verwende `?` in der Konsole, wodurch eine schwebende Liste aller verschiedenen Befehle angezeigt wird. Mit den Pfeiltasten `HOCH` und `RUNTER` kannst du in dieser Liste navigieren.
 
 Ein Beispiel für die Verwendung von `?` zur Anzeige aller Befehle ist unten zu sehen.
 
