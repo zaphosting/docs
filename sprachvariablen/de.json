@@ -610,8 +610,8 @@
                 "sidebar_label": "Savegame-Manager"
             },
             "satisfactory_switchexperimental": {
-                "title": "Experimentelles Version",
-                "sidebar_label": "Experimentelles Version"
+                "title": "Experimentelle Version",
+                "sidebar_label": "Experimentelle Version"
             },
             "satisfactory_commands": {
                 "title": "Konsolen-Befehle",
