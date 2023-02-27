@@ -6,27 +6,23 @@ sidebar_label: Farbiger Servername
 ---
 
 > Damit dein Server in der öffentlichen Serverliste angezeigt wird muss eine Pastebin ID gesetzt sein. Unsere Anleitung dazu findest du [hier](scp_pastebin.md).
+> Damit Änderungen wirksam werden, muss der Server ausgeschaltet sein.
 
-> Damit Änderungen wirksam werden muss der Server ausgeschaltet sein.
+Öffne die Einstellungen deines Servers und stelle sicher, dass in 'SCP Servername' nichts eingetragen ist.
 
-Öffne die Einstellungen deines Servers und stelle sicher das in 'SCP Servername' nichts eingetragen ist.
+![image](https://user-images.githubusercontent.com/26007280/221601888-41f05784-3e35-4076-b62b-ac6499f9b8a4.png)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/qkqo9y35a7WGXpX/preview)
+Wenn du sichergestellt hast das kein Name eingetragen ist, öffnen nun die 'Configs' deines Gameservers, welche sich einen Menüpunkt unterhalb befinden. Bearbeite als nächstest die config_gameplay.txt, in dem du auf den blauen Button klickst.
 
-Wenn du sichergestellt hast das kein Name eingetragen ist, öffnen nun die 'Configs' deines Gameservers. Welche sich einen Menüpunkt unterhalb befinden.
+![image](https://user-images.githubusercontent.com/26007280/221601941-477c3ef0-8e22-47c3-b86c-c8fd2eaacb60.png)
 
-Öffne nun die config_gameplay.txt in dem du auf den blauen Button klickst.
+Die Config-Datei öffnet sich nun, bei server_name können nun mit dem [RichText](https://docs.unity3d.com/Packages/com.unity.ugui@1.0/manual/StyledText.html) verschiedene Farben definiert werden.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/JdJsGtQtBaKgDPa/preview)
+![image](https://user-images.githubusercontent.com/26007280/221601977-06b16924-3119-48ab-bba8-f1c830a753e9.png)
 
-Die Config-Datei öffnet sich nun, bei server_name kann nun mit [RichText](https://docs.unity3d.com/Packages/com.unity.ugui@1.0/manual/StyledText.html) verschiedene Farben definiert werden.
+In diesem Beispiel soll "Grüner Text", "Blauer Text" und "Roter Text" in der jeweiligen Farbe angezeigt wird.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/jebLtwqZToWJ27C/preview)
+Hierzu benutzen wir den Tag `<color="FARBE">Dein Text</color>`. Eine Auswahl von verschiedenen Farben findest du [hier](https://docs.unity3d.com/Packages/com.unity.ugui@1.0/manual/StyledText.html). Es ist ebenfalls möglich die größe und andere Attribute zu verändern.
+> Es ist wichtig, daran zu denken, dass "quote" " um die tatsächliche Farbe innerhalb des Tags erforderlich ist. Wie das Beispiel oben hat.
 
-In diesem Beispiel möchte ich dass "Grüner Text", "Blauer Text" und "Roter Text" in der jeweiligen Farbe angezeigt wird.
-
-Hierzu benutzen wir den Tag `<color=FARBE>Dein Text</color>` eine Auswahl von verschiedenen Farben findest du [hier](https://docs.unity3d.com/Packages/com.unity.ugui@1.0/manual/StyledText.html) es ist ebenfalls möglich die größe und andere Attribute zu verändern.
-
-Wenn du alle Änderungen deinen Wünschen nach verändert hast, müssen diese noch gespeichert werden.
-
-> Starte nun deinen Server, dann wird dein Servername farbig sein.
+Wenn du alle Änderungen deinen Wünschen nach verändert hast, müssen diese noch gespeichert werden. Starte nun deinen Server, dann wird dein Servername farbig sein.

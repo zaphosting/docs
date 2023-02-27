@@ -24,11 +24,11 @@ Here you can find an example of how you can get your steamid by inputting your p
 Now the configuration file has to be opened and edited.
 This is located in "**Configs**" under "**Settings**".
 
-![image](https://user-images.githubusercontent.com/13604413/159181503-5c3ddda0-88e2-4bae-a2a0-a2160268ac0f.png)
+![image](https://user-images.githubusercontent.com/17176877/220733319-e8b81ed6-e9be-449a-a587-0f8ea8064333.png)
 
 There the "**config_remoteadmin.txt**" can be opened in which the necessary lines are rewritten.
 
-![image](https://user-images.githubusercontent.com/13604413/159181547-d354215d-2563-42ee-803e-673822364aed.png)
+![image](https://user-images.githubusercontent.com/17176877/220733567-ae418389-f538-4d54-83eb-f52e5d09ac87.png)
 
 The roles are now created and assigned there.
 In this, "**SomeSteamId64**" which stands in front of "**@steam: owner**" must be replaced with your SteamID64, which you have previously viewed under "**steamid lookup**"
