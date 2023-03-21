@@ -1,6 +1,6 @@
 ---
 id: rust_connecttoserver
-title: Rust: So verbinden du sich mit dem server
+title: Rust: Mit dem Server verbinden
 description: Informationen zum Verbinden mit du ZAP-Hosting Rust-Server über die Konsole oder den Serverbrowser - ZAP-Hosting.com-Dokumentation
-sidebar_label: Verbindung zum Server herstellen
+sidebar_label: Mit dem Server verbinden
 ---
