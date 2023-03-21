@@ -11,7 +11,7 @@ sidebar_label: Landwirtschafts-Simulator 2019
 
 ## Basic Informationen: 
 Es wird ein Server, basierend auf Windowsserver 2016/2019, mit mindestens 4x 2,4 GHz CPU (AMD/Intel) sowie mindestens 2GB RAM (DDR3/4) und 6GB freien Speicher (SSD oder besser, bevorzugt) benötigt. Der Server muss auf der 64 Bit Architektur laufen. 
-Des Weiteren wird eine eigene GameLizenz benötigt (keine Steam Version), sowie eine öffentliche IPv4 Adresse. Eine GPU oder eine Soundkarte sind für den Dedizierter Server nicht notwendig. 
+Des Weiteren wird eine eigene Spiellizenz benötigt (keine Steam Version), sowie eine öffentliche IPv4 Adresse. Eine GPU oder eine Soundkarte sind für den Dedizierter Server nicht notwendig. 
 Je nachdem, wie stark der Dedizierter Server gemodded wird, mit Mods oder mit DLCs erweitert wird, sind ggf. mehr Ressourcen nötig. 
 
 
@@ -20,13 +20,13 @@ Je nachdem, wie stark der Dedizierter Server gemodded wird, mit Mods oder mit DL
 Es wird eine digitale Version des Landwirtschafts-Simulator 2019 benötigt, es darf keine Steam Version sein. 
 Die digitale Version kann auf der [Landwirtschafts-Simulator Webseite](https://www.farming-simulator.com/buy-now.php?lang=de&country=de&platform=pcdigital) erworben werden.
 Nachdem die digitale Version erworben wurde, kann der Landwirtschafts-Simulator online gedownloadet werden, folge dazu dem [Link](https://eshop.giants-software.com/downloads.php) aus der Mail, die du von Giants erhalten hast.
-> Wichtig: In der Mail befindet sich der GameKey der zum Download als auch zur späteren Aktivierung der Installation benötigt wird. 
+> Wichtig: In der Mail befindet sich der Spiellizenz der zum Download als auch zur späteren Aktivierung der Installation benötigt wird. 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/KbccgYdHFLp3gWp/preview)
 
 ## Schritt 2 Download des Landwirtschafts-Simulator direkt auf deinen Windowserver
 
-Verbinde dich via RDP [RDP](https://zap-hosting.com/guides/docs/de/vserver_windows_userdp/) zu deinem Windowsserver. Nachdem du verbunden bist, öffne den Browser und rufe erneut den [Link](https://eshop.giants-software.com/downloads.php) aus der Mail auf. Gebe dort dann deinen GameKey ein und wähle dann den Download für Windows8/10. 
+Verbinde dich via RDP [RDP](https://zap-hosting.com/guides/docs/de/vserver_windows_userdp/) zu deinem Windowsserver. Nachdem du verbunden bist, öffne den Browser und rufe erneut den [Link](https://eshop.giants-software.com/downloads.php) aus der Mail auf. Gebe dort dann deinen Spiellizenz ein und wähle dann den Download für Windows8/10. 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/YaSo85pefHf5r5n/preview)
 
