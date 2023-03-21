@@ -42,9 +42,8 @@ Follow these steps to connect to a Rust server using the console:
 
 1. **Launch Rust**: Open the Rust game on your computer.
 2. **Open Console**: Press the F1 key to open the console.
-3. **Enter Command**: Type the following command, replacing `IP_ADDRESS` and `PORT` with the server's IP address and port:
+3. **Enter Command**: Type the following command, replacing `IP_ADDRESS` and `PORT` with the server's IP address and port - client.connect IP_ADDRESS:PORT
 
-client.connect IP_ADDRESS:PORT
 Example: client.connect 192.168.1.100:28015
 
 
