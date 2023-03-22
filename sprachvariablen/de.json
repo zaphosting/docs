@@ -581,6 +581,10 @@
                 "title": "Rust: Verbindung via RCON zum Server herstellen",
                 "sidebar_label": "Connect via RCON"
             },
+            "rust_connecttoserver": {
+                "title": "Rust: Mit dem Server verbinden",
+                "sidebar_label": "Mit dem Server verbinden"
+            },
             "rust_commands": {
                 "title": "Rust: Admin Befehle",
                 "sidebar_label": "Admin Befehle"

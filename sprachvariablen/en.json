@@ -618,6 +618,10 @@
         "title": "Rust: Connecting to the server via RCON",
         "sidebar_label": "Connect via RCON"
       },
+      "rust_connecttoserver": {
+        "title": "Rust: Connect to the server",
+        "sidebar_label": "Connect to the server"
+      },
       "rust_decay": {
         "title": "Modify Decay",
         "sidebar_label": "Decay"
