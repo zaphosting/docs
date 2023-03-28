@@ -1005,6 +1005,10 @@
       "webspace_wordpress": {
         "title": "Webspace: Install WordPress",
         "sidebar_label": "Install WordPress"
+      },
+      "rust_header": {
+        "title": "Rust: How to add a custom header image for your server",
+        "sidebar_label": "Header Image"
       }
     },
     "links": {
