@@ -1,991 +1,994 @@
 {
-    "_comment": "This file needs to be manually translated with every change to a Doc Metadata, or when a new Doc is added.",
-    "localized-strings": {
-        "next": "Nächste",
-        "previous": "Zurück",
-        "tagline": "ZAP-Hosting Dokumentation & Guides",
-        "docs": {
-            
-            "7d2d_becomeadmin": {
-                "title": "7 Days to Die Admin werden - Gameserver von ZAP-Hosting",
-                "sidebar_label": "Admin werden"
-            },
-            "7d2d_mods": {
-                "title": "7 Days to Die Mods auf Server installieren - Gameserver von ZAP-Hosting",
-                "sidebar_label": "Mods installieren"
-            },
-              "7d2d_commands": {
-                "title": "7 Days to Die Befehle ausführen - Gameserver von ZAP-Hosting",
-                "sidebar_label": "Befehle ausführen"
-            },
-            "account_2factor": {
-                "title": "Setup Zwei-Faktor-Authentifizierung bei ZAP-Hosting.com",
-                "sidebar_label": "Zwei-Faktor-Authentifizierung"
-            },
-            "account_backup_storage": {
-                "title": "Backup Storage",
-                "sidebar_label": "Backup Storage"
-            },
-            "account_cashbox": {
-                "title": "Cashbox - Geld bei ZAP-Hosting.com einzahlen",
-                "sidebar_label": "Cashbox"
-            },
-            "account_community_ads": {
-                "title": "Community Werbung",
-                "sidebar_label": "Community Werbung"
-            },
-            "account_contractsandprepaid": {
-                "title": "Verträge & Prepaids - Vertragsoptionen bei ZAP-Hosting.com",
-                "sidebar_label": "Verträge & Prepaids"
-            },
-            "account_donations": {
-                "title": "Spenden- Server bei ZAP-Hosting gemeinsam finanzieren",
-                "sidebar_label": "Spendenlink"
-            },
-            "account_friends": {
-                "title": "Freunde werben und Geld mit ZAP-Hosting verdienen",
-                "sidebar_label": "Freunde werben"
-            },
-            "account_partner_system": {
-                "title": "Partner-System - Vorteile und Konditionen einer Partnerschaft mit ZAP-Hosting",
-                "sidebar_label": "Partner System"
-            },
-            "account_paymentoptions": {
-                "title": "Zahlungsoptionen - Welche Zahlungsoptionen gibt es bei ZAP-Hosting.com",
-                "sidebar_label": "Zahlungsoptionen"
-            },
-            "account_security": {
-                "title": "Account-Sicherheit - Informationen zur Absicherung eines ZAP-Accounts",
-                "sidebar_label": "Sicherheit"
-            },
-            "account_termination_and_cancellation_period": {
-                "title": "Kündigung und Kündigungsfristen von Vertragsservern bei ZAP-Hosting",
-                "sidebar_label": "Kündigung und Kündigungsfrist"
-            },
-            "account_usermanagement": {
-                "title": "Benutzerverwaltung - Server bei ZAP-Hosting von mehreren Nutzern verwalten lassen",
-                "sidebar_label": "Benutzerverwaltung"
-            },
-            "account_vouchers": {
-                "title": "Gutscheine & Codes - Spare mit Gutscheinen",
-                "sidebar_label": "Gutscheine & Codes"
-            },
-            "altv_installresources": {
-                "title": "AltV: Resourcen auf dem Server installieren",
-                "sidebar_label": "Resourcen Installieren"
-            },
-            "amongus_connection": {
-                "title": "Among Us: Verbindung mit dem Server herstellen",
-                "sidebar_label": "Verbindung"
-            },
-            "ark_becomeadmin": {
-                "title": "ARK: Admin werden",
-                "sidebar_label": "Admin werden"
-            },
-            "ark_configuration": {
-                "title": "ARK: Server Konfiguration bei ZAP-Hosting",
-                "sidebar_label": "Server Konfiguration"
-            },
-            "ark_mods": {
-                "title": "ARK: Mods auf einem Server bei ZAP-Hosting installieren",
-                "sidebar_label": "Mods installieren"
-            },
-            "ark_serverlisting": {
-                "title": "Serverlisting Probleme bei Steam Spielen, die Steamworks nutzen",
-                "sidebar_label": "Serverlisting Probleme"
-            },
-            "arma3_altislife_ranks": {
-                "title": "Arma 3: Altis Life - Ränge bei einem Altis Life Server hinzufügen",
-                "sidebar_label": "Altis Life Ränge"
-            },
-            "arma3_gamemode": {
-                "title": "Arma 3: Spielmodus ändern",
-                "sidebar_label": "Spielmodus ändern"
-            },
-            "arma3_missionfile": {
-                "title": "Arma 3: Eigene Missionsdatei hochladen",
-                "sidebar_label": "Eigene Missionsdatei hochladen"
-            },
-            "arma3_mods": {
-                "title": "Arma 3: Mods auf dem eigenen Server installieren",
-                "sidebar_label": "Mods Installieren"
-            },
-            "arma3_serverconfig": {
-                "title": "Arma 3: Server.cfg - Serverkonfigurationsdatei bearbeiten",
-                "sidebar_label": "Server.cfg"
-            },
-            "assetto_competizione_becomeadmin": {
-                "title": "Assetto Corsa Competizione: Admin auf dem eigenen Server werden",
-                "sidebar_label": "Admin werden"
-            },
-            "assetto_competizione_slot_requirement": {
-                "title": "Assetto Corsa Competizione: Car Slot Voraussetzungen",
-                "sidebar_label": "Car Slot Voraussetzungen"
-              },
-            "assettocorsa_configure": {
-                "title": "Assetto Corsa: Server Konfigurieren",
-                "sidebar_label": "Server Konfigurieren"
-            },
-            "assettocorsa_contentmanager": {
-                "title": "Assetto Corsa: Server Konfigurieren mit Content Manager",
-                "sidebar_label": "Server Konfigurieren mit Content Manager"
-            },
-            "assettocorsa_mods": {
-                "title": "Assetto Corsa: Mods auf einen Server installieren",
-                "sidebar_label": "Mods Installieren"
-            },
-            "avorion_becomeadmin": {
-                "title": "Avorion: Admin auf dem eigenen Server werden",
-                "sidebar_label": "Admin werden"
-            },
-            "barotrauma_becomeadmin": {
-                "title": "Barotrauma: Admin auf dem eigenen Server werden",
-                "sidebar_label": "Admin werden"
-            },
-            "beammp_authkey": {
-                "title": "Auth Key Erstellen",
-                "sidebar_label": "Auth Key Erstellen"
-             },
-            "beammp_mods": {
-                "title": "Mods installieren",
-                "sidebar_label": "Mods installieren"
-            },
-            "community_info": {
-                "title": "Community Angebote - werde Teil der ZAP-Hosting Community",
-                "sidebar_label": "Community Angebote"
-            },
-            "conan_becomeadmin": {
-                "title": "Conan Exiles: Admin auf dem eigenen Server werden",
-                "sidebar_label": "Admin werden"
-            },
-            "conan_configuration": {
-                "title": "Conan Exiles: den eigenen Server konfigurieren",
-                "sidebar_label": "Server Konfiguration"
-            },
-            "create_screenshots": {
-                "title": "Screenshots: Wie und mit welchem Tool Screenshots erstellen",
-                "sidebar_label": "Screenshots erstellen"
-            },
-            "cs16_becomeadmin": {
-                "title": "Counter-Strike 1.6: Admin auf dem eigenen Server werden",
-                "sidebar_label": "Admin werden"
-            },
-            "cs16_plugins": {
-                "title": "Counter-Strike 1.6: Plugins auf dem eigenen Server installieren",
-                "sidebar_label": "Plugins installieren"
-            },
-            "csgo_configuration": {
-                "title": "Counter-Strike GO: Server Konfiguration",
-                "sidebar_label": "Server Konfiguration"
-            },
-            "csgo_gotv": {
-                "title": "CS GO Server: Informationen zu GOTV",
-                "sidebar_label": "GOTV"
-            },
-            "dedicated_ilo": {
-                "title": "iLO",
-                "sidebar_label": "iLO"
-            },
-            "dedicated_iso": {
-                "title": "Eigene ISO",
-                "sidebar_label": "Eigene ISO"
-            },
-            "dedicated_linux_debian": {
-                "title": "Debian installieren",
-                "sidebar_label": "Debian installieren"
-            },
-            "dedicated_linux_ubuntu": {
-                "title": "Ubuntu installieren",
-                "sidebar_label": "Ubuntu installieren"
-            },
-            "dedicated_windows": {
-                "title": "Windows installieren",
-                "sidebar_label": "Windows installieren"
-                 },
-            "dedicated_freebsd": {
-                "title": "FreeBSD installieren",
-                "sidebar_label": "FreeBSD installieren"
-            },
-            "dedicated_raid": {
-                "title": "RAID konfigurieren",
-                "sidebar_label": "RAID konfigurieren"
-            },
-            "dedicated_centos": {
-                "title": "CentOS installieren",
-                "sidebar_label": "CentOS installieren"
-            },
-            "dedicated_reset": {
-                "title": "Server resetten",
-                "sidebar_label": "Server resetten"
-            },
-            "discordbot_setup": {
-                "title": "Discord Bot einrichten",
-                "sidebar_label": "Einrichtung"
-            },
-            "domain_easydns": {
-                "title": "Domains: EasyDNS",
-                "sidebar_label": "EasyDNS"
-            },
-            "domain_expertdns": {
-                "title": "Domains: ExpertDNS",
-                "sidebar_label": "ExpertDNS"
-            },
-            "domain_gameserver_srv_link": {
-                "title": "Domains: Gameserver-Weiterleitung einrichten",
-                "sidebar_label": "Domain Gameserver Weiterleitung"
-            },
-            "domain_general_domain_info": {
-                "title": "Domains: Was ist eine Domain?",
-                "sidebar_label": "Was ist eine Domain?"
-            },
-            "domain_order": {
-                "title": "Domains: Eine Domain bei ZAP-Hosting bestellen",
-                "sidebar_label": "Eine Domain bestellen"
-            },
-            "domain_profidns": {
-                "title": "Domains: ProfiDNS",
-                "sidebar_label": "ProfiDNS"
-            },
-            "domain_records": {
-                "title": "Domains: Domain Records-Einstellungen",
-                "sidebar_label": "Domain Records"
-            },
-            "domain_teamspeak_redirect": {
-                "title": "Domains: Domain TeamSpeak 3 Weiterleitung einrichten",
-                "sidebar_label": "Domain TeamSpeak 3 Weiterleitung"
-            },
-            "dst_create_cave": {
-                "title": "Don't Starve Together: Höhlen auf Server erstellen",
-                "sidebar_label": "Höhlen erstellen"
-            },
-            "eco_becomeadmin": {
-                "title": "ECO - Global Survival Server: Admin werden",
-                "sidebar_label": "Admin werden"
-            },
-            "eco_whitelist": {
-                "title": "ECO - Global Surival Server: Whitelist aktivieren",
-                "sidebar_label": "Whitelist"
-            },
-            "empyrion_becomeadmin": {
-                "title": "Empyrion Server: Admin werden",
-                "sidebar_label": "Admin werden"
-            },
-            "exiled_plugins": {
-                "title": "EXILED: Plugins auf Server installieren",
-                "sidebar_label": "Plugins installieren"
-              },
-            "factorio_becomeadmin": {
-                "title": "Factorio Server: Admin werden",
-                "sidebar_label": "Admin werden"
-            },
-            "factorio_mods": {
-                "title": "Factorio Server: Mods installieren",
-                "sidebar_label": "Mods installieren"
-            },
-            "firststeps_problem_melden": {
-                "title": "ZAP-Hosting: Was tun bei Problemen mit dem eigenen Server?",
-                "sidebar_label": "Wie melde ich Probleme?"
-            },
-            "firststeps_register": {
-                "title": "ZAP-Hosting: Registration",
-                "sidebar_label": "Registrieren"
-            },
-            "firststeps_rent_contractorprepaid": {
-                "title": "ZAP-Hosting.com: Vertrag oder Prepaid - Was sind die Unterschiede?",
-                "sidebar_label": "Vertrag oder Prepaid"
-            },
-            "firststeps_rent": {
-                "title": "Server Mieten",
-                "sidebar_label": "Server Mieten"
-            },
-            "firststeps": {
-                "title": "Die ersten Schritte",
-                "sidebar_label": "Die ersten Schritte"
-            },
-            "fivem_change_servericon": {
-                "title": "FiveM: Server Icon für Serverliste ändern",
-                "sidebar_label": "Server Icon Ändern"
-            },
-            "fivem_changeloadingscreen": {
-                "title": "FiveM: Loadingscreen für FiveM-Server installieren/ändern",
-                "sidebar_label": "Loadingscreen installieren"
-            },
-            "fivem_changespawnpoint": {
-                "title": "FiveM Servereinstellungen: Spawnpoint setzen",
-                "sidebar_label": "Spawnpoint setzen"
-            },
-            "fivem_dashboard": {
-                "title": "FiveM: Server-Administration über das Web Interface-Dashboard",
-                "sidebar_label": "Dashboard"
-            },
-            "fivem_deletecache": {
-                "title": "FiveM Server: Cache leeren",
-                "sidebar_label": "Cache leeren"
-            },
-            "fivem_devtools": {
-                "title": "FiveM: Devtools Aktivieren",
-                "sidebar_label": "Devtools Aktivieren"
-            },
-            "fivem_editlocalfiles": {
-                "title": "FiveM Server: Die Locales-Dateien bearbeiten",
-                "sidebar_label": "Localesfiles bearbeiten"
-            },
-            "fivem_esx_addcarstoshop": {
-                "title": "FiveM ESX Server: Autos zum Shop hinzufügen",
-                "sidebar_label": "Autos zum Shop hinzufügen"
-            },
-            "fivem_esx_becomeadminoverdatabase": {
-                "title": "FiveM ESX Server: Admin über die Datenbank werden",
-                "sidebar_label": "Admin über Datenbank werden"
-            },
-            "fivem_esx_changejobgarages": {
-                "title": "FiveM ESX Server: Job-Garagen - Autos hinzufügen",
-                "sidebar_label": "Job-Garagen Autos Hinzufügen"
-            },
-            "fivem_esx_changemoneyicon": {
-                "title": "FiveM ESX Server: Geldicon Ändern",
-                "sidebar_label": "Geldicon Ändern"
-            },
-            "fivem_esx_changerespawnpoint": {
-                "title": "FiveM ESX Server: Respawnpoint setzen",
-                "sidebar_label": "Respawnpoint setzen"
-            },
-            "fivem_esx_disablehud": {
-                "title": "FiveM ESX Server: HUD deaktivieren/aktivieren",
-                "sidebar_label": "HUD deaktivieren"
-            },
-            "fivem_esx_disableinventory": {
-                "title": "FiveM ESX Server: Inventar (F2) deaktivieren",
-                "sidebar_label": "Inventar (F2) Deaktivieren"
-            },
-            "fivem_installels": {
-                "title": "FiveM: ELS auf Server installieren",
-                "sidebar_label": "ELS Installieren"
-            },
-            "fivem_installeup": {
-                "title": "FiveM: EUP auf Server installieren",
-                "sidebar_label": "EUP Installieren"
-            },
-            "fivem_installresources": {
-                "title": "FiveM: Resourcen, Mods und Scripts auf Server installieren",
-                "sidebar_label": "Resourcen Installieren"
-            },
-            "fivem_licensekey": {
-                "title": "FiveM: Eigenen Lizenzkey (Patreon) zu Server hinzufügen",
-                "sidebar_label": "Eigener Lizenzkey"
-            },
-            "fivem_mastadon": {
-                "title": "FiveM: Activity Feed für Server einrichten",
-                "sidebar_label": "Activity Feed Einrichten"
-            },
-            "fivem_mods_installaddon": {
-                "title": "FiveM: Addon Carmods auf Server installieren",
-                "sidebar_label": "Addon Carmods Installieren"
-            },
-            "fivem_mods_installreplace": {
-                "title": "FiveM: Replacement Carmods auf Server installieren",
-                "sidebar_label": "Replacement Carmods Installieren"
-            },
-            "fivem_notlisted": {
-                "title": "FiveM Server: Server erscheint nicht in der Serverliste",
-                "sidebar_label": "Server nicht in Serverliste"
-            },
-            "fivem_prohibited_resources": {
-                "title": "FiveM Server: Fehlermeldung \"Resource contains prohibited logic\"?",
-                "sidebar_label": "Resource contains prohibited logic?"
-            },
-            "fivem_rcon": {
-                "title": "FiveM Server: Rcon benutzen",
-                "sidebar_label": "Rcon Benutzen"
-            },
-            "fivem_servername_color": {
-                "title": "FiveM: Servernamen farbig anzeigen lassen",
-                "sidebar_label": "Servernamen färben"
-            },
-            "fivem_servername_emojis": {
-                "title": "FiveM: Emojis im Servernamen anzeigen lassen",
-                "sidebar_label": "Emojis in Server Name"
-            },
-            "fivem_sql_file_import": {
-                "title": "FiveM Server: SQL Dateiimport",
-                "sidebar_label": "SQL Dateiimport"
-            },
-            "fivem_txadmin_features": {
-                "title": "txAdmin Interface",
-                "sidebar_label": "txAdmin Interface"
-            },
-            "fivem_txadmin_setup": {
-                "title": "txAdmin Einrichtung",
-                "sidebar_label": "txAdmin Einrichtung"
-            },
-            "fivem_upvotes": {
-                "title": "FiveM: Upvotes und Server Boosts",
-                "sidebar_label": "Upvotes"
-            },
-            "fivem_useprofiler": {
-                "title": "FiveM: Profiler benutzen und Serverprobleme identifizieren",
-                "sidebar_label": "Profiler Benutzen"
-            },
-            "fivem_vrp_changemoneyicon": {
-                "title": "FiveM VRP Server: Geldicon ändern",
-                "sidebar_label": "Geldicon Ändern"
-            },
-            "fivem_vrp_removespeedo": {
-                "title": "FiveM VRP Server: Speedometer entfernen",
-                "sidebar_label": "Speedometer Entfernen"
-            },
-               "fivem_gamebuild": {
-                "title": "FiveM DLC Gamebuild aktivieren",
-                "sidebar_label": "DLC Gamebuild aktivieren"
-            },
-               "fivem_gamechange": {
-                "title": "FiveM Spielwechsel",
-                "sidebar_label": "Spielwechsel"
-            },
-               "fivem_qbcore_admin": {
-                "title": "QBCore Admin werden",
-                "sidebar_label": "Admin werden"
-            },
-            "gameserver_backups": {
-                "title": "Gameserver: Backups bei ZAP-Hosting erstellen, herunterladen und einspielen",
-                "sidebar_label": "Backups"
-            },
-            "gameserver_cloudvslifetime": {
-                "title": "Gameserver: Unterschiede Cloud-Gameserver vs. Lifetime Server von ZAP-Hosting",
-                "sidebar_label": "Cloud vs. Lifetime"
-            },
-            "gameserver_database_external_access": {
-                "title": "Gameserver: Externer Datenbankzugriff",
-                "sidebar_label": "Externer Datenbankzugriff"
-            },
-            "gameserver_databases_pma": {
-                "title": "Gameserver: PHPMyAdmin für Server von ZAP-Hosting",
-                "sidebar_label": "PHPMyAdmin"
-            },
-            "gameserver_ftpaccess": {
-                "title": "Gameserver: Dateien mit FTP hochladen und herunterladen",
-                "sidebar_label": "FTP Dateizugriff"
-            },
-            "gameserver_gameswitch": {
-                "title": "Gameserver: Spielwechsel mit der Gameservercloud",
-                "sidebar_label": "Spielwechsel"
-            },
-            "gameserver_resourcelimit": {
-                "title": "Gameserver: Resourcenlimit - Gameserver freischalten",
-                "sidebar_label": "Resourcenlimit"
-            },
-            "gameserver_restartplaner": {
-                "title": "Gameserver: Restartplaner - Server-Neustarts automatisch durchführen",
-                "sidebar_label": "Restartplaner"
-            },
-            "gameserver_server_down_what_now": {
-                "title": "Gameserver: Server down - Was nun?",
-                "sidebar_label": "Server down - was nun?"
-            },
-            "gameserver_tebex": {
-                "title": "TEBEX Gameserver Monetarisierung einrichten",
-                "sidebar_label": "TEBEX Monetarisierung"
-            },
-            "gmod_servercfg": {
-                "title": "Garry's Mod: Server.cfg Einstellungen",
-                "sidebar_label": "Garry's Mod Server.cfg Anpassungen"
-            },
-            "gmod_ttt": {
-                "title": "Garry's Mod: TTT Konfiguration",
-                "sidebar_label": "Garry's Mod TTT Konfiguration"
-            },
-            "lastoasis_createrealm": {
-                "title": "Realm Erstellen"
-              },
-            "legal_use_brand_assets": {
-                "title": "Verwendung von Logo und Name",
-                "sidebar_label": "Verwendung von Logo und Name"
-            },
-            "minecraft_add_own_world": {
-                "title": "Minecraft: Eigene Welt zum Server hinzufügen",
-                "sidebar_label": "Eigene Welt hinzufügen"
-            },
-            "minecraft_addop": {
-                "title": "Minecraft Server: OP-Rechte vergeben",
-                "sidebar_label": "OP-Permissions"
-            },
-            "minecraft_bungeecord_config": {
-                "title": "Minecraft Bungeecord Server: Server Config-Einstellungen",
-                "sidebar_label": "Server Config"
-            },
-            "minecraft_commands": {
-                "title": "Minecraft: Allgemeine Server-Befehle",
-                "sidebar_label": "Allgemeine Befehle"
-            },
-            "minecraft_default_config": {
-                "title": "Minecraft: Server Config-Einstellungen",
-                "sidebar_label": "Server Config"
-            },
-            "minecraft_forge_add_mods": {
-                "title": "Minecraft: Mods auf Server installieren",
-                "sidebar_label": "Mods installieren"
-            },
-            "minecraft_pluginuploader": {
-                "title": "Minecraft Server: ZAP-Hosting Plugin Uploader verwenden",
-                "sidebar_label": "Plugin Uploader"
-            },
-            "minecraft_rcon": {
-                "title": "Minecraft Server: RCON verwenden",
-                "sidebar_label": "RCON"
-            },
-            "minecraft_server_optimize": {
-                "title": "Minecraft: Minecraft-Server Performance-Optimisierung",
-                "sidebar_label": "Minecraft-Server optimieren"
-            },
-            "minecraft_server-icon": {
-                "title": "Minecraft: Server Icon hinzufügen oder ändern",
-                "sidebar_label": "Server Icon"
-            },
-            "minecraft_timings_report": {
-                "title": "Minecraft: Server-Probleme mit Timings-Report identifizieren",
-                "sidebar_label": "Timings-Report"
-            },
-            "minecraft_whitelist": {
-                "title": "Minecraft Server: Whitelist aktivieren und bearbeiten",
-                "sidebar_label": "Whitelist"
-            },
-            "minecraft_worlds": {
-                "title": "Minecraft Server: Welten verwalten",
-                "sidebar_label": "Welten Verwalten"
-            },
-            "minecraftbedrock_behaviorresourcepacks": {
-                "title": "Minecraft Bedrock: Behavior/Resource Packs installieren",
-                "sidebar_label": "Behavior/Resource Packs installieren"
-            },
-            "mta_becomeadmin": {
-                "title": "MTA: Admin auf MTA-Server werden",
-                "sidebar_label": "Admin werden"
-            },
-            "partner-guide": {
-                "title": "Partner Guide: Das Partnerprogramm von ZAP-Hosting",
-                "sidebar_label": "Partner Guide"
-            },
-            "preorders": {
-                "title": "Vorbestellungen",
-                "sidebar_label": "Vorbestellungen"
-            },
-            "ragemp_installpackages": {
-                "title": "RageMP: Pakete auf Server installieren",
-                "sidebar_label": "Pakete Installieren"
-            },
-            "rust_becomeadmin": {
-                "title": "Rust: Admin auf eigenem Server werden",
-                "sidebar_label": "Admin werden"
-            },
-            "rust_connectrcon": {
-                "title": "Rust: Verbindung via RCON zum Server herstellen",
-                "sidebar_label": "Connect via RCON"
-            },
-            "rust_connecttoserver": {
-                "title": "Rust: Mit dem Server verbinden",
-                "sidebar_label": "Mit dem Server verbinden"
-            },
-            "rust_commands": {
-                "title": "Rust: Admin Befehle",
-                "sidebar_label": "Admin Befehle"
-              },
-            "rust_decay": {
-                "title": "Decay verändern",
-                "sidebar_label": "Decay"
-            },
-            "rust_plugins": {
-                "title": "Rust: Plugins auf Server installieren",
-                "sidebar_label": "Plugins installieren"
-            },
-            "satisfactory_addmods": {
-                "title": "Mods installieren",
-                "sidebar_label": "Mods installieren"
-            },
-            "satisfactory_connect": {
-                "title": "Zum Server verbinden",
-                "sidebar_label": "Zum Server verbinden"
-                },
-            "satisfactory_connect_experimental": {
-                "title": "Zum Server verbinden",
-                "sidebar_label": "Zum Server verbinden"
-            },
-            "satisfactory_savegame": {
-                "title": "Savegame-Manager",
-                "sidebar_label": "Savegame-Manager"
-            },
-            "satisfactory_switchexperimental": {
-                "title": "Experimentelle Version",
-                "sidebar_label": "Experimentelle Version"
-            },
-            "satisfactory_commands": {
-                "title": "Konsolen-Befehle",
-                "sidebar_label": "Konsolen-Befehle"
-            },
-            "scp_becomeadmin": {
-                "title": "SCP: Secret Laboratory: Admin auf dem eigenen Server werden",
-                "sidebar_label": "Admin werden"
-            },
-            "scp_colored_servername": {
-                "title": "Farbiger Servername",
-                "sidebar_label": "Farbiger Servername"
-            },
-            "scp_newroles": {
-                "title": "SCP: Secret Laboratory Server: Neue Rollen hinzufügen",
-                "sidebar_label": "Neue Rollen hinzufügen"
-            },
-            "scp_pastebin": {
-                "title": "Pastebin ID",
-                "sidebar_label": "Pastebin ID"
-            },
-            "scpservermod_uploadplugins": {
-                "title": "SCP: Secret Laboratory: Plugins auf Server installieren installieren",
-                "sidebar_label": "Plugins installieren"
-            },
-            "source_custom_content": {
-                "title": "Source Spiele: Custom Inhalte und Mods auf Gameserver installieren",
-                "sidebar_label": "Custom Inhalte"
-            },
-            "source_gsltoken": {
-                "title": "Source Spiele: Gameserver Login Token verwenden",
-                "sidebar_label": "GSL-Token"
-            },
-            "source_metamod_addadmins": {
-                "title": "Source Spiele: Server-Admin werden",
-                "sidebar_label": "Admin werden"
-            },
-            "source_metamod_installation": {
-                "title": "Source Spiele: Source Mod und Meta Mod auf Server installieren",
-                "sidebar_label": "Installation"
-            },
-            "source_metamod_plugins": {
-                "title": "Source Spiele mit Sourcemod/Metamod: Plugins installieren",
-                "sidebar_label": "Plugins"
-            },
-            "spaceengineers_addmods": {
-                "title": "Space Engineers: Mods auf Server installieren",
-                "sidebar_label": "Space Engineers Mods installieren"
-            },
-            "spaceengineers_becomeadmin": {
-                "title": "Space Engineers: Server-Admin werden",
-                "sidebar_label": "Admin werden"
-            },
-            "suggestions": {
-                "title": "Vorschläge für neue Gameserver und Funktionen auf ZAP-Hosting einreichen",
-                "sidebar_label": "Vorschläge einreichen"
-            },
-            "terraria_tmodloader_installmod": {
-                "title": "Terraria: Mods auf Server installieren (tModLoader)",
-                "sidebar_label": "Mod installieren (tModLoader)"
-            },
-            "terraria_tshock_add_admin": {
-                "title": "Terraria: Server-Admin werden (tShock)",
-                "sidebar_label": "Admin werden (tShock)"
-            },
-            "unturned_becomeadmin": {
-                "title": "Unturned: Server-Admin werden",
-                "sidebar_label": "Admin werden"
-            },
-            "unturned_firstthirdperson": {
-                "title": "Unturned: 1st/3rd Person für Server einstellen",
-                "sidebar_label": "1st/3rd Person"
-            },
-            "unturned_rocketmod_permissions": {
-                "title": "Unturned Rocketmod: Server-Berechtigungen anpassen",
-                "sidebar_label": "Berechtigungen anpassen"
-            },
-            "unturned_rocketmod_plugins": {
-                "title": "Unturned Rocketmod: Plugins auf Server installieren",
-                "sidebar_label": "Plugins installieren"
-            },
-            "unturned_whitelist": {
-                "title": "Unturned: Whitelist auf Server aktivieren und bearbeiten",
-                "sidebar_label": "Whitelist"
-            },
-            "unturned_workshop": {
-                "title": "Unturned: Workshop Inhalte auf Server installieren",
-                "sidebar_label": "Workshop Inhalte"
-            },
-            "valheim_admin": {
-                "title": "Valheim: Server Admin Befehle & Cheats",
-                "sidebar_label": "Admin Commands & Cheats"
-            },
-            "valheim_backup_schedule": {
-                "title": "Valheim: Automatisierte Backups für Server aktivieren",
-                "sidebar_label": "Automatisierte Backups"
-            },
-            "valheim_connect": {
-                "title": "Valheim: Auf Valheim-Server verbinden",
-                "sidebar_label": "Zum Server Verbinden"
-            },
-            "valheim_plugins_bepinex": {
-                "title": "Valheim: Plugins auf Server installieren (BepInEx)",
-                "sidebar_label": "Plugin's installieren (BepInEx)"
-            },
-            "valheim_plus": {
-                "title": "Valheim: Valheim Plus-Server",
-                "sidebar_label": "Valheim Plus"
-            },
-            "valheim_savegame": {
-                "title": "Valheim: Savegames auf Server verwalten",
-                "sidebar_label": "Savegames Verwalten"
-            },
-            "valheim_serverlisting": {
-                "title": "Serverlisting Probleme bei Steam Spielen, die Steamworks nutzen",
-                "sidebar_label": "Serverlisting Probleme"
-            },
-            "voiceserver_becomeadmin": {
-                "title": "Teamspeak Server: Admin werden",
-                "sidebar_label": "Admin werden"
-            },
-            "voiceserver_configuration": {
-                "title": "Teamspeak Server: Server Konfiguration",
-                "sidebar_label": "Server Konfiguration"
-            },
-            "voiceserver_query": {
-                "title": "Teanspeak Server: Teamspeak Query Login einrichten",
-                "sidebar_label": "Teamspeak Query Login"
-            },
-            "voiceserver_ts3backup": {
-                "title": "Teamspeak: Server Backup einrichten und herunterladen",
-                "sidebar_label": "Ts3 Backup"
-            },
-            "voiceserver_voicebot_connection": {
-                "title": "Teamspeak: Voicebot mit Teamspeak Server verbinden",
-                "sidebar_label": "Voicebot Verbinden"
-            },
-            "vserver_linux_add_ip": {
-                "title": "vServer: IPv4 Adresse zum Server hinzufügen",
-                "sidebar_label": "IPv4 Adresse hinzufügen"
-            },
-            "vserver_linux_dnsserver": {
-                "title": "vServer: DNS Server Installation und Einrichtung (ISPConfig)",
-                "sidebar_label": "DNS Server (ISPConfig)"
-            },
-            "vserver_linux_docker": {
-                "title": "vServer: Docker auf Server installieren",
-                "sidebar_label": "Docker"
-            },
-            "vserver_linux_ftp_install": {
-                "title": "vServer: FTP Server installieren und einrichten",
-                "sidebar_label": "FTP Einrichten"
-            },
-            "vserver_linux_ftp": {
-                "title": "vServer: FTP Dienst funktioniert nicht - Problemlösungen",
-                "sidebar_label": "FTP Dienst funktioniert nicht"
-            },
-            "vserver_linux_gs_interface": {
-                "title": "vServer: Gameserver / Ts 3 Server Interface",
-                "sidebar_label": "Gameserver / Ts 3 Server Interface"
-            },
-            "vserver_linux_java": {
-                "title": "vServer: Java auf Server installieren",
-                "sidebar_label": "Java installieren"
-            },
-            "vserver_linux_jitsi": {
-                "title": "vServer: Jitsi Meet auf Server installieren",
-                "sidebar_label": "Jitsi Meet"
-            },
-            "vserver_linux_mariadbinstall": {
-                "title": "vServer: MariaDB (MySQL) auf Server installieren",
-                "sidebar_label": "MariaDB (MySQL) Installation"
-            },
-            "vserver_linux_nextcloud": {
-                "title": "vServer: Nextcloud auf Server installieren",
-                "sidebar_label": "Nextcloud"
-            },
-            "vserver_linux_openvpn": {
-                "title": "vServer: OpenVPN auf Server installieren",
-                "sidebar_label": "OpenVPN"
-            },
-            "vserver_linux_password_change": {
-                "title": "vServer: Root Passwort für Linux-Server ändern",
-                "sidebar_label": "Passwort ändern"
-            },
-            "vserver_linux_phpmyadmin": {
-                "title": "vServer: phpMyAdmin auf Linux vServer einrichten",
-                "sidebar_label": "phpMyAdmin"
-            },
-            "vserver_linux_plesk": {
-                "title": "vServer: Plesk auf Linux Servern installieren",
-                "sidebar_label": "Plesk"
-            },
-            "vserver_linux_rsync": {
-                "title": "vServer: Backups von Linux Server mit Rsync anfertigen",
-                "sidebar_label": "Rsync Linux"
-            },
-            "vserver_linux_sftp": {
-                "title": "vServer:Via SFTP auf Linux Server verbinden",
-                "sidebar_label": "SFTP Verbindung"
-            },
-            "vserver_linux_ssh": {
-                "title": "vServer: Erstzugriff auf Linux Server mit SSH",
-                "sidebar_label": "Erstzugriff (SSH)"
-            },
-            "vserver_linux_ssh2fa": {
-                "title": "vServer: Zwei Faktor Authentifizierung für Linux Server einrichten",
-                "sidebar_label": "Zwei Faktor Authentifizierung"
-            },
-            "vserver_linux_sshkey": {
-                "title": "vServer: SSH Key für Linux Server generieren und verwenden",
-                "sidebar_label": "SSH Key"
-            },
-            "vserver_linux_ssl": {
-                "title": "vServer: SSL-Zertifikat (Let's Encrypt) für Linux Server erstellen",
-                "sidebar_label": "SSL-Zertifikat (Let's Encrypt)"
-            },
-            "vserver_linux_webserver": {
-                "title": "vServer: Nginx und Apache Webserver installieren",
-                "sidebar_label": "Webserver installieren"
-            },
-            "vserver_network_analysis_winmtr": {
-                "title": "vServer: Netzwerkanalyse mit MTR/WinMTR",
-                "sidebar_label": "Netzwerkanalyse MTR/WinMTR"
-            },
-            "vserver_root_unterschied": {
-                "title": "Unterschied Rootserver / V-Server bei ZAP-Hosting",
-                "sidebar_label": "Unterschied Rootserver / V-Server"
-            },
-            "vserver_vnc": {
-                "title": "vServer: Was ist VNC?",
-                "sidebar_label": "Was ist VNC?"
-            },
-            "vserver_windows_addip": {
-                "title": "vServer: Zusätzliche IPs zu einem Windows Server hinzufügen",
-                "sidebar_label": "Zusätzliche IPs hinzufügen"
-            },
-            "vserver_windows_change_language": {
-                "title": "vServer: Sprache bei Windows Server hinzufügen/ändern",
-                "sidebar_label": "Sprache hinzufügen/ändern"
-            },
-            "vserver_windows_expand_disk": {
-                "title": "vServer: Festplatte auf Windows Server erweitern",
-                "sidebar_label": "Festplatte erweitern"
-            },
-            "vserver_windows_fs_19": {
-                "title": "vServer: Landwirtschafts-Simulator 2019 auf Windows installieren",
-                "sidebar_label": "Landwirtschafts-Simulator 2019"
-              },
-              "vserver_windows_fs_22": {
-                "title": "vServer: Landwirtschafts-Simulator 2022 auf Windows installieren",
-                "sidebar_label": "Landwirtschafts-Simulator 2022"
-              },
-            "vserver_windows_ftpserver": {
-                "title": "vServer: FTP Server auf Windows Server installieren",
-                "sidebar_label": "FTP Server installieren"
-            },
-            "vserver_windows_installmysql": {
-                "title": "vServer: MySQL Server auf Windows Server installieren",
-                "sidebar_label": "MySQL Server Installieren"
-            },
-            "vserver_windows_nointernet": {
-                "title": "vServer: Kein Internetzugang auf Windows Server. Was nun?",
-                "sidebar_label": "Kein Internet was nun?"
-            },
-            "vserver_windows_plesk": {
-                "title": "vServer: Plesk auf Windows Server installieren",
-                "sidebar_label": "Plesk installation"
-            },
-            "vserver_windows_port": {
-                "title": "vServer: Ports bei Windows Servern freigeben",
-                "sidebar_label": "Ports freigeben"
-            },
-            "vserver_windows_userdp": {
-                "title": "vServer: Erstzugriff auf Windows Server mit RDP",
-                "sidebar_label": "Erstzugriff (RDP)"
-            },
-            "vserver_windows_vrising": {
-                "title": "vServer: V-Rising auf Windows installieren",
-                "sidebar_label": "V-Rising"
-            },
-            "webspace_adddomain": {
-                "title": "Webspace: Domain hinzufügen",
-                "sidebar_label": "Domain Hinzufügen"
-            },
-            "webspace_dashboard": {
-                "title": "Add Domain",
-                "sidebar_label": "Add Domain"
-            },
-            "webspace_htaccess_discord": {
-                "title": "Webspace: Discord Weiterleitung via Domain einrichten",
-                "sidebar_label": "Discord Weiterleitung via Domain"
-            },
-            "webspace_mybb": {
-                "title": "Webspace: MyBB Forensoftware installieren",
-                "sidebar_label": "MyBB installieren"
-            },
-            "webspace_plesk_ftp": {
-                "title": "Webspace: FTP Zugang für Webspace einrichten",
-                "sidebar_label": "FTP Verbindung Anlegen"
-            },
-            "webspace_plesk_sendmail": {
-                "title": "Webspace: Email Adressen einrichten und E-Mails verschicken",
-                "sidebar_label": "E-Mails verschicken"
-            },
-            "webspace_plesk_ssl": {
-                "title": "Webspace: SSL Zertifikat erstellen",
-                "sidebar_label": "SSL Zertifikat erstellen"
-            },
-            "webspace_woltlab": {
-                "title": "Webspace: Woltlab Forensoftware installieren",
-                "sidebar_label": "Woltlab installieren"
-            },
-            "webspace_wordpress": {
-                "title": "Webspace: WordPress installieren",
-                "sidebar_label": "WordPress installieren"
-            }
-        },
-        "links": {
-            "Docs": "Docs"
-        },
-        "categories": {
-            "Overview": "Übersicht",
-            "Account": "Account",
-            "Gameserver - General": "Gameserver - General",
-            "vServer & Rootserver": "vServer & Rootserver",
-            "Dedicated Server": "Dedicated Server",
-            "Webspace & Domains": "Webspace & Domains",
-            "Voicebot/Voiceserver": "Voicebot/Voiceserver",
-            "Minecraft": "Minecraft",
-            "FiveM": "FiveM",
-            "RageMP": "RageMP",
-            "Alt:V": "Alt:V",
-            "Satisfactory": "Satisfactory",
-            "Terraria": "Terraria",
-            "Source Games": "Source Games",
-            "ArmA 3": "ArmA 3",
-            "ARK": "ARK",
-            "Assetto Corsa": "Assetto Corsa",
-            "Assetto Corsa Competizione": "Assetto Corsa Competizione",
-            "Barotrauma": "Barotrauma",
-            "BeamMP": "BeamMP",
-            "Conan Exiles": "Conan Exiles",
-            "Valheim": "Valheim",
-            "SCP: Secret Laboratory": "SCP: Secret Laboratory",
-            "ECO": "ECO",
-            "Factorio": "Factorio",
-            "Multi Theft Auto": "Multi Theft Auto",
-            "Space Engineers": "Space Engineers",
-            "Unturned": "Unturned",
-            "Don't Starve Together": "Don't Starve Together",
-            "Empyrion": "Empyrion",
-            "Rust": "Rust",
-            "Among Us": "Among Us",
-            "7 Days to Die": "7 Days to Die",
-            "Avorion": "Avorion",
-            "Last Oasis": "Last Oasis"
-        }
+  "_comment": "This file needs to be manually translated with every change to a Doc Metadata, or when a new Doc is added.",
+  "localized-strings": {
+    "next": "Nächste",
+    "previous": "Zurück",
+    "tagline": "ZAP-Hosting Dokumentation & Guides",
+    "docs": {
+      "7d2d_becomeadmin": {
+        "title": "7 Days to Die Admin werden - Gameserver von ZAP-Hosting",
+        "sidebar_label": "Admin werden"
+      },
+      "7d2d_mods": {
+        "title": "7 Days to Die Mods auf Server installieren - Gameserver von ZAP-Hosting",
+        "sidebar_label": "Mods installieren"
+      },
+      "7d2d_commands": {
+        "title": "7 Days to Die Befehle ausführen - Gameserver von ZAP-Hosting",
+        "sidebar_label": "Befehle ausführen"
+      },
+      "account_2factor": {
+        "title": "Setup Zwei-Faktor-Authentifizierung bei ZAP-Hosting.com",
+        "sidebar_label": "Zwei-Faktor-Authentifizierung"
+      },
+      "account_backup_storage": {
+        "title": "Backup Storage",
+        "sidebar_label": "Backup Storage"
+      },
+      "account_cashbox": {
+        "title": "Cashbox - Geld bei ZAP-Hosting.com einzahlen",
+        "sidebar_label": "Cashbox"
+      },
+      "account_community_ads": {
+        "title": "Community Werbung",
+        "sidebar_label": "Community Werbung"
+      },
+      "account_contractsandprepaid": {
+        "title": "Verträge & Prepaids - Vertragsoptionen bei ZAP-Hosting.com",
+        "sidebar_label": "Verträge & Prepaids"
+      },
+      "account_donations": {
+        "title": "Spenden- Server bei ZAP-Hosting gemeinsam finanzieren",
+        "sidebar_label": "Spendenlink"
+      },
+      "account_friends": {
+        "title": "Freunde werben und Geld mit ZAP-Hosting verdienen",
+        "sidebar_label": "Freunde werben"
+      },
+      "account_partner_system": {
+        "title": "Partner-System - Vorteile und Konditionen einer Partnerschaft mit ZAP-Hosting",
+        "sidebar_label": "Partner System"
+      },
+      "account_paymentoptions": {
+        "title": "Zahlungsoptionen - Welche Zahlungsoptionen gibt es bei ZAP-Hosting.com",
+        "sidebar_label": "Zahlungsoptionen"
+      },
+      "account_security": {
+        "title": "Account-Sicherheit - Informationen zur Absicherung eines ZAP-Accounts",
+        "sidebar_label": "Sicherheit"
+      },
+      "account_termination_and_cancellation_period": {
+        "title": "Kündigung und Kündigungsfristen von Vertragsservern bei ZAP-Hosting",
+        "sidebar_label": "Kündigung und Kündigungsfrist"
+      },
+      "account_usermanagement": {
+        "title": "Benutzerverwaltung - Server bei ZAP-Hosting von mehreren Nutzern verwalten lassen",
+        "sidebar_label": "Benutzerverwaltung"
+      },
+      "account_vouchers": {
+        "title": "Gutscheine & Codes - Spare mit Gutscheinen",
+        "sidebar_label": "Gutscheine & Codes"
+      },
+      "altv_installresources": {
+        "title": "AltV: Resourcen auf dem Server installieren",
+        "sidebar_label": "Resourcen Installieren"
+      },
+      "amongus_connection": {
+        "title": "Among Us: Verbindung mit dem Server herstellen",
+        "sidebar_label": "Verbindung"
+      },
+      "ark_becomeadmin": {
+        "title": "ARK: Admin werden",
+        "sidebar_label": "Admin werden"
+      },
+      "ark_configuration": {
+        "title": "ARK: Server Konfiguration bei ZAP-Hosting",
+        "sidebar_label": "Server Konfiguration"
+      },
+      "ark_mods": {
+        "title": "ARK: Mods auf einem Server bei ZAP-Hosting installieren",
+        "sidebar_label": "Mods installieren"
+      },
+      "ark_serverlisting": {
+        "title": "Serverlisting Probleme bei Steam Spielen, die Steamworks nutzen",
+        "sidebar_label": "Serverlisting Probleme"
+      },
+      "arma3_altislife_ranks": {
+        "title": "Arma 3: Altis Life - Ränge bei einem Altis Life Server hinzufügen",
+        "sidebar_label": "Altis Life Ränge"
+      },
+      "arma3_gamemode": {
+        "title": "Arma 3: Spielmodus ändern",
+        "sidebar_label": "Spielmodus ändern"
+      },
+      "arma3_missionfile": {
+        "title": "Arma 3: Eigene Missionsdatei hochladen",
+        "sidebar_label": "Eigene Missionsdatei hochladen"
+      },
+      "arma3_mods": {
+        "title": "Arma 3: Mods auf dem eigenen Server installieren",
+        "sidebar_label": "Mods Installieren"
+      },
+      "arma3_serverconfig": {
+        "title": "Arma 3: Server.cfg - Serverkonfigurationsdatei bearbeiten",
+        "sidebar_label": "Server.cfg"
+      },
+      "assetto_competizione_becomeadmin": {
+        "title": "Assetto Corsa Competizione: Admin auf dem eigenen Server werden",
+        "sidebar_label": "Admin werden"
+      },
+      "assetto_competizione_slot_requirement": {
+        "title": "Assetto Corsa Competizione: Car Slot Voraussetzungen",
+        "sidebar_label": "Car Slot Voraussetzungen"
+      },
+      "assettocorsa_configure": {
+        "title": "Assetto Corsa: Server Konfigurieren",
+        "sidebar_label": "Server Konfigurieren"
+      },
+      "assettocorsa_contentmanager": {
+        "title": "Assetto Corsa: Server Konfigurieren mit Content Manager",
+        "sidebar_label": "Server Konfigurieren mit Content Manager"
+      },
+      "assettocorsa_mods": {
+        "title": "Assetto Corsa: Mods auf einen Server installieren",
+        "sidebar_label": "Mods Installieren"
+      },
+      "avorion_becomeadmin": {
+        "title": "Avorion: Admin auf dem eigenen Server werden",
+        "sidebar_label": "Admin werden"
+      },
+      "barotrauma_becomeadmin": {
+        "title": "Barotrauma: Admin auf dem eigenen Server werden",
+        "sidebar_label": "Admin werden"
+      },
+      "beammp_authkey": {
+        "title": "Auth Key Erstellen",
+        "sidebar_label": "Auth Key Erstellen"
+      },
+      "beammp_mods": {
+        "title": "Mods installieren",
+        "sidebar_label": "Mods installieren"
+      },
+      "community_info": {
+        "title": "Community Angebote - werde Teil der ZAP-Hosting Community",
+        "sidebar_label": "Community Angebote"
+      },
+      "conan_becomeadmin": {
+        "title": "Conan Exiles: Admin auf dem eigenen Server werden",
+        "sidebar_label": "Admin werden"
+      },
+      "conan_configuration": {
+        "title": "Conan Exiles: den eigenen Server konfigurieren",
+        "sidebar_label": "Server Konfiguration"
+      },
+      "create_screenshots": {
+        "title": "Screenshots: Wie und mit welchem Tool Screenshots erstellen",
+        "sidebar_label": "Screenshots erstellen"
+      },
+      "cs16_becomeadmin": {
+        "title": "Counter-Strike 1.6: Admin auf dem eigenen Server werden",
+        "sidebar_label": "Admin werden"
+      },
+      "cs16_plugins": {
+        "title": "Counter-Strike 1.6: Plugins auf dem eigenen Server installieren",
+        "sidebar_label": "Plugins installieren"
+      },
+      "csgo_configuration": {
+        "title": "Counter-Strike GO: Server Konfiguration",
+        "sidebar_label": "Server Konfiguration"
+      },
+      "csgo_gotv": {
+        "title": "CS GO Server: Informationen zu GOTV",
+        "sidebar_label": "GOTV"
+      },
+      "dedicated_ilo": {
+        "title": "iLO",
+        "sidebar_label": "iLO"
+      },
+      "dedicated_iso": {
+        "title": "Eigene ISO",
+        "sidebar_label": "Eigene ISO"
+      },
+      "dedicated_linux_debian": {
+        "title": "Debian installieren",
+        "sidebar_label": "Debian installieren"
+      },
+      "dedicated_linux_ubuntu": {
+        "title": "Ubuntu installieren",
+        "sidebar_label": "Ubuntu installieren"
+      },
+      "dedicated_windows": {
+        "title": "Windows installieren",
+        "sidebar_label": "Windows installieren"
+      },
+      "dedicated_freebsd": {
+        "title": "FreeBSD installieren",
+        "sidebar_label": "FreeBSD installieren"
+      },
+      "dedicated_raid": {
+        "title": "RAID konfigurieren",
+        "sidebar_label": "RAID konfigurieren"
+      },
+      "dedicated_centos": {
+        "title": "CentOS installieren",
+        "sidebar_label": "CentOS installieren"
+      },
+      "dedicated_reset": {
+        "title": "Server resetten",
+        "sidebar_label": "Server resetten"
+      },
+      "discordbot_setup": {
+        "title": "Discord Bot einrichten",
+        "sidebar_label": "Einrichtung"
+      },
+      "domain_easydns": {
+        "title": "Domains: EasyDNS",
+        "sidebar_label": "EasyDNS"
+      },
+      "domain_expertdns": {
+        "title": "Domains: ExpertDNS",
+        "sidebar_label": "ExpertDNS"
+      },
+      "domain_gameserver_srv_link": {
+        "title": "Domains: Gameserver-Weiterleitung einrichten",
+        "sidebar_label": "Domain Gameserver Weiterleitung"
+      },
+      "domain_general_domain_info": {
+        "title": "Domains: Was ist eine Domain?",
+        "sidebar_label": "Was ist eine Domain?"
+      },
+      "domain_order": {
+        "title": "Domains: Eine Domain bei ZAP-Hosting bestellen",
+        "sidebar_label": "Eine Domain bestellen"
+      },
+      "domain_profidns": {
+        "title": "Domains: ProfiDNS",
+        "sidebar_label": "ProfiDNS"
+      },
+      "domain_records": {
+        "title": "Domains: Domain Records-Einstellungen",
+        "sidebar_label": "Domain Records"
+      },
+      "domain_teamspeak_redirect": {
+        "title": "Domains: Domain TeamSpeak 3 Weiterleitung einrichten",
+        "sidebar_label": "Domain TeamSpeak 3 Weiterleitung"
+      },
+      "dst_create_cave": {
+        "title": "Don't Starve Together: Höhlen auf Server erstellen",
+        "sidebar_label": "Höhlen erstellen"
+      },
+      "eco_becomeadmin": {
+        "title": "ECO - Global Survival Server: Admin werden",
+        "sidebar_label": "Admin werden"
+      },
+      "eco_whitelist": {
+        "title": "ECO - Global Surival Server: Whitelist aktivieren",
+        "sidebar_label": "Whitelist"
+      },
+      "empyrion_becomeadmin": {
+        "title": "Empyrion Server: Admin werden",
+        "sidebar_label": "Admin werden"
+      },
+      "exiled_plugins": {
+        "title": "EXILED: Plugins auf Server installieren",
+        "sidebar_label": "Plugins installieren"
+      },
+      "factorio_becomeadmin": {
+        "title": "Factorio Server: Admin werden",
+        "sidebar_label": "Admin werden"
+      },
+      "factorio_mods": {
+        "title": "Factorio Server: Mods installieren",
+        "sidebar_label": "Mods installieren"
+      },
+      "firststeps_problem_melden": {
+        "title": "ZAP-Hosting: Was tun bei Problemen mit dem eigenen Server?",
+        "sidebar_label": "Wie melde ich Probleme?"
+      },
+      "firststeps_register": {
+        "title": "ZAP-Hosting: Registration",
+        "sidebar_label": "Registrieren"
+      },
+      "firststeps_rent_contractorprepaid": {
+        "title": "ZAP-Hosting.com: Vertrag oder Prepaid - Was sind die Unterschiede?",
+        "sidebar_label": "Vertrag oder Prepaid"
+      },
+      "firststeps_rent": {
+        "title": "Server Mieten",
+        "sidebar_label": "Server Mieten"
+      },
+      "firststeps": {
+        "title": "Die ersten Schritte",
+        "sidebar_label": "Die ersten Schritte"
+      },
+      "fivem_change_servericon": {
+        "title": "FiveM: Server Icon für Serverliste ändern",
+        "sidebar_label": "Server Icon Ändern"
+      },
+      "fivem_changeloadingscreen": {
+        "title": "FiveM: Loadingscreen für FiveM-Server installieren/ändern",
+        "sidebar_label": "Loadingscreen installieren"
+      },
+      "fivem_changespawnpoint": {
+        "title": "FiveM Servereinstellungen: Spawnpoint setzen",
+        "sidebar_label": "Spawnpoint setzen"
+      },
+      "fivem_dashboard": {
+        "title": "FiveM: Server-Administration über das Web Interface-Dashboard",
+        "sidebar_label": "Dashboard"
+      },
+      "fivem_deletecache": {
+        "title": "FiveM Server: Cache leeren",
+        "sidebar_label": "Cache leeren"
+      },
+      "fivem_devtools": {
+        "title": "FiveM: Devtools Aktivieren",
+        "sidebar_label": "Devtools Aktivieren"
+      },
+      "fivem_editlocalfiles": {
+        "title": "FiveM Server: Die Locales-Dateien bearbeiten",
+        "sidebar_label": "Localesfiles bearbeiten"
+      },
+      "fivem_esx_addcarstoshop": {
+        "title": "FiveM ESX Server: Autos zum Shop hinzufügen",
+        "sidebar_label": "Autos zum Shop hinzufügen"
+      },
+      "fivem_esx_becomeadminoverdatabase": {
+        "title": "FiveM ESX Server: Admin über die Datenbank werden",
+        "sidebar_label": "Admin über Datenbank werden"
+      },
+      "fivem_esx_changejobgarages": {
+        "title": "FiveM ESX Server: Job-Garagen - Autos hinzufügen",
+        "sidebar_label": "Job-Garagen Autos Hinzufügen"
+      },
+      "fivem_esx_changemoneyicon": {
+        "title": "FiveM ESX Server: Geldicon Ändern",
+        "sidebar_label": "Geldicon Ändern"
+      },
+      "fivem_esx_changerespawnpoint": {
+        "title": "FiveM ESX Server: Respawnpoint setzen",
+        "sidebar_label": "Respawnpoint setzen"
+      },
+      "fivem_esx_disablehud": {
+        "title": "FiveM ESX Server: HUD deaktivieren/aktivieren",
+        "sidebar_label": "HUD deaktivieren"
+      },
+      "fivem_esx_disableinventory": {
+        "title": "FiveM ESX Server: Inventar (F2) deaktivieren",
+        "sidebar_label": "Inventar (F2) Deaktivieren"
+      },
+      "fivem_installels": {
+        "title": "FiveM: ELS auf Server installieren",
+        "sidebar_label": "ELS Installieren"
+      },
+      "fivem_installeup": {
+        "title": "FiveM: EUP auf Server installieren",
+        "sidebar_label": "EUP Installieren"
+      },
+      "fivem_installresources": {
+        "title": "FiveM: Resourcen, Mods und Scripts auf Server installieren",
+        "sidebar_label": "Resourcen Installieren"
+      },
+      "fivem_licensekey": {
+        "title": "FiveM: Eigenen Lizenzkey (Patreon) zu Server hinzufügen",
+        "sidebar_label": "Eigener Lizenzkey"
+      },
+      "fivem_mastadon": {
+        "title": "FiveM: Activity Feed für Server einrichten",
+        "sidebar_label": "Activity Feed Einrichten"
+      },
+      "fivem_mods_installaddon": {
+        "title": "FiveM: Addon Carmods auf Server installieren",
+        "sidebar_label": "Addon Carmods Installieren"
+      },
+      "fivem_mods_installreplace": {
+        "title": "FiveM: Replacement Carmods auf Server installieren",
+        "sidebar_label": "Replacement Carmods Installieren"
+      },
+      "fivem_notlisted": {
+        "title": "FiveM Server: Server erscheint nicht in der Serverliste",
+        "sidebar_label": "Server nicht in Serverliste"
+      },
+      "fivem_prohibited_resources": {
+        "title": "FiveM Server: Fehlermeldung \"Resource contains prohibited logic\"?",
+        "sidebar_label": "Resource contains prohibited logic?"
+      },
+      "fivem_rcon": {
+        "title": "FiveM Server: Rcon benutzen",
+        "sidebar_label": "Rcon Benutzen"
+      },
+      "fivem_servername_color": {
+        "title": "FiveM: Servernamen farbig anzeigen lassen",
+        "sidebar_label": "Servernamen färben"
+      },
+      "fivem_servername_emojis": {
+        "title": "FiveM: Emojis im Servernamen anzeigen lassen",
+        "sidebar_label": "Emojis in Server Name"
+      },
+      "fivem_sql_file_import": {
+        "title": "FiveM Server: SQL Dateiimport",
+        "sidebar_label": "SQL Dateiimport"
+      },
+      "fivem_txadmin_features": {
+        "title": "txAdmin Interface",
+        "sidebar_label": "txAdmin Interface"
+      },
+      "fivem_txadmin_setup": {
+        "title": "txAdmin Einrichtung",
+        "sidebar_label": "txAdmin Einrichtung"
+      },
+      "fivem_upvotes": {
+        "title": "FiveM: Upvotes und Server Boosts",
+        "sidebar_label": "Upvotes"
+      },
+      "fivem_useprofiler": {
+        "title": "FiveM: Profiler benutzen und Serverprobleme identifizieren",
+        "sidebar_label": "Profiler Benutzen"
+      },
+      "fivem_vrp_changemoneyicon": {
+        "title": "FiveM VRP Server: Geldicon ändern",
+        "sidebar_label": "Geldicon Ändern"
+      },
+      "fivem_vrp_removespeedo": {
+        "title": "FiveM VRP Server: Speedometer entfernen",
+        "sidebar_label": "Speedometer Entfernen"
+      },
+      "fivem_gamebuild": {
+        "title": "FiveM DLC Gamebuild aktivieren",
+        "sidebar_label": "DLC Gamebuild aktivieren"
+      },
+      "fivem_gamechange": {
+        "title": "FiveM Spielwechsel",
+        "sidebar_label": "Spielwechsel"
+      },
+      "fivem_qbcore_admin": {
+        "title": "QBCore Admin werden",
+        "sidebar_label": "Admin werden"
+      },
+      "gameserver_backups": {
+        "title": "Gameserver: Backups bei ZAP-Hosting erstellen, herunterladen und einspielen",
+        "sidebar_label": "Backups"
+      },
+      "gameserver_cloudvslifetime": {
+        "title": "Gameserver: Unterschiede Cloud-Gameserver vs. Lifetime Server von ZAP-Hosting",
+        "sidebar_label": "Cloud vs. Lifetime"
+      },
+      "gameserver_database_external_access": {
+        "title": "Gameserver: Externer Datenbankzugriff",
+        "sidebar_label": "Externer Datenbankzugriff"
+      },
+      "gameserver_databases_pma": {
+        "title": "Gameserver: PHPMyAdmin für Server von ZAP-Hosting",
+        "sidebar_label": "PHPMyAdmin"
+      },
+      "gameserver_ftpaccess": {
+        "title": "Gameserver: Dateien mit FTP hochladen und herunterladen",
+        "sidebar_label": "FTP Dateizugriff"
+      },
+      "gameserver_gameswitch": {
+        "title": "Gameserver: Spielwechsel mit der Gameservercloud",
+        "sidebar_label": "Spielwechsel"
+      },
+      "gameserver_resourcelimit": {
+        "title": "Gameserver: Resourcenlimit - Gameserver freischalten",
+        "sidebar_label": "Resourcenlimit"
+      },
+      "gameserver_restartplaner": {
+        "title": "Gameserver: Restartplaner - Server-Neustarts automatisch durchführen",
+        "sidebar_label": "Restartplaner"
+      },
+      "gameserver_server_down_what_now": {
+        "title": "Gameserver: Server down - Was nun?",
+        "sidebar_label": "Server down - was nun?"
+      },
+      "gameserver_tebex": {
+        "title": "TEBEX Gameserver Monetarisierung einrichten",
+        "sidebar_label": "TEBEX Monetarisierung"
+      },
+      "gmod_servercfg": {
+        "title": "Garry's Mod: Server.cfg Einstellungen",
+        "sidebar_label": "Garry's Mod Server.cfg Anpassungen"
+      },
+      "gmod_ttt": {
+        "title": "Garry's Mod: TTT Konfiguration",
+        "sidebar_label": "Garry's Mod TTT Konfiguration"
+      },
+      "lastoasis_createrealm": {
+        "title": "Realm Erstellen"
+      },
+      "legal_use_brand_assets": {
+        "title": "Verwendung von Logo und Name",
+        "sidebar_label": "Verwendung von Logo und Name"
+      },
+      "minecraft_add_own_world": {
+        "title": "Minecraft: Eigene Welt zum Server hinzufügen",
+        "sidebar_label": "Eigene Welt hinzufügen"
+      },
+      "minecraft_addop": {
+        "title": "Minecraft Server: OP-Rechte vergeben",
+        "sidebar_label": "OP-Permissions"
+      },
+      "minecraft_bungeecord_config": {
+        "title": "Minecraft Bungeecord Server: Server Config-Einstellungen",
+        "sidebar_label": "Server Config"
+      },
+      "minecraft_commands": {
+        "title": "Minecraft: Allgemeine Server-Befehle",
+        "sidebar_label": "Allgemeine Befehle"
+      },
+      "minecraft_default_config": {
+        "title": "Minecraft: Server Config-Einstellungen",
+        "sidebar_label": "Server Config"
+      },
+      "minecraft_forge_add_mods": {
+        "title": "Minecraft: Mods auf Server installieren",
+        "sidebar_label": "Mods installieren"
+      },
+      "minecraft_pluginuploader": {
+        "title": "Minecraft Server: ZAP-Hosting Plugin Uploader verwenden",
+        "sidebar_label": "Plugin Uploader"
+      },
+      "minecraft_rcon": {
+        "title": "Minecraft Server: RCON verwenden",
+        "sidebar_label": "RCON"
+      },
+      "minecraft_server_optimize": {
+        "title": "Minecraft: Minecraft-Server Performance-Optimisierung",
+        "sidebar_label": "Minecraft-Server optimieren"
+      },
+      "minecraft_server-icon": {
+        "title": "Minecraft: Server Icon hinzufügen oder ändern",
+        "sidebar_label": "Server Icon"
+      },
+      "minecraft_timings_report": {
+        "title": "Minecraft: Server-Probleme mit Timings-Report identifizieren",
+        "sidebar_label": "Timings-Report"
+      },
+      "minecraft_whitelist": {
+        "title": "Minecraft Server: Whitelist aktivieren und bearbeiten",
+        "sidebar_label": "Whitelist"
+      },
+      "minecraft_worlds": {
+        "title": "Minecraft Server: Welten verwalten",
+        "sidebar_label": "Welten Verwalten"
+      },
+      "minecraftbedrock_behaviorresourcepacks": {
+        "title": "Minecraft Bedrock: Behavior/Resource Packs installieren",
+        "sidebar_label": "Behavior/Resource Packs installieren"
+      },
+      "mta_becomeadmin": {
+        "title": "MTA: Admin auf MTA-Server werden",
+        "sidebar_label": "Admin werden"
+      },
+      "partner-guide": {
+        "title": "Partner Guide: Das Partnerprogramm von ZAP-Hosting",
+        "sidebar_label": "Partner Guide"
+      },
+      "preorders": {
+        "title": "Vorbestellungen",
+        "sidebar_label": "Vorbestellungen"
+      },
+      "ragemp_installpackages": {
+        "title": "RageMP: Pakete auf Server installieren",
+        "sidebar_label": "Pakete Installieren"
+      },
+      "rust_becomeadmin": {
+        "title": "Rust: Admin auf eigenem Server werden",
+        "sidebar_label": "Admin werden"
+      },
+      "rust_connectrcon": {
+        "title": "Rust: Verbindung via RCON zum Server herstellen",
+        "sidebar_label": "Connect via RCON"
+      },
+      "rust_connecttoserver": {
+        "title": "Rust: Mit dem Server verbinden",
+        "sidebar_label": "Mit dem Server verbinden"
+      },
+      "rust_commands": {
+        "title": "Rust: Admin Befehle",
+        "sidebar_label": "Admin Befehle"
+      },
+      "rust_decay": {
+        "title": "Decay verändern",
+        "sidebar_label": "Decay"
+      },
+      "rust_plugins": {
+        "title": "Rust: Plugins auf Server installieren",
+        "sidebar_label": "Plugins installieren"
+      },
+      "satisfactory_addmods": {
+        "title": "Mods installieren",
+        "sidebar_label": "Mods installieren"
+      },
+      "satisfactory_connect": {
+        "title": "Zum Server verbinden",
+        "sidebar_label": "Zum Server verbinden"
+      },
+      "satisfactory_connect_experimental": {
+        "title": "Zum Server verbinden",
+        "sidebar_label": "Zum Server verbinden"
+      },
+      "satisfactory_savegame": {
+        "title": "Savegame-Manager",
+        "sidebar_label": "Savegame-Manager"
+      },
+      "satisfactory_switchexperimental": {
+        "title": "Experimentelle Version",
+        "sidebar_label": "Experimentelle Version"
+      },
+      "satisfactory_commands": {
+        "title": "Konsolen-Befehle",
+        "sidebar_label": "Konsolen-Befehle"
+      },
+      "scp_becomeadmin": {
+        "title": "SCP: Secret Laboratory: Admin auf dem eigenen Server werden",
+        "sidebar_label": "Admin werden"
+      },
+      "scp_colored_servername": {
+        "title": "Farbiger Servername",
+        "sidebar_label": "Farbiger Servername"
+      },
+      "scp_newroles": {
+        "title": "SCP: Secret Laboratory Server: Neue Rollen hinzufügen",
+        "sidebar_label": "Neue Rollen hinzufügen"
+      },
+      "scp_pastebin": {
+        "title": "Pastebin ID",
+        "sidebar_label": "Pastebin ID"
+      },
+      "scpservermod_uploadplugins": {
+        "title": "SCP: Secret Laboratory: Plugins auf Server installieren installieren",
+        "sidebar_label": "Plugins installieren"
+      },
+      "source_custom_content": {
+        "title": "Source Spiele: Custom Inhalte und Mods auf Gameserver installieren",
+        "sidebar_label": "Custom Inhalte"
+      },
+      "source_gsltoken": {
+        "title": "Source Spiele: Gameserver Login Token verwenden",
+        "sidebar_label": "GSL-Token"
+      },
+      "source_metamod_addadmins": {
+        "title": "Source Spiele: Server-Admin werden",
+        "sidebar_label": "Admin werden"
+      },
+      "source_metamod_installation": {
+        "title": "Source Spiele: Source Mod und Meta Mod auf Server installieren",
+        "sidebar_label": "Installation"
+      },
+      "source_metamod_plugins": {
+        "title": "Source Spiele mit Sourcemod/Metamod: Plugins installieren",
+        "sidebar_label": "Plugins"
+      },
+      "spaceengineers_addmods": {
+        "title": "Space Engineers: Mods auf Server installieren",
+        "sidebar_label": "Space Engineers Mods installieren"
+      },
+      "spaceengineers_becomeadmin": {
+        "title": "Space Engineers: Server-Admin werden",
+        "sidebar_label": "Admin werden"
+      },
+      "suggestions": {
+        "title": "Vorschläge für neue Gameserver und Funktionen auf ZAP-Hosting einreichen",
+        "sidebar_label": "Vorschläge einreichen"
+      },
+      "terraria_tmodloader_installmod": {
+        "title": "Terraria: Mods auf Server installieren (tModLoader)",
+        "sidebar_label": "Mod installieren (tModLoader)"
+      },
+      "terraria_tshock_add_admin": {
+        "title": "Terraria: Server-Admin werden (tShock)",
+        "sidebar_label": "Admin werden (tShock)"
+      },
+      "unturned_becomeadmin": {
+        "title": "Unturned: Server-Admin werden",
+        "sidebar_label": "Admin werden"
+      },
+      "unturned_firstthirdperson": {
+        "title": "Unturned: 1st/3rd Person für Server einstellen",
+        "sidebar_label": "1st/3rd Person"
+      },
+      "unturned_rocketmod_permissions": {
+        "title": "Unturned Rocketmod: Server-Berechtigungen anpassen",
+        "sidebar_label": "Berechtigungen anpassen"
+      },
+      "unturned_rocketmod_plugins": {
+        "title": "Unturned Rocketmod: Plugins auf Server installieren",
+        "sidebar_label": "Plugins installieren"
+      },
+      "unturned_whitelist": {
+        "title": "Unturned: Whitelist auf Server aktivieren und bearbeiten",
+        "sidebar_label": "Whitelist"
+      },
+      "unturned_workshop": {
+        "title": "Unturned: Workshop Inhalte auf Server installieren",
+        "sidebar_label": "Workshop Inhalte"
+      },
+      "valheim_admin": {
+        "title": "Valheim: Server Admin Befehle & Cheats",
+        "sidebar_label": "Admin Commands & Cheats"
+      },
+      "valheim_backup_schedule": {
+        "title": "Valheim: Automatisierte Backups für Server aktivieren",
+        "sidebar_label": "Automatisierte Backups"
+      },
+      "valheim_connect": {
+        "title": "Valheim: Auf Valheim-Server verbinden",
+        "sidebar_label": "Zum Server Verbinden"
+      },
+      "valheim_plugins_bepinex": {
+        "title": "Valheim: Plugins auf Server installieren (BepInEx)",
+        "sidebar_label": "Plugin's installieren (BepInEx)"
+      },
+      "valheim_plus": {
+        "title": "Valheim: Valheim Plus-Server",
+        "sidebar_label": "Valheim Plus"
+      },
+      "valheim_savegame": {
+        "title": "Valheim: Savegames auf Server verwalten",
+        "sidebar_label": "Savegames Verwalten"
+      },
+      "valheim_serverlisting": {
+        "title": "Serverlisting Probleme bei Steam Spielen, die Steamworks nutzen",
+        "sidebar_label": "Serverlisting Probleme"
+      },
+      "voiceserver_becomeadmin": {
+        "title": "Teamspeak Server: Admin werden",
+        "sidebar_label": "Admin werden"
+      },
+      "voiceserver_configuration": {
+        "title": "Teamspeak Server: Server Konfiguration",
+        "sidebar_label": "Server Konfiguration"
+      },
+      "voiceserver_query": {
+        "title": "Teanspeak Server: Teamspeak Query Login einrichten",
+        "sidebar_label": "Teamspeak Query Login"
+      },
+      "voiceserver_ts3backup": {
+        "title": "Teamspeak: Server Backup einrichten und herunterladen",
+        "sidebar_label": "Ts3 Backup"
+      },
+      "voiceserver_voicebot_connection": {
+        "title": "Teamspeak: Voicebot mit Teamspeak Server verbinden",
+        "sidebar_label": "Voicebot Verbinden"
+      },
+      "vserver_linux_add_ip": {
+        "title": "vServer: IPv4 Adresse zum Server hinzufügen",
+        "sidebar_label": "IPv4 Adresse hinzufügen"
+      },
+      "vserver_linux_dnsserver": {
+        "title": "vServer: DNS Server Installation und Einrichtung (ISPConfig)",
+        "sidebar_label": "DNS Server (ISPConfig)"
+      },
+      "vserver_linux_docker": {
+        "title": "vServer: Docker auf Server installieren",
+        "sidebar_label": "Docker"
+      },
+      "vserver_linux_ftp_install": {
+        "title": "vServer: FTP Server installieren und einrichten",
+        "sidebar_label": "FTP Einrichten"
+      },
+      "vserver_linux_ftp": {
+        "title": "vServer: FTP Dienst funktioniert nicht - Problemlösungen",
+        "sidebar_label": "FTP Dienst funktioniert nicht"
+      },
+      "vserver_linux_gs_interface": {
+        "title": "vServer: Gameserver / Ts 3 Server Interface",
+        "sidebar_label": "Gameserver / Ts 3 Server Interface"
+      },
+      "vserver_linux_java": {
+        "title": "vServer: Java auf Server installieren",
+        "sidebar_label": "Java installieren"
+      },
+      "vserver_linux_jitsi": {
+        "title": "vServer: Jitsi Meet auf Server installieren",
+        "sidebar_label": "Jitsi Meet"
+      },
+      "vserver_linux_mariadbinstall": {
+        "title": "vServer: MariaDB (MySQL) auf Server installieren",
+        "sidebar_label": "MariaDB (MySQL) Installation"
+      },
+      "vserver_linux_nextcloud": {
+        "title": "vServer: Nextcloud auf Server installieren",
+        "sidebar_label": "Nextcloud"
+      },
+      "vserver_linux_openvpn": {
+        "title": "vServer: OpenVPN auf Server installieren",
+        "sidebar_label": "OpenVPN"
+      },
+      "vserver_linux_password_change": {
+        "title": "vServer: Root Passwort für Linux-Server ändern",
+        "sidebar_label": "Passwort ändern"
+      },
+      "vserver_linux_phpmyadmin": {
+        "title": "vServer: phpMyAdmin auf Linux vServer einrichten",
+        "sidebar_label": "phpMyAdmin"
+      },
+      "vserver_linux_plesk": {
+        "title": "vServer: Plesk auf Linux Servern installieren",
+        "sidebar_label": "Plesk"
+      },
+      "vserver_linux_rsync": {
+        "title": "vServer: Backups von Linux Server mit Rsync anfertigen",
+        "sidebar_label": "Rsync Linux"
+      },
+      "vserver_linux_sftp": {
+        "title": "vServer:Via SFTP auf Linux Server verbinden",
+        "sidebar_label": "SFTP Verbindung"
+      },
+      "vserver_linux_ssh": {
+        "title": "vServer: Erstzugriff auf Linux Server mit SSH",
+        "sidebar_label": "Erstzugriff (SSH)"
+      },
+      "vserver_linux_ssh2fa": {
+        "title": "vServer: Zwei Faktor Authentifizierung für Linux Server einrichten",
+        "sidebar_label": "Zwei Faktor Authentifizierung"
+      },
+      "vserver_linux_sshkey": {
+        "title": "vServer: SSH Key für Linux Server generieren und verwenden",
+        "sidebar_label": "SSH Key"
+      },
+      "vserver_linux_ssl": {
+        "title": "vServer: SSL-Zertifikat (Let's Encrypt) für Linux Server erstellen",
+        "sidebar_label": "SSL-Zertifikat (Let's Encrypt)"
+      },
+      "vserver_linux_webserver": {
+        "title": "vServer: Nginx und Apache Webserver installieren",
+        "sidebar_label": "Webserver installieren"
+      },
+      "vserver_network_analysis_winmtr": {
+        "title": "vServer: Netzwerkanalyse mit MTR/WinMTR",
+        "sidebar_label": "Netzwerkanalyse MTR/WinMTR"
+      },
+      "vserver_root_unterschied": {
+        "title": "Unterschied Rootserver / V-Server bei ZAP-Hosting",
+        "sidebar_label": "Unterschied Rootserver / V-Server"
+      },
+      "vserver_vnc": {
+        "title": "vServer: Was ist VNC?",
+        "sidebar_label": "Was ist VNC?"
+      },
+      "vserver_windows_addip": {
+        "title": "vServer: Zusätzliche IPs zu einem Windows Server hinzufügen",
+        "sidebar_label": "Zusätzliche IPs hinzufügen"
+      },
+      "vserver_windows_change_language": {
+        "title": "vServer: Sprache bei Windows Server hinzufügen/ändern",
+        "sidebar_label": "Sprache hinzufügen/ändern"
+      },
+      "vserver_windows_expand_disk": {
+        "title": "vServer: Festplatte auf Windows Server erweitern",
+        "sidebar_label": "Festplatte erweitern"
+      },
+      "vserver_windows_fs_19": {
+        "title": "vServer: Landwirtschafts-Simulator 2019 auf Windows installieren",
+        "sidebar_label": "Landwirtschafts-Simulator 2019"
+      },
+      "vserver_windows_fs_22": {
+        "title": "vServer: Landwirtschafts-Simulator 2022 auf Windows installieren",
+        "sidebar_label": "Landwirtschafts-Simulator 2022"
+      },
+      "vserver_windows_ftpserver": {
+        "title": "vServer: FTP Server auf Windows Server installieren",
+        "sidebar_label": "FTP Server installieren"
+      },
+      "vserver_windows_installmysql": {
+        "title": "vServer: MySQL Server auf Windows Server installieren",
+        "sidebar_label": "MySQL Server Installieren"
+      },
+      "vserver_windows_nointernet": {
+        "title": "vServer: Kein Internetzugang auf Windows Server. Was nun?",
+        "sidebar_label": "Kein Internet was nun?"
+      },
+      "vserver_windows_plesk": {
+        "title": "vServer: Plesk auf Windows Server installieren",
+        "sidebar_label": "Plesk installation"
+      },
+      "vserver_windows_port": {
+        "title": "vServer: Ports bei Windows Servern freigeben",
+        "sidebar_label": "Ports freigeben"
+      },
+      "vserver_windows_userdp": {
+        "title": "vServer: Erstzugriff auf Windows Server mit RDP",
+        "sidebar_label": "Erstzugriff (RDP)"
+      },
+      "vserver_windows_vrising": {
+        "title": "vServer: V-Rising auf Windows installieren",
+        "sidebar_label": "V-Rising"
+      },
+      "webspace_adddomain": {
+        "title": "Webspace: Domain hinzufügen",
+        "sidebar_label": "Domain Hinzufügen"
+      },
+      "webspace_dashboard": {
+        "title": "Add Domain",
+        "sidebar_label": "Add Domain"
+      },
+      "webspace_htaccess_discord": {
+        "title": "Webspace: Discord Weiterleitung via Domain einrichten",
+        "sidebar_label": "Discord Weiterleitung via Domain"
+      },
+      "webspace_mybb": {
+        "title": "Webspace: MyBB Forensoftware installieren",
+        "sidebar_label": "MyBB installieren"
+      },
+      "webspace_plesk_ftp": {
+        "title": "Webspace: FTP Zugang für Webspace einrichten",
+        "sidebar_label": "FTP Verbindung Anlegen"
+      },
+      "webspace_plesk_sendmail": {
+        "title": "Webspace: Email Adressen einrichten und E-Mails verschicken",
+        "sidebar_label": "E-Mails verschicken"
+      },
+      "webspace_plesk_ssl": {
+        "title": "Webspace: SSL Zertifikat erstellen",
+        "sidebar_label": "SSL Zertifikat erstellen"
+      },
+      "webspace_woltlab": {
+        "title": "Webspace: Woltlab Forensoftware installieren",
+        "sidebar_label": "Woltlab installieren"
+      },
+      "webspace_wordpress": {
+        "title": "Webspace: WordPress installieren",
+        "sidebar_label": "WordPress installieren"
+      },
+      "rust_header": {
+        "title": "Rust: How to add a custom header image for your server",
+        "sidebar_label": "Header Image"
+      }
     },
-    "pages-strings": {
-        "Learn more using the [documentation on this site.](/test-site/docs/en/doc1.html)|no description given": "Learn more using the [documentation on this site.](/test-site/docs/en/doc1.html)",
-        "Browse Docs|no description given": "Browse Docs",
-        "Ask questions about the documentation and project|no description given": "Ask questions about the documentation and project",
-        "Join the community|no description given": "Join the community",
-        "Find out what's new with this project|no description given": "Find out what's new with this project",
-        "Stay up to date|no description given": "Stay up to date",
-        "Need help?|no description given": "Need help?",
-        "This project is maintained by a dedicated group of people.|statement made to reader": "This project is maintained by a dedicated group of people.",
-        "Help Translate|recruit community translators for your project": "Help Translate",
-        "Edit this Doc|recruitment message asking to edit the doc source": "Edit",
-        "Translate this Doc|recruitment message asking to translate the docs": "Translate"
+    "links": {
+      "Docs": "Docs"
+    },
+    "categories": {
+      "Overview": "Übersicht",
+      "Account": "Account",
+      "Gameserver - General": "Gameserver - General",
+      "vServer & Rootserver": "vServer & Rootserver",
+      "Dedicated Server": "Dedicated Server",
+      "Webspace & Domains": "Webspace & Domains",
+      "Voicebot/Voiceserver": "Voicebot/Voiceserver",
+      "Minecraft": "Minecraft",
+      "FiveM": "FiveM",
+      "RageMP": "RageMP",
+      "Alt:V": "Alt:V",
+      "Satisfactory": "Satisfactory",
+      "Terraria": "Terraria",
+      "Source Games": "Source Games",
+      "ArmA 3": "ArmA 3",
+      "ARK": "ARK",
+      "Assetto Corsa": "Assetto Corsa",
+      "Assetto Corsa Competizione": "Assetto Corsa Competizione",
+      "Barotrauma": "Barotrauma",
+      "BeamMP": "BeamMP",
+      "Conan Exiles": "Conan Exiles",
+      "Valheim": "Valheim",
+      "SCP: Secret Laboratory": "SCP: Secret Laboratory",
+      "ECO": "ECO",
+      "Factorio": "Factorio",
+      "Multi Theft Auto": "Multi Theft Auto",
+      "Space Engineers": "Space Engineers",
+      "Unturned": "Unturned",
+      "Don't Starve Together": "Don't Starve Together",
+      "Empyrion": "Empyrion",
+      "Rust": "Rust",
+      "Among Us": "Among Us",
+      "7 Days to Die": "7 Days to Die",
+      "Avorion": "Avorion",
+      "Last Oasis": "Last Oasis"
     }
+  },
+  "pages-strings": {
+    "Learn more using the [documentation on this site.](/test-site/docs/en/doc1.html)|no description given": "Learn more using the [documentation on this site.](/test-site/docs/en/doc1.html)",
+    "Browse Docs|no description given": "Browse Docs",
+    "Ask questions about the documentation and project|no description given": "Ask questions about the documentation and project",
+    "Join the community|no description given": "Join the community",
+    "Find out what's new with this project|no description given": "Find out what's new with this project",
+    "Stay up to date|no description given": "Stay up to date",
+    "Need help?|no description given": "Need help?",
+    "This project is maintained by a dedicated group of people.|statement made to reader": "This project is maintained by a dedicated group of people.",
+    "Help Translate|recruit community translators for your project": "Help Translate",
+    "Edit this Doc|recruitment message asking to edit the doc source": "Edit",
+    "Translate this Doc|recruitment message asking to translate the docs": "Translate"
+  }
 }
