@@ -38,7 +38,7 @@ Das Bild, das du verwenden möchtest, muss auf einem Cloud-Speicher hochgeladen 
 
 <a name="add-the-image-url-to-your-server"></a>
 ## 4. Füge die Bild-URL zu deinem Server hinzu
-Bei ZAP-Hosting kannst du das Header-Bild des Servers direkt im Kontrollpanel einstellen. Klicke auf den Abschnitt "Spieleinstellungen" im Kontrollpanel. Auf der Registerkarte "Grundeinstellungen" gibt es ein Feld zur Eingabe der URL.
+Bei ZAP-Hosting kannst du das Header-Bild des Servers direkt im Kontrollpanel einstellen. Klicke auf den Abschnitt „Einstellungen“ des Bedienfelds, und Sie sehen ein Feld namens „Kopfzeilenbild“, in das Sie die URL eingeben können.
 
 Wenn du dropbox verwenden möchtest, musst du im URL das "dl=0" zu "dl=1" ändern, damit dein Server darauf Zugriff bekommt.
 
