@@ -1,73 +1,59 @@
 ---
 id: account_vouchers
-title: Gutscheine & Codes - Spare mit Gutscheinen
-description: Informationen, wie du Gutscheine gegen ZAP Coins oder eine Preisreduktion für Server einlösen kannst - ZAP-Hosting.com Dokumentationen
+title: Gutscheine & Codes - Geld sparen mit Gutscheinen
+description: Informationen zum Einlösen von Gutscheinen für ZAP Coins oder Rabatte für Server - ZAP-Hosting.com Documentation
 sidebar_label: Gutscheine & Codes
 ---
 
+## Inhaltsverzeichnis
+1. [Arten von Codes](#arten-von-codes)
+2. [Gutschein Codes](#gutschein-codes)
+3. [Rabatt Codes](#rabatt-codes)
+4. [Wo kann ich Codes erhalten?](#wo-kann-ich-codes-erhalten)
 
-Um unsere Codes nutzen zu können, solltest du dich zuerst auf unserer Website anmelden bzw registrieren. Das geht natürlich mit nur wenigen Klicks und ist absolut kostenlos.
+Wir haben verschiedene Codes, die eingelöst werden können. Einige Codes geben dir Zap Coins und andere geben dir Rabatte auf Produkte.
+Um einen Code einzulösen, stelle sicher, dass du in deinem Konto eingeloggt bist. Du hast noch kein Konto? Die Anmeldung ist völlig kostenlos und mit nur wenigen Klicks erledigt!
 
-![image](https://user-images.githubusercontent.com/13604413/159170445-9997a825-12c1-4088-8dbc-519873b71698.png)
+# Arten von Codes
 
-Sobald du eingeloggt bist, landest du automatisch in deinem Webinterface. Um nun einen Code nutzen zu können, solltest du erst in Erfahrung bringen welche Art Code du gerade einlösen möchtest. Grundsätzlich gibt es zwei unterschiedliche Arten von Gutscheincodes:
+Es gibt zwei Arten von Codes:
 
-    1. Codes die dein ZAP-Guthaben erhöhen (**Gutscheincodes**)
-    2. Codes die den Preis einer Bestellung senken (**Rabattcodes**)
+- Gutschein codes: Gutschein codes können eingelöst werden, um dein Zap Guthaben zu erhöhen
 
-## Guthabencodes
+- Rabatt codes: Rabatt codes können für Rabatte auf deine Einkäufe eingelöst werden
 
-Guthabencodes können eingelöst werden, indem du einfach oben in deinem Webinterface auf ZAP Coins klickst.
+# Gutschein Codes
 
-![image](https://user-images.githubusercontent.com/13604413/159170449-0f1ace01-f85c-4ebf-b41e-871c45803d00.png)
+Um Gutscheincodes einzulösen, navigiere zu deinem [cashbox](https://zap-hosting.com/de/customer/home/cashbox/)
 
-Auf der nächsten Seite kannst du aussuchen, ob du Geld einzahlen, Guthaben automatisch aufladen oder einen Gutschein einlösen möchtest. Klicke also auf **Gutschein einlösen**.
+![image](https://user-images.githubusercontent.com/128493723/228590768-eb6d5d70-7189-4319-9c7f-1dd801b6ad42.png)
 
-![image](https://user-images.githubusercontent.com/13604413/159170453-0993f8d4-142a-46dc-abcd-c62a63e3e8a6.png)
+jetzt klicke auf Gutschein einlösen
 
-Es öffnet sich ein Popup, in dem du den Code nun einfügen kannst.
-
-![image](https://user-images.githubusercontent.com/13604413/159170456-84817a3a-6299-40cc-be39-6b424f7f38a7.png)
-
-Ist der Gutschein korrekt eingegeben, noch immer gültig und wurde von dir nicht bereits verwendet, wird der Betrag automatisch auf dein ZAP-Konto gebucht. 
-
-![image](https://user-images.githubusercontent.com/13604413/159170458-9f7754eb-67e5-40fe-ae59-cdf5ac1068e0.png)
+![image](https://user-images.githubusercontent.com/128493723/228641036-8781c680-ab73-41a7-8ab0-7076f55d94eb.png)
 
 
-> Sollte ein Code nicht funktionieren, kann es sein, dass er bereits abgelaufen ist, bereits verwendet wurde oder dass es sich bei dem Code nicht um einen Guthabencode handelt.
+du kannst den Gutscheincode hier eingeben und wenn er noch gültig ist, wird er deinem Zap Guthaben gutgeschrieben
 
-## Rabattcodes
+![image](https://user-images.githubusercontent.com/128493723/228641194-dec6d11b-b125-43ab-8e89-ccccfafe950f.png)
 
-Rabattcodes funktionieren ähnlich wie die Guthabencodes, werden jedoch an einer anderen Stelle im Webinterface benutzt. Sie reduzieren bereits im Bestellprozess die Kosten für das Paket, das ihr buchen möchtet. Um diese Codes einzulösen, macht einfach folgendes:
-Sucht euch das Produkt, das ihr bestellen möchtet und konfiguriert es nach euren Wünschen.
 
-![image](https://user-images.githubusercontent.com/13604413/159170461-c0c4398e-c875-413f-9536-e2c5378b590b.png)
+Beachte, dass du bei einigen Codes dein Konto verifizieren musst, indem du dein Konto auflädst oder Produkte ohne Zap Coins und Spenden für mindestens 5 Euro einmal kaufst.
 
-Sobald alles korrekt konfiguriert ist, könnt ihr euren Code noch im Bestellprozess benutzen. Klickt dazu einfach auf **Gutschein einlösen** unterhalb der Bestellkosten.
+# Rabatt Codes
 
-![image](https://user-images.githubusercontent.com/13604413/159170463-ee0a095b-b49c-4caf-835c-a45a4e08d8c5.png)
+Rabatt Codes sind ähnlich wie Gutscheincodes, werden aber vor Abschluss der Zahlung angewendet.
 
-![image](https://user-images.githubusercontent.com/13604413/159170464-40afb279-40dd-4647-826a-37bf2d399c4b.png)
+![image](https://user-images.githubusercontent.com/128493723/228641268-4d40b1e7-8e92-4c1e-b8b7-b04fe6440ec1.png)
 
-Die Kosten reduzieren sich automatisch sobald ihr den Gutschein einlöst. 
+Beachte, dass die Rabattcodes möglicherweise nur für eine begrenzte Zeit gültig sind und nicht für alle Produkte gelten.
 
-> Es gibt zwei unterschiedliche Rabattcodes: 
-1. Codes die die Kosten für die zuerst gebuchte Laufzeit reduzieren
-2. Codes die dauerhaft die Kosten während der Laufzeit reduzieren
 
-## Wo gibt es Codes?
+# Wo kann ich Codes erhalten?
 
-Es gibt verschiedene Möglichkeiten, um an die begehrten Codes zu kommen. Am einfachsten findet man sie an folgenden Orten:
+Du kannst Codes erhalten auf:
 
-- Unseren Social Media Plattformen wie [Twitter](https://twitter.com/zaphosting), [Facebook](https://www.facebook.com/zaphosting/) und [Instagram](https://www.instagram.com/zaphosting/)
-- In unserem Live Chat auf unserer Website
-- In unseren Newslettern
-- Direkt nach der Bestellung eines Produkts
-
-![image](https://user-images.githubusercontent.com/13604413/159170469-8eb09a32-ccd4-4b7e-ae98-ec8d3e250a02.png)
-
-Jeden Montag einen Euro? Wer schnell ist, kann sich einen der 100 Codes sichern.
-
-![image](https://user-images.githubusercontent.com/13604413/159170472-5e8829f7-f008-49ce-936e-d833dc05636a.png)
-
-Bestellung wird eingerichtet und direkt kann man 50% auf das nächste Produkt sparen!
+- unsere soziale Netzwerke wie [Twitter](https://twitter.com/zaphosting), [Facebook](https://www.facebook.com/zaphosting/), [Instagram](https://www.instagram.com/zaphosting/), [Discord](https://discord.com/invite/zaphosting) und [YouTube](https://www.youtube.com/user/zaphosting)
+- unsere Website
+- unsere Newsletter
+- direkt nach dem Kauf eines Produkts
