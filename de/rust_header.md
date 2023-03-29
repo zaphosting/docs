@@ -7,14 +7,14 @@ sidebar_label: Header-Bild
 # So fügen Sie Ihrem Rust-Server ein benutzerdefiniertes Header-Bild hinzu
 
 ## Inhaltsverzeichnis
-1. [Einleitung](#Einleitung)
-2. [Bild vorbereiten](#reparing-your-image)
+1. [Einleitung](#introduction)
+2. [Bild vorbereiten](#preparing-your-image)
 3. [Wo das Bild gehostet werden soll](#where-to-host-the-image)
 4. [Bild-URL zu Ihrem Server hinzufügen](#add-the-image-url-to-your-server)
 5. [server.cfg Konfigurationsdatei](#server-cfg-config-file)
-6. [Fehlerbehebung](#Fehlerbehebung)
+6. [Fehlerbehebung](#troubleshooting)
 
-<a name="Einführung"></a>
+<a name="introduction"></a>
 ## 1. Einleitung
 Ein „Header-Bild“ ist die Grafik, die in Ihrer Serverbeschreibung angezeigt wird, wenn ein potenzieller Spieler in den Rust-Spiellisten auf Ihren Server klickt. Sie können das Bild verwenden, um neue Spieler anzuziehen und Ihren Server zu „branden“, um ihn von anderen abzuheben.
 
@@ -52,7 +52,7 @@ Die Einstellung wird in der Konfigurationsdatei server.cfg gespeichert, die sich
 Wenn diese Einstellung automatisch vom ZAP-Hosting-Kontrollfeld hinzugefügt wird, erscheint sie als folgende Zeile:
 `server.headerimage "(URL zum Bild)"`
 
-<a name="Fehlerbehebung"></a>
+<a name="troubleshooting"></a>
 ## 6. Fehlerbehebung
 Wenn Sie nach dem Einstellen des Bildes ein weißes Kästchen mit einem großen verschwommenen roten Fragezeichen sehen, bedeutet dies, dass etwas mit der Einstellung, der URL oder dem Bild nicht stimmt. Das rote Fragezeichen ist ein Standardbild, das das Spiel stattdessen verwendet.
 
