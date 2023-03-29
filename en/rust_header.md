@@ -32,14 +32,14 @@ The Rust header image at 1024x512 hosted with ZAP-Hosting
 The Rust server header image 512x256 with ZAP-Hosting
 
 <a name="where-to-host-the-image"></a>
-## 3. Where to Host the Image
-The image you want to use needs to be hosted on a file-sharing site, where it can be accessed by a URL. Some good and easy-to-use sites are Dropbox or Imgur, which can be set up for free.
+## 3. How to add the picture?
+The image you want to use needs to be uploaded to a cloud storage where it can be accessed via a URL. Some good and easy-to-use sites are Dropbox or Imgur, which can be set up for free.
 
 Sites that don't provide a URL or require logins will probably not work correctly.
 
 <a name="add-the-image-url-to-your-server"></a>
 ## 4. Add the Image URL to Your Server
-With ZAP-Hosting, you can set the server header image directly on the control panel. Click on the "Game Settings" section of the control panel, and on the "Basic Settings" tab is a field for entering the URL.
+With ZAP-Hosting, you can set the server header image directly in the control panel. Click on the "Settings" section of the control panel, and you will see a field called "Header Image" for entering the URL.
 
 If the URL provided from Dropbox ends in dl=0, change it to dl=1. That allows the image to be downloaded automatically.
 
