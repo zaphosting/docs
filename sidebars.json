@@ -514,6 +514,7 @@
             "rust_commands",
             "rust_plugins",
             "rust_decay"
+	    "rust_header"
         ],
         "Among Us": [
             "amongus_connection"
