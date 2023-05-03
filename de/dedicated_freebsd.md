@@ -126,18 +126,10 @@ Mit `STRG+C` kann der Editor wieder verlassen werden nach dem Tastendruck muss n
 Nach dem Neustart muss noch die rc.conf bearbeitet werden `ee /etc/rc.conf`, füge folgendes hinzu:
 
 ```
-ifconfig_oce0="inet DeineIP netmask 255.255.255.0"
-defaultrouter="DeinGateway"
+ifconfig_oce0="DHCP"
 ```
 
-DeineIP ist die IP deines Dedicated Servers, diese siehst du im ZAP Interface.
-Bei "defaultrouter" muss das Gateway angegeben werden, dies ist immer die IP deines Servers mit .1 am Ende, also Beispielsweise:
-
-Server IP: 123.123.123.123
-
-Subnetmask: 255.255.255.0
-
-Gateway: 123.123.123.1
+> ⚠️ Achtung: Der Name des Netzwerkadapters in dem Beispiel **oce0** kann abweichen. Stelle sicher, dass du den richtigen Netzwerk-Adapter angibst. Das kannst du über den ifconfig Befehl nachvollziehen. Die Informationen werden im Anschluss automatisch über den DHCP Server bezogen. 
 
 Das sollte dann in etwa so aussehen:
 

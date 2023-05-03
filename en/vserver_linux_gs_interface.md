@@ -1,685 +1,140 @@
 ---
 id: vserver_linux_gs_interface
-title: VPS: Gameserver / Ts 3 Server Interface
-description: Information on how to install TS and game servers on your VPS from ZAP-Hosting.com via the game server/TS3 interface with just a few clicks - ZAP-Hosting.com documentation
-sidebar_label: Gameserver / Ts 3 Server Interface
+title: Gameserver/TS3 Interface
+description: Information on how to install TS and game server via the game server/TS3 interface with just a few clicks - ZAP-Hosting.com documentation
+sidebar_label: GS/TS3 Interface
+
 ---
 
-## What is the Gameserver / TS3 Server Interface anyway?
 
-With the interface you can easily install a Teamspeak 3 server or various selected game servers on your Linux server in just a few clicks.
-And you don't need any experience with Linux!
 
-> **Important**: The interface can only be installed on the following Linux distributions:
-> 1. **Debian 10**
-> 1. **Debian 11**
+## Introduction
 
-## Preparations
-To install the Gameserver-Webinterface. Navigate to the menu in your settings category.
+ If game server products don't meet your taste or expectations, or if you need your service in other ways, using a VPS, root server, or dedicated server is often a better option. However, you often face the challenge that not all services are automated or pre-installed. Setting up services such as game servers, Teamspeak 3 servers, and music bots must be done independently.
 
-![](https://user-images.githubusercontent.com/61839701/165695840-73fe0cfb-2a24-4375-883d-a41b02c9d5ad.png)
+To solve this problem, we have developed a practical solution for our Linux-based VPS, root server, or dedicated server. The so-called Gameserver/Teamspeak 3 Server interface (GS/TS3 Interface)!
 
-You're now in the setup assistant, which requires to generate a ssh key.
-Just press on "Generate SSH key"
 
-![](https://user-images.githubusercontent.com/61839701/165696291-b5c31c89-3b4e-4099-b29c-bfda756b19a6.png)
 
-A new window opens, you just need to press  "Add key" 
-The key will now be added into your server and you will be redirected.
+## Use of the GS/TS3 interface
 
-![](https://user-images.githubusercontent.com/61839701/165696735-8428cebb-8563-431b-837c-2fdbe47cb67f.png)
+With the user-friendly GS/TS3 interface, you can install Teamspeak 3 or other selected game server services on your Linux-based VPS, root server, or dedicated server with just a few clicks. No prior knowledge is required for this installation. The setup of all required packages, server files, and the actual installation are fully automated, saving you time and effort.
 
-> ** Important**: If the key is not recognized the first time successfully, please restart the server once and also reload the page after that.
+> ⚠️ **Note:** To successfully install the GS/TS3 interface, it is important to ensure that your server has one of the following supported operating systems installed:
+>
+> - Debian 10
+> - Debian 11
 
-Simply press on "Create" now, the gameserver webinterface will do everything else by itself.
 
-### Completing the installation
-You can now see the progress of the installation.
-Until everything is completely installed and configured, it can take about 15-20 minutes.
 
-![](https://user-images.githubusercontent.com/61839701/165697094-ddf800a2-2618-441d-912b-994afe8099bf.png)
+## Available services / games
 
-> **Attention**: Please do not continue until the interface is completely installed.
-> It is completely installed as long as the progress bar has disappeared and as soon as every package says "installed" instead of "missing".
+The GS/TS3 interface supports the setup of game servers, voice servers, and music bots. Most of the games we offer for our game server products are also available in the GS/TS3 interface option. This applies to all games that we actively operate under Linux. All games that run on Windows operating systems can unfortunately not be installed. There, only a manual installation is possible, provided that the game supports a Linux server version.
+
+| Services    | Description / Content                             | VPS  | Rootserver | Dedicated Server |
+| ----------- | ------------------------------------------------- | ---- | ---------- | ---------------- |
+| Gameserver  | Linux based gameserver applications are supported | ✔️    | ✔️          | ✔️                |
+| Voiceserver | Teamspeak 3 servers are supported                 | ✔️    | ✔️          | ✔️                |
+| Musikbot    | Sinusbot is supported                             | ✔️    | ✔️          | ✔️                |
+
+<p style="text-align: center;">List updated last on 01.05.2023</p>
+
+
+
+## Installation and configuration of the GS/TS3 interface
+
+To install the GS/TS3 interface, you need to navigate to the navigation panel **Settings** in the server administration of your product and click on the sub-item **Gameserver / TS3**. 
+
+The first time you call up the GS/TS3 interface, you will be taken to the user-friendly setup assistant. To set up the interface and link it to your server, it is first necessary to create an SSH key. This key is necessary for the website to establish a secure connection to the server. This makes it possible to set up, manage and control services such as game servers and Teamspeak 3 servers directly via the interface.
+
+Once there, the SSH key must be created. To do this, click on the **Generate SSH key** button and then add the key by clicking on the **Add key** button. Optionally, you can also define a name for the key for overview purposes.
+
+
+![img](https://user-images.githubusercontent.com/61839701/165696291-b5c31c89-3b4e-4099-b29c-bfda756b19a6.png)
+
+
+
+Once you have clicked on **Add Key**, the SSH key is stored on your server. The GS/TS3 interface can then be added to your server.
+
+
+
+![img](https://user-images.githubusercontent.com/61839701/165696735-8428cebb-8563-431b-837c-2fdbe47cb67f.png)
+
+
+
+> ⚠️ **Note:** If the SSH key is not recognised right away, restarting the server and refreshing the page is a possible solution.
+
+During the installation you can check the current progress. Please note that the installation and configuration of the interface and its packages may take some time. This can usually take from 5 to 15 minutes.
+
+![img](https://user-images.githubusercontent.com/61839701/165697094-ddf800a2-2618-441d-912b-994afe8099bf.png)
+
+> ⚠️ **Caution**: Please do not continue the process until the interface is completely installed. You can recognize the successful installation by the fact that the progress bar has disappeared and "Installed" is displayed instead of "Missing" for each required package.
+
+
 
 ## Installation of a game server
-Now that the installation is complete, we can start installing a game server.
-For this you can click here on "Install game server":
 
-![](https://user-images.githubusercontent.com/61839701/165700146-8ee11ace-99f6-477b-9958-3a7c29599204.png)
+Provided that the creation and installation of the GS/TS3 interface has been completed successfully, you can now start setting up the services. The installation of a game server is done via the **Install game server** button in the **Game server** category.
 
-In the following window you can select the IP address of the desired game server. (If your server has more than one IP)
-You can also specify the desired port, the number of slos and the RAM boost.
-As far as all details fit you can click on "Install game server now".
-
-![](https://user-images.githubusercontent.com/61839701/165700364-b4b07d72-f7a5-47f6-bdf8-d9f8993a8cbf.png)
-
-### Install the desired game
-You can now view your server in the gameserver list and click on it.
-
-![](https://user-images.githubusercontent.com/61839701/165700581-7e790682-31fe-487b-9371-6a6590a58208.png)
-
-You are now in the administration of your game server.
-Here you can click on the tab "Games" on the left.
-
-![](https://user-images.githubusercontent.com/61839701/165700781-450a1116-65ad-43bf-bcc8-f17dbf30d53f.png)
+![img](https://user-images.githubusercontent.com/61839701/165700146-8ee11ace-99f6-477b-9958-3a7c29599204.png)
 
 
-Here you can find a list of all games you could install on your server.
-In our example we want to install Paperspigot.
-To do so, we type "Paperspigot" into the search bar and click on the green "install" button to the right of the game.
 
-![](https://user-images.githubusercontent.com/61839701/165700868-1d135fe0-fd19-4963-aad0-d98f07017bb6.png)
+In the next step, you have the option of selecting the IP address of the desired game server (provided your server has more than one IP). You can also specify the desired port, the number of slots and the RAM boost individually.
 
-Now you see the conditions of the game and can choose the version to be installed.
-By clicking on "Accept and install" the game will be installed.
+![img](https://user-images.githubusercontent.com/61839701/165700364-b4b07d72-f7a5-47f6-bdf8-d9f8993a8cbf.png)
 
-![](https://user-images.githubusercontent.com/61839701/165701029-1d566a87-d4e7-4a6a-a0f2-03503466553b.png)
+Make sure that all the details are correct and meet your requirements. As soon as you have made all the settings, click on "Install game server now" to start the installation process. The game server will then be set up according to your specifications and you will soon be able to get started. You can now view and call up your newly created game server in the list.
 
 
-This takes a few minutes, depending on the game.
-Afterwards you can start your game server and connect to it in-game!
+
+![](https://user-images.githubusercontent.com/61839701/165700566-ce663969-7d54-4f82-81be-87b470064e2d.png)
 
 
-## Installation of a Teamspeak 3 server
-The installation of a Teamspeak 3 server is almost identical to the installation of a game server.
-First you have to click on "Gameserver / Ts3" again.
-Here you can now click on "Install Voiceserver".
 
-![](https://user-images.githubusercontent.com/61839701/165701625-b6443738-3b39-432e-a486-baedd6266bf6.png)
+You are now in the administration of your game server. There you can select and install the desired game for your game server in the **Settings** navigation panel under **Games**.
+
+![img](https://user-images.githubusercontent.com/61839701/165700781-450a1116-65ad-43bf-bcc8-f17dbf30d53f.png)
+
+Here you will find a list of all the games you can install on your server. In this example, a server with the game (package) Minecraft: Paperspigot will be installed. Select your desired game and click on the green button to start the installation.
+
+![](https://user-images.githubusercontent.com/61839701/165700899-ddaf5731-0a4e-4daf-a691-339cd7942a32.png)
+
+An overview with all the necessary conditions will be displayed. If all conditions are met, you can confirm the process with the **Accept and Install** button.
+
+![img](https://user-images.githubusercontent.com/61839701/165701029-1d566a87-d4e7-4a6a-a0f2-03503466553b.png)
+
+Setting up the game may take some time depending on the game. The progress is shown in the status display. Afterwards, you can start your game server and connect to it in the game!
 
 
-In the following window you can also make some small changes.
-For example, changing the respective ports and changing the version.
 
-![](https://user-images.githubusercontent.com/61839701/165702011-e54549cc-4d83-4e86-b732-da3751c7c5a4.png)
+## Installation of a voice server
 
+The installation of a **Voiceserver (Teamspeak 3 Server)** is similar to the installation of a gameserver. You must first click on "Gameserver / TS3" again. In this section you will find the option **Install voice server**, which you can click to start the installation process for the Teamspeak 3 server.
 
-As far as all information fits you can click on "Install Teamspeak 3 / 5 Server now".
-> **WARNING**: We recommend **always** using the latest version.
+![img](https://user-images.githubusercontent.com/61839701/165701625-b6443738-3b39-432e-a486-baedd6266bf6.png)
 
-You can now view and click on the installed Teamspeak 3 server in the "Voiceserver" overview.
+In the next step, you have the option of specifying the desired settings for your Teamspeak 3 server, such as the IP address, the port and the number of available slots. Once you have entered all the necessary information, you can complete the installation by clicking on **Install voice server now**.
+
+![img](https://user-images.githubusercontent.com/61839701/165702011-e54549cc-4d83-4e86-b732-da3751c7c5a4.png)
+
+Make sure that all the information is correct and meets your requirements. Once you have made all the settings, click on **Install Teamspeak 3/5 Server now** to start the installation process. You can now view and click on the installed Teamspeak 3 server in the **Voiceserver Overview**.
 
 ![](https://user-images.githubusercontent.com/61839701/165702380-5169d23a-21d0-4d58-a538-ab7b65f76615.png)
 
-> **Attention**: This is the instance where the actual Teamspeak 3 server will be installed.
+> ⚠️ **Caution**: This is the instance on which the Teamspeak 3 server will be installed afterwards.
 
-You are now in the interface of the instance of your installed Teamspeak 3 server.
-You can now start the instance by clicking on the "Start" button.
+You are now in the interface of the instance of your installed Teamspeak 3 server. You can now start the instance by clicking on the **Start** button.
 
-![](https://user-images.githubusercontent.com/61839701/165703330-79208d9b-ee05-4bad-8a9d-c3bb126b5f93.png)
+![](https://user-images.githubusercontent.com/61839701/165703148-bfc3c0ee-43aa-456d-86ed-89194a368bc8.png)
 
-### Interface from the installed Teamspeak 3 server
-You can now click on "virtual servers".
 
-Here you can see your installed Teamspeak 3 servers on your instance.
-With a click on the "eye" you can access the interface of the pure Teamspeak 3 server.
+You can now click on the menu item **Virtual Servers**. All installed Teamspeak 3 servers on your instance are clearly listed in this area. To call up the interface of the respective Teamspeak 3 server, simply click on the "eye" symbol.
 
-![](https://user-images.githubusercontent.com/61839701/165704968-0db2248f-9012-48c8-9005-320ea03d0b8b.png)
+![img](https://user-images.githubusercontent.com/61839701/165704968-0db2248f-9012-48c8-9005-320ea03d0b8b.png)
 
+In the Teamspeak 3 server interface, you will find all the necessary information and setting options to individually design and manage your server. For example, under the tab "Authorization key" you can create a token that grants you admin rights on your server. This gives you complete control over user administration and access to the server.
 
-In the interface of the Teamspeak 3 server you will find all necessary information.
-For example, you can create a token under the tab "Authorization Key" with which you get admin rights on your server.
-Under "Settings" you can for example change the name of your server, set a password or a greeting.
+Under the menu item "Settings" you have further options to customize your server. Here you can, for example, change the name of your server, set a password to restrict access, or store a personal welcome message that users receive when they enter the server.
 
-
-> **Important** : No license is installed by default. This means that you can only use one Teamspeak 3 server with 32 slots.
-
- 
-
-## What can be installed with the Gameserver / TS3 Server Interface?
-
-The following is a list of the games you can currently install with the interface (as of 04.04.2020)
-
-
-### Games
-
-
-![]( https://zap-hosting.com/interface/_images/icons/samp_icon.png) FIVE: SA:MP
-
-![]( https://zap-hosting.com/interface/_images/icons/l4d2-icon.png) Left 4 Dead 2
-
-![]( https://zap-hosting.com/interface/_images/icons/7daystodie-icon.png) 7 Days to Die: Vanilla
-
-![]( https://zap-hosting.com/interface/_images/icons/aceofspades-icon.png) Ace of Spades
-
-![]( https://zap-hosting.com/interface/_images/icons/halflife1-icon.png) Half-Life: Half-Life 1
-
-![]( https://zap-hosting.com/interface/_images/icons/halflife2dm-icon.png) Half-Life: Half-Life 2 Multiplayer Deathmatch
-
-![]( https://zap-hosting.com/interface/_images/icons/nomoreroominhell-icon.png) No More Room In Hell
-
-![]( https://zap-hosting.com/interface/_images/icons/projectcars-icon.png) Project Cars: PCars 1
-
-![]( https://zap-hosting.com/interface/_images/icons/projectzomboid-icon.png) Project Zomboid
-
-![]( https://zap-hosting.com/interface/_images/icons/risingworld-icon.png) Rising World
-
-![]( https://zap-hosting.com/interface/_images/icons/mta_icon.png) MTA (Multi Theft Auto)
-
-![]( https://zap-hosting.com/interface/_images/icons/starbound-icon.png) Starbound
-
-![]( https://zap-hosting.com/interface/_images/icons/starmade-icon.png) Starmade
-
-![]( https://zap-hosting.com/interface/_images/icons/rust-icon.png) Rust: Vanilla
-
-![]( https://zap-hosting.com/interface/_images/icons/rustoxide-icon.png) Rust: Oxide Mod
-
-![]( https://zap-hosting.com/interface/_images/icons/arma3-vanilla-icon.png) Arma 3: Vanilla
-
-![]( https://zap-hosting.com/interface/_images/icons/factorio-icon.png) Factorio: Vanilla
-
-![]( https://zap-hosting.com/interface/_images/icons/hurtworld-icon.png) Hurtworld: Vanilla
-
-![]( https://zap-hosting.com/interface/_images/icons/warband-server-icon.png) Mount & Blade: Vanilla
-
-![]( https://zap-hosting.com/interface/_images/icons/teeworlds-icon.png) Teeworlds
-
-![]( https://zap-hosting.com/interface/_images/icons/factorio-icon.png) Factorio: (experimental 0.18.x)
-
-![]( https://zap-hosting.com/interface/_images/icons/oxidemod-server.png) 7 Days to Die: Oxidemod (Linux)
-
-![]( https://zap-hosting.com/interface/_images/icons/oxidemod-server.png) Hurtworld: Oxidemod
-
-![]( https://zap-hosting.com/interface/_images/icons/rust-icon.png) Rust: Legacy
-
-![]( https://zap-hosting.com/interface/_images/icons/7daystodie-icon.png) 7 Days to Die: Experimental
-
-![]( https://zap-hosting.com/interface/_images/icons/stationeers-gameserver-icon.png) Stationeers
-
-![]( https://zap-hosting.com/interface/_images/icons/dont-starve-together-icon.png) Don't Starve Together
-
-![]( https://zap-hosting.com/interface/_images/icons/curse-icon.png) Ragnamod V
-
-
-### Counter-Strike
-
-
-![]( https://zap-hosting.com/interface/_images/icons/cs16-icon.png) Counter-Strike: 1.6
-
-![]( https://zap-hosting.com/interface/_images/icons/css-icon.png) Counter-Strike: Source
-
-![]( https://zap-hosting.com/interface/_images/icons/dod-source-icon.png) Counter-Strike: Day of Defeat Source
-
-![]( https://zap-hosting.com/interface/_images/icons/csgo-icon.png) Counter-Strike: Global Offensive
-
-![]( https://zap-hosting.com/interface/_images/icons/cscz-icon.png) Counter-Strike: Condition Zero
-
-
-### ARK
-
-
-![]( https://zap-hosting.com/interface/_images/icons/ark-survivalevolved-icon.png) ARK: SE (+ Ragnarok, Aberration)
-
-![]( https://zap-hosting.com/interface/_images/icons/ark-survival-fittest-server-icon.png) ARK: Survival of the Fittest
-
-![]( https://zap-hosting.com/interface/_images/icons/ark-survivalevolved-icon.png) ARK: Extinction
-
-![]( https://zap-hosting.com/interface/_images/icons/ark-survivalevolved-icon.png) ARK: Valguero
-
-![]( https://zap-hosting.com/interface/_images/icons/ark-genesis-icon.png) ARK: Genesis
-
-
-### Garry's Mod
-
- 
-![]( https://zap-hosting.com/interface/_images/icons/gmod-icon.png) Garry's Mod: Vanilla
-
-![]( https://zap-hosting.com/interface/_images/icons/gmod-darkrp-icon.png) Garry's Mod: StarWars RP
-
-![]( https://zap-hosting.com/interface/_images/icons/gmod-cinema-icon.png) Garry's Mod: Cinema
-
-![]( https://zap-hosting.com/interface/_images/icons/gmod-darkrp-icon.png) Garry's Mod: DarkRP
-
-![]( https://zap-hosting.com/interface/_images/icons/gmod-deathrun-icon.png) Garry's Mod: Deathrun
-
-![]( https://zap-hosting.com/interface/_images/icons/gmod-ghorror-icon.png) Garry's Mod: Garry's Horror
-
-![]( https://zap-hosting.com/interface/_images/icons/gmod-melonbomber-icon.png) Garry's Mod: Melonbomber
-
-![]( https://zap-hosting.com/interface/_images/icons/gmod-murder-icon.png) Garry's Mod: Murder
-
-![]( https://zap-hosting.com/interface/_images/icons/gmod-prophunt-icon.png) Garry's Mod: Prop Hunt
-
-![]( https://zap-hosting.com/interface/_images/icons/gmod-sledbuild-icon.png) Garry's Mod: Sledbuild
-
-![]( https://zap-hosting.com/interface/_images/icons/gmod-slender-icon.png) Garry's Mod: Slender
-
-![]( https://zap-hosting.com/interface/_images/icons/gmod-ttt-icon.png) Garry's Mod: Trouble in Terrorist Town
-
-![]( https://zap-hosting.com/interface/_images/icons/gmod-zsurvival-icon.png) Garry's Mod: Zombie Survival
-
-
-## Minecraft
-
-
-### Feed the Beast
-                                               
- 
-![]( https://zap-hosting.com/interface/_images/icons/ftblite2-icon.png) Feed the Beast: Lite 2
-
-![]( https://zap-hosting.com/interface/_images/icons/ftblite3-icon.png) Feed the Beast: Lite 3
-
-![]( https://zap-hosting.com/interface/_images/icons/infinity-evolved-icon.png) Feed the Beast: Infinity Evolved
-
-![]( https://zap-hosting.com/interface/_images/icons/magicworld-icon.png) Feed the Beast: Magic World
-
-![]( https://zap-hosting.com/interface/_images/icons/magicworld2-icon.png) Feed the Beast: Magic World 2
-
-![]( https://zap-hosting.com/interface/_images/icons/bfdayz-icon.png) Feed the Beast: BF DayZ
-
-![]( https://zap-hosting.com/interface/_images/icons/retro-icon.png) Feed the Beast: Retro SMP
-
-![]( https://zap-hosting.com/interface/_images/icons/ftbskyblock-icon.png) Feed the Beast: Infinity Evolved Skyblock
-
-![]( https://zap-hosting.com/interface/_images/icons/trident-icon.png) Feed the Beast: Trident
-
-![]( https://zap-hosting.com/interface/_images/icons/cloud9-icon.png) Feed the Beast: Cloud 9
-
-![]( https://zap-hosting.com/interface/_images/icons/vanillaplus-icon.png) Feed the Beast: Vanilla+
-
-![]( https://zap-hosting.com/interface/_images/icons/ampz-icon.png) Feed the Beast: AMPZ
-
-![]( https://zap-hosting.com/interface/_images/icons/crashlanding-icon.png) Feed the Beast: Crashlanding
-
-![]( https://zap-hosting.com/interface/_images/icons/epiccraft-icon.png) Feed the Beast: Epic Craft
-
-![]( https://zap-hosting.com/interface/_images/icons/galacticscience-icon.png) Feed the Beast: Galactic Science
-
-![]( https://zap-hosting.com/interface/_images/icons/pathfinder-icon.png) Feed the Beast: Pathfinder
-
-![]( https://zap-hosting.com/interface/_images/icons/rpgimmersion-icon.png) Feed the Beast: RPG Immersion
-
-![]( https://zap-hosting.com/interface/_images/icons/slowstream-icon.png) Feed the Beast: Slow's Stream Pack
-
-![]( https://zap-hosting.com/interface/_images/icons/tppi-icon.png) Feed the Beast: Test Pack Please Ignore
-
-![]( https://zap-hosting.com/interface/_images/icons/ftbpresentsdirewolf20-icon.png) Feed the Beast: FTB Presents Direwolf20 1.12
-
-![]( https://zap-hosting.com/interface/_images/icons/ftblite-icon.png) Feed the Beast: Lite
-
-![]( https://zap-hosting.com/interface/_images/icons/horizons-daybreaker-icon.png) Feed the Beast: Horizons: Daybreaker
-
-![]( https://zap-hosting.com/interface/_images/icons/direwolf20-15v2-icon.png) Feed the Beast: Direwolf20 1.5 v2
-
-![]( https://zap-hosting.com/interface/_images/icons/mindcrack-icon.png) Feed the Beast: Mindcrack
-
-![]( https://zap-hosting.com/interface/_images/icons/departed-icon.png) Feed the Beast: Departed
-
-![]( https://zap-hosting.com/interface/_images/icons/techworld-icon.png) Feed the Beast: Tech World
-
-![]( https://zap-hosting.com/interface/_images/icons/ftb-ultimate-reloaded-icon-2.png) Feed the Beast: Ultimate
-
-![]( https://zap-hosting.com/interface/_images/icons/yogcraft-icon.png) Feed the Beast: YogCraft
-
-![]( https://zap-hosting.com/interface/_images/icons/regrowth-icon.png) Feed the Beast: Regrowth
-
-![]( https://zap-hosting.com/interface/_images/icons/unhinged-icon.png) Feed the Beast: Unhinged
-
-![]( https://zap-hosting.com/interface/_images/icons/unleashed-icon.png) Feed the Beast: Unleashed
-
-![]( https://zap-hosting.com/interface/_images/icons/direwolf20-icon.png) Feed the Beast: Direwolf20
-
-![]( https://zap-hosting.com/interface/_images/icons/horizons-icon.png) Feed the Beast: Horizons
-
-![]( https://zap-hosting.com/interface/_images/icons/magicfarm2-icon.png) Feed the Beast: Magic Farm 2
-
-![]( https://zap-hosting.com/interface/_images/icons/monster-icon.png) Feed the Beast: Monster
-
-![]( https://zap-hosting.com/interface/_images/icons/beta-a-icon.png) Feed the Beast: Beta Pack A
-
-![]( https://zap-hosting.com/interface/_images/icons/direwolf20-pack-icon.png) Feed the Beast: Direwolf20 Pack
-
-![]( https://zap-hosting.com/interface/_images/icons/techworld2-icon.png) Feed the Beast: Tech World 2
-
-![]( https://zap-hosting.com/interface/_images/icons/agrarianskies-icon.png) Feed the Beast: Agrarian Skies
-
-![]( https://zap-hosting.com/interface/_images/icons/hermitpack-icon.png) Feed the Beast: Hermit Pack
-
-![]( https://zap-hosting.com/interface/_images/icons/resurrection-icon.png) Feed the Beast: Resurrection
-
-![]( https://zap-hosting.com/interface/_images/icons/infinitylite-icon.png) Feed the Beast: Infinity Lite
-
-![]( https://zap-hosting.com/interface/_images/icons/unstable-icon.png) Feed the Beast: Unstable 1.7.x
-
-![]( https://zap-hosting.com/interface/_images/icons/beyond-icon.png) Feed the Beast: FTB Beyond
-
-![]( https://zap-hosting.com/interface/_images/icons/ftbskyfactory-icon.png) Feed the Beast: FTB Presents: SkyFactory 3
-
-![]( https://zap-hosting.com/interface/_images/icons/ferretbusiness-icon.png) Feed the Beast: The Ferret Business
-
-![]( https://zap-hosting.com/interface/_images/icons/ftb-inventions-icon.png) Feed the Beast: Inventions
-
-![]( https://zap-hosting.com/interface/_images/icons/unstable112-icon.png) Feed the Beast: Unstable 1.12
-
-![]( https://zap-hosting.com/interface/_images/icons/skyfactory25-icon.png) Feed the Beast: FTB Presents: SkyFactory 2.5
-
-![]( https://zap-hosting.com/interface/_images/icons/horizons-3-icon.png) Feed the Beast: Horizons 3
-
-![]( https://zap-hosting.com/interface/_images/icons/revelation-icon.png) Feed the Beast: Revelation
-
-![]( https://zap-hosting.com/interface/_images/icons/ftb-pyramid-reborn-icon.png) Feed the Beast: FTB Pyramid Reborn
-
-![]( https://zap-hosting.com/interface/_images/icons/ftb-continuum-icon.png) Feed the Beast: FTB Continuum
-
-![]( https://zap-hosting.com/interface/_images/icons/sky-adventures-icon.png) Feed the Beast: Curse Launcher - FTB Sky Adventures
-
-![]( https://zap-hosting.com/interface/_images/icons/ftb-ultimate-reloaded-icon-2.png) Feed the Beast: Feed the Beast - Ultimate Reloaded
-
-![]( https://zap-hosting.com/interface/_images/icons/stoneblock-icon.png) Feed the Beast: StoneBlock
-
-![]( https://zap-hosting.com/interface/_images/icons/ftb-stoneblock2-icon.png) Feed the Beast: FTB: Stoneblock 2
-
-![]( https://zap-hosting.com/interface/_images/icons/ftbskyblock-icon.png) Feed the Beast: FTB: Sky Odyssey
-
-![]( https://zap-hosting.com/interface/_images/icons/ftb-interactions-icon.png) Feed the Beast: FTB Interactions
-
-![]( https://zap-hosting.com/interface/_images/icons/ftb-builders-paradise-icon.png) Feed the Beast: FTB Builders Paradise
-
-![]( https://zap-hosting.com/interface/_images/icons/ftb-academy-icon.png) Feed the Beast: FTB Academy
-
-
-### AT Launcher
-
-
-![]( https://zap-hosting.com/interface/_images/icons/bevos-tech-pack-icon.png) AT Launcher: Bevo's Tech Pack
-
-![]( https://zap-hosting.com/interface/_images/icons/dns-techpack-icon.png) AT Launcher: DNS Techpack
-
-![]( https://zap-hosting.com/interface/_images/icons/pixelmon-icon.png) AT Launcher: PixelmonCraft
-
-![]( https://zap-hosting.com/interface/_images/icons/yogscast-icon.png) AT Launcher: Yogscast Complete Pack
-
-![]( https://zap-hosting.com/interface/_images/icons/at-launcher-icon.png) AT Launcher: Hermitcraft Modsauce
-
-![]( https://zap-hosting.com/interface/_images/icons/moonquest-icon.png) AT Launcher: MoonQuest
-
-![]( https://zap-hosting.com/interface/_images/icons/resonant-rise-icon.png) AT Launcher: Resonant Rise Mainline
-
-![]( https://zap-hosting.com/interface/_images/icons/skyfactory-icon.png) AT Launcher: Sky Factory
-
-![]( https://zap-hosting.com/interface/_images/icons/thecrackpack-icon.png) AT Launcher: The Crack Pack
-
-![]( https://zap-hosting.com/interface/_images/icons/madpack-icon.png) AT Launcher: The Madpack
-
-![]( https://zap-hosting.com/interface/_images/icons/ultrahardsurvival-icon.png) AT Launcher: Ultra Hard Survival
-
-![]( https://zap-hosting.com/interface/_images/icons/crundeecraft-icon.png) AT Launcher: Crundee Craft
-
-![]( https://zap-hosting.com/interface/_images/icons/naturalmagic-icon.png) AT Launcher: Natural Magic
-
-
-### Technic Launcher
-
-
-![]( https://zap-hosting.com/interface/_images/icons/tekkit-icon.png) Technic Launcher: Tekkit
-
-![]( https://zap-hosting.com/interface/_images/icons/aeradofuturo-icon.png) Technic Launcher: A Era do Futuro 2
-
-![]( https://zap-hosting.com/interface/_images/icons/b-team-icon.png) Technic Launcher: Attack of the B-Team
-
-![]( https://zap-hosting.com/interface/_images/icons/hexxit-icon.png) Technic Launcher: Hexxit
-
-![]( https://zap-hosting.com/interface/_images/icons/lotr-icon.png) Technic Launcher: Lord of the Rings
-
-![]( https://zap-hosting.com/interface/_images/icons/minetek4-icon.png) Technic Launcher: MineTek 4
-
-![]( https://zap-hosting.com/interface/_images/icons/shine2-icon.png) Technic Launcher: Shine 2
-
-![]( https://zap-hosting.com/interface/_images/icons/tekkitclassic-icon.png) Technic Launcher: Tekkit Classic
-
-![]( https://zap-hosting.com/interface/_images/icons/tekkitlegends-icon.png) Technic Launcher: Tekkit Legends
-
-![]( https://zap-hosting.com/interface/_images/icons/oneseventen-icon.png) Technic Launcher: The 1.7.10 Pack
-
-![]( https://zap-hosting.com/interface/_images/icons/ultramoddedsurvival-icon.png) Technic Launcher: Ultra Modded Survival
-
-![]( https://zap-hosting.com/interface/_images/icons/tekxit2-icon.png) Technic Launcher: Tekxit 2
-
-![]( https://zap-hosting.com/interface/_images/icons/tekkitlite-icon.png) Technic Launcher: Tekkit Lite
-
-![]( https://zap-hosting.com/interface/_images/icons/hexplore-icon.png) Technic Launcher: Hexplore IT
-
-![]( https://zap-hosting.com/interface/_images/icons/hexxreloaded-icon.png) Technic Launcher: Hexx: Reloaded
-
-![]( https://zap-hosting.com/interface/_images/icons/aftermath-icon.png) Technic Launcher: Crafting Dead: Aftermath
-
-![]( https://zap-hosting.com/interface/_images/icons/voltz-icon.png) Technic Launcher: Voltz
-
-![]( https://zap-hosting.com/interface/_images/icons/jurassicraft-icon.png) Technic Launcher: Jurassic Craft
-
-![]( https://zap-hosting.com/interface/_images/icons/novus-youtube-icon.png) Technic Launcher: Novus (Official Youtuber Pack)
-
-![]( https://zap-hosting.com/interface/_images/icons/novusremix-icon.png) Technic Launcher: Novus Remix
-
-![]( https://zap-hosting.com/interface/_images/icons/technic-sky-icon.png) Technic Launcher: Sky (Official)
-
-![]( https://zap-hosting.com/interface/_images/icons/stevesgalaxy-icon.png) Technic Launcher: Steve's Galaxy (Legacy)
-
-![]( https://zap-hosting.com/interface/_images/icons/twilightfarming-icon.png) Technic Launcher: Twilight Farming
-
-![]( https://zap-hosting.com/interface/_images/icons/easternfrontiers-icon.png) Technic Launcher: Eastern Frontiers
-
-![]( https://zap-hosting.com/interface/_images/icons/pixelmonreloaded-icon.png) Technic Launcher: Pixelmon Reloaded
-
-![]( https://zap-hosting.com/interface/_images/icons/wildwestreborn-icon.png) Technic Launcher: OHGaming's Wild West Reborn
-
-![]( https://zap-hosting.com/interface/_images/icons/countercraft-icon.png) Technic Launcher: Official Counter Craft
-
-![]( https://zap-hosting.com/interface/_images/icons/spacex-icon.png) Technic Launcher: SpaceX
-
-![]( https://zap-hosting.com/interface/_images/icons/pixelmon-generations-icon.png) Technic Launcher: Pixelmon Generations Official
-
-![]( https://zap-hosting.com/interface/_images/icons/pixelspark-icon.png) Technic Launcher: Pixelspark - Pixelmon
-
-![]( https://zap-hosting.com/interface/_images/icons/pixelmon-reforged-icon.png) Technic Launcher: Pixelmon Reforged
-
-![]( https://zap-hosting.com/interface/_images/icons/crafting-dead-icon.png) Technic Launcher: Crafting Dead
-
-![]( https://zap-hosting.com/interface/_images/icons/ez-pixelmon-icon.png) Technic Launcher: EZ Pixelmon
-
-![]( https://zap-hosting.com/interface/_images/icons/pixelmonplus-icon.png) Technic Launcher: Pixelmon+
-
-![]( https://zap-hosting.com/interface/_images/icons/pixelmonplus-icon.png) Technic Launcher: Dragon Power
-
-![]( https://zap-hosting.com/interface/_images/icons/litw-after-human-icon.png) Technic Launcher: After Humans 1.12.2
-
-![]( https://zap-hosting.com/interface/_images/icons/tekxit-3-icon.png) Technic Launcher: Tekxit 3
-
-![]( https://zap-hosting.com/interface/_images/icons/rlcraft-icon.png) Technic Launcher: RLCraft
-
-![]( https://zap-hosting.com/interface/_images/icons/the-1-12-2-pack-icon.png) Technic Launcher: The 1.12.2 Pack
-
-
-### Curse / Twitch
-
-
-![]( https://zap-hosting.com/interface/_images/icons/foreverstranded-icon.png) Curse / Twitch: Forever Stranded
-
-![]( https://zap-hosting.com/interface/_images/icons/invasion-icon.png) Curse / Twitch: Invasion
-
-![]( https://zap-hosting.com/interface/_images/icons/projectozone-icon.png) Curse / Twitch: Project Ozone 2: Reloaded
-
-![]( https://zap-hosting.com/interface/_images/icons/farmingvalley-icon.png) Curse / Twitch: Farming Valley
-
-![]( https://zap-hosting.com/interface/_images/icons/ageofengineering-icon.png) Curse / Twitch: Age of Engineering
-
-![]( https://zap-hosting.com/interface/_images/icons/foolcraft-icon.png) Curse / Twitch: FoolCraft
-
-![]( https://zap-hosting.com/interface/_images/icons/allthemods3-icon.png) Curse / Twitch: All the Mods 3
-
-![]( https://zap-hosting.com/interface/_images/icons/craftofthetitans-icon.png) Curse / Twitch: Craft Of The Titans
-
-![]( https://zap-hosting.com/interface/_images/icons/allthemods-icon.png) Curse / Twitch: All the Mods
-
-![]( https://zap-hosting.com/interface/_images/icons/modernskyblock2-icon.png) Curse / Twitch: Modern Skyblock 2
-
-![]( https://zap-hosting.com/interface/_images/icons/spaceastronomy2-icon.png) Curse / Twitch: Space Astronomy 2
-
-![]( https://zap-hosting.com/interface/_images/icons/agrarianskies2-icon.png) Curse / Twitch: Agrarian Skies 2
-
-![]( https://zap-hosting.com/interface/_images/icons/divinejourney-icon.png) Curse / Twitch: Divine Journey
-
-![]( https://zap-hosting.com/interface/_images/icons/darkroleplaymedieval-icon.png) Curse / Twitch: Dark Roleplay Medieval
-
-![]( https://zap-hosting.com/interface/_images/icons/sprout-icon.png) Curse / Twitch: Sprout - Explore for More
-
-![]( https://zap-hosting.com/interface/_images/icons/hypovolemia-icon.png) Curse / Twitch: Hypovolemia
-
-![]( https://zap-hosting.com/interface/_images/icons/enigmatica-2-icon.png) Curse / Twitch: Enigmatica2
-
-![]( https://zap-hosting.com/interface/_images/icons/sevtech-ages-icon.png) Curse / Twitch: Sevtech: Ages
-
-![]( https://zap-hosting.com/interface/_images/icons/modern-skyblock-3-icon.png) Curse / Twitch: Modern Skyblock 3: Departed
-
-![]( https://zap-hosting.com/interface/_images/icons/skyexchange-icon.png) Curse / Twitch: Skyexchange
-
-![]( https://zap-hosting.com/interface/_images/icons/the-simple-life-2-icon.png) Curse / Twitch: The Simple Life 2
-
-![]( https://zap-hosting.com/interface/_images/icons/pokemon-adventure-icon.png) Curse / Twitch: Pokemon Adventure
-
-![]( https://zap-hosting.com/interface/_images/icons/manufactio-icon.png) Curse / Twitch: Manufactio
-
-![]( https://zap-hosting.com/interface/_images/icons/project-ozone-3-icon.png) Curse / Twitch: Project Ozone 3: A New Way Forward
-
-![]( https://zap-hosting.com/interface/_images/icons/astrobloc-icon.png) Curse / Twitch: AstroBlock
-
-![]( https://zap-hosting.com/interface/_images/icons/skyfactory-4-icon.png) Curse / Twitch: SkyFactory 4
-
-![]( https://zap-hosting.com/interface/_images/icons/roguelike-adventures-and-dungeons-icon.png) Curse / Twitch: Roguelike Adventures and Dungeons
-
-![]( https://zap-hosting.com/interface/_images/icons/volcano-block-icon.png) Curse / Twitch: Volcano Block
-
-![]( https://zap-hosting.com/interface/_images/icons/allthemods3-icon.png) Curse / Twitch: All the Mods 3 - Remix
-
-![]( https://zap-hosting.com/interface/_images/icons/allthemods3-icon.png) Curse / Twitch: All the Mods 3: Lite
-
-![]( https://zap-hosting.com/interface/_images/icons/omnifactory-icon.png) Curse / Twitch: Omnifactory
-
-![]( https://zap-hosting.com/interface/_images/icons/dungeons-dragons-and-space-shuttles-icon.png) Curse / Twitch: Dungeons, Dragons and Space Shuttles
-
-![]( https://zap-hosting.com/interface/_images/icons/rlcraft-icon.png) Curse / Twitch: RLCraft
-
-![]( https://zap-hosting.com/interface/_images/icons/glacial-awakening-icon.png) Curse / Twitch: Glacial Awakening
-
-![]( https://zap-hosting.com/interface/_images/icons/tektopia-icon.png) Curse / Twitch: Tektopia
-
-![]( https://zap-hosting.com/interface/_images/icons/life-in-the-village-icon.png) Curse / Twitch: Life in the village
-
-![]( https://zap-hosting.com/interface/_images/icons/world-of-dragons-icon.png) Curse / Twitch: World of Dragons
-
-![]( https://zap-hosting.com/interface/_images/icons/valhelsia-icon.png) Curse / Twitch: Valhelsia
-
-![]( https://zap-hosting.com/interface/_images/icons/minecolonies-icon.png) Curse / Twitch: Minecolonies
-
-![]( https://zap-hosting.com/interface/_images/icons/hexxit-updated-icon.png) Curse / Twitch: Hexxit Updated
-
-![]( https://zap-hosting.com/interface/_images/icons/lapitos-galacticraft-icon.png) Curse / Twitch: Lapito's Galacticraft
-
-![]( https://zap-hosting.com/interface/_images/icons/seablock-rustic-waters-icon.png) Curse / Twitch: Seablock: Rustic Waters
-
-![]( https://zap-hosting.com/interface/_images/icons/kinda-crazy-craft-icon.png) Curse / Twitch: Kinda Crazy Craft
-
-![]( https://zap-hosting.com/interface/_images/icons/towncraft-icon.png) Curse / Twitch: Towncraft
-
-![]( https://zap-hosting.com/interface/_images/icons/questing-mayhem-icon.jpeg) Curse / Twitch: Questing Mayhem
-
-![]( https://zap-hosting.com/interface/_images/icons/break-out-icon.png) Curse / Twitch: Break Out
-
-![]( https://zap-hosting.com/interface/_images/icons/scp-lockdown-icon.png) Curse / Twitch: SCP: Lockdown
-
-![]( https://zap-hosting.com/interface/_images/icons/foolcraft-3-icon.png) Curse / Twitch: Foolcraft 3
-
-![]( https://zap-hosting.com/interface/_images/icons/digsite-icon.png) Curse / Twitch: Digsite
-
-![]( https://zap-hosting.com/interface/_images/icons/chemical-exchange-icon.png) Curse / Twitch: Chemical Exchange
-
-![]( https://zap-hosting.com/interface/_images/icons/jurassicraft2-icon.png) Curse / Twitch: JurassiCraft2
-
-![]( https://zap-hosting.com/interface/_images/icons/engineers-life-icon.png) Curse / Twitch: Engineer's Life
-
-![]( https://zap-hosting.com/interface/_images/icons/mc-eternal-icon.png) Curse / Twitch: MC.Eternal
-
-![]( https://zap-hosting.com/interface/_images/icons/rebirth-of-the-night-icon.png) Curse / Twitch: Rebirth of the Night
-
-![]( https://zap-hosting.com/interface/_images/icons/awakening-sky-of-diamonds-icon.png) Curse / Twitch: Awakening - Sky of Diamonds
-
-![]( https://zap-hosting.com/interface/_images/icons/tnp-limitless-icon.png) Curse / Twitch: TNP Limitless
-
-![]( https://zap-hosting.com/interface/_images/icons/amnesia-icon.png) Curse / Twitch: Amnesia
-
-![]( https://zap-hosting.com/interface/_images/icons/farming-valley-lite-icon.png) Curse / Twitch: Farming Valley Lite
-
-![]( https://zap-hosting.com/interface/_images/icons/all-the-mods-5-icon.png) Curse / Twitch: All The Mods 5
-
-![]( https://zap-hosting.com/interface/_images/icons/sigma-icon.png) Curse / Twitch: Sigma
-
-![]( https://zap-hosting.com/interface/_images/icons/valhelsia-2-icon.png) Curse / Twitch: Valhelsia 2
-
-![]( https://zap-hosting.com/interface/_images/icons/atm-expert-icon.png) Curse / Twitch: All The Mods Expert
-
-
-
-### Minecraft Adventure
-
-
-![]( https://zap-hosting.com/interface/_images/icons/zanzer-icon.png) Minecraft Adventure: Escape from Zanzer
-
-![]( https://zap-hosting.com/interface/_images/icons/herorbine-icon.png) Minecraft Adventure: Herorbine
-
-![]( https://zap-hosting.com/interface/_images/icons/herorbinereturns-icon.png) Minecraft Adventure: Herorbine Returns
-
-![]( https://zap-hosting.com/interface/_images/icons/starwars-icon.png) Minecraft Adventure: Star Wars
-
-![]( https://zap-hosting.com/interface/_images/icons/wrath-icon.png) Minecraft Adventure: Wrath of the Fallen
-
-![]( https://zap-hosting.com/interface/_images/icons/apocalypse-icon.png) Minecraft Adventure: Zombie Apocalypse
-
-
-
-### Minecraft Minigames
-
-
-![]( https://zap-hosting.com/interface/_images/icons/buildmything-icon.png) Minecraft Minigames: Build my Thing
-
-![]( https://zap-hosting.com/interface/_images/icons/captive2-icon.png) Minecraft Minigames: Captive II
-
-![]( https://zap-hosting.com/interface/_images/icons/mcfootball-icon.png) Minecraft Minigames: Football
-
-![]( https://zap-hosting.com/interface/_images/icons/bedwars-icon.png) Minecraft Minigames: Bedwars
-
-![]( https://zap-hosting.com/interface/_images/icons/luckyblock-icon.png) Minecraft Minigames: Lucky Block
-
-![]( https://zap-hosting.com/interface/_images/icons/flansmod-icon.png) Minecraft Minigames: Flansmod
-
-![]( https://zap-hosting.com/interface/_images/icons/skywars-icon.png) Minecraft Minigames: SkyWars
-
-
-
-### Voids Wrath Launcher
-
-
-![]( https://zap-hosting.com/interface/_images/icons/dreamcraft-icon.png) Voids Wrath Launcher: DreamCraft 2
-
-![]( https://zap-hosting.com/interface/_images/icons/crazycraftlegacy-icon.png) Voids Wrath Launcher: Crazy Craft Legacy
-
-![]( https://zap-hosting.com/interface/_images/icons/crazycraft-icon.png) Voids Wrath Launcher: Crazy Craft
-
-![]( https://zap-hosting.com/interface/_images/icons/voidswrath-icon.png) Voids Wrath Launcher: Fellowship
-
-![]( https://zap-hosting.com/interface/_images/icons/voidswrath-icon.png) Voids Wrath Launcher: Voids Wrath
-
-![]( https://zap-hosting.com/interface/_images/icons/pokepack-icon.png) Voids Wrath Launcher: Poke Pack
-
-
-
-### Life in the Woods
-
-
-![]( https://zap-hosting.com/interface/_images/icons/gronkhlifeinthewoods-icon.png) Life in the Woods: Gronkh's Life in the Woods
-
-![]( https://zap-hosting.com/interface/_images/icons/litw-basic-icon.png) Life in the Woods: Renaissance Basic
-
-![]( https://zap-hosting.com/interface/_images/icons/litw-hungry-icon.png) Life in the Woods: Renaissance Hungry
-
-![]( https://zap-hosting.com/interface/_images/icons/litw-after-human-icon.png) Life in the Woods: Gronkh's After Humans 1.7.10
+> ⚠️ **Note**: There is no licence installed on the Teamspeak 3 server by default. This means that you can only use a Teamspeak 3 server with a capacity of 32 slots. However, if you would like to activate more capacity or additional functions for your Teamspeak 3 server, you can purchase a corresponding licence from Teamspeak.
