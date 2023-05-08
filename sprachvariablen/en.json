@@ -13,6 +13,10 @@
         "title": "Commands",
         "sidebar_label": "Commands"
       },
+      "7d2d_firststeps_dashboard": {
+        "title": "7 Days to Die: Dashboard overview",
+        "sidebar_label": "Dashboard"
+      },
       "7d2d_mods": {
         "title": "How to install 7 Days to Die mods on your server - ZAP-Hosting's game server",
         "sidebar_label": "Install Mods"
@@ -85,6 +89,10 @@
         "title": "ARK: Server configuration at ZAP-Hosting",
         "sidebar_label": "Server Configuration"
       },
+      "ark_firststeps_dashboard": {
+        "title": "ARK: Dashboard overview",
+        "sidebar_label": "Dashboard"
+      },
       "ark_mods": {
         "title": "ARK: Installing mods on a server at ZAP-Hosting",
         "sidebar_label": "Install Mods"
@@ -129,6 +137,10 @@
         "title": "Configure Server with Content Manager",
         "sidebar_label": "Configure Server with Content Manager"
       },
+      "assettocorsa_firststeps_dashboard": {
+        "title": "Assetto Corsa: Dashboard overview",
+        "sidebar_label": "Dashboard"
+      },
       "assettocorsa_mods": {
         "title": "Assetto Corsa: Installing mods on a server",
         "sidebar_label": "Install Mods"
@@ -147,6 +159,10 @@
       "beammp_authkey": {
         "title": "Create an Auth Key",
         "sidebar_label": "Create an Auth Key"
+      },
+      "beammp_firststeps_dashboard": {
+        "title": "BeamMP: Dashboard overview",
+        "sidebar_label": "Dashboard"
       },
       "beammp_mods": {
         "title": "Install Mods",
@@ -187,6 +203,10 @@
       "csgo_gotv": {
         "title": "CS GO Server: Information about GOTV",
         "sidebar_label": "GOTV"
+      },
+      "dayz_firststeps_dashboard": {
+        "title": "DayZ: Dashboard overview",
+        "sidebar_label": "Dashboard"
       },
       "dedicated_centos": {
         "title": "Install CentOS",
@@ -283,6 +303,10 @@
       "factorio_becomeadmin": {
         "title": "Factorio Server: Become an Admin",
         "sidebar_label": "Become Admin"
+      },
+      "factorio_firststeps_dashboard": {
+        "title": "Factorio: Dashboard overview",
+        "sidebar_label": "Dashboard"
       },
       "factorio_mods": {
         "title": "Factorio Server: Installing Mods",
@@ -579,6 +603,14 @@
         "title": "Minecraft Bedrock: Install Behaviour/Resource Packs",
         "sidebar_label": "Behavior/Resource Packs Installation"
       },
+      "moe_firststeps_connect": {
+        "title": "Myth of Empires: Connect to the server",
+        "sidebar_label": "Connect to the server"
+      },
+      "moe_firststeps_dashboard": {
+        "title": "Myth of Empires: Dashboard overview",
+        "sidebar_label": "Dashboard"
+      },
       "mta_becomeadmin": {
         "title": "MTA: Become an admin on MTA servers",
         "sidebar_label": "Become Admin"
@@ -594,6 +626,10 @@
         "title": "Pre-orders",
         "sidebar_label": "Preorders"
       },
+      "projectzomboid_firststeps_dashboard": {
+        "title": "Project Zomboid: Dashboard overview",
+        "sidebar_label": "Dashboard"
+      },
       "ragemp_installpackages": {
         "title": "RageMP: Installing packages on servers",
         "sidebar_label": "Installing packages"
@@ -601,6 +637,10 @@
       "redm_change_servericon": {
         "title": "RedM: Change server icon for the server list",
         "sidebar_label": "Change server icon"
+      },
+      "redm_firststeps_dashboard": {
+        "title": "Five: RedM Dashboard overview",
+        "sidebar_label": "Dashboard"
       },
       "redm_installresources": {
         "title": "RedM: Installing resources, mods and scripts on server",
@@ -622,6 +662,10 @@
         "title": "Modify Decay",
         "sidebar_label": "Decay"
       },
+      "rust_firststeps_dashboard": {
+        "title": "Rust: Dashboard overview",
+        "sidebar_label": "Dashboard"
+      },
       "rust_plugins": {
         "title": "Rust: Installing plugins on your server",
         "sidebar_label": "Plugins Install"
@@ -642,6 +686,13 @@
         "title": "Connect to the Server",
         "sidebar_label": "Connect to the Server"
       },
+      "satisfactory_firststeps_connect": {
+        "title": "Satisfactory: Connect to the Server"
+      },
+      "gameserver_firststeps_connect": {
+        "title": "Satisfactory: Dashboard overview",
+        "sidebar_label": "Dashboard"
+      },
       "satisfactory_savegame": {
         "title": "Savegame Manager",
         "sidebar_label": "Savegame Manager"
@@ -661,6 +712,10 @@
       "scp_firststeps_connect": {
         "title": "SCP: Connect to the server",
         "sidebar_label": "Connect to the server"
+      },
+      "scp_firststeps_dashboard": {
+        "title": "SCP: Dashboard overview",
+        "sidebar_label": "Dashboard"
       },
       "scp_newroles": {
         "title": "SCP: Secret Laboratory Server: Adding new roles",
@@ -702,6 +757,10 @@
         "title": "Space Engineers: Become a server admin",
         "sidebar_label": "Become Admin"
       },
+      "gameserver_firststeps_dashboard": {
+        "title": "Space Engineers: Dashboard overview",
+        "sidebar_label": "Dashboard"
+      },
       "stormworks-becomeadmin": {
         "title": "Become a Stormworks Admin - Gameserver from ZAP-Hosting",
         "sidebar_label": "Become an admin"
@@ -709,6 +768,10 @@
       "suggestions": {
         "title": "Submit suggestions for new game servers and features on ZAP-Hosting",
         "sidebar_label": "Submit Suggestions"
+      },
+      "terraria_firststeps_dashboard": {
+        "title": "Terraria: Dashboard overview",
+        "sidebar_label": "Dashboard"
       },
       "terraria_tmodloader_installmod": {
         "title": "Terraria: Installing mods on servers (tModLoader)",
@@ -798,6 +861,10 @@
         "title": "Teamspeak: Connecting a voicebot to your Teamspeak server",
         "sidebar_label": "Voicebot Connection"
       },
+      "vrising_firststeps_dashboard": {
+        "title": "V Rising: Dashboard overview",
+        "sidebar_label": "Dashboard"
+      },
       "vrising-becomeadmin": {
         "title": "V Rising: Become admin",
         "sidebar_label": "Become admin"
@@ -827,8 +894,8 @@
         "sidebar_label": "FTP Service isn't working"
       },
       "vserver_linux_gs_interface": {
-        "title": "VPS: Gameserver / Ts 3 Server Interface",
-        "sidebar_label": "Gameserver / Ts 3 Server Interface"
+        "title": "Gameserver/TS3 Interface",
+        "sidebar_label": "GS/TS3 Interface"
       },
       "vserver_linux_java": {
         "title": "VPS: Install Java on Server",
