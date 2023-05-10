@@ -4,9 +4,9 @@ on: [pull_request]
 
 jobs:
   verify-json-validation:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     steps:
-      - uses: actions/checkout@v1
+      - uses: actions/checkout@v3
       - name: Validate JSON
         uses: docker://orrosenblatt/validate-json-action:latest
         env:
