@@ -502,9 +502,6 @@ Furthermore, all HTTP traffic should be redirected to HTTPS by using a permanent
 </VirtualHost>
 ```
 
-If you are not sure how to generate an SSL certificate, then you can find instructions here about it: [Let's Encrypt](vserver_linux_letsencrypt.md)
-
-
 
 ## Manage Nextcloud
 
