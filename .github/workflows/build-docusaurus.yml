@@ -16,7 +16,9 @@ jobs:
         with:
           node-version: 19
       - name: Install Docusaurus
-        run: npx create-docusaurus@latest docusaurus classic && cd docusaurus && npm i docusaurus-lunr-search --save && npm install  && cp -R ../repo/* .
+        run: npx create-docusaurus@latest docusaurus classic && cd docusaurus && cp -R ../repo/* .
+      - name: Install Plugins
+        run: cd docusaurus && npm i docusaurus-lunr-search --save && npm install && npm run swizzle docusaurus-lunr-search SearchBar -- --eject --danger
       - name: Build Docusaurus
         run: cd docusaurus && npm run build && cd build && zip -r build.zip *
       - name: Upload Artifacts
