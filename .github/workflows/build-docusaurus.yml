@@ -22,11 +22,11 @@ jobs:
       - name: Install Plugins
         run: cd docusaurus && npm i docusaurus-lunr-search --save && npm install && npm run swizzle docusaurus-lunr-search SearchBar -- --eject --danger
       - name: Build Docusaurus
-        run: cd docusaurus && npm run build && cd build && zip -r build.zip *
+        run: cd docusaurus && npm run build && cd build && zip -qr build.zip *
       - name: Upload Artifacts
         uses: actions/upload-artifact@v3
         with: 
-              name: build.zip
+              name: build
               path: docusaurus/build/build.zip
 
         
