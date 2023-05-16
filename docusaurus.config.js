@@ -31,6 +31,9 @@ const config = {
     defaultLocale: 'en',
     locales: ['en', 'de'],
   },
+  plugins: [[ require.resolve('docusaurus-lunr-search'), {
+    languages: ['en', 'de'] // language codes
+  }]],
 
   presets: [
     [
@@ -66,7 +69,13 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'guidesSidebar',
             position: 'left',
-            label: 'Guides',
+            label: 'All Guides',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'gameserverSidebar',
+            position: 'left',
+            label: 'Gameserver Guides',
           },
           {
             type: 'localeDropdown',
@@ -78,28 +87,102 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Community',
+            title: 'Rent a Server',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Rent a VPS',
+                href: 'https://zap-hosting.com/en/rent-a-virtual-server/',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'Rent a rootserver',
+                href: 'https://zap-hosting.com/en/rent-a-root-server/',
               },
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: 'Rent a gameserver',
+                href: 'https://zap-hosting.com/en/rent-a-gameserver/',
+              },
+              {
+                label: 'Rent a TS3 server',
+                href: 'https://zap-hosting.com/en/rent-a-teamspeak-3-server/',
+              },
+              {
+                label: 'Rent a Discord Musicbot',
+                href: 'https://zap-hosting.com/en/rent-a-discord-musicbot/',
+              },
+              {
+                label: 'Rent a domain',
+                href: 'https://zap-hosting.com/en/domain-check/',
+              },
+              {
+                label: 'Rent a webspace',
+                href: 'https://zap-hosting.com/en/webhosting-rent-a-webspace/',
               },
             ],
           },
           {
-            title: 'More',
+            title: 'Social',
             items: [
               {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: 'Twitter',
+                href: 'https://twitter.com/zaphosting',
+              },
+              {
+                label: 'Instagram',
+                href: 'https://www.instagram.com/zaphosting/',
+              },
+              {
+                label: 'Blog',
+                href: 'https://zap-hosting.com/en/blog/',
+              },
+              {
+                label: 'Discord',
+                href: 'https://discord.gg/mTstGt2',
+              },
+              {
+                label: 'Twitch',
+                href: 'https://twitch.tv/zaphosting',
+              },
+            ],
+          },
+          {
+            title: 'Support',
+            items: [
+              {
+                label: 'Changelog',
+                href: 'https://zap-hosting.com/en/changelog/',
+              },
+              {
+                label: 'Ticketsupport',
+                href: 'https://zap-hosting.com/en/customer/support/',
+              },
+              {
+                label: 'Server Status',
+                href: 'https://status.zap-hosting.com/',
+              },
+              {
+                label: 'Smokeping',
+                href: 'http://smoky.zap-hosting.com/smokeping/',
+              },
+            ],
+          },
+          {
+            title: 'Legal',
+            items: [
+              {
+                label: 'Terms of Service',
+                href: 'https://zap-hosting.com/en/terms/',
+              },
+              {
+                label: 'Imprint',
+                href: 'https://zap-hosting.com/en/imprint/',
+              },
+              {
+                label: 'Privacy Policy',
+                href: 'https://zap-hosting.com/en/privacy-policy/',
+              },
+              {
+                label: 'Security',
+                href: 'https://zap-hosting.com/en/security/',
               },
             ],
           },
