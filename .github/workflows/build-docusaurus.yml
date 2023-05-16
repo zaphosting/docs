@@ -9,12 +9,14 @@ jobs:
     steps:
       - name: Check out Git repository
         uses: actions/checkout@v3
+        with:
+          path: 'repo'
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
           node-version: 19
       - name: Install Docusaurus
-        run: npx create-docusaurus@latest docusaurus classic && cd docusaurus && cp -R ../* .
+        run: npx create-docusaurus@latest docusaurus classic && cd docusaurus && cp -R ../repo/* .
       - name: Build Docusaurus
         run: cd docusaurus && npm run build && cd build && zip -r build.zip *
       - name: Upload Artifacts
