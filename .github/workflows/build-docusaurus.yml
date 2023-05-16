@@ -4,7 +4,7 @@ on:
   pull_request:
 
 jobs:
-  test-docusaurus:
+  build-docusaurus:
     runs-on: self-hosted
     steps:
       - name: Check out Git repository
@@ -16,4 +16,11 @@ jobs:
       - name: Install Docusaurus
         run: npx create-docusaurus@latest docusaurus classic && cd docusaurus && cp -R ../* .
       - name: Build Docusaurus
-        run: cd docusaurus && npm run build
+        run: cd docusaurus && npm run build && cd build && zip -r build.zip *
+      - name: Upload Artifacts
+        uses: actions/upload-artifact@v3
+        with: 
+              name: build.zip
+              path: docusaurus/build/build.zip
+
+        
