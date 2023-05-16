@@ -2,6 +2,8 @@ name: Build Docusaurus
 
 on: 
   pull_request:
+  push:
+    branches: ["master", "main"]
 
 jobs:
   build-docusaurus:
@@ -16,7 +18,7 @@ jobs:
         with:
           node-version: 19
       - name: Install Docusaurus
-        run: npx create-docusaurus@latest docusaurus classic && cd docusaurus && cp -R ../repo/* .
+        run: npx create-docusaurus@latest docusaurus classic && cp -R ../repo/* docusaurus/
       - name: Install Plugins
         run: cd docusaurus && npm i docusaurus-lunr-search --save && npm install && npm run swizzle docusaurus-lunr-search SearchBar -- --eject --danger
       - name: Build Docusaurus
