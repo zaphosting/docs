@@ -1,6 +1,6 @@
 ---
 id: minecraft_addop
-title: Minecraft Server: Assigning OP rights
+title: Minecraft Server Assigning OP rights
 description: Information on how to assign and edit OP rights for your Minecraft server from ZAP-Hosting.com - ZAP-Hosting.com documentation
 sidebar_label: OP-Permissions
 ---
@@ -16,11 +16,11 @@ To open the console, the respective server must first be called via the **Dashbo
 
 ![](https://user-images.githubusercontent.com/61839701/170326176-ff51713e-d128-4657-bce6-a6d4e41101ec.png)
 
-Now you should see a dark window representing the console of the server. Underneath it, you can see an input field where any commands are passed to the console. In order to set the OP rights, the command "op <player>" (without "/") must be entered into the input field and then the green button "Send command" has to be clicked to send the command to the console.
+Now you should see a dark window representing the console of the server. Underneath it, you can see an input field where any commands are passed to the console. In order to set the OP rights, the command "op player" (without "/") must be entered into the input field and then the green button "Send command" has to be clicked to send the command to the console.
 
 ![](https://user-images.githubusercontent.com/61839701/170326239-c1cbf343-c4df-4178-b858-7edbb75aee71.png)
 
-After a few seconds, the command sent should appear in the console, followed by the message "Made <player> a server operator", which marks the action as successful. Now the respective player has all OP-rights and can for example change the game mode.
+After a few seconds, the command sent should appear in the console, followed by the message "Made player a server operator", which marks the action as successful. Now the respective player has all OP-rights and can for example change the game mode.
 
 > The distribution of OP-rights is now also possible in the game itself, so that you should adjust the rights level as explained in the next step, if you wish to do so.
 

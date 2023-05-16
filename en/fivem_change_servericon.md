@@ -1,6 +1,6 @@
 ---
 id: fivem_change_servericon
-title: FiveM: Server Icon für Serverliste ändern
+title: FiveM Server Icon für Serverliste ändern
 description: Informationen, wie du das Servericon für FiveM-Server von ZAP-Hosting ändern kannst - ZAP-Hosting.com Dokumentationen
 sidebar_label: Change server icon
 ---

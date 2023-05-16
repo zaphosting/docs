@@ -1,6 +1,6 @@
 ---
 id: vserver_linux_ssh2fa
-title: VPS: Setting up two-factor authentication for Linux servers
+title: VPS Setting up two-factor authentication for Linux servers
 description: Information on how to set up two-factor authentication for your Linux VPS from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Two factor authentication
 ---

@@ -1,6 +1,6 @@
 ---
 id: scp_firststeps_dashboard
-title: SCP: Dashboard overview
+title: SCP Dashboard overview
 description: Information about the dashboard of a SCP server from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Dashboard
 ---
@@ -122,7 +122,7 @@ We also offer guides for your product. This includes for example the following g
 | Pastebin ID                | [View guide](https://zap-hosting.com/guides/docs/en/scp_pastebin) |
 | ServerMod: Install Plugins | [View guide](https://zap-hosting.com/guides/docs/en/scpservermod_uploadplugins) |
 | Exiled: Install Plugins    | [View guide](https://zap-hosting.com/guides/docs/en/exiled_plugins) |
-<p style="text-align: center;">List updated last on 03.05.2023</p>
+<p style={{textAlign: 'center'}}>List updated last on 03.05.2023</p>
 
 
 

@@ -1,6 +1,6 @@
 ---
 id: minecraft_bungeecord_config
-title: Minecraft Bungeecord Server: Server Config Settings
+title: Minecraft Bungeecord Server Server Config Settings
 description: Information about the server config settings for your bungeecord server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Server Properties
 ---
@@ -68,7 +68,7 @@ The **motd** is the message that appears in your server list when you ping a sub
 
 ![image](https://user-images.githubusercontent.com/13604413/159177910-15cd7179-e13f-41c9-8bed-b9d483f10b28.png)
 
-Under **address** you enter the corresponding IP of the sub server. If the value **restricted** is true the player must have the permission *bungeecord.server.<ServerName>* to enter the sub-server.
+Under **address** you enter the corresponding IP of the sub server. If the value **restricted** is true the player must have the permission *bungeecord.server.ServerName* to enter the sub-server.
 
 
 ### listeners

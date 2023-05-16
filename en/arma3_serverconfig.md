@@ -1,6 +1,6 @@
 ---
 id: arma3_serverconfig
-title: Arma 3: Server.cfg - Edit server configuration file
+title: "Arma 3 Server.cfg - Edit server configuration file"
 description: Information about the settings and configuration options of the server.cfg file of your Arma 3 server from ZAP-Hosting - ZAP-Hosting.com 
 sidebar_label: Server.cfg
 ---

@@ -1,6 +1,6 @@
 ---
 id: vserver_linux_ssh
-title: VPS: Initial access to Linux server with SSH
+title: VPS Initial access to Linux server with SSH
 description: Information on how to access your Linux VPS from ZAP-Hosting with SSH for the first time - ZAP-Hosting.com documentation
 sidebar_label: Initial access (SSH)
 ---
@@ -64,10 +64,10 @@ For optimal use of the SSH client, it is essential to know the basic commands. I
 
 | Command  |                Description                |            Syntax            |
 | :-----: | :----------------------------------------: | :--------------------------: |
-| useradd |          Creating a New User          | useradd <options> <username> |
-| usermod |      Edit Existing User       | usermod <options> <username> |
-| userdel |        Remove existing user        | userdel <options> <username> |
-| passwd  | Change password of an existing user |      passwd <username>       |
+| useradd |          Creating a New User          | useradd [options] [options] |
+| usermod |      Edit Existing User       | usermod [options] [options] |
+| userdel |        Remove existing user        | userdel [options] [options] |
+| passwd  | Change password of an existing user |      passwd [options]       |
 
 
 
@@ -79,8 +79,8 @@ For optimal use of the SSH client, it is essential to know the basic commands. I
 |   df    |            Displaying the use of storage tanks (Patition)            | df -h                                        |
 |   du    |          Displaying the storage tank consumption (directory)           | du -sh *                                     |
 |  free   | Memory usage of the system. Divided into RAM and SWAP space. | free                                         |
-|  kill   |  Terminates the process with the transferred process ID (PID)   | kill <ID>                                    |
-| killall |        Terminates all processes with the given name        | killall <name>                               |
+|  kill   |  Terminates the process with the transferred process ID (PID)   | kill [ID]                                    |
+| killall |        Terminates all processes with the given name        | killall [name]                               |
 |   mv    |       Move files or directory to a different location        | mv sourcepath newPath                        |
 |  mkdir  |                    Create a new directory                    | mkdir directoryname                          |
 | service |    Start, stop, restart service and check status     | service DienstName start/stop/restart/status |

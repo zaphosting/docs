@@ -37,7 +37,7 @@ The GS/TS3 interface supports the setup of game servers, voice servers, and musi
 | Voiceserver | Teamspeak 3 servers are supported                 | ✔️    | ✔️          | ✔️                |
 | Musikbot    | Sinusbot is supported                             | ✔️    | ✔️          | ✔️                |
 
-<p style="text-align: center;">List updated last on 01.05.2023</p>
+<p style={{textAlign: 'center'}}>List updated last on 01.05.2023</p>
 
 
 

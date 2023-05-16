@@ -1,6 +1,6 @@
 ---
 id: projectzomboid_firststeps_dashboard
-title: Project Zomboid: Dashboard overview
+title: Project Zomboid Dashboard overview
 description: Information about the dashboard of an Project Zomboid server from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Dashboard
 ---

@@ -1,6 +1,6 @@
 ---
 id: exiled_plugins
-title: EXILED: Installing plugins on your server
+title: EXILED Installing plugins on your server
 description: Information on how to install plugins on your EXILED  server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Plugins Install
 

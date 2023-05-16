@@ -1,6 +1,6 @@
 ---
 id: rust_firststeps_dashboard
-title: Rust: Dashboard overview
+title: Rust Dashboard overview
 description: Information about the dashboard of a Rust server from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Dashboard
 ---
@@ -132,7 +132,7 @@ We also offer guides for your product. This includes for example the following g
 | Admin commands   | [View guide](https://zap-hosting.com/guides/docs/en/rust_commands) |
 | Plugins install  | [View guide](https://zap-hosting.com/guides/docs/en/rust_plugins) |
 | Decay            | [View guide](https://zap-hosting.com/guides/docs/en/rust_decay) |
-<p style="text-align: center;">List updated last on 03.05.2023</p>
+<p style={{textAlign: 'center'}}>List updated last on 03.05.2023</p>
 
 
 

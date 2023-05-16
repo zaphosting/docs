@@ -1,7 +1,7 @@
 ---
 id: redm_firststeps_dashboard
-title: Five: RedM Dashboard overview
-description: Information about the dashboard of an FIVE: RedM server from ZAP-Hosting - ZAP-Hosting.com Documentation
+title: Five RedM Dashboard overview
+description: Information about the dashboard of an FIVE RedM server from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Dashboard
 ---
 
@@ -139,7 +139,7 @@ We also offer guides for your product. This includes for example the following g
 | --------------------- | ------------------------------------------------------------ |
 | Change server icon    | [View guide](https://zap-hosting.com/guides/docs/en/redm_change_servericon) |
 | Resource installation | [View guide](https://zap-hosting.com/guides/docs/en/redm_installresources) |
-<p style="text-align: center;">List updated last on 03.05.2023</p>
+<p style={{textAlign: 'center'}}>List updated last on 03.05.2023</p>
 
 
 

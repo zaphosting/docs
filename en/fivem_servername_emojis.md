@@ -1,6 +1,6 @@
 ---
 id: fivem_servername_emojis
-title: FiveM: Show emojis in server name
+title: FiveM Show emojis in server name
 description: Information on how to display emojis in the server name of your FiveM server in the server list - ZAP-Hosting.com Documentation
 sidebar_label: Emojis in server name
 ---

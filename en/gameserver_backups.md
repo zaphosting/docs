@@ -1,6 +1,6 @@
 ---
 id: gameserver_backups
-title: Gameserver: Creating, downloading and importing backups at ZAP-Hosting
+title: Gameserver Creating, downloading and importing backups at ZAP-Hosting
 description: Information on how to create, download and restore backups for your game server from ZAP-Hosting -ZAP-Hosting.com 
 sidebar_label: Backups
 ---

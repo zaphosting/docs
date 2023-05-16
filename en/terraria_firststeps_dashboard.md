@@ -1,6 +1,6 @@
 ---
 id: terraria_firststeps_dashboard
-title: Terraria: Dashboard overview
+title: Terraria Dashboard overview
 description: Information about the dashboard of an Terraria server from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Dashboard
 ---
@@ -116,7 +116,7 @@ We also offer guides for your product. This includes for example the following g
 | Guide             | Page                                                         |
 | ----------------- | ------------------------------------------------------------ |
 | Connect to server | [View guide](https://zap-hosting.com/guides/docs/en/terraria_firststeps_connect) |
-<p style="text-align: center;">List updated last on 01.05.2023</p>
+<p style={{textAlign: 'center'}}>List updated last on 01.05.2023</p>
 
 
 

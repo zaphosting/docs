@@ -1,7 +1,7 @@
 ---
 id: create_screenshots
-title: Screenshots: How and with which tool to create screenshots
-descriptionen: Information on how you can take screenshots and which tools are recommended - ZAP-Hosting.com documentation
+title: "Screenshots How and with which tool to create screenshots"
+description: Information on how you can take screenshots and which tools are recommended - ZAP-Hosting.com documentation
 sidebar_label: Create Screenshots
 ---
 

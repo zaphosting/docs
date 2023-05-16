@@ -1,6 +1,6 @@
 ---
 id: gameserver_firststeps_connect
-title: Satisfactory: Dashboard overview
+title: Satisfactory Dashboard overview
 description: Information about the dashboard of a Satisfactory server from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Dashboard
 ---
@@ -141,7 +141,7 @@ We also offer guides for your product. This includes for example the following g
 | Savegame Manager      | [View guide](https://zap-hosting.com/guides/docs/en/satisfactory_savegame) |
 | Experimental Build    | [View guide](https://zap-hosting.com/guides/docs/en/satisfactory_switchexperimental) |
 | Console Commands      | [View guide](https://zap-hosting.com/guides/docs/en/satisfactory_commands) |
-<p style="text-align: center;">List updated last on 01.05.2023</p>
+<p style={{textAlign: 'center'}}>List updated last on 01.05.2023</p>
 
 
 

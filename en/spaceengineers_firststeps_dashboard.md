@@ -1,6 +1,6 @@
 ---
 id: gameserver_firststeps_dashboard
-title: Space Engineers: Dashboard overview
+title: Space Engineers Dashboard overview
 description: Information about the dashboard of a Space Engineers server from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Dashboard
 ---
@@ -117,7 +117,7 @@ We also offer guides for your product. This includes for example the following g
 | ------------ | ------------------------------------------------------------ |
 | Become admin | [View guide](https://zap-hosting.com/guides/docs/en/spaceengineers_becomeadmin) |
 | Install Mods | [View guide](https://zap-hosting.com/guides/docs/en/spaceengineers_addmods) |
-<p style="text-align: center;">List updated last on 03.05.2023</p>
+<p style={{textAlign: 'center'}}>List updated last on 03.05.2023</p>
 
 
 

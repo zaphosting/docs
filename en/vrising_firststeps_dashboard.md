@@ -1,6 +1,6 @@
 ---
 id: vrising_firststeps_dashboard
-title: V Rising: Dashboard overview
+title: V Rising Dashboard overview
 description: Information about the dashboard of an V Rising server from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Dashboard
 ---
@@ -108,7 +108,7 @@ We also offer guides for your product. This includes for example the following g
 | Title of the guide (placeholder) | [View guide](https://zap-hosting.com/guides/docs/de/) |
 | Title of the guide (placeholder) | [View guide](https://zap-hosting.com/guides/docs/de/) |
 | Title of the guide (placeholder) | [View guide](https://zap-hosting.com/guides/docs/de/) |
-<p style="text-align: center;">List updated last on XX.XX.XXXX</p>
+<p style={{textAlign: 'center'}}>List updated last on XX.XX.XXXX</p>
 
 
 

@@ -15,7 +15,7 @@ By using brand assets from ZAP-Hosting, you agree to respect and follow these gu
 
 ZAP-Hosting reserves the right to revoke, modify or change any granted permission to use within these guidelines at any time at its sole discretion.
 
-<br>
+<br/>
 
 ### Questions
 
@@ -23,25 +23,25 @@ ZAP-Hosting reserves the right to revoke, modify or change any granted permissio
 
 *The use of our brand assets (logo, name and preset banners from the "Refer a Friend" section) is allowed as long as it redirects to our website or our products by clicking on it.*
 
-<br>
+<br/>
 
 **I'm a ZAP partner, can I use the logo?**
 
 *If you are a ZAP Hosting Partner and have a question regarding the use of ZAP Hosting Brand Assets under your agreement, please contact your ZAP Hosting Partner Manager. You can find the contact details in your partner menu.*
 
-<br>
+<br/>
 
 **I have found something that I believe is an unauthorized use of the logo or name. What should I do?**
 
 *If you have found a website, account or graphic that uses a ZAP hosting brand logo inappropriately, we would like to hear about it. In such cases please contact abuse@zap-hosting.com* immediately.*
 
-<br>
+<br/>
 
 **I'm a ZAP Helper. May I use your logo and name?**
 
 *No. ZAP-Helper is a rank on our Discord for community members who volunteer to help and answer questions on the Discord within their knowledge. ZAP-Helpers are not employees of ZAP-Hosting and may not impersonate or portray themselves as such. A use of the brand assets and the name is also not allowed without agreement.*
 
-<br>
+<br/>
 
 **I'd like to post a screenshot of the site or chat, may I?**
 
@@ -50,7 +50,7 @@ ZAP-Hosting reserves the right to revoke, modify or change any granted permissio
 If you have any questions about this policy, please contact raz@zap-hosting.com.
 
 
-<br>
+<br/>
 
 ## General guidelines for use
 
@@ -78,7 +78,7 @@ If you have any questions about this policy, please contact raz@zap-hosting.com.
 - Do not use ZAP-Hosting trademarked graphics and logos for material that violates the trademark, copyright or other rights of third parties.
 ZAP-Hosting's rights to ZAP-Hosting's trademarked graphics and logos may not be violated, diminished, diluted or impaired.
 
-<br>
+<br/>
 
 ## Logos
 
@@ -94,7 +94,7 @@ In general, we do not allow the use of the ZAP hosting logos in marketing materi
 
 We reserve the right to decide on an individual basis whether there has been any misuse for any points not listed here. In principle, the need for written permission to use our brand assets and name applies.
 
-<br>
+<br/>
 
 ## Commercials, TV programs, YouTube videos, movies or articles
 If you would like to use our brand assets as part of an article, in a film or within a radio program, please contact us. We are open for such requests. Please include the following information with your request:
@@ -104,7 +104,7 @@ If you would like to use our brand assets as part of an article, in a film or wi
 
 In the case of unapproved published content of this kind, we reserve the right of ownership within the framework of trademark law.
 
-<br>
+<br/>
 
 ## Legal Annex
 

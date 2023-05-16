@@ -1,6 +1,6 @@
 ---
 id: vserver_linux_mastodon
-title: VPS: Install Mastodon on server
+title: VPS Install Mastodon on server
 description: Information on how to set up Mastodon server on your VPS from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Mastodon
 ---

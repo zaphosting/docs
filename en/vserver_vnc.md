@@ -1,6 +1,6 @@
 ---
 id: vserver_vnc
-title: VPS: What is VNC?
+title: VPS What is VNC?
 description: Information about the VNC console for VPSs at ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: What is  VNC (Serial console)?
 ---

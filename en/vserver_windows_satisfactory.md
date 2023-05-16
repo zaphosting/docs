@@ -1,7 +1,7 @@
 ---
 id: vserver_windows_satisfactory
-title: VPS/ROOT: Satisfactory Dedicated Server Setup
-descriptionen: Information about setting up a Satisfactory Dedicated Server on a VPS/Rootserver - ZAP-Hosting.com Documentation
+title: VPS/ROOT Satisfactory Dedicated Server Setup
+description: Information about setting up a Satisfactory Dedicated Server on a VPS/Rootserver - ZAP-Hosting.com Documentation
 sidebar_label: Satisfactory Dedicated Server Setup
 ---
 

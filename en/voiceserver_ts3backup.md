@@ -1,6 +1,6 @@
 ---
 id: voiceserver_ts3backup
-title: Teamspeak: Set up and download server backup
+title: Teamspeak Set up and download server backup
 description: Information on how to set up and download a backup for your Teamspeak server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Ts3 Backup
 ---
@@ -8,7 +8,7 @@ sidebar_label: Ts3 Backup
 
 <!--DOCUSAURUS_CODE_TABS-->
 <!--Webinterface-->
-<br>
+<br/>
 
 To make a backup of your Ts3 server in our Webinterface, just go to **Snapshots** on the left.
 
@@ -20,8 +20,8 @@ Then you go to **Create a snapshot**. Below you will see all your snapshots and 
 ![image](https://user-images.githubusercontent.com/13604413/159177311-8b87f8d4-b8ed-41dd-9a77-ca84886da311.png)
 
 
- <!--v/Rootserver-->
-<br>
+<!--v/Rootserver-->
+<br/>
 To make a backup of your Ts3 server, which is installed on your v/Rootserver, you have to download the program Yatqa. **https://yat.qa/**
 
 Then you call up your Ts3 instance and log in to Yatqa with the data: 
@@ -34,4 +34,4 @@ To create the backup you have to go to **Miscellaneous** and then to **Create an
 
 To import a backup you can simply go to **Restore snapshot**.
 
- <!--END_DOCUSAURUS_CODE_TABS-->
+<!--END_DOCUSAURUS_CODE_TABS-->

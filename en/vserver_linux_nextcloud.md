@@ -1,6 +1,6 @@
 ---
 id: vserver_linux_nextcloud
-title: VPS: Install Nextcloud on server
+title: VPS Install Nextcloud on server
 description: Information on how to set up a Nextcloud server on your VPS from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Nextcloud
 ---
@@ -11,11 +11,11 @@ Nextcloud is an open source cloud solution and fork of Owncloud, which was found
 
 ![image](https://user-images.githubusercontent.com/13604413/159172333-5c613339-d564-4852-8b32-d3661d283534.png)
 
-In order to achieve optimal performance, stability and functionality, the following setup is recommended for hosting a Nextcloud server. The Nextcloud server is not compatible with Windows and MacOS. At least not without any further virtualization or similar workarounds.<br>
+In order to achieve optimal performance, stability and functionality, the following setup is recommended for hosting a Nextcloud server. The Nextcloud server is not compatible with Windows and MacOS. At least not without any further virtualization or similar workarounds.<br/>
 
 **System requirements**
 
-<br>
+<br/>
 **Hardware**
 
 | **Components** | Minimum                | Recommended                 |
@@ -25,7 +25,7 @@ In order to achieve optimal performance, stability and functionality, the follow
 | Disc           | 10 GB                  | 50+ GB                      |
 | Bandwidth      | 100 mbit/s (up & down) | 500mbit/s (up & down) Recommended if several users are supposed to use the cloud |
 
-<br>
+<br/>
 **Software**
 
 | Platform         | Options                                                      |
@@ -50,7 +50,7 @@ Once the connection is established, you can start to install the necessary packa
 
 <!--DOCUSAURUS_CODE_TABS-->
 <!--Debian-->
-<br>
+<br/>
 
 **Apache (Web server)**
 
@@ -106,7 +106,7 @@ php -v
 
 <!--Ubuntu-->
 
-<br>
+<br/>
 
 **Apache (Web server)**
 
@@ -167,7 +167,7 @@ php -v
 
 
 <!--CentOS-->
-<br>
+<br/>
 
 **Apache (Web server)**
 
@@ -255,7 +255,7 @@ The next step is to define a database type to store the relevant information. Th
 <!--DOCUSAURUS_CODE_TABS-->
 
 <!--MariaDB-->
-<br>
+<br/>
 If you have decided to use this type of database, then you have to follow these steps:
 
 Package installation:
@@ -294,7 +294,7 @@ FLUSH PRIVILEGES;
 Once you are done, you can press Ctrl-D to exit the database and continue with the next steps.
 
 <!--MySQL-->
-<br>
+<br/>
 If you have decided to use this type of database, then you have to follow these steps:
 
 Package installation:
@@ -334,7 +334,7 @@ FLUSH PRIVILEGES;
 Once you are done, you can press Ctrl-D to exit the database and continue with the next steps.
 
 <!--PostgreSQL-->
-<br>
+<br/>
 If you have decided to use this type of database, then you have to follow these steps:
 
 Package installation:
@@ -386,7 +386,7 @@ $AUTOCONFIG = array(
 ```
 
 <!--SQLite-->
-<br>
+<br/>
 If you have decided to use this type of database, then you have to follow these steps:
 
 Package installation:

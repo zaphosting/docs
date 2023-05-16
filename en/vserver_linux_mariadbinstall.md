@@ -1,6 +1,6 @@
 ---
 id: vserver_linux_mariadbinstall
-title: VPS: Install MariaDB (MySQL) on server
+title: VPS Install MariaDB (MySQL) on server
 descriptin: Information on how to install MariaDB (MySQL) on your VPS from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: MariaDB (MySQL) Installation
 ---

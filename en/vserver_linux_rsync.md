@@ -1,6 +1,6 @@
 ---
 id: vserver_linux_rsync
-title: VPS: Backing up Linux servers with Rsync
+title: VPS Backing up Linux servers with Rsync
 description: Information on how to make backups of your Linux VPS from ZAP-Hosting with Rsync - ZAP-Hosting.com documentation
 sidebar_label: Rsync Linux
 ---
@@ -37,9 +37,9 @@ This can be done with the following command:
 rsync -arz /home/Client /home/Backup
 ```
 -a=Archiving, the attributes will be copied
-<br>
+<br/>
 -r=Recursive, subfolders are synchronized too
-<br>
+<br/>
 -z=Compression, depending on data quantity/data size is compressed 
 
 
@@ -54,11 +54,11 @@ The modified command is:
 rsync -arz --delete /home/Client /home/Backup
 ```
 -a=Archiving, the attributes will be copied
-<br>
+<br/>
 -r=Recursive, subfolders are synchronized too
-<br>
+<br/>
 -z=Compression, depending on data quantity/data size is compressed
-<br>
+<br/>
 --delete= Deletes data that no longer exists in the source but still exists in the target
 
 ## Step 3
@@ -85,6 +85,7 @@ The entered crontab then looks as follows:
 Every day at 3 a.m. the command is executed and a backup is created. 
 
 <!--Daily backup to a remote system-->
+
 ## Step 4
 
 In this example, the Client folder under /home should be synchronized to the Backups folder under on a remote system. The connection is to be made via SSH key, so that a backup can also be automated.  
@@ -100,20 +101,20 @@ rsync --progress -arz -e  "ssh -i /home/sshkey/keybackup" /home/Client/ root@123
 ```
 
 -a=Archiving, the attributes will be copied
-<br>
+<br/>
 -r=Recursive, subfolders are synchronized too
-<br>
+<br/>
 -z=Compression, depending on data quantity/data size is compressed 
-<br>
+<br/>
 -e=Specifies SSH port (default 22)
-<br>
-Specify SSH key (path)("ssh -i /home/sshkey/keybackup")= ssh -i /<path to key>
-<br>
-Specify the directory to be backed up (/home/client/)= /<directory>
-<br>
+<br/>
+Specify SSH key (path)("ssh -i /home/sshkey/keybackup")= ssh -i /[path to key]
+<br/>
+Specify the directory to be backed up (/home/client/)= /[directory]
+<br/>
 RemoteHost(root@123.123.123.123:)= Login Name of the user on the RemoteHost and address: name@IP/Domain
-<br>
-Target directory for the data on the RemoteHost(:/home/Backup/Home-Server1/)= :/<Path to target directory>
+<br/>
+Target directory for the data on the RemoteHost(:/home/Backup/Home-Server1/)= :/[path to key]
 
 The folder/files have been successfully synchronized/saved to the remote directory after executing the command.
   
@@ -127,22 +128,22 @@ The modified command is:
 rsync --progress -arz --delete -e  "ssh -i /home/sshkey/keybackup" /home/Client/ root@123.123.123.123:/home/Backup/Home-Server1/
 ```
 -a=Archiving, the attributes will be copied
-<br>
+<br/>
 -r=Recursive, subfolders are synchronized too
-<br>
+<br/>
 -z=Compression, depending on data quantity/data size is compressed 
-<br>
+<br/>
 --delete= Deletes data that no longer exists in the source but still exists in the target
-<br>
+<br/>
 -e=Specifies SSH port (default 22)
-<br>
-Specify SSH key (path)("ssh -i /home/sshkey/keybackup")= ssh -i /<path to key>
-<br>
-Specify the directory to be backed up (/home/client/)= /<directory>
-<br>
+<br/>
+Specify SSH key (path)("ssh -i /home/sshkey/keybackup")= ssh -i /[path to key]
+<br/>
+Specify the directory to be backed up (/home/client/)= /[directory]
+<br/>
 RemoteHost(root@123.123.123.123:)= Login Name of the user on the RemoteHost and address: name@IP/Domain
-<br>
-Target directory for the data on the RemoteHost(:/home/Backup/Home-Server1/)= :/<Path to target directory>
+<br/>
+Target directory for the data on the RemoteHost(:/home/Backup/Home-Server1/)= :/[Path to target directory]
 
 ## Step 5
 

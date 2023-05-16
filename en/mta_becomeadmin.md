@@ -1,6 +1,6 @@
 ---
 id: mta_becomeadmin
-title: MTA: Become an admin on MTA servers
+title: MTA Become an admin on MTA servers
 description: Information on how to become an admin on your MTA server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Become Admin
 
@@ -18,7 +18,7 @@ Administrator rights allow you to make changes directly in the game on your serv
 First of all a user account has to be created which will later be given the admin rights. To do this you have to execute the following command in the Live Console:
 
 ```
-addaccount <USERNAME> <PASSWORD>
+addaccount [options] <PASSWORD>
 ```
 
 The Live Console can be found in the gameserver dashboard in the interface while the server is running. This looks like this:

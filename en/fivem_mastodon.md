@@ -1,6 +1,6 @@
 ---
 id: fivem_mastodon
-title: FiveM: Setting up an activity feed for your server
+title: FiveM Setting up an activity feed for your server
 description: Information on how to set up an activity feed for your FiveM server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Configure Activity Feed
 ---

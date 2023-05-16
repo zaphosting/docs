@@ -1,7 +1,7 @@
 ---
 id: vserver_windows_valheim
-title: VPS/ROOT: Valheim Dedicated Server Setup
-descriptionen: Information about setting up a Valheim Dedicated Server on a VPS/Rootserver - ZAP-Hosting.com Documentation
+title: VPS/ROOT Valheim Dedicated Server Setup
+description: Information about setting up a Valheim Dedicated Server on a VPS/Rootserver - ZAP-Hosting.com Documentation
 sidebar_label: Valheim Dedicated Server Setup
 
 ---

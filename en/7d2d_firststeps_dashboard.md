@@ -1,6 +1,6 @@
 ---
 id: 7d2d_firststeps_dashboard
-title: 7 Days to Die: Dashboard overview
+title: "7 Days to Die Dashboard overview"
 description: Information about the dashboard of a 7 Days to Die server from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Dashboard
 ---
@@ -140,7 +140,7 @@ We also offer guides for your product. This includes for example the following g
 | Become admin | [View guide](https://zap-hosting.com/guides/docs/en/7d2d_becomeadmin) |
 | Install Mods | [View guide](https://zap-hosting.com/guides/docs/en/7d2d_mods) |
 | Commands     | [View guide](https://zap-hosting.com/guides/docs/en/7d2d_commands) |
-<p style="text-align: center;">List updated last on 03.05.2023</p>
+<p style={{textAlign: 'center'}} >List updated last on 03.05.2023</p>
 
 
 

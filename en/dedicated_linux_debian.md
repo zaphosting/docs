@@ -185,7 +185,7 @@ Is needed to connect to PuTTY for example.
 Is needed to provide a number of basic packages.
 
 The selection of the different packages is done by TAB and arrow keys. Packages are selected or deselected with the space bar.
-When you are satisfied with your selection press TAB until you reach <Continue> and confirm with Enter.
+When you are satisfied with your selection press TAB until you reach Continue and confirm with Enter.
 
 ***
 

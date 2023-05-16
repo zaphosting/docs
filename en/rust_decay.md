@@ -13,9 +13,9 @@ When you're connected, please navigate to the Console section, where you can exe
 
 You can modify the Decay-Rate as following:
 
-`decay.scale 1.0` is the normal decay rate<br>
-`decay.scale 0.5` reduces the decay rate by 50%<br>
-`decay.scale 0` completely disables the decay<br>
+`decay.scale 1.0` is the normal decay rate<br/>
+`decay.scale 0.5` reduces the decay rate by 50%<br/>
+`decay.scale 0` completely disables the decay<br/>
 
 In example you would like to disable the decay completly, then its required to execute the command
 
