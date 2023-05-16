@@ -1,5 +1,5 @@
 ---
-id: gameserver_firststeps_dashboard
+id: spaceengineers_firststeps_dashboard
 title: Space Engineers Dashboard overview
 description: Information about the dashboard of a Space Engineers server from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Dashboard

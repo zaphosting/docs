@@ -1,5 +1,5 @@
 ---
-id: gameserver_firststeps_dashboard
+id: scp_firststeps_dashboard
 title: Game XY Dashboard Übersicht
 description: Informationen zum Dashboard eines XY-Server von ZAP-Hosting - ZAP-Hosting.com Dokumentationen
 sidebar_label: Dashboard
