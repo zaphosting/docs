@@ -1,0 +1,19 @@
+name: Build Docusaurus
+
+on: 
+  pull_request:
+
+jobs:
+  test-docusaurus:
+    runs-on: self-hosted
+    steps:
+      - name: Check out Git repository
+        uses: actions/checkout@v3
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 19
+      - name: Install Docusaurus
+        run: npx create-docusaurus@latest docusaurus classic && cd docusaurus && cp -R ../* .
+      - name: Build Docusaurus
+        run: cd docusaurus && npm run build
