@@ -1,9 +1,0 @@
-{
-	"definitions": {},
-	"$schema": "http://json-schema.org/draft-07/schema#", 
-	"$id": "https://example.com/object1583232129.json", 
-	"title": "Root", 
-	"type": "object",
-	"required": [],
-	"properties": {}
-}
