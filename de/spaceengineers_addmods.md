@@ -1,6 +1,6 @@
 ---
 id: spaceengineers_addmods
-title: Space Engineers: Mods auf Server installieren
+title: Space Engineers Mods auf Server installieren
 description: Informationen, wie du Mod auf deinen Space Engeineers Server von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentationen
 sidebar_label: Mods installieren
 ---
@@ -75,7 +75,7 @@ Hierzu kopieren wir den folgenden Inhalt und fügen Ihn dann wie im Screenshot g
 
 ```xml
 	<ModItem>
-		<Name>12345.sbm</Name>
+		[name]12345.sbm</Name>
 		<PublishedFileId>12345</PublishedFileId>
 		<PublishedServiceName>Steam</PublishedServiceName>
 	</ModItem>

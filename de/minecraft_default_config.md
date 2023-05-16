@@ -1,6 +1,6 @@
 ---
 id: minecraft_default_config
-title: Minecraft: Server Config-Einstellungen
+title: Minecraft Server Config-Einstellungen
 description: Informationen zu den Server Config-Einstellungen deines Minecraft-Servers von ZAP-Hosting - ZAP-Hosting.com Dokumentationen
 sidebar_label: Server Config
 ---

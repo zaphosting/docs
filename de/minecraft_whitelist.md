@@ -1,6 +1,6 @@
 ---
 id: minecraft_whitelist
-title: Minecraft Server: Whitelist aktivieren und bearbeiten
+title: Minecraft Server Whitelist aktivieren und bearbeiten
 description: Informationen, wie du eine Whitelist für deinen Minecraft-Server von ZAP-Hosting aktivieren und bearbeiten kannst - ZAP-Hosting.com Dokumentationen
 sidebar_label: Whitelist
 ---

@@ -1,7 +1,7 @@
 ---
 id: scp_firststeps_connect
-title: SCP: Zum Server verbinden
-description: Informationenen zum Verbindungsaufbau eines SCP: Secret Laboratory Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
+title: SCP Zum Server verbinden
+description: Informationenen zum Verbindungsaufbau eines SCP Secret Laboratory Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Zum Server verbinden
 ---
 

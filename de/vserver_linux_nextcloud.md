@@ -1,6 +1,6 @@
 ---
 id: vserver_linux_nextcloud
-title: vServer: Nextcloud auf Server installieren
+title: vServer Nextcloud auf Server installieren
 description: Informationen, wie du einen Nextcloud Server auf deinem vServer von ZAP-Hosting einrichten kannst - ZAP-Hosting.com Dokumentationen
 sidebar_label: Nextcloud
 ---
@@ -11,11 +11,11 @@ Nextcloud ist eine Open-Source-Cloud-Lösung und Abspaltung von Owncloud, die 20
 
 ![image](https://user-images.githubusercontent.com/13604413/159172333-5c613339-d564-4852-8b32-d3661d283534.png)
 
-Um eine optimale Leistung, Stabilität und Funktionalität zu gewährleisten, wird für den Betrieb eines Nextcloud-Servers die folgende Einrichtung empfohlen. Der Nextcloud-Server ist nicht mit Windows und MacOS kompatibel. Zumindest nicht ohne weitere Virtualisierung oder ähnlichen Workarounds.<br>
+Um eine optimale Leistung, Stabilität und Funktionalität zu gewährleisten, wird für den Betrieb eines Nextcloud-Servers die folgende Einrichtung empfohlen. Der Nextcloud-Server ist nicht mit Windows und MacOS kompatibel. Zumindest nicht ohne weitere Virtualisierung oder ähnlichen Workarounds.<br/>
 
 **Systemvoraussetzungen**
 
-<br>
+<br/>
 **Hardware**
 
 | **Components** | Minimum                | Recommended                 |
@@ -25,7 +25,7 @@ Um eine optimale Leistung, Stabilität und Funktionalität zu gewährleisten, wi
 | Disc           | 10 GB                  | 50+ GB                      |
 | Bandwidth      | 100 mbit/s (up & down) | 500mbit/s (up & down) Sinnvoll, wenn mehrere User die Cloud benutzen sollen |
 
-<br>
+<br/>
 **Software**
 
 | Platform         | Options                                                      |
@@ -50,7 +50,7 @@ Sobald die Verbindung hergestellt wurde, ist es möglich, mit der Installation d
 
 <!--DOCUSAURUS_CODE_TABS-->
 <!--Debian-->
-<br>
+<br/>
 
 **Apache (Web server)**
 
@@ -106,7 +106,7 @@ php -v
 
 <!--Ubuntu-->
 
-<br>
+<br/>
 
 **Apache (Web server)**
 
@@ -167,7 +167,7 @@ php -v
 
 
 <!--CentOS-->
-<br>
+<br/>
 
 **Apache (Web server)**
 
@@ -255,7 +255,7 @@ Als Nächstes wird ein Datenbank Typ benötigt um die relevanten Informationen a
 <!--DOCUSAURUS_CODE_TABS-->
 
 <!--MariaDB-->
-<br>
+<br/>
 Wenn du dich für diesen Datenbanktypen entschieden hast, dann musst du folgende Schritte befolgen:
 
 Pakete installieren:
@@ -294,7 +294,7 @@ FLUSH PRIVILEGES;
 Wenn du damit fertig bist, dann kannst du Strg-D drücken, um die Datenbank zu verlassen um mit den weiteren Schritten fortzufahren.
 
 <!--MySQL-->
-<br>
+<br/>
 Wenn du dich für diesen Datenbanktypen entschieden hast, dann musst du folgende Schritte befolgen:
 
 Pakete installieren:
@@ -334,7 +334,7 @@ FLUSH PRIVILEGES;
 Wenn du damit fertig bist, dann kannst du Strg-D drücken, um die Datenbank zu verlassen um mit den weiteren Schritten fortzufahren.
 
 <!--PostgreSQL-->
-<br>
+<br/>
 Wenn du dich für diesen Datenbanktypen entschieden hast, dann musst du folgende Schritte befolgen:
 
 Pakete installieren:
@@ -386,7 +386,7 @@ $AUTOCONFIG = array(
 ```
 
 <!--SQLite-->
-<br>
+<br/>
 Wenn du dich für diesen Datenbanktypen entschieden hast, dann musst du folgende Schritte befolgen:
 
 Pakete installieren:

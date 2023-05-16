@@ -1,6 +1,6 @@
 ---
 id: minecraft_addop
-title: Minecraft Server: OP-Rechte vergeben
+title: Minecraft Server OP-Rechte vergeben
 description: Informationen, wie du OP-Rechte für deinen Minecraft-Server von ZAP-Hosting.com vergeben und bearbeiten kannst - ZAP-Hosting.com Dokumentationen
 sidebar_label: OP-Rechte
 ---
@@ -16,11 +16,11 @@ Um die Konsole zu öffnen, muss zunächst der jeweilige Server über das **Dashb
 
 ![](https://user-images.githubusercontent.com/61839701/170325753-9512317c-616e-4258-b96a-17711b136da7.png)
 
-Nun sollte ein dunkles Fenster zu sehen sein, was die Konsole des Servers darstellt. Darunter ist ein Eingabefeld zu erkennen, wo jegliche Befehle an die Konsole übergeben werden, sodass diese dort ausgeführt werden. Um nun die OP-Rechte zu setzten, muss in das Eingabefeld der Befehl "op <Spieler>" (ohne "/") eingetragen werden und anschließend auf den grünen Button "Befehl senden" geklickt werden, damit der Befehl an die Konsole gesendet wird.
+Nun sollte ein dunkles Fenster zu sehen sein, was die Konsole des Servers darstellt. Darunter ist ein Eingabefeld zu erkennen, wo jegliche Befehle an die Konsole übergeben werden, sodass diese dort ausgeführt werden. Um nun die OP-Rechte zu setzten, muss in das Eingabefeld der Befehl "op [Spieler]" (ohne "/") eingetragen werden und anschließend auf den grünen Button "Befehl senden" geklickt werden, damit der Befehl an die Konsole gesendet wird.
 
 ![](https://user-images.githubusercontent.com/61839701/170325860-ea9db416-ea37-4280-b7f7-5013cdbfbb0d.png)
 
-Nach wenigen Sekunden sollte der gesendete Befehl in der Konsole erscheinen, worauf die Meldung "Made <Spieler> a server operator" kommt, welche den Vorgang als erfolgreich markiert. Nun hat der jeweilige Spieler alle OP-Rechte und kann beispielsweise den Spielmodus wechseln.
+Nach wenigen Sekunden sollte der gesendete Befehl in der Konsole erscheinen, worauf die Meldung "Made [Spieler] a server operator" kommt, welche den Vorgang als erfolgreich markiert. Nun hat der jeweilige Spieler alle OP-Rechte und kann beispielsweise den Spielmodus wechseln.
 
 > Das Verteilen von OP-Rechten ist nun auch im Spiel selbst möglich, so dass du das Rechte-Level wie im nächsten Schritt erklärt ggf. anpassen solltest, insofern dies von dir gewünscht ist.
 

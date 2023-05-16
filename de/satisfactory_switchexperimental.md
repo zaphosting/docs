@@ -1,6 +1,6 @@
 ---
 id: satisfactory_switchexperimental
-title: Satisfactory: Experimentelles Version
+title: Satisfactory Experimentelles Version
 description: Informationen zur experimentellen Version für Satisfactory von ZAP-Hosting - ZAP-Hosting.com Dokumentationen
 sidebar_label: Experimentelles Version
 ---

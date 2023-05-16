@@ -1,6 +1,6 @@
 ---
 id: vserver_linux_gs_interface
-title: vServer: Gameserver/TS3 Interface
+title: vServer Gameserver/TS3 Interface
 description: Informationen, wie du über das Gameserver/TS3 Interface mit wenigen Klicks TS und Gameserver auf deinen vServer von ZAP-Hosting.com installieren kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: GS/TS3 Interface
 
@@ -38,7 +38,7 @@ Das GS/TS3 Interface unterstützt die Einrichtung von Gameserver, Voiceserver un
 | Voiceserver | Teamspeak 3 Server werden unterstützt                    | ✔️    | ✔️          | ✔️                |
 | Musikbot    | Sinusbot wird unterstützt                                | ✔️    | ✔️          | ✔️                |
 
-<p style="text-align: center;">Liste zuletzt aktualisiert am 01.05.2023</p>
+<p style={{textAlign: 'center'}}>Liste zuletzt aktualisiert am 01.05.2023</p>
 
 
 

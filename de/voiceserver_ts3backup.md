@@ -1,6 +1,6 @@
 ---
 id: voiceserver_ts3backup
-title: Teamspeak: Server Backup einrichten und herunterladen
+title: Teamspeak Server Backup einrichten und herunterladen
 description: Informationen, wie du ein Backup für deinen Teamspeak Server von ZAP-Hosting einrichten und herunterladen kannst - ZAP-Hosting.com Dokumentationen
 sidebar_label: Ts3 Backup
 ---
@@ -8,7 +8,7 @@ sidebar_label: Ts3 Backup
 
 <!--DOCUSAURUS_CODE_TABS-->
 <!--Webinterface-->
-<br>
+<br/>
 Um im Webinterface ein Backup von deinem Ts3 Server zu machen, gehst du einfach links auf **Snapshots**.
 
 ![image](https://user-images.githubusercontent.com/13604413/159177305-ec17ce4e-42da-4669-a54c-3b9ea7aef2e4.png)
@@ -20,7 +20,7 @@ Anschließend gehst du auf **Snapshot erstellen**. Unten siehst du dann alle dei
 
 
 <!--v/Rootserver-->
-<br>
+<br/>
 Um ein Backup von deinem Ts3 Server zu machen, welcher auf deinem v/Rootserver installiert ist, musst du dir das Programm Yatqa downloaden. **https://yat.qa/herunterladen/**
 
 Anschließend rufst du deine Ts3 Instanz auf und meldest dich mit den Daten bei Yatqa an: 

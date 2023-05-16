@@ -1,6 +1,6 @@
 ---
 id: minecraft_firststeps_connect
-title: Minecraft: Zum Server verbinden
+title: Minecraft Zum Server verbinden
 description: Informationenen zum Verbindungsaufbau eines Minecraft Server von ZAP-Hosting - ZAP-Hosting.com Dokumentationen
 sidebar_label: Zum Server verbinden
 ---

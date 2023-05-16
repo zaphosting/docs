@@ -14,9 +14,9 @@ Sobald du verbunden bist, navigiere in das Feld in welchem du Consolenbefehle au
 
 Du kannst mit der Zahl die Decay-Rate anpassen, zum Beispiel:
 
-`decay.scale 1.0` Unveränderte Decay Rate<br>
-`decay.scale 0.5` Decay Rate auf 50% reduziert<br>
-`decay.scale 0` Decay ist komplett deaktiviert<br>
+`decay.scale 1.0` Unveränderte Decay Rate<br/>
+`decay.scale 0.5` Decay Rate auf 50% reduziert<br/>
+`decay.scale 0` Decay ist komplett deaktiviert<br/>
 
 Angenommen du möchtest den Decay komplett deaktivieren dann muss der Befehl
 

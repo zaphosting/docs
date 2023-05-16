@@ -1,6 +1,6 @@
 ---
 id: fivem_dashboard
-title: FiveM: Server-Administration über das Web Interface-Dashboard
+title: FiveM Server-Administration über das Web Interface-Dashboard
 description: Informationen zu den Einstellungsoptionen von FiveM-Server von ZAP-Hosting im Web Interface Dashboard - ZAP-Hosting.com Dokumentationen
 sidebar_label: Administration
 ---

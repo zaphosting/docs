@@ -1,6 +1,6 @@
 ---
 id: conan_configuration
-title: Conan Exiles: den eigenen Server konfigurieren
+title: Conan Exiles den eigenen Server konfigurieren
 description: Informationen, wie du deinen Conan Exiles-Server von ZAP-Hosting via dem Web Interface konfigurieren kannst - ZAP-Hosting.com Dokumentationen
 sidebar_label: Server Konfiguration
 

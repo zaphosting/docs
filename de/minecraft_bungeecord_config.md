@@ -1,6 +1,6 @@
 ---
 id: minecraft_bungeecord_config
-title: Minecraft Bungeecord Server: Server Config-Einstellungen
+title: Minecraft Bungeecord Server Server Config-Einstellungen
 description: Informationen den den Server Config-Einstellungen für deinen Bungeecord-Server von ZAP-Hosting - ZAP-Hosting.com Dokumentationen
 sidebar_label: Server Config
 ---
@@ -68,7 +68,7 @@ Die **motd** ist die Nachricht, welche in der deiner Serverliste angezeigt wird,
 
 ![image](https://user-images.githubusercontent.com/13604413/159177910-15cd7179-e13f-41c9-8bed-b9d483f10b28.png)
 
-Unter **address** gibst du die entsprechende IP des Unterservers ein. Wenn der Wert **restricted** auf true ist muss der Spieler die Berechtigung *bungeecord.server.<ServerName>* besitzen, um den Unterserver betreten zu können.
+Unter **address** gibst du die entsprechende IP des Unterservers ein. Wenn der Wert **restricted** auf true ist muss der Spieler die Berechtigung *bungeecord.server.[Spieler]* besitzen, um den Unterserver betreten zu können.
 
 ### listeners
 

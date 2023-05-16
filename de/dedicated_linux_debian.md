@@ -184,7 +184,7 @@ Wird benötigt um beispielsweise mit PuTTY verbinden zu können.
 Wird benötigt um eine Anzahl gewisser Grundpakete bereitstellen zu können.
 
 Die Auswahl der verschiedenen Pakete erfolgt hier per TAB, Pfeiltasten. Markiert oder Abgewählt werden Pakete mit der Leertaste.
-Wenn du mit deiner Auswahl zufrieden bist drücke so lange TAB bis du bei <Continue> landest und bestätige mit Enter.
+Wenn du mit deiner Auswahl zufrieden bist drücke so lange TAB bis du bei [Continue] landest und bestätige mit Enter.
 
 ***
 

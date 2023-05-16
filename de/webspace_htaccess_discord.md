@@ -1,6 +1,6 @@
 ---
 id: webspace_htaccess_discord
-title: Webspace: Discord Weiterleitung via Domain einrichten
+title: Webspace Discord Weiterleitung via Domain einrichten
 description: Informationen, wie du eine Discord Weiterleitung via Domain bei deinem Webspace von ZAP-Hosting einrichten kannst - ZAP-Hosting.com Dokumentationen
 sidebar_label: Discord Weiterleitung via Domain
 ---

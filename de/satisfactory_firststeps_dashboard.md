@@ -1,6 +1,6 @@
 ---
 id: satisfactory_firststeps_dashboard
-title: Satisfactory: Dashboard Übersicht
+title: Satisfactory Dashboard Übersicht
 description: Informationen zum Dashboard eines Satisfactory Server von ZAP-Hosting - ZAP-Hosting.com Dokumentationen
 sidebar_label: Dashboard
 ---
@@ -138,7 +138,7 @@ Zu deinem Produkt bieten wir ebenfalls weitere Anleitungen an. Das beinhaltet be
 | SaveGame-Manager       | [Anleitung aufrufen](https://zap-hosting.com/guides/docs/de/satisfactory_savegame) |
 | Experimentelle Version | [Anleitung aufrufen](https://zap-hosting.com/guides/docs/de/satisfactory_switchexperimental) |
 | Konsolen-Befehle       | [Anleitung aufrufen](https://zap-hosting.com/guides/docs/de/satisfactory_commands) |
-<p style="text-align: center;">Liste zuletzt aktualisiert am 01.05.2023</p>
+<p style={{textAlign: 'center'}}>Liste zuletzt aktualisiert am 01.05.2023</p>
 
 
 

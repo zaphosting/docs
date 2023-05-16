@@ -1,6 +1,6 @@
 ---
 id: valheim_backup_schedule
-title: Valheim: Automatisierte Backups für Server aktivieren
+title: Valheim Automatisierte Backups für Server aktivieren
 description: Informationen, wie du automatisierte Backups für deinen Valheim Server von ZAP-Hosting aktivieren und einstellen kannst - ZAP-Hosting.com Dokumentationen
 sidebar_label: Automatisierte Backups
 ---

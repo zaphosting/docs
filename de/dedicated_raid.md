@@ -113,16 +113,16 @@ Wenn du das gewünschte RAID ausgewählt hast, kannst du deine Wahl mit `Enter` 
 Sofern dein RAID in irgendeiner Form modifiziert wurde muss zwingend zum Abschluss immer ein das Boot Volume definiert werden.
 Dies kann unter **Select Boot Volume** erledigt werden, wähle hierbei dein Speichermedium, andernfalls wird der Server in einer Bootschleife hängen.
 
-**Select Boot Volume**<br>
+**Select Boot Volume**<br/>
 ![](https://screensaver01.zap-hosting.com/index.php/s/2GDEYfjnkmaKF9F/preview)
 ***
-**Direct Attached Storage**<br>
+**Direct Attached Storage**<br/>
 ![](https://screensaver01.zap-hosting.com/index.php/s/2468ZCGkr2ninxM/preview)
 ***
-**Logical Drive 01**<br>
+**Logical Drive 01**<br/>
 ![](https://screensaver01.zap-hosting.com/index.php/s/tN6pRiJbZexbzmg/preview)
 ***
-**Press `F8` to save as bootvolume**<br>
+**Press `F8` to save as bootvolume**<br/>
 ![](https://screensaver01.zap-hosting.com/index.php/s/tqGFzGZGgeo4JjZ/preview)
 
 Danach hast du die Möglichkeit mit `F8` direkt dein System neuzustarten oder mit `Enter` weitere Einstellungen im RAID-Manager vorzunehmen.

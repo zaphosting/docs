@@ -1,6 +1,6 @@
 ---
 id: vserver_linux_ftp
-title: vServer: FTP Dienst funktioniert nicht - Problemlösungen
+title: vServer FTP Dienst funktioniert nicht - Problemlösungen
 description: Informationen, wie du FTP-Probleme bei deinem vServer von ZAP-Hosting beheben kannst - ZAP-Hosting.com Dokumentationen
 sidebar_label: FTP Dienst funktioniert nicht
 ---

@@ -1,6 +1,6 @@
 ---
 id: beammp_firststeps_dashboard
-title: BeamMP: Dashboard Übersicht
+title: BeamMP Dashboard Übersicht
 description: Informationen zum Dashboard eines BeamMP Server von ZAP-Hosting - ZAP-Hosting.com Dokumentationen
 sidebar_label: Dashboard
 ---
@@ -130,7 +130,7 @@ Zu deinem Produkt bieten wir ebenfalls weitere Anleitungen an. Das beinhaltet be
 | ------------------ | ------------------------------------------------------------ |
 | Auth Key erstellen | [Anleitung aufrufen](https://zap-hosting.com/guides/docs/de/beammp_authkey) |
 | Mods installieren  | [Anleitung aufrufen](https://zap-hosting.com/guides/docs/de/beammp_mods) |
-<p style="text-align: center;">Liste zuletzt aktualisiert am 03.05.2023</p>
+<p style={{textAlign: 'center'}}>Liste zuletzt aktualisiert am 03.05.2023</p>
 
 
 

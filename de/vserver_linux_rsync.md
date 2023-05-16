@@ -1,6 +1,6 @@
 ---
 id: vserver_linux_rsync
-title: vServer: Backups von Linux Server mit Rsync anfertigen
+title: vServer Backups von Linux Server mit Rsync anfertigen
 description: Informationen, wie du mit Rsync Backups von deinem Linux vServer von ZAP-Hosting anfertigen kannst - ZAP-Hosting.com Dokumentationen
 sidebar_label: Rsync Linux
 ---
@@ -37,9 +37,9 @@ Das kann mit folgendem Befehl gemacht werden:
 rsync -arz /home/Client /home/Backup
 ```
 -a=Archivierung, die Attribute werden z.b übernommen
-<br>
+<br/>
 -r=Rekursiv, Unterordner werden mit syncronisert
-<br>
+<br/>
 -z=Komprimierung, je nach Datenmengen/Datengrößen wird komprimiert 
 
 Der Ordner wurde erfolgreicht syncronisiert 
@@ -54,11 +54,11 @@ Der leicht veränderte Befehl lautet:
 rsync -arz --delete /home/Client /home/Backup
 ```
 -a=Archivierung, die Attribute werden z.b übernommen
-<br>
+<br/>
 -r=Rekursiv, Unterordner werden mit syncronisert
-<br>
+<br/>
 -z=Komprimierung, je nach Datenmengen/Datengrößen wird komprimiert
-<br>
+<br/>
 --delete= Löscht Daten die in der Quelle nicht mehr vorhanden sind aber im Ziel noch bestehen
 
 ## Schritt 3
@@ -101,16 +101,16 @@ rsync --progress -arz -e  "ssh -i /home/sshkey/keybackup" /home/Client/ root@123
 ```
 
 -a=Archivierung, die Attribute werden z.b übernommen
-<br>
+<br/>
 -r=Rekursiv, Unterordner werden mit syncronisert
-<br>
+<br/>
 -z=Komprimierung, je nach Datenmengen/Datengrößen wird komprimiert 
-<br>
+<br/>
 -e=Gibt denn SSH Port 22 an
-SSH Key angeben (Pfad)("ssh -i /home/sshkey/keybackup")= ssh -i /<Pfad zum Key>
-Zu sicherendes Verzeichnis angeben (/home/Client/)= /<Verzeichnis>
+SSH Key angeben (Pfad)("ssh -i /home/sshkey/keybackup")= ssh -i /[Pfad zum Key]
+Zu sicherendes Verzeichnis angeben (/home/Client/)= /[Verzeichnis]
 RemoteHost(root@123.123.123.123:)= Login Name des Benutzers auf dem RemoteHost sowie Adresse angeben: name@IP/Domain
-Ziel Verzeichnis für die Daten auf dem RemoteHost(:/home/Backup/Home-Server1/)= :/<Pfad-zum-Ziel-Verzeichnis>
+Ziel Verzeichnis für die Daten auf dem RemoteHost(:/home/Backup/Home-Server1/)= :/[Pfad-zum-Ziel-Verzeichnis]
 
 Wenn jetzt eine Datei etc. im Client Ordner gelöscht wird, so verbleibt sie weiterhin im Backup Ordner auf dem Remote Host. 
 Da die Date aber immer 1:1 syncron sein sollen, kann der rsync Befehl leicht abgeändert werden, diese Änderung sorgt dann dafür das Daten etc. die im Client Ordner nicht mehr vorhanden sind auch im Backup Ordner auf dem Remote Host entfernt werden. 
@@ -121,22 +121,22 @@ Der leicht veränderte Befehl lautet:
 rsync --progress -arz --delete -e  "ssh -i /home/sshkey/keybackup" /home/Client/ root@123.123.123.123:/home/Backup/Home-Server1/
 ```
 -a=Archivierung, die Attribute werden z.b übernommen
-<br>
+<br/>
 -r=Rekursiv, Unterordner werden mit syncronisert
-<br>
+<br/>
 -z=Komprimierung, je nach Datenmengen/Datengrößen wird komprimiert 
-<br>
+<br/>
 --delete= Löscht Daten die in der Quelle nicht mehr vorhanden sind aber im Ziel noch bestehen
-<br>
+<br/>
 -e=Gibt denn SSH Port 22 an
-<br>
-SSH Key angeben (Pfad)("ssh -i /home/sshkey/keybackup")= ssh -i /<Pfad zum Key>
-<br>
-Zu sicherendes Verzeichnis angeben (/home/Client/)= /<Verzeichnis>
-<br>
+<br/>
+SSH Key angeben (Pfad)("ssh -i /home/sshkey/keybackup")= ssh -i /[Pfad zum Key]
+<br/>
+Zu sicherendes Verzeichnis angeben (/home/Client/)= /[Verzeichnis]
+<br/>
 RemoteHost(root@123.123.123.123:)= Login Name des Benutzers auf dem RemoteHost sowie Adresse angeben: name@IP/Domain
-<br>
-Ziel Verzeichnis für die Daten auf dem RemoteHost(:/home/Backup/Home-Server1/)= :/<Pfad-zum-Ziel-Verzeichnis>
+<br/>
+Ziel Verzeichnis für die Daten auf dem RemoteHost(:/home/Backup/Home-Server1/)= :/[Pfad-zum-Ziel-Verzeichnis]
 
 ## Schritt 5
 

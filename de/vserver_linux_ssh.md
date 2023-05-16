@@ -1,6 +1,6 @@
 ---
 id: vserver_linux_ssh
-title: vServer: Erstzugriff auf Linux Server mit SSH
+title: vServer Erstzugriff auf Linux Server mit SSH
 description: Informationen, wie der Erstzugriff mit SSH auf deinen Linux vServer von ZAP-Hosting funktioniert - ZAP-Hosting.com Dokumentationen
 sidebar_label: Erstzugriff (SSH)
 ---
@@ -63,10 +63,10 @@ Für eine optimale Nutzung des SSH-Clients ist es unerlässlich, die Grundbefehl
 
 | Befehl  |                Beschreibung                |            Syntax            |
 | :-----: | :----------------------------------------: | :--------------------------: |
-| useradd |          Neuen Benutzer erstellen          | useradd <options> <username> |
-| usermod |      Vorhandenen Benutzer bearbeiten       | usermod <options> <username> |
-| userdel |        Vorhandenen Benutzer löschen        | userdel <options> <username> |
-| passwd  | Passwort eines bestehenden Benutzer ändern |      passwd <username>       |
+| useradd |          Neuen Benutzer erstellen          | useradd [options] [username] |
+| usermod |      Vorhandenen Benutzer bearbeiten       | usermod [options] [username] |
+| userdel |        Vorhandenen Benutzer löschen        | userdel [options] [username] |
+| passwd  | Passwort eines bestehenden Benutzer ändern |      passwd [username]       |
 
 
 
@@ -78,8 +78,8 @@ Für eine optimale Nutzung des SSH-Clients ist es unerlässlich, die Grundbefehl
 |   df    |            Spreicherverbrauch anzeigen (Patition)            | df -h                                        |
 |   du    |          Spreicherverbrauch anzeigen (Verzeichnis)           | du -sh *                                     |
 |  free   | Speicherauslastung des Systems. Geteilt in RAM und SWAP-Space. | free                                         |
-|  kill   |  Beendet den Prozess mit der uebergebenen Prozess-ID (PID)   | kill <ID>                                    |
-| killall |       Beendet alle Prozesse mit dem uebergebenen Namen       | killall <name>                               |
+|  kill   |  Beendet den Prozess mit der uebergebenen Prozess-ID (PID)   | kill [ID]                                    |
+| killall |       Beendet alle Prozesse mit dem uebergebenen Namen       | killall [name]                               |
 |   mv    |         Verschiebt Dateien in ein anderes Verzeichnis        | mv sourcepath newPath                        |
 |  mkdir  |               Erstellt einen neuen Ordner                    | mkdir directoryname                          |
 | service |    Dienst starten, stoppen, neustarten und Status prüfen     | service DienstName start/stop/restart/status |

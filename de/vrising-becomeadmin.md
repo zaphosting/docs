@@ -1,6 +1,6 @@
 ---
 id: vrising-becomeadmin
-title: V Rising: Admin werden
+title: V Rising Admin werden
 description: Informationen, wie du Admin auf deinem V Rising Server bei ZAP-Hosting wirst - ZAP-Hosting.com Dokumentationen
 sidebar_label: Admin werden
 ---

@@ -1,6 +1,6 @@
 ---
 id: valheim_savegame
-title: Valheim: Savegames auf Server verwalten
+title: Valheim Savegames auf Server verwalten
 description: Informationen, wie du Savegames und Welten auf deinem Valheim-Server von ZAP-Hosting verwalten und bestehende Welten zu deinem Server hinzufügen kannst - ZAP-Hosting.com Dokumentationen
 sidebar_label: Savegames Verwalten
 ---

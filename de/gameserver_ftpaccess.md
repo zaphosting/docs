@@ -1,6 +1,6 @@
 ---
 id: gameserver_ftpaccess
-title: Gameserver: Dateien mit FTP hochladen und herunterladen
+title: Gameserver Dateien mit FTP hochladen und herunterladen
 description: Informationen, wie du mit FTP Dateien auf deinen Gameserver von ZAP-Hosting hoch- und runterladen kannst - ZAP-Hosting.com Dokumentationen
 sidebar_label: FTP Dateizugriff
 ---

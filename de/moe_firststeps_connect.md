@@ -1,6 +1,6 @@
 ---
 id: moe_firststeps_connect
-title: Myth of Empires: Zum Server verbinden
+title: Myth of Empires Zum Server verbinden
 description: Informationenen zum Verbindungsaufbau eines Myth of Empires von ZAP-Hosting - ZAP-Hosting.com Dokumentationen
 sidebar_label: Zum Server verbinden
 ---

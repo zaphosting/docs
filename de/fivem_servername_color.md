@@ -1,6 +1,6 @@
 ---
 id: fivem_servername_color
-title: FiveM: Servernamen farbig anzeigen lassen
+title: FiveM Servernamen farbig anzeigen lassen
 description: Informationen, wie du die Farben des Servernamens, der in der Serverliste für FiveM-Server angezeigt wird, einstellen kannst - ZAP-Hosting.com Dokumentationen
 sidebar_label: Servernamen färben
 ---

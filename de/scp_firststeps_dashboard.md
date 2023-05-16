@@ -1,6 +1,6 @@
 ---
 id: gameserver_firststeps_dashboard
-title: Game XY: Dashboard Übersicht
+title: Game XY Dashboard Übersicht
 description: Informationen zum Dashboard eines XY-Server von ZAP-Hosting - ZAP-Hosting.com Dokumentationen
 sidebar_label: Dashboard
 ---
@@ -137,7 +137,7 @@ Zu deinem Produkt bieten wir ebenfalls weitere Anleitungen an. Das beinhaltet be
 | Titel der Anleitung (Placeholder) | [Anleitung aufrufen](https://zap-hosting.com/guides/docs/de/) |
 | Titel der Anleitung (Placeholder) | [Anleitung aufrufen](https://zap-hosting.com/guides/docs/de/) |
 | Titel der Anleitung (Placeholder) | [Anleitung aufrufen](https://zap-hosting.com/guides/docs/de/) |
-<p style="text-align: center;">Liste zuletzt aktualisiert am XX.XX.XXXX</p>
+<p style={{textAlign: 'center'}}>Liste zuletzt aktualisiert am XX.XX.XXXX</p>
 
 
 

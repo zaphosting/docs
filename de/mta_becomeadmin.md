@@ -1,6 +1,6 @@
 ---
 id: mta_becomeadmin
-title: MTA: Admin auf MTA-Server werden
+title: MTA Admin auf MTA-Server werden
 description: Informationen, wie du dich zum Admin auf deinem MTA-Server von ZAP-Hosting machen kannst - ZAP-Hosting.com Dokumentationen
 sidebar_label: Admin werden
 

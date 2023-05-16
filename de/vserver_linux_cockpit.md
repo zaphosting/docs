@@ -1,6 +1,6 @@
 ---
 id: vserver_linux_cockpit
-title: vServer/Dedicated Server: Installation von Cockpit
+title: vServer/Dedicated Server Installation von Cockpit
 description: Guide um Cockpit auf Linux zu installieren - ZAP-Hosting.com Dokumentationen
 sidebar_label: Cockpit
 ---

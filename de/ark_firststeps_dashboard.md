@@ -1,6 +1,6 @@
 ---
 id: ark_firststeps_dashboard
-title: ARK: Dashboard Übersicht
+title: ARK Dashboard Übersicht
 description: Informationen zum Dashboard eines ARK Server von ZAP-Hosting - ZAP-Hosting.com Dokumentationen
 sidebar_label: Dashboard
 ---
@@ -128,7 +128,7 @@ Zu deinem Produkt bieten wir ebenfalls weitere Anleitungen an. Das beinhaltet be
 | Mods installieren      | [Anleitung aufrufen](https://zap-hosting.com/guides/docs/de/ark_mods) |
 | Serverlisting Probleme | [Anleitung aufrufen](https://zap-hosting.com/guides/docs/de/ark_serverlisting) |
 | Server Konfiguration   | [Anleitung aufrufen](https://zap-hosting.com/guides/docs/de/ark_configuration) |
-<p style="text-align: center;">Liste zuletzt aktualisiert am 03.05.2023</p>
+<p style={{textAlign: 'center'}}>Liste zuletzt aktualisiert am 03.05.2023</p>
 
 
 

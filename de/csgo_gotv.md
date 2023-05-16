@@ -1,6 +1,6 @@
 ---
 id: csgo_gotv
-title: CS GO Server: Informationen zu GOTV
+title: CS GO Server Informationen zu GOTV
 description: Informationen zu GOTV auf Counter-Strike Go-Servern von ZAP-Hosting - ZAP-Hosting.com Dokumentationen
 sidebar_label: GOTV
 ---
