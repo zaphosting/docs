@@ -38,4 +38,5 @@ jobs:
         with: 
               name: build
               path: docusaurus/build/
+              retention-days: 14
         
