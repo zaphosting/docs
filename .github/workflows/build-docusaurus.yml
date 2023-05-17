@@ -34,8 +34,6 @@ jobs:
           cd docusaurus
           npm run build
           tar cf build.tar -C build --transform 's~^\./~~' .
-          npm run write-translations -- --locale de
-          cp -R i18n ../repo/
       - name: Upload Artifacts
         uses: actions/upload-artifact@v3
         with: 
@@ -44,6 +42,10 @@ jobs:
               retention-days: 14
       - name: Update i18n files
         run: |
+          cd docusaurus
+          npm run write-translations -- --locale de
+          cp -R i18n ../repo/
+          cd ../repo/
           git commit -am "update i18n"
           git push
         
