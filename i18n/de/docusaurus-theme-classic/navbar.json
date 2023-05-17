@@ -14,5 +14,17 @@
   "item.label.Gameserver Guides": {
     "message": "Gameserver Guides",
     "description": "Navbar item with label Gameserver Guides"
+  },
+  "item.label.General": {
+    "message": "General",
+    "description": "Navbar item with label General"
+  },
+  "item.label.Gameserver": {
+    "message": "Gameserver",
+    "description": "Navbar item with label Gameserver"
+  },
+  "item.label.VPS & ROOT": {
+    "message": "VPS & ROOT",
+    "description": "Navbar item with label VPS & ROOT"
   }
 }

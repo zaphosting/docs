@@ -506,5 +506,221 @@
   "sidebar.gameserverSidebar.category.Core Keeper": {
     "message": "Core Keeper",
     "description": "The label for category Core Keeper in sidebar gameserverSidebar"
+  },
+  "sidebar.vpsrootSidebar.category.Gameserver - General": {
+    "message": "Gameserver - General",
+    "description": "The label for category Gameserver - General in sidebar vpsrootSidebar"
+  },
+  "sidebar.vpsrootSidebar.category.Databases": {
+    "message": "Databases",
+    "description": "The label for category Databases in sidebar vpsrootSidebar"
+  },
+  "sidebar.vpsrootSidebar.category.Minecraft": {
+    "message": "Minecraft",
+    "description": "The label for category Minecraft in sidebar vpsrootSidebar"
+  },
+  "sidebar.vpsrootSidebar.category.First Steps": {
+    "message": "First Steps",
+    "description": "The label for category First Steps in sidebar vpsrootSidebar"
+  },
+  "sidebar.vpsrootSidebar.category.Administration": {
+    "message": "Administration",
+    "description": "The label for category Administration in sidebar vpsrootSidebar"
+  },
+  "sidebar.vpsrootSidebar.category.Spigot & Bukkit": {
+    "message": "Spigot & Bukkit",
+    "description": "The label for category Spigot & Bukkit in sidebar vpsrootSidebar"
+  },
+  "sidebar.vpsrootSidebar.category.Bungeecord": {
+    "message": "Bungeecord",
+    "description": "The label for category Bungeecord in sidebar vpsrootSidebar"
+  },
+  "sidebar.vpsrootSidebar.category.Forge": {
+    "message": "Forge",
+    "description": "The label for category Forge in sidebar vpsrootSidebar"
+  },
+  "sidebar.vpsrootSidebar.category.FiveM": {
+    "message": "FiveM",
+    "description": "The label for category FiveM in sidebar vpsrootSidebar"
+  },
+  "sidebar.vpsrootSidebar.category.Configuration & Administration": {
+    "message": "Configuration & Administration",
+    "description": "The label for category Configuration & Administration in sidebar vpsrootSidebar"
+  },
+  "sidebar.vpsrootSidebar.category.Resources & Mods": {
+    "message": "Resources & Mods",
+    "description": "The label for category Resources & Mods in sidebar vpsrootSidebar"
+  },
+  "sidebar.vpsrootSidebar.category.ESX": {
+    "message": "ESX",
+    "description": "The label for category ESX in sidebar vpsrootSidebar"
+  },
+  "sidebar.vpsrootSidebar.category.Dunko VRP": {
+    "message": "Dunko VRP",
+    "description": "The label for category Dunko VRP in sidebar vpsrootSidebar"
+  },
+  "sidebar.vpsrootSidebar.category.txAdmin": {
+    "message": "txAdmin",
+    "description": "The label for category txAdmin in sidebar vpsrootSidebar"
+  },
+  "sidebar.vpsrootSidebar.category.QBCore": {
+    "message": "QBCore",
+    "description": "The label for category QBCore in sidebar vpsrootSidebar"
+  },
+  "sidebar.vpsrootSidebar.category.RedM": {
+    "message": "RedM",
+    "description": "The label for category RedM in sidebar vpsrootSidebar"
+  },
+  "sidebar.vpsrootSidebar.category.RageMP": {
+    "message": "RageMP",
+    "description": "The label for category RageMP in sidebar vpsrootSidebar"
+  },
+  "sidebar.vpsrootSidebar.category.Alt:V": {
+    "message": "Alt:V",
+    "description": "The label for category Alt:V in sidebar vpsrootSidebar"
+  },
+  "sidebar.vpsrootSidebar.category.Satisfactory": {
+    "message": "Satisfactory",
+    "description": "The label for category Satisfactory in sidebar vpsrootSidebar"
+  },
+  "sidebar.vpsrootSidebar.category.Terraria": {
+    "message": "Terraria",
+    "description": "The label for category Terraria in sidebar vpsrootSidebar"
+  },
+  "sidebar.vpsrootSidebar.category.Source Games": {
+    "message": "Source Games",
+    "description": "The label for category Source Games in sidebar vpsrootSidebar"
+  },
+  "sidebar.vpsrootSidebar.category.Sourcemod / Metamod": {
+    "message": "Sourcemod / Metamod",
+    "description": "The label for category Sourcemod / Metamod in sidebar vpsrootSidebar"
+  },
+  "sidebar.vpsrootSidebar.category.CS:GO": {
+    "message": "CS:GO",
+    "description": "The label for category CS:GO in sidebar vpsrootSidebar"
+  },
+  "sidebar.vpsrootSidebar.category.Counter Strike 1.6": {
+    "message": "Counter Strike 1.6",
+    "description": "The label for category Counter Strike 1.6 in sidebar vpsrootSidebar"
+  },
+  "sidebar.vpsrootSidebar.category.Garry's Mod": {
+    "message": "Garry's Mod",
+    "description": "The label for category Garry's Mod in sidebar vpsrootSidebar"
+  },
+  "sidebar.vpsrootSidebar.category.ArmA 3": {
+    "message": "ArmA 3",
+    "description": "The label for category ArmA 3 in sidebar vpsrootSidebar"
+  },
+  "sidebar.vpsrootSidebar.category.ARK": {
+    "message": "ARK",
+    "description": "The label for category ARK in sidebar vpsrootSidebar"
+  },
+  "sidebar.vpsrootSidebar.category.Assetto Corsa": {
+    "message": "Assetto Corsa",
+    "description": "The label for category Assetto Corsa in sidebar vpsrootSidebar"
+  },
+  "sidebar.vpsrootSidebar.category.Assetto Corsa Competizione": {
+    "message": "Assetto Corsa Competizione",
+    "description": "The label for category Assetto Corsa Competizione in sidebar vpsrootSidebar"
+  },
+  "sidebar.vpsrootSidebar.category.Barotrauma": {
+    "message": "Barotrauma",
+    "description": "The label for category Barotrauma in sidebar vpsrootSidebar"
+  },
+  "sidebar.vpsrootSidebar.category.BeamMP": {
+    "message": "BeamMP",
+    "description": "The label for category BeamMP in sidebar vpsrootSidebar"
+  },
+  "sidebar.vpsrootSidebar.category.Conan Exiles": {
+    "message": "Conan Exiles",
+    "description": "The label for category Conan Exiles in sidebar vpsrootSidebar"
+  },
+  "sidebar.vpsrootSidebar.category.Valheim": {
+    "message": "Valheim",
+    "description": "The label for category Valheim in sidebar vpsrootSidebar"
+  },
+  "sidebar.vpsrootSidebar.category.SCP: Secret Laboratory": {
+    "message": "SCP: Secret Laboratory",
+    "description": "The label for category SCP: Secret Laboratory in sidebar vpsrootSidebar"
+  },
+  "sidebar.vpsrootSidebar.category.ServerMod": {
+    "message": "ServerMod",
+    "description": "The label for category ServerMod in sidebar vpsrootSidebar"
+  },
+  "sidebar.vpsrootSidebar.category.Exiled": {
+    "message": "Exiled",
+    "description": "The label for category Exiled in sidebar vpsrootSidebar"
+  },
+  "sidebar.vpsrootSidebar.category.ECO": {
+    "message": "ECO",
+    "description": "The label for category ECO in sidebar vpsrootSidebar"
+  },
+  "sidebar.vpsrootSidebar.category.Factorio": {
+    "message": "Factorio",
+    "description": "The label for category Factorio in sidebar vpsrootSidebar"
+  },
+  "sidebar.vpsrootSidebar.category.Multi Theft Auto": {
+    "message": "Multi Theft Auto",
+    "description": "The label for category Multi Theft Auto in sidebar vpsrootSidebar"
+  },
+  "sidebar.vpsrootSidebar.category.Space Engineers": {
+    "message": "Space Engineers",
+    "description": "The label for category Space Engineers in sidebar vpsrootSidebar"
+  },
+  "sidebar.vpsrootSidebar.category.Unturned": {
+    "message": "Unturned",
+    "description": "The label for category Unturned in sidebar vpsrootSidebar"
+  },
+  "sidebar.vpsrootSidebar.category.RocketMod": {
+    "message": "RocketMod",
+    "description": "The label for category RocketMod in sidebar vpsrootSidebar"
+  },
+  "sidebar.vpsrootSidebar.category.Don't Starve Together": {
+    "message": "Don't Starve Together",
+    "description": "The label for category Don't Starve Together in sidebar vpsrootSidebar"
+  },
+  "sidebar.vpsrootSidebar.category.Empyrion": {
+    "message": "Empyrion",
+    "description": "The label for category Empyrion in sidebar vpsrootSidebar"
+  },
+  "sidebar.vpsrootSidebar.category.Rust": {
+    "message": "Rust",
+    "description": "The label for category Rust in sidebar vpsrootSidebar"
+  },
+  "sidebar.vpsrootSidebar.category.Among Us": {
+    "message": "Among Us",
+    "description": "The label for category Among Us in sidebar vpsrootSidebar"
+  },
+  "sidebar.vpsrootSidebar.category.7 Days to Die": {
+    "message": "7 Days to Die",
+    "description": "The label for category 7 Days to Die in sidebar vpsrootSidebar"
+  },
+  "sidebar.vpsrootSidebar.category.Avorion": {
+    "message": "Avorion",
+    "description": "The label for category Avorion in sidebar vpsrootSidebar"
+  },
+  "sidebar.vpsrootSidebar.category.Last Oasis": {
+    "message": "Last Oasis",
+    "description": "The label for category Last Oasis in sidebar vpsrootSidebar"
+  },
+  "sidebar.vpsrootSidebar.category.Discord Bot": {
+    "message": "Discord Bot",
+    "description": "The label for category Discord Bot in sidebar vpsrootSidebar"
+  },
+  "sidebar.vpsrootSidebar.category.Truck Sim": {
+    "message": "Truck Sim",
+    "description": "The label for category Truck Sim in sidebar vpsrootSidebar"
+  },
+  "sidebar.vpsrootSidebar.category.V Rising": {
+    "message": "V Rising",
+    "description": "The label for category V Rising in sidebar vpsrootSidebar"
+  },
+  "sidebar.vpsrootSidebar.category.Stormworks": {
+    "message": "Stormworks",
+    "description": "The label for category Stormworks in sidebar vpsrootSidebar"
+  },
+  "sidebar.vpsrootSidebar.category.Core Keeper": {
+    "message": "Core Keeper",
+    "description": "The label for category Core Keeper in sidebar vpsrootSidebar"
   }
 }
