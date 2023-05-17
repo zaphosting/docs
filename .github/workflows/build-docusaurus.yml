@@ -33,10 +33,11 @@ jobs:
         run: |
           cd docusaurus
           npm run build
+          zip -R build.zip build/.
       - name: Upload Artifacts
         uses: actions/upload-artifact@v3
         with: 
               name: build
-              path: docusaurus/build/
+              path: docusaurus/build.zip
               retention-days: 14
         
