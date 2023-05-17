@@ -619,24 +619,51 @@ const sidebars = {
   domainwebspaceSidebar: [
     {
       type: 'category',
-      label: 'First Steps',
+      label: 'Domain',
       items: [
-        'corekeeper-connecttoserver',
-		'corekeeper-connecttoserver',
-		'corekeeper-connecttoserver',		
+		'domain_general_domain_info',
+        'domain_order',
+        'domain_easydns',
+        'domain_profidns',
+        'domain_expertdns',
+        'domain_records',
+        'domain_gameserver_srv_link',
+        'domain_teamspeak_redirect',		
       ],
-    },  
+    }, 
+	{
+      type: 'category',
+      label: 'Webspace',
+      items: [
+		'webspace_adddomain',
+		'webspace_plesk_ftp',
+		'webspace_plesk_sendmail',
+		'webspace_plesk_ssl',
+		'webspace_htaccess_discord',
+		'webspace_mybb',
+		'webspace_wordpress',		
+      ],
+    }, 	
   ],
   
-    //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+  //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
   voiceserverbotSidebar: [
     {
       type: 'category',
-      label: 'First Steps',
+      label: 'Voicebot',
       items: [
-        'corekeeper-connecttoserver',
-		'corekeeper-connecttoserver',
-		'corekeeper-connecttoserver',		
+		'voiceserver_voicebot_connection',
+	
+      ],
+    }, 
+	{
+      type: 'category',
+      label: 'Voiceserver',
+      items: [
+		'voiceserver_becomeadmin',
+        'voiceserver_configuration',
+        'voiceserver_ts3backup',
+        'voiceserver_query',
       ],
     },  
   ],
