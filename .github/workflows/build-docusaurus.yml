@@ -55,6 +55,6 @@ jobs:
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add --all .
-          git commit -am "update i18n"
+          git diff --exit-code || git commit -am "update i18n"
           git push
         
