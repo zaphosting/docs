@@ -582,9 +582,22 @@ const sidebars = {
       type: 'category',
       label: 'First Steps',
       items: [
-        'Placeholder',
-		'Placeholder',
-		'Placeholder',		
+        'corekeeper-connecttoserver',
+		'corekeeper-connecttoserver',
+		'corekeeper-connecttoserver',		
+      ],
+    },  
+  ],
+  
+  //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+  dedicatedserverSidebar: [
+    {
+      type: 'category',
+      label: 'First Steps',
+      items: [
+        'corekeeper-connecttoserver',
+		'corekeeper-connecttoserver',
+		'corekeeper-connecttoserver',		
       ],
     },  
   ],
