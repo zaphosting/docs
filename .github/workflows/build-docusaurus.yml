@@ -5,6 +5,10 @@ on:
   push:
     branches: ["master", "main"]
 
+permissions:
+  checks: write
+  contents: write
+
 jobs:
   build-docusaurus:
     runs-on: self-hosted
@@ -17,6 +21,8 @@ jobs:
         uses: actions/checkout@v3
         with:
           path: 'repo'
+          fetch-depth: 0
+          ref: ${{ github.event.pull_request.head.ref }}
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
@@ -46,7 +52,9 @@ jobs:
           npm run write-translations -- --locale de
           cp -R i18n ../repo/
           cd ../repo/
-          git add .
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add --all .
           git commit -am "update i18n"
           git push
         
