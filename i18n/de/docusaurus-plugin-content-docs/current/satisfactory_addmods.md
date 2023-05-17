@@ -68,6 +68,7 @@ Die Schritte unterscheiden sich zwischen Steam und Epic Games etwas:
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
+
 <Tabs>
 
 <TabItem value="Steam" label="Steam">

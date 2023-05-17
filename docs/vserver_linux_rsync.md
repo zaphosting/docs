@@ -27,6 +27,7 @@ After it has been installed, it can be used directly.
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
+
 <Tabs>
 <TabItem value="Daily backup to a local directory/drive" label="Daily backup to a local directory/drive">
 ## Step 2

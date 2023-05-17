@@ -21,6 +21,7 @@ Diese kann nach einem Klick auf das Windows Logo gesucht werden
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
+
 <Tabs>
 
 <TabItem value=" Programme in der Windows-Firewall freigeben" label=" Programme in der Windows-Firewall freigeben">

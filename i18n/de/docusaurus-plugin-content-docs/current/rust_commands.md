@@ -28,6 +28,7 @@ Verwende die Registerkarten unten, um zwischen den einzelnen Kategorien zu wechs
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
+
 <Tabs>
 
 <TabItem value="Server-Einstellungen" label="Server-Einstellungen">

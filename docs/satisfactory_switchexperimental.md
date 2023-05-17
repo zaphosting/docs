@@ -60,6 +60,7 @@ If you wish to change back to regular build, follow the same steps but pick the 
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
+
 <Tabs>
 
 <TabItem value="Steam" label="Steam" default>

@@ -17,6 +17,7 @@ Die Verbindung zum Server kann zum Beispiel via Putty erfolgen.
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
+
 <Tabs>
 <TabItem value="One-Click Installation" label="One-Click Installation">
 

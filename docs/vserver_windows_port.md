@@ -25,6 +25,7 @@ In the outbound rule, the ports are forwarded for applications that want to comm
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
+
 <Tabs>
 
 <TabItem value="Allowing programs in the Windows firewall" label="Allowing programs in the Windows firewall">

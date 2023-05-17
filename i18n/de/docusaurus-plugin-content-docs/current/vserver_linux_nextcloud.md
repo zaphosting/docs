@@ -50,6 +50,7 @@ Sobald die Verbindung hergestellt wurde, ist es möglich, mit der Installation d
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
+
 <Tabs>
 <TabItem value="Debian" label="Debian">
 <br/>

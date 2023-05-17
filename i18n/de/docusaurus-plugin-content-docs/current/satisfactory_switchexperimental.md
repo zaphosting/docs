@@ -60,6 +60,7 @@ Wenn du wieder zum regulären Build wechseln möchtest, befolge dieselben Schrit
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
+
 <Tabs>
 
 <TabItem value="Steam Version" label="Steam Version">

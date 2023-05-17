@@ -51,6 +51,7 @@ Once the connection is established, you can start to install the necessary packa
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
+
 <Tabs>
 
 <TabItem value="Debian" label="Debian" default>
