@@ -1,0 +1,18 @@
+{
+  "title": {
+    "message": "ZAP-Hosting Docs",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "ZAP-Hosting",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.All Guides": {
+    "message": "All Guides",
+    "description": "Navbar item with label All Guides"
+  },
+  "item.label.Gameserver Guides": {
+    "message": "Gameserver Guides",
+    "description": "Navbar item with label Gameserver Guides"
+  }
+}
