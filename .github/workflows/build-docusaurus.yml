@@ -25,6 +25,7 @@ jobs:
         run: |
           npx create-docusaurus@latest docusaurus classic -s 
           cp -Rf repo/. docusaurus/
+          cd docusaurus
           npm i docusaurus-lunr-search --save
           npm install
           npm run swizzle docusaurus-lunr-search SearchBar -- --eject --danger
