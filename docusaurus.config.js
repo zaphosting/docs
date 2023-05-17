@@ -70,13 +70,19 @@ const config = {
           type: 'docSidebar',
           sidebarId: 'guidesSidebar',
           position: 'left',
-          label: 'All Guides',
+          label: 'General',
         },
         {
           type: 'docSidebar',
           sidebarId: 'gameserverSidebar',
           position: 'left',
-          label: 'Gameserver Guides',
+          label: 'Gameserver',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'vpsrootSidebar',
+          position: 'left',
+          label: 'VPS & ROOT',
         },
         {
           type: 'localeDropdown',
