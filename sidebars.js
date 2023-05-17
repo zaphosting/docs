@@ -601,6 +601,46 @@ const sidebars = {
       ],
     },  
   ],
+  
+  //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+  dedicatedserverSidebar: [
+    {
+      type: 'category',
+      label: 'First Steps',
+      items: [
+        'corekeeper-connecttoserver',
+		'corekeeper-connecttoserver',
+		'corekeeper-connecttoserver',		
+      ],
+    },  
+  ],
+  
+  //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+  domainwebspaceSidebar: [
+    {
+      type: 'category',
+      label: 'First Steps',
+      items: [
+        'corekeeper-connecttoserver',
+		'corekeeper-connecttoserver',
+		'corekeeper-connecttoserver',		
+      ],
+    },  
+  ],
+  
+    //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+  voiceserverbotSidebar: [
+    {
+      type: 'category',
+      label: 'First Steps',
+      items: [
+        'corekeeper-connecttoserver',
+		'corekeeper-connecttoserver',
+		'corekeeper-connecttoserver',		
+      ],
+    },  
+  ],
+  
 };
 
 module.exports = sidebars;
