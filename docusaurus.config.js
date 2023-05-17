@@ -86,9 +86,21 @@ const config = {
         },
         {
           type: 'docSidebar',
-          sidebarId: 'vpsrootSidebar',
+          sidebarId: 'dedicatedserverSidebar',
           position: 'left',
           label: 'Dedicated Server',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'domainwebspaceSidebar',
+          position: 'left',
+          label: 'Domain & Webspace',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'voiceserverbotSidebar',
+          position: 'left',
+          label: 'Voicebot & Voiceserver',
         },
         {
           type: 'localeDropdown',
