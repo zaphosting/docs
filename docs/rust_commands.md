@@ -26,9 +26,11 @@ Use the section tabs below to switch between each category. The tables consist o
 
 > Any command which is mentioned on this page is for vanilla Rust.
 
-<!--DOCUSAURUS_CODE_TABS-->
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
-<!--Server Settings-->
+<Tabs>
+  <TabItem value="ServerSettings" label="Server Settings" default>
 
 | Command Syntax                  | Accepted Values | Description | 
 | ----------------------- | ---------- | --------- | 
@@ -50,7 +52,8 @@ Use the section tabs below to switch between each category. The tables consist o
 | global.quit      | -          | Saves the server and then stops it         | 
 | global.init      | -          | Load configuration files         | 
 
-<!--Player Admin-->
+</TabItem>
+<TabItem value="PlayerAdmin" label="Player Admin">
 
 | Command Syntax                  | Accepted Values | Description | 
 | ----------------------- | ---------- | --------- | 
@@ -67,7 +70,8 @@ Use the section tabs below to switch between each category. The tables consist o
 | global.removemoderator "steam64"      | Integer          | Removes moderator privilages from the user through the specified Steam 64 ID         | 
 | global.listid      | -          | Returns a list of users who have been banned via Steam 64 ID          | 
 
-<!--Player Controls-->
+</TabItem>
+<TabItem value="Player Controls" label="Player Controls">
 
 | Command Syntax                  | Accepted Values | Description | 
 | ----------------------- | ---------- | --------- | 
@@ -82,4 +86,5 @@ Use the section tabs below to switch between each category. The tables consist o
 | inventory.give "itemID" "amount"     | Integer (itemID), Integer (e.g. 5)          | Gives an item to your inventory         | 
 | inventory.giveto "playername" "itemID" "amount"      | String (e.g. "Jacob"), Integer (itemID), Integer (e.g. 5)          | Gives an item to the specified user's inventory         | 
 
-<!--END_DOCUSAURUS_CODE_TABS-->
+</TabItem>
+</Tabs>

@@ -19,9 +19,11 @@ Diese kann nach einem Klick auf das Windows Logo gesucht werden
 
 ***
 
-<!--DOCUSAURUS_CODE_TABS-->
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+<Tabs>
 
-<!-- Programme in der Windows-Firewall freigeben-->
+<TabItem value=" Programme in der Windows-Firewall freigeben" label=" Programme in der Windows-Firewall freigeben">
 
 
 ## Programme in der Windows-Firewall freigeben
@@ -58,7 +60,8 @@ Bei "**Name**" muss nur noch ein Name für diese neue "**Regel**" eingetragen we
 
 Sobald mit dem Button "**Fertig stellen**" bestätigt, wird die Regel aktiviert und der Port ist freigegeben.
 
-<!-- Port in der Windows-Firewall freigeben-->
+</TabItem>
+<TabItem value=" Port in der Windows-Firewall freigeben" label=" Port in der Windows-Firewall freigeben">
 
 
 ## Port in der Windows-Firewall freigeben
@@ -101,4 +104,5 @@ Bei "**Name**" muss nur noch ein Name für diese neue "**Regel**" eingetragen we
 
 Sobald mit dem Button "**Fertig stellen**" bestätigt, wird die Regel aktiviert und der Port ist freigegeben.
 
-<!--END_DOCUSAURUS_CODE_TABS-->
+</TabItem>
+</Tabs>

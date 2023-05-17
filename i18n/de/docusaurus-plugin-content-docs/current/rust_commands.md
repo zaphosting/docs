@@ -26,9 +26,11 @@ Verwende die Registerkarten unten, um zwischen den einzelnen Kategorien zu wechs
 
 > Jeder Befehl, der auf dieser Seite erwähnt wird, ist für Vanilla Rust.
 
-<!--DOCUSAURUS_CODE_TABS-->
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+<Tabs>
 
-<!--Server-Einstellungen-->
+<TabItem value="Server-Einstellungen" label="Server-Einstellungen">
 
 | Command Syntax                  | Accepted Values | Description | 
 | ----------------------- | ---------- | --------- | 
@@ -50,7 +52,8 @@ Verwende die Registerkarten unten, um zwischen den einzelnen Kategorien zu wechs
 | global.quit      | -          | Speichert den Server und hält ihn dann an         | 
 | global.init      | -          | Konfigurationsdateien laden         | 
 
-<!--Spieler-Verwaltung-->
+</TabItem>
+<TabItem value="Spieler-Verwaltung" label="Spieler-Verwaltung">
 
 | Command Syntax                  | Accepted Values | Description | 
 | ----------------------- | ---------- | --------- | 
@@ -67,7 +70,8 @@ Verwende die Registerkarten unten, um zwischen den einzelnen Kategorien zu wechs
 | global.removemoderator "steam64"      | Integer          | Entfernt die Moderatorenrechte des Benutzers über die angegebene Steam 64 ID         | 
 | global.listid      | -          | Gibt eine Liste von Benutzern zurück, die über Steam 64 ID gebannt wurden          | 
 
-<!--Spieler-Steuerungen-->
+</TabItem>
+<TabItem value="Spieler-Steuerungen" label="Spieler-Steuerungen">
 
 | Command Syntax                  | Accepted Values | Description | 
 | ----------------------- | ---------- | --------- | 
@@ -82,4 +86,5 @@ Verwende die Registerkarten unten, um zwischen den einzelnen Kategorien zu wechs
 | inventory.give "itemID" "amount"     | Integer (itemID), Integer (z. B. 5)          | Fügt einen Gegenstand in dein Inventar ein         | 
 | inventory.giveto "Spielername" "itemID" "amount"      | String (z. B. "Jacob"), Integer (itemID), Integer (z. B. 5)          | Gibt einen Gegenstand in das Inventar des angegebenen Spielers         | 
 
-<!--END_DOCUSAURUS_CODE_TABS-->
+</TabItem>
+</Tabs>

@@ -15,8 +15,11 @@ The connection to the server can be made via Putty, for example.
 
 ## Starting the installation 
 
-<!--DOCUSAURUS_CODE_TABS-->
-<!--One-Click Installation-->
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+<Tabs>
+
+<TabItem value="One-Click Installation" label="One-Click Installation" default>
 
 For Plesk to install fully automatically with the standard components and features used by most Plesk users, only one command is required:
 
@@ -41,7 +44,8 @@ The installation is complete when this is displayed
 
 ![](https://user-images.githubusercontent.com/61839701/166189499-4b9c47d5-fbac-4fbb-a00a-5eca544dc6db.png)
 
-<!--Web Installation-->
+</TabItem>
+<TabItem value="Web Installation" label="Web Installation">
 
 Only a few commands are needed to install Plesk via the Web. 
 
@@ -64,7 +68,8 @@ Start the installer:
 ./plesk-installer --web-interface
 ```
 
-<!--Konsolen Installation-->
+</TabItem>
+<TabItem value="Konsolen Installation" label="Konsolen Installation">
 
 Only a few commands are required to install Plesk via the console. 
 
@@ -109,7 +114,8 @@ The installation is complete as soon as the following appears:
 
 ![](https://user-images.githubusercontent.com/61839701/166189643-fea60039-0bb9-42ee-a7c9-4e534c543b17.png)
 
-<!--END_DOCUSAURUS_CODE_TABS-->
+</TabItem>
+</Tabs>
 
 ## Open the Web Installer
 

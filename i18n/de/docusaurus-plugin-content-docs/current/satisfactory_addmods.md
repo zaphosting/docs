@@ -66,19 +66,23 @@ Nachdem die Verbindung hergestellt wurde, öffne den folgenden Ordner-Pfad: `/gX
 Nun muss der lokale Ordner von Satisfactory bei dir auf dem PC geöffnet werden.
 Die Schritte unterscheiden sich zwischen Steam und Epic Games etwas:
 
-<!--DOCUSAURUS_CODE_TABS-->
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+<Tabs>
 
-<!--Steam-->
+<TabItem value="Steam" label="Steam">
 Sofern du Satisfactory via Steam installiert hast, dann kannst du den Ordner direkt über den Steam-Client öffnen lassen:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/ryEKHqEQFDBkkME/preview)
 
-<!--Epic Games-->
+</TabItem>
+<TabItem value="Epic Games" label="Epic Games">
 Bei Epic Games gibt es leider keinen Button, um den Installations-Ordner zu öffnen, der Ordner muss also manuell geöffnet werden.
 Öffne dazu den Windows Explorer und navigiere in den Ordner, wo Epic Games installiert wurde von dir.
 In der Regel ist dies der korrekte Pfad: `C:\Program Files\Epic Games\SatisfactoryEarlyAccess`
 
-<!--END_DOCUSAURUS_CODE_TABS-->
+</TabItem>
+</Tabs>
 
 Die Mods, welche durch den Mod-Manager im Client installiert worden sind, müssen nun via FTP hochgeladen werden.
 Um an die Mods selbst zu können, müssen die folgenden Ordner nach einander geöffnet werden: `FactoryGame -> Mods`

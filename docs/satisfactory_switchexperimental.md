@@ -58,9 +58,11 @@ If you wish to change back to regular build, follow the same steps but pick the 
 ## Switching game client to experimental
 > Note: Regardless of which build you choose, both your server and your game client must be on the same build version to be able to connect.
 
-<!--DOCUSAURUS_CODE_TABS-->
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+<Tabs>
 
-<!--Steam Version-->
+<TabItem value="Steam" label="Steam" default>
 Firstly open your Steam and go to your game library. Search for "Satisfactory", right-click and select the properties menu.
 
 ![Screenshot 2023-02-21 203108](https://user-images.githubusercontent.com/42719082/220451989-b90762b7-0b13-4374-82e6-af24d3da321a.png)
@@ -70,10 +72,11 @@ Within the new menu, head over to the `Betas` section and select the `experiment
 ![Screenshot 2023-02-21 203435](https://user-images.githubusercontent.com/42719082/220452436-e30decc9-1a9d-4d4d-9aa6-5ff9681da1ef.png)
 
 That's all, now you will have to wait for Steam to update the game to the selected game build after which you can start your game and enjoy your server!
-
-<!--Epic Games Version-->
+</TabItem>
+<TabItem value="Epic Games" label="Epic Games">
 For Epic Games, switching to experimental is even easier. All you have to do is head over to your library and find "Satisfactory Experimental" game. Both game builds on Epic Games launcher are their own in the library.
 
 That's all, now you will have to wait for Epic Games to download and install the game after which you can start your game and enjoy your server!
 
-<!--END_DOCUSAURUS_CODE_TABS-->
+</TabItem>
+</Tabs>

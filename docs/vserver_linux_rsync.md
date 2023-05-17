@@ -25,8 +25,10 @@ apt install rsync
 
 After it has been installed, it can be used directly. 
 
-<!--DOCUSAURUS_CODE_TABS-->
-<!--Daily backup to a local directory/drive-->
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+<Tabs>
+<TabItem value="Daily backup to a local directory/drive" label="Daily backup to a local directory/drive">
 ## Step 2
 
 In this example, the Client folder under /home should be synchronized to the Backups folder under /home. 
@@ -84,7 +86,8 @@ The entered crontab then looks as follows:
 
 Every day at 3 a.m. the command is executed and a backup is created. 
 
-<!--Daily backup to a remote system-->
+</TabItem>
+<TabItem value="Daily backup to a remote system" label="Daily backup to a remote system">
 
 ## Step 4
 
@@ -169,4 +172,5 @@ The entered crontab then looks as follows:
 
 Every day at 3 a.m. the command is executed and a backup is created. 
 
-<!--END_DOCUSAURUS_CODE_TABS-->
+</TabItem>
+</Tabs>

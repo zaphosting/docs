@@ -58,9 +58,11 @@ Wenn du wieder zum regulären Build wechseln möchtest, befolge dieselben Schrit
 ## Spielclient auf Experimentell umstellen
 > Hinweis: Unabhängig davon, welches Build du wählst, müssen sowohl dein Server als auch dein Spielclient die gleiche Build-Version haben, um eine Verbindung herstellen zu können.
 
-<!--DOCUSAURUS_CODE_TABS-->
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+<Tabs>
 
-<!--Steam Version-->
+<TabItem value="Steam Version" label="Steam Version">
 Öffne zunächst dein Steam und gehe zu deiner Spielebibliothek. Suche nach "Satisfactory", klicke mit der rechten Maustaste darauf und wähle das Menü "Eigenschaften" aus.
 
 ![Screenshot 2023-02-21 203108](https://user-images.githubusercontent.com/42719082/220451989-b90762b7-0b13-4374-82e6-af24d3da321a.png)
@@ -71,7 +73,9 @@ Im neuen Menü gehst du zum Abschnitt `Betas` und wählst `Experimentell` aus.
 
 Das war's. Jetzt musst du nur noch darauf warten, dass Steam das Spiel auf den ausgewählten Spiel-Version aktualisiert, dann kannst du dein Spiel starten und deinen Server genießen!
 
-<!--Epic Games Version-->
+</TabItem>
+<TabItem value="Epic Games Version" label="Epic Games Version">
 Bei Epic Games ist es sogar noch einfacher, zu Experimentell zu wechseln. Alles, was du tun musst, ist es in deine Bibliothek zu gehen und das Spiel "Satisfactory Experimental" zu finden. Beide Spiel Versionen auf dem Epic Games Launcher sind eigenständig in der Bibliothek. Das war's. Jetzt musst du nur noch darauf warten, dass Epic Games das Spiel herunterlädt und installiert. Danach kannst du dein Spiel starten und deinen Server genießen!
 
-<!--END_DOCUSAURUS_CODE_TABS-->
+</TabItem>
+</Tabs>

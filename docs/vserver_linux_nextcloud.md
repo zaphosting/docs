@@ -48,8 +48,13 @@ A connection has to be established via a SSH client in order to install the clou
 
 Once the connection is established, you can start to install the necessary packages that are required for the actual installation of Nextcloud. This includes the installation of a web server as well as PHP.
 
-<!--DOCUSAURUS_CODE_TABS-->
-<!--Debian-->
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+<Tabs>
+
+<TabItem value="Debian" label="Debian" default>
+
 <br/>
 
 **Apache (Web server)**
@@ -104,7 +109,8 @@ Check PHP version for functionality
 php -v
 ```
 
-<!--Ubuntu-->
+</TabItem>
+<TabItem value="Ubuntu" label="Ubuntu">
 
 <br/>
 
@@ -166,7 +172,8 @@ php -v
 ```
 
 
-<!--CentOS-->
+</TabItem>
+<TabItem value="CentOS" label="CentOS">
 <br/>
 
 **Apache (Web server)**
@@ -248,13 +255,16 @@ Check PHP version for functionality
 php -v
 ```
 
-<!--END_DOCUSAURUS_CODE_TABS-->
+</TabItem>
+</Tabs>
 
 The next step is to define a database type to store the relevant information. There are several options:
 
-<!--DOCUSAURUS_CODE_TABS-->
 
-<!--MariaDB-->
+<Tabs>
+
+<TabItem value="MariaDB" label="MariaDB" default>
+
 <br/>
 If you have decided to use this type of database, then you have to follow these steps:
 
@@ -293,7 +303,9 @@ FLUSH PRIVILEGES;
 
 Once you are done, you can press Ctrl-D to exit the database and continue with the next steps.
 
-<!--MySQL-->
+</TabItem>
+<TabItem value="MySQL" label="MySQL">
+
 <br/>
 If you have decided to use this type of database, then you have to follow these steps:
 
@@ -333,7 +345,8 @@ FLUSH PRIVILEGES;
 
 Once you are done, you can press Ctrl-D to exit the database and continue with the next steps.
 
-<!--PostgreSQL-->
+</TabItem>
+<TabItem value="PostgreSQL" label="PostgreSQL">
 <br/>
 If you have decided to use this type of database, then you have to follow these steps:
 
@@ -385,7 +398,9 @@ $AUTOCONFIG = array(
 );
 ```
 
-<!--SQLite-->
+</TabItem>
+<TabItem value="SQLite" label="SQLite">
+
 <br/>
 If you have decided to use this type of database, then you have to follow these steps:
 
@@ -408,7 +423,8 @@ $AUTOCONFIG = array(
   "dbtableprefix" => "",
 );
 ```
-<!--END_DOCUSAURUS_CODE_TABS-->
+</TabItem>
+</Tabs>
 
 ### Installation
 

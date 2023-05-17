@@ -48,8 +48,10 @@ Damit die Cloud auf einem Linux-Server installiert werden kann, muss eine Verbin
 
 Sobald die Verbindung hergestellt wurde, ist es möglich, mit der Installation der notwendigen Pakete zu beginnen, welche für die eigentliche Installation von Nextcloud erforderlich sind. Dazu gehört zum einen die Installation eines Webservers als auch PHP.
 
-<!--DOCUSAURUS_CODE_TABS-->
-<!--Debian-->
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+<Tabs>
+<TabItem value="Debian" label="Debian">
 <br/>
 
 **Apache (Web server)**
@@ -104,7 +106,8 @@ PHP-Version auf Funktionalität prüfen
 php -v
 ```
 
-<!--Ubuntu-->
+</TabItem>
+<TabItem value="Ubuntu" label="Ubuntu">
 
 <br/>
 
@@ -166,7 +169,8 @@ php -v
 ```
 
 
-<!--CentOS-->
+</TabItem>
+<TabItem value="CentOS" label="CentOS">
 <br/>
 
 **Apache (Web server)**
@@ -248,13 +252,14 @@ PHP-Version auf Funktionalität prüfen
 php -v
 ```
 
-<!--END_DOCUSAURUS_CODE_TABS-->
+</TabItem>
+</Tabs>
 
 Als Nächstes wird ein Datenbank Typ benötigt um die relevanten Informationen abspeichern zu können. Dabei gibt es mehrere Optionen:
 
-<!--DOCUSAURUS_CODE_TABS-->
+<Tabs>
 
-<!--MariaDB-->
+<TabItem value="MariaDB" label="MariaDB">
 <br/>
 Wenn du dich für diesen Datenbanktypen entschieden hast, dann musst du folgende Schritte befolgen:
 
@@ -293,7 +298,8 @@ FLUSH PRIVILEGES;
 
 Wenn du damit fertig bist, dann kannst du Strg-D drücken, um die Datenbank zu verlassen um mit den weiteren Schritten fortzufahren.
 
-<!--MySQL-->
+</TabItem>
+<TabItem value="MySQL" label="MySQL">
 <br/>
 Wenn du dich für diesen Datenbanktypen entschieden hast, dann musst du folgende Schritte befolgen:
 
@@ -333,7 +339,8 @@ FLUSH PRIVILEGES;
 
 Wenn du damit fertig bist, dann kannst du Strg-D drücken, um die Datenbank zu verlassen um mit den weiteren Schritten fortzufahren.
 
-<!--PostgreSQL-->
+</TabItem>
+<TabItem value="PostgreSQL" label="PostgreSQL">
 <br/>
 Wenn du dich für diesen Datenbanktypen entschieden hast, dann musst du folgende Schritte befolgen:
 
@@ -385,7 +392,8 @@ $AUTOCONFIG = array(
 );
 ```
 
-<!--SQLite-->
+</TabItem>
+<TabItem value="SQLite" label="SQLite">
 <br/>
 Wenn du dich für diesen Datenbanktypen entschieden hast, dann musst du folgende Schritte befolgen:
 
@@ -408,7 +416,8 @@ $AUTOCONFIG = array(
   "dbtableprefix" => "",
 );
 ```
-<!--END_DOCUSAURUS_CODE_TABS-->
+</TabItem>
+</Tabs>
 
 ### Installation
 

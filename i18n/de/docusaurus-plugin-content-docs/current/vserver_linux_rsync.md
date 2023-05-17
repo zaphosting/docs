@@ -25,8 +25,10 @@ apt install rsync
 
 Nachdem es installiert wurde, kann es direkt genutzt werden. 
 
-<!--DOCUSAURUS_CODE_TABS-->
-<!--Tägliches Backup in ein lokales Verzeichnis/Laufwerk-->
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+<Tabs>
+<TabItem value="Tägliches Backup in ein lokales Verzeichnis/Laufwerk" label="Tägliches Backup in ein lokales Verzeichnis/Laufwerk">
 ## Schritt 2
 
 In diesem Beispiel soll der Ordner "Client" unter /home in den Ordner "Backups" unter /home syncronsiert werden. 
@@ -84,7 +86,8 @@ Der eingetragene Crontab sieht dann wie folgt aus:
 
 Jeden Tag um 3 Uhr morgens wird der Befehl ausgeführt und es wird ein Backup erstellt. 
 
-<!--Tägliches Backup auf ein Remote System-->
+</TabItem>
+<TabItem value="Tägliches Backup auf ein Remote System" label="Tägliches Backup auf ein Remote System">
 ## Schritt 4
 
 In diesem Beispiel soll der Ordner "Client" unter /home in den Ordner "Backups" unter auf einem Remote System syncronsiert werden. Die Verbindung soll via SSH Key erfolgen, damit eine Sicherung ebenfalls automatisiert erfolgen kann.  
@@ -160,4 +163,5 @@ Der eingetragene Crontab sieht dann wie folgt aus:
 
 Jeden Tag um 3 Uhr morgens wird der Befehl ausgeführt und es wird ein Backup erstellt. 
 
-<!--END_DOCUSAURUS_CODE_TABS-->
+</TabItem>
+</Tabs>

@@ -23,9 +23,11 @@ In the outbound rule, the ports are forwarded for applications that want to comm
 
 ***
 
-<!--DOCUSAURUS_CODE_TABS-->
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+<Tabs>
 
-<!--Allowing programs in the Windows firewall-->
+<TabItem value="Allowing programs in the Windows firewall" label="Allowing programs in the Windows firewall">
 
 ## Allowing programs in the Windows firewall
 
@@ -62,7 +64,8 @@ At "**Name**" only a name for this new "**Rule**" must be entered, this is freel
 As soon as you confirm with the button "**Complete**", the rule is activated and the port is released.
 
 
-<!--Port forwarding with Windows Firewall-->
+</TabItem>
+<TabItem value="Port forwarding with Windows Firewall" label="Port forwarding with Windows Firewall">
 
 ## Port forwarding with Windows Firewall
 
@@ -100,4 +103,5 @@ With "**Name**" only a name for this new "**Rule**" must be entered, this can be
 
 As soon as "**Finish**" is confirmed with the button, the rule is activated and the port is forwarded.
 
-<!--END_DOCUSAURUS_CODE_TABS-->
+</TabItem>
+</Tabs>

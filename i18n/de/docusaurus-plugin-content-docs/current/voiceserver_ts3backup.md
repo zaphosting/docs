@@ -6,8 +6,10 @@ sidebar_label: Ts3 Backup
 ---
 
 
-<!--DOCUSAURUS_CODE_TABS-->
-<!--Webinterface-->
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+<Tabs>
+<TabItem value="Webinterface" label="Webinterface">
 <br/>
 Um im Webinterface ein Backup von deinem Ts3 Server zu machen, gehst du einfach links auf **Snapshots**.
 
@@ -19,7 +21,8 @@ Anschließend gehst du auf **Snapshot erstellen**. Unten siehst du dann alle dei
 ![image](https://user-images.githubusercontent.com/13604413/159177311-8b87f8d4-b8ed-41dd-9a77-ca84886da311.png)
 
 
-<!--v/Rootserver-->
+</TabItem>
+<TabItem value="v/Rootserver" label="v/Rootserver">
 <br/>
 Um ein Backup von deinem Ts3 Server zu machen, welcher auf deinem v/Rootserver installiert ist, musst du dir das Programm Yatqa downloaden. **https://yat.qa/herunterladen/**
 
@@ -33,4 +36,5 @@ Um nun das Backup zu erstellen, musst du auf **Miscellaneous** gehen und dann au
 
 Zum Einspielen eines Backups kannst du dann einfach auf **Restore snapshot** gehen.
 
-<!--END_DOCUSAURUS_CODE_TABS-->
+</TabItem>
+</Tabs>
