@@ -22,7 +22,7 @@ jobs:
         with:
           node-version: 19
       - name: Install Docusaurus
-        run: npx create-docusaurus@latest docusaurus classic && cp -Rf repo/. docusaurus/
+        run: npx create-docusaurus@latest docusaurus classic -s && cp -Rf repo/. docusaurus/
       - name: Install Plugins
         run: | 
           cd docusaurus
