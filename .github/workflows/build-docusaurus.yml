@@ -33,11 +33,11 @@ jobs:
         run: |
           cd docusaurus
           npm run build
-          zip -R build.zip build/.
+          tar cf archive.tar -C build --transform 's~^\./~~' .
       - name: Upload Artifacts
         uses: actions/upload-artifact@v3
         with: 
               name: build
-              path: docusaurus/build.zip
+              path: docusaurus/build.tar
               retention-days: 14
         
