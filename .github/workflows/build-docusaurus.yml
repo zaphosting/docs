@@ -22,10 +22,9 @@ jobs:
         with:
           node-version: 19
       - name: Install Docusaurus
-        run: npx create-docusaurus@latest docusaurus classic -s && cp -Rf repo/. docusaurus/
-      - name: Install Plugins
-        run: | 
-          cd docusaurus
+        run: |
+          npx create-docusaurus@latest docusaurus classic -s 
+          cp -Rf repo/. docusaurus/
           npm i docusaurus-lunr-search --save
           npm install
           npm run swizzle docusaurus-lunr-search SearchBar -- --eject --danger
@@ -33,7 +32,7 @@ jobs:
         run: |
           cd docusaurus
           npm run build
-          tar cf archive.tar -C build --transform 's~^\./~~' .
+          tar cf build.tar -C build --transform 's~^\./~~' .
       - name: Upload Artifacts
         uses: actions/upload-artifact@v3
         with: 
