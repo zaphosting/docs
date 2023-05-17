@@ -85,6 +85,12 @@ const config = {
           label: 'VPS & ROOT',
         },
         {
+          type: 'docSidebar',
+          sidebarId: 'vpsrootSidebar',
+          position: 'left',
+          label: 'Dedicated Server',
+        },
+        {
           type: 'localeDropdown',
           position: 'right',
         },
