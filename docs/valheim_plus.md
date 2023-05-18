@@ -1,6 +1,6 @@
 ---
 id: valheim_plus
-title: Valheim Valheim Plus Server
+title: Valheim Plus Server
 description: Information about Valheim-Servers from ZAP-Hosting, on which the Valheim Plus Mod is preinstalled - ZAP-Hosting.com documentation
 sidebar_label: Valheim Plus
 ---

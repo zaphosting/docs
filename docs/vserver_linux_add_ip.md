@@ -1,6 +1,6 @@
 ---
 id: vserver_linux_add_ip
-title: vServer Add IPv4 address to server
+title: Add IPv4 address to server
 description: Information on how to add an IPv4 address to your vServer from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Add IPv4 Address
 ---

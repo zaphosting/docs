@@ -1,6 +1,6 @@
 ---
 id: vserver_linux_plesk
-title: vServer Plesk auf Linux Servern installieren
+title: Plesk auf Linux Servern installieren
 description: Informationen, wie du Plesk auf deinen Linux vServer von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentationen
 sidebar_label: Plesk
 ---

@@ -1,6 +1,6 @@
 ---
 id: vserver_linux_java
-title: vServer Java auf Server installieren
+title: Java auf Server installieren
 description: Informationen, wie du Java auf deinen vServer von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentationen
 sidebar_label: Java installieren
 ---

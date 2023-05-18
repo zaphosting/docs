@@ -1,6 +1,6 @@
 ---
 id: vserver_windows_fs_22
-title: vServer Install FarmingSimulator 2022 on Windows
+title: Install FarmingSimulator 2022 on Windows
 description: Information on how to install and set up a FarmingSimulator Dedicated Server 2022 on your Windows vServer and Dedicated Server from ZAP-Hosting - ZAP-Hosting.com Documentations
 sidebar_label: Farming-Simulator 2022
 ---

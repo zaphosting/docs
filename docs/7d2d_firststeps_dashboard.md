@@ -1,6 +1,6 @@
 ---
 id: 7d2d_firststeps_dashboard
-title: "7 Days to Die Dashboard overview"
+title: Dashboard overview
 description: Information about the dashboard of a 7 Days to Die server from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Dashboard
 ---

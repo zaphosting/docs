@@ -1,6 +1,6 @@
 ---
 id: unturned_firstthirdperson
-title: Unturned 1st/3rd Person für Server einstellen
+title: 1st/3rd Person für Server einstellen
 description: Informationen, wie du auf deinem Unturned-Server von ZAP-Hosting die 1st- oder die 3rd-Person-Perspektive einstellst - ZAP-Hosting.com Dokumentationen
 sidebar_label: 1st/3rd Person
 ---
