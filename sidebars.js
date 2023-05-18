@@ -276,13 +276,6 @@ const sidebars = {
       type: "category",
       label: "Satisfactory",
       items: [
-        {
-          type: "category",
-          label: "First Steps",
-          items: [
-            "satisfactory_firststeps_dashboard"
-          ]
-        },
         "satisfactory_connect_experimental",
         "satisfactory_savegame",
         "satisfactory_switchexperimental",
@@ -449,7 +442,7 @@ const sidebars = {
           label: "First Steps",
           items: [
             "scp_firststeps_connect",
-            "scp_firststeps_dashbaord"
+            "scp_firststeps_dashboard"
           ]
         },		
         "scp_becomeadmin",
