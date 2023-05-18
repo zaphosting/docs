@@ -35,6 +35,7 @@ jobs:
         run: |
           cd docusaurus
           rm -rf build
+          rm build.tar
           npm run build
           tar cf build.tar -C build --transform 's~^\./~~' .
       - name: Upload Artifacts
