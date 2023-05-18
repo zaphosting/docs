@@ -15,10 +15,6 @@
     "message": "Gameserver",
     "description": "Navbar item with label Gameserver"
   },
-  "item.label.VPS & ROOT": {
-    "message": "VPS & ROOT",
-    "description": "Navbar item with label VPS & ROOT"
-  },
   "item.label.Dedicated Server": {
     "message": "Dedicated Server",
     "description": "Navbar item with label Dedicated Server"
