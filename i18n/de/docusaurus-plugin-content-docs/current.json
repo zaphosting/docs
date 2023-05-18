@@ -778,5 +778,9 @@
   "sidebar.vpsrootSidebar.category.Services": {
     "message": "Services",
     "description": "The label for category Services in sidebar vpsrootSidebar"
+  },
+  "sidebar.vpsrootSidebar.category.Gameserver services": {
+    "message": "Gameserver services",
+    "description": "The label for category Gameserver services in sidebar vpsrootSidebar"
   }
 }
