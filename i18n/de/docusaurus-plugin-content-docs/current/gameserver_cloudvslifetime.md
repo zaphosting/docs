@@ -1,6 +1,6 @@
 ---
 id: gameserver_cloudvslifetime
-title: Gameserver Unterschiede Cloud-Gameserver vs. Lifetime Server von ZAP-Hosting
+title: Unterschiede Cloud-Gameserver vs. Lifetime Server von ZAP-Hosting
 description: Informationen zu den Unterschieden zwischen Cloud-Gameserver und Lifetime Servern von ZAP-Hosting - ZAP-Hosting.com Dokumentationen
 sidebar_label: Cloud vs. Lifetime
 ---

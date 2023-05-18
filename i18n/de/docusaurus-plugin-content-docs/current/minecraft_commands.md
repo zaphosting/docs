@@ -1,6 +1,6 @@
 ---
 id: minecraft_commands
-title: Minecraft Allgemeine Server-Befehle
+title: Allgemeine Server-Befehle
 description: Informationen zu allgemeinen Befehlen, die du auf deinen Minecraft-Server von ZAP-Hosting benutzen kannst - ZAP-Hosting.com Dokumentationen
 sidebar_label: Allgemeine Befehle
 ---
