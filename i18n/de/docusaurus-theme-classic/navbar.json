@@ -8,7 +8,7 @@
     "description": "The alt text of navbar logo"
   },
   "item.label.General": {
-    "message": "General",
+    "message": "Allgemein",
     "description": "Navbar item with label General"
   },
   "item.label.Gameserver": {
