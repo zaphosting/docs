@@ -42,7 +42,7 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          //editUrl: 'https://github.com/zaphosting/docs/tree/master/',
+          editUrl: 'https://github.com/zaphosting/docs/tree/master/',
         },
         blog: false,
         theme: {
