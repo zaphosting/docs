@@ -679,7 +679,7 @@ const sidebars = {
           type: "category",
           label: "First Steps",
           items: [
-            "moe_firststeps_dashboard"
+            "moe_firststeps_dashboard",
             "moe_firststeps_connect"
           ]
         }
