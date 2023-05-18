@@ -16,5 +16,14 @@
     "title": "Windows installieren",
     "description": "Informationen, wie du das Windows Betriebssystem auf deinem Dedicated Server von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentation",
     "sidebar_label": "Windows installieren"
+  },
+  "sidebar": "dedicatedserverSidebar",
+  "previous": {
+    "title": "Server resetten",
+    "permalink": "/guides/de/docs/dedicated_reset"
+  },
+  "next": {
+    "title": "Debian installieren",
+    "permalink": "/guides/de/docs/dedicated_linux_debian"
   }
 }

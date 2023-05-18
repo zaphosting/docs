@@ -16,5 +16,14 @@
     "title": "VPS Generating and using SSH keys for Linux servers",
     "description": "Information on how to generate an SSH key for your Linux VPS from ZAP-Hosting and how to use the key - ZAP-Hosting.com documentation",
     "sidebar_label": "SSH Key"
+  },
+  "sidebar": "vpsrootSidebar",
+  "previous": {
+    "title": "SFTP Connection",
+    "permalink": "/guides/docs/vserver_linux_sftp"
+  },
+  "next": {
+    "title": "Two factor authentication",
+    "permalink": "/guides/docs/vserver_linux_ssh2fa"
   }
 }

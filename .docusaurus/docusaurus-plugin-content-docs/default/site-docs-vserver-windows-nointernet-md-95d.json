@@ -16,5 +16,14 @@
     "title": "VPS No internet access on Windows Server. What now?",
     "description": "Information on how to solve problems when your Windows VPS from ZAP-Hosting does not show Internet access - ZAP-Hosting.com documentation",
     "sidebar_label": "No Internet what now?"
+  },
+  "sidebar": "vpsrootSidebar",
+  "previous": {
+    "title": "Add additional IPs",
+    "permalink": "/guides/docs/vserver_windows_addip"
+  },
+  "next": {
+    "title": "Add/change language",
+    "permalink": "/guides/docs/vserver_windows_change_language"
   }
 }

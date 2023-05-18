@@ -16,5 +16,14 @@
     "title": "FTP Server installieren und einrichten",
     "description": "Informationen, wie du einen FTP Server auf deinen vServer von ZAP-Hosting installieren und einrichten kannst - ZAP-Hosting.com Dokumentationen",
     "sidebar_label": "FTP Einrichtung"
+  },
+  "sidebar": "vpsrootSidebar",
+  "previous": {
+    "title": "Java installieren",
+    "permalink": "/guides/de/docs/vserver_linux_java"
+  },
+  "next": {
+    "title": "MariaDB (MySQL) Installation",
+    "permalink": "/guides/de/docs/vserver_linux_mariadbinstall"
   }
 }

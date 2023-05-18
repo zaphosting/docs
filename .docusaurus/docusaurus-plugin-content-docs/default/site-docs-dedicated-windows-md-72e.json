@@ -16,5 +16,14 @@
     "title": "Windows Installation",
     "description": "Information on how to install the Windows operating system on your dedicated server from ZAP-Hosting - ZAP-Hosting.com Documentation",
     "sidebar_label": "Windows Installation"
+  },
+  "sidebar": "dedicatedserverSidebar",
+  "previous": {
+    "title": "Server reset",
+    "permalink": "/guides/docs/dedicated_reset"
+  },
+  "next": {
+    "title": "Install Debian",
+    "permalink": "/guides/docs/dedicated_linux_debian"
   }
 }

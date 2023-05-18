@@ -16,5 +16,14 @@
     "title": "Install V-Rising  on Windows",
     "description": "Information on how to install and set up a V-Rising Server on your Windows vServer and Dedicated Server from ZAP-Hosting - ZAP-Hosting.com Documentations",
     "sidebar_label": "V-Rising"
+  },
+  "sidebar": "vpsrootSidebar",
+  "previous": {
+    "title": "Valheim Dedicated Server Setup",
+    "permalink": "/guides/docs/vserver_windows_valheim"
+  },
+  "next": {
+    "title": "Satisfactory Dedicated Server Setup",
+    "permalink": "/guides/docs/vserver_windows_satisfactory"
   }
 }

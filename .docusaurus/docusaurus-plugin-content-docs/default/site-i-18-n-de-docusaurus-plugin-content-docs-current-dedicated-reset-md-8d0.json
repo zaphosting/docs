@@ -16,5 +16,14 @@
     "title": "Server resetten",
     "description": "Informationen, wie du deinen Dedicated Server von ZAP-Hosting zurücksetzen kannst - ZAP-Hosting.com Dokumentation",
     "sidebar_label": "Server resetten"
+  },
+  "sidebar": "dedicatedserverSidebar",
+  "previous": {
+    "title": "RAID konfigurieren",
+    "permalink": "/guides/de/docs/dedicated_raid"
+  },
+  "next": {
+    "title": "Windows installieren",
+    "permalink": "/guides/de/docs/dedicated_windows"
   }
 }

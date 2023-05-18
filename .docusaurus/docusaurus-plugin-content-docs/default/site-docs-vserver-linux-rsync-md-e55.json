@@ -16,5 +16,14 @@
     "title": "VPS Backing up Linux servers with Rsync",
     "description": "Information on how to make backups of your Linux VPS from ZAP-Hosting with Rsync - ZAP-Hosting.com documentation",
     "sidebar_label": "Rsync Linux"
+  },
+  "sidebar": "vpsrootSidebar",
+  "previous": {
+    "title": "SSL-Certificate (Let's Encrypt)",
+    "permalink": "/guides/docs/vserver_linux_ssl"
+  },
+  "next": {
+    "title": "Install webserver",
+    "permalink": "/guides/docs/vserver_linux_webserver"
   }
 }

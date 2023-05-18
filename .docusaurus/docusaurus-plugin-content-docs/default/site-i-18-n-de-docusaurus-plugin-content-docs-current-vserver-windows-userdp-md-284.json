@@ -16,5 +16,14 @@
     "title": "Erstzugriff auf Windows Server mit RDP",
     "description": "Informationen, wie der Erstzugriff auf deinen Windows vServer von ZAP-Hosting mit der Remote Desktopverbindung funktioniert - ZAP-Hosting.com Dokumentationen",
     "sidebar_label": "Erstzugriff (RDP)"
+  },
+  "sidebar": "vpsrootSidebar",
+  "previous": {
+    "title": "Cockpit",
+    "permalink": "/guides/de/docs/vserver_linux_cockpit"
+  },
+  "next": {
+    "title": "Port freigeben",
+    "permalink": "/guides/de/docs/vserver_windows_port"
   }
 }

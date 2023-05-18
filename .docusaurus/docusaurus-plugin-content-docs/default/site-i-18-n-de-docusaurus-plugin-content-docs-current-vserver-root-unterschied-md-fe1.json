@@ -16,5 +16,10 @@
     "title": "Unterschied Rootserver / V-Server",
     "description": "Informationen zu den Unterschieden zwischen Rootservern und vServern bei ZAP-Hosting - ZAP-Hosting.com Dokumnentationen",
     "sidebar_label": "Unterschied Rootserver / V-Server"
+  },
+  "sidebar": "vpsrootSidebar",
+  "next": {
+    "title": "Was ist VNC?",
+    "permalink": "/guides/de/docs/vserver_vnc"
   }
 }

@@ -746,5 +746,29 @@
   "sidebar.voiceserverbotSidebar.category.Voiceserver": {
     "message": "Voiceserver",
     "description": "The label for category Voiceserver in sidebar voiceserverbotSidebar"
+  },
+  "sidebar.vpsrootSidebar.category.Linux": {
+    "message": "Linux",
+    "description": "The label for category Linux in sidebar vpsrootSidebar"
+  },
+  "sidebar.vpsrootSidebar.category.Services (Linux)": {
+    "message": "Services (Linux)",
+    "description": "The label for category Services (Linux) in sidebar vpsrootSidebar"
+  },
+  "sidebar.vpsrootSidebar.category.Windows": {
+    "message": "Windows",
+    "description": "The label for category Windows in sidebar vpsrootSidebar"
+  },
+  "sidebar.vpsrootSidebar.category.Services (Windows)": {
+    "message": "Services (Windows)",
+    "description": "The label for category Services (Windows) in sidebar vpsrootSidebar"
+  },
+  "sidebar.vpsrootSidebar.category.Game server services (Windows)": {
+    "message": "Game server services (Windows)",
+    "description": "The label for category Game server services (Windows) in sidebar vpsrootSidebar"
+  },
+  "sidebar.dedicatedserverSidebar.category.Operating system": {
+    "message": "Operating system",
+    "description": "The label for category Operating system in sidebar dedicatedserverSidebar"
   }
 }

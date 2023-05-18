@@ -16,5 +16,14 @@
     "title": "Nginx und Apache Webserver installieren",
     "description": "Informationen wie du Nginx und Apache Webserver auf deinen Linx vServer von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentationen",
     "sidebar_label": "Webserver installieren"
+  },
+  "sidebar": "vpsrootSidebar",
+  "previous": {
+    "title": "Rsync Linux",
+    "permalink": "/guides/de/docs/vserver_linux_rsync"
+  },
+  "next": {
+    "title": "Java installieren",
+    "permalink": "/guides/de/docs/vserver_linux_java"
   }
 }

@@ -16,5 +16,10 @@
     "title": "Landwirtschafts-Simulator 2022 auf Windows installieren",
     "description": "Informationen wie du einen Landwirtschafts-Simulator Dedicated Server 2022 auf deinen Windows vServer und Dedicated Server von ZAP-Hosting installieren und einrichten kannst - ZAP-Hosting.com Dokumentationen",
     "sidebar_label": "Landwirtschafts-Simulator 2022"
+  },
+  "sidebar": "vpsrootSidebar",
+  "previous": {
+    "title": "Landwirtschafts-Simulator 2019",
+    "permalink": "/guides/de/docs/vserver_windows_fs_19"
   }
 }

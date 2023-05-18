@@ -16,5 +16,14 @@
     "title": "Kein Internetzugang auf Windows Server. Was nun?",
     "description": "Informationen zu Problemlösungen, wenn der Windows vServer von ZAP-Hosting keinen Internetzugang anzeigt - ZAP-Hosting.com Dokumentationen",
     "sidebar_label": "Kein Internet was nun?"
+  },
+  "sidebar": "vpsrootSidebar",
+  "previous": {
+    "title": "Zusätzliche IPs hinzufügen",
+    "permalink": "/guides/de/docs/vserver_windows_addip"
+  },
+  "next": {
+    "title": "Sprache hinzufügen/ändern",
+    "permalink": "/guides/de/docs/vserver_windows_change_language"
   }
 }

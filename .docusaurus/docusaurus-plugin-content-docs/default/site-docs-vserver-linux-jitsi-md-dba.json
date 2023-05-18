@@ -16,5 +16,14 @@
     "title": "VPS Install Jitsi Meet on Server",
     "description": "Information on how to install the video conferencing software Jitsi Meet on your VPS from ZAP-Hosting - ZAP-Hosting.com documentation",
     "sidebar_label": "Jitsi Meet"
+  },
+  "sidebar": "vpsrootSidebar",
+  "previous": {
+    "title": "phpMyAdmin",
+    "permalink": "/guides/docs/vserver_linux_phpmyadmin"
+  },
+  "next": {
+    "title": "Linux Remotedesktop (xRDP)",
+    "permalink": "/guides/docs/vserver_linux_xrdp"
   }
 }

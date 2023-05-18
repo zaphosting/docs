@@ -16,5 +16,14 @@
     "title": "Own ISO",
     "description": "Information on how to install your own ISO file on your dedicated server from ZAP-Hosting - ZAP-Hosting.com Documentation",
     "sidebar_label": "Own ISO"
+  },
+  "sidebar": "dedicatedserverSidebar",
+  "previous": {
+    "title": "iLO",
+    "permalink": "/guides/docs/dedicated_ilo"
+  },
+  "next": {
+    "title": "RAID Configuration",
+    "permalink": "/guides/docs/dedicated_raid"
   }
 }

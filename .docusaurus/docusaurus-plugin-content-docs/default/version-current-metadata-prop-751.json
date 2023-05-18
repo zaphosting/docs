@@ -1549,21 +1549,283 @@
         "items": [
           {
             "type": "link",
-            "label": "Zum Server verbinden",
-            "href": "/guides/de/docs/corekeeper-connecttoserver",
-            "docId": "corekeeper-connecttoserver"
+            "label": "Unterschied Rootserver / V-Server",
+            "href": "/guides/de/docs/vserver_root_unterschied",
+            "docId": "vserver_root_unterschied"
           },
           {
             "type": "link",
-            "label": "Zum Server verbinden",
-            "href": "/guides/de/docs/corekeeper-connecttoserver",
-            "docId": "corekeeper-connecttoserver"
+            "label": "Was ist VNC?",
+            "href": "/guides/de/docs/vserver_vnc",
+            "docId": "vserver_vnc"
           },
           {
             "type": "link",
-            "label": "Zum Server verbinden",
-            "href": "/guides/de/docs/corekeeper-connecttoserver",
-            "docId": "corekeeper-connecttoserver"
+            "label": "Netzwerkanalyse MTR/WinMTR",
+            "href": "/guides/de/docs/vserver_network_analysis_winmtr",
+            "docId": "vserver_network_analysis_winmtr"
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      },
+      {
+        "type": "category",
+        "label": "Linux",
+        "items": [
+          {
+            "type": "link",
+            "label": "Erstzugriff (SSH)",
+            "href": "/guides/de/docs/vserver_linux_ssh",
+            "docId": "vserver_linux_ssh"
+          },
+          {
+            "type": "link",
+            "label": "SFTP Verbindung",
+            "href": "/guides/de/docs/vserver_linux_sftp",
+            "docId": "vserver_linux_sftp"
+          },
+          {
+            "type": "link",
+            "label": "SSH Key",
+            "href": "/guides/de/docs/vserver_linux_sshkey",
+            "docId": "vserver_linux_sshkey"
+          },
+          {
+            "type": "link",
+            "label": "Zwei Faktor Authentifizierung",
+            "href": "/guides/de/docs/vserver_linux_ssh2fa",
+            "docId": "vserver_linux_ssh2fa"
+          },
+          {
+            "type": "link",
+            "label": "Passwort ändern",
+            "href": "/guides/de/docs/vserver_linux_password_change",
+            "docId": "vserver_linux_password_change"
+          },
+          {
+            "type": "link",
+            "label": "GS/TS3 Interface",
+            "href": "/guides/de/docs/vserver_linux_gs_interface",
+            "docId": "vserver_linux_gs_interface"
+          },
+          {
+            "type": "link",
+            "label": "FTP Dienst funktioniert nicht",
+            "href": "/guides/de/docs/vserver_linux_ftp",
+            "docId": "vserver_linux_ftp"
+          },
+          {
+            "type": "link",
+            "label": "IPv4 Adresse hinzufügen",
+            "href": "/guides/de/docs/vserver_linux_add_ip",
+            "docId": "vserver_linux_add_ip"
+          },
+          {
+            "type": "link",
+            "label": "SSL-Zertifikat (Let's Encrypt)",
+            "href": "/guides/de/docs/vserver_linux_ssl",
+            "docId": "vserver_linux_ssl"
+          },
+          {
+            "type": "link",
+            "label": "Rsync Linux",
+            "href": "/guides/de/docs/vserver_linux_rsync",
+            "docId": "vserver_linux_rsync"
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      },
+      {
+        "type": "category",
+        "label": "Services (Linux)",
+        "items": [
+          {
+            "type": "link",
+            "label": "Webserver installieren",
+            "href": "/guides/de/docs/vserver_linux_webserver",
+            "docId": "vserver_linux_webserver"
+          },
+          {
+            "type": "link",
+            "label": "Java installieren",
+            "href": "/guides/de/docs/vserver_linux_java",
+            "docId": "vserver_linux_java"
+          },
+          {
+            "type": "link",
+            "label": "FTP Einrichtung",
+            "href": "/guides/de/docs/vserver_linux_ftp_install",
+            "docId": "vserver_linux_ftp_install"
+          },
+          {
+            "type": "link",
+            "label": "MariaDB (MySQL) Installation",
+            "href": "/guides/de/docs/vserver_linux_mariadbinstall",
+            "docId": "vserver_linux_mariadbinstall"
+          },
+          {
+            "type": "link",
+            "label": "Nextcloud",
+            "href": "/guides/de/docs/vserver_linux_nextcloud",
+            "docId": "vserver_linux_nextcloud"
+          },
+          {
+            "type": "link",
+            "label": "Mastodon installieren",
+            "href": "/guides/de/docs/vserver_linux_mastodon",
+            "docId": "vserver_linux_mastodon"
+          },
+          {
+            "type": "link",
+            "label": "Docker",
+            "href": "/guides/de/docs/vserver_linux_docker",
+            "docId": "vserver_linux_docker"
+          },
+          {
+            "type": "link",
+            "label": "Plesk",
+            "href": "/guides/de/docs/vserver_linux_plesk",
+            "docId": "vserver_linux_plesk"
+          },
+          {
+            "type": "link",
+            "label": "OpenVPN",
+            "href": "/guides/de/docs/vserver_linux_openvpn",
+            "docId": "vserver_linux_openvpn"
+          },
+          {
+            "type": "link",
+            "label": "phpMyAdmin",
+            "href": "/guides/de/docs/vserver_linux_phpmyadmin",
+            "docId": "vserver_linux_phpmyadmin"
+          },
+          {
+            "type": "link",
+            "label": "Jitsi Meet",
+            "href": "/guides/de/docs/vserver_linux_jitsi",
+            "docId": "vserver_linux_jitsi"
+          },
+          {
+            "type": "link",
+            "label": "Linux Remotedesktop (xRDP)",
+            "href": "/guides/de/docs/vserver_linux_xrdp",
+            "docId": "vserver_linux_xrdp"
+          },
+          {
+            "type": "link",
+            "label": "Cockpit",
+            "href": "/guides/de/docs/vserver_linux_cockpit",
+            "docId": "vserver_linux_cockpit"
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      },
+      {
+        "type": "category",
+        "label": "Windows",
+        "items": [
+          {
+            "type": "link",
+            "label": "Erstzugriff (RDP)",
+            "href": "/guides/de/docs/vserver_windows_userdp",
+            "docId": "vserver_windows_userdp"
+          },
+          {
+            "type": "link",
+            "label": "Port freigeben",
+            "href": "/guides/de/docs/vserver_windows_port",
+            "docId": "vserver_windows_port"
+          },
+          {
+            "type": "link",
+            "label": "Zusätzliche IPs hinzufügen",
+            "href": "/guides/de/docs/vserver_windows_addip",
+            "docId": "vserver_windows_addip"
+          },
+          {
+            "type": "link",
+            "label": "Kein Internet was nun?",
+            "href": "/guides/de/docs/vserver_windows_nointernet",
+            "docId": "vserver_windows_nointernet"
+          },
+          {
+            "type": "link",
+            "label": "Sprache hinzufügen/ändern",
+            "href": "/guides/de/docs/vserver_windows_change_language",
+            "docId": "vserver_windows_change_language"
+          },
+          {
+            "type": "link",
+            "label": "Festplatte erweitern",
+            "href": "/guides/de/docs/vserver_windows_expand_disk",
+            "docId": "vserver_windows_expand_disk"
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      },
+      {
+        "type": "category",
+        "label": "Services (Windows)",
+        "items": [
+          {
+            "type": "link",
+            "label": "FTP Server installieren",
+            "href": "/guides/de/docs/vserver_windows_ftpserver",
+            "docId": "vserver_windows_ftpserver"
+          },
+          {
+            "type": "link",
+            "label": "MySQL Server Installieren",
+            "href": "/guides/de/docs/vserver_windows_installmysql",
+            "docId": "vserver_windows_installmysql"
+          },
+          {
+            "type": "link",
+            "label": "Plesk installieren",
+            "href": "/guides/de/docs/vserver_windows_plesk",
+            "docId": "vserver_windows_plesk"
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      },
+      {
+        "type": "category",
+        "label": "Game server services (Windows)",
+        "items": [
+          {
+            "type": "link",
+            "label": "Valheim Dedicated Server Setup",
+            "href": "/guides/de/docs/vserver_windows_valheim",
+            "docId": "vserver_windows_valheim"
+          },
+          {
+            "type": "link",
+            "label": "V-Rising",
+            "href": "/guides/de/docs/vserver_windows_vrising",
+            "docId": "vserver_windows_vrising"
+          },
+          {
+            "type": "link",
+            "label": "Satisfactory Dedicated Server Setup",
+            "href": "/guides/de/docs/vserver_windows_satisfactory",
+            "docId": "vserver_windows_satisfactory"
+          },
+          {
+            "type": "link",
+            "label": "Landwirtschafts-Simulator 2019",
+            "href": "/guides/de/docs/vserver_windows_fs_19",
+            "docId": "vserver_windows_fs_19"
+          },
+          {
+            "type": "link",
+            "label": "Landwirtschafts-Simulator 2022",
+            "href": "/guides/de/docs/vserver_windows_fs_22",
+            "docId": "vserver_windows_fs_22"
           }
         ],
         "collapsed": true,
@@ -1577,21 +1839,65 @@
         "items": [
           {
             "type": "link",
-            "label": "Zum Server verbinden",
-            "href": "/guides/de/docs/corekeeper-connecttoserver",
-            "docId": "corekeeper-connecttoserver"
+            "label": "iLO",
+            "href": "/guides/de/docs/dedicated_ilo",
+            "docId": "dedicated_ilo"
           },
           {
             "type": "link",
-            "label": "Zum Server verbinden",
-            "href": "/guides/de/docs/corekeeper-connecttoserver",
-            "docId": "corekeeper-connecttoserver"
+            "label": "Eigene ISO",
+            "href": "/guides/de/docs/dedicated_iso",
+            "docId": "dedicated_iso"
           },
           {
             "type": "link",
-            "label": "Zum Server verbinden",
-            "href": "/guides/de/docs/corekeeper-connecttoserver",
-            "docId": "corekeeper-connecttoserver"
+            "label": "RAID konfigurieren",
+            "href": "/guides/de/docs/dedicated_raid",
+            "docId": "dedicated_raid"
+          },
+          {
+            "type": "link",
+            "label": "Server resetten",
+            "href": "/guides/de/docs/dedicated_reset",
+            "docId": "dedicated_reset"
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      },
+      {
+        "type": "category",
+        "label": "Operating system",
+        "items": [
+          {
+            "type": "link",
+            "label": "Windows installieren",
+            "href": "/guides/de/docs/dedicated_windows",
+            "docId": "dedicated_windows"
+          },
+          {
+            "type": "link",
+            "label": "Debian installieren",
+            "href": "/guides/de/docs/dedicated_linux_debian",
+            "docId": "dedicated_linux_debian"
+          },
+          {
+            "type": "link",
+            "label": "Ubuntu installieren",
+            "href": "/guides/de/docs/dedicated_linux_ubuntu",
+            "docId": "dedicated_linux_ubuntu"
+          },
+          {
+            "type": "link",
+            "label": "FreeBSD installieren",
+            "href": "/guides/de/docs/dedicated_freebsd",
+            "docId": "dedicated_freebsd"
+          },
+          {
+            "type": "link",
+            "label": "CentOS installieren",
+            "href": "/guides/de/docs/dedicated_centos",
+            "docId": "dedicated_centos"
           }
         ],
         "collapsed": true,
@@ -2019,7 +2325,7 @@
       "id": "corekeeper-connecttoserver",
       "title": "Core Keeper zum Server verbinden - Gameserver von ZAP-Hosting",
       "description": "Anleitung, wie du dich zum Server für Core Keeper verbindest - ZAP-Hosting.com Dokumentationen",
-      "sidebar": "dedicatedserverSidebar"
+      "sidebar": "gameserverSidebar"
     },
     "create_screenshots": {
       "id": "create_screenshots",
@@ -2059,47 +2365,56 @@
     "dedicated_centos": {
       "id": "dedicated_centos",
       "title": "CentOS installieren",
-      "description": "Informationen zu der Installation des CentOS Betriebssystem auf deinem Dedicated Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation"
+      "description": "Informationen zu der Installation des CentOS Betriebssystem auf deinem Dedicated Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation",
+      "sidebar": "dedicatedserverSidebar"
     },
     "dedicated_freebsd": {
       "id": "dedicated_freebsd",
       "title": "FreeBSD installieren",
-      "description": "Informationen zu der Installation des FreeBSD Betriebssystem auf deinem Dedicated Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation"
+      "description": "Informationen zu der Installation des FreeBSD Betriebssystem auf deinem Dedicated Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation",
+      "sidebar": "dedicatedserverSidebar"
     },
     "dedicated_ilo": {
       "id": "dedicated_ilo",
       "title": "iLO",
-      "description": "Informationen, über die ILO Verwaltung für deinen Dedicated Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation"
+      "description": "Informationen, über die ILO Verwaltung für deinen Dedicated Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation",
+      "sidebar": "dedicatedserverSidebar"
     },
     "dedicated_iso": {
       "id": "dedicated_iso",
       "title": "Eigene ISO",
-      "description": "Informationen, wie du eine eigene ISO-Datei auf deinen Dedicated Server von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentation"
+      "description": "Informationen, wie du eine eigene ISO-Datei auf deinen Dedicated Server von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentation",
+      "sidebar": "dedicatedserverSidebar"
     },
     "dedicated_linux_debian": {
       "id": "dedicated_linux_debian",
       "title": "Debian installieren",
-      "description": "Informationen zu der Installation des Debian Betriebssystem auf deinem Dedicated Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation"
+      "description": "Informationen zu der Installation des Debian Betriebssystem auf deinem Dedicated Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation",
+      "sidebar": "dedicatedserverSidebar"
     },
     "dedicated_linux_ubuntu": {
       "id": "dedicated_linux_ubuntu",
       "title": "Ubuntu installieren",
-      "description": "Informationen zu der Installation des Ubuntu Betriebssystem auf deinem Dedicated Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation"
+      "description": "Informationen zu der Installation des Ubuntu Betriebssystem auf deinem Dedicated Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation",
+      "sidebar": "dedicatedserverSidebar"
     },
     "dedicated_raid": {
       "id": "dedicated_raid",
       "title": "RAID konfigurieren",
-      "description": "Informationen, über die RAID Konfigurationsmöglichkeiten für deinen Dedicated Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation"
+      "description": "Informationen, über die RAID Konfigurationsmöglichkeiten für deinen Dedicated Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation",
+      "sidebar": "dedicatedserverSidebar"
     },
     "dedicated_reset": {
       "id": "dedicated_reset",
       "title": "Server resetten",
-      "description": "Informationen, wie du deinen Dedicated Server von ZAP-Hosting zurücksetzen kannst - ZAP-Hosting.com Dokumentation"
+      "description": "Informationen, wie du deinen Dedicated Server von ZAP-Hosting zurücksetzen kannst - ZAP-Hosting.com Dokumentation",
+      "sidebar": "dedicatedserverSidebar"
     },
     "dedicated_windows": {
       "id": "dedicated_windows",
       "title": "Windows installieren",
-      "description": "Informationen, wie du das Windows Betriebssystem auf deinem Dedicated Server von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentation"
+      "description": "Informationen, wie du das Windows Betriebssystem auf deinem Dedicated Server von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentation",
+      "sidebar": "dedicatedserverSidebar"
     },
     "discordbot_setup": {
       "id": "discordbot_setup",
@@ -3028,12 +3343,14 @@
     "vserver_linux_add_ip": {
       "id": "vserver_linux_add_ip",
       "title": "IPv4 Adresse zum Server hinzufügen",
-      "description": "Informationen, wie du eine IPv4 Adresse zu deinem vServer von ZAP-Hosting hinzufügen kannst - ZAP-Hosting.com Dokumentationen"
+      "description": "Informationen, wie du eine IPv4 Adresse zu deinem vServer von ZAP-Hosting hinzufügen kannst - ZAP-Hosting.com Dokumentationen",
+      "sidebar": "vpsrootSidebar"
     },
     "vserver_linux_cockpit": {
       "id": "vserver_linux_cockpit",
       "title": "Installation von Cockpit",
-      "description": "Guide um Cockpit auf Linux zu installieren - ZAP-Hosting.com Dokumentationen"
+      "description": "Guide um Cockpit auf Linux zu installieren - ZAP-Hosting.com Dokumentationen",
+      "sidebar": "vpsrootSidebar"
     },
     "vserver_linux_dnsserver": {
       "id": "vserver_linux_dnsserver",
@@ -3043,127 +3360,152 @@
     "vserver_linux_docker": {
       "id": "vserver_linux_docker",
       "title": "Docker auf Server installieren",
-      "description": "Informationen, wie du Docker auf deinen vServer von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentationen"
+      "description": "Informationen, wie du Docker auf deinen vServer von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentationen",
+      "sidebar": "vpsrootSidebar"
     },
     "vserver_linux_ftp": {
       "id": "vserver_linux_ftp",
       "title": "FTP Dienst funktioniert nicht - Problemlösungen",
-      "description": "Informationen, wie du FTP-Probleme bei deinem vServer von ZAP-Hosting beheben kannst - ZAP-Hosting.com Dokumentationen"
+      "description": "Informationen, wie du FTP-Probleme bei deinem vServer von ZAP-Hosting beheben kannst - ZAP-Hosting.com Dokumentationen",
+      "sidebar": "vpsrootSidebar"
     },
     "vserver_linux_ftp_install": {
       "id": "vserver_linux_ftp_install",
       "title": "FTP Server installieren und einrichten",
-      "description": "Informationen, wie du einen FTP Server auf deinen vServer von ZAP-Hosting installieren und einrichten kannst - ZAP-Hosting.com Dokumentationen"
+      "description": "Informationen, wie du einen FTP Server auf deinen vServer von ZAP-Hosting installieren und einrichten kannst - ZAP-Hosting.com Dokumentationen",
+      "sidebar": "vpsrootSidebar"
     },
     "vserver_linux_gs_interface": {
       "id": "vserver_linux_gs_interface",
       "title": "Gameserver/TS3 Interface",
-      "description": "Informationen, wie du über das Gameserver/TS3 Interface mit wenigen Klicks TS und Gameserver auf deinen vServer von ZAP-Hosting.com installieren kannst - ZAP-Hosting.com Dokumentation"
+      "description": "Informationen, wie du über das Gameserver/TS3 Interface mit wenigen Klicks TS und Gameserver auf deinen vServer von ZAP-Hosting.com installieren kannst - ZAP-Hosting.com Dokumentation",
+      "sidebar": "vpsrootSidebar"
     },
     "vserver_linux_java": {
       "id": "vserver_linux_java",
       "title": "Java auf Server installieren",
-      "description": "Informationen, wie du Java auf deinen vServer von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentationen"
+      "description": "Informationen, wie du Java auf deinen vServer von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentationen",
+      "sidebar": "vpsrootSidebar"
     },
     "vserver_linux_jitsi": {
       "id": "vserver_linux_jitsi",
       "title": "Jitsi Meet auf Server installieren",
-      "description": "Informationen, wie du die Videokonferenzsoftware Jitsi Meet auf deinen vServer von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentationen"
+      "description": "Informationen, wie du die Videokonferenzsoftware Jitsi Meet auf deinen vServer von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentationen",
+      "sidebar": "vpsrootSidebar"
     },
     "vserver_linux_mariadbinstall": {
       "id": "vserver_linux_mariadbinstall",
       "title": "MariaDB (MySQL) auf Server installieren",
-      "description": "Im folgenden lernst du wie du einen MariaDB (MySQL) Server auf deinem Linux vServer oder Rootserver installieren kannst."
+      "description": "Im folgenden lernst du wie du einen MariaDB (MySQL) Server auf deinem Linux vServer oder Rootserver installieren kannst.",
+      "sidebar": "vpsrootSidebar"
     },
     "vserver_linux_mastodon": {
       "id": "vserver_linux_mastodon",
       "title": "Mastodon auf Server installieren",
-      "description": "Informationen, wie du einen Mastodon Server auf deinem vServer von ZAP-Hosting einrichten kannst - ZAP-Hosting.com Dokumentationen"
+      "description": "Informationen, wie du einen Mastodon Server auf deinem vServer von ZAP-Hosting einrichten kannst - ZAP-Hosting.com Dokumentationen",
+      "sidebar": "vpsrootSidebar"
     },
     "vserver_linux_nextcloud": {
       "id": "vserver_linux_nextcloud",
       "title": "Nextcloud auf Server installieren",
-      "description": "Informationen, wie du einen Nextcloud Server auf deinem vServer von ZAP-Hosting einrichten kannst - ZAP-Hosting.com Dokumentationen"
+      "description": "Informationen, wie du einen Nextcloud Server auf deinem vServer von ZAP-Hosting einrichten kannst - ZAP-Hosting.com Dokumentationen",
+      "sidebar": "vpsrootSidebar"
     },
     "vserver_linux_openvpn": {
       "id": "vserver_linux_openvpn",
       "title": "OpenVPN auf Server installieren",
-      "description": "Informationen, wie du OpenVPN auf deinen vServer von ZAP-Hosting installieren und einrichten kannst - ZAP-Hosting.com Dokumentationen"
+      "description": "Informationen, wie du OpenVPN auf deinen vServer von ZAP-Hosting installieren und einrichten kannst - ZAP-Hosting.com Dokumentationen",
+      "sidebar": "vpsrootSidebar"
     },
     "vserver_linux_password_change": {
       "id": "vserver_linux_password_change",
       "title": "Root Passwort für Linux-Server ändern",
-      "description": "Informationen, wie du das Root-Passwort für deinen Linux vServer von ZAP-Hosting ändern kannst - ZAP-Hosting.com Dokumentationen"
+      "description": "Informationen, wie du das Root-Passwort für deinen Linux vServer von ZAP-Hosting ändern kannst - ZAP-Hosting.com Dokumentationen",
+      "sidebar": "vpsrootSidebar"
     },
     "vserver_linux_phpmyadmin": {
       "id": "vserver_linux_phpmyadmin",
       "title": "phpMyAdmin auf Linux vServer einrichten",
-      "description": "Informationen wie du phpMyAdmin auf deinen Linux vServer von ZAP-Hosting installieren und einrichten kannst - ZAP-Hosting.com Dokumentationen"
+      "description": "Informationen wie du phpMyAdmin auf deinen Linux vServer von ZAP-Hosting installieren und einrichten kannst - ZAP-Hosting.com Dokumentationen",
+      "sidebar": "vpsrootSidebar"
     },
     "vserver_linux_plesk": {
       "id": "vserver_linux_plesk",
       "title": "Plesk auf Linux Servern installieren",
-      "description": "Informationen, wie du Plesk auf deinen Linux vServer von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentationen"
+      "description": "Informationen, wie du Plesk auf deinen Linux vServer von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentationen",
+      "sidebar": "vpsrootSidebar"
     },
     "vserver_linux_rsync": {
       "id": "vserver_linux_rsync",
       "title": "Backups von Linux Server mit Rsync anfertigen",
-      "description": "Informationen, wie du mit Rsync Backups von deinem Linux vServer von ZAP-Hosting anfertigen kannst - ZAP-Hosting.com Dokumentationen"
+      "description": "Informationen, wie du mit Rsync Backups von deinem Linux vServer von ZAP-Hosting anfertigen kannst - ZAP-Hosting.com Dokumentationen",
+      "sidebar": "vpsrootSidebar"
     },
     "vserver_linux_sftp": {
       "id": "vserver_linux_sftp",
       "title": "Via SFTP auf Linux Server verbinden",
-      "description": "Informationen, wie du dich mit SFTP auf deinen Linux vServer von ZAP-Hosting verbinden kannst - ZAP-Hosting.com Dokumentationen"
+      "description": "Informationen, wie du dich mit SFTP auf deinen Linux vServer von ZAP-Hosting verbinden kannst - ZAP-Hosting.com Dokumentationen",
+      "sidebar": "vpsrootSidebar"
     },
     "vserver_linux_ssh": {
       "id": "vserver_linux_ssh",
       "title": "Erstzugriff auf Linux Server mit SSH",
-      "description": "Informationen, wie der Erstzugriff mit SSH auf deinen Linux vServer von ZAP-Hosting funktioniert - ZAP-Hosting.com Dokumentationen"
+      "description": "Informationen, wie der Erstzugriff mit SSH auf deinen Linux vServer von ZAP-Hosting funktioniert - ZAP-Hosting.com Dokumentationen",
+      "sidebar": "vpsrootSidebar"
     },
     "vserver_linux_ssh2fa": {
       "id": "vserver_linux_ssh2fa",
       "title": "Zwei Faktor Authentifizierung für Linux Server einrichten",
-      "description": "Informationen, wie du Zwei Faktor Authentifizierung für deinen Linux vServer von ZAP-Hosting einrichten kannst - ZAP-Hosting.com Dokumentationen"
+      "description": "Informationen, wie du Zwei Faktor Authentifizierung für deinen Linux vServer von ZAP-Hosting einrichten kannst - ZAP-Hosting.com Dokumentationen",
+      "sidebar": "vpsrootSidebar"
     },
     "vserver_linux_sshkey": {
       "id": "vserver_linux_sshkey",
       "title": "SSH Key für Linux Server generieren und verwenden",
-      "description": "Informationen wie du einen SSH Key für deinen Linux vServer von ZAP-Hosting generieren kannst und wie du den Key verwendest - ZAP-Hosting.com Dokumentationen"
+      "description": "Informationen wie du einen SSH Key für deinen Linux vServer von ZAP-Hosting generieren kannst und wie du den Key verwendest - ZAP-Hosting.com Dokumentationen",
+      "sidebar": "vpsrootSidebar"
     },
     "vserver_linux_ssl": {
       "id": "vserver_linux_ssl",
       "title": "SSL-Zertifikat (Let's Encrypt) für Linux Server erstellen",
-      "description": "Informationen, wie du ein SSL-Zertifikat mit Let's Entcrypt für deinen vServer von ZAP-Hosting erstellen kannst - ZAP-Hosting.com Dokumentationen"
+      "description": "Informationen, wie du ein SSL-Zertifikat mit Let's Entcrypt für deinen vServer von ZAP-Hosting erstellen kannst - ZAP-Hosting.com Dokumentationen",
+      "sidebar": "vpsrootSidebar"
     },
     "vserver_linux_webserver": {
       "id": "vserver_linux_webserver",
       "title": "Nginx und Apache Webserver installieren",
-      "description": "Informationen wie du Nginx und Apache Webserver auf deinen Linx vServer von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentationen"
+      "description": "Informationen wie du Nginx und Apache Webserver auf deinen Linx vServer von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentationen",
+      "sidebar": "vpsrootSidebar"
     },
     "vserver_linux_xrdp": {
       "id": "vserver_linux_xrdp",
       "title": "Installation von xRDP (Remotedesktop)",
-      "description": "Guide um xRDP (Remotedesktop) auf Linux zu installieren - ZAP-Hosting.com Dokumentationen"
+      "description": "Guide um xRDP (Remotedesktop) auf Linux zu installieren - ZAP-Hosting.com Dokumentationen",
+      "sidebar": "vpsrootSidebar"
     },
     "vserver_network_analysis_winmtr": {
       "id": "vserver_network_analysis_winmtr",
       "title": "Netzwerkanalyse mit MTR/WinMTR",
-      "description": "Informationen, wie du eine Netzwerkanalyse mit MTR/WinMTR durchführen kannst, um Netzwerkprobleme zu identifizieren - ZAP-Hosting.com Dokumentationen"
+      "description": "Informationen, wie du eine Netzwerkanalyse mit MTR/WinMTR durchführen kannst, um Netzwerkprobleme zu identifizieren - ZAP-Hosting.com Dokumentationen",
+      "sidebar": "vpsrootSidebar"
     },
     "vserver_root_unterschied": {
       "id": "vserver_root_unterschied",
       "title": "Unterschied Rootserver / V-Server",
-      "description": "Informationen zu den Unterschieden zwischen Rootservern und vServern bei ZAP-Hosting - ZAP-Hosting.com Dokumnentationen"
+      "description": "Informationen zu den Unterschieden zwischen Rootservern und vServern bei ZAP-Hosting - ZAP-Hosting.com Dokumnentationen",
+      "sidebar": "vpsrootSidebar"
     },
     "vserver_vnc": {
       "id": "vserver_vnc",
       "title": "Was ist VNC?",
-      "description": "Informationen zur VNC Konsole für Vserver/Rootserver von ZAP-Hosting - ZAP-Hosting.com Dokumentationen"
+      "description": "Informationen zur VNC Konsole für Vserver/Rootserver von ZAP-Hosting - ZAP-Hosting.com Dokumentationen",
+      "sidebar": "vpsrootSidebar"
     },
     "vserver_windows_addip": {
       "id": "vserver_windows_addip",
       "title": "Zusätzliche IPs zu einem Windows Server hinzufügen",
-      "description": "Informationen, wie du zusätzliche IPs zu deinem Windows vServer von ZAP-Hosting hinzufügen kannst - ZAP-Hosting.com Dokumentationen"
+      "description": "Informationen, wie du zusätzliche IPs zu deinem Windows vServer von ZAP-Hosting hinzufügen kannst - ZAP-Hosting.com Dokumentationen",
+      "sidebar": "vpsrootSidebar"
     },
     "vserver_windows_ark": {
       "id": "vserver_windows_ark",
@@ -3173,67 +3515,80 @@
     "vserver_windows_change_language": {
       "id": "vserver_windows_change_language",
       "title": "Sprache bei Windows Server hinzufügen/ändern",
-      "description": "Informationen, wie du die Sprache deines Windows vServers von ZAP-Hosting ändern kannst und wie du Sprachen hinzufügen kannst - ZAP-Hosting.com Dokumentationen"
+      "description": "Informationen, wie du die Sprache deines Windows vServers von ZAP-Hosting ändern kannst und wie du Sprachen hinzufügen kannst - ZAP-Hosting.com Dokumentationen",
+      "sidebar": "vpsrootSidebar"
     },
     "vserver_windows_expand_disk": {
       "id": "vserver_windows_expand_disk",
       "title": "Festplatte auf Windows Server erweitern",
-      "description": "Informationen, wie du die Festplatte deines Windows vServers von ZAP-Hosting nach einem Upgrade erweitern kannst - ZAP-Hosting.com Dokumentationen"
+      "description": "Informationen, wie du die Festplatte deines Windows vServers von ZAP-Hosting nach einem Upgrade erweitern kannst - ZAP-Hosting.com Dokumentationen",
+      "sidebar": "vpsrootSidebar"
     },
     "vserver_windows_fs_19": {
       "id": "vserver_windows_fs_19",
       "title": "Landwirtschafts-Simulator 2019 auf Windows installieren",
-      "description": "Informationen wie du einen Landwirtschafts-Simulator Dedizierter Server 2019 auf deinen Windows vServer und Dedizierter Server von ZAP-Hosting installieren und einrichten kannst - ZAP-Hosting.com Dokumentationen"
+      "description": "Informationen wie du einen Landwirtschafts-Simulator Dedizierter Server 2019 auf deinen Windows vServer und Dedizierter Server von ZAP-Hosting installieren und einrichten kannst - ZAP-Hosting.com Dokumentationen",
+      "sidebar": "vpsrootSidebar"
     },
     "vserver_windows_fs_22": {
       "id": "vserver_windows_fs_22",
       "title": "Landwirtschafts-Simulator 2022 auf Windows installieren",
-      "description": "Informationen wie du einen Landwirtschafts-Simulator Dedicated Server 2022 auf deinen Windows vServer und Dedicated Server von ZAP-Hosting installieren und einrichten kannst - ZAP-Hosting.com Dokumentationen"
+      "description": "Informationen wie du einen Landwirtschafts-Simulator Dedicated Server 2022 auf deinen Windows vServer und Dedicated Server von ZAP-Hosting installieren und einrichten kannst - ZAP-Hosting.com Dokumentationen",
+      "sidebar": "vpsrootSidebar"
     },
     "vserver_windows_ftpserver": {
       "id": "vserver_windows_ftpserver",
       "title": "FTP Server auf Windows Server installieren",
-      "description": "Informationen, wie du einen FTP Server auf deinen Windows vServer von ZAP-Hosting installieren und einrichten kannst - ZAP-Hosting.com Dokumenationen"
+      "description": "Informationen, wie du einen FTP Server auf deinen Windows vServer von ZAP-Hosting installieren und einrichten kannst - ZAP-Hosting.com Dokumenationen",
+      "sidebar": "vpsrootSidebar"
     },
     "vserver_windows_installmysql": {
       "id": "vserver_windows_installmysql",
       "title": "MySQL Server auf Windows Server installieren",
-      "description": "Informationen, wie du einen MySQL Server auf deinen Windows Server von ZAP-Hosting installieren und einrichten kannst - ZAP-Hosting.com Dokumentationen"
+      "description": "Informationen, wie du einen MySQL Server auf deinen Windows Server von ZAP-Hosting installieren und einrichten kannst - ZAP-Hosting.com Dokumentationen",
+      "sidebar": "vpsrootSidebar"
     },
     "vserver_windows_nointernet": {
       "id": "vserver_windows_nointernet",
       "title": "Kein Internetzugang auf Windows Server. Was nun?",
-      "description": "Informationen zu Problemlösungen, wenn der Windows vServer von ZAP-Hosting keinen Internetzugang anzeigt - ZAP-Hosting.com Dokumentationen"
+      "description": "Informationen zu Problemlösungen, wenn der Windows vServer von ZAP-Hosting keinen Internetzugang anzeigt - ZAP-Hosting.com Dokumentationen",
+      "sidebar": "vpsrootSidebar"
     },
     "vserver_windows_plesk": {
       "id": "vserver_windows_plesk",
       "title": "Plesk auf Windows Server installieren",
-      "description": "Informationen, wie du Plesk auf deinen Windows vServer von ZAP-Hosting installieren kannst -ZAP-Hosting.com Dokumentationen"
+      "description": "Informationen, wie du Plesk auf deinen Windows vServer von ZAP-Hosting installieren kannst -ZAP-Hosting.com Dokumentationen",
+      "sidebar": "vpsrootSidebar"
     },
     "vserver_windows_port": {
       "id": "vserver_windows_port",
       "title": "Ports bei Windows Servern freigeben",
-      "description": "Informationen, wie du Ports bei deinem Windows vServer von ZAP-Hosting freigeben kannst - ZAP-Hosting.com Dokumentationen"
+      "description": "Informationen, wie du Ports bei deinem Windows vServer von ZAP-Hosting freigeben kannst - ZAP-Hosting.com Dokumentationen",
+      "sidebar": "vpsrootSidebar"
     },
     "vserver_windows_satisfactory": {
       "id": "vserver_windows_satisfactory",
       "title": "Satisfactory Dedicated Server Setup",
-      "description": "Informationen zum Einrichten eines Satisfactory Dedicated Server auf einem VPS/Rootserver - ZAP-Hosting.com Dokumentationen"
+      "description": "Informationen zum Einrichten eines Satisfactory Dedicated Server auf einem VPS/Rootserver - ZAP-Hosting.com Dokumentationen",
+      "sidebar": "vpsrootSidebar"
     },
     "vserver_windows_userdp": {
       "id": "vserver_windows_userdp",
       "title": "Erstzugriff auf Windows Server mit RDP",
-      "description": "Informationen, wie der Erstzugriff auf deinen Windows vServer von ZAP-Hosting mit der Remote Desktopverbindung funktioniert - ZAP-Hosting.com Dokumentationen"
+      "description": "Informationen, wie der Erstzugriff auf deinen Windows vServer von ZAP-Hosting mit der Remote Desktopverbindung funktioniert - ZAP-Hosting.com Dokumentationen",
+      "sidebar": "vpsrootSidebar"
     },
     "vserver_windows_valheim": {
       "id": "vserver_windows_valheim",
       "title": "Valheim Dedicated Server Setup",
-      "description": "Informationen zum Einrichten eines Valheim Dedicated Server auf einem VPS/Rootserver - ZAP-Hosting.com Dokumentationen"
+      "description": "Informationen zum Einrichten eines Valheim Dedicated Server auf einem VPS/Rootserver - ZAP-Hosting.com Dokumentationen",
+      "sidebar": "vpsrootSidebar"
     },
     "vserver_windows_vrising": {
       "id": "vserver_windows_vrising",
       "title": "V-Rising auf Windows installieren",
-      "description": "Informationen wie du einen V-Rising Server auf deinen Windows vServer und Dedicated Server von ZAP-Hosting installieren und einrichten kannst - ZAP-Hosting.com Dokumentationen"
+      "description": "Informationen wie du einen V-Rising Server auf deinen Windows vServer und Dedicated Server von ZAP-Hosting installieren und einrichten kannst - ZAP-Hosting.com Dokumentationen",
+      "sidebar": "vpsrootSidebar"
     },
     "webspace_adddomain": {
       "id": "webspace_adddomain",

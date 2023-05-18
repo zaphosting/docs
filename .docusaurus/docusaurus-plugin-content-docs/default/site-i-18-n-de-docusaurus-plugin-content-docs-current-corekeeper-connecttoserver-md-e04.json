@@ -17,9 +17,9 @@
     "description": "Anleitung, wie du dich zum Server für Core Keeper verbindest - ZAP-Hosting.com Dokumentationen",
     "sidebar_label": "Zum Server verbinden"
   },
-  "sidebar": "dedicatedserverSidebar",
-  "next": {
-    "title": "Zum Server verbinden",
-    "permalink": "/guides/de/docs/corekeeper-connecttoserver"
+  "sidebar": "gameserverSidebar",
+  "previous": {
+    "title": "Admin werden",
+    "permalink": "/guides/de/docs/stormworks-becomeadmin"
   }
 }

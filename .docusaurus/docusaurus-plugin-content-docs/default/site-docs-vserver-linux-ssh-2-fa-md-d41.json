@@ -16,5 +16,14 @@
     "title": "VPS Setting up two-factor authentication for Linux servers",
     "description": "Information on how to set up two-factor authentication for your Linux VPS from ZAP-Hosting - ZAP-Hosting.com documentation",
     "sidebar_label": "Two factor authentication"
+  },
+  "sidebar": "vpsrootSidebar",
+  "previous": {
+    "title": "SSH Key",
+    "permalink": "/guides/docs/vserver_linux_sshkey"
+  },
+  "next": {
+    "title": "Change Password",
+    "permalink": "/guides/docs/vserver_linux_password_change"
   }
 }

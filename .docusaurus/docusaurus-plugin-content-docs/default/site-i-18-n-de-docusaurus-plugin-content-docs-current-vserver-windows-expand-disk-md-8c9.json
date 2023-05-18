@@ -16,5 +16,14 @@
     "title": "Festplatte auf Windows Server erweitern",
     "description": "Informationen, wie du die Festplatte deines Windows vServers von ZAP-Hosting nach einem Upgrade erweitern kannst - ZAP-Hosting.com Dokumentationen",
     "sidebar_label": "Festplatte erweitern"
+  },
+  "sidebar": "vpsrootSidebar",
+  "previous": {
+    "title": "Sprache hinzufügen/ändern",
+    "permalink": "/guides/de/docs/vserver_windows_change_language"
+  },
+  "next": {
+    "title": "FTP Server installieren",
+    "permalink": "/guides/de/docs/vserver_windows_ftpserver"
   }
 }

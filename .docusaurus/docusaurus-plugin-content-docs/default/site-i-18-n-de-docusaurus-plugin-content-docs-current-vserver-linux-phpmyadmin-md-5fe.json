@@ -16,5 +16,14 @@
     "title": "phpMyAdmin auf Linux vServer einrichten",
     "description": "Informationen wie du phpMyAdmin auf deinen Linux vServer von ZAP-Hosting installieren und einrichten kannst - ZAP-Hosting.com Dokumentationen",
     "sidebar_label": "phpMyAdmin"
+  },
+  "sidebar": "vpsrootSidebar",
+  "previous": {
+    "title": "OpenVPN",
+    "permalink": "/guides/de/docs/vserver_linux_openvpn"
+  },
+  "next": {
+    "title": "Jitsi Meet",
+    "permalink": "/guides/de/docs/vserver_linux_jitsi"
   }
 }

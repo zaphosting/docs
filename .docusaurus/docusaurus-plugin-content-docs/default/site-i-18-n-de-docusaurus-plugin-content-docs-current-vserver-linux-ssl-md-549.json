@@ -16,5 +16,14 @@
     "title": "SSL-Zertifikat (Let's Encrypt) für Linux Server erstellen",
     "description": "Informationen, wie du ein SSL-Zertifikat mit Let's Entcrypt für deinen vServer von ZAP-Hosting erstellen kannst - ZAP-Hosting.com Dokumentationen",
     "sidebar_label": "SSL-Zertifikat (Let's Encrypt)"
+  },
+  "sidebar": "vpsrootSidebar",
+  "previous": {
+    "title": "IPv4 Adresse hinzufügen",
+    "permalink": "/guides/de/docs/vserver_linux_add_ip"
+  },
+  "next": {
+    "title": "Rsync Linux",
+    "permalink": "/guides/de/docs/vserver_linux_rsync"
   }
 }

@@ -16,5 +16,14 @@
     "title": "Erstzugriff auf Linux Server mit SSH",
     "description": "Informationen, wie der Erstzugriff mit SSH auf deinen Linux vServer von ZAP-Hosting funktioniert - ZAP-Hosting.com Dokumentationen",
     "sidebar_label": "Erstzugriff (SSH)"
+  },
+  "sidebar": "vpsrootSidebar",
+  "previous": {
+    "title": "Netzwerkanalyse MTR/WinMTR",
+    "permalink": "/guides/de/docs/vserver_network_analysis_winmtr"
+  },
+  "next": {
+    "title": "SFTP Verbindung",
+    "permalink": "/guides/de/docs/vserver_linux_sftp"
   }
 }

@@ -16,5 +16,14 @@
     "title": "IPv4 Adresse zum Server hinzufügen",
     "description": "Informationen, wie du eine IPv4 Adresse zu deinem vServer von ZAP-Hosting hinzufügen kannst - ZAP-Hosting.com Dokumentationen",
     "sidebar_label": "IPv4 Adresse hinzufügen"
+  },
+  "sidebar": "vpsrootSidebar",
+  "previous": {
+    "title": "FTP Dienst funktioniert nicht",
+    "permalink": "/guides/de/docs/vserver_linux_ftp"
+  },
+  "next": {
+    "title": "SSL-Zertifikat (Let's Encrypt)",
+    "permalink": "/guides/de/docs/vserver_linux_ssl"
   }
 }

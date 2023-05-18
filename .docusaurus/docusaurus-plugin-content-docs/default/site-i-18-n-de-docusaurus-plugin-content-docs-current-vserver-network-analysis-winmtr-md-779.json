@@ -16,5 +16,14 @@
     "title": "Netzwerkanalyse mit MTR/WinMTR",
     "description": "Informationen, wie du eine Netzwerkanalyse mit MTR/WinMTR durchführen kannst, um Netzwerkprobleme zu identifizieren - ZAP-Hosting.com Dokumentationen",
     "sidebar_label": "Netzwerkanalyse MTR/WinMTR"
+  },
+  "sidebar": "vpsrootSidebar",
+  "previous": {
+    "title": "Was ist VNC?",
+    "permalink": "/guides/de/docs/vserver_vnc"
+  },
+  "next": {
+    "title": "Erstzugriff (SSH)",
+    "permalink": "/guides/de/docs/vserver_linux_ssh"
   }
 }

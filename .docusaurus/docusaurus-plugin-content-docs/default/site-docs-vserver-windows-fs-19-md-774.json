@@ -16,5 +16,14 @@
     "title": "Install FarmingSimulator 2019 on Windows",
     "description": "Information on how to install and set up a FarmingSimulator Dedicated Server 2019 on your Windows vServer and Dedicated Server from ZAP-Hosting - ZAP-Hosting.com Documentations",
     "sidebar_label": "Farming-Simulator 2019"
+  },
+  "sidebar": "vpsrootSidebar",
+  "previous": {
+    "title": "Satisfactory Dedicated Server Setup",
+    "permalink": "/guides/docs/vserver_windows_satisfactory"
+  },
+  "next": {
+    "title": "Farming-Simulator 2022",
+    "permalink": "/guides/docs/vserver_windows_fs_22"
   }
 }

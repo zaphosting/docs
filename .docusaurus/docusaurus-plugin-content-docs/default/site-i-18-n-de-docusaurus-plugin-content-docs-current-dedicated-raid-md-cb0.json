@@ -16,5 +16,14 @@
     "title": "RAID konfigurieren",
     "description": "Informationen, über die RAID Konfigurationsmöglichkeiten für deinen Dedicated Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation",
     "sidebar_label": "RAID konfigurieren"
+  },
+  "sidebar": "dedicatedserverSidebar",
+  "previous": {
+    "title": "Eigene ISO",
+    "permalink": "/guides/de/docs/dedicated_iso"
+  },
+  "next": {
+    "title": "Server resetten",
+    "permalink": "/guides/de/docs/dedicated_reset"
   }
 }

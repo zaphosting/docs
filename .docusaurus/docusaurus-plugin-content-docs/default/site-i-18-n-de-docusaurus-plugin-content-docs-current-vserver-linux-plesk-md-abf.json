@@ -16,5 +16,14 @@
     "title": "Plesk auf Linux Servern installieren",
     "description": "Informationen, wie du Plesk auf deinen Linux vServer von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentationen",
     "sidebar_label": "Plesk"
+  },
+  "sidebar": "vpsrootSidebar",
+  "previous": {
+    "title": "Docker",
+    "permalink": "/guides/de/docs/vserver_linux_docker"
+  },
+  "next": {
+    "title": "OpenVPN",
+    "permalink": "/guides/de/docs/vserver_linux_openvpn"
   }
 }

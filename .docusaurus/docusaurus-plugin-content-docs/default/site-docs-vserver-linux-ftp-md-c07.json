@@ -16,5 +16,14 @@
     "title": "FTP service does not work - Troubleshooting",
     "description": "Information on how to fix FTP problems on your vServer from ZAP-Hosting - ZAP-Hosting.com documentation",
     "sidebar_label": "FTP Service isn't working"
+  },
+  "sidebar": "vpsrootSidebar",
+  "previous": {
+    "title": "GS/TS3 Interface",
+    "permalink": "/guides/docs/vserver_linux_gs_interface"
+  },
+  "next": {
+    "title": "Add IPv4 Address",
+    "permalink": "/guides/docs/vserver_linux_add_ip"
   }
 }

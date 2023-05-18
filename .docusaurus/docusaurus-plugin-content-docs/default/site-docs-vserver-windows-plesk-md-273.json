@@ -16,5 +16,14 @@
     "title": "VPS Installing Plesk on Windows Server",
     "description": "Information on how to install Plesk on your Windows VPS from ZAP-Hosting - ZAP-Hosting.com documentation",
     "sidebar_label": "Plesk Installation"
+  },
+  "sidebar": "vpsrootSidebar",
+  "previous": {
+    "title": "MySQL Server Installation",
+    "permalink": "/guides/docs/vserver_windows_installmysql"
+  },
+  "next": {
+    "title": "Valheim Dedicated Server Setup",
+    "permalink": "/guides/docs/vserver_windows_valheim"
   }
 }

@@ -24,7 +24,7 @@ export default {
   },
   "plugins": [
     [
-      "/home/bots/actions-runner-zap/_work/docs/docs/docusaurus/node_modules/docusaurus-lunr-search/src/index.js",
+      "/home/github-runners/runner2/_work/docs/docs/docusaurus/node_modules/docusaurus-lunr-search/src/index.js",
       {
         "languages": [
           "en",
@@ -38,12 +38,12 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "/home/bots/actions-runner-zap/_work/docs/docs/docusaurus/sidebars.js",
+          "sidebarPath": "/home/github-runners/runner2/_work/docs/docs/docusaurus/sidebars.js",
           "editUrl": "https://github.com/zaphosting/docs/tree/master/"
         },
         "blog": false,
         "theme": {
-          "customCss": "/home/bots/actions-runner-zap/_work/docs/docs/docusaurus/src/css/custom.css"
+          "customCss": "/home/github-runners/runner2/_work/docs/docs/docusaurus/src/css/custom.css"
         }
       }
     ]

@@ -16,5 +16,14 @@
     "title": "VPS Install Java on Server",
     "description": "Information on how to install Java on your VPS from ZAP-Hosting - ZAP-Hosting.com documentation",
     "sidebar_label": "Install Java"
+  },
+  "sidebar": "vpsrootSidebar",
+  "previous": {
+    "title": "Install webserver",
+    "permalink": "/guides/docs/vserver_linux_webserver"
+  },
+  "next": {
+    "title": "FTP Setup",
+    "permalink": "/guides/docs/vserver_linux_ftp_install"
   }
 }

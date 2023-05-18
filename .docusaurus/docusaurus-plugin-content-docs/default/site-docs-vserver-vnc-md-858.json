@@ -16,5 +16,14 @@
     "title": "VPS What is VNC?",
     "description": "Information about the VNC console for VPSs at ZAP-Hosting - ZAP-Hosting.com documentation",
     "sidebar_label": "What is  VNC (Serial console)?"
+  },
+  "sidebar": "vpsrootSidebar",
+  "previous": {
+    "title": "Rootserver versus vServer",
+    "permalink": "/guides/docs/vserver_root_unterschied"
+  },
+  "next": {
+    "title": "Network analysis MTR/WinMTR",
+    "permalink": "/guides/docs/vserver_network_analysis_winmtr"
   }
 }

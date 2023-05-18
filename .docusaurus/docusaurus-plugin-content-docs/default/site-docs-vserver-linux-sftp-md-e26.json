@@ -16,5 +16,14 @@
     "title": "VPSConnecting to Linux Server via SFTP",
     "description": "Information on how to connect via SFTP to your Linux VPS from ZAP-Hosting - ZAP-Hosting.com documentation",
     "sidebar_label": "SFTP Connection"
+  },
+  "sidebar": "vpsrootSidebar",
+  "previous": {
+    "title": "Initial access (SSH)",
+    "permalink": "/guides/docs/vserver_linux_ssh"
+  },
+  "next": {
+    "title": "SSH Key",
+    "permalink": "/guides/docs/vserver_linux_sshkey"
   }
 }

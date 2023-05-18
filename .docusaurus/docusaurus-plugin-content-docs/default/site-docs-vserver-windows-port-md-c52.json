@@ -16,5 +16,14 @@
     "title": "VPS Forwarding ports on Windows servers",
     "description": "Information on how to forward ports on your Windows VPS from ZAP-Hosting - ZAP-Hosting.com documentation",
     "sidebar_label": "Port Forwarding"
+  },
+  "sidebar": "vpsrootSidebar",
+  "previous": {
+    "title": "Initial access (RDP)",
+    "permalink": "/guides/docs/vserver_windows_userdp"
+  },
+  "next": {
+    "title": "Add additional IPs",
+    "permalink": "/guides/docs/vserver_windows_addip"
   }
 }

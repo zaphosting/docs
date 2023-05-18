@@ -16,5 +16,14 @@
     "title": "Was ist VNC?",
     "description": "Informationen zur VNC Konsole für Vserver/Rootserver von ZAP-Hosting - ZAP-Hosting.com Dokumentationen",
     "sidebar_label": "Was ist VNC?"
+  },
+  "sidebar": "vpsrootSidebar",
+  "previous": {
+    "title": "Unterschied Rootserver / V-Server",
+    "permalink": "/guides/de/docs/vserver_root_unterschied"
+  },
+  "next": {
+    "title": "Netzwerkanalyse MTR/WinMTR",
+    "permalink": "/guides/de/docs/vserver_network_analysis_winmtr"
   }
 }

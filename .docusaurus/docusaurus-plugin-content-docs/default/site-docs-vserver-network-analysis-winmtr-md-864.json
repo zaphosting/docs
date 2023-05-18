@@ -16,5 +16,14 @@
     "title": "VPS Network analysis with MTR/WinMTR",
     "description": "Information on how to perform a network analysis with MTR/WinMTR to identify network problems - ZAP-Hosting.com documentation",
     "sidebar_label": "Network analysis MTR/WinMTR"
+  },
+  "sidebar": "vpsrootSidebar",
+  "previous": {
+    "title": "What is  VNC (Serial console)?",
+    "permalink": "/guides/docs/vserver_vnc"
+  },
+  "next": {
+    "title": "Initial access (SSH)",
+    "permalink": "/guides/docs/vserver_linux_ssh"
   }
 }

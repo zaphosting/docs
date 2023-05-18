@@ -16,5 +16,14 @@
     "title": "Mastodon auf Server installieren",
     "description": "Informationen, wie du einen Mastodon Server auf deinem vServer von ZAP-Hosting einrichten kannst - ZAP-Hosting.com Dokumentationen",
     "sidebar_label": "Mastodon installieren"
+  },
+  "sidebar": "vpsrootSidebar",
+  "previous": {
+    "title": "Nextcloud",
+    "permalink": "/guides/de/docs/vserver_linux_nextcloud"
+  },
+  "next": {
+    "title": "Docker",
+    "permalink": "/guides/de/docs/vserver_linux_docker"
   }
 }

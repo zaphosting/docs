@@ -16,5 +16,14 @@
     "title": "Via SFTP auf Linux Server verbinden",
     "description": "Informationen, wie du dich mit SFTP auf deinen Linux vServer von ZAP-Hosting verbinden kannst - ZAP-Hosting.com Dokumentationen",
     "sidebar_label": "SFTP Verbindung"
+  },
+  "sidebar": "vpsrootSidebar",
+  "previous": {
+    "title": "Erstzugriff (SSH)",
+    "permalink": "/guides/de/docs/vserver_linux_ssh"
+  },
+  "next": {
+    "title": "SSH Key",
+    "permalink": "/guides/de/docs/vserver_linux_sshkey"
   }
 }

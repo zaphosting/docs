@@ -16,5 +16,14 @@
     "title": "Java auf Server installieren",
     "description": "Informationen, wie du Java auf deinen vServer von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentationen",
     "sidebar_label": "Java installieren"
+  },
+  "sidebar": "vpsrootSidebar",
+  "previous": {
+    "title": "Webserver installieren",
+    "permalink": "/guides/de/docs/vserver_linux_webserver"
+  },
+  "next": {
+    "title": "FTP Einrichtung",
+    "permalink": "/guides/de/docs/vserver_linux_ftp_install"
   }
 }

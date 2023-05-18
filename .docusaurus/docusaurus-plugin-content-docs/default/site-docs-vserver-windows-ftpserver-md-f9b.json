@@ -16,5 +16,14 @@
     "title": "VPS Install FTP Server on Windows Server",
     "description": "Information on how to install and set up an FTP server on your Windows VPS from ZAP-Hosting - ZAP-Hosting.com documentation",
     "sidebar_label": "FTP Server Installation"
+  },
+  "sidebar": "vpsrootSidebar",
+  "previous": {
+    "title": "Extend disk",
+    "permalink": "/guides/docs/vserver_windows_expand_disk"
+  },
+  "next": {
+    "title": "MySQL Server Installation",
+    "permalink": "/guides/docs/vserver_windows_installmysql"
   }
 }

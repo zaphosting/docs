@@ -16,5 +16,14 @@
     "title": "VPS Installing Nginx and Apache Webserver",
     "description": "Information on how to install Nginx and Apache web servers on your Linx VPS from ZAP-Hosting - ZAP-Hosting.com documentation",
     "sidebar_label": "Install webserver"
+  },
+  "sidebar": "vpsrootSidebar",
+  "previous": {
+    "title": "Rsync Linux",
+    "permalink": "/guides/docs/vserver_linux_rsync"
+  },
+  "next": {
+    "title": "Install Java",
+    "permalink": "/guides/docs/vserver_linux_java"
   }
 }

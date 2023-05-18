@@ -16,5 +16,14 @@
     "title": "Gameserver/TS3 Interface",
     "description": "Information on how to install TS and game server via the game server/TS3 interface with just a few clicks - ZAP-Hosting.com documentation",
     "sidebar_label": "GS/TS3 Interface"
+  },
+  "sidebar": "vpsrootSidebar",
+  "previous": {
+    "title": "Change Password",
+    "permalink": "/guides/docs/vserver_linux_password_change"
+  },
+  "next": {
+    "title": "FTP Service isn't working",
+    "permalink": "/guides/docs/vserver_linux_ftp"
   }
 }

@@ -16,5 +16,14 @@
     "title": "VPS Add/change language on Windows Server",
     "description": "Information on how to change the language of your Windows VPS from ZAP-Hosting and how to add languages - ZAP-Hosting.com documentation",
     "sidebar_label": "Add/change language"
+  },
+  "sidebar": "vpsrootSidebar",
+  "previous": {
+    "title": "No Internet what now?",
+    "permalink": "/guides/docs/vserver_windows_nointernet"
+  },
+  "next": {
+    "title": "Extend disk",
+    "permalink": "/guides/docs/vserver_windows_expand_disk"
   }
 }

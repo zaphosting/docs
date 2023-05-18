@@ -16,5 +16,10 @@
     "title": "CentOS installieren",
     "description": "Informationen zu der Installation des CentOS Betriebssystem auf deinem Dedicated Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation",
     "sidebar_label": "CentOS installieren"
+  },
+  "sidebar": "dedicatedserverSidebar",
+  "previous": {
+    "title": "FreeBSD installieren",
+    "permalink": "/guides/de/docs/dedicated_freebsd"
   }
 }

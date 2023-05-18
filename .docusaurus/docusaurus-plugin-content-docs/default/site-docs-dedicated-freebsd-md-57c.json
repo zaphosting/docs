@@ -16,5 +16,14 @@
     "title": "Install FreeBSD",
     "description": "Information about installing the FreeBSD operating system on your dedicated server from ZAP-Hosting - ZAP-Hosting.com Documentation",
     "sidebar_label": "Install FreeBSD"
+  },
+  "sidebar": "dedicatedserverSidebar",
+  "previous": {
+    "title": "Install Ubuntu",
+    "permalink": "/guides/docs/dedicated_linux_ubuntu"
+  },
+  "next": {
+    "title": "Install CentOS",
+    "permalink": "/guides/docs/dedicated_centos"
   }
 }

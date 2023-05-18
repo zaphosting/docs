@@ -16,5 +16,14 @@
     "title": "VPS Install Nextcloud on server",
     "description": "Information on how to set up a Nextcloud server on your VPS from ZAP-Hosting - ZAP-Hosting.com documentation",
     "sidebar_label": "Nextcloud"
+  },
+  "sidebar": "vpsrootSidebar",
+  "previous": {
+    "title": "MariaDB (MySQL) Installation",
+    "permalink": "/guides/docs/vserver_linux_mariadbinstall"
+  },
+  "next": {
+    "title": "Mastodon",
+    "permalink": "/guides/docs/vserver_linux_mastodon"
   }
 }

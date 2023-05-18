@@ -16,5 +16,14 @@
     "title": "Ports bei Windows Servern freigeben",
     "description": "Informationen, wie du Ports bei deinem Windows vServer von ZAP-Hosting freigeben kannst - ZAP-Hosting.com Dokumentationen",
     "sidebar_label": "Port freigeben"
+  },
+  "sidebar": "vpsrootSidebar",
+  "previous": {
+    "title": "Erstzugriff (RDP)",
+    "permalink": "/guides/de/docs/vserver_windows_userdp"
+  },
+  "next": {
+    "title": "Zusätzliche IPs hinzufügen",
+    "permalink": "/guides/de/docs/vserver_windows_addip"
   }
 }

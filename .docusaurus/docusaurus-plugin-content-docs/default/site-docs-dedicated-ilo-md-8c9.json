@@ -16,5 +16,10 @@
     "title": "iLO",
     "description": "Information, about ILO administration for your Dedicated Server from ZAP-Hosting - ZAP-Hosting.com Documentation",
     "sidebar_label": "iLO"
+  },
+  "sidebar": "dedicatedserverSidebar",
+  "next": {
+    "title": "Own ISO",
+    "permalink": "/guides/docs/dedicated_iso"
   }
 }

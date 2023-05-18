@@ -16,5 +16,14 @@
     "title": "Installation von Cockpit",
     "description": "Guide um Cockpit auf Linux zu installieren - ZAP-Hosting.com Dokumentationen",
     "sidebar_label": "Cockpit"
+  },
+  "sidebar": "vpsrootSidebar",
+  "previous": {
+    "title": "Linux Remotedesktop (xRDP)",
+    "permalink": "/guides/de/docs/vserver_linux_xrdp"
+  },
+  "next": {
+    "title": "Erstzugriff (RDP)",
+    "permalink": "/guides/de/docs/vserver_windows_userdp"
   }
 }

@@ -16,5 +16,14 @@
     "title": "Debian installieren",
     "description": "Informationen zu der Installation des Debian Betriebssystem auf deinem Dedicated Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation",
     "sidebar_label": "Debian installieren"
+  },
+  "sidebar": "dedicatedserverSidebar",
+  "previous": {
+    "title": "Windows installieren",
+    "permalink": "/guides/de/docs/dedicated_windows"
+  },
+  "next": {
+    "title": "Ubuntu installieren",
+    "permalink": "/guides/de/docs/dedicated_linux_ubuntu"
   }
 }

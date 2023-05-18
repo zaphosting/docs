@@ -4,12 +4,12 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 export default [
   {
     path: '/guides/de/markdown-page',
-    component: ComponentCreator('/guides/de/markdown-page', 'aca'),
+    component: ComponentCreator('/guides/de/markdown-page', 'e6c'),
     exact: true
   },
   {
     path: '/guides/de/docs',
-    component: ComponentCreator('/guides/de/docs', 'd9b'),
+    component: ComponentCreator('/guides/de/docs', '996'),
     routes: [
       {
         path: '/guides/de/docs/7d2d_becomeadmin',
@@ -272,9 +272,9 @@ export default [
       },
       {
         path: '/guides/de/docs/corekeeper-connecttoserver',
-        component: ComponentCreator('/guides/de/docs/corekeeper-connecttoserver', 'a6a'),
+        component: ComponentCreator('/guides/de/docs/corekeeper-connecttoserver', '9d6'),
         exact: true,
-        sidebar: "dedicatedserverSidebar"
+        sidebar: "gameserverSidebar"
       },
       {
         path: '/guides/de/docs/create_screenshots',
@@ -313,48 +313,57 @@ export default [
       },
       {
         path: '/guides/de/docs/dedicated_centos',
-        component: ComponentCreator('/guides/de/docs/dedicated_centos', 'c03'),
-        exact: true
+        component: ComponentCreator('/guides/de/docs/dedicated_centos', '8f5'),
+        exact: true,
+        sidebar: "dedicatedserverSidebar"
       },
       {
         path: '/guides/de/docs/dedicated_freebsd',
-        component: ComponentCreator('/guides/de/docs/dedicated_freebsd', '831'),
-        exact: true
+        component: ComponentCreator('/guides/de/docs/dedicated_freebsd', 'fab'),
+        exact: true,
+        sidebar: "dedicatedserverSidebar"
       },
       {
         path: '/guides/de/docs/dedicated_ilo',
-        component: ComponentCreator('/guides/de/docs/dedicated_ilo', '861'),
-        exact: true
+        component: ComponentCreator('/guides/de/docs/dedicated_ilo', '53b'),
+        exact: true,
+        sidebar: "dedicatedserverSidebar"
       },
       {
         path: '/guides/de/docs/dedicated_iso',
-        component: ComponentCreator('/guides/de/docs/dedicated_iso', '0b8'),
-        exact: true
+        component: ComponentCreator('/guides/de/docs/dedicated_iso', '8d4'),
+        exact: true,
+        sidebar: "dedicatedserverSidebar"
       },
       {
         path: '/guides/de/docs/dedicated_linux_debian',
-        component: ComponentCreator('/guides/de/docs/dedicated_linux_debian', '795'),
-        exact: true
+        component: ComponentCreator('/guides/de/docs/dedicated_linux_debian', '048'),
+        exact: true,
+        sidebar: "dedicatedserverSidebar"
       },
       {
         path: '/guides/de/docs/dedicated_linux_ubuntu',
-        component: ComponentCreator('/guides/de/docs/dedicated_linux_ubuntu', '7ce'),
-        exact: true
+        component: ComponentCreator('/guides/de/docs/dedicated_linux_ubuntu', '7be'),
+        exact: true,
+        sidebar: "dedicatedserverSidebar"
       },
       {
         path: '/guides/de/docs/dedicated_raid',
-        component: ComponentCreator('/guides/de/docs/dedicated_raid', 'a02'),
-        exact: true
+        component: ComponentCreator('/guides/de/docs/dedicated_raid', 'aaa'),
+        exact: true,
+        sidebar: "dedicatedserverSidebar"
       },
       {
         path: '/guides/de/docs/dedicated_reset',
-        component: ComponentCreator('/guides/de/docs/dedicated_reset', '707'),
-        exact: true
+        component: ComponentCreator('/guides/de/docs/dedicated_reset', '044'),
+        exact: true,
+        sidebar: "dedicatedserverSidebar"
       },
       {
         path: '/guides/de/docs/dedicated_windows',
-        component: ComponentCreator('/guides/de/docs/dedicated_windows', 'e1d'),
-        exact: true
+        component: ComponentCreator('/guides/de/docs/dedicated_windows', '1c2'),
+        exact: true,
+        sidebar: "dedicatedserverSidebar"
       },
       {
         path: '/guides/de/docs/discordbot_setup',
@@ -1282,13 +1291,15 @@ export default [
       },
       {
         path: '/guides/de/docs/vserver_linux_add_ip',
-        component: ComponentCreator('/guides/de/docs/vserver_linux_add_ip', '7ff'),
-        exact: true
+        component: ComponentCreator('/guides/de/docs/vserver_linux_add_ip', '51d'),
+        exact: true,
+        sidebar: "vpsrootSidebar"
       },
       {
         path: '/guides/de/docs/vserver_linux_cockpit',
-        component: ComponentCreator('/guides/de/docs/vserver_linux_cockpit', '244'),
-        exact: true
+        component: ComponentCreator('/guides/de/docs/vserver_linux_cockpit', '859'),
+        exact: true,
+        sidebar: "vpsrootSidebar"
       },
       {
         path: '/guides/de/docs/vserver_linux_dnsserver',
@@ -1297,128 +1308,153 @@ export default [
       },
       {
         path: '/guides/de/docs/vserver_linux_docker',
-        component: ComponentCreator('/guides/de/docs/vserver_linux_docker', '42f'),
-        exact: true
+        component: ComponentCreator('/guides/de/docs/vserver_linux_docker', 'c1b'),
+        exact: true,
+        sidebar: "vpsrootSidebar"
       },
       {
         path: '/guides/de/docs/vserver_linux_ftp',
-        component: ComponentCreator('/guides/de/docs/vserver_linux_ftp', 'f3d'),
-        exact: true
+        component: ComponentCreator('/guides/de/docs/vserver_linux_ftp', '0aa'),
+        exact: true,
+        sidebar: "vpsrootSidebar"
       },
       {
         path: '/guides/de/docs/vserver_linux_ftp_install',
-        component: ComponentCreator('/guides/de/docs/vserver_linux_ftp_install', '3a3'),
-        exact: true
+        component: ComponentCreator('/guides/de/docs/vserver_linux_ftp_install', '340'),
+        exact: true,
+        sidebar: "vpsrootSidebar"
       },
       {
         path: '/guides/de/docs/vserver_linux_gs_interface',
-        component: ComponentCreator('/guides/de/docs/vserver_linux_gs_interface', '0e7'),
-        exact: true
+        component: ComponentCreator('/guides/de/docs/vserver_linux_gs_interface', 'a05'),
+        exact: true,
+        sidebar: "vpsrootSidebar"
       },
       {
         path: '/guides/de/docs/vserver_linux_java',
-        component: ComponentCreator('/guides/de/docs/vserver_linux_java', 'f76'),
-        exact: true
+        component: ComponentCreator('/guides/de/docs/vserver_linux_java', '6f0'),
+        exact: true,
+        sidebar: "vpsrootSidebar"
       },
       {
         path: '/guides/de/docs/vserver_linux_jitsi',
-        component: ComponentCreator('/guides/de/docs/vserver_linux_jitsi', 'e53'),
-        exact: true
+        component: ComponentCreator('/guides/de/docs/vserver_linux_jitsi', '7b9'),
+        exact: true,
+        sidebar: "vpsrootSidebar"
       },
       {
         path: '/guides/de/docs/vserver_linux_mariadbinstall',
-        component: ComponentCreator('/guides/de/docs/vserver_linux_mariadbinstall', 'd54'),
-        exact: true
+        component: ComponentCreator('/guides/de/docs/vserver_linux_mariadbinstall', 'c76'),
+        exact: true,
+        sidebar: "vpsrootSidebar"
       },
       {
         path: '/guides/de/docs/vserver_linux_mastodon',
-        component: ComponentCreator('/guides/de/docs/vserver_linux_mastodon', 'd5c'),
-        exact: true
+        component: ComponentCreator('/guides/de/docs/vserver_linux_mastodon', 'a6b'),
+        exact: true,
+        sidebar: "vpsrootSidebar"
       },
       {
         path: '/guides/de/docs/vserver_linux_nextcloud',
-        component: ComponentCreator('/guides/de/docs/vserver_linux_nextcloud', 'e45'),
-        exact: true
+        component: ComponentCreator('/guides/de/docs/vserver_linux_nextcloud', 'ba3'),
+        exact: true,
+        sidebar: "vpsrootSidebar"
       },
       {
         path: '/guides/de/docs/vserver_linux_openvpn',
-        component: ComponentCreator('/guides/de/docs/vserver_linux_openvpn', 'fea'),
-        exact: true
+        component: ComponentCreator('/guides/de/docs/vserver_linux_openvpn', 'f32'),
+        exact: true,
+        sidebar: "vpsrootSidebar"
       },
       {
         path: '/guides/de/docs/vserver_linux_password_change',
-        component: ComponentCreator('/guides/de/docs/vserver_linux_password_change', '0fc'),
-        exact: true
+        component: ComponentCreator('/guides/de/docs/vserver_linux_password_change', 'bf3'),
+        exact: true,
+        sidebar: "vpsrootSidebar"
       },
       {
         path: '/guides/de/docs/vserver_linux_phpmyadmin',
-        component: ComponentCreator('/guides/de/docs/vserver_linux_phpmyadmin', '7de'),
-        exact: true
+        component: ComponentCreator('/guides/de/docs/vserver_linux_phpmyadmin', '59a'),
+        exact: true,
+        sidebar: "vpsrootSidebar"
       },
       {
         path: '/guides/de/docs/vserver_linux_plesk',
-        component: ComponentCreator('/guides/de/docs/vserver_linux_plesk', 'd86'),
-        exact: true
+        component: ComponentCreator('/guides/de/docs/vserver_linux_plesk', 'c5b'),
+        exact: true,
+        sidebar: "vpsrootSidebar"
       },
       {
         path: '/guides/de/docs/vserver_linux_rsync',
-        component: ComponentCreator('/guides/de/docs/vserver_linux_rsync', 'b49'),
-        exact: true
+        component: ComponentCreator('/guides/de/docs/vserver_linux_rsync', '40f'),
+        exact: true,
+        sidebar: "vpsrootSidebar"
       },
       {
         path: '/guides/de/docs/vserver_linux_sftp',
-        component: ComponentCreator('/guides/de/docs/vserver_linux_sftp', '2dd'),
-        exact: true
+        component: ComponentCreator('/guides/de/docs/vserver_linux_sftp', 'f24'),
+        exact: true,
+        sidebar: "vpsrootSidebar"
       },
       {
         path: '/guides/de/docs/vserver_linux_ssh',
-        component: ComponentCreator('/guides/de/docs/vserver_linux_ssh', '218'),
-        exact: true
+        component: ComponentCreator('/guides/de/docs/vserver_linux_ssh', 'b6e'),
+        exact: true,
+        sidebar: "vpsrootSidebar"
       },
       {
         path: '/guides/de/docs/vserver_linux_ssh2fa',
-        component: ComponentCreator('/guides/de/docs/vserver_linux_ssh2fa', '85e'),
-        exact: true
+        component: ComponentCreator('/guides/de/docs/vserver_linux_ssh2fa', '822'),
+        exact: true,
+        sidebar: "vpsrootSidebar"
       },
       {
         path: '/guides/de/docs/vserver_linux_sshkey',
-        component: ComponentCreator('/guides/de/docs/vserver_linux_sshkey', '005'),
-        exact: true
+        component: ComponentCreator('/guides/de/docs/vserver_linux_sshkey', '8f3'),
+        exact: true,
+        sidebar: "vpsrootSidebar"
       },
       {
         path: '/guides/de/docs/vserver_linux_ssl',
-        component: ComponentCreator('/guides/de/docs/vserver_linux_ssl', 'c66'),
-        exact: true
+        component: ComponentCreator('/guides/de/docs/vserver_linux_ssl', 'fee'),
+        exact: true,
+        sidebar: "vpsrootSidebar"
       },
       {
         path: '/guides/de/docs/vserver_linux_webserver',
-        component: ComponentCreator('/guides/de/docs/vserver_linux_webserver', 'c6f'),
-        exact: true
+        component: ComponentCreator('/guides/de/docs/vserver_linux_webserver', 'a28'),
+        exact: true,
+        sidebar: "vpsrootSidebar"
       },
       {
         path: '/guides/de/docs/vserver_linux_xrdp',
-        component: ComponentCreator('/guides/de/docs/vserver_linux_xrdp', '6e0'),
-        exact: true
+        component: ComponentCreator('/guides/de/docs/vserver_linux_xrdp', '4ba'),
+        exact: true,
+        sidebar: "vpsrootSidebar"
       },
       {
         path: '/guides/de/docs/vserver_network_analysis_winmtr',
-        component: ComponentCreator('/guides/de/docs/vserver_network_analysis_winmtr', '608'),
-        exact: true
+        component: ComponentCreator('/guides/de/docs/vserver_network_analysis_winmtr', '1c1'),
+        exact: true,
+        sidebar: "vpsrootSidebar"
       },
       {
         path: '/guides/de/docs/vserver_root_unterschied',
-        component: ComponentCreator('/guides/de/docs/vserver_root_unterschied', '692'),
-        exact: true
+        component: ComponentCreator('/guides/de/docs/vserver_root_unterschied', '032'),
+        exact: true,
+        sidebar: "vpsrootSidebar"
       },
       {
         path: '/guides/de/docs/vserver_vnc',
-        component: ComponentCreator('/guides/de/docs/vserver_vnc', 'c50'),
-        exact: true
+        component: ComponentCreator('/guides/de/docs/vserver_vnc', '6f4'),
+        exact: true,
+        sidebar: "vpsrootSidebar"
       },
       {
         path: '/guides/de/docs/vserver_windows_addip',
-        component: ComponentCreator('/guides/de/docs/vserver_windows_addip', 'a1a'),
-        exact: true
+        component: ComponentCreator('/guides/de/docs/vserver_windows_addip', '555'),
+        exact: true,
+        sidebar: "vpsrootSidebar"
       },
       {
         path: '/guides/de/docs/vserver_windows_ark',
@@ -1427,68 +1463,81 @@ export default [
       },
       {
         path: '/guides/de/docs/vserver_windows_change_language',
-        component: ComponentCreator('/guides/de/docs/vserver_windows_change_language', 'ddc'),
-        exact: true
+        component: ComponentCreator('/guides/de/docs/vserver_windows_change_language', 'e45'),
+        exact: true,
+        sidebar: "vpsrootSidebar"
       },
       {
         path: '/guides/de/docs/vserver_windows_expand_disk',
-        component: ComponentCreator('/guides/de/docs/vserver_windows_expand_disk', '5c9'),
-        exact: true
+        component: ComponentCreator('/guides/de/docs/vserver_windows_expand_disk', '8ea'),
+        exact: true,
+        sidebar: "vpsrootSidebar"
       },
       {
         path: '/guides/de/docs/vserver_windows_fs_19',
-        component: ComponentCreator('/guides/de/docs/vserver_windows_fs_19', '8ff'),
-        exact: true
+        component: ComponentCreator('/guides/de/docs/vserver_windows_fs_19', 'ba9'),
+        exact: true,
+        sidebar: "vpsrootSidebar"
       },
       {
         path: '/guides/de/docs/vserver_windows_fs_22',
-        component: ComponentCreator('/guides/de/docs/vserver_windows_fs_22', '8ba'),
-        exact: true
+        component: ComponentCreator('/guides/de/docs/vserver_windows_fs_22', 'ed6'),
+        exact: true,
+        sidebar: "vpsrootSidebar"
       },
       {
         path: '/guides/de/docs/vserver_windows_ftpserver',
-        component: ComponentCreator('/guides/de/docs/vserver_windows_ftpserver', '90c'),
-        exact: true
+        component: ComponentCreator('/guides/de/docs/vserver_windows_ftpserver', 'aa8'),
+        exact: true,
+        sidebar: "vpsrootSidebar"
       },
       {
         path: '/guides/de/docs/vserver_windows_installmysql',
-        component: ComponentCreator('/guides/de/docs/vserver_windows_installmysql', 'ef1'),
-        exact: true
+        component: ComponentCreator('/guides/de/docs/vserver_windows_installmysql', 'a49'),
+        exact: true,
+        sidebar: "vpsrootSidebar"
       },
       {
         path: '/guides/de/docs/vserver_windows_nointernet',
-        component: ComponentCreator('/guides/de/docs/vserver_windows_nointernet', '869'),
-        exact: true
+        component: ComponentCreator('/guides/de/docs/vserver_windows_nointernet', 'e44'),
+        exact: true,
+        sidebar: "vpsrootSidebar"
       },
       {
         path: '/guides/de/docs/vserver_windows_plesk',
-        component: ComponentCreator('/guides/de/docs/vserver_windows_plesk', '0ef'),
-        exact: true
+        component: ComponentCreator('/guides/de/docs/vserver_windows_plesk', '5a3'),
+        exact: true,
+        sidebar: "vpsrootSidebar"
       },
       {
         path: '/guides/de/docs/vserver_windows_port',
-        component: ComponentCreator('/guides/de/docs/vserver_windows_port', '59e'),
-        exact: true
+        component: ComponentCreator('/guides/de/docs/vserver_windows_port', '8b1'),
+        exact: true,
+        sidebar: "vpsrootSidebar"
       },
       {
         path: '/guides/de/docs/vserver_windows_satisfactory',
-        component: ComponentCreator('/guides/de/docs/vserver_windows_satisfactory', '930'),
-        exact: true
+        component: ComponentCreator('/guides/de/docs/vserver_windows_satisfactory', '0ca'),
+        exact: true,
+        sidebar: "vpsrootSidebar"
       },
       {
         path: '/guides/de/docs/vserver_windows_userdp',
-        component: ComponentCreator('/guides/de/docs/vserver_windows_userdp', '802'),
-        exact: true
+        component: ComponentCreator('/guides/de/docs/vserver_windows_userdp', '344'),
+        exact: true,
+        sidebar: "vpsrootSidebar"
       },
       {
         path: '/guides/de/docs/vserver_windows_valheim',
-        component: ComponentCreator('/guides/de/docs/vserver_windows_valheim', '8ca'),
-        exact: true
+        component: ComponentCreator('/guides/de/docs/vserver_windows_valheim', '7ad'),
+        exact: true,
+        sidebar: "vpsrootSidebar"
       },
       {
         path: '/guides/de/docs/vserver_windows_vrising',
-        component: ComponentCreator('/guides/de/docs/vserver_windows_vrising', '422'),
-        exact: true
+        component: ComponentCreator('/guides/de/docs/vserver_windows_vrising', 'bdd'),
+        exact: true,
+        sidebar: "vpsrootSidebar"
       },
       {
         path: '/guides/de/docs/webspace_adddomain',
@@ -1541,7 +1590,7 @@ export default [
   },
   {
     path: '/guides/de/',
-    component: ComponentCreator('/guides/de/', '4cf'),
+    component: ComponentCreator('/guides/de/', '7bd'),
     exact: true
   },
   {

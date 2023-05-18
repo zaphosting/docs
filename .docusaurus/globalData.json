@@ -2,8 +2,8 @@
   "docusaurus-lunr-search": {
     "default": {
       "fileNames": {
-        "searchDoc": "search-doc-1684422475188.json",
-        "lunrIndex": "lunr-index-1684422475188.json"
+        "searchDoc": "search-doc-1684423360309.json",
+        "lunrIndex": "lunr-index-1684423360309.json"
       }
     }
   },
@@ -236,7 +236,7 @@
             {
               "id": "corekeeper-connecttoserver",
               "path": "/guides/de/docs/corekeeper-connecttoserver",
-              "sidebar": "dedicatedserverSidebar"
+              "sidebar": "gameserverSidebar"
             },
             {
               "id": "create_screenshots",
@@ -269,39 +269,48 @@
             },
             {
               "id": "dedicated_centos",
-              "path": "/guides/de/docs/dedicated_centos"
+              "path": "/guides/de/docs/dedicated_centos",
+              "sidebar": "dedicatedserverSidebar"
             },
             {
               "id": "dedicated_freebsd",
-              "path": "/guides/de/docs/dedicated_freebsd"
+              "path": "/guides/de/docs/dedicated_freebsd",
+              "sidebar": "dedicatedserverSidebar"
             },
             {
               "id": "dedicated_ilo",
-              "path": "/guides/de/docs/dedicated_ilo"
+              "path": "/guides/de/docs/dedicated_ilo",
+              "sidebar": "dedicatedserverSidebar"
             },
             {
               "id": "dedicated_iso",
-              "path": "/guides/de/docs/dedicated_iso"
+              "path": "/guides/de/docs/dedicated_iso",
+              "sidebar": "dedicatedserverSidebar"
             },
             {
               "id": "dedicated_linux_debian",
-              "path": "/guides/de/docs/dedicated_linux_debian"
+              "path": "/guides/de/docs/dedicated_linux_debian",
+              "sidebar": "dedicatedserverSidebar"
             },
             {
               "id": "dedicated_linux_ubuntu",
-              "path": "/guides/de/docs/dedicated_linux_ubuntu"
+              "path": "/guides/de/docs/dedicated_linux_ubuntu",
+              "sidebar": "dedicatedserverSidebar"
             },
             {
               "id": "dedicated_raid",
-              "path": "/guides/de/docs/dedicated_raid"
+              "path": "/guides/de/docs/dedicated_raid",
+              "sidebar": "dedicatedserverSidebar"
             },
             {
               "id": "dedicated_reset",
-              "path": "/guides/de/docs/dedicated_reset"
+              "path": "/guides/de/docs/dedicated_reset",
+              "sidebar": "dedicatedserverSidebar"
             },
             {
               "id": "dedicated_windows",
-              "path": "/guides/de/docs/dedicated_windows"
+              "path": "/guides/de/docs/dedicated_windows",
+              "sidebar": "dedicatedserverSidebar"
             },
             {
               "id": "discordbot_setup",
@@ -1072,11 +1081,13 @@
             },
             {
               "id": "vserver_linux_add_ip",
-              "path": "/guides/de/docs/vserver_linux_add_ip"
+              "path": "/guides/de/docs/vserver_linux_add_ip",
+              "sidebar": "vpsrootSidebar"
             },
             {
               "id": "vserver_linux_cockpit",
-              "path": "/guides/de/docs/vserver_linux_cockpit"
+              "path": "/guides/de/docs/vserver_linux_cockpit",
+              "sidebar": "vpsrootSidebar"
             },
             {
               "id": "vserver_linux_dnsserver",
@@ -1084,103 +1095,128 @@
             },
             {
               "id": "vserver_linux_docker",
-              "path": "/guides/de/docs/vserver_linux_docker"
+              "path": "/guides/de/docs/vserver_linux_docker",
+              "sidebar": "vpsrootSidebar"
             },
             {
               "id": "vserver_linux_ftp",
-              "path": "/guides/de/docs/vserver_linux_ftp"
+              "path": "/guides/de/docs/vserver_linux_ftp",
+              "sidebar": "vpsrootSidebar"
             },
             {
               "id": "vserver_linux_ftp_install",
-              "path": "/guides/de/docs/vserver_linux_ftp_install"
+              "path": "/guides/de/docs/vserver_linux_ftp_install",
+              "sidebar": "vpsrootSidebar"
             },
             {
               "id": "vserver_linux_gs_interface",
-              "path": "/guides/de/docs/vserver_linux_gs_interface"
+              "path": "/guides/de/docs/vserver_linux_gs_interface",
+              "sidebar": "vpsrootSidebar"
             },
             {
               "id": "vserver_linux_java",
-              "path": "/guides/de/docs/vserver_linux_java"
+              "path": "/guides/de/docs/vserver_linux_java",
+              "sidebar": "vpsrootSidebar"
             },
             {
               "id": "vserver_linux_jitsi",
-              "path": "/guides/de/docs/vserver_linux_jitsi"
+              "path": "/guides/de/docs/vserver_linux_jitsi",
+              "sidebar": "vpsrootSidebar"
             },
             {
               "id": "vserver_linux_mariadbinstall",
-              "path": "/guides/de/docs/vserver_linux_mariadbinstall"
+              "path": "/guides/de/docs/vserver_linux_mariadbinstall",
+              "sidebar": "vpsrootSidebar"
             },
             {
               "id": "vserver_linux_mastodon",
-              "path": "/guides/de/docs/vserver_linux_mastodon"
+              "path": "/guides/de/docs/vserver_linux_mastodon",
+              "sidebar": "vpsrootSidebar"
             },
             {
               "id": "vserver_linux_nextcloud",
-              "path": "/guides/de/docs/vserver_linux_nextcloud"
+              "path": "/guides/de/docs/vserver_linux_nextcloud",
+              "sidebar": "vpsrootSidebar"
             },
             {
               "id": "vserver_linux_openvpn",
-              "path": "/guides/de/docs/vserver_linux_openvpn"
+              "path": "/guides/de/docs/vserver_linux_openvpn",
+              "sidebar": "vpsrootSidebar"
             },
             {
               "id": "vserver_linux_password_change",
-              "path": "/guides/de/docs/vserver_linux_password_change"
+              "path": "/guides/de/docs/vserver_linux_password_change",
+              "sidebar": "vpsrootSidebar"
             },
             {
               "id": "vserver_linux_phpmyadmin",
-              "path": "/guides/de/docs/vserver_linux_phpmyadmin"
+              "path": "/guides/de/docs/vserver_linux_phpmyadmin",
+              "sidebar": "vpsrootSidebar"
             },
             {
               "id": "vserver_linux_plesk",
-              "path": "/guides/de/docs/vserver_linux_plesk"
+              "path": "/guides/de/docs/vserver_linux_plesk",
+              "sidebar": "vpsrootSidebar"
             },
             {
               "id": "vserver_linux_rsync",
-              "path": "/guides/de/docs/vserver_linux_rsync"
+              "path": "/guides/de/docs/vserver_linux_rsync",
+              "sidebar": "vpsrootSidebar"
             },
             {
               "id": "vserver_linux_sftp",
-              "path": "/guides/de/docs/vserver_linux_sftp"
+              "path": "/guides/de/docs/vserver_linux_sftp",
+              "sidebar": "vpsrootSidebar"
             },
             {
               "id": "vserver_linux_ssh",
-              "path": "/guides/de/docs/vserver_linux_ssh"
+              "path": "/guides/de/docs/vserver_linux_ssh",
+              "sidebar": "vpsrootSidebar"
             },
             {
               "id": "vserver_linux_ssh2fa",
-              "path": "/guides/de/docs/vserver_linux_ssh2fa"
+              "path": "/guides/de/docs/vserver_linux_ssh2fa",
+              "sidebar": "vpsrootSidebar"
             },
             {
               "id": "vserver_linux_sshkey",
-              "path": "/guides/de/docs/vserver_linux_sshkey"
+              "path": "/guides/de/docs/vserver_linux_sshkey",
+              "sidebar": "vpsrootSidebar"
             },
             {
               "id": "vserver_linux_ssl",
-              "path": "/guides/de/docs/vserver_linux_ssl"
+              "path": "/guides/de/docs/vserver_linux_ssl",
+              "sidebar": "vpsrootSidebar"
             },
             {
               "id": "vserver_linux_webserver",
-              "path": "/guides/de/docs/vserver_linux_webserver"
+              "path": "/guides/de/docs/vserver_linux_webserver",
+              "sidebar": "vpsrootSidebar"
             },
             {
               "id": "vserver_linux_xrdp",
-              "path": "/guides/de/docs/vserver_linux_xrdp"
+              "path": "/guides/de/docs/vserver_linux_xrdp",
+              "sidebar": "vpsrootSidebar"
             },
             {
               "id": "vserver_network_analysis_winmtr",
-              "path": "/guides/de/docs/vserver_network_analysis_winmtr"
+              "path": "/guides/de/docs/vserver_network_analysis_winmtr",
+              "sidebar": "vpsrootSidebar"
             },
             {
               "id": "vserver_root_unterschied",
-              "path": "/guides/de/docs/vserver_root_unterschied"
+              "path": "/guides/de/docs/vserver_root_unterschied",
+              "sidebar": "vpsrootSidebar"
             },
             {
               "id": "vserver_vnc",
-              "path": "/guides/de/docs/vserver_vnc"
+              "path": "/guides/de/docs/vserver_vnc",
+              "sidebar": "vpsrootSidebar"
             },
             {
               "id": "vserver_windows_addip",
-              "path": "/guides/de/docs/vserver_windows_addip"
+              "path": "/guides/de/docs/vserver_windows_addip",
+              "sidebar": "vpsrootSidebar"
             },
             {
               "id": "vserver_windows_ark",
@@ -1188,55 +1224,68 @@
             },
             {
               "id": "vserver_windows_change_language",
-              "path": "/guides/de/docs/vserver_windows_change_language"
+              "path": "/guides/de/docs/vserver_windows_change_language",
+              "sidebar": "vpsrootSidebar"
             },
             {
               "id": "vserver_windows_expand_disk",
-              "path": "/guides/de/docs/vserver_windows_expand_disk"
+              "path": "/guides/de/docs/vserver_windows_expand_disk",
+              "sidebar": "vpsrootSidebar"
             },
             {
               "id": "vserver_windows_fs_19",
-              "path": "/guides/de/docs/vserver_windows_fs_19"
+              "path": "/guides/de/docs/vserver_windows_fs_19",
+              "sidebar": "vpsrootSidebar"
             },
             {
               "id": "vserver_windows_fs_22",
-              "path": "/guides/de/docs/vserver_windows_fs_22"
+              "path": "/guides/de/docs/vserver_windows_fs_22",
+              "sidebar": "vpsrootSidebar"
             },
             {
               "id": "vserver_windows_ftpserver",
-              "path": "/guides/de/docs/vserver_windows_ftpserver"
+              "path": "/guides/de/docs/vserver_windows_ftpserver",
+              "sidebar": "vpsrootSidebar"
             },
             {
               "id": "vserver_windows_installmysql",
-              "path": "/guides/de/docs/vserver_windows_installmysql"
+              "path": "/guides/de/docs/vserver_windows_installmysql",
+              "sidebar": "vpsrootSidebar"
             },
             {
               "id": "vserver_windows_nointernet",
-              "path": "/guides/de/docs/vserver_windows_nointernet"
+              "path": "/guides/de/docs/vserver_windows_nointernet",
+              "sidebar": "vpsrootSidebar"
             },
             {
               "id": "vserver_windows_plesk",
-              "path": "/guides/de/docs/vserver_windows_plesk"
+              "path": "/guides/de/docs/vserver_windows_plesk",
+              "sidebar": "vpsrootSidebar"
             },
             {
               "id": "vserver_windows_port",
-              "path": "/guides/de/docs/vserver_windows_port"
+              "path": "/guides/de/docs/vserver_windows_port",
+              "sidebar": "vpsrootSidebar"
             },
             {
               "id": "vserver_windows_satisfactory",
-              "path": "/guides/de/docs/vserver_windows_satisfactory"
+              "path": "/guides/de/docs/vserver_windows_satisfactory",
+              "sidebar": "vpsrootSidebar"
             },
             {
               "id": "vserver_windows_userdp",
-              "path": "/guides/de/docs/vserver_windows_userdp"
+              "path": "/guides/de/docs/vserver_windows_userdp",
+              "sidebar": "vpsrootSidebar"
             },
             {
               "id": "vserver_windows_valheim",
-              "path": "/guides/de/docs/vserver_windows_valheim"
+              "path": "/guides/de/docs/vserver_windows_valheim",
+              "sidebar": "vpsrootSidebar"
             },
             {
               "id": "vserver_windows_vrising",
-              "path": "/guides/de/docs/vserver_windows_vrising"
+              "path": "/guides/de/docs/vserver_windows_vrising",
+              "sidebar": "vpsrootSidebar"
             },
             {
               "id": "webspace_adddomain",
@@ -1294,14 +1343,14 @@
             },
             "vpsrootSidebar": {
               "link": {
-                "path": "/guides/de/docs/corekeeper-connecttoserver",
-                "label": "corekeeper-connecttoserver"
+                "path": "/guides/de/docs/vserver_root_unterschied",
+                "label": "vserver_root_unterschied"
               }
             },
             "dedicatedserverSidebar": {
               "link": {
-                "path": "/guides/de/docs/corekeeper-connecttoserver",
-                "label": "corekeeper-connecttoserver"
+                "path": "/guides/de/docs/dedicated_ilo",
+                "label": "dedicated_ilo"
               }
             },
             "domainwebspaceSidebar": {

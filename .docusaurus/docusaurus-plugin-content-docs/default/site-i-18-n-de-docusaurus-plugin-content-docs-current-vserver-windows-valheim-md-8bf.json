@@ -16,5 +16,14 @@
     "title": "Valheim Dedicated Server Setup",
     "description": "Informationen zum Einrichten eines Valheim Dedicated Server auf einem VPS/Rootserver - ZAP-Hosting.com Dokumentationen",
     "sidebar_label": "Valheim Dedicated Server Setup"
+  },
+  "sidebar": "vpsrootSidebar",
+  "previous": {
+    "title": "Plesk installieren",
+    "permalink": "/guides/de/docs/vserver_windows_plesk"
+  },
+  "next": {
+    "title": "V-Rising",
+    "permalink": "/guides/de/docs/vserver_windows_vrising"
   }
 }

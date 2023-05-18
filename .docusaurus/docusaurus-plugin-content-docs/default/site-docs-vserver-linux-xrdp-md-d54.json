@@ -16,5 +16,14 @@
     "title": "Installing xRDP (Remote Desktop)",
     "description": "Guide to install xRDP (Remote Desktop) on Linux - ZAP-Hosting.com Documentation",
     "sidebar_label": "Linux Remotedesktop (xRDP)"
+  },
+  "sidebar": "vpsrootSidebar",
+  "previous": {
+    "title": "Jitsi Meet",
+    "permalink": "/guides/docs/vserver_linux_jitsi"
+  },
+  "next": {
+    "title": "Cockpit",
+    "permalink": "/guides/docs/vserver_linux_cockpit"
   }
 }

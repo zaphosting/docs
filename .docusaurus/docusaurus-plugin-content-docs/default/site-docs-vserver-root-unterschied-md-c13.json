@@ -16,5 +16,10 @@
     "title": "Difference Rootserver / VPS",
     "description": "Information on the differences between root servers and VPSs at ZAP-Hosting - ZAP-Hosting.com documentation",
     "sidebar_label": "Rootserver versus vServer"
+  },
+  "sidebar": "vpsrootSidebar",
+  "next": {
+    "title": "What is  VNC (Serial console)?",
+    "permalink": "/guides/docs/vserver_vnc"
   }
 }

@@ -16,5 +16,14 @@
     "title": "FreeBSD installieren",
     "description": "Informationen zu der Installation des FreeBSD Betriebssystem auf deinem Dedicated Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation",
     "sidebar_label": "FreeBSD installieren"
+  },
+  "sidebar": "dedicatedserverSidebar",
+  "previous": {
+    "title": "Ubuntu installieren",
+    "permalink": "/guides/de/docs/dedicated_linux_ubuntu"
+  },
+  "next": {
+    "title": "CentOS installieren",
+    "permalink": "/guides/de/docs/dedicated_centos"
   }
 }

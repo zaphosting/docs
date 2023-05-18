@@ -16,5 +16,14 @@
     "title": "VPS Install OpenVPN on server",
     "description": "Information on how to install and set up OpenVPN on your VPS from ZAP-Hosting - ZAP-Hosting.com documentation",
     "sidebar_label": "OpenVPN"
+  },
+  "sidebar": "vpsrootSidebar",
+  "previous": {
+    "title": "Plesk",
+    "permalink": "/guides/docs/vserver_linux_plesk"
+  },
+  "next": {
+    "title": "phpMyAdmin",
+    "permalink": "/guides/docs/vserver_linux_phpmyadmin"
   }
 }

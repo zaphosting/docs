@@ -16,5 +16,14 @@
     "title": "Satisfactory Dedicated Server Setup",
     "description": "Information about setting up a Satisfactory Dedicated Server on a VPS/Rootserver - ZAP-Hosting.com Documentation",
     "sidebar_label": "Satisfactory Dedicated Server Setup"
+  },
+  "sidebar": "vpsrootSidebar",
+  "previous": {
+    "title": "V-Rising",
+    "permalink": "/guides/docs/vserver_windows_vrising"
+  },
+  "next": {
+    "title": "Farming-Simulator 2019",
+    "permalink": "/guides/docs/vserver_windows_fs_19"
   }
 }
