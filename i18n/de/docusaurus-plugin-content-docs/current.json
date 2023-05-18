@@ -770,5 +770,13 @@
   "sidebar.dedicatedserverSidebar.category.Operating system": {
     "message": "Operating system",
     "description": "The label for category Operating system in sidebar dedicatedserverSidebar"
+  },
+  "sidebar.vpsrootSidebar.category.General": {
+    "message": "General",
+    "description": "The label for category General in sidebar vpsrootSidebar"
+  },
+  "sidebar.vpsrootSidebar.category.Services": {
+    "message": "Services",
+    "description": "The label for category Services in sidebar vpsrootSidebar"
   }
 }
