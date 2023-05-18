@@ -587,42 +587,48 @@ const sidebars = {
 		'vserver_network_analysis_winmtr',		
       ],
     },
-	{
+	 {
       type: 'category',
       label: 'Linux',
       items: [
-        'vserver_linux_ssh',
-        'vserver_linux_sftp',
-        'vserver_linux_sshkey',
-        'vserver_linux_ssh2fa',
-        'vserver_linux_password_change',
-        'vserver_linux_gs_interface',
-        'vserver_linux_ftp',
-        'vserver_linux_add_ip',
-        'vserver_linux_ssl',
-        'vserver_linux_rsync',		
+        {
+          type: "category",
+          label: "General",
+          items: [
+            'vserver_linux_ssh',
+            'vserver_linux_sftp',
+            'vserver_linux_sshkey',
+            'vserver_linux_ssh2fa',
+            'vserver_linux_password_change',
+            'vserver_linux_gs_interface',
+            'vserver_linux_ftp',
+            'vserver_linux_add_ip',
+            'vserver_linux_ssl',
+            'vserver_linux_rsync',	
+          ]
+        },
+        {
+          type: "category",
+          label: "Services",
+          items: [
+            'vserver_linux_webserver',
+            'vserver_linux_java',
+            'vserver_linux_ftp_install',
+            'vserver_linux_mariadbinstall',
+            'vserver_linux_nextcloud',
+            'vserver_linux_mastodon',
+            'vserver_linux_docker',
+            'vserver_linux_plesk',
+            'vserver_linux_openvpn',
+            'vserver_linux_phpmyadmin',
+            'vserver_linux_jitsi',
+            'vserver_linux_xrdp',
+            'vserver_linux_cockpit',	
+          ]
+        },	
       ],
     },
-	{
-      type: 'category',
-      label: 'Services (Linux)',
-      items: [
-        'vserver_linux_webserver',
-        'vserver_linux_java',
-        'vserver_linux_ftp_install',
-        'vserver_linux_mariadbinstall',
-        'vserver_linux_nextcloud',
-        'vserver_linux_mastodon',
-        'vserver_linux_docker',
-        'vserver_linux_plesk',
-        'vserver_linux_openvpn',
-        'vserver_linux_phpmyadmin',
-        'vserver_linux_jitsi',
-        'vserver_linux_xrdp',
-        'vserver_linux_cockpit',	
-      ],
-    },
-	{
+	  {
       type: 'category',
       label: 'Windows',
       items: [
@@ -634,7 +640,7 @@ const sidebars = {
         'vserver_windows_expand_disk',
       ],
     },
-	{
+	 {
       type: 'category',
       label: 'Services (Windows)',
       items: [
