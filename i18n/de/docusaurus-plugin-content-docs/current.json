@@ -782,5 +782,13 @@
   "sidebar.vpsrootSidebar.category.Gameserver services": {
     "message": "Gameserver services",
     "description": "The label for category Gameserver services in sidebar vpsrootSidebar"
+  },
+  "sidebar.gameserverSidebar.category.DayZ": {
+    "message": "DayZ",
+    "description": "The label for category DayZ in sidebar gameserverSidebar"
+  },
+  "sidebar.gameserverSidebar.category.Project Zomboid": {
+    "message": "Project Zomboid",
+    "description": "The label for category Project Zomboid in sidebar gameserverSidebar"
   }
 }
