@@ -57,3 +57,7 @@ p {
   height: 70%;
   display: inline-block;
 }
+
+.docusaurus-mt-lg {
+  margin-top: 1.8rem;
+}
