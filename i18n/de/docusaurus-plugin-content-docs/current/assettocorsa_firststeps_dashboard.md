@@ -1,6 +1,6 @@
 ---
 id: assettocorsa_firststeps_dashboard
-title: Assetto Corsa Dashboard Übersicht
+title: Dashboard Übersicht
 description: Informationen zum Dashboard eines Assetto Corsa Server von ZAP-Hosting - ZAP-Hosting.com Dokumentationen
 sidebar_label: Dashboard
 ---

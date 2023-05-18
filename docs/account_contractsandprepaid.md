@@ -1,6 +1,6 @@
 ---
 id: account_contractsandprepaid
-title: "Contracts & Prepaids - Contract options at ZAP-Hosting.com"
+title: Contracts & Prepaids - Contract options
 description: "Information about the different contract options at ZAP-Hosting contract and prepaid - ZAP-Hosting.com documentations"
 sidebar_label: Contracts & Prepaids
 ---

@@ -1,6 +1,6 @@
 ---
 id: spaceengineers_addmods
-title: Space Engineers Mods auf Server installieren
+title: Mods auf Server installieren
 description: Informationen, wie du Mod auf deinen Space Engeineers Server von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentationen
 sidebar_label: Mods installieren
 ---

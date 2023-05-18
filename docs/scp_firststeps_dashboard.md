@@ -1,6 +1,6 @@
 ---
 id: scp_firststeps_dashboard
-title: SCP Dashboard overview
+title: Dashboard overview
 description: Information about the dashboard of a SCP server from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Dashboard
 ---

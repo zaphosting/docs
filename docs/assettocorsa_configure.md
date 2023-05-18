@@ -1,6 +1,6 @@
 ---
 id: assettocorsa_configure
-title: "Assetto Corsa Configure your server"
+title: Configure your server
 description: Information about the configuration options of your Assetto Corsa server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Configure Server
 ---

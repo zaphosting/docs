@@ -1,6 +1,6 @@
 ---
 id: ark_configuration
-title: "ARK Server configuration at ZAP-Hosting"
+title: Server configuration
 description: Information about the configuration options in the web interface of your ARK server at ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Server Configuration
 ---

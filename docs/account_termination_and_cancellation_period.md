@@ -1,6 +1,6 @@
 ---
 id: account_termination_and_cancellation_period
-title: Cancellation and notice periods of contract servers at ZAP-Hosting
+title: Cancellation and notice periods of contract servers
 description: Information about cancellation periods and how to cancel a contract server at ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Termination and Cancellation
 ---

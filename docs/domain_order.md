@@ -1,6 +1,6 @@
 ---
 id: domain_order
-title: Domains Ordering a domain at ZAP-Hosting
+title: Ordering a domain
 description: Information about the process of ordering domains at ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Order a domain
 ---

@@ -1,6 +1,6 @@
 ---
 id: gameserver_firststeps_connect
-title: Satisfactory Dashboard overview
+title: Dashboard overview
 description: Information about the dashboard of a Satisfactory server from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Dashboard
 ---

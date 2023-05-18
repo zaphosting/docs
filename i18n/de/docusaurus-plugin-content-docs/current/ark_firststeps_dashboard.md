@@ -1,6 +1,6 @@
 ---
 id: ark_firststeps_dashboard
-title: ARK Dashboard Übersicht
+title: Dashboard Übersicht
 description: Informationen zum Dashboard eines ARK Server von ZAP-Hosting - ZAP-Hosting.com Dokumentationen
 sidebar_label: Dashboard
 ---

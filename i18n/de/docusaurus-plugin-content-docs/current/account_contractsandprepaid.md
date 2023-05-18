@@ -1,6 +1,6 @@
 ---
 id: account_contractsandprepaid
-title: Verträge & Prepaids - Vertragsoptionen bei ZAP-Hosting.com
+title: Verträge & Prepaids - Vertragsoptionen
 description: Informationen zu den verschiedenen Vertragsoptionen bei ZAP-Hosting Vertrag und Prepaid - ZAP-Hosting.com Dokumentationen
 sidebar_label: Verträge & Prepaids
 ---

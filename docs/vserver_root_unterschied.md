@@ -1,6 +1,6 @@
 ---
 id: vserver_root_unterschied
-title: Difference Rootserver / VPS at ZAP-Hosting
+title: Difference Rootserver / VPS
 description: Information on the differences between root servers and VPSs at ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Rootserver versus vServer
 ---

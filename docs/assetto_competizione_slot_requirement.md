@@ -1,6 +1,6 @@
 ---
 id: assetto_competizione_slot_requirement
-title: "Assetto Corsa Competizione Car Slot Requirement"
+title: Car Slot Requirement
 description: Information on how to increase your Car Slots and set the Requirement correctly - ZAP-Hosting.com documentation
 sidebar_label: Car Slot Requirement
 ---

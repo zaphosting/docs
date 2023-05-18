@@ -1,6 +1,6 @@
 ---
 id: gmod_ttt
-title: Garry's Mod TTT Konfiguration
+title: Konfiguration
 description: Informationen zu den Konfigurationsmöglichkeiten deines Garry's Mod TTT-Server von ZAP-Hosting -ZAP-Hosting.com Dokumentationen
 sidebar_label: Garry's Mod TTT Konfiguration
 ---

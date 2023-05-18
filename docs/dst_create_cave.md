@@ -1,6 +1,6 @@
 ---
 id: dst_create_cave
-title: Don't Starve Together Creating caves on servers
+title: Creating caves on servers
 description: Information on how to create and use caves on servers for Don't Starve Together - ZAP-Hosting.com documentation
 sidebar_label: Create Caves
 ---

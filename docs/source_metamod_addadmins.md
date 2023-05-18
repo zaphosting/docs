@@ -1,6 +1,6 @@
 ---
 id: source_metamod_addadmins
-title: Source Games Become a server admin
+title: Become a server admin
 description: Information on how to become an admin on your Source gameserver from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Become an admin
 ---
