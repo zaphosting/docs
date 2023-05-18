@@ -13,6 +13,10 @@ jobs:
   build-docusaurus:
     runs-on: self-hosted
     steps:
+      - name: 'Cleanup Workspace'
+        run: |
+          rm -rf ./* || true
+          rm -rf ./.??* || true
       - name: Check out Git repository
         uses: actions/checkout@v3
         with:
@@ -30,7 +34,7 @@ jobs:
       - name: Build Docusaurus
         run: |
           cd docusaurus
-          rm -rf build
+          rm -rf buil
           npm run build
           tar cf build.tar -C build --transform 's~^\./~~' .
       - name: Upload Artifacts
