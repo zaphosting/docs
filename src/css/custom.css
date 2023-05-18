@@ -41,3 +41,8 @@ table {
   width: 100%;
   display: table;
 }
+
+/* set text-align for paragrah to justify */
+p {
+  text-align: justify;
+}
