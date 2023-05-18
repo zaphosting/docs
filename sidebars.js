@@ -75,7 +75,7 @@ const sidebars = {
     },    
   ],
   
-
+  
   //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
   gameserverSidebar: [
     {
@@ -583,11 +583,11 @@ const sidebars = {
       label: 'First Steps',
       items: [
         'vserver_root_unterschied',
-		'vserver_vnc',
-		'vserver_network_analysis_winmtr',		
+        'vserver_vnc',
+        'vserver_network_analysis_winmtr',		
       ],
     },
-	 {
+    {
       type: 'category',
       label: 'Linux',
       items: [
@@ -628,36 +628,42 @@ const sidebars = {
         },	
       ],
     },
-	  {
+    {
       type: 'category',
       label: 'Windows',
       items: [
-        'vserver_windows_userdp',
-        'vserver_windows_port',
-        'vserver_windows_addip',
-        'vserver_windows_nointernet',
-        'vserver_windows_change_language',
-        'vserver_windows_expand_disk',
-      ],
-    },
-	 {
-      type: 'category',
-      label: 'Services (Windows)',
-      items: [
-        'vserver_windows_ftpserver',
-        'vserver_windows_installmysql',
-        'vserver_windows_plesk',
-      ],
-    },
-	{
-      type: 'category',
-      label: 'Game server services (Windows)',
-      items: [
-        'vserver_windows_valheim',
-        'vserver_windows_vrising',
-        'vserver_windows_satisfactory',
-        'vserver_windows_fs_19',
-        'vserver_windows_fs_22',
+        {
+          type: "category",
+          label: "General",
+          items: [
+            'vserver_windows_userdp',
+            'vserver_windows_port',
+            'vserver_windows_addip',
+            'vserver_windows_nointernet',
+            'vserver_windows_change_language',
+            'vserver_windows_expand_disk',
+          ]
+        },
+        {
+          type: "category",
+          label: "Services",
+          items: [
+            'vserver_windows_ftpserver',
+            'vserver_windows_installmysql',
+            'vserver_windows_plesk',
+          ]
+        },
+        {
+          type: "category",
+          label: "Gameserver services",
+          items: [
+            'vserver_windows_valheim',
+            'vserver_windows_vrising',
+            'vserver_windows_satisfactory',
+            'vserver_windows_fs_19',
+            'vserver_windows_fs_22',
+          ]
+        },		
       ],
     },
   ],
@@ -669,20 +675,20 @@ const sidebars = {
       label: 'First Steps',
       items: [
         'dedicated_ilo',
-		'dedicated_iso',
-		'dedicated_raid',			
-		'dedicated_reset',		
+        'dedicated_iso',
+        'dedicated_raid',			
+        'dedicated_reset',		
       ],
     },
-	{
+    {
       type: 'category',
       label: 'Operating system',
       items: [
         'dedicated_windows',
-		'dedicated_linux_debian',
-		'dedicated_linux_ubuntu',		
-		'dedicated_freebsd',		
-		'dedicated_centos',		
+        'dedicated_linux_debian',
+        'dedicated_linux_ubuntu',		
+        'dedicated_freebsd',		
+        'dedicated_centos',		
       ],
     }, 
   ],
@@ -693,7 +699,7 @@ const sidebars = {
       type: 'category',
       label: 'Domain',
       items: [
-		'domain_general_domain_info',
+        'domain_general_domain_info',
         'domain_order',
         'domain_easydns',
         'domain_profidns',
@@ -703,17 +709,17 @@ const sidebars = {
         'domain_teamspeak_redirect',		
       ],
     }, 
-	{
+    {
       type: 'category',
       label: 'Webspace',
       items: [
-		'webspace_adddomain',
-		'webspace_plesk_ftp',
-		'webspace_plesk_sendmail',
-		'webspace_plesk_ssl',
-		'webspace_htaccess_discord',
-		'webspace_mybb',
-		'webspace_wordpress',		
+        'webspace_adddomain',
+        'webspace_plesk_ftp',
+        'webspace_plesk_sendmail',
+        'webspace_plesk_ssl',
+        'webspace_htaccess_discord',
+        'webspace_mybb',
+        'webspace_wordpress',		
       ],
     }, 	
   ],
@@ -724,15 +730,15 @@ const sidebars = {
       type: 'category',
       label: 'Voicebot',
       items: [
-		'voiceserver_voicebot_connection',
-	
+        'voiceserver_voicebot_connection',
+        
       ],
     }, 
-	{
+    {
       type: 'category',
       label: 'Voiceserver',
       items: [
-		'voiceserver_becomeadmin',
+        'voiceserver_becomeadmin',
         'voiceserver_configuration',
         'voiceserver_ts3backup',
         'voiceserver_query',
