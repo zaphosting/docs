@@ -34,7 +34,7 @@ jobs:
       - name: Build Docusaurus
         run: |
           cd docusaurus
-          rm -rf buil
+          rm -rf build
           npm run build
           tar cf build.tar -C build --transform 's~^\./~~' .
       - name: Upload Artifacts
