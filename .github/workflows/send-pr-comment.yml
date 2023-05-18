@@ -5,7 +5,7 @@ on:
     types:
       - completed
     workflows:
-      - 'build-docusaurus'
+      - 'Build Docusaurus'
 
 jobs:
   comment:
