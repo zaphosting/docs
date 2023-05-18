@@ -1,0 +1,29 @@
+{
+  "unversionedId": "fivem_dashboard",
+  "id": "fivem_dashboard",
+  "title": "Administration via the web interface dashboard",
+  "description": "Information about the settings options of FiveM servers from ZAP-Hosting in the Web Interface Dashboard - ZAP-Hosting.com documentation",
+  "source": "@site/docs/fivem_dashboard.md",
+  "sourceDirName": ".",
+  "slug": "/fivem_dashboard",
+  "permalink": "/guides/docs/fivem_dashboard",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/fivem_dashboard.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "fivem_dashboard",
+    "title": "Administration via the web interface dashboard",
+    "description": "Information about the settings options of FiveM servers from ZAP-Hosting in the Web Interface Dashboard - ZAP-Hosting.com documentation",
+    "sidebar_label": "Dashboard"
+  },
+  "sidebar": "gameserverSidebar",
+  "previous": {
+    "title": "Mods Installation",
+    "permalink": "/guides/docs/minecraft_forge_add_mods"
+  },
+  "next": {
+    "title": "Upvotes",
+    "permalink": "/guides/docs/fivem_upvotes"
+  }
+}

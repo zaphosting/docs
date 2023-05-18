@@ -1,0 +1,29 @@
+{
+  "unversionedId": "webspace_htaccess_discord",
+  "id": "webspace_htaccess_discord",
+  "title": "Set up Discord forwarding via domain",
+  "description": "Information on how to add a Discord forwarding domain to your webspace from ZAP-Hosting - ZAP-Hosting.com documentation",
+  "source": "@site/docs/webspace_htaccess_discord.md",
+  "sourceDirName": ".",
+  "slug": "/webspace_htaccess_discord",
+  "permalink": "/guides/docs/webspace_htaccess_discord",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/webspace_htaccess_discord.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "webspace_htaccess_discord",
+    "title": "Set up Discord forwarding via domain",
+    "description": "Information on how to add a Discord forwarding domain to your webspace from ZAP-Hosting - ZAP-Hosting.com documentation",
+    "sidebar_label": "Discord forwarding via domain"
+  },
+  "sidebar": "domainwebspaceSidebar",
+  "previous": {
+    "title": "Create SSL Certificate",
+    "permalink": "/guides/docs/webspace_plesk_ssl"
+  },
+  "next": {
+    "title": "Install MyBB",
+    "permalink": "/guides/docs/webspace_mybb"
+  }
+}

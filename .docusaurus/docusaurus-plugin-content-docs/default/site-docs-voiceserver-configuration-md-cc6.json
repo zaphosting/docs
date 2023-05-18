@@ -1,0 +1,29 @@
+{
+  "unversionedId": "voiceserver_configuration",
+  "id": "voiceserver_configuration",
+  "title": "Configuration",
+  "description": "Information on how to configure your Teamspeak server from ZAP-Hosting - ZAP-Hosting.com documentation",
+  "source": "@site/docs/voiceserver_configuration.md",
+  "sourceDirName": ".",
+  "slug": "/voiceserver_configuration",
+  "permalink": "/guides/docs/voiceserver_configuration",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/voiceserver_configuration.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "voiceserver_configuration",
+    "title": "Configuration",
+    "description": "Information on how to configure your Teamspeak server from ZAP-Hosting - ZAP-Hosting.com documentation",
+    "sidebar_label": "Server configuration"
+  },
+  "sidebar": "voiceserverbotSidebar",
+  "previous": {
+    "title": "Become Admin",
+    "permalink": "/guides/docs/voiceserver_becomeadmin"
+  },
+  "next": {
+    "title": "Ts3 Backup",
+    "permalink": "/guides/docs/voiceserver_ts3backup"
+  }
+}

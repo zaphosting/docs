@@ -1,0 +1,29 @@
+{
+  "unversionedId": "redm_change_servericon",
+  "id": "redm_change_servericon",
+  "title": "Server Icon für Serverliste ändern",
+  "description": "Informationen, wie du das Servericon für RedM-Server von ZAP-Hosting ändern kannst - ZAP-Hosting.com Dokumentationen",
+  "source": "@site/i18n/de/docusaurus-plugin-content-docs/current/redm_change_servericon.md",
+  "sourceDirName": ".",
+  "slug": "/redm_change_servericon",
+  "permalink": "/guides/de/docs/redm_change_servericon",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/redm_change_servericon.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "redm_change_servericon",
+    "title": "Server Icon für Serverliste ändern",
+    "description": "Informationen, wie du das Servericon für RedM-Server von ZAP-Hosting ändern kannst - ZAP-Hosting.com Dokumentationen",
+    "sidebar_label": "Server Icon ändern"
+  },
+  "sidebar": "gameserverSidebar",
+  "previous": {
+    "title": "Admin werden",
+    "permalink": "/guides/de/docs/fivem_qbcore_admin"
+  },
+  "next": {
+    "title": "Resource installieren",
+    "permalink": "/guides/de/docs/redm_installresources"
+  }
+}

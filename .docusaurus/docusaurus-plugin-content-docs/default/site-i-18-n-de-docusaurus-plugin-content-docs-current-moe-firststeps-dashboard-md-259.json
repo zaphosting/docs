@@ -1,0 +1,20 @@
+{
+  "unversionedId": "moe_firststeps_dashboard",
+  "id": "moe_firststeps_dashboard",
+  "title": "Myth of Empires Dashboard Übersicht",
+  "description": "Informationen zum Dashboard eines Myth of Empires von ZAP-Hosting - ZAP-Hosting.com Dokumentationen",
+  "source": "@site/i18n/de/docusaurus-plugin-content-docs/current/moe_firststeps_dashboard.md",
+  "sourceDirName": ".",
+  "slug": "/moe_firststeps_dashboard",
+  "permalink": "/guides/de/docs/moe_firststeps_dashboard",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/moe_firststeps_dashboard.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "moe_firststeps_dashboard",
+    "title": "Myth of Empires Dashboard Übersicht",
+    "description": "Informationen zum Dashboard eines Myth of Empires von ZAP-Hosting - ZAP-Hosting.com Dokumentationen",
+    "sidebar_label": "Dashboard"
+  }
+}

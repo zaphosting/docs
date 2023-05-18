@@ -1,0 +1,29 @@
+{
+  "unversionedId": "unturned_workshop",
+  "id": "unturned_workshop",
+  "title": "Install Workshop content on server",
+  "description": "Information on how to install Steam Workshop content and mods on your Unturned server from ZAP-Hosting - ZAP-Hosting.com documentation",
+  "source": "@site/docs/unturned_workshop.md",
+  "sourceDirName": ".",
+  "slug": "/unturned_workshop",
+  "permalink": "/guides/docs/unturned_workshop",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/unturned_workshop.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "unturned_workshop",
+    "title": "Install Workshop content on server",
+    "description": "Information on how to install Steam Workshop content and mods on your Unturned server from ZAP-Hosting - ZAP-Hosting.com documentation",
+    "sidebar_label": "Workshop Content"
+  },
+  "sidebar": "gameserverSidebar",
+  "previous": {
+    "title": "Become Admin",
+    "permalink": "/guides/docs/unturned_becomeadmin"
+  },
+  "next": {
+    "title": "1st/3rd Person",
+    "permalink": "/guides/docs/unturned_firstthirdperson"
+  }
+}

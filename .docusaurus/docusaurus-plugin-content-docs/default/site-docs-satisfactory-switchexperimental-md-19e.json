@@ -1,0 +1,29 @@
+{
+  "unversionedId": "satisfactory_switchexperimental",
+  "id": "satisfactory_switchexperimental",
+  "title": "Experimental Build",
+  "description": "Information on Experimental Build for Satisfactory from ZAP-Hosting - ZAP-Hosting.com documentation",
+  "source": "@site/docs/satisfactory_switchexperimental.md",
+  "sourceDirName": ".",
+  "slug": "/satisfactory_switchexperimental",
+  "permalink": "/guides/docs/satisfactory_switchexperimental",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/satisfactory_switchexperimental.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "satisfactory_switchexperimental",
+    "title": "Experimental Build",
+    "description": "Information on Experimental Build for Satisfactory from ZAP-Hosting - ZAP-Hosting.com documentation",
+    "sidebar_label": "Experimental Build"
+  },
+  "sidebar": "gameserverSidebar",
+  "previous": {
+    "title": "Savegame Manager",
+    "permalink": "/guides/docs/satisfactory_savegame"
+  },
+  "next": {
+    "title": "Console Commands",
+    "permalink": "/guides/docs/satisfactory_commands"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "unversionedId": "7d2d_commands",
+  "id": "7d2d_commands",
+  "title": "Befehle ausführen",
+  "description": "Information, wie du Server Befehle bei deinem 7 Days to Die Server von ZAP-Hosting ausführen kannst - ZAP-Hosting.com Dokumentation",
+  "source": "@site/i18n/de/docusaurus-plugin-content-docs/current/7d2d_commands.md",
+  "sourceDirName": ".",
+  "slug": "/7d2d_commands",
+  "permalink": "/guides/de/docs/7d2d_commands",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/7d2d_commands.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "7d2d_commands",
+    "title": "Befehle ausführen",
+    "description": "Information, wie du Server Befehle bei deinem 7 Days to Die Server von ZAP-Hosting ausführen kannst - ZAP-Hosting.com Dokumentation",
+    "sidebar_label": "Befehle ausführen"
+  },
+  "sidebar": "gameserverSidebar",
+  "previous": {
+    "title": "Mods installieren",
+    "permalink": "/guides/de/docs/7d2d_mods"
+  },
+  "next": {
+    "title": "Admin werden",
+    "permalink": "/guides/de/docs/avorion_becomeadmin"
+  }
+}

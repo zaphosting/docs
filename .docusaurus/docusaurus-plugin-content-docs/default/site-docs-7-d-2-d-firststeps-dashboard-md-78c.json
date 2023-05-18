@@ -1,0 +1,20 @@
+{
+  "unversionedId": "7d2d_firststeps_dashboard",
+  "id": "7d2d_firststeps_dashboard",
+  "title": "Dashboard overview",
+  "description": "Information about the dashboard of a 7 Days to Die server from ZAP-Hosting - ZAP-Hosting.com Documentation",
+  "source": "@site/docs/7d2d_firststeps_dashboard.md",
+  "sourceDirName": ".",
+  "slug": "/7d2d_firststeps_dashboard",
+  "permalink": "/guides/docs/7d2d_firststeps_dashboard",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/7d2d_firststeps_dashboard.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "7d2d_firststeps_dashboard",
+    "title": "Dashboard overview",
+    "description": "Information about the dashboard of a 7 Days to Die server from ZAP-Hosting - ZAP-Hosting.com Documentation",
+    "sidebar_label": "Dashboard"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "unversionedId": "altv_installresources",
+  "id": "altv_installresources",
+  "title": "Resourcen auf dem Server installieren",
+  "description": "Wie installiere ich Mods und Resourcen auf einen AltV-Server? ZAP-Hosting.com Dokumentationen",
+  "source": "@site/i18n/de/docusaurus-plugin-content-docs/current/altv_installresources.md",
+  "sourceDirName": ".",
+  "slug": "/altv_installresources",
+  "permalink": "/guides/de/docs/altv_installresources",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/altv_installresources.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "altv_installresources",
+    "title": "Resourcen auf dem Server installieren",
+    "description": "Wie installiere ich Mods und Resourcen auf einen AltV-Server? ZAP-Hosting.com Dokumentationen",
+    "sidebar_label": "Resourcen Installieren"
+  },
+  "sidebar": "gameserverSidebar",
+  "previous": {
+    "title": "Pakete Installieren",
+    "permalink": "/guides/de/docs/ragemp_installpackages"
+  },
+  "next": {
+    "title": "Zum Server binden (Experimental)",
+    "permalink": "/guides/de/docs/satisfactory_connect_experimental"
+  }
+}

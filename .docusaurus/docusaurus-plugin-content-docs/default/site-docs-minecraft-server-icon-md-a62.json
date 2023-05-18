@@ -1,0 +1,29 @@
+{
+  "unversionedId": "minecraft_server-icon",
+  "id": "minecraft_server-icon",
+  "title": "Add or change server icon",
+  "description": "Information on how to add or change a server icon for your Minecraft server from ZAP-Hosting - ZAP-Hosting.com Documentation",
+  "source": "@site/docs/minecraft_server-icon.md",
+  "sourceDirName": ".",
+  "slug": "/minecraft_server-icon",
+  "permalink": "/guides/docs/minecraft_server-icon",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/minecraft_server-icon.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "minecraft_server-icon",
+    "title": "Add or change server icon",
+    "description": "Information on how to add or change a server icon for your Minecraft server from ZAP-Hosting - ZAP-Hosting.com Documentation",
+    "sidebar_label": "Server Icon"
+  },
+  "sidebar": "gameserverSidebar",
+  "previous": {
+    "title": "Server Config",
+    "permalink": "/guides/docs/minecraft_default_config"
+  },
+  "next": {
+    "title": "Add your own world",
+    "permalink": "/guides/docs/minecraft_add_own_world"
+  }
+}

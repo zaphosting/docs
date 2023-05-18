@@ -722,5 +722,29 @@
   "sidebar.vpsrootSidebar.category.Core Keeper": {
     "message": "Core Keeper",
     "description": "The label for category Core Keeper in sidebar vpsrootSidebar"
+  },
+  "sidebar.gameserverSidebar.category.General": {
+    "message": "General",
+    "description": "The label for category General in sidebar gameserverSidebar"
+  },
+  "sidebar.dedicatedserverSidebar.category.First Steps": {
+    "message": "First Steps",
+    "description": "The label for category First Steps in sidebar dedicatedserverSidebar"
+  },
+  "sidebar.domainwebspaceSidebar.category.Domain": {
+    "message": "Domain",
+    "description": "The label for category Domain in sidebar domainwebspaceSidebar"
+  },
+  "sidebar.domainwebspaceSidebar.category.Webspace": {
+    "message": "Webspace",
+    "description": "The label for category Webspace in sidebar domainwebspaceSidebar"
+  },
+  "sidebar.voiceserverbotSidebar.category.Voicebot": {
+    "message": "Voicebot",
+    "description": "The label for category Voicebot in sidebar voiceserverbotSidebar"
+  },
+  "sidebar.voiceserverbotSidebar.category.Voiceserver": {
+    "message": "Voiceserver",
+    "description": "The label for category Voiceserver in sidebar voiceserverbotSidebar"
   }
 }

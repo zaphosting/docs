@@ -1,0 +1,29 @@
+{
+  "unversionedId": "fivem_esx_becomeadminoverdatabase",
+  "id": "fivem_esx_becomeadminoverdatabase",
+  "title": "Become admin over the database",
+  "description": "Information on how to become admin over database of your FiveM server with ESX from ZAP-Hosting - ZAP-Hosting.com documentation",
+  "source": "@site/docs/fivem_esx_becomeadminoverdatabase.md",
+  "sourceDirName": ".",
+  "slug": "/fivem_esx_becomeadminoverdatabase",
+  "permalink": "/guides/docs/fivem_esx_becomeadminoverdatabase",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/fivem_esx_becomeadminoverdatabase.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "fivem_esx_becomeadminoverdatabase",
+    "title": "Become admin over the database",
+    "description": "Information on how to become admin over database of your FiveM server with ESX from ZAP-Hosting - ZAP-Hosting.com documentation",
+    "sidebar_label": "Become Admin over the Database"
+  },
+  "sidebar": "gameserverSidebar",
+  "previous": {
+    "title": "Change Money Icon",
+    "permalink": "/guides/docs/fivem_esx_changemoneyicon"
+  },
+  "next": {
+    "title": "Disable HUD",
+    "permalink": "/guides/docs/fivem_esx_disablehud"
+  }
+}

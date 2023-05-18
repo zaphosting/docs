@@ -1,0 +1,29 @@
+{
+  "unversionedId": "rust_commands",
+  "id": "rust_commands",
+  "title": "Admin Commands",
+  "description": "Information on Admin commands for Rust from ZAP-Hosting - ZAP-Hosting.com documentation",
+  "source": "@site/docs/rust_commands.md",
+  "sourceDirName": ".",
+  "slug": "/rust_commands",
+  "permalink": "/guides/docs/rust_commands",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/rust_commands.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "rust_commands",
+    "title": "Admin Commands",
+    "description": "Information on Admin commands for Rust from ZAP-Hosting - ZAP-Hosting.com documentation",
+    "sidebar_label": "Admin Commands"
+  },
+  "sidebar": "gameserverSidebar",
+  "previous": {
+    "title": "Connect via RCON",
+    "permalink": "/guides/docs/rust_connectrcon"
+  },
+  "next": {
+    "title": "Plugins Install",
+    "permalink": "/guides/docs/rust_plugins"
+  }
+}

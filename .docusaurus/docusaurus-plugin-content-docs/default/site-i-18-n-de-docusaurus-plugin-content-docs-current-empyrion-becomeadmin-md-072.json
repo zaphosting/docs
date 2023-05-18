@@ -1,0 +1,29 @@
+{
+  "unversionedId": "empyrion_becomeadmin",
+  "id": "empyrion_becomeadmin",
+  "title": "Admin werden",
+  "description": "Informationen, wie du Admin auf deinem Empyrion-Server bei ZAP-Hosting wirst - ZAP-Hosting.com Dokumentationen",
+  "source": "@site/i18n/de/docusaurus-plugin-content-docs/current/empyrion_becomeadmin.md",
+  "sourceDirName": ".",
+  "slug": "/empyrion_becomeadmin",
+  "permalink": "/guides/de/docs/empyrion_becomeadmin",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/empyrion_becomeadmin.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "empyrion_becomeadmin",
+    "title": "Admin werden",
+    "description": "Informationen, wie du Admin auf deinem Empyrion-Server bei ZAP-Hosting wirst - ZAP-Hosting.com Dokumentationen",
+    "sidebar_label": "Admin werden"
+  },
+  "sidebar": "gameserverSidebar",
+  "previous": {
+    "title": "Höhlen erstellen",
+    "permalink": "/guides/de/docs/dst_create_cave"
+  },
+  "next": {
+    "title": "Admin werden",
+    "permalink": "/guides/de/docs/rust_becomeadmin"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "unversionedId": "account_partner_system",
+  "id": "account_partner_system",
+  "title": "Partner-System - Vorteile und Konditionen einer Partnerschaft mit ZAP-Hosting",
+  "description": "Informationen, wie du dich als Partner bewerben kannst, was die Anforderungen sind und was wir bieten können - ZAP-Hosting.com Dokumentationen",
+  "source": "@site/i18n/de/docusaurus-plugin-content-docs/current/account_partner_system.md",
+  "sourceDirName": ".",
+  "slug": "/account_partner_system",
+  "permalink": "/guides/de/docs/account_partner_system",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/account_partner_system.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "account_partner_system",
+    "title": "Partner-System - Vorteile und Konditionen einer Partnerschaft mit ZAP-Hosting",
+    "description": "Informationen, wie du dich als Partner bewerben kannst, was die Anforderungen sind und was wir bieten können - ZAP-Hosting.com Dokumentationen",
+    "sidebar_label": "Partner-System"
+  },
+  "sidebar": "guidesSidebar",
+  "previous": {
+    "title": "Sicherheit",
+    "permalink": "/guides/de/docs/account_security"
+  },
+  "next": {
+    "title": "Partner Guide",
+    "permalink": "/guides/de/docs/partner-guide"
+  }
+}

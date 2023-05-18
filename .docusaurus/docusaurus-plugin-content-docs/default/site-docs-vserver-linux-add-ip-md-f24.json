@@ -1,0 +1,20 @@
+{
+  "unversionedId": "vserver_linux_add_ip",
+  "id": "vserver_linux_add_ip",
+  "title": "Add IPv4 address to server",
+  "description": "Information on how to add an IPv4 address to your vServer from ZAP-Hosting - ZAP-Hosting.com documentation",
+  "source": "@site/docs/vserver_linux_add_ip.md",
+  "sourceDirName": ".",
+  "slug": "/vserver_linux_add_ip",
+  "permalink": "/guides/docs/vserver_linux_add_ip",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/vserver_linux_add_ip.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "vserver_linux_add_ip",
+    "title": "Add IPv4 address to server",
+    "description": "Information on how to add an IPv4 address to your vServer from ZAP-Hosting - ZAP-Hosting.com documentation",
+    "sidebar_label": "Add IPv4 Address"
+  }
+}

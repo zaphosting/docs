@@ -1,0 +1,29 @@
+{
+  "unversionedId": "domain_expertdns",
+  "id": "domain_expertdns",
+  "title": "ExpertDNS",
+  "description": "Informationen zu den ExpertDNS Domaineinstellungen bei ZAP-Hosting - ZAP-hosting.com Dokumentationen",
+  "source": "@site/i18n/de/docusaurus-plugin-content-docs/current/domain_expertdns.md",
+  "sourceDirName": ".",
+  "slug": "/domain_expertdns",
+  "permalink": "/guides/de/docs/domain_expertdns",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/domain_expertdns.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "domain_expertdns",
+    "title": "ExpertDNS",
+    "description": "Informationen zu den ExpertDNS Domaineinstellungen bei ZAP-Hosting - ZAP-hosting.com Dokumentationen",
+    "sidebar_label": "ExpertDNS"
+  },
+  "sidebar": "domainwebspaceSidebar",
+  "previous": {
+    "title": "ProfiDNS",
+    "permalink": "/guides/de/docs/domain_profidns"
+  },
+  "next": {
+    "title": "Domain Records",
+    "permalink": "/guides/de/docs/domain_records"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "unversionedId": "fivem_esx_changemoneyicon",
+  "id": "fivem_esx_changemoneyicon",
+  "title": "Change money icon",
+  "description": "Information on how to change the money icon on your FiveM server with ESX from ZAP-Hosting - ZAP-Hosting.com documentation",
+  "source": "@site/docs/fivem_esx_changemoneyicon.md",
+  "sourceDirName": ".",
+  "slug": "/fivem_esx_changemoneyicon",
+  "permalink": "/guides/docs/fivem_esx_changemoneyicon",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/fivem_esx_changemoneyicon.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "fivem_esx_changemoneyicon",
+    "title": "Change money icon",
+    "description": "Information on how to change the money icon on your FiveM server with ESX from ZAP-Hosting - ZAP-Hosting.com documentation",
+    "sidebar_label": "Change Money Icon"
+  },
+  "sidebar": "gameserverSidebar",
+  "previous": {
+    "title": "Deactivate the Inventory (F2)",
+    "permalink": "/guides/docs/fivem_esx_disableinventory"
+  },
+  "next": {
+    "title": "Become Admin over the Database",
+    "permalink": "/guides/docs/fivem_esx_becomeadminoverdatabase"
+  }
+}

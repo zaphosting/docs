@@ -1,0 +1,29 @@
+{
+  "unversionedId": "firststeps_problem_melden",
+  "id": "firststeps_problem_melden",
+  "title": "What to do if you have problems with your server?",
+  "description": "Information on how to contact support if you have problems with your ZAP-Hosting server - ZAP-Hosting.com documentation",
+  "source": "@site/docs/firststeps_problem_melden.md",
+  "sourceDirName": ".",
+  "slug": "/firststeps_problem_melden",
+  "permalink": "/guides/docs/firststeps_problem_melden",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/firststeps_problem_melden.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "firststeps_problem_melden",
+    "title": "What to do if you have problems with your server?",
+    "description": "Information on how to contact support if you have problems with your ZAP-Hosting server - ZAP-Hosting.com documentation",
+    "sidebar_label": "Report problems"
+  },
+  "sidebar": "guidesSidebar",
+  "previous": {
+    "title": "Submit Suggestions",
+    "permalink": "/guides/docs/suggestions"
+  },
+  "next": {
+    "title": "Create Screenshots",
+    "permalink": "/guides/docs/create_screenshots"
+  }
+}

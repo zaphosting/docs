@@ -1,0 +1,29 @@
+{
+  "unversionedId": "webspace_plesk_sendmail",
+  "id": "webspace_plesk_sendmail",
+  "title": "Email Adressen einrichten und E-Mails verschicken",
+  "description": "Informationen, wie du Email Adressen für deinen Webspace von ZAP-Hosting einrichten kannst, um Emails zu verschicken und zu empfangen - ZAP-hosting.com Dokumentationen",
+  "source": "@site/i18n/de/docusaurus-plugin-content-docs/current/webspace_plesk_sendmail.md",
+  "sourceDirName": ".",
+  "slug": "/webspace_plesk_sendmail",
+  "permalink": "/guides/de/docs/webspace_plesk_sendmail",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/webspace_plesk_sendmail.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "webspace_plesk_sendmail",
+    "title": "Email Adressen einrichten und E-Mails verschicken",
+    "description": "Informationen, wie du Email Adressen für deinen Webspace von ZAP-Hosting einrichten kannst, um Emails zu verschicken und zu empfangen - ZAP-hosting.com Dokumentationen",
+    "sidebar_label": "E-Mails verschicken"
+  },
+  "sidebar": "domainwebspaceSidebar",
+  "previous": {
+    "title": "FTP Verbindung Anlegen",
+    "permalink": "/guides/de/docs/webspace_plesk_ftp"
+  },
+  "next": {
+    "title": "SSL Zertifikat erstellen",
+    "permalink": "/guides/de/docs/webspace_plesk_ssl"
+  }
+}

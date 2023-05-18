@@ -1,0 +1,20 @@
+{
+  "unversionedId": "vserver_windows_vrising",
+  "id": "vserver_windows_vrising",
+  "title": "Install V-Rising  on Windows",
+  "description": "Information on how to install and set up a V-Rising Server on your Windows vServer and Dedicated Server from ZAP-Hosting - ZAP-Hosting.com Documentations",
+  "source": "@site/docs/vserver_windows_vrising.md",
+  "sourceDirName": ".",
+  "slug": "/vserver_windows_vrising",
+  "permalink": "/guides/docs/vserver_windows_vrising",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/vserver_windows_vrising.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "vserver_windows_vrising",
+    "title": "Install V-Rising  on Windows",
+    "description": "Information on how to install and set up a V-Rising Server on your Windows vServer and Dedicated Server from ZAP-Hosting - ZAP-Hosting.com Documentations",
+    "sidebar_label": "V-Rising"
+  }
+}

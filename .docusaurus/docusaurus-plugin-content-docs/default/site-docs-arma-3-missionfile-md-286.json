@@ -1,0 +1,29 @@
+{
+  "unversionedId": "arma3_missionfile",
+  "id": "arma3_missionfile",
+  "title": "Upload your own mission file",
+  "description": "Information on how to add your own mission file to your Arma 3 server from ZAP-Hosting - ZAP-Hosting.com Documentation",
+  "source": "@site/docs/arma3_missionfile.md",
+  "sourceDirName": ".",
+  "slug": "/arma3_missionfile",
+  "permalink": "/guides/docs/arma3_missionfile",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/arma3_missionfile.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "arma3_missionfile",
+    "title": "Upload your own mission file",
+    "description": "Information on how to add your own mission file to your Arma 3 server from ZAP-Hosting - ZAP-Hosting.com Documentation",
+    "sidebar_label": "Upload your own mission file"
+  },
+  "sidebar": "gameserverSidebar",
+  "previous": {
+    "title": "Change game mode",
+    "permalink": "/guides/docs/arma3_gamemode"
+  },
+  "next": {
+    "title": "Become Admin",
+    "permalink": "/guides/docs/ark_becomeadmin"
+  }
+}

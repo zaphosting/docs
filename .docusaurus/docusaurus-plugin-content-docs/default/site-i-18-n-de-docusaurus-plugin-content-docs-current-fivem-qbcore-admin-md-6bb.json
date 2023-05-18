@@ -1,0 +1,29 @@
+{
+  "unversionedId": "fivem_qbcore_admin",
+  "id": "fivem_qbcore_admin",
+  "title": "QBCore Server Admin werden",
+  "description": "Informationen, wie du auf deinem FiveM QBCore Server admin werden kannst. - ZAP-Hosting.com Dokumentationen",
+  "source": "@site/i18n/de/docusaurus-plugin-content-docs/current/fivem_qbcore_admin.md",
+  "sourceDirName": ".",
+  "slug": "/fivem_qbcore_admin",
+  "permalink": "/guides/de/docs/fivem_qbcore_admin",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/fivem_qbcore_admin.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "fivem_qbcore_admin",
+    "title": "QBCore Server Admin werden",
+    "description": "Informationen, wie du auf deinem FiveM QBCore Server admin werden kannst. - ZAP-Hosting.com Dokumentationen",
+    "sidebar_label": "Admin werden"
+  },
+  "sidebar": "gameserverSidebar",
+  "previous": {
+    "title": "txAdmin Interface",
+    "permalink": "/guides/de/docs/fivem_txadmin_features"
+  },
+  "next": {
+    "title": "Server Icon ändern",
+    "permalink": "/guides/de/docs/redm_change_servericon"
+  }
+}

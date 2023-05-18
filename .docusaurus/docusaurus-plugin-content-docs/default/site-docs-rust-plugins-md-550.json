@@ -1,0 +1,29 @@
+{
+  "unversionedId": "rust_plugins",
+  "id": "rust_plugins",
+  "title": "Installing plugins on your server",
+  "description": "Information on how to install plugins on your Rust server from ZAP-Hosting - ZAP-Hosting.com documentation",
+  "source": "@site/docs/rust_plugins.md",
+  "sourceDirName": ".",
+  "slug": "/rust_plugins",
+  "permalink": "/guides/docs/rust_plugins",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/rust_plugins.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "rust_plugins",
+    "title": "Installing plugins on your server",
+    "description": "Information on how to install plugins on your Rust server from ZAP-Hosting - ZAP-Hosting.com documentation",
+    "sidebar_label": "Plugins Install"
+  },
+  "sidebar": "gameserverSidebar",
+  "previous": {
+    "title": "Admin Commands",
+    "permalink": "/guides/docs/rust_commands"
+  },
+  "next": {
+    "title": "Decay",
+    "permalink": "/guides/docs/rust_decay"
+  }
+}

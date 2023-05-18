@@ -1,0 +1,29 @@
+{
+  "unversionedId": "webspace_plesk_ssl",
+  "id": "webspace_plesk_ssl",
+  "title": "SSL Zertifikat erstellen",
+  "description": "Informationen, wie du eni SSL Zertifikat für deinen Webspace von ZAP-Hosting erstellen kannst - ZAP-Hosting.com Dokumentationen",
+  "source": "@site/i18n/de/docusaurus-plugin-content-docs/current/webspace_plesk_ssl.md",
+  "sourceDirName": ".",
+  "slug": "/webspace_plesk_ssl",
+  "permalink": "/guides/de/docs/webspace_plesk_ssl",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/webspace_plesk_ssl.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "webspace_plesk_ssl",
+    "title": "SSL Zertifikat erstellen",
+    "description": "Informationen, wie du eni SSL Zertifikat für deinen Webspace von ZAP-Hosting erstellen kannst - ZAP-Hosting.com Dokumentationen",
+    "sidebar_label": "SSL Zertifikat erstellen"
+  },
+  "sidebar": "domainwebspaceSidebar",
+  "previous": {
+    "title": "E-Mails verschicken",
+    "permalink": "/guides/de/docs/webspace_plesk_sendmail"
+  },
+  "next": {
+    "title": "Discord Weiterleitung via Domain",
+    "permalink": "/guides/de/docs/webspace_htaccess_discord"
+  }
+}

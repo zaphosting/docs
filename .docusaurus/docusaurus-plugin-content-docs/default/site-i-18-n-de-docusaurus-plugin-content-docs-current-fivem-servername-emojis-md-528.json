@@ -1,0 +1,29 @@
+{
+  "unversionedId": "fivem_servername_emojis",
+  "id": "fivem_servername_emojis",
+  "title": "Emojis im Servernamen anzeigen lassen",
+  "description": "Informationen, wie die Emojis im Servernamen deines FiveM-Servers in der Serverliste anzeigen lassen kannst - ZAP-Hosting.com Dokumentationen",
+  "source": "@site/i18n/de/docusaurus-plugin-content-docs/current/fivem_servername_emojis.md",
+  "sourceDirName": ".",
+  "slug": "/fivem_servername_emojis",
+  "permalink": "/guides/de/docs/fivem_servername_emojis",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/fivem_servername_emojis.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "fivem_servername_emojis",
+    "title": "Emojis im Servernamen anzeigen lassen",
+    "description": "Informationen, wie die Emojis im Servernamen deines FiveM-Servers in der Serverliste anzeigen lassen kannst - ZAP-Hosting.com Dokumentationen",
+    "sidebar_label": "Emojis in Server Name"
+  },
+  "sidebar": "gameserverSidebar",
+  "previous": {
+    "title": "Server Icon Ändern",
+    "permalink": "/guides/de/docs/fivem_change_servericon"
+  },
+  "next": {
+    "title": "Servernamen färben",
+    "permalink": "/guides/de/docs/fivem_servername_color"
+  }
+}

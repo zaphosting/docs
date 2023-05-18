@@ -1,0 +1,29 @@
+{
+  "unversionedId": "cs16_plugins",
+  "id": "cs16_plugins",
+  "title": "Install plugins on your own server",
+  "description": "Information on how to install plugins on your CS 1.6 server from ZAP-Hosting - ZAP-Hosting.com documentation",
+  "source": "@site/docs/cs16_plugins.md",
+  "sourceDirName": ".",
+  "slug": "/cs16_plugins",
+  "permalink": "/guides/docs/cs16_plugins",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/cs16_plugins.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "cs16_plugins",
+    "title": "Install plugins on your own server",
+    "description": "Information on how to install plugins on your CS 1.6 server from ZAP-Hosting - ZAP-Hosting.com documentation",
+    "sidebar_label": "Install Plugins"
+  },
+  "sidebar": "gameserverSidebar",
+  "previous": {
+    "title": "Become Admin",
+    "permalink": "/guides/docs/cs16_becomeadmin"
+  },
+  "next": {
+    "title": "Garry's Mod Server.cfg Modification",
+    "permalink": "/guides/docs/gmod_servercfg"
+  }
+}

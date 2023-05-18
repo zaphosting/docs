@@ -1,0 +1,20 @@
+{
+  "unversionedId": "dedicated_freebsd",
+  "id": "dedicated_freebsd",
+  "title": "Install FreeBSD",
+  "description": "Information about installing the FreeBSD operating system on your dedicated server from ZAP-Hosting - ZAP-Hosting.com Documentation",
+  "source": "@site/docs/dedicated_freebsd.md",
+  "sourceDirName": ".",
+  "slug": "/dedicated_freebsd",
+  "permalink": "/guides/docs/dedicated_freebsd",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/dedicated_freebsd.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "dedicated_freebsd",
+    "title": "Install FreeBSD",
+    "description": "Information about installing the FreeBSD operating system on your dedicated server from ZAP-Hosting - ZAP-Hosting.com Documentation",
+    "sidebar_label": "Install FreeBSD"
+  }
+}

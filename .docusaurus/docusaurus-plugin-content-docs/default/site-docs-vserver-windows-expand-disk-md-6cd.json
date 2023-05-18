@@ -1,0 +1,20 @@
+{
+  "unversionedId": "vserver_windows_expand_disk",
+  "id": "vserver_windows_expand_disk",
+  "title": "VPS Extending the hard disk on Windows Server",
+  "description": "Information on how to expand the hard disk of your Windows VPS from ZAP-Hosting after an upgrade - ZAP-Hosting.com documentation",
+  "source": "@site/docs/vserver_windows_expand_disk.md",
+  "sourceDirName": ".",
+  "slug": "/vserver_windows_expand_disk",
+  "permalink": "/guides/docs/vserver_windows_expand_disk",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/vserver_windows_expand_disk.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "vserver_windows_expand_disk",
+    "title": "VPS Extending the hard disk on Windows Server",
+    "description": "Information on how to expand the hard disk of your Windows VPS from ZAP-Hosting after an upgrade - ZAP-Hosting.com documentation",
+    "sidebar_label": "Extend disk"
+  }
+}

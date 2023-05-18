@@ -1,0 +1,29 @@
+{
+  "unversionedId": "gameserver_ftpaccess",
+  "id": "gameserver_ftpaccess",
+  "title": "Dateien mit FTP hochladen und herunterladen",
+  "description": "Informationen, wie du mit FTP Dateien auf deinen Gameserver von ZAP-Hosting hoch- und runterladen kannst - ZAP-Hosting.com Dokumentationen",
+  "source": "@site/i18n/de/docusaurus-plugin-content-docs/current/gameserver_ftpaccess.md",
+  "sourceDirName": ".",
+  "slug": "/gameserver_ftpaccess",
+  "permalink": "/guides/de/docs/gameserver_ftpaccess",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/gameserver_ftpaccess.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "gameserver_ftpaccess",
+    "title": "Dateien mit FTP hochladen und herunterladen",
+    "description": "Informationen, wie du mit FTP Dateien auf deinen Gameserver von ZAP-Hosting hoch- und runterladen kannst - ZAP-Hosting.com Dokumentationen",
+    "sidebar_label": "FTP Dateizugriff"
+  },
+  "sidebar": "gameserverSidebar",
+  "previous": {
+    "title": "Up-/Downgrade",
+    "permalink": "/guides/de/docs/gameserver_upgrade"
+  },
+  "next": {
+    "title": "Restartplaner",
+    "permalink": "/guides/de/docs/gameserver_restartplaner"
+  }
+}

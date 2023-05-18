@@ -1,0 +1,29 @@
+{
+  "unversionedId": "preorders",
+  "id": "preorders",
+  "title": "Pre-orders",
+  "description": "Information about pre-orders at ZAP-Hosting. What are pre-orders? When are servers set up? Can pre-orders be cancelled? - ZAP-Hosting.com documentation",
+  "source": "@site/docs/preorders.md",
+  "sourceDirName": ".",
+  "slug": "/preorders",
+  "permalink": "/guides/docs/preorders",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/preorders.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "preorders",
+    "title": "Pre-orders",
+    "description": "Information about pre-orders at ZAP-Hosting. What are pre-orders? When are servers set up? Can pre-orders be cancelled? - ZAP-Hosting.com documentation",
+    "sidebar_label": "Preorders"
+  },
+  "sidebar": "guidesSidebar",
+  "previous": {
+    "title": "Contract or Prepaid",
+    "permalink": "/guides/docs/firststeps_rent_contractorprepaid"
+  },
+  "next": {
+    "title": "Locations",
+    "permalink": "/guides/docs/firststeps_locations"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "unversionedId": "dedicated_raid",
+  "id": "dedicated_raid",
+  "title": "RAID konfigurieren",
+  "description": "Informationen, über die RAID Konfigurationsmöglichkeiten für deinen Dedicated Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation",
+  "source": "@site/i18n/de/docusaurus-plugin-content-docs/current/dedicated_raid.md",
+  "sourceDirName": ".",
+  "slug": "/dedicated_raid",
+  "permalink": "/guides/de/docs/dedicated_raid",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/dedicated_raid.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "dedicated_raid",
+    "title": "RAID konfigurieren",
+    "description": "Informationen, über die RAID Konfigurationsmöglichkeiten für deinen Dedicated Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation",
+    "sidebar_label": "RAID konfigurieren"
+  }
+}

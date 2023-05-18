@@ -1,0 +1,20 @@
+{
+  "unversionedId": "redm_firststeps_dashboard",
+  "id": "redm_firststeps_dashboard",
+  "title": "Five RedM Dashboard overview",
+  "description": "Information about the dashboard of an FIVE RedM server from ZAP-Hosting - ZAP-Hosting.com Documentation",
+  "source": "@site/docs/redm_firststeps_dashboard.md",
+  "sourceDirName": ".",
+  "slug": "/redm_firststeps_dashboard",
+  "permalink": "/guides/docs/redm_firststeps_dashboard",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/redm_firststeps_dashboard.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "redm_firststeps_dashboard",
+    "title": "Five RedM Dashboard overview",
+    "description": "Information about the dashboard of an FIVE RedM server from ZAP-Hosting - ZAP-Hosting.com Documentation",
+    "sidebar_label": "Dashboard"
+  }
+}

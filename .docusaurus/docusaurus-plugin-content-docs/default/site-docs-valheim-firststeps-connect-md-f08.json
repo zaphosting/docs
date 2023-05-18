@@ -1,0 +1,20 @@
+{
+  "unversionedId": "valheim_firststeps_connect",
+  "id": "valheim_firststeps_connect",
+  "title": "Connect to the server",
+  "description": "Information about connecting to a Valheim server from ZAP-Hosting - ZAP-Hosting.com documentation",
+  "source": "@site/docs/valheim_firststeps_connect.md",
+  "sourceDirName": ".",
+  "slug": "/valheim_firststeps_connect",
+  "permalink": "/guides/docs/valheim_firststeps_connect",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/valheim_firststeps_connect.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "valheim_firststeps_connect",
+    "title": "Connect to the server",
+    "description": "Information about connecting to a Valheim server from ZAP-Hosting - ZAP-Hosting.com documentation",
+    "sidebar_label": "Connect to the server"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "unversionedId": "vserver_windows_port",
+  "id": "vserver_windows_port",
+  "title": "VPS Forwarding ports on Windows servers",
+  "description": "Information on how to forward ports on your Windows VPS from ZAP-Hosting - ZAP-Hosting.com documentation",
+  "source": "@site/docs/vserver_windows_port.md",
+  "sourceDirName": ".",
+  "slug": "/vserver_windows_port",
+  "permalink": "/guides/docs/vserver_windows_port",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/vserver_windows_port.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "vserver_windows_port",
+    "title": "VPS Forwarding ports on Windows servers",
+    "description": "Information on how to forward ports on your Windows VPS from ZAP-Hosting - ZAP-Hosting.com documentation",
+    "sidebar_label": "Port Forwarding"
+  }
+}

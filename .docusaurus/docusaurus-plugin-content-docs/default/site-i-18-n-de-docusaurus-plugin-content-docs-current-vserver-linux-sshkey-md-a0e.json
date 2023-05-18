@@ -1,0 +1,20 @@
+{
+  "unversionedId": "vserver_linux_sshkey",
+  "id": "vserver_linux_sshkey",
+  "title": "SSH Key für Linux Server generieren und verwenden",
+  "description": "Informationen wie du einen SSH Key für deinen Linux vServer von ZAP-Hosting generieren kannst und wie du den Key verwendest - ZAP-Hosting.com Dokumentationen",
+  "source": "@site/i18n/de/docusaurus-plugin-content-docs/current/vserver_linux_sshkey.md",
+  "sourceDirName": ".",
+  "slug": "/vserver_linux_sshkey",
+  "permalink": "/guides/de/docs/vserver_linux_sshkey",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/vserver_linux_sshkey.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "vserver_linux_sshkey",
+    "title": "SSH Key für Linux Server generieren und verwenden",
+    "description": "Informationen wie du einen SSH Key für deinen Linux vServer von ZAP-Hosting generieren kannst und wie du den Key verwendest - ZAP-Hosting.com Dokumentationen",
+    "sidebar_label": "SSH Key"
+  }
+}

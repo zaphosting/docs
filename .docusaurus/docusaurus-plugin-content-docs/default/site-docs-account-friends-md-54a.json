@@ -1,0 +1,29 @@
+{
+  "unversionedId": "account_friends",
+  "id": "account_friends",
+  "title": "Refer friends and earn money with ZAP-Hosting",
+  "description": "How to earn money with ZAP-Hosting by referring friends - ZAP-Hosting.com documentations",
+  "source": "@site/docs/account_friends.md",
+  "sourceDirName": ".",
+  "slug": "/account_friends",
+  "permalink": "/guides/docs/account_friends",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/account_friends.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "account_friends",
+    "title": "Refer friends and earn money with ZAP-Hosting",
+    "description": "How to earn money with ZAP-Hosting by referring friends - ZAP-Hosting.com documentations",
+    "sidebar_label": "Refer a Friend"
+  },
+  "sidebar": "guidesSidebar",
+  "previous": {
+    "title": "Backup Storage",
+    "permalink": "/guides/docs/account_backup_storage"
+  },
+  "next": {
+    "title": "Cashbox",
+    "permalink": "/guides/docs/account_cashbox"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "unversionedId": "account_cashbox",
+  "id": "account_cashbox",
+  "title": "Cashbox - Deposit money",
+  "description": "Instructions on how to use the Cashbox to deposit money into your ZAP-Hosting account - ZAP-Hosting.com Documentation",
+  "source": "@site/docs/account_cashbox.md",
+  "sourceDirName": ".",
+  "slug": "/account_cashbox",
+  "permalink": "/guides/docs/account_cashbox",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/account_cashbox.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "account_cashbox",
+    "title": "Cashbox - Deposit money",
+    "description": "Instructions on how to use the Cashbox to deposit money into your ZAP-Hosting account - ZAP-Hosting.com Documentation",
+    "sidebar_label": "Cashbox"
+  },
+  "sidebar": "guidesSidebar",
+  "previous": {
+    "title": "Refer a Friend",
+    "permalink": "/guides/docs/account_friends"
+  },
+  "next": {
+    "title": "User Management",
+    "permalink": "/guides/docs/account_usermanagement"
+  }
+}

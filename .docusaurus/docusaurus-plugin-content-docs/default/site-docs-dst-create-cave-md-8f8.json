@@ -1,0 +1,29 @@
+{
+  "unversionedId": "dst_create_cave",
+  "id": "dst_create_cave",
+  "title": "Creating caves on servers",
+  "description": "Information on how to create and use caves on servers for Don't Starve Together - ZAP-Hosting.com documentation",
+  "source": "@site/docs/dst_create_cave.md",
+  "sourceDirName": ".",
+  "slug": "/dst_create_cave",
+  "permalink": "/guides/docs/dst_create_cave",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/dst_create_cave.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "dst_create_cave",
+    "title": "Creating caves on servers",
+    "description": "Information on how to create and use caves on servers for Don't Starve Together - ZAP-Hosting.com documentation",
+    "sidebar_label": "Create Caves"
+  },
+  "sidebar": "gameserverSidebar",
+  "previous": {
+    "title": "Adjust Permissions",
+    "permalink": "/guides/docs/unturned_rocketmod_permissions"
+  },
+  "next": {
+    "title": "Become Admin",
+    "permalink": "/guides/docs/empyrion_becomeadmin"
+  }
+}

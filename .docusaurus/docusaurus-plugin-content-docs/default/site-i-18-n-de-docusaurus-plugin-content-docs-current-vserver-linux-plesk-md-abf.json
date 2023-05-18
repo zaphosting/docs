@@ -1,0 +1,20 @@
+{
+  "unversionedId": "vserver_linux_plesk",
+  "id": "vserver_linux_plesk",
+  "title": "Plesk auf Linux Servern installieren",
+  "description": "Informationen, wie du Plesk auf deinen Linux vServer von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentationen",
+  "source": "@site/i18n/de/docusaurus-plugin-content-docs/current/vserver_linux_plesk.md",
+  "sourceDirName": ".",
+  "slug": "/vserver_linux_plesk",
+  "permalink": "/guides/de/docs/vserver_linux_plesk",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/vserver_linux_plesk.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "vserver_linux_plesk",
+    "title": "Plesk auf Linux Servern installieren",
+    "description": "Informationen, wie du Plesk auf deinen Linux vServer von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentationen",
+    "sidebar_label": "Plesk"
+  }
+}

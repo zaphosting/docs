@@ -1,0 +1,20 @@
+{
+  "unversionedId": "dedicated_windows",
+  "id": "dedicated_windows",
+  "title": "Windows Installation",
+  "description": "Information on how to install the Windows operating system on your dedicated server from ZAP-Hosting - ZAP-Hosting.com Documentation",
+  "source": "@site/docs/dedicated_windows.md",
+  "sourceDirName": ".",
+  "slug": "/dedicated_windows",
+  "permalink": "/guides/docs/dedicated_windows",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/dedicated_windows.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "dedicated_windows",
+    "title": "Windows Installation",
+    "description": "Information on how to install the Windows operating system on your dedicated server from ZAP-Hosting - ZAP-Hosting.com Documentation",
+    "sidebar_label": "Windows Installation"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "unversionedId": "firststeps",
+  "id": "firststeps",
+  "title": "Die ersten Schritte",
+  "description": "--",
+  "source": "@site/i18n/de/docusaurus-plugin-content-docs/current/firststeps.md",
+  "sourceDirName": ".",
+  "slug": "/firststeps",
+  "permalink": "/guides/de/docs/firststeps",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/firststeps.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "firststeps",
+    "title": "Die ersten Schritte",
+    "sidebar_label": "Die ersten Schritte"
+  }
+}

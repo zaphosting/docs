@@ -1,0 +1,29 @@
+{
+  "unversionedId": "rust_becomeadmin",
+  "id": "rust_becomeadmin",
+  "title": "Admin auf eigenem Server werden",
+  "description": "Informationen, wie du dich zum Admin auf deinem Rust-Server von ZAP-Hosting machen kannst - ZAP-Hosting.com Dokumentationen",
+  "source": "@site/i18n/de/docusaurus-plugin-content-docs/current/rust_becomeadmin.md",
+  "sourceDirName": ".",
+  "slug": "/rust_becomeadmin",
+  "permalink": "/guides/de/docs/rust_becomeadmin",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/rust_becomeadmin.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "rust_becomeadmin",
+    "title": "Admin auf eigenem Server werden",
+    "description": "Informationen, wie du dich zum Admin auf deinem Rust-Server von ZAP-Hosting machen kannst - ZAP-Hosting.com Dokumentationen",
+    "sidebar_label": "Admin werden"
+  },
+  "sidebar": "gameserverSidebar",
+  "previous": {
+    "title": "Admin werden",
+    "permalink": "/guides/de/docs/empyrion_becomeadmin"
+  },
+  "next": {
+    "title": "Verbindung via RCON",
+    "permalink": "/guides/de/docs/rust_connectrcon"
+  }
+}

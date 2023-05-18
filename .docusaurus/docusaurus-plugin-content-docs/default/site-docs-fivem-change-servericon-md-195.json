@@ -1,0 +1,29 @@
+{
+  "unversionedId": "fivem_change_servericon",
+  "id": "fivem_change_servericon",
+  "title": "Icon für Serverliste ändern",
+  "description": "Informationen, wie du das Servericon für FiveM-Server von ZAP-Hosting ändern kannst - ZAP-Hosting.com Dokumentationen",
+  "source": "@site/docs/fivem_change_servericon.md",
+  "sourceDirName": ".",
+  "slug": "/fivem_change_servericon",
+  "permalink": "/guides/docs/fivem_change_servericon",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/fivem_change_servericon.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "fivem_change_servericon",
+    "title": "Icon für Serverliste ändern",
+    "description": "Informationen, wie du das Servericon für FiveM-Server von ZAP-Hosting ändern kannst - ZAP-Hosting.com Dokumentationen",
+    "sidebar_label": "Change server icon"
+  },
+  "sidebar": "gameserverSidebar",
+  "previous": {
+    "title": "Upvotes",
+    "permalink": "/guides/docs/fivem_upvotes"
+  },
+  "next": {
+    "title": "Emojis in server name",
+    "permalink": "/guides/docs/fivem_servername_emojis"
+  }
+}

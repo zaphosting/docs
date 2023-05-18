@@ -1,0 +1,20 @@
+{
+  "unversionedId": "vserver_linux_dnsserver",
+  "id": "vserver_linux_dnsserver",
+  "title": "DNS Server Installation und Einrichtung (ISPConfig)",
+  "description": "Informationen, wie du einen DNS Server auf deinen vServer von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentationen",
+  "source": "@site/i18n/de/docusaurus-plugin-content-docs/current/vserver_linux_dnsserver.md",
+  "sourceDirName": ".",
+  "slug": "/vserver_linux_dnsserver",
+  "permalink": "/guides/de/docs/vserver_linux_dnsserver",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/vserver_linux_dnsserver.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "vserver_linux_dnsserver",
+    "title": "DNS Server Installation und Einrichtung (ISPConfig)",
+    "description": "Informationen, wie du einen DNS Server auf deinen vServer von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentationen",
+    "sidebar_label": "DNS Server (ISPConfig)"
+  }
+}

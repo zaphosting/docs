@@ -1,0 +1,29 @@
+{
+  "unversionedId": "firststeps_locations",
+  "id": "firststeps_locations",
+  "title": "Locations",
+  "description": "ZAP Hosting Locations Information - ZAP-Hosting.com documentation",
+  "source": "@site/docs/firststeps_locations.md",
+  "sourceDirName": ".",
+  "slug": "/firststeps_locations",
+  "permalink": "/guides/docs/firststeps_locations",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/firststeps_locations.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "firststeps_locations",
+    "title": "Locations",
+    "description": "ZAP Hosting Locations Information - ZAP-Hosting.com documentation",
+    "sidebar_label": "Locations"
+  },
+  "sidebar": "guidesSidebar",
+  "previous": {
+    "title": "Preorders",
+    "permalink": "/guides/docs/preorders"
+  },
+  "next": {
+    "title": "Community offers",
+    "permalink": "/guides/docs/community_info"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "unversionedId": "vserver_linux_docker",
+  "id": "vserver_linux_docker",
+  "title": "Docker auf Server installieren",
+  "description": "Informationen, wie du Docker auf deinen vServer von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentationen",
+  "source": "@site/i18n/de/docusaurus-plugin-content-docs/current/vserver_linux_docker.md",
+  "sourceDirName": ".",
+  "slug": "/vserver_linux_docker",
+  "permalink": "/guides/de/docs/vserver_linux_docker",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/vserver_linux_docker.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "vserver_linux_docker",
+    "title": "Docker auf Server installieren",
+    "description": "Informationen, wie du Docker auf deinen vServer von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentationen",
+    "sidebar_label": "Docker"
+  }
+}

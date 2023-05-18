@@ -1,0 +1,19 @@
+{
+  "unversionedId": "webspace_dashboard",
+  "id": "webspace_dashboard",
+  "title": "Add Domain",
+  "description": "This Page has moved",
+  "source": "@site/docs/webspace_dashboard.md",
+  "sourceDirName": ".",
+  "slug": "/webspace_dashboard",
+  "permalink": "/guides/docs/webspace_dashboard",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/webspace_dashboard.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "webspace_dashboard",
+    "title": "Add Domain",
+    "sidebar_label": "Add Domain"
+  }
+}

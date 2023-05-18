@@ -1,0 +1,29 @@
+{
+  "unversionedId": "ragemp_installpackages",
+  "id": "ragemp_installpackages",
+  "title": "Pakete auf Server installieren",
+  "description": "Informationen, wie du Pakete auf deinen RageMP-Server von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentationen",
+  "source": "@site/i18n/de/docusaurus-plugin-content-docs/current/ragemp_installpackages.md",
+  "sourceDirName": ".",
+  "slug": "/ragemp_installpackages",
+  "permalink": "/guides/de/docs/ragemp_installpackages",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/ragemp_installpackages.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "ragemp_installpackages",
+    "title": "Pakete auf Server installieren",
+    "description": "Informationen, wie du Pakete auf deinen RageMP-Server von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentationen",
+    "sidebar_label": "Pakete Installieren"
+  },
+  "sidebar": "gameserverSidebar",
+  "previous": {
+    "title": "Resource installieren",
+    "permalink": "/guides/de/docs/redm_installresources"
+  },
+  "next": {
+    "title": "Resourcen Installieren",
+    "permalink": "/guides/de/docs/altv_installresources"
+  }
+}

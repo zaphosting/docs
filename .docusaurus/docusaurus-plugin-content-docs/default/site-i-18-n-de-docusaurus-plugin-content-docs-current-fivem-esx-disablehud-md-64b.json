@@ -1,0 +1,29 @@
+{
+  "unversionedId": "fivem_esx_disablehud",
+  "id": "fivem_esx_disablehud",
+  "title": "HUD deaktivieren/aktivieren",
+  "description": "Informationen, wie du das HUD auf deinem FiveM-Server mit ESX von ZAP-Hosting deaktiveren/aktivieren kannst - ZAP-Hosting.com Dokumentationen",
+  "source": "@site/i18n/de/docusaurus-plugin-content-docs/current/fivem_esx_disablehud.md",
+  "sourceDirName": ".",
+  "slug": "/fivem_esx_disablehud",
+  "permalink": "/guides/de/docs/fivem_esx_disablehud",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/fivem_esx_disablehud.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "fivem_esx_disablehud",
+    "title": "HUD deaktivieren/aktivieren",
+    "description": "Informationen, wie du das HUD auf deinem FiveM-Server mit ESX von ZAP-Hosting deaktiveren/aktivieren kannst - ZAP-Hosting.com Dokumentationen",
+    "sidebar_label": "HUD deaktivieren"
+  },
+  "sidebar": "gameserverSidebar",
+  "previous": {
+    "title": "Admin über Datenbank werden",
+    "permalink": "/guides/de/docs/fivem_esx_becomeadminoverdatabase"
+  },
+  "next": {
+    "title": "Autos zum Shop hinzufügen",
+    "permalink": "/guides/de/docs/fivem_esx_addcarstoshop"
+  }
+}

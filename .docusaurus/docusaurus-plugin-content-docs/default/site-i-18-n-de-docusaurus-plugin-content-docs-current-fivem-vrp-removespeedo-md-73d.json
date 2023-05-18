@@ -1,0 +1,29 @@
+{
+  "unversionedId": "fivem_vrp_removespeedo",
+  "id": "fivem_vrp_removespeedo",
+  "title": "Speedometer entfernen",
+  "description": "Informationen, wie du den Speedometer bei deinem FiveM-Server mit VRP von ZAP-Hosting entfernen kannst - ZAP-Hosting.com Dokumentationen",
+  "source": "@site/i18n/de/docusaurus-plugin-content-docs/current/fivem_vrp_removespeedo.md",
+  "sourceDirName": ".",
+  "slug": "/fivem_vrp_removespeedo",
+  "permalink": "/guides/de/docs/fivem_vrp_removespeedo",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/fivem_vrp_removespeedo.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "fivem_vrp_removespeedo",
+    "title": "Speedometer entfernen",
+    "description": "Informationen, wie du den Speedometer bei deinem FiveM-Server mit VRP von ZAP-Hosting entfernen kannst - ZAP-Hosting.com Dokumentationen",
+    "sidebar_label": "Speedometer Entfernen"
+  },
+  "sidebar": "gameserverSidebar",
+  "previous": {
+    "title": "Geldicon Ändern",
+    "permalink": "/guides/de/docs/fivem_vrp_changemoneyicon"
+  },
+  "next": {
+    "title": "txAdmin Einrichtung",
+    "permalink": "/guides/de/docs/fivem_txadmin_setup"
+  }
+}

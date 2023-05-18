@@ -1,0 +1,29 @@
+{
+  "unversionedId": "spaceengineers_becomeadmin",
+  "id": "spaceengineers_becomeadmin",
+  "title": "Server-Admin werden",
+  "description": "Informationen, wie du dich um Admin auf deinem Space Engineers-Server von ZAP-Hosting machen kannst - ZAP-Hosting.com Dokumentationen",
+  "source": "@site/i18n/de/docusaurus-plugin-content-docs/current/spaceengineers_becomeadmin.md",
+  "sourceDirName": ".",
+  "slug": "/spaceengineers_becomeadmin",
+  "permalink": "/guides/de/docs/spaceengineers_becomeadmin",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/spaceengineers_becomeadmin.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "spaceengineers_becomeadmin",
+    "title": "Server-Admin werden",
+    "description": "Informationen, wie du dich um Admin auf deinem Space Engineers-Server von ZAP-Hosting machen kannst - ZAP-Hosting.com Dokumentationen",
+    "sidebar_label": "Admin werden"
+  },
+  "sidebar": "gameserverSidebar",
+  "previous": {
+    "title": "Admin werden",
+    "permalink": "/guides/de/docs/mta_becomeadmin"
+  },
+  "next": {
+    "title": "Mods installieren",
+    "permalink": "/guides/de/docs/spaceengineers_addmods"
+  }
+}

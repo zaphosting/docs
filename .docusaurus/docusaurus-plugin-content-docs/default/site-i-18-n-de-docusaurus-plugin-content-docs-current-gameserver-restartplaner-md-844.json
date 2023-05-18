@@ -1,0 +1,29 @@
+{
+  "unversionedId": "gameserver_restartplaner",
+  "id": "gameserver_restartplaner",
+  "title": "Restartplaner - Server-Neustarts automatisch durchführen",
+  "description": "Informationen, wie du mit dem Restartplaner deinen Gameserver von ZAP-Hosting.com automatisch in festgelegten Intervallen neustarten lassen kannst - ZAP-Hosting.com Dokumentationen",
+  "source": "@site/i18n/de/docusaurus-plugin-content-docs/current/gameserver_restartplaner.md",
+  "sourceDirName": ".",
+  "slug": "/gameserver_restartplaner",
+  "permalink": "/guides/de/docs/gameserver_restartplaner",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/gameserver_restartplaner.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "gameserver_restartplaner",
+    "title": "Restartplaner - Server-Neustarts automatisch durchführen",
+    "description": "Informationen, wie du mit dem Restartplaner deinen Gameserver von ZAP-Hosting.com automatisch in festgelegten Intervallen neustarten lassen kannst - ZAP-Hosting.com Dokumentationen",
+    "sidebar_label": "Restartplaner"
+  },
+  "sidebar": "gameserverSidebar",
+  "previous": {
+    "title": "FTP Dateizugriff",
+    "permalink": "/guides/de/docs/gameserver_ftpaccess"
+  },
+  "next": {
+    "title": "Backups",
+    "permalink": "/guides/de/docs/gameserver_backups"
+  }
+}

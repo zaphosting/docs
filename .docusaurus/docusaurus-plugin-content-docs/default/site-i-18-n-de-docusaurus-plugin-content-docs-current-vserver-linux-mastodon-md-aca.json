@@ -1,0 +1,20 @@
+{
+  "unversionedId": "vserver_linux_mastodon",
+  "id": "vserver_linux_mastodon",
+  "title": "Mastodon auf Server installieren",
+  "description": "Informationen, wie du einen Mastodon Server auf deinem vServer von ZAP-Hosting einrichten kannst - ZAP-Hosting.com Dokumentationen",
+  "source": "@site/i18n/de/docusaurus-plugin-content-docs/current/vserver_linux_mastodon.md",
+  "sourceDirName": ".",
+  "slug": "/vserver_linux_mastodon",
+  "permalink": "/guides/de/docs/vserver_linux_mastodon",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/vserver_linux_mastodon.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "vserver_linux_mastodon",
+    "title": "Mastodon auf Server installieren",
+    "description": "Informationen, wie du einen Mastodon Server auf deinem vServer von ZAP-Hosting einrichten kannst - ZAP-Hosting.com Dokumentationen",
+    "sidebar_label": "Mastodon installieren"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "unversionedId": "source_metamod_addadmins",
+  "id": "source_metamod_addadmins",
+  "title": "Source Spiele Server-Admin werden",
+  "description": "Informationen, wie du dich zum Admin auf deinem Source Gameserver von ZAP-Hosting machen kannst - ZAP-Hosting.com Dokumentationen",
+  "source": "@site/i18n/de/docusaurus-plugin-content-docs/current/source_metamod_addadmins.md",
+  "sourceDirName": ".",
+  "slug": "/source_metamod_addadmins",
+  "permalink": "/guides/de/docs/source_metamod_addadmins",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/source_metamod_addadmins.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "source_metamod_addadmins",
+    "title": "Source Spiele Server-Admin werden",
+    "description": "Informationen, wie du dich zum Admin auf deinem Source Gameserver von ZAP-Hosting machen kannst - ZAP-Hosting.com Dokumentationen",
+    "sidebar_label": "Admin werden"
+  },
+  "sidebar": "gameserverSidebar",
+  "previous": {
+    "title": "Installation",
+    "permalink": "/guides/de/docs/source_metamod_installation"
+  },
+  "next": {
+    "title": "Plugins",
+    "permalink": "/guides/de/docs/source_metamod_plugins"
+  }
+}

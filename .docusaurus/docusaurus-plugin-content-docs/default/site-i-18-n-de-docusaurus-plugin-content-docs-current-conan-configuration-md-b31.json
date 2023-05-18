@@ -1,0 +1,29 @@
+{
+  "unversionedId": "conan_configuration",
+  "id": "conan_configuration",
+  "title": "Server konfigurieren",
+  "description": "Informationen, wie du deinen Conan Exiles-Server von ZAP-Hosting via dem Web Interface konfigurieren kannst - ZAP-Hosting.com Dokumentationen",
+  "source": "@site/i18n/de/docusaurus-plugin-content-docs/current/conan_configuration.md",
+  "sourceDirName": ".",
+  "slug": "/conan_configuration",
+  "permalink": "/guides/de/docs/conan_configuration",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/conan_configuration.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "conan_configuration",
+    "title": "Server konfigurieren",
+    "description": "Informationen, wie du deinen Conan Exiles-Server von ZAP-Hosting via dem Web Interface konfigurieren kannst - ZAP-Hosting.com Dokumentationen",
+    "sidebar_label": "Server Konfiguration"
+  },
+  "sidebar": "gameserverSidebar",
+  "previous": {
+    "title": "Admin werden",
+    "permalink": "/guides/de/docs/conan_becomeadmin"
+  },
+  "next": {
+    "title": "Zum Server Verbinden",
+    "permalink": "/guides/de/docs/valheim_connect"
+  }
+}

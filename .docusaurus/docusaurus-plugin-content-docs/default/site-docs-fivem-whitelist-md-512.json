@@ -1,0 +1,29 @@
+{
+  "unversionedId": "fivem_whitelist",
+  "id": "fivem_whitelist",
+  "title": "Whitelist",
+  "description": "Information on how to use a whitelist with FiveM Server from ZAP-Hosting - ZAP-Hosting.com documentation",
+  "source": "@site/docs/fivem_whitelist.md",
+  "sourceDirName": ".",
+  "slug": "/fivem_whitelist",
+  "permalink": "/guides/docs/fivem_whitelist",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/fivem_whitelist.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "fivem_whitelist",
+    "title": "Whitelist",
+    "description": "Information on how to use a whitelist with FiveM Server from ZAP-Hosting - ZAP-Hosting.com documentation",
+    "sidebar_label": "Whitelist"
+  },
+  "sidebar": "gameserverSidebar",
+  "previous": {
+    "title": "Steam Web API Key",
+    "permalink": "/guides/docs/fivem-steam-web-api-key"
+  },
+  "next": {
+    "title": "Resource Installation",
+    "permalink": "/guides/docs/fivem_installresources"
+  }
+}

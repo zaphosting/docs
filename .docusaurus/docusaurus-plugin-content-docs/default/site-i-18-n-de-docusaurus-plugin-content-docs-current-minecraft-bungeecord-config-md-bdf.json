@@ -1,0 +1,29 @@
+{
+  "unversionedId": "minecraft_bungeecord_config",
+  "id": "minecraft_bungeecord_config",
+  "title": "Bungeecord Server Server Config-Einstellungen",
+  "description": "Informationen den den Server Config-Einstellungen für deinen Bungeecord-Server von ZAP-Hosting - ZAP-Hosting.com Dokumentationen",
+  "source": "@site/i18n/de/docusaurus-plugin-content-docs/current/minecraft_bungeecord_config.md",
+  "sourceDirName": ".",
+  "slug": "/minecraft_bungeecord_config",
+  "permalink": "/guides/de/docs/minecraft_bungeecord_config",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/minecraft_bungeecord_config.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "minecraft_bungeecord_config",
+    "title": "Bungeecord Server Server Config-Einstellungen",
+    "description": "Informationen den den Server Config-Einstellungen für deinen Bungeecord-Server von ZAP-Hosting - ZAP-Hosting.com Dokumentationen",
+    "sidebar_label": "Server Config"
+  },
+  "sidebar": "gameserverSidebar",
+  "previous": {
+    "title": "Plugin Uploader",
+    "permalink": "/guides/de/docs/minecraft_pluginuploader"
+  },
+  "next": {
+    "title": "Mods installieren",
+    "permalink": "/guides/de/docs/minecraft_forge_add_mods"
+  }
+}

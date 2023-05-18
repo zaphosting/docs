@@ -1,0 +1,29 @@
+{
+  "unversionedId": "gmod_ttt",
+  "id": "gmod_ttt",
+  "title": "Konfiguration",
+  "description": "Informationen zu den Konfigurationsmöglichkeiten deines Garry's Mod TTT-Server von ZAP-Hosting -ZAP-Hosting.com Dokumentationen",
+  "source": "@site/i18n/de/docusaurus-plugin-content-docs/current/gmod_ttt.md",
+  "sourceDirName": ".",
+  "slug": "/gmod_ttt",
+  "permalink": "/guides/de/docs/gmod_ttt",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/gmod_ttt.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "gmod_ttt",
+    "title": "Konfiguration",
+    "description": "Informationen zu den Konfigurationsmöglichkeiten deines Garry's Mod TTT-Server von ZAP-Hosting -ZAP-Hosting.com Dokumentationen",
+    "sidebar_label": "Garry's Mod TTT Konfiguration"
+  },
+  "sidebar": "gameserverSidebar",
+  "previous": {
+    "title": "Garry's Mod Server.cfg Anpassungen",
+    "permalink": "/guides/de/docs/gmod_servercfg"
+  },
+  "next": {
+    "title": "Server.cfg",
+    "permalink": "/guides/de/docs/arma3_serverconfig"
+  }
+}

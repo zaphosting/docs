@@ -1,0 +1,29 @@
+{
+  "unversionedId": "assettocorsa_configure",
+  "id": "assettocorsa_configure",
+  "title": "Server Konfigurieren",
+  "description": "Informationen zu den Konfigurationsoptionen deines Assetto Corsa-Server von ZAP-Hosting - ZAP-Hosting.com Dokumentationen",
+  "source": "@site/i18n/de/docusaurus-plugin-content-docs/current/assettocorsa_configure.md",
+  "sourceDirName": ".",
+  "slug": "/assettocorsa_configure",
+  "permalink": "/guides/de/docs/assettocorsa_configure",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/assettocorsa_configure.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "assettocorsa_configure",
+    "title": "Server Konfigurieren",
+    "description": "Informationen zu den Konfigurationsoptionen deines Assetto Corsa-Server von ZAP-Hosting - ZAP-Hosting.com Dokumentationen",
+    "sidebar_label": "Server Konfigurieren"
+  },
+  "sidebar": "gameserverSidebar",
+  "previous": {
+    "title": "Server Konfiguration",
+    "permalink": "/guides/de/docs/ark_configuration"
+  },
+  "next": {
+    "title": "Server Konfigurieren mit Content Manager",
+    "permalink": "/guides/de/docs/assettocorsa_contentmanager"
+  }
+}

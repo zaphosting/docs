@@ -1,0 +1,29 @@
+{
+  "unversionedId": "domain_gameserver_srv_link",
+  "id": "domain_gameserver_srv_link",
+  "title": "Set up game server forwarding",
+  "description": "Information on how to set up a forwarding from your domain to a game server - ZAP-Hosting.com documentation",
+  "source": "@site/docs/domain_gameserver_srv_link.md",
+  "sourceDirName": ".",
+  "slug": "/domain_gameserver_srv_link",
+  "permalink": "/guides/docs/domain_gameserver_srv_link",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/domain_gameserver_srv_link.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "domain_gameserver_srv_link",
+    "title": "Set up game server forwarding",
+    "description": "Information on how to set up a forwarding from your domain to a game server - ZAP-Hosting.com documentation",
+    "sidebar_label": "Domain Gameserver Redirect"
+  },
+  "sidebar": "domainwebspaceSidebar",
+  "previous": {
+    "title": "Domain Records",
+    "permalink": "/guides/docs/domain_records"
+  },
+  "next": {
+    "title": "Domain TeamSpeak 3 Redirect",
+    "permalink": "/guides/docs/domain_teamspeak_redirect"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "unversionedId": "corekeeper-connecttoserver",
+  "id": "corekeeper-connecttoserver",
+  "title": "Core Keeper connect to server",
+  "description": "Instructions on how to connect to the Core Keeper server - ZAP-Hosting.com Documentations",
+  "source": "@site/docs/corekeeper-connecttoserver.md",
+  "sourceDirName": ".",
+  "slug": "/corekeeper-connecttoserver",
+  "permalink": "/guides/docs/corekeeper-connecttoserver",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/corekeeper-connecttoserver.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "corekeeper-connecttoserver",
+    "title": "Core Keeper connect to server",
+    "description": "Instructions on how to connect to the Core Keeper server - ZAP-Hosting.com Documentations",
+    "sidebar_label": "Connect to the server"
+  },
+  "sidebar": "dedicatedserverSidebar",
+  "next": {
+    "title": "Connect to the server",
+    "permalink": "/guides/docs/corekeeper-connecttoserver"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "unversionedId": "fivem_mods_installaddon",
+  "id": "fivem_mods_installaddon",
+  "title": "Install Addon Carmods on Server",
+  "description": "Information on how to install Addon Carmods on your FiveM server from ZAP-Hosting - ZAP-Hosting.com documentation",
+  "source": "@site/docs/fivem_mods_installaddon.md",
+  "sourceDirName": ".",
+  "slug": "/fivem_mods_installaddon",
+  "permalink": "/guides/docs/fivem_mods_installaddon",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/fivem_mods_installaddon.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "fivem_mods_installaddon",
+    "title": "Install Addon Carmods on Server",
+    "description": "Information on how to install Addon Carmods on your FiveM server from ZAP-Hosting - ZAP-Hosting.com documentation",
+    "sidebar_label": "Install Addon Carmods"
+  },
+  "sidebar": "gameserverSidebar",
+  "previous": {
+    "title": "Install Replace Carmods",
+    "permalink": "/guides/docs/fivem_mods_installreplace"
+  },
+  "next": {
+    "title": "Loadingscreen installation",
+    "permalink": "/guides/docs/fivem_changeloadingscreen"
+  }
+}

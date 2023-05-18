@@ -1,0 +1,29 @@
+{
+  "unversionedId": "minecraft_firststeps_connect",
+  "id": "minecraft_firststeps_connect",
+  "title": "Zum Server verbinden",
+  "description": "Informationenen zum Verbindungsaufbau eines Minecraft Server von ZAP-Hosting - ZAP-Hosting.com Dokumentationen",
+  "source": "@site/i18n/de/docusaurus-plugin-content-docs/current/minecraft_firststeps_connect.md",
+  "sourceDirName": ".",
+  "slug": "/minecraft_firststeps_connect",
+  "permalink": "/guides/de/docs/minecraft_firststeps_connect",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/minecraft_firststeps_connect.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "minecraft_firststeps_connect",
+    "title": "Zum Server verbinden",
+    "description": "Informationenen zum Verbindungsaufbau eines Minecraft Server von ZAP-Hosting - ZAP-Hosting.com Dokumentationen",
+    "sidebar_label": "Zum Server verbinden"
+  },
+  "sidebar": "gameserverSidebar",
+  "previous": {
+    "title": "Externer Datenbankzugriff",
+    "permalink": "/guides/de/docs/gameserver_database_external_access"
+  },
+  "next": {
+    "title": "Allgemeine Befehle",
+    "permalink": "/guides/de/docs/minecraft_commands"
+  }
+}

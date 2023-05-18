@@ -1,0 +1,29 @@
+{
+  "unversionedId": "terraria_tshock_add_admin",
+  "id": "terraria_tshock_add_admin",
+  "title": "Server-Admin werden (tShock)",
+  "description": "Informationen, wie du dich zum Admin auf deinem Terraria-Server mit tShock von ZAP-Hosting machen kannst - ZAP-Hosting.com Dokumentationen",
+  "source": "@site/i18n/de/docusaurus-plugin-content-docs/current/terraria_tshock_add_admin.md",
+  "sourceDirName": ".",
+  "slug": "/terraria_tshock_add_admin",
+  "permalink": "/guides/de/docs/terraria_tshock_add_admin",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/terraria_tshock_add_admin.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "terraria_tshock_add_admin",
+    "title": "Server-Admin werden (tShock)",
+    "description": "Informationen, wie du dich zum Admin auf deinem Terraria-Server mit tShock von ZAP-Hosting machen kannst - ZAP-Hosting.com Dokumentationen",
+    "sidebar_label": "Admin werden (tShock)"
+  },
+  "sidebar": "gameserverSidebar",
+  "previous": {
+    "title": "Konsolen-Befehle",
+    "permalink": "/guides/de/docs/satisfactory_commands"
+  },
+  "next": {
+    "title": "Mod installieren (tModLoader)",
+    "permalink": "/guides/de/docs/terraria_tmodloader_installmod"
+  }
+}

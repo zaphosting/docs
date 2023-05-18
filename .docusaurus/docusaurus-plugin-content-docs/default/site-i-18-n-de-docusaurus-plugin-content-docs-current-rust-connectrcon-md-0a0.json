@@ -1,0 +1,29 @@
+{
+  "unversionedId": "rust_connectrcon",
+  "id": "rust_connectrcon",
+  "title": "Verbindung via RCON zum Server herstellen",
+  "description": "Informationen, wie du dich via RCON mit deinem Rust-Server von ZAP-Hosting verbinden kannst, um deinen Server zu verwalten - ZAP-Hosting.com Dokumentationen",
+  "source": "@site/i18n/de/docusaurus-plugin-content-docs/current/rust_connectrcon.md",
+  "sourceDirName": ".",
+  "slug": "/rust_connectrcon",
+  "permalink": "/guides/de/docs/rust_connectrcon",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/rust_connectrcon.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "rust_connectrcon",
+    "title": "Verbindung via RCON zum Server herstellen",
+    "description": "Informationen, wie du dich via RCON mit deinem Rust-Server von ZAP-Hosting verbinden kannst, um deinen Server zu verwalten - ZAP-Hosting.com Dokumentationen",
+    "sidebar_label": "Verbindung via RCON"
+  },
+  "sidebar": "gameserverSidebar",
+  "previous": {
+    "title": "Admin werden",
+    "permalink": "/guides/de/docs/rust_becomeadmin"
+  },
+  "next": {
+    "title": "Admin Befehle",
+    "permalink": "/guides/de/docs/rust_commands"
+  }
+}

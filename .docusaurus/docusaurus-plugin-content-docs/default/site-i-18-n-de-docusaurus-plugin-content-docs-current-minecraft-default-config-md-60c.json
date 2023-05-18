@@ -1,0 +1,29 @@
+{
+  "unversionedId": "minecraft_default_config",
+  "id": "minecraft_default_config",
+  "title": "Server Config-Einstellungen",
+  "description": "Informationen zu den Server Config-Einstellungen deines Minecraft-Servers von ZAP-Hosting - ZAP-Hosting.com Dokumentationen",
+  "source": "@site/i18n/de/docusaurus-plugin-content-docs/current/minecraft_default_config.md",
+  "sourceDirName": ".",
+  "slug": "/minecraft_default_config",
+  "permalink": "/guides/de/docs/minecraft_default_config",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/minecraft_default_config.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "minecraft_default_config",
+    "title": "Server Config-Einstellungen",
+    "description": "Informationen zu den Server Config-Einstellungen deines Minecraft-Servers von ZAP-Hosting - ZAP-Hosting.com Dokumentationen",
+    "sidebar_label": "Server Config"
+  },
+  "sidebar": "gameserverSidebar",
+  "previous": {
+    "title": "OP-Rechte",
+    "permalink": "/guides/de/docs/minecraft_addop"
+  },
+  "next": {
+    "title": "Server Icon",
+    "permalink": "/guides/de/docs/minecraft_server-icon"
+  }
+}

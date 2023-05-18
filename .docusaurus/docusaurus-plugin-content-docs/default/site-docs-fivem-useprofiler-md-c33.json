@@ -1,0 +1,29 @@
+{
+  "unversionedId": "fivem_useprofiler",
+  "id": "fivem_useprofiler",
+  "title": "Using the Profiler and Identifying Server Problems",
+  "description": "Information on how to use and interpret the profiler for your FiveM server on ZAP-Hosting to identify problems - ZAP-Hosting.com",
+  "source": "@site/docs/fivem_useprofiler.md",
+  "sourceDirName": ".",
+  "slug": "/fivem_useprofiler",
+  "permalink": "/guides/docs/fivem_useprofiler",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/fivem_useprofiler.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "fivem_useprofiler",
+    "title": "Using the Profiler and Identifying Server Problems",
+    "description": "Information on how to use and interpret the profiler for your FiveM server on ZAP-Hosting to identify problems - ZAP-Hosting.com",
+    "sidebar_label": "Use Profiler"
+  },
+  "sidebar": "gameserverSidebar",
+  "previous": {
+    "title": "Delete Cache",
+    "permalink": "/guides/docs/fivem_deletecache"
+  },
+  "next": {
+    "title": "Configure Activity Feed",
+    "permalink": "/guides/docs/fivem_mastodon"
+  }
+}

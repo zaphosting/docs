@@ -1,0 +1,25 @@
+{
+  "unversionedId": "legal_use_brand_assets",
+  "id": "legal_use_brand_assets",
+  "title": "Verwendung von Logo und Name",
+  "description": "Informationen, unter welchen Bedingungen du das ZAP-Hosting Logo und den Namen verwenden kannst - ZAP-Hosting.com Dokumentationen",
+  "source": "@site/i18n/de/docusaurus-plugin-content-docs/current/legal_use_brand_assets.md",
+  "sourceDirName": ".",
+  "slug": "/legal_use_brand_assets",
+  "permalink": "/guides/de/docs/legal_use_brand_assets",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/legal_use_brand_assets.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "legal_use_brand_assets",
+    "title": "Verwendung von Logo und Name",
+    "description": "Informationen, unter welchen Bedingungen du das ZAP-Hosting Logo und den Namen verwenden kannst - ZAP-Hosting.com Dokumentationen",
+    "sidebar_label": "Verwendung von Logo und Name"
+  },
+  "sidebar": "guidesSidebar",
+  "previous": {
+    "title": "Partner Guide",
+    "permalink": "/guides/de/docs/partner-guide"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "unversionedId": "satisfactory_connect",
+  "id": "satisfactory_connect",
+  "title": "Zum Server verbinden",
+  "description": "Nutzer eines QWERTY Layouts müssen diese Schritte nicht machen, lediglich STRG + SHIFT + L drücken und mit ~ die Console öffnen",
+  "source": "@site/i18n/de/docusaurus-plugin-content-docs/current/satisfactory_connect.md",
+  "sourceDirName": ".",
+  "slug": "/satisfactory_connect",
+  "permalink": "/guides/de/docs/satisfactory_connect",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/satisfactory_connect.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "satisfactory_connect",
+    "title": "Zum Server verbinden",
+    "sidebar_label": "Zum Server binden"
+  }
+}

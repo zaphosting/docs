@@ -1,0 +1,29 @@
+{
+  "unversionedId": "fivem_licensekey",
+  "id": "fivem_licensekey",
+  "title": "Eigenen Lizenzkey (Patreon) zu Server hinzufügen",
+  "description": "Informationen, wie du einen eigenen Lizenzkey (von Patreon) für FiveM-Server von ZAP-Hosting erstellst und zu deinem Server hinzufügen kannst - ZAP-Hosting.com Dokumentationen",
+  "source": "@site/i18n/de/docusaurus-plugin-content-docs/current/fivem_licensekey.md",
+  "sourceDirName": ".",
+  "slug": "/fivem_licensekey",
+  "permalink": "/guides/de/docs/fivem_licensekey",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/fivem_licensekey.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "fivem_licensekey",
+    "title": "Eigenen Lizenzkey (Patreon) zu Server hinzufügen",
+    "description": "Informationen, wie du einen eigenen Lizenzkey (von Patreon) für FiveM-Server von ZAP-Hosting erstellst und zu deinem Server hinzufügen kannst - ZAP-Hosting.com Dokumentationen",
+    "sidebar_label": "Eigener Lizenzkey"
+  },
+  "sidebar": "gameserverSidebar",
+  "previous": {
+    "title": "Rcon benutzen",
+    "permalink": "/guides/de/docs/fivem_rcon"
+  },
+  "next": {
+    "title": "Cache leeren",
+    "permalink": "/guides/de/docs/fivem_deletecache"
+  }
+}

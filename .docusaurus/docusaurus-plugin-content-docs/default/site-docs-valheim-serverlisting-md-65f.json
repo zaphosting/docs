@@ -1,0 +1,29 @@
+{
+  "unversionedId": "valheim_serverlisting",
+  "id": "valheim_serverlisting",
+  "title": "Server listing problems with Steam games using Steamworks",
+  "description": "Information about the problem that servers for Steamworks games are not shown in the server listing - ZAP-Hosting.com documentation",
+  "source": "@site/docs/valheim_serverlisting.md",
+  "sourceDirName": ".",
+  "slug": "/valheim_serverlisting",
+  "permalink": "/guides/docs/valheim_serverlisting",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/valheim_serverlisting.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "valheim_serverlisting",
+    "title": "Server listing problems with Steam games using Steamworks",
+    "description": "Information about the problem that servers for Steamworks games are not shown in the server listing - ZAP-Hosting.com documentation",
+    "sidebar_label": "Serverlisting Problems"
+  },
+  "sidebar": "gameserverSidebar",
+  "previous": {
+    "title": "Automated Backups",
+    "permalink": "/guides/docs/valheim_backup_schedule"
+  },
+  "next": {
+    "title": "Admin Commands & Cheats",
+    "permalink": "/guides/docs/valheim_admin"
+  }
+}

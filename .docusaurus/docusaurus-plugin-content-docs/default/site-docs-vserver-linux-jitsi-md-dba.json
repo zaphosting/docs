@@ -1,0 +1,20 @@
+{
+  "unversionedId": "vserver_linux_jitsi",
+  "id": "vserver_linux_jitsi",
+  "title": "VPS Install Jitsi Meet on Server",
+  "description": "Information on how to install the video conferencing software Jitsi Meet on your VPS from ZAP-Hosting - ZAP-Hosting.com documentation",
+  "source": "@site/docs/vserver_linux_jitsi.md",
+  "sourceDirName": ".",
+  "slug": "/vserver_linux_jitsi",
+  "permalink": "/guides/docs/vserver_linux_jitsi",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/vserver_linux_jitsi.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "vserver_linux_jitsi",
+    "title": "VPS Install Jitsi Meet on Server",
+    "description": "Information on how to install the video conferencing software Jitsi Meet on your VPS from ZAP-Hosting - ZAP-Hosting.com documentation",
+    "sidebar_label": "Jitsi Meet"
+  }
+}

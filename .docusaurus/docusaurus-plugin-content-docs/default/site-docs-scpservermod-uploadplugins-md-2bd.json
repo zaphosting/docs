@@ -1,0 +1,29 @@
+{
+  "unversionedId": "scpservermod_uploadplugins",
+  "id": "scpservermod_uploadplugins",
+  "title": "Installing plugins on server",
+  "description": "Information on how to install plugins on your SCP ServerMod server from ZAP-Hosting.com - ZAP-Hosting.com documentation",
+  "source": "@site/docs/scpservermod_uploadplugins.md",
+  "sourceDirName": ".",
+  "slug": "/scpservermod_uploadplugins",
+  "permalink": "/guides/docs/scpservermod_uploadplugins",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/scpservermod_uploadplugins.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "scpservermod_uploadplugins",
+    "title": "Installing plugins on server",
+    "description": "Information on how to install plugins on your SCP ServerMod server from ZAP-Hosting.com - ZAP-Hosting.com documentation",
+    "sidebar_label": "Install Plugins"
+  },
+  "sidebar": "gameserverSidebar",
+  "previous": {
+    "title": "Pastebin ID",
+    "permalink": "/guides/docs/scp_pastebin"
+  },
+  "next": {
+    "title": "Plugins Install",
+    "permalink": "/guides/docs/exiled_plugins"
+  }
+}

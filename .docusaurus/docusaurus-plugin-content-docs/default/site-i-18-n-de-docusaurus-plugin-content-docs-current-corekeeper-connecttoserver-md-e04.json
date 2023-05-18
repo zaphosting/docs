@@ -1,0 +1,25 @@
+{
+  "unversionedId": "corekeeper-connecttoserver",
+  "id": "corekeeper-connecttoserver",
+  "title": "Core Keeper zum Server verbinden - Gameserver von ZAP-Hosting",
+  "description": "Anleitung, wie du dich zum Server für Core Keeper verbindest - ZAP-Hosting.com Dokumentationen",
+  "source": "@site/i18n/de/docusaurus-plugin-content-docs/current/corekeeper-connecttoserver.md",
+  "sourceDirName": ".",
+  "slug": "/corekeeper-connecttoserver",
+  "permalink": "/guides/de/docs/corekeeper-connecttoserver",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/corekeeper-connecttoserver.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "corekeeper-connecttoserver",
+    "title": "Core Keeper zum Server verbinden - Gameserver von ZAP-Hosting",
+    "description": "Anleitung, wie du dich zum Server für Core Keeper verbindest - ZAP-Hosting.com Dokumentationen",
+    "sidebar_label": "Zum Server verbinden"
+  },
+  "sidebar": "dedicatedserverSidebar",
+  "next": {
+    "title": "Zum Server verbinden",
+    "permalink": "/guides/de/docs/corekeeper-connecttoserver"
+  }
+}

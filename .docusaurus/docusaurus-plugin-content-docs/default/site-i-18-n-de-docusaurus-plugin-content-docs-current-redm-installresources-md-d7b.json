@@ -1,0 +1,29 @@
+{
+  "unversionedId": "redm_installresources",
+  "id": "redm_installresources",
+  "title": "Resourcen, Mods und Scripts auf Server installieren",
+  "description": "Informationen, wie du Ressourcen, Mods und Scripts auf deinen RedM-Server von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentationen",
+  "source": "@site/i18n/de/docusaurus-plugin-content-docs/current/redm_installresources.md",
+  "sourceDirName": ".",
+  "slug": "/redm_installresources",
+  "permalink": "/guides/de/docs/redm_installresources",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/redm_installresources.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "redm_installresources",
+    "title": "Resourcen, Mods und Scripts auf Server installieren",
+    "description": "Informationen, wie du Ressourcen, Mods und Scripts auf deinen RedM-Server von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentationen",
+    "sidebar_label": "Resource installieren"
+  },
+  "sidebar": "gameserverSidebar",
+  "previous": {
+    "title": "Server Icon ändern",
+    "permalink": "/guides/de/docs/redm_change_servericon"
+  },
+  "next": {
+    "title": "Pakete Installieren",
+    "permalink": "/guides/de/docs/ragemp_installpackages"
+  }
+}

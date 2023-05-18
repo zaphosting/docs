@@ -1,0 +1,29 @@
+{
+  "unversionedId": "rust_decay",
+  "id": "rust_decay",
+  "title": "Decay verändern",
+  "description": "Information, zur Anpassung des Decay bei deinem Rust Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation",
+  "source": "@site/i18n/de/docusaurus-plugin-content-docs/current/rust_decay.md",
+  "sourceDirName": ".",
+  "slug": "/rust_decay",
+  "permalink": "/guides/de/docs/rust_decay",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/rust_decay.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "rust_decay",
+    "title": "Decay verändern",
+    "description": "Information, zur Anpassung des Decay bei deinem Rust Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation",
+    "sidebar_label": "Decay"
+  },
+  "sidebar": "gameserverSidebar",
+  "previous": {
+    "title": "Plugins installieren",
+    "permalink": "/guides/de/docs/rust_plugins"
+  },
+  "next": {
+    "title": "Verbindung zum Server",
+    "permalink": "/guides/de/docs/amongus_connection"
+  }
+}

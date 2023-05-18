@@ -1,0 +1,29 @@
+{
+  "unversionedId": "7d2d_becomeadmin",
+  "id": "7d2d_becomeadmin",
+  "title": "7 Days to Die Admin werden - Gameserver von ZAP-Hosting",
+  "description": "Anleitung, wie du dich zum Admin für 7 Days to Die Gameserver machst - ZAP-Hosting.com Dokumentationen",
+  "source": "@site/i18n/de/docusaurus-plugin-content-docs/current/7d2d_becomeadmin.md",
+  "sourceDirName": ".",
+  "slug": "/7d2d_becomeadmin",
+  "permalink": "/guides/de/docs/7d2d_becomeadmin",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/7d2d_becomeadmin.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "7d2d_becomeadmin",
+    "title": "7 Days to Die Admin werden - Gameserver von ZAP-Hosting",
+    "description": "Anleitung, wie du dich zum Admin für 7 Days to Die Gameserver machst - ZAP-Hosting.com Dokumentationen",
+    "sidebar_label": "Admin werden"
+  },
+  "sidebar": "gameserverSidebar",
+  "previous": {
+    "title": "Verbindung zum Server",
+    "permalink": "/guides/de/docs/amongus_connection"
+  },
+  "next": {
+    "title": "Mods installieren",
+    "permalink": "/guides/de/docs/7d2d_mods"
+  }
+}

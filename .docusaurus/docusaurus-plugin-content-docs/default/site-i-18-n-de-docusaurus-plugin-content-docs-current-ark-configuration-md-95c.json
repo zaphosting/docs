@@ -1,0 +1,29 @@
+{
+  "unversionedId": "ark_configuration",
+  "id": "ark_configuration",
+  "title": "Server Konfiguration",
+  "description": "Informationen zu den Konfigurationsoptionen im Web Interface deines ARK-Server von ZAP-Hosting - ZAP-Hosting.com Dokumentationen",
+  "source": "@site/i18n/de/docusaurus-plugin-content-docs/current/ark_configuration.md",
+  "sourceDirName": ".",
+  "slug": "/ark_configuration",
+  "permalink": "/guides/de/docs/ark_configuration",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/ark_configuration.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "ark_configuration",
+    "title": "Server Konfiguration",
+    "description": "Informationen zu den Konfigurationsoptionen im Web Interface deines ARK-Server von ZAP-Hosting - ZAP-Hosting.com Dokumentationen",
+    "sidebar_label": "Server Konfiguration"
+  },
+  "sidebar": "gameserverSidebar",
+  "previous": {
+    "title": "Serverlisting Probleme",
+    "permalink": "/guides/de/docs/ark_serverlisting"
+  },
+  "next": {
+    "title": "Server Konfigurieren",
+    "permalink": "/guides/de/docs/assettocorsa_configure"
+  }
+}

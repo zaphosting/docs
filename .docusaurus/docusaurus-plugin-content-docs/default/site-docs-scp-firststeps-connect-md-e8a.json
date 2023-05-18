@@ -1,0 +1,29 @@
+{
+  "unversionedId": "scp_firststeps_connect",
+  "id": "scp_firststeps_connect",
+  "title": "Connect to the server",
+  "description": "Information on how to connect to an SCP Secret Laboratory Server from ZAP-Hosting - ZAP-Hosting.com Documentation",
+  "source": "@site/docs/scp_firststeps_connect.md",
+  "sourceDirName": ".",
+  "slug": "/scp_firststeps_connect",
+  "permalink": "/guides/docs/scp_firststeps_connect",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/scp_firststeps_connect.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "scp_firststeps_connect",
+    "title": "Connect to the server",
+    "description": "Information on how to connect to an SCP Secret Laboratory Server from ZAP-Hosting - ZAP-Hosting.com Documentation",
+    "sidebar_label": "Connect to the server"
+  },
+  "sidebar": "gameserverSidebar",
+  "previous": {
+    "title": "Install plugins (BepInEx)",
+    "permalink": "/guides/docs/valheim_plugins_bepinex"
+  },
+  "next": {
+    "title": "Become Admin",
+    "permalink": "/guides/docs/scp_becomeadmin"
+  }
+}

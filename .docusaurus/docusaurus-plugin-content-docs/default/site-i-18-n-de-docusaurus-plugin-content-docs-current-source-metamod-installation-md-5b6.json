@@ -1,0 +1,29 @@
+{
+  "unversionedId": "source_metamod_installation",
+  "id": "source_metamod_installation",
+  "title": "Source Spiele Source Mod und Meta Mod auf Server installieren",
+  "description": "Informationen, wie du Source Mod und Meta Mod auf deinen Source Gameserver von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentationen",
+  "source": "@site/i18n/de/docusaurus-plugin-content-docs/current/source_metamod_installation.md",
+  "sourceDirName": ".",
+  "slug": "/source_metamod_installation",
+  "permalink": "/guides/de/docs/source_metamod_installation",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/source_metamod_installation.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "source_metamod_installation",
+    "title": "Source Spiele Source Mod und Meta Mod auf Server installieren",
+    "description": "Informationen, wie du Source Mod und Meta Mod auf deinen Source Gameserver von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentationen",
+    "sidebar_label": "Installation"
+  },
+  "sidebar": "gameserverSidebar",
+  "previous": {
+    "title": "Custom Inhalte",
+    "permalink": "/guides/de/docs/source_custom_content"
+  },
+  "next": {
+    "title": "Admin werden",
+    "permalink": "/guides/de/docs/source_metamod_addadmins"
+  }
+}

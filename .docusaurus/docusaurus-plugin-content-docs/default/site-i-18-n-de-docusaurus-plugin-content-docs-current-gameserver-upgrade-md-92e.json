@@ -1,0 +1,29 @@
+{
+  "unversionedId": "gameserver_upgrade",
+  "id": "gameserver_upgrade",
+  "title": "Up-/Downgrade",
+  "description": "Informationen, wie du deinen Gameserver von ZAP-Hosting.com Up-/Downgraden kannst. - ZAP-Hosting.com Dokumentationen",
+  "source": "@site/i18n/de/docusaurus-plugin-content-docs/current/gameserver_upgrade.md",
+  "sourceDirName": ".",
+  "slug": "/gameserver_upgrade",
+  "permalink": "/guides/de/docs/gameserver_upgrade",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/gameserver_upgrade.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "gameserver_upgrade",
+    "title": "Up-/Downgrade",
+    "description": "Informationen, wie du deinen Gameserver von ZAP-Hosting.com Up-/Downgraden kannst. - ZAP-Hosting.com Dokumentationen",
+    "sidebar_label": "Up-/Downgrade"
+  },
+  "sidebar": "gameserverSidebar",
+  "previous": {
+    "title": "Spielwechsel",
+    "permalink": "/guides/de/docs/gameserver_gameswitch"
+  },
+  "next": {
+    "title": "FTP Dateizugriff",
+    "permalink": "/guides/de/docs/gameserver_ftpaccess"
+  }
+}

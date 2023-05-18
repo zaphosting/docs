@@ -1,0 +1,29 @@
+{
+  "unversionedId": "satisfactory_commands",
+  "id": "satisfactory_commands",
+  "title": "Console Commands",
+  "description": "Information about possible console commands for your Satisfactory server from ZAP-Hosting - ZAP-Hosting.com documentation",
+  "source": "@site/docs/satisfactory_commands.md",
+  "sourceDirName": ".",
+  "slug": "/satisfactory_commands",
+  "permalink": "/guides/docs/satisfactory_commands",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/satisfactory_commands.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "satisfactory_commands",
+    "title": "Console Commands",
+    "description": "Information about possible console commands for your Satisfactory server from ZAP-Hosting - ZAP-Hosting.com documentation",
+    "sidebar_label": "Console Commands"
+  },
+  "sidebar": "gameserverSidebar",
+  "previous": {
+    "title": "Experimental Build",
+    "permalink": "/guides/docs/satisfactory_switchexperimental"
+  },
+  "next": {
+    "title": "Become an admin (tShock)",
+    "permalink": "/guides/docs/terraria_tshock_add_admin"
+  }
+}

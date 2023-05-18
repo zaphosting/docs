@@ -1,0 +1,29 @@
+{
+  "unversionedId": "account_contractsandprepaid",
+  "id": "account_contractsandprepaid",
+  "title": "Contracts & Prepaids - Contract options",
+  "description": "Information about the different contract options at ZAP-Hosting contract and prepaid - ZAP-Hosting.com documentations",
+  "source": "@site/docs/account_contractsandprepaid.md",
+  "sourceDirName": ".",
+  "slug": "/account_contractsandprepaid",
+  "permalink": "/guides/docs/account_contractsandprepaid",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/account_contractsandprepaid.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "account_contractsandprepaid",
+    "title": "Contracts & Prepaids - Contract options",
+    "description": "Information about the different contract options at ZAP-Hosting contract and prepaid - ZAP-Hosting.com documentations",
+    "sidebar_label": "Contracts & Prepaids"
+  },
+  "sidebar": "guidesSidebar",
+  "previous": {
+    "title": "Create Screenshots",
+    "permalink": "/guides/docs/create_screenshots"
+  },
+  "next": {
+    "title": "Termination and Cancellation",
+    "permalink": "/guides/docs/account_termination_and_cancellation_period"
+  }
+}

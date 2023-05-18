@@ -1,0 +1,20 @@
+{
+  "unversionedId": "vserver_linux_java",
+  "id": "vserver_linux_java",
+  "title": "Java auf Server installieren",
+  "description": "Informationen, wie du Java auf deinen vServer von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentationen",
+  "source": "@site/i18n/de/docusaurus-plugin-content-docs/current/vserver_linux_java.md",
+  "sourceDirName": ".",
+  "slug": "/vserver_linux_java",
+  "permalink": "/guides/de/docs/vserver_linux_java",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/vserver_linux_java.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "vserver_linux_java",
+    "title": "Java auf Server installieren",
+    "description": "Informationen, wie du Java auf deinen vServer von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentationen",
+    "sidebar_label": "Java installieren"
+  }
+}

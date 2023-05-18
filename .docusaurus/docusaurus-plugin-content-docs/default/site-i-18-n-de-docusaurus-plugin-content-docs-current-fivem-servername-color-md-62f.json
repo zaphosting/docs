@@ -1,0 +1,29 @@
+{
+  "unversionedId": "fivem_servername_color",
+  "id": "fivem_servername_color",
+  "title": "Servernamen farbig anzeigen lassen",
+  "description": "Informationen, wie du die Farben des Servernamens, der in der Serverliste für FiveM-Server angezeigt wird, einstellen kannst - ZAP-Hosting.com Dokumentationen",
+  "source": "@site/i18n/de/docusaurus-plugin-content-docs/current/fivem_servername_color.md",
+  "sourceDirName": ".",
+  "slug": "/fivem_servername_color",
+  "permalink": "/guides/de/docs/fivem_servername_color",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/fivem_servername_color.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "fivem_servername_color",
+    "title": "Servernamen farbig anzeigen lassen",
+    "description": "Informationen, wie du die Farben des Servernamens, der in der Serverliste für FiveM-Server angezeigt wird, einstellen kannst - ZAP-Hosting.com Dokumentationen",
+    "sidebar_label": "Servernamen färben"
+  },
+  "sidebar": "gameserverSidebar",
+  "previous": {
+    "title": "Emojis in Server Name",
+    "permalink": "/guides/de/docs/fivem_servername_emojis"
+  },
+  "next": {
+    "title": "Rcon benutzen",
+    "permalink": "/guides/de/docs/fivem_rcon"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "unversionedId": "eco_whitelist",
+  "id": "eco_whitelist",
+  "title": "Whitelist aktivieren",
+  "description": "Informationen wie du eine Whitelist für deinen ECO-Server bei ZAP-Hosting erstellst und verwaltest - ZAP-Hosting.com Dokumentationen",
+  "source": "@site/i18n/de/docusaurus-plugin-content-docs/current/eco_whitelist.md",
+  "sourceDirName": ".",
+  "slug": "/eco_whitelist",
+  "permalink": "/guides/de/docs/eco_whitelist",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/eco_whitelist.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "eco_whitelist",
+    "title": "Whitelist aktivieren",
+    "description": "Informationen wie du eine Whitelist für deinen ECO-Server bei ZAP-Hosting erstellst und verwaltest - ZAP-Hosting.com Dokumentationen",
+    "sidebar_label": "Whitelist"
+  },
+  "sidebar": "gameserverSidebar",
+  "previous": {
+    "title": "Admin werden",
+    "permalink": "/guides/de/docs/eco_becomeadmin"
+  },
+  "next": {
+    "title": "Admin werden",
+    "permalink": "/guides/de/docs/factorio_becomeadmin"
+  }
+}

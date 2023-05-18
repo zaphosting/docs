@@ -1,0 +1,29 @@
+{
+  "unversionedId": "minecraft_rcon",
+  "id": "minecraft_rcon",
+  "title": "Server Using RCON",
+  "description": "Information on how to use RCON with your Minecraft server from ZAP-Hosting to manage your server - ZAP-Hosting.com documentation",
+  "source": "@site/docs/minecraft_rcon.md",
+  "sourceDirName": ".",
+  "slug": "/minecraft_rcon",
+  "permalink": "/guides/docs/minecraft_rcon",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/minecraft_rcon.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "minecraft_rcon",
+    "title": "Server Using RCON",
+    "description": "Information on how to use RCON with your Minecraft server from ZAP-Hosting to manage your server - ZAP-Hosting.com documentation",
+    "sidebar_label": "RCON"
+  },
+  "sidebar": "gameserverSidebar",
+  "previous": {
+    "title": "Behavior/Resource Packs Installation",
+    "permalink": "/guides/docs/minecraftbedrock_behaviorresourcepacks"
+  },
+  "next": {
+    "title": "Whitelist",
+    "permalink": "/guides/docs/minecraft_whitelist"
+  }
+}

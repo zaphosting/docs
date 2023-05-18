@@ -1,0 +1,29 @@
+{
+  "unversionedId": "barotrauma_becomeadmin",
+  "id": "barotrauma_becomeadmin",
+  "title": "Become an admin on your own server",
+  "description": "Information on how to become an admin on your Barotrauma server from ZAP-Hosting - ZAP-Hosting.com documentation",
+  "source": "@site/docs/barotrauma_becomeadmin.md",
+  "sourceDirName": ".",
+  "slug": "/barotrauma_becomeadmin",
+  "permalink": "/guides/docs/barotrauma_becomeadmin",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/barotrauma_becomeadmin.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "barotrauma_becomeadmin",
+    "title": "Become an admin on your own server",
+    "description": "Information on how to become an admin on your Barotrauma server from ZAP-Hosting - ZAP-Hosting.com documentation",
+    "sidebar_label": "Become Admin"
+  },
+  "sidebar": "gameserverSidebar",
+  "previous": {
+    "title": "Car Slot Requirement",
+    "permalink": "/guides/docs/assetto_competizione_slot_requirement"
+  },
+  "next": {
+    "title": "Create an Auth Key",
+    "permalink": "/guides/docs/beammp_authkey"
+  }
+}

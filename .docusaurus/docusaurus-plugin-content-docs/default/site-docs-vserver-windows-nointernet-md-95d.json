@@ -1,0 +1,20 @@
+{
+  "unversionedId": "vserver_windows_nointernet",
+  "id": "vserver_windows_nointernet",
+  "title": "VPS No internet access on Windows Server. What now?",
+  "description": "Information on how to solve problems when your Windows VPS from ZAP-Hosting does not show Internet access - ZAP-Hosting.com documentation",
+  "source": "@site/docs/vserver_windows_nointernet.md",
+  "sourceDirName": ".",
+  "slug": "/vserver_windows_nointernet",
+  "permalink": "/guides/docs/vserver_windows_nointernet",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/vserver_windows_nointernet.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "vserver_windows_nointernet",
+    "title": "VPS No internet access on Windows Server. What now?",
+    "description": "Information on how to solve problems when your Windows VPS from ZAP-Hosting does not show Internet access - ZAP-Hosting.com documentation",
+    "sidebar_label": "No Internet what now?"
+  }
+}

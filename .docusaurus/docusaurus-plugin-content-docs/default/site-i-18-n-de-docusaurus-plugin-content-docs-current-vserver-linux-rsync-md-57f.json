@@ -1,0 +1,20 @@
+{
+  "unversionedId": "vserver_linux_rsync",
+  "id": "vserver_linux_rsync",
+  "title": "Backups von Linux Server mit Rsync anfertigen",
+  "description": "Informationen, wie du mit Rsync Backups von deinem Linux vServer von ZAP-Hosting anfertigen kannst - ZAP-Hosting.com Dokumentationen",
+  "source": "@site/i18n/de/docusaurus-plugin-content-docs/current/vserver_linux_rsync.md",
+  "sourceDirName": ".",
+  "slug": "/vserver_linux_rsync",
+  "permalink": "/guides/de/docs/vserver_linux_rsync",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/vserver_linux_rsync.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "vserver_linux_rsync",
+    "title": "Backups von Linux Server mit Rsync anfertigen",
+    "description": "Informationen, wie du mit Rsync Backups von deinem Linux vServer von ZAP-Hosting anfertigen kannst - ZAP-Hosting.com Dokumentationen",
+    "sidebar_label": "Rsync Linux"
+  }
+}

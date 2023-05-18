@@ -1,0 +1,20 @@
+{
+  "unversionedId": "projectzomboid_firststeps_dashboard",
+  "id": "projectzomboid_firststeps_dashboard",
+  "title": "Project Zomboid Dashboard Übersicht",
+  "description": "Informationen zum Dashboard eines Project Zomboid Server von ZAP-Hosting - ZAP-Hosting.com Dokumentationen",
+  "source": "@site/i18n/de/docusaurus-plugin-content-docs/current/projectzomboid_firststeps_dashboard.md",
+  "sourceDirName": ".",
+  "slug": "/projectzomboid_firststeps_dashboard",
+  "permalink": "/guides/de/docs/projectzomboid_firststeps_dashboard",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/projectzomboid_firststeps_dashboard.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "projectzomboid_firststeps_dashboard",
+    "title": "Project Zomboid Dashboard Übersicht",
+    "description": "Informationen zum Dashboard eines Project Zomboid Server von ZAP-Hosting - ZAP-Hosting.com Dokumentationen",
+    "sidebar_label": "Dashboard"
+  }
+}

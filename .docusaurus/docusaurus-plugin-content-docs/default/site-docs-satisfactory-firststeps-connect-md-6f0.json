@@ -1,0 +1,19 @@
+{
+  "unversionedId": "satisfactory_firststeps_connect",
+  "id": "satisfactory_firststeps_connect",
+  "title": "Connect to the Server",
+  "description": "Information about connecting to a Satisfactory Server from ZAP-Hosting - ZAP-Hosting.com Documentation",
+  "source": "@site/docs/satisfactory_firststeps_connect.md",
+  "sourceDirName": ".",
+  "slug": "/satisfactory_firststeps_connect",
+  "permalink": "/guides/docs/satisfactory_firststeps_connect",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/satisfactory_firststeps_connect.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "satisfactory_firststeps_connect",
+    "title": "Connect to the Server",
+    "description": "Information about connecting to a Satisfactory Server from ZAP-Hosting - ZAP-Hosting.com Documentation"
+  }
+}

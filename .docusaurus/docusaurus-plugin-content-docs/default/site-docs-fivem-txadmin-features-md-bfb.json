@@ -1,0 +1,29 @@
+{
+  "unversionedId": "fivem_txadmin_features",
+  "id": "fivem_txadmin_features",
+  "title": "txAdmin Interface",
+  "description": "Overview of TxAdmin interface configuration options for FiveM game servers from ZAP-Hosting - ZAP-Hosting.com Documentation",
+  "source": "@site/docs/fivem_txadmin_features.md",
+  "sourceDirName": ".",
+  "slug": "/fivem_txadmin_features",
+  "permalink": "/guides/docs/fivem_txadmin_features",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/fivem_txadmin_features.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "fivem_txadmin_features",
+    "title": "txAdmin Interface",
+    "description": "Overview of TxAdmin interface configuration options for FiveM game servers from ZAP-Hosting - ZAP-Hosting.com Documentation",
+    "sidebar_label": "txAdmin Interface"
+  },
+  "sidebar": "gameserverSidebar",
+  "previous": {
+    "title": "txAdmin Setup",
+    "permalink": "/guides/docs/fivem_txadmin_setup"
+  },
+  "next": {
+    "title": "Become admin",
+    "permalink": "/guides/docs/fivem_qbcore_admin"
+  }
+}

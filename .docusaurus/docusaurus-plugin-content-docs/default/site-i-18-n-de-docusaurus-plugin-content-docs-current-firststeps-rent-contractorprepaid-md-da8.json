@@ -1,0 +1,29 @@
+{
+  "unversionedId": "firststeps_rent_contractorprepaid",
+  "id": "firststeps_rent_contractorprepaid",
+  "title": "Vertrag oder Prepaid - Was sind die Unterschiede?",
+  "description": "Informationen zu den Unterschieden zwischen den Optionen Prepaid und Vertrag bei Servern von ZAP-Hosting - ZAP-Hosting.com Dokumentationen",
+  "source": "@site/i18n/de/docusaurus-plugin-content-docs/current/firststeps_rent_contractorprepaid.md",
+  "sourceDirName": ".",
+  "slug": "/firststeps_rent_contractorprepaid",
+  "permalink": "/guides/de/docs/firststeps_rent_contractorprepaid",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/firststeps_rent_contractorprepaid.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "firststeps_rent_contractorprepaid",
+    "title": "Vertrag oder Prepaid - Was sind die Unterschiede?",
+    "description": "Informationen zu den Unterschieden zwischen den Optionen Prepaid und Vertrag bei Servern von ZAP-Hosting - ZAP-Hosting.com Dokumentationen",
+    "sidebar_label": "Vertrag oder Prepaid"
+  },
+  "sidebar": "guidesSidebar",
+  "previous": {
+    "title": "Registrieren",
+    "permalink": "/guides/de/docs/firststeps_register"
+  },
+  "next": {
+    "title": "Vorbestellungen",
+    "permalink": "/guides/de/docs/preorders"
+  }
+}

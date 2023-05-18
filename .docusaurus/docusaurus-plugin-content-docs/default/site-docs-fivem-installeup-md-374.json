@@ -1,0 +1,29 @@
+{
+  "unversionedId": "fivem_installeup",
+  "id": "fivem_installeup",
+  "title": "Install EUP on server",
+  "description": "Information on how to install EUP on your FiveM server from ZAP-Hosting.com - ZAP-Hosting.com documentation",
+  "source": "@site/docs/fivem_installeup.md",
+  "sourceDirName": ".",
+  "slug": "/fivem_installeup",
+  "permalink": "/guides/docs/fivem_installeup",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/fivem_installeup.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "fivem_installeup",
+    "title": "Install EUP on server",
+    "description": "Information on how to install EUP on your FiveM server from ZAP-Hosting.com - ZAP-Hosting.com documentation",
+    "sidebar_label": "Install EUP"
+  },
+  "sidebar": "gameserverSidebar",
+  "previous": {
+    "title": "Install ELS",
+    "permalink": "/guides/docs/fivem_installels"
+  },
+  "next": {
+    "title": "Deactivate the Inventory (F2)",
+    "permalink": "/guides/docs/fivem_esx_disableinventory"
+  }
+}

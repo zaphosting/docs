@@ -1,0 +1,20 @@
+{
+  "unversionedId": "vserver_windows_fs_22",
+  "id": "vserver_windows_fs_22",
+  "title": "Install FarmingSimulator 2022 on Windows",
+  "description": "Information on how to install and set up a FarmingSimulator Dedicated Server 2022 on your Windows vServer and Dedicated Server from ZAP-Hosting - ZAP-Hosting.com Documentations",
+  "source": "@site/docs/vserver_windows_fs_22.md",
+  "sourceDirName": ".",
+  "slug": "/vserver_windows_fs_22",
+  "permalink": "/guides/docs/vserver_windows_fs_22",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/vserver_windows_fs_22.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "vserver_windows_fs_22",
+    "title": "Install FarmingSimulator 2022 on Windows",
+    "description": "Information on how to install and set up a FarmingSimulator Dedicated Server 2022 on your Windows vServer and Dedicated Server from ZAP-Hosting - ZAP-Hosting.com Documentations",
+    "sidebar_label": "Farming-Simulator 2022"
+  }
+}

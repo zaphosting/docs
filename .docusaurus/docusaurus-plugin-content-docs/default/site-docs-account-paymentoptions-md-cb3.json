@@ -1,0 +1,29 @@
+{
+  "unversionedId": "account_paymentoptions",
+  "id": "account_paymentoptions",
+  "title": "Payment options - What payment options are available",
+  "description": "Information about the different payment options at ZAP-Hosting PayPal, credit card, ZAP Coins and more - ZAP-Hosting.com documentations",
+  "source": "@site/docs/account_paymentoptions.md",
+  "sourceDirName": ".",
+  "slug": "/account_paymentoptions",
+  "permalink": "/guides/docs/account_paymentoptions",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/account_paymentoptions.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "account_paymentoptions",
+    "title": "Payment options - What payment options are available",
+    "description": "Information about the different payment options at ZAP-Hosting PayPal, credit card, ZAP Coins and more - ZAP-Hosting.com documentations",
+    "sidebar_label": "Payment options"
+  },
+  "sidebar": "guidesSidebar",
+  "previous": {
+    "title": "Termination and Cancellation",
+    "permalink": "/guides/docs/account_termination_and_cancellation_period"
+  },
+  "next": {
+    "title": "Backup Storage",
+    "permalink": "/guides/docs/account_backup_storage"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "unversionedId": "webspace_wordpress",
+  "id": "webspace_wordpress",
+  "title": "WordPress installieren",
+  "description": "Informationen, wie du WordPress auf deinen Webspace von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentationen",
+  "source": "@site/i18n/de/docusaurus-plugin-content-docs/current/webspace_wordpress.md",
+  "sourceDirName": ".",
+  "slug": "/webspace_wordpress",
+  "permalink": "/guides/de/docs/webspace_wordpress",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/webspace_wordpress.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "webspace_wordpress",
+    "title": "WordPress installieren",
+    "description": "Informationen, wie du WordPress auf deinen Webspace von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentationen",
+    "sidebar_label": "WordPress installieren"
+  },
+  "sidebar": "domainwebspaceSidebar",
+  "previous": {
+    "title": "MyBB installieren",
+    "permalink": "/guides/de/docs/webspace_mybb"
+  }
+}

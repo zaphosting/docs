@@ -1,0 +1,29 @@
+{
+  "unversionedId": "fivem_txadmin_setup",
+  "id": "fivem_txadmin_setup",
+  "title": "txAdmin Setup",
+  "description": "Information on how to set up the TxAdmin interface for FiveM game servers from ZAP-Hosting - ZAP-Hosting.com Documentation",
+  "source": "@site/docs/fivem_txadmin_setup.md",
+  "sourceDirName": ".",
+  "slug": "/fivem_txadmin_setup",
+  "permalink": "/guides/docs/fivem_txadmin_setup",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/fivem_txadmin_setup.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "fivem_txadmin_setup",
+    "title": "txAdmin Setup",
+    "description": "Information on how to set up the TxAdmin interface for FiveM game servers from ZAP-Hosting - ZAP-Hosting.com Documentation",
+    "sidebar_label": "txAdmin Setup"
+  },
+  "sidebar": "gameserverSidebar",
+  "previous": {
+    "title": "Remove Speedometer",
+    "permalink": "/guides/docs/fivem_vrp_removespeedo"
+  },
+  "next": {
+    "title": "txAdmin Interface",
+    "permalink": "/guides/docs/fivem_txadmin_features"
+  }
+}

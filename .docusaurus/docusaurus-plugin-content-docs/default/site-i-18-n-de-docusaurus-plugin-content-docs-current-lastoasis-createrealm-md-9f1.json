@@ -1,0 +1,28 @@
+{
+  "unversionedId": "lastoasis_createrealm",
+  "id": "lastoasis_createrealm",
+  "title": "Realm Erstellen",
+  "description": "Anleitung, wie du ein Realm erstellst und deinem Server die Keys zuweist.",
+  "source": "@site/i18n/de/docusaurus-plugin-content-docs/current/lastoasis_createrealm.md",
+  "sourceDirName": ".",
+  "slug": "/lastoasis_createrealm",
+  "permalink": "/guides/de/docs/lastoasis_createrealm",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/lastoasis_createrealm.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "lastoasis_createrealm",
+    "title": "Realm Erstellen",
+    "description": "Anleitung, wie du ein Realm erstellst und deinem Server die Keys zuweist."
+  },
+  "sidebar": "gameserverSidebar",
+  "previous": {
+    "title": "Admin werden",
+    "permalink": "/guides/de/docs/avorion_becomeadmin"
+  },
+  "next": {
+    "title": "Einrichtung",
+    "permalink": "/guides/de/docs/discordbot_setup"
+  }
+}

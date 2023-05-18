@@ -1,0 +1,29 @@
+{
+  "unversionedId": "trucksim_dlc",
+  "id": "trucksim_dlc",
+  "title": "DLC/Mods Aktivieren",
+  "description": "Informationen, wie du auf deinem Trucksim-Server DLCs und Mods aktivierst",
+  "source": "@site/i18n/de/docusaurus-plugin-content-docs/current/trucksim_dlc.md",
+  "sourceDirName": ".",
+  "slug": "/trucksim_dlc",
+  "permalink": "/guides/de/docs/trucksim_dlc",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/trucksim_dlc.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "trucksim_dlc",
+    "title": "DLC/Mods Aktivieren",
+    "description": "Informationen, wie du auf deinem Trucksim-Server DLCs und Mods aktivierst",
+    "sidebar_label": "DLC/Mods Aktivieren"
+  },
+  "sidebar": "gameserverSidebar",
+  "previous": {
+    "title": "Einrichtung",
+    "permalink": "/guides/de/docs/discordbot_setup"
+  },
+  "next": {
+    "title": "Admin werden",
+    "permalink": "/guides/de/docs/vrising-becomeadmin"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "unversionedId": "voiceserver_voicebot_connection",
+  "id": "voiceserver_voicebot_connection",
+  "title": "Voicebot mit Teamspeak Server verbinden",
+  "description": "Informationen, wie du einen Voicebot mit deinem Teamspeak Server von ZAP-Hosting verbinden kannst - ZAP-Hosting.com Dokumentationen",
+  "source": "@site/i18n/de/docusaurus-plugin-content-docs/current/voiceserver_voicebot_connection.md",
+  "sourceDirName": ".",
+  "slug": "/voiceserver_voicebot_connection",
+  "permalink": "/guides/de/docs/voiceserver_voicebot_connection",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/voiceserver_voicebot_connection.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "voiceserver_voicebot_connection",
+    "title": "Voicebot mit Teamspeak Server verbinden",
+    "description": "Informationen, wie du einen Voicebot mit deinem Teamspeak Server von ZAP-Hosting verbinden kannst - ZAP-Hosting.com Dokumentationen",
+    "sidebar_label": "Voicebot Verbinden"
+  },
+  "sidebar": "voiceserverbotSidebar",
+  "next": {
+    "title": "Admin werden",
+    "permalink": "/guides/de/docs/voiceserver_becomeadmin"
+  }
+}

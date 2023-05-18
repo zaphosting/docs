@@ -1,0 +1,25 @@
+{
+  "unversionedId": "firststeps_register",
+  "id": "firststeps_register",
+  "title": "Registration",
+  "description": "Information on how to register a user account with ZAP-Hosting - ZAP-Hosting.com documentation",
+  "source": "@site/docs/firststeps_register.md",
+  "sourceDirName": ".",
+  "slug": "/firststeps_register",
+  "permalink": "/guides/docs/firststeps_register",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/firststeps_register.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "firststeps_register",
+    "title": "Registration",
+    "description": "Information on how to register a user account with ZAP-Hosting - ZAP-Hosting.com documentation",
+    "sidebar_label": "Register"
+  },
+  "sidebar": "guidesSidebar",
+  "next": {
+    "title": "Contract or Prepaid",
+    "permalink": "/guides/docs/firststeps_rent_contractorprepaid"
+  }
+}

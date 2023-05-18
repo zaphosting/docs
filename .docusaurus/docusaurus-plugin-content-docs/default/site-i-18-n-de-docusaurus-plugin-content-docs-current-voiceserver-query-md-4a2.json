@@ -1,0 +1,25 @@
+{
+  "unversionedId": "voiceserver_query",
+  "id": "voiceserver_query",
+  "title": "Query Login einrichten",
+  "description": "Informationen, wie du einen TS Query Login für deinen Teamspeak Server von ZAP-Hosting einrichten kannst - ZAP-Hosting.com Dokumentationen",
+  "source": "@site/i18n/de/docusaurus-plugin-content-docs/current/voiceserver_query.md",
+  "sourceDirName": ".",
+  "slug": "/voiceserver_query",
+  "permalink": "/guides/de/docs/voiceserver_query",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/voiceserver_query.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "voiceserver_query",
+    "title": "Query Login einrichten",
+    "description": "Informationen, wie du einen TS Query Login für deinen Teamspeak Server von ZAP-Hosting einrichten kannst - ZAP-Hosting.com Dokumentationen",
+    "sidebar_label": "Teamspeak Query Login"
+  },
+  "sidebar": "voiceserverbotSidebar",
+  "previous": {
+    "title": "Ts3 Backup",
+    "permalink": "/guides/de/docs/voiceserver_ts3backup"
+  }
+}

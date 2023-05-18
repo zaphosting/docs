@@ -1,0 +1,29 @@
+{
+  "unversionedId": "gameserver_resourcelimit",
+  "id": "gameserver_resourcelimit",
+  "title": "Resource limit - Unlocking a game server",
+  "description": "Information on how to unlock your game server if it has been locked due to exceeding the resource limit - ZAP-Hosting.com documentation",
+  "source": "@site/docs/gameserver_resourcelimit.md",
+  "sourceDirName": ".",
+  "slug": "/gameserver_resourcelimit",
+  "permalink": "/guides/docs/gameserver_resourcelimit",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/gameserver_resourcelimit.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "gameserver_resourcelimit",
+    "title": "Resource limit - Unlocking a game server",
+    "description": "Information on how to unlock your game server if it has been locked due to exceeding the resource limit - ZAP-Hosting.com documentation",
+    "sidebar_label": "Resource limit"
+  },
+  "sidebar": "gameserverSidebar",
+  "previous": {
+    "title": "Cloud vs. Lifetime",
+    "permalink": "/guides/docs/gameserver_cloudvslifetime"
+  },
+  "next": {
+    "title": "Change the game",
+    "permalink": "/guides/docs/gameserver_gameswitch"
+  }
+}

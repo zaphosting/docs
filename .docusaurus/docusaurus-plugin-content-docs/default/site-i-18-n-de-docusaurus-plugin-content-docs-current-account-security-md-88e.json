@@ -1,0 +1,29 @@
+{
+  "unversionedId": "account_security",
+  "id": "account_security",
+  "title": "Account-Sicherheit - Informationen zur Absicherung eines ZAP-Accounts",
+  "description": "Wie du deinen Account  bei ZAP-Hosting mit sicheren Passwörtern und 2-Faktor-Authentifizierung absichern kannst - ZAP-Hosting.com Dokumentationen",
+  "source": "@site/i18n/de/docusaurus-plugin-content-docs/current/account_security.md",
+  "sourceDirName": ".",
+  "slug": "/account_security",
+  "permalink": "/guides/de/docs/account_security",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/account_security.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "account_security",
+    "title": "Account-Sicherheit - Informationen zur Absicherung eines ZAP-Accounts",
+    "description": "Wie du deinen Account  bei ZAP-Hosting mit sicheren Passwörtern und 2-Faktor-Authentifizierung absichern kannst - ZAP-Hosting.com Dokumentationen",
+    "sidebar_label": "Sicherheit"
+  },
+  "sidebar": "guidesSidebar",
+  "previous": {
+    "title": "Zwei-Faktor-Authentifizierung",
+    "permalink": "/guides/de/docs/account_2factor"
+  },
+  "next": {
+    "title": "Partner-System",
+    "permalink": "/guides/de/docs/account_partner_system"
+  }
+}

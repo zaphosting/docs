@@ -1,0 +1,29 @@
+{
+  "unversionedId": "assettocorsa_contentmanager",
+  "id": "assettocorsa_contentmanager",
+  "title": "Configure Server with Content Manager",
+  "description": "Information on how to configure your Assetto Corsa server from ZAP-Hosting using the Content Manager - ZAP-Hosting.com Documentation",
+  "source": "@site/docs/assettocorsa_contentmanager.md",
+  "sourceDirName": ".",
+  "slug": "/assettocorsa_contentmanager",
+  "permalink": "/guides/docs/assettocorsa_contentmanager",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/assettocorsa_contentmanager.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "assettocorsa_contentmanager",
+    "title": "Configure Server with Content Manager",
+    "description": "Information on how to configure your Assetto Corsa server from ZAP-Hosting using the Content Manager - ZAP-Hosting.com Documentation",
+    "sidebar_label": "Configure Server with Content Manager"
+  },
+  "sidebar": "gameserverSidebar",
+  "previous": {
+    "title": "Configure Server",
+    "permalink": "/guides/docs/assettocorsa_configure"
+  },
+  "next": {
+    "title": "Install Mods",
+    "permalink": "/guides/docs/assettocorsa_mods"
+  }
+}

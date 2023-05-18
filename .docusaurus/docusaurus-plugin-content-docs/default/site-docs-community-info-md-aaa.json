@@ -1,0 +1,29 @@
+{
+  "unversionedId": "community_info",
+  "id": "community_info",
+  "title": "Community offers - become part of the ZAP-Hosting community",
+  "description": "Information about the different social media channels of ZAP-Hosting - ZAP-Hosting.com documentation",
+  "source": "@site/docs/community_info.md",
+  "sourceDirName": ".",
+  "slug": "/community_info",
+  "permalink": "/guides/docs/community_info",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/community_info.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "community_info",
+    "title": "Community offers - become part of the ZAP-Hosting community",
+    "description": "Information about the different social media channels of ZAP-Hosting - ZAP-Hosting.com documentation",
+    "sidebar_label": "Community offers"
+  },
+  "sidebar": "guidesSidebar",
+  "previous": {
+    "title": "Locations",
+    "permalink": "/guides/docs/firststeps_locations"
+  },
+  "next": {
+    "title": "Submit Suggestions",
+    "permalink": "/guides/docs/suggestions"
+  }
+}

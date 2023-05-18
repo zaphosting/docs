@@ -1,0 +1,29 @@
+{
+  "unversionedId": "exiled_plugins",
+  "id": "exiled_plugins",
+  "title": "Installing plugins on your server",
+  "description": "Information on how to install plugins on your EXILED  server from ZAP-Hosting - ZAP-Hosting.com documentation",
+  "source": "@site/docs/exiled_plugins.md",
+  "sourceDirName": ".",
+  "slug": "/exiled_plugins",
+  "permalink": "/guides/docs/exiled_plugins",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/exiled_plugins.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "exiled_plugins",
+    "title": "Installing plugins on your server",
+    "description": "Information on how to install plugins on your EXILED  server from ZAP-Hosting - ZAP-Hosting.com documentation",
+    "sidebar_label": "Plugins Install"
+  },
+  "sidebar": "gameserverSidebar",
+  "previous": {
+    "title": "Install Plugins",
+    "permalink": "/guides/docs/scpservermod_uploadplugins"
+  },
+  "next": {
+    "title": "Become Admin",
+    "permalink": "/guides/docs/eco_becomeadmin"
+  }
+}

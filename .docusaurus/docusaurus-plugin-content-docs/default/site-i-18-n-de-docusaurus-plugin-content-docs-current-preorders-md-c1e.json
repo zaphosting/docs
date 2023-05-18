@@ -1,0 +1,29 @@
+{
+  "unversionedId": "preorders",
+  "id": "preorders",
+  "title": "Vorbestellungen",
+  "description": "Informationen zu Vorbestellungen bei ZAP-Hosting. Was sind Vorbestellungen? Wann werden Server eingerichtet? Können Vorbestellungen zurückgezogen werden? - ZAP-Hosting.com Dokumentationen",
+  "source": "@site/i18n/de/docusaurus-plugin-content-docs/current/preorders.md",
+  "sourceDirName": ".",
+  "slug": "/preorders",
+  "permalink": "/guides/de/docs/preorders",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/preorders.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "preorders",
+    "title": "Vorbestellungen",
+    "description": "Informationen zu Vorbestellungen bei ZAP-Hosting. Was sind Vorbestellungen? Wann werden Server eingerichtet? Können Vorbestellungen zurückgezogen werden? - ZAP-Hosting.com Dokumentationen",
+    "sidebar_label": "Vorbestellungen"
+  },
+  "sidebar": "guidesSidebar",
+  "previous": {
+    "title": "Vertrag oder Prepaid",
+    "permalink": "/guides/de/docs/firststeps_rent_contractorprepaid"
+  },
+  "next": {
+    "title": "Standorte",
+    "permalink": "/guides/de/docs/firststeps_locations"
+  }
+}

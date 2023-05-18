@@ -1,0 +1,29 @@
+{
+  "unversionedId": "source_custom_content",
+  "id": "source_custom_content",
+  "title": "Installing custom content and mods on game servers",
+  "description": "Information on how to install custom content and mods on your Source game server (e.g. CSS or Garry's Mod) from ZAP-Hosting - ZAP-Hosting.com documentation",
+  "source": "@site/docs/source_custom_content.md",
+  "sourceDirName": ".",
+  "slug": "/source_custom_content",
+  "permalink": "/guides/docs/source_custom_content",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/source_custom_content.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "source_custom_content",
+    "title": "Installing custom content and mods on game servers",
+    "description": "Information on how to install custom content and mods on your Source game server (e.g. CSS or Garry's Mod) from ZAP-Hosting - ZAP-Hosting.com documentation",
+    "sidebar_label": "Custom Content"
+  },
+  "sidebar": "gameserverSidebar",
+  "previous": {
+    "title": "GSL-Token",
+    "permalink": "/guides/docs/source_gsltoken"
+  },
+  "next": {
+    "title": "Installation",
+    "permalink": "/guides/docs/source_metamod_installation"
+  }
+}

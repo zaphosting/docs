@@ -1,0 +1,29 @@
+{
+  "unversionedId": "cs16_becomeadmin",
+  "id": "cs16_becomeadmin",
+  "title": "Become an admin on your own server",
+  "description": "Information on how to become an admin on your CS 1.6 server from ZAP-Hosting - ZAP-Hosting.com documentation",
+  "source": "@site/docs/cs16_becomeadmin.md",
+  "sourceDirName": ".",
+  "slug": "/cs16_becomeadmin",
+  "permalink": "/guides/docs/cs16_becomeadmin",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/cs16_becomeadmin.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "cs16_becomeadmin",
+    "title": "Become an admin on your own server",
+    "description": "Information on how to become an admin on your CS 1.6 server from ZAP-Hosting - ZAP-Hosting.com documentation",
+    "sidebar_label": "Become Admin"
+  },
+  "sidebar": "gameserverSidebar",
+  "previous": {
+    "title": "GOTV",
+    "permalink": "/guides/docs/csgo_gotv"
+  },
+  "next": {
+    "title": "Install Plugins",
+    "permalink": "/guides/docs/cs16_plugins"
+  }
+}

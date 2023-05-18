@@ -1,0 +1,20 @@
+{
+  "unversionedId": "vserver_root_unterschied",
+  "id": "vserver_root_unterschied",
+  "title": "Unterschied Rootserver / V-Server",
+  "description": "Informationen zu den Unterschieden zwischen Rootservern und vServern bei ZAP-Hosting - ZAP-Hosting.com Dokumnentationen",
+  "source": "@site/i18n/de/docusaurus-plugin-content-docs/current/vserver_root_unterschied.md",
+  "sourceDirName": ".",
+  "slug": "/vserver_root_unterschied",
+  "permalink": "/guides/de/docs/vserver_root_unterschied",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/vserver_root_unterschied.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "vserver_root_unterschied",
+    "title": "Unterschied Rootserver / V-Server",
+    "description": "Informationen zu den Unterschieden zwischen Rootservern und vServern bei ZAP-Hosting - ZAP-Hosting.com Dokumnentationen",
+    "sidebar_label": "Unterschied Rootserver / V-Server"
+  }
+}

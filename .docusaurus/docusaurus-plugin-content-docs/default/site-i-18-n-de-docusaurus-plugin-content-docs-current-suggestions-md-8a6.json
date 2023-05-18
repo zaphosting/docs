@@ -1,0 +1,29 @@
+{
+  "unversionedId": "suggestions",
+  "id": "suggestions",
+  "title": "Vorschläge einreichen",
+  "description": "Informatoinen, wie du Vorschläge für neue Gameserver und Funktionen auf ZAP-Hosting einreichen kannst - ZAP-Hosting.com Dokumentationen",
+  "source": "@site/i18n/de/docusaurus-plugin-content-docs/current/suggestions.md",
+  "sourceDirName": ".",
+  "slug": "/suggestions",
+  "permalink": "/guides/de/docs/suggestions",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/suggestions.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "suggestions",
+    "title": "Vorschläge einreichen",
+    "description": "Informatoinen, wie du Vorschläge für neue Gameserver und Funktionen auf ZAP-Hosting einreichen kannst - ZAP-Hosting.com Dokumentationen",
+    "sidebar_label": "Vorschläge einreichen"
+  },
+  "sidebar": "guidesSidebar",
+  "previous": {
+    "title": "Community Angebote",
+    "permalink": "/guides/de/docs/community_info"
+  },
+  "next": {
+    "title": "Probleme melden",
+    "permalink": "/guides/de/docs/firststeps_problem_melden"
+  }
+}

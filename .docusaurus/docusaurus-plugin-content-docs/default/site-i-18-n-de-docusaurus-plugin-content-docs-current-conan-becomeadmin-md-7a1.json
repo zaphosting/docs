@@ -1,0 +1,29 @@
+{
+  "unversionedId": "conan_becomeadmin",
+  "id": "conan_becomeadmin",
+  "title": "Admin auf dem eigenen Server werden",
+  "description": "Informationen, wie du Admin auf deinem Conan Exiles-Server von ZAP-Hosting wirst - ZAP-Hosting.com Dokumentationen",
+  "source": "@site/i18n/de/docusaurus-plugin-content-docs/current/conan_becomeadmin.md",
+  "sourceDirName": ".",
+  "slug": "/conan_becomeadmin",
+  "permalink": "/guides/de/docs/conan_becomeadmin",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/conan_becomeadmin.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "conan_becomeadmin",
+    "title": "Admin auf dem eigenen Server werden",
+    "description": "Informationen, wie du Admin auf deinem Conan Exiles-Server von ZAP-Hosting wirst - ZAP-Hosting.com Dokumentationen",
+    "sidebar_label": "Admin werden"
+  },
+  "sidebar": "gameserverSidebar",
+  "previous": {
+    "title": "Mods installieren",
+    "permalink": "/guides/de/docs/beammp_mods"
+  },
+  "next": {
+    "title": "Server Konfiguration",
+    "permalink": "/guides/de/docs/conan_configuration"
+  }
+}

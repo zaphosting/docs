@@ -1,0 +1,20 @@
+{
+  "unversionedId": "dedicated_iso",
+  "id": "dedicated_iso",
+  "title": "Own ISO",
+  "description": "Information on how to install your own ISO file on your dedicated server from ZAP-Hosting - ZAP-Hosting.com Documentation",
+  "source": "@site/docs/dedicated_iso.md",
+  "sourceDirName": ".",
+  "slug": "/dedicated_iso",
+  "permalink": "/guides/docs/dedicated_iso",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/dedicated_iso.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "dedicated_iso",
+    "title": "Own ISO",
+    "description": "Information on how to install your own ISO file on your dedicated server from ZAP-Hosting - ZAP-Hosting.com Documentation",
+    "sidebar_label": "Own ISO"
+  }
+}

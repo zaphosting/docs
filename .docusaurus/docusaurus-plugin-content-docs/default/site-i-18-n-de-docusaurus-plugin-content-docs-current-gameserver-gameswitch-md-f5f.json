@@ -1,0 +1,29 @@
+{
+  "unversionedId": "gameserver_gameswitch",
+  "id": "gameserver_gameswitch",
+  "title": "Spielwechsel mit der Gameservercloud",
+  "description": "Informationen, wie du weitere Spiele auf deinen Gameserver von ZAP-Hosting.com installieren und zwischen den Spielen wechseln kannst - ZAP-Hosting.com Dokumentationen",
+  "source": "@site/i18n/de/docusaurus-plugin-content-docs/current/gameserver_gameswitch.md",
+  "sourceDirName": ".",
+  "slug": "/gameserver_gameswitch",
+  "permalink": "/guides/de/docs/gameserver_gameswitch",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/gameserver_gameswitch.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "gameserver_gameswitch",
+    "title": "Spielwechsel mit der Gameservercloud",
+    "description": "Informationen, wie du weitere Spiele auf deinen Gameserver von ZAP-Hosting.com installieren und zwischen den Spielen wechseln kannst - ZAP-Hosting.com Dokumentationen",
+    "sidebar_label": "Spielwechsel"
+  },
+  "sidebar": "gameserverSidebar",
+  "previous": {
+    "title": "Resourcenlimit",
+    "permalink": "/guides/de/docs/gameserver_resourcelimit"
+  },
+  "next": {
+    "title": "Up-/Downgrade",
+    "permalink": "/guides/de/docs/gameserver_upgrade"
+  }
+}

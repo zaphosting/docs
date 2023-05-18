@@ -1,0 +1,20 @@
+{
+  "unversionedId": "beammp_firststeps_dashboard",
+  "id": "beammp_firststeps_dashboard",
+  "title": "Dashboard Übersicht",
+  "description": "Informationen zum Dashboard eines BeamMP Server von ZAP-Hosting - ZAP-Hosting.com Dokumentationen",
+  "source": "@site/i18n/de/docusaurus-plugin-content-docs/current/beammp_firststeps_dashboard.md",
+  "sourceDirName": ".",
+  "slug": "/beammp_firststeps_dashboard",
+  "permalink": "/guides/de/docs/beammp_firststeps_dashboard",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/beammp_firststeps_dashboard.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "beammp_firststeps_dashboard",
+    "title": "Dashboard Übersicht",
+    "description": "Informationen zum Dashboard eines BeamMP Server von ZAP-Hosting - ZAP-Hosting.com Dokumentationen",
+    "sidebar_label": "Dashboard"
+  }
+}

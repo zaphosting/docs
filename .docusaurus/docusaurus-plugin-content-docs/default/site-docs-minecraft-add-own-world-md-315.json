@@ -1,0 +1,29 @@
+{
+  "unversionedId": "minecraft_add_own_world",
+  "id": "minecraft_add_own_world",
+  "title": "Adding your own world to the server",
+  "description": "Information on how to add your own world to your Minecraft server from ZAP-Hosting - ZAP-Hosting.com documentation",
+  "source": "@site/docs/minecraft_add_own_world.md",
+  "sourceDirName": ".",
+  "slug": "/minecraft_add_own_world",
+  "permalink": "/guides/docs/minecraft_add_own_world",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/minecraft_add_own_world.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "minecraft_add_own_world",
+    "title": "Adding your own world to the server",
+    "description": "Information on how to add your own world to your Minecraft server from ZAP-Hosting - ZAP-Hosting.com documentation",
+    "sidebar_label": "Add your own world"
+  },
+  "sidebar": "gameserverSidebar",
+  "previous": {
+    "title": "Server Icon",
+    "permalink": "/guides/docs/minecraft_server-icon"
+  },
+  "next": {
+    "title": "Manage Worlds",
+    "permalink": "/guides/docs/minecraft_worlds"
+  }
+}

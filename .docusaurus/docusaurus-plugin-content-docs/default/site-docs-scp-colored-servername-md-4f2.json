@@ -1,0 +1,29 @@
+{
+  "unversionedId": "scp_colored_servername",
+  "id": "scp_colored_servername",
+  "title": "Colored Servername",
+  "description": "Information on how to color the server name on your SCP server from ZAP-Hosting - ZAP-Hosting.com Documentation",
+  "source": "@site/docs/scp_colored_servername.md",
+  "sourceDirName": ".",
+  "slug": "/scp_colored_servername",
+  "permalink": "/guides/docs/scp_colored_servername",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/scp_colored_servername.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "scp_colored_servername",
+    "title": "Colored Servername",
+    "description": "Information on how to color the server name on your SCP server from ZAP-Hosting - ZAP-Hosting.com Documentation",
+    "sidebar_label": "Colored Servername"
+  },
+  "sidebar": "gameserverSidebar",
+  "previous": {
+    "title": "Add new roles",
+    "permalink": "/guides/docs/scp_newroles"
+  },
+  "next": {
+    "title": "Pastebin ID",
+    "permalink": "/guides/docs/scp_pastebin"
+  }
+}

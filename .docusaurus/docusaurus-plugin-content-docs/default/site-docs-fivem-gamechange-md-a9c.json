@@ -1,0 +1,29 @@
+{
+  "unversionedId": "fivem_gamechange",
+  "id": "fivem_gamechange",
+  "title": "Gamechange",
+  "description": "Change your FiveM Version",
+  "source": "@site/docs/fivem_gamechange.md",
+  "sourceDirName": ".",
+  "slug": "/fivem_gamechange",
+  "permalink": "/guides/docs/fivem_gamechange",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/fivem_gamechange.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "fivem_gamechange",
+    "title": "Gamechange",
+    "description": "Change your FiveM Version",
+    "sidebar_label": "Gamechange"
+  },
+  "sidebar": "gameserverSidebar",
+  "previous": {
+    "title": "Enable DLC Gamebuild",
+    "permalink": "/guides/docs/fivem_gamebuild"
+  },
+  "next": {
+    "title": "Steam Web API Key",
+    "permalink": "/guides/docs/fivem-steam-web-api-key"
+  }
+}

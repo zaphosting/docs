@@ -1,0 +1,15 @@
+{
+  "unversionedId": "pathoftitans_becomeadmin",
+  "id": "pathoftitans_becomeadmin",
+  "title": "pathoftitans_becomeadmin",
+  "description": "",
+  "source": "@site/docs/pathoftitans_becomeadmin.md",
+  "sourceDirName": ".",
+  "slug": "/pathoftitans_becomeadmin",
+  "permalink": "/guides/docs/pathoftitans_becomeadmin",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/pathoftitans_becomeadmin.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

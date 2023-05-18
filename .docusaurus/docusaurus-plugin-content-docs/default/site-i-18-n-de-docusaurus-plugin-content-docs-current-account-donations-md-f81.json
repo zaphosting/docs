@@ -1,0 +1,29 @@
+{
+  "unversionedId": "account_donations",
+  "id": "account_donations",
+  "title": "Spenden - Server gemeinsam finanzieren",
+  "description": "Anleitung, wie du über die Spendenfunktion einen Server bei ZAP-Hosting zusammen mit Freunden finanzieren kannst - ZAP-Hosting.com Dokumentationen",
+  "source": "@site/i18n/de/docusaurus-plugin-content-docs/current/account_donations.md",
+  "sourceDirName": ".",
+  "slug": "/account_donations",
+  "permalink": "/guides/de/docs/account_donations",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/account_donations.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "account_donations",
+    "title": "Spenden - Server gemeinsam finanzieren",
+    "description": "Anleitung, wie du über die Spendenfunktion einen Server bei ZAP-Hosting zusammen mit Freunden finanzieren kannst - ZAP-Hosting.com Dokumentationen",
+    "sidebar_label": "Spendenlink"
+  },
+  "sidebar": "guidesSidebar",
+  "previous": {
+    "title": "Gutscheine & Codes",
+    "permalink": "/guides/de/docs/account_vouchers"
+  },
+  "next": {
+    "title": "Community Werbung",
+    "permalink": "/guides/de/docs/account_community_ads"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "unversionedId": "satisfactory_savegame",
+  "id": "satisfactory_savegame",
+  "title": "Savegame Manager",
+  "description": "Information on possibilities to manage savegames via Savegames Manager on your Satisfactory server from ZAP-Hosting - ZAP-Hosting.com Documentation",
+  "source": "@site/docs/satisfactory_savegame.md",
+  "sourceDirName": ".",
+  "slug": "/satisfactory_savegame",
+  "permalink": "/guides/docs/satisfactory_savegame",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/satisfactory_savegame.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "satisfactory_savegame",
+    "title": "Savegame Manager",
+    "description": "Information on possibilities to manage savegames via Savegames Manager on your Satisfactory server from ZAP-Hosting - ZAP-Hosting.com Documentation",
+    "sidebar_label": "Savegame Manager"
+  },
+  "sidebar": "gameserverSidebar",
+  "previous": {
+    "title": "Connect to the Server (Experimental)",
+    "permalink": "/guides/docs/satisfactory_connect_experimental"
+  },
+  "next": {
+    "title": "Experimental Build",
+    "permalink": "/guides/docs/satisfactory_switchexperimental"
+  }
+}

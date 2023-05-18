@@ -1,0 +1,29 @@
+{
+  "unversionedId": "minecraft_addop",
+  "id": "minecraft_addop",
+  "title": "Server OP-Rechte vergeben",
+  "description": "Informationen, wie du OP-Rechte für deinen Minecraft-Server von ZAP-Hosting.com vergeben und bearbeiten kannst - ZAP-Hosting.com Dokumentationen",
+  "source": "@site/i18n/de/docusaurus-plugin-content-docs/current/minecraft_addop.md",
+  "sourceDirName": ".",
+  "slug": "/minecraft_addop",
+  "permalink": "/guides/de/docs/minecraft_addop",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/minecraft_addop.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "minecraft_addop",
+    "title": "Server OP-Rechte vergeben",
+    "description": "Informationen, wie du OP-Rechte für deinen Minecraft-Server von ZAP-Hosting.com vergeben und bearbeiten kannst - ZAP-Hosting.com Dokumentationen",
+    "sidebar_label": "OP-Rechte"
+  },
+  "sidebar": "gameserverSidebar",
+  "previous": {
+    "title": "Allgemeine Befehle",
+    "permalink": "/guides/de/docs/minecraft_commands"
+  },
+  "next": {
+    "title": "Server Config",
+    "permalink": "/guides/de/docs/minecraft_default_config"
+  }
+}

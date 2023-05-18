@@ -1,0 +1,29 @@
+{
+  "unversionedId": "avorion_becomeadmin",
+  "id": "avorion_becomeadmin",
+  "title": "Become an admin on your own server",
+  "description": "Information on how to become admin on your Avorion server from ZAP-Hosting - ZAP-Hosting.com documentation",
+  "source": "@site/docs/avorion_becomeadmin.md",
+  "sourceDirName": ".",
+  "slug": "/avorion_becomeadmin",
+  "permalink": "/guides/docs/avorion_becomeadmin",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/avorion_becomeadmin.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "avorion_becomeadmin",
+    "title": "Become an admin on your own server",
+    "description": "Information on how to become admin on your Avorion server from ZAP-Hosting - ZAP-Hosting.com documentation",
+    "sidebar_label": "Become Admin"
+  },
+  "sidebar": "gameserverSidebar",
+  "previous": {
+    "title": "Commands",
+    "permalink": "/guides/docs/7d2d_commands"
+  },
+  "next": {
+    "title": "Create Realm",
+    "permalink": "/guides/docs/lastoasis_createrealm"
+  }
+}

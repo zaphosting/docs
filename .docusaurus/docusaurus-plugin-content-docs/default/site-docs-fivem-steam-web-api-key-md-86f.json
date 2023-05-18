@@ -1,0 +1,29 @@
+{
+  "unversionedId": "fivem-steam-web-api-key",
+  "id": "fivem-steam-web-api-key",
+  "title": "Steam Web API Key setup",
+  "description": "Information on Steam Web Api key setup - ZAP-Hosting.com Documentation",
+  "source": "@site/docs/fivem-steam-web-api-key.md",
+  "sourceDirName": ".",
+  "slug": "/fivem-steam-web-api-key",
+  "permalink": "/guides/docs/fivem-steam-web-api-key",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/fivem-steam-web-api-key.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "fivem-steam-web-api-key",
+    "title": "Steam Web API Key setup",
+    "description": "Information on Steam Web Api key setup - ZAP-Hosting.com Documentation",
+    "sidebar_label": "Steam Web API Key"
+  },
+  "sidebar": "gameserverSidebar",
+  "previous": {
+    "title": "Gamechange",
+    "permalink": "/guides/docs/fivem_gamechange"
+  },
+  "next": {
+    "title": "Whitelist",
+    "permalink": "/guides/docs/fivem_whitelist"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "unversionedId": "minecraftbedrock_behaviorresourcepacks",
+  "id": "minecraftbedrock_behaviorresourcepacks",
+  "title": "Bedrock Behavior/Resource Packs installieren",
+  "description": "Informationen, wie du Behaviour/Resource Packs auf deinen Minecraft Bedrock Server von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentationen",
+  "source": "@site/i18n/de/docusaurus-plugin-content-docs/current/minecraftbedrock_behaviorresourcepacks.md",
+  "sourceDirName": ".",
+  "slug": "/minecraftbedrock_behaviorresourcepacks",
+  "permalink": "/guides/de/docs/minecraftbedrock_behaviorresourcepacks",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/minecraftbedrock_behaviorresourcepacks.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "minecraftbedrock_behaviorresourcepacks",
+    "title": "Bedrock Behavior/Resource Packs installieren",
+    "description": "Informationen, wie du Behaviour/Resource Packs auf deinen Minecraft Bedrock Server von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentationen",
+    "sidebar_label": "Behavior/Resource Packs installieren"
+  },
+  "sidebar": "gameserverSidebar",
+  "previous": {
+    "title": "Welten Verwalten",
+    "permalink": "/guides/de/docs/minecraft_worlds"
+  },
+  "next": {
+    "title": "RCON",
+    "permalink": "/guides/de/docs/minecraft_rcon"
+  }
+}

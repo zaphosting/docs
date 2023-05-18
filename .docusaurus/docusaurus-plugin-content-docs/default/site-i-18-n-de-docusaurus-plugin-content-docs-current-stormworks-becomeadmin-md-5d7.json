@@ -1,0 +1,29 @@
+{
+  "unversionedId": "stormworks-becomeadmin",
+  "id": "stormworks-becomeadmin",
+  "title": "Stormworks Admin werden - Gameserver von ZAP-Hosting",
+  "description": "Anleitung, wie du dich zum Admin für Stormworks Gameserver machst - ZAP-Hosting.com Dokumentationen",
+  "source": "@site/i18n/de/docusaurus-plugin-content-docs/current/stormworks-becomeadmin.md",
+  "sourceDirName": ".",
+  "slug": "/stormworks-becomeadmin",
+  "permalink": "/guides/de/docs/stormworks-becomeadmin",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/stormworks-becomeadmin.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "stormworks-becomeadmin",
+    "title": "Stormworks Admin werden - Gameserver von ZAP-Hosting",
+    "description": "Anleitung, wie du dich zum Admin für Stormworks Gameserver machst - ZAP-Hosting.com Dokumentationen",
+    "sidebar_label": "Admin werden"
+  },
+  "sidebar": "gameserverSidebar",
+  "previous": {
+    "title": "Admin werden",
+    "permalink": "/guides/de/docs/vrising-becomeadmin"
+  },
+  "next": {
+    "title": "Zum Server verbinden",
+    "permalink": "/guides/de/docs/corekeeper-connecttoserver"
+  }
+}

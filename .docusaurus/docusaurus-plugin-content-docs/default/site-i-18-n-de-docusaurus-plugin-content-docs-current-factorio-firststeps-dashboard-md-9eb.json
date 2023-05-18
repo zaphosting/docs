@@ -1,0 +1,20 @@
+{
+  "unversionedId": "factorio_firststeps_dashboard",
+  "id": "factorio_firststeps_dashboard",
+  "title": "Factorio Dashboard Übersicht",
+  "description": "Informationen zum Dashboard eines Factorio Server von ZAP-Hosting - ZAP-Hosting.com Dokumentationen",
+  "source": "@site/i18n/de/docusaurus-plugin-content-docs/current/factorio_firststeps_dashboard.md",
+  "sourceDirName": ".",
+  "slug": "/factorio_firststeps_dashboard",
+  "permalink": "/guides/de/docs/factorio_firststeps_dashboard",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/factorio_firststeps_dashboard.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "factorio_firststeps_dashboard",
+    "title": "Factorio Dashboard Übersicht",
+    "description": "Informationen zum Dashboard eines Factorio Server von ZAP-Hosting - ZAP-Hosting.com Dokumentationen",
+    "sidebar_label": "Dashboard"
+  }
+}

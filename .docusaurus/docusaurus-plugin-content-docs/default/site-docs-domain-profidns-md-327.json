@@ -1,0 +1,28 @@
+{
+  "unversionedId": "domain_profidns",
+  "id": "domain_profidns",
+  "title": "ProfiDNS",
+  "description": "What is ProfiDNS anyway?",
+  "source": "@site/docs/domain_profidns.md",
+  "sourceDirName": ".",
+  "slug": "/domain_profidns",
+  "permalink": "/guides/docs/domain_profidns",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/domain_profidns.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "domain_profidns",
+    "title": "ProfiDNS",
+    "sidebar_label": "ProfiDNS"
+  },
+  "sidebar": "domainwebspaceSidebar",
+  "previous": {
+    "title": "EasyDNS",
+    "permalink": "/guides/docs/domain_easydns"
+  },
+  "next": {
+    "title": "ExpertDNS",
+    "permalink": "/guides/docs/domain_expertdns"
+  }
+}

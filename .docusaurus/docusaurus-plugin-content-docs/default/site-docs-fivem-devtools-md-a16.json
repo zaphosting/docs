@@ -1,0 +1,29 @@
+{
+  "unversionedId": "fivem_devtools",
+  "id": "fivem_devtools",
+  "title": "Activate Devtools",
+  "description": "Informations on how to activate the FiveM Developer Tools - ZAP-Hosting.com Documentation",
+  "source": "@site/docs/fivem_devtools.md",
+  "sourceDirName": ".",
+  "slug": "/fivem_devtools",
+  "permalink": "/guides/docs/fivem_devtools",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/fivem_devtools.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "fivem_devtools",
+    "title": "Activate Devtools",
+    "description": "Informations on how to activate the FiveM Developer Tools - ZAP-Hosting.com Documentation",
+    "sidebar_label": "Activate Devtools"
+  },
+  "sidebar": "gameserverSidebar",
+  "previous": {
+    "title": "Server not in Serverlist",
+    "permalink": "/guides/docs/fivem_notlisted"
+  },
+  "next": {
+    "title": "Enable DLC Gamebuild",
+    "permalink": "/guides/docs/fivem_gamebuild"
+  }
+}

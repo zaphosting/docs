@@ -1,0 +1,29 @@
+{
+  "unversionedId": "beammp_mods",
+  "id": "beammp_mods",
+  "title": "Install Mods",
+  "description": "Information on how to install mods on your BeamMP server from ZAP-Hosting - ZAP-Hosting.com Documentation",
+  "source": "@site/docs/beammp_mods.md",
+  "sourceDirName": ".",
+  "slug": "/beammp_mods",
+  "permalink": "/guides/docs/beammp_mods",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/beammp_mods.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "beammp_mods",
+    "title": "Install Mods",
+    "description": "Information on how to install mods on your BeamMP server from ZAP-Hosting - ZAP-Hosting.com Documentation",
+    "sidebar_label": "Install Mods"
+  },
+  "sidebar": "gameserverSidebar",
+  "previous": {
+    "title": "Create an Auth Key",
+    "permalink": "/guides/docs/beammp_authkey"
+  },
+  "next": {
+    "title": "Become Admin",
+    "permalink": "/guides/docs/conan_becomeadmin"
+  }
+}

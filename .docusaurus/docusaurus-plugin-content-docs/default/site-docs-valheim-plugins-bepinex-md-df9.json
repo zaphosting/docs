@@ -1,0 +1,29 @@
+{
+  "unversionedId": "valheim_plugins_bepinex",
+  "id": "valheim_plugins_bepinex",
+  "title": "Installing plugins on server (BepInEx)",
+  "description": "Information on how to install plugins on your Valheim server using BepInEx (Valheim Plus & BepInEx Server) from ZAP-Hosting - ZAP-Hosting.com documentation",
+  "source": "@site/docs/valheim_plugins_bepinex.md",
+  "sourceDirName": ".",
+  "slug": "/valheim_plugins_bepinex",
+  "permalink": "/guides/docs/valheim_plugins_bepinex",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/valheim_plugins_bepinex.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "valheim_plugins_bepinex",
+    "title": "Installing plugins on server (BepInEx)",
+    "description": "Information on how to install plugins on your Valheim server using BepInEx (Valheim Plus & BepInEx Server) from ZAP-Hosting - ZAP-Hosting.com documentation",
+    "sidebar_label": "Install plugins (BepInEx)"
+  },
+  "sidebar": "gameserverSidebar",
+  "previous": {
+    "title": "Valheim Plus",
+    "permalink": "/guides/docs/valheim_plus"
+  },
+  "next": {
+    "title": "Connect to the server",
+    "permalink": "/guides/docs/scp_firststeps_connect"
+  }
+}

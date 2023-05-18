@@ -1,0 +1,29 @@
+{
+  "unversionedId": "fivem_gamebuild",
+  "id": "fivem_gamebuild",
+  "title": "Enable DLC Content",
+  "description": "Use a DLC Content on your FiveM Server",
+  "source": "@site/docs/fivem_gamebuild.md",
+  "sourceDirName": ".",
+  "slug": "/fivem_gamebuild",
+  "permalink": "/guides/docs/fivem_gamebuild",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/fivem_gamebuild.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "fivem_gamebuild",
+    "title": "Enable DLC Content",
+    "description": "Use a DLC Content on your FiveM Server",
+    "sidebar_label": "Enable DLC Gamebuild"
+  },
+  "sidebar": "gameserverSidebar",
+  "previous": {
+    "title": "Activate Devtools",
+    "permalink": "/guides/docs/fivem_devtools"
+  },
+  "next": {
+    "title": "Gamechange",
+    "permalink": "/guides/docs/fivem_gamechange"
+  }
+}

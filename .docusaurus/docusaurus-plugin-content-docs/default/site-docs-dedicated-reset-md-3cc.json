@@ -1,0 +1,20 @@
+{
+  "unversionedId": "dedicated_reset",
+  "id": "dedicated_reset",
+  "title": "Server reset",
+  "description": "Information on how to reset your dedicated server from ZAP-Hosting - ZAP-Hosting.com Documentation",
+  "source": "@site/docs/dedicated_reset.md",
+  "sourceDirName": ".",
+  "slug": "/dedicated_reset",
+  "permalink": "/guides/docs/dedicated_reset",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/dedicated_reset.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "dedicated_reset",
+    "title": "Server reset",
+    "description": "Information on how to reset your dedicated server from ZAP-Hosting - ZAP-Hosting.com Documentation",
+    "sidebar_label": "Server reset"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "unversionedId": "mta_becomeadmin",
+  "id": "mta_becomeadmin",
+  "title": "Become an admin on MTA servers",
+  "description": "Information on how to become an admin on your MTA server from ZAP-Hosting - ZAP-Hosting.com documentation",
+  "source": "@site/docs/mta_becomeadmin.md",
+  "sourceDirName": ".",
+  "slug": "/mta_becomeadmin",
+  "permalink": "/guides/docs/mta_becomeadmin",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/mta_becomeadmin.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "mta_becomeadmin",
+    "title": "Become an admin on MTA servers",
+    "description": "Information on how to become an admin on your MTA server from ZAP-Hosting - ZAP-Hosting.com documentation",
+    "sidebar_label": "Become Admin"
+  },
+  "sidebar": "gameserverSidebar",
+  "previous": {
+    "title": "Install Mods",
+    "permalink": "/guides/docs/factorio_mods"
+  },
+  "next": {
+    "title": "Become Admin",
+    "permalink": "/guides/docs/spaceengineers_becomeadmin"
+  }
+}

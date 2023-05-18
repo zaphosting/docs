@@ -1,0 +1,29 @@
+{
+  "unversionedId": "7d2d_mods",
+  "id": "7d2d_mods",
+  "title": "7 Days to Die Mods auf Server installieren - Gameserver von ZAP-Hosting",
+  "description": "Anleitung, wie du Mods auf einem 7 Days to Die Gameserver installierst - ZAP-Hosting.com Dokumentationen",
+  "source": "@site/i18n/de/docusaurus-plugin-content-docs/current/7d2d_mods.md",
+  "sourceDirName": ".",
+  "slug": "/7d2d_mods",
+  "permalink": "/guides/de/docs/7d2d_mods",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/7d2d_mods.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "7d2d_mods",
+    "title": "7 Days to Die Mods auf Server installieren - Gameserver von ZAP-Hosting",
+    "description": "Anleitung, wie du Mods auf einem 7 Days to Die Gameserver installierst - ZAP-Hosting.com Dokumentationen",
+    "sidebar_label": "Mods installieren"
+  },
+  "sidebar": "gameserverSidebar",
+  "previous": {
+    "title": "Admin werden",
+    "permalink": "/guides/de/docs/7d2d_becomeadmin"
+  },
+  "next": {
+    "title": "Befehle ausführen",
+    "permalink": "/guides/de/docs/7d2d_commands"
+  }
+}

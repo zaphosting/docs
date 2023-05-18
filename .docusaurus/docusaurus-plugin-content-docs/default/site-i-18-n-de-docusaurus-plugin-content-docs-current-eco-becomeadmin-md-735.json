@@ -1,0 +1,29 @@
+{
+  "unversionedId": "eco_becomeadmin",
+  "id": "eco_becomeadmin",
+  "title": "Admin werden",
+  "description": "Informationen, wie du Admin auf deinem ECO-Server bei ZAP-Hosting wirst - ZAP-Hosting.com Dokumentationen",
+  "source": "@site/i18n/de/docusaurus-plugin-content-docs/current/eco_becomeadmin.md",
+  "sourceDirName": ".",
+  "slug": "/eco_becomeadmin",
+  "permalink": "/guides/de/docs/eco_becomeadmin",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/eco_becomeadmin.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "eco_becomeadmin",
+    "title": "Admin werden",
+    "description": "Informationen, wie du Admin auf deinem ECO-Server bei ZAP-Hosting wirst - ZAP-Hosting.com Dokumentationen",
+    "sidebar_label": "Admin werden"
+  },
+  "sidebar": "gameserverSidebar",
+  "previous": {
+    "title": "Plugins installieren",
+    "permalink": "/guides/de/docs/exiled_plugins"
+  },
+  "next": {
+    "title": "Whitelist",
+    "permalink": "/guides/de/docs/eco_whitelist"
+  }
+}

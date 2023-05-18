@@ -1,0 +1,20 @@
+{
+  "unversionedId": "vserver_linux_ftp_install",
+  "id": "vserver_linux_ftp_install",
+  "title": "FTP Server installieren und einrichten",
+  "description": "Informationen, wie du einen FTP Server auf deinen vServer von ZAP-Hosting installieren und einrichten kannst - ZAP-Hosting.com Dokumentationen",
+  "source": "@site/i18n/de/docusaurus-plugin-content-docs/current/vserver_linux_ftp_install.md",
+  "sourceDirName": ".",
+  "slug": "/vserver_linux_ftp_install",
+  "permalink": "/guides/de/docs/vserver_linux_ftp_install",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/vserver_linux_ftp_install.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "vserver_linux_ftp_install",
+    "title": "FTP Server installieren und einrichten",
+    "description": "Informationen, wie du einen FTP Server auf deinen vServer von ZAP-Hosting installieren und einrichten kannst - ZAP-Hosting.com Dokumentationen",
+    "sidebar_label": "FTP Einrichtung"
+  }
+}

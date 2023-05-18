@@ -1,0 +1,29 @@
+{
+  "unversionedId": "factorio_mods",
+  "id": "factorio_mods",
+  "title": "Mods installieren",
+  "description": "Informationen, wie du Mods auf deinem Factorio-Server bei ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentationen",
+  "source": "@site/i18n/de/docusaurus-plugin-content-docs/current/factorio_mods.md",
+  "sourceDirName": ".",
+  "slug": "/factorio_mods",
+  "permalink": "/guides/de/docs/factorio_mods",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/factorio_mods.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "factorio_mods",
+    "title": "Mods installieren",
+    "description": "Informationen, wie du Mods auf deinem Factorio-Server bei ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentationen",
+    "sidebar_label": "Mods installieren"
+  },
+  "sidebar": "gameserverSidebar",
+  "previous": {
+    "title": "Admin werden",
+    "permalink": "/guides/de/docs/factorio_becomeadmin"
+  },
+  "next": {
+    "title": "Admin werden",
+    "permalink": "/guides/de/docs/mta_becomeadmin"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "unversionedId": "arma3_serverconfig",
+  "id": "arma3_serverconfig",
+  "title": "Edit server configuration file",
+  "description": "Information about the settings and configuration options of the server.cfg file of your Arma 3 server from ZAP-Hosting - ZAP-Hosting.com",
+  "source": "@site/docs/arma3_serverconfig.md",
+  "sourceDirName": ".",
+  "slug": "/arma3_serverconfig",
+  "permalink": "/guides/docs/arma3_serverconfig",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/arma3_serverconfig.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "arma3_serverconfig",
+    "title": "Edit server configuration file",
+    "description": "Information about the settings and configuration options of the server.cfg file of your Arma 3 server from ZAP-Hosting - ZAP-Hosting.com",
+    "sidebar_label": "Server.cfg"
+  },
+  "sidebar": "gameserverSidebar",
+  "previous": {
+    "title": "Garry's Mod TTT Configuration",
+    "permalink": "/guides/docs/gmod_ttt"
+  },
+  "next": {
+    "title": "Install Mods",
+    "permalink": "/guides/docs/arma3_mods"
+  }
+}

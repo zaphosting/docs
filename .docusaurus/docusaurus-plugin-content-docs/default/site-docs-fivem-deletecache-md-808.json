@@ -1,0 +1,29 @@
+{
+  "unversionedId": "fivem_deletecache",
+  "id": "fivem_deletecache",
+  "title": "Empty Cache",
+  "description": "Information on how to clear the cache of your FiveM Server from ZAP-Hosting - ZAP-Hosting.com documentation",
+  "source": "@site/docs/fivem_deletecache.md",
+  "sourceDirName": ".",
+  "slug": "/fivem_deletecache",
+  "permalink": "/guides/docs/fivem_deletecache",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/fivem_deletecache.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "fivem_deletecache",
+    "title": "Empty Cache",
+    "description": "Information on how to clear the cache of your FiveM Server from ZAP-Hosting - ZAP-Hosting.com documentation",
+    "sidebar_label": "Delete Cache"
+  },
+  "sidebar": "gameserverSidebar",
+  "previous": {
+    "title": "Own License Key",
+    "permalink": "/guides/docs/fivem_licensekey"
+  },
+  "next": {
+    "title": "Use Profiler",
+    "permalink": "/guides/docs/fivem_useprofiler"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "unversionedId": "vserver_linux_webserver",
+  "id": "vserver_linux_webserver",
+  "title": "VPS Installing Nginx and Apache Webserver",
+  "description": "Information on how to install Nginx and Apache web servers on your Linx VPS from ZAP-Hosting - ZAP-Hosting.com documentation",
+  "source": "@site/docs/vserver_linux_webserver.md",
+  "sourceDirName": ".",
+  "slug": "/vserver_linux_webserver",
+  "permalink": "/guides/docs/vserver_linux_webserver",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/vserver_linux_webserver.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "vserver_linux_webserver",
+    "title": "VPS Installing Nginx and Apache Webserver",
+    "description": "Information on how to install Nginx and Apache web servers on your Linx VPS from ZAP-Hosting - ZAP-Hosting.com documentation",
+    "sidebar_label": "Install webserver"
+  }
+}

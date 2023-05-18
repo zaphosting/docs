@@ -1,0 +1,29 @@
+{
+  "unversionedId": "fivem_deletecache",
+  "id": "fivem_deletecache",
+  "title": "Cache leeren",
+  "description": "Informationen, wie du den Cache deines FiveM Server von ZAP-Hosting leeren kannst - ZAP-Hosting.com Dokumentationen",
+  "source": "@site/i18n/de/docusaurus-plugin-content-docs/current/fivem_deletecache.md",
+  "sourceDirName": ".",
+  "slug": "/fivem_deletecache",
+  "permalink": "/guides/de/docs/fivem_deletecache",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/fivem_deletecache.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "fivem_deletecache",
+    "title": "Cache leeren",
+    "description": "Informationen, wie du den Cache deines FiveM Server von ZAP-Hosting leeren kannst - ZAP-Hosting.com Dokumentationen",
+    "sidebar_label": "Cache leeren"
+  },
+  "sidebar": "gameserverSidebar",
+  "previous": {
+    "title": "Eigener Lizenzkey",
+    "permalink": "/guides/de/docs/fivem_licensekey"
+  },
+  "next": {
+    "title": "Profiler Benutzen",
+    "permalink": "/guides/de/docs/fivem_useprofiler"
+  }
+}

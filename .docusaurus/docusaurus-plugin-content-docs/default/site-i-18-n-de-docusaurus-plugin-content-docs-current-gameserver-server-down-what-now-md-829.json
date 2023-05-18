@@ -1,0 +1,29 @@
+{
+  "unversionedId": "gameserver_server_down_what_now",
+  "id": "gameserver_server_down_what_now",
+  "title": "Server down - Was nun?",
+  "description": "Informationen, was du tun kannst, wenn dein Gameserver von ZAP-Hosting abgestürzt oder down ist - ZAP-Hosting.com Dokumentationen",
+  "source": "@site/i18n/de/docusaurus-plugin-content-docs/current/gameserver_server_down_what_now.md",
+  "sourceDirName": ".",
+  "slug": "/gameserver_server_down_what_now",
+  "permalink": "/guides/de/docs/gameserver_server_down_what_now",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/gameserver_server_down_what_now.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "gameserver_server_down_what_now",
+    "title": "Server down - Was nun?",
+    "description": "Informationen, was du tun kannst, wenn dein Gameserver von ZAP-Hosting abgestürzt oder down ist - ZAP-Hosting.com Dokumentationen",
+    "sidebar_label": "Server down - Was nun?"
+  },
+  "sidebar": "gameserverSidebar",
+  "previous": {
+    "title": "Backups",
+    "permalink": "/guides/de/docs/gameserver_backups"
+  },
+  "next": {
+    "title": "TEBEX Monetarisierung",
+    "permalink": "/guides/de/docs/gameserver_tebex"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "unversionedId": "satisfactory_addmods",
+  "id": "satisfactory_addmods",
+  "title": "Install Mods",
+  "description": "WARNING",
+  "source": "@site/docs/satisfactory_addmods.md",
+  "sourceDirName": ".",
+  "slug": "/satisfactory_addmods",
+  "permalink": "/guides/docs/satisfactory_addmods",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/satisfactory_addmods.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "satisfactory_addmods",
+    "title": "Install Mods",
+    "sidebar_label": "Install Mods"
+  }
+}

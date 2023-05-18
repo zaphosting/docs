@@ -1,0 +1,20 @@
+{
+  "unversionedId": "rust_firststeps_dashboard",
+  "id": "rust_firststeps_dashboard",
+  "title": "Dashboard overview",
+  "description": "Information about the dashboard of a Rust server from ZAP-Hosting - ZAP-Hosting.com Documentation",
+  "source": "@site/docs/rust_firststeps_dashboard.md",
+  "sourceDirName": ".",
+  "slug": "/rust_firststeps_dashboard",
+  "permalink": "/guides/docs/rust_firststeps_dashboard",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/rust_firststeps_dashboard.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "rust_firststeps_dashboard",
+    "title": "Dashboard overview",
+    "description": "Information about the dashboard of a Rust server from ZAP-Hosting - ZAP-Hosting.com Documentation",
+    "sidebar_label": "Dashboard"
+  }
+}

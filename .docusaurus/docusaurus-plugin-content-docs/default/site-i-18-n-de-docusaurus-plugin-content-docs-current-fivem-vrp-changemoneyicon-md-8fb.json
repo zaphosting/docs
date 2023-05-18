@@ -1,0 +1,29 @@
+{
+  "unversionedId": "fivem_vrp_changemoneyicon",
+  "id": "fivem_vrp_changemoneyicon",
+  "title": "Geldicon ändern",
+  "description": "Informationen, wie du das Geldicon für deinen FiveM-Server mit VRP von ZAP-Hosting ändern kannst - ZAP-Hosting.com Dokumentationen",
+  "source": "@site/i18n/de/docusaurus-plugin-content-docs/current/fivem_vrp_changemoneyicon.md",
+  "sourceDirName": ".",
+  "slug": "/fivem_vrp_changemoneyicon",
+  "permalink": "/guides/de/docs/fivem_vrp_changemoneyicon",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/fivem_vrp_changemoneyicon.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "fivem_vrp_changemoneyicon",
+    "title": "Geldicon ändern",
+    "description": "Informationen, wie du das Geldicon für deinen FiveM-Server mit VRP von ZAP-Hosting ändern kannst - ZAP-Hosting.com Dokumentationen",
+    "sidebar_label": "Geldicon Ändern"
+  },
+  "sidebar": "gameserverSidebar",
+  "previous": {
+    "title": "Localesfiles bearbeiten",
+    "permalink": "/guides/de/docs/fivem_editlocalfiles"
+  },
+  "next": {
+    "title": "Speedometer Entfernen",
+    "permalink": "/guides/de/docs/fivem_vrp_removespeedo"
+  }
+}

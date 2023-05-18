@@ -1,0 +1,29 @@
+{
+  "unversionedId": "fivem_changeloadingscreen",
+  "id": "fivem_changeloadingscreen",
+  "title": "Loadingscreen für FiveM-Server installieren/ändern",
+  "description": "Informationen, wie du neue Loadingscreens auf einem FiveM-Server von ZAP-Hosting hinzufügen/ändern kannst - ZAP-Hosting.com Dokumentationen",
+  "source": "@site/i18n/de/docusaurus-plugin-content-docs/current/fivem_changeloadingscreen.md",
+  "sourceDirName": ".",
+  "slug": "/fivem_changeloadingscreen",
+  "permalink": "/guides/de/docs/fivem_changeloadingscreen",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/fivem_changeloadingscreen.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "fivem_changeloadingscreen",
+    "title": "Loadingscreen für FiveM-Server installieren/ändern",
+    "description": "Informationen, wie du neue Loadingscreens auf einem FiveM-Server von ZAP-Hosting hinzufügen/ändern kannst - ZAP-Hosting.com Dokumentationen",
+    "sidebar_label": "Loadingscreen installieren"
+  },
+  "sidebar": "gameserverSidebar",
+  "previous": {
+    "title": "Addon Carmods Installieren",
+    "permalink": "/guides/de/docs/fivem_mods_installaddon"
+  },
+  "next": {
+    "title": "ELS Installieren",
+    "permalink": "/guides/de/docs/fivem_installels"
+  }
+}

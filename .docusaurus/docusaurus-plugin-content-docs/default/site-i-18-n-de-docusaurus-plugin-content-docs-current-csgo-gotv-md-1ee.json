@@ -1,0 +1,29 @@
+{
+  "unversionedId": "csgo_gotv",
+  "id": "csgo_gotv",
+  "title": "Server Informationen zu GOTV",
+  "description": "Informationen zu GOTV auf Counter-Strike Go-Servern von ZAP-Hosting - ZAP-Hosting.com Dokumentationen",
+  "source": "@site/i18n/de/docusaurus-plugin-content-docs/current/csgo_gotv.md",
+  "sourceDirName": ".",
+  "slug": "/csgo_gotv",
+  "permalink": "/guides/de/docs/csgo_gotv",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/csgo_gotv.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "csgo_gotv",
+    "title": "Server Informationen zu GOTV",
+    "description": "Informationen zu GOTV auf Counter-Strike Go-Servern von ZAP-Hosting - ZAP-Hosting.com Dokumentationen",
+    "sidebar_label": "GOTV"
+  },
+  "sidebar": "gameserverSidebar",
+  "previous": {
+    "title": "Server Konfiguration",
+    "permalink": "/guides/de/docs/csgo_configuration"
+  },
+  "next": {
+    "title": "Admin werden",
+    "permalink": "/guides/de/docs/cs16_becomeadmin"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "unversionedId": "minecraft_whitelist",
+  "id": "minecraft_whitelist",
+  "title": "Server Activating and editing a whitelist",
+  "description": "Information on how to activate and edit a whitelist for your Minecraft server from ZAP-Hosting - ZAP-Hosting.com documentation",
+  "source": "@site/docs/minecraft_whitelist.md",
+  "sourceDirName": ".",
+  "slug": "/minecraft_whitelist",
+  "permalink": "/guides/docs/minecraft_whitelist",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/minecraft_whitelist.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "minecraft_whitelist",
+    "title": "Server Activating and editing a whitelist",
+    "description": "Information on how to activate and edit a whitelist for your Minecraft server from ZAP-Hosting - ZAP-Hosting.com documentation",
+    "sidebar_label": "Whitelist"
+  },
+  "sidebar": "gameserverSidebar",
+  "previous": {
+    "title": "RCON",
+    "permalink": "/guides/docs/minecraft_rcon"
+  },
+  "next": {
+    "title": "Timings-Report",
+    "permalink": "/guides/docs/minecraft_timings_report"
+  }
+}

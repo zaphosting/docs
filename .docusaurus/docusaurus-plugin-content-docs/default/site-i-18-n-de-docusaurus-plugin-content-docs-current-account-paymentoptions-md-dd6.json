@@ -1,0 +1,29 @@
+{
+  "unversionedId": "account_paymentoptions",
+  "id": "account_paymentoptions",
+  "title": "Zahlungsoptionen - Welche Zahlungsoptionen gibt es",
+  "description": "Informationen zu den verschiedenen Zahlungsoptionen bei ZAP-Hosting PayPal, Kreditkarte, ZAP Coins und mehr - ZAP-Hosting.com Dokumentationen",
+  "source": "@site/i18n/de/docusaurus-plugin-content-docs/current/account_paymentoptions.md",
+  "sourceDirName": ".",
+  "slug": "/account_paymentoptions",
+  "permalink": "/guides/de/docs/account_paymentoptions",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/account_paymentoptions.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "account_paymentoptions",
+    "title": "Zahlungsoptionen - Welche Zahlungsoptionen gibt es",
+    "description": "Informationen zu den verschiedenen Zahlungsoptionen bei ZAP-Hosting PayPal, Kreditkarte, ZAP Coins und mehr - ZAP-Hosting.com Dokumentationen",
+    "sidebar_label": "Zahlungsoptionen"
+  },
+  "sidebar": "guidesSidebar",
+  "previous": {
+    "title": "Kündigung und Kündigungsfrist",
+    "permalink": "/guides/de/docs/account_termination_and_cancellation_period"
+  },
+  "next": {
+    "title": "Backup Storage",
+    "permalink": "/guides/de/docs/account_backup_storage"
+  }
+}

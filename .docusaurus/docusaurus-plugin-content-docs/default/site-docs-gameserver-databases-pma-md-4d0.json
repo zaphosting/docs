@@ -1,0 +1,29 @@
+{
+  "unversionedId": "gameserver_databases_pma",
+  "id": "gameserver_databases_pma",
+  "title": "PHPMyAdmin for servers of ZAP-Hosting",
+  "description": "Information on how to use PHPMyAdmin with game servers from ZAP-Hosting to manage the databases - ZAP-Hosting.com documentation",
+  "source": "@site/docs/gameserver_databases_pma.md",
+  "sourceDirName": ".",
+  "slug": "/gameserver_databases_pma",
+  "permalink": "/guides/docs/gameserver_databases_pma",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/gameserver_databases_pma.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "gameserver_databases_pma",
+    "title": "PHPMyAdmin for servers of ZAP-Hosting",
+    "description": "Information on how to use PHPMyAdmin with game servers from ZAP-Hosting to manage the databases - ZAP-Hosting.com documentation",
+    "sidebar_label": "PHPMyAdmin"
+  },
+  "sidebar": "gameserverSidebar",
+  "previous": {
+    "title": "TEBEX Monetization",
+    "permalink": "/guides/docs/gameserver_tebex"
+  },
+  "next": {
+    "title": "External database access",
+    "permalink": "/guides/docs/gameserver_database_external_access"
+  }
+}

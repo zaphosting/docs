@@ -1,0 +1,29 @@
+{
+  "unversionedId": "account_partner_system",
+  "id": "account_partner_system",
+  "title": "Partner System - Advantages and conditions of a partnership with ZAP-Hosting",
+  "description": "Information on how to apply to become a partner, what the requirements are and what we can offer - ZAP-Hosting.com Documentation",
+  "source": "@site/docs/account_partner_system.md",
+  "sourceDirName": ".",
+  "slug": "/account_partner_system",
+  "permalink": "/guides/docs/account_partner_system",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/account_partner_system.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "account_partner_system",
+    "title": "Partner System - Advantages and conditions of a partnership with ZAP-Hosting",
+    "description": "Information on how to apply to become a partner, what the requirements are and what we can offer - ZAP-Hosting.com Documentation",
+    "sidebar_label": "Partner System"
+  },
+  "sidebar": "guidesSidebar",
+  "previous": {
+    "title": "Safety",
+    "permalink": "/guides/docs/account_security"
+  },
+  "next": {
+    "title": "Partner Guide",
+    "permalink": "/guides/docs/partner-guide"
+  }
+}

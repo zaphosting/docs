@@ -1,0 +1,29 @@
+{
+  "unversionedId": "minecraft_forge_add_mods",
+  "id": "minecraft_forge_add_mods",
+  "title": "Installing mods on your server",
+  "description": "Information on how to install mods on your Minecraft Forge server from ZAP-Hosting.com - ZAP-Hosting.com documentation",
+  "source": "@site/docs/minecraft_forge_add_mods.md",
+  "sourceDirName": ".",
+  "slug": "/minecraft_forge_add_mods",
+  "permalink": "/guides/docs/minecraft_forge_add_mods",
+  "draft": false,
+  "editUrl": "https://github.com/zaphosting/docs/tree/master/docs/minecraft_forge_add_mods.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "minecraft_forge_add_mods",
+    "title": "Installing mods on your server",
+    "description": "Information on how to install mods on your Minecraft Forge server from ZAP-Hosting.com - ZAP-Hosting.com documentation",
+    "sidebar_label": "Mods Installation"
+  },
+  "sidebar": "gameserverSidebar",
+  "previous": {
+    "title": "Server Properties",
+    "permalink": "/guides/docs/minecraft_bungeecord_config"
+  },
+  "next": {
+    "title": "Dashboard",
+    "permalink": "/guides/docs/fivem_dashboard"
+  }
+}
