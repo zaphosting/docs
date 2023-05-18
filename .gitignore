@@ -108,5 +108,5 @@ dist
 
 # docusaurs-specific
 build/
-build.*
+build.tar
 .docusaurus
