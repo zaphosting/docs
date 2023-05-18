@@ -237,6 +237,13 @@ const sidebars = {
       items: [
         {
           type: "category",
+          label: "First Steps",
+          items: [
+            "redm_firststeps_dashboard"
+          ]
+        },
+        {
+          type: "category",
           label: "Configuration & Administration",
           items: [
             "redm_change_servericon"
@@ -269,6 +276,13 @@ const sidebars = {
       type: "category",
       label: "Satisfactory",
       items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "satisfactory_firststeps_dashboard"
+          ]
+        },
         "satisfactory_connect_experimental",
         "satisfactory_savegame",
         "satisfactory_switchexperimental",
@@ -279,6 +293,13 @@ const sidebars = {
       type: "category",
       label: "Terraria",
       items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "terraria_firststeps_dashboard"
+          ]
+        },
         "terraria_tshock_add_admin",
         "terraria_tmodloader_installmod"
       ],
@@ -339,6 +360,13 @@ const sidebars = {
       type: "category",
       label: "ARK",
       items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "ark_firststeps_dashboard"
+          ]
+        },
         "ark_becomeadmin",
         "ark_mods",
         "ark_serverlisting",
@@ -349,6 +377,13 @@ const sidebars = {
       type: "category",
       label: "Assetto Corsa",
       items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "assettocorsa_firststeps_dashboard"
+          ]
+        },
         "assettocorsa_configure",
         "assettocorsa_contentmanager",
         "assettocorsa_mods"
@@ -373,6 +408,13 @@ const sidebars = {
       type: "category",
       label: "BeamMP",
       items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "beammp_firststeps_dashboard"
+          ]
+        },
         "beammp_authkey",
         "beammp_mods"
       ],
@@ -406,7 +448,8 @@ const sidebars = {
           type: "category",
           label: "First Steps",
           items: [
-            "scp_firststeps_connect"
+            "scp_firststeps_connect",
+            "scp_firststeps_dashbaord"
           ]
         },		
         "scp_becomeadmin",
@@ -441,6 +484,13 @@ const sidebars = {
       type: "category",
       label: "Factorio",
       items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "factorio_firststeps_dashboard"
+          ]
+        },
         "factorio_becomeadmin",
         "factorio_mods"
       ],
@@ -456,6 +506,13 @@ const sidebars = {
       type: "category",
       label: "Space Engineers",
       items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "spaceengineers_firststeps_dashboard"
+          ]
+        },
         "spaceengineers_becomeadmin",
         "spaceengineers_addmods"
       ],
@@ -496,6 +553,13 @@ const sidebars = {
       type: "category",
       label: "Rust",
       items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "rust_firststeps_dashboard"
+          ]
+        },
         "rust_becomeadmin",
         "rust_connectrcon",
         "rust_commands",
@@ -514,9 +578,16 @@ const sidebars = {
       type: "category",
       label: "7 Days to Die",
       items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "7d2d_firststeps_dashboard"
+          ]
+        },
         "7d2d_becomeadmin",
         "7d2d_mods",
-        "7d2d_commands"
+        "7d2d_commands",
       ],
     },
     {
@@ -570,6 +641,46 @@ const sidebars = {
           label: "First Steps",
           items: [
             "corekeeper-connecttoserver"
+          ]
+        }
+      ],
+    },
+    {
+      type: "category",
+      label: "DayZ",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "dayz_firststeps_dashboard"
+          ]
+        }
+      ],
+    },
+    {
+      type: "category",
+      label: "Project Zomboid",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "projectzomboid_firststeps_dashboard"
+          ]
+        }
+      ],
+    },
+    {
+      type: "category",
+      label: "Project Zomboid",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "moe_firststeps_dashboard"
+            "moe_firststeps_connect"
           ]
         }
       ],
