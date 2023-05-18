@@ -1,6 +1,6 @@
 ---
 id: fivem_devtools
-title: FiveM Devtools Aktivieren
+title: Devtools Aktivieren
 description: Informationen, wie du die Clientside Devtools aktivieren kannst - ZAP-Hosting.com Dokumentationen
 sidebar_label: Devtools Aktivieren
 ---

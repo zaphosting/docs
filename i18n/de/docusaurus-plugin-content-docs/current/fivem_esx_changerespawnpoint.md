@@ -1,6 +1,6 @@
 ---
 id: fivem_esx_changerespawnpoint
-title: FiveM ESX Server Respawnpoint setzen
+title: Respawnpoint setzen
 description: Informationen, wie den Respwanpunkt auf deinem FiveM-Server mit ESX von ZAP-Hosting setzen/ändern kannst - ZAP-Hosting.com Dokumentationen
 sidebar_label: Respawnpoint setzen
 ---

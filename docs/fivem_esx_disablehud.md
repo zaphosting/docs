@@ -1,6 +1,6 @@
 ---
 id: fivem_esx_disablehud
-title: FiveM ESX Server Disable/enable HUD
+title: Disable/enable HUD
 description: Information on how to disable/enable the HUD on your FiveM server running ESX from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Disable HUD
 ---

@@ -1,6 +1,6 @@
 ---
 id: fivem_esx_addcarstoshop
-title: FiveM ESX Server Adding cars to the shop
+title: Adding cars to the shop
 description: Information on how to add cars to the shop on your FiveM server with ESX from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Add Cars to Dealership
 ---
