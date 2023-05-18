@@ -106,5 +106,7 @@ dist
 # PHPStorm folder
 .idea
 
+# docusaurs-specific
 build/
 build.*
+.docusaurus
