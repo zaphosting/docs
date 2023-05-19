@@ -18,7 +18,9 @@ To change the fivem servername in "**Configs**", it must first be locked under "
 
 ![image](https://user-images.githubusercontent.com/13604413/159138187-8ca712ab-7a1f-4595-8e34-814ddd6a7eab.png)
 
-> To change the color of your servername, the fivem element argentum membership is required [Fivem Patreon](https://www.patreon.com/fivem)
+:::info
+To change the color of your servername, the fivem element argentum membership is required [Fivem Patreon](https://www.patreon.com/fivem)
+:::
 
 You can now lock the servername in the settings window by pressing on the lock icon.
 The changes are accepted by using the "**Save**" button.

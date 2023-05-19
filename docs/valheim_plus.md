@@ -7,7 +7,9 @@ sidebar_label: Valheim Plus
 
 ## Introduction
 
-> Valheim Plus is a client sided moficiation. It allows you to do changes on the basic game.
+:::info
+Valheim Plus is a client sided moficiation. It allows you to do changes on the basic game.
+:::
 
 ## Valheim Plus Installation Client
 
@@ -47,7 +49,9 @@ To be able to perform a slot upgrade now, the "**UP and Downgrade**" function in
 
 Now select the desired number of slots on the UP and Downgrade page.
 
-> Here only the "**surcharge**" has to be paid, this is calculated for the remaining runtime
+:::info
+Here only the "**surcharge**" has to be paid, this is calculated for the remaining runtime
+:::
 
 ![image](https://user-images.githubusercontent.com/13604413/159180047-0089d7b6-3a2f-4ce1-9c6f-daa2eb5acc64.png)
 

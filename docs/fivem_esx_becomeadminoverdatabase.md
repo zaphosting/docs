@@ -5,7 +5,9 @@ description: Information on how to become admin over database of your FiveM serv
 sidebar_label: Become Admin over the Database
 ---
 
-> **Important:** A character must be created by you, so that you can find it in the database.
+:::info
+**Important:** A character must be created by you, so that you can find it in the database.
+:::
 
 ## Become Admin
 

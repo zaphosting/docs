@@ -22,12 +22,19 @@ Um einen Vorschlag einzureichen, muss lediglich auf der Vorschlagsseite auf den 
 ### Was ist bei Spielvorschlägen zu beachten?
 Grundsätzlich kann jedes Spiel oder Modpack vorgeschlagen werden, für das wir noch keine Gameserver anbieten. Wir prüfen alle Vorschläge und entscheiden, ob es sinnvoll ist, ein bestimmtes Spiel hinzuzufügen. Minecraft Modpacks können natürlich unter "Spielewunsch" vorgeschlagen werden.
 * Bei Spielevorschlägen reicht es völlig aus, nur den Spielenamen/Modpacknamen und ggf. einen Link zur Website des Spiels/Modpacks einzutragen. Beispiel:
-> RLCraft
-> https://www.curseforge.com/minecraft/modpacks/rlcraft
+:::info
+RLCraft
+
+https://www.curseforge.com/minecraft/modpacks/rlcraft
+:::
 * Je neuer oder aktueller ein Spiel, desto besser.
-> Bei neuen Spielen achten wir darauf, dass es eine bestimmte Mindestnachfrage gibt, wir also davon ausgehen, dass auch Server vermietet werden. Spiele und Modpacks, die nur von einer sehr kleinen Anzahl an Spielern gespielt werden und/oder schon sehr lange auf dem Markt sind und auch nicht mehr aktualisiert werden, haben eine geringere Wahrscheinlichkeit, in unsere Gameserver-Cloud integriert zu werden.
+:::info
+Bei neuen Spielen achten wir darauf, dass es eine bestimmte Mindestnachfrage gibt, wir also davon ausgehen, dass auch Server vermietet werden. Spiele und Modpacks, die nur von einer sehr kleinen Anzahl an Spielern gespielt werden und/oder schon sehr lange auf dem Markt sind und auch nicht mehr aktualisiert werden, haben eine geringere Wahrscheinlichkeit, in unsere Gameserver-Cloud integriert zu werden.
+:::
 * Wir überprüfen ständig, ob es sinnvoll ist, Spiele für das Gameserver-Interface für virtuelle Server hinzuzufügen.
-> Daher ist es in der Regel nicht notwendig, Wünsche für Spiele für das Gameserver-Interface hinzuzufügen.
+:::info
+Daher ist es in der Regel nicht notwendig, Wünsche für Spiele für das Gameserver-Interface hinzuzufügen.
+:::
 
 ### Was ist bei Web interface Features zu beachten
 Web Interface Features sind alle Features, die auf unserer Seite zap-hosting.com und im Web Interface vorhanden sind. Darunter können auch sehr kleine Dinge auf der Website fallen, aber auch komplexe Features, die neue Funktionen bieten.

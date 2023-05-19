@@ -34,4 +34,6 @@ now copy your STEAM64 ID and paste it into the admins:
 
 Now scroll to the end of the page and click save.
 
-> ⚡ Restart your server now, then you can open the QBCore admin menu with /admin.
+:::info
+⚡ Restart your server now, then you can open the QBCore admin menu with /admin.
+:::

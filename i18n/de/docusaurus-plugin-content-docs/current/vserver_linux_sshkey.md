@@ -16,8 +16,11 @@ Bei "**Zugang & Sicherheit**" kann nun mit dem "**SSH-Key generieren**" Button i
 Sobald dieser gedrückt wird, öffnet sich ein Popup und ein Key zufällig erstellter Key wird direkt auf den PC heruntergeladen.
 Damit der Key zu dem Server hinzugefügt wird, muss der "**Key hinzufügen**" Button betätigt werden.
 
-> ⚠️ Bei Linux vServern wird der Key direkt hinzugefügt
-> Bei Linux Rootservern ist ein Neustart von dem Server erfoderlich, damit diese Änderungen übernommen werden
+:::info
+Bei Linux vServern wird der Key direkt hinzugefügt
+
+Bei Linux Rootservern ist ein Neustart von dem Server erfoderlich, damit diese Änderungen übernommen werden
+:::
 
 ![](https://user-images.githubusercontent.com/61839701/166181092-391eb0bf-aaee-426a-ab8c-241ac788b4bc.png)
 
@@ -51,7 +54,9 @@ Die PuTTYGen Anwendung starten und dort dann auf "**File**" -> "**Load private k
 Nun muss die vom ZAP-Hosting generierte Datei geöffnet werden.
 Dafür musst du in das Standardverzeichnis wo alle deine Downloads abgelegt werden.
 
-> ⚠️ **Wichtig:** stelle sicher, dass du den Filter wie im Bild zu sehen auf "**ALL Files**" stehen hast, da die vom System erstellte .pri Datei nicht zu sehen ist.
+:::info
+**Wichtig:** stelle sicher, dass du den Filter wie im Bild zu sehen auf "**ALL Files**" stehen hast, da die vom System erstellte .pri Datei nicht zu sehen ist.
+:::
 
 ![](https://user-images.githubusercontent.com/61839701/166181140-46c617ad-17a3-4900-848c-8412f5945b91.png)
 

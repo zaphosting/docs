@@ -13,11 +13,16 @@ To connect to the server, enter the **IP address (FTP server)**, the **username*
 
 ## Connect via FileZilla
 ### Correct FileZilla Version
-> You need the "**FileZilla Client**" version, not the FileZilla Server version 
+:::info
+You need the "**FileZilla Client**" version, not the FileZilla Server version 
 
-> Stop your server before editing or uploading files via FTP.
-> After stopping the server update your FTP rights here.
-> When the server is started, you may get "Permission denied" errors.
+
+Stop your server before editing or uploading files via FTP.
+
+After stopping the server update your FTP rights here.
+
+When the server is started, you may get "Permission denied" errors.
+:::
 
 When the connection is established for the first time, the program will ask if the password should be saved:
 
@@ -27,14 +32,18 @@ You will also be asked whether this connection should be allowed, since the **pa
 
 Once the connection is established, you can view and edit all data. In the upper right corner you have the directories. There you can quickly switch between the folders. At the bottom right are the data, which you can **download, view** and **edit** with a right click:
 
-> It is important that the server must be offline when you edit the data, otherwise it will not be taken over or the server will crash.
+:::info
+It is important that the server must be offline when you edit the data, otherwise it will not be taken over or the server will crash.
+:::
 
 
 ### Upload files
 
 Files can be dragged and dropped from the left side (the computer) to the right side (the server) using "**Drag and Drop**". 
 
-> If you have more than one server, you have to find out the ID of the server first, so that you can move the data into the correct folder.
+:::info
+If you have more than one server, you have to find out the ID of the server first, so that you can move the data into the correct folder.
+:::
 
 ### "Transfer connection interrupted" Error Message
 
@@ -58,9 +67,13 @@ As soon as this is done, the FTP connection can be tested again.
 
 WinSCP [Download](https://winscp.net/eng/index.php).
 
-> Stop your server before editing or uploading files via FTP.
-> After stopping the server, update your FTP rights here.
-> If the server is started, there may be "Permission denied" errors.
+:::info
+Stop your server before editing or uploading files via FTP.
+
+After stopping the server, update your FTP rights here.
+
+If the server is started, there may be "Permission denied" errors.
+:::
 
 To connect, the transfer protocol must be set to FTP.
 
@@ -70,10 +83,14 @@ On the **left side** are the **own files** of the computer. On the **right side*
 
 ![image](https://user-images.githubusercontent.com/13604413/159184711-6ca6c2d0-03f8-4c35-8e8e-dbf46f40afe5.png)
 
-> It is important that the server must be offline when editing the data, otherwise the data will not be taken over or the server will crash.
+:::info
+It is important that the server must be offline when editing the data, otherwise the data will not be taken over or the server will crash.
+:::
 
 ### Upload files
 
 Files can be dragged and dropped from the left side (the computer) to the right side (the server) using "**Drag and Drop**". 
 
-> If you have more than one server, you have to find out the ID of the server first, so that you can move the data into the correct folder.
+:::info
+If you have more than one server, you have to find out the ID of the server first, so that you can move the data into the correct folder.
+:::

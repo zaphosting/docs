@@ -20,8 +20,11 @@ If a command is not listed here, the official [Minecraft-Wiki](https://minecraft
 
 Every command always starts with a "/". So if you want to use a command, you have to open the chat in game and type the "/" first, then you can write the command itself. By pressing the TAB key a preview of all available commands is displayed. With this, commands can also be quickly and easily completed automatically as known from search queries on the Internet.
 
-> If you should execute commands via the console, the "/" is unnecessary and must be removed!
-> This character is only used to be able to distinguish between a normal chat message or a command in the game.
+:::info
+If you should execute commands via the console, the "/" is unnecessary and must be removed!
+
+This character is only used to be able to distinguish between a normal chat message or a command in the game.
+:::
 
 ### Rights / Permissions
 
@@ -29,8 +32,11 @@ To be able to use commands, the necessary rights are required. In Minecraft-Vani
 
 If a permission system has been installed and it is desired to assign rights to certain Minecraft commands, the respective permissions can be assigned as described below.
 
-> The syntax of the permissions for each command is always the same and can be adjusted accordingly.
-> If you want to assign permissions for the Locate command as an example, the following permissions must be set: ``minecraft.command.locate``
+:::info
+The syntax of the permissions for each command is always the same and can be adjusted accordingly.
+
+If you want to assign permissions for the Locate command as an example, the following permissions must be set: ``minecraft.command.locate``
+:::
 
 
 
@@ -93,8 +99,11 @@ Sets the limit to 16,000x16,000 blocks. So this would be 8,000 blocks radius in 
 This allows players (or even entities) to be given normal potion effects.
 Some effects can only be obtained by using commands, like the luck effect, which hasn't been given any function yet.
 
-> The command has changed during the course of the versions and has been further expanded and modified.
-> The examples for the commands shown below are from the latest version and may therefore look different in older versions! 
+:::info
+The command has changed during the course of the versions and has been further expanded and modified.
+
+The examples for the commands shown below are from the latest version and may therefore look different in older versions! 
+:::
 
 **Examples:**
 
@@ -132,7 +141,9 @@ The TPS shows the last 60 seconds, the two following values are the average of 5
 
 This command can be used to exclude a player from the server, so that the player can no longer enter the server under any circumstances. The player account is banned based on its UUID.
 
-> On servers with deactivated online mode, players can change their names and regain access. In such a case, an IP ban through plugins would be the best solution.
+:::info
+On servers with deactivated online mode, players can change their names and regain access. In such a case, an IP ban through plugins would be the best solution.
+:::
 
 **Examples:**
 

@@ -57,7 +57,9 @@ In this example, the user only has access to the **Documents**, directory , whic
 
 ![image](https://user-images.githubusercontent.com/13604413/159172998-9f900ab7-d16f-452e-a3c3-9c7ecaaaabb6.png)
 
-> ⚠️ ATTENTION! For security reasons, you should only ever give a user access to certain folders, for example to your game server.
+:::info
+ATTENTION! For security reasons, you should only ever give a user access to certain folders, for example to your game server.
+:::
 
 You can then give the user the necessary permissions to upload, download, delete, or even delete or delete files in the selected directory:
 

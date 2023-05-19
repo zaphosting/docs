@@ -11,7 +11,9 @@ Viele Ressourcen für FiveM benötigen Einträge in der Datenbank deines FiveM S
 Um so wichtiger ist es, die SQL Dateien von Ressourcen korrekt in deine Datenbank zu importieren um somit die von den Ressourcen benötigten 
 Einträge in der Datenbank deines FiveM Servers zu erstellen.
 
-> Nicht alle Ressourcen benötigen den Import einer SQL Datei in die Datenbank um zu funktionieren! Wenn du dir eine Ressource herunter lädst,
+:::info
+Nicht alle Ressourcen benötigen den Import einer SQL Datei in die Datenbank um zu funktionieren! Wenn du dir eine Ressource herunter lädst,
+:::
 liegt dort jedoch in vielen Fällen eine oder mehrere Dateien mit der Dateiendung **.sql** bei, diese müssen dann in die Datenbank importiert werden.
 
 ## Vorbereitung und Einrichtung der Datenbank
@@ -44,7 +46,9 @@ Du öffnest den Ordner der Ressource und findest dort, sofern vorhanden, eine Da
 ![image](https://user-images.githubusercontent.com/13604413/159168782-da143379-084a-47d7-b466-8c7dbd22e1d8.png)
 
 
-> ACHTUNG! Öffne vor dem Import die .sql Datei mit einem beliebigen Editor und prüfe ob dort die folgenden Zeilen vorhanden sind:
+:::info
+ACHTUNG! Öffne vor dem Import die .sql Datei mit einem beliebigen Editor und prüfe ob dort die folgenden Zeilen vorhanden sind:
+:::
 
 
 ![image](https://user-images.githubusercontent.com/13604413/159168784-570f0855-173d-4e1f-8a05-5a17e06d1daf.png)
@@ -73,7 +77,9 @@ auf der rechten Seite.
 
 In **phpmyadmin** angekommen wählst du zuerst deine Datenbank aus der Liste links via Linksklick aus. 
 
-> Der Name deiner Datenbank beginnt **IMMER** mit zap!
+:::info
+Der Name deiner Datenbank beginnt **IMMER** mit zap!
+:::
 
 ![image](https://user-images.githubusercontent.com/13604413/159168811-626eba00-b7b3-4c45-894e-ca497571b2d7.png)
 

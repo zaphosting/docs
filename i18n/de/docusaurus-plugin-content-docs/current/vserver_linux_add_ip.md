@@ -14,7 +14,9 @@ Die Netzwerkconfig wird mit einem Editor geöffnet, z.b mit "nano".
 ```
 sudo nano /etc/network/interfaces
 ```
-> ⚠️ Achtung: Die Config muss mit root Rechten bearbeitet werden.
+:::info
+Achtung: Die Config muss mit root Rechten bearbeitet werden.
+:::
 
 In der Config ist bereits ein Eintrag vorhanden der z.b so aussehen könnte:
 ```

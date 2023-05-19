@@ -5,7 +5,9 @@ description: Information on how to add cars to job garages on your FiveM server 
 sidebar_label: Add Job-Garage Cars
 ---
 
-> **Important**: ESX must be installed
+:::info
+**Important**: ESX must be installed
+:::
 
 
 ## Preparations
@@ -26,6 +28,8 @@ There we wait until all Configs have appeared, after all Configs are loaded we o
 
 Here we look for the `Config.AuthorizedVehicles` line, here all cars are listed which are available for the different job ranks.
 
-> Make sure that you have a comma at the end of the previous line when you add new vehicles, otherwise there may be problems.
+:::info
+Make sure that you have a comma at the end of the previous line when you add new vehicles, otherwise there may be problems.
+:::
 
 Done! Now we can restart the server, and the change will appear ingame.

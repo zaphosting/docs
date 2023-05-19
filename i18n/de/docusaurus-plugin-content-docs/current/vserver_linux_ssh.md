@@ -31,7 +31,9 @@ Im Folgenden wird die Verbindung mittels des Putty SSH-Client erläutert. Im Kon
 
 
 
-> ⚠️ Standardmäßig ist der SSH-Login via Passwort deaktiviert. Solltest du dich mit dem Passwort einloggen wollen, dann muss unter **Zugang & Sicherheit** die Option dafür erst aktiviert werden.
+:::info
+Standardmäßig ist der SSH-Login via Passwort deaktiviert. Solltest du dich mit dem Passwort einloggen wollen, dann muss unter **Zugang & Sicherheit** die Option dafür erst aktiviert werden.
+:::
 
 
 
@@ -39,7 +41,9 @@ Im Folgenden wird die Verbindung mittels des Putty SSH-Client erläutert. Im Kon
 
 
 
-> Wenn die Verbindung zum Server ersten Mal erfolgt, dann erscheint eine Sicherheitsmeldung von Putty, in der mitgeteilt wird, dass noch kein Host-Schlüssel in der Registrierung zwischengespeichert wurde. Dies kann mit **Ja** bestätigt werden, wenn der Hinweis nicht weiterhin jedes mal erfolgen soll. 
+:::info
+Wenn die Verbindung zum Server ersten Mal erfolgt, dann erscheint eine Sicherheitsmeldung von Putty, in der mitgeteilt wird, dass noch kein Host-Schlüssel in der Registrierung zwischengespeichert wurde. Dies kann mit **Ja** bestätigt werden, wenn der Hinweis nicht weiterhin jedes mal erfolgen soll. 
+:::
 
  
 

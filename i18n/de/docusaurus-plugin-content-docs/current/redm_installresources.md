@@ -23,7 +23,9 @@ Die Installation von Resourcen erfolgt per FTP. Um Dateien auf deinen Server hoc
 
 Heruntergeladene Resourcen werden in der Regel in einem gepackten Format angeboten. Das bedeutet, dass du diese gepackte Datei erst noch mit einem Entpackungsprogramm, wie zum Beispiel 7Zip, Winrar oder WinZip entpacken musst. Die entpackte Resource sollte im Anschluss mindestens die folgenden Dateien beinhalten:  __resource.lua / fxmanifest.lua und die zugehörigen Script-Dateien. 
 
-> Sollten diese Dateien nicht vorhanden sein, dann kann es unter Umständen sein, dass diese in einem Unterverzeichnis liegen. 
+:::info
+Sollten diese Dateien nicht vorhanden sein, dann kann es unter Umständen sein, dass diese in einem Unterverzeichnis liegen. 
+:::
 
 
 ## Installation
@@ -47,7 +49,9 @@ Damit die installierte Resource auch geladen wird, muss diese in der Server Conf
 start eup-ui
 ```
 
-> Hierbei ist zu beachten, dass der Name des zuvor erstellten Ordners mit dem Namen des Startbefehls übereinstimmen muss. Dabei ist auch die Groß- und Kleinschreibung essentiell. 
+:::info
+Hierbei ist zu beachten, dass der Name des zuvor erstellten Ordners mit dem Namen des Startbefehls übereinstimmen muss. Dabei ist auch die Groß- und Kleinschreibung essentiell. 
+:::
 
 
 Der Server kann anschließend wieder gestartet werden, sobald dieser Schritt abgeschlossen wurde. Im nächsten Startvorgang sollte die installierte Resource nun geladen werden. 

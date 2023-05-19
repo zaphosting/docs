@@ -20,10 +20,15 @@ To solve this problem, we have developed a practical solution for our Linux-base
 
 With the user-friendly GS/TS3 interface, you can install Teamspeak 3 or other selected game server services on your Linux-based VPS, root server, or dedicated server with just a few clicks. No prior knowledge is required for this installation. The setup of all required packages, server files, and the actual installation are fully automated, saving you time and effort.
 
-> ⚠️ **Note:** To successfully install the GS/TS3 interface, it is important to ensure that your server has one of the following supported operating systems installed:
+:::info
+**Note:** To successfully install the GS/TS3 interface, it is important to ensure that your server has one of the following supported operating systems installed:
+:::
 >
-> - Debian 10
-> - Debian 11
+:::info
+- Debian 10
+
+- Debian 11
+:::
 
 
 
@@ -62,13 +67,17 @@ Once you have clicked on **Add Key**, the SSH key is stored on your server. The 
 
 
 
-> ⚠️ **Note:** If the SSH key is not recognised right away, restarting the server and refreshing the page is a possible solution.
+:::info
+**Note:** If the SSH key is not recognised right away, restarting the server and refreshing the page is a possible solution.
+:::
 
 During the installation you can check the current progress. Please note that the installation and configuration of the interface and its packages may take some time. This can usually take from 5 to 15 minutes.
 
 ![img](https://user-images.githubusercontent.com/61839701/165697094-ddf800a2-2618-441d-912b-994afe8099bf.png)
 
-> ⚠️ **Caution**: Please do not continue the process until the interface is completely installed. You can recognize the successful installation by the fact that the progress bar has disappeared and "Installed" is displayed instead of "Missing" for each required package.
+:::info
+**Caution**: Please do not continue the process until the interface is completely installed. You can recognize the successful installation by the fact that the progress bar has disappeared and "Installed" is displayed instead of "Missing" for each required package.
+:::
 
 
 
@@ -122,7 +131,9 @@ Make sure that all the information is correct and meets your requirements. Once 
 
 ![](https://user-images.githubusercontent.com/61839701/165702380-5169d23a-21d0-4d58-a538-ab7b65f76615.png)
 
-> ⚠️ **Caution**: This is the instance on which the Teamspeak 3 server will be installed afterwards.
+:::info
+**Caution**: This is the instance on which the Teamspeak 3 server will be installed afterwards.
+:::
 
 You are now in the interface of the instance of your installed Teamspeak 3 server. You can now start the instance by clicking on the **Start** button.
 
@@ -137,4 +148,6 @@ In the Teamspeak 3 server interface, you will find all the necessary information
 
 Under the menu item "Settings" you have further options to customize your server. Here you can, for example, change the name of your server, set a password to restrict access, or store a personal welcome message that users receive when they enter the server.
 
-> ⚠️ **Note**: There is no licence installed on the Teamspeak 3 server by default. This means that you can only use a Teamspeak 3 server with a capacity of 32 slots. However, if you would like to activate more capacity or additional functions for your Teamspeak 3 server, you can purchase a corresponding licence from Teamspeak.
+:::info
+**Note**: There is no licence installed on the Teamspeak 3 server by default. This means that you can only use a Teamspeak 3 server with a capacity of 32 slots. However, if you would like to activate more capacity or additional functions for your Teamspeak 3 server, you can purchase a corresponding licence from Teamspeak.
+:::

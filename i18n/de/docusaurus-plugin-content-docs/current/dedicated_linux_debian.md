@@ -8,7 +8,9 @@ sidebar_label: Debian installieren
 ## Vorbereitungen
 Wähle in deinem ZAP-Interface die gewünschte ISO von Debian aus und lasse den Server mit der ISO booten, bis dieser im Setup ist. Die Navigation im Setup Prozess erfolgt mit TAB, Leertaste und Enter.
 
-> TAB = Zwischen Menüpunkten wechseln, Leertaste = markieren, Enter = Bestätigen
+:::info
+TAB = Zwischen Menüpunkten wechseln, Leertaste = markieren, Enter = Bestätigen
+:::
 
 ***
 
@@ -56,7 +58,9 @@ Wir wählen United States als locale.
 
 In unserem Fall wählen wir das deutsche Tastaturlayout welches dem QWERTZ Layout entspricht.
 
-> Dein Server bereitet nun einige für die Installation notwendige Komponenten vor, dies kann einen Augenblick in Anspruch nehmen.
+:::info
+Dein Server bereitet nun einige für die Installation notwendige Komponenten vor, dies kann einen Augenblick in Anspruch nehmen.
+:::
 
 ### Konfigurationen
 
@@ -91,13 +95,17 @@ Zur Bestätigung muss das Passwort erneut eingegeben werden.
 
 ***
 
-> Der Installations-Assistent verlangt die Erstellung eines zweiten Nutzerkontos
+:::info
+Der Installations-Assistent verlangt die Erstellung eines zweiten Nutzerkontos
+:::
 
 ![image](https://user-images.githubusercontent.com/13604413/159173939-526bddc4-ef8c-4747-a852-e673dff89a16.png)
 
 Gib nun den Namen des Besitzers für ein normales Nutzerkonto ein, du kannst hier natürlich frei wählen was du einträgst.
 
-> Du kannst natürlich weiterhin das "Root"-Konto benutzen
+:::info
+Du kannst natürlich weiterhin das "Root"-Konto benutzen
+:::
 
 ***
 
@@ -133,7 +141,9 @@ Grundsätzlich ist es ausreichend wenn die komplette Struktur auf einer Partitio
 
 Wir bestätigen die Konfiguration mit "Finish partitioning and write changes to disk"
 
-> Sollten alte Partitionen auf deiner SSD vorhanden sein bestätigen wir das überschreiben einfach mit "Yes"
+:::info
+Sollten alte Partitionen auf deiner SSD vorhanden sein bestätigen wir das überschreiben einfach mit "Yes"
+:::
 
 Dein Server führt nun die Partitionierung durch und bereitet die Installation des Systems vor.
 
@@ -198,7 +208,9 @@ Dadurch das dieses Betriebssystem, das einzige auf dem aktuellen Server ist, mit
 
 Als Speicherort wählen wir den vorgegebenen Ort auf unserer SSD.
 
-> 🎉 Die Installation deines Debian-Systems ist nun fertig.
+:::info
+🎉 Die Installation deines Debian-Systems ist nun fertig.
+:::
 
 Öffne in deiner iLO "Virtual Media" und drücke "Eject Media" um die ISO aus dem System zu entfernen.
 
@@ -233,4 +245,6 @@ Gib hierzu die IP-Adresse deines Servers, welche du in deinem Dashboard siehst e
 
 ![image](https://user-images.githubusercontent.com/13604413/159174010-4cf4901a-9481-45f9-b51a-6f07f53f050e.png)
 
-> Bei weiteren Fragen und Problemen steht dir unser Support jederzeit gerne zur Verfügung
+:::info
+Bei weiteren Fragen und Problemen steht dir unser Support jederzeit gerne zur Verfügung
+:::

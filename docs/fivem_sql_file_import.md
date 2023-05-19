@@ -11,7 +11,9 @@ Many resources for FiveM require entries in the database of your FiveM server to
 Therefore it is important to import the SQL files of resources correctly into your database to ensure that the resources can use the required 
 create entries in the database of your FiveM Server.
 
-> Not all resources need the import of a SQL file into the database to work! When you download a resource
+:::info
+Not all resources need the import of a SQL file into the database to work! When you download a resource
+:::
 However, in many cases, one or more files with the file extension **.sql** are enclosed there, these must then be imported into the database.
 
 ## Preparation and establishment of the database
@@ -44,7 +46,9 @@ You open the folder of the resource and find a file with the file extension **.s
 ![image](https://user-images.githubusercontent.com/13604413/159168782-da143379-084a-47d7-b466-8c7dbd22e1d8.png)
 
 
-> CAUTION: Before importing, open the .sql file with any editor and check if the following lines are present:
+:::info
+CAUTION: Before importing, open the .sql file with any editor and check if the following lines are present:
+:::
 
 
 ![image](https://user-images.githubusercontent.com/13604413/159168784-570f0855-173d-4e1f-8a05-5a17e06d1daf.png)
@@ -72,7 +76,9 @@ on the right side.
 
 Arrived in **phpmyadmin** you first select your database from the list on the left via left click. 
 
-> The name of your database starts **ALWAYS** with zap!
+:::info
+The name of your database starts **ALWAYS** with zap!
+:::
 
 ![image](https://user-images.githubusercontent.com/13604413/159168811-626eba00-b7b3-4c45-894e-ca497571b2d7.png)
 

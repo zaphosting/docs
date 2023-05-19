@@ -5,12 +5,16 @@ description: Informationen zu der Installation des CentOS Betriebssystem auf dei
 sidebar_label: CentOS installieren
 ---
 
-> In diesem Beispiel wird die Installation von CentOS 8.3 durchgeführt
+:::info
+In diesem Beispiel wird die Installation von CentOS 8.3 durchgeführt
+:::
 
 ## Vorbereitungen
 Wähle in deinem ZAP-Interface die gewünschte ISO von CentOS aus und lasse den Server mit der ISO booten, bis dieser im Setup ist.
 
-> Die Navigation im Setup-Prozess erfolgt ganz bequem mit deiner Maus
+:::info
+Die Navigation im Setup-Prozess erfolgt ganz bequem mit deiner Maus
+:::
 
 ***
 
@@ -83,4 +87,6 @@ Mit `STRG+X` und `Y` velassen wir nano wieder und speichern die Änderungen.
 
 Als letztes müssen wir noch den Netzwerkadapter starten, dies kann mit `ifup eno1` erledigt werden.
 
-> Dein Dedicated Server hat nun eine Internetverbindung
+:::info
+Dein Dedicated Server hat nun eine Internetverbindung
+:::

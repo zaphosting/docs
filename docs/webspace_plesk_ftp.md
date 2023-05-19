@@ -18,7 +18,9 @@ These people can then use the FTP access created only to the folders that were s
 
 In the Plesk Dashboard, open the "**FTP access**" function
 
-> On this main page you would also see the IP address, which will be needed for the test later.
+:::info
+On this main page you would also see the IP address, which will be needed for the test later.
+:::
 
 ![Bildschirmfoto vom 2022-05-13 05-29-41](https://user-images.githubusercontent.com/61953937/168206121-b21fa681-e9b7-41ab-bc8e-49e1a89fcd95.png)
 
@@ -31,7 +33,9 @@ Afterwards the desired data must be entered. As soon as the entries are complete
 
 ![Bildschirmfoto vom 2022-05-13 05-30-10](https://user-images.githubusercontent.com/61953937/168206141-869eafc8-c54e-4b57-9cbd-2907bf2de73e.png)
 
-> At "**Base directory**" you can now select the directory to which the FTP access should have access. If the FTP access is allowed to view and edit everything, nothing has to be changed there. 
+:::info
+At "**Base directory**" you can now select the directory to which the FTP access should have access. If the FTP access is allowed to view and edit everything, nothing has to be changed there. 
+:::
 
 ### Test FTP access
 

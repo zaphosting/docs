@@ -5,7 +5,9 @@ description: Informationen, wie du Admin über Datenbank deines FiveM-Server mit
 sidebar_label: Admin über Datenbank werden
 ---
 
-> **Wichtig**: Ein Charakter muss erstellt sein von euch, sodass ihr diesen dann auch in der Datenbank findet.
+:::info
+**Wichtig**: Ein Charakter muss erstellt sein von euch, sodass ihr diesen dann auch in der Datenbank findet.
+:::
 
 ## Admin werden
 

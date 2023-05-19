@@ -15,9 +15,13 @@ On our "[Refer a Friend](https://zap-hosting.com/de/customer/affiliate/)" page y
 ## The commissions
 Through the Refer a Friend program you will receive a sales commission of up to 50%. The exact sales commissions for all products can be found on the refer a friend page under "[conditions](https://zap-hosting.com/de/customer/affiliate/conditions/)".
 
-> The commission paid out is a net value.
+:::info
+The commission paid out is a net value.
+
 This means that you have to deduct the VAT from your displayed affiliate balance when paying out. You can do this by dividing the displayed amount by 1.19 (19% German VAT). Example: 100€ affiliate credit. To be invoiced are: 100 / 1,19 = 84,03€. If you pay out in ZAP Coins, you will receive the full amount.
-> If VAT has to be shown in the invoice, the full amount will be shown in the invoice including VAT. With an affiliate credit of 100€, an invoice of 100€, consisting of 84.03€ invoice amount and 15.97€ VAT will be sent. Non-German invoices generally will not have to add VAT to the invoice.
+
+If VAT has to be shown in the invoice, the full amount will be shown in the invoice including VAT. With an affiliate credit of 100€, an invoice of 100€, consisting of 84.03€ invoice amount and 15.97€ VAT will be sent. Non-German invoices generally will not have to add VAT to the invoice.
+:::
 
 ## Create affiliate link
 
@@ -25,19 +29,29 @@ To create an affiliate link, click on the "[Refer a Friend](https://zap-hosting.
 
 'Alias'.
 
-> You can customize your link any way you want so that the link is readable and easy to remember. The alias is attached to "https://zap-hosting.com/". The link will look like this: 
-> "https://zap-hosting.com/alias". 
-> If you do not create an alias, a random alias will be created.
+:::info
+You can customize your link any way you want so that the link is readable and easy to remember. The alias is attached to "https://zap-hosting.com/". The link will look like this: 
+
+"https://zap-hosting.com/alias". 
+
+If you do not create an alias, a random alias will be created.
+:::
 
 `Link text`
 
-> An HTML code is created for the link, which you can easily insert into web pages. The link text is then the clickable text that appears in the body text (e.g. "Click me")
-> Example: `<a href="https://zap-hosting.com/diesisteinaffiliatelink">click me</a>`
+:::info
+An HTML code is created for the link, which you can easily insert into web pages. The link text is then the clickable text that appears in the body text (e.g. "Click me")
+
+Example: `<a href="https://zap-hosting.com/diesisteinaffiliatelink">click me</a>`
+:::
 
 ``Target``
 
-> You can choose the page your affiliate link redirects to yourself. For example, if you run a Minecraft video channel, you can set the link to redirect to our "[Rent a Minecraft Server](https://zap-hosting.com/de/minecraft-server-mieten/)" page.
-> In general, we recommend that you use our [Home](https://zap-hosting.com/de/) as your destination
+:::info
+You can choose the page your affiliate link redirects to yourself. For example, if you run a Minecraft video channel, you can set the link to redirect to our "[Rent a Minecraft Server](https://zap-hosting.com/de/minecraft-server-mieten/)" page.
+
+In general, we recommend that you use our [Home](https://zap-hosting.com/de/) as your destination
+:::
 
 
 When you have filled out everything, click on "Create" to create the link.
@@ -49,20 +63,29 @@ To create an affiliate banner, go to the "[Refer a Friend](https://zap-hosting.c
 
 'Alias'.
 
-> Next to the banner, a link is created to which the banner refers. You can customize your banner link any way you want so that the link is readable and easy to remember. The alias is attached to "https://zap-hosting.com/". The link will look like this: 
-> "https://zap-hosting.com/alias". 
-> If you don't create an alias, a random alias will be created.
+:::info
+Next to the banner, a link is created to which the banner refers. You can customize your banner link any way you want so that the link is readable and easy to remember. The alias is attached to "https://zap-hosting.com/". The link will look like this: 
+
+"https://zap-hosting.com/alias". 
+
+If you don't create an alias, a random alias will be created.
+:::
 
 
 `Template`
 
-> Here you select the template from a number of different banners. These are stored with us and the HTML code is generated in such a way that the banner is loaded via our site if you install the code correctly.
-> You can also upload the banner yourself to your channel or website and link it to your affiliate link. To do this, simply save the desired banner in the preview by right-clicking on it.
+:::info
+Here you select the template from a number of different banners. These are stored with us and the HTML code is generated in such a way that the banner is loaded via our site if you install the code correctly.
+
+You can also upload the banner yourself to your channel or website and link it to your affiliate link. To do this, simply save the desired banner in the preview by right-clicking on it.
+:::
 
 `Target`
 
-> You can choose the page your banner link redirects to yourself. For example, if you run a Minecraft video channel, you can set the link to redirect to our "[Rent a Minecraft Server](https://zap-hosting.com/de/minecraft-server-mieten/)" page.
-> In general, we recommend that you use our [Home](https://zap-hosting.com/de/) as your destination
+:::info
+You can choose the page your banner link redirects to yourself. For example, if you run a Minecraft video channel, you can set the link to redirect to our "[Rent a Minecraft Server](https://zap-hosting.com/de/minecraft-server-mieten/)" page.
+In general, we recommend that you use our [Home](https://zap-hosting.com/de/) as your destination
+:::
 
 When you have filled out everything, click on "Create" to create the banner.
 
@@ -70,7 +93,7 @@ When you have filled out everything, click on "Create" to create the banner.
 
 To request a cashout, simply click on the "Cashout/Rebooking" button in the overview on the "[Refer a Friend](https://zap-hosting.com/de/customer/affiliate/)" page. Then you can choose whether you want to transfer your affiliate credit into ZAP-Coins or whether you want to get the credit paid out. We can transfer funds to your bank account or pay out via Paypal.
 
-> ⚠️**Attention:** If you have your credit transferred to ZAP-Coins, you can't have these ZAP-Coins paid out anymore. This step is final!
+>**Attention:** If you have your credit transferred to ZAP-Coins, you can't have these ZAP-Coins paid out anymore. This step is final!
 
 **PayPal payout:**
 Use the PayPal invoice feature: "[PayPal Invoice Creator](https://www.paypal.com/invoice/create?fromWidget=newuser)"

@@ -18,7 +18,9 @@ The installation of resources is done via FTP. You will need an FTP client to up
 
 Downloaded resources are usually offered in a packed format. This means that you have to unpack the packed file with an unpacking program such as 7Zip, Winrar or WinZip. The unpacked resource should contain at least the following files:  __resource.lua / fxmanifest.lua and the associated script files.
 
-> In case these files are not present, it may be that they are located in a subdirectory. 
+:::info
+In case these files are not present, it may be that they are located in a subdirectory. 
+:::
 
 
 ## Installation
@@ -35,6 +37,8 @@ To ensure that the installed resource is also loaded, it must first be activated
 ```
 start eup-ui
 ```
-> Please make sure that the name of the previously created folder is the same as the name of the start command. The upper and lower case is also essential. 
+:::info
+Please make sure that the name of the previously created folder is the same as the name of the start command. The upper and lower case is also essential. 
+:::
 
 Afterwards, the server can be restarted as soon as this step has been completed. The installed resource should now be loaded with the next startup process. 

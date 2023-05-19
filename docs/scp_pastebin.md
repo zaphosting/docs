@@ -5,7 +5,9 @@ description: Information on how to add a Pastebin entry to create a server descr
 sidebar_label: Pastebin ID
 ---
 
-> Its required to have a server description which needs to be created on pastebin, to show your server in the official serverlist.
+:::info
+Its required to have a server description which needs to be created on pastebin, to show your server in the official serverlist.
+:::
 
 First open pastebin.com in a webbrowser of your choice.
 
@@ -23,6 +25,8 @@ Now paste the copied ID into the settings of your gameserver, which you can find
 
 Now save the changes.
 
-> A restart is required to take the changes you've made.
+:::info
+A restart is required to take the changes you've made.
+:::
 
 Your server description is now showed ingame, your server is now also be shown on the official serverlist.

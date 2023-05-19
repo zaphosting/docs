@@ -26,5 +26,7 @@ Insofern Du mit PayPal oder Kreditkarte bezahlst, wird bei einem Vertragsserver 
 
 ![image](https://user-images.githubusercontent.com/61953937/159139658-e027b5b1-a594-4813-88b3-b7261fc9f74b.png)
 
-> Du hast bei der Bestellung auch die Möglichkeit, den Haken bei "**Abo Zahlung**" zu deaktivieren. Wir schicken dir regelmäßig eine Rechnung, diese musst du dann im Kundenportal manuell bezahlen.
+:::info
+Du hast bei der Bestellung auch die Möglichkeit, den Haken bei "**Abo Zahlung**" zu deaktivieren. Wir schicken dir regelmäßig eine Rechnung, diese musst du dann im Kundenportal manuell bezahlen.
+:::
 Du hast die Möglichkeit **jederzeit später eine Abo Zahlung zu einem Vertrag zu entfernen** oder hinzuzufügen. Öffne dazu den Navigationspunkt "**Verträge & Prepaids**" im Kundenportal

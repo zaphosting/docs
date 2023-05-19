@@ -9,7 +9,9 @@ Cockpit is a web interface to manage one or more Linux servers (cluster). From s
 Cockpit is suitable for beginners but also for advanced users who want to see/manage everything important in a short time. In addition, it can be accessed from almost any device.
 The project website can be reached at https://cockpit-project.org/. 
 
-> ⚠️ This guide explains the installation for Debian (from Buster)/ for Ubuntu (from Bionic Beaver). The installation is also available on the project page for fedora, Red Hat, fedora CoreOS, CentOS, Clear Linux, archlinux and Tumbleweed.   
+:::info
+This guide explains the installation for Debian (from Buster)/ for Ubuntu (from Bionic Beaver). The installation is also available on the project page for fedora, Red Hat, fedora CoreOS, CentOS, Clear Linux, archlinux and Tumbleweed.   
+:::
 
 ## Installation
 

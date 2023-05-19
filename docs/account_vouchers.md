@@ -29,7 +29,9 @@ If the voucher is entered correctly, is still valid and has not already been use
 
 ![image](https://user-images.githubusercontent.com/13604413/159170458-9f7754eb-67e5-40fe-ae59-cdf5ac1068e0.png)
 
-> If a code does not work, it may be that it has already expired, has already been used or that the code is not a credit code.
+:::info
+If a code does not work, it may be that it has already expired, has already been used or that the code is not a credit code.
+:::
 
 ## Discount codes
 
@@ -46,7 +48,9 @@ Once everything is configured correctly, you can still use your code in the orde
 
 The costs are automatically reduced as soon as you redeem the voucher. 
 
-> There are two different discount codes: 
+:::info
+There are two different discount codes: 
+:::
 1. codes that reduce the cost of the first booked period
 2. codes that permanently reduce costs during the runtime
 

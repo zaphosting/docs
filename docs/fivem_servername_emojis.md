@@ -24,4 +24,6 @@ to add an emoji to your server name, just click on the emoji icon
 
 ![image](https://user-images.githubusercontent.com/26007280/189678828-7c2d3a51-8aaf-4a29-9149-ee8af3291a70.png)
 
-> ⚡ Choose the emojis of your like, then restart the server once
+:::info
+⚡ Choose the emojis of your like, then restart the server once
+:::

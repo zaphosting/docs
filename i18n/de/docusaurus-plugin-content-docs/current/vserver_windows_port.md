@@ -55,7 +55,9 @@ In dem "**Profil**" kann nun gewählt werden, ob diese Regel nur für bestimmte 
 
 Bei "**Name**" muss nur noch ein Name für diese neue "**Regel**" eingetragen werden, dieser ist frei wählbar.
 
-> ⚠️ Hierbei sollte ein Name gewählt werden der noch ungenutzt und eindeutig ist, damit dieser unter "**Eingehende Regel**" bzw. "**Ausgehende Regel**" wiedergefunden werden kann.
+:::info
+Hierbei sollte ein Name gewählt werden der noch ungenutzt und eindeutig ist, damit dieser unter "**Eingehende Regel**" bzw. "**Ausgehende Regel**" wiedergefunden werden kann.
+:::
 
 ![](https://user-images.githubusercontent.com/61839701/166196419-6d443e71-18ff-4e46-9bda-4f32db3c9fd8.png)
 
@@ -99,7 +101,9 @@ Dies wird erneut mit dem "**Weiter >**" bestätigt.
 
 Bei "**Name**" muss nur noch ein Name für diese neue "**Regel**" eingetragen werden, dieser ist frei wählbar.
 
-> ⚠️ Hierbei sollte ein Name gewählt werden der noch ungenutzt und eindeutig ist, damit dieser unter "**Eingehende Regel**" bzw. "**Ausgehende Regel**" wiedergefunden werden kann.
+:::info
+Hierbei sollte ein Name gewählt werden der noch ungenutzt und eindeutig ist, damit dieser unter "**Eingehende Regel**" bzw. "**Ausgehende Regel**" wiedergefunden werden kann.
+:::
 
 ![](https://user-images.githubusercontent.com/61839701/166196602-7cd1ce91-a826-4737-b74e-d062489b7630.png)
 

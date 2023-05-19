@@ -48,7 +48,9 @@ In the **Server Name** field you can define the name of your Teamspeak server na
 
 If you have booked the option own banner, then you can add your own banner in the field **Banner Gfx URL**. It's important that you provide the direct link to the image, otherwise the image won't be recognized. In the field **URL** you can set where the banner should redirect to when someone clicks on the banner. 
 
-> If no own banner has been booked, then the banner will be replaced automatically with the default ZAP banner. 
+:::info
+If no own banner has been booked, then the banner will be replaced automatically with the default ZAP banner. 
+:::
 
 
 

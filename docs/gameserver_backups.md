@@ -16,7 +16,9 @@ Besides creating backups manually, backups can also be created fully automatical
 
 Press the green **+** button next to the backup list to create a backup manually. The backup process will start afterwards,  
 
-> The backup creation process can take a few minutes depending on the file size of your server!
+:::info
+The backup creation process can take a few minutes depending on the file size of your server!
+:::
 
 
 

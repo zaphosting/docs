@@ -20,7 +20,9 @@ Zunächst einmal werden die eigentlichen Erweiterungen benötigt. Hierbei ist es
 
 ![image](https://user-images.githubusercontent.com/13604413/159178791-f9949d57-45ec-42af-9e5f-5eb9190ae602.png)
 
-> Source-Engine Gameserver laufen bei ZAP-Hosting in der Regel unter einem Linux Betriebssystem. Dementsprechend wird die Linux Version der Erweiterungen benötigt.
+:::info
+Source-Engine Gameserver laufen bei ZAP-Hosting in der Regel unter einem Linux Betriebssystem. Dementsprechend wird die Linux Version der Erweiterungen benötigt.
+:::
 
 ### Entpacken der Dateien
 

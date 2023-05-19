@@ -7,7 +7,9 @@ sidebar_label: Festplatte erweitern
 
 Nach einem Upgrade deines ZAP Windows vServers, ist es möglicherweise notwendig deiner bestehenden Partition den neuen Speicher hinzuzufügen.
 
-> ⚠️ Keine Sorge, bei diesem Schritt werden keine Daten gelöscht
+:::info
+Keine Sorge, bei diesem Schritt werden keine Daten gelöscht
+:::
 
 ## Die Partition erweitern
 
@@ -36,6 +38,8 @@ Der verfügbare Festplattenspeicher wird automatisiert erkannt, du musst ledigli
 
 Beende nun den Assistenten mit (1) **Fertig stellen**
 
-> 💚 Deine Festplattenpartition ist nun um den neuen Speicher vergrößert!
+:::info
+💚 Deine Festplattenpartition ist nun um den neuen Speicher vergrößert!
+:::
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/gRKJziB8WY5ZHNR/preview)

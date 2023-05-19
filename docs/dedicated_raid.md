@@ -5,13 +5,17 @@ description: Information, about RAID configuration options for your Dedicated Se
 sidebar_label: RAID Configuration
 ---
 
-> We're offering up to 2 SSDs in our dedicated server products, so you could use RAID0 or RAID1
+:::info
+We're offering up to 2 SSDs in our dedicated server products, so you could use RAID0 or RAID1
+:::
 
 ## Which types of raid are there?
 Basically, there are different raid types. Since our dedicated servers are only offering 2 ssd bays, there is only a configuration of RAID0 or RAID1 possible.
 Other raid types would require to have more ssds.
 
-> RAID0 has slightly faster read and write rates
+:::info
+RAID0 has slightly faster read and write rates
+:::
 
 ### RAID0
 In this RAID configuration, all existing volumes are combined into one large volume, for example, from 2 ssds, each with 1 TB,
@@ -19,7 +23,9 @@ a 2TB partition would be created which could then be used completely.
 There is no data redundancy, so in case of a technical malfunction, data loss is often inevitable because the data is written in different sectors.
 If you store sensitive data on your system, RAID0 should not be used or at least regular system backups should be performed.
 
-> If your dedicated server has only 1 ssd this is automatically a RAID0.
+:::info
+If your dedicated server has only 1 ssd this is automatically a RAID0.
+:::
 
 ### RAID1
 This configuration is very different from RAID0, here there is a redundancy of your data, which means that everything you store on your server is duplicated.
@@ -27,7 +33,9 @@ It is therefore mirrored on both ssds and would be available at a failure rate o
 In case of a technical malfunction, only the affected ssd would have to be replaced and your server would rebuild the RAID, which means to mirror the data again.
 Especially for more sensitive data this configuration is highly recommended, but it is not an alternative to avoid backups.
 
-> Regular backups of all important data are essential!
+:::info
+Regular backups of all important data are essential!
+:::
 
 ## The Configuration Assistant
 
@@ -103,11 +111,15 @@ Of course, not all of these RAIDs can be implemented in the current constellatio
 
 In our example we choose RAID0 or RAID1.
 
-> You can switch between the menus by pressing `TAB`
+:::info
+You can switch between the menus by pressing `TAB`
+:::
 
 When you're done choosing your RAID configuration, you can confirm them by pressing `Enter`.
 
-> You can close the configuration assistant by pressing `ESC`
+:::info
+You can close the configuration assistant by pressing `ESC`
+:::
 
 ### Select Boot Volume
 

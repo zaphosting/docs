@@ -22,7 +22,9 @@ Nun sollte ein dunkles Fenster zu sehen sein, was die Konsole des Servers darste
 
 Nach wenigen Sekunden sollte der gesendete Befehl in der Konsole erscheinen, worauf die Meldung "Made [Spieler] a server operator" kommt, welche den Vorgang als erfolgreich markiert. Nun hat der jeweilige Spieler alle OP-Rechte und kann beispielsweise den Spielmodus wechseln.
 
-> Das Verteilen von OP-Rechten ist nun auch im Spiel selbst möglich, so dass du das Rechte-Level wie im nächsten Schritt erklärt ggf. anpassen solltest, insofern dies von dir gewünscht ist.
+:::info
+Das Verteilen von OP-Rechten ist nun auch im Spiel selbst möglich, so dass du das Rechte-Level wie im nächsten Schritt erklärt ggf. anpassen solltest, insofern dies von dir gewünscht ist.
+:::
 
 ## Rechte-Level
 
@@ -35,7 +37,9 @@ Die OP-Rechte sind in vier Level unterteilt, wobei standardmäßig immer Level 4
 | 3 | Admin  | Kicken und bannen von Spielern, sowie weitere Befehle, die der allgemeinen Verwaltung des Servers angehören. Zudem können weitere Operatoren ernannt werden. |
 | 4 | Owner | Keine Einschränkungen mehr vorhanden. |
 
-> Durch die Installation eines Rechte-Plugins wie LuckPerms auf deinem Bukkit/Spigot Server, können die Rechte viel spezieller und detailreicher festgelegt werden. Zudem können auch mehrere Gruppe erstellt werden, was die Verteilung von Rechten vereinfacht.
+:::info
+Durch die Installation eines Rechte-Plugins wie LuckPerms auf deinem Bukkit/Spigot Server, können die Rechte viel spezieller und detailreicher festgelegt werden. Zudem können auch mehrere Gruppe erstellt werden, was die Verteilung von Rechten vereinfacht.
+:::
 
 ### Rechte-Level zuweisen
 

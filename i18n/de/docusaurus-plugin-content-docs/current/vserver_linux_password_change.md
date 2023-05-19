@@ -38,7 +38,9 @@ Anschließend öffnet sich ein Popup wo das Passwort angezeigt wird.
 ## Server Konsole
 
 Das Passwort kann auch über die Server Console geändert werden, dabei ist es egal ob man diese via Putty erreicht oder z.b via VNC/Serial.
-> Wichtig: Diese Option funktioniert nur wenn noch Zugriff zum Server besteht, sprich man noch auf die Console verbinden sowie anmelden kann. 
+:::info
+Wichtig: Diese Option funktioniert nur wenn noch Zugriff zum Server besteht, sprich man noch auf die Console verbinden sowie anmelden kann. 
+:::
 
 Ist man in der Console angemeldet, kann über den Befehl "passwd" das Passwort geändert werden. 
 Nachdem man diesen Befehl "abgesendet" hat mit der Taste "Enter" wird man aufgefordert sein neues Passwort einzugeben. 
@@ -49,4 +51,6 @@ Ist dies gemacht und das Passwort stimmte mit der ersten Eingabe überein, so be
 
 Stimmen die beiden Eingaben nicht überein, so wird die Console den Vorgang beenden und man muss erneut den Befehl "passwd" eingeben. 
 
-> ⚠️ Wichtig: Ändert man das Password via Console, kann es nicht für 3 Stunden in unserem Webinterface unter Zugang und Sicherheit angezeigt werden. 
+:::info
+Wichtig: Ändert man das Password via Console, kann es nicht für 3 Stunden in unserem Webinterface unter Zugang und Sicherheit angezeigt werden. 
+:::

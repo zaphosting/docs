@@ -19,7 +19,9 @@ Nachdem wir ELS runtergeladen haben, entpacken wir zunächst die Zipdatei, nachd
 
 Nun Konfigurieren wir ELS-FiveM, dazu erstellen wir eine Kopie von der `vcf.default.lua`, und nennen diese `vcf.lua`.
 
-> Beachte: Die alte `vcf.default.lua` darf nicht gelöscht werden.
+:::info
+Beachte: Die alte `vcf.default.lua` darf nicht gelöscht werden.
+:::
 
 Es können auch weitere Einstellungen in der "config.lua" vorgenommen werden, wir lassen diese aber Standard.
 
@@ -44,6 +46,8 @@ Diese laden wir nun in den "vcf" Ordner unseres ELS-FiveM Ordners über FTP Hoch
 
 Nachdem die Datei hochgeladen wurde, öffnen wir nun die `vcf.lua` Datei, im ELS-FiveM Ordner.
 
-> Gehe sicher das die vorherige zeile immer ein Komma am ende ha
+:::info
+Gehe sicher das die vorherige zeile immer ein Komma am ende ha
+:::
 
 Fertig! Unser Carmod sollte nach einem Neustart des Servers ELS-Aktiviert sein.

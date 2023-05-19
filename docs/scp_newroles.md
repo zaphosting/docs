@@ -37,7 +37,9 @@ This also goes only slightly further down in the identical Config.
 ![image](https://user-images.githubusercontent.com/13604413/159182860-38595abf-ca1b-460e-a19d-57b338f1af6d.png)
 
 We therefore enter our role under the "moderator" role.
-> ATTENTION: Please note the spaces before and after the "-"!
+:::info
+ATTENTION: Please note the spaces before and after the "-"!
+:::
 
 ## Permissions
 At the very bottom of the "config_remoteadmin.txt" config file we can adjust the permissions for the respective roles.

@@ -35,7 +35,9 @@ Um eine optimale Leistung, Stabilität und Funktionalität zu gewährleisten, wi
 | Web server       | Apache 2.4 with `mod_php` or `php-fpm` (recommended)         |
 | PHP              | 5.6, 7.0 (recommended), 7.1 (recommended), 7.2               |
 
-> ⚠️ Die Anforderungen wurden aus unseren eigenen Erfahrungen und den Informationen der Entwickler zusammengestellt.
+:::info
+Die Anforderungen wurden aus unseren eigenen Erfahrungen und den Informationen der Entwickler zusammengestellt.
+:::
 
 
 
@@ -288,7 +290,9 @@ Danach muss ein Benutzer angelegt werden, welcher Zugriff auf die Nextcloud DB e
 CREATE USER 'nc_user'@'localhost' IDENTIFIED BY 'YOUR_PASSWORD_HERE';
 ```
 
-> ⚠️ Überspringen diesen Schritt nicht, indem der Benutzer root verwendet wird. Dies ist nicht sicher und gefährdet deine Daten!
+:::info
+Überspringen diesen Schritt nicht, indem der Benutzer root verwendet wird. Dies ist nicht sicher und gefährdet deine Daten!
+:::
 
 Der letzte Schritt ist die Vergabe der Berechtigungen für den neuen Benutzer:
 
@@ -328,7 +332,9 @@ Danach muss ein Benutzer angelegt werden, welcher Zugriff auf die Nextcloud DB e
 CREATE USER 'nc_user'@'localhost' IDENTIFIED BY 'YOUR_PASSWORD_HERE';
 ```
 
-> Überspringen diesen Schritt nicht, indem der Benutzer root verwendet wird. Dies ist nicht sicher und gefährdet deine Daten!
+:::info
+Überspringen diesen Schritt nicht, indem der Benutzer root verwendet wird. Dies ist nicht sicher und gefährdet deine Daten!
+:::
 
 
 Der letzte Schritt ist die Vergabe der Berechtigungen für den neuen Benutzer:
@@ -370,7 +376,9 @@ Danach muss ein Benutzer angelegt werden, welcher Zugriff auf die Nextcloud DB e
 CREATE USER 'nc_user'@'localhost' IDENTIFIED BY 'YOUR_PASSWORD_HERE';
 ```
 
-> Überspringe diesen Schritt nicht, indem der Benutzer root verwendet wird. Dies ist nicht sicher und gefährdet deine Daten!
+:::info
+Überspringe diesen Schritt nicht, indem der Benutzer root verwendet wird. Dies ist nicht sicher und gefährdet deine Daten!
+:::
 
 Der letzte Schritt ist die Vergabe der Berechtigungen für den neuen Benutzer:
 
@@ -435,7 +443,9 @@ rm nextcloud-16.0.4.zip
 
 Wenn dieser Schritt abgeschlossen ist, dann ist es an der Zeit  das Installationsscript auszuführen. Der Zugriff erfolgt über den Browser mit folgender Adresse:
 
-> **http://domain.tld/nextcloud/** 
+:::info
+**http://domain.tld/nextcloud/** 
+:::
 
 Es erscheint die Konfiguration des Installationsscipt, in der ein Root-Benutzer angelegt und die Datenbankinformationen definiert werden:
 

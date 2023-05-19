@@ -17,7 +17,9 @@ Wir bieten eine große Anzahl verschiedener Zahlungsoptionen an, mit denen Serve
 * **Bitcoin:** Bezahlung mit Bitcoin bezahlen. Die Abwicklung wird über den Anbieter Coinify durchgeführt.
 * **Überweisung:** Nur erhältlich, um ZAP Coins einzuzahlen. Nach Zahlungseingang wird das Guthaben freigeschaltet.
 
-> ![](https://user-images.githubusercontent.com/61953937/159141599-67b3f748-3b49-4f1a-b904-e01f88bd279f.png)
+:::info
+![](https://user-images.githubusercontent.com/61953937/159141599-67b3f748-3b49-4f1a-b904-e01f88bd279f.png)
+:::
 
 
 ## Bezahlvorgang
@@ -25,8 +27,11 @@ Der Bezahlvorgang ist simpel: Die Serverkonfiguration wird auf der Konfiguration
 
 ## ZAP Coins: Einzahlung
 Guthaben kann über sämtliche anderen von uns angebotenen Zahlungsoptionen eingezahlt werden und auch Vertragsserver können über ZAP Coins bezahlten werden. Im Web Interface lässt sich Guthaben unter dem Punkt **Geld einzahlen** einzahlen.
-> Eine anteilige Finanzierung über Guthaben ist nicht möglich. Wenn du bereits Guthaben hast, beispielsweise weil du einen ZAP Coin Code verwendest hast, kannst du Guthaben beliebig hinzufügen. Tipp: Wenn du mit ZAP Coins bezahlst, achte auf unsere Cash In Deals: Ist der Cash In Deal aktiviert, erhältst du zusätzliches Guthaben, wenn du deine Einzahlung erhöhst.
-> Überweisungen können verwendet werden, um ZAP Coins einzuzahlen. Sobald die Überweisung bei uns eingegangen ist, wird das Guthaben freigeschaltet und kann verwendet werden.
+:::info
+Eine anteilige Finanzierung über Guthaben ist nicht möglich. Wenn du bereits Guthaben hast, beispielsweise weil du einen ZAP Coin Code verwendest hast, kannst du Guthaben beliebig hinzufügen. Tipp: Wenn du mit ZAP Coins bezahlst, achte auf unsere Cash In Deals: Ist der Cash In Deal aktiviert, erhältst du zusätzliches Guthaben, wenn du deine Einzahlung erhöhst.
+
+Überweisungen können verwendet werden, um ZAP Coins einzuzahlen. Sobald die Überweisung bei uns eingegangen ist, wird das Guthaben freigeschaltet und kann verwendet werden.
+:::
 
 ![image](https://user-images.githubusercontent.com/61953937/159141626-cf9deb26-fef5-4c79-967b-42f2d36b974b.png)
 

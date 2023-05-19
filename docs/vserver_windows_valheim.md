@@ -40,14 +40,18 @@ The next step will be the installation. This is done with the `app_update 896660
 
 ![image](https://user-images.githubusercontent.com/26007280/217027978-f34caa53-3c85-428e-bd06-9a55684e0279.png)
 
-> ⚠️ Please do not interrupt the process before it is completed to avoid mistakes. It may take a moment, but it's worth being patient! :)
+:::info
+Please do not interrupt the process before it is completed to avoid mistakes. It may take a moment, but it's worth being patient! :)
+:::
 
 
 Navigate to the directory where you have performed the installation and go to the following subdirectory:  **../steamapps/common/Valheim dedicated Server**/
 
 There you have to create the startup file, which is needed to execute the server software. Create a file with the following name: start_headless.bat
 
-> ⚠️ Please make sure that you have the Display file extensions option enabled so that the correct file extension is used.
+:::info
+Please make sure that you have the Display file extensions option enabled so that the correct file extension is used.
+:::
 
 Open the file, add the following content and save the newly added changes:
 

@@ -22,7 +22,9 @@ Now you should see a dark window representing the console of the server. Underne
 
 After a few seconds, the command sent should appear in the console, followed by the message "Made player a server operator", which marks the action as successful. Now the respective player has all OP-rights and can for example change the game mode.
 
-> The distribution of OP-rights is now also possible in the game itself, so that you should adjust the rights level as explained in the next step, if you wish to do so.
+:::info
+The distribution of OP-rights is now also possible in the game itself, so that you should adjust the rights level as explained in the next step, if you wish to do so.
+:::
 
 ## Rights level
 
@@ -35,7 +37,9 @@ The OP rights are divided into four levels, whereby level 4 is always set by def
 | 3 | Admin | Kicking and banning players, as well as other commands that are part of the general administration of the server. Additional operators can also be appointed. |
 | 4 | Owner | No more restrictions in place. |
 
-> By installing a permissions plugin like LuckPerms on your Bukkit/Spigot server, you can set the permissions much more specific and detailed. It is also possible to create multiple groups, which simplifies the distribution of rights.
+:::info
+By installing a permissions plugin like LuckPerms on your Bukkit/Spigot server, you can set the permissions much more specific and detailed. It is also possible to create multiple groups, which simplifies the distribution of rights.
+:::
 
 ## Assign rights level
 

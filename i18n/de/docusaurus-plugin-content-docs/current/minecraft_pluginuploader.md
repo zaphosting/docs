@@ -11,7 +11,9 @@ Hier gelangst du zu unseren Minecraft Servern: [Minecraft Server mieten](https:/
 
 Klicke auf der Serverübersicht auf deinen Minecraft Server. Wähle dann den Reiter Plugins, der sich im Unterpunkt Einstellungen befindet.
 
-> Stelle sicher, dass dein aktuelles Spiel Spigot oder Bukkit ist. Nur dort ist der Plugin Uploader verfügbar.
+:::info
+Stelle sicher, dass dein aktuelles Spiel Spigot oder Bukkit ist. Nur dort ist der Plugin Uploader verfügbar.
+:::
 
 ## Plugin installieren / hochladen
 
@@ -36,7 +38,9 @@ Hast du das Plugin in das Uploadfeld gezogen, dauert es einen Augenblick, bis si
 
 Um das Plugin nun nutzen zu können musst du deinen Server mit dem Befehl `/rl` oder `/reload` über deine Gameserver Konsole neu laden (oder den gesamten Server neu starten). 
 
-> In seltenen Fällen muss der Server einmal neugestartet werden, damit das Plugin reibungslos läuft.
+:::info
+In seltenen Fällen muss der Server einmal neugestartet werden, damit das Plugin reibungslos läuft.
+:::
 
 ## Plugin deinstallieren
 
@@ -48,7 +52,9 @@ Um ein Plugin zu deinstallieren, klicke auf die rote Mülltone neben dem Eintrag
 
 Klicke dazu hinter einem installierten Plugin auf den grünen Button mit dem Schloss. Wechselt der Button seine Farbe von grün zu orange, hast du dein Plugin deaktiviert. Andersherum aktivierst du dein Plugin wieder. Die Plugindatei befindet sich nach dem Deaktivieren weiterhin auf dem Server, wird jedoch vom Gameserver nicht mehr geladen.
 
-> Nachdem du dein Plugin deaktiviert hast, musst du den Server einmal reloaden, damit die Änderungen wirksam werden. Verwende dazu einen der beiden folgenden Befehle in deiner Gameserverkonsole oder Ingame: `/rl` oder `/reload`
+:::info
+Nachdem du dein Plugin deaktiviert hast, musst du den Server einmal reloaden, damit die Änderungen wirksam werden. Verwende dazu einen der beiden folgenden Befehle in deiner Gameserverkonsole oder Ingame: `/rl` oder `/reload`
+:::
 
 ## Häufige Probleme
 
@@ -63,7 +69,9 @@ Lösungsvorschläge:
 
 ### Mein Plugin lässt sich nicht mehr löschen.
 
-> Kontaktiere in dem Fall den Support.
+:::info
+Kontaktiere in dem Fall den Support.
+:::
 
 ### Mein Plugin lässt sich nicht deaktivieren / aktivieren.
 

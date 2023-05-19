@@ -21,13 +21,17 @@ Im Anschluss an die abgeschlossene Bestellung wird das Webspace im Zap-Hosting D
 Auf der nun geöffneten Seite sind die Login Daten einzusehen. Das Passwort wird nicht im Klartext gespeichert. Um sich dieses anzeigen zu lassen, muss man auf das "Augen" Symbol drücken.
 
 ![Bildschirmfoto vom 2022-05-13 05-16-19](https://user-images.githubusercontent.com/61953937/168204970-d1b1fef0-1ce9-46ca-8d4d-70007f1385b6.png)
-> Wenn dir das dort automatisch generierte Passwort nicht zusagt, kann dieses auf der selben Seite mit der Funktion "Passwort ändern" innerhalb von wenigen Sekunden geändert werden.
+:::info
+Wenn dir das dort automatisch generierte Passwort nicht zusagt, kann dieses auf der selben Seite mit der Funktion "Passwort ändern" innerhalb von wenigen Sekunden geändert werden.
+:::
 
 Sobald Benutzername und Passwort eingesehen werden, kann das Plesk Interface durch Betätigen der Schaltfläche "**Verwaltung öffnen**" geöffnet werden. Nach  der Weiterleitung auf das Plesk Interface müssen jetzt die vorher ersichtlichen Login Daten eingegeben werden.
 
 ![Bildschirmfoto vom 2022-05-13 05-17-21](https://user-images.githubusercontent.com/61953937/168205026-9544e888-89d2-4846-afaa-e1a0d948bec3.png)
 
-> Bei "Sprache der Oberfläche" kann die Sprache von Deutsch auf Englisch umgestellt werden, als "Standard" definierter Wert ist Deutsch gesetzt.
+:::info
+Bei "Sprache der Oberfläche" kann die Sprache von Deutsch auf Englisch umgestellt werden, als "Standard" definierter Wert ist Deutsch gesetzt.
+:::
 
 ### Domain verknüpfen
 
@@ -41,7 +45,9 @@ Bei "**Hosting Einstellungen**" kann nun bei "**Domainname**" die von Zap-Hostin
 
 Die Änderungen werden durch das Drücken der Schaltfläche "**OK**" bestätigt. 
 
-> Die Bestätigung kann etwas Zeit in Anspruch nehmen. Solltest du bei diesem Wechsel Fehler erhalten wäre eine mögliche Fehlerquelle, dass deine Domain bereits als Alias in der Domain angelegt ist. 
+:::info
+Die Bestätigung kann etwas Zeit in Anspruch nehmen. Solltest du bei diesem Wechsel Fehler erhalten wäre eine mögliche Fehlerquelle, dass deine Domain bereits als Alias in der Domain angelegt ist. 
+:::
 
 Sofern es keine Probleme bei der Änderung gegeben hat, wird dies in dem Plesk Interface bestätigt. Um diese Domain für das Webspace nutzen zu können, müssen bei der Domainverwaltung die DNS Einstellungen konfiguriert werden. 
 Wie dies bei über uns bestellten Domains geht, kann hier eingesehen werden. 

@@ -10,14 +10,18 @@ Satisfactory has a wide range of useful commands available for players to adjust
 ## Accessing the console
 Using the console within Satisfactory is very easy, simply press the ` key (backtick is located above TAB key) to cycle between console visibility. The console will either become closed, will be open with a small command window at the bottom or will be fully expanded each time you toggle.
 
-> If the backtick key doesn't work for you, follow the steps in the sub-section below to set and enable a new keybind.
+:::info
+If the backtick key doesn't work for you, follow the steps in the sub-section below to set and enable a new keybind.
+:::
 
 ### Unable to access the console
 Sometimes due to regional keyboards the default backtick activation console key may not work, thus you need to setup a new one. Before doing this, close Satisfactory if it's running.
 
 Press `Windows-Key + R` or search in your startmenu for `Run`. Next, copy the following path into it:
 
-> %LOCALAPPDATA%\FactoryGame\Saved\Config\WindowsNoEditor
+:::info
+%LOCALAPPDATA%\FactoryGame\Saved\Config\WindowsNoEditor
+:::
 
 Open up the `Input.ini` file with a text editor (such as notepad).
 
@@ -41,7 +45,9 @@ An example of using the `?` to view all commands can be viewed below.
 
 ![Screenshot 2023-02-22 015435](https://user-images.githubusercontent.com/42719082/220500871-e1ea0303-718d-4552-9173-3ea2f66669f2.png)
 
-> Any command which is mentioned on this page is for vanilla Satisfactory.
+:::info
+Any command which is mentioned on this page is for vanilla Satisfactory.
+:::
 
 | Command Syntax                  | Accepted Values | Description | 
 | ----------------------- | ---------- | --------- | 

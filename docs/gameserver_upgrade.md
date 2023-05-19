@@ -34,7 +34,9 @@ For gameservers, it is possible to move them between different locations.
 
 ![image](https://user-images.githubusercontent.com/26007280/189680537-1f4ad9b3-2906-423b-b45c-6bb03bc9f627.png)
 
-> **Important** This process can cause data loss, make sure you have a backup of your data at all times!
+:::info
+**Important** This process can cause data loss, make sure you have a backup of your data at all times!
+:::
 
 If a move is desired, simply click on the corresponding location to select it.
 
@@ -52,7 +54,9 @@ Below you will find some more parameters, in our example of a FiveM server the s
 
 * IP Address: If you need a constant IP which will not change again as long as the product exists, you need this option.
 
-> ⚠ The own IP address is not to be confused with a domain, an own IP is also randomly assigned and cannot be modified.
+:::info
+⚠ The own IP address is not to be confused with a domain, an own IP is also randomly assigned and cannot be modified.
+:::
 
 ### Payment
 
@@ -70,4 +74,6 @@ Choose the payment method of your choice and finish the upgrade process by click
 
 It will now take a small moment for your upgrade to be posted, this is usually available to you within a few seconds.
 
-> A restart of your product is usually necessary to apply the new specifications.
+:::info
+A restart of your product is usually necessary to apply the new specifications.
+:::

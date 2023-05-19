@@ -67,7 +67,9 @@ Moreover, you can customize the protection provided that you have booked your ow
 
 These customization options allow you to adjust the DDoS protection to your individual needs and thus increase the security of your server.
 
-> ⚠️ The use of the DDoS Manager is only possible if either an own IP address or the option "DDoS Manager Overview" has been booked as an additional option. If these components are missing from your current package, you can add them at any time by upgrading.
+:::info
+The use of the DDoS Manager is only possible if either an own IP address or the option "DDoS Manager Overview" has been booked as an additional option. If these components are missing from your current package, you can add them at any time by upgrading.
+:::
 
 
 
@@ -77,7 +79,9 @@ Is a technical problem occurring and you are unsure about its cause? A first pos
 
 Error messages in particular can help to identify and better understand the cause of a problem. Often, difficulties can be uncovered and resolved by taking a targeted look at the log files.
 
-> ⚠️ The information found there does not help or you do not understand it? Don't worry! In this case, we are also daily available in support. Just create a **[Ticket](https://zap-hosting.com/en/customer/support/)** and explain your problem to us. We will look at it as quickly as possible and help you to solve the problem accordingly! :)
+:::info
+The information found there does not help or you do not understand it? Don't worry! In this case, we are also daily available in support. Just create a **[Ticket](https://zap-hosting.com/en/customer/support/)** and explain your problem to us. We will look at it as quickly as possible and help you to solve the problem accordingly! :)
+:::
 
 
 
@@ -140,7 +144,9 @@ The config file editor allows you to edit the configuration files directly from 
 
 By using the editor, you get direct access to all available options and can customize them precisely. This is especially useful for advanced users who want full control over their server settings and know exactly what changes they want to make.
 
-> ⚠️ Have you noticed that some of your changes are partially overwritten? Please be aware that certain option values are taken from the settings page. If you want to make these changes directly in the config, you must first disable the relevant options on the settings page.
+:::info
+Have you noticed that some of your changes are partially overwritten? Please be aware that certain option values are taken from the settings page. If you want to make these changes directly in the config, you must first disable the relevant options on the settings page.
+:::
 
 
 

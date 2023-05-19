@@ -25,7 +25,9 @@ Afterwards you navigate through the installation process by clicking on **Next**
 
 There you can define the master password for the access to your database server. Please make sure that you use a secure password which no one else knows!
 
-> ⚠️ IMPORTANT! If you want to access the database externally via Navicat, HeidiSQL or any other tool you have to activate the option **Enable access from remote machins for root user**! For security reasons this is generally not recommended.
+:::info
+IMPORTANT! If you want to access the database externally via Navicat, HeidiSQL or any other tool you have to activate the option **Enable access from remote machins for root user**! For security reasons this is generally not recommended.
+:::
 
 Afterwards you click on **Next** until you reach the end of the installation, there you then have to click on **Install**:
 

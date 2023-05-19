@@ -26,7 +26,9 @@ Nachdem die Resource entpackt wurde, sollte darin nun eine resource.cfg und Scri
 ![image](https://user-images.githubusercontent.com/13604413/169707329-52aaa6ab-2de2-48ac-9c45-3a5d95968edc.png)
 
 
-> Wenn dies nicht der Fall ist, befinden sich diese ggf. in einem Unterordner, meist mit dem gleichen Namen.
+:::info
+Wenn dies nicht der Fall ist, befinden sich diese ggf. in einem Unterordner, meist mit dem gleichen Namen.
+:::
 
 ## Resourcen hochladen
 
@@ -44,7 +46,9 @@ Unter den restlichen Starteinträgen für Ressourcen kann nun der Eintrag für u
 
 ![image](https://user-images.githubusercontent.com/13604413/169707378-85eb7c30-aba5-4b17-8b5f-4ed931aee14d.png)
 
-> Beachte: Es muss nach jeder Zeile in dieser liste, außer bei der letzten, ein Komma stehen.
+:::info
+Beachte: Es muss nach jeder Zeile in dieser liste, außer bei der letzten, ein Komma stehen.
+:::
 
 
 Danach kann der Server neugestartet werden und die Resource sollte ingame erscheinen!

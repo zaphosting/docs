@@ -17,7 +17,9 @@ Once there, enter your Steam profile URL in the field, which you have copied, an
 
 ![image](https://user-images.githubusercontent.com/26007280/190596127-d35f62f3-ef68-4d3d-b1fe-d0cbb3522276.png)
 
-> If you are planning to assign admin permissions to multiple players, then the SteamIDs must have their own line for each player. 
+:::info
+If you are planning to assign admin permissions to multiple players, then the SteamIDs must have their own line for each player. 
+:::
 
 ### Activate permissions
 

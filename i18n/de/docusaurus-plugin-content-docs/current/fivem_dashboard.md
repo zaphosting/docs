@@ -26,7 +26,9 @@ Unter der Admin Liste können neue SteamIds eingefügt werden, diese werden z. B
 ![image](https://user-images.githubusercontent.com/13604413/159137399-35aa9522-5cce-4fee-80f9-07756822cdbd.png)
 
 
-> Du kannst deine SteamID64 über das SteamID Lookup Tool herausfinden, dieser kann dir auch die SteamID von anderen Spielern Anzeigen.
+:::info
+Du kannst deine SteamID64 über das SteamID Lookup Tool herausfinden, dieser kann dir auch die SteamID von anderen Spielern Anzeigen.
+:::
 
 ### 🇺🇲 Spracheinstellungen
 
@@ -35,7 +37,9 @@ Unter den Dunko VRP/ESX Einstellungen können die Sprachen welche im Spiel angez
 ![image](https://user-images.githubusercontent.com/13604413/159137405-7ddcca86-ef41-427a-9563-ee4723b8a95a.png)
 
 
-> Diese Einstellung kann auch leer gelassen werden, dann wird keine Sprache gesetzt.
+:::info
+Diese Einstellung kann auch leer gelassen werden, dann wird keine Sprache gesetzt.
+:::
 
 ### Rcon Passwort
 
@@ -64,4 +68,6 @@ Unter dem Resources Reiter können vorgefertigte FiveM Resourcen installiert wer
 
 ![image](https://user-images.githubusercontent.com/13604413/159137465-84468939-7796-489d-ab89-5c5f160996d9.png)
 
-> Erzwinge Überschreiben muss zum Editieren der Scripts deaktiviert werden, sonst werden alle änderungen mit der offiziellen version überschrieben.
+:::info
+Erzwinge Überschreiben muss zum Editieren der Scripts deaktiviert werden, sonst werden alle änderungen mit der offiziellen version überschrieben.
+:::

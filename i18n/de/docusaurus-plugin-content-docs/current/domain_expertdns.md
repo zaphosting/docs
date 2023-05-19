@@ -18,7 +18,9 @@ Die Option wird in der Domainverwaltungsseite angezeigt. Standardmäßig wäre d
 Sobald aktiviert, können dort nun weitere Nameserver eingetragen werden. 
 Bestätigt werden die Änderungen mit "**Speichern**".
 
-> Hierbei müssen valide Nameserver gewählt werden wo die Domain auch bereits eingetragen wurde
+:::info
+Hierbei müssen valide Nameserver gewählt werden wo die Domain auch bereits eingetragen wurde
+:::
 
 ![2022-05-07_22-01_1](https://user-images.githubusercontent.com/61953937/167270046-f293eef8-905f-4efd-ae0f-0d79f88dfb86.png)
 

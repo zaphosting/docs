@@ -9,7 +9,9 @@ sidebar_label: Verwendung von Logo und Name
 
 Generell unterstützen wir Ideen und kreative Konzepte, die auf Grundlage der Brand Assets von ZAP-Hosting (d.h. ZAP-Hosting's Marken, Logos, Handelsaufmachungen, Webseiten, urheberrechtlich geschützte Designs, Originalinhalten oder andere Brand Assets) basieren. Jedoch sind wir verpflichtet, unseren Ruf und unsere Markenidentität zu schützen.
 
-> Die von uns gestatteten Logos findest du [hier in weiß](https://zap-hosting.com/interface/_images/logo/zap-logo-1920x1080-hd-trans-white.png) und [hier in schwarz](https://zap-hosting.com/interface/_images/logo/zap-logo-1920x1080-hd-trans-black.png)
+:::info
+Die von uns gestatteten Logos findest du [hier in weiß](https://zap-hosting.com/interface/_images/logo/zap-logo-1920x1080-hd-trans-white.png) und [hier in schwarz](https://zap-hosting.com/interface/_images/logo/zap-logo-1920x1080-hd-trans-black.png)
+:::
 
 Durch die Verwendung von Brand Assets von ZAP-Hosting erklären Sie sich damit einverstanden, diese Richtlinien, die Nutzungsbedingungen von ZAP-Hosting und alle anderen Regeln und Richtlinien von ZAP-Hosting (auch individuell besprochene Sonderkonditionen und Ausnahmeregelungen) zu achten und zu befolgen. 
 

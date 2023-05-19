@@ -609,7 +609,9 @@ Dieser Befehl bestimmt den zu verwendenden RCON Port mit dem du dich per RCON-Ko
 
 Dieser Befehl bestimmt, in welchem Abstand (in Minuten) der Server automatisch speichern soll.
 
-> Dieser Wert ist auf 30 Minuten gesetzt und kann nicht verändert werden. 
+:::info
+Dieser Wert ist auf 30 Minuten gesetzt und kann nicht verändert werden. 
+:::
 
 | Datentyp | Standardwert | Wertebereich |
 | :------: | :----------: | :----------: |
@@ -872,4 +874,6 @@ OverridePlayerLevelEngramPoints=50
 Die Anzahl der Befehlszeilen hängt generell von der vorher definierten Levelgrenze ab. 
 
 
-> Ark ist ein schnelllebiges Spiel und bringt daher auch in regelmäßigen Abständen viele Änderungen mit sich. Das betrifft ebenfalls die Konfiguration eines Servers. Wir empfehlen daher einen Blick in die offizielle Dokumentation für weitere und ausführlichere Informationen zu werfen: https://ark.fandom.com/wiki/Server_configuration
+:::info
+Ark ist ein schnelllebiges Spiel und bringt daher auch in regelmäßigen Abständen viele Änderungen mit sich. Das betrifft ebenfalls die Konfiguration eines Servers. Wir empfehlen daher einen Blick in die offizielle Dokumentation für weitere und ausführlichere Informationen zu werfen: https://ark.fandom.com/wiki/Server_configuration
+:::

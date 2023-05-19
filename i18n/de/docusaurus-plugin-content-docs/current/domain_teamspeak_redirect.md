@@ -5,7 +5,9 @@ description: Informationen wie du eine Weiterleitung von einer Domain auf einen 
 sidebar_label: Domain TeamSpeak 3 Weiterleitung
 ---
 
-> Bitte beachte dass es immer bis zu 24 Stunden dauern kann bis Änderungen an DNS Einträgen aktiv werden!
+:::info
+Bitte beachte dass es immer bis zu 24 Stunden dauern kann bis Änderungen an DNS Einträgen aktiv werden!
+:::
 
 ## Domain auf TeamSpeak 3 Server weiterleiten
 
@@ -60,7 +62,9 @@ Das Feld **TTL** kannst du unberührt lassen.
 Wenn du alles eingetragen hast klickst du auf **Speichern**, der Eintrag wird dann in den DNS Einstellungen hinterlegt und wird innerhalb
 von 24 Stunden erreichbar.
 
-> Es kann immer bis zu 24 Stunden dauern bis neue DNS Einträge aktiv werden. Darauf hat leider niemand Einfluss.
+:::info
+Es kann immer bis zu 24 Stunden dauern bis neue DNS Einträge aktiv werden. Darauf hat leider niemand Einfluss.
+:::
 
 ## Weiterleitung der Domain mit Subdomain
 
@@ -94,7 +98,9 @@ Der Wert **0** ist nicht weiter relevant und bleibt immer gleich. Das Feld **TTL
 
 Danach kannst du auf **Speichern** klicken.
 
-> Wichtig ist, dass im Feld **Wert** am Ende der Domain ein **Punkt** gesetzt wird!
+:::info
+Wichtig ist, dass im Feld **Wert** am Ende der Domain ein **Punkt** gesetzt wird!
+:::
 
 
 ### Weiterleitung mit Subdomain

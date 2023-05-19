@@ -36,7 +36,9 @@ Dies ist daher wahrscheinlicher in einem Forum über Server und Serverprovider a
 Um einen Link einzureichen, klicke in der Übersicht auf der "[Community Werbung](https://zap-hosting.com/de/customer/communityads/)"
 Dort kann nun bei "**Deine Links**" auf das grüne "**+**" Icon geklickt werden, um einen Link einzureichen.
 
-> Dieser Link muss ein Direktverweis auf die eigens erstellte Werbung sein. Sollte bei dem Link keine Werbung ersichtlich sein wird diese abgelehnt.
+:::info
+Dieser Link muss ein Direktverweis auf die eigens erstellte Werbung sein. Sollte bei dem Link keine Werbung ersichtlich sein wird diese abgelehnt.
+:::
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/5R8BK9BzSAiNcwc/preview)
 

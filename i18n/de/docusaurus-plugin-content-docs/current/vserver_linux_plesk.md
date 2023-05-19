@@ -7,7 +7,9 @@ sidebar_label: Plesk
 
 ## Plesk installieren
 
-> Führe vor dem Install apt update und apt upgrade aus, damit auf dem Server die neusten Pakete installiert sind. 
+:::info
+Führe vor dem Install apt update und apt upgrade aus, damit auf dem Server die neusten Pakete installiert sind. 
+:::
 Plesk kann aktuell nur auf Debian 9 (Strech), Debian 10 (Buster), Ubuntu 18.04 (Bionic Beaver), Ubuntu 20.04 (Focal Fossa), CentOS 7/8, Red Hat Enterprise Linux 7.x/8.x, CloudLinux 7.1+/8, AlmaLinux OS, Rocky Linux 8.x und Virtuozzo Linux 7 installiert werden. Die Architektur muss 64 Bit sein.
 
 Die Verbindung zum Server kann zum Beispiel via Putty erfolgen.
@@ -29,15 +31,21 @@ Damit Plesk sich voll automatisch mit den Standardkomponenten sowie Funktionen i
 sh <(curl https://autoinstall.plesk.com/one-click-installer || wget -O - https://autoinstall.plesk.com/one-click-installer)
 ```
 
-> Sollte dieser Fehler angezeigt werden: "-bash: curl: command not found" so muss mit `apt install curl` das Paket nachgeladen werden.
+:::info
+Sollte dieser Fehler angezeigt werden: "-bash: curl: command not found" so muss mit `apt install curl` das Paket nachgeladen werden.
+:::
 
 Sobald dieser Befehl ausgeführt wurde, dauert es in der Regel zwischen 15 und 60 Minuten bis Plesk vollständig installiert ist.
 
-> Die SSH Sitzung darf nicht geschlossen werden solange der Installer noch aktiv ist. Dies würde sonst zum Abbruch führen. 
+:::info
+Die SSH Sitzung darf nicht geschlossen werden solange der Installer noch aktiv ist. Dies würde sonst zum Abbruch führen. 
+:::
 Ebenfalls müsste der Server anschließend neu installiert werden, damit der Installer erneut gestartet werden kann. 
 Wird der Installer erneut gestartet ohne vorherigen Reinstalls des Servers, so wird es bei der Installation, spätestens jedoch im Plesk Panel selber Probleme mit nicht funktionierenden Features geben. 
 
-> Es kann passieren das es so aussieht als ob der Installer "stecken" geblieben ist, in 99% der Fälle läuft dieser nach wenigen Minuten weiter, da er erst noch Pakete/Configs und co. konfigurieren muss, benötigt dieser die Zeit.
+:::info
+Es kann passieren das es so aussieht als ob der Installer "stecken" geblieben ist, in 99% der Fälle läuft dieser nach wenigen Minuten weiter, da er erst noch Pakete/Configs und co. konfigurieren muss, benötigt dieser die Zeit.
+:::
 
 
 Die Installation ist abgeschlossen, sobald dies angezeigt wird
@@ -126,7 +134,9 @@ Nachdem der Installer gestartet wurde, wird die Installation im Browser vorgenom
 
 ## Das Plesk Webpanel 
 
-> Es wird beim Aufruf des Webpanels folgendes angezeigt: "Dies ist keine sichere Verbindung". Das muss beim ersten mal bestätigt werden, anschließend öffnet sich die Seite. 
+:::info
+Es wird beim Aufruf des Webpanels folgendes angezeigt: "Dies ist keine sichere Verbindung". Das muss beim ersten mal bestätigt werden, anschließend öffnet sich die Seite. 
+:::
 
 Das Webinterface kann über https://IP:8443 oder https://Domain.xx:8443 des Servers erreicht werden. Die Login Daten lauten root/admin und das aktuelle Root Password. Alternativ kann einfach einer der angezeigten URLs genutzt werden, sollten diese nicht mehr gültig sein, kann einfach mit dem Befehl ```plesk login``` neue URLs erstellt werden. 
 
@@ -153,15 +163,20 @@ Nun kann die eigene Domain eingetragen werden. Ebenfalls muss eine IP sowie ein 
 
 ![](https://user-images.githubusercontent.com/61839701/166189232-20770ac9-0b4c-4c6a-83f2-f2db3fead20c.png)
 
-> Die Domain muss auf die IP des Webspaces zeigen, liegt die Domain bei ZAP-Hosting, kann diese via EasyDNS einfach auf den Webspace geleitet werden, liegt sie extern so muss ein A-Record auf die IP gesetzt werden sowie die Subdomain "www", "webmail" müssen ebenfalls auf die IP zeigen. Ein MX Record sollte auch auf die IP des Webspaces angelegt werden. 
+:::info
+Die Domain muss auf die IP des Webspaces zeigen, liegt die Domain bei ZAP-Hosting, kann diese via EasyDNS einfach auf den Webspace geleitet werden, liegt sie extern so muss ein A-Record auf die IP gesetzt werden sowie die Subdomain "www", "webmail" müssen ebenfalls auf die IP zeigen. Ein MX Record sollte auch auf die IP des Webspaces angelegt werden. 
 
-> Es kann bis zu 24 Stunden dauern, bis ein neuer/geänderter DNS Eintrag auf das richtige Ziel weiterleitet. 
+
+Es kann bis zu 24 Stunden dauern, bis ein neuer/geänderter DNS Eintrag auf das richtige Ziel weiterleitet. 
+:::
 
 ## SSL Verschlüsselung
 
 Bei der Domain Eintragung/Erstellung vom Webspace wurde bereits ein SSL Zertifikat von Lets Encrypt mit generiert, dies kann nun unter "Hosting Einstellungen" der Domain, eingetragen/ausgewählt werden. Anschließen muss es mit einem Klick auf "Übernehmen" bestätigen.
 
-> Damit dauerhaft auf HTTPS (SSL) geleitet wird beim Aufruf der Webseite muss das Häkchen bei "Dauerhafte, für SEO geeignete 301-Weiterleitung von HTTP zu HTTPS" gesetzt werden. 
+:::info
+Damit dauerhaft auf HTTPS (SSL) geleitet wird beim Aufruf der Webseite muss das Häkchen bei "Dauerhafte, für SEO geeignete 301-Weiterleitung von HTTP zu HTTPS" gesetzt werden. 
+:::
 
 ![](https://user-images.githubusercontent.com/61839701/166189406-3091cb91-c590-41aa-855c-c89170647e2c.png)
 
@@ -169,4 +184,6 @@ Wird nun die Domain im Browser geöffnet, so zeigt diese ihre Verschlüsslung an
 
 ![](https://user-images.githubusercontent.com/61839701/166189426-946bcad0-584d-4139-9ccb-6770b39d4132.png)
 
-> Die Installation sowie der Einrichtung der ersten Domain mit Verschlüsslung ist nun vollständig abgeschlossen. 
+:::info
+Die Installation sowie der Einrichtung der ersten Domain mit Verschlüsslung ist nun vollständig abgeschlossen. 
+:::

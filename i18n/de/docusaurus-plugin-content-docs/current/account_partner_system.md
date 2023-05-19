@@ -27,7 +27,9 @@ Wichtig ist, dass dein Kanal eine bestimmte Mindestreichweite hat und deine Ziel
 
 Als Partner solltest du eine bestimmte Reichweite mitbringen, damit eine Partnerschaft sich auch für uns sinvoll erscheint. Bei Videokanälen achten wir beispielsweise vor allem darauf, wie hoch die Anzahl der Videoaufrufe in den letzten Monaten war, bei Foren auf Mitgliederanzahl und ob regelmäßig Beiträge erstellt werden.
 
-> Als Faustregel sollte deine Reichweite im vierstelligen Bereich liegen, um als Partner akzeptiert zu werden.
+:::info
+Als Faustregel sollte deine Reichweite im vierstelligen Bereich liegen, um als Partner akzeptiert zu werden.
+:::
 
 ## ➕ Was sind die Vorteile?
 

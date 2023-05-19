@@ -24,11 +24,15 @@ Da wir wissen, wie durchdacht einige Kanal-Brandings unserer Influencer sind, m�
 
 Hier ein paar Beispiele, wie ihr Bot-Timer, Videobeschreibungen und Shoutouts gestalten könntet:
 
-> Dein eigener Server wartet! Jetzt bei ZAP-Hosting.com deinen Traumserver erstellen: (DEIN LINK) #Werbung
+:::info
+Dein eigener Server wartet! Jetzt bei ZAP-Hosting.com deinen Traumserver erstellen: (DEIN LINK) #Werbung
 
-> Leistungsstarke Gameserver, Rootserver und Domains! Sofort online! Jetzt bei meinem Partner ZAP-Hosting.com (DEIN LINK) #Werbung
 
-> Server zur Verfügung gestellt von meinem Partner in Sachen Gameserver, Rootserver und Domains: (DEIN LINK) #Werbung
+Leistungsstarke Gameserver, Rootserver und Domains! Sofort online! Jetzt bei meinem Partner ZAP-Hosting.com (DEIN LINK) #Werbung
+
+
+Server zur Verfügung gestellt von meinem Partner in Sachen Gameserver, Rootserver und Domains: (DEIN LINK) #Werbung
+:::
 
 ## Die Partner-Ränge
 Sobald du dich auf ZAP-Hosting.com eingeloggt hast, wirst du in der Kopfzeile als ZAP-Partner zwei Veränderungen feststellen: Erstens glänzt nun ein Ring um dein Avatarbild, der deinen Rang als Partner darstellt und zweitens ist ein Sternn neben deinem Avatar aufgetaucht, der dich zum **Partner Menü** führt.
@@ -77,7 +81,9 @@ Im Gegensatz hierzu stehen die Links, die über den Generator in der Rubrik **Fr
 
 Da wird unseren Partner jedoch teils Produkte im Wert von mehreren hundert Euro kostenfrei zur Verfügung stellen, **untersagen wir die Nutzung von "Freunde werben"-Links erstmal allen Partnern, sofern nicht anders vereinbart!**
 Erst nach einer persönlichen Absprache ist es einzelnen Partnern gestattet auch diese *Affiliate Links* zu nutzen.
-> Erfahrungen zeigen, dass aktive Partner des Gold-Ranges durchaus häufig unsere Erlaubnis erhalten zusätzlich zu den gesponserten Servern und Produkten Affiliate Links zu nutzen.
+:::info
+Erfahrungen zeigen, dass aktive Partner des Gold-Ranges durchaus häufig unsere Erlaubnis erhalten zusätzlich zu den gesponserten Servern und Produkten Affiliate Links zu nutzen.
+:::
 
 ## Ambitioniert sein ist der Schlüssel
 Mal ganz unter uns: Wir sind eine junge Firma und auch wir feiern außergewöhliche Ideen und unkomplizierte Kommunikation. Solltest du also eine außergewöhnliche Idee für ein Event oder eine Promo-Aktion haben, **dann nimm gern Kontakt mit deinem Partner Manager auf!** Wir helfen dir gern diese Idee umzusetzen und unterstützen dich ggf. auch mit Hardware, Giveaway-Produkten und Gutscheinen. Wir schätzen aktives Handeln unserer Partner sehr und wünschen und vor allem Partner, die aus eigenem Antrieb kreativ die Partnerschaft pflegen. Partner, die sich unser Logo in die Beschreibung kleben und inaktiv kostenfreie Server genießen werden wir nicht langfristig in unserem Repertoir führen.

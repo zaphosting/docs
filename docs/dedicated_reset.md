@@ -38,4 +38,6 @@ There you will see how the server automatically executes the process and how far
 
 
 
-> ⚠️ Important: This process cannot be undone and is therefore final. There are no additional backups that can be imported in case of need. We therefore advise you not to perform this process unless you are absolutely sure that you want to delete your data. 
+:::info
+Important: This process cannot be undone and is therefore final. There are no additional backups that can be imported in case of need. We therefore advise you not to perform this process unless you are absolutely sure that you want to delete your data. 
+:::

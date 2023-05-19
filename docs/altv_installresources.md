@@ -24,7 +24,9 @@ After the resource has been unpacked, it should now contain a resource.cfg and s
 
 ![image](https://user-images.githubusercontent.com/13604413/169707329-52aaa6ab-2de2-48ac-9c45-3a5d95968edc.png)
 
-> If this is not the case, they may be in a subfolder, usually with the same name.
+:::info
+If this is not the case, they may be in a subfolder, usually with the same name.
+:::
 
 ## Upload Resources
 
@@ -41,7 +43,9 @@ Under the remaining start entries for resources you can now add the entry for ou
 
 ![image](https://user-images.githubusercontent.com/13604413/169707378-85eb7c30-aba5-4b17-8b5f-4ed931aee14d.png)
 
-> Note: There must be a comma after each line in this list, except the last one.
+:::info
+Note: There must be a comma after each line in this list, except the last one.
+:::
 
 
 Then the server can be restarted and the resource should appear ingame!

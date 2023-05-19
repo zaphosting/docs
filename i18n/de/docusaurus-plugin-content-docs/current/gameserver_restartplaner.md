@@ -10,7 +10,9 @@ sidebar_label: Restartplaner
 Bei dem Restartplaner handelt es sich um eine bei Gameservern angebotene Funktion.
 Mit dieser kann im Vorfeld ein automatischer Restart erstellt, damit der Server täglich zur selben Zeit automatisch neugestartet werden kann.
 
-> Diese Funktion ist nur für Gameserver eingebunden
+:::info
+Diese Funktion ist nur für Gameserver eingebunden
+:::
 
 Auffinden kann man diese Funktion daher in dem Gameserver Interface von dem bestellten Gameserver.
 
@@ -18,7 +20,9 @@ Auffinden kann man diese Funktion daher in dem Gameserver Interface von dem best
 
 ## Neue Einträge erstellen
 
-> ***Hinweis:*** Die Änderungen vom Restartplaner werden nur bei einem Serverneustart übernommen. Nach Fertigstellung aller gewünschten automatischen Neustarts, sollte der Server einmal gestoppt und wieder gestartet werden.
+:::info
+Die Änderungen vom Restartplaner werden nur bei einem Serverneustart übernommen. Nach Fertigstellung aller gewünschten automatischen Neustarts, sollte der Server einmal gestoppt und wieder gestartet werden.
+:::
 Alternativ können die Änderungen auch direkt bei gestopptem Server durchgeführt werden, diese wären dann nach einem Start aktiv.
 
 Um einen automatischen Neustart einzutragen, muss auf das graue "**+**" Icon geklickt werden

@@ -7,7 +7,9 @@ sidebar_label: Savegames Verwalten
 
 ## Savegames herunterladen
 
-> Beachte: Vor dem Herunterladen des Savegames muss der Server gestoppt werden, damit das aktive Savegame gespeichert wird, nachdem der Server gestoppt wurde, wird das Savegame nach dem neu laden der Seite auftauchen.
+:::info
+Beachte: Vor dem Herunterladen des Savegames muss der Server gestoppt werden, damit das aktive Savegame gespeichert wird, nachdem der Server gestoppt wurde, wird das Savegame nach dem neu laden der Seite auftauchen.
+:::
 
 Um dein Savegame herunterladen zu können, kannst du den `Savegame-Manager` im Webinterface nutzen:
 
@@ -17,7 +19,9 @@ Hier kannst du dein Savegame ganz einfach über den grünen "Download" Button he
 
 ![image](https://user-images.githubusercontent.com/26007280/189886651-8a74d1bf-53d7-4d14-a570-bd6df65ba252.png)
 
-> Beachte, dass du die `.db` **und** `.fwl` Dateien runterladen musst.
+:::info
+Beachte, dass du die `.db` **und** `.fwl` Dateien runterladen musst.
+:::
 
 Fertig! Du kannst das Backup nun anderweitig nutzen, oder später wieder hochladen.
 
@@ -30,7 +34,9 @@ Hier können wir nun unser eigenes Savegame per Drag&Drop hochladen, dies sollte
 
 ![image](https://user-images.githubusercontent.com/26007280/189886675-44c0ed35-2eee-4501-a0c1-6702ce672d11.png)
 
-> Beachte, dass dein Savegame genauso heißen sollte, wie es vom Spiel erstellt wurde.
+:::info
+Beachte, dass dein Savegame genauso heißen sollte, wie es vom Spiel erstellt wurde.
+:::
 
 In Unseren fall heißen die Backup-Dateien `380622.fwl` und `380622.db`.
 

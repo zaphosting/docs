@@ -48,7 +48,9 @@ On the homepage of the keymaster we can now see our new key:
 
 ## Configure Key
 
-> ⚠️ on txAdmin servers the key must be defined in server.cfg at sv_licensekey!
+:::info
+on txAdmin servers the key must be defined in server.cfg at sv_licensekey!
+:::
 
 Now we open the settings of our game server and scroll down, here we can enter our own key under "Own license key (optional)", the final result should look like this.
 

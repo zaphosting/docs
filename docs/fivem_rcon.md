@@ -33,9 +33,12 @@ The rcon password can alternatively also be set directly via the server config. 
 rcon_password "DeinWunschRconPasswort"
 ```
 
-> To manage it via the server config, the option of the rcon field must first be deactivated under the settings. 
+:::info
+To manage it via the server config, the option of the rcon field must first be deactivated under the settings. 
 
-> **txAdmin:** The definition of the rcon password is only possible via the server config for txAdmin.
+
+**txAdmin:** The definition of the rcon password is only possible via the server config for txAdmin.
+:::
 
 ### Usage
 

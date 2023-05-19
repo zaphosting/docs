@@ -13,7 +13,9 @@ Often it is simple configuration errors which causes this problem, first we shou
 
 ![image](https://user-images.githubusercontent.com/13604413/159138135-be595288-7548-47f6-aef9-877b9cdb06af.png)
 
-> This line should **always** be commented out with a #, if this is not the case, the server will not be listed.
+:::info
+This line should **always** be commented out with a #, if this is not the case, the server will not be listed.
+:::
 
 
 Also the server name (`sv_hostname`) should be checked:
@@ -32,4 +34,6 @@ It is also possible that resources prevent the server from being listed, in this
 
 If none of this helps, a fresh install is recommended, this will reset all server files to default.
 
-> Be sure to make a backup before reinstalling, otherwise the data on the server will be lost.
+:::info
+Be sure to make a backup before reinstalling, otherwise the data on the server will be lost.
+:::

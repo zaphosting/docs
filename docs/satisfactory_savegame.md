@@ -11,7 +11,9 @@ sidebar_label: Savegame Manager
 You can easily modify savegames through our interface. With only a few clicks you can manage your savegames including uploading and restoring.
 Navigate to `Savegame Manager` in your server's dashboard. 
 
-> Note: Your server is saves in 5 minute increments automatically and will always keep the last 6 autosaves.
+:::info
+Note: Your server is saves in 5 minute increments automatically and will always keep the last 6 autosaves.
+:::
 
 ## Downloading your Savegame
 
@@ -27,7 +29,9 @@ Scroll down and near the bottom of the page, you will see your active savegames 
 It is very easy to use your own savegame by using the Savegame Uploader section of the Savegame Manager.
 However, firstly you must find the savegame on your own computer.
 
-> It is sometimes possible that your inventory may not save correctly, so ensure to move them into chests and saving before continuing.
+:::info
+It is sometimes possible that your inventory may not save correctly, so ensure to move them into chests and saving before continuing.
+:::
 
 Press `Windows-Key + R` and copy this path in there: `%LOCALAPPDATA%\FactoryGame\Saved\SaveGames\`
 Now you are in the SaveGames folder for your Satisfactory game. Now press the folder which has alot of numbers (green on the screenshot).
@@ -39,7 +43,9 @@ You should be able to identify the savegame by checking their file name, date, t
 
 ![Screenshot 2023-02-04 004903](https://user-images.githubusercontent.com/42719082/216736126-9ead16f1-1f81-410c-8271-fdb915fac348.png)
 
-> Optional: We recommend to remove everything except the name of the savegame itself to make it easier to identify in the future. In this example the savegame would be named "Factory".
+:::info
+Optional: We recommend to remove everything except the name of the savegame itself to make it easier to identify in the future. In this example the savegame would be named "Factory".
+:::
 
 Upload now your file through the Savegame Manager by dragging & dropping to your server:
 
@@ -55,7 +61,9 @@ Now the next time you start the server now, the savegame will be loaded.
 If you'd like to modify your savegame, as example to cheat, editing your savegame is the only way to do that.
 You could use [the Satisfactory Save Editor tool](https://github.com/Goz3rr/SatisfactorySaveEditor).
 
-> We cannot guarantee full functionality of the tool as it's an open-source project. 
+:::info
+We cannot guarantee full functionality of the tool as it's an open-source project. 
+:::
 
 Download the Savegame from your Savegame-Manager and open it in the Savegame Editor (File > Open Recent)
 

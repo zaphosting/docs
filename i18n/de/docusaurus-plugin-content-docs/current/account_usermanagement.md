@@ -57,7 +57,9 @@ Zunächst muss eine Benutzergruppe angelegt werden, damit im Anschluss die Unter
 ![image](https://user-images.githubusercontent.com/13604413/159166187-55a3ff5e-1b7c-490f-b3b8-988a2713d0e7.png)
 
   
-> ⚠️ Es muss eine E-Mail Adresse angegeben werden, welche noch nicht für die Registrierung eines ZAP-Hosting Accounts benutzt wurde. 
+:::info
+Es muss eine E-Mail Adresse angegeben werden, welche noch nicht für die Registrierung eines ZAP-Hosting Accounts benutzt wurde. 
+:::
 
 
 

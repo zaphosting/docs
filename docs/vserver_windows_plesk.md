@@ -38,4 +38,6 @@ Correctly in this directory, the last step would be the execution of the install
 
 Command: `plesk-installer.exe --select-product-id=panel --select-release-latest --installation-type=recommended`
 
-> ⚠️ The installation process can take 30 to 60 minutes, after which Plesk would be installed and ready to use.
+:::info
+The installation process can take 30 to 60 minutes, after which Plesk would be installed and ready to use.
+:::

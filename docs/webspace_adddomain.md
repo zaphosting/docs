@@ -21,13 +21,17 @@ The login data can be viewed on the now open page. The password is not saved in 
 
 ![Bildschirmfoto vom 2022-05-13 05-16-48](https://user-images.githubusercontent.com/61953937/168205286-a8406dc2-49b3-4905-a166-9101d92de1fd.png)
 
-> If you don't like the automatically generated password, you can change it on the same page using the "Change password" button directly.
+:::info
+If you don't like the automatically generated password, you can change it on the same page using the "Change password" button directly.
+:::
 
 As soon as the user name and password are viewed, the Plesk interface can be opened by pressing the "**Open Administration Button**" button. After being forwarded to the Plesk interface, the previously visible login data must now be entered.
 
 ![Bildschirmfoto vom 2022-05-13 05-17-21](https://user-images.githubusercontent.com/61953937/168205270-a528dac8-e2cd-4516-87f6-4908017e47fa.png)
 
-> The language of the user interface can be changed from German to English, the value defined as "Standard" is German.
+:::info
+The language of the user interface can be changed from German to English, the value defined as "Standard" is German.
+:::
 
 ### Link domain
 
@@ -41,7 +45,9 @@ In "**Add Domain**", you can enter your domain url directly and choose your desi
 
 The changes are confirmed by pressing the "**OK**" button. 
 
-> Confirmation may take some time. If you get errors during this change, a possible source of error would be that your domain is already created as an alias in the domain.
+:::info
+Confirmation may take some time. If you get errors during this change, a possible source of error would be that your domain is already created as an alias in the domain.
+:::
 
 If there were no problems with the change, this is confirmed in the Plesk interface. In order to be able to use this domain for the web space, the DNS settings must be configured in the domain management. How this works with domains ordered through us can be seen here.
 

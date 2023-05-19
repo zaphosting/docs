@@ -53,7 +53,9 @@ Following this, a pop-up window opens where you can add the user. This is where 
 
   
 
-> ⚠️ An e-mail address is required which hasn't been used for the registration of a ZAP hosting account yet.
+:::info
+An e-mail address is required which hasn't been used for the registration of a ZAP hosting account yet.
+:::
 
 
 The system then creates a user account and provides the user credentials by e-mail. Using this account information, the subuser can then log in and manage the services with the corresponding permissions. 

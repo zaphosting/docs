@@ -5,13 +5,18 @@ description: Information about installing the FreeBSD operating system on your d
 sidebar_label: Install FreeBSD
 ---
 
-> In this example, the installation of FreeBSD 13.0 is performed
+:::info
+In this example, the installation of FreeBSD 13.0 is performed
+:::
 
 ## Preparations
 In your ZAP interface, select the desired ISO of FreeBSD and let the server boot with the ISO until it is in the setup process.
 
-> Navigation in the setup process is done with TAB, Space and Enter.
-> TAB = switch between items, Space = highlight, Enter = confirm
+:::info
+Navigation in the setup process is done with TAB, Space and Enter.
+
+TAB = switch between items, Space = highlight, Enter = confirm
+:::
 
 ***
 
@@ -70,7 +75,9 @@ Mark your volume, with `Space` and process by pressing `Enter`
 
 We verify that all data will be erased
 
-> Your server is now processing the setup, this could take several minutes
+:::info
+Your server is now processing the setup, this could take several minutes
+:::
 
 ### Configuration
 
@@ -108,7 +115,9 @@ If necessary, you can modify the security settings
 
 The setup is now done, choose "Exit" and confirm by pressing `Enter`
 
-> Remove the ISO-File in your iLO and choose "Reboot"
+:::info
+Remove the ISO-File in your iLO and choose "Reboot"
+:::
 
 ### Network
 
@@ -128,7 +137,9 @@ After the reboot, we need to modify the rc.conf as example by `ee /etc/rc.conf`,
 ifconfig_oce0="DHCP"
 ```
 
-> ⚠️ Caution: The name of the network adapter shown in the example **oce0** may be different. Make sure that you specify the correct network adapter. This can be verified with the ifconfig command. The information is then automatically obtained via the DHCP server. 
+:::info
+Caution: The name of the network adapter shown in the example **oce0** may be different. Make sure that you specify the correct network adapter. This can be verified with the ifconfig command. The information is then automatically obtained via the DHCP server. 
+:::
 
 This should in example look like:
 
@@ -136,4 +147,6 @@ This should in example look like:
 
 Leave the editor by pressing `CTRL+C`and writing "exit" after that execute the command `/etc/netstart` once
 
-> Your server should have an active internet connection now
+:::info
+Your server should have an active internet connection now
+:::

@@ -58,7 +58,9 @@ In the "**Profile**" you can now choose whether this rule should only be active 
 
 At "**Name**" only a name for this new "**Rule**" must be entered, this is freely selectable.
 
-> ⚠️ A name should be chosen that is still unused and unique so that it can be found again under "**Incoming rule**" or "**Outgoing rule**".
+:::info
+A name should be chosen that is still unused and unique so that it can be found again under "**Incoming rule**" or "**Outgoing rule**".
+:::
 
 ![](https://user-images.githubusercontent.com/61839701/166197676-0e575fa1-5ae7-48be-b5fc-b9d1ddad0d8c.png)
 
@@ -99,7 +101,9 @@ This is confirmed again with "**Next >**".
 
 With "**Name**" only a name for this new "**Rule**" must be entered, this can be freely selected.
 
-> ⚠️ You should choose a name that is still unused and unique so that it can be found under "**Incoming rule**" or "**Outgoing rule**".
+:::info
+You should choose a name that is still unused and unique so that it can be found under "**Incoming rule**" or "**Outgoing rule**".
+:::
 ![715-570-max](https://screensaver01.zap-hosting.com/index.php/s/cfRpq3zA9on2aoW/preview)
 
 As soon as "**Finish**" is confirmed with the button, the rule is activated and the port is forwarded.

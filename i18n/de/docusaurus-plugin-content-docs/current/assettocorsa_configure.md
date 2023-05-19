@@ -42,7 +42,9 @@ Hier können wir nun auf unsere bevorzugte Map klicken, oben können dann noch d
 ![image](https://user-images.githubusercontent.com/13604413/159136194-814b2206-bfc8-44bc-a363-7a275dc73dfc.png)
 
 
-> Gehe sicher das du nicht mehr Autos, als Slots auf deinem Server angibst, ansonsten wird der Server nicht starten
+:::info
+Gehe sicher das du nicht mehr Autos, als Slots auf deinem Server angibst, ansonsten wird der Server nicht starten
+:::
 
 ## Autos Einstellen
 
@@ -58,10 +60,14 @@ In der Mitte erscheinen nun Autos, welche auf dem Grid platziert werden können,
 ![image](https://user-images.githubusercontent.com/13604413/159136214-b58c2720-6a04-4882-a661-12cbde86cf31.png)
 
 
-> Um mehrere Autos zu wählen, können mehrere haken gesetzt werden, um die verschiedenen Autos in der Mitte hinzugefügt werden.
+:::info
+Um mehrere Autos zu wählen, können mehrere haken gesetzt werden, um die verschiedenen Autos in der Mitte hinzugefügt werden.
 
-> Beachte das alle Autoslots befüllt werden und nicht mehr, als die Menge der verfügbaren Slots gesetzt wird
-> ![image](https://user-images.githubusercontent.com/13604413/159136228-57a877cd-e75b-4df0-ad57-30c6b05af255.png)
+
+Beachte das alle Autoslots befüllt werden und nicht mehr, als die Menge der verfügbaren Slots gesetzt wird
+
+![image](https://user-images.githubusercontent.com/13604413/159136228-57a877cd-e75b-4df0-ad57-30c6b05af255.png)
+:::
 
 
 ## Config Hochladen

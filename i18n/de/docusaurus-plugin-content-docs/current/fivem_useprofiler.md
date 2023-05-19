@@ -52,5 +52,7 @@ Wir wählen nun einen "Tick" aus, welcher viel Performance verbraucht:
 Nun können wir sehen, welche Resourcen sehr viel zeit verbrauchen.
 
 
-> Resourcen welche insgesamt über 6 ms Verbrauchen können Probleme verursachen
+:::info
+Resourcen welche insgesamt über 6 ms Verbrauchen können Probleme verursachen
+:::
 

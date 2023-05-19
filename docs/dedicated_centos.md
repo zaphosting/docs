@@ -5,12 +5,16 @@ description: Information about installing the CentOS operating system on your de
 sidebar_label: Install CentOS
 ---
 
-> In this example, the installation of CentOS 8.3 is performed
+:::info
+In this example, the installation of CentOS 8.3 is performed
+:::
 
 ## Preparations
 In your ZAP interface, select the desired ISO of CentOS and let the server boot with the ISO until it is in the setup process.
 
-> Navigation in the setup process is done with your mouse.
+:::info
+Navigation in the setup process is done with your mouse.
+:::
 
 ***
 
@@ -82,4 +86,6 @@ You can leave nano by pressing `CTRL+X` and `Y`
 
 Now we need to start our network device with `ifup eno1` 
 
-> Your dedicated server has now a working internet connection
+:::info
+Your dedicated server has now a working internet connection
+:::

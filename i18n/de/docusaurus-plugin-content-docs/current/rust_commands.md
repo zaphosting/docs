@@ -7,7 +7,9 @@ sidebar_label: Admin Befehle
 
 Rust verfügt über eine Vielzahl verschiedener Befehle, die von Serverbesitzern und Spielern verwendet werden können. Auf dieser Seite fassen wir die nützlichsten und beliebtesten zusammen, die für Servereinstellungen, Spielerverwaltung und zur Kontrolle von Spielern verwendet werden.
 
-> Einige Befehle erfordern die Verwendung der Steam64-ID eines Spielers. Verwende die kleine Anleitung unten, um zu verstehen, wie man die Steam-ID eines Spielers erhält.
+:::info
+Einige Befehle erfordern die Verwendung der Steam64-ID eines Spielers. Verwende die kleine Anleitung unten, um zu verstehen, wie man die Steam-ID eines Spielers erhält.
+:::
 
 ## Deine Steam ID erhalten
 Erstens, verwende ein Tool wie das [Steam ID Finder](https://steamidfinder.com/) um deine Steam64 ID zu erhalten.
@@ -24,7 +26,9 @@ Und das war's, jetzt hast du die Steam64 ID und kannst sie für die Befehle verw
 
 Verwende die Registerkarten unten, um zwischen den einzelnen Kategorien zu wechseln. Die Tabellen bestehen aus dem Befehl selbst, den akzeptierten Werten für den Befehl (falls zutreffend) und einer Beschreibung, um das Verständnis zu erleichtern.
 
-> Jeder Befehl, der auf dieser Seite erwähnt wird, ist für Vanilla Rust.
+:::info
+Jeder Befehl, der auf dieser Seite erwähnt wird, ist für Vanilla Rust.
+:::
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';

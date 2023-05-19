@@ -5,13 +5,17 @@ description: Informationen, über die RAID Konfigurationsmöglichkeiten für dei
 sidebar_label: RAID konfigurieren
 ---
 
-> Wir bieten Dedicated Server mit bis zu 2 SSDs an, dies ermöglicht ein RAID0 oder RAID1
+:::info
+Wir bieten Dedicated Server mit bis zu 2 SSDs an, dies ermöglicht ein RAID0 oder RAID1
+:::
 
 ## Welche RAID-Typen gibt es?
 Grundsätzlich gibt es verschiedenste Arten von RAID-Möglichkeiten. Dadurch das unsere Dedicated Server für SSDs 2 Bays bereitstellen,
 ist eine Konfiguration von RAID0 oder RAID1 möglich. Andere Arten von RAID würden mehr Datenträger erfordern.
 
-> RAID0 hat geringfügig schnellere Lese- und Schreibraten
+:::info
+RAID0 hat geringfügig schnellere Lese- und Schreibraten
+:::
 
 ### RAID0
 Bei dieser RAID-Konfiguration werden alle vorhandenen Datenträger in ein großes Volume zusammengefasst, beispielsweise aus 2 jeweils 1 TB SSDs,
@@ -19,7 +23,9 @@ würde eine 2TB Partition entstehen welche dann komplett genutzt werden könnte.
 Es besteht keine Datenredundanz, im Falle eines technischen Defektes ist also ein Datenverlust häufig unausweichlich da deine Daten in verschiedenen Sektoren geschrieben werden.
 Solltest du also sensible Daten auf deinem System lagern ist grundsätzlich von RAID0 abzuraten oder es sollten zumindest regelmäßige Systembackups durchgeführt werden.
 
-> Wenn dein Dedicated Server lediglich 1 SSD hat ist dies automatisch ein RAID0
+:::info
+Wenn dein Dedicated Server lediglich 1 SSD hat ist dies automatisch ein RAID0
+:::
 
 ### RAID1
 Diese Konfiguration unterscheidet sich deutlich von RAID0, hier besteht eine Redundanz deiner Daten, das heißt das alles was du auf deinem Server abspeicherst dupliziert wird.
@@ -27,7 +33,9 @@ Es wird also auf beiden SSDs gespiegelt und würde bei einer Ausfallquote von 50
 Bei einem technischen Defekt müsste lediglich die betroffene SSD ausgetauscht werden und dein Server würde das RAID wieder erneut aufbauen, das heißt die Daten spiegeln.
 Gerade für sensiblere Daten ist diese Konfiguration sehr empfehlenswert, dennoch ist sie keine Alternative um keine Backups mehr anfertigen zu müssen.
 
-> Regelmäßige Backups aller wichtigen Daten sind unerlässlich!
+:::info
+Regelmäßige Backups aller wichtigen Daten sind unerlässlich!
+:::
 
 ## Das Konfigurationsmenü
 
@@ -102,11 +110,15 @@ Natürlich sind nicht alle dieser RAIDs in der aktuellen Konstellation umsetzbar
 
 Wir wählen in unserem Beispiel also das RAID0 oder RAID1.
 
-> Du kannst zwischen den Menüs mit TAB wechseln
+:::info
+Du kannst zwischen den Menüs mit TAB wechseln
+:::
 
 Wenn du das gewünschte RAID ausgewählt hast, kannst du deine Wahl mit `Enter` bestätigen.
 
-> Du kannst nun mit `ESC` den Konfigurationsassistenten verlassen.
+:::info
+Du kannst nun mit `ESC` den Konfigurationsassistenten verlassen.
+:::
 
 ### Boot Volume erstellen
 

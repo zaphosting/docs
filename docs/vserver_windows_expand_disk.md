@@ -7,7 +7,9 @@ sidebar_label: Extend disk
 
 After upgrading your ZAP Windows vServer, it may be necessary to add the new storage to your existing partition.
 
-> ⚠️ Don't worry, this step will not delete any data.
+:::info
+Don't worry, this step will not delete any data.
+:::
 
 ## Extend the partition
 
@@ -38,6 +40,8 @@ The available disk space will be detected automatically, you just have to contin
 
 Now finish the wizard with (1) **Finish**.
 
-> 💚 Your disk partition is now enlarged by the new space!
+:::info
+💚 Your disk partition is now enlarged by the new space!
+:::
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/M46ca4FkeG42AZz/preview)

@@ -9,7 +9,9 @@ sidebar_label: Farming-Simulator 2022
 
 # Installing a dedicated server for Farming Simulator 2022
 
-> :information_source: These instructions are also valid for a Dedicated Server from ZAP-Hosting with Windows Server 2016/2019. How to install Windows on a Dedicated Server we explain [here](https://zap-hosting.com/guides/docs/en/dedicated_windows/).
+:::info
+:information_source: These instructions are also valid for a Dedicated Server from ZAP-Hosting with Windows Server 2016/2019. How to install Windows on a Dedicated Server we explain [here](https://zap-hosting.com/guides/docs/en/dedicated_windows/).
+:::
 
 ## Basic Information: 
 A server based on Windows Server 2016/2019 with at least 4x 2.4 GHz CPU (AMD/Intel) and at least 2GB RAM (DDR3/4) and 6GB free Disk (SSD or better, preferred) is required. The server must run on 64 bit architecture. 
@@ -22,7 +24,9 @@ Depending on how much the dedicated server is modded, extended with mods or DLCs
 A digital version of FarmingSimulator 2022 is required, it can not be the Steam version.
 The digital version can be purchased on the [FarmingSimulator Webseite](https://www.farming-simulator.com/buy-now.php?lang=de&country=de&platform=pcdigital).
 After purchasing the digital version, FarmingSimulator can be downloaded online by following the link below [Link](https://eshop.giants-software.com/downloads.php) from the mail which you received from Giants.
-> Important: In the mail you will find the GameKey which is needed for the download as well as for the later activation of the installation. 
+:::info
+Important: In the mail you will find the GameKey which is needed for the download as well as for the later activation of the installation. 
+:::
 
 ![image](https://user-images.githubusercontent.com/13604413/159173431-deafbefa-f186-4acc-9605-1d980142c5c0.png)
 

@@ -8,7 +8,9 @@ sidebar_label: Experimental Build
 ## What is experimental build?
 Satisfactory consists of two versions, the regular build and the experimental build. The regular build is more reliable, stable and less bug-prone as it is a more finalised build. On the other hand, the experimental build provides access to major patches first before being released as a regular build, thus it has higher chances of bugs and has much more frequent updates but the benefits of trying out major updates first!
 
-> Note: Regardless of which build you choose, both your server and your game client must be on the same build version to be able to connect.
+:::info
+Note: Regardless of which build you choose, both your server and your game client must be on the same build version to be able to connect.
+:::
 
 ## How to switch to experimental build?
 Through our gameserver system, it is very simple to change the build of the server through our website. Before beginning, we recommend that you back up your Satisfactory savegames as switching the game will erase all files.
@@ -49,14 +51,18 @@ Now both versions will show up under `Installed games` for future reference, mak
 
 Finally, you need to activate the game under the `Installed games` section. Press the blue activate game icon.
 
-> Attention: All data of the game will be deleted during reinstallation, make sure to go back a few steps and perform a backup if you haven't already.
+:::info
+Attention: All data of the game will be deleted during reinstallation, make sure to go back a few steps and perform a backup if you haven't already.
+:::
 
 ![Screenshot 2023-02-22 020606](https://user-images.githubusercontent.com/42719082/220502401-4738e1b7-e083-40e4-88f8-8e5e044f3270.png)
 
 If you wish to change back to regular build, follow the same steps but pick the regular Satisfactory gameserver during the selection process instead!
 
 ## Switching game client to experimental
-> Note: Regardless of which build you choose, both your server and your game client must be on the same build version to be able to connect.
+:::info
+Note: Regardless of which build you choose, both your server and your game client must be on the same build version to be able to connect.
+:::
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';

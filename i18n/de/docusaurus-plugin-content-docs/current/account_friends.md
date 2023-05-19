@@ -15,9 +15,13 @@ Auf unserer "[Freunde werben-Seite](https://zap-hosting.com/de/customer/affiliat
 ## Die Provisionen
 Über das Freunde werben Programm erhältst du eine Verkaufsprovision von bis zu 50%. Die genauen Verkaufsprovisionen für alle Produkte findest du auf der Freunden werben-Seite unter "[Konditionen](https://zap-hosting.com/de/customer/affiliate/conditions/)".
 
-> Bei der ausgezahlten Provision handelt es sich um einen Netto-Wert.
+:::info
+Bei der ausgezahlten Provision handelt es sich um einen Netto-Wert.
+:::
 Das heißt, dass du die Mehrwertsteuer von deinem angezeigten Affiliate-Guthaben bei Auszahlung anbziehen musst. Dies kannst du machen, indem du den angezeigten Betrag durch 1.19 teilst (19% deutsche MWST.). Beispiel: 100€ Affiliate Guthaben. In Rechnung zu stellen sind: 100 / 1,19 = 84,03€. Bei einer Auszahlung in ZAP Coins erhältst du den vollen Betrag.
-> Muss Mehrwertsteuer in der Rechnung ausgewiesen werden, wird der volle Betrag in der Rechnung inklusive Mehrwertsteuer ausgewiesen. Bei einem Affiliate Guthaben von 100€ wird eine Rechnung von 100€, bestehend aus 84,03€ Rechnungsbetrag und 15,97€ Mehrwertsteuer abgeschickt.
+:::info
+Muss Mehrwertsteuer in der Rechnung ausgewiesen werden, wird der volle Betrag in der Rechnung inklusive Mehrwertsteuer ausgewiesen. Bei einem Affiliate Guthaben von 100€ wird eine Rechnung von 100€, bestehend aus 84,03€ Rechnungsbetrag und 15,97€ Mehrwertsteuer abgeschickt.
+:::
 
 ## Affiliate-Link erstellen
 
@@ -25,19 +29,29 @@ Um einen Affiliate Link zu erstellen, klicke auf der "[Freunde werben-Seite](htt
 
 `Alias`
 
-> Du kannst deinen Link anpassen, wie du willst, damit der Link lesbar wird und einfach gemerkt werden kann. Das Alias wird an "https://zap-hosting.com/" angehängt. Der Link sieht dann so aus: 
-> "https://zap-hosting.com/alias". 
-> Wenn du kein Alias erstellst, wird ein zufälliges Alias erstellt.
+:::info
+Du kannst deinen Link anpassen, wie du willst, damit der Link lesbar wird und einfach gemerkt werden kann. Das Alias wird an "https://zap-hosting.com/" angehängt. Der Link sieht dann so aus: 
+
+"https://zap-hosting.com/alias". 
+
+Wenn du kein Alias erstellst, wird ein zufälliges Alias erstellt.
+:::
 
 `Linktext`
 
-> Für den Link wird ein HTML-Code erstellt, den du einfach in Webseiten einfügen kannst. Der Linktext ist dann der klickbare Text, der im Fließtext erscheint (z. B. "Klick mich")
-> Beispiel: `<a href="https://zap-hosting.com/diesisteinaffiliatelink">klick mich</a>`
+:::info
+Für den Link wird ein HTML-Code erstellt, den du einfach in Webseiten einfügen kannst. Der Linktext ist dann der klickbare Text, der im Fließtext erscheint (z. B. "Klick mich")
+
+Beispiel: `<a href="https://zap-hosting.com/diesisteinaffiliatelink">klick mich</a>`
+:::
 
 `Ziel`
 
-> Du kannst die Seite, auf die dein Affiliate-Link weiterleitet, selbst aussuchen. Wenn du beispielsweise einen Minecraft-Videokanal betreibst, kannst du den Link einstellen, dass er auf unsere "[Minecraft Server mieten](https://zap-hosting.com/de/minecraft-server-mieten/)"-Seite weiterleitet.
-> Generell empfehlen wir, unsere [Startseite](https://zap-hosting.com/de/) als Ziel zu verwenden
+:::info
+Du kannst die Seite, auf die dein Affiliate-Link weiterleitet, selbst aussuchen. Wenn du beispielsweise einen Minecraft-Videokanal betreibst, kannst du den Link einstellen, dass er auf unsere "[Minecraft Server mieten](https://zap-hosting.com/de/minecraft-server-mieten/)"-Seite weiterleitet.
+
+Generell empfehlen wir, unsere [Startseite](https://zap-hosting.com/de/) als Ziel zu verwenden
+:::
 
 
 Wenn du alles ausgefüllt hast, klicke auf "Erstellen", um den Link zu erstellen.
@@ -49,20 +63,30 @@ Um ein Affiliate Banner zu erstellen, klicke auf der "[Freunde werben-Seite](htt
 
 `Alias`
 
-> Neben dem Banner wird ein Link erstellt, auf den das Banner verweist. Du kannst deinen Banner-Link anpassen, wie du willst, damit der Link lesbar wird und einfach gemerkt werden kann. Das Alias wird an "https://zap-hosting.com/" angehängt. Der Link sieht dann so aus: 
-> "https://zap-hosting.com/alias". 
-> Wenn du kein Alias erstellst, wird ein zufälliges Alias erstellt.
+:::info
+Neben dem Banner wird ein Link erstellt, auf den das Banner verweist. Du kannst deinen Banner-Link anpassen, wie du willst, damit der Link lesbar wird und einfach gemerkt werden kann. Das Alias wird an "https://zap-hosting.com/" angehängt. Der Link sieht dann so aus: 
+
+"https://zap-hosting.com/alias". 
+
+Wenn du kein Alias erstellst, wird ein zufälliges Alias erstellt.
+:::
 
 
 `Vorlage`
 
-> Hier wählst du die Vorlage aus einer Reihe verschiedener Banner aus. Diese sind bei uns gespeichert und der HTML-Code wird so generiert, dass das Banner über unsere Seite geladen wird, wenn du den Code korrekt einbaust.
-> Du kannst das Banner natürlich auch selbst in deinen Kanal oder auf deine Webseite hochladen und es dort mit deinem Affiliate-Link verknüpfen. Dafür speichere das gewünschte Banner in der Vorschau einfach per Rechtsklick-Speichern bei dir ab.
+:::info
+Hier wählst du die Vorlage aus einer Reihe verschiedener Banner aus. Diese sind bei uns gespeichert und der HTML-Code wird so generiert, dass das Banner über unsere Seite geladen wird, wenn du den Code korrekt einbaust.
+
+Du kannst das Banner natürlich auch selbst in deinen Kanal oder auf deine Webseite hochladen und es dort mit deinem Affiliate-Link verknüpfen. Dafür speichere das gewünschte Banner in der Vorschau einfach per Rechtsklick-Speichern bei dir ab.
+:::
 
 `Ziel`
 
-> Du kannst die Seite, auf die dein Banner-Link weiterleitet, selbst aussuchen. Wenn du beispielsweise einen Minecraft-Videokanal betreibst, kannst du den Link einstellen, dass er auf unsere "[Minecraft Server mieten](https://zap-hosting.com/de/minecraft-server-mieten/)"-Seite weiterleitet.
-> Generell empfehlen wir, unsere [Startseite](https://zap-hosting.com/de/) als Ziel zu verwenden
+:::info
+Du kannst die Seite, auf die dein Banner-Link weiterleitet, selbst aussuchen. Wenn du beispielsweise einen Minecraft-Videokanal betreibst, kannst du den Link einstellen, dass er auf unsere "[Minecraft Server mieten](https://zap-hosting.com/de/minecraft-server-mieten/)"-Seite weiterleitet.
+
+Generell empfehlen wir, unsere [Startseite](https://zap-hosting.com/de/) als Ziel zu verwenden
+:::
 
 Wenn du alles ausgefüllt hast, klicke auf "Erstellen", um das Banner zu erstellen.
 
@@ -70,7 +94,9 @@ Wenn du alles ausgefüllt hast, klicke auf "Erstellen", um das Banner zu erstell
 
 Um eine Auszahlung zu beantragen, klicke in der Übersicht auf der "[Freunde werben-Seite](https://zap-hosting.com/de/customer/affiliate/)" einfach auf den Button "Auszahlung/Umbuchung". Dann kannst du auswählen, ob du dein Affiliate-Guthaben in ZAP-Coins umbuchen willst oder das Guthaben ausgezahlt bekommen möchtest. Wir können Guthaben auf dein Bankkonto überweisen oder per Paypal auszahlen.
 
-> ⚠️ **Achtung:** Wenn du dein Guthaben in ZAP-Coins umbuchen lässt, kannst du dir diese ZAP-Coins nicht mehr auszahlen lassen. Dieser Schritt ist endgültig!
+:::info
+**Achtung:** Wenn du dein Guthaben in ZAP-Coins umbuchen lässt, kannst du dir diese ZAP-Coins nicht mehr auszahlen lassen. Dieser Schritt ist endgültig!
+:::
 
 Per PayPal auszahlen lassen:**
 Nutze das PayPal Rechnungs Feature: "[PayPal Invoice Creator](https://www.paypal.com/invoice/create?fromWidget=newuser)"

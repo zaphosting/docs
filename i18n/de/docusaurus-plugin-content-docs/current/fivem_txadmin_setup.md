@@ -30,7 +30,9 @@ Im txAdmin Interface geben wir nun unseren Benutzer und unseres Passwort an, wel
 
 Nach der Anmeldung landen wir direkt im txAdmin Setup, hier können wir nun auswählen, wie unser Server heißt:
 
-> Diese Einstellung ist **nicht** der Server Name in der Serverliste, sondern ein interner Name für Ingame Meldungen und den Discord Webhook.
+:::info
+Diese Einstellung ist **nicht** der Server Name in der Serverliste, sondern ein interner Name für Ingame Meldungen und den Discord Webhook.
+:::
 
 ![image](https://user-images.githubusercontent.com/13604413/159169329-6b9670f4-e472-4619-8451-4dc8158a33cf.png)
 

@@ -5,7 +5,9 @@ description: Information on how to change the language of your Windows VPS from 
 sidebar_label: Add/change language
 ---
 
-> ⚠️ By default we provide Windows in German and English, you can identify that on the (DE) and (EN) tags
+:::info
+By default we provide Windows in German and English, you can identify that on the (DE) and (EN) tags
+:::
 ***
 
 ## Preparation
@@ -28,7 +30,9 @@ Search for the language of your like and be sure that its a display language.
 
 Choose the language of your like by a mouseclick and proceed by pressing "Next", accept the installation of all additional packages
 
-> ⚠️ "Display Language installation and use as windows display language" must be enabled.
+:::info
+"Display Language installation and use as windows display language" must be enabled.
+:::
 
 Windows is now downloading the language of your decision, this can take several minutes (30-60 minutes).
 

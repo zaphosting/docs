@@ -38,7 +38,9 @@ In unserem Beispiel tragen wir folgendes ein:
 ![image](https://user-images.githubusercontent.com/26007280/189680975-adc5d71d-cbfa-4aa8-a00a-948b9df41ec6.png)
 
 
-> Achtung! Ein Provider Key kann nur für einen Server genutzt werden, für jeden weiteren Server muss ein neuer Provider Key angelegt und zugewiesen werden!
+:::info
+Achtung! Ein Provider Key kann nur für einen Server genutzt werden, für jeden weiteren Server muss ein neuer Provider Key angelegt und zugewiesen werden!
+:::
 
 
 ## Realm

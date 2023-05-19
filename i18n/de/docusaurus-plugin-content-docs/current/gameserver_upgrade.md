@@ -34,7 +34,9 @@ Bei Gameservern, ist es möglich diese zwischen verschiedenen Standorten umzuzie
 
 ![image](https://user-images.githubusercontent.com/26007280/189680179-ee47a082-cb57-4972-8781-8dc55d54c1ae.png)
 
-> ⚠️ **WICHTIG** Bei diesem Prozess kann Datenverlust entstehen, stelle zu jederzeit sicher ein Backup deiner Daten zu haben!
+:::info
+**WICHTIG** Bei diesem Prozess kann Datenverlust entstehen, stelle zu jederzeit sicher ein Backup deiner Daten zu haben!
+:::
 
 Klicke sofern ein Umzug gewünscht ist, einfach auf den entsprechenden Standort um diesen auszuwählen.
 
@@ -52,7 +54,9 @@ Darunter befinden sich noch weitere Parameter, in unserem Beispiel eines FiveM S
 
 * Eigene IP-Adresse: Solltest du eine gleichbleibende IP benötigen welche sich nicht wieder ändern wird solange das Produkt besteht, benötigst du diese Option.
 
-> ⚠ Die eigene IP-Adresse ist nicht zu verwechseln, mit einer Domain, eine eigene IP wird ebenso zugewiesen und kann nicht modifizert werden.
+:::info
+⚠ Die eigene IP-Adresse ist nicht zu verwechseln, mit einer Domain, eine eigene IP wird ebenso zugewiesen und kann nicht modifizert werden.
+:::
 
 ### Bezahlung
 
@@ -70,5 +74,7 @@ Wähle die Zahlungsmethode deiner Wahl und beende den Upgrade-Prozess mit "Upgra
 
 Es dauert nun einen kleinen Augenblick bis dein Upgrade verbucht wird, dies steht dir in der Regel innerhalb weniger Sekunden zur Verfügung.
 
-> ⚠ Ein Neustart deines Produktes ist in der Regel notwendig, damit die neuen Spezifikationen angewendet werden.
+:::info
+⚠ Ein Neustart deines Produktes ist in der Regel notwendig, damit die neuen Spezifikationen angewendet werden.
+:::
 

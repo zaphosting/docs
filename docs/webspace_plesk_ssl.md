@@ -7,7 +7,9 @@ sidebar_label: Create SSL Certificate
 
 ## Encrypt website with SSL
 
-> It is assumed that the domain already points to the IP of the web space.
+:::info
+It is assumed that the domain already points to the IP of the web space.
+:::
 
 If a domain is created in the web space, it is always unencrypted at the beginning. This can be seen in the Plesk panel:
 
@@ -85,7 +87,9 @@ An entry in the DNS should look like this:
 
 ![image](https://user-images.githubusercontent.com/13604413/159176807-99f29bd6-3ae0-499b-a048-308752083b03.png)
 
-> A DNS entry can take up to 24 hours to be accessible from anywhere in the world.
+:::info
+A DNS entry can take up to 24 hours to be accessible from anywhere in the world.
+:::
 
 To ensure that the TXT entry is already active, the "TXT Lookup SuperTool" from mxtoolbox can be used: https://mxtoolbox.com/SuperTool.aspx:
 

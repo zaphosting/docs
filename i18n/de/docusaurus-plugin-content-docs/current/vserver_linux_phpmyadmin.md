@@ -5,7 +5,7 @@ description: Informationen wie du phpMyAdmin auf deinen Linux vServer von ZAP-Ho
 sidebar_label: phpMyAdmin
 ---
 
-> ⚠️Es wird ein funktionierender MySQL/MariaDB sowie ein Apache2 Server inkl. PHP vorausgesetzt!
+>Es wird ein funktionierender MySQL/MariaDB sowie ein Apache2 Server inkl. PHP vorausgesetzt!
 
 ## System aktualisieren
 
@@ -21,7 +21,7 @@ sudo apt upgrade -y
 Nun befindet sich der Server auf dem neusten Stand. 
 
 
-> ⚠️Sollte "sudo" nicht gefunden werden, so kann dies mit folgendem Befehl nachinstalliert werden: 
+>Sollte "sudo" nicht gefunden werden, so kann dies mit folgendem Befehl nachinstalliert werden: 
 ```
 apt install sudo -y
 ```
@@ -37,7 +37,9 @@ Anschließend wird mit Hilfe von wget die letzte phpMyAdmin Version in das Insta
 ```
 wget https://www.phpmyadmin.net/downloads/phpMyAdmin-latest-all-languages.zip -O phpmyadmin.zip
 ```
-> ⚠️ Sollte "wget" nicht gefunden werden, so kann dies mit folgendem Befehl nachinstalliert werden: 
+:::info
+Sollte "wget" nicht gefunden werden, so kann dies mit folgendem Befehl nachinstalliert werden: 
+:::
 ```
 sudo apt install wget -y
 ```
@@ -45,7 +47,9 @@ Sobald der Download abgeschlossen ist, kann die ZIP-Datei mit folgendem Befehl e
 ```
 unzip phpmyadmin.zip
 ```
-> ⚠️ Sollte "unzip" nicht gefunden werden, so kann dies mit folgendem Befehl nachinstalliert werden: 
+:::info
+Sollte "unzip" nicht gefunden werden, so kann dies mit folgendem Befehl nachinstalliert werden: 
+:::
 ```
 sudo apt install unzip -y
 ```

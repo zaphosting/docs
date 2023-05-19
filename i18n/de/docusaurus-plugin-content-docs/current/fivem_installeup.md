@@ -5,7 +5,9 @@ description: Informationen, wie du EUP auf deinen FiveM-Server von ZAP-Hosting.c
 sidebar_label: EUP Installieren
 ---
 
-> Um den EUP zu installieren wird ein Fivem Element Argentum (oder höher) Schlüssel benötigt [Fivem Patreon](https://www.patreon.com/fivem)
+:::info
+Um den EUP zu installieren wird ein Fivem Element Argentum (oder höher) Schlüssel benötigt [Fivem Patreon](https://www.patreon.com/fivem)
+:::
 
 ## Mit FTP verbinden
 
@@ -25,7 +27,9 @@ nachdem wir die `eup-ui.7z`, `eup-stream.7z` und "NativeUI-master.zip" runtergel
 
 ![image](https://user-images.githubusercontent.com/13604413/159167172-33ea451b-fc5f-4dd7-8768-c55dd4e791c5.png)
 
-> Beachte: Bei NativeUI muss erst der "NativeUI-master" ordner geöffnet werden, dort befinden sich die richtigen scripts.
+:::info
+Beachte: Bei NativeUI muss erst der "NativeUI-master" ordner geöffnet werden, dort befinden sich die richtigen scripts.
+:::
 
 Nachdem die Resource entpackt wurde, sollte darin nun eine __resource.lua oder fxmanifest.lua und Script Files/Ordner sein.
 
@@ -38,7 +42,9 @@ Nachdem die Resource entpackt wurde, sollte darin nun eine __resource.lua oder f
 **NativeUI**
 ![image](https://user-images.githubusercontent.com/13604413/159167198-1c976213-42f3-41df-b444-b8dafb8ebeec.png)
 
-> Wenn dies nicht der Fall ist, befinden sich diese ggf. in einem Unterordner, meist mit dem gleichen Namen.
+:::info
+Wenn dies nicht der Fall ist, befinden sich diese ggf. in einem Unterordner, meist mit dem gleichen Namen.
+:::
 
 ## Resourcen hochladen
 

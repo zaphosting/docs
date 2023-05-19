@@ -16,7 +16,9 @@ In the field **mydomain.com** you can now search for your domain name and check 
 
 In order to rent a domain, all fields such as first name, surname and address must be filled out truthfully, since there must always be a unique domain holder. Otherwise it is possible that the domain cannot be provided.
 
->  Since the DSGVO came into force, the domain holder's data has no longer been accessible to everyone. Only the registrar and authorities can access this data if necessary.  
+:::info
+ Since the DSGVO came into force, the domain holder's data has no longer been accessible to everyone. Only the registrar and authorities can access this data if necessary.  
+:::
 
 
 ![image](https://user-images.githubusercontent.com/13604413/159175924-79547794-44c0-4577-a9d2-709878b88a68.png)

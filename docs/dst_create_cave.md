@@ -21,8 +21,11 @@ The master is the Upperworld server, this server must be set as the master in th
 
 ### server.ini
 
-> **IMPORTANT** the "**MASTERIP**" would mean the IP of the master server, if this IP is 123.123.123.123 then "bind_ip = 123.123.123.123" must be entered there. eingetragen werden.
-> "**MASTERIP**" is not a static value that may be entered in the server.ini at "bind_ip = ".
+:::info
+**IMPORTANT** the "**MASTERIP**" would mean the IP of the master server, if this IP is 123.123.123.123 then "bind_ip = 123.123.123.123" must be entered there. eingetragen werden.
+
+"**MASTERIP**" is not a static value that may be entered in the server.ini at "bind_ip = ".
+:::
 
 By default, "**[SHARD]**" only says "is_master = true" in server.ini, the following commands are now added there
 ```
@@ -52,9 +55,13 @@ The slave is the cave server, where the data from the master must be entered in 
 
 ### server.ini
 
-> **IMPORTANT** the "**SLAVEIP**" would mean the IP of the slave server, if this IP is 123.123.123.123.123 then "bind_ip = 123.123.123.123.123" must be entered there.
-> "**SLAVEIP**" is not a static value that may be entered in the server.ini at "bind_ip = ".
-> "**MASTERIP**" is not a static value that may be entered in the server.ini at "master_ip = ".
+:::info
+**IMPORTANT** the "**SLAVEIP**" would mean the IP of the slave server, if this IP is 123.123.123.123.123 then "bind_ip = 123.123.123.123.123" must be entered there.
+
+"**SLAVEIP**" is not a static value that may be entered in the server.ini at "bind_ip = ".
+
+"**MASTERIP**" is not a static value that may be entered in the server.ini at "master_ip = ".
+:::
 
 By default, "**[SHARD]**" in the server.ini contains only "is_master = true", the following commands are now added there.
 

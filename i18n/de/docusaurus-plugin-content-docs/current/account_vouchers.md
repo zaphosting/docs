@@ -34,7 +34,9 @@ Ist der Gutschein korrekt eingegeben, noch immer gültig und wurde von dir nicht
 ![image](https://user-images.githubusercontent.com/13604413/159170458-9f7754eb-67e5-40fe-ae59-cdf5ac1068e0.png)
 
 
-> Sollte ein Code nicht funktionieren, kann es sein, dass er bereits abgelaufen ist, bereits verwendet wurde oder dass es sich bei dem Code nicht um einen Guthabencode handelt.
+:::info
+Sollte ein Code nicht funktionieren, kann es sein, dass er bereits abgelaufen ist, bereits verwendet wurde oder dass es sich bei dem Code nicht um einen Guthabencode handelt.
+:::
 
 ## Rabattcodes
 
@@ -51,7 +53,9 @@ Sobald alles korrekt konfiguriert ist, könnt ihr euren Code noch im Bestellproz
 
 Die Kosten reduzieren sich automatisch sobald ihr den Gutschein einlöst. 
 
-> Es gibt zwei unterschiedliche Rabattcodes: 
+:::info
+Es gibt zwei unterschiedliche Rabattcodes: 
+:::
 1. Codes die die Kosten für die zuerst gebuchte Laufzeit reduzieren
 2. Codes die dauerhaft die Kosten während der Laufzeit reduzieren
 

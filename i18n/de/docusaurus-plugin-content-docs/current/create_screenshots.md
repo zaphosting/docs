@@ -18,7 +18,9 @@ Unter Linux kann das meist bereits installierte Tool "Screenshots" oder andere T
 
 Nachfolgend werden die 2 bekantesten Screenshot Tools kurz erläutert die frei auf dem Markt verfügbar sind:
 
-> ⚠️ Es wird davon abgeraten private oder sensible Daten öffentlich preiszugeben. Sollten Daten auf dem Screenshot zu sehen sein, so sollten diese auf jeden Fall unkenntlich gemacht oder durch Beispiel Daten ersetzt werden.
+:::info
+Es wird davon abgeraten private oder sensible Daten öffentlich preiszugeben. Sollten Daten auf dem Screenshot zu sehen sein, so sollten diese auf jeden Fall unkenntlich gemacht oder durch Beispiel Daten ersetzt werden.
+:::
 
 
 ### Imgur

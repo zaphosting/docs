@@ -10,14 +10,18 @@ In Satisfactory gibt es viele nützliche Befehle, mit denen du die Einstellungen
 ## Zugriff auf die Konsole
 Die Verwendung der Konsole in Satisfactory ist sehr einfach: Drücke einfach die Taste ` (der Akut befindet sich neben der Rücktaste), um zwischen der Sichtbarkeit der Konsole zu wechseln. Die Konsole wird entweder geschlossen, mit einem kleinen Befehlsfenster am unteren Rand geöffnet oder ganz ausgeklappt, wenn du umschaltest.
 
-> Wenn die Akut-Taste bei dir nicht funktioniert, befolge die Schritte im folgenden Unterabschnitt, um eine neue Tastenkombination festzulegen und zu aktivieren.
+:::info
+Wenn die Akut-Taste bei dir nicht funktioniert, befolge die Schritte im folgenden Unterabschnitt, um eine neue Tastenkombination festzulegen und zu aktivieren.
+:::
 
 ### Zugriff auf die Konsole nicht möglich
 Aufgrund regionaler Tastaturen kann es vorkommen, dass die Standardtaste für die Aktivierung der Konsole nicht funktioniert, so dass du eine neue Taste einrichten musst. Bevor du dies tust, schließe Satisfactory, falls es noch läuft.
 
 Drücke Windows-Taste + R oder suche in deinem Startmenü nach Ausführen. Kopiere dann den folgenden Pfad hinein:
 
-> %LOCALAPPDATA%\FactoryGame\Saved\Config\WindowsNoEditor
+:::info
+%LOCALAPPDATA%\FactoryGame\Saved\Config\WindowsNoEditor
+:::
 
 Öffne die Datei Input.ini mit einem Texteditor (z.B. Notepad)
 
@@ -41,7 +45,9 @@ Ein Beispiel für die Verwendung von `?` zur Anzeige aller Befehle ist unten zu 
 
 ![Screenshot 2023-02-22 015435](https://user-images.githubusercontent.com/42719082/220500871-e1ea0303-718d-4552-9173-3ea2f66669f2.png)
 
-> Jeder Befehl, der auf dieser Seite erwähnt wird, ist für Vanille Satisfactory.
+:::info
+Jeder Befehl, der auf dieser Seite erwähnt wird, ist für Vanille Satisfactory.
+:::
 
 | Befehlssyntax                   | Akzeptierte Werte | Beschreibung | 
 | ----------------------- | ---------- | --------- | 

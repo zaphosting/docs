@@ -9,7 +9,9 @@ sidebar_label: Spielwechsel
 ## Der Wechsel zwischen FiveM-Versionen
 Dank unserer Gamecloud kannst du jederzeit je nach Notwendigkeit deines FiveM Versionen wechseln, der Wechsel ist komplett kostenfrei.
 
-> ⚠️ Bei einem Wechsel zwischen Linux basierten Spielen (txAdmin, ESX Roleplay, FiveM Linux) zu Windows gehen alle Daten verloren
+:::info
+Bei einem Wechsel zwischen Linux basierten Spielen (txAdmin, ESX Roleplay, FiveM Linux) zu Windows gehen alle Daten verloren
+:::
 
 Du solltest zu jederzeit Backups erstellt haben von deinen Daten, dies kannst du ganz einfach in unserem Interface im "Backup"-Tab erledigen.
 
@@ -24,7 +26,10 @@ Dort kannst du dann unter Verfügbare Spiele nach "FiveM" suchen um alle Verfüg
 
 Wähle die gewünschte Version und klicke auf den grünen Button. Bestätige das den Wechsel im darauf folgenden Popup-Fenster.
 
-> ⚠️ Bei einem Wechsel zwischen Linux und Windows ändert sich die IP deines Servers, sofern keine eigene gebucht wurde
+:::info
+Bei einem Wechsel zwischen Linux und Windows ändert sich die IP deines Servers, sofern keine eigene gebucht wurde
 
-> ⚠️ Sofern du zwischen ESX RP, Linux oder txAdmin wechselst musst du nach erfolgreicher Installation diese noch aktivieren in Spiele (blauer button)
+
+Sofern du zwischen ESX RP, Linux oder txAdmin wechselst musst du nach erfolgreicher Installation diese noch aktivieren in Spiele (blauer button)
+:::
 

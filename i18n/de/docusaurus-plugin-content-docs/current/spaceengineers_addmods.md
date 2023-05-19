@@ -83,7 +83,9 @@ Hierzu kopieren wir den folgenden Inhalt und fügen Ihn dann wie im Screenshot g
 
 ![image](https://user-images.githubusercontent.com/26007280/189891069-c15c8af7-9ecf-48d4-aa45-cbdf17efc97b.png)
 
-> Hierbei muss 12345 mit der Mod-ID deiner ausgeäwhlten Mod getauscht werden!
+:::info
+Hierbei muss 12345 mit der Mod-ID deiner ausgeäwhlten Mod getauscht werden!
+:::
 
 Wie auch im Screenshot zu sehen muss der selbe Schritte einfach nur erneut wiederholt werden um eine Mod hinzuzufügen.
 Nachdem alle gewünschten Mods hinzugefügt wurden, kann die Config mit **STRG+S** gespeichert werden und die Config geschlossen werden.

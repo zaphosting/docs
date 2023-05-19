@@ -12,7 +12,9 @@ Sie können auf dem lokalen System selber z.b in ein anderes Verzeichnis/Laufwer
 
 ## Kopieren von Daten in ein anderes lokales Verzeichnis oder Laufwerk:
 
-> ⚠️ Achtung: Der erste Durchgang kann je nach Datenmenge deutlich länger dauern als weitere. Dies liegt daran das Rsync beim ersten mal alle Daten syncronsiert, ab dem zweiten Mal werden nur noch veränderte Daten syncronsiert. 
+:::info
+Achtung: Der erste Durchgang kann je nach Datenmenge deutlich länger dauern als weitere. Dies liegt daran das Rsync beim ersten mal alle Daten syncronsiert, ab dem zweiten Mal werden nur noch veränderte Daten syncronsiert. 
+:::
 >Es wird also dann ein inkrementelles Backup erstellt. 
 
 ## Schritt 1
@@ -93,7 +95,9 @@ Jeden Tag um 3 Uhr morgens wird der Befehl ausgeführt und es wird ein Backup er
 
 In diesem Beispiel soll der Ordner "Client" unter /home in den Ordner "Backups" unter auf einem Remote System syncronsiert werden. Die Verbindung soll via SSH Key erfolgen, damit eine Sicherung ebenfalls automatisiert erfolgen kann.  
 
-> ⚠️ Wichtig: Auf dem Remote Server muss ebenfalls Rsync installiert sein. 
+:::info
+Wichtig: Auf dem Remote Server muss ebenfalls Rsync installiert sein. 
+:::
 >```
 >apt install rsync
 >````

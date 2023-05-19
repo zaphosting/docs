@@ -5,7 +5,9 @@ description: Informationen, wie du den Speedometer bei deinem FiveM-Server mit V
 sidebar_label: Speedometer Entfernen
 ---
 
-> Erzwinge Überschreiben muss zum Editieren der Scripts deaktiviert werden, sonst werden alle änderungen mit der offiziellen version überschrieben.
+:::info
+Erzwinge Überschreiben muss zum Editieren der Scripts deaktiviert werden, sonst werden alle änderungen mit der offiziellen version überschrieben.
+:::
 
 ## Mit FTP verbinden
 

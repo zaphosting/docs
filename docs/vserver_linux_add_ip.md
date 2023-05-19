@@ -14,7 +14,9 @@ The network config is opened with an editor, eg with "nano".
 ```
 sudo nano /etc/network/interfaces
 ```
-> ⚠️ Attention: The config must be edited with root rights.
+:::info
+Attention: The config must be edited with root rights.
+:::
 
 There is already an entry in the config that could look like this:
 

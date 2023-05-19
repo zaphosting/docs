@@ -31,5 +31,8 @@ Zum Beispiel wenn ich einen Server für eine Community benötige oder wenn ich G
 (Zum Beispiel CS:GO Server (128 Tick) oder Rust Server mit vielen Spielern)
 Auch für eine große Webpräsenz ist ein Rootserver die oftmals bessere Wahl.
 
-> Solltest du dir noch immer nicht sicher sein, was für dich die bessere Wahl ist, kannst du dich gerne bei uns im Support melden.
-> Teile uns dort mit, was du genau für Wünsche mit dem Server realisieren möchtest und wir beraten dich dann gerne! 
+:::info
+Solltest du dir noch immer nicht sicher sein, was für dich die bessere Wahl ist, kannst du dich gerne bei uns im Support melden.
+
+Teile uns dort mit, was du genau für Wünsche mit dem Server realisieren möchtest und wir beraten dich dann gerne! 
+:::

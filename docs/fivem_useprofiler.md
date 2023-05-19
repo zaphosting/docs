@@ -52,4 +52,6 @@ We now select a "tick" that consumes a lot of performance:
 Now we can see which resources are consuming a lot of time.
 
 
-> Resources that consume more than 6 ms in total can cause problems.
+:::info
+Resources that consume more than 6 ms in total can cause problems.
+:::

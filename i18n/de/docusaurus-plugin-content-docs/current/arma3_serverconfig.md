@@ -60,13 +60,17 @@ Wie du dich via FTP zu deinem Gameserver verbindest, lernst du hier: [FTP-Dateiz
 
 ## Herstellen der Verbindung und Navigation zum Pfad der Server.cfg
 
-> Stelle sicher dass dein Gameserver gestoppt ist während du auf diesem via FTP arbeitest.
+:::info
+Stelle sicher dass dein Gameserver gestoppt ist während du auf diesem via FTP arbeitest.
+:::
 
 Nachdem du dich wir oben erklärt via FTP auf deinen Gameserver verbunden hast, navigierst du dich via FileZilla im unteren rechsten Fenster zum Verzeichnis deiner Server.cfg, diese findest du unter: **/g198376/arma3/config**
 
 ![](https://puu.sh/Fo4Om/5df742a376.png)
 
-> Der Name des ersten Ordners (g198376) entspricht der ID deines Servers, so kannst du die Ordner außeinander halten sofern du mehr als
+:::info
+Der Name des ersten Ordners (g198376) entspricht der ID deines Servers, so kannst du die Ordner außeinander halten sofern du mehr als
+:::
 einen Gameserver besitzt.
 
 ![](https://puu.sh/Fo4Tw/06f7a53914.png)

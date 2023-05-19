@@ -27,19 +27,25 @@ Sollte der Live Chat für dich gerade keine Option sein und du möchtest dennoch
 
 ![image](https://user-images.githubusercontent.com/61953937/159140599-79251eeb-1601-49c7-8dfb-77ad199c9f73.png)
 
-> Einfach oben im Webinterface auf das Logo klicken
+:::info
+Einfach oben im Webinterface auf das Logo klicken
+:::
 
 
 
 ![image](https://user-images.githubusercontent.com/61953937/159140621-25caea44-8a01-4c54-a15b-509f39ad42d1.png)
 
-> Der Link leitet euch zu allen aktuellen Tickets, die ihr bislang erstellt habt
+:::info
+Der Link leitet euch zu allen aktuellen Tickets, die ihr bislang erstellt habt
+:::
 
 
 
 ![image](https://user-images.githubusercontent.com/61953937/159140627-d93a5c05-e9a9-410e-810e-588c3fb0ccaf.png)
 
-> Wichtig: Damit euer Anliegen so schnell wie möglich behoben werden kann, ist es wichtig, dass die Problematik so ausführlich, wie möglich beschrieben wird. Zusätzliche Informationen zur Fehlermeldung oder Screenshots können ebenfalls weiterhelfen. 
+:::info
+Wichtig: Damit euer Anliegen so schnell wie möglich behoben werden kann, ist es wichtig, dass die Problematik so ausführlich, wie möglich beschrieben wird. Zusätzliche Informationen zur Fehlermeldung oder Screenshots können ebenfalls weiterhelfen. 
+:::
 
 
 

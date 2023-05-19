@@ -5,7 +5,9 @@ description: Information on how to become an admin on your SCP server from ZAP-H
 sidebar_label: Become Admin
 ---
 
-> NOTICE: Since recent SCP Updates, the password login is no longer functional. Please use the following guide to add your roles directly by the steamid. 
+:::info
+NOTICE: Since recent SCP Updates, the password login is no longer functional. Please use the following guide to add your roles directly by the steamid. 
+:::
 
 ## Configuration for the Remote Admin Config
 
@@ -54,6 +56,9 @@ For example, to add admin and moderator to override the password:
 
 ![image](https://user-images.githubusercontent.com/26007280/189888498-75842a1c-848b-4169-a468-270a32edccf9.png)
 
-> Hint: To open the remote admin console ingame, once you are logged into the server, you would use the "**M**" key. 
+:::info
+Hint: To open the remote admin console ingame, once you are logged into the server, you would use the "**M**" key. 
 
-> If the server is running, you will have to restart the server for it to take affect. Or if the server is offline, simply turn the server on and then check the Remote Admin Console ingame.
+
+If the server is running, you will have to restart the server for it to take affect. Or if the server is offline, simply turn the server on and then check the Remote Admin Console ingame.
+:::

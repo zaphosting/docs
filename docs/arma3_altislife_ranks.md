@@ -12,7 +12,9 @@ In ArmA 3 there are different ranks which can be assigned to a player. These inc
 Depending on the server, there can be other ranks if for example a new faction or profession is added.
 In the following you will learn how to assign the ranks for Cop's, Medic's and Administrators in the game, always using the database within the table **players**.
 
-> IMPORTANT: To find the name of the player in the database you have to connect to the server at least once!
+:::info
+IMPORTANT: To find the name of the player in the database you have to connect to the server at least once!
+:::
 
 
 ## Opening the database

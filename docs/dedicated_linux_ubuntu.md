@@ -10,7 +10,9 @@ sidebar_label: Install Ubuntu
 
 In your ZAP interface, select the desired ISO of Ubuntu and let the server boot with the ISO until it is in the setup process. Navigation in the setup process is done with TAB, Space and Enter.
 
-> TAB = switch between items, Space = highlight, Enter = confirm
+:::info
+TAB = switch between items, Space = highlight, Enter = confirm
+:::
 
 ***
 
@@ -84,7 +86,9 @@ We would recommend to enable the installation of the OpenSSH-Server if you'd lik
 
 Ubuntu offers a few default snaps, if you'd like to use some of them, just tick the ones of your like.
 
-> 🎉 The server is now installing everything, after thats done ubuntu is installed.
+:::info
+🎉 The server is now installing everything, after thats done ubuntu is installed.
+:::
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/SzrxCtJTx2S8Nef/preview)
 
@@ -104,4 +108,6 @@ Enter now the new desired for the root user.
 
 Thats it - You can now login with your useraccount `root`
 
-> ⚠️ If you have any further questions or problems, our support is happy to assist you!
+:::info
+If you have any further questions or problems, our support is happy to assist you!
+:::
