@@ -16,7 +16,7 @@
     "description": "The label for category Account in sidebar guidesSidebar"
   },
   "sidebar.guidesSidebar.category.Security": {
-    "message": "Security",
+    "message": "Sicherheit",
     "description": "The label for category Security in sidebar guidesSidebar"
   },
   "sidebar.guidesSidebar.category.Partner": {
@@ -28,7 +28,7 @@
     "description": "The label for category General in sidebar gameserverSidebar"
   },
   "sidebar.gameserverSidebar.category.Databases": {
-    "message": "Datenbanken",
+    "message": "Databases",
     "description": "The label for category Databases in sidebar gameserverSidebar"
   },
   "sidebar.gameserverSidebar.category.Minecraft": {
@@ -60,11 +60,11 @@
     "description": "The label for category FiveM in sidebar gameserverSidebar"
   },
   "sidebar.gameserverSidebar.category.Configuration & Administration": {
-    "message": "Konfiguration und Verwaltung",
+    "message": "Konfiguration & Verwaltung",
     "description": "The label for category Configuration & Administration in sidebar gameserverSidebar"
   },
   "sidebar.gameserverSidebar.category.Resources & Mods": {
-    "message": "Resources & Mods",
+    "message": "Resourcen & Mods",
     "description": "The label for category Resources & Mods in sidebar gameserverSidebar"
   },
   "sidebar.gameserverSidebar.category.ESX": {
