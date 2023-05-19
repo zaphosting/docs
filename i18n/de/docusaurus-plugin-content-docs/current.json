@@ -4,7 +4,7 @@
     "description": "The label for version current"
   },
   "sidebar.guidesSidebar.category.First Steps": {
-    "message": "First Steps",
+    "message": "Erste Schritte",
     "description": "The label for category First Steps in sidebar guidesSidebar"
   },
   "sidebar.guidesSidebar.category.Support": {
@@ -24,11 +24,11 @@
     "description": "The label for category Partner in sidebar guidesSidebar"
   },
   "sidebar.gameserverSidebar.category.General": {
-    "message": "General",
+    "message": "Allgemein",
     "description": "The label for category General in sidebar gameserverSidebar"
   },
   "sidebar.gameserverSidebar.category.Databases": {
-    "message": "Databases",
+    "message": "Datenbanken",
     "description": "The label for category Databases in sidebar gameserverSidebar"
   },
   "sidebar.gameserverSidebar.category.Minecraft": {
@@ -36,7 +36,7 @@
     "description": "The label for category Minecraft in sidebar gameserverSidebar"
   },
   "sidebar.gameserverSidebar.category.First Steps": {
-    "message": "First Steps",
+    "message": "Erste Schritte",
     "description": "The label for category First Steps in sidebar gameserverSidebar"
   },
   "sidebar.gameserverSidebar.category.Administration": {
@@ -60,7 +60,7 @@
     "description": "The label for category FiveM in sidebar gameserverSidebar"
   },
   "sidebar.gameserverSidebar.category.Configuration & Administration": {
-    "message": "Configuration & Administration",
+    "message": "Konfiguration und Verwaltung",
     "description": "The label for category Configuration & Administration in sidebar gameserverSidebar"
   },
   "sidebar.gameserverSidebar.category.Resources & Mods": {
@@ -248,7 +248,7 @@
     "description": "The label for category Project Zomboid in sidebar gameserverSidebar"
   },
   "sidebar.vpsrootSidebar.category.First Steps": {
-    "message": "First Steps",
+    "message": "Erste Schritte",
     "description": "The label for category First Steps in sidebar vpsrootSidebar"
   },
   "sidebar.vpsrootSidebar.category.Linux": {
@@ -256,11 +256,11 @@
     "description": "The label for category Linux in sidebar vpsrootSidebar"
   },
   "sidebar.vpsrootSidebar.category.General": {
-    "message": "General",
+    "message": "Allgemein",
     "description": "The label for category General in sidebar vpsrootSidebar"
   },
   "sidebar.vpsrootSidebar.category.Services": {
-    "message": "Services",
+    "message": "Dienste",
     "description": "The label for category Services in sidebar vpsrootSidebar"
   },
   "sidebar.vpsrootSidebar.category.Windows": {
@@ -268,15 +268,15 @@
     "description": "The label for category Windows in sidebar vpsrootSidebar"
   },
   "sidebar.vpsrootSidebar.category.Gameserver services": {
-    "message": "Gameserver services",
+    "message": "Gameserver Dienste",
     "description": "The label for category Gameserver services in sidebar vpsrootSidebar"
   },
   "sidebar.dedicatedserverSidebar.category.First Steps": {
-    "message": "First Steps",
+    "message": "Erste Schritte",
     "description": "The label for category First Steps in sidebar dedicatedserverSidebar"
   },
   "sidebar.dedicatedserverSidebar.category.Operating system": {
-    "message": "Operating system",
+    "message": "Betriebssystem",
     "description": "The label for category Operating system in sidebar dedicatedserverSidebar"
   },
   "sidebar.domainwebspaceSidebar.category.Domain": {
