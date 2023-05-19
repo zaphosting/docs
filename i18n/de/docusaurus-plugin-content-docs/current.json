@@ -4,7 +4,7 @@
     "description": "The label for version current"
   },
   "sidebar.guidesSidebar.category.First Steps": {
-    "message": "First Steps",
+    "message": "Erste Schritte",
     "description": "The label for category First Steps in sidebar guidesSidebar"
   },
   "sidebar.guidesSidebar.category.Support": {
@@ -16,7 +16,7 @@
     "description": "The label for category Account in sidebar guidesSidebar"
   },
   "sidebar.guidesSidebar.category.Security": {
-    "message": "Security",
+    "message": "Sicherheit",
     "description": "The label for category Security in sidebar guidesSidebar"
   },
   "sidebar.guidesSidebar.category.Partner": {
@@ -24,11 +24,11 @@
     "description": "The label for category Partner in sidebar guidesSidebar"
   },
   "sidebar.gameserverSidebar.category.General": {
-    "message": "General",
+    "message": "Allgemein",
     "description": "The label for category General in sidebar gameserverSidebar"
   },
   "sidebar.gameserverSidebar.category.Databases": {
-    "message": "Databases",
+    "message": "Datenbanken",
     "description": "The label for category Databases in sidebar gameserverSidebar"
   },
   "sidebar.gameserverSidebar.category.Minecraft": {
@@ -36,7 +36,7 @@
     "description": "The label for category Minecraft in sidebar gameserverSidebar"
   },
   "sidebar.gameserverSidebar.category.First Steps": {
-    "message": "First Steps",
+    "message": "Erste Schritte",
     "description": "The label for category First Steps in sidebar gameserverSidebar"
   },
   "sidebar.gameserverSidebar.category.Administration": {
@@ -248,7 +248,7 @@
     "description": "The label for category Project Zomboid in sidebar gameserverSidebar"
   },
   "sidebar.vpsrootSidebar.category.First Steps": {
-    "message": "First Steps",
+    "message": "Erste Schritte",
     "description": "The label for category First Steps in sidebar vpsrootSidebar"
   },
   "sidebar.vpsrootSidebar.category.Linux": {
@@ -272,7 +272,7 @@
     "description": "The label for category Gameserver services in sidebar vpsrootSidebar"
   },
   "sidebar.dedicatedserverSidebar.category.First Steps": {
-    "message": "First Steps",
+    "message": "Erste Schritte",
     "description": "The label for category First Steps in sidebar dedicatedserverSidebar"
   },
   "sidebar.dedicatedserverSidebar.category.Operating system": {
