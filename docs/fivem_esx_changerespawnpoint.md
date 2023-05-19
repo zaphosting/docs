@@ -6,7 +6,7 @@ sidebar_label: Change Respawnpoint
 ---
 
 :::info
-**Important**: ESX must be installed
+ESX must be installed
 :::
 
 📔 Preparations

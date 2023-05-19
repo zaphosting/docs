@@ -6,7 +6,7 @@ sidebar_label: Add Job-Garage Cars
 ---
 
 :::info
-**Important**: ESX must be installed
+ESX must be installed
 :::
 
 

@@ -6,7 +6,7 @@ sidebar_label: Admin über Datenbank werden
 ---
 
 :::info
-**Wichtig**: Ein Charakter muss erstellt sein von euch, sodass ihr diesen dann auch in der Datenbank findet.
+Ein Charakter muss erstellt sein von euch, sodass ihr diesen dann auch in der Datenbank findet.
 :::
 
 ## Admin werden

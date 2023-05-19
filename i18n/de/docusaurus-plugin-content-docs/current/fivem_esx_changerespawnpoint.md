@@ -6,7 +6,7 @@ sidebar_label: Respawnpoint setzen
 ---
 
 :::info
-**Wichtig**: ESX muss installiert sein
+ESX muss installiert sein
 :::
 
 📔 Vorbereitungen

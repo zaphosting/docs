@@ -26,7 +26,7 @@ https://wiki.gtanet.work/index.php?title=Vehicle_Models
 Haben wir uns ein Autos ausgesucht können wir es dann hinzufügen.
 
 :::info
-**Wichtig**: Standartmäßig sind sehr viele Autos schon im Fahrzeugshop. Schaut ob euer Auto eventuell schon eingetragen ist.
+Standartmäßig sind sehr viele Autos schon im Fahrzeugshop. Schaut ob euer Auto eventuell schon eingetragen ist.
 :::
 
 Zu aller erst kontrollieren wir die Fahrzeugkategorien. Sodass wir wissen welche wir hinterlegen können.
