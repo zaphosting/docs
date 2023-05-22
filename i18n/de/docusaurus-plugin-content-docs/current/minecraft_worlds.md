@@ -1,6 +1,6 @@
 ---
 id: minecraft_worlds
-title: Minecraft Server Welten verwalten
+title: Server Welten verwalten
 description: Informationen, wie du mehrere Welten auf deinem Minecraft-Server von ZAP-Hosting verwalten kannst - ZAP-Hosting.com Dokumentationen
 sidebar_label: Welten Verwalten
 ---

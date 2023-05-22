@@ -1,6 +1,6 @@
 ---
 id: fivem_dashboard
-title: FiveM Server administration via the web interface dashboard
+title: Administration via the web interface dashboard
 description: Information about the settings options of FiveM servers from ZAP-Hosting in the Web Interface Dashboard - ZAP-Hosting.com documentation
 sidebar_label: Dashboard
 ---
@@ -24,7 +24,9 @@ New SteamIds can be added under the Admin list, these are used for example for E
 
 ![image](https://user-images.githubusercontent.com/13604413/159137399-35aa9522-5cce-4fee-80f9-07756822cdbd.png)
 
-> You can find out your SteamID64 via the SteamID Lookup Tool, this can also show you the SteamID of other players.
+:::info
+You can find out your SteamID64 via the SteamID Lookup Tool, this can also show you the SteamID of other players.
+:::
 
 ### 🇺🇲 Language settings
 
@@ -32,7 +34,9 @@ Under the Dunko VRP/ESX settings you can select the languages which are displaye
 
 ![image](https://user-images.githubusercontent.com/13604413/159137405-7ddcca86-ef41-427a-9563-ee4723b8a95a.png)
 
-> This setting can also be left blank, in which case no language is set.
+:::info
+This setting can also be left blank, in which case no language is set.
+:::
 
 ### Rcon Password
 
@@ -58,4 +62,6 @@ Under the Resources tab you can install ready-made FiveM resources, these usuall
 
 ![image](https://user-images.githubusercontent.com/13604413/159137465-84468939-7796-489d-ab89-5c5f160996d9.png)
 
-> Force overwrite must be disabled to edit the scripts, otherwise all changes will be overwritten with the official version.
+:::info
+Force overwrite must be disabled to edit the scripts, otherwise all changes will be overwritten with the official version.
+:::

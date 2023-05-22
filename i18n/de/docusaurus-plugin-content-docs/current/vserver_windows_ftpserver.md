@@ -1,6 +1,6 @@
 ---
 id: vserver_windows_ftpserver
-title: vServer FTP Server auf Windows Server installieren
+title: FTP Server auf Windows Server installieren
 description: Informationen, wie du einen FTP Server auf deinen Windows vServer von ZAP-Hosting installieren und einrichten kannst - ZAP-Hosting.com Dokumenationen
 sidebar_label: FTP Server installieren
 ---
@@ -54,7 +54,9 @@ Damit der Benutzer auch die entsprechenden Berechtigungen hat, musst du noch fes
 
 Rechts daneben findest du dann die Option **Permissions**, worüber du die Zugriffsrechte auf den angegebenen Pfad bestimmen kannst. Solltest du die Daten sowohl lesen als auch bearbeiten können, dann empfiehlt es sich **Read+Write** zu setzen. 
 
-> ⚠️ ACHTUNG! Aus Sicherheitsgründen solltest du einem Benutzer immer nur Zugriff auf bestimmte Ordner geben. 
+:::info
+ACHTUNG! Aus Sicherheitsgründen solltest du einem Benutzer immer nur Zugriff auf bestimmte Ordner geben. 
+:::
 
 Die vorgenommenen Änderungen kannst du nun über den **Apply** Button übernehmen und bestätigen. 
 

@@ -27,7 +27,9 @@ It is important that your channel has a certain minimum reach and that your targ
 
 As an affiliate, you should have a certain amount of reach so that a partnership makes sense for us. With video channels, for example, we pay particular attention to the number of video views in the last few months, with forums to the number of members and whether contributions are made regularly.
 
-> As a rule of thumb, your reach should be in the four-figure range in order to be accepted as a partner.
+:::info
+As a rule of thumb, your reach should be in the four-figure range in order to be accepted as a partner.
+:::
 
 ## What are the advantages?
 

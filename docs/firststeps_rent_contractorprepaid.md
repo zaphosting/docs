@@ -1,6 +1,6 @@
 ---
 id: firststeps_rent_contractorprepaid
-title: ZAP-Hosting.com Contract or Prepaid - What are the differences?
+title: Contract or Prepaid - What are the differences?
 description: Information on the differences between the prepaid and contract options for servers from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Contract or Prepaid
 ---
@@ -26,5 +26,7 @@ If you pay with PayPal or credit card, a payment agreement is automatically crea
 
 ![image](https://user-images.githubusercontent.com/61953937/159139665-6af5bf6e-7f71-4803-94b1-ff28392d6b3d.png)
 
-> You also have the possibility to deactivate the checkbox "**subscription payment**" during the order process. We will send you an invoice on a regular basis, which you will have to pay manually in the customer portal.
+:::info
+You also have the possibility to deactivate the checkbox "**subscription payment**" during the order process. We will send you an invoice on a regular basis, which you will have to pay manually in the customer portal.
+:::
 You have the possibility to add or remove **subscription payment to a contract at any time later. To do so, open the navigation point "**Contracts & Prepaids**" in the customer portal

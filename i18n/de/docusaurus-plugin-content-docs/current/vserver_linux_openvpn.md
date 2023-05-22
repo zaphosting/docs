@@ -1,6 +1,6 @@
 ---
 id: vserver_linux_openvpn
-title: vServer OpenVPN auf Server installieren
+title: OpenVPN auf Server installieren
 description: Informationen, wie du OpenVPN auf deinen vServer von ZAP-Hosting installieren und einrichten kannst - ZAP-Hosting.com Dokumentationen
 sidebar_label: OpenVPN
 ---
@@ -85,7 +85,9 @@ Klicke dort dann auf `Datei importieren` und wähle die Datei, die du vorher her
 Nun erhälst du die Meldung "Konfigurationsdatei erfolgreich Importiert."
 
 Um dich zu verbinden mache wieder einen Rechtsklick auf den Monitor mit dem Schloss davor und wähle "Verbinden".
-> ⚠️ Solltest du mehrere Dateien Importiert haben, musst du noch den Client auswählen, welchen du verwenden möchtest und klicke dann auf Verbinden.
+:::info
+Solltest du mehrere Dateien Importiert haben, musst du noch den Client auswählen, welchen du verwenden möchtest und klicke dann auf Verbinden.
+:::
 Jetzt solltest du verbunden werden.
 
 Wenn du die Verbindung wieder Trennen möchtest, wähle nicht "Verbinden" aus sondern "Trennen". 

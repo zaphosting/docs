@@ -1,6 +1,6 @@
 ---
 id: terraria_tshock_add_admin
-title: Terraria Become a server admin (tShock)
+title: Become a server admin (tShock)
 description: Information on how to become an admin on your Terraria server with tShock from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Become an admin (tShock)
 ---
@@ -38,7 +38,9 @@ which you can use in the future to login as admin on your server.
 ![image](https://user-images.githubusercontent.com/13604413/159178432-d6f9e2ab-bc7f-448c-9f12-d8908b022acc.png)
 ![image](https://user-images.githubusercontent.com/13604413/159178433-e49d98cd-bbcc-400a-abd2-d1e2f83c9052.png)
 
-> Note that your password must be at least 4 characters long!
+:::info
+Note that your password must be at least 4 characters long!
+:::
 
 ## Login as Admin
 

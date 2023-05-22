@@ -1,6 +1,6 @@
 ---
 id: vserver_linux_xrdp
-title: vServer/Dedicated Server Installing xRDP (Remote Desktop) 
+title: Installing xRDP (Remote Desktop) 
 description: Guide to install xRDP (Remote Desktop) on Linux - ZAP-Hosting.com Documentation
 sidebar_label: Linux Remotedesktop (xRDP)
 ---
@@ -8,7 +8,9 @@ sidebar_label: Linux Remotedesktop (xRDP)
 On Linux, there is usually a default SSH console to manage the server. In some cases it may be easier to use a remote desktop connection, similar to Windows. 
 A post-installation is possible for most Linux distros. In this guide this is explained for Ubuntu and Debian. 
 
-> ⚠️ Important: At least Ubuntu 18.04.X LTS (Bionic Beaver) or Debian 10 (Buster) must be used as OS. Newer versions are recommended. 
+:::info
+Important: At least Ubuntu 18.04.X LTS (Bionic Beaver) or Debian 10 (Buster) must be used as OS. Newer versions are recommended. 
+:::
 
 ## Installing xRDP
 

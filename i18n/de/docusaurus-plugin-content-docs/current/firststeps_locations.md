@@ -1,6 +1,6 @@
 ---
 id: firststeps_locations
-title: ZAP-Hosting Standorte
+title: Standorte
 description: Informationen zu den Standorten von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Standorte
 ---

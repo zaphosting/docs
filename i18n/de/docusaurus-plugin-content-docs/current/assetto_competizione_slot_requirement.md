@@ -1,6 +1,6 @@
 ---
 id: assetto_competizione_slot_requirement
-title: Assetto Corsa Competizione Car Slot Voraussetzungen
+title: Car Slot Voraussetzungen
 description: Informationen, wie du deine Car Slots erhöhst und korrekt nutzen kannst - ZAP-Hosting.com Dokumentationen
 sidebar_label: Car Slot Voraussetzungen
 ---
@@ -29,7 +29,9 @@ Im Nachfolgenden wird eine Liste mit möglichen Kombinationen angezeigt um die g
 Hierbei gibt es auch mehr als eine mögliche Lösung, um die nötige Slot Voraussetzung zu erreichen.
 Aus diesem Grund wurden in der Liste auch die verschiedenen Möglichkeiten dargestellt.
 
-> Beachte, dass hierbei für safetyRatingRequirement und trackMedalRequirement die **mindest** Anforderungen eingetragen wurden. Es ist natürlich auch möglich mit größeren Werten bei safetyRatingRequirement und trackMedalRequirement weniger Slots zu hosten.
+:::info
+Beachte, dass hierbei für safetyRatingRequirement und trackMedalRequirement die **mindest** Anforderungen eingetragen wurden. Es ist natürlich auch möglich mit größeren Werten bei safetyRatingRequirement und trackMedalRequirement weniger Slots zu hosten.
+:::
 
 Slots | safetyRatingRequirement | trackMedalRequirement
 -----|-------|---------

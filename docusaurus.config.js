@@ -42,7 +42,8 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          //editUrl: 'https://github.com/zaphosting/docs/tree/master/',
+          editUrl: 'https://github.com/zaphosting/docs/tree/master/',
+          editLocalizedFiles: true
         },
         blog: false,
         theme: {
@@ -56,7 +57,8 @@ const config = {
   /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
   ({
     // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    //image: 'img/docusaurus-social-card.jpg',
+    image: undefined,
     navbar: {
       title: 'ZAP-Hosting Docs',
       logo: {
@@ -70,13 +72,37 @@ const config = {
           type: 'docSidebar',
           sidebarId: 'guidesSidebar',
           position: 'left',
-          label: 'All Guides',
+          label: 'General',
         },
         {
           type: 'docSidebar',
           sidebarId: 'gameserverSidebar',
           position: 'left',
-          label: 'Gameserver Guides',
+          label: 'Gameserver',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'vpsrootSidebar',
+          position: 'left',
+          label: 'vRootserver',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'dedicatedserverSidebar',
+          position: 'left',
+          label: 'Dedicated Server',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'domainwebspaceSidebar',
+          position: 'left',
+          label: 'Domain & Webspace',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'voiceserverbotSidebar',
+          position: 'left',
+          label: 'Voicebot & Voiceserver',
         },
         {
           type: 'localeDropdown',

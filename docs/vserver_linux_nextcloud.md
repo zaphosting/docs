@@ -35,7 +35,9 @@ In order to achieve optimal performance, stability and functionality, the follow
 | Web server       | Apache 2.4 with `mod_php` or `php-fpm` (recommended)         |
 | PHP              | 5.6, 7.0 (recommended), 7.1 (recommended), 7.2               |
 
-> ⚠️ The requirements are based on our own experience and the information provided by the developers..
+:::info
+The requirements are based on our own experience and the information provided by the developers..
+:::
 
 
 
@@ -293,7 +295,9 @@ Afterwards a user has to be created, which gets access to the Nextcloud database
 CREATE USER 'nc_user'@'localhost' IDENTIFIED BY 'YOUR_PASSWORD_HERE';
 ```
 
-> ⚠️ Don't skip this step by using the root user. This is not safe and can put your data at risk!
+:::info
+Don't skip this step by using the root user. This is not safe and can put your data at risk!
+:::
 
 The last step is to assign the permissions to the new user:
 
@@ -334,7 +338,9 @@ Afterwards a user has to be created, which gets access to the Nextcloud database
 CREATE USER 'nc_user'@'localhost' IDENTIFIED BY 'YOUR_PASSWORD_HERE';
 ```
 
-> Don't skip this step by using the root user.This is not safe and can put your data at risk!
+:::info
+Don't skip this step by using the root user.This is not safe and can put your data at risk!
+:::
 
 
 The last step is to assign the permissions to the new user:
@@ -376,7 +382,9 @@ Afterwards a user has to be created, which gets access to the Nextcloud database
 CREATE USER 'nc_user'@'localhost' IDENTIFIED BY 'YOUR_PASSWORD_HERE';
 ```
 
-> Don't skip this step by using the root user.This is not safe and can put your data at risk!
+:::info
+Don't skip this step by using the root user.This is not safe and can put your data at risk!
+:::
 
 The last step is to assign the permissions to the new user:
 
@@ -441,7 +449,9 @@ rm nextcloud-16.0.4.zip
 
 Once this step is finished, it's time to run the installation script. Access is possible via the browser via the following URL:
 
-> **http://domain.tld/nextcloud/** 
+:::info
+**http://domain.tld/nextcloud/** 
+:::
 
 The installation script configuration appears, in which a root user is created and database information defined:
 

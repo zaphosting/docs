@@ -1,6 +1,6 @@
 ---
 id: suggestions
-title: Submit suggestions for new game servers and features on ZAP-Hosting
+title: Submit suggestions
 description: Information on how to submit suggestions for new game servers and features on ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Submit Suggestions
 ---
@@ -22,12 +22,19 @@ To submit a suggestion, simply click on the "Suggest Feature" button on the sugg
 ### What should be considered when suggesting games?
 In principle, any game or modpack for which we do not yet offer a game server can be proposed. We review all suggestions and decide whether it makes sense to add a particular game. Minecraft modpacks can of course be suggested under "Game Request".
 * For game suggestions, it is sufficient to only enter the game name / modpack name and, if necessary, a link to the website of the game/modpack. Example:
-> RLCraft
-> https://www.curseforge.com/minecraft/modpacks/rlcraft
+:::info
+RLCraft
+
+https://www.curseforge.com/minecraft/modpacks/rlcraft
+:::
 * The newer or more current a game, the better.
-> For new games, we make sure that there is a certain minimum demand, so we assume that servers are also rented. Games and modpacks that are only played by a very small number of players and / or have been on the market for a long time and are also no longer updated are less likely to be integrated into our gameserver cloud.
+:::info
+For new games, we make sure that there is a certain minimum demand, so we assume that servers are also rented. Games and modpacks that are only played by a very small number of players and / or have been on the market for a long time and are also no longer updated are less likely to be integrated into our gameserver cloud.
+:::
 * We are constantly checking whether it makes sense to add games for the game server interface for virtual servers.
-> Therefore, it is usually not necessary to add requests for games for the game server interface.
+:::info
+Therefore, it is usually not necessary to add requests for games for the game server interface.
+:::
 
 
 ### What needs to be considered with web interface features

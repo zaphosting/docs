@@ -1,6 +1,6 @@
 ---
 id: vserver_windows_installmysql
-title: vServer MySQL Server auf Windows Server installieren
+title: MySQL Server auf Windows Server installieren
 description: Informationen, wie du einen MySQL Server auf deinen Windows Server von ZAP-Hosting installieren und einrichten kannst - ZAP-Hosting.com Dokumentationen
 sidebar_label: MySQL Server Installieren
 ---
@@ -27,7 +27,9 @@ Im Anschluss navigierst du durch das klicken auf **Next** durch den Installation
 Dort legst du nun das Hauptpasswort für den Zugang zu deinem Datenbankserver fest, achte bitte unbedingt darauf dass du hier ein sicheres Passwort verwendest und dass 
 niemand außer dir dieses Passwort kennt!
 
-> ⚠️ WICHTIG! Möchtest du von Außen via Navicat, HeidiSQL oder mithilfe eines anderen Tool auf die Datenbank zugreifen können muss zusätzlich der Punkt **Enable access from remote machins for root user** aktiviert werden! Aus Sicherheitsgründen ist dies jedoch generell nicht zu empfehlen.
+:::info
+WICHTIG! Möchtest du von Außen via Navicat, HeidiSQL oder mithilfe eines anderen Tool auf die Datenbank zugreifen können muss zusätzlich der Punkt **Enable access from remote machins for root user** aktiviert werden! Aus Sicherheitsgründen ist dies jedoch generell nicht zu empfehlen.
+:::
 
 Im Anschluss klickst du auch hier auf **Next** bis du zum Ende der Installation gelangst, dort klickst du dann abschließend auf **Install**:
 

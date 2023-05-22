@@ -1,6 +1,6 @@
 ---
 id: fivem_deletecache
-title: FiveM Server Empty Cache
+title: Empty Cache
 description: Information on how to clear the cache of your FiveM Server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Delete Cache
 ---

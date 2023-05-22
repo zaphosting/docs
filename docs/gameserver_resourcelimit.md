@@ -1,6 +1,6 @@
 ---
 id: gameserver_resourcelimit
-title: Gameserver Resource limit - Unlocking a game server
+title: Resource limit - Unlocking a game server
 description: Information on how to unlock your game server if it has been locked due to exceeding the resource limit - ZAP-Hosting.com documentation
 sidebar_label: Resource limit
 ---
@@ -33,7 +33,9 @@ In certain cases, something like this can lead to a memory leak. This means that
 
 As explained at the beginning, the causes for this can be manifold. To analyze the problem, the first thing to do is to take a look at the server console. This should usually provide helpful information to narrow down the possible causes. To do this, click on the **Console** button of **Option 1**. ![image](https://user-images.githubusercontent.com/13604413/159170765-dc6a6c66-5624-4992-9fee-0e112ab20c67.png)
 
-> This process unlocks your service again so that you can address the problem. Be aware that if the load is exceeded for a long time again, the service will be suspended again. Please actively try to address the problem and find solutions. 
+:::info
+This process unlocks your service again so that you can address the problem. Be aware that if the load is exceeded for a long time again, the service will be suspended again. Please actively try to address the problem and find solutions. 
+:::
 
 
 

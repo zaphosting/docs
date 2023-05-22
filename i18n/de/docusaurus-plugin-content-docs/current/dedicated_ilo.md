@@ -97,7 +97,9 @@ Zeigt dir die Netzwerkkonfiguration deiner iLO, bitte beachte das diese Einstell
 
 ## Remote Consoles (Bildschirm)
 
-> ⚠️ Um deinen Server einzurichten oder falls der Zugriff über das Netzwerk nicht funktioniert. Hast du jederzeit die Möglichkeit direkt auf deinen Server zu schauen als würdest du einen Bildschirm anschließen.
+:::info
+Um deinen Server einzurichten oder falls der Zugriff über das Netzwerk nicht funktioniert. Hast du jederzeit die Möglichkeit direkt auf deinen Server zu schauen als würdest du einen Bildschirm anschließen.
+:::
 
 Die iLO bietet dir standardmäßig zwei verschiedene Arten einer Remote Console:
 
@@ -119,7 +121,9 @@ Sofern dein Server über eine grafische Oberfläche verfügt, kannst du deinen M
 
 ### Die Java Console
 Um die diese Console zu verwenden ist es erforderlich das Java installiert ist. (Kann auf java.com heruntergeladen werden)
-> Alle auftretenden Meldungen zu Sicherheitsbedenken können ignoriert werden.
+:::info
+Alle auftretenden Meldungen zu Sicherheitsbedenken können ignoriert werden.
+:::
 
 Nach dem öffnen der Datei wird uns folgende Meldung angezeigt, diese wird mit "Weiter" bestätigt.
 ![](https://screensaver01.zap-hosting.com/index.php/s/nByYm3X8DXNHXmP/preview)
@@ -129,7 +133,9 @@ Wir bestätigen das Risiko und bestätigen mit "Ausführen"
 ![](https://screensaver01.zap-hosting.com/index.php/s/eWzpyXgQPWWz4J4/preview)
 
 Es öffnet sich nun die Java-Console.
-> Die Anwendung stellt häufig das Tastaturlayout auf "EN" um.
+:::info
+Die Anwendung stellt häufig das Tastaturlayout auf "EN" um.
+:::
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/kAp5rddEDjdLNwi/preview)
 
@@ -159,4 +165,6 @@ Bei der eingesetzten Enterprise Hardware ist eine lange Bootzeit völlig normal,
 Stelle sicher das die iLO in deinem Server Dashboard aktiviert ist, aus Sicherheitsgründen schaltet sich die Verwaltungsoberfläche nach einiger Zeit automatisiert ab.
 Du kannst selbstverständlich auch die iLO nochmals deaktivieren und wieder aktivieren. (Warte mindestens 5 Minuten nach dem aktivieren)
 
-> ⚠️ Bei weiteren Fragen und Problemen steht dir unser Support jederzeit gerne mit Rat & Tat zur Verfügung!
+:::info
+Bei weiteren Fragen und Problemen steht dir unser Support jederzeit gerne mit Rat & Tat zur Verfügung!
+:::

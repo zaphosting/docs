@@ -1,13 +1,15 @@
 ---
 id: vserver_linux_ftp
-title: vServer FTP service does not work - Troubleshooting
+title: FTP service does not work - Troubleshooting
 description: Information on how to fix FTP problems on your vServer from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: FTP Service isn't working
 ---
 
 ## What can you do if the gameserver or teamspeak server is not accessible via FTP?
 
-> ⚠️ Attention: The following steps only work on your own vServer/Root Server if the ZAP web interface has been installed!
+:::info
+Attention: The following steps only work on your own vServer/Root Server if the ZAP web interface has been installed!
+:::
 
 If the created server cannot be reached via FTP, the FTP service (ProFTPD) is not active in most cases. In rare cases this can also be due to an incorrect config or an occupied port, i.e. FTP port 21 is used / occupied by another program.
 

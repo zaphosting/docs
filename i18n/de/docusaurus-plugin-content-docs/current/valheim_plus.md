@@ -1,13 +1,15 @@
 ---
 id: valheim_plus
-title: Valheim Valheim Plus-Server
+title: Valheim Plus-Server
 description: Informationen zu Valheim-Serven von ZAP-Hosting, auf denen die Valheim Plus Mod vorinstalliert ist - ZAP-Hosting.com Dokumentationen
 sidebar_label: Valheim Plus
 ---
 
 ## Vorwort
 
-> Valheim Plus ist eine Clientseitige Modifikation. Sie ermöglicht es einige Änderungen am Spiel vorzunehmen.
+:::info
+Valheim Plus ist eine Clientseitige Modifikation. Sie ermöglicht es einige Änderungen am Spiel vorzunehmen.
+:::
 
 ## Valheim Plus Installation auf dem Client
 
@@ -48,7 +50,9 @@ Um nun ein Slotupgrade durchführen zu können, muss die "**UP- und Downgrade**"
 
 Bei der Upgrade-Seite wählt man nun die gewünschte Anzahl an Slots aus. 
 
-> Hierbei muss nur der "**Aufpreis**" bezahlt werden, dieser berechnet sich für die noch verbliebene Laufzeit
+:::info
+Hierbei muss nur der "**Aufpreis**" bezahlt werden, dieser berechnet sich für die noch verbliebene Laufzeit
+:::
 
 ![image](https://user-images.githubusercontent.com/13604413/159180047-0089d7b6-3a2f-4ce1-9c6f-daa2eb5acc64.png)
 

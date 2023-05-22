@@ -1,6 +1,6 @@
 ---
 id: rust_connectrcon
-title: Rust Connecting to the server via RCON
+title: Connecting to the server via RCON
 description: Information on how to connect to your Rust server from ZAP-Hosting via RCON to administer your server - ZAP-Hosting.com documentation
 sidebar_label: Connect via RCON
 ---
@@ -19,7 +19,9 @@ To enable it, visit the **Settings** tab.
 And then enable it directly on this page.
 ![image](https://user-images.githubusercontent.com/26007280/189935810-6d274470-b9bc-42e0-ae43-e68ea387c736.png)
 
-> A server restart would be required for it to take affect. 
+:::info
+A server restart would be required for it to take affect. 
+:::
 
 ### Install RCON Program
 
@@ -33,7 +35,9 @@ You can install it with the button directly on their website.
 
 Once you have opened WebAdmin, press the **Server** at the top. And then press **Connect**.
 
-> Your server must be fully ONLINE to be reachable from RCON. 
+:::info
+Your server must be fully ONLINE to be reachable from RCON. 
+:::
 
 ![image](https://user-images.githubusercontent.com/26007280/189935938-74112814-b941-4565-92a5-29f1646dd048.png)
 
@@ -42,7 +46,9 @@ Here you would enter your respective server information.
 
 ![image](https://user-images.githubusercontent.com/26007280/189935958-10c971be-1d55-400b-8820-5dee6443e4a1.png)
 
-> TIP: Your RCON Port && RCON Password can be found in the **Settings** tab where you enabled the WebRCON. 
+:::info
+TIP: Your RCON Port && RCON Password can be found in the **Settings** tab where you enabled the WebRCON. 
+:::
 
 Once you have entered your data, you can save the configuration.
 

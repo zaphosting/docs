@@ -34,7 +34,9 @@ In our example we enter the following:
 
 ![image](https://user-images.githubusercontent.com/26007280/189681548-b56758c4-7508-4eb5-bdca-eceeb4889ac1.png)
 
-> Attention! A provider key can only be used for one server, for each additional server a new provider key must be created and assigned!
+:::info
+Attention! A provider key can only be used for one server, for each additional server a new provider key must be created and assigned!
+:::
 
 
 ## Realm

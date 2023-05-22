@@ -7,12 +7,28 @@
     "message": "ZAP-Hosting",
     "description": "The alt text of navbar logo"
   },
-  "item.label.All Guides": {
-    "message": "All Guides",
-    "description": "Navbar item with label All Guides"
+  "item.label.General": {
+    "message": "Allgemein",
+    "description": "Navbar item with label General"
   },
-  "item.label.Gameserver Guides": {
-    "message": "Gameserver Guides",
-    "description": "Navbar item with label Gameserver Guides"
+  "item.label.Gameserver": {
+    "message": "Gameserver",
+    "description": "Navbar item with label Gameserver"
+  },
+  "item.label.Dedicated Server": {
+    "message": "Dedicated Server",
+    "description": "Navbar item with label Dedicated Server"
+  },
+  "item.label.Domain & Webspace": {
+    "message": "Domain & Webspace",
+    "description": "Navbar item with label Domain & Webspace"
+  },
+  "item.label.Voicebot & Voiceserver": {
+    "message": "Voicebot & Voiceserver",
+    "description": "Navbar item with label Voicebot & Voiceserver"
+  },
+  "item.label.vRootserver": {
+    "message": "vRootserver",
+    "description": "Navbar item with label vRootserver"
   }
 }

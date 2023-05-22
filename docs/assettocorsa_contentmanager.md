@@ -6,7 +6,9 @@ sidebar_label: Configure Server with Content Manager
 ---
 
 
-> **Important** To manage the server with Content Manager, the full version is required, the lite version can *not* manage servers.
+:::info
+**Important** To manage the server with Content Manager, the full version is required, the lite version can *not* manage servers.
+:::
 
 
 ## Preparation
@@ -44,8 +46,11 @@ Now we change to the tab "Entry List", here we can now add new cars:
 ![image](https://user-images.githubusercontent.com/13604413/159137034-22cb04a5-17a4-4c39-9697-c65fdac44561.png)
 
 
-> Note that all car slots are filled and no more than the amount of available slots are set.
-> ![image](https://user-images.githubusercontent.com/13604413/159137039-17947b65-947a-4276-b681-0a7f27b49e3e.png)
+:::info
+Note that all car slots are filled and no more than the amount of available slots are set.
+
+![image](https://user-images.githubusercontent.com/13604413/159137039-17947b65-947a-4276-b681-0a7f27b49e3e.png)
+:::
 
 ## Configure FTP Upload
 
@@ -58,8 +63,11 @@ Now enter your FTP data here:
 
 ![image](https://user-images.githubusercontent.com/13604413/159137117-597633df-d277-4ae6-b5bc-e155b4fbdf30.png)
 
-> In the "Folder" you must enter the ID of your game server as you see it in the URL of your game server, for example:
-> > https://zap-hosting.com/en/customer/gameserver/show/**427814**/ftpBrowser/
+:::info
+In the "Folder" you must enter the ID of your game server as you see it in the URL of your game server, for example:
+
+> https://zap-hosting.com/en/customer/gameserver/show/**427814**/ftpBrowser/
+:::
 
 In our case, the whole thing would be:
 

@@ -52,7 +52,9 @@ Als Nächstes müssen beim Webspace noch die Berechtigungen vorgenommen werden, 
 
 ![image](https://user-images.githubusercontent.com/26007280/189977450-0060dae6-bfdd-4c45-a566-0720a1c20be7.png)
 
-> Die Berechtigungen müssen für alle Ordner gesetzt werden!
+:::info
+Die Berechtigungen müssen für alle Ordner gesetzt werden!
+:::
 
 Nun können die Custom Inhalte hochgeladen werden. Hierfür müssen die Dateien sowohl auf dem Server als auch auf dem FastDL(Webspace) vorhanden sein. Auf dem Gameserver werden die Dateien ungepackt hochgeladen und auf dem FastDL sollten sie als bzip2 gepackt hochgeladen werden. Hierfür eignet sich das Programm 7Zip.
 

@@ -1,6 +1,6 @@
 ---
 id: minecraft_default_config
-title: Minecraft Server Config settings
+title: Server Config settings
 description: Information about the server config settings of your Minecraft server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Server Config
 ---
@@ -17,8 +17,11 @@ The server can be fundamentally configured in. Here we describe what the individ
 With this setting, the *maximum visibility* can be set by the server. Regardless of how the visibility was set in the client, the server never sends chunk data to the client as specified here. Here you can also lower the value to protect the performance of the server. The gaming experience is not affected even with a value of 5. Lower values then 5 are not recommended and, in rare cases, can also cause problems.
 **IMPORTANT:** The value should under no circumstances (if not absolutely necessary) be set higher and should therefore be treated with caution, as this could lead to severe performance problems.
 
-> This setting is only applied to a Vanilla or Forge server.
-> For Bukkit, Spigot and Paper Spigot, the value must be set in their own config.
+:::info
+This setting is only applied to a Vanilla or Forge server.
+
+For Bukkit, Spigot and Paper Spigot, the value must be set in their own config.
+:::
 
 ### max-build-height
 
@@ -33,8 +36,11 @@ If you have booked multiple IPs for your root or vServer, you can specify here w
 By default, the world generator always generates a random [seed](https://minecraft.gamepedia.com/Seed_(level_generation) and thus a completely random world.
 However, you can define your own seed from **letters or numbers** here, and the server will then create the corresponding world. The maximum length of **32 characters** should also not be exceeded.
 
-> There are some seed generators where you can configure a world according to your own ideas.
-> [This one](https://minecraft.tools/en/custom.php) Generator is one of the best and can do almost anything.
+:::info
+There are some seed generators where you can configure a world according to your own ideas.
+
+[This one](https://minecraft.tools/en/custom.php) Generator is one of the best and can do almost anything.
+:::
 
 ### gamemode
 
@@ -77,8 +83,11 @@ The query provides external services such as a website with separate data, such 
 
 This setting can be used to determine whether players can connect to a VPN / proxy. A VPN is often used to bypass an IP ban, so the option can be very useful. In some cases there is also a restriction, so that even normal connections are wrongly classified and blocked.
 
-> In order to gain extensive control over VPN / proxy connections, it is worth installing a plugin for it.
-> Many free plugins can be found quickly, this (but for a fee) [plugin](https://www.spigotmc.org/resources/antibotdeluxe-%E2%80%BA-the-most-advanced-antibot-spigot-bungee-1500-purchases-1-7-1-15.31700/updates) convinced us the most and protects your server from any bot attacks.
+:::info
+In order to gain extensive control over VPN / proxy connections, it is worth installing a plugin for it.
+
+Many free plugins can be found quickly, this (but for a fee) [plugin](https://www.spigotmc.org/resources/antibotdeluxe-%E2%80%BA-the-most-advanced-antibot-spigot-bungee-1500-purchases-1-7-1-15.31700/updates) convinced us the most and protects your server from any bot attacks.
+:::
 
 ### generator-settings
 
@@ -105,7 +114,9 @@ The world is named "world" by default. With this option a different name can now
 
 A message can be defined here, which is displayed in the server list, if added. The message is not displayed for the direct connection unless special mods are installed in the client. The message can be provided with all possible colors and formatting that Minecraft offers.
 
-> The MOTD can be created quickly and easily using this [tool](https://minecraft.tools/en/motd.php).
+:::info
+The MOTD can be created quickly and easily using this [tool](https://minecraft.tools/en/motd.php).
+:::
 
 ### force-gamemode
 
@@ -195,7 +206,9 @@ A player would then gain unauthorized rights. To prevent this, you should urgent
 
 This deactivates or activates Minecraft's own AntiCheat in relation to flying. Mostly through hack clients it is possible for players to fly without permission.
 
-> However, we always recommend installing an AntiCheat in the form of a plugin!
+:::info
+However, we always recommend installing an AntiCheat in the form of a plugin!
+:::
 
 ### function-permission-level
 

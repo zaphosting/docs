@@ -1,6 +1,6 @@
 ---
 id: domain_expertdns
-title: Domains ExpertDNS
+title: ExpertDNS
 description: Information about the ExpertDNS domain settings at ZAP-Hosting - ZAP-hosting.com documentation
 sidebar_label: ExpertDNS
 ---
@@ -18,7 +18,9 @@ The option is displayed in the domain administration page. **EasyDNS** would be 
 As soon as activated, further name servers can now be entered there. 
 The changes are confirmed with "**Save**".
 
-> You can only use name servers in which the domain was already configured
+:::info
+You can only use name servers in which the domain was already configured
+:::
 
 ![2022-05-07_21-58](https://user-images.githubusercontent.com/61953937/167270085-a01e6672-43ad-4aa9-bdcb-f461c74d5a1e.png)
 

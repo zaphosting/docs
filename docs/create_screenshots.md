@@ -1,6 +1,6 @@
 ---
 id: create_screenshots
-title: "Screenshots How and with which tool to create screenshots"
+title: How and with which tool to create screenshots
 description: Information on how you can take screenshots and which tools are recommended - ZAP-Hosting.com documentation
 sidebar_label: Create Screenshots
 ---
@@ -18,7 +18,9 @@ Under Linux, the usually already installed tool "Screenshots" or other tools suc
 
 Below we will provide a short description of the 2 most popular screenshot tools that are freely available on the market:
 
-> ⚠️ It is not recommended to share private or sensitive data publicly. If data is visible on the screenshot, it should be made unrecognizable or replaced by example data.
+:::info
+It is not recommended to share private or sensitive data publicly. If data is visible on the screenshot, it should be made unrecognizable or replaced by example data.
+:::
 
 
 ### Imgur

@@ -1,6 +1,6 @@
 ---
 id: valheim_backup_schedule
-title: Valheim Automatisierte Backups für Server aktivieren
+title: Automatisierte Backups für Server aktivieren
 description: Informationen, wie du automatisierte Backups für deinen Valheim Server von ZAP-Hosting aktivieren und einstellen kannst - ZAP-Hosting.com Dokumentationen
 sidebar_label: Automatisierte Backups
 ---
@@ -18,11 +18,15 @@ Danach klicken wir auf das "+" es öffnet sich nun ein weiteres Fenster in welch
 Zuerst wählen wir sofern gewünscht "Täglich", dies bedeutet das dieser Neustart dann täglich zu einer bestimmten Uhrzeit erfolgt. 
 Als nächstes definieren wir die gewünschte Uhrzeit an welcher der Neustart durchgeführt werden soll.
 
-> Offline Server starten - Startet deinen Server automatisch sollte er zum Restart-Zeitpunkt ausgeschaltet sein.
+:::info
+Offline Server starten - Startet deinen Server automatisch sollte er zum Restart-Zeitpunkt ausgeschaltet sein.
+:::
 
 Als nächstes klicken wir auf Speichern.
 
 
-> Du könntest z.B. alle 6 Stunden einen Neustart durchführen lassen, somit wird also alle 6 Stunden ein Backup deines Savegames angelegt.
+:::info
+Du könntest z.B. alle 6 Stunden einen Neustart durchführen lassen, somit wird also alle 6 Stunden ein Backup deines Savegames angelegt.
+:::
 
 ![image](https://user-images.githubusercontent.com/26007280/189886355-6ef94846-11ad-41e6-85a8-938eed51d81a.png)

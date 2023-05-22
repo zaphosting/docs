@@ -1,6 +1,6 @@
 ---
 id: vrising-becomeadmin
-title: V Rising Admin werden
+title: Admin werden
 description: Informationen, wie du Admin auf deinem V Rising Server bei ZAP-Hosting wirst - ZAP-Hosting.com Dokumentationen
 sidebar_label: Admin werden
 ---
@@ -18,7 +18,9 @@ Dort angelangt gibst du beim Feld deine Steam Profil URL an, welche du kopiert h
 
 ![image](https://user-images.githubusercontent.com/26007280/190595891-402ca158-0fab-4849-abdc-1d9cef91dcc3.png)
 
-> Solltest du mehreren Spielern Admin Berechtigungen zuweisen wollen, dann müssen die SteamIDs jeweils in einer eigenen Zeile eingetragen werden. 
+:::info
+Solltest du mehreren Spielern Admin Berechtigungen zuweisen wollen, dann müssen die SteamIDs jeweils in einer eigenen Zeile eingetragen werden. 
+:::
 
 
 

@@ -1,13 +1,15 @@
 ---
 id: rust_commands
-title: Rust Admin Commands
+title: Admin Commands
 description: Information on Admin commands for Rust from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Admin Commands
 ---
 
 Rust has a wide range of different commands available for server owners and players to use. On this page, we summarise the most useful and popular ones which are used for server settings, player administrating and to control players.
 
-> Some commands require the use of a player's Steam64 ID. Use the small tutorial below to understand how to get a player's Steam ID.
+:::info
+Some commands require the use of a player's Steam64 ID. Use the small tutorial below to understand how to get a player's Steam ID.
+:::
 
 ## Getting your Steam ID
 Firstly, use use a tool like the [Steam ID Finder](https://steamidfinder.com/) to get your Steam64 ID.
@@ -24,7 +26,9 @@ And that is it, now you have the Steam64 ID and can use it for the commands whic
 
 Use the section tabs below to switch between each category. The tables consist of the command itself, the accepted values for the command (if applicable) and a description to make it easier to understand.
 
-> Any command which is mentioned on this page is for vanilla Rust.
+:::info
+Any command which is mentioned on this page is for vanilla Rust.
+:::
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';

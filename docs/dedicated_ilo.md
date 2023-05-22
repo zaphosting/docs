@@ -93,7 +93,9 @@ Shows you the average power consumption of your system, basically the higher the
 ### Network
 Shows you the network configuration of your iLO, please mention that this settings are not related to the network configurations of your server itself.
 
-> ⚠️ To setup your server or if the access via the network does not work. You always have the possibility to look directly at your server
+:::info
+To setup your server or if the access via the network does not work. You always have the possibility to look directly at your server
+:::
 
 ## Remote Consoles (Display)
 The iLO offers you two different types of remote consoles by default:
@@ -116,7 +118,9 @@ If your server has a graphical user interface (gui), you can use your mouse as u
 
 ### The Java Console
 To use the Java Console you need to have Java installed. (Can be downloaded from java.com)
-> Any messages that appear regarding security concerns can be ignored.
+:::info
+Any messages that appear regarding security concerns can be ignored.
+:::
 
 After opening the file we get the following message, confirm it with "Continue".
 ![](https://screensaver01.zap-hosting.com/index.php/s/nByYm3X8DXNHXmP/preview)
@@ -126,7 +130,9 @@ We acknowledge the risk and confirm with "Run".
 ![](https://screensaver01.zap-hosting.com/index.php/s/eWzpyXgQPWWz4J4/preview)
 
 Now the Java console opens.
-> The application often changes the keyboard layout to "EN".
+:::info
+The application often changes the keyboard layout to "EN".
+:::
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/kAp5rddEDjdLNwi/preview)
 

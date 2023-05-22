@@ -1,6 +1,6 @@
 ---
 id: vserver_windows_fs_22
-title: vServer Landwirtschafts-Simulator 2022 auf Windows installieren
+title: Landwirtschafts-Simulator 2022 auf Windows installieren
 description: Informationen wie du einen Landwirtschafts-Simulator Dedicated Server 2022 auf deinen Windows vServer und Dedicated Server von ZAP-Hosting installieren und einrichten kannst - ZAP-Hosting.com Dokumentationen
 sidebar_label: Landwirtschafts-Simulator 2022
 ---
@@ -9,7 +9,9 @@ sidebar_label: Landwirtschafts-Simulator 2022
 
 # Installation eines Dedicated Servers für den Landwirtschafts-Simulator 2022
 
-> :information_source: Diese Anleitung gilt auch für einen Dedicated Server von ZAP-Hosting mit Windowsserver 2016/2019. Wie Windows auf einem Dedicated Server installiert werden kann, erklären wir [hier](https://zap-hosting.com/guides/docs/de/dedicated_windows/).
+:::info
+:information_source: Diese Anleitung gilt auch für einen Dedicated Server von ZAP-Hosting mit Windowsserver 2016/2019. Wie Windows auf einem Dedicated Server installiert werden kann, erklären wir [hier](https://zap-hosting.com/guides/docs/de/dedicated_windows/).
+:::
 
 ## Basic Informationen: 
 Es wird ein Server, basierend auf Windowsserver 2016/2019 mit mindestens 4x 2,4 GHz CPU (AMD/Intel) sowie mindestens 2GB RAM (DDR3/4) und 6GB freien Speicher (SSD oder besser, bevorzugt) benötigt. Der Server muss auf der 64 Bit Architektur laufen. 
@@ -22,7 +24,9 @@ Je nachdem, wie stark der Dedicated Server gemodded wird, mit Mods oder mit DLCs
 Es wird eine digitale Version des Landwirtschafts-Simulator 2022 benötigt, es darf keine Steam Version sein. 
 Die digitale Version kann auf der [Landwirtschafts-Simulator Webseite](https://www.farming-simulator.com/buy-now.php?lang=de&country=de&platform=pcdigital) erworben werden.
 Nachdem die digitale Version erworben wurde, kann der Landwirtschafts-Simulator online gedownloadet werden, folge dazu dem [Link](https://eshop.giants-software.com/downloads.php) aus der Mail, die du von Giants erhalten hast.
-> Wichtig: In der Mail befindet sich der GameKey der zum Download als auch zur späteren Aktivierung der Installation benötigt wird. 
+:::info
+Wichtig: In der Mail befindet sich der GameKey der zum Download als auch zur späteren Aktivierung der Installation benötigt wird. 
+:::
 
 ![image](https://user-images.githubusercontent.com/13604413/159173431-deafbefa-f186-4acc-9605-1d980142c5c0.png)
 

@@ -5,8 +5,11 @@ description: Information, wie du den Servernamen bei deinem SCP Server von ZAP-H
 sidebar_label: Farbiger Servername
 ---
 
-> Damit dein Server in der öffentlichen Serverliste angezeigt wird muss eine Pastebin ID gesetzt sein. Unsere Anleitung dazu findest du [hier](scp_pastebin.md).
-> Damit Änderungen wirksam werden, muss der Server ausgeschaltet sein.
+:::info
+Damit dein Server in der öffentlichen Serverliste angezeigt wird muss eine Pastebin ID gesetzt sein. Unsere Anleitung dazu findest du [hier](scp_pastebin.md).
+
+Damit Änderungen wirksam werden, muss der Server ausgeschaltet sein.
+:::
 
 Öffne die Einstellungen deines Servers und stelle sicher, dass in 'SCP Servername' nichts eingetragen ist.
 
@@ -23,6 +26,8 @@ Die Config-Datei öffnet sich nun, bei server_name können nun mit dem [RichText
 In diesem Beispiel soll "Grüner Text", "Blauer Text" und "Roter Text" in der jeweiligen Farbe angezeigt wird.
 
 Hierzu benutzen wir den Tag `<color="FARBE">Dein Text</color>`. Eine Auswahl von verschiedenen Farben findest du [hier](https://docs.unity3d.com/Packages/com.unity.ugui@1.0/manual/StyledText.html). Es ist ebenfalls möglich die größe und andere Attribute zu verändern.
-> Es ist wichtig, daran zu denken, dass "quote" " um die tatsächliche Farbe innerhalb des Tags erforderlich ist. Wie das Beispiel oben hat.
+:::info
+Es ist wichtig, daran zu denken, dass "quote" " um die tatsächliche Farbe innerhalb des Tags erforderlich ist. Wie das Beispiel oben hat.
+:::
 
 Wenn du alle Änderungen deinen Wünschen nach verändert hast, müssen diese noch gespeichert werden. Starte nun deinen Server, dann wird dein Servername farbig sein.

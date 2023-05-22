@@ -1,6 +1,6 @@
 ---
 id: valheim_connect
-title: Valheim Auf Valheim-Server verbinden
+title: Auf Valheim-Server verbinden
 description: Informationen, wie du dich auf deinen Valheim Server von ZAP-Hosting verbinden kannst - ZAP-Hosting.com Dokumentationen
 sidebar_label: Zum Server Verbinden
 ---
@@ -9,7 +9,9 @@ Um sich mit deinem Valheim-Server zu verbinden, öffnen wir zunächst unser Webi
 
 ![image](https://user-images.githubusercontent.com/26007280/189885951-e586fd69-a2b2-4711-b8b6-8e9123d145b9.png)
 
-> Beachte: Ohne Password wird dein Valheim-Server nicht starten.
+:::info
+Beachte: Ohne Password wird dein Valheim-Server nicht starten.
+:::
 
 Nachdem wir das Passwort gesetzt haben, können wir den Server starten, hierbei kann es ein paar Minuten dauern, bis dieser zu "Online" schaltet:
 
@@ -49,7 +51,9 @@ Hier fügen wir nun unseren Server wie folgt hinzu:
 
 ![image](https://user-images.githubusercontent.com/13604413/159179811-47456cd9-674e-4017-bc95-219c83349950.png)
 
-> Beachte: Der Port am ende muss +1 gerechnet werden, d.h. wenn dein Port 27043 ist, solltest du in Steam 27044 angeben.
+:::info
+Beachte: Der Port am ende muss +1 gerechnet werden, d.h. wenn dein Port 27043 ist, solltest du in Steam 27044 angeben.
+:::
 
 ![image](https://user-images.githubusercontent.com/26007280/189886006-00a316d6-f128-411b-93c3-6171695815ef.png)
 
@@ -71,7 +75,9 @@ Jetzt können wir oben im Menü auf `Join Game` klicken und unseren Servernamen 
 
 ![image](https://user-images.githubusercontent.com/13604413/159179817-c7c921fb-5d4b-4b34-9ef4-4c93288937fb.png)
 
-> Wenn du deinen Server noch nicht siehst, warte ein bisschen, je nach Anzahl der Server kann ein Refresh ein paar Minuten dauern.
+:::info
+Wenn du deinen Server noch nicht siehst, warte ein bisschen, je nach Anzahl der Server kann ein Refresh ein paar Minuten dauern.
+:::
 
 Nun sollte unser Server bereits in der Liste zu sehen sein, wir können ihn nun anklicken und dann auf `Connect` klicken, sobald wir uns verbunden haben, müssen wir nur noch das Server-Passwort eingeben, das wir in den Einstellungen festgelegt haben und Enter drücken!
 

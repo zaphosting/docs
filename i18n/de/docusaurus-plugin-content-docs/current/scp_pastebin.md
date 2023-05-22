@@ -5,7 +5,9 @@ description: Information, wie du den einen Pastebin Eintrag zum Erstellen einer 
 sidebar_label: Pastebin ID
 ---
 
-> Damit dein Server in der öffentlichen Serverliste angezeigt wird ist es notwendig einen sogenannten Pastebin Eintrag zu erstellen.
+:::info
+Damit dein Server in der öffentlichen Serverliste angezeigt wird ist es notwendig einen sogenannten Pastebin Eintrag zu erstellen.
+:::
 
 Als erstes öffne Pastebin.com in einem Webbrowser deiner Wahl.
 
@@ -23,6 +25,8 @@ Die kopierte ID muss nun in den Einstellungen deines SCP Servers in deinem Serve
 
 Als nächstes noch die Änderungen speichern.
 
-> Damit Änderungen wirksam werden muss der Server neugestartet werden.
+:::info
+Damit Änderungen wirksam werden muss der Server neugestartet werden.
+:::
 
 Im Informationsfenster deines Servers wird nun die von dir gewählte Beschreibung angezeigt und der Server wird in der öffentlichen Serverliste angezeigt.

@@ -1,6 +1,6 @@
 ---
 id: assettocorsa_configure
-title: "Assetto Corsa Configure your server"
+title: Configure your server
 description: Information about the configuration options of your Assetto Corsa server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Configure Server
 ---
@@ -38,7 +38,9 @@ Here we can now click on our preferred map, above we can adjust the number of ca
 
 ![image](https://user-images.githubusercontent.com/13604413/159136194-814b2206-bfc8-44bc-a363-7a275dc73dfc.png)
 
-> Make sure that you do not specify more cars than slots on your server, otherwise the server will not start
+:::info
+Make sure that you do not specify more cars than slots on your server, otherwise the server will not start
+:::
 
 ## Set Cars
 
@@ -53,10 +55,14 @@ In the middle you can see cars which can be placed on the grid, here we can choo
 
 ![image](https://user-images.githubusercontent.com/13604413/159136214-b58c2720-6a04-4882-a661-12cbde86cf31.png)
 
-> To select multiple cars, several checks can be set to add the different cars in the middle.
+:::info
+To select multiple cars, several checks can be set to add the different cars in the middle.
 
-> Note that all car slots are filled and not more than the amount of available slots is set.
-> ![image](https://user-images.githubusercontent.com/13604413/159136228-57a877cd-e75b-4df0-ad57-30c6b05af255.png)
+
+Note that all car slots are filled and not more than the amount of available slots is set.
+
+![image](https://user-images.githubusercontent.com/13604413/159136228-57a877cd-e75b-4df0-ad57-30c6b05af255.png)
+:::
 
 ## Upload Config
 

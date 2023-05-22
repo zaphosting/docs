@@ -33,15 +33,20 @@ Now configure your MariaDB (MySQL) server and set a password for your server.
 
 There you skip the input for now by pressing **Enter**.
 
-> ⚠️ The user root is the main user of your MariaDB (MySQL) server!
+:::info
+The user root is the main user of your MariaDB (MySQL) server!
+:::
 
 Now you are being asked if you want to set a password for the root user, confirm this with **y** for yes.
 
 Afterwards you have to type in the new password for the user root.
 
 
-> ⚠️ While typing in the password, you won't be able to see it. However, this is normal and your password will still be stored. Make sure you use a secure 
-> password for your root user and keep it in a safe place. 
+:::info
+While typing in the password, you won't be able to see it. However, this is normal and your password will still be stored. Make sure you use a secure 
+
+password for your root user and keep it in a safe place. 
+:::
 
 ![image](https://user-images.githubusercontent.com/13604413/159171942-82667636-b148-4248-a95d-ad3d9ed3ab47.png)
 

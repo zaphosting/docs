@@ -4,7 +4,9 @@ title: Windows installieren
 description: Informationen, wie du das Windows Betriebssystem auf deinem Dedicated Server von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Windows installieren
 ---
-> ⚠️ Die Anleitung basiert auf Windows Server 2019, bei anderen Versionen sind die Schritte allerdings nahezu identisch.
+:::info
+Die Anleitung basiert auf Windows Server 2019, bei anderen Versionen sind die Schritte allerdings nahezu identisch.
+:::
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/yEjQOrcEus0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -25,7 +27,9 @@ Mit "Jetzt installieren" das Setup starten.
 
 Windows verlangt nun die Eingabe eines Produkt-Keys, solltest du bereits einen haben, kannst du diesen dort eintragen.
 
-> ⚠️ Wichtig: Wir vertreiben keine Windows-Lizenzen, du musst also den Key selbst beschaffen.
+:::info
+Wichtig: Wir vertreiben keine Windows-Lizenzen, du musst also den Key selbst beschaffen.
+:::
 
 Produkt-Keys können in zahlreichen Webshops erworben werden, stelle sicher das du den richtigen Key kaufst, da es bei Windows verschiedene Versionen gibt.
 Bei 2019 z.B. die normale Edition und die sogenannte Datacenter Edition.
@@ -75,8 +79,11 @@ Wenn das Setup abgeschlossen ist, fordert Windows uns dazu auf ein Passwort fest
 
 Setze dein gewünschtes Passwort.
 
-> Wir empfehlen ein sicheres Passwort mit Sonderzeichen zu verwenden
-> Wenn du das Passwort vergessen solltest, gibt es keinen einfachen Weg dieses zurückzusetzen. Denke also daran es abzuspeichern!
+:::info
+Wir empfehlen ein sicheres Passwort mit Sonderzeichen zu verwenden
+
+Wenn du das Passwort vergessen solltest, gibt es keinen einfachen Weg dieses zurückzusetzen. Denke also daran es abzuspeichern!
+:::
 
 Nachdem das Passwort gesetzt wurde, landen wir im Windows-Lockscreen
 
@@ -116,4 +123,6 @@ Die Netzwerkkonfiguration wird direkt via DHCP auf deinem Server gespeichert, so
 
 ![image](https://user-images.githubusercontent.com/13604413/159173768-3dea37b5-fd8d-4e0d-89c7-e7101189d8c3.png)
 
-> ⚠️ Bei weiteren Fragen oder Problemen steht dir unser Support jederzeit gerne zur Verfügung!
+:::info
+Bei weiteren Fragen oder Problemen steht dir unser Support jederzeit gerne zur Verfügung!
+:::

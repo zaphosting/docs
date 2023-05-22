@@ -1,6 +1,6 @@
 ---
 id: firststeps_problem_melden
-title: ZAP-Hosting What to do if you have problems with your server?
+title: What to do if you have problems with your server?
 description: Information on how to contact support if you have problems with your ZAP-Hosting server - ZAP-Hosting.com documentation
 sidebar_label: Report problems
 ---
@@ -26,25 +26,37 @@ If live chat is not an option for you and you still want to report your problem 
 
 ![image](https://user-images.githubusercontent.com/61953937/159140596-31d99169-0520-47b9-bebc-4181a03331d1.png)
 
-> Simply click on the logo at the top of the web interface
+:::info
+Simply click on the logo at the top of the web interface
+:::
 
 ![image](https://user-images.githubusercontent.com/61953937/159140614-a497024c-b6d1-46cd-8aa5-0f3a0a35536f.png)
 
-> You will then be taken to a page where you can see all your previous tickets, as well as write new ones. 
+:::info
+You will then be taken to a page where you can see all your previous tickets, as well as write new ones. 
+:::
 
 ## Writing The Ticket 
 
-> To write the ticket, you can simply push the "**Create Ticket**" button. 
+:::info
+To write the ticket, you can simply push the "**Create Ticket**" button. 
+:::
 
 ![image](https://user-images.githubusercontent.com/61953937/159140649-80cffed5-757e-43f9-a0e2-588a7846e82c.png)
 
-> You can then choose between a "**No Speed-UP**" and a "**Speed-UP**" ticket. Of course this would be decided by you. 
+:::info
+You can then choose between a "**No Speed-UP**" and a "**Speed-UP**" ticket. Of course this would be decided by you. 
+:::
 
 ![image](https://user-images.githubusercontent.com/61953937/159140646-2389853a-22f1-4fcb-9882-aa5e37dececf.png)
 
 
-> Important: To ensure that your issue can be resolved as quickly as possible, it is important that the problem is described as detailed as possible. Any additional information about the error message or screenshots may also help. No help via social media?
+:::info
+Important: To ensure that your issue can be resolved as quickly as possible, it is important that the problem is described as detailed as possible. Any additional information about the error message or screenshots may also help. No help via social media?
+:::
 >
-> 
+:::info
+
+:::
 
 No, because our customer data is sacred to us - just like fast support. That's exactly why we refer customers who ask us for direct advice in Tweets, Facebook or on Instagram **always** to our Live Chat. This is the only way our supporters have direct access to the affected products and can solve any problems. 

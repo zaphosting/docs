@@ -1,6 +1,6 @@
 ---
 id: gameserver_databases_pma
-title: Gameserver PHPMyAdmin for servers of ZAP-Hosting
+title: PHPMyAdmin for servers of ZAP-Hosting
 description: Information on how to use PHPMyAdmin with game servers from ZAP-Hosting to manage the databases - ZAP-Hosting.com documentation
 sidebar_label: PHPMyAdmin
 ---
@@ -18,7 +18,9 @@ First we go to the list of databases created for the game server. To do so, we o
 
 On this page all databases for this server are listed. The login to phpMyAdmin is quite easy because the login is done automatically by our system. You only have to click on the blue button "Manage".
 
-> If the login does not work automatically, then the login must be done manually with the corresponding user credentials. The information for this can be taken from the red marked area in this example.
+:::info
+If the login does not work automatically, then the login must be done manually with the corresponding user credentials. The information for this can be taken from the red marked area in this example.
+:::
 
 
 ## Table-Tools

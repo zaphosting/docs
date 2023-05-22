@@ -1,6 +1,6 @@
 ---
 id: rust_becomeadmin
-title: Rust Become an admin on your own server
+title: Become an admin on your own server
 description: Information on how to become an admin on your Rust server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Become Admin 
 ---
@@ -17,11 +17,15 @@ Once you are connected, please navigate to where you can run console commands. I
 Here you would run the respecive command:
 `ownerid Steam64ID`
 
-> Please replace **Steam64ID** with your actual steam 64ID. You can find your steam64 id using this [Tool](https://steamid.io/)
+:::info
+Please replace **Steam64ID** with your actual steam 64ID. You can find your steam64 id using this [Tool](https://steamid.io/)
+:::
 
 Then you will be made directly in admin. 
 
-> If you are ingame when running that, you should relog simply into the server.
+:::info
+If you are ingame when running that, you should relog simply into the server.
+:::
 
 Then you are now an administrator! :)
 
@@ -40,7 +44,9 @@ In this file, you will add your respective entries using the format:
 
 `<role> <Steam64ID> <reason/user>`
 
-> Please replace **Steam64ID** with your actual steam 64ID. You can find your steam64 id using this [Tool](https://steamid.io/)
+:::info
+Please replace **Steam64ID** with your actual steam 64ID. You can find your steam64 id using this [Tool](https://steamid.io/)
+:::
 
 An example entry can be found below:
 
@@ -48,6 +54,8 @@ An example entry can be found below:
 ownerid 76561198114248380 "You can write anything here for reference"
 moderatorid 76561198114248380 "Testing  Person"
 ```
-> You will have to restart your server for it to take affect.
+:::info
+You will have to restart your server for it to take affect.
+:::
 
 Then you are now an administrator! :)

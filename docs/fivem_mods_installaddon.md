@@ -1,6 +1,6 @@
 ---
 id: fivem_mods_installaddon
-title: FiveM Install Addon Carmods on Server
+title: Install Addon Carmods on Server
 description: Information on how to install Addon Carmods on your FiveM server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Install Addon Carmods
 ---
@@ -46,7 +46,9 @@ If further mods are to be downloaded, they can simply be added in the same way, 
 
 Now that we have a list of mods, we can simply press the "Start" button.
 
-> Note: the 'compress/downsize textures' tick should always be set to prevent Carmods from having texture errors in FiveM.
+:::info
+Note: the 'compress/downsize textures' tick should always be set to prevent Carmods from having texture errors in FiveM.
+:::
 
 ![image](https://user-images.githubusercontent.com/13604413/159167849-ddce8a9b-efbb-4572-b914-eee4c49149ef.png)
 

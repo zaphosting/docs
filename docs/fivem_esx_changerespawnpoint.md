@@ -1,11 +1,13 @@
 ---
 id: fivem_esx_changerespawnpoint
-title: FiveM ESX Server Set respawn point
+title: Set respawn point
 description: Information on how to set/change the respawnpoint on your FiveM server with ESX from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Change Respawnpoint 
 ---
 
-> **Important**: ESX must be installed
+:::info
+ESX must be installed
+:::
 
 📔 Preparations
 
@@ -30,4 +32,6 @@ After that we just click on Save and that's it.
 
 ![image](https://user-images.githubusercontent.com/13604413/159166856-e2d31e0d-6b75-4f1b-8797-1c4891b5b335.png)
 
-> After a server restart, the changes will take effect.
+:::info
+After a server restart, the changes will take effect.
+:::

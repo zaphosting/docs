@@ -12,7 +12,9 @@ They can be copied on the local system itself to another directory/drive or to a
 
 ## Copy data to another local directory or drive:
 
-> ⚠️ Attention: The first run can take much longer than the following runs, depending on the amount of data. This is because the first time Rsync syncs all data, from the second time on only changed data will be synchronized. 
+:::info
+Attention: The first run can take much longer than the following runs, depending on the amount of data. This is because the first time Rsync syncs all data, from the second time on only changed data will be synchronized. 
+:::
 >So then a incremental backup is created.  
 
 ## Step 1

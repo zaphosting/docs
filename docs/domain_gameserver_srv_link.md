@@ -1,11 +1,13 @@
 ---
 id: domain_gameserver_srv_link
-title: Domains Set up game server forwarding
+title: Set up game server forwarding
 description: Information on how to set up a forwarding from your domain to a game server - ZAP-Hosting.com documentation
 sidebar_label: Domain Gameserver Redirect
 ---
 
-> Please note that it can always take up to 24 hours until changes to DNS entries become active!
+:::info
+Please note that it can always take up to 24 hours until changes to DNS entries become active!
+:::
 
 ## Forward domain to gameserver
 You can either forward your domain completely or only a subdomain to your gameserver.
@@ -18,7 +20,9 @@ For forwarding the IP address, either a subdomain is created which forwards to t
 This would be sufficient if the gameserver uses the default port of the game.
 If the gameserver uses another port than the default port of the game, you need an additional **SRV entry** to forward the subdomain to the gameserver.
 
-> Not all games support the forwarding of a domain to the game port via SRV entry, so inform yourself beforehand if your game supports SRV entries. 
+:::info
+Not all games support the forwarding of a domain to the game port via SRV entry, so inform yourself beforehand if your game supports SRV entries. 
+:::
 your game supports SRV entries.
 
 
@@ -85,7 +89,9 @@ In our example it looks like this:
 
 
 ### Troubleshooting & Result
-> IMPORTANT! at the end of the entry a dot must be written, without this dot the system tries to append the domain. 
+:::info
+IMPORTANT! at the end of the entry a dot must be written, without this dot the system tries to append the domain. 
+:::
 
 If this hint is not followed, the system will redirect minecraft.testserver-domain.de to minecraft.testserver-domain.de.testserver-domain.de and the redirection will fail.
 
@@ -131,6 +137,8 @@ In our example it looks like this:
 
 
 ### Troubleshooting & Result
-> IMPORTANT! at the end of the entry a dot must be written, without this dot the system tries to append the domain. 
+:::info
+IMPORTANT! at the end of the entry a dot must be written, without this dot the system tries to append the domain. 
+:::
 
 If this hint is not followed, the system will redirect fivem.testserver-domain.de to fivem.testserver-domain.de.testserver-domain.de and the redirection will fail.

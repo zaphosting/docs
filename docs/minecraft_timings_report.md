@@ -1,6 +1,6 @@
 ---
 id: minecraft_timings_report
-title: Minecraft Identify server problems with timings report
+title: Identify server problems with timings report
 description: Information on how to identify lag problems on your Minecraft server with a timings report - ZAP-Hosting.com documentation
 sidebar_label: Timings-Report
 ---
@@ -53,7 +53,9 @@ There are 3 columns in total. As you can see on the screenshot below, box number
 
 In Box number 2 you can see more precise values in miliseconds, but please note that the time should never be higher than 50ms. If this is the case, it would cause a chain reaction and all further processes would accumulate a bit, which would eventually lead to laggs as the server can only handle the processes with delay.
 
-> The **Full Server Tick** can usually be ignored, since the values are always in the red area, but this is not a big issue.
+:::info
+The **Full Server Tick** can usually be ignored, since the values are always in the red area, but this is not a big issue.
+:::
 
 ![image](https://user-images.githubusercontent.com/13604413/159177796-03f504fc-94f4-4f88-af53-d4ce33ed8039.png)
 

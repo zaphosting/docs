@@ -1,6 +1,6 @@
 ---
 id: assettocorsa_mods
-title: Assetto Corsa Mods auf einen Server installieren
+title: Mods auf einen Server installieren
 description: Informationen, wie du Mods auf deinen Assetto Corsa-Server von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentationen
 sidebar_label: Mods Installieren
 ---
@@ -40,10 +40,14 @@ In der Mitte erscheinen nun Autos, welche auf dem Grid platziert werden können,
 ![image](https://user-images.githubusercontent.com/13604413/159136214-b58c2720-6a04-4882-a661-12cbde86cf31.png)
 
 
-> Um mehrere Autos zu wählen, können mehrere haken gesetzt werden, um die verschiedenen Autos in der Mitte hinzugefügt werden.
+:::info
+Um mehrere Autos zu wählen, können mehrere haken gesetzt werden, um die verschiedenen Autos in der Mitte hinzugefügt werden.
 
-> Beachte das alle Autoslots befüllt werden und nicht mehr, als die Menge der verfügbaren Slots gesetzt wird
-> ![image](https://user-images.githubusercontent.com/13604413/159136228-57a877cd-e75b-4df0-ad57-30c6b05af255.png)
+
+Beachte das alle Autoslots befüllt werden und nicht mehr, als die Menge der verfügbaren Slots gesetzt wird
+
+![image](https://user-images.githubusercontent.com/13604413/159136228-57a877cd-e75b-4df0-ad57-30c6b05af255.png)
+:::
 
 
 
@@ -75,7 +79,9 @@ Wir müssen nun den Content für den Server generieren, damit Car&Map Mods auf d
 
 Dieser Prozess kann einige Minuten in Anspruch nehmen, es werden nun alle Maps & Cars zu Serverdateien umgewandelt.
 
-> Nachdem dieser Prozess vollendet ist, kann es ggf. zu einer "Could not update" Meldung kommen, diese ist unproblematisch.
+:::info
+Nachdem dieser Prozess vollendet ist, kann es ggf. zu einer "Could not update" Meldung kommen, diese ist unproblematisch.
+:::
 
 Nun Öffnen wir den "Server" Ordner, indem auch der AcServerManager ist, dort befindet sich ein "Content" Ordner, welchen wir nun über Drag&Drop auf unseren Assetto Corsa Server hochladen, und damit unseren alten "Content" Ordner überschreiben:
 

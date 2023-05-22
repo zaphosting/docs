@@ -1,11 +1,13 @@
 ---
 id: vserver_windows_change_language
-title: vServer Sprache bei Windows Server hinzufügen/ändern
+title: Sprache bei Windows Server hinzufügen/ändern
 description: Informationen, wie du die Sprache deines Windows vServers von ZAP-Hosting ändern kannst und wie du Sprachen hinzufügen kannst - ZAP-Hosting.com Dokumentationen
 sidebar_label: Sprache hinzufügen/ändern
 ---
 
-> ⚠️ Wir bieten Windows grundsätzlich in Deutsch und Englisch an, dies erkannst du an den Kürzeln (DE) und (EN)
+:::info
+Wir bieten Windows grundsätzlich in Deutsch und Englisch an, dies erkannst du an den Kürzeln (DE) und (EN)
+:::
 ***
 
 ## Vorbereitung
@@ -28,7 +30,9 @@ Suche nach deiner gewünschten Sprache und achte darauf dass diese eine Anzeiges
 
 Wähle die gewünschte Sprache mit einem Mausklick aus und fahre fort mit "Weiter", akzeptiere die Installation aller nötigen Pakete
 
-> ⚠️ "Sprachpaket installieren und als Windows-Anzeigesprache festlegen muss aktiviert sein
+:::info
+"Sprachpaket installieren und als Windows-Anzeigesprache festlegen muss aktiviert sein
+:::
 
 Windows läd nun deine gewünschte Sprache herunter, dieser Vorgang kann einige Minuten (circa 30-60 Minuten) in Anspruch nehmen.
 

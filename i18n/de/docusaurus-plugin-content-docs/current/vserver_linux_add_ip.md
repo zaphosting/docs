@@ -1,6 +1,6 @@
 ---
 id: vserver_linux_add_ip
-title: vServer IPv4 Adresse zum Server hinzufügen
+title: IPv4 Adresse zum Server hinzufügen
 description: Informationen, wie du eine IPv4 Adresse zu deinem vServer von ZAP-Hosting hinzufügen kannst - ZAP-Hosting.com Dokumentationen
 sidebar_label: IPv4 Adresse hinzufügen
 ---
@@ -14,7 +14,9 @@ Die Netzwerkconfig wird mit einem Editor geöffnet, z.b mit "nano".
 ```
 sudo nano /etc/network/interfaces
 ```
-> ⚠️ Achtung: Die Config muss mit root Rechten bearbeitet werden.
+:::info
+Achtung: Die Config muss mit root Rechten bearbeitet werden.
+:::
 
 In der Config ist bereits ein Eintrag vorhanden der z.b so aussehen könnte:
 ```

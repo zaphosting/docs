@@ -1,13 +1,15 @@
 ---
 id: vserver_windows_fs_19
-title: vServer Landwirtschafts-Simulator 2019 auf Windows installieren
+title: Landwirtschafts-Simulator 2019 auf Windows installieren
 description: Informationen wie du einen Landwirtschafts-Simulator Dedizierter Server 2019 auf deinen Windows vServer und Dedizierter Server von ZAP-Hosting installieren und einrichten kannst - ZAP-Hosting.com Dokumentationen
 sidebar_label: Landwirtschafts-Simulator 2019
 ---
 
 # Installation eines Dedizierter Servers für den Landwirtschafts-Simulator 2019
 
-> Diese Anleitung gilt auch für einen Dedizierter Server von ZAP-Hosting mit Windowsserver 2016/2019. Wie Windows auf einem Dedizierter Server installiert werden kann, erklären wir [hier](https://zap-hosting.com/guides/docs/de/dedicated_windows/).
+:::info
+Diese Anleitung gilt auch für einen Dedizierter Server von ZAP-Hosting mit Windowsserver 2016/2019. Wie Windows auf einem Dedizierter Server installiert werden kann, erklären wir [hier](https://zap-hosting.com/guides/docs/de/dedicated_windows/).
+:::
 
 ## Basic Informationen: 
 Es wird ein Server, basierend auf Windowsserver 2016/2019, mit mindestens 4x 2,4 GHz CPU (AMD/Intel) sowie mindestens 2GB RAM (DDR3/4) und 6GB freien Speicher (SSD oder besser, bevorzugt) benötigt. Der Server muss auf der 64 Bit Architektur laufen. 
@@ -20,7 +22,9 @@ Je nachdem, wie stark der Dedizierter Server gemodded wird, mit Mods oder mit DL
 Es wird eine digitale Version des Landwirtschafts-Simulator 2019 benötigt, es darf keine Steam Version sein. 
 Die digitale Version kann auf der [Landwirtschafts-Simulator Webseite](https://www.farming-simulator.com/buy-now.php?lang=de&country=de&platform=pcdigital) erworben werden.
 Nachdem die digitale Version erworben wurde, kann der Landwirtschafts-Simulator online gedownloadet werden, folge dazu dem [Link](https://eshop.giants-software.com/downloads.php) aus der Mail, die du von Giants erhalten hast.
-> Wichtig: In der Mail befindet sich der Spiellizenz der zum Download als auch zur späteren Aktivierung der Installation benötigt wird. 
+:::info
+Wichtig: In der Mail befindet sich der Spiellizenz der zum Download als auch zur späteren Aktivierung der Installation benötigt wird. 
+:::
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/KbccgYdHFLp3gWp/preview)
 

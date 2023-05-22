@@ -1,6 +1,6 @@
 ---
 id: fivem_qbcore_admin
-title: FiveM QBCore Server Admin werden
+title: QBCore Server Admin werden
 description: Informationen, wie du auf deinem FiveM QBCore Server admin werden kannst. - ZAP-Hosting.com Dokumentationen
 sidebar_label: Admin werden
 ---
@@ -34,4 +34,6 @@ kopiere nun deine STEAM64-ID und füge diese in die Admins ein:
 
 Scrolle nun bis zum Ende der Seite und klicke auf Speichern.
 
-> ⚡ Starte nun deinen Server neu, dann kannst du mit /admin das QBCore Admin-Menü öffnen.
+:::info
+⚡ Starte nun deinen Server neu, dann kannst du mit /admin das QBCore Admin-Menü öffnen.
+:::

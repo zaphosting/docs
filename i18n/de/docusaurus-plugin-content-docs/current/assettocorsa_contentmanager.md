@@ -5,8 +5,11 @@ description: Information, wie du deinen Assetto Corsa Server von ZAP-Hosting mit
 sidebar_label: Server Konfigurieren mit Content Manager
 ---
 
-> **Wichtig** 
-> Um den Server mit dem Content Manager verwalten zu können, ist die Full-Version nötig, die Lite-Version kann server *nicht* verwalten.
+:::info
+**Wichtig** 
+
+Um den Server mit dem Content Manager verwalten zu können, ist die Full-Version nötig, die Lite-Version kann server *nicht* verwalten.
+:::
 
 ## Vorbereitung
 
@@ -44,8 +47,11 @@ Nun wechseln wir in das Tab "Entry List", hier können wir nun neue Autos hinzuf
 
 
 
-> Beachte das alle Autoslots befüllt werden und nicht mehr, als die Menge der verfügbaren Slots gesetzt wird
-> ![image](https://user-images.githubusercontent.com/13604413/159137039-17947b65-947a-4276-b681-0a7f27b49e3e.png)
+:::info
+Beachte das alle Autoslots befüllt werden und nicht mehr, als die Menge der verfügbaren Slots gesetzt wird
+
+![image](https://user-images.githubusercontent.com/13604413/159137039-17947b65-947a-4276-b681-0a7f27b49e3e.png)
+:::
 
 ## FTP Upload Konfigurieren
 
@@ -59,8 +65,11 @@ Hier gibst du nun deine FTP-Daten ein:
 ![image](https://user-images.githubusercontent.com/13604413/159137117-597633df-d277-4ae6-b5bc-e155b4fbdf30.png)
 
 
-> **Achtung!** Im "Folder" muss die ID deines Gameservers angegeben werden, wie du sie in der URL deines Gameservers siehst, z.b. 
-> https://zap-hosting.com/en/customer/gameserver/show/**427814**/ftpBrowser/
+:::info
+**Achtung!** Im "Folder" muss die ID deines Gameservers angegeben werden, wie du sie in der URL deines Gameservers siehst, z.b. 
+
+https://zap-hosting.com/en/customer/gameserver/show/**427814**/ftpBrowser/
+:::
 
 In unserem Fall wäre das Ganze dann:
 

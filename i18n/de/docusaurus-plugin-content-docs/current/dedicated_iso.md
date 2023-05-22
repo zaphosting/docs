@@ -4,7 +4,9 @@ title: Eigene ISO
 description: Informationen, wie du eine eigene ISO-Datei auf deinen Dedicated Server von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Eigene ISO
 ---
-> ⚠️ Das einbinden eigener ISO Dateien erfolgt auf eigene Verantwortung
+:::info
+Das einbinden eigener ISO Dateien erfolgt auf eigene Verantwortung
+:::
 
 ## Welche Möglichkeiten gibt es?
 Es gibt zwei verschiedene Wege eine eigene ISO einzubinden. Bei allen Wegen ist es erforderlich das der Server neugestartet wird.

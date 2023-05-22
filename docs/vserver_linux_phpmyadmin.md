@@ -5,7 +5,9 @@ description: Information on how to install and set up phpMyAdmin on your Linux V
 sidebar_label: phpMyAdmin
 ---
 
-> ⚠️ A working MySQL/MariaDB and an Apache2 server is required!
+:::info
+A working MySQL/MariaDB and an Apache2 server is required!
+:::
 
 ## System Update
 
@@ -23,7 +25,9 @@ sudo apt upgrade -y
 
 The server is now up to date. 
 
-> ⚠️ If "sudo" is not found, this can be installed with the following command: 
+:::info
+If "sudo" is not found, this can be installed with the following command: 
+:::
 
 ```
 apt install sudo -y
@@ -43,7 +47,9 @@ Then, the latest phpMyAdmin version is downloaded to the installation directory 
 wget https://www.phpmyadmin.net/downloads/phpMyAdmin-latest-all-languages.zip -O phpmyadmin.zip
 ```
 
-> ⚠️ If "wget" is not found, this can be installed with the following command: 
+:::info
+If "wget" is not found, this can be installed with the following command: 
+:::
 
 ```
 sudo apt install wget -y
@@ -55,7 +61,9 @@ As soon as the download is complete, the ZIP file can be extracted using the fol
 unzip phpmyadmin.zip
 ```
 
-> ⚠️ If "unzip" is not found, this can be installed with the following command: 
+:::info
+If "unzip" is not found, this can be installed with the following command: 
+:::
 
 ```
 sudo apt install unzip -y

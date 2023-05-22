@@ -1,6 +1,6 @@
 ---
 id: arma3_altislife_ranks
-title: Arma 3 Altis Life - Ränge bei einem Altis Life Server hinzufügen
+title: Ränge bei einem Altis Life Server hinzufügen
 description: Informationen, wie du Ränge auf deinem Altis Life-Server von ZAP-Hosting hinzufügen kannst - ZAP-Hosting.com Dokumentationen
 sidebar_label: Altis Life Ränge
 ---
@@ -12,7 +12,9 @@ In ArmA 3 gibt es verschiedene Ränge welche einem Spieler zugewiesen werden kö
 Je nach Server kann es noch weitere Ränge geben wenn zum Beispiel eine neue Fraktion oder ein Beruf eingebaut wurde.
 Im folgenden lernst du wie du die Ränge für Cop's, Medic's und Administratoren im Spiel vergibst, geschehen tut dies immer mithilfe der Datenbank innerhalb der Tabelle **players**.
 
-> WICHTIG: Damit der Name des jeweiligen Spieler in der Datenbank zu finden ist muss dieser sich mindestens ein mal mit dem Server verbunden haben!
+:::info
+WICHTIG: Damit der Name des jeweiligen Spieler in der Datenbank zu finden ist muss dieser sich mindestens ein mal mit dem Server verbunden haben!
+:::
 
 
 ## Öffnen der Datenbank

@@ -12,7 +12,9 @@ sidebar_label: Savegame Manager
 
 Du kannst deine Spielstände ganz einfach über unsere Website bearbeiten. Mit nur wenigen Klicks kannst du deine Savegames verwalten, hochladen und wiederherstellen. Navigieren dazu im Dashboard deines Servers zu `Savegame Manager`.
 
-> Hinweis: Dein Server speichert automatisch in Abständen von 5 Minuten und behält immer die letzten 6 automatischen Speicherungen.
+:::info
+Dein Server speichert automatisch in Abständen von 5 Minuten und behält immer die letzten 6 automatischen Speicherungen.
+:::
 
 
 
@@ -33,7 +35,9 @@ Scrolle nach unten und am unteren Ende der Seite siehst du deine aktiven Spielst
 Die Verwendung eines eigenen Spielstandes ist sehr einfach, indem du den Savegame Uploader Bereich des Savegame Managers benutzt.
 Allerdings musst du zunächst das Savegame auf deinem eigenen Computer finden.
 
-> Es kann vorkommen, dass dein Inventar nicht richtig gespeichert wird. Stelle also sicher, dass du die Gegenstände in die Kisten legst und speicherst, bevor du weitermachst.
+:::info
+Es kann vorkommen, dass dein Inventar nicht richtig gespeichert wird. Stelle also sicher, dass du die Gegenstände in die Kisten legst und speicherst, bevor du weitermachst.
+:::
 
 Drücke `Windows-Key + R` und kopiere diesen Pfad dort hinein: `%LOCALAPPDATA%\FactoryGame\Saved\SaveGames\`
 Nun befindest du dich im Ordner "SaveGames" deines Satisfactory-Spiels. Drücke jetzt auf den Ordner mit den vielen Zahlen (grün auf dem Screenshot).
@@ -45,7 +49,9 @@ Du solltest in der Lage sein, die Savegames anhand des Dateinamens, des Datums, 
 
 ![Screenshot 2023-02-04 004903](https://user-images.githubusercontent.com/42719082/216736126-9ead16f1-1f81-410c-8271-fdb915fac348.png)
 
-> Optional: Wir empfehlen, alles außer dem Namen des Spielstands selbst zu entfernen, um ihn in Zukunft leichter identifizieren zu können. In diesem Beispiel würde das Savegame "Factory" heißen.
+:::info
+Optional: Wir empfehlen, alles außer dem Namen des Spielstands selbst zu entfernen, um ihn in Zukunft leichter identifizieren zu können. In diesem Beispiel würde das Savegame "Factory" heißen.
+:::
 
 Lade nun deine Datei über den Savegame Manager per Drag & Drop auf deinen Server hoch:
 
@@ -63,7 +69,9 @@ Wenn du nun das nächste Mal den Server startest, wird das Savegame geladen.
 Wenn du dein Savegame verändern möchtest, um beispielsweise zu cheaten, ist das Editieren deines Savegames die einzige Möglichkeit dazu.
 Dafür kannst du [das Satisfactory Save Editor Tool] (https://github.com/Goz3rr/SatisfactorySaveEditor) verwenden.
 
-> Wir können die volle Funktionalität des Tools nicht garantieren, da es sich um ein Open-Source-Projekt handelt. 
+:::info
+Wir können die volle Funktionalität des Tools nicht garantieren, da es sich um ein Open-Source-Projekt handelt. 
+:::
 
 Downloade das Savegame von deinem Savegame-Manager und öffne es im Savegame-Editor ("Datei > Zuletzt öffnen")
 

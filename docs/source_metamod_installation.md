@@ -1,6 +1,6 @@
 ---
 id: source_metamod_installation
-title: Source Games Install Source Mod and Meta Mod on server
+title: Install Source Mod and Meta Mod on server
 description: Information how to install Source Mod and Meta Mod on your Source Gameserver from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Installation
 ---
@@ -20,7 +20,9 @@ First of all, the actual extensions are needed. It is important to always use th
 - 
 ![image](https://user-images.githubusercontent.com/13604413/159178791-f9949d57-45ec-42af-9e5f-5eb9190ae602.png)
 
-> Source engine game servers in ZAP hosting usually run under a Linux operating system. Accordingly, the Linux version of the extensions is required.
+:::info
+Source engine game servers in ZAP hosting usually run under a Linux operating system. Accordingly, the Linux version of the extensions is required.
+:::
 
 ### Unzip the files
 

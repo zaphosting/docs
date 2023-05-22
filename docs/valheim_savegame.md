@@ -1,13 +1,15 @@
 ---
 id: valheim_savegame
-title: Valheim Managing savegames on servers
+title: Managing savegames on servers
 description: Information on how to manage savegames and worlds on your Valheim server from ZAP-Hosting and how to add existing worlds to your server - ZAP-Hosting.com documentation
 sidebar_label: Manage Savegames
 ---
 
 ## Download Savegames
 
-> Note: Before downloading the savegame you have to stop the server, to save the active savegame, after stopping the server the savegame will show up after reloading the page once.
+:::info
+Note: Before downloading the savegame you have to stop the server, to save the active savegame, after stopping the server the savegame will show up after reloading the page once.
+:::
 
 To download your savegame you can use the `Savegame-Manager` in the webinterface:
 
@@ -17,7 +19,9 @@ Here you can easily download your savegame by clicking the green "Download" butt
 
 ![image](https://user-images.githubusercontent.com/26007280/189887012-54f92e39-800a-45eb-af5b-9a3c30c4c3e8.png)
 
-> Note, you need to download both the `.db` **and** `.fwl` Files.
+:::info
+Note, you need to download both the `.db` **and** `.fwl` Files.
+:::
 
 Done! You can now use the backup for other purposes, or upload it again later.
 
@@ -29,7 +33,9 @@ Here we can now upload our own savegame by drag&drop, this should look like this
 
 ![image](https://user-images.githubusercontent.com/26007280/189887043-55164074-792d-46bb-80c3-16989de2035b.png)
 
-> Note that your savegame should have the same name as it was created by the game.
+:::info
+Note that your savegame should have the same name as it was created by the game.
+:::
 
 In our case the backup files are called `380622.fwl` and `380622.db`.
 

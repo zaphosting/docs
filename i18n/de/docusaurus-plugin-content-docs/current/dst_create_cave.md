@@ -1,6 +1,6 @@
 ---
 id: dst_create_cave
-title: Don't Starve Together Höhlen auf Server erstellen
+title: Höhlen auf Server erstellen
 description: Informationen wie du für Don't Starve Together Höhlen auf Servern erstellst und verwendest - ZAP-Hosting.com Dokumentationen
 sidebar_label: Höhlen erstellen
 ---
@@ -23,8 +23,11 @@ Bei dem Master handelt es sich um den Oberwelt Server, bei diesem Server muss in
 
 ### server.ini
 
-> **WICHTIG** mit "**MASTERIP**" wäre die IP vom Master Server gemeint, ist diese IP 123.123.123.123 dann muss dort "bind_ip = 123.123.123.123" eingetragen werden.
-> "**MASTERIP**" ist kein statischer Wert der in der server.ini bei "bind_ip = " eingetragen werden darf.
+:::info
+**WICHTIG** mit "**MASTERIP**" wäre die IP vom Master Server gemeint, ist diese IP 123.123.123.123 dann muss dort "bind_ip = 123.123.123.123" eingetragen werden.
+
+"**MASTERIP**" ist kein statischer Wert der in der server.ini bei "bind_ip = " eingetragen werden darf.
+:::
 
 Standardmäßig steht in der server.ini bei "**[SHARD]**" nur "is_master = true", dort werden nun folgende Befehle nachgetragen.
 
@@ -55,9 +58,13 @@ Bei dem Slave handelt es sich um den Höhlen Server, bei welchem die Daten vom M
 
 ### server.ini
 
-> **WICHTIG** mit "**SLAVEIP**" wäre die IP vom Slave Server gemeint, ist diese IP 123.123.123.123 dann muss dort "bind_ip = 123.123.123.123" eingetragen werden.
-> "**SLAVEIP**" ist kein statischer Wert der in der server.ini bei "bind_ip = " eingetragen werden darf.
-> "**MASTERIP**" ist kein statischer Wert der in der server.ini bei "master_ip = " eingetragen werden darf.
+:::info
+**WICHTIG** mit "**SLAVEIP**" wäre die IP vom Slave Server gemeint, ist diese IP 123.123.123.123 dann muss dort "bind_ip = 123.123.123.123" eingetragen werden.
+
+"**SLAVEIP**" ist kein statischer Wert der in der server.ini bei "bind_ip = " eingetragen werden darf.
+
+"**MASTERIP**" ist kein statischer Wert der in der server.ini bei "master_ip = " eingetragen werden darf.
+:::
 
 Standardmäßig steht in der server.ini bei "**[SHARD]**" nur "is_master = true", dort werden nun folgende Befehle nachgetragen.
 

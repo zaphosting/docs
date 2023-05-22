@@ -1,6 +1,6 @@
 ---
 id: minecraft_server_optimize
-title: Minecraft Minecraft-Server Performance-Optimisierung
+title: Server Performance-Optimisierung
 description: Informationen, wie du deinen Minecraft-Server von ZAP-Hosting für bessere Performance optimisieren kannst - ZAP-Hosting.com Dokumentationen
 sidebar_label: Minecraft-Server optimieren
 ---
@@ -57,7 +57,9 @@ Die Mod kann dann wie in unserer Anleitung beschrieben normal auf dem Server ins
 Bevor der Server erneut gestartet wird, sollte sichergestellt werden, dass die "max-tick-time" in der "server.properties" auf "-1" gestellt wurde. Andernfalls kann es passieren, dass der Server abstürzt.
 Ratsam hierbei ist es zudem, dass min. 8-10 GB RAM vorhanden sind, da dieser Prozesse leider sehr viel RAM benötigt. Hierfür kann kurzzeitig auch über Nacht ein Upgrade des RAMs durchgeführt werden, welcher dann nach Abschluss dieses Prozesse wieder gedowngradet werden kann.
 
-> Beachte, dass die oben genannte Mod ggf. mit deiner verwendeten Forge-Version nicht kompatibel ist und der Vorgang abweichend sein kann, als hier beschrieben, sofern du eine andere Mod nutzt.
+:::info
+Beachte, dass die oben genannte Mod ggf. mit deiner verwendeten Forge-Version nicht kompatibel ist und der Vorgang abweichend sein kann, als hier beschrieben, sofern du eine andere Mod nutzt.
+:::
 
 Sobald der Server dann mit der Mod gestartet ist, muss die Konsole geöffnet werden. Hierbei würden wir empfehlen eine Border zu erstellt für die Welt mit einem Radius von 16.000 Blöcken.
 Dazu müssen folgende Befehle nach der Reihe ausgeführt werden:
@@ -65,7 +67,9 @@ Dazu müssen folgende Befehle nach der Reihe ausgeführt werden:
 - worldborder center 0 0
 - worldborder set 16000
 
-> Ersetze beim Center-Befehl ggf. die Koordinaten zu deiner eigenen Mitte der Welt, um deine Welt (welche ggf. bereits aufgebaut wurde) nicht "abzuschneiden".
+:::info
+Ersetze beim Center-Befehl ggf. die Koordinaten zu deiner eigenen Mitte der Welt, um deine Welt (welche ggf. bereits aufgebaut wurde) nicht "abzuschneiden".
+:::
 
 Sobald die Border gesetzt wurde, kann das eigentliche Vorladen gestartet werden.
 Hierzu muss der folgende Befehl ausgeführt werden:
@@ -77,8 +81,11 @@ Dieser Prozess kann je nach Anzahl der installierten Mods bis zu 8 Stunden dauer
 Der Fortschritt dieses Prozesses wird in der Konsole durch Info-Nachrichten immer in regelmäßigen Abständen ausgegeben.
 Sobald der Prozesse abgeschlossen ist, wird dies ebenfalls in der Konsole ausgegeben!
 
-> Die Mod kann auch nach Abschluss dieses Prozesses weiterhin auf dem Server installiert werden.
-> Sie wird im laufenden Betrieb Chunks weiterhin optimieren und arbeitet zudem auch dann, wenn kein Spieler auf dem Server ist.
+:::info
+Die Mod kann auch nach Abschluss dieses Prozesses weiterhin auf dem Server installiert werden.
+
+Sie wird im laufenden Betrieb Chunks weiterhin optimieren und arbeitet zudem auch dann, wenn kein Spieler auf dem Server ist.
+:::
 
 ### Sichtweite
 
@@ -133,7 +140,9 @@ Hier müssen dann beim Punkt "spawn-limits" die folgenden Werte angepasst werden
 - water-animals: 3 #Default: 5
 - ambient: 4 #Default: 15
 
-> Du kannst die Werte hier natürlich noch gerne selbst anpassen sofern du dies wünscht, andernfalls sind die oben genannten Werte ein sehr guter Mittelwert.
+:::info
+Du kannst die Werte hier natürlich noch gerne selbst anpassen sofern du dies wünscht, andernfalls sind die oben genannten Werte ein sehr guter Mittelwert.
+:::
 
 Um das Spawning zusätzlich noch etwas zu verbessern, sollte in der "bukkit.yml" Config zusätzlich noch der Wert "monster-spawns" Wert im Punkt "tickes-per" geändert werden:
 - monster-spawns: 2 #Default: 1
@@ -166,7 +175,9 @@ Eine Maßnahme welche sehr oft ergriffen wird, ist es die Sichtweite runterzuste
 Die Sichtweite kann bei einem Spigot-Server in der "spigot.yml" Config angepasst werden, hierzu musst der Wert "view-distance" angepasst werden.
 Um das Spielerlebnis selbst nicht besonders groß einzuschränken, wird empfohlen diesen Wert auf 5-6 zu stellen, wodurch der Server bis zu 50% entlastet wird.  
 
-> Je nach belieben kann der Wert auch auf 4 gestellt werden, was als Beispiel sehr gut gegen Laggs hilft, wenn man Farmwelt-Server betreibt, die auf der Version 1.13+ betrieben werden
+:::info
+Je nach belieben kann der Wert auch auf 4 gestellt werden, was als Beispiel sehr gut gegen Laggs hilft, wenn man Farmwelt-Server betreibt, die auf der Version 1.13+ betrieben werden
+:::
 
 ### Daten-Komprimierung
 
@@ -191,7 +202,9 @@ Hier müssen dann beim Punkt "spawn-limits" die folgenden Werte angepasst werden
 - water-animals: 3 #Default: 5
 - ambient: 4 #Default: 15
 
-> Du kannst die Werte hier natürlich noch gerne selbst anpassen sofern du dies wünscht, andernfalls sind die oben genannten Werte ein sehr guter Mittelwert.
+:::info
+Du kannst die Werte hier natürlich noch gerne selbst anpassen sofern du dies wünscht, andernfalls sind die oben genannten Werte ein sehr guter Mittelwert.
+:::
 
 Um das Spawning zusätzlich noch etwas zu verbessern, sollte in der "bukkit.yml" Config zusätzlich noch der Wert "monster-spawns" Wert im Punkt "tickes-per" geändert werden:
 - monster-spawns: 2 #Default: 1
@@ -274,7 +287,9 @@ Um die Einstellung anzupassen, muss unter dem Punkt "merge-radius" in der "spigo
 - item: 4.0 #Default 2.5
 - exp: 6.0 #Default: 3.0
 
-> Die Werte hierbei sollten nicht höher als 8 gestellt werden, andernfalls kann der oben angesprochene Lagg-Effekt entstehen!
+:::info
+Die Werte hierbei sollten nicht höher als 8 gestellt werden, andernfalls kann der oben angesprochene Lagg-Effekt entstehen!
+:::
 
 ## Paper Spigot
 
@@ -285,7 +300,9 @@ Eine Maßnahme welche sehr oft ergriffen wird, ist es die Sichtweite runterzuste
 Die Sichtweite kann bei einem (Paper-)Spigot-Server in der "spigot.yml" Config angepasst werden, hierzu musst der Wert "view-distance" angepasst werden.
 Um das Spielerlebnis selbst nicht besonders groß einzuschränken, wird empfohlen diesen Wert auf 5-6 zu stellen, wodurch der Server bis zu 50% entlastet wird.  
 
-> Je nach belieben kann der Wert auch auf 4 gestellt werden, was als Beispiel sehr gut gegen Laggs hilft, wenn man Farmwelt-Server betreibt, die auf der Version 1.13+ betrieben werden
+:::info
+Je nach belieben kann der Wert auch auf 4 gestellt werden, was als Beispiel sehr gut gegen Laggs hilft, wenn man Farmwelt-Server betreibt, die auf der Version 1.13+ betrieben werden
+:::
 
 ### Daten-Komprimierung
 
@@ -310,7 +327,9 @@ Hier müssen dann beim Punkt "spawn-limits" die folgenden Werte angepasst werden
 - water-animals: 3 #Default: 5
 - ambient: 4 #Default: 15
 
-> Du kannst die Werte hier natürlich noch gerne selbst anpassen sofern du dies wünscht, andernfalls sind die oben genannten Werte ein sehr guter Mittelwert.
+:::info
+Du kannst die Werte hier natürlich noch gerne selbst anpassen sofern du dies wünscht, andernfalls sind die oben genannten Werte ein sehr guter Mittelwert.
+:::
 
 Um das Spawning zusätzlich noch etwas zu verbessern, sollte in der "bukkit.yml" Config zusätzlich noch der Wert "monster-spawns" Wert im Punkt "tickes-per" geändert werden:
 - monster-spawns: 2 #Default: 1
@@ -351,7 +370,9 @@ Mit dieser Option wird das Spawn-Verhalten des Spawners etwas angepasst, sodass 
 Hierzu muss der folgende Wert in der "paper.yml" angepasst werden:
 - mob-spawner-tick-rate: 3 #Default: 1
 
-> Der oben genutzte Wert verändert das Verhalten nicht zu sehr und berührt das Spielverhalten nicht wirklich.
+:::info
+Der oben genutzte Wert verändert das Verhalten nicht zu sehr und berührt das Spielverhalten nicht wirklich.
+:::
 
 ### Entity-Ranges
 
@@ -383,7 +404,9 @@ Um die Einstellungen anzupassen, müssen hierbei folgende Werte in der "spigot.y
 - hopper-check: 24 #Default: 8
 - hopper-amount: 3 #Default: 1
 
-> Stelle sicher, dass hierbei der Wert "use-hopper-check" auf "true" in der "paper.yml" Config gestellt wurde!
+:::info
+Stelle sicher, dass hierbei der Wert "use-hopper-check" auf "true" in der "paper.yml" Config gestellt wurde!
+:::
 
 ### Kollisionen
 
@@ -406,7 +429,9 @@ Um die Einstellung anzupassen, muss unter dem Punkt "merge-radius" in der "spigo
 - item: 4.0 #Default 2.5
 - exp: 6.0 #Default: 3.0
 
-> Die Werte hierbei sollten nicht höher als 8 gestellt werden, andernfalls kann der oben angesprochene Lagg-Effekt entstehen!
+:::info
+Die Werte hierbei sollten nicht höher als 8 gestellt werden, andernfalls kann der oben angesprochene Lagg-Effekt entstehen!
+:::
 
 ### Explosionen
 
@@ -433,8 +458,11 @@ Hierbei stellen wir grundsätzlich nur ein, nach wie vielen Ticks der Server jed
 Dafür muss der folgende Wert in der "paper.yml" Config bearbeitet werden:
 - container-update-tick-rate: 3 #Default: 1
 
-> Der Wert sollte hierbei nicht höher als 5 gestellt werden, andernfalls kann das Inventar teilweise etwas verbuggt sein!
-> Bei Spielmodi, wie etwas SurvivalGames, wo alle Spieler auf die Kisten in der Mitte zugreifen und sich die besten Items ergattern wollen, sollte der Wert nicht geändert werden und auf "1" belassen werden.
+:::info
+Der Wert sollte hierbei nicht höher als 5 gestellt werden, andernfalls kann das Inventar teilweise etwas verbuggt sein!
+
+Bei Spielmodi, wie etwas SurvivalGames, wo alle Spieler auf die Kisten in der Mitte zugreifen und sich die besten Items ergattern wollen, sollte der Wert nicht geändert werden und auf "1" belassen werden.
+:::
 
 ### Licht-Updates
 
@@ -463,7 +491,9 @@ Hierbei greifen wir auch wieder auf eine alternative Verarbeitung von Redstone v
 Hierzu muss folgende Einstellung in der "paper.yml" gemacht werden:
 - use-faster-eigencraft-redstone: true #Default: false
 
-> **Achtung! In einigen Situationen kann dies die Funktionsweise von Redstone sehr stark verändern!**
+:::info
+**Achtung! In einigen Situationen kann dies die Funktionsweise von Redstone sehr stark verändern!**
+:::
 
 ### Sichtweite ohne Chunk Updates
 

@@ -1,6 +1,6 @@
 ---
 id: valheim_connect
-title: Valheim Connecting to Valheim servers
+title: Connecting to Valheim servers
 description: Information on how to connect to your Valheim server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Connect to a Server
 ---
@@ -9,7 +9,9 @@ To connect to your Valheim server, we first open our web interface and make sure
 
 ![image](https://user-images.githubusercontent.com/26007280/189886121-63fe759b-921c-4ad1-acfa-bf9f44bd4cf1.png)
 
-> Note: Without the password your Valheim server will not start.
+:::info
+Note: Without the password your Valheim server will not start.
+:::
 
 After setting the password we can start the server, it may take a few minutes until it switches to "Online":
 
@@ -50,7 +52,9 @@ Here we now add our server as follows:
 
 ![image](https://user-images.githubusercontent.com/13604413/159179811-47456cd9-674e-4017-bc95-219c83349950.png)
 
-> Note: The Port has to be calculated with +1 at the end, that means if your port is 27043, you need to enter 27044 in Steam.
+:::info
+Note: The Port has to be calculated with +1 at the end, that means if your port is 27043, you need to enter 27044 in Steam.
+:::
 
 ![image](https://user-images.githubusercontent.com/26007280/189886184-e457325d-0ee5-47b1-b9d2-df0cf79b404a.png)
 
@@ -73,7 +77,9 @@ Now we can click on `Join Game` at the top of the Menu and Enter our Servername 
 
 ![image](https://user-images.githubusercontent.com/13604413/159179817-c7c921fb-5d4b-4b34-9ef4-4c93288937fb.png)
 
-> If you do not see your Server yet, make sure to wait a bit, depending on the amount of Servers, a refresh can take a few Minutes.
+:::info
+If you do not see your Server yet, make sure to wait a bit, depending on the amount of Servers, a refresh can take a few Minutes.
+:::
 
 Now we should already see our Server in the List, we can now click on it and then click on `Connect`, once we have connected we now just need to enter the Server Password we gave it in the Settings and press Enter!
 

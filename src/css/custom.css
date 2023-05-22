@@ -1,13 +1,13 @@
 /**
- * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
- * work well for content-centric websites.
- */
+* Any CSS included here will be global. The classic template
+* bundles Infima by default. Infima is a CSS framework designed to
+* work well for content-centric websites.
+*/
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
+  --ifm-color-primary: #00aa1a;
+  --ifm-color-primary-dark: #29782e;
   --ifm-color-primary-darker: #277148;
   --ifm-color-primary-darkest: #205d3b;
   --ifm-color-primary-light: #33925d;
@@ -19,10 +19,10 @@
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
+  --ifm-color-primary: #27db76;
+  --ifm-color-primary-dark: #21af44;
+  --ifm-color-primary-darker: #1fa54d;
+  --ifm-color-primary-darkest: #1a8840;
   --ifm-color-primary-light: #29d5b0;
   --ifm-color-primary-lighter: #32d8b4;
   --ifm-color-primary-lightest: #4fddbf;
@@ -30,7 +30,7 @@
 }
 
 /* center images */
-img {
+img, iframe {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -38,5 +38,26 @@ img {
 
 /* make tables fullwidth */
 table {
-width: 100%;
+  width: 100%;
+  display: table;
+}
+
+/* set text-align for paragrah to justify */
+p {
+  text-align: justify;
+}
+
+
+/* smaller edit button */
+.theme-edit-this-page {
+  color: grey;
+  font-size: 1em;
+}
+.theme-edit-this-page svg {
+  height: 70%;
+  display: inline-block;
+}
+
+.docusaurus-mt-lg {
+  margin-top: 1.8rem;
 }

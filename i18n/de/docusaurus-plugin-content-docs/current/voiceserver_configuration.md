@@ -1,6 +1,6 @@
 ---
 id: voiceserver_configuration
-title: Teamspeak Server Konfiguration
+title: Konfiguration
 description: Informationen, wie du deinen Teamspeak-Server von ZAP-Hosting konfigurieren kannst - ZAP-Hosting.com Dokumentationen
 sidebar_label: Server Konfiguration
 
@@ -48,7 +48,9 @@ Im Feld **Server Name** kannst du den Namen deines Teamspeak Servername definier
 
 Sofern du die Option eigenen Banner gebucht hast, kannst du im Feld **Banner Gfx URL** einen eigenen Banner hinzufügen. Dabei ist es wichtig, dass du den Direktlink zum Bild angibst, da das Bild ansonsten nicht erkannt wird. Im Feld **URL** kannst du dann noch einstellen, worauf der Banner weiterleiten soll, wenn jemand auf den Banner klickt. 
 
-> Wenn kein eigener Banner gebucht wurde, dann wird der Banner automatisch durch den standardmäßigen ZAP-Banner ersetzt. 
+:::info
+Wenn kein eigener Banner gebucht wurde, dann wird der Banner automatisch durch den standardmäßigen ZAP-Banner ersetzt. 
+:::
 
 
 

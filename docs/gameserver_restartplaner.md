@@ -1,6 +1,6 @@
 ---
 id: gameserver_restartplaner
-title: Gameserver Restartplaner - Perform server restarts automatically
+title: Restartplaner - Perform server restarts automatically
 description: Information on how to use the restart planner to have your ZAP-Hosting.com game server restarted automatically at predefined intervals - ZAP-Hosting.com documentation
 sidebar_label: Restart planner
 ---
@@ -9,7 +9,9 @@ sidebar_label: Restart planner
 
 The restart planner is a feature offered for game servers which allows you to create an automatic restart to restart the server automatically at the same time every day.
 
-> This feature is only available for game servers.
+:::info
+This feature is only available for game servers.
+:::
 
 This feature can be found in the interface of the game server.
 
@@ -17,7 +19,9 @@ This feature can be found in the interface of the game server.
 
 ## Create new entries
 
-> ***Note:*** Changes made to the restart planner are only applied once the server has been restarted.
+:::info
+***Note:*** Changes made to the restart planner are only applied once the server has been restarted.
+:::
 
 If you want to add an automatic restart, then you need to click on the grey "**+**" button.
 

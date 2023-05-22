@@ -1,6 +1,6 @@
 ---
 id: fivem_installresources
-title: FiveM Installing resources, mods and scripts on server
+title: Installing resources, mods and scripts on server
 description: Information on how to install resources, mods and scripts on your FiveM server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Resource Installation
 ---
@@ -24,7 +24,9 @@ The installation of resources is done via FTP. You will need an FTP client to up
 
 Downloaded resources are usually offered in a packed format. This means that you have to unpack the packed file with an unpacking program such as 7Zip, Winrar or WinZip. The unpacked resource should contain at least the following files:  __resource.lua / fxmanifest.lua and the associated script files.
 
-> In case these files are not present, it may be that they are located in a subdirectory. 
+:::info
+In case these files are not present, it may be that they are located in a subdirectory. 
+:::
 
 
 ## Installation
@@ -34,7 +36,9 @@ The previously unpacked files must now be uploaded as an individual folder, if i
 ```
 /gXXXXXX/gta5-fivem/server-data/resources
 ```
-> The directory structure of FiveM TxAdmin differs from the rest of the FiveM products, as they still contain their own template directory. The resources are also located in the template directory. 
+:::info
+The directory structure of FiveM TxAdmin differs from the rest of the FiveM products, as they still contain their own template directory. The resources are also located in the template directory. 
+:::
 
 Certain resources cooperate with a database and therefore often already contain SQL files that have to be imported into the database. If you are not familiar with how databases work or how to import them, it is worth taking a look at the [FiveM Server: SQL File Import](https://zap-hosting.com/guides/docs/en/fivem_sql_file_import/) guide.
 
@@ -43,6 +47,8 @@ To ensure that the installed resource is also loaded, it must first be activated
 ```
 start eup-ui
 ```
-> Please make sure that the name of the previously created folder is the same as the name of the start command. The upper and lower case is also essential. 
+:::info
+Please make sure that the name of the previously created folder is the same as the name of the start command. The upper and lower case is also essential. 
+:::
 
 Afterwards, the server can be restarted as soon as this step has been completed. The installed resource should now be loaded with the next startup process. 

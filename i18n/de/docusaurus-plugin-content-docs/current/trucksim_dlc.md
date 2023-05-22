@@ -1,6 +1,6 @@
 ---
 id: trucksim_dlc
-title: Trucksim DLC/Mods Aktivieren
+title: DLC/Mods Aktivieren
 description: Informationen, wie du auf deinem Trucksim-Server DLCs und Mods aktivierst
 sidebar_label: DLC/Mods Aktivieren
 ---

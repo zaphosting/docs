@@ -1,6 +1,6 @@
 ---
 id: account_donations
-title: Donate - Finance servers together with your friends at ZAP-Hosting
+title: Donate - Finance servers together with your friends
 description: Instructions on how to use the donation function to finance a server at ZAP-Hosting together with friends - ZAP-Hosting.com documentations
 sidebar_label: Donations
 ---
@@ -22,4 +22,6 @@ Now you will be taken to the configuration page where you can set all the donati
 You can customize them as you like and save them with a click on **Save**.
 Afterwards you can share your **donate link** with your friends or link it on your website or server.
 
-> Donations will be credited 1:1 to your ZAP account. There are no fees for you! 🙂
+:::info
+Donations will be credited 1:1 to your ZAP account. There are no fees for you! 🙂
+:::

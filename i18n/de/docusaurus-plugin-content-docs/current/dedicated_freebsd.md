@@ -5,13 +5,18 @@ description: Informationen zu der Installation des FreeBSD Betriebssystem auf de
 sidebar_label: FreeBSD installieren
 ---
 
-> In diesem Beispiel wird die Installation von FreeBSD 13.0 durchgeführt
+:::info
+In diesem Beispiel wird die Installation von FreeBSD 13.0 durchgeführt
+:::
 
 ## Vorbereitungen
 Wähle in deinem ZAP-Interface die gewünschte ISO von FreeBSD aus und lasse den Server mit der ISO booten, bis dieser im Setup ist.
 
-> Die Navigation im Setup Prozess erfolgt mit TAB, Leertaste und Enter.
-> TAB = Zwischen Menüpunkten wechseln, Leertaste = markieren, Enter = Bestätigen
+:::info
+Die Navigation im Setup Prozess erfolgt mit TAB, Leertaste und Enter.
+
+TAB = Zwischen Menüpunkten wechseln, Leertaste = markieren, Enter = Bestätigen
+:::
 
 ***
 
@@ -71,7 +76,9 @@ Wähle deinen Datenträger mit der `Leertaste` aus und bestätige dann mit `Ente
 
 Wir bestätigen das alle Daten überschrieben werden dürfen
 
-> Dein Server führt nun das Setup aus, dies kann einige Zeit in Anspruch nehmen
+:::info
+Dein Server führt nun das Setup aus, dies kann einige Zeit in Anspruch nehmen
+:::
 
 ### Konfiguration
 
@@ -109,7 +116,9 @@ Falls notwendig, könnten hier noch Sicherheitseinstellungen getroffen werden
 
 Das Setup ist beendet. Wir wählen "Exit" und bestätigen mit Enter.
 
-> Entferne nun die ISO-Datei aus deiner iLO und wähle Reboot
+:::info
+Entferne nun die ISO-Datei aus deiner iLO und wähle Reboot
+:::
 
 ### Netzwerk
 
@@ -129,7 +138,9 @@ Nach dem Neustart muss noch die rc.conf bearbeitet werden `ee /etc/rc.conf`, fü
 ifconfig_oce0="DHCP"
 ```
 
-> ⚠️ Achtung: Der Name des Netzwerkadapters in dem Beispiel **oce0** kann abweichen. Stelle sicher, dass du den richtigen Netzwerk-Adapter angibst. Das kannst du über den ifconfig Befehl nachvollziehen. Die Informationen werden im Anschluss automatisch über den DHCP Server bezogen. 
+:::info
+Achtung: Der Name des Netzwerkadapters in dem Beispiel **oce0** kann abweichen. Stelle sicher, dass du den richtigen Netzwerk-Adapter angibst. Das kannst du über den ifconfig Befehl nachvollziehen. Die Informationen werden im Anschluss automatisch über den DHCP Server bezogen. 
+:::
 
 Das sollte dann in etwa so aussehen:
 
@@ -137,4 +148,6 @@ Das sollte dann in etwa so aussehen:
 
 Verlasse den Editor ebenfalls mit `STRG+C` und der Eingabe von "exit" und führe zum Abschluss einmal `/etc/netstart` aus
 
-> Dein Server sollte nun eine Netzwerkverbindung haben
+:::info
+Dein Server sollte nun eine Netzwerkverbindung haben
+:::

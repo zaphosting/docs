@@ -1,6 +1,6 @@
 ---
 id: vserver_linux_mariadbinstall
-title: vServer MariaDB (MySQL) auf Server installieren
+title: MariaDB (MySQL) auf Server installieren
 descriptin: Informationen, wie du MariaDB (MySQL) auf deinen vServer von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentationen
 sidebar_label: MariaDB (MySQL) Installation
 ---
@@ -32,14 +32,18 @@ Führe nun die Konfiguration deines MariaDB (MySQL) Servers durch, im folgenden 
 
 Dort übersprichst du die Eingabe vorerst durch das drücken auf **Enter**, das Passwort für den root User legen wir im gleich fest.
 
-> ⚠️ Bei dem User root handelt es sich um den Hauptbenutzer deines MariaDB (MySQL) Servers!
+:::info
+Bei dem User root handelt es sich um den Hauptbenutzer deines MariaDB (MySQL) Servers!
+:::
 
 Nun wirst du gefragt ob du ein Passwort für den Benutzer root setzen möchtest, dieses bestätigst du mit **y** für yes, also ja.
 
 Im Anschluss gibst du dort das neue Passwort für den Benutzer root ein.
 
 
-> ⚠️ Während der Eingabe des Passwortest kannst du dieses zwar nicht sehen, das ist jedoch normal und dein Passwort wird trotzdem hinterlegt. Achte unbedingt darauf ein sicheres 
+:::info
+Während der Eingabe des Passwortest kannst du dieses zwar nicht sehen, das ist jedoch normal und dein Passwort wird trotzdem hinterlegt. Achte unbedingt darauf ein sicheres 
+:::
 Passwort für deinen root Benutzer zu wählen und verwahre dieses an einem sicheren Ort. 
 
 ![image](https://user-images.githubusercontent.com/13604413/159171942-82667636-b148-4248-a95d-ad3d9ed3ab47.png)

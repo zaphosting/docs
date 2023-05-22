@@ -1,6 +1,6 @@
 ---
 id: minecraft_pluginuploader
-title: Minecraft Server Using ZAP-Hosting Plugin Uploader
+title: Server Using ZAP-Hosting Plugin Uploader
 description: Information on how to use the plugin uploader to upload plugins to your Minecraft server from ZAP-Hosting via the web interface - ZAP-Hosting.com documentation
 sidebar_label: Plugin Uploader
 ---
@@ -11,7 +11,9 @@ Click here to get to our Minecraft servers: [Minecraft server hosting](https://z
 
 Click your Minecraft server on the server overview. Then select the Plugins tab, which is located in the Settings sub-item.
 
-> Make sure your current game is Spigot or Bukkit. The plugin uploader is only available there.
+:::info
+Make sure your current game is Spigot or Bukkit. The plugin uploader is only available there.
+:::
 
 ## Install/Upload Plugins
 
@@ -36,7 +38,9 @@ If you have dragged the plugin into the upload field, it takes a moment until th
 
 In order to be able to use the plugin you have to reload your server with the command `/rl` or `/reload` via your game server console (or restart the entire server).
 
-> In rare cases the server has to be restarted so that the plugin runs smoothly.
+:::info
+In rare cases the server has to be restarted so that the plugin runs smoothly.
+:::
 
 
 ## Uninstall Plugin
@@ -49,7 +53,9 @@ To uninstall a plugin, click on the red bin next to the entry.
 
 To do this, click on the green button with the lock behind an installed plugin. If the button changes its color from green to orange, you have deactivated your plugin. The other way around, you activate your plugin again. The plugin file is still on the server after deactivation, but is no longer loaded by the game server.
 
-> After you have deactivated your plugin, you have to reload the server once for the changes to take effect. Use one of the following two commands in your game server console or in-game: `/rl` or `/reload`
+:::info
+After you have deactivated your plugin, you have to reload the server once for the changes to take effect. Use one of the following two commands in your game server console or in-game: `/rl` or `/reload`
+:::
 
 ## Common Problems
 
@@ -64,7 +70,9 @@ Suggested solutions:
 
 ### My plug-in can no longer be deleted.
 
-> In that case, contact support.
+:::info
+In that case, contact support.
+:::
 
 ### My plugin cannot be deactivated / activated.
 

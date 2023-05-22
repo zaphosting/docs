@@ -1,6 +1,6 @@
 ---
 id: arma3_serverconfig
-title: "Arma 3 Server.cfg - Edit server configuration file"
+title: Edit server configuration file
 description: Information about the settings and configuration options of the server.cfg file of your Arma 3 server from ZAP-Hosting - ZAP-Hosting.com 
 sidebar_label: Server.cfg
 ---
@@ -62,13 +62,17 @@ Here you learn how to connect to your game server via FTP: [FTP-Dateizugriff - M
 
 ## Establishing the connection and navigating to the path of the server.cfg
 
-> Make sure that your game server is stopped while you are working on it via FTP.
+:::info
+Make sure that your game server is stopped while you are working on it via FTP.
+:::
 
 After you have connected to your game server via FTP as explained above, you navigate via FileZilla in the lower right window to the directory of your server.cfg, which you can find under: **/g198376/arma3/config**
 
 ![](https://puu.sh/Fo5eC/4d222f5a99.png)
 
-> The name of the first folder (g198376) is the ID of your server, so you can keep the folders apart if you have more than one game server.
+:::info
+The name of the first folder (g198376) is the ID of your server, so you can keep the folders apart if you have more than one game server.
+:::
 
 ![](https://puu.sh/Fo4Tw/06f7a53914.png)
 

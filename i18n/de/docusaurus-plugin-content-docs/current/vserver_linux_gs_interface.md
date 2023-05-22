@@ -1,6 +1,6 @@
 ---
 id: vserver_linux_gs_interface
-title: vServer Gameserver/TS3 Interface
+title: Gameserver/TS3 Interface
 description: Informationen, wie du über das Gameserver/TS3 Interface mit wenigen Klicks TS und Gameserver auf deinen vServer von ZAP-Hosting.com installieren kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: GS/TS3 Interface
 
@@ -21,10 +21,12 @@ Um dieses Problem zu lösen, haben wir für unsere Linux-basierten VPS, Rootserv
 
 Mit dem benutzerfreundlichen GS/TS3 Interface kannst du mit nur wenigen Klicks einen Teamspeak 3 oder andere verschiedene ausgewählte Gameserver-Dienste auf deinem Linux-basierten VPS, Rootserver oder Dedicated Server installieren. Für diese Installation sind keinerlei Vorkenntnisse erforderlich. Die Einrichtung sämtlicher benötigter Pakete, der Server-Dateien sowie die eigentliche Installation werden vollständig automatisch durchgeführt, wodurch du Zeit und Mühe sparst.
 
-> ⚠️ **Hinweis:** Um das GS/TS3 Interface erfolgreich zu installieren, ist es wichtig sicherzustellen, dass dein Server eines der folgenden unterstützten Betriebssysteme installiert hat:
->
-> - Debian 10
-> - Debian 11
+:::info
+Um das GS/TS3 Interface erfolgreich zu installieren, ist es wichtig sicherzustellen, dass dein Server eines der folgenden unterstützten Betriebssysteme installiert hat:
+
+Debian 10
+Debian 11
+:::
 
 
 
@@ -65,7 +67,9 @@ Nachdem du auf **Key hinzufügen** geklickt hast, wurde der SSH-Schlüssel bei d
 
 
 
-> ⚠️ **Hinweis:** Wenn der SSH-Schlüssel nicht direkt erkannt wird, ist ein Neustart des Servers und eine Aktualisierung der Seite eine mögliche Lösung.
+:::info
+Wenn der SSH-Schlüssel nicht direkt erkannt wird, ist ein Neustart des Servers und eine Aktualisierung der Seite eine mögliche Lösung.
+:::
 
 
 
@@ -75,7 +79,9 @@ Während der Installation kannst du den aktuellen Fortschritt einsehen. Bitte be
 
 ![](https://user-images.githubusercontent.com/61839701/165697201-b3b7be30-473a-44f4-aedf-a03f374d7fdb.png)
 
-> ⚠️ **Achtung**: Bitte setze den Prozess erst fort, wenn das Interface vollständig installiert ist. Du erkennst die erfolgreiche Installation daran, dass der Fortschrittsbalken verschwunden ist und bei jedem erforderlichen Paket "Installiert" anstelle von "fehlt" angezeigt wird.
+:::info
+**Achtung**: Bitte setze den Prozess erst fort, wenn das Interface vollständig installiert ist. Du erkennst die erfolgreiche Installation daran, dass der Fortschrittsbalken verschwunden ist und bei jedem erforderlichen Paket "Installiert" anstelle von "fehlt" angezeigt wird.
+:::
 
 
 
@@ -137,7 +143,9 @@ Stelle sicher, dass alle Angaben korrekt sind und deinen Anforderungen entsprech
 
 ![](https://user-images.githubusercontent.com/61839701/165702380-5169d23a-21d0-4d58-a538-ab7b65f76615.png)
 
-> ⚠️ **Achtung**: Es handelt sich hierbei um die Instanz, auf welchem der Teamspeak 3 Server im Anschluss angelegt wird.
+:::info
+**Achtung**: Es handelt sich hierbei um die Instanz, auf welchem der Teamspeak 3 Server im Anschluss angelegt wird.
+:::
 
 Du befindest dich nun im Interface der Instanz von deinem installierten Teamspeak 3 Server. Die Instanz kannst du nun mit einem Klick auf den **Start** Button starten.
 
@@ -154,6 +162,6 @@ Im Interface des Teamspeak 3 Servers findest du alle notwendigen Informationen u
 
 Unter dem Menüpunkt "Einstellungen" stehen dir weitere Optionen zur Verfügung, um deinen Server anzupassen. Hier kannst du zum Beispiel den Namen deines Servers ändern, ein Passwort festlegen, um den Zugang zu beschränken, oder eine persönliche Begrüßungsnachricht hinterlegen, die Nutzer beim Betreten des Servers empfangen.
 
-
-> ⚠️ **Hinweis**: Standardmäßig ist keine Lizenz auf dem Teamspeak 3 Server installiert. Dies hat zur Folge, dass du zunächst lediglich einen Teamspeak 3 Server mit einer Kapazität von 32 Slots nutzen kannst. Möchtest du jedoch mehr Kapazitäten oder zusätzliche Funktionen für deinen Teamspeak 3 Server freischalten, kannst du eine entsprechende Lizenz von Teamspeak erwerben.
-
+:::caution
+Standardmäßig ist keine Lizenz auf dem Teamspeak 3 Server installiert. Dies hat zur Folge, dass du zunächst lediglich einen Teamspeak 3 Server mit einer Kapazität von 32 Slots nutzen kannst. Möchtest du jedoch mehr Kapazitäten oder zusätzliche Funktionen für deinen Teamspeak 3 Server freischalten, kannst du eine entsprechende Lizenz von Teamspeak erwerben.
+:::

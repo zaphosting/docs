@@ -7,7 +7,9 @@ sidebar_label: Plesk
 
 ## Install Plesk
 
-> Before installing, run apt update and apt upgrade so that the latest packages are installed on the server. 
+:::info
+Before installing, run apt update and apt upgrade so that the latest packages are installed on the server. 
+:::
 Plesk can currently only be installed on Debian 9 (Strech), Debian 10 (Buster), Ubuntu 18.04 (Bionic Beaver), Ubuntu 20.04 (Focal Fossa), CentOS 7/8, Red Hat Enterprise Linux 7.x/8.x, CloudLinux 7.1+/8, AlmaLinux OS, Rocky Linux 8.x and Virtuozzo Linux 7. The architecture must be 64-bit.
 
 The connection to the server can be made via Putty, for example.
@@ -30,15 +32,21 @@ For Plesk to install fully automatically with the standard components and featur
 sh <(curl https://autoinstall.plesk.com/one-click-installer || wget -O - https://autoinstall.plesk.com/one-click-installer)
 ```
 
-> If this error is displayed: "-bash: curl: command not found" you have to reload the package with `apt install curl`.
+:::info
+If this error is displayed: "-bash: curl: command not found" you have to reload the package with `apt install curl`.
+:::
 
 Once this command has been executed, it usually takes between 15 and 60 minutes to fully install Plesk.
 
-> The SSH session must not be closed while the installer is still active. This would otherwise lead to termination. 
+:::info
+The SSH session must not be closed while the installer is still active. This would otherwise lead to termination. 
+:::
 Also, the server would have to be reinstalled to restart the installer. 
 If the installer is restarted without first reinstalling the server, there will be problems with non-functioning features during the installation or in the Plesk panel itself. 
 
-> It can happen that it looks like the installer is "stuck", in 99% of the cases the installer will continue to run after a few minutes, because it still has to configure packages/configs and co.
+:::info
+It can happen that it looks like the installer is "stuck", in 99% of the cases the installer will continue to run after a few minutes, because it still has to configure packages/configs and co.
+:::
 
 
 The installation is complete when this is displayed
@@ -50,7 +58,9 @@ The installation is complete when this is displayed
 
 Only a few commands are needed to install Plesk via the Web. 
 
-> The Plesk installer always installs the latest/most recent version of Plesk. It may happen that the graphics/screenshots shown here do not show the latest/most recent version of Plesk.
+:::info
+The Plesk installer always installs the latest/most recent version of Plesk. It may happen that the graphics/screenshots shown here do not show the latest/most recent version of Plesk.
+:::
 
 Download the Plesk Installer:
 ```
@@ -74,7 +84,9 @@ Start the installer:
 
 Only a few commands are required to install Plesk via the console. 
 
-> The Plesk installer always installs the latest/most recent version of Plesk. It may happen that the graphics/screenshots shown here do not show the latest/most recent version of Plesk.
+:::info
+The Plesk installer always installs the latest/most recent version of Plesk. It may happen that the graphics/screenshots shown here do not show the latest/most recent version of Plesk.
+:::
 
 Download the installer:
 
@@ -108,7 +120,9 @@ The next question whether packages may be installed/upgraded is confirmed with "
 
 Now the installer starts the installation.
 
-> The SSH session must not be closed while the installer is still active. This would lead to an abort and the server would have to be reinstalled for the installer to restart. 
+:::info
+The SSH session must not be closed while the installer is still active. This would lead to an abort and the server would have to be reinstalled for the installer to restart. 
+:::
 It can happen that it looks like the installer is "stuck", in 99% of the cases the installer continues running after a few minutes, because it has to configure packages/configs and co.
 
 The installation is complete as soon as the following appears: 
@@ -124,7 +138,9 @@ After the installer has been started, the installation is carried out in the bro
 
 ## The Plesk Web Panel 
 
-> The following is displayed when calling the Web Panel: "This is not a secure connection". This must be confirmed the first time, then the page opens. 
+:::info
+The following is displayed when calling the Web Panel: "This is not a secure connection". This must be confirmed the first time, then the page opens. 
+:::
 
 The web interface can be reached via https://IP:8443 or https://Domain.xx:8443 of the server. The login data is root/admin and the current root password. Alternatively you can simply use one of the displayed URLs. If these are no longer valid, you can create new URLs with the command ``plesk login``. 
 
@@ -152,15 +168,20 @@ Now the own domain can be entered. Also an IP as well as a user name and passwor
 [](https://user-images.githubusercontent.com/61839701/166189713-a3a201c3-c4ad-4c57-a8d3-3dab31316a43.png)
 
 
-> The domain must point to the IP of the webspace, if the domain is ZAP-hosting, it can be easily redirected to the webspace via EasyDNS, if it is external, an A-record must be set to the IP and the subdomain "www", "webmail" must also point to the IP. An MX record should also be set to the IP of the web space. 
+:::info
+The domain must point to the IP of the webspace, if the domain is ZAP-hosting, it can be easily redirected to the webspace via EasyDNS, if it is external, an A-record must be set to the IP and the subdomain "www", "webmail" must also point to the IP. An MX record should also be set to the IP of the web space. 
 
-> It can take up to 24 hours until a new/changed DNS entry is forwarded to the correct destination. 
+
+It can take up to 24 hours until a new/changed DNS entry is forwarded to the correct destination. 
+:::
 
 ## SSL encryption
 
 During the domain registration/creation of the web space, an SSL certificate from Lets Encrypt was already generated, this can now be entered/selected under "Hosting settings" of the domain. Afterwards it must confirm with a click on "Apply".
 
-> In order to be permanently redirected to HTTPS (SSL) when calling up the web page, the checkbox "Permanent, SEO-suitable 301 forwarding from HTTP to HTTPS" must be checked. 
+:::info
+In order to be permanently redirected to HTTPS (SSL) when calling up the web page, the checkbox "Permanent, SEO-suitable 301 forwarding from HTTP to HTTPS" must be checked. 
+:::
 
 [](https://user-images.githubusercontent.com/61839701/166189750-13548aa4-98f3-4f51-b0fe-1611b42c8171.png)
 
@@ -168,4 +189,6 @@ If the domain is now opened in the browser, it shows its encryption.
 
 ![](https://user-images.githubusercontent.com/61839701/166189776-af720eaa-3c80-4768-ad52-fb6e3862d3b6.png)
 
-> The installation as well as the setup of the first domain with encryption is now completely finished. 
+:::info
+The installation as well as the setup of the first domain with encryption is now completely finished. 
+:::

@@ -4,13 +4,20 @@ title: Mods installieren
 sidebar_label: Mods installieren
 ---
 
-> **ACHTUNG**
-> Mods sind zum aktuellen Zeitpunkt NICHT nutzbar!
+:::info
+**ACHTUNG**
 
-> **ACHTUNG**
-> Mods sind von den Entwicklern bisher **nicht offiziell** unterstützt, sie werden jedoch geduldet!
-> Die Installation von Mods kann im schlimmsten Fall den Spielstand zerstören, durch ein Update temporär nicht mehr spielbar sein oder ebenfalls zerstört werden!
-> Es sollte **in jedem Fall vor** der Installation von Mods ein Backup angelegt werden und auch sonst regelmäßig Backups angelegt werden für den Fall der Fälle!
+Mods sind zum aktuellen Zeitpunkt NICHT nutzbar!
+
+
+**ACHTUNG**
+
+Mods sind von den Entwicklern bisher **nicht offiziell** unterstützt, sie werden jedoch geduldet!
+
+Die Installation von Mods kann im schlimmsten Fall den Spielstand zerstören, durch ein Update temporär nicht mehr spielbar sein oder ebenfalls zerstört werden!
+
+Es sollte **in jedem Fall vor** der Installation von Mods ein Backup angelegt werden und auch sonst regelmäßig Backups angelegt werden für den Fall der Fälle!
+:::
 
 ## Modded Satisfactory auf dem Server installieren
 
@@ -34,10 +41,15 @@ Wenn der Download abgeschlossen ist, führe die Datei aus und installiere den Mo
 Es müssen 1:1 die gleichen Mods auf dem Client (von allen Spielern!) und dem Server installiert werden, damit die Verbindung möglich ist bzw. es zu keinem Crasht kommt.
 Im ersten Schritt werden die Mods auf dem Client zusammengestellt und installiert, sodass diese im Anschluss auf den Server übertragen werden können.
 
-> **ACHTUNG**
-> Nicht alle Mods sind mit dem Multiplayer kompatibel!
-> Sofern die Mod mit dem Multiplayer kompatibel ist, wird dies in der Regel immer in der Beschreibung der Mod erwähnt.
-> Hinweis: Auch wenn die Mod als kompatibel für den Multiplayer ausgewiesen wird, ist dies keine Gewährleistung dessen!
+:::info
+**ACHTUNG**
+
+Nicht alle Mods sind mit dem Multiplayer kompatibel!
+
+Sofern die Mod mit dem Multiplayer kompatibel ist, wird dies in der Regel immer in der Beschreibung der Mod erwähnt.
+
+Auch wenn die Mod als kompatibel für den Multiplayer ausgewiesen wird, ist dies keine Gewährleistung dessen!
+:::
 
 ### Client
 

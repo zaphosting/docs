@@ -1,6 +1,6 @@
 ---
 id: fivem_useprofiler
-title: FiveM Profiler benutzen und Serverprobleme identifizieren
+title: Profiler benutzen und Serverprobleme identifizieren
 description: Informationenen, wie du den Profiler für deinen FiveM-Server on ZAP-Hosting zur Problemidentifizierung benutzt und interpretierst - ZAP-Hosting.com Dokumentationen
 sidebar_label: Profiler Benutzen
 ---
@@ -52,5 +52,7 @@ Wir wählen nun einen "Tick" aus, welcher viel Performance verbraucht:
 Nun können wir sehen, welche Resourcen sehr viel zeit verbrauchen.
 
 
-> Resourcen welche insgesamt über 6 ms Verbrauchen können Probleme verursachen
+:::info
+Resourcen welche insgesamt über 6 ms Verbrauchen können Probleme verursachen
+:::
 

@@ -1,11 +1,13 @@
 ---
 id: domain_teamspeak_redirect
-title: Domains Domain TeamSpeak 3 forwarding setup
+title: Domain TeamSpeak 3 forwarding setup
 description: Information on how to set up a forwarding from a domain to a TS server at ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Domain TeamSpeak 3 Redirect
 ---
 
-> Please note that it can always take up to 24 hours before changes to DNS entries become active!
+:::info
+Please note that it can always take up to 24 hours before changes to DNS entries become active!
+:::
 
 ## Forward domain to your TeamSpeak 3 server
 
@@ -61,7 +63,9 @@ You can leave the **TTL** field untouched.
 When you have entered everything, click on **Save**, the entry will be saved in the DNS settings and will be displayed within
 of 24 hours.
 
-> It can always take up to 24 hours until new DNS entries become active. Unfortunately nobody has influence on this.
+:::info
+It can always take up to 24 hours until new DNS entries become active. Unfortunately nobody has influence on this.
+:::
 
 ## Forwarding the domain with subdomain
 
@@ -95,7 +99,9 @@ The value **0** is no longer relevant and always remains the same. The fields **
 
 Afterwards you can click on **Save**.
 
-> It is important that a **dot** is set in the **value** field at the end of the domain!
+:::info
+It is important that a **dot** is set in the **value** field at the end of the domain!
+:::
 
 
 

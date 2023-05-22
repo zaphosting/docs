@@ -1,6 +1,6 @@
 ---
 id: scp_newroles
-title: SCP Secret Laboratory Server Neue Rollen hinzufügen
+title: Neue Rollen hinzufügen
 description: Informationen, wie du neue Rollen auf deinen SCP-Server von ZAP-Hosting hinzufügen kannst - ZAP-Hosting.com Dokumentationen
 sidebar_label: Neue Rollen hinzufügen
 ---
@@ -37,7 +37,9 @@ Das geht ebenfalls in der identischen Config nur minimal weiter darunter.
 ![image](https://user-images.githubusercontent.com/13604413/159182860-38595abf-ca1b-460e-a19d-57b338f1af6d.png)
 
 Unsere Rolle tragen wir also unter der "moderator" Rolle ein.
-> ACHTUNG: Bitte die Leerzeichen vor und nach dem "-" beachten!
+:::info
+ACHTUNG: Bitte die Leerzeichen vor und nach dem "-" beachten!
+:::
 
 ## Berechtigungen
 Ganz unten in der "config_remoteadmin.txt" Config Datei können wir die Berechtigungen für die jeweiligen Rollen anpassen.

@@ -1,6 +1,6 @@
 ---
 id: fivem_notlisted
-title: FiveM Server Server erscheint nicht in der Serverliste
+title: Server erscheint nicht in der Serverliste
 description: Informationen, was du tun kannst, wenn dein FiveM-Server von ZAP-Hosting nicht auf der Serverliste erscheint - ZAP-Hosting.com Dokumentationen
 sidebar_label: Server nicht in Serverliste
 ---
@@ -13,7 +13,9 @@ Oftmals sind es simple Konfigurationsfehler, welches dieses Problem verursacht, 
 
 ![image](https://user-images.githubusercontent.com/13604413/159138135-be595288-7548-47f6-aef9-877b9cdb06af.png)
 
-> Diese Zeile sollte **immer** mit einem # auskommentiert werden, wenn dies nicht der Fall ist, wird der Server nicht gelistet.
+:::info
+Diese Zeile sollte **immer** mit einem # auskommentiert werden, wenn dies nicht der Fall ist, wird der Server nicht gelistet.
+:::
 
 
 Ebenfalls sollte der Servername (`sv_hostname`) geprüft werden:
@@ -32,4 +34,6 @@ Es können auch Resourcen verhindern, dass der Server gelistet wurde, in diesem 
 
 Falls nichts davon abhilfe bringt, ist eine Neuinstallation empfehlenswert, damit werden alle Serverdateien auf Standard zurückgesetzt.
 
-> Gehe sicher, dass vor der Neuinstallation ein Backup erstellt wird, ansonsten werden die Daten auf dem Server verloren gehen.
+:::info
+Gehe sicher, dass vor der Neuinstallation ein Backup erstellt wird, ansonsten werden die Daten auf dem Server verloren gehen.
+:::

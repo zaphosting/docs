@@ -5,9 +5,12 @@ description: Information on how to color the server name on your SCP server from
 sidebar_label: Colored Servername
 ---
 
-> For showing your server in the public server list its required to set a pastebin ID. You can find our guide [here](scp_pastebin.md).
+:::info
+For showing your server in the public server list its required to set a pastebin ID. You can find our guide [here](scp_pastebin.md).
 
-> The server must be turned off for changes to take effect.
+
+The server must be turned off for changes to take effect.
+:::
 
 Open your server settings and check if 'SCP Servername' is empty.
 
@@ -26,8 +29,12 @@ Our Config-Editor is now open, you can modify your Servername with "server_name"
 In this example, I would like that "Green Text, "Blue Text" and "Red Text" is shown in the matching color.
 
 To do that, its required to use the `<color="COLOR">Your Text</color>` tag, you can see all available colors [here](https://docs.unity3d.com/Packages/com.unity.ugui@1.0/manual/StyledText.html) its also possible to change other attributes, like the size.
-> It is important to remember that quotes " " is required around the actual color inside the tag. As the example above has.
+:::info
+It is important to remember that quotes " " is required around the actual color inside the tag. As the example above has.
+:::
 
 When you're done with your customization, save them.
 
-> Start your server, then your server name will be colored now.
+:::info
+Start your server, then your server name will be colored now.
+:::

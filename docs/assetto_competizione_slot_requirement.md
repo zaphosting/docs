@@ -1,6 +1,6 @@
 ---
 id: assetto_competizione_slot_requirement
-title: "Assetto Corsa Competizione Car Slot Requirement"
+title: Car Slot Requirement
 description: Information on how to increase your Car Slots and set the Requirement correctly - ZAP-Hosting.com documentation
 sidebar_label: Car Slot Requirement
 ---
@@ -29,7 +29,9 @@ In the following, a list of possible combinations is displayed which can be used
 There is also more than one possible solution to achieve the necessary slot requirement.
 For this reason, the different possibilities are also shown in the list.
 
-> Note that for safetyRatingRequirement and trackMedalRequirement the **minimum** requirements have been entered. It is of course also possible to host fewer slots with larger values for safetyRatingRequirement and trackMedalRequirement.
+:::info
+Note that for safetyRatingRequirement and trackMedalRequirement the **minimum** requirements have been entered. It is of course also possible to host fewer slots with larger values for safetyRatingRequirement and trackMedalRequirement.
+:::
 
 Slots | safetyRatingRequirement | trackMedalRequirement
 -----|-------|---------

@@ -1,11 +1,13 @@
 ---
 id: scp_becomeadmin
-title: SCP Secret Laboratory Admin auf dem eigenen Server werden
+title: Admin auf dem eigenen Server werden
 description: Informationen, wie du dich zum Admin auf deinem SCP-Server von ZAP-Hosting.com machen kannst - ZAP-Hosting.com Dokumentationen
 sidebar_label: Admin werden
 ---
 
-> HINWEIS: Seit den letzten SCP-Updates ist die Passwort-Anmeldung nicht mehr möglich. Mit der folgenden Anleitung kannst du die Rollen stattdessen mithilfe der Steam ID hinzufügen.
+:::info
+Seit den letzten SCP-Updates ist die Passwort-Anmeldung nicht mehr möglich. Mit der folgenden Anleitung kannst du die Rollen stattdessen mithilfe der Steam ID hinzufügen.
+:::
 
 ## Konfiguration der Remote Admin Config
 
@@ -54,6 +56,9 @@ Als Beispiel fügen wir admin und moderator hinzu um das Passwort zu überschrei
 
 ![image](https://user-images.githubusercontent.com/26007280/189888296-22f532af-44d4-4269-ba73-4a91686c5f66.png)
 
-> Hint: Die Adminkonsole im Spiel lässt sich jederzeit mit der Taste **M** öffnen.
+:::info
+Hint: Die Adminkonsole im Spiel lässt sich jederzeit mit der Taste **M** öffnen.
 
-> Nun kannst du deinen Server starten und die vergebenen Rechte im Spiel nutzen.
+
+Nun kannst du deinen Server starten und die vergebenen Rechte im Spiel nutzen.
+:::

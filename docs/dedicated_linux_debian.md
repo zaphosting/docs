@@ -8,7 +8,9 @@ sidebar_label: Install Debian
 ## Preparations
 In your ZAP interface, select the desired ISO of Debian and let the server boot with the ISO until it is in the setup process. Navigation in the setup process is done with TAB, Space and Enter.
 
-> TAB = switch between items, Space = highlight, Enter = confirm
+:::info
+TAB = switch between items, Space = highlight, Enter = confirm
+:::
 
 ***
 
@@ -57,7 +59,9 @@ We choose United States as locale.
 In our case we choose the German keyboard layout which is the QWERTZ layout.
 If you're from America the default layout would by QWERTY
 
-> Your server is now preparing some components which are necessary for the installation, this can take a few minutes.
+:::info
+Your server is now preparing some components which are necessary for the installation, this can take a few minutes.
+:::
 
 ### Configurations
 
@@ -92,13 +96,17 @@ To confirm the password you have to enter it again.
 
 ***
 
-> The installation wizard asks you to create a second user account
+:::info
+The installation wizard asks you to create a second user account
+:::
 
 ![image](https://user-images.githubusercontent.com/13604413/159173939-526bddc4-ef8c-4747-a852-e673dff89a16.png)
 
 Now enter the name of the owner for a normal user account, you can of course freely choose what you'd like to enter here.
 
-> You can of course use the "root" account in the end
+:::info
+You can of course use the "root" account in the end
+:::
 
 ***
 
@@ -134,7 +142,9 @@ Basically it is fine if the complete structure is stored on one partition.
 
 We confirm the configuration with "Finish partitioning and write changes to disk".
 
-> If there are old partitions on your ssd we confirm the overwrite with "Yes".
+:::info
+If there are old partitions on your ssd we confirm the overwrite with "Yes".
+:::
 
 Your server now performs the partitioning and prepares the installation of the system.
 
@@ -199,7 +209,9 @@ Confirm that this operating system is the only one on the current server with `Y
 
 As storage location we choose the default location on our ssd.
 
-> 🎉 The installation of your Debian system is now finished.
+:::info
+🎉 The installation of your Debian system is now finished.
+:::
 
 Open "Virtual Media" in your iLO and press "Eject Media" to remove the ISO from the system.
 
@@ -234,4 +246,6 @@ Enter the IP address of your server, which you see in your zap dashboard and use
 
 ![image](https://user-images.githubusercontent.com/13604413/159174010-4cf4901a-9481-45f9-b51a-6f07f53f050e.png)
 
-> ⚠️ If you have any further questions or problems, our support is happy to assist you!
+:::info
+If you have any further questions or problems, our support is happy to assist you!
+:::

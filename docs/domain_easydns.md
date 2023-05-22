@@ -1,6 +1,6 @@
 ---
 id: domain_easydns
-title: "Domains EasyDNS"
+title: EasyDNS
 description: Information about EasyDNS domain settings at ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: EasyDNS
 ---
@@ -25,6 +25,8 @@ There is also the option to forward your domain to a Minecraft server with a sub
 Here you can enter the name of the **desired subdomain** in the first field.
 On the right side you choose the desired **Minecraft Server**, which you want to link to the subdomain.
 
-> ⚠️ Please note that it can take up to 24 hours until changes to the domains have been adopted globally!
+:::info
+Please note that it can take up to 24 hours until changes to the domains have been adopted globally!
+:::
 
 

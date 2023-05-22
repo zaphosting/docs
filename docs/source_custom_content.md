@@ -1,6 +1,6 @@
 ---
 id: source_custom_content
-title: Source Games Installing custom content and mods on game servers
+title: Installing custom content and mods on game servers
 description: Information on how to install custom content and mods on your Source game server (e.g. CSS or Garry's Mod) from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Custom Content
 ---
@@ -52,7 +52,9 @@ Afterwards, the web space has to be authorized so that the download of the conte
 
 ![image](https://user-images.githubusercontent.com/26007280/189977795-96a8c515-8841-4c23-a1b7-b32d09e33b58.png)
 
-> The permissions must be set for all folders!
+:::info
+The permissions must be set for all folders!
+:::
 
 Now the custom content can be uploaded. For this, the files must be available on the server as well as on the FastDL(webspace). On the game server the files are uploaded unpacked and on the FastDL they should be uploaded packed as bzip2. The program 7Zip is recommended for this purpose.
 

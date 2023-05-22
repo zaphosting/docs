@@ -1,6 +1,6 @@
 ---
 id: ark_mods
-title: ARK Mods auf einem Server bei ZAP-Hosting installieren
+title: Mods auf einem Server installieren
 description: Informationen, wie du Mods auf deinem ARK-Server von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentationen
 sidebar_label: Mods installieren
 ---

@@ -1,6 +1,6 @@
 ---
 id: fivem_licensekey
-title: FiveM Eigenen Lizenzkey (Patreon) zu Server hinzufügen
+title: Eigenen Lizenzkey (Patreon) zu Server hinzufügen
 description: Informationen, wie du einen eigenen Lizenzkey (von Patreon) für FiveM-Server von ZAP-Hosting erstellst und zu deinem Server hinzufügen kannst - ZAP-Hosting.com Dokumentationen
 sidebar_label: Eigener Lizenzkey
 ---
@@ -49,7 +49,9 @@ Auf der Homepage des keymasters können wir unseren neuen Key nun sehen:
 
 ## Key einstellen
 
-> ⚠️ Bei txAdmin Servern muss der Lizenz-Key in der server.cfg bei sv_licensekey definiert werden!
+:::info
+Bei txAdmin Servern muss der Lizenz-Key in der server.cfg bei sv_licensekey definiert werden!
+:::
 
 Nun Öffnen wir die Einstellungen unseres Gameservers und scrollen nach unten, hier können wir nun unseren eigenen Key unter "Eigener Lizenzkey (optional)" Angeben, das Endresultat sollte so aussehen.
 

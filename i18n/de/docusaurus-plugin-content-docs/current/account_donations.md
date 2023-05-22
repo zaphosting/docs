@@ -1,6 +1,6 @@
 ---
 id: account_donations
-title: Spenden- Server bei ZAP-Hosting gemeinsam finanzieren
+title: Spenden - Server gemeinsam finanzieren
 description: Anleitung, wie du über die Spendenfunktion einen Server bei ZAP-Hosting zusammen mit Freunden finanzieren kannst - ZAP-Hosting.com Dokumentationen
 sidebar_label: Spendenlink
 ---
@@ -22,4 +22,6 @@ Nun landest du auf der Konfigurationsseite auf welcher du alle Spendeneinstellun
 Diese kannst du nach belieben anpassen und anschließend mit einem Klick auf **Speichern** speichern.
 Anschließend kannst du deinen **Spendenlink** mit deinen Freunden teilen oder diesen auf deiner Website oder deinem Server verlinken.
 
-> Spenden werden 1:1 deinem ZAP Konto gut geschrieben. Es fallen dort keinerlei Gebühren für dich an! 🙂
+:::info
+Spenden werden 1:1 deinem ZAP Konto gut geschrieben. Es fallen dort keinerlei Gebühren für dich an! 🙂
+:::

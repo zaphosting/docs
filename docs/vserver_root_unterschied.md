@@ -1,6 +1,6 @@
 ---
 id: vserver_root_unterschied
-title: Difference Rootserver / VPS at ZAP-Hosting
+title: Difference Rootserver / VPS
 description: Information on the differences between root servers and VPSs at ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Rootserver versus vServer
 ---
@@ -23,5 +23,8 @@ Especially for larger projects, a root server is often the better decision. For 
 
 If you wanted to have a large web presence, a root server would often also be the best choice for this as well.
 
-> If you are still not sure what is the better choice for you, you are welcome to contact our support.
-> Let us know what exactly you want to do with the server and we will gladly advise you of what we think is best! 
+:::info
+If you are still not sure what is the better choice for you, you are welcome to contact our support.
+
+Let us know what exactly you want to do with the server and we will gladly advise you of what we think is best! 
+:::

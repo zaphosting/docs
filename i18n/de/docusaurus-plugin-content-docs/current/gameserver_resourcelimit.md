@@ -1,6 +1,6 @@
 ---
 id: gameserver_resourcelimit
-title: Gameserver Resourcenlimit - Gameserver freischalten
+title: Resourcenlimit - Gameserver freischalten
 description: Informationen, wie du deinen Gameserver freischalten kannst, wenn er durch Überschreitung des Resourcenlimits gesperrt wurde - ZAP-Hosting.com Dokumentationen
 sidebar_label: Resourcenlimit
 ---
@@ -42,7 +42,9 @@ Wie zu Beginn erklärt, können die Ursachen hierfür vielfältig sein. Zur Anal
 
 ![image](https://user-images.githubusercontent.com/13604413/159170765-dc6a6c66-5624-4992-9fee-0e112ab20c67.png)
 
-> Bei diesem Vorgang wird dein Dienst wieder entsperrt, damit du dich dem Problem angehen kannst. Hierbei gilt es zu beachten, dass der Dienst bei einer erneuten langen Überschreitung der Auslastung erneut gesperrt wird. Versuche das Problem daher unbedingt aktiv anzugehen und Lösungen zu finden. 
+:::info
+Bei diesem Vorgang wird dein Dienst wieder entsperrt, damit du dich dem Problem angehen kannst. Hierbei gilt es zu beachten, dass der Dienst bei einer erneuten langen Überschreitung der Auslastung erneut gesperrt wird. Versuche das Problem daher unbedingt aktiv anzugehen und Lösungen zu finden. 
+:::
 
 
 

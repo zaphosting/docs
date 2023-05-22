@@ -7,7 +7,9 @@ sidebar_label: Decay
 
 Using RCON, you can run a command directly to make yourself admin. Firstly its required to [Connect via RCON](rust_connectrcon.md).
 
-> The server must be fully started, to be connectable through rcon.
+:::info
+The server must be fully started, to be connectable through rcon.
+:::
 
 When you're connected, please navigate to the Console section, where you can execute commands. In our example we're using **RustAdmin**.
 

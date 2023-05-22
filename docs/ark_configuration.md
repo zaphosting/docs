@@ -1,6 +1,6 @@
 ---
 id: ark_configuration
-title: "ARK Server configuration at ZAP-Hosting"
+title: Server configuration
 description: Information about the configuration options in the web interface of your ARK server at ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Server Configuration
 ---
@@ -610,7 +610,9 @@ This command defines the RCON port to be used to log in via RCON console.
 
 This command defines the interval (in minutes) when the server should automatically save.
 
-> This value is set to 30 minutes and cannot be changed. 
+:::info
+This value is set to 30 minutes and cannot be changed. 
+:::
 
 | Data type | Default value | Value range |
 | :-------: | :-----------: | :---------: |
@@ -860,4 +862,6 @@ OverridePlayerLevelEngramPoints=50
 
 The number of command lines depends generally on the previously defined level limit. 
 
-> Ark is a fast-moving game and therefore also includes many changes at regular intervals. This also affects the server configuration. We therefore recommend to have a look at the official documentation for further and more detailed information: https://ark.fandom.com/wiki/Server_configuration
+:::info
+Ark is a fast-moving game and therefore also includes many changes at regular intervals. This also affects the server configuration. We therefore recommend to have a look at the official documentation for further and more detailed information: https://ark.fandom.com/wiki/Server_configuration
+:::

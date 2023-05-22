@@ -22,4 +22,6 @@ Connect with a ftp program of your like and open the directory
 
 Upload there the .zip file of your mod.
 
-> ⚠️ After a Server restart, the mod is available and will be downloaded automatically to your client.
+:::info
+After a Server restart, the mod is available and will be downloaded automatically to your client.
+:::

@@ -25,11 +25,15 @@ Since we know how well thought out some of our influencer channel brandings are,
 
 Here are a few examples of how you could create bot timers, video descriptions and shoutouts:
 
-> Your own server is waiting! Create your dream server now at ZAP-Hosting.com: (YOUR LINK) #Ad
+:::info
+Your own server is waiting! Create your dream server now at ZAP-Hosting.com: (YOUR LINK) #Ad
 
-> Powerful game servers, root servers and domains! Online immediately! Now at my partner ZAP-Hosting.com (YOUR LINK) #Ad
 
-> Server provided by my partner in terms of gameserver, rootserver and domains: (YOUR LINK) #Ad
+Powerful game servers, root servers and domains! Online immediately! Now at my partner ZAP-Hosting.com (YOUR LINK) #Ad
+
+
+Server provided by my partner in terms of gameserver, rootserver and domains: (YOUR LINK) #Ad
+:::
 
 ## The partner ranks
 As soon as you have logged in at ZAP-Hosting.com, you will notice two changes in the header as a ZAP partner: First, a ring around your avatar image is now shining, which represents your rank as a partner, and second, a star has appeared next to your avatar, which leads you to the **Partner menu**.
@@ -78,7 +82,9 @@ In contrast to this are the links that were created via the generator in the cat
 
 However, some of our partners will provide products worth several hundred euros free of charge, ** we will prohibit all partners from using "refer a friend" links for the time being, unless otherwise agreed!
 Only after a personal agreement, individual partners are allowed to use these *Affiliate Links* as well.
-> Experience has shown that active partners of the gold rank often receive our permission to use affiliate links in addition to the sponsored servers and products.
+:::info
+Experience has shown that active partners of the gold rank often receive our permission to use affiliate links in addition to the sponsored servers and products.
+:::
 
 ## Being ambitious is the key
 Just between you and me: We are a young company and we too celebrate extraordinary ideas and uncomplicated communication. So if you have an extraordinary idea for an event or a promotion, **then please contact your partner manager! ** We will help you to realize this idea and support you with hardware, giveaway products and vouchers. We appreciate active actions of our partners very much and wish and above all partners who creatively maintain the partnership on their own initiative. Partners who stick our logo into their description and enjoy inactive free servers will not be part of our repertoire in the long run.

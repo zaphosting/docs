@@ -1,6 +1,6 @@
 ---
 id: exiled_plugins
-title: EXILED Plugins auf Server installieren
+title: Plugins auf Server installieren
 description: Informationen, wie du Plugins auf deinen Exiled Gameserver von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentationen
 sidebar_label: Plugins installieren
 ---

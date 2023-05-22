@@ -1,6 +1,6 @@
 ---
 id: vserver_linux_mastodon
-title: vServer Mastodon auf Server installieren
+title: Mastodon auf Server installieren
 description: Informationen, wie du einen Mastodon Server auf deinem vServer von ZAP-Hosting einrichten kannst - ZAP-Hosting.com Dokumentationen
 sidebar_label: Mastodon installieren
 ---
@@ -12,7 +12,9 @@ Mastodon ist ein verteilter Mikroblogging-Dienst, der seit 2016 von Eugen Rochko
 
 Im Gegensatz zu großen vergleichbaren Diensten wie Twitter ist Mastodon als dezentrales Netzwerk konzipiert, das nicht auf einer Plattform basiert:
 Verschiedene Server, von Privatpersonen, Vereinen oder sonstigen Stellen eigenverantwortlich betrieben, können miteinander interagieren.
-> Diese Anleitung basiert auf einem auf Debian basierten Betriebssystem. Diese Anleitung varriert je nach Betriebssystem.
+:::info
+Diese Anleitung basiert auf einem auf Debian basierten Betriebssystem. Diese Anleitung varriert je nach Betriebssystem.
+:::
 
 ## Voraussetzungen
 Für das aufsetzen einer Mastodon Instanz, benötigst du folgendes:
@@ -116,8 +118,11 @@ Nun erstellen wir die Mastodon Konfiguration mit dem folgenden Befehl
 ```bash
 RAILS_ENV=production bundle exec rake mastodon:setup
 ```
-> Sollte die Datenbank installation Fehlschlagen, melde dich mittels `sudo -u postgres psql` in der SQL Datenbank an und folge dieser Dokumentation (Englisch) 
-> https://gist.github.com/amolkhanorkar/8706915
+:::info
+Sollte die Datenbank installation Fehlschlagen, melde dich mittels `sudo -u postgres psql` in der SQL Datenbank an und folge dieser Dokumentation (Englisch) 
+
+https://gist.github.com/amolkhanorkar/8706915
+:::
 
 Danach wechsle zurück auf den Root-Benutzer mit dem Befehl `exit`
 

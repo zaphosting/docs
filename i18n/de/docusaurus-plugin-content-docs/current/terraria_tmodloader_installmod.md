@@ -1,6 +1,6 @@
 ---
 id: terraria_tmodloader_installmod
-title: Terraria Mods auf Server installieren (tModLoader)
+title: Mods auf Server installieren (tModLoader)
 description: Informationen, wie du Mods auf deinen Terraria-Server mit tModLoader installieren kannst - ZAP-Hosting.com Dokumentationen
 sidebar_label: Mod installieren (tModLoader)
 ---
@@ -33,7 +33,9 @@ In diesem Beispiel installieren wir die Calamity-Mod.
 
 ![image](https://user-images.githubusercontent.com/26007280/189974838-c5b4f3de-29d0-4497-b066-0d94ae7d868f.png)
 
-> Eine Mod muss immer die Endung **.tmod** haben, sonst kann diese nicht vom Server geladen werden! 
+:::info
+Eine Mod muss immer die Endung **.tmod** haben, sonst kann diese nicht vom Server geladen werden! 
+:::
 
 
 Danach kannst du den Ordner wieder schließen, klickst dann im Spiel auf **Zurück** und im Anschluss erneut auf **Mods**: 
@@ -55,7 +57,9 @@ Dort navigierst du in folgendes Verzeichnis: /g******/terraria/mods/ wo du ebenf
 
 ![image](https://user-images.githubusercontent.com/26007280/189974897-5721d422-b608-451e-ab3f-b35de3fa9caf.png)
 
-> Sollte dort keine Datei mit dem Namen **enabled.json** existieren musst du den Server zuerst einmal starten, danach sollte diese erscheinen. Alternativ kannst du die Datei auch selbst erstellen.
+:::info
+Sollte dort keine Datei mit dem Namen **enabled.json** existieren musst du den Server zuerst einmal starten, danach sollte diese erscheinen. Alternativ kannst du die Datei auch selbst erstellen.
+:::
 
 
 Im Anschluss öffnest du die Datei **enabled.json** via **Rechtsklick > Bearbeiten** und fügst dort den Namen deiner Mod ein, was so aussehen sollte: 
@@ -66,7 +70,9 @@ Solltest du mehrere Mod's einfügen wollen, kannst du dies so tun:
 
 ![image](https://user-images.githubusercontent.com/26007280/189974942-5006a4b7-fe10-4fe8-9d83-db74a6fc2011.png)
 
-> Beachte bitte dass hinter jedem Mod-Namen ein Komma gesetzt werden muss, außer beim Namen der letzten Mod!
+:::info
+Beachte bitte dass hinter jedem Mod-Namen ein Komma gesetzt werden muss, außer beim Namen der letzten Mod!
+:::
 
 Nun kannst du die FTP Verbindung schließen, deinen Server starten und mit dem bei Steam heruntergeladenen tModLoader auf deinen Server verbinden. 
 

@@ -1,6 +1,6 @@
 ---
 id: fivem_installresources
-title: FiveM Resourcen, Mods und Scripts auf Server installieren
+title: Resourcen, Mods und Scripts auf Server installieren
 description: Informationen, wie du Ressourcen, Mods und Scripts auf deinen FiveM-Server von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentationen
 sidebar_label: Resourcen Installieren
 
@@ -28,7 +28,9 @@ Die Installation von Resourcen erfolgt per FTP. Um Dateien auf deinen Server hoc
 
 Heruntergeladene Resourcen werden in der Regel in einem gepackten Format angeboten. Das bedeutet, dass du diese gepackte Datei erst noch mit einem Entpackungsprogramm, wie zum Beispiel 7Zip, Winrar oder WinZip entpacken musst. Die entpackte Resource sollte im Anschluss mindestens die folgenden Dateien beinhalten:  __resource.lua / fxmanifest.lua und die zugehörigen Script-Dateien. 
 
-> Sollten diese Dateien nicht vorhanden sein, dann kann es unter Umständen sein, dass diese in einem Unterverzeichnis liegen. 
+:::info
+Sollten diese Dateien nicht vorhanden sein, dann kann es unter Umständen sein, dass diese in einem Unterverzeichnis liegen. 
+:::
 
 
 ## Installation
@@ -41,7 +43,9 @@ Die zuvor entpackten Dateien müssen nun, sofern noch nicht vorhanden, in einen 
 /gXXXXXX/gta5-fivem/server-data/resources
 ```
 
-> Die Verzeichnisstruktur von FiveM TxAdmin unterscheidet sich zu den restlichen FiveM Produkten, da diese noch ihr eigenes Template Verzeichnis beinhalten. Die Resourcen befinden sich dann ebenfalls in dem Template Verzeichnis. 
+:::info
+Die Verzeichnisstruktur von FiveM TxAdmin unterscheidet sich zu den restlichen FiveM Produkten, da diese noch ihr eigenes Template Verzeichnis beinhalten. Die Resourcen befinden sich dann ebenfalls in dem Template Verzeichnis. 
+:::
 
 
 
@@ -56,7 +60,9 @@ Damit die installierte Resource auch geladen wird, muss diese in der Server Conf
 start eup-ui
 ```
 
-> Hierbei ist zu beachten, dass der Name des zuvor erstellten Ordners mit dem Namen des Startbefehls übereinstimmen muss. Dabei ist auch die Groß- und Kleinschreibung essentiell. 
+:::info
+Hierbei ist zu beachten, dass der Name des zuvor erstellten Ordners mit dem Namen des Startbefehls übereinstimmen muss. Dabei ist auch die Groß- und Kleinschreibung essentiell. 
+:::
 
 
 Der Server kann anschließend wieder gestartet werden, sobald dieser Schritt abgeschlossen wurde. Im nächsten Startvorgang sollte die installierte Resource nun geladen werden. 

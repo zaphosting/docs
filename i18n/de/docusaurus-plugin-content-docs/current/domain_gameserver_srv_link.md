@@ -1,11 +1,13 @@
 ---
 id: domain_gameserver_srv_link
-title: Domains Gameserver-Weiterleitung einrichten
+title: Gameserver-Weiterleitung einrichten
 description: Informationen wie du eine Weiterleitung von deiner Domain auf einen Gameserver einrichtest - ZAP-Hosting.com Dokumentationen
 sidebar_label: Domain Gameserver Weiterleitung
 ---
 
-> Bitte beachte dass es immer bis zu 24 Stunden dauern kann bis Änderungen an DNS Einträgen aktiv werden!
+:::info
+Bitte beachte dass es immer bis zu 24 Stunden dauern kann bis Änderungen an DNS Einträgen aktiv werden!
+:::
 
 ## Domain auf Gameserver weiterleiten
 Du kannst entweder deine Domain vollständig, oder lediglich eine Subdomain auf deinen Gameserver weiterleiten.
@@ -19,7 +21,9 @@ Dies würde bereits ausreichen wenn der Gameserver den Standartport des jeweilig
 Verwendet der Gameserver jedoch einen anderen Port als den Standartport des jeweiligen Spiels, wird zusätzlich noch ein sogenannter **SRV Eintrag**
 benötigt um die Subdomain auf den richtigen Port weiterleiten zu können.
 
-> Nicht alle Spiele unterstützen die Weiterleitung einer Domain auf den Spielport per SRV Eintrag, informiere dich daher vorher ob 
+:::info
+Nicht alle Spiele unterstützen die Weiterleitung einer Domain auf den Spielport per SRV Eintrag, informiere dich daher vorher ob 
+:::
 dein Spiel SRV Einträge unterstützt.
 
 
@@ -76,7 +80,9 @@ In unserem Beispiel sieht es dann wie folgt aus:
 ![image](https://user-images.githubusercontent.com/13604413/172062452-ec6e0fdb-5c6d-4a30-b578-933f5da0446d.png)
 
 ### Troubleshooting & Ergebnis
-> WICHTIG! am Ende von dem Eintrag muss ein Punkt geschrieben werden, ohne diesen Punkt versucht das System die Domain anzuhängen. 
+:::info
+WICHTIG! am Ende von dem Eintrag muss ein Punkt geschrieben werden, ohne diesen Punkt versucht das System die Domain anzuhängen. 
+:::
 
 Wird dieser Hinweis nicht beachtet, dann macht das System aus minecraft.testserver-domain.de die Weiterleitung zu minecraft.testserver-domain.de.testserver-domain.de wodurch die Weiterleitung fehlschlägt.
 
@@ -116,6 +122,8 @@ In unserem Beispiel sieht es dann wie folgt aus:
 ![image](https://user-images.githubusercontent.com/13604413/172062644-89dcfad2-073c-435f-839d-115dba26bf94.png)
 
 ### Troubleshooting & Ergebnis
-> WICHTIG! am Ende von dem Eintrag muss ein Punkt geschrieben werden, ohne diesen Punkt versucht das System die Domain anzuhängen. 
+:::info
+WICHTIG! am Ende von dem Eintrag muss ein Punkt geschrieben werden, ohne diesen Punkt versucht das System die Domain anzuhängen. 
+:::
 
 Wird dieser Hinweis nicht beachtet, dann macht das System aus fivem.testserver-domain.de die Weiterleitung zu fivem.testserver-domain.de.testserver-domain.de wodurch die Weiterleitung fehlschlägt.

@@ -30,7 +30,9 @@ An advertisement has to be placed in areas that could be interesting for ZAP hos
 
 Click the link in the overview on [[Community Advertising](https://zap-hosting.com/de/customer/communityads/)]. There you can click on the green "**+**" icon to submit the link.
 
-> The link must point to the advertisement created for this purpose. If the link does not contain any advertising, then it will be declined.
+:::info
+The link must point to the advertisement created for this purpose. If the link does not contain any advertising, then it will be declined.
+:::
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/SFTfRE32TzdjpaM/preview)
 

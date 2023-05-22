@@ -1,6 +1,6 @@
 ---
 id: minecraft_server_optimize
-title: Minecraft Minecraft server performance optimisation
+title: server performance optimisation
 description: Information on how to optimise your Minecraft server from ZAP-Hosting for better performance - ZAP-Hosting.com documentation
 sidebar_label: Minecraft-Server Optimization
 ---
@@ -43,14 +43,18 @@ The mod can then be installed normally on the server as described in our instruc
 
 Before the server is restarted, you should ensure that the "max-tick-time" in the "server.properties" is set to "-1". Otherwise, the server could crash. It is also advisable that min. 8-10 GB of RAM are available, as this process unfortunately requires a lot of RAM. For this purpose, the RAM can be briefly upgraded overnight, which can then be downgraded again after this process has been completed.
 
-> Note that the mod mentioned above may not be compatible with the version of Forge you are using and the process may differ from the one described here if you are using a different mod.
+:::info
+Note that the mod mentioned above may not be compatible with the version of Forge you are using and the process may differ from the one described here if you are using a different mod.
+:::
 
 As soon as the server is started with the mod, the console must be opened. We would recommend creating a border for the world with a radius of 16,000 blocks. To do this, the following commands must be executed in sequence:
 
 - worldborder center 0 0
 - worldborder set 16000
 
-> If necessary, replace the coordinates to your own center of the world with the center command so as not to "cut off" your world (which may already have been built).
+:::info
+If necessary, replace the coordinates to your own center of the world with the center command so as not to "cut off" your world (which may already have been built).
+:::
 
 As soon as the border has been set, the actual pre-loading can be started. To do this, the following command must be executed:
 
@@ -58,7 +62,9 @@ As soon as the border has been set, the actual pre-loading can be started. To do
 
 Now all chunks within the border are preloaded one after the other. This process can take up to 8 hours depending on the number of mods installed. The progress of this process is always outputed in the console through info messages at regular intervals. As soon as the process is finished, this is also outputed in the console!
 
-> The mod can still be installed on the server even after this process is complete. It will continue to optimize chunks during operation and will also work when there is no player on the server.
+:::info
+The mod can still be installed on the server even after this process is complete. It will continue to optimize chunks during operation and will also work when there is no player on the server.
+:::
 
 ### Visibility
 
@@ -98,7 +104,9 @@ In order to adjust the settings for this, the config "bukkit.yml" must be edited
 - water-animals: 3 #Default: 5
 - ambient: 4 #Default: 15
 
-> You are of course still welcome to adjust the values ​​yourself if you wish, otherwise the above values ​​are a very good average.
+:::info
+You are of course still welcome to adjust the values ​​yourself if you wish, otherwise the above values ​​are a very good average.
+:::
 
 To further improve the spawning, the "monster-spawns" value in the "tickes-per" item should also be changed in the "bukkit.yml" config:
 - monster-spawns: 2 #Default: 1
@@ -127,7 +135,9 @@ One measure that is taken very often is to reduce the range of vision. The stand
 
 With a spigot server, the visibility can be adjusted in the "spigot.yml" config, for this the value "view-disance" has to be adjusted. In order not to restrict the gaming experience too much, it is recommended to set this value to 5-6, which relieves the server by up to 50%.
 
-> Depending on your preference, the value can also be set to 4, which as an example helps very well against lagging when you operate farm world servers that are operated on version 1.13+
+:::info
+Depending on your preference, the value can also be set to 4, which as an example helps very well against lagging when you operate farm world servers that are operated on version 1.13+
+:::
 
 ### Data-Compression
 
@@ -145,7 +155,9 @@ In order to adjust the settings for this, the config "bukkit.yml" must be edited
 - water-animals: 3 #Default: 5
 - ambient: 4 #Default: 15
 
-> You are of course still welcome to adjust the values ​​yourself if you wish, otherwise the above values are a very good average.
+:::info
+You are of course still welcome to adjust the values ​​yourself if you wish, otherwise the above values are a very good average.
+:::
 
 To further improve the spawning, the "monster-spawns" value in the "tickes-per" item should also be changed in the "bukkit.yml" config:
 - monster-spawns: 2 #Default: 1
@@ -213,7 +225,9 @@ In order to adapt the setting, the following values must be adapted under the it
 - item: 4.0 #Default 2.5
 - exp: 6.0 #Default: 3.0
 
-> The values here should not be set higher than 8, otherwise the lagg effect mentioned above can arise!
+:::info
+The values here should not be set higher than 8, otherwise the lagg effect mentioned above can arise!
+:::
 
 ## Paper Spigot
 
@@ -223,7 +237,9 @@ One measure that is taken very often is to reduce the range of vision. The stand
 
 With a (paper) spigot server, the view range can be adjusted in the "spigot.yml" config, for this the value "view-disance" must be adjusted. In order not to restrict the gaming experience too much, it is recommended to set this value to 5-6, which relieves the server by up to 50%.
 
-> Depending on your preference, the value can also be set to 4, which as an example helps very well against lagging when you operate farm world servers that are operated on version 1.13+
+:::info
+Depending on your preference, the value can also be set to 4, which as an example helps very well against lagging when you operate farm world servers that are operated on version 1.13+
+:::
 
 ### Data-Compression
 
@@ -241,7 +257,9 @@ In order to adjust the settings for this, the config "bukkit.yml" must be edited
 - water-animals: 3 #Default: 5
 - ambient: 4 #Default: 15
 
-> You are of course still welcome to adjust the values yourself if you wish, otherwise the above values are a very good average.
+:::info
+You are of course still welcome to adjust the values yourself if you wish, otherwise the above values are a very good average.
+:::
 
 To further improve the spawning, the "monster-spawns" value in the "tickes-per" item should also be changed in the "bukkit.yml" config:
 - monster-spawns: 2 #Default: 1
@@ -276,7 +294,9 @@ Especially on city build servers, spawners are used very often and sometimes in 
 This option adjusts the spawn behavior of the spawner somewhat so that the server activates the spawner at short intervals. To do this, the following value in "paper.yml" must be adjusted:
 - mob-spawner-tick-rate: 3 #Default: 1
 
-> The value used above doesn't change behavior too much and doesn't really affect gaming behavior.
+:::info
+The value used above doesn't change behavior too much and doesn't really affect gaming behavior.
+:::
 
 ### Entity-Ranges
 
@@ -300,7 +320,9 @@ To adjust the settings, the following values must be adjusted in the "spigot.yml
 - hopper-check: 24 #Default: 8
 - hopper-amount: 3 #Default: 1
 
-> Make sure that the value "use-hopper-check" is set to "true" in the "paper.yml" config!
+:::info
+Make sure that the value "use-hopper-check" is set to "true" in the "paper.yml" config!
+:::
 
 ### Collisions
 
@@ -319,7 +341,9 @@ In order to adapt the setting, the following values ​​must be adapted under 
 - item: 4.0 #Default 2.5
 - exp: 6.0 #Default: 3.0
 
-> The values ​​here should not be set higher than 8, otherwise the lagg effect mentioned above can arise!
+:::info
+The values ​​here should not be set higher than 8, otherwise the lagg effect mentioned above can arise!
+:::
 
 ### Explosionen
 
@@ -342,7 +366,9 @@ The inventory is used a lot, but inventory is not inventory. As an example, a bo
 For this, the following value must be edited in the "paper.yml" config:
 - container-update-tick-rate: 3 #Default: 1
 
-> The value should not be set higher than 5, otherwise the inventory may be a bit buggy! In game modes such as SurvivalGames, where all players want to access the boxes in the middle and get the best items, the value should not be changed and should be left at "1".
+:::info
+The value should not be set higher than 5, otherwise the inventory may be a bit buggy! In game modes such as SurvivalGames, where all players want to access the boxes in the middle and get the best items, the value should not be changed and should be left at "1".
+:::
 
 ### Light-Updates
 
@@ -367,4 +393,6 @@ Redstone is very often used with sometimes extremely large circuits. On public s
 To do this, the following setting must be made in "paper.yml":
 - use-faster-eigencraft-redstone: true #Default: false
 
-> **Danger! In some situations this can change the way Redstone works very much!**
+:::info
+**Danger! In some situations this can change the way Redstone works very much!**
+:::

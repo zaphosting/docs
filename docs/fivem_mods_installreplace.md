@@ -1,6 +1,6 @@
 ---
 id: fivem_mods_installreplace
-title: FiveM Install Replacement Carmods on server
+title: Install Replacement Carmods on server
 description: Information on how to install Replacement Carmods on your FiveM server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Install Replace Carmods
 ---
@@ -12,7 +12,9 @@ First you should connect to your server via FTP, you can use our [FTP-Tutorial](
 
 Now create a folder for your mods in the "resources" folder.
 
-> You can name the folder anything as long as it does not contain any special characters. In our example it is "assets".
+:::info
+You can name the folder anything as long as it does not contain any special characters. In our example it is "assets".
+:::
 
 Now create a fxmanifest.lua file in your freshly created "assets" folder
 

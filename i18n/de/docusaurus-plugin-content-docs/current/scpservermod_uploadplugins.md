@@ -1,11 +1,13 @@
 ---
 id: scpservermod_uploadplugins
-title: SCP Secret Laboratory Plugins auf Server installieren installieren
+title: Plugins auf Server installieren installieren
 description: Informationen, wie du Plugins auf deinen SCP ServerMod Server von ZAP-Hosting.com installieren kannst - ZAP-Hosting.com Dokumentationen
 sidebar_label: Plugins installieren
 ---
 
-> Um Plugins auf deinem Server installieren zu können benötigst du **SCP: ServerMod**. Leider ist die Installation von Plugins bei der Vanilla Version von SCP nicht möglich. 
+:::info
+Um Plugins auf deinem Server installieren zu können benötigst du **SCP: ServerMod**. Leider ist die Installation von Plugins bei der Vanilla Version von SCP nicht möglich. 
+:::
 
 ## Verbinden via FTP
 Bevor Plugins installiert werden können, muss dein [FTP Zugang](gameserver_ftpaccess.md) eingerichtet werden.
@@ -23,7 +25,9 @@ Zunächst müssen Sie nach verfügbaren SMOD-kompatiblen Plugins suchen.
 
 Am einfachsten findest du Plugins auf deren [Discord](https://discord.gg/T9aurNf)
 
-> Dies ist nur eine Möglichkeit, um Plugins zu bekommen. Prüfe auf jeden Fall im Vorfeld ob das gewählte Plugin mit deiner SMOD-Version kompatibel ist.
+:::info
+Dies ist nur eine Möglichkeit, um Plugins zu bekommen. Prüfe auf jeden Fall im Vorfeld ob das gewählte Plugin mit deiner SMOD-Version kompatibel ist.
+:::
 
 Im folgenden Beispiel verwenden wir folgendes Plugin:
 
@@ -37,7 +41,9 @@ Nachdem du ein Plugin heruntergeladen hast, kannst du dies via FTP auf deinen Se
 
 ![image](https://user-images.githubusercontent.com/13604413/159183666-e5ed02fb-c7e3-44bd-83e7-2ecb99a8befe.png)
 
-> Beachte: Nach der Installation des Plugins wirst du deinen Server **neu starten** müssen damit das plugin **aktiv wird.**
+:::info
+Beachte: Nach der Installation des Plugins wirst du deinen Server **neu starten** müssen damit das plugin **aktiv wird.**
+:::
 
 ### Plugins knfigurieren
 
@@ -57,10 +63,14 @@ Die **config_gameplay.txt** findest du im Anschluss dort:
 
 ![image](https://user-images.githubusercontent.com/26007280/189887799-af4f698d-2685-4f8a-a710-98c940604b35.png)
 
-> Die Konfiguration kannst du an beliebiger Stelle in dder Datei einfügen. Für eine bessere Übersicht fügen wir das ganze im Beispiel direkt unter '#Misc gameplay settings' in die **config.gameplay.txt** ein.
+:::info
+Die Konfiguration kannst du an beliebiger Stelle in dder Datei einfügen. Für eine bessere Übersicht fügen wir das ganze im Beispiel direkt unter '#Misc gameplay settings' in die **config.gameplay.txt** ein.
+:::
 
 ![image](https://user-images.githubusercontent.com/26007280/189887814-114eb6e2-06e7-4014-bb82-93ed23db16f3.png)
 
-> Beachte: Je nach Plugin wird sich die Konfiguration von der in diesem Beispiel verwendeten unterscheiden. Stelle sicher immer die Anleitung des jeweiligen Plugins zu lesen damit du die Konfiguration korrekt hinzufügen kannst.
+:::info
+Beachte: Je nach Plugin wird sich die Konfiguration von der in diesem Beispiel verwendeten unterscheiden. Stelle sicher immer die Anleitung des jeweiligen Plugins zu lesen damit du die Konfiguration korrekt hinzufügen kannst.
+:::
 
 Nachdem du die Konfiguration vorgenommen hast kannst du deinen Server starten und findest dein Plugin ab sofort im Spiel.  

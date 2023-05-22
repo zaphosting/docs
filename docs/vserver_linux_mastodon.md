@@ -12,7 +12,9 @@ Mastodon is free and open-source software for running self-hosted social network
 
 It has microblogging features similar to the Twitter service, which are offered by a large number of independently run nodes, known as instances,
 each with its own code of conduct, terms of service, privacy policy, privacy options, and moderation policies.
-> This guide focuses the installation on a Debian based Distro. Examples are Debian and Ubuntu. This guide differs depending on what OS you are using.
+:::info
+This guide focuses the installation on a Debian based Distro. Examples are Debian and Ubuntu. This guide differs depending on what OS you are using.
+:::
 
 ## System requirements
 If you want to setup a Mastodon Instance on your Server, you have to meet some requirements
@@ -115,8 +117,11 @@ Next create your mastodon configuration file by using the following command:
 ```bash
 RAILS_ENV=production bundle exec rake mastodon:setup
 ```
-> If your Database Setup fails, please login to your postgres with `sudo -u postgres psql` and follow this documentation: 
-> https://gist.github.com/amolkhanorkar/8706915
+:::info
+If your Database Setup fails, please login to your postgres with `sudo -u postgres psql` and follow this documentation: 
+
+https://gist.github.com/amolkhanorkar/8706915
+:::
 
 After that, switch back to the root user, using the command `exit`
 

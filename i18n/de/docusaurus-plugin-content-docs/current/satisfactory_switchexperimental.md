@@ -1,14 +1,16 @@
 ---
 id: satisfactory_switchexperimental
-title: Satisfactory Experimentelles Version
+title: Experimentelle Version
 description: Informationen zur experimentellen Version für Satisfactory von ZAP-Hosting - ZAP-Hosting.com Dokumentationen
-sidebar_label: Experimentelles Version
+sidebar_label: Experimentelle Version
 ---
 
 ## Was ist eine experimentelle Version?
 Satisfactory besteht aus zwei Versionen, dem regulären Build und dem experimentellen Build. Der reguläre Build ist zuverlässiger, stabiler und weniger fehleranfällig, da es ein endgültigerer Build ist. Der experimentelle Build hingegen bietet zunächst Zugang zu größeren Patches, bevor es als regulärer Build veröffentlicht wird. Es birgt daher ein höheres Risiko von Fehlern und wird viel häufiger aktualisiert, hat aber den Vorteil, dass größere Aktualisierungen zuerst ausprobiert werden können!
 
-> Hinweis: Unabhängig davon, welchen Build du wählst, müssen sowohl dein Server als auch dein Spielclient die gleiche Build-Version haben, damit eine Verbindung hergestellt werden kann.
+:::info
+Unabhängig davon, welchen Build du wählst, müssen sowohl dein Server als auch dein Spielclient die gleiche Build-Version haben, damit eine Verbindung hergestellt werden kann.
+:::
 
 ## Wie wechsle ich zur experimentellen Version?
 Durch unser Gameserver-System ist es sehr einfach, den Build des Servers über unsere Website zu ändern. Bevor du beginnst, empfehlen wir dir, deine Satisfactory-Savegames zu sichern, da beim Wechsel des Spiels alle Dateien gelöscht werden.
@@ -49,14 +51,18 @@ Jetzt werden beide Versionen unter `Installierte Spiele` angezeigt, so dass es e
 
 Schließlich musst du das Spiel unter dem Abschnitt `Installierte Spiele` aktivieren. Drücke auf das blaue Symbol "Spiel aktivieren".
 
-> Achtung! Alle Daten des Spiels werden bei der Neuinstallation gelöscht. Gehe also unbedingt ein paar Schritte zurück und erstelle ein Backup, falls du das noch nicht getan hast.
+:::info
+Achtung! Alle Daten des Spiels werden bei der Neuinstallation gelöscht. Gehe also unbedingt ein paar Schritte zurück und erstelle ein Backup, falls du das noch nicht getan hast.
+:::
 
 ![Screenshot 2023-02-22 020606](https://user-images.githubusercontent.com/42719082/220502401-4738e1b7-e083-40e4-88f8-8e5e044f3270.png)
 
 Wenn du wieder zum regulären Build wechseln möchtest, befolge dieselben Schritte, wähle aber stattdessen das regulären Satisfactory Spielpaket während des Auswahlprozesses!
 
 ## Spielclient auf Experimentell umstellen
-> Hinweis: Unabhängig davon, welches Build du wählst, müssen sowohl dein Server als auch dein Spielclient die gleiche Build-Version haben, um eine Verbindung herstellen zu können.
+:::info
+Unabhängig davon, welches Build du wählst, müssen sowohl dein Server als auch dein Spielclient die gleiche Build-Version haben, um eine Verbindung herstellen zu können.
+:::
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';

@@ -1,6 +1,6 @@
 ---
 id: minecraft_commands
-title: Minecraft Allgemeine Server-Befehle
+title: Allgemeine Server-Befehle
 description: Informationen zu allgemeinen Befehlen, die du auf deinen Minecraft-Server von ZAP-Hosting benutzen kannst - ZAP-Hosting.com Dokumentationen
 sidebar_label: Allgemeine Befehle
 ---
@@ -21,8 +21,11 @@ Jeder Befehle beginnt grundsätzlich mit einem "/". Möchte man also einen Befeh
 Durch drücken der TAB-Taste wird eine Vorschau alle verfügbaren Befehle angezeigt bzw. aber der 1.13 eine Liste aller Befehle angezeigt.
 Hiermit können Befehle auch schnell und einfach automatisch vervollständig werden, wie man es als Beispiel von Suchanfragen im Internet kennt.
 
-> Sollten Befehle über die Konsole ausgeführt werden, so ist das "/" hierbei nicht notwendig und muss entfernt werden!
-> Dieses Zeichen dient nur dafür, um im Spiel zwischen einer normalen Chat-Nachricht oder einem Befehl unterscheiden zu können.
+:::info
+Sollten Befehle über die Konsole ausgeführt werden, so ist das "/" hierbei nicht notwendig und muss entfernt werden!
+
+Dieses Zeichen dient nur dafür, um im Spiel zwischen einer normalen Chat-Nachricht oder einem Befehl unterscheiden zu können.
+:::
 
 ### Rechte / Permissions
 
@@ -32,8 +35,11 @@ Hierbei kann nur auf das Level-System der OP-Rechte zurückgegriffen werden. Wie
 
 Sollte ein Permissions-System installiert worden sein und es geüwnscht ist auch Rechte auf gewisse Minecraft-Befehle zu verteilen, so können wie unten im Hinweis beschrieben die jeweiligen Permissions verteilt werden.
 
-> Die Permissions sind hierbei immer gleich aufgebaut und können für jeden Befehl entsprechend angepasst werden.
-> Möchte man als Beispiel für den Locate-Befehl Rechte vergeben, so muss folgende Permissions gesetzt werden: ``minecraft.command.locate``
+:::info
+Die Permissions sind hierbei immer gleich aufgebaut und können für jeden Befehl entsprechend angepasst werden.
+
+Möchte man als Beispiel für den Locate-Befehl Rechte vergeben, so muss folgende Permissions gesetzt werden: ``minecraft.command.locate``
+:::
 
 ## Befehle
 
@@ -97,8 +103,11 @@ Setzte die Grenze auf 16.000x16.000 Blöcke. Also wäre dies ein 8.000 Blöck Ra
 Hierdurch können Spielern (oder auch Entitys) normale Trank-Effekte gegeben werden.
 Einige Effekte sind jedoch nur über den Befehl zu ergattern, wie etwas den Glücks-Effekt, welcher jedoch bis heute noch keine Funktion erhalten hat.
 
-> Der Befehl hat sich im laufe der Versionen gewandelt und wurde weiter ausgebaut und verändert.
-> Die hier gezeigten Beispiele für die Befehle stammen aus der neuste Version und können daher in älteren Versionen abweichend aussehen! 
+:::info
+Der Befehl hat sich im laufe der Versionen gewandelt und wurde weiter ausgebaut und verändert.
+
+Die hier gezeigten Beispiele für die Befehle stammen aus der neuste Version und können daher in älteren Versionen abweichend aussehen! 
+:::
 
 **Beispiele:**
 
@@ -138,7 +147,9 @@ Die TPS wird für die letzten 60 Sekunden ausgegeben, wobei die zwei darauf folg
 
 Durch diesen Befehl kann ein Spieler vom Server ausgeschlossen werden, sodass dieser den Server unter keinen Umständen mehr betreten kann. Hierbei wird der Spieler-Account anhand dessen UUID selbst gebannt.
 
-> Bei Servern mit deaktiviertem Online-Mode können Spieler ihnen Namen ändern und erlangen somit wieder Zugang. in solch einem Fall wäre der IP-Ban durch Plugins die beste Lösung.
+:::info
+Bei Servern mit deaktiviertem Online-Mode können Spieler ihnen Namen ändern und erlangen somit wieder Zugang. in solch einem Fall wäre der IP-Ban durch Plugins die beste Lösung.
+:::
 
 **Beispiele:**
 

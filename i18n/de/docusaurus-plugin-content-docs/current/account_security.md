@@ -26,7 +26,9 @@ Solltest du, wie im nächsten Schritt empfohlen, einen Passwörter Manager nutze
 Durch ein sicheres Passwort machst du es Angreifern schwerer, automatisiert oder durch Raten Zugang zu deinem Account zu erlangen. Allerdings ist es wichtig ein Passwort im Bestfall nicht mehrmals, also auf verschiedenen Webseiten und Diensten, zu verwenden. Sollte es bei einem deiner genutzten Anbieter und Webseiten zu einem Sicherheitsproblem kommen, bei dem dein Passwort in die falschen Hände gerät, sind deine Accounts bei anderen Webseiten ebenfalls in Gefahr.  
 Entsprechend ist es sinnvoll für jede Seite ein anderes Passwort zu nutzen. Um die Passwörter nicht durcheinander zu bringen oder zu vergessen, ist ein Passwortmanager wie beispielsweise [KeePass](https://keepass.info/) oder [1Password](https://1password.com/) empfehlenswert.
 
-> Tipp: Bei [haveibeenpwned](https://haveibeenpwned.com/) kannst du unter Angabe deiner E-Mail Adresse kostenlos prüfen, ob diese in einem bekannten Leak einer Datenbank enthalten ist. Darüber hinaus erhältst du Informationen darüber, auf welcher Seite der Vorfall stattgefunden hat und welche Daten entwenden wurden.
+:::info
+Tipp: Bei [haveibeenpwned](https://haveibeenpwned.com/) kannst du unter Angabe deiner E-Mail Adresse kostenlos prüfen, ob diese in einem bekannten Leak einer Datenbank enthalten ist. Darüber hinaus erhältst du Informationen darüber, auf welcher Seite der Vorfall stattgefunden hat und welche Daten entwenden wurden.
+:::
 
 ![haveibeenpwned Beispiel](https://screensaver01.zap-hosting.com/index.php/s/t6KrTmmPertFciD/preview)
 

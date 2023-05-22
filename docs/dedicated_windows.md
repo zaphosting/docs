@@ -5,7 +5,9 @@ description: Information on how to install the Windows operating system on your 
 sidebar_label: Windows Installation
 ---
 
-> ⚠️ This guide is based on Windows Server 2019, the steps are pretty similar to the other windows server versions.
+:::info
+This guide is based on Windows Server 2019, the steps are pretty similar to the other windows server versions.
+:::
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/yEjQOrcEus0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -26,7 +28,9 @@ Press "Install now" to start the setup process.
 
 Windows requires now a product key, if you have one then enter it.
 
-> ⚠️ Important: We're not selling Windows-Licenses, its required to buy a key by your own.
+:::info
+Important: We're not selling Windows-Licenses, its required to buy a key by your own.
+:::
 
 You can buy Windows-Keys in several websops, verify to buy the matching key, since there are different windows versions.
 In Windows Server 2019 there are as example two editions, the normal one and datacenter edition. 
@@ -75,8 +79,11 @@ When your setup process was successfully, windows forces you to define a passwor
 
 Set there your desired password.
 
-> We recommend to choose a strong password with special characters.
-> If you forget the password, there is no way to recover it, so be sure to write it down.
+:::info
+We recommend to choose a strong password with special characters.
+
+If you forget the password, there is no way to recover it, so be sure to write it down.
+:::
 
 After you've set the password, you are in the lock screen of windows.
 Nachdem das Passwort gesetzt wurde, landen wir im Windows-Lockscreen
@@ -117,4 +124,6 @@ The network configuration was automatically applied by dhcp so there is no need 
 
 ![image](https://user-images.githubusercontent.com/13604413/159173768-3dea37b5-fd8d-4e0d-89c7-e7101189d8c3.png)
 
-> ⚠️ If you have further questions or issues, our support will help you out!
+:::info
+If you have further questions or issues, our support will help you out!
+:::

@@ -1,6 +1,6 @@
 ---
 id: minecraft_default_config
-title: Minecraft Server Config-Einstellungen
+title: Server Config-Einstellungen
 description: Informationen zu den Server Config-Einstellungen deines Minecraft-Servers von ZAP-Hosting - ZAP-Hosting.com Dokumentationen
 sidebar_label: Server Config
 ---
@@ -22,8 +22,11 @@ Bei dieser Einstellung kann die *maximale Sichtweite vom Server* festgelegt werd
 Das Spielerlebnis wird auch bei einem Wert von 5 nicht beeinträchtigt. Niedrigere Werte sind nicht zu empfehlen und können in seltenen Fällen auch Probleme hervorrufen.
 **WICHTIG:** Der Wert sollte unter keinen Umständen (wenn nicht zwingend notwendig) höher gestellt werden und ist daher mit Vorsicht zu behandeln, da es unter anderem zu starken Performanzproblemen kommen könnte.
 
-> Diese Einstellung wird nur bei einem Vanilla oder Forge Server angewendet.
-> Bei Bukkit, Spigot und Paper Spigot muss der Wert in der jeweils eigenen Config festgelegt werden.
+:::info
+Diese Einstellung wird nur bei einem Vanilla oder Forge Server angewendet.
+
+Bei Bukkit, Spigot und Paper Spigot muss der Wert in der jeweils eigenen Config festgelegt werden.
+:::
 
 ### max-build-height
 
@@ -41,8 +44,11 @@ Wenn du nur eine einzige IP hast, kann dieser Wert einfach frei bleiben - Das gl
 Standardmäßig generiert der Weltgenerator immer einen zufälligen [Seed](s://minecraft-de.gamepedia.com/Startwert) und damit auch eine komplett zufällige Welt.
 Du kannst hier jedoch einen eigenen Seed aus **Buchstaben oder Zahlen** festlegen, worauf der Server dann die entsprechende Welt erstellt. Die maximale Länge von **32 Zeichen** sollte zudem nicht überschritten werden.
 
-> Es gibt einige Seed-Generatoren, wo man eine Welt nach seinen eigenen Vorstellungen konfigurieren kann.
-> [Dieser](https://minecraft.tools/de/custom.php) Generator ist einer der besten und ermöglicht nahezu alles.
+:::info
+Es gibt einige Seed-Generatoren, wo man eine Welt nach seinen eigenen Vorstellungen konfigurieren kann.
+
+[Dieser](https://minecraft.tools/de/custom.php) Generator ist einer der besten und ermöglicht nahezu alles.
+:::
 
 ### gamemode
 
@@ -96,8 +102,11 @@ Mit dieser Einstellung kann festgelegt werden, ob sich Spieler mit einer VPN/Pro
 Eine VPN wird oft zur Umgehung eines IP-Bans genutzt, die Option kann daher sehr sinnvoll sein.
 Teilweise gibt es auch eine Einschränkung, sodass auch normale Verbindungen fälschlicherweise falsch eingestuft und so blockiert werden.
 
-> Um weitreichende Kontrolle über VPN/Proxy Verbindungn gewinnen zu können, loht es sich ein Plugin dafür zu installieren.
-> Viele kostenlose Plugins lassen sich schnell finden, dieses (jedoch kostenpflichtige) [Plugin](https://www.spigotmc.org/resources/antibotdeluxe-%E2%80%BA-the-most-advanced-antibot-spigot-bungee-1500-purchases-1-7-1-15.31700/) hat uns jedoch am meisten überzeugt und sichert deinen Server auch vor jeglichen Bot-Attacken.
+:::info
+Um weitreichende Kontrolle über VPN/Proxy Verbindungn gewinnen zu können, loht es sich ein Plugin dafür zu installieren.
+
+Viele kostenlose Plugins lassen sich schnell finden, dieses (jedoch kostenpflichtige) [Plugin](https://www.spigotmc.org/resources/antibotdeluxe-%E2%80%BA-the-most-advanced-antibot-spigot-bungee-1500-purchases-1-7-1-15.31700/) hat uns jedoch am meisten überzeugt und sichert deinen Server auch vor jeglichen Bot-Attacken.
+:::
 
 ### generator-settings
 
@@ -130,7 +139,9 @@ Die alte Welt bleibt dabei erhalten und befindet sich weiterhin in dem vorherige
 Hier kann eine Nachricht definiert werden, welche in der Serverliste angezeigt wird, sofern hinzugefügt. Die Nachricht wird nicht bei der Direktverbindung angezeigt, sofern im Client keine speziellen Mods installiert sind.
 Die Nachricht kann mit allen möglichen Farben und Formatierungen versehen werden, welche Minecraft bietet.
 
-> Schnell und einfach kann die MOTD über dieses [Tool](https://minecraft.tools/de/motd.php) erstellt werden.
+:::info
+Schnell und einfach kann die MOTD über dieses [Tool](https://minecraft.tools/de/motd.php) erstellt werden.
+:::
 
 ### force-gamemode
 
@@ -240,7 +251,9 @@ Zur Prävention dessen sollte man bei einem Pluginfähigen-Server wie bei Spigot
 Dies de- bzw. aktiviert das eigene AntiCheat von Minecraft in Bezug auf das Fliegen.
 Meist durch Hackclients ist es Spielern möglich unerlaubt zu fliegen.
 
-> Wir raten dennoch in jedem Fall ein AntiCheat in Form eines Plugin zu installieren!
+:::info
+Wir raten dennoch in jedem Fall ein AntiCheat in Form eines Plugin zu installieren!
+:::
 
 ### function-permission-level
 

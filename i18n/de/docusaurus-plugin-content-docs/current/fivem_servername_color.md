@@ -1,6 +1,6 @@
 ---
 id: fivem_servername_color
-title: FiveM Servernamen farbig anzeigen lassen
+title: Servernamen farbig anzeigen lassen
 description: Informationen, wie du die Farben des Servernamens, der in der Serverliste für FiveM-Server angezeigt wird, einstellen kannst - ZAP-Hosting.com Dokumentationen
 sidebar_label: Servernamen färben
 ---
@@ -19,7 +19,9 @@ Damit der Fivem Servername unter "**Configs**" bearbeitet werden kann, muss dies
 
 ![image](https://user-images.githubusercontent.com/13604413/159138187-8ca712ab-7a1f-4595-8e34-814ddd6a7eab.png)
 
->  Um den Servernamen zu färben wird ein Fivem Element Argentum Schlüssel benötigt [Fivem Patreon](https://www.patreon.com/fivem)
+:::info
+ Um den Servernamen zu färben wird ein Fivem Element Argentum Schlüssel benötigt [Fivem Patreon](https://www.patreon.com/fivem)
+:::
 
 In diesem Einstellungsfenster kann nun das Schloss-Symbol betätigt werden um die Einstellungen in der "**Config**" vornehmen zu können.
 Die Änderungen werden durch Nutzen des "**Speichern**" Buttons übernommen.

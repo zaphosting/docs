@@ -1,6 +1,6 @@
 ---
 id: domain_easydns
-title: Domains EasyDNS
+title: EasyDNS
 description: Informationen zu den EasyDNS Domaineinstellungen bei ZAP-Hosting - ZAP-Hosting.com Dokumentationen
 sidebar_label: EasyDNS
 ---
@@ -25,4 +25,6 @@ Es gibt ebenfalls die Option, dass man seine Domain mit einer Subdomain auf eine
 Hier kann im ersten Feld der Name der **gewünschten Subdomain** eingetragen werden.
 Rechts daneben wählt man den gewünschten **Minecraft Server** aus, welchen man mit der Subdomain dann verknüpfen möchte.
 
-> ⚠️ Bitte beachte, dass es bis zu 24 Stunden in Anspruch nehmen kann, bis Änderungen an den Domains global übernommen worden sind!
+:::info
+Bitte beachte, dass es bis zu 24 Stunden in Anspruch nehmen kann, bis Änderungen an den Domains global übernommen worden sind!
+:::

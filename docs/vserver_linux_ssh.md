@@ -33,7 +33,9 @@ In the following, the connection using the Putty SSH client is explained. In the
 
 
 
-> ⚠️ SSH login via password is disabled by default. If you want to log in with the password, you have to activate the option under **Access & Security** first.
+:::info
+SSH login via password is disabled by default. If you want to log in with the password, you have to activate the option under **Access & Security** first.
+:::
 
 
 
@@ -41,7 +43,9 @@ In the following, the connection using the Putty SSH client is explained. In the
 
 
 
-> When connecting to the server for the first time, a security message from Putty appears, informing you that no host key has been cached in the registry yet. This can be confirmed with **Yes** if you do not want to continue to receive this message every time. 
+:::info
+When connecting to the server for the first time, a security message from Putty appears, informing you that no host key has been cached in the registry yet. This can be confirmed with **Yes** if you do not want to continue to receive this message every time. 
+:::
 
  
 

@@ -26,7 +26,9 @@ If, as recommended in the next step, you use a password manager, you can usually
 A secure password makes it harder for attackers to gain access to your account automatically or in installments. However, at best it is important not to use a password more than once, i.e. on different websites and services. If there is a security problem with one of the providers and websites you are using and your password falls into the wrong hands, your accounts with other websites are also at risk.
 Accordingly, it makes sense to use a different password for each page. In order not to confuse or forget the passwords, a password manager such as [KeePass](https://keepass.info/) or [1Password](https://1password.com/) is recommended. 
 
-> Tip: At [haveibeenpwned](https://haveibeenpwned.com/) you can check your email address free of charge to see whether it is contained in a known leak in a database. You will also receive information on which side the incident took place and which data was stolen.
+:::info
+Tip: At [haveibeenpwned](https://haveibeenpwned.com/) you can check your email address free of charge to see whether it is contained in a known leak in a database. You will also receive information on which side the incident took place and which data was stolen.
+:::
 
 ![haveibeenpwned Example](https://screensaver01.zap-hosting.com/index.php/s/t6KrTmmPertFciD/preview)
 

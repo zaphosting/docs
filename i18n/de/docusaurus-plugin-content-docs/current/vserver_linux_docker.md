@@ -1,6 +1,6 @@
 ---
 id: vserver_linux_docker
-title: vServer Docker auf Server installieren
+title: Docker auf Server installieren
 description: Informationen, wie du Docker auf deinen vServer von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentationen
 sidebar_label: Docker
 ---
@@ -11,7 +11,9 @@ Docker ist eine leichtgewichtige Open-Source Virtualisierungssoftware um Dienste
 
 ## Wie installiere ich Docker auf meinem Linux Server?
 
-> In diesem Beispiel setzen wir Docker auf einem Debian 9 System auf und installieren es via Paketquellen. Es kann bei einem anderen Betriebssystem Abweichungen geben!
+:::info
+In diesem Beispiel setzen wir Docker auf einem Debian 9 System auf und installieren es via Paketquellen. Es kann bei einem anderen Betriebssystem Abweichungen geben!
+:::
 
 Schritt 1: Verbinde dich mit Putty mit deinem Server.
 

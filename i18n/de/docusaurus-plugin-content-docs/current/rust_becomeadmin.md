@@ -1,6 +1,6 @@
 ---
 id: rust_becomeadmin
-title: Rust Admin auf eigenem Server werden
+title: Admin auf eigenem Server werden
 description: Informationen, wie du dich zum Admin auf deinem Rust-Server von ZAP-Hosting machen kannst - ZAP-Hosting.com Dokumentationen
 sidebar_label: Admin werden
 ---
@@ -17,11 +17,15 @@ Sobald du verbunden bist, navigiere in das Feld in welchem du Consolenbefehle au
 Um dir Adminrechte zu geben, kannst du dort nun folgenden Befehl ausführen:
 `ownerid Steam64ID`
 
-> Bitte ersetze **Steam64ID** durch deine Steam64ID. Mit diesem Tool kannst du deine [Steam64ID herausfinden](https://steamid.io/)
+:::info
+Bitte ersetze **Steam64ID** durch deine Steam64ID. Mit diesem Tool kannst du deine [Steam64ID herausfinden](https://steamid.io/)
+:::
 
 Im Anschluss hast du direkt Adminrechte auf deinem Server. 
 
-> Solltest du im Spiel online sein während du diesen Befehl ausführt, musst du den Server einmal verlassen und erneut betreten damit die Adminrechte aktiv werden.
+:::info
+Solltest du im Spiel online sein während du diesen Befehl ausführt, musst du den Server einmal verlassen und erneut betreten damit die Adminrechte aktiv werden.
+:::
 
 Nun bist du Administrator. :) 
 
@@ -40,7 +44,9 @@ In dieser Datei kannst du für jeden Admin einen Eintrag erstellen, dieser sollt
 
 `<role> <Steam64ID> <reason/user>`
 
-> Ersetze dort **Steam64ID** mit deiner Steam64ID.  Mit diesem Tool kannst du deine [Steam64ID herausfinden](https://steamid.io/)
+:::info
+Ersetze dort **Steam64ID** mit deiner Steam64ID.  Mit diesem Tool kannst du deine [Steam64ID herausfinden](https://steamid.io/)
+:::
 
 Hier findest du ein Beispiel wie ein fertiger Eintrag aussehen kann:
 
@@ -48,6 +54,8 @@ Hier findest du ein Beispiel wie ein fertiger Eintrag aussehen kann:
 ownerid 76561198114248380 "Hier kannst du zum Beispiel deinen Namen eintragen..."
 moderatorid 76561198114248380 "Und hier den Namen des zweiten Administrators..."
 ```
-> Nun musst du deinen Server einmal neu starten damit die Änderungen wirksam werden.
+:::info
+Nun musst du deinen Server einmal neu starten damit die Änderungen wirksam werden.
+:::
 
 Nun bist du Administrator. :) 

@@ -1,6 +1,6 @@
 ---
 id: gameserver_gameswitch
-title: Gameserver Game switching with the gameservercloud
+title: Game switching with the gameservercloud
 description: Information on how to install more games on your gameserver from ZAP-Hosting.com and how to switch between games - ZAP-Hosting.com documentation
 sidebar_label: Change the game
 
@@ -12,15 +12,21 @@ ZAP-Hosting's game server allows you to change the game that is installed on you
 
 * In case the host system needs to be changed, existing games on the server will be deleted. This is the case if you want to install a game server for another operating system, for example if you want to switch from ARK (Windows) to Minecraft (Linux).
 
-> You will receive a warning message when changing the host system. Therefore you should make a backup before switching the game!
+:::info
+You will receive a warning message when changing the host system. Therefore you should make a backup before switching the game!
+:::
 
 * You can switch to games with the same or a lower slot price at any time. However, if you want to switch to a game with a higher slot price then there is a surcharge.
 
-> Tip: You can upgrade / downgrade your game server to a lower number of slots and then use the ZAP-Coins to unlock a higher slot price and switch to games with higher slot prices.
+:::info
+Tip: You can upgrade / downgrade your game server to a lower number of slots and then use the ZAP-Coins to unlock a higher slot price and switch to games with higher slot prices.
+:::
 
 * By using our gameserver cloud, you can install and switch between Minecraft modpacks for free.
 
-> Minecraft modpacks have the same slot price. Since no host system change is necessary, no data is deleted when changing games. You can test a new modpack and reactivate your previous server as you need it.
+:::info
+Minecraft modpacks have the same slot price. Since no host system change is necessary, no data is deleted when changing games. You can test a new modpack and reactivate your previous server as you need it.
+:::
 
 ## Change the game
 
@@ -50,7 +56,9 @@ Once activated, you can play your new game on your server. In the overview you c
 
 Via the game server cloud, you can reinstall your game servers with one click:
 
-> ***Attention:*** All data of the game will be deleted during reinstallation
+:::info
+***Attention:*** All data of the game will be deleted during reinstallation
+:::
 
 ![image](https://user-images.githubusercontent.com/13604413/159170841-d6c08d01-6393-45a7-ac7d-54bc8bc14e0c.png)
 
@@ -66,6 +74,8 @@ You can select your new slot price in the edit box. The additional amount that h
 
 If the slot price changes, your booked slots will automatically be adjusted.
 
-> Note: If the slot price is reduced below the slot price for the installed games, then those games will be deleted!
+:::info
+Note: If the slot price is reduced below the slot price for the installed games, then those games will be deleted!
+:::
 
 ![image](https://user-images.githubusercontent.com/13604413/159170851-18689a22-7ac4-4697-95ab-0ec179c7560d.png)

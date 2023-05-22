@@ -1,6 +1,6 @@
 ---
 id: fivem_esx_addcarstoshop
-title: FiveM ESX Server Autos zum Shop hinzufügen
+title: Autos zum Shop hinzufügen
 description: Informationen, wie du Fahrzeuge um Shop auf deinen FiveM-Server mit ESX von ZAP-Hosting hinzufügen kannst - ZAP-Hosting.com Dokumentationen
 sidebar_label: Autos zum Shop hinzufügen
 ---
@@ -25,7 +25,9 @@ https://wiki.gtanet.work/index.php?title=Vehicle_Models
 
 Haben wir uns ein Autos ausgesucht können wir es dann hinzufügen.
 
-> **Wichtig**: Standartmäßig sind sehr viele Autos schon im Fahrzeugshop. Schaut ob euer Auto eventuell schon eingetragen ist.
+:::info
+Standartmäßig sind sehr viele Autos schon im Fahrzeugshop. Schaut ob euer Auto eventuell schon eingetragen ist.
+:::
 
 Zu aller erst kontrollieren wir die Fahrzeugkategorien. Sodass wir wissen welche wir hinterlegen können.
 Das machen wir im "vehicle_categories Table

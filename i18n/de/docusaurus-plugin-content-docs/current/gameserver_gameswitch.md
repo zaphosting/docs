@@ -1,6 +1,6 @@
 ---
 id: gameserver_gameswitch
-title: Gameserver Spielwechsel mit der Gameservercloud
+title: Spielwechsel mit der Gameservercloud
 description: Informationen, wie du weitere Spiele auf deinen Gameserver von ZAP-Hosting.com installieren und zwischen den Spielen wechseln kannst - ZAP-Hosting.com Dokumentationen
 sidebar_label: Spielwechsel
 ---
@@ -11,13 +11,19 @@ Mit einem Gameserver bei ZAP-Hosting kannst du jederzeit das Spiel, dass auf dei
 Dazu installierst du ein neues Spiel über das Web Interface und aktivierst es auf deinem Server. Inaktive Spiele bleiben erhalten und werden nicht gelöscht!
 Folgende Punkte sind bei einem Spielwechsel zu beachten:
 * Wenn das Host-System gewechselt werden muss, werden bestehende Spiele auf dem Server gelöscht. Dies ist der Fall, wenn du einen Gameserver für ein anderes Betriebssystem installieren willst, beispielsweise von ARK (Windows) zu Minecraft (Linux) wechseln willst.
-> Bei einem Host-System-Wechsel erhältst du eine Warnmeldung. Lege vor dem Spielwechsel ein Backup an!
+:::info
+Bei einem Host-System-Wechsel erhältst du eine Warnmeldung. Lege vor dem Spielwechsel ein Backup an!
+:::
 * Du kannst jederzeit auf Spiele mit dem gleichen oder einem geringeren Slotpreis wechseln. Willst du auf ein Spiel mit einem höheren Slotpreis wechseln, fällt ein Aufpreis an.
-> Tipp: Du kannst deinen Gameserver über die Upgrade / Downgrade-Funktion auf eine geringere Slotanzahln und dann die ZAP-Coins dazu verwenden, einen höheren Slotpreis freizuschalten und auf Spiele mit höherem Slotpreis zu wechseln.
+:::info
+Tipp: Du kannst deinen Gameserver über die Upgrade / Downgrade-Funktion auf eine geringere Slotanzahln und dann die ZAP-Coins dazu verwenden, einen höheren Slotpreis freizuschalten und auf Spiele mit höherem Slotpreis zu wechseln.
+:::
 
 * Dank unserer Gameservercloud kannst du beispielsweise kostenfrei Minecraft-Modpacks installieren und aktivieren.
 
-> Minecraft-Modpacks haben den gleichen Slotpreis. Da keine Hostsystemwechsel notwendig ist, werden keine Daten beim Spielewechsel gelöscht. Du kannst ein neues Modpack testen und bei Bedarf deinen bisherigen Server wieder aktivieren.
+:::info
+Minecraft-Modpacks haben den gleichen Slotpreis. Da keine Hostsystemwechsel notwendig ist, werden keine Daten beim Spielewechsel gelöscht. Du kannst ein neues Modpack testen und bei Bedarf deinen bisherigen Server wieder aktivieren.
+:::
 
 ## Spielewechsel
 

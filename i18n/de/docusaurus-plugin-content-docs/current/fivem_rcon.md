@@ -1,6 +1,6 @@
 ---
 id: fivem_rcon
-title: FiveM Server Rcon benutzen
+title: Rcon benutzen
 description: Informationen, wie du Rcon auf deinem FiveM-Server benutzen kannst, um Befehle an den Server zu senden - ZAP-Hosting.com Dokumentationen
 sidebar_label: Rcon benutzen
 ---
@@ -33,9 +33,13 @@ Alternativ kann das Rcon Passwort auch direkt über die Server Config vorgenomme
 ```
 rcon_password "DeinWunschRconPasswort"
 ```
-> Für die Verwaltung über die Server Config muss die Option des Rcon Feldes unter den Einstellungen erst deaktiviert werden. 
-> 
-> **txAdmin:** Die Definition des Rcon Passworts ist bei txAdmin ausschließlich über die Server Config möglich. 
+:::info
+Für die Verwaltung über die Server Config muss die Option des Rcon Feldes unter den Einstellungen erst deaktiviert werden. 
+
+
+
+**txAdmin:** Die Definition des Rcon Passworts ist bei txAdmin ausschließlich über die Server Config möglich. 
+:::
 
 ### Verwendung
 

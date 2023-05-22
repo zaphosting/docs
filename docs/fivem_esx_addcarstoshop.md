@@ -1,6 +1,6 @@
 ---
 id: fivem_esx_addcarstoshop
-title: FiveM ESX Server Adding cars to the shop
+title: Adding cars to the shop
 description: Information on how to add cars to the shop on your FiveM server with ESX from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Add Cars to Dealership
 ---
@@ -23,7 +23,9 @@ https://wiki.gtanet.work/index.php?title=Vehicle_Models
 
 Once we have chosen a car, we can add it to the list.
 
->> **Important**: By default there are a lot of cars already in the car shop. See if your car is already listed.
+:::info
+By default there are a lot of cars already in the car shop. See if your car is already listed.
+:::
 
 First of all we check the car categories. So we know which ones we can add.
 We do this in the "vehicle_categories table

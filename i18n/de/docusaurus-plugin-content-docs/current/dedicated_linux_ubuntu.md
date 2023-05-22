@@ -10,7 +10,9 @@ sidebar_label: Ubuntu installieren
 ## Vorbereitungen
 Wähle in deinem ZAP-Interface die gewünschte ISO von Ubuntu aus und lasse den Server mit der ISO booten, bis dieser im Setup ist. Die Navigation im Setup Prozess erfolgt mit TAB, Leertaste und Enter.
 
-> TAB = Zwischen Menüpunkten wechseln, Leertaste = markieren, Enter = Bestätigen
+:::info
+TAB = Zwischen Menüpunkten wechseln, Leertaste = markieren, Enter = Bestätigen
+:::
 
 ***
 
@@ -21,7 +23,9 @@ Wenn die ISO erfolgreich geladen wurde, ist der Server erfolgreich im Setup.
 
 Wähle deine gewünschte Sprache des Systems aus und bestätige mit Enter.
 
-> Du kannst mit Tab zwischen den Menüpunkten wechseln und die Auswahl der verschiedenen Sprachen mit "Enter" öffnen
+:::info
+Du kannst mit Tab zwischen den Menüpunkten wechseln und die Auswahl der verschiedenen Sprachen mit "Enter" öffnen
+:::
 
 ***
 
@@ -29,7 +33,9 @@ Wähle deine gewünschte Sprache des Systems aus und bestätige mit Enter.
 
 Wähle dein gewünschtes Tastaturlayout und bestätige deine Eingabe mit "Done"
 
-> Du kannst mit Tab zwischen den Menüpunkten wechseln und die Auswahl der verschiedenen Layouts mit "Enter" öffnen
+:::info
+Du kannst mit Tab zwischen den Menüpunkten wechseln und die Auswahl der verschiedenen Layouts mit "Enter" öffnen
+:::
 
 ***
 
@@ -87,7 +93,9 @@ Um deinen Server auch beispielsweise per PuTTY erreichen zu können, muss ein Op
 
 Ubuntu bietet dir ein paar Paketsammlungen aus, sofern du etwas davon nutzen möchtest, wähle diese einfach aus.
 
-> 🎉 Der Server installiert nun das Betriebssystem, nach diesem Schritt ist das Setup beendet.
+:::info
+🎉 Der Server installiert nun das Betriebssystem, nach diesem Schritt ist das Setup beendet.
+:::
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/SzrxCtJTx2S8Nef/preview)
 
@@ -107,4 +115,6 @@ Gib nun das neue Passwort für deinen Root-Nutzer ein.
 
 Fertig! Du kannst dich jetzt mit dem gesetzten Passwort als `root` anmelden.
 
-> Bei weiteren Fragen und Problemen steht dir unser Support jederzeit gerne zur Verfügung
+:::info
+Bei weiteren Fragen und Problemen steht dir unser Support jederzeit gerne zur Verfügung
+:::

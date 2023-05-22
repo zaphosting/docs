@@ -1,6 +1,6 @@
 ---
 id: account_paymentoptions
-title: Payment options - What payment options are available at ZAP-Hosting.com
+title: Payment options - What payment options are available
 description: "Information about the different payment options at ZAP-Hosting PayPal, credit card, ZAP Coins and more - ZAP-Hosting.com documentations"
 sidebar_label: Payment options
 ---
@@ -25,8 +25,11 @@ The payment process is simple: the server configuration is put together on the c
 
 ## ZAP Coins: Deposit
 ZAP Coins can be deposited via all other payment options offered by us and also contract servers can be paid via ZAP Coins. In the web interface you can deposit ZAP Coins under the point **Cash in** in your Cashbox.
-> A proportionate financing via ZAP Coins is not possible. If you already have ZAP Coins, for example because you have a ZAP Coins code, you can add credit as you like. Tip: If you pay with ZAP Coins, pay attention to our Cash In Deals: If the Cash In Deal is activated, you will receive additional credit if you increase your deposit.
-> Transfers can be used to deposit ZAP Coins. As soon as we have received the transfer, the credit will be activated and can be used.
+:::info
+A proportionate financing via ZAP Coins is not possible. If you already have ZAP Coins, for example because you have a ZAP Coins code, you can add credit as you like. Tip: If you pay with ZAP Coins, pay attention to our Cash In Deals: If the Cash In Deal is activated, you will receive additional credit if you increase your deposit.
+
+Transfers can be used to deposit ZAP Coins. As soon as we have received the transfer, the credit will be activated and can be used.
+:::
 
 
 ![image](https://user-images.githubusercontent.com/61953937/159141689-90e712e8-1a0d-41ad-a75b-ad067c7d8e68.png)

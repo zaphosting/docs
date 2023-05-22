@@ -1,6 +1,6 @@
 ---
 id: fivem_installels
-title: FiveM Installing ELS on your server
+title: Installing ELS on your server
 description: Information on how to install ELS on your FiveM server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Install ELS
 ---
@@ -19,7 +19,9 @@ Once we have downloaded ELS, unzip the file and open the "ELS-FiveM" folder.
 
 Now we configure ELS-FiveM by making a copy of the `vcf.default.lua`, and rename it to `vcf.lua`.
 
-> Note: The old `vcf.default.lua` should not be deleted.
+:::info
+Note: The old `vcf.default.lua` should not be deleted.
+:::
 
 Further settings can also be adjusted in the "config.lua", but we will leave them as default.
 
@@ -44,6 +46,8 @@ Upload them into the "vcf" folder of our ELS-FiveM folder via FTP.
 Now that the file has been uploaded, we open the 'vcf.lua' file in the ELS-FiveM folder.
 
 
-> Make sure that the previous line always ends with a comma.
+:::info
+Make sure that the previous line always ends with a comma.
+:::
 
 Done! Our Carmod should be ELS enabled and functional after a restart of the server.

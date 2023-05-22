@@ -1,11 +1,13 @@
 ---
 id: fivem_esx_changejobgarages
-title: FiveM ESX Server Job-Garagen - Autos hinzufügen
+title: Job-Garagen - Autos hinzufügen
 description: Informationen, wie du Autos zu Job-Garagen auf deinem FiveM-Server mit ESX von ZAP-Hosting hinzufügen kannst - ZAP-Hosting.com Dokumentationen
 sidebar_label: Job-Garagen Autos Hinzufügen
 ---
 
-> **Wichtig**: ESX muss installiert sein
+:::info
+ESX muss installiert sein
+:::
 
 
 ## Vorbereitungen
@@ -28,6 +30,8 @@ Dort warten wir nun, bis alle Configs erschienen sind, nachdem alle Configs gela
 
 Hier suchen wir nach der `Config.AuthorizedVehicles` Zeile, hier sind alle Autos gelistet, welche für die verschiedenen Job-Ranks zur Verfügung stehen.
 
-> Gehe sicher, dass du am Ende der vorherigen Zeile ein Komma hast, wenn du neue Fahrzeuge einfügst, ansonsten kann es zu Problemen kommen.
+:::info
+Gehe sicher, dass du am Ende der vorherigen Zeile ein Komma hast, wenn du neue Fahrzeuge einfügst, ansonsten kann es zu Problemen kommen.
+:::
 
 Fertig! Nun können wir den Server neustarten, und die Änderung wird ingame erscheinen.
