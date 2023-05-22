@@ -294,5 +294,9 @@
   "sidebar.voiceserverbotSidebar.category.Voiceserver": {
     "message": "Voiceserver",
     "description": "The label for category Voiceserver in sidebar voiceserverbotSidebar"
+  },
+  "sidebar.gameserverSidebar.category.Myth of Empires": {
+    "message": "Myth of Empires",
+    "description": "The label for category Myth of Empires in sidebar gameserverSidebar"
   }
 }
