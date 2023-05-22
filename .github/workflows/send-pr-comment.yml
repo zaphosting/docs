@@ -6,6 +6,8 @@ on:
       - completed
     workflows:
       - 'Build Docusaurus'
+    branches-ignore:
+      - master
 
 jobs:
   comment:
