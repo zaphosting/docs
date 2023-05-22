@@ -666,7 +666,7 @@ const sidebars = {
     },
     {
       type: "category",
-      label: "Project Zomboid",
+      label: "Myth of Empires",
       items: [
         {
           type: "category",
