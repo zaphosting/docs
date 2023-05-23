@@ -51,7 +51,7 @@ You should use this setting if you have already run a server with txAdmin and no
 
 Popular Templates are pre-made packs that can be used directly, this is the easiest way to use the FiveM server directly, if this is your first server this option is recommended:
 
-![image](https://user-images.githubusercontent.com/13604413/159169359-1a0e1e9e-17c3-4d60-9da7-7fd6362da8b7.png)
+![image](https://github.com/zaphosting/docs/assets/13604413/1363dc9c-bd9e-4aea-86d5-a85e989b06f3)
 
 Now we can set a custom path for the pack, generally we would recommend to leave this path default.
 

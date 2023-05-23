@@ -51,7 +51,7 @@ Diese Einstellung solltest du benutzen, falls du bereits einen Server mit txAdmi
 
 Popular Templates sind vorgefertigte Packs, welche direkt benutzt werden können, dies ist der einfachste weg, den FiveM Server direkt benutzen zu können, falls dies dein erster Server ist, wird diese Option empfohlen:
 
-![image](https://user-images.githubusercontent.com/13604413/159169359-1a0e1e9e-17c3-4d60-9da7-7fd6362da8b7.png)
+![image](https://github.com/zaphosting/docs/assets/13604413/1363dc9c-bd9e-4aea-86d5-a85e989b06f3)
 
 Nun können wir einen eigenen Pfad für das Pack generieren, generell würden wir empfehlen, diesen Pfad Standard zu lassen.
 
