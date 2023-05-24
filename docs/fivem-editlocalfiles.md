@@ -8,7 +8,7 @@ sidebar_label: Edit Locales Files
 ## Overview
 
 First of all we have to connect to the server.
-Here you can find the [Instructions](gameserver_ftpaccess.md)
+Here you can find the [Instructions](gameserver-ftpaccess.md)
 
 ## Find Locales Files
 Once we have done that we look for the script where we want to change the local files.

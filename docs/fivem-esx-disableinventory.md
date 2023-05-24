@@ -8,7 +8,7 @@ sidebar_label: Deactivate the Inventory (F2)
 
 ## Connect to FTP
 
-Before we can deactivate the inventory, the [FTP access](gameserver_ftpaccess.md) must be set up.
+Before we can deactivate the inventory, the [FTP access](gameserver-ftpaccess.md) must be set up.
 
 After this has been set up, you can now connect and open the server folder:
 

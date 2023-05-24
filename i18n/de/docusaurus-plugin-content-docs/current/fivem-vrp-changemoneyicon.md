@@ -7,7 +7,7 @@ sidebar_label: Geldicon Ändern
 
 ## Mit FTP verbinden
 
-Zuerst muss der [FTP-Zugang](gameserver_ftpaccess.md) eingerichtet werden.
+Zuerst muss der [FTP-Zugang](gameserver-ftpaccess.md) eingerichtet werden.
 
 Nachdem dieser eingerichtet wurde, kann sich nun verbunden werden und der Server Ordner geöffnet werden.
 

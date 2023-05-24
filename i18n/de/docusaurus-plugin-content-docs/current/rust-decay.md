@@ -6,7 +6,7 @@ sidebar_label: Decay
 ---
 
 Mithilfe eines RCON Tools kannst du auf deinem Server beliebige Befehle ausführen, auch Adminrechte können so vergeben werden.
-Zuerst musst du [via RCON verbinden](rust_connectrcon.md).
+Zuerst musst du [via RCON verbinden](rust-connectrcon.md).
 
 :::info
 Dein Server muss vollständig gestartet sein um via RCON erreichbar zu sein. 

@@ -21,7 +21,7 @@ The use of a custom server icon requires certain requirements. The requirements 
 
 ## Installation
 
-The setup of an own icon is done via FTP. FTP allows you to upload the image file to your server. If you are not familiar with this yet, then we recommend to have a look at the [FTP access](gameserver_ftpaccess.md) guide. Navigate to the folder `gXXXX/gta-fivem/server-data/` and upload your server icon file there.
+The setup of an own icon is done via FTP. FTP allows you to upload the image file to your server. If you are not familiar with this yet, then we recommend to have a look at the [FTP access](gameserver-ftpaccess.md) guide. Navigate to the folder `gXXXX/gta-fivem/server-data/` and upload your server icon file there.
 
 ![image](https://user-images.githubusercontent.com/13604413/159137598-e4bd90d5-047e-4b16-8020-b9fc7c68f007.png)
 

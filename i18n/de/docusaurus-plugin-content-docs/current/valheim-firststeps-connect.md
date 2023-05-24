@@ -23,7 +23,7 @@ Zunächst gilt es zu klären, welche Voraussetzungen erfüllt werden müssen, da
 
 ### Spiel / Inhalte
 
-Für die Verbindung zu deinem Gameserver ist es zwingend notwendig, dass du das Spiel bereits besitzt. Dies wird von uns beim Mieten eines Servers nicht bereitgestellt. Ebenfalls relevant ist, welche Version von diesem Spiel verwendet wird. Die Standard Valheim Version benötigt keine zusätzlichen Inhalte. Solltest du allerdings einen **Valheim Plus** oder Valheim BepInEX Server bestellt haben, dann benötigst du zusätzlich die clientseitige Modifikation. Wir bieten zu der Installation ebenfalls eine Anleitung an: [Valheim Plus](valheim_plus.md)
+Für die Verbindung zu deinem Gameserver ist es zwingend notwendig, dass du das Spiel bereits besitzt. Dies wird von uns beim Mieten eines Servers nicht bereitgestellt. Ebenfalls relevant ist, welche Version von diesem Spiel verwendet wird. Die Standard Valheim Version benötigt keine zusätzlichen Inhalte. Solltest du allerdings einen **Valheim Plus** oder Valheim BepInEX Server bestellt haben, dann benötigst du zusätzlich die clientseitige Modifikation. Wir bieten zu der Installation ebenfalls eine Anleitung an: [Valheim Plus](valheim-plus.md)
 
 
 

@@ -13,7 +13,7 @@ ESX muss installiert sein
 
 Um die Koordinaten rausfinden zu können brauchen wir ein Coords Script wie dieses hier:
 [CoordsScript](https://github.com/qalle-fivem/qalle_coords)
-Installiert dieses wie in der [Anleitung](fivem_installresources.md)
+Installiert dieses wie in der [Anleitung](fivem-installresources.md)
 Haben wir dieses Script installiert. Drücken wir Ingame */coords*
 Damit erhalten wir dann die Koordinaten.
 

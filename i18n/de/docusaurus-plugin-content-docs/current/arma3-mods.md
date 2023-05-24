@@ -7,7 +7,7 @@ sidebar_label: Mods Installieren
 
 ## Mit FTP verbinden
 
-Bevor Resourcen installiert werden können, muss der **FTP-Zugang** eingerichtet werden: [FTP-Zugang einrichten](gameserver_ftpaccess.md)
+Bevor Resourcen installiert werden können, muss der **FTP-Zugang** eingerichtet werden: [FTP-Zugang einrichten](gameserver-ftpaccess.md)
 
 Nachdem dieser eingerichtet wurde, kann sich nun verbunden werden und der Server Ordner geöffnet werden:
 

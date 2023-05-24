@@ -7,7 +7,7 @@ sidebar_label: Install Mods
 
 ## Connect to FTP
 
-Before resources can be installed, the [FTP access](gameserver_ftpaccess.md) must be set up.
+Before resources can be installed, the [FTP access](gameserver-ftpaccess.md) must be set up.
 
 After this has been set up, you can now connect and open the server folder:
 

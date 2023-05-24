@@ -19,7 +19,7 @@ These are already in your **mpmissions** directory.
 
 ## Upload the mission file
 
-For uploading the mission file you have to connect to your server via FTP before: [Gameserver FTP connection](gameserver_ftpaccess.md).
+For uploading the mission file you have to connect to your server via FTP before: [Gameserver FTP connection](gameserver-ftpaccess.md).
 There you upload the corresponding mission file into your **mpmissions** directory which you can find under **/gxxxxxx/arma3/**.
 In this example we upload the game mode **King of the Hill** to our server.
 

@@ -35,7 +35,7 @@ Now we can close the game again, in the documents folder there are now two new f
 
 ## Upload Server Packages
 
-Now we connect to our server via the [FTP access](gameserver_ftpaccess.md).
+Now we connect to our server via the [FTP access](gameserver-ftpaccess.md).
 
 We upload the two files into the `Euro Truck Simulator 2` or `American Truck Simulator` folder of our game server:
 

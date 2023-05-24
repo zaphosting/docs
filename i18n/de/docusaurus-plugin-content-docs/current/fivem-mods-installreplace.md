@@ -6,7 +6,7 @@ sidebar_label: Replacement Carmods Installieren
 ---
 
 ## Mit FTP Verbinden
-Zuerst solltest du dich über FTP auf deinen Server Verbinden, dazu kannst du unser [FTP-Tutorial](gameserver_ftpaccess.md) nutzen.
+Zuerst solltest du dich über FTP auf deinen Server Verbinden, dazu kannst du unser [FTP-Tutorial](gameserver-ftpaccess.md) nutzen.
 
 ## Vorbereitung
 

@@ -11,7 +11,7 @@ Force overwrite must be disabled to edit the scripts, otherwise all changes will
 
 ## Connect to FTP
 
-First the [FTP access](gameserver_ftpaccess.md) must be set up:
+First the [FTP access](gameserver-ftpaccess.md) must be set up:
 
 ![image](https://user-images.githubusercontent.com/13604413/159137870-82291650-2fbe-4c53-be81-19f8552069c4.png)
 

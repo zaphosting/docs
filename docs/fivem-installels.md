@@ -7,7 +7,7 @@ sidebar_label: Install ELS
 
 ## Connect to FTP
 
-In order to be able to install the resource, the [FTP access](gameserver_ftpaccess.md) needs to be configured.
+In order to be able to install the resource, the [FTP access](gameserver-ftpaccess.md) needs to be configured.
 
 ## Preparation
 

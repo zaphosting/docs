@@ -7,7 +7,7 @@ sidebar_label: Pakete Installieren
 
 ## Mit FTP verbinden
 
-Bevor Pakete installiert werden können, muss der [FTP-Zugang](gameserver_ftpaccess.md) eingerichtet werden:
+Bevor Pakete installiert werden können, muss der [FTP-Zugang](gameserver-ftpaccess.md) eingerichtet werden:
 
 ![image](https://user-images.githubusercontent.com/13604413/159178012-0172691b-d49f-49d6-ab34-cc01eadbacf5.png)
 

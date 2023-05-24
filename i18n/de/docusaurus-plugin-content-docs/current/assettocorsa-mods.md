@@ -7,7 +7,7 @@ sidebar_label: Mods Installieren
 
 ## Mit FTP verbinden
 
-Bevor mods installiert werden können, muss der [FTP-Zugang](gameserver_ftpaccess.md) eingerichtet werden:
+Bevor mods installiert werden können, muss der [FTP-Zugang](gameserver-ftpaccess.md) eingerichtet werden:
 
 ![image](https://user-images.githubusercontent.com/13604413/159135972-112ad9ef-5f6b-4bc6-ba9f-7471b4f8c22b.png)
 

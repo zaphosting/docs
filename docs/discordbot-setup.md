@@ -13,7 +13,7 @@ sidebar_label: Setup
 
 ## Connect to FTP
 
-In order to be able to set up your Bot, the [FTP access](gameserver_ftpaccess.md) needs to be configured.
+In order to be able to set up your Bot, the [FTP access](gameserver-ftpaccess.md) needs to be configured.
 
 ## Preparation
 

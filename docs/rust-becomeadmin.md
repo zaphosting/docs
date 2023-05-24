@@ -8,7 +8,7 @@ sidebar_label: Become Admin
 ## Using RCON to Become Admin
 
 Using RCON, you can run a command directly to make yourself admin.
-Firstly, you must [Connect via RCON](rust_connectrcon.md).
+Firstly, you must [Connect via RCON](rust-connectrcon.md).
 
 Once you are connected, please navigate to where you can run console commands. In our example, we are using RustAdmin.
 
@@ -32,7 +32,7 @@ Then you are now an administrator! :)
 ## Using FTP to Become Admin
 
 Alternatively, you can assign your self admin directly through FTP.
-Firstly, you must connect using [FTP](gameserver_ftpaccess.md).
+Firstly, you must connect using [FTP](gameserver-ftpaccess.md).
 
 Once you are successfully connected, you will then navigate to the following directory:
 

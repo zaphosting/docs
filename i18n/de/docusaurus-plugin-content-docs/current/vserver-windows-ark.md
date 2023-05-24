@@ -17,7 +17,7 @@ Du hast einen Windows VPS oder Rootserver und möchtest darauf unter anderem Gam
 
 ## Einführung
 
-Verbinde dich für die Einrichtung deines ARK: Survival Evolved Dedicated Server mit deinem VPS oder Rootserver per RDP. Solltest du noch nicht wissen, wie du dich per RDP mit deinem Server verbinden kannst, dann empfehlen wir einen Blick in die [RDP Anleitung](vserver_windows_userdp.md) zu werfen. 
+Verbinde dich für die Einrichtung deines ARK: Survival Evolved Dedicated Server mit deinem VPS oder Rootserver per RDP. Solltest du noch nicht wissen, wie du dich per RDP mit deinem Server verbinden kannst, dann empfehlen wir einen Blick in die [RDP Anleitung](vserver-windows-userdp.md) zu werfen. 
 
 
 

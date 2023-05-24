@@ -7,7 +7,7 @@ sidebar_label: Installing packages
 
 ## Connect via FTP
 
-Before packages can be installed, the [FTP-Access](gameserver_ftpaccess.md) must be set up:
+Before packages can be installed, the [FTP-Access](gameserver-ftpaccess.md) must be set up:
 
 ![image](https://user-images.githubusercontent.com/13604413/159178012-0172691b-d49f-49d6-ab34-cc01eadbacf5.png)
 

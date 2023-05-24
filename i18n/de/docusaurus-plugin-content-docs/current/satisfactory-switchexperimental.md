@@ -26,9 +26,9 @@ Drücke oben auf der Seite einfach auf das grüne + Symbol und akzeptiere die Au
 
 ![Screenshot 2023-02-21 193113](https://user-images.githubusercontent.com/42719082/220440713-4f7acd14-3b9f-4f2b-a03d-72b8b1a9ec2d.png)
 
-Dein Backup wurde nun erstellt und du kannst über FTP darauf zugreifen, wie [auf dieser Seite](gameserver_ftpaccess.md) gezeigt wird.
+Dein Backup wurde nun erstellt und du kannst über FTP darauf zugreifen, wie [auf dieser Seite](gameserver-ftpaccess.md) gezeigt wird.
 
-Alternativ kannst du die Savegame-Dateien auch direkt aus dem Bereich "Savegame Manager" im Webinterface herunterladen. Diesen findest du [auf dieser Seite](satisfactory_savegame.md).
+Alternativ kannst du die Savegame-Dateien auch direkt aus dem Bereich "Savegame Manager" im Webinterface herunterladen. Diesen findest du [auf dieser Seite](satisfactory-savegame.md).
 
 ### Zur experimentellen Version wechseln
 Gehe zunächst auf deine Satisfactory Produktseite und öffne den Reiter "Einstellungen -> Spiele".

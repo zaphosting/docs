@@ -66,7 +66,7 @@ You can add or remove players from the whitelist by using the following commands
 
 **white-list.json**
 
-In case the UUID of the player is known, then the player can also be added manually via the **white-list.json** file. This can be accessed and modified by using FTP. You can find instructions for connecting via FTP here: [FTP File Access](gameserver_ftpaccess.md)
+In case the UUID of the player is known, then the player can also be added manually via the **white-list.json** file. This can be accessed and modified by using FTP. You can find instructions for connecting via FTP here: [FTP File Access](gameserver-ftpaccess.md)
 
 ```
 [

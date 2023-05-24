@@ -17,7 +17,7 @@ Got a Windows VPS or root server and want to install game servers on it? For exa
 
 ## Introduction
 
-Connect to your VPS or root server via RDP to set up your Satisfactory  Dedicated Server. In case you don't know how to connect to your server via RDP, we recommend you to have a look at the [RDP Guide](vserver_windows_userdp.md).
+Connect to your VPS or root server via RDP to set up your Satisfactory  Dedicated Server. In case you don't know how to connect to your server via RDP, we recommend you to have a look at the [RDP Guide](vserver-windows-userdp.md).
 
 
 

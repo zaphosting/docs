@@ -7,7 +7,7 @@ sidebar_label: Resourcen Installieren
 
 ## Mit FTP verbinden
 
-Bevor Resourcen installiert werden können, muss der [FTP-Zugang](gameserver_ftpaccess.md) eingerichtet werden:
+Bevor Resourcen installiert werden können, muss der [FTP-Zugang](gameserver-ftpaccess.md) eingerichtet werden:
 
 ![image](https://user-images.githubusercontent.com/13604413/159184693-261d0660-4cfb-472e-b3bb-945ab6a33346.png)
 

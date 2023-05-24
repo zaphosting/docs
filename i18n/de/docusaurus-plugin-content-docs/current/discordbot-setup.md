@@ -12,7 +12,7 @@ sidebar_label: Einrichtung
 
 ## Verbinden mit FTP
 
-Um deinen Bot einzurichten, muss der [FTP-Zugang](gameserver_ftpaccess.md) erst konfiguriert werden.
+Um deinen Bot einzurichten, muss der [FTP-Zugang](gameserver-ftpaccess.md) erst konfiguriert werden.
 
 ## Vorbereitung
 

@@ -7,7 +7,7 @@ sidebar_label: Inventar (F2) Deaktivieren
 
 ## Mit FTP verbinden
 
-Bevor wir das Inventar Deaktivieren können, muss der [FTP-Zugang](gameserver_ftpaccess.md) eingerichtet werden.
+Bevor wir das Inventar Deaktivieren können, muss der [FTP-Zugang](gameserver-ftpaccess.md) eingerichtet werden.
 
 Nachdem dieser eingerichtet wurde, kann sich nun verbunden werden und der Server Ordner geöffnet werden:
 

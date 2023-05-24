@@ -10,7 +10,7 @@ Click here to get to our Minecraft servers: [Minecraft server hosting](https://z
 ## Connecting to FTP
 
 You can manage your world with a program like FileZilla Client or WinSCP. In our example we use FileZilla. 
-Please reference the guide [FTP-Access](gameserver_ftpaccess.md) for connecting via FTP. 
+Please reference the guide [FTP-Access](gameserver-ftpaccess.md) for connecting via FTP. 
 
 ![image](https://user-images.githubusercontent.com/26007280/189978953-f3937aeb-0d8d-4d49-8299-af11392556be.png)
 

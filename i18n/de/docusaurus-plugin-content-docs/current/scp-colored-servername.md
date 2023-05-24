@@ -6,7 +6,7 @@ sidebar_label: Farbiger Servername
 ---
 
 :::info
-Damit dein Server in der öffentlichen Serverliste angezeigt wird muss eine Pastebin ID gesetzt sein. Unsere Anleitung dazu findest du [hier](scp_pastebin.md).
+Damit dein Server in der öffentlichen Serverliste angezeigt wird muss eine Pastebin ID gesetzt sein. Unsere Anleitung dazu findest du [hier](scp-pastebin.md).
 
 Damit Änderungen wirksam werden, muss der Server ausgeschaltet sein.
 :::

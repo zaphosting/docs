@@ -7,7 +7,7 @@ sidebar_label: Install Addon Carmods
 
 ## Connect with FTP
 
-First you should connect to your server via FTP, you can use our [FTP-Tutorial](gameserver_ftpaccess.md).
+First you should connect to your server via FTP, you can use our [FTP-Tutorial](gameserver-ftpaccess.md).
 
 ## Preparation
 
@@ -60,7 +60,7 @@ After rpf2fivem is finished, the carmods can be found in the "rpf2fivem" folder:
 
 ![image](https://user-images.githubusercontent.com/13604413/159167879-bea87ed6-3458-4c61-acaf-05e0b92e6039.png)
 
-We can now simply upload these via [FTP](fivem_installresources.md), a `servercfg.txt` is also created in the rpf2fivem folder which contains the entries to enter the carmods directly into the server.cfg, we can simply copy these entries into the server.cfg.
+We can now simply upload these via [FTP](fivem-installresources.md), a `servercfg.txt` is also created in the rpf2fivem folder which contains the entries to enter the carmods directly into the server.cfg, we can simply copy these entries into the server.cfg.
 
 
 Done! The Carmods are now installed on your server, after a restart of the server they can be used.

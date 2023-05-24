@@ -13,7 +13,7 @@ Du hast derzeit Probleme mit deinem Server oder möchtest die Daten des Servers 
 
 ## Vorbereitungen
 
-Zunächst einmal muss die notwendige Wipe ISO eingelegt und ausgeführt werden, damit der eigentliche Prozess zum Zurücksetzen der Daten durchgeführt werden kann. ISO Dateien können entweder über die ILO oder über die Remote Konsole eingebunden werden. Solltest du bis jetzt noch nicht genau wissen, wie das funktioniert, dann schaue dir dazu am besten die [Eigene ISO](dedicated_iso.md) Anleitung an. 
+Zunächst einmal muss die notwendige Wipe ISO eingelegt und ausgeführt werden, damit der eigentliche Prozess zum Zurücksetzen der Daten durchgeführt werden kann. ISO Dateien können entweder über die ILO oder über die Remote Konsole eingebunden werden. Solltest du bis jetzt noch nicht genau wissen, wie das funktioniert, dann schaue dir dazu am besten die [Eigene ISO](dedicated-iso.md) Anleitung an. 
 
 Binde nun die folgende ISO bei deinem Server ein und starte diesen im Anschluss neu:
 

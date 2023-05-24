@@ -23,7 +23,7 @@ Die Nutzung eines eigenen Server-Icons setzt gewisse Voraussetzungen voraus. Zu 
 
 ## Installation
 
-Die Einrichtung eines eigenen Icons erfolgt per FTP. Mittels FTP hast du die Möglichkeit, die Bild-Datei auf deinen Server hochzuladen. Solltest du damit noch nicht vertraut sein, dann empfiehlt sich ein Blick in die [FTP-Zugang](gameserver_ftpaccess.md) Anleitung. Navigiere in den Ordner `gXXXX/gta-fivem/server-data/` und lade dort deine Server Icon Datei hoch.
+Die Einrichtung eines eigenen Icons erfolgt per FTP. Mittels FTP hast du die Möglichkeit, die Bild-Datei auf deinen Server hochzuladen. Solltest du damit noch nicht vertraut sein, dann empfiehlt sich ein Blick in die [FTP-Zugang](gameserver-ftpaccess.md) Anleitung. Navigiere in den Ordner `gXXXX/gta-fivem/server-data/` und lade dort deine Server Icon Datei hoch.
 
 ![image](https://user-images.githubusercontent.com/13604413/159137598-e4bd90d5-047e-4b16-8020-b9fc7c68f007.png)
 

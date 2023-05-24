@@ -10,7 +10,7 @@ Um Plugins auf deinem Server installieren zu können benötigst du **SCP: Server
 :::
 
 ## Verbinden via FTP
-Bevor Plugins installiert werden können, muss dein [FTP Zugang](gameserver_ftpaccess.md) eingerichtet werden.
+Bevor Plugins installiert werden können, muss dein [FTP Zugang](gameserver-ftpaccess.md) eingerichtet werden.
 
 Nachdem dies erledigt ist, kannst du dich via FTP auf deinen Server verbinden und öffnest dort folgendes Verzeichnis.
 `/g#####/scp/sm_plugins`

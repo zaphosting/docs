@@ -11,7 +11,7 @@ Erzwinge Überschreiben muss zum Editieren der Scripts deaktiviert werden, sonst
 
 ## Mit FTP verbinden
 
-Zuerst muss der [FTP-Zugang](gameserver_ftpaccess.md) eingerichtet werden:
+Zuerst muss der [FTP-Zugang](gameserver-ftpaccess.md) eingerichtet werden:
 
 ![image](https://user-images.githubusercontent.com/13604413/159137870-82291650-2fbe-4c53-be81-19f8552069c4.png)
 

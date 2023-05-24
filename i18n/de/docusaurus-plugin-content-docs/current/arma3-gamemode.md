@@ -19,7 +19,7 @@ Diese liegen bereits in deinem **mpmissions** Verzeichnis.
 
 ## Hochladen der Missionsdatei
 
-Für das hochladen der Missionsdatei musst du zuvor via FTP auf deinen Server verbinden: [Gameserver FTP Verbindung](gameserver_ftpaccess.md).
+Für das hochladen der Missionsdatei musst du zuvor via FTP auf deinen Server verbinden: [Gameserver FTP Verbindung](gameserver-ftpaccess.md).
 Dort lädst du nun die entsprechende Missionsdatei in dein **mpmissions** Verzeichnis welches du unter **/gxxxxxx/arma3/** finden kannst.
 In diesem Beispiel laden wir Den Spielmodus **King of the Hill** auf unseren Server.
 

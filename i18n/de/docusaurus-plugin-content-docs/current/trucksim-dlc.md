@@ -35,7 +35,7 @@ Nun können wir das Spiel wieder beenden, im Dokumente Ordner befinden sich nun 
 
 ## Server Packages Hochladen
 
-Nun verbinden wir uns über den [FTP-Zugriff](gameserver_ftpaccess.md) zu unserem Server.
+Nun verbinden wir uns über den [FTP-Zugriff](gameserver-ftpaccess.md) zu unserem Server.
 
 Die beiden Dateien laden wir in den `Euro Truck Simulator 2` oder `American Truck Simulator` Ordner unseres Gameservers hoch:
 

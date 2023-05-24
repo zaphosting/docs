@@ -5,7 +5,7 @@ description: Information, how to adjust the decay on your Rust server from ZAP-H
 sidebar_label: Decay
 ---
 
-Using RCON, you can run a command directly to make yourself admin. Firstly its required to [Connect via RCON](rust_connectrcon.md).
+Using RCON, you can run a command directly to make yourself admin. Firstly its required to [Connect via RCON](rust-connectrcon.md).
 
 :::info
 The server must be fully started, to be connectable through rcon.
@@ -34,5 +34,4 @@ To save our changes, its required to send
 ![image](https://user-images.githubusercontent.com/26007280/189934861-1730ebe5-d066-40a2-a841-990af833bf0c.png)
 
 If your console now shows `Config Saved` the server has taken your changes.
-
 

@@ -8,7 +8,7 @@ sidebar_label: Localesfiles bearbeiten
 ## Übersicht
 
 Zu allererst müssen wir uns auf den Server verbinden.
-Hier geht es zur [Anleitung](gameserver_ftpaccess.md)
+Hier geht es zur [Anleitung](gameserver-ftpaccess.md)
 
 ## Locales Files finden
 Haben wir das gemacht suchen wir nach dem Script wo wir die Localfiles verändern wollen.
