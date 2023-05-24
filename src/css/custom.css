@@ -64,3 +64,9 @@ p {
 .docusaurus-mt-lg {
   margin-top: 1.8rem;
 }
+
+@media (max-width: 996px){
+    .navbar__search-input {
+        width: 3rem;
+    }
+}
