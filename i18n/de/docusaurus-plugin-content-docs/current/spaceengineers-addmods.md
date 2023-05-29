@@ -75,7 +75,7 @@ Hierzu kopieren wir den folgenden Inhalt und fügen Ihn dann wie im Screenshot g
 
 ```xml
 	<ModItem>
-		[name]12345.sbm</Name>
+		<Name>12345.sbm</Name>
 		<PublishedFileId>12345</PublishedFileId>
 		<PublishedServiceName>Steam</PublishedServiceName>
 	</ModItem>
