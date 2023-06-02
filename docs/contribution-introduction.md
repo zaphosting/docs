@@ -16,4 +16,4 @@ Under our contributiton program, we currently accept both updates to existing co
 Please check out the other pages in this section to understand the process for contributing, our guidelines and the rewards in more details prior to performing any contributions.
 
 ## Who is this program for?
-The contribution program is accessible to anyone who wants to share their knowledge and experience with the community! We actively look for dedicated writers who have strong technical skills and are knowledge in the respective field. Most importantly, we look for writers who are dedicated and are happy in collaborating with our ZAP-Hosting docs team to improve and revise their content prior to publishing.
+The contribution program is accessible to anyone who wants to share their knowledge and experience with the community! We actively look for dedicated writers who have strong technical skills and are knowledgeable in the respective field. Most importantly, we look for writers who are dedicated and are happy in collaborating with our ZAP-Hosting docs team to improve and revise their content prior to publishing.

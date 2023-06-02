@@ -16,4 +16,4 @@ All rewards are under the discretion of the ZAP-Hosting docs team.
 :::
 
 ## How to receive your reward
-Once we have evaluated your Pull Request and are ready to publish the changes, we will directly credit the approved ZAP Coins to your linked zap-hosting.com account.
+Once we have evaluated your Pull Request and are ready to publish the changes, we will directly credit the approved ZAP Coins to your linked zap-hosting.com account. We will let you know when your pull request has been accepted and when your reward has been added.
