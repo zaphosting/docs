@@ -72,7 +72,17 @@ const sidebars = {
           ]
         },
       ]
-    },    
+    },
+    {
+      type: 'category',
+      label: 'Contribution Program',
+      items: [
+        "contribution-introduction",
+        "contribution-submission",
+        "contribution-guidelines",
+        "contribution-rewards"
+      ]
+    },
   ],
   
   
