@@ -43,23 +43,55 @@ The main use for bold text is to emphasise information. Examples of this include
 - Hostnames, credentials & usernames
 - Key terminology
 
+You can simply use double asteriks outside of target text to make text bold, for example `**hello there**` results in **hello there**.
+
 #### Italics
-TBD
+The primary use for italics is to introduce new technical key words within your article. For example, we will be setting up a *reverse proxy* today.
+
+To use italics, you simply have to place a single asteriks outside of the target text, for example `*ZAP-Hosting - More POWER!*` results in *ZAP-Hosting - More Power!*.
 
 #### In-line code
-.
+In-line code formatting is primarily used to display more technical information such as URLs. A more comprehensive list of examples includes:
+- File names and paths (e.g. `C:/User/[YourName]/AppData....test.png`)
+- URLs (e.g. `https://zap-hosting.com`)
+- Ports (e.g. `:30120`)
+- Commands (e.g. `ipconfig `)
+- SQL Queries (e.g. `SELECT * FROM servers`)
+- Keybinds & key presses (e.g. `ENTER` or `CTRL + C`)
 
 #### Tables
-.
+Another useful markdown feature is tables. These can be especially useful when you need to display a large amount of repetitive information, for example the commands, descriptions and usages available within a game. Below is an example of table usage:
+
+```
+| Command     | Description              | Usage                 |
+| ----------- | ------------------------ | --------------------- |
+| /help       | Sends help command       | /help [category]      |
+| /stop       | Stops the server         | /stop [true/false]    |
+```
 
 #### Code blocks
-.
+Another very useful markdown formatting tool is code blocks. These are especially useful for guides which involve usage of commands, scripts, termianl output and more. 
+
+To use a code block, simply use ` ``` ` outside of the text block you wish to place into a block. Below is an example of code block usage.
+
+```
+function hello(name) {
+    console.log(name)
+}
+
+var server = "ZAP-Hosting"
+hello(server)
+```
 
 ### Use of admonitions
 Within your content, you may decide to use an admonition to highlight certain information under one of the 5 possible labels which are explored below.
 
-The syntax for using each admonition is the same, replacing the keyword with the type you would like to use. Here's an example within an image:
-![image](https://github.com/zaphosting/docs/assets/42719082/ca61cfc9-259d-4a21-81fd-5e777b102762)
+The syntax for using each admonition is the same, replacing the keyword with the type you would like to use. Here's an example of usage:
+```
+:::note
+This is a note!
+Replace the above keyword to change the type.
+```
 
 #### Note
 :::note
