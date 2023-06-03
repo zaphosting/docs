@@ -167,9 +167,9 @@ Another useful markdown feature is tables. These can be especially useful when y
 #### Code blocks
 Another very useful markdown formatting tool is code blocks. These are especially useful for guides which involve usage of commands, scripts, termianl output and more. 
 
-To use a code block, simply use ` ``` ` outside of the text block you wish to place into a block. Below is an example of code block usage.
+To use a code block, simply use ` ``` ` outside of the text block you wish to place into a block. You may also state the language next to the first set of triple backquotes to properly format the programming language. For examle below is an example of code block usage using ` ```js ` for JavaScript language.
 
-```
+```js
 function hello(name) {
     console.log(name)
 }
