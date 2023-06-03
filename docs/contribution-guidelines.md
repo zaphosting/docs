@@ -14,18 +14,79 @@ Our contribution guidelines can be split into a few major sections, which are:
 - Terminology
 
 ## Structure
-.
+Our articles within the ZAP Docs follow a relatively consistent structure which walk the reader through the aim of the article in chronological order and with appropirate headings. The sturcture can be altered depending on the type of article that you are writing and is placed under your discretion where it is seen to be more appropriate. The ZAP Docs team will work with you as the writer to ensure that the structure is correct.
+
+Procedural guides that are published should walk the reader step-by-step through the topic at hand so that by the end they accomplish it fully. The structure for this would should be:
+- Page Title (H1 Heading - Set via the `title` metadata at the top of the page)
+- Introduction text
+- Prerequisites (H2 Heading)
+- Step 1 (H2 Heading)
+- Step 2 (H2 Heading)
+- ...
+- Step x (H2 Heading)
+- Conclusion (H2 Heading)
+
+Informative guides that provide information and knowledge should use the following structure:
+- Page Title (H1 Heading - Set via the `title` metadata at the top of the page)
+- Introduction text
+- Main topic 1 (H2 Heading)
+- Main topic 2 (H2 Heading)
+- Optional: Sub-topic 2.1 (H3 Heading)
+- Optional: Sub-topic 2.2 (H3 Heading)
+- ...
+- Main topic x (H2 Heading)
+- Conclusion (H2 Heading)
+
+:::info
+Keep in mind that where it is appropirate, you may use H3 headings to create sub-topics within H2 main topic headings. In the example above, this can be seen within the **Main topic 2** main topic. If you are using subheaders, please ensure that there are two or more headers of the same level within that section, otherwise this would be incorrect usage.
+:::
+
+In the future, we will be adding templates which have pre-prepared Markdown for you which will be a useful starting point for creating new pages. This will be added soon.
+
+### Titles
+When creating the title, try include the goal of your guide. Think carefully about what the reader will accomplish by following your guide. A typical procedural guide will follow a title format of: **How to [Task] using [Software]**. Similarly, a typical informative guide will follow a title format of: **Information on [Guide Info]**.
+
+### Introduction
+Introductions within articles should be relatively short and simply explain what that article aims to teach and the final outcome if it is a procedural guide. Few questions that you should ask yourself:
+- What is your guide about?
+- What should the reader learn from this guide?
+- What will they accomplish by the end?
+
+Answering the questions should help you write up a short and concise introduction for your guide.
+
+### Prerequisites
+The prerequisites section is primarily used for procedural step-by-step guides. The purpose for this is to let the reader know what is required before they being following the tutorial, abit like a checklist before completion.
+
+For example, common prerequisites for guides includes:
+- Software required (e.g. Git, Node.js, Python, Docker)
+- Tutorials that may help the reader get basic knowledge (e.g. Another ZAP Docs page)
+- User Accounts such as for APIs
+- Required settings (e.g. DNS/SSL)
+
+You should provide a bullet-point list of these prerequisities under the section heading.
+
+### Steps
+The steps section is the part of a prodcedural tutorial where you describe what the readers to have to do and why. Each step should follow the H2 heading. You may mention the step number before describing the step, for example **Step 1 - Setting up the API account** would be an appropriate step heading. After this title, you should briefly and quickly describe what the reader will be doing in this step to provide an overall goal. As previously mentioned, use second person tense (e.g. "You will create") rather than first person.
+
+Between steps, you should aim to create a brief introduction and closing transition statements to let the reader know what they have done so far and what will be happening in the following steps. These transitions provide important context for the reader. Try to avoid repetition and use a rande of terms to avoid reiterating steps.
+
+### Conclusion
+Finally, the conclusion of your guide should summarize what the reader has accomplished throughout the guide. It should also provide any next steps, use cases or features that the reader can take if they wish to further expand on their knowledge or the topic. If there is an existing ZAP docs guide which builds up on the guide, this would be a great place to link it.
 
 ## Style
-The stytle of writing for the ZAP-Hosting docs follows our belief in producing high-quality, practical and easily accessible guides to support a wide range of topics and support readers from any experience level. 
+The style of writing for the ZAP-Hosting docs follows our belief in producing high-quality, practical and easily accessible guides to support a wide range of topics and support readers from any experience level. 
 
 ### Technical & correct
 Our articles aim to be as technically accurate as possible and up-to-date with latest industry information. We expect that articles not only let the user achieve the final goal of learning, building or setting something new up, but to also learn and understand what they have done throughout the article. Every step that you create within a guide as a writer should have a clear purpose and explanation, providing additional options and/or flags where appropirate. You should always keep the reader up to date on what they are doing and why they are doing the actions that are part of the guide.
 
 Writers should always proof-read and test their own guides to ensure that everything is technically correct and works as intended before submitting a pull request. The ZAP-Hosting docs team will read through and test your guide where appropirate to ensure it is consistent and factually correct, or discuss improvements where it is seen that there is a mistake.
 
+:::tip
+We always recommend our writers to place your content throguh a spell check tool to ensure that SPAG is correct before creating a pull request. A useful website for this is: https://languagetool.org/
+:::
+
 ### Practical & useful
-By the time a reader has finished an article, they should have learned, built or set up something from the start to finish. Our guides aim to support readers of any experience therefore your contributions should fully explore the topic at hand to ensure that the reader becomes knowledgeable and/or has achieved something. This means that as a writer, you must cover your topic thoroughly mentioning all details necessary including prerequities. As a writer, you should only send readers to external websites if there is no existing documentation about this on the ZAP Docs or if it is to let the user gather additional details which aren't required for your article, but can be beneficial to build up their technical knowledge.
+By the time a reader has finished an article, they should have learned, built or set up something from the start to finish. Our guides aim to support readers of any experience therefore your contributions should fully explore the topic at hand to ensure that the reader becomes knowledgeable and/or has achieved something. This means that as a writer, you must cover your topic thoroughly mentioning all details necessary including prereqisites. As a writer, you should only send readers to external websites if there is no existing documentation about this on the ZAP Docs or if it is to let the user gather additional details which aren't required for your article, but can be beneficial to build up their technical knowledge. External links should not redirect to competitior documentation.
 
 ### Friendly, formal & comprehensive
 We anticipate our documentation to be forward thinking and friendly to make it approachable by any reader, but at the same time remain formal. Throughout your guide, we aim for the tone of our writing to be acceptable for all readers regardless of experience or existing language boundaries.
