@@ -19,7 +19,7 @@ Use our guidelines page to understand the content and documentation style that w
 
 :::
 
-### What topics are looking for?
+### What topics are we looking for?
 For our contribution program, we look for a wide range of practical and high-quality guides covering products, services and open-source software that is available through ZAP-Hosting or relates to any service that we offer. If you need some ideas or inspiration, check out our pages across our documentation to get a feel for our writing style and the type of content that we publish.
 
 As mentioned in the introduction, all content that is produced must be original in order to comply with copyright laws. Our guides aim to provide high-quality information through a series of steps to ensure that the reader understands what they are doing and how they can do it with an end goal of educating the reader and providing them with the solution.
