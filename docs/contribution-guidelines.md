@@ -11,12 +11,28 @@ Our contribution guidelines can be split into a few major sections, which are:
 - Structure
 - Style
 - Formatting
+- Terminology
 
 ## Structure
 .
 
 ## Style
-.
+The stytle of writing for the ZAP-Hosting docs follows our belief in producing high-quality, practical and easily accessible guides to support a wide range of topics and support readers from any experience level. 
+
+### Technical & correct
+Our articles aim to be as technically accurate as possible and up-to-date with latest industry information. We expect that articles not only let the user achieve the final goal of learning, building or setting something new up, but to also learn and understand what they have done throughout the article. Every step that you create within a guide as a writer should have a clear purpose and explanation, providing additional options and/or flags where appropirate. You should always keep the reader up to date on what they are doing and why they are doing the actions that are part of the guide.
+
+Writers should always proof-read and test their own guides to ensure that everything is technically correct and works as intended before submitting a pull request. The ZAP-Hosting docs team will read through and test your guide where appropirate to ensure it is consistent and factually correct, or discuss improvements where it is seen that there is a mistake.
+
+### Practical & useful
+By the time a reader has finished an article, they should have learned, built or set up something from the start to finish. Our guides aim to support readers of any experience therefore your contributions should fully explore the topic at hand to ensure that the reader becomes knowledgeable and/or has achieved something. This means that as a writer, you must cover your topic thoroughly mentioning all details necessary including prerequities. As a writer, you should only send readers to external websites if there is no existing documentation about this on the ZAP Docs or if it is to let the user gather additional details which aren't required for your article, but can be beneficial to build up their technical knowledge.
+
+### Friendly, formal & comprehensive
+We anticipate our documentation to be forward thinking and friendly to make it approachable by any reader, but at the same time remain formal. Throughout your guide, we aim for the tone of our writing to be acceptable for all readers regardless of experience or existing language boundaries.
+
+As these are guides primarily focus on supporting the reader to educate and allow them to reach an outcome, we expect writers to use second person (e.g. "You need to...") tense rather than first person (e.g. "I think...") in order to keep the reader engaged and keep the focus on them.
+
+Lastly, all writers must follow our code of conduct to ensure that our guides are acceptant of anyone regardless of age, ehtnicity, gender identity, level of experience, nationality, religion, policitcal affiliation, sexual orientation, socioeconomic status or technology choices. You must avoid any potentially offensive language and any other content that has reference to the above mentioned topics.
 
 ## Formatting
 Our documentation is formatted through the Markdown markup language which is widely used and relatively simple to use. Head over to the sections below to understand which we use and how it is used.
@@ -32,7 +48,25 @@ If you are using subheaders (e.g. H3 headers below main H2 headers), please ensu
 
 Here is an quick example on how to use headers:
 
-![image](https://github.com/zaphosting/docs/assets/42719082/b17f86f3-ae7c-4083-b8e6-a520e1c1cd84)
+```
+## Setting up mods
+H2 main section header
+
+### Downloading the mods
+H3 subheader
+
+#### Through Steam Workshop
+H4 subheader
+
+#### Manually via SteamCMD
+H4 subheader
+
+### Preparing the correct structure
+H3 subheader
+
+### Installing the mods to your server
+H3 subheader
+```
 
 ### In-line markdown
 We use a range of in-line formatting to improve readability of our guides and suit a readers with a wide range of technical skills. Read through the section below to understand the usage for each.
@@ -117,3 +151,6 @@ Is there something in your guide that the user should be warned and cautious abo
 :::danger
 You should use the danger admonition where crucial information needs highlighting. In particular, this should be used to make the user aware of known bugs or deprecated features.
 :::
+
+## Terminology
+.
