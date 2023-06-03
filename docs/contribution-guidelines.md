@@ -98,6 +98,10 @@ Lastly, all writers must follow our code of conduct to ensure that our guides ar
 ## Formatting
 Our documentation is formatted through the Markdown markup language which is widely used and relatively simple to use. Head over to the sections below to understand which we use and how it is used.
 
+:::tip
+For more examples and extensive explanations of Markdown features, head over to https://www.markdownguide.org/cheat-sheet/ which provides further information.
+:::
+
 ### Headers
 Headers are one of the most important formatting options used to separate the pages in a comprehensive and logical manner. The main title consists of the H1 header, however you shouldn't ever have to use this in-text, instead you should use the `title:` metadata at the top of the guide file which is responsible for this. 
 
