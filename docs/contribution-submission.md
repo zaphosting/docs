@@ -24,7 +24,7 @@ As mentioned in the introduction, all content that is produced must be original 
 
 ### Submitting suggestion
 
-Now that you are are confident that your suggestion is appropirate for our documentation, please head over to our [GitHub repository](https://github.com/zaphosting/docs) and open a issue using the "Contribution Suggestion" template. Please follow the template that is provided and ensure that you fill in all necessary details. Once you have submitted, we aim to get back to you within a few days.
+Now that you are are confident that your suggestion is appropirate for our documentation, please head over to our [ZAP Docs GitHub repository](https://github.com/zaphosting/docs) and open a issue using the "Contribution Suggestion" template. Please follow the template that is provided and ensure that you fill in all necessary details. Once you have submitted, we aim to get back to you within a few days.
 
 Once we approve your suggestion, your change will qualify for the contribution program and we will send you a contract to sign which will let us publish your work! Otherwise if there is an issue, we will follow up with you and let you know any proposed changes that we would like in order to accept your suggestion.
 
@@ -35,7 +35,10 @@ When performing any contribution to your documentation, please keep in mind to f
 Ensure that you have suggested your content and that it has been approved before attempting to produce changes, otherwise we cannot guarantee a reward because the idea has not been approved.
 :::
 
-The first step is to create your own fork of the ZAP-Hosting documentaiton repository from GitHub. You can do this by heading over to the [GitHub repository](https://github.com/zaphosting/docs) and pressing the **Fork** button at the top of the page. You should name the repository based on the suggestion that was accepted and tick the `Copy the master branch only` text. Next, press the create button and await a few seconds until it has successfully forked. 
+**Prerequisites:**
+- [GitHub Account](https://github.com/)
+
+The first step is to create your own fork of the ZAP-Hosting documentaiton repository from GitHub. You can do this by heading over to the [ZAP Docs GitHub repository](https://github.com/zaphosting/docs) and pressing the **Fork** button at the top of the page. You should name the repository based on the suggestion that was accepted and tick the `Copy the master branch only` text. Next, press the create button and await a few seconds until it has successfully forked. 
 
 Now you can head over to the next section to create or edit content. For more advanced users, creating locally may make more sense as you can test it easily and on-the-go
 
@@ -43,7 +46,6 @@ Now you can head over to the next section to create or edit content. For more ad
 The recommended way to **create new content** is to do so through locally via an editor such as Visual Studio Code. In this section, we will show you how to create a new guide locally through an editor.
 
 **Prerequisites:**
-- [GitHub Account](https://github.com/)
 - IDE of choice, in this example we will use [Visual Studio Code](https://code.visualstudio.com/)
 - [GitHub Desktop](https://desktop.github.com/)
 
@@ -83,9 +85,6 @@ Once you are finished with the changes to your new guide, the last step of the e
 
 ### Editing via GitHub website
 The easiest and recommended way to **edit existing content** is doing so through the GitHub website. In this section, we will show you how to edit existing guides through the GitHub website.
-
-**Prerequisites:**
-- [GitHub Account](https://github.com/)
 
 To begin, head over to the Fork that you have created in the previous step. Once you are on your ZAP Docs fork, you can access all of the documentation guides through the **docs** folder. 
 
@@ -142,7 +141,7 @@ Once you are satisfied with your changes, you may now head over to the next sect
 ### Submitting Content
 Once you have done your necessary contributions which you believe follow our guidelines closely and is of the highest standard, you may create a Pull Request. You can do this by heading over to your own fork of the ZAP Docs repository, pressing the **Contribute** text found below the primary buttons and opening a pull request.
 
-A new page will open up where you can view the changes that you have produced. Please set an appropriate title which explains what has been done. Within the description, please ensure that you mention/link your suggestion by using `#000` alongside the id of the suggestion. If you can't find it via the menu, you can quickly head over to the main [GitHub repository](https://github.com/zaphosting/docs), enter the issues section and look for your suggestion alongside the id number it has.
+A new page will open up where you can view the changes that you have produced. Please set an appropriate title which explains what has been done. Within the description, please ensure that you mention/link your suggestion by using `#000` alongside the id of the suggestion. If you can't find it via the menu, you can quickly head over to the main [ZAP Docs GitHub repository](https://github.com/zaphosting/docs), enter the issues section and look for your suggestion alongside the id number it has.
 
 Once you have populated the title, description and ensured that the changes are correct, you may create your pull request via the button.
 
