@@ -7,7 +7,7 @@ sidebar_label: Submission Process
 
 Learn more about the process for contributing to our documentation on this page, following in chronological order.
 
-### Registering for the program [TBD]
+### Registering for the program
 The first part of the process is ensuring that you have linked up your GitHub account. Head over to the zap-hosting.com website and login to your account. Next, head over into your settings and to the connections section, where you can link your GitHub account with your ZAP-Hosting account. You may now continue to suggest your contribution idea knowing that you are part of the contribution program.
 
 ## Suggesting Content

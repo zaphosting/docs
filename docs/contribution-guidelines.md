@@ -103,7 +103,7 @@ For more examples and extensive explanations of Markdown features, head over to 
 :::
 
 ### Headers
-Headers are one of the most important formatting options used to separate the pages in a comprehensive and logical manner. The main title consists of the H1 header, however you shouldn't ever have to use this in-text, instead you should use the `title:` metadata at the top of the guide file which is responsible for this. 
+Headers are one of the most important formatting options used to separate the pages in a comprehensive and logical manner. The main title consists of the H1 header, however you shouldn't ever have to use this in-text, instead you should use the `title` metadata at the top of the guide file which is responsible for this. 
 
 Across our guides, H2 headers should be used to split the guide into it's main sections. Follwing this, H3 headers should be used to split the main sections into sub-sections. Examples of where this may be appropirate is splitting a main section into multiple steps to make following along the guide easier. Lastly, there is also a H4 tag which is more rarely used within our documentation but serves the same purpose of splitting into sub-sections, but it won't specifically display in the guide structure.
 
@@ -218,4 +218,19 @@ You should use the danger admonition where crucial information needs highlightin
 :::
 
 ## Terminology
-.
+Throughout our documentation, there will be a wide range of key terminology that is used. In this section, we aim to standarise some of the terminology that is likely to be commonly used.
+
+### ZAP-Hosting products
+When referencing a ZAP-Hosting product, you should always ensure that the correct name, spelling and capitalisation is used. You can check this by heading over to [zap-hosting.com](the ZAP-Hosting website) and checking how the product is referenced on the relevent product site.
+
+### User-defined attributes
+Throughout most guides, configuration options for items such as users, hostnames, domains, IP addresses and URLs will be needed, where the reader will have to use their own details in place of our placeholders.
+
+By default, you should always use `your_attribute` to differentiate between static elements and unique elements, where `attribute` should be replaced by the type of attribute. For example, when mentioning an IP, you should state `your_server_ip` within your guide or when mentioning a URL you should state `http://your_server_ip:30120`. This clearly differentiates the attributes which the reader must change based on their own configuration. You should also provide an explanation or note letting the reader know what attributes they need to change throughout the guide when it is first mentioned to ensure that everything is understood.
+
+You should use `zaphosting` as the default hostname, username or database name.
+
+### Software
+When mentioning software within your guides, you should ensure that you follow the correct spelling and capitalisation for the name of the software. If the software website isn't consistent with their captilisation, ensure that you follow the same capitalisation within a single article to maintain consistency.
+
+You should hyperlink to the software's website when first mentioning the software, and where an official website is available.
