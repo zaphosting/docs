@@ -37,14 +37,53 @@ Ensure that you have suggested your content and that it has been approved before
 
 The first step is to create your own fork of the ZAP-Hosting documentaiton repository from GitHub. You can do this by heading over to the [GitHub repository](https://github.com/zaphosting/docs) and pressing the **Fork** button at the top of the page. You should name the repository based on the suggestion that was accepted and tick the `Copy the master branch only` text. Next, press the create button and await a few seconds until it has successfully forked. 
 
-Now you can head over to the next section based on what your accepted suggestion involved (creating or modifying content).
+Now you can head over to the next section to create or edit content. For more advanced users, creating locally may make more sense as you can test it easily and on-the-go
 
-### Creating New content
-.
+### Creating locally via editor
+The recommended way to **create new content** is to do so through locally via an editor such as Visual Studio Code. In this section, we will show you how to create a new guide locally through an editor.
 
+**Prerequisites:**
+- IDE of choice, in this example we will use [Visual Studio Code](https://code.visualstudio.com/)
+- [GitHub Desktop](https://desktop.github.com/)
 
-### Modifying Existing content
-The easiest and recommended way to edit existing content is doing so through the GitHub website. To begin, head over to the Fork that you have created in the previous step. Once you are on your ZAP Docs fork, you can access all of the documentation guides through the **docs** folder. 
+The first part of the process is to clone your fork repository. The simpler and a more user-friendly way of doing this is through GitHub Desktop by selecting **Add**, followed by **Clone repository** and choosing your fork repository. You may also do this directly through the Visual Studio Code application.
+
+Next, open up the repository folder within Visual Studio Code. On the **Explorer** left tab you should see all of the folders within the repository. We will focus on creating a new page. 
+
+The first step is determining the correct name for your new guide file. The documentation files are named in a simple convention, where the first word refers to the type of guide, typically a game, product or section and any following words refering to the specific section. We recommend looking at the current website to find the correct place which your suggested guide will fit into.
+
+In this case, we suggested in our issue that we want to create a new guide about the game Rust containing a range of useful commands. From the website, we can see that there is already an existing **Rust** section under gameservers, so we can check within the **docs** folder in our IDE to find the correct naming convention. This means that the file name of the guide will be `rust-commands.md`. Create this file within the **docs** folder.
+
+The next part involves placing the top file metadata. The easiest way of doing this, is by heading over to another file, for example `rust-plugins.md`, and copy and pasting the top metadata tags into your new file. You should edit the `id` tag to match the name of your file, in this case `rust-commands` and edit the other metadata based on your accepted suggestion for the new guide.
+
+The file should now begin with (following the example):
+```
+---
+id: rust-commands
+title: Admin Commands
+description: Information on Admin commands for Rust from ZAP-Hosting - ZAP-Hosting.com documentation
+sidebar_label: Admin Commands
+---
+```
+
+The final step for ensuring that your newly created page shows up on the sidebar, is to add it to the `sidebar.js` file into the correct place. Since the **Rust** section already exists, we can find it using `CTRL+F` and searching for rust. Under the last item, you should create a new line and enter the name of your file, in this example it will be `rust-comamnds`.
+
+:::note
+Ensure that you add a comma (`,`) on the line before your new file so that the syntax is correct. 
+:::
+
+Now head back to your new guide file. You can use `CTRL+SHIFT+V` or press the preview icon in the top right of the editor to split view the IDE which will let you see your Markdown changes live. Your new guide file is now ready to go, and you may begin writing and creating your content within it.
+
+:::tip
+We highly suggest that you also read the **Testing build locally** section, as you can pair this section with testing locally to create an optimal workflow where changes are updated on your local build on-the-go which is proven to be very useful.
+:::
+
+Once you are finished with the changes to your new guide, the last step of the entire process is to push a commit to your fork repository and submit a Pull Request. You can create a commit through the GitHub Desktop by adding an appropriate title and descrption and pushing via the top button. Likewise, you can do this directly through Visual Studio Code if you prefer. You may now head over to the **Submit Content** section to create a Pull Request to submit the content to the main documentation repository.
+
+### Editing via GitHub website
+The easiest and recommended way to **edit existing content** is doing so through the GitHub website. In this section, we will show you how to edit existing guides through the GitHub website.
+
+To begin, head over to the Fork that you have created in the previous step. Once you are on your ZAP Docs fork, you can access all of the documentation guides through the **docs** folder. 
 
 The documentation files are named in a simple convention, where the first word refers to the type of guide, typically a game, product or section and any following words refering to the specific section. For example `dedicated-windows.md` refers to the Dedicated Server section, and specifically for the Windows OS.
 
@@ -60,10 +99,14 @@ Please keep in mind that some docusaurus-specific elements such as admonitions m
 
 Please refer to the [ZAP Documentation Guidelines](contribution.guidelines) for everything regarding Markdown, structure, terminology and more.
 
-Once you have performed your changes, use the **Commit changes...** button which will display a prompt. Enter a useful commit message which explains what you have done and an extended description where appropriate. Finally, commit the changes. This will commit it to your fork of the docs. You may now head over to the next section to create a Pull Request to submit the content to the main documentation repository.
+Once you have performed your changes, use the **Commit changes...** button which will display a prompt. Enter a useful commit message which explains what you have done and an extended description where appropriate. Finally, commit the changes. This will commit it to your fork of the docs. You may now head over to the **Submit Content** section to create a Pull Request to submit the content to the main documentation repository.
 
-### Testing changes locally
+### Testing build locally
 Before creating the final Pull Request, it is a best practise to locally build and test out the documentatiton to ensure everything is working correctly with the changes that you have made. We highly recommend that you test your changes locally to ensure that your Pull Request is processes swiftly.
+
+:::note
+If you followed the tutorial to create changes locally, you can skip the first step involving cloning your repository as you should already have it.
+:::
 
 **Prerequisites:**
 - [Node.js v16.14 or above](https://nodejs.org/en)
@@ -92,7 +135,7 @@ Once this is complete, a local version of the website should automatically open 
 
 Once you are satisfied with your changes, you may now head over to the next section to create a Pull Request to submit the content to the main documentation repository.
 
-### Finally, how do I submit content?
+### Submitting Content
 Once you have done your necessary contributions which you believe follow our guidelines closely and is of the highest standard, you may create a Pull Request. You can do this by heading over to your own fork of the ZAP Docs repository, pressing the **Contribute** text found below the primary buttons and opening a pull request.
 
 A new page will open up where you can view the changes that you have produced. Please set an appropriate title which explains what has been done. Within the description, please ensure that you mention/link your suggestion by using `#000` alongside the id of the suggestion. If you can't find it via the menu, you can quickly head over to the main [GitHub repository](https://github.com/zaphosting/docs), enter the issues section and look for your suggestion alongside the id number it has.
