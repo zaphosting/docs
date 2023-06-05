@@ -221,7 +221,7 @@ You should use the danger admonition where crucial information needs highlightin
 Throughout our documentation, there will be a wide range of key terminology that is used. In this section, we aim to standarise some of the terminology that is likely to be commonly used.
 
 ### ZAP-Hosting products
-When referencing a ZAP-Hosting product, you should always ensure that the correct name, spelling and capitalisation is used. You can check this by heading over to [zap-hosting.com](the ZAP-Hosting website) and checking how the product is referenced on the relevent product site.
+When referencing a ZAP-Hosting product, you should always ensure that the correct name, spelling and capitalisation is used. You can check this by heading over to [the ZAP-Hosting website](https://zap-hosting.com) and checking how the product is referenced on the relevent product site.
 
 ### User-defined attributes
 Throughout most guides, configuration options for items such as users, hostnames, domains, IP addresses and URLs will be needed, where the reader will have to use their own details in place of our placeholders.
