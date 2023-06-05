@@ -43,6 +43,7 @@ Now you can head over to the next section to create or edit content. For more ad
 The recommended way to **create new content** is to do so through locally via an editor such as Visual Studio Code. In this section, we will show you how to create a new guide locally through an editor.
 
 **Prerequisites:**
+- [GitHub Account](https://github.com/)
 - IDE of choice, in this example we will use [Visual Studio Code](https://code.visualstudio.com/)
 - [GitHub Desktop](https://desktop.github.com/)
 
@@ -82,6 +83,9 @@ Once you are finished with the changes to your new guide, the last step of the e
 
 ### Editing via GitHub website
 The easiest and recommended way to **edit existing content** is doing so through the GitHub website. In this section, we will show you how to edit existing guides through the GitHub website.
+
+**Prerequisites:**
+- [GitHub Account](https://github.com/)
 
 To begin, head over to the Fork that you have created in the previous step. Once you are on your ZAP Docs fork, you can access all of the documentation guides through the **docs** folder. 
 
