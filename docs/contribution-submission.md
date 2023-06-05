@@ -62,6 +62,36 @@ Please refer to the [ZAP Documentation Guidelines](contribution.guidelines) for 
 
 Once you have performed your changes, use the **Commit changes...** button which will display a prompt. Enter a useful commit message which explains what you have done and an extended description where appropriate. Finally, commit the changes. This will commit it to your fork of the docs. You may now head over to the next section to create a Pull Request to submit the content to the main documentation repository.
 
+### Testing changes locally
+Before creating the final Pull Request, it is a best practise to locally build and test out the documentatiton to ensure everything is working correctly with the changes that you have made. We highly recommend that you test your changes locally to ensure that your Pull Request is processes swiftly.
+
+**Prerequisites:**
+- [Node.js v16.14 or above](https://nodejs.org/en)
+- [GitHub Desktop](https://desktop.github.com/) or [Git](https://git-scm.com/)
+
+The first part of the process is to clone your fork repository. The simpler and a more user-friendly way of doing this is through GitHub Desktop by selecting **Add**, followed by **Clone repository** and choosing your fork repository. 
+
+Likewise, you can use Git to achieve this. Create a new folder, in this case we will use `Docs Test`, enter the folder and Git Bash (right click and press Git Bash on Windows). Head over to GitHub and take note of the URL of your fork. Next run the following command replacing `your_url` with the URL of your fork:
+```
+git clone your_url
+```
+
+Now you should have the repository cloned to your local machine regardless of which method you have used. The next step involves downloading all of the required modules. Simply head over to the folder you used for your repository, right click and open a cmd terminal (or you can use the git window). Run the following command which will download all of the modules:
+```
+npm install
+```
+
+This may take some time, but once complete it should create a `node_modules` folder within your repo folder. If you receive any errors, it is likely that you haven't installed the Node.js prerequisite.
+
+The final step is running the documentation site locally. Use the following command to build the docs website:
+```
+npm start
+```
+
+Once this is complete, a local version of the website should automatically open in your default browser on the `3000` port. This local version is exactly how the documentation will look like during production and here you can test out anything you wish!
+
+Once you are satisfied with your changes, you may now head over to the next section to create a Pull Request to submit the content to the main documentation repository.
+
 ### Finally, how do I submit content?
 Once you have done your necessary contributions which you believe follow our guidelines closely and is of the highest standard, you may create a Pull Request. You can do this by heading over to your own fork of the ZAP Docs repository, pressing the **Contribute** text found below the primary buttons and opening a pull request.
 
