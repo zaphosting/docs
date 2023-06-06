@@ -1,0 +1,47 @@
+name: 💡 ZAP-Docs Contribution Suggestion
+description: Provide information about your proposed changes to the docs.
+labels: [contribution suggestion]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        # Contribution Suggestion
+        Thank you for your interest in our ZAP-Docs contribution program. 
+
+        Please take a look at our [Contribution Section](https://zap-hosting.com/guides/docs/firststeps-register/) on our documentation site to ensure that you fully understand the process, guidelines and potential rewards. 
+
+        Once you are ready, please fill out this template with as much detail as possible to begin the first step of the contribution process.
+  - type: textarea
+    attributes:
+      label: What topic does your proposed suggestion relate to?
+      description: e.g. Linux system administration, docker setup etc.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: How do you aim to structure your proposed change?
+      description: Please provide headings/steps that you plan to use.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Could you briefly summarise the contents you plan to write about to ensure you have the appropriate technical knowledge?
+      description: This could be noted down in bullet points if you wish.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Do you have any previous experience in writing and publishing articles? If yes, could you provide a link.
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: Additional Information
+      description: Please add any other context or screenshots about your suggestion below.
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        ## Submission Acknowledgement
+        * [ ] By ticking the button, you agree that you have read our contribution section on our documentation and fully understand the guidelines and conditions that exist. You also agree that your idea is original and isn't a duplicate of an already-existing page on our documentation.
