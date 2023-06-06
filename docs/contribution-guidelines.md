@@ -249,7 +249,7 @@ You should use the danger admonition where crucial information needs highlightin
 
 ## Terminology
 
-Throughout our documentation, there will be a wide range of key terminology that is used. In this section, we aim to standardise some of the terminology that is likely to be commonly used.
+Throughout our documentation, there will be a wide range of key terminology that is used. Across the documentation, we expect you to use US English localised spelling to ensure consistency across all of our articles. In this section, we aim to standardise some of the terminology that is likely to be commonly used.
 
 ### ZAP-Hosting products
 
