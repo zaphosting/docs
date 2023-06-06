@@ -1,7 +1,7 @@
 ---
 id: account-donations
 title: Spenden - Server gemeinsam finanzieren
-description: Anleitung, wie du über die Spendenfunktion einen Server bei ZAP-Hosting zusammen mit Freunden finanzieren kannst - ZAP-Hosting.com Dokumentationen
+description: Anleitung, wie du über die Spendenfunktion einen Server bei ZAP-Hosting zusammen mit Freunden finanzieren kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Spendenlink
 ---
 

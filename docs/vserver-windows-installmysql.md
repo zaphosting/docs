@@ -1,13 +1,13 @@
 ---
 id: vserver-windows-installmysql
-title: VPS Installing MySQL Server on Windows Server
+title: Installation of MySQL
 description: Information on how to install and set up a MySQL server on your Windows server from ZAP-Hosting - ZAP-Hosting.com documentation
-sidebar_label: MySQL Server Installation
+sidebar_label: Install MySQL
 ---
 
 ## MySQL Server on Windows
 
-A MySQL server is needed for various applications and can contain important data for example for a game server or a website. In the following we explain how to set up your own MySQL database server on your Windows VPS or Rootserver.
+A MySQL server is needed for various applications and can contain important data for example for a game server or a website. In the following we explain how to set up your own MySQL database server on your Windows VPS or Root server.
 
 
 

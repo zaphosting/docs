@@ -1,7 +1,7 @@
 ---
 id: voiceserver-query
 title: Query Login einrichten
-description: Informationen, wie du einen TS Query Login für deinen Teamspeak Server von ZAP-Hosting einrichten kannst - ZAP-Hosting.com Dokumentationen
+description: Informationen, wie du einen TS Query Login für deinen Teamspeak Server von ZAP-Hosting einrichten kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Teamspeak Query Login
 ---
 
@@ -9,7 +9,7 @@ sidebar_label: Teamspeak Query Login
 
 ### Selbst gehosteter Teamspeak-Server
 
-Wenn der Teamspeak Server auf dem eigenen vServer oder Root Server über unser Webinterface gehostet wird, kann der normale "Server Admin Query" Login genutzt werden. 
+Wenn der Teamspeak Server auf dem eigenen vServer oder Rootserver über unser Webinterface gehostet wird, kann der normale "Server Admin Query" Login genutzt werden. 
 Die Login Daten sind bei der Teamspeak Instanz im Webinterface verfügbar. 
 
 ### Gemieteter Teamspeak Server von ZAP-Hosting

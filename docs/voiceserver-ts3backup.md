@@ -23,8 +23,8 @@ Then you go to **Create a snapshot**. Below you will see all your snapshots and 
 ![image](https://user-images.githubusercontent.com/13604413/159177311-8b87f8d4-b8ed-41dd-9a77-ca84886da311.png)
 
 </TabItem>
-<TabItem value="v/Rootserver" label="v/Rootserver">
-To make a backup of your Ts3 server, which is installed on your v/Rootserver, you have to download the program Yatqa. **https://yat.qa/**
+<TabItem value="v/Root server" label="v/Root server">
+To make a backup of your Ts3 server, which is installed on your v/Root server, you have to download the program Yatqa. **https://yat.qa/**
 
 Then you call up your Ts3 instance and log in to Yatqa with the data: 
 

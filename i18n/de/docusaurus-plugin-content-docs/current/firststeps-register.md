@@ -1,7 +1,7 @@
 ---
 id: firststeps-register
 title: Registration
-description: Informationen zur Registrierung eines Nutzeraccounts bei ZAP-Hosting - ZAP-Hosting.com Dokumentationen
+description: Informationen zur Registrierung eines Nutzeraccounts bei ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Registrieren
 ---
 

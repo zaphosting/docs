@@ -1,8 +1,8 @@
 ---
 id: vserver-linux-jitsi
-title: Jitsi Meet auf Server installieren
-description: Informationen, wie du die Videokonferenzsoftware Jitsi Meet auf deinen vServer von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentationen
-sidebar_label: Jitsi Meet
+title: Installation von Jitsi Meet 
+description: Informationen, wie du die Videokonferenzsoftware Jitsi Meet auf deinen vServer von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentation
+sidebar_label: Jitsi Meet installieren
 ---
 
 ## Was ist Jitsi Meet?

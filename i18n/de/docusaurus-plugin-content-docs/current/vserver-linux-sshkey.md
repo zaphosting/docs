@@ -1,7 +1,7 @@
 ---
 id: vserver-linux-sshkey
 title: SSH Key für Linux Server generieren und verwenden
-description: Informationen wie du einen SSH Key für deinen Linux vServer von ZAP-Hosting generieren kannst und wie du den Key verwendest - ZAP-Hosting.com Dokumentationen
+description: Informationen wie du einen SSH Key für deinen Linux vServer von ZAP-Hosting generieren kannst und wie du den Key verwendest - ZAP-Hosting.com Dokumentation
 sidebar_label: SSH Key
 ---
 

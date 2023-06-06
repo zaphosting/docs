@@ -15,7 +15,7 @@ In case of startup or network problems you still have the possibility to access 
 
 
 ## Use of VNC
-The VNC web client can be found in the vServer / Rootserver dashboard. To do this, click on the serial console option in the tools section of the administration and then open the VNC connection via the **Start VNC tunnel** button. 
+The VNC web client can be found in the VPS / Root server dashboard. To do this, click on the serial console option in the tools section of the administration and then open the VNC connection via the **Start VNC tunnel** button. 
 
 ![image](https://user-images.githubusercontent.com/13604413/159184892-dd8a52a0-8d0c-4edc-aec0-7388cc9c489f.png)
 
@@ -23,7 +23,7 @@ The VNC web client can be found in the vServer / Rootserver dashboard. To do thi
 
 Afterwards the web client of the VNC console will open. Here you have the possibility to view the information that the server provides for the current time. This can for example be the startup process, login screen or the GUI of the operating system.
 
-The following example shows a Windows vServer / Rootserver. This server has been successfully booted, so the VNC console shows the login screen at this state. You can log in here as well, even if the server has no active internet connection. Click on the "Send CtrlAltDel" button and log in with your username and password.
+The following example shows a Windows VPS / Root server. This server has been successfully booted, so the VNC console shows the login screen at this state. You can log in here as well, even if the server has no active internet connection. Click on the "Send CtrlAltDel" button and log in with your username and password.
 
 
 

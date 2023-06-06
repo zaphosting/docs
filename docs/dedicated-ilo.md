@@ -1,7 +1,7 @@
 ---
 id: dedicated-ilo
 title: iLO
-description: Information, about ILO administration for your Dedicated Server from ZAP-Hosting - ZAP-Hosting.com Documentation
+description: Information, about ILO administration for your Dedicated Server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: iLO
 ---
 

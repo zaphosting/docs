@@ -1,8 +1,8 @@
 ---
 id: ragemp-installpackages
-title: Pakete auf Server installieren
-description: Informationen, wie du Pakete auf deinen RageMP-Server von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentationen
-sidebar_label: Pakete Installieren
+title: Installation von Paketen
+description: Informationen, wie du Pakete auf deinen RageMP-Server von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentation
+sidebar_label: Pakete installieren
 ---
 
 ## Mit FTP verbinden

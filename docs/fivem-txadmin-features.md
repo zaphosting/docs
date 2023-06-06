@@ -1,7 +1,7 @@
 ---
 id: fivem-txadmin-features
 title: txAdmin Interface
-description: Overview of TxAdmin interface configuration options for FiveM game servers from ZAP-Hosting - ZAP-Hosting.com Documentation
+description: Overview of TxAdmin interface configuration options for FiveM game servers from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: txAdmin Interface
 ---
 

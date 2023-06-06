@@ -1,7 +1,7 @@
 ---
 id: source-metamod-addadmins
 title: Source Spiele Server-Admin werden
-description: Informationen, wie du dich zum Admin auf deinem Source Gameserver von ZAP-Hosting machen kannst - ZAP-Hosting.com Dokumentationen
+description: Informationen, wie du dich zum Admin auf deinem Source Gameserver von ZAP-Hosting machen kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Admin werden
 ---
 

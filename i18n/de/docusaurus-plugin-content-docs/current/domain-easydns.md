@@ -1,7 +1,7 @@
 ---
 id: domain-easydns
 title: EasyDNS
-description: Informationen zu den EasyDNS Domaineinstellungen bei ZAP-Hosting - ZAP-Hosting.com Dokumentationen
+description: Informationen zu den EasyDNS Domaineinstellungen bei ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: EasyDNS
 ---
 

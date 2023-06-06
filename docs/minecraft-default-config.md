@@ -29,7 +29,7 @@ With this it can be determined up to which height (Y-coordinate) can be built or
 
 ### server-ip
 
-If you have booked multiple IPs for your root or vServer, you can specify here which IP should be used. If you only have a single IP, this value can simply remain free - the same applies to a game server.
+If you have booked multiple IPs for your root or VPS, you can specify here which IP should be used. If you only have a single IP, this value can simply remain free - the same applies to a game server.
 
 ### level-seed
 

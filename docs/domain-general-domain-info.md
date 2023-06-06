@@ -22,6 +22,6 @@ Hierbei ist **server** deine Subdomain und **fivem-server.de** der Name der eige
 
 ### Domain's und IP Adressen
 
-Im Gegensatz zu einer IP-Adresse musst du eine Domain einzeln mieten, diese ist bei einem Gameserver, Rootserver, vServer oder Voiceserver **NICHT** automatisch dabei. Eine Domain unterscheidet sich bereits im Aussehen von einer IP-Adresse. Während eine IP-Adresse aus Zahlen besteht, zum Beispiel **140.82.118.3**, hat eine Domain einen richtigen Namen und eine entsprechende Domainendung, zum Beispiel fivem.net. Hierbei wäre **fivem** der Name der Domain und **.net** die Domainendung. Neben **.net** gibt es natürlich noch viele weitere Domainendungen wie **.com** oder **.de**.
+Im Gegensatz zu einer IP-Adresse musst du eine Domain einzeln mieten, diese ist bei einem Gameserver, Root server, VPS oder Voiceserver **NICHT** automatisch dabei. Eine Domain unterscheidet sich bereits im Aussehen von einer IP-Adresse. Während eine IP-Adresse aus Zahlen besteht, zum Beispiel **140.82.118.3**, hat eine Domain einen richtigen Namen und eine entsprechende Domainendung, zum Beispiel fivem.net. Hierbei wäre **fivem** der Name der Domain und **.net** die Domainendung. Neben **.net** gibt es natürlich noch viele weitere Domainendungen wie **.com** oder **.de**.
 
 Hier erfährst du, wie du eine Domain mieten kannst: [Eine Domain bestellen](domain-general-domain-info.md)

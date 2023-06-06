@@ -1,7 +1,7 @@
 ---
 id: terraria-firststeps-dashboard
 title: Dashboard overview
-description: Information about the dashboard of an Terraria server from ZAP-Hosting - ZAP-Hosting.com Documentation
+description: Information about the dashboard of an Terraria server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Dashboard
 ---
 
@@ -17,7 +17,7 @@ After going through this guide, you will easily be able to manage your server ef
 
 ## Information
 
-In the **Information** section of your navigation panel, you will find a number of sub-items to help you manage your server. These include **Dashboard**, **News**, **Statistics**, **DDoS Manager**, **Log Files**, **Event Log**, **Live Console**, **Service interruptions**, **Frequently Asked Questions** and the **ZAP-Hosting.com Documentation**. In the following you will get a detailed introduction to these different areas.
+In the **Information** section of your navigation panel, you will find a number of sub-items to help you manage your server. These include **Dashboard**, **News**, **Statistics**, **DDoS Manager**, **Log Files**, **Event Log**, **Live Console**, **Service interruptions**, **Frequently Asked Questions** and the **ZAP-Hosting.com documentation**. In the following you will get a detailed introduction to these different areas.
 
 
 

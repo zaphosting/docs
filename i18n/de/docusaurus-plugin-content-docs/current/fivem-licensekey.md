@@ -1,7 +1,7 @@
 ---
 id: fivem-licensekey
 title: Eigenen Lizenzkey (Patreon) zu Server hinzufügen
-description: Informationen, wie du einen eigenen Lizenzkey (von Patreon) für FiveM-Server von ZAP-Hosting erstellst und zu deinem Server hinzufügen kannst - ZAP-Hosting.com Dokumentationen
+description: Informationen, wie du einen eigenen Lizenzkey (von Patreon) für FiveM-Server von ZAP-Hosting erstellst und zu deinem Server hinzufügen kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Eigener Lizenzkey
 ---
 

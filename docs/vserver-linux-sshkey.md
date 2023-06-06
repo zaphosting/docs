@@ -16,7 +16,7 @@ As soon as this is pressed, a popup opens and a randomly generated key is downlo
 In order for the key to be added to the server, the "**Add Key**" button must be clicked. 
 
 :::info
-In the case of Linux vServers, the key is added directly. In the case of Linux Root Servers, the server must be restarted in order for these changes to take effect.
+In the case of Linux VPSs, the key is added directly. In the case of Linux Root Servers, the server must be restarted in order for these changes to take effect.
 :::
 
 ![](https://user-images.githubusercontent.com/61839701/166181285-f3784fb1-a98f-419c-ac96-6bb12769c36d.png)
@@ -76,9 +76,9 @@ You can now log into the server with Putty. The "**Key comment**" entered in PuT
 
 ## Deactivate Login with Password
 
-The SSH keys were created to increase security. If the login with the SSH password is still possible, the security of the server has not yet changed. For this reason, the SSH login must now be deactivated via a password. There is a difference between Linux vServers and Linux root servers in how this login has to be deactivated. If the login for your server has been correctly deactivated, the connection is only possible for users with the SSH key you have created.
+The SSH keys were created to increase security. If the login with the SSH password is still possible, the security of the server has not yet changed. For this reason, the SSH login must now be deactivated via a password. There is a difference between Linux VPSs and Linux root servers in how this login has to be deactivated. If the login for your server has been correctly deactivated, the connection is only possible for users with the SSH key you have created.
 
-### Linux vServer
+### Linux VPS
 
 You can disable the password login in the Access & Secuirty tab easily.
 Push the **Deactive Password Login** button next to the Generate SSH Key Button. 
@@ -89,7 +89,7 @@ Once its deceactivated, its no longer possible to reach the server via password 
 The display for "**SSH login via password**" would then also be set to "**Inactive**".
 
 
-### Linux Rootserver
+### Linux Root server
 
 Unfortunately, this function does not exist with Linux root servers; there it would have to be done manually via SSH. To do this, connect to the server via PuTTY and change the following file with a text editor of your choice. In our example we use "**nano**".
 

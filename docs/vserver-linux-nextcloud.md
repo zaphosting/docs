@@ -1,9 +1,11 @@
 ---
 id: vserver-linux-nextcloud
-title: VPS Install Nextcloud on server
+title: Installation of Nextcloud
 description: Information on how to set up a Nextcloud server on your VPS from ZAP-Hosting - ZAP-Hosting.com documentation
-sidebar_label: Nextcloud
+sidebar_label: Install Nextcloud
 ---
+
+
 
 ## What is Nextcloud?
 
@@ -285,10 +287,6 @@ mysql -u root -p
 CREATE DATABASE nextcloud;
 ```
 
-```sql
-CREATE USER 'nc_user'@'localhost' IDENTIFIED BY 'YOUR_PASSWORD_HERE';
-```
-
 Afterwards a user has to be created, which gets access to the Nextcloud database. 
 
 ```sql
@@ -326,10 +324,6 @@ The next step is to connect to the database server and create the required datab
 ```sql
 mysql -u root -p
 CREATE DATABASE nextcloud;
-```
-
-```sql
-CREATE USER 'nc_user'@'localhost' IDENTIFIED BY 'YOUR_PASSWORD_HERE';
 ```
 
 Afterwards a user has to be created, which gets access to the Nextcloud database. 
@@ -372,14 +366,10 @@ sudo -u postgres psql
 CREATE DATABASE nextcloud;
 ```
 
-```sql
-CREATE USER nextcloud with encrypted password 'YOUR_PASSWORD_HERE';
-```
-
 Afterwards a user has to be created, which gets access to the Nextcloud database. 
 
 ```sql
-CREATE USER 'nc_user'@'localhost' IDENTIFIED BY 'YOUR_PASSWORD_HERE';
+CREATE USER nextcloud with encrypted password 'YOUR_PASSWORD_HERE';
 ```
 
 :::info

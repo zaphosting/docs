@@ -1,7 +1,7 @@
 ---
 id: minecraft-addop
 title: Server OP-Rechte vergeben
-description: Informationen, wie du OP-Rechte für deinen Minecraft-Server von ZAP-Hosting.com vergeben und bearbeiten kannst - ZAP-Hosting.com Dokumentationen
+description: Informationen, wie du OP-Rechte für deinen Minecraft-Server von ZAP-Hosting.com vergeben und bearbeiten kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: OP-Rechte
 ---
 

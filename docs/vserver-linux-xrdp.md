@@ -1,8 +1,8 @@
 ---
 id: vserver-linux-xrdp
-title: Installing xRDP (Remote Desktop) 
-description: Guide to install xRDP (Remote Desktop) on Linux - ZAP-Hosting.com Documentation
-sidebar_label: Linux Remotedesktop (xRDP)
+title: Installation of xRDP (Remote Desktop) 
+description: Guide to install xRDP (Remote Desktop) on Linux - ZAP-Hosting.com documentation
+sidebar_label: Install xRDP
 ---
 
 On Linux, there is usually a default SSH console to manage the server. In some cases it may be easier to use a remote desktop connection, similar to Windows. 

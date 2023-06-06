@@ -1,8 +1,8 @@
 ---
 id: fivem-changeloadingscreen
-title: Install/change loadingscreen for FiveM-Server
-description: Information on how to add/change new loadingscreens on a FiveM server from ZAP-Hosting - ZAP-Hosting.com documentation
-sidebar_label: Loadingscreen installation
+title: Installation of loadingscreen
+description: Information on how to add/change new loadings creens on a FiveM server from ZAP-Hosting - ZAP-Hosting.com documentation
+sidebar_label: Install Loadingscreen
 ---
 
 ## Install a loading screen
@@ -26,5 +26,4 @@ There you enter the following **start loadingscreen** and save it afterwards
 ![image](https://user-images.githubusercontent.com/13604413/159137995-dd0b6acd-6203-4899-96b9-30eb2ace50ba.png)
 
 Now you can start your server and the loadingscreen will show ingame.
-
 

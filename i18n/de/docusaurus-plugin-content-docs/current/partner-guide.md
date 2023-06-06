@@ -1,7 +1,7 @@
 ---
 id: partner-guide
 title: Partner Guide Das Partnerprogramm von ZAP-Hosting
-description: Informationen zum Partnerprogramm von ZAP-Hosting - ZAP-Hosting.com Dokumentationen
+description: Informationen zum Partnerprogramm von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Partner Guide
 ---
 

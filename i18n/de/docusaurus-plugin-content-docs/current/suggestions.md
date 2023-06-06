@@ -1,7 +1,7 @@
 ---
 id: suggestions
 title: Vorschläge einreichen
-description: Informatoinen, wie du Vorschläge für neue Gameserver und Funktionen auf ZAP-Hosting einreichen kannst - ZAP-Hosting.com Dokumentationen
+description: Informatoinen, wie du Vorschläge für neue Gameserver und Funktionen auf ZAP-Hosting einreichen kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Vorschläge einreichen
 ---
 ## Vorschläge einreichen

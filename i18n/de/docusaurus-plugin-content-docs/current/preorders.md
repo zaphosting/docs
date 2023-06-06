@@ -1,7 +1,7 @@
 ---
 id: preorders
 title: Vorbestellungen
-description: Informationen zu Vorbestellungen bei ZAP-Hosting. Was sind Vorbestellungen? Wann werden Server eingerichtet? Können Vorbestellungen zurückgezogen werden? - ZAP-Hosting.com Dokumentationen
+description: Informationen zu Vorbestellungen bei ZAP-Hosting. Was sind Vorbestellungen? Wann werden Server eingerichtet? Können Vorbestellungen zurückgezogen werden? - ZAP-Hosting.com Dokumentation
 sidebar_label: Vorbestellungen
 ---
 ## Erste Schritte - Vorbestellungen

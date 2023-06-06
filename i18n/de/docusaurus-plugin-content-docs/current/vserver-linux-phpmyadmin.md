@@ -1,8 +1,8 @@
 ---
 id: vserver-linux-phpmyadmin
-title: phpMyAdmin auf Linux vServer einrichten
-description: Informationen wie du phpMyAdmin auf deinen Linux vServer von ZAP-Hosting installieren und einrichten kannst - ZAP-Hosting.com Dokumentationen
-sidebar_label: phpMyAdmin
+title: Installation von phpMyAdmin 
+description: Informationen wie du phpMyAdmin auf deinen Linux vServer von ZAP-Hosting installieren und einrichten kannst - ZAP-Hosting.com Dokumentation
+sidebar_label: phpMyAdmin installieren
 ---
 
 >Es wird ein funktionierender MySQL/MariaDB sowie ein Apache2 Server inkl. PHP vorausgesetzt!
@@ -30,6 +30,7 @@ apt install sudo -y
 
 Zuerst wird das Installationsverzeichnis aufgerufen in dem phpMyAdmin installiert werden soll. 
 Das geschieht mit folgendem Befehl: 
+
 ```
 cd /usr/share
 ```

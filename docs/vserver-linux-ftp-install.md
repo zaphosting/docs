@@ -1,8 +1,8 @@
 ---
 id: vserver-linux-ftp-install
-title: FTP server installation and setup
-description: Information on how to install and set up an FTP server on your vServer from ZAP-Hosting - ZAP-Hosting.com documentation
-sidebar_label: FTP Setup
+title: Installation of a FTP server
+description: Information on how to install and set up an FTP server on your VPS from ZAP-Hosting - ZAP-Hosting.com documentation
+sidebar_label: Install FTP server
 ---
 
 ## How do I install the FTP server to add a user? 
