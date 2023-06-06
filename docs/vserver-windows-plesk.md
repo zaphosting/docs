@@ -1,8 +1,8 @@
 ---
 id: vserver-windows-plesk
-title: VPS Installing Plesk on Windows Server
+title: Installation of Plesk 
 description: Information on how to install Plesk on your Windows VPS from ZAP-Hosting - ZAP-Hosting.com documentation
-sidebar_label: Plesk Installation
+sidebar_label: Install Plesk
 ---
 
 ## Establish a connection to the server

@@ -1,6 +1,6 @@
 ---
 id: rust-plugins
-title: Plugins auf Server installieren
+title: Installation von Plugins
 description: Informationen, wie du Plugins auf deinen Rust-Server von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentationen
 sidebar_label: Plugins installieren
 ---

@@ -1,6 +1,6 @@
 ---
 id: vserver-linux-mastodon
-title: Mastodon auf Server installieren
+title: Installation von Mastodon
 description: Informationen, wie du einen Mastodon Server auf deinem vServer von ZAP-Hosting einrichten kannst - ZAP-Hosting.com Dokumentationen
 sidebar_label: Mastodon installieren
 ---

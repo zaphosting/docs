@@ -1,8 +1,8 @@
 ---
 id: vserver-linux-mariadbinstall
-title: VPS Install MariaDB (MySQL) on server
+title: Installation of MariaDB
 descriptin: Information on how to install MariaDB (MySQL) on your VPS from ZAP-Hosting - ZAP-Hosting.com documentation
-sidebar_label: MariaDB (MySQL) Installation
+sidebar_label: Install MariaDB 
 ---
 
 Below you get to know how to install a MariaDB (MySQL) Server on your Linux vServer or Rootserver. For this example Debian 10 is used as operating system, the commands may differ for other Linux distributions. If you don't know how to connect to your server via SSH, have a look here:

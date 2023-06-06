@@ -1,8 +1,8 @@
 ---
 id: vserver-linux-openvpn
-title: VPS Install OpenVPN on server
+title: Installation OpenVPN on server
 description: Information on how to install and set up OpenVPN on your VPS from ZAP-Hosting - ZAP-Hosting.com documentation
-sidebar_label: OpenVPN
+sidebar_label: Install OpenVPN
 ---
 
 # Activate TUN

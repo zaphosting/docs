@@ -1,8 +1,8 @@
 ---
 id: arma3-mods
-title: Mods auf dem eigenen Server installieren
+title: Installation von Mods
 description: Informationen, wie du Mods auf deinem Arma 3-Server von ZAP-Hosting installierst - ZAP-Hosting.com Dokumentationen
-sidebar_label: Mods Installieren
+sidebar_label: Mods installieren
 ---
 
 ## Mit FTP verbinden

@@ -1,9 +1,8 @@
 ---
 id: vserver-linux-webserver
-title: Nginx und Apache Webserver installieren
+title: Installation eines Webservers
 description: Informationen wie du Nginx und Apache Webserver auf deinen Linx vServer von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentationen
 sidebar_label: Webserver installieren
-
 ---
 
 

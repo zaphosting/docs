@@ -1,9 +1,8 @@
 ---
 id: 7d2d-mods
-title: 7 Days to Die Mods auf Server installieren - Gameserver von ZAP-Hosting
+title: Installation von Mods
 description: Anleitung, wie du Mods auf einem 7 Days to Die Gameserver installierst - ZAP-Hosting.com Dokumentationen 
 sidebar_label: Mods installieren
-
 ---
 
 
