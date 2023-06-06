@@ -1,7 +1,7 @@
 ---
 id: gameserver-server-down-what-now
 title: Server down - Was nun?
-description: Informationen, was du tun kannst, wenn dein Gameserver von ZAP-Hosting abgestürzt oder down ist - ZAP-Hosting.com Dokumentationen
+description: Informationen, was du tun kannst, wenn dein Gameserver von ZAP-Hosting abgestürzt oder down ist - ZAP-Hosting.com Dokumentation
 sidebar_label: Server down - Was nun?
 ---
 

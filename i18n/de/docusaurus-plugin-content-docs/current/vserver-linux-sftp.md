@@ -1,7 +1,7 @@
 ---
 id: vserver-linux-sftp
 title: Via SFTP auf Linux Server verbinden
-description: Informationen, wie du dich mit SFTP auf deinen Linux vServer von ZAP-Hosting verbinden kannst - ZAP-Hosting.com Dokumentationen
+description: Informationen, wie du dich mit SFTP auf deinen Linux vServer von ZAP-Hosting verbinden kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: SFTP Verbindung
 ---
 

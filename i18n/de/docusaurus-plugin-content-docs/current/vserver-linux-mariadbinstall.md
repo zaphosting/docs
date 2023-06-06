@@ -1,7 +1,7 @@
 ---
 id: vserver-linux-mariadbinstall
 title: Installation von MariaDB
-descriptin: Informationen, wie du MariaDB (MySQL) auf deinen vServer von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentationen
+descriptin: Informationen, wie du MariaDB (MySQL) auf deinen vServer von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: MariaDB installieren
 ---
 

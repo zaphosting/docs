@@ -1,7 +1,7 @@
 ---
 id: arma3-altislife-ranks
 title: Ränge bei einem Altis Life Server hinzufügen
-description: Informationen, wie du Ränge auf deinem Altis Life-Server von ZAP-Hosting hinzufügen kannst - ZAP-Hosting.com Dokumentationen
+description: Informationen, wie du Ränge auf deinem Altis Life-Server von ZAP-Hosting hinzufügen kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Altis Life Ränge
 ---
 

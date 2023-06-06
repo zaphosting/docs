@@ -1,7 +1,7 @@
 ---
 id: account-community-ads
 title: Community Werbung
-description: Anleitung, wie du mit Community Werbung für ZAP-Hosting.com ZAP-Guthaben verdienen kannst - ZAP-Hosting.com Dokumentationen
+description: Anleitung, wie du mit Community Werbung für ZAP-Hosting.com ZAP-Guthaben verdienen kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Community Werbung
 ---
 

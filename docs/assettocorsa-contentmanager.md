@@ -1,7 +1,7 @@
 ---
 id: assettocorsa-contentmanager
 title: Configure Server with Content Manager
-description: Information on how to configure your Assetto Corsa server from ZAP-Hosting using the Content Manager - ZAP-Hosting.com Documentation
+description: Information on how to configure your Assetto Corsa server from ZAP-Hosting using the Content Manager - ZAP-Hosting.com documentation
 sidebar_label: Configure Server with Content Manager
 ---
 

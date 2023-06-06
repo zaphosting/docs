@@ -1,7 +1,7 @@
 ---
 id: account-partner-system
 title: Partner System - Advantages and conditions of a partnership with ZAP-Hosting
-description: Information on how to apply to become a partner, what the requirements are and what we can offer - ZAP-Hosting.com Documentation
+description: Information on how to apply to become a partner, what the requirements are and what we can offer - ZAP-Hosting.com documentation
 sidebar_label: Partner System
 ---
 

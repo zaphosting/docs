@@ -1,7 +1,7 @@
 ---
 id: redm-installresources
 title: Installation von Resourcen
-description: Informationen, wie du Ressourcen, Mods und Scripts auf deinen RedM-Server von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentationen
+description: Informationen, wie du Ressourcen, Mods und Scripts auf deinen RedM-Server von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Resource installieren
 ---
 

@@ -1,7 +1,7 @@
 ---
 id: fivem-esx-disablehud
 title: HUD deaktivieren/aktivieren
-description: Informationen, wie du das HUD auf deinem FiveM-Server mit ESX von ZAP-Hosting deaktiveren/aktivieren kannst - ZAP-Hosting.com Dokumentationen
+description: Informationen, wie du das HUD auf deinem FiveM-Server mit ESX von ZAP-Hosting deaktiveren/aktivieren kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: HUD deaktivieren
 ---
 

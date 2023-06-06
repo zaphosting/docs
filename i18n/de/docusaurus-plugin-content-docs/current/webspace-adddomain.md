@@ -1,7 +1,7 @@
 ---
 id: webspace-adddomain
 title: Domain hinzufügen
-description: Informationen, wie du eine Domain zu deinem Webspace von ZAP-Hosting hinzufügen kannst - ZAP-Hosting.com Dokumentationen
+description: Informationen, wie du eine Domain zu deinem Webspace von ZAP-Hosting hinzufügen kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Domain Hinzufügen
 ---
 

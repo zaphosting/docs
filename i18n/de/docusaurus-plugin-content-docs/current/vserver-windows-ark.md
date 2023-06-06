@@ -1,7 +1,7 @@
 ---
 id: vserver-windows-ark
 title: ARK Survival Evolved Dedicated Server Setup
-description: Informationen zum Einrichten eines ARK Survival Evolved Dedicated Server auf einem vServer/Rootserver - ZAP-Hosting.com Dokumentationen
+description: Informationen zum Einrichten eines ARK Survival Evolved Dedicated Server auf einem vServer/Rootserver - ZAP-Hosting.com Dokumentation
 sidebar_label: ARK Survival Evolved Dedicated Server Setup
 ---
 

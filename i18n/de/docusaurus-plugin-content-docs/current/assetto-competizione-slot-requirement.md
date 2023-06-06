@@ -1,7 +1,7 @@
 ---
 id: assetto-competizione-slot-requirement
 title: Car Slot Voraussetzungen
-description: Informationen, wie du deine Car Slots erhöhst und korrekt nutzen kannst - ZAP-Hosting.com Dokumentationen
+description: Informationen, wie du deine Car Slots erhöhst und korrekt nutzen kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Car Slot Voraussetzungen
 ---
 

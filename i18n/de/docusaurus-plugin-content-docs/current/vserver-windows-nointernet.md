@@ -1,7 +1,7 @@
 ---
 id: vserver-windows-nointernet
 title: Kein Internetzugang auf Windows Server. Was nun?
-description: Informationen zu Problemlösungen, wenn der Windows vServer von ZAP-Hosting keinen Internetzugang anzeigt - ZAP-Hosting.com Dokumentationen
+description: Informationen zu Problemlösungen, wenn der Windows vServer von ZAP-Hosting keinen Internetzugang anzeigt - ZAP-Hosting.com Dokumentation
 sidebar_label: Kein Internet was nun?
 ---
 

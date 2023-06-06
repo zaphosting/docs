@@ -1,7 +1,7 @@
 ---
 id: community-info
 title: Community Angebote - werde Teil der ZAP-Hosting Community
-description: Informationen zu den verschienden Social-Media-Kanälen von ZAP-Hosting - ZAP-Hosting.com Dokumentationen
+description: Informationen zu den verschienden Social-Media-Kanälen von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Community Angebote
 ---
 

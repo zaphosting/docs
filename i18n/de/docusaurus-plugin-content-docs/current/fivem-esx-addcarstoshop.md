@@ -1,7 +1,7 @@
 ---
 id: fivem-esx-addcarstoshop
 title: Autos zum Shop hinzufügen
-description: Informationen, wie du Fahrzeuge um Shop auf deinen FiveM-Server mit ESX von ZAP-Hosting hinzufügen kannst - ZAP-Hosting.com Dokumentationen
+description: Informationen, wie du Fahrzeuge um Shop auf deinen FiveM-Server mit ESX von ZAP-Hosting hinzufügen kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Autos zum Shop hinzufügen
 ---
 ## Zugriff auf die Datenbank

@@ -1,7 +1,7 @@
 ---
 id: amongus-connection
 title: Verbindung mit dem Server herstellen
-description: Informationen wie du dich mit deinem Impostor - Among Us-Server verbinden kannst - ZAP-Hosting.com Dokumentationen
+description: Informationen wie du dich mit deinem Impostor - Among Us-Server verbinden kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Verbindung zum Server
 ---
 

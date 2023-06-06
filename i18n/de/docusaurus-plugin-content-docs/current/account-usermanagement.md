@@ -1,7 +1,7 @@
 ---
 id: account-usermanagement
 title: Benutzerverwaltung - Server von mehreren Nutzern verwalten lassen
-description: Informationen zur Benutzerverwaltung - Gebe anderen Nutzern ausgewählten Zugriff auf die Verwaltung deines Server - ZAP-Hosting.com Dokumentationen
+description: Informationen zur Benutzerverwaltung - Gebe anderen Nutzern ausgewählten Zugriff auf die Verwaltung deines Server - ZAP-Hosting.com Dokumentation
 sidebar_label: Benutzerverwaltung
 ---
 

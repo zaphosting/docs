@@ -1,7 +1,7 @@
 ---
 id: account-termination-and-cancellation-period
 title: Kündigung und Kündigungsfristen von Vertragsservern
-description: Informationen zu den Kündigungsfristen und wie du einen Vertragsserver bei ZAP-Hosting kündigen kannst - ZAP-Hosting.com Dokumentationen
+description: Informationen zu den Kündigungsfristen und wie du einen Vertragsserver bei ZAP-Hosting kündigen kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Kündigung und Kündigungsfrist
 ---
 

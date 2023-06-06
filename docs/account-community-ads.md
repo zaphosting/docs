@@ -1,7 +1,7 @@
 ---
 id: account-community-ads
 title: Community Advertising
-description: Instructions on how to use Community Advertising to earn ZAP credits for ZAP-Hosting.com - ZAP-Hosting.com Documentation
+description: Instructions on how to use Community Advertising to earn ZAP credits for ZAP-Hosting.com - ZAP-Hosting.com documentation
 sidebar_label: Community ads
 ---
 

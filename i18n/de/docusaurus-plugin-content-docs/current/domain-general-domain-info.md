@@ -1,7 +1,7 @@
 ---
 id: domain-general-domain-info
 title: Was ist eine Domain?
-description: Grundlegende Informationen zu Domains Was sind Domains, Subdomains oder IP Adressen? ZAP-Hosting.com Dokumentationen
+description: Grundlegende Informationen zu Domains Was sind Domains, Subdomains oder IP Adressen? ZAP-Hosting.com Dokumentation
 sidebar_label: Was ist eine Domain?
 ---
 

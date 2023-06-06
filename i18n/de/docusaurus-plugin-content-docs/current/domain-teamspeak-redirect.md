@@ -1,7 +1,7 @@
 ---
 id: domain-teamspeak-redirect
 title: Domain TeamSpeak 3 Weiterleitung einrichten
-description: Informationen wie du eine Weiterleitung von einer Domain auf einen TS-Server bei ZAP-Hosting einrichtest - ZAP-Hosting.com Dokumentationen
+description: Informationen wie du eine Weiterleitung von einer Domain auf einen TS-Server bei ZAP-Hosting einrichtest - ZAP-Hosting.com Dokumentation
 sidebar_label: Domain TeamSpeak 3 Weiterleitung
 ---
 

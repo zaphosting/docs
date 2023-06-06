@@ -1,7 +1,7 @@
 ---
 id: eco-whitelist
 title: Whitelist aktivieren
-description: Informationen wie du eine Whitelist für deinen ECO-Server bei ZAP-Hosting erstellst und verwaltest - ZAP-Hosting.com Dokumentationen
+description: Informationen wie du eine Whitelist für deinen ECO-Server bei ZAP-Hosting erstellst und verwaltest - ZAP-Hosting.com Dokumentation
 sidebar_label: Whitelist
 
 ---
