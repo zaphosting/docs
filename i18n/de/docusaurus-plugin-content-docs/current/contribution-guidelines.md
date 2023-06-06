@@ -295,7 +295,7 @@ Du solltest die Gefahrenwarnung verwenden, wenn wichtige Informationen hervorgeh
 
 ## Terminologie
 
-In unserer Dokumentation wird eine breite Palette von Schlüsselbegriffen verwendet. In diesem Abschnitt versuchen wir, einige der Begrifflichkeiten zu standardisieren, die wahrscheinlich häufig verwendet werden.
+In unserer Dokumentation wird eine breite Palette von Schlüsselbegriffen verwendet. In der gesamten Dokumentation erwarten wir, dass du die US-amerikanische Rechtschreibung verwendest, um die Konsistenz aller unserer Artikel zu gewährleisten. In diesem Abschnitt versuchen wir, einige der Begrifflichkeiten zu standardisieren, die wahrscheinlich häufig verwendet werden.
 
 ### ZAP-Hosting Produkte
 
