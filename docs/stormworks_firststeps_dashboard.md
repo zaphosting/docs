@@ -1,23 +1,24 @@
 ---
-id: fivem-dashboard
-title: Administration via the web interface dashboard
-description: Information about the settings options of FiveM servers from ZAP-Hosting in the Web Interface Dashboard - ZAP-Hosting.com documentation
+id: stormworks_firststeps_connect
+title: Dashboard overview
+description: Information about the dashboard of an Stormworks server from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Dashboard
+
 ---
 
 
 
 ## Introduction
 
-You are interested in an **FIVE: FiveM server** or already own one, but you still lack a comprehensive overview of the administration and the findability of all necessary options? Especially at the beginning, this can be a challenge. But don't worry, we'll provide you with a detailed introduction to the administration of your service below, so you'll have the best possible overview.
+You are interested in an **Stormworks server** or already own one, but you still lack a comprehensive overview of the administration and the findability of all necessary options? Especially at the beginning, this can be a challenge. But don't worry, we'll provide you with a detailed introduction to the administration of your service below, so you'll have the best possible overview.
 
-After going through this guide, you will easily be able to manage your server efficiently and find all the necessary options and features quickly and easily. Here, you will get a structured overview that will help you step by step to get familiar with the server administration and expand your knowledge in a targeted manner. This way, you can ensure that your **FIVE: FiveM server** is optimally adapted to your needs and that you get the most out of the available options.
+After going through this guide, you will easily be able to manage your server efficiently and find all the necessary options and features quickly and easily. Here, you will get a structured overview that will help you step by step to get familiar with the server administration and expand your knowledge in a targeted manner. This way, you can ensure that your **Stormworks server** is optimally adapted to your needs and that you get the most out of the available options.
 
 
 
 ## Information
 
-In the **Information** section of your navigation panel, you will find a number of sub-items to help you manage your server. These include **Dashboard**, **News**, **Statistics**, **DDoS Manager**, **Tebex Shop**, **Log Files**, **Event Log**, **Live Console**, **Service interruptions**, **Frequently Asked Questions** and the **ZAP-Hosting.com Documentation**. In the following you will get a detailed introduction to these different areas.
+In the **Information** section of your navigation panel, you will find a number of sub-items to help you manage your server. These include **Dashboard**, **News**, **Statistics**, **DDoS Manager**, **Log Files**, **Event Log**, **Service interruptions**, **Frequently Asked Questions** and the **ZAP-Hosting.com Documentation**. In the following you will get a detailed introduction to these different areas.
 
 
 
@@ -25,7 +26,7 @@ In the **Information** section of your navigation panel, you will find a number 
 
 The **Dashboard** of your server is the heart of the administration. All basic and essential information about your service is clearly presented here. This includes, for example, information about the location, status, IP: Port, used memory, game in progress, server name, map and the number of available slots. In addition, the utilization of the CPU, memory and RAM is also displayed.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/r5MiCoDZqNTcGXf/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/BF3zKQYEyxA84of/preview)
 
 In the dashboard you also have the option of starting, stopping or restarting your service, to have full control over its operation. Furthermore, you can access the live console to get real-time information about the server's state and take direct action if necessary.
 
@@ -68,20 +69,10 @@ Moreover, you can customize the protection provided that you have booked your ow
 These customization options allow you to adjust the DDoS protection to your individual needs and thus increase the security of your server.
 
 :::info
+
 The use of the DDoS Manager is only possible if either an own IP address or the option "DDoS Manager Overview" has been booked as an additional option. If these components are missing from your current package, you can add them at any time by upgrading.
+
 :::
-
-
-
-### Tebex Shop
-
-With TEBEX you have the possibility to turn your game server into cash by selling virtual goods and ranks for real money. It's a powerful and reliable tool designed specifically for game server administrators who want to offer a better gaming experience to their players.
-
-![img](https://screensaver01.zap-hosting.com/index.php/s/TbwafKd3Kmq4WrS/preview)
-
-TEBEX is easy to use and offers numerous features to customize and optimize your store. You can customize your store layout, add payment options, and even launch marketing campaigns to reach more players.
-
-By clicking on the image, you can create your own game server store with TEBEX. The setup is quick and easy, so you'll be ready to sell your virtual goods in no time.
 
 
 
@@ -92,7 +83,9 @@ Is a technical problem occurring and you are unsure about its cause? A first pos
 Error messages in particular can help to identify and better understand the cause of a problem. Often, difficulties can be uncovered and resolved by taking a targeted look at the log files.
 
 :::info
+
 The information found there does not help or you do not understand it? Don't worry! In this case, we are also daily available in support. Just create a **[Ticket](https://zap-hosting.com/en/customer/support/)** and explain your problem to us. We will look at it as quickly as possible and help you to solve the problem accordingly! :)
+
 :::
 
 
@@ -102,18 +95,6 @@ The information found there does not help or you do not understand it? Don't wor
 The **Event Log** provides you with a comprehensive overview of all activities related to server administration. Here you can track at any time when a server started, stopped or crashed, as well as when updates, backups or new installations were performed.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/xNzsaMbW5BS5KJC/preview)
-
-
-
-### Live Console
-
-The **Live Console** offers you a real-time view of all current events on your server. Here you can see information about the activities of the players as well as possible error messages and system messages. This overview allows you to get a comprehensive view of what is happening on your server and to detect possible problems at an early stage.
-
-![img](https://screensaver01.zap-hosting.com/index.php/s/dktDADkq3bzG3F6/preview)
-
-Additionally to monitoring the events, you can also send commands directly to the server in the **Live Console**. This can be useful to adjust settings, perform certain actions, or respond quickly to problems that arise.
-
-
 
 ### Service Interruptions
 
@@ -139,19 +120,20 @@ We offer extensive documentation for our products, which serves as a knowledge b
 
 We also offer guides for your product. This includes for example the following guides: 
 
-| Guide                 | Page                                                         |
-| --------------------- | ------------------------------------------------------------ |
-| Change server icon    | [View guide](https://zap-hosting.com/guides/docs/en/redm_change_servericon) |
-| Resource installation | [View guide](https://zap-hosting.com/guides/docs/en/redm_installresources) |
+| Guides                           | Link                                                         |
+| -------------------------------- | ------------------------------------------------------------ |
+| Title of the guide (placeholder) | [View guide](https://zap-hosting.com/guides/docs/stormworks-becomeadmin) |
+| Title of the guide (placeholder) | [View guide](https://zap-hosting.com/guides/docs/de/)        |
+| Title of the guide (placeholder) | [View guide](https://zap-hosting.com/guides/docs/de/)        |
 
-<p style={{textAlign: 'center'}}>List updated last on 03.05.2023</p>
+<p style="text-align: center;">List updated last on XX.XX.XXXX</p>
 
 
 
 
 ## Settings
 
-In the **Settings** section of your navigation panel, you will find a number of sub-items that will help you manage your server. These include the **Settings**, **Configs**, **Games**, **Versions**, **Resources**,  and the **Restart planner**. In the following you will get a detailed introduction to these different areas.
+In the **Settings** section of your navigation panel, you will find a number of sub-items that will help you manage your server. These include the **Settings**, **Configs**, **Games**, **Versions** and the **Restart planner**. In the following you will get a detailed introduction to these different areas.
 
 
 
@@ -159,14 +141,13 @@ In the **Settings** section of your navigation panel, you will find a number of 
 
 Under the settings you will find an overview of the most common setting options for your server. These also include a short explanation. The use of the settings page is especially recommended for newcomers to server administration.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/4X7ERpBn7y9XW4e/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/SbDMHn9Z7NS9Qm6/preview)
 
 Here you can make for example the following adjustments: 
 
-- Basic settings (Servername, Project name, Project description and more)
-- EasyAdmin (Language, Menu Button, Discord Webhook, Report and Admin Commands)
-- RedM settings (Coordinates display, PVP)
-- Loading Screen (Youtube Video ID)
+- Basic settings: Servername, Admin pasword, Game server password, Savegame Seed, Base Island, Settings menu, and more
+
+  
 
 If you are more confident and want to make more precise changes, we recommend using the Config Editor instead. You can find more information about this in the **Configs** category.
 
@@ -178,8 +159,10 @@ The config file editor allows you to edit the configuration files directly from 
 
 By using the editor, you get direct access to all available options and can customize them precisely. This is especially useful for advanced users who want full control over their server settings and know exactly what changes they want to make.
 
-:::info
+:::caution
+
 Have you noticed that some of your changes are partially overwritten? Please be aware that certain option values are taken from the settings page. If you want to make these changes directly in the config, you must first disable the relevant options on the settings page.
+
 :::
 
 
@@ -188,7 +171,7 @@ Have you noticed that some of your changes are partially overwritten? Please be 
 
 Under **Games** you always have the possibility to change the game variant of your existing game or to install another game in general.  Games with the same slot price can be selected directly under **Available Games**. For all other games an adjustment of the slot price is required first. More information about this can be found in the [Game Change](https://zap-hosting.com/guides/docs/en/gameserver_gameswitch/) guide.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/k5SKzGYwf6DdpMT/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/xkkECw7o52fAMWk/preview)
 
 
 
@@ -196,19 +179,9 @@ Under **Games** you always have the possibility to change the game variant of yo
 
 Under **Versions** you have the possibility to view and manage the current version of your game server. Here you can update to the latest version at any time or activate automatic updates to ensure that your server is always up to date.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/HdY9zcZy3HtiA2C/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/Yijrm9jwkN823LH/preview)
 
 Moreover, you can also enable the email notification feature for automatic updates to keep you informed about updates and ensure that you are always up-to-date.
-
-
-
-### Resources
-
-For this game, we offer the possibility to easily install well-known and popular resources/plugins with just one click under **Resources**. In the overview, you will find a selection of the available content that you can add by clicking the installation button. After restarting the server, these resources will be installed, activated and available to you.
-
-![img](https://screensaver01.zap-hosting.com/index.php/s/jwiXtcimtiNeEQ8/preview)
-
-By using this feature, you can quickly and easily expand your game server's content without having to make adjustments independently. This saves time and reduces the risk of errors or compatibility issues.
 
 
 
@@ -230,11 +203,11 @@ In the **Tools** section of your navigation panel, you will find a range of sub-
 
 Using the **FTP Browser**, you will get all the necessary information to establish a connection to the FTP access. The FTP access allows you direct access to the files of your game server. We recommend using an external FTP program such as **Filezilla** or **WinSCP** for optimal use. If you are not familiar with how to use FTP, then taking a look at the following [guide](https://zap-hosting.com/guides/docs/en/gameserver_ftpaccess/) may help you.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/fZSYpSi4KwPos5P/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/sX85i9HyzR9wmAM/preview)
 
-**FileZilla:**  FileZilla is the easiest and most familiar FTP client. Just install, start and enter your access data in the upper bar, which you find on this page a bit further up. After a quick click on "Connect", you are logged in directly to the server and can manage the files.
+**FileZilla:**  FileZilla ist der wohl einfachste und bekannteste FTP-Client. Einfach installieren, starten und in der oberen Leiste deine Zugangsdaten eingeben, die du auf dieser Seite etwas weiter oben findest. Nach einem schnellen Klick auf "Verbinden" bist du direkt am Server angemeldet und kannst die Dateien verwalten.
 
-**WinSCP:**  WinSCP is actually intended for SCP and SFTP (the encrypted descendants of the file transfer protocol FTP) but can handle FTP the same. The program is more comprehensive than FileZilla and is suitable for advanced users.
+**WinSCP:**  WinSCP ist eigentlich für SCP und SFTP (die verschlüsselten Abkömmlinge des Dateiübertragungsprotokolls FTP) gedacht, kann aber genau so gut mit dem normalen FTP umgehen. Das Programm ist etwas umfangreicher als FileZilla und eignet sich eher für fortgeschrittene User.
 
 
 
@@ -255,3 +228,4 @@ In the settings, you can specify whether backups should be created automatically
 ![img](https://screensaver01.zap-hosting.com/index.php/s/nm9za5LTMEcNsga/preview)
 
 We provide 10 GB of storage space on the storage server for backups for our game server products by default. If you need more storage space, it can be upgraded for a fee. This way you ensure that you always have enough space for your backups and can still access older backups if necessary.
+
