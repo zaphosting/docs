@@ -2,7 +2,7 @@
 id: rust-becomeadmin
 title: Become an admin on your own server
 description: Information on how to become an admin on your Rust server from ZAP-Hosting - ZAP-Hosting.com documentation
-sidebar_label: Become Admin 
+sidebar_label: Become admin 
 ---
 
 ## Using RCON to Become Admin
