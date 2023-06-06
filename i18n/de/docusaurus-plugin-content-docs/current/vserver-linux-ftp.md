@@ -8,7 +8,7 @@ sidebar_label: FTP Dienst funktioniert nicht
 ## Was kann man tun wenn der Gameserver oder Teamspeak Server nicht via FTP erreichbar ist? 
 
 :::info
-Achtung: Die nachfolgenden Schritte funktionieren nur auf einem eigenen vServer/Root Server wenn das ZAP-Webinterface installiert wurde!
+Achtung: Die nachfolgenden Schritte funktionieren nur auf einem eigenen vServer/Rootserver wenn das ZAP-Webinterface installiert wurde!
 :::
 
 Sollten die angelgten Server nicht via FTP erreichbar sein, so ist in den meisten Fällen der FTP Dienst (ProFTPD) nicht aktiv. 
@@ -35,7 +35,7 @@ Nun wird man vermutlich folgendes Bild sehen:
 Hat man bereits ein FTP-Tool probiert, so wird dieses sehr wahrscheinlich auch bereits einen ähnlichen Fehler wie folgenden Fehler angezeigt haben: 
 
 
-Da nun klar ist, das weder eine Verbindung via WebFTP oder FTP-Tool möglich ist, muss man sich nun den FTP Dienst auf dem vServer oder Root Server genauer ansehen. 
+Da nun klar ist, das weder eine Verbindung via WebFTP oder FTP-Tool möglich ist, muss man sich nun den FTP Dienst auf dem vServer oder Rootserver genauer ansehen. 
 
 
 ### ProFTPD Status Prüfen

@@ -27,7 +27,7 @@ Zunächst muss eine Benutzergruppe angelegt werden, damit im Anschluss die Unter
 
   - Übersicht, Starteinstellungen, Plugins, Backups, Update, Spiel wechseln, Configs, Datenbanken, FTP-Browser / Account, Konsole
 
-- VPS / Rootserver
+- vServer / Rootserver
 
   - Übersicht, Einstellungen, VNC-Konsole, Zugangsdaten
 

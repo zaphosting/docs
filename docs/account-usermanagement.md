@@ -25,7 +25,7 @@ At first you have to create a user group, in order to be able to create and assi
 
   - Overview, Start settings, Plugins, Backups, Updates, Switch game, Configs, Databases, FTP browser / account, Console
 
-- VPS / Rootserver
+- VPS / Root server
 
   - Overview, Settings, Serial Console, User credentials
 

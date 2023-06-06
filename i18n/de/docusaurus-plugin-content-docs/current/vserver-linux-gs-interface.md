@@ -10,16 +10,16 @@ sidebar_label: GS/TS3 Interface
 
 ## Einführung
 
-Wenn Gameserver-Produkte nicht deinem Geschmack oder Erwartungen entsprechen oder du deinen Dienst noch anderweitig benötigst, ist die Nutzung eines VPS, Rootservers oder Dedicated Servers häufig die bessere Option. Allerdings steht man dort oft vor der Herausforderung, dass nicht alle Dienste automatisiert vorgegeben oder installiert sind. Die Einrichtung der Dienste, wie zum Beispiel der Installation von Gameserver, Teamspeak 3 Server und Musikbots, muss eigenständig durchgeführt werden.
+Wenn Gameserver-Produkte nicht deinem Geschmack oder Erwartungen entsprechen oder du deinen Dienst noch anderweitig benötigst, ist die Nutzung eines vServer, Rootservers oder Dedicated Servers häufig die bessere Option. Allerdings steht man dort oft vor der Herausforderung, dass nicht alle Dienste automatisiert vorgegeben oder installiert sind. Die Einrichtung der Dienste, wie zum Beispiel der Installation von Gameserver, Teamspeak 3 Server und Musikbots, muss eigenständig durchgeführt werden.
 
-Um dieses Problem zu lösen, haben wir für unsere Linux-basierten VPS, Rootserver oder Dedicated Server eine praktische Lösung entwickelt. Das sogenannte Gameserver / Teamspeak 3 Server Interface (GS/TS3 Interface)!
+Um dieses Problem zu lösen, haben wir für unsere Linux-basierten vServer, Rootserver oder Dedicated Server eine praktische Lösung entwickelt. Das sogenannte Gameserver / Teamspeak 3 Server Interface (GS/TS3 Interface)!
 
 
 
 
 ## Nutzen des GS/TS3 Interface
 
-Mit dem benutzerfreundlichen GS/TS3 Interface kannst du mit nur wenigen Klicks einen Teamspeak 3 oder andere verschiedene ausgewählte Gameserver-Dienste auf deinem Linux-basierten VPS, Rootserver oder Dedicated Server installieren. Für diese Installation sind keinerlei Vorkenntnisse erforderlich. Die Einrichtung sämtlicher benötigter Pakete, der Server-Dateien sowie die eigentliche Installation werden vollständig automatisch durchgeführt, wodurch du Zeit und Mühe sparst.
+Mit dem benutzerfreundlichen GS/TS3 Interface kannst du mit nur wenigen Klicks einen Teamspeak 3 oder andere verschiedene ausgewählte Gameserver-Dienste auf deinem Linux-basierten vServer, Rootserver oder Dedicated Server installieren. Für diese Installation sind keinerlei Vorkenntnisse erforderlich. Die Einrichtung sämtlicher benötigter Pakete, der Server-Dateien sowie die eigentliche Installation werden vollständig automatisch durchgeführt, wodurch du Zeit und Mühe sparst.
 
 :::info
 Um das GS/TS3 Interface erfolgreich zu installieren, ist es wichtig sicherzustellen, dass dein Server eines der folgenden unterstützten Betriebssysteme installiert hat:
@@ -34,7 +34,7 @@ Debian 11
 
 Das GS/TS3 Interface unterstützt die Einrichtung von Gameserver, Voiceserver und Musikbots. Ein Großteil der Spiele, die wir für unsere Gameserver Produkte anbieten, sind bei uns ebenfalls in der GS/TS3 Interface Option vorhanden. Das betrifft alle Spiele, die wir aktiv unter Linux betreiben. Alle Spiele die bei uns über Windows Betriebssysteme laufen können leider nicht installiert werden. Dort ist lediglich eine manuelle Installation möglich, sofern das Spiel eine Linux Server Version unterstützt. 
 
-| Dienste     | Beschreibung / Inhalt                                    | VPS  | Rootserver | Dedicated Server |
+| Dienste     | Beschreibung / Inhalt                                    | vServer  | Rootserver | Dedicated Server |
 | ----------- | -------------------------------------------------------- | ---- | ---------- | ---------------- |
 | Gameserver  | Linux basierte Gameserver Anwendungen werden unterstützt | ✔️    | ✔️          | ✔️                |
 | Voiceserver | Teamspeak 3 Server werden unterstützt                    | ✔️    | ✔️          | ✔️                |

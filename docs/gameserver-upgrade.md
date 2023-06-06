@@ -7,7 +7,7 @@ sidebar_label: Up-/Downgrade
 
 ## Preface
 
-Thanks to our cloud system, you can always modify your ZAP-Hosting gameserver and V-Rootserver according to your wishes and needs.
+Thanks to our cloud system, you can always modify your ZAP-Hosting gameserver and V-Root server according to your wishes and needs.
 For example, if you need more slots or more RAM, this is not a problem and can be adjusted at any time.
 Please keep in mind, if you have used a voucher, a downgrade is no longer possible, in the voucher period.
 

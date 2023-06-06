@@ -7,7 +7,7 @@ sidebar_label: Install MySQL
 
 ## MySQL Server on Windows
 
-A MySQL server is needed for various applications and can contain important data for example for a game server or a website. In the following we explain how to set up your own MySQL database server on your Windows VPS or Rootserver.
+A MySQL server is needed for various applications and can contain important data for example for a game server or a website. In the following we explain how to set up your own MySQL database server on your Windows VPS or Root server.
 
 
 

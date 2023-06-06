@@ -36,7 +36,7 @@ With the user-friendly GS/TS3 interface, you can install Teamspeak 3 or other se
 
 The GS/TS3 interface supports the setup of game servers, voice servers, and music bots. Most of the games we offer for our game server products are also available in the GS/TS3 interface option. This applies to all games that we actively operate under Linux. All games that run on Windows operating systems can unfortunately not be installed. There, only a manual installation is possible, provided that the game supports a Linux server version.
 
-| Services    | Description / Content                             | VPS  | Rootserver | Dedicated Server |
+| Services    | Description / Content                             | VPS  | Root server | Dedicated Server |
 | ----------- | ------------------------------------------------- | ---- | ---------- | ---------------- |
 | Gameserver  | Linux based gameserver applications are supported | ✔️    | ✔️          | ✔️                |
 | Voiceserver | Teamspeak 3 servers are supported                 | ✔️    | ✔️          | ✔️                |
