@@ -7,7 +7,7 @@ sidebar_label: Submission Process
 
 Learn more about the process for contributing to our documentation on this page, following in chronological order.
 
-### Registering for the program
+## Registering for the program
 The first part of the process is ensuring that you have linked up your GitHub account. Head over to the zap-hosting.com website and login to your account. Next, head over into your settings and to the connections section, where you can link your GitHub account with your ZAP-Hosting account. You may now continue to suggest your contribution idea knowing that you are part of the contribution program.
 
 ## Suggesting Content
@@ -24,12 +24,12 @@ As mentioned in the introduction, all content that is produced must be original 
 
 ### Submitting suggestion
 
-Now that you are are confident that your suggestion is appropirate for our documentation, please head over to our [ZAP Docs GitHub repository](https://github.com/zaphosting/docs) and open a issue using the "Contribution Suggestion" template. Please follow the template that is provided and ensure that you fill in all necessary details. Once you have submitted, we aim to get back to you within a few days.
+Now that you are are confident that your suggestion is appropriate for our documentation, please head over to our [ZAP Docs GitHub repository](https://github.com/zaphosting/docs) and open a issue using the "Contribution Suggestion" template. Please follow the template that is provided and ensure that you fill in all necessary details. Once you have submitted, we aim to get back to you within a few days.
 
 Once we approve your suggestion, your change will qualify for the contribution program and we will send you a contract to sign which will let us publish your work! Otherwise if there is an issue, we will follow up with you and let you know any proposed changes that we would like in order to accept your suggestion.
 
 ## Producing content
-When performing any contribution to your documentation, please keep in mind to follow our contribution guidelines thoroughly to ensure consistency and a high-quality end product. In this sub-section we will dive deep into best practises and the optimal workflow for creating new content, but also for modifying existing content. If you are new to using GitHub, please use these brief tutorials below to understand the easiest way to edit or create new content for our documentation site.
+When performing any contribution to our documentation, please keep in mind to follow our contribution guidelines thoroughly to ensure consistency and a high-quality end product. In this sub-section we will dive deep into best practises and the optimal workflow for creating new content, but also for modifying existing content. If you are new to using GitHub, please use these brief tutorials below to understand the easiest way to edit or create new content for our documentation site.
 
 :::note
 Ensure that you have suggested your content and that it has been approved before attempting to produce changes, otherwise we cannot guarantee a reward because the idea has not been approved.
@@ -44,7 +44,7 @@ The first step is to create your own fork of the ZAP-Hosting documentaiton repos
 
 You should name the repository based on the suggestion that was accepted and tick the `Copy the master branch only` text. Next, press the create button and await a few seconds until it has successfully forked. 
 
-Now you can head over to the next section to create or edit content. For more advanced users, creating locally may make more sense as you can test it easily and on-the-go
+Now you can head over to the next section to create or edit content. For more advanced users, creating locally may make more sense as you can test it easily and on-the-go.
 
 ### Creating locally via editor
 The recommended way to **create new content** is to do so through locally via an editor such as Visual Studio Code. In this section, we will show you how to create a new guide locally through an editor.
