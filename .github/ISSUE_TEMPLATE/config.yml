@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Need help with the ZAP-Hosting contribution program?
+    url: https://zap-hosting.com/guides/docs/contribution-introduction
+    about: Please visit our in-depth guide about the program.
+  - name: Need ZAP-Hosting server support?
+    url: https://zap-hosting.com/en/customer/support/
+    about: Please create a ticket on our website to contact support.
