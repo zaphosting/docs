@@ -8,7 +8,7 @@ body:
         # Contribution Suggestion
         Thank you for your interest in our ZAP-Docs contribution program. 
 
-        Please take a look at our [Contribution Section](https://zap-hosting.com/guides/docs/firststeps-register/) on our documentation site to ensure that you fully understand the process, guidelines and potential rewards. 
+        Please take a look at our [Contribution Section](https://zap-hosting.com/guides/docs/contribution-introduction) on our documentation site to ensure that you fully understand the process, guidelines and potential rewards. 
 
         Once you are ready, please fill out this template with as much detail as possible to begin the first step of the contribution process.
   - type: textarea
@@ -20,13 +20,13 @@ body:
   - type: textarea
     attributes:
       label: How do you aim to structure your proposed change?
-      description: Please provide headings/steps that you plan to use.
+      description: Please provide headings and/or steps that you plan to use.
     validations:
       required: true
   - type: textarea
     attributes:
       label: Could you briefly summarise the contents you plan to write about to ensure you have the appropriate technical knowledge?
-      description: This could be noted down in bullet points if you wish.
+      description: This could be noted down in bullet points if you wish and should be a rough draft.
     validations:
       required: true
   - type: input
@@ -47,13 +47,14 @@ body:
       required: false
   - type: textarea
     attributes:
-      label: Do you have any previous experience in writing and publishing articles? If yes, could you provide a link.
+      label: Do you have any previous experience in writing and publishing articles?
+      description: (Optional) If you do, could you provide a link or some details?
     validations:
       required: false
   - type: textarea
     attributes:
       label: Additional Information
-      description: Please add any other context or screenshots about your suggestion below.
+      description: (Optional) Please add any other context or screenshots about your suggestion below if necessary.
     validations:
       required: false
   - type: checkboxes
