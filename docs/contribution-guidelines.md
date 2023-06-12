@@ -247,6 +247,17 @@ Is there something in your guide that the user should be warned and cautious abo
 You should use the danger admonition where crucial information needs highlighting. In particular, this should be used to make the user aware of known bugs or deprecated features.
 :::
 
+### Screenshots
+
+Screenshots are an extremely useful method of guiding readers through the steps visually and we definitely recommend using these where appropriate.
+
+In order to accomodate the German section, when you are taking a screenshot, we expect you to add both an English version and a German version in order to ensure that the screenshots are consistent. Within your guide, you can place them right next to each other. The German screenshots will be removed and used once the ZAP docs team translate your article.
+
+You can use the following syntax to add a screenshot to your content, replacing `your_url` with the url of the image:
+`![image](your_url)`
+
+The best practise is to use a site such as imgur to upload and use the image, or altnernatively you can directly drag it into the editing field directly if you are using the GitHub website to create your content to automatically upload it for you.
+
 ## Terminology
 
 Throughout our documentation, there will be a wide range of key terminology that is used. Across the documentation, we expect you to use US English localised spelling to ensure consistency across all of our articles. In this section, we aim to standardise some of the terminology that is likely to be commonly used.
