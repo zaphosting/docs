@@ -42,7 +42,7 @@ body:
     attributes:
       label: What is your Discord ID?
       description: (Optional) If you need help finding it, follow the [Discord guide](https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-).
-      placeholder: 360815761662541824
+      placeholder: "360815761662541824"
     validations:
       required: false
   - type: textarea
@@ -60,7 +60,7 @@ body:
     id: confirmation
     attributes:
       label: By submitting this form, you agree that...
-      descrption: You must confirm and agree with all of the points.
+      description: You must confirm and agree with all of the points.
       options:
         - label: You have read and understood our contribution section on our documentation.
           required: true
