@@ -6,7 +6,7 @@ sidebar_label: Introduction
 ---
 
 ## ZAP-Hosting docs contribution program
-We believe in the power of community, which is why we run our own ZAP-Hosting docs contribution program which enables our community to produce high-quality, practical and easily accessible guides to support a wide range of topics and help out other fellow people globally. Of course, it also comes with the sweet benefit of ZAP Coins as a reward!
+We believe in the power of community, which is why we run our own ZAP-Hosting docs contribution program which enables our community to produce high-quality, practical and easily accessible guides to support a wide range of topics and help out other fellow people. Of course, it also comes with the sweet benefit of ZAP Coins as a reward!
 
 Our contribution program currently only accepts contributions in English. In order to comply with copyright laws, we cannot accept content from other sources. All content that is produced under our contribution program must be original work produced by you.
 

@@ -254,9 +254,11 @@ Screenshots are an extremely useful method of guiding readers through the steps 
 In order to accomodate the German section, when you are taking a screenshot, we expect you to add both an English version and a German version in order to ensure that the screenshots are consistent. Within your guide, you can place them right next to each other. The German screenshots will be removed and used once the ZAP docs team translate your article.
 
 You can use the following syntax to add a screenshot to your content, replacing `your_url` with the url of the image:
-`![image](your_url)`
+```
+![image](your_url)
+```
 
-The best practise is to use a site such as imgur to upload and use the image, or altnernatively you can directly drag it into the editing field directly if you are using the GitHub website to create your content to automatically upload it for you.
+The best practise is to use a site such as imgur to upload and use the image, or alternatively you can directly drag it into the editing field directly if you are using the GitHub website to create your content to automatically upload it for you.
 
 ## Terminology
 
