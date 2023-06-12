@@ -29,6 +29,22 @@ body:
       description: This could be noted down in bullet points if you wish.
     validations:
       required: true
+  - type: input
+    id: zapid
+    attributes:
+      label: What is your ZAP ID?
+      description: You can find this on the zap-hosting.com website in the top right whilst you are logged in.
+      placeholder: zap123456
+    validations:
+      required: true
+  - type: input
+    id: discordid
+    attributes:
+      label: What is your Discord ID?
+      description: (Optional) If you need help finding it, follow the [Discord guide](https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-).
+      placeholder: 360815761662541824
+    validations:
+      required: false
   - type: textarea
     attributes:
       label: Do you have any previous experience in writing and publishing articles? If yes, could you provide a link.
@@ -39,9 +55,22 @@ body:
       label: Additional Information
       description: Please add any other context or screenshots about your suggestion below.
     validations:
-      required: true
-  - type: markdown
+      required: false
+  - type: checkboxes
+    id: confirmation
     attributes:
-      value: |
-        ## Submission Acknowledgement
-        * [ ] By ticking the button, you agree that you have read our contribution section on our documentation and fully understand the guidelines and conditions that exist. You also agree that your idea is original and isn't a duplicate of an already-existing page on our documentation.
+      label: By submitting this form, you agree that...
+      descrption: You must confirm and agree with all of the points.
+      options:
+        - label: You have read and understood our contribution section on our documentation.
+          required: true
+        - label: You understand our guidelines and conditions that exist.
+          required: true
+        - label: Your suggestion is original and not a duplicate.
+          required: true
+        - label: You have provided the correct ZAP ID.
+          required: true
+        - label: You have answered this suggestion form to the best of your ability.
+          required: true
+        - label: You agree to receive feedback and communicate with our ZAP docs team.
+          required: true
