@@ -293,6 +293,19 @@ Du solltest die Gefahrenwarnung verwenden, wenn wichtige Informationen hervorgeh
 
 
 
+### Screenshots
+
+Screenshots sind eine äußerst nützliche Methode, um die Leser visuell durch die Schritte zu leiten, und wir empfehlen, diese in jedem Fall zu verwenden, wo es angebracht ist.
+
+Um dem deutschen Abschnitt gerecht zu werden, erwarten wir, dass du, wenn du einen Screenshot machst, sowohl eine englische als auch eine deutsche Version hinzufügst, um sicherzustellen, dass die Screenshots einheitlich sind. In deiner Anleitung kannst du sie direkt nebeneinander platzieren. Die deutschen Screenshots werden entfernt und verwendet, sobald das ZAP Docs Team den Artikel übersetzt hat.
+
+Du kannst die folgende Syntax verwenden, um einen Screenshot zu deinem Inhalt hinzuzufügen, indem du `Deine_Url` durch die URL des Bildes ersetzt:
+`![Bild](Deine_Url)`
+
+Am besten verwendest du eine Website wie Imgur, um das Bild hochzuladen und zu verwenden. Alternativ kannst du es auch direkt in das Bearbeitungsfeld ziehen, wenn du die GitHub-Website zum Erstellen deiner Inhalte verwendest, um es automatisch für dich hochzuladen.
+
+
+
 ## Terminologie
 
 In unserer Dokumentation wird eine breite Palette von Schlüsselbegriffen verwendet. In der gesamten Dokumentation erwarten wir, dass du die US-amerikanische Rechtschreibung verwendest, um die Konsistenz aller unserer Artikel zu gewährleisten. In diesem Abschnitt versuchen wir, einige der Begrifflichkeiten zu standardisieren, die wahrscheinlich häufig verwendet werden.

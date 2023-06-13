@@ -8,13 +8,11 @@ sidebar_label: Einreichungsverfahren
 
 Auf dieser Seite erfährst du mehr über das chronologische Vorgehen, wenn du einen Beitrag zu unserer Dokumentation leisten möchtest.
 
-### Anmeldung zum Programm
 
-Der erste Teil des Vorgangs besteht darin, sicherzustellen, dass du dein GitHub-Konto verknüpft hast. Besuche dafür die Website zap-hosting.com und melde dich bei deinem Konto an. Gehen anschließend zu deinen Einstellungen und zum Abschnitt "Verbindungen", wo du dein GitHub-Konto mit deinem ZAP-Hosting-Konto verknüpfen kannst. Nun wo du weißt, dass du Teil des Beitragsprogramms bist, kannst du deine Beitragsideen vorschlagen.
 
 ## Inhalte vorschlagen
 
-Der nächste Schritt ist der wichtigste, den du ausführen musst, bevor du einen Beitrag leisten kannst. Du musst uns Details über die Änderungen und Verbesserungen, die du vorhast, mitteilen. Stelle bitte sicher, dass deine Idee kein Duplikat einer bestehenden Dokumentseite ist und dass sie deiner Meinung nach für Anfänger oder fortgeschrittene Benutzer nützlich ist.
+Als ersten Schritt muss ein Vorschlag über unser Repository eingereicht werden. Du musst uns Details über die Änderungen und Verbesserungen mitteilen, die du beabsichtigst, durchzuführen. Bitte stellen sicher, dass deine Idee kein Duplikat einer bestehenden Dokumentationsseite ist und deiner Meinung nach für Anfänger und fortgeschrittene Benutzer nützlich sein wird.
 
 :::tip
 Bitte benutze unseren Leitfaden, um sich über den Inhalt und den Stil der Dokumentation zu informieren, den wir erwarten.
@@ -28,7 +26,11 @@ Wie bereits in der Einleitung erwähnt, müssen alle Inhalte, die erstellt werde
 
 ### Vorschläge einreichen
 
-Wenn du davon überzeugt bist, dass dein Vorschlag für unsere Dokumentation geeignet ist, gehe bitte zu unserem [ZAP Docs GitHub Repository] (https://github.com/zaphosting/docs) und eröffne ein Problem mit der Vorlage "Contribution Suggestion". Bitte befolge die Vorlage und trage alle notwendigen Details ein. Nachdem du den Vorschlag eingereicht hast, werden wir uns innerhalb weniger Tage mit dir in Verbindung setzen.
+Wenn du davon überzeugt bist, dass dein Vorschlag für unsere Dokumentation geeignet ist, gehe bitte zu unserem [ZAP Docs GitHub Repository] (https://github.com/zaphosting/docs) und eröffne ein Problem mit der Vorlage "Contribution Suggestion". Bitte befolge die Vorlage und trage alle notwendigen Details ein. Du wirst außerdem aufgefordert, unsere allgemeinen Geschäftsbedingungen für das Beitragsprogramm zu akzeptieren, die du [hier](https://zap-hosting.com/guides/docs/contribution-terms) einsehen kannst. Nachdem du den Vorschlag eingereicht hast, werden wir uns innerhalb weniger Tage mit dir in Verbindung setzen.
+
+:::important
+Bitte vergewissere dich, dass deine ZAP ID korrekt eingeben wurde, damit du deine Belohnung auf dem richtigen Konto erhältst!
+:::
 
 Wenn wir deinen Vorschlag genehmigen, qualifiziert sich dein Vorschlag für das Beitragsprogramm und wir schicken dir einen Vertrag zur Unterschrift, der uns erlaubt, deine Arbeit zu veröffentlichen! Sollte es ein Problem geben, werden wir uns mit dir in Verbindung setzen und dir alle Änderungsvorschläge mitteilen, die wir für die Annahme deines Vorschlags benötigen.
 
@@ -185,4 +187,4 @@ Sobald du den Titel und die Beschreibung eingegeben und sichergestellt hast, das
 
 ![image](https://github.com/zaphosting/docs/assets/42719082/fc04a359-bffc-459b-89fd-94eee74e4a71)
 
-Unser System wird überprüfen, ob du dein GitHub-Konto mit deinem ZAP-Hosting-Konto für das Beitragsprogramm verknüpft hast. Das System stellt auch sicher, dass deine Änderungen eine Reihe von Syntax- und Qualitätsprüfungen bestehen. Wenn beide Prüfungen erfolgreich verlaufen sind, wird Ihr Pull Request innerhalb weniger Tage vom ZAP-Hosting Docs Team geprüft. Es kann sein, dass wir dich auffordern, ein paar Änderungen vorzunehmen, wenn wir es für notwendig erachten, aber sobald dies genehmigt ist, ist deine Änderung bereit zur Veröffentlichung und du erhältst deine Belohnung.
+Unser System wird überprüfen, ob deine Änderungen eine Reihe von Syntax- und Qualitätsprüfungen bestehen. Wenn beide Prüfungen erfolgreich verlaufen, wird dein Pull Request innerhalb von ein paar Tagen vom ZAP-Hosting Docs Team geprüft. Es kann sein, dass wir dich auffordern, ein paar Änderungen vorzunehmen, wenn wir es für nötig halten, aber sobald dies genehmigt ist, kann deine Änderung veröffentlicht werden und du erhältst deine Belohnung.
