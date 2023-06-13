@@ -75,3 +75,5 @@ body:
           required: true
         - label: You agree to receive feedback and communicate with our ZAP docs team.
           required: true
+        - label: You agree to the ZAP-Hosting Contribution Program Terms & Conditions, which can be [accessed here](https://zap-hosting.com/guides/docs/contribution-terms).
+          required: true
