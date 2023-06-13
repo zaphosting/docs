@@ -24,3 +24,13 @@ body:
       description: Please provide us with the content that needs to be added/changed or a reference link. 
     validations:
       required: true
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: By submitting this form, you agree that...
+      description: You must confirm and agree with all of the points.
+      options:
+        - label: You have filled in the form to the best of your ability.
+          required: true
+        - label: You confirm that the error still exists and have referenced it appropriately.
+          required: true
