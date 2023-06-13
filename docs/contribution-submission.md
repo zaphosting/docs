@@ -20,7 +20,7 @@ For our contribution program, we look for a wide range of practical and high-qua
 As mentioned in the introduction, all content that is produced must be original in order to comply with copyright laws. Our guides aim to provide high-quality information through a series of steps to ensure that the reader understands what they are doing and how they can do it with an end goal of educating the reader and providing them with the solution.
 
 ### Submitting suggestion
-Now that you are are confident that your suggestion is appropriate for our documentation, please head over to our [ZAP Docs GitHub repository](https://github.com/zaphosting/docs) and open a issue using the "Contribution Suggestion" template. Please follow the template that is provided and ensure that you fill in all necessary details. Once you have submitted, we aim to get back to you within a few days.
+Now that you are are confident that your suggestion is appropriate for our documentation, please head over to our [ZAP Docs GitHub repository](https://github.com/zaphosting/docs) and open a issue using the "Contribution Suggestion" template. Please follow the template that is provided and ensure that you fill in all necessary details. You will also be requested to confirm that you accept our Terms & Conditions for the Contribution Program, which can be [accessed here](https://zap-hosting.com/guides/docs/contribution-terms). Once you have submitted, we aim to get back to you within a few days.
 
 :::important
 Please ensure that you fill in your ZAP ID correctly to ensure you receive your reward to the correct account!
