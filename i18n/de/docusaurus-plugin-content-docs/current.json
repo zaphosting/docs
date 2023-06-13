@@ -298,5 +298,9 @@
   "sidebar.gameserverSidebar.category.Myth of Empires": {
     "message": "Myth of Empires",
     "description": "The label for category Myth of Empires in sidebar gameserverSidebar"
+  },
+  "sidebar.guidesSidebar.category.Contribution Program": {
+    "message": "Contribution Program",
+    "description": "The label for category Contribution Program in sidebar guidesSidebar"
   }
 }
