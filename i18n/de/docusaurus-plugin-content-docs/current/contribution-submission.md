@@ -26,7 +26,7 @@ Wie bereits in der Einleitung erwähnt, müssen alle Inhalte, die erstellt werde
 
 ### Vorschläge einreichen
 
-Wenn du davon überzeugt bist, dass dein Vorschlag für unsere Dokumentation geeignet ist, gehe bitte zu unserem [ZAP Docs GitHub Repository] (https://github.com/zaphosting/docs) und eröffne ein Problem mit der Vorlage "Contribution Suggestion". Bitte befolge die Vorlage und trage alle notwendigen Details ein. Du wirst außerdem aufgefordert, unsere allgemeinen Geschäftsbedingungen für das Beitragsprogramm zu akzeptieren, die du [hier](https://zap-hosting.com/guides/docs/contribution-terms) einsehen kannst. Nachdem du den Vorschlag eingereicht hast, werden wir uns innerhalb weniger Tage mit dir in Verbindung setzen.
+Wenn du davon überzeugt bist, dass dein Vorschlag für unsere Dokumentation geeignet ist, gehe bitte zu unserem [ZAP Docs GitHub Repository] (https://github.com/zaphosting/docs) und eröffne ein Problem mit der Vorlage "Contribution Suggestion". Bitte befolge die Vorlage und trage alle notwendigen Details ein. Du wirst außerdem aufgefordert, unsere allgemeinen Geschäftsbedingungen für das Beitragsprogramm zu akzeptieren, die du [hier](https://zap-hosting.com/guides/de/docs/contribution-terms) einsehen kannst. Nachdem du den Vorschlag eingereicht hast, werden wir uns innerhalb weniger Tage mit dir in Verbindung setzen.
 
 :::important
 Bitte vergewissere dich, dass deine ZAP ID korrekt eingeben wurde, damit du deine Belohnung auf dem richtigen Konto erhältst!
@@ -128,7 +128,7 @@ Navigiere ie zur rechten oberen Ecke der Datei und klicke auf das Bearbeitungssy
 Bitte beachte, dass einige docusaurus-spezifische Elemente, wie z.B. Admonitions , bei der Vorschau über GitHub nicht korrekt angezeigt werden. Das liegt daran, dass sie nicht Teil des herkömmlichen Markdown-Formats sind. Sie werden jedoch bei lokalen Tests und in der Praxis korrekt angezeigt. 
 :::
 
-Bitte schaue dir die [ZAP-Dokumentationsrichtlinien] (contribution.guidelines) für alles, was Markdown, Struktur, Terminologie und mehr betrifft an.
+Bitte schaue dir die [ZAP-Dokumentationsrichtlinien] (https://zap-hosting.com/guides/de/docs/contribution-guidelines) für alles, was Markdown, Struktur, Terminologie und mehr betrifft an.
 
 Wenn du deine Änderungen vorgenommen hast, klicke auf die Schaltfläche **Änderungen bestätigen...**, woraufhin eine Aufforderung erscheint.
 
