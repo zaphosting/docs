@@ -2,7 +2,7 @@
 id: contribution-submission
 title: Submission Process
 description: Information on the submission process for the ZAP-Hosting docs contribution program - ZAP-Hosting.com documentation
-sidebar_label: Submission Process
+sidebar_label: Submission
 ---
 
 Learn more about the process for contributing to our documentation on this page, following in chronological order.
