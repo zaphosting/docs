@@ -26,9 +26,9 @@ Wie bereits in der Einleitung erwähnt, müssen alle Inhalte, die erstellt werde
 
 ### Vorschläge einreichen
 
-Wenn du davon überzeugt bist, dass dein Vorschlag für unsere Dokumentation geeignet ist, gehe bitte zu unserem [ZAP Docs GitHub Repository] (https://github.com/zaphosting/docs) und eröffne ein Problem mit der Vorlage "Contribution Suggestion". Bitte befolge die Vorlage und trage alle notwendigen Details ein. Du wirst außerdem aufgefordert, unsere allgemeinen Geschäftsbedingungen für das Beitragsprogramm zu akzeptieren, die du [hier](https://zap-hosting.com/guides/de/docs/contribution-terms) einsehen kannst. Nachdem du den Vorschlag eingereicht hast, werden wir uns innerhalb weniger Tage mit dir in Verbindung setzen.
+Wenn du davon überzeugt bist, dass dein Vorschlag für unsere Dokumentation geeignet ist, gehe bitte zu unserem [ZAP Docs GitHub Repository](https://github.com/zaphosting/docs) und eröffne ein Problem mit der Vorlage "Contribution Suggestion". Bitte befolge die Vorlage und trage alle notwendigen Details ein. Du wirst außerdem aufgefordert, unsere allgemeinen Geschäftsbedingungen für das Beitragsprogramm zu akzeptieren, die du [hier](https://zap-hosting.com/guides/de/docs/contribution-terms) einsehen kannst. Nachdem du den Vorschlag eingereicht hast, werden wir uns innerhalb weniger Tage mit dir in Verbindung setzen.
 
-:::important
+:::caution
 Bitte vergewissere dich, dass deine ZAP ID korrekt eingeben wurde, damit du deine Belohnung auf dem richtigen Konto erhältst!
 :::
 
