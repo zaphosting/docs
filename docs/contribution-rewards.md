@@ -15,5 +15,7 @@ All rewards are under the discretion of the ZAP-Hosting docs team.
 
 :::
 
+Another sweet benefit is a unique guides contributor role that you will receive on our [Discord Server](https://discord.com/invite/zaphosting) on your first contribution, as long as you provide your Discord ID during the submission process, to show off your efforts to supporting the community through guides and gain access to some exclusive content.
+
 ## How to receive your reward
 Once we have evaluated your Pull Request and are ready to publish the changes, we will directly credit the approved ZAP Coins to the specified zap-hosting.com account. We will let you know when your pull request has been accepted and when your reward has been added.

@@ -17,7 +17,7 @@ Alle Belohnungen liegen im Ermessen des ZAP-Hosting Docs-Teams.
 
 :::
 
-
+Ein weiterer Vorteil ist die einzigartige Rolle des "Guides Contributors", die du bei deinem ersten Beitrag auf unserem [Discord Server](https://discord.com/invite/zaphosting) erhältst, sofern du deine Discord ID während des Einreichungsprozesses angibst, um zu zeigen, dass du die Community durch Guides unterstützt und Zugang zu einigen exklusiven Inhalten erhältst.
 
 ## So erhältst du deine Belohnung
 

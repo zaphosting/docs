@@ -19,3 +19,5 @@ Please check out the other pages in this section to understand the process for c
 
 ## Who is this program for?
 The contribution program is accessible to anyone who wants to share their knowledge and experience with the community! We actively look for dedicated writers who have strong technical skills and are knowledgeable in the respective field. Most importantly, we look for writers who are dedicated and are happy in collaborating with our ZAP-Hosting docs team to improve and revise their content prior to publishing.
+
+Are you interested in joining the conversation and collaborating with other like-minded people? Feel free to join our [Discord Server](https://discord.com/invite/zaphosting) and use the **#Customise Community** channel to assign yourself the contribution role to keep updated with the latest changes, communicate with other contributors and to collaborate!

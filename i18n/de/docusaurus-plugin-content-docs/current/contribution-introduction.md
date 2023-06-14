@@ -5,7 +5,7 @@ description: Information on the ZAP-Hosting docs contribution program - ZAP-Host
 sidebar_label: Einführung
 ---
 
-
+![Main Banner](https://github.com/zaphosting/docs/assets/42719082/d1b7ad03-58b4-4fc6-9544-a78a1ed0486d)
 
 ## ZAP-Hosting Docs Beitragsprogramm
 
@@ -26,3 +26,5 @@ Bitte sieh dir die anderen Seiten in diesem Abschnitt an, um den Prozess des Bei
 ## Für wen ist dieses Programm gedacht?
 
 Das Beitragsprogramm ist für jeden zugänglich, der sein Wissen und seine Erfahrung mit der Community teilen möchte! Wir suchen aktiv nach engagierten Autoren, die über umfassende technische Fähigkeiten verfügen und sich auf dem jeweiligen Gebiet gut auskennen. Vor allem aber suchen wir nach Autoren, die sich engagieren und gerne mit unserem ZAP-Hosting Docs-Team zusammenarbeiten, um deren Inhalte vor der Veröffentlichung zu verbessern und zu überarbeiten.
+
+Bist du daran interessiert, dich an der Konversation und der Zusammenarbeit mit anderen gleichgesinnten Menschen zu beteiligen? Trete gerne unserem [Discord Server](https://discord.com/invite/zaphosting) bei und nutze **#Customise Community**, um dir die Contributor-Rolle zuzuweisen, um über die neuesten Änderungen auf dem Laufenden zu bleiben, mit anderen Mitwirkenden zu kommunizieren und zu kollaborieren.
