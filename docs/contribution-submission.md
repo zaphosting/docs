@@ -2,7 +2,7 @@
 id: contribution-submission
 title: Submission Process
 description: Information on the submission process for the ZAP-Hosting docs contribution program - ZAP-Hosting.com documentation
-sidebar_label: Submission Process
+sidebar_label: Submission
 ---
 
 Learn more about the process for contributing to our documentation on this page, following in chronological order.
@@ -22,7 +22,7 @@ As mentioned in the introduction, all content that is produced must be original 
 ### Submitting suggestion
 Now that you are are confident that your suggestion is appropriate for our documentation, please head over to our [ZAP Docs GitHub repository](https://github.com/zaphosting/docs) and open a issue using the "Contribution Suggestion" template. Please follow the template that is provided and ensure that you fill in all necessary details. You will also be requested to confirm that you accept our Terms & Conditions for the Contribution Program, which can be [accessed here](https://zap-hosting.com/guides/docs/contribution-terms). Once you have submitted, we aim to get back to you within a few days.
 
-:::important
+:::caution
 Please ensure that you fill in your ZAP ID correctly to ensure you receive your reward to the correct account!
 :::
 

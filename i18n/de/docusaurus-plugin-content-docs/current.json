@@ -300,7 +300,7 @@
     "description": "The label for category Myth of Empires in sidebar gameserverSidebar"
   },
   "sidebar.guidesSidebar.category.Contribution Program": {
-    "message": "Contribution Program",
+    "message": "Beitragsprogramm",
     "description": "The label for category Contribution Program in sidebar guidesSidebar"
   }
 }

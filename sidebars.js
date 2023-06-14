@@ -78,8 +78,8 @@ const sidebars = {
       label: 'Contribution Program',
       items: [
         "contribution-introduction",
-        "contribution-submission",
         "contribution-guidelines",
+        "contribution-submission",
         "contribution-rewards"
       ]
     },
