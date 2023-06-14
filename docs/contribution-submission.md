@@ -75,7 +75,7 @@ sidebar_label: Admin Commands
 ---
 ```
 
-The final step for ensuring that your newly created page shows up on the sidebar, is to add it to the `sidebar.js` file into the correct place. Since the **Rust** section already exists, we can find it using `CTRL+F` and searching for rust. Under the last item, you should create a new line and enter the name of your file, in this example it will be `rust-comamnds`.
+The final step for ensuring that your newly created page shows up on the sidebar, is to add it to the `sidebar.js` file into the correct place. Since the **Rust** section already exists, we can find it using `CTRL+F` and searching for rust. Under the last item, you should create a new line and enter the name of your file, in this example it will be `rust-commands`.
 
 ![image](https://github.com/zaphosting/docs/assets/42719082/c5480a84-1778-4c62-928a-928fd4da962e)
 

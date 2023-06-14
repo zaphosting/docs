@@ -5,6 +5,8 @@ description: Information on the ZAP-Hosting docs contribution program - ZAP-Host
 sidebar_label: Introduction
 ---
 
+![Main Banner](https://github.com/zaphosting/docs/assets/42719082/d1b7ad03-58b4-4fc6-9544-a78a1ed0486d)
+
 ## ZAP-Hosting docs contribution program
 We believe in the power of community, which is why we run our own ZAP-Hosting docs contribution program which enables our community to produce high-quality, practical and easily accessible guides to support a wide range of topics and help out other fellow people. Of course, it also comes with the sweet benefit of ZAP Coins as a reward!
 
