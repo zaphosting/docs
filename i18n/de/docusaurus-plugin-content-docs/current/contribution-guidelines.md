@@ -82,7 +82,7 @@ Du solltest eine Aufzählung dieser Voraussetzungen unter der Überschrift des A
 
 
 
-### Steps
+### Schritte
 
 Der Abschnitt "Schritte" ist der Teil einer verfahrenstechnischen Anleitung, in dem du beschreibst, was die Leser zu tun haben und warum. Jeder Schritt sollte der Überschrift H2 folgen. Du kannst die Schrittnummer erwähnen, bevor du den Schritt beschreibst, z.B. **Schritt 1 - Einrichten des API-Kontos** wäre eine geeignete Schrittüberschrift. Nach dieser Überschrift solltest du kurz und schnell beschreiben, was der Leser in diesem Schritt tun wird, um ein Gesamtziel zu erreichen. Wie bereits erwähnt, verwendest du die zweite Person (z. B. "Du wirst erstellen") und nicht die erste Person.
 
