@@ -1,5 +1,5 @@
 # ZAP-Hosting Documentation Repository
-Welcome to the official [ZAP-Hosting Docs](https://zap-hosting.com/guides/docs) Repository, home to everything-docs related 👋
+Welcome to the official [ZAP-Hosting Docs](https://zap-hosting.com/guides) Repository, home to everything-docs related 👋
 
 Are you interested in improving the docs? Check out the appropriate sections below to learn more! 👍
 
