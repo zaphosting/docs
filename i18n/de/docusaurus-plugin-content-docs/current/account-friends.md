@@ -16,7 +16,7 @@ Auf unserer "[Freunde werben-Seite](https://zap-hosting.com/de/customer/affiliat
 Über das Freunde werben Programm erhältst du eine Verkaufsprovision von bis zu 50%. Die genauen Verkaufsprovisionen für alle Produkte findest du auf der Freunden werben-Seite unter "[Konditionen](https://zap-hosting.com/de/customer/affiliate/conditions/)".
 
 :::info
-Bei der ausgezahlten Provision handelt es sich um einen Netto-Wert.
+Die angezeigte Provision basiert auf dem Verkaufswert inklusive Mehrwertsteuer. Unternehmen und Individuen aus Deutschland, die Mehrwersteuer ausweisen müssen, können diesen Betrag inklusive Mehrwertsteuer in der Rechnung angeben. Darf keine Mehrwersteuer ausgewiesen werden, muss der Betrag um die Mehrwertsteuer reduziert werden.
 :::
 Das heißt, dass du die Mehrwertsteuer von deinem angezeigten Affiliate-Guthaben bei Auszahlung anbziehen musst. Dies kannst du machen, indem du den angezeigten Betrag durch 1.19 teilst (19% deutsche MWST.). Beispiel: 100€ Affiliate Guthaben. In Rechnung zu stellen sind: 100 / 1,19 = 84,03€. Bei einer Auszahlung in ZAP Coins erhältst du den vollen Betrag.
 :::info
@@ -101,7 +101,7 @@ Um eine Auszahlung zu beantragen, klicke in der Übersicht auf der "[Freunde wer
 Per PayPal auszahlen lassen:**
 Nutze das PayPal Rechnungs Feature: "[PayPal Invoice Creator](https://www.paypal.com/invoice/create?fromWidget=newuser)"
 
-Hier müssen unsere Firmen Informationen als Rechnungsempfänger angegeben werden:
+Hier müssen unsere Firmen Informationen als Rechnungsempfänger angegeben werden (dies kann getan werden, indem ein neuer Kunde hinzugefügt wird/ein bestehender Kunde bearbeitet wird):
 
 `ZAP-Hosting GmbH & Co. KG,
 Krokusweg 9a,
@@ -110,6 +110,8 @@ Deutschland`
 
 
 In der Beschreibung muss `zap affiliate payout <Kundennummer>` vorkommen.
+
+Ebenfalls hinzugefügt werden (als "Rechnung von") müssen die Adressinformationen des Individuums bzw. Unternehmens, das die Rechnung abschickt. Diese Informationen können unter "Geschäftsinformationen bearbeiten" hinzugefügt werden.
 
 Bitte sende die PayPal Rechnung an: `m.kluck@zap-hosting.com`
 
