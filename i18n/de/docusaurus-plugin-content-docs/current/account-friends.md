@@ -101,7 +101,7 @@ Um eine Auszahlung zu beantragen, klicke in der Übersicht auf der "[Freunde wer
 Per PayPal auszahlen lassen:**
 Nutze das PayPal Rechnungs Feature: "[PayPal Invoice Creator](https://www.paypal.com/invoice/create?fromWidget=newuser)"
 
-Hier müssen unsere Firmen Informationen als Rechnungsempfänger angegeben werden (dies kann getan werden, indem ein neuer Kunde hinzugefügt wird/ein bestehender Kunde bearbeitet wird):
+Hier muss unsere volle Unternehmens-Adresse als Rechnungsempfänger angegeben werden (dies kann getan werden, indem ein neuer Kunde hinzugefügt wird/ein bestehender Kunde bearbeitet wird):
 
 `ZAP-Hosting GmbH & Co. KG,
 Krokusweg 9a,
