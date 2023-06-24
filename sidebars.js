@@ -155,9 +155,9 @@ const sidebars = {
         },
         {
           type: "category",
-          label: "Forge",
+          label: "Forge & Fabric",
           items: [
-            "minecraft-forge-add-mods"
+            "minecraft-forge-fabric-add-mods-modpacks"
           ]
         }
       ],
