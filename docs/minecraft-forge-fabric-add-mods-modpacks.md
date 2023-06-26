@@ -36,14 +36,19 @@ You can filter by version and modloader using the drop-down menu at the top of t
 ![filter by version and modloader](https://i.imgur.com/QfTDr9B.png)
 :::
 
-**For mods:** In the "File Details" section, press the "Download" button. Save this file somewhere, you'll need it later on.
+<Tabs>
+<TabItem value="Mods" label="For Mods" default>
+In the "File Details" section, press the "Download" button. Save this file somewhere, you'll need it later on.
 
 ![download the mod file](https://i.imgur.com/9uRWWUK.png)
+</TabItem>
 
-**For modpacks:** In the "File Details" section, scroll down until you see "Additional Files" and click on the three dots, select "Download file". Save this file somewhere, you'll need it later on.
+<TabItem value="Modpacks" label="For Modpacks">
+In the "File Details" section, scroll down until you see "Additional Files" and click on the three dots, select "Download file". Save this file somewhere, you'll need it later on.
 
 ![download the modpack file](https://i.imgur.com/nrG8oMp.png)
-
+</TabItem>
+</Tabs>
 
 ## Step 2 - Extracting files from downloads (only for modpacks)
 
