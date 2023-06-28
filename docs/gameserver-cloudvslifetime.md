@@ -10,6 +10,6 @@ A cloud game server has the advantage that it supports a wide range of games. Th
 With a cloud server you can change games if the slot price is the same price as the game you are wanting to change to, then there is no fee and you can switch it out anytime you feel like you want to have a different server. You can check more here regarding changing the game on the gameserver cloud [Change the game](https://zap-hosting.com/guides/docs/en/gameserver_gameswitch/).
 
 ## Lifetime Gameserver
-The lifetime game server has the advantage that it has no runtime and therefore runs for a lifetime. This **only supports Minecraft products** and is therefore currently not recommended for customers who want to run another game on their server.
+The lifetime game server has the advantage that it has no runtime and therefore runs for a lifetime. This supports [many games](https://zap-hosting.com/en/shop/product/lifetime-gameserver/) we offer.
 
 By having a lifetime gameserver, you have ther perk of it being a lifetime therefore you do not pay any monthly cost. You still can upgrade the lifetime server. You will have to pay a fee to unlock the different types of minecraft games this can be spigot or forge for example. The panel for the lifetime and gameserver is exactly the same so you will not be confused.
