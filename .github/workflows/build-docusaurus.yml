@@ -43,6 +43,7 @@ jobs:
               path: docusaurus/build.tar
               retention-days: 90
       - name: Update i18n files
+        if: ${{ !github.event.pull_request.head.repo.fork }}
         run: |
           cd docusaurus
           npm run write-translations -- --locale de
