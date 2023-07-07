@@ -9,8 +9,6 @@ Are you interested in improving the docs? Check out the appropriate sections bel
 
 The contribution program is accessible to anyone who wants to share their **knowledge** and **experience** with the community! We actively look for dedicated writers who have **strong technical skills** and are **knowledgeable** in the respective field.  Most importantly, we look for writers who are dedicated and are happy in **collaborating** with our ZAP-Hosting Docs Team to improve and revise their content prior to publishing. :pencil2::speaking_head:
 
-**And it gets even BETTER!** For the entire duration of **June**, we will be crediting an extra **10%** to the final evaluated reward! 🎉💚
-
 **Contribute now. Get rewarded.** Head over to the [Contribution Program](https://zap-hosting.com/guides/docs/contribution-introduction) section of our documentation to learn more! 🚀
 
 ## Reporting Bugs & Incorrect Information
