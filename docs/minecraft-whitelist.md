@@ -7,6 +7,18 @@ sidebar_label: Whitelist
 
 Click here to get to our Minecraft servers: [Minecraft server hosting](https://zap-hosting.com/en/minecraft-server-hosting/)
 
+
+
+:::tip VIDEO ON SUBJECT
+
+Do you prefer a guide rather in the form of a video or as an additional visual supplement? No problem! We also provide a video for this subject!
+
+
+
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/nyor26XxwLY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+:::
+
+
 The **Minecraft Whitelist** is an option to protect your server by only allowing selected players on the list to connect to yourserver. By default, Minecraft doesn't offer a server password option like other games do.
 
 ![image](https://user-images.githubusercontent.com/13604413/159177717-aa8faccd-3535-4147-b3db-278f2799c883.png)

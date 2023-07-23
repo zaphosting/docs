@@ -1,11 +1,19 @@
 ---
 id: account-2factor
-title: Setup Zwei-Faktor-Authentifizierung
+title: Zwei-Faktor-Authentifizierung
 description: Anleitung, wie die Zwei-Faktor-Authentifizierung bei ZAP-Hosting einrichtest - ZAP-Hosting.com Dokumentation
 sidebar_label: Zwei-Faktor-Authentifizierung
 ---
 
-## Wie aktiviere ich die Zwei-Faktor-Authentifizierung?
+
+
+## Einführung
+
+Die Zwei-Faktor-Authentifizierung (2FA) ist eine zusätzliche Sicherheitsmaßnahme. Durch die Verwendung der Zwei-Faktor-Authentifizierung wird das Konto erheblich sicherer, da ein Angreifer sowohl das Passwort als auch den zweiten Faktor kennen müsste, um Zugriff zu erhalten. Selbst wenn das Passwort kompromittiert wird, bleibt das Konto geschützt, solange der Angreifer nicht auch über den zweiten Faktor verfügt. Dies macht die Zwei-Faktor-Authentifizierung zu einer effektiven Methode, um die Sicherheit von Konten und persönlichen Informationen zu erhöhen. 
+
+
+
+## Authentifizierung aktivieren
 
 Um die **Zwei-Faktor-Authentifizierung** zu aktivieren, musst du auf deinen Namen klicken und im Anschluss auf **Sicherheit**:
 
@@ -27,7 +35,9 @@ In der App kannst du dann unter **Barcode scannen** diesen aktivieren:
 
 Anschließend musst du beim Login einen Code eingeben, der dir dann in der App angezeigt wird.
 
-## Wie deaktiviere ich die Zwei-Faktor-Authentifizierung?
+
+
+## Authentifizierung deaktivieren
 
 Um die **Zwei-Faktor-Authentifizierung** zu **deaktivieren** kannst du wieder unter Sicherheit auf deaktivieren gehen: 
 

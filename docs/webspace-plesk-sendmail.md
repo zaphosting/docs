@@ -5,6 +5,19 @@ description: Information on how to set up email addresses for your webspace from
 sidebar_label: Sending Emails
 ---
 
+
+
+:::tip VIDEO ON SUBJECT
+
+Do you prefer a guide rather in the form of a video or as an additional visual supplement? No problem! We also provide a video for this subject!
+
+
+
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/x82zqEeAK1U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+:::
+
+
+
 ## Create Email
 
 In the Plesk Dashboard press the "**Mail**" button. 

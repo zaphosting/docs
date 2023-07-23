@@ -1,9 +1,13 @@
 ---
 id: account-security
-title: Account-Sicherheit - Informationen zur Absicherung eines ZAP-Accounts
+title: Informationen zur Absicherung eines ZAP-Accounts
 description: Wie du deinen Account  bei ZAP-Hosting mit sicheren Passwörtern und 2-Faktor-Authentifizierung absichern kannst - ZAP-Hosting.com Dokumentation
-sidebar_label: Sicherheit
+sidebar_label: ZAP-Account absichern
 ---
+
+
+
+## Einführung
 
 Dein Account bei uns gibt Zugang zu deinen Diensten, entsprechend ist Sicherheit - besonders in der heutigen Zeit - sehr wichtig. Wir versuchen von unserer Seite zu tun was wir können, um dich zu schützen. Beispielsweise bieten wir Belohnungen für Meldungen zu Sicherheitslücken für Whitehat Hacker in [unserem Bug Bounty Programm](https://zap-hosting.com/de/sicherheit/) an.  
 Zur Sicherheit deines Accounts gehören aber zwei Seiten, deshalb hier einige Informationen, wie du deinen Account besser schützen kannst.
