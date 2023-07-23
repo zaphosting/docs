@@ -5,9 +5,9 @@ description: Information on how to install plugins on your SCP ServerMod server 
 sidebar_label: Install Plugins
 ---
 
-:::info
-To install plugins onto your server, you require SCP: ServerMod. Sadly it will not work on main vanilla version of the game. 
-:::
+:::caution The game SCP: Secret Laboratory with the **Servermod extension** is currently no longer actively offered in our store for the time being due to lack of compatibility. We recommend to switch to **[SCP:EXILED](https://zap-hosting.com/guides/docs/exiled-plugins)** instead. This documentation page will remain up for the time being.  :::
+
+
 
 ## Connect to FTP
 

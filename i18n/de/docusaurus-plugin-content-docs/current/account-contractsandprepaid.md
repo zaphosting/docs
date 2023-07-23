@@ -5,7 +5,6 @@ description: Informationen zu den verschiedenen Vertragsoptionen bei ZAP-Hosting
 sidebar_label: Verträge & Prepaids
 ---
 
-## Verträge & Prepaids
 Eingeloggt in deinem ZAP-Hosting Account findest Du auf der linken Seite den Menüpunkt "Verträge & Prepaids". Dort sind alle aktiven Server, aber auch abgelaufene Server, die noch nicht gelöscht wurden aufgelistet.
 
 

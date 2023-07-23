@@ -5,11 +5,11 @@ description: Instructions on how to use Community Advertising to earn ZAP credit
 sidebar_label: Community ads
 ---
 
-## Community Advertising
+## ## Introduction
 
 Community advertising is a way to earn money by advertising ZAP hosting. By using this feature it's also possible to get "**free**" servers. Good advertising which is submitted and also accepted would be compensated with "**0.24€**" for each link.
 
-## What has to be considered when advertising?
+## Important aspects when creating advertising
 
 ### The advertisement needs to be independently 
 

@@ -5,7 +5,7 @@ description: Anleitung wie du Geld mit ZAP-Hosting verdienen kannst, indem du Fr
 sidebar_label: Freunde werben
 ---
 
-## Freunde werben Programm
+## Einführung
 Das Freunde werben Programm ist unser Affiliate-Programm, mit dem du Geld oder ZAP-Coins verdienen kannst, indem du neue Kunden für ZAP-Hosting wirbst.
 
 ## Wie funktioniert es?

@@ -6,7 +6,7 @@ sidebar_label: Change the game
 
 ---
 
-## The gameserver cloud
+## Introduction
 
 ZAP-Hosting's game server allows you to change the game that is installed on your game server at any time. To do so, you install a new game via the web interface and activate it on your server. Inactive games will remain and will not be deleted! The following aspects must be considered when changing games:
 

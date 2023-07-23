@@ -1,18 +1,26 @@
 ---
 id: account-partner-system
-title: Partner-System - Vorteile und Konditionen einer Partnerschaft mit ZAP-Hosting
+title: Einführung in das ZAP-Hosting Partnerprogramm
 description: Informationen, wie du dich als Partner bewerben kannst, was die Anforderungen sind und was wir bieten können - ZAP-Hosting.com Dokumentation
-sidebar_label: Partner-System
+sidebar_label: Einführung
 ---
 
-## ❔ Was ist das Partnersystem?
+
+
+## Einführung
+
 Du hast einen Youtube-Kanal, streamst auf Twitch oder leitest einen Gaming-Clan? Dann kannst du dich als Partner bewerben. Unsere Partner bewerben ZAP-Hosting auf ihren Kanälen und können im Gegenzug beispielsweise **kostenfreie Server, Hardware** oder **Server** für Gewinnspiele oder **Geld** erhalten.
 
-## 💡 Wie bewerbe ich mich als Partner?
+
+
+## Bewerbung
 
 Um dich als Partner zu bewerben, klicke auf unserer [Partnerseite](https://zap-hosting.com/de/partner/) einfach auf das Feld "**Jetzt bewerben**" und fülle die Bewerbung aus. 
 
-## 👦 An wen richtet sich das Partnerprogramm?
+
+
+## Zielgruppe
+
 Das Partnerprogramm richtet sich an:
 - Content Creators
 - Gaming Clans
@@ -23,7 +31,9 @@ Das Partnerprogramm richtet sich an:
 
 Wichtig ist, dass dein Kanal eine bestimmte Mindestreichweite hat und deine Zielgruppe interessiert an Game-Servern ist. Hast du beispielsweise einen Youtube-Kanal, auf dem du Minecraft-Videos zeigst, bist du genau richtig für unser Partner-Programm. Schmink-Tipps hingegen sind für unser Partnerprogramm eher uninteressant.
 
-## 📣 Wie hoch sollte meine Reichweite sein?
+
+
+## Erforderliche Reichweite 
 
 Als Partner solltest du eine bestimmte Reichweite mitbringen, damit eine Partnerschaft sich auch für uns sinvoll erscheint. Bei Videokanälen achten wir beispielsweise vor allem darauf, wie hoch die Anzahl der Videoaufrufe in den letzten Monaten war, bei Foren auf Mitgliederanzahl und ob regelmäßig Beiträge erstellt werden.
 
@@ -31,7 +41,9 @@ Als Partner solltest du eine bestimmte Reichweite mitbringen, damit eine Partner
 Als Faustregel sollte deine Reichweite im vierstelligen Bereich liegen, um als Partner akzeptiert zu werden.
 :::
 
-## ➕ Was sind die Vorteile?
+
+
+## Was wir bieten - Die Vorteile!
 
 Als Partner von ZAP-Hosting kannst du folgende Vorteile erhalten:
 

@@ -1,9 +1,13 @@
 ---
 id: account-security
-title: Account security - Information on securing a ZAP account
+title: Information on securing a ZAP account
 description: How to secure your account at ZAP-Hosting with strong passwords and 2-factor authentication - ZAP-Hosting.com documentation
-sidebar_label: Safety
+sidebar_label: Secure ZAP account
 ---
+
+
+
+## Introduction
 
 Your account with us gives you access to your services, so security is very important - especially nowadays. We try to do what we can to protect you. For example, we offer rewards for reporting vulnerabilities to whitehat hackers in [our bug bounty program](https://zap-hosting.com/en/security/).
 However, there are two sides to the security of your account, so here is some information on how you can better protect your account.

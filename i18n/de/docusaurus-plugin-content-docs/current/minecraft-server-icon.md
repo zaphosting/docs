@@ -7,6 +7,19 @@ sidebar_label: Server Icon
 
 Hier gelangst du zu unseren Minecraft Servern: [Minecraft Server mieten](https://zap-hosting.com/de/minecraft-server-mieten/)
 
+
+
+:::tip VIDEO ZUM THEMA
+
+Du bevorzugst eine Anleitung eher in Form eines Videos oder als zusätzliche visuelle Ergänzung? Kein Problem! Für dieses Thema stellen wir ebenfalls ein Video zur Verfügung!
+
+
+
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/m5mpKcd9Ur0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+:::
+
+
+
 Minecraft bietet die Option an ein eigenes Server Icon hinzuzufügen, das im Multiplayer vor dem Server angezeigt wird, sofern der Server eingespeichert wurde.
 
 ## Hinzufügen des Icons 

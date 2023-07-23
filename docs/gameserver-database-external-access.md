@@ -5,7 +5,7 @@ description: Information on how to access the databases of game servers from ZAP
 sidebar_label: External database access
 ---
 
-## External database access
+## Introduction
 
 ZAP-Hosting offers MySQL databases inclusive for the gameserver products. These can be managed either internally via phpMyAdmin or externally via MySQL administration tools such as Navicat or HeidiSQL. 
 
@@ -13,11 +13,11 @@ The user credentials to access the database are required for this purpose. Those
 
 ![image](https://user-images.githubusercontent.com/13604413/159171035-cbada76f-c540-42d1-8a77-26d9b09acaa1.png)
 
-### Preparation
+## Preparation
 
 First of all we need a Software, in this example we're showing [Navicat](https://www.chip.de/downloads/Navicat-Lite_70358373.html) or [HeidiSQL](https://www.heidisql.com/download.php) Afterwards the downloaded file must be executed and the setup procedure has to be followed. When this step is completed, the program can be started and the connection to the database configurated. 
 
-### HeidiSQL
+## HeidiSQL
 
 In order for the connection to be established in HeidiSQL, we create a new connection with "New".
 
@@ -29,7 +29,7 @@ User name and password are also to be taken from the data, port remains on 3306.
 After that we just click "Open"
 
 
-### Navicat
+## Navicat
 
 In order to establish the connection in Navicat we create a new connection. Under **Connection** we select **MySQL**. Afterwards another popup window opens where the database information must be inserted.
 
