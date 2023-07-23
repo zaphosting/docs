@@ -4,22 +4,24 @@ title: Submit suggestions
 description: Information on how to submit suggestions for new game servers and features on ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Submit Suggestions
 ---
-## Submit Suggestions
-### Can suggestions be submitted?
+## Introduction
+The **Submit Suggestions** option provide our customers with the ability to submit desired features or changes. These can then be favoured by the ZAP community. In most cases, the more interest there is in a suggestion, the higher is the priority. 
+
+## Can suggestions be submitted?
 Suggestions can be submitted on our suggestion page. We regularly review and evaluate all suggestions. The suggested page can be found under the following link:
  https://zap-hosting.com/en/suggestion/
 
-### What suggestions can be submitted?
+## What suggestions can be submitted?
 In principle, all types of suggestions can be submitted. We place particular emphasis on suggestions for the categories "game request" and "web interface features".
 
-### How are suggestions submitted?
+## How are suggestions submitted?
 To submit a suggestion, simply click on the "Suggest Feature" button on the suggestion page. A form opens in which the suggestion can be entered and the category ("Game request", "Web Interface Feature" and "Miscellaneous") can be selected. The suggestion is submitted using the "Suggest Now" button.
 
 ![image](https://user-images.githubusercontent.com/61953937/159140324-2bfd5859-dca8-4ab7-acb9-27827a64b4d0.png)
 
 ![image](https://user-images.githubusercontent.com/61953937/159140332-579872bd-c343-4458-b4b1-05cdb500805f.png)
 
-### What should be considered when suggesting games?
+## What should be considered when suggesting games?
 In principle, any game or modpack for which we do not yet offer a game server can be proposed. We review all suggestions and decide whether it makes sense to add a particular game. Minecraft modpacks can of course be suggested under "Game Request".
 * For game suggestions, it is sufficient to only enter the game name / modpack name and, if necessary, a link to the website of the game/modpack. Example:
 :::info

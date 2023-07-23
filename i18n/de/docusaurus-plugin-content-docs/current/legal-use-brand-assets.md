@@ -19,7 +19,7 @@ ZAP-Hosting behält sich das Recht vor, jegliche erteilte Erlaubnis zur Nutzung 
 
 <br/>
 
-### Fragen
+## Fragen
 
 **Ich möchte ein Banner aus der Preset-Liste im Webinterface für meine Website verwenden. Ist das ohne Erlaubnis gestattet?**
 

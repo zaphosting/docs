@@ -5,6 +5,10 @@ description: ZAP Hosting Locations Information - ZAP-Hosting.com documentation
 sidebar_label: Locations
 ---
 
+
+
+## Introduction
+
 More locations, faster connections and more enjoyment with the server. This is the goal of ZAP-Hosting, which was founded in 2010 in Germany where it also offered its first server location. More locations have been added steadily since then to provide the best possible experience for all of our customers. 
 
 Due to the great international interest and growth of the company, additional locations in Europe, North and South America, Asia and Australia have been added over the years. We are currently offering our server products in **FFM / Eygelshoven, DE, London, UK, Helsinki, Finland, Los Angeles, USA (west), Dallas, USA (central), Ashburn, USA (east), Montreal, Canada, Sydney, Australia, Singapore, Asia**. 
