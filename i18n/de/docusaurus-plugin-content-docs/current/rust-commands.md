@@ -1,7 +1,7 @@
 ---
 id: rust-commands
 title: Admin Befehle
-description: Informationen zu Admin Befehle für Rust von ZAP-Hosting - ZAP-Hosting.com Dokumentationen
+description: Informationen zu Admin Befehle für Rust von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Admin Befehle
 ---
 

@@ -1,7 +1,7 @@
 ---
 id: account-usermanagement
 title: User administration - Servers at ZAP-Hosting can be administered by several users
-description: Information on user administration - Give other users selected access to the administration of your server - ZAP-Hosting.com Documentation
+description: Information on user administration - Give other users selected access to the administration of your server - ZAP-Hosting.com documentation
 sidebar_label: User Management
 ---
 
@@ -25,7 +25,7 @@ At first you have to create a user group, in order to be able to create and assi
 
   - Overview, Start settings, Plugins, Backups, Updates, Switch game, Configs, Databases, FTP browser / account, Console
 
-- VPS / Rootserver
+- VPS / Root server
 
   - Overview, Settings, Serial Console, User credentials
 

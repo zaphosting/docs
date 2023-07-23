@@ -1,7 +1,7 @@
 ---
 id: vserver-vnc
 title: Was ist VNC?
-description: Informationen zur VNC Konsole für Vserver/Rootserver von ZAP-Hosting - ZAP-Hosting.com Dokumentationen
+description: Informationen zur VNC Konsole für Vserver/Rootserver von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Was ist VNC?
 ---
 

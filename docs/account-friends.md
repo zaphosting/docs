@@ -1,7 +1,7 @@
 ---
 id: account-friends
 title: Refer friends and earn money with ZAP-Hosting
-description: How to earn money with ZAP-Hosting by referring friends - ZAP-Hosting.com documentations
+description: How to earn money with ZAP-Hosting by referring friends - ZAP-Hosting.com documentation
 sidebar_label: Refer a Friend
 ---
 
@@ -16,7 +16,7 @@ On our "[Refer a Friend](https://zap-hosting.com/de/customer/affiliate/)" page y
 Through the Refer a Friend program you will receive a sales commission of up to 50%. The exact sales commissions for all products can be found on the refer a friend page under "[conditions](https://zap-hosting.com/de/customer/affiliate/conditions/)".
 
 :::info
-The commission paid out is a net value.
+The affiliate credit display is based on payments including VAT. If you are not a German business/individual who has to add VAT to their invoices, you have to deduct VAT before sending your invoice.
 
 This means that you have to deduct the VAT from your displayed affiliate balance when paying out. You can do this by dividing the displayed amount by 1.19 (19% German VAT). Example: 100€ affiliate credit. To be invoiced are: 100 / 1,19 = 84,03€. If you pay out in ZAP Coins, you will receive the full amount.
 
@@ -98,7 +98,7 @@ To request a cashout, simply click on the "Cashout/Rebooking" button in the over
 **PayPal payout:**
 Use the PayPal invoice feature: "[PayPal Invoice Creator](https://www.paypal.com/invoice/create?fromWidget=newuser)"
 
-Here our company information must be entered as invoice recipient:
+Here our company information must be entered as invoice recipient/in the bill to field (you can add our full adress by choosing to add a new customer/edit an existing customer):
 
 `ZAP-Hosting GmbH & Co. KG,
 Krokusweg 9a,
@@ -106,5 +106,7 @@ Krokusweg 9a,
 Germany`
 
 The description must include `zap affiliate payout <customer number>`.
+
+You must also add your or your companies full address information to the "bill from" part of the invoice (you can do so by editing your business information).
 
 Please send the PayPal invoice to: `m.kluck@zap-hosting.com`

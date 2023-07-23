@@ -1,0 +1,36 @@
+name: 🐛 Report missing or incorrect information
+description: You have found missing or incorrect information and want to report it? This is the right place to do so! :)
+labels: [report missing/incorrect information]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        You have found missing or incorrect information and want to report it? Written errors cannot be completely avoided. Also information can become outdated over time. It is difficult to keep all information up to date continuously due to the amount of content. We are therefore very pleased about any reports that draw attention to errors/problems and allow us to fix them as quickly as possible. 
+  - type: textarea
+    attributes:
+      label: Which documents (guides) is your report about? 
+      description: Please provide us with the links (URL) to the document(s) affected. 
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Which content is incorrect or out of date?
+      description: Please reference the content in question or limit this by specifying lines of text from the document. 
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: What changes need to be made?
+      description: Please provide us with the content that needs to be added/changed or a reference link. 
+    validations:
+      required: true
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: By submitting this form, you agree that...
+      description: You must confirm and agree with all of the points.
+      options:
+        - label: You have filled in the form to the best of your ability.
+          required: true
+        - label: You confirm that the error still exists and have referenced it appropriately.
+          required: true

@@ -1,7 +1,7 @@
 ---
 id: gameserver-database-external-access
 title: Externer Datenbankzugriff
-description: Informationen, wie du mit externen Verwaltungsprogrammen auf die Datenbanken von Gameservern von ZAP-Hosting zugreifen kannst - ZAP-Hosting.com Dokumentationen
+description: Informationen, wie du mit externen Verwaltungsprogrammen auf die Datenbanken von Gameservern von ZAP-Hosting zugreifen kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Externer Datenbankzugriff
 ---
 

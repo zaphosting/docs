@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'ZAP-Hosting Docs',
   tagline: 'If you want more Power!',
-  favicon: '/img/favicon-32x32.png',
+  favicon: '/img/favicon-32x32.webp',
   
   // Set the production url of your site here
   url: 'https://zap-hosting.com',

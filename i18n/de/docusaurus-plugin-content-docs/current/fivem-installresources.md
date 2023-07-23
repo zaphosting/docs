@@ -1,9 +1,8 @@
 ---
 id: fivem-installresources
-title: Resourcen, Mods und Scripts auf Server installieren
-description: Informationen, wie du Ressourcen, Mods und Scripts auf deinen FiveM-Server von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentationen
-sidebar_label: Resourcen Installieren
-
+title: Installation von Resourcen
+description: Informationen, wie du Ressourcen auf deinen FiveM-Server von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentation
+sidebar_label: Resourcen installieren
 ---
 
 

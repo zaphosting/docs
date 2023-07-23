@@ -1,7 +1,7 @@
 ---
 id: fivem-useprofiler
 title: Profiler benutzen und Serverprobleme identifizieren
-description: Informationenen, wie du den Profiler für deinen FiveM-Server on ZAP-Hosting zur Problemidentifizierung benutzt und interpretierst - ZAP-Hosting.com Dokumentationen
+description: Informationenen, wie du den Profiler für deinen FiveM-Server on ZAP-Hosting zur Problemidentifizierung benutzt und interpretierst - ZAP-Hosting.com Dokumentation
 sidebar_label: Profiler Benutzen
 ---
 

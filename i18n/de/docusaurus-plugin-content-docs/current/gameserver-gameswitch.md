@@ -1,7 +1,7 @@
 ---
 id: gameserver-gameswitch
 title: Spielwechsel mit der Gameservercloud
-description: Informationen, wie du weitere Spiele auf deinen Gameserver von ZAP-Hosting.com installieren und zwischen den Spielen wechseln kannst - ZAP-Hosting.com Dokumentationen
+description: Informationen, wie du weitere Spiele auf deinen Gameserver von ZAP-Hosting.com installieren und zwischen den Spielen wechseln kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Spielwechsel
 ---
 

@@ -1,7 +1,7 @@
 ---
 id: account-vouchers
 title: Gutscheine & Codes - Spare mit Gutscheinen
-description: Informationen, wie du Gutscheine gegen ZAP Coins oder eine Preisreduktion für Server einlösen kannst - ZAP-Hosting.com Dokumentationen
+description: Informationen, wie du Gutscheine gegen ZAP Coins oder eine Preisreduktion für Server einlösen kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Gutscheine & Codes
 ---
 

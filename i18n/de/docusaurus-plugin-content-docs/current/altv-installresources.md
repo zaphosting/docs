@@ -1,8 +1,8 @@
 ---
 id: altv-installresources
-title: Resourcen auf dem Server installieren
-description: Wie installiere ich Mods und Resourcen auf einen AltV-Server? ZAP-Hosting.com Dokumentationen
-sidebar_label: Resourcen Installieren
+title: Installation von Resourcen
+description: Informationen, wie du Resourcen auf deinen ALT:V Server von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentation
+sidebar_label: Resourcen installieren
 ---
 
 ## Mit FTP verbinden

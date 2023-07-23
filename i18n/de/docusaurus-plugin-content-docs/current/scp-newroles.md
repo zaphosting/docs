@@ -1,7 +1,7 @@
 ---
 id: scp-newroles
 title: Neue Rollen hinzufügen
-description: Informationen, wie du neue Rollen auf deinen SCP-Server von ZAP-Hosting hinzufügen kannst - ZAP-Hosting.com Dokumentationen
+description: Informationen, wie du neue Rollen auf deinen SCP-Server von ZAP-Hosting hinzufügen kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Neue Rollen hinzufügen
 ---
 

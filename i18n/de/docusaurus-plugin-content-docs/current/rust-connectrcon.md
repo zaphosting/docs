@@ -1,7 +1,7 @@
 ---
 id: rust-connectrcon
 title: Verbindung via RCON zum Server herstellen
-description: Informationen, wie du dich via RCON mit deinem Rust-Server von ZAP-Hosting verbinden kannst, um deinen Server zu verwalten - ZAP-Hosting.com Dokumentationen
+description: Informationen, wie du dich via RCON mit deinem Rust-Server von ZAP-Hosting verbinden kannst, um deinen Server zu verwalten - ZAP-Hosting.com Dokumentation
 sidebar_label: Verbindung via RCON
 ---
 

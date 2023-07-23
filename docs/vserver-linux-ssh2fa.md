@@ -8,7 +8,7 @@ sidebar_label: Two factor authentication
 
 ## Install Google Authenticator
 
-First you need to install the Google Authenticator on your Linux vServer/Rootserver. Execute the following command:
+First you need to install the Google Authenticator on your Linux VPS/Root server. Execute the following command:
 
 ```
 sudo apt install libpam-google-authenticator

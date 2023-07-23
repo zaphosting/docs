@@ -72,7 +72,17 @@ const sidebars = {
           ]
         },
       ]
-    },    
+    },
+    {
+      type: 'category',
+      label: 'Contribution Program',
+      items: [
+        "contribution-introduction",
+        "contribution-guidelines",
+        "contribution-submission",
+        "contribution-rewards"
+      ]
+    },
   ],
   
   
@@ -145,9 +155,9 @@ const sidebars = {
         },
         {
           type: "category",
-          label: "Forge",
+          label: "Forge & Fabric",
           items: [
-            "minecraft-forge-add-mods"
+            "minecraft-forge-fabric-add-mods-modpacks"
           ]
         }
       ],

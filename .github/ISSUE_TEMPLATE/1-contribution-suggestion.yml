@@ -1,0 +1,79 @@
+name: 💡 ZAP-Docs Contribution Suggestion
+description: Provide information about your proposed changes to the docs.
+labels: [contribution suggestion]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        # Contribution Suggestion
+        Thank you for your interest in our ZAP-Docs contribution program. 
+
+        Please take a look at our [Contribution Section](https://zap-hosting.com/guides/docs/contribution-introduction) on our documentation site to ensure that you fully understand the process, guidelines and potential rewards. 
+
+        Once you are ready, please fill out this template with as much detail as possible to begin the first step of the contribution process.
+  - type: textarea
+    attributes:
+      label: What topic does your proposed suggestion relate to?
+      description: e.g. Linux system administration, docker setup etc.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: How do you aim to structure your proposed change?
+      description: Please provide headings and/or steps that you plan to use.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Could you briefly summarise the contents you plan to write about to ensure you have the appropriate technical knowledge?
+      description: This could be noted down in bullet points if you wish and should be a rough draft.
+    validations:
+      required: true
+  - type: input
+    id: zapid
+    attributes:
+      label: What is your ZAP ID?
+      description: You can find this on the zap-hosting.com website in the top right whilst you are logged in.
+      placeholder: zap123456
+    validations:
+      required: true
+  - type: input
+    id: discordid
+    attributes:
+      label: What is your Discord ID?
+      description: (Optional) If you need help finding it, follow the [Discord guide](https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-).
+      placeholder: "360815761662541824"
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: Do you have any previous experience in writing and publishing articles?
+      description: (Optional) If you do, could you provide a link or some details?
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: Additional Information
+      description: (Optional) Please add any other context or screenshots about your suggestion below if necessary.
+    validations:
+      required: false
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: By submitting this form, you agree that...
+      description: You must confirm and agree with all of the points.
+      options:
+        - label: You have read and understood our contribution section on our documentation.
+          required: true
+        - label: You understand our guidelines and conditions that exist.
+          required: true
+        - label: Your suggestion is original and not a duplicate.
+          required: true
+        - label: You have provided the correct ZAP ID.
+          required: true
+        - label: You have answered this suggestion form to the best of your ability.
+          required: true
+        - label: You agree to receive feedback and communicate with our ZAP docs team.
+          required: true
+        - label: You agree to the ZAP-Hosting Contribution Program Terms & Conditions, which can be [accessed here](https://zap-hosting.com/guides/docs/contribution-terms).
+          required: true

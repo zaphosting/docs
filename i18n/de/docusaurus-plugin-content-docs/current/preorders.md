@@ -1,7 +1,7 @@
 ---
 id: preorders
 title: Vorbestellungen
-description: Informationen zu Vorbestellungen bei ZAP-Hosting. Was sind Vorbestellungen? Wann werden Server eingerichtet? Können Vorbestellungen zurückgezogen werden? - ZAP-Hosting.com Dokumentationen
+description: Informationen zu Vorbestellungen bei ZAP-Hosting. Was sind Vorbestellungen? Wann werden Server eingerichtet? Können Vorbestellungen zurückgezogen werden? - ZAP-Hosting.com Dokumentation
 sidebar_label: Vorbestellungen
 ---
 ## Erste Schritte - Vorbestellungen
@@ -21,4 +21,4 @@ Vorbestellte Server werden vollautomatisch eingerichtet, sobald das Produkt in u
 Die 1. Laufzeit eines vorbestellten Produkts muss direkt bei Bestellung bezahlt werden. Die 1. Laufzeit beginnt grundsätzlich erst mit Bereitbestellung des Servers. Die 2. Zahlung (im Falle eines Vertrags oder der Verlängerung eines Prepaid-Servers) wird zum Ende der 1. Laufzeit fällig. Ein vorbestellter Server verursacht keine weitere Kosten solange er noch nicht eingerichtet ist.
 
 ### Ich habe einen Server vorbestellt und möchte nicht länger warten? Kann ich mein Geld zurückbekommen?
-FÜr vorbestellte Server, die noch nicht eingerichtet wurden und weiterhin als Vorbestellung bestellt werden können, wird der bereits bezahlte Betrag zurückerstattet. Hierfür reicht es aus, unseren Support zu kontaktieren.
+Für vorbestellte Server, die noch nicht eingerichtet wurden und weiterhin als Vorbestellung bestellt werden können, wird der bereits bezahlte Betrag zurückerstattet. Hierfür reicht es aus, unseren Support zu kontaktieren.

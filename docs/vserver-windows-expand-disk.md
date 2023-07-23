@@ -5,7 +5,7 @@ description: Information on how to expand the hard disk of your Windows VPS from
 sidebar_label: Extend disk
 ---
 
-After upgrading your ZAP Windows vServer, it may be necessary to add the new storage to your existing partition.
+After upgrading your ZAP Windows VPS, it may be necessary to add the new storage to your existing partition.
 
 :::info
 Don't worry, this step will not delete any data.

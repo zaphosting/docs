@@ -1,7 +1,7 @@
 ---
 id: satisfactory-connect-experimental
 title: Connect to the Server (Experimental)
-description: Information on how to connect to your Satisfactory server from ZAP-Hosting - ZAP-Hosting.com Documentation
+description: Information on how to connect to your Satisfactory server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Connect to the Server (Experimental)
 ---
 

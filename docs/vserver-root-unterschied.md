@@ -1,8 +1,8 @@
 ---
 id: vserver-root-unterschied
-title: Difference Rootserver / VPS
+title: Difference Root server / VPS
 description: Information on the differences between root servers and VPSs at ZAP-Hosting - ZAP-Hosting.com documentation
-sidebar_label: Rootserver versus vServer
+sidebar_label: Root server versus VPS
 ---
 
 ## Virtualization
@@ -11,7 +11,7 @@ Our Linux virtual servers are virtualized using LXC. This is a container virtual
 
 However, the resources are shared, which can lead to performance fluctuations. Furthermore, containers share the same operating system kernel, which is why it is also not possible to start other operating systems, such as Windows, as LXC guest. 
 
-### Rootserver & Windows V-Server
+### Root server & Windows V-Server
 The root servers and Windows virtual servers are fully virtualized using KVM. A full virtualization differs from the classic virtual server in the sense that a completely independent server is simulated, which runs independently from all other servers.
 
 The advantage is that these are independent, as well as isolated and self-contained systems, thus the root servers run stable and have a constant performance rate.

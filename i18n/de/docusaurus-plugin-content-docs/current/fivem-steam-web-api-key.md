@@ -1,7 +1,7 @@
 ---
 id: fivem-steam-web-api-key
 title: Steam Web API Key einrichten
-description: Anleitung, wie du bei deinem FiveM Server einen Steam Web API Key einrichtest - ZAP-Hosting.com Dokumentationen
+description: Anleitung, wie du bei deinem FiveM Server einen Steam Web API Key einrichtest - ZAP-Hosting.com Dokumentation
 sidebar_label: Steam Web API Key
 ---
 

@@ -1,27 +1,29 @@
 ---
 id: domain-general-domain-info
-title: Was ist eine Domain?
-description: Grundlegende Informationen zu Domains Was sind Domains, Subdomains oder IP Adressen? ZAP-Hosting.com Dokumentationen
-sidebar_label: Was ist eine Domain?
+title: Introduction
+description: General information about domains. What are domains, subdomains or IP addresses? - ZAP-Hosting.com Documentation
+sidebar_label: Introduction
 ---
 
 
-## Was ist eigentlich eine Domain? 
 
-Eine Domain kann deinen Namen oder dein Projekt im Internet repräsentieren und weltweit erreichbar machen. Du kannst eine Domain dazu benutzen um zum Beispiel eine Website online erreichbar zu machen, außerdem kannst du eine Domain auf einen Game- oder TeamSpeak 3 Server weiterleiten und diesen dann ebenfalls mit einem leicht zu merkenden Namen online erreichen.
+## What is a domain?
 
-
-### Subdomains
-
-Eine **Subdomain** ist eine Unterdomain welche du jederzeit kostenlos für deine bestehende Domain anlegen kannst. Dies geschieht über die DNS Einstellungen, eine Subdomain kann zum Beispiel so aussehen: **server.fivem-server.de**
-
-Hierbei ist **server** deine Subdomain und **fivem-server.de** der Name der eigentlichen Domain. Eine Subdomain leitet in der Regel auf eine andere Adresse weiter als die eigentliche Domain,so kannst du zum Beispiel deine Website mit **fivem-server.de** erreichbar machen während du mit **server.fivem-server.de** auf deinen FiveM- oder einen anderen Gameserver verbinden kannst. 
+A domain can represent your name or your project on the Internet and make it accessible worldwide. You can use a domain for example to make a website reachable online, furthermore you can forward a domain to a game or TeamSpeak 3 server and reach it online with an easy memorable name.
 
 
 
+## Subdomains
 
-### Domain's und IP Adressen
+A **subdomain** is a child domain which you can create at any time for free for your existing domain. This is done via the DNS settings, a subdomain can look like this for example: **server.fivem-server.com**.
 
-Im Gegensatz zu einer IP-Adresse musst du eine Domain einzeln mieten, diese ist bei einem Gameserver, Rootserver, vServer oder Voiceserver **NICHT** automatisch dabei. Eine Domain unterscheidet sich bereits im Aussehen von einer IP-Adresse. Während eine IP-Adresse aus Zahlen besteht, zum Beispiel **140.82.118.3**, hat eine Domain einen richtigen Namen und eine entsprechende Domainendung, zum Beispiel fivem.net. Hierbei wäre **fivem** der Name der Domain und **.net** die Domainendung. Neben **.net** gibt es natürlich noch viele weitere Domainendungen wie **.com** oder **.de**.
+In this case **server** is your subdomain and **fivem-server.de** is the name of the actual domain. A subdomain usually redirects to a different address compared to the actual domain, so you can for example make your website accessible with **fivem-server.com** while you can connect to your FiveM or another game server with **server.fivem-server.com**.
 
-Hier erfährst du, wie du eine Domain mieten kannst: [Eine Domain bestellen](domain-general-domain-info.md)
+
+
+
+## Domain's and IP addresses
+
+Unlike an IP address, you have to rent a domain individually, this is **NOT** automatically included with a game server, root server, VPS or voice server. A domain already differs in appearance from an IP address. While an IP address consists of numbers, for example **140.82.118.3**, a domain has a real name and a corresponding domain extension, for example fivem.net. So **fivem** would be the name of the domain and **.net** the domain extension. Besides **.net** there are of course many other domain extensions like **.com** or **.de**.
+
+Find out how to rent a domain here: [Order a domain](domain-general-domain-info.md)

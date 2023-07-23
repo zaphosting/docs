@@ -9,7 +9,7 @@ sidebar_label: Teamspeak Query Login
 
 ### Self-hosted Teamspeak Server
 
-If the Teamspeak server has been installed on your own vServer or root server via the web interface, the normal "Server Admin Query" can be used. 
+If the Teamspeak server has been installed on your own VPS or root server via the web interface, the normal "Server Admin Query" can be used. 
 The login data can be found in the web interface of the Teamspeak instance. 
 
 ### Rented Teamspeak Server from ZAP-Hosting

@@ -1,11 +1,14 @@
 ---
 id: vserver-linux-mastodon
-title: VPS Install Mastodon on server
+title: Installation of Mastodon
 description: Information on how to set up Mastodon server on your VPS from ZAP-Hosting - ZAP-Hosting.com documentation
-sidebar_label: Mastodon
+sidebar_label: Install Mastodon
 ---
 
-## What is Mastodon
+
+
+## What is Mastodon?
+
 Mastodon is free and open-source software for running self-hosted social networking services.
 
 ![image](https://user-images.githubusercontent.com/32127408/207198152-fa6ca1e6-b845-4fd8-83d9-cc4a8fb91f9f.png)

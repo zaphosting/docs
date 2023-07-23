@@ -2,7 +2,7 @@
 id: mta-becomeadmin
 title: Become an admin on MTA servers
 description: Information on how to become an admin on your MTA server from ZAP-Hosting - ZAP-Hosting.com documentation
-sidebar_label: Become Admin
+sidebar_label: Become admin
 
 ---
 

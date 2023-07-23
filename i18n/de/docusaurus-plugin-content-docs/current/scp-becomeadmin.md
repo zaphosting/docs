@@ -1,7 +1,7 @@
 ---
 id: scp-becomeadmin
 title: Admin auf dem eigenen Server werden
-description: Informationen, wie du dich zum Admin auf deinem SCP-Server von ZAP-Hosting.com machen kannst - ZAP-Hosting.com Dokumentationen
+description: Informationen, wie du dich zum Admin auf deinem SCP-Server von ZAP-Hosting.com machen kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Admin werden
 ---
 

@@ -1,7 +1,7 @@
 ---
 id: minecraft-server-icon
 title: Add or change server icon
-description: Information on how to add or change a server icon for your Minecraft server from ZAP-Hosting - ZAP-Hosting.com Documentation
+description: Information on how to add or change a server icon for your Minecraft server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Server Icon
 ---
 

@@ -1,7 +1,7 @@
 ---
 id: account-backup-storage
 title: Backup Storage
-description: Anleitung zum Backup Storage von ZAP-Hosting Serven - ZAP-Hosting.com Dokumentationen 
+description: Anleitung zum Backup Storage von ZAP-Hosting Serven - ZAP-Hosting.com Dokumentation 
 sidebar_label: Backup Storage
 ---
 

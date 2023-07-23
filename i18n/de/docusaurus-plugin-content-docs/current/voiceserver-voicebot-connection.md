@@ -1,7 +1,7 @@
 ---
 id: voiceserver-voicebot-connection
 title: Voicebot mit Teamspeak Server verbinden
-description: Informationen, wie du einen Voicebot mit deinem Teamspeak Server von ZAP-Hosting verbinden kannst - ZAP-Hosting.com Dokumentationen
+description: Informationen, wie du einen Voicebot mit deinem Teamspeak Server von ZAP-Hosting verbinden kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Voicebot Verbinden
 ---
 

@@ -1,7 +1,7 @@
 ---
 id: fivem-esx-becomeadminoverdatabase
 title: Admin über die Datenbank werden
-description: Informationen, wie du Admin über Datenbank deines FiveM-Server mit ESX von ZAP-Hosting werden kannst - ZAP-Hosting.com Dokumentationen
+description: Informationen, wie du Admin über Datenbank deines FiveM-Server mit ESX von ZAP-Hosting werden kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Admin über Datenbank werden
 ---
 

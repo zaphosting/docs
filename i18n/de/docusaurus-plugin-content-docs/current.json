@@ -298,5 +298,13 @@
   "sidebar.gameserverSidebar.category.Myth of Empires": {
     "message": "Myth of Empires",
     "description": "The label for category Myth of Empires in sidebar gameserverSidebar"
+  },
+  "sidebar.guidesSidebar.category.Contribution Program": {
+    "message": "Beitragsprogramm",
+    "description": "The label for category Contribution Program in sidebar guidesSidebar"
+  },
+  "sidebar.gameserverSidebar.category.Forge & Fabric": {
+    "message": "Forge & Fabric",
+    "description": "The label for category Forge & Fabric in sidebar gameserverSidebar"
   }
 }

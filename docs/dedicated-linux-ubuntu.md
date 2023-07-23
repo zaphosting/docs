@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-ubuntu
 title: Install Ubuntu
-description: Information about installing the Ubuntu operating system on your dedicated server from ZAP-Hosting - ZAP-Hosting.com Documentation
+description: Information about installing the Ubuntu operating system on your dedicated server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Install Ubuntu
 ---
 
