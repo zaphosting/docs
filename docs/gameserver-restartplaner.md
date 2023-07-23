@@ -5,6 +5,19 @@ description: Information on how to use the restart planner to have your ZAP-Host
 sidebar_label: Restart planner
 ---
 
+
+
+:::tip VIDEO ON SUBJECT
+
+Do you prefer a guide rather in the form of a video or as an additional visual supplement? No problem! We also provide a video for this subject!
+
+
+
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/bcsAePevPnY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+:::
+
+
+
 ## Restart planner
 
 The restart planner is a feature offered for game servers which allows you to create an automatic restart to restart the server automatically at the same time every day.
