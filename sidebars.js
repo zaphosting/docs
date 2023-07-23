@@ -634,7 +634,7 @@ const sidebars = {
       type: "category",
       label: "Stormworks",
       items: [
-        "stormworks-dashboard",
+        "stormworks-firststeps-dashboard",
         "stormworks-becomeadmin"
       ],
     },

@@ -17,7 +17,7 @@ Im Gegensatz zu einem virtuellen Server (vRootserver) hast du mit einem dedizier
 
 ## Bestellen
 
-Der Bestellvorgang ist ganz einfach. Wähle deine Wunschkonfiguration für deinen [Dedicated Server](https://zap-hosting.com/de/dedicated-server-mieten/) aus. Die Einrichtungsdauer des Dedicated Server hängt von der Verfügbarkeit ab. Das kannst du anhand des Status Symbol neben der Flagge bei den einzelnen Konfigurationen nachvollziehen. Der Status **Grün** bedeutet, dass die Konfiguration verfügbar ist und innerhalb weniger Minuten zur Verfügung steht. Sollte bei der Konfiguration der Status **Orange** angezeigt werden, so ist die Konfiguration nicht direkt verfügbar und muss zusammengestellt werden. Die Zeit für die Bereitstellung beträgt hierbei circa 5 Werktage. 
+Der Bestellvorgang ist ganz einfach. Wähle deine Wunschkonfiguration für deinen [Dedicated Server](https://zap-hosting.com/de/dedicated-server-mieten/) aus. Die Einrichtungsdauer des Dedicated Server hängt von der Verfügbarkeit ab. Das kannst du anhand des Status Symbol neben der Flagge bei den einzelnen Konfigurationen nachvollziehen. Der Status **Grün** bedeutet, dass die Konfiguration verfügbar ist und innerhalb weniger Minuten zur Verfügung steht. Sollte bei der Konfiguration der Status **Orange** angezeigt werden, so ist die Konfiguration nicht direkt verfügbar und muss zusammengestellt werden. Die Zeit für die Bereitstellung beträgt hierbei circa 5 Werktage (Montag-Freitag). 
 
 
 
@@ -29,7 +29,7 @@ Für unsere Dedicated Server bieten wir zahlreiche Konfigurationsvarianten an, w
 | -------------------- | ------------------------------------------------------------ |
 | CPU                  | Intel Xeon E5-2609v2, Intel Xeon E5-2640v2, Intel Xeon E5-2609v2, Intel Xeon E5-2637v2, Intel Xeon E5-2630v2, Intel Xeon E5-2650v2, Intel Xeon E5-2651v2, Intel Xeon E5-2667v2, Intel Xeon E5-2637v2, Intel Xeon E5-2680v2 |
 | RAM                  | Bis zu 256 GB Arbeitsspeicher                                |
-| DISK                 | Von 120 GB bis zu 2x 2 TB SSD Festplattenspeicherplatz       |
+| DISK                 | Von 500 GB bis zu 2x 2 TB SSD Festplattenspeicherplatz       |
 
 ::: info 
 

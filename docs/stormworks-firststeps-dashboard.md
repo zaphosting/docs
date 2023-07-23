@@ -1,9 +1,8 @@
 ---
-id: stormworks_firststeps_connect
+id: stormworks-firststeps-connect
 title: Dashboard overview
 description: Information about the dashboard of an Stormworks server from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Dashboard
-
 ---
 
 
