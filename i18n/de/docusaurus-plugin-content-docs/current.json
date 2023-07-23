@@ -306,5 +306,9 @@
   "sidebar.gameserverSidebar.category.Forge & Fabric": {
     "message": "Forge & Fabric",
     "description": "The label for category Forge & Fabric in sidebar gameserverSidebar"
+  },
+  "sidebar.guidesSidebar.category.Partner Program": {
+    "message": "Partner Program",
+    "description": "The label for category Partner Program in sidebar guidesSidebar"
   }
 }
