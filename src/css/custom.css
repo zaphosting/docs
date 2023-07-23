@@ -35,6 +35,19 @@
   --ifm-background-color: #181920;
 }
 
+h1 {
+  font-size: 2rem !important;
+}
+
+h2 {
+  font-size: 1.5rem !important;
+}
+
+h3 {
+  font-size: 1.25rem !important;
+}
+
+
 /* center images */
 img, iframe {
   display: block;
