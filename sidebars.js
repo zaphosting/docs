@@ -634,6 +634,7 @@ const sidebars = {
       type: "category",
       label: "Stormworks",
       items: [
+        "stormworks-dashboard",
         "stormworks-becomeadmin"
       ],
     },
@@ -790,6 +791,7 @@ const sidebars = {
       type: 'category',
       label: 'First Steps',
       items: [
+        'dedicated-introduction',
         'dedicated-ilo',
         'dedicated-iso',
         'dedicated-raid',
