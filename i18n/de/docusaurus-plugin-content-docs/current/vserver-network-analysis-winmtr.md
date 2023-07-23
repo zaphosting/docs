@@ -2,10 +2,12 @@
 id: vserver-network-analysis-winmtr
 title: Netzwerkanalyse mit MTR/WinMTR
 description: Informationen, wie du eine Netzwerkanalyse mit MTR/WinMTR durchführen kannst, um Netzwerkprobleme zu identifizieren - ZAP-Hosting.com Dokumentation
-sidebar_label: Netzwerkanalyse MTR/WinMTR
+sidebar_label: Netzwerkanalyse
 ---
 
-## Was ist MTR/WinMTR?
+
+
+## Einführung
 
 WinMTR ist ein Netzwerk-Diagnose-Programm, welches die Funktion von Ping und Traceroute vereint. Entwickelt wurde das Programm von Matt Kimball auf der Grundlage des bekannten MTR-Programm für Linux. Es bietet die Möglichkeit detaillierte Informationen über mögliche Netzwerkprobleme zu erhalten. Außerdem misst das Programm die Zeitspanne zwischen dem Aussenden eines Signals und dem Empfangen des entsprechenden Antwortpaketes. In dem folgenden Screenshot wird die Hinroute zu ZAP-Hosting.com als Beispiel gezeigt:
 
@@ -15,13 +17,13 @@ Hierbei werden alles Nodes aufgelistet, welche benutzt werden, um ans Ziel zu ko
 
 
 
-## Wann sollte die Diagnose durchgeführt werden?
+## Zeitpunkt der Erstellung einer Auswertung
 
-Der Netzwerk-Diagnose Test sollte durchgeführt werden, wenn die Problematik gerade aktiv besteht. Dabei ist es wichtig, dass die Person die davon betroffen ist den Test durchführt. Um die Netzwerk-Diagnose so gut wie möglich analysieren zu können sollte eine Auswertung von der Hinroute und Rückroute gemacht werden, falls möglich. Je nach Betriebssystem wird entweder WinMTR (Windows) oder MTR (Linux) benutzt. 
+Netzwerk-Diagnose Test sollte durchgeführt werden, wenn die Problematik gerade aktiv besteht. Dabei ist es wichtig, dass die Person die davon betroffen ist den Test durchführt. Um die Netzwerk-Diagnose so gut wie möglich analysieren zu können sollte eine Auswertung von der Hinroute und Rückroute gemacht werden, falls möglich. Je nach Betriebssystem wird entweder WinMTR (Windows) oder MTR (Linux) benutzt. 
 
 
 
-## Einrichtung von MTR / WinMTR
+## Installation von MTR / WinMTR
 
 
 
