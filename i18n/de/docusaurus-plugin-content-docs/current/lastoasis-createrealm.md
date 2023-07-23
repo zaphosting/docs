@@ -1,8 +1,8 @@
 ---
 id: lastoasis-createrealm
-title: Realm Erstellen
+title: Realm erstellen
 description: Anleitung, wie du ein Realm erstellst und deinem Server die Keys zuweist.
-
+sidebar_label: Realm erstellen
 ---
 
 
