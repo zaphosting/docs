@@ -118,16 +118,6 @@ We offer extensive documentation for our products, which serves as a knowledge b
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/tspCPMyyMJJaiXp/preview)
 
-We also offer guides for your product. This includes for example the following guides: 
-
-| Guides                           | Link                                                         |
-| -------------------------------- | ------------------------------------------------------------ |
-| Title of the guide (placeholder) | [View guide](https://zap-hosting.com/guides/docs/stormworks-becomeadmin) |
-| Title of the guide (placeholder) | [View guide](https://zap-hosting.com/guides/docs/de/)        |
-| Title of the guide (placeholder) | [View guide](https://zap-hosting.com/guides/docs/de/)        |
-
-<p style="text-align: center;">List updated last on XX.XX.XXXX</p>
-
 
 
 
