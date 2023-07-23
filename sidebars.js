@@ -186,7 +186,8 @@ const sidebars = {
             "fivem-gamebuild",
             "fivem-gamechange",
             "fivem-steam-web-api-key",
-            "fivem-whitelist"
+            "fivem-whitelist",
+            "fivem-locale"
           ]
         },
         {
@@ -256,7 +257,8 @@ const sidebars = {
           type: "category",
           label: "Configuration & Administration",
           items: [
-            "redm-change-servericon"
+            "redm-change-servericon",
+            "redm-locale"
           ]
         },
         {

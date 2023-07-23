@@ -1,5 +1,5 @@
 ---
-id: fivem-locale
+id: redm-locale
 title: Sprache / Standort (Flagge) ändern
 description: Informationen, wie du die Sprache und den Standort (Flagge) bei einem FiveM Server anpassen kannst. - ZAP-Hosting.com Dokumentation
 sidebar_label: Sprache / Standort (Flagge)
@@ -23,7 +23,7 @@ Die Konfiguration der Flagge und Sprache des Servers erfolgt über die Locales O
 
 ## Schritt 1 - Server Konfigurationsdatei aufrufen
 
-Die Server Konfigurationsdatei (server.cfg) kann in der Gameserver Verwaltung unter Configs aufgerufen werden. Bei FiveM Server mit der Verwendung von txAdmin besteht ebenfalls die Möglichkeit diese direkt in TxAdmin aufzurufen.
+Die Server Konfigurationsdatei (server.cfg) kann in der Gameserver Verwaltung unter Configs aufgerufen werden. Bei RedM Server mit der Verwendung von txAdmin besteht ebenfalls die Möglichkeit diese direkt in TxAdmin aufzurufen.
 
 
 
