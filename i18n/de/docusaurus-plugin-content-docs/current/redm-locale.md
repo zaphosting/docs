@@ -46,7 +46,11 @@ Die Definition der Sprache/Anzeige erfolgt über die Locales (Sprachcodes/Lände
 | Spanien        | Spanisch       | es_ES  |
 | Singapur       | Englisch       | en_SG  |
 
-:::caution Die Anzeige der Serverflagge wird prinzipiell von allen verfügbaren Ländern unterstützt. Allerdings beinhalten nicht alle Resourcen alle Sprachen. Stelle daher vorher sicher, dass deine Land/Sprache unterstützt wird! :::
+:::caution 
+
+Die Anzeige der Serverflagge wird prinzipiell von allen verfügbaren Ländern unterstützt. Allerdings beinhalten nicht alle Resourcen alle Sprachen. Stelle daher vorher sicher, dass deine Land/Sprache unterstützt wird!
+
+ :::
 
 
 

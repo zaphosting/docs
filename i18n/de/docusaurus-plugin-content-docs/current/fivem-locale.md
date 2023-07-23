@@ -46,13 +46,17 @@ Die Definition der Sprache/Anzeige erfolgt über die Locales (Sprachcodes/Lände
 | Spanien        | Spanisch       | es_ES  |
 | Singapur       | Englisch       | en_SG  |
 
-:::caution Die Anzeige der Serverflagge wird prinzipiell von allen verfügbaren Ländern unterstützt. Allerdings beinhalten nicht alle Resourcen alle Sprachen. Stelle daher vorher sicher, dass deine Land/Sprache unterstützt wird! :::
+:::caution 
+
+Die Anzeige der Serverflagge wird prinzipiell von allen verfügbaren Ländern unterstützt. Allerdings beinhalten nicht alle Resourcen alle Sprachen. Stelle daher vorher sicher, dass deine Land/Sprache unterstützt wird! 
+
+:::
 
 
 
 ## Schritt 3 - Inhalt der  Server Konfigurationsdatei anpassen
 
-Nachdem die Konfigurationsdatei aufgerufen und du dich um die Locale-/Sprachcode gekümmert hast, kann nun die Konfiguration vorgenommen werden.  Zunächst muss geprüft werden, ob der **sets locale** Befehl bereits vorhanden ist. Falls nicht sieht der Eintrag dafür wie folgt aus:
+Nachdem die Konfigurationsdatei aufgerufen und du dich um die Locale-/Sprachcode gekümmert hast, kann nun die Konfiguration vorgenommen werden.  Zunächst muss geprüft werden, ob der **sets locale** Befehl bereits vorhanden ist. Falls nicht sieht der Eintrag dafür wie folgt aus:
 
 ```
 # A valid locale identifier for your server's primary language.
@@ -61,7 +65,7 @@ sets locale "root-AQ"
 # please DO replace root-AQ on the line ABOVE with a real language! :)
 ```
 
-Der Wert vom **sets-locale** Befehl hat standardmäßig den **root-AQ** Wert. Dieser muss nun angepasst werden. Wenn du beispielsweise die USA als Flagge und Englisch als Sprache verwenden möchtest, dann würdest du in diesem Fall **en_US** als Wert verwenden. Speichere die vorgenommene Änderung. 
+Der Wert vom **sets-locale** Befehl hat standardmäßig den **root-AQ** Wert. Dieser muss nun angepasst werden. Wenn du beispielsweise die USA als Flagge und Englisch als Sprache verwenden möchtest, dann würdest du in diesem Fall **en_US** als Wert verwenden. Speichere die vorgenommene Änderung. 
 
 
 

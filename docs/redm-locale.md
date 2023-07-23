@@ -31,22 +31,26 @@ The server configuration file (server.cfg) can be accessed in the game server ad
 
 The definition of the language/display is done via the locales (language codes/country codes) based on the ISO 639-1/ISO 3166-1 standards. We have summarized a small list of the most relevant countries/languages below. The actual list is of course significantly larger:
 
-| Country        | Language       | Locale |
-| -------------- | -------------- | ------ |
-| Deutschland    | Deutsch        | de_DE  |
-| USA            | Englisch       | en_US  |
-| Canada         | Englisch       | en_CA  |
-| Australien     | Englisch       | en_AU  |
-| United Kingdom | Englisch       | en_GB  |
-| Finnland       | Finnisch       | fi_FI  |
-| Frankreich     | Französisch    | fr_FR  |
-| Niederlande    | Niederländisch | nl_NL  |
-| Portugal       | Portugiesisch  | pt_PT  |
-| Brasilien      | Portugiesisch  | pt_BR  |
-| Spanien        | Spanisch       | es_ES  |
-| Singapur       | Englisch       | en_SG  |
+| Country        | Language   | Locale |
+| -------------- | ---------- | ------ |
+| Germany        | German     | de_DE  |
+| USA            | English    | en_US  |
+| Canada         | English    | en_CA  |
+| Australia      | English    | en_AU  |
+| United Kingdom | English    | en_GB  |
+| Finland        | Finnish    | fi_FI  |
+| France         | French     | fr_FR  |
+| Netherlands    | Dutch      | nl_NL  |
+| Portugal       | Portuguese | pt_PT  |
+| Brazil         | Portuguese | pt_BR  |
+| Spain          | Spanish    | es_ES  |
+| Singapore      | English    | en_SG  |
 
-:::caution The display of the server flag is generally supported by all available countries. However, not all resources contain all languages. Therefore, make sure that your country/language is supported in advance! :::
+:::caution
+
+ The display of the server flag is generally supported by all available countries. However, not all resources contain all languages. Therefore, make sure that your country/language is supported in advance! 
+
+:::
 
 
 
