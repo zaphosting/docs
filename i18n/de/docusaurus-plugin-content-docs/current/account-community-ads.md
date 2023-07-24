@@ -5,13 +5,13 @@ description: Anleitung, wie du mit Community Werbung für ZAP-Hosting.com ZAP-Gu
 sidebar_label: Community Werbung
 ---
 
-## Community Werbung
+## Einführung
 
 Community Werbung ist eine Möglichkeit sich durch für ZAP-Hosting getätigte Werbung etwas Geld zu verdienen.
 Mithilfe dieser Funktion wäre es dann eben auch möglich "**kostenlose**" Server zu erhalten.
 Gute Werbung welche eingereicht und auch akzeptiert wird, würde mit "**0.24€**" pro Link vergütet.
 
-## Was muss beim Werbung erstellen beachtet werden?
+## Wichtige Aspekte beim Erstellen von Werbung
 
 ### Die Werbung muss eigenständig erstellt werden
 

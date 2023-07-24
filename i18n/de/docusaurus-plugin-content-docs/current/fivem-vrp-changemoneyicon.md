@@ -2,7 +2,7 @@
 id: fivem-vrp-changemoneyicon
 title: Geldicon ändern
 description: Informationen, wie du das Geldicon für deinen FiveM-Server mit VRP von ZAP-Hosting ändern kannst - ZAP-Hosting.com Dokumentation
-sidebar_label: Geldicon Ändern
+sidebar_label: Geldicon ändern
 ---
 
 ## Mit FTP verbinden

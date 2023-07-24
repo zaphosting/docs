@@ -1,11 +1,13 @@
 ---
 id: vserver-vnc
-title: VPS What is VNC?
+title: VNC (Virtual Network Computing) console
 description: Information about the VNC console for VPSs at ZAP-Hosting - ZAP-Hosting.com documentation
-sidebar_label: What is  VNC (Serial console)?
+sidebar_label: VNC console
 ---
 
-## What is VNC?
+## 
+
+## Introduction
 
 VNC (Virtual Network Computing) is a software that displays the screen content of a remote computer on a local computer and in return sends keyboard and mouse movements of the local computer to the remote computer. This allows you to access your server remotely even if it is not up and running properly. 
 

@@ -5,11 +5,12 @@ description: Informationen, wie du weitere Spiele auf deinen Gameserver von ZAP-
 sidebar_label: Spielwechsel
 ---
 
-## Die Gameservercloud
+## Einführung
 
 Mit einem Gameserver bei ZAP-Hosting kannst du jederzeit das Spiel, dass auf deinem Gameserver installiert ist, wechseln.
 Dazu installierst du ein neues Spiel über das Web Interface und aktivierst es auf deinem Server. Inaktive Spiele bleiben erhalten und werden nicht gelöscht!
 Folgende Punkte sind bei einem Spielwechsel zu beachten:
+
 * Wenn das Host-System gewechselt werden muss, werden bestehende Spiele auf dem Server gelöscht. Dies ist der Fall, wenn du einen Gameserver für ein anderes Betriebssystem installieren willst, beispielsweise von ARK (Windows) zu Minecraft (Linux) wechseln willst.
 :::info
 Bei einem Host-System-Wechsel erhältst du eine Warnmeldung. Lege vor dem Spielwechsel ein Backup an!

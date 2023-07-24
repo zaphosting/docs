@@ -4,22 +4,29 @@ title: Vorschläge einreichen
 description: Informatoinen, wie du Vorschläge für neue Gameserver und Funktionen auf ZAP-Hosting einreichen kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Vorschläge einreichen
 ---
-## Vorschläge einreichen
-### Können Vorschläge eingereicht werden?
+## 
+
+## Einführung
+
+Die **Vorschläge einreichen** Option bieten unseren Kunden die Möglichkeit gewünschte Features oder Änderungen einzureichen. Diese können dann von der ZAP-Community favorisiert werden. So mehr Interesse an einem Vorschlag besteht, desto höher liegt meistens auch die Priorität. 
+
+
+
+## Können Vorschläge eingereicht werden?
 Vorschläge können auf unserer Vorschlagsseite eingereicht werden. Alle Vorschläge werden von uns regelmäßig überprüft und bewertet. Die Vorschlagsseite ist unter folgendem Link zu finden:
 https://zap-hosting.com/de/suggestion/
 
-### Welche Vorschläge können eingereicht werden?
+## Welche Vorschläge können eingereicht werden?
 Grundsätzlich können jegliche Arten von Vorschlägen eingereicht werden. Besonderen Fokus legen wir auf Vorschlägen zu den Kategorien "Spielewunsch" und "Web Interface Features".
 
-### Wie werden Vorschläge eingereicht?
+## Wie werden Vorschläge eingereicht?
 Um einen Vorschlag einzureichen, muss lediglich auf der Vorschlagsseite auf den Button "Vorschlag einreichen" geklickt werden. Es öffnet sich ein Formular, in das der Vorschlag eingetragen werden kann sowie die Kategorie ("Spielewunsch", Web Interface Features" und "Sonstiges") ausgewählt werden kann. Über den Button "Jetzt vorschlagen" wird der Vorschlag eingereicht.
 
 ![image](https://user-images.githubusercontent.com/61953937/159140276-9692419e-e736-4389-a45d-b2853f59315f.png)
 
 ![image](https://user-images.githubusercontent.com/61953937/159140289-a5c7ec36-07e4-4d9c-8a92-40193b953dca.png)
 
-### Was ist bei Spielvorschlägen zu beachten?
+## Was ist bei Spielvorschlägen zu beachten?
 Grundsätzlich kann jedes Spiel oder Modpack vorgeschlagen werden, für das wir noch keine Gameserver anbieten. Wir prüfen alle Vorschläge und entscheiden, ob es sinnvoll ist, ein bestimmtes Spiel hinzuzufügen. Minecraft Modpacks können natürlich unter "Spielewunsch" vorgeschlagen werden.
 * Bei Spielevorschlägen reicht es völlig aus, nur den Spielenamen/Modpacknamen und ggf. einen Link zur Website des Spiels/Modpacks einzutragen. Beispiel:
 :::info

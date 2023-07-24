@@ -2,7 +2,7 @@
 id: fivem-esx-changemoneyicon
 title: Geldicon Ändern
 description: Informationen, wie du das Geldicon auf deinem FiveM-Server mit ESX von ZAP-Hosting ändern kannst - ZAP-Hosting.com Dokumentation
-sidebar_label: Geldicon Ändern
+sidebar_label: Geldicon ändern
 ---
 
 ## Mit FTP verbinden

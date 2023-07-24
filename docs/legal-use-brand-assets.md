@@ -19,7 +19,7 @@ ZAP-Hosting reserves the right to revoke, modify or change any granted permissio
 
 <br/>
 
-### Questions
+## Questions
 
 **I want to use a banner from the preset list in the web interface for my website. Is this allowed without permission?**
 

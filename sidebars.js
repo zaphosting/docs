@@ -58,19 +58,19 @@ const sidebars = {
           type: "category",
           label: "Security",
           items: [
-            "account-2factor",
-            "account-security"
+            "account-security",
+            "account-2factor"
           ]
         },
-        {
-          type: "category",
-          label: "Partner",
-          items: [
-            "account-partner-system",
-            "partner-guide",
-            "legal-use-brand-assets"
-          ]
-        },
+      ]
+    },
+    {
+      type: 'category',
+      label: 'Partner Program',
+      items: [
+        "account-partner-system",
+        "partner-guide",
+        "legal-use-brand-assets"
       ]
     },
     {
@@ -155,9 +155,9 @@ const sidebars = {
         },
         {
           type: "category",
-          label: "Forge",
+          label: "Forge & Fabric",
           items: [
-            "minecraft-forge-add-mods"
+            "minecraft-forge-fabric-add-mods-modpacks"
           ]
         }
       ],
@@ -434,7 +434,7 @@ const sidebars = {
       type: "category",
       label: "Valheim",
       items: [
-        "valheim-connect",
+        "valheim-firststeps-connect",
         "valheim-savegame",
         "valheim-backup-schedule",
         "valheim-serverlisting",
@@ -790,7 +790,8 @@ const sidebars = {
       items: [
         'dedicated-ilo',
         'dedicated-iso',
-        'dedicated-raid',			
+        'dedicated-raid',
+        'vserver-linux-gs-interface',			
         'dedicated-reset',		
       ],
     },

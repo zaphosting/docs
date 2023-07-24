@@ -5,7 +5,7 @@ description: Anleitung wie du Geld mit ZAP-Hosting verdienen kannst, indem du Fr
 sidebar_label: Freunde werben
 ---
 
-## Freunde werben Programm
+## Einführung
 Das Freunde werben Programm ist unser Affiliate-Programm, mit dem du Geld oder ZAP-Coins verdienen kannst, indem du neue Kunden für ZAP-Hosting wirbst.
 
 ## Wie funktioniert es?
@@ -114,4 +114,3 @@ In der Beschreibung muss `zap affiliate payout <Kundennummer>` vorkommen.
 Ebenfalls hinzugefügt werden (als "Rechnung von") müssen die Adressinformationen des Individuums bzw. Unternehmens, das die Rechnung abschickt. Diese Informationen können unter "Geschäftsinformationen bearbeiten" hinzugefügt werden.
 
 Bitte sende die PayPal Rechnung an: `m.kluck@zap-hosting.com`
-
