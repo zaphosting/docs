@@ -104,8 +104,8 @@ Nutze das PayPal Rechnungs Feature: "[PayPal Invoice Creator](https://www.paypal
 Hier muss unsere volle Unternehmens-Adresse als Rechnungsempfänger angegeben werden (dies kann getan werden, indem ein neuer Kunde hinzugefügt wird/ein bestehender Kunde bearbeitet wird):
 
 `ZAP-Hosting GmbH & Co. KG,
-Krokusweg 9a,
-48165 Münster,
+Hafenweg 8,
+48155 Münster,
 Deutschland`
 
 
