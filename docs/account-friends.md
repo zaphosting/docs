@@ -102,8 +102,8 @@ Use the PayPal invoice feature: "[PayPal Invoice Creator](https://www.paypal.com
 Here our company information must be entered as invoice recipient/in the bill to field (you can add our full adress by choosing to add a new customer/edit an existing customer):
 
 `ZAP-Hosting GmbH & Co. KG,
-Krokusweg 9a,
-48165 Münster,
+Hafenweg 8,
+48155 Münster,
 Germany`
 
 The description must include `zap affiliate payout <customer number>`.
