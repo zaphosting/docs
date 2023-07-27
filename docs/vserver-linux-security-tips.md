@@ -24,7 +24,7 @@ To reduce the impact, you can apply firewall rules that limit access to the port
 There are two ways of doing this, the more complicated but detailed method through IPTables which we recommend or through UFW which is more basic but easier to set up.
 
 #### Limiting connections using IPTables
-In this section, we will be setting up the IPTables using a few commands. You will be able to see the explanation for each command below the code block.
+In this section, you will be setting up the IPTables using a few commands. You will be able to see the explanation for each command below the code block.
 
 :::note
 The following commands may not work for every single Linux distro, but they will work on the vast majority of the most popular distros.
@@ -43,7 +43,7 @@ iptables -A INPUT -p tcp --dport 22 -m state --state NEW -m recent --update --se
 3.  The third rule drops new connections from IP addresses that have attempted to make more than 2 connections in the last second.
 
 #### Limiting connections using UFW
-Through the use of a simple UFW command, in this section, we will set up a basic firewall.
+Through the use of a simple UFW command, in this section, you will set up a basic firewall.
 
 Firstly, log in to your Linux server. If you need help doing this, please follow our [SSH access](https://zap-hosting.com/guides/docs/vserver-linux-ssh) guide which explains how to do this. Now run the following command which will limit the connection to 6 per minute.
 
@@ -59,13 +59,14 @@ UFW only allows you to limit connections to 6 per minute. UFW's limiter is quite
 Many people use Cloudflare as their domain DNS manager, Cloudflare not only has one of the largest networks in the world, which offer lower page load times, lower latency and better overall experience, but they also protect your websites from DoS/DDoS attacks, including flooding and new types of attacks that come to light every day.
 In this guide, you will learn how to protect your web server from attacks.
 
-We will start by assuming that your domain is already managed by Cloudflare, if not you can follow [their guide.](https://developers.cloudflare.com/fundamentals/get-started/setup/add-site/)
+We will start by assuming that your domain is already managed by Cloudflare, if not you can follow [their guide](https://developers.cloudflare.com/fundamentals/get-started/setup/add-site/) to move your domain.
 
 Go to the DNS Records tab from Cloudflare's dashboard, and make sure that your record to your webserver has the orange cloud and says "Proxied".
 ![](https://i.imgur.com/wNEoWQP.png)
 
+
 Then, all traffic passing through your domain will go through Cloudflare and from there to your server, being legitimate traffic.
-However, your server is still accessible from outside Cloudflare, for this we must limit access to ports 80 and 443 of the TCP protocol of your Linux server, and only allow access if it comes from legitimate Cloudflare traffic.
+However, your server is still accessible from outside Cloudflare, for this you must limit access to ports 80 and 443 of the TCP protocol of your Linux server, and only allow access if it comes from legitimate Cloudflare traffic.
 
 To do that, you can manually limit access using firewall rules from the [Cloudflare public IPv4 list](https://cloudflare.com/ips-v4) and [Cloudflare public IPv6 list](https://cloudflare.com/ips-v6).
 
