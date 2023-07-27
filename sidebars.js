@@ -186,7 +186,8 @@ const sidebars = {
             "fivem-gamebuild",
             "fivem-gamechange",
             "fivem-steam-web-api-key",
-            "fivem-whitelist"
+            "fivem-whitelist",
+            "fivem-locale"
           ]
         },
         {
@@ -256,7 +257,8 @@ const sidebars = {
           type: "category",
           label: "Configuration & Administration",
           items: [
-            "redm-change-servericon"
+            "redm-change-servericon",
+            "redm-locale"
           ]
         },
         {
@@ -632,6 +634,7 @@ const sidebars = {
       type: "category",
       label: "Stormworks",
       items: [
+        "stormworks-firststeps-dashboard",
         "stormworks-becomeadmin"
       ],
     },
@@ -788,6 +791,7 @@ const sidebars = {
       type: 'category',
       label: 'First Steps',
       items: [
+        'dedicated-introduction',
         'dedicated-ilo',
         'dedicated-iso',
         'dedicated-raid',
