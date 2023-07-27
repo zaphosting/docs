@@ -73,10 +73,7 @@ Nutze das PayPal Rechnungs Feature: "[PayPal Invoice Creator](https://www.paypal
 
 Hier müssen unsere Firmen Informationen als Rechnungsempfänger angegeben werden:
 
-`ZAP-Hosting GmbH & Co. KG,
-Krokusweg 9a,
-48165 Münster,
-Deutschland`
+`ZAP-Hosting GmbH & Co. KG, Hafenweg 8, 48155 Münster, Deutschland`
 
 
 In der Beschreibung muss `zap community ads payout <Kundennummer>` vorkommen.

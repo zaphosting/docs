@@ -66,10 +66,7 @@ Use the PayPal billing feature: "[PayPal Invoice Creator](https://www.paypal.com
 
 Please fill in our company information as invoice recipient:
 
-`ZAP-Hosting GmbH & Co. KG,
-Krokusweg 9a,
-48165 Münster,
-Deutschland`
+`ZAP-Hosting GmbH & Co. KG, Hafenweg 8, 48155 Münster, Deutschland`
 
 
 The description must include `zap community ads payout <customer ID>`. Please send the PayPal invoice to: `m.kluck@zap-hosting.com`
