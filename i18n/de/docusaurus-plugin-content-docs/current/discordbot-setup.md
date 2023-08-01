@@ -20,9 +20,9 @@ Sobald du über FTP verbunden bist, kannst du den Discordbot Ordner öffnen und 
 
 ![image](https://user-images.githubusercontent.com/26007280/194344056-2bc1440e-9142-42d1-962d-3b5edfe7ff03.png)
 
-## Upload your Bot
+## Lade deine Botdateien hoch
 
-Jetzt können wir unsere Bot-Dateien einfach in den leeren Ordner hochladen:
+Jetzt kannst du deine Botdateien einfach in den leeren Ordner hochladen:
 
 ![image](https://user-images.githubusercontent.com/26007280/194344097-9c90b5f0-3707-4409-9c39-3246c6f84d11.png)
 
