@@ -26,7 +26,7 @@ Are you interested in joining the conversation and collaborating with other like
 
 On demand and apparent necessity do we provide the services that are needed to create a guide for a limited period of time. This way we want to provide the possibility to create guides about topics even for those who don't have an active service for this at the moment. The request for a service can be made during the submission process. 
 
-The provisioning depends on a few factors. For example, the activity of your ZAP hosting account is evaluated, how active you have already been in terms of Docs contribution, and whether provisioning by us is absolutely necessary for the planned content. 
+The provisioning depends on a few factors. For example, the activity of your ZAP-Hosting account is evaluated, how active you have already been in terms of Docs contribution, and whether provisioning by us is absolutely necessary for the planned content. 
 
 If a service is provided, it will be made available to you free of charge for a limited period of time. The provision is limited to 1-3 days depending on the scope of the content and the required service. 
 
