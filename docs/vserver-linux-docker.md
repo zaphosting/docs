@@ -49,7 +49,7 @@ systemctl status docker
 ![image](https://user-images.githubusercontent.com/13604413/172061231-1bbde11c-85b9-47a7-9f88-44e31144d1c8.png)
 
 If it looks like this and it says "**Active (running)**" then Docker was installed completely without any problems.
-With a **docker run hello-worl**d you can then check whether Docker is also running correctly.
+With a **docker run hello-world** you can then check whether Docker is also running correctly.
 The output should look like this:
 
 ![image](https://user-images.githubusercontent.com/13604413/172061244-6834dae0-f14a-43ad-85d6-b5bf74ea89f8.png)
