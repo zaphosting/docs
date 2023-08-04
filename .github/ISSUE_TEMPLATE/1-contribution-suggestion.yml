@@ -57,7 +57,7 @@ body:
       description: (Optional) Please add any other context or screenshots about your suggestion below if necessary.
     validations:
       required: false
-    - type: textarea
+  - type: textarea
     attributes:
       label: Do you depend on a service for creating your guide?
       description: (Optional) Do you want to create a guide to a subject for which you do not have an active service yourself or cannot add it quickly? We provide services for a limited period of time. However, the provision of a service to create a guide is not guaranteed. The necessity is evaluated individually and depends on certain conditions. More information about this can be found in our [Docs Contribution Program](https://zap-hosting.com/guides/docs/contribution-submission#). 
