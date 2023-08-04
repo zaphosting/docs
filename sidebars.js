@@ -721,7 +721,8 @@ const sidebars = {
             'vserver-linux-ftp',
             'vserver-linux-add-ip',
             'vserver-linux-ssl',
-            'vserver-linux-rsync',	
+            'vserver-linux-rsync',
+            'vserver-linux-security-tips',
           ]
         },
         {
