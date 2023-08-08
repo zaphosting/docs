@@ -263,7 +263,7 @@ enabled=1
 gpgkey=https://www.mongodb.org/static/pgp/server-6.0.asc
 ```
 
-Now, we are able to install MongoDb using `yum`:
+Now, we are able to install MongoDB using `yum`:
 ```
 sudo yum install -y mongodb-org
 ```
@@ -281,7 +281,7 @@ The rest is exactly the same, therefore you can follow that guide.
 </TabItem>
 <TabItem value="mongodb-suse" label="OpenSUSE">
 
-### OpenSUSE Fedora Installation
+### MongoDB OpenSUSE Installation
 
 First, we need to import the MongoDB public key for the MongoDB repository:
 
