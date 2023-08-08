@@ -11,7 +11,7 @@ This guide provides steps for the installation of various types of databases. Fo
 
 ## Preparation
 
-Before the actual installation of any database can begin, it's necessary to make sure that the system is up to date. To do this, we need to update the packages from your system package manager with the following command depending on your operating system:
+Before the actual installation of any database can begin, it's necessary to make sure that the system is up to date. To do this, we need to update the packages from your system package manager with the following command, depending on your operating system:
 
 ```
 // Ubuntu & Debian
@@ -29,7 +29,7 @@ sudo dnf upgrade --refresh
 
 ## Database types
 
-Depending in which database service you want to install, follow the corresponding guide:
+Depending on which database service you want to install, follow the corresponding guide:
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
@@ -43,7 +43,7 @@ MariaDB is an open-source relational database management system, originally fork
 
 ## MariaDB Installation
 
-First of all, we need to ensure that the lastest MariaDB version is being installed. Some old systems like Debian 9 or Ubuntu 18.04 doesn't come by default with the lastest MariaDB version in it's package manager, by executing the following command we're making sure that the lastest version is retreived.
+First of all, we need to ensure that the lastest MariaDB version is being installed. Some old systems like Debian 9 or Ubuntu 18.04 doesn't come by default with the lastest MariaDB version in its package manager, by executing the following command we're making sure that the lastest version is retreived.
 
 ```
 curl -sS https://downloads.mariadb.com/MariaDB/mariadb_repo_setup | sudo bash
@@ -55,7 +55,7 @@ After installing the repo, update your package manager cache by following the st
 The MariaDB repo installation (step above) can be safely ignored in modern operating systems like Ubuntu 22.04 or Debian 11
 :::
 
-Once the repo setup has been completed (if necessary), the installation of MariaDB can now begin. Depending on the operating system and webserver, the following commands must be executed for this:
+Once the repo setup has been completed (if necessary), the installation of MariaDB can now begin. Depending on the operating system, the following commands must be executed for this:
 
 ```
 // Ubuntu & Debian
@@ -87,13 +87,10 @@ The user root is the main user of your MariaDB (MySQL) server!
 
 Now you are being asked if you want to set a password for the root user, confirm this with **y** for yes.
 
-Afterwards you have to type in the new password for the user root.
-
+Afterwards, you have to type in the new password for the user root.
 
 :::info
-While typing in the password, you won't be able to see it. However, this is normal and your password will still be stored. Make sure you use a secure 
-
-password for your root user and keep it in a safe place. 
+While typing in the password, you won't be able to see it. However, this behavior is normal and your password will still be stored. Make sure you use a secure password for your root user and keep it in a safe place. 
 :::
 
 ![image](https://user-images.githubusercontent.com/13604413/159171942-82667636-b148-4248-a95d-ad3d9ed3ab47.png)
@@ -106,7 +103,7 @@ In the following prompt you define if the user root is allowed to connect to the
 
 ![image](https://user-images.githubusercontent.com/13604413/159171945-e7b4f9ef-1ec0-409f-ad5f-dff05f42c561.png)
 
-In the next step you can also confirm to remove the test database provided by MariaDB (MySQL) with **y**, because it' not needed and can be easily deleted:
+In the next step you can also confirm to remove the test database provided by MariaDB (MySQL) with **y**, because it's not needed and can be easily deleted:
 
 ![image](https://user-images.githubusercontent.com/13604413/159171948-625983b8-897f-4b47-a8a8-e47cc72b90f4.png)
 
@@ -125,11 +122,11 @@ Your MariaDB (MySQL) server is now ready for use!
 
 ## What is Redis?
 
-Redis is an in-memory data structure store, mainly used to store data with key-value structure, although it supports other formats such as lists, json and more. It is characterized by its speed, providing answers to queries in microns of a second.
+Redis is an in-memory data structure store, mainly used to store data with key-value structure, although it supports other formats such as lists, JSON and more. It is characterized by its speed, providing answers to queries in microns of a second.
 
 ## Redis Installation
 
-First we must add a repo that allows us to install redis. This step is not necessary in all Linux distributions. Execute the following command that corresponds to your operating system and version:
+First, we must add a repo that allows us to install redis. This step is not necessary in all Linux distributions. Execute the following command that corresponds to your operating system and version:
 ```
 // Ubuntu (any version) and Debian (only Debian 10)
 curl -fsSL https://packages.redis.io/gpg | sudo gpg --dearmor -o /usr/share/keyrings/redis-archive-keyring.gpg
@@ -230,7 +227,7 @@ Your MongoDB installation should be working now!
 
 ### MongoDB Debian Installation
 
-The way to install MongoDB in Debian is almost the same as in Ubuntu, so you can follow the guide in the "Ubuntu" tab above. However, note that the repo varies.
+The way to install MongoDB in Debian is almost the same as on Ubuntu, so you can follow the guide on the "Ubuntu" tab above. However, note that the repo varies.
 
 When you reach the third step of the guide, you must use the following repo and not the Ubuntu repo:
 :::warning
@@ -278,8 +275,8 @@ Your MongoDB installation should be working now!
 
 ### MongoDB Fedora Installation
 
-The process is very similar to CentOS, however the only difference is that the package is installed with `sudo dnf install -y mongodb-org`.
-The rest is exactly the same so you can follow that guide.
+The process is very similar to CentOS, however, the only difference is that the package is installed with `sudo dnf install -y mongodb-org`.
+The rest is exactly the same, therefore you can follow that guide.
 
 </TabItem>
 <TabItem value="mongodb-suse" label="OpenSUSE">
