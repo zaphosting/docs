@@ -205,7 +205,7 @@ touch /etc/apt/sources.list.d/mongodb-org-6.0.list
 
 Next, we need to add the MongoDB source to the previously created file. To do that, you can execute the following command:
 :::warning
-Replace {{OS_ALIAS}} with the "Alias" from the following table that corresponds to your Ubuntu version:
+Replace {{your_os_alias}} with the "Alias" from the following table that corresponds to your Ubuntu version:
 
 | Ubuntu Version | Alias  |
 |----------------|--------|
@@ -215,7 +215,7 @@ Replace {{OS_ALIAS}} with the "Alias" from the following table that corresponds 
 :::
 
 ```
-echo "deb [ arch=amd64,arm64 signed-by=/usr/share/keyrings/mongodb-server-6.0.gpg ] https://repo.mongodb.org/apt/ubuntu {{OS_ALIAS}}/mongodb-org/6.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-6.0.list
+echo "deb [ arch=amd64,arm64 signed-by=/usr/share/keyrings/mongodb-server-6.0.gpg ] https://repo.mongodb.org/apt/ubuntu {{your_os_alias}}/mongodb-org/6.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-6.0.list
 ```
 
 Now, the package manager can install MongoDB Community Edition, but first we need to update the repositories with `sudo apt update`. Finally, we can install MongoDB using:
@@ -234,7 +234,7 @@ The way to install MongoDB in Debian is almost the same as in Ubuntu, so you can
 
 When you reach the third step of the guide, you must use the following repo and not the Ubuntu repo:
 :::warning
-Replace {{OS_ALIAS}} with the "Alias" from the following table that corresponds to your Debian version:
+Replace {{your_os_alias}} with the "Alias" from the following table that corresponds to your Debian version:
 
 | Debian Version | Alias    |
 |----------------|----------|
@@ -245,7 +245,7 @@ Debian 9 is no longer supported by MongoDB
 :::
 
 ```
-echo "deb [ signed-by=/usr/share/keyrings/mongodb-server-6.0.gpg] http://repo.mongodb.org/apt/debian {{OS_ALIAS}}/mongodb-org/6.0 main" | sudo tee /etc/apt/sources.list.d/mongodb-org-6.0.list
+echo "deb [ signed-by=/usr/share/keyrings/mongodb-server-6.0.gpg] http://repo.mongodb.org/apt/debian {{your_os_alias}}/mongodb-org/6.0 main" | sudo tee /etc/apt/sources.list.d/mongodb-org-6.0.list
 ```
 
 </TabItem>
