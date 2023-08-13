@@ -41,7 +41,7 @@ MariaDB is an open-source relational database management system, originally fork
 
 ## MariaDB Installation
 
-First of all, we need to ensure that the latest MariaDB version is being installed. Some old operating systems like Debian 9 or Ubuntu 18.04 don't come by default with the latest MariaDB version in its package manager, thus by executing the following command you are making sure that the latest version is retrieved.
+First of all, you need to ensure that the latest MariaDB version is being installed. Some old operating systems like Debian 9 or Ubuntu 18.04 don't come by default with the latest MariaDB version in its package manager, thus by executing the following command you are making sure that the latest version is retrieved.
 
 ```
 curl -sS https://downloads.mariadb.com/MariaDB/mariadb_repo_setup | sudo bash
@@ -124,7 +124,7 @@ Redis is an in-memory data structure store, mainly used to store data with key-v
 
 ## Redis Installation
 
-Firstly, we must add a repo that allows us to install Redis. This step is not necessary for all Linux distributions, only for the Linux distros listed below. Execute the following command that corresponds to your operating system and version:
+Firstly, you must add a repo that allows us to install Redis. This step is not necessary for all Linux distributions, only for the Linux distros listed below. Execute the following command that corresponds to your operating system and version:
 
 ```
 // Ubuntu (any version) and Debian (only Debian 10)
@@ -182,9 +182,9 @@ MongoDB is a document-oriented NoSQL database, designed for scalability and deve
 Select your operating system from the tabs below to display the corresponding guide.
 
 <Tabs>
-<TabItem value="mongodb-ubuntu" label="Ubuntu">
+<TabItem value="mongodb-ubuntu-debian" label="Ubuntu & Debian">
 
-### MongoDB Ubuntu Installation
+### Installation on Ubuntu & Debian
 
 Firstly, you should execute the following command to import the MongoDB public GPG Key:
 
@@ -200,23 +200,28 @@ Afterwards, create the list file for MongoDB using the following command:
 touch /etc/apt/sources.list.d/mongodb-org-6.0.list
 ```
 
-Next, we need to add the MongoDB source to the previously created file. To do that, you can execute the following command:
+Next, you need to add the MongoDB source to the previously created file. To do that, you can execute the following command:
 
 :::important
-Replace `YOUR_OS_ALIAS` with the "Alias" from the following table that corresponds to your Ubuntu version:
+You must replace `YOUR_OS_ALIAS` in the command with the "Alias" from the following table that corresponds to your Ubuntu or Debian version:
 
 | Ubuntu Version | Alias  |
 |----------------|--------|
 | 22.04          | jammy  |
 | 20.04          | focal  |
 | 18.04          | bionic |
+
+| Debian Version | Alias    |
+|----------------|----------|
+| 11             | bullseye |
+| 10             | buster   |
 :::
 
 ```
 echo "deb [ arch=amd64,arm64 signed-by=/usr/share/keyrings/mongodb-server-6.0.gpg ] https://repo.mongodb.org/apt/ubuntu YOUR_OS_ALIAS/mongodb-org/6.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-6.0.list
 ```
 
-Now the package manager can install MongoDB Community Edition, but beforehand you need to update the repositories with the command: `sudo apt update`. Finally, we can install MongoDB using:
+Now the package manager can install MongoDB Community Edition, but beforehand you need to update the repositories with the command: `sudo apt update`. Finally, you can install MongoDB using:
 
 ```
 sudo apt install mongodb-org
@@ -225,32 +230,9 @@ sudo apt install mongodb-org
 Your MongoDB installation should be working now!
 
 </TabItem>
-<TabItem value="mongodb-debian" label="Debian">
+<TabItem value="mongodb-centos-fedora" label="CentOS & Fedora">
 
-### MongoDB Debian Installation
-
-The way to install MongoDB in Debian is almost the same as on Ubuntu, so you can follow the guide on the "Ubuntu" tab above. However, note that the repo varies.
-
-The only difference with Debian installation is step three. When you reach step three on the guide, you must use the following repo aliases for Debian:
-:::important
-Replace `YOUR_OS_ALIAS` with the "Alias" from the following table that corresponds to your Debian version:
-
-| Debian Version | Alias    |
-|----------------|----------|
-| 11             | bullseye |
-| 10             | buster   |
-
-Debian 9 is no longer supported by MongoDB.
-:::
-
-```
-echo "deb [ signed-by=/usr/share/keyrings/mongodb-server-6.0.gpg] http://repo.mongodb.org/apt/debian YOUR_OS_ALIAS/mongodb-org/6.0 main" | sudo tee /etc/apt/sources.list.d/mongodb-org-6.0.list
-```
-
-</TabItem>
-<TabItem value="mongodb-centos" label="CentOS">
-
-### MongoDB CentOS Installation
+### Installation on CentOS & Fedora
 
 First, you need to set up the MongoDB repo for Red Hat systems.
 
@@ -265,27 +247,22 @@ enabled=1
 gpgkey=https://www.mongodb.org/static/pgp/server-6.0.asc
 ```
 
-Now, you are able to install MongoDB using `yum` through the following command:
+Now, you are able to install MongoDB. There is a small difference in the install command between CentOS and Fedora, so you should use the appropriate one below:
 
 ```
+// CentOS
 sudo yum install -y mongodb-org
+
+// Fedora
+sudo dnf install -y mongodb-org
 ```
 
 Your MongoDB installation should be working now, it is much simpler compared to other Linux distros!
 
 </TabItem>
-<TabItem value="mongodb-fedora" label="Fedora">
-
-### MongoDB Fedora Installation
-
-The process is very similar to CentOS, however, the only difference is that the package is installed with `sudo dnf install -y mongodb-org`.
-
-The rest is exactly the same, therefore you should follow that guide.
-
-</TabItem>
 <TabItem value="mongodb-suse" label="OpenSUSE">
 
-### MongoDB OpenSUSE Installation
+### Installation on OpenSUSE
 
 Firstly, you need to import the MongoDB public key for the MongoDB repository through the command:
 
