@@ -197,7 +197,7 @@ curl -fsSL https://pgp.mongodb.com/server-6.0.asc | \
 Afterwards, you need to add the MongoDB source to the source list of your operating system. To do that, you can execute the following command:
 
 ```
-echo "deb [ arch=amd64,arm64 signed-by=/usr/share/keyrings/mongodb-server-6.0.gpg ] https://repo.mongodb.org/apt/$(grep "^ID=" /etc/os-release | awk -F= '{print $2}') $(grep VERSION_CODENAME /etc/os-release | awk -F= '{print $2}')/mongodb-org/6.0 main" | sudo tee /etc/apt/sources.list.d/mongodb-org-6.0.list
+echo "deb [ arch=amd64,arm64 signed-by=/usr/share/keyrings/mongodb-server-6.0.gpg ] https://repo.mongodb.org/apt/$(lsb_release -si | awk '{print tolower($0)}') $(lsb_release -sc)/mongodb-org/6.0 main" | sudo tee /etc/apt/sources.list.d/mongodb-org-6.0.list
 ```
 
 Now the package manager can install MongoDB Community Edition, but beforehand you need to update the repositories with the command: `sudo apt update`. Finally, you can install MongoDB using:
