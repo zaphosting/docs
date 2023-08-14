@@ -194,7 +194,7 @@ curl -fsSL https://pgp.mongodb.com/server-6.0.asc | \
    --dearmor
 ```
 
-Afterwards, you need to add the MongoDB source to the previously created file. To do that, you can execute the following command:
+Afterwards, you need to add the MongoDB source to the source list of your operating system. To do that, you can execute the following command:
 
 ```
 echo "deb [ arch=amd64,arm64 signed-by=/usr/share/keyrings/mongodb-server-6.0.gpg ] https://repo.mongodb.org/apt/debian $(grep VERSION_CODENAME /etc/os-release | awk -F= '{print $2}')/mongodb-org/6.0 main" | sudo tee /etc/apt/sources.list.d/mongodb-org-6.0.list
