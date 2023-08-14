@@ -194,31 +194,10 @@ curl -fsSL https://pgp.mongodb.com/server-6.0.asc | \
    --dearmor
 ```
 
-Afterwards, create the list file for MongoDB using the following command:
+Afterwards, you need to add the MongoDB source to the previously created file. To do that, you can execute the following command:
 
 ```
-touch /etc/apt/sources.list.d/mongodb-org-6.0.list
-```
-
-Next, you need to add the MongoDB source to the previously created file. To do that, you can execute the following command:
-
-:::important
-You must replace `YOUR_OS_ALIAS` in the command with the "Alias" from the following table that corresponds to your Ubuntu or Debian version:
-
-| Ubuntu Version | Alias  |
-|----------------|--------|
-| 22.04          | jammy  |
-| 20.04          | focal  |
-| 18.04          | bionic |
-
-| Debian Version | Alias    |
-|----------------|----------|
-| 11             | bullseye |
-| 10             | buster   |
-:::
-
-```
-echo "deb [ arch=amd64,arm64 signed-by=/usr/share/keyrings/mongodb-server-6.0.gpg ] https://repo.mongodb.org/apt/ubuntu YOUR_OS_ALIAS/mongodb-org/6.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-6.0.list
+echo "deb [ arch=amd64,arm64 signed-by=/usr/share/keyrings/mongodb-server-6.0.gpg ] https://repo.mongodb.org/apt/debian $(grep VERSION_CODENAME /etc/os-release | awk -F= '{print $2}')/mongodb-org/6.0 main" | sudo tee /etc/apt/sources.list.d/mongodb-org-6.0.list
 ```
 
 Now the package manager can install MongoDB Community Edition, but beforehand you need to update the repositories with the command: `sudo apt update`. Finally, you can install MongoDB using:
