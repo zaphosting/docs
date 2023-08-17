@@ -732,7 +732,7 @@ const sidebars = {
             'vserver-linux-webserver',
             'vserver-linux-java',
             'vserver-linux-ftp-install',
-            'vserver-linux-mariadbinstall',
+            'vserver-linux-databases',
             'vserver-linux-nextcloud',
             'vserver-linux-mastodon',
             'vserver-linux-docker',
