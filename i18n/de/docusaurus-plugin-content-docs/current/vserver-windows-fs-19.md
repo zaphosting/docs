@@ -8,29 +8,29 @@ sidebar_label: Landwirtschafts-Simulator 2019
 # Installation eines Dedizierter Servers für den Landwirtschafts-Simulator 2019
 
 :::info
-Diese Anleitung gilt auch für einen Dedizierter Server von ZAP-Hosting mit Windowsserver 2016/2019. Wie Windows auf einem Dedizierter Server installiert werden kann, erklären wir [hier](https://zap-hosting.com/guides/docs/de/dedicated_windows/).
+Diese Anleitung gilt auch für einen Dedizierter Server von ZAP-Hosting mit Windowsserver 2016/2019. Wie Windows auf einem dedizierten Server installiert werden kann, erklären wir [hier](https://zap-hosting.com/guides/docs/de/dedicated_windows/).
 :::
 
 ## Basic Informationen: 
-Es wird ein Server, basierend auf Windowsserver 2016/2019, mit mindestens 4x 2,4 GHz CPU (AMD/Intel) sowie mindestens 2GB RAM (DDR3/4) und 6GB freien Speicher (SSD oder besser, bevorzugt) benötigt. Der Server muss auf der 64 Bit Architektur laufen. 
+Es wird ein Server, basierend auf Windowsserver 2016/2019, mit mindestens 4x 2,4 GHz CPU (AMD/Intel) sowie mindestens 2 GB RAM (DDR3/4) und 6 GB freien Speicher (SSD oder besser, bevorzugt) benötigt. Der Server muss auf der 64 Bit Architektur laufen. 
 Des Weiteren wird eine eigene Spiellizenz benötigt (keine Steam Version), sowie eine öffentliche IPv4 Adresse. Eine GPU oder eine Soundkarte sind für den Dedizierter Server nicht notwendig. 
-Je nachdem, wie stark der Dedizierter Server gemodded wird, mit Mods oder mit DLCs erweitert wird, sind ggf. mehr Ressourcen nötig. 
+Je nachdem, wie stark der dedizierter Server modifiziert wird, mit Mods oder mit DLCs erweitert wird, sind ggf. mehr Ressourcen nötig. 
 
 
 ## Schritt 1 Digitale Lizenz erwerben
 
 Es wird eine digitale Version des Landwirtschafts-Simulator 2019 benötigt, es darf keine Steam Version sein. 
 Die digitale Version kann auf der [Landwirtschafts-Simulator Webseite](https://www.farming-simulator.com/buy-now.php?lang=de&country=de&platform=pcdigital) erworben werden.
-Nachdem die digitale Version erworben wurde, kann der Landwirtschafts-Simulator online gedownloadet werden, folge dazu dem [Link](https://eshop.giants-software.com/downloads.php) aus der Mail, die du von Giants erhalten hast.
+Nachdem die digitale Version erworben wurde, kann der Landwirtschafts-Simulator online heruntergeladen werden, folge dazu dem [Link](https://eshop.giants-software.com/downloads.php) aus der Mail, die du von Giants erhalten hast.
 :::info
-Wichtig: In der Mail befindet sich der Spiellizenz der zum Download als auch zur späteren Aktivierung der Installation benötigt wird. 
+Wichtig: In der Mail befindet sich der Spiellizenz, der zum Download als auch zur späteren Aktivierung der Installation benötigt wird. 
 :::
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/KbccgYdHFLp3gWp/preview)
 
-## Schritt 2 Download des Landwirtschafts-Simulator direkt auf deinen Windowserver
+## Schritt 2 Download des Landwirtschafts-Simulators direkt auf deinen Windows Server
 
-Verbinde dich via RDP [RDP](https://zap-hosting.com/guides/docs/de/vserver_windows_userdp/) zu deinem Windowsserver. Nachdem du verbunden bist, öffne den Browser und rufe erneut den [Link](https://eshop.giants-software.com/downloads.php) aus der Mail auf. Gebe dort dann deinen Spiellizenz ein und wähle dann den Download für Windows8/10. 
+Verbinde dich via RDP [RDP](https://zap-hosting.com/guides/docs/de/vserver_windows_userdp/) zu deinem Windowsserver. Nachdem du verbunden bist, öffne den Browser und rufe erneut den [Link](https://eshop.giants-software.com/downloads.php) aus der Mail auf. Gebe dort dann deine Spiellizenz ein und wähle dann den Download für Windows8/10. 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/YaSo85pefHf5r5n/preview)
 
@@ -49,11 +49,11 @@ Sobald der Installationsvorgang beendet ist, erscheint folgende Meldung, welche 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/BbET9BNdjQMdCLN/preview)
 
-Die Basis-Installation ist nun abgeschlossen. 
+Die Basis-Installation ist jetzt abgeschlossen. 
 
 ## Schritt 3 Aktivierung des Games und Konfiguration des Dedizierter Servers
 
-Nun muss der Landwirtschafts-Simulator gestartet werden. Auf dem Desktop sollte eine Verknüpfung liegen, falls nicht, kann er auch über das Windows Menü gestartet werden. 
+Jetzt muss der Landwirtschafts-Simulator gestartet werden. Auf dem Desktop sollte eine Verknüpfung liegen, falls nicht, kann er auch über das Windows Menü gestartet werden. 
 Fehler bezüglich einer fehlenden GPU oder ähnliches können ignoriert bzw. mit Nein/Abbrechen geschlossen werden. Der Landwirtschafts-Simulator muss nur gestartet werden, um den Key eingeben zu können. 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/CK6izaPpk7JLi67/preview)
@@ -64,7 +64,7 @@ Sobald der Key anerkannt wurde, erscheint eine Bestätigung.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/RS9QGLspjeA4Pf2/preview)
 
-Nun muss in der Config des Dedizierter Servers ein Login Name und Passwort gesetzt bzw. geändert/ausgelesen werden, damit ein Login in das Webinterface des Dedizierter Servers möglich ist. 
+Jetzt muss in der Config des Dedizierter Servers ein Login Name und Passwort gesetzt bzw. geändert/ausgelesen werden, damit ein Login in das Webinterface des Dedizierter Servers möglich ist. 
 Die Config ist in der Standardinstallation unter 
 `C:\Program Files (x86)\Landwirtschafts-Simulator 2019` zu finden unter dem Namen `"dedicatedServer.xml"`. 
 Die Logindaten können frei angepasst werden. 

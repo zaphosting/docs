@@ -8,7 +8,7 @@ sidebar_label: Rcon benutzen
 
 ## Was ist Rcon?
 
-Rcon ist ein Protokoll zur Ausführung von Kommandos auf den Server, ohne direkt zugriff auf die Konsole haben zu müssen.
+Rcon ist ein Protokoll zur Ausführung von Kommandos auf den Server, ohne direkt Zugriff auf die Konsole haben zu müssen.
 
 ### Vorbereitung
 
@@ -16,7 +16,7 @@ Für die Nutzung wird ein passendes Rcon Tool benötigt. Dafür kann beispielswe
 
 ![image](https://user-images.githubusercontent.com/13604413/159168520-9b0e166a-9ae9-47ef-8121-733b447092e0.png)
 
-Es ist keine zusätzliche Installation notwendig. Das Programm lässt sich umgehend starten. Zum herstellen der Verbindung werden die Informationen zur IP-Adresse, Port und Rcon Passwort benötigt. 
+Es ist keine zusätzliche Installation notwendig. Das Programm lässt sich umgehend starten. Zum Herstellen der Verbindung werden die Informationen zur IP-Adresse, Port und Rcon Passwort benötigt. 
 
 # Rcon Passwort bestimmen
 

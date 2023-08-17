@@ -7,7 +7,7 @@ sidebar_label: Admin werden
 
 ## Admin werden
 
-Um den eigenen Spielserver gut Ingame verwalten zu können ist es wichtig den Admin Rang zu haben.
+Um den eigenen Spielserver gut im Spiel verwalten zu können ist es wichtig den Admin Rang zu haben.
 
 ### SteamID64 via Webseite
 
@@ -16,7 +16,7 @@ Dort kann man dann die Steam URL des Profils kopieren.
 
 ![image](https://user-images.githubusercontent.com/26007280/189890542-53ea224a-e530-466a-8cfb-b416111ce636.png)
 
-Sobald das erledigt ist, kann man dann die URL auf folgenden Webseiten engeben:
+Sobald das erledigt ist, kann man dann die URL auf folgenden Webseiten eingeben:
 
 - https://steamidfinder.com/
 - https://steamid.io/
@@ -26,7 +26,7 @@ Sobald das erledigt ist, kann man dann die URL auf folgenden Webseiten engeben:
 
 ### SteamID in die Config eintragen
 
-Als nächstes rufst du dein Interface un den Server auf. 
+Als Nächstes rufst du dein Interface und den Server auf. 
 Dort gehst du dann auf den Reiter **Configs**
 
 ![image](https://user-images.githubusercontent.com/26007280/189890578-d404d3c2-0d82-4f63-865a-073404dda486.png)
@@ -35,11 +35,11 @@ Anschließend öffnest du die **SpaceEngineers-Dedicated.cfg**
 
 ![image](https://user-images.githubusercontent.com/26007280/189890601-283ea429-4505-4c54-a6c8-0e33f5fec0d8.png)
 
-Wenn du das gemacht hast drückst du **STR + F** und suchst nach *admin*
+Wenn du das gemacht hast, drückst du **STR + F** und suchst nach *admin*
 
 ![image](https://user-images.githubusercontent.com/26007280/189890632-8cacffc0-c7b8-4e53-a9f7-e3ea339f6d28.png)
 
-Nun schreibst du folgendes:
+Nun schreibst du Folgendes:
 ```
 <Administrators>
 <unsignedLong>STEAM64ID</unsignedLong>

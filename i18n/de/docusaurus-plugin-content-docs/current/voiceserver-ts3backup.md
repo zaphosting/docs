@@ -18,7 +18,7 @@ Um im Webinterface ein Backup von deinem Ts3 Server zu machen, gehst du einfach 
 
 Anschließend gehst du auf **Snapshot erstellen**. Unten siehst du dann alle deine Snapshots und kannst diese bei Bedarf einspielen, downloaden oder löschen.
 :::info
-Info: Das einbinden eigener Snapshots ist aus Sicherheitsgründen nicht erlaubt!
+Info: Das Einbinden eigener Snapshots ist aus Sicherheitsgründen nicht erlaubt!
 :::
 
 ![image](https://user-images.githubusercontent.com/13604413/159177311-8b87f8d4-b8ed-41dd-9a77-ca84886da311.png)

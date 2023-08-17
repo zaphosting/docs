@@ -19,7 +19,7 @@ In der Vergangenheit gab es seitens Valve einige Regeländerungen für das Betre
 
 Allerdings war diese Methode nicht effektiv, da diese erstens mit einer neuen IP-Adresse leicht umgangen werden konnte und auch für Gameserver Anbieter auch ein großes Problem war. Denn durch die Sperrung der IP-Adresse sind oftmals dann auch andere Kunden betroffen gewesen. 
 
-Deshalb wurde das Verfahren eingebunden, welches stattdessen nun die Tokens und den dazu verlinkten Steam Account für das weitere betreiben von Gameserver sperrt. 
+Deshalb wurde das Verfahren eingebunden, welches stattdessen nun die Tokens und den dazu verlinkten Steam Account für das weitere Betreiben von Gameserver sperrt. 
 
 
 
@@ -33,7 +33,7 @@ Um einen Gameserver Login Token zu erstellen, muss man auf der Steam Webseite ei
 
 
 
-Dort angelangt wird nach der App ID und einer Memo (beliebiger Name zur Übersicht) verlangt. Die App ID ist vom Spiel abhängig. Im Folgenden findest du wichtigsten App IDs:
+Dort angelangt, wird nach der App ID und einer Memo (beliebiger Name zur Übersicht) verlangt. Die App ID ist vom Spiel abhängig. Im Folgenden findest du wichtigsten App IDs:
 
 |              Spiel               | App ID |
 | :------------------------------: | :----: |

@@ -7,13 +7,13 @@ sidebar_label: Rsync Linux
 
 ## Rsync:
 
-Mit Hilfe von Rsync können Backups angefertigt werden. 
-Sie können auf dem lokalen System selber z.b in ein anderes Verzeichnis/Laufwerk kopiert werden oder auf ein Remote System. 
+Mithilfe von Rsync können Backups angefertigt werden. 
+Sie können auf dem lokalen System selber z. B. in ein anderes Verzeichnis/Laufwerk kopiert werden oder auf ein Remote System. 
 
 ## Kopieren von Daten in ein anderes lokales Verzeichnis oder Laufwerk:
 
 :::info
-Achtung: Der erste Durchgang kann je nach Datenmenge deutlich länger dauern als weitere. Dies liegt daran das Rsync beim ersten mal alle Daten syncronsiert, ab dem zweiten Mal werden nur noch veränderte Daten syncronsiert. 
+Achtung: Der erste Durchgang kann je nach Datenmenge deutlich länger dauern als weitere. Dies liegt daran, dass Rsync beim ersten Mal alle Daten synchronisiert, ab dem zweiten Mal werden nur noch veränderte Daten synchronisiert. 
 :::
 >Es wird also dann ein inkrementelles Backup erstellt. 
 
@@ -34,42 +34,41 @@ import TabItem from '@theme/TabItem';
 <TabItem value="Tägliches Backup in ein lokales Verzeichnis/Laufwerk" label="Tägliches Backup in ein lokales Verzeichnis/Laufwerk">
 ## Schritt 2
 
-In diesem Beispiel soll der Ordner "Client" unter /home in den Ordner "Backups" unter /home syncronsiert werden. 
+In diesem Beispiel soll der Ordner "Client" unter /home in den Ordner "Backups" unter /home synchronisiert werden. 
 
 Das kann mit folgendem Befehl gemacht werden: 
 
 ```
 rsync -arz /home/Client /home/Backup
 ```
--a=Archivierung, die Attribute werden z.b übernommen
+-a=Archivierung, die Attribute werden z. B. übernommen
 <br/>
--r=Rekursiv, Unterordner werden mit syncronisert
+-r=Rekursiv, Unterordner werden mit synchronisiert
 <br/>
 -z=Komprimierung, je nach Datenmengen/Datengrößen wird komprimiert 
 
-Der Ordner wurde erfolgreicht syncronisiert 
+Der Ordner wurde erfolgreich synchronisiert. 
 
 
-Wenn jetzt eine Datei etc. im Client Ordner gelöscht wird, so verbleibt sie weiterhin im Backup Ordner. 
-Da die Date aber immer 1:1 syncron sein sollen, kann der rsync Befehl leicht abgeändert werden, diese Änderung sorgt dann dafür das Daten etc. die im Client Ordner nicht mehr vorhanden sind auch im Backup Ordner entfernt werden. 
+Wenn jetzt eine Datei etc. im Client Ordner gelöscht wird, so verbleibt sie weiterhin im Backup Ordner. Da das Datum aber immer 1:1 synchron sein sollen, kann der rsync Befehl leicht abgeändert werden, diese Änderung sorgt dann dafür, dass Daten etc. die im Client Ordner nicht mehr vorhanden sind auch im Backup Ordner entfernt werden. 
 
 Der leicht veränderte Befehl lautet: 
 
 ```
 rsync -arz --delete /home/Client /home/Backup
 ```
--a=Archivierung, die Attribute werden z.b übernommen
+-a=Archivierung, die Attribute werden z. B. übernommen
 <br/>
--r=Rekursiv, Unterordner werden mit syncronisert
+-r=Rekursiv, Unterordner werden mit synchronisiert
 <br/>
 -z=Komprimierung, je nach Datenmengen/Datengrößen wird komprimiert
 <br/>
---delete= Löscht Daten die in der Quelle nicht mehr vorhanden sind aber im Ziel noch bestehen
+--delete= Löscht Daten, die in der Quelle nicht mehr vorhanden sind, aber im Ziel noch bestehen
 
 ## Schritt 3
 
 Damit der Befehl nicht immer manuell ausgeführt werden muss, kann dieser einfach in ein Cronjob gesetzt werden. 
-Es soll z.b täglich um 3 Uhr Morgens ein Backup erstellt werden: 
+Es soll z. B. täglich um 3 Uhr Morgens ein Backup erstellt werden: 
 
 Crontab -e öffnen: 
 
@@ -78,14 +77,14 @@ Crontab -e öffnen:
 Mit der Ziffer 1 kann "nano" als Editor genutzt werden.
 Mit der Ziffer 2 kann "vim" als Editor genutzt werden. 
 
-Nachem die Datei z.b mit Nano geöffnet wurde, kann ein Crontab generiert und eingetragen werden. 
-Ein Crontab kann z.b mit diesem [Generator](https://crontab-generator.org/) erstellt werden. 
+Nachem die Datei z. B. mit Nano geöffnet wurde, kann ein Crontab generiert und eingetragen werden. 
+Ein Crontab kann z. B. mit diesem [Generator](https://crontab-generator.org/) erstellt werden. 
 
 Der eingetragene Crontab sieht dann wie folgt aus: 
 
  ```
 0 3 * * * rsync --progress -arz --delete -e  "ssh -i /home/sshkey/keybackup" /home/Client/ root@123.123.123.123:/home/Backup/Home-Server1/ >/dev/null 2>&1
-```
+ ```
 
 Jeden Tag um 3 Uhr morgens wird der Befehl ausgeführt und es wird ein Backup erstellt. 
 
@@ -93,7 +92,7 @@ Jeden Tag um 3 Uhr morgens wird der Befehl ausgeführt und es wird ein Backup er
 <TabItem value="Tägliches Backup auf ein Remote System" label="Tägliches Backup auf ein Remote System">
 ## Schritt 4
 
-In diesem Beispiel soll der Ordner "Client" unter /home in den Ordner "Backups" unter auf einem Remote System syncronsiert werden. Die Verbindung soll via SSH Key erfolgen, damit eine Sicherung ebenfalls automatisiert erfolgen kann.  
+In diesem Beispiel soll der Ordner "Client" unter /home in den Ordner "Backups" unter auf einem Remote System synchronisiert werden. Die Verbindung soll via SSH Key erfolgen, damit eine Sicherung ebenfalls automatisiert erfolgen kann.  
 
 :::info
 Wichtig: Auf dem Remote Server muss ebenfalls Rsync installiert sein. 
@@ -164,7 +163,7 @@ Ein Crontab kann z.b mit diesem [Generator](https://crontab-generator.org/) erst
 Der eingetragene Crontab sieht dann wie folgt aus: 
  ```
 0 3 * * * rsync --progress -arz --delete -e  "ssh -i /home/sshkey/keybackup" /home/Client/ root@123.123.123.123:/home/Backup/Home-Server1/ >/dev/null 2>&1
-```
+ ```
 
 Jeden Tag um 3 Uhr morgens wird der Befehl ausgeführt und es wird ein Backup erstellt. 
 

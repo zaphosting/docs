@@ -5,19 +5,19 @@ description: Informationen, wie du Steam Workshop Inhalte und Mods auf deinen Un
 sidebar_label: Workshop Inhalte
 ---
 
-Mit dem Steam Workshop hast du die Möglichkeit deinen Server noch individueller anzupassen. Im folgenden wird erklärt wie du mittels Steam Workshop weitere Inhalte zu deinem Server hinzufügen kannst. 
+Mit dem Steam Workshop hast du die Möglichkeit deinen Server noch individueller anzupassen. Im Folgenden wird erklärt, wie du mittels Steam Workshop weitere Inhalte zu deinem Server hinzufügen kannst. 
 
 ### Vorbereitung
 
-Es gibt verschiedene Quellen wo du Mods, Maps, Models, etc. herunterladen kannst. Die bekannteste Variante ist der Steam Workshop. Dort findest du zahlreiche Möglichkeiten die du auf deinen Server installieren kannst. Dafür müssen zunächst einmal die gewünschten Workshop Items rausgesucht werden. Den Steam Workshop zu Unturned findest du hier:  [Unturned - Steam Workshop](https://steamcommunity.com/app/304930/workshop/)
+Es gibt verschiedene Quellen wo du Mods, Maps, Models, etc. herunterladen kannst. Die bekannteste Variante ist der Steam Workshop. Dort findest du zahlreiche Möglichkeiten, die du auf deinen Server installieren kannst. Dafür müssen zunächst einmal die gewünschten Workshop-Items herausgesucht werden. Den Steam Workshop zu Unturned findest du hier:  [Unturned - Steam Workshop](https://steamcommunity.com/app/304930/workshop/)
 
 
 
-Wenn du dich entschieden hast, dann musst du die ID des Workshop Eintrags kopieren und im Anschluss im Interface hinzufügen. Je nachdem ob du den Steam Workshop über den Browser oder Steam Client durchstöberst kannst du folgendermaßen die ID kopieren:
+Wenn du dich entschieden hast, dann musst du die ID des Workshop-Eintrags kopieren und im Anschluss im Interface hinzufügen. Je nachdem ob du den Steam Workshop über den Browser oder Steam Client durchstöberst kannst du folgendermaßen die ID kopieren:
 
 - **Steam Client**
 
-  Mache einen Rechtsklick bei der Steam Workshop Seite des Mods und klicke auf Seitenurl kopieren. Aus der URL kopierst du die ID. 
+  Mache einen Rechtsklick bei der Steam Workshop Seite des Mods und klicke auf Seiten URL kopieren. Aus der URL kopierst du die ID. 
 
   ![img](https://screensaver01.zap-hosting.com/index.php/s/QD89esrFTQ8gZfb/preview)
 
@@ -35,11 +35,11 @@ Wenn du dich entschieden hast, dann musst du die ID des Workshop Eintrags kopier
 
 ### Inhalte hinzufügen
 
-Nachdem die gewünschten Inhalte rausgesucht wurden, werden diese nun beim Server eingetragen. Die Inhalte werden in der **WorkshopDownloadConfig.json** Config eingetragen, die im Interface unter Configs gefunden werden kann.
+Nachdem die gewünschten Inhalte herausgesucht wurden, werden diese nun beim Server eingetragen. Die Inhalte werden in der **WorkshopDownloadConfig.json** Config eingetragen, die im Interface unter Configs gefunden werden kann.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/xRyD4jX9g5YBorM/preview)
 
-Bei `FileIDs` werden nun die IDs der einzelnen Steam Workshop Inhalte eingetragen. Das Endresultat davon kann dann die folgt aussehen:
+Bei `FileIDs` werden jetzt die IDs der einzelnen Steam Workshop Inhalte eingetragen. Das Endresultat davon kann dann die folgt aussehen:
 
 ```json
 {

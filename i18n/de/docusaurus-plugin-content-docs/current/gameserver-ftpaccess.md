@@ -1,7 +1,7 @@
 ---
 id: gameserver-ftpaccess
 title: Dateien mit FTP hochladen und herunterladen
-description: Informationen, wie du mit FTP Dateien auf deinen Gameserver von ZAP-Hosting hoch- und runterladen kannst - ZAP-Hosting.com Dokumentation
+description: Informationen, wie du mit FTP Dateien auf deinen Gameserver von ZAP-Hosting hoch- und herunterladen kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: FTP Dateizugriff
 ---
 
@@ -42,14 +42,14 @@ Dateien können per "**Drag and Drop**" von der linken Seite (dem Computer), in 
 Wenn man über mehrere Server verfügt, muss vorher die ID des Servers ermittelt werden, damit man die Daten in den richtigen Ordner verschiebt.
 :::
 
-### "Transfer connection interrupted" Fehler Meldung
+### "Transfer connection interrupted" Fehlermeldung
 
 Sollte bei der Verbindung oder auch Übertragung die Fehlermeldung "Transfer connection interrupted: ECCONABORTED - Connection aborted" bestehen, so kann testweise der Übertragungsmodus von *Passive* auf *Active* umgestellt werden.
-In den folgenden Schritten wird gezeigt, wie das bei Filezilla in den Einstellungen umgestellt werden kann.
+In den folgenden Schritten wird gezeigt, wie das bei FileZilla in den Einstellungen umgestellt werden kann.
 
 ![image](https://user-images.githubusercontent.com/13604413/159184695-c03a49df-113a-4435-b253-5418843f150c.png)
 
-Drücke in deinem Filezilla Client auf "**Bearbeiten**", dort dann direkt die "**Einstellungen...**" öffnen:
+Drücke in deinem FileZilla Client auf "**Bearbeiten**", dort dann direkt die "**Einstellungen...**" öffnen:
 
 ![image](https://user-images.githubusercontent.com/13604413/159184700-af55e7e0-484f-4992-8b56-d0cdedc3ddf0.png)
 

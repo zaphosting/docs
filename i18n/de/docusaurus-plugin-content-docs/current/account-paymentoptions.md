@@ -36,10 +36,10 @@ Eine anteilige Finanzierung über Guthaben ist nicht möglich. Wenn du bereits G
 ![image](https://user-images.githubusercontent.com/61953937/159141626-cf9deb26-fef5-4c79-967b-42f2d36b974b.png)
 
 ## Cashbox
-Die Cashbox ist über das Web Interface unter dem Punkt **Cashbox** erreichbar. Neben der Möglichkeit Guthaben einzuzahlen, bietet die Cashbox folgende Zusatzfunktionen:
+Die Cashbox ist über das Web Interface unter dem Punkt **Cashbox** erreichbar. Neben der Möglichkeit, Guthaben einzuzahlen, bietet die Cashbox folgende Zusatzfunktionen:
 * **Kreditkarte hinzufügen:** Es können Kreditkarten hinterlegt werden. Durch Hinterlegung einer Kreditkarte ist es beim Bezahlen per Kreditkarte nicht mehr notwendig, sämtliche Daten bei jedem Bezahlvorgang einzutragen.
 * **Geld einzahlen:** Die Einzahlungsfunktion kann auch über die Cashbox verwendet werden.
-* **Gutschein einlösen:** Gutscheine, die ZAP-Guthaben vergeben, können hier eingelöst werden. Nach Einlösung des Gutscheincodes, wird das Guthaben sofort dem Account gutgeschrieben.
+* **Gutschein einlösen:** Gutscheine, die ZAP-Guthaben vergeben, können hier eingelöst werden. Nach Einlösung des Gutscheincodes wird das Guthaben sofort dem Account gutgeschrieben.
 * **ZAP Coins automatisch aufladen:** ZAP Coins kann automatisch aufgeladen werden. Dies ist sinnvoll, wenn ein Vertragsserver bestellt wurde. Um ZAP Coins automatisch aufladen zu können, muss PayPal verwendet werden.
 * **Transaktionsübersicht:** Eine Übersicht aller bisher getätigten Transaktionen.
 

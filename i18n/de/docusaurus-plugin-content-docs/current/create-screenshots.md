@@ -7,29 +7,29 @@ sidebar_label: Screenshots erstellen
 
 ## Screenshots erstellen
 
-Es ist in manchen Fällen notwenig Screenshots an den Support zu übermitteln.
-Damit dies möglich ist, muss der/die Scrennshot/Screenshots über einen Link geteilt werden. 
-Dieser Link kann ein Link zu einer eigene Cloud oder zu einem "Web-Uploader" sein, auch Webscreenshot Tools genannt. 
+Es ist in manchen Fällen notwendig Screenshots an den Support zu übermitteln.
+Damit dies möglich ist, muss der/die Screenshot/Screenshots über einen Link geteilt werden. 
+Dieser Link kann ein Link zu einer eigenen Cloud oder zu einem "Web-Uploader" sein, auch Webscreenshot Tools genannt. 
 
-Sofern die eigene Cloud oder das Webscreenshot Tool keine Funktion bietet um direkt einen Screenshot zu erstellen, kann dieser in der Regel mit einfachen Mitteil auf dem PC erstellt werden. 
-Unter Windows reicht es aus das Tool "Snipping-Tool" zu nutzen. Mit diesem Tool kann ein Screenshot lokal gespeichert werden, dieser kann anschließen hochgeladen werden. 
-Unter Linux kann das meist bereits installierte Tool "Screenshots" oder andere Tools wie "FlameShot" genutzt werden um lokale Screenshots zu erstellen, die dann anschließend hochgeladen werden können.
+Sofern die eigene Cloud oder das Webscreenshot Tool keine Funktion bietet, um direkt einen Screenshot zu erstellen, kann dieser in der Regel mit einfachen Mitteil auf dem PC erstellt werden. 
+Unter Windows reicht es aus, das Tool "Snipping-Tool" zu nutzen. Mit diesem Tool kann ein Screenshot lokal gespeichert werden, dieser kann anschließen hochgeladen werden. 
+Unter Linux kann das meist bereits installierte Tool "Screenshots" oder andere Tools wie "FlameShot" genutzt werden, um lokale Screenshots zu erstellen, die dann anschließend hochgeladen werden können.
 
 
-Nachfolgend werden die 2 bekantesten Screenshot Tools kurz erläutert die frei auf dem Markt verfügbar sind:
+Nachfolgend werden die 2 bekanntesten Screenshot Tools kurz erläutert, die frei auf dem Markt verfügbar sind:
 
 :::info
-Es wird davon abgeraten private oder sensible Daten öffentlich preiszugeben. Sollten Daten auf dem Screenshot zu sehen sein, so sollten diese auf jeden Fall unkenntlich gemacht oder durch Beispiel Daten ersetzt werden.
+Es wird davon abgeraten, private oder sensible Daten öffentlich preiszugeben. Sollten Daten auf dem Screenshot zu sehen sein, so sollten diese auf jeden Fall unkenntlich gemacht oder durch Beispieldaten ersetzt werden.
 :::
 
 
 ### Imgur
 
 Imgur bieten einen Uploader für eigene Dateien wie Bilder/Videos an. 
-Nachdem der Upload erfolgte wird ein Link erstellt. 
+Nachdem der Upload erfolgt ist, wird ein Link erstellt. 
 Dieser kann dann mit anderen geteilt werden. 
 
-Wichtig: Da es keine Screenshot Funktion dort gibt, muss der Screenshot bereits vorher angefertigt werden, damit er anschließend hochgeladen werden kann (siehe weiter oben unter "Screenshots erstellen").
+Wichtig: Da es keine Screenshot-Funktion dort gibt, muss der Screenshot bereits vorher angefertigt werden, damit er anschließend hochgeladen werden kann (siehe weiter oben unter "Screenshots erstellen").
 
 [Imgur-Webseite](https://imgur.com/upload)
 
@@ -39,9 +39,9 @@ Upload Option:
 
 Nachdem der Screenshot hochgeladen wurde, können noch kleine Bearbeitungen vorgenommen werden
 
-Anschließend kann der der Screenshot als Post zur Community (wird öffentlich gelistet) oder als Versteckt (wird nicht öffentlich gelistet) gepostet werden. 
+Anschließend kann der Screenshot als Post zur Community (wird öffentlich gelistet) oder als versteckt (wird nicht öffentlich gelistet) gepostet werden. 
 
-Ist dies erfolgt, wird der Link angezeigt der zum teilen genutzt werden kann:
+Ist dies erfolgt, wird der Link angezeigt, der zum Teilen genutzt werden kann:
 
 ![image](https://user-images.githubusercontent.com/13604413/159170268-ee36e695-4354-439e-b98f-5a6ab953f935.png)
 
@@ -56,12 +56,10 @@ Wichtig: Eine Version für Linux wird nicht angeboten.
 ![image](https://user-images.githubusercontent.com/13604413/159170271-13f1373f-b5e2-4c8a-8546-bf0f0359daaf.png)
 
 Nach dem Download kann der Client installiert werden. 
-Anschließend kann standardmäßig mit der Taste "Druck" ein Scrrenshot erstellt werden bzw.ein Bereich ausgewählt werden. 
+Anschließend kann standardmäßig mit der Taste "Druck" ein Screenshot erstellt werden bzw. ein Bereich ausgewählt werden. 
 
 Nachdem der Bereich ausgewählt wurde, kann der Screenshot noch bearbeitet werden. 
 
-Ist die Bearbeitung sofern nötig abgeschlossen, wird der Screenshot mit Klick auf die "Wolke" hochgeladen. 
+Ist die Bearbeitung, sofern nötig abgeschlossen, wird der Screenshot mit Klick auf die "Wolke" hochgeladen. 
 
 Nach dem Upload kann der Link kopiert und mit anderen geteilt werden.
-
-

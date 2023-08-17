@@ -9,7 +9,7 @@ sidebar_label: Admin werden
 
 Damit man sich als Admin eintragen kann, ist die Installation von Source- / Metamod essenziell.
 
-Des Weiteren benötigt man die Steam ID des Steam Accounts. Es gibt mehrere Möglichkeiten um an diese heranzukommen. Entweder man benutzt einen externe Webseite die so einen Dienst anbietet oder die Spiel-Konsole dafür.
+Des Weiteren benötigt man die Steam ID des Steam Accounts. Es gibt mehrere Möglichkeiten, um an diese heranzukommen. Entweder man benutzt eine externe Webseite, die so einen Dienst anbietet oder die Spiel-Konsole dafür.
 
 ### SteamID via Webseite
 
@@ -25,7 +25,7 @@ Im Anschluss kann die URL auf einer der folgenden Webseiten angeben werden:
 
 ![image](https://user-images.githubusercontent.com/13604413/159178882-44e4b9d3-5f43-4cf6-b0a3-bb688e03d92f.png)
 
-Im Anschluss  erhält man neben den allgemeinen Account Informationen auch die Steam ID. Dort wird die **Steam ID 32** benötigt:
+Im Anschluss erhält man neben den allgemeinen Account Informationen auch die Steam ID. Dort wird die **Steam ID 32** benötigt:
 
 ```
 steamID32: STEAM_0:1:XXXXXX
@@ -92,7 +92,7 @@ Der **Spielername** muss **nicht** mit dem Namen des Steam Accounts übereinstim
 
 Je nachdem, welche Rechte vergeben werden sollen, kann man die jeweiligen Flags nacheinander schreiben. Wenn man zum Beispiel nur die Rechte zum Kicken geben möchte, dann würde man die Flags `b` und `c` zuweisen. Wenn man aber vollen Zugang zuweisen möchte, dann reicht lediglich das Flag `z`
 
-### Verwendung des Admin Menüs 
+### Verwendung des Admin-Menüs 
 
 Mit dem Befehl `!admin` im Chat oder `sm_admin` in der Konsole kann das Menü aufgerufen werden.
 

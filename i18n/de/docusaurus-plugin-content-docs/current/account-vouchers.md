@@ -10,10 +10,10 @@ Um unsere Codes nutzen zu können, solltest du dich zuerst auf unserer Website a
 
 ![image](https://user-images.githubusercontent.com/13604413/159170445-9997a825-12c1-4088-8dbc-519873b71698.png)
 
-Sobald du eingeloggt bist, landest du automatisch in deinem Webinterface. Um nun einen Code nutzen zu können, solltest du erst in Erfahrung bringen welche Art Code du gerade einlösen möchtest. Grundsätzlich gibt es zwei unterschiedliche Arten von Gutscheincodes:
+Sobald du eingeloggt bist, landest du automatisch in deinem Webinterface. Um nun einen Code nutzen zu können, solltest du erst in Erfahrung bringen, welche Art Code du gerade einlösen möchtest. Grundsätzlich gibt es zwei unterschiedliche Arten von Gutscheincodes:
 
-    1. Codes die dein ZAP-Guthaben erhöhen (**Gutscheincodes**)
-    2. Codes die den Preis einer Bestellung senken (**Rabattcodes**)
+    1. Codes, die dein ZAP-Guthaben erhöhen (**Gutscheincodes**)
+    2. Codes, die den Preis einer Bestellung senken (**Rabattcodes**)
 
 ## Guthabencodes
 
@@ -51,19 +51,19 @@ Sobald alles korrekt konfiguriert ist, könnt ihr euren Code noch im Bestellproz
 
 ![image](https://user-images.githubusercontent.com/13604413/159170464-40afb279-40dd-4647-826a-37bf2d399c4b.png)
 
-Die Kosten reduzieren sich automatisch sobald ihr den Gutschein einlöst. 
+Die Kosten reduzieren sich automatisch, sobald ihr den Gutschein einlöst. 
 
 :::info
 Es gibt zwei unterschiedliche Rabattcodes: 
 :::
-1. Codes die die Kosten für die zuerst gebuchte Laufzeit reduzieren
-2. Codes die dauerhaft die Kosten während der Laufzeit reduzieren
+1. Codes, die Kosten für die zuerst gebuchte Laufzeit reduzieren
+2. Codes, die dauerhaft die Kosten während der Laufzeit reduzieren
 
 ## Wo gibt es Codes?
 
 Es gibt verschiedene Möglichkeiten, um an die begehrten Codes zu kommen. Am einfachsten findet man sie an folgenden Orten:
 
-- Unseren Social Media Plattformen wie [Twitter](https://twitter.com/zaphosting), [Facebook](https://www.facebook.com/zaphosting/) und [Instagram](https://www.instagram.com/zaphosting/)
+- Unseren Social-Media-Plattformen wie [Twitter](https://twitter.com/zaphosting), [Facebook](https://www.facebook.com/zaphosting/) und [Instagram](https://www.instagram.com/zaphosting/)
 - In unserem Live Chat auf unserer Website
 - In unseren Newslettern
 - Direkt nach der Bestellung eines Produkts

@@ -9,7 +9,7 @@ sidebar_label: Einführung
 
 ## Einführung
 
-Du hast einen Youtube-Kanal, streamst auf Twitch oder leitest einen Gaming-Clan? Dann kannst du dich als Partner bewerben. Unsere Partner bewerben ZAP-Hosting auf ihren Kanälen und können im Gegenzug beispielsweise **kostenfreie Server, Hardware** oder **Server** für Gewinnspiele oder **Geld** erhalten.
+Du hast einen YouTube-Kanal, streamst auf Twitch oder leitest einen Gaming-Clan? Dann kannst du dich als Partner bewerben. Unsere Partner bewerben ZAP-Hosting auf ihren Kanälen und können im Gegenzug beispielsweise **kostenfreie Server, Hardware** oder **Server** für Gewinnspiele oder **Geld** erhalten.
 
 
 
@@ -29,13 +29,13 @@ Das Partnerprogramm richtet sich an:
 - Blogs und Foren
 - Spiele-Entwickler
 
-Wichtig ist, dass dein Kanal eine bestimmte Mindestreichweite hat und deine Zielgruppe interessiert an Game-Servern ist. Hast du beispielsweise einen Youtube-Kanal, auf dem du Minecraft-Videos zeigst, bist du genau richtig für unser Partner-Programm. Schmink-Tipps hingegen sind für unser Partnerprogramm eher uninteressant.
+Wichtig ist, dass dein Kanal eine bestimmte Mindestreichweite hat und deine Zielgruppe interessiert an Game-Servern ist. Hast du beispielsweise einen YouTube-Kanal, auf dem du Minecraft-Videos zeigst, bist du genau richtig für unser Partnerprogramm. Schmink-Tipps hingegen sind für unser Partnerprogramm eher uninteressant.
 
 
 
 ## Erforderliche Reichweite 
 
-Als Partner solltest du eine bestimmte Reichweite mitbringen, damit eine Partnerschaft sich auch für uns sinvoll erscheint. Bei Videokanälen achten wir beispielsweise vor allem darauf, wie hoch die Anzahl der Videoaufrufe in den letzten Monaten war, bei Foren auf Mitgliederanzahl und ob regelmäßig Beiträge erstellt werden.
+Als Partner solltest du eine bestimmte Reichweite mitbringen, damit eine Partnerschaft sich auch für uns sinnvoll erscheint. Bei Videokanälen achten wir beispielsweise vor allem darauf, wie hoch die Anzahl der Videoaufrufe in den letzten Monaten war, bei Foren auf Mitgliederanzahl und ob regelmäßig Beiträge erstellt werden.
 
 :::info
 Als Faustregel sollte deine Reichweite im vierstelligen Bereich liegen, um als Partner akzeptiert zu werden.
@@ -49,6 +49,6 @@ Als Partner von ZAP-Hosting kannst du folgende Vorteile erhalten:
 
 - Du erhältst einen persönlichen Account-Manager, der als Ansprechpartner dient und beispielsweise verschiedene Aktionen mit dir plant.
 - Du kannst kostenfreie Server von uns gestellt bekommen.
-- Du kannst bessere affiliate Provisionbedingungen erhalten.
+- Du kannst bessere Affiliate Provisionbedingungen erhalten.
 - Für Events und Aktionen stellen wir gerne Gewinne (z. B. ZAP Coins, Server, Hardware) bereit.
 - Du wirst auf unserer [Partnerseite](https://zap-hosting.com/de/partner/) verlinkt.

@@ -35,5 +35,5 @@ kopiere nun deine STEAM64-ID und füge diese in die Admins ein:
 Scrolle nun bis zum Ende der Seite und klicke auf Speichern.
 
 :::info
-⚡ Starte nun deinen Server neu, dann kannst du mit /admin das QBCore Admin-Menü öffnen.
+⚡ Starte jetzt deinen Server neu, dann kannst du mit /admin das QBCore Admin-Menü öffnen.
 :::

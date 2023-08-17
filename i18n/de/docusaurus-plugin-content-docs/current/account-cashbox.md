@@ -5,7 +5,7 @@ description: Anleitung, wie du die Cashbox benutzt, um Geld auf dein ZAP-Hosting
 sidebar_label: Cashbox
 ---
 
-## Was Kann man in der Cashbox machen?
+## Was kann man in der Cashbox machen?
 
 Die Cashbox ist dafür da, um Geld einzuzahlen. Dafür bieten wir dir mehrere Möglichkeiten an. Dies sind die aktuellen Möglichkeiten:
 
@@ -18,7 +18,7 @@ Diese Option lässt sich mit einem Klick auf **Geld einzahlen** öffnen:
 
 ## Wie speicher ich eine Kreditkarte?
 
-Um eine Kreditkarte für zukünftige oder automatische Guthabenaufladungen zu speichern muss lediglich auf **Kreditkarte hinzufügen** geklickt werden: 
+Um eine Kreditkarte für zukünftige oder automatische Guthabenaufladungen zu speichern, muss lediglich auf **Kreditkarte hinzufügen** geklickt werden: 
 
 ![image](https://user-images.githubusercontent.com/13604413/159164476-1ae479b3-f9ea-4494-a609-65089eb0185e.png)
 
@@ -29,7 +29,7 @@ Anschließend öffnet sich das folgende Fenster, in dem deine Daten eingetragen 
 
 ## Wie aktiviere ich die automatische Zahlung?
 
-Um die automatische Zahlung zu aktivieren, muss lediglich auf **Guthaben automatisch aufladen** geklickt werden. Anschließend kann der Betrag festgelegt werden ab wann und wie viel aufgeladen werden soll:
+Um die automatische Zahlung zu aktivieren, muss lediglich auf **Guthaben automatisch aufladen** geklickt werden. Anschließend kann der Betrag festgelegt werden, ab wann und wie viel aufgeladen werden soll:
 
 ![image](https://user-images.githubusercontent.com/13604413/159164492-19d1e735-9d74-47b1-8b0f-cdec02cf7216.png)
 

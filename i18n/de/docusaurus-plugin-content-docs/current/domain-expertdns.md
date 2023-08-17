@@ -7,7 +7,7 @@ sidebar_label: ExpertDNS
 
 ## Was ist ExpertDNS überhaupt?
 
-Mit der **ExpertDNS Funktion** kann man einstellen welche Nameserver für die Domain genutzt werden sollen.
+Mit der **ExpertDNS Funktion** kann man einstellen, welche Nameserver für die Domain genutzt werden sollen.
 
 ## Wo finde ich die ExpertDNS Option und wie verwende ich es?
 
@@ -19,7 +19,7 @@ Sobald aktiviert, können dort nun weitere Nameserver eingetragen werden.
 Bestätigt werden die Änderungen mit "**Speichern**".
 
 :::info
-Hierbei müssen valide Nameserver gewählt werden wo die Domain auch bereits eingetragen wurde
+Hierbei müssen valide Nameserver gewählt werden, wo die Domain auch bereits eingetragen wurde
 :::
 
 ![2022-05-07_22-01_1](https://user-images.githubusercontent.com/61953937/167270046-f293eef8-905f-4efd-ae0f-0d79f88dfb86.png)

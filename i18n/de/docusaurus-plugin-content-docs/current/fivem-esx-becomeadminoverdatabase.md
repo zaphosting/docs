@@ -11,7 +11,7 @@ Ein Charakter muss erstellt sein von euch, sodass ihr diesen dann auch in der Da
 
 ## Admin werden
 
-Zu allererst müssen wir uns mit unserer Datenbank verbinden.
+Zuallererst müssen wir uns mit unserer Datenbank verbinden.
 Das machen wir wie folgt.
 
 **1** Datenbank TAB auswählen
@@ -24,17 +24,16 @@ Das machen wir wie folgt.
 
 **3** Uns mit unseren Daten anmelden
 
-Falls nötig mit unseren Daten anmelden welche wir hier finden:
+Falls nötig, mit unseren Daten anmelden, welche wir hier finden:
 ![](https://user-images.githubusercontent.com/61839701/170334437-3eefea79-ca49-4fa8-ab15-bd1fabd570df.png)
 
-**4** Den users Table öffnen
+**4** Die Users Tabelle öffnen
 
 ![](https://user-images.githubusercontent.com/61839701/170334709-1fad99b2-a713-4e73-af56-9ff9a89a8a05.png)
 
 **5** Eigenen Charakter finden
 
-Nun suchen wir unseren Charakter und machen einen doppelklick auf die "group" spalte. 
-Dort muss "admin" eingetragen werden.
+Nun suchen wir unseren Charakter und machen einen Doppelklick auf die "group" spalte. Dort muss "admin" eingetragen werden.
 ![](https://user-images.githubusercontent.com/61839701/170335077-b3552090-94c5-438e-81a2-fa61b5890b01.png)
 
-Das wars auch schon. Nun seit ihr Admin auf eurem eigenen Server
+Das war es auch schon. Nun bist du Admin auf deinem Server.

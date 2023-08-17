@@ -3,13 +3,12 @@ id: barotrauma-becomeadmin
 title: Admin auf dem eigenen Server werden
 description: Informationen, wie du Admin auf deinem Barotrauma-Server von ZAP-Hosting wirst - ZAP-Hosting.com Dokumentation
 sidebar_label: Admin werden
-
 ---
 
 
 ## Admin werden
 
-Mit Administrator-Rechten kannst du direkt im Spiel Änderungen im Live Zustand an deinem Server vornehmen, ohne diese in der Config vorzunehmen. Das hinzufügen eines Admins erfolgt über die **Clientpermissions.xml** Config, welche du im Interface unter Configs findest.
+Mit Administrator-Rechten kannst du direkt im Spiel Änderungen im Live Zustand an deinem Server vornehmen, ohne diese in der Config vorzunehmen. Das Hinzufügen eines Admins erfolgt über die **Clientpermissions.xml** Config, welche du im Interface unter Configs findest.
 
 ![image](https://user-images.githubusercontent.com/26007280/189937640-321e9e45-c344-4107-aad8-77100b7834c5.png)
 
@@ -60,7 +59,7 @@ Dadurch erhältst du dort die sowohl die allgemeinen Accountinformationen als au
 
 
 
-Nun bist du zwar schon Admin, allerdings wurden deinem Account noch keine spezifischen Rechte hinzugefügt. Diese kannst du hinzufügen indem du die Permissions und Commands hinzufügst die genutzt werden dürfen. Das kann dann zum Beispiel so aussehen:
+Nun bist du zwar schon Admin, allerdings wurden deinem Account noch keine spezifischen Rechte hinzugefügt. Diese kannst du hinzufügen, indem du die Permissions und Commands hinzufügst, die genutzt werden dürfen. Das kann dann zum Beispiel so aussehen:
 
 ```xml
 ...
@@ -85,7 +84,7 @@ Nun bist du zwar schon Admin, allerdings wurden deinem Account noch keine spezif
 
 
 
-In dem Beispiel wurde dem Admin Zugriff auf die Server-Logs, Konsole, Heilen und Spawnen Befehl erlaubt. Im folgenden findest du eine Übersicht an Berechtigungen welche du setzen kannst.
+In dem Beispiel wurde dem Admin Zugriff auf die Server-Logs, Konsole, Heilen und Spawnen Befehl erlaubt. Im Folgenden findest du eine Übersicht an Berechtigungen, welche du setzen kannst.
 
 
 

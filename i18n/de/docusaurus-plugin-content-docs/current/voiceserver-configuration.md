@@ -34,7 +34,7 @@ Wenn du die allgemeine Konfiguration deines Servers über den Teamspeak Client d
 ![img](https://user-images.githubusercontent.com/61839701/170319758-09745a1c-457d-45f6-8f17-402aa52b3134.png)
 
 
-Da die Einstellungsmöglichkeiten im Webinterface soweit so verständlich wie möglich sein sollten und dort nicht ebenfalls nicht alles angepasst werden kann fokussiert sich diese Anleitung auf die Konfiguration des Teamspeak Servers über den Teamspeak Client. 
+Da die Einstellungsmöglichkeiten im Webinterface soweit so verständlich wie möglich sein sollten und dort nicht ebenfalls nicht alles angepasst werden kann, fokussiert sich diese Anleitung auf die Konfiguration des Teamspeak Servers über den Teamspeak Client. 
 
 
 
@@ -56,7 +56,7 @@ Wenn kein eigener Banner gebucht wurde, dann wird der Banner automatisch durch d
 
 ### Slots (Reservierte Slots)
 
-Die Slots werden von uns gesetzt und können nicht verändert werden. Allerdings gibt es hier die Möglichkeit reservierte Slots einzustellen. Das bedeutet, dass diese reserviert sind, falls der Teamspeak Server mal voll sein sollte. Dann können Benutzer mit den entsprechenden Berechtigungen sich trotzdem noch mit dem Teamspeak Server verbinden.
+Die Slots werden von uns gesetzt und können nicht verändert werden. Allerdings gibt es hier die Möglichkeit, reservierte Slots einzustellen. Das bedeutet, dass diese reserviert sind, falls der Teamspeak Server mal voll sein sollte. Dann können Benutzer mit den entsprechenden Berechtigungen sich trotzdem noch mit dem Teamspeak Server verbinden.
 
 
 
@@ -69,7 +69,7 @@ Hierbei kannst du eine beliebige Willkommensnachricht hinzufügen. Diese wird da
 
 ### Sicherheitsstufe
 
-Die benötigte Sicherheitsstufe legt fest, wie lange Benutzer benötigen, um die Sicherheitsstufe ihrer Identität zu erhöhen, bis diese Identität als ausreichend sicher eingestuft wurde. Grundsätzlich reduziert dies das potenzial für Spam und Missbrauch. Je höher die Sicherheitsstufe eingestellt wird, desto länger dauert es. Hier eine Übersicht über die Dauer:
+Die benötigte Sicherheitsstufe legt fest, wie lange Benutzer benötigen, um die Sicherheitsstufe ihrer Identität zu erhöhen, bis diese Identität als ausreichend sicher eingestuft wurde. Grundsätzlich reduziert dies das Potenzial für Spam und Missbrauch. Je höher die Sicherheitsstufe eingestellt wird, desto länger dauert es. Hier eine Übersicht über die Dauer:
 
 - Level 0-23 -  Wird generiert innerhalb von Sekunden
 - Level 23-29 - Wird generiert innerhalb von Minuten
@@ -90,7 +90,7 @@ Ebenfalls findest du dort die Beschwerdeliste. Das ist ein Feature seitens Teams
 
 ## Personalisieren
 
-Du kannst bei deinem Teamspeak Server noch weitere Channel und Server-Gruppen anlegen um deinen Teamspeak Server noch weiter zu personalisieren. Im Folgenden zeigen wir wie du dies genau machen kannst.
+Du kannst bei deinem Teamspeak Server noch weitere Channel und Server-Gruppen anlegen, um deinen Teamspeak Server noch weiter zu personalisieren. Im Folgenden zeigen wir, wie du dies genau machen kannst.
 
 
 
@@ -111,7 +111,7 @@ Um weitere Server-Gruppen anzulegen, musst du in der **Navigationszeile** auf **
 
 ## Berechtigungen
 
-Bis hierhin sollte klar sein, wie du allgemeine Einstellungen vom Teamspeak Server anpasst und wie du deinen Teamspeak Server personalisierst, in dem du weitere Channels und Server-Gruppen anlegst. Im Folgenden geht es nun darum wie die Berechtigungen diesbezüglich noch angepasst werden können. 
+Bis hierhin sollte klar sein, wie du allgemeine Einstellungen vom Teamspeak Server anpasst und wie du deinen Teamspeak Server personalisierst, in dem du weitere Channels und Server-Gruppen anlegst. Im Folgenden geht es nun darum, wie die Berechtigungen diesbezüglich noch angepasst werden können. 
 
 
 
@@ -129,13 +129,13 @@ Für die einzelnen Channels können jeweils Berechtigungen definiert werden. So 
 ![img](https://user-images.githubusercontent.com/61839701/170320718-2bd14e50-861c-42f4-8224-3f792610dc63.png)
 
 
-Der Wert der einzelnen Felder wird von den Server-Gruppen abhängig gemacht. Wenn du zum Beispiel eine zusätzliche Server-Gruppe mit dem Namen **Mitglied** erstellst und nur die Zugriff auf den Channel haben sollen, dann muss der Wert mit der von der Server Gruppe übereinstimmen. Nehmen wir an die Server-Gruppe hat den Berechtigungswert von 50, dann muss in den einzelnen Felder die **50** eingetragen werden.
+Der Wert der einzelnen Felder wird von den Server-Gruppen abhängig gemacht. Wenn du zum Beispiel eine zusätzliche Server-Gruppe mit dem Namen **Mitglied** erstellst und nur die Zugriff auf den Channel haben sollen, dann muss der Wert mit der von der Server Gruppe übereinstimmen. Nehmen wir an, die Server-Gruppe hat den Berechtigungswert von 50, dann muss in den einzelnen Feldern die **50** eingetragen werden.
 
 
 
 ### Berechtigungen: Server-Gruppen
 
-Bei den Berechtigungen der Server-Gruppen gibt es verschiedene Kategorien die angepasst werden können. Diese beinhalten folgende:
+Bei den Berechtigungen der Server-Gruppen gibt es verschiedene Kategorien, die angepasst werden können. Diese beinhalten folgende:
 
 - Allgemeine Optionen
 - Gruppen verwalten

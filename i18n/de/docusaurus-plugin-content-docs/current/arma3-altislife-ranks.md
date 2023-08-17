@@ -8,18 +8,18 @@ sidebar_label: Altis Life Ränge
 
 ## Ränge in ArmA 3: Altis Life
 
-In ArmA 3 gibt es verschiedene Ränge welche einem Spieler zugewiesen werden können. Hierzu gehören Cop, Medic so wie die verschiedenen Admin-Ränge.
-Je nach Server kann es noch weitere Ränge geben wenn zum Beispiel eine neue Fraktion oder ein Beruf eingebaut wurde.
-Im folgenden lernst du wie du die Ränge für Cop's, Medic's und Administratoren im Spiel vergibst, geschehen tut dies immer mithilfe der Datenbank innerhalb der Tabelle **players**.
+In ArmA 3 gibt es verschiedene Ränge, welche einem Spieler zugewiesen werden können. Hierzu gehören Cop, Medic so wie die verschiedenen Admin-Ränge.
+Je nach Server kann es noch weitere Ränge geben, wenn zum Beispiel eine neue Fraktion oder ein Beruf eingebaut wurde.
+Im Folgenden lernst du wie du die Ränge für Cop's, Medic's und Administratoren im Spiel vergibst, geschehen tut dies immer mithilfe der Datenbank innerhalb der Tabelle **players**.
 
 :::info
-WICHTIG: Damit der Name des jeweiligen Spieler in der Datenbank zu finden ist muss dieser sich mindestens ein mal mit dem Server verbunden haben!
+WICHTIG: Damit der Name des jeweiligen Spielers in der Datenbank zu finden ist, muss dieser sich mindestens ein mal mit dem Server verbunden haben!
 :::
 
 
 ## Öffnen der Datenbank
 
-Als erstes navigierst du zu deiner Datenbank welche du links über Das Menü unter **Werkzeuge** > **Datenbanken** erreichst:
+Als Erstes navigierst du zu deiner Datenbank, welche du links über das Menü unter **Werkzeuge** > **Datenbanken** erreichst:
 
 ![image](https://user-images.githubusercontent.com/26007280/189706219-3de71428-db27-4b89-b1a8-c10a5634f6d0.png)
 
@@ -28,17 +28,17 @@ Den Login zur Datenbank erreichst du dort über dieses blaue Icon, links daneben
 ![image](https://user-images.githubusercontent.com/26007280/189706236-c0b33f3c-bbc1-4963-aaa5-98c529a878bb.png)
 
 
-Nach einem Klick auf diesen Button befindest du dich nun in phpMyAdmin, der verwaltungsoberfläche deiner Datenbank.
-Dort wählst du nun links den Namen deiner per linksklick Datenbank aus:
+Nach einem Klick auf diesen Button befindest du dich nun in PhpMyAdmin, der Verwaltungsoberfläche deiner Datenbank.
+Dort wählst du nun links den Namen deiner per Linksklick Datenbank aus:
 
 ![image](https://user-images.githubusercontent.com/26007280/189706275-a1ab4ff1-523b-40ce-90fc-000b3388e313.png)
 
-Im Anschluss wählst du ebenfalls per Linksklick die Tabelle **players** aus in welcher du dann die Ränge vergeben kannst:
+Im Anschluss wählst du ebenfalls per Linksklick die Tabelle **players** aus, in welcher du dann die Ränge vergeben kannst:
 
 
 ![image](https://user-images.githubusercontent.com/26007280/189706307-defc23bb-bb90-4915-be47-c3a2ed579d76.png)
 
-Dort suchst du nun nach dem Namen des Spielers welchem du einen Rang zuweisen möchtest und klickst bei diesem auf **Bearbeiten**:
+Dort suchst du nun nach dem Namen des Spielers, welchem du einen Rang zuweisen möchtest und klickst bei diesem auf **Bearbeiten**:
 
 ![image](https://user-images.githubusercontent.com/26007280/189706331-1235ed87-426c-4943-994c-1ec7440910ad.png)
 
@@ -62,10 +62,10 @@ Das Adminlevel legst du ebenfalls wie oben beschrieben fest, lediglich der Eintr
 
 ![image](https://user-images.githubusercontent.com/26007280/189706444-fcc51eeb-18f8-48e4-b897-e9e8f413ae39.png)
 
-Dort kannst du ebenbfalls per Dropdown zwischen 5 verschiedenen Leveln wählen. Je höher das level desto mehr Berechtigungen hat der Administrator im Spiel.
+Dort kannst du ebenfalls per Dropdown zwischen 5 verschiedenen Leveln wählen. Je höher das Level, desto mehr Berechtigungen hat der Administrator im Spiel.
 
 
-Um die Änderungen zu Speichern genügt ein Klick auf den **OK** Button unten rechts:
+Um die Änderungen zu speichern, genügt ein Klick auf den **OK** Button unten rechts:
 
 ![image](https://user-images.githubusercontent.com/26007280/189706469-0c7a2570-b6d5-43b6-a620-f005f11de2fc.png)
 

@@ -21,13 +21,13 @@ Es sollte **in jedem Fall vor** der Installation von Mods ein Backup angelegt we
 
 ## Modded Satisfactory auf dem Server installieren
 
-Um Mods auf deinem Server überhaupt installieren zu können, muss  zunächst ein Modded Satisfactory Server bestellt werden: https://zap-hosting.com/de/modded-satisfactory-server-mieten/
-Solltest du bereits einen Satisfactory Server gemietet haben, kann das Spiel jederzeit dank des Cloud-Systems wie in [dieser Anleitung](https://zap-hosting.com/guides/docs/de/gameserver_gameswitch/) beschrieben wird, geändert werden.
+Um Mods auf deinem Server überhaupt installieren zu können, muss zunächst ein Modded Satisfactory Server bestellt werden: https://zap-hosting.com/de/modded-satisfactory-server-mieten/
+Solltest du bereits einen Satisfactory Server gemietet haben, kann das Spiel jederzeit dank des Cloud-Systems, wie in [dieser Anleitung](https://zap-hosting.com/guides/docs/de/gameserver_gameswitch/) beschrieben wird, geändert werden.
 
 ## Mod-Manager installieren
 
 Das Tool "SatisfactoryModManager" gestaltet die Verwaltung und Installation von Mods sehr einfach und kann mit wenigen Klicks abgewickelt werden.
-Das Tool ist verfügbar für Windows und Linux und kann hier herruntergeladen werden: https://github.com/satisfactorymodding/SatisfactoryModManager/releases
+Das Tool ist verfügbar für Windows und Linux und kann hier heruntergeladen werden: https://github.com/satisfactorymodding/SatisfactoryModManager/releases
 
 Auf der verlinkten Seite werden alle Versionen aufgelistet, in der Regel sollte immer die neuste Version verwendet werden, also der erste Eintrag von oben.
 Unter "Assets" kann das Tool nun heruntergeladen werden. Je nachdem welches Betriebssystem (Windows oder Linux) du verwendest, klickst du die passende Datei an, wodurch der Download automatisch startet bzw. abhängig von deinem Browser oder gewählten Einstellungen bestätigt werden muss.
@@ -46,14 +46,14 @@ Im ersten Schritt werden die Mods auf dem Client zusammengestellt und installier
 
 Nicht alle Mods sind mit dem Multiplayer kompatibel!
 
-Sofern die Mod mit dem Multiplayer kompatibel ist, wird dies in der Regel immer in der Beschreibung der Mod erwähnt.
+Sofern die Mods mit dem Multiplayer kompatibel ist, wird dies in der Regel immer in der Beschreibung der Mod erwähnt.
 
-Auch wenn die Mod als kompatibel für den Multiplayer ausgewiesen wird, ist dies keine Gewährleistung dessen!
+Auch wenn die Mods als kompatibel für den Multiplayer ausgewiesen wird, ist dies keine Gewährleistung dessen!
 :::
 
 ### Client
 
-Die Mods werden in Profilen gespeichern, sodass als Beispiel in einer Test-Welt andere Mods getestet werden können und mit einem Klick zu den regulären Mods zurück gewechselt werden kann.
+Die Mods werden in Profilen gespeichert, sodass als Beispiel in einer Test-Welt andere Mods getestet werden können und mit einem Klick zu den regulären Mods zurückgewechselt werden kann.
 Wähle also zuerst ein Profil aus bzw. erstelle wie im Screenshot dargestellt ein neues.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/EMFsKnrsowZAxJE/preview)
@@ -62,14 +62,14 @@ Stelle den Filter zunächst auf "Compatible", damit nur Mods angezeigt werden, w
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/jg82aG3ketFxesD/preview)
 
-Mods können nun einfach mit einem Klick auf das Download-Symbol installiert werden, wenn sichergestellt ist, dass die Mod mit dem Multiplayer kompatibel ist, wie oben beschrieben.
+Mods können nun einfach mit einem Klick auf das Download-Symbol installiert werden, wenn sichergestellt ist, dass die Mods mit dem Multiplayer kompatibel ist, wie oben beschrieben.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/CH2pBzS8iXxEpRz/preview)
 
 ### Server
 
-Nachdem alle gewünschten Mods auf dem Client installiert und sichergestellt worden ist, dass die Mod mit dem Multiplayer kompatibel ist, können die Mods nun auf dem Server installiert werden. 
-Damit es hierbei keine Probleme bei der Übernahe der Änderungen gibt, stelle bitte sicher, dass dein Server hierbei zuvor gestoppt wird!
+Nachdem alle gewünschten Mods auf dem Client installiert und sichergestellt worden ist, dass die Mods mit dem Multiplayer kompatibel ist, können die Mods nun auf dem Server installiert werden. 
+Damit es hierbei keine Probleme bei der Übernähe der Änderungen gibt, stelle bitte sicher, dass dein Server hierbei zuvor gestoppt wird!
 
 Verbinde dich nun via FTP zu deinem Server, um die Mods im nächsten Schritt hochladen zu können.
 Wir haben in [dieser Anleitung](https://zap-hosting.com/guides/docs/de/gameserver_ftpaccess/) alles zur FTP-Verbindung beschrieben.
@@ -104,7 +104,7 @@ Nun markieren wir alle Ordner **außer den SML Ordner** mit gedrückter STRG-Tas
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/jCNjLHiF3JRgB24/preview)
 
-Die ausgewählten Ordner werden nun mittels Drag&Drop in den zuvor geöffnet Mod-Ordner in FTP reingezogen.
+Die ausgewählten Ordner werden jetzt mittels Drag & Drop in den zuvor geöffnet Mod-Ordner in FTP hineingezogen.
 
 ## Server starten
 

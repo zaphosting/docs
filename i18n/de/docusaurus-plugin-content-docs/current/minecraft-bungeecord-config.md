@@ -15,11 +15,11 @@ An sich ist BungeeCord die Verwaltung eines Bündels von Servern, welche durch d
 
 ### forge_support
 
-Der Wert kann auf false (falsch) oder true (wahr) gestellt werden. Falls du diesen auf wahr stellst können Spieler mit einem Forge Klienten (für Modpacks gedacht) den Server betreten. Bei einer Negation werden diese Verbindungen abgelehnt.
+Der Wert kann auf false (falsch) oder true (wahr) gestellt werden. Falls du diesen auf wahr stellst, können Spieler mit einem Forge Klienten (für Modpacks gedacht) den Server betreten. Bei einer Negation werden diese Verbindungen abgelehnt.
 
 ### player_limit
 
-Dieser Zahlenwert sagt aus wie viele Spieler gleichzeitig eine Verbindung zu dem Server aufgebaut haben dürfen. Im Vergleich zu dem Wert *max_players* aus den Horchern ist dieser Wert die interne, absolute Bestimmung der gesamten Spieleranzahl.
+Dieser Zahlenwert sagt aus, wie viele Spieler gleichzeitig eine Verbindung zu dem Server aufgebaut haben dürfen. Im Vergleich zu dem Wert *max_players* aus den Horchern ist dieser Wert die interne, absolute Bestimmung der gesamten Spieleranzahl.
 
 ### permissions
 
@@ -34,20 +34,20 @@ permissions:
 
 ### timeout
 
-Diese Zahl sagt aus wie lange der Server maximal keine Signale an die Spieler senden darf bevor sich der Server herunterfährt und somit alle Verbindungen unterbricht. Standardmäßig ist dieser Wert auf 30000, was einer maximalen Antwortzeit von 30 Sekunden entspricht. 
+Diese Zahl sagt aus, wie lange der Server maximal keine Signale an die Spieler senden darf, bevor sich der Server herunterfährt und somit alle Verbindungen unterbricht. Standardmäßig ist dieser Wert auf 30000, was einer maximalen Antwortzeit von 30 Sekunden entspricht. 
 
 ### log_commands
 
-Der Wert kann auf false (falsch) oder true (wahr) gestellt werden. Falls du diesen auf wahr stellst wird eine Nachricht in die Konsole geschrieben, wenn ein Spieler einen BungeeCord-Befehl ausführt. Bei einer Negation wird diese Nachricht nicht angezeigt.
+Der Wert kann auf false (falsch) oder true (wahr) gestellt werden. Falls du diesen auf wahr stellst, wird eine Nachricht in die Konsole geschrieben, wenn ein Spieler einen BungeeCord-Befehl ausführt. Bei einer Negation wird diese Nachricht nicht angezeigt.
 
 ### network_compression_threshold
 
-Dies setzt die Größe der an die Spieler versendeten Pakete fest. Ein kleinerer Wert als der Standardmäßige *256* wie zum Beispiel 128 kann die Verbindung zu anderen, weit entfernten Nutzern verbessern. Dies führt allerdings auch zu einer stark erhöhten CPU-Auslastung, weshalb die Veränderung des Wertes mit Vorsicht zu genießen ist.
+Dies setzt die Größe der an die Spieler versendeten Pakete fest. Ein kleinerer Wert als der standardmäßige *256* wie zum Beispiel 128 kann die Verbindung zu anderen, weit entfernten Nutzern verbessern. Dies führt allerdings auch zu einer stark erhöhten CPU-Auslastung, weshalb die Veränderung des Wertes mit Vorsicht zu genießen ist.
 
 ### online_mode
 
-Der Wert kann auf false (falsch) oder true (wahr) gestellt werden. Falls du diesen auf wahr stellst können nur Spieler auf den Server, welche sich Minecraft gekauft haben. Bei einer Negation können auch Cracked-Spieler auf den Server, da keine Kommunikation mehr mit dem Mojang Server stattfindet.
-**Wichtig:** Wenn auch Cracked-Spieler auf deinem Server spielen sollen können empfielt sich ein Autorisierungsplugin, da sich sonst andere Spieler als deine Person ausgeben können und somit Administrator Berechtigungen erlangen können.
+Der Wert kann auf false (falsch) oder true (wahr) gestellt werden. Falls du diesen auf wahr stellst, können nur Spieler auf den Server, welche sich Minecraft gekauft haben. Bei einer Negation können auch Cracked-Spieler auf den Server, da keine Kommunikation mehr mit dem Mojang Server stattfindet.
+**Wichtig:** Wenn auch Cracked-Spieler auf deinem Server spielen sollen können, empfiehlt sich ein Autorisierungsplugin, da sich sonst andere Spieler als deine Person ausgeben können und somit Administrator Berechtigungen erlangen können.
 
 ### disabled_commands
 
@@ -68,7 +68,7 @@ Die **motd** ist die Nachricht, welche in der deiner Serverliste angezeigt wird,
 
 ![image](https://user-images.githubusercontent.com/13604413/159177910-15cd7179-e13f-41c9-8bed-b9d483f10b28.png)
 
-Unter **address** gibst du die entsprechende IP des Unterservers ein. Wenn der Wert **restricted** auf true ist muss der Spieler die Berechtigung *bungeecord.server.[Spieler]* besitzen, um den Unterserver betreten zu können.
+Unter **address** gibst du die entsprechende IP des Unterservers ein. Wenn der Wert **restricted** auf true ist, muss der Spieler die Berechtigung *bungeecord.server.[Spieler]* besitzen, um den Unterserver betreten zu können.
 
 ### listeners
 
@@ -77,25 +77,25 @@ Hinter dieser Variable stecken viele Optionsmöglichkeiten, die für die Verbind
 * motd - Hier wird die Nachricht festgelegt, welche in der Serverliste angezeigt wird, wenn der Spieler direkt den BungeeCord Server in seiner Liste eingetragen hat.
 * tab_list - Du kannst hier zwischen den Werten *GLOBAL_PING*, *GLOBAL* und *SERVER* wählen. Durch GLOBAL_PING werden in der Tablist serverübergreifend alle Spieler inklusive deren Pings angezeigt. Durch die Verwendung von GLOBAL werden ebenso alle Spieler serverübergreifend angezeigt, allerdings wird der Ping nicht angezeigt. Mit dem Begriff SERVER werden den Spielern nur die Mitspieler angezeigt, welche sich auch auf dem gleichen Unterserver befinden.
 **Wichtig:** Diese Funktion funktioniert nicht mehr in den Versionen 1.8 und älter.
-* query_enabled - Der Wert kann auf false (falsch) oder true (wahr) gestellt werden. Falls du diesen auf wahr stellst wird während des DNS Durchlaufes eine UDP Abfrage geprüft, welche nur solche Verbindungen erlaubt. Bei einer Negation können auch andere Verbindungen über Weiterleitungen zum Server hergestellt werden.
-* proxy_protocol - Der Wert kann auf false (falsch) oder true (wahr) gestellt werden. Falls du diesen auf wahr stellst kannst du das HAProxy Protokoll verwenden. Bei einer Negation wird dies verweigert.
+* query_enabled - Der Wert kann auf false (falsch) oder true (wahr) gestellt werden. Falls du diesen auf wahr stellst, wird während des DNS Durchlaufes eine UDP Abfrage geprüft, welche nur solche Verbindungen erlaubt. Bei einer Negation können auch andere Verbindungen über Weiterleitungen zum Server hergestellt werden.
+* proxy_protocol - Der Wert kann auf false (falsch) oder true (wahr) gestellt werden. Falls du diesen auf wahr stellst, kannst du das HAProxy Protokoll verwenden. Bei einer Negation wird dies verweigert.
 * forced_hosts - Hier kannst du einzelne Direktverbindungen auf Unterserver erlauben. Syntax: `Deine.EigeneDomain.de: ServerName`
-* ping_passthrough - Der Wert kann auf false (falsch) oder true (wahr) gestellt werden. Falls du diesen auf wahr stellst wird dir beispielsweise die echte MOTD des Unterservers statt der in der BungeeCord Config stehenden angezeigt, wenn du den Unterserver über die Funktion *forced_hosts* anpingst. Bei einer Negation wird der Wert aus der festgelegten Variable von *servers* zurückgegeben.
+* ping_passthrough - Der Wert kann auf false (falsch) oder true (wahr) gestellt werden. Falls du diesen auf wahr stellst, wird dir beispielsweise die echte MOTD des Unterservers statt der in der BungeeCord Config stehenden angezeigt, wenn du den Unterserver über die Funktion *forced_hosts* anpingst. Bei einer Negation wird der Wert aus der festgelegten Variable von *servers* zurückgegeben.
 * priorities - Hier kannst du absteigend aufzählen, auf welchen Server die Spieler als Erstes verbinden sollen. Ein Server wird übersprungen, wenn dieser offline oder nicht erreichbar ist.
-* bind_local_address - Der Wert kann auf false (falsch) oder true (wahr) gestellt werden. Falls du diesen auf wahr stellst wird immer versucht den Spieler auf Server weiterzuleiten, die auf die gleiche IP wie die des BungeeCord Servers hören. Bei einer Negation können die Unterserver auch unterschiedliche IP Adressen besitzen. Dieser Wert ist nur für Netzwerke relevant, welche Server auf unterschiedlichen Systemen laufen lassen.
-* host - Mit dieser Variable wird die IP und der Port des Hosts festgelegt. Wenn als IP 0.0.0.0 gesetzt wird werden alle IP Adressen und Domains akzeptiert, die auf den Host weiterleiten.
+* bind_local_address - Der Wert kann auf false (falsch) oder true (wahr) gestellt werden. Falls du diesen auf wahr stellst, wird immer versucht den Spieler auf Server weiterzuleiten, die auf die gleiche IP wie die des BungeeCord Servers hören. Bei einer Negation können die Unterserver auch unterschiedliche IP Adressen besitzen. Dieser Wert ist nur für Netzwerke relevant, welche Server auf unterschiedlichen Systemen laufen lassen.
+* host - Mit dieser Variable wird die IP und der Port des Hosts festgelegt. Wenn als IP 0.0.0.0 gesetzt wird, werden alle IP Adressen und Domains akzeptiert, die auf den Host weiterleiten.
 * max_players - Der Zahlenwert legt die maximale Spieleranzahl dieses Horchers fest.
 * tab_size - Dieser Wert legt die maximale Zahl an angezeigten Spielern in der Tablist fest.
-* force_default_server - Der Wert kann auf false (falsch) oder true (wahr) gestellt werden. Falls du diesen auf wahr stellst wird der Spieler immer auf den Standardserver (der erste, erreichbare Server aus *priorities*) verbinden. Bei einer Negation landet der Spieler auf dem Unterserver, auf welchem er sich zuletzt befand. **Wichtig:** Wenn du diesen Wert aktivierst werden Verbindungen über *forced_hosts* auch auf den Standardserver weitergeleitet.
+* force_default_server - Der Wert kann auf false (falsch) oder true (wahr) gestellt werden. Falls du diesen auf wahr stellst, wird der Spieler immer auf den Standardserver (der erste, erreichbare Server aus *priorities*) verbinden. Bei einer Negation landet der Spieler auf dem Unterserver, auf welchem er sich zuletzt befand. **Wichtig:** Wenn du diesen Wert aktivierst, werden Verbindungen über *forced_hosts* auch auf den Standardserver weitergeleitet.
 
 ### ip_forward
 
-Der Wert kann auf false (falsch) oder true (wahr) gestellt werden. Falls du diesen auf wahr stellst können Spieler nur direkt über den BungeeCord Server auf das Netzwerk. Bei einer Negation können Spieler auch direkt auf einen Unterserver, falls diese die IP und den Port kennen.
-**Wichtig:** Wenn du den *online_mode* auf true setzt solltest du diese Funktion auch aktivieren, um eine Sicherheitslücke zu schließen.
+Der Wert kann auf false (falsch) oder true (wahr) gestellt werden. Falls du diesen auf wahr stellst, können Spieler nur direkt über den BungeeCord Server auf das Netzwerk. Bei einer Negation können Spieler auch direkt auf einen Unterserver, falls diese die IP und den Port kennen.
+**Wichtig:** Wenn du den *online_mode* auf true setzt, solltest du diese Funktion auch aktivieren, um eine Sicherheitslücke zu schließen.
 
 ### prevent_proxy_connections
 
-Der Wert kann auf false (falsch) oder true (wahr) gestellt werden. Falls du diesen auf wahr stellst werden die IP Adressen der verbundenen Spieler an den Mojang Server gesendet. Bei einer Negation wird eine IP Weiterleitung an Mojang unterbunden.
+Der Wert kann auf false (falsch) oder true (wahr) gestellt werden. Falls du diesen auf wahr stellst, werden die IP Adressen der verbundenen Spieler an den Mojang Server gesendet. Bei einer Negation wird eine IP Weiterleitung an Mojang unterbunden.
 Der Wert hat keinen wirklichen Einfluss auf das Spielempfinden.
 
 ### groups
@@ -110,7 +110,7 @@ groups:
 
 ### connection_throttle
 
-Dieser Zahlenwert sagt aus wie lange ein Spieler warten muss bis er wieder versuchen darf sich zum Server zu verbinden. Standardmäßig ist dieser Wert auf 4000, was einer Wartezeit von 4 Sekunden entspricht. 
+Dieser Zahlenwert sagt aus, wie lange ein Spieler warten muss bis er wieder versuchen darf sich zum Server zu verbinden. Standardmäßig ist dieser Wert auf 4000, was einer Wartezeit von 4 Sekunden entspricht. 
 
 ### stats
 
@@ -118,4 +118,4 @@ Hier wird von BungeeCord ein zufällig generierter Code eingefügt. Es wird empf
 
 ### connection_throttle_limit
 
-Dieser Wert bestimmt die Anzahl ab wie vielen Verbindungsversuchen der Spieler den angegebenen Wert von *connection_throttle* abwarten muss, bis er wieder versuchen darf sich zum Server zu verbinden.
+Dieser Wert bestimmt die Anzahl, ab wie vielen Verbindungsversuchen der Spieler den angegebenen Wert von *connection_throttle* abwarten muss, bis er wieder versuchen darf, sich zum Server zu verbinden.

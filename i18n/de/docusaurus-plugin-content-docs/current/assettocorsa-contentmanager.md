@@ -48,14 +48,14 @@ Nun wechseln wir in das Tab "Entry List", hier können wir nun neue Autos hinzuf
 
 
 :::info
-Beachte das alle Autoslots befüllt werden und nicht mehr, als die Menge der verfügbaren Slots gesetzt wird
+Beachte, dass alle Autoslots befüllt werden und nicht mehr, als die Menge der verfügbaren Slots gesetzt wird
 
 ![image](https://user-images.githubusercontent.com/13604413/159137039-17947b65-947a-4276-b681-0a7f27b49e3e.png)
 :::
 
 ## FTP Upload Konfigurieren
 
-Über das "Advanced" Menü können wir einen FTP-Uploader Konfigurieren, damit du deine Serverconfig mit einem Click hochladen kannst.
+Über das "Advanced" Menü können wir einen FTP-Uploader konfigurieren, damit du deine Serverconfig mit einem Click hochladen kannst.
 
 ![image](https://user-images.githubusercontent.com/13604413/159137074-ab04ba8b-29af-499f-a938-f611c6046cce.png)
 
@@ -83,4 +83,4 @@ Für AssettoServer:
 /g427814/assettoserver/
 ```
 
-Danach kann auf "Upload Content" geklickt werden, die Config, Strecke und Autos, welche konfiguriert wurden, werden automatisch hochgeladen, danach brauchst du nur noch deinen Server starten!
+Danach kann auf "Upload Content" geklickt werden, die Config, Strecke und Autos, welche konfiguriert wurden, werden automatisch hochgeladen, danach brauchst du nur noch deinen Server zu starten!

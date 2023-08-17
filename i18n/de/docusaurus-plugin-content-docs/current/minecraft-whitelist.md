@@ -20,7 +20,7 @@ Du bevorzugst eine Anleitung eher in Form eines Videos oder als zusätzliche vis
 
 
 
-Die **Minecraft Whitelist** ist eine Möglichkeit um seinen Server zu schützen, indem nur ausgewählte Spieler, die auf der Liste stehen die Erlaubnis haben, sich mit dem Server zu verbinden. Denn Minecraft bietet standardmäßig keine Server Passwort Option wie manch andere Spiele.
+Die **Minecraft Whitelist** ist eine Möglichkeit, um seinen Server zu schützen, indem nur ausgewählte Spieler, die auf der Liste stehen, die Erlaubnis haben, sich mit dem Server zu verbinden. Denn Minecraft bietet standardmäßig keine Server Passwort Option, wie manch andere Spiele.
 
 ![image](https://user-images.githubusercontent.com/13604413/159177717-aa8faccd-3535-4147-b3db-278f2799c883.png)
 
@@ -51,7 +51,7 @@ Alternativ kann die Whitelist Funktion auch im Spiel oder per Live Konsole aktiv
 
 
 
-Um die Whitelist Funktion über das Spiel zu aktivieren sind Operator Rechte zwingend notwendig! Alternativ kann dies ansonsten auch über die Live Konsole (Webinterface) gemacht werden. Allerdings ist dort zu beachten, dass die Befehle dort ohne das **/** Symbole ausgeführt werden müssen.
+Um die Whitelist Funktion über das Spiel zu aktivieren, sind Operator Rechte zwingend notwendig! Alternativ kann dies ansonsten auch über die Live Konsole (Webinterface) gemacht werden. Allerdings ist dort zu beachten, dass die Befehle dort ohne das **/** Symbole ausgeführt werden müssen.
 
 
 
@@ -103,7 +103,7 @@ Wenn die UUID des Spielers bekannt ist, dann kann der Spieler auch manuell über
 
 ### Liste aktualisieren
 
-Wenn die Spieler manuell hinzugefügt werden, dann muss die Whitelist im Spiel neu geladen werden. Um den Server deshalb nicht zwingend Neustarten zu müssen ist dies auch per Befehl möglich:
+Wenn die Spieler manuell hinzugefügt werden, dann muss die Whitelist im Spiel neu geladen werden. Um den Server deshalb nicht zwingend neustarten zu müssen, ist dies auch per Befehl möglich:
 
 ```
  /whitelist reload
@@ -113,7 +113,7 @@ Wenn die Spieler manuell hinzugefügt werden, dann muss die Whitelist im Spiel n
 
 ### Ansicht der Liste
 
-Um nicht jedes Mal die Whitelist Datei per FTP öffnen zu müssen ist es auch möglich alle Spieler, die auf der Whitelist stehen über folgenden Befehl anzuzeigen: 
+Um nicht jedes Mal die Whitelist Datei per FTP öffnen zu müssen, ist es auch möglich alle Spieler, die auf der Whitelist stehen über folgenden Befehl anzuzeigen: 
 
 ```
 /whitelist list

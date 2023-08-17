@@ -11,5 +11,5 @@ Das ist super einfach! Besuche unsere Website und begib Dich auf die Startseite.
 ![image](https://user-images.githubusercontent.com/61953937/159139295-517c94d1-0983-49cd-9676-ebc615d8e606.png)
 
 :::info
- Nach der Registrierung kannst Du dich zwar sofort einloggen, Du solltest jedoch die Aktivierungs-E-Mail bestätigen, um den vollen Funktionsumfang nutzen zu können.
+Nach der Registrierung kannst du dich zwar sofort einloggen, Du solltest jedoch die Aktivierungs-E-Mail bestätigen, um den vollen Funktionsumfang nutzen zu können.
 :::

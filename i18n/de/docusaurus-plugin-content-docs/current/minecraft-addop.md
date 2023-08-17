@@ -23,7 +23,7 @@ Nun sollte ein dunkles Fenster zu sehen sein, was die Konsole des Servers darste
 Nach wenigen Sekunden sollte der gesendete Befehl in der Konsole erscheinen, worauf die Meldung "Made [Spieler] a server operator" kommt, welche den Vorgang als erfolgreich markiert. Nun hat der jeweilige Spieler alle OP-Rechte und kann beispielsweise den Spielmodus wechseln.
 
 :::info
-Das Verteilen von OP-Rechten ist nun auch im Spiel selbst möglich, so dass du das Rechte-Level wie im nächsten Schritt erklärt ggf. anpassen solltest, insofern dies von dir gewünscht ist.
+Das Verteilen von OP-Rechten ist nun auch im Spiel selbst möglich, sodass du das Rechte-Level wie im nächsten Schritt erklärt ggf. anpassen solltest, insofern dies von dir gewünscht ist.
 :::
 
 ## Rechte-Level
@@ -38,7 +38,7 @@ Die OP-Rechte sind in vier Level unterteilt, wobei standardmäßig immer Level 4
 | 4 | Owner | Keine Einschränkungen mehr vorhanden. |
 
 :::info
-Durch die Installation eines Rechte-Plugins wie LuckPerms auf deinem Bukkit/Spigot Server, können die Rechte viel spezieller und detailreicher festgelegt werden. Zudem können auch mehrere Gruppe erstellt werden, was die Verteilung von Rechten vereinfacht.
+Durch die Installation eines Rechte-Plugins wie LuckPerms auf deinem Bukkit/Spigot Server, können die Rechte viel spezieller und detailreicher festgelegt werden. Zudem können auch mehrere Gruppen erstellt werden, was die Verteilung von Rechten vereinfacht.
 :::
 
 ### Rechte-Level zuweisen
@@ -49,7 +49,7 @@ Sobald die Verbindung zum Server mittels FTP hergestellt worden ist, muss in das
 
 ![](https://user-images.githubusercontent.com/61839701/170325921-6de8c47c-1755-48a1-8784-bda4e1d1d685.png)
 
-Nun muss bei dem gewünschten Spieler der Wert von "level" auf das gewünschte Level gesetzt werden, worauf die Datei mit **STRG+S** gespeichert werden muss.
+Jetzt muss bei dem gewünschten Spieler der Wert von "level" auf das gewünschte Level gesetzt werden, worauf die Datei mit **STRG+S** gespeichert werden muss.
 
 ![](https://user-images.githubusercontent.com/61839701/170325982-8b7c784e-07cd-4483-a683-4132e9316b64.png)
 

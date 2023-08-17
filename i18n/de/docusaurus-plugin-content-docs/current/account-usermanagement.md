@@ -9,7 +9,7 @@ sidebar_label: Benutzerverwaltung
 
 ## Einführung
 
-Die Benutzerverwaltung ermöglicht die Erstellung von Unterbenutzern. Somit hast du die Möglichkeit zum Beispiel Freunden Zugriff auf deine Dienste zu geben. Der Vorteil an diesem System ist es, dass du deinen Freunden über diesen Weg nicht Zugang zu deinem Haupt-Account geben musst. Zudem ist es möglich den Zugriff einzuschränken. 
+Die Benutzerverwaltung ermöglicht die Erstellung von Unterbenutzern. Somit hast du die Möglichkeit zum Beispiel Freunden Zugriff auf deine Dienste zu geben. Der Vorteil an diesem System ist es, dass du deinen Freunden über diesen Weg nicht Zugang zu deinem Haupt-Account geben musst. Zudem ist es möglich, den Zugriff einzuschränken. 
 
 
 
@@ -49,13 +49,13 @@ Zunächst muss eine Benutzergruppe angelegt werden, damit im Anschluss die Unter
 
   
 
-Über den **Gruppe anlegen** Button kann die Gruppe mit den gewünschten Berechtigungen angelegt werden. Sobald der Name der Gruppe und die Berechtigungen eingestellt wurden kann der Unterbenutzer hinzugefügt werden.
+Über den **Gruppe anlegen** Button kann die Gruppe mit den gewünschten Berechtigungen angelegt werden. Sobald der Name der Gruppe und die Berechtigungen eingestellt wurden, kann der Unterbenutzer hinzugefügt werden.
 
 
 
 ### Schritt 2 -  Benutzer anlegen
 
-Mit der erfolgreichen Erstellung und Konfiguration der Benutzergruppe kann nun mit dem anlegen des Benutzer fortgefahren werden. Klicke dazu auf den grünen Plus Button. 
+Mit der erfolgreichen Erstellung und Konfiguration der Benutzergruppe kann nun mit dem Anlegen des Benutzers fortgefahren werden. Klicke dazu auf den grünen Plus Button. 
 
   
 
@@ -67,13 +67,14 @@ Mit der erfolgreichen Erstellung und Konfiguration der Benutzergruppe kann nun m
 
 
 
-Es öffnet sich nun ein Popup-Fenster, wo der Benutzer konfiguriert und angelegt wird. Hierbei wird die gewünschte Gruppe zugewiesen, der Benutzername, E-Mail Adresse und Passwort definiert.
+Es öffnet sich jetzt ein Popup-Fenster, wo der Benutzer konfiguriert und angelegt wird. Hierbei wird die gewünschte Gruppe zugewiesen, der Benutzername, E-Mail-Adresse und Passwort definiert.
 
 ![image](https://user-images.githubusercontent.com/13604413/159166187-55a3ff5e-1b7c-490f-b3b8-988a2713d0e7.png)
 
 
 
-:::caution Es muss eine E-Mail Adresse angegeben werden, welche noch nicht für die Registrierung eines ZAP-Hosting Accounts benutzt wurde. 
+:::caution
+ Es muss eine E-Mail-Adresse angegeben werden, welche noch nicht für die Registrierung eines ZAP-Hosting Accounts benutzt wurde. 
 :::
 
 

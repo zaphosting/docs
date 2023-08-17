@@ -16,16 +16,17 @@ Auf unserer "[Freunde werben-Seite](https://zap-hosting.com/de/customer/affiliat
 Über das Freunde werben Programm erhältst du eine Verkaufsprovision von bis zu 50%. Die genauen Verkaufsprovisionen für alle Produkte findest du auf der Freunden werben-Seite unter "[Konditionen](https://zap-hosting.com/de/customer/affiliate/conditions/)".
 
 :::info
-Die angezeigte Provision basiert auf dem Verkaufswert inklusive Mehrwertsteuer. Unternehmen und Individuen aus Deutschland, die Mehrwersteuer ausweisen müssen, können diesen Betrag inklusive Mehrwertsteuer in der Rechnung angeben. Darf keine Mehrwersteuer ausgewiesen werden, muss der Betrag um die Mehrwertsteuer reduziert werden.
+Die angezeigte Provision basiert auf dem Verkaufswert inklusive Mehrwertsteuer. Unternehmen und Individuen aus Deutschland, die Mehrwertsteuer ausweisen müssen, können diesen Betrag inklusive Mehrwertsteuer in der Rechnung angeben. Darf keine Mehrwertsteuer ausgewiesen werden, muss der Betrag um die Mehrwertsteuer reduziert werden.
 :::
-Das heißt, dass du die Mehrwertsteuer von deinem angezeigten Affiliate-Guthaben bei Auszahlung anbziehen musst. Dies kannst du machen, indem du den angezeigten Betrag durch 1.19 teilst (19% deutsche MWST.). Beispiel: 100€ Affiliate Guthaben. In Rechnung zu stellen sind: 100 / 1,19 = 84,03€. Bei einer Auszahlung in ZAP Coins erhältst du den vollen Betrag.
+Das heißt, dass du die Mehrwertsteuer von deinem angezeigten Affiliate-Guthaben bei Auszahlung abziehen musst. Dies kannst du machen, indem du den angezeigten Betrag durch 1.19 teilst (19% deutsche MWST.). Beispiel: 100€ Affiliate Guthaben. In Rechnung zu stellen sind: 100 / 1,19 = 84,03€. Bei einer Auszahlung in ZAP Coins erhältst du den vollen Betrag.
+
 :::info
 Muss Mehrwertsteuer in der Rechnung ausgewiesen werden, wird der volle Betrag in der Rechnung inklusive Mehrwertsteuer ausgewiesen. Bei einem Affiliate Guthaben von 100€ wird eine Rechnung von 100€, bestehend aus 84,03€ Rechnungsbetrag und 15,97€ Mehrwertsteuer abgeschickt.
 :::
 
 ## Affiliate-Link erstellen
 
-Um einen Affiliate Link zu erstellen, klicke auf der "[Freunde werben-Seite](https://zap-hosting.com/de/customer/affiliate/)" auf "Neues Werbemittel erstellen" und wähle den Button "Link" aus. Dann kannst du den Link erstellen, indem du folgende Felder ausfüllst und auf "erstellen" klickst:
+Um einen Affiliate-Link zu erstellen, klicke auf der "[Freunde werben-Seite](https://zap-hosting.com/de/customer/affiliate/)" auf "Neues Werbemittel erstellen" und wähle den Button "Link" aus. Dann kannst du den Link erstellen, indem du folgende Felder ausfüllst und auf "erstellen" klickst:
 
 `Alias`
 

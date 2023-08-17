@@ -13,7 +13,7 @@ Let's Encrypt ist eine Zertifizierungsstelle (CA), die kostenlose SSL/TLS-Zertif
 
 ## Vorbereitung
 
-Damit ein SSL-Zertifikat generiert werden kann ist es zwingend notwendig, dass die DNS-Einstellungen bereits entsprechend eingenommen wurden, sodass die Domain auf den Dienst verweist. Ebenfalls ist es wichtig, dass ein Webserver installiert ist. Falls noch nicht erledigt muss noch ein beliebiger Webserver installiert werden. Hierbei kann sowohl Apache als auch Nginx benutzt werden. Eingerichtet werden können die Dienste mit den folgenden Befehlen:
+Damit ein SSL-Zertifikat generiert werden kann, ist es zwingend notwendig, dass die DNS-Einstellungen bereits entsprechend eingenommen wurden, sodass die Domain auf den Dienst verweist. Ebenfalls ist es wichtig, dass ein Webserver installiert ist. Falls noch nicht erledigt, muss noch ein beliebiger Webserver installiert werden. Hierbei kann sowohl Apache als auch Nginx benutzt werden. Eingerichtet werden können die Dienste mit den folgenden Befehlen:
 
 **Apache:**
 
@@ -47,7 +47,7 @@ Nun können wir das SSL-Zertifikat generieren. Der Befehl dafür lautet wie folg
 sudo -H ./letsencrypt-auto certonly --standalone -d example.com -d www.example.com
 ```
 
-Für jede weitere Domain/Subdomain Name muss ein **-d example.com** hinzugefügt werden. An Stelle von example.com fügst du dort deinen bestellten Domainname ein. Im Anschluss wirst du aufgefordert eine **E-Mail-Adresse** anzugeben. Drücke **Enter** um die Eingabe zu bestätigen. Daraufhin müssen noch die Nutzungsbedingungen bestätigt werden:
+Für jede weitere Domain/Subdomain Name muss ein **-d example.com** hinzugefügt werden. An Stelle von example.com fügst du dort deinen bestellten Domainname ein. Im Anschluss wirst du aufgefordert, eine **E-Mail-Adresse** anzugeben. Drücke **Enter**, um die Eingabe zu bestätigen. Daraufhin müssen noch die Nutzungsbedingungen bestätigt werden:
 
 ```
 -------------------------------------------------------------------------------

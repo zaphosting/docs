@@ -8,8 +8,8 @@ sidebar_label: Eigene Missionsdatei hochladen
 
 ## Hochladen der Missionsdatei
 
-Für das hochladen deiner eigenen Missionsdatei musst du zuvor via FTP auf deinen Server verbinden: [Gameserver FTP Verbindung](gameserver-ftpaccess.md).
-Dort lädst du nun die entsprechende Missionsdatei in dein **mpmissions** Verzeichnis welches du unter **/gxxxxxx/arma3/** finden kannst.
+Für das Hochladen deiner eigenen Missionsdatei musst du zuvor via FTP auf deinen Server verbinden: [Gameserver FTP Verbindung](gameserver-ftpaccess.md).
+Dort lädst du nun die entsprechende Missionsdatei in dein **mpmissions** Verzeichnis, welches du unter **/gxxxxxx/arma3/** finden kannst.
 In diesem Beispiel laden wir die Missionsdatei **King_of_the_hill.Altis** auf unseren Server.
 
 ![image](https://user-images.githubusercontent.com/26007280/189677600-bbe00c3a-0be6-4c2f-9bf5-eeb166b3c4dc.png)
@@ -17,7 +17,7 @@ In diesem Beispiel laden wir die Missionsdatei **King_of_the_hill.Altis** auf un
 
 ## Laden der Missionsdatei auf dem Server
 
-Damit die Missionsdatei nun vom Server geladen wird begibst du dich in dein ArmA 3 Serverinterface und klickst links im Menü auf den Tab **Configs**:
+Damit die Missionsdatei nun vom Server geladen wird, begibst du dich in dein ArmA 3 Serverinterface und klickst links im Menü auf den Tab **Configs**:
 
 ![image](https://user-images.githubusercontent.com/26007280/189677626-8f5acdde-5f0e-4ea5-8d5d-c02282e72f9e.png)
 

@@ -1,18 +1,18 @@
 ---
 id: gameserver-databases-pma
-title: PHPMyAdmin für Server von ZAP-Hosting
-description: Informationen, wie du PHPMyAdmin mit Gameservern von ZAP-Hosting verwenden kannst, um die Datenbanken zu verwalten - ZAP-Hosting.com Dokumentation
+title: phpMyAdmin für Server von ZAP-Hosting
+description: Informationen, wie du phpMyAdmin mit Gameservern von ZAP-Hosting verwenden kannst, um die Datenbanken zu verwalten - ZAP-Hosting.com Dokumentation
 sidebar_label: PHPMyAdmin
 ---
 
-## 
+
 
 ## Einführung
 
 Mit phpMyAdmin können MySQL Datenbanken schnell und einfach über eine Art Webinterface verwaltet werden.
 Bei den Gameserver Produkten bietet ZAP-Hosting MySQL Datenbanken inklusive an. Diese können sowohl mittels phpMyAdmin als auch über externen MySQL-Verwaltungsprogrammen wie zum Beispiel Navicat oder HeidiSQL verwaltet werden. Hier halten wir ebenfalls einen Eintrag in unserer Dokumentation bereit, welcher [hier](https://zap-hosting.com/guides/docs/de/gameserver_database_external_access/) gefunden werden kann.
 
-## Anmeldung in phpMyAdmin
+## Anmeldung in PhpMyAdmin
 
 Zunächst begeben wir uns zu der Liste der Datenbanken, welche für den Gameserver erstellt wurden. Dazu öffnen wir in der linken Sidebar des Servers unter dem Reiter "Werkzeuge" den Menü-Punkt "Datenbanken".
 
@@ -33,14 +33,14 @@ Zunächst wird nur die Startseite von phpMyAdmin angezeigt. Um die Tabellen in d
 
 ![image](https://user-images.githubusercontent.com/26007280/195381711-178d5900-1c54-465b-9d67-14c1605b8bde.png)
 
-Nun werden alle Tabellen in der Datenbank aufgelistet und bereit einige Tools angezeigt, womit bereits einige Aktionen durchgeführt werden können.
+Jetzt werden alle Tabellen in der Datenbank aufgelistet und bereit einige Tools angezeigt, womit bereits einige Aktionen durchgeführt werden können.
 Beispielsweise können Tabellen mit einem Klick auf den roten "Löschen" Button so gelöscht werden.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/ZMxKzHP3BHGYEzf/preview)
 
 Um Zeit zu sparen, können auch auf mehrere Tabellen gleichzeitig Aktionen durchgeführt werden.
 Hierzu klick man das Auswahlkästchen an der äußeren linken Seite einmal an und wiederholt dies dann so oft, bis alle gewünschten Tabellen ausgewählt wurden.
-Sofern die Aktion auf alle Tabellen in der Datenbank angewendet werden soll, kann auch der Button "Alle Auswählen" verwendet werden, wodurch jede Tabelle automatisch ausgewählt wird. Danach kann über das Dropdown-Menü die gewünschte Aktion ausgewählt werden und mit einem Klick auf "OK" ausgeführt werden.
+Sofern die Aktion auf alle Tabellen in der Datenbank angewendet werden soll, kann auch der Button "Alle auswählen" verwendet werden, wodurch jede Tabelle automatisch ausgewählt wird. Danach kann über das Dropdown-Menü die gewünschte Aktion ausgewählt werden und mit einem Klick auf "OK" ausgeführt werden.
 
 ![image](https://user-images.githubusercontent.com/26007280/195381775-17abbcbf-422b-4740-9038-aa2152605d46.png)
 
@@ -48,7 +48,7 @@ Sofern die Aktion auf alle Tabellen in der Datenbank angewendet werden soll, kan
 
 Inhalte in einer Tabelle können schnell und einfach mit einem Doppelklick auf das jeweilige Feld bearbeitet werden.
 Hierzu muss aber sichergestellt werden, dass die Tabelle so konfiguriert ist, dass die Bearbeitung auch möglich ist.
-Dies kann aber an den drei Aktions-Button erkennen, welche in diesem Fall dargestellt werden.
+Dies kann aber an den drei Aktions-Buttons erkennen, welche in diesem Fall dargestellt werden.
 
 ![image](https://user-images.githubusercontent.com/26007280/195381812-20810f1d-2c07-4466-8da6-993ac6ed5c4a.png)
 

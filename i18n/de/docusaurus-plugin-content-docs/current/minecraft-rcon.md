@@ -30,9 +30,9 @@ Ist das getan, musst du nur noch herausfinden, wie der Port deiner RCON Schnitts
 Dieser kann in der Zeile `rcon.port` abgelesen und festgelegt werden. Der Port besteht aus einer
 bis zu fünfstelligen Zahl zwischen `1` und `65534`.
 
-Hast du den Port davon herausgefunden, öffne nun ein beliebiges RCON Programm, mit dem du dich auf die
+Hast du den Port davon herausgefunden, öffne jetzt ein beliebiges RCON Programm, mit dem du dich auf die
 Schnittstelle verbinden kannst. Eine Empfehlung unsererseits für ein RCON-taugliches Programm wäre die [RCON Console](https://sourceforge.net/projects/rconconsole/).
-Trage nun die IP-Adresse deines Servers in das oben stehende Textfeld `Address` ein. Direkt daneben den
+Trage jetzt die IP-Adresse deines Servers in das oben stehende Textfeld `Address` ein. Direkt daneben den
 RCON-Port deines Gameservers und dahinter das Passwort. Stelle nun sicher, dass dein Gameserver läuft
 und erreichbar ist und verbinde nun mit dem Programm per RCON auf deinen Server.
 

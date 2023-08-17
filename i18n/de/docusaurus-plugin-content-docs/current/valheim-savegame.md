@@ -8,7 +8,7 @@ sidebar_label: Savegames verwalten
 ## Savegames herunterladen
 
 :::info
-Beachte: Vor dem Herunterladen des Savegames muss der Server gestoppt werden, damit das aktive Savegame gespeichert wird, nachdem der Server gestoppt wurde, wird das Savegame nach dem neu laden der Seite auftauchen.
+Beachte: Vor dem Herunterladen des Savegames muss der Server gestoppt werden, damit das aktive Savegame gespeichert wird, nachdem der Server gestoppt wurde, wird das Savegame nach dem neu Laden der Seite auftauchen.
 :::
 
 Um dein Savegame herunterladen zu können, kannst du den `Savegame-Manager` im Webinterface nutzen:
@@ -20,7 +20,7 @@ Hier kannst du dein Savegame ganz einfach über den grünen "Download" Button he
 ![image](https://user-images.githubusercontent.com/26007280/189886651-8a74d1bf-53d7-4d14-a570-bd6df65ba252.png)
 
 :::info
-Beachte, dass du die `.db` **und** `.fwl` Dateien runterladen musst.
+Beachte, dass du die `.db` **und** `.fwl` Dateien herunterladen musst.
 :::
 
 Fertig! Du kannst das Backup nun anderweitig nutzen, oder später wieder hochladen.
@@ -38,7 +38,7 @@ Hier können wir nun unser eigenes Savegame per Drag&Drop hochladen, dies sollte
 Beachte, dass dein Savegame genauso heißen sollte, wie es vom Spiel erstellt wurde.
 :::
 
-In Unseren fall heißen die Backup-Dateien `380622.fwl` und `380622.db`.
+In unseren Fall heißen die Backup-Dateien `380622.fwl` und `380622.db`.
 
 Nun tragen wir den Namen des Backups oben unter `Savegame (worlds)` ein:
 
@@ -48,7 +48,7 @@ Unter `ZAP Backups` hier suchen wir nun unser Savegame raus:
 
 ![image](https://user-images.githubusercontent.com/26007280/189886739-05c36f4d-107d-4032-881f-73a8a7ab238b.png)
 
-Nun müssen wir nur noch bei beiden Dateien den Gelben "Wiederherstellen" Button Drücken und das Ganze bestätigen, dann wird unser Savegame geladen.
+Jetzt müssen wir nur noch bei beiden Dateien den gelben "Wiederherstellen" Button drücken und das Ganze bestätigen, dann wird unser Savegame geladen.
 
 Nachdem dies geladen wurde, erscheint unten rechts eine Meldung:
 

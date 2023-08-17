@@ -22,7 +22,7 @@ Wir fügen nun ganz unten folgende Zeile ein:
 sets activitypubFeed username
 ```
 
-"username" sollte mit deinem Mastodon Usernamen ersetzt werden.
+"Username" sollte mit deinem Mastodon Usernamen ersetzt werden.
 
 ![image](https://user-images.githubusercontent.com/13604413/159167537-e15fe091-0a65-4d72-ac06-690c7d64bcae.png)
 

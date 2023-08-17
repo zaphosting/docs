@@ -3,6 +3,7 @@ id: firststeps-problem-melden
 title: Was tun bei Problemen mit dem eigenen Server?
 description: Informationen, wie du den Support bei Problemen mit deinem ZAP-Hosting Server kontaktieren kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Probleme melden
+
 ---
 
 ## Läuft etwas nicht so, wie es soll?
@@ -51,4 +52,4 @@ Wichtig: Damit euer Anliegen so schnell wie möglich behoben werden kann, ist es
 
 ## Keine Hilfe über Social Media?
 
-Nein, denn unsere Kundendaten sind uns heilig - genau wie ein schneller Support. Genau darum verweisen wir Kunden, die uns in Tweets, Facebook Comments oder auf Instagram um direkten Rat bitten **immer** auf unseren Live Chat. Nur so haben unsere Supporter einen direkten Zugriff auf die betroffenen Produkte und können eventuelle Probleme beheben. 
+Nein, denn unsere Kundendaten sind uns heilig - genau wie ein schneller Support. Genau darum verweisen wir Kunden, die uns in Tweets, Facebook Comments oder auf Instagram um direkten Rat bitten, **immer** auf unseren Live Chat. Nur so haben unsere Supporter einen direkten Zugriff auf die betroffenen Produkte und können eventuelle Probleme beheben. 

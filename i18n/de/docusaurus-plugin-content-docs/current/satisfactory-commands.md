@@ -1,7 +1,7 @@
 ---
 id: satisfactory-commands
 title: Konsolen-Befehle
-description: Informationen zu den möglichen Konsolen-Befehle für deinen Satisfactory Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
+description: Informationen zu den möglichen Konsolenbefehlen für deinen Satisfactory Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Konsolen-Befehle
 ---
 
@@ -15,7 +15,7 @@ Wenn die Akut-Taste bei dir nicht funktioniert, befolge die Schritte im folgende
 :::
 
 ### Zugriff auf die Konsole nicht möglich
-Aufgrund regionaler Tastaturen kann es vorkommen, dass die Standardtaste für die Aktivierung der Konsole nicht funktioniert, so dass du eine neue Taste einrichten musst. Bevor du dies tust, schließe Satisfactory, falls es noch läuft.
+Aufgrund regionaler Tastaturen kann es vorkommen, dass die Standardtaste für die Aktivierung der Konsole nicht funktioniert, sodass du eine neue Taste einrichten musst. Bevor du dies tust, schließe Satisfactory, falls es noch läuft.
 
 Drücke Windows-Taste + R oder suche in deinem Startmenü nach Ausführen. Kopiere dann den folgenden Pfad hinein:
 
@@ -33,7 +33,7 @@ Kopiere nun genau diese Zeilen und füge sie unten ein:
 
 ![Screenshot 2023-02-22 011758](https://user-images.githubusercontent.com/42719082/220495816-401b59b6-7c1b-434a-a878-bc5988f44519.png)
 
-Speichere abschließend und starte Dein Spiel neu. Nun kannst Du die Konsole mit der Tastenkombination `F6` öffnen
+Speichere abschließend und starte dein Spiel neu. Nun kannst du die Konsole mit der Tastenkombination `F6` öffnen
 
 ## Konsolenbefehle
 

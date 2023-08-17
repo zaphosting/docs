@@ -43,14 +43,14 @@ Wähle den gewünschten Hostname
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/zqXPS6fHdkoMPH2/preview)
 
-Wähle optionale Systempakete welche installiert werden sollen und bestätige mit OK
+Wähle optionale Systempakete, welche installiert werden sollen und bestätige mit OK
 
 ***
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/zTSBQRGRFLHDxDo/preview)
 
 In diesem Schritt können Partitionen erstellt werden, in diesem Beispiel nutzen wir ein RAID0.
-Mehr Informationen zur Raideinstellungen findest du in der speziefischen Anleitung dafür.
+Mehr Informationen zur Raid Einstellungen findest du in der spezifischen Anleitung dafür.
 
 ***
 
@@ -62,7 +62,7 @@ Sofern keine weiteren Änderungswünsche bestehen, ebenfalls einfach mit Enter b
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/MR3eJKMpdExXnsJ/preview)
 
-Wir wählen in unserem Beispiel, keine Redundanz da es sich um ein RAID0 handelt.
+Wir wählen in unserem Beispiel, keine Redundanz, da es sich um ein RAID0 handelt.
 
 ***
 
@@ -124,15 +124,15 @@ Entferne nun die ISO-Datei aus deiner iLO und wähle Reboot
 
 Um den Netzwerk-Adapter zu aktivieren, logge dich mit dem Passwort in dein System ein
 
-Öffne die loader.conf mit einem Editor, beispielsweise `ee /boot/loader.conf` und füge folgendes hinzu:
+Öffne die loader.conf mit einem Editor, beispielsweise `ee /boot/loader.conf` und füge Folgendes hinzu:
 
 ```if_oce_load="YES"```
 
-Mit `STRG+C` kann der Editor wieder verlassen werden nach dem Tastendruck muss noch "exit" eingegeben werden, starte nun deinen Dedicated Server neu
+Mit `STRG+C` kann der Editor wieder verlassen werden, nach dem Tastendruck muss noch "exit" eingegeben werden, starte nun deinen Dedicated Server neu
 
 ***
 
-Nach dem Neustart muss noch die rc.conf bearbeitet werden `ee /etc/rc.conf`, füge folgendes hinzu:
+Nach dem Neustart muss noch die rc.conf bearbeitet werden `ee /etc/rc.conf`, füge Folgendes hinzu:
 
 ```
 ifconfig_oce0="DHCP"

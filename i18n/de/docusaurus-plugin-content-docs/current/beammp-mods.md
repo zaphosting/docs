@@ -24,5 +24,5 @@ Verbinde dich mit einem FTP Programm deiner Wahl und öffne das Verzeichnis
 Dort musst du die .zip Datei der Mod hochladen.
 
 :::info
-Nach einem Serverneustart steht deine Mod nun zur Verfügung und wird automatisch heruntergeladen
+Nach einem Serverneustart steht dein Mod nun zur Verfügung und wird automatisch heruntergeladen
 :::

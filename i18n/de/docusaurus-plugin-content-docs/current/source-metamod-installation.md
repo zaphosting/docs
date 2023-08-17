@@ -38,7 +38,7 @@ Aus den entpackten Dateien erhält man im Anschluss addons und cfg den Ordner:
 
 Wenn die oben genannten Schritte abgeschlossen sind, dann geht es an die eigentliche Installation. Hierfür müssen wir uns per FTP mit dem Server verbinden, damit wir die Ordner der Erweiterungen hochladen können.
 
-Die Dateien müssen in dem Hauptverzeichnis hochgeladen werden. Das Hauptverzeichnis befindet sich unter der folgenden Ordner Struktur:
+Die Dateien müssen in dem Hauptverzeichnis hochgeladen werden. Das Hauptverzeichnis befindet sich unter der folgenden Ordnerstruktur:
 
 | Spiel | Verzeichnis  |
 | :-----: |:-------------:| 
@@ -49,7 +49,7 @@ Die Dateien müssen in dem Hauptverzeichnis hochgeladen werden. Das Hauptverzeic
 
 ![image](https://user-images.githubusercontent.com/13604413/159178805-066652c8-c5b9-43c3-9c16-e27d6f90e6e4.png)
 
-Im Anschluss sollte die Ordner Struktur dann wie folgt aussehen:
+Im Anschluss sollte die Ordnerstruktur dann wie folgt aussehen:
 
 ![image](https://user-images.githubusercontent.com/13604413/159178810-43bff013-43ab-47ce-9806-38423cc91fb5.png)
 

@@ -30,7 +30,7 @@ Nun öffnen wir Valheim und klicken in der Serverliste auf den "Join IP" Button:
 ![](https://screensaver01.zap-hosting.com/index.php/s/aTQSTs3qDjNNXfo/preview)
 
 
-Hier Fügen wir nun unsere Server IP ein:
+Hier fügen wir nun unsere Server IP ein:
 
 ![image](https://user-images.githubusercontent.com/13604413/159179777-35c7201d-c5da-4a59-a752-4090f470b701.png)
 
@@ -43,7 +43,7 @@ Hier Fügen wir nun unsere Server IP ein:
 Zuerst kopieren wir uns die IP vom Server, welche im Webinterface steht:
 ![image](https://user-images.githubusercontent.com/13604413/159179803-d22fb02c-22a5-4a03-9f43-2b415773742d.png)
 
-Um sich auf den Valheim Server Direkt zu verbinden, müssen wir in Steam die Serverliste öffnen:
+Um sich auf den Valheim Server direkt zu verbinden, müssen wir in Steam die Serverliste öffnen:
 
 ![image](https://user-images.githubusercontent.com/13604413/159179809-2fdfa72b-2940-4081-9284-1a5ed7f0a085.png)
 
@@ -52,16 +52,16 @@ Hier fügen wir nun unseren Server wie folgt hinzu:
 ![image](https://user-images.githubusercontent.com/13604413/159179811-47456cd9-674e-4017-bc95-219c83349950.png)
 
 :::info
-Beachte: Der Port am ende muss +1 gerechnet werden, d.h. wenn dein Port 27043 ist, solltest du in Steam 27044 angeben.
+Beachte: Der Port am Ende muss +1 gerechnet werden, d.h. wenn dein Port 27043 ist, solltest du in Steam 27044 angeben.
 :::
 
 ![image](https://user-images.githubusercontent.com/26007280/189886006-00a316d6-f128-411b-93c3-6171695815ef.png)
 
-Nachdem wir diesen Hinzugefügt haben, sollten wir unseren Server nun in der Serverliste sehen:
+Nachdem wir diesen hinzugefügt haben, sollten wir unseren Server nun in der Serverliste sehen:
 
 ![image](https://user-images.githubusercontent.com/26007280/189886044-98629caf-239a-441b-ae8f-dee53699b6a5.png)
 
-Über den "Join Game" Button können wir uns nun direkt auf den Server verbinden.
+Über den "Join Game" Button können wir uns jetzt direkt auf den Server verbinden.
 
 
 ## Per Serverliste Verbinden
@@ -79,6 +79,6 @@ Jetzt können wir oben im Menü auf `Join Game` klicken und unseren Servernamen 
 Wenn du deinen Server noch nicht siehst, warte ein bisschen, je nach Anzahl der Server kann ein Refresh ein paar Minuten dauern.
 :::
 
-Nun sollte unser Server bereits in der Liste zu sehen sein, wir können ihn nun anklicken und dann auf `Connect` klicken, sobald wir uns verbunden haben, müssen wir nur noch das Server-Passwort eingeben, das wir in den Einstellungen festgelegt haben und Enter drücken!
+Jetzt sollte unser Server bereits in der Liste zu sehen sein, wir können ihn nun anklicken und dann auf `Connect` klicken, sobald wir uns verbunden haben, müssen wir nur noch das Server-Passwort eingeben, das wir in den Einstellungen festgelegt haben und Enter drücken!
 
 Fertig! Du kannst jetzt auf deinem eigenen Valheim-Server spielen!

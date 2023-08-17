@@ -1,19 +1,19 @@
 ---
 id: gmod-ttt
 title: Konfiguration
-description: Informationen zu den Konfigurationsmöglichkeiten deines Garry's Mod TTT-Server von ZAP-Hosting -ZAP-Hosting.com Dokumentation
+description: Informationen zu den Konfigurationsmöglichkeiten deines Garry's Mod TTT-Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Garry's Mod TTT Konfiguration
 ---
 
 ## Die Grundkonfiguration deines TTT-Servers
 
-**Bitte beachte das der Server für alle Änderungen heruntergefahren sein muss!**
+**Bitte beachte, dass der Server für alle Änderungen heruntergefahren sein muss!**
 
-Einige Basiseinstellungen kannst du bereits bequem in unserem Webinterface setzen wie den Servernamen, das Rcon- und Serverpasswort.
+Einige Basiseinstellungen kannst du bereits bequem in unserem Webinterface setzen, wie den Servernamen, das Rcon- und Serverpasswort.
 
 ![image](https://user-images.githubusercontent.com/26007280/189975778-3bc41b8b-c637-4f29-a7c5-7b80f184a70f.png)
 
-Sofern du diese Einstellungen nach deinen Wünschen angepasst hast, können nun die speziefischen Einstellungen des TTT-Gamemodes verändert werden. Hierbei kannst du bequem unseren Config-Editor im Webinterface nutzen, selbstverständlich ist eine Editierung der Datei auch via FTP möglich.
+Sofern du diese Einstellungen nach deinen Wünschen angepasst hast, können nun die spezifischen Einstellungen des TTT-Gamemodes verändert werden. Hierbei kannst du bequem unseren Config-Editor im Webinterface nutzen, selbstverständlich ist eine Bearbeitung der Datei auch via FTP möglich.
 
 In unserem Webinterface findest du diese Funktion unter "Configs" dort öffnest du die server.cfg
 
@@ -45,7 +45,7 @@ Sofern dieser Wert auf 1 steht, ist es für die Innocents möglich, Leichen an W
 ## Gameplay
 ttt_traitor_pct
 :::info
-Dieser Wert definiert die prozentuale Anzahl der Spieler welche Verräter sind. Die Anzahl der Spieler wird mit diesem Wert multipliziert. (Standardmäßig: 0.25)
+Dieser Wert definiert die prozentuale Anzahl der Spieler, welche Verräter sind. Die Anzahl der Spieler wird mit diesem Wert multipliziert. (Standardmäßig: 0.25)
 :::
 
 ttt_traitor_max
@@ -55,7 +55,7 @@ Die maximale Anzahl von Verrätern. (Standardmäßig: 32)
 
 ttt_detective_pct 
 :::info
-Dieser Wert definiert die prozentuale Anzahl der Spieler welche Detektive sind. Die Anzahl der Spieler wird mit diesem Wert multipliziert. (Standardmäßig: 0.13)
+Dieser Wert definiert die prozentuale Anzahl der Spieler, welche Detektive sind. Die Anzahl der Spieler wird mit diesem Wert multipliziert. (Standardmäßig: 0.13)
 :::
 
 ttt_detective_max
@@ -75,19 +75,19 @@ Wenn ein Spieler unter diesen Wert fällt, sinkt die Chance ein Detektiv zu sein
 
 ttt_minimum_players
 :::info
-Die Anzahl der Spieler welche mindestens auf dem Server sein müssen, damit eine Runde beginnt. (Standardmäßig: 2)
+Die Anzahl der Spieler, welche mindestens auf dem Server sein müssen, damit eine Runde beginnt. (Standardmäßig: 2)
 :::
 
 ## DNA
 ttt_killer_dna_range
 :::info
-Maximaler Bereich um welchen eine DNA-Probe hinterlassen wird. (Standardmäßig: 300)
+Maximaler Bereich, um welchen eine DNA-Probe hinterlassen wird. (Standardmäßig: 300)
 :::
 
 ## Karma
 ttt_karma
 :::info
-Aktiviert oder Deaktiviert das Karma-System. Spieler starten mit einer bestimmten Anzahl von Karma-Punkten, sie verlieren diese durch das verletzen oder töten von Team-Mitgliedern. Die Menge hängt vom Karma-Wert des getöteten/verletzten ab. (Standardmäßig: 1)
+Aktiviert oder deaktiviert das Karma-System. Spieler starten mit einer bestimmten Anzahl von Karma-Punkten, sie verlieren diese durch das verletzen oder töten von Team-Mitgliedern. Die Menge hängt vom Karma-Wert des getöteten/verletzten ab. (Standardmäßig: 1)
 :::
 
 ttt_karma_strict
@@ -112,12 +112,12 @@ Definiert wieviel Karma abgezogen wird. (Standardmäßig: 0.001)
 
 ttt_karma_kill_penalty
 :::info
-Die Karma-Strafe basiert auf dem verursachten Schaden. Die Todesstrafe ist nur eine zusätzliche Menge an Schäden, der verursacht wird wenn sie jemanden töten. z.B. Bei einem Heaadshot wird statt 100, 200 abgezogen. (Standardmäßig: 15)
+Die Karma-Strafe basiert auf dem verursachten Schaden. Die Todesstrafe ist nur eine zusätzliche Menge an Schäden, der verursacht wird, wenn sie jemanden töten. z.B. Bei einem Heaadshot wird statt 100, 200 abgezogen. (Standardmäßig: 15)
 :::
 
 ttt_karma_round_increment
 :::info
-Die Grundanzahl um wieviele Punkte das Karma sich am Rundenende "heilt" (Standardmäßig: 5)
+Die Grundanzahl, um wie viele Punkte das Karma sich am Rundenende "heilt" (Standardmäßig: 5)
 :::
 
 ttt_karma_clean_bonus
@@ -127,27 +127,27 @@ Wenn ein Spieler nimenaden verletzt oder tötet, erhält er diesen Wert als Bonu
 
 ttt_karma_traitordmg_ratio 
 :::info
-Definiert den Wert wieviele Karma-Punkte erhalten werden wenn ein Verräter verletzt wird. (Standardmäßig: 30)
+Definiert den Wert, wie viele Karma-Punkte erhalten werden, wenn ein Verräter verletzt wird. (Standardmäßig: 30)
 :::
 
 ttt_karma_traitorkill_bonus
 :::info
-Bonus Karma wenn ein Verräter getötet wird. (Standardmäßig: 40)
+Bonus Karma, wenn ein Verräter getötet wird. (Standardmäßig: 40)
 :::
 
 ttt_karma_low_autokick
 :::info
-Aktiviert oder Deaktiviert den Autokick eines Spielers mit niedrigem Karma-Level am Rundenende (Standardmäßig: 1)
+Aktiviert oder deaktiviert den Autokick eines Spielers mit niedrigem Karma-Level am Rundenende (Standardmäßig: 1)
 :::
 
 ttt_karma_low_amount
 :::info
-Definiert den Karma Punktestand ob ein Spieler am Rundenende gekickt wird oder nicht. (Standardmäßig: 300)
+Definiert den Karma Punktestand, ob ein Spieler am Rundenende gekickt wird oder nicht. (Standardmäßig: 300)
 :::
 
 ttt_karma_low_ban
 :::info
-Sofern Autokick aktiviert ist, werden Spieler auch gebannt wenn dieser Wert auf 1 steht. (Standardmäßig: 1)
+Sofern Autokick aktiviert ist, werden Spieler auch gebannt, wenn dieser Wert auf 1 steht. (Standardmäßig: 1)
 :::
 
 ttt_karma_low_ban_minutes
@@ -165,7 +165,7 @@ ttt_karma_clean_half
 Wenn das Karma eines Spielers über dem Startlevel liegt (was bedeutet, dass das Karma-Maximum höher konfiguriert wurde), werden alle seine Karma-Erhöhungen reduziert, je nachdem, wie weit sein Karma über diesem Startlevel liegt. Je höher es ist, desto langsamer steigt es. Wenn der Standardwert 0,25 ist und die Startmenge von Karma 1000 und die maximale Menge von 1500 beträgt und ein Spieler Karma 1125 ((1500 - 1000) * 0,25 = 125) hat, beträgt sein Bonus für die saubere Runde 30/2 = 15. (Standardmäßig 0.25)
 :::
 
-Wenn du alle Variablen angepasst hast, musst du deine Änderungen nurnoch speichern.
+Wenn du alle Variablen angepasst hast, musst du deine Änderungen nur noch speichern.
 
 ![image](https://user-images.githubusercontent.com/26007280/189975845-f8aa61c6-b68e-46b1-8b8e-45ea91052859.png)
 

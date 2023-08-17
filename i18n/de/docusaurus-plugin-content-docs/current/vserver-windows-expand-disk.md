@@ -24,11 +24,11 @@ Klicke mit **Rechtsklick** auf die bereits bestehende Partition und wähle (1) V
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/Qo3aKWgeL94DgyQ/preview)
 
-Es öffnet sich nun der Assistent um Volumes erweitern zu können:
+Es öffnet sich nun der Assistent, um Volumes erweitern zu können:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/3YpMgfy7tWYNawz/preview)
 
-Starte den Assistenten in dem du (1) **Weiter** klickst.
+Starte den Assistenten, in dem du (1) **Weiter** klickst.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/wD5nwinGBRqksyR/preview)
 
@@ -36,10 +36,10 @@ Der verfügbare Festplattenspeicher wird automatisiert erkannt, du musst ledigli
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/y8fxAj72AsqJ3RH/preview)
 
-Beende nun den Assistenten mit (1) **Fertig stellen**
+Beende nun den Assistenten mit (1) **Fertigstellen**
 
 :::info
-💚 Deine Festplattenpartition ist nun um den neuen Speicher vergrößert!
+Deine Festplattenpartition ist jetzt um den neuen Speicher vergrößert!
 :::
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/gRKJziB8WY5ZHNR/preview)

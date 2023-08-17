@@ -36,7 +36,7 @@ Wähle das gewünschte Passwort, für den Root-Account
 Wähle die SSD auf welche CentOS installiert werden soll
 
 * Network & Hostname
-Aufgrund einer inkompatibilität im Kernel muss zuerst ein Update eingespielt werden damit dein Dedicated Server eine Netzwerkverbindung aufbauen kann.
+Aufgrund einer Inkompatibilität im Kernel muss zuerst ein Update eingespielt werden, damit dein Dedicated Server eine Netzwerkverbindung aufbauen kann.
 Die genauen Schritte werden unter Netzwerk erklärt.
 
 Wenn du alles gewünschte konfiguriert hast, klicke auf "Begin Installation"
@@ -56,7 +56,7 @@ Lade unsere ISO-Datei in deinen Server, entweder über deine Remote Console oder
 
 ```http://185.223.30.65/dedicatedisos/centos-network-554flb.iso```
 
-Nachdem die ISO-Datei erfolgreich eingebunden ist, müssen wir diese noch mounten um darauf zugreifen zu können.
+Nachdem die ISO-Datei erfolgreich eingebunden ist, müssen wir diese noch mounten, um darauf zugreifen zu können.
 
 ```mount /dev/sr0 /mnt```
 
@@ -64,18 +64,18 @@ Die ISO-Datei ist nun nach /mnt gemountet.
 
 ```rpm -i /mnt/be2net.rpm```
 
-Wir müssen nun das Update Paket laden.
+Wir müssen jetzt das Update Paket laden.
 
 ```modprobe be2net```
 
 Nun das Paket ausführen und installieren. Das kann einen kurzen Augenblick dauern.
-Danach kann mit `ip a s` geprüft werden ob unser Netzwerkadapter `eno1` nun angezeigt wird, falls ja, müssen wir nun das System neustarten.
+Danach kann mit `ip a s` geprüft werden, ob unser Netzwerkadapter `eno1` nun angezeigt wird, falls ja, müssen wir nun das System neu starten.
 
-Nach einem Neustart, müssen wir nun noch den Netzwerkadapter selbst konfigurieren.
+Nach einem Neustart müssen wir jetzt noch den Netzwerkadapter selbst konfigurieren.
 
 ```nano /etc/sysconfig/network-scripts/ifcfg-eno1```
 
-in dieser Datei müssen wir folgenden Inhalt eintragen:
+In dieser Datei müssen wir folgenden Inhalt eintragen:
 
 ```
 DEVICE=eno1
@@ -85,7 +85,7 @@ ONBOOT=yes
 
 Mit `STRG+X` und `Y` velassen wir nano wieder und speichern die Änderungen.
 
-Als letztes müssen wir noch den Netzwerkadapter starten, dies kann mit `ifup eno1` erledigt werden.
+Als Letztes müssen wir noch den Netzwerkadapter starten, dies kann mit `ifup eno1` erledigt werden.
 
 :::info
 Dein Dedicated Server hat nun eine Internetverbindung

@@ -10,14 +10,14 @@ sidebar_label: Admin werden
 
 ## Admin werden
 
-Mit Administrator-Rechten kannst du direkt im Spiel Änderungen im Live Zustand an deinem Server vornehmen, ohne diese in der Config vorzunehmen. Damit man sich selbst oder auch anderen Spielern Administrator-Rechte zuweisen kann, muss als erstes ein Serveradmin Passwort definiert werden. Das definieren des Passworts erfolgt in den **Einstellungen** deines Servers.
+Mit Administrator-Rechten kannst du direkt im Spiel Änderungen im Live Zustand an deinem Server vornehmen, ohne diese in der Config vorzunehmen. Damit man sich selbst oder auch anderen Spielern Administrator-Rechte zuweisen kann, muss als Erstes ein Serveradmin Passwort definiert werden. Das Definieren des Passworts erfolgt in den **Einstellungen** deines Servers.
 
 
 
 ![image](https://user-images.githubusercontent.com/26007280/189707562-a06d3a2e-5b3e-4f39-a633-221e64437662.png)
 
 
-In den Einstellungen angekommen, suchen wir nach **Admin Passwort** und setzen dort sofern gewünscht ein individuelles Passwort.
+In den Einstellungen angekommen, suchen wir nach **Admin Passwort** und setzen dort, sofern gewünscht, ein individuelles Passwort.
 
 
 ![image](https://user-images.githubusercontent.com/26007280/189707600-0046b896-0519-4ed7-b35e-badcdb6cd837.png)
@@ -30,7 +30,7 @@ Sofern das gewünschte Passwort angegeben wurde, bitte die Änderungen speichern
 
 
 
-Im Anschluss kannst du sämtliche Server-Befehle als Admin ausführen. Im folgenden findest du eine Übersicht von den am häufigsten benutzten Befehle.
+Im Anschluss kannst du sämtliche Server-Befehle als Admin ausführen. Im Folgenden findest du eine Übersicht von den am häufigsten benutzten Befehle.
 
 
 

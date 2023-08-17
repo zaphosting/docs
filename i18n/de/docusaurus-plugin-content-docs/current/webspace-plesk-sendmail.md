@@ -1,7 +1,7 @@
 ---
 id: webspace-plesk-sendmail
-title: Email Adressen einrichten und E-Mails verschicken
-description: Informationen, wie du Email Adressen für deinen Webspace von ZAP-Hosting einrichten kannst, um Emails zu verschicken und zu empfangen - ZAP-hosting.com Dokumentationen
+title: E-Mail Adressen einrichten und E-Mails verschicken
+description: Informationen, wie du E-Mail-Adressen für deinen Webspace von ZAP-Hosting einrichten kannst, um E-Mails zu verschicken und zu empfangen - ZAP-hosting.com Dokumentationen
 sidebar_label: E-Mails verschicken
 ---
 
@@ -18,7 +18,7 @@ Du bevorzugst eine Anleitung eher in Form eines Videos oder als zusätzliche vis
 
 
 
-## E-mail erstellen
+## E-Mail erstellen
 
 In dem Plesk Dashboar die Funktion "**Mail**" öffnen
 
@@ -28,12 +28,12 @@ Dort "**Email Adresses**" anklicken
 
 ![image](https://user-images.githubusercontent.com/13604413/159176528-294b85a5-bbee-4ed3-bb90-8c67cb03043d.png)
 
-Im Anschluss kann nun in dem neuen Fenster der Button "**Create Email Address**" gedrückt werden
+Im Anschluss kann nun in dem neuen Fenster der Button "**Create Email Address**" gedrückt werden.
 
 ![image](https://user-images.githubusercontent.com/13604413/159176534-76ca79d3-2a15-4537-a92d-b09bb1731e09.png)
 
-in der ersten Zeile gibt man seine Wunschdomain an, bei dem Passwort kann ein eigenes genutzt werden.
-Alternativ kann über den Button "**Generate**" eins erstellt werden, welches raus kopiert werden kann.
+In der ersten Zeile gibt man seine Wunschdomain an, bei dem Passwort kann ein eigenes genutzt werden.
+Alternativ kann über den Button "**Generate**" eins erstellt werden, welches herauskopiert werden kann.
 
 Sobald alle Wunscheinträge eingetragen über den "**OK**" Button die Eingabe bestätigen.
 
@@ -42,7 +42,7 @@ Sobald alle Wunscheinträge eingetragen über den "**OK**" Button die Eingabe be
 ## Thunderbird einrichten
 
 Nachdem Thunderbird heruntergeladen und installiert werude, wähle einfach bei "**Einrichtung starten**", "**E-Mail**" aus.
-Es öffnet sich nun ein Fenster um eine Bestehende E-Mail Adresse hinzuzufügen.
+Es öffnet sich jetzt ein Fenster, um eine bestehende E-Mail-Adresse hinzuzufügen.
 
 ![image](https://user-images.githubusercontent.com/13604413/159176547-57009470-7f2a-4804-be39-d8925fb53915.png)
 
@@ -50,7 +50,7 @@ Wir tragen unsere Informationen ein und klicken dann auf "**Weiter**"
 
 ![image](https://user-images.githubusercontent.com/13604413/159176550-05cf85c0-35e9-40f6-a281-dc5e349567fb.png)
 
-Thunderbird versucht nun automatisch alle nötigen Informationen zu beziehen, dies dauert in der Regel nur wenige Sekunden.
+Thunderbird versucht jetzt automatisch alle nötigen Informationen zu beziehen, dies dauert in der Regel nur wenige Sekunden.
 
 ![image](https://user-images.githubusercontent.com/13604413/159176554-5ba91b4d-5726-4959-95be-a7949f5b29de.png)
 
@@ -79,9 +79,9 @@ Nachdem Outlook heruntergeladen und installiert wurde, wählt man "**Datei**" au
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/2dXdHPJoo35qiFy/preview)
 
-Nun  muss der "**Konto hinzufügen**" Button betätigt werden.
+Nun muss der "**Konto hinzufügen**" Button betätigt werden.
 
-In das Fenster welches dadurch geöffnet wird, trägt man nun die erstellte E-mail ein.
+In das Fenster, welches dadurch geöffnet wird, trägt man jetzt die erstellte E-Mail ein.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/pwpDaspyW9iMj9r/preview)
 
@@ -89,10 +89,10 @@ Dies wird mit "**Verbinden**" bestätigt, sodass im Anschluss das Passwort einge
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/sZAgJgkBaRaRrm5/preview)
 
-Sobald fertiggestellt wird die "**Neue E-mail**" Funktion ausgewählt.
+Sobald fertiggestellt, wird die "**Neue E-Mail**" Funktion ausgewählt.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/TGwLJ8cRXwH8FEq/preview)
 
-Dort trägt man nun den Empfänger als auch den Betreff und Text ein.
+Dort trägt man jetzt den Empfänger als auch den Betreff und Text ein.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/2Fi2BW7E2xajftF/preview)

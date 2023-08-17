@@ -1,14 +1,13 @@
 ---
 id: fivem-servername-emojis
 title: Emojis im Servernamen anzeigen lassen
-description: Informationen, wie die Emojis im Servernamen deines FiveM-Servers in der Serverliste anzeigen lassen kannst - ZAP-Hosting.com Dokumentation
+description: Informationen, wie die Emojis im Servernamen deines FiveM Servers in der Serverliste anzeigen lassen kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Emojis in Server Name
 ---
 
 ## Emojis im Servernamen
 
-Dank unseres Webinterfaces, kannst du kinderleicht Emojis in deinen Servernamen einfügen.
-Diese Funktion findest du in den Einstellungen deines Produktes:
+Dank unseres Webinterfaces, kannst du kinderleicht Emojis in deinen Servernamen einfügen. Diese Funktion findest du in den Einstellungen deines Produktes:
 
 ![image](https://user-images.githubusercontent.com/26007280/189678381-d765c845-89f1-4a7a-8646-8aff56541ae9.png)
 

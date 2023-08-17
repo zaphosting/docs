@@ -20,7 +20,7 @@ Um das Spiel bzw. die Version deines FiveM-Servers zu ändern, musst du in deine
 
 ![image](https://user-images.githubusercontent.com/13604413/159138107-da3e5822-307c-41d1-ab79-fd68c2963f53.png)
 
-Dort kannst du dann unter Verfügbare Spiele nach "FiveM" suchen um alle Verfügbaren Versionen angezeigt zu bekommen:
+Dort kannst du dann unter verfügbare Spiele nach "FiveM" suchen, um alle verfügbaren Versionen angezeigt zu bekommen:
 
 ![image](https://user-images.githubusercontent.com/13604413/159138109-12d76fc3-9309-48d8-8808-bf3395034f81.png)
 
@@ -30,6 +30,6 @@ Wähle die gewünschte Version und klicke auf den grünen Button. Bestätige das
 Bei einem Wechsel zwischen Linux und Windows ändert sich die IP deines Servers, sofern keine eigene gebucht wurde
 
 
-Sofern du zwischen ESX RP, Linux oder txAdmin wechselst musst du nach erfolgreicher Installation diese noch aktivieren in Spiele (blauer button)
+Sofern du zwischen ESX RP, Linux oder txAdmin wechselst, musst du nach erfolgreicher Installation diese noch aktivieren in Spiele (blauer Button)
 :::
 

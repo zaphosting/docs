@@ -10,9 +10,9 @@ sidebar_label: Zum Server binden
 Nutzer eines QWERTY Layouts müssen diese Schritte nicht machen, lediglich STRG + SHIFT + L drücken und mit ~ die Console öffnen
 :::
 
-Um auf deinen Satisfactory-Gameserver zu verbinden musst du die Console des Spiels öffnen. Hierzu gibt es zwei verschiedene Wege.
+Um auf deinen Satisfactory-Gameserver zu verbinden, musst du die Konsole des Spiels öffnen. Hierzu gibt es zwei verschiedene Wege.
 
-## Das Öffnen der Console
+## Das Öffnen der Konsole
 
 ### Ändern des Tastatur-Layouts
 Mit wenigen Klicks kannst du das Tastatur-Layout verändern.
@@ -23,11 +23,11 @@ Du kannst ganz einfach kontrollieren ob es funktioniert hat, indem du kurz auf d
 ![](https://screensaver01.zap-hosting.com/index.php/s/bq9baKmtrA34LXx/preview)
 
 Wenn die Änderung erfolgreich war, kannst du wieder in das Spiel zurück, drücke nun `STRG + SHIFT + L`
-Als nächstes klicke sofern du ein QWERTZ Layout auf deiner Tastatur hast die Taste `^`
+Als Nächstes klicke, sofern du ein QWERTZ Layout auf deiner Tastatur hast, die Taste `^`
 
-Am unteren Bildschirmrand sollte sich nun die Console öffnen
+Am unteren Bildschirmrand sollte sich nun die Konsole öffnen
 
-### Verändern der Taste welche die Console öffnet
+### Verändern der Taste, welche die Konsole öffnet
 Drücke `Windows-Taste + R` oder suche im Startmenü nach Ausführen
 Kopiere dort diesen Pfad hinein:
 
@@ -35,12 +35,12 @@ Kopiere dort diesen Pfad hinein:
 %LOCALAPPDATA%\FactoryGame\Saved\Config\WindowsNoEditor\ 
 :::
 
-und bestätige mit Enter.
+Und bestätige mit Enter.
 
 Öffne die Input.ini mit einem Editor deiner Wahl
 
 :::info
-Falls die Datei nicht existiert kannst du diese einfach erstellen.
+Falls die Datei nicht existiert, kannst du diese einfach erstellen.
 :::
 
 Füge folgenden Inhalt hinzu:
@@ -50,15 +50,15 @@ ConsoleKey=F6`
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/MkcZMMpmzZHaYcy/preview)
 
-Speichere und starte das Spiel neu - Du kannst ab jetzt die Console immer mit `F6` öffnen und schließen.
+Speichere und starte das Spiel neu - Du kannst ab jetzt die Konsole immer mit `F6` öffnen und schließen.
 
 ## Verbinden zu deinem Satisfactory Server
-Kopiere die IP-Adresse deines Server in deinem Server Dashboard
+Kopiere die IP-Adresse deines Servers in deinem Server Dashboard
 ![](https://screensaver01.zap-hosting.com/index.php/s/DC9rK9yKfKAHJpW/preview)
 
-Öffne im Spiel die Console wie in den vorherigen Schritten beschrieben 
+Öffne im Spiel die Konsole wie in den vorherigen Schritten beschrieben 
 
-Trage nun in der Console `open IP-Adresse-Deines-Servers` ein.
+Trage in der Konsole `open IP-Adresse-Deines-Servers` ein.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/8dY8WTsS9ewQSGJ/preview)
 
@@ -69,8 +69,8 @@ und bestätige die Eingabe mit Enter
 Du verbindest dich nun zum Server und kannst darauf spielen!
 
 ## Das HUB
-Das HUB steht bereits in deiner Welt du kannst es auf Wunsch mit `F` abbauen und an einem anderen Platz erneut platzieren.
-Du findest das HUB ganz einfach in dem du dich an der Markierung im Spiel orientierst.
+Das HUB steht bereits in deiner Welt, du kannst es auf Wunsch mit `F` abbauen und an einem anderen Platz erneut platzieren.
+Du findest das HUB ganz einfach, in dem du dich an der Markierung im Spiel orientierst.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/EfmqDj78SiTeNtf/preview)
 

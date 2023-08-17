@@ -18,7 +18,7 @@ Gehe dann auf "Mehrspieler".
 Hier kannst du dann unten rechte auf "Serverliste" klicken.
 In der Suchleiste kannst du den Namen von deinem Server eingeben, so dass du diesen nicht extra suchen musst.
 
-ACHTUNG: Es kann rund 30 Minuten dauern bis der Server gelistet wird.
+ACHTUNG: Es kann rund 30 Minuten dauern, bis der Server gelistet wird.
 
 ## Admin werden
 Soweit du mit dem Server verbunden bist, kannst du die ENTER Taste drücken, um somit was in dem Chat einzugeben.

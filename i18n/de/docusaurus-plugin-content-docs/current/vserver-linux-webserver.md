@@ -9,7 +9,7 @@ sidebar_label: Webserver installieren
 
 ## Webserver Installation 
 
-Nginx und Apache sind beliebte Webserver, die verwendet werden, um Webseiten an den Browser eines Benutzers zu übermitteln. Im folgenden zeigen wir dir wie du einen der Dienste auf deinem System installieren kannst. 
+Nginx und Apache sind beliebte Webserver, die verwendet werden, um Webseiten an den Browser eines Benutzers zu übermitteln. Im Folgenden zeigen wir dir, wie du einen der Dienste auf deinem System installieren kannst. 
 
 
 
@@ -63,7 +63,7 @@ sudo zypper install httpd
 sudo dnf install httpd
 ```
 
-Nach dem installieren des Webservers können die Dateien deiner Website hochgeladen werden. Verbinde dich dazu per FTP/SFTP mit deinem Server,  navigiere in das folgende Verzeichnis und lade die Dateien hoch.
+Nach dem Installieren des Webservers können die Dateien deiner Website hochgeladen werden. Verbinde dich dazu per FTP/SFTP mit deinem Server, navigiere in das folgende Verzeichnis und lade die Dateien hoch.
 
 ```
 /var/www/html/
@@ -90,7 +90,7 @@ sudo zypper install nginx
 sudo dnf install nginx
 ```
 
-Nach dem installieren des Webservers können die Dateien deiner Website hochgeladen werden. Verbinde dich dazu per FTP/SFTP mit deinem Server,  navigiere in das folgende Verzeichnis und lade die Dateien hoch.
+Nach dem Installieren des Webservers können die Dateien deiner Website hochgeladen werden. Verbinde dich dazu per FTP/SFTP mit deinem Server, navigiere in das folgende Verzeichnis und lade die Dateien hoch.
 
 ```
 /usr/share/nginx/html
@@ -100,7 +100,7 @@ Nach dem installieren des Webservers können die Dateien deiner Website hochgela
 
 ## Version-Check
 
-Nachdem die Installation abgeschlossen wurde kannst du mit den Befehlen  `apache2 -v` (Apache) und `nginx -v` (Nginx)  prüfen, ob die Installation erfolgreich gewesen ist. Die Ausgabe sollte im etwa wie im folgenden aussehen:
+Nachdem die Installation abgeschlossen wurde, kannst du mit den Befehlen  `apache2 -v` (Apache) und `nginx -v` (Nginx)  prüfen, ob die Installation erfolgreich gewesen ist. Die Ausgabe sollte im etwa wie im Folgenden aussehen:
 
 
 

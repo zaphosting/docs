@@ -10,7 +10,7 @@ sidebar_label: Verwendung von Logo und Name
 Generell unterstützen wir Ideen und kreative Konzepte, die auf Grundlage der Brand Assets von ZAP-Hosting (d.h. ZAP-Hosting's Marken, Logos, Handelsaufmachungen, Webseiten, urheberrechtlich geschützte Designs, Originalinhalten oder andere Brand Assets) basieren. Jedoch sind wir verpflichtet, unseren Ruf und unsere Markenidentität zu schützen.
 
 :::info
-Die von uns gestatteten Logos findest du [hier in weiß](https://zap-hosting.com/interface/_images/logo/zap-logo-1920x1080-hd-trans-white.png) und [hier in schwarz](https://zap-hosting.com/interface/_images/logo/zap-logo-1920x1080-hd-trans-black.png)
+Die von uns gestatteten Logos findest du [hier in Weiß](https://zap-hosting.com/interface/_images/logo/zap-logo-1920x1080-hd-trans-white.png) und [hier in Schwarz](https://zap-hosting.com/interface/_images/logo/zap-logo-1920x1080-hd-trans-black.png)
 :::
 
 Durch die Verwendung von Brand Assets von ZAP-Hosting erklären Sie sich damit einverstanden, diese Richtlinien, die Nutzungsbedingungen von ZAP-Hosting und alle anderen Regeln und Richtlinien von ZAP-Hosting (auch individuell besprochene Sonderkonditionen und Ausnahmeregelungen) zu achten und zu befolgen. 
@@ -35,7 +35,7 @@ ZAP-Hosting behält sich das Recht vor, jegliche erteilte Erlaubnis zur Nutzung 
 
 **Ich habe etwas gefunden, bei dem ich glaube, dass es sich um eine unerlaubte Nutzung des Logos oder des Namens handelt. Was soll ich tun?**
 
-*Sollten Sie eine Website, einen Account oder eine Grafik gefunden haben, die ein ZAP-Hosting-Markenlogo unangemessen verwendet, würden wir gerne davon erfahren. Kontaktieren sie in solchen Fällen sofort abuse@zap-hosting.com*
+*Sollten Sie eine Website, einen Account oder eine Grafik gefunden haben, die ein ZAP-Hosting-Markenlogo unangemessen verwendet, würden wir gerne davon erfahren. Kontaktieren Sie in solchen Fällen sofort abuse@zap-hosting.com*
 
 <br/>
 
@@ -67,11 +67,11 @@ Wenn Sie Fragen zu diesen Richtlinien haben, wenden Sie sich bitte an raz@zap-ho
 
 - Ungenehmigte Brand Assets von ihnen in Form oder Farbe verändert, oder entstellend verändert worden sind. Hierzu zählen Logos, Screenshots der Website, veröffentlichte Beiträge und Screenshots von Chats und Unterhaltungen mit unseren Mitarbeitern, sowie personenbezogene Informationen unserer Mitarbeiter selbst.
 
-- Verwendung des Markennamens und der Logos (oder Teile davon) in  Domänennamen, Social Media-Konten, Firmennamen, App-Namen oder als Teil von Online- oder persönlichen Veranstaltungen (einschließlich Community-Events oder Treffen).
+- Verwendung des Markennamens und der Logos (oder Teile davon) in Domänennamen, Social Media-Konten, Firmennamen, App-Namen oder als Teil von Online- oder persönlichen Veranstaltungen (einschließlich Community-Events oder Treffen).
 
 - Verwendung des Markennamens und der Logos (oder Teile davon) in Service- oder Dienstleistungsangeboten, Produkten oder Mails.
 
-- Verwendung des Markennamens und der Logos (oder Teile davon) in einer Weise, die eine Zugehörigkeit, Partnerschaft, Sponsoring oder Unterstützung durch oder mit ZAP-Hosting suggeriert, es sei denn wir haben sie nach Absprache in das ZAP-Hosting Partnerprogramm aufgenommen.
+- Verwendung des Markennamens und der Logos (oder Teile davon) in einer Weise, die eine Zugehörigkeit, Partnerschaft, Sponsoring oder Unterstützung durch oder mit ZAP-Hosting suggeriert, es sei denn, wir haben sie nach Absprache in das ZAP-Hosting Partnerprogramm aufgenommen.
 
 - Fügen Sie keine markenrechtlich geschützten Grafiken und Logos der Marke ZAP-Hosting in redaktionelle Inhalte ein, die den Eindruck erwecken, dass sie von ZAP-Hosting oder einem Mitarbeiter oder einem Partner von ZAP-Hosting verfasst wurden oder die Ansichten oder Meinungen von ZAP-Hosting oder einem Mitarbeiter oder Partner von ZAP-Hosting repräsentieren.
 
@@ -84,7 +84,7 @@ Die Rechte von ZAP-Hosting an den markenrechtlich geschützten Grafiken und Logo
 
 ## Logos
 
-Generell erlauben wir keine Verwendung der ZAP-Hosting-Logos in Marketingmaterialien Dritter. Dies schließt Online- und Offline-Werbematerial ein wie z.B.:
+Generell erlauben wir keine Verwendung der ZAP-Hosting-Logos in Marketingmaterialien Dritter. Dies schließt Online- und Offline-Werbematerial ein, wie z.B.:
 - Kunden- und Empfehlungslisten
 - Verkaufspräsentationen
 - Druck-, Rundfunk-, Außen- oder Online-Anzeigen
@@ -98,7 +98,7 @@ Wir behalten uns vor, für hier nicht aufgelistete Punkte, individuell zu entsch
 
 <br/>
 
-## Werbespots, TV-Programme, YouTube Videos, Filme oder Artikel
+## Werbespots, TV-Programme, YouTube-Videos, Filme oder Artikel
 Wenn Sie unsere Brand Assets als Teil eines Artikels, in eines Films oder innerhalb eines Rundfunkprogramms verwenden möchten, kontaktieren Sie uns bitte. Wir sind für derlei Anfragen offen. Bitte fügen Sie Ihrer Anfrage folgenden Informationen bei:
 - Beschreibung des Projekts/Inhalts 
 - Art der Verwendung der ZAP-Hosting Brand Assets

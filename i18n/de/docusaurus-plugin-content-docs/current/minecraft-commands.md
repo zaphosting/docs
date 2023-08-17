@@ -12,14 +12,14 @@ Hier gelangst du zu unseren Minecraft Servern: [Minecraft Server mieten](https:/
 Mit Befehlen können in Minecraft zusätzliche Funktionen genutzt werden oder auch spezielle Funktionen ausgeführt werden.
 Minecraft selbst bringt bereits ohne jegliche Modifikation mit über **100 Befehlen** mit sich, mit denen sich die verschiedensten Funktionen aktivieren, verwalten oder Aktionen durchführen lassen.
 
-In diesem Beitrag unserer Dokumentation gehen wir auf die wichtigesten Befehle ein, welche sehr oft genutzt und gebraucht werden.
+In diesem Beitrag unserer Dokumentation gehen wir auf die wichtigsten Befehle ein, welche sehr oft genutzt und gebraucht werden.
 Sollte ein Befehl hier nicht aufgelistet sein, so ist hierbei das offizielle [Minecraft-Wiki](https://minecraft-de.gamepedia.com/) sehr hilfreich, da dort jeder noch so kleiner Bestandteil (inkl. aller Befehle) genauer erklärt werden.
 
 ### Benutzung
 
 Jeder Befehle beginnt grundsätzlich mit einem "/". Möchte man also einen Befehl nutzen, so muss man den Chat im Spiel öffnen und vorerst das "/" eintippen, worauf dann der Befehl selbst geschrieben werden kann.
-Durch drücken der TAB-Taste wird eine Vorschau alle verfügbaren Befehle angezeigt bzw. aber der 1.13 eine Liste aller Befehle angezeigt.
-Hiermit können Befehle auch schnell und einfach automatisch vervollständig werden, wie man es als Beispiel von Suchanfragen im Internet kennt.
+Durch Drücken der TAB-Taste wird eine Vorschau alle verfügbaren Befehle angezeigt bzw. aber der 1.13 eine Liste aller Befehle angezeigt.
+Hiermit können Befehle auch schnell und einfach automatisch vervollständigt werden, wie man es als Beispiel von Suchanfragen im Internet kennt.
 
 :::info
 Sollten Befehle über die Konsole ausgeführt werden, so ist das "/" hierbei nicht notwendig und muss entfernt werden!
@@ -27,18 +27,15 @@ Sollten Befehle über die Konsole ausgeführt werden, so ist das "/" hierbei nic
 Dieses Zeichen dient nur dafür, um im Spiel zwischen einer normalen Chat-Nachricht oder einem Befehl unterscheiden zu können.
 :::
 
-### Rechte / Permissions
+### Berechtigungen (Permissions)
 
-Um Befehle verwenden zu können sind die dafür erfoderlichen Rechte notwendig.
-In Minecraft-Vanilla oder Forge gibt es kein richtiges Permissions-System, wie es bei Spigot als Beispiel durch Plugins installiert werden kann.
-Hierbei kann nur auf das Level-System der OP-Rechte zurückgegriffen werden. Wie genau das geht, haben wir hier beschrieben: [*Klick*](https://zap-hosting.com/guides/docs/de/minecraft_addop/#rechte-level)
+Um Befehle verwenden zu können, sind die dafür erforderlichen Rechte notwendig.
+In Minecraft Vanilla oder Forge gibt es kein richtiges Berechtigungssystem, wie es bei Spigot als Beispiel durch Plugins installiert werden kann. Hierbei kann nur auf das Level-System der OP-Rechte zurückgegriffen werden. Wie genau das geht, haben wir hier beschrieben: [*Klick*](https://zap-hosting.com/guides/docs/de/minecraft_addop/#rechte-level)
 
-Sollte ein Permissions-System installiert worden sein und es geüwnscht ist auch Rechte auf gewisse Minecraft-Befehle zu verteilen, so können wie unten im Hinweis beschrieben die jeweiligen Permissions verteilt werden.
+Sollte ein Berechtigungensystem installiert worden sein und es gewünscht ist auch Berechtigungen auf gewisse Minecraft-Befehle zu verteilen, so kannst du sehen, wie unten im Hinweis beschrieben, die jeweiligen Berechtigungen verteilt werden.
 
 :::info
-Die Permissions sind hierbei immer gleich aufgebaut und können für jeden Befehl entsprechend angepasst werden.
-
-Möchte man als Beispiel für den Locate-Befehl Rechte vergeben, so muss folgende Permissions gesetzt werden: ``minecraft.command.locate``
+Die Berechtigungen sind hierbei immer gleich aufgebaut und können für jeden Befehl entsprechend angepasst werden. Möchte man als Beispiel für den Locate-Befehl Rechte vergeben, so muss folgende Berechtigungen gesetzt werden: ``minecraft.command.locate``
 :::
 
 ## Befehle
@@ -57,7 +54,7 @@ Teleportiert den Ausführer des Befehls zu einem anderen Spieler
 ``/tp SpielerA SpielerB``
 
 Teleportiert *SpielerA* zu *SpielerB*. Unabhängig vom Ausführer des Befehls werden immer die angegebenen Spieler teleportiert.
-Angenommen der Ausführer des Befehles heißt *SpielerB*, so würde *SpielerA* zu sich selbst teleportiert werden.
+Angenommen der Ausführer des Befehls heißt *SpielerB*, so würde *SpielerA* zu sich selbst teleportiert werden.
 
 ``/tp -100 75 985``
 
@@ -71,7 +68,7 @@ Teleportiert einen selbst zu der nächsten *Kuh* innerhalb eines 10 Block-Radius
 
 ### /locate
 
-Mit dem **/locate**-Befehl ist es möglich die Koordinaten des jeweils gesuchten Bauwerkes sich ausgeben zu lassen, wie etwas ein Villager-Dorf.
+Mit dem **/locate**-Befehl ist es möglich, die Koordinaten des jeweils gesuchten Bauwerkes sich ausgeben zu lassen, wie etwas ein Villager-Dorf.
 
 **Beispiele:**
 
@@ -86,7 +83,7 @@ Findet und gibt die Position wie bei der Netherfestaus aus, in diesem Fall jedoc
 ### /worldborder
 
 Mit diesem Befehl kann eine Welt-Bregrenzung erstellt werden in der aktuellen Welt.
-Dadurch ist es Spielern nicht möglich die Welt weiter zu erkunden, als wie mit diesem Befehle festgelegt wurde.
+Dadurch ist es Spielern nicht möglich, die Welt weiterzuerkunden, als wie mit diesem Befehle festgelegt wurde.
 
 **Beispiele:**
 
@@ -96,7 +93,7 @@ Hiermit wird der Mittelpunkte der Welt auf die Koordinaten 0;0 gesetzt, von wo a
 
 ``/worldborder set 16000``
 
-Setzte die Grenze auf 16.000x16.000 Blöcke. Also wäre dies ein 8.000 Blöck Radius in jede Richtung.  
+Setzte die Grenze auf 16.000x16.000 Blöcke. Also wäre dies ein 8.000 Block Radius in jede Richtung.  
 
 ### /effect
 
@@ -104,9 +101,9 @@ Hierdurch können Spielern (oder auch Entitys) normale Trank-Effekte gegeben wer
 Einige Effekte sind jedoch nur über den Befehl zu ergattern, wie etwas den Glücks-Effekt, welcher jedoch bis heute noch keine Funktion erhalten hat.
 
 :::info
-Der Befehl hat sich im laufe der Versionen gewandelt und wurde weiter ausgebaut und verändert.
+Der Befehl hat sich im Laufe der Versionen gewandelt und wurde weiter ausgebaut und verändert.
 
-Die hier gezeigten Beispiele für die Befehle stammen aus der neuste Version und können daher in älteren Versionen abweichend aussehen! 
+Die hier gezeigten Beispiele für die Befehle stammen aus der neusten Version und können daher in älteren Versionen abweichend aussehen! 
 :::
 
 **Beispiele:**
@@ -148,7 +145,7 @@ Die TPS wird für die letzten 60 Sekunden ausgegeben, wobei die zwei darauf folg
 Durch diesen Befehl kann ein Spieler vom Server ausgeschlossen werden, sodass dieser den Server unter keinen Umständen mehr betreten kann. Hierbei wird der Spieler-Account anhand dessen UUID selbst gebannt.
 
 :::info
-Bei Servern mit deaktiviertem Online-Mode können Spieler ihnen Namen ändern und erlangen somit wieder Zugang. in solch einem Fall wäre der IP-Ban durch Plugins die beste Lösung.
+Bei Servern mit deaktiviertem Online-Mode können Spieler ihnen Namen ändern und erlangen somit wieder Zugang. In solch einem Fall wäre der IP-Ban durch Plugins die beste Lösung.
 :::
 
 **Beispiele:**
@@ -174,14 +171,14 @@ Der Spieler *SpielerA* wird von der Ban-Liste entfernt und kann den Server damit
 
 ### /kick
 
-Mit diesem Befehl wird die Verbindung zwischen Server und dem angegebenen Spieler geschlossen. Dadurch verlässt der Server zwangsweise den Server kann aber direkt wieder verbinden.
+Mit diesem Befehl wird die Verbindung zwischen Server und dem angegebenen Spieler geschlossen. Dadurch verlässt der Server zwangsweise den Server, kann aber direkt wieder verbinden.
 
 **Beispiele:**
 
 ``/kick SpielerA``
 
-Hierdurch wird der Spieler *SpielerA* vom Server geworfen mit der Nachricht "Kicked by an operator."
+Hierdurch wird der Spieler *SpielerA* vom Server geworfen, mit der Nachricht "Kicked by an operator."
 
 ``/kick SpielerA Kickgrund``
 
-Hierdurch wird der Spieler *SpielerA* vom Server geworfen mit der Nachricht "Kickgrund"
+Hierdurch wird der Spieler *SpielerA* vom Server geworfen, mit der Nachricht "Kickgrund"
