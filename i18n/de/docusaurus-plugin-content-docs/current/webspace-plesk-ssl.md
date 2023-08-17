@@ -27,7 +27,7 @@ Schritt 1️⃣: Durch einen Doppelklick auf "SSL/TLS-Zertifikat" öffnet sich f
 
 ![image](https://user-images.githubusercontent.com/13604413/159176748-32786fa1-7e69-441d-a3e3-1c8da3fbdb4a.png)
 
-Dort kann kostenlos ein Lets Encrypt Zertifikat angefordert werden. 
+Dort kann kostenlos ein Let's Emcrypt Zertifikat angefordert werden. 
 
 Schritt 2️⃣: Erforderliche Angaben eintragen/setzen. 
 Damit das Zertifikat angefordert werden kann, müssen Angeben erfolgen. 
@@ -69,7 +69,7 @@ Schritt 1️⃣: Es wird erneut das SSL/TLS Zertifikat Menü geöffnet.
 ![](https://user-images.githubusercontent.com/13604413/159176787-2ffd121c-0ad0-44ca-bea1-185e13ac81ad.png)
 
 Anschließend wird links oben auf "Zertifikat erneuern" geklickt. 
-Nun öffnet sich das Anfragefenster von Lets Encrypt:
+Nun öffnet sich das Anfragefenster von Let's Emcrypt:
 
 ![](https://user-images.githubusercontent.com/13604413/159176792-4d648b72-9903-4526-9a6e-984b3cb6a35a.png)
 
@@ -85,7 +85,7 @@ Schritt 2️⃣: Es erscheint nun eine blaue Box mit wichtigen Informationen:
 ![](https://user-images.githubusercontent.com/13604413/159176800-483c32c6-bb31-47bf-91bb-38aab2b47288.png)
 
 Dort wird ein Domainname sowie ein Wert genannt. 
-Dieser muss als TXT dauerhaft im DNS der Domain abrufbar sein, nur so kann Lets Encrypt sicherstellen, dass die Domain echt ist und verifiziert werden kann. 
+Dieser muss als TXT dauerhaft im DNS der Domain abrufbar sein, nur so kann Let's Emcrypt sicherstellen, dass die Domain echt ist und verifiziert werden kann. 
 
 Ein Eintrag im DNS sollte so aussehen: 
 

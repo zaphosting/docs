@@ -93,7 +93,7 @@ Eine Liste sämtlicher in der Konfigurationsdatei nutzbaren Befehle:
 |  Befehl   |           Werte          |                  Funktion               |
 | :--------: | :--------------------------: |  :---------------------------------:  |
 |   enabled     |        true / false      |     aktiviert bzw. deaktiviert Änderungen am Fermenter    |
-|   fermenterDuration      |        2400 (float) entspricht 48 ingame Stunden     |    setzt die Fertigungsdauer im Fermenter, je geringer der Wert desto schneller ist die Fertigung  |
+|   fermenterDuration      |        2400 (float) entspricht 48 im Spiel Stunden     |    setzt die Fertigungsdauer im Fermenter, je geringer der Wert desto schneller ist die Fertigung  |
 |   fermenterItemsProduced      |        6 (integer)     |     setzt die Items welche im Fermenter produzierter werden können    |
 
 ### [Furnace]
@@ -138,7 +138,7 @@ Eine Liste sämtlicher in der Konfigurationsdatei nutzbaren Befehle:
 | :--------: | :--------------------------: |  :---------------------------------:  |
 |   enabled     |        true / false      |     aktiviert bzw. deaktiviert Änderungen am Beehive    |
 |   maximumHoneyPerBeehive      |        4 (integer)     |    setzt die maximale Anzahl an Honig aus dem Beehive  |
-|   honeyProductionSpeed      |       1200 (float)  entspricht 24 ingame Stunden    |   setzt die Fertigungsdauer von Honig, je geringer der Wert desto schneller ist die Fertigung  |
+|   honeyProductionSpeed      |       1200 (float)  entspricht 24 im Spiel Stunden    |   setzt die Fertigungsdauer von Honig, je geringer der Wert desto schneller ist die Fertigung  |
 
 ### [Server]
 

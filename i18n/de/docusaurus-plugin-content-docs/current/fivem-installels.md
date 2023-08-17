@@ -35,7 +35,7 @@ Nachdem diese hochgeladen wurde, muss die server.cfg im server-data Ordner geöf
 
 Unter den restlichen Starteinträgen für Ressourcen kann nun der Eintrag für ELS-FiveM hinzugefügt werden
 
-Danach kann der Server neu gestartet werden und ELS-FiveM ist ingame verfügbar!
+Danach kann der Server neu gestartet werden und ELS-FiveM ist im Spiel verfügbar!
 
 
 ## Carmods Konfigurieren

@@ -2,7 +2,7 @@
 id: valheim-admin
 title: Server Admin Befehle & Cheats
 description: Informationen zu Admin Befehlen und Cheats für deinen Valheim-Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
-sidebar_label: Admin Commands & Cheats
+sidebar_label: Admin Befehls & Cheats
 ---
 
 ## Als Admin hinzufügen
@@ -36,7 +36,7 @@ Die Konsole in Valheim kann durch Drücken von "F5" während des Spiels aufgeruf
 
 ### Admin Befehle
 
-|  Command   |           Arguments          |                  Effect               |
+|  Befehl   |           Arguments          |                  Effect               |
 | :--------: | :--------------------------: |  :---------------------------------:  |
 |   kick     |        Name/PlayerID/IP      |     Kickt den angegebenen Spieler     |
 |   ban      |        Name/PlayerID/IP      |     Bannt den angegebenen Spieler     |

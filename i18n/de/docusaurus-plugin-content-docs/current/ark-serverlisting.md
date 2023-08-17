@@ -6,7 +6,7 @@ sidebar_label: Serverlisting Probleme
 ---
 
 
-Leider haben viele populäre Spiele wie ARK oder Valheim massive Probleme mit dem Listing aller Server in der ingame Serverliste. 
+Leider haben viele populäre Spiele wie ARK oder Valheim massive Probleme mit dem Listing aller Server in der im Spiel Serverliste. 
 
 Das liegt daran, dass diese Spiele die Software "Steamworks" für ihr Listing verwenden. 
 

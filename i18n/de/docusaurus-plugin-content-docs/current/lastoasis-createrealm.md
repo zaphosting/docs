@@ -93,5 +93,5 @@ Und dann im Anschluss auf "Add Oasis" klicken, damit diese angelegt wird. Nun mu
 
 ![image](https://user-images.githubusercontent.com/26007280/189681363-be60f586-12be-4a00-80d1-81ed6a709989.png)
 
-Soweit das erledigt ist, kannst du deinen Server neu starten und dich dann im Anschluss ingame damit verbinden.
+Soweit das erledigt ist, kannst du deinen Server neu starten und dich dann im Anschluss im Spiel damit verbinden.
 

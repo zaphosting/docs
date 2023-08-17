@@ -80,9 +80,9 @@ Die Datei sollte nun wie im Beispiel beginnen:
 ```
 ---
 id: rust-commands
-title: Admin Commands
+title: Admin Befehls
 description: Information on Admin commands for Rust from ZAP-Hosting - ZAP-Hosting.com documentation
-sidebar_label: Admin Commands
+sidebar_label: Admin Befehls
 ---
 ```
 

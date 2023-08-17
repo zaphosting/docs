@@ -32,7 +32,7 @@ ein und bestätige mit Enter, es öffnet sich nun ein Verzeichnis. Schiebe dort 
 
 ![image](https://user-images.githubusercontent.com/26007280/189938494-17ff69e4-3c86-408f-9e3d-bc13f0342584.png)
 
-## Server ingame "erstellen"
+## Server im Spiel "erstellen"
 
 Starte nun Among Us auf deinem PC.
 Klicke im Hauptmenü auf "online" und klicke dann auf "Create Game".

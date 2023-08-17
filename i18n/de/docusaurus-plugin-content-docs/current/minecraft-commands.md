@@ -112,7 +112,7 @@ Die hier gezeigten Beispiele für die Befehle stammen aus der neusten Version un
 
 Hiermit wird dem Spieler *SpielerA* ein Schnelligkeits-Effekt der **Sss 1 gegeben
 
-Command Example Content
+Befehl Example Content
 
 ### /gamerule
 

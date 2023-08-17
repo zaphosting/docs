@@ -1,7 +1,7 @@
 ---
 id: gameserver-restartplaner
 title: Restartplaner - Server-Neustarts automatisch durchführen
-description: Informationen, wie du mit dem Restartplaner deinen Gameserver von ZAP-Hosting.com automatisch in festgelegten Intervallen neustarten lassen kannst - ZAP-Hosting.com Dokumentation
+description: Informationen, wie du mit dem Restartplaner deinen Gameserver von ZAP-Hosting.com automatisch in festgelegten Intervallen neu starten lassen kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Restartplaner
 ---
 

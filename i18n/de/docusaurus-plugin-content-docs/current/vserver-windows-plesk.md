@@ -20,7 +20,7 @@ Der Pfad zu dieser Datei wäre für die weiteren Schritte wichtig.
 
 ![](https://user-images.githubusercontent.com/61839701/166202762-579fe417-e6b2-4be8-b3a4-90114a63b02c.png)
 
-### Command Prompt öffnen
+### Befehl Prompt öffnen
 
 Für die Installation muss jetzt die CMD Konsole geöffnet werden.
 Dies würde über die Tastenkombination [Windows] + [R] gehen oder auch wenn man bei dem "Windows Symbol" nach "Befehl" sucht und diese "command prompt" dort öffnet.

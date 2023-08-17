@@ -62,7 +62,7 @@ Soweit die SteamCMD Dateien installiert sind, siehst du folgendes in dem SteamCM
 
 ![image](https://user-images.githubusercontent.com/61839701/169505495-c376c430-3ed0-4593-8363-08c4fad4e2ba.png)
 
-Wir geben jetzt den Pfad an, in welchem die Dateien heruntergeladen werden sollen. Das wird mit dem Command "force_install_dir" gemacht.Der komplette Befehl in unserem Beispiel lautet: 
+Wir geben jetzt den Pfad an, in welchem die Dateien heruntergeladen werden sollen. Das wird mit dem Befehl "force_install_dir" gemacht.Der komplette Befehl in unserem Beispiel lautet: 
 `` force_install_dir "C:\Users\Administrator\Desktop\VRising"``
 
 Damit werden die Dateien dann in den vorhin erstellten VRising Ordner heruntergeladen.

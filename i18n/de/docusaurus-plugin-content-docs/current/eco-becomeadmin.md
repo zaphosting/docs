@@ -92,4 +92,4 @@ Im Folgenden findest du eine Übersicht von häufig verwendeten Admin Befehlen, 
 |         /move [x],[y],[z]          |       Versetzt Spieler zur Position x, y, z;       |
 |       /removeadmin [player]        |          Entfernt einen Spieler als Admin          |
 
-Noch weitere verfügbare Befehle findest du in der offiziellen [ECO Wiki](https://eco.gamepedia.com/Chat_Commands).
+Noch weitere verfügbare Befehle findest du in der offiziellen [ECO Wiki](https://eco.gamepedia.com/Chat_Befehls).

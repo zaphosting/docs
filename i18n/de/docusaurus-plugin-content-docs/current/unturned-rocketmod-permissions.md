@@ -45,13 +45,13 @@ Darin können wir nun die Berechtigungen der Gruppe anpassen. Sowie die Wartezei
 
 ![image](https://user-images.githubusercontent.com/26007280/189910233-96dd5565-6ecb-47f4-808f-3814ecb9bc0c.png)
 
-Das würde bedeutet, dass die Gruppe jetzt ingame Leute bannen kann und da der "Cooldown" auf 0 Sekunden gesetzt wurde, kann dies durchgängig gemacht werden.
+Das würde bedeutet, dass die Gruppe jetzt im Spiel Leute bannen kann und da der "Cooldown" auf 0 Sekunden gesetzt wurde, kann dies durchgängig gemacht werden.
 
 Wollen wir der Gruppe noch das Recht geben, sich zu heilen, dann kann es wie folgt eingetragen werden:
 
 ![image](https://user-images.githubusercontent.com/26007280/189917800-ed999eec-8d02-4de2-beca-f9f504440e23.png)
 
-Hierbei ist es dem User aber nur alle 3600 Sekunden möglich den Command zu nutzen.
+Hierbei ist es dem User aber nur alle 3600 Sekunden möglich den Befehl zu nutzen.
 Die Prozedur ist bei weiteren Rechten identisch.
 Allerdings sind für einige Berechtigungen auch entsprechende Plugins notwendig.
 

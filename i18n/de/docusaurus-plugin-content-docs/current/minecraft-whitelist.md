@@ -32,7 +32,7 @@ Die **Minecraft Whitelist** ist eine Möglichkeit, um seinen Server zu schützen
 
 ### Aktivierung (Config)
 
-Um die Whitelist zu aktivieren, muss der Wert des Befehls in der **server.properties** Config auf **true** gesetzt werden. Ein Neustart des Servers ist im Anschluss zwingend notwendig, damit die Änderung wirksam wird. 
+Um die Whitelist zu aktivieren, muss der Wert des Befehle in der **server.properties** Config auf **true** gesetzt werden. Ein Neustart des Servers ist im Anschluss zwingend notwendig, damit die Änderung wirksam wird. 
 
 ```
 white-list=true
@@ -103,7 +103,7 @@ Wenn die UUID des Spielers bekannt ist, dann kann der Spieler auch manuell über
 
 ### Liste aktualisieren
 
-Wenn die Spieler manuell hinzugefügt werden, dann muss die Whitelist im Spiel neu geladen werden. Um den Server deshalb nicht zwingend neustarten zu müssen, ist dies auch per Befehl möglich:
+Wenn die Spieler manuell hinzugefügt werden, dann muss die Whitelist im Spiel neu geladen werden. Um den Server deshalb nicht zwingend neu starten zu müssen, ist dies auch per Befehl möglich:
 
 ```
  /whitelist reload

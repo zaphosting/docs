@@ -159,7 +159,7 @@ Um die erste Domain hinzuzufügen, klickt man auf den blauen Button "Domain hinz
 
 ![](https://user-images.githubusercontent.com/61839701/166189082-67e19710-76b1-4e23-b3a8-8ed3837acd3c.png)
 
-Jetzt kann die eigene Domain eingetragen werden. Ebenfalls muss eine IP sowie ein Benutzername und Passwort für den Webspace der Domain festgelegt werden. Sollte bereits die Subdomain "www" im DNS der Domain eingetragen sein, kann direkt ein SSL Zertifikat von Lets Encrypt mit erstellt werden. Dazu kann diese Option ausgewählt werden, nachdem eine Mail Adresse eingetragen wurde, wird es auf dem blauen "OK" Button bestätigt.  
+Jetzt kann die eigene Domain eingetragen werden. Ebenfalls muss eine IP sowie ein Benutzername und Passwort für den Webspace der Domain festgelegt werden. Sollte bereits die Subdomain "www" im DNS der Domain eingetragen sein, kann direkt ein SSL Zertifikat von Let's Emcrypt mit erstellt werden. Dazu kann diese Option ausgewählt werden, nachdem eine Mail Adresse eingetragen wurde, wird es auf dem blauen "OK" Button bestätigt.  
 
 ![](https://user-images.githubusercontent.com/61839701/166189232-20770ac9-0b4c-4c6a-83f2-f2db3fead20c.png)
 
@@ -172,7 +172,7 @@ Es kann bis zu 24 Stunden dauern, bis ein neuer/geänderter DNS Eintrag auf das 
 
 ## SSL Verschlüsselung
 
-Bei der Domain Eintragung/Erstellung vom Webspace wurde bereits ein SSL Zertifikat von Lets Encrypt mit generiert, dies kann nun unter "Hosting Einstellungen" der Domain, eingetragen/ausgewählt werden. Anschließen muss es mit einem Klick auf "Übernehmen" bestätigen.
+Bei der Domain Eintragung/Erstellung vom Webspace wurde bereits ein SSL Zertifikat von Let's Emcrypt mit generiert, dies kann nun unter "Hosting Einstellungen" der Domain, eingetragen/ausgewählt werden. Anschließen muss es mit einem Klick auf "Übernehmen" bestätigen.
 
 :::info
 Damit dauerhaft auf HTTPS (SSL) geleitet wird beim Aufruf der Webseite muss das Häkchen bei "Dauerhafte, für SEO geeignete 301-Weiterleitung von HTTP zu HTTPS" gesetzt werden. 

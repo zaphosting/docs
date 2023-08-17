@@ -63,4 +63,4 @@ Unter den restlichen Starteinträgen für Ressourcen kann nun der Eintrag für u
 ![image](https://user-images.githubusercontent.com/13604413/159167238-56880863-9a49-4651-a95c-daa070743def.png)
 
 
-Danach kann der Server neu gestartet werden und EUP sollte Ingame über das `/eup` Command verfügbar sein!
+Danach kann der Server neu gestartet werden und EUP sollte Ingame über das `/eup` Befehl verfügbar sein!

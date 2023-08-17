@@ -35,7 +35,7 @@ import TabItem from '@theme/TabItem';
 
 <TabItem value="Server-Einstellungen" label="Server-Einstellungen">
 
-| Command Syntax                  | Accepted Values | Description | 
+| Befehl Syntax                  | Accepted Values | Description | 
 | ----------------------- | ---------- | --------- | 
 | server.globalchat      | true/false          | Bei true wird jede Chat-Nachricht allen Spielern angezeigt         | 
 | server.stop      | -          | Stoppt den Server         | 
@@ -58,7 +58,7 @@ import TabItem from '@theme/TabItem';
 </TabItem>
 <TabItem value="Spieler-Verwaltung" label="Spieler-Verwaltung">
 
-| Command Syntax                  | Accepted Values | Description | 
+| Befehl Syntax                  | Accepted Values | Description | 
 | ----------------------- | ---------- | --------- | 
 | global.ban "Spielername" "Grund"      | String (z. B. "Jacob"), String (z. B. "War frech!!")          | Verbannt einen Benutzer vom Server (mit optionalem Grund)         | 
 | global.banid "steam64"      | Integer          | Bannt einen Benutzer über seine Steam 64 ID         | 
@@ -76,7 +76,7 @@ import TabItem from '@theme/TabItem';
 </TabItem>
 <TabItem value="Spieler-Steuerungen" label="Spieler-Steuerungen">
 
-| Command Syntax                  | Accepted Values | Description | 
+| Befehl Syntax                  | Accepted Values | Description | 
 | ----------------------- | ---------- | --------- | 
 | kill      | -          | Töte deinen eigenen Spieler         | 
 | global.quit      | -          | Speichert und verlässt das Spiel         | 

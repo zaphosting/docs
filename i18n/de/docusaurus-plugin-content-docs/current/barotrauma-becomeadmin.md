@@ -27,7 +27,7 @@ Um einen neuen Spieler hinzuzufügen, muss ein neuer Client Eintrag zu der Confi
 
 
 
-In dem Client Eintrag sind die Variablen **Name, SteamID, Permissions, und Command** zu finden. Diese müssen nun noch angepasst werden. Der Name kann beliebig gesetzt werden. Er dient nur als Platzhalter zur Übersicht. Im Anschluss muss die SteamID64 von deinem Steam Account hinterlegt werden.
+In dem Client Eintrag sind die Variablen **Name, SteamID, Permissions, und Befehl** zu finden. Diese müssen nun noch angepasst werden. Der Name kann beliebig gesetzt werden. Er dient nur als Platzhalter zur Übersicht. Im Anschluss muss die SteamID64 von deinem Steam Account hinterlegt werden.
 
 Diese findest du, indem du zunächst einmal Steam Profil aufrufst und dort dann an einer beliebigen Stelle Rechtsklick drückst. Dort kann dann die Steam URL des Profils kopieren.
 
@@ -59,11 +59,11 @@ Dadurch erhältst du dort die sowohl die allgemeinen Accountinformationen als au
 
 
 
-Nun bist du zwar schon Admin, allerdings wurden deinem Account noch keine spezifischen Rechte hinzugefügt. Diese kannst du hinzufügen, indem du die Permissions und Commands hinzufügst, die genutzt werden dürfen. Das kann dann zum Beispiel so aussehen:
+Nun bist du zwar schon Admin, allerdings wurden deinem Account noch keine spezifischen Rechte hinzugefügt. Diese kannst du hinzufügen, indem du die Permissions und Befehls hinzufügst, die genutzt werden dürfen. Das kann dann zum Beispiel so aussehen:
 
 ```xml
 ...
-    permissions="<permission(s)>"> ---> permissions="ServerLog, ConsoleCommands">
+    permissions="<permission(s)>"> ---> permissions="ServerLog, ConsoleBefehls">
 ...
 ```
 
@@ -73,7 +73,7 @@ Nun bist du zwar schon Admin, allerdings wurden deinem Account noch keine spezif
 <Client
     name="Name"
     steamid="123456789"
-    permissions="ServerLog, ConsoleCommands">
+    permissions="ServerLog, ConsoleBefehls">
     <command
       name="heal" />
     <command
@@ -99,7 +99,7 @@ In dem Beispiel wurde dem Admin Zugriff auf die Server-Logs, Konsole, Heilen und
 | SelectSub         | Kann das U-Boot wählen                                       |
 | SelectMode        | Kann den Spielmodus wählen                                   |
 | ManageCampaign    | Kann den Bestimmungsort, die Mission und den Einkauf von Hilfsgütern aus dem Lager der Kampagne auswählen |
-| ConsoleCommands   | Kann Konsolenbefehle verwenden - bitte beachte dabei, dass du auch Berechtigungen für einzelne Konsolenbefehle erteilen musst |
+| ConsoleBefehls   | Kann Konsolenbefehle verwenden - bitte beachte dabei, dass du auch Berechtigungen für einzelne Konsolenbefehle erteilen musst |
 | ServerLog         | Kann Server-Logs lesen                                       |
 | ManageSettings    | Kann die Servereinstellungen ändern                          |
 | ManagePermissions | Kann die Berechtigungen anderer Clients ändern.              |
