@@ -5,6 +5,8 @@ description: Information on how to install databases on your VPS from ZAP-Hostin
 sidebar_label: Install Databases
 ---
 
+## Introduction
+
 This guide provides steps for the installation of various types of databases. For this example, Ubuntu 20.04 is used as the operating system, however, equivalent commands for other Linux distros that we provide on our website are also specified. These commands must be executed via SSH, if you don't know how to connect to your server via SSH, please have a look here: [Initial access (SSH)](https://zap-hosting.com/guides/docs/en/vserver_linux_ssh/).
 
 ## Preparation
@@ -77,9 +79,7 @@ Once the installation is complete, type in the following command to start the co
 mysql_secure_installation
 ```
 
-Now you can configure your MariaDB (MySQL) server by following the prompts and setting a password for your server.
-
-On the following prompt, you can skip the input for now by pressing **Enter**.
+Now you can configure your MariaDB (MySQL) server by following the prompts and setting a password for your server. On the following prompt, you can skip the input for now by pressing **Enter**.
 
 ![](https://user-images.githubusercontent.com/61839701/165694493-b113409b-3f2a-41ba-8113-59f86ded31b8.png)
 
@@ -87,9 +87,7 @@ On the following prompt, you can skip the input for now by pressing **Enter**.
 The user root is the main user of your MariaDB (MySQL) server!
 :::
 
-Next, you will be asked if you want to set a password for the root user, confirm this with **y** for yes.
-
-Afterwards, you have to type in the new password for the user root.
+Next, you will be asked if you want to set a password for the root user, confirm this with **y** for yes. Afterwards, you have to type in the new password for the user root.
 
 :::note
 While typing in the password, you won't be able to see it. However, this behavior is normal and your password will still be stored. Make sure you use a secure password for your root user and keep it in a safe place. 
