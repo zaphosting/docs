@@ -29,13 +29,13 @@ ZAP-Hosting reserves the right to revoke, modify or change any granted permissio
 
 **I'm a ZAP partner, can I use the logo?**
 
-*If you are a ZAP Hosting Partner and have a question regarding the use of ZAP Hosting Brand Assets under your agreement, please contact your ZAP Hosting Partner Manager. You can find the contact details in your partner menu.*
+*If you are a ZAP-Hosting Partner and have a question regarding the use of ZAP-Hosting Brand Assets under your agreement, please contact your ZAP-Hosting Partner Manager. You can find the contact details in your partner menu.*
 
 <br/>
 
 **I have found something that I believe is an unauthorized use of the logo or name. What should I do?**
 
-*If you have found a website, account or graphic that uses a ZAP hosting brand logo inappropriately, we would like to hear about it. In such cases please contact abuse@zap-hosting.com* immediately.*
+*If you have found a website, account or graphic that uses a ZAP-Hosting brand logo inappropriately, we would like to hear about it. In such cases please contact abuse@zap-hosting.com* immediately.*
 
 <br/>
 
@@ -84,7 +84,7 @@ ZAP-Hosting's rights to ZAP-Hosting's trademarked graphics and logos may not be 
 
 ## Logos
 
-In general, we do not allow the use of the ZAP hosting logos in marketing materials of third parties. This includes online and offline advertising material such as
+In general, we do not allow the use of the ZAP-Hosting logos in marketing materials of third parties. This includes online and offline advertising material such as
 - customer and recommendation lists
 - Sales Presentations
 - Print, broadcast, outdoor or online advertisements

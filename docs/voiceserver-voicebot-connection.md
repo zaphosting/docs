@@ -61,6 +61,6 @@ To invite the bot, you have to insert the previously noted client ID in the foll
 
 ### Step 4: Configure the Bot's Panel
 
-Now, you add the previously noted token and the client ID into the fields provided in the ZAP Hosting control panel and press **Save** at the bottom.
+Now, you add the previously noted token and the client ID into the fields provided in the ZAP-Hosting control panel and press **Save** at the bottom.
 
 Then, you can start the bot. It should then connect to your Discord server within about 10 seconds. If you need help, please contact our support and we would be happy to help you!

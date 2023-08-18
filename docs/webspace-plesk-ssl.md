@@ -28,7 +28,7 @@ Step 1️⃣: With a double click on "SSL/TLS Certificate" the following menu op
 
 ![image](https://user-images.githubusercontent.com/13604413/159176748-32786fa1-7e69-441d-a3e3-1c8da3fbdb4a.png)
 
-A Lets Encrypt Certificate can be requested free of charge.
+A Let's Encrypt Certificate can be requested free of charge.
 
 Step 2️⃣: Enter/fill in the required information. In order for the certificate to be requested, details must be provided.
 
@@ -66,7 +66,7 @@ Step 1️⃣: The SSL/TLS certificate menu is opened again.
 ![image](https://user-images.githubusercontent.com/13604413/159176787-2ffd121c-0ad0-44ca-bea1-185e13ac81ad.png)
 
 Then click on "Renew Certificate" in the top left. 
-Now the Lets Encrypt request window opens:
+Now the Let's Encrypt request window opens:
 
 ![image](https://user-images.githubusercontent.com/13604413/159176792-4d648b72-9903-4526-9a6e-984b3cb6a35a.png)
 
@@ -81,7 +81,7 @@ Step 2️⃣: A blue box now appears with important information:
 
 ![image](https://user-images.githubusercontent.com/13604413/159176800-483c32c6-bb31-47bf-91bb-38aab2b47288.png)
 
-A domain name and a value are given there. This must be permanently available as a TXT in the DNS of the domain, this is the only way Lets Encrypt can ensure that the domain is genuine and can be verified.
+A domain name and a value are given there. This must be permanently available as a TXT in the DNS of the domain, this is the only way Let's Encrypt can ensure that the domain is genuine and can be verified.
 
 An entry in the DNS should look like this:
 

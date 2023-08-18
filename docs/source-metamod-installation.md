@@ -21,7 +21,7 @@ First of all, the actual extensions are needed. It is important to always use th
 ![image](https://user-images.githubusercontent.com/13604413/159178791-f9949d57-45ec-42af-9e5f-5eb9190ae602.png)
 
 :::info
-Source engine game servers in ZAP hosting usually run under a Linux operating system. Accordingly, the Linux version of the extensions is required.
+Source engine game servers in ZAP-Hosting usually run under a Linux operating system. Accordingly, the Linux version of the extensions is required.
 :::
 
 ### Unzip the files

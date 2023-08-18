@@ -7,7 +7,7 @@ sidebar_label: Community ads
 
 ## ## Introduction
 
-Community advertising is a way to earn money by advertising ZAP hosting. By using this feature it's also possible to get "**free**" servers. Good advertising which is submitted and also accepted would be compensated with "**0.24€**" for each link.
+Community advertising is a way to earn money by advertising ZAP-Hosting. By using this feature it's also possible to get "**free**" servers. Good advertising which is submitted and also accepted would be compensated with "**0.24€**" for each link.
 
 ## Important aspects when creating advertising
 
@@ -19,12 +19,12 @@ It's sufficient to use the same username as the one used at ZAP-Hosting when cre
 ### Comments are not considered as advertising
 
 If a person asks the question, "Which hosters can you recommend?"
-Then a comment would be something like, "ZAP is cool!" or "I would recommend ZAP hosting."But good advertising would be more extensive and informative. That might look like this: "I would recommend ZAP-Hosting, they have a ..., you can ..., they offer ..., 
+Then a comment would be something like, "ZAP is cool!" or "I would recommend ZAP-Hosting."But good advertising would be more extensive and informative. That might look like this: "I would recommend ZAP-Hosting, they have a ..., you can ..., they offer ..., 
 If you don't know them yet, you could also see all products and prices here: https://zap-hosting.com/en".
 
 ### Advertising must be customer-oriented
 
-An advertisement has to be placed in areas that could be interesting for ZAP hosting. The aim of the advertisement is to draw people's attention to ZAP-Hosting and to win them as new customers. This is therefore more likely to happen in a forum about servers and server providers than in a forum about agriculture.
+An advertisement has to be placed in areas that could be interesting for ZAP-Hosting. The aim of the advertisement is to draw people's attention to ZAP-Hosting and to win them as new customers. This is therefore more likely to happen in a forum about servers and server providers than in a forum about agriculture.
 
 ## Submit Link
 

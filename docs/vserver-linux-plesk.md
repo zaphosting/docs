@@ -163,7 +163,7 @@ To add the first domain click on the blue button "Add domain".
 
 [](https://user-images.githubusercontent.com/61839701/166189693-2a36e8af-2cd9-4c50-9788-cfc236433479.png)
 
-Now the own domain can be entered. Also an IP as well as a user name and password for the web space of the domain must be defined. If the subdoimain "www" is already entered in the DNS of the domain, an SSL certificate from Lets Encrypt can be created directly. This option can be selected, after entering a mail address, it is confirmed on the blue "OK" button.  
+Now the own domain can be entered. Also an IP as well as a user name and password for the web space of the domain must be defined. If the subdoimain "www" is already entered in the DNS of the domain, an SSL certificate from Let's Encrypt can be created directly. This option can be selected, after entering a mail address, it is confirmed on the blue "OK" button.  
 
 [](https://user-images.githubusercontent.com/61839701/166189713-a3a201c3-c4ad-4c57-a8d3-3dab31316a43.png)
 
@@ -177,7 +177,7 @@ It can take up to 24 hours until a new/changed DNS entry is forwarded to the cor
 
 ## SSL encryption
 
-During the domain registration/creation of the web space, an SSL certificate from Lets Encrypt was already generated, this can now be entered/selected under "Hosting settings" of the domain. Afterwards it must confirm with a click on "Apply".
+During the domain registration/creation of the web space, an SSL certificate from Let's Encrypt was already generated, this can now be entered/selected under "Hosting settings" of the domain. Afterwards it must confirm with a click on "Apply".
 
 :::info
 In order to be permanently redirected to HTTPS (SSL) when calling up the web page, the checkbox "Permanent, SEO-suitable 301 forwarding from HTTP to HTTPS" must be checked. 
