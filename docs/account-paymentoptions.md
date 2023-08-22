@@ -26,7 +26,7 @@ The payment process is simple: the server configuration is put together on the c
 ## ZAP Coins: Deposit
 ZAP Coins can be deposited via all other payment options offered by us and also contract servers can be paid via ZAP Coins. In the web interface you can deposit ZAP Coins under the point **Cash in** in your Cashbox.
 :::info
-A proportionate financing via ZAP Coins is not possible. If you already have ZAP Coins, for example because you have a ZAP Coins code, you can add credit as you like. Tip: If you pay with ZAP Coins, pay attention to our Cash In Deals: If the Cash In Deal is activated, you will receive additional credit if you increase your deposit.
+Partial payment using ZAP Coins is not allowed. If you already have ZAP Coins, for example because you have a ZAP Coins code, you can add credit as you like. Tip: If you pay with ZAP Coins, pay attention to our Cash In Deals: If the Cash In Deal is activated, you will receive additional credit if you increase your deposit.
 
 Transfers can be used to deposit ZAP Coins. As soon as we have received the transfer, the credit will be activated and can be used.
 :::

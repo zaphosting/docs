@@ -29,7 +29,7 @@ Please ensure that you fill in your ZAP ID correctly to ensure you receive your 
 Once we approve your suggestion, your change will qualify for the contribution program and we will send you a contract to sign which will let us publish your work! Otherwise if there is an issue, we will follow up with you and let you know any proposed changes that we would like in order to accept your suggestion.
 
 ## Producing content
-When performing any contribution to our documentation, please keep in mind to follow our contribution guidelines thoroughly to ensure consistency and a high-quality end product. In this sub-section we will dive deep into best practises and the optimal workflow for creating new content, but also for modifying existing content. If you are new to using GitHub, please use these brief tutorials below to understand the easiest way to edit or create new content for our documentation site.
+When performing any contribution to our documentation, please keep in mind to follow our contribution guidelines thoroughly to ensure consistency and a high-quality end product. In this sub-section we will dive deep into best practices and the optimal workflow for creating new content, but also for modifying existing content. If you are new to using GitHub, please use these brief tutorials below to understand the easiest way to edit or create new content for our documentation site.
 
 :::note
 Ensure that you have suggested your content and that it has been approved before attempting to produce changes, otherwise we cannot guarantee a reward because the idea has not been approved.
@@ -38,7 +38,7 @@ Ensure that you have suggested your content and that it has been approved before
 **Prerequisites:**
 - [GitHub Account](https://github.com/)
 
-The first step is to create your own fork of the ZAP-Hosting documentaiton repository from GitHub. You can do this by heading over to the [ZAP Docs GitHub repository](https://github.com/zaphosting/docs) and pressing the **Fork** button at the top of the page. 
+The first step is to create your own fork of the ZAP-Hosting documentation repository from GitHub. You can do this by heading over to the [ZAP Docs GitHub repository](https://github.com/zaphosting/docs) and pressing the **Fork** button at the top of the page. 
 
 ![image](https://github.com/zaphosting/docs/assets/42719082/9bc28311-0a4c-4c25-9736-9d0eab932689)
 
@@ -59,7 +59,7 @@ The first part of the process is to clone your fork repository. The simpler and 
 
 Next, open up the repository folder within Visual Studio Code. On the **Explorer** left tab you should see all of the folders within the repository. We will focus on creating a new page.
 
-The first step is determining the correct name for your new guide file. The documentation files are named in a simple convention, where the first word refers to the type of guide, typically a game, product or section and any following words refering to the specific section. We recommend looking at the current website to find the correct place which your suggested guide will fit into.
+The first step is determining the correct name for your new guide file. The documentation files are named in a simple convention, where the first word refers to the type of guide, typically a game, product or section and any following words referring to the specific section. We recommend looking at the current website to find the correct place which your suggested guide will fit into.
 
 In this case, we suggested in our issue that we want to create a new guide about the game Rust containing a range of useful commands. From the website, we can see that there is already an existing **Rust** section under gameservers, so we can check within the **docs** folder in our IDE to find the correct naming convention. This means that the file name of the guide will be `rust-commands.md`. Create this file within the **docs** folder.
 
@@ -91,7 +91,7 @@ Now head back to your new guide file. You can use `CTRL+SHIFT+V` or press the pr
 We highly suggest that you also read the **Testing build locally** section, as you can pair this section with testing locally to create an optimal workflow where changes are updated on your local build on-the-go which is proven to be very useful.
 :::
 
-Once you are finished with the changes to your new guide, the last step of the entire process is to push a commit to your fork repository and submit a Pull Request. You can create a commit through the GitHub Desktop by adding an appropriate title and descrption and pushing via the top button. Likewise, you can do this directly through Visual Studio Code if you prefer. You may now head over to the **Submit Content** section to create a Pull Request to submit the content to the main documentation repository.
+Once you are finished with the changes to your new guide, the last step of the entire process is to push a commit to your fork repository and submit a Pull Request. You can create a commit through the GitHub Desktop by adding an appropriate title and description and pushing via the top button. Likewise, you can do this directly through Visual Studio Code if you prefer. You may now head over to the **Submit Content** section to create a Pull Request to submit the content to the main documentation repository.
 
 ### Editing via GitHub website
 The easiest and recommended way to **edit existing content** is doing so through the GitHub website. In this section, we will show you how to edit existing guides through the GitHub website.
@@ -100,7 +100,7 @@ To begin, head over to the Fork that you have created in the previous step. Once
 
 ![image](https://github.com/zaphosting/docs/assets/42719082/6a91889f-891d-440d-a5d3-720afc5d8abc)
 
-The documentation files are named in a simple convention, where the first word refers to the type of guide, typically a game, product or section and any following words refering to the specific section. For example `dedicated-windows.md` refers to the Dedicated Server section, and specifically for the Windows OS.
+The documentation files are named in a simple convention, where the first word refers to the type of guide, typically a game, product or section and any following words referring to the specific section. For example `dedicated-windows.md` refers to the Dedicated Server section, and specifically for the Windows OS.
 
 In this case, open up the target file that you wish to edit, in this example we will use `dedicated-windows.md`. Now that you have opened the file, you will see a rough preview of how it looks based on Markdown (layout may be slightly different due to beta).
 
@@ -125,7 +125,7 @@ Once you have performed your changes, use the **Commit changes...** button which
 Enter a useful commit message which explains what you have done and an extended description where appropriate. Finally, commit the changes. This will commit it to your fork of the docs. You may now head over to the **Submit Content** section to create a Pull Request to submit the content to the main documentation repository.
 
 ### Testing build locally
-Before creating the final Pull Request, it is a best practise to locally build and test out the documentatiton to ensure everything is working correctly with the changes that you have made. We highly recommend that you test your changes locally to ensure that your Pull Request is processes swiftly.
+Before creating the final Pull Request, it is a best practice to locally build and test out the documentation to ensure everything is working correctly with the changes that you have made. We highly recommend that you test your changes locally to ensure that your Pull Request is processed swiftly.
 
 :::note
 If you followed the tutorial to create changes locally, you can skip the first step involving cloning your repository as you should already have it.

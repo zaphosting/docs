@@ -5,10 +5,10 @@ description: Information on how to submit suggestions for new game servers and f
 sidebar_label: Submit Suggestions
 ---
 ## Introduction
-The **Submit Suggestions** option provide our customers with the ability to submit desired features or changes. These can then be favoured by the ZAP community. In most cases, the more interest there is in a suggestion, the higher is the priority. 
+The **Submit Suggestions** option provides our customers with the ability to submit desired features or changes. These can then be favoured by the ZAP community. In most cases, the more interest there is in a suggestion, the higher is the priority. 
 
 ## Can suggestions be submitted?
-Suggestions can be submitted on our suggestion page. We regularly review and evaluate all suggestions. The suggested page can be found under the following link:
+Suggestions can be submitted on our suggestion page. We regularly review and evaluate all suggestions. The suggestions page can be found under the following link:
  https://zap-hosting.com/en/suggestion/
 
 ## What suggestions can be submitted?

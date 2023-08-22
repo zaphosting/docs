@@ -25,7 +25,7 @@ There you have to click on the **Two-Factor Authentication**. The following wind
 
 If you now go to activate your code will be generated. You have to scan it with the **Google Authenticator** app: 
 
-![2022-04-08_03-57](https://user-images.githubusercontent.com/61953937/162349843-2b879d9e-adce-4924-b13f-71cba3ef45f4.png)
+![2022-04-08_03-57](https://i.imgur.com/0b2m4Wy.png)
 
 Here you can download the Authenticator App with your mobile phone: https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=de
 
@@ -41,6 +41,10 @@ Afterwards you have to enter a code when logging in which will be displayed in t
 
 To **deactivate Two-Factor Authentication** you can go back to the Security tab and select Deactivate: 
 
-![2022-04-08_04-06](https://user-images.githubusercontent.com/61953937/162349870-3f99c8e7-296a-4703-b8e4-e22498d9dd4c.png)
+![2022-04-08_04-06](https://i.imgur.com/R2bwoOK.png)
 
-If you no longer have the app or your mobile phone the second option would be to send an email to **support@zap-hosting.com**. **This email must come from the account email**. Afterwards the support will deactivate it for you.
+If you no longer have the app or your mobile phone the second option would be to send an email to **support@zap-hosting.com**. Afterwards the support will deactivate it for you.
+
+:::caution
+This email must come from the account holder email.
+:::
