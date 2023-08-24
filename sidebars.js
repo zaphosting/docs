@@ -173,8 +173,7 @@ const sidebars = {
           label: "Configuration & Administration",
           items: [
             "fivem-change-servericon",
-            "fivem-servername-emojis",
-            "fivem-servername-color",
+            "fivem-server-customisation",
             "fivem-rcon",
             "fivem-licensekey",
             "fivem-deletecache",
