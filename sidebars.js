@@ -259,6 +259,7 @@ const sidebars = {
             "redm-change-servericon",
             "redm-server-customisation",
             "redm-licensekey",
+            "redm-deletecache",
             "redm-gamebuild",
             "redm-steam-web-api-key",
             "redm-locale"

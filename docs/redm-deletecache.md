@@ -1,13 +1,13 @@
 ---
-id: fivem-deletecache
+id: redm-deletecache
 title: Empty Cache
-description: Information on how to clear the cache of your FiveM Server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: Information on how to clear the cache of your RedM Server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Delete Cache
 ---
 
 ## Simple Method
 
-Deleting cache on your FiveM gameserver is really simple.
+Deleting cache on your RedM gameserver is really simple.
 
 Firstly, head over to your gameserver's webinterface. Locate and open the **Settings** section on your gameserver's webinterface.
 
@@ -21,7 +21,7 @@ Next, scroll to the bottom of the page to find multiple buttons under the **Acti
 This will immediately restart your server in order to clear the cache files, so make sure you are prepared to do this.
 :::
 
-Your server will now restart and clear its cache. When the server is restarted, the server will rewrite the cache. You have successfully cleared the cache for your FiveM gameserver!
+Your server will now restart and clear its cache. When the server is restarted, the server will rewrite the cache. You have successfully cleared the cache for your RedM gameserver!
 
 ## Alternative Method
 
@@ -35,7 +35,7 @@ Fistly, you need to connect to your server using FTP. If you are not familiar wi
 
 In the next step, you have to find the cache folder and delete it.
 
-You should follow this path: `/gXXXXXX/gta5-fivem/server-data/cache` in order to directly access the cache folder.
+You should follow this path: `/gXXXXXX/redm/server-data/cache` in order to directly access the cache folder.
 
 ![image](https://user-images.githubusercontent.com/13604413/159137776-328b84d3-992b-47ef-b8d8-c1abb0beae45.png)
 
@@ -47,4 +47,4 @@ Now you should mark all of the folders that are present in the **Cache** folder 
 
 ![image](https://user-images.githubusercontent.com/13604413/159137786-b7a63449-4d89-4f77-a06c-9edd87bdd85e.png)
 
-Now proceed to restart your FiveM server for this to take effect. When the server is restarted, the server will rewrite the cache. You have successfully cleared the cache for your FiveM gameserver!
+Now proceed to restart your RedM server for this to take effect. When the server is restarted, the server will rewrite the cache. You have successfully cleared the cache for your RedM gameserver!
