@@ -265,7 +265,8 @@ const sidebars = {
           type: "category",
           label: "Resources & Mods",
           items: [
-            "redm-installresources"
+            "redm-installresources",
+            "redm-sql-file-import"
           ]
         }
       ],
