@@ -1,7 +1,7 @@
 ---
-id: fivem-licensekey
+id: redm-licensekey
 title: Add your own license key (Patreon) to the server
-description: Information on how to create your own custom license key (from Patreon) and add it to your FiveM server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: Information on how to create your own custom license key (from Patreon) and add it to your RedM server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Own License Key
 ---
 
@@ -46,13 +46,13 @@ Return back to the home page, and you will be able to see your newly registered 
 
 Finally, you must head over to the **Settings** section on your gameserver's webinterface, and head over to the **Custom license key** field. In this field, paste the code that was generated.
 
-![image](https://github.com/zaphosting/docs/assets/42719082/c0475d70-bed9-4eaa-8d4c-c7cf121703d5)
+![image](https://github.com/zaphosting/docs/assets/42719082/5e2f3fce-0f34-4401-8003-ecdcd1e175ce)
 
 :::info
 **For txAdmin:**
 If you are using txAdmin version of the gameserver, you must instead define the key under the `sv_licensekey` parameter. You can access your `server.cfg` file either via your txAdmin interface panel, the **Configs** section on your gameserver's webinterface or directly through FTP access.
 :::
 
-After you have set your custom license key, proceed to restart your FiveM server.
+After you have set your custom license key, proceed to restart your RedM server.
 
-You have successfully set a custom license key for your FiveM gameserver!
+You have successfully set a custom license key for your RedM gameserver!
