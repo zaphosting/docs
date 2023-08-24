@@ -258,6 +258,7 @@ const sidebars = {
           items: [
             "redm-change-servericon",
             "redm-server-customisation",
+            "redm-gamebuild",
             "redm-steam-web-api-key",
             "redm-locale"
           ]

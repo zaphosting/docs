@@ -1,38 +1,36 @@
 ---
 id: fivem-gamebuild
 title: Enable DLC Content
-description: Use a DLC Content on your FiveM Server
+description: Information on how to enable a DLC gamebuild for FiveM servers - ZAP-Hosting.com
 sidebar_label: Enable DLC Gamebuild
-
 ---
 
-## FiveM Mod Linux/Windows
-To use additional contents as Cayo Perico, the Tuner DLC or Los Santos Summer Special, its required to set them in the settings of your server.
-You can find the settings tab in your menu.
+Enforcing game build allows you to force a specific DLC version to your server, allowing you to play with the latest maps, clothing, vehicles and more! You can do this very simply, use the sections below based on your gameserver type to active it.
 
-![image](https://user-images.githubusercontent.com/13604413/159138053-e9b031f6-0316-4330-9ffa-be661259b6ce.png)
+## FiveM Linux/Windows Gameservers
+In order use additional DLC content such as Cayo Perico, the Tuner DLC or Los Santos Summer Special, you must set them in the settings of your server.
 
-Scoll down to almost the end of the settings, there you'll find this option.
+You can do this either directly by editing the `server.cfg` file, or the simpler way which is to change it through the **Settings** section of your gameserver's webinterface.
 
-![image](https://user-images.githubusercontent.com/13604413/159138054-48f0b832-e2ae-45ea-9f3b-67ee9c55cc6e.png)
+![image](https://github.com/zaphosting/docs/assets/42719082/1f138326-75f0-4681-8290-ec83312179c3)
 
-Here you can pick between the specific builds, after you choose the one of your like, save the changes and reboot the server.
-Your additional content is now available.
+You should now either search for `game build` or simply scroll down until you find the **Enforce Game Build** subsection. Here using the drop down menu, you can select which DLC build you wish to set your server to run on.
 
-## txAdmin
-To enable the content on a txadmin server, you need to open your txadmin-interface and there open the FXServer settings.
+One you have picked your choice, head over to the bottom of the page and press the **Save** button, next proceed to restart your FiveM server. Your server will now launch with the specified DLC build.
+
+You have successfully set a gamebuild for your FiveM gameserver!
+
+## FiveM txAdmin Gameserver
+To enable the content on a txadmin server, you need to open your txadmin-interface and head over to the FXServer settings.
 
 ![image](https://user-images.githubusercontent.com/13604413/159138094-9d72159c-36f7-4193-aea9-fb1c0260ad04.png)
 
-Just add the desired gamebuild in the Additional Arguments
-
+Now simply add your desired gamebuild in the **Additional Arguments** section through the set command, replacing `BUILD_ID_CHOICE` with one from the table:
 ```
-+set sv_enforceGameBuild ID
++set sv_enforceGameBuild BUILD_ID_CHOICE
 ```
 
-After adding the command, be sure the changes and to save and reboot the server.
-
-Current Builds:
+### Current Gamebuilds:
 
 | Build ID | Build Name                |
 | :------: | :-----------------------: |
@@ -42,3 +40,8 @@ Current Builds:
 | 2545     | The Contract              |
 | 2699     | The Criminal Enterprises  |
 | 2802     | Los Santos Drug Wars      |
+| 2944     | San Andreas Mercenaries   |
+
+Once you have picked your choice, proceed to restart your FiveM server. Your server will now launch with the specified DLC build.
+
+You have successfully set a gamebuild for your FiveM gameserver!
