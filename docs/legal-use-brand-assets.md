@@ -10,7 +10,7 @@ sidebar_label: Use of logo and name
 In general, we support ideas and creative concepts based on ZAP-Hosting's brand assets (i.e. ZAP-Hosting's trademarks, logos, trade dress, websites, copyrighted designs, original content or other brand assets). However, we are obliged to protect our reputation and brand identity.
 
 :::info
-You can find our permitted logos [here in white](https://zap-hosting.com/interface/_images/logo/zap-logo-1920x1080-hd-trans-white.png) and [here in black](https://zap-hosting.com/interface/_images/logo/zap-logo-1920x1080-hd-trans-black.png)
+You can find our permitted logos [here](https://zap-hosting.com/branding)
 :::
 
 By using brand assets from ZAP-Hosting, you agree to respect and follow these guidelines, the ZAP-Hosting Terms of Use and all other rules and policies of ZAP-Hosting (including individually discussed special terms and exceptions). 
@@ -35,7 +35,7 @@ ZAP-Hosting reserves the right to revoke, modify or change any granted permissio
 
 **I have found something that I believe is an unauthorized use of the logo or name. What should I do?**
 
-*If you have found a website, account or graphic that uses a ZAP hosting brand logo inappropriately, we would like to hear about it. In such cases please contact abuse@zap-hosting.com* immediately.*
+*If you have found a website, account or graphic that uses a ZAP-Hosting brand logo inappropriately, we would like to hear about it. In such cases please contact abuse@zap-hosting.com* immediately.*
 
 <br/>
 
@@ -49,7 +49,7 @@ ZAP-Hosting reserves the right to revoke, modify or change any granted permissio
 
 *No. All content shown, published or shared on our website and social media may not be distributed without express written permission. This includes, but is not limited to, screenshots of our website, web interface, chat histories, data and information from our employees, and parts or extracts thereof.*
 
-If you have any questions about this policy, please contact raz@zap-hosting.com.
+If you have any questions about this policy, please contact marketing@zap-hosting.com.
 
 
 <br/>
@@ -84,7 +84,7 @@ ZAP-Hosting's rights to ZAP-Hosting's trademarked graphics and logos may not be 
 
 ## Logos
 
-In general, we do not allow the use of the ZAP hosting logos in marketing materials of third parties. This includes online and offline advertising material such as
+In general, we do not allow the use of the ZAP-Hosting logos in marketing materials of third parties. This includes online and offline advertising material such as
 - customer and recommendation lists
 - Sales Presentations
 - Print, broadcast, outdoor or online advertisements
@@ -112,5 +112,5 @@ In the case of unapproved published content of this kind, we reserve the right o
 
 ZAP-Hosting reserves the right to change the appearance of the ZAP-Hosting brand assets at any time and without prior notice. Any use of the ZAP-Hosting brand assets must be for the benefit of ZAP-Hosting. By using the Brand Assets as authorized by ZAP-Hosting, you acknowledge ZAP-Hosting's ownership of all Brand Assets and warrant that you will not take any action inconsistent with ZAP-Hosting's ownership. Strict adherence to these guidelines is required at all times, and any use of ZAP-Hosting's proprietary graphics and logos in violation of these guidelines automatically terminates any license and permission relating to your use of ZAP-Hosting's Brand Assets.
 
-"ZAP-Hosting", ZAP-Hosting.com and the ZAP-Hosting logo are trademarks of ZAP-Hosting GmbH & Co.KG
-Legal basis according to [Impressum](https://zap-hosting.com/de/impressum/)
+"ZAP-Hosting", ZAP-Hosting.com and the ZAP-Hosting logo are trademarks of ZAP-Hosting GmbH & Co. KG
+Legal basis according to [Impressum](https://zap-hosting.com/en/impressum/)
