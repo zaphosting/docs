@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'ZAP-Hosting Docs',
-  tagline: 'If you want more Power!',
+  title: 'ZAP-Hosting Guides',
+  tagline: 'If you want more POWER!',
   favicon: '/img/favicon-32x32.webp',
   
   // Set the production url of your site here
@@ -60,7 +60,7 @@ const config = {
     //image: 'img/docusaurus-social-card.jpg',
     image: undefined,
     navbar: {
-      title: 'ZAP-Hosting Docs',
+      title: 'ZAP-Hosting Guides',
       logo: {
         href: "/docs/firststeps-register",
         alt: 'ZAP-Hosting',
@@ -121,15 +121,15 @@ const config = {
               href: 'https://zap-hosting.com/en/rent-a-virtual-server/',
             },
             {
-              label: 'Rent a rootserver',
+              label: 'Rent a RootServer',
               href: 'https://zap-hosting.com/en/rent-a-root-server/',
             },
             {
-              label: 'Rent a gameserver',
+              label: 'Rent a Gameserver',
               href: 'https://zap-hosting.com/en/rent-a-gameserver/',
             },
             {
-              label: 'Rent a TS3 server',
+              label: 'Rent a TeamSpeak server',
               href: 'https://zap-hosting.com/en/rent-a-teamspeak-3-server/',
             },
             {
@@ -137,11 +137,11 @@ const config = {
               href: 'https://zap-hosting.com/en/rent-a-discord-musicbot/',
             },
             {
-              label: 'Rent a domain',
+              label: 'Rent a Domain',
               href: 'https://zap-hosting.com/en/domain-check/',
             },
             {
-              label: 'Rent a webspace',
+              label: 'Rent a Webspace',
               href: 'https://zap-hosting.com/en/webhosting-rent-a-webspace/',
             },
           ],
@@ -150,8 +150,8 @@ const config = {
           title: 'Social',
           items: [
             {
-              label: 'Twitter',
-              href: 'https://twitter.com/zaphosting',
+              label: 'X',
+              href: 'https://x.com/zaphosting',
             },
             {
               label: 'Instagram',
@@ -163,11 +163,15 @@ const config = {
             },
             {
               label: 'Discord',
-              href: 'https://discord.gg/mTstGt2',
+              href: 'https://discord.gg/zaphosting',
             },
             {
-              label: 'Twitch',
-              href: 'https://twitch.tv/zaphosting',
+              label: 'TikTok',
+              href: 'https://tiktok.com/@zaphosting',
+            },
+            {
+              label: 'YouTube',
+              href: 'https://youtube.com/@zaphosting',
             },
           ],
         },
