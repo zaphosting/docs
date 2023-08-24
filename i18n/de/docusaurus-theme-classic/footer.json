@@ -57,7 +57,7 @@
   },
   "link.item.label.Discord": {
     "message": "Discord",
-    "description": "The label of footer link with label=Discord linking to https://discord.gg/mTstGt2"
+    "description": "The label of footer link with label=Discord linking to https://discord.gg/zaphosting"
   },
   "link.item.label.Twitch": {
     "message": "Twitch",
@@ -98,5 +98,37 @@
   "copyright": {
     "message": "Copyright © 2023 ZAP-Hosting GmbH & Co. KG",
     "description": "The footer copyright"
+  },
+  "link.item.label.Rent a RootServer": {
+    "message": "Rent a RootServer",
+    "description": "The label of footer link with label=Rent a RootServer linking to https://zap-hosting.com/en/rent-a-root-server/"
+  },
+  "link.item.label.Rent a Gameserver": {
+    "message": "Rent a Gameserver",
+    "description": "The label of footer link with label=Rent a Gameserver linking to https://zap-hosting.com/en/rent-a-gameserver/"
+  },
+  "link.item.label.Rent a TeamSpeak server": {
+    "message": "Rent a TeamSpeak server",
+    "description": "The label of footer link with label=Rent a TeamSpeak server linking to https://zap-hosting.com/en/rent-a-teamspeak-3-server/"
+  },
+  "link.item.label.Rent a Domain": {
+    "message": "Rent a Domain",
+    "description": "The label of footer link with label=Rent a Domain linking to https://zap-hosting.com/en/domain-check/"
+  },
+  "link.item.label.Rent a Webspace": {
+    "message": "Rent a Webspace",
+    "description": "The label of footer link with label=Rent a Webspace linking to https://zap-hosting.com/en/webhosting-rent-a-webspace/"
+  },
+  "link.item.label.X": {
+    "message": "X",
+    "description": "The label of footer link with label=X linking to https://x.com/zaphosting"
+  },
+  "link.item.label.TikTok": {
+    "message": "TikTok",
+    "description": "The label of footer link with label=TikTok linking to https://tiktok.com/@zaphosting"
+  },
+  "link.item.label.YouTube": {
+    "message": "YouTube",
+    "description": "The label of footer link with label=YouTube linking to https://youtube.com/@zaphosting"
   }
 }
