@@ -257,6 +257,7 @@ const sidebars = {
           label: "Configuration & Administration",
           items: [
             "redm-change-servericon",
+            "redm-server-customisation",
             "redm-locale"
           ]
         },

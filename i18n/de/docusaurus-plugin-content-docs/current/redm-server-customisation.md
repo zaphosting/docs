@@ -1,19 +1,15 @@
 ---
-id: fivem-server-customisation
+id: redm-server-customisation
 title: Customise server details
-description: Information on how to customise server details displayed in the server list for FiveM servers - ZAP-Hosting.com 
+description: Information on how to customise server details displayed in the server list for RedM servers - ZAP-Hosting.com 
 sidebar_label: Customise Server Details
 ---
-
-**📺Video:** Do you prefer instructions in the form of a video or as an additional visual supplement? No problem! We also provide a video for a part of this topic:
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/zuWgjwb2-Xs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Are you looking to customise your server to display custom information in the server list? This can be done easily! In this guide you will learn how to set a range of different customisations that are available to make your server stand out in the server list!
 
 ## Accessing your server's configuration
 
-There are multiple ways available to access your `server.cfg` configuration file for your FiveM gameserver. Editing this file is needed in order to allow you to set customisations.
+There are multiple ways available to access your `server.cfg` configuration file for your RedM gameserver. Editing this file is needed in order to allow you to set customisations.
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
@@ -45,7 +41,7 @@ The final method of accessing the raw file, is through FTP. If you are not famil
 There are a range of colors that you can add to your server name. These can be specified through the use of a prefix when wanting to change color. The list of colours that are available can be viewed in the table below.
 
 :::info
-In order to use colours in your server name, you must have a valid [FiveM Patreon tier](https://www.patreon.com/fivem/posts) which has the benefit. If you do but it still doesn't work, ensure that you have set a [custom license key, more info can be found on our guide](https://zap-hosting.com/guides/docs/fivem-licensekey/).
+In order to use colours in your server name, you must have a valid [FiveM Patreon tier](https://www.patreon.com/FiveM/posts) which has the benefit. If you do but it still doesn't work, ensure that you have set a [custom license key, more info can be found on our guide](https://zap-hosting.com/guides/docs/FiveM-licensekey/).
 :::
 
 Now you can change your server's name, through one of the three methods described in the accessing configuration section. Here is an example of using colors and the outcome they produce:
@@ -72,9 +68,9 @@ sv_hostname "^2ZAP-Hosting ^0| ^4Official Community Server ^0- ^1Events coming ^
 
 ### Emojis
 
-FiveM also allows you to place emojis directly into your server name.
+RedM also allows you to place emojis directly into your server name.
 
-Simply place any emojis you wish into the `sv_hostname` parameter within your server configuration and it will work. You do not need a FiveM Patreon tier for this.
+Simply place any emojis you wish into the `sv_hostname` parameter within your server configuration and it will work. You do not need a RedM Patreon tier for this.
 
 Here is an example of adding emojis via your gameserver's webinterface:
 
@@ -86,7 +82,7 @@ Likewise, you can add this directly to your `server.cfg` file via FTP or the **C
 
 ### Server Description
 
-Setting a server description is useful for providing a short and to the point overview of your server.You can easily set a small project server description for your FiveM gameserver, which will display besides your server name on the server list.
+Setting a server description is useful for providing a short and to the point overview of your server.You can easily set a small project server description for your RedM gameserver, which will display besides your server name on the server list.
 
 Here is an example of setting a project name and the outcome it produces:
 ```
@@ -121,7 +117,7 @@ sets gametype "Freeroam"
 
 #### Language
 
-Finally, you can change the language of your server which is displayed on your server's server list page. We have a dedicated page for setting localisation which you can view here: [https://zap-hosting.com/guides/docs/fivem-locale].
+Finally, you can change the language of your server which is displayed on your server's server list page. We have a dedicated page for setting localisation which you can view here: [https://zap-hosting.com/guides/docs/redm-locale].
 
 This can be done through your gameserver's webinterface, or by setting a tag:
 ```
@@ -130,4 +126,4 @@ sets locale "en-GB"
 
 You can get a list of all locale tags by viewing [this resource](https://github.com/TiagoDanin/Locale-Codes#locale-list) or anything similar.
 
-You have successfully customised your FiveM gameserver!
+You have successfully customised your RedM gameserver!
