@@ -19,11 +19,11 @@ In many cases, one or more files with the file extension **.sql** will be enclos
 
 To begin, you must access the **Settings** section on your gameserver webinterface.
 
-![image](https://github.com/zaphosting/docs/assets/42719082/9947f778-770c-48ae-89c3-04f455862515)
+![image](https://github.com/zaphosting/docs/assets/42719082/a9d59d0b-3b6c-4e1b-be73-2e3609418169)
 
 You must active the **Configure database** section. By default, this should be enabled. However, check this by scrolling down, finding the correct subsection and setting this to `Yes, configure automatically!` if it's not set yet. Now scroll to the bottom of the page and ensure that you press the **Save** button.
 
-![image](https://github.com/zaphosting/docs/assets/42719082/8540c281-1ded-45c9-8a56-e0e429445b62)
+![image](https://github.com/zaphosting/docs/assets/42719082/4435a48e-6998-459f-8377-15ff8b97f055)
 
 :::important
 Ensure that you scroll to the bottom of the page and press the **Save** button, otherwise your changes might not be saved.
@@ -31,7 +31,7 @@ Ensure that you scroll to the bottom of the page and press the **Save** button, 
 
 Now, you must navigate to the **Resources** section on your gameserver webinterface. Here, you must install the `MySQL-Async` resource if it's not installed yet. This must be installed in order to allow the server to communicate with your database.
 
-![image](https://github.com/zaphosting/docs/assets/42719082/7fd2f70a-bd2e-4235-adcf-8801c6b1388b)
+![image](https://github.com/zaphosting/docs/assets/42719082/60dcb5f0-5bd9-4955-bc11-551082e1ab91)
 
 You have now configured your database to work with your gameserver and it is ready to be used.
 
@@ -55,7 +55,7 @@ This is because the first line declares that a new database should be created, b
 
 You should now access the **Database** section on your gameserver webinterface.
 
-![image](https://github.com/zaphosting/docs/assets/42719082/83ba522a-929e-4a90-8c9e-0badc2d779d4)
+![image](https://github.com/zaphosting/docs/assets/42719082/5f0f81ec-832b-4b9e-a39a-8ec78fd10890)
 
 On the database page, you will be provided with a range of different functions to manage your database including the options to backup, create, manage and more. We will focus on accessing your database, however take a look at our other database guides if you want more information: [Setting up external DB access](https://zap-hosting.com/guides/docs/gameserver-database-external-access/).
 
