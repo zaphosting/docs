@@ -1,5 +1,5 @@
 ---
-id: fivem-steam-web-api-key
+id: redm-steam-web-api-key
 title: Steam Web API Key setup
 description: Information on setting up a Steam Web API key from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Steam Web API Key
@@ -7,7 +7,7 @@ sidebar_label: Steam Web API Key
 
 ## Requirements
 
-A Steam Web API key has important uses for FiveM. This includes authentication by the API Key when Steam is used as identifier by different scripts and/or resources.
+A Steam Web API key has important uses for RedM. This includes authentication by the API Key when Steam is used as identifier by different scripts and/or resources.
 
 :::note
 A non-limited Steam account is required to request an API key. Restricted Steam accounts have limited access to Steam's features, so without full access it is not possible to request an API key. You have to spend at least **5.00 USD** in the Steam store to unlock your account and its features.
@@ -31,7 +31,7 @@ If everything is successful, you should be able to see your own Steam Web API Ke
 
 ## Activation
 
-Now that you have your Steam Web API Key, you must place it into your server configuration (`server.cfg`) file on your FiveM gameserver.
+Now that you have your Steam Web API Key, you must place it into your server configuration (`server.cfg`) file on your RedM gameserver.
 
 You can access your `server.cfg` file either through FTP (as seen above), or via the **Configs** section on your gameserver's webinterface.
 
@@ -44,4 +44,4 @@ set steam_webApiKey "YOUR_KEY_HERE"
 
 Finally, you can restart your server. Your Steam Web API key will be loaded the next time your server has fully started.
 
-You have successfully added a Steam Web API Key into your FiveM gameserver!
+You have successfully added a Steam Web API Key into your RedM gameserver!
