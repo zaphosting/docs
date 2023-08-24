@@ -13,7 +13,7 @@ RedM and its community offers a large variety of resources. An overview of the m
 
 ## Preperation
 
-The installation of resources is done via FTP. You will need an FTP client to upload files to your server. If you don't know what FTP is and how it works, it is best to take a look at the following guide: [FTP file access](https://zap-hosting.com/guides/docs/gameserver-ftpaccess/).
+The installation of resources is done via FTP. You will need an FTP client to upload files to your server. If you are not familiar with using FTP, we recommend you to have a look at the [FTP file access](https://zap-hosting.com/guides/docs/gameserver-ftpaccess/) guide.
 
 Downloaded resources are usually offered in a compressed format. This means that you have to uncompress the compress files with an unpacking program such as 7Zip, Winrar or WinZip. The uncompressed resource folder should contain at least the following files: `__resource.lua` or `fxmanifest.lua` as well as the associated script files.
 
