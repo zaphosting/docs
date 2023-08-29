@@ -1,7 +1,7 @@
 ---
 id: community-info
 title: Welcome to the ZAP-Hosting Community!
-description: Information about the ZAP-Hosting Community as well as different social media channels of ZAP-Hosting - ZAP-Hosting.com documentation
+description: Information about the ZAP-Hosting Community and social media channels of ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: ZAP-Hosting Community
 ---
 
@@ -39,7 +39,7 @@ Moreover, we frequently host awesome giveaways on our social platforms, includin
 
 Sounds awesome? Well there's more! 🎉
 
-We are also proud to be hosting daily... yes you heard me right... **daily** giveaways for **€10 ZAP Coins** on our [ZAP-Hosting Community Discord Server](https://discord.gg/invite/zaphosting) to give back to our most active members of the community. 🫢
+We are also proud to be hosting daily... yes you heard me right... **daily** giveaways for **€10 ZAP Coins** on our [ZAP-Hosting Community Discord Server](https://discord.gg/invite/zaphosting) to give back to our most active members of the community. Our Discord Nitro boosters also receive an extra weekly giveaway as a thank you! 🫢
 
 I know all of this sounds awesome and we hope to see you around at our giveaways! ✨
 
