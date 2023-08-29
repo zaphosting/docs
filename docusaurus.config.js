@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'ZAP-Hosting Guides',
+  title: 'ZAP-Hosting Docs',
   tagline: 'If you want more POWER!',
   favicon: '/img/favicon-32x32.webp',
   
@@ -60,7 +60,7 @@ const config = {
     //image: 'img/docusaurus-social-card.jpg',
     image: undefined,
     navbar: {
-      title: 'ZAP-Hosting Guides',
+      title: 'ZAP-Hosting Docs',
       logo: {
         href: "/docs/firststeps-register",
         alt: 'ZAP-Hosting',
