@@ -36,7 +36,7 @@ const sidebars = {
       type: 'category',
       label: 'Support',
       items: [
-        "firststeps-problem-melden",
+        "contactsupport",
         "create-screenshots"
       ]
     },
