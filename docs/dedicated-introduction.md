@@ -32,10 +32,8 @@ For our Dedicated Servers we offer numerous configuration variants, which means 
 | DISK                | From 500 GB up to 2x 2 TB SSD hard disk space                |
 
 ::: info
-
 At the moment we have 49 different dedicated server configurations for you to choose from!
-
- :::
+:::
 
 
 
