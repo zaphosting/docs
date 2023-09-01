@@ -1,56 +1,59 @@
 ---
 id: redm-installresources
-title: Installation von Resourcen
-description: Informationen, wie du Ressourcen, Mods und Scripts auf deinen RedM-Server von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentation
-sidebar_label: Resource installieren
+title: Installation of resources
+description: Information on how to install resources on your RedM server from ZAP-Hosting - ZAP-Hosting.com documentation
+sidebar_label: Install resources
 ---
 
+## Introduction
 
 ## Einführung
 
-Resourcen können verwendet werden, um deinen RedM Server um zusätzliche Funktionen zu erweitern. Dies ist gerade dann interessant, wenn du größere Projekte angehen möchtest, wie zum Beispiel einen Roleplay Server oder ähnlichen. Ohne solche zusätzlichen Resourcen lässt sich das so direkt nicht umsetzen. 
+Resourcen können verwendet werden, um deinen FiveM Server um zusätzliche Funktionen zu erweitern. Dies ist gerade dann interessant, wenn du größere Projekte angehen möchtest, wie zum Beispiel einen Roleplay Server oder ähnlichen. Ohne solche zusätzlichen Resourcen lässt sich das so direkt nicht umsetzen.
 
-RedM beziehungsweise dessen Community bietet hierbei eine große Auswahl an Resourcen an. Eine Übersicht mit den beliebtesten Resourcen findest du hier: https://forum.cfx.re/c/redm-development/redm-releases/60
-
-
-
+FiveM beziehungsweise dessen Community bietet hierbei eine große Auswahl an Resourcen an. Eine Übersicht mit den beliebtesten Resourcen findest du im Cfx.re Forum: https://forum.cfx.re/c/redm-development/54
 
 ## Vorbereitung
 
-Die Installation von Resourcen erfolgt per FTP. Um Dateien auf deinen Server hochladen zu können, benötigst du einen FTP-Client. Falls du noch nicht weißt, was FTP ist und wie es funktioniert, dann schaue dir am besten die folgende Anleitung an: [FTP Dateizugriff](https://zap-hosting.com/guides/docs/de/gameserver_ftpaccess/)
+Die Installation der Ressourcen erfolgt per FTP. Du benötigst einen FTP-Client, um Dateien auf deinen Server hochzuladen. Falls du nicht mit der Verwendung von FTP vertraut bist, empfehlen wir dir, einen Blick in die [FTP Dateizugriff](https://zap-hosting.com/guides/docs/gameserver-ftpaccess/) Anleitung zu werfen.
 
-
-Heruntergeladene Resourcen werden in der Regel in einem gepackten Format angeboten. Das bedeutet, dass du diese gepackte Datei erst noch mit einem Entpackungsprogramm, wie zum Beispiel 7Zip, Winrar oder WinZip entpacken musst. Die entpackte Resource sollte im Anschluss mindestens die folgenden Dateien beinhalten:  __resource.lua / fxmanifest.lua und die zugehörigen Script-Dateien. 
+Heruntergeladene Ressourcen werden in der Regel in einem komprimierten Format bereitgestellt. Das bedeutet, dass du die komprimierten Dateien mit einem Entpackungsprogramm wie 7Zip, Winrar oder WinZip entpacken musst. Der entpackte Ressourcenordner sollte mindestens die folgenden Dateien enthalten: `__resource.lua` oder `fxmanifest.lua` sowie die zugehörigen Skriptdateien.
 
 :::info
-Sollten diese Dateien nicht vorhanden sein, dann kann es unter Umständen sein, dass diese in einem Unterverzeichnis liegen. 
+Falls diese Dateien nicht vorhanden sind, kann es sein, dass sie sich in einem Unterverzeichnis innerhalb der Ressource befinden.
 :::
-
 
 ## Installation
 
-### Hochladen
+### Uploading files
 
-Die zuvor entpackten Dateien müssen nun, sofern noch nicht vorhanden, in einen eigenen Ordner hochgeladen werden. Dieser Ordner muss dann in das Resource Verzeichnis des Servers hochgeladen werden. Die Verzeichnisstruktur sieht in der Regel wie folgt aus:
+Du musst nun die zuvor unkomprimierten Dateien als einen einzelnen Ordner hochladen (falls noch nicht geschehen). Dein Ordner muss in das `Resource`-Verzeichnis des Servers hochgeladen werden.
 
+![image](https://github.com/zaphosting/docs/assets/42719082/5a9678bf-ddb5-41a2-a5ad-10cb6f748b67)
+
+Die Verzeichnisstruktur sieht normalerweise wie folgt aus:
 ```
 /gXXXXXX/redm/server-data/resources
 ```
 
-Gewisse Resourcen arbeiten mit einer Datenbank zusammen und beinhalten daher oftmals bereits SQL-Dateien, die in der Datenbank importiert werden müssen. 
+Bestimmte Ressourcen kooperieren mit einer Datenbank und enthalten daher oft bereits SQL-Dateien, die in die Datenbank importiert werden müssen. Wenn dies der Fall ist, dann lese unsere Anleitung [SQL-Datei importieren](https://zap-hosting.com/guides/docs/fivem-sql-file-import), um mehr darüber zu erfahren, wie du dies tun kannst.
+
 
 
 ### Aktivierung
 
-Damit die installierte Resource auch geladen wird, muss diese in der Server Config erst noch aktiviert werden. Die Aktivierung erfolgt über den **Start** Befehl. Wenn du beispielsweise die Resource mit dem Namen "eup-ui" hochgeladen hast, dann muss der Start Befehl in der Config folgendermaßen aussehen: 
+Um sicherzustellen, dass die installierte Ressource beim Start des Servers geladen wird, musst du sie zunächst in der Datei `server.cfg` für deinen Server aktivieren. Die Aktivierung erfolgt über den Befehl `start [Beispielressource]`. 
+
+Wenn du zum Beispiel die Ressource mit dem Ordnernamen `eup-ui` hochgeladen hast, muss der Startbefehl in der Konfiguration wie folgt aussehen: 
 
 ```
 start eup-ui
 ```
 
+Du kannst auf deine "server.cfg"-Datei entweder per FTP (siehe oben) oder über den Abschnitt **Configs** im Webinterface deines Gameservers zugreifen.
+
 :::info
-Hierbei ist zu beachten, dass der Name des zuvor erstellten Ordners mit dem Namen des Startbefehls übereinstimmen muss. Dabei ist auch die Groß- und Kleinschreibung essentiell. 
+Bitte vergewissern dich, dass der Name des zuvor erstellten Ordners mit dem Namen übereinstimmt, der im Startbefehl angegeben ist. Dabei ist auch die Groß- und Kleinschreibung zu beachten.
 :::
 
-
-Der Server kann anschließend wieder gestartet werden, sobald dieser Schritt abgeschlossen wurde. Im nächsten Startvorgang sollte die installierte Resource nun geladen werden. 
+Abschließend kannst du deinen Server neu starten. Die installierte Ressource sollte nun geladen werden, wenn dein Server das nächste Mal vollständig gestartet ist. Du hast erfolgreich eine Ressource auf deinem RedM Gameserver installiert!

@@ -36,7 +36,7 @@ const sidebars = {
       type: 'category',
       label: 'Support',
       items: [
-        "firststeps-problem-melden",
+        "contactsupport",
         "create-screenshots"
       ]
     },
@@ -173,8 +173,7 @@ const sidebars = {
           label: "Configuration & Administration",
           items: [
             "fivem-change-servericon",
-            "fivem-servername-emojis",
-            "fivem-servername-color",
+            "fivem-server-customisation",
             "fivem-rcon",
             "fivem-licensekey",
             "fivem-deletecache",
@@ -258,6 +257,11 @@ const sidebars = {
           label: "Configuration & Administration",
           items: [
             "redm-change-servericon",
+            "redm-server-customisation",
+            "redm-licensekey",
+            "redm-deletecache",
+            "redm-gamebuild",
+            "redm-steam-web-api-key",
             "redm-locale"
           ]
         },
@@ -265,7 +269,8 @@ const sidebars = {
           type: "category",
           label: "Resources & Mods",
           items: [
-            "redm-installresources"
+            "redm-installresources",
+            "redm-sql-file-import"
           ]
         }
       ],

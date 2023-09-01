@@ -1,13 +1,13 @@
 ---
-id: fivem-steam-web-api-key
-title: Steam Web API Key setup
-description: Information on setting up a Steam Web API key from ZAP-Hosting - ZAP-Hosting.com documentation
+id: redm-steam-web-api-key
+title: Einrichtung des Steam-Web-API-Key
+description: Informationen zum Einrichten eines Steam-Web-API-Schlüssels von ZAP-Hosting - ZAP-Hosting.com-Dokumentation
 sidebar_label: Steam Web API Key
 ---
 
 ## Einführung
 
-Ein Steam-Web-API-Schlüssel hat wichtige Funktionen für FiveM. Dazu gehört die Authentifizierung durch den API-Schlüssel, wenn Steam als Identifikator von verschiedenen Skripten und/oder Ressourcen verwendet wird.
+Ein Steam-Web-API-Schlüssel hat wichtige Funktionen für RedM. Dazu gehört die Authentifizierung durch den API-Schlüssel, wenn Steam als Identifikator von verschiedenen Skripten und/oder Ressourcen verwendet wird.
 
 
 
@@ -31,8 +31,6 @@ Wenn alles erfolgreich war, solltest du deinen eigenen Steam-Web-API-Schlüssel 
 
 ![image](https://user-images.githubusercontent.com/115637675/195397282-c79aff45-2e38-49f9-bf1a-3efd563b3294.png)
 
-
-
 ## Aktivierung eines API-Schlüssels
 
 Jetzt, wo du deinen Steam Web API Key hast, musst du ihn in deiner Serverkonfigurationsdatei (`server.cfg`) bei deinem FiveM Gameserver ablegen. Du kannst auf deine server.cfg Konfigurationsdatei entweder per FTP (siehe oben) oder über den Abschnitt **Configs** im Webinterface deines Gameservers zugreifen. 
@@ -40,6 +38,7 @@ Jetzt, wo du deinen Steam Web API Key hast, musst du ihn in deiner Serverkonfigu
 ![image](https://github.com/zaphosting/docs/assets/42719082/e3c7392c-7246-4133-be2e-383dac4b0327)
 
 Suchen eine vorhandene Zeile oder erstellen eine neue, falls sie nicht existiert, und füge folgendes hinzu, wobei du `YOUR_KEY_HERE` durch den von dir erzeugten Schlüssel ersetzt:
+
 ```
 set steam_webApiKey "YOUR_KEY_HERE"
 ```
