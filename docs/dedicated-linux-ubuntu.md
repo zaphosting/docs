@@ -8,11 +8,14 @@ sidebar_label: Install Ubuntu
 
 ## Preparations
 
-In your ZAP interface, select the desired ISO of Ubuntu and let the server boot with the ISO until it is in the setup process. Navigation in the setup process is done with TAB, Space and Enter.
+In your ZAP interface, select the desired ISO of Ubuntu and let the server boot with the ISO until it is in the setup process.
 
 :::info
-TAB = switch between items, Space = highlight, Enter = confirm
+Navigation in the setup process is done with the keys TAB, Space and Enter.
+
+`TAB` = switch between items, `Space` = highlight, `Enter` = confirm
 :::
+
 
 ***
 
@@ -34,9 +37,9 @@ Choose your desired keyboard layout and proceed by ticking "Done"
 ![](https://screensaver01.zap-hosting.com/index.php/s/6mr5kAKJQ39iJt5/preview)
 
 Your server configures its network interface automatically by using dhcp.
-The adapter`eno1` is the default network adapter of your ZAP Dedicated Server.
+The adapter `eno1` is the default network adapter of your ZAP Dedicated Server.
 
-we proceed by ticking "Done"
+We proceed by ticking "Done"
 
 ***
 
@@ -49,7 +52,7 @@ A proxy is not required.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/xNknNyWAbd5DnsZ/preview)
 
-Our dedicated server is located in Germany, so we also choose the german mirror location to achieve the best possible download rates.
+Our dedicated servers are located in Germany, so it's recommended to choose the German mirror location to achieve the best possible download speed rates.
 
 ***
 
@@ -63,7 +66,7 @@ The setup automatically creates the volumes and you can proceed by choosing "Don
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/L3YcGNbYWpMmaDj/preview)
 
-The setup of course deletes all persisting data on the system, we accept that by ticking "Continue" and pressing enter.
+The setup, of course, deletes all persisting data on the system, we accept that by ticking "Continue" and pressing enter.
 
 ***
 
@@ -78,21 +81,21 @@ When you're done proceed by ticking "Done".
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/Xz3zzMdZ6C523ip/preview)
 
-We would recommend to enable the installation of the OpenSSH-Server if you'd like to connect to your server through as example PuTTY.
+We would recommend to enable the installation of the OpenSSH-Server if you'd like to connect to your server through for example, PuTTY.
 
 ***
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/wcGiSwX935jXeex/preview)
 
-Ubuntu offers a few default snaps, if you'd like to use some of them, just tick the ones of your like.
+Ubuntu offers a few default snaps, if you'd like to use some of them, just tick the ones your like.
 
 :::info
-🎉 The server is now installing everything, after thats done ubuntu is installed.
+🎉 The server is now installing everything, after that's done, Ubuntu is installed.
 :::
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/SzrxCtJTx2S8Nef/preview)
 
-Please Eject now the ISO-File in your iLO to prevent the server from loading the setup again.
+Please eject now the ISO File in your iLO to prevent the server from loading the setup again.
 
 ***
 
@@ -100,14 +103,14 @@ Please Eject now the ISO-File in your iLO to prevent the server from loading the
 
 choose "Reboot now" and verify by pressing enter that you have removed the ISO file.
 
-## Changing the password of the root user.
+## Changing the password of the root user
 You can easily change the password of the root user:
 
-write `sudo su -` and enter your password after that write `sudo passwd root` to change the password.
-Enter now the new desired for the root user.
+Write `sudo su`, and enter your password; then write `sudo passwd` to change the password.
+Now enter the new desired password for the root user.
 
-Thats it - You can now login with your useraccount `root`
+That's it - You can now login with your user account `root`
 
-:::info
+:::tip
 If you have any further questions or problems, our support is happy to assist you!
 :::

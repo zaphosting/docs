@@ -1,36 +1,35 @@
 ---
 id: dedicated-raid
 title: RAID Configuration
-description: Information, about RAID configuration options for your Dedicated Server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: Information about RAID configuration options for your Dedicated Server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: RAID Configuration
 ---
 
 :::info
-We're offering up to 2 SSDs in our dedicated server products, so you could use RAID0 or RAID1
+We're offering up to 2 SSDs in our dedicated server products, so you can use RAID0 or RAID1 as you prefer
 :::
 
-## Which types of raid are there?
-Basically, there are different raid types. Since our dedicated servers are only offering 2 ssd bays, there is only a configuration of RAID0 or RAID1 possible.
-Other raid types would require to have more ssds.
+## Which types of RAID are there?
+Basically, there are different RAID types. Since our dedicated servers are only offering 2 SSD bays, there is only a configuration of RAID0 or RAID1 possible.
+Other RAID types would require having more SSDs drives.
 
 :::info
 RAID0 has slightly faster read and write rates
 :::
 
 ### RAID0
-In this RAID configuration, all existing volumes are combined into one large volume, for example, from 2 ssds, each with 1 TB,
-a 2TB partition would be created which could then be used completely.
+In this RAID configuration, all existing volumes are combined into one large volume, for example, from 2 SSDs, each with 1 TB. A 2TB partition would be created which could then be used completely.
 There is no data redundancy, so in case of a technical malfunction, data loss is often inevitable because the data is written in different sectors.
 If you store sensitive data on your system, RAID0 should not be used or at least regular system backups should be performed.
 
 :::info
-If your dedicated server has only 1 ssd this is automatically a RAID0.
+If your dedicated server has only 1 SSD this is automatically a RAID0.
 :::
 
 ### RAID1
 This configuration is very different from RAID0, here there is a redundancy of your data, which means that everything you store on your server is duplicated.
-It is therefore mirrored on both ssds and would be available at a failure rate of 50%, so your data is safe with 1 ssd.
-In case of a technical malfunction, only the affected ssd would have to be replaced and your server would rebuild the RAID, which means to mirror the data again.
+It is therefore mirrored on both SSDs and would be available at a failure rate of 50%, so your data is safe with 1 SSD.
+In case of a technical malfunction, only the affected SSD would have to be replaced and your server would rebuild the RAID, which means to mirror the data again.
 Especially for more sensitive data this configuration is highly recommended, but it is not an alternative to avoid backups.
 
 :::info
@@ -39,11 +38,11 @@ Regular backups of all important data are essential!
 
 ## The Configuration Assistant
 
-When your server is booting, the raid configuration tool, is required to be started this can be done by pressing `F8` at the necessary boot step.
+When your server is booting, the RAID configuration tool is required to be started. This can be done by pressing `F8` at the necessary boot step.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/cYzj7L6dL5g7255/preview)
 
-Press `F8` on this point to open the raid configuration tool
+Press F8 at this point to open the RAID configuration tool
 
 ***
 
@@ -72,7 +71,7 @@ RAID1
 ***
 
 * Delete Logical Drive
-You can delete the current RAID configuration, to create a new one as example.
+You can delete the current RAID configuration, to create a new one for example.
 
 * Select Boot Volume
 You could boot from another storage medium, which is not necessary in our case here.
@@ -82,7 +81,7 @@ Nothing needs to be adjusted or changed here, the licensing is already pre-confi
 
 * Cache Settings
 The cache option can be adjusted to increase the read/write rates of the SSD a bit.
-Basically, the last data blocks are cached during every write process for safety reasons as example in case of a voltage loss.
+Basically, the last data blocks are cached during every write process for safety reasons for example in case of a voltage loss.
 This causes a minimal performance disadvantage.
 
 ### Creating a new RAID
@@ -106,10 +105,10 @@ After the RAID was successfully deleted we need to open `Create Logical Drive`
 ![image](https://user-images.githubusercontent.com/13604413/159174294-c7c8de68-61ba-4cdd-8afa-ede25b850322.png)
 
 
-Here you can see all your ssds and have a choice of RAID configurations.
+Here you can see all your SSDs and have a choice of RAID configurations.
 Of course, not all of these RAIDs can be implemented in the current constellation.
 
-In our example we choose RAID0 or RAID1.
+In our example, we choose RAID0 or RAID1.
 
 :::info
 You can switch between the menus by pressing `TAB`
@@ -138,5 +137,5 @@ This can easily be done in **Select Voot Volume**, choose there the logical driv
 **Press `F8` to save as bootvolume**<br/>
 ![](https://screensaver01.zap-hosting.com/index.php/s/tqGFzGZGgeo4JjZ/preview)
 
-In the end you have the possibility by pressing `F8` to directly reboto your system or to return into the main menu by pressing `Enter`.
-Mention that the boot volume must be set **anytime** when you have touched your raid configuration.
+In the end you have the possibility by pressing `F8` to directly reboot your system or to return into the main menu by pressing `Enter`.
+Mention that the boot volume must be set **anytime** when you have touched your RAID configuration.
