@@ -26,4 +26,4 @@ In this case **server** is your subdomain and **fivem-server.de** is the name of
 
 Unlike an IP address, you have to rent a domain individually, this is **NOT** automatically included with a game server, root server, VPS or voice server. A domain already differs in appearance from an IP address. While an IP address consists of numbers, for example **140.82.118.3**, a domain has a real name and a corresponding domain extension, for example fivem.net. So **fivem** would be the name of the domain and **.net** the domain extension. Besides **.net** there are of course many other domain extensions like **.com** or **.de**.
 
-Find out how to rent a domain here: [Order a domain](domain-general-domain-info.md)
+Find out how to rent a domain here: [Order a domain](domain-order.md)
