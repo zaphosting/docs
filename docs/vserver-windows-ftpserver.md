@@ -6,69 +6,83 @@ sidebar_label: FTP Server Installation
 ---
 
 
-## FTP Server with FileZilla Server under Windows
 
-With FileZilla Server you have free software available which enables you to install your own FTP server on a Windows server. The installation and setup is clear and uncomplicated, so the whole thing is also suitable for inexperienced users.
+## Introduction
 
+The **FTP (File Transfer Protocol)** is a network protocol used to transfer files over a TCP/IP network. The protocol was developed to allow the easy exchange of files between systems. 
 
-## Download and Installation
-
-First you download the latest version of **FileZilla Server** here: [FileZilla Server Download](https://filezilla-project.org/download.php?type=server).
-You then execute the downloaded file with a double click, which starts the installation process, which will show then show you the following window: 
-
-![image](https://user-images.githubusercontent.com/13604413/159172969-1c0f99f5-bfdb-4044-9b1f-50a0fe1a920e.png)
-
-There you can now select the packages to be installed. However, it is sufficient if you install the pre-selected packages there, so you simply click on **Next** and then choose the installation path:
-
-![image](https://user-images.githubusercontent.com/13604413/159172973-37b19d92-dbf8-4397-b3e6-9b2b71e3d3a2.png)
-
-In this example the wholething will be installed to **C:\Program Files (x86)\FileZilla Server**, but you can also choose your own path. 
-Then click on **Next** and in the next step as well. Finally, click on **Install** to start the installation, then you can close the whole install with a click on **Close** once its finished. 
-
-Now the management interface of the FileZilla FTP server opens, you can leave the **Host** and **Port** unchanged, the **Password** field also remains empty. Just click on **Connect** there:
-
-![image](https://user-images.githubusercontent.com/13604413/159172976-a54bad3d-99f5-4c80-a93c-ea7d40a20a9f.png)
-
-## Create a User
-
-In order to be able to connect to your server via FTP, a corresponding user must now be created.
-To do this, click on **Edit** in the menu and then on **Users**:
-
-![image](https://user-images.githubusercontent.com/13604413/159172982-05180815-3f8c-45d6-9029-89449dc3c780.png)
+With the **FileZilla Server** it is possible to set up such a FTP server on a Windows operating system. The FileZilla Server is easy to install and configure, and offers numerous features such as the ability to set up user accounts, manage access rights and transfer files.
 
 
-With a click on **Add** you can add new user there:
 
-![image](https://user-images.githubusercontent.com/13604413/159172984-7906789a-9bbe-41ad-a9e7-17ef45e8493b.png)
+## Preperation
 
-In this example the user is called **Testbenutzer**. Of course you can choose your own name.
+### Download
 
-### Set Password and Permissions
+Setting up an FTP server requires corresponding software. The FileZilla server software can be used as a possible solution for the Windows server operating system. The download option for this can be found here: [FileZilla server](https://filezilla-project.org/download.php?type=server).
 
-To set the password for the user, simply activate it by clicking on the **Password** field , and then enter the password for the user:
 
-![image](https://user-images.githubusercontent.com/13604413/159172988-8501e87a-154a-47a2-b8a5-552afc3d6cff.png)
 
-So that the user also has the appropriate permissions, you still have to specify which directories they can access, just click on **Shared Folders** and then click on **Add**: 
+### Installation
 
-![image](https://user-images.githubusercontent.com/13604413/159172994-3ec8adb3-2b2a-4ff8-b600-0294865416fb.png)
+Once the setup file has been downloaded, you have to execute it. To do this, click on the previously downloaded file. The following window should open: ![image](https://user-images.githubusercontent.com/26007280/190911353-3b3fc815-f7ed-4df8-9303-8d639ff9ff2b.png)
 
-In this example, the user only has access to the **Documents**, directory , which you then select with a left click and click on **OK**:
 
-![image](https://user-images.githubusercontent.com/13604413/159172998-9f900ab7-d16f-452e-a3c3-9c7ecaaaabb6.png)
 
-:::info
-ATTENTION! For security reasons, you should only ever give a user access to certain folders, for example to your game server.
+There you can select the packages to be installed. However, it is sufficient if you install the pre-selected packages there, so you simply click on **Next** and then choose the installation path:
+
+![image](https://user-images.githubusercontent.com/26007280/190911361-b3b5fc61-8648-4378-a920-d7faa8118fc3.png)
+
+In this example, Filezilla Server will be installed under **C:\Program Files (x86)\FileZilla Server**. However, you can also choose your own path. After the selection of the path, you must specify in which form the FTP server is supposed to be installed and started. Furthermore, the port can be determined and an administrator password must be specified.
+
+
+
+![image](https://user-images.githubusercontent.com/26007280/190911700-52fd9613-70ac-413c-a171-b6d581ddd622.png)
+
+Afterwards you click on **Next** as well and in the following step. At the end click on **Install** to start the installation. The administration interface of the FileZilla FTP server will now open. Click on the button **Connect to FileZilla FTP Server**.
+
+A window should pop up where you see the fields Host, Port and Password. You can leave the first two fields unchanged and enter your defined administrator password from the FTP server. After that you establish the connection by clicking on the **Ok** button.
+
+
+
+## Configuration
+
+### User creation
+
+To be able to connect to your server via FTP, you have to create a user. 
+Click on **Server** in the menu above and then on **Configure**.
+
+![image](https://user-images.githubusercontent.com/26007280/190913231-5cda42fb-c47a-4b92-a32d-dd3eb1d23b61.png)
+
+You can then add a new user under the Users menu option by simply clicking **Add**:
+
+![image](https://user-images.githubusercontent.com/26007280/190913620-936d4430-51a7-44c9-9023-ad4087c01599.png)
+
+In this example, the user name is **YourUserName**. Here you can of course choose your own username.
+
+
+
+### Password and Permissions
+
+Now that the user has been created, the access and the access permissions must be configured. To do this, the user is activated and password options are configured in the **General** category under **Credentials**. We strongly recommend using a password for security reasons. Choose **Require a password to log in** and set your desired password.
+
+![image](https://user-images.githubusercontent.com/26007280/190912515-a4952bc3-b4ce-45e6-ba33-42b358f01074.png)
+
+To ensure that the user has the appropriate permissions, you must specify which directories the user is allowed to access by clicking **Add** on mount points. A virtual and a native path must be specified. In our example we define that the C hard disk is listed under \.
+
+![image](https://user-images.githubusercontent.com/26007280/190912711-90f6c4b6-35de-4339-b2a0-d3aa1d0ed8fd.png)
+
+To the right you will find the option **Permissions**, which allows you to set the access rights to the specified path. If you want to be able to read and edit the data, it is recommended to set it to **Read+Write**.
+
+::: danger
+For security reasons, you should only provide a user with access to certain folders.
 :::
 
-You can then give the user the necessary permissions to upload, download, delete, or even delete or delete files in the selected directory:
-
-![image](https://user-images.githubusercontent.com/13604413/159172999-9161b0ac-5a06-4ba2-8316-5d656e18f0da.png)
-
-You can then close the window by clicking **OK**.
+You can now apply and confirm the changes you have made by clicking on the **Apply** button. 
 
 
-## Exceptions in the Windows Firewall
+
+## Windows Firewall Exceptions 
 
 To enable a connection to your FTP server, the use of the FTP server in the Windows firewall must now be enabled. To do this, open the firewall settings under **Control Panel\System and Security\Windows Defender Firewall** and click on **Allow an app or feature through Windows Defender Firewall**.
 In the following window you then select the application to be allowed:
@@ -77,6 +91,6 @@ In the following window you then select the application to be allowed:
 
 In this example the path is **C:\Program Files (x86)\FileZilla Server\FileZilla Server.exe**:
 
-![image](https://user-images.githubusercontent.com/13604413/159173004-60bccc27-e66d-425c-a9dc-945fb1468d40.png)
+![image](https://user-images.githubusercontent.com/26007280/190912805-1a972dec-1e60-425a-806f-4c7dad3663dc.png)
 
-Then you can close the whole page with a click on **OK**. A connection to your FTP server is now possible.
+After that you can close the process with a click on **OK**, a connection to your FTP server is now possible.
