@@ -7,13 +7,12 @@ sidebar_label: Mods installieren
 
 ### Vorbereitung
 
-Um Mods auf einem Server hinzufügen zu können, muss hierbei eine Config-Datei bearbeitet werden.
-Damit es hierbei keine Probleme bei der Übernahe der Änderungen gibt, stelle bitte sicher, dass dein Server hierbei zuvor gestoppt wird!
+Um Mods auf einem Server hinzufügen zu können, muss hierbei eine Config-Datei bearbeitet werden. Damit es hierbei keine Probleme bei der Übernähe der Änderungen gibt, stelle bitte sicher, dass dein Server hierbei zuvor gestoppt wird!
 
 Damit im weiteren Verlauf die richtige Config bearbeitet wird, muss zuvor der Name des Savegames in Erfahrung gebracht werden.
-Sofern die Einstellungen hierzu nicht angepasst wurden, lautet dieser Standardmäßig "zap001". Prüfe dies jedochzur Sicherheit einmal, wie nun beschrieben:
+Sofern die Einstellungen hierzu nicht angepasst wurden, lautet dieser standardmäßig "zap001". Prüfe dies jedochzur Sicherheit einmal, wie nun beschrieben:
 
-Um zu den Einstellungen von deinem Server zu gelangen, öffne in der linke Listen unter dem Reiter "Einstellungen" den Punkt "Einstellungen"
+Um zu den Einstellungen von deinem Server zu gelangen, öffne in der linken Listen unter dem Reiter "Einstellungen" den Punkt "Einstellungen"
 
 ![image](https://user-images.githubusercontent.com/26007280/189890899-4695e557-2778-42b4-8a38-5b75abfc5204.png)
 
@@ -24,13 +23,13 @@ Dieser Name muss sich nun gemerkt werden, damit später die richtige Config-Date
 
 Die Installation von **Notepad++** ist zudem Vorrausetzung dieser Anleitung, damit die Schritte auch genau gleich durchgeführt werden können!
 
-## Mods raussuchen
+## Mods heraussuchen
 
 Sehr viele Mods kann man im Workshop von Space Engineers finden.
 Der Workshop kann [hier](https://steamcommunity.com/workshop/about/?appid=244850) gefunden werden.
 
-Nachdem eine interessante Mod gefunden wurde, klicken wir diese einmal an um alle weiteren Details einsehen zu können.
-Wenn die Mod einem gefällt, dann muss sich nun die Mod-ID nortiert werden. Die Mod-ID ist meist Fett markiert auf der Seite oder oben in der URL-Leiste zu finden:
+Nachdem ein interessanter Mod gefunden wurde, klicken wir diese einmal an, um alle weiteren Details einsehen zu können.
+Wenn der Mod einem gefällt, dann muss sich nun die Mod-ID nortiert werden. Die Mod-ID ist meist fett markiert auf der Seite oder oben in der URL-Leiste zu finden:
 
 ![image](https://user-images.githubusercontent.com/26007280/189890955-3977d749-f559-44b2-b689-9e70a6ce2ed0.png)
 
@@ -47,12 +46,12 @@ Sobald die Verbindung via FTP hergestellt wurde, muss in das folgende Verzeichni
 ``/gXXXXXX/space-engineers/DedicatedServer64/config/Saves``
 
 In diesem Ordner sind alle Savegames aufgelistet, welche jemals auf dem Server erstellt wurden.
-Um die Configs des jeweiligen Savegames anpassen zu können, muss nun der entsprechende Ordner geöffnet werden.
+Um die Configs des jeweiligen Savegames anpassen zu können, muss jetzt der entsprechende Ordner geöffnet werden.
 In unserem Beispiel wäre das der Ordner "zap001":
 
 ![image](https://user-images.githubusercontent.com/26007280/189890981-505c39f3-5b46-4be0-bc3b-15e77ccd698e.png)
 
-In diesem Ordner muss nun die Sandbox-Datei bearbeitet werden.
+In diesem Ordner muss jetzt die Sandbox-Datei bearbeitet werden.
 Es muss genau diese Config geöffnet werden, wie im Screenshot dargestellt!
 
 ![grafik](https://user-images.githubusercontent.com/13604413/215349596-768ea75a-4347-4f70-bf2b-63cd81455dc2.png)
@@ -70,8 +69,8 @@ Damit wird automatisch die korrekte Sytnax genutzt und wir können fortfahren.
 
 ![image](https://user-images.githubusercontent.com/26007280/189891046-4d7a5975-e815-4189-8f22-a5faaa29a375.png)
 
-Im nächsten Schritt fügen wir die erste Mod hinzu. Hierzu arbeiten wir mit einem "ModItem", welches eine Mod bildet.
-Hierzu kopieren wir den folgenden Inhalt und fügen Ihn dann wie im Screenshot gezeigt in die Config ein:
+Im nächsten Schritt fügen wir den ersten Mod hinzu. Hierzu arbeiten wir mit einem "ModItem", welches ein Mod bildet.
+Hierzu kopieren wir den folgenden Inhalt und fügen ihn dann wie im Screenshot gezeigt in die Config ein:
 
 ```xml
 	<ModItem>
@@ -87,6 +86,6 @@ Hierzu kopieren wir den folgenden Inhalt und fügen Ihn dann wie im Screenshot g
 Hierbei muss 12345 mit der Mod-ID deiner ausgeäwhlten Mod getauscht werden!
 :::
 
-Wie auch im Screenshot zu sehen muss der selbe Schritte einfach nur erneut wiederholt werden um eine Mod hinzuzufügen.
+Wie auch im Screenshot zu sehen, muss derselbe Schritt einfach nur erneut wiederholt werden, um einen Mod hinzuzufügen.
 Nachdem alle gewünschten Mods hinzugefügt wurden, kann die Config mit **STRG+S** gespeichert werden und die Config geschlossen werden.
 Danach kann der Server normal gestartet werden und die Mods werden dann automatisch installiert.

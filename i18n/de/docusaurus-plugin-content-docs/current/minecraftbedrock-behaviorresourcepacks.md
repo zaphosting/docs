@@ -20,39 +20,35 @@ C:\Users\%username%\AppData\Local\Packages\Microsoft.MinecraftUWP_8wekyb3d8bbwe\
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/NzTt3KAAYE75q5c/preview)
 
-## Addon Hinzufügen
+## Addon hinzufügen
 Öffne nun die .mcpack Datei von deinem Addon. Das Spiel sollte sich öffnen und automatisch das Addon importieren.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/sqArcir3gsEmi5c/preview)
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/fkZBGKf3obsEkPk/preview)
 
-Die Welt die du runtergeladen hast von deinem Server sollte nun angezeigt werden, falls du die Welt nicht runtergeladen hast clicke einfach auf "Neu erstellen"
-
-Hier hast du die Option deine Resourcen & Behavior packs auszuwählen
+Die Welt, die du heruntergeladen hast, von deinem Server sollte nun angezeigt werden, falls du die Welt nicht heruntergeladen hast, klicke einfach auf "Neu erstellen". Hier hast du die Option, deine Resourcen & Behavior packs auszuwählen.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/SzDbFoJQK37okye/preview)
 
-Stelle sicher das du hier alles ausgewählt hast was du haben möchtest und gehe dann auf "Spielen".
-Deine Addons sollten nun im Spiel verfügbar sein. Funktioniert alles, schliesse einfach Minecraft.
+Stelle sicher, dass du hier alles ausgewählt hast, was du haben möchtest und gehe dann auf "Spielen".
+Deine Addons sollten nun im Spiel verfügbar sein. Funktioniert alles, schließe einfach Minecraft.
 
 ## Welt auf den Server hochladen
 
-Gehe nun wieder auf FileZilla.
+Gehe jetzt wieder auf FileZilla. Lösche dort die Welt, die du vorher heruntergeladen hast, da wir diese ersetzen werden.
 
-Lösche dort nun die Welt die du vorher heruntergeladen hast, da wir diese nun ersetzen werden.
+Lade jetzt einfach wieder den Ordner auf deinen Server hoch. Wichtig dabei ist, dass der Name sich nicht verändert hat.
 
-Lade jetzt einfach wieder den Ordner auf deinen Server hoch. Wichtig dabei ist das der Name sich nicht verändert hat.
-
-Ein letzter Schritt kommt noch. In dem Welt Ordner auf deinem PC hast du jetzt die Ordner "behavior_packs" und/oder "resource_packs"
+Ein letzter Schritt kommt noch. In dem Weltordner auf deinem PC hast du jetzt die Ordner "behavior_packs" und/oder "resource_packs"
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/yxCQswKxbGMXCqC/preview)
 
 Lade diese jeweils noch in ihre richtigen Ordner auf dem Server hoch.
 
-Diese sind in dem gleichen Ordner wo auch der "worlds" Ordner liegt.
+Diese sind in dem gleichen Ordner, wo auch der "worlds" Ordner liegt.
 
-Anschliessend musst du noch server.properties öffnen und die Zeile
+Anschließend musst du noch server.properties öffnen und die Zeile
 
 ```
 texturepack-required=false
@@ -64,10 +60,10 @@ auf
 texturepack-required=true
 ```
 
-setzen. Dies stellt sicher das Spieler die auf deinen Server joinen auch die erforderlichen Resourcen downloaden.
+setzen. Dies stellt sicher das Spieler, die auf deinen Server joinen auch die erforderlichen Resourcen downloaden.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/5DWLKKkPgSJSFsE/preview)
 
-Wenn das getan ist musst du nurnoch den Server starten, joinen und dann solltest du dein Addon benutzen können.
+Wenn das getan ist, musst du nur noch den Server starten, joinen und dann solltest du dein Addon benutzen können.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/R8FtE4MSB9RognC/preview)

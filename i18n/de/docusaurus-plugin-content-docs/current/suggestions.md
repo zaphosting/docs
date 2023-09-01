@@ -4,7 +4,7 @@ title: Vorschläge einreichen
 description: Informatoinen, wie du Vorschläge für neue Gameserver und Funktionen auf ZAP-Hosting einreichen kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Vorschläge einreichen
 ---
-## 
+
 
 ## Einführung
 
@@ -46,7 +46,7 @@ Daher ist es in der Regel nicht notwendig, Wünsche für Spiele für das Gameser
 ### Was ist bei Web interface Features zu beachten
 Web Interface Features sind alle Features, die auf unserer Seite zap-hosting.com und im Web Interface vorhanden sind. Darunter können auch sehr kleine Dinge auf der Website fallen, aber auch komplexe Features, die neue Funktionen bieten.
 
-### Was geschieht nachdem mein Vorschlag eingereicht wurde?
-Wir schauen uns alle neuen Vorschläge an und entscheiden, ob es sinnvoll ist den Vorschlag anzunehmen oder sogar direkt umzusetzen. Ist ein Vorschlag angenommen, wird aber nicht direkt umgesetzt, könnt ihr durch einen "Like" zeigen, dass euch dieser Vorschlag wichtig ist. Je mehr Likes, desto höher die Wahrscheinlichkeit, dass ein bisher noch nicht umgesetzer Vorschlag in Betracht gezogen wird.
+### Was geschieht, nachdem mein Vorschlag eingereicht wurde?
+Wir schauen uns alle neuen Vorschläge an und entscheiden, ob es sinnvoll ist, den Vorschlag anzunehmen oder sogar direkt umzusetzen. Ist ein Vorschlag angenommen, wird aber nicht direkt umgesetzt, könnt ihr durch einen "Like" zeigen, dass euch dieser Vorschlag wichtig ist. Je mehr Likes, desto höher die Wahrscheinlichkeit, dass ein bisher noch nicht umgesetzter Vorschlag in Betracht gezogen wird.
 
 ![image](https://user-images.githubusercontent.com/61953937/159140318-1bf32331-bebd-4ef9-acbc-582de2517603.png)

@@ -3,12 +3,11 @@ id: factorio-becomeadmin
 title: Admin werden
 description: Informationen, wie du Admin auf deinem Factorio-Server bei ZAP-Hosting wirst - ZAP-Hosting.com Dokumentation
 sidebar_label: Admin werden
-
 ---
 
 
 
-Mit Administrator-Rechten kannst du direkt im Spiel Änderungen im Live Zustand an deinem Server vornehmen, ohne diese in der Config vorzunehmen. Das hinzufügen eines Admins erfolgt über die **server-settings.json** Config, welche du im Interface unter Configs findest.
+Mit Administrator Berechtigungen kannst du direkt im Spiel Änderungen im Live Zustand an deinem Server vornehmen, ohne diese in der Config vorzunehmen. Das Hinzufügen eines Admins erfolgt über die **server-settings.json** Config, welche du im Interface unter Configs findest.
 
 ![image](https://user-images.githubusercontent.com/26007280/189889682-7608bb64-c17a-4f23-8bc0-a2339bcbe168.png)
 
@@ -20,7 +19,7 @@ Am Ende der Config-Datei befindet sich der wichtige Part. Dort werden die Admins
 }
 ```
 
-Dort werden nun die Spielernamen von den Personen eingetragen, die Administrator-Berechtigungen erhalten sollen. Wenn mehrere Admins hinzugefügt werden dann kann das zum Beispiel so aussehen:
+Dort werden nun die Spielernamen von den Personen eingetragen, die Administrator-Berechtigungen erhalten sollen. Wenn mehrere Admins hinzugefügt werden, dann kann das zum Beispiel so aussehen:
 
 ```
   "_comment_admins": "List of case insensitive usernames, that will be promoted immediately",
@@ -32,7 +31,7 @@ Dort werden nun die Spielernamen von den Personen eingetragen, die Administrator
 }
 ```
 
-Die Spieler mit den Namen **SpielerName1, SpielerName2, SpielerName3** haben nach dem Speichern nun die Berechtigungen erhalten. Im Spiel können nun über die Konsole Admin Befehle ausgeführt werden. Im folgenden findest du eine Übersicht von häufig genutzten Befehlen.
+Die Spieler mit den Namen **SpielerName1, SpielerName2, SpielerName3** haben nach dem Speichern die Berechtigungen erhalten. Im Spiel können nun über die Konsole Admin Befehle ausgeführt werden. Im Folgenden findest du eine Übersicht von häufig genutzten Befehlen.
 
 
 

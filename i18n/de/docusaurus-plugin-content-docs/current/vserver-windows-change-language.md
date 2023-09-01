@@ -6,7 +6,7 @@ sidebar_label: Sprache hinzufügen/ändern
 ---
 
 :::info
-Wir bieten Windows grundsätzlich in Deutsch und Englisch an, dies erkannst du an den Kürzeln (DE) und (EN)
+Wir bieten Windows grundsätzlich in Deutsch und Englisch an, dies erkennst du an den Kürzeln (DE) und (EN)
 :::
 ***
 
@@ -16,13 +16,11 @@ Verbinde dich per Remotedesktop auf deinen Windows Server und öffne die Einstel
 
 ![image](https://user-images.githubusercontent.com/13604413/159173307-1c9b4b7c-d70b-4ed5-bfa9-cc5e68c093f1.png)
 
-Wähle das Menü "Zeit und Sprache" dort den Unterpunkt "Sprache"
-
-Klicke nun auf "Sprache hinzufügen"
+Wähle das Menü "Zeit und Sprache" dort den Unterpunkt "Sprache" Klicke nun auf "Sprache hinzufügen"
 
 ![image](https://user-images.githubusercontent.com/13604413/159173310-f9ebd0aa-9e59-4c9b-9cde-5f7bd8e14172.png)
 
-Suche nach deiner gewünschten Sprache und achte darauf dass diese eine Anzeigesprache ist.
+Suche nach deiner gewünschten Sprache und achte darauf, dass diese eine Anzeigesprache ist.
 
 ## Installation
 
@@ -38,6 +36,6 @@ Windows läd nun deine gewünschte Sprache herunter, dieser Vorgang kann einige 
 
 ![image](https://user-images.githubusercontent.com/13604413/159173315-2927599d-7894-4171-8c7f-37516d6c5997.png)
 
-Sobald die Installation deiner Sprache abgeschlossen ist, musst du dich lediglich erneut anmelden bzw. deinen Server neustarten.
+Sobald die Installation deiner Sprache abgeschlossen ist, musst du dich lediglich erneut anmelden bzw. deinen Server neu starten.
 
 ![image](https://user-images.githubusercontent.com/13604413/159173318-6fa1e87a-2f5d-401e-abbf-383456b8bb70.png)

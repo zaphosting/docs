@@ -819,7 +819,7 @@ const sidebars = {
       type: 'category',
       label: 'Domain',
       items: [
-        'domain-general-domain-info',
+        'domain-introduction',
         'domain-order',
         'domain-easydns',
         'domain-profidns',

@@ -1,12 +1,12 @@
 ---
 id: vserver-linux-xrdp
 title: Installation von xRDP (Remotedesktop) 
-description: Guide um xRDP (Remotedesktop) auf Linux zu installieren - ZAP-Hosting.com Dokumentation
+description: Guide, um xRDP (Remotedesktop) auf Linux zu installieren - ZAP-Hosting.com Dokumentation
 sidebar_label: xRDP installieren
 ---
 
-Unter Linux gibt es default in der Regel eine SSH Console um den Server zu verwalten. In manchen Fällen kann es einfacher sein eine Remote Desktop Verbindung zu nutzen, ähnlich wie bei Windows. 
-Eine nachträgliche Installation ist bei den meisten Linux Distrobutionen möglich. In diesem Guide wird dies für Ubuntu und Debian erklärt. 
+Unter Linux gibt es in der Regel eine SSH Console, um den Server zu verwalten. In manchen Fällen kann es einfacher sein, eine Remote Desktop Verbindung zu nutzen, ähnlich wie bei Windows. 
+Eine nachträgliche Installation ist bei den meisten Linux Distributionen möglich. In diesem Guide wird dies für Ubuntu und Debian erklärt. 
 
 :::info
 Wichtig: Es muss mindestens Ubuntu 18.04.X LTS (Bionic Beaver) oder Debian 10 (Buster) genutzt werden als OS. Neuere Versionen sind empfehlenswert. 
@@ -61,12 +61,12 @@ sudo adduser xrdp ssl-cert; sudo systemctl restart xrdp
 ```
 
 Nach Abschluss der Konfiguration kann man sich mit den Root oder den jeweiligen User Daten des Servers via Remote Desktop verbinden. 
-Der default Port lautet: 3389
+Der Standard Port lautet: 3389
 
 ## Verbindung 
 
 Die Verbindung kann über jedes RDP Tool erfolgen, verbunden wird mit IP:PORT. 
-Beim verbinden wird man nach den Logindaten gefragt: 
+Beim Verbinden wird man nach den Logindaten gefragt: 
 
 ![xrdp2](https://user-images.githubusercontent.com/61953937/167338260-9c50c532-272a-4cdb-b912-8e47a499c899.png)
 

@@ -9,7 +9,7 @@ sidebar_label: Mods installieren
 
 ## Mods installieren
 
-Mit Mods hast du die Möglichkeit deinen Server noch individueller anzupassen. Im Folgenden wird erklärt wo du die beliebtesten Servers-Mods finden kannst und wie du diese eingerichtet werden. Mit der Einführung von Alpha 17 Experimental wurde das Konzept der Modlets eingeführt. Modlets sind kleinere Mods, die die Vanilla-XML-Dateien nicht überschreiben, sondern aus dem Mods-Ordner geladen werden. 
+Mit Mods hast du die Möglichkeit, deinen Server noch individueller anzupassen. Im Folgenden wird erklärt, wo du die beliebtesten Servers-Mods finden kannst und wie du diese eingerichtet werden. Mit der Einführung von Alpha 17 Experimental wurde das Konzept der Modlets eingeführt. Modlets sind kleinere Mods, die die Vanilla-XML-Dateien nicht überschreiben, sondern aus dem Mods-Ordner geladen werden. 
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/McQLetfwmEMbo6N/preview)
 
@@ -30,13 +30,13 @@ Zunächst einmal müssen die Mods heruntergeladen werden, die auf dem Server ins
 
 ## Installation
 
-Nun wenn die gewünschten Mods heruntergeladen wurden, dann kann mit der eigentlichen Installation der Mods begonnen werden. Die Einrichtung der Mods erfolgt per FTP. Um Dateien auf deinen Server hochladen zu können benötigst du einen FTP-Client. Falls du noch nicht weißt, was FTP ist und wie es funktioniert, dann schaue dir am besten die folgende Anleitung an: [FTP Dateizugriff](https://zap-hosting.com/guides/docs/de/gameserver_ftpaccess/)
+Nun wenn die gewünschten Mods heruntergeladen wurden, dann kann mit der eigentlichen Installation der Mods begonnen werden. Die Einrichtung der Mods erfolgt per FTP. Um Dateien auf deinen Server hochladen zu können, benötigst du einen FTP-Client. Falls du noch nicht weißt, was FTP ist und wie es funktioniert, dann schaue dir am besten die folgende Anleitung an: [FTP Dateizugriff](https://zap-hosting.com/guides/docs/de/gameserver_ftpaccess/)
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/9Q86iArComw55cH/preview)
 
 
 
-Unter dem ``/gXXXXX4/7dtd-linux-exp/`` Verzeichnis muss nun ein Ordner mit dem Namen **Mods** angelegt werden. Mache dafür einen Rechtsklick und klicke auf Ordner erstellen. 
+Unter dem ``/gXXXXX4/7dtd-linux-exp/`` Verzeichnis muss jetzt ein Ordner mit dem Namen **Mods** angelegt werden. Mache dafür einen Rechtsklick und klicke auf Ordner erstellen. 
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/RE2n6WodsWq38Pr/preview)
 

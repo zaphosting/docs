@@ -47,7 +47,7 @@ Drücke auf die grüne Download-Schaltfläche und bestätige die Einrichtung, be
 
 >Der Download kann einigen Minuten beanspruchen. Bitte warte, bis der Vorgang abgeschlossen ist, bevor du mit dem letzten Schritt fortfährst.
 
-Jetzt werden beide Versionen unter `Installierte Spiele` angezeigt, so dass es einfacher ist, zwischen beiden zu wechseln.
+Jetzt werden beide Versionen unter `Installierte Spiele` angezeigt, sodass es einfacher ist, zwischen beiden zu wechseln.
 
 Schließlich musst du das Spiel unter dem Abschnitt `Installierte Spiele` aktivieren. Drücke auf das blaue Symbol "Spiel aktivieren".
 
@@ -70,7 +70,7 @@ import TabItem from '@theme/TabItem';
 <Tabs>
 
 <TabItem value="Steam Version" label="Steam Version">
-Öffne zunächst dein Steam und gehe zu deiner Spielebibliothek. Suche nach "Satisfactory", klicke mit der rechten Maustaste darauf und wähle das Menü "Eigenschaften" aus.
+Öffne zunächst dein Steam und gehe zu deiner Spielbibliothek. Suche nach "Satisfactory", klicke mit der rechten Maustaste darauf und wähle das Menü "Eigenschaften" aus.
 
 ![Screenshot 2023-02-21 203108](https://user-images.githubusercontent.com/42719082/220451989-b90762b7-0b13-4374-82e6-af24d3da321a.png)
 
@@ -82,7 +82,7 @@ Das war's. Jetzt musst du nur noch darauf warten, dass Steam das Spiel auf den a
 
 </TabItem>
 <TabItem value="Epic Games Version" label="Epic Games Version">
-Bei Epic Games ist es sogar noch einfacher, zu Experimentell zu wechseln. Alles, was du tun musst, ist es in deine Bibliothek zu gehen und das Spiel "Satisfactory Experimental" zu finden. Beide Spiel Versionen auf dem Epic Games Launcher sind eigenständig in der Bibliothek. Das war's. Jetzt musst du nur noch darauf warten, dass Epic Games das Spiel herunterlädt und installiert. Danach kannst du dein Spiel starten und deinen Server genießen!
+Bei Epic Games ist es sogar noch einfacher, zu Experimentell zu wechseln. Alles, was du tun musst, ist es in deine Bibliothek zu gehen und das Spiel "Satisfactory Experimental" zu finden. Beide Spielversionen auf dem Epic Games Launcher sind eigenständig in der Bibliothek. Das war's. Jetzt musst du nur noch darauf warten, dass Epic Games das Spiel herunterlädt und installiert. Danach kannst du dein Spiel starten und deinen Server genießen!
 
 </TabItem>
 </Tabs>

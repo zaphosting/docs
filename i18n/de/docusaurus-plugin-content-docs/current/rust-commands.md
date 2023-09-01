@@ -12,9 +12,7 @@ Einige Befehle erfordern die Verwendung der Steam64-ID eines Spielers. Verwende 
 :::
 
 ## Deine Steam ID erhalten
-Erstens, verwende ein Tool wie das [Steam ID Finder](https://steamidfinder.com/) um deine Steam64 ID zu erhalten.
-
-Hier gibst du deine Steam URL ein:
+Erstens, verwende ein Tool wie das [Steam ID Finder](https://steamidfinder.com/), um deine Steam64 ID zu erhalten. Hier gibst du deine Steam URL ein:
 
 ![image](https://user-images.githubusercontent.com/13604413/159179966-154bb929-edcc-42aa-965e-cb747bb463f8.png)
 
@@ -37,7 +35,7 @@ import TabItem from '@theme/TabItem';
 
 <TabItem value="Server-Einstellungen" label="Server-Einstellungen">
 
-| Command Syntax                  | Accepted Values | Description | 
+| Befehl Syntax                  | Accepted Values | Description | 
 | ----------------------- | ---------- | --------- | 
 | server.globalchat      | true/false          | Bei true wird jede Chat-Nachricht allen Spielern angezeigt         | 
 | server.stop      | -          | Stoppt den Server         | 
@@ -60,7 +58,7 @@ import TabItem from '@theme/TabItem';
 </TabItem>
 <TabItem value="Spieler-Verwaltung" label="Spieler-Verwaltung">
 
-| Command Syntax                  | Accepted Values | Description | 
+| Befehl Syntax                  | Accepted Values | Description | 
 | ----------------------- | ---------- | --------- | 
 | global.ban "Spielername" "Grund"      | String (z. B. "Jacob"), String (z. B. "War frech!!")          | Verbannt einen Benutzer vom Server (mit optionalem Grund)         | 
 | global.banid "steam64"      | Integer          | Bannt einen Benutzer über seine Steam 64 ID         | 
@@ -78,13 +76,13 @@ import TabItem from '@theme/TabItem';
 </TabItem>
 <TabItem value="Spieler-Steuerungen" label="Spieler-Steuerungen">
 
-| Command Syntax                  | Accepted Values | Description | 
+| Befehl Syntax                  | Accepted Values | Description | 
 | ----------------------- | ---------- | --------- | 
 | kill      | -          | Töte deinen eigenen Spieler         | 
 | global.quit      | -          | Speichert und verlässt das Spiel         | 
-| global.god      | true/false          | Schaltet Gottmodus um, so dass der Spieler keinen Schaden nehmen kann (nur für Administratoren)          | 
-| global.noclip      | true/false          | Schaltet Noclip-Modus um, so dass der Spieler frei fliegen kann (nur für Administratoren)         | 
-| global.debugcamera      | true/false          | Schaltet den Debug-Kameramodus um, so dass der Spieler in den Freikameramodus gehen kann (nur für Administratoren)          | 
+| global.god      | true/false          | Schaltet Gottmodus um, sodass der Spieler keinen Schaden nehmen kann (nur für Administratoren)          | 
+| global.noclip      | true/false          | Schaltet Noclip-Modus um, sodass der Spieler frei fliegen kann (nur für Administratoren)         | 
+| global.debugcamera      | true/false          | Schaltet den Debug-Kameramodus um, sodass der Spieler in den Freikameramodus gehen kann (nur für Administratoren)          | 
 | player.sleep      | -          | Zwinge deinen Spieler zum Einschlafen         | 
 | commands.find "command"      | String (z. B. "quit")          | Sucht nach einem Befehl, der für den Spieler verfügbar ist
 | chat.say "text"     | String (z. B. "Hallo Welt!")          | Sendet eine Nachricht an alle Spieler des Servers         | 

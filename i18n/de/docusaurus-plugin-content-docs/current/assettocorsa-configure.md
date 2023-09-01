@@ -7,7 +7,7 @@ sidebar_label: Server konfigurieren
 
 ## Mit FTP verbinden
 
-Bevor wir den Server Konfigurieren können, muss der [FTP-Zugang](gameserver-ftpaccess.md) eingerichtet werden:
+Bevor wir den Server konfigurieren können, muss der [FTP-Zugang](gameserver-ftpaccess.md) eingerichtet werden:
 
 ![image](https://user-images.githubusercontent.com/13604413/159135972-112ad9ef-5f6b-4bc6-ba9f-7471b4f8c22b.png)
 
@@ -19,9 +19,9 @@ Nachdem dieser eingerichtet wurde, kann sich nun verbunden werden und der Server
 
 ## Vorbereitung
 
-Zunächst Öffnen wir den Assetto Corsa Ordner, diesen können wir öffnen, indem wir Steam Öffnen und "Assetto Corsa" in der Spieleliste Rechtsklicken,
+Zunächst öffnen wir den Assetto Corsa Ordner, diesen können wir öffnen, indem wir Steam öffnen und "Assetto Corsa" in der Spieleliste Rechtsklicken,
 
-Nun öffnen wir "Lokale Dateien" und Öffnen die Lokalen Spieldateien:
+Nun öffnen wir "Lokale Dateien" und öffnen die Lokalen Spieldateien:
 
 ![image](https://user-images.githubusercontent.com/13604413/159136021-cd23c04f-0db5-4051-8993-7fddfd0edfaa.png)
 
@@ -43,7 +43,7 @@ Hier können wir nun auf unsere bevorzugte Map klicken, oben können dann noch d
 
 
 :::info
-Gehe sicher das du nicht mehr Autos, als Slots auf deinem Server angibst, ansonsten wird der Server nicht starten
+Gehe sicher, dass du nicht mehr Autos, als Slots auf deinem Server angibst, ansonsten wird der Server nicht starten
 :::
 
 ## Autos Einstellen
@@ -61,10 +61,10 @@ In der Mitte erscheinen nun Autos, welche auf dem Grid platziert werden können,
 
 
 :::info
-Um mehrere Autos zu wählen, können mehrere haken gesetzt werden, um die verschiedenen Autos in der Mitte hinzugefügt werden.
+Um mehrere Autos zu wählen, können mehrere Haken gesetzt werden, um die verschiedenen Autos in der Mitte hinzugefügt werden.
 
 
-Beachte das alle Autoslots befüllt werden und nicht mehr, als die Menge der verfügbaren Slots gesetzt wird
+Beachte, dass alle Autoslots befüllt werden und nicht mehr, als die Menge der verfügbaren Slots gesetzt wird
 
 ![image](https://user-images.githubusercontent.com/13604413/159136228-57a877cd-e75b-4df0-ad57-30c6b05af255.png)
 :::
@@ -72,11 +72,11 @@ Beachte das alle Autoslots befüllt werden und nicht mehr, als die Menge der ver
 
 ## Config Hochladen
 
-Nun können wir die Config über den "Save" Button Abspeichern und über den "Export" Button exportieren:
+Nun können wir die Config über den "Save" Button abspeichern und über den "Export" Button exportieren:
 
 ![image](https://user-images.githubusercontent.com/13604413/159136248-2aa62490-c2a7-49ae-b97e-0c731cebd7a1.png)
 
-Hier wählen wir nun einen freien Ordner, dort werden die Config-Daten gespeichert.
+Hier wählen wir jetzt einen freien Ordner, dort werden die Config-Daten gespeichert.
 
 Nun kann der AC Server Manager geschlossen werden, wir öffnen nun den Ordner, in welche die Configs exportiert wurden.
 

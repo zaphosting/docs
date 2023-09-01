@@ -25,12 +25,12 @@ Slots = safetyRating / 4 + trackMedals + 10
 
 ### Liste möglicher Kombinationen
 
-Im Nachfolgenden wird eine Liste mit möglichen Kombinationen angezeigt um die gewünschte Slotanzahl nutzen zu können.
-Hierbei gibt es auch mehr als eine mögliche Lösung, um die nötige Slot Voraussetzung zu erreichen.
+Im Nachfolgenden wird eine Liste mit möglichen Kombinationen angezeigt, um die gewünschte Slotanzahl nutzen zu können.
+Hierbei gibt es auch mehr als eine mögliche Lösung, um die nötige Slot-Voraussetzung zu erreichen.
 Aus diesem Grund wurden in der Liste auch die verschiedenen Möglichkeiten dargestellt.
 
 :::info
-Beachte, dass hierbei für safetyRatingRequirement und trackMedalRequirement die **mindest** Anforderungen eingetragen wurden. Es ist natürlich auch möglich mit größeren Werten bei safetyRatingRequirement und trackMedalRequirement weniger Slots zu hosten.
+Beachte, dass hierbei für safetyRatingRequirement und trackMedalRequirement die **Mindestanforderungen** eingetragen wurden. Es ist natürlich auch möglich, mit größeren Werten bei safetyRatingRequirement und trackMedalRequirement weniger Slots zu hosten.
 :::
 
 Slots | safetyRatingRequirement | trackMedalRequirement

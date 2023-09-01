@@ -25,10 +25,10 @@ Es sollte ebenfalls standardmäßig leer sein:
 
 Nun kann ein Plugin hochgeladen werden. 
 Plugins für den Rocketmod sind zum Beispiel auf Github zu finden: https://github.com/RocketModPlugins
-Nachdem das gewünschte Plugin dedownloadet wurde, muss es entapckt werden. 
-Je nach Betriebssystem kann es direkt entpackt werden, manche können aber zusatz Programme wie zum Beispiel 7Zip benötigen um das Archiv entpacken zu können.
+Nachdem das gewünschte Plugin heruntergeladen wurde, muss es entpackt werden. 
+Je nach Betriebssystem kann es direkt entpackt werden, manche können aber Zusatzprogramme wie zum Beispiel 7Zip benötigen, um das Archiv entpacken zu können.
 
-Unter Windows reicht es zum Beispiel aus das ZIP-Archiv via Doppelklick zu öffnen und dann den Inhalt via "Drag" and Drop" auf den Desktop zu ziehen: 
+Unter Windows reicht es zum Beispiel aus, das ZIP-Archiv via Doppelklick zu öffnen und dann den Inhalt via "Drag" and Drop" auf den Desktop zu ziehen: 
 
 ![image](https://user-images.githubusercontent.com/26007280/189902825-54017271-c218-4cde-bc93-b02c57761d4f.png)
 

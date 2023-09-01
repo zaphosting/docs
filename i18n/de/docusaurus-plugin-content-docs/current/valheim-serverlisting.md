@@ -6,8 +6,7 @@ sidebar_label: Serverlisting Probleme
 ---
 
 
-Leider haben viele populäre Spiele wie ARK oder Valheim massive Probleme mit dem Listing aller Server in der ingame Serverliste. 
-
+Leider haben viele populäre Spiele wie ARK oder Valheim massive Probleme mit dem Listing aller Server in der im Spiel Serverliste. 
 Das liegt daran, dass diese Spiele die Software "Steamworks" für ihr Listing verwenden. 
 
 Steamworks kann maximal 4880 Server listen. Wenn ein Spiel mehr als diese Anzahl aktiver Server hat, wird nur ein kleiner Teil der aktiven Server für den Spieler gelistet. 
@@ -16,9 +15,9 @@ Dabei ist es sehr zufällig, ob Spieler 1 den Server Y sieht oder nicht.
 Es kommt daher auch vor, dass Spieler 1 den Server Y sieht, aber Spieler 2 nicht. Spieler 3 hingegen sieht ihn wieder, dafür aber einen anderen Server nicht, den Spieler 1 sieht.
 
 
-Um auzuschließen, dass es ein Problem bei dem Serveranbieter gibt, kann man den Server unter "Steam" - "Ansicht" - "Server" mit IP und Port suchen. Wird er dort gefunden, ist die Verbindung zwischen Spieler und Server einwandfrei. Hier findet nämlich eine direkte Abfrage seitens des Spielers statt.
+Um abzuschließen, dass es ein Problem bei dem Serveranbieter gibt, kann man den Server unter "Steam" - "Ansicht" - "Server" mit IP und Port suchen. Wird er dort gefunden, ist die Verbindung zwischen Spieler und Server einwandfrei. Hier findet nämlich eine direkte Abfrage seitens des Spielers statt.
 
-Ein gutes Beispiel um das Problem zu validieren ist auch, dass insbesondere ARK Spieler, die das Spiel über Steam geöffnet haben Server nicht finden. Öffnen sie ARK in Epic Games, werden die Server einwandfrei gefunden. Hier wird kein Steamworks genutzt.
+Ein gutes Beispiel um das Problem zu validieren ist auch, dass insbesondere ARK Spieler, die das Spiel über Steam geöffnet haben, Server nicht finden. Öffnen Sie ARK in Epic Games, werden die Server einwandfrei gefunden. Hier wird kein Steamworks genutzt.
 
 Es gibt zu diesem Problem auch verschiedene Spieleentwickler, die sich dazu äußerten. Beispielsweise dachte Garry Newman von Garrysmod, dass das Problem mit seinem Serveranbieter OVH zusammenhängt. Das war jedoch nicht der Fall. Das Problem hat auch ZAP-Hosting und jeder andere Serveranbieter, da es direkt bei Steamworks liegt:
 

@@ -9,13 +9,13 @@ sidebar_label: Admin werden
 
 ## Admin werden
 
-Mit Administrator-Rechten kannst du direkt im Spiel Änderungen im Live Zustand an deinem Server vornehmen, ohne diese in der Config vorzunehmen. Das hinzufügen eines Admins erfolgt über die **Users.eco** Config, welche du im Interface unter Configs findest.
+Mit Administrator-Rechten kannst du direkt im Spiel Änderungen im Live Zustand an deinem Server vornehmen, ohne diese in der Config vorzunehmen. Das Hinzufügen eines Admins erfolgt über die **Users.eco** Config, welche du im Interface unter Configs findest.
 
 ![image](https://user-images.githubusercontent.com/26007280/189889325-21709231-9f93-49a4-a4dc-57fe2a7188e2.png)
 
 
 
-Um einen neuen Spieler als Admin hinzuzufügen muss der folgende Teil in der **Users.eco** Config angepasst werden:
+Um einen neuen Spieler als Admin hinzuzufügen, muss der folgende Teil in der **Users.eco** Config angepasst werden:
 
 ```xml
   "Admins": {
@@ -28,7 +28,7 @@ Um einen neuen Spieler als Admin hinzuzufügen muss der folgende Teil in der **U
 
 
 
-Im Feld **values** wird der Spieler eingetragen, der Admin werden soll. Bei mehreren Admins werden diese mit einem Kommazeichen getrennt hinzugefügt. Zum identifizieren des Spielers wird die SteamID64 verwendet. 
+Im Feld **values** wird der Spieler eingetragen, der Admin werden soll. Bei mehreren Admins werden diese mit einem Kommazeichen getrennt hinzugefügt. Zum Identifizieren des Spielers wird die SteamID64 verwendet. 
 
 Diese findest du, indem du zunächst einmal dein Steam Profil aufrufst und dort dann an einer beliebigen Stelle Rechtsklick drückst. Dort kann dann die Steam URL des Profils kopiert werden.
 
@@ -70,7 +70,7 @@ Nach einem Neustart des Servers wurde den dort eingetragenen Spielern Administra
 
 
 
-Im folgenden findest du eine Übersicht von häufig verwendeten Admin Befehlen die du als Admin ausführen kannst.
+Im Folgenden findest du eine Übersicht von häufig verwendeten Admin Befehlen, die du als Admin ausführen kannst.
 
 
 
@@ -92,4 +92,4 @@ Im folgenden findest du eine Übersicht von häufig verwendeten Admin Befehlen d
 |         /move [x],[y],[z]          |       Versetzt Spieler zur Position x, y, z;       |
 |       /removeadmin [player]        |          Entfernt einen Spieler als Admin          |
 
-Noch weitere verfügbare Befehle findest du in der offiziellen [ECO Wiki](https://eco.gamepedia.com/Chat_Commands).
+Noch weitere verfügbare Befehle findest du in der offiziellen [ECO Wiki](https://eco.gamepedia.com/Chat_Befehls).

@@ -5,7 +5,7 @@ description: Informationen, wie du auf deinem Trucksim-Server DLCs und Mods akti
 sidebar_label: DLC/Mods aktivieren
 ---
 
-## Konsole Aktivieren
+## Konsole aktivieren
 
 Um bei ETS2 / ATS Server DLCs und Mods zu aktivieren, musst du diese DLC auf deinem Account besitzen und installiert haben.
 
@@ -31,11 +31,11 @@ Hier geben wir nun `export_server_packages` ein, das Ganze sollte vom Spiel best
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/TpsqKad3wW6ptKD/preview)
 
-Nun können wir das Spiel wieder beenden, im Dokumente Ordner befinden sich nun zwei neue Dateien, `server_packages.dat` & `server_packages.sii`.
+Nun können wir das Spiel wieder beenden, im Dokumentordner befinden sich nun zwei neue Dateien, `server_packages.dat` & `server_packages.sii`.
 
 ## Server Packages Hochladen
 
-Nun verbinden wir uns über den [FTP-Zugriff](gameserver-ftpaccess.md) zu unserem Server.
+Jetzt verbinden wir uns über den [FTP-Zugriff](gameserver-ftpaccess.md) zu unserem Server.
 
 Die beiden Dateien laden wir in den `Euro Truck Simulator 2` oder `American Truck Simulator` Ordner unseres Gameservers hoch:
 

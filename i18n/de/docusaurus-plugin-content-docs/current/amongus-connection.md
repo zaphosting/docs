@@ -1,7 +1,7 @@
 ---
 id: amongus-connection
 title: Verbindung mit dem Server herstellen
-description: Informationen wie du dich mit deinem Impostor - Among Us-Server verbinden kannst - ZAP-Hosting.com Dokumentation
+description: Informationen, wie du dich mit deinem Impostor - Among Us-Server verbinden kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Verbindung zum Server
 ---
 
@@ -19,7 +19,7 @@ Trage hier die Daten aus deinem ZAP-Hosting Interface ein, diese sehen beispiels
 
 Wobei 31.214.245.215 deine IP ist und 2000 der Port.
 
-Den Servernamen kannst du frei wählen, wenn alle Daten eingetragen wurden klicke auf "Download Server File"
+Den Servernamen kannst du frei wählen, wenn alle Daten eingetragen wurden, klicke auf "Download Server File"
 Es wird nun eine Datei mit dem Namen "regioninfo.json" heruntergeladen.
 
 Drücke als nächstes `Win` + `R` und gib dort 
@@ -32,7 +32,7 @@ ein und bestätige mit Enter, es öffnet sich nun ein Verzeichnis. Schiebe dort 
 
 ![image](https://user-images.githubusercontent.com/26007280/189938494-17ff69e4-3c86-408f-9e3d-bc13f0342584.png)
 
-## Server ingame "erstellen"
+## Server im Spiel "erstellen"
 
 Starte nun Among Us auf deinem PC.
 Klicke im Hauptmenü auf "online" und klicke dann auf "Create Game".
@@ -43,16 +43,13 @@ Hier kannst du nun die gewünschten Einstellungen für deinen Server vornehmen:
 
 ![image](https://user-images.githubusercontent.com/26007280/189938542-0712b682-e58f-4955-b185-69e5e12b5613.png)
 
-Soweit du fertig bist mit den Einstellungen kannst du auf "confirm" klicken.
-Du bist nun mit deinem Server verbunden!
+Soweit du fertig bist, mit den Einstellungen, kannst du auf "confirm" klicken.
+Du bist jetzt mit deinem Server verbunden!
 
-In der Lobby kannst du nun einstellen, ob es ein öffentlicher oder ein privater Server sein soll.
-Zum umstellen kannst du dafür auf das "Private" bzw "Public" Icon klicken:
+In der Lobby kannst du nun einstellen, ob es ein öffentlicher oder ein privater Server sein soll. Zum Umstellen kannst du dafür auf das "Private" bzw "Public" Icon klicken:
 
-Steht der Server auf "Public" können andere Spieler auf die selbe Art und Weise sich mit dem Server verbinden.
-Diese müssen dann im Hauptmenü im Spiel nicht auf "Create Game" sondern auf "Find Game" klicken.
-Hier ist es wichtig, dass der Chat auf "others" steht und dass die Filter genau den Einstellungen vom Server entsprechen.
-Ansonsten wird der Server nicht angezeigt.
+Steht der Server auf "Public" können andere Spieler auf dieselbe Art und Weise sich mit dem Server verbinden. Diese müssen dann im Hauptmenü im Spiel nicht auf "Create Game", sondern auf "Find Game" klicken.
 
-Handelt es sich um einen "Private" Server muss man im Hauptmenü auf "Enter Code" klicken.
-Hier gibt man den Code an, welchen der Ersteller vom Server in der Lobby einsehen kann.
+Hier ist es wichtig, dass der Chat auf "others" steht und dass die Filter genau den Einstellungen vom Server entsprechen. Ansonsten wird der Server nicht angezeigt.
+
+Handelt es sich um einen privaten Server, so muss man im Hauptmenü auf "Enter Code" klicken. Hier gibt man den Code an, welchen der Ersteller vom Server in der Lobby einsehen kann.

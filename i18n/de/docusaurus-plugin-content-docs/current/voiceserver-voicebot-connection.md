@@ -21,7 +21,7 @@ Im Anschluss können unten die Daten eingetragen werden. Dann nur noch abspeiche
 
 ## Voicebot mit deinem Discord verbinden
 
-Um deinen Voicebot mit deinem Discord zu verbinden, musst du dich in die Servereinstellungen begeben.Unter **Server-Einstellungen** musst du dann **Discord** auswählen.
+Um deinen Voicebot mit deinem Discord zu verbinden, musst du dich in die Servereinstellungen begeben. Unter **Server-Einstellungen** musst du dann **Discord** auswählen.
 
 
 ![image](https://user-images.githubusercontent.com/13604413/159177233-8a4fe8cd-28af-4c6c-9c24-5ef25c3287c3.png)
@@ -31,7 +31,7 @@ Im Anschluss muss der **Discord Bot Token** und die **Discord Bot Client-ID** ei
 
 ## Discord Bot Token/Id besorgen
 
-Da dein Discord-Server keine direkte IP-Adresse oder einen Port hat, sind ein paar Schritte zur Vorbereitung notwendig, bevor du deinen Bot auf einem Discord-Server verwenden kannst.
+Da dein Discordserver keine direkte IP-Adresse oder einen Port hat, sind ein paar Schritte zur Vorbereitung notwendig, bevor du deinen Bot auf einem Discordserver verwenden kannst.
 
 ### Schritt 1: Eine Discord-Anwendung erstellen
 Als Erstes musst du eine Discord-Anwendung erstellen. Dein Bot wird dieser anschließend zugeordnet und agiert unter deren Namen. Um eine solche Anwendung zu erstellen, klicke bitte auf diesen Link: https://discordapp.com/developers/applications/me/
@@ -47,7 +47,7 @@ Anschließend erstellst du die App mit einem Klick auf **Create App**. Für die 
 
 
 ### Schritt 2: Einen Bot-User erstellen
-Deine Anwendung braucht nun noch einen User, den der Bot nutzen kann, um sich mit deinem Server zu verbinden.
+Deine Anwendung braucht jetzt noch einen User, den der Bot nutzen kann, um sich mit deinem Server zu verbinden.
 Diesen erstellst du ganz einfach per Klick auf **Create a Bot User**. Dann erhältst du einen User-Token. Bitte notiere dir auch diesen:
 
 ![image](https://user-images.githubusercontent.com/13604413/159177244-074344ef-1319-4282-a18e-f4eb94935f1f.png)

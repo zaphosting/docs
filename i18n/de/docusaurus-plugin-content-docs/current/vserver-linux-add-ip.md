@@ -7,10 +7,10 @@ sidebar_label: IPv4 Adresse hinzufügen
 
 ## Zusätzlich(e) IPv4 Adresse(en) hinzufügen
 
-Sofern diese nicht bereits automatisch eingetragen wurde, kann diese manuell in die Netzwerkconfig eingetragen werden. 
+Sofern diese nicht bereits automatisch eingetragen wurde, kann diese manuell in die Netzwerkkonfiguration eingetragen werden. 
 
 ### Schritt 1
-Die Netzwerkconfig wird mit einem Editor geöffnet, z.b mit "nano". 
+Die Netzwerkkonfiguration wird mit einem Editor geöffnet, z. B. mit "nano". 
 ```
 sudo nano /etc/network/interfaces
 ```
@@ -18,7 +18,7 @@ sudo nano /etc/network/interfaces
 Achtung: Die Config muss mit root Rechten bearbeitet werden.
 :::
 
-In der Config ist bereits ein Eintrag vorhanden der z.b so aussehen könnte:
+In der Config ist bereits ein Eintrag vorhanden, der z. B. so aussehen könnte:
 ```
 auto lo
 iface lo inet loopback
@@ -33,8 +33,8 @@ Dort wird das Interface "eth0" angegeben sowie die IPv4, ihre Netzmaske und Gate
 
 ### Schritt 2
 
-Um eine weitete IPv4 hinzuzufügen, muss ein weiteres Interface eingetragen werden, z.b "eth1".
-Die zusätzliche IPv4 lautet z.b 124.124.124.55.
+Um eine weitete IPv4 hinzuzufügen, muss ein weiteres Interface eingetragen werden, z. B. "eth1".
+Die zusätzliche IPv4 lautet z. B. 124.124.124.55.
 Die Netzwerkmaske lautet 255.255.255.0, da es ein Klasse C Netz ist. 
 Das Gateway ist immer die IPv4 Adresse mit einer 1 am Ende.
 
@@ -69,19 +69,17 @@ iface eth1 inet static
         netmask 255.255.255.0
         gateway 124.124.124.1
 ```
-Die Confing muss dann gespeichert werden, bei "nano" z.b mit **STRG+X, y dann Enter**
+Die Konfiguration muss dann gespeichert werden, bei "nano" z. B. mit **STRG+X, y dann Enter**
 
 ### Schritt 3
 
-Das Netzwerkmodul muss nun neugestartet werden, damit die die neue IPv4 Adresse aktiv wird, dies geschieht mit folgendem Befehl:
+Das Netzwerkmodul muss nun neu gestartet werden, damit die neue IPv4 Adresse aktiv wird, dies geschieht mit folgendem Befehl:
 ```
 sudo service networking restart
 ```
 Sobald dies abgeschlossen ist, ist der Server über beide IPv4 Adressen erreichbar. 
-Dies kann z.b mit einem Ping Check via Windows CMD oder Linux Terminal, je nach eigenem Rechner Betriebsystem geprüft werden:
+Dies kann z. B. mit einem Ping Check via Windows CMD oder Linux Terminal, je nach eigenem Rechner Betriebssystem geprüft werden:
 ```
 ping DieNeueIP
 ```
-Die gleichen Schritte sind bei noch mehr zusätzliche IPv4 Adressen zu erledigen, das Interface erhöht sich dann immer um eine Zahl z.b "eth2", "eht3" usw.
-
-✅Die zusätzliche IPv4 Adresse ist nun erfolgreich eingerichtet.
+Die gleichen Schritte sind bei noch mehr zusätzliche IPv4 Adressen zu erledigen, das Interface erhöht sich dann immer um eine Zahl z.b "eth2", "eht3" usw. Die zusätzliche IPv4 Adresse ist nun erfolgreich eingerichtet.

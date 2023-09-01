@@ -8,7 +8,7 @@ sidebar_label: Valheim Plus
 ## Vorwort
 
 :::info
-Valheim Plus ist eine Clientseitige Modifikation. Sie ermöglicht es einige Änderungen am Spiel vorzunehmen.
+Valheim Plus ist eine clientseitige Modifikation. Sie ermöglicht es einige Änderungen am Spiel vorzunehmen.
 :::
 
 ## Valheim Plus Installation auf dem Client
@@ -40,11 +40,11 @@ Hier suchen wir unter "Verfügbare Spiele" nun nach Valheim Plus und klicken auf
 
 ![image](https://user-images.githubusercontent.com/26007280/189885558-f233535b-8cde-4efa-896f-13b9a82cd857.png)
 
-Danach wird der Server neu installiert. Nach der Neuinstallation hat man die Möglichkeit das Passwort bei "**Configs**" zu entfernen und man kann nun auf mehr Slots upgraden.
+Danach wird der Server neu installiert. Nach der Neuinstallation hat man die Möglichkeit das Passwort bei "**Configs**" zu entfernen und man kann auf mehr Slots upgraden.
 
 ## Slots Upgrade
 
-Um nun ein Slotupgrade durchführen zu können, muss die "**UP- und Downgrade**" Funktion im Gameserver Dashboard geöffnet werden.
+Um ein Slotupgrade durchführen zu können, muss die "**UP- und Downgrade**" Funktion im Gameserver Dashboard geöffnet werden.
 
 ![image](https://user-images.githubusercontent.com/26007280/189885583-b4086c3d-4891-4d22-9ba6-8bec12118916.png)
 
@@ -56,7 +56,7 @@ Hierbei muss nur der "**Aufpreis**" bezahlt werden, dieser berechnet sich für d
 
 ![image](https://user-images.githubusercontent.com/13604413/159180047-0089d7b6-3a2f-4ce1-9c6f-daa2eb5acc64.png)
 
-Um das Upgrade abzuschließen, muss auf der Seite ganz unten nun die Bezahlmethode ausgewählt werden.
+Um das Upgrade abzuschließen, muss auf der Seite ganz unten jetzt die Bezahlmethode ausgewählt werden.
 Sobald ausgewählt drückt man den "***Upgrade durchführen***" Button und das Upgrade wird durchgeführt
 
 ![image](https://user-images.githubusercontent.com/13604413/159180050-43c2fe91-48a5-413d-ac17-f451858bed7d.png)
@@ -93,7 +93,7 @@ Eine Liste sämtlicher in der Konfigurationsdatei nutzbaren Befehle:
 |  Befehl   |           Werte          |                  Funktion               |
 | :--------: | :--------------------------: |  :---------------------------------:  |
 |   enabled     |        true / false      |     aktiviert bzw. deaktiviert Änderungen am Fermenter    |
-|   fermenterDuration      |        2400 (float) entspricht 48 ingame Stunden     |    setzt die Fertigungsdauer im Fermenter, je geringer der Wert desto schneller ist die Fertigung  |
+|   fermenterDuration      |        2400 (float) entspricht 48 im Spiel Stunden     |    setzt die Fertigungsdauer im Fermenter, je geringer der Wert desto schneller ist die Fertigung  |
 |   fermenterItemsProduced      |        6 (integer)     |     setzt die Items welche im Fermenter produzierter werden können    |
 
 ### [Furnace]
@@ -138,7 +138,7 @@ Eine Liste sämtlicher in der Konfigurationsdatei nutzbaren Befehle:
 | :--------: | :--------------------------: |  :---------------------------------:  |
 |   enabled     |        true / false      |     aktiviert bzw. deaktiviert Änderungen am Beehive    |
 |   maximumHoneyPerBeehive      |        4 (integer)     |    setzt die maximale Anzahl an Honig aus dem Beehive  |
-|   honeyProductionSpeed      |       1200 (float)  entspricht 24 ingame Stunden    |   setzt die Fertigungsdauer von Honig, je geringer der Wert desto schneller ist die Fertigung  |
+|   honeyProductionSpeed      |       1200 (float)  entspricht 24 im Spiel Stunden    |   setzt die Fertigungsdauer von Honig, je geringer der Wert desto schneller ist die Fertigung  |
 
 ### [Server]
 

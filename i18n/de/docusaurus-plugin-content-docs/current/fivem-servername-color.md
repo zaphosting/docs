@@ -1,7 +1,7 @@
 ---
 id: fivem-servername-color
 title: Servernamen farbig anzeigen lassen
-description: Informationen, wie du die Farben des Servernamens, der in der Serverliste für FiveM-Server angezeigt wird, einstellen kannst - ZAP-Hosting.com Dokumentation
+description: Informationen, wie du die Farben des Servernamens, der in der Serverliste für FiveM Server angezeigt wird, einstellen kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Servernamen färben
 ---
 
@@ -15,15 +15,15 @@ sidebar_label: Servernamen färben
 
 ## Servername
 
-Damit der Fivem Servername unter "**Configs**" bearbeitet werden kann, muss dieser vorher bei "**Einstellungen**" leer gelassen werden.
+Damit der FiveM Servername unter "**Configs**" bearbeitet werden kann, muss dieser vorher bei "**Einstellungen**" leer gelassen werden.
 
 ![image](https://user-images.githubusercontent.com/13604413/159138187-8ca712ab-7a1f-4595-8e34-814ddd6a7eab.png)
 
 :::info
- Um den Servernamen zu färben wird ein Fivem Element Argentum Schlüssel benötigt [Fivem Patreon](https://www.patreon.com/fivem)
+ Um den Servernamen zu färben wird ein FiveM Element Argentum Schlüssel benötigt [FiveM Patreon](https://www.patreon.com/fivem)
 :::
 
-In diesem Einstellungsfenster kann nun das Schloss-Symbol betätigt werden um die Einstellungen in der "**Config**" vornehmen zu können.
+In diesem Einstellungsfenster kann nun das Schloss-Symbol betätigt werden, um die Einstellungen in der "**Config**" vornehmen zu können.
 Die Änderungen werden durch Nutzen des "**Speichern**" Buttons übernommen.
 
 Nun kann der Servername mit den gewünschten Codes in der "**Server.cfg**" gesetzt werden. 
@@ -31,7 +31,7 @@ Diese befindet sich bei der Kategorie "**Configs**"
 
 ![image](https://user-images.githubusercontent.com/13604413/159138210-294e1683-551d-46d5-b5e2-7e8919e71e2e.png)
 
-Der Servername und die gewünschten Farbcodes werden nun bei `sets sv_projectName "DEIN SERVERNAME"` gesetzt.
+Der Servername und die gewünschten Farbcodes werden jetzt bei `sets sv_projectName "DEIN SERVERNAME"` gesetzt.
 
 ![image](https://user-images.githubusercontent.com/13604413/159138205-d97a8017-e602-4e26-81af-c59055f4ff02.png)
 

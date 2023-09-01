@@ -26,17 +26,17 @@ Hier öffnen wir das txAdmin Interface nun über den Link im Interface:
 
 ![image](https://user-images.githubusercontent.com/13604413/159169313-5e9e3c01-1c48-48e5-855e-6126c39bfdf9.png)
 
-Im txAdmin Interface geben wir nun unseren Benutzer und unseres Passwort an, welches unter dem Link steht und melden uns an.
+Im txAdmin Interface geben wir nun unseren Benutzer und unser Passwort an, welches unter dem Link steht und melden uns an.
 
 Nach der Anmeldung landen wir direkt im txAdmin Setup, hier können wir nun auswählen, wie unser Server heißt:
 
 :::info
-Diese Einstellung ist **nicht** der Server Name in der Serverliste, sondern ein interner Name für Ingame Meldungen und den Discord Webhook.
+Diese Einstellung ist **nicht** der Server Name in der Serverliste, sondern ein interner Name für im Spiel Meldungen und den Discord Webhook.
 :::
 
 ![image](https://user-images.githubusercontent.com/13604413/159169329-6b9670f4-e472-4619-8451-4dc8158a33cf.png)
 
-Nun können wir auswählen, wie genau wir den Server Einrichten wollen, hier gibt es mehrere Optionen:
+Nun können wir auswählen, wie genau wir den Server einrichten wollen, hier gibt es mehrere Optionen:
 
 ![image](https://user-images.githubusercontent.com/13604413/159169335-a4a52bc6-020e-4116-985c-9145ae7d5d84.png)
 
@@ -67,12 +67,12 @@ Falls eigene Datenbank-Einstellungen oder License Key genutzt werden sollen, kan
 
 
 
-Fast fertig! Nun können wir noch die letzten Änderungen in der server.cfg vornehmen, nun drücken wir einfach nur noch "Save & Run Server", und der FiveM Server wird automatisch starten!
+Fast fertig! Jetzt können wir noch die letzten Änderungen in der server.cfg vornehmen, nun drücken wir einfach nur noch "Save & Run Server", und der FiveM Server wird automatisch starten!
 
 
 ### Remote URL Template
 
-Falls eine Template aufgespielt werden soll, welche in txAdmin selbst nicht verlinkt ist, kann mit dieser Funktion ein eigenes Recipe an gegeben werden, welches auf dem Server ausgeführt wird.
+Falls ein Template aufgespielt werden soll, welche in txAdmin selbst nicht verlinkt ist, kann mit dieser Funktion ein eigenes Recipe angegeben werden, welches auf dem Server ausgeführt wird.
 
 ### Custom Template
 

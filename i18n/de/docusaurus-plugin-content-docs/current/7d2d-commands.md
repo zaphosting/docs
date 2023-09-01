@@ -5,9 +5,9 @@ description: Information, wie du Server Befehle bei deinem 7 Days to Die Server 
 sidebar_label: Befehle ausführen
 ---
 
-## Die Console
+## Die Konsole
 Um Befehle ausführen zu können musst du Admin sein, solltest du nicht wissen wie du ein Admin in 7 Days To die wirst, kannst du unserer Anleitung hierzu folgen.
-Alle Befehle werden im Spiel über die sogenannte Entwicklerconsole ausgeführt. Diese Console wird mit `F1` geöffnet.
+Alle Befehle werden im Spiel über die sogenannte Entwicklerkonsole ausgeführt. Diese Konsole wird mit `F1` geöffnet.
 
 Diese sieht in etwa so aus:
 

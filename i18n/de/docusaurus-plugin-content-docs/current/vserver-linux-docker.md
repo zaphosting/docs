@@ -7,7 +7,7 @@ sidebar_label: Docker installieren
 
 ## Was ist Docker überhaupt?
 
-Docker ist eine leichtgewichtige Open-Source Virtualisierungssoftware um Dienste bzw. Anwendungen isoliert auf einem einzelnen System bereitzustellen. Im Gegensatz zu richtigen Virtuellen Maschinen wird hierfür kein extra Betriebssystem emuliert bzw. gehostet, sondern explizit nur eine Anwendungsumgebung innerhalb des Hostsystemes. Das ist nicht nur allgemein Ressourcen sparend, sondern verursacht gleichzeitig im Vergleich zur Voll Virtualisierung einen niedrigen Overhead.
+Docker ist eine leichtgewichtige Open-Source Virtualisierungssoftware, um Dienste bzw. Anwendungen isoliert auf einem einzelnen System bereitzustellen. Im Gegensatz zu richtigen virtuellen Maschinen wird hierfür kein extra Betriebssystem emuliert bzw. gehostet, sondern explizit nur eine Anwendungsumgebung innerhalb des Hostsystems. Das ist nicht nur allgemein Ressourcen sparend, sondern verursacht gleichzeitig im Vergleich zur Voll Virtualisierung einen niedrigen Overhead.
 
 ## Wie installiere ich Docker auf meinem Linux Server?
 
@@ -40,9 +40,9 @@ systemctl start docker
 systemctl enable docker
 ```
 
-## Überprüfen ob die Installation von Docker erfolgreich war
+## Überprüfen, ob die Installation von Docker erfolgreich war
 
-Wenn das alles erledigt wurde, können wir schauen ob Docker läuft: 
+Wenn das alles erledigt wurde, können wir schauen, ob Docker läuft: 
 ```
 systemctl status docker 
 ```
@@ -51,12 +51,11 @@ systemctl status docker
 ![image](https://user-images.githubusercontent.com/13604413/172061231-1bbde11c-85b9-47a7-9f88-44e31144d1c8.png)
 
 
-Wenn das so aussieht und bei der Ausgabe "**Active (running)**" steht, wurde Docker komplett ohne Probleme Installiert. 
-Mit einem **docker run hello-world** kann man dann checken ob Docker auch korrekt ausgeführt wird.
+Wenn das so aussieht und bei der Ausgabe "**Active (running)**" steht, wurde Docker komplett ohne Probleme installiert. 
+Mit einem **docker run hello-world** kann man dann checken, ob Docker auch korrekt ausgeführt wird.
 Die Ausgabe sollte so aussehen:
 
 ![image](https://user-images.githubusercontent.com/13604413/172061244-6834dae0-f14a-43ad-85d6-b5bf74ea89f8.png)
 
 
-Die Installation von Docker war erfolgreich.
-Nun kannst du los legen und Docker verwenden!
+Die Installation von Docker war erfolgreich. Nun kannst du loslegen und Docker verwenden!

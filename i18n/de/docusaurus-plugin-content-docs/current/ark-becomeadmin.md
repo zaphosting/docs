@@ -31,7 +31,7 @@ Danach kannst du sämtliche Server-Befehle als Admin ausführen. Im folgenden fi
 | setcheatplayer TRUE/FALSE                      | Aktiviert / deaktiviert das Cheat-Menu                       |
 | admincheat AllowPlayerToJoinNoCheck SteamID    | Spieler zur Whitelist hinzufügen                             |
 | admincheat DisallowPlayerToJoinNoCheck SteamID | Spieler von der Whitelist entfernen                          |
-| admincheat SetMessageOfTheDay Nachricht        | Bestimmt die Nachricht des Tages (MOTD). Wenn ein Spieler sich mit dem Server des Spiels verbindet erscheint diese Nachricht |
+| admincheat SetMessageOfTheDay Nachricht        | Bestimmt die Nachricht des Tages (MOTD). Wenn ein Spieler sich mit dem Server des Spiels verbindet, erscheint diese Nachricht |
 | admincheat broadcast Nachricht                 | Verschickt eine Nachricht an alle auf dem Server befindenden Spieler |
 | admincheat god                                 | Aktiviert die Unsterblichkeit für den eigenen Spieler        |
 | admincheat fly                                 | Aktiviert das Fliegen für den eigenen Spieler                |
@@ -48,4 +48,3 @@ Danach kannst du sämtliche Server-Befehle als Admin ausführen. Im folgenden fi
 | admincheat saveworld                           | Speichert den aktuellen Stand der Welt                       |
 | admincheat addexperience Menge                 | Fügt dem Spieler Erfahrung hinzu                             |
 | admincheat settimeofday Zeit                   | Ändert die Tageszeit des Gameservers. Beispiel: "admincheat settimeofday 12:00" |
-

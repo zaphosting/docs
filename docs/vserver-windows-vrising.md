@@ -27,7 +27,7 @@ Then choose "New -> Folder".
 
 You can name it whatever you want. In our example we will name it "VRising"
 
-## Step 2 Download Steamcmd to your Windows server
+## Step 2 Download SteamCMD to your Windows server
 
 Open the browser and go to the [link](https://steamcdn-a.akamaihd.net/client/installer/steamcmd.zip). That will download SteamCMD for Windows to your Server.
 

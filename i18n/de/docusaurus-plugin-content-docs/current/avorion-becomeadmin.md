@@ -9,7 +9,7 @@ sidebar_label: Admin werden
 
 ## Admin werden
 
-Mit Administrator-Rechten kannst du direkt im Spiel Änderungen im Live-Zustand an deinem Server vornehmen, ohne diese in der Config vorzunehmen. Das Hinzufügen eines Admins erfolgt über die Einstellungsseite im Webinterface statt. Klicke dazu in der **Gameserver Verwaltung** auf **Einstellungen** und Scrolle dann runter zu den **Servereinstellungen**.
+Mit Administrator-Rechten kannst du direkt im Spiel Änderungen im Live-Zustand an deinem Server vornehmen, ohne diese in der Config vorzunehmen. Das Hinzufügen eines Admins erfolgt über die Einstellungsseite im Webinterface statt. Klicke dazu in der **Gameserver Verwaltung** auf **Einstellungen** und scrolle dann runter zu den **Servereinstellungen**.
 
 ![image](https://user-images.githubusercontent.com/13604413/159184322-cb6e4aeb-690b-4bed-8ba4-7d9527e873be.png)
 
@@ -37,7 +37,7 @@ Dadurch erhältst du dort sowohl allgemeine Informationen als auch die Steam ID 
 
 
 
-Klicke auf **Speichern**. Nun kannst du nach einem Neustart im Spiel Admin Befehle ausführen. Klicke dazu auf Enter um den Chat zu öffnen und führe die Befehle dann mit einem / Symbol aus. 
+Klicke auf **Speichern**. Nun kannst du nach einem Neustart im Spiel Admin Befehle ausführen. Klicke dazu auf Enter, um den Chat zu öffnen und führe die Befehle dann mit einem / Symbol aus. 
 
 
 

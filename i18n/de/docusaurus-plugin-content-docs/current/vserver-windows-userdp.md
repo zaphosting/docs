@@ -20,7 +20,7 @@ Die Windows Suchfunktion ist über das Windows Symbol in der linken unteren Ecke
 
 ## IP-Adresse & Zugang
 
-"Remotedesktopverbindung", fragt nach einem "**Computernamen**". Das ist die IP-Adresse des Servers.
+"Remotedesktopverbindung", fragt nach einem, "**Computernamen**". Das ist die IP-Adresse des Servers.
 
 ![image](https://user-images.githubusercontent.com/13604413/159172608-95cba5ba-111f-41e5-b3c5-edc28ef495b5.png)
 
@@ -41,7 +41,7 @@ Standardgemäß ist kein Zertifikat installiert. Das Passwort wird daher unsiche
 
 ## Alternative Remote Programme
 
-Folgende alternative Programme sind geeignet um per Remote auf einen Windows Server zu verbinden: 
+Folgende alternative Programme sind geeignet, um per Remote auf einen Windows-Server zu verbinden: 
 
 - Remote Desktop Connection Manager (RDCMan)
 - mRemoteNG

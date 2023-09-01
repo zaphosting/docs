@@ -9,7 +9,7 @@ sidebar_label: Server down - Was nun?
 
 ## Einführung
 
-Wenn dein Gameserver down ist, kann das viel Gründe haben. **Wichtig** ist, dass du erstmal nicht direkt versucht diesen neu zu starten, sondern erst einen Blick in die **Log-Datei** wirfst. Dort sind in der Regel **Fehlermeldungen**, die beschreiben warum genau der Server abgestürzt ist. **Solltest du den Server direkt neu starten, so wird die Log neu generiert und die alte gelöscht. Dann kann man leider keine Fehler mehr einsehen.**
+Wenn dein Gameserver down ist, kann das viel Gründe haben. **Wichtig** ist, dass du erstmal nicht direkt versucht diesen neu zu starten, sondern erst einen Blick in die **Log-Datei** wirfst. Dort sind in der Regel **Fehlermeldungen**, die beschreiben, warum genau der Server abgestürzt ist. **Solltest du den Server direkt neu starten, so wird die Log neu generiert und die alte gelöscht. Dann kann man leider keine Fehler mehr einsehen.**
 
 
 
@@ -30,13 +30,13 @@ Im folgenden Screenshot habe ich ein Beispiel eines FivemServers mit falschem Se
 
 ![image](https://user-images.githubusercontent.com/13604413/159184775-0adaa28c-df45-4457-a420-a84d4ad3016a.png)
 
-Diesen Fehler könntest du dann z.B. bei Google eingeben und schauen ob dieser bekannt ist. In der Regel findet man dort recht schnell den Grund, der diesen Fehler ausgelöst hat.
+Diesen Fehler könntest du dann z.B. bei Google eingeben und schauen, ob dieser bekannt ist. In der Regel findet man dort recht schnell den Grund, der diesen Fehler ausgelöst hat.
 
 Solltest du zu dem Fehler nichts finden, dann kannst du am besten in den Live Chat gehen und dort diesen Fehler als Text oder Screenshot einschicken.
 
 ## Log-Datei ohne Inhalt
 
-Das kann leider ebenfalls passieren. Wenn die Log-Datei leer ist, dann konnte sie nicht erstellt werden, da der Server direkt down gegangen ist oder wurde aufgrund eines Neustarts gelöscht. In dem Fall kannst du nur versuchen ihn neu zu starten in der Hoffnung, dass der Fehler erneut generiert wird oder der Server wieder läuft.
+Das kann bedauerlicherweise ebenfalls passieren. Wenn die Log-Datei leer ist, dann konnte sie nicht erstellt werden, da der Server direkt down gegangen ist oder wurde aufgrund eines Neustarts gelöscht. In dem Fall kannst du nur versuchen ihn neu zu starten in der Hoffnung, dass der Fehler erneut generiert wird oder der Server wieder läuft.
 
 ## Keine Lösung im Chat
 
@@ -60,4 +60,4 @@ Die Neuinstallation kann unter "Einstellungen" auf der linken Seite gestartet we
 
 ## Neuinstallation ohne Erfolg
 
-Das ist leider der schlimmste Fall, der eintreten kann. Dann ist es leider nur noch möglich den Server über den Chat oder ein Ticket prüfen zu lassen, da es dann ein schwerwiegenderes Problem ist. In dem Fall werden wir unser Bestes geben das Problem so schnell es geht für dich zu lösen, damit du deinen Dienst wieder wie gewohnt nutzen kannst.
+Das ist leider der schlimmste Fall, der eintreten kann. Dann ist es bedauerlicherweise nur noch möglich den Server über den Chat oder ein Ticket prüfen zu lassen, da es dann ein schwerwiegenderes Problem ist. In dem Fall werden wir unser Bestes geben das Problem so schnell es geht für dich zu lösen, damit du deinen Dienst wieder wie gewohnt nutzen kannst.

@@ -159,7 +159,7 @@ Unter den Einstellungen findest du eine Übersicht der gängingsten Einstellungs
 Hier kannst du beispielsweise folgende Anpassungen vornehmen: 
 
 - Basiseinstellungen (Servername, Projekt-Name, Projekt-Beschreibung, Admins, usw.)
-- EasyAdmin (Sprache, Menü Button, Discord Webhook, Report und Admin Commands)
+- EasyAdmin (Sprache, Menü Button, Discord Webhook, Report und Admin Befehls)
 - FiveM(Koordinaten Anzeigen, Player vs. Player (PVP))
 - Loading Screen (Youtube Video ID)
 

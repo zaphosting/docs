@@ -53,14 +53,14 @@ Gewisse Resourcen arbeiten mit einer Datenbank zusammen und beinhalten daher oft
 
 ### Aktivierung
 
-Damit die installierte Resource auch geladen wird, muss diese in der Server Config erst noch aktiviert werden. Die Aktivierung erfolgt über den **Start** Befehl. Wenn du beispielsweise die Resource mit dem Namen "eup-ui" hochgeladen hast, dann muss der Start Befehl in der Config folgendermaßen aussehen: 
+Damit die installierte Resource auch geladen wird, muss diese in der Server Config erst noch aktiviert werden. Die Aktivierung erfolgt über den **Start** Befehl. Wenn du beispielsweise die Resource mit dem Namen "eup-ui" hochgeladen hast, dann muss der Startbefehl in der Config folgendermaßen aussehen: 
 
 ```
 start eup-ui
 ```
 
 :::info
-Hierbei ist zu beachten, dass der Name des zuvor erstellten Ordners mit dem Namen des Startbefehls übereinstimmen muss. Dabei ist auch die Groß- und Kleinschreibung essentiell. 
+Hierbei ist zu beachten, dass der Name des zuvor erstellten Ordners mit dem Namen des Startbefehls übereinstimmen muss. Dabei ist auch die Groß- und Kleinschreibung essenziell. 
 :::
 
 

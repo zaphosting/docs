@@ -19,7 +19,7 @@ Nachdem dieser eingerichtet wurde, kann sich nun verbunden werden und der Server
 
 ## Vorbereitung
 
-Nachdem eine Resource runtergeladen wurde, ist diese normalerweise ZIP-Gepackt, diese muss nun entpackt werden (z. B. mit 7Zip, WinRar oder WinZip)
+Nachdem eine Resource heruntergeladen wurde, ist diese normalerweiseals  ZIP-gepackt. Diese muss nun entpackt werden (z. B. mit 7Zip, WinRar oder WinZip)
 
 Nachdem die Resource entpackt wurde, sollte darin nun eine resource.cfg und Script Files/Ordner sein.
 
@@ -47,8 +47,7 @@ Unter den restlichen Starteinträgen für Ressourcen kann nun der Eintrag für u
 ![image](https://user-images.githubusercontent.com/13604413/169707378-85eb7c30-aba5-4b17-8b5f-4ed931aee14d.png)
 
 :::info
-Beachte: Es muss nach jeder Zeile in dieser liste, außer bei der letzten, ein Komma stehen.
+Beachte: Es muss nach jeder Zeile in dieser Liste, außer bei der letzten, ein Komma stehen.
 :::
 
-
-Danach kann der Server neugestartet werden und die Resource sollte ingame erscheinen!
+Danach kann der Server neu gestartet werden und die Resource sollte im Spiel angezeigt werden!

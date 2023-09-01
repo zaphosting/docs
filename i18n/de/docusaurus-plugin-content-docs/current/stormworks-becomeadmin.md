@@ -11,11 +11,11 @@ Klicke im Webinterface deines Gameservers links unter Einstellungen auf "Configs
 
 ![404-325-max](https://user-images.githubusercontent.com/61953937/196053561-3b58fbd9-1b59-4d82-9a9e-1ca64cfc19b4.png)
 
-Jetzt siehst du die "Stormworks server_config.xml". Klicke zum bearbeiten auf den blauen Stift:
+Jetzt siehst du die "Stormworks server_config.xml". Klicke zum Bearbeiten auf den blauen Stift:
 
 ![752-69-max](https://user-images.githubusercontent.com/61953937/196053602-221845da-dcb8-4d21-8e4d-d78e14081a6f.png)
 
-Anschließend kannst du in der Section "admin" eine Steam64ID hinzufügen, welche Admin Rechte erhalten soll:
+Anschließend kannst du in der Sektion "admin" eine Steam64ID hinzufügen, welche Admin Rechte erhalten soll:
 
 ![image](https://user-images.githubusercontent.com/61953937/196053677-c8d4cbcf-6379-4a2e-b07f-cb673e00a2d6.png)
 
@@ -27,4 +27,4 @@ Nachdem du die Admins eingetragen hast, kannst du die Config mit dem "Speichern"
 
 ![image](https://user-images.githubusercontent.com/61953937/196053744-54e76888-4be1-4302-9ed2-e54c7354bacc.png)
 
-Starte nun deinen Server neu, damit alle eingetragenen Steam64IDs ihre Admin Berechtigungen erhalten. 
+Starte nun deinen Server neu, damit alle eingetragenen Steam64IDs ihre Admin-Berechtigungen erhalten. 

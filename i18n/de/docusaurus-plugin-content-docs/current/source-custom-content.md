@@ -13,7 +13,7 @@ Einige Source-Games wie zum Beispiel Counter-Strike oder Garrys Mod sind durch i
 
 
 
-Auf solchen Server werden oftmals Maps, Player Skins und Sounds die von der Community erstellt wurden benutzt. Damit Spieler auch die verwendeten Custom Inhalte vom Server benutzen bzw. sehen können müssen diese vorher erst vom Server heruntergeladen werden. Hierbei gibt es zwei Möglichkeiten:
+Auf solchen Server werden oftmals Maps, Player Skins und Sounds die von der Community erstellt wurden benutzt. Damit Spieler auch die verwendeten Custom Inhalte vom Server benutzen bzw. sehen können, müssen diese vorher erst vom Server heruntergeladen werden. Hierbei gibt es zwei Möglichkeiten:
 
 - FastDL
 - Steam Workshop
@@ -40,7 +40,7 @@ Im Folgenden wird die Einrichtung des FastDL Servers mittels eines unserer [Webs
 
 
 
-Dort angelangt rufen wir den File-Manager auf und legen dabei die folgenden Ordner an:
+Dort angelangt, rufen wir den File-Manager auf und legen dabei die folgenden Ordner an:
 
 ![image](https://user-images.githubusercontent.com/26007280/189977431-ffb69343-cce3-4c8b-a692-852d09485dfd.png)
 
@@ -58,7 +58,7 @@ Die Berechtigungen müssen für alle Ordner gesetzt werden!
 
 Nun können die Custom Inhalte hochgeladen werden. Hierfür müssen die Dateien sowohl auf dem Server als auch auf dem FastDL(Webspace) vorhanden sein. Auf dem Gameserver werden die Dateien ungepackt hochgeladen und auf dem FastDL sollten sie als bzip2 gepackt hochgeladen werden. Hierfür eignet sich das Programm 7Zip.
 
-Als letztes muss der FastDL Server nur noch beim Gameserver eingetragen werden. Die Konfiguration erfolgt hierbei über die **server.cfg**. Dafür müssen die folgenden Befehle zu der Config hinzugefügt werden:
+Als Letztes muss der FastDL Server nur noch beim Gameserver eingetragen werden. Die Konfiguration erfolgt hierbei über die **server.cfg**. Dafür müssen die folgenden Befehle zu der Config hinzugefügt werden:
 
 ```
 sv_allowdownload 1
@@ -91,7 +91,7 @@ Danach wurde die Kollektion erfolgreich erstellt. Diese ist standardmäßig aber
 ![image](https://user-images.githubusercontent.com/26007280/189977514-079c20d6-69ee-4459-b051-20d59a61f5f5.png)
 
 
-Wenn du die mit dem Zusammenstellen der Inhalte fertig bist, dann musst du im Anschluss erneut die Kollektion aufrufen und dort dann rechtsklick drücken und Seiten-URL kopieren auswählen. Aus der URL wird die ID der Kollektion benötigt, welche wie folgt aussehen kann:
+Wenn du die mit dem Zusammenstellen der Inhalte fertig bist, dann musst du im Anschluss erneut die Kollektion aufrufen und dort dann Rechtsklick drücken und Seiten-URL kopieren auswählen. Aus der URL wird die ID der Kollektion benötigt, welche wie folgt aussehen kann:
 
 ...steamcommunity.com/sharedfiles/filedetails/?id=**2108505414**
 

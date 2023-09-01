@@ -7,17 +7,17 @@ sidebar_label: ELS installieren
 
 ## Mit FTP verbinden
 
-Bevor die Resource installiert werden können, muss der [FTP-Zugang](gameserver-ftpaccess.md) eingerichtet werden
+Bevor die Resource installiert werden kann, muss der [FTP-Zugang](gameserver-ftpaccess.md) eingerichtet werden
 
 ## Vorbereitung
 
 Zuerst laden wir die neuste [ELS-FiveM Version](https://github.com/MrDaGree/ELS-FiveM/releases/latest) runter, diese finden wir unter "Assets"
 
-Nachdem wir ELS runtergeladen haben, entpacken wir zunächst die Zipdatei, nachdem wir dies getan haben, öffnen wir den "ELS-FiveM" Ordner.
+Nachdem wir ELS heruntergeladen haben, entpacken wir zunächst die Zip-Datei, nachdem wir dies getan haben, öffnen wir den "ELS-FiveM" Ordner.
 
 ## Konfiguration
 
-Nun Konfigurieren wir ELS-FiveM, dazu erstellen wir eine Kopie von der `vcf.default.lua`, und nennen diese `vcf.lua`.
+Nun konfigurieren wir ELS-FiveM, dazu erstellen wir eine Kopie von der `vcf.default.lua`, und nennen diese `vcf.lua`.
 
 :::info
 Beachte: Die alte `vcf.default.lua` darf nicht gelöscht werden.
@@ -35,19 +35,19 @@ Nachdem diese hochgeladen wurde, muss die server.cfg im server-data Ordner geöf
 
 Unter den restlichen Starteinträgen für Ressourcen kann nun der Eintrag für ELS-FiveM hinzugefügt werden
 
-Danach kann der Server neugestartet werden und ELS-FiveM ist ingame verfügbar!
+Danach kann der Server neu gestartet werden und ELS-FiveM ist im Spiel verfügbar!
 
 
 ## Carmods Konfigurieren
 
-Um neue Carmods in ELS-FiveM einzufügen brauchen wir zunächst dessen ELS-Config, diese findet man oft im Ordner des runtergeladenen Carmods, meist heißen diese `autoname.xml`, in unserem Fall ist es `scpdvic.xml`.
+Um neue Carmods in ELS-FiveM einzufügen brauchen wir zunächst dessen ELS-Config, diese findet man oft im Ordner des heruntergeladenen Carmods, meist heißen diese `autoname.xml`, in unserem Fall ist es `scpdvic.xml`.
 
-Diese laden wir nun in den "vcf" Ordner unseres ELS-FiveM Ordners über FTP Hoch.
+Diese laden wir nun in den "vcf" Ordner unseres ELS-FiveM Ordners über FTP hoch.
 
 Nachdem die Datei hochgeladen wurde, öffnen wir nun die `vcf.lua` Datei, im ELS-FiveM Ordner.
 
 :::info
-Gehe sicher das die vorherige zeile immer ein Komma am ende ha
+Gehe sicher, dass die vorherige Zeile immer ein Komma am Ende hast.
 :::
 
-Fertig! Unser Carmod sollte nach einem Neustart des Servers ELS-Aktiviert sein.
+Fertig! Unser Carmod sollte nach einem Neustart des Servers ELS aktiviert sein.

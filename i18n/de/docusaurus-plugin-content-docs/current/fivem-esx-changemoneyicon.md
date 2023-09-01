@@ -1,7 +1,7 @@
 ---
 id: fivem-esx-changemoneyicon
 title: Geldicon Ändern
-description: Informationen, wie du das Geldicon auf deinem FiveM-Server mit ESX von ZAP-Hosting ändern kannst - ZAP-Hosting.com Dokumentation
+description: Informationen, wie du das Geldicon auf deinem FiveM Server mit ESX von ZAP-Hosting ändern kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Geldicon ändern
 ---
 
@@ -23,9 +23,9 @@ Nun fügen wir über der `start essentialmode` Zeile Folgendes ein:
 set es_moneyIcon "$"
 ```
 
-Hier können wir nun das $ mit unserem eigenen Icon ersetzen.
+Hier können wir jetzt das $ mit unserem eigenen Icon ersetzen.
 
 ![image](https://user-images.githubusercontent.com/13604413/159166838-80e3974b-9a49-4604-9f85-50c1a5775f41.png)
 
 
-Nach einem Serverneustart wird das Geldicon Ingame Sichtbar sein.
+Nach einem Serverneustart wird das Geldicon im Spiel sichtbar sein.

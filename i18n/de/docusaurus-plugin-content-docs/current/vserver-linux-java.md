@@ -8,7 +8,7 @@ sidebar_label: Java installieren
 
 ## Was ist Java und wofür wird es benötigt?
 
-Java ist weltweit eine sehr stark verwendete Programmiersprache die für zahlreiche Programme und Dienste eingesetzt wird. Damit diese Programme funktionieren ist es zwingend notwendig das Java auf dem System installiert ist. Im Folgenden erfährst du, wie du für die angebotenen Linux Betriebssysteme Java auf deinem System installieren kannst. 
+Java ist weltweit eine sehr stark verwendete Programmiersprache, die für zahlreiche Programme und Dienste eingesetzt wird. Damit diese Programme funktionieren ist es zwingend notwendig, dass Java auf dem System installiert ist. Im Folgenden erfährst du, wie du für die angebotenen Linux Betriebssysteme Java auf deinem System installieren kannst. 
 
 
 
@@ -69,7 +69,7 @@ sudo dnf install java-11-openjdk
 
 ## Version-Check
 
-Nachdem die Installation abgeschlossen wurde kannst du mit dem **java --version** Befehl prüfen, ob die Installation erfolgreich gewesen ist. Die Ausgabe sollte im etwa wie im folgenden aussehen:
+Nachdem die Installation abgeschlossen wurde, kannst du mit dem **java --version** Befehl prüfen, ob die Installation erfolgreich gewesen ist. Die Ausgabe sollte im etwa wie im Folgenden aussehen:
 
 ```
 openjdk 11.0.9.1 2020-11-04

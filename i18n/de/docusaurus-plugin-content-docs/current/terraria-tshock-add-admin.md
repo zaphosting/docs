@@ -6,10 +6,10 @@ sidebar_label: Admin werden (tShock)
 ---
 
 
-## Abrufen des Token's
+## Abrufen des Tokens
 
-Um dich als Admin auf deinem Terraria Server eintragen zu können, benötigtst du deinen einzigartigen Token.
-Dieser wird generiert wenn du den Server das erste Mal startest, im Anschluss öffnest du die Live Konsole in welcher du den Token findest:
+Um dich als Admin auf deinem Terraria Server eintragen zu können, benötigst du deinen einzigartigen Token.
+Dieser wird generiert, wenn du den Server das erste Mal startest, im Anschluss öffnest du die Live Konsole, in welcher du den Token findest:
 
 ![image](https://user-images.githubusercontent.com/13604413/159178412-e6fbff3e-8935-4fd3-bb2e-7de32a2e1891.png)
 
@@ -17,7 +17,7 @@ Dieser wird generiert wenn du den Server das erste Mal startest, im Anschluss ö
 
 In diesem Fall lautet der Token **4914096**.
 
-## Eingabe des Token's im Spiel
+## Eingabe des Tokens im Spiel
 
 Um dich nun als Admin eintragen zu können, trittst du deinem Server in Terraria bei und gibst im Spiel den Befehl **/setup 4914096** ein.
 Dabei ersetzt du natürlich den Token **4914096** mit deinem eigenen.
@@ -31,7 +31,7 @@ Dabei ersetzt du natürlich den Token **4914096** mit deinem eigenen.
 
 ## Hinzufügen eines Admins
 
-Nun kannst du mit dem Befehl **/user add USERNAME PASSWORT owner** einen neuen Admin zu deinem Server hinzufügen. 
+Jetzt kannst du mit dem Befehl **/user add USERNAME PASSWORT owner** einen neuen Admin zu deinem Server hinzufügen. 
 Dabei ersetzt du **USERNAME** durch deinen Namen und als **PASSWORT** kannst du ein beliebiges Passwort frei wählen
 welches du künftig für den Login als Admin auf deinem Server verwenden kannst. 
 
@@ -39,15 +39,15 @@ welches du künftig für den Login als Admin auf deinem Server verwenden kannst.
 ![image](https://user-images.githubusercontent.com/13604413/159178433-e49d98cd-bbcc-400a-abd2-d1e2f83c9052.png)
 
 :::info
-Beachte dass dein Passwort mindestens 4 Zeichen lang sein muss!
+Beachte, dass dein Passwort mindestens 4 Zeichen lang sein muss!
 :::
 
 ## Login als Admin
 
-Nachdem du dich im Spiel Als Admin eingetragen hast, kannst du dich mit folgendem Befehl einloggen:
+Nachdem du dich im Spiel als Admin eingetragen hast, kannst du dich mit folgendem Befehl einloggen:
 **/login USERNAME PASSWORD**
 
-Dabei ersetzt du natürlich wieder **USERNAME** durch deinen namen und **PASSWORT** durch das von dir zuvor gesetzte Passwort.
+Dabei ersetzt du natürlich wieder **USERNAME** durch deinen Namen und **PASSWORT** durch das von dir zuvor gesetzte Passwort.
 
 ![image](https://user-images.githubusercontent.com/13604413/159178437-649a13f9-8ac3-45e1-91a5-e59311b00795.png)
 

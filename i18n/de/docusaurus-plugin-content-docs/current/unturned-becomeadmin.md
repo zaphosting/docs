@@ -1,18 +1,15 @@
 ---
 id: unturned-becomeadmin
 title: Server-Admin werden
-description: Informationen, wie du dich zum Admin auf deinem Unturned-Server von ZAP-Hosting machen kannst - ZAP-Hosting.com Dokumentation
+description: Informationen, wie du dich zum Admin auf deinem Unturned Server von ZAP-Hosting machen kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Admin werden
 ---
 
 ## Vorbereitungen
 
-Um Admins auf einem Server hinzufügen zu können, muss hierbei eine Config-Datei bearbeitet werden.
-Damit es hierbei keine Probleme bei der Übernahe der Änderungen gibt, stelle bitte sicher, dass dein Server hierbei zuvor gestoppt wird!
+Um Admins auf einem Server hinzufügen zu können, muss hierbei eine Config-Datei bearbeitet werden. Damit es hierbei keine Probleme bei der Übernahme der Änderungen gibt, stelle bitte sicher, dass dein Server hierbei zuvor gestoppt wird!
 
-Zudem wird die jeweilige Steam-ID (64er) benötigt, sodass der Server den Spieler auch identifizieren kann, sobald der Name als Beispiel geändert wird.
-Hierzu kann als Beispiel [dieses Tool](https://steamidfinder.com/) verwendet werden.
-Auf der Seite des Tools angekommen, können die benötigen Informationen in der Regel durch die Eingabe des Namens ermittelt werden.
+Zudem wird die jeweilige Steam-ID (64er) benötigt, sodass der Server den Spieler auch identifizieren kann, sobald der Name als Beispiel geändert wird. Hierzu kann als Beispiel [dieses Tool](https://steamidfinder.com/) verwendet werden. Auf der Seite des Tools angekommen, können die benötigen Informationen in der Regel durch die Eingabe des Namens ermittelt werden.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/72YkRLBXE77NJQ5/preview)
 
@@ -33,7 +30,7 @@ Sobald alle Config-Dateien geladen wurden, muss die Datei "commands.dat" bearbei
 
 ## Admins ernennen
 
-Es können nun Admin oder auch Owner in der Config ernannt werden.
+Es können jetzt Admin oder auch Owner in der Config ernannt werden.
 Hierbei ist zu beachten, dass der Owner-Rank nur einmal vergeben werden kann!
 
 Hierzu muss in einer neuen Zeile im Fall für die Vergabe des Owner-Ranges folgendes eingetragen werden:

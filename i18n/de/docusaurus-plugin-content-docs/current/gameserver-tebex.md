@@ -9,8 +9,8 @@ sidebar_label: TEBEX Monetarisierung
 
 ## Einführung
 
-TEBEX ist eine Plattform die dir erlaubt, mit deinem Gameserver bares Geld zu verdienen,
-indem du in-game Gegenstände, Ränge und vieles mehr verkaufen kannst. Die Plattform 
+TEBEX ist eine Plattform, die dir erlaubt, mit deinem Gameserver bares Geld zu verdienen,
+indem du Spielgegenstände, Ränge und vieles mehr verkaufen kannst. Die Plattform 
 stellt dir einen professionellen Webstore zur Verfügung, mit dem du digitale Güter verkaufen
 und einige Statistiken zu deinen Verkäufen einsehen kannst. Besuche 
 [tebex.io](https://affiliate.tebex.io/r/690a6731-fee1-4054-84e1-30c26729403a)
@@ -32,13 +32,13 @@ ein unterstütztes Spiel auf und klicke auf den Download-Button, um es zu instal
 dieser Vorgang abgeschlossen ist, kannst du mit Schritt 2 fortfahren.
 
 ### Schritt 2 - Sende dir selbst eine TEBEX Einladung
-Wenn das Spiel, welches du ausgewählt hast, TEBEX unterstützt, siehst du nun den Tab "TEBEX Shop"
-in der Seitenleiste. Klicke nach dem laden der Seite auf das Bild mit dem TEBEX Logo. 
+Wenn das Spiel, welches du ausgewählt hast, TEBEX unterstützt, siehst du jetzt den Tab "TEBEX Shop"
+in der Seitenleiste. Klicke nach dem Laden der Seite auf das Bild mit dem TEBEX Logo. 
 
 ![](https://user-images.githubusercontent.com/61839701/165710944-616d743c-94da-49c8-8e07-340a857a300c.png)
 
 TEBEX sendet dir nun eine Einladung an die E-Mail Adresse, die in deinem ZAP-Hosting Kundenaccount hinterlegt
-ist. Bitte folge den Schritten in der E-Mail um deinen TEBEX Account zu aktivieren. Du wirst im 
+ist. Bitte folge den Schritten in der E-Mail, um deinen TEBEX Account zu aktivieren. Du wirst im 
 Anschluss durch die Einrichtung deines Webshops durchgeführt.
 
 ### Schritt 3 - Installiere das TEBEX Plugin auf deinem Gameserver
@@ -52,7 +52,7 @@ unterscheidet sich von Spiel zu Spiel. Eine grundlegende Schritt für Schritt An
 Installation einiger Plugins findest du [hier](https://docs.tebex.io/store/integrating-with-your-game-server-or-website/minecraft-java-edition).
 
 #### Schritt 5 - Bestätige die erfolgreiche Installation im Webinterface
-Zu guter letzt solltest du noch die erfolgreiche Installation des Plugins bestätigen. 
+Zu guter Letzt solltest du noch die erfolgreiche Installation des Plugins bestätigen. 
 
 ![](https://user-images.githubusercontent.com/61839701/165711089-dc26184c-74b3-4207-bfe8-6d75208b0091.png)
 

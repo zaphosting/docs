@@ -41,7 +41,7 @@ Du kannst mit Tab zwischen den Menüpunkten wechseln und die Auswahl der verschi
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/6mr5kAKJQ39iJt5/preview)
 
-Dein Server konfiguiert seine Netzwerkschnittstelle automatisiert durch DHCP.
+Dein Server konfiguriert seine Netzwerkschnittstelle automatisiert durch DHCP.
 Der Adapter `eno1`  ist der Netzwerkadapter deines ZAP Dedicated Servers.
 
 Wir bestätigen alles mit "Done"
@@ -57,7 +57,7 @@ Ein Proxy ist nicht notwendig.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/xNknNyWAbd5DnsZ/preview)
 
-Unser dedizierter Server steht in Deutschland, somit wählen wir auch den Deutschen Mirror-Standort um die bestmögliche Download-Rate zu erreichen.
+Unser dedizierter Server steht in Deutschland, somit wählen wir auch den deutschen Mirror-Standort, um die bestmögliche Download-Rate zu erreichen.
 
 ***
 
@@ -67,7 +67,7 @@ In diesem Schritt kannst du die Partitionen deines Systems anpassen, sofern du n
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/WXfzt57Rtm2SQLD/preview)
 
-Das Setup erstellt automatisch die Partitionen, wir bestätigen das indem wir "Done" auswählen.
+Das Setup erstellt automatisch die Partitionen, wir bestätigen das, indem wir "Done" auswählen.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/L3YcGNbYWpMmaDj/preview)
 
@@ -99,13 +99,13 @@ Ubuntu bietet dir ein paar Paketsammlungen aus, sofern du etwas davon nutzen mö
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/SzrxCtJTx2S8Nef/preview)
 
-Bitte entferne nun die ISO-Datei in deiner iLO, damit dein Server bei einem Neustart nicht wieder das Setup läd.
+Bitte entferne jetzt die ISO-Datei in deiner iLO, damit dein Server bei einem Neustart nicht wieder das Setup läd.
 
 ***
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/x3BRLSepSDFnYGA/preview)
 
-wähle "Reboot now" und bestätige das du die ISO-Datei entfernt hast.
+Wähle "Reboot now" und bestätige, dass du die ISO-Datei entfernt hast.
 
 ## Passwortänderung des Root-Nutzers
 Das Passwort des Root-Nutzers kann einfach geändert werden.

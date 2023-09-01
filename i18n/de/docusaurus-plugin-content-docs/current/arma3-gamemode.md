@@ -8,9 +8,9 @@ sidebar_label: Spielmodus ändern
 
 ## Festlegen des Spielmodus
 
-Um den Spielmodus auf deinem ArmA 3 Server ändern zu können musst du die für den Spielmodus passende Missionsdatei auf deinen Server hochladen.
+Um den Spielmodus auf deinem ArmA 3 Server ändern zu können, musst du die für den Spielmodus passende Missionsdatei auf deinen Server hochladen.
 
-Folgende Missionsdateien bieten wir aktuell an ohne dass du diese hochladen musst:
+Folgende Missionsdateien bieten wir aktuell an, ohne dass du diese hochladen musst:
 
 - ArmA 3 Wasteland
 
@@ -19,16 +19,16 @@ Diese liegen bereits in deinem **mpmissions** Verzeichnis.
 
 ## Hochladen der Missionsdatei
 
-Für das hochladen der Missionsdatei musst du zuvor via FTP auf deinen Server verbinden: [Gameserver FTP Verbindung](gameserver-ftpaccess.md).
-Dort lädst du nun die entsprechende Missionsdatei in dein **mpmissions** Verzeichnis welches du unter **/gxxxxxx/arma3/** finden kannst.
-In diesem Beispiel laden wir Den Spielmodus **King of the Hill** auf unseren Server.
+Für das Hochladen der Missionsdatei musst du zuvor via FTP auf deinen Server verbinden: [Gameserver FTP Verbindung](gameserver-ftpaccess.md).
+Dort lädst du nun die entsprechende Missionsdatei in dein **mpmissions** Verzeichnis, welches du unter **/gxxxxxx/arma3/** finden kannst.
+In diesem Beispiel laden wir den Spielmodus **King of the Hill** auf unseren Server.
 
 ![image](https://user-images.githubusercontent.com/26007280/189677073-6a032e47-45c5-4d55-9749-4a7cae334ab2.png)
 
 
 ## Laden der Missionsdatei auf dem Server
 
-Damit die Missionsdatei nun vom Server geladen wird begibst du dich in dein ArmA 3 Serverinterface und klickst links im Menü auf den Tab **Configs**:
+Damit die Missionsdatei nun vom Server geladen wird, begibst du dich in dein ArmA 3 Serverinterface und klickst links im Menü auf den Tab **Configs**:
 
 ![image](https://user-images.githubusercontent.com/26007280/189677126-cb56dc14-7616-4a74-92b3-676192ea2d07.png)
 

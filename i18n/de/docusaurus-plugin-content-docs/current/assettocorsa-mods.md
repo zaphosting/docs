@@ -18,15 +18,15 @@ Nachdem dieser eingerichtet wurde, kann sich nun verbunden werden und der Server
 
 ## Vorbereitung
 
-Zunächst Öffnen wir den Assetto Corsa Ordner, diesen können wir öffnen, indem wir Steam Öffnen und "Assetto Corsa" in der Spieleliste Rechtsklicken,
+Zunächst öffnen wir den Assetto Corsa Ordner, diesen können wir öffnen, indem wir Steam öffnen und "Assetto Corsa" in der Spieleliste Rechtsklicken,
 
-Nun öffnen wir "Lokale Dateien" und Öffnen die Lokalen Spieldateien:
+Nun öffnen wir "Lokale Dateien" und öffnen die Lokalen Spieldateien:
 
 ![image](https://user-images.githubusercontent.com/13604413/159136021-cd23c04f-0db5-4051-8993-7fddfd0edfaa.png)
 
-Dort öffnen wir den "server" Ordner und öffnen den ACServerManager.exe.
+Dort öffnen wir den "Server" Ordner und öffnen den ACServerManager.exe.
 
-## Autos Einstellen
+## Autos einstellen
 
 Nun wechseln wir in das Tab "Cars / Entry List", hier können wir nun neue Autos hinzufügen:
 
@@ -41,36 +41,36 @@ In der Mitte erscheinen nun Autos, welche auf dem Grid platziert werden können,
 
 
 :::info
-Um mehrere Autos zu wählen, können mehrere haken gesetzt werden, um die verschiedenen Autos in der Mitte hinzugefügt werden.
+Um mehrere Autos zu wählen, können mehrere Haken gesetzt werden, um die verschiedenen Autos in der Mitte hinzugefügt werden.
 
 
-Beachte das alle Autoslots befüllt werden und nicht mehr, als die Menge der verfügbaren Slots gesetzt wird
+Beachte, dass alle Autoslots befüllt werden und nicht mehr, als die Menge der verfügbaren Slots gesetzt wird
 
 ![image](https://user-images.githubusercontent.com/13604413/159136228-57a877cd-e75b-4df0-ad57-30c6b05af255.png)
 :::
 
 
 
-## Config Hochladen
+## Config hochladen
 
-Nun können wir die Config über den "Save" Button Abspeichern und über den "Export" Button exportieren:
+Nun können wir die Config über den "Save" Button abspeichern und über den "Export" Button exportieren:
 
 ![image](https://user-images.githubusercontent.com/13604413/159136248-2aa62490-c2a7-49ae-b97e-0c731cebd7a1.png)
 
 Hier wählen wir nun einen freien Ordner, dort werden die Config-Daten gespeichert.
 
-Nun kann der AC Server Manager geschlossen werden, wir öffnen nun den Ordner, in welche die Configs exportiert wurden.
+Jetzt kann der AC Server Manager geschlossen werden, wir öffnen nun den Ordner, in welche die Configs exportiert wurden.
 
 ![image](https://user-images.githubusercontent.com/13604413/159136258-33c0896a-2ec7-4c80-9fa1-1bf65ebdd083.png)
 
 
-Diese Configs können nun über Drag&Drop in den "cfg" Ordner des Servers hochgeladen werden.
+Diese Configs können über Drag&Drop in den "cfg" Ordner des Servers hochgeladen werden.
 
 ![image](https://user-images.githubusercontent.com/13604413/159136263-cb78e326-bdf5-40c5-9581-804b4f786ce9.png)
 
 
 
-## Server Content Hochladen
+## Server Content hochladen
 
 Wir müssen nun den Content für den Server generieren, damit Car&Map Mods auf dem Server geladen werden, dazu klicken wir zunächst unten auf "Update Server Content"
 
@@ -83,9 +83,9 @@ Dieser Prozess kann einige Minuten in Anspruch nehmen, es werden nun alle Maps &
 Nachdem dieser Prozess vollendet ist, kann es ggf. zu einer "Could not update" Meldung kommen, diese ist unproblematisch.
 :::
 
-Nun Öffnen wir den "Server" Ordner, indem auch der AcServerManager ist, dort befindet sich ein "Content" Ordner, welchen wir nun über Drag&Drop auf unseren Assetto Corsa Server hochladen, und damit unseren alten "Content" Ordner überschreiben:
+Nun öffnen wir den "Server" Ordner, indem auch der AcServerManager ist, dort befindet sich ein "Content" Ordner, welchen wir nun über Drag&Drop auf unseren Assetto Corsa Server hochladen, und damit unseren alten "Content" Ordner überschreiben:
 
 ![image](https://user-images.githubusercontent.com/13604413/159136806-a7f18a68-1dc6-43e6-bf57-6c153c439706.png)
 
 
-Nachdem der Content hochgeladen wurde, sind die Carmods nach einem Serverneustart installiert und Aktiv.
+Nachdem der Content hochgeladen wurde, sind die Carmods nach einem Serverneustart installiert und aktiv.

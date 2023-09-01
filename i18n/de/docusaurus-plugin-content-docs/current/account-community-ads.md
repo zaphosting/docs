@@ -7,28 +7,28 @@ sidebar_label: Community Werbung
 
 ## Einführung
 
-Community Werbung ist eine Möglichkeit sich durch für ZAP-Hosting getätigte Werbung etwas Geld zu verdienen.
-Mithilfe dieser Funktion wäre es dann eben auch möglich "**kostenlose**" Server zu erhalten.
-Gute Werbung welche eingereicht und auch akzeptiert wird, würde mit "**0.24€**" pro Link vergütet.
+Community Werbung ist eine Möglichkeit, sich durch für ZAP-Hosting getätigte Werbung etwas Geld zu verdienen.
+Mithilfe dieser Funktion wäre es dann eben auch möglich, "**kostenlose**" Server zu erhalten.
+Gute Werbung, welche eingereicht und auch akzeptiert wird, würde mit "**0.24€**" pro Link vergütet.
 
 ## Wichtige Aspekte beim Erstellen von Werbung
 
 ### Die Werbung muss eigenständig erstellt werden
 
-Bestätigt und akzeptiert wird daher nur Werbung wo deutlich zu erkennen ist, dass diese von dem Kunden geschrieben wurde.
+Bestätigt und akzeptiert wird daher nur Werbung, wo deutlich zu erkennen ist, dass diese von dem Kunden geschrieben wurde.
 Es würde reichen beim Erstellen der Werbung den gleichen Usernamen zu nehmen, welcher auch bei ZAP-Hosting eingetragen wurde.
 
 ### Eine Werbung ist kein Kommentar
 
-Wenn eine Person die Frage stellt: "welche Hoster könnt ihr empfehlen?"
+Wenn eine Person die Frage stellt: "Welche Hoster könnt ihr empfehlen?"
 Ein Kommentar wäre: "ZAP ist cool!" oder auch "ich würde ZAP-Hosting empfehlen."
 Gute Werbung hingegen wäre begründet: "Ich würde ZAP-Hosting empfehlen, diese haben einen ..., du kannst dort ..., die bieten .... an, 
 Falls du diese noch nicht kennst, könntest du hier auch alle Produkte und Preise sehen: https://zap-hosting.com/de"
 
 ### Werbung muss Kundenorientiert sein
 
-Eine Werbung muss in Bereichen erstellt werden die für ZAP-Hosting interessant sein könnten.
-Bei der Werbung geht es darum Personen auf ZAP-Hosting aufmerksam zu machen und diese als Neukunden zu gewinnen.
+Eine Werbung muss in Bereichen erstellt werden, die für ZAP-Hosting interessant sein könnten.
+Bei der Werbung geht es darum, Personen auf ZAP-Hosting aufmerksam zu machen und diese als Neukunden zu gewinnen.
 Dies ist daher wahrscheinlicher in einem Forum über Server und Serverprovider als in einem Forum über Landwirtschaft.
 
 ## Link einreichen
@@ -37,7 +37,7 @@ Um einen Link einzureichen, klicke in der Übersicht auf der "[Community Werbung
 Dort kann nun bei "**Deine Links**" auf das grüne "**+**" Icon geklickt werden, um einen Link einzureichen.
 
 :::info
-Dieser Link muss ein Direktverweis auf die eigens erstellte Werbung sein. Sollte bei dem Link keine Werbung ersichtlich sein wird diese abgelehnt.
+Dieser Link muss ein Direktverweis auf die eigens erstellte Werbung sein. Sollte bei dem Link keine Werbung ersichtlich sein, wird diese abgelehnt.
 :::
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/5R8BK9BzSAiNcwc/preview)
@@ -45,7 +45,7 @@ Dieser Link muss ein Direktverweis auf die eigens erstellte Werbung sein. Sollte
 ## Auszahlung/ Umbuchung
 
 Um eine Auszahlung zu beantragen, klicke in der Übersicht auf der "[Community Werbung](https://zap-hosting.com/de/customer/communityads/)"
-In dieser Übersicht kann nun bei "**Verfügbares Guthaben**" das Icon mit den zwei entgegengesetzten Pfeilen betätigt werden.
+In dieser Übersicht kann jetzt bei "**Verfügbares Guthaben**" das Icon mit den zwei entgegengesetzten Pfeilen betätigt werden.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/FMXZdZpkrJHQEXD/preview)
 
@@ -71,7 +71,7 @@ Wenn du dein Guthaben in ZAP-Coins umbuchen lässt, kannst du dir diese ZAP-Coin
 Per PayPal auszahlen lassen:**
 Nutze das PayPal Rechnungs Feature: "[PayPal Invoice Creator](https://www.paypal.com/invoice/create?fromWidget=newuser)"
 
-Hier müssen unsere Firmen Informationen als Rechnungsempfänger angegeben werden:
+Hier müssen unsere Firmeninformationen als Rechnungsempfänger angegeben werden:
 
 `ZAP-Hosting GmbH & Co. KG, Hafenweg 8, 48155 Münster, Deutschland`
 

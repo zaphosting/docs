@@ -43,10 +43,10 @@ Nun klicken wir auf "Create", es wird nun ein Key generiert.
 
 ## Key Einstellen
 
-Nun Öffnen wir die Einstellungen unseres Gameservers und scrollen nach unten, hier können wir nun unseren eigenen Key unter "Auth Key" Angeben, das Endresultat sollte so aussehen.
+Nun öffnen wir die Einstellungen unseres Gameservers und scrollen nach unten, hier können wir nun unseren eigenen Key unter "Auth Key" angeben, das Endresultat sollte so aussehen.
 
 ![image](https://user-images.githubusercontent.com/26007280/189705727-b2130512-f68a-485a-91b2-6a76fdedc311.png)
 
-Nun speichern wir die Einstellungen und Starten den Server neu.
+Nun speichern wir die Einstellungen und starten den Server neu.
 
 Fertig! Der Key ist nun angewandt und der Server sollte sich in Kürze listen.

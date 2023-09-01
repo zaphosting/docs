@@ -1,7 +1,7 @@
 ---
 id: fivem-installeup
 title: EUP auf Server installieren
-description: Informationen, wie du EUP auf deinen FiveM-Server von ZAP-Hosting.com installieren kannst - ZAP-Hosting.com Dokumenationen
+description: Informationen, wie du EUP auf deinen FiveM Server von ZAP-Hosting.com installieren kannst - ZAP-Hosting.com Dokumenationen
 sidebar_label: EUP installieren
 ---
 
@@ -23,15 +23,15 @@ Nun laden wir EUP von den [FiveM Foren](https://forum.cfx.re/t/emergency-uniform
 
 Außerdem müssen wir [NativeUI herunterladen](https://github.com/FrazzIe/NativeUILua/archive/master.zip)
 
-nachdem wir die `eup-ui.7z`, `eup-stream.7z` und "NativeUI-master.zip" runtergeladen haben, müssen wir diese entpacken:
+nachdem wir die `eup-ui.7z`, `eup-stream.7z` und "NativeUI-master.zip" heruntergeladen haben, müssen wir diese entpacken:
 
 ![image](https://user-images.githubusercontent.com/13604413/159167172-33ea451b-fc5f-4dd7-8768-c55dd4e791c5.png)
 
 :::info
-Beachte: Bei NativeUI muss erst der "NativeUI-master" ordner geöffnet werden, dort befinden sich die richtigen scripts.
+Beachte: Bei NativeUI muss erst der "NativeUI-master" Ordner geöffnet werden, dort befinden sich die richtigen Scripts.
 :::
 
-Nachdem die Resource entpackt wurde, sollte darin nun eine __resource.lua oder fxmanifest.lua und Script Files/Ordner sein.
+Nachdem die Resource entpackt wurde, sollte darin jetzt eine __resource.lua oder fxmanifest.lua und Script Files/Ordner sein.
 
 **eup-ui**
 ![image](https://user-images.githubusercontent.com/13604413/159167183-5a3c682f-5e9f-4df3-938f-f8168f2c8ab6.png)
@@ -49,7 +49,7 @@ Wenn dies nicht der Fall ist, befinden sich diese ggf. in einem Unterordner, mei
 ## Resourcen hochladen
 
 
-Nun installieren wir die resourcen, in unserem beispiel über WinSCP, wir können diese über drag&drop in den "resources" Ordner hochladen
+Nun installieren wir die Resourcen, in unserem Beispiel über WinSCP, wir können diese über Drag & Drop in den "resources" Ordner hochladen
 
 ![image](https://user-images.githubusercontent.com/13604413/159167216-255c1841-8db9-4d43-a0ec-58f6783ead3a.png)
 
@@ -58,9 +58,9 @@ Nachdem diese hochgeladen wurde, muss die server.cfg im server-data Ordner geöf
 ![image](https://user-images.githubusercontent.com/13604413/159167223-cd8e0b4b-67a4-420e-9f0d-c74e070e489f.png)
 
 
-Unter den restlichen Starteinträgen für Ressourcen kann nun der Eintrag für unsere resources, in diesem Fall "NativeUI", "eup-stream" und "eup-ui", hinzugefügt werden:
+Unter den restlichen Starteinträgen für Ressourcen kann nun der Eintrag für unsere Resources, in diesem Fall "NativeUI", "eup-stream" und "eup-ui", hinzugefügt werden:
 
 ![image](https://user-images.githubusercontent.com/13604413/159167238-56880863-9a49-4651-a95c-daa070743def.png)
 
 
-Danach kann der Server neugestartet werden und EUP sollte Ingame über das `/eup` Command verfügbar sein!
+Danach kann der Server neu gestartet werden und EUP sollte Ingame über das `/eup` Befehl verfügbar sein!

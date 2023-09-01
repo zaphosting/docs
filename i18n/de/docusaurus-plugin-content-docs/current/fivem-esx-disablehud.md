@@ -7,7 +7,7 @@ sidebar_label: HUD deaktivieren
 
 ## Config finden und bearbeiten
 
-Haben wir das erledigt öffnen wir die Config Seite und suchen dort dann nach es_extended.
+Haben wir das erledigt, öffnen wir die Config Seite und suchen dort dann nach es_extended.
 Drücke dafür einfach STRG + F und suche nach `es_`
 Dann solltest du es schnell finden.
 Diese bearbeiten wir dann.
@@ -27,4 +27,4 @@ Wir suchen dann nach es_ui und löschen diese Zeile komplett raus.
 Nun speichern wir diese wieder.
 
 
-Wenn ihr das geschafft habt müsst ihr nur noch den Server neustarten, danach wird das HUD Deaktiviert sein.
+Wenn ihr das geschafft habt, müsst ihr nur noch den Server neu starten, danach wird das HUD deaktiviert sein.

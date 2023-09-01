@@ -3,13 +3,12 @@ id: barotrauma-becomeadmin
 title: Admin auf dem eigenen Server werden
 description: Informationen, wie du Admin auf deinem Barotrauma-Server von ZAP-Hosting wirst - ZAP-Hosting.com Dokumentation
 sidebar_label: Admin werden
-
 ---
 
 
 ## Admin werden
 
-Mit Administrator-Rechten kannst du direkt im Spiel Änderungen im Live Zustand an deinem Server vornehmen, ohne diese in der Config vorzunehmen. Das hinzufügen eines Admins erfolgt über die **Clientpermissions.xml** Config, welche du im Interface unter Configs findest.
+Mit Administrator-Rechten kannst du direkt im Spiel Änderungen im Live Zustand an deinem Server vornehmen, ohne diese in der Config vorzunehmen. Das Hinzufügen eines Admins erfolgt über die **Clientpermissions.xml** Config, welche du im Interface unter Configs findest.
 
 ![image](https://user-images.githubusercontent.com/26007280/189937640-321e9e45-c344-4107-aad8-77100b7834c5.png)
 
@@ -28,7 +27,7 @@ Um einen neuen Spieler hinzuzufügen, muss ein neuer Client Eintrag zu der Confi
 
 
 
-In dem Client Eintrag sind die Variablen **Name, SteamID, Permissions, und Command** zu finden. Diese müssen nun noch angepasst werden. Der Name kann beliebig gesetzt werden. Er dient nur als Platzhalter zur Übersicht. Im Anschluss muss die SteamID64 von deinem Steam Account hinterlegt werden.
+In dem Client Eintrag sind die Variablen **Name, SteamID, Permissions, und Befehl** zu finden. Diese müssen nun noch angepasst werden. Der Name kann beliebig gesetzt werden. Er dient nur als Platzhalter zur Übersicht. Im Anschluss muss die SteamID64 von deinem Steam Account hinterlegt werden.
 
 Diese findest du, indem du zunächst einmal Steam Profil aufrufst und dort dann an einer beliebigen Stelle Rechtsklick drückst. Dort kann dann die Steam URL des Profils kopieren.
 
@@ -60,11 +59,11 @@ Dadurch erhältst du dort die sowohl die allgemeinen Accountinformationen als au
 
 
 
-Nun bist du zwar schon Admin, allerdings wurden deinem Account noch keine spezifischen Rechte hinzugefügt. Diese kannst du hinzufügen indem du die Permissions und Commands hinzufügst die genutzt werden dürfen. Das kann dann zum Beispiel so aussehen:
+Nun bist du zwar schon Admin, allerdings wurden deinem Account noch keine spezifischen Rechte hinzugefügt. Diese kannst du hinzufügen, indem du die Permissions und Befehls hinzufügst, die genutzt werden dürfen. Das kann dann zum Beispiel so aussehen:
 
 ```xml
 ...
-    permissions="<permission(s)>"> ---> permissions="ServerLog, ConsoleCommands">
+    permissions="<permission(s)>"> ---> permissions="ServerLog, ConsoleBefehls">
 ...
 ```
 
@@ -74,7 +73,7 @@ Nun bist du zwar schon Admin, allerdings wurden deinem Account noch keine spezif
 <Client
     name="Name"
     steamid="123456789"
-    permissions="ServerLog, ConsoleCommands">
+    permissions="ServerLog, ConsoleBefehls">
     <command
       name="heal" />
     <command
@@ -85,7 +84,7 @@ Nun bist du zwar schon Admin, allerdings wurden deinem Account noch keine spezif
 
 
 
-In dem Beispiel wurde dem Admin Zugriff auf die Server-Logs, Konsole, Heilen und Spawnen Befehl erlaubt. Im folgenden findest du eine Übersicht an Berechtigungen welche du setzen kannst.
+In dem Beispiel wurde dem Admin Zugriff auf die Server-Logs, Konsole, Heilen und Spawnen Befehl erlaubt. Im Folgenden findest du eine Übersicht an Berechtigungen, welche du setzen kannst.
 
 
 
@@ -100,7 +99,7 @@ In dem Beispiel wurde dem Admin Zugriff auf die Server-Logs, Konsole, Heilen und
 | SelectSub         | Kann das U-Boot wählen                                       |
 | SelectMode        | Kann den Spielmodus wählen                                   |
 | ManageCampaign    | Kann den Bestimmungsort, die Mission und den Einkauf von Hilfsgütern aus dem Lager der Kampagne auswählen |
-| ConsoleCommands   | Kann Konsolenbefehle verwenden - bitte beachte dabei, dass du auch Berechtigungen für einzelne Konsolenbefehle erteilen musst |
+| ConsoleBefehls   | Kann Konsolenbefehle verwenden - bitte beachte dabei, dass du auch Berechtigungen für einzelne Konsolenbefehle erteilen musst |
 | ServerLog         | Kann Server-Logs lesen                                       |
 | ManageSettings    | Kann die Servereinstellungen ändern                          |
 | ManagePermissions | Kann die Berechtigungen anderer Clients ändern.              |

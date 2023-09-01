@@ -35,10 +35,10 @@ sh <(curl https://autoinstall.plesk.com/one-click-installer || wget -O - https:/
 Sollte dieser Fehler angezeigt werden: "-bash: curl: command not found" so muss mit `apt install curl` das Paket nachgeladen werden.
 :::
 
-Sobald dieser Befehl ausgeführt wurde, dauert es in der Regel zwischen 15 und 60 Minuten bis Plesk vollständig installiert ist.
+Sobald dieser Befehl ausgeführt wurde, dauert es in der Regel zwischen 15 und 60 Minuten, bis Plesk vollständig installiert ist.
 
 :::info
-Die SSH Sitzung darf nicht geschlossen werden solange der Installer noch aktiv ist. Dies würde sonst zum Abbruch führen. 
+Die SSH Sitzung darf nicht geschlossen werden, solange der Installer noch aktiv ist. Dies würde sonst zum Abbruch führen. 
 :::
 Ebenfalls müsste der Server anschließend neu installiert werden, damit der Installer erneut gestartet werden kann. 
 Wird der Installer erneut gestartet ohne vorherigen Reinstalls des Servers, so wird es bei der Installation, spätestens jedoch im Plesk Panel selber Probleme mit nicht funktionierenden Features geben. 
@@ -81,7 +81,7 @@ Starten des Installers:
 </TabItem>
 <TabItem value="Konsolen Installation" label="Konsolen Installation">
 
-Damit Plesk via Console installiert wird sind nur wenige Befehle nötig. 
+Damit Plesk via Konsole installiert wird, sind nur wenige Befehle nötig. 
 
 >Der Plesk Installer installiert immer die neuste/aktuelleste Version von Plesk. Es kann passieren das die hier gezeigten Grafiken/Screenshots nicht die neuste/aktuellese Version von Plesk zeigen.
 
@@ -103,18 +103,18 @@ Starten des Installers:
 ./plesk-installer
 ```
 
-Sobald die drei Befehle zum starten ausgeführt wurden, muss der Lizenz zugestimmt werden mit "F": 
+Sobald die drei Befehle zum Starten ausgeführt wurden, muss der Lizenz zugestimmt werden mit "F": 
 
 ![](https://user-images.githubusercontent.com/61839701/166188952-7dc6227a-b0ad-4057-92f5-07feb0774bb6.png)
 
-Nach der Zustimmung fragt das System, welches Plesk installiert werden soll. In diesem Fall Plesk Obsidian oder Plesk Onyx. Es wird auch gekennzeichnet, welches das stabilere davon ist. In der Regel wird eine "Stable" Version für den Produktiv Einsatz genutzt. Da die ausgewählten Optionen bereits auf die Stable Version zeigen, bestätigt man dies erneut mit "F"
+Nach der Zustimmung fragt das System, welches Plesk installiert werden soll. In diesem Fall Plesk Obsidian oder Plesk Onyx. Es wird auch gekennzeichnet, welches das stabilere davon ist. In der Regel wird eine "Stable" Version für den Produktiveinsatz genutzt. Da die ausgewählten Optionen bereits auf die Stable Version zeigen, bestätigt man dies erneut mit "F"
 
-Die Frage ob Plesk Daten für die Verbesserung der Produkte erheben darf, kann mit "Y"(Yes) oder "n"(No) beantwortet werden. 
+Die Frage, ob Plesk Daten für die Verbesserung der Produkte erheben darf, kann mit "Y"(Yes) oder "n"(No) beantwortet werden. 
 
 
-Nach der Beantwortung, fragt das System welchen Typ von der ausgewählten Plesk Version installiert werden soll. In der Regel ist der bereits eingestellte Typ "Recommended" ausreichend. Module die später eventuell nicht installiert wurden, aber benötigt werden, können im Plesk Panel nachinstalliert werden. 
+Nach der Beantwortung, fragt das System, welchen Typ von der ausgewählten Plesk Version installiert werden soll. In der Regel ist der bereits eingestellte Typ "Recommended" ausreichend. Module, die später eventuell nicht installiert wurden, aber benötigt werden, können im Plesk Panel nachinstalliert werden. 
 
-Die nächste Frage ob Pakete installiert/upgegradet werden dürfen, wird mit "F" bestätigt.
+Die nächste Frage, ob Pakete installiert/upgegradet werden dürfen, wird mit "F" bestätigt.
 
 Nun startet der Installer mit der Installation.
 
@@ -138,33 +138,33 @@ Nachdem der Installer gestartet wurde, wird die Installation im Browser vorgenom
 Es wird beim Aufruf des Webpanels folgendes angezeigt: "Dies ist keine sichere Verbindung". Das muss beim ersten mal bestätigt werden, anschließend öffnet sich die Seite. 
 :::
 
-Das Webinterface kann über https://IP:8443 oder https://Domain.xx:8443 des Servers erreicht werden. Die Login Daten lauten root/admin und das aktuelle Root Password. Alternativ kann einfach einer der angezeigten URLs genutzt werden, sollten diese nicht mehr gültig sein, kann einfach mit dem Befehl ```plesk login``` neue URLs erstellt werden. 
+Das Webinterface kann über https://IP:8443 oder https://Domain.xx:8443 des Servers erreicht werden. Die Logindaten lauten root/admin und das aktuelle Root Password. Alternativ kann einfach einer der angezeigten URLs genutzt werden, sollten diese nicht mehr gültig sein, kann einfach mit dem Befehl ```plesk login``` neue URLs erstellt werden. 
 
 ### Einrichtung
 
-Sobald die Anmeldung erfolgreich war, muss der Admin Account eingerichtet werden. Es muss ein Kontakt Namen, eine E-Mail sowie ein Password angegeben werden. Sollte bereits eine Plesk Lizenz vorhanden sein, so kann diese direkt eingetragen werden. Alternativ kann eine 15 Tägige Test/Trial Lizenz von Plesk angefordert werden. Zum Schluss muss noch der Nutzungsvertrag bestätigt werden. 
+Sobald die Anmeldung erfolgreich war, muss der Admin Account eingerichtet werden. Es muss einen Kontaktnamen, eine E-Mail sowie ein Password angegeben werden. Sollte bereits eine Plesk Lizenz vorhanden sein, so kann diese direkt eingetragen werden. Alternativ kann eine 15-tägige Test/Trial Lizenz von Plesk angefordert werden. Zum Schluss muss noch der Nutzungsvertrag bestätigt werden. 
 Plesk kann nun genutzt werden. 
 
 ### Sprache einstellen
 
 
-Nach der Installation ist das Plesk-Panel auf Englischer Sprache, die Deutsche Sprache kann unter Tools&Settings ➡️ Plesk Appearance ➡️ Languages eingestellt bzw. ausgewählt werden. Dort muss dann "de-DE" ausgewählt werden. Anschließend kann die Sprache mit Klick auf "Make default" dauerhaft für alle gesetzt werden. 
-Nach einem Logut und anchließendem Login ist das Plesk-Panel in Deutsch vorzufinden.
+Nach der Installation ist das Plesk-Panel in englischer Sprache, die Deutsche Sprache kann unter Tools&Settings ➡️ Plesk Appearance ➡️ Languages eingestellt bzw. ausgewählt werden. Dort muss dann "de-DE" ausgewählt werden. Anschließend kann die Sprache mit Klick auf "Make default" dauerhaft für alle gesetzt werden. 
+Nach einem Logout und anschließendem Login ist das Plesk-Panel in Deutsch vorzufinden.
 
 ![](https://user-images.githubusercontent.com/61839701/166189048-96d33b62-7827-4e4d-a309-14eb24db0d86.png)
 
 ### Domain hinzufügen
 
-Um die erste Domain hinzuzufügen klickt man auf den blauen Button "Domain hinzufügen" bzw "Add Domain".
+Um die erste Domain hinzuzufügen, klickt man auf den blauen Button "Domain hinzufügen" bzw. "Add Domain".
 
 ![](https://user-images.githubusercontent.com/61839701/166189082-67e19710-76b1-4e23-b3a8-8ed3837acd3c.png)
 
-Nun kann die eigene Domain eingetragen werden. Ebenfalls muss eine IP sowie ein Benutzernamen und Passwort für den Webspace der Domain festgelegt werden. Sollte bereits die Subdoimain "www" im DNS der Domain eingetragen sein, kann direkt ein SSL Zertifikat von Lets Encrypt mit erstellt werden. Dazu kann diese Option ausgewählt werden, nachdem eine Mail Adresse eingetragen wurde, wird es auf dem blauen "OK" Button bestätigt.  
+Jetzt kann die eigene Domain eingetragen werden. Ebenfalls muss eine IP sowie ein Benutzername und Passwort für den Webspace der Domain festgelegt werden. Sollte bereits die Subdomain "www" im DNS der Domain eingetragen sein, kann direkt ein SSL Zertifikat von Let's Emcrypt mit erstellt werden. Dazu kann diese Option ausgewählt werden, nachdem eine Mail Adresse eingetragen wurde, wird es auf dem blauen "OK" Button bestätigt.  
 
 ![](https://user-images.githubusercontent.com/61839701/166189232-20770ac9-0b4c-4c6a-83f2-f2db3fead20c.png)
 
 :::info
-Die Domain muss auf die IP des Webspaces zeigen, liegt die Domain bei ZAP-Hosting, kann diese via EasyDNS einfach auf den Webspace geleitet werden, liegt sie extern so muss ein A-Record auf die IP gesetzt werden sowie die Subdomain "www", "webmail" müssen ebenfalls auf die IP zeigen. Ein MX Record sollte auch auf die IP des Webspaces angelegt werden. 
+Die Domain muss auf die IP des Webspaces zeigen, liegt die Domain bei ZAP-Hosting, kann diese via EasyDNS einfach auf den Webspace geleitet werden, liegt sie extern, so muss ein A-Record auf die IP gesetzt werden sowie die Subdomain "www", "webmail" müssen ebenfalls auf die IP zeigen. Ein MX Record sollte auch auf die IP des Webspaces angelegt werden. 
 
 
 Es kann bis zu 24 Stunden dauern, bis ein neuer/geänderter DNS Eintrag auf das richtige Ziel weiterleitet. 
@@ -172,7 +172,7 @@ Es kann bis zu 24 Stunden dauern, bis ein neuer/geänderter DNS Eintrag auf das 
 
 ## SSL Verschlüsselung
 
-Bei der Domain Eintragung/Erstellung vom Webspace wurde bereits ein SSL Zertifikat von Lets Encrypt mit generiert, dies kann nun unter "Hosting Einstellungen" der Domain, eingetragen/ausgewählt werden. Anschließen muss es mit einem Klick auf "Übernehmen" bestätigen.
+Bei der Domain Eintragung/Erstellung vom Webspace wurde bereits ein SSL Zertifikat von Let's Emcrypt mit generiert, dies kann nun unter "Hosting Einstellungen" der Domain, eingetragen/ausgewählt werden. Anschließen muss es mit einem Klick auf "Übernehmen" bestätigen.
 
 :::info
 Damit dauerhaft auf HTTPS (SSL) geleitet wird beim Aufruf der Webseite muss das Häkchen bei "Dauerhafte, für SEO geeignete 301-Weiterleitung von HTTP zu HTTPS" gesetzt werden. 

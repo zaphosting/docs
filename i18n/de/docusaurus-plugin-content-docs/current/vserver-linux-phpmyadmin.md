@@ -9,8 +9,8 @@ sidebar_label: phpMyAdmin installieren
 
 ## System aktualisieren
 
-Zuerst sollte geprüft werden ob der Server auf dem neusten Stand ist. 
-Dazu wird der Update Befehl ausgeführt: 
+Zuerst sollte geprüft werden, ob der Server auf dem neusten Stand ist. 
+Dazu wird der Update-Befehl ausgeführt: 
 ```
 sudo apt update
 ```
@@ -28,13 +28,13 @@ apt install sudo -y
 
 ## Start der Installation von phpMyAdmin
 
-Zuerst wird das Installationsverzeichnis aufgerufen in dem phpMyAdmin installiert werden soll. 
+Zuerst wird das Installationsverzeichnis aufgerufen, in dem phpMyAdmin installiert werden soll. 
 Das geschieht mit folgendem Befehl: 
 
 ```
 cd /usr/share
 ```
-Anschließend wird mit Hilfe von wget die letzte phpMyAdmin Version in das Installationsverzechnis gedownloadet:
+Anschließend wird mithilfe von wget die letzte phpMyAdmin Version in das Installationsverzeichnis heruntergeladen:
 ```
 wget https://www.phpmyadmin.net/downloads/phpMyAdmin-latest-all-languages.zip -O phpmyadmin.zip
 ```
@@ -70,7 +70,7 @@ Die Apache2-phpMyAdmin-Config wird mit folgendem Befehl erstellt:
 ```
 nano /etc/apache2/conf-available/phpmyadmin.conf
 ```
-Die leere Apache2-phpMyAdmin-Config muss nun mit folgenden Inahlt bestückt werden: 
+Die leere Apache2-phpMyAdmin-Config muss nun mit folgendem Inhalt bestückt werden: 
 ```
 # phpMyAdmin Apache configuration
 
@@ -92,9 +92,9 @@ Alias /phpmyadmin /usr/share/phpmyadmin
     Require all denied
 </Directory>
 ```
-Ist die Apach2-phpMyAdmin-Config nun mit dem Inhalt befüllt, kann diese gespeichert und geschlossen werden mit ***STRG+X***, anschließend die ***Y-Taste*** drücken und mit ***Enter*** bestätigen.
+Ist die Apach2-phpMyAdmin-Config mit dem Inhalt befüllt, kann diese gespeichert und geschlossen werden mit ***STRG+X***, anschließend die ***Y-Taste*** drücken und mit ***Enter*** bestätigen.
 
-Die nun neuerstelle Apache2-phpMyAdmin-Config muss vom Apache2 Server aktiviert/eingelesen werden:
+Die nun neuerstelltee Apache2-phpMyAdmin-Config muss vom Apache2 Server aktiviert/eingelesen werden:
 
 ```
 a2enconf phpmyadmin
@@ -106,7 +106,7 @@ systemctl reload apache2
 
 ### Benötigtes temporäres Verzeichnis für phpMyAdmin anlegen
 
-Damit phpMyAdmin auch ordnungsgemäß funktioniert muss folgendes Verzeichnis angelegt werden:
+Damit phpMyAdmin auch ordnungsgemäß funktioniert, muss folgendes Verzeichnis angelegt werden:
 ```
 mkdir /usr/share/phpmyadmin/tmp/
 ```
@@ -114,6 +114,4 @@ Das gerade erstelle Verzeichnis benötigt noch die richtigen Rechte:
 ```
 chown -R www-data:www-data /usr/share/phpmyadmin/tmp/
 ```
-✅Fertig ist die phpMyAdmin Installation. 
-
-Das phpMyAdmin Webinterface kann nun via Browser mit /phpmyadmin geöffnet werden, z.B 123.123.123.123/phpmyadmin
+Fertig ist die phpMyAdmin Installation. Das phpMyAdmin Webinterface kann nun via Browser mit /phpmyadmin geöffnet werden, z. B. 123.123.123.123/phpmyadmin

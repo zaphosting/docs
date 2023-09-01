@@ -16,13 +16,13 @@ Um deinen Bot einzurichten, muss der [FTP-Zugang](gameserver-ftpaccess.md) erst 
 
 ## Vorbereitung
 
-Sobald du über FTP verbunden bist, kannst du den Discordbot Ordner öffnen und deine Botdateien hochladen.
+Sobald du über FTP verbunden bist, kannst du den Discord Bot Ordner öffnen und deine Botdateien hochladen.
 
 ![image](https://user-images.githubusercontent.com/26007280/194344056-2bc1440e-9142-42d1-962d-3b5edfe7ff03.png)
 
-## Lade deine Botdateien hoch
+## Bot hochladen
 
-Jetzt kannst du deine Botdateien einfach in den leeren Ordner hochladen:
+Jetzt können wir unsere Bot-Dateien einfach in den leeren Ordner hochladen:
 
 ![image](https://user-images.githubusercontent.com/26007280/194344097-9c90b5f0-3707-4409-9c39-3246c6f84d11.png)
 
@@ -36,7 +36,7 @@ Hier kannst du nun die Programmiersprache und die Hauptdatei des Bots festlegen:
 
 ![image](https://user-images.githubusercontent.com/26007280/194344211-015a0eb9-4ee0-4a93-8f9e-7f42d6921b11.png)
 
-in unserem Fall sind dies Python 3 und main.py.
+In unserem Fall sind dies Python 3 und main.py.
 
 ## Starten des Bots
 

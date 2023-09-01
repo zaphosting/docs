@@ -6,7 +6,7 @@ sidebar_label: Realm erstellen
 ---
 
 
-## Wieso brauche ich einen key?
+## Wieso brauche ich einen Key?
 
 Der Key wird benötigt, damit die Server verifiziert sind und mit den Online Diensten kommunizieren können.
 
@@ -21,7 +21,7 @@ Klicke dann im Anschluss auf "Settings":
 
 ## Game Key + Host Key
 
-Hier angekommen, kannst du bereits deinen Game Server Key einsehen.
+Hier angekommen, kannst du bereits deinen Gameserver Key einsehen.
 Den Key musst du bei dir im Interface vom Server unter dem Reiter "Einstellungen" bei "Customer Key" eintragen:
 
 ![image](https://user-images.githubusercontent.com/26007280/189680873-40c11fe7-0e1f-48b0-9bd0-75253702179a.png)
@@ -33,7 +33,7 @@ Darunter kannst du einen Provider Key erstellen, indem du auf "Add New Key" klic
 ![image](https://user-images.githubusercontent.com/26007280/189680940-4ff24c30-95f2-44ff-a8df-c2f039fbae95.png)
 
 Hier kannst du dem Key einen Namen und eine Beschreibung zuweisen, damit du den Key eindeutig zuordnen kannst.
-In unserem Beispiel tragen wir folgendes ein:
+In unserem Beispiel tragen wir Folgendes ein:
 
 ![image](https://user-images.githubusercontent.com/26007280/189680975-adc5d71d-cbfa-4aa8-a00a-948b9df41ec6.png)
 
@@ -64,7 +64,7 @@ Im Anschluss findest du eine Übersicht von dem gerade erstellten Realm wo du vi
 
 ![image](https://user-images.githubusercontent.com/26007280/189681140-5360f648-ebbc-4896-9962-ce7e818d91e9.png)
 
-Um dort Einstellungen zu ändern, musst du lediglichi auf den blauen "Change" Button klicken.
+Um dort Einstellungen zu ändern, musst du lediglich auf den blauen "Change" Button klicken.
 
 ## Oase erstellen
 Nun muss noch eine Oase erstellt werden, welche quasi deinen Server widerspiegelt.
@@ -89,10 +89,9 @@ Hier kannst du der "Oase" nun einen Namen geben sowie die Map auswählen:
 
 ![image](https://user-images.githubusercontent.com/26007280/189681316-d5dff2d0-6477-4fdb-8fcf-270cbb82ac54.png)
 
-Und dann im Anschluss auf "Add Oasis" klicken , damit diese angelegt wird.
-Nun musst du wieder zurück in die Übersicht von deinem Realm gehen und kannst dort die Oase aktivieren:
+Und dann im Anschluss auf "Add Oasis" klicken, damit diese angelegt wird. Nun musst du wieder zurück in die Übersicht von deinem Realm gehen und kannst dort die Oase aktivieren:
 
 ![image](https://user-images.githubusercontent.com/26007280/189681363-be60f586-12be-4a00-80d1-81ed6a709989.png)
 
-Soweit das erledigt ist, kannst du deinen Server neu starten und dich dann im Anschluss ingame damit verbinden.
+Soweit das erledigt ist, kannst du deinen Server neu starten und dich dann im Anschluss im Spiel damit verbinden.
 

@@ -44,11 +44,11 @@ In diesem Beispiel heist der Benutzer **YourUserName**. Hier kannst du natürlic
 
 ### Passwort und Berechtigungen setzen
 
-Nun, nachdem der Benutzer angelegt wurde, muss nun noch der Zugang und die Zugriffsberechtigungen bestimmt werden. Dafür wird in der Kategorie **General** bei **Credentials** der Benutzer aktiviert und die Passwortoption konfiguriert. Aus Sicherheitsgründen empfehlen wir dringend ein Passwort zu verwenden. Wähle dafür **Require a password to log in** aus und definiere dein gewünschtes Passwort. 
+Jetzt, nachdem der Benutzer angelegt wurde, muss nun noch der Zugang und die Zugriffsberechtigungen bestimmt werden. Dafür wird in der Kategorie **General** bei **Credentials** der Benutzer aktiviert und die Passwortoption konfiguriert. Aus Sicherheitsgründen empfehlen wir dringend ein Passwort zu verwenden. Wähle dafür **Require a password to log in** aus und definiere dein gewünschtes Passwort. 
 
 ![image](https://user-images.githubusercontent.com/26007280/190912515-a4952bc3-b4ce-45e6-ba33-42b358f01074.png)
 
-Damit der Benutzer auch die entsprechenden Berechtigungen hat, musst du noch festlegen, auf welche Verzeichnisse dieser zugreifen darf, dazu genügt ein Klick auf **Add** bei Mount points. Hierbei muss einmal ein Virtual und ein Native Pfad angegeben werden. In unserem Beispiel definieren wir, dass die C Fesplatte unter \ aufgelistet wird.  
+Damit der Benutzer auch die entsprechenden Berechtigungen hat, musst du noch festlegen, auf welche Verzeichnisse dieser zugreifen darf, dazu genügt ein Klick auf **Add** bei Mount points. Hierbei muss einmal ein virtualler und ein nativer Pfad angegeben werden. In unserem Beispiel definieren wir, dass die C Fesplatte unter \ aufgelistet wird.  
 
 ![image](https://user-images.githubusercontent.com/26007280/190912711-90f6c4b6-35de-4339-b2a0-d3aa1d0ed8fd.png)
 
@@ -63,7 +63,7 @@ Die vorgenommenen Änderungen kannst du nun über den **Apply** Button übernehm
 
 ## Freigabe in der Windows-Firewall
 
-Um eine Verbindung zu deinem FTP Server zu ermöglichen, muss nun noch die Anwendung des FTP Servers in der Windows-Firewall freigegeben werden. Dazu öffnest du die Firewall-Einstellungen unter **Systemsteuerung\System und Sicherheit\Windows Firewall** und klickst dort links oben auf **Eine App oder ein Feature durch die Windows Firewall zulassen**. Im folgenden Fenster wählst du dann die freizugebene Anwendung aus:
+Um eine Verbindung zu deinem FTP Server zu ermöglichen, muss jetzt noch die Anwendung des FTP Servers in der Windows-Firewall freigegeben werden. Dazu öffnest du die Firewall-Einstellungen unter **Systemsteuerung\System und Sicherheit\Windows Firewall** und klickst dort links oben auf **Eine App oder ein Feature durch die Windows Firewall zulassen**. Im folgenden Fenster wählst du dann die frei zugebene Anwendung aus:
 
 ![image](https://user-images.githubusercontent.com/13604413/159173002-024980dd-0d16-40a1-8316-979ceec99e7b.png)
 

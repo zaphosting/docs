@@ -80,6 +80,6 @@ Wenn du zum Beispiel das Inventar ändern möchtest, suche nach:
 
 Wenn du mehr Spieler hast, gibt es mehr Einträge, du könntest den Spieler anhand der Gegenstände im Inventar identifizieren. Wenn du zum Beispiel die Anzahl der Machtsplitter in deinem Inventar ändern möchtest, suche nach diesem Gegenstand und ändere den Wert in "NumItems".
 
-Wenn du mit deinen Änderungen fertig bist, öffne " Datei " und drücke Speichern. Nun kannst du das bearbeitete Savegame wieder hochladen und den Server starten.
+Wenn du mit deinen Änderungen fertig bist, öffne "Datei" und drücke Speichern. Jetzt kannst du das bearbeitete Savegame wieder hochladen und den Server starten.
 
 Der Savegame-Editor bietet dir noch einige weitere Cheats, öffne dazu einfach den "Cheats"-Tab

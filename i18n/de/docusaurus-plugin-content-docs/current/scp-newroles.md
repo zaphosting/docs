@@ -6,8 +6,7 @@ sidebar_label: Neue Rollen hinzufügen
 ---
 
 ## Die Config aufrufen
-Neue Rollen werden in der "config_remoteadmin.txt" Datei eingetragen.
-Diese Config Datei findest du, indem du im Interface von deinem Server auf "Configs" klickst.
+Neue Rollen werden in der "config_remoteadmin.txt" Datei eingetragen. Diese Config Datei findest du, indem du im Interface von deinem Server auf "Configs" klickst.
 
 ![image](https://user-images.githubusercontent.com/13604413/159182711-19402a7e-8383-4cd0-b37b-f6c68f97c997.png)
 
@@ -18,16 +17,15 @@ Soweit du die Config offen hast, kannst du nach diesen Einträgen darin suchen:
 
 ![image](https://user-images.githubusercontent.com/13604413/159182751-0185aab8-bd2e-4927-b3dd-ea47692f1d67.png)
 
-Das sind Beispiel Rollen , welche bereits eingetragen worden sind.
+Das sind Beispiel Rollen, welche bereits eingetragen worden sind.
 Wir fügen darunter einen neuen Eintrag ein.
-Dafür kopieren wir den Block von einem der obigen Rollen  und fügen diesen Teil unter der letzten Rolle wieder ein.
+Dafür kopieren wir den Block von einem der obigen Rollen und fügen diesen Teil unter der letzten Rolle wieder ein.
 In unserem Beispiel haben wir die Rolle "Moderator" kopiert und darunter eingefügt:
 
 ![image](https://user-images.githubusercontent.com/13604413/159182791-570da30e-7155-4550-b9c6-acf1b21311ab.png)
 
 ## Eigene Rolle eintragen
-Den gerade eingefügten Block von der bereits existenten Rolle, können wir nun nach belieben bearbeiten und unsere eigenen gewünschten Werte dort eintragen.
-In unserem Beispiel haben wir den Namen "ZAP" genutzt:
+Den gerade eingefügten Block von der bereits existenten Rolle, können wir nun nach Belieben bearbeiten und unsere eigenen gewünschten Werte dort eintragen. In unserem Beispiel haben wir den Namen "ZAP" genutzt:
 
 ![image](https://user-images.githubusercontent.com/13604413/159182832-9bee2593-bc9d-403c-88da-ea72ba41cecf.png)
 
@@ -36,7 +34,7 @@ Das geht ebenfalls in der identischen Config nur minimal weiter darunter.
 
 ![image](https://user-images.githubusercontent.com/13604413/159182860-38595abf-ca1b-460e-a19d-57b338f1af6d.png)
 
-Unsere Rolle tragen wir also unter der "moderator" Rolle ein.
+Unsere Rolle tragen wir also unter der "Moderator" Rolle ein.
 :::info
 ACHTUNG: Bitte die Leerzeichen vor und nach dem "-" beachten!
 :::

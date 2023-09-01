@@ -33,8 +33,8 @@ Um mit WinSCP Mods zu installieren, können diese über drag&drop in den arma3 O
 
 ![image](https://user-images.githubusercontent.com/26007280/189707108-4b5f9e06-d1d4-407c-8043-9d279d6e341b.png)
 
-Nachdem diese hochgeladen wurde, müssen wir anschließend den Modordner öffnen und alle Daten unter `keys` in den gleichnamigen Ordner auf deinem Server verschieben.
-In diesem Beispiel verschieben wir den Inkalt von **/g256019/arma3/CBA_A3/keys** nach **/g256019/arma3/keys**.
+Nachdem diese hochgeladen wurde, müssen wir anschließend den Mod Ordner öffnen und alle Daten unter `keys` in den gleichnamigen Ordner auf deinem Server verschieben.
+In diesem Beispiel verschieben wir den Inhalt von **/g256019/arma3/CBA_A3/keys** nach **/g256019/arma3/keys**.
 
 ## Mods Aktivieren
 

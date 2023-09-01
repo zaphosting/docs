@@ -36,7 +36,7 @@ Dadurch erhältst du dort sowohl allgemeine Informationen als auch die Steam ID 
   </admins>
 ```
 
-Das Spiel bietet bei den Administrator-Berechtigungen die Möglichkeit unterschiedliche Berechtigungsstufen zu definieren. Somit ist es also möglich verschiedene Administrator Gruppen mit unterschiedlichen Berechtigungen zu definieren. Das Ganze wird über die ``permission_level`` Option definiert. Diese kann von 0 bis 100 eingestellt werden. Je nachdem wie diese konfiguriert wurde haben die Administratoren dann Zugriff auf die zugewiesenen Berechtigungen. Wenn das erledigt wurde, dann wurden die Administrator-Berechtigungen erfolgreich zugewiesen. 
+Das Spiel bietet bei den Administrator-Berechtigungen die Möglichkeit, unterschiedliche Berechtigungsstufen zu definieren. Somit ist es also möglich, verschiedene Administrator Gruppen mit unterschiedlichen Berechtigungen zu definieren. Das Ganze wird über die ``permission_level`` Option definiert. Diese kann von 0 bis 100 eingestellt werden. Je nachdem, wie diese konfiguriert wurde, haben die Administratoren dann Zugriff auf die zugewiesenen Berechtigungen. Wenn das erledigt wurde, dann wurden die Administrator-Berechtigungen erfolgreich zugewiesen. 
 
 
 
@@ -56,4 +56,4 @@ Unter ``permissions`` können für alle Administrator-Befehle die Berechtigungen
 </permissions>
 ```
 
-Eine Berechtigungsstufe besteht aus einem Wert zwischen 0 und 1000 und legt fest, welche Berechtigungen ein Spieler hat. 1000 ist die niedrigste (keine Berechtigungen) und 0 die höchste (volle Administrator-Berechtigungen). Je nachdem wie die Zugriffsrechte diesbezüglich sein sollen muss das dann entsprechend angepasst werden. 
+Eine Berechtigungsstufe besteht aus einem Wert zwischen 0 und 1000 und legt fest, welche Berechtigungen ein Spieler hat. 1000 ist die niedrigste (keine Berechtigungen) und 0 die höchste (volle Administrator-Berechtigungen). Je nachdem, wie die Zugriffsrechte diesbezüglich sein sollen, muss das dann entsprechend angepasst werden. 

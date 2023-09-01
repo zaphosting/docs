@@ -2,7 +2,7 @@
 id: valheim-admin
 title: Server Admin Befehle & Cheats
 description: Informationen zu Admin Befehlen und Cheats für deinen Valheim-Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
-sidebar_label: Admin Commands & Cheats
+sidebar_label: Admin Befehls & Cheats
 ---
 
 ## Als Admin hinzufügen
@@ -20,14 +20,14 @@ Dann drücken wir auf `Find Steam ID`.
 Jetzt sollten wir unser Steam-Profil sehen können, hier kopieren wir unsere "Steam64ID (Dec)".
 
 
-### In den Einstellungen Eintragen
+### In den Einstellungen eintragen
 
-Nun öffnen wir unser Server-Webinterface und öffnen die Einstellungen, hier sehen wir eine "Admins"-Option, wo wir unsere Steam-ID hinzufügen können:
+Nun öffnen wir unser Server-Webinterface und öffnen die Einstellungen, hier sehen wir eine "Admins"-Option, wo wir unsere SteamID hinzufügen können:
 
 ![image](https://user-images.githubusercontent.com/13604413/159179970-41e1601a-b06c-4579-8360-b25bf0ac582f.png)
 
 
-Nachdem wir unsere Steam-ID hinzugefügt haben, speichern wir die Einstellungen und starten dann den Server neu.
+Nachdem wir unsere SteamID hinzugefügt haben, speichern wir die Einstellungen und starten dann den Server neu.
 
 ## Zugriff auf die Konsole
 
@@ -36,9 +36,9 @@ Die Konsole in Valheim kann durch Drücken von "F5" während des Spiels aufgeruf
 
 ### Admin Befehle
 
-|  Command   |           Arguments          |                  Effect               |
+|  Befehl   |           Arguments          |                  Effect               |
 | :--------: | :--------------------------: |  :---------------------------------:  |
-|   kick     |        Name/PlayerID/IP      |     Kickt den Angegebenen Spieler     |
-|   ban      |        Name/PlayerID/IP      |     Bannt den Angegebenen Spieler     |
-|   unban    |        PlayerID/IP           |     Entbannt den Angegebenen Spieler  |
-|   banned   |           None               |  Zeigt alle Gebannten Spieler an      |
+|   kick     |        Name/PlayerID/IP      |     Kickt den angegebenen Spieler     |
+|   ban      |        Name/PlayerID/IP      |     Bannt den angegebenen Spieler     |
+|   unban    |        PlayerID/IP           |     Entbannt den angegebenen Spieler  |
+|   banned   |           None               |  Zeigt alle gebannten Spieler an      |

@@ -39,8 +39,8 @@ Anschließend musst du beim Login einen Code eingeben, der dir dann in der App a
 
 ## Authentifizierung deaktivieren
 
-Um die **Zwei-Faktor-Authentifizierung** zu **deaktivieren** kannst du wieder unter Sicherheit auf deaktivieren gehen: 
+Um die **Zwei-Faktor-Authentifizierung** zu **deaktivieren,** kannst du wieder unter Sicherheit auf deaktivieren gehen: 
 
 ![2022-04-08_04-06_1](https://user-images.githubusercontent.com/61953937/162349505-5b31a5f5-5d15-4d24-b686-1d4c98b59124.png)
 
-Solltest du die App oder dein Handy nicht mehr haben wäre die zweite Möglichkeit, dass du eine Email an **support@zap-hosting.com** schickst. **Diese Email muss von der Accountemail kommen**. Anschließend wird der Support diese für dich deaktivieren.
+Solltest du die App oder dein Handy nicht mehr haben, wäre die zweite Möglichkeit, dass du eine E-Mail an **support@zap-hosting.com** schickst. **Diese E-Mail muss von der Accountemail kommen**. Anschließend wird der Support diese für dich deaktivieren.

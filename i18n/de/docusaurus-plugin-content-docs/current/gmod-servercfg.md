@@ -7,17 +7,17 @@ sidebar_label: Garry's Mod Server.cfg Anpassungen
 
 ## Die korrekte Anpassung deiner Server.cfg
 
-Um die server.cfg direkt zu bearbeiten wechseln wir in den "Configs"-Tab unseres Webinterfaces
+Um die server.cfg direkt zu bearbeiten, wechseln wir in den "Configs"-Tab unseres Webinterfaces
 
 ![image](https://user-images.githubusercontent.com/26007280/189977143-aa2eec2d-a8a1-4667-9661-75d1e39d24d4.png)
 
-danach öffnen wir die server.cfg in unserem eingebauten Config-Editor.
+Danach öffnen wir die server.cfg in unserem eingebauten Config-Editor.
 
 ![image](https://user-images.githubusercontent.com/26007280/189977164-4928fc92-cefa-41b4-ae49-8f7b1cf28950.png)
 
-Du befindest dich nun in unserem Config-Editor und kannst die Variablen darin wie gewünscht anpassen. Achte bitte darauf das du unter Einstellungen nicht andere Werte festlegst als in der server.cfg, diese werden andernfalls überschrieben betrifft u.a. hostname, rcon_password, sv_password.
+Du befindest dich nun in unserem Config-Editor und kannst die Variablen darin wie gewünscht anpassen. Achte bitte darauf, dass du unter Einstellungen nicht andere Werte festlegst als in der server.cfg, diese werden andernfalls überschrieben, betrifft u.a. hostname, rcon_password, sv_password.
 
-Mögliche Variablen um deinen Garry's Mod Server anzupassen:
+Mögliche Variablen, um deinen Garry's Mod Server anzupassen:
 
 Spawneinstellungen:
 ```
@@ -44,7 +44,7 @@ sv_noclipaccelerate 3	//Definiert die Geschwindigkeit von Noclip
 sv_alltalk 1			// Wenn aktiviert, kann im Voicechat jeder Spieler serverweit gehört werden.
 ```
 
-Netzwerkspeziefische Einstellungen (Keine Änderung empfohlen)
+Netzwerkspezifische Einstellungen (Keine Änderung empfohlen)
 ```
 sv_minrate 0			//Minimale Verbindungsgeschwindigkeit
 sv_maxrate 10000		//Maximale Verbindungsgeschwindigkeit
@@ -55,7 +55,7 @@ sv_lan 0				//Definiert das es ein Online-Spiel ist.
 sv_region 3				//0+1 = US, 2 = South Africa, 3 = Europe, 4 = Asia, 5 = Australia, 6 = Middle East, 7 = Africa, 255 = Worldwide
 ```
 
-Sobald du alle Einstellungen vorgenommen hast welche du anpassen wolltest, muss nurnoch deine Änderung gespeichert werden.
+Sobald du alle Einstellungen vorgenommen hast, welche du anpassen wolltest, muss nur noch deine Änderung gespeichert werden.
 
 ![image](https://user-images.githubusercontent.com/26007280/189977193-0ef72ea6-8181-409f-a9b8-49fa14ab8f96.png)
 
