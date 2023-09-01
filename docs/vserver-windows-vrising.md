@@ -101,7 +101,7 @@ Which are located in the VRisingServer_Data\StreamingAssets\Settings Directory.
 
 In the ServerHostSettings.json File you can make general changes.
 Like defining the Ports, a Server Description, the SaveInterval and for example the Gameserver Password.
-I have changed the Name from the Server in there to "ZAP Hosting Test Server".
+I have changed the Name from the Server in there to "ZAP-Hosting Test Server".
 
 To start the Server you can make a doubleclick on the start_server_example.bat File.
 

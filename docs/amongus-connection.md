@@ -13,7 +13,7 @@ First open [Impostor](https://impostor.github.io/Impostor/) where we need to ent
 To create the file, we need information such as the IP, port and a name.
 ![image](https://user-images.githubusercontent.com/26007280/189938706-123a1285-7c71-4e51-8ec0-13f9ecc672a6.png)
 
-Enter the data from your ZAP hosting interface here, it looks like this for example:
+Enter the data from your ZAP-Hosting interface here, it looks like this for example:
 
 ![image](https://user-images.githubusercontent.com/26007280/189938736-4b04517a-475a-4cf4-ad15-b2a3d7e3f3aa.png)
 

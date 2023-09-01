@@ -68,7 +68,7 @@ A popup window will open where the user is configured and created. Here the desi
 
   
 
-:::caution An e-mail address is required which hasn't been used for the registration of a ZAP hosting account yet.
+:::caution An e-mail address is required which hasn't been used for the registration of a ZAP-Hosting account yet.
 :::
 
 

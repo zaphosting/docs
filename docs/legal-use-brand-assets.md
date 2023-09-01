@@ -29,7 +29,7 @@ ZAP-Hosting reserves the right to revoke, modify or change any granted permissio
 
 **I'm a ZAP partner, can I use the logo?**
 
-*If you are a ZAP Hosting Partner and have a question regarding the use of ZAP Hosting Brand Assets under your agreement, please contact your ZAP Hosting Partner Manager. You can find the contact details in your partner menu.*
+*If you are a ZAP-Hosting Partner and have a question regarding the use of ZAP-Hosting Brand Assets under your agreement, please contact your ZAP-Hosting Partner Manager. You can find the contact details in your partner menu.*
 
 <br/>
 

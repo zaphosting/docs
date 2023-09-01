@@ -7,7 +7,7 @@ sidebar_label: Refer a Friend
 
 ## Introduction
 
-The Refer a Friend Program is our affiliate program that allows you to earn money or ZAP coins by referring new customers to ZAP hosting.
+The Refer a Friend Program is our affiliate program that allows you to earn money or ZAP coins by referring new customers to ZAP-Hosting.
 
 ## How does it work?
 

@@ -5,7 +5,7 @@ description: "Information about the different contract options at ZAP-Hosting co
 sidebar_label: Contracts & Prepaids
 ---
 
-Logged in to your ZAP hosting account you will find the menu item "Contracts & Prepaids" on the left side. There all active servers are listed, but also expired servers that have not been deleted yet.
+Logged in to your ZAP-Hosting account you will find the menu item "Contracts & Prepaids" on the left side. There all active servers are listed, but also expired servers that have not been deleted yet.
 
 ![image](https://user-images.githubusercontent.com/61953937/159140780-878e902c-bdcc-4e89-be60-c3fad2c7f827.png)
 

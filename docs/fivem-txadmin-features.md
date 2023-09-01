@@ -54,7 +54,7 @@ The server log is the txAdmin log, some info from txAdmin is shown here, if the 
 
 ## Cfg Editor
 
-In the Cfg editor your server.cfg can be configured, the whole thing works the same way as the config editor in the ZAP hosting interface.
+In the Cfg editor your server.cfg can be configured, the whole thing works the same way as the config editor in the ZAP-Hosting interface.
 
 ![image](https://user-images.githubusercontent.com/13604413/159169655-907a4b05-0d58-4c27-a419-40805662d380.png)
 
