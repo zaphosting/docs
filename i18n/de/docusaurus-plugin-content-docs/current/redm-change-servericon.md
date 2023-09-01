@@ -5,42 +5,40 @@ description: Information on how to change RedM server icon from ZAP-Hosting - ZA
 sidebar_label: Change server icon
 ---
 
-Are you looking to customise your server and set your own custom icon for your server? This can be done easily! In this guide you will learn how to prepare an image and set it as your new custom server icon.
+## Einführung
 
-## Preparation
+Du möchtest deinen Server individuell gestalten und ein eigenes Icon für deinen Server erstellen? Das ist ganz einfach möglich! In dieser Anleitung erfährst du, wie du ein Bild vorbereitest und es als dein neues benutzerdefiniertes Serversymbol einrichtest.
 
-In order to set a custom server icon for your RedM server, you must first perpare an image file that is in the size of 96x96 pixels and that is in the PNG image format (`.png` file extension).
 
-We recommend using an image manipulation program such as GIMP, or simply use an online website tool to resize and convert your existing image.
 
-Once you have prepared the image which follows those parameters, you are ready to upload it and set it in your server configuration.
+## Vorbereitung
+
+Um ein benutzerdefiniertes Server-Icon für deinen FiveM Server zu erstellen, musst du zunächst eine Bilddatei in der Größe von 96x96 Pixeln im PNG-Format (Dateierweiterung "png") bereitstellen. Wir empfehlen die Verwendung eines Bildbearbeitungsprogramms wie z.B. GIMP oder die Verwendung eines Online-Tools zur Größenänderung und Konvertierung deines bestehenden Bildes. Sobald du das Bild mit diesen Vorgaben vorbereitet hast, kannst du es hochladen und in deiner Serverkonfiguration einstellen.
+
+
 
 ## Installation
 
-### Uploading files
+### Dateien hochladen
 
-The next step is to upload your ready image to your RedM gameserver, which is done through the use of FTP. If you are not familiar with using FTP, we recommend you to have a look at the [FTP file access](https://zap-hosting.com/guides/docs/gameserver-ftpaccess/) guide.
+Der nächste Schritt ist das Hochladen des fertigen Bildes auf deinen RedM Gameserver, was mit Hilfe von FTP geschieht. Wenn du mit FTP nicht vertraut bist, empfehlen wir dir einen Blick in die [FTP file access](https://zap-hosting.com/guides/docs/gameserver-ftpaccess/) Anleitung zu werfen.
 
-Once you are logged in to FTP, navigate to the folder `gXXXX/redm/server-data/` and upload your server icon file there. Make sure to remember what the file is called.
+Sobald du bei FTP eingeloggt bist, navigiere zum Ordner `gXXXX/gta-fivem/server-data/` und lade dort deine Server-Icon-Datei hoch. Achte darauf, dass du dir den Namen der Datei merkst.
 
 ![image](https://github.com/zaphosting/docs/assets/42719082/066d6d02-5e88-4583-9a20-e7d8146317b7)
 
-### Activation
+### Aktivierung
 
-To ensure that the icon is loaded on server startup, you must now set it in the `server.cfg` file for your server, under the `load_server_icon` parameter.
-
-For example, if you have named your icon `zaphosting96x96`, the set command would be: 
+Um sicherzustellen, dass das Icon beim Start des Servers geladen wird, musst du es nun in der Datei `server.cfg` für deinen Server unter dem Parameter `load_server_icon` einstellen. Wenn du zum Beispiel dein Icon `zaphosting96x96` genannt hast, dann würde der Set-Befehl wie folgt lauten: 
 ```
 # Loading a server icon (96x96 PNG file)
 load_server_icon zaphosting96x96
 ```
 
-You can access your `server.cfg` file either through FTP (as seen above), or via the **Configs** section on your gameserver's webinterface.
+Du kannst auf deine `server.cfg` Datei entweder per FTP (wie oben gesehen), oder über den **Configs** Bereich im Webinterface deines Gameservers zugreifen.
 
 :::info
-Please ensure that the name of the image file set in the command exactly matches what you previously uploaded. This includes being case sensitive.
+Bitte stelle sicher, dass der Name der Bilddatei, den du im Befehl angibst, genau mit dem Namen übereinstimmt, den du zuvor hochgeladen hast. Dabei muss die Groß- und Kleinschreibung beachtet werden.
 :::
 
-Finally, you can restart your server. Your new server iocn will be loaded next time your server has fully started and will should show up on the server list shortly.
-
-You have successfully set a custom server icon on your RedM gameserver!
+Abschließend kannst du deinen Server neu starten. Dein neues Server-Icon wird beim nächsten vollständigen Start deines Servers geladen und sollte in Kürze in der Serverliste auftauchen. Du hast erfolgreich ein eigenes Server-Icon auf deinem RedM Gameserver eingerichtet!

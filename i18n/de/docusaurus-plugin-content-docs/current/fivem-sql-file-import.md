@@ -1,86 +1,86 @@
 ---
 id: fivem-sql-file-import
-title: SQL file import
-description: Information on how to import SQL files into the database of your FiveM server from ZAP-Hosting - ZAP-Hosting.com documentation
-sidebar_label: SQL File Import
+title: SQL-Datei importieren
+description: Informationen zum Import von SQL-Dateien in die Datenbank deines FiveM-Servers von ZAP-Hosting - ZAP-Hosting.com Dokumentation
+sidebar_label: SQL-Datei importieren
 ---
 
-## Importing SQL files into your FiveM database
+## Einführung
 
-Many resources for FiveM will require a database to function correctly. Therefore, it is important that you import the SQL files provided with your resources correctly into your database to ensure that the resources can create entries into your database and function as expected.
+Viele der Ressourcen für FiveM benötigen eine Datenbank, um ordnungsgemäß zu funktionieren. Daher ist es wichtig, dass du die mit deinen Ressourcen gelieferten SQL-Dateien korrekt in deine Datenbank importierst, um sicherzustellen, dass die Ressourcen Einträge in deiner Datenbank erstellen können und wie erwartet funktionieren.
 
-:::info
-Not all resources require a database to function! When you download a resource, check the description or documentation to figure out whether you need to import an SQL file.
+:::info Nicht alle Ressourcen benötigen eine Datenbank, um zu funktionieren! Wenn du eine Ressource herunterlädst, überprüfe die Beschreibung oder Dokumentation, um herauszufinden, ob du eine SQL-Datei importieren musst.
 :::
 
-In many cases, one or more files with the file extension **.sql** will be enclosed within the download files for the resource. These must be imported into the database.
+In vielen Fällen sind in den Download-Dateien für die Ressource eine oder mehrere Dateien mit der Dateierweiterung **.sql** enthalten. Diese müssen in die Datenbank importiert werden.
 
-## Preparation of your database
 
-To begin, you must access the **Settings** section on your gameserver webinterface.
 
-![image](https://github.com/zaphosting/docs/assets/42719082/a9d59d0b-3b6c-4e1b-be73-2e3609418169)
+## Vorbereitung der Datenbank
 
-You must active the **Configure database** section. By default, this should be enabled. However, check this by scrolling down, finding the correct subsection and setting this to `Yes, configure automatically!` if it's not set yet. Now scroll to the bottom of the page and ensure that you press the **Save** button.
+Um zu beginnen, musst du den Bereich **Einstellungen** in deinem Gameserver-Webinterface aufrufen.![image](https://github.com/zaphosting/docs/assets/42719082/a9d59d0b-3b6c-4e1b-be73-2e3609418169)
+
+Du musst den Abschnitt **Datenbank konfigurieren** aktivieren. Standardmäßig sollte dies aktiviert sein. Überprüfen dies jedoch, indem du nach unten scrollst, den richtigen Unterabschnitt findest und diesen auf "Ja, automatisch konfigurieren" setzt, falls er noch nicht eingestellt ist. Scrolle nun zum Ende der Seite und klicke auf den Button **Speichern**.
 
 ![image](https://github.com/zaphosting/docs/assets/42719082/4435a48e-6998-459f-8377-15ff8b97f055)
 
 :::important
-Ensure that you scroll to the bottom of the page and press the **Save** button, otherwise your changes might not be saved.
+Stelle sicher, dass du bis zum Ende der Seite scrollst und auf den Button **Speichern** klickst, da ansonsten deine Änderungen möglicherweise nicht gespeichert werden.
 :::
 
-Now, you must navigate to the **Resources** section on your gameserver webinterface. Here, you must install the `MySQL-Async` resource if it's not installed yet. This must be installed in order to allow the server to communicate with your database.
+Navigiere nun zum Abschnitt **Ressourcen** beim Webinterface deines Gameservers. Hier musst du die Ressource `MySQL-Async` installieren, falls du dies noch nicht installiert hast. Diese muss installiert werden, damit der Server mit deiner Datenbank kommunizieren kann.
 
 ![image](https://github.com/zaphosting/docs/assets/42719082/60dcb5f0-5bd9-4955-bc11-551082e1ab91)
 
-You have now configured your database to work with your gameserver and it is ready to be used.
+Du hast nun deine Datenbank so konfiguriert, dass sie mit deinem Gameserver zusammenarbeitet, und sie ist bereit, benutzt zu werden.
 
-## Preparing the SQL file
 
-In this example, we will be importing the SQL file for **ESX**. You should prepare the SQL file for the resource that you want to import it for. You can do this by opening the folder of your resource which requires a database and finding a file with the **.sql** file extension.
+
+## Vorbereiten der SQL-Datei
+
+In diesem Beispiel werden wir die SQL-Datei für **ESX** importieren. Du solltest die SQL-Datei für die Ressource vorbereiten, für die du sie importieren möchtest. Öffne dazu den Ordner Ihrer Ressource, die eine Datenbank benötigt, und suchen eine Datei mit der Dateiendung **.sql**.
 
 ![image](https://github.com/zaphosting/docs/assets/42719082/3d2b4cd2-d98e-4b25-b606-9f451164edc9)
 
 :::info
-Before proceeding with the import, you should open the .sql file with any text editor and check if the following lines are present:
+Bevor du mit dem Import fortfährst, solltest du die .sql-Datei mit einem beliebigen Texteditor öffnen und überprüfen, ob die folgenden Zeilen vorhanden sind:
 
 ![image](https://github.com/zaphosting/docs/assets/42719082/dfc43c55-9918-45e7-99eb-1f70193c0be1)
 
-If this exists within your .sql file, ensure to remove the `CREATE` and `USE` database lines and save the file, otherwise the SQL file cannot be imported. 
+Wenn diese in deiner .sql Datei vorhanden ist, stelle sicher, dass du die `CREATE` und `USE` Datenbankzeilen entfernst und die Datei speicherst, sonst kann die SQL Datei nicht importiert werden. 
 
-This is because the first line declares that a new database should be created, but you do not need this as your RedM gameserver already has a database with another name. The second line declares that the database with the name `essentialmode` should be used to import into, but once again you do not need this as there is an existing database that you will use for importing.
+Das liegt daran, dass die erste Zeile angibt, dass eine neue Datenbank erstellt werden soll, die du aber nicht brauchst, da dein FiveM Gameserver bereits eine Datenbank mit einem anderen Namen hat. In der zweiten Zeile wird angegeben, dass die Datenbank mit dem Namen `essentialmode` für den Import verwendet werden soll, aber auch dies ist nicht notwendig, da es bereits eine Datenbank gibt, die du zum Importieren verwenden wirst
+
 :::
 
-## Import the SQL file into your FiveM database
+## Importieren der SQL-Datei in deine Datenbank
 
-You should now access the **Database** section on your gameserver webinterface.
+Du solltest nun auf den Abschnitt **Datenbank** im Webinterface deines Gameservers zugreifen.
 
 ![image](https://github.com/zaphosting/docs/assets/42719082/5f0f81ec-832b-4b9e-a39a-8ec78fd10890)
 
-On the database page, you will be provided with a range of different functions to manage your database including the options to backup, create, manage and more. We will focus on accessing your database, however take a look at our other database guides if you want more information: [Setting up external DB access](https://zap-hosting.com/guides/docs/gameserver-database-external-access/).
+Auf der Datenbankseite findest du eine Reihe von verschiedenen Funktionen zur Verwaltung deiner Datenbank, einschließlich der Optionen zum Sichern, Erstellen, Verwalten und mehr. Wir werden uns auf den Zugriff auf deine Datenbank konzentrieren, wirf jedoch einen Blick auf unsere anderen Datenbankanleitungen, wenn du mehr Informationen benötigst: [Externen DB-Zugang einrichten](https://zap-hosting.com/guides/docs/gameserver-database-external-access/).
 
-You should press the blue redirect icon which will take you to the tool **phpmyadmin** where you can easily access your database. Login with the credentials that were provided on the database page if you are prompted.
+Klicke auf das blaue Icon für die Weiterleitung, das dich zum Tool **phpmyadmin** führt, mit dem du ganz einfach auf deine Datenbank zugreifen kannst. Melde dich mit den Anmeldedaten an, die du auf der Datenbank-Seite erhalten hast, wenn du dazu aufgefordert wirst.
 
-Once you are on the page, select your database from the list on the left. The name of your database will **always** start with `zap` as the prefix.
+Sobald du auf der Seite bist, wähle deine Datenbank aus der Liste auf der linken Seite. Der Name deiner Datenbank beginnt **immer** mit `zap` als Präfix.
 
 ![image](https://github.com/zaphosting/docs/assets/42719082/30fa6041-b94e-4ac8-a3cd-286cca226dba)
 
-At the moment, your database will be empty if you have not used it before. Now you will finally import the .sql file.
-
-Press the **Import** button on the top navigation bar on your phpmyadmin to open up the import menu.
+Im Moment ist deine Datenbank noch leer, wenn du sie noch nicht benutzt hast. Importiere nun die SQL-Datei. Klicken auf den Button **Importieren** in der oberen Navigationsleiste von phpmyadmin, um das Importmenü zu öffnen. 
 
 ![image](https://github.com/zaphosting/docs/assets/42719082/c0ca30f0-c520-4a71-843a-296064ba5761)
 
-Next, you should press the **Browse...** button which will open up a file explorer window. Select the **.sql** file that you originally wanted to import.
+Als Nächstes solltest du auf den Button **Durchsuchen...** klicken, wodurch sich ein Datei-Explorer-Fenster öffnet. Wähle die **SQL-Datei** aus, die du importieren möchtest.
 
 ![image](https://github.com/zaphosting/docs/assets/42719082/83ba22fb-fc6c-4dbb-9c47-ad42d3a9fa66)
 
 :::note
-The maximum file size is 2MB. If you have a larger SQL file than this, you should use a SQL splitter to split a large SQL file into smaller parts. We recommend the tool [Pinetools SQL-Splitter](https://pinetools.com/split-files) which does this for you. Once done, you can import the SQL files as normal.
+Die maximale Dateigröße beträgt 2 MB. Wenn du eine größere SQL-Datei hast, solltest du einen SQL-Splitter verwenden, um eine große SQL-Datei in kleinere Teile aufzuteilen. Wir empfehlen das Tool [Pinetools SQL-Splitter] (https://pinetools.com/split-files), das dies für dich erledigt. Danach kannst du die SQL-Dateien wie gewohnt importieren.
 :::
 
-Finally, press the **Import** button at the bottom of the page to start the import process. If everything worked correctly, you will see a success message and a new table will be created within your database which you can view on the left-hand side.
+Klicke abschließend auf den Button **Importieren** am unteren Ende der Seite, um den Importvorgang zu starten. Wenn alles richtig funktioniert hat, erhältst du eine Erfolgsmeldung und es wird eine neue Tabelle in deiner Datenbank erstellt, die du auf der linken Seite sehen kannst.
 
 ![image](https://github.com/zaphosting/docs/assets/42719082/5fef5d58-78f1-4b59-bc3e-1e0af2ff981b)
 
-You have successfully imported an SQL file to your gameserver's database!
+Du hast erfolgreich eine SQL-Datei in die Datenbank deines Gameservers importiert!

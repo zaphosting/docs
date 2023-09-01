@@ -5,11 +5,11 @@ description: Information on how to clear the cache of your FiveM Server from ZAP
 sidebar_label: Delete Cache
 ---
 
+
+
 ## Simple Method
 
-Deleting cache on your FiveM gameserver is really simple.
-
-Firstly, head over to your gameserver's webinterface. Locate and open the **Settings** section on your gameserver's webinterface.
+Deleting cache on your FiveM gameserver is really simple. Firstly, head over to your gameserver's webinterface. Locate and open the **Settings** section on your gameserver's webinterface.
 
 ![image](https://github.com/zaphosting/docs/assets/42719082/bbdfc816-6160-4e2a-b9ee-74feca4663ed)
 

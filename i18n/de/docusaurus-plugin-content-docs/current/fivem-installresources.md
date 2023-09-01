@@ -1,64 +1,67 @@
 ---
 id: fivem-installresources
-title: Installation of resources
-description: Information on how to install resources on your FiveM server from ZAP-Hosting - ZAP-Hosting.com documentation
-sidebar_label: Install resources
+title: Installation von Resourcen
+description: Informationen, wie du Ressourcen auf deinen FiveM-Server von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentation
+sidebar_label: Resourcen installieren
 ---
 
-**📺Video:** Do you prefer instructions in the form of a video or as an additional visual supplement? No problem! We also provide a video for this topic: 
+**📺Video:** Du bevorzugst eine Anleitung eher in Form eines Videos oder als zusätzliche visuelle Ergänzung? Kein Problem! Für dieses Thema stellen wir ebenfalls ein Video zur Verfügung:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/V7us5V6KLho" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Introduction
+## Einführung
 
-Resources can be used to expand your FiveM server with additional features. This is especially interesting if you are planning to start larger projects, such as a roleplay server or similar. Something like this can't be done without such additional resources. 
+Resourcen können verwendet werden, um deinen FiveM Server um zusätzliche Funktionen zu erweitern. Dies ist gerade dann interessant, wenn du größere Projekte angehen möchtest, wie zum Beispiel einen Roleplay Server oder ähnlichen. Ohne solche zusätzlichen Resourcen lässt sich das so direkt nicht umsetzen.
 
-FiveM and its community offers a large variety of resources. An overview of the most popular resources can be found on the Cfx.re Forum: https://forum.cfx.re/c/development/releases/7
+FiveM beziehungsweise dessen Community bietet hierbei eine große Auswahl an Resourcen an. Eine Übersicht mit den beliebtesten Resourcen findest du im Cfx.re Forum: https://forum.cfx.re/c/development/releases/7
 
-## Preperation
 
-The installation of resources is done via FTP. You will need an FTP client to upload files to your server. If you are not familiar with using FTP, we recommend you to have a look at the [FTP file access](https://zap-hosting.com/guides/docs/gameserver-ftpaccess/) guide.
 
-Downloaded resources are usually offered in a compressed format. This means that you have to uncompress the compress files with an unpacking program such as 7Zip, Winrar or WinZip. The uncompressed resource folder should contain at least the following files: `__resource.lua` or `fxmanifest.lua` as well as the associated script files.
+## Vorbereitung
+
+Die Installation der Ressourcen erfolgt per FTP. Du benötigst einen FTP-Client, um Dateien auf deinen Server hochzuladen. Falls du nicht mit der Verwendung von FTP vertraut bist, empfehlen wir dir, einen Blick in die [FTP Dateizugriff](https://zap-hosting.com/guides/docs/gameserver-ftpaccess/) Anleitung zu werfen.
+
+Heruntergeladene Ressourcen werden in der Regel in einem komprimierten Format bereitgestellt. Das bedeutet, dass du die komprimierten Dateien mit einem Entpackungsprogramm wie 7Zip, Winrar oder WinZip entpacken musst. Der entpackte Ressourcenordner sollte mindestens die folgenden Dateien enthalten: `__resource.lua` oder `fxmanifest.lua` sowie die zugehörigen Skriptdateien.
 
 :::info
-In the case that these files are not present, it may be that they are located in a subdirectory withing the resource.
+Falls diese Dateien nicht vorhanden sind, kann es sein, dass sie sich in einem Unterverzeichnis innerhalb der Ressource befinden.
 :::
+
+
 
 ## Installation
 
-### Uploading files
+### Dateien hochladen
 
-You must now upload the previously uncompressed files as an individual folder (if not already). Your folder must be uploaded to the server's `resource` directory.
+Du musst nun die zuvor unkomprimierten Dateien als einen einzelnen Ordner hochladen (falls noch nicht geschehen). Dein Ordner muss in das `Resource`-Verzeichnis des Servers hochgeladen werden.
 
 ![image](https://github.com/zaphosting/docs/assets/42719082/85a508ac-fd43-401f-9fc6-cffd538e34f0)
 
-The directory structure typically looks like:
+Die Verzeichnisstruktur sieht normalerweise wie folgt aus:
 ```
 /gXXXXXX/gta5-fivem/server-data/resources
 ```
 
 :::info
-The directory structure of the FiveM TxAdmin gameserver differs from the rest of the FiveM products, as they contain their own template directory. The resources are also located in the template directory.
+Die Verzeichnisstruktur des FiveM TxAdmin Gameservers unterscheidet sich von den übrigen FiveM Produkten, da diese ein eigenes Template-Verzeichnis enthalten. Die Ressourcen befinden sich ebenfalls im Template-Verzeichnis.
 :::
 
-Certain resources cooperate with a database and therefore often already contain SQL files that have to be imported into the database. If this is the case, head over to our [SQL File Import](https://zap-hosting.com/guides/docs/fivem-sql-file-import) guide to learn more about how to do this.
+Bestimmte Ressourcen kooperieren mit einer Datenbank und enthalten daher oft bereits SQL-Dateien, die in die Datenbank importiert werden müssen. Wenn dies der Fall ist, dann lese unsere Anleitung [SQL-Datei importieren](https://zap-hosting.com/guides/docs/fivem-sql-file-import), um mehr darüber zu erfahren, wie du dies tun kannst.
 
-### Activation
+### Aktivierung
 
-To ensure that the installed resource is loaded on server startup, you must first activate it in the `server.cfg` file for your server. The activation is done via the `start [example resource]` command. 
+Um sicherzustellen, dass die installierte Ressource beim Start des Servers geladen wird, musst du sie zunächst in der Datei `server.cfg` für deinen Server aktivieren. Die Aktivierung erfolgt über den Befehl `start [Beispielressource]`. 
 
-For example, if you have uploaded the resource with the folder name `eup-ui`, the start command in the config must look like this: 
+Wenn du zum Beispiel die Ressource mit dem Ordnernamen `eup-ui` hochgeladen hast, muss der Startbefehl in der Konfiguration wie folgt aussehen: 
 ```
 start eup-ui
 ```
 
-You can access your `server.cfg` file either through FTP (as seen above), or via the **Configs** section on your gameserver's webinterface.
+Du kannst auf deine "server.cfg"-Datei entweder per FTP (siehe oben) oder über den Abschnitt **Configs** im Webinterface deines Gameservers zugreifen.
 
 :::info
-Please ensure that the name of the previously created folder is the same as what is found in the start command. This includes being case sensitive.
+Bitte vergewissern dich, dass der Name des zuvor erstellten Ordners mit dem Namen übereinstimmt, der im Startbefehl angegeben ist. Dabei ist auch die Groß- und Kleinschreibung zu beachten.
 :::
 
-Finally, you can restart your server. The installed resource should now be loaded next time your server has fully started.
+Abschließend kannst du deinen Server neu starten. Die installierte Ressource sollte nun geladen werden, wenn dein Server das nächste Mal vollständig gestartet ist. Du hast erfolgreich eine Ressource auf deinem FiveM Gameserver installiert!
 
-You have successfully installed a resource into your FiveM gameserver!

@@ -7,11 +7,11 @@ sidebar_label: Own License Key
 
 ## Why would you need a custom key?
 
-You would require your own license key, primarily if you wish to use your [FiveM Patreon](https://www.patreon.com/fivem/posts) benefits including items such as Onesync, coloured server name and more. Alternatively, you may want a custom license key to change the listed owner on the server list or if you receive an error that the automatically generated ZAP key is invalid.
+You would require your own license key, primarily if you wish to use your [RedM Patreon](https://www.patreon.com/fivem/posts) benefits including items such as Onesync, coloured server name and more. Alternatively, you may want a custom license key to change the listed owner on the server list or if you receive an error that the automatically generated ZAP key is invalid.
 
 ## Preparation
 
-To create your own license key, you should first login to the [FiveM Keymaster website](https://keymaster.fivem.net). If you do not have an existing Cfx.re Forum account, you must create one in order to to be able to login and proceed. 
+To create your own license key, you should first login to the [Cfx.re Keymaster website](https://keymaster.fivem.net). If you do not have an existing Cfx.re Forum account, you must create one in order to to be able to login and proceed. 
 
 ![image](https://github.com/zaphosting/docs/assets/42719082/4c5bd4d9-ea1a-49aa-b70c-b5d7f07682c2)
 

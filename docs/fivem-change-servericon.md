@@ -9,15 +9,19 @@ sidebar_label: Change server icon
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/nv0Ss5fo_ps" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+
+
+## Introduction
+
 Are you looking to customise your server and set your own custom icon for your server? This can be done easily! In this guide you will learn how to prepare an image and set it as your new custom server icon.
+
+
 
 ## Preparation
 
-In order to set a custom server icon for your FiveM server, you must first perpare an image file that is in the size of 96x96 pixels and that is in the PNG image format (`.png` file extension).
+In order to set a custom server icon for your FiveM server, you must first perpare an image file that is in the size of 96x96 pixels and that is in the PNG image format (`.png` file extension). We recommend using an image manipulation program such as GIMP, or simply use an online website tool to resize and convert your existing image. Once you have prepared the image which follows those parameters, you are ready to upload it and set it in your server configuration.
 
-We recommend using an image manipulation program such as GIMP, or simply use an online website tool to resize and convert your existing image.
 
-Once you have prepared the image which follows those parameters, you are ready to upload it and set it in your server configuration.
 
 ## Installation
 
@@ -31,9 +35,8 @@ Once you are logged in to FTP, navigate to the folder `gXXXX/gta-fivem/server-da
 
 ### Activation
 
-To ensure that the icon is loaded on server startup, you must now set it in the `server.cfg` file for your server, under the `load_server_icon` parameter.
+To ensure that the icon is loaded on server startup, you must now set it in the `server.cfg` file for your server, under the `load_server_icon` parameter. For example, if you have named your icon `zaphosting96x96`, the set command would be: 
 
-For example, if you have named your icon `zaphosting96x96`, the set command would be: 
 ```
 # Loading a server icon (96x96 PNG file)
 load_server_icon zaphosting96x96
@@ -45,6 +48,4 @@ You can access your `server.cfg` file either through FTP (as seen above), or via
 Please ensure that the name of the image file set in the command exactly matches what you previously uploaded. This includes being case sensitive.
 :::
 
-Finally, you can restart your server. Your new server iocn will be loaded next time your server has fully started and will should show up on the server list shortly.
-
-You have successfully set a custom server icon on your FiveM gameserver!
+Finally, you can restart your server. Your new server iocn will be loaded next time your server has fully started and will should show up on the server list shortly. You have successfully set a custom server icon on your FiveM gameserver!

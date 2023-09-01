@@ -59,6 +59,4 @@ You can access your `server.cfg` file either through FTP (as seen above), or via
 Please ensure that the name of the previously created folder is the same as what is found in the start command. This includes being case sensitive.
 :::
 
-Finally, you can restart your server. The installed resource should now be loaded next time your server has fully started.
-
-You have successfully installed a resource into your FiveM gameserver!
+Finally, you can restart your server. The installed resource should now be loaded next time your server has fully started. You have successfully installed a resource into your FiveM gameserver!

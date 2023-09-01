@@ -5,7 +5,7 @@ description: Information on how to import SQL files into the database of your Fi
 sidebar_label: SQL File Import
 ---
 
-## Importing SQL files into your FiveM database
+## Introduction
 
 Many resources for FiveM will require a database to function correctly. Therefore, it is important that you import the SQL files provided with your resources correctly into your database to ensure that the resources can create entries into your database and function as expected.
 
@@ -51,7 +51,7 @@ If this exists within your .sql file, ensure to remove the `CREATE` and `USE` da
 This is because the first line declares that a new database should be created, but you do not need this as your RedM gameserver already has a database with another name. The second line declares that the database with the name `essentialmode` should be used to import into, but once again you do not need this as there is an existing database that you will use for importing.
 :::
 
-## Import the SQL file into your FiveM database
+## Import the SQL file into your database
 
 You should now access the **Database** section on your gameserver webinterface.
 

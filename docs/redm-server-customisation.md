@@ -1,7 +1,7 @@
 ---
 id: redm-server-customisation
 title: Customise server details
-description: Information on how to customise server details displayed in the server list for RedM servers - ZAP-Hosting.com 
+description: Information on how to customise server details displayed in the server list for RedM servers - ZAP-Hosting.com - Documentation
 sidebar_label: Customise Server Details
 ---
 
@@ -117,7 +117,7 @@ sets gametype "Freeroam"
 
 #### Language
 
-Finally, you can change the language of your server which is displayed on your server's server list page. We have a dedicated page for setting localisation which you can view here: [https://zap-hosting.com/guides/docs/redm-locale].
+Finally, you can change the language of your server which is displayed on your server's server list page. We have a dedicated page for setting localisation which you can view here: [Change language / location (flag)](redm-locale.md).
 
 This can be done through your gameserver's webinterface, or by setting a tag:
 ```

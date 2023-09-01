@@ -1,90 +1,91 @@
 ---
 id: redm-server-customisation
-title: Customise server details
-description: Information on how to customise server details displayed in the server list for RedM servers - ZAP-Hosting.com 
-sidebar_label: Customise Server Details
+title: Anpassen der Serverinformationen
+description: Informationen über die Anpassung der in der Serverliste angezeigten Informationen für RedM-Server - ZAP-Hosting.com - Dokumentation
+sidebar_label: Anpassen der Serverinformationen
 ---
 
-Are you looking to customise your server to display custom information in the server list? This can be done easily! In this guide you will learn how to set a range of different customisations that are available to make your server stand out in the server list!
+Möchtest du deinen Server so anpassen, dass er benutzerdefinierte Informationen in der Serverliste anzeigt? Das ist ganz einfach möglich! In dieser Anleitung erfährst du, wie du eine Reihe von verschiedenen Anpassungen vornehmen kannst, um deinen Server in der Serverliste hervorzuheben!
 
-## Accessing your server's configuration
+## Zugriff auf die Konfiguration deines Servers
 
-There are multiple ways available to access your `server.cfg` configuration file for your RedM gameserver. Editing this file is needed in order to allow you to set customisations.
+Es gibt mehrere Möglichkeiten, um auf die Konfigurationsdatei `server.cfg` für deinen RedM Gameserver zuzugreifen. Diese Datei muss bearbeitet werden, damit du Anpassungen vornehmen kannst.
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
 <Tabs>
 <TabItem value="settings" label="Via Webinterface" default>
-The most user-friendly method is by heading over to the **Settings** section on your gameserver's webinterface and searching for the appropriate settings there, as seen below:
+Die einfachste Methode ist es, den Abschnitt **Einstellungen** im Webinterface deines Gameservers aufzurufen und dort nach den entsprechenden Einstellungen zu suchen, wie unten zu sehen:
 
 ![image](https://github.com/zaphosting/docs/assets/42719082/43d0e6eb-a24d-46b8-a6a2-5659ae94084c)
 </TabItem>
 
 <TabItem value="configs" label="Via WI Config file">
-Alternatively, for users who wish to directly edit the raw file, you can access this by heading over to the **Configs** section on your gameserver's webinterface and pressing the blue edit file button, as seen below:
+Alternativ dazu können Benutzer, die die Raw-Datei direkt bearbeiten möchten, dies tun, indem sie den Abschnitt **Configs** im Webinterface ihres Gameservers aufrufen und auf den blauen Button " Datei bearbeiten" klicken, wie unten zu sehen:
 
 ![image](https://github.com/zaphosting/docs/assets/42719082/e3c7392c-7246-4133-be2e-383dac4b0327)
 
-This will open up a text editor directly on the site to enable you to edit it.
+Dadurch öffnet sich direkt auf der Website ein Texteditor, mit dem du diese bearbeiten kannst.
 </TabItem>
 
 <TabItem value="ftp" label="Via FTP">
-The final method of accessing the raw file, is through FTP. If you are not familiar with using FTP, we recommend you to have a look at the [FTP file access](https://zap-hosting.com/guides/docs/gameserver-ftpaccess/) guide. However, this method takes longer and if you wish to directly edit the file contents, we recommend simply using the **Configs** section on your gameserver's webinterface as mentioned.
+Die letzte Methode, um auf die Raw-Datei zuzugreifen, ist per FTP. Wenn du mit der Verwendung von FTP nicht vertraut bist, empfehlen wir dir, einen Blick in die [FTP Dateizugriff](https://zap-hosting.com/guides/docs/gameserver-ftpaccess/) Anleitung zu werfen. Diese Methode dauert jedoch länger, und wenn du den Inhalt der Datei direkt bearbeiten möchtest, empfehlen wir dir, einfach den Abschnitt **Configs** im Webinterface deines Gameservers zu verwenden.
 </TabItem>
 </Tabs>
 
-## Custom Server Name
+### Benutzerdefinierter Servername
 
-### Color Codes
+### Farbcodes
 
-There are a range of colors that you can add to your server name. These can be specified through the use of a prefix when wanting to change color. The list of colours that are available can be viewed in the table below.
+Es gibt eine Reihe von Farben, die du zu deinem Servernamen hinzufügen kannst. Diese können durch die Verwendung eines Präfixes angegeben werden, wenn du die Farbe ändern möchtest. Die Liste der verfügbaren Farben findest du in der folgenden Tabelle.
 
 :::info
-In order to use colours in your server name, you must have a valid [FiveM Patreon tier](https://www.patreon.com/FiveM/posts) which has the benefit. If you do but it still doesn't work, ensure that you have set a [custom license key, more info can be found on our guide](https://zap-hosting.com/guides/docs/FiveM-licensekey/).
+Um Farben in deinem Servernamen zu verwenden, musst du ein gültiges [FiveM Patreon Tier](https://www.patreon.com/FiveM/posts) haben, das den Vorteil beinhaltet. Wenn das der Fall ist und es immer noch nicht funktioniert, vergewissere dich, dass du einen [benutzerdefinierten Lizenzschlüssel, mehr Informationen findest du in unserem Leitfaden](https://zap-hosting.com/guides/docs/FiveM-licensekey/) eingestellt hast.
 :::
 
-Now you can change your server's name, through one of the three methods described in the accessing configuration section. Here is an example of using colors and the outcome they produce:
+Jetzt kannst du den Namen deines Servers ändern, indem du eine der drei Methoden anwendest, die im Abschnitt Zugriff auf die Konfiguration beschrieben sind. Hier ist ein Beispiel für die Verwendung von Farben und das Ergebnis, das sie erzeugen:
 ```
 sv_hostname "^2ZAP-Hosting ^0| ^4Official Community Server ^0- ^1Events coming ^8soon^1!"
 ```
 
 ![image](https://github.com/zaphosting/docs/assets/42719082/32bbf492-9ee0-4c78-a391-9c44120369c2)
 
-#### Colour Codes Table
+#### Farbcodes Tabelle
 
-| Code | Color      | Hex Code |
-| ---- | ---------- | -------- |
-| ^0   | White      | #F0F0F0  |
-| ^1   | Red        | #F44336  |
-| ^2   | Green      | #4CAF50  |
-| ^3   | Yellow     | #FFEB3B  |
-| ^4   | Blue       | #42A5F5  |
-| ^5   | Light Blue | #03A9F4  |
-| ^6   | Purple     | #9C27B0  |
-| ^7   | White      | #F0F0F0  |
-| ^8   | Orange     | #FF5722  |
-| ^9   | Grey       | #9E9E9E  |
+| Code | Farbe    | Hex Code |
+| ---- | -------- | -------- |
+| ^0   | Weiß     | #F0F0F0  |
+| ^1   | Rot      | #F44336  |
+| ^2   | Grün     | #4CAF50  |
+| ^3   | Gelb     | #FFEB3B  |
+| ^4   | Blau     | #42A5F5  |
+| ^5   | Hellblau | #03A9F4  |
+| ^6   | Lila     | #9C27B0  |
+| ^7   | Weiß     | #F0F0F0  |
+| ^8   | Orange   | #FF5722  |
+| ^9   | Grau     | #9E9E9E  |
 
 ### Emojis
 
-RedM also allows you to place emojis directly into your server name.
+RedM ermöglicht es auch, Emojis direkt in Ihren Servernamen einzufügen. Fügen einfach beliebige Emojis in den Parameter `sv_hostname` in deiner Serverkonfiguration ein und es wird funktionieren. Du benötigst dafür keinen RedM Patreon-Tier.
 
-Simply place any emojis you wish into the `sv_hostname` parameter within your server configuration and it will work. You do not need a RedM Patreon tier for this.
-
-Here is an example of adding emojis via your gameserver's webinterface:
+Hier ist ein Beispiel für das Hinzufügen von Emojis über das Webinterface deines Gameservers:
 
 ![image](https://github.com/zaphosting/docs/assets/42719082/43d0e6eb-a24d-46b8-a6a2-5659ae94084c)
 
-Likewise, you can add this directly to your `server.cfg` file via FTP or the **Configs** section on your gameserver's webinterface.
+Du kannst dies ebenfalls direkt zu deiner `server.cfg` Konfigurationsdatei per FTP oder über den Abschnitt **Configs** im Webinterface deines Gameservers hinzufügen.
 
-## Setting Project Details
 
-### Server Description
 
-Setting a server description is useful for providing a short and to the point overview of your server.You can easily set a small project server description for your RedM gameserver, which will display besides your server name on the server list.
+## Projektdetails definieren
 
-Here is an example of setting a project name and the outcome it produces:
+### Server Beschreibung
+
+Du kannst ganz einfach eine kleine Projektbeschreibung für deinen RedM Gameserver festlegen, die neben deinem Servernamen in der Serverliste angezeigt wird.
+
+Hier ist ein Beispiel für das Setzen eines Projektnamens und das Ergebnis:
+
 ```
 sets sv_projectDesc "Join our Discord to stay updated on latest events! discord.gg/zaphosting"
 ```
@@ -93,37 +94,35 @@ sets sv_projectDesc "Join our Discord to stay updated on latest events! discord.
 
 ### Server Tags
 
-Setting server tags can be beneficial to narrowing down what your server is about, and allow potential players to view your server when filtering out servers based on their likings. Once you set tags, these will be visible on your server's server list page and will also be used to filter your server.
+Das Setzen von Server-Tags kann nützlich sein, um den Inhalt deines Servers einzugrenzen und es potenziellen Spielern zu ermöglichen, deinen Server zu sehen, wenn sie Server nach ihren Vorlieben herausfiltern. Sobald du Tags gesetzt hast, werden diese in der Serverliste deines Servers sichtbar sein und auch zum Filtern deines Servers verwendet werden.
 
-Here is an example of setting project tags and the outcome it produces:
+Hier ist ein Beispiel für das Setzen von Projekt-Tags und das daraus resultierende Ergebnis:
+
 ```
 sets tags "zap, zap-hosting, official, community, zap-community, zap-community-server"
 ```
 
 ![image](https://github.com/zaphosting/docs/assets/42719082/33407e9f-9e28-4264-9b13-e946ed5b434a)
 
-### Other Misc. Details
+### Sonstige Informationen
 
-You can also change a few miscellaneous server details to your liking.
+Außerdem kannst du ein paar weitere Serverinformationen nach deinen Wünschen ändern.
 
 #### Gametype
 
-Setting the gametype parameter changes what is displayed on your server's server list page. This does **not** change the gamemode on the server itself.
+Das Setzen des Gametype-Parameters ändert, was auf der Serverlistenseite deines Servers angezeigt wird. Dies ändert **nicht** den Gamemode auf dem Server selbst. Du kannst den Gametype über das Webinterface deines Gameservers oder durch Setzen eines Tags ändern:
 
-You can change the gametype through your gameserver's webinterface, or by setting a tag:
 ```
 sets gametype "Freeroam"
 ```
 
-#### Language
+#### Sprache
 
-Finally, you can change the language of your server which is displayed on your server's server list page. We have a dedicated page for setting localisation which you can view here: [https://zap-hosting.com/guides/docs/redm-locale].
+Schließlich kannst du die Sprache deines Servers ändern, die auf der Serverlistenseite angezeigt wird. Wir haben eine spezielle Anleitung zur Einstellung der Sprache, die du hier finden kannst: [Sprache / Standort (Flagge) ändern](redm-locale.md).
 
-This can be done through your gameserver's webinterface, or by setting a tag:
+Dies kann über das Webinterface deines Gameservers oder durch Setzen eines Tags geschehen:
 ```
 sets locale "en-GB"
 ```
 
-You can get a list of all locale tags by viewing [this resource](https://github.com/TiagoDanin/Locale-Codes#locale-list) or anything similar.
-
-You have successfully customised your RedM gameserver!
+Du kannst eine Liste aller Locale-Tags erhalten, indem du [diese Quelle](https://github.com/TiagoDanin/Locale-Codes#locale-list) oder eine ähnliche Seite aufrufst. Du hast deinen RedM Gameserver erfolgreich angepasst!

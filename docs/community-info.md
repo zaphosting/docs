@@ -47,28 +47,28 @@ I know all of this sounds awesome and we hope to see you around at our giveaways
 
 As you already know, we are available on a wide range of social media platforms. Here we have created easily accessible list of all of the places that you can find us! Make sure to follow, subscribe & join us on our channels & communities to remain updated with the latest ZAP news. 📫
 
-#### Messaging 💬
+#### Messaging
 - [Facebook](https://facebook.com/zaphosting)
 - [X](https://x.com/zaphosting)
 - [LinkedIn](https://linkedin.com/company/zaphosting)
 - [Telegram](https://t.me/zap_hosting)
 
-#### Photo & Video 🎥
+#### Photo & Video
 - [Instagram](https://instagram.com/zaphosting)
 - [TikTok](https://www.tiktok.com/@zaphosting)
 - [YouTube](https://youtube.com/zaphosting)
 - [Twitch](https://twitch.tv/zaphosting)
 - [Kick](https://kick.com/zaphosting)
 
-#### Communities ⚡
+#### Communities
 - [Reddit](https://reddit.com/r/zaphosting)
 - [Discord](https://discord.gg/zaphosting)
 - [Steam Group](https://steamcommunity.com/groups/zaphosting)
 
-#### Other 🤖
+#### Other
 - [GitHub](https://github.com/zaphosting)
 
-### Support 🎟️
+### Support
 You are always welcome to contact us directly on our official channels for any questions or issues that you may be facing with your ZAP-Hosting services. This can be done through our website by [contacting our customer care](https://zap-hosting.com/en/customer/support/) via the ticket system or through our live chat. 👥
 
 Here are a few useful links related to our support:
