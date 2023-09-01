@@ -1,39 +1,86 @@
 ---
 id: community-info
-title: Community Angebote - werde Teil der ZAP-Hosting Community
-description: Informationen zu den verschienden Social-Media-Kanälen von ZAP-Hosting - ZAP-Hosting.com Dokumentation
-sidebar_label: Community Angebote
-
+title: Willkommen bei der ZAP-Hosting Community!
+description: Informationen über die ZAP-Hosting Community und die Social Media Kanäle von ZAP-Hosting - ZAP-Hosting.com Dokumentation
+sidebar_label: ZAP-Hosting Community
 ---
 
-## Mehr als nur "Kunden" - die ZAP-Hosting.com Community
+Bei ZAP-Hosting schätzen wir unsere großartige Community aus der ganzen Welt, von Serverbesitzern bis hin zu Kreativen und Entwicklern, jeder ist willkommen! 👋
 
-Bei uns sprechen wir schon lange nicht mehr von "Kunden" - viele interagieren so häufig und intensiv mit unseren sozial-medialen Angeboten, dass wir unsere Kunden schon eher als eine Community sehen. Im Folgenden geben wir eine genaue Auflistung aller Angebote, die wir neben unseren Produkten zur Verfügung stellen.
+## Community Features
 
-## Twitter
+Wir sind auf einer Vielzahl von Mainstream-Plattformen etabliert, darunter Discord, Reddit, X und die Liste geht weiter... in der Tat sind wir wahrscheinlich auf den meisten von ihnen! Auch unsere Community-Präsenz ist breit gefächert! ⚡
 
-Unter dem Handle [@zaphosting](https://twitter.com/zaphosting) twittern wir nahezu täglich über unsere neuen Produkte, das Geschehen in der Firma und die besten Rezepte rund um Pizza. (Ja, auch Cat-Content wird geboten)
+### Veranstaltungen & Wettbewerbe
 
-## Instagram
+Wir veranstalten regelmäßig Events und Wettbewerbe in vielen unserer sozialen Netzwerke. In der Regel veranstalten wir alle zwei Wochen Livestreams und häufig auch Spiele-Events, bei denen wir mit unserer Community spielen, sowie Wettbewerbe, die sich nicht ausschließlich auf Spiele beschränken! Nehmen wir zum Beispiel unseren jüngsten Banner-Wettbewerb für unseren Discord-Server oder unsere Minecraft-Parkour-Challenge... unsere Wettbewerbe sind immer ein großer Spaß mit dem zusätzlichen Bonus, dass es für unsere Community Gratisgeschenke gibt! 🏆
 
-Mehr Bild, aber nicht weniger Content! Auf [Instagram](https://www.instagram.com/zaphosting/) bieten wir neben Einblicken in unser Büroleben vor allem unsere Instagram Stories. Viel näher an unseren Alltag kommt einfach nichts!
+Unsere Livestreams finden auf [Twitch](https://twitch.tv/zaphosting) und [YouTube](https://youtube.com/zaphosting) statt, während unsere Spielewettbewerbe normalerweise auf unserem [ZAP-Hosting Community Discord Server](https://discord.gg/invite/zaphosting) veranstaltet werden. 🎥
 
-## Facebook
+Sowohl unsere Events als auch unsere Wettbewerbe sind immer mit Gratisgeschenken wie ZAP-Coins, kostenlosen Produkten und natürlich... mit viel Spaß für uns und die Community gefüllt! 🪙
 
-Gestartet haben wir damals wie viele anderen Firmen auch auf [Facebook](https://www.facebook.com/zaphosting/). Auch hier können Follower unsere Stories genießen und erhalten ausgiebige Informationen zu unseren Neuerungen.
+Wir hoffen, dich bei einem unserer Events oder Wettbewerbe in der Zukunft zu sehen! ⚔️
 
-## YouTube
+### Beitragsprogramm
 
-Auf unserem [YouTube Kanal](https://www.youtube.com/user/zaphosting) bringen wir euch regelmäßig Tutorials zu unseren Produkten, Informationen zu den interessantesten Games und natürlich auch hier HD-Einblicke in alles, was in unserer Firma so passiert.
+Wir haben ein offizielles Beitragsprogramm für unsere Anleitungen (ja, genau diese Dokumente, die du gerade liest), bei dem wir dich für das Schreiben von Anleitungen bezahlen! 📰
 
-## Twitch
+Das Beitragsprogramm ist für jeden zugänglich, der sein **Wissen** und seine **Erfahrung** mit der Community teilen möchte! Wir suchen aktiv nach engagierten Schreibern, die **starke technische Fähigkeiten** haben und sich in dem jeweiligen Bereich **auskennen**. Vor allem aber suchen wir Autoren, die engagiert sind und gerne mit unserem ZAP-Hosting Docs Team zusammenarbeiten, um ihre Inhalte vor der Veröffentlichung zu verbessern und zu überarbeiten. ✏️🗣️
 
-Wer sich mit Gameservern beschäftigt, der muss sie natürlich auch testen. Genau aus diesem Grund entsprachen wir dem Wunsch und etablierten einen [eigenen Twitch Kanal](https://www.twitch.tv/zaphosting)! Hier sind wir regelmäßig live und präsentieren unter anderem unsere Gameserver, testen neue Modpacks, oder verwirklichen gigantische Giveaways!
+Interessiert? **Werde jetzt Mitglied. Du bekommst eine Belohnung** Besuche  den Abschnitt [Beitragsprogramm](https://zap-hosting.com/guides/docs/contribution-introduction) in unserer Dokumentation, um mehr zu erfahren! 🚀
 
-## Discord
 
-Natürlich bieten wir unserer Community auch einen gemeinsamen Discord Server. Hier bekommt ihr die Chance, euch mit anderen Gamern auszutauschen, euch über neue Updates zu informieren und mit unseren Mitarbeitern ein wenig zu chatten. Du hast Lust, dem Server beizutreten? Dann nutze [diese Einladung](https://discord.gg/zaphosting).
 
-## Der direkte Draht
+### Giveaways
 
-Natürlich kann man uns über jede der oben genannten Plattformen auch persönlich kontaktieren. Jedoch möchten wir betonen, dass wir über Social Media keinen direkten Support anbieten können und werden. Wendet euch deshalb bei Server-bezogenen Problemen bitte *immer* direkt an unseren Livechat oder das Ticketsystem, wie in /firststeps_problem_melden beschrieben. Für alle anderen Anliegen stehen wir euch hier aber immer gern zur Verfügung.
+Willst du ein paar tolle Gratisgeschenke und Preise gewinnen? 🎁 Wir veranstalten das ganze Jahr über eine riesige Auswahl an Giveaways, darunter unsere weltbekannten Zappy Monday Codes, bei denen wir **jeden** Montag einen Code für kostenlose ZAP Coins auf unseren sozialen Netzwerken veröffentlichen! 🪙
+
+Außerdem veranstalten wir auf unseren sozialen Plattformen wie Instagram, X, Facebook & Co. regelmäßig tolle Giveaways, bei denen du eine Vielzahl von Preisen gewinnen kannst. In unserem letzten Posting haben wir zum Beispiel einen **Lifetime VPS** an einen glücklichen Gewinner aus unserer Community verschenkt. 💪
+
+Klingt fantastisch? Nun, es gibt noch mehr! 🎉 Wir sind auch stolz darauf, täglich... ja, du hast richtig gehört... **tägliche** Verlosungen für **10€ ZAP-Münzen** auf unserem [ZAP-Hosting Community Discord Server] (https://discord.gg/invite/zaphosting), um unseren aktivsten Mitgliedern der Community etwas zurückzugeben. Unsere Discord-Nitro-Booster erhalten außerdem ein zusätzliches wöchentliches Giveaway als Dankeschön! 🫢
+
+Ich weiß, das klingt alles super und wir hoffen, euch bei unseren Giveaways zu sehen! ✨
+
+
+
+### Unsere Social Media Kanäle
+
+Wie du bereits weißt, sind wir auf einer Vielzahl von Social-Media-Plattformen vertreten. Hier haben wir eine leicht zugängliche Liste mit allen Orten erstellt, an denen du uns finden kannst! Vergewissern dich, dass du uns auf unseren Kanälen und Communities folgst, abonnierst und beitrittst, um über die neuesten ZAP-Nachrichten informiert zu sein. 📫
+
+#### Nachrichten
+- [Facebook](https://facebook.com/zaphosting)
+- [X](https://x.com/zaphosting)
+- [LinkedIn](https://linkedin.com/company/zaphosting)
+- [Telegram](https://t.me/zap_hosting)
+
+#### Foto & Video
+- [Instagram](https://instagram.com/zaphosting)
+- [TikTok](https://www.tiktok.com/@zaphosting)
+- [YouTube](https://youtube.com/zaphosting)
+- [Twitch](https://twitch.tv/zaphosting)
+- [Kick](https://kick.com/zaphosting)
+
+#### Communities
+- [Reddit](https://reddit.com/r/zaphosting)
+- [Discord](https://discord.gg/zaphosting)
+- [Steam-Gruppe](https://steamcommunity.com/groups/zaphosting)
+
+#### Sonstiges
+- [GitHub](https://github.com/zaphosting)
+
+
+
+### Support
+
+Bei Fragen oder Problemen mit deinen ZAP-Hosting-Diensten kannst du uns jederzeit direkt über unsere offiziellen Kanäle kontaktieren. Dies kann über unsere Website geschehen, indem du [unsere Kundenbetreuung] (https://zap-hosting.com/en/customer/support/) über das Ticketsystem oder über unseren Live-Chat kontaktierst. 👥
+
+Hier findest du einige nützliche Links zu unserem Support:
+
+- [Systemstatus & Störungen](https://zap-hosting.com/status)
+
+- [Dokumentation & Anleitungen](https://zap-hosting.com/guides/)
+- [Offizielle Unterstützung anfordern](https://zap-hosting.com/en/customer/support/)
+- [AGB](https://zap-hosting.com/en/terms/)
+- [Datenschutzrichtlinie](https://zap-hosting.com/en/privacy-policy/)
+
+Und das ist eigentlich schon alles über uns... aber wir hoffen, dass wir mehr erfahren und **dich** bald wiedersehen! 🙋‍♂️
