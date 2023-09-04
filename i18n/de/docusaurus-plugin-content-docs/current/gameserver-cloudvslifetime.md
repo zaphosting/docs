@@ -11,5 +11,5 @@ Dieses Produkt hat allerdings, im Gegensatz zu den Lifetime Gameservern, eine [P
 
 ## Lifetime Gameserver
 Der Lifetime Gameserver hat den Vorteil, dass er keine Laufzeit hat und somit ein ganzes Leben lang läuft.
-Dieser unterstützt **nur Minecraftprodukte** und ist daher aktuell noch nicht für Kunden empfohlen, die ein anderes
+Dieser unterstützt **nur das gekaufte Produkt** und ist daher nicht für Kunden empfohlen, die später ein anderes
 Spiel auf ihrem Server betreiben wollen.
