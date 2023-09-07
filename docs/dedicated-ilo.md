@@ -156,7 +156,7 @@ Check if the link to your ISO is really correct, the easiest test is to paste th
 Make sure that the link is correctly entered in Virtual Media and that the server has been restarted. Also take a look at the boot order and see if CD/DVD Drive is at the top.
 
 * My server takes a long time to boot.
-The used Enterprise hardware takes a long boot time to boot, this is fully normal. It can take up to 10-15 minutes.
+The used Enterprise hardware takes a long time to boot, this is fully normal. It can take up to 10-15 minutes.
 
 * I can't open the iLO anymore
 Make sure that the iLO is enabled in your server dashboard, for security reasons the management interface will automatically shut down after some time.

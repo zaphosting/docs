@@ -10,7 +10,7 @@ In this example, the installation of CentOS 8.3 is performed
 :::
 
 ## Preparations
-In your ZAP interface, select the desired ISO of CentOS and let the server boot with the ISO until it is in the setup process.
+In the ZAP interface, select the CentOS ISO version you wish to install. Let the server boot with the ISO until it is in the setup process.
 
 :::info
 Navigation in the setup process is done with your mouse.
@@ -24,57 +24,57 @@ When the ISO is successfully loaded, the server is in the setup process.
 ![](https://screensaver01.zap-hosting.com/index.php/s/YFQt6Jmw5wi4QZZ/preview)
 
 * Keyboard
-Choose the keyboard layout of your like
+Choose your preferred keyboard layout
 
 * Time & Date 
 Choose your timezone
 
 * Root Password
-Choose the password of your root account
+Set a password for your root account. This can be any, but remember to use a strong password and save it on a safe place.
 
 * Installation Destination
-Choose the ssd, on which centos should be installed
+Select the SSD where CentOS will be installed
 
 * Network & Hostname
 Since there is an incompatibility issue, the network could not be setup yet, we will do this in the end.
 
-When everything's configured to your like, you can press "Begn Installation"
+Once you've configured all settings to your liking, press 'Begin Installation.
 
 ***
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/iqF8KzziQix3jyd/preview)
 
-When the installation is done, just remove the ISO-file fromy our server and press "Reboot System"
+After the installation is complete, remove the ISO file from your server and click 'Reboot System'.
 
 ## Network
 
-In this step we will configure our network device, to do that we need to update some files.
-Please mount this iso file into your server, through the remote console or the iLO itself.
+Next, we'll configure the network device, which requires updating some files.
+Please mount this ISO File into your server, through the remote console or the iLO itself.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/skiKLacFGZnMwr9/preview)
 
 ```http://185.223.30.65/dedicatedisos/centos-network-554flb.iso```
 
-After the ISO-file was mounted successfully, we need to mount it into our system, to have access to it.
+After the ISO File was mounted successfully, we need to mount it into our system, to have access to it.
 
 ```mount /dev/sr0 /mnt```
 
-The ISO-file was now mounted in /mnt.
+The ISO-file is now mounted at `/mnt`
 
 ```rpm -i /mnt/be2net.rpm```
 
-Now we load the update package.
+Next, install the update package.
 
 ```modprobe be2net```
 
 In this step, we will run the update, this could take a few seconds.
 You can now check with `ip a s` if a network device called `eno1` exists, if yes, please reboot your system.
 
-After the reboot was done, we can configure the network device.
+After the system has rebooted, proceed to configure the network device.
 
 ```nano /etc/sysconfig/network-scripts/ifcfg-eno1```
 
-please fillin the following data into the file:
+Please fill in the following data into the file:
 
 ```
 DEVICE=eno1
@@ -87,5 +87,5 @@ You can leave nano by pressing `CTRL+X` and `Y`
 Now we need to start our network device with `ifup eno1` 
 
 :::info
-Your dedicated server has now a working internet connection
+Your dedicated server should now have a working internet connection.
 :::
