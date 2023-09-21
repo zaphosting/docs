@@ -65,10 +65,10 @@ Klicke im Anschluss auf "Ok", damit die Änderungen übernommen wird. In gewisse
 
 Wenn die Internetverbindung weiterhin nicht funktional ist, dann kann dies ebenfalls auf einen nicht funktionalen DNS-Server zurückzuführen zu sein. Versuche den fehlenden oder bestehenden DNS-Server zu ersetzen, wenn dieser nicht funktional ist. Es stehen verschiedene DNS-Server-Optionen zur Verfügung, darunter beispielsweise die bekannten DNS-Server Lösungen von Google und Cloudflare.  
 
-| DNS-Server | IP-Adresses                                     |
-| ---------- | ----------------------------------------------- |
-| Google     | Bevorzugt: 8.8.8.8<br>Alternativ: 8.8.4.4<br /> |
-| Cloudflare | Bevorzugt: 1.1.1.1<br>Alternativ: 1.0.0.1<br /> |
+| DNS-Server | IP-Adresses                            |
+| ---------- | -------------------------------------- |
+| Google     | Bevorzugt: 8.8.8.8 Alternativ: 8.8.4.4 |
+| Cloudflare | Bevorzugt: 1.1.1.1 Alternativ: 1.0.0.1 |
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/frYTimNEFzBjANy/preview)
 

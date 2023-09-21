@@ -61,10 +61,10 @@ Click on "Ok" to apply the changes. In certain situations, it may be necessary t
 
 If the Internet connection is still not functional, then this may also be due to a non-functional DNS server. Try replacing the missing or existing DNS server if it is not functional. There are several DNS server options available, for example, the well-known DNS server solutions from Google and Cloudflare.
 
-| DNS-Server | IP-Adresses                  |
-| ---------- | ---------------------------- |
-| Google     | Bevorzugt: 8.8.8.8<br>Alternativ: 8.8.4.4<br /> |
-| Cloudflare | Bevorzugt: 1.1.1.1<br>Alternativ: 1.0.0.1<br /> |
+| DNS-Server | IP-Adresses                                 |
+| ---------- | ------------------------------------------- |
+| Google     | Preferred: 8.8.8.8 Alternate: 8.8.4.4<br /> |
+| Cloudflare | Preferred: 1.1.1.1 Alternate: 1.0.0.1<br /> |
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/oqcR5BHBKLa3ink/preview)
 
