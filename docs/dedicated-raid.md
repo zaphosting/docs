@@ -123,7 +123,7 @@ You can close the configuration assistant by pressing `ESC`
 ### Select Boot Volume
 
 If you have touched your RAID, it is necessary to select boot volume.
-This can easily be done in **Select Voot Volume**, choose there the logical drive which you have created, otherwise your server will stuck in a bootloop.
+This can easily be done in **Select Boot Volume**, choose there the logical drive which you have created, otherwise your server will stuck in a bootloop.
 
 **Select Boot Volume**<br/>
 ![](https://screensaver01.zap-hosting.com/index.php/s/2GDEYfjnkmaKF9F/preview)

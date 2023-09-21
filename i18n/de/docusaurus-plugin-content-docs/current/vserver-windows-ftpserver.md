@@ -5,15 +5,27 @@ description: Informationen, wie du einen FTP Server auf deinen Windows vServer v
 sidebar_label: FTP Server installieren
 ---
 
-## FTP Server mit FileZilla Server unter Windows
-
-Mit FileZilla Server steht dir eine kostenlose Software zur Verfügung, welche es dir ermöglicht deinen eigenen FTP Server auf einem Windows Server zu installieren. Die Installation so wie Einrichtung ist übersichtlich und unkompliziert, daher eignet sich das ganze auch für unerfahrene Nutzer. 
 
 
-## Download und Installation
+## Einführung
 
-Zuerst lädst du dir die aktuellste Version von **FileZilla Server** hier herunter: [FileZilla Server Download](https://filezilla-project.org/download.php?type=server)
-Die heruntergeladene Datei führst du mit einem Doppelklick aus, wodurch der Installationsprozess gestartet wird, dort klickst du dich vor bis du zu folgendem Fenster gelangst:
+Das **FTP (File Transfer Protocol)** ist ein Netzwerkprotokoll, das dazu dient, Dateien über ein TCP/IP-Netzwerk zu übertragen. Das Protokoll wurde entwickelt, um den einfachen Austausch von Dateien zwischen Systemen zu ermöglichen.
+
+Mit dem **FileZilla Server** kann solch ein FTP-Server auf einem Windows-Betriebssystem eingerichtet werden. Der FileZilla Server ist dabei einfach zu installieren und zu konfigurieren und bietet zahlreiche Funktionen wie die Möglichkeit, Benutzerkonten einzurichten, Zugriffsrechte zu verwalten und Dateien zu übertragen.
+
+
+
+## Vorbereitung
+
+### Download
+
+Das Aufsetzen eines FTP Servers setzt entsprechende Software voraus. Für das Windows Server Betriebssystem kann die FileZilla Server Software als mögliche Lösung eingesetzt werden. Die Option zum Herunterladen findest du hier: [FileZilla Server](https://filezilla-project.org/download.php?type=server)
+
+
+
+### Installation
+
+Nachdem die Setup Datei heruntergeladen wurde, musst du diese ausführen. Klicke dafür auf die zuvor heruntergeladene Datei. Es sollte sich folgendes Fenster öffnen: 
 
 ![image](https://user-images.githubusercontent.com/26007280/190911353-3b3fc815-f7ed-4df8-9303-8d639ff9ff2b.png)
 
@@ -21,7 +33,7 @@ Dort kannst du nun die zu installierenden Pakete auswählen. Es genügt, wenn du
 
 ![image](https://user-images.githubusercontent.com/26007280/190911361-b3b5fc61-8648-4378-a920-d7faa8118fc3.png)
 
-In diesem Beispiel wird der Filezilla Server unter **C:\Program Files (x86)\FileZilla Server** installiert. Du kannst jedoch auch einen eigenen Pfad wählen. Nach der Auswahl des Pfads muss indessen noch bestimmt werden, in welcher Form der FTP-Server installiert und gestartet werden soll. Des Weiteren kann der Port bestimmt werden. Zu guter Letzt muss dann noch ein Administrator Passwort bestimmt werden. 
+In diesem Beispiel wird der Filezilla Server unter **C:\Program Files (x86)\FileZilla Server** installiert. Du kannst jedoch auch einen eigenen Pfad wählen. Nach der Auswahl des Pfads muss indessen noch bestimmt werden, in welcher Form der FTP-Server installiert und gestartet werden soll. Des Weiteren kann der Port bestimmt werden und es muss dann noch ein Administrator Passwort bestimmt werden. 
 
 ![image](https://user-images.githubusercontent.com/26007280/190911700-52fd9613-70ac-413c-a171-b6d581ddd622.png)
 
@@ -31,7 +43,13 @@ Es sollte sich ein Fenster öffnen, wo du die Felder Host, Port und Password sie
 
 ![image](https://user-images.githubusercontent.com/26007280/190911836-b3840fce-e575-4c69-864d-7fbb5fbe84a9.png)
 
-## Anlegen eines Benutzers
+
+
+## Konfiguration
+
+
+
+### Erstellung von Benutzern
 
 Um via FTP auf deinen Server verbinden zu können, muss nun ein entsprechender Benutzer angelegt werden. 
 Klicke dazu oberhalb im Menü auf **Server** und dann auf **Configure**. 
@@ -42,7 +60,7 @@ Unter dem Menüpunkt Users kannst du daraufhin mit einem Klick auf **Add** einen
 
 In diesem Beispiel heist der Benutzer **YourUserName**. Hier kannst du natürlich einen eigenen Benutzernamen wählen.
 
-### Passwort und Berechtigungen setzen
+### Passwort und Berechtigungen
 
 Jetzt, nachdem der Benutzer angelegt wurde, muss nun noch der Zugang und die Zugriffsberechtigungen bestimmt werden. Dafür wird in der Kategorie **General** bei **Credentials** der Benutzer aktiviert und die Passwortoption konfiguriert. Aus Sicherheitsgründen empfehlen wir dringend ein Passwort zu verwenden. Wähle dafür **Require a password to log in** aus und definiere dein gewünschtes Passwort. 
 
@@ -54,14 +72,13 @@ Damit der Benutzer auch die entsprechenden Berechtigungen hat, musst du noch fes
 
 Rechts daneben findest du dann die Option **Permissions**, worüber du die Zugriffsrechte auf den angegebenen Pfad bestimmen kannst. Solltest du die Daten sowohl lesen als auch bearbeiten können, dann empfiehlt es sich **Read+Write** zu setzen. 
 
-:::info
-ACHTUNG! Aus Sicherheitsgründen solltest du einem Benutzer immer nur Zugriff auf bestimmte Ordner geben. 
+:::danger Aus Sicherheitsgründen solltest du einem Benutzer immer nur Zugriff auf bestimmte Ordner geben. 
 :::
 
 Die vorgenommenen Änderungen kannst du nun über den **Apply** Button übernehmen und bestätigen. 
 
 
-## Freigabe in der Windows-Firewall
+## Windows Firewall Ausnahmen
 
 Um eine Verbindung zu deinem FTP Server zu ermöglichen, muss jetzt noch die Anwendung des FTP Servers in der Windows-Firewall freigegeben werden. Dazu öffnest du die Firewall-Einstellungen unter **Systemsteuerung\System und Sicherheit\Windows Firewall** und klickst dort links oben auf **Eine App oder ein Feature durch die Windows Firewall zulassen**. Im folgenden Fenster wählst du dann die frei zugebene Anwendung aus:
 
