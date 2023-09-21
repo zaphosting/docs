@@ -25,9 +25,10 @@ const sidebars = {
       label: 'First Steps',
       items: [
         'firststeps-register',
-        'firststeps-rent-contractorprepaid',
-        'preorders',
         'firststeps-locations',
+        'preorders',
+        'firststeps-rent-or-purchase',
+        'firststeps-rent-contractorprepaid',
         'community-info',
         'suggestions',
       ],
@@ -92,7 +93,6 @@ const sidebars = {
       type: 'category',
       label: 'General',
       items: [
-        "gameserver-cloudvslifetime",
         "gameserver-resourcelimit",
         "gameserver-gameswitch",
         "gameserver-upgrade",

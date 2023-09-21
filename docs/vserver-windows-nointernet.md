@@ -1,53 +1,86 @@
 ---
 id: vserver-windows-nointernet
-title: VPS No internet access on Windows Server. What now?
-description: Information on how to solve problems when your Windows VPS from ZAP-Hosting does not show Internet access - ZAP-Hosting.com documentation
+title:  No Internet what now?
+description: Information on how to solve issues with non existing internet connection on windows vRootserver from ZAP-Hosting does not show Internet access - ZAP-Hosting.com documentation
 sidebar_label: No Internet what now?
 ---
 
 
-## No internet, what now?
 
-![](https://screensaver01.zap-hosting.com/index.php/s/HqwTRTWqHT5LAas/download/NoInternet.gif)
+## Introduction
 
-As a rule, the server is "started" when it has no active internet connection as shown below:
-
-![image](https://user-images.githubusercontent.com/13604413/159165538-4c9c7858-ce7a-44eb-982e-fe614f731dfa.png)
-
-But if he is online and still has no internet, you can check this via the serial console: 
-
-![image](https://user-images.githubusercontent.com/13604413/159165541-d23bfcaf-d745-4b98-96bb-5960a113723c.png)
+An interrupted or faulty Internet connection can be caused by various reasons, such as incorrect IP address, subnet mask, gateway, DNS server or firewall settings. In the following, we will explain how you can check, identify and fix these possible issues.
 
 
-## Logging in using the VNC Console
 
-First of all, we connect to the server via the serial console as shown below and log into it. 
+## Access without Internet
 
-![image](https://user-images.githubusercontent.com/13604413/159165545-bb459a8b-f900-4d7c-95b6-c73b10d494ef.png)
+In case you don't have RDP access due to a non-functional Internet connection, an alternative is to use the VNC (Virtual Network Computing) console. This option allows you to access the service and solve issues even if the Internet connection is not functional. You can access it by opening the **Tools** section in your Dashboard and selecting the **VNC Console**. There you can activate the console by using the green "Open Web Client" button and then logging in with your usual credentials.
 
-Then, we proceed to open the adapter settings. For this, we do a left click on the internet connection as shown here:
+![img](https://screensaver01.zap-hosting.com/index.php/s/y3S4Gw7scwZnHwy/preview)
 
-![image](https://user-images.githubusercontent.com/13604413/159165546-ce7eedcc-2761-4109-a72b-a41ef19f4b5e.png)
 
-## How do I re-establish the connection?
 
-Then, we would click on **change adapter options** as shown here:
+## Troubleshooting
 
-![image](https://user-images.githubusercontent.com/13604413/159165551-c3d6190f-f9cf-4b0c-8e09-14d6c55b02b8.png)
+### Step 1: IP address, subnet mask, gateway settings
 
-Now, we will open the **properties** of the adapter via **right clicking** the Ethernet adapter as shown here:
+If the Internet connection is not functional, this may be due to incorrect configuration of the IP address, subnet mask, and gateway. In this case, make sure that the correct information is entered. You can see the information about your IP address, subnet mask and gateway in your dashboard under Settings at IP Addresses. 
 
-![image](https://user-images.githubusercontent.com/13604413/159165554-6c7e2ff3-c4ab-42bc-ba9a-b34d1974e3b4.png)
+Now open the network settings of your server's operating system. You can find them under Windows Settings -> Network and Internet -> Change Adapter Options -> Network Adapter -> Properties -> Internet Protocol, Version 4 (TCP/IPv4).
 
-Then, we will **double click** on the **IPv4 connection** as shown here:
+![img](https://screensaver01.zap-hosting.com/index.php/s/xYSSa2txkRkM4bx/preview)
 
-![image](https://user-images.githubusercontent.com/13604413/159165558-e73e6c72-5c7f-4218-8fbd-7879ea9858b3.png)
 
-Then, we will check whether the **server's** IP address from the control panel is entered there. In the following, you see an example of how it should be with the IP of "45.146.254.252" in order to work properly:
 
-![image](https://user-images.githubusercontent.com/13604413/159165560-ca15c764-dc9e-460d-a5ac-2cd4eee8bf5f.png)
+Compare the information with the information from the web interface and correct those if necessary. In our network we normally use network class C with a subnet mask of 255.255.255.0. For the default gateway you use the information of your IP address. However, the last octet must be changed to the value 1 (XXX.XXX.XXX.XXX -> XXX.XXX.XXX.1).
 
-Make sure that you enter **your** Server IP under "IP Address". It is important  that the subnet mask is always a type C network and is therefore always set as "255.255.255.0". The default gateway is always the IP itself with the "1" at the end. As a DNS server, you usually use the Google DNS as in the screenshot above.
 
-After this, apply the settings and restart the server.
+
+**Example**
+
+If for example a service has the IP address "185.223.28.163", then the configuration would look like this: 
+
+| Setting         | Value          |
+| --------------- | -------------- |
+| IP address      | 185.223.28.163 |
+| Subnet mask     | 255.255.255.0  |
+| Default gateway | 185.223.28.1   |
+
+
+
+![img](https://screensaver01.zap-hosting.com/index.php/s/PTjQZc5gqP2okAC/preview)
+
+
+
+Click on "Ok" to apply the changes. In certain situations, it may be necessary to restart the service in order to complete the troubleshooting process.
+
+
+
+### Step 2: DNS server settings
+
+If the Internet connection is still not functional, then this may also be due to a non-functional DNS server. Try replacing the missing or existing DNS server if it is not functional. There are several DNS server options available, for example, the well-known DNS server solutions from Google and Cloudflare.
+
+| DNS-Server | IP-Adresses                  |
+| ---------- | ---------------------------- |
+| Google     | Bevorzugt: 8.8.8.8<br>Alternativ: 8.8.4.4<br /> |
+| Cloudflare | Bevorzugt: 1.1.1.1<br>Alternativ: 1.0.0.1<br /> |
+
+![img](https://screensaver01.zap-hosting.com/index.php/s/oqcR5BHBKLa3ink/preview)
+
+
+
+Click on "Ok" to apply the changes. In certain situations, it may be necessary to restart the service in order to complete the troubleshooting process.
+
+
+
+### Schritt 3: Firewall settings
+
+Another possibility for a missing or faulty Internet connection can be caused by an incorrect configuration of the firewall. This can usually be quickly identified by temporarily disabling the firewall. If the problem does not occur afterwards, a specific firewall rule will prevent the necessary exchange of information. 
+
+![img](https://screensaver01.zap-hosting.com/index.php/s/zpfaByLkxPj8XtH/preview)
+
+In this case, you need to make sure that you check the latest changes in detail and fix them. Alternatively, you can reset the Windows Firewall rules by clicking Restore Default Policy under Actions.
+
+
 
