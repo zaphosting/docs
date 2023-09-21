@@ -1,5 +1,5 @@
 ---
-id: rent-or-puchase
+id: firststeps-rent-or-purchase
 title: Mieten oder Kaufen
 description: Informationen über die Unterschiede zwischen Miet- und Kaufserver von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Mieten oder Kaufen
