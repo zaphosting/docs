@@ -1,5 +1,5 @@
 ---
-id: rent-or-puchase
+id: firststeps-rent-or-purchase
 title: Rent or purchase
 description: Information about the differences of rental and purchase servers from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Rent or purchase
