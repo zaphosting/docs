@@ -211,6 +211,7 @@ class DocSearch {
                 !isLvl2 &&
                 (subcategory && subcategory !== "" && subcategory !== category);
             const isLvl0 = !isLvl1 && !isLvl2;
+            const version = hit.version;
 
             return {
                 isLvl0,
@@ -224,7 +225,8 @@ class DocSearch {
                 subcategory,
                 title: displayTitle,
                 text,
-                url
+                url,
+                version
             };
         });
     }
