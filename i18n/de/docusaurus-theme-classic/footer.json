@@ -23,14 +23,6 @@
     "message": "Miete einen Discord Musicbot",
     "description": "The label of footer link with label=Rent a Discord Musicbot linking to https://zap-hosting.com/en/rent-a-discord-musicbot/"
   },
-  "link.item.label.Rent a webspace": {
-    "message": "Miete einen Webspace",
-    "description": "The label of footer link with label=Rent a webspace linking to https://zap-hosting.com/en/webhosting-rent-a-webspace/"
-  },
-  "link.item.label.Twitter": {
-    "message": "Twitter",
-    "description": "The label of footer link with label=Twitter linking to https://twitter.com/zaphosting"
-  },
   "link.item.label.Instagram": {
     "message": "Instagram",
     "description": "The label of footer link with label=Instagram linking to https://www.instagram.com/zaphosting/"
@@ -42,10 +34,6 @@
   "link.item.label.Discord": {
     "message": "Discord",
     "description": "The label of footer link with label=Discord linking to https://discord.gg/zaphosting"
-  },
-  "link.item.label.Twitch": {
-    "message": "Twitch",
-    "description": "The label of footer link with label=Twitch linking to https://twitch.tv/zaphosting"
   },
   "link.item.label.Changelog": {
     "message": "Changelog",
