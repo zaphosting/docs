@@ -19,25 +19,9 @@
     "message": "Miete einen vServer",
     "description": "The label of footer link with label=Rent a VPS linking to https://zap-hosting.com/en/rent-a-virtual-server/"
   },
-  "link.item.label.Rent a rootserver": {
-    "message": "Miete einen Rootserver",
-    "description": "The label of footer link with label=Rent a rootserver linking to https://zap-hosting.com/en/rent-a-root-server/"
-  },
-  "link.item.label.Rent a gameserver": {
-    "message": "Miete einen Gameserver",
-    "description": "The label of footer link with label=Rent a gameserver linking to https://zap-hosting.com/en/rent-a-gameserver/"
-  },
-  "link.item.label.Rent a TS3 server": {
-    "message": "Miete einen TS3 server",
-    "description": "The label of footer link with label=Rent a TS3 server linking to https://zap-hosting.com/en/rent-a-teamspeak-3-server/"
-  },
   "link.item.label.Rent a Discord Musicbot": {
     "message": "Miete einen Discord Musicbot",
     "description": "The label of footer link with label=Rent a Discord Musicbot linking to https://zap-hosting.com/en/rent-a-discord-musicbot/"
-  },
-  "link.item.label.Rent a domain": {
-    "message": "Miete eine Domain",
-    "description": "The label of footer link with label=Rent a domain linking to https://zap-hosting.com/en/domain-check/"
   },
   "link.item.label.Rent a webspace": {
     "message": "Miete einen Webspace",

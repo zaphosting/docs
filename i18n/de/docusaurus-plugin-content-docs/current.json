@@ -19,10 +19,6 @@
     "message": "Sicherheit",
     "description": "The label for category Security in sidebar guidesSidebar"
   },
-  "sidebar.guidesSidebar.category.Partner": {
-    "message": "Partner",
-    "description": "The label for category Partner in sidebar guidesSidebar"
-  },
   "sidebar.gameserverSidebar.category.General": {
     "message": "Allgemein",
     "description": "The label for category General in sidebar gameserverSidebar"
@@ -50,10 +46,6 @@
   "sidebar.gameserverSidebar.category.Bungeecord": {
     "message": "Bungeecord",
     "description": "The label for category Bungeecord in sidebar gameserverSidebar"
-  },
-  "sidebar.gameserverSidebar.category.Forge": {
-    "message": "Forge",
-    "description": "The label for category Forge in sidebar gameserverSidebar"
   },
   "sidebar.gameserverSidebar.category.FiveM": {
     "message": "FiveM",
