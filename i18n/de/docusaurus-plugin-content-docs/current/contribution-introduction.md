@@ -5,7 +5,7 @@ description: Information on the ZAP-Hosting docs contribution program - ZAP-Host
 sidebar_label: Einführung
 ---
 
-![Main Banner](https://github.com/zaphosting/docs/assets/42719082/d1b7ad03-58b4-4fc6-9544-a78a1ed0486d)
+![Main Banner](https://github.com/zaphosting/docs/assets/42719082/4f52bc8b-4174-4ada-8ed3-f4e49a301920)
 
 ## ZAP-Hosting Docs Beitragsprogramm
 
