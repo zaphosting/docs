@@ -1,0 +1,11 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "command": "npm i | npm run docusaurus clear | npm run docusaurus build | npm run docusaurus serve",
+            "name": "Run development build",
+            "request": "launch",
+            "type": "node-terminal"
+        }
+    ]
+}
