@@ -30,7 +30,7 @@ Die Informationen dazu sind derzeit sehr gering und unübersichtlich. Die aktuel
 
 
 
-Allerdings entstehen neben Sourcemod/Metamod momentan auch andere Projekte. Eines dieser Projekte ist beispielsweise [Resourcemod](), welches vor kurzem auf Reddit vorgestellt wurde. Das Projekt befindet sich allerdings noch in der Entwicklung und kann bis zum aktuellen Zeitpunkt noch nicht verwendet werden. 
+Allerdings entstehen neben Sourcemod/Metamod momentan auch andere Projekte. Eines dieser Projekte ist beispielsweise [Resourcemod](https://resourcemod.net/about), welches vor kurzem auf Reddit vorgestellt wurde. Das Projekt befindet sich allerdings noch in der Entwicklung und kann bis zum aktuellen Zeitpunkt noch nicht verwendet werden. 
 
 
 
