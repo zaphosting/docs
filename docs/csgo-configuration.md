@@ -5,17 +5,25 @@ description: Information on the settings and configuration options of your CS GO
 sidebar_label: Server Configration
 ---
 
-## Server configuration
+
+
+:::caution
+**Counter-Strike: Global Offensive** has been updated to **Counter-Strike 2**. Servers for Counter-Strike 2 can be found [here](https://zap-hosting.com/en/counter-strike-2-server-hosting/). Currently, it is possible to continue playing on Counter-Strike: Global Offensive servers and rent servers for Counter-Strike: GO through the [Steam Beta feature](https://zap-hosting.com/en/blog/2023/09/our-servers-are-still-compatible-with-the-latest-beta-version-of-cs-go-on-steam/). However, this can change at any time in case Valve disables this. We recommend switching to the new version as soon as possible. 
+:::
+
+
+
+## Introduction
 
 Counter-Strike servers can be configured widely. Basic settings can be configured via the **Server.cfg** Config and via the settings page in the web interface. The advanced configuration is carried out via the gamemode config files such as gamemode_competitive.cfg, gamemode_custom.cfg, gamemode_casual.cfg, gamemode_cooperative.cfg, gamemode_demolition.cfg, etc.
 
 Under the settings you can choose the gamemode you want to use. The commands of this Config are then accordingly loaded. These can be managed either in the game server administration or manually via FTP under **gXXXXXX/csgo/csgo/cfg/**. 
 
 
+## Configuration
 
 
-
-### General configuration via the interface (Settings)
+### Configuration via the interface (Settings)
 
 At the settings page you can adjust basic settings for the GSL token, gametype/gamemode, mapgroup, tickrate and more.  
 
@@ -84,7 +92,7 @@ Pingboost is a way to change the feel of the game by various methods to achieve 
 
 
 
-## General configuration (server.cfg)
+### Configuration via server.cfg
 
 In the **server.cfg** you can change the settings for server name, rcon password and server password. 
 
@@ -123,13 +131,13 @@ Certain commands are protected and can therefore only be used if cheats are enab
 
 
 
-## Gamemode specific configuration (Competitive, Casual, Custom, ...)
+### Gamemode specific configuration
 
 As described at the beginning you can define the gamemode/gametype you want to use in the interface at the settings page. After that you have to adjust your settings and modify the corresponding config file. In the gamemode-configs you can make detailed changes to the gameplay, bot behaviour etc.
 
 
 
-### Bot Commands
+#### Bot Commands
 
 
 
@@ -159,7 +167,7 @@ This command defines the mode that is used to control the amount of bots. The op
 
 
 
-### Money Commands
+#### Money Commands
 
 **cash_player_bomb_defused**
 This command defines how much money a player earns for defusing a bomb. You can' t give more than the maximum amount of money you can get on the server.
@@ -276,7 +284,7 @@ This command defines how much money the players of the counter-terrorists earn b
 
 
 
-### Gameplay Befehle
+#### Gameplay Befehle
 
 
 
@@ -458,7 +466,7 @@ This command defines how many grenades a player can carry in total.
 
 
 
-## Esport-Ready Configuration (ESL Configs)
+### Esport-Ready Configuration (ESL Configs)
 
 If you want to use the server for e-sports purposes, it is worth to upload the configs provided by ESL. You can download them from the official site of the ESL: [Download](https://play.eslgaming.com/download/26251762/)
 

@@ -6,6 +6,14 @@ sidebar_label: GOTV
 
 ---
 
+
+
+:::caution
+**Counter-Strike: Global Offensive** has now been updated to **Counter-Strike 2**. Servers for Counter-Strike 2 can be found [here](https://zap-hosting.com/en/counter-strike-2-server-hosting/). Currently, it is possible to continue playing on Counter-Strike: Global Offensive servers and rent servers for Counter-Strike: GO through the [Steam Beta feature](https://zap-hosting.com/en/blog/2023/09/our-servers-are-still-compatible-with-the-latest-beta-version-of-cs-go-on-steam/).  Das kann sich allerdings jederzeit ändern, falls Valve dies unterbindet. Wir empfehlen zeitnah auf die neue Version umzusteigen. 
+:::
+
+
+
 ## Was ist GOTV?
 
 
