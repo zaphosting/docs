@@ -1,23 +1,23 @@
 ---
-id: csgo-configuration
+id: cs2-configuration
 title: Server Konfiguration
-description: Informationen zu den Einstellungen und Konfigurationsmöglichkeiten deines CS GO-Servers von ZAP-Hosting - ZAP-Hosting.com Dokumentation
+description: Informationen zu den Einstellungen und Konfigurationsmöglichkeiten deines CS2 Servers von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Server Konfiguration
 ---
 
 
 
 :::caution
-**Counter-Strike: Global Offensive** has now been updated to **Counter-Strike 2**. Servers for Counter-Strike 2 can be found [here](https://zap-hosting.com/en/counter-strike-2-server-hosting/). Currently, it is possible to continue playing on Counter-Strike: Global Offensive servers and rent servers for Counter-Strike: GO through the [Steam Beta feature](https://zap-hosting.com/en/blog/2023/09/our-servers-are-still-compatible-with-the-latest-beta-version-of-cs-go-on-steam/).  Das kann sich allerdings jederzeit ändern, falls Valve dies unterbindet. Wir empfehlen zeitnah auf die neue Version umzusteigen. 
+CS2 wurde erst vor kurzem veröffentlicht. Das Spiel erhält momentan noch einige Updates und Veränderungen. Dies betrifft ebenfalls die Funktionsweise und Struktur der CS2 Server. Wir bemühen uns die Anleitungen so korrekt und schnell wie möglich aktuell zu halten, falls sich zu diesem Thema etwas geändert hat.
 :::
 
 
 
 ## Einführung
 
-Counter-Strike Server lassen sich umfangreich konfigurieren. Grundlegende Einstellungen können über die **Server.cfg** Config und über die Einstellungsseite im Webinterface vorgenommen werden. Die erweitere Konfiguration erfolgt über die Gamemode Config-Dateien wie zum Beispiel gamemode_competitive.cfg, gamemode_custom.cfg, gamemode_casual.cfg, gamemode_cooperative.cfg, gamemode_demolition.cfg, usw.
+Counter-Strike Server lassen sich umfangreich konfigurieren. Grundlegende Einstellungen können über die **server.cfg** Konfigurationsdatei und über die Einstellungsseite im Webinterface vorgenommen werden. Die erweitere Konfiguration erfolgt über die Gamemode Config-Dateien wie zum Beispiel gamemode_competitive.cfg, gamemode_custom.cfg, gamemode_casual.cfg, gamemode_cooperative.cfg, gamemode_demolition.cfg, usw.
 
-Unter den Einstellungen wird der Gamemode bestimmt der benutzt werden soll. Die Befehle dieser Config werden dann dementsprechend geladen. Diese kannst du entweder in der Gameserver Verwaltung oder manuell via FTP unter **gXXXXX3/csgo/csgo/cfg/** verwaltet werden. 
+Unter den Einstellungen wird der Gamemode bestimmt der benutzt werden soll. Die Befehle dieser Config werden dann dementsprechend geladen. Diese kannst du entweder in der Gameserver Verwaltung oder manuell via FTP unter **gXXXXXX/cs2/game/csgo/cfg/** verwaltet werden. 
 
 
 
@@ -25,7 +25,7 @@ Unter den Einstellungen wird der Gamemode bestimmt der benutzt werden soll. Die 
 
 ### Konfiguration im Interface (Einstellungen)
 
-Auf der Einstellungsseite kannst du Basiseinstellungen zum GSL Token, Gametype/Gamemode, Mapgroup, Tickrate und mehr vornehmen. 
+Auf der Einstellungsseite kannst du Basiseinstellungen zum GSL Token, Gametype/Gamemode, Mapgroup und mehr vornehmen. 
 
 ![image](https://user-images.githubusercontent.com/26007280/189976209-6b2da68b-0931-4674-b0a4-b180a34eca3f.png)
 
@@ -45,8 +45,6 @@ Es gibt verschiedene Gamemodes. Im folgenden siehst du eine Auflistung der verf�
 
 - Classic Casual
 - Classic Competitive
-- Arms Race
-- Demolition
 - Deathmatch
 - Wingman
 
@@ -54,7 +52,7 @@ Es gibt verschiedene Gamemodes. Im folgenden siehst du eine Auflistung der verf�
 
 **Mapgroup**
 
-Mapgroups sind Gruppen von Maps, welche normalerweise einer bestimmten Kategorie entsprechen. Standardmäßig gibt es die **mg_active, mg_armsrace, mg_demolition, mg_allclassic** Gruppen. Optional kann auch eine eigene erstellt werden. Diese muss dann in der **Gamemodes_server.txt** eingetragen werden. Die Struktur einer solchen Mapgroup ist einfach aufgebaut werden und sieht wie folgt aus:
+Mapgroups sind Gruppen von Maps, welche normalerweise einer bestimmten Kategorie entsprechen. Standardmäßig gibt es die **mg_active, mg_allclassic** Gruppen. Optional kann auch eine eigene erstellt werden. Diese muss dann in der **gamemodes_server.txt** eingetragen werden. Die Struktur einer solchen Mapgroup ist einfach aufgebaut werden und sieht wie folgt aus:
 
 ```
 {	 	 	 	 
@@ -133,7 +131,7 @@ Gewisse Befehle sind geschützt und können daher nur benutzt werden, wenn Cheat
 
 
 
-## Gamemode spezifische Konfiguration
+### Gamemode spezifische Konfiguration
 
 Wie am Anfang beschrieben definierst du im Interface in der Einstellungsseite, welchen Gamemode/Gametype du benutzen möchtest. Danach musst du dich dann richten und die entsprechende Config-Datei bearbeiten. In den Gamemode-Configs können detailierte Änderungen zum Spielgeschehen, Botverhalten usw vorgenommen werden.
 
@@ -461,17 +459,3 @@ Mit diesem Befehl wird festgelegt, wie viele Granaten ein Spieler insgesamt trag
 
 
 
-
-
-### Esport-Ready Konfiguration (ESL Configs)
-
-Wenn der Server aus E-Sport-Zwecken verwendet werden soll, dann lohnt es sich die Configs von der ESL hochzuladen. Diese kannst du über die offizielle Seite der ESL herunterladen: [Download](https://play.eslgaming.com/download/26251762/)
-
-Die Configs müssen im Anschluss in das **cfg** Verzeichnis hochgeladen werden und können im Spiel mit den folgenden Befehlen ausgeführt werden:
-
-```
-rcon_password deinPasswort // Login via Rcon um rcon Befehle auszuführen
-rcon exec esl5on5
-```
-
-Daraufhin werden alle ESL-Befehlswerte geladen und das Spiel kann gestartet werden!

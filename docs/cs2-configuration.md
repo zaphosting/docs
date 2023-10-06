@@ -1,31 +1,33 @@
 ---
-id: csgo-configuration
+id: cs2-configuration
 title: Server configuration
-description: Information on the settings and configuration options of your CS GO server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: Information on the settings and configuration options of your CS2 server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Server Configration
 ---
 
 
 
-:::caution
-**Counter-Strike: Global Offensive** has been updated to **Counter-Strike 2**. Servers for Counter-Strike 2 can be found [here](https://zap-hosting.com/en/counter-strike-2-server-hosting/). Currently, it is possible to continue playing on Counter-Strike: Global Offensive servers and rent servers for Counter-Strike: GO through the [Steam Beta feature](https://zap-hosting.com/en/blog/2023/09/our-servers-are-still-compatible-with-the-latest-beta-version-of-cs-go-on-steam/). However, this can change at any time in case Valve disables this. We recommend switching to the new version as soon as possible. 
+:::caution 
+CS2 has just recently been released. The game is currently receiving quite a few updates and changes. This also affects the functionality and structure of the CS2 servers. We do our best to keep the guides as correct and up to date as quickly as possible in case something has changed concerning this.
 :::
 
 
 
 ## Introduction
 
-Counter-Strike servers can be configured widely. Basic settings can be configured via the **Server.cfg** Config and via the settings page in the web interface. The advanced configuration is carried out via the gamemode config files such as gamemode_competitive.cfg, gamemode_custom.cfg, gamemode_casual.cfg, gamemode_cooperative.cfg, gamemode_demolition.cfg, etc.
+Counter-Strike servers can be configured widely. Basic settings can be configured via the **server.cfg** config file and via the settings page in the web interface. The advanced configuration is carried out via the gamemode config files such as gamemode_competitive.cfg, gamemode_custom.cfg, gamemode_casual.cfg, gamemode_cooperative.cfg and so on. 
 
-Under the settings you can choose the gamemode you want to use. The commands of this Config are then accordingly loaded. These can be managed either in the game server administration or manually via FTP under **gXXXXXX/csgo/csgo/cfg/**. 
+Under the settings you can choose the gamemode you want to use. The commands of this Config are then accordingly loaded. These can be managed either in the game server administration or manually via FTP under **gXXXXXX/cs2/game/csgo/cfg/**. 
+
 
 
 ## Configuration
 
 
+
 ### Configuration via the interface (Settings)
 
-At the settings page you can adjust basic settings for the GSL token, gametype/gamemode, mapgroup, tickrate and more.  
+At the settings page you can adjust basic settings for the GSL token, gametype/gamemode, mapgroup and more.  
 
 ![image](https://user-images.githubusercontent.com/26007280/189976390-b59efb6a-43c9-4585-8747-86378c35d4f9.png)
 
@@ -45,8 +47,6 @@ There are different gamemodes. In the following you see a list of all available 
 
 - Classic Casual
 - Classic Competitive
-- Arms Race
-- Demolition
 - Deathmatch
 - Wingman
 
@@ -54,7 +54,7 @@ There are different gamemodes. In the following you see a list of all available 
 
 **Mapgroup**
 
-Mapgroups are groups of maps which normally correspond to a certain category. By default there are the **mg_active, mg_armsrace, mg_demolition, mg_allclassic** groups. Optionally you can create your own. This has to be added to the **Gamemodes_server.txt**. The structure of such a mapgroup is easy to build and looks like this:
+Mapgroups are groups of maps which normally correspond to a certain category. By default there are the **mg_active, mg_allclassic** groups. Optionally you can create your own. This has to be added to the **gamemodes_server.txt**. The structure of such a mapgroup is easy to build and looks like this:
 
 ```
 {	 	 	 	 
@@ -71,12 +71,6 @@ Mapgroups are groups of maps which normally correspond to a certain category. By
  	}	 	 	 
 }
 ```
-
-
-
-**Tickrate**
-
-The set tick rate determines the frequency of the server sending the position of one player to the other players. The higher the value, the better the gaming experience. The following values can be set: 33, 64, 100 and 128 (best value). 
 
 
 
@@ -461,20 +455,3 @@ This command defines how many flash grenades a player can carry.
 **ammo_grenade_limit_total**
 
 This command defines how many grenades a player can carry in total.
-
-
-
-
-
-### Esport-Ready Configuration (ESL Configs)
-
-If you want to use the server for e-sports purposes, it is worth to upload the configs provided by ESL. You can download them from the official site of the ESL: [Download](https://play.eslgaming.com/download/26251762/)
-
-Configs have to be uploaded to the **cfg** directory and can be executed in the game with the following commands:
-
-```
-rcon_password YourPassword // Login via rcon to execute rcon commands
-rcon exec esl5on5
-```
-
-After that, all ESL command values will be loaded and the game can start!
