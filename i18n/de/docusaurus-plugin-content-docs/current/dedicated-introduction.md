@@ -31,10 +31,8 @@ Für unsere Dedicated Server bieten wir zahlreiche Konfigurationsvarianten an, w
 | RAM                  | Bis zu 256 GB Arbeitsspeicher                                |
 | DISK                 | Von 500 GB bis zu 2x 2 TB SSD Festplattenspeicherplatz       |
 
-::: info 
-
+:::info 
 Zum derzeitigen Zeitpunkt kommen wir auf ein Angebot von 49 verschiedenen Dedicated Server Konfiguration zwischen denen du auswählen kannst! 
-
 :::
 
 

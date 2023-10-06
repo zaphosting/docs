@@ -31,7 +31,7 @@ For our Dedicated Servers we offer numerous configuration variants, which means 
 | RAM                 | Up to 256 GB of RAM                                          |
 | DISK                | From 500 GB up to 2x 2 TB SSD hard disk space                |
 
-::: info
+:::info
 At the moment we have 49 different dedicated server configurations for you to choose from!
 :::
 
