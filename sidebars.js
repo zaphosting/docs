@@ -380,13 +380,16 @@ const sidebars = {
               type: "category",
               label: "First Steps",
               items: [
-                "cs2-configuration",
+                "cs2-firststeps-dashboard"
+                "cs2-firststeps-connect"
+
               ]
             },
             {
               type: "category",
               label: "Configuration & Administration",
               items: [
+                "cs2-configuration",
                 "cs2-cstv",
                 "cs2-plugins"
               ]
