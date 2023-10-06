@@ -318,17 +318,6 @@ const sidebars = {
       type: "category",
       label: "Source Games",
       items: [
-        "source-gsltoken",
-        "source-custom-content",
-        {
-          type: "category",
-          label: "Sourcemod / Metamod",
-          items: [
-            "source-metamod-installation",
-            "source-metamod-addadmins",
-            "source-metamod-plugins"
-          ]
-        },
         {
           type: "category",
           label: "CS 1.6",
@@ -368,7 +357,8 @@ const sidebars = {
               type: "category",
               label: "Configuration & Administration",
               items: [
-                "csgo-gotv"
+                "csgo-gotv",
+                "source-custom-content"
               ]
             },
             {
