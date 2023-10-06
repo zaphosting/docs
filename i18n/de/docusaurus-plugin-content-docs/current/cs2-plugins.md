@@ -38,7 +38,5 @@ Allerdings entstehen neben Sourcemod/Metamod momentan auch andere Projekte. Eine
 
 Wir werden die aktuelle Situation diesbezüglich im Auge behalten. Sollte sich hier etwas neues entwickeln, so werden wir dies bei unseren Diensten übernehmen und die Anleitung zur Installation von Plugins für CS2 entsprechend erweitern. 
 
-## 
-
 
 
