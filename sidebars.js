@@ -380,9 +380,8 @@ const sidebars = {
               type: "category",
               label: "First Steps",
               items: [
-                "cs2-firststeps-dashboard"
+                "cs2-firststeps-dashboard",
                 "cs2-firststeps-connect"
-
               ]
             },
             {
