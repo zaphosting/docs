@@ -6,8 +6,8 @@ sidebar_label: Install plugins
 ---
 
 :::caution
-CS2 wurde erst vor kurzem veröffentlicht. Das Spiel erhält momentan noch einige Updates und Veränderungen. Dies betrifft ebenfalls die Funktionsweise und Struktur der CS2 Server. Wir bemühen uns die Anleitungen so korrekt und schnell wie möglich aktuell zu halten, falls sich zu diesem Thema etwas geändert hat.
-:::
+CS2 has just recently been released. The game is currently receiving quite a few updates and changes. This also affects the functionality and structure of the CS2 servers. We do our best to keep the guides as correct and up to date as quickly as possible in case something has changed concerning this. 
+ :::
 
 
 
@@ -28,7 +28,7 @@ The information about this is currently very limited and unclear. The current si
 - https://forums.alliedmods.net/showthread.php?t=342020
 - https://wiki.alliedmods.net/Introduction_to_SourceMod_Plugins#Will_SourceMod_support_Source_2.3F_Will_plugins_for_existing_games_continue_to_work_if_they_are_ported.3F
 
-However, apart from Sourcemod/Metamod, other projects are also being developed at the moment. One of these projects is [Resourcemod](https://resourcemod.net/), for example, which was recently presented on Reddit. However, the project is still under development and cannot be used at the moment. 
+However, apart from Sourcemod/Metamod, other projects are also being developed at the moment. One of these projects is [ResourceMod](https://resourcemod.net/) for example, which was recently presented on Reddit. However, the project is still under development and cannot be used at the moment. 
 
 
 
