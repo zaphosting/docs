@@ -28,8 +28,6 @@ The information about this is currently very limited and unclear. The current si
 - https://forums.alliedmods.net/showthread.php?t=342020
 - https://wiki.alliedmods.net/Introduction_to_SourceMod_Plugins#Will_SourceMod_support_Source_2.3F_Will_plugins_for_existing_games_continue_to_work_if_they_are_ported.3F
 
-
-
 However, apart from Sourcemod/Metamod, other projects are also being developed at the moment. One of these projects is [Resourcemod](https://resourcemod.net/), for example, which was recently presented on Reddit. However, the project is still under development and cannot be used at the moment. 
 
 
