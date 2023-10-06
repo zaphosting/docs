@@ -1,5 +1,5 @@
 ---
-id: cs2-firststeps-connect
+id: cs2-firststeps-dashboard
 title: Dashboard Übersicht
 description: Informationen zum Dashboard eines CS2 Server von ZAP-Hosting - ZAP-Hosting.com Dokumentationen
 sidebar_label: Dashboard
