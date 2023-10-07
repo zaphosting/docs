@@ -141,8 +141,6 @@ We also offer guides for your product. This includes for example the following g
 | CSTV                 | [View guide](https://zap-hosting.com/guides/docs/cs2-cstv)   |
 | Install plugins      | [View guide](https://zap-hosting.com/guides/docs/cs2-plugins) |
 
-<p style={{text-align: 'center'}}>List updated last on 06.10.2023</p>
-
 
 
 
