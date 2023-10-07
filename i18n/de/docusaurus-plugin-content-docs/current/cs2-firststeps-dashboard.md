@@ -138,7 +138,7 @@ Zu deinem Produkt bieten wir ebenfalls Anleitungen an. Das beinhaltet beispielsw
 | CSTV                 | [Anleitung aufrufen](https://zap-hosting.com/guides/de/docs/cs2-cstv) |
 | Install plugins      | [Anleitung aufrufen](https://zap-hosting.com/guides/de/docs/cs2-plugins) |
 
-<p style="text-align: center;">List updated last on 06.10.2023</p>
+<p style={{text-align: 'center'}}>List updated last on 06.10.2023</p>
 
 
 
