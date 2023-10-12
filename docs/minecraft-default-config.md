@@ -33,7 +33,7 @@ If you have booked multiple IPs for your root or VPS, you can specify here which
 
 ### level-seed
 
-By default, the world generator always generates a random [seed](https://minecraft.gamepedia.com/Seed_(level_generation) and thus a completely random world.
+By default, the world generator always generates a random [seed](https://minecraft.wiki/w/Seed_(level_generation)) and thus a completely random world.
 However, you can define your own seed from **letters or numbers** here, and the server will then create the corresponding world. The maximum length of **32 characters** should also not be exceeded.
 
 :::info
@@ -44,7 +44,7 @@ There are some seed generators where you can configure a world according to your
 
 ### gamemode
 
-This option allows you to set the default game mode on your server. The game mode is given to every player for the first visit to the server and can then be changed at any time using the [/gamemode](https://minecraft.gamepedia.com/Gameplay) command.
+This option allows you to set the default game mode on your server. The game mode is given to every player for the first visit to the server and can then be changed at any time using the [/gamemode](https://minecraft.wiki/w/Gameplay) command.
 
 If you cannot identify the IDs of the respective game modes, you will find a list here:
 
@@ -61,7 +61,7 @@ You can assign a fixed port to your server via which it will be accessible in co
 
 ### enable-command-block
 
-This enables [command blocks](https://minecraft.gamepedia.com/Command_Block) to be activated on the server. If none are needed, the value should be set to *false* because there are some methods by which the server can be destroyed or damaged in connection with command blocks.
+This enables [command blocks](https://minecraft.wiki/w/Command_Block) to be activated on the server. If none are needed, the value should be set to *false* because there are some methods by which the server can be destroyed or damaged in connection with command blocks.
 
 ### allow-nether
 
@@ -128,7 +128,7 @@ The hardcore mode ensures that players are banished upon death or put into spect
 
 ### white-list
 
-This activates the [Whitelist](https://minecraft.gamepedia.com/Commands/whitelist), whereby only players who are on the list get access. The commands used to whitelist players, remove whitelisted players, and more are displayed on that page.
+This activates the [Whitelist](https://minecraft.wiki/w/Commands/whitelist), whereby only players who are on the list get access. The commands used to whitelist players, remove whitelisted players, and more are displayed on that page.
 
 ### broadcast-console-to-ops
 
@@ -149,7 +149,7 @@ This setting affects the world generator again. It can be used to determine whet
 ### spawn-animals
 
 Specifies whether animals should be spawned on the server. You can find a list of all animals
-[here](https://minecraft.gamepedia.com/Animal). 
+[here](https://minecraft.wiki/w/Animal). 
 
 ### snooper-enabled
 
@@ -157,7 +157,7 @@ If activated, the server sends anonymous data to Mojang. The data will be used f
 
 ### difficulty
 
-This allows the general difficulty to be determined on the server. Depending on the example, mobs do more or less damage. Precise information on this and the possible options can be found [here](https://minecraft.gamepedia.com/Difficulty).
+This allows the general difficulty to be determined on the server. Depending on the example, mobs do more or less damage. Precise information on this and the possible options can be found [here](https://minecraft.wiki/w/Difficulty).
 
 ### network-compression-threshold
 
@@ -180,7 +180,7 @@ Determines the world type, according to which the world generator creates a worl
 ### spawn-monsters
 
 Determines whether monsters should be spawned on the server. You can find a list of all monsters 
-[here](https://minecraft.gamepedia.com/Mob). 
+[here](https://minecraft.wiki/w/Mob). 
 
 ### max-tick-time
 
