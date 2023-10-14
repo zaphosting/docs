@@ -74,7 +74,7 @@ Click on "Ok" to apply the changes. In certain situations, it may be necessary t
 
 
 
-### Schritt 3: Firewall settings
+### Step 3: Firewall settings
 
 Another possibility for a missing or faulty Internet connection can be caused by an incorrect configuration of the firewall. This can usually be quickly identified by temporarily disabling the firewall. If the problem does not occur afterwards, a specific firewall rule will prevent the necessary exchange of information. 
 
