@@ -15,7 +15,7 @@ sidebar_label: Server Konfiguration
 
 ## Einführung
 
-Counter-Strike Server lassen sich umfangreich konfigurieren. Grundlegende Einstellungen können über die **Server.cfg** Config und über die Einstellungsseite im Webinterface vorgenommen werden. Die erweitere Konfiguration erfolgt über die Gamemode Config-Dateien wie zum Beispiel gamemode_competitive.cfg, gamemode_custom.cfg, gamemode_casual.cfg, gamemode_cooperative.cfg, gamemode_demolition.cfg, usw.
+Counter-Strike Server lassen sich umfangreich konfigurieren. Grundlegende Einstellungen können über die **Server.cfg** Config und über die Einstellungsseite im Webinterface vorgenommen werden. Die erweitere Konfiguration erfolgt über die Gamemode Konfigurationsdateien wie zum Beispiel gamemode_competitive.cfg, gamemode_custom.cfg, gamemode_casual.cfg, gamemode_cooperative.cfg, gamemode_demolition.cfg, usw.
 
 Unter den Einstellungen wird der Gamemode bestimmt der benutzt werden soll. Die Befehle dieser Config werden dann dementsprechend geladen. Diese kannst du entweder in der Gameserver Verwaltung oder manuell via FTP unter **gXXXXX3/csgo/csgo/cfg/** verwaltet werden. 
 
@@ -135,7 +135,7 @@ Gewisse Befehle sind geschützt und können daher nur benutzt werden, wenn Cheat
 
 ## Gamemode spezifische Konfiguration
 
-Wie am Anfang beschrieben definierst du im Interface in der Einstellungsseite, welchen Gamemode/Gametype du benutzen möchtest. Danach musst du dich dann richten und die entsprechende Config-Datei bearbeiten. In den Gamemode-Configs können detailierte Änderungen zum Spielgeschehen, Botverhalten usw vorgenommen werden.
+Wie am Anfang beschrieben definierst du im Interface in der Einstellungsseite, welchen Gamemode/Gametype du benutzen möchtest. Danach musst du dich dann richten und die entsprechende Konfigurationsdatei bearbeiten. In den Gamemode-Configs können detailierte Änderungen zum Spielgeschehen, Botverhalten usw vorgenommen werden.
 
 
 

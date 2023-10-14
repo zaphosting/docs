@@ -11,7 +11,7 @@ Mit Administrator Berechtigungen kannst du direkt im Spiel Änderungen im Live Z
 
 ![image](https://user-images.githubusercontent.com/26007280/189889682-7608bb64-c17a-4f23-8bc0-a2339bcbe168.png)
 
-Am Ende der Config-Datei befindet sich der wichtige Part. Dort werden die Admins definiert:
+Am Ende der Konfigurationsdatei befindet sich der wichtige Part. Dort werden die Admins definiert:
 
 ```
   "_comment_admins": "List of case insensitive usernames, that will be promoted immediately",

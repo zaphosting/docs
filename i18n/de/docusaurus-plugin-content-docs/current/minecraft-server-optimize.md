@@ -42,7 +42,7 @@ Auch hier haben wir bereits einen Eintrag in unserer Dokumentation  zu, welcher 
 
 ## Forge
 
-Ähnlich wie bei Vanilla sind auch hier die Möglichkeiten die am Server selbst gemacht werden können leider etwas eingeschränkt, da nur sehr kleine Config-Dateien zur Verfügung stehen.
+Ähnlich wie bei Vanilla sind auch hier die Möglichkeiten die am Server selbst gemacht werden können leider etwas eingeschränkt, da nur sehr kleine Konfigurationsdateien zur Verfügung stehen.
 Jedoch ist die Installation von zusätzlichen Mods hierbei möglich, wodurch der Server auch etwas entlasst werden kann.
 
 ### Vorladen der Chunks

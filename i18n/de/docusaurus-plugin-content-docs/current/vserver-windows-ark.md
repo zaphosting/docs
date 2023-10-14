@@ -79,7 +79,7 @@ In den Einstellungen müssen nun weitere Regeln angelegt werden. Klicke dazu jew
 
 ## Konfiguration
 
-Die eigentliche Einrichtung ist damit bereits abgeschlossen. Weitere Änderungen bezüglich der Konfiguration kannst du über die **DefaultGameUserSettings.ini** und **Gameusersettings.ini** Config-Dateien vornehmen. Dort hast du die Möglichkeit den Server Name, Server Passwort, Server Admin Passwort und viele weitere Optionen vorzunehmen. Navigiere dazu in die folgenden Verzeichnisse: 
+Die eigentliche Einrichtung ist damit bereits abgeschlossen. Weitere Änderungen bezüglich der Konfiguration kannst du über die **DefaultGameUserSettings.ini** und **Gameusersettings.ini** Konfigurationsdateien vornehmen. Dort hast du die Möglichkeit den Server Name, Server Passwort, Server Admin Passwort und viele weitere Optionen vorzunehmen. Navigiere dazu in die folgenden Verzeichnisse: 
 
 ```
 ../steamapps/common/Ark Survival Evolved Dedicated Server/ShooterGame/Config/

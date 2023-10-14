@@ -52,7 +52,7 @@ players : 1 humans, 0 bots (16/0 max) (not hibernating)
 
 ### Config
 
-Als Nächstes verbindet man sich wieder mit dem Server per FTP und ruft die admins.cfg Config-Datei auf. Diese findet man unter dem folgenden Verzeichnis: addons/sourcemod/configs
+Als Nächstes verbindet man sich wieder mit dem Server per FTP und ruft die admins.cfg Konfigurationsdatei auf. Diese findet man unter dem folgenden Verzeichnis: addons/sourcemod/configs
 
 In der Datei befindet sich bereits ein Beispiel, wie ein Admin Eintrag zum Beispiel aussehen kann. Diesen kann man so kopieren und dann wie folgt eintragen:
 
