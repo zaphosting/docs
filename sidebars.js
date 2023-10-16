@@ -814,6 +814,7 @@ const sidebars = {
         'dedicated-linux-ubuntu',		
         'dedicated-freebsd',		
         'dedicated-centos',		
+        'dedicated-proxmox',
       ],
     }, 
   ],
