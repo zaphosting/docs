@@ -22,13 +22,13 @@ Are you unsure about what version of Minecraft you should install or buy a serve
 
 ## Platforms
 
-The most important question people ask when starting to play Minecraft is: "On which device can I play?". *Java*, the original game, can only be played on Windows, macOS, and Linux and has higher system requirements (expecially if you start adding [shaders and other mods](#customisation-and-modding)) while *Bedrock* can be played on almost all devices from Phones to Computers and Consoles with full cross-platform capabilities.
+The most important question people ask when starting to play Minecraft is: "On which device can I play?". *Java*, the original game, can only be played on Windows, macOS, and Linux and has higher system requirements (especially if you start adding [shaders and other mods](#customisation-and-modding)) while *Bedrock* can be played on almost all devices from Phones to Computers and Consoles with full cross-platform capabilities.
 
 ## Updates
 
 Both versions get consistent updates but for testing versions the term "snapshot" is used on *Java* and "beta" on *Bedrock* (only on Windows, Xbox and Android).  
 :::caution
-Please be careful while loading these as your world could become corrupt. It is always recommended to backup your worlds regulary!
+Please be careful while loading these as your world could become corrupt. It is always recommended to backup your worlds regularly!
 
 ## Multiplayer
 
