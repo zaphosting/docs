@@ -9,7 +9,7 @@ sidebar_label: Java vs Bedrock
 
 ## Introduction
 
-Are you unsure about what version of Minecraft you should install or buy a server for? Don't worry! This guide will tell you everything about Java and Bedrock Edition (referred to as *Java* and *Bedrock* throught this page) so you can make an educated choice. If you want to a skip to a certain chapter you can do so using the table of contents.
+Are you unsure about what version of Minecraft you should install or buy a server for? Don't worry! This guide will tell you everything about Java and Bedrock Edition (referred to as *Java* and *Bedrock* throughout this page) so you can make an educated choice. If you want to a skip to a certain chapter you can do so using the table of contents.
 
 ## Basics 
 
