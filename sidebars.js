@@ -25,9 +25,10 @@ const sidebars = {
       label: 'First Steps',
       items: [
         'firststeps-register',
-        'firststeps-rent-contractorprepaid',
-        'preorders',
         'firststeps-locations',
+        'preorders',
+        'firststeps-rent-or-purchase',
+        'firststeps-rent-contractorprepaid',
         'community-info',
         'suggestions',
       ],
@@ -92,7 +93,6 @@ const sidebars = {
       type: 'category',
       label: 'General',
       items: [
-        "gameserver-cloudvslifetime",
         "gameserver-resourcelimit",
         "gameserver-gameswitch",
         "gameserver-upgrade",
@@ -318,31 +318,81 @@ const sidebars = {
       type: "category",
       label: "Source Games",
       items: [
-        "source-gsltoken",
-        "source-custom-content",
         {
           type: "category",
-          label: "Sourcemod / Metamod",
+          label: "CS 1.6",
           items: [
-            "source-metamod-installation",
-            "source-metamod-addadmins",
-            "source-metamod-plugins"
+            "cs16-becomeadmin",
+            "cs16-plugins"
+          ]
+        },
+        {
+          type: "category",
+          label: "CS:S",
+          items: [
+            "source-gsltoken",
+            {
+              type: "category",
+              label: "Sourcemod / Metamod",
+              items: [
+                "source-metamod-installation",
+                "source-metamod-addadmins",
+                "source-metamod-plugins"
+              ]
+            },
           ]
         },
         {
           type: "category",
           label: "CS:GO",
           items: [
-            "csgo-configuration",
-            "csgo-gotv"
+            {
+              type: "category",
+              label: "First Steps",
+              items: [
+                "csgo-configuration",
+              ]
+            },
+            {
+              type: "category",
+              label: "Configuration & Administration",
+              items: [
+                "csgo-gotv",
+                "source-custom-content"
+              ]
+            },
+            {
+              type: "category",
+              label: "Sourcemod / Metamod",
+              items: [
+                "source-metamod-installation",
+                "source-metamod-addadmins",
+                "source-metamod-plugins"
+              ]
+            },          
           ]
         },
         {
           type: "category",
-          label: "Counter Strike 1.6",
+          label: "CS2 (NEW)",
           items: [
-            "cs16-becomeadmin",
-            "cs16-plugins"
+            {
+              type: "category",
+              label: "First Steps",
+              items: [
+                "cs2-firststeps-dashboard",
+                "cs2-firststeps-connect"
+              ]
+            },
+            {
+              type: "category",
+              label: "Configuration & Administration",
+              items: [
+                "cs2-configuration",
+                "cs2-cstv",
+                "cs2-plugins"
+              ]
+            },
           ]
         },
         {

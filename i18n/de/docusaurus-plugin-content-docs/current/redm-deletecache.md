@@ -9,11 +9,11 @@ sidebar_label: Cache leeren
 
 Das Löschen des Caches auf deinem RedM Gameserver ist ganz einfach. Rufe zunächst das Webinterface deines Gameservers auf. Öffne den Bereich **Einstellungen** im Webinterface deines Gameservers.
 
-![image](https://github.com/zaphosting/docs/assets/42719082/bbdfc816-6160-4e2a-b9ee-74feca4663ed)
+![image](https://github.com/zaphosting/docs/assets/42719082/6b288359-3d84-45d2-8179-4f0684e2f6fe)
 
 Scrollen dann zum unteren Ende der Seite, um mehrere Buttons unter dem Unterabschnitt **Aktionen** zu finden. Drücke hier den Button **Cache-Dateien löschen**, um den Cache deines Gameservers zu löschen.
 
-![image](https://github.com/zaphosting/docs/assets/42719082/f917d7bf-f436-4e6c-b53d-bd2d2df1e4c0)
+![image](https://github.com/zaphosting/docs/assets/42719082/cf5585c9-c90d-45e9-b0e3-1d7537afc80f)
 
 :::note
 Dies führt zu einem sofortigen Neustart deines Servers, um die Cache-Dateien zu leeren, also stelle sicher, dass du darauf vorbereitet bist.

@@ -6,10 +6,12 @@ sidebar_label: Install Debian
 ---
 
 ## Preparations
-In your ZAP interface, select the desired ISO of Debian and let the server boot with the ISO until it is in the setup process. Navigation in the setup process is done with TAB, Space and Enter.
+In your ZAP interface, select the desired ISO of Debian and let the server boot with the ISO until it is in the setup process.
 
 :::info
-TAB = switch between items, Space = highlight, Enter = confirm
+Navigation in the setup process is done with the keys TAB, Space and Enter.
+
+`TAB` = switch between items, `Space` = highlight, `Enter` = confirm
 :::
 
 ***
@@ -44,7 +46,7 @@ In our example we select the "Europe" option.
 
 ![image](https://user-images.githubusercontent.com/13604413/159173890-5c171366-8228-4374-8f38-fa4b01f6f933.png)
 
-Depending on the desired time zone, we choose the german time zone in this example.
+Depending on the desired time zone, we choose the German time zone in this example.
 
 ***
 
@@ -57,7 +59,7 @@ We choose United States as locale.
 ![image](https://user-images.githubusercontent.com/13604413/159173903-7785630e-7fd6-4eb6-b505-3aa73158af42.png)
 
 In our case we choose the German keyboard layout which is the QWERTZ layout.
-If you're from America the default layout would by QWERTY
+If you're from America the default layout would be QWERTY
 
 :::info
 Your server is now preparing some components which are necessary for the installation, this can take a few minutes.
@@ -67,7 +69,7 @@ Your server is now preparing some components which are necessary for the install
 
 ![image](https://user-images.githubusercontent.com/13604413/159173907-17d2a4f8-35ce-42fc-a22e-2b0d60079e81.png)
 
-Your server configures its network interface automatically by using dhcp.
+Your server configures its network interface automatically by using DHCP.
 Select `eno1` this is the default network adapter of your ZAP Dedicated Server.
 
 ***
@@ -86,7 +88,7 @@ The domain name does not have to be changed either.
 
 ![image](https://user-images.githubusercontent.com/13604413/159173920-28980d2d-3570-4ea5-a59e-0f3d483049a8.png)
 
-Here you have to set the password for your "root" account, make a note of the chosen password.
+Here you have to set the password for your "root" account. Make a note of the chosen password.
 
 ***
 
@@ -102,7 +104,7 @@ The installation wizard asks you to create a second user account
 
 ![image](https://user-images.githubusercontent.com/13604413/159173939-526bddc4-ef8c-4747-a852-e673dff89a16.png)
 
-Now enter the name of the owner for a normal user account, you can of course freely choose what you'd like to enter here.
+Now enter the name of the owner for a normal user account. You can of course freely choose what you'd like to enter here.
 
 :::info
 You can of course use the "root" account in the end
@@ -121,14 +123,14 @@ Your server will now prepare the next installation steps.
 
 ![image](https://user-images.githubusercontent.com/13604413/159173949-e58c9c27-9dc5-4018-8334-085f52cdc9ae.png)
 
-You have now the possibility to create partitions or alternatively to use the whole ssd as 1 partition.
+You have now the possibility to create partitions or alternatively to use the whole SSD as 1 partition.
 If you don't want to change anything on the partition just choose "Guided - Use entire disk".
 
 ***
 
 ![image](https://user-images.githubusercontent.com/13604413/159173953-8db5f379-76c1-4e3f-9aac-6f80e2907763.png)
 
-Select the ssd which is installed in your server.
+Select the SSD which is installed in your server.
 
 ***
 
@@ -143,7 +145,7 @@ Basically it is fine if the complete structure is stored on one partition.
 We confirm the configuration with "Finish partitioning and write changes to disk".
 
 :::info
-If there are old partitions on your ssd we confirm the overwrite with "Yes".
+If there are old partitions on your SSD we confirm the overwrite with "Yes".
 :::
 
 Your server now performs the partitioning and prepares the installation of the system.
@@ -159,7 +161,7 @@ Normally, however, you can download all packages conveniently afterwards via the
 
 ![image](https://user-images.githubusercontent.com/13604413/159173968-fb24e35e-96c5-49a2-b856-799c5ce482fb.png)
 
-Our dedicated server is located in Germany, so we also choose the german mirror location to achieve the best possible download rates.
+Our dedicated servers are located in Germany, so it's recommended to choose the German mirror location to achieve the best possible download speed rates.
 
 ***
 
@@ -185,17 +187,17 @@ The system wants to collect anonymized statistics, this can be refused or confir
 
 Now select the packages you want to install:
 
-* Debian desktop enviroment
+* Debian desktop environment
 Would create a graphical user interface on your server, but in this example we only use the shell level of the server.
 
 * SSH server
-Is needed to connect to PuTTY for example.
+Is needed, for example, to connect to PuTTY.
 
-* standard system utilities
+* Standard system utilities
 Is needed to provide a number of basic packages.
 
-The selection of the different packages is done by TAB and arrow keys. Packages are selected or deselected with the space bar.
-When you are satisfied with your selection press TAB until you reach Continue and confirm with Enter.
+The selection of the different packages is done by `TAB` and `arrow keys`. Packages are selected or deselected with the space bar.
+When you are satisfied with your selection press `TAB` until you reach Continue and confirm with Enter.
 
 ***
 
@@ -207,13 +209,13 @@ Confirm that this operating system is the only one on the current server with `Y
 
 ![image](https://user-images.githubusercontent.com/13604413/159173991-197f8295-2441-49b0-b411-1247a6071112.png)
 
-As storage location we choose the default location on our ssd.
+As storage location we choose the default location on our SSD.
 
 :::info
 🎉 The installation of your Debian system is now finished.
 :::
 
-Open "Virtual Media" in your iLO and press "Eject Media" to remove the ISO from the system.
+Open "Virtual Media" in your iLO and press "Eject Media" to remove the ISO File from the system.
 
 ![image](https://user-images.githubusercontent.com/13604413/159173993-37b4c6a4-45f7-486a-b1e8-06adbff7c072.png)
 
@@ -227,7 +229,7 @@ Once the reboot of your server is done and the installation was successful, you 
 
 ![image](https://user-images.githubusercontent.com/13604413/159173998-1c28db47-6839-4b39-8532-718c503708fe.png)
 
-Of course you also want to be able to manage your server through SSH i.e. PuTTY for example, so we still need to enable the login for that:
+Of course you also want to be able to manage your server through SSH, i.e., PuTTY, for example, so we still need to enable the login for that:
 
 ![image](https://user-images.githubusercontent.com/13604413/159173999-9251e54d-a858-4f4e-95c6-0a5c988dc36a.png)
 
@@ -237,15 +239,15 @@ Open with nano the configuration file of your SSH service `nano /etc/ssh/sshd_co
 
 Search for `#PermitRootLogin no` and change it to `PermitRootLogin yes`.
 
-Now press `STRG + X` and confirm your changes with `Y`.
+Now press `CTRL + X` and confirm your changes with `Y`.
 
-After that you have to restart the SSH service, by typing `service ssh restart`.
+After that you have to restart the SSH service by typing `service ssh restart`.
 
-Your SSH login is now active and you can connect via PuTTY for example.
+Your SSH login is now active and you can connect via PuTTY, for example.
 Enter the IP address of your server, which you see in your zap dashboard and use the previously defined credentials.
 
 ![image](https://user-images.githubusercontent.com/13604413/159174010-4cf4901a-9481-45f9-b51a-6f07f53f050e.png)
 
-:::info
+:::tip
 If you have any further questions or problems, our support is happy to assist you!
 :::

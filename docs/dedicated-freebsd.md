@@ -13,9 +13,9 @@ In this example, the installation of FreeBSD 13.0 is performed
 In your ZAP interface, select the desired ISO of FreeBSD and let the server boot with the ISO until it is in the setup process.
 
 :::info
-Navigation in the setup process is done with TAB, Space and Enter.
+Navigation in the setup process is done with the keys TAB, Space and Enter.
 
-TAB = switch between items, Space = highlight, Enter = confirm
+`TAB` = switch between items, `Space` = highlight, `Enter` = confirm
 :::
 
 ***
@@ -31,7 +31,7 @@ We start the installation by pressing `Enter`
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/CK4xnGEqBe5Kd4y/preview)
 
-Choose the keymap of your like and proceed with continue
+Choose the keymap of your liking and proceed with continue
 
 ***
 
@@ -43,13 +43,13 @@ Choose your desired hostname
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/zqXPS6fHdkoMPH2/preview)
 
-You could choose optional systempackages which should be installed, after you're done proceed with OK
+You could choose optional system packages which should be installed, after you're done proceed with OK
 ***
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/zTSBQRGRFLHDxDo/preview)
 
 In this step you could create partitions, in this example we're using a RAID0.
-More informations about RAIDs are explained in our special guide.
+More information about RAIDs are explained in [our special guide.](https://zap-hosting.com/guides/docs/dedicated-raid)
 
 ***
 
@@ -61,7 +61,7 @@ You can proceed with `Enter` if there are no changes
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/MR3eJKMpdExXnsJ/preview)
 
-Since we've got a RAID0 we choose no redundandy
+Since we've got a RAID0 we choose no redundancy
 
 ***
 
@@ -83,25 +83,25 @@ Your server is now processing the setup, this could take several minutes
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/NmR5PcTPe3Kdc4i/preview)
 
-Please fillin your password and proceed by pressing `Enter`
+Please fill in your password and proceed by pressing `Enter`
 
 ***
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/f9aJF57b2w3g9qY/preview)
 
-Choose "No" at IPv4/IPv6 Configuration, this must be done in the end
+Choose "No" at IPv4/IPv6 configuration, this must be done in the end
 
 ***
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/88bxbHsRjwCoYJQ/preview)
 
-Choose "Yes" and select your timezone and the date/time configurations
+Choose "Yes" and select your timezone and the date/time
 
 ***
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/MCtpoQkLdc8Wd7Y/preview)
 
-You could change the systems which will be automatically started on a server start
+You could change the systems that will be automatically started when the server starts
 
 ***
 
@@ -116,14 +116,14 @@ If necessary, you can modify the security settings
 The setup is now done, choose "Exit" and confirm by pressing `Enter`
 
 :::info
-Remove the ISO-File in your iLO and choose "Reboot"
+Remove the ISO File in your iLO and choose "Reboot"
 :::
 
 ### Network
 
 To enable the network device, please login to your system using the password
 
-Open loader.conf with a editor of your decision, as example `ee /boot/loader.conf` and add the following line:
+Open loader.conf with a editor of your choice, as example `ee /boot/loader.conf` and add the following line:
 
 ```if_oce_load="YES"```
 
@@ -137,15 +137,15 @@ After the reboot, we need to modify the rc.conf as example by `ee /etc/rc.conf`,
 ifconfig_oce0="DHCP"
 ```
 
-:::info
-Caution: The name of the network adapter shown in the example **oce0** may be different. Make sure that you specify the correct network adapter. This can be verified with the ifconfig command. The information is then automatically obtained via the DHCP server. 
+:::caution
+The name of the network adapter shown in the example **oce0** may be different. Make sure that you specify the correct network adapter. This can be verified with the ifconfig command. The information is then automatically obtained via the DHCP server. 
 :::
 
 This should in example look like:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/mBCZpbG37N9Dj5e/preview)
 
-Leave the editor by pressing `CTRL+C`and writing "exit" after that execute the command `/etc/netstart` once
+Leave the editor by pressing `CTRL+C` and writing "exit" after that execute the command `/etc/netstart` once
 
 :::info
 Your server should have an active internet connection now

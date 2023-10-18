@@ -7,15 +7,15 @@ sidebar_label: Server reset
 
 
 
-Are you experiencing problems with your server or would you like to completely wipe the data of your server? This is no problem and can be easily realized. The existing data can for example be completely deleted by the use of a Wipe ISO. 
+Are you experiencing problems with your server or would you like to completely wipe the data of your server? This is not a problem and can be easily done. For example, you can completely delete the existing data using a Wipe ISO.
 
 
 
 ## Preparations
 
-First of all, the required Wipe ISO must be mounted and executed in order to perform the actual process of resetting the data. ISO files can be mounted either via the ILO or via the remote console. If you don't know exactly how to do this yet, please have a look at the [Own ISO](dedicated-iso.md) guide. 
+The required Wipe ISO must be mounted and executed in order to perform the actual process of resetting the data. ISO Files can be mounted either via the iLO or via the remote console. If you don't know exactly how to do this yet, please have a look at the [Own ISO](dedicated-iso.md) guide. 
 
-Now mount the following ISO to your server and restart it afterwards:
+Mount the following Wipe ISO File to your server, then restart it:
 
 
 ```
@@ -32,12 +32,13 @@ Once the server has been restarted, the Wipe ISO should be automatically detecte
 
 
 
-There you will see how the server automatically executes the process and how far the formatting progress is. Your server will overwrite all existing volumes once, so that there will be no more data. Depending on the size of the SSD, this process may take about 45 minutes - 2 hours.
+There you will see how the server automatically executes the process and how far the formatting progress is. Your server will overwrite all existing volumes, effectively deleting all data. Depending on the size of the SSD, this process may take from 45 minutes to 2 hours.
 
 ![image](https://user-images.githubusercontent.com/13604413/159174333-ef109e7e-2e79-4201-81cf-b33301c4d0b7.png)
 
 
 
-:::info
-Important: This process cannot be undone and is therefore final. There are no additional backups that can be imported in case of need. We therefore advise you not to perform this process unless you are absolutely sure that you want to delete your data. 
+:::danger
+This process cannot be undone and is therefore final. There are no additional backups that can be imported in case of need.
+We strongly advise against performing this process unless you are absolutely certain you want to delete all your data.
 :::

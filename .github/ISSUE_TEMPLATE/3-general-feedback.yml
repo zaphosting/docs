@@ -1,0 +1,36 @@
+name: 💭 General feedback & suggestions
+description: Want to provide us with some general feedback or suggestions (outside of the Contribution program)? This is the correct place to do so!
+labels: [provide feedback/suggestions]
+body:
+  - type: markdown
+    attributes:
+      value: |
+         At ZAP-Hosting we always strive to improve where possible to provide the best experience possible. We would love to hear your suggestions and feedback in regards to our documentation through this issue! We will take all feedback into deep consideration as your feedback is valuable to us!
+  - type: textarea
+    attributes:
+      label: Is there any specific guide to which your feedback refers?
+      description: Please provide us with the links (URL) to the document(s) if applicable.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: What is your feedback?
+      description: Please be as descriptive as you can be, regardless if you are providing positive or negative feedback.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Any specific changes that you suggest should be made?
+      description: Please provide us with a rough idea of what you believe should be changed.
+    validations:
+      required: true
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: By submitting this form, you agree that...
+      description: You must confirm and agree with all of the points.
+      options:
+        - label: You have filled in the form to the best of your ability.
+          required: true
+        - label: You confirm that the feedback was written with good faith, and follows the code of conduct.
+          required: true
