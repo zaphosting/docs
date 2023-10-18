@@ -7,10 +7,14 @@ sidebar_label: Use of logo and name
 
 ## Introduction
 
-In general, we support ideas and creative concepts based on ZAP-Hosting's brand assets (i.e. ZAP-Hosting's trademarks, logos, trade dress, websites, copyrighted designs, original content or other brand assets). However, we are obliged to protect our reputation and brand identity.
+At ZAP-Hosting, we believe in the power of creativity and ideas in regards to our brand assets. We are an enthusiatic, playful brand that has a sense of humour. 
+
+However, we are also obligated to ensure that our brand is used in a reputable way in order to protect our brand identity and reputation.
+
+For this reason, we have a wide range of guidelines in regards to using our brand assets to make sure that that we are represented appropriately which you must follow via [our Branding site](http://zap-hosting.com/branding).
 
 :::info
-You can find our permitted logos [here](https://zap-hosting.com/branding)
+We have a dedicated [Branding site](https://zap-hosting.com/branding) which allows you to access our guidelines, press kit and general information regarding our awesome brand!
 :::
 
 By using brand assets from ZAP-Hosting, you agree to respect and follow these guidelines, the ZAP-Hosting Terms of Use and all other rules and policies of ZAP-Hosting (including individually discussed special terms and exceptions). 
@@ -19,7 +23,7 @@ ZAP-Hosting reserves the right to revoke, modify or change any granted permissio
 
 <br/>
 
-## Questions
+## Frequently Asked Questions
 
 **I want to use a banner from the preset list in the web interface for my website. Is this allowed without permission?**
 
@@ -82,9 +86,9 @@ ZAP-Hosting's rights to ZAP-Hosting's trademarked graphics and logos may not be 
 
 <br/>
 
-## Logos
+## Use of our Logos
 
-In general, we do not allow the use of the ZAP-Hosting logos in marketing materials of third parties. This includes online and offline advertising material such as
+In general, we do not allow the use of the ZAP-Hosting logos in marketing materials of third parties. This includes online and offline advertising material such as:
 - customer and recommendation lists
 - Sales Presentations
 - Print, broadcast, outdoor or online advertisements
