@@ -1,73 +1,82 @@
 ---
 id: account-community-ads
 title: Community Advertising
-description: Instructions on how to use Community Advertising to earn ZAP credits for ZAP-Hosting.com - ZAP-Hosting.com documentation
-sidebar_label: Community ads
+description: Instructions on how to use Community Advertising to earn ZAP credits or money via ZAP-Hosting - ZAP-Hosting.com documentation
+sidebar_label: Community Advertisement
 ---
 
-## ## Introduction
+## Introduction
 
-Community advertising is a way to earn money by advertising ZAP-Hosting. By using this feature it's also possible to get "**free**" servers. Good advertising which is submitted and also accepted would be compensated with "**0.24€**" for each link.
+Community advertising is a great way to earn some money by advertising ZAP-Hosting. Through this program, it is essentially possible to get **free** servers. Successful advertisement which is submitted and accepted would be compensated with **€0.24** for each link.
 
-## Important aspects when creating advertising
+## Important factors to consider
 
-### The advertisement needs to be independently 
+There are a few factors that we use to consider whether your advertisement will be accepted and successful or not. You should understand and follow each to maximise your chance of acceptance for your Community Advertisement link.
 
-We therefore only confirm and accept advertising where we can clearly see that it was written by the customer himself.
-It's sufficient to use the same username as the one used at ZAP-Hosting when creating the advertisement.
+### Advertisement must be independent
+
+We can only confirm and except advertisements where we can clearly review that it was written by the customer themself. Using the same username as your ZAP-Hosting account is sufficient when creating your advertisement.
 
 ### Comments are not considered as advertising
 
-If a person asks the question, "Which hosters can you recommend?"
-Then a comment would be something like, "ZAP is cool!" or "I would recommend ZAP-Hosting."But good advertising would be more extensive and informative. That might look like this: "I would recommend ZAP-Hosting, they have a ..., you can ..., they offer ..., 
-If you don't know them yet, you could also see all products and prices here: https://zap-hosting.com/en".
+As an example, someone asking a question such as `"Which hosters can you recommend?"` and you replying `"ZAP is awesome!"` is not sufficient to be considered under our Community Advertising prgogram.
 
-### Advertising must be customer-oriented
+A successful advertisement would be more informative and extensive providing more details about our products and providing a link. 
 
-An advertisement has to be placed in areas that could be interesting for ZAP-Hosting. The aim of the advertisement is to draw people's attention to ZAP-Hosting and to win them as new customers. This is therefore more likely to happen in a forum about servers and server providers than in a forum about agriculture.
+An example of an acceptable advertisement: `"I can highly recommend ZAP-Hosting... they have, you can... they offer... which works great. Want to learn more, check out their site to see their extensive variety of products and great prices here: https://zap-hosting.com/en"`
 
-## Submit Link
+### Advertisement must target appropriate audiences
 
-Click the link in the overview on [[Community Advertising](https://zap-hosting.com/de/customer/communityads/)]. There you can click on the green "**+**" icon to submit the link.
+Your advertisement should be placed in areas that would interest people in ZAP-Hosting. The entire aim of the advertisement is to draw people's attention to ZAP-Hosting and to win them as new customers therefore you should consider who the target audience is.
+
+You must place your advertisement in appropriate places, ideally where the target audience would be interested in gameservers and hosting. As an example, a forums about gaming would be a perfect place to include an advertisement, where as a forums about agriculture would not as the target audience does not match at all.
+
+## Submitting a Link
+
+Submitting your link is easy. Head over to the [Community Advertising](https://zap-hosting.com/en/customer/communityads/) page on our ZAP-Hosting website and scroll down to the **Your Links** section.
+
+Now press the green **+** to open up a menu where you can submit your link. Once ready, press the green **Send** button to continue.
 
 :::info
 The link must point to the advertisement created for this purpose. If the link does not contain any advertising, then it will be declined.
 :::
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SFTfRE32TzdjpaM/preview)
+![image](https://github.com/zaphosting/docs/assets/42719082/d94273e7-3c97-4d62-a77a-7901d0293c7f)
 
-## Cash out / Transfer
+![image](https://github.com/zaphosting/docs/assets/42719082/12839234-efe5-45f5-8d9c-addb69af3e60)
 
-Click in the overview on the "[Community Advertising](https://zap-hosting.com/de/customer/communityads/)" to request a payout. There you can now click on the icon with the two opposite arrows at "**Available Credit**".
+## Cash out & Transferring
 
-![](https://screensaver01.zap-hosting.com/index.php/s/AdNWpLCyx4zHH69/preview)
+You can transfer out your Community Advertisement balance either into ZAP-Coins or into real money. Head over to the [Community Advertising](https://zap-hosting.com/en/customer/communityads/) page again and press the blue **Payment/Transfer** button.
+
+![image](https://github.com/zaphosting/docs/assets/42719082/076c45aa-2851-4a0d-b5ed-27ca57102b15)
+
+![image](https://github.com/zaphosting/docs/assets/42719082/de11ee5a-97e5-432a-944c-7f0e2dd9d448)
+
+Now follow the appropriate section below to transfer to either currency.
 
 ### ZAP-Coins
 
-**Attention:**
-Once you have your credit transferred to ZAP-Coins, you can no longer cash out them!
+:::warning
+Once you have your credits transferred into ZAP-Coins, you can no longer cash out them out!
+:::
 
-At the " **Posting type**" you can now select "**ZAP credit balance**".
-There it's possible to convert either the full credit balance or a partial credit balance to ZAP-Coins: 
+On the menu prompt, select **ZAP credit balance** as the option. Choose whether you wish to transfer the entire balance or only a specific part of it. Once ready, simply press the green **Transfer** button to confirm.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/4ftXpjDe47bj7nC/download/chrome_1sGrOf9AKk.gif)
+![image](https://github.com/zaphosting/docs/assets/42719082/27807ca4-4ee7-4e70-92f8-23b887bfef90)
 
-As soon as a selection has been made and a desired value has been set at "**Part credit**", the process is confirmed by the button "**Rebook**".
+![image](https://github.com/zaphosting/docs/assets/42719082/5e88aeee-cb33-46b4-a3c4-4da92273f7b1)
 
-### Real money account
+### Real money (PayPal)
 
-A payout would only be possible via Paypal.
+We currently only offer payouts into real money via PayPal. In order to payout via PayPal, you will have to create and send an invoice to us referencing your customer ZAP ID.
 
-**Attention:**
-Once you have your credit transferred to ZAP-Coins, you can no longer cash out them!
+Head over to the [PayPal Invoice Creator](https://www.paypal.com/invoice/create?fromWidget=newuser) and fill in the invoice as appropriate:
 
-**Pay out via PayPal:**
-Use the PayPal billing feature: "[PayPal Invoice Creator](https://www.paypal.com/invoice/create?fromWidget=newuser)"
+- Fill in our company information as the recipient: `ZAP-Hosting GmbH & Co. KG, Hafenweg 8, 48155 Münster, Deutschland`
+- Description must include: `zap community ads payout <customer ID>`
+- Invoice must be sent to: `m.kluck@zap-hosting.com`
 
-Please fill in our company information as invoice recipient:
-
-`ZAP-Hosting GmbH & Co. KG, Hafenweg 8, 48155 Münster, Deutschland`
-
-
-The description must include `zap community ads payout <customer ID>`. Please send the PayPal invoice to: `m.kluck@zap-hosting.com`
-
+:::note
+Your ZAP ID number can be found on the top right of our website when logged in, with a format such as `zap123456`.
+:::
