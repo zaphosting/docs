@@ -1,8 +1,8 @@
 ---
 id: legal-use-brand-assets
-title: Use of logo and name
+title: Brand Use
 description: Information under which conditions you can use the ZAP-Hosting logo and name - ZAP-Hosting.com documentation
-sidebar_label: Use of logo and name
+sidebar_label: Use of our Brand
 ---
 
 ## Introduction
@@ -20,8 +20,6 @@ We have a dedicated [Branding site](https://zap-hosting.com/branding) which allo
 By using brand assets from ZAP-Hosting, you agree to respect and follow these guidelines, the ZAP-Hosting Terms of Use and all other rules and policies of ZAP-Hosting (including individually discussed special terms and exceptions). 
 
 ZAP-Hosting reserves the right to revoke, modify or change any granted permission to use within these guidelines at any time at its sole discretion.
-
-<br/>
 
 ## Frequently Asked Questions
 
@@ -56,8 +54,6 @@ ZAP-Hosting reserves the right to revoke, modify or change any granted permissio
 If you have any questions about this policy, please contact marketing@zap-hosting.com.
 
 
-<br/>
-
 ## General guidelines for use
 
 **Permitted use:**
@@ -84,8 +80,6 @@ If you have any questions about this policy, please contact marketing@zap-hostin
 - Do not use ZAP-Hosting trademarked graphics and logos for material that violates the trademark, copyright or other rights of third parties.
 ZAP-Hosting's rights to ZAP-Hosting's trademarked graphics and logos may not be violated, diminished, diluted or impaired.
 
-<br/>
-
 ## Use of our Logos
 
 In general, we do not allow the use of the ZAP-Hosting logos in marketing materials of third parties. This includes online and offline advertising material such as:
@@ -100,8 +94,6 @@ In general, we do not allow the use of the ZAP-Hosting logos in marketing materi
 
 We reserve the right to decide on an individual basis whether there has been any misuse for any points not listed here. In principle, the need for written permission to use our brand assets and name applies.
 
-<br/>
-
 ## Commercials, TV programs, YouTube videos, movies or articles
 If you would like to use our brand assets as part of an article, in a film or within a radio program, please contact us. We are open for such requests. Please include the following information with your request:
 - Description of the project/content 
@@ -109,8 +101,6 @@ If you would like to use our brand assets as part of an article, in a film or wi
 - Visual mock-ups or screenshots
 
 In the case of unapproved published content of this kind, we reserve the right of ownership within the framework of trademark law.
-
-<br/>
 
 ## Legal Annex
 
