@@ -11,13 +11,15 @@ To begin, you must mount and boot from the Proxmox VE (Virtual Environment) ISO 
 ### Mount via the webinteface
 Head over to the **Initial Installation** section on your dedicated server's webinterface panel.
 
-
-
 Here you must first press the green **enable iLO** button. Wait a short period until the sections become unhidden. You may have to refresh your page to ensure it loads fully.
+
+![image](https://github.com/zaphosting/docs/assets/42719082/b457f17a-0bc6-42db-91ec-a553fd456936)
 
 Next, select a **Proxmox VE** ISO from the drop down menu. We recommend using the latest version to remain up-to-date with the latest changes. Now use the green **Insert** button.
 
-Finally you must restart your dedicated server in order to be able to boot from the ISO.
+![image](https://github.com/zaphosting/docs/assets/42719082/2b0baf71-d683-46ad-a34a-bfda9d71939d)
+
+Finally you must restart your dedicated server in order to be able to boot from the ISO. You can do so via the restart button under step 3.
 
 ### Mount via the iLO directly
 Prepare your Proxmox VE ISO by heading over to the [Proxmox download site](https://www.proxmox.com/en/downloads/proxmox-virtual-environment/iso). You must then upload and mount it to your dedicated server by following the [iLO guide](https://zap-hosting.com/guides/docs/dedicated-ilo/) & [Own ISO guide](https://zap-hosting.com/guides/docs/dedicated-iso/) which show how to login and upload your custom ISO.
