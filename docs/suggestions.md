@@ -1,49 +1,53 @@
 ---
 id: suggestions
-title: Submit suggestions
-description: Information on how to submit suggestions for new game servers and features on ZAP-Hosting - ZAP-Hosting.com documentation
+title: Submit Suggestions
+description: Information on how to submit suggestions for new games and features on ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Submit Suggestions
 ---
+
 ## Introduction
-The **Submit Suggestions** option provides our customers with the ability to submit desired features or changes. These can then be favoured by the ZAP community. In most cases, the more interest there is in a suggestion, the higher is the priority. 
+At ZAP-Hosting we always thrive to do the best that we can, thus we welcome any feedback and suggestions from our Community. We provide the ability to do this easily directly through our [Suggestions Page](https://zap-hosting.com/en/suggestion/) on the site.
 
-## Can suggestions be submitted?
-Suggestions can be submitted on our suggestion page. We regularly review and evaluate all suggestions. The suggestions page can be found under the following link:
- https://zap-hosting.com/en/suggestion/
+Through our Suggestion Page, the ZAP Community can vote on which suggestions are the most important and wanted, so that we can prioritise development based on the most voted suggestions. In most cases, the higher the interest, the higher priority the suggestion becomes.
 
-## What suggestions can be submitted?
-In principle, all types of suggestions can be submitted. We place particular emphasis on suggestions for the categories "game request" and "web interface features".
+## Suggestions Page
+You can access suggestions directly through our [Suggestions Page](https://zap-hosting.com/en/suggestion/) on our site or the following link: https://zap-hosting.com/en/suggestion/
 
-## How are suggestions submitted?
-To submit a suggestion, simply click on the "Suggest Feature" button on the suggestion page. A form opens in which the suggestion can be entered and the category ("Game request", "Web Interface Feature" and "Miscellaneous") can be selected. The suggestion is submitted using the "Suggest Now" button.
+On the page, you will see currently **Work in progress** suggestions grouped at the top for easy access. These are suggestions that have been reviewed and are actively being worked on by our team. Scrolling down, you will find **Submitted** suggestions which are ones that a customer has submitted which has been approved, but which is not being worked on currently.
 
-![image](https://user-images.githubusercontent.com/61953937/159140324-2bfd5859-dca8-4ab7-acb9-27827a64b4d0.png)
+You are also able to pick a certain category to display suggestions under and also view finished suggestions throught the toggle.
 
-![image](https://user-images.githubusercontent.com/61953937/159140332-579872bd-c343-4458-b4b1-05cdb500805f.png)
+### Acceptable Suggestions
+In general, any type of suggestion regarding our services can be submited. In particular, we welcome new suggestions for game requests as well as webinterface features.
 
-## What should be considered when suggesting games?
-In principle, any game or modpack for which we do not yet offer a game server can be proposed. We review all suggestions and decide whether it makes sense to add a particular game. Minecraft modpacks can of course be suggested under "Game Request".
-* For game suggestions, it is sufficient to only enter the game name / modpack name and, if necessary, a link to the website of the game/modpack. Example:
+If you have a suggestion regarding other areas such as our ZAP Community or events, which are not fully relevant to our services, we always welcome your feedback on our [ZAP-Hosting Discord Server](https://discord.com/invite/zaphosting).
+
+#### Considerations for new game suggestions
+When submiting a new game suggestion, we review it and decide whether it makes sense to add a particular game based on a few factors. Generally, any game or modpack that we do not offer as a gameserver currently can be proposed and it will be reviewed.
+
 :::info
-RLCraft
-
-https://www.curseforge.com/minecraft/modpacks/rlcraft
-:::
-* The newer or more current a game, the better.
-:::info
-For new games, we make sure that there is a certain minimum demand, so we assume that servers are also rented. Games and modpacks that are only played by a very small number of players and / or have been on the market for a long time and are also no longer updated are less likely to be integrated into our gameserver cloud.
-:::
-* We are constantly checking whether it makes sense to add games for the game server interface for virtual servers.
-:::info
-Therefore, it is usually not necessary to add requests for games for the game server interface.
+When suggesting a game, it is sufficient enough to enter the game or modpack name and also a link to the appropriate game or modpack site.
 :::
 
+Some of the factors that we review for new game or modpack suggestions include whether there is a certain minimum demand for the game, the age of the game and whether it is still popular and actively maintained/updated.
 
-### What needs to be considered with web interface features
-Web interface features are all features that are available on our website zap-hosting.com and in the web interface. This can include very small things on the website, but also complex features that offer new functions.
+#### Considerations for new webinterface features
+When submitting a new webinterface feature, ensure that it relates to our ZAP-Hosting website and the webinterface panels such as your gameserver's webinterface.
 
+Any ideas are welcome here, whether it is a small suggestion for improvement or an entirely new feature that you believe should be included on our website and webinterface panels.
 
-### What happens after my suggestion is submitted?
-We look at all the new suggestions and decide whether it makes sense to accept the suggestion or even implement it directly. If a suggestion is accepted, but is not implemented directly, you can use a "Like" to show that this suggestion is important to you. The more likes, the higher the likelihood that a suggestion that has not yet been implemented will be considered.
+### Creating a Suggestion
+Before submitting a new suggestion, we highly encourage you to use your browser's search function via `CTRL+F` to search whether your exact suggestion has already been posted previously. If so, you can like the existing post rather than creating a duplicate.
 
-![image](https://user-images.githubusercontent.com/61953937/159140342-f1973bc0-4dd7-4520-9d7e-3daebe995c30.png)
+You can create a new suggestion using the green **Suggest feature** button on the [Suggestions Page](https://zap-hosting.com/en/suggestion/). This will open up a form, where you can fill out details and place it into the appropriate category. You can be as detailed as you wish in your suggestion description, as long as it describes the point well.
+
+We recommend being logged in to do this, or alternatively you can fill in the email section if you are not logged in to your ZAP-Hosting account at the time of submitting your suggestion.
+
+![image](https://github.com/zaphosting/docs/assets/42719082/3cb61b1b-b922-4145-8081-a52d0040bdaf)
+
+![image](https://github.com/zaphosting/docs/assets/42719082/54c96bb9-4fc7-46d4-9ffa-f78d80688f76)
+
+### After Suggestion Sumbission
+Once you have submitted your suggestion successfully, we regularly check for new suggestions and make a decision whether to approve it if it is acceptable, or occasionally we may even implement it directly.
+
+As mentioned in the introduction, fellow members of the ZAP Community can like your suggestion to show the importance of the suggested item. The more likes that the suggesiton receives, the more likely it is that the suggestion will be considered and worked on in the future.
