@@ -17,12 +17,12 @@ Bist du dir unsicher, für welche Version von Minecraft du einen Server installi
 
 Hier ist eine Tabelle, die einige grundlegende Informationen über beide Minecraft-Versionen erklärt.
 
-| Edition:                       | *Java*                        | *Bedrock*                 |
-| ------------------------------ | ----------------------------- | ------------------------- |
-| Launch date:                   | 2009                          | September 2017            |
-| Made with:                     | Java                          | Bedrock Engine            |
-| Based on:                      | Minecraft - the original game | Minecraft: Pocket Edition |
-| Latest version (as of writing) | 1.20.2                        | 1.20.32                   |
+| Edition:                                       | *Java*                        | *Bedrock*                 |
+| ---------------------------------------------- | ----------------------------- | ------------------------- |
+| Datum der Einführung:                          | 2009                          | September 2017            |
+| Hergestellt mit:                               | Java                          | Bedrock Engine            |
+| Basiert auf:                                   | Minecraft - das Originalspiel | Minecraft: Pocket Edition |
+| Neueste Version (zum Zeitpunkt der Erstellung) | 1.20.2                        | 1.20.32                   |
 
 
 
