@@ -77,7 +77,7 @@ In den Einstellungen müssen nun weitere Regeln angelegt werden. Klicke dazu jew
 
 ## Konfiguration
 
-Die eigentliche Einrichtung ist damit bereits abgeschlossen. Weitere Änderungen bezüglich der Konfiguration kannst du über die **ServerSettings.ini** Config-Datei vornehmen. Dort hast du die Möglichkeit den Server Name, Server Passwort und weitere Optionen vorzunehmen. Navigiere dazu in das folgende Verzeichnis: 
+Die eigentliche Einrichtung ist damit bereits abgeschlossen. Weitere Änderungen bezüglich der Konfiguration kannst du über die **ServerSettings.ini** Konfigurationsdatei vornehmen. Dort hast du die Möglichkeit den Server Name, Server Passwort und weitere Optionen vorzunehmen. Navigiere dazu in das folgende Verzeichnis: 
 
 ```
 ../steamapps/common/SatisfactoryDedicatedServer/FactoryGame/Saved/Config/WindowsServer/
