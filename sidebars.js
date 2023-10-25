@@ -119,7 +119,8 @@ const sidebars = {
           type: "category",
           label: "First Steps",
           items: [
-            "minecraft-firststeps-connect"
+            "minecraft-firststeps-connect",
+            "minecraft-firststeps-java-bedrock-comparison"
           ]
         },
         {
