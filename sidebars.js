@@ -49,7 +49,7 @@ const sidebars = {
         "account-termination-and-cancellation-period",
         "account-paymentoptions",
         "account-backup-storage",
-        "account-friends",
+        "account-affiliate",
         "account-cashbox",
         "account-usermanagement",
         "account-vouchers",
