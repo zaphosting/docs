@@ -25,7 +25,7 @@ import TabItem from '@theme/TabItem';
 
 The most user-friendly method is by heading over to the **Settings** section on your gameserver's webinterface and searching for the appropriate settings there, as seen below:
 
-![image](https://github.com/zaphosting/docs/assets/42719082/43d0e6eb-a24d-46b8-a6a2-5659ae94084c)
+![image](https://github.com/zaphosting/docs/assets/42719082/01d7bf1c-6524-46e4-8c3d-7b54aaf6cf92)
 </TabItem>
 
 <TabItem value="configs" label="Via WI Config file">
@@ -34,7 +34,7 @@ The most user-friendly method is by heading over to the **Settings** section on 
 
 Alternatively, for users who wish to directly edit the raw file, you can access this by heading over to the **Configs** section on your gameserver's webinterface and pressing the blue edit file button, as seen below:
 
-![image](https://github.com/zaphosting/docs/assets/42719082/e3c7392c-7246-4133-be2e-383dac4b0327)
+![image](https://github.com/zaphosting/docs/assets/42719082/43793138-db0c-4824-827e-c50abf6e76e4)
 
 This will open up a text editor directly on the site to enable you to edit it.
 </TabItem>
