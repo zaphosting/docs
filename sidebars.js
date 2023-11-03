@@ -831,6 +831,7 @@ const sidebars = {
           type: "category",
           label: "Gameserver services",
           items: [
+            'vserver-windows-arksurvivalascended',
             'vserver-windows-valheim',
             'vserver-windows-vrising',
             'vserver-windows-satisfactory',
