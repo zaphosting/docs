@@ -62,7 +62,7 @@ Zum Einsatz kommen insbesondere HP C7000 G3 ProLiant Bladesysteme mit 16x HP G8/
 
 
 **DDoS Protection:**
-Seit Dezember 2019 setzen wir in Frankfurt und Eygelshoven die **Combahton** DDoS Protection mit **Corebackbone** Vorfilterung ein. Dabei profitieren unsere Kunden von einer dynamischen und stark optimierten DDoS Protection, insbesondere bei Services wie "Gameserver" und "Teamspeak Server".
+Seit Dezember 2019 setzen wir in Frankfurt und Eygelshoven die **Aurologic** DDoS Protection mit **Corebackbone** Vorfilterung ein. Dabei profitieren unsere Kunden von einer dynamischen und stark optimierten DDoS Protection, insbesondere bei Services wie "Gameserver" und "Teamspeak Server".
 An diesem Standort bieten wir darüberhinaus einen **DDoS Manager** für jeden Server an.
 
 
@@ -135,7 +135,7 @@ Zum Einsatz kommt eigene Netzwerkhardware (Juniper QFX5100 Switches) mit 40G QSF
 
 **DDoS Protection:**
 
-Wir setzen hier auf eigene Filter-Hardware, wobei die für game-server stark optimierte Protection Software von "Combahton" verwendet wird. Die Software wird seit 2019 an unserem Hauptstandort in Frankfurt am Main, Deutschland in enger Kooperation mit Combahton weiterentwickelt und verbessert. Damit können wir eines der besten Game-server DDoS Protections auf dem Markt anbieten.
+Wir setzen hier auf eigene Filter-Hardware, wobei die für game-server stark optimierte Protection Software von "Aurologic" verwendet wird. Die Software wird seit 2019 an unserem Hauptstandort in Frankfurt am Main, Deutschland in enger Kooperation mit Aurologic weiterentwickelt und verbessert. Damit können wir eines der besten Game-server DDoS Protections auf dem Markt anbieten.
 
 
 
@@ -190,7 +190,7 @@ Zum Einsatz kommt eigene Netzwerkhardware (Juniper QFX5100 Switches) mit 40G QSF
 
 **DDoS Protection:**
 
-Wir setzen hier auf eigene Filter-Hardware, wobei die für game-server stark optimierte Protection Software von "Combahton" verwendet wird. Die Software wird seit 2019 an unserem Hauptstandort in Frankfurt am Main, Deutschland in enger Kooperation mit Combahton weiterentwickelt und verbessert. Damit können wir eines der besten Game-server DDoS Protections auf dem Markt anbieten.
+Wir setzen hier auf eigene Filter-Hardware, wobei die für game-server stark optimierte Protection Software von "Aurologic" verwendet wird. Die Software wird seit 2019 an unserem Hauptstandort in Frankfurt am Main, Deutschland in enger Kooperation mit Aurologic weiterentwickelt und verbessert. Damit können wir eines der besten Game-server DDoS Protections auf dem Markt anbieten.
 
 
 
