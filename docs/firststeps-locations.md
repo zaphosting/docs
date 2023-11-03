@@ -63,7 +63,7 @@ Especially HP C7000 G3 ProLiant blade systems with 16x HP G8/G9 blades with 2x E
 
 
 **DDoS Protection:**
-Since December 2019, we have been using the **Combahton** DDoS Protection with **Corebackbone** pre-filtering in Frankfurt and Eygelshoven. Customers benefit from a dynamic and highly optimized DDoS protection, especially for services like "Gameserver" and "Teamspeak Server". We also offer a **DDoS Manager** for each server at this location.
+Since December 2019, we have been using the **Aurologic** DDoS Protection with **Corebackbone** pre-filtering in Frankfurt and Eygelshoven. Customers benefit from a dynamic and highly optimized DDoS protection, especially for services like "Gameserver" and "Teamspeak Server". We also offer a **DDoS Manager** for each server at this location.
 
 
 
@@ -133,7 +133,7 @@ We use our own network hardware (Juniper QFX5100 switches) with 40G QSFP+ uplink
 
 **DDoS Protection:**
 
-Since December 2019, we have been using the **Combahton** DDoS Protection with **Corebackbone** pre-filtering in Frankfurt and Eygelshoven. Customers benefit from a dynamic and highly optimized DDoS protection, especially for services like "Gameserver" and "Teamspeak Server". We also offer a **DDoS Manager** for each server at this location.
+Since December 2019, we have been using the **Aurologic** DDoS Protection with **Corebackbone** pre-filtering in Frankfurt and Eygelshoven. Customers benefit from a dynamic and highly optimized DDoS protection, especially for services like "Gameserver" and "Teamspeak Server". We also offer a **DDoS Manager** for each server at this location.
 
 
 
@@ -188,7 +188,7 @@ We use our own network hardware (Juniper QFX5100 switches) with 40G QSFP+ uplink
 
 **DDoS Protection:**
 
-Since December 2019, we have been using the **Combahton** DDoS Protection with **Corebackbone** pre-filtering in Frankfurt and Eygelshoven. Customers benefit from a dynamic and highly optimized DDoS protection, especially for services like "Gameserver" and "Teamspeak Server". We also offer a **DDoS Manager** for each server at this location.
+Since December 2019, we have been using the **Aurologic** DDoS Protection with **Corebackbone** pre-filtering in Frankfurt and Eygelshoven. Customers benefit from a dynamic and highly optimized DDoS protection, especially for services like "Gameserver" and "Teamspeak Server". We also offer a **DDoS Manager** for each server at this location.
 
 
 
