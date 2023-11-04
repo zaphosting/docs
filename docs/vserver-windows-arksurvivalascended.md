@@ -9,7 +9,7 @@ Do you have a Windows VPS or rootserver and you want to install an ARK: Survival
 
 ## Preparation
 
-To begin with, connect to your VPS or rootserver through Remote Desktop (RDP). Use our [RDP Initial Access](https://zap-hosting.com/guides/docs/vserver-windows-userdp) guide if you need help doing this.
+To begin with, connect to your VPS or rootserver through Remote Desktop (RDP). Use our [RDP Initial Access](vserver-windows-userdp.md) guide if you need help doing this.
 
 Once you have accessed your server, you will need to setup **SteamCMD** in order to be able to download the necessary dedicated server files. SteamCMD is the **command-line (CLI)** version of the Steam client and is the tool which allows you to easily download a range of Steam workshop and dedicated server files. Download [SteamCMD from the official Valve website](https://developer.valvesoftware.com/wiki/SteamCMD) or directly [here](https://steamcdn-a.akamaihd.net/client/installer/steamcmd.zip).
 
@@ -77,7 +77,7 @@ You must create new rules for your Ark: Survival Ascended server. To do this, cl
 - UDP incoming and outgoing: 27015
 - UDP incoming and outgoing: 7777-7778
 
-Please use our [Windows port forwarding guide](https://zap-hosting.com/guides/docs/vserver-windows-port) if you need further assistance doing this.
+Please use our [Windows port forwarding guide](vserver-windows-port.md) if you need further assistance doing this.
 
 Once you have added these rules, your server will now be accessible which means you will be able to connect to it through your server's IP address. You can do this by opening your in-game console on Ark: Survival Ascended and running `open [your_ip_address]:7777`.
 
