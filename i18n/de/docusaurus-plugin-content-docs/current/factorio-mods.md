@@ -23,7 +23,7 @@ Auf der Seite hast du die Möglichkeit, verschiedene Filter anzuwenden. So kanns
 
 ### Mods hinzufügen
 
-Nachdem du dich für deine Wunschmods entschieden und diese heruntergeladen hast, können wir mit dem Installieren der Mods beginnen. Dafür müssen die Mods auf den Server hochgeladen werden. Um Dateien auf deinen Server hochladen zu können, benötigst du einen FTP-Client. Falls du noch nicht weißt, was FTP ist und wie es funktioniert, dann schaue dir am besten die folgende Anleitung an: [FTP Dateizugriff](https://zap-hosting.com/guides/docs/de/gameserver_ftpaccess/)
+Nachdem du dich für deine Wunschmods entschieden und diese heruntergeladen hast, können wir mit dem Installieren der Mods beginnen. Dafür müssen die Mods auf den Server hochgeladen werden. Um Dateien auf deinen Server hochladen zu können, benötigst du einen FTP-Client. Falls du noch nicht weißt, was FTP ist und wie es funktioniert, dann schaue dir am besten die folgende Anleitung an: [FTP Dateizugriff](gameserver-ftpaccess.md)
 
 ![image](https://user-images.githubusercontent.com/26007280/189889840-a14f9b85-9189-4c5a-8070-5c01f64d64c5.png)
 

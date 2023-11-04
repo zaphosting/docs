@@ -21,7 +21,7 @@ On this site you have the possibility to apply different filters. For example, y
 
 ### Add mods
 
-Once you have chosen your desired mods and downloaded them, you can start installing the mods. You have to upload the mods to the server. To upload files to your server you need a FTP client. If you don't know what FTP is and how it works, please have a look at the following guide: [FTP file access](https://zap-hosting.com/guides/docs/en/gameserver_ftpaccess/)
+Once you have chosen your desired mods and downloaded them, you can start installing the mods. You have to upload the mods to the server. To upload files to your server you need a FTP client. If you don't know what FTP is and how it works, please have a look at the following guide: [FTP file access](gameserver-ftpaccess.md)
 
 ![image](https://user-images.githubusercontent.com/26007280/189889973-cf42319a-e2e4-4f7a-b4d9-df07e16f1a6f.png)
 

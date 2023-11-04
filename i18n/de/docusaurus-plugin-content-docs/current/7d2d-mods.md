@@ -30,7 +30,7 @@ Zunächst einmal müssen die Mods heruntergeladen werden, die auf dem Server ins
 
 ## Installation
 
-Nun wenn die gewünschten Mods heruntergeladen wurden, dann kann mit der eigentlichen Installation der Mods begonnen werden. Die Einrichtung der Mods erfolgt per FTP. Um Dateien auf deinen Server hochladen zu können, benötigst du einen FTP-Client. Falls du noch nicht weißt, was FTP ist und wie es funktioniert, dann schaue dir am besten die folgende Anleitung an: [FTP Dateizugriff](https://zap-hosting.com/guides/docs/de/gameserver_ftpaccess/)
+Nun wenn die gewünschten Mods heruntergeladen wurden, dann kann mit der eigentlichen Installation der Mods begonnen werden. Die Einrichtung der Mods erfolgt per FTP. Um Dateien auf deinen Server hochladen zu können, benötigst du einen FTP-Client. Falls du noch nicht weißt, was FTP ist und wie es funktioniert, dann schaue dir am besten die folgende Anleitung an: [FTP Dateizugriff](gameserver-ftpaccess.md)
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/9Q86iArComw55cH/preview)
 

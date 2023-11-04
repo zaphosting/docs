@@ -17,7 +17,7 @@ Once on the side of the tool, the required information can usually be determined
 ## Open Config Files
 
 There are two ways to edit the files on a server.
-One would way would be possible using [FTP](https://zap-hosting.com/guides/docs/en/gameserver_ftpaccess/).
+One would way would be possible using [FTP](gameserver-ftpaccess.md).
 
 The other way would be using the Config Editor in the web interface itself. 
 In this case we use the built-in editor of the web interface. To do this, the menu item "Configs" must be opened in the left sidebar of the server under the "Settings" tab.

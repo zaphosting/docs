@@ -8,7 +8,7 @@ sidebar_label: Landwirtschafts-Simulator 2019
 # Installation eines Dedizierter Servers für den Landwirtschafts-Simulator 2019
 
 :::info
-Diese Anleitung gilt auch für einen Dedizierter Server von ZAP-Hosting mit Windowsserver 2016/2019. Wie Windows auf einem dedizierten Server installiert werden kann, erklären wir [hier](https://zap-hosting.com/guides/docs/de/dedicated_windows/).
+Diese Anleitung gilt auch für einen Dedizierter Server von ZAP-Hosting mit Windowsserver 2016/2019. Wie Windows auf einem dedizierten Server installiert werden kann, erklären wir [hier](dedicated-windows.md).
 :::
 
 ## Basic Informationen: 
@@ -30,7 +30,7 @@ Wichtig: In der Mail befindet sich der Spiellizenz, der zum Download als auch zu
 
 ## Schritt 2 Download des Landwirtschafts-Simulators direkt auf deinen Windows Server
 
-Verbinde dich via RDP [RDP](https://zap-hosting.com/guides/docs/de/vserver_windows_userdp/) zu deinem Windowsserver. Nachdem du verbunden bist, öffne den Browser und rufe erneut den [Link](https://eshop.giants-software.com/downloads.php) aus der Mail auf. Gebe dort dann deine Spiellizenz ein und wähle dann den Download für Windows8/10. 
+Verbinde dich via RDP [RDP](vserver-windows-userdp.md) zu deinem Windowsserver. Nachdem du verbunden bist, öffne den Browser und rufe erneut den [Link](https://eshop.giants-software.com/downloads.php) aus der Mail auf. Gebe dort dann deine Spiellizenz ein und wähle dann den Download für Windows8/10. 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/YaSo85pefHf5r5n/preview)
 
@@ -87,6 +87,6 @@ Die weitere Konfiguration ist im Webinterface selbsterklärend und kann mit weni
 ## Schritt 5 Ports freischalten in der Firewall
 
 Der Server soll natürlich öffentlich erreichbar sein, um mit Freunden spielen zu können. Dazu müssen die Ports des Servers in der Windows Firewall freigeschaltet werden. Es müssen die Ports 10823 und 8080 freigegeben werden für das Protokoll TCP. 10823 ist dabei der Spielserver-Port und 8080 ist der Webport für das Webinterface, der Webport muss nur bei Bedarf freigegeben werden, eine Verwaltung kann auch weiterhin nur lokal auf dem Windows Server erfolgen via RDP. 
-Wie Ports bei Windows freigeschaltet werden können, [erklären wir in diesem Guide](https://zap-hosting.com/guides/docs/de/vserver_windows_port/). 
+Wie Ports bei Windows freigeschaltet werden können, [erklären wir in diesem Guide](vserver-windows-port.md). 
 
 Nach der Port Freigabe ist der Server öffentlich erreichbar, sofern er gestartet wurde. 

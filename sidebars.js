@@ -509,8 +509,7 @@ const sidebars = {
           type: "category",
           label: "First Steps",
           items: [
-            "scp-firststeps-connect",
-            "scp-firststeps-dashboard"
+            "scp-firststeps-connect"
           ]
         },		
         "scp-becomeadmin",

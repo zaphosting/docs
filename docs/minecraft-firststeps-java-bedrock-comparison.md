@@ -34,7 +34,7 @@ Be careful whilst using the snapshot/beta versions of the respective game, as yo
 
 ## Multiplayer
 
-Do you want to have a 24/7 open world you and others can play on? Both Minecraft versions support hosting so-called "game servers" for you to enjoy, though they have different menus and options to go through. Please refer to [this guide for connecting](https://zap-hosting.com/guides/docs/minecraft-firststeps-connect) if you have issues regarding this. Don't have a server yet? ZAP-Hosting has got you covered with [high-quality Minecraft servers ready in 60 seconds](https://zap-hosting.com/en/shop/product/cloud-gameserver/minecraft/)! We offer game servers for both Minecraft versions.
+Do you want to have a 24/7 open world you and others can play on? Both Minecraft versions support hosting so-called "game servers" for you to enjoy, though they have different menus and options to go through. Please refer to [this guide for connecting](minecraft-firststeps-connect) if you have issues regarding this. Don't have a server yet? ZAP-Hosting has got you covered with [high-quality Minecraft servers ready in 60 seconds](https://zap-hosting.com/en/shop/product/cloud-gameserver/minecraft)! We offer game servers for both Minecraft versions.
 
 ## Customization and Modding
 

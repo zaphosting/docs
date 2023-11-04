@@ -18,7 +18,7 @@ Here you can find an example of how you can get your steamid by inputting your p
 ## Configure adminconfig
 
 The "**adminconfig.yaml**" which must be edited is located in the "**Saves**" directory.
-To open this directory, the instructions for the [FTP connection](https://zap-hosting.com/guides/docs/en/gameserver_ftpaccess) must be followed.
+To open this directory, the instructions for the [FTP connection](gameserver-ftpaccess.md) must be followed.
 
 ![image](https://user-images.githubusercontent.com/26007280/189930998-9c22c865-d2fb-4a6d-8cd9-e039cac8ff81.png)
 

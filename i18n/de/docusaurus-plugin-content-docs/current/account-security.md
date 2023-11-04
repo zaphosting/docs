@@ -38,7 +38,7 @@ Tipp: Bei [haveibeenpwned](https://haveibeenpwned.com/) kannst du unter Angabe d
 
 ## Account Einstellungen
 
-Neben der [2-Factor Authentication](https://zap-hosting.com/guides/docs/de/account_2factor/) kannst du im Reiter [Sicherheit](https://zap-hosting.com/de/customer/home/security/) in deinem Account auch OneClick Login deaktivieren. In einigen E-Mails versenden wir Links, durch die du per Klick eingeloggt wirst und direkt zur relevanten Seite im jeweiligen Kontext geleitet wirst. Grundsätzlich versendet man keine sensiblen Informationen per E-Mail. Entsprechend ist es für Accounts mit Zugriff zu wichtigen Diensten sinnvoll, die Funktion gegebenenfalls auszuschalten.
+Neben der 2-Factor Authentication kannst du im Reiter [Sicherheit](https://zap-hosting.com/de/customer/home/security) in deinem Account auch OneClick Login deaktivieren. In einigen E-Mails versenden wir Links, durch die du per Klick eingeloggt wirst und direkt zur relevanten Seite im jeweiligen Kontext geleitet wirst. Grundsätzlich versendet man keine sensiblen Informationen per E-Mail. Entsprechend ist es für Accounts mit Zugriff zu wichtigen Diensten sinnvoll, die Funktion gegebenenfalls auszuschalten.
 
 ## Ich wurde gehackt
 

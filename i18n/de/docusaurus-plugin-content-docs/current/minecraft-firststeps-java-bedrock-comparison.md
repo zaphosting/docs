@@ -44,7 +44,7 @@ Vorsicht bei der Verwendung der Snapshot-/Beta-Versionen des jeweiligen Spiels, 
 
 ## Multiplayer
 
-Möchtest du eine rund um die Uhr geöffnete Welt haben, in der du und andere spielen können? Beide Minecraft-Versionen unterstützen das Hosten von sogenannten "Gameservern", die du nutzen kannst, obwohl sie unterschiedliche Menüs und Optionen haben. Bitte lies [diese Anleitung zum Verbinden] (https://zap-hosting.com/guides/docs/minecraft-firststeps-connect), wenn du diesbezüglich Probleme hast. Du hast noch keinen Server? ZAP-Hosting bietet dir [hochwertige Minecraft-Server, die in 60 Sekunden bereit sind](https://zap-hosting.com/en/shop/product/cloud-gameserver/minecraft/)! Wir bieten Gameserver für beide Minecraft-Versionen an.
+Möchtest du eine rund um die Uhr geöffnete Welt haben, in der du und andere spielen können? Beide Minecraft-Versionen unterstützen das Hosten von sogenannten "Gameservern", die du nutzen kannst, obwohl sie unterschiedliche Menüs und Optionen haben. Bitte lies [diese Anleitung zum Verbinden] (minecraft-firststeps-connect), wenn du diesbezüglich Probleme hast. Du hast noch keinen Server? ZAP-Hosting bietet dir [hochwertige Minecraft-Server, die in 60 Sekunden bereit sind](https://zap-hosting.com/en/shop/product/cloud-gameserver/minecraft)! Wir bieten Gameserver für beide Minecraft-Versionen an.
 
 
 

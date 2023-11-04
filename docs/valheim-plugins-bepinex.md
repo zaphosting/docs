@@ -8,7 +8,7 @@ sidebar_label: Install plugins (BepInEx)
 ## Using plugins with BepInEx
 
 To use **BepInEx*** compatible plugins in Valheim you first need to install **Valheim Plus** on your server. 
-You can make this change for free, here you can find a tutorial: [Game Change](https://zap-hosting.com/guides/docs/en/gameserver_gameswitch/).
+You can make this change for free, here you can find a tutorial: [Game Change](gameserver-gameswitch.md).
 
 :::info
 ATTENTION: Valheim Plus must also be installed on your PC. Here you can find the download for Valheim Plus: [Valheim Plus Download](https://www.nexusmods.com/valheim/mods/4).
@@ -22,7 +22,7 @@ ATTENTION: Valheim Plus must also be installed on your PC. Here you can find the
 You can usually see information about the compatibility when downloading a plugin.
 :::
 
-To install mods on your Valheim Plus server you first have to connect to it via **FTP**, how to do that you can read here: [FTP file access](https://zap-hosting.com/guides/docs/en/gameserver_ftpaccess/).
+To install mods on your Valheim Plus server you first have to connect to it via **FTP**, how to do that you can read here: [FTP file access](gameserver-ftpaccess.md).
 There you navigate to the following directory: **/gxxxxxx/valheim-linux-plus/BepInEx/plugins**
 In this directory you can upload your plugins, these consist mostly of one **.dll** file or of several files.
 

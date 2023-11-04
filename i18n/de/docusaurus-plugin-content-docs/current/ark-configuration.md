@@ -339,7 +339,7 @@ Dieser Befehl bestimmt, die Entfernung zwischen Spielern und Ressourcen, in der 
 
 **ServerAdminPassword**
 
-Dieser Befehl bestimmt das Passwort zum einloggen als Admin. Mehr dazu findest du in unserer Anleitung:  [ARK - Admin werden](https://zap-hosting.com/guides/docs/de/ark_becomeadmin/)
+Dieser Befehl bestimmt das Passwort zum einloggen als Admin. Mehr dazu findest du in unserer Anleitung:  [ARK - Admin werden](ark-becomeadmin.md)
 
 | Datentyp | Standardwert | Wertebereich |
 | :------: | :----------: | :----------: |

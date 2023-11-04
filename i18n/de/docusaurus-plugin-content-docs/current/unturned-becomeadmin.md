@@ -16,7 +16,7 @@ Zudem wird die jeweilige Steam-ID (64er) benötigt, sodass der Server den Spiele
 ## Konfigurationsdateien öffnen
 
 Es gibt zwei Möglichkeiten die Dateien eines Servers bearbeiten zu können.
-Zum einen wäre dies via [FTP](https://zap-hosting.com/guides/docs/de/gameserver_ftpaccess/) möglich und einmal durch den Config-Editor im Webinterface selbst.
+Zum einen wäre dies via [FTP](gameserver-ftpaccess.md) möglich und einmal durch den Config-Editor im Webinterface selbst.
 
 In diesem Fall verwenden wir den eingebauten Editor des Webinterfaces.
 Hierzu muss in der linken Sidebar des Servers unter dem Reiter "Einstellungen" der Menü-Punkt "Configs" geöffnet werden.

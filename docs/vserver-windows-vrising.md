@@ -8,7 +8,7 @@ sidebar_label: V-Rising
 # Installing a dedicated server for V-Rising
 
 :::info
-:information_source: These instructions are also valid for a Dedicated Server from ZAP-Hosting with Windows Server 2016/2019. How to install Windows on a Dedicated Server we explain [here](https://zap-hosting.com/guides/docs/en/dedicated_windows/).
+:information_source: These instructions are also valid for a Dedicated Server from ZAP-Hosting with Windows Server 2016/2019. How to install Windows on a Dedicated Server we explain [here](dedicated-windows.md).
 :::
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/to2ghqNpGLA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -18,7 +18,7 @@ A server based on Windows Server 2016/2019 with at least 4x 2.4 GHz CPU (AMD/Int
 
 ## Step 1 Create a folder for V-Rising
 
-First, you need to connect to your server by using [RDP](https://zap-hosting.com/guides/docs/en/vserver_windows_userdp/). After you are connected, you need to create a new Folder on your Server in which the files for V-Rising will be installed.
+First, you need to connect to your server by using [RDP](vserver-windows-userdp.md). After you are connected, you need to create a new Folder on your Server in which the files for V-Rising will be installed.
 In this example, we will create a new Folder on our Desktop.
 This can be done by making a right mousclick.
 Then choose "New -> Folder".
@@ -115,6 +115,6 @@ If the ports were forwarded correctly in the next step, you can find the Server 
 ## Step 5 Unlock ports in the firewall
 
 The server should of course be publicly accessible to play with friends. For this purpose, the ports of the server must be enabled in the Windows firewall. The ports 9876 and 9877 must be released for the protocol TCP AND UDP. 9876 is the game server port and 9877  is the Query Port.
-How to enable ports on Windows, [we explain in this guide](https://zap-hosting.com/guides/docs/en/vserver_windows_port/). 
+How to enable ports on Windows, [we explain in this guide](vserver-windows-port.md). 
 
 After the port release the server is publicly accessible, if it was started. 

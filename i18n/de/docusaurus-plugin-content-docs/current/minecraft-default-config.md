@@ -89,7 +89,7 @@ Wir empfehlen RCON zu deaktivieren, um Eingriffe von unbefugten vorzubeugen.
 ### op-permission-level
 
 Hier kann das standardmäßige OP-Level festgelegt werden, welches einem neuen Operator zu Anfang zugeteilt werden soll.
-Die jeweiligen Level und die einzelne Vergabe je Spieler wird [hier](https://docs.zap-hosting.com/docs/de/minecraft_addop/) genauer von uns beschrieben.
+Die jeweiligen Level und die einzelne Vergabe je Spieler wird [hier](https://docs.zap-hosting.com/docs/de/minecraft-addop.md/) genauer von uns beschrieben.
 
 ### enable-query
 
