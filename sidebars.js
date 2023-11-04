@@ -755,7 +755,7 @@ const sidebars = {
       type: 'category',
       label: 'First Steps',
       items: [
-        'vserver-root-difference',
+        'vserver-root-unterschied',
         'vserver-vnc',
         'vserver-network-analysis-winmtr',		
       ],

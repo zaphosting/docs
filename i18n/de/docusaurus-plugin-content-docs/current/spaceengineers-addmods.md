@@ -64,7 +64,7 @@ Im Anschluss fügen wir folgenden Inhalt ein:
 
 `<Mods></Mods>`
 
-Sobald der Inhalt eingefügt ist, gehen wir mit dem Cursor zwischen ">" & "<" und drücken dann einmal ENTER.
+Sobald der Inhalt eingefügt ist, gehen wir mit dem Cursor zwischen "&gt;" & "&lt;" und drücken dann einmal ENTER.
 Damit wird automatisch die korrekte Sytnax genutzt und wir können fortfahren.
 
 ![image](https://user-images.githubusercontent.com/26007280/189891046-4d7a5975-e815-4189-8f22-a5faaa29a375.png)

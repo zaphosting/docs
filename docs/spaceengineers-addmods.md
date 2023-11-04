@@ -53,7 +53,7 @@ There is already a mod area in the config, which is at the end of the config. We
 
 `<Mods></Mods>`
 
-As soon as the content is inserted, we move the cursor between "\>" & "\<" and then press ENTER once. This will automatically use the correct Sytnax and we can continue.
+As soon as the content is inserted, we move the cursor between "&gt;" & "&lt;" and then press ENTER once. This will automatically use the correct Sytnax and we can continue.
 
 ![image](https://user-images.githubusercontent.com/26007280/189900206-9be3ff6f-1fb3-4ce8-828a-e5a000589738.png)
 
