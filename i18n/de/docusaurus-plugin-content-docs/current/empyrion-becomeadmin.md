@@ -18,7 +18,7 @@ Hier ist ein Beispiel zu sehen, wie die Steam64ID lokalisiert wird.
 ## Admin Konfig konfigurieren
 
 Die "**adminconfig.yaml**" welche bearbeitet werden muss befindet sich in dem "**Saves**" Verzeichnis.
-Um dieses Verzeichnis zu öffnen, muss die Anleitung für die [FTP-Verbindung](https://zap-hosting.com/guides/docs/de/gameserver_ftpaccess) befolgt werden.
+Um dieses Verzeichnis zu öffnen, muss die Anleitung für die [FTP-Verbindung](gameserver-ftpaccess.md) befolgt werden.
 
 ![image](https://user-images.githubusercontent.com/26007280/189930662-f57fd04f-449b-41c8-80e7-ac6562c00380.png)
 

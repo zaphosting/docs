@@ -11,8 +11,10 @@ const Search = props => {
   const [indexReady, setIndexReady] = useState(false);
   const history = useHistory();
   const { siteConfig = {} } = useDocusaurusContext();
+  const pluginConfig = (siteConfig.plugins || []).find(plugin => Array.isArray(plugin) && typeof plugin[0] === "string" && plugin[0].includes("docusaurus-lunr-search"))
   const isBrowser = useIsBrowser();
   const { baseUrl } = siteConfig;
+  const assetUrl = pluginConfig && pluginConfig[1]?.assetUrl || baseUrl;
   const initAlgolia = (searchDocs, searchIndex, DocSearch, options) => {
     new DocSearch({
       searchDocs,
@@ -27,6 +29,8 @@ const Search = props => {
         // Alternatively, we can use new URL(suggestion.url) but its not supported in IE
         const a = document.createElement("a");
         a.href = url;
+        _input.setVal(''); // clear value
+        _event.target.blur(); // remove focus
 
         // Get the highlight word from the suggestion.
         let wordToHighlight = '';
@@ -54,12 +58,12 @@ const Search = props => {
   const pluginData = usePluginData('docusaurus-lunr-search');
   const getSearchDoc = () =>
     process.env.NODE_ENV === "production"
-      ? fetch(`${baseUrl}${pluginData.fileNames.searchDoc}`).then((content) => content.json())
-      : Promise.resolve([]);
+      ? fetch(`${assetUrl}${pluginData.fileNames.searchDoc}`).then((content) => content.json())
+      : Promise.resolve({});
 
   const getLunrIndex = () =>
     process.env.NODE_ENV === "production"
-      ? fetch(`${baseUrl}${pluginData.fileNames.lunrIndex}`).then((content) => content.json())
+      ? fetch(`${assetUrl}${pluginData.fileNames.lunrIndex}`).then((content) => content.json())
       : Promise.resolve([]);
 
   const loadAlgolia = () => {
@@ -71,7 +75,7 @@ const Search = props => {
         import("./algolia.css")
       ]).then(([searchDocFile, searchIndex, { default: DocSearch }]) => {
         const { searchDocs, options } = searchDocFile;
-        if (searchDocs.length === 0) {
+        if (!searchDocs || searchDocs.length === 0) {
           return;
         }
         initAlgolia(searchDocs, searchIndex, DocSearch, options);
@@ -111,7 +115,7 @@ const Search = props => {
       <input
         id="search_input_react"
         type="search"
-        placeholder={indexReady ? 'Search' : 'Loading...'}
+        placeholder={indexReady ? 'Search Ctrl+K' : 'Loading...'}
         aria-label="Search"
         className={clsx(
           "navbar__search-input",

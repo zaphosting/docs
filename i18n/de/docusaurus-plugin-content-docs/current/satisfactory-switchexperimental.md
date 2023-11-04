@@ -20,7 +20,7 @@ Deinen gesamten Gameserver oder deine Gamesaves zu sichern, ist ganz einfach. Ge
 
 ![Screenshot 2023-02-21 192618](https://user-images.githubusercontent.com/42719082/220439833-3b8f24d4-75bd-42f2-84a5-df59206497e4.png)
 
-Auf dieser Seite kannst du eine Vielzahl von Funktionen ausführen, darunter auch automatische Backups, die [auf dieser Seite](https://zap-hosting.com/guides/docs/en/gameserver_backups/) näher erläutert werden. Hier konzentrieren wir uns auf eine manuelle Sicherung.
+Auf dieser Seite kannst du eine Vielzahl von Funktionen ausführen, darunter auch automatische Backups, die [auf dieser Seite](gameserver-backups.md) näher erläutert werden. Hier konzentrieren wir uns auf eine manuelle Sicherung.
 
 Drücke oben auf der Seite einfach auf das grüne + Symbol und akzeptiere die Aufforderung, ein Backup des gesamten Gameservers auf deinem ZAP-Backup-Speicher zu erstellen.
 

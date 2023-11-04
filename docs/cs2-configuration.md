@@ -37,7 +37,7 @@ At the settings page you can adjust basic settings for the GSL token, gametype/g
 
 Gameserver Login Tokens (GSLTs) is a procedure that Steam has implemented as a protective measure. To run gameservers of certain Steam Games (mainly source games) it is necessary to generate a token. More detailed information can be found here:
 
-[Gameserver Login Token](https://zap-hosting.com/guides/docs/en/source_gsltoken/)
+[Gameserver Login Token](source-gsltoken.md)
 
 
 

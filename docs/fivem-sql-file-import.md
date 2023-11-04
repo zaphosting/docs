@@ -57,7 +57,7 @@ You should now access the **Database** section on your gameserver webinterface.
 
 ![image](https://github.com/zaphosting/docs/assets/42719082/83ba522a-929e-4a90-8c9e-0badc2d779d4)
 
-On the database page, you will be provided with a range of different functions to manage your database including the options to backup, create, manage and more. We will focus on accessing your database, however take a look at our other database guides if you want more information: [Setting up external DB access](https://zap-hosting.com/guides/docs/gameserver-database-external-access/).
+On the database page, you will be provided with a range of different functions to manage your database including the options to backup, create, manage and more. We will focus on accessing your database, however take a look at our other database guides if you want more information: [Setting up external DB access](gameserver-database-external-access.md).
 
 You should press the blue redirect icon which will take you to the tool **phpmyadmin** where you can easily access your database. Login with the credentials that were provided on the database page if you are prompted.
 

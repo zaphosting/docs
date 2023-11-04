@@ -28,7 +28,7 @@ This character is only used to be able to distinguish between a normal chat mess
 
 ### Rights / Permissions
 
-To be able to use commands, the necessary rights are required. In Minecraft-Vanilla or Forge there is no real permission system that can be used by plugins like in Spigot. Here only the level system of the OP-rights can be used. Here you can find a tutorial about the OP-rights system:  [*Klick*](https://zap-hosting.com/guides/docs/de/minecraft_addop/#rechte-level)
+To be able to use commands, the necessary rights are required. In Minecraft-Vanilla or Forge there is no real permission system that can be used by plugins like in Spigot. Here only the level system of the OP-rights can be used. Here you can find a tutorial about the OP-rights system:  [*Klick*](minecraft-addop.md#rechte-level)
 
 If a permission system has been installed and it is desired to assign rights to certain Minecraft commands, the respective permissions can be assigned as described below.
 

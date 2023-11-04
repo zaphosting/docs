@@ -73,7 +73,7 @@ Commands can be executed from anywhere in the console using RCON. A password is 
 
 ### op-permission-level
 
-The standard OP level can be specified here, which should be assigned to a new operator at the beginning. The respective level and the individual allocation per player is [here](https://docs.zap-hosting.com/docs/en/minecraft_addop/) described in more detail by us.
+The standard OP level can be specified here, which should be assigned to a new operator at the beginning. The respective level and the individual allocation per player is [here](https://docs.zap-hosting.com/docs/en/minecraft-addop.md/) described in more detail by us.
 
 ### enable-query
 

@@ -31,7 +31,7 @@ Es werden die Linux Pakete **AMX Mod X Base, Counter-Strike Addon und Metamod** 
 
 ### Installation
 
-Wenn die oben genannten Schritte abgeschlossen sind, dann geht es an die eigentliche Installation. Die Dateien müssen per FTP auf deinen Server hochgeladen werden. Um Dateien auf deinen Server hochladen zu können benötigst du einen FTP-Client. Falls du noch nicht weißt, was FTP ist und wie es funktioniert, dann schaue dir am besten die folgende Anleitung an: [FTP Dateizugriff](https://zap-hosting.com/guides/docs/de/gameserver_ftpaccess/)
+Wenn die oben genannten Schritte abgeschlossen sind, dann geht es an die eigentliche Installation. Die Dateien müssen per FTP auf deinen Server hochgeladen werden. Um Dateien auf deinen Server hochladen zu können benötigst du einen FTP-Client. Falls du noch nicht weißt, was FTP ist und wie es funktioniert, dann schaue dir am besten die folgende Anleitung an: [FTP Dateizugriff](gameserver-ftpaccess.md)
 
 
 

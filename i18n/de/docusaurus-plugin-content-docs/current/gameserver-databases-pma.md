@@ -10,7 +10,7 @@ sidebar_label: PHPMyAdmin
 ## Einführung
 
 Mit phpMyAdmin können MySQL Datenbanken schnell und einfach über eine Art Webinterface verwaltet werden.
-Bei den Gameserver Produkten bietet ZAP-Hosting MySQL Datenbanken inklusive an. Diese können sowohl mittels phpMyAdmin als auch über externen MySQL-Verwaltungsprogrammen wie zum Beispiel Navicat oder HeidiSQL verwaltet werden. Hier halten wir ebenfalls einen Eintrag in unserer Dokumentation bereit, welcher [hier](https://zap-hosting.com/guides/docs/de/gameserver_database_external_access/) gefunden werden kann.
+Bei den Gameserver Produkten bietet ZAP-Hosting MySQL Datenbanken inklusive an. Diese können sowohl mittels phpMyAdmin als auch über externen MySQL-Verwaltungsprogrammen wie zum Beispiel Navicat oder HeidiSQL verwaltet werden. Hier halten wir ebenfalls einen Eintrag in unserer Dokumentation bereit, welcher [hier](gameserver-database-external-access.md) gefunden werden kann.
 
 ## Anmeldung in PhpMyAdmin
 

@@ -138,10 +138,10 @@ Zu deinem Produkt bieten wir ebenfalls weitere Anleitungen an. Das beinhaltet be
 
 | Anleitungen            | Seite                                                        |
 | ---------------------- | ------------------------------------------------------------ |
-| Zum Server verbinden   | [Anleitung aufrufen](https://zap-hosting.com/guides/docs/de/satisfactory_connect_experimental) |
-| SaveGame-Manager       | [Anleitung aufrufen](https://zap-hosting.com/guides/docs/de/satisfactory_savegame) |
-| Experimentelle Version | [Anleitung aufrufen](https://zap-hosting.com/guides/docs/de/satisfactory_switchexperimental) |
-| Konsolen-Befehle       | [Anleitung aufrufen](https://zap-hosting.com/guides/docs/de/satisfactory_commands) |
+| Zum Server verbinden   | [Anleitung aufrufen](satisfactory-connect-experimental.md) |
+| SaveGame-Manager       | [Anleitung aufrufen](satisfactory-savegame.md) |
+| Experimentelle Version | [Anleitung aufrufen](satisfactory-switchexperimental.md) |
+| Konsolen-Befehle       | [Anleitung aufrufen](satisfactory-commands.md) |
 <p style={{textAlign: 'center'}}>Liste zuletzt aktualisiert am 01.05.2023</p>
 
 
@@ -183,7 +183,7 @@ Hast du festgestellt, dass einige deiner Änderungen teilweise überschrieben we
 
 ### Spiele
 
-Unter **Spiele** hast du jederzeit die Möglichkeit die Spielvariante deines bestehenden Spiels zu verändern oder generell ein anderes Spiel zu installieren.  Spiele die den gleichen Slotpreis beinhalten kannst du direkt unter **Verfügbare Spiele** auswählen. Für alle weiteren Spiele wird zunächst eine Anpassung des Slotpreises benötigt. Mehr dazu findest du in der [Spielwechsel](https://zap-hosting.com/guides/docs/de/gameserver_gameswitch/) Anleitung. 
+Unter **Spiele** hast du jederzeit die Möglichkeit die Spielvariante deines bestehenden Spiels zu verändern oder generell ein anderes Spiel zu installieren.  Spiele die den gleichen Slotpreis beinhalten kannst du direkt unter **Verfügbare Spiele** auswählen. Für alle weiteren Spiele wird zunächst eine Anpassung des Slotpreises benötigt. Mehr dazu findest du in der [Spielwechsel](gameserver-gameswitch.md) Anleitung. 
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/aXaz2sTDF3LGcrQ/preview)
 
@@ -228,7 +228,7 @@ Im Abschnitt **Werkzeuge** deines Navigationspanels findest du eine Reihe von Un
 
 ### FTP-Browser
 
-Über den **FTP-Browser** erhältst du alle erforderlichen Informationen, um eine Verbindung zum FTP-Zugang herzustellen. Der FTP-Zugang ermöglicht dir einen direkten Zugriff auf die Dateien deines Gameservers. Wir empfehlen die Verwendung eines externen FTP-Programms wie **Filezilla** oder **WinSCP** für eine optimale Nutzung. Wenn du nicht weißt, wie man FTP verwendet, dann kann dir ein Blick in die folgende [Anleitung](https://zap-hosting.com/guides/docs/de/gameserver_ftpaccess/) weiterhelfen.
+Über den **FTP-Browser** erhältst du alle erforderlichen Informationen, um eine Verbindung zum FTP-Zugang herzustellen. Der FTP-Zugang ermöglicht dir einen direkten Zugriff auf die Dateien deines Gameservers. Wir empfehlen die Verwendung eines externen FTP-Programms wie **Filezilla** oder **WinSCP** für eine optimale Nutzung. Wenn du nicht weißt, wie man FTP verwendet, dann kann dir ein Blick in die folgende [Anleitung](gameserver-ftpaccess.md) weiterhelfen.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/aXjfGiX48Yqzy75/preview)
 

@@ -15,7 +15,7 @@ Nginx und Apache sind beliebte Webserver, die verwendet werden, um Webseiten an 
 
 ## Vorbereitung
 
-Bevor die eigentliche Installation eines Webservers begonnen werden kann, muss sichergestellt werden, dass das System auf dem neusten Stand ist. Dafür verbinden wir uns per SSH mit dem Server. Falls du nicht weißt, was SSH ist und wie du es verwendest, dann schaue dir folgende Anleitung an: [Erstzugriff (SSH)](https://zap-hosting.com/guides/docs/de/vserver_linux_ssh/)
+Bevor die eigentliche Installation eines Webservers begonnen werden kann, muss sichergestellt werden, dass das System auf dem neusten Stand ist. Dafür verbinden wir uns per SSH mit dem Server. Falls du nicht weißt, was SSH ist und wie du es verwendest, dann schaue dir folgende Anleitung an: [Erstzugriff (SSH)](vserver-linux-ssh.md)
 
 Dort angekommen kann das System je nach Betriebssystem mit dem folgenden Befehl aktualisiert werden:
 

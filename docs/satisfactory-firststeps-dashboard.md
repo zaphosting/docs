@@ -141,10 +141,10 @@ We also offer guides for your product. This includes for example the following g
 
 | Guide                 | Page                                                         |
 | --------------------- | ------------------------------------------------------------ |
-| Connect to the server | [View guide](https://zap-hosting.com/guides/docs/en/satisfactory_connect_experimental) |
-| Savegame Manager      | [View guide](https://zap-hosting.com/guides/docs/en/satisfactory_savegame) |
-| Experimental Build    | [View guide](https://zap-hosting.com/guides/docs/en/satisfactory_switchexperimental) |
-| Console Commands      | [View guide](https://zap-hosting.com/guides/docs/en/satisfactory_commands) |
+| Connect to the server | [View guide](satisfactory-connect-experimental.md) |
+| Savegame Manager      | [View guide](satisfactory-savegame.md) |
+| Experimental Build    | [View guide](satisfactory-switchexperimental.md) |
+| Console Commands      | [View guide](satisfactory-commands.md) |
 <p style={{textAlign: 'center'}}>List updated last on 01.05.2023</p>
 
 
@@ -186,7 +186,7 @@ Have you noticed that some of your changes are partially overwritten? Please be 
 
 ### Games
 
-Under **Games** you always have the possibility to change the game variant of your existing game or to install another game in general.  Games with the same slot price can be selected directly under **Available Games**. For all other games an adjustment of the slot price is required first. More information about this can be found in the [Game Change](https://zap-hosting.com/guides/docs/en/gameserver_gameswitch/) guide.
+Under **Games** you always have the possibility to change the game variant of your existing game or to install another game in general.  Games with the same slot price can be selected directly under **Available Games**. For all other games an adjustment of the slot price is required first. More information about this can be found in the [Game Change](gameserver-gameswitch.md) guide.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/KjdnstERnnSaKqN/preview)
 
@@ -229,7 +229,7 @@ In the **Tools** section of your navigation panel, you will find a range of sub-
 
 ### FTP-Browser
 
-Using the **FTP Browser**, you will get all the necessary information to establish a connection to the FTP access. The FTP access allows you direct access to the files of your game server. We recommend using an external FTP program such as **Filezilla** or **WinSCP** for optimal use. If you are not familiar with how to use FTP, then taking a look at the following [guide](https://zap-hosting.com/guides/docs/en/gameserver_ftpaccess/) may help you.
+Using the **FTP Browser**, you will get all the necessary information to establish a connection to the FTP access. The FTP access allows you direct access to the files of your game server. We recommend using an external FTP program such as **Filezilla** or **WinSCP** for optimal use. If you are not familiar with how to use FTP, then taking a look at the following [guide](gameserver-ftpaccess.md) may help you.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/sX85i9HyzR9wmAM/preview)
 

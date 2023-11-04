@@ -21,7 +21,7 @@ Du bevorzugst eine Anleitung eher in Form eines Videos oder als zusätzliche vis
 
 
 
-Du möchtest eine eigene oder aus dem Internet heruntergeladene Welt auf deinem Server benutzen? Dann bist du hier genau richtig! Alles, was du dafür benötigst, ist deine Welt und einen FTP-Client. Falls du noch nicht weißt, was ein FTP-Client ist und wie du diesen benutzen kannst, dann schaue am besten in die folgende Anleitung: [FTP-Dateizugriff](https://zap-hosting.com/guides/docs/de/minecraft_add_own_world/)
+Du möchtest eine eigene oder aus dem Internet heruntergeladene Welt auf deinem Server benutzen? Dann bist du hier genau richtig! Alles, was du dafür benötigst, ist deine Welt und einen FTP-Client. Falls du noch nicht weißt, was ein FTP-Client ist und wie du diesen benutzen kannst, dann schaue am besten in die folgende Anleitung: [FTP-Dateizugriff](minecraft-add-own-world.md)
 
 ![image](https://user-images.githubusercontent.com/13604413/159177625-7973671f-19a8-4867-ad10-e41bf04a4ab3.png)
 

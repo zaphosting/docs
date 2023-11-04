@@ -22,7 +22,7 @@ Do you prefer a guide rather in the form of a video or as an additional visual s
 
 
 
-You want to use your own world or a world downloaded from the internet on your server? Then this is the right place for you! All you need is your world and an FTP client. If you don't know what a FTP client is and how to use it, then have a look at the following instructions: [FTP file access](https://zap-hosting.com/guides/docs/de/minecraft_add_own_world/)
+You want to use your own world or a world downloaded from the internet on your server? Then this is the right place for you! All you need is your world and an FTP client. If you don't know what a FTP client is and how to use it, then have a look at the following instructions: [FTP file access](minecraft-add-own-world.md)
 
 ![image](https://user-images.githubusercontent.com/13604413/159177625-7973671f-19a8-4867-ad10-e41bf04a4ab3.png)
 

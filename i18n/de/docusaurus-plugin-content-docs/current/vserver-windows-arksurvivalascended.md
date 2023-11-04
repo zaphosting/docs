@@ -9,7 +9,7 @@ Hast du einen Windows vServer oder Rootserver und möchtest darauf einen ARK: Su
 
 ## Vorbereitung
 
-Um zu beginnen, verbinde dich über Remote Desktop (RDP) mit deinem vServer oder Rootserver. Wenn du dabei Hilfe benötigst, nutze unsere Anleitung [Erstzugriff auf Windows Server mit RDP](https://zap-hosting.com/guides/de/docs/vserver-windows-userdp)
+Um zu beginnen, verbinde dich über Remote Desktop (RDP) mit deinem vServer oder Rootserver. Wenn du dabei Hilfe benötigst, nutze unsere Anleitung [Erstzugriff auf Windows Server mit RDP](vserver-windows-userdp.md)
 
 Sobald du Zugriff auf deinen Server hast, musst du **SteamCMD** einrichten, um die erforderlichen Dateien für den Dedicated Server herunterladen zu können. SteamCMD ist die **command-line (CLI)-Version** des Steam-Clients und das Tool, das es dir ermöglicht, eine Vielzahl von Steam Workshop- und Dateien für dedicated Server einfach herunterzuladen. Lade [SteamCMD von der offiziellen Valve-Website](https://developer.valvesoftware.com/wiki/SteamCMD) herunter oder direkt [hier](https://steamcdn-a.akamaihd.net/client/installer/steamcmd.zip.
 
@@ -77,7 +77,7 @@ Du musst neue Regeln für deinen ARK: Survival Ascended Server erstellen. Klicke
 - UDP eingehend und ausgehend: 27015
 - UDP eingehend und ausgehend: 7777-7778
 
-Wenn du weitere Hilfe bei diesem Vorgang benötigst, nutze unsere Anleitung [Ports bei Windows Servern freigeben](https://zap-hosting.com/guides/de/docs/vserver-windows-port/)
+Wenn du weitere Hilfe bei diesem Vorgang benötigst, nutze unsere Anleitung [Ports bei Windows Servern freigeben](vserver-windows-port.md)
 
 Nachdem du diese Regeln hinzugefügt hast, wird dein Server nun erreichbar sein, was bedeutet, dass du dich über die IP-Adresse deines Servers mit ihm verbinden kannst. Dies kannst du tun, indem du deine In-Game-Konsole in ARK: Survival Ascended öffnest und `open [deine_ip_adresse]:7777` ausführst.
 

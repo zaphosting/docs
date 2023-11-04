@@ -39,6 +39,9 @@ Suchen nach der gewünschten Version und klicken darauf, um den Abschnitt "Datei
 
 :::
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 <Tabs>
 <TabItem value="Mods" label="For Mods" default>
 Klicken im Abschnitt "Dateidetails" auf die Schaltfläche "Herunterladen". Speichere diese Datei an einem beliebigen Ort, du wirst sie später noch brauchen.

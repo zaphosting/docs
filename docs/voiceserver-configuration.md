@@ -15,10 +15,6 @@ The Teamspeak server can be configured individually. In the following we will ex
 
 ## General
 
-The server can be configured via the web interface and directly in the Teamspeak client itself, as long as administrator permissions have already been assigned. If you haven't done this yet and don't know how to do it, check out the following guide: [Teamspeak Become Admin](https://zap-hosting.com/guides/docs/de/teamspeak_becomeadmin/) 
-
-
-
 **Webinterface**
 
 In case you want to do the general configuration of your server via the web interface, then you can find the options in the Teamspeak Server Administration under Settings. The settings page will look like this:  
