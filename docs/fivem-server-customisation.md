@@ -11,7 +11,7 @@ sidebar_label: Customise Server Details
 
 Are you looking to customise your server to display custom information in the server list? This can be done easily! In this guide you will learn how to set a range of different customisations that are available to make your server stand out in the server list!
 
-## Accessing your server's configuration
+## Access options for the configuration
 
 There are multiple ways available to access your `server.cfg` configuration file for your FiveM gameserver. Editing this file is needed in order to allow you to set customisations.
 
@@ -54,7 +54,7 @@ The final method of accessing the raw file, is through FTP. If you are not famil
 There are a range of colors that you can add to your server name. These can be specified through the use of a prefix when wanting to change color. The list of colours that are available can be viewed in the table below.
 
 :::info
-In order to use colours in your server name, you must have a valid [FiveM Patreon tier](https://www.patreon.com/fivem/posts) which has the benefit. If you do but it still doesn't work, ensure that you have set a [custom license key, more info can be found on our guide](https://zap-hosting.com/guides/docs/fivem-licensekey/).
+In order to use colours in your server name, you must have a valid [FiveM Patreon tier](https://www.patreon.com/fivem/posts) which has the benefit. If you do but it still doesn't work, ensure that you have set a [custom license key, more info can be found on our guide](fivem-licensekey.md).
 :::
 
 Now you can change your server's name, through one of the three methods described in the accessing configuration section. Here is an example of using colors and the outcome they produce:
@@ -64,7 +64,7 @@ sv_hostname "^2ZAP-Hosting ^0| ^4Official Community Server ^0- ^1Events coming ^
 
 ![image](https://github.com/zaphosting/docs/assets/42719082/32bbf492-9ee0-4c78-a391-9c44120369c2)
 
-#### Colour Codes Table
+
 
 | Code | Color      | Hex Code |
 | ---- | ---------- | -------- |
@@ -95,9 +95,8 @@ Likewise, you can add this directly to your `server.cfg` file via FTP or the **C
 
 ### Server Description
 
-Setting a server description is useful for providing a short and to the point overview of your server.You can easily set a small project server description for your FiveM gameserver, which will display besides your server name on the server list.
+Setting a server description is useful for providing a short and to the point overview of your server.You can easily set a small project server description for your FiveM gameserver, which will display besides your server name on the server list. Here is an example of setting a project name and the outcome it produces:
 
-Here is an example of setting a project name and the outcome it produces:
 ```
 sets sv_projectDesc "Join our Discord to stay updated on latest events! discord.gg/zaphosting"
 ```
@@ -106,9 +105,8 @@ sets sv_projectDesc "Join our Discord to stay updated on latest events! discord.
 
 ### Server Tags
 
-Setting server tags can be beneficial to narrowing down what your server is about, and allow potential players to view your server when filtering out servers based on their likings. Once you set tags, these will be visible on your server's server list page and will also be used to filter your server.
+Setting server tags can be beneficial to narrowing down what your server is about, and allow potential players to view your server when filtering out servers based on their likings. Once you set tags, these will be visible on your server's server list page and will also be used to filter your server. Here is an example of setting project tags and the outcome it produces:
 
-Here is an example of setting project tags and the outcome it produces:
 ```
 sets tags "zap, zap-hosting, official, community, zap-community, zap-community-server"
 ```
@@ -121,18 +119,16 @@ You can also change a few miscellaneous server details to your liking.
 
 #### Gametype
 
-Setting the gametype parameter changes what is displayed on your server's server list page. This does **not** change the gamemode on the server itself.
+Setting the gametype parameter changes what is displayed on your server's server list page. This does **not** change the gamemode on the server itself. You can change the gametype through your gameserver's webinterface, or by setting a tag:
 
-You can change the gametype through your gameserver's webinterface, or by setting a tag:
 ```
 sets gametype "Freeroam"
 ```
 
 #### Language
 
-Finally, you can change the language of your server which is displayed on your server's server list page. We have a dedicated page for setting localisation which you can view here: [https://zap-hosting.com/guides/docs/fivem-locale].
+Finally, you can change the language of your server which is displayed on your server's server list page. We have a [guide](fivem-locale.md) for setting localisation. This can be done through your gameserver's webinterface, or by setting a tag:
 
-This can be done through your gameserver's webinterface, or by setting a tag:
 ```
 sets locale "en-GB"
 ```
