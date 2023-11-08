@@ -5,13 +5,22 @@ description: Information on how to install Proxmox Virtual Environment on your d
 sidebar_label: Install Proxmox
 ---
 
+
+
+## Introduction
+
+Proxmox Virtual Environment is a complete, open-source server management platform for enterprise virtualization. It tightly integrates the KVM hypervisor and Linux Containers (LXC), software-defined storage and networking functionality, on a single platform. With the integrated web-based user interface you can manage VMs and containers, high availability for clusters, or the integrated disaster recovery tools with ease.
+
+
+
 ## Preparation
+
 To begin, you must mount and boot from the Proxmox VE (Virtual Environment) ISO installer onto your dedicated server. There are two ways that you can do this, the easier method which is via your dedicated server's webinterface or the more lengthy method which is manually through your server's iLO panel.
 
-### Mount via the webinteface
-Head over to the **Initial Installation** section on your dedicated server's webinterface panel.
 
-Here you must first press the green **enable iLO** button. Wait a short period until the sections become unhidden. You may have to refresh your page to ensure it loads fully.
+
+### Mount ISO via the web interface
+Head over to the **Initial Installation** section on your dedicated server's webinterface panel. Here you must first press the green **enable iLO** button. Wait a short period until the sections become unhidden. You may have to refresh your page to ensure it loads fully.
 
 ![image](https://github.com/zaphosting/docs/assets/42719082/b457f17a-0bc6-42db-91ec-a553fd456936)
 
@@ -21,17 +30,20 @@ Next, select a **Proxmox VE** ISO from the drop down menu. We recommend using th
 
 Finally you must restart your dedicated server in order to be able to boot from the ISO. You can do so via the restart button under step 3.
 
-### Mount via the iLO directly
+
+
+### Mount ISO via the iLO
 Prepare your Proxmox VE ISO by heading over to the [Proxmox download site](https://www.proxmox.com/en/downloads/proxmox-virtual-environment/iso). You must then upload and mount it to your dedicated server by following the [iLO guide](https://zap-hosting.com/guides/docs/dedicated-ilo/) & [Own ISO guide](https://zap-hosting.com/guides/docs/dedicated-iso/) which show how to login and upload your custom ISO.
 
-## Setting up Proxmox VE
+
+
+## Setup & configuration
+
 :::important
 Ensure that you have restarted your server after importing and mouting the new ISO before continuing.
 :::
 
-Now that you have your ISO mounted, you will have to boot from it. You can approach this through the **HTML5 remote console** on your iLO panel.
-
-Through the webinterface, press the **Open here** hyperlink under `iLO web access` which will take you to your panel and use the credentials which were presented to login.
+Now that you have your ISO mounted, you will have to boot from it. You can approach this through the **HTML5 remote console** on your iLO panel. Through the webinterface, press the **Open here** hyperlink under `iLO web access` which will take you to your panel and use the credentials which were presented to login.
 
 :::note
 You browser may display a security risk prompt, you should ignore this and accept to continue.
@@ -45,9 +57,7 @@ Your Proxmox should be on the setup process. Using the `arrow keys`, `enter` and
 
 ![image](https://github.com/zaphosting/docs/assets/42719082/614218f2-df12-43ad-95fe-39026b900141)
 
-Wait a couple of seconds until the setup process continues. You will have to accept Proxmox's EULA via the **I agree** button on the bottom right.
-
-The next page requires you to select the target drive for your environment. If you are using a single drive, the default settings are tailed for you so you can simply continue via the **Next** button.
+Wait a couple of seconds until the setup process continues. You will have to accept Proxmox's EULA via the **I agree** button on the bottom right. The next page requires you to select the target drive for your environment. If you are using a single drive, the default settings are tailed for you so you can simply continue via the **Next** button.
 
 ![image](https://github.com/zaphosting/docs/assets/42719082/090c1f2e-20fe-48f3-b4b4-070c197f4825)
 
@@ -81,10 +91,8 @@ Pick an IP Address which you want to use for your Proxmox panel. Fill in the IP 
 
 Once you have filled everything, press **Next** and review all of the options selected within the summary page. If everything looks correct, press **Install** to proceed!
 
-## Accessing your Proxmox panel
-After the installation is complete and the system has restarted, select the **Proxmox Environment GNU/Linux** option in the menu and press **Enter**.
-
-Once loaded, you should see a welcome message from Proxmox in the console which will contain the IP Address and link to which you can access your panel via a browser (the one you specified previously). Navigate to this link.
+## Access the panel
+After the installation is complete and the system has restarted, select the **Proxmox Environment GNU/Linux** option in the menu and press **Enter**. Once loaded, you should see a welcome message from Proxmox in the console which will contain the IP Address and link to which you can access your panel via a browser (the one you specified previously). Navigate to this link.
 
 :::note
 You browser may display a security risk prompt again, you should ignore this and accept to continue.
@@ -92,19 +100,16 @@ You browser may display a security risk prompt again, you should ignore this and
 
 If the link provided is not accessible, this suggests that you have made an configuration during the setup, likely in regards to the network configuration settings.
 
-### Logging-in to your panel
 Now that you are on the panel you must login. You can do this through the username `root` and the password that you set during the installation process. Make sure that **Realm** is set to `Linux PAM standard authentication`.
 
 ![image](https://github.com/zaphosting/docs/assets/42719082/4072c2ac-6f5c-4350-a5df-0635b1f433c0)
 
-Once logged in, you can ignore the subscription message by pressing the **OK** button to acknowledge it.
+Once logged in, you can ignore the subscription message by pressing the **OK** button to acknowledge it. And just like that, you have successfully installed Proxmox VE on your dedicated server and logged in to your panel!
 
-And just like that, you have successfully installed Proxmox VE on your dedicated server and logged in to your panel!
 
-## Creating your first VM
-This section will provide the basic steps required to create your first Virtual Machine (VM) via your Proxmox panel.
 
-Head over to `local (panel)` and select the **ISO Images** section. Here you can choose to either upload the `.iso` file manually, or have Proxmox fetch it by providing the direct download URL to the ISO file.
+## Create your first VM
+This section will provide the basic steps required to create your first Virtual Machine (VM) via your Proxmox panel. Head over to `local (panel)` and select the **ISO Images** section. Here you can choose to either upload the `.iso` file manually, or have Proxmox fetch it by providing the direct download URL to the ISO file.
 
 ![image](https://github.com/zaphosting/docs/assets/42719082/8182bd73-690f-434f-8394-5fdca6889a74)
 
@@ -118,9 +123,7 @@ Swiftly move alone to the OS settings section. Here you should select the ISO im
 
 ![image](https://github.com/zaphosting/docs/assets/42719082/05d51c46-5a69-4cd7-b2e6-c3472437caf9)
 
-We recommend leaving the System settings section default as it should be configured appropriately. 
-
-Move along to the Disk settings section where you can specify the disk size you want to use for your VM. You can also set the storage pool you wish to use, although this will be `local-lvm` by default. The rest of the settings should work well by default.
+We recommend leaving the System settings section default as it should be configured appropriately. Move along to the Disk settings section where you can specify the disk size you want to use for your VM. You can also set the storage pool you wish to use, although this will be `local-lvm` by default. The rest of the settings should work well by default.
 
 ![image](https://github.com/zaphosting/docs/assets/42719082/26f11d42-8884-4bb5-b0fe-d7b4df7885a5)
 
@@ -132,9 +135,7 @@ Likewise in the Memory settings section, you can define how much memory you wish
 
 ![image](https://github.com/zaphosting/docs/assets/42719082/ac0048cb-0bd4-4791-9a9f-857e5037955d)
 
-We also recommend leaving the Network settings section default as it should be configured appropriately for now.
-
-Finally, you can review all the settings that you have configured throughout this VM setup. We recommend setting the `Start after created` option on so that your VM automatically starts for you. If you are satisfied with everything, proceed to create the VM by pressing the **Finish** button.
+We also recommend leaving the Network settings section default as it should be configured appropriately for now. Finally, you can review all the settings that you have configured throughout this VM setup. We recommend setting the `Start after created` option on so that your VM automatically starts for you. If you are satisfied with everything, proceed to create the VM by pressing the **Finish** button.
 
 ![image](https://github.com/zaphosting/docs/assets/42719082/d14a8b3d-e9bb-4feb-8049-428e84c1e917)
 

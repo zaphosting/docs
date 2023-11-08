@@ -5,137 +5,140 @@ description: Informationen, wie du das Proxmox Virtual Environment auf deinem De
 sidebar_label: Proxmox installieren
 ---
 
-## Preparation
-To begin, you must mount and boot from the Proxmox VE (Virtual Environment) ISO installer onto your dedicated server. There are two ways that you can do this, the easier method which is via your dedicated server's webinterface or the more lengthy method which is manually through your server's iLO panel.
 
-### Mount via the webinteface
-Head over to the **Initial Installation** section on your dedicated server's webinterface panel.
 
-Here you must first press the green **enable iLO** button. Wait a short period until the sections become unhidden. You may have to refresh your page to ensure it loads fully.
+## Einführung
+
+Proxmox Virtual Environment ist eine komplette Open Source-Virtualisierungsplattform für Server. Es kombiniert KVM- und Container-basierte Virtualisierung und verwaltet virtuelle Maschinen, Container, Storage, virtuelle Netzwerke und Hochverfügbarkeits-Cluster übersichtlich über die zentrale Managementoberfläche.
+
+
+
+## Vorbereitung
+
+Zu Beginn muss das Proxmox VE (Virtual Environment) ISO-Installationsprogramm auf deinem dedizierten Server installiert und gebootet werden. Es gibt zwei Möglichkeiten, dies zu tun. Die einfachere Methode über das Webinterface deines dedizierten Servers oder die langwierigere Methode, die manuell über das iLO-Panel deines Servers erfolgt.
+
+
+
+### ISO über das Webinterface einbinden
+
+Navigiere zum Abschnitt **Erstinstallation** im Webinterface von deinem dedizierten Server. Hier musst du zunächst auf den grünen Button **iLO aktivieren** drücken. Warte einen kurzen Moment, bis die Abschnitte wieder sichtbar werden. Möglicherweise musst du deine Seite aktualisieren, um sicherzustellen, dass die Seite vollständig geladen wird.
 
 ![image](https://github.com/zaphosting/docs/assets/42719082/ad471e8b-37af-45dc-94d6-695e439361a5)
 
-Next, select a **Proxmox VE** ISO from the drop down menu. We recommend using the latest version to remain up-to-date with the latest changes. Now use the green **Insert** button.
+Wähle als nächstes eine **Proxmox VE** ISO aus dem Dropdown-Menü. Wir empfehlen, die neueste Version zu verwenden, um mit den letzten Änderungen auf dem Laufenden zu bleiben. Klicken nun auf den grünen Button **Einfügen**.
 
 ![image](https://github.com/zaphosting/docs/assets/42719082/ebc1b725-3037-4379-bd7f-ce3e371578b6)
 
-Finally you must restart your dedicated server in order to be able to boot from the ISO. You can do so via the restart button under step 3.
+Abschließend musst du deinen dedizierten Server neu starten, um von der ISO booten zu können. Dies kannst du über den Button Neustart unter Schritt 3 tun.
 
-### Mount via the iLO directly
-Prepare your Proxmox VE ISO by heading over to the [Proxmox download site](https://www.proxmox.com/en/downloads/proxmox-virtual-environment/iso). You must then upload and mount it to your dedicated server by following the [iLO guide](https://zap-hosting.com/guides/docs/dedicated-ilo/) & [Own ISO guide](https://zap-hosting.com/guides/docs/dedicated-iso/) which show how to login and upload your custom ISO.
 
-## Setting up Proxmox VE
+
+### ISO über die iLO einbinden
+Bereite deine Proxmox VE-ISO vor, indem du auf die [Proxmox Download-Seite](https://www.proxmox.com/en/downloads/proxmox-virtual-environment/iso) gehst. Du musst diese dann auf deinen dedizierten Server hochladen und mounten, indem du die [iLO-Anleitung](https://zap-hosting.com/guides/docs/dedicated-ilo/) & [Eigene ISO-Anleitung](https://zap-hosting.com/guides/docs/dedicated-iso/) befolgst, die zeigen, wie du dich anmeldest und deine benutzerdefinierte ISO hochlädst.
+
+
+
+## Einrichtung und Konfiguration
+
 :::important
-Ensure that you have restarted your server after importing and mouting the new ISO before continuing.
+Stelle sicher, dass du deinen Server nach dem Importieren und Mouten der neuen ISO neu gestartet hast, bevor du weitermachst.
 :::
 
-Now that you have your ISO mounted, you will have to boot from it. You can approach this through the **HTML5 remote console** on your iLO panel.
-
-Through the webinterface, press the **Open here** hyperlink under `iLO web access` which will take you to your panel and use the credentials which were presented to login.
+Nachdem du nun dein ISO eingebunden hast, musst du davon booten. Dazu kannst du die **HTML5-Remote-Konsole** bei deiner iLO verwenden. Klicke im Webinterface auf den Hyperlink **Hier öffnen** unter "iLO-Webzugriff", der dich zu deinem Panel führt. Benutze die Anmeldedaten, die du für die Anmeldung erhalten hast.
 
 :::note
-You browser may display a security risk prompt, you should ignore this and accept to continue.
+Möglicherweise zeigt dein Browser eine Sicherheitsabfrage an, die du ignorieren und akzeptieren solltest, um fortzufahren.
 :::
 
-Once logged in, under the **Overview** section you should locate and use the **HTML5** hyperlink provided under the `Integrated Remote Console` section. This will open up a panel overlay.
+Sobald du eingeloggt bist, solltest du unter dem Abschnitt **Übersicht** den Link **HTML5** suchen und benutzen, der unter dem Abschnitt "Integrierte Remote-Konsole" zu finden ist. Dadurch wird ein neues Fenster geöffnet.
 
 ![image](https://github.com/zaphosting/docs/assets/42719082/3b9ce97e-f974-439b-8e57-ced05f248ef9)
 
-Your Proxmox should be on the setup process. Using the `arrow keys`, `enter` and `esc` to nativate, we recommend selecting the **Graphical** version of Proxmox as this is what the guide will follow.
+Dein Proxmox sollte sich im Einrichtungsprozess befinden. Verwende die "Pfeiltasten", "Enter" und "Esc", um das System zu aktivieren. Wir empfehlen, die **grafische** Version von Proxmox auszuwählen, da diese in der Anleitung verwendet wird.
 
 ![image](https://github.com/zaphosting/docs/assets/42719082/614218f2-df12-43ad-95fe-39026b900141)
 
-Wait a couple of seconds until the setup process continues. You will have to accept Proxmox's EULA via the **I agree** button on the bottom right.
-
-The next page requires you to select the target drive for your environment. If you are using a single drive, the default settings are tailed for you so you can simply continue via the **Next** button.
+Warte ein paar Sekunden, bis der Einrichtungsprozess fortgesetzt wird. Du musst die EULA von Proxmox über den Button **Ich stimme zu** unten rechts akzeptieren. Auf der nächsten Seite wirst du aufgefordert, das Ziellaufwerk für deine Umgebung auszuwählen. Wenn du ein einzelnes Laufwerk verwendest, sind die Standardeinstellungen für dich vorgegeben, so dass du einfach über den Button **Next** fortfahren kannst.
 
 ![image](https://github.com/zaphosting/docs/assets/42719082/090c1f2e-20fe-48f3-b4b4-070c197f4825)
 
 :::note
-If you want to setup RAID as some of our dedicated servers offer two drives, you will have to use the **Options** button to select your choice of `RAID` mode. We recommend `RAID1` which mirrors both drives.
+Wenn du ein RAID einrichten möchtest, da einige unserer dedizierten Server zwei Laufwerke bieten, musst du den Button **Optionen** verwenden, um den gewünschten `RAID`-Modus auszuwählen. Wir empfehlen `RAID1`, welches die beiden Laufwerke spiegelt.
 
 ![image](https://github.com/zaphosting/docs/assets/42719082/44e3b6ba-07f3-4313-8d36-b185a6da8089)
 :::
 
-The next section involves general stuff such as language and keyboard selection which should be automatically detected. Fill these in and then proceed to continue.
+Der nächste Abschnitt enthält allgemeine Angaben wie Sprache und Tastaturauswahl, die automatisch erkannt werden sollten. Füllen diese Felder aus und fahre dann fort.
 
 ![image](https://github.com/zaphosting/docs/assets/42719082/931e066c-9868-48d9-a638-f07c932579d2)
 
-Now you must setup a strong password and an email address. The email address will be used by your panel to send important alerts and notifications.
+Nun musst du ein sicheres Passwort und eine E-Mail-Adresse festlegen. Die E-Mail-Adresse wird von deinem Panel verwendet, um wichtige Alarme und Benachrichtigungen zu senden.
 
 :::important
-Remember the password, as this is what you must use when logging in to the panel for the first time after installation!
-:::
+Merken dir das Passwort, denn du musst es verwenden, wenn du dich zum ersten Mal nach der Installation am Panel anmeldest! :::
 
 ![image](https://github.com/zaphosting/docs/assets/42719082/617a504c-9520-4b89-93c3-81fba06e5fdc)
 
-The final step is setting up the network configuration. Select the available management interface and a hostname for your server.
+Der letzte Schritt ist das Einrichten der Netzwerkkonfiguration. Wähle die verfügbare Verwaltungsoberfläche und einen Hostnamen für deinen Server. 
 
 ![image](https://github.com/zaphosting/docs/assets/42719082/d694a5af-20e2-4c1b-9cdb-c1a8ca684cde)
 
-Now head over to the **IP-Addresses** section on your dedicated server's webinterface in order to find an available IP.
+Gehen nun zum Abschnitt **IP-Adressen** auf dem Webinterface des dedizierten Servers, um eine verfügbare IP zu finden.![image](https://github.com/zaphosting/docs/assets/42719082/9e8149c8-6917-4577-8161-7d254c3dc118)
 
-![image](https://github.com/zaphosting/docs/assets/42719082/9e8149c8-6917-4577-8161-7d254c3dc118)
+Wählen eine IP-Adresse, die du für dein Proxmox-Panel verwenden möchtest. Gebe die IP-Adresse, die Netzmaske und das Gateway in das Installationsprogramm ein, indem du die Details aus dem Webinterface verwendest. Abschließend kannst du für den DNS-Server "8.8.8.8" eingeben, was der öffentliche DNS-Server von Google ist.
 
-Pick an IP Address which you want to use for your Proxmox panel. Fill in the IP Address, Netmask and Gateway in the installer using the details from the webinterface. Finally, for the DNS Server you can enter `8.8.8.8` which is Google's public DNS server.
+Wenn du alles ausgefüllt hast, drücke **Weiter** und überprüfe alle ausgewählten Optionen auf der Übersichtsseite. Wenn alles korrekt aussieht, klicke auf **Installieren**, um fortzufahren!
 
-Once you have filled everything, press **Next** and review all of the options selected within the summary page. If everything looks correct, press **Install** to proceed!
 
-## Accessing your Proxmox panel
-After the installation is complete and the system has restarted, select the **Proxmox Environment GNU/Linux** option in the menu and press **Enter**.
 
-Once loaded, you should see a welcome message from Proxmox in the console which will contain the IP Address and link to which you can access your panel via a browser (the one you specified previously). Navigate to this link.
+## Zugriff auf das Panel
+Nachdem die Installation abgeschlossen ist und das System neu gestartet wurde, klicke im Menü auf die Option **Proxmox Environment GNU/Linux** und drücke **Enter**.
+
+Sobald das System geladen ist, solltest du eine Willkommensnachricht von Proxmox in der Konsole sehen, die die IP-Adresse und den Link enthält, über den du über einen Browser auf dein Panel zugreifen kannst (den du zuvor angegeben hast). Navigiere zu diesem Link.
 
 :::note
-You browser may display a security risk prompt again, you should ignore this and accept to continue.
+Dein Browser zeigt möglicherweise erneut eine Sicherheitsabfrage an, die du ignorieren und akzeptieren musst, um fortzufahren.
 :::
 
-If the link provided is not accessible, this suggests that you have made an configuration during the setup, likely in regards to the network configuration settings.
+Wenn der angegebene Link nicht zugänglich ist, deutet dies darauf hin, dass du während der Einrichtung eine Konfiguration vorgenommen haben, wahrscheinlich in Bezug auf die Netzwerkkonfigurationseinstellungen.
 
-### Logging-in to your panel
-Now that you are on the panel you must login. You can do this through the username `root` and the password that you set during the installation process. Make sure that **Realm** is set to `Linux PAM standard authentication`.
+Nachdem du dich nun im Panel befindest, musst du dich anmelden. Dies kannst du mit dem Benutzernamen `root` und dem Passwort tun, welches du während des Installationsprozesses festgelegt hast. Stelle sicher, dass **Realm** auf `Linux PAM standard authentication` eingestellt ist.
 
 ![image](https://github.com/zaphosting/docs/assets/42719082/4072c2ac-6f5c-4350-a5df-0635b1f433c0)
 
-Once logged in, you can ignore the subscription message by pressing the **OK** button to acknowledge it.
+Nach der Anmeldung kannst du die Anmeldemeldung ignorieren, indem du auf den Button **OK** drückst, um dies zu bestätigen. Und schon hast du Proxmox VE erfolgreich auf deinem dedizierten Server installiert und dich bei deinem Panel angemeldet!
 
-And just like that, you have successfully installed Proxmox VE on your dedicated server and logged in to your panel!
 
-## Creating your first VM
-This section will provide the basic steps required to create your first Virtual Machine (VM) via your Proxmox panel.
 
-Head over to `local (panel)` and select the **ISO Images** section. Here you can choose to either upload the `.iso` file manually, or have Proxmox fetch it by providing the direct download URL to the ISO file.
+## Erstellen deiner ersten VM
+In diesem Abschnitt werden die grundlegenden Schritte beschrieben, die erforderlich sind, um deine erste virtuelle Maschine (VM) über dein Proxmox-Panel zu erstellen. Gehe zu "local (panel)" und wählen den Abschnitt **ISO Images** aus. Hier kannst du entweder die .iso-Datei manuell hochladen oder sie von Proxmox abrufen lassen, indem du die direkte Download-URL der ISO-Datei angibst.
 
 ![image](https://github.com/zaphosting/docs/assets/42719082/8182bd73-690f-434f-8394-5fdca6889a74)
 
-Once you have done this, you can proceed to create your VM. Glance over to the top-right and press the **Create VM** button. This will open up a new menu with a great selection of options.
+Danach kannst du mit der Erstellung deiner VM fortfahren. Schauee nach rechts oben und klicke auf den Button **VM erstellen**. Es öffnet sich ein neues Menü mit einer großen Auswahl an Optionen.
 
-Firstly you have to configure general settings section. By default the `Node` will be set to the default one (in this case `panel`). You must provide a unique VM ID, which will default to `100` or increment if you already have any existing VMs. Now add a name for your VM, it can be anything.
+Zunächst musst du den Abschnitt mit den allgemeinen Einstellungen konfigurieren. Standardmäßig ist der "Knoten" auf den Standardknoten (in diesem Fall "Panel") eingestellt. Du musst eine eindeutige VM-ID angeben, die standardmäßig auf `100` eingestellt ist oder sich erhöht, wenn du bereits eine VM hast. Füge nun einen Namen für deine VM hinzu, dieser kann beliebig sein.
 
 ![image](https://github.com/zaphosting/docs/assets/42719082/bcd2eb41-a8fc-4a44-9abb-072f9e408d10)
 
-Swiftly move alone to the OS settings section. Here you should select the ISO image that you wish to use, the one that you uploaded in an earlier step. Make sure to also define the type and version of the OS that you are using.
+Gehen nun schnell zum Abschnitt Betriebssystemeinstellungen. Hier solltest du das ISO-Image auswählen, das du verwenden möchtest, nämlich das, das du in einem früheren Schritt hochgeladen hast. Stellen sicher, dass du auch den Typ und die Version des Betriebssystems festlegst, das du verwendest.
 
 ![image](https://github.com/zaphosting/docs/assets/42719082/05d51c46-5a69-4cd7-b2e6-c3472437caf9)
 
-We recommend leaving the System settings section default as it should be configured appropriately. 
-
-Move along to the Disk settings section where you can specify the disk size you want to use for your VM. You can also set the storage pool you wish to use, although this will be `local-lvm` by default. The rest of the settings should work well by default.
+Wir empfehlen, den Abschnitt Systemeinstellungen standardmäßig zu belassen, da er entsprechend konfiguriert sein sollte. Gehe weiter zum Abschnitt Festplatteneinstellungen, wo du die Festplattengröße angeben kannst, die du für deine VM verwenden möchtest. Du kannst auch den Speicherpool festlegen, den du verwenden möchtest, obwohl dieser standardmäßig `local-lvm` ist. Der Rest der Einstellungen sollte standardmäßig gut funktionieren.
 
 ![image](https://github.com/zaphosting/docs/assets/42719082/26f11d42-8884-4bb5-b0fe-d7b4df7885a5)
 
-Next you reach the CPU settings section where you can define options such as the socket and amount of cores that should be used. This can be configured as you please for your VM.
+Der nächste Schritt ist der Abschnitt CPU-Einstellungen, in dem du die Optionen wie den Sockel und die Anzahl der Kerne, die verwendet werden sollen, festlegen kannst. Dies kannst du so konfigurieren, wie du es für deine VM benötigst.
 
 ![image](https://github.com/zaphosting/docs/assets/42719082/91103b8d-dadc-4305-a3fe-bf4c8f96fc27)
 
-Likewise in the Memory settings section, you can define how much memory you wish to provide the VM with and choose the state of ballooning.
+Im Abschnitt Speichereinstellungen kannst du ebenfalls festlegen, wie viel Speicher du der VM zur Verfügung stellen möchtest und den Status des Ballooning wählen.
 
 ![image](https://github.com/zaphosting/docs/assets/42719082/ac0048cb-0bd4-4791-9a9f-857e5037955d)
 
-We also recommend leaving the Network settings section default as it should be configured appropriately for now.
-
-Finally, you can review all the settings that you have configured throughout this VM setup. We recommend setting the `Start after created` option on so that your VM automatically starts for you. If you are satisfied with everything, proceed to create the VM by pressing the **Finish** button.
+We also recommend leaving the Network settings section default as it should be configured appropriately for now. Finally, you can review all the settings that you have configured throughout this VM setup. We recommend setting the `Start after created` option on so that your VM automatically starts for you. If you are satisfied with everything, proceed to create the VM by pressing the **Finish** button.
 
 ![image](https://github.com/zaphosting/docs/assets/42719082/d14a8b3d-e9bb-4feb-8049-428e84c1e917)
 
-And just like that you have created your first VM on your Proxmox panel! You should be able to view it in the server view section on the left side of the panel.
+Wir empfehlen außerdem, den Abschnitt Netzwerkeinstellungen standardmäßig zu belassen, da er für den Moment angemessen konfiguriert sein sollte. Abschließend kannst du alle Einstellungen überprüfen, die du während der VM-Einrichtung vorgenommen hast. Wir empfehlen, die Option "Nach der Erstellung starten" zu aktivieren, damit deine VM automatisch für dich startet. Wenn du mit allem zufrieden bist, fahre mit der Erstellung der VM fort, indem du auf den Button **Finish** drückst.
