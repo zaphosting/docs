@@ -108,7 +108,7 @@ Unsere Artikel sollen technisch möglichst genau und auf dem neuesten Stand der 
 
 Autoren sollten ihre eigenen Anleitungen immer Korrektur lesen und testen, um sicherzustellen, dass alles technisch korrekt ist und wie beabsichtigt funktioniert, bevor sie einen Pull-Request einreichen. Das ZAP-Hosting Docs Team wird die Anleitung durchlesen und gegebenenfalls testen, um sicherzustellen, dass sie konsistent und sachlich korrekt ist oder um Verbesserungen zu besprechen, wenn ein Fehler festgestellt wird.
 
-:::Tipp
+:::tip
 Wir empfehlen unseren Autoren immer, ihren Inhalt durch ein Rechtschreibprüfungsprogramm zu schicken, um sicherzustellen, dass die Rechtschreibung korrekt ist, bevor ein Pull Request erstellt wird. Eine nützliche Website dafür ist: https://languagetool.org/
 :::
 

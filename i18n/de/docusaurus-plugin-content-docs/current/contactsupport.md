@@ -11,14 +11,14 @@ Dein Server lässt sich nicht starten? Oder du hast Probleme, die du nicht allei
 
 Bevor du dich jedoch an unseren Support wendest, empfehlen wir dir, ein paar Schritte zur Fehlerbehebung zu unternehmen, die das Problem lösen oder eingrenzen können.
 
-:::Hinweis
+:::note
 Bitte beachte, dass wir keinen direkten kontobezogenen Support auf unseren sozialen Netzwerken anbieten, sondern nur über unser Ticketsystem. Das liegt daran, dass wir Wert auf Privatsphäre legen und daher nur offiziellen Support über unser eigenes Ticketsystem anbieten.
 :::
 
 ### Überprüfen den Status deines Servers
-Du kannst den aktuellen Status aller unserer Dienste, einschließlich deines Servers, leicht herausfinden, indem du auf unsere [Statusseite] (https://status.zap-hosting.com/) gehst und den entsprechenden Dienst ansiehst.
+Du kannst den aktuellen Status aller unserer Dienste, einschließlich deines Servers, leicht herausfinden, indem du auf unsere [Statusseite](https://status.zap-hosting.com/) gehst und den entsprechenden Dienst ansiehst.
 
-:::Tipp
+:::tip
 Auf unserer Statusseite kannst du dich so gar per E-Mail für Benachrichtigungen zu jedem Dienst in unserem Netzwerk anmelden! Drücke dazu auf die Pfeiltaste oben rechts, wähle den Bereich aus und gebe die E-Mail-Adresse ein, an die die Benachrichtigungen gesendet werden sollen.
 
 ![image](https://github.com/zaphosting/docs/assets/42719082/2758b2b4-29e1-433f-9e40-76ca70fc90b0)
@@ -29,7 +29,7 @@ Wenn das Produkt, mit dem du Probleme hast, derzeit betroffen ist, raten wir dir
 ### Logs einsehen
 Eine weitere Methode zur Fehlerbehebung ist die Einsicht in die Logs deines Servers. Unabhängig davon, welches Spiel oder welchen Dienst du ausführst, solltest du den Inhalt deiner Konsole oder das Unterverzeichnis logs einsehen, um festzustellen, ob Fehler vorliegen. Dies kann je nach Spiel und Dienst sehr unterschiedlich sein.
 
-:::Tipp
+:::tip
 Wenn du ein Ticket erstellst, kann es sehr nützlich sein, alle Protokolle oder Fehler im Inhalt deines Tickets anzugeben.
 :::
 
