@@ -21,8 +21,7 @@ Klicken hier, um zu unseren Minecraft-Servern zu gelangen:  [Minecraft Server Ho
 
 Es gibt im Internet viele Möglichkeiten, Mods / Modpacks zu finden. Die größte Plattform für Mods und Modpacks ist CurseForge. Fast 99% aller Mods / Modpacks für Minecraft lassen sich dort finden und mit wenigen Klicks herunterladen. Diese Anleitung konzentriert sich auf die Nutzung von CurseForge. Du kannst nach Mods [hier](https://www.curseforge.com/minecraft/mc-mods) und nach Modpacks [hier](https://curseforge.com/minecraft/modpacks) suchen.
 
-:::Hinweis
-Mods funktionieren nur mit einer bestimmten Version des Modloaders. Du musst auf der Mod Seite nachsehen, welche Version du benötigst. Wenn du mehrere Mods installierst, stelle sicher, dass sie alle dieselbe Version verwenden. Darüber hinaus sind Forge-Mods nicht mit Fabric-Mods kompatibel und umgekehrt.
+:::note Mods funktionieren nur mit einer bestimmten Version des Modloaders. Du musst auf der Mod Seite nachsehen, welche Version du benötigst. Wenn du mehrere Mods installierst, stelle sicher, dass sie alle dieselbe Version verwenden. Darüber hinaus sind Forge-Mods nicht mit Fabric-Mods kompatibel und umgekehrt.
 :::
 
 Gehe auf die Seite des Mods/Modpacks deiner Wahl und klicke auf den Reiter "Dateien".

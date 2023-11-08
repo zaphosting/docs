@@ -431,7 +431,8 @@ const sidebars = {
         "ark-becomeadmin",
         "ark-mods",
         "ark-serverlisting",
-        "ark-configuration"
+        "ark-configuration",
+        "ark-savegame"
       ],
     },
     {
