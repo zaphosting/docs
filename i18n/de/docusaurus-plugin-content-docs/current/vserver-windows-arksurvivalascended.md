@@ -70,6 +70,9 @@ Dein Server wird nun lokal über `127.0.0.1:7777` erreichbar sein, sobald du die
 
 Um sicherzustellen, dass dein Server für die Öffentlichkeit erreichbar ist, musst du Portweiterleitungsregeln für die Ports erstellen, die der Prozess des Dedicated Servers verwendet.
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 <Tabs>
 <TabItem value="powershell" label="Über Powershell" default>
 

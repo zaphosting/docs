@@ -70,6 +70,9 @@ Your server will now be accessible locally through `127.0.0.1:7777` once you run
 
 In order to ensure that your server is accessible to the public, you must alter port forwarding rules for the ports that the dedicated server process is using. You can do this either through Powershell commands directly which is easier, or regularly through the Windows Defender Firewall page.
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 <Tabs>
 <TabItem value="powershell" label="Via Powershell" default>
 
