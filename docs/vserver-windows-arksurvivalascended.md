@@ -7,6 +7,8 @@ sidebar_label: ARK Survival Ascended Dedicated Server Setup
 
 Do you have a Windows VPS or rootserver and you want to install an ARK: Survival Ascended Dedicated server on it? You are in the right place. In this guide we will explain the step by step process of installing this service on your server.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NvaXYjLSCn8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Preparation
 
 To begin with, connect to your VPS or rootserver through Remote Desktop (RDP). Use our [RDP Initial Access](vserver-windows-userdp.md) guide if you need help doing this.
@@ -48,7 +50,7 @@ Ensure that you have the "Display file extensions" option enabled in your File E
 
 Open the file using a text editor (such as Notepad++) and add the following contents within it:
 ```
-start ArkAscendedServer.exe TheIsland_WP?listen?SessionName=[server_name]?ServerAdminPassword=<admin_password>?Port=7777?QueryPort=27015?MaxPlayers=[max_players] -NoBattlEye
+start ArkAscendedServer.exe TheIsland_WP?listen?SessionName=[server_name]?ServerAdminPassword=[admin_password]?Port=7777?QueryPort=27015?MaxPlayers=[max_players] -NoBattlEye
 exit
 ```
 
@@ -56,7 +58,7 @@ Within this command, you should replace `[server_name]`, `[admin_password]` and 
 
 If you also want to setup a password for regular people to be able to join, you can add `?ServerPassword=[join_password]` to the command in the file above. This would change it to:
 ```
-start ArkAscendedServer.exe TheIsland_WP?listen?SessionName=[server_name]?ServerPassword=[join_password]?ServerAdminPassword=<admin_password>?Port=7777?QueryPort=27015?MaxPlayers=[max_players] -NoBattlEye
+start ArkAscendedServer.exe TheIsland_WP?listen?SessionName=[server_name]?ServerPassword=[join_password]?ServerAdminPassword=[admin_password]?Port=7777?QueryPort=27015?MaxPlayers=[max_players] -NoBattlEye
 exit
 ```
 
@@ -66,7 +68,30 @@ Your server will now be accessible locally through `127.0.0.1:7777` once you run
 
 ### Port Forwarding your server
 
-In order to ensure that your server is accessible to the public, you must alter port forwarding rules for the ports that the dedicated server process is using.
+In order to ensure that your server is accessible to the public, you must alter port forwarding rules for the ports that the dedicated server process is using. You can do this either through Powershell commands directly which is easier, or regularly through the Windows Defender Firewall page.
+
+<Tabs>
+<TabItem value="powershell" label="Via Powershell" default>
+
+Open your Windows search box, and search for **Powershell**. Make sure to right-click and **Run as Administrator** so that permissions are accessible and everything works correctly.
+
+:::info
+Ensure you run your Powershell in Administrator mode, otherwise the settings may not apply correctly.
+:::
+
+Next, copy and paste the following commands into your Powershell Prompt:
+```
+New-NetFirewallRule -DisplayName "ARKSA Server" -Direction Inbound -LocalPort 7777,7778,27015 -Protocol TCP -Action Allow
+New-NetFirewallRule -DisplayName "ARKSA Server" -Direction Inbound -LocalPort 7777,7778,27015 -Protocol UDP -Action Allow
+New-NetFirewallRule -DisplayName "ARKSA Server" -Direction Outbound -LocalPort 7777,7778,27015 -Protocol TCP -Action Allow
+New-NetFirewallRule -DisplayName "ARKSA Server" -Direction Outbound -LocalPort 7777,7778,27015 -Protocol UDP -Action Allow
+```
+
+These commands will automatically create firewall rules which are necessary for your Ark: Survival Ascended server to be accessible to the public.
+
+</TabItem>
+
+<TabItem value="windefender" label="Via Windows Defender">
 
 Use the search function on Windows to open up **Windows Firewall Settings with Advanced Security**. You may have to press **Advanced Settings** to open up the necessary window if you open up the base Windows Firewall page.
 
@@ -79,6 +104,9 @@ You must create new rules for your Ark: Survival Ascended server. To do this, cl
 
 Please use our [Windows port forwarding guide](vserver-windows-port.md) if you need further assistance doing this.
 
+</TabItem>
+</Tabs>
+
 Once you have added these rules, your server will now be accessible which means you will be able to connect to it through your server's IP address. You can do this by opening your in-game console on Ark: Survival Ascended and running `open [your_ip_address]:7777`.
 
 We recommend that you configure your server settings first through the following section before accessing your server.
@@ -89,14 +117,22 @@ By this stage, you have finished the setup for your Ark: Survival Ascended dedic
 
 Firstly, navigate to the following directories:
 ```
-../steamapps/common/Ark Survival Evolved Dedicated Server/ShooterGame/Config/
-../steamapps/common/Ark Survival Evolved Dedicated Server/ShooterGame/Saved/Config/WindowsServer/
+../steamapps/common/Ark Survival Ascended Dedicated Server/ShooterGame/Config/
+../steamapps/common/Ark Survival Ascended Dedicated Server/ShooterGame/Saved/Config/WindowsServer/
 ```
 
 You will be able to find both **DefaultGameUserSettings.ini** and **Gameusersettings.ini** configuration files. In these files, you can edit a wide range of variables and options regarding your server.
 
-## Connecting to your server
+## Starting & Connecting to your server
 
-Once you have finished the setup and configuration for your server, you can start the server by executing the **start-ark.bat** file you created previously.
+Now it is time to start your server. However, in order for the server to start successfully, you will have to install [Microsoft Visual C++ 2013 Redistribute](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170) to your Windows VPS.
 
-This will open thte server's console in a command prompt and begin the startup process. If everthing occurs as expected, your server will be visible in the server list. Alternatively, you will be able to connect directly by opening the console in-game and running `open [your_ip_address]:7777`.
+:::info
+You must install [Microsoft Visual C++ 2013 Redistribute](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170) onto your Windows VPS before attempting to start the server if you do not have it yet, as it is a dependency. Your server may not start if you do not have this installed.
+:::
+
+Once you have this installed on your VPS, you can proceed towards starting the server by executing the **start-ark.bat** file you created previously.
+
+This will open the server's console in a command prompt and begin the startup process. If everthing occurs as expected, your server will be visible in the server list. Alternatively, you will be able to connect directly by opening the console in-game and running `open [your_ip_address]:7777`.
+
+You have successfully installed Ark: Survival Ascended on your Windows VPS.

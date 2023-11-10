@@ -7,6 +7,8 @@ sidebar_label: ARK Survival Ascended Dedicated Server Einrichtung
 
 Hast du einen Windows vServer oder Rootserver und möchtest darauf einen ARK: Survival Ascended Dedizierten Server installieren? Du bist hier genau richtig. In dieser Anleitung erklären wir dir Schritt für Schritt den Prozess der Installation dieses Dienstes auf deinem Server.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NvaXYjLSCn8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Vorbereitung
 
 Um zu beginnen, verbinde dich über Remote Desktop (RDP) mit deinem vServer oder Rootserver. Wenn du dabei Hilfe benötigst, nutze unsere Anleitung [Erstzugriff auf Windows Server mit RDP](vserver-windows-userdp.md)
@@ -68,6 +70,28 @@ Dein Server wird nun lokal über `127.0.0.1:7777` erreichbar sein, sobald du die
 
 Um sicherzustellen, dass dein Server für die Öffentlichkeit erreichbar ist, musst du Portweiterleitungsregeln für die Ports erstellen, die der Prozess des Dedicated Servers verwendet.
 
+<Tabs>
+<TabItem value="powershell" label="Über Powershell" default>
+
+Öffne dein Windows-Suchfeld und suche nach **Powershell**. Achte darauf, dass du mit der rechten Maustaste klickst und **Ausführen als Administrator** wählst, damit die Berechtigungen zugänglich sind und alles richtig funktioniert.
+
+:::info
+Vergewissere dich, dass du die Powershell im Administratormodus ausführst, sonst werden die Einstellungen möglicherweise nicht korrekt übernommen.
+:::
+
+Als Nächstes kopierst du die folgenden Befehle und fügst sie in deine Powershell-Eingabeaufforderung ein:
+```
+New-NetFirewallRule -DisplayName "ARKSA Server" -Direction Inbound -LocalPort 7777,7778,27015 -Protocol TCP -Action Allow
+New-NetFirewallRule -DisplayName "ARKSA Server" -Direction Inbound -LocalPort 7777,7778,27015 -Protocol UDP -Action Allow
+New-NetFirewallRule -DisplayName "ARKSA Server" -Direction Outbound -LocalPort 7777,7778,27015 -Protocol TCP -Action Allow
+New-NetFirewallRule -DisplayName "ARKSA Server" -Direction Outbound -LocalPort 7777,7778,27015 -Protocol UDP -Action Allow
+```
+
+Diese Befehle erstellen automatisch Firewall-Regeln, die notwendig sind, damit dein Ark: Survival Ascended-Server für die Öffentlichkeit zugänglich ist.
+</TabItem>
+
+<TabItem value="windefender" label="Über Windows Defender">
+
 Verwende die Suchfunktion in Windows, um die **Windows-Firewall-Einstellungen mit erweiterter Sicherheit** zu öffnen. Möglicherweise musst du **Erweiterte Einstellungen** auswählen, um das erforderliche Fenster zu öffnen, wenn du die Startseite der Windows-Firewall öffnest.
 
 ![image](https://github.com/zaphosting/docs/assets/42719082/5fb9f943-7e51-4d8f-9df4-2f5ff60857d3)
@@ -79,24 +103,35 @@ Du musst neue Regeln für deinen ARK: Survival Ascended Server erstellen. Klicke
 
 Wenn du weitere Hilfe bei diesem Vorgang benötigst, nutze unsere Anleitung [Ports bei Windows Servern freigeben](vserver-windows-port.md)
 
-Nachdem du diese Regeln hinzugefügt hast, wird dein Server nun erreichbar sein, was bedeutet, dass du dich über die IP-Adresse deines Servers mit ihm verbinden kannst. Dies kannst du tun, indem du deine In-Game-Konsole in ARK: Survival Ascended öffnest und `open [deine_ip_adresse]:7777` ausführst.
+</TabItem>
+</Tabs>
+
+Nachdem du diese Regeln hinzugefügt hast, wird dein Server nun erreichbar sein, was bedeutet, dass du dich über die IP-Adresse deines Servers mit ihm verbinden kannst. Dies kannst du tun, indem du deine In-Game-Konsole in ARK: Survival Ascended öffnest und `open [your_ip_address]:7777` ausführst.
 
 Wir empfehlen dir, deine Servereinstellungen zuerst im folgenden Abschnitt zu konfigurieren.
 
 ## Konfiguration
 
-Zu diesem Zeitpunkt hast du die Einrichtung für deinen Dedicated Server für ARK: Survival Ascended abgeschlossen. Du kannst weitere Servereinstellungen in zwei Konfigurationsdateien vornehmen, die sich im Verzeichnis deines Servers befinden.
+Zu diesem Zeitpunkt hast du die Einrichtung deines dedizierten Ark: Survival Ascended-Servers abgeschlossen. Du kannst die weitere Serverkonfiguration über zwei Konfigurationsdateien vornehmen, die sich im Verzeichnis deines Servers befinden.
 
-Zunächst navigiere zu den folgenden Verzeichnissen:
+Navigiere zunächst zu den folgenden Verzeichnissen:
 ```
-../steamapps/common/ARK Survival Evolved Dedicated Server/ShooterGame/Config/
-../steamapps/common/ARK Survival Evolved Dedicated Server/ShooterGame/Saved/Config/WindowsServer/
+../steamapps/common/Ark Survival Ascended Dedicated Server/ShooterGame/Config/
+../steamapps/common/Ark Survival Ascended Dedicated Server/ShooterGame/Saved/Config/WindowsServer/
 ```
 
-Dort findest du sowohl die **DefaultGameUserSettings.ini** als auch die **Gameusersettings.ini** Konfigurationsdateien. In diesen Dateien kannst du eine Vielzahl von Variablen und Optionen bezüglich deines Servers bearbeiten.
+You will be able to find both **DefaultGameUserSettings.ini** and **Gameusersettings.ini** configuration files. In these files, you can edit a wide range of variables and options regarding your server.
 
-## Verbindung zu deinem Server
+## Starten und Verbinden mit deinem Server
 
-Nachdem du die Einrichtung und Konfiguration für deinen Server abgeschlossen hast, kannst du den Server starten, indem du die zuvor erstellte **start-ark.bat** Datei ausführst.
+Jetzt ist es an der Zeit, deinen Server zu starten. Damit der Server erfolgreich starten kann, musst du [Microsoft Visual C++ 2013 Redistribute](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170) auf deinem Windows VPS installieren.
 
-Dies öffnet die Serverkonsole in einem Befehlsfenster und startet den Startvorgang. Wenn alles wie erwartet verläuft, wird dein Server in der Serverliste sichtbar sein. Alternativ kannst du dich direkt verbinden, indem du die In-Game-Konsole in ARK: Survival Ascended öffnest und `open [deine_ip_adresse]:7777` ausführst.
+:::info
+Du musst [Microsoft Visual C++ 2013 Redistribute](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170) auf deinem Windows VPS installieren, bevor du versuchst, den Server zu starten, wenn du es noch nicht hast, da es eine Abhängigkeit ist. Dein Server startet möglicherweise nicht, wenn du es nicht installiert hast.
+:::
+
+Sobald du sie auf deinem VPS installiert hast, kannst du den Server starten, indem du die Datei **start-ark.bat** ausführst, die du zuvor erstellt hast.
+
+Dadurch wird die Konsole des Servers in einer Eingabeaufforderung geöffnet und der Startvorgang beginnt. Wenn alles wie erwartet abläuft, wird dein Server in der Serverliste angezeigt. Alternativ kannst du dich auch direkt mit dem Server verbinden, indem du die Konsole im Spiel öffnest und "open [your_ip_address]:7777" eingibst.
+
+Du hast Ark: Survival Ascended erfolgreich auf deinem Windows VPS installiert.
