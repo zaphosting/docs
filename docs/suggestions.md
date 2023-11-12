@@ -45,8 +45,6 @@ We recommend being logged in to do this, or alternatively you can fill in the em
 
 ![image](https://github.com/zaphosting/docs/assets/42719082/3cb61b1b-b922-4145-8081-a52d0040bdaf)
 
-![image](https://github.com/zaphosting/docs/assets/42719082/54c96bb9-4fc7-46d4-9ffa-f78d80688f76)
-
 ### After Suggestion Sumbission
 Once you have submitted your suggestion successfully, we regularly check for new suggestions and make a decision whether to approve it if it is acceptable, or occasionally we may even implement it directly.
 
