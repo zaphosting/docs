@@ -12,7 +12,7 @@ To begin, you should login or register on our website in order to be able to use
 
 ![image](https://github.com/zaphosting/docs/assets/42719082/f81bcb46-2129-47c9-ab98-90b746e01fd0)
 
-![image](https://github.com/zaphosting/docs/assets/42719082/b146be91-69d9-444a-b1f5-3aed09ae866b)
+
 
 As soon as you are logged in, you will automatically land in your webinterface. In order to be able to use a code, you should first find out what kind of code you want to redeem.
 
@@ -29,14 +29,14 @@ Once you are in on your **Cashbox** page, scroll down to the blue **Use Voucher*
 
 ![image](https://github.com/zaphosting/docs/assets/42719082/cee125ff-06b1-460b-a4d9-8c71157c50c4)
 
-![image](https://github.com/zaphosting/docs/assets/42719082/a115cb35-5560-4d76-b0b0-71703e96c895)
+
 
 Here you can enter the voucher code that you received. Once ready, press the green **Use voucher** button in order to submit it.
 
 ![image](https://github.com/zaphosting/docs/assets/42719082/0daa73de-00a6-4079-9e93-c12d9df8f222)
 
 
-![image](https://github.com/zaphosting/docs/assets/42719082/c891f0e6-0328-4d44-bd7e-5f39314e8c7e)
+
 
 If the voucher was valid and is correct, you will receive an success message letting you know it worked.
 
@@ -46,6 +46,8 @@ Otherwise, if a code does not work, it may be that it has already expired, has a
 You can also scroll down to the bottom of the **Cashbox** to see which voucher codes you have redeemed within any time period.
 :::
 
+
+
 ## Discount codes
 Discount codes work similar to credit codes, but are used elsewhere in the webinterface. They reduce the cost of the package you want to book during the ordering process.
 
@@ -53,7 +55,7 @@ Firstly, find the product that you wish to order on our website and configure it
 
 ![image](https://github.com/zaphosting/docs/assets/42719082/93fce0a9-1ff6-4878-9625-6581361324ef)
 
-![image](https://github.com/zaphosting/docs/assets/42719082/8eb8e9e8-c930-4d10-b488-74b0002212cb)
+
 
 Once everything is configured correctly, you can now use your code in the ordering process. Scroll down to the bottom, select your payment method, and simply click the **Redeem voucher** text below the order total.
 
@@ -61,9 +63,7 @@ Once everything is configured correctly, you can now use your code in the orderi
 
 ![image](https://github.com/zaphosting/docs/assets/42719082/6502ef6a-16bf-4066-a25d-58d312caa0f1)
 
-![image](https://github.com/zaphosting/docs/assets/42719082/7db5d875-8eb1-47c6-ab79-eb1b91857b83)
 
-![image](https://github.com/zaphosting/docs/assets/42719082/68d5bab1-23c5-489b-9a06-e2916f8a1740)
 
 As soon as you use the voucher, you will see the new updated price appear. However, if you receive an error there may be a few reasons for this. It could be that the code has reached its max usage limit, the code has expired or that the code can only be used on certain products or payment methods. The error message should explain the issue.
 
@@ -76,4 +76,4 @@ There are two different discount codes:
 ## Getting Freebies and Codes
 We love to give back to our ZAP Community, which is why there are many ways to get discounts and freebies including ZAP Coins, occasional free servers and more!
 
-To learn more, we recommend reading our awesome [ZAP-Hosting Community Info](https://zap-hosting.com/guides/docs/community-info) guide which covers the multitudes of ways to gain voucher codes and freebies across our range of social platforms (and even by writing guides for these very ZAP-Docs you are reading :) 💚
+To learn more, we recommend reading our awesome [ZAP-Hosting Community Info](community-info.md) guide which covers the multitudes of ways to gain voucher codes and freebies across our range of social platforms (and even by writing guides for these very ZAP-Docs you are reading :) 💚
