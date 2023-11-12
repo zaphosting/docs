@@ -43,7 +43,7 @@ The link must point to the advertisement created for this purpose. If the link d
 
 ![image](https://github.com/zaphosting/docs/assets/42719082/d94273e7-3c97-4d62-a77a-7901d0293c7f)
 
-![image](https://github.com/zaphosting/docs/assets/42719082/12839234-efe5-45f5-8d9c-addb69af3e60)
+
 
 ## Cash out & Transferring
 
@@ -51,7 +51,7 @@ You can transfer out your Community Advertisement balance either into ZAP-Coins 
 
 ![image](https://github.com/zaphosting/docs/assets/42719082/076c45aa-2851-4a0d-b5ed-27ca57102b15)
 
-![image](https://github.com/zaphosting/docs/assets/42719082/de11ee5a-97e5-432a-944c-7f0e2dd9d448)
+
 
 Now follow the appropriate section below to transfer to either currency.
 
@@ -65,7 +65,7 @@ On the menu prompt, select **ZAP credit balance** as the option. Choose whether 
 
 ![image](https://github.com/zaphosting/docs/assets/42719082/27807ca4-4ee7-4e70-92f8-23b887bfef90)
 
-![image](https://github.com/zaphosting/docs/assets/42719082/5e88aeee-cb33-46b4-a3c4-4da92273f7b1)
+
 
 ### Real money (PayPal)
 
