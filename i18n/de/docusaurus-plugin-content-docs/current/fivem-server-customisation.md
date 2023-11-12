@@ -38,7 +38,8 @@ Alternativ kannst du die Datei auch direkt bearbeiten, indem du im Webinterface 
 
 ![image](https://github.com/zaphosting/docs/assets/42719082/e3c7392c-7246-4133-be2e-383dac4b0327)
 
-Es öffnet sich ein Texteditor zur Bearbeitung direkt auf der Website. </TabItem>
+Es öffnet sich ein Texteditor zur Bearbeitung direkt auf der Website.
+</TabItem>
 
 <TabItem value="ftp" label="FTP">
 
@@ -46,9 +47,6 @@ Es öffnet sich ein Texteditor zur Bearbeitung direkt auf der Website. </TabItem
 
 Die letzte Möglichkeit, um auf die Datei zuzugreifen, ist per FTP. Wenn du mit der Verwendung von FTP nicht vertraut bist, empfehlen wir dir, einen Blick in die [FTP Dateizugriff](gameserver-ftpaccess.md) Anleitung zu werfen. Diese Methode dauert jedoch länger, und wenn du den Inhalt der Datei direkt bearbeiten möchtest, empfehlen wir, den Abschnitt **Configs**-im Webinterface deines Gameservers zu verwenden. 
 
-
-<TabItem value="ftp" label="Via FTP">
-The final method of accessing the raw file, is through FTP. If you are not familiar with using FTP, we recommend you to have a look at the [FTP file access](gameserver-ftpaccess.md) guide. However, this method takes longer and if you wish to directly edit the file contents, we recommend simply using the **Configs** section on your gameserver's webinterface as mentioned.
 </TabItem>
 </Tabs>
 
