@@ -6,47 +6,60 @@ sidebar_label: Vorschläge einreichen
 ---
 
 
+
 ## Einführung
 
-Die **Vorschläge einreichen** Option bieten unseren Kunden die Möglichkeit gewünschte Features oder Änderungen einzureichen. Diese können dann von der ZAP-Community favorisiert werden. So mehr Interesse an einem Vorschlag besteht, desto höher liegt meistens auch die Priorität. 
+Wir bei ZAP-Hosting sind immer bemüht, unser Bestes zu geben und freuen uns daher über jede Rückmeldung und jeden Vorschlag aus unserer Community. Wir bieten die Möglichkeit, dies direkt über unsere [Vorschlagsseite] (https://zap-hosting.com/en/suggestion/) auf der Website zu tun.
+
+Über unsere Vorschlagsseite kann die ZAP-Community darüber abstimmen, welche Vorschläge am wichtigsten und erwünscht sind, sodass wir die Entwicklung auf der Grundlage der am häufigsten gewählten Vorschläge priorisieren können. In den meisten Fällen gilt: Je höher das Interesse, desto höher die Priorität des Vorschlags.
 
 
 
-## Können Vorschläge eingereicht werden?
-Vorschläge können auf unserer Vorschlagsseite eingereicht werden. Alle Vorschläge werden von uns regelmäßig überprüft und bewertet. Die Vorschlagsseite ist unter folgendem Link zu finden:
-https://zap-hosting.com/de/suggestion/
+## Vorschlagsseite
 
-## Welche Vorschläge können eingereicht werden?
-Grundsätzlich können jegliche Arten von Vorschlägen eingereicht werden. Besonderen Fokus legen wir auf Vorschlägen zu den Kategorien "Spielewunsch" und "Web Interface Features".
+Du kannst Vorschläge direkt über unsere [Vorschlagsseite] (https://zap-hosting.com/en/suggestion/) auf unserer Website oder über den folgenden Link aufrufen: https://zap-hosting.com/de/suggestion/
 
-## Wie werden Vorschläge eingereicht?
-Um einen Vorschlag einzureichen, muss lediglich auf der Vorschlagsseite auf den Button "Vorschlag einreichen" geklickt werden. Es öffnet sich ein Formular, in das der Vorschlag eingetragen werden kann sowie die Kategorie ("Spielewunsch", Web Interface Features" und "Sonstiges") ausgewählt werden kann. Über den Button "Jetzt vorschlagen" wird der Vorschlag eingereicht.
+Auf der Seite siehst du die Vorschläge, die derzeit **in Bearbeitung** sind, oben gruppiert, um den Einstieg zu erleichtern. Dies sind Vorschläge, die von unserem Team geprüft wurden und an denen aktiv gearbeitet wird. Wenn du nach unten scrollst, findest du **eingereichte** Vorschläge, die von einem Kunden eingereicht und genehmigt wurden, an denen aber derzeit nicht gearbeitet wird.
 
-![image](https://user-images.githubusercontent.com/61953937/159140276-9692419e-e736-4389-a45d-b2853f59315f.png)
+Darüber hinaus kannst du eine bestimmte Kategorie auswählen, unter der die Vorschläge angezeigt werden sollen, und mit dem Toggle auch fertige Vorschläge anzeigen lassen.
 
-![image](https://user-images.githubusercontent.com/61953937/159140289-a5c7ec36-07e4-4d9c-8a92-40193b953dca.png)
+### Akzeptierte Vorschläge
 
-## Was ist bei Spielvorschlägen zu beachten?
-Grundsätzlich kann jedes Spiel oder Modpack vorgeschlagen werden, für das wir noch keine Gameserver anbieten. Wir prüfen alle Vorschläge und entscheiden, ob es sinnvoll ist, ein bestimmtes Spiel hinzuzufügen. Minecraft Modpacks können natürlich unter "Spielewunsch" vorgeschlagen werden.
-* Bei Spielevorschlägen reicht es völlig aus, nur den Spielenamen/Modpacknamen und ggf. einen Link zur Website des Spiels/Modpacks einzutragen. Beispiel:
+Generell kannst du jede Art von Vorschlägen zu unseren Diensten einreichen. Insbesondere freuen wir uns über neue Vorschläge für Spielwünsche und Funktionen des Webinterfaces.
+
+Wenn Sie einen Vorschlag zu anderen Bereichen wie unserer ZAP-Community oder zu Veranstaltungen haben, die nicht direkt mit unseren Diensten zu tun haben, freuen wir uns immer über Ihr Feedback auf unserem [ZAP-Hosting Discord Server] (https://discord.com/invite/zaphosting).
+
+#### Überlegungen zu neuen Spielvorschlägen
+
+Wenn du einen Vorschlag für ein neues Spiel einreichst, prüfen wir ihn und entscheiden anhand einiger Faktoren, ob es sinnvoll ist, ein bestimmtes Spiel hinzuzufügen. Generell kann jedes Spiel oder Modpack, das wir derzeit nicht als Gameserver anbieten, vorgeschlagen werden, und es wird geprüft.
+
 :::info
-RLCraft
-
-https://www.curseforge.com/minecraft/modpacks/rlcraft
-:::
-* Je neuer oder aktueller ein Spiel, desto besser.
-:::info
-Bei neuen Spielen achten wir darauf, dass es eine bestimmte Mindestnachfrage gibt, wir also davon ausgehen, dass auch Server vermietet werden. Spiele und Modpacks, die nur von einer sehr kleinen Anzahl an Spielern gespielt werden und/oder schon sehr lange auf dem Markt sind und auch nicht mehr aktualisiert werden, haben eine geringere Wahrscheinlichkeit, in unsere Gameserver-Cloud integriert zu werden.
-:::
-* Wir überprüfen ständig, ob es sinnvoll ist, Spiele für das Gameserver-Interface für virtuelle Server hinzuzufügen.
-:::info
-Daher ist es in der Regel nicht notwendig, Wünsche für Spiele für das Gameserver-Interface hinzuzufügen.
+Wenn du ein Spiel vorschlägst, reicht es aus, wenn du den Namen des Spiels oder Modpacks angibst und einen Link zu der entsprechenden Spiel- oder Modpackseite.
 :::
 
-### Was ist bei Web interface Features zu beachten
-Web Interface Features sind alle Features, die auf unserer Seite zap-hosting.com und im Web Interface vorhanden sind. Darunter können auch sehr kleine Dinge auf der Website fallen, aber auch komplexe Features, die neue Funktionen bieten.
+Einige der Faktoren, die wir bei Vorschlägen für neue Spiele oder Modpacks überprüfen, sind, ob es eine gewisse Mindestnachfrage nach dem Spiel gibt, das Alter des Spiels und ob es immer noch beliebt ist und aktiv gepflegt/aktualisiert wird.
 
-### Was geschieht, nachdem mein Vorschlag eingereicht wurde?
-Wir schauen uns alle neuen Vorschläge an und entscheiden, ob es sinnvoll ist, den Vorschlag anzunehmen oder sogar direkt umzusetzen. Ist ein Vorschlag angenommen, wird aber nicht direkt umgesetzt, könnt ihr durch einen "Like" zeigen, dass euch dieser Vorschlag wichtig ist. Je mehr Likes, desto höher die Wahrscheinlichkeit, dass ein bisher noch nicht umgesetzter Vorschlag in Betracht gezogen wird.
+#### Überlegungen für neue Webinterface-Funktionen
 
-![image](https://user-images.githubusercontent.com/61953937/159140318-1bf32331-bebd-4ef9-acbc-582de2517603.png)
+Wenn du ein neues Feature für das Webinterface vorschlägst, achte darauf, dass es sich auf unsere ZAP-Hosting Website und das Webinterface bezieht, z.B. auf das Webinterface deines Gameservers.
+
+Alle Ideen sind hier willkommen, egal ob es sich um einen kleinen Verbesserungsvorschlag oder eine völlig neue Funktion handelt, die deiner Meinung nach in unsere Website und Webinterface aufgenommen werden sollte.
+
+
+### Erstellen eines Vorschlags
+
+Bevor du einen neuen Vorschlag einreichst, empfehlen wir dir, mit der Suchfunktion deines Browsers (STRG+F) nachzusehen, ob dein Vorschlag schon einmal gepostet worden ist. Wenn dies der Fall ist, kannst du den bestehenden Beitrag liken, anstatt ein Duplikat zu erstellen.
+
+Du kannst einen neuen Vorschlag über den grünen Button **Vorschlagsfunktion** auf der [Vorschlagsseite](https://zap-hosting.com/de/suggestion/) erstellen. Daraufhin öffnet sich ein Formular, in dem du Details ausfüllen und den Vorschlag in die entsprechende Kategorie einordnen kannst. Du kannst deinen Vorschlag so detailliert beschreiben, wie du möchtest, solange er den Punkt gut beschreibt.
+
+Wir empfehlen dir, dazu eingeloggt zu sein. Alternativ kannst du auch den E-Mail-Bereich ausfüllen, wenn du zum Zeitpunkt der Einreichung deines Vorschlags nicht in deinem ZAP-Hosting-Konto eingeloggt bist.
+
+![image](https://github.com/zaphosting/docs/assets/42719082/54c96bb9-4fc7-46d4-9ffa-f78d80688f76)
+
+
+
+### Nach der Einreichung des Vorschlags
+
+Nachdem Sie Ihren Vorschlag erfolgreich eingereicht haben, prüfen wir regelmäßig, ob neue Vorschläge eingegangen sind und entscheiden, ob wir sie genehmigen, wenn sie akzeptabel sind, oder ob wir sie gelegentlich sogar direkt umsetzen.
+
+Wie bereits in der Einleitung erwähnt, können andere Mitglieder der ZAP-Community Ihren Vorschlag liken, um die Wichtigkeit des Vorschlags zu zeigen. Je mehr "Likes" ein Vorschlag erhält, desto wahrscheinlicher ist es, dass der Vorschlag in Zukunft berücksichtigt und bearbeitet wird.

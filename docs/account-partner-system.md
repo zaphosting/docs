@@ -1,55 +1,48 @@
 ---
 id: account-partner-system
 title: ZAP-Hosting Partner Program
-description: Information on how to apply to become a partner, what the requirements are and what we can offer - ZAP-Hosting.com documentation
+description: Information on applying as a ZAP-Hosting partner, including the requirements, benefits and the application process - ZAP-Hosting.com documentation
 sidebar_label: Introduction
 ---
 
-## 
-
 ## Introduction
 
-You have a YouTube channel, stream on Twitch or run a gaming clan? Then you can apply as a partner. Our partners advertise ZAP-Hosting on their channels and in return they can get for example **free servers, hardware** or **server** for raffles or **money**.
-
-
-
-## Application
-
-To apply as a partner, just click on the field "**Apply now**" on our [partner site](https://zap-hosting.com/en/partner/) and fill out the application. 
-
-
+Do you have a YouTube channel, stream on Twitch or run an awesome project? Awesome, you may be interested in becoming a ZAP-Hosting partner. Our partners advertise ZAP-Hosting on their platforms in return for great items such as **free servers**, **money** and more. We could even provide a server for a giveaway or raffle on occasions.
 
 ## Audience
 
-The partner program is aimed at:
-
+Our partner program is in particularly (but not limited) aimed at:
 - Content Creators
-- gaming clans
-- eSports Clans
-- gaming communities
-- Blogs and forums
-- Game developers
+- Gaming/eSports Clans
+- Gaming Communities
+- Blogs and Forums
+- Game Developers
 
-It is important that your channel has a certain minimum reach and that your target group is interested in game servers. For example, if you have a YouTube channel that shows Minecraft videos, then you're perfect for our affiliate program. Makeup tips, on the other hand, are not very interesting for our affiliate program.
+One key determining factor is that your platform of choice has a certain minimum reach and that your target group has potential interest in gameservers and hosting.
 
+As an example, if you are a content creator on YouTube creating Minecraft videos with an acceptable size in audience, you would be a perfect fit for our partner program. On the other hand, a channel such as for makeup tips is not an ideal fit for our affiliate program as the target audience does not fit with our business sector.
 
+## Required reach
 
-## Required reach 
+As an affiliate, you are required to have a certain amount of reach in order to make a partnership make sense for us. We pay attention to a range of statistics and numbers to determine which applications are ideal as partners.
 
-As an affiliate, you should have a certain amount of reach so that a partnership makes sense for us. With video channels, for example, we pay particular attention to the number of video views in the last few months, with forums to the number of members and whether contributions are made regularly.
+As an example, as a content creator we would pay particular attention to the number of video views that you have sustained over the past few months, where as in a forms or blog we would look for the number of members and contributions that are present regularly on your site.
 
 :::info
-As a rule of thumb, your reach should be in the four-figure range in order to be accepted as a partner.
+As a general rule of thumb, we expect your reach to be around the four-figure (1,000+) range in order to be considered and accepted as a new partner.
 :::
-
-
 
 ## What we offer - The benefits!
 
-As a partner of ZAP-Hosting you can get the following advantages:
-
-- You get a personal account manager who serves as a contact person and plans for example different actions with you.
-- You can get free servers from us.
-- You can get better affiliate commission conditions.
-- For events and promotions we gladly provide profits (e.g. ZAP Coins, servers, hardware).
+As an official partner of ZAP-Hosting you can get the following advantages:
+- You receive a personal account manager who serves as your point of contact and plans different actions with you.
+- You can receive free servers from us.
+- You can receive better affiliate commission conditions.
+- For events and promotions we gladly provide goodies (e.g. ZAP Coins, servers, hardware).
 - You will be linked on our [partner site](https://zap-hosting.com/en/partner/).
+
+## Partner Application
+
+Now that you understand more about our awesome partner program, it might be time to apply. Our partner application process is super simple! 
+
+Head over to our [partner site](https://zap-hosting.com/en/partner/) and simply fill out the application to the best of your ability. Once you are ready, hit that submit button and we will get back to you as soon as possible. Good luck!
