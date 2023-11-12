@@ -37,6 +37,9 @@ You can filter by version and modloader using the drop-down menu at the top of t
 
 :::
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 <Tabs>
 <TabItem value="Mods" label="For Mods" default>
 In the "File Details" section, press the "Download" button. Save this file somewhere, you'll need it later on.

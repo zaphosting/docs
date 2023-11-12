@@ -22,7 +22,7 @@ class DocSearch {
         queryHook = false,
         handleSelected = false,
         enhancedSearchInput = false,
-        layout = "collumns"
+        layout = "column"
     }) {
         this.input = DocSearch.getInputFromSelector(inputSelector);
         this.queryDataCallback = queryDataCallback || null;
@@ -85,6 +85,17 @@ class DocSearch {
         if (enhancedSearchInput) {
             DocSearch.bindSearchBoxEvent();
         }
+
+
+        // Ctrl + K should focus the search bar, emulating the Algolia search UI
+        document.addEventListener('keydown',  (e) => {
+            if (e.ctrlKey && e.key == 'k') {
+                this.input.focus();
+
+                // By default, using Ctrl + K in Chrome will open the location bar, so disable this
+                e.preventDefault();
+            }
+        });
     }
 
     static injectSearchBox(input) {

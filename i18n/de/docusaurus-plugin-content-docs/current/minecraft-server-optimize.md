@@ -28,7 +28,7 @@ Einige Spieler übertreiben es aber auch sehr mit den Chunks und stellen dieses 
 
 Die Sichtweite kann bei einem Vanilla-Server in der "server.properties" Config angepasst werden, hierzu musst der Wert "view-distance" angepasst werden.
 Um das Spielerlebnis selbst nicht besonders groß einzuschränken, wird empfohlen diesen Wert auf 5-6 zu stellen, wodurch der Server bis zu 50% entlastet wird.  
-Wir halten hierzu auch bereits eine Eintrag in unserer Dokumentation bereit, welcher [hier](https://zap-hosting.com/guides/docs/de/minecraft_default_config/#view-distance) gefunden werden kann.
+Wir halten hierzu auch bereits eine Eintrag in unserer Dokumentation bereit, welcher [hier](minecraft-default-config.md#view-distance) gefunden werden kann.
 
 ### Daten-Komprimierung
 
@@ -38,11 +38,11 @@ Aber auch Spieler-Aktionen oder Ereignisse in der Welt, wie Explosionen als Beis
 
 Um die Regelmäßigkeit dieses Austausches etwas eleganter zu gestallten, kann man die Größe der gepackten Daten verdoppeln, wodurch erzielt wird, dass der Server im Vergleich zu vorher nur 50% des Aufwandes betreiben muss, um die gleichen Daten mit den Spielern auszutauschen.
 Hierzu muss ebenfalls wieder in der "server.properties" Config der Wert "network-compression-threshold" angepasst werden. Hierbei sollte der Wert auf 512 gestellt werden.
-Auch hier haben wir bereits einen Eintrag in unserer Dokumentation  zu, welcher [hier](https://zap-hosting.com/guides/docs/de/minecraft_default_config/#network-compression-threshold) gefunden werden kann.
+Auch hier haben wir bereits einen Eintrag in unserer Dokumentation  zu, welcher [hier](minecraft-default-config.md#network-compression-threshold) gefunden werden kann.
 
 ## Forge
 
-Ähnlich wie bei Vanilla sind auch hier die Möglichkeiten die am Server selbst gemacht werden können leider etwas eingeschränkt, da nur sehr kleine Config-Dateien zur Verfügung stehen.
+Ähnlich wie bei Vanilla sind auch hier die Möglichkeiten die am Server selbst gemacht werden können leider etwas eingeschränkt, da nur sehr kleine Konfigurationsdateien zur Verfügung stehen.
 Jedoch ist die Installation von zusätzlichen Mods hierbei möglich, wodurch der Server auch etwas entlasst werden kann.
 
 ### Vorladen der Chunks
@@ -94,7 +94,7 @@ Einige Spieler übertreiben es aber auch sehr mit den Chunks und stellen dieses 
 
 Die Sichtweite kann bei einem Forge-Server in der "server.properties" Config angepasst werden, hierzu musst der Wert "view-distance" angepasst werden.
 Um das Spielerlebnis selbst nicht besonders groß einzuschränken, wird empfohlen diesen Wert auf 5-6 zu stellen, wodurch der Server bis zu 50% entlastet wird.  
-Wir halten hierzu auch bereits eine Eintrag in unserer Dokumentation bereit, welcher [hier](https://zap-hosting.com/guides/docs/de/minecraft_default_config/#view-distance) gefunden werden kann.
+Wir halten hierzu auch bereits eine Eintrag in unserer Dokumentation bereit, welcher [hier](minecraft-default-config.md#view-distance) gefunden werden kann.
 
 ### Daten-Komprimierung
 
@@ -104,7 +104,7 @@ Aber auch Spieler-Aktionen oder Ereignisse in der Welt, wie Explosionen als Beis
 
 Um die Regelmäßigkeit dieses Austausches etwas eleganter zu gestallten, kann man die Größe der gepackten Daten verdoppeln, wodurch erzielt wird, dass der Server im Vergleich zu vorher nur 50% des Aufwandes betreiben muss, um die gleichen Daten mit den Spielern auszutauschen.
 Hierzu muss ebenfalls wieder in der "server.properties" Config der Wert "network-compression-threshold" angepasst werden. Hierbei sollte der Wert auf 512 gestellt werden.
-Auch hier haben wir bereits einen Eintrag in unserer Dokumentation  zu, welcher [hier](https://zap-hosting.com/guides/docs/de/minecraft_default_config/#network-compression-threshold) gefunden werden kann.
+Auch hier haben wir bereits einen Eintrag in unserer Dokumentation  zu, welcher [hier](minecraft-default-config.md#network-compression-threshold) gefunden werden kann.
 
 ## Bukkit
 
@@ -115,7 +115,7 @@ Einige Spieler übertreiben es aber auch sehr mit den Chunks und stellen dieses 
 
 Die Sichtweite kann bei einem Bukkit-Server in der "server.properties" Config angepasst werden, hierzu musst der Wert "view-distance" angepasst werden.
 Um das Spielerlebnis selbst nicht besonders groß einzuschränken, wird empfohlen diesen Wert auf 5-6 zu stellen, wodurch der Server bis zu 50% entlastet wird.  
-Wir halten hierzu auch bereits eine Eintrag in unserer Dokumentation bereit, welcher [hier](https://zap-hosting.com/guides/docs/de/minecraft_default_config/#view-distance) gefunden werden kann.
+Wir halten hierzu auch bereits eine Eintrag in unserer Dokumentation bereit, welcher [hier](minecraft-default-config.md#view-distance) gefunden werden kann.
 
 ### Daten-Komprimierung
 
@@ -125,7 +125,7 @@ Aber auch Spieler-Aktionen oder Ereignisse in der Welt, wie Explosionen als Beis
 
 Um die Regelmäßigkeit dieses Austausches etwas eleganter zu gestallten, kann man die Größe der gepackten Daten verdoppeln, wodurch erzielt wird, dass der Server im Vergleich zu vorher nur 50% des Aufwandes betreiben muss, um die gleichen Daten mit den Spielern auszutauschen.
 Hierzu muss ebenfalls wieder in der "server.properties" Config der Wert "network-compression-threshold" angepasst werden. Hierbei sollte der Wert auf 512 gestellt werden.
-Auch hier haben wir bereits einen Eintrag in unserer Dokumentation  zu, welcher [hier](https://zap-hosting.com/guides/docs/de/minecraft_default_config/#network-compression-threshold) gefunden werden kann.
+Auch hier haben wir bereits einen Eintrag in unserer Dokumentation  zu, welcher [hier](minecraft-default-config.md#network-compression-threshold) gefunden werden kann.
 
 ### Spawn-Limits
 
@@ -187,7 +187,7 @@ Aber auch Spieler-Aktionen oder Ereignisse in der Welt, wie Explosionen als Beis
 
 Um die Regelmäßigkeit dieses Austausches etwas eleganter zu gestallten, kann man die Größe der gepackten Daten verdoppeln, wodurch erzielt wird, dass der Server im Vergleich zu vorher nur 50% des Aufwandes betreiben muss, um die gleichen Daten mit den Spielern auszutauschen.
 Hierzu muss ebenfalls wieder in der "server.properties" Config der Wert "network-compression-threshold" angepasst werden. Hierbei sollte der Wert auf 512 gestellt werden.
-Auch hier haben wir bereits einen Eintrag in unserer Dokumentation  zu, welcher [hier](https://zap-hosting.com/guides/docs/de/minecraft_default_config/#network-compression-threshold) gefunden werden kann.
+Auch hier haben wir bereits einen Eintrag in unserer Dokumentation  zu, welcher [hier](minecraft-default-config.md#network-compression-threshold) gefunden werden kann.
 
 ### Spawn-Limits
 
@@ -312,7 +312,7 @@ Aber auch Spieler-Aktionen oder Ereignisse in der Welt, wie Explosionen als Beis
 
 Um die Regelmäßigkeit dieses Austausches etwas eleganter zu gestallten, kann man die Größe der gepackten Daten verdoppeln, wodurch erzielt wird, dass der Server im Vergleich zu vorher nur 50% des Aufwandes betreiben muss, um die gleichen Daten mit den Spielern auszutauschen.
 Hierzu muss ebenfalls wieder in der "server.properties" Config der Wert "network-compression-threshold" angepasst werden. Hierbei sollte der Wert auf 512 gestellt werden.
-Auch hier haben wir bereits einen Eintrag in unserer Dokumentation  zu, welcher [hier](https://zap-hosting.com/guides/docs/de/minecraft_default_config/#network-compression-threshold) gefunden werden kann.
+Auch hier haben wir bereits einen Eintrag in unserer Dokumentation  zu, welcher [hier](minecraft-default-config.md#network-compression-threshold) gefunden werden kann.
 
 ### Spawn-Limits
 

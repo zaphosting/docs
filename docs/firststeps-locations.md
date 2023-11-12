@@ -11,7 +11,7 @@ sidebar_label: Locations
 
 More locations, faster connections and more enjoyment with the server. This is the goal of ZAP-Hosting, which was founded in 2010 in Germany where it also offered its first server location. More locations have been added steadily since then to provide the best possible experience for all of our customers. 
 
-Due to the great international interest and growth of the company, additional locations in Europe, North and South America, Asia and Australia have been added over the years. We are currently offering our server products in **FFM / Eygelshoven, DE, London, UK, Helsinki, Finland, Los Angeles, USA (west), Dallas, USA (central), Ashburn, USA (east), Montreal, Canada, Sydney, Australia, Singapore, Asia**. 
+Due to the great international interest and growth of the company, additional locations in Europe, North and South America, Asia and Australia have been added over the years. We are currently offering our server products in **FFM / Eygelshoven, DE, London, UK, Helsinki, Finland, Los Angeles, USA (West), Dallas, USA (Central), Ashburn, USA (East), Montreal, Canada, Sydney, Australia, Singapore, Asia**. 
 
 We have and will continue to take feedback from our customers into consideration and check to what extent demand exists in certain locations and which products are wanted in order to be able to offer our available products in the best possible way there as well. 
 
@@ -21,17 +21,17 @@ We have and will continue to take feedback from our customers into consideration
 
 As briefly mentioned in advance, we are continuously developing and expanding the scope of our products. However, this is not necessarily always easy and uncomplicated to implement. For that reason, it can happen that we are not able to offer every product at every location from the beginning. You will find an overview of the availability of the server products at the respective locations below. 
 
-| Standorte               | Gameserver | Teamspeak | vRootServer | Dedicated Server |
+| Locations               | Gameserver | Teamspeak | vRootServer | Dedicated Server |
 | ----------------------- | ---------- | --------- | ----------- | ---------------- |
 | FFM / Eygelshoven, DE   | ✓          | ✓         | ✓           | ✓                |
 | London, UK              | ✓          | ✓         | X           | X                |
-| Helsinki, Finnland      | ✓          | ✓         | ✓           | X                |
-| Los Angeles, USA (west) | ✓          | ✓         | ✓           | X                |
-| Dallas, USA (Zentral)   | ✓          | ✓         | ✓           | X                |
-| Ashburn, USA (Ost)      | ✓          | ✓         | ✓           | X                |
-| Montreal, Kanada        | ✓          | ✓         | X           | X                |
-| Sydney, Australien      | ✓          | ✓         | X           | X                |
-| Singapur, Asien         | ✓          | ✓         | X           | X                |
+| Helsinki, Finland       | ✓          | ✓         | ✓           | X                |
+| Los Angeles, USA (West) | ✓          | ✓         | ✓           | X                |
+| Dallas, USA (Central)   | ✓          | ✓         | ✓           | X                |
+| Ashburn, USA (East)     | ✓          | ✓         | ✓           | X                |
+| Montreal, Canada        | ✓          | ✓         | X           | X                |
+| Sydney, Australia       | ✓          | ✓         | X           | X                |
+| Singapore, Asia         | ✓          | ✓         | X           | X                |
 
 
 
@@ -63,7 +63,7 @@ Especially HP C7000 G3 ProLiant blade systems with 16x HP G8/G9 blades with 2x E
 
 
 **DDoS Protection:**
-Since December 2019, we have been using the **Combahton** DDoS Protection with **Corebackbone** pre-filtering in Frankfurt and Eygelshoven. Customers benefit from a dynamic and highly optimized DDoS protection, especially for services like "Gameserver" and "Teamspeak Server". We also offer a **DDoS Manager** for each server at this location.
+Since December 2019, we have been using the **Aurologic** DDoS Protection with **Corebackbone** pre-filtering in Frankfurt and Eygelshoven. Customers benefit from a dynamic and highly optimized DDoS protection, especially for services like "Gameserver" and "Teamspeak Server". We also offer a **DDoS Manager** for each server at this location.
 
 
 
@@ -133,7 +133,7 @@ We use our own network hardware (Juniper QFX5100 switches) with 40G QSFP+ uplink
 
 **DDoS Protection:**
 
-Since December 2019, we have been using the **Combahton** DDoS Protection with **Corebackbone** pre-filtering in Frankfurt and Eygelshoven. Customers benefit from a dynamic and highly optimized DDoS protection, especially for services like "Gameserver" and "Teamspeak Server". We also offer a **DDoS Manager** for each server at this location.
+Since December 2019, we have been using the **Aurologic** DDoS Protection with **Corebackbone** pre-filtering in Frankfurt and Eygelshoven. Customers benefit from a dynamic and highly optimized DDoS protection, especially for services like "Gameserver" and "Teamspeak Server". We also offer a **DDoS Manager** for each server at this location.
 
 
 
@@ -188,7 +188,7 @@ We use our own network hardware (Juniper QFX5100 switches) with 40G QSFP+ uplink
 
 **DDoS Protection:**
 
-Since December 2019, we have been using the **Combahton** DDoS Protection with **Corebackbone** pre-filtering in Frankfurt and Eygelshoven. Customers benefit from a dynamic and highly optimized DDoS protection, especially for services like "Gameserver" and "Teamspeak Server". We also offer a **DDoS Manager** for each server at this location.
+Since December 2019, we have been using the **Aurologic** DDoS Protection with **Corebackbone** pre-filtering in Frankfurt and Eygelshoven. Customers benefit from a dynamic and highly optimized DDoS protection, especially for services like "Gameserver" and "Teamspeak Server". We also offer a **DDoS Manager** for each server at this location.
 
 
 

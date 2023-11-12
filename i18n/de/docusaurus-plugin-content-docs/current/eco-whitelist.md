@@ -74,4 +74,4 @@ Alternativ ist es ebenfalls möglich, mit Administrator-Berechtigungen im Spiel 
 
 ## Whitelist verwalten
 
-Die Verwaltung der Whitelist erfolgt ausschließlich über die **Users.eco** Config-Datei, da es keinen Server Befehl zum Entfernen eines Spielers gibt. Wenn du also einen Spieler entfernen möchtest, dann muss dieser wieder aus der Config ausgetragen werden. Ebenfalls ist dann ein Neustart des Servers notwendig, damit die Änderung wirksam wird. 
+Die Verwaltung der Whitelist erfolgt ausschließlich über die **Users.eco** Konfigurationsdatei, da es keinen Server Befehl zum Entfernen eines Spielers gibt. Wenn du also einen Spieler entfernen möchtest, dann muss dieser wieder aus der Config ausgetragen werden. Ebenfalls ist dann ein Neustart des Servers notwendig, damit die Änderung wirksam wird. 

@@ -128,8 +128,7 @@ Zu deinem Produkt bieten wir ebenfalls weitere Anleitungen an. Das beinhaltet be
 
 | Anleitungen          | Seite                                                        |
 | -------------------- | ------------------------------------------------------------ |
-| Admin werden         | [Anleitung aufrufen](https://zap-hosting.com/guides/docs/de/moe_becomeadmin/) |
-| Zum Server verbinden | [Anleitung aufrufen](https://zap-hosting.com/guides/docs/de/moe_firststeps_connect) |
+| Zum Server verbinden | [Anleitung aufrufen](moe-firststeps-connect.md) |
 <p style={{textAlign: 'center'}}>Liste zuletzt aktualisiert am 01.05.2023</p>
 
 
@@ -168,7 +167,7 @@ Solltest du dir doch mehr zutrauen und präzisere Änderungen vornehmen wollen, 
 
 ### Configs
 
-Der Editor für die Config-Dateien ermöglicht dir, die Konfigurationsdateien direkt über die Webseite auf klassische Weise, also ohne vereinfachte Ansicht, zu bearbeiten. Mit dieser Option kannst du die Einstellungen deines Servers individuell anpassen und nach deinen persönlichen Wünschen konfigurieren.
+Der Editor für die Konfigurationsdateien ermöglicht dir, die Konfigurationsdateien direkt über die Webseite auf klassische Weise, also ohne vereinfachte Ansicht, zu bearbeiten. Mit dieser Option kannst du die Einstellungen deines Servers individuell anpassen und nach deinen persönlichen Wünschen konfigurieren.
 
 Durch die Verwendung des Editors erhältst du direkten Zugriff auf alle verfügbaren Optionen und kannst diese präzise anpassen. Dies ist besonders nützlich für fortgeschrittene Benutzer, die eine umfassende Kontrolle über ihre Servereinstellungen wünschen und genau wissen, welche Änderungen sie vornehmen möchten.
 
@@ -180,7 +179,7 @@ Hast du festgestellt, dass einige deiner Änderungen teilweise überschrieben we
 
 ### Spiele
 
-Unter **Spiele** hast du jederzeit die Möglichkeit die Spielvariante deines bestehenden Spiels zu verändern oder generell ein anderes Spiel zu installieren.  Spiele die den gleichen Slotpreis beinhalten kannst du direkt unter **Verfügbare Spiele** auswählen. Für alle weiteren Spiele wird zunächst eine Anpassung des Slotpreises benötigt. Mehr dazu findest du in der [Spielwechsel](https://zap-hosting.com/guides/docs/de/gameserver_gameswitch/) Anleitung. 
+Unter **Spiele** hast du jederzeit die Möglichkeit die Spielvariante deines bestehenden Spiels zu verändern oder generell ein anderes Spiel zu installieren.  Spiele die den gleichen Slotpreis beinhalten kannst du direkt unter **Verfügbare Spiele** auswählen. Für alle weiteren Spiele wird zunächst eine Anpassung des Slotpreises benötigt. Mehr dazu findest du in der [Spielwechsel](gameserver-gameswitch.md) Anleitung. 
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/SJoSrBHz4myFkai/preview)
 
@@ -212,7 +211,7 @@ Im Abschnitt **Werkzeuge** deines Navigationspanels findest du eine Reihe von Un
 
 ### FTP-Browser
 
-Über den **FTP-Browser** erhältst du alle erforderlichen Informationen, um eine Verbindung zum FTP-Zugang herzustellen. Der FTP-Zugang ermöglicht dir einen direkten Zugriff auf die Dateien deines Gameservers. Wir empfehlen die Verwendung eines externen FTP-Programms wie **Filezilla** oder **WinSCP** für eine optimale Nutzung. Wenn du nicht weißt, wie man FTP verwendet, dann kann dir ein Blick in die folgende [Anleitung](https://zap-hosting.com/guides/docs/de/gameserver_ftpaccess/) weiterhelfen.
+Über den **FTP-Browser** erhältst du alle erforderlichen Informationen, um eine Verbindung zum FTP-Zugang herzustellen. Der FTP-Zugang ermöglicht dir einen direkten Zugriff auf die Dateien deines Gameservers. Wir empfehlen die Verwendung eines externen FTP-Programms wie **Filezilla** oder **WinSCP** für eine optimale Nutzung. Wenn du nicht weißt, wie man FTP verwendet, dann kann dir ein Blick in die folgende [Anleitung](gameserver-ftpaccess.md) weiterhelfen.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/aXjfGiX48Yqzy75/preview)
 

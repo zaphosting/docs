@@ -30,7 +30,7 @@ Dadurch öffnet sich direkt auf der Website ein Texteditor, mit dem du diese bea
 </TabItem>
 
 <TabItem value="ftp" label="Via FTP">
-Die letzte Methode, um auf die Raw-Datei zuzugreifen, ist per FTP. Wenn du mit der Verwendung von FTP nicht vertraut bist, empfehlen wir dir, einen Blick in die [FTP Dateizugriff](https://zap-hosting.com/guides/docs/gameserver-ftpaccess/) Anleitung zu werfen. Diese Methode dauert jedoch länger, und wenn du den Inhalt der Datei direkt bearbeiten möchtest, empfehlen wir dir, einfach den Abschnitt **Configs** im Webinterface deines Gameservers zu verwenden.
+Die letzte Methode, um auf die Raw-Datei zuzugreifen, ist per FTP. Wenn du mit der Verwendung von FTP nicht vertraut bist, empfehlen wir dir, einen Blick in die [FTP Dateizugriff](gameserver-ftpaccess.md) Anleitung zu werfen. Diese Methode dauert jedoch länger, und wenn du den Inhalt der Datei direkt bearbeiten möchtest, empfehlen wir dir, einfach den Abschnitt **Configs** im Webinterface deines Gameservers zu verwenden.
 </TabItem>
 </Tabs>
 
@@ -41,7 +41,7 @@ Die letzte Methode, um auf die Raw-Datei zuzugreifen, ist per FTP. Wenn du mit d
 Es gibt eine Reihe von Farben, die du zu deinem Servernamen hinzufügen kannst. Diese können durch die Verwendung eines Präfixes angegeben werden, wenn du die Farbe ändern möchtest. Die Liste der verfügbaren Farben findest du in der folgenden Tabelle.
 
 :::info
-Um Farben in deinem Servernamen zu verwenden, musst du ein gültiges [FiveM Patreon Tier](https://www.patreon.com/FiveM/posts) haben, das den Vorteil beinhaltet. Wenn das der Fall ist und es immer noch nicht funktioniert, vergewissere dich, dass du einen [benutzerdefinierten Lizenzschlüssel, mehr Informationen findest du in unserem Leitfaden](https://zap-hosting.com/guides/docs/FiveM-licensekey/) eingestellt hast.
+Um Farben in deinem Servernamen zu verwenden, musst du ein gültiges [FiveM Patreon Tier](https://www.patreon.com/FiveM/posts) haben, das den Vorteil beinhaltet. Wenn das der Fall ist und es immer noch nicht funktioniert, vergewissere dich, dass du einen [benutzerdefinierten Lizenzschlüssel, mehr Informationen findest du in unserem Leitfaden](fivem-licensekey.md) eingestellt hast.
 :::
 
 Jetzt kannst du den Namen deines Servers ändern, indem du eine der drei Methoden anwendest, die im Abschnitt Zugriff auf die Konfiguration beschrieben sind. Hier ist ein Beispiel für die Verwendung von Farben und das Ergebnis, das sie erzeugen:

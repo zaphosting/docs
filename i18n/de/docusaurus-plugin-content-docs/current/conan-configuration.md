@@ -8,7 +8,7 @@ sidebar_label: Server Konfiguration
 
 ## Server Konfiguration
 
-Conan Exiles Server können umfangreich konfiguriert werden. Die Konfiguration des Servers findet über die Config-Dateien statt. Diese findest du im Webinterface in der Gameserver Verwaltung unter Configs. Öffne dazu die **ServerSettings.ini** Config-Datei.
+Conan Exiles Server können umfangreich konfiguriert werden. Die Konfiguration des Servers findet über die Konfigurationsdateien statt. Diese findest du im Webinterface in der Gameserver Verwaltung unter Configs. Öffne dazu die **ServerSettings.ini** Konfigurationsdatei.
 
 
 

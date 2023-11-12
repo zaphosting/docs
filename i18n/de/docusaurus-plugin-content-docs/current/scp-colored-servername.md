@@ -19,7 +19,7 @@ Wenn du sichergestellt hast, dass kein Name eingetragen ist, öffnen nun die 'Co
 
 ![image](https://user-images.githubusercontent.com/26007280/221601941-477c3ef0-8e22-47c3-b86c-c8fd2eaacb60.png)
 
-Die Config-Datei öffnet sich jetzt, bei server_name können nun mit dem [RichText](https://docs.unity3d.com/Packages/com.unity.ugui@1.0/manual/StyledText.html) verschiedene Farben definiert werden.
+Die Konfigurationsdatei öffnet sich jetzt, bei server_name können nun mit dem [RichText](https://docs.unity3d.com/Packages/com.unity.ugui@1.0/manual/StyledText.html) verschiedene Farben definiert werden.
 
 ![image](https://user-images.githubusercontent.com/26007280/221601977-06b16924-3119-48ab-bba8-f1c830a753e9.png)
 

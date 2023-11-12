@@ -58,7 +58,9 @@ Du solltest nun auf den Abschnitt **Datenbank** im Webinterface deines Gameserve
 
 ![image](https://github.com/zaphosting/docs/assets/42719082/83ba522a-929e-4a90-8c9e-0badc2d779d4)
 
+
 Auf der Datenbankseite findest du eine Reihe von verschiedenen Funktionen zur Verwaltung deiner Datenbank, einschließlich der Optionen zum Sichern, Erstellen, Verwalten und mehr. Wir werden uns auf den Zugriff auf deine Datenbank konzentrieren, wirf jedoch einen Blick auf unsere anderen Datenbankanleitungen, wenn du mehr Informationen benötigst: [Externen DB-Zugang einrichten](gameserver-database-external-access.md).
+
 
 Klicke auf das blaue Icon für die Weiterleitung, das dich zum Tool **phpmyadmin** führt, mit dem du ganz einfach auf deine Datenbank zugreifen kannst. Melde dich mit den Anmeldedaten an, die du auf der Datenbank-Seite erhalten hast, wenn du dazu aufgefordert wirst.
 

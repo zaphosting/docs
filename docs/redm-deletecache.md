@@ -27,7 +27,7 @@ Your server will now restart and clear its cache. When the server is restarted, 
 
 ### Accessing via FTP
 
-Fistly, you need to connect to your server using FTP. If you are not familiar with using FTP, we recommend you to have a look at the [FTP file access](https://zap-hosting.com/guides/docs/gameserver-ftpaccess/) guide.
+Fistly, you need to connect to your server using FTP. If you are not familiar with using FTP, we recommend you to have a look at the [FTP file access](gameserver-ftpaccess.md) guide.
 
 ![image](https://user-images.githubusercontent.com/13604413/159137768-9431a8d8-afa2-47a7-960b-7bcd700c9627.png)
 

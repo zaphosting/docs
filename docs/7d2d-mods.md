@@ -30,7 +30,7 @@ The first thing you need to do is to download the mods that you want to install 
 
 ## Installation
 
-Once the desired mods have been downloaded, you can start with the actual installation of the mods. The setup of the mods is done via FTP. You need a FTP client to be able to upload files to your server. If you don't know what FTP is and how it works, then you should have a look at the following guide:  [FTP File Access](https://zap-hosting.com/guides/docs/en/gameserver_ftpaccess/)
+Once the desired mods have been downloaded, you can start with the actual installation of the mods. The setup of the mods is done via FTP. You need a FTP client to be able to upload files to your server. If you don't know what FTP is and how it works, then you should have a look at the following guide:  [FTP File Access](gameserver-ftpaccess.md)
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/9Q86iArComw55cH/preview)
 

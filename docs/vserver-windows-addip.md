@@ -11,7 +11,7 @@ First you have to find out what your extra IP is. To do this, you can click on t
 ![image](https://user-images.githubusercontent.com/13604413/159172829-7297f0a3-4678-4690-a303-0a17dda275e6.png)
 
 ## Connect to the server
-To add the extra IPs to your server, you first need to connect to them. How this is done is explained in detail in our separate instructions: https://docs.zap-hosting.com/docs/en/vserver_windows_userdp/#-remotedesktopverbindung
+To add the extra IPs to your server, you first need to connect to them. How this is done is explained in detail in our separate instructions: https://docs.zap-hosting.com/docs/en/vserver-windows-userdp/#-remotedesktopverbindung
 
 ##  Open network adapter
 So that you can enter your own IPs, you first have to open your adapter on your server. To do this, right-click on the internet symbol from your server, which you can find at the bottom right of the screen (right next to the time):

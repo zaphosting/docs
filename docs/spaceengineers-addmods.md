@@ -31,7 +31,7 @@ After an interesting mod has been found, we click on it once to see all further 
 
 ## Open Config Files
 
-There are two ways to edit a server's files. On the one hand, this would be possible via [FTP](https://zap-hosting.com/guides/docs/en/gameserver_ftpaccess/) and once through the Config Editor in the web interface itself.
+There are two ways to edit a server's files. On the one hand, this would be possible via [FTP](gameserver-ftpaccess.md) and once through the Config Editor in the web interface itself.
 
 In this case, the config is edited manually via FTP to avoid syntax errors in the config. How exactly the connection via FTP is established is described in detail in the instructions linked above.
 
@@ -53,7 +53,7 @@ There is already a mod area in the config, which is at the end of the config. We
 
 `<Mods></Mods>`
 
-As soon as the content is inserted, we move the cursor between ">" & "<" and then press ENTER once. This will automatically use the correct Sytnax and we can continue.
+As soon as the content is inserted, we move the cursor between "&gt;" & "&lt;" and then press ENTER once. This will automatically use the correct Sytnax and we can continue.
 
 ![image](https://user-images.githubusercontent.com/26007280/189900206-9be3ff6f-1fb3-4ce8-828a-e5a000589738.png)
 

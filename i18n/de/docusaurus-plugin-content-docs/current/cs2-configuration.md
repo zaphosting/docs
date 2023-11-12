@@ -15,7 +15,7 @@ CS2 wurde erst vor kurzem veröffentlicht. Das Spiel erhält momentan noch einig
 
 ## Einführung
 
-Counter-Strike Server lassen sich umfangreich konfigurieren. Grundlegende Einstellungen können über die **server.cfg** Konfigurationsdatei und über die Einstellungsseite im Webinterface vorgenommen werden. Die erweitere Konfiguration erfolgt über die Gamemode Config-Dateien wie zum Beispiel gamemode_competitive.cfg, gamemode_custom.cfg, gamemode_casual.cfg, gamemode_cooperative.cfg, gamemode_demolition.cfg, usw.
+Counter-Strike Server lassen sich umfangreich konfigurieren. Grundlegende Einstellungen können über die **server.cfg** Konfigurationsdatei und über die Einstellungsseite im Webinterface vorgenommen werden. Die erweitere Konfiguration erfolgt über die Gamemode Konfigurationsdateien wie zum Beispiel gamemode_competitive.cfg, gamemode_custom.cfg, gamemode_casual.cfg, gamemode_cooperative.cfg, gamemode_demolition.cfg, usw.
 
 Unter den Einstellungen wird der Gamemode bestimmt der benutzt werden soll. Die Befehle dieser Config werden dann dementsprechend geladen. Diese kannst du entweder in der Gameserver Verwaltung oder manuell via FTP unter **gXXXXXX/cs2/game/csgo/cfg/** verwaltet werden. 
 
@@ -35,7 +35,7 @@ Auf der Einstellungsseite kannst du Basiseinstellungen zum GSL Token, Gametype/G
 
 Gameserver Login Tokens (GSLTs) ist ein Verfahren, welches Steam als Schutzmaßnahme implementiert hat. Um Gameserver von gewissen Steam Games (hauptsächlich Source-Games) zu betreiben ist es zwingend notwendig einen Token zu generieren. Genauere Informationen dazu findest du hier:
 
-[Gameserver Login Token](https://zap-hosting.com/guides/docs/de/source_gsltoken/)
+[Gameserver Login Token](source-gsltoken.md)
 
 
 
@@ -133,7 +133,7 @@ Gewisse Befehle sind geschützt und können daher nur benutzt werden, wenn Cheat
 
 ### Gamemode spezifische Konfiguration
 
-Wie am Anfang beschrieben definierst du im Interface in der Einstellungsseite, welchen Gamemode/Gametype du benutzen möchtest. Danach musst du dich dann richten und die entsprechende Config-Datei bearbeiten. In den Gamemode-Configs können detailierte Änderungen zum Spielgeschehen, Botverhalten usw vorgenommen werden.
+Wie am Anfang beschrieben definierst du im Interface in der Einstellungsseite, welchen Gamemode/Gametype du benutzen möchtest. Danach musst du dich dann richten und die entsprechende Konfigurationsdatei bearbeiten. In den Gamemode-Configs können detailierte Änderungen zum Spielgeschehen, Botverhalten usw vorgenommen werden.
 
 
 

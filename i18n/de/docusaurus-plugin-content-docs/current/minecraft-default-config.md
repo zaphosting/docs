@@ -41,7 +41,7 @@ Wenn du nur eine einzige IP hast, kann dieser Wert einfach frei bleiben - Das gl
 
 ### level-seed
 
-Standardmäßig generiert der Weltgenerator immer einen zufälligen [Seed](s://minecraft-de.gamepedia.com/Startwert) und damit auch eine komplett zufällige Welt.
+Standardmäßig generiert der Weltgenerator immer einen zufälligen [Seed](https://minecraft.fandom.com/de/wiki/Startwert) und damit auch eine komplett zufällige Welt.
 Du kannst hier jedoch einen eigenen Seed aus **Buchstaben oder Zahlen** festlegen, worauf der Server dann die entsprechende Welt erstellt. Die maximale Länge von **32 Zeichen** sollte zudem nicht überschritten werden.
 
 :::info
@@ -53,7 +53,7 @@ Es gibt einige Seed-Generatoren, wo man eine Welt nach seinen eigenen Vorstellun
 ### gamemode
 
 Mit dieser Option kannst du den standardmäßigen Spielmodus auf deinem Server festlegen.
-Der Spielmodus wird jedem Spieler zum ersten Besuch des Servers erteilt und kann danach über den [/gamemode](https://minecraft-de.gamepedia.com/Befehl/gamemode) Befehl jederzeit angepasst werden.
+Der Spielmodus wird jedem Spieler zum ersten Besuch des Servers erteilt und kann danach über den [/gamemode](https://minecraft.fandom.com/de/wiki/Befehl/gamemode) Befehl jederzeit angepasst werden.
 
 Sofern du die IDs der jeweiligen Spielmodi nicht kannst, findest du hier eine Auflistung:
 
@@ -71,7 +71,7 @@ Sofern du als Beispiel mehrere Server auf deinem Rootserver betreiben möchtest,
 
 ### enable-command-block
 
-Damit können [Befehlsblöcke](https://minecraft-de.gamepedia.com/Befehlsblock) auf dem Server aktiviert werden.
+Damit können [Befehlsblöcke](https://minecraft.fandom.com/de/wiki/Befehlsblock) auf dem Server aktiviert werden.
 Sofern keine gebraucht werden, sollte der Wert auf *false* gesetzt werden, da es einige Methoden gibt, womit der Server zerstört oder beschädigt werden kann in Verbindung mit Befehlsblöcken.
 
 ### allow-nether
@@ -89,7 +89,7 @@ Wir empfehlen RCON zu deaktivieren, um Eingriffe von unbefugten vorzubeugen.
 ### op-permission-level
 
 Hier kann das standardmäßige OP-Level festgelegt werden, welches einem neuen Operator zu Anfang zugeteilt werden soll.
-Die jeweiligen Level und die einzelne Vergabe je Spieler wird [hier](https://docs.zap-hosting.com/docs/de/minecraft_addop/) genauer von uns beschrieben.
+Die jeweiligen Level und die einzelne Vergabe je Spieler wird [hier](https://docs.zap-hosting.com/docs/de/minecraft-addop.md/) genauer von uns beschrieben.
 
 ### enable-query
 
@@ -155,7 +155,7 @@ Sofern dies gewünscht ist, **muss** eine neue Welt erstellt werden, da der Hard
 
 ### white-list
 
-Dies aktiviert die [Whitelist](https://minecraft-de.gamepedia.com/Befehl/whitelist), wodurch nur Spieler welche sich auf der Liste befinden Zugang erhalten. Den Umgang mit der Whitelist erklären wir [hier](http://zap-hosting.com/guides/docs/de/minecraft_whitelist/).
+Dies aktiviert die [Whitelist](https://minecraft.fandom.com/de/wiki/Befehl/whitelist), wodurch nur Spieler welche sich auf der Liste befinden Zugang erhalten. Den Umgang mit der Whitelist erklären wir [hier](http://zap-hosting.com/guides/docs/de/minecraft_whitelist/).
 
 ### broadcast-console-to-ops
 
@@ -180,7 +180,7 @@ Damit gemeint sind als Beispiel Dörfer oder Tempel.
 ### spawn-animals
 
 Legt fest, ob auf dem Server Tiere gespawnt werden sollen.
-Eine Auflistung aller Tiere findest du [hier](https://minecraft-de.gamepedia.com/Kreatur/Tiere). 
+Eine Auflistung aller Tiere findest du [hier](https://minecraft.fandom.com/de/wiki/Kreatur/Tiere). 
 
 ### snooper-enabled
 
@@ -192,7 +192,7 @@ Diese Option hat keinerlei Einfluss auf die Leistung des Servers.
 
 Damit kann die allgemeine Schwierigkeit auf dem Server festgelegt werden.
 Je nachdem verursachen Mobs als Beispiel mehr oder weniger Schaden.
-Genaue Informationen dazu und den möglichen Optionen lassen sich [hier](https://minecraft-de.gamepedia.com/Schwierigkeitsgrad#ID) finden.
+Genaue Informationen dazu und den möglichen Optionen lassen sich [hier](https://minecraft.fandom.com/de/wiki/Schwierigkeitsgrad#ID) finden.
 
 ### network-compression-threshold
 
@@ -219,7 +219,7 @@ Nach einer Änderung dieser Option sollte eine **neue Welt erstellt werden**. An
 ### spawn-monsters
 
 Legt fest, ob auf dem Server Monster gespawnt werden sollen.
-Eine Auflistung aller Monster findest du [hier](https://minecraft-de.gamepedia.com/Kreatur/Monster). 
+Eine Auflistung aller Monster findest du [hier](https://minecraft.fandom.com/de/wiki/Kreatur/Monster). 
 
 ### max-tick-time
 

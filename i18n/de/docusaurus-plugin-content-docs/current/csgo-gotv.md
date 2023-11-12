@@ -37,7 +37,7 @@ connect SERVERIP:27020
 
 
 
-Manuelle und automatische aufgenommene Demos werden im Hauptverzeichnis (gxxxxx/csgo/csgo/) des CS:GO Server abgelegt. Diese können über den bereitgestellten FTP-Zugang heruntergeladen werden. Sollte du noch nicht wissen, wie der Zugang via FTP möglich ist, dann findest du hierzu eine entsprechende Anleitung: https://docs.zap-hosting.com/docs/de/gameserver_ftpaccess/
+Manuelle und automatische aufgenommene Demos werden im Hauptverzeichnis (gxxxxx/csgo/csgo/) des CS:GO Server abgelegt. Diese können über den bereitgestellten FTP-Zugang heruntergeladen werden. Sollte du noch nicht wissen, wie der Zugang via FTP möglich ist, dann findest du hierzu eine entsprechende Anleitung: https://docs.zap-hosting.com/docs/de/gameserver-ftpaccess/
 
 
 

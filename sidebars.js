@@ -119,7 +119,8 @@ const sidebars = {
           type: "category",
           label: "First Steps",
           items: [
-            "minecraft-firststeps-connect"
+            "minecraft-firststeps-connect",
+            "minecraft-firststeps-java-bedrock-comparison"
           ]
         },
         {
@@ -430,7 +431,8 @@ const sidebars = {
         "ark-becomeadmin",
         "ark-mods",
         "ark-serverlisting",
-        "ark-configuration"
+        "ark-configuration",
+        "ark-savegame"
       ],
     },
     {
@@ -508,8 +510,7 @@ const sidebars = {
           type: "category",
           label: "First Steps",
           items: [
-            "scp-firststeps-connect",
-            "scp-firststeps-dashboard"
+            "scp-firststeps-connect"
           ]
         },		
         "scp-becomeadmin",
@@ -830,6 +831,7 @@ const sidebars = {
           type: "category",
           label: "Gameserver services",
           items: [
+            'vserver-windows-arksurvivalascended',
             'vserver-windows-valheim',
             'vserver-windows-vrising',
             'vserver-windows-satisfactory',

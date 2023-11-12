@@ -8,7 +8,7 @@ sidebar_label: Become admin
 
 
 
-Administrator rights allows you to make changes directly in the game on your server without having to change it in the Config. Adding an admin is done via the **users.ini** config. To be able to become an admin and find those files you have to install **AMXmodX** and **Metamod** first. If you haven't done this yet, then the following guide is worth a look: [AMXmodX/Metamod + Plugins](https://zap-hosting.com/guides/docs/de/cs16_plugins/)
+Administrator rights allows you to make changes directly in the game on your server without having to change it in the Config. Adding an admin is done via the **users.ini** config. To be able to become an admin and find those files you have to install **AMXmodX** and **Metamod** first. If you haven't done this yet, then the following guide is worth a look: [AMXmodX/Metamod + Plugins](cs16-plugins.md)
 
 In order to edit the **users.ini** config file, you need to connect to the server via FTP. There you have to navigate to the ``/gXXXX/cs16/cstrike/addons/amxmodx/configs`` directory. As next we open the Config with a text editor and modify it.
 

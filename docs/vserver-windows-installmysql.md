@@ -40,6 +40,6 @@ Your database server is now online and ready to use!
 If you have enabled "Enable access from remote machins for root user" during installation, you must also specify the MySQL port **3306** in the 
 Windows-Firewall. To do so, open it and create a new rule there.
 You can find the guide in how to forward ports in the firewall here:
-[Windows Port Forwarding](https://zap-hosting.com/guides/docs/en/vserver_windows_port/)
+[Windows Port Forwarding](vserver-windows-port.md)
 
 Now you can access your MySQL server externally!

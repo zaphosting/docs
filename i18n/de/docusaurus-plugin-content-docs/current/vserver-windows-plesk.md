@@ -8,7 +8,7 @@ sidebar_label: Plesk installieren
 ## Verbindung zum Server herstellen
 
 Um Plesk auf dem Server zu installieren, musst du dich erstmal mit diesen verbinden. 
-Wie das geht, ist hier in unserer separaten Anleitung ausführlich erläutert: [RDP Erstzugriff](https://docs.zap-hosting.com/docs/de/vserver_windows_userdp/#-remotedesktopverbindung)
+Wie das geht, ist hier in unserer separaten Anleitung ausführlich erläutert: [RDP Erstzugriff](https://docs.zap-hosting.com/docs/de/vserver-windows-userdp/#-remotedesktopverbindung)
 
 ## Plesk Installer 
 

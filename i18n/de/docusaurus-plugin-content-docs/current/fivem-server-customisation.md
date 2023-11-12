@@ -46,6 +46,9 @@ Es öffnet sich ein Texteditor zur Bearbeitung direkt auf der Website. </TabItem
 
 Die letzte Möglichkeit, um auf die Datei zuzugreifen, ist per FTP. Wenn du mit der Verwendung von FTP nicht vertraut bist, empfehlen wir dir, einen Blick in die [FTP Dateizugriff](gameserver-ftpaccess.md) Anleitung zu werfen. Diese Methode dauert jedoch länger, und wenn du den Inhalt der Datei direkt bearbeiten möchtest, empfehlen wir, den Abschnitt **Configs**-im Webinterface deines Gameservers zu verwenden. 
 
+
+<TabItem value="ftp" label="Via FTP">
+The final method of accessing the raw file, is through FTP. If you are not familiar with using FTP, we recommend you to have a look at the [FTP file access](gameserver-ftpaccess.md) guide. However, this method takes longer and if you wish to directly edit the file contents, we recommend simply using the **Configs** section on your gameserver's webinterface as mentioned.
 </TabItem>
 </Tabs>
 
@@ -59,6 +62,7 @@ Es gibt eine Reihe von Farben, die du zu deinem Servernamen hinzufügen kannst. 
 
 :::info
 Um Farben in deinem Servernamen verwenden zu können, musst du ein gültiges [FiveM Patreon Tier] (https://www.patreon.com/fivem/posts) haben, das den Vorteil beinhaltet. Wenn das der Fall ist und es trotzdem nicht funktioniert, vergewissere dich, dass du einen [benutzerdefinierten Lizenzschlüssel, weitere Informationen findest du in unserem Leitfaden](fivem-licensekey.md) eingestellt hast.
+In order to use colours in your server name, you must have a valid [FiveM Patreon tier](https://www.patreon.com/fivem/posts) which has the benefit. If you do but it still doesn't work, ensure that you have set a [custom license key, more info can be found on our guide](fivem-licensekey.md).
 :::
 
 Nun kannst du den Namen deines Servers ändern, indem du eine der drei Methoden anwendest, die im Abschnitt Zugriff auf die Konfiguration beschrieben sind. Hier ist ein Beispiel für die Verwendung von Farben und das Ergebnis:

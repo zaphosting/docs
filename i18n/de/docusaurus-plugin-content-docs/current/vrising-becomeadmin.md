@@ -14,7 +14,7 @@ Die Verwaltung der Admin Berechtigungen erfolgt über die **adminlist.txt**. Die
 
 ![image](https://user-images.githubusercontent.com/26007280/190595734-97691fb8-e3ce-426f-8fea-f829dae4aa58.png)
 
-Dort angelangt gibst du beim Feld deine Steam Profil URL an, welche du kopiert hast und erhältst dadurch dann deine SteamID64. Diese wird dann in der **adminlist.txt** Config-Datei eingetragen. Gehe dazu im Webinterface in deine Gameserver Verwaltung in die Kategorie Configs und rufe die adminlist.txt Config-Datei auf. 
+Dort angelangt gibst du beim Feld deine Steam Profil URL an, welche du kopiert hast und erhältst dadurch dann deine SteamID64. Diese wird dann in der **adminlist.txt** Konfigurationsdatei eingetragen. Gehe dazu im Webinterface in deine Gameserver Verwaltung in die Kategorie Configs und rufe die adminlist.txt Konfigurationsdatei auf. 
 
 ![image](https://user-images.githubusercontent.com/26007280/190595891-402ca158-0fab-4849-abdc-1d9cef91dcc3.png)
 

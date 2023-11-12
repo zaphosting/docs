@@ -11,7 +11,7 @@ sidebar_label: Standorte
 
 Mehr Standorte, schnellere Verbindungen und mehr Freude am Server. Das ist das Ziel von ZAP-Hosting, welches 2010 in Deutschland gegründet wurde und dort ebenfalls seinen ersten Server Standort angeboten hat. Seither wurden stetig weitere Standorte hinzugefügt, um all unseren Kunden das bestmögliche Erlebnis zu ermöglichen. 
 
-Durch das große internationale Interesse und dem Wachstum des Unternehmens kamen somit über die Jahre auch weitere Standorte in Europa, Nord- und Südamerika, Asien und Australien hinzu. Derzeit bieten wir unsere Server Produkte an den Standorten **FFM / Eygelshoven, DE, London, UK, Helsinki, Finnland, Los Angeles, USA (west), Dallas, USA (Zentral), Ashburn, USA (Ost), Montreal, Kanada, Sydney, Australien, Singapur, Asien** an. 
+Durch das große internationale Interesse und dem Wachstum des Unternehmens kamen somit über die Jahre auch weitere Standorte in Europa, Nord- und Südamerika, Asien und Australien hinzu. Derzeit bieten wir unsere Server Produkte an den Standorten **FFM / Eygelshoven, DE, London, UK, Helsinki, Finnland, Los Angeles, USA (West), Dallas, USA (Zentral), Ashburn, USA (Ost), Montreal, Kanada, Sydney, Australien, Singapur, Asien** an. 
 
 Wir haben und werden auch in der Zukunft stets das Feedback unserer Kunden berücksichtigen und schauen, inwieweit an gewissen Standorten Bedarf besteht und welche Produkte sich gewünscht werden, um auch dort unsere verfügbaren Produkte bestmöglich anbieten zu können. 
 
@@ -25,7 +25,7 @@ Wie bereits im Voraus kurz angeschnitten, entwickeln und erweitern wir das Angeb
 | FFM / Eygelshoven, DE   | ✓          | ✓         | ✓           | ✓                |
 | London, UK              | ✓          | ✓         | X           | X                |
 | Helsinki, Finnland      | ✓          | ✓         | ✓           | X                |
-| Los Angeles, USA (west) | ✓          | ✓         | ✓           | X                |
+| Los Angeles, USA (West) | ✓          | ✓         | ✓           | X                |
 | Dallas, USA (Zentral)   | ✓          | ✓         | ✓           | X                |
 | Ashburn, USA (Ost)      | ✓          | ✓         | ✓           | X                |
 | Montreal, Kanada        | ✓          | ✓         | X           | X                |
@@ -62,7 +62,7 @@ Zum Einsatz kommen insbesondere HP C7000 G3 ProLiant Bladesysteme mit 16x HP G8/
 
 
 **DDoS Protection:**
-Seit Dezember 2019 setzen wir in Frankfurt und Eygelshoven die **Combahton** DDoS Protection mit **Corebackbone** Vorfilterung ein. Dabei profitieren unsere Kunden von einer dynamischen und stark optimierten DDoS Protection, insbesondere bei Services wie "Gameserver" und "Teamspeak Server".
+Seit Dezember 2019 setzen wir in Frankfurt und Eygelshoven die **Aurologic** DDoS Protection mit **Corebackbone** Vorfilterung ein. Dabei profitieren unsere Kunden von einer dynamischen und stark optimierten DDoS Protection, insbesondere bei Services wie "Gameserver" und "Teamspeak Server".
 An diesem Standort bieten wir darüberhinaus einen **DDoS Manager** für jeden Server an.
 
 
@@ -135,7 +135,7 @@ Zum Einsatz kommt eigene Netzwerkhardware (Juniper QFX5100 Switches) mit 40G QSF
 
 **DDoS Protection:**
 
-Wir setzen hier auf eigene Filter-Hardware, wobei die für game-server stark optimierte Protection Software von "Combahton" verwendet wird. Die Software wird seit 2019 an unserem Hauptstandort in Frankfurt am Main, Deutschland in enger Kooperation mit Combahton weiterentwickelt und verbessert. Damit können wir eines der besten Game-server DDoS Protections auf dem Markt anbieten.
+Wir setzen hier auf eigene Filter-Hardware, wobei die für game-server stark optimierte Protection Software von "Aurologic" verwendet wird. Die Software wird seit 2019 an unserem Hauptstandort in Frankfurt am Main, Deutschland in enger Kooperation mit Aurologic weiterentwickelt und verbessert. Damit können wir eines der besten Game-server DDoS Protections auf dem Markt anbieten.
 
 
 
@@ -190,7 +190,7 @@ Zum Einsatz kommt eigene Netzwerkhardware (Juniper QFX5100 Switches) mit 40G QSF
 
 **DDoS Protection:**
 
-Wir setzen hier auf eigene Filter-Hardware, wobei die für game-server stark optimierte Protection Software von "Combahton" verwendet wird. Die Software wird seit 2019 an unserem Hauptstandort in Frankfurt am Main, Deutschland in enger Kooperation mit Combahton weiterentwickelt und verbessert. Damit können wir eines der besten Game-server DDoS Protections auf dem Markt anbieten.
+Wir setzen hier auf eigene Filter-Hardware, wobei die für game-server stark optimierte Protection Software von "Aurologic" verwendet wird. Die Software wird seit 2019 an unserem Hauptstandort in Frankfurt am Main, Deutschland in enger Kooperation mit Aurologic weiterentwickelt und verbessert. Damit können wir eines der besten Game-server DDoS Protections auf dem Markt anbieten.
 
 
 
