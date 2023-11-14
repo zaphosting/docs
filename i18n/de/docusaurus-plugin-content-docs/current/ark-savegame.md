@@ -9,28 +9,55 @@ sidebar_label: Savegame (Welt) importieren
 
 ## Einführung
 
-Du möchtest einen eigenen Spielstand (Savegame/Backup/Snapshot/) von einem früheren Server oder von den offiziellen ARK: Survival Evolved Servern verwenden? Kein Problem, denn du kannst auch ein bestehendes Savegame verwenden.  Wie das genau funktioniert, erklären wir dir im Folgenden. 
+Willst du deine eigene oder eine offizielle Backup-Speicherdatei auf deinen Ark: Survival Evolved-Server importieren? In diesem Leitfaden erfährst du, wie du deine eigene oder eine offizielle Backup-Speicherdatei auf deinen neuen Server importierst.
 
 
 
-## Voraussetzungen
+## Bereite deine Speicherdatei vor
 
-Für das Importieren des eigenen Spielstand werden alle Dateien vom Spielstand benötigt. Diese werden in der Regel in dem **SavedArks** Verzeichnis gespeichert, welches sich im **Shootergame/Saved** Verzeichnis befindet. Suche nach diesen Dateien und lege sie für den folgenden Importvorgang ab. Alternativ kannst du auch einen Spielstand von den offiziellen ARK-Servern hochladen. Mehr Informationen über die Auflösung der offiziellen Server und die Bereitstellung der Spielstände findest du hier: https://ark.wiki.gg/wiki/2023_official_server_save_files
+### Offizielle Backup-Save-Datei
 
-Die Übertragung der Dateien erfolgt über das FTP-Protokoll. Für die Nutzung von FTP ist daher ein FTP-Client erforderlich. Wenn du noch nicht mit FTP vertraut bist, empfehlen wir dir, die Anleitung [FTP-Dateizugriff] (gameserver-ftpaccess.md) zu lesen.
+Du musst zuerst deine offizielle Server-Sicherungsdatei herunterladen. Du kannst dies direkt von der [ARK-Website](https://survivetheark.com/index.php?/server-backups/) tun oder [ein von der Community erstelltes Tool](https://arkutils.netlify.app/tools/officialdownload) verwenden, um deinen Server leichter zu finden, da es eine Suche ermöglicht.
 
-:::warning
-Die Nutzung eines eigenen Spielstandes ist ausschließlich mit der **ARK - SE (official Backupsave compatible)** Variante. Solltest du bei deinem Server eine andere Variante verwenden, so kannst du das Spiel unter Spiele entsprechend ändern. 
+:::Hinweis
+Wenn du ein Xbox- oder Playstation-Spieler bist, kannst du leider keine offiziellen Serverdateien herunterladen. Die Entwickler haben nur erlaubt, dass Weltspeicherstände von Steam und Epic-Plattformen frei heruntergeladen werden können.
+:::
+
+Es wurden zwei Schnappschüsse gemacht, der erste ist vom 25. August 2023 und der zweite vom 30. September 2023. Für beide musst du deinen Server finden und deine Spieldatei herunterladen.
+
+:::Hinweis
+Die Verwendung deines eigenen offiziellen Backup-Saves ist nur mit der **ARK - SE (Official backupsave compatible)** Gameserver-Variante möglich. Wenn du eine andere Version für deinen Server verwendest, kannst du die Version unter **games** im Webinterface deines Gameservers entsprechend ändern oder unsere [Gameswitch-Anleitung](gameserver-gameswitch.md) verwenden.
+
+![image](https://github.com/zaphosting/docs/assets/42719082/8f2ac8fa-2b23-4738-8d95-87c289e9d98a)
 :::
 
 
 
-## Spielstand hochladen
+### Eigene reguläre Speicherdatei
 
-Verbinde dich nun per FTP mit deinem Server und navigiere zu folgender Verzeichnisstruktur: `/gxxxxx/ark/ShooterGame/Saved/SavedArks`. Lösche dort jetzt alle Dateien des aktuellen Spielstandes und lade anschließend alle benötigten Dateien (.ark, .arktribe und .arkprofile) deines Spielstandes, den du zuvor vorbereitet hast, hoch. Dieser Vorgang kann je nach Größe des Spielstandes eine gewisse Zeit in Anspruch nehmen.
+Um deine eigene (nicht-offizielle) Spieldatei zu importieren, werden alle Dateien der Spieldatei benötigt. Diese sind normalerweise im Verzeichnis **SavedArks** gespeichert, das sich im Verzeichnis **Shootergame/Saved** befindet. Suche nach diesen Dateien und speichere sie für den nächsten Importvorgang.
+
+:::note
+Hierfür solltest du die reguläre **Ark: SE** Gameserver-Variante (ohne die offizielle Backupsave-Unterstützung) verwenden, da du eine reguläre Speicherdatei importierst, die nicht offiziell ist.
+
+![image](https://github.com/zaphosting/docs/assets/42719082/43a6f039-778b-471f-82c8-91f1b8644a33)
+:::
 
 
 
-## Ergebnis
+## Spielstand auf den Server hochladen
 
-Mit dem nächsten Startvorgang sollten die neu hochgeladenen Dateien berücksichtig und verwendet werden. Dein gewünschter Spielstand sollte nun verfügbar sein. :)
+Sobald du deine `.zip`-Speicherdatei heruntergeladen hast, musst du sie mit einem Programm wie 7zip oder Winrar entpacken. Der Upload ist für beide Arten von Gameservern und Spieldateien derselbe.
+
+Jetzt musst du über FTP auf deinen Server zugreifen, um deine Spieldateien hochzuladen. Bitte benutze unsere Anleitung [FTP-Zugang](https://zap-hosting.com/guides/docs/gameserver-ftpaccess/), wenn du Hilfe beim Einloggen über deinen bevorzugten FTP-Client und beim Übertragen von Dateien benötigst.
+
+Wenn du deinen FTP-Client geöffnet hast, gehe in das folgende Unterverzeichnis deines Gameservers:
+```
+/gxxxxx/ark/ShooterGame/Saved/SavedArks
+```
+
+![image](https://github.com/zaphosting/docs/assets/42719082/92ca6e48-346e-4f3c-80e2-972421d1f73f)
+
+Lösche alle Dateien der aktuellen Speicherdatei (oder sichere sie vorher, wenn du in Zukunft mit dieser Speicherdatei spielen willst). Als Nächstes ziehst du alle extrahierten Dateien in dieses Verzeichnis (einschließlich der Dateien .ark, .arktribe und .arkprofile) und lädst sie hoch. Bitte habe etwas Geduld, denn es kann einige Zeit dauern, bis alles hochgeladen ist, was von der Größe deiner Speicherdatei abhängt.
+
+Sobald der Upload abgeschlossen ist, starte deinen Server neu und die neu hochgeladenen Dateien sollten geladen werden. Du hast erfolgreich eine offizielle Backup-Speicherdatei auf deinen Ark: Survival Evolved Gameserver hochgeladen.
