@@ -7,6 +7,12 @@ sidebar_label: Savegame (Welt) importieren
 
 
 
+**📺Video:** Du bevorzugst eine Anleitung eher in Form eines Videos oder als zusätzliche visuelle Ergänzung? Kein Problem! Für dieses Thema stellen wir ebenfalls ein Video zur Verfügung: 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lvIIVOhAUjo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
 ## Einführung
 
 Willst du deine eigene oder eine offizielle Backup-Speicherdatei auf deinen Ark: Survival Evolved-Server importieren? In diesem Leitfaden erfährst du, wie du deine eigene oder eine offizielle Backup-Speicherdatei auf deinen neuen Server importierst.
@@ -19,13 +25,13 @@ Willst du deine eigene oder eine offizielle Backup-Speicherdatei auf deinen Ark:
 
 Du musst zuerst deine offizielle Server-Sicherungsdatei herunterladen. Du kannst dies direkt von der [ARK-Website](https://survivetheark.com/index.php?/server-backups/) tun oder [ein von der Community erstelltes Tool](https://arkutils.netlify.app/tools/officialdownload) verwenden, um deinen Server leichter zu finden, da es eine Suche ermöglicht.
 
-:::Hinweis
+:::note
 Wenn du ein Xbox- oder Playstation-Spieler bist, kannst du leider keine offiziellen Serverdateien herunterladen. Die Entwickler haben nur erlaubt, dass Weltspeicherstände von Steam und Epic-Plattformen frei heruntergeladen werden können.
 :::
 
 Es wurden zwei Schnappschüsse gemacht, der erste ist vom 25. August 2023 und der zweite vom 30. September 2023. Für beide musst du deinen Server finden und deine Spieldatei herunterladen.
 
-:::Hinweis
+:::note
 Die Verwendung deines eigenen offiziellen Backup-Saves ist nur mit der **ARK - SE (Official backupsave compatible)** Gameserver-Variante möglich. Wenn du eine andere Version für deinen Server verwendest, kannst du die Version unter **games** im Webinterface deines Gameservers entsprechend ändern oder unsere [Gameswitch-Anleitung](gameserver-gameswitch.md) verwenden.
 
 ![image](https://github.com/zaphosting/docs/assets/42719082/8f2ac8fa-2b23-4738-8d95-87c289e9d98a)

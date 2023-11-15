@@ -5,9 +5,13 @@ description: Information about setting up an ARK Survival Ascended Dedicated Ser
 sidebar_label: ARK Survival Ascended Dedicated Server Setup
 ---
 
-Do you have a Windows VPS or rootserver and you want to install an ARK: Survival Ascended Dedicated server on it? You are in the right place. In this guide we will explain the step by step process of installing this service on your server.
+**📺Video:** Do you prefer instructions in the form of a video or as an additional visual supplement? No problem! We also provide a video for this topic: 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/NvaXYjLSCn8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Introduction
+
+Do you have a Windows VPS or rootserver and you want to install an ARK: Survival Ascended Dedicated server on it? You are in the right place. In this guide we will explain the step by step process of installing this service on your server.
 
 ## Preparation
 
