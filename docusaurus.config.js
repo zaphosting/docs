@@ -62,6 +62,12 @@ const config = {
     // Replace with your project's social card
     //image: 'img/docusaurus-social-card.jpg',
     image: undefined,
+    docs: {
+      sidebar: {
+        hideable: true,
+        autoCollapseCategories: true,
+      },
+    },
     navbar: {
       title: 'ZAP-Hosting Docs',
       logo: {

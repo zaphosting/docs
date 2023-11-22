@@ -86,3 +86,8 @@ p {
         width: 3rem;
     }
 }
+
+.menu>.menu__list .menu__list{
+  border-left: 1px solid #18e888;
+  margin-left: 20px;
+}
