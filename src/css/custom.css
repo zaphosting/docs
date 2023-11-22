@@ -89,5 +89,15 @@ p {
 
 .menu>.menu__list .menu__list{
   border-left: 1px solid #18e888;
+  padding: 0px;
   margin-left: 20px;
+}
+
+.menu__link--active:not(.menu__link--sublist) {
+  background: #18e8883b;
+}
+
+.menu__caret,.menu__link,.menu__list-item-collapsible {
+  border-radius: 0;
+  transition: background var(--ifm-transition-fast) var(--ifm-transition-timing-default)
 }
