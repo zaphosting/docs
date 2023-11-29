@@ -425,12 +425,12 @@ $AUTOCONFIG = array(
 Nun kann die eigentliche Installation von Nextcloud gestartet werden. Die Software muss heruntergeladen und entpackt werden:
 
 ```
-cd /var/www/nextcloud/
-wget https://download.nextcloud.com/server/releases/nextcloud-16.0.4.zip
+cd /var/www/
+wget https://download.nextcloud.com/server/releases/latest.zip
 apt-get install unzip
-unzip nextcloud-16.0.4.zip
+unzip latest.zip
 chown -R www-data:www-data nextcloud
-rm nextcloud-16.0.4.zip
+rm latest.zip
 ```
 
 Wenn dieser Schritt abgeschlossen ist, dann ist es an der Zeit  das Installationsscript auszuführen. Der Zugriff erfolgt über den Browser mit folgender Adresse:
@@ -479,13 +479,13 @@ Eine gute Cloud sollte nur über eine SSL-Verschlüsselung zugänglich sein. Ohn
 ```
 <IfModule mod_ssl.c>
 <VirtualHost *:443>
- DocumentRoot "/var/www/html/cloud"
+ DocumentRoot "/var/www/nextcloud"
  ServerName domain.tld
 
  ErrorLog ${APACHE_LOG_DIR}/error.log
  CustomLog ${APACHE_LOG_DIR}/access.log combined
 
-<Directory /var/www/html/cloud/>
+<Directory /var/www/nextcloud/>
  Options +FollowSymlinks
  AllowOverride All
 
@@ -493,8 +493,8 @@ Eine gute Cloud sollte nur über eine SSL-Verschlüsselung zugänglich sein. Ohn
  Dav off
  </IfModule>
 
- SetEnv HOME /var/www/html/cloud
- SetEnv HTTP_HOME /var/www/html/cloud
+ SetEnv HOME /var/www/nextcloud
+ SetEnv HTTP_HOME /var/www/nextcloud
  Satisfy Any
 
 </Directory>
