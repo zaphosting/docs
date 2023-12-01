@@ -11,20 +11,20 @@ sidebar_label: Sicherheitstipps
 Diese Anleitung beeinhaltet einige Tipps und Hinweise wie du deinen Linux Server sicherer gestalten kannst. Insbesondere da auf (virtuelle) Server extern zugegriffen werden muss ist ein grundlegender Schutz vor ungewünschten Zugriffen definitiv empfehlenswert und sollte keinesfalls vernachlässigt werden. 
 
 :::info
-Bitte beachte dass diese Anleitung nicht abschließend ist und tiefergehende Informationen anderen Abschnitten der ZAP- Dokumentation entnommen werden kann. (z.B. [2FA](https://zap-hosting.com/guides/de/docs/vserver-linux-ssh2fa/))
+Bitte beachte dass diese Anleitung nicht abschließend ist und tiefergehende Informationen anderen Abschnitten der ZAP-Dokumentation entnommen werden kann. (z.B. [2FA](https://zap-hosting.com/guides/de/docs/vserver-linux-ssh2fa/))
 :::
 
 :::tip
-Der einfachste Weg deinen Server zu schützen ist egal bei welchem Server immer gleich: Nutze sichere Passwörter, update deine Dienste regelmäßig und achte allgemein darauf welche Dienste du installieren möchtest und welche Guides du befolgst.
+Der einfachste Weg deinen Server zu schützen ist, egal bei welchem Server, immer gleich: Nutze sichere Passwörter, update deine Dienste regelmäßig und achte allgemein darauf welche Dienste du installieren möchtest und welche Guides du befolgst.
 :::
 
 ## Absichern von SSH (Secure Shell)
 
-SSH ist ein Dienst der es dir erlaubt aus der Ferne auf die Konsole deines Servers zuzugreifen und Befehle auf dem Server auszuführen. Hier siehst du, wie du SSH auf deinem Server einrichten kannst: [Wie richte ich SSH auf meinem Server ein?](https://zap-hosting.com/guides/de/docs/vserver-linux-ssh/).
+SSH ist ein Dienst der es dir erlaubt aus der Ferne auf die Konsole deines Servers zuzugreifen und Befehle auf dem Server auszuführen. Hier siehst du, wie du SSH auf deinem Server einrichten kannst: [Wie richte ich SSH auf meinem Server ein?](https://zap-hosting.com/guides/de/docs/vserver-linux-ssh/)
 
-Standardmäßig wird für SSH eine Passwortbasierte Anmeldung genutzt. Dies hat jedoch den großen Nachteil, dass die Authentifizierung relativ einfach per Brute- Force umgangen werden kann, insbesondere dann, wenn du ein zu simples Passwort für deinen SSH Login nutzt. Solltest du dich also für die Passwortlösung entscheiden, dann nutze bitte ein sicheres Passwort.
+Standardmäßig wird für SSH eine Passwortbasierte Anmeldung genutzt. Dies hat jedoch den großen Nachteil, dass die Authentifizierung relativ einfach per Brute-Force-Attacke umgangen werden kann, insbesondere dann, wenn du ein zu simples Passwort für deinen SSH Login nutzt. Solltest du dich also für die Passwortlösung entscheiden, dann nutze bitte ein sicheres Passwort.
 
-Um deinen Server noch besser vor ungewünschten SSH Zugriffen zu schützen, solltest du die Authentifizierung ausschließlich über SSH- Schlüssel ermöglichen, und den Passwort- Login deaktivieren. Schau dir dazu [unsere SSH-Anleitung](https://zap-hosting.com/guides/docs/vserver-linux-sshkey) an, in der erklärt wird, wie man SSH-Schlüssel generiert und hinzufügt werden. 
+Um deinen Server noch besser vor ungewünschten SSH Zugriffen zu schützen, solltest du die Authentifizierung ausschließlich über SSH- Schlüssel ermöglichen, und den Passwort-Login deaktivieren. Schau dir dazu [unsere SSH-Anleitung](https://zap-hosting.com/guides/docs/vserver-linux-sshkey) an, in der erklärt wird, wie man SSH-Schlüssel generiert und hinzufügt werden. 
 
 ## Einfach aber effektiv: Port deiner Dienste ändern
 
@@ -42,13 +42,13 @@ Dienste wie SSH oder FTP nutzen standardmäßig immer die selben Ports. Möchte 
 Um dies zu verhindern empfehlen wir die Ports der Standarddienste benutzerdefiniert einzurichten. Wie dies funktioniert, erfährst du jetzt:
 
 :::danger
-Dein Wunsch- Port muss sich zwischen 1024 und 65536 befinden und sollte kein bereits genutzer Port sein!
+Dein Wunschport muss sich zwischen 1024 und 65536 befinden und sollte kein bereits genutzer Port sein!
 :::
-Mittels `cat /etc/services` kannst du dir einige standard-Ports ausgeben lassen um zu verhindern, dass du einen bereits genutzten Port auswählst.
+Mittels `cat /etc/services` kannst du dir einige Standardports ausgeben lassen um zu verhindern, dass du einen bereits genutzten Port auswählst.
 
 ### SSH Port einstellen
 
-Um den Port beim SSH- Dienst zu ändern, musst du die Konfigurationsdatei anpassen. Diese befindet sich standardmäßig in `/etc/ssh/sshd_config`, kann aber mit
+Um den Port beim SSH-Dienst zu ändern, musst du die Konfigurationsdatei anpassen. Diese befindet sich standardmäßig in `/etc/ssh/sshd_config`, kann aber mit
 ```
 find / -name "sshd_config" 2>/dev/null
 ```
@@ -58,11 +58,11 @@ gesucht werden.
 ```
 sudo nano /etc/ssh/sshd_config
 ```
-und füge hinter `Port` deinen Wunsch-Port ein. Sollte `Port` auskommentiert sein (also `#Port 22`), dann entferne das "#" und ersetze die 22 mit deinem Wunsch-Port. Nun musst du die Datei noch speichern (Unter Nano mit Strg + o) und schließen (Nano: Strg + x).
+und füge hinter `Port` deinen Wunschport ein. Sollte `Port` auskommentiert sein (also `#Port 22`), dann entferne das "#" und ersetze die 22 mit deinem Wunschport. Nun musst du die Datei noch speichern (Unter Nano mit Strg + o) und schließen (Nano: Strg + x).
 
 ![Port sshd](https://i.imgur.com/fDak8p8.png)
 
-Jetzt muss der SSH- Dienst noch neugestartet werden, damit die Änderungen wirksam werden.
+Jetzt muss der SSH-Dienst noch neugestartet werden, damit die Änderungen wirksam werden.
 ```
 #Unter Ubuntu/Debian/CentOS z.B.
 systemctl restart sshd
@@ -70,7 +70,7 @@ systemctl restart sshd
 
 ### FTP Port einstellen
 
-Solltest du einen FTP Dienst wie **proFTPd** installiert haben, kannst du auch dort einfach den Port ändern. Das Vorgehen ist ähnlich wie bei dem SSH- Dienst.
+Solltest du einen FTP Dienst wie **proFTPd** installiert haben, kannst du auch dort einfach den Port ändern. Das Vorgehen ist ähnlich wie bei dem SSH-Dienst.
 
 Konfigurationsdatei `proftpd.conf` finden
 ```
@@ -93,9 +93,9 @@ nano /etc/proftpd/proftpd.conf
 
 ## Eine Firewall nutzen um dein System besser zu schützen
 
-Der Grundsatz der externen Erreichbarkeit eines Servers ist immer gleich: Damit der Server extern erreichbar sein kann, muss ein Port geöffnet werden. Im Fall von SSH ist das **standardmäßig** (siehe weiter unten, wie du den Standard-Port ändern kannst) Port 22/TCP.
+Der Grundsatz der externen Erreichbarkeit eines Servers ist immer gleich: Damit der Server extern erreichbar sein kann, muss ein Port geöffnet werden. Im Fall von SSH ist das **standardmäßig** Port 22/TCP. (siehe weiter unten, wie du den Standardport ändern kannst) 
 
-Das Problem dabei ist, dass dieser Port nun für Jedermann erreichbar ist, unabhängig von Person, Standort und Intention. Dies stellt eine große Sicherheitslücke dar, da böswillige Akteure den Server mit Anmeldeversuchen überschwemmen könnten, um entweder das richtige Kennwort herauszufinden (durch eine Brute- Force Attacke, falls du den Login per Passwort noch aktiviert hast) oder um zu versuchen, das Servernetzwerk durch Flooding (z.B. DDoS) zu überlasten, was häufig der Fall ist.
+Das Problem dabei ist, dass dieser Port nun für Jedermann erreichbar ist, unabhängig von Person, Standort und Intention. Dies stellt eine große Sicherheitslücke dar, da böswillige Akteure den Server mit Anmeldeversuchen überschwemmen könnten, um entweder das richtige Kennwort herauszufinden (durch eine Brute-Force-Attacke, falls du den Login per Passwort noch aktiviert hast) oder um zu versuchen, das Servernetzwerk durch Flooding (z.B. DDoS) zu überlasten, was häufig der Fall ist.
 
 Um diese Auswirkungen zu verringern, kannst du Firewall-Regeln anwenden, die den Zugriff auf die geöffneten Ports beschränken.
 
@@ -131,7 +131,7 @@ iptables -A INPUT -p tcp --dport 22 -m state --state NEW -m recent --update --se
 
 ### UFW
 
-Wie oben beschrieben ist UFW ein "einfacheres" Interface für IPTables. Im ersten Schritt muss UFW installiert werden, da es nicht bei allen Distros inkludiert ist. Die Befehle solltest du entweder als Root ausführen oder unter der verwendung von *sudo*.
+Wie oben beschrieben ist UFW ein "einfacheres" Interface für IPTables. Im ersten Schritt muss UFW installiert werden, da es nicht bei allen Linux Distributionen inkludiert ist. Die Befehle solltest du entweder als Root ausführen oder unter der verwendung von *sudo*.
 
 Melde dich zunächst bei deinem Linux-Server an. Wenn du dabei Hilfe brauchst, folge bitte unserer Anleitung [SSH-Zugang](https://zap-hosting.com/guides/docs/vserver-linux-ssh), in der erklärt wird, wie dies funktioniert. 
 
@@ -190,7 +190,7 @@ Die Firewall (egal ob IPTables oder UFW) kann die Verbindungversuche nur "stumpf
 
 ## Fail2Ban zur erweiterten Absicherung deines Servers
 
-Fail2Ban ist ein Dienst der IP- Adressen blockiert mit denen Verbindungen zum Server hergestellt werden sollen mit wahrscheinlich böswilligen Absichten. Fail2Ban überwacht dazu einige Log- Datein auf Anomalien, und sichert damit dein System über ein relativ einfachen Weg sehr effektiv ab.
+Fail2Ban ist ein Dienst der IP-Adressen blockiert mit denen Verbindungen zum Server hergestellt werden sollen mit wahrscheinlich böswilligen Absichten. Fail2Ban überwacht dazu einige Log-Datein auf Anomalien, und sichert damit dein System über ein relativ einfachen Weg sehr effektiv ab.
 
 Nach der Installation überwacht Fail2Ban bereits standardmäßig u.a.
 - apache
