@@ -12,7 +12,11 @@ Diese Anleitung beeinhaltet einige Tipps und Hinweise wie du deinen Linux Server
 
 :::info
 Bitte beachte dass diese Anleitung nicht abschließend ist und tiefergehende Informationen anderen Abschnitten der ZAP- Dokumentation entnommen werden kann. (z.B. [2FA](https://zap-hosting.com/guides/de/docs/vserver-linux-ssh2fa/))
+:::
 
+:::tip
+Der einfachste Weg deinen Server zu schützen ist egal bei welchem Server immer gleich: Nutze sichere Passwörter, update deine Dienste regelmäßig und achte allgemein darauf welche Dienste du installieren möchtest und welche Guides du befolgst.
+:::
 
 ## Absichern von SSH (Secure Shell)
 
@@ -31,15 +35,16 @@ Das Problem dabei ist, dass dieser Port nun für Jedermann erreichbar ist, unabh
 Um diese Auswirkungen zu verringern, kannst du Firewall-Regeln anwenden, die den Zugriff auf die geöffneten Ports beschränken.
 
 Dafür gibt es zwei verschiedene Methoden die du nutzen kannst:
-- IPTables: Dies ist sogesehen die ursprüngliche Firewall von Linux. Es bietet dir sehr viele Möglichkeiten, ist aber durchaus etwas komplizierter in der Anwendung.
-- UFW: Dies ist letztendlich nur ein einfacheres Interface um IPTables zu nutzen, ohne die komplizierten Befehle anwenden zu müssen.
+- **IPTables**: Dies ist sogesehen die ursprüngliche Firewall von Linux. Es bietet dir sehr viele Möglichkeiten, ist aber durchaus etwas komplizierter in der Anwendung.
+- **UFW**: Dies ist letztendlich nur ein einfacheres Interface um IPTables zu nutzen, ohne die komplizierten Befehle anwenden zu müssen.
 
 Im Endeffekt kannst du dir aussuchen, welche von beiden Methoden du nutzen möchtest. Je nach Anwendungsfall braucht man die Vielfältigkeit von IPTables, manchmal reicht auch einfach UFW. (z.B. dann, wenn du einfach nur Ports öffnen/schließen möchtest)
 
-
 ### IPTables
 
-In diesem Abschnitt wirst du die IPTables mit einigen Befehlen einrichten. Die Erklärungen zu den einzelnen Befehlen findest du unterhalb des Codeblocks.
+In diesem Abschnitt wirst du mit IPTables mehrere Regeln erstellen, die die Anzahl der möglichen Verbindungsversuche einschränken. Die Erklärungen zu den einzelnen Befehlen findest du unterhalb des Codeblocks.
+
+Bitte beachte, dass diese Regel nur für **Port 22** (Der Wert nach `--dport`) aktiviert wird und die Befehle für andere Dienste angepasst werden müssten.  
 
 :::note
 Die folgenden Befehle funktionieren möglicherweise nicht mit jedem beliebigen Linux-Betriebssystem, aber sie funktionieren mit der überwiegenden Mehrheit der beliebtesten Betriebssysteme.
@@ -61,20 +66,62 @@ iptables -A INPUT -p tcp --dport 22 -m state --state NEW -m recent --update --se
 
 ### UFW
 
-In diesem Abschnitt wirst du mithilfe eines einfachen UFW-Befehls eine einfache Firewall einrichten.
+Wie oben beschrieben ist UFW ein "einfacheres" Interface für IPTables. Im ersten Schritt muss UFW installiert werden, da es nicht bei allen Distros inkludiert ist. Die Befehle solltest du entweder als Root ausführen oder unter der verwendung von *sudo*.
 
-Melde dich zunächst bei deinem Linux-Server an. Wenn du dabei Hilfe brauchst, folge bitte unserer Anleitung [SSH-Zugang](https://zap-hosting.com/guides/docs/vserver-linux-ssh), in der erklärt wird, wie dies funktioniert. Führe nun den folgenden Befehl aus, der die Verbindung auf 6 pro Minute begrenzt.
+Melde dich zunächst bei deinem Linux-Server an. Wenn du dabei Hilfe brauchst, folge bitte unserer Anleitung [SSH-Zugang](https://zap-hosting.com/guides/docs/vserver-linux-ssh), in der erklärt wird, wie dies funktioniert. 
 
+Debian & Ubuntu:
+
+Zuerst sollte das apt Verzeichnis aktualisiert werden
+```
+sudo apt update && sudo apt upgrade -y
+```
+
+Dann UFW per apt installieren
+```
+sudo apt install ufw -y
+```
+
+Nun checken wir noch, ob die Installation erfolgreich war:
+```
+sudo ufw status
+> Firewall not loaded
+```
+
+Damit du dich nicht aussperrst, muss der ssh Dienst zuerst freigegeben werden, bis letztendlich die Firewall aktiviert werden kann. 
+
+:::caution
+Solltest du den Port für SSH bereits geändert haben, dann trag hier statt 22 bitte den neuen Port ein.
+:::
+
+```
+sudo ufw allow 22/tcp
+sudo ufw enable
+sudo ufw status
+```
+Der Output dürfte in etwa so aussehen:
+```
+Status: active
+  
+To Action From
+-- ------ ----
+22/tcp ALLOW Anywhere
+22/tcp (v6) ALLOW Anywhere (v6)
+```
+
+
+Führe nun den folgenden Befehl aus, der die Verbindung auf 6 pro Minute begrenzt.
 ```
 ufw limit 22/tcp
 ```
 
 :::note
-
 UFW erlaubt es dir lediglich, die Anzahl der Verbindungen auf 6 pro Minute zu begrenzen. Der Begrenzer von UFW ist recht einfach und eignet sich möglicherweise nicht für alle Situationen. Für eine detailliertere und flexiblere Konfiguration empfehlen wir die direkte Verwendung von IPTables.
-
 :::
 
+:::tip
+Die Firewall (egal ob IPTables oder UFW) kann die Verbindungversuche nur "stumpf" zählen und entsprechend blocken. Mit Fail2Ban ist es möglich Log- Files auf Auffälligkeiten zu prüfen. Im nächsten Abschnitt wird beschrieben, wie du Fail2Ban für einige Dienste aktivieren kannst.
+:::
 
 
 ## Absicherung von Webservern mit Cloudflare
