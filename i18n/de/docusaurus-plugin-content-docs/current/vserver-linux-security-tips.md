@@ -8,14 +8,19 @@ sidebar_label: Sicherheitstipps
 
 ## Einführung
 
-SSH (Secure Shell) ist ein leistungsfähiger Dienst, mit dem du aus der Ferne auf deinen Server zugreifen und Befehle darauf ausführen kannst. Siehe hier, wie man diesen Dienst einrichtet: [Wie richte ich SSH auf meinem Server ein?](https://zap-hosting.com/guides/de/docs/vserver-linux-ssh/)
+Diese Anleitung beeinhaltet einige Tipps und Hinweise wie du deinen Linux Server sicherer gestalten kannst. Insbesondere da auf (virtuelle) Server extern zugegriffen werden muss ist ein grundlegender Schutz vor ungewünschten Zugriffen definitiv empfehlenswert und sollte keinesfalls vernachlässigt werden. 
 
-Standardmäßig ist dies jedoch unsicher, da für die Anmeldung ein Passwort verwendet wird und deine Identität mit einem Brute-Force-Tool gefälscht werden kann. Unabhängig davon empfehlen wir dir immer, ein starkes Passwort zu verwenden, um diese Aufgabe zu erschweren.
+:::info
+Bitte beachte dass diese Anleitung nicht abschließend ist und tiefergehende Informationen anderen Abschnitten der ZAP- Dokumentation entnommen werden kann. (z.B. [2FA](https://zap-hosting.com/guides/de/docs/vserver-linux-ssh2fa/))
 
-## SSH Keys
 
-Dafür gibt es allerdings eine Lösung. Um sicherzustellen, dass sich niemand mit roher Gewalt Zugang zu deinem Server verschaffen kann, kannst du mit Hilfe von SSH-Schlüsseln einen SSH-Dienst auf deinem Server einrichten, um den Login zu beschränken. Siehe dazu [unsere SSH-Anleitung](https://zap-hosting.com/guides/docs/vserver-linux-sshkey) an, in der erklärt wird, wie man einen SSH-Schlüssel generiert und hinzufügt.
+## Absichern von SSH (Secure Shell)
 
+SSH ist ein Dienst der es dir erlaubt aus der Ferne auf die Konsole deines Servers zuzugreifen und Befehle auf dem Server auszuführen. Hier siehst du, wie du SSH auf deinem Server einrichten kannst: [Wie richte ich SSH auf meinem Server ein?](https://zap-hosting.com/guides/de/docs/vserver-linux-ssh/).
+
+Standardmäßig wird für SSH eine Passwortbasierte Anmeldung genutzt. Dies hat jedoch den großen Nachteil, dass die Authentifizierung relativ einfach per Brute- Force umgangen werden kann, insbesondere dann, wenn du ein zu simples Passwort für deinen SSH Login nutzt. Solltest du dich also für die Passwortlösung entscheiden, dann nutze bitte ein sicheres Passwort.
+
+Um deinen Server noch besser vor ungewünschten SSH Zugriffen zu schützen, solltest du die Authentifizierung ausschließlich über SSH- Schlüssel ermöglichen, und den Passwort- Login deaktivieren. Schau dir dazu [unsere SSH-Anleitung](https://zap-hosting.com/guides/docs/vserver-linux-sshkey) an, in der erklärt wird, wie man SSH-Schlüssel generiert und hinzufügt werden. 
 
 
 ## Einschränkung der Verbindungen
