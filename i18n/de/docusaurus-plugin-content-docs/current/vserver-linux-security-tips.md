@@ -22,17 +22,19 @@ Standardmäßig wird für SSH eine Passwortbasierte Anmeldung genutzt. Dies hat 
 
 Um deinen Server noch besser vor ungewünschten SSH Zugriffen zu schützen, solltest du die Authentifizierung ausschließlich über SSH- Schlüssel ermöglichen, und den Passwort- Login deaktivieren. Schau dir dazu [unsere SSH-Anleitung](https://zap-hosting.com/guides/docs/vserver-linux-sshkey) an, in der erklärt wird, wie man SSH-Schlüssel generiert und hinzufügt werden. 
 
+## Eine Firewall nutzen um dein System besser zu schützen
 
-## Einschränkung der Verbindungen
+Der Grundsatz der externen Erreichbarkeit eines Servers ist immer gleich: Damit der Server extern erreichbar sein kann, muss ein Port geöffnet werden. Im Fall von SSH ist das **standardmäßig** (siehe weiter unten, wie du den Standard-Port ändern kannst) Port 22/TCP.
 
-Um von einer externen IP-Adresse auf Ihren Server zugreifen zu können, muss der Port, auf dem er läuft, offen sein (normalerweise ist das 22/TCP).
+Das Problem dabei ist, dass dieser Port nun für Jedermann erreichbar ist, unabhängig von Person, Standort und Intention. Dies stellt eine große Sicherheitslücke dar, da böswillige Akteure den Server mit Anmeldeversuchen überschwemmen könnten, um entweder das richtige Kennwort herauszufinden (durch eine Brute- Force Attacke, falls du den Login per Passwort noch aktiviert hast) oder um zu versuchen, das Servernetzwerk durch Flooding (z.B. DDoS) zu überlasten, was häufig der Fall ist.
 
-Dabei gibt es allerdings ein kleines Problem: Nicht nur Sie können auf den Port zugreifen und versuchen, sich anzumelden, sondern jeder kann das. Dies ist eine Sicherheitslücke, da böswillige Akteure den Server mit Anmeldeversuchen überschwemmen könnten, um entweder das richtige Kennwort herauszufinden (es sei denn, du verwendest einen SSH-Schlüssel für die Anmeldung, wie im vorigen Abschnitt erläutert) oder zu versuchen, das Servernetzwerk durch Flooding zu überlasten, was häufig der Fall ist.
+Um diese Auswirkungen zu verringern, kannst du Firewall-Regeln anwenden, die den Zugriff auf die geöffneten Ports beschränken.
 
-Um diese Auswirkungen zu verringern, kannst du Firewall-Regeln anwenden, die den Zugriff auf den Port beschränken. Mit den unten beschriebenen Firewall-Methoden kannst du die Anzahl der Verbindungen, die dein Server empfangen kann, begrenzen und so die Überflutung deines Servers mit Anmeldeversuchen erschweren.
+Dafür gibt es zwei verschiedene Methoden die du nutzen kannst:
+- IPTables: Dies ist sogesehen die ursprüngliche Firewall von Linux. Es bietet dir sehr viele Möglichkeiten, ist aber durchaus etwas komplizierter in der Anwendung.
+- UFW: Dies ist letztendlich nur ein einfacheres Interface um IPTables zu nutzen, ohne die komplizierten Befehle anwenden zu müssen.
 
-Es gibt zwei Möglichkeiten, dies zu erreichen. Die kompliziertere, aber detailliertere Methode über IPTables, die wir empfehlen oder über UFW, die grundlegender, aber leichter einzurichten ist.
-
+Im Endeffekt kannst du dir aussuchen, welche von beiden Methoden du nutzen möchtest. Je nach Anwendungsfall braucht man die Vielfältigkeit von IPTables, manchmal reicht auch einfach UFW. (z.B. dann, wenn du einfach nur Ports öffnen/schließen möchtest)
 
 
 ### IPTables
