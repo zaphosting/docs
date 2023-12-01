@@ -26,6 +26,71 @@ Standardmäßig wird für SSH eine Passwortbasierte Anmeldung genutzt. Dies hat 
 
 Um deinen Server noch besser vor ungewünschten SSH Zugriffen zu schützen, solltest du die Authentifizierung ausschließlich über SSH- Schlüssel ermöglichen, und den Passwort- Login deaktivieren. Schau dir dazu [unsere SSH-Anleitung](https://zap-hosting.com/guides/docs/vserver-linux-sshkey) an, in der erklärt wird, wie man SSH-Schlüssel generiert und hinzufügt werden. 
 
+## Einfach aber effektiv: Port deiner Dienste ändern
+
+| Dienst | Port |
+|--------|------|
+| SSH    | 22   |
+| FTP    | 21   |
+| Mail   | 25   |
+| DNS    | 53   |
+| HTTP   | 80   |
+| HTTPS  | 443  |
+
+Dienste wie SSH oder FTP nutzen standardmäßig immer die selben Ports. Möchte ein außenstehender Angreifer eine Brute Force Attacke auf den SSH Dienst deines Servers ausführen, dann muss dieser erstmal wissen, über welchen Port SSH zu erreichen ist. Wenn du diese Ports nicht anders konfigurierst, dann sind die Ports 22 und 21 meist ein Treffer, um direkt Befehle auf dem Server auszuführen oder Dateien per FTP abzugreifen.
+
+Um dies zu verhindern empfehlen wir die Ports der Standarddienste benutzerdefiniert einzurichten. Wie dies funktioniert, erfährst du jetzt:
+
+:::danger
+Dein Wunsch- Port muss sich zwischen 1024 und 65536 befinden und sollte kein bereits genutzer Port sein!
+:::
+Mittels `cat /etc/services` kannst du dir einige standard-Ports ausgeben lassen um zu verhindern, dass du einen bereits genutzten Port auswählst.
+
+### SSH Port einstellen
+
+Um den Port beim SSH- Dienst zu ändern, musst du die Konfigurationsdatei anpassen. Diese befindet sich standardmäßig in `/etc/ssh/sshd_config`, kann aber mit
+```
+find / -name "sshd_config" 2>/dev/null
+```
+gesucht werden.
+
+Öffne nun die Datei per nano (als Root oder mit sudo)
+```
+sudo nano /etc/ssh/sshd_config
+```
+und füge hinter `Port` deinen Wunsch-Port ein. Sollte `Port` auskommentiert sein (also `#Port 22`), dann entferne das "#" und ersetze die 22 mit deinem Wunsch-Port. Nun musst du die Datei noch speichern (Unter Nano mit Strg + o) und schließen (Nano: Strg + x).
+
+![Port sshd](https://imgur.com/a/1FBlR1f)
+
+Jetzt muss der SSH- Dienst noch neugestartet werden, damit die Änderungen wirksam werden.
+```
+#Unter Ubuntu/Debian/CentOS z.B.
+systemctl restart sshd
+```
+
+### FTP Port einstellen
+
+Solltest du einen FTP Dienst wie **proFTPd** installiert haben, kannst du auch dort einfach den Port ändern. Das Vorgehen ist ähnlich wie bei dem SSH- Dienst.
+
+Konfigurationsdatei `proftpd.conf` finden
+```
+find / -name "proftpd.conf" 2>/dev/null
+```
+
+Die Datei liegt normalerweise in `/etc/proftpd.conf` (CentOS) oder `/etc/proftpd/proftpd.conf`.
+Öffene nun die Datei per nano und entferne das "#" vor `Port` und trage dahinter deinen Wunschport ein. Bitte beachte die Information weiter oben, sodass du keinen ungültigen Port angibst.
+
+:::tip
+Mittels Strg+W kannst du in nano suchen
+:::
+
+```
+nano /etc/proftpd/proftpd.conf
+```
+![Port proftpd](https://imgur.com/a/uYlCzwr)
+
+
+
 ## Eine Firewall nutzen um dein System besser zu schützen
 
 Der Grundsatz der externen Erreichbarkeit eines Servers ist immer gleich: Damit der Server extern erreichbar sein kann, muss ein Port geöffnet werden. Im Fall von SSH ist das **standardmäßig** (siehe weiter unten, wie du den Standard-Port ändern kannst) Port 22/TCP.
@@ -123,7 +188,9 @@ UFW erlaubt es dir lediglich, die Anzahl der Verbindungen auf 6 pro Minute zu be
 Die Firewall (egal ob IPTables oder UFW) kann die Verbindungversuche nur "stumpf" zählen und entsprechend blocken. Mit Fail2Ban ist es möglich Log- Files auf Auffälligkeiten zu prüfen. Im nächsten Abschnitt wird beschrieben, wie du Fail2Ban für einige Dienste aktivieren kannst.
 :::
 
+## Fail2Ban zur erweiterten Absicherung deines Servers
 
+Fail2Ban ist ein Dienst der IP- Adressen blockiert mit denen Verbindungen zum Server hergestellt werden sollen mit wahrscheinlich böswilligen Absichten.
 ## Absicherung von Webservern mit Cloudflare
 
 Viele Menschen nutzen Cloudflare als ihren Domain-DNS-Manager. Cloudflare verfügt nicht nur über eines der größten Netzwerke der Welt, das niedrigere Seitenladezeiten, geringere Latenzzeiten und ein besseres Gesamterlebnis bietet, sondern schützt auch deine Webseiten vor DoS/DDoS-Angriffen, einschließlich Flooding und neuen Arten von Angriffen, die jeden Tag ans Licht kommen.
