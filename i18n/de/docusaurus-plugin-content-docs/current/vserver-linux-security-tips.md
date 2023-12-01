@@ -60,7 +60,7 @@ sudo nano /etc/ssh/sshd_config
 ```
 und füge hinter `Port` deinen Wunsch-Port ein. Sollte `Port` auskommentiert sein (also `#Port 22`), dann entferne das "#" und ersetze die 22 mit deinem Wunsch-Port. Nun musst du die Datei noch speichern (Unter Nano mit Strg + o) und schließen (Nano: Strg + x).
 
-![Port sshd](https://imgur.com/a/1FBlR1f)
+![Port sshd](https://i.imgur.com/fDak8p8.png)
 
 Jetzt muss der SSH- Dienst noch neugestartet werden, damit die Änderungen wirksam werden.
 ```
@@ -87,7 +87,7 @@ Mittels Strg+W kannst du in nano suchen
 ```
 nano /etc/proftpd/proftpd.conf
 ```
-![Port proftpd](https://imgur.com/a/uYlCzwr)
+![Port proftpd](https://i.imgur.com/dAdXEsv.png)
 
 
 
@@ -190,7 +190,16 @@ Die Firewall (egal ob IPTables oder UFW) kann die Verbindungversuche nur "stumpf
 
 ## Fail2Ban zur erweiterten Absicherung deines Servers
 
-Fail2Ban ist ein Dienst der IP- Adressen blockiert mit denen Verbindungen zum Server hergestellt werden sollen mit wahrscheinlich böswilligen Absichten.
+Fail2Ban ist ein Dienst der IP- Adressen blockiert mit denen Verbindungen zum Server hergestellt werden sollen mit wahrscheinlich böswilligen Absichten. Fail2Ban überwacht dazu einige Log- Datein auf Anomalien, und sichert damit dein System über ein relativ einfachen Weg sehr effektiv ab.
+
+Nach der Installation überwacht Fail2Ban bereits standardmäßig u.a.
+- apache
+- lighttpd
+- sshd
+- qmail
+- postfix
+- Courier Mail Server
+Weitere Services können dabei einfach per Regulärem Ausdruck (RegEx) und unter Angabe der gewünschten Log- Datei hinzugefügt werden.
 ## Absicherung von Webservern mit Cloudflare
 
 Viele Menschen nutzen Cloudflare als ihren Domain-DNS-Manager. Cloudflare verfügt nicht nur über eines der größten Netzwerke der Welt, das niedrigere Seitenladezeiten, geringere Latenzzeiten und ein besseres Gesamterlebnis bietet, sondern schützt auch deine Webseiten vor DoS/DDoS-Angriffen, einschließlich Flooding und neuen Arten von Angriffen, die jeden Tag ans Licht kommen.
