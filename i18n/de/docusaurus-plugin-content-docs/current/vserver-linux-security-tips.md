@@ -37,7 +37,7 @@ Um deinen Server noch besser vor ungewünschten SSH Zugriffen zu schützen, soll
 | HTTP   | 80   |
 | HTTPS  | 443  |
 
-Dienste wie SSH oder FTP nutzen standardmäßig immer die selben Ports. Möchte ein außenstehender Angreifer eine Brute Force Attacke auf den SSH Dienst deines Servers ausführen, dann muss dieser erstmal wissen, über welchen Port SSH zu erreichen ist. Wenn du diese Ports nicht anders konfigurierst, dann sind die Ports 22 und 21 meist ein Treffer, um direkt Befehle auf dem Server auszuführen oder Dateien per FTP abzugreifen.
+Dienste wie SSH oder FTP nutzen standardmäßig immer die selben Ports. Möchte ein außenstehender Angreifer eine Brute-Force-Attacke auf den SSH Dienst deines Servers ausführen, dann muss dieser erstmal wissen, über welchen Port SSH zu erreichen ist. Wenn du diese Ports nicht anders konfigurierst, dann sind die Ports 22 und 21 meist ein Treffer, um direkt Befehle auf dem Server auszuführen oder Dateien per FTP abzugreifen.
 
 Um dies zu verhindern empfehlen wir die Ports der Standarddienste benutzerdefiniert einzurichten. Wie dies funktioniert, erfährst du jetzt:
 
@@ -200,6 +200,55 @@ Nach der Installation überwacht Fail2Ban bereits standardmäßig u.a.
 - postfix
 - Courier Mail Server
 Weitere Services können dabei einfach per Regulärem Ausdruck (RegEx) und unter Angabe der gewünschten Log- Datei hinzugefügt werden.
+
+Als Beispiel schauen wir uns einen Eintrag in `/var/log/auth.log` an. Diese Datei beinhaltet alle SSH Loginversuche, egal ob erfolgreich oder fehlgeschlagen.
+![/var/log/auth.log](https://i.imgur.com/k6xZkVa.png)
+
+Hier siehst du nun u.A. den Eintrag:
+```
+Dec  2 12:59:19 vps-zap515723-2 sshd[364126]: Failed password for root from 92.117.xxx.xxx port 52504 ssh2
+```
+Fail2Ban nutzt nun genau dieses Logfile und überwacht es auf fehlgeschlagene Authentifizierungen. Da das Logfile direkt die IP-Adresse des Angreifers beinhaltet, kann Fail2Ban nach einigen fehlgeschlagenen Versuchen diese IP-Adresse blockieren.
+
+### Installation von Fail2Ban
+
+Melde dich zunächst bei deinem Linux-Server an. Wenn du dabei Hilfe brauchst, folge bitte unserer Anleitung [SSH-Zugang](https://zap-hosting.com/guides/docs/vserver-linux-ssh), in der erklärt wird, wie dies funktioniert. Die Befehle solltest du entweder als Root ausführen oder unter der verwendung von *sudo*.
+
+```
+sudo apt update && sudo apt upgrade -y
+sudo apt install fail2ban
+```
+
+Nach der Installation von Fail2Ban kannst du per `systemctl` direkt den Status prüfen: (Mit Strg+C kannst du systemctl wieder verlassen)
+```
+systemctl status fail2ban.service
+* fail2ban.service - Fail2Ban Service
+     Loaded: loaded (/lib/systemd/system/fail2ban.service; enabled; vendor pres>
+     Active: active (running) since Sat 2023-12-02 13:10:33 UTC; 24s ago
+       Docs: man:fail2ban(1)
+    Process: 23988 ExecStartPre=/bin/mkdir -p /run/fail2ban (code=exited, statu>
+   Main PID: 23989 (fail2ban-server)
+        CPU: 409ms
+     CGroup: /system.slice/fail2ban.service
+             `-23989 /usr/bin/python3 /usr/bin/fail2ban-server -xf start
+
+Dec 02 13:10:33 vps-zap515723-1 systemd[1]: Starting Fail2Ban Service...
+Dec 02 13:10:33 vps-zap515723-1 systemd[1]: Started Fail2Ban Service.
+Dec 02 13:10:34 vps-zap515723-1 fail2ban-server[23989]: Server ready
+```
+
+### Konfiguration von Fail2Ban
+
+Nun ist Fail2Ban zwar installiert, aber noch nicht aktiv und noch nicht konfiguriert. Mit einem Blick in `/etc/fail2ban` siehst du, dass dort aktuell die folgenenden Datein liegen sollten:
+```
+action.d       fail2ban.d  jail.conf  paths-arch.conf    paths-debian.conf
+fail2ban.conf  filter.d    jail.d     paths-common.conf  paths-opensuse.conf
+```
+Um ein aktives "jail" (=Gefängnis) zu erstellen, muss eine Datei namens `jail.local` erstellt werden. Kopier dazu den Inhalt von `jail.conf` einfach in die neue Datei:
+```
+sudo cp /etc/fail2ban/jail.conf /etc/fail2ban/jail.local
+```
+
 ## Absicherung von Webservern mit Cloudflare
 
 Viele Menschen nutzen Cloudflare als ihren Domain-DNS-Manager. Cloudflare verfügt nicht nur über eines der größten Netzwerke der Welt, das niedrigere Seitenladezeiten, geringere Latenzzeiten und ein besseres Gesamterlebnis bietet, sondern schützt auch deine Webseiten vor DoS/DDoS-Angriffen, einschließlich Flooding und neuen Arten von Angriffen, die jeden Tag ans Licht kommen.
