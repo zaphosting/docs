@@ -53,7 +53,7 @@ find / -name "sshd_config" 2>/dev/null
 ```
 to find it.
 
-Now open the file using nano (as root or with **sudo**)
+Now open the file using nano (as root or with *sudo*)
 ```
 sudo nano /etc/ssh/sshd_config
 ```
@@ -126,7 +126,7 @@ iptables -A INPUT -p tcp --dport 22 -m state --state NEW -m recent --update --se
 
 
 
-### UFW
+### UFW - Uncomplicated Firewall
 
 As described above, UFW is a "simpler" interface for IPTables. The first step is to install UFW, as it is by default not included in all Linux distributions. You should either execute the commands as root or use *sudo*.
 
@@ -186,9 +186,9 @@ The firewall (whether IPTables or UFW) can only "mindlessly" count the connectio
 
 ## Fail2Ban for extended and dynamic protection of your server
 
-Fail2Ban is a service that blocks IP addresses that are used to connect to the server with probably malicious intentions. Fail2Ban monitors some log files for anomalies and thus secures your system very effectively in a relatively simple way.
+Fail2Ban is a service that blocks IP addresses used to connect to the server with probably malicious intentions. Fail2Ban monitors some log files for anomalies and thus secures your system very effectively in a relatively simple way.
 
-After installation, Fail2Ban already monitors the following by default
+After installation, Fail2Ban already comes with prebuild configurations for some often used services including:
 - apache
 - lighttpd
 - sshd
@@ -204,7 +204,160 @@ Here you can now see the entry:
 ```
 Dec 2 12:59:19 vps-zap515723-2 sshd[364126]: Failed password for root from 92.117.xxx.xxx port 52504 ssh2
 ```
-Fail2Ban now uses exactly this log file and monitors it for failed authentications. As the log file directly contains the IP address of the attacker, Fail2Ban can block this IP address after a few failed attempts.
+Fail2Ban now uses this log file and monitors it for failed authentications. As the log file directly contains the IP address of the attacker, Fail2Ban can block this IP address after a few failed attempts.
+
+### Installation of Fail2Ban
+
+First log in to your Linux server. If you need help with this, please follow our instructions [SSH access](https://zap-hosting.com/guides/docs/vserver-linux-ssh), which explain how this works. You should either execute the commands as root or using *sudo*.
+
+```
+sudo apt update && sudo apt upgrade -y
+sudo apt install fail2ban
+```
+
+After installing Fail2Ban, you can check the status directly using `systemctl`: (You can exit systemctl with Ctrl+C)
+```
+systemctl status fail2ban.service
+* fail2ban.service - Fail2Ban Service
+     Loaded: loaded (/lib/systemd/system/fail2ban.service; enabled; vendor pres>
+     Active: active (running) since Sat 2023-12-02 13:10:33 UTC; 24s ago
+       Docs: man:fail2ban(1)
+    Process: 23988 ExecStartPre=/bin/mkdir -p /run/fail2ban (code=exited, statu>
+   Main PID: 23989 (fail2ban-server)
+        CPU: 409ms
+     CGroup: /system.slice/fail2ban.service
+             `-23989 /usr/bin/python3 /usr/bin/fail2ban-server -xf start
+
+Dec 02 13:10:33 vps-zap515723-1 systemd[1]: Starting Fail2Ban Service...
+Dec 02 13:10:33 vps-zap515723-1 systemd[1]: Started Fail2Ban Service.
+Dec 02 13:10:34 vps-zap515723-1 fail2ban-server[23989]: Server ready
+```
+
+### Configuration of Fail2Ban
+
+Fail2Ban is now installed, but not yet active and not yet configured. Take a look at `/etc/fail2ban` and you will see that the following files should currently be located there:
+```
+action.d fail2ban.d jail.conf paths-arch.conf paths-debian.conf
+fail2ban.conf filter.d jail.d paths-common.conf paths-opensuse.conf
+```
+To create an active "jail", a file called `jail.local` must be created. Simply copy the contents of `jail.conf` into the new file and open it:
+```
+sudo cp /etc/fail2ban/jail.conf /etc/fail2ban/jail.local
+sudo nano /etc/fail2ban/jail.local
+```
+All settings can now be made in the `jail.local` file, including the services to be monitored.
+Now please only look at the part after `[Default]`. The Default section is used for making default/general settings.
+
+Scroll down a little further in this file until you find this part and adjust it as follows, for example:
+
+| Attribute     | Explanation                                                                  | Value       |
+|---------------|------------------------------------------------------------------------------|-------------|
+| ignoreip      | IP adresses that should not be blocked                                       | 127.0.0.1/8 |
+| ignorecommand | Not relevant.                                                                |             |
+| bantime       | How long an IP adress is should be blocked                                   | 1h          |
+| findtime      | Timeframe of failed logins to be taken into account                          | 10m         |
+| maxretry      | Number of failed attempts that lead to a ban                                 | 5           |
+
+```
+# can be defined using space (and/or comma) separator.
+#ignoreip = 127.0.0.1/8 ::1
+
+# ignorecommand = /path/to/command <ip>
+ignorecommand =
+
+# "bantime" is the number of seconds that a host is banned.
+bantime  = 1h
+
+# A host is banned if it has generated "maxretry" during the last "findtime"
+# seconds.
+findtime  = 10m
+
+# "maxretry" is the number of failures before a host get banned.
+maxretry = 5
+```
+Now we've finished setting up the default settings. To monitor the SSH service, for example, scroll down a little further to the `[sshd]` tag. Note that you should enter your possibly modified port under `Port`.
+```
+[sshd]
+
+enabled = true
+port = 22
+filter = sshd
+logpath = /var/log/auth.log
+maxretry = 4
+```
+:::tip
+As you can see, it is also possible to make individual settings in a single service (as here with `maxretry` which is lower than the default setting). Although we made the settings in general before, you can configure most of the settings for each service again. If you do not do this, the general setting will simply be used.
+:::
+
+Now you just have to restart Fail2Ban to start monitoring by Fail2Ban.
+```
+sudo systemctl restart fail2ban.service
+```
+
+### Check if Fail2Ban is working
+
+If you have access to a VPN or a second server, you can try to block yourself from Fail2Ban to see if the service works as desired. With a VPN or a hotspot via your cell phone you should get a different IP address, which would allow you to test Fail2Ban.
+
+:::danger
+Do not test this on your normal network, as your own IP address may be blocked and you **will be locked out**.
+:::
+
+Now try to establish an SSH connection to your server (with a different IP address!) and enter the wrong password each time. The result should look something like this:
+```
+root@185.223.29.xxx's password:
+Permission denied, please try again.
+root@185.223.29.xxx's password:
+Permission denied, please try again.
+root@185.223.29.xxx's password:
+root@185.223.29.xxx: Permission denied (publickey,password).
+root@vps-zap515723-2:/var/log# ssh root@185.223.29.179
+root@185.223.29.xxx's password:
+Permission denied, please try again.
+root@185.223.29.xxx's password:
+Permission denied, please try again.
+root@185.223.29.xxx's password:
+^C
+root@vps-zap515723-2:/var/log# ssh root@185.223.29.xxx
+ssh: connect to host 185.223.29.xxx port 22: Connection refused
+```
+As you can see, the connection from your server protected by Fail2Ban is now rejected (`Connection refused` instead of `Permission denied`).
+Now display the status of Fail2Ban. Here you can see that an IP address has been blocked.
+```
+fail2ban-client status sshd
+Status for the jail: sshd
+|- Filter
+|  |- Currently failed: 4
+|  |- Total failed:     8
+|  `- File list:        /var/log/auth.log
+`- Actions
+   |- Currently banned: 1
+   |- Total banned:     1
+   `- Banned IP list:   xxx
+```
+
+If you want to unblock the IP again, you can do this with `fail2ban-client set sshd unbanip {your IP}`.
+
+:::info
+If you have an unusually high number of IP bans, it is advisable to extend the ban time with each failed attempt in order to reduce the number of possible login attempts.
+:::
+
+```
+[sshd]
+
+enabled = true
+port    = 22
+filter  = sshd
+logpath = /var/log/auth.log
+maxretry = 4
+
+bantime = 1h
+#Bantime soll bei jedem Ban dieser IP steigen
+bantime.increment = true
+#Um Faktor 24 (1h,24h,48h,3d,4d....)
+bantime.factor = 24
+#Maximale Banzeit=5 Wochen
+bantime.maxtime = 5w
+```
 
 ## Securing webservers using Cloudflare
 
@@ -222,3 +375,13 @@ To do that, you can manually limit access using firewall rules from the [Cloudfl
 
 Alternatively, you can save some time and use tools like [Cloudflare-ufw](https://github.com/Paul-Reed/cloudflare-ufw) to quickly mass import these firewall rules.
 Make sure you do not have any separate rules that allow unrestricted access to your webserver, other than the ones you recently added, otherwise they won't work.
+
+## Conclusion - your server is now much more secure than before!
+
+This guide has shown you some basic and advanced functions for securing your Linux server. If you have implemented all the recommendations that apply to your system, your server is already much more secure than before - congratulations!
+
+Further measures can of course be taken:
+- [Setup 2FA](https://zap-hosting.com/guides/de/docs/vserver-linux-ssh2fa/)
+- Add further configurations to Fail2Ban
+- Set up mail notifications in Fail2Ban
+- and many more

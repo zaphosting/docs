@@ -8,7 +8,7 @@ sidebar_label: Sicherheitstipps
 
 ## Einführung
 
-Diese Anleitung beeinhaltet einige Tipps und Hinweise wie du deinen Linux Server sicherer gestalten kannst. Insbesondere da auf (virtuelle) Server extern zugegriffen werden muss ist ein grundlegender Schutz vor ungewünschten Zugriffen definitiv empfehlenswert und sollte keinesfalls vernachlässigt werden. 
+Diese Anleitung beinhaltet einige Tipps und Hinweise wie du deinen Linux Server sicherer gestalten kannst. Insbesondere da auf (virtuelle) Server extern zugegriffen werden muss ist ein grundlegender Schutz vor ungewünschten Zugriffen definitiv empfehlenswert und sollte keinesfalls vernachlässigt werden. 
 
 :::info
 Bitte beachte dass diese Anleitung nicht abschließend ist und tiefergehende Informationen anderen Abschnitten der ZAP-Dokumentation entnommen werden kann. (z.B. [2FA](https://zap-hosting.com/guides/de/docs/vserver-linux-ssh2fa/))
@@ -22,7 +22,7 @@ Der einfachste Weg deinen Server zu schützen ist, egal bei welchem Server, imme
 
 SSH ist ein Dienst der es dir erlaubt aus der Ferne auf die Konsole deines Servers zuzugreifen und Befehle auf dem Server auszuführen. Hier siehst du, wie du SSH auf deinem Server einrichten kannst: [Wie richte ich SSH auf meinem Server ein?](https://zap-hosting.com/guides/de/docs/vserver-linux-ssh/)
 
-Standardmäßig wird für SSH eine Passwortbasierte Anmeldung genutzt. Dies hat jedoch den großen Nachteil, dass die Authentifizierung relativ einfach per Brute-Force-Attacke umgangen werden kann, insbesondere dann, wenn du ein zu simples Passwort für deinen SSH Login nutzt. Solltest du dich also für die Passwortlösung entscheiden, dann nutze bitte ein **sicheres** Passwort.
+Standardmäßig wird für SSH eine passwortbasierte Anmeldung genutzt. Dies hat jedoch den großen Nachteil, dass die Authentifizierung relativ einfach per Brute-Force-Attacke umgangen werden kann, insbesondere dann, wenn du ein zu simples Passwort für deinen SSH Login nutzt. Solltest du dich also für die Passwortlösung entscheiden, dann nutze bitte ein **sicheres** Passwort.
 
 Um deinen Server noch besser vor ungewünschten SSH Zugriffen zu schützen, solltest du die Authentifizierung ausschließlich über SSH- Schlüssel ermöglichen, und den Passwort-Login deaktivieren. Schau dir dazu [unsere SSH-Anleitung](https://zap-hosting.com/guides/docs/vserver-linux-sshkey) an, in der erklärt wird, wie man SSH-Schlüssel generiert und hinzufügt werden. 
 
@@ -42,7 +42,7 @@ Dienste wie SSH oder FTP nutzen standardmäßig immer die selben Ports. Möchte 
 Um dies zu verhindern empfehlen wir die Ports der Standarddienste benutzerdefiniert einzurichten. Wie dies funktioniert, erfährst du jetzt:
 
 :::danger
-Dein Wunschport muss sich zwischen 1024 und 65536 befinden und sollte kein bereits genutzer Port sein!
+Dein Wunschport muss sich zwischen 1024 und 65536 befinden und sollte kein bereits genutzter Port sein!
 :::
 Mittels `cat /etc/services` kannst du dir einige Standardports ausgeben lassen um zu verhindern, dass du einen bereits genutzten Port auswählst.
 
@@ -62,7 +62,7 @@ und füge hinter `Port` deinen Wunschport ein. Sollte `Port` auskommentiert sein
 
 ![Port sshd](https://i.imgur.com/fDak8p8.png)
 
-Jetzt muss der SSH-Dienst noch neugestartet werden, damit die Änderungen wirksam werden.
+Jetzt muss der SSH-Dienst noch neu gestartet werden, damit die Änderungen wirksam werden.
 ```
 #Unter Ubuntu/Debian/CentOS z.B.
 sudo systemctl restart sshd
@@ -78,7 +78,7 @@ find / -name "proftpd.conf" 2>/dev/null
 ```
 
 Die Datei liegt normalerweise in `/etc/proftpd.conf` (CentOS) oder `/etc/proftpd/proftpd.conf`.
-Öffene nun die Datei per nano und entferne das "#" vor `Port` und trage dahinter deinen Wunschport ein. Bitte beachte die Information weiter oben, sodass du keinen ungültigen Port angibst.
+Öffne nun die Datei per nano und entferne das "#" vor `Port` und trage dahinter deinen Wunschport ein. Bitte beachte die Information weiter oben, sodass du keinen ungültigen Port angibst.
 
 :::tip
 Mittels Strg+W kannst du in nano suchen
@@ -89,8 +89,6 @@ nano /etc/proftpd/proftpd.conf
 ```
 ![Port proftpd](https://i.imgur.com/dAdXEsv.png)
 
-
-
 ## Eine Firewall nutzen um dein System besser zu schützen
 
 Der Grundsatz der externen Erreichbarkeit eines Servers ist immer gleich: Damit der Server extern erreichbar sein kann, muss ein Port geöffnet werden. Im Fall von SSH ist das **standardmäßig** Port 22/TCP. (siehe weiter oben, wie du den Standardport ändern kannst) 
@@ -100,7 +98,7 @@ Das Problem dabei ist, dass dieser Port nun für Jedermann erreichbar ist, unabh
 Um diese Auswirkungen zu verringern, kannst du Firewall-Regeln anwenden, die den Zugriff auf die geöffneten Ports beschränken.
 
 Dafür gibt es zwei verschiedene Methoden die du nutzen kannst:
-- **IPTables**: Dies ist sogesehen die ursprüngliche Firewall von Linux. Es bietet dir sehr viele Möglichkeiten, ist aber durchaus etwas komplizierter in der Anwendung.
+- **IPTables**: Dies ist so gesehen die ursprüngliche Firewall von Linux. Es bietet dir sehr viele Möglichkeiten, ist aber durchaus etwas komplizierter in der Anwendung.
 - **UFW**: Dies ist letztendlich nur ein einfacheres Interface um IPTables zu nutzen, ohne die komplizierten Befehle anwenden zu müssen. Bietet dafür etwas weniger Möglichkeiten.
 
 Im Endeffekt kannst du dir aussuchen, welche von beiden Methoden du nutzen möchtest. Je nach Anwendungsfall braucht man die Vielfältigkeit von IPTables, manchmal reicht auch einfach UFW. (z.B. dann, wenn du einfach nur Ports öffnen/schließen möchtest)
@@ -127,11 +125,9 @@ iptables -A INPUT -p tcp --dport 22 -m state --state NEW -m recent --update --se
 2.  Die zweite Regel fügt die IP-Adresse einer neuen Verbindung zur `recent`-Liste hinzu.
 3.  Die dritte Regel verwirft neue Verbindungen von IP-Adressen, die in der letzten Sekunde versucht haben, mehr als zwei Verbindungen herzustellen.
 
+### UFW - Uncomplicated Firewall
 
-
-### UFW
-
-Wie oben beschrieben ist UFW ein "einfacheres" Interface für IPTables. Im ersten Schritt muss UFW installiert werden, da es nicht bei allen Linux Distributionen inkludiert ist. Die Befehle solltest du entweder als Root ausführen oder unter der verwendung von *sudo*.
+Wie oben beschrieben ist UFW ein "einfacheres" Interface für IPTables. Im ersten Schritt muss UFW installiert werden, da es nicht bei allen Linux Distributionen inkludiert ist. Die Befehle solltest du entweder als Root ausführen oder unter der Verwendung von *sudo*.
 
 Melde dich zunächst bei deinem Linux-Server an. Wenn du dabei Hilfe brauchst, folge bitte unserer Anleitung [SSH-Zugang](https://zap-hosting.com/guides/docs/vserver-linux-ssh), in der erklärt wird, wie dies funktioniert. 
 
@@ -185,14 +181,14 @@ UFW erlaubt es dir lediglich, die Anzahl der Verbindungen auf 6 pro Minute zu be
 :::
 
 :::tip
-Die Firewall (egal ob IPTables oder UFW) kann die Verbindungversuche nur "stumpf" zählen und entsprechend blocken. Mit Fail2Ban ist es möglich Log- Files auf Auffälligkeiten zu prüfen. Im nächsten Abschnitt wird beschrieben, wie du Fail2Ban für einige Dienste aktivieren kannst.
+Die Firewall (egal ob IPTables oder UFW) kann die Verbindungsversuche nur "stumpf" zählen und entsprechend blocken. Mit Fail2Ban ist es möglich Log- Files auf Auffälligkeiten zu prüfen. Im nächsten Abschnitt wird beschrieben, wie du Fail2Ban für einige Dienste aktivieren kannst.
 :::
 
 ## Fail2Ban zur erweiterten und dynamischen Absicherung deines Servers
 
-Fail2Ban ist ein Dienst der IP-Adressen blockiert mit denen Verbindungen zum Server hergestellt werden sollen mit wahrscheinlich böswilligen Absichten. Fail2Ban überwacht dazu einige Log-Datein auf Anomalien, und sichert damit dein System über ein relativ einfachen Weg sehr effektiv ab.
+Fail2Ban ist ein Dienst der IP-Adressen blockiert mit denen Verbindungen zum Server hergestellt werden sollen mit wahrscheinlich böswilligen Absichten. Fail2Ban überwacht dazu einige Log-Dateien auf Anomalien, und sichert damit dein System über ein relativ einfachen Weg sehr effektiv ab.
 
-Nach der Installation überwacht Fail2Ban bereits standardmäßig u.a.
+Nach der Installation kommt Fail2Ban bereits standardmäßig mit einigen vorgefertigten Konfigurationen, u.a. für:
 - apache
 - lighttpd
 - sshd
@@ -212,7 +208,7 @@ Fail2Ban nutzt nun genau dieses Logfile und überwacht es auf fehlgeschlagene Au
 
 ### Installation von Fail2Ban
 
-Melde dich zunächst bei deinem Linux-Server an. Wenn du dabei Hilfe brauchst, folge bitte unserer Anleitung [SSH-Zugang](https://zap-hosting.com/guides/docs/vserver-linux-ssh), in der erklärt wird, wie dies funktioniert. Die Befehle solltest du entweder als Root ausführen oder unter der verwendung von *sudo*.
+Melde dich zunächst bei deinem Linux-Server an. Wenn du dabei Hilfe brauchst, folge bitte unserer Anleitung [SSH-Zugang](https://zap-hosting.com/guides/docs/vserver-linux-ssh), in der erklärt wird, wie dies funktioniert. Die Befehle solltest du entweder als Root ausführen oder unter der Verwendung von *sudo*.
 
 ```
 sudo apt update && sudo apt upgrade -y
@@ -239,20 +235,20 @@ Dec 02 13:10:34 vps-zap515723-1 fail2ban-server[23989]: Server ready
 
 ### Konfiguration von Fail2Ban
 
-Nun ist Fail2Ban zwar installiert, aber noch nicht aktiv und noch nicht konfiguriert. Mit einem Blick in `/etc/fail2ban` siehst du, dass dort aktuell die folgenenden Datein liegen sollten:
+Nun ist Fail2Ban zwar installiert, aber noch nicht aktiv und noch nicht konfiguriert. Mit einem Blick in `/etc/fail2ban` siehst du, dass dort aktuell die folgenden Dateien liegen sollten:
 ```
 action.d       fail2ban.d  jail.conf  paths-arch.conf    paths-debian.conf
 fail2ban.conf  filter.d    jail.d     paths-common.conf  paths-opensuse.conf
 ```
-Um ein aktives "jail" (=Gefängnis) zu erstellen, muss eine Datei namens `jail.local` erstellt werden. Kopier dazu den Inhalt von `jail.conf` einfach in die neue Datei und öffne diese:
+Um ein aktives "jail" (=Gefängnis) zu erstellen, muss eine Datei namens `jail.local` erstellt werden. Kopiere dazu den Inhalt von `jail.conf` einfach in die neue Datei und öffne diese:
 ```
 sudo cp /etc/fail2ban/jail.conf /etc/fail2ban/jail.local
 sudo nano /etc/fail2ban/jail.local
 ```
 In der `jail.local` Datei kannst du nun alle Einstellungen vornehmen, inkl. der zu überwachenden Dienste.
-Beachte nun in der Datei ausschließlich den Part nach `[DEFAULT]`. Direkt in der Default Sektion kannst du allgemeine Einstellungen vornehmen.
+Beachte bitte in der Datei ausschließlich den Part nach `[DEFAULT]`. Direkt in der Default-Sektion kannst du allgemeine Einstellungen vornehmen.
 
-Scroll in dieser Datei etwas weiter herunter, bis du diesen Part findest, und passe ihn bspw. so an:
+Scrolle in dieser Datei etwas weiter herunter, bis du diesen Part findest, und passe ihn bspw. so an:
 
 | Attribut      | Erklärung                                                                    | Wert        |
 |---------------|------------------------------------------------------------------------------|-------------|
@@ -290,10 +286,10 @@ logpath	= /var/log/auth.log
 maxretry = 4
 ```
 :::tip
-Wie du siehst ist es möglich auch in einem einzelnen Dienst individuelle Einstellungen vorzunehmen (wie hier mit `maxretry`). Obwohl wir die Einstellung zuvor allgemein vorgenommen haben, kannst du die meisten Einstellungen für jeden Dienst nochmal einstellen. Solltest du dies nicht tun, dann wird einfach die allgemeine Einstellung genutzt.
+Wie du siehst ist es möglich auch in einem einzelnen Dienst individuelle Einstellungen vorzunehmen (wie hier mit `maxretry` was geringer ist als in den allgemeinen Einstellungen). Obwohl wir die Einstellung zuvor allgemein vorgenommen haben, kannst du die meisten Einstellungen für jeden Dienst nochmal einstellen. Solltest du dies nicht tun, dann wird einfach die allgemeine Einstellung genutzt.
 :::
 
-Jetzt muss Fail2Ban nurnoch neugestartet werden, damit die Überwachung gestartet wird.
+Jetzt muss Fail2Ban nur noch neu gestartet werden, damit die Überwachung gestartet wird.
 ```
 sudo systemctl restart fail2ban.service
 ```
@@ -324,7 +320,7 @@ root@185.223.29.xxx's password:
 root@vps-zap515723-2:/var/log# ssh root@185.223.29.xxx
 ssh: connect to host 185.223.29.xxx port 22: Connection refused
 ```
-Wie du siehst wird nun die Verbindung von deinem durch Fail2Ban geschützten Server abgeleht.
+Wie du siehst wird jetzt die Verbindung von deinem durch Fail2Ban geschützten Server abgelehnt. ()`Connection refused` anstelle von `Permission denied`)
 Lass dir nun den Status von Fail2Ban ausgeben. Hier siehst du, dass eine IP-Adresse blockiert wurde.
 
 ```
@@ -343,7 +339,9 @@ Status for the jail: sshd
 Wenn du die IP wieder freigeben möchtest, kann du das per `fail2ban-client set sshd unbanip {deine IP}`.
 
 :::info
-Solltest du außergewöhnlich viele IP-Bans haben ist es empfehlenswert die Bantime mit jedem fehlgeschlagegenen Versuch zu verlänger, um die Anzahl der möglichen Anmeldeversuche zu verringern.
+Solltest du außergewöhnlich viele IP-Bans haben ist es empfehlenswert die Bantime mit jedem fehlgeschlagenen  Versuch zu verlänger, um die Anzahl der möglichen Anmeldeversuche zu verringern.
+:::
+
 ```
 [sshd]
 
@@ -361,7 +359,6 @@ bantime.factor = 24
 #Maximale Banzeit=5 Wochen
 bantime.maxtime = 5w
 ```
-:::
 
 ## Absicherung von Webservern mit Cloudflare
 
@@ -379,3 +376,13 @@ Zu diesem Zweck kannst du den Zugang manuell mit Firewall-Regeln aus der [Cloudf
 
 Alternativ kannst du auch etwas Zeit sparen und Tools wie [Cloudflare-ufw](https://github.com/Paul-Reed/cloudflare-ufw) verwenden, um diese Firewall-Regeln schnell zu importieren.
 Achte darauf, dass du keine separaten Regeln hast, die den uneingeschränkten Zugriff auf deinen Webserver erlauben, außer denen, die du gerade hinzugefügt hast, sonst werden diese nicht funktionieren.
+
+## Fazit - dein Server ist nun um einiges besser geschützt
+
+Dieses Guide hat dir einige grundlegende und erweiterte Funktionen zur Absicherung deines Linux-Servers gezeigt. Solltest du alle auf dein System zutreffenden Empfehlungen umgesetzt haben ist dein Server schon um einiges sicherer als vorher, Glückwunsch!
+
+Weitergehend können natürlich noch weitere Maßnahmen vorgenommen werden:
+- [Einrichtung 2FA](https://zap-hosting.com/guides/de/docs/vserver-linux-ssh2fa/)
+- Hinzufügen weiterer Konfigurationen zu Fail2Ban
+- Einrichten von Mail-Benachrichtigungen in Fail2Ban
+- und viele mehr
