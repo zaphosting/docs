@@ -244,10 +244,124 @@ Nun ist Fail2Ban zwar installiert, aber noch nicht aktiv und noch nicht konfigur
 action.d       fail2ban.d  jail.conf  paths-arch.conf    paths-debian.conf
 fail2ban.conf  filter.d    jail.d     paths-common.conf  paths-opensuse.conf
 ```
-Um ein aktives "jail" (=Gefängnis) zu erstellen, muss eine Datei namens `jail.local` erstellt werden. Kopier dazu den Inhalt von `jail.conf` einfach in die neue Datei:
+Um ein aktives "jail" (=Gefängnis) zu erstellen, muss eine Datei namens `jail.local` erstellt werden. Kopier dazu den Inhalt von `jail.conf` einfach in die neue Datei und öffne diese:
 ```
 sudo cp /etc/fail2ban/jail.conf /etc/fail2ban/jail.local
+sudo nano /etc/fail2ban/jail.local
 ```
+In der `jail.local` Datei kannst du nun alle Einstellungen vornehmen, inkl. der zu überwachenden Dienste.
+Beachte nun in der Datei ausschließlich den Part nach `[DEFAULT]`. Direkt in der Default Sektion kannst du allgemeine Einstellungen vornehmen.
+
+Scroll in dieser Datei etwas weiter herunter, bis du diesen Part findest, und passe ihn bspw. so an:
+
+| Attribut      | Erklärung                                                                    | Wert        |
+|---------------|------------------------------------------------------------------------------|-------------|
+| ignoreip      | IP-Adressen die nicht blockiert werden sollen                                | 127.0.0.1/8 |
+| ignorecommand | Nicht relevant.                                                              |             |
+| bantime       | Wie lange ein IP-Adresse blockiert wird                                      | 1h          |
+| findtime      | Maximaler Abstand der fehlgeschlagenen Logins, die berücksicht werden sollen | 10m         |
+| maxretry      | Anzahl der Fehlversuche die zu einem Ban führen                              | 5           |
+
+```
+# can be defined using space (and/or comma) separator.
+#ignoreip = 127.0.0.1/8 ::1
+
+# ignorecommand = /path/to/command <ip>
+ignorecommand =
+
+# "bantime" is the number of seconds that a host is banned.
+bantime  = 1h
+
+# A host is banned if it has generated "maxretry" during the last "findtime"
+# seconds.
+findtime  = 10m
+
+# "maxretry" is the number of failures before a host get banned.
+maxretry = 5
+```
+Damit hast du nun die allgemeinen Einstellungen vorgenommen. Um z.B. den SSH-Dienst zu überwachen, scrolle etwas weiter herunter, bis zum `[sshd]`-Tag. Beachte, dass du unter `Port` deinen eventuell abgeänderten Port eintragen solltest.
+```
+[sshd]
+
+enabled	= true
+port    = 22
+filter	= sshd
+logpath	= /var/log/auth.log
+maxretry = 4
+```
+:::tip
+Wie du siehst ist es möglich auch in einem einzelnen Dienst individuelle Einstellungen vorzunehmen (wie hier mit `maxretry`). Obwohl wir die Einstellung zuvor allgemein vorgenommen haben, kannst du die meisten Einstellungen für jeden Dienst nochmal einstellen. Solltest du dies nicht tun, dann wird einfach die allgemeine Einstellung genutzt.
+:::
+
+Jetzt muss Fail2Ban nurnoch neugestartet werden, damit die Überwachung gestartet wird.
+```
+sudo systemctl restart fail2ban.service
+```
+
+### Überprüfen ob Fail2Ban funktioniert
+
+Solltest du Zugriff auf einen VPN oder einen zweiten Server haben, dann kannst du versuchen dich selbst von Fail2Ban sperren zu lassen um zu schauen ob der Dienst wie gewünscht funktioniert. Mit einem VPN oder einem Hotspot über dein Mobiltelefon solltest du eine andere IP-Adresse bekommen, womit es möglich wäre Fail2Ban zu testen.
+
+:::danger
+Teste dies nicht in deinem normalen Netzwerk, da möglicherweise deine eigene IP-Adresse blockiert wird und du **dich somit aussperren wirst!**
+:::
+
+Versuche nun (mit einer anderen IP-Adresse!) eine SSH-Verbindung zu deinem Server herzustellen und gebe jedes mal ein falsches Passwort ein. Das Ergebnis dürfte in etwa so aussehen:
+```
+root@185.223.29.xxx's password:
+Permission denied, please try again.
+root@185.223.29.xxx's password:
+Permission denied, please try again.
+root@185.223.29.xxx's password:
+root@185.223.29.xxx: Permission denied (publickey,password).
+root@vps-zap515723-2:/var/log# ssh root@185.223.29.179
+root@185.223.29.xxx's password:
+Permission denied, please try again.
+root@185.223.29.xxx's password:
+Permission denied, please try again.
+root@185.223.29.xxx's password:
+^C
+root@vps-zap515723-2:/var/log# ssh root@185.223.29.xxx
+ssh: connect to host 185.223.29.xxx port 22: Connection refused
+```
+Wie du siehst wird nun die Verbindung von deinem durch Fail2Ban geschützten Server abgeleht.
+Lass dir nun den Status von Fail2Ban ausgeben. Hier siehst du, dass eine IP-Adresse blockiert wurde.
+
+```
+fail2ban-client status sshd
+Status for the jail: sshd
+|- Filter
+|  |- Currently failed: 4
+|  |- Total failed:     8
+|  `- File list:        /var/log/auth.log
+`- Actions
+   |- Currently banned: 1
+   |- Total banned:     1
+   `- Banned IP list:   xxx
+```
+
+Wenn du die IP wieder freigeben möchtest, kann du das per `fail2ban-client set sshd unbanip {deine IP}`.
+
+:::info
+Solltest du außergewöhnlich viele IP-Bans haben ist es empfehlenswert die Bantime mit jedem fehlgeschlagegenen Versuch zu verlänger, um die Anzahl der möglichen Anmeldeversuche zu verringern.
+```
+[sshd]
+
+enabled = true
+port    = 22
+filter  = sshd
+logpath = /var/log/auth.log
+maxretry = 4
+
+bantime = 1h
+#Bantime soll bei jedem Ban dieser IP steigen
+bantime.increment = true
+#Um Faktor 24 (1h,24h,48h,3d,4d....)
+bantime.factor = 24
+#Maximale Banzeit=5 Wochen
+bantime.maxtime = 5w
+```
+:::
 
 ## Absicherung von Webservern mit Cloudflare
 
