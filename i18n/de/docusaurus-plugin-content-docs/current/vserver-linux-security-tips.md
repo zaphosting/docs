@@ -54,7 +54,7 @@ find / -name "sshd_config" 2>/dev/null
 ```
 gesucht werden.
 
-Öffne nun die Datei per nano (als Root oder mit sudo)
+Öffne nun die Datei per nano (als Root oder mit **sudo**)
 ```
 sudo nano /etc/ssh/sshd_config
 ```
@@ -65,7 +65,7 @@ und füge hinter `Port` deinen Wunschport ein. Sollte `Port` auskommentiert sein
 Jetzt muss der SSH-Dienst noch neugestartet werden, damit die Änderungen wirksam werden.
 ```
 #Unter Ubuntu/Debian/CentOS z.B.
-systemctl restart sshd
+sudo systemctl restart sshd
 ```
 
 ### FTP Port einstellen
@@ -93,7 +93,7 @@ nano /etc/proftpd/proftpd.conf
 
 ## Eine Firewall nutzen um dein System besser zu schützen
 
-Der Grundsatz der externen Erreichbarkeit eines Servers ist immer gleich: Damit der Server extern erreichbar sein kann, muss ein Port geöffnet werden. Im Fall von SSH ist das **standardmäßig** Port 22/TCP. (siehe weiter unten, wie du den Standardport ändern kannst) 
+Der Grundsatz der externen Erreichbarkeit eines Servers ist immer gleich: Damit der Server extern erreichbar sein kann, muss ein Port geöffnet werden. Im Fall von SSH ist das **standardmäßig** Port 22/TCP. (siehe weiter oben, wie du den Standardport ändern kannst) 
 
 Das Problem dabei ist, dass dieser Port nun für Jedermann erreichbar ist, unabhängig von Person, Standort und Intention. Dies stellt eine große Sicherheitslücke dar, da böswillige Akteure den Server mit Anmeldeversuchen überschwemmen könnten, um entweder das richtige Kennwort herauszufinden (durch eine Brute-Force-Attacke, falls du den Login per Passwort noch aktiviert hast) oder um zu versuchen, das Servernetzwerk durch Flooding (z.B. DDoS) zu überlasten, was häufig der Fall ist.
 
@@ -101,7 +101,7 @@ Um diese Auswirkungen zu verringern, kannst du Firewall-Regeln anwenden, die den
 
 Dafür gibt es zwei verschiedene Methoden die du nutzen kannst:
 - **IPTables**: Dies ist sogesehen die ursprüngliche Firewall von Linux. Es bietet dir sehr viele Möglichkeiten, ist aber durchaus etwas komplizierter in der Anwendung.
-- **UFW**: Dies ist letztendlich nur ein einfacheres Interface um IPTables zu nutzen, ohne die komplizierten Befehle anwenden zu müssen.
+- **UFW**: Dies ist letztendlich nur ein einfacheres Interface um IPTables zu nutzen, ohne die komplizierten Befehle anwenden zu müssen. Bietet dafür etwas weniger Möglichkeiten.
 
 Im Endeffekt kannst du dir aussuchen, welche von beiden Methoden du nutzen möchtest. Je nach Anwendungsfall braucht man die Vielfältigkeit von IPTables, manchmal reicht auch einfach UFW. (z.B. dann, wenn du einfach nur Ports öffnen/schließen möchtest)
 
@@ -115,7 +115,7 @@ Bitte beachte, dass diese Regel nur für **Port 22** (Der Wert nach `--dport`) a
 Die folgenden Befehle funktionieren möglicherweise nicht mit jedem beliebigen Linux-Betriebssystem, aber sie funktionieren mit der überwiegenden Mehrheit der beliebtesten Betriebssysteme.
 :::
 
-Melde dich zunächst bei deinem Linux-Server an. Wenn du dabei Hilfe brauchst, folge bitte unserer Anleitung [SSH-Zugang](https://zap-hosting.com/guides/docs/vserver-linux-ssh), die erklärt, wie dies funktioniert. Führe dann die folgenden Befehle in der Reihenfolge aus, in der sie aufgelistet sind. Unterhalb der Befehle sehen Sie zum besseren Verständnis, was der jeweilige Befehl bewirkt.
+Melde dich zunächst bei deinem Linux-Server an. Wenn du dabei Hilfe brauchst, folge bitte unserer Anleitung [SSH-Zugang](https://zap-hosting.com/guides/docs/vserver-linux-ssh), die erklärt, wie dies funktioniert. Führe dann die folgenden Befehle in der aufgelisteten Reihenfolge aus.
 
 ```
 iptables -A INPUT -p tcp --syn --dport 22 -m connlimit --connlimit-above 2 --connlimit-mask 32 -j DROP
@@ -188,7 +188,7 @@ UFW erlaubt es dir lediglich, die Anzahl der Verbindungen auf 6 pro Minute zu be
 Die Firewall (egal ob IPTables oder UFW) kann die Verbindungversuche nur "stumpf" zählen und entsprechend blocken. Mit Fail2Ban ist es möglich Log- Files auf Auffälligkeiten zu prüfen. Im nächsten Abschnitt wird beschrieben, wie du Fail2Ban für einige Dienste aktivieren kannst.
 :::
 
-## Fail2Ban zur erweiterten Absicherung deines Servers
+## Fail2Ban zur erweiterten und dynamischen Absicherung deines Servers
 
 Fail2Ban ist ein Dienst der IP-Adressen blockiert mit denen Verbindungen zum Server hergestellt werden sollen mit wahrscheinlich böswilligen Absichten. Fail2Ban überwacht dazu einige Log-Datein auf Anomalien, und sichert damit dein System über ein relativ einfachen Weg sehr effektiv ab.
 
