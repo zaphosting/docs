@@ -7,13 +7,43 @@ sidebar_label: Security Tips
 
 ## Introduction
 
-SSH (Secure Shell) is a powerful service that allows you to remotely access and execute commands on your server. See how to setup here: [How to setup SSH in your server?](https://zap-hosting.com/guides/docs/vserver-linux-ssh)
+This guide contains some tips and advice on how to make your Linux server more secure. Especially since (virtual) servers must be accessed externally, basic protection against unwanted access is definitely recommended and should not be neglected. 
 
-However, this is insecure by default, because it uses a password for login, and your identity can be spoofed using a brute-force tool. Regardless, we always suggest that you use a strong password to make this task harder.
+:::info
+Please note that these instructions are not exhaustive and that more detailed information can be found in other sections of the ZAP documentation. (e.g. [2FA](https://zap-hosting.com/guides/de/docs/vserver-linux-ssh2fa/))
+:::
 
-## SSH Keys
+:::tip
+The easiest way to protect your server is always the same, regardless of the server: Use secure passwords, update your services regularly and generally pay attention to which services you want to install and which guides you follow.
+:::
 
-There is a solution to this. To ensure that no one can brute force and get access to your server, you can set up an SSH service on your server to restrict login with the use of SSH-Keys. To do so, take a look at [our SSH guide](https://zap-hosting.com/guides/docs/vserver-linux-sshkey) which explains how to generate and add an SSH key to gameservers, and how to do so for rootservers.
+## Securing SSH (Secure Shell)
+
+SSH is a service that allows you to remotely access your server's console to execute commands on the server. Here you can see how to set up SSH on your server: [How do I set up SSH on my server?](https://zap-hosting.com/guides/de/docs/vserver-linux-ssh/)
+
+By default, a password-based login is used for SSH. However, this has the major disadvantage that authentication can be bypassed relatively easily using a brute force attack, especially if you use a password that is too simple for your SSH login. So if you decide to use the password solution, please use a **secure** password.
+
+To protect your server even better against unwanted SSH access, you should enable authentication exclusively via SSH keys and deactivate the password login. Take a look at [our SSH guide](https://zap-hosting.com/guides/docs/vserver-linux-sshkey), which explains how to generate and add SSH keys.
+
+## Simple but effective: Changing the ports of common services
+
+| Service| Port |
+|--------|------|
+| SSH    | 22   |
+| FTP    | 21   |
+| Mail   | 25   |
+| DNS    | 53   |
+| HTTP   | 80   |
+| HTTPS  | 443  |
+
+Services such as SSH or FTP always use the same ports by default. If an external attacker wants to brute force your server's SSH service, they first need to know which port is used to access SSH. If you do not configure these ports differently, then ports 22 and 21 are usually a hit for executing commands directly on the server or accessing files via FTP.
+
+To prevent this, we recommend setting up the ports of the standard services as user-defined. In the next part of this guide you can find out how:
+
+:::danger
+Your desired port must be between 1024 and 65536 and should not be a port that is already in use!
+:::
+You can use `cat /etc/services` to display some standard ports to prevent you from selecting a port that is already in use.
 
 ## Limiting Connections
 
