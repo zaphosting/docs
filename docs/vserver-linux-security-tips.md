@@ -47,17 +47,17 @@ You can use `cat /etc/services` to display some standard ports to prevent you fr
 
 ### Set SSH port
 
-To change the SSH port, you must adjust the configuration file. This is normally located in `/etc/ssh/sshd_config` by default, but if it's not located there you can use
+To change the SSH port, you must adjust the configuration file. This is normally located in `/etc/ssh/sshd_config` by default, but if it's not located there you can use the following command to find it.
 ```
 find / -name "sshd_config" 2>/dev/null
 ```
-to find it.
 
-Now open the file using nano (as root or with *sudo*)
+Now open the file using nano (as root or with *sudo*).
 ```
 sudo nano /etc/ssh/sshd_config
 ```
-and add your desired port after `Port`. If `Port` is commented out (i.e. `#Port 22`), then remove the "#" and replace the 22 with your desired port. Now you have to save the file (under Nano with Ctrl + o) and close it (Nano: Ctrl + x).
+
+Add your desired port after `Port`. If `Port` is commented out (i.e. `#Port 22`), then remove the "#" and replace the 22 with your desired port. Now you have to save the file (under Nano with Ctrl + o) and close it (Nano: Ctrl + x).
 
 ![Port sshd](https://i.imgur.com/fDak8p8.png)
 
