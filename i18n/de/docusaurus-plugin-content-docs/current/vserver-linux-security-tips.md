@@ -24,7 +24,7 @@ SSH ist ein Dienst der es dir erlaubt aus der Ferne auf die Konsole deines Serve
 
 Standardmäßig wird für SSH eine passwortbasierte Anmeldung genutzt. Dies hat jedoch den großen Nachteil, dass die Authentifizierung relativ einfach per Brute-Force-Attacke umgangen werden kann, insbesondere dann, wenn du ein zu simples Passwort für deinen SSH Login nutzt. Solltest du dich also für die Passwortlösung entscheiden, dann nutze bitte ein **sicheres** Passwort.
 
-Um deinen Server noch besser vor ungewünschten SSH Zugriffen zu schützen, solltest du die Authentifizierung ausschließlich über SSH- Schlüssel ermöglichen, und den Passwort-Login deaktivieren. Schau dir dazu [unsere SSH-Anleitung](https://zap-hosting.com/guides/docs/vserver-linux-sshkey) an, in der erklärt wird, wie man SSH-Schlüssel generiert und hinzufügt werden. 
+Um deinen Server noch besser vor ungewünschten SSH Zugriffen zu schützen, solltest du die Authentifizierung ausschließlich über SSH- Schlüssel ermöglichen, und den Passwort-Login deaktivieren. Schau dir dazu [unsere SSH-Anleitung](https://zap-hosting.com/guides/de/docs/vserver-linux-sshkey) an, in der erklärt wird, wie man SSH-Schlüssel generiert und hinzufügt werden. 
 
 ## Einfach aber effektiv: Port deiner Dienste ändern
 
@@ -37,7 +37,7 @@ Um deinen Server noch besser vor ungewünschten SSH Zugriffen zu schützen, soll
 | HTTP   | 80   |
 | HTTPS  | 443  |
 
-Dienste wie SSH oder FTP nutzen standardmäßig immer die selben Ports. Möchte ein außenstehender Angreifer eine Brute-Force-Attacke auf den SSH Dienst deines Servers ausführen, dann muss dieser erstmal wissen, über welchen Port SSH zu erreichen ist. Wenn du diese Ports nicht anders konfigurierst, dann sind die Ports 22 und 21 meist ein Treffer, um direkt Befehle auf dem Server auszuführen oder Dateien per FTP abzugreifen.
+Dienste wie SSH oder FTP nutzen standardmäßig immer die selben Ports (einige davon sind in der Tabelle oben aufgeführt). Möchte ein außenstehender Angreifer eine Brute-Force-Attacke auf den SSH Dienst deines Servers ausführen, dann muss dieser erstmal wissen, über welchen Port SSH zu erreichen ist. Wenn du diese Ports nicht anders konfigurierst, dann sind die Ports 22 und 21 meist ein Treffer, um direkt Befehle auf dem Server auszuführen oder Dateien per FTP abzugreifen.
 
 Um dies zu verhindern empfehlen wir die Ports der Standarddienste benutzerdefiniert einzurichten. Wie dies funktioniert, erfährst du jetzt:
 
@@ -48,17 +48,17 @@ Mittels `cat /etc/services` kannst du dir einige Standardports ausgeben lassen u
 
 ### SSH Port einstellen
 
-Um den Port beim SSH-Dienst zu ändern, musst du die Konfigurationsdatei anpassen. Diese befindet sich standardmäßig in `/etc/ssh/sshd_config`, kann aber mit
+Um den Port beim SSH-Dienst zu ändern, musst du die Konfigurationsdatei anpassen. Diese befindet sich standardmäßig in `/etc/ssh/sshd_config`, kann aber mit diesem Befehl durchsucht werden.
 ```
 find / -name "sshd_config" 2>/dev/null
 ```
-gesucht werden.
 
-Öffne nun die Datei per nano (als Root oder mit **sudo**)
+Öffne nun die Datei per nano (als Root oder mit **sudo**):
 ```
 sudo nano /etc/ssh/sshd_config
 ```
-und füge hinter `Port` deinen Wunschport ein. Sollte `Port` auskommentiert sein (also `#Port 22`), dann entferne das "#" und ersetze die 22 mit deinem Wunschport. Nun musst du die Datei noch speichern (Unter Nano mit Strg + o) und schließen (Nano: Strg + x).
+
+Füge hinter `Port` deinen Wunschport ein. Sollte `Port` auskommentiert sein (also `#Port 22`), dann entferne das "#" und ersetze die 22 mit deinem Wunschport. Nun musst du die Datei noch speichern (Unter Nano mit Strg + o) und schließen (Nano: Strg + x).
 
 ![Port sshd](https://i.imgur.com/fDak8p8.png)
 
@@ -113,7 +113,7 @@ Bitte beachte, dass diese Regel nur für **Port 22** (Der Wert nach `--dport`) a
 Die folgenden Befehle funktionieren möglicherweise nicht mit jedem beliebigen Linux-Betriebssystem, aber sie funktionieren mit der überwiegenden Mehrheit der beliebtesten Betriebssysteme.
 :::
 
-Melde dich zunächst bei deinem Linux-Server an. Wenn du dabei Hilfe brauchst, folge bitte unserer Anleitung [SSH-Zugang](https://zap-hosting.com/guides/docs/vserver-linux-ssh), die erklärt, wie dies funktioniert. Führe dann die folgenden Befehle in der aufgelisteten Reihenfolge aus.
+Melde dich zunächst bei deinem Linux-Server an. Wenn du dabei Hilfe brauchst, folge bitte unserer Anleitung [SSH-Zugang](https://zap-hosting.com/guides/de/docs/vserver-linux-ssh), die erklärt, wie dies funktioniert. Führe dann die folgenden Befehle in der aufgelisteten Reihenfolge aus.
 
 ```
 iptables -A INPUT -p tcp --syn --dport 22 -m connlimit --connlimit-above 2 --connlimit-mask 32 -j DROP
@@ -129,7 +129,7 @@ iptables -A INPUT -p tcp --dport 22 -m state --state NEW -m recent --update --se
 
 Wie oben beschrieben ist UFW ein "einfacheres" Interface für IPTables. Im ersten Schritt muss UFW installiert werden, da es nicht bei allen Linux Distributionen inkludiert ist. Die Befehle solltest du entweder als Root ausführen oder unter der Verwendung von *sudo*.
 
-Melde dich zunächst bei deinem Linux-Server an. Wenn du dabei Hilfe brauchst, folge bitte unserer Anleitung [SSH-Zugang](https://zap-hosting.com/guides/docs/vserver-linux-ssh), in der erklärt wird, wie dies funktioniert. 
+Melde dich zunächst bei deinem Linux-Server an. Wenn du dabei Hilfe brauchst, folge bitte unserer Anleitung [SSH-Zugang](https://zap-hosting.com/guides/de/docs/vserver-linux-ssh), in der erklärt wird, wie dies funktioniert. 
 
 Debian & Ubuntu:
 
@@ -155,12 +155,14 @@ Damit du dich nicht aussperrst, muss der ssh Dienst zuerst freigegeben werden, b
 Solltest du den Port für SSH bereits geändert haben, dann trag hier statt 22 bitte den neuen Port ein.
 :::
 
+Verwende die folgenden Befehle, um den ssh-Dienst zu aktivieren.
 ```
 sudo ufw allow 22/tcp
 sudo ufw enable
 sudo ufw status
 ```
-Der Output dürfte in etwa so aussehen:
+
+Der Output dürfte in etwa so aussehen.
 ```
 Status: active
   
@@ -208,7 +210,7 @@ Fail2Ban nutzt nun genau dieses Logfile und überwacht es auf fehlgeschlagene Au
 
 ### Installation von Fail2Ban
 
-Melde dich zunächst bei deinem Linux-Server an. Wenn du dabei Hilfe brauchst, folge bitte unserer Anleitung [SSH-Zugang](https://zap-hosting.com/guides/docs/vserver-linux-ssh), in der erklärt wird, wie dies funktioniert. Die Befehle solltest du entweder als Root ausführen oder unter der Verwendung von *sudo*.
+Melde dich zunächst bei deinem Linux-Server an. Wenn du dabei Hilfe brauchst, folge bitte unserer Anleitung [SSH-Zugang](https://zap-hosting.com/guides/de/docs/vserver-linux-ssh), in der erklärt wird, wie dies funktioniert. Die Befehle solltest du entweder als Root ausführen oder unter der Verwendung von *sudo*.
 
 ```
 sudo apt update && sudo apt upgrade -y
@@ -276,6 +278,8 @@ findtime  = 10m
 maxretry = 5
 ```
 Damit hast du nun die allgemeinen Einstellungen vorgenommen. Um z.B. den SSH-Dienst zu überwachen, scrolle etwas weiter herunter, bis zum `[sshd]`-Tag. Beachte, dass du unter `Port` deinen eventuell abgeänderten Port eintragen solltest.
+
+Der `[sshd]` Tag sieht wie folgt aus:
 ```
 [sshd]
 
@@ -285,6 +289,7 @@ filter	= sshd
 logpath	= /var/log/auth.log
 maxretry = 4
 ```
+
 :::tip
 Wie du siehst ist es möglich auch in einem einzelnen Dienst individuelle Einstellungen vorzunehmen (wie hier mit `maxretry` was geringer ist als in den allgemeinen Einstellungen). Obwohl wir die Einstellung zuvor allgemein vorgenommen haben, kannst du die meisten Einstellungen für jeden Dienst nochmal einstellen. Solltest du dies nicht tun, dann wird einfach die allgemeine Einstellung genutzt.
 :::
@@ -320,6 +325,7 @@ root@185.223.29.xxx's password:
 root@vps-zap515723-2:/var/log# ssh root@185.223.29.xxx
 ssh: connect to host 185.223.29.xxx port 22: Connection refused
 ```
+
 Wie du siehst wird jetzt die Verbindung von deinem durch Fail2Ban geschützten Server abgelehnt. ()`Connection refused` anstelle von `Permission denied`)
 Lass dir nun den Status von Fail2Ban ausgeben. Hier siehst du, dass eine IP-Adresse blockiert wurde.
 
