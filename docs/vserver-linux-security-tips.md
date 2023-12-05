@@ -10,7 +10,7 @@ sidebar_label: Security Tips
 This guide contains some tips and advice on how to make your Linux server more secure. Especially since (virtual) servers must be accessed externally, basic protection against unwanted access is definitely recommended and should not be neglected. 
 
 :::info
-Please note that these instructions are not exhaustive and that more detailed information can be found in other sections of the ZAP documentation. (e.g. [2FA](https://zap-hosting.com/guides/de/docs/vserver-linux-ssh2fa/))
+Please note that these instructions are not exhaustive and that more detailed information can be found in other sections of the ZAP documentation. (e.g. [2FA](https://zap-hosting.com/guides/docs/vserver-linux-ssh2fa/))
 :::
 
 :::tip
@@ -19,7 +19,7 @@ The easiest way to protect your server is always the same, regardless of the ser
 
 ## Securing SSH (Secure Shell)
 
-SSH is a service that allows you to remotely access your server's console to execute commands on the server. Here you can see how to set up SSH on your server: [How do I set up SSH on my server?](https://zap-hosting.com/guides/de/docs/vserver-linux-ssh/)
+SSH is a service that allows you to remotely access your server's console to execute commands on the server. Here you can see how to set up SSH on your server: [How do I set up SSH on my server?](https://zap-hosting.com/guides/docs/vserver-linux-ssh/)
 
 By default, a password-based login is used for SSH. However, this has the major disadvantage that authentication can be bypassed relatively easily using a brute force attack, especially if you use a password that is too simple for your SSH login. So if you decide to use the password solution, please use a **secure** password.
 
@@ -36,7 +36,7 @@ To protect your server even better against unwanted SSH access, you should enabl
 | HTTP   | 80   |
 | HTTPS  | 443  |
 
-Services such as SSH or FTP always use the same ports by default. If an external malicious actor wants to brute force your server's SSH service, they first need to know which port is used to access SSH. If you do not configure these ports differently, then ports 22 and 21 are usually a hit for executing commands directly on the server or accessing files via FTP.
+Services such as SSH or FTP always use the same ports by default (some of which are listed in the table above). If an external malicious actor wants to brute force your server's SSH service, they first need to know which port is used to access SSH. If you do not configure these ports differently, then ports 22 and 21 are usually a hit for executing commands directly on the server or accessing files via FTP.
 
 To prevent this, we recommend setting up the ports of the standard services as user-defined. In the next part of this guide you can find out how:
 
@@ -124,44 +124,42 @@ iptables -A INPUT -p tcp --dport 22 -m state --state NEW -m recent --update --se
 2.  The second rule adds the IP address of a new connection to the `recent` list.
 3.  The third rule drops new connections from IP addresses that have attempted to make more than 2 connections in the last second.
 
-
-
 ### UFW - Uncomplicated Firewall
 
 As described above, UFW is a "simpler" interface for IPTables. The first step is to install UFW, as it is by default not included in all Linux distributions. You should either execute the commands as root or use *sudo*.
 
-First log in to your Linux server. If you need help with this, please follow our guide [SSH access](https://zap-hosting.com/guides/docs/vserver-linux-ssh), which explains how this works. 
+First log in to your Linux server. If you need help with this, please follow our guide [SSH access](https://zap-hosting.com/guides/docs/vserver-linux-ssh), which explains how this works. The following instructions used Debian and Ubuntu for testing, but should work on other Linux Distributions too.
 
-Debian & Ubuntu:
-
-First the apt directory has to be updated and existing services should be upgraded
+First, the apt directory and existing services should be upgraded.
 ```
 sudo apt update && sudo apt upgrade -y
 ```
 
-Then install UFW via apt
+Next, proceed to install UFW via apt.
 ```
 sudo apt install ufw -y
 ```
 
-Now check if the installation was successful:
+Ensure that the installation was successful by running the following command.
 ```
 sudo ufw status
 > Firewall not loaded
 ```
 
-So that you do not lock yourself out, the ssh service must first be enabled until the firewall can finally be activated.
+In order to ensure that you do not lock yourself out from your server, the ssh service must first be enabled until the firewall can finally be activated.
 
 :::caution
 If you have already changed the port for SSH, please enter the new port here instead of 22.
 :::
 
+Use the following commands to enable the ssh service.
 ```
 sudo ufw allow 22/tcp
 sudo ufw enable
 sudo ufw status
 ```
-The output should look something like this:
+
+A successful output should look something like this.
 ```
 Status: active
   
@@ -235,7 +233,7 @@ Dec 02 13:10:34 vps-zap515723-1 fail2ban-server[23989]: Server ready
 
 ### Configuration of Fail2Ban
 
-Fail2Ban is now installed, but not yet active and not yet configured. Take a look at `/etc/fail2ban` and you will see that the following files should currently be located there:
+Fail2Ban is now installed, but not yet active or configured. Take a look at `/etc/fail2ban` and you will see that the following files should currently be located there:
 ```
 action.d fail2ban.d jail.conf paths-arch.conf paths-debian.conf
 fail2ban.conf filter.d jail.d paths-common.conf paths-opensuse.conf
@@ -245,8 +243,9 @@ To create an active "jail", a file called `jail.local` must be created. Simply c
 sudo cp /etc/fail2ban/jail.conf /etc/fail2ban/jail.local
 sudo nano /etc/fail2ban/jail.local
 ```
+
 All settings can now be made in the `jail.local` file, including the services to be monitored.
-Now please only look at the part after `[Default]`. The Default section is used for making default/general settings.
+You should only look at the part after `[Default]`. The Default section is used for making default/general settings.
 
 Scroll down a little further in this file until you find this part and adjust it as follows, for example:
 
@@ -275,7 +274,10 @@ findtime  = 10m
 # "maxretry" is the number of failures before a host get banned.
 maxretry = 5
 ```
-Now we've finished setting up the default settings. To monitor the SSH service, for example, scroll down a little further to the `[sshd]` tag. Note that you should enter your possibly modified port under `Port`.
+
+You have now finished setting up the default settings. To monitor the SSH service, for example, scroll down a little further to the `[sshd]` tag. Note that if you modified your port, you should place it under `Port`.
+
+The `[sshd]` tag will look as following:
 ```
 [sshd]
 
@@ -286,10 +288,10 @@ logpath = /var/log/auth.log
 maxretry = 4
 ```
 :::tip
-As you can see, it is also possible to make individual settings in a single service (as here with `maxretry` which is lower than the default setting). Although we made the settings in general before, you can configure most of the settings for each service again. If you do not do this, the general setting will simply be used.
+As you can see, it is also possible to make individual settings in a single service (as here with `maxretry` which is lower than the default setting). Although you made the settings in general before, you can configure most of the settings for each service again. If you do not do this, the general setting will simply be used.
 :::
 
-Now you just have to restart Fail2Ban to start monitoring by Fail2Ban.
+Now you simply have to restart Fail2Ban to start monitoring.
 ```
 sudo systemctl restart fail2ban.service
 ```
@@ -302,7 +304,7 @@ If you have access to a VPN or a second server, you can try to block yourself fr
 Do not test this on your normal network, as your own IP address may be blocked and you **will be locked out**.
 :::
 
-Now try to establish an SSH connection to your server (with a different IP address!) and enter the wrong password each time. The result should look something like this:
+Try to establish an SSH connection to your server (with a different IP address!) and enter the wrong password each time. The result should look something like this:
 ```
 root@185.223.29.xxx's password:
 Permission denied, please try again.
@@ -320,7 +322,9 @@ root@185.223.29.xxx's password:
 root@vps-zap515723-2:/var/log# ssh root@185.223.29.xxx
 ssh: connect to host 185.223.29.xxx port 22: Connection refused
 ```
+
 As you can see, the connection from your server protected by Fail2Ban is now rejected (`Connection refused` instead of `Permission denied`).
+
 Now display the status of Fail2Ban. Here you can see that an IP address has been blocked.
 ```
 fail2ban-client status sshd
@@ -335,7 +339,7 @@ Status for the jail: sshd
    `- Banned IP list:   xxx
 ```
 
-If you want to unblock the IP again, you can do this with `fail2ban-client set sshd unbanip {your IP}`.
+If you want to unblock the IP again, you can do this with the following command: `fail2ban-client set sshd unbanip {your IP}`.
 
 :::info
 If you have an unusually high number of IP bans, it is advisable to extend the ban time with each failed attempt in order to reduce the number of possible login attempts.
@@ -351,11 +355,11 @@ logpath = /var/log/auth.log
 maxretry = 4
 
 bantime = 1h
-#Bantime soll bei jedem Ban dieser IP steigen
+#Bantime should increase with every ban of this IP
 bantime.increment = true
-#Um Faktor 24 (1h,24h,48h,3d,4d....)
+#Scaling Factor of 24 hours (1h,24h,48h,3d,4d....)
 bantime.factor = 24
-#Maximale Banzeit=5 Wochen
+#Maximum ban time=5 weeks
 bantime.maxtime = 5w
 ```
 
@@ -381,7 +385,7 @@ Make sure you do not have any separate rules that allow unrestricted access to y
 This guide has shown you some basic and advanced functions for securing your Linux server. If you have implemented all the recommendations that apply to your system, your server is already much more secure than before - congratulations!
 
 Further measures can of course be taken:
-- [Setup 2FA](https://zap-hosting.com/guides/de/docs/vserver-linux-ssh2fa/)
+- [Setup 2FA](https://zap-hosting.com/guides/docs/vserver-linux-ssh2fa/)
 - Add further configurations to Fail2Ban
 - Set up mail notifications in Fail2Ban
-- and many more
+- And many more...
