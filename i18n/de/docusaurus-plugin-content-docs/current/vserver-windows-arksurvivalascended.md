@@ -129,6 +129,13 @@ Navigiere zunächst zu den folgenden Verzeichnissen:
 
 You will be able to find both **DefaultGameUserSettings.ini** and **Gameusersettings.ini** configuration files. In these files, you can edit a wide range of variables and options regarding your server.
 
+:::warning[CROSSPLAY SUPPORT]
+Seit dem 18. November 2023 müssen Serverbesitzer die Zertifikatswiderrufsliste, die unter https://dev.epicgames.com/ (oder direkt unter http://crl.r2m02.amazontrust.com/r2m02.crl) erhältlich ist, manuell installieren. Die heruntergeladene Datei r2m02.crl muss installiert werden (klicken mit der rechten Maustaste auf die Datei), indem du "Place all certificates in the following store" und "Trusted Root Certification Authorities" auswählst. Ein Neustart des Systems könnte erforderlich sein.
+
+Wenn Serverbesitzer vor dem 18. November 2023 die Zertifikatsdatei r2m02.cer installiert haben und der Server nicht angezeigt wird, muss dieses Zertifikat aus dem System entfernt werden, damit die Server wieder ordnungsgemäß angezeigt werden können. Um das widerrufene Zertifikat zu entfernen, führen (Windows + R) certmgr.msc aus und suche nach Amazon RSA 2048 M02 in Trusted Root Certification Authorities. Dasselbe muss mit certlm.msc gemacht werden. Abschließend kann ein Neustart des Systems erforderlich sein.
+:::
+
+
 ## Starten und Verbinden mit deinem Server
 
 Jetzt ist es an der Zeit, deinen Server zu starten. Damit der Server erfolgreich starten kann, musst du [Microsoft Visual C++ 2013 Redistribute](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170) auf deinem Windows VPS installieren.
