@@ -779,7 +779,7 @@ const sidebars = {
             'vserver-linux-ssl',
             'vserver-linux-rsync',
             'vserver-linux-security-tips',
-            'vserver-linux-centos-ssh',
+            'vserver-linux-ssh-server',
           ]
         },
         {
