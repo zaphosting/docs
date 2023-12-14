@@ -1,8 +1,8 @@
 ---
 id: vserver-linux-ssh-server
 title: Linux SSH Server installation
-description: Information on how to install SSH Server on your Linx VPS from ZAP-Hosting - ZAP-Hosting.com documentation
-sidebar_label: Linux SSH Server installation
+description: Information on how to install SSH Server on your Linux VPS from ZAP-Hosting - ZAP-Hosting.com documentation
+sidebar_label: SSH Server installation
 ---
 
 ## Introduction
