@@ -5,34 +5,29 @@ description: Information on how to install SSH Server on your Linx VPS from ZAP-
 sidebar_label: Linux SSH Server installation
 ---
 
-##
-
-## What is SSH?
+## Introduction
 
 Secure Shell (SSH) is a secure protocol that enables safe and encrypted access to remote systems. It ensures the confidentiality and integrity of data transmitted across networks.
+
+In this guide, you will understand how to install or reinstall the SSH Server for a range of Linux Distributions that we currently offer across our VPS servers. Most Linux Distros offered through our VPS servers, are equipped with an SSH Server by default which means you can easily manage it through the product's webinterface. You can view how to do this via our guide: [Initial Access with SSH](vserver-linux-ssh.md)
+
+If you wish to learn more about improving your security on your server, we highly recommend viewing our [Linux Security Tips](vserver-linux-security-tips.md) guide which promotes a range of tools and services that can help secure your server further.
 
 
 ## Installation
 
-To start the installation process, access your server via VNC. You can follow these steps using the [VNC Console](https://zap-hosting.com/guides/docs/vserver-vnc).
+To start the installation process, access your server via VNC. You can follow these steps using the [VNC Console](vserver-vnc.md).
 
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-
-<!---  Guide for CentOS  -->
-
 <Tabs>
-<TabItem value="CentOS" label="CentOS">
-<br/>
-:::info
-In case you want to re-install the SSH server, make sure that you uninstall it first.
-:::
+<TabItem value="CentOS" label="CentOS" default>
 
-```
-yum remove openssh
-```
+:::info
+If you want to re-install the SSH server, make sure that you uninstall it first. You can do so through the command: `yum remove openssh`.
+:::
 
 Before installing the SSH server, make sure your system is up to date. Run the following command:
 
@@ -62,12 +57,8 @@ systemctl enable sshd
 To enable root login, you need to edit the openssh configuration file. In this guide, we will use "nano" as editor.
 
 :::info
-If "nano" is not already installed, it must be installed first. To do so, use the following command:
+If "nano" is not already installed, it must be installed first. To do so, use the following command: `yum install nano`
 :::
-
-```
-yum install nano
-```
 
 Now let's open the configuration file
 
@@ -92,21 +83,13 @@ Finally restart the ssh server with the following command
 ```
 systemctl restart sshd
 ```
+</TabItem>
 
-
-<!---  Guide for Debian  -->
-
-<Tabs>
 <TabItem value="Debian" label="Debian">
-<br/>
 
 :::info
-In case you want to re-install the SSH server, make sure that you uninstall it first.
+If you want to re-install the SSH server, make sure that you uninstall it first. You can do so through the command: `apt remove openssh`.
 :::
-
-```
-apt remove openssh
-```
 
 Before installing the SSH server, make sure your system is up to date. Run the following command:
 
@@ -136,12 +119,8 @@ systemctl enable sshd
 To enable root login, you need to edit the openssh configuration file. In this guide, we will use "nano" as editor.
 
 :::info
-If you do not already have "nano" installed, you will need to install it.
+If you do not already have "nano" installed, you will need to install it. To do so, use the following command: `apt install nano`
 :::
-
-```
-apt install nano
-```
 
 Now let's open the configuration file
 
@@ -166,22 +145,13 @@ Finally restart the ssh server with the following command
 ```
 systemctl restart sshd
 ```
+</TabItem>
 
-
-<!---  Guide for Ubuntu   -->
-
-<Tabs>
 <TabItem value="Ubuntu" label="Ubuntu">
-<br/>
-
 
 :::info
-In case you want to re-install the SSH server, make sure that you uninstall it first.
+If you want to re-install the SSH server, make sure that you uninstall it first. You can do so through the command: `apt remove openssh`.
 :::
-
-```
-apt remove openssh
-```
 
 Before installing the SSH server, make sure your system is up to date. Run the following command:
 
@@ -212,12 +182,8 @@ systemctl enable sshd
 To enable root login, you need to edit the openssh configuration file. In this guide, we will use "nano" as editor.
 
 :::info
-If you do not already have "nano" installed, you will need to install it.
+If you do not already have "nano" installed, you will need to install it. To do so, use the following command: `apt install nano`
 :::
-
-```
-apt install nano
-```
 
 Now let's open the configuration file
 
@@ -242,21 +208,13 @@ Finally restart the ssh server with the following command
 ```
 systemctl restart sshd
 ```
+</TabItem>
 
-
-<!---  Guide for Fedora   -->
-
-<Tabs>
 <TabItem value="Fedora" label="Fedora">
-<br/>
 
 :::info
-In case you want to re-install the SSH server, make sure that you uninstall it first.
+If you want to re-install the SSH server, make sure that you uninstall it first. You can do so through the command: `dnf remove openssh`.
 :::
-
-```
-dnf remove openssh
-```
 
 Before installing the SSH server, make sure your system is up to date. Run the following command:
 
@@ -287,12 +245,8 @@ systemctl enable sshd
 To enable root login, you need to edit the openssh configuration file. In this guide, we will use "nano" as editor.
 
 :::info
-If you do not already have "nano" installed, you will need to install it.
+If you do not already have "nano" installed, you will need to install it. To do so, use the following command: `dnf install nano`
 :::
-
-```
-dnf install nano
-```
 
 Now let's open the configuration file
 
@@ -317,7 +271,7 @@ Finally restart the ssh server with the following command
 ```
 systemctl restart sshd
 ```
+</TabItem>
+</Tabs>
 
-<br>
-
-That's it. Now you can access your server via SSH.
+You have now successfully installed the SSH Service on your server and can now access your server via SSH.
