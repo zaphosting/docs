@@ -28,25 +28,21 @@ Wenn du den SSH-Server neu installieren willst, musst du ihn zuerst deinstallier
 :::
 
 Bevor du mit der Installation beginnst, stelle sicher, dass das System auf dem neuesten Stand ist. Führe dazu folgenden Befehl aus:
-
 ```
 yum update
 ```
 
 Nun kannst du mit der Installation des SSH-Servers fortfahren. Verwende dafür den folgenden Befehl:
-
 ```
 yum install openssh-server
 ```
 
-Jetzt kannst du den SSH-Server mit dem folgenden Befehl starten:
-
+Sobald die Installation abgeschlossen ist, kannst du den SSH-Serverdienst mit dem folgenden Befehl starten:
 ```
 systemctl start sshd
 ```
 
-Um den SSH-Server beim Systemstart automatisch zu starten, führe folgenden Befehl aus:
-
+Vergewissere dich, dass du den Dienst so konfigurierst, dass er beim Systemstart automatisch gestartet wird. Das kannst du mit dem folgenden Befehl tun:
 ```
 systemctl enable sshd
 ```
@@ -59,26 +55,22 @@ Um den Root Anmeldung zu aktivieren, musst du die openssh-Konfigurationsdatei be
 Falls "nano" noch nicht installiert ist, muss es zuerst installiert werden. Verwende dazu den folgenden Befehl: `yum install nano`
 :::
 
-Jetzt öffnen wir die Konfigurationsdatei mit dem folgenden Befehl
-
+Öffne die Konfigurationsdatei, indem du sie ausführst:
 ```
 nano /etc/ssh/sshd_config 
 ```
 
-Wir suchen nach folgender Zeile
-
+Verwende die Pfeiltasten zum Navigieren und suche nach der folgenden Zeile:
 ```
 #PermitRootLogin prohibit-password
 ```
 
-Jetzt ändern wir es zu
-
+Ändere dies in den folgenden Text, der den Remote-Root-Login ermöglicht:
 ```
 PermitRootLogin yes
 ```
 
-Anschließend muss der SSH-Server neu gestartet werden:
-
+Starte schließlich den SSH-Server neu, um die neue Konfiguration mit dem folgenden Befehl zu übernehmen:
 ```
 systemctl restart sshd
 ```
@@ -91,25 +83,21 @@ Wenn du den SSH-Server neu installieren willst, musst du ihn zuerst deinstallier
 :::
 
 Bevor du mit der Installation beginnst, stelle sicher, dass das System auf dem neuesten Stand ist. Führe dazu folgenden Befehl aus:
-
 ```
 apt update
 ```
 
 Nun kannst du mit der Installation des SSH-Servers fortfahren. Verwende dafür den folgenden Befehl:
-
 ```
 apt install openssh-server
 ```
 
-Jetzt kannst du den SSH-Server mit dem folgenden Befehl starten:
-
+Sobald die Installation abgeschlossen ist, kannst du den SSH-Serverdienst mit dem folgenden Befehl starten:
 ```
 systemctl start sshd
 ```
 
-Um den SSH-Server beim Systemstart automatisch zu starten, führe folgenden Befehl aus:
-
+Vergewissere dich, dass du den Dienst so konfigurierst, dass er beim Systemstart automatisch gestartet wird. Das kannst du mit dem folgenden Befehl tun:
 ```
 systemctl enable sshd
 ```
@@ -122,26 +110,22 @@ Um den Root Anmeldung zu aktivieren, musst du die openssh-Konfigurationsdatei be
 Falls "nano" noch nicht installiert ist, muss es zuerst installiert werden. Verwende dazu den folgenden Befehl: `apt install nano`
 :::
 
-Jetzt öffnen wir die Konfigurationsdatei mit dem folgenden Befehl
-
+Öffne die Konfigurationsdatei, indem du sie ausführst:
 ```
 nano /etc/ssh/sshd_config 
 ```
 
-Wir suchen nach folgender Zeile
-
+Verwende die Pfeiltasten zum Navigieren und suche nach der folgenden Zeile:
 ```
 #PermitRootLogin prohibit-password
 ```
 
-Jetzt ändern wir es zu
-
+Ändere dies in den folgenden Text, der den Remote-Root-Login ermöglicht:
 ```
 PermitRootLogin yes
 ```
 
-Anschließend muss der SSH-Server neu gestartet werden:
-
+Starte schließlich den SSH-Server neu, um die neue Konfiguration mit dem folgenden Befehl zu übernehmen:
 ```
 systemctl restart sshd
 ```
@@ -154,25 +138,21 @@ Wenn du den SSH-Server neu installieren willst, musst du ihn zuerst deinstallier
 :::
 
 Bevor du mit der Installation beginnst, stelle sicher, dass das System auf dem neuesten Stand ist. Führe dazu folgenden Befehl aus:
-
 ```
 apt update
 ```
 
 Nun kannst du mit der Installation des SSH-Servers fortfahren. Verwende dafür den folgenden Befehl:
-
 ```
 apt install openssh-server
 ```
 
-Jetzt kannst du den SSH-Server mit dem folgenden Befehl starten:
-
+Sobald die Installation abgeschlossen ist, kannst du den SSH-Serverdienst mit dem folgenden Befehl starten:
 ```
 systemctl start sshd
 ```
 
-Um den SSH-Server beim Systemstart automatisch zu starten, führe folgenden Befehl aus:
-
+Vergewissere dich, dass du den Dienst so konfigurierst, dass er beim Systemstart automatisch gestartet wird. Das kannst du mit dem folgenden Befehl tun:
 ```
 systemctl enable sshd
 ```
@@ -185,26 +165,22 @@ Um den Root Anmeldung zu aktivieren, musst du die openssh-Konfigurationsdatei be
 Falls "nano" noch nicht installiert ist, muss es zuerst installiert werden. Verwende dazu den folgenden Befehl: `apt install nano`
 :::
 
-Jetzt öffnen wir die Konfigurationsdatei mit dem folgenden Befehl
-
+Öffne die Konfigurationsdatei, indem du sie ausführst:
 ```
 nano /etc/ssh/sshd_config 
 ```
 
-Wir suchen nach folgender Zeile
-
+Verwende die Pfeiltasten zum Navigieren und suche nach der folgenden Zeile:
 ```
 #PermitRootLogin prohibit-password
 ```
 
-Jetzt ändern wir es zu
-
+Ändere dies in den folgenden Text, der den Remote-Root-Login ermöglicht:
 ```
 PermitRootLogin yes
 ```
 
-Anschließend muss der SSH-Server neu gestartet werden:
-
+Starte schließlich den SSH-Server neu, um die neue Konfiguration mit dem folgenden Befehl zu übernehmen:
 ```
 systemctl restart sshd
 ```
@@ -217,25 +193,21 @@ Wenn du den SSH-Server neu installieren willst, musst du ihn zuerst deinstallier
 :::
 
 Bevor du mit der Installation beginnst, stelle sicher, dass das System auf dem neuesten Stand ist. Führe dazu folgenden Befehl aus:
-
 ```
 dnf update
 ```
 
 Nun kannst du mit der Installation des SSH-Servers fortfahren. Verwende dafür den folgenden Befehl:
-
 ```
 dnf install openssh-server
 ```
 
-Jetzt kannst du den SSH-Server mit dem folgenden Befehl starten:
-
+Sobald die Installation abgeschlossen ist, kannst du den SSH-Serverdienst mit dem folgenden Befehl starten:
 ```
 systemctl start sshd
 ```
 
-Um den SSH-Server beim Systemstart automatisch zu starten, führe folgenden Befehl aus:
-
+Vergewissere dich, dass du den Dienst so konfigurierst, dass er beim Systemstart automatisch gestartet wird. Das kannst du mit dem folgenden Befehl tun:
 ```
 systemctl enable sshd
 ```
@@ -248,26 +220,22 @@ Um den Root Anmeldung zu aktivieren, musst du die openssh-Konfigurationsdatei be
 Falls "nano" noch nicht installiert ist, muss es zuerst installiert werden. Verwende dazu den folgenden Befehl: `dnf install nano`
 :::
 
-Jetzt öffnen wir die Konfigurationsdatei mit dem folgenden Befehl
-
+Öffne die Konfigurationsdatei, indem du sie ausführst:
 ```
 nano /etc/ssh/sshd_config 
 ```
 
-Wir suchen nach folgender Zeile
-
+Verwende die Pfeiltasten zum Navigieren und suche nach der folgenden Zeile:
 ```
 #PermitRootLogin prohibit-password
 ```
 
-Jetzt ändern wir es zu
-
+Ändere dies in den folgenden Text, der den Remote-Root-Login ermöglicht:
 ```
 PermitRootLogin yes
 ```
 
-Anschließend muss der SSH-Server neu gestartet werden:
-
+Starte schließlich den SSH-Server neu, um die neue Konfiguration mit dem folgenden Befehl zu übernehmen:
 ```
 systemctl restart sshd
 ```

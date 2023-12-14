@@ -30,24 +30,21 @@ If you want to re-install the SSH server, make sure that you uninstall it first.
 :::
 
 Before installing the SSH server, make sure your system is up to date. Run the following command:
-
 ```
 yum update
 ```
 
 Now proceed to install the SSH server using following command:
-
 ```
 yum install openssh-server
 ```
 
-Now start the SSH server with the following command:
-
+Once it has finished installing, you can start the SSH server service with the following command:
 ```
 systemctl start sshd
 ```
 
-To automatically start SSH server on system boot run following command:
+Ensure that you enable the service to automatically start on system boot. You can do this through the following command:
 ```
 systemctl enable sshd
 ``` 
@@ -60,26 +57,22 @@ To enable root login, you need to edit the openssh configuration file. In this g
 If "nano" is not already installed, it must be installed first. To do so, use the following command: `yum install nano`
 :::
 
-Now let's open the configuration file
-
+Proceed to open the configuration file by running:
 ```
 nano /etc/ssh/sshd_config 
 ```
 
-We are looking for the following line
-
+Using arrows keys to navigate, search for the following line:
 ```
 #PermitRootLogin prohibit-password
 ```
 
-Now change it to
-
+Change this to the following, which enables remote root login:
 ```
 PermitRootLogin yes
 ```
 
-Finally restart the ssh server with the following command
-
+Finally, restart the SSH Server in order to apply the new configuration by using the following command:
 ```
 systemctl restart sshd
 ```
@@ -92,24 +85,21 @@ If you want to re-install the SSH server, make sure that you uninstall it first.
 :::
 
 Before installing the SSH server, make sure your system is up to date. Run the following command:
-
 ```
 apt update
 ```
 
 Now proceed to install the SSH server using following command:
-
 ```
 apt install openssh-server
 ```
 
-Now start the SSH server with the following command:
-
+Once it has finished installing, you can start the SSH server service with the following command:
 ```
 systemctl start sshd
 ```
 
-To automatically start SSH server on system boot run following command:
+Ensure that you enable the service to automatically start on system boot. You can do this through the following command:
 ```
 systemctl enable sshd
 ```
@@ -122,26 +112,22 @@ To enable root login, you need to edit the openssh configuration file. In this g
 If you do not already have "nano" installed, you will need to install it. To do so, use the following command: `apt install nano`
 :::
 
-Now let's open the configuration file
-
+Proceed to open the configuration file by running:
 ```
 nano /etc/ssh/sshd_config 
 ```
 
-We are looking for the following line
-
+Using arrows keys to navigate, search for the following line:
 ```
 #PermitRootLogin prohibit-password
 ```
 
-Now change it to
-
+Change this to the following, which enables remote root login:
 ```
 PermitRootLogin yes
 ```
 
-Finally restart the ssh server with the following command
-
+Finally, restart the SSH Server in order to apply the new configuration by using the following command:
 ```
 systemctl restart sshd
 ```
@@ -154,28 +140,24 @@ If you want to re-install the SSH server, make sure that you uninstall it first.
 :::
 
 Before installing the SSH server, make sure your system is up to date. Run the following command:
-
 ```
 apt update
 ```
 
 Now proceed to install the SSH server using following command:
-
 ```
 apt install openssh-server
 ```
 
-Now start the SSH server with the following command:
-
+Once it has finished installing, you can start the SSH server service with the following command:
 ```
 systemctl start sshd
 ```
 
-To automatically start SSH server on system boot run following command:
+Ensure that you enable the service to automatically start on system boot. You can do this through the following command:
 ```
 systemctl enable sshd
 ```
-
 
 ## Enabling root login
 
@@ -185,26 +167,22 @@ To enable root login, you need to edit the openssh configuration file. In this g
 If you do not already have "nano" installed, you will need to install it. To do so, use the following command: `apt install nano`
 :::
 
-Now let's open the configuration file
-
+Proceed to open the configuration file by running:
 ```
 nano /etc/ssh/sshd_config 
 ```
 
-We are looking for the following line
-
+Using arrows keys to navigate, search for the following line:
 ```
 #PermitRootLogin prohibit-password
 ```
 
-Now change it to
-
+Change this to the following, which enables remote root login:
 ```
 PermitRootLogin yes
 ```
 
-Finally restart the ssh server with the following command
-
+Finally, restart the SSH Server in order to apply the new configuration by using the following command:
 ```
 systemctl restart sshd
 ```
@@ -217,25 +195,21 @@ If you want to re-install the SSH server, make sure that you uninstall it first.
 :::
 
 Before installing the SSH server, make sure your system is up to date. Run the following command:
-
 ```
 dnf update
 ```
 
 Now proceed to install the SSH server using following command:
-
 ```
 dnf install openssh-server
 ```
 
-Now start the SSH server with the following command:
-
+Once it has finished installing, you can start the SSH server service with the following command:
 ```
 systemctl start sshd
 ```
 
-To automatically start SSH server on system boot run following command:
-
+Ensure that you enable the service to automatically start on system boot. You can do this through the following command:
 ```
 systemctl enable sshd
 ```
@@ -248,26 +222,22 @@ To enable root login, you need to edit the openssh configuration file. In this g
 If you do not already have "nano" installed, you will need to install it. To do so, use the following command: `dnf install nano`
 :::
 
-Now let's open the configuration file
-
+Proceed to open the configuration file by running:
 ```
 sudo nano /etc/ssh/sshd_config 
 ```
 
-We are looking for the following line
-
+Using arrows keys to navigate, search for the following line:
 ```
 #PermitRootLogin prohibit-password
 ```
 
-Now change it to
-
+Change this to the following, which enables remote root login:
 ```
 PermitRootLogin yes
 ```
 
-Finally restart the ssh server with the following command
-
+Finally, restart the SSH Server in order to apply the new configuration by using the following command:
 ```
 systemctl restart sshd
 ```
