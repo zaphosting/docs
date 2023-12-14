@@ -10,7 +10,7 @@ sidebar_label: Security Tips
 This guide contains some tips and advice on how to make your Linux server more secure. Especially since (virtual) servers must be accessed externally, basic protection against unwanted access is definitely recommended and should not be neglected. 
 
 :::info
-Please note that these instructions are not exhaustive and that more detailed information can be found in other sections of the ZAP documentation. (e.g. [2FA](https://zap-hosting.com/guides/docs/vserver-linux-ssh2fa/))
+Please note that these instructions are not exhaustive and that more detailed information can be found in other sections of the ZAP documentation. (e.g. [2FA](vserver-linux-ssh2fa.md))
 :::
 
 :::tip
@@ -19,11 +19,11 @@ The easiest way to protect your server is always the same, regardless of the ser
 
 ## Securing SSH (Secure Shell)
 
-SSH is a service that allows you to remotely access your server's console to execute commands on the server. Here you can see how to set up SSH on your server: [How do I set up SSH on my server?](https://zap-hosting.com/guides/docs/vserver-linux-ssh/)
+SSH is a service that allows you to remotely access your server's console to execute commands on the server. Here you can see how to set up SSH on your server: [How do I set up SSH on my server?](vserver-linux-ssh.md)
 
 By default, a password-based login is used for SSH. However, this has the major disadvantage that authentication can be bypassed relatively easily using a brute force attack, especially if you use a password that is too simple for your SSH login. So if you decide to use the password solution, please use a **secure** password.
 
-To protect your server even better against unwanted SSH access, you should enable authentication exclusively via SSH keys and deactivate the password login. Take a look at [our SSH guide](https://zap-hosting.com/guides/docs/vserver-linux-sshkey), which explains how to generate and add SSH keys.
+To protect your server even better against unwanted SSH access, you should enable authentication exclusively via SSH keys and deactivate the password login. Take a look at [our SSH guide](vserver-linux-sshkey.md), which explains how to generate and add SSH keys.
 
 ## Simple but effective: Changing the ports of common services
 
@@ -59,7 +59,7 @@ sudo nano /etc/ssh/sshd_config
 
 Add your desired port after `Port`. If `Port` is commented out (i.e. `#Port 22`), then remove the "#" and replace the 22 with your desired port. Now you have to save the file (under Nano with Ctrl + o) and close it (Nano: Ctrl + x).
 
-![Port sshd](https://i.imgur.com/fDak8p8.png)
+![Port sshd](https://github.com/zaphosting/docs/assets/42719082/0adec0a9-f1b3-4428-9ce2-f78497cf1818)
 
 The SSH service must now be restarted for the changes to take effect.
 ```
@@ -86,7 +86,7 @@ Use Ctrl + W to search in nano.
 ```
 nano /etc/proftpd/proftpd.conf
 ```
-![Port proftpd](https://i.imgur.com/dAdXEsv.png)
+![Port proftpd](https://github.com/zaphosting/docs/assets/42719082/b6f1d33e-8409-4fd7-9f32-5e2d641275c9)
 
 ## Use a firewall to better protect your system
 
@@ -112,7 +112,7 @@ Please note that this rule is only activated for **port 22** (the value after `-
 The following commands may not work for every single Linux distro, but they will work on the vast majority of the most popular distros.
 :::
 
-First, log in to your Linux server. If you need help doing this, please follow our [SSH access](https://zap-hosting.com/guides/docs/vserver-linux-ssh) guide which explains how to do this. Next, run the following commands in the order they are listed.
+First, log in to your Linux server. If you need help doing this, please follow our [SSH access](vserver-linux-ssh.md) guide which explains how to do this. Next, run the following commands in the order they are listed.
 
 ```
 iptables -A INPUT -p tcp --syn --dport 22 -m connlimit --connlimit-above 2 --connlimit-mask 32 -j DROP
@@ -128,7 +128,7 @@ iptables -A INPUT -p tcp --dport 22 -m state --state NEW -m recent --update --se
 
 As described above, UFW is a "simpler" interface for IPTables. The first step is to install UFW, as it is by default not included in all Linux distributions. You should either execute the commands as root or use *sudo*.
 
-First log in to your Linux server. If you need help with this, please follow our guide [SSH access](https://zap-hosting.com/guides/docs/vserver-linux-ssh), which explains how this works. The following instructions used Debian and Ubuntu for testing, but should work on other Linux Distributions too.
+First log in to your Linux server. If you need help with this, please follow our guide [SSH access](vserver-linux-ssh.md), which explains how this works. The following instructions used Debian and Ubuntu for testing, but should work on other Linux Distributions too.
 
 First, the apt directory and existing services should be upgraded.
 ```
@@ -196,7 +196,7 @@ After installation, Fail2Ban already comes with prebuild configurations for some
 Additional services can be added simply by using a regular expression (RegEx) and specifying the desired log file.
 
 As an example, let's look at an entry in `/var/log/auth.log`. This file contains all SSH login attempts, whether successful or failed.
-![/var/log/auth.log](https://i.imgur.com/k6xZkVa.png)
+![/var/log/auth.log](https://github.com/zaphosting/docs/assets/42719082/2758141d-c2dd-4d24-9aee-876aab5d27e7)
 
 Here you can now see the entry:
 ```
@@ -206,7 +206,7 @@ Fail2Ban now uses this log file and monitors it for failed authentications. As t
 
 ### Installation of Fail2Ban
 
-First log in to your Linux server. If you need help with this, please follow our instructions [SSH access](https://zap-hosting.com/guides/docs/vserver-linux-ssh), which explain how this works. You should either execute the commands as root or using *sudo*.
+First log in to your Linux server. If you need help with this, please follow our instructions [SSH access](vserver-linux-ssh.md), which explain how this works. You should either execute the commands as root or using *sudo*.
 
 ```
 sudo apt update && sudo apt upgrade -y
@@ -370,7 +370,7 @@ In this guide, you will learn how to protect your web server from attacks.
 
 We will start by assuming that your domain is already managed by Cloudflare, if not you can follow [their guide](https://developers.cloudflare.com/fundamentals/get-started/setup/add-site/) to move your domain. Go to the DNS Records tab from Cloudflare's dashboard, and make sure that your record to your webserver has the orange cloud and says "Proxied".
 
-![](https://i.imgur.com/wNEoWQP.png)
+![](https://github.com/zaphosting/docs/assets/42719082/a3572480-75df-4c43-bbba-e60ddedf9316)
 
 Then, all traffic passing through your domain will go through Cloudflare and from there to your server, being legitimate traffic.
 However, your server is still accessible from outside Cloudflare, for this you must limit access to ports 80 and 443 of the TCP protocol of your Linux server, and only allow access if it comes from legitimate Cloudflare traffic.
@@ -385,7 +385,7 @@ Make sure you do not have any separate rules that allow unrestricted access to y
 This guide has shown you some basic and advanced functions for securing your Linux server. If you have implemented all the recommendations that apply to your system, your server is already much more secure than before - congratulations!
 
 Further measures can of course be taken:
-- [Setup 2FA](https://zap-hosting.com/guides/docs/vserver-linux-ssh2fa/)
+- [Setup 2FA](vserver-linux-ssh2fa.md)
 - Add further configurations to Fail2Ban
 - Set up mail notifications in Fail2Ban
 - And many more...
