@@ -1,8 +1,8 @@
 ---
 id: vserver-linux-ssh-server
-title: Linux SSH Server installation
-description: Informationen zur Installation von SSH Server auf deinem Linux VPS von ZAP-Hosting - ZAP-Hosting.com Dokumentation
-sidebar_label: SSH Server installation
+title: SSH service installation
+description: Informationen zur Installation von SSH auf deinem Linux VPS von ZAP-Hosting - ZAP-Hosting.com Dokumentation
+sidebar_label: SSH installieren
 ---
 
 ## Einführung

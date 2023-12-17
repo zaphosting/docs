@@ -1,8 +1,8 @@
 ---
 id: vserver-linux-ssh-server
-title: Linux SSH Server installation
+title: SSH service installation
 description: Information on how to install SSH Server on your Linux VPS from ZAP-Hosting - ZAP-Hosting.com documentation
-sidebar_label: SSH Server installation
+sidebar_label: Install SSH
 ---
 
 ## Introduction
@@ -47,7 +47,7 @@ systemctl start sshd
 Ensure that you enable the service to automatically start on system boot. You can do this through the following command:
 ```
 systemctl enable sshd
-``` 
+```
 
 ## Enabling root login
 
@@ -245,3 +245,4 @@ systemctl restart sshd
 </Tabs>
 
 You have now successfully installed the SSH Service on your server and can now access your server via SSH.
+
