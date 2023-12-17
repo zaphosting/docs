@@ -17,15 +17,15 @@ Please note that these instructions are not exhaustive and that more detailed in
 The easiest way to protect your server is always the same, regardless of the server: Use secure passwords, update your services regularly and generally pay attention to which services you want to install and which guides you follow.
 :::
 
-## Securing SSH (Secure Shell)
+## Securing SSH 
 
-SSH is a service that allows you to remotely access your server's console to execute commands on the server. Here you can see how to set up SSH on your server: [How do I set up SSH on my server?](vserver-linux-ssh.md)
+SSH (Secure Shell) is a service that allows you to remotely access your server's console to execute commands on the server. Here you can see how to set up SSH on your server: [How do I set up SSH on my server?](vserver-linux-ssh.md)
 
 By default, a password-based login is used for SSH. However, this has the major disadvantage that authentication can be bypassed relatively easily using a brute force attack, especially if you use a password that is too simple for your SSH login. So if you decide to use the password solution, please use a **secure** password.
 
 To protect your server even better against unwanted SSH access, you should enable authentication exclusively via SSH keys and deactivate the password login. Take a look at [our SSH guide](vserver-linux-sshkey.md), which explains how to generate and add SSH keys.
 
-## Simple but effective: Changing the ports of common services
+## Port configuration of your services
 
 | Service| Port |
 |--------|------|
@@ -45,7 +45,7 @@ Your desired port must be between 1024 and 65536 and should not be a port that i
 :::
 You can use `cat /etc/services` to display some standard ports to prevent you from selecting a port that is already in use.
 
-### Set SSH port
+### SSH port
 
 To change the SSH port, you must adjust the configuration file. This is normally located in `/etc/ssh/sshd_config` by default, but if it's not located there you can use the following command to find it.
 ```
@@ -67,7 +67,7 @@ The SSH service must now be restarted for the changes to take effect.
 sudo systemctl restart sshd
 ```
 
-### Set FTP port
+### FTP port
 
 If you have installed an FTP service such as **proFTPd**, the port can also be simply changed by editing the config file. Thus the procedure is similar to the SSH service.
 
@@ -88,7 +88,7 @@ nano /etc/proftpd/proftpd.conf
 ```
 ![Port proftpd](https://github.com/zaphosting/docs/assets/42719082/b6f1d33e-8409-4fd7-9f32-5e2d641275c9)
 
-## Use a firewall to better protect your system
+## Use of a firewall
 
 The principle of external accessibility of a server is always the same: a port must be opened so that the server can be reached externally. In the case of SSH, this is **by default** port 22/TCP. (see above how you can change the default port) 
 
@@ -124,7 +124,7 @@ iptables -A INPUT -p tcp --dport 22 -m state --state NEW -m recent --update --se
 2.  The second rule adds the IP address of a new connection to the `recent` list.
 3.  The third rule drops new connections from IP addresses that have attempted to make more than 2 connections in the last second.
 
-### UFW - Uncomplicated Firewall
+### UFW 
 
 As described above, UFW is a "simpler" interface for IPTables. The first step is to install UFW, as it is by default not included in all Linux distributions. You should either execute the commands as root or use *sudo*.
 
@@ -182,7 +182,7 @@ UFW only allows you to limit the number of connections to 6 per minute. The UFW 
 The firewall (whether IPTables or UFW) can only "mindlessly" count the connection attempts and block them accordingly. With Fail2Ban it is possible to check log files for anomalies. The next section describes how you can install and activate Fail2Ban.
 :::
 
-## Fail2Ban for extended and dynamic protection of your server
+## Additional protective measures with the use of Fail2Ban
 
 Fail2Ban is a service that blocks IP addresses used to connect to the server with probably malicious intentions. Fail2Ban monitors some log files for anomalies and thus secures your system very effectively in a relatively simple way.
 
@@ -296,7 +296,7 @@ Now you simply have to restart Fail2Ban to start monitoring.
 sudo systemctl restart fail2ban.service
 ```
 
-### Check if Fail2Ban is working
+### Verify the functionality of Fail2Ban
 
 If you have access to a VPN or a second server, you can try to block yourself from Fail2Ban to see if the service works as desired. With a VPN or a hotspot via your cell phone you should get a different IP address, which would allow you to test Fail2Ban.
 

@@ -3,33 +3,32 @@ id: vserver-linux-security-tips
 title: Tipps zur Linux-Sicherheit
 description: Tipps und Hinweise für die Sicherung deines Linux-Servers - ZAP-Hosting.com Dokumentation
 sidebar_label: Sicherheitstipps
-
 ---
 
 ## Einführung
 
-Diese Anleitung beinhaltet einige Tipps und Hinweise wie du deinen Linux Server sicherer gestalten kannst. Insbesondere da auf (virtuelle) Server extern zugegriffen werden muss ist ein grundlegender Schutz vor ungewünschten Zugriffen definitiv empfehlenswert und sollte keinesfalls vernachlässigt werden. 
+Dieser Anleitung enthält einige Tipps und Hinweise, wie du deinen Linux Server sicherer machen kannst. Gerade bei (virtuellen) Servern, auf die von außen zugegriffen werden muss, ist ein grundlegender Schutz vor unerwünschten Zugriffen durchaus empfehlenswert und sollte nicht vernachlässigt werden. 
 
 :::info
-Bitte beachte dass diese Anleitung nicht abschließend ist und tiefergehende Informationen anderen Abschnitten der ZAP-Dokumentation entnommen werden kann. (z.B. [2FA](vserver-linux-ssh2fa.md))
+Bitte beachte , dass diese Anleitung nicht allumfassend ist und dass detailliertere Informationen in anderen Abschnitten der ZAP-Dokumentation zu finden sind. (z.B. [2FA](vserver-linux-ssh2fa.md))
 :::
 
-:::tip
-Der einfachste Weg deinen Server zu schützen ist, egal bei welchem Server, immer gleich: Nutze sichere Passwörter, update deine Dienste regelmäßig und achte allgemein darauf welche Dienste du installieren möchtest und welche Guides du befolgst.
+:::Tipp
+Der einfachste Weg, um deinen Server zu schützen, ist unabhängig von der Art des Servers immer derselbe: Verwende sichere Passwörter, aktualisiere deine Dienste regelmäßig und achte generell darauf, welche Dienste du installieren willst und welchen Anleitungen du befolgst.
 :::
 
-## Absichern von SSH (Secure Shell)
+## Absicherung von SSH
 
-SSH ist ein Dienst der es dir erlaubt aus der Ferne auf die Konsole deines Servers zuzugreifen und Befehle auf dem Server auszuführen. Hier siehst du, wie du SSH auf deinem Server einrichten kannst: [Wie richte ich SSH auf meinem Server ein?](vserver-linux-ssh.md)
+SSH (Secure Shell) ist ein Dienst, der es dir erlaubt aus der Ferne auf die Konsole deines Servers zuzugreifen und Befehle auf dem Server auszuführen. Hier siehst du, wie du SSH auf deinem Server einrichten kannst: [Wie richte ich SSH auf meinem Server ein?](vserver-linux-ssh.md)
 
 Standardmäßig wird für SSH eine passwortbasierte Anmeldung genutzt. Dies hat jedoch den großen Nachteil, dass die Authentifizierung relativ einfach per Brute-Force-Attacke umgangen werden kann, insbesondere dann, wenn du ein zu simples Passwort für deinen SSH Login nutzt. Solltest du dich also für die Passwortlösung entscheiden, dann nutze bitte ein **sicheres** Passwort.
 
-Um deinen Server noch besser vor ungewünschten SSH Zugriffen zu schützen, solltest du die Authentifizierung ausschließlich über SSH- Schlüssel ermöglichen, und den Passwort-Login deaktivieren. Schau dir dazu [unsere SSH-Anleitung](vserver-linux-sshkey.md) an, in der erklärt wird, wie man SSH-Schlüssel generiert und hinzufügt werden. 
+Um deinen Server noch besser vor ungewünschten SSH Zugriffen zu schützen, solltest du die Authentifizierung ausschließlich über SSH-Schlüssel ermöglichen, und den Passwort-Login deaktivieren. Schau dir dazu [unsere SSH-Anleitung](vserver-linux-sshkey.md) an, in der erklärt wird, wie man SSH-Schlüssel generiert und hinzufügt werden. 
 
-## Einfach aber effektiv: Port deiner Dienste ändern
+## Port Konfiguration deiner Dienste 
 
 | Dienst | Port |
-|--------|------|
+| ------ | ---- |
 | SSH    | 22   |
 | FTP    | 21   |
 | Mail   | 25   |
@@ -37,23 +36,23 @@ Um deinen Server noch besser vor ungewünschten SSH Zugriffen zu schützen, soll
 | HTTP   | 80   |
 | HTTPS  | 443  |
 
-Dienste wie SSH oder FTP nutzen standardmäßig immer die selben Ports (einige davon sind in der Tabelle oben aufgeführt). Möchte ein außenstehender Angreifer eine Brute-Force-Attacke auf den SSH Dienst deines Servers ausführen, dann muss dieser erstmal wissen, über welchen Port SSH zu erreichen ist. Wenn du diese Ports nicht anders konfigurierst, dann sind die Ports 22 und 21 meist ein Treffer, um direkt Befehle auf dem Server auszuführen oder Dateien per FTP abzugreifen.
+Dienste wie SSH oder FTP nutzen standardmäßig immer dieselben Ports. Einige davon sind in der Tabelle oben aufgeführt. Möchte ein außenstehender Angreifer eine Brute-Force-Attacke auf den SSH Dienst deines Servers ausführen, dann muss dieser erst einmal wissen, über welchen Port SSH zu erreichen ist. Wenn du diese Ports nicht anders konfigurierst, dann sind die Ports 22 und 21 meist ein direkter Treffer, um Befehle auf dem Server auszuführen oder Dateien per FTP abzugreifen.
 
-Um dies zu verhindern empfehlen wir die Ports der Standarddienste benutzerdefiniert einzurichten. Wie dies funktioniert, erfährst du jetzt:
+Um dies zu verhindern, empfehlen wir die Ports der Standarddienste benutzerdefiniert einzurichten. Wie dies funktioniert, erfährst du im Folgenden:
 
 :::danger
 Dein Wunschport muss sich zwischen 1024 und 65536 befinden und sollte kein bereits genutzter Port sein!
 :::
-Mittels `cat /etc/services` kannst du dir einige Standardports ausgeben lassen um zu verhindern, dass du einen bereits genutzten Port auswählst.
+Mittels `cat /etc/services` kannst du dir einige Standardports ausgeben lassen, um zu verhindern, dass du einen bereits genutzten Port auswählst.
 
-### SSH Port einstellen
+### SSH port
 
 Um den Port beim SSH-Dienst zu ändern, musst du die Konfigurationsdatei anpassen. Diese befindet sich standardmäßig in `/etc/ssh/sshd_config`, kann aber mit diesem Befehl durchsucht werden.
 ```
 find / -name "sshd_config" 2>/dev/null
 ```
 
-Öffne nun die Datei per nano (als Root oder mit **sudo**):
+Öffne nun die Datei über den Nano Editor als Root oder mit **sudo**:
 ```
 sudo nano /etc/ssh/sshd_config
 ```
@@ -64,24 +63,22 @@ Füge hinter `Port` deinen Wunschport ein. Sollte `Port` auskommentiert sein (al
 
 Jetzt muss der SSH-Dienst noch neu gestartet werden, damit die Änderungen wirksam werden.
 ```
-#Unter Ubuntu/Debian/CentOS z.B.
+#Under Ubuntu/Debian/CentOS e.g.
 sudo systemctl restart sshd
 ```
 
-### FTP Port einstellen
+### FTP Port 
 
-Solltest du einen FTP Dienst wie **proFTPd** installiert haben, kannst du auch dort einfach den Port ändern. Das Vorgehen ist ähnlich wie bei dem SSH-Dienst.
-
-Konfigurationsdatei `proftpd.conf` finden
+Solltest du einen FTP Dienst wie **proFTPd** installiert haben, kannst du auch dort einfach den Port ändern. Das Vorgehen ist ähnlich wie bei dem SSH-Dienst. Konfigurationsdatei `proftpd.conf` finden:
 ```
 find / -name "proftpd.conf" 2>/dev/null
 ```
 
 Die Datei liegt normalerweise in `/etc/proftpd.conf` (CentOS) oder `/etc/proftpd/proftpd.conf`.
-Öffne nun die Datei per nano und entferne das "#" vor `Port` und trage dahinter deinen Wunschport ein. Bitte beachte die Information weiter oben, sodass du keinen ungültigen Port angibst.
+Öffne nun die Datei über den Nano Editor und entferne das "#" vor `Port` und trage dahinter deinen Wunschport ein. Bitte beachte die Information weiter oben, sodass du keinen ungültigen Port angibst.
 
 :::tip
-Mittels Strg+W kannst du in nano suchen
+Mittels Strg+W kannst du nach Inhalten im Nano Editor suchen
 :::
 
 ```
@@ -89,17 +86,18 @@ nano /etc/proftpd/proftpd.conf
 ```
 ![Port proftpd](https://github.com/zaphosting/docs/assets/42719082/b6f1d33e-8409-4fd7-9f32-5e2d641275c9)
 
-## Eine Firewall nutzen um dein System besser zu schützen
+## Verwendung einer Firewall
 
-Der Grundsatz der externen Erreichbarkeit eines Servers ist immer gleich: Damit der Server extern erreichbar sein kann, muss ein Port geöffnet werden. Im Fall von SSH ist das **standardmäßig** Port 22/TCP. (siehe weiter oben, wie du den Standardport ändern kannst) 
+Der Grundsatz der externen Erreichbarkeit eines Servers ist immer gleich: Damit der Server extern erreichbar sein kann, muss ein Port geöffnet werden. Im Fall von SSH ist das **standardmäßig** Port 22/TCP. Siehe weiter oben, wie du den Standardport ändern kannst.
 
 Das Problem dabei ist, dass dieser Port nun für Jedermann erreichbar ist, unabhängig von Person, Standort und Intention. Dies stellt eine große Sicherheitslücke dar, da böswillige Akteure den Server mit Anmeldeversuchen überschwemmen könnten, um entweder das richtige Kennwort herauszufinden (durch eine Brute-Force-Attacke, falls du den Login per Passwort noch aktiviert hast) oder um zu versuchen, das Servernetzwerk durch Flooding (z.B. DDoS) zu überlasten, was häufig der Fall ist.
 
 Um diese Auswirkungen zu verringern, kannst du Firewall-Regeln anwenden, die den Zugriff auf die geöffneten Ports beschränken.
 
-Dafür gibt es zwei verschiedene Methoden die du nutzen kannst:
+Dafür gibt es zwei verschiedene Methoden, die du nutzen kannst:
+
 - **IPTables**: Dies ist so gesehen die ursprüngliche Firewall von Linux. Es bietet dir sehr viele Möglichkeiten, ist aber durchaus etwas komplizierter in der Anwendung.
-- **UFW**: Dies ist letztendlich nur ein einfacheres Interface um IPTables zu nutzen, ohne die komplizierten Befehle anwenden zu müssen. Bietet dafür etwas weniger Möglichkeiten.
+- **UFW**: Dies ist letztendlich nur ein einfacheres Interface, um IPTables zu nutzen, ohne die komplizierten Befehle anwenden zu müssen. Bietet dafür etwas weniger Möglichkeiten.
 
 Im Endeffekt kannst du dir aussuchen, welche von beiden Methoden du nutzen möchtest. Je nach Anwendungsfall braucht man die Vielfältigkeit von IPTables, manchmal reicht auch einfach UFW. (z.B. dann, wenn du einfach nur Ports öffnen/schließen möchtest)
 
@@ -125,44 +123,43 @@ iptables -A INPUT -p tcp --dport 22 -m state --state NEW -m recent --update --se
 2.  Die zweite Regel fügt die IP-Adresse einer neuen Verbindung zur `recent`-Liste hinzu.
 3.  Die dritte Regel verwirft neue Verbindungen von IP-Adressen, die in der letzten Sekunde versucht haben, mehr als zwei Verbindungen herzustellen.
 
-### UFW - Uncomplicated Firewall
+### UFW
 
 Wie oben beschrieben ist UFW ein "einfacheres" Interface für IPTables. Im ersten Schritt muss UFW installiert werden, da es nicht bei allen Linux Distributionen inkludiert ist. Die Befehle solltest du entweder als Root ausführen oder unter der Verwendung von *sudo*.
 
-Melde dich zunächst bei deinem Linux-Server an. Wenn du dabei Hilfe brauchst, folge bitte unserer Anleitung [SSH-Zugang](vserver-linux-ssh.md), in der erklärt wird, wie dies funktioniert. 
-
-Debian & Ubuntu:
+Melde dich zunächst bei deinem Linux-Server an. Wenn du dabei Hilfe benötigst, dann befolge bitte unserer [SSH-Zugang](vserver-linux-ssh.md) Anleitung, in der erläutert wird, wie dies genau funktioniert. 
 
 Zuerst sollte das apt Verzeichnis aktualisiert werden
 ```
 sudo apt update && sudo apt upgrade -y
 ```
 
-Dann UFW per apt installieren
+Anschließend installiere UFW per apt.
 ```
 sudo apt install ufw -y
 ```
 
-Nun checken wir noch, ob die Installation erfolgreich war:
+Stelle sicher, dass die Installation erfolgreich war, indem du den folgenden Befehl ausführst.
 ```
 sudo ufw status
 > Firewall not loaded
 ```
 
-Damit du dich nicht aussperrst, muss der ssh Dienst zuerst freigegeben werden, bis letztendlich die Firewall aktiviert werden kann. 
+Um sicherzustellen, dass du dich nicht selbst von deinem Server aussperrst, muss der SSH-Dienst zunächst aktiviert werden, bis die Firewall schließlich aktiviert werden kann.
 
 :::caution
-Solltest du den Port für SSH bereits geändert haben, dann trag hier statt 22 bitte den neuen Port ein.
+Wenn du den Port für SSH bereits geändert hast, trage hier bitte den neuen Port anstelle von 22 ein.
 :::
 
-Verwende die folgenden Befehle, um den ssh-Dienst zu aktivieren.
+Verwende die folgenden Befehle, um den SSH-Dienst zu aktivieren.
+
 ```
 sudo ufw allow 22/tcp
 sudo ufw enable
 sudo ufw status
 ```
 
-Der Output dürfte in etwa so aussehen.
+Eine erfolgreiche Ausgabe sollte etwa so aussehen:
 ```
 Status: active
   
@@ -172,8 +169,7 @@ To Action From
 22/tcp (v6) ALLOW Anywhere (v6)
 ```
 
-
-Führe nun den folgenden Befehl aus, der die Verbindung auf 6 pro Minute begrenzt.
+Führen nun den folgenden Befehl aus, der die Anzahl der Verbindungen auf 6 pro Minute begrenzt.
 ```
 ufw limit 22/tcp
 ```
@@ -186,11 +182,11 @@ UFW erlaubt es dir lediglich, die Anzahl der Verbindungen auf 6 pro Minute zu be
 Die Firewall (egal ob IPTables oder UFW) kann die Verbindungsversuche nur "stumpf" zählen und entsprechend blocken. Mit Fail2Ban ist es möglich Log- Files auf Auffälligkeiten zu prüfen. Im nächsten Abschnitt wird beschrieben, wie du Fail2Ban für einige Dienste aktivieren kannst.
 :::
 
-## Fail2Ban zur erweiterten und dynamischen Absicherung deines Servers
+## Zusätzliche Schutzmaßnahmen durch die Verwendung von Fail2Ban
 
-Fail2Ban ist ein Dienst der IP-Adressen blockiert mit denen Verbindungen zum Server hergestellt werden sollen mit wahrscheinlich böswilligen Absichten. Fail2Ban überwacht dazu einige Log-Dateien auf Anomalien, und sichert damit dein System über ein relativ einfachen Weg sehr effektiv ab.
+Fail2Ban ist ein Dienst, der IP-Adressen blockiert, die sich mit wahrscheinlich bösartigen Absichten mit dem Server verbinden. Fail2Ban überwacht einige Protokolldateien auf Anomalien und sichert so dein System auf relativ einfache Art und Weise sehr effektiv.
 
-Nach der Installation kommt Fail2Ban bereits standardmäßig mit einigen vorgefertigten Konfigurationen, u.a. für:
+Nach der Installation kommt Fail2Ban bereits mit vorgefertigten Konfigurationen für einige häufig genutzte Dienste:
 - apache
 - lighttpd
 - sshd
@@ -199,18 +195,18 @@ Nach der Installation kommt Fail2Ban bereits standardmäßig mit einigen vorgefe
 - Courier Mail Server
 Weitere Services können dabei einfach per Regulärem Ausdruck (RegEx) und unter Angabe der gewünschten Log- Datei hinzugefügt werden.
 
-Als Beispiel schauen wir uns einen Eintrag in `/var/log/auth.log` an. Diese Datei beinhaltet alle SSH Loginversuche, egal ob erfolgreich oder fehlgeschlagen.
+Als Beispiel betrachten wir einen Eintrag in `/var/log/auth.log`. Diese Datei enthält alle SSH-Anmeldeversuche, ob erfolgreich oder fehlgeschlagen.
 ![/var/log/auth.log](https://github.com/zaphosting/docs/assets/42719082/2758141d-c2dd-4d24-9aee-876aab5d27e7)
 
 Hier siehst du nun u.A. den Eintrag:
 ```
-Dec  2 12:59:19 vps-zap515723-2 sshd[364126]: Failed password for root from 92.117.xxx.xxx port 52504 ssh2
+Dec 2 12:59:19 vps-zap515723-2 sshd[364126]: Failed password for root from 92.117.xxx.xxx port 52504 ssh2
 ```
 Fail2Ban nutzt nun genau dieses Logfile und überwacht es auf fehlgeschlagene Authentifizierungen. Da das Logfile direkt die IP-Adresse des Angreifers beinhaltet, kann Fail2Ban nach einigen fehlgeschlagenen Versuchen diese IP-Adresse blockieren.
 
 ### Installation von Fail2Ban
 
-Melde dich zunächst bei deinem Linux-Server an. Wenn du dabei Hilfe brauchst, folge bitte unserer Anleitung [SSH-Zugang](vserver-linux-ssh.md), in der erklärt wird, wie dies funktioniert. Die Befehle solltest du entweder als Root ausführen oder unter der Verwendung von *sudo*.
+Melde dich zunächst bei deinem Linux-Server an. Wenn du dabei Hilfe benötigst, dann befolge bitte unserer [SSH-Zugang](vserver-linux-ssh.md) Anleitung, in der erläutert wird, wie dies genau funktioniert. Die Befehle solltest du entweder als Root ausführen oder unter der Verwendung von *sudo*.
 
 ```
 sudo apt update && sudo apt upgrade -y
@@ -237,20 +233,21 @@ Dec 02 13:10:34 vps-zap515723-1 fail2ban-server[23989]: Server ready
 
 ### Konfiguration von Fail2Ban
 
-Nun ist Fail2Ban zwar installiert, aber noch nicht aktiv und noch nicht konfiguriert. Mit einem Blick in `/etc/fail2ban` siehst du, dass dort aktuell die folgenden Dateien liegen sollten:
+Fail2Ban ist nun installiert, aber noch nicht aktiv oder konfiguriert. Ein Blick in `/etc/fail2ban` zeigt, dass sich dort derzeit die folgenden Dateien befinden sollten:
 ```
-action.d       fail2ban.d  jail.conf  paths-arch.conf    paths-debian.conf
-fail2ban.conf  filter.d    jail.d     paths-common.conf  paths-opensuse.conf
+action.d fail2ban.d jail.conf paths-arch.conf paths-debian.conf
+fail2ban.conf filter.d jail.d paths-common.conf paths-opensuse.conf
 ```
 Um ein aktives "jail" (=Gefängnis) zu erstellen, muss eine Datei namens `jail.local` erstellt werden. Kopiere dazu den Inhalt von `jail.conf` einfach in die neue Datei und öffne diese:
 ```
 sudo cp /etc/fail2ban/jail.conf /etc/fail2ban/jail.local
 sudo nano /etc/fail2ban/jail.local
 ```
+
 In der `jail.local` Datei kannst du nun alle Einstellungen vornehmen, inkl. der zu überwachenden Dienste.
 Beachte bitte in der Datei ausschließlich den Part nach `[DEFAULT]`. Direkt in der Default-Sektion kannst du allgemeine Einstellungen vornehmen.
 
-Scrolle in dieser Datei etwas weiter herunter, bis du diesen Part findest, und passe ihn bspw. so an:
+Scrolle in dieser Datei etwas weiter herunter, bis du diesen Part findest, und passe ihn beispielsweise folgendermaßen an:
 
 | Attribut      | Erklärung                                                                    | Wert        |
 |---------------|------------------------------------------------------------------------------|-------------|
@@ -259,7 +256,6 @@ Scrolle in dieser Datei etwas weiter herunter, bis du diesen Part findest, und p
 | bantime       | Wie lange ein IP-Adresse blockiert wird                                      | 1h          |
 | findtime      | Maximaler Abstand der fehlgeschlagenen Logins, die berücksicht werden sollen | 10m         |
 | maxretry      | Anzahl der Fehlversuche die zu einem Ban führen                              | 5           |
-
 ```
 # can be defined using space (and/or comma) separator.
 #ignoreip = 127.0.0.1/8 ::1
@@ -277,37 +273,40 @@ findtime  = 10m
 # "maxretry" is the number of failures before a host get banned.
 maxretry = 5
 ```
+
 Damit hast du nun die allgemeinen Einstellungen vorgenommen. Um z.B. den SSH-Dienst zu überwachen, scrolle etwas weiter herunter, bis zum `[sshd]`-Tag. Beachte, dass du unter `Port` deinen eventuell abgeänderten Port eintragen solltest.
 
 Der `[sshd]` Tag sieht wie folgt aus:
+
 ```
 [sshd]
 
-enabled	= true
-port    = 22
-filter	= sshd
-logpath	= /var/log/auth.log
+enabled = true
+port = 22
+filter = sshd
+logpath = /var/log/auth.log
 maxretry = 4
 ```
-
 :::tip
 Wie du siehst ist es möglich auch in einem einzelnen Dienst individuelle Einstellungen vorzunehmen (wie hier mit `maxretry` was geringer ist als in den allgemeinen Einstellungen). Obwohl wir die Einstellung zuvor allgemein vorgenommen haben, kannst du die meisten Einstellungen für jeden Dienst nochmal einstellen. Solltest du dies nicht tun, dann wird einfach die allgemeine Einstellung genutzt.
 :::
 
 Jetzt muss Fail2Ban nur noch neu gestartet werden, damit die Überwachung gestartet wird.
+
 ```
 sudo systemctl restart fail2ban.service
 ```
 
-### Überprüfen ob Fail2Ban funktioniert
+### Funktionalität von Fail2Ban überprüfen
 
 Solltest du Zugriff auf einen VPN oder einen zweiten Server haben, dann kannst du versuchen dich selbst von Fail2Ban sperren zu lassen um zu schauen ob der Dienst wie gewünscht funktioniert. Mit einem VPN oder einem Hotspot über dein Mobiltelefon solltest du eine andere IP-Adresse bekommen, womit es möglich wäre Fail2Ban zu testen.
 
 :::danger
-Teste dies nicht in deinem normalen Netzwerk, da möglicherweise deine eigene IP-Adresse blockiert wird und du **dich somit aussperren wirst!**
+Teste dies nicht in deinem regulären Netzwerk, da möglicherweise deine eigene IP-Adresse blockiert wird und du **dich somit aussperren wirst!**
 :::
 
 Versuche nun (mit einer anderen IP-Adresse!) eine SSH-Verbindung zu deinem Server herzustellen und gebe jedes mal ein falsches Passwort ein. Das Ergebnis dürfte in etwa so aussehen:
+
 ```
 root@185.223.29.xxx's password:
 Permission denied, please try again.
@@ -326,8 +325,9 @@ root@vps-zap515723-2:/var/log# ssh root@185.223.29.xxx
 ssh: connect to host 185.223.29.xxx port 22: Connection refused
 ```
 
-Wie du siehst wird jetzt die Verbindung von deinem durch Fail2Ban geschützten Server abgelehnt. ()`Connection refused` anstelle von `Permission denied`)
-Lass dir nun den Status von Fail2Ban ausgeben. Hier siehst du, dass eine IP-Adresse blockiert wurde.
+Wie du sehen kannst, wird die Verbindung von deinem Server, der durch Fail2Ban geschützt ist, nun abgelehnt (`Connection refused` statt `Permission denied`).
+
+Lassen dir nun den Status von Fail2Ban anzeigen. Hier kannst du sehen, dass eine IP-Adresse blockiert wurde.
 
 ```
 fail2ban-client status sshd
@@ -358,13 +358,15 @@ logpath = /var/log/auth.log
 maxretry = 4
 
 bantime = 1h
-#Bantime soll bei jedem Ban dieser IP steigen
+#Bantime should increase with every ban of this IP
 bantime.increment = true
-#Um Faktor 24 (1h,24h,48h,3d,4d....)
+#Scaling Factor of 24 hours (1h,24h,48h,3d,4d....)
 bantime.factor = 24
-#Maximale Banzeit=5 Wochen
+#Maximum ban time=5 weeks
 bantime.maxtime = 5w
 ```
+
+
 
 ## Absicherung von Webservern mit Cloudflare
 
@@ -388,6 +390,7 @@ Achte darauf, dass du keine separaten Regeln hast, die den uneingeschränkten Zu
 Dieses Guide hat dir einige grundlegende und erweiterte Funktionen zur Absicherung deines Linux-Servers gezeigt. Solltest du alle auf dein System zutreffenden Empfehlungen umgesetzt haben ist dein Server schon um einiges sicherer als vorher, Glückwunsch!
 
 Weitergehend können natürlich noch weitere Maßnahmen vorgenommen werden:
+
 - [Einrichtung 2FA](vserver-linux-ssh2fa.md)
 - Hinzufügen weiterer Konfigurationen zu Fail2Ban
 - Einrichten von Mail-Benachrichtigungen in Fail2Ban
