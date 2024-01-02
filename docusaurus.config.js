@@ -44,7 +44,7 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
+          sidebarPath: './sidebars.js',
           editUrl: 'https://github.com/zaphosting/docs/tree/master/',
           editLocalizedFiles: true
         },
@@ -236,4 +236,4 @@ const config = {
   }),
 };
 
-module.exports = config;
+export default config;
