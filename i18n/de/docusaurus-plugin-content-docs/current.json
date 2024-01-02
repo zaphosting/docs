@@ -300,7 +300,7 @@
     "description": "The label for category Forge & Fabric in sidebar gameserverSidebar"
   },
   "sidebar.guidesSidebar.category.Partner Program": {
-    "message": "Partner Program",
+    "message": "Partnerprogramm",
     "description": "The label for category Partner Program in sidebar guidesSidebar"
   },
   "sidebar.gameserverSidebar.category.CS 1.6": {
@@ -316,7 +316,7 @@
     "description": "The label for category CS2 (NEW) in sidebar gameserverSidebar"
   },
   "sidebar.guidesSidebar.category.General": {
-    "message": "General",
+    "message": "Allgemein",
     "description": "The label for category General in sidebar guidesSidebar"
   }
 }
