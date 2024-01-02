@@ -314,5 +314,9 @@
   "sidebar.gameserverSidebar.category.CS2 (NEW)": {
     "message": "CS2 (NEW)",
     "description": "The label for category CS2 (NEW) in sidebar gameserverSidebar"
+  },
+  "sidebar.guidesSidebar.category.General": {
+    "message": "General",
+    "description": "The label for category General in sidebar guidesSidebar"
   }
 }
