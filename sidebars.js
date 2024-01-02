@@ -74,6 +74,17 @@ const sidebars = {
       ]
     },
     {
+      type: 'html',
+      className: 'sidebar-title',
+      value: (() => {
+        switch (process.env.DOCUSAURUS_CURRENT_LOCALE) {
+          case "de": return "Programme";
+          default: return "Programs";
+        }
+      })(),
+      defaultStyle: true,
+    },
+    {
       type: 'category',
       label: 'Partner Program',
       items: [
@@ -1107,18 +1118,13 @@ const sidebars = {
       })(),
       defaultStyle: true,
     },
-    {
-      type: 'category',
-      label: 'Operating system',
-      items: [
-        'dedicated-windows',
-        'dedicated-linux-debian',
-        'dedicated-linux-ubuntu',		
-        'dedicated-freebsd',		
-        'dedicated-centos',		
-        'dedicated-proxmox',
-      ],
-    }, 
+    'dedicated-windows',
+    'dedicated-linux-debian',
+    'dedicated-linux-ubuntu',		
+    'dedicated-freebsd',		
+    'dedicated-centos',		
+    'dedicated-proxmox',
+    
   ],
   
   //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////

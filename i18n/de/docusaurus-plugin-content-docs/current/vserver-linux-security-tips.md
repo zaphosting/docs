@@ -13,7 +13,7 @@ Dieser Anleitung enthält einige Tipps und Hinweise, wie du deinen Linux Server 
 Bitte beachte , dass diese Anleitung nicht allumfassend ist und dass detailliertere Informationen in anderen Abschnitten der ZAP-Dokumentation zu finden sind. (z.B. [2FA](vserver-linux-ssh2fa.md))
 :::
 
-:::Tipp
+:::tip
 Der einfachste Weg, um deinen Server zu schützen, ist unabhängig von der Art des Servers immer derselbe: Verwende sichere Passwörter, aktualisiere deine Dienste regelmäßig und achte generell darauf, welche Dienste du installieren willst und welchen Anleitungen du befolgst.
 :::
 
