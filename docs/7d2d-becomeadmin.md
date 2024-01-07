@@ -29,9 +29,9 @@ Afterwards open one of the following pages and paste the URL of your profile the
 This will provide you with general information as well as the Steam ID of your account. In this case we only need the SteamID64. The SteamID64 is then specified under ``<admins>...</admins>``. This will look like this:
 
 ```
- <admins>
+ <users>
     <user steamID="76561198021925107" name="Hint on who this user is" permission_level="0" />
-  </admins>
+  </users>
 ```
 
 The game offers the possibility to define different permission levels for the administrator permissions. This means that it is possible to define different administrator groups with different permissions. The level is defined by the ``permission_level`` option. This can be set from 0 to 1000. Depending on how this is configured, the administrators then have access to the assigned permissions. Once this has been done, the administrator permissions have been assigned successfully. 
