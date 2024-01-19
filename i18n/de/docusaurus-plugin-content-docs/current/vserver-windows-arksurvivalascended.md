@@ -31,7 +31,16 @@ Sobald die Meldung **Loading Steam API.... OK** angezeigt wird, wurde der Prozes
 
 Nach der Installation solltest du in der Lage sein, Befehle innerhalb des **steamcmd.exe** Befehlsfensters auszuführen, das du zuvor gestartet hast. Du musst dich vorher anmelden, um irgendetwas tun zu können, und zwar als **anonymer** Benutzer, indem du den Befehl ausführst: `login anonymous`
 
-Sobald du angemeldet bist, kannst du nun mit dem Herunterladen der Dateien beginnen. Führe den Befehl `app_update 2430930` aus, um den Download zu starten. Die App-ID **2430930** ist der **Dedicated Server für ARK: Survival Ascended**.
+Sobald du angemeldet bist, kannst du nun mit dem Herunterladen der Dateien beginnen.
+
+:::tip
+Optional: Du kannst dein bevorzugtes Installationsverzeichnis mit dem Befehl `force_install_dir [path]` festlegen, wobei du path durch den gewünschten Pfad ersetzt. Zum Beispiel:
+```
+force_install_dir C:\ARK-Survival-Ascended-Server`
+```
+::
+
+Führe den Befehl `app_update 2430930` aus, um den Download zu starten. Die App-ID **2430930** ist der **Dedicated Server für ARK: Survival Ascended**.
 
 ![image](https://github.com/zaphosting/docs/assets/42719082/98d7c643-04be-488b-8831-86606363f98c)
 

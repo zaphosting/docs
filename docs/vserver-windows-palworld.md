@@ -27,7 +27,14 @@ As soon as the message **Loading Steam API.... OK** is displayed, the process ha
 
 After the installation, you should be able to execute commands within the **steamcmd.exe** command prompt that you ran before. You need to login prior to being able to do anything, through the **anonymous** user, by using the command: `login anonymous`
 
-Once logged in, you can now begin downloading the files. You can set your preferred install directory by using the command `force_install_dir [path]`, replacing path with the path you wish. This is optional, for example: `force_install_dir C:\Palworld-Server`.
+Once logged in, you can now begin downloading the files. 
+
+:::tip
+Optional: You can set your preferred install directory by using the command `force_install_dir [path]`, replacing path with the path you wish. For example: 
+```
+force_install_dir C:\Palworld-Server`
+```
+::
 
 Now run the command `app_update 2394010` which will begin the download. The App ID **2394010** is the **Palworld** application.
 
@@ -103,6 +110,6 @@ If you do not see this file, please start your server at least **once** for this
 
 ## Starting & Connecting to your server
 
-Now it is time to start your server. Head over to the base directory of your Palworld server and run **PalServer.exe** to begin the start up process. This will open the server's console in a command prompt and begin the startup process. If everthing occurs as expected, your server will be visible in the server list. Alternatively, you will be able to connect directly by opening the console in-game and running `open [your_ip_address]:8221`.
+Now it is time to start your server. Head over to the base directory of your Palworld server and run **PalServer.exe** to begin the start up process. This will open the server's console in a command prompt and begin the startup process. If everthing occurs as expected, your server will be visible in the server list. Alternatively, you will be able to connect directly by using the bottom search bar on the server list and searching for: `[your_ip_address]:8221`.
 
 You have successfully installed Palworld on your Windows VPS.

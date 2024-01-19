@@ -72,6 +72,6 @@ Rufen dazu den [PayPal Invoice Creator] (https://www.paypal.com/invoice/create?f
 - Die Beschreibung muss enthalten: `zap community ads payout <Kunden-ID>`
 - Die Rechnung muss gesendet werden an: `m.kluck@zap-hosting.com`
 
-:::hint
+:::tip
 Deine ZAP Kundenummer findest du oben rechts auf unserer Webseite, wenn du eingeloggt bist, mit einem Format wie `zap123456`.
 :::
