@@ -51,7 +51,7 @@ Sobald der Vorgang erfolgreich abgeschlossen ist, gehst du in das Download-Verze
 Um sicherzustellen, dass dein Server für die Öffentlichkeit zugänglich ist, musst du die Portweiterleitungsregeln für die Ports ändern, die der dedizierte Serverprozess verwendet. Du kannst dies entweder direkt über Powershell-Befehle tun, was einfacher ist, oder regelmäßig über die Windows Defender Firewall-Seite.
 
 import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';;
+import TabItem from '@theme/TabItem';
 
 <Tabs>
 <TabItem value="powershell" label="Über Powershell" default>
