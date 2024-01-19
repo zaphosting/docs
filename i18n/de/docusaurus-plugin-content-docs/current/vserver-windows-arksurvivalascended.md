@@ -36,9 +36,9 @@ Sobald du angemeldet bist, kannst du nun mit dem Herunterladen der Dateien begin
 :::tip
 Optional: Du kannst dein bevorzugtes Installationsverzeichnis mit dem Befehl `force_install_dir [path]` festlegen, wobei du path durch den gewünschten Pfad ersetzt. Zum Beispiel:
 ```
-force_install_dir C:\ARK-Survival-Ascended-Server`
+force_install_dir C:\ARK-Survival-Ascended-Server
 ```
-::
+:::
 
 Führe den Befehl `app_update 2430930` aus, um den Download zu starten. Die App-ID **2430930** ist der **Dedicated Server für ARK: Survival Ascended**.
 

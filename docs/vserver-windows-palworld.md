@@ -32,9 +32,9 @@ Once logged in, you can now begin downloading the files.
 :::tip
 Optional: You can set your preferred install directory by using the command `force_install_dir [path]`, replacing path with the path you wish. For example: 
 ```
-force_install_dir C:\Palworld-Server`
+force_install_dir C:\Palworld-Server
 ```
-::
+:::
 
 Now run the command `app_update 2394010` which will begin the download. The App ID **2394010** is the **Palworld** application.
 

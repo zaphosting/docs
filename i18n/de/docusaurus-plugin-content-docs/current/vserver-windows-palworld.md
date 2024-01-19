@@ -32,9 +32,9 @@ Sobald du eingeloggt bist, kannst du mit dem Herunterladen der Dateien beginnen.
 :::Tipp
 Optional: Du kannst dein bevorzugtes Installationsverzeichnis festlegen, indem du den Befehl `force_install_dir [Pfad]` verwendest und dabei den Pfad durch den gewünschten Pfad ersetzt. Zum Beispiel: 
 ```
-force_install_dir C:\Palworld-Server`
+force_install_dir C:\Palworld-Server
 ```
-::
+:::
 
 Führe nun den Befehl `app_update 2394010` aus, um den Download zu starten. Die App ID **2394010** ist die **Palworld** Anwendung.
 
