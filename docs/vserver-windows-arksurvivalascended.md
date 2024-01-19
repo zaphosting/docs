@@ -31,7 +31,9 @@ As soon as the message **Loading Steam API.... OK** is displayed, the process ha
 
 After the installation, you should be able to execute commands within the **steamcmd.exe** command prompt that you ran before. You need to login prior to being able to do anything, through the **anonymous** user, by using the command: `login anonymous`
 
-Once logged in, you can now begin downloading the files. Run the command `app_update 2430930` which will begin the download. The App ID **2430930** is the **ARK: Survival Ascended Dedicated Server** application.
+Once logged in, you can now begin downloading the files. You can set your preferred install directory by using the command `force_install_dir [path]`, replacing path with the path you wish. This is optional, for example: `force_install_dir C:\Palworld-Server`.
+
+Now run the command `app_update 2430930` which will begin the download. The App ID **2430930** is the **ARK: Survival Ascended Dedicated Server** application.
 
 ![image](https://github.com/zaphosting/docs/assets/42719082/98d7c643-04be-488b-8831-86606363f98c)
 
