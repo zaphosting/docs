@@ -318,5 +318,9 @@
   "sidebar.guidesSidebar.category.General": {
     "message": "Allgemein",
     "description": "The label for category General in sidebar guidesSidebar"
+  },
+  "sidebar.gameserverSidebar.category.Palworld": {
+    "message": "Palworld",
+    "description": "The label for category Palworld in sidebar gameserverSidebar"
   }
 }
