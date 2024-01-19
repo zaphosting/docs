@@ -29,7 +29,7 @@ Nach der Installation solltest du in der Lage sein, Befehle in der **steamcmd.ex
 
 Sobald du eingeloggt bist, kannst du mit dem Herunterladen der Dateien beginnen. 
 
-:::Tipp
+:::tip
 Optional: Du kannst dein bevorzugtes Installationsverzeichnis festlegen, indem du den Befehl `force_install_dir [Pfad]` verwendest und dabei den Pfad durch den gewünschten Pfad ersetzt. Zum Beispiel: 
 ```
 force_install_dir C:\Palworld-Server

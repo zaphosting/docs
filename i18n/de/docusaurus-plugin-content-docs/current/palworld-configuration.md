@@ -12,7 +12,7 @@ Palworld-Server verfügen über eine Vielzahl von Konfigurationsparametern, die 
 Zunächst musst du auf deine Konfigurationsdatei zugreifen, um die Parameter zu bearbeiten. Es gibt mehrere Möglichkeiten, diese Datei zu bearbeiten.
 
 import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';;
+import TabItem from '@theme/TabItem';
 
 <Tabs>
 <TabItem value="settings" label="Über Webinterface" default>
