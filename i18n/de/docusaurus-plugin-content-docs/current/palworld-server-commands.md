@@ -19,18 +19,18 @@ Wenn der Parameter `steamid` benötigt wird, kannst du die SteamID eines Spieler
 Bevor du diese Befehle verwenden kannst, musst du ein Admin-Passwort einrichten und dir mit dem Befehl `/AdminPasswort` die entsprechenden Rechte erteilen. Andernfalls erhältst du eine Fehlermeldung. Lies den nächsten Abschnitt in diesem Leitfaden, um zu verstehen, wie du das machst.
 :::
 
-| Befehlssyntax | Akzeptierte Werte | Beschreibung | 
-| ------------------------------ | ---------------- | ----------- | 
-| /Shutdown [secs] [message] | Integer, String | Schaltet den Server nach den angegebenen Sekunden ab, mit der dazugehörigen Meldung.         | 
-| /DoExit | - | Erzwingt das Beenden des Servers | 
-| /Broadcast | String | Sende eine Nachricht an alle Spieler, die sich gerade auf dem Server befinden | 
-| /KickPlayer [steamid] | String | Kick den Zielspieler vom Server | 
-| /BanPlayer [steamid] | String | Verbannt den Zielspieler vom Server | 
-| /TeleportToPlayer [steamid] | String | Teleport zum Zielspieler | 
-| /TeleportToMe [steamid] | String | Teleportiere den Zielspieler zu dir | 
-| /ShowPlayers | - | Informationen über alle aktuell verbundenen Spieler bereitstellen | 
-| /Info | - | Serverinformationen bereitstellen | 
-| /Save | - | Die aktuellen Weltdaten speichern |
+| Befehlssyntax               | Akzeptierte Werte | Beschreibung                                                                        | 
+| --------------------------- | ----------------- | ----------------------------------------------------------------------------------- | 
+| /Shutdown [secs] [message]  | Integer, String   | Schaltet den Server nach den angegebenen Sekunden ab, mit der dazugehörigen Meldung | 
+| /DoExit                     | -                 | Erzwingt das Beenden des Servers                                                    | 
+| /Broadcast                  | String            | Sende eine Nachricht an alle Spieler, die sich gerade auf dem Server befinden       | 
+| /KickPlayer [steamid]       | String            | Kick den Zielspieler vom Server                                                     | 
+| /BanPlayer [steamid]        | String            | Verbannt den Zielspieler vom Server                                                 | 
+| /TeleportToPlayer [steamid] | String            | Teleport zum Zielspieler                                                            | 
+| /TeleportToMe [steamid]     | String            | Teleportiere den Zielspieler zu dir                                                 | 
+| /ShowPlayers                | -                 | Informationen über alle aktuell verbundenen Spieler bereitstellen                   | 
+| /Info                       | -                 | Serverinformationen bereitstellen                                                   | 
+| /Save                       | -                 | Die aktuellen Weltdaten speichern                                                   |
 
 :::note
 Du kannst eine Person derzeit nicht im Spiel sperren, da es keinen entsprechenden Befehl gibt. Du musst die Datei `banlist.txt` in deinem Server-Verzeichnis manuell bearbeiten, wenn du einen Spieler wieder sperren willst.

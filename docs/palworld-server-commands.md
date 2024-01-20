@@ -19,18 +19,18 @@ Where the `steamid` parameter is needed, you can copy the SteamID of a player ea
 You must set up an Admin Password and grant yourself permission using the `/AdminPassword` command before you can being using these commands. Otherwise, you will receive a permission error. Read the next section in this guide to understand how to do this.
 :::
 
-| Command Syntax                 | Accepted Values  | Description | 
-| ------------------------------ | ---------------- | ----------- | 
-| /Shutdown [secs] [message]     | Integer, String  | Shut down the server after specified seconds, with the included message.         | 
-| /DoExit                        | -                | Force stops the server         | 
-| /Broadcast                     | String           | Send a message to all players currently on the server        | 
-| /KickPlayer [steamid]          | String           | Kick the target player from the server         | 
-| /BanPlayer [steamid]           | String           | Ban the target player from the server         | 
-| /TeleportToPlayer [steamid]    | String           | Teleport to the target player         | 
-| /TeleportToMe [steamid]        | String           | Teleport the target player to you         | 
-| /ShowPlayers                   | -                | Provide information about all currently connected players         | 
-| /Info                          | -                | Provide server information         | 
-| /Save                          | -                | Save the current world data         |
+| Command Syntax                 | Accepted Values  | Description                                                             | 
+| ------------------------------ | ---------------- | ----------------------------------------------------------------------- | 
+| /Shutdown [secs] [message]     | Integer, String  | Shut down the server after specified seconds, with the included message | 
+| /DoExit                        | -                | Force stops the server                                                  | 
+| /Broadcast                     | String           | Send a message to all players currently on the server                   | 
+| /KickPlayer [steamid]          | String           | Kick the target player from the server                                  | 
+| /BanPlayer [steamid]           | String           | Ban the target player from the server                                   | 
+| /TeleportToPlayer [steamid]    | String           | Teleport to the target player                                           | 
+| /TeleportToMe [steamid]        | String           | Teleport the target player to you                                       | 
+| /ShowPlayers                   | -                | Provide information about all currently connected players               | 
+| /Info                          | -                | Provide server information                                              | 
+| /Save                          | -                | Save the current world data                                             |
 
 :::note
 You cannot currently unban a person in-game as there is no command available. You would have to manually edit the `banlist.txt` file in your server directory if you wish to unban a player.
