@@ -54,17 +54,17 @@ These are server configuration options which are essential for customising your 
 We do not recommending changing he port or IP settings, as these are automatically configured by the gameserver. Changing the IP/Port values may potentially break your gameserver
 :::
 
-| Parameter Name                 | Example                                | Description                                                |
-| ------------------------------ | -------------------------------------- | ---------------------------------------------------------- | 
-| ServerPlayerMaxNum             | 4                                      | The max amount of players that can join the server (max 8) |
-| ServerName                     | ZAP-Hosting Docs Test                  | Your server's name                                         |
-| ServerDescription              | This is a server that we are testing on | Your server's description                                 |
-| AdminPassword                  | ctRQvhPAWVHq                           | The Admin Password used for admin commands                 |
-| ServerPassword                 | iLoveZAP!2024                          | Lock the server behind a password (private)                |
-| PublicPort                     | 8221                                   | The public port the server runs on                         |
-| PublicIP                       | 123.123.123.123                        | Public IP the server runs on                               |
-| RCONEnabled                    | true                                   | Toggle the use of RCON                                     |
-| RCONPort                       | 8222                                   | Port number to be used for RCON                            |
+| Parameter Name                 | Example                                 | Description                                                |
+| ------------------------------ | --------------------------------------- | ---------------------------------------------------------- | 
+| ServerPlayerMaxNum             | 4                                       | The max amount of players that can join the server (max 8) |
+| ServerName                     | ZAP-Hosting Docs Test                   | Your server's name                                         |
+| ServerDescription              | This is a server that we are testing on | Your server's description                                  |
+| AdminPassword                  | ctRQvhPAWVHq                            | The Admin Password used for admin commands                 |
+| ServerPassword                 | iLoveZAP!2024                           | Lock the server behind a password (private)                |
+| PublicPort                     | 8211 (default)                          | The public port the server runs on                         |
+| PublicIP                       | 123.123.123.123                         | Public IP the server runs on                               |
+| RCONEnabled                    | true                                    | Toggle the use of RCON                                     |
+| RCONPort                       | 8222                                    | Port number to be used for RCON                            |
 
 After you complete your changes, make sure to save the file where appropriate and restart your server. The next time your server starts up, it will use the settings that you have provided.
 

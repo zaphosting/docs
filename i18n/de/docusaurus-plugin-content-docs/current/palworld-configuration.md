@@ -61,7 +61,7 @@ Wir raten davon ab, die Port- oder IP-Einstellungen zu ändern, da diese automat
 | ServerDescription | Dies ist ein Server, auf dem wir testen | Beschreibung deines Servers |
 | AdminPassword | ctRQvhPAWVHq | Das Admin-Passwort, das für Admin-Befehle verwendet wird |
 | ServerPassword | iLoveZAP!2024 | Sperre den Server hinter einem Passwort (privat) |
-| PublicPort | 8221 | Der öffentliche Port, auf dem der Server läuft |
+| PublicPort | 8211 (Standard) | Der öffentliche Port, auf dem der Server läuft |
 | PublicIP | 123.123.123.123 | Öffentliche IP, unter der der Server läuft |
 | RCONEnabled | true | Schaltet die Verwendung von RCON ein |
 | RCONPort | 8222 | Portnummer, die für RCON verwendet werden soll |

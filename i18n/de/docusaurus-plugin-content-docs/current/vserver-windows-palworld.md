@@ -64,10 +64,10 @@ Vergewissere dich, dass du die Powershell im Administratormodus ausführst, sons
 
 Als nächstes kopierst du die folgenden Befehle und fügst sie in deine Powershell-Eingabeaufforderung ein:
 ```
-New-NetFirewallRule -DisplayName "Palworld Server" -Direction Inbound -LocalPort 8221 -Protocol TCP -Action Allow
-New-NetFirewallRule -DisplayName "Palworld Server" -Direction Inbound -LocalPort 8221 -Protocol UDP -Action Allow
-New-NetFirewallRule -DisplayName "Palworld Server" -Direction Outbound -LocalPort 8221 -Protocol TCP -Action Allow
-New-NetFirewallRule -DisplayName "Palworld Server" -Direction Outbound -LocalPort 8221 -Protocol UDP -Action Allow
+New-NetFirewallRule -DisplayName "Palworld Server" -Direction Inbound -LocalPort 8211 -Protocol TCP -Action Allow
+New-NetFirewallRule -DisplayName "Palworld Server" -Direction Inbound -LocalPort 8211 -Protocol UDP -Action Allow
+New-NetFirewallRule -DisplayName "Palworld Server" -Direction Outbound -LocalPort 8211 -Protocol TCP -Action Allow
+New-NetFirewallRule -DisplayName "Palworld Server" -Direction Outbound -LocalPort 8211 -Protocol UDP -Action Allow
 ```
 
 Mit diesen Befehlen werden automatisch Firewall-Regeln erstellt, die notwendig sind, damit dein Palworld-Server für die Öffentlichkeit zugänglich ist.
@@ -81,15 +81,15 @@ Verwende die Suchfunktion von Windows, um die **Windows Firewall-Einstellungen m
 ![image](https://github.com/zaphosting/docs/assets/42719082/5fb9f943-7e51-4d8f-9df4-2f5ff60857d3)
 
 Du musst neue Regeln für deinen Palworld Server erstellen. Klicke dazu auf die ein- und ausgehenden Regeln wie unten beschrieben und füge sie für die folgenden Protokolle und Ports hinzu:
-- TCP eingehend und ausgehend: 8221
-- UDP eingehend und ausgehend: 8221
+- TCP eingehend und ausgehend: 8211
+- UDP eingehend und ausgehend: 8211
 
 Bitte benutze unseren [Ports bei Windows Servern freigeben](vserver-windows-port.md), wenn du weitere Hilfe dabei brauchst.
 
 </TabItem>
 </Tabs>
 
-Wenn du diese Regeln hinzugefügt hast, ist dein Server jetzt erreichbar, d.h. du kannst dich über die IP-Adresse deines Servers mit ihm verbinden. Das kannst du tun, indem du den Browser der Serverliste aufrufst und deine IP-Adresse und den Port in die Suche am unteren Rand eingibst. Du solltest suchen nach: `[your_ip_address]:8221`
+Wenn du diese Regeln hinzugefügt hast, ist dein Server jetzt erreichbar, d.h. du kannst dich über die IP-Adresse deines Servers mit ihm verbinden. Das kannst du tun, indem du den Browser der Serverliste aufrufst und deine IP-Adresse und den Port in die Suche am unteren Rand eingibst. Du solltest suchen nach: `[your_ip_address]:8211`
 
 Wir empfehlen, dass du deine Servereinstellungen zuerst im folgenden Abschnitt konfigurierst, bevor du auf deinen Server zugreifst.
 
@@ -110,6 +110,6 @@ Wenn du diese Datei nicht siehst, starte deinen Server bitte mindestens **einmal
 
 ## Starten und Verbinden mit deinem Server
 
-Jetzt ist es an der Zeit, deinen Server zu starten. Gehe in das Basisverzeichnis deines Palworld-Servers und starte **PalServer.exe**, um den Startvorgang zu beginnen. Dadurch wird die Konsole des Servers in einer Eingabeaufforderung geöffnet und der Startvorgang beginnt. Wenn alles wie erwartet abläuft, wird dein Server in der Serverliste sichtbar sein. Alternativ kannst du dich auch direkt verbinden, indem du in der unteren Suchleiste der Serverliste nach `[your_ip_address]:8221`.
+Jetzt ist es an der Zeit, deinen Server zu starten. Gehe in das Basisverzeichnis deines Palworld-Servers und starte **PalServer.exe**, um den Startvorgang zu beginnen. Dadurch wird die Konsole des Servers in einer Eingabeaufforderung geöffnet und der Startvorgang beginnt. Wenn alles wie erwartet abläuft, wird dein Server in der Serverliste sichtbar sein. Alternativ kannst du dich auch direkt verbinden, indem du in der unteren Suchleiste der Serverliste nach `[your_ip_address]:8211`.
 
 Du hast Palworld erfolgreich auf deinem Windows VPS installiert.
