@@ -60,7 +60,7 @@ The Server must be stopped before the config can be edited, editing the config a
 These are server configuration options which are essential for customising your server's listing, protecting it through passwords and more internal settings.
 
 :::tip
-We do not recommending changing he port or IP settings, as these are automatically configured by the gameserver. Changing the IP/Port values may potentially break your gameserver
+We do not recommending changing the port or IP settings, as these are automatically configured by the gameserver. Changing the IP/Port values may potentially break your gameserver
 :::
 
 | Parameter Name                 | Example                                 | Description                                                |
