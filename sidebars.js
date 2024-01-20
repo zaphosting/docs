@@ -346,6 +346,21 @@ const sidebars = {
       ],
     },
     {
+      type: "category",
+      label: "Palworld",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "palworld-firststeps-dashboard"
+          ]
+        },
+        "palworld-configuration",
+        "palworld-server-commands",
+      ],
+    },
+    {
       type: 'html',
       className: 'sidebar-title',
       value: (() => {
@@ -685,21 +700,6 @@ const sidebars = {
             "moe-firststeps-connect"
           ]
         }
-      ],
-    },
-    {
-      type: "category",
-      label: "Palworld",
-      items: [
-        {
-          type: "category",
-          label: "First Steps",
-          items: [
-            "palworld-firststeps-dashboard"
-          ]
-        },
-        "palworld-configuration",
-        "palworld-server-commands",
       ],
     },
     {
