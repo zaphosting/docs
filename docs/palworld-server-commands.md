@@ -7,6 +7,8 @@ sidebar_label: Server Commands
 
 Palworld servers all come with a set of useful built-in server commands which can be used in-game and through your server console. In this guide, we will explore many of these commands providing descriptions and usage examples for each.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SDZC4-FEdNM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Available Commands
 
 The table below consists of a range of server commands for Palworld, alongside their usage examples and descriptions, that can be used in-game and through the server console.

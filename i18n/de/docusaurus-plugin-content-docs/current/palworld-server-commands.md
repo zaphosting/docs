@@ -7,6 +7,8 @@ sidebar_label: Server-Befehle
 
 Palworld-Server verfügen über eine Reihe von nützlichen integrierten Serverbefehlen, die du im Spiel und über deine Serverkonsole verwenden kannst. In diesem Leitfaden werden wir uns mit vielen dieser Befehle befassen und Beschreibungen und Anwendungsbeispiele für jeden einzelnen geben.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SDZC4-FEdNM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Verfügbare Befehle
 
 Die folgende Tabelle enthält eine Reihe von Serverbefehlen für Palworld sowie Beispiele und Beschreibungen, die im Spiel und über die Serverkonsole verwendet werden können.

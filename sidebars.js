@@ -704,6 +704,21 @@ const sidebars = {
     },
     {
       type: "category",
+      label: "Palworld",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "palworld-firststeps-dashboard"
+          ]
+        },
+        "palworld-configuration",
+        "palworld-server-commands",
+      ],
+    },
+    {
+      type: "category",
       label: "Project Zomboid",
       items: [
         {
