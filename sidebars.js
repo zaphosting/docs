@@ -358,6 +358,7 @@ const sidebars = {
         },
         "palworld-configuration",
         "palworld-server-commands",
+        "palworld-server-savegames"
       ],
     },
     {
@@ -700,21 +701,6 @@ const sidebars = {
             "moe-firststeps-connect"
           ]
         }
-      ],
-    },
-    {
-      type: "category",
-      label: "Palworld",
-      items: [
-        {
-          type: "category",
-          label: "First Steps",
-          items: [
-            "palworld-firststeps-dashboard"
-          ]
-        },
-        "palworld-configuration",
-        "palworld-server-commands",
       ],
     },
     {
