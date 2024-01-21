@@ -1,5 +1,5 @@
 ---
-id: palworld-savegames
+id: palworld-server-savegames
 title: Manage Palworld Savegames
 description: Information about savegame management for the Palworld game from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Savegames
