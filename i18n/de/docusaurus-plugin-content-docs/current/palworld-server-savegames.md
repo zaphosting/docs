@@ -75,6 +75,6 @@ Prüfe dazu in `Pal/Saved/SaveGames/0`, welche Savgames vorhanden sind:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/wYQ42Aein5y6Z6j/preview)
 
-In unserem Fall haben wir zwei Savegames, der ältere Ordner ist hier wahrscheinlich unser Savegame, dieses können wir nun über unseren [in der GameUserSettings.ini Konfigurieren](#savegame-laden).
+In unserem Fall haben wir zwei Savegames, der ältere Ordner ist hier wahrscheinlich unser Savegame, dieses können wir nun [in der GameUserSettings.ini Konfigurieren](#savegame-laden).
 
 Danach sollte das Savegame wieder auf dem Server aktiv sein!
