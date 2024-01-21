@@ -40,7 +40,9 @@ Here we can now view all our savegames.
 
 ### Upload savegame
 
-::info Make sure that your server is stopped before changing the savegame!
+:::info 
+Make sure that your server is stopped before changing the savegame!
+:::
 
 To upload your own savegame, you can upload your savegame folder to the `Pal/Saved/SaveGames/0` folder:
 
@@ -78,3 +80,7 @@ To do this, check in `Pal/Saved/SaveGames/0` which Savgames are available:
 In our case, we have two savegames, the older folder is probably our savegame, which we can now load by [Configuring it in GameUserSettings.ini](#load-savegame).
 
 The savegame should then be active on the server again!
+
+:::info
+We generally recommend activating the automatic backups in our dashboard under "Backups", as Palworld is still in Early Access, it can happen that savegames are lost during updates.
+:::

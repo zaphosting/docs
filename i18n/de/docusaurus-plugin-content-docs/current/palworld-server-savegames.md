@@ -41,7 +41,9 @@ Hier können wir nun alle unserer Savegames einsehen.
 
 ### Savegame Hochladen
 
-::info Gehe sicher, dass dein Server vor Änderung des Savegames gestoppt ist!
+:::info 
+Gehe sicher, dass dein Server vor Änderung des Savegames gestoppt ist!
+:::
 
 Um ein eigenes Savegame zu hochzuladen, kannst du deinen Savegame-Ordner in den `Pal/Saved/SaveGames/0` Ordner hochladen:
 
@@ -78,3 +80,7 @@ Prüfe dazu in `Pal/Saved/SaveGames/0`, welche Savgames vorhanden sind:
 In unserem Fall haben wir zwei Savegames, der ältere Ordner ist hier wahrscheinlich unser Savegame, dieses können wir nun [in der GameUserSettings.ini Konfigurieren](#savegame-laden).
 
 Danach sollte das Savegame wieder auf dem Server aktiv sein!
+
+:::info
+Wir empfehlen generell die Automatischen Backups in unserem Dashboard unter "Backups" zu aktivieren, da Palworld noch im Early Access ist kann es passieren das Savegames bei updates verloren gehen.
+:::
