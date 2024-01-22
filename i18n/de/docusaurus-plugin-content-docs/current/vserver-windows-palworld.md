@@ -5,6 +5,10 @@ description: Informationen zur Einrichtung eines Palworld Dedizierten Servers au
 sidebar_label: Palworld Dedicated Server Einrichtung
 ---
 
+**📺Video:** Du bevorzugst eine Anleitung eher in Form eines Videos oder als zusätzliche visuelle Ergänzung? Kein Problem! Für dieses Thema stellen wir ebenfalls ein Video zur Verfügung: 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/thn0wDE5LDg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Einleitung
 
 Du hast einen Windows VPS oder Rootserver und möchtest darauf einen Palworld Dedicated Server installieren? Dann bist du hier genau richtig. In dieser Anleitung erklären wir dir Schritt für Schritt, wie du diesen Dienst auf deinem Server installierst.
