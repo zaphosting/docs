@@ -30,15 +30,15 @@ The most user-friendly method is by heading over to the **Settings** section on 
 
 #### Via WI Config File
 
+:::note
+The Server must be stopped before the config can be edited, editing the config and restarting the server will result in any changes being undone.
+:::
+
 Alternatively, for users who wish to directly edit the raw file, you can access this by heading over to the **Configs** section on your gameserver's webinterface and pressing the blue edit file button, as seen below:
 
 ![image](https://github.com/zaphosting/docs/assets/42719082/53c8acad-7347-4c3e-85bf-5ae0ad423fc6)
 
 This will open up a text editor directly on the site to enable you to edit it.
-
-:::note
-The Server must be stopped before the config can be edited, editing the config and restarting the server will result in any changes being undone.
-:::
 
 </TabItem>
 
@@ -46,11 +46,12 @@ The Server must be stopped before the config can be edited, editing the config a
 
 
 #### Via FTP
-The final method of accessing the raw file, is through FTP. If you are not familiar with using FTP, we recommend you to have a look at the [FTP file access](gameserver-ftpaccess.md) guide. However, this method takes longer and if you wish to directly edit the file contents, we recommend simply using the **Configs** section on your gameserver's webinterface as mentioned.
 
 :::note
 The Server must be stopped before the config can be edited, editing the config and restarting the server will result in any changes being undone.
 :::
+
+The final method of accessing the raw file, is through FTP. If you are not familiar with using FTP, we recommend you to have a look at the [FTP file access](gameserver-ftpaccess.md) guide. However, this method takes longer and if you wish to directly edit the file contents, we recommend simply using the **Configs** section on your gameserver's webinterface as mentioned.
 
 </TabItem>
 </Tabs>

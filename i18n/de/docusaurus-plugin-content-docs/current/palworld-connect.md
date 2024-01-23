@@ -23,7 +23,7 @@ Beginne damit, Palworld über deinen Game Launcher zu starten. Wähle im Hauptme
 
 Gehe im dedizierten Server-Browser zum unteren Ende der Seite. Gib in das untere Suchfeld deine IP- und Portdaten ein. Sobald du fertig bist, drückst du auf die Schaltfläche **Verbinden** und trittst deinem Server bei.
 
-:::Hinweis
+:::note
 Achte darauf, dass du das untere Suchfeld benutzt und nicht das obere. Das obere Feld wird verwendet, um in der Serverliste nach Servern mit Namen zu suchen.
 :::
 
