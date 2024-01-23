@@ -7,6 +7,8 @@ sidebar_label: Setup Admin
 
 In this guide, we will look at configurating your server with an admin password and adding yourself as an admin in-game. This password can be shared with trusted players to grant a range of admin commands. You can learn more about these server commands through our [Palworld Server Commands guide](palworld-server-commands.md).
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SDZC4-FEdNM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Configuring your Admin password
 
 Firstly, you have to access your configuration settitngs. There are a few ways which you can do this, we list them each below including instructions on setting the password. We recommend using the **Webinterface** option as this is the most user-friendly. Once you have set your admin password, you can head over to the next section.

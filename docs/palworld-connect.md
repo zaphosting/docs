@@ -7,6 +7,8 @@ sidebar_label: Connect to Server
 
 In this guide, we will explore how to connect to your Palworld server. We recommend configurating the server to your likings beforehand, learn more about this through our [Palworld Configuration guide](palworld-configuration.md).
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SDZC4-FEdNM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Obtaining Server IP
 
 Firstly, you need to know the IP and Port of your Palworld server in order to be able to direct connect. Simply head over to your [ZAP-Hosting webinterface](https://zap-hosting.com/en/customer/) on the site, and have the full IP and Port on hand.

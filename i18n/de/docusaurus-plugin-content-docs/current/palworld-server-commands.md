@@ -9,6 +9,16 @@ Palworld-Server verfügen über eine Reihe von nützlichen integrierten Serverbe
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/SDZC4-FEdNM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+## Admin einrichten
+
+Du musst zuerst ein Admin-Passwort für deinen Palword-Server festlegen und dich selbst als Admin im Spiel hinzufügen, bevor du auf die Admin-Server-Befehle im nächsten Abschnitt zugreifen kannst.
+
+Du kannst das Admin-Passwort deines Servers über den Reiter **Einstellungen** im Webinterface deines Servers oder über die Konfigurationsdatei **PalWorldSettings.ini** festlegen. Sobald du es festgelegt hast, kannst du den Befehl `AdminPasswort [Passwort]` im Spiel verwenden, um dich als Admin hinzuzufügen.
+
+:::tip
+Wir empfehlen dir, einen Blick in unseren [Palworld Setup Admin guide](palworld-admin.md) zu werfen, der ein spezieller Leitfaden für dieses Thema ist und genauere Informationen über das Festlegen eines Admin-Passworts und das Hinzufügen von Benutzern als Admin enthält.
+:::
+
 ## Verfügbare Befehle
 
 Die folgende Tabelle enthält eine Reihe von Serverbefehlen für Palworld sowie Beispiele und Beschreibungen, die im Spiel und über die Serverkonsole verwendet werden können.
@@ -35,15 +45,3 @@ Bevor du diese Befehle verwenden kannst, musst du ein Admin-Passwort einrichten 
 :::note
 Du kannst eine Person derzeit nicht im Spiel sperren, da es keinen entsprechenden Befehl gibt. Du musst die Datei `banlist.txt` in deinem Server-Verzeichnis manuell bearbeiten, wenn du einen Spieler wieder sperren willst.
 :::
-
-## Einrichten eines Admin-Passworts
-
-Du musst auf die Konfigurationsdatei **PalWorldSettings.ini** deines Servers zugreifen.
-
-Wenn du die Datei geöffnet hast, suche nach dem Parameter `AdminPassword` in der Datei und gehe zu ihm. Gib in diesem Feld einfach ein Passwort ein, das du als Admin-Passwort verwenden möchtest. Stelle sicher, dass du die Datei speicherst und schließt.
-
-:::tip
-Wir empfehlen dir, unseren [Palworld-Konfigurationsleitfaden](palworld-configuration.md) zu verwenden, um zu verstehen, wie du auf deine Konfiguration zugreifen und dein Admin-Passwort einfacher bearbeiten kannst.
-:::
-
-Starte deinen Palworld-Server neu und beim nächsten Start ist das Admin-Passwort gesetzt. Nun musst du nur noch den Befehl `/AdminPassword` und das zuvor festgelegte Passwort eingeben und schon bist du authentifiziert und hast Zugriff auf die Serverbefehle.

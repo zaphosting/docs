@@ -73,7 +73,7 @@ Sobald dein Admin-Passwort festgelegt ist, musst du dich selbst als Admin hinzuf
 Öffne im Spiel den Chat mit "Enter". Gib dann den folgenden Befehl ein und ersetze dabei "Passwort" durch das Admin-Passwort, das du zuvor festgelegt hast:
 
 ```
-/AdminPasswort [Passwort]
+/AdminPassword [Passwort]
 ```
 
 ![image](https://github.com/zaphosting/docs/assets/42719082/2f6e3ee7-e83f-4b71-87dc-d36f9b8c7340)
