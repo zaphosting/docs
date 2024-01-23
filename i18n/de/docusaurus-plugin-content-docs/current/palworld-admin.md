@@ -12,7 +12,7 @@ In dieser Anleitung werden wir uns ansehen, wie du deinen Server mit einem Admin
 Als Erstes musst du auf deine Konfigurationseinstellungen zugreifen. Dazu gibt es mehrere Möglichkeiten, die wir im Folgenden auflisten, einschließlich einer Anleitung zum Festlegen des Passworts. Wir empfehlen, die Option **Webinterface** zu verwenden, da diese am benutzerfreundlichsten ist. Sobald du dein Admin-Passwort festgelegt hast, kannst du zum nächsten Abschnitt übergehen.
 
 import Tabs from '@theme/Tabs';
-importiere TabItem aus '@theme/TabItem';;
+import TabItem from '@theme/TabItem';
 
 <Tabs>
 <TabItem value="Einstellungen" label="Über Webinterface" default>
