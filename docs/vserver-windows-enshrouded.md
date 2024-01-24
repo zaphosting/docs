@@ -64,10 +64,10 @@ Ensure you run your Powershell in Administrator mode, otherwise the settings may
 
 Next, copy and paste the following commands into your Powershell Prompt:
 ```
-New-NetFirewallRule -DisplayName "Enshrouded Server" -Direction Inbound -LocalPort 15636 -Protocol TCP -Action Allow
-New-NetFirewallRule -DisplayName "Enshrouded Server" -Direction Inbound -LocalPort 15636 -Protocol UDP -Action Allow
-New-NetFirewallRule -DisplayName "Enshrouded Server" -Direction Outbound -LocalPort 15636 -Protocol TCP -Action Allow
-New-NetFirewallRule -DisplayName "Enshrouded Server" -Direction Outbound -LocalPort 15636 -Protocol UDP -Action Allow
+New-NetFirewallRule -DisplayName "Enshrouded Server" -Direction Inbound -LocalPort 15636,15637 -Protocol TCP -Action Allow
+New-NetFirewallRule -DisplayName "Enshrouded Server" -Direction Inbound -LocalPort 15636,15637 -Protocol UDP -Action Allow
+New-NetFirewallRule -DisplayName "Enshrouded Server" -Direction Outbound -LocalPort 15636,15637 -Protocol TCP -Action Allow
+New-NetFirewallRule -DisplayName "Enshrouded Server" -Direction Outbound -LocalPort 15636,15637 -Protocol UDP -Action Allow
 ```
 
 These commands will automatically create firewall rules which are necessary for your Enshrouded server to be accessible to the public.
@@ -81,8 +81,8 @@ Use the search function on Windows to open up **Windows Firewall Settings with A
 ![image](https://github.com/zaphosting/docs/assets/42719082/5fb9f943-7e51-4d8f-9df4-2f5ff60857d3)
 
 You must create new rules for your Enshrouded server. To do this, click on the incoming and outgoing rules as described below and add them for the following protocols and ports:
-- TCP incoming and outgoing: 15636
-- UDP incoming and outgoing: 15636
+- TCP incoming and outgoing: 15636-15637
+- UDP incoming and outgoing: 15636-15637
 
 Please use our [Windows port forwarding guide](vserver-windows-port.md) if you need further assistance doing this.
 
