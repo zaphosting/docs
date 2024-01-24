@@ -322,5 +322,9 @@
   "sidebar.gameserverSidebar.category.Palworld": {
     "message": "Palworld",
     "description": "The label for category Palworld in sidebar gameserverSidebar"
+  },
+  "sidebar.gameserverSidebar.category.Enshrouded": {
+    "message": "Enshrouded",
+    "description": "The label for category Enshrouded in sidebar gameserverSidebar"
   }
 }
