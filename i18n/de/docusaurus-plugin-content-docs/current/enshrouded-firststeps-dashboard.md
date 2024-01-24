@@ -1,17 +1,17 @@
 ---
-id: palworld-firststeps-dashboard
-title: Palworld Dashboard Übersicht
-description: Informationen zum Dashboard eines Palworld Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
+id: enshrouded-firststeps-dashboard
+title: Enshrouded Dashboard Übersicht
+description: Informationen zum Dashboard eines Enshrouded Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Dashboard
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/SDZC4-FEdNM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 ## Einführung
 
-Du bist an einem **Palworld Server** interessiert oder besitzt bereits einen, doch dir fehlt noch ein umfassender Überblick über die Verwaltung und die Auffindbarkeit aller notwendigen Optionen? Gerade zu Beginn kann dies eine Herausforderung darstellen. Aber keine Sorge, im Folgenden bieten wir dir eine ausführliche Einführung zur Verwaltung deines Dienstes, damit du den optimalen Durchblick hast.
+Du bist an einem **Enshrouded Server** interessiert oder besitzt bereits einen, doch dir fehlt noch ein umfassender Überblick über die Verwaltung und die Auffindbarkeit aller notwendigen Optionen? Gerade zu Beginn kann dies eine Herausforderung darstellen. Aber keine Sorge, im Folgenden bieten wir dir eine ausführliche Einführung zur Verwaltung deines Dienstes, damit du den optimalen Durchblick hast.
 
-Nachdem du diesen Leitfaden durchgegangen bist, wirst du problemlos in der Lage sein, deinen Server effizient zu verwalten und alle erforderlichen Optionen sowie Features zügig und unkompliziert zu finden. Hier erhältst du einen strukturierten Überblick, der dir Schritt für Schritt hilft, dich mit der Serververwaltung vertraut zu machen und dein Wissen gezielt zu erweitern. So kannst du sicherstellen, dass dein **Palworld Server** optimal auf deine Bedürfnisse abgestimmt ist und du das Beste aus den vorhandenen Möglichkeiten herausholst.
+Nachdem du diesen Leitfaden durchgegangen bist, wirst du problemlos in der Lage sein, deinen Server effizient zu verwalten und alle erforderlichen Optionen sowie Features zügig und unkompliziert zu finden. Hier erhältst du einen strukturierten Überblick, der dir Schritt für Schritt hilft, dich mit der Serververwaltung vertraut zu machen und dein Wissen gezielt zu erweitern. So kannst du sicherstellen, dass dein **Enshrouded Server** optimal auf deine Bedürfnisse abgestimmt ist und du das Beste aus den vorhandenen Möglichkeiten herausholst.
 
 
 
@@ -25,7 +25,7 @@ Im Abschnitt **Informationen** deines Navigationspanels findest du eine Reihe vo
 
 Das **Dashboard** deines Servers stellt das Herzstück für die Verwaltung dar. Hier werden alle grundlegenden und essenziellen Informationen zu deinem Dienst übersichtlich präsentiert. Dazu zählen beispielsweise Angaben zum Standort, Status, IP:Port, genutzter Speicherplatz, aktuell laufendes Spiel, Servername, Karte und die Anzahl der verfügbaren Slots. Zudem werden auch die Auslastungen der CPU, des Arbeitsspeichers und des RAM dargestellt.
 
-![img](https://github.com/zaphosting/docs/assets/42719082/335458bb-d4ad-4675-98ad-d42ab721bec3)
+![image](https://github.com/zaphosting/docs/assets/42719082/94c5d078-fe34-42dd-b5e4-75bc9fc7776a)
 
 Im Dashboard hast du außerdem die Möglichkeit, deinen Dienst zu starten, zu stoppen oder neu zu starten, um so die volle Kontrolle über dessen Betrieb zu haben. Weiterhin kannst du die Live-Konsole aufrufen, um Echtzeitinformationen über den Serverzustand zu erhalten und gegebenenfalls direkte Eingriffe vorzunehmen.
 

@@ -364,6 +364,20 @@ const sidebars = {
       ],
     },
     {
+      type: "category",
+      label: "Enshrouded",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "enshrouded-firststeps-dashboard"
+          ]
+        },
+        "enshrouded-configuration"
+      ],
+    },
+    {
       type: 'html',
       className: 'sidebar-title',
       value: (() => {
@@ -1098,6 +1112,7 @@ const sidebars = {
       items: [
         'vserver-windows-arksurvivalascended',
         'vserver-windows-palworld',
+        'vserver-windows-enshrouded',
         'vserver-windows-valheim',
         'vserver-windows-vrising',
         'vserver-windows-satisfactory',

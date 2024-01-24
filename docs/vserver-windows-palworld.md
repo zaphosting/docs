@@ -34,7 +34,7 @@ After the installation, you should be able to execute commands within the **stea
 Once logged in, you can now begin downloading the files. 
 
 :::tip
-Optional: You can set your preferred install directory by using the command `force_install_dir [path]`, replacing path with the path you wish. For example: 
+Optional: You can set your preferred install directory by using the command `force_install_dir [path]`, replacing `[path]` with the path that you wish to use for your server. For example: 
 ```
 force_install_dir C:\Palworld-Server
 ```
@@ -106,7 +106,7 @@ Firstly, navigate to the following directory:
 ../steamapps/common/PalServer/Pal/Saved/Config/WindowsServer
 ```
 
-You will be able to find the **PalWorldSettings.ini** configuration file. Through this file, you can configure a wide selection of parameters for your server. See [Palworld's parameter guide](https://tech.palworldgame.com/optimize-game-balance) to view all of the available options and what they each do.
+You will be able to find the **PalWorldSettings.ini** configuration file. Through this file, you can configure a wide selection of parameters for your server. See our [Palworld Server Configuration guide](palworld-configuration.md) to view all of the available options and what they each do.
 
 :::note
 If you do not see this file, please start your server at least **once** for this to be generated automatically. Alternatively, you can copy and use the default settings from the `steamapps/common/PalServer/DefaultPalWorldSettings.ini` path.

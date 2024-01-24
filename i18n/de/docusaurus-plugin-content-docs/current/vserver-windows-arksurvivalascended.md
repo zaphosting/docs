@@ -34,7 +34,7 @@ Nach der Installation solltest du in der Lage sein, Befehle innerhalb des **stea
 Sobald du angemeldet bist, kannst du nun mit dem Herunterladen der Dateien beginnen.
 
 :::tip
-Optional: Du kannst dein bevorzugtes Installationsverzeichnis mit dem Befehl `force_install_dir [path]` festlegen, wobei du path durch den gewünschten Pfad ersetzt. Zum Beispiel:
+Optional: Du kannst dein bevorzugtes Installationsverzeichnis mit dem Befehl `force_install_dir [path]` festlegen, indem du `[path]` durch den Pfad ersetzst, den du für deinen Server verwenden möchtest. Zum Beispiel:
 ```
 force_install_dir C:\ARK-Survival-Ascended-Server
 ```

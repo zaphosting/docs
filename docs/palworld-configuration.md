@@ -5,7 +5,7 @@ description: Information about configuring a Palworld gameserver from ZAP-Hostin
 sidebar_label: Server Configuration
 ---
 
-Palworld servers come with a wide range of configuration parameters that you can customise to your likings. In this guide, we will explore all of the currently available configuration parameters and explain each in more detatil.
+Palworld servers come with a wide range of configuration parameters that you can customise to your likings. In this guide, we will explore all of the currently available configuration parameters and explain each in more detail.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/SDZC4-FEdNM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -63,7 +63,7 @@ The final method of accessing the raw file, is through FTP. If you are not famil
 These are server configuration options which are essential for customising your server's listing, protecting it through passwords and more internal settings.
 
 :::tip
-We do not recommending changing the port or IP settings, as these are automatically configured by the gameserver. Changing the IP/Port values may potentially break your gameserver
+We do not recommending changing the Port or IP settings, as these are automatically configured by the gameserver. Changing the IP/Port values may potentially break your gameserver!
 :::
 
 | Parameter Name                 | Example                                 | Description                                                 |

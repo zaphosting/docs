@@ -34,7 +34,7 @@ Nach der Installation solltest du in der Lage sein, Befehle in der **steamcmd.ex
 Sobald du eingeloggt bist, kannst du mit dem Herunterladen der Dateien beginnen. 
 
 :::tip
-Optional: Du kannst dein bevorzugtes Installationsverzeichnis festlegen, indem du den Befehl `force_install_dir [Pfad]` verwendest und dabei den Pfad durch den gewünschten Pfad ersetzt. Zum Beispiel: 
+Optional: Du kannst dein bevorzugtes Installationsverzeichnis mit dem Befehl `force_install_dir [path]` festlegen, indem du `[path]` durch den Pfad ersetzst, den du für deinen Server verwenden möchtest. Zum Beispiel:
 ```
 force_install_dir C:\Palworld-Server
 ```
@@ -106,7 +106,7 @@ Wechsle zunächst in das folgende Verzeichnis:
 ../steamapps/common/PalServer/Pal/Saved/Config/WindowsServer
 ```
 
-Dort findest du die Konfigurationsdatei **PalWorldSettings.ini**. Über diese Datei kannst du eine große Auswahl an Parametern für deinen Server konfigurieren. Im [Palworlds Parameter Leitfaden](https://tech.palworldgame.com/optimize-game-balance) kannst du dir alle verfügbaren Optionen ansehen und erfahren, was sie jeweils bewirken.
+Dort findest du die Konfigurationsdatei **PalWorldSettings.ini**. Über diese Datei kannst du eine große Auswahl an Parametern für deinen Server konfigurieren. Im [Palworld Server-Konfiguration guide](palworld-configuration.md) kannst du dir alle verfügbaren Optionen ansehen und erfahren, was sie jeweils bewirken.
 
 :::note
 Wenn du diese Datei nicht siehst, starte deinen Server bitte mindestens **einmal**, damit sie automatisch erstellt wird. Alternativ kannst du auch die Standardeinstellungen aus dem Pfad `steamapps/common/PalServer/DefaultPalWorldSettings.ini` kopieren und verwenden.
