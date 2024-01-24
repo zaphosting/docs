@@ -59,7 +59,7 @@ Die letzte Methode, um auf die Rohdatei zuzugreifen, ist über FTP. Wenn du dich
 
 Dies sind die derzeit verfügbaren Serverkonfigurationsoptionen, die das Spiel zur Anpassung deines Servers bereitstellt, insbesondere der Servername, das Passwort sowie einige interne Einstellungen.
 
-:::Tipp
+:::tip
 Wir raten davon ab, die Einstellungen für Port, IP oder Verzeichnis zu ändern, da diese automatisch vom Gameserver konfiguriert werden. Wenn du diese Werte änderst, kann es passieren, dass dein Gameserver kaputt geht!
 :::
 
