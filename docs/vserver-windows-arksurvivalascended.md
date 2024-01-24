@@ -34,7 +34,7 @@ After the installation, you should be able to execute commands within the **stea
 Once logged in, you can now begin downloading the files.
 
 :::tip
-Optional: You can set your preferred install directory by using the command `force_install_dir [path]`, replacing path with the path you wish. For example: 
+Optional: You can set your preferred install directory by using the command `force_install_dir [path]`, replacing `[path]` with the path that you wish to use for your server. For example: 
 ```
 force_install_dir C:\ARK-Survival-Ascended-Server
 ```
