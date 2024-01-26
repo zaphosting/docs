@@ -7,6 +7,8 @@ sidebar_label: Server Konfiguration
 
 Zum Start von Enshrouded gibt es ein paar Konfigurationsparameter, die du nach deinen Wünschen anpassen kannst. In diesem Leitfaden gehen wir auf alle derzeit verfügbaren Konfigurationsparameter ein und erklären sie im Detail.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wgvfvQdtwN4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Zugriff auf deine Konfigurationsdatei
 
 Zunächst musst du auf deine Konfigurationsdatei zugreifen, um die Parameter zu bearbeiten. Es gibt mehrere Möglichkeiten, diese Datei zu bearbeiten.

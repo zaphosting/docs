@@ -7,6 +7,8 @@ sidebar_label: Server Configuration
 
 Enshrouded at launch has a few configuration parameters that you can customise to your likings. In this guide, we will explore all of the currently available configuration parameters and explain each in more detail.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wgvfvQdtwN4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Accessing your Configuration File
 
 Firstly, you will have to access your configuration file in order to edit any parameters. There are multiple ways to edit this file.

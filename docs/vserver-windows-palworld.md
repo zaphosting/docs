@@ -114,6 +114,8 @@ If you do not see this file, please start your server at least **once** for this
 
 ## Starting & Connecting to your server
 
-Now it is time to start your server. Head over to the base directory of your Palworld server and run **PalServer.exe** to begin the start up process. This will open the server's console in a command prompt and begin the startup process. If everthing occurs as expected, your server will be visible in the server list. Alternatively, you will be able to connect directly by using the bottom search bar on the server list and searching for: `[your_ip_address]:8211`.
+Now it is time to start your server. You may be required to install [DirectX runtime](https://www.microsoft.com/en-gb/download/details.aspx?id=35) if you do not have it already on your Windows VPS.
+
+Head over to the base directory of your Palworld server and run **PalServer.exe** to begin the start up process. This will open the server's console in a command prompt and begin the startup process. If everthing occurs as expected, your server will be visible in the server list. Alternatively, you will be able to connect directly by using the bottom search bar on the server list and searching for: `[your_ip_address]:8211`.
 
 You have successfully installed Palworld on your Windows VPS.
