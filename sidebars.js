@@ -374,7 +374,8 @@ const sidebars = {
             "enshrouded-firststeps-dashboard"
           ]
         },
-        "enshrouded-configuration"
+        "enshrouded-configuration",
+        "enshrouded-server-savegames"
       ],
     },
     {
