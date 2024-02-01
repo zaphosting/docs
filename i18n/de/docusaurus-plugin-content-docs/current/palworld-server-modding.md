@@ -13,7 +13,7 @@ Sie haben bereits einen Palworld Gameserver bei uns, möchten aber den Spielspa�
 
 Zum Zeitpunkt dieser Anleitung ist es nicht möglich, Mods über Steam Workshop herunterzuladen, verfügbare Mod-Sites sind **[Nexus Mods](https://www.nexusmods.com/palworld/)** oder **[Curseforge](https://www.curseforge.com/palworld/)** - andere Mod-Sites sind verfügbar
 
-**ZAP-Hosting ist nicht verantwortlich für Änderungen/Schäden an Ihren Serverdateien/Welt durch die Verwendung von Modifikationen. Es ist immer ratsam, Backups zu machen, bevor man dies tut,** **[Backups können mit dem Savegame Manager Guide gemacht werden, den wir zur Verfügung stellen](https://zap-hosting.com/guides/docs/palworld-server-savegames)**
+**ZAP-Hosting ist nicht verantwortlich für Änderungen/Schäden an Ihren Serverdateien/Welt durch die Verwendung von Modifikationen. Es ist immer ratsam, Backups zu machen, bevor man dies tut,** **[Backups können mit dem Savegame Manager Guide gemacht werden, den wir zur Verfügung stellen](https://zap-hosting.com/guides/de/docs/palworld-server-savegames)**
 
 :::info ZAP-Hosting unterstützt derzeit nur PAK-Mods (in Form von .PAK-Dateien), alle Mods, die eine ausführbare Datei verwenden, funktionieren aus Sicherheitsgründen nicht :::
 
@@ -46,12 +46,11 @@ Und wählen Sie Direktverbindung.
 ![img](https://screensaver01.zap-hosting.com/index.php/s/A6CzpG8ZFAZJcWd/preview)
 
 
-*Ihr FTP-Programm wird sich öffnen und direkt mit dem Server verbinden. Falls nicht, geben Sie bitte die Daten manuell in Ihr FTP-Programm ein. Wir haben hier eine Anleitung, wie man das macht, oder falls Sie noch kein FTP-Programm haben.
-https://zap-hosting.com/guides/docs/gameserver-ftpaccess
+*Ihr FTP-Programm wird sich öffnen und direkt mit dem Server verbinden. Falls nicht, geben Sie bitte die Daten manuell in Ihr FTP-Programm ein. Wir haben hier eine Anleitung, [wie man das macht, oder falls Sie noch kein FTP-Programm haben.](https://zap-hosting.com/guides/de/docs/gameserver-ftpaccess)
 
 Wähle nun alle PAK-Dateien der Mods, die du heruntergeladen hast, und lade sie auf deinen Server in das Verzeichnis:
 
-`/g(Ihre Nummer)/palworld-linux/Pal/Content/Paks/`
+`/g(Nummer)/palworld-linux/Pal/Content/Paks/`
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/87wqpW65SibyLGz/preview)
 
@@ -95,4 +94,4 @@ Tritt ein technisches Problem auf und Sie sind sich über die Ursache unsicher? 
 Insbesondere Fehlermeldungen können helfen, die Ursache eines Problems zu identifizieren und besser zu verstehen. Oft können Schwierigkeiten durch einen gezielten Blick in die Log-Dateien aufgedeckt und behoben werden.
 
 :::info
-Die dort gefundenen Informationen helfen Ihnen nicht weiter oder Sie verstehen sie nicht? Kein Grund zur Sorge! In diesem Fall sind wir auch da
+Die dort gefundenen Informationen helfen Ihnen nicht weiter oder Sie verstehen sie nicht? Machen Sie sich keine Sorgen!Auch in diesem Fall sind wir täglich im Support erreichbar. Erstellen Sie einfach ein **[Ticket](https://zap-hosting.com/de/customer/support/)** und erklären Sie uns Ihr Problem.Wir werden uns so schnell wie möglich darum kümmern und Ihnen bei der Lösung des Problems entsprechend helfen :):::
