@@ -46,7 +46,7 @@ Und wählen Sie Direktverbindung.
 ![img](https://screensaver01.zap-hosting.com/index.php/s/A6CzpG8ZFAZJcWd/preview)
 
 
-*Ihr FTP-Programm wird sich öffnen und direkt mit dem Server verbinden. Falls nicht, geben Sie bitte die Daten manuell in Ihr FTP-Programm ein. Wir haben hier eine Anleitung, [wie man das macht, oder falls Sie noch kein FTP-Programm haben.](https://zap-hosting.com/guides/de/docs/gameserver-ftpaccess)
+*Ihr FTP-Programm wird sich öffnen und direkt mit dem Server verbinden. Falls nicht, geben Sie bitte die Daten manuell in Ihr FTP-Programm ein. Wir haben hier eine Anleitung, [wie man das macht, oder falls Sie noch kein FTP-Programm haben.](https://zap-hosting.com/guides/de/docs/gameserver-ftpaccess) *
 
 Wähle nun alle PAK-Dateien der Mods, die du heruntergeladen hast, und lade sie auf deinen Server in das Verzeichnis:
 
