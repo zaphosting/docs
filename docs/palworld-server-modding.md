@@ -1,8 +1,8 @@
 ---
 id: palworld-server-modding
-title: How to mod Palworld Server
+title: Installation of mods for Palworld Gameserver
 description: How to mod your Palworld Gameserver on ZAP-Hosting - ZAP-Hosting.com documentation
-sidebar_label: Modding
+sidebar_label: Install mods
 ---
 
 
