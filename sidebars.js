@@ -359,6 +359,7 @@ const sidebars = {
         "palworld-configuration",
         "palworld-server-commands",
         "palworld-server-savegames",
+        "palworld-server-modding",
         "palworld-connect",
         "palworld-admin"
       ],
