@@ -1,99 +1,98 @@
 ---
 id: palworld-server-modding
-title: Installation of mods for Palworld Gameserver
-description: How to mod your Palworld Gameserver on ZAP-Hosting - ZAP-Hosting.com documentation
-sidebar_label: Install mods
+Title: Installation von Mods für Palworld Gameserver
+description: Wie Sie Ihren Palworld Gameserver auf ZAP-Hosting modden - ZAP-Hosting.com Dokumentation
+sidebar_label: Mods installieren
 ---
 
 
-## Introduction
-You already have a Palworld game server with us, but want to make it more fun for your friends to play? No problem; modding your Palworld game server is already possible. In a couple of steps, you can make modifications like adding Minecraft, Pokemon capture ball, or modifying the game limits itself.
+## Einleitung
+Sie haben bereits einen Palworld Gameserver bei uns, möchten aber den Spielspaß für Ihre Freunde erhöhen? Kein Problem, das Modden Ihres Palworld-Spielservers ist bereits möglich. In wenigen Schritten können Sie Modifikationen vornehmen, wie z.B. das Hinzufügen von Minecraft, Pokemon Capture Ball oder das Ändern der Spielgrenzen selbst.
 
-## Information/Confirmation
+## Informationen/Bestätigung
 
-At the time of this guide, its not possible to download mods via steam workshop, available mod sites are **[Nexus Mods](https://www.nexusmods.com/palworld/)** or **[Curseforge](https://www.curseforge.com/palworld/)**  - other mod sites are available
+Zum Zeitpunkt dieser Anleitung ist es nicht möglich, Mods über Steam Workshop herunterzuladen, verfügbare Mod-Sites sind **[Nexus Mods](https://www.nexusmods.com/palworld/)** oder **[Curseforge](https://www.curseforge.com/palworld/)** - andere Mod-Sites sind verfügbar
 
-**ZAP-Hosting is not responsible for any modifications/damage to your server files/world by using any modifications. You are always advised to make any backups before doing so,** **[backups can be made with the savegame manager guide we have available](https://zap-hosting.com/guides/docs/palworld-server-savegames)**
+**ZAP-Hosting ist nicht verantwortlich für Änderungen/Schäden an Ihren Serverdateien/Welt durch die Verwendung von Modifikationen. Es ist immer ratsam, Backups zu machen, bevor man dies tut,** **[Backups können mit dem Savegame Manager Guide gemacht werden, den wir zur Verfügung stellen](https://zap-hosting.com/guides/docs/palworld-server-savegames)**
 
-:::info ZAP-Hosting only currently supports PAK mods (in the form of .PAK files), any mods that use an executible file will not work as for security purposes :::
+:::info ZAP-Hosting unterstützt derzeit nur PAK-Mods (in Form von .PAK-Dateien), alle Mods, die eine ausführbare Datei verwenden, funktionieren aus Sicherheitsgründen nicht :::
 
-You will need to confirm if the mod is server sided or client sided by contacting the mod author or checking the mod resource page yourself.
-You will need to verify that the mod works on your server version, currently most 1.2.0 mods do work with the current version of Palworld (1.4.0)
+Sie müssen sich vergewissern, ob es sich um eine serverseitige oder clientseitige Mod handelt, indem Sie den Mod-Autor kontaktieren oder die Mod-Ressourcen-Seite selbst überprüfen.
+Sie müssen sich vergewissern, dass die Mod auf Ihrer Serverversion funktioniert, derzeit funktionieren die meisten 1.2.0-Mods mit der aktuellen Version von Palworld (1.4.0)
 
-:::info For any user connecting to your server they will require the client sided mods downloaded and installed themselves. :::
+:::info Jeder Benutzer, der sich mit Ihrem Server verbindet, muss die clientseitigen Mods selbst herunterladen und installieren. :::
 
-### Step One: Getting the PAK Files.
+### Schritt Eins: Beschaffung der PAK-Dateien.
 
-By heading to the mod download pages above, you will be able to download a wide range of different mods, of-course only PAK mods are accepted at this time.
+Auf den obigen Mod-Download-Seiten können Sie eine Vielzahl verschiedener Mods herunterladen, natürlich werden zu diesem Zeitpunkt nur PAK-Mods akzeptiert.
 
-Download the mods and unzip any files if there are any.
+Laden Sie die Mods herunter und entpacken Sie die Dateien, falls es welche gibt.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/EA4NBWkQAZQoqfi/preview)
 
 
-Make sure the PAK files are not in any Zipped folder otherwise the server will not recognise it when starting.
+Stellen Sie sicher, dass sich die PAK-Dateien nicht in einem gezippten Ordner befinden, da der Server sie sonst beim Start nicht erkennt.
 
 
-### Step Two: Upload via FTP
+### Zweiter Schritt: Hochladen per FTP
 
-Once you have the PAK files ready to upload you will need to open the FTP page of your gameserver located on your server dashboard.
+Sobald Sie die PAK-Dateien zum Hochladen bereit haben, müssen Sie die FTP-Seite Ihres Gameservers öffnen, die sich auf Ihrem Server-Dashboard befindet.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/KtFPc8xRFAywHiK/preview)
 
 
-And select Direct connection.
+Und wählen Sie Direktverbindung.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/A6CzpG8ZFAZJcWd/preview)
 
 
-*Your FTP program will open up, and directly connect to the server. If not please input the details manually into your FTP program. We have a guide here on how to do it or if you don't have a FTP Program yet.*
+*Ihr FTP-Programm wird sich öffnen und direkt mit dem Server verbinden. Falls nicht, geben Sie bitte die Daten manuell in Ihr FTP-Programm ein. Wir haben hier eine Anleitung, wie man das macht, oder falls Sie noch kein FTP-Programm haben.
 https://zap-hosting.com/guides/docs/gameserver-ftpaccess
 
-Now select any PAK files of the mods you have downloaded and upload it to your server in the directory of:
+Wähle nun alle PAK-Dateien der Mods, die du heruntergeladen hast, und lade sie auf deinen Server in das Verzeichnis:
 
-`/g(your number)/palworld-linux/Pal/Content/Paks/`
+`/g(Ihre Nummer)/palworld-linux/Pal/Content/Paks/`
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/87wqpW65SibyLGz/preview)
 
 
-And that's it for the server side! Now time to work on the client side.
+Und das war's mit der Serverseite! Nun ist es an der Zeit, an der Client-Seite zu arbeiten.
 
-### Step Three: Install mods via Client side
+### Schritt 3: Mods über die Client-Seite installieren
 
-Now that all our mods are installed on the server we need to ensure we do the same for any client who is wanting to join the server. They will need to repeat this process. There is no current way for a client to automatically retrieve mods and download them upon joining.
+Jetzt, wo alle Mods auf dem Server installiert sind, müssen wir sicherstellen, dass wir dasselbe für jeden Client tun, der dem Server beitreten möchte. Sie müssen diesen Vorgang wiederholen. Es gibt derzeit keine Möglichkeit für einen Client, Mods automatisch abzurufen und herunterzuladen, wenn er dem Server beitritt.
 
-Open steam and right click on Palworld, select manage and browse local files
+Öffnen Sie Steam und klicken Sie mit der rechten Maustaste auf Palworld, wählen Sie Verwalten und durchsuchen Sie lokale Dateien
 ![img](https://screensaver01.zap-hosting.com/index.php/s/zf8iSjsJNit9sqB/preview)
 
 
-A folder will appear with your Palworld Installation on your PC.
+Es erscheint ein Ordner mit deiner Palworld-Installation auf deinem PC.
 ![img](https://screensaver01.zap-hosting.com/index.php/s/GwSzNffxDJaJCrX/preview)
 
 
-Go ahead and head to the directory `\Palworld\Pal\Content\Paks\` and repeat the process of moving mods into the folder
+Wechseln Sie nun in das Verzeichnis "Palworld" und wiederholen Sie den Vorgang des Verschiebens von Mods in den Ordner
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/ZmAtezELEbNCwc4/preview)
 
 
-### Step Four: Launch Palworld & Connect to server
+### Schritt 4: Palworld starten & mit dem Server verbinden
 
-That's it, join your Palworld server and enjoy your modded server.
-You will notice any differences if the mods have appeared to work like such.
+Das war's, verbinden Sie sich mit Ihrem Palworld-Server und genießen Sie Ihren modifizierten Server.
+Sie werden die Unterschiede bemerken, wenn die Mods so aussehen, dass sie funktionieren.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/dxytjjrwaqLtiik/preview)
 
 
-### Debugging
+### Fehlersuche
 
-Something not working after following this guide?
+Funktioniert etwas nicht, nachdem Sie diese Anleitung befolgt haben?
 
-Make sure to restart the server after any changes were made or, if your not seeing any mods appear.
-Always consult with the mod author in regards to fixes.
+Stellen Sie sicher, dass Sie den Server neu starten, nachdem Sie Änderungen vorgenommen haben, oder wenn Sie keine Mods sehen.
+Wenden Sie sich immer an den Mod-Autor, wenn Sie Probleme haben.
 
-Is a technical problem occurring and you are unsure about its cause? A first possible solution strategy is to check the **Log files**. These files contain a lot of information about the server, such as current events, hints or error messages.
+Tritt ein technisches Problem auf und Sie sind sich über die Ursache unsicher? Eine erste mögliche Lösungsstrategie besteht darin, die **Log-Dateien** zu überprüfen. Diese Dateien enthalten viele Informationen über den Server, wie aktuelle Ereignisse, Hinweise oder Fehlermeldungen.
 
-Error messages in particular can help to identify and better understand the cause of a problem. Often, difficulties can be uncovered and resolved by taking a targeted look at the log files.
+Insbesondere Fehlermeldungen können helfen, die Ursache eines Problems zu identifizieren und besser zu verstehen. Oft können Schwierigkeiten durch einen gezielten Blick in die Log-Dateien aufgedeckt und behoben werden.
 
 :::info
-The information found there does not help or you do not understand it? Don't worry! In this case, we are also daily available in support. Just create a **[Ticket](https://zap-hosting.com/en/customer/support/)** and explain your problem to us. We will look at it as quickly as possible and help you to solve the problem accordingly! :)
-:::
+Die dort gefundenen Informationen helfen Ihnen nicht weiter oder Sie verstehen sie nicht? Kein Grund zur Sorge! In diesem Fall sind wir auch da
