@@ -20,7 +20,7 @@ Standardmäßig erhalten **neue** TeamSpeak 3 Server jetzt einen `.zap.cloud` Al
 
 ## TSDNS-Schnelleinrichtung verwenden
 
-Wir haben ein neues TSDNS-System für unsere TeamSpeak 3-Server eingeführt, mit dem du mit wenigen Klicks eine Subdomain für deinen TeamSpeak 3-Server einrichten kannst!
+Wir haben ein neues TSDNS-System für unsere TeamSpeak 3-Server eingeführt, mit dem du mit wenigen Klicks eine Subdomain für deinen TeamSpeak 3-Server einrichten kannst! Wenn du keine Domain bei uns hast, kannst du im nächsten Abschnitt die DNS-Einträge manuell einrichten.
 
 Beginne einfach damit, indem du im Webinterface deines TeamSpeaks auf unserer Website den Bereich **Einstellungen->TSDNS Einträge** aufrufst. Hier kannst du eine Subdomain (Präfix vor der Domain) sowie entweder unsere `zap-ts3.com` oder eine deiner eigenen Domains auswählen, die du bei uns auf deinem ZAP-Hosting-Konto hast.
 
@@ -32,7 +32,11 @@ In unserem Beispiel kannst du sehen, wie wir eine neue Subdomain mit der Domain 
 
 ![image](https://github.com/zaphosting/docs/assets/42719082/eaa50173-10a1-4d2f-a77c-735aa7698f8e)
 
-## Wie funktioniert das?
+:::note
+Bitte beachte, dass es bis zu 3 Stunden dauern kann, bis sich die Domain verbreitet hat und funktioniert.
+:::
+
+## Reguläre DNS-Einrichtung
 
 ### Bevor wir mit der Erstellung von Einträgen in den DNS Einstellungen der Domain beginnen, hier ein paar Informationen vorab:
 
