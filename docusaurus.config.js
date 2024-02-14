@@ -115,6 +115,29 @@ const config = {
           label: 'Voicebot & Voiceserver',
         },
         {
+          type: 'html',
+          position: 'right',
+          className: 'externalLink',
+          value: (() => {
+            switch (process.env.DOCUSAURUS_CURRENT_LOCALE) {
+              case "de": return '<a href="https://zap-hosting.com/de/server-mieten/">Server mieten</a>';
+              default: return '<a href="https://zap-hosting.com/en/server-hosting/">Rent a server</a>';
+            }
+          })(),
+        },
+        {
+          type: 'html',
+          position: 'right',
+          className: 'externalLink',
+ 
+          value: (() => {
+            switch (process.env.DOCUSAURUS_CURRENT_LOCALE) {
+              case "de": return '<a href="https://zap-hosting.com/de/">Zurück zu ZAP-Hosting ⤾</a>';
+              default: return '<a href="https://zap-hosting.com/en/">Back to ZAP-Hosting ⤾</a>';
+            }
+          })(),
+        },
+        {
           type: 'localeDropdown',
           position: 'right',
         },
