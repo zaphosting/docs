@@ -112,3 +112,12 @@ p {
   color: var(--ifm-color-gray-600);
 }
 
+.navbar__item.externalLink {
+  font-weight: var(--ifm-font-weight-semibold);
+  font-size: 16px;
+  line-height: 1;
+}
+
+.navbar__item.externalLink a {
+  color: black !important;
+}

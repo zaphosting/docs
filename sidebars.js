@@ -549,6 +549,21 @@ const sidebars = {
     },
     {
       type: "category",
+      label: "Enshrouded",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "enshrouded-firststeps-dashboard"
+          ]
+        },
+        "enshrouded-configuration",
+        "enshrouded-server-savegames"
+      ],
+    },
+    {
+      type: "category",
       label: "Factorio",
       items: [
         {
@@ -719,6 +734,25 @@ const sidebars = {
             "moe-firststeps-connect"
           ]
         }
+      ],
+    },
+    {
+      type: "category",
+      label: "Palworld",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "palworld-firststeps-dashboard"
+          ]
+        },
+        "palworld-configuration",
+        "palworld-server-commands",
+        "palworld-server-savegames",
+        "palworld-server-modding",
+        "palworld-connect",
+        "palworld-admin"
       ],
     },
     {
