@@ -361,7 +361,8 @@ const sidebars = {
         "palworld-server-savegames",
         "palworld-server-modding",
         "palworld-connect",
-        "palworld-admin"
+        "palworld-admin",
+        "palworld-rcon"
       ],
     },
     {
