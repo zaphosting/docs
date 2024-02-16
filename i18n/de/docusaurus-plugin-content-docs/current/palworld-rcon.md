@@ -31,9 +31,9 @@ Gehe einfach zum Abschnitt **Configs** im Webinterface deines Gameservers und kl
 
 ![image](https://github.com/zaphosting/docs/assets/42719082/53c8acad-7347-4c3e-85bf-5ae0ad423fc6)
 
-Es öffnet sich ein Texteditor, mit dem du die Datei direkt bearbeiten kannst. Suche in der Datei nach dem Parameter `RCONEnabled` und setze ihn auf `true`, zum Beispiel: `RCONEnabled=True`. Wir empfehlen dir, die Suchfunktion deines Browsers mit der Tastenkombination "STRG+F" zu öffnen, um dir dabei zu helfen.
+Es öffnet sich ein Texteditor, mit dem du die Datei direkt bearbeiten kannst. Suche in der Datei nach dem Parameter `RCONEnabled` und setze ihn auf `True`, zum Beispiel: `RCONEnabled=True`. Wir empfehlen dir, die Suchfunktion deines Browsers mit der Tastenkombination `CTRL+F` zu öffnen, um dir dabei zu helfen.
 
-Direkt daneben befindet sich der Parameter "RCONPort". Das ist der RCON-Schnittstellenport, den du später für die Verbindung verwenden wirst.
+Direkt daneben befindet sich der Parameter `RCONPort`. Das ist der RCON-Schnittstellenport, den du später für die Verbindung verwenden wirst.
 
 ![image](https://github.com/zaphosting/docs/assets/42719082/40dbb8ae-a75d-47b9-96d5-3af0519b62ac)
 
@@ -74,7 +74,7 @@ Wir raten dir, diesen Wert für deinen Gameserver nicht zu ändern, da er vordef
 
 Jetzt, wo du RCON in der Konfiguration deines Servers aktiviert hast, kannst du über den in der Datei definierten Port auf die RCON-Schnittstelle von Palworld zugreifen.
 
-Du musst ein RCON-Programm verwenden, um dich damit zu verbinden. Wir empfehlen [RCON Console] (https://sourceforge.net/projects/rconconsole/), da es Open-Source ist.
+Du musst ein RCON-Programm verwenden, um dich damit zu verbinden. Wir empfehlen [RCON Console](https://sourceforge.net/projects/rconconsole/), da es Open-Source ist.
 
 In dem RCON-Programm deiner Wahl musst du die IP-Adresse deines Servers und den RCON-Port eingeben, der in der Konfigurationsdatei festgelegt wurde. Stelle sicher, dass dein Gameserver online ist und läuft.
 
