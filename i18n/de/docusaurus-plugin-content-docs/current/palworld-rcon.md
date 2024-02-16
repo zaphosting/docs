@@ -7,7 +7,7 @@ sidebar_label: RCON
 
 ## Was ist RCON?
 
-RCON ist eine Schnittstelle in verschiedenen Programmen, wie z.B. Spieleservern, mit der Fernwartung und Fernadministration durchgeführt werden kann. Mit dieser Schnittstelle können Server verwaltet werden, die bereits laufen und erreicht werden können. Die Schnittstelle kann dann mit einem bestimmten Fernwartungsprogramm aufgerufen und der Server so verwaltet werden.
+RCON ist eine Schnittstelle in verschiedenen Programmen, wie also auch Gameservern, mit der Fernwartungen wie auch Fernverwaltungen durchgeführt werden können. Mit dieser Schnittstelle können Server verwaltet werden, die bereits laufen und erreichbar sind. Mit einem bestimmten Fernwartungsprogramm kann dann auf die Schnittstelle zugegriffen werden und der Server somit verwaltet werden.
 
 ## Zugriff auf deine Konfigurationsdatei
 
@@ -61,7 +61,7 @@ Sobald du dich per FTP mit deinem Server verbunden hast, gehst du in das folgend
 
 Finde die Datei `PalWorldSettings.ini` und öffne sie. Suche in der Datei nach dem Parameter `RCONEnabled` und setze ihn auf `true`, zum Beispiel: `RCONEnabled=True`.
 
-Direkt daneben gibt es auch einen Parameter "RCONPort". Das ist der RCON-Schnittstellenport, den du später für die Verbindung verwenden wirst.
+Direkt daneben gibt es auch einen Parameter `RCONPort`. Das ist der RCON-Schnittstellenport, den du später für die Verbindung verwenden wirst.
 
 :::note
 Wir raten dir, diesen Wert für deinen Gameserver nicht zu ändern, da er vordefiniert ist und eine Änderung die Funktionalität beeinträchtigen kann. Bei selbst gehosteten Palworld-Servern auf VPS-Produkten kannst du diesen Wert ändern, musst aber sicherstellen, dass du den ausgewählten Port weiterleitest.
