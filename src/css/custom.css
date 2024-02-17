@@ -119,5 +119,9 @@ p {
 }
 
 .navbar__item.externalLink a {
-  color: black !important;
+  color: var(--ifm-navbar-link-color);
+  text-decoration: var(--ifm-link-decoration);
+}
+.navbar__item.externalLink a:hover {
+  color: var(--ifm-navbar-link-hover-color);
 }
