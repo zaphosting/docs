@@ -14,8 +14,29 @@ Bitte beachte, dass es immer bis zu 24 Stunden dauern kann, bis Änderungen an D
 Du kannst entweder deine Domain vollständig, oder lediglich eine Subdomain auf deinen TeamSpeak 3 Server weiterleiten.
 So muss sich niemand die komplizierte IP Adresse welche aus Zahlen besteht, merken, sondern kann sich einfach mithilfe der Domain auf deinen TeamSpeak 3 Server verbinden.
 
+:::note
+Standardmäßig erhalten **neue** TeamSpeak 3 Server jetzt einen `.zap.cloud` Alias mit einem zufälligen Präfix, der zum Verbinden verwendet werden kann.
+:::
 
-## Wie funktioniert das?
+## TSDNS-Schnelleinrichtung verwenden
+
+Wir haben ein neues TSDNS-System für unsere TeamSpeak 3-Server eingeführt, mit dem du mit wenigen Klicks eine Subdomain für deinen TeamSpeak 3-Server einrichten kannst! Wenn du keine Domain bei uns hast, kannst du im nächsten Abschnitt die DNS-Einträge manuell einrichten.
+
+Beginne einfach damit, indem du im Webinterface deines TeamSpeaks auf unserer Website den Bereich **Einstellungen->TSDNS Einträge** aufrufst. Hier kannst du eine Subdomain (Präfix vor der Domain) sowie entweder unsere `zap-ts3.com` oder eine deiner eigenen Domains auswählen, die du bei uns auf deinem ZAP-Hosting-Konto hast.
+
+:::info
+Für diese Schnelleinrichtung musst du [eine perfekte Domain direkt bei uns kaufen](https://zap-hosting.com/en/shop/product/domain/) oder deine eigene Domain in dein ZAP-Hosting-Konto umziehen. Diese Domains werden im TSDNS-Bereich angezeigt, sobald sie eingerichtet sind. Alternativ kannst du auch die normale `zap-ts3.com` kostenlos nutzen.
+:::
+
+In unserem Beispiel kannst du sehen, wie wir eine neue Subdomain mit der Domain `.zap.cloud` erstellen, die uns zu unserem TeamSpeak 3 Server führt, wenn wir sie benutzen.
+
+![image](https://github.com/zaphosting/docs/assets/42719082/eaa50173-10a1-4d2f-a77c-735aa7698f8e)
+
+:::note
+Bitte beachte, dass es bis zu 3 Stunden dauern kann, bis sich die Domain verbreitet hat und funktioniert.
+:::
+
+## Reguläre DNS-Einrichtung
 
 ### Bevor wir mit der Erstellung von Einträgen in den DNS Einstellungen der Domain beginnen, hier ein paar Informationen vorab:
 
