@@ -44,7 +44,7 @@ An diesem Ort solltest du einen Ordner mit einer Reihe zufälliger Zeichen sehen
 
 ![image](https://github.com/zaphosting/docs/assets/42719082/ca890470-450d-4962-a982-39378dfbb695)
 
-### Automatische Sicherung
+### Automatische Backups
 
 Wir bieten auch die Möglichkeit, ein automatisches Backup deines Savegames (und deiner Konfigurationsdatei) direkt über unser Webinterface zu erstellen. Rufe einfach das Webinterface deines Gameservers auf und gehe in den Bereich **Tools->Backups**. Hier kannst du eine Reihe von Optionen konfigurieren, um automatische Backups für deinen Server zu planen. Wir stellen dir 10gb kostenlosen Backup-Speicher zur Verfügung, in dem deine Backups gespeichert werden. Weitere Informationen zu Backups findest du in unserem [Automatic Server Backup guide](gameserver-backups.md) zu diesem Thema.
 
@@ -79,7 +79,7 @@ Bearbeite den Inhalt dieser Zeile und ersetze ihn durch den Namen des Savegames 
 
 Stelle sicher, dass du diese Datei speicherst und deinen Server neu startest, damit die Änderungen wirksam werden. Du hast erfolgreich ein Savegame zu deinem Gameserver hinzugefügt.
 
-## Savegame has Disappeared
+## Savegame verschwunden
 
 In seltenen Fällen kann es vorkommen, dass der Server beim Starten ein neues Savegame erstellt, anstatt ein bestehendes zu laden.
 
@@ -90,10 +90,10 @@ In seltenen Fällen kann es vorkommen, dass der Server beim Starten ein neues Sa
 
 ![image](https://screensaver01.zap-hosting.com/index.php/s/wYQ42Aein5y6Z6j/preview)
 
-An dieser Stelle solltest du immer noch das alte Savegame sehen und ein neues, das generiert wurde. Um dies zu beheben, bearbeite einfach die Konfigurationsdatei, wie im Abschnitt [Savegame aktivieren](#activating-savegame) oben beschrieben, mit dem richtigen Namen des Savegame-Ordners.
+An dieser Stelle solltest du immer noch das alte Savegame sehen und ein neues, das generiert wurde. Um dies zu beheben, bearbeite einfach die Konfigurationsdatei, wie im Abschnitt [Savegame aktivieren](#savegame-aktivieren) oben beschrieben, mit dem richtigen Namen des Savegame-Ordners.
 
 Das Savegame sollte wieder aktiv sein, sobald du die Datei gespeichert und deinen Server neu gestartet hast.
 
 :::info
-Wir empfehlen dringend, automatische Backups zu aktivieren, wie im vorherigen Abschnitt [Automatisches Backup](#automatic-backup) erwähnt, da sich Palworld noch im Early Access befindet und es daher möglich ist, dass Savegames bei Updates verloren gehen oder beschädigt werden.
+Wir empfehlen dringend, automatische Backups zu aktivieren, wie im vorherigen Abschnitt [Automatisches Backup](#automatische-backups) erwähnt, da sich Palworld noch im Early Access befindet und es daher möglich ist, dass Savegames bei Updates verloren gehen oder beschädigt werden.
 :::
