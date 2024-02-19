@@ -49,7 +49,7 @@ Zuallererst musst du sicherstellen, dass die neueste MariaDB-Version installiert
 curl -sS https://downloads.mariadb.com/MariaDB/mariadb_repo_setup | sudo bash
 ```
 
-Nach der Installation des Repos aktualisierst du den Cache deines Paketmanagers, indem du die im Abschnitt [Vorbereitungsschritt](#Vorbereitung) beschriebenen Schritte ausführst.
+Nach der Installation des Repos aktualisierst du den Cache deines Paketmanagers, indem du die im Abschnitt [Vorbereitungsschritt](#vorbereitung) beschriebenen Schritte ausführst.
 
 :::info
 Die Installation der MariaDB-Repos (Schritt oben) kann bei modernen Betriebssystemen wie Ubuntu 22.04 oder Debian 11 getrost ignoriert werden.
@@ -136,7 +136,7 @@ sudo yum install epel-release
 sudo dnf install https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm
 ```
 
-Nach der Installation des Repos aktualisierst du den Cache deines Paketmanagers, indem du die im Abschnitt [Vorbereitungsschritt](#Vorbereitung) beschriebenen Schritte ausführst.
+Nach der Installation des Repos aktualisierst du den Cache deines Paketmanagers, indem du die im Abschnitt [Vorbereitungsschritt](#vorbereitung) beschriebenen Schritte ausführst.
 
 :::info
 Wenn dein Betriebssystem oben nicht aufgeführt ist, kannst du diesen Schritt überspringen.
