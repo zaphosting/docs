@@ -17,12 +17,8 @@ First of all, you need to download the plugins that will be installed on the ser
 ### Downloading a plugin
 Plugins can be downloaded from many sources for your server. However these are only recognised as the safest options. Please be careful with which plugins you install onto your gameserver - Always check the source of the plugin by looking for its developers and what the plugin actually does.
 
-## Download option 1 via SCPSL Site
-By heading to (https://plugins.scpslgame.com/) you will be provided a list of plugins that are featured for use within SCPSL with a github repo link which option 2 explains what to do.
-(At the time of writing this the site is new and is being worked on therefore option 2 has been provided) 
-
-## Download option 2 via Github
-To download a plugin via the github you will need to head to the EXILED Github as shown below and select a plugin-repo.
+## Download
+To download a plugin via the github you will need to head to the [EXILED Github page](https://github.com/Exiled-Team) as shown below and select a plugin-repo.
 ![image](https://user-images.githubusercontent.com/17176877/219128457-a7a4aa64-5b7c-4778-9602-fa1286150b51.png)
 
 Once you have found the plugin-repo you wish to download a releases section will appear on the right side.
