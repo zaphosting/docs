@@ -739,6 +739,22 @@ const sidebars = {
     },
     {
       type: "category",
+      label: "Open.mp",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "openmp-firststeps-dashboard",
+          ]
+        },
+        "openmp-configuration",
+        "openmp-server-commands",
+        "openmp-rcon"
+      ],
+    },
+    {
+      type: "category",
       label: "Palworld",
       items: [
         {
