@@ -70,6 +70,10 @@ We advise you not to change this value for your gameserver, as this is predefine
 </TabItem>
 </Tabs>
 
+:::info
+Make sure to restart your server once you have adjusted your configuration details.
+:::
+
 ## Using RCON
 
 Now that you have you have enabled RCON in your server's configuration, you will be able to access Palworld's RCON interace via the port that was defined in the file.
@@ -82,6 +86,10 @@ In the RCON program of your choice, you will have to input the IP address of you
 Ensure that you are entering the RCON Port you viewed in the configuration file and not the port that you connect to your server through. This is a common mistake.
 :::
 
-If the connection is successful, you will now be able to send commands to your Palworld sever through teh RCON Console program that you chose. 
+If the connection is successful, you will now be able to send commands to your Palworld sever through the RCON Console program that you chose.
+
+:::tip
+Check out our [Palworld server commands guide](palworld-server-commands.md) to view all the currently available commands that you can run through RCON.
+:::
 
 You have successfully enabled RCON on your Palworld server.
