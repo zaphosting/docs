@@ -326,5 +326,9 @@
   "sidebar.gameserverSidebar.category.Enshrouded": {
     "message": "Enshrouded",
     "description": "The label for category Enshrouded in sidebar gameserverSidebar"
+  },
+  "sidebar.gameserverSidebar.category.Open.mp": {
+    "message": "Open.mp",
+    "description": "The label for category Open.mp in sidebar gameserverSidebar"
   }
 }
