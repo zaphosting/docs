@@ -6,5 +6,28 @@
   "background_color": "#1b1b1d",
   "display": "standalone",
   "scope": "/docs/",
-  "theme_color": "#18e888"
+  "theme_color": "#18e888",
+  "icons": [
+    {
+      "src": "/img/pwa-icons/pwa-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/img/pwa-icons/pwa-256.png",
+      "type": "image/png",
+      "sizes": "256x256"
+    },
+    {
+      "src": "/img/pwa-icons/pwa-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "/img/pwa-icons/pwa-mask-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
 }
