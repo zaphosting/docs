@@ -289,5 +289,17 @@
   "theme.unlistedContent.message": {
     "message": "This page is unlisted. Search engines will not index it, and only users having a direct link can access it.",
     "description": "The unlisted content banner message"
+  },
+  "theme.PwaReloadPopup.info": {
+    "message": "Neue Version verfügbar",
+    "description": "The text for PWA reload popup"
+  },
+  "theme.PwaReloadPopup.refreshButtonText": {
+    "message": "Aktualisieren",
+    "description": "The text for PWA reload button"
+  },
+  "theme.PwaReloadPopup.closeButtonAriaLabel": {
+    "message": "Schließen",
+    "description": "The ARIA label for close button of PWA reload popup"
   }
 }
