@@ -1,0 +1,10 @@
+{
+  "short_name": "ZAP Docs",
+  "name": "ZAP-Hosting Docs",
+  "lang": "en-US",
+  "start_url": "/docs/firststeps-register/",
+  "background_color": "#1b1b1d",
+  "display": "standalone",
+  "scope": "/docs/",
+  "theme_color": "#18e888"
+}
