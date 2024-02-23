@@ -10,7 +10,7 @@ const darkCodeTheme = themes.dracula;
 const config = {
   title: 'ZAP-Hosting Docs',
   tagline: 'If you want more POWER!',
-  favicon: '/img/favicon-32x32.webp',
+  favicon: '/img/favicon.ico',
   
   // Set the production url of your site here
   url: 'https://zap-hosting.com',
