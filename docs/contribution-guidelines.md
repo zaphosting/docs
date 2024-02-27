@@ -1,13 +1,15 @@
 ---
 id: contribution-guidelines
-title: Contribution Guidelines
-description: Guidelines for the ZAP-Hosting docs contribution program - ZAP-Hosting.com documentation
+title: Guide Guidelines
+description: Guidelines for the Guides section of the ZAP-Hosting Contribution Program - ZAP-Hosting.com documentation
 sidebar_label: Guidelines
 ---
 
+![Guides Banner](https://github.com/zaphosting/docs/assets/42719082/602e58e7-f5bd-4fbb-93ac-daad72e58cfb)
+
 In order to ensure that ZAP-Hosting documentation pages are consistent in quality and style, we have created a range of guidelines to use when creating or editing content for our documentation. You must follow our guidelines closely to ensure that your suggestion and final pull request are processed swiftly. More importantly, this will ensure that our readers will have a better and more consistent high-quality experience whilst reading and following along with the guides.
 
-Our contribution guidelines can be split into a few major sections, which are:
+Our guides contribution guidelines can be split into a few major sections, which are:
 
 - Structure
 - Style
@@ -272,7 +274,7 @@ When referencing a ZAP-Hosting product, you should always ensure that the correc
 
 Throughout most guides, configuration options for items such as users, hostnames, domains, IP addresses and URLs will be needed, where the reader will have to use their own details in place of our placeholders.
 
-By default, you should always use `your_attribute` to differentiate between static elements and unique elements, where `attribute` should be replaced by the type of attribute. For example, when mentioning an IP, you should state `your_server_ip` within your guide or when mentioning a URL you should state `http://your_server_ip:30120`. This clearly differentiates the attributes which the reader must change based on their own configuration. You should also provide an explanation or note letting the reader know what attributes they need to change throughout the guide when it is first mentioned to ensure that everything is understood.
+By default, you should always use `[your_attribute]` to differentiate between static elements and unique elements, where `attribute` should be replaced by the type of attribute. For example, when mentioning an IP, you should state `[your_server_ip]` within your guide or when mentioning a URL you should state `http://[your_server_ip]:30120`. This clearly differentiates the attributes which the reader must change based on their own configuration. You should also provide an explanation or note letting the reader know what attributes they need to change throughout the guide when it is first mentioned to ensure that everything is understood.
 
 You should use `zaphosting` as the default hostname, username or database name.
 
