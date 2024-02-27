@@ -1,15 +1,15 @@
 ---
 id: contribution-introduction
-title: ZAP-Hosting Community Contribution Program
+title: ZAP-Hosting Contribution Program
 description: Information on the ZAP-Hosting Contribution Program - ZAP-Hosting.com documentation
 sidebar_label: Introduction
 ---
 
-![Contribution Program Guides & Blogs](https://github.com/zaphosting/docs/assets/42719082/56c0d6e1-75f9-4dec-825b-64c562eccabe)
+![Contribution Program 2.0](https://github.com/zaphosting/docs/assets/42719082/72b1c56c-543c-46fe-9f4a-0d59e27bb35e)
 
 ## Introduction
 
-Here at ZAP-Hosting, we believe in the power of our Community, thus we are pleased to run our very own ZAP-Hosting Community Contributions program. This program enables our ZAP Community to produce high-quality, practical and easily accessible guides to support a wide range of topics and help out other fellow people. The program also supports creativity from our Community through the creation of unique Blog content.
+Here at ZAP-Hosting, we believe in the power of our Community, thus we are pleased to run our very own ZAP-Hosting Community Contributions program. This program enables our ZAP Community to produce high-quality, practical and easily accessible guides to support a wide range of topics and help out other fellow people. The program also supports creativity from our Community through the creation of unique Blog posts and content
 
 All content produced under this program provides rewards in the form of ZAP Coins as an awesome benefit! You can view what criteria we use for reward payouts and how much we reward within the dedicated page of the chosen contribution category that are explored in the next sub-section.
 
@@ -29,7 +29,7 @@ Interested in Contributing to our Guides? Head over to our dedicated [Guides Pro
 
 We are pleased to introduce blog posts as our latest area of interest for our contribution program. This is a very exciting opportunity which involves writing your very own informative blog posts for our official [ZAP-Hosting.com Blog](https://zap-hosting.com/en/blog/).
 
-Interested in Contributing to our Blogs? Head over to our dedicated [Blogs Process Guide](contribution-blogs.md) to learn more.
+Interested in Contributing to our Blog? Head over to our dedicated [Blogs Process Guide](contribution-blogs.md) to learn more.
 
 ## Who is this program for?
 

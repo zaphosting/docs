@@ -27,7 +27,7 @@ On our blog, we look for a wide range of informative and practical posts which c
 
 As mentioned in the introduction, all content that is produced must be original in order to comply with copyright laws.
 
-#### Wanted Guides List
+#### Wanted Blogs Post List
 
 We have a useful list of great suggestions below, for new blog posts that you may be interested in writing. Certain blog topics and suggestions may even have an extra reward bonus. You can access the [list manually here](https://docs.google.com/document/d/1XviKFThPxVcbunCZ9zh4xghmrNjettfTLRutIUsZkkY/edit?usp=sharing).
 
