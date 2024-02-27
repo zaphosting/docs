@@ -16,7 +16,7 @@ The first part of the process involves creating a suggestion issue via our GitHu
 Please ensure that your idea is not a duplicate of any existing guide or suggestion and which you deeply believe will be useful for beginners or more advanced users. You can view exising suggestions by heading over to the [Issues Page](https://github.com/zaphosting/docs/issues?q=is%3Aissue).
 
 :::tip
-We recommend reviewing our [Guidelines Page](contribution-guidelines.md) to understand the content and documentation style that we are persuing.
+We recommend reviewing our [Guidelines Page](contribution-guides-guidelines.md) to understand the content and documentation style that we are persuing.
 :::
 
 ### What topics are we looking for?
@@ -38,7 +38,7 @@ Keep in mind, these are only useful ideas, you **do not** have to stricly write 
 
 ### Submitting suggestion
 
-Now that you are are confident that your suggestion is appropriate for our documentation, please head over to our [ZAP Docs GitHub repository](https://github.com/zaphosting/docs) and open a issue using the "Contribution Suggestion" template. Please follow the template that is provided and ensure that you fill in all necessary details. You will also be requested to confirm that you accept our Terms & Conditions for the Contribution Program, which can be [accessed here](https://zap-hosting.com/guides/docs/contribution-terms). 
+Now that you are are confident that your suggestion is appropriate for our documentation, please head over to our [ZAP Docs GitHub repository](https://github.com/zaphosting/docs) and open a issue using the "Contribution Suggestion" template. Please follow the template that is provided and ensure that you fill in all necessary details. You will also be requested to confirm that you accept our Terms & Conditions for the Contribution Program, which can be [accessed here](contribution-terms.md). 
 
 :::caution
 Please ensure that you fill in your ZAP ID correctly to ensure you receive your reward to the correct account!
@@ -54,7 +54,7 @@ Within our response, we will provide you with additional feedback or details tha
 
 ## Step 2: Writing the Guide
 
-When performing any additions or changes to our documentation, please ensure that you follow our [Contribution Guidelines](contribution-guidelines.md) thoroughly to ensure consistency and a high-quality end product. In this sub-section we will dive deep into best practices and the optimal workflow for creating new content, but also for modifying existing content. If you are new to using GitHub, please use these brief tutorials below to understand the easiest way to edit or create new content for our ZAP-Docs.
+When performing any additions or changes to our documentation, please ensure that you follow our [Contribution Guidelines](contribution-guides-guidelines.md) thoroughly to ensure consistency and a high-quality end product. In this sub-section we will dive deep into best practices and the optimal workflow for creating new content, but also for modifying existing content. If you are new to using GitHub, please use these brief tutorials below to understand the easiest way to edit or create new content for our ZAP-Docs.
 
 :::note
 Ensure that you have created a suggestion on our [GitHub Repository](https://github.com/zaphosting/docs) and that this has been approved by one of our ZAP Contribution Team members before proceeding to work on a new guide or changes. We will not be able to guarantee a reward if you haven't followed the process as it has not been approved.
@@ -208,7 +208,7 @@ Please keep in mind that some docusaurus-specific elements such as admonitions (
 
 ![image](https://github.com/zaphosting/docs/assets/42719082/95effdaa-ab2d-4556-832c-dad33834d636)
 
-Please refer to the [ZAP Guides Guidelines](https://zap-hosting.com/guides/docs/contribution-guidelines) for everything regarding Markdown, structure, terminology and more.
+Please refer to the [ZAP Guides Guidelines](contribution-guides-guidelines.md) for everything regarding Markdown, structure, terminology and more.
 
 Once you are finished with the changes to your guide, the last step of the entire process is to push a commit to your fork repository and submit a Pull Request. You can create a commit through the GitHub Desktop by adding an appropriate title and description and pushing via the top button. Likewise, you can do this directly through Visual Studio Code if you prefer. You may now head over to the **Submitting Content** section to create a Pull Request to submit the content to our ZAP-Hosting Docs Repository.
 

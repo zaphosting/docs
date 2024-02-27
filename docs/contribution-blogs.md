@@ -40,7 +40,7 @@ Keep in mind, these are only useful ideas, you **do not** have to stricly write 
 
 ### Submitting suggestion
 
-Now that you understand all of the information, please head over to our **[Blog Suggestion Form](https://forms.gle/jft8sb4mmKMkbt5W9)**. Fill out the form with as much detail as possible and submit it. You will also be requested to confirm that you accept our Terms & Conditions for the Contribution Program, which can be [accessed here](https://zap-hosting.com/guides/docs/contribution-terms).
+Now that you understand all of the information, please head over to our **[Blog Suggestion Form](https://forms.gle/jft8sb4mmKMkbt5W9)**. Fill out the form with as much detail as possible and submit it. You will also be requested to confirm that you accept our Terms & Conditions for the Contribution Program, which can be [accessed here](contribution-terms.md).
 
 :::caution
 Please ensure that you fill in your ZAP ID correctly as this is how we will contact you regarding your blog suggestion!

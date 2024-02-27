@@ -104,7 +104,7 @@ const sidebars = {
           label: "Guides",
           items: [
             "contribution-guides",
-            "contribution-guidelines"
+            "contribution-guides-guidelines"
           ]
         },
         {

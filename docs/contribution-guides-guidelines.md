@@ -1,5 +1,5 @@
 ---
-id: contribution-guidelines
+id: contribution-guides-guidelines
 title: Guide Guidelines
 description: Guidelines for the Guides section of the ZAP-Hosting Contribution Program - ZAP-Hosting.com documentation
 sidebar_label: Guidelines
@@ -115,7 +115,7 @@ Lastly, all writers must follow our code of conduct to ensure that our guides ar
 Our documentation is formatted through the Markdown markup language which is widely used and relatively simple to use. Head over to the sections below to understand which we use and how it is used.
 
 :::tip
-For more examples and extensive explanations of Markdown features, head over to https://www.markdownguide.org/cheat-sheet/ which provides further information.
+For more examples and extensive explanations of Markdown features, head over to [Markdown Guide](https://www.markdownguide.org/cheat-sheet/) which provides further information.
 :::
 
 ### Headers

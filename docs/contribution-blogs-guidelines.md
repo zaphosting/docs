@@ -106,7 +106,7 @@ Our Blog is formatted through the Markdown markup language which is widely used.
 We allow users to use any writing tools for their content creation, however we **highly recommend** using the tool **[StackEdit](https://stackedit.io/app#)** to write your content whilst maintaining all the awesome functionality of Markdown. You could then directly export this to your Google Drive or any file sharing application and receive a link which you can share with us.
 
 :::tip
-For more examples and extensive explanations of Markdown features, head over to https://www.markdownguide.org/cheat-sheet/ which provides further information.
+For more examples and extensive explanations of Markdown features, head over to [Markdown Guide](https://www.markdownguide.org/cheat-sheet/) which provides further information.
 :::
 
 ### Headers
