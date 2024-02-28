@@ -95,6 +95,29 @@ const config = {
         ],
       },
     ],
+    [
+      '@docusaurus/plugin-client-redirects',
+      {
+        fromExtensions: ['html', 'htm'], // /myPage.html -> /myPage
+        toExtensions: ['exe', 'zip'], // /myAsset -> /myAsset.zip (if latter exists)
+        redirects: [
+          // /docs/oldDoc -> /docs/newDoc
+          {
+            to: '/docs/contribution-guides',
+            from: '/docs/contribution-submission',
+          },
+          {
+            to: '/docs/contribution-guidelines',
+            from: '/docs/contribution-guides-guidelines',
+          },
+          // Redirect from multiple old paths to the new path
+          /*{
+            to: '/docs/newDoc2',
+            from: ['/docs/oldDocFrom2019', '/docs/legacyDocFrom2016'],
+          },*/
+        ],
+      },
+    ],
     [ 
       require.resolve('docusaurus-lunr-search'),
       {
