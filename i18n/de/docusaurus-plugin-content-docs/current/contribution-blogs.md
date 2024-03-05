@@ -61,7 +61,7 @@ In diesem Schritt schreibst du einen neuen Blog-Beitrag auf der Grundlage der mi
 Zurzeit akzeptieren wir Inhalte, die sowohl mit **Markdown** als auch mit **HTML5** verfasst werden können.
 
 :::tip
-Wir können dir das Markdown-Tool **[StackEdit](https://stackedit.io/app#)** empfehlen, um deine Inhalte zu verfassen und gleichzeitig die fantastischen Funktionen von Markdown zu nutzen. Alternativ dazu können wir dir auch den **[HTML5 Editor](https://html5-editor.net/)** empfehlen, wenn du lieber mit HTML5 schreibst. Du kannst diese dann direkt in dein Google Drive oder eine andere Anwendung zur Dateifreigabe exportieren und erhältst einen Link, den du mit uns teilen kannst. Mehr über Markdown-Styling erfährst du in unserem [Blog-Richtlinien-Leitfaden](contribution-blogs-guidelines.md#formatting).
+Wir können dir das Markdown-Tool **[StackEdit](https://stackedit.io/app#)** empfehlen, um deine Inhalte zu verfassen und gleichzeitig die fantastischen Funktionen von Markdown zu nutzen. Alternativ dazu können wir dir auch den **[HTML5 Editor](https://html5-editor.net/)** empfehlen, wenn du lieber mit HTML5 schreibst. Du kannst diese dann direkt in dein Google Drive oder eine andere Anwendung zur Dateifreigabe exportieren und erhältst einen Link, den du mit uns teilen kannst. Mehr über Markdown-Styling erfährst du in unserem [Blog-Richtlinien-Leitfaden](contribution-blogs-guidelines.md#formatierung).
 :::
 
 :::note
