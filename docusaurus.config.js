@@ -107,8 +107,8 @@ const config = {
             from: '/docs/contribution-submission',
           },
           {
-            to: '/docs/contribution-guidelines',
-            from: '/docs/contribution-guides-guidelines',
+            to: '/docs/contribution-guides-guidelines',
+            from: '/docs/contribution-guidelines',
           },
           // Redirect from multiple old paths to the new path
           /*{
