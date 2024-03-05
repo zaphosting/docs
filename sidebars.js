@@ -98,9 +98,23 @@ const sidebars = {
       label: 'Contribution Program',
       items: [
         "contribution-introduction",
-        "contribution-guidelines",
-        "contribution-submission",
-        "contribution-rewards"
+        "contribution-rewards",
+        {
+          type: "category",
+          label: "Guides",
+          items: [
+            "contribution-guides",
+            "contribution-guides-guidelines"
+          ]
+        },
+        {
+          type: "category",
+          label: "Blogs",
+          items: [
+            "contribution-blogs",
+            "contribution-blogs-guidelines"
+          ]
+        },
       ]
     },
   ],

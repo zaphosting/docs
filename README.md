@@ -1,13 +1,15 @@
-# ZAP-Hosting Documentation Repository
-Welcome to the official [ZAP-Hosting Docs](https://zap-hosting.com/guides) Repository, home to everything-docs related 👋
+# ZAP-Hosting Docs Repository
+Welcome to the official [ZAP-Hosting Docs](https://zap-hosting.com/guides) Repository, home to everything-docs related. 👋
 
-Are you interested in improving the docs? Check out the appropriate sections below to learn more! 👍
+Are you interested in contributing? Check out the appropriate sections below to learn more! 👍
 
 ## ZAP-Hosting Contribution Program
 
-![Main Banner](https://github.com/zaphosting/docs/assets/42719082/4f52bc8b-4174-4ada-8ed3-f4e49a301920)
+![Contribution Program 2.0](https://github.com/zaphosting/docs/assets/42719082/72b1c56c-543c-46fe-9f4a-0d59e27bb35e)
 
-The contribution program is accessible to anyone who wants to share their **knowledge** and **experience** with the community! We actively look for dedicated writers who have **strong technical skills** and are **knowledgeable** in the respective field.  Most importantly, we look for writers who are dedicated and are happy in **collaborating** with our ZAP-Hosting Docs Team to improve and revise their content prior to publishing. :pencil2::speaking_head:
+Here at ZAP-Hosting, we believe in the power of our Community, thus we are pleased to run our very own ZAP-Hosting Community Contributions program. This program enables our ZAP Community to produce high-quality, practical and easily accessible guides to support a wide range of topics and help out other fellow people. The program also supports creativity from our Community through the creation of unique Blog posts and content.
+
+The contribution program is accessible to anyone who wants to share their **knowledge** and **experience** with the community! We actively look for dedicated writers who have **strong technical skills** and are **knowledgeable** in the respective field.  Most importantly, we look for writers who are dedicated and are happy in **collaborating** with our ZAP-Hosting Contributions Team to improve and revise their content prior to publishing. 📝🗣️
 
 **Contribute now. Get rewarded.** Head over to the [Contribution Program](https://zap-hosting.com/guides/docs/contribution-introduction) section of our documentation to learn more! 🚀
 
