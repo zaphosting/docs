@@ -1182,6 +1182,7 @@ const sidebars = {
         'vserver-windows-enshrouded',
         'vserver-windows-valheim',
         'vserver-windows-vrising',
+        'vserver-windows-mythofempires',
         'vserver-windows-satisfactory',
         'vserver-windows-fs-19',
         'vserver-windows-fs-22',
