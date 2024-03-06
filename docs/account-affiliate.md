@@ -24,6 +24,14 @@ Through the Affiliate program, the exact amount of commission depends on the typ
 
 You can view the latest and up-to-date commission % values through the [Conditions Section](https://zap-hosting.com/en/customer/affiliate/conditions/) on the Affiliate Page.
 
+:::info
+The affiliate credit display is based on payments including VAT. If you are not a German business/individual who has to add VAT to their invoices, you have to deduct VAT before sending your invoice. This means that you have to deduct the VAT from your displayed affiliate balance when paying out. You can do this by dividing the displayed amount by 1.19 (19% German VAT).
+
+Example: You have €100 affiliate credit. You should invoice: 100 / 1.19 = €84.03 in total. If you pay out in ZAP Coins, you will receive the full amount.
+
+If VAT has to be shown in the invoice, the full amount will be shown in the invoice including VAT. With an affiliate credit of 100€, an invoice of 100€, consisting of €84.03 invoice amount and €15.97 VAT will be sent. Non-German invoices generally will not have to add VAT to the invoice.
+:::
+
 ## Creating an Affiliate link & banner
 To create a new affiliate link or banner, simply head over to the main [Affiliate Page](https://zap-hosting.com/en/customer/affiliate/) and scroll down. You will be able to view your existing links and banners, but you will also be able to create new ones through the green **Create advertising material** buton.
 

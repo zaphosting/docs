@@ -9,7 +9,7 @@ sidebar_label: Introduction
 
 ## Introduction
 
-Here at ZAP-Hosting, we believe in the power of our Community, thus we are pleased to run our very own ZAP-Hosting Community Contributions program. This program enables our ZAP Community to produce high-quality, practical and easily accessible guides to support a wide range of topics and help out other fellow people. The program also supports creativity from our Community through the creation of unique Blog posts and content
+Here at ZAP-Hosting, we believe in the power of our Community, thus we are pleased to run our very own ZAP-Hosting Community Contributions program. This program enables our ZAP Community to produce high-quality, practical and easily accessible guides to support a wide range of topics and help out other fellow people. The program also supports creativity from our Community through the creation of unique Blog posts and content.
 
 All content produced under this program provides rewards in the form of ZAP Coins as an awesome benefit! You can view more information about rewards as well as the criteria used for evaluating rewards via the [Contribution Rewards guide](contribution-rewards.md).
 
