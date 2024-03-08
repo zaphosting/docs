@@ -748,7 +748,9 @@ const sidebars = {
             "moe-firststeps-dashboard",
             "moe-firststeps-connect"
           ]
-        }
+        },
+        "moe-configuration",
+        "moe-server-savegames"
       ],
     },
     {

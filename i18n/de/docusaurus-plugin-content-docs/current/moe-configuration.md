@@ -27,7 +27,7 @@ import TabItem from '@theme/TabItem';
 
 Die benutzerfreundlichste Methode ist es, im Webinterface deines Gameservers in den Bereich **Einstellungen** zu gehen und dort nach den entsprechenden Einstellungen zu suchen, wie unten zu sehen:
 
-![image](https://github.com/zaphosting/docs/assets/42719082/5e65fc4a-45ec-4696-8170-e7c6384dac8d)
+![image](https://github.com/zaphosting/docs/assets/42719082/98f19443-9e84-42b6-b4e8-a35ae6b802fc)
 
 Du wirst eine Vielzahl von Abschnitten und Einstellungen sehen, in denen du die Werte direkt bearbeiten kannst.
 
@@ -43,7 +43,7 @@ Der Server muss angehalten werden, bevor die Config bearbeitet werden kann. Wenn
 
 Wenn du die Konfigurationsdateien direkt bearbeiten möchtest, kannst du sie auch im Webinterface deines Gameservers im Bereich **Configs** aufrufen. Um eine Konfigurationsdatei zu bearbeiten, drückst du einfach auf die blaue Schaltfläche "Datei bearbeiten", wie unten zu sehen:
 
-![Bild](https://screensaver01.zap-hosting.com/index.php/s/ke6TF9RooBGqawW/preview)
+![image](https://screensaver01.zap-hosting.com/index.php/s/gjcg4DC5XkxAni6/preview)
 
 Dadurch wird ein Texteditor direkt auf der Seite geöffnet, mit dem du die Datei bearbeiten kannst.
 
