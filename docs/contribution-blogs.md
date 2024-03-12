@@ -5,7 +5,7 @@ description: Information on the blogs contribution process for the ZAP-Hosting C
 sidebar_label: Blogs Process
 ---
 
-![Blogs Banner](https://github.com/zaphosting/docs/assets/42719082/fd9e30ef-af84-45d4-b93e-fc60130c04b6)
+![Blogs Banner](https://screensaver01.zap-hosting.com/index.php/s/ysxLZ26K3dSRLJQ/preview)
 
 Learn more about the process for contributing to our ZAP-Hosting.com blogs on this page. The process is written in chronological order throughout this page, thus we recommend beginning from here.
 

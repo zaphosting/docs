@@ -5,7 +5,7 @@ description: Richtlinien für den Bereich Blogs des ZAP-Hosting Beitragsprogramm
 sidebar_label: Richtlinien
 ---
 
-![Blogs Banner](https://github.com/zaphosting/docs/assets/42719082/fd9e30ef-af84-45d4-b93e-fc60130c04b6)
+![Blogs Banner](https://screensaver01.zap-hosting.com/index.php/s/ysxLZ26K3dSRLJQ/preview)
 
 Um sicherzustellen, dass alle ZAP-Hosting Blog-Beiträge in Qualität und Stil einheitlich sind, haben wir eine Reihe von Richtlinien erstellt, die du beachten solltest, wenn du Inhalte für unser Blog-Beitragsprogramm erstellst. Du musst dich genau an unsere Richtlinien halten, um sicherzustellen, dass deine Vorschläge und nachfolgenden Entwürfe zügig bearbeitet werden. Noch wichtiger ist aber, dass du dafür sorgst, dass unsere Leserinnen und Leser beim Lesen unserer Blogs eine bessere und gleichbleibend hochwertige Erfahrung machen.
 

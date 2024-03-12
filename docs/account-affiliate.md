@@ -5,6 +5,8 @@ description: How to earn money with ZAP-Hosting via the Affiliate program - ZAP-
 sidebar_label: Affiliate Program
 ---
 
+![Affiliate Program](https://screensaver01.zap-hosting.com/index.php/s/GoXwRnHrRARc4jk/preview)
+
 ## Introduction
 Our Affiliate program allows you to earn some free money or ZAP Coins through referring new customers to ZAP-Hosting. You can access this by heading over to the [Affiliate Page](https://zap-hosting.com/en/customer/affiliate/) on our website.
 
@@ -35,7 +37,7 @@ If VAT has to be shown in the invoice, the full amount will be shown in the invo
 ## Creating an Affiliate link & banner
 To create a new affiliate link or banner, simply head over to the main [Affiliate Page](https://zap-hosting.com/en/customer/affiliate/) and scroll down. You will be able to view your existing links and banners, but you will also be able to create new ones through the green **Create advertising material** buton.
 
-![image](https://github.com/zaphosting/docs/assets/42719082/c3396ce0-c546-4e18-8049-1b5e72f5a9b5)
+![image](https://screensaver01.zap-hosting.com/index.php/s/zHjcrXACxAoA7qJ/preview)
 
 This will open up a menu in where you will be able to customise a range of values. Firstly, you should pick if you want this to be simply a link or a banner.
 
@@ -67,17 +69,13 @@ Next you can select the **Product** field using the drop down menu. This is wher
 #### Finshing the creation process
 Once you have filled everything in to your liking, simply press the green **Create** button to proceed in creating your banner or link. You should receive an success message if everything is correct, and your new banner or link will appear under the **Your Banners/Links** section once you scroll down.
 
-![image](https://github.com/zaphosting/docs/assets/42719082/0ae30bc0-5486-4953-9024-bb23a60420b3)
-
-![image](https://github.com/zaphosting/docs/assets/42719082/be9f8ebc-3ab8-4ba2-88b3-21fc76d134f3)
+![image](https://screensaver01.zap-hosting.com/index.php/s/THYSkKPHtSpMgiy/preview)
 
 ## Cash out & Transferring
 
 You can transfer out your Affiliate Program balance either into ZAP-Coins or into real money. Head over to the [Affiliate Page](https://zap-hosting.com/en/customer/affiliate/) page again and press the blue **Payment/Transfer** button.
 
-![image](https://github.com/zaphosting/docs/assets/42719082/d101cfd0-fc14-4217-ab65-c9c1213c6160)
-
-![image](https://github.com/zaphosting/docs/assets/42719082/b821d4cb-28e0-4600-8279-97be3686e370)
+![image](https://screensaver01.zap-hosting.com/index.php/s/GnzqQrQtC3jtzt9/preview)
 
 Now follow the appropriate section below to transfer to either currency.
 
@@ -89,9 +87,7 @@ Once you have your credits transferred into ZAP-Coins, you can no longer cash ou
 
 On the menu prompt, select **ZAP credit balance** as the option. Choose whether you wish to transfer the entire balance or only a specific part of it. Once ready, simply press the green **Transfer** button to confirm.
 
-![image](https://github.com/zaphosting/docs/assets/42719082/27807ca4-4ee7-4e70-92f8-23b887bfef90)
-
-![image](https://github.com/zaphosting/docs/assets/42719082/5e88aeee-cb33-46b4-a3c4-4da92273f7b1)
+![image](https://screensaver01.zap-hosting.com/index.php/s/HyCXmc2KzqSY4yL/preview)
 
 ### Real money (PayPal)
 
@@ -100,7 +96,7 @@ We currently only offer payouts into real money via PayPal. In order to payout v
 Head over to the [PayPal Invoice Creator](https://www.paypal.com/invoice/create?fromWidget=newuser) and fill in the invoice as appropriate:
 
 - Fill in our company information as the recipient: `ZAP-Hosting GmbH & Co. KG, Hafenweg 8, 48155 Münster, Deutschland`
-- Description must include: `zap community ads payout <customer ID>`
+- Description must include: `ZAP Affiliate Payout [your_zapid]`
 - Invoice must be sent to: `m.kluck@zap-hosting.com`
 
 :::note

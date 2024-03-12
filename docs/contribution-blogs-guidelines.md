@@ -5,7 +5,7 @@ description: Guidelines for the Blogs section of the ZAP-Hosting Contribution Pr
 sidebar_label: Guidelines
 ---
 
-![Blogs Banner](https://github.com/zaphosting/docs/assets/42719082/fd9e30ef-af84-45d4-b93e-fc60130c04b6)
+![Blogs Banner](https://screensaver01.zap-hosting.com/index.php/s/ysxLZ26K3dSRLJQ/preview)
 
 In order to ensure that all ZAP-Hosting Blog Posts are consistent in quality and style, we have produced a range of guidelines you should when creating content for our Blogs Contribution Program. You must follow our guidelines closely to ensure that your suggestions and subsequent drafts are processed swiftly. More importantly, this will ensure that our readers will have a better and more consistent high-quality experience whilst reading our blogs.
 

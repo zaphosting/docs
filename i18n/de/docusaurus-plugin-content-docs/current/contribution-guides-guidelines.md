@@ -5,7 +5,7 @@ description: Richtlinien für den Abschnitt Guides des ZAP-Hosting Beitragsprogr
 sidebar_label: Leitfaden
 ---
 
-![Guides Banner](https://github.com/zaphosting/docs/assets/42719082/602e58e7-f5bd-4fbb-93ac-daad72e58cfb)
+![Guides Banner](https://screensaver01.zap-hosting.com/index.php/s/4aaqq3zctZFW4JJ/preview)
 
 Um sicherzustellen, dass die ZAP-Hosting-Dokumentationsseiten eine einheitliche Qualität und einen einheitlichen Stil aufweisen, haben wir eine Reihe von Richtlinien erstellt, die du bei der Erstellung oder Bearbeitung von Inhalten für unsere Dokumentation beachten solltest. Du musst dich genau an unsere Richtlinien halten, damit dein Vorschlag und dein endgültiger Pull Request zügig bearbeitet werden können. Noch wichtiger ist aber, dass unsere Leserinnen und Leser beim Lesen und Verfolgen der Leitfäden eine bessere und einheitlichere Qualitätserfahrung machen können.
 

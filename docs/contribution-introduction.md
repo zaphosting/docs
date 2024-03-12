@@ -5,7 +5,7 @@ description: Information on the ZAP-Hosting Contribution Program - ZAP-Hosting.c
 sidebar_label: Introduction
 ---
 
-![Contribution Program 2.0](https://github.com/zaphosting/docs/assets/42719082/72b1c56c-543c-46fe-9f4a-0d59e27bb35e)
+![Contribution Program 2.0](https://screensaver01.zap-hosting.com/index.php/s/jYiCeya8rDqWB3A/preview)
 
 ## Introduction
 
