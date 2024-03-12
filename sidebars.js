@@ -675,7 +675,15 @@ const sidebars = {
       type: "category",
       label: "Last Oasis",
       items: [
-        "lastoasis-createrealm"
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "lastoasis-firststeps-dashboard"
+          ]
+        },
+        "lastoasis-createrealm",
+        "lastoasis-multiple-oases"
       ],
     },    
     {
