@@ -57,7 +57,6 @@ const sidebars = {
         "account-termination-and-cancellation-period",
         "account-paymentoptions",
         "account-backup-storage",
-        "account-affiliate",
         "account-cashbox",
         "account-usermanagement",
         "account-vouchers",
@@ -84,6 +83,7 @@ const sidebars = {
       })(),
       defaultStyle: true,
     },
+    "account-affiliate",
     {
       type: 'category',
       label: 'Partner Program',
