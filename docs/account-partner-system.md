@@ -5,6 +5,8 @@ description: Information on applying as a ZAP-Hosting partner, including the req
 sidebar_label: Introduction
 ---
 
+![Partner Program](https://screensaver01.zap-hosting.com/index.php/s/yLdaKZLHQioeKCz/preview)
+
 ## Introduction
 
 Do you have a YouTube channel, stream on Twitch or run an awesome project? Awesome, you may be interested in becoming a ZAP-Hosting partner. Our partners advertise ZAP-Hosting on their platforms in return for great items such as **free servers**, **money** and more. We could even provide a server for a giveaway or raffle on occasions.
