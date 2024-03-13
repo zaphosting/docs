@@ -72,7 +72,7 @@ Wenn dein Blogbeitrag Schritt-für-Schritt-Informationen oder Anleitungen enthä
 
 ### Schlussfolgerung
 
-In der Schlussfolgerung solltest du die Informationen zusammenfassen, die du in deinem Blogbeitrag erforscht hast. Das kann in Form von ein oder zwei kurzen Sätzen geschehen oder in Form von Aufzählungspunkten, wenn du es für sinnvoll hältst. Du könntest auch zusätzliche Informationen verlinken, die du zum Lesen empfiehlst, z. B. einen ZAP Docs Leitfaden zu deinem Thema.
+In der Schlussfolgerung solltest du die Informationen zusammenfassen, die du in deinem Blogbeitrag erforscht hast. Das kann in Form von ein oder zwei kurzen Sätzen geschehen oder in Form von Aufzählungspunkten, wenn du es für sinnvoll hältst. Du könntest auch zusätzliche Informationen verlinken, die du zum Lesen empfiehlst, z. B. eine ZAP Docs Anleitung zu deinem Thema.
 
 ## Stil
 Der Schreibstil für die ZAP-Hosting Docs folgt unserer Überzeugung, qualitativ hochwertige, praktische und leicht zugängliche Blogbeiträge zu verfassen, die ein breites Spektrum an Themen abdecken und Leser/innen mit unterschiedlichem Erfahrungsstand unterstützen. 

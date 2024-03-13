@@ -5,7 +5,9 @@ description: Information on how to manage savegames on your Myth of Empires serv
 sidebar_label: Manage Savegames
 ---
 
-In this guide, we will explore how to manage your Myth of Empires Gamesaves on your gameserver, including backing up your local and server savegames as well as uploading it to your server.
+## Introduction
+
+In this guide, you will explore how to manage your Myth of Empires Gamesaves on your gameserver, including backing up your local and server savegames as well as uploading it to your server.
 
 ## Prerequisites
 

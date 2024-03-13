@@ -9,7 +9,7 @@ sidebar_label: MOE Dedicated Server Einrichtung
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ir3QNvwu7WY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Einleitung
+## Einführung
 
 Hast du einen Windows VPS oder Rootserver und möchtest darauf einen MOE Dedicated Server installieren? Dann bist du hier genau richtig. In dieser Anleitung erklären wir dir Schritt für Schritt, wie du diesen Dienst auf deinem Server installierst.
 
@@ -39,7 +39,7 @@ Optional: Du kannst dein bevorzugtes Installationsverzeichnis festlegen, indem d
 force_install_dir C:\MOE-Server
 ```
 :::
- 
+
 Führe nun den Befehl `app_update 1794810` aus, der den Download startet. Die App-ID **1794810** ist die **MOE**-Anwendung.
 
 ![image](https://github.com/zaphosting/docs/assets/42719082/29931eec-fd19-4806-88dc-69e585e42370)
@@ -64,7 +64,7 @@ In dem Stammordner, der sich öffnet, findest du den Ordner **PrivateServerTool*
 
 Als Nächstes gehst du zum folgenden Abschnitt, um deinen Server zu portforwarden und zu konfigurieren.
 
-### Port Forwarding deines Servers
+### Port Weiterleitung deines Servers
 
 Um sicherzustellen, dass dein Server für die Öffentlichkeit zugänglich ist, musst du die Portweiterleitungsregeln für die Ports ändern, die der dedizierte Serverprozess verwendet. Du kannst dies entweder direkt über Powershell-Befehle tun, was einfacher ist, oder regelmäßig über die Windows Defender Firewall-Seite.
 

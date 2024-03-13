@@ -5,7 +5,7 @@ description: Informationen zur Bewerbung als ZAP-Hosting-Partner, einschließlic
 sidebar_label: Einführung
 ---
 
-![Partner Program](https://screensaver01.zap-hosting.com/index.php/s/yLdaKZLHQioeKCz/preview)
+![Partner Programm](https://screensaver01.zap-hosting.com/index.php/s/yLdaKZLHQioeKCz/preview)
 
 ## Einführung
 
