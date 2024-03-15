@@ -5,7 +5,7 @@ description: Information on the guides (ZAP-Docs) contribution process for the Z
 sidebar_label: Guides Process
 ---
 
-![Guides Banner](https://github.com/zaphosting/docs/assets/42719082/602e58e7-f5bd-4fbb-93ac-daad72e58cfb)
+![Guides Banner](https://screensaver01.zap-hosting.com/index.php/s/4aaqq3zctZFW4JJ/preview)
 
 Learn more about the process for contributing to our ZAP-Docs on this page. The process is written in chronological order throughout this page, thus we recommend beginning from here.
 

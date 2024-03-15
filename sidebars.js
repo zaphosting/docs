@@ -57,7 +57,6 @@ const sidebars = {
         "account-termination-and-cancellation-period",
         "account-paymentoptions",
         "account-backup-storage",
-        "account-affiliate",
         "account-cashbox",
         "account-usermanagement",
         "account-vouchers",
@@ -84,6 +83,7 @@ const sidebars = {
       })(),
       defaultStyle: true,
     },
+    "account-affiliate",
     {
       type: 'category',
       label: 'Partner Program',
@@ -675,7 +675,15 @@ const sidebars = {
       type: "category",
       label: "Last Oasis",
       items: [
-        "lastoasis-createrealm"
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "lastoasis-firststeps-dashboard"
+          ]
+        },
+        "lastoasis-createrealm",
+        "lastoasis-multiple-oases"
       ],
     },    
     {
@@ -748,7 +756,9 @@ const sidebars = {
             "moe-firststeps-dashboard",
             "moe-firststeps-connect"
           ]
-        }
+        },
+        "moe-configuration",
+        "moe-server-savegames"
       ],
     },
     {
@@ -1182,6 +1192,7 @@ const sidebars = {
         'vserver-windows-enshrouded',
         'vserver-windows-valheim',
         'vserver-windows-vrising',
+        'vserver-windows-mythofempires',
         'vserver-windows-satisfactory',
         'vserver-windows-fs-19',
         'vserver-windows-fs-22',

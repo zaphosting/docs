@@ -5,7 +5,7 @@ description: Richtlinien für den Bereich Blogs des ZAP-Hosting Beitragsprogramm
 sidebar_label: Richtlinien
 ---
 
-![Blogs Banner](https://github.com/zaphosting/docs/assets/42719082/fd9e30ef-af84-45d4-b93e-fc60130c04b6)
+![Blogs Banner](https://screensaver01.zap-hosting.com/index.php/s/ysxLZ26K3dSRLJQ/preview)
 
 Um sicherzustellen, dass alle ZAP-Hosting Blog-Beiträge in Qualität und Stil einheitlich sind, haben wir eine Reihe von Richtlinien erstellt, die du beachten solltest, wenn du Inhalte für unser Blog-Beitragsprogramm erstellst. Du musst dich genau an unsere Richtlinien halten, um sicherzustellen, dass deine Vorschläge und nachfolgenden Entwürfe zügig bearbeitet werden. Noch wichtiger ist aber, dass du dafür sorgst, dass unsere Leserinnen und Leser beim Lesen unserer Blogs eine bessere und gleichbleibend hochwertige Erfahrung machen.
 
@@ -72,7 +72,7 @@ Wenn dein Blogbeitrag Schritt-für-Schritt-Informationen oder Anleitungen enthä
 
 ### Schlussfolgerung
 
-In der Schlussfolgerung solltest du die Informationen zusammenfassen, die du in deinem Blogbeitrag erforscht hast. Das kann in Form von ein oder zwei kurzen Sätzen geschehen oder in Form von Aufzählungspunkten, wenn du es für sinnvoll hältst. Du könntest auch zusätzliche Informationen verlinken, die du zum Lesen empfiehlst, z. B. einen ZAP Docs Leitfaden zu deinem Thema.
+In der Schlussfolgerung solltest du die Informationen zusammenfassen, die du in deinem Blogbeitrag erforscht hast. Das kann in Form von ein oder zwei kurzen Sätzen geschehen oder in Form von Aufzählungspunkten, wenn du es für sinnvoll hältst. Du könntest auch zusätzliche Informationen verlinken, die du zum Lesen empfiehlst, z. B. eine ZAP Docs Anleitung zu deinem Thema.
 
 ## Stil
 Der Schreibstil für die ZAP-Hosting Docs folgt unserer Überzeugung, qualitativ hochwertige, praktische und leicht zugängliche Blogbeiträge zu verfassen, die ein breites Spektrum an Themen abdecken und Leser/innen mit unterschiedlichem Erfahrungsstand unterstützen. 
