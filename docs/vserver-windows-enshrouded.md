@@ -1,8 +1,8 @@
 ---
 id: vserver-windows-enshrouded
 title: Enshrouded Dedicated Server Setup
-description: Information about setting up an Enshrouded Dedicated Server on a VPS/Rootserver - ZAP-Hosting.com documentation
-sidebar_label: Enshrouded Dedicated Server Setup
+description: Information about setting up an Enshrouded Dedicated Server on a VPS/Root server/Dedicated Server - ZAP-Hosting.com documentation
+sidebar_label: Enshrouded
 ---
 
 **📺Video:** Do you prefer instructions in the form of a video or as an additional visual supplement? No problem! We also provide a video for this topic: 
@@ -11,7 +11,7 @@ sidebar_label: Enshrouded Dedicated Server Setup
 
 ## Introduction
 
-Do you have a Windows VPS or rootserver and want to install a Enshrouded Dedicated server on it? You are in the right place. In this guide we will explain the step by step process of installing this service on your server.
+Do you have a Windows VPS, root server or dedicated server and you want to install the Enshrouded Dedicated server service on it? You are in the right place. In this guide, we will explain the step by step process of installing this service on your server.
 
 ## Preparation
 

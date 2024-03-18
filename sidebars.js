@@ -1178,13 +1178,13 @@ const sidebars = {
       label: "Gameserver services",
       items: [
         'vserver-windows-arksurvivalascended',
-        'vserver-windows-palworld',
         'vserver-windows-enshrouded',
-        'vserver-windows-valheim',
-        'vserver-windows-vrising',
-        'vserver-windows-satisfactory',
         'vserver-windows-fs-19',
         'vserver-windows-fs-22',
+        'vserver-windows-palworld',
+        'vserver-windows-satisfactory',
+        'vserver-windows-valheim',
+        'vserver-windows-vrising',
       ]
     },		
   ],
@@ -1203,6 +1203,7 @@ const sidebars = {
       defaultStyle: true,
     },
     'dedicated-introduction',
+    'dedicated-setup',
     'dedicated-ilo',
     'dedicated-iso',
     'dedicated-raid',
@@ -1225,7 +1226,53 @@ const sidebars = {
     'dedicated-freebsd',		
     'dedicated-centos',		
     'dedicated-proxmox',
-    
+    {
+      type: 'html',
+      className: 'sidebar-title',
+      value: (() => {
+        switch (process.env.DOCUSAURUS_CURRENT_LOCALE) {
+          case "de": return "Linux";
+          default: return "Linux";
+        }
+      })(),
+      defaultStyle: true,
+    },
+    {
+      type: 'html',
+      className: 'sidebar-title',
+      value: (() => {
+        switch (process.env.DOCUSAURUS_CURRENT_LOCALE) {
+          case "de": return "Windows";
+          default: return "Windows";
+        }
+      })(),
+      defaultStyle: true,
+    },
+    {
+      type: "category",
+      label: "Gameserver services",
+      items: [
+        'vserver-windows-arksurvivalascended',
+        'vserver-windows-enshrouded',
+        'vserver-windows-fs-19',
+        'vserver-windows-fs-22',
+        'vserver-windows-palworld',
+        'vserver-windows-satisfactory',
+        'vserver-windows-valheim',
+        'vserver-windows-vrising',
+      ]
+    },
+    {
+      type: 'html',
+      className: 'sidebar-title',
+      value: (() => {
+        switch (process.env.DOCUSAURUS_CURRENT_LOCALE) {
+          case "de": return "Sonstiges";
+          default: return "Other";
+        }
+      })(),
+      defaultStyle: true,
+    },
   ],
   
   //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////

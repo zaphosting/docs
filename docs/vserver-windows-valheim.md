@@ -1,13 +1,9 @@
 ---
 id: vserver-windows-valheim
 title: Valheim Dedicated Server Setup
-description: Information about setting up a Valheim Dedicated Server on a VPS/Root server - ZAP-Hosting.com documentation
-sidebar_label: Valheim Dedicated Server Setup
-
+description: Information about setting up a Valheim Dedicated Server on a VPS/Root server/Dedicated Server - ZAP-Hosting.com documentation
+sidebar_label: Valheim
 ---
-
-
-Got a Windows VPS or root server and want to install game servers on it? For example a Valheim Dedicated Server? Then you are at the right place! In the following we will explain step by step how you can install such a service on your server.
 
 **📺Video:** Do you prefer instructions in the form of a video or as an additional visual supplement? No problem! We also provide a video for this topic: 
 
@@ -17,7 +13,7 @@ Got a Windows VPS or root server and want to install game servers on it? For exa
 
 ## Introduction
 
-Connect to your VPS or root server via RDP to set up your Valheim Dedicated Server. In case you don't know how to connect to your server via RDP, we recommend you to have a look at the [RDP Guide](vserver-windows-userdp.md).
+Got a VPS, root server or dedicated server and want to install game servers on it? For example an Valheim Dedicated Server? Then you are at the right place! In the following we will explain step by step how you can install such a service on your server.
 
 
 
