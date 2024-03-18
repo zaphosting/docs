@@ -5,7 +5,7 @@ description: Informationen über nützliche Befehle für das Palworld-Spiel von 
 sidebar_label: Server-Befehle
 ---
 
-Palworld-Server verfügen über eine Reihe von nützlichen integrierten Serverbefehlen, die du im Spiel und über deine Serverkonsole verwenden kannst. In diesem Leitfaden werden wir uns mit vielen dieser Befehle befassen und Beschreibungen und Anwendungsbeispiele für jeden einzelnen geben.
+Palworld-Server verfügen über eine Reihe von nützlichen integrierten Serverbefehlen, die du im Spiel und über deine Serverkonsole verwenden kannst. In dieser Anleitung werden wir uns mit vielen dieser Befehle befassen und Beschreibungen und Anwendungsbeispiele für jeden einzelnen geben.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/SDZC4-FEdNM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -16,7 +16,7 @@ Du musst zuerst ein Admin-Passwort für deinen Palword-Server festlegen und dich
 Du kannst das Admin-Passwort deines Servers über den Reiter **Einstellungen** im Webinterface deines Servers oder über die Konfigurationsdatei **PalWorldSettings.ini** festlegen. Sobald du es festgelegt hast, kannst du den Befehl `AdminPasswort [Passwort]` im Spiel verwenden, um dich als Admin hinzuzufügen.
 
 :::tip
-Wir empfehlen dir, einen Blick in unseren [Palworld Setup Admin guide](palworld-admin.md) zu werfen, der ein spezieller Leitfaden für dieses Thema ist und genauere Informationen über das Festlegen eines Admin-Passworts und das Hinzufügen von Benutzern als Admin enthält.
+Wir empfehlen dir, einen Blick in unserer [Palworld Setup Admin Anleitung](palworld-admin.md) zu werfen, die eine spezielle Anleitung für dieses Thema ist und genauere Informationen über das Festlegen eines Admin-Passworts und das Hinzufügen von Benutzern als Admin enthält.
 :::
 
 ## Verfügbare Befehle
@@ -26,7 +26,7 @@ Die folgende Tabelle enthält eine Reihe von Serverbefehlen für Palworld sowie 
 Wenn der Parameter `steamid` benötigt wird, kannst du die SteamID eines Spielers einfach kopieren, indem du zweimal mit der rechten Maustaste auf die Spielerliste klickst.
 
 :::info
-Bevor du diese Befehle verwenden kannst, musst du ein Admin-Passwort einrichten und dir mit dem Befehl `/AdminPasswort` die entsprechenden Rechte erteilen. Andernfalls erhältst du eine Fehlermeldung. Lies den nächsten Abschnitt in diesem Leitfaden, um zu verstehen, wie du das machst.
+Bevor du diese Befehle verwenden kannst, musst du ein Admin-Passwort einrichten und dir mit dem Befehl `/AdminPasswort` die entsprechenden Rechte erteilen. Andernfalls erhältst du eine Fehlermeldung. Lies den nächsten Abschnitt in dieser Anleitung, um zu verstehen, wie du das machst.
 :::
 
 | Befehlssyntax               | Akzeptierte Werte | Beschreibung                                                                        | 

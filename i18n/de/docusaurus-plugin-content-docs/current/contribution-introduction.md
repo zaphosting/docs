@@ -9,21 +9,21 @@ sidebar_label: Einführung
 
 ## Einleitung
 
-Wir bei ZAP-Hosting glauben an die Kraft unserer Community. Deshalb freuen wir uns, unser eigenes ZAP-Hosting Community Contributions Programm zu starten. Dieses Programm ermöglicht es unserer ZAP-Community, qualitativ hochwertige, praktische und leicht zugängliche Leitfäden zu erstellen, die eine breite Palette von Themen unterstützen und anderen Mitmenschen helfen. Das Programm unterstützt auch die Kreativität unserer Community durch die Erstellung einzigartiger Blogbeiträge und Inhalte.
+Wir bei ZAP-Hosting glauben an die Kraft unserer Community. Deshalb freuen wir uns, unser eigenes ZAP-Hosting Community Contributions Programm zu starten. Dieses Programm ermöglicht es unserer ZAP-Community, qualitativ hochwertige, praktische und leicht zugängliche Anleitungen zu erstellen, die eine breite Palette von Themen unterstützen und anderen Mitmenschen helfen. Das Programm unterstützt auch die Kreativität unserer Community durch die Erstellung einzigartiger Blogbeiträge und Inhalte.
 
-Für alle Inhalte, die im Rahmen dieses Programms erstellt werden, gibt es Belohnungen in Form von ZAP-Münzen - ein toller Vorteil! Weitere Informationen zu den Belohnungen sowie die Kriterien, nach denen die Belohnungen bewertet werden, findest du im [Leitfaden für Beitrags-Belohnungen](contribution-rewards.md).
+Für alle Inhalte, die im Rahmen dieses Programms erstellt werden, gibt es Belohnungen in Form von ZAP-Coins - ein toller Vorteil! Weitere Informationen zu den Belohnungen sowie die Kriterien, nach denen die Belohnungen bewertet werden, findest du in der [Anleitung für Beitrags-Belohnungen](contribution-rewards.md).
 
 Unser Programm nimmt derzeit Beiträge in **Englisch** an.
 
 ## Was qualifiziert für dieses Programm?
 
-Wir freuen uns, dass wir unser Programm aufgrund des großen Engagements und Feedbacks aus der Community um neue Bereiche erweitert haben. Diese Bereiche werden im Folgenden kurz vorgestellt, zusammen mit einem Link zu der entsprechenden Leitfaden-Seite, auf der du weitere Informationen finden kannst.
+Wir freuen uns, dass wir unser Programm aufgrund des großen Engagements und Feedbacks aus der Community um neue Bereiche erweitert haben. Diese Bereiche werden im Folgenden kurz vorgestellt, zusammen mit einem Link zu der entsprechenden Anleitung-Seite, auf der du weitere Informationen finden kannst.
 
-### ZAP Guides - Erstellen und Aktualisieren von Leitfäden
+### ZAP Guides - Erstellen und Aktualisieren von Anleitungen
 
-Im Bereich ZAP Guides geht es um die Erstellung von Inhalten für unsere Guides auf den offiziellen [ZAP-Hosting Docs](https://zap-hosting.com/guides/). Dabei geht es um die Erstellung ganz neuer Leitfäden, aber auch um Aktualisierungen und Erweiterungen bestehender Leitfäden, wenn dies notwendig ist.
+Im Bereich ZAP Guides geht es um die Erstellung von Inhalten für unsere Guides auf den offiziellen [ZAP-Hosting Docs](https://zap-hosting.com/guides/). Dabei geht es um die Erstellung ganz neuer Anleitungen, aber auch um Aktualisierungen und Erweiterungen bestehender Anleitungen, wenn dies notwendig ist.
 
-Bist du daran interessiert, zu unseren Leitfäden beizutragen? In unserem [Guides Process Guide](contribution-guides.md) erfährst du mehr.
+Bist du daran interessiert, zu unseren Anleitungen beizutragen? In unserem [Guides Process Guide](contribution-guides.md) erfährst du mehr.
 
 ### ZAP Blogs - Blogbeiträge schreiben
 
@@ -51,7 +51,7 @@ Unsere vollständigen Geschäftsbedingungen für unser Beitragsprogramm kannst d
 
 ## Bereitstellung von temporären Diensten
 
-Auf Anfrage und bei Bedarf können wir Dienste, die zur Erstellung eines Leitfadens oder Blogbeitrags benötigt werden, für einen begrenzten Zeitraum bereitstellen. Durch die Bereitstellung von Servern wollen wir die Zugänglichkeit zu notwendigen Produkten verbessern, damit Menschen über Themen schreiben können, für die sie vielleicht keinen aktiven Server bei uns haben.
+Auf Anfrage und bei Bedarf können wir Dienste, die zur Erstellung eine Anleitung oder eines Blogbeitrags benötigt werden, für einen begrenzten Zeitraum bereitstellen. Durch die Bereitstellung von Servern wollen wir die Zugänglichkeit zu notwendigen Produkten verbessern, damit Menschen über Themen schreiben können, für die sie vielleicht keinen aktiven Server bei uns haben.
 
 Du kannst einen Service über den jeweiligen Anmeldeprozess, den du verwendest, unter einer der Fragen anfordern.
 

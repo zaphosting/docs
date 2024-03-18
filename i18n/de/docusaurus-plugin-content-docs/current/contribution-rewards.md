@@ -5,7 +5,7 @@ description: Informationen über Belohnungen für das ZAP-Hosting docs Beitragsp
 sidebar_label: Belohnungen
 ---
 
-Im Rahmen unseres Beitragsprogramms bieten wir Belohnungen in Form von ZAP-Münzen an, die du auf unserer Website einsetzen kannst. Die Belohnungen werden in einem letzten Schritt vergeben, sobald dein Beitrag zur Veröffentlichung bereit ist und von unserem ZAP-Hosting Contributions Team genehmigt wurde.
+Im Rahmen unseres Beitragsprogramms bieten wir Belohnungen in Form von ZAP-Coins an, die du auf unserer Website einsetzen kannst. Die Belohnungen werden in einem letzten Schritt vergeben, sobald dein Beitrag zur Veröffentlichung bereit ist und von unserem ZAP-Hosting Contributions Team genehmigt wurde.
 
 :::info
 Ein weiterer großer Vorteil ist die exklusive Rolle **@Community Contributor**, die du für deinen ersten Beitrag auf unserem [ZAP-Hosting Discord Server](https://discord.com/invite/zaphosting) erhältst, um deine Bemühungen zur Unterstützung der Community zu zeigen und Zugang zu einigen exklusiven Inhalten zu erhalten. Du musst bei der Anmeldung deine Discord ID angeben, wenn du diese Rolle erhalten möchtest.
@@ -19,14 +19,14 @@ Alle endgültigen Entscheidungen, auch über die Belohnungen, liegen im Ermessen
 
 ## ZAP Guides
 
-Bei Beiträgen für ZAP-Leitfäden prüfen wir zunächst, ob es sich um einen neuen Leitfaden oder um eine Aktualisierung eines bestehenden Leitfadens handelt. In der Regel kann dies anhand deines Vorschlags für einen Leitfaden vermutet werden. Wenn ein bestehender Leitfaden sehr stark verändert wurde, können wir ihn als neuen Leitfaden betrachten. Dies liegt jedoch im Ermessen des ZAP-Hosting-Beitragsteams.
+Bei Beiträgen für ZAP-Anleitungen prüfen wir zunächst, ob es sich um einen neue Anleitung oder um eine Aktualisierung einer bestehenden Anleitung handelt. In der Regel kann dies anhand deines Vorschlags für einen Anleitung vermutet werden. Wenn ein bestehender Anleitung sehr stark verändert wurde, können wir ihn als neuen Anleitung betrachten. Dies liegt jedoch im Ermessen des ZAP-Hosting-Beitragsteams.
 
-- Für **neue Leitfäden** gibt es maximal **65 € ZAP-Münzen**. 
-- **Aktualisierungen bestehender Leitfäden** werden mit maximal **25 ZAP-Münzen** belohnt.
+- Für **neue Anleitungen** gibt es maximal **65 € ZAP-Coins**. 
+- **Aktualisierungen bestehender Anleitungen** werden mit maximal **25 ZAP-Coins** belohnt.
 
 ## ZAP Blogs
 
-Für Beiträge in ZAP Blogs erhalten Autoren maximal **100 ZAP-Münzen** als Belohnung.
+Für Beiträge in ZAP Blogs erhalten Autoren maximal **100 ZAP-Coins** als Belohnung.
 
 ## Bewertungskriterien
 
@@ -35,9 +35,9 @@ Es gibt eine Reihe von Kriterien, anhand derer wir den Wert der endgültigen Aus
 - Thematischer Bezug: Gibt es viele ähnliche Themen im Internet? Ist das Thema einzigartig?
 - Gründlichkeit: Ist der Inhalt sehr detailliert und geht direkt auf alles ein, was der Leser wissen muss?
 - Richtlinien: Inwieweit hat sich der Autor an unsere Richtlinien gehalten?
-- Änderungen nach der Überarbeitung: Wie viele Änderungen waren notwendig, um einen qualitativ hochwertigen Leitfaden zu erstellen? Wie sehr musste das ZAP-Beitragsteam helfen?
+- Änderungen nach der Überarbeitung: Wie viele Änderungen waren notwendig, um eine qualitativ hochwertigen Anleitung zu erstellen? Wie sehr musste das ZAP-Beitragsteam helfen?
 
-Anhand dieser Kriterien schätzen wir eine angemessene Belohnung für die Arbeit, die der Autor in den Leitfaden investiert hat. Wir sind bestrebt, so fair und transparent wie möglich zu sein. Deshalb freuen wir uns immer über Rückmeldungen und Antworten der Autorin/des Autors, wenn sie/er unzufrieden ist und ihre/seine Belohnung und ihre/seine Arbeit im Detail besprechen möchte.
+Anhand dieser Kriterien schätzen wir eine angemessene Belohnung für die Arbeit, die der Autor in die Anleitung investiert hat. Wir sind bestrebt, so fair und transparent wie möglich zu sein. Deshalb freuen wir uns immer über Rückmeldungen und Antworten der Autorin/des Autors, wenn sie/er unzufrieden ist und ihre/seine Belohnung und ihre/seine Arbeit im Detail besprechen möchte.
 
 ## Erhalt der Belohnung
 

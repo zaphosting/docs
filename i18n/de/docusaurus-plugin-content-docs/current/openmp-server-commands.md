@@ -5,7 +5,7 @@ description: Informationen über nützliche Befehle für das Open.mp-Spiel von Z
 sidebar_label: Server-Befehle
 ---
 
-Open.mp-Server verfügen über eine Reihe nützlicher integrierter Serverbefehle, die du im Spiel und über deine Serverkonsole verwenden kannst. In diesem Leitfaden werden wir uns mit vielen dieser Befehle befassen und Beschreibungen und Anwendungsbeispiele für jeden einzelnen geben.
+Open.mp-Server verfügen über eine Reihe nützlicher integrierter Serverbefehle, die du im Spiel und über deine Serverkonsole verwenden kannst. In dieser Anleitung werden wir uns mit vielen dieser Befehle befassen und Beschreibungen und Anwendungsbeispiele für jeden einzelnen geben.
 
 ## Zugriff einrichten (RCON)
 
@@ -25,7 +25,7 @@ Vergewissere dich, dass du bei der Konfigration ein RCON-Passwort eingerichtet h
 Nachdem du deine Änderungen vorgenommen hast, speichere die Datei an der richtigen Stelle und starte deinen Server neu. Wenn dein Server das nächste Mal hochfährt, sollte RCON jetzt zugänglich und bereit sein.
 
 :::tip
-Wenn du mehr über RCON erfahren möchtest, kannst du unseren [Open.mp RCON Leitfaden](openmp-rcon.md) benutzen, der weitere Details enthält.
+Wenn du mehr über RCON erfahren möchtest, kannst du unsere [Open.mp RCON Anleitung](openmp-rcon.md) benutzen, der weitere Details enthält.
 :::
 
 ## Verfügbare Befehle

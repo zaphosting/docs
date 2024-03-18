@@ -59,7 +59,7 @@ Die letzte Möglichkeit, um auf die Datei zuzugreifen, ist per FTP. Wenn du mit 
 Es gibt eine Reihe von Farben, die du zu deinem Servernamen hinzufügen kannst. Diese können durch die Verwendung eines Präfixes angegeben werden, wenn du die Farbe ändern möchtest. Die Liste der verfügbaren Farben findest du in der untenstehenden Tabelle.
 
 :::info
-Um Farben in deinem Servernamen verwenden zu können, musst du ein gültiges [FiveM Patreon Tier] (https://www.patreon.com/fivem/posts) haben, das den Vorteil beinhaltet. Wenn das der Fall ist und es trotzdem nicht funktioniert, vergewissere dich, dass du einen [benutzerdefinierten Lizenzschlüssel, weitere Informationen findest du in unserem Leitfaden](fivem-licensekey.md) eingestellt hast.
+Um Farben in deinem Servernamen verwenden zu können, musst du ein gültiges [FiveM Patreon Tier] (https://www.patreon.com/fivem/posts) haben, das den Vorteil beinhaltet. Wenn das der Fall ist und es trotzdem nicht funktioniert, vergewissere dich, dass du einen [benutzerdefinierten Lizenzschlüssel, weitere Informationen findest du in unserer Anleitung](fivem-licensekey.md) eingestellt hast.
 In order to use colours in your server name, you must have a valid [FiveM Patreon tier](https://www.patreon.com/fivem/posts) which has the benefit. If you do but it still doesn't work, ensure that you have set a [custom license key, more info can be found on our guide](fivem-licensekey.md).
 :::
 
