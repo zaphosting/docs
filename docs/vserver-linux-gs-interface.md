@@ -22,11 +22,7 @@ With the user-friendly GS/TS3 interface, you can install Teamspeak 3 or other se
 
 :::info
 **Note:** To successfully install the GS/TS3 interface, it is important to ensure that your server has one of the following supported operating systems installed:
-:::
->
-:::info
 - Debian 10
-
 - Debian 11
 :::
 
