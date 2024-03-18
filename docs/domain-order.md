@@ -2,7 +2,7 @@
 id: domain-order
 title: Ordering a domain
 description: Information about the process of ordering domains at ZAP-Hosting - ZAP-Hosting.com documentation
-sidebar_label: Order a domain
+sidebar_label: Order domain
 ---
 
 ## Order a domain
@@ -37,4 +37,4 @@ In order to rent a domain, all fields such as first name, surname and address mu
 
 
 
- 
+

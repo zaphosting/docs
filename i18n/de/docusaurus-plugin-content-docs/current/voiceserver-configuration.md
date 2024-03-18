@@ -8,7 +8,7 @@ sidebar_label: Server Konfiguration
 
 
 
-## Server Konfiguration
+## Einführung
 
 Du kannst deinen Teamspeak Server individuell konfigurieren. Im Folgenden wird erklärt, wie du deinen Server konfigurieren kannst. Dabei erklären wir dir, wie du allgemeine Einstellungen wie zum Beispiel den Servername, Icon, Banner bis hin zu den Berechtigungen von Benutzer, Channel und Server-Gruppen anpassen kannst. 
 

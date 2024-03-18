@@ -2,7 +2,7 @@
 id: voiceserver-ts3backup
 title: Set up and download server backup
 description: Information on how to set up and download a backup for your Teamspeak server from ZAP-Hosting - ZAP-Hosting.com documentation
-sidebar_label: Ts3 Backup
+sidebar_label: Backups
 ---
 
 
