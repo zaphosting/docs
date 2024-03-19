@@ -8,13 +8,12 @@ sidebar_label: Install MyBB
 
 
 
-## What is MyBB?
+## Introduction
 
 MyBB, previously MyBulletinBoard, is a free and open source forum software developed by the MyBB Group. In this guide we explain how to install this forum software on our webspace product. 
 
-## Set up MyBB
 
-### Preparation
+## Preparation
 
 Before the actual installation of MyBB can be performed, certain preparations must be made. This includes getting the forum software, setting up the database to be used and the mail server (email address).
 
@@ -49,7 +48,7 @@ For registering an account at the forum a mail server with an e-mail address is 
 
 
 
-### Installation
+## Installation
 
 If all the steps from the preparation have been fulfilled, then the actual setup of MyBB can be started. For this, the website must now be called up in the Internet browser. This should look like this: 
 

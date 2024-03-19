@@ -9,7 +9,7 @@ sidebar_label: Teamsepeak 3 forwarding
 Please note that it can always take up to 24 hours before changes to DNS entries become active!
 :::
 
-## Forward domain to your TeamSpeak 3 server
+## Introduction
 
 You can either redirect your entire domain or just a subdomain to your TeamSpeak 3 server.
 This way, no one has to remember the complicated IP address consisting of numbers and can simply connect to your TeamSpeak 3 server using the domain.

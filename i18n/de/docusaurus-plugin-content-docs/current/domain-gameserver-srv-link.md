@@ -9,7 +9,7 @@ sidebar_label: Gameserver Weiterleitung
 Bitte beachte, dass es immer bis zu 24 Stunden dauern kann bis Änderungen an DNS Einträgen aktiv werden!
 :::
 
-## Domain auf Gameserver weiterleiten
+## Einführung
 Du kannst entweder deine Domain vollständig, oder lediglich eine Subdomain auf deinen Gameserver weiterleiten.
 So muss sich niemand die komplizierte IP-Adresse, welche aus Zahlen besteht merken, sondern kann sich einfach mithilfe der Domain auf deinen Gameserver verbinden.
 

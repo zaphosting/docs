@@ -7,13 +7,12 @@ sidebar_label: MyBB installieren
 
 
 
-## Was ist MyBB?
+## Einführung
 
 MyBB, ursprünglich MyBulletinBoard, ist eine freie und quelloffene Forensoftware, welche von der MyBB Group entwickelt wird. In dieser Anleitung erklären wir, wie diese Forensoftware auf unserem Webspace Produkt installiert werden kann. 
 
-## MyBB einrichten
 
-### Vorbereitung
+## Vorbereitung
 
 Bevor die eigentliche Installation von MyBB durchgeführt werden kann, müssen gewisse Vorbereitungen vorgenommen werden. Dazu gehört das Besorgen der Forensoftware, die Einrichtung der zu verwendenden Datenbank und der Mailserver (E-Mail Adresse).
 
@@ -49,7 +48,7 @@ Um einen Account beim Forum zu registrieren wird ein Mailserver mit einer E-Mail
 
 
 
-### Installation
+## Installation
 
 Wenn alle Schritte von der Vorbereitung erfüllt wurden, dann kann mit der eigentlichen Einrichtung von MyBB begonnen werden. Dafür muss nun im Internetbrowser die Webseite aufgerufen werden. Das sieht dann so aus: 
 

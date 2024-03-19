@@ -9,7 +9,7 @@ sidebar_label: Gameserver forwarding
 Please note that it can always take up to 24 hours until changes to DNS entries become active!
 :::
 
-## Forward domain to gameserver
+## Introduction
 You can either forward your domain completely or only a subdomain to your gameserver.
 So no one has to remember the complicated IP address which consists of numbers but can simply connect to your game server using the domain.
 

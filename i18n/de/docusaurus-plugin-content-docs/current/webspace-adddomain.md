@@ -5,7 +5,7 @@ description: Informationen, wie du eine Domain zu deinem Webspace von ZAP-Hostin
 sidebar_label: Domain hinzufügen
 ---
 
-## Webspace
+## Einführung
 
 Das Webspace Paket bietet die Möglichkeit, über das externe Plesk Interface, sowohl Webseiten als auch E-Mail-Adressen zu erstellen und verwalten. Das Webspace fungiert als Webspeicher. Dateien und Ordner können über eine FTP Verbindung hochgeladen werden.
 

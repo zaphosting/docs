@@ -5,7 +5,7 @@ description: Informationen zu den ExpertDNS Domaineinstellungen bei ZAP-Hosting 
 sidebar_label: ExpertDNS
 ---
 
-## Was ist ExpertDNS überhaupt?
+## Einführung
 
 Mit der **ExpertDNS Funktion** kann man einstellen, welche Nameserver für die Domain genutzt werden sollen.
 

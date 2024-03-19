@@ -9,7 +9,7 @@ sidebar_label: TeamSpeak 3 Weiterleitung
 Bitte beachte, dass es immer bis zu 24 Stunden dauern kann, bis Änderungen an DNS Einträgen aktiv werden!
 :::
 
-## Domain auf TeamSpeak 3 Server weiterleiten
+## Einführung
 
 Du kannst entweder deine Domain vollständig, oder lediglich eine Subdomain auf deinen TeamSpeak 3 Server weiterleiten.
 So muss sich niemand die komplizierte IP Adresse welche aus Zahlen besteht, merken, sondern kann sich einfach mithilfe der Domain auf deinen TeamSpeak 3 Server verbinden.

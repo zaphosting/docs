@@ -8,7 +8,9 @@ sidebar_label: WordPress installieren
 
 
 
-## Was ist WordPress?
+## Einführung
+
+
 
 WordPress ist das meist verwendete freie Content-Management-System weltweit. Es wurde ab 2003 von Matthew Mullenweg als Software für Weblogs programmiert und wird als Open-Source-Projekt permanent weiterentwickelt. In dieser Anleitung erklären wir, wie diese Software auf unserem Webspace Produkt installiert werden kann. 
 
@@ -16,9 +18,7 @@ WordPress ist das meist verwendete freie Content-Management-System weltweit. Es 
 
 
 
-## WordPress einrichten
-
-### Vorbereitung
+## Vorbereitung
 
 Bevor die eigentliche Installation von WordPress durchgeführt werden kann, müssen gewisse Vorbereitungen vorgenommen werden. Dazu gehört das Besorgen der Software, die Einrichtung der zu verwendenden Datenbank und der Mailserver (E-Mail Adresse).
 
@@ -62,7 +62,7 @@ Um einen Account beim Forum zu registrieren wird ein Mailserver mit einer E-Mail
 
 
 
-### Installation
+## Installation
 
 Wenn alle Schritte von der Vorbereitung erfüllt wurden, dann kann mit der eigentlichen Einrichtung von WordPress begonnen werden. Dafür muss jetzt im Internetbrowser die Webseite aufgerufen werden. Das sieht dann so aus: 
 

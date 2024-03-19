@@ -5,7 +5,7 @@ description: Informationen zu den ProfiDNS Domain-Einstellungen bei ZAP-Hosting 
 sidebar_label: ProfiDNS
 ---
 
-## Was ist ProfiDNS überhaupt?
+## Einführung
 
 Mit der **ProfiDNS Funktion** kann man bei seiner Domain weitere zusätzliche Einträge(Records) erstellen, welche man über die EasyDNS Option nicht vornehmen kann bzw. wenn man selbst die gewünschten Einträge für seine Domain erstellen möchte.
 
