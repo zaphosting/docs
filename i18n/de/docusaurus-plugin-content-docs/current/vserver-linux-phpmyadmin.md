@@ -67,7 +67,7 @@ Nachdem dies erledigt ist, kann die ursprüngliche ZIP-Datei entfernt werden sow
 rm phpmyadmin.zip; chmod -R 0755 phpmyadmin
 ```
 
-**Erstellung der Apache2 phpMyAdmin-Config**
+## Erstellung der Apache2 phpMyAdmin-Config
 
 Die Apache2-phpMyAdmin-Config wird mit folgendem Befehl erstellt:
 
@@ -108,9 +108,7 @@ Anschließend muss der Apache2 Server neu geladen werden:
 systemctl reload apache2
 ```
 
-
-
-** Benötigtes temporäres Verzeichnis für phpMyAdmin anlegen** 
+## Benötigtes temporäres Verzeichnis für phpMyAdmin anlegen
 
 Damit phpMyAdmin auch ordnungsgemäß funktioniert, muss folgendes Verzeichnis angelegt werden:
 ```

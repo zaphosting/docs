@@ -81,7 +81,7 @@ After this is done, the original ZIP file can be removed and the necessary right
 rm phpmyadmin.zip; chmod -R 0755 phpmyadmin
 ```
 
-**Creation of the Apache2 phpMyAdmin-Config**
+## Creating Apache2 phpMyAdmin-Config
 
 The Apache2-phpMyAdmin-Config is created with the following command:
 
@@ -124,7 +124,7 @@ The Apache2 server must then be reloaded:
 systemctl reload apache2
 ```
 
-**Creating the required temporary directory for phpMyAdmin**
+## Creating temporary directory for phpMyAdmin
 
 For phpMyAdmin to work properly, the following directory must be created:
 
@@ -138,6 +138,6 @@ The directory just created still needs the correct rights, here is how to do thi
 chown -R www-data:www-data /usr/share/phpmyadmin/tmp/
 ```
 
- The phpMyAdmin installation is finished. 
+The phpMyAdmin installation is finished. 
 
 The phpMyAdmin web interface can now be opened via browser with/phpmyadmin, e.g. 123.123.123.123/phpmyadmin
