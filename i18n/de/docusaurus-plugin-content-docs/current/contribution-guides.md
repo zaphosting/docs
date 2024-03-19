@@ -5,7 +5,7 @@ description: Informationen zum Beitragsprozess der Guides (ZAP-Docs) für das ZA
 sidebar_label: Guides Prozess
 ---
 
-![Guides Banner](https://github.com/zaphosting/docs/assets/42719082/602e58e7-f5bd-4fbb-93ac-daad72e58cfb)
+![Guides Banner](https://screensaver01.zap-hosting.com/index.php/s/4aaqq3zctZFW4JJ/preview)
 
 Auf dieser Seite erfährst du mehr über den Prozess, wie du zu unseren ZAP-Docs beiträgst. Der Prozess wird auf dieser Seite in chronologischer Reihenfolge beschrieben, daher empfehlen wir, hier zu beginnen.
 

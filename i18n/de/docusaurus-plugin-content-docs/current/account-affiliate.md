@@ -1,117 +1,104 @@
 ---
 id: account-affiliate
-title: Freunde werben und Geld mit ZAP-Hosting verdienen
-description: Anleitung wie du Geld mit ZAP-Hosting verdienen kannst, indem du Freunde per Reflink wirbst - ZAP-Hosting.com Dokumentation
-sidebar_label: Freunde werben
+title:  Affiliate Programm
+description: Wie du mit ZAP-Hosting über das Partnerprogramm Geld verdienen kannst - ZAP-Hosting.com Dokumentation
+sidebar_label: Affiliate Programm
 ---
 
+![Affiliate Program](https://screensaver01.zap-hosting.com/index.php/s/GoXwRnHrRARc4jk/preview)
+
 ## Einführung
-Das Freunde werben Programm ist unser Affiliate-Programm, mit dem du Geld oder ZAP-Coins verdienen kannst, indem du neue Kunden für ZAP-Hosting wirbst.
+Unser Partnerprogramm ermöglicht es dir, kostenlos Geld oder ZAP Coins zu verdienen, indem du neue Kunden an ZAP-Hosting vermittelst. Du kannst darauf zugreifen, indem du auf die [Affiliate-Seite](https://zap-hosting.com/en/customer/affiliate/) auf unserer Website gehst.
 
-## Wie funktioniert es?
+Auf der Affiliate-Seite kannst du Affiliate-Links und Banner verwalten und auf deinen eigenen Affiliate-Gutscheincode zugreifen, mit dem neue Kunden für die gesamte Laufzeit des Programms einen Rabatt von **20%** auf deren Serverpreis erhalten.
 
-Auf unserer "[Freunde werben-Seite](https://zap-hosting.com/de/customer/affiliate/)" kannst du Affiliate-Links und Banner erstellen. Diese Links und Banner kannst du auf einer Webseite, einem Forum, deinen Social-Media- oder Streaming-Kanälen veröffentlichen und bewerben. Klickt jemand auf den Link und kauft auf ZAP-Hosting.com ein Produkt, erhältst du eine Verkaufsprovision.
+## So funktioniert das Partnerprogramm
+Du kannst alle von den Partnern erstellten Inhalte dort veröffentlichen und bewerben, wo du glaubst, dass sie gut ankommen, z. B. auf deiner Website, in einem Forum oder auf deinem Social-Media-Konto. Das ist ganz dir überlassen.
 
-## Die Provisionen
-Über das Freunde werben Programm erhältst du eine Verkaufsprovision von bis zu 50%. Die genauen Verkaufsprovisionen für alle Produkte findest du auf der Freunden werben-Seite unter "[Konditionen](https://zap-hosting.com/de/customer/affiliate/conditions/)".
+Wenn jemand auf den Link klickt und ein Produkt auf unserer [Website](https://zap-hosting.com/) kauft, erhältst du eine Verkaufsprovision. 
 
-:::info
-Die angezeigte Provision basiert auf dem Verkaufswert inklusive Mehrwertsteuer. Unternehmen und Individuen aus Deutschland, die Mehrwertsteuer ausweisen müssen, können diesen Betrag inklusive Mehrwertsteuer in der Rechnung angeben. Darf keine Mehrwertsteuer ausgewiesen werden, muss der Betrag um die Mehrwertsteuer reduziert werden.
-:::
-Das heißt, dass du die Mehrwertsteuer von deinem angezeigten Affiliate-Guthaben bei Auszahlung abziehen musst. Dies kannst du machen, indem du den angezeigten Betrag durch 1.19 teilst (19% deutsche MWST.). Beispiel: 100€ Affiliate Guthaben. In Rechnung zu stellen sind: 100 / 1,19 = 84,03€. Bei einer Auszahlung in ZAP Coins erhältst du den vollen Betrag.
-
-:::info
-Muss Mehrwertsteuer in der Rechnung ausgewiesen werden, wird der volle Betrag in der Rechnung inklusive Mehrwertsteuer ausgewiesen. Bei einem Affiliate Guthaben von 100€ wird eine Rechnung von 100€, bestehend aus 84,03€ Rechnungsbetrag und 15,97€ Mehrwertsteuer abgeschickt.
+:::tip
+Der/die Nutzer/in kann seinen/ihren Einkauf während des Bestellvorgangs auch mit deinem Partner-Gutscheincode koppeln, um ebenfalls einen Rabatt zu erhalten.
 :::
 
-## Affiliate-Link erstellen
+## Provisionen
+Im Rahmen des Partnerprogramms hängt die genaue Höhe der Provision von der Art des Produkts ab, welche die Person, die deinen Link benutzt hat, gekauft hat. Diese kann bei vielen Produkten bis zu **50%** betragen.
 
-Um einen Affiliate-Link zu erstellen, klicke auf der "[Freunde werben-Seite](https://zap-hosting.com/de/customer/affiliate/)" auf "Neues Werbemittel erstellen" und wähle den Button "Link" aus. Dann kannst du den Link erstellen, indem du folgende Felder ausfüllst und auf "erstellen" klickst:
-
-`Alias`
-
-:::info
-Du kannst deinen Link anpassen, wie du willst, damit der Link lesbar wird und einfach gemerkt werden kann. Das Alias wird an "https://zap-hosting.com/" angehängt. Der Link sieht dann so aus: 
-
-"https://zap-hosting.com/alias". 
-
-Wenn du kein Alias erstellst, wird ein zufälliges Alias erstellt.
-:::
-
-`Linktext`
+Die neuesten und aktuellsten Werte für die Provisionen kannst du im [Abschnitt Bedingungen](https://zap-hosting.com/en/customer/affiliate/conditions/) auf der Partnerseite einsehen.
 
 :::info
-Für den Link wird ein HTML-Code erstellt, den du einfach in Webseiten einfügen kannst. Der Linktext ist dann der klickbare Text, der im Fließtext erscheint (z. B. "Klick mich")
+Die Anzeige des Partnerguthabens basiert auf Zahlungen inklusive Mehrwertsteuer. Wenn du kein deutsches Unternehmen/keine deutsche Privatperson bist, die die Mehrwertsteuer auf seine Rechnungen aufschlagen muss, musst du die Mehrwertsteuer vor der Einreichung deiner Rechnung abziehen. Das bedeutet, dass du bei der Auszahlung die Mehrwertsteuer von deinem angezeigten Partnerguthaben abziehen musst. Du kannst dies tun, indem du den angezeigten Betrag durch 1,19 (19% deutsche Mehrwertsteuer) teilst.
 
-Beispiel: `<a href="https://zap-hosting.com/diesisteinaffiliatelink">klick mich</a>`
+Beispiel: Du hast 100 € Affiliate-Guthaben. Du solltest Folgendes in Rechnung stellen: 100 / 1,19 = 84,03 € insgesamt. Wenn du mit ZAP Coins auszahlst, erhältst du den vollen Betrag.
+
+Wenn die Mehrwertsteuer in der Rechnung ausgewiesen werden muss, wird der volle Betrag inklusive Mehrwertsteuer in der Rechnung ausgewiesen. Bei einem Partnerguthaben von 100€ wird eine Rechnung über 100€, bestehend aus 84,03€ Rechnungsbetrag und 15,97€ MwSt., verschickt. Bei Rechnungen aus dem Ausland muss die Mehrwertsteuer in der Regel nicht auf der Rechnung ausgewiesen werden.
 :::
 
-`Ziel`
+## Erstellen eines Affiliate-Links & Banners
+Um einen neuen Affiliate-Link oder Banner zu erstellen, gehst du einfach auf die [Affiliate-Hauptseite](https://zap-hosting.com/en/customer/affiliate/) und scrollst nach unten. Dort kannst du deine bestehenden Links und Banner sehen, aber auch neue über den grünen Button **Werbemittel erstellen** erstellen.
 
-:::info
-Du kannst die Seite, auf die dein Affiliate-Link weiterleitet, selbst aussuchen. Wenn du beispielsweise einen Minecraft-Videokanal betreibst, kannst du den Link einstellen, dass er auf unsere "[Minecraft Server mieten](https://zap-hosting.com/de/minecraft-server-mieten/)"-Seite weiterleitet.
+![image](https://screensaver01.zap-hosting.com/index.php/s/3KTLeT7y4PzZtLS/preview)
 
-Generell empfehlen wir, unsere [Startseite](https://zap-hosting.com/de/) als Ziel zu verwenden
+Daraufhin öffnet sich ein Menü, in dem du eine Reihe von Werten anpassen kannst. Zunächst solltest du auswählen, ob es sich um einen einfachen Link oder ein Banner handeln soll.
+
+Die einzelnen Werte werden im Folgenden genauer erklärt:
+
+#### Alias
+In diesem Feld kannst du die eindeutige Alias-URL-Endung angeben, die für dein Banner oder deinen Link verwendet werden soll. Diese Endung darf nicht doppelt vorkommen, sie muss also vorhanden sein.
+
+Wenn du zum Beispiel `ilovezap` in diesem Feld angibst, bedeutet das, dass dein Banner/Link über `https://zap-hosting.com/ilovezap` erreichbar ist.
+
+Wenn du keinen eigenen Alias angibst, wird automatisch ein zufälliger Alias für dich generiert.
+
+#### Wähle eine Vorlage oder einen Linktext
+Dieses Feld hängt von der Art des Werbemittels ab, das du ausgewählt hast. 
+
+Wenn du **Banner** gewählt hast, musst du eine Vorlage auswählen. Du kannst das tun, indem du das Dropdown-Menü benutzt und einen unserer vielen Standardbanner auswählst, das deinen Bedürfnissen und deinem Aussehen entspricht.
+
+Wenn du hingegen **Link** gewählt hast, kannst du einen Linktext angeben, der verwendet wird, um den HTML-Code für deinen Link zu erzeugen. Wenn du z.B. "klick das" auswählst, zeigt der erzeugte HTML-Code den Text "klick mich" an, der mit dem Partnerlink, den du erstellst, verlinkt ist. 
+
+Du kannst das hier sehen: `<a href="https://zap-hosting.com/diesisteinaffiliatelink">Klick mich</a>`
+
+#### Auswählen des Zielprodukts
+In diesen Feldern kannst du eine Reihe von Optionen auswählen, um die Weiterleitung deines neuen Affiliate-Links nach deinen Wünschen zu gestalten.
+
+Wir empfehlen, die Option **Produkte kaufen** zu aktivieren, da sie den Kunden direkt zum Serverkonfigurator für das ausgewählte Produkt führt und nicht zur Produktseite. Je weniger Seiten ein Nutzer durchlaufen muss, desto wahrscheinlicher ist es, dass er eine Bestellung aufgibt.
+
+Als Nächstes kannst du über das Dropdown-Menü das Feld **Produkt** auswählen. Dorthin wird dein neuer Partnerlink den Nutzer weiterleiten, wenn dieser ihn aufruft. Wenn du einen Gameserver auswählst, gibt es eine zusätzliche Option **Spiel**, die du auswählen musst, ansonsten ist das Produkt die einzige Option.
+
+#### Abschluss des Erstellungsprozesses
+Wenn du alles nach deinen Vorstellungen ausgefüllt hast, drückst du einfach auf die grüne Schaltfläche **Erstellen**, um mit der Erstellung deines Banners oder Links fortzufahren. Du solltest eine Erfolgsmeldung erhalten, wenn alles korrekt ist und dein neuer Banner oder Link erscheint unter dem Abschnitt **Deine Banner/Links**, wenn du nach unten scrollst.
+
+![image](https://screensaver01.zap-hosting.com/index.php/s/724JJWXKptMB9qR/preview)
+
+## Auszahlen & Übertragen
+
+Du kannst dir dein Partnerprogramm-Guthaben entweder in ZAP-Coins oder in Echtgeld auszahlen lassen. Gehe dazu wieder auf die [Affiliate-Seite](https://zap-hosting.com/en/customer/affiliate/) und klicke auf den blauen Button **Auszahlung/Umbuchung**.
+
+![image](https://screensaver01.zap-hosting.com/index.php/s/639MHYsCXnf7YeP/preview)
+
+Folge nun dem entsprechenden Abschnitt unten, um in eine der beiden Währungen zu überweisen.
+
+### ZAP-Coins
+
+:::warning
+Sobald du deine Credits in ZAP-Coins transferiert hast, kannst du sie nicht mehr auszahlen lassen!
 :::
 
+Wähle bei der Menüaufforderung **ZAP-Guthaben** als Option aus. Wähle aus, ob du das gesamte Guthaben oder nur einen bestimmten Teil davon übertragen möchtest. Wenn du fertig bist, drückst du zur Bestätigung einfach auf die grüne Taste **Übertragen**.
 
-Wenn du alles ausgefüllt hast, klicke auf "Erstellen", um den Link zu erstellen.
+![image](https://screensaver01.zap-hosting.com/index.php/s/AEoNwL7sMGsQD6Z/preview)
 
+### Echtgeld (PayPal)
 
-## Affiliate-Banner erstellen
+Wir bieten derzeit nur Auszahlungen in Echtgeld über PayPal an. Um eine Auszahlung über PayPal vorzunehmen, musst du eine Rechnung erstellen und an uns senden, die deine ZAP ID enthält.
 
-Um ein Affiliate Banner zu erstellen, klicke auf der "[Freunde werben-Seite](https://zap-hosting.com/de/customer/affiliate/)" auf "Neues Werbemittel erstellen" und wähle den Button "Banner" aus. Dann kannst du das Banner erstellen, indem du folgende Felder ausfüllst und auf "erstellen" klickst:
+Rufe den [PayPal Invoice Creator](https://www.paypal.com/invoice/create?fromWidget=newuser) auf und fülle die Rechnung entsprechend aus:
 
-`Alias`
+- Gib unsere Unternehmensdaten als Empfänger an: `ZAP-Hosting GmbH & Co. KG, Hafenweg 8, 48155 Münster, Deutschland`
+- Die Beschreibung muss enthalten: `ZAP Affiliate Payout [deine_zapid]`
+- Die Rechnung muss gesendet werden an: `m.kluck@zap-hosting.com`
 
-:::info
-Neben dem Banner wird ein Link erstellt, auf den das Banner verweist. Du kannst deinen Banner-Link anpassen, wie du willst, damit der Link lesbar wird und einfach gemerkt werden kann. Das Alias wird an "https://zap-hosting.com/" angehängt. Der Link sieht dann so aus: 
-
-"https://zap-hosting.com/alias". 
-
-Wenn du kein Alias erstellst, wird ein zufälliges Alias erstellt.
+:::note
+Deine ZAP ID-Nummer findest du oben rechts auf unserer Website, wenn du eingeloggt bist. Sie hat ein Format wie `zap123456`.
 :::
-
-
-`Vorlage`
-
-:::info
-Hier wählst du die Vorlage aus einer Reihe verschiedener Banner aus. Diese sind bei uns gespeichert und der HTML-Code wird so generiert, dass das Banner über unsere Seite geladen wird, wenn du den Code korrekt einbaust.
-
-Du kannst das Banner natürlich auch selbst in deinen Kanal oder auf deine Webseite hochladen und es dort mit deinem Affiliate-Link verknüpfen. Dafür speichere das gewünschte Banner in der Vorschau einfach per Rechtsklick-Speichern bei dir ab.
-:::
-
-`Ziel`
-
-:::info
-Du kannst die Seite, auf die dein Banner-Link weiterleitet, selbst aussuchen. Wenn du beispielsweise einen Minecraft-Videokanal betreibst, kannst du den Link einstellen, dass er auf unsere "[Minecraft Server mieten](https://zap-hosting.com/de/minecraft-server-mieten/)"-Seite weiterleitet.
-
-Generell empfehlen wir, unsere [Startseite](https://zap-hosting.com/de/) als Ziel zu verwenden
-:::
-
-Wenn du alles ausgefüllt hast, klicke auf "Erstellen", um das Banner zu erstellen.
-
-## Wie beantrage ich eine Auszahlung?
-
-Um eine Auszahlung zu beantragen, klicke in der Übersicht auf der "[Freunde werben-Seite](https://zap-hosting.com/de/customer/affiliate/)" einfach auf den Button "Auszahlung/Umbuchung". Dann kannst du auswählen, ob du dein Affiliate-Guthaben in ZAP-Coins umbuchen willst oder das Guthaben ausgezahlt bekommen möchtest. Wir können Guthaben auf dein Bankkonto überweisen oder per Paypal auszahlen.
-
-:::info
-**Achtung:** Wenn du dein Guthaben in ZAP-Coins umbuchen lässt, kannst du dir diese ZAP-Coins nicht mehr auszahlen lassen. Dieser Schritt ist endgültig!
-:::
-
-Per PayPal auszahlen lassen:**
-Nutze das PayPal Rechnungs Feature: "[PayPal Invoice Creator](https://www.paypal.com/invoice/create?fromWidget=newuser)"
-
-Hier muss unsere volle Unternehmens-Adresse als Rechnungsempfänger angegeben werden (dies kann getan werden, indem ein neuer Kunde hinzugefügt wird/ein bestehender Kunde bearbeitet wird):
-
-`ZAP-Hosting GmbH & Co. KG,
-Hafenweg 8,
-48155 Münster,
-Deutschland`
-
-
-In der Beschreibung muss `zap affiliate payout <Kundennummer>` vorkommen.
-
-Ebenfalls hinzugefügt werden (als "Rechnung von") müssen die Adressinformationen des Individuums bzw. Unternehmens, das die Rechnung abschickt. Diese Informationen können unter "Geschäftsinformationen bearbeiten" hinzugefügt werden.
-
-Bitte sende die PayPal Rechnung an: `m.kluck@zap-hosting.com`

@@ -5,7 +5,7 @@ description: Informationen über den Blog-Beitragsprozess für das ZAP-Hosting C
 sidebar_label: Blogs Prozess
 ---
 
-![Blogs Banner](https://github.com/zaphosting/docs/assets/42719082/fd9e30ef-af84-45d4-b93e-fc60130c04b6)
+![Blogs Banner](https://screensaver01.zap-hosting.com/index.php/s/ysxLZ26K3dSRLJQ/preview)
 
 Auf dieser Seite erfährst du mehr über den Prozess für Beiträge zu unseren ZAP-Hosting.com-Blogs. Der Prozess wird auf dieser Seite in chronologischer Reihenfolge beschrieben, daher empfehlen wir, von hier an zu beginnen.
 

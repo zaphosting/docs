@@ -5,13 +5,11 @@ description: Informationen zur Bewerbung als ZAP-Hosting-Partner, einschließlic
 sidebar_label: Einführung
 ---
 
-
+![Partner Programm](https://screensaver01.zap-hosting.com/index.php/s/yLdaKZLHQioeKCz/preview)
 
 ## Einführung
 
 Du hast einen YouTube-Kanal, streamst auf Twitch oder leitest einen Gaming-Clan? Dann kannst du dich als Partner bewerben. Unsere Partner bewerben ZAP-Hosting auf ihren Kanälen und können im Gegenzug beispielsweise **kostenfreie Server, Hardware** oder **Server** für Gewinnspiele oder **Geld** erhalten.
-
-
 
 ## Zielgruppe
 
@@ -27,8 +25,6 @@ Ein entscheidender Faktor ist, dass die von dir gewählte Plattform eine gewisse
 
 Wenn du zum Beispiel ein Content Creator auf YouTube bist, der Minecraft-Videos mit einer akzeptablen Zuschauerzahl erstellt, wärst du perfekt für unser Partnerprogramm geeignet. Auf der anderen Seite ist ein Kanal für Schminktipps nicht ideal für unser Partnerprogramm geeignet, da die Zielgruppe nicht zu unserem Geschäftsfeld passt.
 
-
-
 ## Erforderliche Reichweite 
 
 Als Partner muss eine gewisse Reichweite vorhanden sein, damit eine Partnerschaft für uns Sinn macht. Wir achten auf eine Reihe von Statistiken und Zahlen, um festzustellen, welche Anwendungen als Partner ideal sind.
@@ -39,8 +35,6 @@ Als Inhaltsersteller würden wir beispielsweise besonders auf die Anzahl der Vid
 Als Faustregel gilt, dass die Reichweite im vierstelligen Bereich (1.000+) liegen muss, um als neuer Partner in Betracht gezogen und akzeptiert zu werden.
 :::
 
-
-
 ## Was wir bieten - Die Vorteile!
 
 Als ein offizieller Partner von ZAP-Hosting kannst du folgende Vorteile erhalten:
@@ -50,8 +44,6 @@ Als ein offizieller Partner von ZAP-Hosting kannst du folgende Vorteile erhalten
 - Du erhältst bessere Affiliate Privisionskonditionen.
 - Für Events und Aktionen stellen wir gerne Goodies (z. B. ZAP-Coins, Server, Hardware) bereit.
 - Du wirst auf unserer [Partnerseite](https://zap-hosting.com/de/partner/) verlinkt.
-
-
 
 ## Bewerbung als Partner
 
