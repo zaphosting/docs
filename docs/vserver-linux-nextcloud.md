@@ -1,13 +1,13 @@
 ---
 id: vserver-linux-nextcloud
 title: Installation of Nextcloud
-description: Information on how to set up a Nextcloud server on your VPS from ZAP-Hosting - ZAP-Hosting.com documentation
+description: Information on how to set up a Nextcloud server on your server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Install Nextcloud
 ---
 
 
 
-## What is Nextcloud?
+## Introduction
 
 Nextcloud is an open source cloud solution and fork of Owncloud, which was founded in 2016 by former Owncloud founder Frank Kalitschek.
 
@@ -43,10 +43,8 @@ The requirements are based on our own experience and the information provided by
 
 
 
-## Nextcloud set up
 
-
-### Preparation
+## Preparation
 
 A connection has to be established via a SSH client in order to install the cloud on a Linux server. In case you are not sure how to use SSH, here is a guide how to do so: [Initial access (SSH)](vserver-linux-ssh.md)
 
@@ -425,7 +423,7 @@ $AUTOCONFIG = array(
 </TabItem>
 </Tabs>
 
-### Installation
+## Installation
 
 Now the actual installation of Nextcloud can be started. The software needs to be downloaded and unpacked:
 ```
@@ -451,7 +449,7 @@ The installation script configuration appears, in which a root user is created a
 ![image](https://user-images.githubusercontent.com/13604413/159172341-efd5c39c-cf32-44d5-8518-51632d3fb475.png)
 
 
-### Security and safety
+## Security and safety
 
 **Setup Warnings**
 

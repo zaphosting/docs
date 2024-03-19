@@ -1,11 +1,13 @@
 ---
 id: vserver-linux-ssh
-title: Erstzugriff auf Linux Server mit SSH
-description: Informationen, wie der Erstzugriff mit SSH auf deinen Linux vServer von ZAP-Hosting funktioniert - ZAP-Hosting.com Dokumentation
+title: Erstzugriff mit SSH
+description: Informationen, wie der Erstzugriff mit SSH auf deinen Server von ZAP-Hosting funktioniert - ZAP-Hosting.com Dokumentation
 sidebar_label: Erstzugriff (SSH)
 ---
 
-### SSH-Verbindung
+
+
+## Einführung
 
 Die Linux Server Produkte beinhalten standardmäßig keine grafische Verwaltungsoberfläche, weshalb die Verbindung und Verwaltung über einen SSH-Client (Konsole) erfolgt. Hierbei gibt es eine große Auswahl an SSH-Clients. Im Folgenden gibt es eine Übersicht der bekannten/oft genutzten SSH-Clients. 
 

@@ -1119,7 +1119,6 @@ const sidebars = {
         'vserver-linux-ssl',
         'vserver-linux-rsync',
         'vserver-linux-security-tips',
-        'vserver-linux-ssh-server',
       ]
     },
     {
@@ -1137,6 +1136,7 @@ const sidebars = {
         'vserver-linux-openvpn',
         'vserver-linux-phpmyadmin',
         'vserver-linux-plesk',
+        'vserver-linux-ssh-server',
         'vserver-linux-webserver',
         'vserver-linux-xrdp',
       ],
@@ -1207,7 +1207,6 @@ const sidebars = {
     'dedicated-ilo',
     'dedicated-iso',
     'dedicated-raid',
-    'vserver-linux-gs-interface',			
     'dedicated-reset',		
     {
       type: 'html',
@@ -1237,6 +1236,42 @@ const sidebars = {
       })(),
       defaultStyle: true,
     },
+    'vserver-linux-gs-interface',
+    {
+      type: "category",
+      label: "Services",
+      items: [
+        'vserver-linux-cockpit',	
+        'vserver-linux-databases',
+        'vserver-linux-docker',
+        'vserver-linux-ftp-install',
+        'vserver-linux-java',
+        'vserver-linux-jitsi',
+        'vserver-linux-mastodon',
+        'vserver-linux-nextcloud',
+        'vserver-linux-openvpn',
+        'vserver-linux-phpmyadmin',
+        'vserver-linux-plesk',
+        'vserver-linux-ssh-server',
+        'vserver-linux-webserver',
+        'vserver-linux-xrdp',
+      ],
+    },
+    {
+      type: "category",
+      label: "Network",
+      items: [
+        'network-linux-placeholder',
+      ]
+    },
+    {
+      type: "category",
+      label: "Security",
+      items: [
+        'vserver-linux-security-tips',
+        'vserver-linux-ssh2fa',
+      ]
+    },
     {
       type: 'html',
       className: 'sidebar-title',
@@ -1247,6 +1282,15 @@ const sidebars = {
         }
       })(),
       defaultStyle: true,
+    },
+    {
+      type: "category",
+      label: "Services",
+      items: [
+        'vserver-windows-ftpserver',
+        'vserver-windows-installmysql',
+        'vserver-windows-plesk',
+      ]
     },
     {
       type: "category",

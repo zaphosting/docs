@@ -5,6 +5,14 @@ description: Information on how to install Plesk on your Linux VPS from ZAP-Host
 sidebar_label: Install Plesk
 ---
 
+
+
+## Introduction
+
+Plesk is a comprehensive web hosting and server management platform that allows users to manage websites, servers, email accounts and more through a user-friendly interface. It is a versatile solution that is suitable for beginners as well as experienced web developers and system administrators. 
+
+
+
 ## Install Plesk
 
 :::info

@@ -1,12 +1,12 @@
 ---
 id: vserver-linux-java
 title: Installation von Java
-description: Informationen, wie du Java auf deinen vServer von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentation
+description: Informationen, wie du Java auf deinem Server von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Java installieren
 ---
 
 
-## Was ist Java und wofür wird es benötigt?
+## Einführung
 
 Java ist weltweit eine sehr stark verwendete Programmiersprache, die für zahlreiche Programme und Dienste eingesetzt wird. Damit diese Programme funktionieren ist es zwingend notwendig, dass Java auf dem System installiert ist. Im Folgenden erfährst du, wie du für die angebotenen Linux Betriebssysteme Java auf deinem System installieren kannst. 
 

@@ -5,7 +5,7 @@ description: Information on how to install Nginx and Apache web servers on your 
 sidebar_label: Install webserver
 ---
 
-## Webserver installation 
+## Introduction
 
 Nginx and Apache are popular web services that are used to deliver web pages to a user's browser. Below we will show you how to install one of the services on your system. 
 

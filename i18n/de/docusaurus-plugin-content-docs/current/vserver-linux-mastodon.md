@@ -1,11 +1,12 @@
 ---
 id: vserver-linux-mastodon
 title: Installation von Mastodon
-description: Informationen, wie du einen Mastodon Server auf deinem vServer von ZAP-Hosting einrichten kannst - ZAP-Hosting.com Dokumentation
+description: Informationen, wie du einen Mastodon Server auf deinem Server von ZAP-Hosting einrichten kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Mastodon installieren
 ---
 
-## Was ist Mastodon?
+## Einführung
+
 Mastodon ist ein verteilter Mikroblogging-Dienst, der seit 2016 von Eugen Rochko und der von ihm in Jena gegründeten und in Berlin ansässigen Mastodon gGmbH entwickelt wird.
 
 ![image](https://user-images.githubusercontent.com/32127408/207198152-fa6ca1e6-b845-4fd8-83d9-cc4a8fb91f9f.png)

@@ -5,12 +5,16 @@ description: Informationen wie du phpMyAdmin auf deinen Linux vServer von ZAP-Ho
 sidebar_label: phpMyAdmin installieren
 ---
 
->Es wird ein funktionierender MySQL/MariaDB sowie ein Apache2 Server inkl. PHP vorausgesetzt!
 
-## System aktualisieren
+## Einführung
+
+phpMyAdmin ist ein kostenloses, webbasiertes Werkzeug zur Verwaltung von MySQL- und MariaDB-Datenbanken. Es bietet eine benutzerfreundliche Oberfläche, über die Benutzer Datenbanken erstellen, bearbeiten, verwalten und löschen können, ohne SQL-Befehle manuell eingeben zu müssen. 
+
+## Vorbereitung
 
 Zuerst sollte geprüft werden, ob der Server auf dem neusten Stand ist. 
 Dazu wird der Update-Befehl ausgeführt: 
+
 ```
 sudo apt update
 ```
@@ -26,7 +30,7 @@ Nun befindet sich der Server auf dem neusten Stand.
 apt install sudo -y
 ```
 
-## Start der Installation von phpMyAdmin
+## Installation
 
 Zuerst wird das Installationsverzeichnis aufgerufen, in dem phpMyAdmin installiert werden soll. 
 Das geschieht mit folgendem Befehl: 
@@ -63,7 +67,7 @@ Nachdem dies erledigt ist, kann die ursprüngliche ZIP-Datei entfernt werden sow
 rm phpmyadmin.zip; chmod -R 0755 phpmyadmin
 ```
 
-### Erstellung der Apache2 phpMyAdmin-Config 
+**Erstellung der Apache2 phpMyAdmin-Config**
 
 Die Apache2-phpMyAdmin-Config wird mit folgendem Befehl erstellt:
 
@@ -104,7 +108,9 @@ Anschließend muss der Apache2 Server neu geladen werden:
 systemctl reload apache2
 ```
 
-### Benötigtes temporäres Verzeichnis für phpMyAdmin anlegen
+
+
+** Benötigtes temporäres Verzeichnis für phpMyAdmin anlegen** 
 
 Damit phpMyAdmin auch ordnungsgemäß funktioniert, muss folgendes Verzeichnis angelegt werden:
 ```
@@ -114,4 +120,4 @@ Das gerade erstelle Verzeichnis benötigt noch die richtigen Rechte:
 ```
 chown -R www-data:www-data /usr/share/phpmyadmin/tmp/
 ```
-Fertig ist die phpMyAdmin Installation. Das phpMyAdmin Webinterface kann nun via Browser mit /phpmyadmin geöffnet werden, z. B. 123.123.123.123/phpmyadmin
+Fertig ist die phpMyAdmin Installation. Das phpMyAdmin Webinterface kann nun via Browser mit /phpmyadmin geöffnet werden, z. B. 123.123.123.123/phpmyadmin

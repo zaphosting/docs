@@ -1,11 +1,19 @@
 ---
 id: vserver-linux-ssh2fa
-title: Zwei Faktor Authentifizierung für Linux Server einrichten
-description: Informationen, wie du Zwei Faktor Authentifizierung für deinen Linux vServer von ZAP-Hosting einrichten kannst - ZAP-Hosting.com Dokumentation
-sidebar_label: Zwei Faktor Authentifizierung
+title: SSH Zwei-Faktor-Authentifizierung 
+description: Informationen, wie du Zwei Faktor Authentifizierung für deinen Linux Server von ZAP-Hosting einrichten kannst - ZAP-Hosting.com Dokumentation
+sidebar_label: 2FA (SSH)
 ---
 
-## Google Authenticator Installieren
+
+
+## Einführung
+
+Der SSH-Zweifaktorauthentifizierung (2FA) Service von Google, bekannt als "Google Authenticator SSH", erweitert die Sicherheit von SSH-Zugängen (Secure Shell) durch die Hinzufügung einer zweiten Authentifizierungsebene. Während SSH bereits eine sichere Methode bietet, um eine verschlüsselte Verbindung zu einem Remote-Server herzustellen, erhöht die Integration von 2FA die Sicherheitsstufe, indem sie verlangt, dass Benutzer nicht nur ihr Passwort eingeben, sondern auch einen einmaligen Verifizierungscode, der durch den Google Authenticator generiert wird.
+
+
+
+## Installation
 
 Als Erstes musst du den Google Authenticator auf deinem Linux vServer/Rootserver installieren.
 Kopiere dir dafür einfach diese Zeile:
@@ -18,15 +26,11 @@ Danach wirst du aufgefordert werden "Y" einzugeben um das Paket zu installieren,
 
 ![](https://user-images.githubusercontent.com/61839701/166183702-67a07bf3-e199-4f20-a166-9fed0f297d1c.pn)
 
-## Google Authenticator Ausführen
-
 Führe nun den Google Authenticator aus, indem du `google-authenticator` eingibst.
 
 ![](https://user-images.githubusercontent.com/61839701/166183758-869cf62d-a242-4365-9ca3-3bbeda553870.png)
 
-Du wirst nun gefragt, ob du es ausführen möchtest, schreibe dort auch einfach "Y"
-
-Du kriegst jetzt einen großen QR Code.
+Du wirst nun gefragt, ob du es ausführen möchtest, schreibe dort auch einfach "Y". Du kriegst jetzt einen großen QR Code.
 Achte darauf, dass dein Fenster groß genug für den QR Code ist, ansonsten drücke "CTRL+C" und gib es erneut ein.
  Öffne deine Authenticator App auf deinem Smartphone und scanne den QR Code.
 Für dieses Beispiel benutzen wir den Google Authenticator.
@@ -54,33 +58,29 @@ Aus Sicherheitsgründen empfehlen wir bei allen 4 Fragen "Y" einzugeben und dann
 
 ![](https://user-images.githubusercontent.com/61839701/166183833-fdb07942-51c2-446e-b87b-e0e0d839e6d4.png)
 
-## Google Authenticator Konfigurieren
 
-Nun müssen wir noch anpassen, dass der Google Authenticator auch genutzt wird.
 
-Dafür sind nur zwei Dateiänderungen nötig.
+## Konfiguration
+
+Nun müssen wir noch anpassen, dass der Google Authenticator auch genutzt wird. Dafür sind nur zwei Dateiänderungen nötig.
 
 ### /etc/ssh/sshd_config
 
-In der `/etc/ssh/sshd_config` aktivieren wir die erforderlichen Module.
+In der `/etc/ssh/sshd_config` aktivieren wir die erforderlichen Module. Öffne die `/etc/ssh/sshd_config` Datei, indem du 
 
-Öffne die `/etc/ssh/sshd_config` Datei, indem du 
 ```
 sudo nano /etc/ssh/sshd_config
 ```
 eingibst.
 
-Du bist jetzt in einem Text Editor. Du kannst dich mit den Pfeiltasten bewegen, frei Text löschen und eingeben und schließlich mit `CTRL + X` dann `Y` und letztlich `Enter` die Datei speichern.
-
-Stelle sicher das die beiden Zeilen `UsePAM` und `ChallengeResponseAuthentication` auf `yes` stehen. So wie hier:
+Du bist jetzt in einem Text Editor. Du kannst dich mit den Pfeiltasten bewegen, frei Text löschen und eingeben und schließlich mit `CTRL + X` dann `Y` und letztlich `Enter` die Datei speichern. Stelle sicher das die beiden Zeilen `UsePAM` und `ChallengeResponseAuthentication` auf `yes` stehen. So wie hier:
 
 ![](https://user-images.githubusercontent.com/61839701/166183852-ea0dc9dd-b5db-40eb-b90e-6c53e71d0908.png)
 
 ![](https://user-images.githubusercontent.com/61839701/166183859-2fe15906-efec-4c62-b24f-a1b0fc364ebd.png)
 
-Speichere danach die Datei mit `CTRL + X` dann `Y` und letztlich `Enter`
+Speichere danach die Datei mit `CTRL + X` dann `Y` und letztlich `Enter`. Starte danach SSH neu mit 
 
-Starte danach SSH neu mit 
 ```
 sudo systemctl restart ssh
 ```
@@ -98,11 +98,11 @@ Der letzte Schritt ist jetzt an das Ende der Datei runterzuscrollen und `auth re
 
 Speichere danach die Datei mit `CTRL + X` dann `Y` und letzlich `Enter`
 
-## Einloggen mit 2FA
 
-Jetzt ist die Zeit gekommen, sich das erste Mal mit 2FA einzuloggen.
 
-Nachdem du die oben genannten Schritte befolgt hast, musst du nur noch deine SSH Verbindung neu starten.
+## Zugang testen
+
+Jetzt ist die Zeit gekommen, sich das erste Mal mit 2FA einzuloggen. Nachdem du die oben genannten Schritte befolgt hast, musst du nur noch deine SSH Verbindung neu starten.
 
 ![image](https://user-images.githubusercontent.com/13604413/159171829-90fb3349-c238-4558-818a-0657b87062e5.png)
 

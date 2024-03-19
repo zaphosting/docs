@@ -5,13 +5,14 @@ description: Information on how to install and set up a MySQL server on your Win
 sidebar_label: Install MySQL
 ---
 
-## MySQL Server on Windows
+
+## Introduction
 
 A MySQL server is needed for various applications and can contain important data for example for a game server or a website. In the following we explain how to set up your own MySQL database server on your Windows VPS or Root server.
 
 
 
-## Begin of the installation process
+## Installation
 
 At the beginning you connect via remote desktop connection to your server and download the latest version of MariaDB, which is used for the database server: [MariaDB Download](https://native-network.net/downloads/download/895/). 
 
@@ -35,7 +36,7 @@ Afterwards you click on **Next** until you reach the end of the installation, th
 
 Your database server is now online and ready to use!
 
-## Open the MySQL ports for an external connection
+## Configuration of external access
 
 If you have enabled "Enable access from remote machins for root user" during installation, you must also specify the MySQL port **3306** in the 
 Windows-Firewall. To do so, open it and create a new rule there.
