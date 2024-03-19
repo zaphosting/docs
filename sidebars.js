@@ -1259,13 +1259,6 @@ const sidebars = {
     },
     {
       type: "category",
-      label: "Network",
-      items: [
-        'network-linux-placeholder',
-      ]
-    },
-    {
-      type: "category",
       label: "Security",
       items: [
         'vserver-linux-security-tips',
