@@ -1,6 +1,6 @@
 ---
 id: contribution-guides
-title: Leitfaden Prozess
+title: Anleitung Prozess
 description: Informationen zum Beitragsprozess der Guides (ZAP-Docs) für das ZAP-Hosting Community Contributions Programm - ZAP-Hosting.com Dokumentation
 sidebar_label: Guides Prozess
 ---
@@ -13,7 +13,7 @@ Auf dieser Seite erfährst du mehr über den Prozess, wie du zu unseren ZAP-Docs
 
 Der erste Teil des Prozesses besteht darin, einen Vorschlag über unser GitHub-Repository zu erstellen. Du musst uns genau beschreiben, welche Änderungen und Verbesserungen du vorschlägst.
 
-Achte bitte darauf, dass deine Idee kein Duplikat eines bestehenden Leitfadens oder Vorschlags ist und dass du fest davon überzeugt bist, dass sie für Anfänger oder fortgeschrittene Nutzer nützlich ist. Vorhandene Vorschläge kannst du auf der [Issues Page](https://github.com/zaphosting/docs/issues?q=is%3Aissue) einsehen.
+Achte bitte darauf, dass deine Idee kein Duplikat eines bestehenden Anleitungs oder Vorschlags ist und dass du fest davon überzeugt bist, dass sie für Anfänger oder fortgeschrittene Nutzer nützlich ist. Vorhandene Vorschläge kannst du auf der [Issues Page](https://github.com/zaphosting/docs/issues?q=is%3Aissue) einsehen.
 
 :::tip
 Wir empfehlen, unsere [Guidelines Page](contribution-guides-guidelines.md) zu lesen, um den Inhalt und den Dokumentationsstil zu verstehen, den wir verfolgen.
@@ -21,13 +21,13 @@ Wir empfehlen, unsere [Guidelines Page](contribution-guides-guidelines.md) zu le
 
 ### Nach welchen Themen suchen wir?
 
-Für unsere Leitfäden suchen wir ein breites Spektrum an praktischen und qualitativ hochwertigen Anleitungen zu Produkten, Dienstleistungen und Open-Source-Software, die über ZAP-Hosting verfügbar sind oder sich auf einen unserer Dienste beziehen. Wenn du ein paar Ideen oder Inspirationen brauchst, schau dir unsere Seiten in den ZAP-Docs an, um ein Gefühl für unseren Schreibstil und die Art der Inhalte zu bekommen, die wir veröffentlichen.
+Für unsere Anleitungen suchen wir ein breites Spektrum an praktischen und qualitativ hochwertigen Anleitungen zu Produkten, Dienstleistungen und Open-Source-Software, die über ZAP-Hosting verfügbar sind oder sich auf einen unserer Dienste beziehen. Wenn du ein paar Ideen oder Inspirationen brauchst, schau dir unsere Seiten in den ZAP-Docs an, um ein Gefühl für unseren Schreibstil und die Art der Inhalte zu bekommen, die wir veröffentlichen.
 
-Wie bereits in der Einleitung erwähnt, müssen alle Inhalte, die wir erstellen, original sein, um die Urheberrechtsgesetze einzuhalten. Jegliche unerlaubte Nutzung von KI/generativen Tools und/oder anderem geistigen Eigentum ist strengstens untersagt. Unsere Leitfäden zielen darauf ab, qualitativ hochwertige Informationen durch eine Reihe von Schritten zu liefern, um sicherzustellen, dass die Leser/innen verstehen, was sie tun und wie sie es tun können, mit dem Ziel, die Leser/innen aufzuklären und ihnen eine Lösung zu bieten.
+Wie bereits in der Einleitung erwähnt, müssen alle Inhalte, die wir erstellen, original sein, um die Urheberrechtsgesetze einzuhalten. Jegliche unerlaubte Nutzung von KI/generativen Tools und/oder anderem geistigen Eigentum ist strengstens untersagt. Unsere Anleitungen zielen darauf ab, qualitativ hochwertige Informationen durch eine Reihe von Schritten zu liefern, um sicherzustellen, dass die Leser/innen verstehen, was sie tun und wie sie es tun können, mit dem Ziel, die Leser/innen aufzuklären und ihnen eine Lösung zu bieten.
 
-#### Liste gesuchter Leitfäden
+#### Liste gesuchter Anleitungen
 
-Hier findest du eine nützliche Liste mit Vorschlägen für neue Leitfäden, die du vielleicht schreiben möchtest. Bestimmte Leitfadenthemen und Vorschläge können sogar einen zusätzlichen Belohnungsbonus haben. Du kannst die [Liste manuell hier](https://docs.google.com/document/d/13R321FP6Yo3TMQZ07vMARQFlX6n_Or6RIrLpU7IsMfs/edit?usp=sharing) aufrufen.
+Hier findest du eine nützliche Liste mit Vorschlägen für neue Anleitungen, die du vielleicht schreiben möchtest. Bestimmte Anleitungthemen und Vorschläge können sogar einen zusätzlichen Belohnungsbonus haben. Du kannst die [Liste manuell hier](https://docs.google.com/document/d/13R321FP6Yo3TMQZ07vMARQFlX6n_Or6RIrLpU7IsMfs/edit?usp=sharing) aufrufen.
 
 <iframe width="800" height="750" src="https://docs.google.com/document/d/e/2PACX-1vRACoNJMjk3rcWyo6LDt8WCvtqB17JpdjsPW3YHpLaZJgfPxGlt4pDEnD1ezOwGW1eljWZYPSyfgrb3/pub?embedded=true"></iframe>
 <br></br>
@@ -52,12 +52,12 @@ Nachdem du deinen Vorschlag eingereicht hast, versuchen wir, uns innerhalb von 3
 
 In unserer Antwort geben wir dir zusätzliches Feedback oder Details, die wir bezüglich deines Vorschlags ändern möchten. Wenn es ein Problem gibt, werden wir es direkt in deinem GitHub-Problem ansprechen.
 
-## Schritt 2: Schreiben des Leitfadens
+## Schritt 2: Schreiben der Anleitung
 
 Wenn du Ergänzungen oder Änderungen an unserer Dokumentation vornimmst, stelle bitte sicher, dass du unsere [Beitragsrichtlinien](contribution-guides-guidelines.md) genau befolgst, um Konsistenz und ein hochwertiges Endprodukt zu gewährleisten. In diesem Unterkapitel werden wir uns mit den besten Praktiken und dem optimalen Arbeitsablauf für die Erstellung neuer, aber auch für die Änderung bestehender Inhalte beschäftigen. Wenn du GitHub noch nicht kennst, kannst du die folgenden kurzen Anleitungen nutzen, um zu verstehen, wie du am einfachsten neue Inhalte für unsere ZAP-Docs bearbeiten oder erstellen kannst.
 
 :::note
-Vergewissere dich, dass du einen Vorschlag auf unserem [GitHub Repository](https://github.com/zaphosting/docs) erstellt hast und dass dieser von einem Mitglied unseres ZAP Contribution Teams genehmigt wurde, bevor du mit der Arbeit an einem neuen Leitfaden oder an Änderungen beginnst. Wir können dir keine Belohnung garantieren, wenn du diesen Prozess nicht befolgt hast, da er nicht genehmigt wurde.
+Vergewissere dich, dass du einen Vorschlag auf unserem [GitHub Repository](https://github.com/zaphosting/docs) erstellt hast und dass dieser von einem Mitglied unseres ZAP Contribution Teams genehmigt wurde, bevor du mit der Arbeit an einer neuen Anleitung oder an Änderungen beginnst. Wir können dir keine Belohnung garantieren, wenn du diesen Prozess nicht befolgt hast, da er nicht genehmigt wurde.
 :::
 
 **Voraussetzungen:**
@@ -74,7 +74,7 @@ Jetzt kannst du zum nächsten Abschnitt gehen, um Inhalte zu erstellen oder zu b
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-### Methoden zur Erstellung von Leitfäden
+### Methoden zur Erstellung von Anleitungen
 
 :::tip
 Wir empfehlen, **Methode 1** zu verwenden, um deine Inhalte zu schreiben, da diese Methode schneller und benutzerfreundlicher ist, besonders für neue Autoren.
@@ -83,24 +83,24 @@ Wir empfehlen, **Methode 1** zu verwenden, um deine Inhalte zu schreiben, da die
 <Tabs>
 <TabItem value="direct" label="Methode 1: Direkt über die GitHub Website" default>
 
-Der einfachste und empfohlene Weg, um Inhalte zu erstellen, ist über die GitHub-Website. In diesem Abschnitt zeigen wir dir, wie du über die GitHub-Website einen neuen Leitfaden erstellst und einen bestehenden Leitfaden bearbeitest.
+Der einfachste und empfohlene Weg, um Inhalte zu erstellen, ist über die GitHub-Website. In diesem Abschnitt zeigen wir dir, wie du über die GitHub-Website eine neue Anleitung erstellst und einen bestehenden Anleitung bearbeitest.
 
-Um zu beginnen, gehe zu der Gabel, die du im vorherigen Schritt erstellt hast. Sobald du dich auf deinem ZAP Docs Fork befindest, kannst du über den Ordner **docs** auf alle Dokumentationsleitfäden zugreifen.
+Um zu beginnen, gehe zu der Fork , die du im vorherigen Schritt erstellt hast. Sobald du dich auf deinem ZAP Docs Fork befindest, kannst du über den Ordner **docs** auf alle Dokumentationsleitfäden zugreifen.
 
 ![image](https://github.com/zaphosting/docs/assets/42719082/6a91889f-891d-440d-a5d3-720afc5d8abc)
 
-Die Dokumentationsdateien werden nach einer einfachen Konvention benannt, bei der das erste Wort auf die Art des Leitfadens verweist, in der Regel auf ein Spiel, ein Produkt oder einen Abschnitt, und alle folgenden Wörter auf den jeweiligen Abschnitt. Zum Beispiel verweist `dedicated-windows.md` auf den Abschnitt Dedicated Server, speziell für das Betriebssystem Windows.
+Die Dokumentationsdateien werden nach einer einfachen Konvention benannt, bei der das erste Wort auf die Art der Anleitung verweist, in der Regel auf ein Spiel, ein Produkt oder einen Abschnitt, und alle folgenden Wörter auf den jeweiligen Abschnitt. Zum Beispiel verweist `dedicated-windows.md` auf den Abschnitt Dedicated Server, speziell für das Betriebssystem Windows.
 
-Jetzt musst du entweder eine bestehende Leitfaden-Datei öffnen oder eine neue erstellen, wenn du neue Inhalte erstellen willst. Verwende die entsprechende Überschrift unten, um fortzufahren.
+Jetzt musst du entweder eine bestehende Anleitung öffnen oder eine neue erstellen, wenn du neue Inhalte erstellen willst. Verwende die entsprechende Überschrift unten, um fortzufahren.
 
 <Tabs>
-<TabItem value="direct_new" label="Eine neue Leitfaden-Datei erstellen" default>
+<TabItem value="direct_new" label="Eine neue Anleitung-Datei erstellen" default>
 
 In diesem Fall gehst du oben rechts in den Ordner "/docs" und drückst auf **Datei hinzufügen**. Im Menü solltest du auf **Neue Datei erstellen** klicken, damit sich eine neue Seite öffnet.
 
 ![image](https://github.com/zaphosting/docs/assets/42719082/5a980882-4b47-4e40-9d15-b3b9ea2fe650)
 
-Auf dieser Seite kannst du im obersten Verzeichnis einen Namen für deinen neuen Leitfaden festlegen und einfach mit dem Schreiben deines Inhalts beginnen.
+Auf dieser Seite kannst du im obersten Verzeichnis einen Namen für deine neue Anleitung festlegen und einfach mit dem Schreiben deines Inhalts beginnen.
 
 :::tip
 Vergiss nicht, als Dateierweiterung `.md` anzugeben.
@@ -110,7 +110,7 @@ Vergiss nicht, als Dateierweiterung `.md` anzugeben.
 
 </TabItem>
 
-<TabItem value="direct_existing" label="Eine bestehende Leitfaden-Datei bearbeiten" default>
+<TabItem value="direct_existing" label="Eine bestehende Anleitung-Datei bearbeiten" default>
 
 In diesem Fall öffnest du die Zieldatei, die du bearbeiten möchtest. In diesem Beispiel nehmen wir `dedicated-windows.md`. Nachdem du die Datei geöffnet hast, siehst du eine grobe Vorschau, wie sie in Markdown aussieht (das Layout kann aufgrund der Beta-Version leicht abweichen).
 
@@ -146,7 +146,7 @@ Gib eine sinnvolle Commit-Nachricht ein, in der du erklärst, was du getan hast,
 
 <TabItem value="local" label="Methode 2: Lokal über IDE (git cloning)">
 
-Vielleicht möchtest du Inhalte lieber lokal über eine IDE oder einen Editor wie Visual Studio Code schreiben. In diesem Abschnitt zeigen wir dir, wie du einen neuen Leitfaden erstellst und einen bestehenden Leitfaden lokal mit einem Editor bearbeitest.
+Vielleicht möchtest du Inhalte lieber lokal über eine IDE oder einen Editor wie Visual Studio Code schreiben. In diesem Abschnitt zeigen wir dir, wie du eine neue Anleitung erstellst und einen bestehenden Anleitung lokal mit einem Editor bearbeitest.
 
 **Voraussetzungen:**
 - IDE deiner Wahl, in diesem Beispiel verwenden wir [Visual Studio Code](https://code.visualstudio.com/)
@@ -158,12 +158,12 @@ Der erste Teil des Prozesses besteht darin, dein Fork-Repository zu klonen. Am e
 
 Als nächstes öffnest du den Ordner des Repositorys in Visual Studio Code. Auf der linken Registerkarte **Explorer** solltest du alle Ordner des Repositorys sehen.
 
-Die Dokumentationsdateien sind nach einer einfachen Konvention benannt: Das erste Wort bezieht sich auf die Art des Leitfadens, in der Regel ein Spiel, ein Produkt oder einen Abschnitt, und alle folgenden Wörter beziehen sich auf den jeweiligen Abschnitt. Wir empfehlen dir, auf der aktuellen Website nachzusehen, wo dein vorgeschlagener Leitfaden hingehört.
+Die Dokumentationsdateien sind nach einer einfachen Konvention benannt: Das erste Wort bezieht sich auf die Art der Anleitung, in der Regel ein Spiel, ein Produkt oder einen Abschnitt, und alle folgenden Wörter beziehen sich auf den jeweiligen Abschnitt. Wir empfehlen dir, auf der aktuellen Website nachzusehen, wo dein vorgeschlagener Anleitung hingehört.
 
 <Tabs>
 <TabItem value="local_new" label="Eine neue Anleitungsdatei erstellen" default>
 
-In diesem Fall haben wir in unserer Frage vorgeschlagen, dass wir einen neuen Leitfaden über das Spiel Rust erstellen wollen, der eine Reihe nützlicher Befehle enthält. Auf der Website können wir sehen, dass es bereits einen Abschnitt **Rust** unter gameservers gibt. Wir können also im Ordner **docs** in unserer IDE nachsehen, um die richtige Namenskonvention zu finden. Das bedeutet, dass der Dateiname der Anleitung `rust-commands.md` lauten wird. Erstelle diese Datei im Ordner **docs**.
+In diesem Fall haben wir in unserer Frage vorgeschlagen, dass wir einen neuen Anleitung über das Spiel Rust erstellen wollen, der eine Reihe nützlicher Befehle enthält. Auf der Website können wir sehen, dass es bereits einen Abschnitt **Rust** unter gameservers gibt. Wir können also im Ordner **docs** in unserer IDE nachsehen, um die richtige Namenskonvention zu finden. Das bedeutet, dass der Dateiname der Anleitung `rust-commands.md` lauten wird. Erstelle diese Datei im Ordner **docs**.
 
 Der nächste Teil besteht darin, die Metadaten der obersten Datei zu platzieren. Am einfachsten geht das, wenn du zu einer anderen Datei gehst, zum Beispiel `rust-plugins.md`. Kopiere die Top-Metadaten-Tags aus dieser Datei und füge sie in deine neue Datei ein. Bearbeite den Tag `id` so, dass er mit dem Namen deiner Datei übereinstimmt, in diesem Fall `rust-commands`, und bearbeite die anderen Metadaten entsprechend dem von dir akzeptierten Vorschlag für den neuen Guide.
 
@@ -187,11 +187,11 @@ Achte darauf, dass du in der Zeile vor deiner neuen Zeile ein Komma (`,`) einfü
 
 </TabItem>
 
-<TabItem value="local_existing" label="Eine bestehende Leitfaden-Datei bearbeiten" default>
+<TabItem value="local_existing" label="Eine bestehende Anleitungsdatei bearbeiten" default>
 
 Das Bearbeiten einer bestehenden Datei ist sehr einfach, da du nicht die gesamte Dateistruktur einrichten musst.
 
-Öffne einfach die Zieldatei des Leitfadens, die du bearbeiten möchtest, im Ordner `/docs` und schon kannst du fortfahren und alle Änderungen vornehmen, die du zuvor vorgeschlagen hast und die akzeptiert wurden.
+Öffne einfach die Zieldatei der Anleitung, die du bearbeiten möchtest, im Ordner `/docs` und schon kannst du fortfahren und alle Änderungen vornehmen, die du zuvor vorgeschlagen hast und die akzeptiert wurden.
 
 </TabItem>
 </Tabs>
@@ -210,7 +210,7 @@ Bitte beachte, dass einige Docusaurus-spezifische Elemente wie Ermahnungen (Tags
 
 Bitte beachte die [ZAP Guides Guidelines](contribution-guides-guidelines.md) für alles, was Markdown, Struktur, Terminologie und mehr betrifft.
 
-Wenn du mit den Änderungen an deinem Leitfaden fertig bist, musst du als letzten Schritt einen Commit in dein Fork-Repository einfügen und einen Pull Request stellen. Du kannst einen Commit über den GitHub-Desktop erstellen, indem du einen passenden Titel und eine Beschreibung hinzufügst und über den oberen Button einen Push sendest. Du kannst dies auch direkt über Visual Studio Code tun, wenn du das möchtest. Jetzt kannst du im Abschnitt **Inhalte einreichen** einen Pull Request erstellen, um die Inhalte an unser ZAP-Hosting Docs Repository zu übermitteln.
+Wenn du mit den Änderungen an deiner Anleitung fertig bist, musst du als letzten Schritt einen Commit in dein Fork-Repository einfügen und einen Pull Request stellen. Du kannst einen Commit über den GitHub-Desktop erstellen, indem du einen passenden Titel und eine Beschreibung hinzufügst und über den oberen Button einen Push sendest. Du kannst dies auch direkt über Visual Studio Code tun, wenn du das möchtest. Jetzt kannst du im Abschnitt **Inhalte einreichen** einen Pull Request erstellen, um die Inhalte an unser ZAP-Hosting Docs Repository zu übermitteln.
 
 :::tip
 Wir empfehlen dir, auch den optionalen Abschnitt **Lokal testen** zu lesen, da du diesen Abschnitt mit dem lokalen Testen koppeln kannst, um einen optimalen Arbeitsablauf zu schaffen, bei dem Änderungen in deinem lokalen Build unterwegs aktualisiert werden, was sich als sehr nützlich erwiesen hat. Dies ist jedoch nicht notwendig.
@@ -276,12 +276,12 @@ Unser System stellt sicher, dass deine Änderungen eine Reihe von Syntax- und Qu
 
 Nach der Prüfung deines Pull Requests bitten wir dich eventuell, einige Änderungen vorzunehmen, die wir für notwendig halten. Es kann auch sein, dass wir selbst einige Änderungen vornehmen, wenn wir es für angemessen halten. Sobald alle zusätzlichen Änderungen abgeschlossen sind, werden wir deine Änderung genehmigen, damit sie veröffentlicht werden kann.
 
-## Schritt 4: Leitfadenänderungen veröffentlichen & Bezahlung
+## Schritt 4: Anleitungänderungen veröffentlichen & Bezahlung
 
-Sobald wir deinen Pull Request nach Abschluss aller gewünschten Änderungen endgültig akzeptieren, antworten wir auf deinen Pull Request und informieren dich über die wichtigsten Details dazu. Dazu gehören auch Informationen über die Veröffentlichung deiner Änderungen und die Auszahlung deiner Belohnung für die erfolgreiche Fertigstellung deiner Änderungen am Leitfaden.
+Sobald wir deinen Pull Request nach Abschluss aller gewünschten Änderungen endgültig akzeptieren, antworten wir auf deinen Pull Request und informieren dich über die wichtigsten Details dazu. Dazu gehören auch Informationen über die Veröffentlichung deiner Änderungen und die Auszahlung deiner Belohnung für die erfolgreiche Fertigstellung deiner Änderungen am Anleitung.
 
 :::info
-Die Belohnung für diese Art von Beitrag hängt von mehreren Faktoren ab, vor allem von der Qualität und dem Umfang des geschriebenen Inhalts sowie von anderen Kriterien, die vom ZAP Contribution Team bewertet werden. Mehr über unsere Kriterien erfährst du in unserem [Leitfaden für Beitragsbelohnungen](contribution-rewards.md).
+Die Belohnung für diese Art von Beitrag hängt von mehreren Faktoren ab, vor allem von der Qualität und dem Umfang des geschriebenen Inhalts sowie von anderen Kriterien, die vom ZAP Contribution Team bewertet werden. Mehr über unsere Kriterien erfährst du in unserem [Anleitung für Beitragsbelohnungen](contribution-rewards.md).
 :::
 
 Herzlichen Glückwunsch zu deinen Beiträgen zu unseren ZAP-Hosting Guides! Wir schätzen alle deine Beiträge! 💚

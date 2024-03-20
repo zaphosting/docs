@@ -7,7 +7,7 @@ sidebar_label: Webserver installieren
 
 
 
-## Webserver Installation 
+## Einführung
 
 Nginx und Apache sind beliebte Webserver, die verwendet werden, um Webseiten an den Browser eines Benutzers zu übermitteln. Im Folgenden zeigen wir dir, wie du einen der Dienste auf deinem System installieren kannst. 
 

@@ -1,9 +1,17 @@
 ---
 id: vserver-windows-plesk
-title: Plesk auf Windows Server installieren
+title: Installation von Plesk
 description: Informationen, wie du Plesk auf deinen Windows vServer von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Plesk installieren
 ---
+
+
+
+## Einführung
+
+Plesk ist eine umfassende Webhosting- und Servermanagement-Plattform, die es Benutzern ermöglicht, Websites, Server, E-Mail-Konten und mehr über eine benutzerfreundliche Oberfläche zu verwalten. Es handelt sich um eine vielseitige Lösung, die sowohl für Einsteiger als auch für erfahrene Webentwickler und Systemadministratoren geeignet ist. 
+
+
 
 ## Verbindung zum Server herstellen
 

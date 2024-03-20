@@ -52,7 +52,7 @@ Nachdem du deinen Blog-Vorschlag eingereicht hast, bemühen wir uns, innerhalb v
 Wenn du Probleme hast, kannst du unserem [ZAP-Hosting Discord Server](https://zap-hosting.com/discord) beitreten, wo wir und die ZAP-Community dir gerne bei allen Fragen helfen. Alternativ kannst du uns auch über ein [Ticket auf unserer Website](https://zap-hosting.com/en/customer/support/) kontaktieren und in deiner Nachricht `Beitragsprogramm - Blogs` erwähnen, damit sie an das ZAP-Beitragsteam weitergeleitet wird.
 :::
 
-In unserer Ticket-Antwort werden wir dir zusätzliches Feedback oder Details mitteilen, die wir in Bezug auf deinen Blog-Vorschlag anpassen möchten. Sobald wir uns auf bestimmte Details geeinigt haben, kannst du mit dem Schreiben deines Blogs auf der Grundlage der vereinbarten Informationen fortfahren und zum nächsten Schritt in diesem Leitfaden übergehen.
+In unserer Ticket-Antwort werden wir dir zusätzliches Feedback oder Details mitteilen, die wir in Bezug auf deinen Blog-Vorschlag anpassen möchten. Sobald wir uns auf bestimmte Details geeinigt haben, kannst du mit dem Schreiben deines Blogs auf der Grundlage der vereinbarten Informationen fortfahren und zum nächsten Schritt in dieser Anleitung übergehen.
 
 ## Schritt 2: Schreiben des Blogbeitrags
 
@@ -61,7 +61,7 @@ In diesem Schritt schreibst du einen neuen Blog-Beitrag auf der Grundlage der mi
 Zurzeit akzeptieren wir Inhalte, die sowohl mit **Markdown** als auch mit **HTML5** verfasst werden können.
 
 :::tip
-Wir können dir das Markdown-Tool **[StackEdit](https://stackedit.io/app#)** empfehlen, um deine Inhalte zu verfassen und gleichzeitig die fantastischen Funktionen von Markdown zu nutzen. Alternativ dazu können wir dir auch den **[HTML5 Editor](https://html5-editor.net/)** empfehlen, wenn du lieber mit HTML5 schreibst. Du kannst diese dann direkt in dein Google Drive oder eine andere Anwendung zur Dateifreigabe exportieren und erhältst einen Link, den du mit uns teilen kannst. Mehr über Markdown-Styling erfährst du in unserem [Blog-Richtlinien-Leitfaden](contribution-blogs-guidelines.md#formatierung).
+Wir können dir das Markdown-Tool **[StackEdit](https://stackedit.io/app#)** empfehlen, um deine Inhalte zu verfassen und gleichzeitig die fantastischen Funktionen von Markdown zu nutzen. Alternativ dazu können wir dir auch den **[HTML5 Editor](https://html5-editor.net/)** empfehlen, wenn du lieber mit HTML5 schreibst. Du kannst diese dann direkt in dein Google Drive oder eine andere Anwendung zur Dateifreigabe exportieren und erhältst einen Link, den du mit uns teilen kannst. Mehr über Markdown-Styling erfährst du in unserer Blog-Richtlinien-Anleitung](contribution-blogs-guidelines.md#formatierung).
 :::
 
 :::note
@@ -88,7 +88,7 @@ Wir bemühen uns, innerhalb von 2-3 Tagen auf dein Ticket zu antworten. Wenn wir
 Sobald dein endgültiger Entwurf akzeptiert wurde, antworten wir auf dein Ticket und teilen dir die wichtigsten Details mit. Dazu gehören Informationen darüber, wann wir deinen Blogbeitrag veröffentlichen wollen, sowie die Auszahlung deiner Belohnung für die erfolgreiche Fertigstellung deines Blogbeitrags.
 
 :::info
-Die Belohnung für diese Art von Beitrag hängt von mehreren Faktoren ab, vor allem von der Qualität und dem Umfang des geschriebenen Inhalts sowie von anderen Kriterien, die vom ZAP-Beitragsteam bewertet werden. Mehr über unsere Kriterien erfährst du in unserem [Leitfaden für Beitragsbelohnungen](contribution-rewards.md).
+Die Belohnung für diese Art von Beitrag hängt von mehreren Faktoren ab, vor allem von der Qualität und dem Umfang des geschriebenen Inhalts sowie von anderen Kriterien, die vom ZAP-Beitragsteam bewertet werden. Mehr über unsere Kriterien erfährst du in unserem [Anleitung für Beitragsbelohnungen](contribution-rewards.md).
 :::
 
 Herzlichen Glückwunsch zu deinen Beiträgen für unsere ZAP-Hosting Guides! Wir schätzen alle deine Beiträge! 💚

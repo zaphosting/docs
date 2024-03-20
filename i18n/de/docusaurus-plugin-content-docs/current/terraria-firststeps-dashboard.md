@@ -11,7 +11,7 @@ sidebar_label: Dashboard
 
 Du bist an einem **Terraria Server** interessiert oder besitzt bereits einen, doch dir fehlt noch ein umfassender Überblick über die Verwaltung und die Auffindbarkeit aller notwendigen Optionen? Gerade zu Beginn kann dies eine Herausforderung darstellen. Aber keine Sorge, im Folgenden bieten wir dir eine ausführliche Einführung zur Verwaltung deines Dienstes, damit du den optimalen Durchblick hast.
 
-Nachdem du diesen Leitfaden durchgegangen bist, wirst du problemlos in der Lage sein, deinen Server effizient zu verwalten und alle erforderlichen Optionen sowie Features zügig und unkompliziert zu finden. Hier erhältst du einen strukturierten Überblick, der dir Schritt für Schritt hilft, dich mit der Serververwaltung vertraut zu machen und dein Wissen gezielt zu erweitern. So kannst du sicherstellen, dass dein **Terraria Server** optimal auf deine Bedürfnisse abgestimmt ist und du das Beste aus den vorhandenen Möglichkeiten herausholst.
+Nachdem du diese Anleitung durchgegangen bist, wirst du problemlos in der Lage sein, deinen Server effizient zu verwalten und alle erforderlichen Optionen sowie Features zügig und unkompliziert zu finden. Hier erhältst du einen strukturierten Überblick, der dir Schritt für Schritt hilft, dich mit der Serververwaltung vertraut zu machen und dein Wissen gezielt zu erweitern. So kannst du sicherstellen, dass dein **Terraria Server** optimal auf deine Bedürfnisse abgestimmt ist und du das Beste aus den vorhandenen Möglichkeiten herausholst.
 
 
 
@@ -110,7 +110,7 @@ Unter den Einstellungen findest du eine Übersicht der gängingsten Einstellungs
 
 Hier kannst du beispielsweise folgende Anpassungen vornehmen: 
 
-- Basiseinstellungen: Zusätzliche Cheat Protection, Weltname, Größe der neuen Welt, Neue Welt erstellen?, Serverpasswort
+- Basiseinstellungen: Zusätzliche Cheat Protection, Weltname, Größe der neuen Welt, Neue Welt erstellen?, Serverpasswort
 
 Solltest du dir doch mehr zutrauen und präzisere Änderungen vornehmen wollen, so empfehlen wir stattdessen den Config-Editor zu verwenden. Mehr dazu findest du unter der Kategorie **Configs**.
 

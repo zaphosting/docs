@@ -7,9 +7,11 @@ sidebar_label: Richtlinien
 
 ![Guides Banner](https://screensaver01.zap-hosting.com/index.php/s/4aaqq3zctZFW4JJ/preview)
 
-Um sicherzustellen, dass die ZAP-Hosting-Dokumentationsseiten eine einheitliche Qualität und einen einheitlichen Stil aufweisen, haben wir eine Reihe von Richtlinien erstellt, die du bei der Erstellung oder Bearbeitung von Inhalten für unsere Dokumentation beachten solltest. Du musst dich genau an unsere Richtlinien halten, damit dein Vorschlag und dein endgültiger Pull Request zügig bearbeitet werden können. Noch wichtiger ist aber, dass unsere Leserinnen und Leser beim Lesen und Verfolgen der Anleitung eine bessere und einheitlichere Qualitätserfahrung machen können.
 
-Die Richtlinien für die Beiträge in unseren Leitfäden lassen sich in die folgenden Hauptabschnitte unterteilen:
+Um sicherzustellen, dass die ZAP-Hosting-Dokumentationsseiten eine einheitliche Qualität und einen einheitlichen Stil aufweisen, haben wir eine Reihe von Richtlinien erstellt, die du bei der Erstellung oder Bearbeitung von Inhalten für unsere Dokumentation beachten solltest. Du musst dich genau an unsere Richtlinien halten, damit dein Vorschlag und dein endgültiger Pull Request zügig bearbeitet werden können. Noch wichtiger ist aber, dass unsere Leserinnen und Leser beim Lesen und Verfolgen der Anleitungen eine bessere und einheitlichere Qualitätserfahrung machen können.
+
+
+Die Richtlinien für die Beiträge in unseren Anleitungen lassen sich in die folgenden Hauptabschnitte unterteilen:
 
 - Struktur
 - Stil
@@ -31,7 +33,7 @@ Verfahrensanleitungen, die veröffentlicht werden, sollten den Leser Schritt fü
 - Schritt x (H2 Überschrift)
 - Schlussfolgerung (H2 Überschrift)
 
-Informative Leitfäden, die Informationen und Wissen vermitteln, sollten die folgende Struktur verwenden:
+Informative Anleitungen, die Informationen und Wissen vermitteln, sollten die folgende Struktur verwenden:
 
 - Seitentitel (H1-Überschrift - wird über die `title`-Metadaten oben auf der Seite festgelegt)
 - Einleitungstext
@@ -51,7 +53,7 @@ In Zukunft werden wir Vorlagen mit vorgefertigtem Markdown für dich hinzufügen
 
 ### Überschriften
 
-Wenn du einen Titel erstellst, solltest du das Ziel deiner Anleitung berücksichtigen. Überlege dir genau, was der Leser erreichen soll, wenn er deinem Leitfaden folgt. Ein typischer Verfahrensleitfaden hat das folgende Titelformat: **Wie man [Aufgabe] mit [Software]** erledigt. Ein typischer informativer Leitfaden hat die folgende Überschrift: **Informationen zu [Leitfaden-Info]**.
+Wenn du einen Titel erstellst, solltest du das Ziel deiner Anleitung berücksichtigen. Überlege dir genau, was der Leser erreichen soll, wenn er deinem Anleitung folgt. Ein typischer Verfahrensleitfaden hat das folgende Titelformat: **Wie man [Aufgabe] mit [Software]** erledigt. Ein typischer informativer Anleitung hat die folgende Überschrift: **Informationen zu [Anleitung-Info]**.
 
 ### Einleitung
 
@@ -60,6 +62,7 @@ Einleitungen in Anleitungen sollten relativ kurz sein und einfach erklären, was
 - Worum geht es in deiner Anleitung?
 - Was soll der Leser aus dieser Anleitung lernen?
 - Was wird er am Ende der Anleitung erreicht haben?
+
 
 Die Beantwortung dieser Fragen sollte dir helfen, eine kurze und prägnante Einleitung für deine Anleitung zu verfassen.
 
@@ -84,7 +87,7 @@ Zwischen den einzelnen Schritten solltest du eine kurze Einleitung und eine absc
 
 ### Schlussfolgerung
 
-Die Schlussfolgerung deines Anleitung sollte zusammenfassen, was der Leser während des Anleitung erreicht hat. Er sollte auch die nächsten Schritte, Anwendungsfälle oder Funktionen aufzeigen, die der Leser nutzen kann, wenn er sein Wissen über das Thema weiter vertiefen möchte. Wenn es bereits eine ZAP Docs Anleitung gibt, die auf der Anleitung aufbaut, wäre dies ein guter Ort, um sie zu verlinken.
+Die Schlussfolgerung deiner Anleitung sollte zusammenfassen, was der Leser während der Anleitung erreicht hat. Er sollte auch die nächsten Schritte, Anwendungsfälle oder Funktionen aufzeigen, die der Leser nutzen kann, wenn er sein Wissen über das Thema weiter vertiefen möchte. Wenn es bereits einen ZAP Docs Anleitung gibt, der auf dem Anleitung aufbaut, wäre dies ein guter Ort, um ihn zu verlinken.
 
 ## Stil
 Der Schreibstil für die ZAP-Hosting Docs folgt unserer Überzeugung, qualitativ hochwertige, praktische und leicht zugängliche Anleitungen zu erstellen, die ein breites Spektrum an Themen abdecken und Leser mit unterschiedlichem Erfahrungsstand unterstützen. 
@@ -101,15 +104,16 @@ Wir empfehlen unseren Autoren immer, deinen Inhalt durch ein Rechtschreibprüfun
 
 ### Praktisch & nützlich
 
-Wenn ein Leser oder eine Leserin einen Anleitung beendet hat, sollte er oder sie etwas von Anfang bis Ende gelernt, gebaut oder eingerichtet haben. Unsere Leitfäden zielen darauf ab, Leser/innen aller Erfahrungsstufen zu unterstützen. Deshalb sollten deine Beiträge das jeweilige Thema vollständig erforschen, um sicherzustellen, dass der/die Leser/in Wissen erlangt und/oder etwas erreicht hat. Das bedeutet, dass du als Autorin oder Autor dein Thema gründlich behandeln musst, indem du alle notwendigen Details und Voraussetzungen erwähnst. Als Autor/in solltest du Leser/innen nur dann auf externe Websites weiterleiten, wenn es in den ZAP Docs keine Dokumentation zu diesem Thema gibt oder wenn es darum geht, dass der/die Nutzer/in zusätzliche Details erfährt, die für deine Anleitung nicht erforderlich ist, aber für den Aufbau seines/ihres Fachwissens nützlich sein können. Externe Links sollten nicht auf Dokumentationen von Wettbewerbern weiterleiten.
+Wenn ein Leser oder eine Leserin einen Artikel beendet hat, sollte er oder sie etwas von Anfang bis Ende gelernt, gebaut oder eingerichtet haben. Unsere Anleitungen zielen darauf ab, Leser/innen aller Erfahrungsstufen zu unterstützen. Deshalb sollten deine Beiträge das jeweilige Thema vollständig erforschen, um sicherzustellen, dass der/die Leser/in Wissen erlangt und/oder etwas erreicht hat. Das bedeutet, dass du als Autorin oder Autor dein Thema gründlich behandeln musst, indem du alle notwendigen Details und Voraussetzungen erwähnst. Als Autor/in solltest du Leser/innen nur dann auf externe Websites weiterleiten, wenn es in den ZAP Docs keine Dokumentation zu diesem Thema gibt oder wenn es darum geht, dass der/die Nutzer/in zusätzliche Details erfährt, die für deinen Artikel nicht erforderlich sind, aber für den Aufbau seines/ihres Fachwissens nützlich sein können. Externe Links sollten nicht auf Dokumentationen von Wettbewerbern weiterleiten.
 
 ### Freundlich, formell und umfassend
 
-Wir erwarten, dass unsere Dokumentation zukunftsorientiert und freundlich ist, damit sie für jeden Leser zugänglich ist, aber gleichzeitig formell bleibt. Unser Ziel ist es, dass der Ton unserer Anleitungen für alle Leserinnen und Leser akzeptabel ist, unabhängig von ihrer Erfahrung oder den bestehenden Sprachgrenzen.
+Wir erwarten, dass unsere Dokumentation zukunftsorientiert und freundlich ist, damit sie für jeden Leser zugänglich ist, aber gleichzeitig formell bleibt. Unser Ziel ist es, dass der Ton unseres Anleitungs für alle Leserinnen und Leser akzeptabel ist, unabhängig von ihrer Erfahrung oder den bestehenden Sprachgrenzen.
+
 
 Da es in diesen Anleitungen in erster Linie darum geht, den Leser zu unterstützen, sich zu bilden und ein Ergebnis zu erzielen, erwarten wir von den Autoren, dass sie in der zweiten Person (z. B. "Du musst...") und nicht in der ersten Person (z. B. "Ich denke...") schreiben, um den Leser bei der Stange zu halten und den Fokus auf ihn zu richten.
 
-Schließlich müssen alle Schreiber/innen unseren Verhaltenskodex befolgen, um sicherzustellen, dass unsere Leitfäden jeden akzeptieren, unabhängig von Alter, ethnischer Zugehörigkeit, Geschlechtsidentität, Erfahrungsgrad, Nationalität, Religion, politischer Zugehörigkeit, sexueller Orientierung, sozioökonomischem Status oder technologischen Entscheidungen. Du musst jede potenziell beleidigende Sprache und jeden anderen Inhalt vermeiden, der sich auf die oben genannten Themen bezieht.
+Schließlich müssen alle Schreiber/innen unseren Verhaltenskodex befolgen, um sicherzustellen, dass unsere Anleitungen jeden akzeptieren, unabhängig von Alter, ethnischer Zugehörigkeit, Geschlechtsidentität, Erfahrungsgrad, Nationalität, Religion, politischer Zugehörigkeit, sexueller Orientierung, sozioökonomischem Status oder technologischen Entscheidungen. Du musst jede potenziell beleidigende Sprache und jeden anderen Inhalt vermeiden, der sich auf die oben genannten Themen bezieht.
 
 ## Formatierung
 Unsere Dokumentation ist mit der Markdown-Auszeichnungssprache formatiert, die weit verbreitet und relativ einfach zu verwenden ist. In den folgenden Abschnitten erfährst du, welche Sprache wir verwenden und wie sie genutzt wird.
@@ -120,9 +124,9 @@ Weitere Beispiele und ausführliche Erklärungen zu den Funktionen von Markdown 
 
 ### Kopfzeilen
 
-Überschriften sind eine der wichtigsten Formatierungsoptionen, um die Seiten übersichtlich und logisch zu trennen. Die Hauptüberschrift besteht aus der H1-Überschrift, allerdings solltest du diese nie im Text verwenden. Stattdessen solltest du die Metadaten `title` am Anfang der Leitfaden-Datei verwenden, die dafür zuständig sind. 
+Überschriften sind eine der wichtigsten Formatierungsoptionen, um die Seiten übersichtlich und logisch zu trennen. Die Hauptüberschrift besteht aus der H1-Überschrift, allerdings solltest du diese nie im Text verwenden. Stattdessen solltest du die Metadaten `title` am Anfang der Anleitung-Datei verwenden, die dafür zuständig sind. 
 
-In allen unseren Leitfäden sollten H2-Überschriften verwendet werden, um den Leitfaden in seine Hauptabschnitte zu unterteilen. Danach sollten H3-Kopfzeilen verwendet werden, um die Hauptabschnitte in Unterabschnitte zu unterteilen. Das kann zum Beispiel dann sinnvoll sein, wenn ein Hauptabschnitt in mehrere Schritte unterteilt wird, um das Verfolgen des Leitfadens zu erleichtern. Schließlich gibt es noch ein H4-Tag, das in unserer Dokumentation seltener verwendet wird, aber demselben Zweck dient, nämlich der Aufteilung in Unterabschnitte, aber nicht speziell in der Struktur des Leitfadens angezeigt wird.
+In allen unseren Anleitungen sollten H2-Überschriften verwendet werden, um den Anleitung in seine Hauptabschnitte zu unterteilen. Danach sollten H3-Kopfzeilen verwendet werden, um die Hauptabschnitte in Unterabschnitte zu unterteilen. Das kann zum Beispiel dann sinnvoll sein, wenn ein Hauptabschnitt in mehrere Schritte unterteilt wird, um das Verfolgen der Anleitung zu erleichtern. Schließlich gibt es noch ein H4-Tag, das in unserer Dokumentation seltener verwendet wird, aber demselben Zweck dient, nämlich der Aufteilung in Unterabschnitte, aber nicht speziell in der Struktur der Anleitung angezeigt wird.
 
 :::info
 Wenn du Unterüberschriften verwendest (z. B. H3-Überschriften unter den H2-Hauptüberschriften), stelle bitte sicher, dass es innerhalb des Abschnitts zwei oder mehr Überschriften der gleichen Ebene gibt, da dies sonst eine falsche Verwendung ist.
@@ -240,7 +244,7 @@ Wenn es wichtige Informationen gibt, die der/die Nutzer/in wissen sollte, füge 
 #### Warnung
 
 :::caution
-Gibt es in deiner Anleitung etwas, wovor der/die Nutzer/in gewarnt werden sollte und wovor er/sie sich in Acht nehmen sollte, während er/sie der Anleitung folgt? Verwende dieses Tag, um es hervorzuheben.
+Gibt es in deiner Anleitung etwas, wovor der/die Nutzer/in gewarnt werden sollte und wovor er/sie sich in Acht nehmen sollte, während er/sie dem Anleitung folgt? Verwende dieses Tag, um es hervorzuheben.
 :::
 
 #### Gefahr
@@ -254,6 +258,7 @@ Du solltest die Gefahrenwarnung verwenden, wenn wichtige Informationen hervorgeh
 Screenshots sind eine äußerst nützliche Methode, um die Leser/innen visuell durch die Schritte zu führen, und wir empfehlen, diese zu verwenden, wo es angebracht ist.
 
 Um dem deutschen Abschnitt gerecht zu werden, erwarten wir von dir, dass du bei der Erstellung eines Screenshots sowohl eine englische als auch eine deutsche Version hinzufügst, um sicherzustellen, dass die Screenshots einheitlich sind. In deiner Anleitung kannst du sie direkt nebeneinander platzieren. Die deutschen Screenshots werden entfernt und verwendet, sobald das ZAP Docs Team deinen Beitrage übersetzt hat.
+
 
 Du kannst die folgende Syntax verwenden, um einen Screenshot zu deinem Inhalt hinzuzufügen. Ersetze dabei `Deine_Url` durch die URL des Bildes:
 ```
@@ -281,5 +286,6 @@ Du solltest `zaphosting` als Standard-Hostname, -Benutzername oder -Datenbanknam
 ### Software
 
 Wenn du Software in deinem Leitfaden erwähnst, solltest du darauf achten, dass du die korrekte Schreibweise und Großschreibung des Namens der Software beachtest. Wenn die Software-Website die Groß- und Kleinschreibung nicht beibehält, solltest du die gleiche Groß- und Kleinschreibung in einer Anleitung verwenden, um die Konsistenz zu wahren.
+
 
 Wenn du die Software zum ersten Mal erwähnst, solltest du einen Hyperlink auf die Website der Software setzen, sofern eine offizielle Website vorhanden ist.

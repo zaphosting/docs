@@ -2,14 +2,14 @@
 id: domain-gameserver-srv-link
 title: Set up game server forwarding
 description: Information on how to set up a forwarding from your domain to a game server - ZAP-Hosting.com documentation
-sidebar_label: Domain Gameserver Redirect
+sidebar_label: Gameserver forwarding
 ---
 
 :::info
 Please note that it can always take up to 24 hours until changes to DNS entries become active!
 :::
 
-## Forward domain to gameserver
+## Introduction
 You can either forward your domain completely or only a subdomain to your gameserver.
 So no one has to remember the complicated IP address which consists of numbers but can simply connect to your game server using the domain.
 

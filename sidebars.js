@@ -1129,7 +1129,6 @@ const sidebars = {
         'vserver-linux-ssl',
         'vserver-linux-rsync',
         'vserver-linux-security-tips',
-        'vserver-linux-ssh-server',
       ]
     },
     {
@@ -1147,6 +1146,7 @@ const sidebars = {
         'vserver-linux-openvpn',
         'vserver-linux-phpmyadmin',
         'vserver-linux-plesk',
+        'vserver-linux-ssh-server',
         'vserver-linux-webserver',
         'vserver-linux-xrdp',
       ],
@@ -1188,14 +1188,13 @@ const sidebars = {
       label: "Gameserver services",
       items: [
         'vserver-windows-arksurvivalascended',
-        'vserver-windows-palworld',
         'vserver-windows-enshrouded',
-        'vserver-windows-valheim',
-        'vserver-windows-vrising',
-        'vserver-windows-mythofempires',
-        'vserver-windows-satisfactory',
         'vserver-windows-fs-19',
         'vserver-windows-fs-22',
+        'vserver-windows-palworld',
+        'vserver-windows-satisfactory',
+        'vserver-windows-valheim',
+        'vserver-windows-vrising',
       ]
     },		
   ],
@@ -1214,10 +1213,10 @@ const sidebars = {
       defaultStyle: true,
     },
     'dedicated-introduction',
+    'dedicated-setup',
     'dedicated-ilo',
     'dedicated-iso',
     'dedicated-raid',
-    'vserver-linux-gs-interface',			
     'dedicated-reset',		
     {
       type: 'html',
@@ -1236,7 +1235,91 @@ const sidebars = {
     'dedicated-freebsd',		
     'dedicated-centos',		
     'dedicated-proxmox',
-    
+    {
+      type: 'html',
+      className: 'sidebar-title',
+      value: (() => {
+        switch (process.env.DOCUSAURUS_CURRENT_LOCALE) {
+          case "de": return "Linux";
+          default: return "Linux";
+        }
+      })(),
+      defaultStyle: true,
+    },
+    'vserver-linux-gs-interface',
+    {
+      type: "category",
+      label: "Services",
+      items: [
+        'vserver-linux-cockpit',	
+        'vserver-linux-databases',
+        'vserver-linux-docker',
+        'vserver-linux-ftp-install',
+        'vserver-linux-java',
+        'vserver-linux-jitsi',
+        'vserver-linux-mastodon',
+        'vserver-linux-nextcloud',
+        'vserver-linux-openvpn',
+        'vserver-linux-phpmyadmin',
+        'vserver-linux-plesk',
+        'vserver-linux-ssh-server',
+        'vserver-linux-webserver',
+        'vserver-linux-xrdp',
+      ],
+    },
+    {
+      type: "category",
+      label: "Security",
+      items: [
+        'vserver-linux-security-tips',
+        'vserver-linux-ssh2fa',
+      ]
+    },
+    {
+      type: 'html',
+      className: 'sidebar-title',
+      value: (() => {
+        switch (process.env.DOCUSAURUS_CURRENT_LOCALE) {
+          case "de": return "Windows";
+          default: return "Windows";
+        }
+      })(),
+      defaultStyle: true,
+    },
+    {
+      type: "category",
+      label: "Services",
+      items: [
+        'vserver-windows-ftpserver',
+        'vserver-windows-installmysql',
+        'vserver-windows-plesk',
+      ]
+    },
+    {
+      type: "category",
+      label: "Gameserver services",
+      items: [
+        'vserver-windows-arksurvivalascended',
+        'vserver-windows-enshrouded',
+        'vserver-windows-fs-19',
+        'vserver-windows-fs-22',
+        'vserver-windows-palworld',
+        'vserver-windows-satisfactory',
+        'vserver-windows-valheim',
+        'vserver-windows-vrising',
+      ]
+    },
+    {
+      type: 'html',
+      className: 'sidebar-title',
+      value: (() => {
+        switch (process.env.DOCUSAURUS_CURRENT_LOCALE) {
+          case "de": return "Sonstiges";
+          default: return "Other";
+        }
+      })(),
+      defaultStyle: true,
+    },
   ],
   
   //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////

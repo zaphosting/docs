@@ -1,11 +1,11 @@
 ---
 id: vserver-linux-ssh
-title: VPS Initial access to Linux server with SSH
-description: Information on how to access your Linux VPS from ZAP-Hosting with SSH for the first time - ZAP-Hosting.com documentation
+title: Initial access with SSH
+description: Information on how to access your server from ZAP-Hosting with SSH for the first time - ZAP-Hosting.com documentation
 sidebar_label: Initial access (SSH)
 ---
 
-### SSH-Connection
+## Introduction
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/TYEHE38gNQoFjBx/download/ssh_connect.gif)
 

@@ -24,8 +24,8 @@ Mit dem benutzerfreundlichen GS/TS3 Interface kannst du mit nur wenigen Klicks e
 :::info
 Um das GS/TS3 Interface erfolgreich zu installieren, ist es wichtig sicherzustellen, dass dein Server eines der folgenden unterstützten Betriebssysteme installiert hat:
 
-Debian 10
-Debian 11
+- Debian 10
+- Debian 11
 :::
 
 

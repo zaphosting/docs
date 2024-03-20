@@ -338,5 +338,17 @@
   "sidebar.guidesSidebar.category.Blogs": {
     "message": "Blogs",
     "description": "The label for category Blogs in sidebar guidesSidebar"
+  },
+  "sidebar.dedicatedserverSidebar.category.Services": {
+    "message": "Services",
+    "description": "The label for category Services in sidebar dedicatedserverSidebar"
+  },
+  "sidebar.dedicatedserverSidebar.category.Security": {
+    "message": "Security",
+    "description": "The label for category Security in sidebar dedicatedserverSidebar"
+  },
+  "sidebar.dedicatedserverSidebar.category.Gameserver services": {
+    "message": "Gameserver services",
+    "description": "The label for category Gameserver services in sidebar dedicatedserverSidebar"
   }
 }

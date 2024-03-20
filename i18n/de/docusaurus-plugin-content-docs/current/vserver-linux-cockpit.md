@@ -5,6 +5,10 @@ description: Guide, um Cockpit auf Linux zu installieren - ZAP-Hosting.com Dokum
 sidebar_label: Cockpit installieren
 ---
 
+
+
+## Einführung
+
 Cockpit ist ein Webinterface, um einen oder mehrere Linux Server (Cluster) zu verwalten. Von einfachen Log-Ausgaben bis hin zum Verwalten des Raids bietet Cockpit sehr viele Features. 
 Cockpit eignet sich für Einsteiger, aber auch für Fortgeschrittene, die gerne in kurzer Zeit alles Wichtige einsehen/managen möchten. Zudem kann ein Zugriff von fast jedem Endgerät erfolgen.
 Die Projektwebseite ist unter https://cockpit-project.org/ erreichbar. 

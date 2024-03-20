@@ -5,7 +5,7 @@ description: Information about EasyDNS domain settings at ZAP-Hosting - ZAP-Host
 sidebar_label: EasyDNS
 ---
 
-## What is EasyDNS anyway?
+## Introduction
 
 With the **EasyDNS function** the forwarding of a domain, which was rented with **us**, to another product on the **same** account can be set with one click.
 
@@ -28,5 +28,4 @@ On the right side you choose the desired **Minecraft Server**, which you want to
 :::info
 Please note that it can take up to 24 hours until changes to the domains have been adopted globally!
 :::
-
 

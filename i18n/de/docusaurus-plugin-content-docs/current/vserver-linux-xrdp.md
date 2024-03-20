@@ -5,6 +5,10 @@ description: Guide, um xRDP (Remotedesktop) auf Linux zu installieren - ZAP-Host
 sidebar_label: xRDP installieren
 ---
 
+
+
+## Einführung
+
 Unter Linux gibt es in der Regel eine SSH Console, um den Server zu verwalten. In manchen Fällen kann es einfacher sein, eine Remote Desktop Verbindung zu nutzen, ähnlich wie bei Windows. 
 Eine nachträgliche Installation ist bei den meisten Linux Distributionen möglich. In diesem Guide wird dies für Ubuntu und Debian erklärt. 
 

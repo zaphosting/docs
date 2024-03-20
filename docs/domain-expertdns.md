@@ -5,7 +5,7 @@ description: Information about the ExpertDNS domain settings at ZAP-Hosting - ZA
 sidebar_label: ExpertDNS
 ---
 
-## What is ExpertDNS anyway?
+## Introduction
 
 With the **ExpertDNS function** you can set which name servers should be used for the domain.
 

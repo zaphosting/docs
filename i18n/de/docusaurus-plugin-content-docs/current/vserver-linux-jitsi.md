@@ -1,11 +1,11 @@
 ---
 id: vserver-linux-jitsi
 title: Installation von Jitsi Meet 
-description: Informationen, wie du die Videokonferenzsoftware Jitsi Meet auf deinen vServer von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentation
+description: Informationen, wie du die Videokonferenzsoftware Jitsi Meet auf deinem Server von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Jitsi Meet installieren
 ---
 
-## Was ist Jitsi Meet?
+## Einführung
 
 
 Jitsi Meet ist eine Open Source Videokonferenzsoftware, mit der ihr eigene Videokonferenzen auf eurem Server einrichten könnt. Ein großer Vorteil von Jitsi Meet ist die einfache Handhabung: Es wird nur ein Browser benötigt (bei Verwendung von Handys die Jitsi App) und es ist keine Anmeldung bei fremden Diensten möglich. Jede Videokonferenz erhält eine eigene URL, mit der der Videokonferenz beigetreten werden kann. Jitsi Meet eigent sich perfekt, um Videokonferenzen auch mit technisch wenig versierten Menschen durchzuführen.

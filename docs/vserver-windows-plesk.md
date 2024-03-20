@@ -5,6 +5,14 @@ description: Information on how to install Plesk on your Windows VPS from ZAP-Ho
 sidebar_label: Install Plesk
 ---
 
+
+
+## Introduction
+
+Plesk is a comprehensive web hosting and server management platform that allows users to manage websites, servers, email accounts and more through a user-friendly interface. It is a versatile solution that is suitable for beginners as well as experienced web developers and system administrators. 
+
+
+
 ## Establish a connection to the server
 
 To install Plesk on the server, you first need to connect to it. How this works is explained in detail in our separate instructions: [RDP First Access](https://docs.zap-hosting.com/docs/en/vserver-windows-userdp/#-remotedesktopverbindung)

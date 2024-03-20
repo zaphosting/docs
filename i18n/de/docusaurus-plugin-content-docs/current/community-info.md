@@ -37,7 +37,7 @@ Willst du ein paar tolle Gratisgeschenke und Preise gewinnen? 🎁 Wir veranstal
 
 Außerdem veranstalten wir auf unseren sozialen Plattformen wie Instagram, X, Facebook & Co. regelmäßig tolle Giveaways, bei denen du eine Vielzahl von Preisen gewinnen kannst. In unserem letzten Posting haben wir zum Beispiel einen **Lifetime VPS** an einen glücklichen Gewinner aus unserer Community verschenkt. 💪
 
-Klingt fantastisch? Nun, es gibt noch mehr! 🎉 Wir sind auch stolz darauf, täglich... ja, du hast richtig gehört... **tägliche** Verlosungen für **10€ ZAP-Münzen** auf unserem [ZAP-Hosting Community Discord Server] (https://discord.gg/invite/zaphosting), um unseren aktivsten Mitgliedern der Community etwas zurückzugeben. Unsere Discord-Nitro-Booster erhalten außerdem ein zusätzliches wöchentliches Giveaway als Dankeschön! 🫢
+Klingt fantastisch? Nun, es gibt noch mehr! 🎉 Wir sind auch stolz darauf, täglich... ja, du hast richtig gehört... **tägliche** Verlosungen für **10€ ZAP-Coins** auf unserem [ZAP-Hosting Community Discord Server] (https://discord.gg/invite/zaphosting), um unseren aktivsten Mitgliedern der Community etwas zurückzugeben. Unsere Discord-Nitro-Booster erhalten außerdem ein zusätzliches wöchentliches Giveaway als Dankeschön! 🫢
 
 Ich weiß, das klingt alles super und wir hoffen, euch bei unseren Giveaways zu sehen! ✨
 

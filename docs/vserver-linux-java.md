@@ -1,13 +1,13 @@
 ---
 id: vserver-linux-java
-title: VPS Installation of Java
-description: Information on how to install Java on your VPS from ZAP-Hosting - ZAP-Hosting.com documentation
+title: Installation of Java
+description: Information on how to install Java on your server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Install Java
 ---
 
 
 
-## What is Java?
+## Introduction
 
 Java is a very popular programming language that is used worldwide for numerous programs and services. To run these programs based on Java it is absolutely necessary that Java is installed on the system. In the following you will learn how to install Java on your system for the offered Linux operating systems. 
 

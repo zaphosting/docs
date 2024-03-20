@@ -5,15 +5,13 @@ description: Informationen, wie du Admins für deinen Teamspeak Server von ZAP-H
 sidebar_label: Admin werden
 ---
 
-
-
-## Teamspeak Admin werden
+## Einführung
 
 Damit du deinen Teamspeak Server verwalten und konfigurieren kannst, benötigst du Administrator-Berechtigungen. Im Folgenden wird erklärt, wie du Benutzer als Admin hinzufügen kannst. 
 
 
 
-### Vorbereitung
+## Vorbereitung
 
 Zum Authentifizieren als Admin wird der Berechtigungsschlüssel benötigt. Diesen findest du im Webinterface bei der Teamspeak Server Verwaltung unter Berechtigungsschlüssel. Dort legen wir einen neuen Berechtigungsschlüssel an, falls noch keiner vorhanden ist und kopieren den Schlüssel im Anschluss.
 
@@ -21,7 +19,7 @@ Zum Authentifizieren als Admin wird der Berechtigungsschlüssel benötigt. Diese
 
 
 
-### Berechtigung zuweisen
+## Berechtigung zuweisen
 
 Nun muss eine Verbindung zum Teamspeak Server per Teamspeak Client hergestellt werden. Wenn der Teamspeak Server bis dato noch nicht konfiguriert/verwendet wurde, dann wird beim Verbindungsaufbau folgendes Popup-Fenster angezeigt:
 
@@ -36,6 +34,6 @@ Nach dem **OK** drücken werden deinem Benutzeraccount dann die Administrator-Be
 ![image](https://user-images.githubusercontent.com/13604413/159177468-4913fa61-d37e-4ae8-8cab-4191fde5ef93.png)
 
 
-### Weitere Administratoren hinzufügen
+## Weitere Administratoren hinzufügen
 
 Wenn du weiteren Benutzer Administrator-Berechtigungen zuweisen möchtest, dann kannst du für die entsprechenden Benutzer entweder weitere Berechtigungsschlüssel anlegen oder im Teamspeak Client selbst bei dem jeweiligen Benutzer die entsprechende Server-Gruppe zuweisen. Mache dafür einen Rechtsklick bei dem Benutzer, klicke auf Server Gruppen und dann wählst du die Server Gruppe aus. 
