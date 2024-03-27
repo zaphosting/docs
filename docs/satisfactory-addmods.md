@@ -3,12 +3,13 @@ id: satisfactory-addmods
 title: Install Mods
 sidebar_label: Install Mods
 ---
-:::info
-**WARNING**
+:::danger
+**IMPORTANT**
 
 Mods are currently not working!
+:::
 
-
+:::info
 **CAUTION**
 
 Mods are **not officially** supported by the developers, but they are tolerated!
