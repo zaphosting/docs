@@ -3,13 +3,14 @@ id: satisfactory-addmods
 title: Mods installieren
 sidebar_label: Mods installieren
 ---
-
-:::info
+:::danger
 **ACHTUNG**
 
 Mods sind zum aktuellen Zeitpunkt NICHT nutzbar!
+:::
 
 
+:::info
 **ACHTUNG**
 
 Mods sind von den Entwicklern bisher **nicht offiziell** unterstützt, sie werden jedoch geduldet!
