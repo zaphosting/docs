@@ -1025,6 +1025,13 @@ const sidebars = {
     },
     {
       type: "category",
+      label: "Sunkenland",
+      items: [
+        "sunkenland-setup-server"
+      ],
+    },
+    {
+      type: "category",
       label: "Terraria",
       items: [
         {
