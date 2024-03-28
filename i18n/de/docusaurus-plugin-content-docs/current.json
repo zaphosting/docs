@@ -350,5 +350,9 @@
   "sidebar.dedicatedserverSidebar.category.Gameserver services": {
     "message": "Gameserver services",
     "description": "The label for category Gameserver services in sidebar dedicatedserverSidebar"
+  },
+  "sidebar.gameserverSidebar.category.Sunkenland": {
+    "message": "Sunkenland",
+    "description": "The label for category Sunkenland in sidebar gameserverSidebar"
   }
 }
