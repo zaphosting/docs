@@ -31,7 +31,10 @@ The next step involves connecting to your gameserver via FTP, and uploading the 
 
 Begin by connecting to your server through an FTP Client using the credentials that are found under **Tools->FTP-Broswer** on your gameserver's webinterface. Please use our [FTP File Access guide](https://zap-hosting.com/guides/docs/gameserver-ftpaccess) as further assistance to connect to your server.
 
-Once connected, head over the the Sunkeland folder and select the savegame from the previous step. Upload the folder to your server.
+Once connected, head over the the Sunkenland folder and open the "AppData" folder and then the "Worlds" folder, select the savegame from the previous step and upload it to this folder.
+
+The folder structure should now look like this, where `Marvin's World~cef76ff5-447a-48df-b3a8-74b9ea5b7a86` is your own savegame.
+![image](https://github.com/zaphosting/docs/assets/13604413/40aecc3b-4a8a-4477-8c09-d56ec412883e)
 
 :::important
 At this stage, please copy the GUID listed at the end of the savegame world name. You will require this in the following step to make your server functional.
