@@ -1,7 +1,7 @@
 ---
-id: satisfactory-firststeps-dashboard
-title: Satisfactory Dashboard overview
-description: Information about the dashboard of an Satisfactory server from ZAP-Hosting - ZAP-Hosting.com Documentation
+id: vrising-firststeps-dashboard
+title: V Rising Dashboard overview
+description: Information about the dashboard of an V Rising server from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Dashboard
 ---
 
@@ -9,9 +9,9 @@ sidebar_label: Dashboard
 
 ## Introduction
 
-You are interested in an **Satisfactory server** or already own one, but you still lack a comprehensive overview of the administration and the findability of all necessary options? Especially at the beginning, this can be a challenge. But don't worry, we'll provide you with a detailed introduction to the administration of your service below, so you'll have the best possible overview.
+You are interested in an **V Rising server** or already own one, but you still lack a comprehensive overview of the administration and the findability of all necessary options? Especially at the beginning, this can be a challenge. But don't worry, we'll provide you with a detailed introduction to the administration of your service below, so you'll have the best possible overview.
 
-After going through this guide, you will easily be able to manage your server efficiently and find all the necessary options and features quickly and easily. Here, you will get a structured overview that will help you step by step to get familiar with the server administration and expand your knowledge in a targeted manner. This way, you can ensure that your **Satisfactory server** is optimally adapted to your needs and that you get the most out of the available options.
+After going through this guide, you will easily be able to manage your server efficiently and find all the necessary options and features quickly and easily. Here, you will get a structured overview that will help you step by step to get familiar with the server administration and expand your knowledge in a targeted manner. This way, you can ensure that your **V Rising server** is optimally adapted to your needs and that you get the most out of the available options.
 
 
 
@@ -25,7 +25,7 @@ In the **Information** section of your navigation panel, you will find a number 
 
 The **Dashboard** of your server is the heart of the administration. All basic and essential information about your service is clearly presented here. This includes, for example, information about the location, status, IP: Port, used memory, game in progress, server name, map and the number of available slots. In addition, the utilization of the CPU, memory and RAM is also displayed.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/tZKbwPBWJQYWtWK/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/oYDKFk586rJmHwE/preview)
 
 In the dashboard you also have the option of starting, stopping or restarting your service, to have full control over its operation. Furthermore, you can access the live console to get real-time information about the server's state and take direct action if necessary.
 
@@ -111,18 +111,35 @@ We offer extensive documentation for our products, which serves as a knowledge b
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/tspCPMyyMJJaiXp/preview)
 
+We also offer guides for your product. This includes for example the following guides: 
+
+| Anleitungen                      | Seite                                                 |
+| -------------------------------- | ----------------------------------------------------- |
+| Title of the guide (placeholder) | [View guide](https://zap-hosting.com/guides/docs/de/) |
+| Title of the guide (placeholder) | [View guide](https://zap-hosting.com/guides/docs/de/) |
+| Title of the guide (placeholder) | [View guide](https://zap-hosting.com/guides/docs/de/) |
+<p style="text-align: center;">List updated last on XX.XX.XXXX</p>
+
 
 
 
 ## Settings
 
-In the **Settings** section of your navigation panel, you will find a number of sub-items that will help you manage your server. These include the **Settings**, **Configs**, **Games**, **Versions** and the **Restart planner**. In the following you will get a detailed introduction to these different areas.
+In the **Settings** section of your navigation panel, you will find a number of sub-items that will help you manage your server. These include the **Settings**, **Configs**, **Games**, **Versions**, **Plugins**, **Steam Workshop** and the **Restart planner**. In the following you will get a detailed introduction to these different areas.
 
 
 
 ### Settings
 
 Under the settings you will find an overview of the most common setting options for your server. These also include a short explanation. The use of the settings page is especially recommended for newcomers to server administration.
+
+> Screenshot einfügen
+
+Here you can make for example the following adjustments: 
+
+- Platzhalter:
+- Platzhalter:
+- Platzhalter:
 
 If you are more confident and want to make more precise changes, we recommend using the Config Editor instead. You can find more information about this in the **Configs** category.
 

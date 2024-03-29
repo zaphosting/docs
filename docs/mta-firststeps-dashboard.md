@@ -1,7 +1,7 @@
 ---
-id: satisfactory-firststeps-dashboard
-title: Satisfactory Dashboard overview
-description: Information about the dashboard of an Satisfactory server from ZAP-Hosting - ZAP-Hosting.com Documentation
+id: mta-firststeps-dashboard
+title: MTA (Multi Theft Auto) Dashboard overview
+description: Information about the dashboard of an MTA (Multi Theft Auto) server from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Dashboard
 ---
 
@@ -9,9 +9,9 @@ sidebar_label: Dashboard
 
 ## Introduction
 
-You are interested in an **Satisfactory server** or already own one, but you still lack a comprehensive overview of the administration and the findability of all necessary options? Especially at the beginning, this can be a challenge. But don't worry, we'll provide you with a detailed introduction to the administration of your service below, so you'll have the best possible overview.
+You are interested in an **MTA (Multi Theft Auto) server** or already own one, but you still lack a comprehensive overview of the administration and the findability of all necessary options? Especially at the beginning, this can be a challenge. But don't worry, we'll provide you with a detailed introduction to the administration of your service below, so you'll have the best possible overview.
 
-After going through this guide, you will easily be able to manage your server efficiently and find all the necessary options and features quickly and easily. Here, you will get a structured overview that will help you step by step to get familiar with the server administration and expand your knowledge in a targeted manner. This way, you can ensure that your **Satisfactory server** is optimally adapted to your needs and that you get the most out of the available options.
+After going through this guide, you will easily be able to manage your server efficiently and find all the necessary options and features quickly and easily. Here, you will get a structured overview that will help you step by step to get familiar with the server administration and expand your knowledge in a targeted manner. This way, you can ensure that your **MTA (Multi Theft Auto) server** is optimally adapted to your needs and that you get the most out of the available options.
 
 
 
@@ -25,7 +25,7 @@ In the **Information** section of your navigation panel, you will find a number 
 
 The **Dashboard** of your server is the heart of the administration. All basic and essential information about your service is clearly presented here. This includes, for example, information about the location, status, IP: Port, used memory, game in progress, server name, map and the number of available slots. In addition, the utilization of the CPU, memory and RAM is also displayed.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/tZKbwPBWJQYWtWK/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/njyqoWcXi4ZFkyJ/preview)
 
 In the dashboard you also have the option of starting, stopping or restarting your service, to have full control over its operation. Furthermore, you can access the live console to get real-time information about the server's state and take direct action if necessary.
 
@@ -41,6 +41,8 @@ The **News** provides you with a comprehensive overview of all announcements and
 - Other relevant information that may be relevant to the use of your service
 
 By checking the **News** regularly, you'll stay informed and be able to adjust your service accordingly to get the most out of your server.
+
+
 
 
 
@@ -116,7 +118,7 @@ We offer extensive documentation for our products, which serves as a knowledge b
 
 ## Settings
 
-In the **Settings** section of your navigation panel, you will find a number of sub-items that will help you manage your server. These include the **Settings**, **Configs**, **Games**, **Versions** and the **Restart planner**. In the following you will get a detailed introduction to these different areas.
+In the **Settings** section of your navigation panel, you will find a number of sub-items that will help you manage your server. These include the **Settings**, **Configs**, **Games**, **Versions** and the **Restart planner**. In the following you will get a detailed introduction to these different areas.
 
 
 

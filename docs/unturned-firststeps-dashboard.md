@@ -1,7 +1,7 @@
 ---
-id: satisfactory-firststeps-dashboard
-title: Satisfactory Dashboard overview
-description: Information about the dashboard of an Satisfactory server from ZAP-Hosting - ZAP-Hosting.com Documentation
+id: unturned-firststeps-dashboard
+title: Unturned Dashboard overview
+description: Information about the dashboard of an Unturned server from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Dashboard
 ---
 
@@ -9,15 +9,15 @@ sidebar_label: Dashboard
 
 ## Introduction
 
-You are interested in an **Satisfactory server** or already own one, but you still lack a comprehensive overview of the administration and the findability of all necessary options? Especially at the beginning, this can be a challenge. But don't worry, we'll provide you with a detailed introduction to the administration of your service below, so you'll have the best possible overview.
+You are interested in an **Unturned server** or already own one, but you still lack a comprehensive overview of the administration and the findability of all necessary options? Especially at the beginning, this can be a challenge. But don't worry, we'll provide you with a detailed introduction to the administration of your service below, so you'll have the best possible overview.
 
-After going through this guide, you will easily be able to manage your server efficiently and find all the necessary options and features quickly and easily. Here, you will get a structured overview that will help you step by step to get familiar with the server administration and expand your knowledge in a targeted manner. This way, you can ensure that your **Satisfactory server** is optimally adapted to your needs and that you get the most out of the available options.
+After going through this guide, you will easily be able to manage your server efficiently and find all the necessary options and features quickly and easily. Here, you will get a structured overview that will help you step by step to get familiar with the server administration and expand your knowledge in a targeted manner. This way, you can ensure that your **Unturned server** is optimally adapted to your needs and that you get the most out of the available options.
 
 
 
 ## Information
 
-In the **Information** section of your navigation panel, you will find a number of sub-items to help you manage your server. These include **Dashboard**, **News**, **DDoS Manager**, **Log Files**, **Event Log**, **Live Console**, **Service interruptions**, **Frequently Asked Questions** and the **ZAP-Hosting.com Documentation**. In the following you will get a detailed introduction to these different areas.
+In the **Information** section of your navigation panel, you will find a number of sub-items to help you manage your server. These include **Dashboard**, **News**, **Statistics**, **DDoS Manager**, **Log Files**, **Event Log**, **Live Console**, **Service interruptions**, **Frequently Asked Questions** and the **ZAP-Hosting.com Documentation**. In the following you will get a detailed introduction to these different areas.
 
 
 
@@ -25,7 +25,7 @@ In the **Information** section of your navigation panel, you will find a number 
 
 The **Dashboard** of your server is the heart of the administration. All basic and essential information about your service is clearly presented here. This includes, for example, information about the location, status, IP: Port, used memory, game in progress, server name, map and the number of available slots. In addition, the utilization of the CPU, memory and RAM is also displayed.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/tZKbwPBWJQYWtWK/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/9b4q9rdFi23oYoJ/preview)
 
 In the dashboard you also have the option of starting, stopping or restarting your service, to have full control over its operation. Furthermore, you can access the live console to get real-time information about the server's state and take direct action if necessary.
 
@@ -41,6 +41,16 @@ The **News** provides you with a comprehensive overview of all announcements and
 - Other relevant information that may be relevant to the use of your service
 
 By checking the **News** regularly, you'll stay informed and be able to adjust your service accordingly to get the most out of your server.
+
+
+
+### Statistics
+
+Under the **Statistics** you get a comprehensive overview of the load values of your server. There you will find information about various aspects such as the load of the available slots, the CPU and the memory. You can view this data for different time periods, for example for the last **60 minutes, 24 hours, 3 days, 7 days** or **30 days.**
+
+![img](https://screensaver01.zap-hosting.com/index.php/s/N8jcmdqqG2Xt4Bk/preview)
+
+Thanks to this information, you get a good insight into the usage of your server. Additionally, these statistics are often helpful to identify possible performance issues and narrow down their causes. For example, you can trace back when the utilization has increased and whether this is related to certain events or changes. This is particularly important when sudden problems arise, as it allows you to take targeted steps to troubleshoot and systematically analyze possible causes.
 
 
 
@@ -116,13 +126,21 @@ We offer extensive documentation for our products, which serves as a knowledge b
 
 ## Settings
 
-In the **Settings** section of your navigation panel, you will find a number of sub-items that will help you manage your server. These include the **Settings**, **Configs**, **Games**, **Versions** and the **Restart planner**. In the following you will get a detailed introduction to these different areas.
+In the **Settings** section of your navigation panel, you will find a number of sub-items that will help you manage your server. These include the **Settings**, **Configs**, **Games**, **Versions**, **Steam Workshop** and the **Restart planner**. In the following you will get a detailed introduction to these different areas.
 
 
 
 ### Settings
 
 Under the settings you will find an overview of the most common setting options for your server. These also include a short explanation. The use of the settings page is especially recommended for newcomers to server administration.
+
+> Screenshot einfügen
+
+Here you can make for example the following adjustments: 
+
+- Platzhalter:
+- Platzhalter:
+- Platzhalter:
 
 If you are more confident and want to make more precise changes, we recommend using the Config Editor instead. You can find more information about this in the **Configs** category.
 
@@ -153,6 +171,14 @@ Under **Versions** you have the possibility to view and manage the current versi
 ![img](https://screensaver01.zap-hosting.com/index.php/s/BH2JzyRHTeLdKHz/preview)
 
 Moreover, you can also enable the email notification feature for automatic updates to keep you informed about updates and ensure that you are always up-to-date.
+
+
+
+### Steam Workshop
+
+If you are looking for new content to enhance your gaming experience, the Steam Workshop offers a wide selection of mods and maps for a variety of games. To use a collection of mods or maps in your game, you simply need to enter the Steam Workshop Collection ID. Then, you will need to restart your server to ensure that the new content is loaded. Once this is done, you can use the new content on your server and add more variety and fun to your game.
+
+![img](https://screensaver01.zap-hosting.com/index.php/s/AaL9sQeye5gKzWQ/preview)
 
 
 

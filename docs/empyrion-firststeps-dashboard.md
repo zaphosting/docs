@@ -1,7 +1,7 @@
 ---
-id: satisfactory-firststeps-dashboard
-title: Satisfactory Dashboard overview
-description: Information about the dashboard of an Satisfactory server from ZAP-Hosting - ZAP-Hosting.com Documentation
+id: empyrion-firststeps-dashboard
+title: Empyrion Dashboard overview
+description: Information about the dashboard of an Empyrion from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Dashboard
 ---
 
@@ -9,9 +9,9 @@ sidebar_label: Dashboard
 
 ## Introduction
 
-You are interested in an **Satisfactory server** or already own one, but you still lack a comprehensive overview of the administration and the findability of all necessary options? Especially at the beginning, this can be a challenge. But don't worry, we'll provide you with a detailed introduction to the administration of your service below, so you'll have the best possible overview.
+You are interested in an **Empyrion server** or already own one, but you still lack a comprehensive overview of the administration and the findability of all necessary options? Especially at the beginning, this can be a challenge. But don't worry, we'll provide you with a detailed introduction to the administration of your service below, so you'll have the best possible overview.
 
-After going through this guide, you will easily be able to manage your server efficiently and find all the necessary options and features quickly and easily. Here, you will get a structured overview that will help you step by step to get familiar with the server administration and expand your knowledge in a targeted manner. This way, you can ensure that your **Satisfactory server** is optimally adapted to your needs and that you get the most out of the available options.
+After going through this guide, you will easily be able to manage your server efficiently and find all the necessary options and features quickly and easily. Here, you will get a structured overview that will help you step by step to get familiar with the server administration and expand your knowledge in a targeted manner. This way, you can ensure that your **Empyrion server** is optimally adapted to your needs and that you get the most out of the available options.
 
 
 
@@ -25,7 +25,7 @@ In the **Information** section of your navigation panel, you will find a number 
 
 The **Dashboard** of your server is the heart of the administration. All basic and essential information about your service is clearly presented here. This includes, for example, information about the location, status, IP: Port, used memory, game in progress, server name, map and the number of available slots. In addition, the utilization of the CPU, memory and RAM is also displayed.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/tZKbwPBWJQYWtWK/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/g8w9wZYs7XeiWb6/preview)
 
 In the dashboard you also have the option of starting, stopping or restarting your service, to have full control over its operation. Furthermore, you can access the live console to get real-time information about the server's state and take direct action if necessary.
 
