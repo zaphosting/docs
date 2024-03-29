@@ -1,18 +1,38 @@
 ---
 id: dedicated-windows
-title: Windows installieren
+title: Installation von Windows Server
 description: Informationen, wie du das Windows Betriebssystem auf deinem Dedicated Server von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Windows installieren
 ---
+
+
+import YouTube from '@site/src/components/YouTube/YouTube';
+import Advertisements from '@site/src/components/Advertisements/Advertisements';
+
+## Einführung
+
+Im Folgenden wird dir Schritt für Schritt erklärt, wie du das Windows Server Betriebssystem auf deinem Dedicated Server installieren und konfigurieren kannst. Folge diesen Anweisungen sorgfältig, um sicherzustellen, dass du das Betriebssystem erfolgreich einrichtest und optimal nutzt.
+
+<YouTube videoId="yEjQOrcEus0" title="Setup a Dedicated Server and install Windows easily!" description="Hast du das Gefühl, dass du etwas besser verstehst, wenn du es in Aktion siehst?  Wir haben etwas für dich! Tauche ab in unser Video, welches alles für dich zusammenfasst. Egal, ob du es eilig hast oder einfach nur Informationen auf möglichst verständliche Art und Weise aufnehmen möchtest!"/>
+
 :::info
-Die Anleitung basiert auf Windows Server 2019, bei anderen Versionen sind die Schritte allerdings nahezu identisch.
+Der Aufbau der Anleitung basiert auf der Verwendung des Windows Server 2019 Betriebssystems. Installationen von früheren oder neueren Versionen können hinsichtlich des Prozesses leicht abweichen. 
 :::
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/yEjQOrcEus0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+## Vorbereitung
 
-## 💻 Installation eines Windows Servers
-Um einen Windows-Server zu installieren, benötigen wir eine ISO unserer Wahl, bitte wähle im Webinterface die gewünschte Version von Windows und wähle die ISO aus.
-Alternativ kannst du natürlich eine eigene ISO einbinden. Detaillierte Anleitungen hierzu findest du in der "Dedicated Server" Kategorie hier unseren Docs.
+Für die Installation und Konfiguration eines Betriebssystems ist es zunächst wichtig, dass die entsprechende ISO vom Betriebssystem gemountet wird. Für das Mounten gibt es mehrere mögliche Wege: 
+
+1. Mounten über die Ersteinrichtung
+2. Mounten über die iLO (Virtual Media)
+3. Mounten über die iLO (Remote Console)
+
+Solltest du mit dem Mounten einer ISO-Datei noch nicht vertraut sein, dann schaue dir am besten unsere [Ersteinrichtung](dedicated-setup.md) oder [Eigene ISO](dedicated-iso.md) Anleitung an
+
+
+
+## Installation
+Um einen Windows-Server zu installieren, benötigen wir eine ISO unserer Wahl, bitte wähle im Webinterface die gewünschte Version von Windows und wähle die ISO aus. Alternativ kannst du natürlich eine eigene ISO einbinden. Detaillierte Anleitungen hierzu findest du in der "Dedicated Server" Kategorie hier unseren Docs.
 
 ![image](https://user-images.githubusercontent.com/13604413/159173695-ffbd74a1-1d75-4549-a95a-c5d3d90d6a2b.png)
 
@@ -71,7 +91,7 @@ Wenn du mit deiner Partitionierung zufrieden bist, wähle die korrekte aus, auf 
 Das Windows-Setup erledigt alles Weitere, dies kann einige Zeit in Anspruch nehmen.
 Ein weiteres Eingreifen ist vorerst nicht erforderlich.
 
-## Konfiguration eines Windows Servers
+## Konfiguration
 
 Wenn das Setup abgeschlossen ist, fordert Windows uns dazu auf, ein Passwort festzulegen.
 

@@ -1,20 +1,35 @@
 ---
 id: dedicated-windows
-title: Installation of Windows 
+title: Installation of Windows Server
 description: Information on how to install the Windows operating system on your dedicated server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Install Windows
 ---
 
+import YouTube from '@site/src/components/YouTube/YouTube';
+import Advertisements from '@site/src/components/Advertisements/Advertisements';
+
+## Introduction
+The following will explain to you step by step how to install and configure the Windows Server operating system on your dedicated server. Follow these instructions carefully to ensure that you set up the operating system successfully and utilize it optimally.
+
+<YouTube videoId="yEjQOrcEus0" title="Setup a Dedicated Server and install Windows easily!" description="Feel like you understand better when you see things in action?  We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
+
 :::info
-This guide is based on Windows Server 2019, the steps are pretty similar to the other Windows server versions.
+The structure of the guide is based on the use of the Windows Server 2019 operating system. Installations from previous or newer versions may differ slightly in terms of the process. 
 :::
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/yEjQOrcEus0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+## Preparation
+For the installation and configuration of an operating system, it is initially important to mount the corresponding ISO of the operating system. There are several possible ways to mount it:
 
-## Installation of Windows Server
-To install a Windows Server, you'll need to have an ISO File of your decision, you could choose in our webinterface the desired version of Windows.
+1. Mounting via the initial setup
+2. Mounting via iLO (Virtual Media)
+3. Mounting via iLO (Remote Console)
 
-Alternatively, you could choose an own ISO File, we have a [detailed guide](dedicated-iso.md) for that.
+If you are not familiar with mounting an ISO file yet, it's best to refer to our [Initial Setup](https://chat.openai.com/c/dedicated-setup.md) or [Custom ISO](https://chat.openai.com/c/dedicated-iso.md) guide.
+
+
+
+## Installation
+To install a Windows Server, you'll need to have an ISO File of your decision, you could choose in our webinterface the desired version of Windows. Alternatively, you could choose an own ISO File, we have a [detailed guide](dedicated-iso.md) for that.
 
 ![image](https://user-images.githubusercontent.com/13604413/159173695-ffbd74a1-1d75-4549-a95a-c5d3d90d6a2b.png)
 
@@ -73,7 +88,7 @@ If you're happy with your partitions, please choose the partition on which Windo
 The Windows-Setup does now everything by itself, this can take several minutes.
 There is nothing else to do, until the setup is finished.
 
-## Configuration of Windows Server
+## Configuration
 
 Once the setup process is complete, Windows will prompt you to set a password.
 
