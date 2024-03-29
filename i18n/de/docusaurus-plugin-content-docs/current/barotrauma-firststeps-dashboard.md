@@ -1,5 +1,5 @@
 ---
-id: barotrauma-firststeps-connect
+id: barotrauma-firststeps-dashboard
 title: Barotrauma Dashboard Übersicht
 description: Informationen zum Dashboard eines Barotrauma Server von ZAP-Hosting - ZAP-Hosting.com Dokumentationen
 sidebar_label: Dashboard

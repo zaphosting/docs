@@ -1,8 +1,8 @@
 ---
 id: vserver-network-analysis-winmtr
-title: VPS Network analysis with MTR/WinMTR
+title: Network troubleshooting with MTR/WinMTR
 description: Information on how to perform a network analysis with MTR/WinMTR to identify network problems - ZAP-Hosting.com documentation
-sidebar_label: Network analysis
+sidebar_label: Network troubleshooting
 ---
 
 ## Introduction
@@ -19,13 +19,9 @@ All nodes are listed, which are used to reach the destination. In case of possib
 
 
 
-## Time of the creation of an evaluation
-
-The network diagnostic test should be performed when the problem actively occurs. The person who is affected by the problem should perform the test. In order to be able to analyze the network problems as well as possible, an evaluation of the outgoing and ingoing route should be made. Depending on the operating system either WinMTR (Windows) or MTR (Linux) is used. 
 
 
-
-## Installation of MTR / WinMTR
+## Installation
 
 
 
@@ -61,7 +57,13 @@ The evaluation can then be started with the command **mtr IP address**. By press
 
 
 
-## Analyzing the evaluation
+## Create report
+
+The network diagnostic test should be performed when the problem actively occurs. The person who is affected by the problem should perform the test. In order to be able to analyze the network problems as well as possible, an evaluation of the outgoing and ingoing route should be made. Depending on the operating system either WinMTR (Windows) or MTR (Linux) is used. 
+
+
+
+## Evaluate report
 
 The program provides several kinds of information. You have to check this information carefully in order to identify the problem correctly.
 

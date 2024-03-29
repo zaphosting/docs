@@ -1,6 +1,6 @@
 ---
 id: vrising-firststeps-dashboard
-title: Minecraft Dashboard Übersicht
+title: V Rising Dashboard Übersicht
 description: Informationen zum Dashboard eines V Rising Server von ZAP-Hosting - ZAP-Hosting.com Dokumentationen
 sidebar_label: Dashboard
 ---
@@ -120,7 +120,6 @@ Wir bieten eine umfangreiche Dokumentation zu unseren Produkten an, die als Wiss
 ## Einstellungen
 
 Im Abschnitt **Einstellungen** deines Navigationspanels findest du eine Reihe von Unterpunkten, die dir bei der Verwaltung deines Servers helfen. Dazu zählen die **Einstellungen**, **Configs**, **Spiele**, **Versionen** und der **Restart Planer**. Im Folgenden erhältst du eine detaillierte Einführung zu diesen verschiedenen Bereichen.
-
 
 
 ### Einstellungen
