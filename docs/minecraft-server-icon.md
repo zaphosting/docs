@@ -5,19 +5,17 @@ description: Information on how to add or change a server icon for your Minecraf
 sidebar_label: Server Icon
 ---
 
-Click here to get to our Minecraft servers: [Minecraft server hosting](https://zap-hosting.com/en/minecraft-server-hosting/)
-
-
-
-:::tip VIDEO ON SUBJECT
-Do you prefer a guide rather in the form of a video or as an additional visual supplement? No problem! We also provide a video for this subject!
+import YouTube from '@site/src/components/YouTube/YouTube';
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/m5mpKcd9Ur0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 :::
 
+## Introduction
 Minecraft offers the option to add your own server icon, which is displayed in multiplayer in front of the server, provided the server has been saved.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/zFQLZmRrLWrKN7r/preview)
+
+<YouTube videoId="m5mpKcd9Ur0" title="How to change the ICON on your Minecraft Server " description="Feel like you understand better when you see things in action?  We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
 
 ## Add the icon
 

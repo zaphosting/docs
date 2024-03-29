@@ -5,20 +5,34 @@ description: Information about installing the CentOS operating system on your de
 sidebar_label: Install CentOS
 ---
 
+
+
+
+
+## Introduction
+
+The following will explain to you step by step how to install and configure the CentOS operating system on your dedicated server. Follow these instructions carefully to ensure that you set up the operating system successfully and utilize it optimally.
+
 :::info
-In this example, the installation of CentOS 8.3 is performed
+
+The structure of the guide is based on the use of the CentOS 8.3 operating system. Installations from previous or newer versions may differ slightly in terms of the process.
+
 :::
 
-## Preparations
-In the ZAP interface, select the CentOS ISO version you wish to install. Let the server boot with the ISO until it is in the setup process.
+## Preparation
 
-:::info
-Navigation in the setup process is done with your mouse.
-:::
+For the installation and configuration of an operating system, it is initially important to mount the corresponding ISO of the operating system. There are several possible ways to mount it:
 
-***
+1. Mounting via the initial setup
+2. Mounting via iLO (Virtual Media)
+3. Mounting via iLO (Remote Console)
 
-## The setup
+If you are not familiar with mounting an ISO file yet, it's best to refer to our [Initial Setup](https://chat.openai.com/c/dedicated-setup.md) or [Custom ISO](https://chat.openai.com/c/dedicated-iso.md) guide.
+
+
+
+## Installation
+
 When the ISO is successfully loaded, the server is in the setup process.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/YFQt6Jmw5wi4QZZ/preview)
@@ -40,16 +54,17 @@ Since there is an incompatibility issue, the network could not be setup yet, we 
 
 Once you've configured all settings to your liking, press 'Begin Installation.
 
-***
-
 ![](https://screensaver01.zap-hosting.com/index.php/s/iqF8KzziQix3jyd/preview)
 
 After the installation is complete, remove the ISO file from your server and click 'Reboot System'.
 
-## Network
 
-Next, we'll configure the network device, which requires updating some files.
-Please mount this ISO File into your server, through the remote console or the iLO itself.
+
+## Configuration
+
+### Network
+
+Next, we'll configure the network device, which requires updating some files. Please mount this ISO File into your server, through the remote console or the iLO itself.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/skiKLacFGZnMwr9/preview)
 

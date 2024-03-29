@@ -159,7 +159,7 @@ const config = {
     navbar: {
       title: 'ZAP-Hosting Docs',
       logo: {
-        href: "/docs/firststeps-register",
+        href: "/docs/welcome",
         alt: 'ZAP-Hosting',
         src: 'img/src.png',
         srcDark: 'img/srcDark.png'

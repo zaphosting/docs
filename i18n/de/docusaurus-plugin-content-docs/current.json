@@ -354,5 +354,17 @@
   "sidebar.gameserverSidebar.category.Sunkenland": {
     "message": "Sunkenland",
     "description": "The label for category Sunkenland in sidebar gameserverSidebar"
+  },
+  "sidebar.gameserverSidebar.category.CS2": {
+    "message": "CS2",
+    "description": "The label for category CS2 in sidebar gameserverSidebar"
+  },
+  "sidebar.voiceserverbotSidebar.category.Discord Bot": {
+    "message": "Discord Bot",
+    "description": "The label for category Discord Bot in sidebar voiceserverbotSidebar"
+  },
+  "sidebar.voiceserverbotSidebar.category.TS3MusicBot": {
+    "message": "TS3MusicBot",
+    "description": "The label for category TS3MusicBot in sidebar voiceserverbotSidebar"
   }
 }

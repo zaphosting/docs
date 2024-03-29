@@ -5,23 +5,12 @@ description: Informationen, wie du mit dem Restartplaner deinen Gameserver von Z
 sidebar_label: Restartplaner
 ---
 
+import YouTube from '@site/src/components/YouTube/YouTube';
 
+## Einführung
+Bei dem Restartplaner handelt es sich um eine bei Gameservern angebotene Funktion. Mit dieser kann im Vorfeld ein automatischer Restart erstellt, damit der Server täglich zur selben Zeit automatisch neugestartet werden kann.
 
-:::tip VIDEO ZUM THEMA
-
-Du bevorzugst eine Anleitung eher in Form eines Videos oder als zusätzliche visuelle Ergänzung? Kein Problem! Für dieses Thema stellen wir ebenfalls ein Video zur Verfügung!
-
-
-
-<iframe width="100%" height="500" src="https://www.youtube.com/embed/bcsAePevPnY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-:::
-
-
-
-## Restartplaner
-
-Bei dem Restartplaner handelt es sich um eine bei Gameservern angebotene Funktion.
-Mit dieser kann im Vorfeld ein automatischer Restart erstellt, damit der Server täglich zur selben Zeit automatisch neugestartet werden kann.
+<YouTube videoId="bcsAePevPnY" title="Die ZAP-Docs ist da, um zu helfen!" description="Hast du das Gefühl, dass du etwas besser verstehst, wenn du es in Aktion siehst?  Wir haben etwas für dich! Tauche ab in unser Video, welches alles für dich zusammenfasst. Egal, ob du es eilig hast oder einfach nur Informationen auf möglichst verständliche Art und Weise aufnehmen möchtest!"/>
 
 :::info
 Diese Funktion ist nur für Gameserver eingebunden

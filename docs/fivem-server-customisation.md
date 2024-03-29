@@ -5,18 +5,19 @@ description: Information on how to customise server details displayed in the ser
 sidebar_label: Customise Server Details
 ---
 
-**📺Video:** Do you prefer instructions in the form of a video or as an additional visual supplement? No problem! We also provide a video for a part of this topic:
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+import YouTube from '@site/src/components/YouTube/YouTube';
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/zuWgjwb2-Xs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+## Introduction
 Are you looking to customise your server to display custom information in the server list? This can be done easily! In this guide you will learn how to set a range of different customisations that are available to make your server stand out in the server list!
+
+<YouTube videoId="zuWgjwb2-Xs" title="How to add COLORED text to your FiveM Server name" description="Feel like you understand better when you see things in action?  We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
 
 ## Access options for the configuration
 
 There are multiple ways available to access your `server.cfg` configuration file for your FiveM gameserver. Editing this file is needed in order to allow you to set customisations.
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
 
 <Tabs>
 <TabItem value="settings" label="Via Webinterface" default>

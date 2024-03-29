@@ -5,13 +5,16 @@ description: Informationen, wie du einen V-Rising Server auf deinen Windows vSer
 sidebar_label: V-Rising
 ---
 
+import YouTube from '@site/src/components/YouTube/YouTube';
+
 # Installation eines V-Rising Servers
 
 :::info
 Diese Anleitung gilt auch für einen Dedicated Server von ZAP-Hosting mit Windowsserver 2016/2019. Wie Windows auf einem Dedicated Server installiert werden kann, erklären wir [hier](dedicated-windows.md).
 :::
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/to2ghqNpGLA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<YouTube videoId="to2ghqNpGLA" title="How to setup a V RISING Dedicated Windows Server!" description="Feel like you understand better when you see things in action?  We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
+
 
 ## Basis Informationen
 Es wird ein Server, basierend auf Windowsserver 2016/2019, mit mindestens 4x 2,4 GHz CPU (AMD/Intel) sowie mindestens 4 GB RAM (DDR3/4) und 6 GB freien Speicher (SSD oder besser, bevorzugt) benötigt. Der Server muss auf der 64 Bit Architektur laufen.  

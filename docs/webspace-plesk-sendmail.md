@@ -5,18 +5,9 @@ description: Information on how to set up email addresses for your webspace from
 sidebar_label: Sending Emails
 ---
 
+import YouTube from '@site/src/components/YouTube/YouTube';
 
-
-:::tip VIDEO ON SUBJECT
-
-Do you prefer a guide rather in the form of a video or as an additional visual supplement? No problem! We also provide a video for this subject!
-
-
-
-<iframe width="100%" height="500" src="https://www.youtube.com/embed/x82zqEeAK1U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-:::
-
-
+<YouTube videoId="x82zqEeAK1U" title="How to create a MAIL SERVER for your ZAP WEBSPACE!" description="Feel like you understand better when you see things in action?  We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
 
 ## Create Email
 

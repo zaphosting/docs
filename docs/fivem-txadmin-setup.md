@@ -5,16 +5,14 @@ description: Information on how to set up the TxAdmin interface for FiveM game s
 sidebar_label: txAdmin Setup
 ---
 
+import YouTube from '@site/src/components/YouTube/YouTube';
+import Advertisements from '@site/src/components/Advertisements/Advertisements';
 
+## Introduction
 
-**📺Video:** Do you prefer instructions in the form of a video or as an additional visual supplement? No problem! We also provide a video for this topic: 
+txAdmin is a completely free to use, full-featured web panel to Manage & Monitor your FiveM server. It offers a wide range of features designed to make managing a FiveM server as easy as anything. Setting up txAdmin is completely free, begin your journey on using the most simplistic, yet functional FiveM server web panel.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/n3RoiExrvN0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
-## What exactly is txAdmin?
-
-txAdmin is an interface for FiveM Servers, which is among other things a server installer, admin and management interface.
+<YouTube videoId="n3RoiExrvN0" title="Setup a txAdmin Server" description="Feel like you understand better when you see things in action?  We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
 
 ## First-Time Setup
 
@@ -80,3 +78,4 @@ This option is intended for users who have already created their own recipe and 
 ### Additional Support
 
 For txAdmin specific support, please contact the txAdmin team through https://txadm.in/ or https://discord.gg/txAdmin/
+
