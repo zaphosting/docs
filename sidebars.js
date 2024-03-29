@@ -32,6 +32,7 @@ const sidebars = {
       type: 'category',
       label: 'General',
       items: [
+        'welcome',
         'firststeps-register',
         'firststeps-locations',
         'preorders',
@@ -190,7 +191,8 @@ const sidebars = {
             "fivem-gamechange",
             "fivem-steam-web-api-key",
             "fivem-whitelist",
-            "fivem-locale"
+            "fivem-locale",
+            "fivem-optimize-textures",
           ]
         },
         {
@@ -253,6 +255,7 @@ const sidebars = {
           type: "category",
           label: "First Steps",
           items: [
+            "minecraft-firststeps-dashboard",
             "minecraft-firststeps-connect",
             "minecraft-firststeps-java-bedrock-comparison"
           ]
@@ -305,7 +308,8 @@ const sidebars = {
           type: "category",
           label: "First Steps",
           items: [
-            "scp-firststeps-connect"
+            'minecraft-firststeps-dashboard',
+            "scp-firststeps-connect",
           ]
         },		
         "scp-becomeadmin",
@@ -316,7 +320,7 @@ const sidebars = {
           type: "category",
           label: "ServerMod",
           items: [
-            "scpservermod-uploadplugins"
+            "scpservermod-uploadplugins",
           ]
         },
         {
@@ -332,7 +336,14 @@ const sidebars = {
       type: "category",
       label: "Valheim",
       items: [
-        "valheim-firststeps-connect",
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            
+            "valheim-firststeps-connect",
+          ]
+        },
         "valheim-savegame",
         "valheim-backup-schedule",
         "valheim-serverlisting",
@@ -349,7 +360,7 @@ const sidebars = {
           type: "category",
           label: "First Steps",
           items: [
-            "ark-firststeps-dashboard"
+            "ark-firststeps-dashboard",
           ]
         },
         "ark-becomeadmin",
@@ -367,7 +378,7 @@ const sidebars = {
           type: "category",
           label: "First Steps",
           items: [
-            "palworld-firststeps-dashboard"
+            "palworld-firststeps-dashboard",
           ]
         },
         "palworld-configuration",
@@ -387,7 +398,7 @@ const sidebars = {
           type: "category",
           label: "First Steps",
           items: [
-            "enshrouded-firststeps-dashboard"
+            "enshrouded-firststeps-dashboard",
           ]
         },
         "enshrouded-configuration",
@@ -413,7 +424,7 @@ const sidebars = {
           type: "category",
           label: "First Steps",
           items: [
-            "7d2d-firststeps-dashboard"
+            "7d2d-firststeps-dashboard",
           ]
         },
         "7d2d-becomeadmin",
@@ -425,6 +436,13 @@ const sidebars = {
       type: "category",
       label: "Alt:V",
       items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "altv-firststeps-dashboard",
+          ]
+        },
         "altv-installresources"
       ],
     },
@@ -432,6 +450,13 @@ const sidebars = {
       type: "category",
       label: "Among Us",
       items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "amongus-firststeps-dashboard",
+          ]
+        },
         "amongus-connection"
       ],
     },
@@ -439,6 +464,13 @@ const sidebars = {
       type: "category",
       label: "ArmA 3",
       items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "amongus-firststeps-dashboard"
+          ]
+        },
         "arma3-serverconfig",
         "arma3-mods",
         "arma3-altislife-ranks",
@@ -466,21 +498,42 @@ const sidebars = {
       type: "category",
       label: "Assetto Corsa Competizione",
       items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "assetto-competizione-firststeps-dashboard",
+          ]
+        },
         "assetto-competizione-becomeadmin",
-        "assetto-competizione-slot-requirement"
+        "assetto-competizione-slot-requirement",
       ],
     },
     {
       type: "category",
       label: "Avorion",
       items: [
-        "avorion-becomeadmin"
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "avorion-firststeps-dashboard",
+          ]
+        },
+        "avorion-becomeadmin",
       ],
     },
     {
       type: "category",
       label: "Barotrauma",
       items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "barotrauma-firststeps-dashboard",
+          ]
+        },
         "barotrauma-becomeadmin"
       ],
     },
@@ -522,6 +575,83 @@ const sidebars = {
     },
     {
       type: "category",
+      label: "CS 1.6",
+      items: [
+        "cs16-becomeadmin",
+        "cs16-plugins"
+      ],
+    },
+    {
+      type: "category",
+      label: "CS:GO",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "csgo-configuration",
+          ]
+        },
+        {
+          type: "category",
+          label: "Configuration & Administration",
+          items: [
+            "csgo-gotv",
+            "source-custom-content"
+          ]
+        },
+        {
+          type: "category",
+          label: "Sourcemod / Metamod",
+          items: [
+            "source-metamod-installation",
+            "source-metamod-addadmins",
+            "source-metamod-plugins"
+          ]
+        }, 
+      ],
+    },
+    {
+      type: "category",
+      label: "CS:S",
+      items: [
+        "source-gsltoken",
+        {
+          type: "category",
+          label: "Sourcemod / Metamod",
+          items: [
+            "source-metamod-installation",
+            "source-metamod-addadmins",
+            "source-metamod-plugins"
+          ]
+        },
+      ],
+    },
+    {
+      type: "category",
+      label: "CS2",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "cs2-firststeps-dashboard",
+            "cs2-firststeps-connect"
+          ]
+        },
+        {
+          type: "category",
+          label: "Configuration & Administration",
+          items: [
+            "cs2-configuration",
+            "cs2-cstv",
+            "cs2-plugins"
+          ]
+        },
+      ],
+    },
+    {
+      type: "category",
       label: "DayZ",
       items: [
         {
@@ -531,13 +661,6 @@ const sidebars = {
             "dayz-firststeps-dashboard"
           ]
         }
-      ],
-    },
-    {
-      type: "category",
-      label: "Discord Bot",
-      items: [
-        "discordbot-setup"
       ],
     },
     {
@@ -673,6 +796,14 @@ const sidebars = {
     },
     {
       type: "category",
+      label: "Garry's Mod",
+      items: [
+        "gmod-servercfg",
+        "gmod-ttt"
+      ],
+    },
+    {
+      type: "category",
       label: "Last Oasis",
       items: [
         {
@@ -694,6 +825,7 @@ const sidebars = {
           type: "category",
           label: "First Steps",
           items: [
+            "minecraft-firststeps-dashboard",
             "minecraft-firststeps-connect",
             "minecraft-firststeps-java-bedrock-comparison"
           ]
@@ -742,6 +874,13 @@ const sidebars = {
       type: "category",
       label: "Multi Theft Auto",
       items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "mta-firststeps-dashboard",
+          ]
+        },
         "mta-becomeadmin"
       ],
     },
@@ -813,6 +952,13 @@ const sidebars = {
       type: "category",
       label: "RageMP",
       items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "ragemp-firststeps-dashboard",
+          ]
+        },
         "ragemp-installpackages"
       ],
     },
@@ -872,6 +1018,13 @@ const sidebars = {
       type: "category",
       label: "Satisfactory",
       items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "satisfactory-firststeps-dashboard",
+          ]
+        },
         "satisfactory-connect-experimental",
         "satisfactory-savegame",
         "satisfactory-switchexperimental",
@@ -909,97 +1062,7 @@ const sidebars = {
         }
       ],
     },
-    {
-      type: "category",
-      label: "Source Games",
-      items: [
-        {
-          type: "category",
-          label: "CS 1.6",
-          items: [
-            "cs16-becomeadmin",
-            "cs16-plugins"
-          ]
-        },
-        {
-          type: "category",
-          label: "CS:S",
-          items: [
-            "source-gsltoken",
-            {
-              type: "category",
-              label: "Sourcemod / Metamod",
-              items: [
-                "source-metamod-installation",
-                "source-metamod-addadmins",
-                "source-metamod-plugins"
-              ]
-            },
-          ]
-        },
-        {
-          type: "category",
-          label: "CS:GO",
-          items: [
-            {
-              type: "category",
-              label: "First Steps",
-              items: [
-                "csgo-configuration",
-              ]
-            },
-            {
-              type: "category",
-              label: "Configuration & Administration",
-              items: [
-                "csgo-gotv",
-                "source-custom-content"
-              ]
-            },
-            {
-              type: "category",
-              label: "Sourcemod / Metamod",
-              items: [
-                "source-metamod-installation",
-                "source-metamod-addadmins",
-                "source-metamod-plugins"
-              ]
-            },          
-          ]
-        },
-        {
-          type: "category",
-          label: "CS2 (NEW)",
-          items: [
-            {
-              type: "category",
-              label: "First Steps",
-              items: [
-                "cs2-firststeps-dashboard",
-                "cs2-firststeps-connect"
-              ]
-            },
-            {
-              type: "category",
-              label: "Configuration & Administration",
-              items: [
-                "cs2-configuration",
-                "cs2-cstv",
-                "cs2-plugins"
-              ]
-            },
-          ]
-        },
-        {
-          type: "category",
-          label: "Garry's Mod",
-          items: [
-            "gmod-servercfg",
-            "gmod-ttt"
-          ]
-        }
-      ],
-    },
+    
     {
       type: "category",
       label: "Space Engineers",
@@ -1019,15 +1082,14 @@ const sidebars = {
       type: "category",
       label: "Stormworks",
       items: [
-        "stormworks-firststeps-dashboard",
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "stormworks-firststeps-dashboard",
+          ]
+        },
         "stormworks-becomeadmin"
-      ],
-    },
-    {
-      type: "category",
-      label: "Sunkenland",
-      items: [
-        "sunkenland-setup-server"
       ],
     },
     {
@@ -1074,6 +1136,13 @@ const sidebars = {
       type: "category",
       label: "V Rising",
       items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "vrising-firststeps-dashboard",
+          ]
+        },
         "vrising-becomeadmin"
       ],
     },
@@ -1081,7 +1150,13 @@ const sidebars = {
       type: "category",
       label: "Valheim",
       items: [
-        "valheim-firststeps-connect",
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "valheim-firststeps-connect",
+          ]
+        },
         "valheim-savegame",
         "valheim-backup-schedule",
         "valheim-serverlisting",
@@ -1278,8 +1353,8 @@ const sidebars = {
       type: "category",
       label: "Security",
       items: [
-        'vserver-linux-security-tips',
         'vserver-linux-ssh2fa',
+        'vserver-linux-security-tips',
       ]
     },
     {
@@ -1383,7 +1458,21 @@ const sidebars = {
       })(),
       defaultStyle: true,
     },
-    'voiceserver-voicebot-connection',
+    'voicebot-introduction',
+    {
+      type: "category",
+      label: "Discord Bot",
+      items: [
+        "discordbot-setup"
+      ],
+    },
+    {
+      type: "category",
+      label: "TS3MusicBot",
+      items: [
+        'voiceserver-voicebot-connection',
+      ]
+    },
     {
       type: 'html',
       className: 'sidebar-title',
@@ -1394,7 +1483,8 @@ const sidebars = {
         }
       })(),
       defaultStyle: true,
-    },
+    },    
+    'voiceserver-introduction',
     'voiceserver-becomeadmin',
     'voiceserver-configuration',
     'voiceserver-ts3backup',
