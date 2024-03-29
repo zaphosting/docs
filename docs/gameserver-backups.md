@@ -5,24 +5,14 @@ description: Information on how to create, download and restore backups for your
 sidebar_label: Backups
 ---
 
+import YouTube from '@site/src/components/YouTube/YouTube';
 
-
-:::tip VIDEO ON SUBJECT
-
-Do you prefer a guide rather in the form of a video or as an additional visual supplement? No problem! We also provide a video for this subject!
-
-
-
-<iframe width="100%" height="500" src="https://www.youtube.com/embed/yUDAcfyDELc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-:::
-
-
-
+## Introduction
 We offer the possibility to create individual backups per click. This allows you to create backups easily and without much effort as well as import them at any time later. We offer this feature for the server files of your game server as well as for the associated databases. All backups are stored on your storage server, which includes 10GB free storage space by default. If you need more, then you can also upgrade to Premium Storage.
 
 Besides creating backups manually, backups can also be created fully automatically. Backups can be created either daily or weekly at a specified time. After restoring a backup, the server will be at the state at the time of backup creation.
 
-
+<YouTube videoId="yUDAcfyDELc" title="How to create BACKUPS for your Server!" description="Feel like you understand better when you see things in action?  We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
 
 
 ## Create backups manually

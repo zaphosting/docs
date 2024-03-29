@@ -5,9 +5,12 @@ description: Information on useful commands for Palworld game from ZAP-Hosting -
 sidebar_label: Server Commands
 ---
 
+import YouTube from '@site/src/components/YouTube/YouTube';
+
+## Introduction
 Palworld servers all come with a set of useful built-in server commands which can be used in-game and through your server console. In this guide, we will explore many of these commands providing descriptions and usage examples for each.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/SDZC4-FEdNM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<YouTube videoId="SDZC4-FEdNM" title="Set up your PALWORLD server in just one MINUTE!" description="Feel like you understand better when you see things in action?  We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
 
 ## Setting up Admin
 

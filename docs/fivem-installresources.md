@@ -5,15 +5,16 @@ description: Information on how to install resources on your FiveM server from Z
 sidebar_label: Install resources
 ---
 
-**📺Video:** Do you prefer instructions in the form of a video or as an additional visual supplement? No problem! We also provide a video for this topic: 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/V7us5V6KLho" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+import YouTube from '@site/src/components/YouTube/YouTube';
+import Advertisements from '@site/src/components/Advertisements/Advertisements';
 
 ## Introduction
 
 Resources can be used to expand your FiveM server with additional features. This is especially interesting if you are planning to start larger projects, such as a roleplay server or similar. Something like this can't be done without such additional resources. 
 
 FiveM and its community offers a large variety of resources. An overview of the most popular resources can be found on the Cfx.re Forum: https://forum.cfx.re/c/development/releases/7
+
+<YouTube videoId="V7us5V6KLho" title="How to Add Resources to a FiveM Server" description="Feel like you understand better when you see things in action?  We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
 
 ## Preperation
 

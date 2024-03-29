@@ -5,13 +5,12 @@ description: Informationen zur Einrichtung eines ARK Survival Ascended Dediziert
 sidebar_label: ARK Survival Ascended Dedicated Server Einrichtung
 ---
 
-**📺Video:** Du bevorzugst eine Anleitung eher in Form eines Videos oder als zusätzliche visuelle Ergänzung? Kein Problem! Für dieses Thema stellen wir ebenfalls ein Video zur Verfügung: 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/NvaXYjLSCn8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+import YouTube from '@site/src/components/YouTube/YouTube';
 
 ## Einführung
-
 Hast du einen Windows vServer oder Rootserver und möchtest darauf einen ARK: Survival Ascended Dedizierten Server installieren? Du bist hier genau richtig. In dieser Anleitung erklären wir dir Schritt für Schritt den Prozess der Installation dieses Dienstes auf deinem Server.
+
+<YouTube videoId="NvaXYjLSCn8" title="ARK: Survival Ascended Dedicated Server Setup on Windows VPS" description="Feel like you understand better when you see things in action?  We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
 
 ## Vorbereitung
 

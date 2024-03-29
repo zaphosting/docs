@@ -5,13 +5,13 @@ description: Informationen zum Einrichten eines Myth of Empires Dedicated Server
 sidebar_label: MOE Dedicated Server Einrichtung
 ---
 
-**📺Video:** Du bevorzugst eine Anleitung eher in Form eines Videos oder als zusätzliche visuelle Ergänzung? Kein Problem! Für dieses Thema stellen wir ebenfalls ein Video zur Verfügung: 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ir3QNvwu7WY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+import YouTube from '@site/src/components/YouTube/YouTube';
 
 ## Einführung
-
 Hast du einen Windows VPS oder Rootserver und möchtest darauf einen MOE Dedicated Server installieren? Dann bist du hier genau richtig. In dieser Anleitung erklären wir dir Schritt für Schritt, wie du diesen Dienst auf deinem Server installierst.
+
+<YouTube videoId="ir3QNvwu7WY" title="Wie man Myth of Empires Server auf Windows VPS einrichtet!" description="Hast du das Gefühl, dass du etwas besser verstehst, wenn du es in Aktion siehst?  Wir haben etwas für dich! Tauche ab in unser Video, welches alles für dich zusammenfasst. Egal, ob du es eilig hast oder einfach nur Informationen auf möglichst verständliche Art und Weise aufnehmen möchtest!"/>
+
 
 ## Vorbereitung
 

@@ -5,18 +5,14 @@ description: Information about upvotes for FiveM servers and how to boost your s
 sidebar_label: Upvotes
 ---
 
+import YouTube from '@site/src/components/YouTube/YouTube';
+import Advertisements from '@site/src/components/Advertisements/Advertisements';
 
-
-**📺Video:** Do you prefer instructions in the form of a video or as an additional visual supplement? No problem! We also provide a video for this topic: 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/H-bdMJTQkSM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
-
-## What are FiveM Upvotes?
+## Introduction
 
 FiveM upvotes give you the opportunity to have your own or another server placed higher in the server list. The more active upvote points a server has, the higher it will be ranked. 
 
+<YouTube videoId="H-bdMJTQkSM" title="Get FiveM Upvotes FAST!" description="Feel like you understand better when you see things in action?  We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
 
 
 ## How do I get Upvotes?
