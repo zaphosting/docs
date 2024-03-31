@@ -1,5 +1,5 @@
 ---
-id: conan-firsteps-dashboard
+id: conan-firststeps-dashboard
 title: Conan Exiles Dashboard overview
 description: Information about the dashboard of an Conan Exiles Server from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Dashboard

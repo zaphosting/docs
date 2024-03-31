@@ -127,14 +127,6 @@ Im Abschnitt **Einstellungen** deines Navigationspanels findest du eine Reihe vo
 
 Unter den Einstellungen findest du eine Übersicht der gängingsten Einstellungsoptionen zu deinem Server. Diese beinhalten ebenfalls jeweils eine kurze Erläutern. Die Nutzung der Einstellungsseite ist gerade für Neulinge in der Serververwaltung empfehlenswert. 
 
-> Screenshot einfügen
-
-Hier kannst du beispielsweise folgende Anpassungen vornehmen: 
-
-- Platzhalter:
-- Platzhalter:
-- Platzhalter:
-
 Solltest du dir doch mehr zutrauen und präzisere Änderungen vornehmen wollen, so empfehlen wir stattdessen den Config-Editor zu verwenden. Mehr dazu findest du unter der Kategorie **Configs**.
 
 

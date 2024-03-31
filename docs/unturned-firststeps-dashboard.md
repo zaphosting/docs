@@ -134,14 +134,6 @@ In the **Settings** section of your navigation panel, you will find a number of 
 
 Under the settings you will find an overview of the most common setting options for your server. These also include a short explanation. The use of the settings page is especially recommended for newcomers to server administration.
 
-> Screenshot einfügen
-
-Here you can make for example the following adjustments: 
-
-- Platzhalter:
-- Platzhalter:
-- Platzhalter:
-
 If you are more confident and want to make more precise changes, we recommend using the Config Editor instead. You can find more information about this in the **Configs** category.
 
 
