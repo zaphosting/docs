@@ -6,7 +6,7 @@ sidebar_label: Realm erstellen
 ---
 
 ## Einführung
-Last Oasis Server erfordern eine Reihe von Einrichtungsschritten, um sich bei der offiziellen Seite zu authentifizieren. In diesem Leitfaden gehen wir auf die Schritte ein, die erforderlich sind, um deinen eigenen Realm auf Last Oasis zu erstellen und eine Oase innerhalb deines neuen Realms einzurichten.
+Last Oasis Server erfordern eine Reihe von Einrichtungsschritten, um sich bei der offiziellen Seite zu authentifizieren. In diesem Anleitung gehen wir auf die Schritte ein, die erforderlich sind, um deinen eigenen Realm auf Last Oasis zu erstellen und eine Oase innerhalb deines neuen Realms einzurichten.
 
 ## Vorbereitung
 Eine der Voraussetzungen für die Einrichtung eines neuen Realms ist die Generierung eines Schlüssels von der offiziellen Seite, damit du dich bei den offiziellen Online-Diensten verifizieren und authentifizieren kannst.

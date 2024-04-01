@@ -53,7 +53,7 @@ In Zukunft werden wir Vorlagen mit vorgefertigtem Markdown für dich hinzufügen
 
 ### Überschriften
 
-Wenn du einen Titel erstellst, solltest du das Ziel deiner Anleitung berücksichtigen. Überlege dir genau, was der Leser erreichen soll, wenn er deinem Anleitung folgt. Ein typischer Verfahrensleitfaden hat das folgende Titelformat: **Wie man [Aufgabe] mit [Software]** erledigt. Ein typischer informativer Anleitung hat die folgende Überschrift: **Informationen zu [Anleitung-Info]**.
+Wenn du einen Titel erstellst, solltest du das Ziel deiner Anleitung berücksichtigen. Überlege dir genau, was der Leser erreichen soll, wenn er deinem Anleitung folgt. Ein typischer VerfahrensAnleitung hat das folgende Titelformat: **Wie man [Aufgabe] mit [Software]** erledigt. Ein typischer informativer Anleitung hat die folgende Überschrift: **Informationen zu [Anleitung-Info]**.
 
 ### Einleitung
 
@@ -111,7 +111,7 @@ Wenn ein Leser oder eine Leserin einen Artikel beendet hat, sollte er oder sie e
 Wir erwarten, dass unsere Dokumentation zukunftsorientiert und freundlich ist, damit sie für jeden Leser zugänglich ist, aber gleichzeitig formell bleibt. Unser Ziel ist es, dass der Ton unseres Anleitungs für alle Leserinnen und Leser akzeptabel ist, unabhängig von ihrer Erfahrung oder den bestehenden Sprachgrenzen.
 
 
-Da es in diesen Anleitungen in erster Linie darum geht, den Leser zu unterstützen, sich zu bilden und ein Ergebnis zu erzielen, erwarten wir von den Autoren, dass sie in der zweiten Person (z. B. "Du musst...") und nicht in der ersten Person (z. B. "Ich denke...") schreiben, um den Leser bei der Stange zu halten und den Fokus auf ihn zu richten.
+Da es in dieser Anleitungen in erster Linie darum geht, den Leser zu unterstützen, sich zu bilden und ein Ergebnis zu erzielen, erwarten wir von den Autoren, dass sie in der zweiten Person (z. B. "Du musst...") und nicht in der ersten Person (z. B. "Ich denke...") schreiben, um den Leser bei der Stange zu halten und den Fokus auf ihn zu richten.
 
 Schließlich müssen alle Schreiber/innen unseren Verhaltenskodex befolgen, um sicherzustellen, dass unsere Anleitungen jeden akzeptieren, unabhängig von Alter, ethnischer Zugehörigkeit, Geschlechtsidentität, Erfahrungsgrad, Nationalität, Religion, politischer Zugehörigkeit, sexueller Orientierung, sozioökonomischem Status oder technologischen Entscheidungen. Du musst jede potenziell beleidigende Sprache und jeden anderen Inhalt vermeiden, der sich auf die oben genannten Themen bezieht.
 
@@ -285,7 +285,7 @@ Du solltest `zaphosting` als Standard-Hostname, -Benutzername oder -Datenbanknam
 
 ### Software
 
-Wenn du Software in deinem Leitfaden erwähnst, solltest du darauf achten, dass du die korrekte Schreibweise und Großschreibung des Namens der Software beachtest. Wenn die Software-Website die Groß- und Kleinschreibung nicht beibehält, solltest du die gleiche Groß- und Kleinschreibung in einer Anleitung verwenden, um die Konsistenz zu wahren.
+Wenn du Software in deinem Anleitung erwähnst, solltest du darauf achten, dass du die korrekte Schreibweise und Großschreibung des Namens der Software beachtest. Wenn die Software-Website die Groß- und Kleinschreibung nicht beibehält, solltest du die gleiche Groß- und Kleinschreibung in einer Anleitung verwenden, um die Konsistenz zu wahren.
 
 
 Wenn du die Software zum ersten Mal erwähnst, solltest du einen Hyperlink auf die Website der Software setzen, sofern eine offizielle Website vorhanden ist.

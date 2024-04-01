@@ -5,7 +5,7 @@ description: Informationen zur Konfiguration eines Myth of Empires Gameservers v
 sidebar_label: Server Konfiguration
 ---
 
-Myth of Empires enthält eine Vielzahl von Konfigurationsoptionen, die es dir ermöglichen, deinen Server nach deinen Wünschen zu gestalten. In diesem Leitfaden gehen wir auf einige der derzeit verfügbaren Konfigurationsparameter ein und erklären sie genauer.
+Myth of Empires enthält eine Vielzahl von Konfigurationsoptionen, die es dir ermöglichen, deinen Server nach deinen Wünschen zu gestalten. In diesem Anleitung gehen wir auf einige der derzeit verfügbaren Konfigurationsparameter ein und erklären sie genauer.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/a-tZnWIpOSg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
