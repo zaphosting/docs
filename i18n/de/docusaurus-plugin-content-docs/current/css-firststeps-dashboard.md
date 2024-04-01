@@ -1,7 +1,7 @@
 ---
 id: css-firststeps-dashboard
 title: Counter-Strike Source Dashboard Übersicht
-description: Informationen zum Dashboard eines Counter-Strike: Source Server von ZAP-Hosting - ZAP-Hosting.com Dokumentationen
+description: Informationen zum Dashboard eines Counter-Strike Source Server von ZAP-Hosting - ZAP-Hosting.com Dokumentationen
 sidebar_label: Dashboard
 ---
 
