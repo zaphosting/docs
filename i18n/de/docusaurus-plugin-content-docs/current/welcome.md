@@ -33,8 +33,8 @@ Perfektioniere und Nutze den vollen Umfang deines Gameservers. Mit unserer Exper
   <Card title="BeamMP" description="Placeholder" link="beammp-firststeps-dashboard" image="https://zap-cdn.com/interface/_images/icons/beammp-icon.png"/>
   <Card title="Conan Exiles" description="Placeholder" link="conan-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/440900/header.jpg?t=1698860631"/>
   <Card title="Core Keeper" description="Placeholder" link="corekeeper-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/1621690/header.jpg?t=1698860631"/>
-  <Card title="CS 1.6" description="Placeholder" link="cs16--firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/10/header.jpg?t=1666823513"/>
-  <Card title="CS:GO" description="Placeholder" link="csgo--firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/730/header.jpg?t=1698860631"/>
+  <Card title="CS 1.6" description="Placeholder" link="cs16-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/10/header.jpg?t=1666823513"/>
+  <Card title="CS:GO" description="Placeholder" link="csgo-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/730/header.jpg?t=1698860631"/>
   <Card title="CS:S" description="Placeholder" link="css-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/240/header.jpg?t=1666823740"/>
   <Card title="CS2" description="Placeholder" link="cs2-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/730/header.jpg?t=1698860631"/>
   <Card title="DayZ" description="Placeholder" link="dayz-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/221100/header.jpg?t=1698860631"/>
