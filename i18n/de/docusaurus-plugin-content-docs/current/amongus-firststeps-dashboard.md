@@ -112,7 +112,7 @@ Falls du noch offene Fragen hast, empfehlen wir dir, zunächst in unsere Fragen 
 
 Wir bieten eine umfangreiche Dokumentation zu unseren Produkten an, die als Wissensdatenbank für die am häufigsten gestellten Fragen und Anliegen dient. Dort findest du zahlreiche Anleitungen und Hilfestellungen zu verschiedenen Themen, die dir bei der Nutzung und Verwaltung deines Produktes unterstützen.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/yLKbfSQzs8sy4BM/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/QrEL7ABJtS9yBcS/preview)
 
 
 
@@ -126,14 +126,6 @@ Im Abschnitt **Einstellungen** deines Navigationspanels findest du eine Reihe vo
 ### Einstellungen
 
 Unter den Einstellungen findest du eine Übersicht der gängingsten Einstellungsoptionen zu deinem Server. Diese beinhalten ebenfalls jeweils eine kurze Erläutern. Die Nutzung der Einstellungsseite ist gerade für Neulinge in der Serververwaltung empfehlenswert. 
-
-> Screenshot einfügen
-
-Hier kannst du beispielsweise folgende Anpassungen vornehmen: 
-
-- Platzhalter:
-- Platzhalter:
-- Platzhalter:
 
 Solltest du dir doch mehr zutrauen und präzisere Änderungen vornehmen wollen, so empfehlen wir stattdessen den Config-Editor zu verwenden. Mehr dazu findest du unter der Kategorie **Configs**.
 

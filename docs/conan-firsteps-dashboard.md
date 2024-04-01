@@ -1,5 +1,5 @@
 ---
-id: conan-firsteps-dashboard
+id: conan-firststeps-dashboard
 title: Conan Exiles Dashboard overview
 description: Information about the dashboard of an Conan Exiles Server from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Dashboard
@@ -119,7 +119,7 @@ In case you still have unanswered questions, we recommend that you first take a 
 
 We offer extensive documentation for our products, which serves as a knowledge base for the most frequently asked questions and concerns. There you will find various guides and help on different topics that will assist you in using and managing your product.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/tspCPMyyMJJaiXp/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/SyxK6CFgedeL2GF/preview)
 
 
 

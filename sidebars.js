@@ -308,7 +308,7 @@ const sidebars = {
           type: "category",
           label: "First Steps",
           items: [
-            'minecraft-firststeps-dashboard',
+            'scp-firststeps-dashboard',
             "scp-firststeps-connect",
           ]
         },		
@@ -340,7 +340,7 @@ const sidebars = {
           type: "category",
           label: "First Steps",
           items: [
-            
+            "valheim-firststeps-dashboard",
             "valheim-firststeps-connect",
           ]
         },
@@ -468,7 +468,7 @@ const sidebars = {
           type: "category",
           label: "First Steps",
           items: [
-            "amongus-firststeps-dashboard"
+            "arma3-firststeps-dashboard"
           ]
         },
         "arma3-serverconfig",
@@ -556,6 +556,13 @@ const sidebars = {
       type: "category",
       label: "Conan Exiles",
       items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "conan-firststeps-dashboard",
+          ]
+        },
         "conan-becomeadmin",
         "conan-configuration"
       ],
@@ -568,6 +575,7 @@ const sidebars = {
           type: "category",
           label: "First Steps",
           items: [
+            "corekeeper-firststeps-dashboard",
             "corekeeper-connecttoserver"
           ]
         }
@@ -577,6 +585,13 @@ const sidebars = {
       type: "category",
       label: "CS 1.6",
       items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "cs16-firststeps-dashboard",
+          ]
+        },
         "cs16-becomeadmin",
         "cs16-plugins"
       ],
@@ -589,6 +604,7 @@ const sidebars = {
           type: "category",
           label: "First Steps",
           items: [
+            "csgo-firststeps-dashboard",
             "csgo-configuration",
           ]
         },
@@ -615,6 +631,13 @@ const sidebars = {
       type: "category",
       label: "CS:S",
       items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "css-firststeps-dashboard",
+          ]
+        },
         "source-gsltoken",
         {
           type: "category",
@@ -645,9 +668,17 @@ const sidebars = {
           items: [
             "cs2-configuration",
             "cs2-cstv",
+            "cs2-becomeadmin"
+          ]
+        },
+        {
+          type: "category",
+          label: "Plugins / Mods",
+          items: [
             "cs2-plugins"
           ]
         },
+        
       ],
     },
     {
@@ -667,6 +698,13 @@ const sidebars = {
       type: "category",
       label: "Don't Starve Together",
       items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "dst-firststeps-dashboard"
+          ]
+        },
         "dst-create-cave"
       ],
     },
@@ -674,6 +712,13 @@ const sidebars = {
       type: "category",
       label: "ECO",
       items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "eco-firststeps-dashboard"
+          ]
+        },
         "eco-becomeadmin",
         "eco-whitelist"
       ],
@@ -682,6 +727,13 @@ const sidebars = {
       type: "category",
       label: "Empyrion",
       items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "empyrion-firststeps-dashboard"
+          ]
+        },
         "empyrion-becomeadmin"
       ],
     },
@@ -798,6 +850,13 @@ const sidebars = {
       type: "category",
       label: "Garry's Mod",
       items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "gmod-firststeps-dashboard"
+          ]
+        },
         "gmod-servercfg",
         "gmod-ttt"
       ],
@@ -1039,6 +1098,7 @@ const sidebars = {
           type: "category",
           label: "First Steps",
           items: [
+            "scp-firststeps-dashboard",
             "scp-firststeps-connect"
           ]
         },		
@@ -1094,6 +1154,20 @@ const sidebars = {
     },
     {
       type: "category",
+      label: "Sunkenland",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "sunkenland-firststeps-dashboard",
+            "sunkenland-setup-server",
+          ]
+        },
+      ],
+    },
+    {
+      type: "category",
       label: "Terraria",
       items: [
         {
@@ -1118,6 +1192,13 @@ const sidebars = {
       type: "category",
       label: "Unturned",
       items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "unturned-firststeps-dashboard"
+          ]
+        },
         "unturned-becomeadmin",
         "unturned-workshop",
         "unturned-firstthirdperson",
@@ -1130,6 +1211,40 @@ const sidebars = {
             "unturned-rocketmod-permissions"
           ]
         }
+      ],
+    },
+    {
+      type: "category",
+      label: "Valheim",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "valheim-firststeps-dashboard",
+            "valheim-firststeps-connect",
+          ]
+        },
+        "valheim-savegame",
+        "valheim-backup-schedule",
+        "valheim-serverlisting",
+        "valheim-admin",
+        "valheim-plus",
+        "valheim-plugins-bepinex"
+      ],
+    },
+    {
+      type: "category",
+      label: "Vein",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "vein-firststeps-dashboard",
+          ]
+        },
+        
       ],
     },
     {
@@ -1148,21 +1263,15 @@ const sidebars = {
     },
     {
       type: "category",
-      label: "Valheim",
+      label: "Wurm Unlimited",
       items: [
         {
           type: "category",
           label: "First Steps",
           items: [
-            "valheim-firststeps-connect",
+            "wurmunlimited-firststeps-dashboard",
           ]
         },
-        "valheim-savegame",
-        "valheim-backup-schedule",
-        "valheim-serverlisting",
-        "valheim-admin",
-        "valheim-plus",
-        "valheim-plugins-bepinex"
       ],
     },
     

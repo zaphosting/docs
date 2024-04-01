@@ -48,7 +48,7 @@ To install the GS/TS3 interface, you need to navigate to the navigation panel **
 
 The first time you call up the GS/TS3 interface, you will be taken to the user-friendly setup assistant. To set up the interface and link it to your server, it is first necessary to create an SSH key. This key is necessary for the website to establish a secure connection to the server. This makes it possible to set up, manage and control services such as game servers and Teamspeak 3 servers directly via the interface.
 
-Once there, the SSH key must be created. To do this, click on the **Generate SSH key** button and then add the key by clicking on the **Add key** button. Optionally, you can also define a name for the key for overview purposes.
+Once there, the SSH key must be created. To do this, click on the **Generate SSH key** button and then add the key by clicking on the **Add key** button. 
 
 
 ![img](https://user-images.githubusercontent.com/61839701/165696291-b5c31c89-3b4e-4099-b29c-bfda756b19a6.png)

@@ -94,7 +94,7 @@ Die **Ereignislog** bietet dir einen umfassenden Überblick über sämtliche Akt
 
 Die **Live-Konsole** bietet dir eine Echtzeit-Ansicht aller aktuellen Ereignisse auf deinem Server. Hier kannst du sowohl Informationen zu den Aktivitäten der Spieler als auch mögliche Fehlermeldungen und Systemnachrichten einsehen. Diese Übersicht ermöglicht es dir, einen umfassenden Einblick in das Geschehen auf deinem Server zu erhalten und eventuelle Probleme frühzeitig zu erkennen.
 
-> Screenshot einfügen
+![img](https://screensaver01.zap-hosting.com/index.php/s/bDqw5G9fLi5mxAg/preview)
 
 Zusätzlich zur Beobachtung der Ereignisse kannst du in der **Live-Konsole** auch direkt Befehle an den Server senden. Dies kann nützlich sein, um Einstellungen anzupassen, bestimmte Aktionen auszuführen oder um schnell auf auftretende Probleme zu reagieren.
 
@@ -120,7 +120,7 @@ Falls du noch offene Fragen hast, empfehlen wir dir, zunächst in unsere Fragen 
 
 Wir bieten eine umfangreiche Dokumentation zu unseren Produkten an, die als Wissensdatenbank für die am häufigsten gestellten Fragen und Anliegen dient. Dort findest du zahlreiche Anleitungen und Hilfestellungen zu verschiedenen Themen, die dir bei der Nutzung und Verwaltung deines Produktes unterstützen.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/yLKbfSQzs8sy4BM/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/QrEL7ABJtS9yBcS/preview)
 
 
 

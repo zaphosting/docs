@@ -1,74 +1,64 @@
 ---
 id: vserver-windows-addip
-title: Zusätzliche IPs zu einem Windows Server hinzufügen
+title: Zusätzliche IP-Adressen unter Windows konfigurieren
 description: Informationen, wie du zusätzliche IPs zu deinem Windows vServer von ZAP-Hosting hinzufügen kannst - ZAP-Hosting.com Dokumentation
-sidebar_label: Zusätzliche IPs hinzufügen
+sidebar_label: Zusätzliche IP-Adressen
 ---
 
-## Die neuen extra IPs ermitteln
-Als Erstes musst du in Erfahrung bringen, wie deine Extra-IP lautet. Dafür kannst du im Interface von deinem Server auf den Reiter "IP-Adressen" klicken. Hier werden die alle IPs angezeigt, welche deinem Server zur Verfügung stehen. Du kannst auch direkt erkennen, welche IP bereits eingetragen ist und welche noch nicht funktioniert.
+## Einführung
 
-![image](https://user-images.githubusercontent.com/13604413/159172829-7297f0a3-4678-4690-a303-0a17dda275e6.png)
+Mehrere IP-Adressen auf einem Server können aus verschiedenen Gründen nützlich sein. Insbesondere in komplexen Netzwerkumgebungen oder um bestimmte Anforderungen an die Netzwerkleistung, Sicherheit und Verwaltung zu erfüllen. Durch die Zuweisung unterschiedlicher IP-Adressen zu verschiedenen Diensten oder Anwendungen auf demselben Server kann eine bessere Isolation erreicht werden.
 
-## Verbindung zum Server herstellen
-Um die extra IPs deinem Server hinzuzufügen, musst du dich erstmal mit diesen verbinden. Wie das geht, ist hier in unserer separaten Anleitung ausführlich erläutert: https://docs.zap-hosting.com/docs/de/vserver-windows-userdp/#-remotedesktopverbindung
 
-##  Netzwerk Adapter öffnen
-Damit du eigene IPs eintragen kannst, musst du erstmal deinen Adapter auf deinem Server öffnen.
-Mache dafür einen Rechtsklick auf das Internetsymbol von deinem Server, welches du unten rechts am Bildschirmrand findest (direkt neben der Uhrzeit):
 
-![image](https://user-images.githubusercontent.com/13604413/159172836-9df0c9b3-cd37-43f0-8ec9-8c10f78ac623.png)
+## Voraussetzungen
 
-Nun auf die Option "Netzwerk und Interneteinstellungen öffnen" klicken.
-Es sollte sich nun folgendes Fenster geöffnet haben:
+Die Nutzung von mehreren IP-Adressen setzt voraus, dass dein Server (Paket) diese auch beinhaltet. Solltest du standardmäßig noch keine zusätzlichen IP-Adressen dazugebucht haben, so müsstest du diese zunächst per Upgrade ergänzen. Verbinde dich im Anschluss mit deinem Server per [RDP](vserver-windows-userdp). 
 
-![image](https://user-images.githubusercontent.com/13604413/159172840-0b856022-81b9-43dc-ac73-9b1823265e61.png)
 
-Hier kannst du auf "Adapteroptionen ändern" klicken.
 
-### Netzwerk Adapter editieren
-Jetzt öffnet sich ein weiteres Fenster mit deinem Adapter.
-Mache einen Rechtsklick auf den Adapter und wähle Eigenschaften aus:
+## Konfiguration
 
-![image](https://user-images.githubusercontent.com/13604413/159172842-e2c440a8-1e9f-4862-b6da-543f76dfc426.png)
 
-Hier angekommen musst du jetzt auf "Internetprotokoll, Version 4(TCP/IPv4) klicken und dann rechts unten auf "Eigenschaften" klicken.
-Denn wir möchten ja eine zusätzliche IPv4 Adresse deinem Server zuweisen.
 
-![image](https://user-images.githubusercontent.com/13604413/159172847-c1619f77-3e8e-4ffb-8f19-2d6f60676459.png)
+### Informationen besorgen
 
-Jetzt siehst du die bereits eingetragene IP auf deinem Server. Mit welcher du auch aktuell mit deinem Server verbunden bist.
-Um nun eine neue IP einzutragen, musst du auf "erweitert" klicken:
+Zunächst werden die Informationen zu den verfügbaren IP-Adressen benötigt. Die zusätzlichen IP-Adressen können in der Server Verwaltung unter IP-Adressen eingesehen werden. 
 
-![image](https://user-images.githubusercontent.com/13604413/159172853-20154d14-695b-4ddb-87f3-3abf23bd8c82.png)
+![img](https://screensaver01.zap-hosting.com/index.php/s/cioF28HcsWS5iko/preview)
 
-### Zusätzliche IP dem Adapter zuweisen
-Jetzt kannst du bei der Option "IP-Adressen" auf "Hinzufügen.." klicken, um deine eigene IP Adresse einzutragen:
 
-![image](https://user-images.githubusercontent.com/13604413/159172855-f47d3c23-6a7d-47d2-888e-61b39f3ef804.png)
 
-Trage jetzt in das erste Feld die IP von deinem Server ein, welche du im ersten Schritt ermittelt hast.
-In das Feld darunter (Subnetzmaske) trägst du "255.255.255.0" ein.
-Das ist ein fixer Wert, welcher bei jeder IP identisch ist.
-Das sieht dann in unserem Beispiel wie folgt aus:
 
-![image](https://user-images.githubusercontent.com/13604413/159172857-85b4fe79-853f-4438-90ac-7abcbccdda05.png)
 
-Nun klickst du auf "Hinzufügen". Die IP wird dir jetzt in der Liste der IP Adressen angezeigt.
+### Netzwerkonfiguration aufrufen
 
-Im selben Schritt fügen wir bei "Standardgateways" noch unser Gateway hinzu, das Gateway ist immer dieselbe IP nur mit 1 hinten.
-Beispiel: 11.12.13.14 ist die IP, dann wäre 11.12.13.1 das Gateway.
+Um die Netzwerkkonfiguration auf einem Windows Server aufzurufen, gibt es verschiedene Methoden. Die Netzwerkkonfiguration kannst du beispielsweise über die Systemsteuerung unter **Netzwerk- und Freigabecenter** aufrufen. 
 
-Klicke jetzt auf "Ok".
+Öffne die **Systemsteuerung** und klicke im Anschluss auf **Netzwerk und Internet** und dann auf **Netzwerk- und Freigabecenter**. Rufe dort im Anschluss  "Adaptereinstellungen ändern" auf und mache einen Doppelklick auf den Netzwerkadapter (Ethernet 2). Es öffnet sich der Netzwerkadapter, bei dem die Eigenschaften aufgerufen werden müssen. 
 
-![image](https://user-images.githubusercontent.com/13604413/159172859-3713b40f-cf8e-4cbb-b95d-d797e911770c.png)
+Öffne nun in den **Eigenschaften** des Netzwerkadapters die Option **Internetprotokoll Version 4 (TCP/IPv4)** aus. Dort siehst du Informationen zur Haupt-IP-Adresse, Subnetzmaske, Standard Gateway und die DNS-Server. Klicke dort auf den Button **Erweitert** um die zusätzliche(n) IP-Adressen hinzuzufügen. 
 
-Klicke im nächsten Fenster ebenfalls auf "Ok", damit die Änderungen übernommen werden:
+![img](https://screensaver01.zap-hosting.com/index.php/s/R4FyxYPMEH6syS3/preview)
 
-![image](https://user-images.githubusercontent.com/13604413/159172866-0afd8b75-a90a-49bf-92f4-4447dbcdb697.png)
 
-### Eigene IP überprüfen
-Die IP wurde jetzt korrekt auf deinem Server hinzugefügt. Du kannst jetzt den "IP-Adressen" Reiter im Interface von deinem Server aufrufen und nach dem Status der IP-Adresse schauen. Insofern alles korrekt erledigt wurde, wird die IP jetzt als "IP erreichbar" angezeigt.
-Mit der IP kannst du dich nun beispielsweise auch via RDP mit deinem Server verbinden:
 
-![image](https://user-images.githubusercontent.com/13604413/159172869-04429e1f-96c5-4e68-9add-0c08e22ad714.png)
+### IP-Adresse(n) hinzufügen
+
+Über die **Erweiterten TCP/IP-Einstellungen** Einstellungen wird nun die zusätzliche IP-Adresse hinzugefügt. Klicke dazu bei IP-Adressen auf den Button **Hinzufügen** und fülle die Felder für die **IP-Adresse** und **Subnetzmaske** aus. In dem Feld für die IP-Adresse wird die zusätzliche IP-Adresse eingetragen. Als Subnetzmaske wird die 255.255.255.0 verwendet. 
+
+
+
+![img](https://screensaver01.zap-hosting.com/index.php/s/96RpNegkcGGEsJe/preview)
+
+
+
+
+## Schlussfolgerung
+
+Die IP-Adresse ist jetzt erfolgreich konfiguriert und hinzugefügt worden. Du kannst den aktuellen Status der IP-Adressen überprüfen, indem du in der Serververwaltung zum Abschnitt I**P-Adressen** navigierst. Dort sollte dir die neu hinzugefügte IP-Adresse als erreichbar dargestellt werden.
+
+
+
+![img](https://screensaver01.zap-hosting.com/index.php/s/XsZBB9fjatdrpRL/preview)
+

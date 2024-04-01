@@ -21,6 +21,7 @@
   --ifm-h2-font-size: 1.5rem;
   --ifm-h3-font-size: 1.25rem;
   --ifm-footer-background-color: #535353;
+  --doc-sidebar-width: 350px !important;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -35,6 +36,7 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
   --ifm-background-color: #181920;
   --ifm-footer-background-color: #535353;
+  --doc-sidebar-width: 350px !important;
 }
 
 h1 {
@@ -90,7 +92,7 @@ p {
 }
 
 .menu>.menu__list .menu__list{
-  border-left: 1px solid #18e888;
+  border-left: 2px solid #18e888;
   padding: 0px;
   margin-left: 20px;
 }

@@ -42,6 +42,10 @@
   font-size: 1.5em;
   font-weight: bold;
   margin: 0px 0px 10px 0px;
+  text-overflow: ellipsis;
+  overflow: hidden; 
+  width: 95%;
+  white-space: nowrap;
 }
 
 .description {
