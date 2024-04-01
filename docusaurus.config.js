@@ -134,7 +134,8 @@ const config = {
         docs: {
           sidebarPath: './sidebars.js',
           editUrl: 'https://github.com/zaphosting/docs/tree/master/',
-          editLocalizedFiles: true
+          editLocalizedFiles: true,
+          showLastUpdateTime: true
         },
         blog: false,
         theme: {
