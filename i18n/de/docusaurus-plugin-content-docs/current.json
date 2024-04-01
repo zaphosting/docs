@@ -366,5 +366,17 @@
   "sidebar.voiceserverbotSidebar.category.TS3MusicBot": {
     "message": "TS3MusicBot",
     "description": "The label for category TS3MusicBot in sidebar voiceserverbotSidebar"
+  },
+  "sidebar.gameserverSidebar.category.Plugins / Mods": {
+    "message": "Plugins / Mods",
+    "description": "The label for category Plugins / Mods in sidebar gameserverSidebar"
+  },
+  "sidebar.gameserverSidebar.category.Vein": {
+    "message": "Vein",
+    "description": "The label for category Vein in sidebar gameserverSidebar"
+  },
+  "sidebar.gameserverSidebar.category.Wurm Unlimited": {
+    "message": "Wurm Unlimited",
+    "description": "The label for category Wurm Unlimited in sidebar gameserverSidebar"
   }
 }
