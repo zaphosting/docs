@@ -92,7 +92,7 @@ p {
 }
 
 .menu>.menu__list .menu__list{
-  border-left: 2px solid #18e888;
+  border-left: 2px solid var(--ifm-color-primary);
   padding: 0px;
   margin-left: 20px;
 }
