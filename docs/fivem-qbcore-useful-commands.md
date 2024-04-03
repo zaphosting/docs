@@ -905,10 +905,6 @@ Takes the dna of a player with a given `id`. Requires an empty evidence bag.
 
 </details>
 
-### Banking
-
-* /givecash - gives the player an amount of cash
-
 ### Cityhall
 
 * /drivinglicense - give player a license after a driving test
@@ -933,26 +929,14 @@ Takes the dna of a player with a given `id`. Requires an empty evidence bag.
 * /dealers - show list if info on dealers
 * /dealergoto - teleport to dealer
 
-### Garbage
-
-* /cleargarbroutes - removes garbo routes for user
-
 ### Hotdogjob
 
 * /removestand - removes a hotdog stand
-
-### Housing
-
-* /decorate - opens decorate menu/options
-* /createhouse - creates a house at location
-* /addgarage - adds garage at location
-* /ring - rings a doorbell at location
 
 ### Hud
 
 * /cash - displays current cash amount
 * /bank - displays current bank amount
-* /dev - displays a dev icon
 
 ### Inventory
 
@@ -961,14 +945,8 @@ Takes the dna of a player with a given `id`. Requires an empty evidence bag.
 * /giveitem - gives item to a player
 * /randomitems - gives random items to a player
 
-### Lapraces
-
-* /cancelrace - cancel the current race
-* /togglesetup - turn on or off race setup
-
 ### Mechanicjob
 
-* /setvehiclestatus - sets the vehicles status
 * /setmechanic - give someone the mechanic job
 * /firemechanic - fire a mechanic
 
@@ -982,11 +960,6 @@ Takes the dna of a player with a given `id`. Requires an empty evidence bag.
 * /newscam - gives player a a news camra
 * /newsmic - gives player a news microphone
 * /newsbmic - gives player a boom microphone
-
-### Phone
-
-* /setmetadata - sets the players metadata
-* /bill - sends a bill\* /invoice to player
 
 ### RadialMenu
 
@@ -1007,30 +980,6 @@ Takes the dna of a player with a given `id`. Requires an empty evidence bag.
 * /quitrace - quits the current street race
 * /startrace - starts the current street race
 
-### Towjob
-
-* /npc - Toggles a tow job from a npc
-* /tow - puts closes vehicle on flatbed (must be behind truck)
-
-### Traphouse
-
-* /multikeys - gives keys to another player
-
 ### Vehiclefailure
 
 * /fix - fixes current vehicle
-
-### Vehiclekeys
-
-* /engine - toggles engine on/off
-* /givekeys - gives keys to a player
-* /addkeys - adds keys to that player
-* /removekeys - removes keys from player
-
-### Vehicleshop
-
-* /transferVehicle - gift or sell your vehicle to someone
-
-### Weapons
-
-* /repairweapon - repairs a weapon
