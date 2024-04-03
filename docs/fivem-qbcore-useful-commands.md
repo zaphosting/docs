@@ -1,3 +1,10 @@
+---
+id: fivem-qbcore-useful-commands
+title: QBCore Server Useful commands
+description:  A list of all commands from your FiveM QBCore server - ZAP-Hosting.com documentation
+sidebar_label: Useful commands
+---
+
 # ❗ Commands
 
 ### AdminMenu
