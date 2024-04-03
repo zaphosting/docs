@@ -6,7 +6,7 @@ sidebar_label: Useful commands
 ---
 
 # ❗ Commands
-#### This guide lists and explains all commands from your FiveM QBCore server.
+#### This guide lists and explains all useful commands from your FiveM QBCore server.
 
 ### AdminMenu
 
