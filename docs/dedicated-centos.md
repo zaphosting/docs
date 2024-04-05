@@ -20,14 +20,13 @@ The structure of the guide is based on the use of the CentOS 8.3 operating syste
 :::
 
 ## Preparation
-
 For the installation and configuration of an operating system, it is initially important to mount the corresponding ISO of the operating system. There are several possible ways to mount it:
 
 1. Mounting via the initial setup
 2. Mounting via iLO (Virtual Media)
 3. Mounting via iLO (Remote Console)
 
-If you are not familiar with mounting an ISO file yet, it's best to refer to our [Initial Setup](https://chat.openai.com/c/dedicated-setup.md) or [Custom ISO](https://chat.openai.com/c/dedicated-iso.md) guide.
+If you are not familiar with mounting an ISO file yet, it's best to refer to our [Initial Setup](dedicated-setup.md) or [Custom ISO](dedicated-iso.md) guide.
 
 
 
