@@ -378,5 +378,9 @@
   "sidebar.gameserverSidebar.category.Wurm Unlimited": {
     "message": "Wurm Unlimited",
     "description": "The label for category Wurm Unlimited in sidebar gameserverSidebar"
+  },
+  "sidebar.gameserverSidebar.category.Terratech Worlds": {
+    "message": "Terratech Worlds",
+    "description": "The label for category Terratech Worlds in sidebar gameserverSidebar"
   }
 }
