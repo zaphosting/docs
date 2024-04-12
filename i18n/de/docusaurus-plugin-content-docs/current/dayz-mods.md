@@ -1,7 +1,7 @@
 ---
-id: arma3-mods
+id: dayz-mods
 title: Installation von Mods
-description: Informationen zur Installation von Mods bei deinem Arma 3 Gameserver von ZAP-Hosting - ZAP-Hosting.com Dokumentation
+description: Informationen zur Installation von Mods bei deinem DayZ Gameserver von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Mods installieren
 ---
 
@@ -15,7 +15,7 @@ Mit Mods hast du die Möglichkeit, deinen Server noch individueller anzupassen. 
 
 ## Vorbereitung
 
-Über den [Steam Workshop](https://steamcommunity.com/app/107410/workshop/) hast du die Möglichkeit Mods bei deinem Server zu installieren. Der Steam Workshop ist ideal, um neue und spannende Mods zu entdecken und zu managen. Beginne damit, im Steam Workshop nach Mods zu stöbern, die dein Interesse wecken Wenn du einen Mod findest, der dir gefällt, ist es wichtig, dass du die zugehörige Workshop-ID notierst. Die ID kannst du aus der URL entnehmen. Diese Workshop ID ist notwendig für die folgende Installation. 
+Über den [Steam Workshop](https://steamcommunity.com/app/221100/workshop/) hast du die Möglichkeit Mods bei deinem Server zu installieren. Der Steam Workshop ist ideal, um neue und spannende Mods zu entdecken und zu managen. Beginne damit, im Steam Workshop nach Mods zu stöbern, die dein Interesse wecken Wenn du einen Mod findest, der dir gefällt, ist es wichtig, dass du die zugehörige Workshop-ID notierst. Die ID kannst du aus der URL entnehmen. Diese Workshop ID ist notwendig für die folgende Installation. 
 
 
 
