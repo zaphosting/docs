@@ -691,7 +691,8 @@ const sidebars = {
           items: [
             "dayz-firststeps-dashboard"
           ]
-        }
+        },
+        "dayz-mods",
       ],
     },
     {
@@ -956,7 +957,8 @@ const sidebars = {
           ]
         },
         "moe-configuration",
-        "moe-server-savegames"
+        "moe-server-savegames",
+        "moe-mods",
       ],
     },
     {
@@ -1179,6 +1181,19 @@ const sidebars = {
         },
         "terraria-tshock-add-admin",
         "terraria-tmodloader-installmod"
+      ],
+    },
+    {
+      type: "category",
+      label: "Terratech Worlds",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "terratech-worlds-firststeps-dashboard"
+          ]
+        },
       ],
     },
     {
