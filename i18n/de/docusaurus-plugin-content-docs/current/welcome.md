@@ -62,6 +62,7 @@ Perfektioniere und Nutze den vollen Umfang deines Gameservers. Mit unserer Exper
     <Card title="Stormworks" description="Placeholder" link="stormworks-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/573090/header.jpg?t=1698860631"/>
     <Card title="Sunkenland" description="Placeholder" link="sunkenland-firststeps-dashboard" image="https://cdn.akamai.steamstatic.com/steam/apps/2080690/header.jpg?t=1703562037"/>
     <Card title="Terraria" description="Placeholder" link="terraria-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/105600/header.jpg?t=1698860631"/>
+    <Card title="Terratech Worlds" description="Placeholder" link="terratech-worlds-firststeps-dashboard" image="https://cdn.akamai.steamstatic.com/steam/apps/2313330/header.jpg?t=1711171512"/>
     <Card title="Truck Simulator" description="Placeholder" link="trucksim-dlc" image="https://cdn.cloudflare.steamstatic.com/steam/apps/227300/header.jpg?t=1698860631"/>
     <Card title="Unturned" description="Placeholder" link="unturned-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/304930/header.jpg?t=1698860631"/>
     <Card title="Valheim" description="Placeholder" link="valheim-firststeps-dashboard"  image="https://cdn.cloudflare.steamstatic.com/steam/apps/892970/header.jpg?t=1698860631"/>
