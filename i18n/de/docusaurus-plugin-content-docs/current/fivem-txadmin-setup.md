@@ -5,19 +5,14 @@ description: Informationen zur Einrichtung des TxAdmin Interfaces für FiveM Gam
 sidebar_label: txAdmin Einrichtung
 ---
 
+import YouTube from '@site/src/components/YouTube/YouTube';
 
+<YouTube videoId="n3RoiExrvN0" title="Die ZAP-Docs ist da, um zu helfen!" description="Hast du das Gefühl, dass du etwas besser verstehst, wenn du es in Aktion siehst?  Wir haben etwas für dich! Tauche ab in unser Video, welches alles für dich zusammenfasst. Egal, ob du es eilig hast oder einfach nur Informationen auf möglichst verständliche Art und Weise aufnehmen möchtest!"/>
 
-**📺Video:** Du bevorzugst eine Anleitung eher in Form eines Videos oder als zusätzliche visuelle Ergänzung? Kein Problem! Für dieses Thema stellen wir ebenfalls ein Video zur Verfügung: 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/n3RoiExrvN0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
-## Was genau ist txAdmin?
-
-txAdmin ist ein Interface für FiveM Server, welches unter anderem ein Server-Installer, Admin- und Management Interface ist.
+## Einführung
+txAdmin ist ein komplett kostenloses, voll ausgestattetes Web-Panel, um deinen FiveM-Server zu verwalten und zu überwachen. Es bietet eine Vielzahl von Funktionen, die darauf ausgelegt sind, die Verwaltung eines FiveM-Servers so einfach wie möglich zu machen. Die Einrichtung von txAdmin ist völlig kostenlos, beginne deine Reise mit dem einfachsten und doch funktionalsten Web-Panel für FiveM-Server.
 
 ## Ersteinrichtung
-
 Nachdem wir unseren txAdmin Server gemietet haben, wird dieser im Interface wie folgt angezeigt:
 
 ![image](https://user-images.githubusercontent.com/13604413/159169306-97751551-ef77-47a1-9fe2-acf2a437c16c.png)
