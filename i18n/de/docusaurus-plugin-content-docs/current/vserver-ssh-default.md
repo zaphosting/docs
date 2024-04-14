@@ -5,7 +5,7 @@ description: Informationen zur Verwaltung von SSH-Schlüsseln, die im Profil dei
 sidebar_label: Standard SSH-Schlüssel
 ---
 
-## Einleitung
+## Einführung
 Eine unserer neuesten Erweiterungen des ZAP-Hosting-Webinterfaces ist die Möglichkeit, deinem ZAP-Hosting-Konto über unsere Website Standard-SSH-Schlüssel hinzuzufügen. Der große Vorteil dabei ist, dass die SSH-Schlüssel, die du auf deiner Profilseite einrichtest, automatisch eingerichtet und bei der Ersteinrichtung des Produkts oder der Neuinstallation des Betriebssystems verwendet werden. Dadurch sparst du Zeit, da du deine SSH-Schlüssel nicht mehr manuell einrichten musst.
 
 ## Voraussetzungen
