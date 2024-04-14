@@ -8,7 +8,7 @@ sidebar_label: Default SSH Keys
 ## Introduction
 One of our latest additions to our ZAP-Hosting webinterface, is the ability to add default SSH Keys to your ZAP-Hosting account through our website. The awesome benefit of this is that the SSH Keys setup in your Profile page, will be automatically setup by default and used during first product setup or OS reinstallation. This saves you time as you won't have to manually setup your SSH Keys.
 
-## Prerequisites
+## Requirements
 In order to use this feature, you must have an SSH Key generated. If you have an SSH Key ready, you can proceed to the next section.
 
 To generate an SSH Key, we recommend heading over to the **Information->Access & Security** section in your vServer's webinterface. 
