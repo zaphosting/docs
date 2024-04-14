@@ -32,6 +32,6 @@ If you want to disable a plugin permanently then it is necessary to delete the c
 
 Solutions:
 
-- Make sure that all requirements are met during the plugin setup. Some plugins require a database to work properly. In this case you have to make further adjustments to the **database.cfg** located in theconfig directory.
+- Make sure that all prerequisites are met during the plugin setup. Some plugins require a database to work properly. In this case you have to make further adjustments to the **database.cfg** located in theconfig directory.
 - Changes to the source engine occur regularly. Hence, a plugin which has been released a long time ago but hasn't been maintained may no longer be compatible. In this case, the only possibility is to visit the Alliedmodders Forum to find an unofficial fixed version or to use an alternative plugin in general.
 - If none of the above options work, then it's recommended to have a look at the Live Console or the log files. Usually the cause of the issue can be found there.

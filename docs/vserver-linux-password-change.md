@@ -21,7 +21,7 @@ After the password has been entered, a pop-up message appears which can be confi
 
 ![](https://user-images.githubusercontent.com/61839701/165682312-00ebebbb-1f93-492a-ae53-56a8d689afe0.png)
 
-If all requirements are met, the system will confirm that the password has been successfully changed. 
+If all prerequisites are met, the system will confirm that the password has been successfully changed. 
 
 
 ✅ The password has now been changed. 

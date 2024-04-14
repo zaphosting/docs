@@ -9,7 +9,7 @@ sidebar_label: Create Realm
 Last Oasis servers require a range of setup steps to authenticate with the official site. In this guide, we will explore the steps required to create your own realm on Last Oasis and setup an oasis within your new realm.
 
 ## Preparation
-One of the requirements to setup a new realm is to generate a key from the official site in order to be able to verify and authenticate with the official online services.
+One of the prerequisites to setup a new realm is to generate a key from the official site in order to be able to verify and authenticate with the official online services.
 
 Simply, head over to [the official Last Oasis](https://myrealm.lastoasis.gg/) website and login with your preferred choice of platform (Steam or Xbox).
 

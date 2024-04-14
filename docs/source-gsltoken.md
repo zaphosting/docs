@@ -50,7 +50,7 @@ Once this step is done and the server has been restarted, the server will also a
 
 ## ⁉ Frequently asked questions
 
-**What are the requirements for a GSL token?**
+**What are the prerequisites for a GSL token?**
 
 The Steam Account is not allowed to have a restriction like a community ban. In addition, a valid telephone number needs to be registered with the Steam Account.
 
