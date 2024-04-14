@@ -15,7 +15,7 @@ Nextcloud is an open source cloud solution and fork of Owncloud, which was found
 
 In order to achieve optimal performance, stability and functionality, the following setup is recommended for hosting a Nextcloud server. The Nextcloud server is not compatible with Windows and MacOS. At least not without any further virtualization or similar workarounds.<br/>
 
-**System requirements**
+**System prerequisites**
 
 <br/>
 **Hardware**
@@ -38,7 +38,7 @@ In order to achieve optimal performance, stability and functionality, the follow
 | PHP              | 5.6, 7.0 (recommended), 7.1 (recommended), 7.2               |
 
 :::info
-The requirements are based on our own experience and the information provided by the developers..
+The prerequisites are based on our own experience and the information provided by the developers..
 :::
 
 

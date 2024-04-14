@@ -11,7 +11,7 @@ sidebar_label: Steam Web API Key
 
 A Steam Web API key has important uses for FiveM. This includes authentication by the API Key when Steam is used as identifier by different scripts and/or resources.
 
-## Requirements
+## Prerequisites
 
 A non-limited Steam account is required to request an API key. Restricted Steam accounts have limited access to Steam's features, so without full access it is not possible to request an API key. You have to spend at least **5.00 USD** in the Steam store to unlock your account and its features.
 

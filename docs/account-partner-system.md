@@ -1,7 +1,7 @@
 ---
 id: account-partner-system
 title: ZAP-Hosting Partner Program
-description: Information on applying as a ZAP-Hosting partner, including the requirements, benefits and the application process - ZAP-Hosting.com documentation
+description: Information on applying as a ZAP-Hosting partner, including the prerequisites, benefits and the application process - ZAP-Hosting.com documentation
 sidebar_label: Introduction
 ---
 

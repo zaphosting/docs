@@ -55,15 +55,15 @@ If all the steps from the preparation have been fulfilled, then the actual setup
 ![mybbinstall](https://user-images.githubusercontent.com/61953937/168512932-33b88822-3885-4d87-bb63-85bddbd195ba.png)
 
 
-Once there, we now have to configure the 9 categories during the setup. The configuration will check if all the requirements are met, configure the database and forum software, and so on. To begin with, we must first determine whether anonymous statistics should be forwarded to MyBB or not. After that, the license terms have to be agreed upon as well. 
+Once there, we now have to configure the 9 categories during the setup. The configuration will check if all the prerequisites are met, configure the database and forum software, and so on. To begin with, we must first determine whether anonymous statistics should be forwarded to MyBB or not. After that, the license terms have to be agreed upon as well. 
 
-An overview of the required system requirements should then be displayed. This includes PHP version, memory, etc. The webspace should already be configured to meet all of these requirements by default.
+An overview of the required system prerequisites should then be displayed. This includes PHP version, memory, etc. The webspace should already be configured to meet all of these prerequisites by default.
 
 
 ![install2](https://user-images.githubusercontent.com/61953937/168512942-03abc4f0-8285-477e-8541-db74e69772d1.png)
 
 
-In case any requirements are not met, please contact the support. Otherwise you can click on **Next** and continue the setup. Now we have to configure the database, which has already been created in advance. The database information from the created database must be filled in there: 
+In case any prerequisites are not met, please contact the support. Otherwise you can click on **Next** and continue the setup. Now we have to configure the database, which has already been created in advance. The database information from the created database must be filled in there: 
 
 ![image](https://user-images.githubusercontent.com/13604413/159177023-e839a466-f66e-4bdf-a11a-d505734eecfc.png)
 

@@ -39,7 +39,7 @@ Are you interested in joining the conversation and collaborating with other like
 
 ## Copyright and Terms & Conditions
 
-During participation in our ZAP-Hosting Contribution Program, you must abide by our Terms & Conditions and requirements. These are non-negotiable and must be followed to be able to participate in our Contribution Program. If we believe that you have breached one of our terms, your work may not be approved and thus will not qualify for our Contribution Program. All final decisions are at the discretion of the ZAP-Hosting Contributions Team.
+During participation in our ZAP-Hosting Contribution Program, you must abide by our Terms & Conditions and prerequisites. These are non-negotiable and must be followed to be able to participate in our Contribution Program. If we believe that you have breached one of our terms, your work may not be approved and thus will not qualify for our Contribution Program. All final decisions are at the discretion of the ZAP-Hosting Contributions Team.
 
 **Key Information:**
 - You agree to transfer all exclusive intellectual property rights of your creation to ZAP-Hosting GmbH & Co KG. This transfer is confirmed once you have received your payment.

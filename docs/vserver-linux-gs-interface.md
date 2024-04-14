@@ -89,7 +89,7 @@ In the next step, you have the option of selecting the IP address of the desired
 
 ![img](https://user-images.githubusercontent.com/61839701/165700364-b4b07d72-f7a5-47f6-bdf8-d9f8993a8cbf.png)
 
-Make sure that all the details are correct and meet your requirements. As soon as you have made all the settings, click on "Install game server now" to start the installation process. The game server will then be set up according to your specifications and you will soon be able to get started. You can now view and call up your newly created game server in the list.
+Make sure that all the details are correct and meet your prerequisites. As soon as you have made all the settings, click on "Install game server now" to start the installation process. The game server will then be set up according to your specifications and you will soon be able to get started. You can now view and call up your newly created game server in the list.
 
 
 
@@ -123,7 +123,7 @@ In the next step, you have the option of specifying the desired settings for you
 
 ![img](https://user-images.githubusercontent.com/61839701/165702011-e54549cc-4d83-4e86-b732-da3751c7c5a4.png)
 
-Make sure that all the information is correct and meets your requirements. Once you have made all the settings, click on **Install Teamspeak 3/5 Server now** to start the installation process. You can now view and click on the installed Teamspeak 3 server in the **Voiceserver Overview**.
+Make sure that all the information is correct and meets your prerequisites. Once you have made all the settings, click on **Install Teamspeak 3/5 Server now** to start the installation process. You can now view and click on the installed Teamspeak 3 server in the **Voiceserver Overview**.
 
 ![](https://user-images.githubusercontent.com/61839701/165702380-5169d23a-21d0-4d58-a538-ab7b65f76615.png)
 

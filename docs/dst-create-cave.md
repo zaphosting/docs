@@ -5,7 +5,7 @@ description: Information on how to create and use caves on servers for Don't Sta
 sidebar_label: Create Caves
 ---
 
-## Requirements for Caves
+## Prerequisites for Caves
 
 In order to use caves at Don't Starve Together, two servers ordered through us are required. One server would be the "master" which is used for the upper world and the second server would be the "slave" which is used solely for the caves. Which server you make the "master" and which one becomes the "slave" is decided by the configurations of the server.ini and cluster.ini.
 
