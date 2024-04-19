@@ -1,6 +1,6 @@
 ---
 id: ark-savegame
-title: Eigenes Savegame (Welt) importieren
+title: 'ARK: Eigenes Savegame (Welt) importieren'
 description: Informationen, wie du ein eigenes Savegame bei deinem ARK-Server von ZAP-Hosting importieren kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Savegame (Welt) importieren
 ---

@@ -1,6 +1,6 @@
 ---
 id: moe-configuration
-title: 'Myth of Empires: Myth of Empires Server-Konfiguration'
+title: 'Myth of Empires: Server-Konfiguration'
 description: Informationen zur Konfiguration eines Myth of Empires Gameservers von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Server Konfiguration
 ---
