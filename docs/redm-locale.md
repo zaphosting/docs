@@ -1,6 +1,6 @@
 ---
 id: redm-locale
-title: Change language / location (flag)
+title: "RedM: Change language / location (flag)"
 description: Information on how to customize the language and location (flag) on a RedM server - ZAP-Hosting.com documentation
 sidebar_label: Language / location (flag)
 ---

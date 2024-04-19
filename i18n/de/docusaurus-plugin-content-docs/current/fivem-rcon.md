@@ -1,6 +1,6 @@
 ---
 id: fivem-rcon
-title: Rcon benutzen
+title: "FiveM: Rcon benutzen"
 description: Informationen, wie du Rcon auf deinem FiveM-Server benutzen kannst, um Befehle an den Server zu senden - ZAP-Hosting.com Dokumentation
 sidebar_label: Rcon benutzen
 ---

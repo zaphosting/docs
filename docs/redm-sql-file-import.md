@@ -1,6 +1,6 @@
 ---
 id: redm-sql-file-import
-title: SQL file import
+title: "RedM: SQL file import"
 description: Information on how to import SQL files into the database of your RedM server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: SQL File Import
 ---

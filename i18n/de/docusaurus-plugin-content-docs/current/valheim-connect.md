@@ -1,6 +1,6 @@
 ---
 id: valheim-connect
-title: Auf Valheim-Server verbinden
+title: "Valheim: Auf Valheim-Server verbinden"
 description: Informationen, wie du dich auf deinen Valheim Server von ZAP-Hosting verbinden kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Zum Server Verbinden
 ---

@@ -1,6 +1,6 @@
 ---
 id: sunkenland-firststeps-dashboard
-title: Sunkenland Dashboard overview
+title: "Sunkenland: Dashboard Overview"
 description: Information about the dashboard of an Sunkenland server from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Dashboard
 ---

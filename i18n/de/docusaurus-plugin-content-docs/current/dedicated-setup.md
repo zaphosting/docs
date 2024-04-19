@@ -1,6 +1,6 @@
 ---
 id: dedicated-setup
-title: Ersteinrichtung
+title: "Dedicated Server: Ersteinrichtung"
 description: Informationen über die Ersteinrichtung deines dedizierten Servers von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Ersteinrichtung
 ---

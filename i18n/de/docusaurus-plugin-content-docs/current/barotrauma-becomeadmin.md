@@ -1,6 +1,6 @@
 ---
 id: barotrauma-becomeadmin
-title: Admin auf dem eigenen Server werden
+title: "Barotrauma: Admin auf dem eigenen Server werden"
 description: Informationen, wie du Admin auf deinem Barotrauma-Server von ZAP-Hosting wirst - ZAP-Hosting.com Dokumentation
 sidebar_label: Admin werden
 ---

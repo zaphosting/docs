@@ -1,6 +1,6 @@
 ---
 id: fivem-gamebuild
-title: DLC-Inhalte aktivieren
+title: "FiveM: DLC-Inhalte aktivieren"
 description: Informationen zur Aktivierung eines DLC Gamebuilds für FiveM Server - ZAP-Hosting.com - Dokumentation
 sidebar_label: DLC-Inhalte aktivieren
 ---

@@ -1,6 +1,6 @@
 ---
 id: valheim-firststeps-dashboard
-title: Valheim Dashboard Übersicht
+title: "Valheim: Dashboard Übersicht"
 description: Informationen zum Dashboard eines Valheim Server von ZAP-Hosting - ZAP-Hosting.com Dokumentationen
 sidebar_label: Dashboard
 ---

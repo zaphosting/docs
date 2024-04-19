@@ -1,6 +1,6 @@
 ---
 id: vserver-windows-mythofempires
-title: Myth of Empires Dedicated Server Einrichtung
+title: "Server: Myth of Empires Dedicated Server Einrichtung"
 description: Informationen zum Einrichten eines Myth of Empires Dedicated Servers auf einem VPS/Rootserver - ZAP-Hosting.com Dokumentation
 sidebar_label: MOE Dedicated Server Einrichtung
 ---

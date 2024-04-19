@@ -1,6 +1,6 @@
 ---
 id: satisfactory-connect-experimental
-title: Zum Server verbinden (Experimental)
+title: "Satisfactory: Zum Server verbinden (Experimental)"
 description: Information, wie du dich mit deinem Satisfactory Server von ZAP-Hosting verbinden kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Zum Server binden (Experimental)
 ---

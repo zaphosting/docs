@@ -1,6 +1,6 @@
 ---
 id: scp-pastebin
-title: Pastebin ID
+title: "SCP Secret Laboratory: Pastebin ID"
 description: Information, wie du den einen Pastebin Eintrag zum Erstellen einer Serverbeschreibung bei deinem SCP Server von ZAP-Hosting hinzufügen kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Pastebin ID
 ---

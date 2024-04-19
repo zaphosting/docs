@@ -1,6 +1,6 @@
 ---
 id: openmp-server-commands
-title: Open.mp Server Commands
+title: "Open.mp: Open.mp Server Commands"
 description: Information on useful commands for Open.mp game from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Server Commands
 ---

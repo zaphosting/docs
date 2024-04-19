@@ -1,6 +1,6 @@
 ---
 id: spaceengineers-firststeps-dashboard
-title: Dashboard overview
+title: "Space Engineers: Dashboard Overview"
 description: Information about the dashboard of a Space Engineers server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Dashboard
 ---

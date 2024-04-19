@@ -1,6 +1,6 @@
 ---
 id: vserver-linux-ftp
-title: FTP service does not work - Troubleshooting
+title: "VPS: FTP service does not work - Troubleshooting"
 description: Information on how to fix FTP problems on your VPS from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: FTP Service isn't working
 ---

@@ -1,6 +1,6 @@
 ---
 id: vserver-windows-userdp
-title: Erstzugriff auf Windows Server mit RDP
+title: "vServer: Erstzugriff auf Windows Server mit RDP"
 description: Informationen, wie der Erstzugriff auf deinen Windows vServer von ZAP-Hosting mit der Remote Desktopverbindung funktioniert - ZAP-Hosting.com Dokumentation
 sidebar_label: Erstzugriff (RDP)
 ---

@@ -1,6 +1,6 @@
 ---
 id: satisfactory-connect
-title: Connect to the Server
+title: "Satisfactory: Connect to the Server"
 sidebar_label: Connect to the Server
 ---
 

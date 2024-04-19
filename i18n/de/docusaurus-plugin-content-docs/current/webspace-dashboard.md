@@ -1,6 +1,6 @@
 ---
 id: webspace-dashboard
-title: Add Domain
+title: "Webspace: Add Domain"
 sidebar_label: Add Domain
 ---
 

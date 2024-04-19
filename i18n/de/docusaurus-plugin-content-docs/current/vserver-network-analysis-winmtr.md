@@ -1,6 +1,6 @@
 ---
 id: vserver-network-analysis-winmtr
-title: Netzwerkanalyse mit MTR/WinMTR
+title: "vServer: Netzwerkanalyse mit MTR/WinMTR"
 description: Informationen, wie du eine Netzwerkanalyse mit MTR/WinMTR durchführen kannst, um Netzwerkprobleme zu identifizieren - ZAP-Hosting.com Dokumentation
 sidebar_label: Netzwerkanalyse
 ---

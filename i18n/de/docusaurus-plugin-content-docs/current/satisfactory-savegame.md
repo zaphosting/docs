@@ -1,6 +1,6 @@
 ---
 id: satisfactory-savegame
-title: Savegame Manager
+title: "Satisfactory: Savegame Manager"
 description: Information, zu den Verwaltungsmöglichkeiten von Savegames über den Savegames Manager bei deinem Satisfactory Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Savegame Manager
 ---

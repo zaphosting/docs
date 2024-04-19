@@ -1,6 +1,6 @@
 ---
 id: amongus-connection
-title: Connecting to the server
+title: "Among Us: Connecting to the server"
 description: Information on how to connect to your Impostor - Among Us server - ZAP-Hosting.com documentation
 sidebar_label: Connection to the Server
 ---

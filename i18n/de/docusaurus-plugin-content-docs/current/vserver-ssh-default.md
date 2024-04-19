@@ -1,6 +1,6 @@
 ---
 id: vserver-ssh-default
-title: Standard SSH-Schlüssel im Profil verwalten
+title: "vServer: Standard SSH-Schlüssel im Profil verwalten"
 description: Informationen zur Verwaltung von SSH-Schlüsseln, die im Profil deines ZAP-Hosting-Kontos festgelegt sind - ZAP-Hosting.com Dokumentation
 sidebar_label: Standard SSH-Schlüssel
 ---

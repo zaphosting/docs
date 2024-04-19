@@ -1,6 +1,6 @@
 ---
 id: eco-becomeadmin
-title: Admin werden
+title: "ECO: Admin werden"
 description: Informationen, wie du Admin auf deinem ECO-Server bei ZAP-Hosting wirst - ZAP-Hosting.com Dokumentation
 sidebar_label: Admin werden
 

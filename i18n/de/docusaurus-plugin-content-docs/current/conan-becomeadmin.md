@@ -1,6 +1,6 @@
 ---
 id: conan-becomeadmin
-title: Admin auf dem eigenen Server werden
+title: "Conan Exiles: Admin auf dem eigenen Server werden"
 description: Informationen, wie du Admin auf deinem Conan Exiles-Server von ZAP-Hosting wirst - ZAP-Hosting.com Dokumentation
 sidebar_label: Admin werden
 

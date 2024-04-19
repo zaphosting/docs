@@ -1,6 +1,6 @@
 ---
 id: vserver-linux-gs-interface
-title: Gameserver/TS3 Interface
+title: "Server: Gameserver/TS3 Interface"
 description: Informationen, wie du über das Gameserver/TS3 Interface mit wenigen Klicks TS und Gameserver auf deinen vServer von ZAP-Hosting.com installieren kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: GS/TS3 Interface
 

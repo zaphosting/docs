@@ -1,6 +1,6 @@
 ---
 id: palworld-connect
-title: Mit Palworld Server verbinden
+title: "Palworld: Mit Palworld Server verbinden"
 description: Informationen zur Verbindung mit einem Palworld-Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Mit dem Server verbinden
 ---

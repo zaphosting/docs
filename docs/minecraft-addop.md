@@ -1,6 +1,6 @@
 ---
 id: minecraft-addop
-title: Server Assigning OP rights
+title: "Minecraft: Server Assigning OP rights"
 description: Information on how to assign and edit OP rights for your Minecraft server from ZAP-Hosting.com - ZAP-Hosting.com documentation
 sidebar_label: OP-Permissions
 ---

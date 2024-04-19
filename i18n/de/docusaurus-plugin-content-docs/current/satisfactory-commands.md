@@ -1,6 +1,6 @@
 ---
 id: satisfactory-commands
-title: Konsolen-Befehle
+title: "Satisfactory: Konsolen-Befehle"
 description: Informationen zu den möglichen Konsolenbefehlen für deinen Satisfactory Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Konsolen-Befehle
 ---
