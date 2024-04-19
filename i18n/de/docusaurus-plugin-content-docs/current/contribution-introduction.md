@@ -5,13 +5,15 @@ description: Informationen über das ZAP-Hosting Beitragsprogramm - ZAP-Hosting.
 sidebar_label: Einführung
 ---
 
-![Contribution Program 2.0](https://screensaver01.zap-hosting.com/index.php/s/jYiCeya8rDqWB3A/preview)
+![Contribution Program 2.0](https://screensaver01.zap-hosting.com/index.php/s/djbjL5gHGRCYAzq/preview)
 
 ## Einleitung
 
 Wir bei ZAP-Hosting glauben an die Kraft unserer Community. Deshalb freuen wir uns, unser eigenes ZAP-Hosting Community Contributions Programm zu starten. Dieses Programm ermöglicht es unserer ZAP-Community, qualitativ hochwertige, praktische und leicht zugängliche Anleitungen zu erstellen, die eine breite Palette von Themen unterstützen und anderen Mitmenschen helfen. Das Programm unterstützt auch die Kreativität unserer Community durch die Erstellung einzigartiger Blogbeiträge und Inhalte.
 
-Für alle Inhalte, die im Rahmen dieses Programms erstellt werden, gibt es Belohnungen in Form von ZAP-Coins - ein toller Vorteil! Weitere Informationen zu den Belohnungen sowie die Kriterien, nach denen die Belohnungen bewertet werden, findest du in der [Anleitung für Beitrags-Belohnungen](contribution-rewards.md).
+Für alle Inhalte, die im Rahmen dieses Programms produziert werden, gibt es **Geldprämien** als großartigen Vorteil für einen erfolgreichen Beitrag! Wir bieten die Auszahlung der Prämien über PayPal und als Guthaben für dein ZAP-Hosting-Konto an. Die Belohnungen werden im letzten Schritt ausgezahlt, sobald dein Beitrag von unserem ZAP-Hosting-Beitragsteam genehmigt wurde und zur Veröffentlichung bereit ist.
+
+Weitere Informationen zu den Belohnungen sowie die Kriterien, nach denen die Belohnungen bewertet werden, findest du in der [Anleitung für Beitrags-Belohnungen](contribution-rewards.md).
 
 Unser Programm nimmt derzeit Beiträge in **Englisch** an.
 
@@ -33,7 +35,7 @@ Bist du daran interessiert, einen Beitrag für unseren Blog zu schreiben? In uns
 
 ## Für wen ist dieses Programm gedacht?
 
-Das Beitragsprogramm ist für jeden zugänglich, der sein Wissen und seine Erfahrung mit der Gemeinschaft teilen möchte! Wir suchen aktiv nach engagierten Autoren, die über gute technische Fähigkeiten verfügen und sich in ihrem jeweiligen Fachgebiet auskennen. Vor allem aber suchen wir nach Autoren, die sich engagieren und gerne mit unserem ZAP-Hosting Contributions Team zusammenarbeiten, um ihre Inhalte vor der Veröffentlichung zu verbessern und zu überarbeiten.
+Das Beitragsprogramm ist für jeden zugänglich, der sein Wissen und seine Erfahrung mit der Gemeinschaft teilen möchte! Wir suchen aktiv nach engagierten Autorinnen und Autoren, die über starke technische Fähigkeiten verfügen und sich in ihrem jeweiligen Bereich auskennen. Wir suchen auch nach talentierten Kreativen, die ansprechende Artikel für unsere Branche und unser Publikum schreiben können. Vor allem aber suchen wir nach Autorinnen und Autoren, die engagiert sind und gerne mit unserem ZAP-Hosting-Beitragsteam zusammenarbeiten, um ihre Inhalte vor der Veröffentlichung zu verbessern und zu überarbeiten.
 
 Bist du daran interessiert, dich an der Konversation zu beteiligen und mit anderen Gleichgesinnten zusammenzuarbeiten? Dann melde dich auf unserem [Discord Server](https://discord.com/invite/zaphosting) an und benutze den Kanal **#Customise Community**, um dir die Beitragsrolle zuzuweisen, damit du über die neuesten Änderungen auf dem Laufenden bleibst, mit anderen Beitragszahlern kommunizierst und zusammenarbeitest!
 
