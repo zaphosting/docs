@@ -1,6 +1,6 @@
 ---
 id: wurmunlimited-firststeps-dashboard
-title: Wurm Unlimited - Wurm Unlimited Dashboard Übersicht
+title: Wurm Unlimited - Dashboard Übersicht
 description: Informationen zum Dashboard eines Wurm Unlimited Server von ZAP-Hosting - ZAP-Hosting.com Dokumentationen
 sidebar_label: Dashboard
 ---

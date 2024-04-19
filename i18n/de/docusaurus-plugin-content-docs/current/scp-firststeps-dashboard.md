@@ -1,6 +1,6 @@
 ---
 id: scp-firststeps-dashboard
-title: SCP Secret Laboratory - SCP Secret Laboratory Vanilla Dashboard Übersicht
+title: SCP Secret Laboratory - Dashboard Übersicht
 description: Informationen zum Dashboard eines SCP Secret Laboratory Vanilla Server von ZAP-Hosting - ZAP-Hosting.com Dokumentationen
 sidebar_label: Dashboard
 ---

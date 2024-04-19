@@ -1,6 +1,6 @@
 ---
 id: factorio-firststeps-dashboard
-title: Factorio - Factorio Dashboard overview
+title: Factorio - Dashboard Overview
 description: Information about the dashboard of a Factorio server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Dashboard
 ---

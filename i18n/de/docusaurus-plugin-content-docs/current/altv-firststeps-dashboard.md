@@ -1,6 +1,6 @@
 ---
 id: altv-firststeps-dashboard
-title: Alt V - AltV Dashboard Übersicht
+title: AltV - Dashboard Übersicht
 description: Informationen zum Dashboard eines AltV Server von ZAP-Hosting - ZAP-Hosting.com Dokumentationen
 sidebar_label: Dashboard
 ---

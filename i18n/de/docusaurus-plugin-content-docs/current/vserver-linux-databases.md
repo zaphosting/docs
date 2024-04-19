@@ -1,6 +1,6 @@
 ---
 id: vserver-linux-databases
-title: vServer - Installation von Datenbanken
+title: Server - Installation von Datenbanken
 description: Information, wie du Datenbanken auf deinem vServer von ZAP-Hosting installierst - ZAP-Hosting.com Dokumentation
 sidebar_label: Datenbank installieren
 ---

@@ -1,6 +1,6 @@
 ---
 id: palworld-firststeps-dashboard
-title: Palworld - Palworld Dashboard Übersicht
+title: Palworld - Dashboard Übersicht
 description: Informationen zum Dashboard eines Palworld Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Dashboard
 ---

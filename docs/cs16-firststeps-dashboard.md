@@ -1,6 +1,6 @@
 ---
 id: cs16-firststeps-dashboard
-title: CS 1.6 - Counter-Strike 1.6 Dashboard Overview
+title: Counter-Strike 1.6 - Dashboard Overview
 description: Information about the dashboard of an Counter-Strike 1.6 server from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Dashboard
 ---

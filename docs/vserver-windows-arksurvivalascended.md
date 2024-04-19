@@ -1,6 +1,6 @@
 ---
 id: vserver-windows-arksurvivalascended
-title: VPS - ARK Survival Ascended Dedicated Server Setup
+title: Server - ARK Survival Ascended Dedicated Server Setup
 description: Information about setting up an ARK Survival Ascended Dedicated Server on a VPS/Root server/Dedicated Server - ZAP-Hosting.com documentation
 sidebar_label: ARK Survival Ascended
 ---

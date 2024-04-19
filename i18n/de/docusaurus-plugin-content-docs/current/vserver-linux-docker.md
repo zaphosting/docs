@@ -1,6 +1,6 @@
 ---
 id: vserver-linux-docker
-title: vServer - Installation von Docker
+title: Server - Installation von Docker
 description: Informationen, wie du Docker auf deinen vServer von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Docker installieren
 ---

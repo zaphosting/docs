@@ -1,6 +1,6 @@
 ---
 id: dst-firststeps-dashboard
-title: Don't Starve Together - Don't Starve Together Dashboard Übersicht
+title: Don't Starve Together - Dashboard Übersicht
 description: Informationen zum Dashboard eines Don't Starve Together Server von ZAP-Hosting - ZAP-Hosting.com Dokumentationen
 sidebar_label: Dashboard
 ---
