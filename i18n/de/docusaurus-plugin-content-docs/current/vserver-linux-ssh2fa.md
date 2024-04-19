@@ -1,6 +1,6 @@
 ---
 id: vserver-linux-ssh2fa
-title: SSH Zwei-Faktor-Authentifizierung 
+title: vServer - SSH Zwei-Faktor-Authentifizierung 
 description: Informationen, wie du Zwei Faktor Authentifizierung für deinen Linux Server von ZAP-Hosting einrichten kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: 2FA (SSH)
 ---

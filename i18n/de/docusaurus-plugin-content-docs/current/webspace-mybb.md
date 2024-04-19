@@ -1,6 +1,6 @@
 ---
 id: webspace-mybb
-title: MyBB Forensoftware installieren
+title: Webspace - MyBB Forensoftware installieren
 description: Informationen, wie du die MyBulletinBoard Forensoftware auf deinen Webspace von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: MyBB installieren
 ---

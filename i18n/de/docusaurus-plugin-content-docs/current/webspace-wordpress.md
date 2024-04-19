@@ -1,6 +1,6 @@
 ---
 id: webspace-wordpress
-title: WordPress installieren
+title: Webspace - WordPress installieren
 description: Informationen, wie du WordPress auf deinen Webspace von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: WordPress installieren
 

@@ -1,6 +1,6 @@
 ---
 id: vserver-windows-installmysql
-title: MySQL Server auf Windows Server installieren
+title: vServer - MySQL Server auf Windows Server installieren
 description: Informationen, wie du einen MySQL Server auf deinen Windows Server von ZAP-Hosting installieren und einrichten kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: MySQL Server Installieren
 ---

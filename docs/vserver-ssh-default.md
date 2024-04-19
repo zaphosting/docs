@@ -1,6 +1,6 @@
 ---
 id: vserver-ssh-default
-title: Manage default SSH Keys in Profile
+title: VPS - Manage default SSH Keys in Profile
 description: Information on managing SSH Keys set in your ZAP-Hosting account profile - ZAP-Hosting.com documentation
 sidebar_label: Default SSH Keys
 ---

@@ -1,6 +1,6 @@
 ---
 id: vserver-windows-ftpserver
-title: Installation of FTP
+title: VPS - Installation of FTP
 description: Information on how to install and set up an FTP server on your Windows VPS from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Install FTP
 ---

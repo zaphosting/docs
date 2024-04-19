@@ -1,6 +1,6 @@
 ---
 id: vserver-linux-java
-title: Installation of Java
+title: VPS - Installation of Java
 description: Information on how to install Java on your server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Install Java
 ---

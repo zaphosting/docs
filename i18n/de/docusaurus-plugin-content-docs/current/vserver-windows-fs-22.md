@@ -1,6 +1,6 @@
 ---
 id: vserver-windows-fs-22
-title: Landwirtschafts-Simulator 2022 auf Windows installieren
+title: vServer - Landwirtschafts-Simulator 2022 auf Windows installieren
 description: Informationen wie du einen Landwirtschafts-Simulator Dedicated Server 2022 auf deinen Windows vServer und Dedicated Server von ZAP-Hosting installieren und einrichten kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Landwirtschafts-Simulator 2022
 ---

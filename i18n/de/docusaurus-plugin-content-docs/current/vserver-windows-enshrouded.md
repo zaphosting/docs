@@ -1,6 +1,6 @@
 ---
 id: vserver-windows-enshrouded
-title: Enshrouded Dedicated Dedicated Server Einrichtung
+title: vServer - Enshrouded Dedicated Dedicated Server Einrichtung
 description: Informationen zur Einrichtung eines Enshrouded Dedizierten Servers auf einem vServer/Rootserver - ZAP-Hosting.com Dokumentation
 sidebar_label: Enshrouded Dedicated Server Einrichtung
 ---

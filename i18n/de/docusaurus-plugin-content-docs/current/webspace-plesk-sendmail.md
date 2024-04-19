@@ -1,6 +1,6 @@
 ---
 id: webspace-plesk-sendmail
-title: E-Mail Adressen einrichten und E-Mails verschicken
+title: Webspace - E-Mail Adressen einrichten und E-Mails verschicken
 description: Informationen, wie du E-Mail-Adressen für deinen Webspace von ZAP-Hosting einrichten kannst, um E-Mails zu verschicken und zu empfangen - ZAP-hosting.com Dokumentationen
 sidebar_label: E-Mails verschicken
 ---
