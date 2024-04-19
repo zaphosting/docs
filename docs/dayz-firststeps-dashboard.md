@@ -1,6 +1,6 @@
 ---
 id: dayz-firststeps-dashboard
-title: Dashboard overview
+title: DayZ - Dashboard overview
 description: Information about the dashboard of a DayZ server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Dashboard
 ---

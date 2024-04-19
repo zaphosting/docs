@@ -1,6 +1,6 @@
 ---
 id: palworld-server-commands
-title: Palworld Server Commands
+title: Palworld - Palworld Server Commands
 description: Information on useful commands for Palworld game from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Server Commands
 ---

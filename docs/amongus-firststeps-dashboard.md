@@ -1,6 +1,6 @@
 ---
 id: amongus-firststeps-dashboard
-title:  Impostor Among Us Dashboard overview
+title: Among Us -  Impostor Among Us Dashboard overview
 description: Information about the dashboard of an Impostor Among Us Server from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Dashboard
 ---

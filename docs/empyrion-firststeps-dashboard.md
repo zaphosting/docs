@@ -1,6 +1,6 @@
 ---
 id: empyrion-firststeps-dashboard
-title: Empyrion Dashboard overview
+title: Empyrion - Empyrion Dashboard overview
 description: Information about the dashboard of an Empyrion from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Dashboard
 ---

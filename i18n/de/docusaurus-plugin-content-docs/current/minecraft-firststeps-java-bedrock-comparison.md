@@ -1,6 +1,6 @@
 ---
 id: minecraft-firststeps-java-bedrock-comparison
-title: Java / Bedrock-Vergleich
+title: Minecraft - Java / Bedrock-Vergleich
 description: Informationen zu den Gemeinsamkeiten und Unterschieden zwischen Minecraft Java und Bedrock Editionen - ZAP-Hosting.com Dokumentation
 sidebar_label: Java vs Bedrock
 ---

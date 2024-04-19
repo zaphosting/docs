@@ -1,6 +1,6 @@
 ---
 id: lastoasis-firststeps-dashboard
-title: Last Oasis Dashboard overview
+title: Last Oasis - Last Oasis Dashboard overview
 description: Information about the dashboard of a Last Oasis server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Dashboard
 ---

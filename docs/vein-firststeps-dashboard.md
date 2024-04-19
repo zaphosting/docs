@@ -1,6 +1,6 @@
 ---
 id: vein-firststeps-dashboard
-title: Vein Dashboard Overview
+title: VEIN - Vein Dashboard Overview
 description: Information about the dashboard of an Vein server from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Dashboard
 ---

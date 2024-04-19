@@ -1,6 +1,6 @@
 ---
 id: eco-firststeps-dashboard
-title: ECO Global Survival Dashboard overview
+title: ECO - ECO Global Survival Dashboard overview
 description: Information about the dashboard of an Eco - Global Survival from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Dashboard
 ---

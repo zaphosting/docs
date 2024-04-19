@@ -1,6 +1,6 @@
 ---
 id: cs2-firststeps-dashboard
-title: Dashboard overview
+title: CS2 - Dashboard overview
 description: Information about the dashboard of an CS2 server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Dashboard
 ---

@@ -1,6 +1,6 @@
 ---
 id: arma3-mods
-title: Installation von Mods
+title: ArmA 3 - Installation von Mods
 description: Informationen zur Installation von Mods bei deinem Arma 3 Gameserver von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Mods installieren
 ---

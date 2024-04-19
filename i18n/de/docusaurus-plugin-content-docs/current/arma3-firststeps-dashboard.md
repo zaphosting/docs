@@ -1,6 +1,6 @@
 ---
 id: arma3-firststeps-dashboard
-title: Arma 3 Dashboard Übersicht
+title: ArmA 3 - Arma 3 Dashboard Übersicht
 description: Informationen zum Dashboard eines Arma 3 Server von ZAP-Hosting - ZAP-Hosting.com Dokumentationen
 sidebar_label: Dashboard
 ---

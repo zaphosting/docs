@@ -1,6 +1,6 @@
 ---
 id: openmp-rcon
-title: Server Using RCON
+title: Open.mp - Server Using RCON
 description: Information on how to use RCON with your Open.mp server from ZAP-Hosting to manage your server - ZAP-Hosting.com documentation
 sidebar_label: RCON
 ---

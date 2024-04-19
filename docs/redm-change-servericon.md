@@ -1,6 +1,6 @@
 ---
 id: redm-change-servericon
-title: Change server icon for the server list
+title: RedM - Change server icon for the server list
 description: Information on how to change RedM server icon from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Change server icon
 ---

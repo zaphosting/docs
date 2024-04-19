@@ -1,6 +1,6 @@
 ---
 id: mta-firststeps-dashboard
-title: MTA (Multi Theft Auto) Dashboard overview
+title: Multi Theft Auto - MTA (Multi Theft Auto) Dashboard overview
 description: Information about the dashboard of an MTA (Multi Theft Auto) server from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Dashboard
 ---

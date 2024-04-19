@@ -1,6 +1,6 @@
 ---
 id: ragemp-firststeps-dashboard
-title: RageMP Dashboard Übersicht
+title: RageMP - RageMP Dashboard Übersicht
 description: Informationen zum Dashboard eines RageMP Server von ZAP-Hosting - ZAP-Hosting.com Dokumentationen
 sidebar_label: Dashboard
 ---

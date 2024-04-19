@@ -1,6 +1,6 @@
 ---
 id: satisfactory-addmods
-title: Install Mods
+title: Satisfactory - Install Mods
 sidebar_label: Install Mods
 ---
 :::danger
