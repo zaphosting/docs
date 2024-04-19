@@ -1,6 +1,6 @@
 ---
 id: fivem-locale
-title: FiveM - Sprache / Standort (Flagge) ändern
+title: 'FiveM: Sprache / Standort (Flagge) ändern'
 description: Informationen, wie du die Sprache und den Standort (Flagge) bei einem FiveM Server anpassen kannst. - ZAP-Hosting.com Dokumentation
 sidebar_label: Sprache / Standort (Flagge)
 ---

@@ -1,6 +1,6 @@
 ---
 id: redm-server-customisation
-title: RedM - Customise server details
+title: 'RedM: Customise server details'
 description: Information on how to customise server details displayed in the server list for RedM servers - ZAP-Hosting.com - Documentation
 sidebar_label: Customise Server Details
 ---

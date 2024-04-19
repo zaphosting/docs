@@ -1,6 +1,6 @@
 ---
 id: vserver-windows-nointernet
-title: Server -  No Internet what now?
+title: 'Server:  No Internet what now?'
 description: Information on how to solve issues with non existing internet connection on windows vRootserver from ZAP-Hosting does not show Internet access - ZAP-Hosting.com documentation
 sidebar_label: No Internet what now?
 ---

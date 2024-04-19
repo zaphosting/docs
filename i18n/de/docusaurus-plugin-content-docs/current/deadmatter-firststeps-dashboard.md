@@ -1,6 +1,6 @@
 ---
 id: deadmatter-firststeps-dashboard
-title: Dead Matter - Dashboard Übersicht
+title: 'Dead Matter: Dashboard Übersicht'
 description: Informationen zum Dashboard eines Dead Matter Server von ZAP-Hosting - ZAP-Hosting.com Dokumentationen
 sidebar_label: Dashboard
 ---

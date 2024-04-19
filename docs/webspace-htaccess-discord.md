@@ -1,6 +1,6 @@
 ---
 id: webspace-htaccess-discord
-title: Webspace - Set up Discord forwarding via domain
+title: 'Webspace: Set up Discord forwarding via domain'
 description: Information on how to add a Discord forwarding domain to your webspace from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Discord forwarding
 ---

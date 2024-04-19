@@ -1,6 +1,6 @@
 ---
 id: domain-expertdns
-title: Domain - ExpertDNS
+title: 'Domain: ExpertDNS'
 description: Informationen zu den ExpertDNS Domaineinstellungen bei ZAP-Hosting - ZAP-hosting.com Dokumentationen
 sidebar_label: ExpertDNS
 ---

@@ -1,6 +1,6 @@
 ---
 id: rust-decay
-title: Rust - Decay verändern
+title: 'Rust: Decay verändern'
 description: Information, zur Anpassung des Decay bei deinem Rust Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Decay
 ---

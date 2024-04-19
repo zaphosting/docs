@@ -1,6 +1,6 @@
 ---
 id: cs2-becomeadmin
-title: CS2 - Admin werden
+title: 'CS2: Admin werden'
 description: Information darüber, wie du bei deinem CS2 Server von ZAP-Hosting Admin wirst - ZAP-Hosting.com documentation
 sidebar_label: Admin werden
 ---

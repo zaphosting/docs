@@ -1,6 +1,6 @@
 ---
 id: voiceserver-introduction
-title: Voiceserver - Einführung
+title: 'Voiceserver: Einführung'
 description: Einführung und Informationen rund um das Voiceserver (Teamspeak 3/5) Produkt von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Einführung
 ---

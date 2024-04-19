@@ -1,6 +1,6 @@
 ---
 id: palworld-admin
-title: Palworld - Setup Admin
+title: 'Palworld: Setup Admin'
 description: Informationen zum Einrichten und Hinzufügen von Administratoren für einen Palworld-Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Setup Admin
 ---

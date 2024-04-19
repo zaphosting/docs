@@ -1,6 +1,6 @@
 ---
 id: terratech-worlds-firststeps-dashboard
-title: Terratech Worlds - Dashboard Overview
+title: 'Terratech Worlds: Dashboard Overview'
 description: Information about the dashboard of an TerraTech Worlds from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Dashboard
 ---

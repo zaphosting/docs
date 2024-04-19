@@ -1,6 +1,6 @@
 ---
 id: vserver-linux-xrdp
-title: Server - Installation von xRDP (Remotedesktop) 
+title: 'Server: Installation von xRDP (Remotedesktop) '
 description: Guide, um xRDP (Remotedesktop) auf Linux zu installieren - ZAP-Hosting.com Dokumentation
 sidebar_label: xRDP installieren
 ---

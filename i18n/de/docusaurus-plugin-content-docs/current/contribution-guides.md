@@ -1,6 +1,6 @@
 ---
 id: contribution-guides
-title: Rust - Anleitung Prozess
+title: 'Rust: Anleitung Prozess'
 description: Informationen zum Beitragsprozess der Guides (ZAP-Docs) für das ZAP-Hosting Community Contributions Programm - ZAP-Hosting.com Dokumentation
 sidebar_label: Guides Prozess
 ---

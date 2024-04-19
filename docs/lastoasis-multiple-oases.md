@@ -1,6 +1,6 @@
 ---
 id: lastoasis-multiple-oases
-title: Last Oasis - Connecting multiple Oases
+title: 'Last Oasis: Connecting multiple Oases'
 description: Information about setting up multiple Oases for your Last Oasis server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Multiple Oases
 ---

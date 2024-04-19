@@ -1,6 +1,6 @@
 ---
 id: dedicated-introduction
-title: Dedicated Server - Einführung
+title: 'Dedicated Server: Einführung'
 description: Einführung und Informationen rund um das Dedicated Server Produkt von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Einführung
 ---

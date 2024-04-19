@@ -1,6 +1,6 @@
 ---
 id: vserver-linux-nextcloud
-title: Server - Installation of Nextcloud
+title: 'Server: Installation of Nextcloud'
 description: Information on how to set up a Nextcloud server on your server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Install Nextcloud
 ---

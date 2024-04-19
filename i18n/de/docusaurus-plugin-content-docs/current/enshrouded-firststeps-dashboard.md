@@ -1,6 +1,6 @@
 ---
 id: enshrouded-firststeps-dashboard
-title: Enshrouded - Dashboard Übersicht
+title: 'Enshrouded: Dashboard Übersicht'
 description: Informationen zum Dashboard eines Enshrouded Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Dashboard
 ---

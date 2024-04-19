@@ -1,6 +1,6 @@
 ---
 id: vrising-firststeps-dashboard
-title: V Rising - Dashboard Übersicht
+title: 'V Rising: Dashboard Übersicht'
 description: Informationen zum Dashboard eines V Rising Server von ZAP-Hosting - ZAP-Hosting.com Dokumentationen
 sidebar_label: Dashboard
 ---

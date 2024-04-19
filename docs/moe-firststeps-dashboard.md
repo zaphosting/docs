@@ -1,6 +1,6 @@
 ---
 id: moe-firststeps-dashboard
-title: Myth of Empires - Dashboard Overview
+title: 'Myth of Empires: Dashboard Overview'
 description: Information about the dashboard of an Myth of Empires from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Dashboard
 ---

@@ -1,6 +1,6 @@
 ---
 id: fivem-installresources
-title: FiveM - Installation von Resourcen
+title: 'FiveM: Installation von Resourcen'
 description: Informationen, wie du Ressourcen auf deinen FiveM-Server von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Resourcen installieren
 ---

@@ -1,6 +1,6 @@
 ---
 id: account-cashbox
-title: Cashbox - Deposit money
+title: 'Cashbox: Deposit money'
 description: Instructions on how to use the Cashbox to deposit money into your ZAP-Hosting account - ZAP-Hosting.com documentation
 sidebar_label: Cashbox
 ---
