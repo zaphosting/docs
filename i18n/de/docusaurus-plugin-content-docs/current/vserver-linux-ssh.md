@@ -1,6 +1,6 @@
 ---
 id: vserver-linux-ssh
-title: 'vServer: Erstzugriff mit SSH'
+title: "vServer: Erstzugriff mit SSH"
 description: Informationen, wie der Erstzugriff mit SSH auf deinen Server von ZAP-Hosting funktioniert - ZAP-Hosting.com Dokumentation
 sidebar_label: Erstzugriff (SSH)
 ---

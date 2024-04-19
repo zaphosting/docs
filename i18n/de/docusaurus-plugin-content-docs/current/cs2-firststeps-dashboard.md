@@ -1,6 +1,6 @@
 ---
 id: cs2-firststeps-dashboard
-title: 'Counter-Stike 2: Dashboard Übersicht'
+title: "Counter-Stike 2: Dashboard Übersicht"
 description: Informationen zum Dashboard eines CS2 Server von ZAP-Hosting - ZAP-Hosting.com Dokumentationen
 sidebar_label: Dashboard
 ---

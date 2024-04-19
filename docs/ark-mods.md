@@ -1,6 +1,6 @@
 ---
 id: ark-mods
-title: 'ARK: Installing mods'
+title: "ARK: Installing mods"
 description: Information on how to install mods on your ARK server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Install Mods
 ---

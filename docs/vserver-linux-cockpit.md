@@ -1,6 +1,6 @@
 ---
 id: vserver-linux-cockpit
-title: 'Server: Installation of Cockpit '
+title: "Server: Installation of Cockpit "
 description: Guide to install Cockpit on Linux - ZAP-Hosting.com documentation
 sidebar_label: Install Cockpit
 ---

@@ -1,6 +1,6 @@
 ---
 id: domain-profidns
-title: 'Domain: ProfiDNS'
+title: "Domain: ProfiDNS"
 sidebar_label: ProfiDNS
 ---
 

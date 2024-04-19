@@ -1,6 +1,6 @@
 ---
 id: dedicated-windows
-title: 'Dedicated Server: Installation of Windows Server'
+title: "Dedicated Server: Installation of Windows Server"
 description: Information on how to install the Windows operating system on your dedicated server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Install Windows
 ---

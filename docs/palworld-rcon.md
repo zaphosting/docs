@@ -1,6 +1,6 @@
 ---
 id: palworld-rcon
-title: 'Palworld: Server Using RCON'
+title: "Palworld: Server Using RCON"
 description: Information on how to use RCON with your Palworld server from ZAP-Hosting to manage your server - ZAP-Hosting.com documentation
 sidebar_label: RCON
 ---

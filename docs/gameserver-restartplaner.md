@@ -1,6 +1,6 @@
 ---
 id: gameserver-restartplaner
-title: 'Restartplaner: Perform server restarts automatically'
+title: "Restartplaner: Perform server restarts automatically"
 description: Information on how to use the restart planner to have your ZAP-Hosting.com game server restarted automatically at predefined intervals - ZAP-Hosting.com documentation
 sidebar_label: Restart planner
 ---

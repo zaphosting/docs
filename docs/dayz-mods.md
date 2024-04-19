@@ -1,6 +1,6 @@
 ---
 id: dayz-mods
-title: 'DayZ: Installation of Mods'
+title: "DayZ: Installation of Mods"
 description: Information on installing mods on your DayZ game server from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Install Mods
 ---

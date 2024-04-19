@@ -1,6 +1,6 @@
 ---
 id: avorion-firststeps-dashboard
-title: 'Avorion: Dashboard Overview'
+title: "Avorion: Dashboard Overview"
 description: Information about the dashboard of an Avorion server from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Dashboard
 ---

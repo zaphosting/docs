@@ -1,6 +1,6 @@
 ---
 id: beammp-firststeps-dashboard
-title: 'BeamMP: Dashboard Übersicht'
+title: "BeamMP: Dashboard Übersicht"
 description: Informationen zum Dashboard eines BeamMP Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Dashboard
 ---

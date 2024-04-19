@@ -1,6 +1,6 @@
 ---
 id: fivem-deletecache
-title: 'FiveM: Cache leeren'
+title: "FiveM: Cache leeren"
 description: Informationen, wie du den Cache deines FiveM Server von ZAP-Hosting leeren kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Cache leeren
 ---

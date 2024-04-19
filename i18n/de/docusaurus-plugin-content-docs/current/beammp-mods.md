@@ -1,6 +1,6 @@
 ---
 id: beammp-mods
-title: 'BeamMP: Mods installieren'
+title: "BeamMP: Mods installieren"
 description: Information, wie du Mods auf deinem BeamMP Server von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Mods installieren
 ---

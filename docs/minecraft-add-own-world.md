@@ -1,6 +1,6 @@
 ---
 id: minecraft-add-own-world
-title: 'Minecraft: Adding your own world to the server'
+title: "Minecraft: Adding your own world to the server"
 description: Information on how to add your own world to your Minecraft server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Add your own world
 ---

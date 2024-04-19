@@ -1,6 +1,6 @@
 ---
 id: openmp-firststeps-dashboard
-title: 'Open.mp: Dashboard Übersicht'
+title: "Open.mp: Dashboard Übersicht"
 description: Informationen zum Dashboard eines Open.mp Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Dashboard
 ---

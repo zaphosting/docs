@@ -1,6 +1,6 @@
 ---
 id: assetto-competizione-firststeps-dashboard
-title: 'Assetto Corsa Competizione: Dashboard Übersicht'
+title: "Assetto Corsa Competizione: Dashboard Übersicht"
 description: Informationen zum Dashboard eines Assetto Corsa Competizione Server von ZAP-Hosting - ZAP-Hosting.com Dokumentationen
 sidebar_label: Dashboard
 ---

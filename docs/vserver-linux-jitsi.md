@@ -1,6 +1,6 @@
 ---
 id: vserver-linux-jitsi
-title: 'Server: Installation of Jitsi Meet'
+title: "Server: Installation of Jitsi Meet"
 description: Information on how to install the video conferencing software Jitsi Meet on your server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Install Jitsi Meet
 ---

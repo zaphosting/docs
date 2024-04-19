@@ -1,6 +1,6 @@
 ---
 id: altv-firststeps-dashboard
-title: 'Alt V: Altv Dashboard Overview'
+title: "Alt V: Altv Dashboard Overview"
 description: Information about the dashboard of an Altv server from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Dashboard
 ---

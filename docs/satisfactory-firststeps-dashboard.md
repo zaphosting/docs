@@ -1,6 +1,6 @@
 ---
 id: satisfactory-firststeps-dashboard
-title: 'Satisfactory: Dashboard Overview'
+title: "Satisfactory: Dashboard Overview"
 description: Information about the dashboard of a Satisfactory server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Dashboard
 ---

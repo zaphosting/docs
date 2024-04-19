@@ -1,6 +1,6 @@
 ---
 id: vserver-windows-arksurvivalascended
-title: 'Server: ARK Survival Ascended Dedicated Server Einrichtung'
+title: "Server: ARK Survival Ascended Dedicated Server Einrichtung"
 description: Informationen zur Einrichtung eines ARK Survival Ascended Dedizierten Servers auf einem vServer/Rootserver - ZAP-Hosting.com Dokumentation
 sidebar_label: ARK Survival Ascended Dedicated Server Einrichtung
 ---

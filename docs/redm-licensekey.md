@@ -1,6 +1,6 @@
 ---
 id: redm-licensekey
-title: 'RedM: Add your own license key (Patreon) to the server'
+title: "RedM: Add your own license key (Patreon) to the server"
 description: Information on how to create your own custom license key (from Patreon) and add it to your RedM server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Own License Key
 ---

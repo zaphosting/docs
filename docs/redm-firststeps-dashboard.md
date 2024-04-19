@@ -1,6 +1,6 @@
 ---
 id: redm-firststeps-dashboard
-title: 'RedM: RedM Dashboard Overview'
+title: "RedM: RedM Dashboard Overview"
 description: Information about the dashboard of an FIVE RedM server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Dashboard
 ---

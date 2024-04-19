@@ -1,6 +1,6 @@
 ---
 id: minecraft-firststeps-dashboard
-title: 'Minecraft: Dashboard Overview'
+title: "Minecraft: Dashboard Overview"
 description: Information about the dashboard of an Minecraft server from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Dashboard
 ---

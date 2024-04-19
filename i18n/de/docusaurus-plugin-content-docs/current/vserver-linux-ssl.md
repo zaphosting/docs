@@ -1,6 +1,6 @@
 ---
 id: vserver-linux-ssl
-title: 'vServer: SSL-Zertifikat (Lets Encrypt) für Linux Server erstellen'
+title: "vServer: SSL-Zertifikat (Lets Encrypt) für Linux Server erstellen"
 description: Informationen, wie du ein SSL-Zertifikat mit Let's Entcrypt für deinen vServer von ZAP-Hosting erstellen kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: SSL-Zertifikat (Lets Encrypt)
 ---
