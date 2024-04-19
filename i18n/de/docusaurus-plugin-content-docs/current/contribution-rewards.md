@@ -29,13 +29,13 @@ Beispiel: Wir bewerten eine Basisauszahlung von 40 € für deinen Beitrag. Du e
 
 Bei Beiträgen für ZAP-Anleitungen prüfen wir zunächst, ob es sich um einen neue Anleitung oder um eine Aktualisierung einer bestehenden Anleitung handelt. In der Regel kann dies anhand deines Vorschlags für einen Anleitung vermutet werden. Wenn ein bestehender Anleitung sehr stark verändert wurde, können wir ihn als neuen Anleitung betrachten. Dies liegt jedoch im Ermessen des ZAP-Hosting-Beitragsteams.
 
-#### Neue Leitfäden
+#### Neue Anleitungen
 | Auszahlungsart     | Maximale Auszahlung |
 | ------------------ | ------------------- |
 | ZAP-Hosting Credit | €65                 |
 | PayPal             | €50                 |
 
-#### Aktualisierungen bestehender Leitfäden
+#### Aktualisierungen bestehender Anleitungen
 | Auszahlungsart     | Maximale Auszahlung |
 | ------------------ | ------------------- |
 | ZAP-Hosting Credit | €26                 |
