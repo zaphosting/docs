@@ -1,13 +1,13 @@
 ---
 id: vserver-linux-python
-title: "VPS: Install Python"
-description: Information on how to install and run python on your VPS from ZAP-Hosting - ZAP-Hosting.com documentation
+title: "Server: Install Python"
+description: Information on how to install and run python on your server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Install Python
 ---
 
 ## Introduction
 
-This guide provides steps for the installation of Python runtime and venv. These commands must be executed via SSH, if you don't know how to connect to your server via SSH, please have a look here: [Initial access (SSH)](https://zap-hosting.com/guides/docs/vserver-linux-ssh)
+This guide provides steps for the installation of the Python runtime and venv. These commands must be executed via SSH, if you don't know how to connect to your server via SSH, please use our [Initial access (SSH)](https://zap-hosting.com/guides/docs/vserver-linux-ssh) guide to learn more.
 
 ## Preparation
 
@@ -49,7 +49,7 @@ import TabItem from '@theme/TabItem';
 
 ## Installing Python
 
-Most linux distros come preinstalled with Python however the version might not be up to date or the system might have been installed without some packages. You can check if the python installation exists (`python3 --version`) and run the following commands to update / install the runtime:
+Most linux distros come preinstalled with Python however the version might not be up to date or the system might have been installed without some packages. You can check if the python installation exists (`python3 --version`) and run the following commands to either update or install the runtime.
 
 <Tabs>
 <TabItem value="ubuntu-debian" label="Ubuntu & Debian" default>
@@ -100,27 +100,29 @@ Most linux distros come preinstalled with Python however the version might not b
 
 ## Running code
 
-Now that you have Python installed on your server you can start running your programs.
+Now that you have Python installed on your server, you can start running your Python programs.
 
 ### Interpreter mode
 
-Running the `python3` command will start the python interpreter. You can start writing any valid python code after the `>>>` and it will pe executed when pressing `Enter`. After running the code you can type `exit()` to close the interpreter.
+Running the `python3` command will start the python interpreter. You can start writing any valid python code after the `>>>` prefix and it will be executed after pressing `Enter`. 
+
+You can close the interpreter once you are finished by running `exit()` into the console.
 
 ### Running .py files
 
-If you need to run code from .py files you should run the `python3 filename.py` command.
+In order to run `.py` Python files, you can simply use the `python3 [filename].py` command, replacing `[filename]` with the path to the target file name you wish to run.
 
-:::note
-Most programs you can find online can be run with the `python3 main.py` because `main.py` is the common starting place of any Python programs.
+:::tip
+Most programs you can find online can be run with the `python3 main.py` because `main.py` is the common starting point of most Python programs.
 :::
 
-## Virtual enviroments
+## Virtual environments
 
-When writing a Python program you might need to install external packages from pip. These can be installed globally and thus be accesible for all .py scripts or you can create a virtual enviroment (venv).
+When writing a Python program you might need to install external packages from pip. These can be installed globally and thus be accesible for all `.py` scripts or you can create a virtual enviroment (venv).
 
 ### Creating the venv
 
-Fistly navigate to the folder where you want the venv to be set up using `cd` and then run `python3 -m venv .` (this will install the required files at the current location). 
+Fistly, navigate to the folder where you wish to setup your venv using `cd` and once readt, run `python3 -m venv .` which will install the required files at the current location.
 
 ### Activating & deactivating
 

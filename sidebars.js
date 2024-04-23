@@ -1353,7 +1353,7 @@ const sidebars = {
         'vserver-linux-openvpn',
         'vserver-linux-phpmyadmin',
         'vserver-linux-plesk',
-        'vserver-linux-python,
+        'vserver-linux-python',
         'vserver-linux-ssh-server',
         'vserver-linux-webserver',
         'vserver-linux-xrdp',
