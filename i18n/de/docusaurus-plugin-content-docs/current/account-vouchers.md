@@ -1,7 +1,7 @@
 ---
 id: account-vouchers
 title: "Gutscheine & Codes: Spare mit Gutscheinen"
-description: Informationen, wie du Gutscheine gegen ZAP Coins oder eine Preisreduktion für Server einlösen kannst - ZAP-Hosting.com Dokumentation
+description: Informationen, wie du Gutscheine gegen Geld oder eine Preisreduktion für Server einlösen kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Gutscheine & Codes
 ---
 
@@ -9,7 +9,7 @@ sidebar_label: Gutscheine & Codes
 
 ## Einführung
 
-Du hast einen Gutscheincode gefunden, den du für ZAP Coins einlösen oder als Rabatt für einen deiner Server verwenden möchtest? Schauen dir diese Anleitung an, um zu verstehen, wie du den entsprechenden Rabattcode einlösen kannst.
+Du hast einen Gutscheincode gefunden, den du als Geld in deine cashbox einlösen möchtest (ZAP Coins) einlösen oder als Rabatt für einen deiner Server verwenden möchtest? Schauen dir diese Anleitung an, um zu verstehen, wie du den entsprechenden Rabattcode einlösen kannst.
 
 Zunächst solltest du dich auf unserer Website anmelden oder registrieren, um die Codes verwenden zu können. Dies kann sehr schnell und einfach über das obere Login-Panel gemacht werden.
 
@@ -79,6 +79,6 @@ Es gibt zwei verschiedene Rabattcodes:
 
 ## Werbegeschenke und Codes erhalten
 
-Wir lieben es, unserer ZAP-Community etwas zurückzugeben. Deshalb gibt es viele Möglichkeiten, Rabatte und Werbegeschenke zu erhalten, darunter ZAP Coins, gelegentliche kostenlose Server und mehr!
+Wir lieben es, unserer ZAP-Community etwas zurückzugeben. Deshalb gibt es viele Möglichkeiten, Rabatte und Werbegeschenke zu erhalten, darunter Geld für deine cashbox, gelegentliche kostenlose Server und mehr!
 
 Um mehr zu erfahren, empfehlen wir dir, unsere großartige [ZAP-Hosting Community Info](community-info.md) Anleitung zu lesen, in dem die vielen Möglichkeiten beschrieben werden, wie du Gutscheincodes und Werbegeschenke über unsere verschiedenen sozialen Plattformen erhalten kannst (und sogar durch das Schreiben von Anleitungen für genau diese ZAP-Docs, die du gerade liest :) 💚

@@ -42,7 +42,7 @@ Als ein offizieller Partner von ZAP-Hosting kannst du folgende Vorteile erhalten
 - Du erhältst einen persönlichen Account-Manager, der als Ansprechpartner dient und beispielsweise verschiedene Aktionen mit dir plant.
 - Du erhältst kostenfreie Server von uns.
 - Du erhältst bessere Affiliate Privisionskonditionen.
-- Für Events und Aktionen stellen wir gerne Goodies (z. B. ZAP-Coins, Server, Hardware) bereit.
+- Für Events und Aktionen stellen wir gerne Goodies (z. B. Geld für die cashbox, Server, Hardware) bereit.
 - Du wirst auf unserer [Partnerseite](https://zap-hosting.com/de/partner/) verlinkt.
 
 ## Bewerbung als Partner

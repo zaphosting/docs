@@ -1,7 +1,7 @@
 ---
 id: account-community-ads
 title: Community Werbung
-description: Anleitung zur Nutzung von Community Werbung, um ZAP Credits oder Geld über ZAP-Hosting zu verdienen - ZAP-Hosting.com Dokumentation
+description: Anleitung zur Nutzung von Community Werbung, um Geld über ZAP-Hosting zu verdienen - ZAP-Hosting.com Dokumentation
 sidebar_label: Community Werbung
 ---
 
@@ -47,13 +47,13 @@ Dieser Link muss ein Direktverweis auf die eigens erstellte Werbung sein. Sollte
 
 ## Auszahlung & Überweisung
 
-Du kannst dir dein Guthaben aus der Community Werbung entweder in ZAP-Coins oder in echtes Geld auszahlen lassen. Gehen dazu wieder auf die Seite [Community Advertising](https://zap-hosting.com/de/customer/communityads/) und drücke den blauen Button **Auszahlung/Umbuchung**.
+Du kannst dir dein Guthaben aus der Community Werbung entweder deine cashbox (ZAP Coins) oder in Geld über PayPal. Gehen dazu wieder auf die Seite [Community Advertising](https://zap-hosting.com/de/customer/communityads/) und drücke den blauen Button **Auszahlung/Umbuchung**.
 
 ![image](https://github.com/zaphosting/docs/assets/42719082/de11ee5a-97e5-432a-944c-7f0e2dd9d448)
 
-### ZAP-Coins
+### ZAP Coins
 
-:::warning Sobald du deine Guthaben in ZAP-Coins übertragen hast, kannst du sie nicht mehr auszahlen lassen!
+:::warning Sobald du deine Guthaben in ZAP Coins übertragen hast, kannst du sie nicht mehr auszahlen lassen!
 :::
 
 In der Menüleiste musst du **ZAP-Guthaben** als Option auswählen. Entscheide, ob du das gesamte Guthaben oder nur einen bestimmten Teil davon übertragen möchtest. Wenn du damit fertig bist, drücke einfach auf den grünen Button **Überweisung**, um den Vorgang zu bestätigen.
