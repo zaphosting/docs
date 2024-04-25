@@ -17,7 +17,7 @@ Bei einem Host-System-Wechsel erhältst du eine Warnmeldung. Lege vor dem Spielw
 :::
 * Du kannst jederzeit auf Spiele mit dem gleichen oder einem geringeren Slotpreis wechseln. Willst du auf ein Spiel mit einem höheren Slotpreis wechseln, fällt ein Aufpreis an.
 :::info
-Tipp: Du kannst deinen Gameserver über die Upgrade / Downgrade-Funktion auf eine geringere Slotanzahl und dann die ZAP-Coins dazu verwenden, einen höheren Slotpreis freizuschalten und auf Spiele mit höherem Slotpreis zu wechseln.
+Tipp: Du kannst deinen Gameserver über die Upgrade / Downgrade-Funktion auf eine geringere Slotanzahl und dann die ZAP Coins dazu verwenden, einen höheren Slotpreis freizuschalten und auf Spiele mit höherem Slotpreis zu wechseln.
 :::
 
 * Dank unserer Gameservercloud kannst du beispielsweise kostenfrei Minecraft-Modpacks installieren und aktivieren.

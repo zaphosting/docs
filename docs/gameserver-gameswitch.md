@@ -19,7 +19,7 @@ You will receive a warning message when changing the host system. Therefore you 
 * You can switch to games with the same or a lower slot price at any time. However, if you want to switch to a game with a higher slot price then there is a surcharge.
 
 :::info
-Tip: You can upgrade / downgrade your game server to a lower number of slots and then use the ZAP-Coins to unlock a higher slot price and switch to games with higher slot prices.
+Tip: You can upgrade / downgrade your game server to a lower number of slots and then use the ZAP Coins in your cashbox to unlock a higher slot price and switch to games with higher slot prices.
 :::
 
 * By using our gameserver cloud, you can install and switch between Minecraft modpacks for free.
