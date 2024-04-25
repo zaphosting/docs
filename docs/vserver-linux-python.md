@@ -1,6 +1,6 @@
 ---
-id: vserver-linux-python
-title: "Server: Install Python"
+id: server-linux-python
+title: "Server: Installation of Python"
 description: Information on how to install and run python on your server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Install Python
 ---
@@ -104,9 +104,7 @@ Now that you have Python installed on your server, you can start running your Py
 
 ### Interpreter mode
 
-Running the `python3` command will start the python interpreter. You can start writing any valid python code after the `>>>` prefix and it will be executed after pressing `Enter`. 
-
-You can close the interpreter once you are finished by running `exit()` into the console.
+Running the `python3` command will start the python interpreter. You can start writing any valid python code after the `>>>` prefix and it will be executed after pressing `Enter`. You can close the interpreter once you are finished by running `exit()` into the console.
 
 ### Running .py files
 
