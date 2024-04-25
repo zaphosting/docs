@@ -5,9 +5,19 @@ description: Information on how to install mods to your Palworld server or game 
 sidebar_label: Install Mods
 ---
 
-Since Palworld's release, new exciting mods have begun to appear online to improve the gaming experience and make the game even more fun. In this guide we will explore the process of adding game modifications (mods) to your Palworld server and/or game client.
+
+
+import YouTube from '@site/src/components/YouTube/YouTube';
+
+
 
 ## Introduction
+
+Since Palworld's release, new exciting mods have begun to appear online to improve the gaming experience and make the game even more fun. In this guide we will explore the process of adding game modifications (mods) to your Palworld server and/or game client.
+
+<YouTube videoId="x4tfL3Vi5qE" title="How To Install Mods On Your Palworld Server!" description="Feel like you understand better when you see things in action?  We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
+
+
 
 ### Key Information
 
