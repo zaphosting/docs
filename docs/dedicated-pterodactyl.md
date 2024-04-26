@@ -15,23 +15,17 @@ In this guide, we will explore the steps necessary to setup your own Pterodactyl
 
 You will need a dedicated server running Linux to install the Pterodactyl Panel. You should use one of the compatible operating systems found in the table below.
 
-#### Compatible OS for Pterodactyl
-
-| OS     | Version | Available |
-| ------ | ------- | --------- |
-| Ubuntu | 20.04   | ✔️       |
-|        | 22.04   | ✔️       |
-|        | 23      | ✔️       |
-| CentOS | 7       | ✔️       |
-|        | 8       | ✔️       |
-| Debian | 11      | ✔️       |
-|        | 12      | ✔️       |
+| OS     | Compatible versions |
+| ------ | ------------------- |
+| Ubuntu | 20.04, 22.04        |
+| CentOS | 7, 8                |
+| Debian | 11, 12              |
 
 ## Dependencies
 
 Pterodactyl requires a range of dependencies in order to be able to install and run successfully. It also relies on a popular dependency manager for PHP named Composer.
 
-#### Dependencies List
+### Dependencies List
 
 Here is a shortlist of depdencenies that you will require for this guide. Head over to the following section which explores how to install these dependencies.
 
@@ -401,7 +395,7 @@ Into the editor, copy the configuration file below. Make sure to replace `[your_
 :::warning
 Make sure you have setup the SSL certificate, otherwise the the webserver will fail to start successfully.
 :::
-  
+
 ```
 server {
     listen 80;
