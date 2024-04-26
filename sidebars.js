@@ -1454,6 +1454,7 @@ const sidebars = {
       defaultStyle: true,
     },
     'vserver-linux-gs-interface',
+    'dedicated-pterodactyl',
     {
       type: "category",
       label: "Services",
