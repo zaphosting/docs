@@ -11,7 +11,7 @@ This guide provides steps for the installation of the Python runtime and venv. T
 
 ## Preparation
 
-Before you install anything on a server it is recommended to run the update command coresponding to your operating system to keep your server secure.
+Before you install anything on a server it is recommended to run the update command corresponding to your operating system to keep your server secure.
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
@@ -49,7 +49,7 @@ import TabItem from '@theme/TabItem';
 
 ## Installing Python
 
-Most linux distros come preinstalled with Python however the version might not be up to date or the system might have been installed without some packages. You can check if the python installation exists (`python3 --version`) and run the following commands to either update or install the runtime.
+Most Linux distros come preinstalled with Python however the version might not be up to date or the system might have been installed without some packages. You can check if the python installation exists (`python3 --version`) and run the following commands to either update or install the runtime.
 
 <Tabs>
 <TabItem value="ubuntu-debian" label="Ubuntu & Debian" default>
@@ -104,7 +104,7 @@ Now that you have Python installed on your server, you can start running your Py
 
 ### Interpreter mode
 
-Running the `python3` command will start the python interpreter. You can start writing any valid python code after the `>>>` prefix and it will be executed after pressing `Enter`. You can close the interpreter once you are finished by running `exit()` into the console.
+Running the `python3` command will start the Python interpreter. You can start writing any valid Python code after the `>>>` prefix and it will be executed after pressing `Enter`. You can close the interpreter once you are finished by running `exit()` into the console.
 
 ### Running .py files
 
@@ -116,11 +116,11 @@ Most programs you can find online can be run with the `python3 main.py` because 
 
 ## Virtual environments
 
-When writing a Python program you might need to install external packages from pip. These can be installed globally and thus be accesible for all `.py` scripts or you can create a virtual enviroment (venv).
+When writing a Python program you might need to install external packages from pip. These can be installed globally and thus be accessible for all `.py` scripts or you can create a virtual environment (venv).
 
 ### Creating the venv
 
-Fistly, navigate to the folder where you wish to setup your venv using `cd` and once readt, run `python3 -m venv .` which will install the required files at the current location.
+Firstly, navigate to the folder where you wish to setup your venv using `cd` and once ready, run `python3 -m venv .` which will install the required files at the current location.
 
 ### Activating & deactivating
 
