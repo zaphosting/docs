@@ -67,8 +67,20 @@ Based on these criteria, we approximate an acceptable reward for the work the wr
 
 Once you have submitted and finalized your contribution with our ZAP-Hosting Contributions Team, we will evaluate and inform you about your reward. This will be through the GitHub Pull Request for guide contributions and through the ticket on your ZAP-Hosting.com account for blog contributions.
 
+### ZAP-Hosting Credit (ZAP Coins)
 In the case of choosing ZAP-Hosting Credit as the payout, we will directly credit the approved amount to your specified ZAP-Hosting.com account.
 
-When choosing the PayPal payout, we will contact you regarding the steps that you must take, which involves sending an invoice. We will contact you with key information and once you submit your invoice, we will promptly process the payment and you will recieve your payout shortafter.
+### PayPal
+When choosing PayPal payout, you will have to complete some additional steps which we will contact you about once ready.
+
+:::important
+Ensure that you include both your ZAP ID and the ticket ID for the PayPal confirmation ticket which will be sent to your account. Without this, your payout will be delayed!
+:::
+
+You will have to use [PayPal Invoice Creator](https://www.paypal.com/invoice/create?fromWidget=newuser) and fill it out as appropriate:
+
+- Fill in our company information as the recipient: `ZAP-Hosting GmbH & Co. KG, Hafenweg 8, 48155 Münster, Deutschland`
+- Description must include both your ZAP ID and the ticket ID for your payout confirmation ticket, as following: `Contribution Program: Ticket #[yourticket_id], [your_zapid]`
+- Invoice must be sent to: `m.kluck@zap-hosting.com`
 
 Once the payout occurs, you agree to transfer all exclusive intellectual property rights of your creation to ZAP-Hosting GmbH & Co KG. This transfer is confirmed once you have received your payment and is listed in our Terms of Service (TOS) which you accepted during the suggestion phase of your contribution.
