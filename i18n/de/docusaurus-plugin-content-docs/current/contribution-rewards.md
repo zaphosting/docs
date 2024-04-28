@@ -65,8 +65,21 @@ Anhand dieser Kriterien schätzen wir eine angemessene Belohnung für die Arbeit
 
 Sobald du deinen Beitrag eingereicht und mit unserem ZAP-Hosting-Beitragsteam abgeschlossen hast, werden wir ihn bewerten und dich über deine Belohnung informieren. Dies geschieht über den GitHub Pull Request für Guide-Beiträge und über das Ticket auf deinem ZAP-Hosting.com-Konto für Blog-Beiträge.
 
+### ZAP-Hosting Credit (ZAP Coins)
+
 Wenn du dich für ZAP-Hosting Credit als Auszahlungsmethode entscheidest, schreiben wir dir den genehmigten Betrag direkt auf dein angegebenes ZAP-Hosting.com-Konto gut.
 
-Wenn du dich für die Auszahlung per PayPal entscheidest, informieren wir dich über die Schritte, die du unternehmen musst, um eine Rechnung zu schicken. Wir werden dich mit den wichtigsten Informationen kontaktieren und sobald du deine Rechnung eingereicht hast, werden wir die Zahlung umgehend bearbeiten und du erhältst deine Auszahlung kurz darauf.
+### PayPal
+Wenn du dich für die PayPal-Zahlung entscheidest, musst du einige zusätzliche Schritte ausführen, über die wir dich informieren werden, sobald sie abgeschlossen sind.
+
+:::important
+Achte darauf, dass du sowohl deine ZAP-ID als auch die Ticket-ID für das PayPal-Bestätigungsticket angibst, das an dein Konto geschickt wird. Ohne diese Angaben wird deine Auszahlung verzögert!
+:::
+
+Du musst den [PayPal Invoice Creator](https://www.paypal.com/invoice/create?fromWidget=newuser) verwenden und ihn entsprechend ausfüllen:
+
+- Gib unsere Unternehmensdaten als Empfänger an: `ZAP-Hosting GmbH & Co. KG, Hafenweg 8, 48155 Münster, Deutschland`
+- Die Beschreibung muss sowohl deine ZAP-ID als auch die Ticket-ID deines Auszahlungsbestätigungstickets enthalten, wie folgt: `Contribution Program Payout: Ticket #[deineticket_id], [deine_zapid]`
+- Die Rechnung muss gesendet werden an: `m.kluck@zap-hosting.com`
 
 Sobald die Auszahlung erfolgt ist, erklärst du dich damit einverstanden, alle exklusiven geistigen Eigentumsrechte an deiner Kreation an die ZAP-Hosting GmbH & Co KG zu übertragen. Diese Übertragung wird bestätigt, sobald du deine Zahlung erhalten hast und ist in unseren Allgemeinen Geschäftsbedingungen (AGB) aufgeführt, die du während der Vorschlagsphase deines Beitrags akzeptiert hast.
