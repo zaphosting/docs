@@ -20,9 +20,9 @@ Alle endgültigen Entscheidungen, auch über die Belohnungen, liegen im Ermessen
 ## Beitragsart
 
 :::tip
-Während der Bewertung berechnen wir eine Basisauszahlung, die für die PayPal-Option gilt. Wenn sich der Autor/die Autorin für ZAP-Hosting Credit als Auszahlungsoption entscheidet, fügen wir 30% zu seiner/ihrer Gesamtauszahlung als Bonus hinzu.
+Während der Bewertung berechnen wir eine Basisauszahlung, die für die PayPal-Option gilt. Wenn sich der Autor/die Autorin für ZAP-Hosting Guthaben als Auszahlungsoption entscheidet, fügen wir 30% zu seiner/ihrer Gesamtauszahlung als Bonus hinzu.
 
-Beispiel: Wir bewerten eine Basisauszahlung von 40 € für deinen Beitrag. Du erhältst 40 €, wenn du die PayPal-Option wählst oder 46 € (40 * 1,3) für die ZAP-Hosting Credit-Option.
+Beispiel: Wir bewerten eine Basisauszahlung von 40 € für deinen Beitrag. Du erhältst 40 €, wenn du die PayPal-Option wählst oder 46 € (40 * 1,3) für die ZAP-Hosting Guthaben Option.
 :::
 
 ### ZAP Guides
@@ -32,13 +32,13 @@ Bei Beiträgen für ZAP-Anleitungen prüfen wir zunächst, ob es sich um einen n
 #### Neue Anleitungen
 | Auszahlungsart     | Maximale Auszahlung |
 | ------------------ | ------------------- |
-| ZAP-Hosting Credit | €65                 |
+| ZAP-Hosting Guthaben | €65                 |
 | PayPal             | €50                 |
 
 #### Aktualisierungen bestehender Anleitungen
 | Auszahlungsart     | Maximale Auszahlung |
 | ------------------ | ------------------- |
-| ZAP-Hosting Credit | €26                 |
+| ZAP-Hosting Guthaben | €26                 |
 | PayPal             | €20                 |
 
 ### ZAP Blogs
@@ -47,7 +47,7 @@ Für ZAP-Blogs-Beiträge erhalten Autor/innen die in der folgenden Tabelle aufge
 
 | Auszahlungsart     | Maximale Auszahlung |
 | ------------------ | ------------------- |
-| ZAP-Hosting Credit | €130                |
+| ZAP-Hosting Guthaben | €130                |
 | PayPal             | €100                |
 
 ## Bewertungskriterien
@@ -65,9 +65,9 @@ Anhand dieser Kriterien schätzen wir eine angemessene Belohnung für die Arbeit
 
 Sobald du deinen Beitrag eingereicht und mit unserem ZAP-Hosting-Beitragsteam abgeschlossen hast, werden wir ihn bewerten und dich über deine Belohnung informieren. Dies geschieht über den GitHub Pull Request für Guide-Beiträge und über das Ticket auf deinem ZAP-Hosting.com-Konto für Blog-Beiträge.
 
-### ZAP-Hosting Credit (ZAP Coins)
+### ZAP-Hosting Guthaben (ZAP Coins)
 
-Wenn du dich für ZAP-Hosting Credit als Auszahlungsmethode entscheidest, schreiben wir dir den genehmigten Betrag direkt auf dein angegebenes ZAP-Hosting.com-Konto gut.
+Wenn du dich für ZAP-Hosting Guthaben als Auszahlungsmethode entscheidest, schreiben wir dir den genehmigten Betrag direkt auf dein angegebenes ZAP-Hosting.com-Konto gut.
 
 ### PayPal
 Wenn du dich für die PayPal-Zahlung entscheidest, musst du einige zusätzliche Schritte ausführen, über die wir dich informieren werden, sobald sie abgeschlossen sind.
