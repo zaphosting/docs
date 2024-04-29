@@ -95,6 +95,100 @@ server.listen(80)
 
 Now you can run the provided code with the `node .` command and check the results by going to `localhost:80` in your browser.
 
+![NodeJS app in browser](https://imgur.com/DcaM9Dd.png)
+
 :::tip
 Installing external packages from npm is done with the `npm install [package-name]`
 :::
+
+## Deno
+
+Installing Deno is as simple as writing `irm https://deno.land/install.ps1 | iex` inside a Powershell instance.
+
+![Deno install command inside Powershell](https://imgur.com/gOjyave.png)
+
+:::tip
+To check the currently installed version you can run `deno --version`.
+:::
+
+### Update Deno to latest version
+
+Updating Deno can be done by running `deno upgrade`.
+
+### Running Deno
+
+To begin running Deno you'll need to make a new `index.ts` file and write some code into it.
+
+Example:
+
+```js
+Deno.serve({ port: 80 }, (_req: Request) => {
+  return new Response('Hello from ZAP-Hosting Docs =)')
+})
+```
+
+This example will create a http server on `localhost:80` and welcome users on every request. To start it run `deno run --allow-net index.ts`
+
+![Deno app in browser](https://imgur.com/fjBhEe7.png)
+
+:::info
+Deno was created to be more secure and thus requires certain permissions such as `--allow-net` to access some of its modules.
+:::
+
+## Bun
+
+Bun also provides a very easy one command installer but also gives users the option to install it via npm if they've used NodeJS in the past.
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+<Tabs>
+<TabItem value="command" label="Command" default>
+
+Running `irm bun.sh/install.ps1|iex` inside Powershell will install Bun on your server.
+
+![Bun install command inside Powershell](https://imgur.com/utUKgRN.png)
+
+:::info
+The server might be missing some required files. Bun will give you information on this and also links to download said files when trying to run the installer.
+![Bun install error command inside Powershell](https://imgur.com/Sq0IHDQ.png)
+:::
+
+</TabItem>
+<TabItem value="npm" label="npm">
+
+If you already have npm installed you can run `npm install -g bun` to install Bun.
+
+![Bun install command via npm](https://imgur.com/fUPmPoW.png)
+
+</TabItem>
+</Tabs>
+
+### Running Bun
+
+Bun was made to be faster than some of the other Javascript engines while also having a similar setup to NodeJS. To run Bun open an empty directory and run `bun init`.
+
+:::note
+Depending on the chosen language (JS or TS) Bun will then create a config file (jsconfig.json or tsconfig.json).
+:::
+
+You'll need to make a `index.ts` and add code to it.
+
+Example:
+
+```js
+const server = Bun.serve({
+  port: 80,
+  fetch(req) {
+    return new Response('Hello from ZAP-Hosting Docs =)')
+  },
+})
+```
+
+You can now run your code with `bun index.ts`. Opening your browser on `localhost:80` will now show a friendly message.
+
+![Bun app in browser](https://imgur.com/wwuWP4i.png)
+
+## Conclusion
+
+Thank you for reading this guide on installing Javascript runtimes. If you want to run other programming languages like Python you can check out our [other guides](https://docs.zap-hosting.com/).
