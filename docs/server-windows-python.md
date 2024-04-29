@@ -15,11 +15,11 @@ This guide provides steps for the installation of Python runtime on Windows. The
 
 ![Picture of python.com/downloads](https://imgur.com/g30evfk.png)
 
-2. Now click on the `Download Python <version>` button and wait for it to finish.
+2. Now click on the `Download Python [version]` button and wait for it to finish.
 
 ![Picture of Python installer downloaded](https://imgur.com/eHjq3nI.png)
 
-3. Run the installer by clicking on it. Now you will be prompted to set a few settings for the install. Make sure the `Add python.exe to PATH` checkboxe at the bottom is marked (this will make running py easier later on) and click the `Install Now` button.
+3. Run the installer by clicking on it. Now you will be prompted to set a few settings for the installation. Make sure the `Add python.exe to PATH` checkbox at the bottom is marked (this will make running py easier later on) and click the `Install Now` button.
 
 ![Picture of Python's Installer - First Page](https://imgur.com/CcRCbhn.png)
 

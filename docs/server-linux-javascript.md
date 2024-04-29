@@ -74,7 +74,7 @@ apt install npm
 
 Running `node -v` will show you the installed version of NodeJS. This is usually not the latest one and thus you'll need to update it to get the latest features. Luckily the npm package `n` provides a very easy way to do this.
 
-Firstly, we'll need to install it by running `npm install -g n` and then we can run `n <version>` to install any version of NodeJS.
+Firstly, we'll need to install it by running `npm install -g n` and then we can run `n [version]` to install any version of NodeJS.
 
 :::tip
 It is generally recommended to keep your installation on the latest Long Term Support version. You can do so by runnning `n lts`.
@@ -97,7 +97,7 @@ Running this will get the nvm install script from github and run it.
 If running nvm commands doesn't work after installing please run `source ~/.bashrc` to reload the bash config file.
 :::
 
-Similarly to the previous method you can now run a command (`nvm install v<version>`) to install any NodeJS version. If you want to see all downloadable versions you can run `nvm list-remote` and if you want to see all NodeJS versions curently installed you can run `nvm list`.
+Similarly to the previous method you can now run a command (`nvm install v[version]`) to install any NodeJS version. If you want to see all downloadable versions you can run `nvm list-remote` and if you want to see all NodeJS versions curently installed you can run `nvm list`.
 
 :::tip
 Installing the Long Term Support can be done with `nvm install --lts`
@@ -106,7 +106,7 @@ Installing the Long Term Support can be done with `nvm install --lts`
 </TabItem>
 </Tabs>
 
-### Running NodeJS
+### Running NodeJS & npm
 
 Npm is the official package manager of NodeJS. You will use it for installing any packages from the internet.
 
@@ -116,7 +116,7 @@ You can find all npm packages on their [website](https://www.npmjs.com/).
 
 #### Creating a new project
 
-Every time you want to start a new NodeJS projects you need to make a new directory for it (`mkdir <projectname>`) or `cd` into an empty folder and run the `npm init` command to begin the setup. This will ask you for some basic info for creating a `package.json` file. This will be the "config" file for running NodeJS.
+Every time you want to start a new NodeJS project you need to make a new directory for it (`mkdir [project-name]`) or `cd` into an empty folder and run the `npm init` command to begin the setup. This will ask you for some basic info for creating a `package.json` file. This will be the "config" file for running NodeJS.
 
 After initializing the new project you can make a new file called `index.js` and write code inside it.
 
@@ -136,7 +136,7 @@ server.listen(80)
 Now you can run the provided code with the `node .` command and check the results by going to `localhost:80` in your browser.
 
 :::tip
-Installing external packages from npm is done with the `npm install <package-name>`
+Installing external packages from npm is done with the `npm install [package-name]`
 :::
 
 ## Deno
@@ -179,7 +179,7 @@ Bun provides 2 official ways of installation: curl & npm.
 Running `curl -fsSL https://bun.sh/install | bash` will install Bun on your server.
 
 :::tip
-For installing other versions of Bun you can run `curl -fsSL https://bun.sh/install | bash -s "bun-v<version>"`
+For installing other versions of Bun you can run `curl -fsSL https://bun.sh/install | bash -s "bun-v[version]"`
 :::
 
 </TabItem>
