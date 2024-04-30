@@ -1,17 +1,17 @@
 # Introduction:
 :::note
-Cloudflare is not essential to owning a website, but it is recommended for enchanced protection and easy management of your website.
+Cloudflare is not essential to owning a website, but it is recommended for enhanced protection and easy management of your website.
 
 This guide will walk you through linking your Top Level Domain to Cloudflare for enhanced performance, security, and manageability. Cloudflare is used by many website owners for DNS management, cyberattack protection, among other things. With this guide, you can seamlessly integrate your domain with Cloudflare's powerful services.
 
 ## Requirements:
 
-- A Top Level Domain on Zap Hosting
+- A Top Level Domain on Zap-Hosting
 - A Cloudflare account
   
 ### Step 1: Accessing ExpertDNS Option
 
-1. Navigate to the domain administration page of your domain’s web panel.
+1. Navigate to the domain web panel on your Zap-Hosting account.
 2. Locate the ExpertDNS option. By default, EasyDNS is selected.
 3. Check the "expertDNS Activate" option to enable ExpertDNS functionality.
 ![image](https://github.com/Thetntteam/Register-domain-with-cloudflare/assets/54711505/72540eca-c1d6-4383-be45-b3c12328d1a4)
@@ -45,4 +45,4 @@ Verify that your domain is successfully integrated with Cloudflare by checking i
 
 
 ## Conclusion
-Congratulations! You've successfully integrated your domain with Cloudflare, unlocking enhanced performance, security, and manageability for your website. Thank you for choosing zap hosting. If you have any questions
+Congratulations! You've successfully integrated your domain with Cloudflare, unlocking enhanced performance, security, and manageability for your website. Thank you for choosing zap hosting. **If you have any questions, feel free to create a ticket.**
