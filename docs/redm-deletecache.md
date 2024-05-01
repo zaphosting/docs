@@ -1,6 +1,6 @@
 ---
 id: redm-deletecache
-title: Empty Cache
+title: "RedM: Empty Cache"
 description: Information on how to clear the cache of your RedM Server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Delete Cache
 ---

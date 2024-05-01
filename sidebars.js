@@ -1309,6 +1309,7 @@ const sidebars = {
     'vserver-root-unterschied',
     'vserver-vnc',
     'vserver-network-analysis-winmtr',
+    'vserver-ssh-default',
     {
       type: 'html',
       className: 'sidebar-title',
@@ -1453,6 +1454,7 @@ const sidebars = {
       defaultStyle: true,
     },
     'vserver-linux-gs-interface',
+    'dedicated-pterodactyl',
     {
       type: "category",
       label: "Services",

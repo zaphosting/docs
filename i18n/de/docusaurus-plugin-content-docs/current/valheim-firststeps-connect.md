@@ -1,6 +1,6 @@
 ---
 id: valheim-firststeps-connect
-title: Zum Server verbinden
+title: "Valheim: Zum Server verbinden"
 description: Informationenen zum Verbindungsaufbau eines Valheim Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Zum Server verbinden
 ---

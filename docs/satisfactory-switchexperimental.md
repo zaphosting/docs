@@ -1,6 +1,6 @@
 ---
 id: satisfactory-switchexperimental
-title: Experimental Build
+title: "Satisfactory: Experimental Build"
 description: Information on Experimental Build for Satisfactory from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Experimental Build
 ---

@@ -1,6 +1,6 @@
 ---
 id: vserver-windows-expand-disk
-title: Festplatte auf Windows Server erweitern
+title: "vServer: Festplatte auf Windows Server erweitern"
 description: Informationen, wie du die Festplatte deines Windows vServers von ZAP-Hosting nach einem Upgrade erweitern kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Festplatte erweitern
 ---

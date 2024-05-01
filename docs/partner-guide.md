@@ -1,6 +1,6 @@
 ---
 id: partner-guide
-title: Partner Guide The Partner Program of ZAP-Hosting
+title: Partner Guide
 description: Information on ZAP-Hosting's partner programme - ZAP-Hosting.com documentation
 sidebar_label: Partner Guide
 ---
@@ -8,7 +8,7 @@ sidebar_label: Partner Guide
 ## Welcome to the partner program
 Your application has arrived and we have sent you a confirmation? **Then welcome to our ZAP partner program!** From now on you belong to a carefully selected team of influencers who officially represent our products and our company. 
 
-But to be able to do this adequately, you need a small overview of the **Do's and Don'ts**, as well as a good equipment with graphics and contact persons. Let's start with our requirements for our partners.
+But to be able to do this adequately, you need a small overview of the **Do's and Don'ts**, as well as a good equipment with graphics and contact persons. Let's start with our prerequisites for our partners.
 
 ## Partnered, what now?
 In the first discussions with your partner manager we will clarify what your current needs are and which products we will provide you with free of charge so that you can adequately advertise for us. Of course, we make sure that there is a healthy balance between your reach and the value of the products we provide. Although we provide them free of charge, they still have to be maintained by our technicians and the hardware has to be kept in good condition.

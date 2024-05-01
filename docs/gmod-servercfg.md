@@ -1,6 +1,6 @@
 ---
 id: gmod-servercfg
-title: Server.cfg settings
+title: "Garry's Mod: Server.cfg settings"
 description: Information about the server.cfg settings for your Garry's Mod server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Garry's Mod Server.cfg Modification
 ---

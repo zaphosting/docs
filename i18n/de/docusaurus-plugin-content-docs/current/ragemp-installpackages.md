@@ -1,6 +1,6 @@
 ---
 id: ragemp-installpackages
-title: Installation von Paketen
+title: "RageMP: Installation von Paketen"
 description: Informationen, wie du Pakete auf deinen RageMP Server von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Pakete installieren
 ---

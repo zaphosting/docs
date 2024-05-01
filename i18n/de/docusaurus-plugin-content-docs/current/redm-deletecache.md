@@ -1,6 +1,6 @@
 ---
 id: redm-deletecache
-title: Cache leeren
+title: "RedM: Cache leeren"
 description: Informationen, wie du den Cache deines RedM Server von ZAP-Hosting leeren kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Cache leeren
 ---

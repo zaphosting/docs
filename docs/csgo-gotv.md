@@ -1,6 +1,6 @@
 ---
 id: csgo-gotv
-title: Information about GOTV
+title: "CSGO: Information about GOTV"
 description: Information about GOTV on Counter-Strike Go servers from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: GOTV
 ---

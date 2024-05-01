@@ -1,6 +1,6 @@
 ---
 id: domain-records
-title: Domain records settings
+title: "Domain: Domain records settings"
 description: Information about the domain record settings for domains at ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Domain Records
 ---

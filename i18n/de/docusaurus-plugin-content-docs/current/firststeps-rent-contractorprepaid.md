@@ -1,6 +1,6 @@
 ---
 id: firststeps-rent-contractorprepaid
-title: Vertrag oder Prepaid - Was sind die Unterschiede?
+title: "Vertrag oder Prepaid: Was sind die Unterschiede?"
 description: Informationen zu den Unterschieden zwischen den Optionen Prepaid und Vertrag bei Servern von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Vertrag oder Prepaid
 ---

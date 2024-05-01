@@ -1,6 +1,6 @@
 ---
 id: fivem-installels
-title: Installing ELS on your server
+title: "FiveM: Installing ELS on your server"
 description: Information on how to install ELS on your FiveM server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Install ELS
 ---

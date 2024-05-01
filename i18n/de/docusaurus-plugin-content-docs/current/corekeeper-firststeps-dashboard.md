@@ -1,6 +1,6 @@
 ---
 id: corekeeper-firststeps-dashboard
-title: Core Keeper Dashboard Übersicht
+title: "Core Keeper: Dashboard Übersicht"
 description: Informationen zum Dashboard eines Core Keeper Server von ZAP-Hosting - ZAP-Hosting.com Dokumentationen
 sidebar_label: Dashboard
 ---

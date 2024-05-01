@@ -1,6 +1,6 @@
 ---
 id: account-donations
-title: Donate - Finance servers together with your friends
+title: "Donate: Finance servers together with your friends"
 description: Instructions on how to use the donation function to finance a server at ZAP-Hosting together with friends - ZAP-Hosting.com documentation
 sidebar_label: Donations
 ---

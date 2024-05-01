@@ -1,6 +1,6 @@
 ---
 id: eco-whitelist
-title: Activate Whitelist
+title: "ECO: Activate Whitelist"
 description: Information on how to create and manage a whitelist for your ECO server at ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Whitelist
 ---

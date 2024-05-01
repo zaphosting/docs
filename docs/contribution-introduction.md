@@ -5,13 +5,15 @@ description: Information on the ZAP-Hosting Contribution Program - ZAP-Hosting.c
 sidebar_label: Introduction
 ---
 
-![Contribution Program 2.0](https://screensaver01.zap-hosting.com/index.php/s/jYiCeya8rDqWB3A/preview)
+![Contribution Program 2.0](https://screensaver01.zap-hosting.com/index.php/s/djbjL5gHGRCYAzq/preview)
 
 ## Introduction
 
 Here at ZAP-Hosting, we believe in the power of our Community, thus we are pleased to run our very own ZAP-Hosting Community Contributions program. This program enables our ZAP Community to produce high-quality, practical and easily accessible guides to support a wide range of topics and help out other fellow people. The program also supports creativity from our Community through the creation of unique Blog posts and content.
 
-All content produced under this program provides rewards in the form of ZAP Coins as an awesome benefit! You can view more information about rewards as well as the criteria used for evaluating rewards via the [Contribution Rewards guide](contribution-rewards.md).
+All content produced under this program provides **money rewards** as an awesome benefit for successfully contributing! We offer reward payouts through PayPal and as credit for your ZAP-Hosting account. Rewards are provided as the final step once your contribution is approved by our ZAP-Hosting Contributions Team and is ready to be published.
+
+You can view more information about rewards as well as the criteria used for evaluating rewards via the [Contribution Rewards guide](contribution-rewards.md).
 
 Our program currently accepts contributions in **English**.
 
@@ -33,13 +35,13 @@ Interested in Contributing to our Blog? Head over to our dedicated [Blogs Proces
 
 ## Who is this program for?
 
-The contribution program is accessible to anyone who wants to share their knowledge and experience with the community! We actively look for dedicated writers who have strong technical skills and are knowledgeable in their respective field. Most importantly, we look for writers who are dedicated and are happy to collaborate with our ZAP-Hosting Contributions Team to improve and revise their content before publishing.
+The contribution program is accessible to anyone who wants to share their knowledge and experience with the community! We actively look for dedicated writers who have strong technical skills and are knowledgeable in their respective field. We also search for talented creatives, who can write engaging articles for our industry and audience. Most importantly, we look for writers who are dedicated and are happy to collaborate with our ZAP-Hosting Contributions Team to improve and revise their content before publishing.
 
 Are you interested in joining the conversation and collaborating with other like-minded people? Feel free to join our [Discord Server](https://discord.com/invite/zaphosting) and use the **#Customise Community** channel to assign yourself the contribution role to keep updated with the latest changes, communicate with other contributors and collaborate!
 
 ## Copyright and Terms & Conditions
 
-During participation in our ZAP-Hosting Contribution Program, you must abide by our Terms & Conditions and requirements. These are non-negotiable and must be followed to be able to participate in our Contribution Program. If we believe that you have breached one of our terms, your work may not be approved and thus will not qualify for our Contribution Program. All final decisions are at the discretion of the ZAP-Hosting Contributions Team.
+During participation in our ZAP-Hosting Contribution Program, you must abide by our Terms & Conditions and prerequisites. These are non-negotiable and must be followed to be able to participate in our Contribution Program. If we believe that you have breached one of our terms, your work may not be approved and thus will not qualify for our Contribution Program. All final decisions are at the discretion of the ZAP-Hosting Contributions Team.
 
 **Key Information:**
 - You agree to transfer all exclusive intellectual property rights of your creation to ZAP-Hosting GmbH & Co KG. This transfer is confirmed once you have received your payment.

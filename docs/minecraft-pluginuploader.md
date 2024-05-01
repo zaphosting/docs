@@ -1,6 +1,6 @@
 ---
 id: minecraft-pluginuploader
-title: Server Using ZAP-Hosting Plugin Uploader
+title: "Minecraft: Server Using ZAP-Hosting Plugin Uploader"
 description: Information on how to use the plugin uploader to upload plugins to your Minecraft server from ZAP-Hosting via the web interface - ZAP-Hosting.com documentation
 sidebar_label: Plugin Uploader
 ---

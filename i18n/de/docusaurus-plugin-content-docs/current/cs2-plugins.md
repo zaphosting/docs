@@ -1,6 +1,6 @@
 ---
 id: cs2-plugins
-title: Installation von Plugins
+title: "CS2: Installation von Plugins"
 description: Informationen über die Installation von PLugins für CS2 Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Plugins installieren
 ---

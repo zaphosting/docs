@@ -1,6 +1,6 @@
 ---
 id: redm-steam-web-api-key
-title: Einrichtung des Steam-Web-API-Key
+title: "RedM: Einrichtung des Steam-Web-API-Key"
 description: Informationen zum Einrichten eines Steam-Web-API-Schlüssels von ZAP-Hosting - ZAP-Hosting.com-Dokumentation
 sidebar_label: Steam Web API Key
 ---

@@ -1,6 +1,6 @@
 ---
 id: scp-newroles
-title: Server Adding new roles
+title: "SCP Secret Laboratory: Server Adding new roles"
 description: Information on how to add new roles to your SCP server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Add new roles 
 ---

@@ -1,7 +1,7 @@
 ---
 id: altv-installresources
-title: Installation von Resourcen
-description: Informationen, wie du Resourcen auf deinen ALT:V Server von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentation
+title: "Alt:V: Installation von Resourcen"
+description: 'Informationen, wie du Resourcen auf deinen ALT:V Server von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentation'
 sidebar_label: Resourcen installieren
 ---
 

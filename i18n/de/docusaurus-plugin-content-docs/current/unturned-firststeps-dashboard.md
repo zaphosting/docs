@@ -1,6 +1,6 @@
 ---
 id: unturned-firststeps-dashboard
-title: Unturned Dashboard Übersicht
+title: "Unturned: Dashboard Übersicht"
 description: Informationen zum Dashboard eines Unturned Server von ZAP-Hosting - ZAP-Hosting.com Dokumentationen
 sidebar_label: Dashboard
 ---

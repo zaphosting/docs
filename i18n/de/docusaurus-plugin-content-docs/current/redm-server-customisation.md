@@ -1,6 +1,6 @@
 ---
 id: redm-server-customisation
-title: Anpassen der Serverinformationen
+title: "RedM: Anpassen der Serverinformationen"
 description: Informationen über die Anpassung der in der Serverliste angezeigten Informationen für RedM-Server - ZAP-Hosting.com - Dokumentation
 sidebar_label: Anpassen der Serverinformationen
 ---

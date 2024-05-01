@@ -1,6 +1,6 @@
 ---
 id: beammp-authkey
-title: Auth Key Erstellen
+title: "BeamMP: Auth Key Erstellen"
 description: Information, wie du einen Auth Key für deinen BeamMP Server von ZAP-Hosting erstellen kannst  - ZAP-Hosting.com Dokumentation
 sidebar_label: Auth Key Erstellen
 ---

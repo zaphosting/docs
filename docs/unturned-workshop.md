@@ -1,6 +1,6 @@
 ---
 id: unturned-workshop
-title: Install Workshop content on server
+title: "Unturned: Install Workshop content on server"
 description: Information on how to install Steam Workshop content and mods on your Unturned server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Workshop Content
 ---

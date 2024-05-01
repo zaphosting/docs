@@ -1,6 +1,6 @@
 ---
 id: valheim-firststeps-connect
-title: Connect to the server
+title: "Valheim: Connect to the server"
 description: Information about connecting to a Valheim server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Connect to the server
 ---
@@ -15,9 +15,9 @@ Are you unsure about what you need to connect to your server in general or how t
 
 
 
-## Requirements
+## Prerequisites
 
-First of all, it is necessary to clarify which requirements have to be met so that a connection to the server is possible. This includes, for example, the game, additional content (extensions) and the general server information such as IP address, port and server name.
+First of all, it is necessary to clarify which prerequisites have to be met so that a connection to the server is possible. This includes, for example, the game, additional content (extensions) and the general server information such as IP address, port and server name.
 
 
 
@@ -29,7 +29,7 @@ For the connection to your game server, it is mandatory that you already own the
 
 ### Server information
 
-Provided that all requirements of **Game / Content** are met, you will need the information of your server. Click on your game server service in your dashboard. The overview will now show you all general information about your server.
+Provided that all prerequisites of **Game / Content** are met, you will need the information of your server. Click on your game server service in your dashboard. The overview will now show you all general information about your server.
 
 ![image](https://user-images.githubusercontent.com/26007280/218265860-a204c297-f2d3-4052-8cf9-8f665b0a2ed9.png)
 
@@ -41,7 +41,7 @@ Zu den relevanten Informationen gehören hierbei die **IP-Adresse,** **Port** un
 
 ## Connect to the server
 
-Once all the requirements have been met, you can begin to connect to the server. To do this, start your game and then navigate to Start Game -> Start -> Join Game and click on Add Server. Now enter the IP and port of your server:
+Once all the prerequisites have been met, you can begin to connect to the server. To do this, start your game and then navigate to Start Game -> Start -> Join Game and click on Add Server. Now enter the IP and port of your server:
 
 ![image](https://user-images.githubusercontent.com/26007280/218265871-932de3dc-078d-45f7-9c89-f0b6d9b99b92.png)
 

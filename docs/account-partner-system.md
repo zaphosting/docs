@@ -1,7 +1,7 @@
 ---
 id: account-partner-system
 title: ZAP-Hosting Partner Program
-description: Information on applying as a ZAP-Hosting partner, including the requirements, benefits and the application process - ZAP-Hosting.com documentation
+description: Information on applying as a ZAP-Hosting partner, including the prerequisites, benefits and the application process - ZAP-Hosting.com documentation
 sidebar_label: Introduction
 ---
 
@@ -40,7 +40,7 @@ As an official partner of ZAP-Hosting you can get the following advantages:
 - You receive a personal account manager who serves as your point of contact and plans different actions with you.
 - You can receive free servers from us.
 - You can receive better affiliate commission conditions.
-- For events and promotions we gladly provide goodies (e.g. ZAP Coins, servers, hardware).
+- For events and promotions we gladly provide goodies (e.g. money for cashbox, servers, hardware).
 - You will be linked on our [partner site](https://zap-hosting.com/en/partner/).
 
 ## Partner Application

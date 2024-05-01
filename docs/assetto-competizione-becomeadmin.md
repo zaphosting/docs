@@ -1,6 +1,6 @@
 ---
 id: assetto-competizione-becomeadmin
-title: Become an admin on your own server
+title: "Assetto Corsa Competizione: Become an admin on your own server"
 description: Information on how to become an admin on your Assetto Corsa Competizione server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Become admin
 ---

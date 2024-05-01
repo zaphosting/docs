@@ -1,6 +1,6 @@
 ---
 id: minecraft-server-optimize
-title: server performance optimisation
+title: "Minecraft: server performance optimisation"
 description: Information on how to optimise your Minecraft server from ZAP-Hosting for better performance - ZAP-Hosting.com documentation
 sidebar_label: Minecraft-Server Optimization
 ---

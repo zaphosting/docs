@@ -1,3 +1,5 @@
+
+
 ## Introduction
 
 You are interested in an **Path of Titans server** or already own one, but you still lack a comprehensive overview of the administration and the findability of all necessary options? Especially at the beginning, this can be a challenge. But don't worry, we'll provide you with a detailed introduction to the administration of your service below, so you'll have the best possible overview.

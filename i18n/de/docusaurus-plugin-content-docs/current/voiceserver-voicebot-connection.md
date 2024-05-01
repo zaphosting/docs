@@ -1,6 +1,6 @@
 ---
 id: voiceserver-voicebot-connection
-title: Verknüpfung deines Voicebots mit einem Voiceserver
+title: "Voiceserver: Verknüpfung deines Voicebots mit einem Voiceserver"
 description: Informationen, wie du einen Voicebot mit deinem Teamspeak/Discord Server von ZAP-Hosting verbinden kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Verknüpfung mit Voiceserver
 ---

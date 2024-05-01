@@ -1,6 +1,6 @@
 ---
 id: vserver-vnc
-title: VNC (Virtual Network Computing) Konsole
+title: "vServer: VNC (Virtual Network Computing) Konsole"
 description: Informationen zur VNC Konsole für Vserver/Rootserver von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: VNC-Konsole
 ---

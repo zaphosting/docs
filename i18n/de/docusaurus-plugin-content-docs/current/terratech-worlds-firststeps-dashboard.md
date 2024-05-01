@@ -1,6 +1,6 @@
 ---
 id: terratech-worlds-firststeps-dashboard
-title: Minecraft Dashboard Übersicht
+title: "Terratech Worlds: Dashboard Übersicht"
 description: Informationen zum Dashboard eines TerraTech Worlds Server von ZAP-Hosting - ZAP-Hosting.com Dokumentationen
 sidebar_label: Dashboard
 ---

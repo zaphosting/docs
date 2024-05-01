@@ -1,6 +1,6 @@
 ---
 id: 7d2d-commands
-title: Commands
+title: "7 Days to Die: Commands"
 description: Information on how to execute server commands on your 7 Days to Die server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Commands
 ---

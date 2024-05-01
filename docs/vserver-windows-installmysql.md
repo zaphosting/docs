@@ -1,6 +1,6 @@
 ---
 id: vserver-windows-installmysql
-title: Installation of MySQL
+title: "Server: Installation of MySQL"
 description: Information on how to install and set up a MySQL server on your Windows server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Install MySQL
 ---

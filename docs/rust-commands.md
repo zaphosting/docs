@@ -1,6 +1,6 @@
 ---
 id: rust-commands
-title: Admin Commands
+title: "Rust: Admin Commands"
 description: Information on Admin commands for Rust from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Admin Commands
 ---

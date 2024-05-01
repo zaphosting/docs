@@ -1,6 +1,6 @@
 ---
 id: rust-firststeps-dashboard
-title: Dashboard Übersicht
+title: "Rust: Dashboard Übersicht"
 description: Informationen zum Dashboard eines Rust Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Dashboard
 ---

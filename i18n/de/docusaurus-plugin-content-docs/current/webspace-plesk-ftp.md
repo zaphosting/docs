@@ -1,6 +1,6 @@
 ---
 id: webspace-plesk-ftp
-title: FTP Zugang für Webspace einrichten
+title: "Webspace: FTP Zugang für Webspace einrichten"
 description: Informationen, wie du einen FTP Zugang für deinen Webspace von ZAP-Hosting einrichten kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: FTP-Zugang
 ---

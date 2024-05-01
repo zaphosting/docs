@@ -1,6 +1,6 @@
 ---
 id: vserver-windows-userdp
-title: VPS Initial access to Windows Server with RDP
+title: "VPS: Initial access to Windows Server with RDP"
 description: Information on how to gain initial access to your Windows VPS from ZAP-Hosting with the remote desktop connection - ZAP-Hosting.com documentation
 sidebar_label: Initial access (RDP)
 ---

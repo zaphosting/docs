@@ -1,6 +1,6 @@
 ---
 id: fivem-editlocalfiles
-title: Locales-Dateien bearbeiten
+title: "FiveM: Locales-Dateien bearbeiten"
 description: Informationen, wie du die Locales-Dateien deines FiveM-Server von ZAP-Hosting editieren kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Localesfiles bearbeiten
 ---

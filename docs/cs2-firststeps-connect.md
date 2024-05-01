@@ -1,6 +1,6 @@
 ---
 id: cs2-firststeps-connect
-title: Connect to the server
+title: "CS2: Connect to the server"
 description: Information on how to connect to a CS2 server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Connect to the server
 ---
@@ -15,21 +15,21 @@ Are you unsure about what you need to connect to your server in general or how t
 
 
 
-## Requirements
+## Prerequisites
 
-First of all, it is necessary to clarify which requirements have to be met so that a connection to the server is possible. This includes, for example, the game, additional content (extensions) such as mods/plugins and the general server information such as IP address, port and server name.
+First of all, it is necessary to clarify which prerequisites have to be met so that a connection to the server is possible. This includes, for example, the game, additional content (extensions) such as mods/plugins and the general server information such as IP address, port and server name.
 
 
 
 ### Game /Contents
 
-For the connection to your game server, it is mandatory that you already own the game. This is not provided by us when renting a server. Additional extensions are not required for the game. Apart from that, no other requirements have to be met.
+For the connection to your game server, it is mandatory that you already own the game. This is not provided by us when renting a server. Additional extensions are not required for the game. Apart from that, no other prerequisites have to be met.
 
 
 
 ### Server information
 
-Provided that all requirements of **Game / Content** are met, you will need the information of your server. Click on your game server service in your dashboard. The overview will now show you all general information about your server.
+Provided that all prerequisites of **Game / Content** are met, you will need the information of your server. Click on your game server service in your dashboard. The overview will now show you all general information about your server.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/mHMs3kbEjnsCTnJ/preview)
 
@@ -39,7 +39,7 @@ The relevant information includes the **IP address,** **Port** and **Password (O
 
 ## Connect to the server
 
-Once all requirements have been met, you can now begin to connect to the server. Open the Steam Server Browser. There you have to add the IP address and port of your server to your favorites.
+Once all prerequisites have been met, you can now begin to connect to the server. Open the Steam Server Browser. There you have to add the IP address and port of your server to your favorites.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/PyF2xMHEzyyfjw7/preview)
 

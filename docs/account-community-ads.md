@@ -1,7 +1,7 @@
 ---
 id: account-community-ads
 title: Community Advertising
-description: Instructions on how to use Community Advertising to earn ZAP credits or money via ZAP-Hosting - ZAP-Hosting.com documentation
+description: Instructions on how to use Community Advertising to earn money via ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Community Advertisement
 ---
 
@@ -47,7 +47,7 @@ The link must point to the advertisement created for this purpose. If the link d
 
 ## Cash out & Transferring
 
-You can transfer out your Community Advertisement balance either into ZAP-Coins or into real money. Head over to the [Community Advertising](https://zap-hosting.com/en/customer/communityads/) page again and press the blue **Payment/Transfer** button.
+You can transfer out your Community Advertisement balance either into your cashbox (ZAP Coins) or into real money. Head over to the [Community Advertising](https://zap-hosting.com/en/customer/communityads/) page again and press the blue **Payment/Transfer** button.
 
 ![image](https://github.com/zaphosting/docs/assets/42719082/076c45aa-2851-4a0d-b5ed-27ca57102b15)
 
@@ -55,10 +55,10 @@ You can transfer out your Community Advertisement balance either into ZAP-Coins 
 
 Now follow the appropriate section below to transfer to either currency.
 
-### ZAP-Coins
+### ZAP Coins
 
 :::warning
-Once you have your credits transferred into ZAP-Coins, you can no longer cash out them out!
+Once you have your credits transferred into ZAP Coins, you can no longer cash out them out!
 :::
 
 On the menu prompt, select **ZAP credit balance** as the option. Choose whether you wish to transfer the entire balance or only a specific part of it. Once ready, simply press the green **Transfer** button to confirm.
