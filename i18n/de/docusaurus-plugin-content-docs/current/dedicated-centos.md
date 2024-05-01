@@ -2,23 +2,34 @@
 id: dedicated-centos
 title: "Dedicated Server: CentOS installieren"
 description: Informationen zu der Installation des CentOS Betriebssystem auf deinem Dedicated Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
-sidebar_label: CentOS installieren
 ---
 
+
+
+## Einführung
+
+Im Folgenden wird dir Schritt für Schritt erklärt, wie du das CentOS Betriebssystem auf deinem Dedicated Server installieren und konfigurieren kannst. Folge diesen Anweisungen sorgfältig, um sicherzustellen, dass du das Betriebssystem erfolgreich einrichtest und optimal nutzt.
+
 :::info
-In diesem Beispiel wird die Installation von CentOS 8.3 durchgeführt
+
+Der Aufbau der Anleitung basiert auf der Verwendung des CentOS 8.3 Betriebssystems. Installationen von früheren oder neueren Versionen können hinsichtlich des Prozesses leicht abweichen.
 :::
 
-## Vorbereitungen
-Wähle in deinem ZAP-Interface die gewünschte ISO von CentOS aus und lasse den Server mit der ISO booten, bis dieser im Setup ist.
 
-:::info
-Die Navigation im Setup-Prozess erfolgt ganz bequem mit deiner Maus
-:::
 
-***
+## Vorbereitung
 
-## Das Setup
+Für die Installation und Konfiguration eines Betriebssystems ist es zunächst wichtig, dass die entsprechende ISO vom Betriebssystem gemountet wird. Für das Mounten gibt es mehrere mögliche Wege: 
+
+1. Mounten über die Ersteinrichtung
+2. Mounten über die iLO (Virtual Media)
+3. Mounten über die iLO (Remote Console)
+
+Solltest du mit dem Mounten einer ISO-Datei noch nicht vertraut sein, dann schaue dir am besten unsere [Ersteinrichtung](dedicated-setup.md) oder [Eigene ISO](dedicated-iso.md) Anleitung an
+
+
+
+## Installation
 Wenn die ISO erfolgreich geladen wurde, ist der Server erfolgreich im Setup.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/YFQt6Jmw5wi4QZZ/preview)
@@ -39,15 +50,15 @@ Wähle die SSD auf welche CentOS installiert werden soll
 Aufgrund einer Inkompatibilität im Kernel muss zuerst ein Update eingespielt werden, damit dein Dedicated Server eine Netzwerkverbindung aufbauen kann.
 Die genauen Schritte werden unter Netzwerk erklärt.
 
-Wenn du alles gewünschte konfiguriert hast, klicke auf "Begin Installation"
-
-***
-
-![](https://screensaver01.zap-hosting.com/index.php/s/iqF8KzziQix3jyd/preview)
+Wenn du alles gewünschte konfiguriert hast, klicke auf "Begin Installation"![](https://screensaver01.zap-hosting.com/index.php/s/iqF8KzziQix3jyd/preview)
 
 Wenn die Installation abgeschlossen ist, entferne die ISO-Datei von deinem Server und klicke "Reboot System"
 
-## Netzwerk
+
+
+## Konfiguration
+
+### Netzwerk
 
 In diesem Schritt muss noch die Netzwerkschnittstelle konfiguriert werden, hierzu ist ein Update notwendig.
 Lade unsere ISO-Datei in deinen Server, entweder über deine Remote Console oder die iLO selbst.
