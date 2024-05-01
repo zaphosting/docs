@@ -13,9 +13,8 @@ Bitte beachte, dass es immer bis zu 24 Stunden dauern kann bis Änderungen an DN
 Du kannst entweder deine Domain vollständig, oder lediglich eine Subdomain auf deinen Gameserver weiterleiten.
 So muss sich niemand die komplizierte IP-Adresse, welche aus Zahlen besteht merken, sondern kann sich einfach mithilfe der Domain auf deinen Gameserver verbinden.
 
-## Wie funktioniert das?
+## Funktionsweise
 
-### Bevor wir mit der Erstellung von Einträgen in den DNS Einstellungen der Domain beginnen, hier ein paar Informationen vorab:
 Für die Weiterleitung der IP-Adresse wird entweder eine Subdomain erstellt, welche auf die IP-Adresse des Gameservers leitet, oder du leitest die komplette Domain ohne Subdomain weiter.
 Dies würde bereits ausreichen, wenn der Gameserver den Standard Port des jeweiligen Spiels verwendet.
 Verwendet der Gameserver jedoch einen anderen Port als den Standard Port des jeweiligen Spiels, wird zusätzlich noch ein sogenannter **SRV Eintrag**
@@ -46,13 +45,13 @@ Dort siehst du nun alle bereits vorhandenen DNS Einträge für deine Domain.
 
 ![image](https://user-images.githubusercontent.com/13604413/172062190-77af42af-4639-4908-91d5-1320684049a9.png)
 
-## Weiterleitung der Domain für Minecraft
+## Domain Weiterleitung (Minecraft)
 Zunächst muss für die korrekte Weiterleitung auf Minecraft Server sowohl IP und Port von dem Minecraft Server rausgesucht werden auf welchen weitergeleitet werden soll.
 Mit diesen Daten können nun die nachfolgenden Schritte befolgt werden.
 
 In unserem Beispiel nutzen wir als Domainnamen die "testserver-domain.de", als Server IP "123.123.123.123" und PORT "25500".
 
-### Erstellung A Record
+### A-Record anlegen
 Für die Erstellung von einem neuen Record muss der Button "**Neuer Eintrag**" genutzt werden.
 
 Dabei öffnet sich dann ein Fenster mit vier Feldern, welche befüllt werden müssen:
@@ -64,7 +63,7 @@ In unserem Beispiel sieht es daher wie folgt aus.
 
 ![image](https://user-images.githubusercontent.com/13604413/172062230-a8019e62-9c82-4601-af01-ac5340c1cba5.png)
 
-### Erstellung SRV Record
+### SRV-Record anlegen
 Nun muss noch ein SRV Record erstellt werden, dieser dient zur Portweiterleitung welche erforderlich ist, wenn man nicht den Default Port besitzt.
 Dafür also erneut auf den Button "**Neuer Eintrag**". 
 
@@ -78,20 +77,20 @@ In unserem Beispiel sieht es dann wie folgt aus:
 
 ![image](https://user-images.githubusercontent.com/13604413/172062452-ec6e0fdb-5c6d-4a30-b578-933f5da0446d.png)
 
-### Troubleshooting & Ergebnis
+### Fehlersuche & Ergebnis
 :::info
 WICHTIG! Am Ende von dem Eintrag muss ein Punkt geschrieben werden, ohne diesen Punkt versucht das System die Domain anzuhängen. 
 :::
 
 Wird dieser Hinweis nicht beachtet, dann macht das System aus minecraft.testserver-domain.de die Weiterleitung zu minecraft.testserver-domain.de.testserver-domain.de wodurch die Weiterleitung fehlschlägt.
 
-## Weiterleitung der Domain für Fivem
+## Domain Weiterleitung (FiveM)
 Zunächst muss für die korrekte Weiterleitung auf Fivem Server sowohl IP und Port von dem Fivem Server herausgesucht werden auf welchen weitergeleitet werden soll.
 Mit diesen Daten können nun die nachfolgenden Schritte befolgt werden.
 
 In unserem Beispiel nutzen wir als Domainnamen die "testserver-domain.de", als Server IP "123.123.123.123" und PORT "30300".
 
-### Erstellung A Record
+### A-Record anlegen
 Für die Erstellung von einem neuen Record muss der Button "**Neuer Eintrag**" genutzt werden.
 Dabei öffnet sich dann ein Fenster mit vier Feldern, welche befüllt werden müssen:
 
@@ -106,7 +105,7 @@ Sobald gespeichert, wird dieser Eintrag auch korrekt angezeigt:
 
 ![image](https://user-images.githubusercontent.com/13604413/172062510-8b24fc94-49fa-440e-abb2-7cff693be8d2.png)
 
-### Erstellung SRV Record
+### SRV-Record anlegen
 Nun muss noch ein SRV Record erstellt werden, dieser dient zur Portweiterleitung welche erforderlich ist, wenn man nicht den Default Port besitzt.
 Dafür also erneut auf den Button "**Neuer Eintrag**".
 
@@ -120,7 +119,7 @@ In unserem Beispiel sieht es dann wie folgt aus:
 
 ![image](https://user-images.githubusercontent.com/13604413/172062644-89dcfad2-073c-435f-839d-115dba26bf94.png)
 
-### Troubleshooting & Ergebnis
+### Fehlersuche & Ergebnis
 :::info
 WICHTIG! Am Ende von dem Eintrag muss ein Punkt geschrieben werden, ohne diesen Punkt versucht das System die Domain anzuhängen. 
 :::
