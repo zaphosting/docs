@@ -38,8 +38,6 @@ Bitte beachte, dass es bis zu 3 Stunden dauern kann, bis sich die Domain verbrei
 
 ## Reguläre DNS-Einrichtung
 
-### Bevor wir mit der Erstellung von Einträgen in den DNS Einstellungen der Domain beginnen, hier ein paar Informationen vorab:
-
 Für die Weiterleitung der IP Adresse wird entweder eine Subdomain erstellt, welche auf die IP Adresse des TeamSpeak 3 Servers leitet, oder du leitest die komplette Domain ohne Subdomain weiter.
 Dies würde bereits ausreichen, wenn der TeamSpeak 3 Server den Standard Port**9987** verwendet.
 Verwendet der TeamSpeak 3 Server jedoch einen anderen Port als den Standard Port, wird zusätzlich noch ein sogenannter **SRV Eintrag**

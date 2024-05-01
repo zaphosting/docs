@@ -38,8 +38,6 @@ Please note, it can take up to 3 hours for the domain to propagate and start fun
 
 ## Regular DNS setup
 
-### Before we start creating entries in the DNS settings of the domain, here is some information in advance:
-
 To forward the IP address, either create a subdomain that redirects to the IP address of the TeamSpeak 3 server, or forward the entire domain without a subdomain.
 This would be sufficient if the TeamSpeak 3 server uses the default port **9987**.
 However, if the TeamSpeak 3 server is using a different port than the default port, an additional **SRV entry** will be added to the TeamSpeak 3 server's IP address
