@@ -8,7 +8,7 @@ sidebar_label: Affiliate Programm
 ![Affiliate Program](https://screensaver01.zap-hosting.com/index.php/s/GoXwRnHrRARc4jk/preview)
 
 ## Einführung
-Unser Partnerprogramm ermöglicht es dir, kostenlos Geld oder ZAP Coins zu verdienen, indem du neue Kunden an ZAP-Hosting vermittelst. Du kannst darauf zugreifen, indem du auf die [Affiliate-Seite](https://zap-hosting.com/en/customer/affiliate/) auf unserer Website gehst.
+Unser Partnerprogramm ermöglicht es dir, kostenlos Geld zu verdienen, indem du neue Kunden an ZAP-Hosting vermittelst. Du kannst darauf zugreifen, indem du auf die [Affiliate-Seite](https://zap-hosting.com/en/customer/affiliate/) auf unserer Website gehst.
 
 Auf der Affiliate-Seite kannst du Affiliate-Links und Banner verwalten und auf deinen eigenen Affiliate-Gutscheincode zugreifen, mit dem neue Kunden für die gesamte Laufzeit des Programms einen Rabatt von **20%** auf deren Serverpreis erhalten.
 
@@ -29,7 +29,7 @@ Die neuesten und aktuellsten Werte für die Provisionen kannst du im [Abschnitt 
 :::info
 Die Anzeige des Partnerguthabens basiert auf Zahlungen inklusive Mehrwertsteuer. Wenn du kein deutsches Unternehmen/keine deutsche Privatperson bist, die die Mehrwertsteuer auf seine Rechnungen aufschlagen muss, musst du die Mehrwertsteuer vor der Einreichung deiner Rechnung abziehen. Das bedeutet, dass du bei der Auszahlung die Mehrwertsteuer von deinem angezeigten Partnerguthaben abziehen musst. Du kannst dies tun, indem du den angezeigten Betrag durch 1,19 (19% deutsche Mehrwertsteuer) teilst.
 
-Beispiel: Du hast 100 € Affiliate-Guthaben. Du solltest Folgendes in Rechnung stellen: 100 / 1,19 = 84,03 € insgesamt. Wenn du mit ZAP Coins auszahlst, erhältst du den vollen Betrag.
+Beispiel: Du hast 100 € Affiliate-Guthaben. Du solltest Folgendes in Rechnung stellen: 100 / 1,19 = 84,03 € in Rechnung stellen, wenn du PayPal als Auszahlungsoption wählst. Andernfalls erhältst du den vollen Betrag, wenn du auf deine cashbox (ZAP Coins) auszahlst.
 
 Wenn die Mehrwertsteuer in der Rechnung ausgewiesen werden muss, wird der volle Betrag inklusive Mehrwertsteuer in der Rechnung ausgewiesen. Bei einem Partnerguthaben von 100€ wird eine Rechnung über 100€, bestehend aus 84,03€ Rechnungsbetrag und 15,97€ MwSt., verschickt. Bei Rechnungen aus dem Ausland muss die Mehrwertsteuer in der Regel nicht auf der Rechnung ausgewiesen werden.
 :::
@@ -73,16 +73,16 @@ Wenn du alles nach deinen Vorstellungen ausgefüllt hast, drückst du einfach au
 
 ## Auszahlen & Übertragen
 
-Du kannst dir dein Partnerprogramm-Guthaben entweder in ZAP-Coins oder in Echtgeld auszahlen lassen. Gehe dazu wieder auf die [Affiliate-Seite](https://zap-hosting.com/en/customer/affiliate/) und klicke auf den blauen Button **Auszahlung/Umbuchung**.
+Du kannst dir dein Partnerprogramm-Guthaben entweder deine cashbox (ZAP Coins) oder in Geld über PayPal. Gehe dazu wieder auf die [Affiliate-Seite](https://zap-hosting.com/en/customer/affiliate/) und klicke auf den blauen Button **Auszahlung/Umbuchung**.
 
 ![image](https://screensaver01.zap-hosting.com/index.php/s/639MHYsCXnf7YeP/preview)
 
 Folge nun dem entsprechenden Abschnitt unten, um in eine der beiden Währungen zu überweisen.
 
-### ZAP-Coins
+### ZAP Coins
 
 :::warning
-Sobald du deine Credits in ZAP-Coins transferiert hast, kannst du sie nicht mehr auszahlen lassen!
+Sobald du deine Credits in ZAP Coins transferiert hast, kannst du sie nicht mehr auszahlen lassen!
 :::
 
 Wähle bei der Menüaufforderung **ZAP-Guthaben** als Option aus. Wähle aus, ob du das gesamte Guthaben oder nur einen bestimmten Teil davon übertragen möchtest. Wenn du fertig bist, drückst du zur Bestätigung einfach auf die grüne Taste **Übertragen**.

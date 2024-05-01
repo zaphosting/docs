@@ -66,7 +66,7 @@ You should provide a bullet-point list of these prerequisites under the section 
 
 ### Main Topics
 
-Within these topics is where you write the main body of your blog post. We recommend splitting the blog post into a few sections to help the reader remain engaged with the content. There is no strict requirement for how these should be split, but as a general rule of thumb, you should try to split your content into a few headings. The ZAP Contributions Team will help you out with this throughout the process.
+Within these topics is where you write the main body of your blog post. We recommend splitting the blog post into a few sections to help the reader remain engaged with the content. There is no strict prerequisite for how these should be split, but as a general rule of thumb, you should try to split your content into a few headings. The ZAP Contributions Team will help you out with this throughout the process.
 
 If your blog post provides procedural step-by-step information or tutorials, it would make sense to include the step number and provide a short step description within the main topic heading, for example **Step 1 - Creating the folder**. You should briefly describe what the reader is doing in the step to provide an overall goal in the first sentence. Between steps, you should aim to create a brief introduction and closing transition statements to let the reader know what they have done so far and what will be happening in the following steps. These transitions provide important context for the reader. Try to avoid repetition and use a range of terms to avoid reiterating steps.
 

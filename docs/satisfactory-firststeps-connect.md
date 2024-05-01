@@ -1,6 +1,6 @@
 ---
 id: satisfactory-firststeps-connect
-title: Connect to the Server
+title: "Satisfactory: Connect to the Server"
 description: Information about connecting to a Satisfactory Server from ZAP-Hosting - ZAP-Hosting.com documentation
 ---
 
@@ -14,9 +14,9 @@ Are you unsure about what you need to connect to your server in general or how t
 
 
 
-## Requirements
+## Prerequisites
 
-First of all, it is necessary to clarify which requirements have to be met so that a connection to the server is possible. This includes, for example, the game, additional content (extensions) and the general server information such as IP address, port and server name.
+First of all, it is necessary to clarify which prerequisites have to be met so that a connection to the server is possible. This includes, for example, the game, additional content (extensions) and the general server information such as IP address, port and server name.
 
 
 
@@ -28,7 +28,7 @@ For the connection to your game server, it is mandatory that you already own the
 
 ### Server Information
 
-Provided that all requirements of **Game / Content** are met, you will need the information of your server. Click on your game server service in your dashboard. The overview will now show you all general information about your server.
+Provided that all prerequisites of **Game / Content** are met, you will need the information of your server. Click on your game server service in your dashboard. The overview will now show you all general information about your server.
 
 ![img](https://user-images.githubusercontent.com/61839701/164882436-aa74d037-dda7-4db2-a327-bbdfc67deecc.png)
 
@@ -38,7 +38,7 @@ The relevant information includes the **IP address,** and **Port**. You should r
 
 ## Connect to the server
 
-Once all the requirements have been met, you can begin to connect to the server. To do this, start your game. Then navigate to the menu item Server Manager in the game and click on "Add Server" to add your server.
+Once all the prerequisites have been met, you can begin to connect to the server. To do this, start your game. Then navigate to the menu item Server Manager in the game and click on "Add Server" to add your server.
 
 ![img](https://user-images.githubusercontent.com/61839701/164882476-410b461f-9a1b-4e04-9350-91fbb9809fd8.png)
 

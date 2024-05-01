@@ -1,6 +1,6 @@
 ---
 id: fivem-gamechange
-title: Gamechange
+title: "FiveM: Gamechange"
 description: Change your FiveM Version
 sidebar_label: Gamechange
 

@@ -1,12 +1,12 @@
 ---
 id: account-vouchers
-title: Vouchers & Coupon Codes - Save money with vouchers
-description: Information on how to redeem vouchers for ZAP Coins or a price reduction for servers - ZAP-Hosting.com documentation
+title: "Vouchers & Coupon Codes: Save money with vouchers"
+description: Information on how to redeem vouchers for money or a price reduction for servers - ZAP-Hosting.com documentation
 sidebar_label: Coupons & Codes
 ---
 
 ## Introduction
-Found a voucher code which you wish to redeem for ZAP Coins or to use as a discount for one of your servers? Have a look through this guide to understand how to redeem the applicable discount code.
+Found a voucher code which you wish to redeem as money to your cashbox (ZAP Coins) or to use as a discount for one of your servers? Have a look through this guide to understand how to redeem the applicable discount code.
 
 To begin, you should login or register on our website in order to be able to use codes. This can be done very quickly and easily through the top login panel.
 
@@ -21,7 +21,7 @@ There are two different types of coupon codes:
 - Codes that reduce the price of an order (**discount codes**)
 
 ## Voucher Credit codes
-Voucher credit codes can be redeemed very easily through your webinterface panel. Simply head over to your **Cashbox** by pressing the ZAP Coins at the top of your web interface.
+Voucher credit codes can be redeemed very easily through your webinterface panel. Simply head over to your **Cashbox** by pressing the ZAP Coins text at the top of your web interface.
 
 ![image](https://github.com/zaphosting/docs/assets/42719082/e436f9d9-ad85-482a-90fa-03fe6cd6836e)
 
@@ -74,6 +74,6 @@ There are two different discount codes:
 :::
 
 ## Getting Freebies and Codes
-We love to give back to our ZAP Community, which is why there are many ways to get discounts and freebies including ZAP Coins, occasional free servers and more!
+We love to give back to our ZAP Community, which is why there are many ways to get discounts and freebies including money for your cashbox, occasional free servers and more!
 
 To learn more, we recommend reading our awesome [ZAP-Hosting Community Info](community-info.md) guide which covers the multitudes of ways to gain voucher codes and freebies across our range of social platforms (and even by writing guides for these very ZAP-Docs you are reading :) 💚

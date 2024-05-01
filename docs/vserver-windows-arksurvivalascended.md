@@ -1,6 +1,6 @@
 ---
 id: vserver-windows-arksurvivalascended
-title: ARK Survival Ascended Dedicated Server Setup
+title: "Server: ARK Survival Ascended Dedicated Server Setup"
 description: Information about setting up an ARK Survival Ascended Dedicated Server on a VPS/Root server/Dedicated Server - ZAP-Hosting.com documentation
 sidebar_label: ARK Survival Ascended
 ---
@@ -151,10 +151,10 @@ If before 18 November 2023 server owners installed the r2m02.cer certificate fil
 
 ## Starting & Connecting to your server
 
-Now it is time to start your server. However, in order for the server to start successfully, you will have to install [Microsoft Visual C++ 2013 Redistribute](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170) to your Windows VPS.
+Now it is time to start your server. However, in order for the server to start successfully, you will have to install [Microsoft Visual C++ 2015 Redistributable](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#visual-studio-2015-2017-2019-and-2022) to your Windows VPS.
 
 :::info
-You must install [Microsoft Visual C++ 2013 Redistribute](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170) onto your Windows VPS before attempting to start the server if you do not have it yet, as it is a dependency. Your server may not start if you do not have this installed.
+You must install [Microsoft Visual C++ 2015 Redistributable](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#visual-studio-2015-2017-2019-and-2022) onto your Windows VPS before attempting to start the server if you do not have it yet, as it is a dependency. Your server may not start if you do not have this installed.
 :::
 
 Once you have this installed on your VPS, you can proceed towards starting the server by executing the **start-ark.bat** file you created previously.

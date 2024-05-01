@@ -1,6 +1,6 @@
 ---
 id: scp-firststeps-connect
-title: Connect to the server
+title: "SCP Secret Laboratory: Connect to the server"
 description: Information on how to connect to an SCP Secret Laboratory Server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Connect to the server
 ---
@@ -15,9 +15,9 @@ Are you unsure about what you need to connect to your server in general or how t
 
 
 
-## Requirements
+## Prerequisites
 
-First of all, it is necessary to clarify which requirements have to be met so that a connection to the server is possible. This includes, for example, the game, additional content (extensions) and the general server information such as IP address, port and server name.
+First of all, it is necessary to clarify which prerequisites have to be met so that a connection to the server is possible. This includes, for example, the game, additional content (extensions) and the general server information such as IP address, port and server name.
 
 
 
@@ -29,7 +29,7 @@ For the connection to your game server, it is mandatory that you already own the
 
 ### Server information
 
-Provided that all requirements of **Game / Content** are met, you will need the information of your server. Click on your game server service in your dashboard. The overview will now show you all general information about your server.
+Provided that all prerequisites of **Game / Content** are met, you will need the information of your server. Click on your game server service in your dashboard. The overview will now show you all general information about your server.
 
 ![image](https://user-images.githubusercontent.com/26007280/218268355-4564819b-a128-418b-8ef1-2140a96db039.png)
 
@@ -41,7 +41,7 @@ The relevant information includes the **IP address** and **Port**. You should re
 
 ## Connect to the server
 
-Once all the requirements have been met, you can begin to connect to the server. To do this, start your game and navigate to the **Servers** tab. Click there on Direct Connect: 
+Once all the prerequisites have been met, you can begin to connect to the server. To do this, start your game and navigate to the **Servers** tab. Click there on Direct Connect: 
 
 ![image](https://user-images.githubusercontent.com/26007280/218268362-274ec7da-f412-4876-bae2-c0f105617165.png)
 

@@ -1,6 +1,6 @@
 ---
 id: dedicated-reset
-title: Server reset
+title: "Dedicated Server: Server reset"
 description: Information on how to reset your dedicated server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Server reset
 ---

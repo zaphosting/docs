@@ -1,6 +1,6 @@
 ---
 id: arma3-altislife-ranks
-title: Adding ranks to an Altis Life server
+title: "ArmA 3: Adding ranks to an Altis Life server"
 description: Information on how to add ranks to your Altis Life server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Altis Life Ranks
 ---

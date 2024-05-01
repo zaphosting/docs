@@ -1,6 +1,6 @@
 ---
 id: vserver-linux-rsync
-title: VPS Backing up Linux servers with Rsync
+title: "VPS: Backing up Linux servers with Rsync"
 description: Information on how to make backups of your Linux VPS from ZAP-Hosting with Rsync - ZAP-Hosting.com documentation
 sidebar_label: Rsync Linux
 ---

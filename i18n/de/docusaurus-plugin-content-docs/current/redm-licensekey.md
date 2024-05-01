@@ -1,6 +1,6 @@
 ---
 id: redm-licensekey
-title: Fügen deinen eigenen Lizenzschlüssel (Patreon) zum Server hinzu
+title: "RedM: Fügen deinen eigenen Lizenzschlüssel (Patreon) zum Server hinzu"
 description: Informationen, wie du deinen eigenen Lizenzschlüssel (von Patreon) erstellen und zu deinem FiveM Server von ZAP-Hosting hinzufügen kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Eigener Lizenzschlüssel
 ---

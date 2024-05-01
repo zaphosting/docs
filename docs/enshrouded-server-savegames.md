@@ -1,6 +1,6 @@
 ---
 id: enshrouded-server-savegames
-title: Managing Enshrouded Savegames
+title: "Enshrouded: Managing Enshrouded Savegames"
 description: Information on how to manage savegames on your Enshrouded server from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Manage Savegames
 ---

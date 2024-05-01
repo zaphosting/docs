@@ -1,6 +1,6 @@
 ---
 id: vserver-windows-arksurvivalascended
-title: ARK Survival Ascended Dedicated Server Einrichtung
+title: "Server: ARK Survival Ascended Dedicated Server Einrichtung"
 description: Informationen zur Einrichtung eines ARK Survival Ascended Dedizierten Servers auf einem vServer/Rootserver - ZAP-Hosting.com Dokumentation
 sidebar_label: ARK Survival Ascended Dedicated Server Einrichtung
 ---
@@ -146,10 +146,10 @@ Wenn Serverbesitzer vor dem 18. November 2023 die Zertifikatsdatei r2m02.cer ins
 
 ## Starten und Verbinden mit deinem Server
 
-Jetzt ist es an der Zeit, deinen Server zu starten. Damit der Server erfolgreich starten kann, musst du [Microsoft Visual C++ 2013 Redistribute](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170) auf deinem Windows VPS installieren.
+Jetzt ist es an der Zeit, deinen Server zu starten. Damit der Server erfolgreich starten kann, musst du [Microsoft Visual C++ 2015 Redistributable](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#visual-studio-2015-2017-2019-and-2022) auf deinem Windows VPS installieren.
 
 :::info
-Du musst [Microsoft Visual C++ 2013 Redistribute](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170) auf deinem Windows VPS installieren, bevor du versuchst, den Server zu starten, wenn du es noch nicht hast, da es eine Abhängigkeit ist. Dein Server startet möglicherweise nicht, wenn du es nicht installiert hast.
+Du musst [Microsoft Visual C++ 2015 Redistributable](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#visual-studio-2015-2017-2019-and-2022) auf deinem Windows VPS installieren, bevor du versuchst, den Server zu starten, wenn du es noch nicht hast, da es eine Abhängigkeit ist. Dein Server startet möglicherweise nicht, wenn du es nicht installiert hast.
 :::
 
 Sobald du sie auf deinem VPS installiert hast, kannst du den Server starten, indem du die Datei **start-ark.bat** ausführst, die du zuvor erstellt hast.

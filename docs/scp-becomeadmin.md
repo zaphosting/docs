@@ -1,6 +1,6 @@
 ---
 id: scp-becomeadmin
-title: Become an admin on your own server
+title: "SCP Secret Laboratory: Become an admin on your own server"
 description: Information on how to become an admin on your SCP server from ZAP-Hosting.com - ZAP-Hosting.com documentation
 sidebar_label: Become admin
 ---
@@ -11,7 +11,7 @@ NOTICE: Since recent SCP Updates, the password login is no longer functional. Pl
 
 ## Configuration for the Remote Admin Config
 
-### Requirements
+### Prerequisites
 
 Firstly, you would need to locate your Steam64ID.
 You can use the following tool: [SteamID Lookup](https://steamid.io/lookup).

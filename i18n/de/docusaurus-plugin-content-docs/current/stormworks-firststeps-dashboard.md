@@ -1,6 +1,6 @@
 ---
 id: stormworks-firststeps-dashboard
-title: Stormworks Dashboard Übersicht
+title: "Stormworks: Dashboard Übersicht"
 description: Informationen zum Dashboard eines Stormworks  Server von ZAP-Hosting - ZAP-Hosting.com Dokumentationen
 sidebar_label: Dashboard
 ---

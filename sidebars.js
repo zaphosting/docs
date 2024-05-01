@@ -691,7 +691,8 @@ const sidebars = {
           items: [
             "dayz-firststeps-dashboard"
           ]
-        }
+        },
+        "dayz-mods",
       ],
     },
     {
@@ -956,7 +957,8 @@ const sidebars = {
           ]
         },
         "moe-configuration",
-        "moe-server-savegames"
+        "moe-server-savegames",
+        "moe-mods",
       ],
     },
     {
@@ -1183,6 +1185,19 @@ const sidebars = {
     },
     {
       type: "category",
+      label: "Terratech Worlds",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "terratech-worlds-firststeps-dashboard"
+          ]
+        },
+      ],
+    },
+    {
+      type: "category",
       label: "Truck Sim",
       items: [
         "trucksim-dlc"
@@ -1294,6 +1309,7 @@ const sidebars = {
     'vserver-root-unterschied',
     'vserver-vnc',
     'vserver-network-analysis-winmtr',
+    'vserver-ssh-default',
     {
       type: 'html',
       className: 'sidebar-title',
@@ -1438,6 +1454,7 @@ const sidebars = {
       defaultStyle: true,
     },
     'vserver-linux-gs-interface',
+    'dedicated-pterodactyl',
     {
       type: "category",
       label: "Services",

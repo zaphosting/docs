@@ -1,6 +1,6 @@
 ---
 id: domain-introduction
-title: Introduction
+title: "Domain: Introduction"
 description: General information about domains. What are domains, subdomains or IP addresses? - ZAP-Hosting.com Documentation
 sidebar_label: Introduction
 ---

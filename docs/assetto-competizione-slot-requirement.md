@@ -1,19 +1,19 @@
 ---
 id: assetto-competizione-slot-requirement
-title: Car Slot Requirement
-description: Information on how to increase your Car Slots and set the Requirement correctly - ZAP-Hosting.com documentation
-sidebar_label: Car Slot Requirement
+title: "Assetto Corsa Competizione: Car Slot Prerequisite"
+description: Information on how to increase your Car Slots and set the Prerequisite correctly - ZAP-Hosting.com documentation
+sidebar_label: Car Slot Prerequisite
 ---
 
 ## General information
 
 In Assetto Corsa, 10 slots can be used correctly without any further modification. 
-However, to use more than 10 slots, certain requirements must be met.
-These requirements are set under "**Configs**" and in there the "**settings.json**" has to be edited.
+However, to use more than 10 slots, certain prerequisites must be met.
+These prerequisites are set under "**Configs**" and in there the "**settings.json**" has to be edited.
 
 ![image](https://user-images.githubusercontent.com/26007280/189936976-7f2838bd-f1cd-490f-90ad-fd095b6f2529.png)
 
-## Requirements and Slot Limits
+## Prerequisites and Slot Limits
 
 To use more than 10 slots, the values **"trackMedalsRequirement": X,** and **"safetyRatingRequirement": X,** have to be adjusted.
 How high these must be set can be calculated by the following formula. 
@@ -26,11 +26,11 @@ Slots = safetyRating / 4 + trackMedals + 10
 ### List of possible combinations
 
 In the following, a list of possible combinations is displayed which can be used to be able to use the desired number of slots.
-There is also more than one possible solution to achieve the necessary slot requirement.
+There is also more than one possible solution to achieve the necessary slot prerequisite.
 For this reason, the different possibilities are also shown in the list.
 
 :::info
-Note that for safetyRatingRequirement and trackMedalRequirement the **minimum** requirements have been entered. It is of course also possible to host fewer slots with larger values for safetyRatingRequirement and trackMedalRequirement.
+Note that for safetyRatingRequirement and trackMedalRequirement the **minimum** prerequisites have been entered. It is of course also possible to host fewer slots with larger values for safetyRatingRequirement and trackMedalRequirement.
 :::
 
 Slots | safetyRatingRequirement | trackMedalRequirement

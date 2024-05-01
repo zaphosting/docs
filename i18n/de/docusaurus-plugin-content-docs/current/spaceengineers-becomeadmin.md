@@ -1,6 +1,6 @@
 ---
 id: spaceengineers-becomeadmin
-title: Server-Admin werden
+title: "Space Engineers: Server-Admin werden"
 description: Informationen, wie du dich um Admin auf deinem Space Engineers-Server von ZAP-Hosting machen kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Admin werden
 ---

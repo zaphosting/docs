@@ -1,6 +1,6 @@
 ---
 id: webspace-plesk-ssl
-title: Create SSL certificate
+title: "Webspace: Create SSL certificate"
 description: Information on how to create an SSL certificate for your webspace from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Create SSL Certificate
 ---

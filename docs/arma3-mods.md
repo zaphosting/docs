@@ -1,55 +1,32 @@
 ---
 id: arma3-mods
-title: Installation of mods
-description: Information on how to install mods on your Arma 3 server from ZAP-Hosting - ZAP-Hosting.com documentation
-sidebar_label: Install mods
+title: "ArmA 3: Installation of Mods"
+description: Information on installing mods on your Arma 3 game server from ZAP-Hosting - ZAP-Hosting.com Documentation
+sidebar_label: Install Mods
 ---
 
-## Connect to FTP
+## Introduction
 
-Before resources can be installed, the [FTP access](gameserver-ftpaccess.md) must be set up.
+Mods allow you to customize your server even more. The following explains where you can find the most popular server mods and how to set them up.
 
-After this has been set up, you can now connect and open the server folder:
-
-![image](https://user-images.githubusercontent.com/26007280/189707261-319e5c54-231a-414f-a07e-529b2ec59978.png)
 
 
 ## Preparation
 
-To install mods on the server, we first have to subscribe to them in the Steam workshop:
-
-![image](https://user-images.githubusercontent.com/26007280/189707324-f3eb60dc-5ca4-41b6-94a3-5ddaf01c91b9.png)
-
-Now we start the ArmA 3 Launcher, so that the mods are created in the game folder, after the mods are processed in the launcher we can close the launcher again.
-
-Now we open our ArmA 3 folder, here is a "!Workshop" folder, there are our mods:
-
-![image](https://user-images.githubusercontent.com/26007280/189707349-e2026e6f-2d02-4015-b4e5-47952d43a319.png)
-
-## Upload Mods
+Through the [Steam Workshop](https://steamcommunity.com/app/107410/workshop/), you have the option to install mods on your server. The Steam Workshop is ideal for discovering and managing new and exciting mods. Start by browsing the Steam Workshop for mods that catch your interest. If you find a mod you like, it's important to note the associated Workshop ID. You can obtain the ID from the URL. This Workshop ID is necessary for the upcoming installation.
 
 
-To install mods with WinSCP, they can be uploaded to the arma3 folder via drag&drop
 
-![image](https://user-images.githubusercontent.com/26007280/189707380-f586cacd-f974-424d-aac0-63947ec72f26.png)
+## Installation
 
-After this has been uploaded, we then need to open the mod folder and move all data under `keys` to the folder with the same name on your server.
+The next step is to start installing the mods. Thanks to the Steam Workshop option, installation is straightforward. Access the management of your game server and navigate to Steam Workshop. There, you have the option to enter the mods into the provided field. Enter the Workshop IDs you have previously noted and add them there. If you are adding multiple mods, ensure that the mods are separated by a comma symbol.
 
-## Activate Mods
+![img](https://screensaver01.zap-hosting.com/index.php/s/j8ki4CQ6MALAgcX/preview)
 
-Now we open the settings of our game server, under the "Mods" setting we enter our mods as follows
+Following this, the mods need to be registered in the settings of your game server management. Enter the added mods into the Mods field and click Save.
 
-```
-@mod1;@mod2;@mod3
-```
+![img](https://screensaver01.zap-hosting.com/index.php/s/mBKesk6yFBFt35z/preview)
 
-In our case the whole thing looks like this:
+## Conclusion
 
-![image](https://user-images.githubusercontent.com/26007280/189707411-6405df05-c5fd-44ea-afc2-08e8df41562b.png)
-
-Make sure that for multiple mods a ; is set between the entries:
-
-![image](https://user-images.githubusercontent.com/26007280/189707437-fc9f2389-c7f8-4289-93e8-4159dd31d9d2.png)
-
-
-Done! After a server restart the mods are active.
+With the next server restart, the mods will be automatically downloaded, installed, and immediately available for use!

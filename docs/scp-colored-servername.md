@@ -1,6 +1,6 @@
 ---
 id: scp-colored-servername
-title: Colored Servername
+title: "SCP Secret Laboratory: Colored Servername"
 description: Information on how to color the server name on your SCP server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Colored Servername
 ---

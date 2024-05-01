@@ -1,6 +1,6 @@
 ---
 id: fivem-devtools
-title: Activate Devtools
+title: "FiveM: Activate Devtools"
 description: Informations on how to activate the FiveM Developer Tools - ZAP-Hosting.com documentation
 sidebar_label: Activate Devtools
 ---

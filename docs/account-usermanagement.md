@@ -1,6 +1,6 @@
 ---
 id: account-usermanagement
-title: User administration - Servers at ZAP-Hosting can be administered by several users
+title: "User administration: Servers at ZAP-Hosting can be administered by several users"
 description: Information on user administration - Give other users selected access to the administration of your server - ZAP-Hosting.com documentation
 sidebar_label: User Management
 ---

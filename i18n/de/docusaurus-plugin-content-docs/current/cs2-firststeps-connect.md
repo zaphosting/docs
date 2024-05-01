@@ -1,6 +1,6 @@
 ---
 id: cs2-firststeps-connect
-title: Zum Server verbinden
+title: "CS2: Zum Server verbinden"
 description: Informationenen zum Verbindungsaufbau eines CS2 Server von ZAP-Hosting - ZAP-Hosting.com Dokumentationen
 sidebar_label: Zum Server verbinden
 ---

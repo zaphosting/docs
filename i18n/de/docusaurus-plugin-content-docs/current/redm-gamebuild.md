@@ -1,6 +1,6 @@
 ---
 id: redm-gamebuild
-title: Enable DLC Content
+title: "RedM: Enable DLC Content"
 description: Information on how to enable a DLC gamebuild for RedM servers - ZAP-Hosting.com
 sidebar_label: Enable DLC Gamebuild
 ---

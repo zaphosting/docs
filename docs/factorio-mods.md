@@ -1,6 +1,6 @@
 ---
 id: factorio-mods
-title: Installing Mods
+title: "Factorio: Installing Mods"
 description: Information on how to install mods on your Factorio server at ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Install Mods 
 

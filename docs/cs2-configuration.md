@@ -1,6 +1,6 @@
 ---
 id: cs2-configuration
-title: Server configuration
+title: "CS2: Server configuration"
 description: Information on the settings and configuration options of your CS2 server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Server Configration
 ---

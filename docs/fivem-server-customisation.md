@@ -1,6 +1,6 @@
 ---
 id: fivem-server-customisation
-title: Customise server details
+title: "FiveM: Customise server details"
 description: Information on how to customise server details displayed in the server list for FiveM servers - ZAP-Hosting.com 
 sidebar_label: Customise Server Details
 ---

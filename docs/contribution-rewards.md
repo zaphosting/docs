@@ -5,7 +5,9 @@ description: Information on rewards for the ZAP-Hosting docs contribution progra
 sidebar_label: Rewards
 ---
 
-Across our Contribution Program, we provide rewards in the form of ZAP Coins which can be used on our website. Rewards are provided as a final step once your contribution is ready to be published and approved by our ZAP-Hosting Contributions Team.
+![Contribution Rewards](https://screensaver01.zap-hosting.com/index.php/s/mJtScnJbocGEiHJ/preview)
+
+Across our Contribution Program, we are pleased to be able to provide **money rewards** as an awesome benefit for successfully contributing! We offer reward payouts through PayPal and as credit for your ZAP-Hosting account. Rewards are provided as the final step once your contribution is approved by our ZAP-Hosting Contributions Team and is ready to be published.
 
 :::info
 Another great benefit is an exclusive **@Community Contributor** role which you will receive on our [ZAP-Hosting Discord Server](https://discord.com/invite/zaphosting) for your first contribution, to show off your efforts in supporting the community and to gain access to some exclusive content. You must provide your Discord ID during the submission process if you wish to receive this.
@@ -17,16 +19,38 @@ There are a range of criteria that we use to calculate the final reward, and thi
 All final decisions including for rewards are at the discretion of the ZAP-Hosting Contributions Team.
 :::
 
-## ZAP Guides
+## Contribution Type
+
+:::tip
+During evaluation, we calculate a base payout which is applicable for the PayPal option. If the writer decides to choose ZAP-Hosting Credit as their payout option, we will add 30% to their total payout as a bonus.
+
+Example: We evaluate a base payout of €40 for your contribution. You will receive €40 if you choose the PayPal option or €46 (40 * 1.3) for the ZAP-Hosting Credit option.
+:::
+
+### ZAP Guides
 
 For ZAP Guides contributions, we first consider if the changes are a new guide or updates to an existing guide. Typically, this can be assumed based on your guide suggestion. If an existing guide was modified very significantly, we may consider this as a new guide however, this is at the discretion of the ZAP-Hosting Contributions Team.
 
-- **New guides** qualify for a maximum of **€65 ZAP Coins**. 
-- **Updates to existing guides** qualify for a maximum of **€25 ZAP Coins**.
+#### New Guides
+| Payout Type        | Maximum Payout |
+| ------------------ | -------------- |
+| ZAP-Hosting Credit | €65            |
+| PayPal             | €50            |
 
-## ZAP Blogs
+#### Updates to existing guides
+| Payout Type        | Maximum Payout |
+| ------------------ | -------------- |
+| ZAP-Hosting Credit | €26            |
+| PayPal             | €20            |
 
-For ZAP Blogs contributions, writers qualify for a maximum of **€100 ZAP Coins** as their reward.
+### ZAP Blogs
+
+For ZAP Blogs contributions, writers qualify for the amounts listed in the table below.
+
+| Payout Type        | Maximum Payout  |
+| ------------------ | --------------- |
+| ZAP-Hosting Credit | €130            |
+| PayPal             | €100            |
 
 ## Evaluation Criteria
 
@@ -43,4 +67,20 @@ Based on these criteria, we approximate an acceptable reward for the work the wr
 
 Once you have submitted and finalized your contribution with our ZAP-Hosting Contributions Team, we will evaluate and inform you about your reward. This will be through the GitHub Pull Request for guide contributions and through the ticket on your ZAP-Hosting.com account for blog contributions.
 
-We will directly credit the approved ZAP Coins to your specified account. Once this occurs, you agree to transfer all exclusive intellectual property rights of your creation to ZAP-Hosting GmbH & Co KG. This transfer is confirmed once you have received your payment.
+### ZAP-Hosting Credit (ZAP Coins)
+In the case of choosing ZAP-Hosting Credit as the payout, we will directly credit the approved amount to your specified ZAP-Hosting.com account.
+
+### PayPal
+When choosing PayPal payout, you will have to complete some additional steps which we will contact you about once ready.
+
+:::important
+Ensure that you include both your ZAP ID and the ticket ID for the PayPal confirmation ticket which will be sent to your account. Without this, your payout will be delayed!
+:::
+
+You will have to use [PayPal Invoice Creator](https://www.paypal.com/invoice/create?fromWidget=newuser) and fill it out as appropriate:
+
+- Fill in our company information as the recipient: `ZAP-Hosting GmbH & Co. KG, Hafenweg 8, 48155 Münster, Deutschland`
+- Description must include both your ZAP ID and the ticket ID for your payout confirmation ticket, as following: `Contribution Program Payout: Ticket #[yourticket_id], [your_zapid]`
+- Invoice must be sent to: `m.kluck@zap-hosting.com`
+
+Once the payout occurs, you agree to transfer all exclusive intellectual property rights of your creation to ZAP-Hosting GmbH & Co KG. This transfer is confirmed once you have received your payment and is listed in our Terms of Service (TOS) which you accepted during the suggestion phase of your contribution.

@@ -1,6 +1,6 @@
 ---
 id: vserver-windows-change-language
-title: VPS Add/change language on Windows Server
+title: "VPS: Add/change language on Windows Server"
 description: Information on how to change the language of your Windows VPS from ZAP-Hosting and how to add languages - ZAP-Hosting.com documentation
 sidebar_label: Add/change language
 ---

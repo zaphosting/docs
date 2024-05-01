@@ -1,6 +1,6 @@
 ---
 id: moe-firststeps-connect
-title: Myth of Empires Connect to the server
+title: "Myth of Empires: Connect to the server"
 description: Information on how to connect to a Myth of Empires server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Connect to the server
 ---
@@ -15,9 +15,9 @@ Are you unsure about what you need to connect to your server in general or how t
 
 
 
-## Requirements
+## Prerequisites
 
-First of all, it is necessary to clarify which requirements have to be met so that a connection to the server is possible. This includes, for example, the game, additional content (extensions) such as mods/plugins and the general server information such as IP address, port and server name.
+First of all, it is necessary to clarify which prerequisites have to be met so that a connection to the server is possible. This includes, for example, the game, additional content (extensions) such as mods/plugins and the general server information such as IP address, port and server name.
 
 
 
@@ -29,7 +29,7 @@ For the connection to your game server, it is mandatory that you already own the
 
 ### Server information
 
-Provided that all requirements of **Game / Content** are met, you will need the information of your server. Click on your game server service in your dashboard. The overview will now show you all general information about your server.
+Provided that all prerequisites of **Game / Content** are met, you will need the information of your server. Click on your game server service in your dashboard. The overview will now show you all general information about your server.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/xXH4P7GewpXCHpp/preview)
 
@@ -39,7 +39,7 @@ The relevant information includes the **IP address,** **Port** and **Password (O
 
 ## Connect to the server
 
-Once all the requirements have been met, you can begin to connect to the server. To do this, start your game. Click on **Custom Server** in the main menu. The server list should now open. There you have the possibility to search for your server. Enter the name of your server in the search field.
+Once all the prerequisites have been met, you can begin to connect to the server. To do this, start your game. Click on **Custom Server** in the main menu. The server list should now open. There you have the possibility to search for your server. Enter the name of your server in the search field.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/7BGwrXzHCXzjxy5/preview)
 

@@ -1,6 +1,6 @@
 ---
 id: terraria-tshock-add-admin
-title: Server-Admin werden (tShock)
+title: "Terraria: Server-Admin werden (tShock)"
 description: Informationen, wie du dich zum Admin auf deinem Terraria-Server mit tShock von ZAP-Hosting machen kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Admin werden (tShock)
 ---

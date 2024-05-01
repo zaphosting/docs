@@ -1,6 +1,6 @@
 ---
 id: satisfactory-firststeps-connect
-title: Zum Server verbinden
+title: "Satisfactory: Zum Server verbinden"
 description: Informationenen zum Verbindungsaufbau eines Satisfactory Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 ---
 

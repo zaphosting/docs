@@ -1,6 +1,6 @@
 ---
 id: vserver-linux-mastodon
-title: Installation of Mastodon
+title: "Server: Installation of Mastodon"
 description: Information on how to set up Mastodon server on your server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Install Mastodon
 ---
@@ -19,8 +19,8 @@ each with its own code of conduct, terms of service, privacy policy, privacy opt
 This guide focuses the installation on a Debian based Distro. Examples are Debian and Ubuntu. This guide differs depending on what OS you are using.
 :::
 
-## System requirements
-If you want to setup a Mastodon Instance on your Server, you have to meet some requirements
+## System prerequisites
+If you want to setup a Mastodon Instance on your Server, you have to meet some prerequisites
 - Domain
 - Linux based Server
 - Email Server

@@ -1,6 +1,6 @@
 ---
 id: ark-serverlisting
-title: Serverlisting Probleme bei Steam Spielen, die Steamworks nutzen
+title: "ARK: Serverlisting Probleme bei Steam Spielen, die Steamworks nutzen"
 description: Informationen zu Problemen mit dem Serverlisting deines Server, die bei Steam-Spielen auftreten können - ZAP-Hosting.com Dokumentation
 sidebar_label: Serverlisting Probleme
 ---
