@@ -5,11 +5,15 @@ description: Information about RAID configuration options for your Dedicated Ser
 sidebar_label: Configure RAID
 ---
 
-:::info
-We're offering up to 2 SSDs in our dedicated server products, so you can use RAID0 or RAID1 as you prefer
-:::
 
-## Which types of RAID are there?
+
+## Introduction
+
+RAID (Redundant Array of Independent Disks) is a technology that combines multiple hard disks into a single logical drive to achieve data redundancy and/or increased performance. There are different RAID levels that offer different combinations of data distribution and fault tolerance
+
+
+
+## Available RAID types
 Basically, there are different RAID types. Since our dedicated servers are only offering 2 SSD bays, there is only a configuration of RAID0 or RAID1 possible.
 Other RAID types would require having more SSDs drives.
 
