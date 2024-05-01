@@ -62,4 +62,4 @@ Wir empfehlen dir, dazu eingeloggt zu sein. Alternativ kannst du auch den E-Mail
 
 Nachdem Sie Ihren Vorschlag erfolgreich eingereicht haben, prüfen wir regelmäßig, ob neue Vorschläge eingegangen sind und entscheiden, ob wir sie genehmigen, wenn sie akzeptabel sind, oder ob wir sie gelegentlich sogar direkt umsetzen.
 
-Wie bereits in der Einleitung erwähnt, können andere Mitglieder der ZAP-Community Ihren Vorschlag liken, um die Wichtigkeit des Vorschlags zu zeigen. Je mehr "Likes" ein Vorschlag erhält, desto wahrscheinlicher ist es, dass der Vorschlag in Zukunft berücksichtigt und bearbeitet wird.
+Wie bereits in der Einführung erwähnt, können andere Mitglieder der ZAP-Community Ihren Vorschlag liken, um die Wichtigkeit des Vorschlags zu zeigen. Je mehr "Likes" ein Vorschlag erhält, desto wahrscheinlicher ist es, dass der Vorschlag in Zukunft berücksichtigt und bearbeitet wird.

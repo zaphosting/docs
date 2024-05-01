@@ -41,7 +41,7 @@ Du musst sicherstellen, dass die Mod, die du verwenden möchtest, mit der aktuel
 
 ## Schritt 1: Vorbereiten der PAK-Datei
 
-Auf Modding-Websites, wie den in der Einleitung vorgeschlagenen, kannst du eine große Auswahl an verschiedenen Mods durchsuchen und herunterladen.
+Auf Modding-Websites, wie den in der Einführung vorgeschlagenen, kannst du eine große Auswahl an verschiedenen Mods durchsuchen und herunterladen.
 
 :::info
 Zur Erinnerung: Aus Sicherheitsgründen unterstützen wir derzeit nur PAK-Mods (.PAK-Dateien).
