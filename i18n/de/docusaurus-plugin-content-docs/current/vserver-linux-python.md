@@ -1,7 +1,7 @@
 ---
-id: server-linux-python
+id: vserver-linux-python
 title: "Server: Installation von Python"
-description: Informationen zur Installation und Ausführung von Python auf Ihrem Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
+description: Informationen zur Installation und Ausführung von Python auf Ihrem Linux Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Python installieren
 ---
 
