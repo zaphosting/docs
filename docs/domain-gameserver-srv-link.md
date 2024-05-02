@@ -1,7 +1,7 @@
 ---
 id: domain-gameserver-srv-link
-title: "Domain: Set up game server forwarding"
-description: Information on how to set up a forwarding from your domain to a game server - ZAP-Hosting.com documentation
+title: "Domain: Set up gameserver forwarding"
+description: Information on how to set up a forwarding from your domain to a gameserver - ZAP-Hosting.com documentation
 sidebar_label: Gameserver forwarding
 ---
 
@@ -10,12 +10,12 @@ Please note that it can always take up to 24 hours until changes to DNS entries 
 :::
 
 ## Introduction
-You can either forward your domain completely or only a subdomain to your gameserver.
-So no one has to remember the complicated IP address which consists of numbers but can simply connect to your game server using the domain.
+You can either forward your domain completely or only a subdomain to your gameserver. 
+This is useful because it allows people to connect to your gameserver via a domain, instead of having to remember complicated IP addresses composed of numbers only.
 
 ## Functionality
 
-For forwarding the IP address, either a subdomain is created which forwards to the IP address of the game server, or you forward the entire domain without a subdomain.
+For forwarding the IP address, either a subdomain is created which forwards to the IP address of the gameserver, or you forward the entire domain without a subdomain.
 This would be sufficient if the gameserver uses the default port of the game.
 If the gameserver uses another port than the default port of the game, you need an additional **SRV entry** to forward the subdomain to the gameserver.
 

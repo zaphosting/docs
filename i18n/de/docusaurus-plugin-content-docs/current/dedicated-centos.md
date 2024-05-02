@@ -2,6 +2,7 @@
 id: dedicated-centos
 title: "Dedicated Server: CentOS installieren"
 description: Informationen zu der Installation des CentOS Betriebssystem auf deinem Dedicated Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
+sidebar_label: CentOS installieren
 ---
 
 
