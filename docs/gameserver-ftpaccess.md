@@ -1,96 +1,87 @@
 ---
 id: gameserver-ftpaccess
-title: Uploading and downloading files with FTP
-description: Information on how to use FTP to upload and download files to your game server from ZAP-Hosting - ZAP-Hosting.com documentation
-sidebar_label: FTP File Access
+title: 'Game server: Access via FTP to manage server files'
+description: Information on how to connect via FTP and manage your game server files from ZAP-Hosting - ZAP-Hosting.com Documentation
+sidebar_label: Access via FTP
 ---
 
-## Connect to FTP
+## Introduction
 
-To connect to the server, enter the **IP address (FTP server)**, the **username** and the **password**. This data can be viewed under FTP Browser. The port is always **21**, but this is usually entered automatically.
+The FTP (File Transfer Protocol) is a network protocol designed to transfer files over a TCP/IP network. The protocol was developed to enable easy file exchange between systems. With the FTP protocol, you have the ability to access and manage your server files, whether you want to upload and download files or actively edit them.
 
-![image](https://user-images.githubusercontent.com/13604413/159184693-261d0660-4cfb-472e-b3bb-945ab6a33346.png)
+## Preparation
 
-## Connect via FileZilla
-### Correct FileZilla Version
-:::info
-You need the "**FileZilla Client**" version, not the FileZilla Server version 
+To manage your files using the FTP protocol, you need a suitable FTP client. There is a fairly large selection of available FTP clients. However, two of the most well-known and established FTP clients are **FileZilla** and **WinSCP**.
 
+| FTP Client | Download                                                     |
+| ---------- | ------------------------------------------------------------ |
+| FileZilla  | [Official Website](https://filezilla-project.org/download.php?platform=win64) |
+| WinSCP     | [Official Website](https://winscp.net/eng/downloads.php)    |
 
-Stop your server before editing or uploading files via FTP.
+Choose an FTP client and install it on your computer. To connect to the server, you need to enter the **IP address (FTP Server)**, **username**, and **password**. This information can be found on the FTP browser page. The port is always **21**, which is usually entered automatically.
 
-After stopping the server update your FTP rights here.
+![img](https://screensaver01.zap-hosting.com/index.php/s/PXkQmqFN39dS3L5/preview)
 
-When the server is started, you may get "Permission denied" errors.
-:::
+## FileZilla
 
-When the connection is established for the first time, the program will ask if the password should be saved:
+### Connecting
 
-You will also be asked whether this connection should be allowed, since the **password** is transmitted in plain text:
+You can establish a connection either through the Quickconnect feature or by going to **File -> Site Manager**. Enter the **FTP credentials** for your server there and then click **Connect**.
 
-### FileZilla Overview
-
-Once the connection is established, you can view and edit all data. In the upper right corner you have the directories. There you can quickly switch between the folders. At the bottom right are the data, which you can **download, view** and **edit** with a right click:
+![img](https://screensaver01.zap-hosting.com/index.php/s/wxSSFoW3GTXJdLK/preview)
 
 :::info
-It is important that the server must be offline when you edit the data, otherwise it will not be taken over or the server will crash.
+Make sure to stop the server and update the FTP permissions before accessing the server files. Otherwise, error messages like "Permission Denied" or "Access Denied" may occur.
 :::
 
+### Managing Files
 
-### Upload files
+As mentioned before, you can use the FTP client to upload, download, and edit files on your server. The FTP client is divided into two parts. The left half represents your client (computer) and the right half represents your server. You can navigate both directories on both local and server levels.
 
-Files can be dragged and dropped from the left side (the computer) to the right side (the server) using "**Drag and Drop**". 
+Management is done by right-clicking on the respective file or folder. Depending on what you want to do, you can upload, download, edit, rename, or move files or folders.
+
+![img](https://screensaver01.zap-hosting.com/index.php/s/qizoBD5JnHBRkJc/preview)
 
 :::info
-If you have more than one server, you have to find out the ID of the server first, so that you can move the data into the correct folder.
+If you have multiple game servers, you must first navigate to the correct game server directory.
 :::
 
-### "Transfer connection interrupted" Error Message
 
-If the error message "Transfer connection interrupted: ECCONABORTED - Connection aborted" appears during the connection or transfer, the transfer mode can be changed from "**Passive**" to "**Active**".
-The following steps show how this can be changed in the Filezilla settings.
 
-![image](https://user-images.githubusercontent.com/13604413/159184695-c03a49df-113a-4435-b253-5418843f150c.png)
+### Possible problems and solutions
 
-Press "**Edit**" in your Filezilla client, then open the "**Settings...**" directly:
+#### "530 Login incorrect" Error
+If this error occurs during the connection setup, it means that incorrect credentials have been provided. Check all the fields for completeness and correctness.
 
-![image](https://user-images.githubusercontent.com/13604413/159184700-af55e7e0-484f-4992-8b56-d0cdedc3ddf0.png)
+#### "Transfer connection interrupted" Error
+If this error occurs during connection or transfer, you can try switching the transfer mode from *Passive* to *Active*. The following steps show how to change this setting in FileZilla.
 
-After that the "**Settings**" window opens. There you can click on "**FTP**" to see the settings for the FTP connection.
-At "**FTP**" the default transfer mode will be set to "**Passive**", there you can select the radio button "**Active**" and confirm the change with "**OK**".
 
-![image](https://user-images.githubusercontent.com/13604413/159184704-95564d7c-f103-45a5-894e-fa24c8af54f7.png)
 
-As soon as this is done, the FTP connection can be tested again.
 
-## Connect via WinSCP
+## WinSCP
 
-WinSCP [Download](https://winscp.net/eng/index.php).
+### Connecting
+You can establish a connection through the Quickconnect or at the top via **New Session**. Enter the FTP credentials for your server there and then click **Connect**.
+
+![img](https://screensaver01.zap-hosting.com/index.php/s/KNnkJsnETTFqZpD/preview)
+
 
 :::info
-Stop your server before editing or uploading files via FTP.
-
-After stopping the server, update your FTP rights here.
-
-If the server is started, there may be "Permission denied" errors.
+Make sure to stop the server and update the FTP permissions before accessing the server files. Otherwise, error messages like "Permission Denied" or "Access Denied" may occur.
 :::
 
-To connect, the transfer protocol must be set to FTP.
 
-### WinSCP Overview
+### Managing Files
 
-On the **left side** are the **own files** of the computer. On the **right side** are the **files from the server**, which can be **edited, deleted** or **downloaded** by right-clicking. On the **top** you can see the **current session**, there several sessions can be established at the same time.
+As mentioned before, you can use the FTP client to upload, download, and edit files on your server. The FTP client is divided into two parts. The left half represents your client (computer) and the right half represents your server. You can navigate both directories on both local and server levels.
 
-![image](https://user-images.githubusercontent.com/13604413/159184711-6ca6c2d0-03f8-4c35-8e8e-dbf46f40afe5.png)
+Management is done by right-clicking on the respective file or folder. Depending on what you want to do, you can upload, download, edit, rename, or move files or folders.
 
-:::info
-It is important that the server must be offline when editing the data, otherwise the data will not be taken over or the server will crash.
-:::
+![img](https://screensaver01.zap-hosting.com/index.php/s/dAYiFwWQAipgTqW/preview)
 
-### Upload files
 
-Files can be dragged and dropped from the left side (the computer) to the right side (the server) using "**Drag and Drop**". 
+### Possible problems and solutions
 
-:::info
-If you have more than one server, you have to find out the ID of the server first, so that you can move the data into the correct folder.
-:::
+#### "530 Login incorrect" Error
+If this error occurs during the connection setup, it means that incorrect credentials have been provided. Check all the fields for completeness and correctness.
