@@ -1,6 +1,6 @@
 ---
 id: gameserver-upgrade
-title: Gameserver Up-/Downgrade
+title: 'Game server: Up-/Downgrade'
 description: Information on how to Upgrade/Downgrade your gameserver from ZAP-Hosting.com - ZAP-Hosting.com documentation
 sidebar_label: Up-/Downgrade
 ---

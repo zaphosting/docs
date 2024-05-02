@@ -1,6 +1,6 @@
 ---
 id: gameserver-backups
-title: Backups erstellen, herunterladen und einspielen
+title: 'Gameserver: Backups erstellen, herunterladen und einspielen'
 description: Informationen, wie du Backups für deinen Gameserver von ZAP-Hosting erstellen, herunterladen und wieder einspielen kannst -ZAP-Hosting.com Dokumentation
 sidebar_label: Backups
 ---
