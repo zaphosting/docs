@@ -9,7 +9,7 @@ sidebar_label: Install Python
 
 This guide provides steps for the installation of the Python runtime and venv. These commands must be executed via SSH, if you don't know how to connect to your server via SSH, please use our [Initial access (SSH)](https://zap-hosting.com/guides/docs/vserver-linux-ssh) guide to learn more.
 
-## Preparation
+## Prerequisites
 
 Before you install anything on a server it is recommended to run the update command corresponding to your operating system to keep your server secure.
 
@@ -47,7 +47,7 @@ import TabItem from '@theme/TabItem';
 </TabItem>
 </Tabs>
 
-## Installing Python
+## Installation
 
 Most Linux distros come preinstalled with Python however the version might not be up to date or the system might have been installed without some packages. You can check if the python installation exists (`python3 --version`) and run the following commands to either update or install the runtime.
 
