@@ -7,6 +7,8 @@ sidebar_label: Mods installieren
 
 
 
+import YouTube from '@site/src/components/YouTube/YouTube'; 
+
 ## Einführung
 
 Seit der Veröffentlichung von Palworld sind immer wieder neue spannende Mods online gegangen, die das Spielerlebnis verbessern und das Spiel noch unterhaltsamer machen. In dieser Anleitung erklären wir dir, wie du Modifikationen (Mods) zu deinem Palworld Server und/oder Spielclient hinzufügst.
