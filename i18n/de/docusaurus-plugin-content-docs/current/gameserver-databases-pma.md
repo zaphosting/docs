@@ -1,6 +1,6 @@
 ---
 id: gameserver-databases-pma
-title: phpMyAdmin für Server von ZAP-Hosting
+title: 'Gameserver: phpMyAdmin Zugriff'
 description: Informationen, wie du phpMyAdmin mit Gameservern von ZAP-Hosting verwenden kannst, um die Datenbanken zu verwalten - ZAP-Hosting.com Dokumentation
 sidebar_label: PHPMyAdmin
 ---

@@ -17,11 +17,11 @@
   },
   "link.item.label.Rent a VPS": {
     "message": "Miete einen vServer",
-    "description": "The label of footer link with label=Rent a VPS linking to https://zap-hosting.com/en/rent-a-virtual-server/"
+    "description": "The label of footer link with label=Rent a VPS linking to https://zap-hosting.com/de/vserver-mieten/"
   },
   "link.item.label.Rent a Discord Musicbot": {
     "message": "Miete einen Discord Musicbot",
-    "description": "The label of footer link with label=Rent a Discord Musicbot linking to https://zap-hosting.com/en/rent-a-discord-musicbot/"
+    "description": "The label of footer link with label=Rent a Discord Musicbot linking to https://zap-hosting.com/de/discord-musicbot-mieten/"
   },
   "link.item.label.Instagram": {
     "message": "Instagram",
@@ -29,7 +29,7 @@
   },
   "link.item.label.Blog": {
     "message": "Blog",
-    "description": "The label of footer link with label=Blog linking to https://zap-hosting.com/en/blog/"
+    "description": "The label of footer link with label=Blog linking to https://zap-hosting.com/de/blog/"
   },
   "link.item.label.Discord": {
     "message": "Discord",
@@ -37,11 +37,11 @@
   },
   "link.item.label.Changelog": {
     "message": "Changelog",
-    "description": "The label of footer link with label=Changelog linking to https://zap-hosting.com/en/changelog/"
+    "description": "The label of footer link with label=Changelog linking to https://zap-hosting.com/de/changelog/"
   },
   "link.item.label.Ticketsupport": {
     "message": "Ticketsupport",
-    "description": "The label of footer link with label=Ticketsupport linking to https://zap-hosting.com/en/customer/support/"
+    "description": "The label of footer link with label=Ticketsupport linking to https://zap-hosting.com/de/customer/support/"
   },
   "link.item.label.Server Status": {
     "message": "Server Status",
@@ -53,43 +53,43 @@
   },
   "link.item.label.Terms of Service": {
     "message": "AGBs",
-    "description": "The label of footer link with label=Terms of Service linking to https://zap-hosting.com/en/terms/"
+    "description": "The label of footer link with label=Terms of Service linking to https://zap-hosting.com/de/terms/"
   },
   "link.item.label.Imprint": {
     "message": "Impressum",
-    "description": "The label of footer link with label=Imprint linking to https://zap-hosting.com/en/imprint/"
+    "description": "The label of footer link with label=Imprint linking to https://zap-hosting.com/de/imprint/"
   },
   "link.item.label.Privacy Policy": {
     "message": "Datenschutzrichtlinien",
-    "description": "The label of footer link with label=Privacy Policy linking to https://zap-hosting.com/en/privacy-policy/"
+    "description": "The label of footer link with label=Privacy Policy linking to https://zap-hosting.com/de/privacy-policy/"
   },
   "link.item.label.Security": {
     "message": "Sicherheit",
-    "description": "The label of footer link with label=Security linking to https://zap-hosting.com/en/security/"
+    "description": "The label of footer link with label=Security linking to https://zap-hosting.com/de/security/"
   },
   "copyright": {
-    "message": "Copyright © 2023 ZAP-Hosting GmbH & Co. KG",
+    "message": "Copyright © 2024 ZAP-Hosting GmbH & Co. KG",
     "description": "The footer copyright"
   },
   "link.item.label.Rent a RootServer": {
-    "message": "Rent a RootServer",
-    "description": "The label of footer link with label=Rent a RootServer linking to https://zap-hosting.com/en/rent-a-root-server/"
+    "message": "Miete einen Rootserver",
+    "description": "The label of footer link with label=Rent a RootServer linking to https://zap-hosting.com/de/rootserver-mieten/"
   },
   "link.item.label.Rent a Gameserver": {
-    "message": "Rent a Gameserver",
-    "description": "The label of footer link with label=Rent a Gameserver linking to https://zap-hosting.com/en/rent-a-gameserver/"
+    "message": "Miete einen Gameserver",
+    "description": "The label of footer link with label=Rent a Gameserver linking to https://zap-hosting.com/de/gameserver-mieten/"
   },
   "link.item.label.Rent a TeamSpeak server": {
-    "message": "Rent a TeamSpeak server",
-    "description": "The label of footer link with label=Rent a TeamSpeak server linking to https://zap-hosting.com/en/rent-a-teamspeak-3-server/"
+    "message": "Miete einen TeamSpeak Server",
+    "description": "The label of footer link with label=Rent a TeamSpeak server linking to https://zap-hosting.com/de/teamspeak-3-server-mieten"
   },
   "link.item.label.Rent a Domain": {
-    "message": "Rent a Domain",
-    "description": "The label of footer link with label=Rent a Domain linking to https://zap-hosting.com/en/domain-check/"
+    "message": "Miete eine Domain",
+    "description": "The label of footer link with label=Rent a Domain linking to https://zap-hosting.com/de/domain-check/"
   },
   "link.item.label.Rent a Webspace": {
-    "message": "Rent a Webspace",
-    "description": "The label of footer link with label=Rent a Webspace linking to https://zap-hosting.com/en/webhosting-rent-a-webspace/"
+    "message": "Miete ein Webspace",
+    "description": "The label of footer link with label=Rent a Webspace linking to https://zap-hosting.com/de/webhosting-webspace-mieten/"
   },
   "link.item.label.X": {
     "message": "X",

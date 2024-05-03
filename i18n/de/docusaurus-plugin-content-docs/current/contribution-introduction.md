@@ -7,7 +7,7 @@ sidebar_label: Einführung
 
 ![Contribution Program 2.0](https://screensaver01.zap-hosting.com/index.php/s/djbjL5gHGRCYAzq/preview)
 
-## Einleitung
+## Einführung
 
 Wir bei ZAP-Hosting glauben an die Kraft unserer Community. Deshalb freuen wir uns, unser eigenes ZAP-Hosting Community Contributions Programm zu starten. Dieses Programm ermöglicht es unserer ZAP-Community, qualitativ hochwertige, praktische und leicht zugängliche Anleitungen zu erstellen, die eine breite Palette von Themen unterstützen und anderen Mitmenschen helfen. Das Programm unterstützt auch die Kreativität unserer Community durch die Erstellung einzigartiger Blogbeiträge und Inhalte.
 

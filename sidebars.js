@@ -1454,7 +1454,6 @@ const sidebars = {
       defaultStyle: true,
     },
     'vserver-linux-gs-interface',
-    'dedicated-pterodactyl',
     {
       type: "category",
       label: "Services",
@@ -1470,6 +1469,7 @@ const sidebars = {
         'vserver-linux-openvpn',
         'vserver-linux-phpmyadmin',
         'vserver-linux-plesk',
+        'dedicated-pterodactyl',
         'vserver-linux-ssh-server',
         'vserver-linux-webserver',
         'vserver-linux-xrdp',

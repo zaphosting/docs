@@ -21,7 +21,7 @@ Unsere Richtlinien für Blog-Beiträge lassen sich in die folgenden Abschnitte u
 Die Blogbeiträge in unserem Beitragsprogramm sollten einer relativ einheitlichen Struktur folgen, die das Interesse des Lesers weckt und ihn mit Informationen und Neuigkeiten versorgt. Das ZAP-Beitragsteam wird mit dir zusammenarbeiten, um sicherzustellen, dass deine Struktur beim Erstellen eines Blogvorschlags angemessen ist.
 
 - Blog-Titel (H1-Überschrift)
-- Einleitungstext
+- Einführungstext
 - Optional: Voraussetzungen (H2 Überschrift)
 - Hauptthema 1 (H2 Überschrift)
 - Hauptthema 2 (H2 Überschrift)
@@ -32,16 +32,16 @@ Die Blogbeiträge in unserem Beitragsprogramm sollten einer relativ einheitliche
 - Schlussfolgerung (H2 Überschrift)
 
 :::info
-Denke daran, dass die obigen Angaben nur ein grober Anhaltspunkt sind. Der Hauptteil deines Blogbeitrags kann andere Überschriften haben, je nachdem, was für deinen Inhalt angemessen ist, aber alle Blogbeiträge sollten einheitlich einen Titel, eine Einleitung und eine Schlussfolgerung haben, die den Hauptteil umgeben.
+Denke daran, dass die obigen Angaben nur ein grober Anhaltspunkt sind. Der Hauptteil deines Blogbeitrags kann andere Überschriften haben, je nachdem, was für deinen Inhalt angemessen ist, aber alle Blogbeiträge sollten einheitlich einen Titel, eine Einführung und eine Schlussfolgerung haben, die den Hauptteil umgeben.
 :::
 
 ### Überschriften
 
 Der Titel deines Blogbeitrags sollte kurz, klar und prägnant sein, um die Aufmerksamkeit der Leser/innen zu wecken. Er sollte genau aussagen, worum es in deinem Blogbeitrag geht, z. B. ob es um Neuigkeiten oder Tipps und Ratschläge geht. Ein Beispiel für einen guten Titel wäre: **Top 10 FiveM Police Scripts**.
 
-### Einleitung
+### Einführung
 
-Die Einleitung deines Blogbeitrags sollte relativ kurz sein und einen Einblick in das Thema deines Blogbeitrags geben. Bei typischen Blogbeiträgen sollte sie nicht länger als 2 Sätze sein, um eine grobe Vorstellung zu vermitteln.
+Die Einführung deines Blogbeitrags sollte relativ kurz sein und einen Einblick in das Thema deines Blogbeitrags geben. Bei typischen Blogbeiträgen sollte sie nicht länger als 2 Sätze sein, um eine grobe Vorstellung zu vermitteln.
 
 Versuche, ein paar der folgenden Fragen zu beantworten:
 
@@ -49,7 +49,7 @@ Versuche, ein paar der folgenden Fragen zu beantworten:
 - Was ist der Zweck dieses Beitrags?
 - Welche Informationen wird der Leser erhalten?
 
-Die Antworten auf diese Fragen sollten dir helfen, eine kurze und prägnante Einleitung für deinen Blogbeitrag zu verfassen, die die wichtigsten Punkte deines Blogbeitrags enthält.
+Die Antworten auf diese Fragen sollten dir helfen, eine kurze und prägnante Einführung für deinen Blogbeitrag zu verfassen, die die wichtigsten Punkte deines Blogbeitrags enthält.
 
 ### Voraussetzungen
 
@@ -68,7 +68,7 @@ Du solltest eine Aufzählung dieser Voraussetzungen unter der Überschrift des A
 
 Innerhalb dieser Themen schreibst du den Hauptteil deines Blogbeitrags. Wir empfehlen, den Blogbeitrag in mehrere Abschnitte aufzuteilen, damit sich der Leser mit dem Inhalt beschäftigen kann. Es gibt keine strikten Vorgaben, wie diese aufgeteilt werden sollten, aber als Faustregel solltest du versuchen, deinen Inhalt in ein paar Überschriften aufzuteilen. Das ZAP-Beitragsteam wird dir dabei helfen.
 
-Wenn dein Blogbeitrag Schritt-für-Schritt-Informationen oder Anleitungen enthält, ist es sinnvoll, die Nummer des Schritts und eine kurze Beschreibung des Schritts in die Hauptüberschrift aufzunehmen, z. B. **Schritt 1 - Erstellen des Ordners**. Du solltest kurz beschreiben, was der Leser in dem Schritt macht, um im ersten Satz ein Gesamtziel zu nennen. Zwischen den einzelnen Schritten solltest du eine kurze Einleitung und eine abschließende Überleitung einfügen, damit der Leser weiß, was er bisher getan hat und was in den folgenden Schritten passieren wird. Diese Übergänge bieten dem Leser einen wichtigen Kontext. Versuche, Wiederholungen zu vermeiden und verwende eine Reihe von Begriffen, damit sich die Schritte nicht wiederholen.
+Wenn dein Blogbeitrag Schritt-für-Schritt-Informationen oder Anleitungen enthält, ist es sinnvoll, die Nummer des Schritts und eine kurze Beschreibung des Schritts in die Hauptüberschrift aufzunehmen, z. B. **Schritt 1 - Erstellen des Ordners**. Du solltest kurz beschreiben, was der Leser in dem Schritt macht, um im ersten Satz ein Gesamtziel zu nennen. Zwischen den einzelnen Schritten solltest du eine kurze Einführung und eine abschließende Überleitung einfügen, damit der Leser weiß, was er bisher getan hat und was in den folgenden Schritten passieren wird. Diese Übergänge bieten dem Leser einen wichtigen Kontext. Versuche, Wiederholungen zu vermeiden und verwende eine Reihe von Begriffen, damit sich die Schritte nicht wiederholen.
 
 ### Schlussfolgerung
 

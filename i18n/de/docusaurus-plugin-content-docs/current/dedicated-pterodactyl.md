@@ -5,7 +5,7 @@ description: Informationen zur Installation des Pterodactyl-Panels mit Debian au
 sidebar_label: Pterodactyl installieren
 ---
 
-## Einleitung
+## Einführung
 
 Das Pterodactyl Panel ist ein Open-Source-Kontrollpanel, das speziell dafür entwickelt wurde, um das Verwalten und Hosten von Spieleservern zu vereinfachen. Es bietet eine Benutzeroberfläche, die es Administratoren ermöglicht, zentral mehrere Spieleserver zu konfigurieren und zu verwalten.
 

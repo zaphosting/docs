@@ -5,9 +5,13 @@ description: Informationen über die Installation von Mods auf deinem Palworld-S
 sidebar_label: Mods installieren
 ---
 
-Seit der Veröffentlichung von Palworld sind immer wieder neue spannende Mods online gegangen, die das Spielerlebnis verbessern und das Spiel noch unterhaltsamer machen. In dieser Anleitung erklären wir dir, wie du Modifikationen (Mods) zu deinem Palworld Server und/oder Spielclient hinzufügst.
+
 
 ## Einführung
+
+Seit der Veröffentlichung von Palworld sind immer wieder neue spannende Mods online gegangen, die das Spielerlebnis verbessern und das Spiel noch unterhaltsamer machen. In dieser Anleitung erklären wir dir, wie du Modifikationen (Mods) zu deinem Palworld Server und/oder Spielclient hinzufügst.
+
+<YouTube videoId="x4tfL3Vi5qE" title="How To Install Mods On Your Palworld Server!" description="Hast du das Gefühl, dass du etwas besser verstehst, wenn du es in Aktion siehst? Wir haben etwas für dich! Tauche ab in unser Video, welches alles für dich zusammenfasst. Egal, ob du es eilig hast oder einfach nur Informationen auf möglichst verständliche Art und Weise aufnehmen möchtest!"/>
 
 ### Wichtige Informationen
 
@@ -37,7 +41,7 @@ Du musst sicherstellen, dass die Mod, die du verwenden möchtest, mit der aktuel
 
 ## Schritt 1: Vorbereiten der PAK-Datei
 
-Auf Modding-Websites, wie den in der Einleitung vorgeschlagenen, kannst du eine große Auswahl an verschiedenen Mods durchsuchen und herunterladen.
+Auf Modding-Websites, wie den in der Einführung vorgeschlagenen, kannst du eine große Auswahl an verschiedenen Mods durchsuchen und herunterladen.
 
 :::info
 Zur Erinnerung: Aus Sicherheitsgründen unterstützen wir derzeit nur PAK-Mods (.PAK-Dateien).

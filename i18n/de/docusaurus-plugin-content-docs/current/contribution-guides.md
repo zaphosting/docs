@@ -23,7 +23,7 @@ Wir empfehlen, unsere [Guidelines Page](contribution-guides-guidelines.md) zu le
 
 Für unsere Anleitungen suchen wir ein breites Spektrum an praktischen und qualitativ hochwertigen Anleitungen zu Produkten, Dienstleistungen und Open-Source-Software, die über ZAP-Hosting verfügbar sind oder sich auf einen unserer Dienste beziehen. Wenn du ein paar Ideen oder Inspirationen brauchst, schau dir unsere Seiten in den ZAP-Docs an, um ein Gefühl für unseren Schreibstil und die Art der Inhalte zu bekommen, die wir veröffentlichen.
 
-Wie bereits in der Einleitung erwähnt, müssen alle Inhalte, die wir erstellen, original sein, um die Urheberrechtsgesetze einzuhalten. Jegliche unerlaubte Nutzung von KI/generativen Tools und/oder anderem geistigen Eigentum ist strengstens untersagt. Unsere Anleitungen zielen darauf ab, qualitativ hochwertige Informationen durch eine Reihe von Schritten zu liefern, um sicherzustellen, dass die Leser/innen verstehen, was sie tun und wie sie es tun können, mit dem Ziel, die Leser/innen aufzuklären und ihnen eine Lösung zu bieten.
+Wie bereits in der Einführung erwähnt, müssen alle Inhalte, die wir erstellen, original sein, um die Urheberrechtsgesetze einzuhalten. Jegliche unerlaubte Nutzung von KI/generativen Tools und/oder anderem geistigen Eigentum ist strengstens untersagt. Unsere Anleitungen zielen darauf ab, qualitativ hochwertige Informationen durch eine Reihe von Schritten zu liefern, um sicherzustellen, dass die Leser/innen verstehen, was sie tun und wie sie es tun können, mit dem Ziel, die Leser/innen aufzuklären und ihnen eine Lösung zu bieten.
 
 #### Liste gesuchter Anleitungen
 

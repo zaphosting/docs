@@ -7,7 +7,7 @@ sidebar_label: Enshrouded Dedicated Server Einrichtung
 
 import YouTube from '@site/src/components/YouTube/YouTube';
 
-## Einleitung
+## Einführung
 
 Hast du einen Windows VPS oder Rootserver und möchtest darauf einen Enshrouded Dedicated Server installieren? Dann bist du hier genau richtig. In dieser Anleitung erklären wir dir Schritt für Schritt, wie du diesen Dienst auf deinem Server installierst.
 

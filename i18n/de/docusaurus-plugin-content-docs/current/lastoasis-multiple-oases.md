@@ -5,7 +5,7 @@ description: Informationen zur Einrichtung mehrerer Oasen für deinen Last Oasis
 sidebar_label: Mehrere Oasen
 ---
 
-## Einleitung
+## Einführung
 Last Oasis bietet die Möglichkeit, mehrere Oasen gleichzeitig mit demselben Realm zu verbinden. In dieser Anleitung erfährst du, wie du diesen Modus für deinen eigenen Realm aktivieren kannst.
 
 ## Vorbereitung

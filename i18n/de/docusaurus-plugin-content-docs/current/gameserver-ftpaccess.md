@@ -1,94 +1,104 @@
 ---
 id: gameserver-ftpaccess
-title: Dateien mit FTP hochladen und herunterladen
-description: Informationen, wie du mit FTP Dateien auf deinen Gameserver von ZAP-Hosting hoch- und herunterladen kannst - ZAP-Hosting.com Dokumentation
-sidebar_label: FTP Dateizugriff
+title: 'Gameserver: Zugriff per FTP zum Verwalten der Serverdateien'
+description: Informationen, wie du per FTP verbindest und die Dateien deines Gameservers von ZAP-Hosting verwaltest - ZAP-Hosting.com Dokumentation
+sidebar_label: Zugriff per FTP
 ---
 
-## Mit FTP verbinden
-
-Um eine Verbindung mit dem Server herzustellen, muss die **IP-Adresse(FTP Server)**, der **Username** und das **Passwort** eingegeben werden. Diese Daten können unter FTP-Browser eingesehen werden. Der Port ist immer **21**, dieser wird aber in der Regel automatisch eingetragen.
-
-![image](https://user-images.githubusercontent.com/13604413/159184693-261d0660-4cfb-472e-b3bb-945ab6a33346.png)
-
-## Über FileZilla verbinden
-### Richtige FileZilla Version
-:::info
-Man benötigt die "**FileZilla Client**" Version, nicht die FileZilla Server Version. 
 
 
-Stoppe deinen Server, bevor du Dateien via FTP bearbeitest oder hochlädst.
+## Einführung
 
-Nach dem Serverstop aktualisiere die FTP Rechte hier.
-
-Bei gestartetem Server kann es zu "Permission denied" Fehlern kommen.
-:::
-
-### FileZilla Übersicht
-
-Wenn die Verbindung hergestellt ist, kann man alle Daten einsehen und bearbeiten. Oben rechts hat man die Verzeichnisse. Dort kann man schnell zwischen den Ordnern wechseln. Unten rechts sind die Daten, die man mit Rechtsklick **herunterladen, ansehen** und **bearbeiten** kann:
-
-:::info
-Wichtig ist, dass der Server offline sein muss, wenn man die Daten bearbeitet, da sie sonst nicht übernommen werden oder der Server crashen wird.
-:::
+Das FTP (File Transfer Protocol) ist ein Netzwerkprotokoll, das dazu dient, Dateien über ein TCP/IP-Netzwerk zu übertragen.
+Das Protokoll wurde entwickelt, um den einfachen Austausch von Dateien zwischen Systemen zu ermöglichen. Über das FTP-Protokoll hast du die Möglichkeit, auf deine Server-Dateien zuzugreifen und zu verwalten. Sei es, dass du Dateien hoch- und runterlädst oder diese aktiv bearbeitest. 
 
 
 
-### Dateien hochladen
+## Vorbereitung
 
-Dateien können per "**Drag and Drop**" von der linken Seite (dem Computer), in die rechte Seite (den Server) gezogen werden. 
+Damit du deine Dateien mittels des FTP-Protokolls verwalten kannst, benötigst du einen passenden FTP-Client. Es gibt hierbei eine recht große Auswahl an verfügbaren FTP-Client. Zu den bekanntesten und etabliertesten FTP-Clients gehören allerdings **FileZilla** und **WinSCP**. 
 
-:::info
-Wenn man über mehrere Server verfügt, muss vorher die ID des Servers ermittelt werden, damit man die Daten in den richtigen Ordner verschiebt.
-:::
+| FTP-Client | Download                                                     |
+| ---------- | ------------------------------------------------------------ |
+| FileZilla  | [Offizielle Webseite](https://filezilla-project.org/download.php?platform=win64) |
+| WinSCP     | [Offizielle Webseite](https://winscp.net/eng/downloads.php)  |
 
-### "Transfer connection interrupted" Fehlermeldung
+Suche dir einen FTP-Client aus und installiere diesen auf deinem Computer. Um eine Verbindung mit dem Server herzustellen, muss die **IP-Adresse (FTP Server)**, der **Username** und das **Passwort** eingegeben werden. Diese Informationen können unter FTP-Browser Seite eingesehen werden. Der Port ist immer **21**. Dieser wird in der Regel automatisch eingetragen.
 
-Sollte bei der Verbindung oder auch Übertragung die Fehlermeldung "Transfer connection interrupted: ECCONABORTED - Connection aborted" bestehen, so kann testweise der Übertragungsmodus von *Passive* auf *Active* umgestellt werden.
-In den folgenden Schritten wird gezeigt, wie das bei FileZilla in den Einstellungen umgestellt werden kann.
+![img](https://screensaver01.zap-hosting.com/index.php/s/q8qb6GLXHmrMwEw/preview)
 
-![image](https://user-images.githubusercontent.com/13604413/159184695-c03a49df-113a-4435-b253-5418843f150c.png)
 
-Drücke in deinem FileZilla Client auf "**Bearbeiten**", dort dann direkt die "**Einstellungen...**" öffnen:
 
-![image](https://user-images.githubusercontent.com/13604413/159184700-af55e7e0-484f-4992-8b56-d0cdedc3ddf0.png)
+## FileZilla
 
-Im Anschluss daran öffnet sich das "Einstellungen" Fenster. Dort kannst du nun auf "**FTP**" um die Einstellungen für die FTP Verbindung einzusehen.
-Bei "**FTP**" angekommen, wird der Standard Übertragungsmodus auf  "Passiv" stehen, dort kannst du den Radio-Button bei "**Aktiv**" auswählen und die Änderung mit "**OK**" bestätigen.
+### Verbinden
 
-![image](https://user-images.githubusercontent.com/13604413/159184704-95564d7c-f103-45a5-894e-fa24c8af54f7.png)
+Die Verbindung kannst du entweder über die Direktverbindung oder unter **Datei -> Server Manager** herstellen. Trage dort die **FTP-Zugangsdaten** von deinem Server ein und klicke im Anschluss auf **Verbinden**. 
 
-Sobald auch dies getan ist, kann jetzt die FTP Verbindung erneut getestet werden.
-
-## Über WinSCP verbinden
-
-WinSCP [Download](https://winscp.net/eng/index.php).
+![img](https://screensaver01.zap-hosting.com/index.php/s/KH9HRWK3geypbf4/preview)
 
 :::info
-Stoppe deinen Server, bevor du Dateien via FTP bearbeitest oder hochlädst.
-
-Nach dem Serverstop aktualisiere die FTP Rechte hier.
-
-Bei gestartetem Server kann es zu "Permission denied" Fehlern kommen.
+Stelle sicher, dass du den Server stoppst und die FTP-Berechtigungen aktualisierst, bevor du auf die Serverdateien zugreifst. Andernfalls könnten Fehlermeldungen wie „Permission Denied“ oder „Access Denied“ auftreten.
 :::
 
-Zum Verbinden muss das Übertragungsprotokoll auf FTP gestellt werden.
 
-### WinSCP Übersicht
 
-Auf der **linken Seite** sind die **eigenen Dateien** des Computers. Auf der **rechten Seite** sind die **Dateien vom Server**, die per Rechtsklick **bearbeitet, gelöscht** oder **heruntergeladen** werden können. **Oben** sieht man die **aktuelle Sitzung**, dort können mehrere Sitzungen gleichzeitig hergestellt werden.
+### Dateien verwalten
 
-![image](https://user-images.githubusercontent.com/13604413/159184711-6ca6c2d0-03f8-4c35-8e8e-dbf46f40afe5.png)
+Wie bereits ursprünglich erwähnt kannst du mit dem FTP-Client bei deinem Server Dateien hochladen, herunterladen und bearbeiten. Der FTP-Client ist in zwei Teile aufgeteilt. Die Linke Hälfte stellt deinen Client (Computer) und die rechte Hälfte deinen Server Bereich dar. Du kannst dementsprechend in beiden Verzeichnissen sowohl auf Lokaler als auch Server Ebene navigieren. 
+
+Die Verwaltung erfolgt mit einem Rechtsklick auf die jeweilige Datei oder Ordner. Je nachdem was du machen möchtest, kannst du darüber Dateien oder Ordner hoch- und herunterladen, bearbeiten, umbenennen oder verschieben. 
+
+![img](https://screensaver01.zap-hosting.com/index.php/s/65LiiStT7SrFndT/preview)
+
 
 
 :::info
-Wichtig ist, dass der Server offline sein muss, wenn man die Daten bearbeitet, da sie sonst nicht übernommen werden oder der Server crashen wird.
+Solltest du mehrere Gameserver besitzen, so musst du zunächst in das richtige Gameserververzeichnis navigieren. 
 :::
 
-### Dateien hochladen
 
-Dateien können per "**Drag and Drop**" von der linken Seite (dem Computer), in die rechte Seite (den Server) gezogen werden. 
+
+### Mögliche Probleme und Lösungsansätze
+
+#### "530 Login incorrect" Fehlermeldung
+
+Sollte beim Verbindungaufbau diese Fehlermeldung auftreten, so bedeutet dies, dass falsche Zugangsdaten angegeben wurden. Überprüfe alle ausgefüllten Felder auf Vollständigkeit und Korrektheit. 
+
+#### "Transfer connection interrupted" Fehlermeldung
+
+Sollte bei der Verbindung oder auch Übertragung diese Fehlermeldung auftreten, so kann testweise der Übertragungsmodus von *Passive* auf *Active* umgestellt werden.
+
+
+
+
+## WinSCP
+
+### Verbinden
+
+Die Verbindung kannst du entweder über die Direktverbindung oder oben über **Neue Sitzung** herstellen. Trage dort die FTP-Zugangsdaten von deinem Server ein und klicke im Anschluss auf **Verbinden**. 
+
+![img](https://screensaver01.zap-hosting.com/index.php/s/QZj8SMLS574rK2F/preview)
 
 :::info
-Wenn man über mehrere Server verfügt, muss vorher die ID des Servers ermittelt werden, damit man die Daten in den richtigen Ordner verschiebt.
+Stelle sicher, dass du den Server stoppst und die FTP-Berechtigungen aktualisierst, bevor du auf die Serverdateien zugreifst. Andernfalls könnten Fehlermeldungen wie „Permission Denied“ oder „Access Denied“ auftreten.
 :::
+
+### Dateien verwalten
+
+Wie bereits ursprünglich erwähnt kannst du mit dem FTP-Client bei deinem Server Dateien hochladen, herunterladen und bearbeiten. Der FTP-Client ist in zwei Teile aufgeteilt. Die Linke Hälfte stellt deinen Client (Computer) und die rechte Hälfte deinen Server Bereich dar. Du kannst dementsprechend in beiden Verzeichnissen sowohl auf Lokaler als auch Server Ebene navigieren. 
+
+Die Verwaltung erfolgt mit einem rechtsklick auf die jeweilige Datei oder Ordner. Je nachdem was du machen möchtest, kannst du darüber Dateien oder Ordner hoch- und herunterladen, bearbeiten, umbenennen oder verschieben. 
+
+![img](https://screensaver01.zap-hosting.com/index.php/s/rFMnnsdi2dbEt6r/preview)
+
+
+
+### Mögliche Probleme und Lösungsansätze
+
+#### "530 Login incorrect" Fehlermeldung
+
+Sollte beim Verbindungsaufbau diese Fehlermeldung auftreten, so bedeutet dies, dass falsche Zugangsdaten angegeben wurden. Überprüfe alle ausgefüllten Felder auf Vollständigkeit und Korrektheit. 
+
+
+

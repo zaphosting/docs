@@ -1,7 +1,7 @@
 ---
 id: domain-gameserver-srv-link
-title: "Domain: Set up game server forwarding"
-description: Information on how to set up a forwarding from your domain to a game server - ZAP-Hosting.com documentation
+title: "Domain: Set up gameserver forwarding"
+description: Information on how to set up a forwarding from your domain to a gameserver - ZAP-Hosting.com documentation
 sidebar_label: Gameserver forwarding
 ---
 
@@ -10,13 +10,12 @@ Please note that it can always take up to 24 hours until changes to DNS entries 
 :::
 
 ## Introduction
-You can either forward your domain completely or only a subdomain to your gameserver.
-So no one has to remember the complicated IP address which consists of numbers but can simply connect to your game server using the domain.
+You can either forward your domain completely or only a subdomain to your gameserver. 
+This is useful because it allows people to connect to your gameserver via a domain, instead of having to remember complicated IP addresses composed of numbers only.
 
-## How does it work?
+## Functionality
 
-### Before we start creating entries in the DNS settings of the domain, here is some information in advance:
-For forwarding the IP address, either a subdomain is created which forwards to the IP address of the game server, or you forward the entire domain without a subdomain.
+For forwarding the IP address, either a subdomain is created which forwards to the IP address of the gameserver, or you forward the entire domain without a subdomain.
 This would be sufficient if the gameserver uses the default port of the game.
 If the gameserver uses another port than the default port of the game, you need an additional **SRV entry** to forward the subdomain to the gameserver.
 
@@ -48,13 +47,13 @@ There you can see all existing DNS entries for your domain.
 ![image](https://user-images.githubusercontent.com/13604413/172062190-77af42af-4639-4908-91d5-1320684049a9.png)
 
 
-## Forwarding the domain for Minecraft
+## Domain forwarding (Minecraft)
 First you have to find out the IP and port of the Minecraft server you want to redirect to.
 With this information, the following steps can be followed.
 
 In our example we use "testserver-domain.de" as domain name, "123.123.123.123" as server IP and "25500" as PORT.
 
-### Creating A Record
+### Create A Record
 To create a new record, use the "**New entry**" button.
 
 This opens a window with four fields that must be filled:
@@ -95,13 +94,13 @@ IMPORTANT! at the end of the entry a dot must be written, without this dot the s
 
 If this hint is not followed, the system will redirect minecraft.testserver-domain.de to minecraft.testserver-domain.de.testserver-domain.de and the redirection will fail.
 
-## Forwarding the domain for FiveM
+## Domain forwarding (FiveM)
 First you have to find out the IP and port of the FiveM server you want to redirect to.
 With this data the following steps can be followed.
 
 In our example we use "testserver-domain.de" as domain name, "123.123.123.123" as server IP and PORT "30300".
 
-### Creating A Record
+### Create A-Record
 To create a new record, use the "**New entry**" button.
 
 This opens a window with four fields that must be filled:
