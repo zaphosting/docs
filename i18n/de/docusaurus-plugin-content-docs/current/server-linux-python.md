@@ -1,5 +1,5 @@
 ---
-id: vserver-linux-python
+id: server-linux-python
 title: "Server: Installation von Python"
 description: Informationen zur Installation und Ausführung von Python auf Ihrem Linux Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Python installieren
@@ -19,28 +19,28 @@ import TabItem from '@theme/TabItem';
 
 <Tabs>
 <TabItem value="ubuntu-debian" label="Ubuntu & Debian" default>
-  
+
 ```
   sudo apt update
 ```
 
 </TabItem>
 <TabItem value="centos" label="CentOS">
-  
+
 ```
   sudo yum update
 ```
 
 </TabItem>
 <TabItem value="opensuse" label="OpenSUSE">
-  
+
 ```
   sudo zypper update
 ```
-  
+
 </TabItem>
 <TabItem value="fedora" label="Fedora">
-  
+
 ```
   sudo dnf update
 ```
@@ -55,7 +55,7 @@ Die meisten Linux-Distributionen sind bereits mit Python vorinstalliert, jedoch 
 
 <Tabs>
 <TabItem value="ubuntu-debian" label="Ubuntu & Debian" default>
-  
+
 ```
   // Version überprüfen
   python3 --version
@@ -66,7 +66,7 @@ Die meisten Linux-Distributionen sind bereits mit Python vorinstalliert, jedoch 
 
 </TabItem>
 <TabItem value="centos" label="CentOS">
-  
+
 ```
   // Version überprüfen
   python3 --version
@@ -77,7 +77,7 @@ Die meisten Linux-Distributionen sind bereits mit Python vorinstalliert, jedoch 
 
 </TabItem>
 <TabItem value="opensuse" label="OpenSUSE">
-  
+
 ```
   // Version überprüfen
   python3 --version
@@ -88,7 +88,7 @@ Die meisten Linux-Distributionen sind bereits mit Python vorinstalliert, jedoch 
 
 </TabItem>
 <TabItem value="fedora" label="Fedora">
-  
+
 ```
   // Version überprüfen
   python3 --version
