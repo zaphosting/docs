@@ -1,7 +1,7 @@
 ---
 id: vserver-linux-javascript
 title: 'Server: Installation of Javascript'
-description: Information on how to install and run Javascript on your Windows server from ZAP-Hosting.com - ZAP-Hosting.com documentation
+description: Information on how to install and run Javascript on your Linux server from ZAP-Hosting.com - ZAP-Hosting.com documentation
 sidebar_label: Install Javascript
 ---
 
