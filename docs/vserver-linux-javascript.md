@@ -1,15 +1,15 @@
 ---
-id: server-linux-javascript
-title: 'Server: Install Javascript'
-description: Information on how to install and run Javascript on your server from ZAP-Hosting.com - ZAP-Hosting.com documentation
+id: vserver-linux-javascript
+title: 'Server: Installation of Javascript'
+description: Information on how to install and run Javascript on your Windows server from ZAP-Hosting.com - ZAP-Hosting.com documentation
 sidebar_label: Install Javascript
 ---
 
 ## Introduction
 
-This guide provides steps for the installation of NodeJS, Deno and Bun. These commands must be executed via SSH, if you don't know how to connect to your server via SSH, please have a look here: [Initial access (SSH)](https://zap-hosting.com/guides/docs/vserver-linux-ssh)
+This guide provides steps for the installation of NodeJS, Deno and Bun. These commands must be executed via SSH, if you don't know how to connect to your server via SSH, please have a look at our [Initial access (SSH) guide](https://zap-hosting.com/guides/docs/vserver-linux-ssh).
 
-## Preparation
+## Prerequisites
 
 Before you install anything on a server it is recommended to run the update command corresponding to your operating system to keep your server secure.
 
@@ -18,28 +18,28 @@ import TabItem from '@theme/TabItem';
 
 <Tabs>
 <TabItem value="ubuntu-debian" label="Ubuntu & Debian" default>
-  
+
 ```
   sudo apt update
 ```
 
 </TabItem>
 <TabItem value="centos" label="CentOS">
-  
+
 ```
   sudo yum update
 ```
 
 </TabItem>
 <TabItem value="opensuse" label="OpenSUSE">
-  
+
 ```
   sudo zypper update
 ```
   
 </TabItem>
 <TabItem value="fedora" label="Fedora">
-  
+
 ```
   sudo dnf update
 ```
@@ -49,22 +49,25 @@ import TabItem from '@theme/TabItem';
 
 ## Installation
 
-Now you need to decide which Javascript runtime to install. There are plenty of online resources describing each one in much detail. But you can also read this guide because it will include basic usage commands and code examples.
+To begin, you need to decide which Javascript runtime to install. There are plenty of online resources describing each one in much detail. But you can also read this guide because it will include basic usage commands and code examples. We can recommend using NodeJS as it is one of the most widely used and a very popular choice.
 
-## NodeJS
+<Tabs>
+<TabItem value="NodeJS Runtime" label="NodeJS" default>
 
-You can install NodeJS via your Linux distro package manager or using nvm.
+## Installing NodeJS Runtime
+
+You can install NodeJS via your Linux distro package manager or using nvm. We recommend using apt as this is usually easier.
 
 <Tabs>
 <TabItem value="apt" label="Package Manager" default>
 
-Run the following command to begin installing NodeJS via the package manager:
+Run the following command to begin installing NodeJS via the package manager.
 
 ```
 apt install nodejs -y
 ```
 
-To install NodeJS packages for your projects you will also need to install the npm package manager:
+To install NodeJS packages for your projects you will also need to install the npm package manager.
 
 ```
 apt install npm
@@ -74,7 +77,7 @@ apt install npm
 
 Running `node -v` will show you the installed version of NodeJS. This is usually not the latest one and thus you'll need to update it to get the latest features. Luckily the npm package `n` provides a very easy way to do this.
 
-Firstly, we'll need to install it by running `npm install -g n` and then we can run `n [version]` to install any version of NodeJS.
+Firstly, we'll need to install it by running `npm install -g n` and then we can run `n [version]`, replacing `[version]` with the version number of choice, to install any version of NodeJS.
 
 :::tip
 It is generally recommended to keep your installation on the latest Long Term Support version. You can do so by runnning `n lts`.
@@ -85,7 +88,7 @@ It is generally recommended to keep your installation on the latest Long Term Su
 
 Installing NodeJS via nvm provides a more fine grained control over having different NodeJS versions associated with their own packages.
 
-Firstly, make sure you have curl installed on your system and then run the following command:
+Firstly, ensure that you have curl installed on your system and then run the following command.
 
 ```
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
@@ -114,13 +117,11 @@ Npm is the official package manager of NodeJS. You will use it for installing an
 You can find all npm packages on their [website](https://www.npmjs.com/).
 :::
 
-#### Creating a new project
+### Creating a new project
 
 Every time you want to start a new NodeJS project you need to make a new directory for it (`mkdir [project-name]`) or `cd` into an empty folder and run the `npm init` command to begin the setup. This will ask you for some basic info for creating a `package.json` file. This will be the "config" file for running NodeJS.
 
-After initializing the new project you can make a new file called `index.js` and write code inside it.
-
-Example:
+After initializing the new project you can make a new file called `index.js` and write code inside it. As an example, we will create a simple http server on default port 80 which replies with a test message when accessed via localhost. This can be seen below.
 
 ```js
 const http = require('http')
@@ -139,7 +140,11 @@ Now you can run the provided code with the `node .` command and check the result
 Installing external packages from npm is done with the `npm install [package-name]`
 :::
 
-## Deno
+</TabItem>
+
+<TabItem value="Deno Runtime" label="Deno" default>
+
+## Installing Deno Runtime
 
 Installing Deno is as simple as writing `curl -fsSL https://deno.land/install.sh | sh` in your console.
 
@@ -149,13 +154,11 @@ To check the currently installed version you can run `deno --version`.
 
 ### Update Deno to latest version
 
-Updating Deno can be done by running `deno upgrade`.
+Updating Deno can be done simply by running `deno upgrade`.
 
 ### Running Deno
 
-To begin running Deno you'll need to make a new `index.ts` file and write some code into it.
-
-Example:
+To begin running Deno you'll need to make a new `index.ts` file and write some code into it. As an example, we will create a simple http server on default port 80 which replies with a test message when accessed via localhost. This can be seen below.
 
 ```js
 Deno.serve({ port: 80 }, (_req: Request) => {
@@ -163,15 +166,19 @@ Deno.serve({ port: 80 }, (_req: Request) => {
 })
 ```
 
-This example will create a http server on `localhost:80` and welcome users on every request. To start it run `deno run --allow-net index.ts`
+Now you can run the provided code with the `deno run --allow-net index.ts` command and check the results by going to `localhost:80` in your browser.
 
 :::info
 Deno was created to be more secure and thus requires certain permissions such as `--allow-net` to access some of its modules.
 :::
 
-## Bun
+</TabItem>
 
-Bun provides 2 official ways of installation: curl & npm.
+<TabItem value="Bun Runtime" label="Bun" default>
+
+## Installing Bun Runtime
+
+Bun provides 2 official ways of installation, either via curl or npm.
 
 <Tabs>
 <TabItem value="curl" label="curl" default>
@@ -195,12 +202,10 @@ If you already have npm installed you can run `npm install -g bun`.
 Bun was made to be faster than some of the other Javascript engines while also having a similar setup to NodeJS. To run Bun open an empty directory and run `bun init`.
 
 :::note
-Depending on the chosen language (JS or TS) Bun will then create a config file (jsconfig.json or tsconfig.json).
+Depending on the chosen language (JS or TS), Bun will create a config file (jsconfig.json or tsconfig.json).
 :::
 
-You'll need to make a `index.ts` and add code to it.
-
-Example:
+To begin running Bun you'll need to make a new `index.ts` file and write some code into it. As an example, we will create a simple http server on default port 80 which replies with a test message when accessed via localhost. This can be seen below.
 
 ```js
 const server = Bun.serve({
@@ -211,8 +216,9 @@ const server = Bun.serve({
 })
 ```
 
-You can now run your code with `bun index.ts`. Opening your browser on `localhost:80` will now show a friendly message.
+Now you can run the provided code with the `bun index.ts` command and check the results by going to `localhost:80` in your browser.
 
-## Conclusion
+</TabItem>
+</Tabs>
 
-Thank you for reading this guide on installing Javascript runtimes. If you want to run other programming languages like Python you can check out our [other guides](https://docs.zap-hosting.com/).
+By following this guide, you will have successfully installed one of the popular Javascript runtimes on your Linux server.

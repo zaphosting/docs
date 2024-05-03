@@ -1347,6 +1347,7 @@ const sidebars = {
         'vserver-linux-docker',
         'vserver-linux-ftp-install',
         'vserver-linux-java',
+        'vserver-linux-javascript',
         'vserver-linux-jitsi',
         'vserver-linux-mastodon',
         'vserver-linux-nextcloud',
@@ -1387,7 +1388,9 @@ const sidebars = {
       items: [
         'vserver-windows-ftpserver',
         'vserver-windows-installmysql',
+        'vserver-windows-javascript',
         'vserver-windows-plesk',
+        'vserver-windows-python',
       ]
     },
     {
@@ -1463,6 +1466,7 @@ const sidebars = {
         'vserver-linux-docker',
         'vserver-linux-ftp-install',
         'vserver-linux-java',
+        'vserver-linux-javascript',
         'vserver-linux-jitsi',
         'vserver-linux-mastodon',
         'vserver-linux-nextcloud',
@@ -1499,7 +1503,9 @@ const sidebars = {
       items: [
         'vserver-windows-ftpserver',
         'vserver-windows-installmysql',
+        'vserver-windows-javascript',
         'vserver-windows-plesk',
+        'vserver-windows-python',
       ]
     },
     {
