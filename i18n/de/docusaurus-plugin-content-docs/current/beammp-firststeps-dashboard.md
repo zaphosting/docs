@@ -5,6 +5,8 @@ description: Informationen zum Dashboard eines BeamMP Server von ZAP-Hosting - Z
 sidebar_label: Dashboard
 ---
 
+import YouTube from '@site/src/components/YouTube/YouTube';
+
 
 
 ## Einführung
