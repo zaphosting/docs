@@ -5,7 +5,7 @@ description: Informationen über die Installation von Mods auf deinem Palworld-S
 sidebar_label: Mods installieren
 ---
 
-
+import YouTube from '@site/src/components/YouTube/YouTube';
 
 ## Einführung
 
