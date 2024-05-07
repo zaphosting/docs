@@ -382,5 +382,9 @@
   "sidebar.gameserverSidebar.category.Terratech Worlds": {
     "message": "Terratech Worlds",
     "description": "The label for category Terratech Worlds in sidebar gameserverSidebar"
+  },
+  "sidebar.gameserverSidebar.category.Foundry": {
+    "message": "Foundry",
+    "description": "The label for category Foundry in sidebar gameserverSidebar"
   }
 }
