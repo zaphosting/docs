@@ -11,6 +11,8 @@ import YouTube from '@site/src/components/YouTube/YouTube';
 
 Do you have a Windows VPS, root server or dedicated server and you want to install the Foundry Dedicated server service on it? You are in the right place. In this guide, we will explain the step by step process of installing this service on your server.
 
+<YouTube videoId="bRsZNqKsghA" title="How To Setup Foundry Dedicated Server on Windows VPS!" description="Feel like you understand better when you see things in action?  We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
+
 ## Preparation
 
 To begin with, connect to your VPS or rootserver through Remote Desktop (RDP). Use our [RDP Initial Access](vserver-windows-userdp.md) guide if you need help doing this.

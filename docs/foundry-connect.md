@@ -5,11 +5,7 @@ description: Information about connecting to a Foundry server from ZAP-Hosting -
 sidebar_label: Connect to Server
 ---
 
-import YouTube from '@site/src/components/YouTube/YouTube';
-
 In this guide, we will explore how to connect to your Foundry server. There are two methods of connecting, either directly via the IP address of your server or through the server list. We recommend configurating the server to your likings beforehand, learn more about this through our [Foundry Configuration guide](foundry-configuration.md).
-
-<YouTube videoId="bRsZNqKsghA" title="Setup Foundry server in just a MINUTE!" description="Feel like you understand better when you see things in action?  We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
 
 ## Direct Connect via IP
 
