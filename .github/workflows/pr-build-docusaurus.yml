@@ -1,0 +1,48 @@
+name: PR Build Docusaurus
+
+on: 
+  pull_request:
+    branches: ["master", "main"]
+
+permissions:
+  checks: write
+  contents: write
+
+jobs:
+  build-docusaurus:
+    runs-on: self-hosted
+    steps:
+      - name: Check out Git repository
+        uses: actions/checkout@v4
+        with:
+          path: 'docusaurus'
+          fetch-depth: 0
+          ref: ${{github.event.pull_request.head.ref}}
+          repository: ${{github.event.pull_request.head.repo.full_name}}
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 19
+      - name: Install Docusaurus
+        run: |
+          cd docusaurus
+          npm install
+      - name: Build Docusaurus
+        run: |
+          cd docusaurus
+          rm -rf build
+          npm run docusaurus clear
+          rm -f build.tar
+          npm run build
+          tar cf build.tar -C build --transform 's~^\./~~' .
+      - name: Update i18n files
+        if: ${{ !github.event.pull_request.head.repo.fork }}
+        run: |
+          cd docusaurus
+          npm run write-translations -- --locale de
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add --all .
+          git diff --exit-code && git commit -am "update i18n" || true
+          git push
+        
