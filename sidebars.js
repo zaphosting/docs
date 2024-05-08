@@ -849,6 +849,23 @@ const sidebars = {
     },
     {
       type: "category",
+      label: "Foundry",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "foundry-firststeps-dashboard",
+            "foundry-firststeps-connect"
+          ]
+        },
+        "foundry-configuration",
+        "foundry-server-savegames",
+
+      ],
+    },
+    {
+      type: "category",
       label: "Garry's Mod",
       items: [
         {
@@ -1396,6 +1413,7 @@ const sidebars = {
       items: [
         'vserver-windows-arksurvivalascended',
         'vserver-windows-enshrouded',
+        'server-windows-foundry',
         'vserver-windows-fs-19',
         'vserver-windows-fs-22',
         'vserver-windows-palworld',
@@ -1509,6 +1527,7 @@ const sidebars = {
       items: [
         'vserver-windows-arksurvivalascended',
         'vserver-windows-enshrouded',
+        'server-windows-foundry',
         'vserver-windows-fs-19',
         'vserver-windows-fs-22',
         'vserver-windows-palworld',
