@@ -1,5 +1,5 @@
 ---
-id: vserver-windows-foundry
+id: server-windows-foundry
 title: "Server: Foundry Dedicated Server Setup"
 description: Information about setting up a Foundry Dedicated Server on a VPS/Root server/Dedicated Server - ZAP-Hosting.com documentation
 sidebar_label: Foundry
@@ -15,7 +15,7 @@ Do you have a Windows VPS, root server or dedicated server and you want to insta
 
 ## Preparation
 
-To begin with, connect to your VPS or rootserver through Remote Desktop (RDP). Use our [RDP Initial Access](vserver-windows-userdp.md) guide if you need help doing this.
+To begin with, connect to your VPS or root server through Remote Desktop (RDP). Use our [RDP Initial Access](vserver-windows-userdp.md) guide if you need help doing this.
 
 Once you have accessed your server, you will need to setup **SteamCMD** in order to be able to download the necessary dedicated server files. SteamCMD is the **command-line (CLI)** version of the Steam client and is the tool which allows you to easily download a range of Steam workshop and dedicated server files. Download [SteamCMD from the official Valve website](https://developer.valvesoftware.com/wiki/SteamCMD) or directly [here](https://steamcdn-a.akamaihd.net/client/installer/steamcmd.zip).
 
@@ -29,7 +29,7 @@ As soon as the message **Loading Steam API.... OK** is displayed, the process ha
 
 ## Installation
 
-After the installation, you should be able to execute commands within the **steamcmd.exe** command prompt that you ran before. You need to login prior to being able to do anything, through the **anonymous** user, by using the command: `login anonymous`
+After the installation, you should be able to execute commands within the **steamcmd.exe** command prompt that you ran before. You need to log in prior to being able to do anything, through the **anonymous** user, by using the command: `login anonymous`
 
 Once logged in, you can now begin downloading the files. 
 
@@ -48,11 +48,11 @@ Now run the command `app_update 2915550` which will begin the download. The App 
 Please do not interrupt the process before it is completed to avoid mistakes. It may take a moment, but it's worth being patient! :)
 :::
 
-Once successful, head over to the download directory where all of the server files have been downloaded. Here, you can use the **FoundryDedicatedServerLauncher.exe** to start the server. However, we recommend port forwarding and configuring your server first.
+Once successful, head over to the download directory, where all of the server files have been downloaded. Here, you can use the **FoundryDedicatedServerLauncher.exe** to start the server. However, we recommend port forwarding and configuring your server first.
 
 ### Port Forwarding your server
 
-In order to ensure that your server is accessible to the public, you must alter port forwarding rules for the ports that the dedicated server process is using. You can do this either through Powershell commands directly which is easier, or regularly through the Windows Defender Firewall page.
+In order to ensure that your server is accessible to the public, you must alter port forwarding rules for the ports that the dedicated server process is using. You can do this either through PowerShell commands directly, which is easier, or regularly through the Windows Defender Firewall page.
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
@@ -60,13 +60,13 @@ import TabItem from '@theme/TabItem';
 <Tabs>
 <TabItem value="powershell" label="Via Powershell" default>
 
-Open your Windows search box, and search for **Powershell**. Make sure to right-click and **Run as Administrator** so that permissions are accessible and everything works correctly.
+Open your Windows search box, and search for **PowerShell**. Make sure to right-click and **Run as Administrator** so that permissions are accessible and everything works correctly.
 
 :::info
-Ensure you run your Powershell in Administrator mode, otherwise the settings may not apply correctly.
+Ensure you run your PowerShell in Administrator mode, otherwise the settings may not apply correctly.
 :::
 
-Next, copy and paste the following commands into your Powershell Prompt:
+Next, copy and paste the following commands into your PowerShell Prompt:
 ```
 New-NetFirewallRule -DisplayName "Foundry Server" -Direction Inbound -LocalPort 3724,27015  -Protocol TCP -Action Allow
 New-NetFirewallRule -DisplayName "Foundry Server" -Direction Inbound -LocalPort 3724,27015 -Protocol UDP -Action Allow
@@ -93,15 +93,15 @@ Please use our [Windows port forwarding guide](vserver-windows-port.md) if you n
 </TabItem>
 </Tabs>
 
-Once you have added these rules, your server will now be accessible which means you will be able to connect to it through your server's IP address. You can do this by heading over to Multiplayer from the main menu, entering IP Direct Connect and inputting your IP address and port used, which is 3724 by default and as you have setup.
+Once you have added these rules, your server will now be accessible, which means you will be able to connect to it through your server's IP address. You can do this by heading over to Multiplayer from the main menu, entering IP Direct Connect and inputting your IP address and port used, which is 3724 by default and as you have set up.
 
 We recommend that you configure your server settings first through the following section before accessing your server.
 
 ## Configuration
 
-By this stage, you have finished the setup for your Foundry server. You can perform further server configuration through a configuration file. Naviate back to your game folder, and create a new **app.cfg** file (if it doesn't exist already) in the root directory. This should be created in the same folder as the **FoundryDedicatedServerLauncher.exe** server launch executable.
+By this stage, you have finished the setup for your Foundry server. You can perform further server configuration through a configuration file. Navigate back to your game folder, and create a new **app.cfg** file (if it doesn't exist already) in the root directory. This should be created in the same folder as the **FoundryDedicatedServerLauncher.exe** server launch executable.
 
-Now you can open up the **app.cfg** file with notepad or an editor of your choice, and start adding configuration options for parameters you wish to adjust. You should simply create a new line for each parameter you wish to add with an equals, follwed by the value you wish to set it to.
+Now you can open up the **app.cfg** file with notepad or an editor of your choice, and start adding configuration options for parameters you wish to adjust. You should simply create a new line for each parameter you wish to add with an equals, followed by the value you wish to set it to.
 
 As an example, here are three configuration options that are set:
 ```
@@ -116,7 +116,7 @@ See our [Foundry Server Configuration guide](foundry-configuration.md) to view a
 
 Now it is time to start your server. Head over to the root directory and run **FoundryDedicatedServerLauncher.exe** to begin the start up process. This will open the server's console in a command prompt and begin the startup process.
 
-You will now be able to direct connect to your server via your IP by heading to **Multiplayer->IP Direct Connect** and inputting your server's IP address and 3724 port which is the default and the one you have port forwarded.
+You will now be able to direct connect to your server via your IP by heading to **Multiplayer->IP Direct Connect** and inputting your server's IP address and 3724 port, which is the default and the one you have port forwarded.
 
 If you wish your server to be available in the server list, please check out our [Foundry Server Configuration guide](foundry-configuration.md) and add the appropriate `server_name` and `server_is_public` parameters into your configuration file. Save the file once done and run the server executable again.
 

@@ -1,5 +1,5 @@
 ---
-id: vserver-windows-foundry
+id: server-windows-foundry
 title: "Server: Foundry Dedicated Server Setup"
 description: Informationen zum Einrichten eines Foundry Dedicated Servers auf einem VPS/Root-Server/Dedicated Server - ZAP-Hosting.com Dokumentation
 sidebar_label: Foundry
@@ -7,11 +7,11 @@ sidebar_label: Foundry
 
 import YouTube from '@site/src/components/YouTube/YouTube';
 
-## Einleitung
+## Einführung
 
 Hast du einen Windows VPS, Root Server oder Dedicated Server und möchtest den Foundry Dedicated Server Service darauf installieren? Dann bist du hier genau richtig. In dieser Anleitung erklären wir dir Schritt für Schritt, wie du diesen Dienst auf deinem Server installierst.
 
-<YouTube videoId="bRsZNqKsghA" title="How To Setup Foundry Dedicated Server on Windows VPS!" description="Feel like you understand better when you see things in action?  We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
+<YouTube videoId="bRsZNqKsghA" title="How To Setup Foundry Dedicated Server on Windows VPS!" description="Hast du das Gefühl, dass du etwas besser verstehst, wenn du es in Aktion siehst? Wir haben etwas für dich! Tauche ab in unser Video, welches alles für dich zusammenfasst. Egal, ob du es eilig hast oder einfach nur Informationen auf möglichst verständliche Art und Weise aufnehmen möchtest!"/>
 
 ## Vorbereitung
 
@@ -35,6 +35,7 @@ Sobald du eingeloggt bist, kannst du mit dem Herunterladen der Dateien beginnen.
 
 :::tip
 Optional: Du kannst dein bevorzugtes Installationsverzeichnis festlegen, indem du den Befehl `force_install_dir [path]` verwendest und dabei `[path]` durch den Pfad ersetzt, den du für deinen Server verwenden möchtest. Zum Beispiel: 
+
 ```
 force_install_dir C:\Foundry-Server
 ```
@@ -60,13 +61,13 @@ import TabItem from '@theme/TabItem';
 <Tabs>
 <TabItem value="powershell" label="Über Powershell" default>
 
-Öffne dein Windows-Suchfeld und suche nach **Powershell**. Achte darauf, dass du mit der rechten Maustaste klickst und **Als Administrator ausführen** wählst, damit die Berechtigungen zugänglich sind und alles richtig funktioniert.
+Öffne dein Windows-Suchfeld und suche nach **PowerShell**. Achte darauf, dass du mit der rechten Maustaste klickst und **Als Administrator ausführen** wählst, damit die Berechtigungen zugänglich sind und alles richtig funktioniert.
 
 :::info
-Vergewissere dich, dass du die Powershell im Administratormodus ausführst, sonst werden die Einstellungen möglicherweise nicht korrekt übernommen.
+Vergewissere dich, dass du die PowerShell im Administratormodus ausführst, sonst werden die Einstellungen möglicherweise nicht korrekt übernommen.
 :::
 
-Als nächstes kopierst du die folgenden Befehle und fügst sie in deine Powershell-Eingabeaufforderung ein:
+Als Nächstes kopierst du die folgenden Befehle und fügst sie in deine Powershell-Eingabeaufforderung ein:
 ```
 New-NetFirewallRule -DisplayName "Foundry Server" -Direction Inbound -LocalPort 3724,27015 -Protocol TCP -Action Allow
 New-NetFirewallRule -DisplayName "Foundry Server" -Direction Inbound -LocalPort 3724,27015 -Protocol UDP -Action Allow
@@ -88,7 +89,7 @@ Du musst neue Regeln für deinen Foundry-Server erstellen. Dazu klickst du auf d
 - TCP eingehend und ausgehend: 3724, 27015
 - UDP eingehend und ausgehend: 3724, 27015
 
-Bitte benutze unseren [Windows Port Forwarding Guide](vserver-windows-port.md), wenn du weitere Hilfe benötigst.
+Bitte benutze unseren [Windows Port freigeben Anleitung](vserver-windows-port.md), wenn du weitere Hilfe benötigst.
 
 </TabItem>
 </Tabs>

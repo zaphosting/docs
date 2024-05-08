@@ -1,9 +1,13 @@
 ---
-id: foundry-connect
-title: "Foundry: Mit Foundry Server verbinden"
+id: foundry-firststeps-connect
+title: "Foundry: Zum Server verbinden"
 description: Informationen zur Verbindung mit einem Foundry-Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
-sidebar_label: Mit dem Server verbinden
+sidebar_label: Zum Server verbinden
 ---
+
+
+
+## Einführung
 
 In dieser Anleitung erfahren wir, wie du eine Verbindung zu deinem Foundry-Server herstellst. Es gibt zwei Möglichkeiten, eine Verbindung herzustellen: entweder direkt über die IP-Adresse deines Servers oder über die Serverliste. Wir empfehlen, den Server vorher nach deinen Wünschen zu konfigurieren. Mehr darüber erfährst du in unserer [Foundry-Konfigurationsanleitung](foundry-configuration.md).
 
@@ -35,7 +39,7 @@ Wenn du dich nicht erfolgreich mit dem Server verbinden kannst und eine Timeout-
 
 Die einfachste Möglichkeit, sich mit deinem Server zu verbinden, ist über die Serverliste. Dazu muss dein Server jedoch in den Serverkonfigurationsparametern auf öffentlich eingestellt sein. 
 
-Sieh dir bitte unsere [Foundry Server Configuration guide](foundry-configuration.md) an, um die entsprechenden Parameter "server_name" und "server_is_public" in deiner Konfigurationsdatei oder über das Webinterface hinzuzufügen.
+Sieh dir bitte unsere [Foundry Server Konfigurationsanleitung](foundry-configuration.md) an, um die entsprechenden Parameter "server_name" und "server_is_public" in deiner Konfigurationsdatei oder über das Webinterface hinzuzufügen.
 
 Wenn das erledigt ist, wähle im Hauptmenü **Multiplayer** und dann die Option **Join Steam Server**. Suche hier nach dem Servernamen, den du in der Konfiguration festgelegt hast, und du solltest deinen Server finden und dich verbinden können.
 

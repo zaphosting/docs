@@ -855,12 +855,13 @@ const sidebars = {
           type: "category",
           label: "First Steps",
           items: [
-            "foundry-firststeps-dashboard"
+            "foundry-firststeps-dashboard",
+            "foundry-firststeps-connect"
           ]
         },
         "foundry-configuration",
         "foundry-server-savegames",
-        "foundry-connect"
+
       ],
     },
     {
@@ -1412,7 +1413,7 @@ const sidebars = {
       items: [
         'vserver-windows-arksurvivalascended',
         'vserver-windows-enshrouded',
-        'vserver-windows-foundry',
+        'server-windows-foundry',
         'vserver-windows-fs-19',
         'vserver-windows-fs-22',
         'vserver-windows-palworld',
@@ -1526,7 +1527,7 @@ const sidebars = {
       items: [
         'vserver-windows-arksurvivalascended',
         'vserver-windows-enshrouded',
-        'vserver-windows-foundry',
+        'server-windows-foundry',
         'vserver-windows-fs-19',
         'vserver-windows-fs-22',
         'vserver-windows-palworld',

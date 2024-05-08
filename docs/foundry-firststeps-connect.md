@@ -1,9 +1,13 @@
 ---
-id: foundry-connect
+id: foundry-firststeps-connect
 title: "Foundry: Connect to Foundry Server"
 description: Information about connecting to a Foundry server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Connect to Server
 ---
+
+
+
+## Introduction
 
 In this guide, we will explore how to connect to your Foundry server. There are two methods of connecting, either directly via the IP address of your server or through the server list. We recommend configurating the server to your likings beforehand, learn more about this through our [Foundry Configuration guide](foundry-configuration.md).
 
@@ -23,7 +27,7 @@ Begin by launching Foundry from your game launcher. In the main menu, select **M
 
 ![image](https://screensaver01.zap-hosting.com/index.php/s/KS9jQiZtgzfkfaW/preview)
 
-A prompt will appear and into this your should input the details of your server including the IP Address and Port that you previously obtained from your webinterface, or the IP and Port of your own external dedicated server instance.
+A prompt will appear and into this you should input the details of your server including the IP Address and Port that you previously obtained from your webinterface, or the IP and Port of your own external dedicated server instance.
 
 There is also an optional password field which you should use if your server has a password configured, otherwise you may leave this empty.
 

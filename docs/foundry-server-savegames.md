@@ -5,7 +5,7 @@ description: Information on how to manage savegames on your Foundry server from 
 sidebar_label: Manage Savegames
 ---
 
-In this guide, we will explore how to manage your Foundry Gamesaves on your gameserver, including backing up your local and server savegames as well as uploading it to your server.
+In this guide, we will explore how to manage your Foundry Gamesaves on your game server, including backing up your local and server savegames as well as uploading it to your server.
 
 ## Prerequisites
 
@@ -35,7 +35,7 @@ At this location, you will be able to see a folder which will be your SteamID. O
 
 ### Accessing Savegame via FTP
 
-Backing up your Savegame from the server is simple. Once you have connected to your gameserver through an FTP Client, head over to the following path:
+Backing up your Savegame from the server is simple. Once you have connected to your game server through an FTP Client, head over to the following path:
 ```
 ../foundry/saves/save
 ```
@@ -46,11 +46,11 @@ At this location, you should be able to see folders which are each a Savegame. S
 
 ### Automatic Backup
 
-We also provide an option to automatically backup your Savegame (and configuration file) directly through our webinterface. Simply head over to your gameserver's webinterface and go to the **Tools->Backups** section. Here you can configure a variety of options to schedule automatic backups for your server. We provide you with 10gb free backup storage which your backups will be stored in. For further information regarding backups, have a look at our dedicated [Automatic Server Backup guide](gameserver-backups.md) for this topic.
+We also provide an option to automatically backup your Savegame (and configuration file) directly through our webinterface. Simply head over to your game server's webinterface and go to the **Tools->Backups** section. Here you can configure a variety of options to schedule automatic backups for your server. We provide you with 10gb free backup storage which your backups will be stored in. For further information regarding backups, have a look at our dedicated [Automatic Server Backup guide](gameserver-backups.md) for this topic.
 
 ## Uploading Savegame
 
-Similarly to backing up, uploading your Savegame is simple. First ensure that you connect to your gameserver through an FTP Client. Once you are ready, head over to the following path:
+Similarly to backing up, uploading your Savegame is simple. First ensure that you connect to your game server through an FTP Client. Once you are ready, head over to the following path:
 ```
 ../foundry/saves/save
 ```
@@ -60,13 +60,13 @@ Similarly to backing up, uploading your Savegame is simple. First ensure that yo
 Simply drag and drop any of your Savegames into this folder through your FTP Client and it will be uploaded to your server.
 
 :::tip
-It may be useful to copy the name of the Gamesave folder that you have uploaded as you will need this if you wish to activate it in the next section.
+It may be useful to copy the name of the Gamesave folder that you have uploaded, as you will need this if you wish to activate it in the next section.
 :::
 
 ## Activating Savegame
 
 In order to use a specific Savegame, you will have to edit a configuration file. There are a few methods of doing this, we will cover doing this through the webinterface since this is the most user-friendly. If you wish to see other methods of editing the file, please see our [Foundry Configuration guide](foundry-configuration.md) which covers this.
 
-Simply head over to the **Settings** section on your gameserver's webinterface and find the **Savename** setting.
+Simply head over to the **Settings** section on your game server's webinterface and find the **Savename** setting.
 
 Change this setting to the name of the savegame folder that you uploaded in the previous step. Once ready, ensure that you save at the bottom using the green **Save** button and then restart your server.

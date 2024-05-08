@@ -5,7 +5,10 @@ description: Informationen zur Konfiguration eines Foundry Gameservers von ZAP-H
 sidebar_label: Server-Konfiguration
 ---
 
-Foundry-Server werden mit einer Vielzahl von Konfigurationsparametern geliefert, die du nach deinen Wünschen anpassen kannst. In diesem Leitfaden gehen wir auf alle derzeit verfügbaren Konfigurationsparameter ein und erklären sie genauer.
+
+## Einführung
+
+Foundry-Server werden mit einer Vielzahl von Konfigurationsparametern geliefert, die du nach deinen Wünschen anpassen kannst. In dieser Anleitung gehen wir auf alle derzeit verfügbaren Konfigurationsparameter ein und erklären sie genauer.
 
 ## Zugriff auf deine Konfigurationsdatei
 
@@ -58,7 +61,7 @@ Die letzte Methode, um auf die Rohdatei zuzugreifen, ist über FTP. Wenn du dich
 In der folgenden Tabelle stellen wir wichtige Serverkonfigurationsoptionen vor, die derzeit auf Foundry-Servern verfügbar sind.
 
 :::tip
-Wir raten davon ab, die Port-Einstellungen zu ändern, da diese automatisch vom Gameserver konfiguriert werden. Wenn du die Port-Werte änderst, kann es passieren, dass dein Gameserver kaputt geht!
+Wir raten davon ab, die Port-Einstellungen zu ändern, da diese automatisch vom Gameserver konfiguriert werden. Wenn du die Port-Werte änderst, kann es passieren, dass dein Gameserver kaputtgeht!
 :::
 
 ### Wichtige Servereinstellungen
