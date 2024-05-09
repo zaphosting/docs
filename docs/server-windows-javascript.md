@@ -64,7 +64,7 @@ Once finished, you can simply press `Finish` on the final page and start using N
 
 ### Update Node.js to latest version
 
-Running `node -v` will show you the installed version of Node.js. From time to time, you should check that you're running the latest LTS version. To update Node.js, you need to follow the provided [install section](server-windows-JavaScript#Node.js) again.
+Running `node -v` will show you the installed version of Node.js. From time to time, you should check that you're running the latest LTS version. To update Node.js, you need to follow the provided [install section](server-windows-javascript#node.js) again.
 
 ### Running Node.js & npm
 
