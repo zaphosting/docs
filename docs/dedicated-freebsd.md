@@ -48,7 +48,7 @@ You could choose optional system packages which should be installed, after you'r
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/zTSBQRGRFLHDxDo/preview)
 
-In this step you could create partitions, in this example we're using a RAID0. More information about RAIDs are explained in [our special guide.](https://zap-hosting.com/guides/docs/dedicated-raid)
+In this step you could create partitions, in this example we're using a RAID0. More information about RAIDs are explained in [our special guide.](dedicated-raid.md)
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/DTk5zgjbpCWwbmp/preview)
 

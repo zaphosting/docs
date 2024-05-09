@@ -24,7 +24,7 @@ Since Palworld's release, new exciting mods have begun to appear online to impro
 At present time, you can view and download available mods through 3rd party modding sites. We can recommend using sites such as [Nexus Mods](https://www.nexusmods.com/palworld/) or [Curseforge](https://www.curseforge.com/palworld/) which are reputable within the modding space. You cannot download mods through Steam Workshop at this current time.
 
 :::note
-ZAP-Hosting is not liable for any potential modifications/damage to your server files or world by installing mods. We heavily advise you to make backups before continuing. Learn more about backups through our dedicated [Palworld Savegame guide](https://zap-hosting.com/guides/docs/palworld-server-savegames) which explores this in further detail.
+ZAP-Hosting is not liable for any potential modifications/damage to your server files or world by installing mods. We heavily advise you to make backups before continuing. Learn more about backups through our dedicated [Palworld Savegame guide](palworld-server-savegames.md) which explores this in further detail.
 :::
 
 :::info

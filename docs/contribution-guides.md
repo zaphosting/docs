@@ -133,7 +133,7 @@ You can use the **Preview** button at the top of the edit window to switch to th
 Please keep in mind that some Docusaurus-specific elements such as admonitions (tags like `:::note`, `:::tip` etc.) may not show up correctly when previewing through GitHub. This is because they aren't part of traditional Markdown, however, they will display correctly during local testing and production.
 :::
 
-Please refer to the [ZAP Guides Guidelines](https://zap-hosting.com/guides/docs/contribution-guidelines) for everything regarding Markdown, structure, terminology and more.
+Please refer to the [ZAP Guides Guidelines](contribution-guidelines.md) for everything regarding Markdown, structure, terminology and more.
 
 Once you have performed your changes, use the **Commit changes...** button which will display a prompt.
 

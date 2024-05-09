@@ -13,7 +13,7 @@ In this guide, you will explore how to manage your Myth of Empires Gamesaves on 
 
 In order to access your server files, you will require an FTP Client such as [WinSCP](https://winscp.net/eng/index.php) or [FileZilla](https://filezilla-project.org/) which are both open-source and free to download.
 
-You will have to connect to your server through an FTP Client using the credentials that are found under **Tools->FTP-Broswer** on your game server's webinterface. Please use our [FTP File Access guide](https://zap-hosting.com/guides/docs/gameserver-ftpaccess) as further assistance to connect to your server.
+You will have to connect to your server through an FTP Client using the credentials that are found under **Tools->FTP-Broswer** on your game server's webinterface. Please use our [FTP File Access guide](gameserver-ftpaccess.md) as further assistance to connect to your server.
 
 ## Backup Savegame
 

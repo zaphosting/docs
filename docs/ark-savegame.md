@@ -53,7 +53,7 @@ For this, you should use the regular **Ark: SE** game server variant (without th
 
 Once you have downloaded your `.zip` save file, you will have to unzip it using a program such as 7zip or Winrar. For either type of game server and save file, the upload process is the same.
 
-Now you will have to access your server through FTP in order to upload your save files. Please use our [FTP Access](https://zap-hosting.com/guides/docs/gameserver-ftpaccess/) guide if you require assistance for logging in via your preferred FTP client and transferring files.
+Now you will have to access your server through FTP in order to upload your save files. Please use our [FTP Access](gameserver-ftpaccess.md) guide if you require assistance for logging in via your preferred FTP client and transferring files.
 
 With your FTP client open, head over to the following subdirectory within your game server:
 ```

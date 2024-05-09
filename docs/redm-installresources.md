@@ -34,7 +34,7 @@ The directory structure typically looks like:
 /gXXXXXX/redm/server-data/resources
 ```
 
-Certain resources cooperate with a database and therefore often already contain SQL files that have to be imported into the database. If this is the case, head over to our [SQL File Import](https://zap-hosting.com/guides/docs/redm-sql-file-import) guide to learn more about how to do this.
+Certain resources cooperate with a database and therefore often already contain SQL files that have to be imported into the database. If this is the case, head over to our [SQL File Import](redm-sql-file-import.md) guide to learn more about how to do this.
 
 ### Activation
 

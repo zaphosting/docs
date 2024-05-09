@@ -43,7 +43,7 @@ The directory structure typically looks like:
 The directory structure of the FiveM TxAdmin game server differs from the rest of the FiveM products, as they contain their own template directory. The resources are also located in the template directory.
 :::
 
-Certain resources cooperate with a database and therefore often already contain SQL files that have to be imported into the database. If this is the case, head over to our [SQL File Import](https://zap-hosting.com/guides/docs/fivem-sql-file-import) guide to learn more about how to do this.
+Certain resources cooperate with a database and therefore often already contain SQL files that have to be imported into the database. If this is the case, head over to our [SQL File Import](fivem-sql-file-import.md) guide to learn more about how to do this.
 
 ### Activation
 

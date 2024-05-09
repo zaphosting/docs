@@ -29,7 +29,7 @@ Don't see anything here? Please make sure to launch Sunkenland and create a worl
 ## Upload Savegame
 The next step involves connecting to your game server via FTP, and uploading the savegame that you selected in the previous step.
 
-Begin by connecting to your server through an FTP Client using the credentials that are found under **Tools->FTP-Broswer** on your game server's webinterface. Please use our [FTP File Access guide](https://zap-hosting.com/guides/docs/gameserver-ftpaccess) as further assistance to connect to your server.
+Begin by connecting to your server through an FTP Client using the credentials that are found under **Tools->FTP-Broswer** on your game server's webinterface. Please use our [FTP File Access guide](gameserver-ftpaccess.md) as further assistance to connect to your server.
 
 Once connected, head over the the Sunkenland folder and open the "AppData" folder and then the "Worlds" folder, select the savegame from the previous step and upload it to this folder.
 
