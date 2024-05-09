@@ -25,7 +25,7 @@ Dein Server wird nun neu gestartet und der Cache gelöscht. Wenn der Server neu 
 
 ### Zugriff per FTP
 
-Zunächst musst du dich per FTP mit deinem Server verbinden. Wenn du mit der Verwendung von FTP nicht vertraut bist, empfehlen wir dir, einen Blick in die [FTP file access](gameserver-ftpaccess.md) Anleitung zu werfen.
+Zunächst musst du dich per FTP mit deinem Server verbinden. Wenn du mit der Verwendung von FTP nicht vertraut bist, empfehlen wir dir, einen Blick in die [Zugriff per FTP](gameserver-ftpaccess.md) Anleitung zu werfen.
 
 ![image](https://user-images.githubusercontent.com/13604413/159137768-9431a8d8-afa2-47a7-960b-7bcd700c9627.png)
 
