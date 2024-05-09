@@ -7,7 +7,7 @@ sidebar_label: Install Python
 
 ## Introduction
 
-This guide provides steps for the installation of Python runtime on Windows. The steps provided below must be executed via RDP, if you don't know how to connect to your server via RDP, please have a look at our [Initial access (RDP) guide](vserver-windows-userdp.md). If you are running a Linux OS on your server you can follow [this guide](server-linux-python.md).
+This guide provides steps for the installation of Python runtime on Windows. The steps provided below must be executed via RDP, if you don't know how to connect to your server via RDP, please have a look at our [Initial access (RDP) guide](vserver-windows-userdp.md).
 
 ## Installation
 
