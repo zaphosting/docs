@@ -134,16 +134,6 @@ Wir bieten eine umfangreiche Dokumentation zu unseren Produkten an, die als Wiss
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/QrEL7ABJtS9yBcS/preview)
 
-Zu deinem Produkt bieten wir ebenfalls weitere Anleitungen an. Das beinhaltet beispielsweise folgende Anleitungen: 
-
-| Anleitungen        | Seite                                                        |
-| ------------------ | ------------------------------------------------------------ |
-| Auth Key erstellen | [Anleitung aufrufen](beammp-authkey.md) |
-| Mods installieren  | [Anleitung aufrufen](beammp-mods.md) |
-<p style={{textAlign: 'center'}}>Liste zuletzt aktualisiert am 03.05.2023</p>
-
-
-
 
 ## Einstellungen
 

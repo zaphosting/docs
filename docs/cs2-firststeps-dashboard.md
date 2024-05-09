@@ -133,16 +133,6 @@ We offer extensive documentation for our products, which serves as a knowledge b
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/SyxK6CFgedeL2GF/preview)
 
-We also offer guides for your product. This includes for example the following guides: 
-
-| Guides               | Page                                                         |
-| -------------------- | ------------------------------------------------------------ |
-| Server configuration | [View guide](https://zap-hosting.com/guides/docs/cs2-configuration) |
-| CSTV                 | [View guide](https://zap-hosting.com/guides/docs/cs2-cstv)   |
-| Install plugins      | [View guide](https://zap-hosting.com/guides/docs/cs2-plugins) |
-
-
-
 
 ## Settings
 
