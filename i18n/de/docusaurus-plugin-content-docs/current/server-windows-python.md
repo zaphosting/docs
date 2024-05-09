@@ -7,7 +7,7 @@ sidebar_label: Python installieren
 
 ## Einführung
 
-Diese Anleitung liefert Schritte zur Installation der Python-Laufzeitumgebung auf Windows. Die unten aufgeführten Schritte müssen über RDP ausgeführt werden. Wenn du nicht weißt, wie man sich über RDP mit deinem Server verbindet, schau dir bitte unsere [Erstzugriff (RDP) Anleitung](vserver-windows-userdp.md) an. Wenn du ein Linux-Betriebssystem auf deinem Server verwendest, kannst du [dieser Anleitung](server-linux-python.md) folgen.
+Diese Anleitung liefert Schritte zur Installation der Python-Laufzeitumgebung auf Windows. Die unten aufgeführten Schritte müssen über RDP ausgeführt werden. Wenn du nicht weißt, wie man sich über RDP mit deinem Server verbindet, schau dir bitte unsere [Erstzugriff (RDP) Anleitung](vserver-windows-userdp.md) an.
 
 ## Installation
 
