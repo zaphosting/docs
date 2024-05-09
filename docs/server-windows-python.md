@@ -1,5 +1,5 @@
 ---
-id: vserver-windows-python
+id: server-windows-python
 title: 'Server: Installation of Python'
 description: Information on how to install and run Python on your Windows server from ZAP-Hosting.com - ZAP-Hosting.com documentation
 sidebar_label: Install Python
@@ -7,7 +7,7 @@ sidebar_label: Install Python
 
 ## Introduction
 
-This guide provides steps for the installation of Python runtime on Windows. The steps provided below must be executed via RDP, if you don't know how to connect to your server via RDP, please have a look at our [Initial access (RDP) guide](https://zap-hosting.com/guides/docs/vserver-windows-userdp). If you are running a Linux OS on your server you can follow [this guide](https://zap-hosting.com/guides/docs/vserver-linux-python).
+This guide provides steps for the installation of Python runtime on Windows. The steps provided below must be executed via RDP, if you don't know how to connect to your server via RDP, please have a look at our [Initial access (RDP) guide](vserver-windows-userdp.md). If you are running a Linux OS on your server you can follow [this guide](server-linux-python.md).
 
 ## Installation
 
@@ -40,13 +40,13 @@ Now that you have Python installed on your server, you can start running your Py
 
 ### Interpreter mode
 
-Running the `python` command inside a Command Prompt or Powershell instance will now start the Python interpreter. You can start writing any valid Python code after the `>>>` prefix and it will be executed after pressing `Enter`. You can close the interpreter once you are finished by running `exit()` into the console or simply closing the prompt.
+Running the `python` command inside a Command Prompt or PowerShell instance will now start the Python interpreter. You can start writing any valid Python code after the `>>>` prefix and it will be executed after pressing `Enter`. You can close the interpreter once you are finished by running `exit()` into the console or simply closing the prompt.
 
 ![Python Interpreter mode](https://imgur.com/AQSm2hX.png)
 
 ### Running .py files
 
-In order to run `.py` Python files, you can simply use the `python3 [filename].py` command, replacing `[filename]` with the path to the target file name you wish to run. This is once again done through a Command Prompt or Powershell instance.
+In order to run `.py` Python files, you can simply use the `python3 [filename].py` command, replacing `[filename]` with the path to the target file name you wish to run. This is once again done through a Command Prompt or PowerShell instance.
 
 :::tip
 Most programs you can find online can be run with the `python3 main.py` because `main.py` is the common starting point of most Python programs.
@@ -60,7 +60,7 @@ When writing a Python program you might need to install external packages from p
 
 ### Creating the venv
 
-Firstly, navigate to the folder where you wish to setup your venv using the file explorer and once ready, run `python -m venv .` which will install the required files at the current location.
+Firstly, navigate to the folder where you wish to set up your venv using the file explorer and once ready, run `python -m venv .` which will install the required files at the current location.
 
 ### Activating & deactivating
 
