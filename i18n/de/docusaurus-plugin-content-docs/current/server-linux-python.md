@@ -113,7 +113,7 @@ Durch das Ausführen des Befehls `python3` wird der Python-Interpreter gestartet
 
 Um `.py` Python-Dateien auszuführen, kannst du einfach den Befehl `python3 [Dateiname].py` verwenden, wobei `[Dateiname]` durch den Pfad zum gewünschten Dateinamen ersetzt wird, den du ausführen möchtest.
 
-:::Tipp
+:::tip
 Die meisten Programme, die du online findest, können mit dem Befehl `python3 main.py` ausgeführt werden, da `main.py` der übliche Startpunkt der meisten Python-Programme ist.
 :::
 
