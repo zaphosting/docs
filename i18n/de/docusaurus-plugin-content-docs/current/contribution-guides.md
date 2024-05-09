@@ -133,7 +133,7 @@ Jetzt, wo deine Datei fertig ist, kannst du damit fortfahren, den Inhalt zu schr
 Bitte beachte, dass einige Docusaurus-spezifische Elemente wie Ermahnungen (Tags wie `:::note`, `:::tip` usw.) bei der Vorschau über GitHub möglicherweise nicht korrekt angezeigt werden. Das liegt daran, dass sie nicht Teil des traditionellen Markdowns sind. Sie werden jedoch bei lokalen Tests und in der Produktion korrekt angezeigt.
 :::
 
-In den [ZAP Guides Guidelines](contribution-guidelines.md) findest du alle Informationen zu Markdown, Struktur, Terminologie und mehr.
+In den [ZAP Guides Guidelines](contribution-guides-guidelines.md) findest du alle Informationen zu Markdown, Struktur, Terminologie und mehr.
 
 Wenn du deine Änderungen vorgenommen hast, klickst du auf die Schaltfläche **Änderungen bestätigen...**, woraufhin eine Aufforderung erscheint.
 
