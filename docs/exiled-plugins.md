@@ -15,7 +15,7 @@ With plugins you have the possibility to customize your server even more. Below 
 First of all, you need to download the plugins that will be installed on the server. A large selection of EXILED Plugins can be found on their own github (https://github.com/Exiled-Team) and once selected the plugin repo, a releases section will appear on the side to which you will be brought to a download page, instructions on how to do this will be shown below.
 
 ### Downloading a plugin
-Plugins can be downloaded from many sources for your server. However these are only recognised as the safest options. Please be careful with which plugins you install onto your gameserver - Always check the source of the plugin by looking for its developers and what the plugin actually does.
+Plugins can be downloaded from many sources for your server. However these are only recognised as the safest options. Please be careful with which plugins you install onto your game server - Always check the source of the plugin by looking for its developers and what the plugin actually does.
 
 ## Download
 To download a plugin via the github you will need to head to the [EXILED Github page](https://github.com/Exiled-Team) as shown below and select a plugin-repo.

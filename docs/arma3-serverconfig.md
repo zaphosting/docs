@@ -11,8 +11,8 @@ sidebar_label: Server.cfg
 The Server.cfg of ArmA 3 is required for the operation of any ArmA 3 server and offers a variety of 
 Possibility to configure an ArmA 3 server individually.
 
-The Server.cfg is edited either directly via FTP on a pre-installed gameserver, root server or VPS. 
-With a gameserver the menu item Configs is also available on the left side in the gameserver interface, from there the
+The Server.cfg is edited either directly via FTP on a pre-installed game server, root server or VPS. 
+With a game server the menu item Configs is also available on the left side in the game server interface, from there the
 Server.cfg can be edited with a few clicks.
 
 

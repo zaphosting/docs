@@ -34,7 +34,7 @@ The GS/TS3 interface supports the setup of game servers, voice servers, and musi
 
 | Services    | Description / Content                             | VPS  | Root server | Dedicated Server |
 | ----------- | ------------------------------------------------- | ---- | ---------- | ---------------- |
-| Gameserver  | Linux based gameserver applications are supported | ✔️    | ✔️          | ✔️                |
+| Gameserver  | Linux based game server applications are supported | ✔️    | ✔️          | ✔️                |
 | Voiceserver | Teamspeak 3 servers are supported                 | ✔️    | ✔️          | ✔️                |
 | Musikbot    | Sinusbot is supported                             | ✔️    | ✔️          | ✔️                |
 
@@ -115,7 +115,7 @@ Setting up the game may take some time depending on the game. The progress is sh
 
 ## Installation of a voice server
 
-The installation of a **Voiceserver (Teamspeak 3 Server)** is similar to the installation of a gameserver. You must first click on "Gameserver / TS3" again. In this section you will find the option **Install voice server**, which you can click to start the installation process for the Teamspeak 3 server.
+The installation of a **Voiceserver (Teamspeak 3 Server)** is similar to the installation of a game server. You must first click on "Gameserver / TS3" again. In this section you will find the option **Install voice server**, which you can click to start the installation process for the Teamspeak 3 server.
 
 ![img](https://user-images.githubusercontent.com/61839701/165701625-b6443738-3b39-432e-a486-baedd6266bf6.png)
 

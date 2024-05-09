@@ -45,7 +45,7 @@ For example, if you have uploaded the resource with the folder name `eup-ui`, th
 start eup-ui
 ```
 
-You can access your `server.cfg` file either through FTP (as seen above), or via the **Configs** section on your gameserver's webinterface.
+You can access your `server.cfg` file either through FTP (as seen above), or via the **Configs** section on your game server's webinterface.
 
 :::info
 Please ensure that the name of the previously created folder is the same as what is found in the start command. This includes being case sensitive.
@@ -53,4 +53,4 @@ Please ensure that the name of the previously created folder is the same as what
 
 Finally, you can restart your server. The installed resource should now be loaded next time your server has fully started.
 
-You have successfully installed a resource into your RedM gameserver!
+You have successfully installed a resource into your RedM game server!

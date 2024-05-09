@@ -1,7 +1,7 @@
 ---
 id: openmp-configuration
 title: "Open.mp: Open.mp Server Configuration"
-description: Information about configuring an Open.mp gameserver from ZAP-Hosting - ZAP-Hosting.com documentation
+description: Information about configuring an Open.mp game server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Server Configuration
 ---
 
@@ -19,7 +19,7 @@ import TabItem from '@theme/TabItem';
 
 #### Via Webinterface
 
-The most user-friendly method to edit the basic settings is by heading over to the **Settings** section on your gameserver's webinterface and searching for the appropriate settings there, as seen below:
+The most user-friendly method to edit the basic settings is by heading over to the **Settings** section on your game server's webinterface and searching for the appropriate settings there, as seen below:
 
 ![image](https://github.com/zaphosting/docs/assets/42719082/5e65fc4a-45ec-4696-8170-e7c6384dac8d)
 
@@ -35,7 +35,7 @@ Keep in mind, not all configuration options will be accessible here. If you wish
 The Server must be stopped before the config can be edited, editing the config and restarting the server will result in any changes being undone.
 :::
 
-For users who wish to directly edit the file and all of the configuration options, you can access this by heading over to the **Configs** section on your gameserver's webinterface and pressing the blue edit file button, as seen below:
+For users who wish to directly edit the file and all of the configuration options, you can access this by heading over to the **Configs** section on your game server's webinterface and pressing the blue edit file button, as seen below:
 
 ![image](https://github.com/zaphosting/docs/assets/42719082/6a147644-8bfb-4e5d-bff5-3e2c5d999e64)
 
@@ -52,7 +52,7 @@ This will open up a text editor directly on the site to enable you to edit it.
 The Server must be stopped before the config can be edited, editing the config and restarting the server will result in any changes being undone.
 :::
 
-The final method of accessing the raw file, is through FTP. If you are not familiar with using FTP, we recommend you to have a look at the [FTP file access](gameserver-ftpaccess.md) guide. However, this method takes longer and if you wish to directly edit the file contents, we recommend simply using the **Configs** section on your gameserver's webinterface as mentioned.
+The final method of accessing the raw file, is through FTP. If you are not familiar with using FTP, we recommend you to have a look at the [FTP file access](gameserver-ftpaccess.md) guide. However, this method takes longer and if you wish to directly edit the file contents, we recommend simply using the **Configs** section on your game server's webinterface as mentioned.
 
 Once logged in via your FTP Client, head over to the following directory, replacing `[zap_id]` with your own ZAP ID:
 ```
@@ -109,7 +109,7 @@ Open.mp has a wide range of gameplay and networking options which lets you adjus
 If you wish to adjust all of the settings, we recommend reading [open.mp's config.json guide](https://www.open.mp/docs/server/config.json) which presents all of the configuration options that are currently available.
 
 :::tip
-We do not recommending changing the Port or IP settings, as these are automatically configured by the gameserver. Changing the IP/Port values may potentially break your gameserver!
+We do not recommending changing the Port or IP settings, as these are automatically configured by the game server. Changing the IP/Port values may potentially break your game server!
 :::
 
 | Parameter Name                 | Description                                                                                  | 

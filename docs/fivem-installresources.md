@@ -40,7 +40,7 @@ The directory structure typically looks like:
 ```
 
 :::info
-The directory structure of the FiveM TxAdmin gameserver differs from the rest of the FiveM products, as they contain their own template directory. The resources are also located in the template directory.
+The directory structure of the FiveM TxAdmin game server differs from the rest of the FiveM products, as they contain their own template directory. The resources are also located in the template directory.
 :::
 
 Certain resources cooperate with a database and therefore often already contain SQL files that have to be imported into the database. If this is the case, head over to our [SQL File Import](https://zap-hosting.com/guides/docs/fivem-sql-file-import) guide to learn more about how to do this.
@@ -54,10 +54,10 @@ For example, if you have uploaded the resource with the folder name `eup-ui`, th
 start eup-ui
 ```
 
-You can access your `server.cfg` file either through FTP (as seen above), or via the **Configs** section on your gameserver's webinterface.
+You can access your `server.cfg` file either through FTP (as seen above), or via the **Configs** section on your game server's webinterface.
 
 :::info
 Please ensure that the name of the previously created folder is the same as what is found in the start command. This includes being case sensitive.
 :::
 
-Finally, you can restart your server. The installed resource should now be loaded next time your server has fully started. You have successfully installed a resource into your FiveM gameserver!
+Finally, you can restart your server. The installed resource should now be loaded next time your server has fully started. You have successfully installed a resource into your FiveM game server!

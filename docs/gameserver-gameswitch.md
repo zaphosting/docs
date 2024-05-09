@@ -1,7 +1,7 @@
 ---
 id: gameserver-gameswitch
 title: 'Game server: Game switching with the gameservercloud'
-description: Information on how to install more games on your gameserver from ZAP-Hosting.com and how to switch between games - ZAP-Hosting.com documentation
+description: Information on how to install more games on your game server from ZAP-Hosting.com and how to switch between games - ZAP-Hosting.com documentation
 sidebar_label: Change the game
 
 ---
@@ -22,7 +22,7 @@ You will receive a warning message when changing the host system. Therefore you 
 Tip: You can upgrade / downgrade your game server to a lower number of slots and then use the ZAP Coins in your cashbox to unlock a higher slot price and switch to games with higher slot prices.
 :::
 
-* By using our gameserver cloud, you can install and switch between Minecraft modpacks for free.
+* By using our game server cloud, you can install and switch between Minecraft modpacks for free.
 
 :::info
 Minecraft modpacks have the same slot price. Since no host system change is necessary, no data is deleted when changing games. You can test a new modpack and reactivate your previous server as you need it.

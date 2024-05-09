@@ -1,7 +1,7 @@
 ---
 id: domain-gameserver-srv-link
-title: "Domain: Set up gameserver forwarding"
-description: Information on how to set up a forwarding from your domain to a gameserver - ZAP-Hosting.com documentation
+title: "Domain: Set up game server forwarding"
+description: Information on how to set up a forwarding from your domain to a game server - ZAP-Hosting.com documentation
 sidebar_label: Gameserver forwarding
 ---
 
@@ -10,14 +10,14 @@ Please note that it can always take up to 24 hours until changes to DNS entries 
 :::
 
 ## Introduction
-You can either forward your domain completely or only a subdomain to your gameserver. 
-This is useful because it allows people to connect to your gameserver via a domain, instead of having to remember complicated IP addresses composed of numbers only.
+You can either forward your domain completely or only a subdomain to your game server. 
+This is useful because it allows people to connect to your game server via a domain, instead of having to remember complicated IP addresses composed of numbers only.
 
 ## Functionality
 
-For forwarding the IP address, either a subdomain is created which forwards to the IP address of the gameserver, or you forward the entire domain without a subdomain.
-This would be sufficient if the gameserver uses the default port of the game.
-If the gameserver uses another port than the default port of the game, you need an additional **SRV entry** to forward the subdomain to the gameserver.
+For forwarding the IP address, either a subdomain is created which forwards to the IP address of the game server, or you forward the entire domain without a subdomain.
+This would be sufficient if the game server uses the default port of the game.
+If the game server uses another port than the default port of the game, you need an additional **SRV entry** to forward the subdomain to the game server.
 
 :::info
 Not all games support the forwarding of a domain to the game port via SRV entry, so inform yourself beforehand if your game supports SRV entries. 
@@ -27,7 +27,7 @@ your game supports SRV entries.
 
 ### SRV Service
 The service name depends on the game and always starts with an **underscore**.
-For example, the service name for a Minecraft gameserver is always **_minecraft** and for a FiveM gameserver **_cfx**.
+For example, the service name for a Minecraft game server is always **_minecraft** and for a FiveM game server **_cfx**.
 
 
 ### SRV protocol
@@ -36,7 +36,7 @@ Which protocol is used here also depends on the respective game, the specificati
 with an **underscore** and is either **_udp** or **_tcp**.
 
 ## Preparation
-To forward your domain to a gameserver without creating a subdomain, you first open your domain by
+To forward your domain to a game server without creating a subdomain, you first open your domain by
 in the dashboard, then open the DNS management from the menu on the left.
 
 ![image](https://user-images.githubusercontent.com/13604413/172062132-fbd375ad-4fee-4c28-af6f-370005f560eb.png)
@@ -80,7 +80,7 @@ At "**Name**" you have to enter the protocol and the connection domain. The doma
 ![image](https://user-images.githubusercontent.com/13604413/172062272-0394edff-aa9c-4587-9a17-77ac74dc3cb5.png)
 
 
-At the "**Value**" now three values have to be entered, first the priority which can be left at 0 by default, then as second the port of the gameserver in our example "25500" and last but not least the domain name of the just created "**A-Record**".
+At the "**Value**" now three values have to be entered, first the priority which can be left at 0 by default, then as second the port of the game server in our example "25500" and last but not least the domain name of the just created "**A-Record**".
 
 In our example it looks like this:
 
@@ -128,7 +128,7 @@ At "**Name**" you have to enter the protocol and the connection domain. The doma
 ![image](https://user-images.githubusercontent.com/13604413/172062652-3400e743-37ba-4906-8c30-8162d05c865c.png)
 
 
-At the "**Value**" now three values have to be entered, first the priority which can be left at 0 by default, then as second the port of the gameserver in our example "30300" and last but not least the domain name of the just created "**A-Record**".
+At the "**Value**" now three values have to be entered, first the priority which can be left at 0 by default, then as second the port of the game server in our example "30300" and last but not least the domain name of the just created "**A-Record**".
 
 In our example it looks like this:
 

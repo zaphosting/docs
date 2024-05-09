@@ -28,7 +28,7 @@ You must now fill the requested data as follows:
 
 ### Enter your Server IP
 
-You will find the IP of your server on your gameserver's webinterface panel, or in the **FTP-Browser** section on the webinterface.
+You will find the IP of your server on your game server's webinterface panel, or in the **FTP-Browser** section on the webinterface.
 
 :::note
 You need to enter the IP **without** the port.
@@ -44,15 +44,15 @@ Return back to the home page, and you will be able to see your newly registered 
 
 ## Configure Key
 
-Finally, you must head over to the **Settings** section on your gameserver's webinterface, and head over to the **Custom license key** field. In this field, paste the code that was generated.
+Finally, you must head over to the **Settings** section on your game server's webinterface, and head over to the **Custom license key** field. In this field, paste the code that was generated.
 
 ![image](https://github.com/zaphosting/docs/assets/42719082/c0475d70-bed9-4eaa-8d4c-c7cf121703d5)
 
 :::info
 **For txAdmin:**
-If you are using txAdmin version of the gameserver, you must instead define the key under the `sv_licensekey` parameter. You can access your `server.cfg` file either via your txAdmin interface panel, the **Configs** section on your gameserver's webinterface or directly through FTP access.
+If you are using txAdmin version of the game server, you must instead define the key under the `sv_licensekey` parameter. You can access your `server.cfg` file either via your txAdmin interface panel, the **Configs** section on your game server's webinterface or directly through FTP access.
 :::
 
 After you have set your custom license key, proceed to restart your RedM server.
 
-You have successfully set a custom license key for your RedM gameserver!
+You have successfully set a custom license key for your RedM game server!

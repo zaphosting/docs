@@ -63,7 +63,7 @@ Now the AC Server Manager can be closed, we now open the folder into which the C
 
 ![image](https://user-images.githubusercontent.com/13604413/159136258-33c0896a-2ec7-4c80-9fa1-1bf65ebdd083.png)
 
-These Configs can now be copied via Drag&Drop into the "cfg" folder of your gameserver.
+These Configs can now be copied via Drag&Drop into the "cfg" folder of your game server.
 
 ![image](https://user-images.githubusercontent.com/13604413/159136263-cb78e326-bdf5-40c5-9581-804b4f786ce9.png)
 

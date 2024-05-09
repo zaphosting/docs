@@ -1,7 +1,7 @@
 ---
 id: enshrouded-configuration
 title: "Enshrouded: Enshrouded Server Configuration"
-description: Information about configuring a Enshrouded gameserver from ZAP-Hosting - ZAP-Hosting.com documentation
+description: Information about configuring a Enshrouded game server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Server Configuration
 ---
 
@@ -21,7 +21,7 @@ import TabItem from '@theme/TabItem';
 
 #### Via Webinterface
 
-The most user-friendly method is by heading over to the **Settings** section on your gameserver's webinterface and searching for the appropriate settings there, as seen below:
+The most user-friendly method is by heading over to the **Settings** section on your game server's webinterface and searching for the appropriate settings there, as seen below:
 
 ![image](https://github.com/zaphosting/docs/assets/42719082/5e65fc4a-45ec-4696-8170-e7c6384dac8d)
 
@@ -35,7 +35,7 @@ The most user-friendly method is by heading over to the **Settings** section on 
 The Server must be stopped before the config can be edited, editing the config and restarting the server will result in any changes being undone.
 :::
 
-Alternatively, for users who wish to directly edit the raw file, you can access this by heading over to the **Configs** section on your gameserver's webinterface and pressing the blue edit file button, as seen below:
+Alternatively, for users who wish to directly edit the raw file, you can access this by heading over to the **Configs** section on your game server's webinterface and pressing the blue edit file button, as seen below:
 
 ![image](https://github.com/zaphosting/docs/assets/42719082/dc4699bc-33fa-447d-ac59-2960b3b080f9)
 
@@ -52,7 +52,7 @@ This will open up a text editor directly on the site to enable you to edit it.
 The Server must be stopped before the config can be edited, editing the config and restarting the server will result in any changes being undone.
 :::
 
-The final method of accessing the raw file, is through FTP. If you are not familiar with using FTP, we recommend you to have a look at the [FTP file access](gameserver-ftpaccess.md) guide. However, this method takes longer and if you wish to directly edit the file contents, we recommend simply using the **Configs** section on your gameserver's webinterface as mentioned.
+The final method of accessing the raw file, is through FTP. If you are not familiar with using FTP, we recommend you to have a look at the [FTP file access](gameserver-ftpaccess.md) guide. However, this method takes longer and if you wish to directly edit the file contents, we recommend simply using the **Configs** section on your game server's webinterface as mentioned.
 
 </TabItem>
 </Tabs>
@@ -62,7 +62,7 @@ The final method of accessing the raw file, is through FTP. If you are not famil
 These are the currently available server configuration options that are provided by the game for customising your server, most notably the server name, password as well as some internal settings.
 
 :::tip
-We do not recommending changing the Port, IP or Directory settings, as these are automatically configured by the gameserver. Changing these values may potentially break your gameserver!
+We do not recommending changing the Port, IP or Directory settings, as these are automatically configured by the game server. Changing these values may potentially break your game server!
 :::
 
 | Parameter Name | Example                                 | Description                                                 |

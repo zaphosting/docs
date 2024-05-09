@@ -13,13 +13,13 @@ First open pastebin.com in a webbrowser of your choice.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/YR7WHx7x4qmJ3NQ/preview)
 
-Insert now your desired description of your gameserver into the textfield and press 'Create New Paste'
+Insert now your desired description of your game server into the textfield and press 'Create New Paste'
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/FeDXeMFZg5SYDXq/preview)
 
 Your Pastebin-Entry was successfully created. Copy the ID of the entry in your addressbar from your browser.
 
-Now paste the copied ID into the settings of your gameserver, which you can find in your servers dashboard.
+Now paste the copied ID into the settings of your game server, which you can find in your servers dashboard.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/kT5wsgeC2fE434d/preview)
 
