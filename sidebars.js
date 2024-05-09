@@ -1569,7 +1569,8 @@ const sidebars = {
     'domain-expertdns',
     'domain-records',
     'domain-gameserver-srv-link',
-    'domain-teamspeak-redirect',		
+    'domain-teamspeak-redirect',
+    'domain-cloudflare-setup',
     {
       type: 'html',
       className: 'sidebar-title',
