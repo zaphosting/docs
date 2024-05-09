@@ -89,7 +89,7 @@ Du musst neue Regeln für deinen Enshrouded-Server erstellen. Klicke dazu auf di
 - TCP eingehend und ausgehend: 15636-15637
 - UDP eingehend und ausgehend: 15636-15637
 
-Bitte benutze unseren [Windows Port Forwarding Guide](vserver-windows-port.md), wenn du weitere Hilfe dabei brauchst.
+Bitte benutze unsere [Windows Port Weiterleitung Anleitung](vserver-windows-port.md), wenn du weitere Hilfe dabei brauchst.
 
 </TabItem>
 </Tabs>
@@ -97,7 +97,7 @@ Bitte benutze unseren [Windows Port Forwarding Guide](vserver-windows-port.md), 
 Wenn du diese Regeln hinzugefügt hast, ist dein Server jetzt erreichbar, d.h. du kannst dich über die IP-Adresse deines Servers mit ihm verbinden. Das kannst du tun, indem du deinen Charakter im Hauptmenü auswählst, zum Reiter **Spiele finden** gehst und auf **Server hinzufügen** drückst. Hier gibst du die IP-Adresse deines Servers sowie den Port (standardmäßig 15636) und dein Server-Passwort ein (falls festgelegt, sonst leer lassen).
 
 :::tip
-Sieh dir unsere [Enshrouded Server Configuration guide](enshrouded-configuration.md) an, wenn du ein Passwort für deinen Server aktivieren und die Einstellungen anpassen möchtest.
+Sieh dir unsere [Enshrouded Server Konfiguration Anleitung](enshrouded-configuration.md) an, wenn du ein Passwort für deinen Server aktivieren und die Einstellungen anpassen möchtest.
 :::
 
 Wir empfehlen, dass du deine Servereinstellungen zuerst über den folgenden Abschnitt konfigurierst, bevor du auf deinen Server zugreifst.
@@ -111,7 +111,7 @@ Wechsle zunächst in das folgende Verzeichnis:
 ..EnshroudedServer/ (Stammverzeichnis)
 ```
 
-Dort findest du die Konfigurationsdatei **enshrouded_server.json**. In dieser Datei kannst du ein paar Parameter für deinen Server konfigurieren. In unserem [Enshrouded Server Configuration guide](enshrouded-configuration.md) findest du alle verfügbaren Serveroptionen und ihre Funktionen.
+Dort findest du die Konfigurationsdatei **enshrouded_server.json**. In dieser Datei kannst du ein paar Parameter für deinen Server konfigurieren. In unserer [Enshrouded Server Konfiguration Anleitung](enshrouded-configuration.md) findest du alle verfügbaren Serveroptionen und ihre Funktionen.
 
 ## Starten und Verbinden mit deinem Server
 

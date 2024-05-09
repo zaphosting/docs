@@ -51,7 +51,7 @@ Wir raten dir, diesen Wert für deinen Gameserver nicht zu ändern, da er vordef
 Der Server muss gestoppt werden, bevor die Konfigurationsdatei bearbeitet werden kann. Wenn die Konfigurationsdatei erst bearbeitet und der Server neu gestartet wird, werden sämtliche Änderungen rückgängig gemacht.
 :::
 
-Eine andere Möglichkeit, deine Konfigurationsdatei zu bearbeiten, ist über FTP. Wenn du dich mit der Verwendung von FTP nicht auskennst, empfehlen wir dir, einen Blick in die Anleitung [FTP file access](gameserver-ftpaccess.md) zu werfen. Diese Methode dauert jedoch länger und wenn du die Dateiinhalte direkt bearbeiten möchtest, empfehlen wir dir, wie bereits erwähnt, den Bereich **Configs** im Webinterface deines Gameservers zu verwenden.
+Eine andere Möglichkeit, deine Konfigurationsdatei zu bearbeiten, ist über FTP. Wenn du dich mit der Verwendung von FTP nicht auskennst, empfehlen wir dir, einen Blick in die Anleitung [Zugriff per FTP](gameserver-ftpaccess.md) zu werfen. Diese Methode dauert jedoch länger und wenn du die Dateiinhalte direkt bearbeiten möchtest, empfehlen wir dir, wie bereits erwähnt, den Bereich **Configs** im Webinterface deines Gameservers zu verwenden.
 
 Sobald du dich per FTP mit deinem Server verbunden hast, gehst du in das folgende Verzeichnis:
 ```
@@ -89,7 +89,7 @@ Achte darauf, dass du den RCON-Port eingibst, den du in der Konfigurationsdatei 
 Wenn die Verbindung erfolgreich ist, kannst du jetzt über das von dir gewählte RCON-Konsolenprogramm Befehle an deinen Palworld-Server senden. 
 
 :::tip
-In unserem [Palworld server commands guide](palworld-server-commands.md) findest du alle derzeit verfügbaren Befehle, die du über RCON ausführen kannst.
+In unserer [Palworld Server-Befehle Anleitung](palworld-server-commands.md) findest du alle derzeit verfügbaren Befehle, die du über RCON ausführen kannst.
 :::
 
 Du hast RCON erfolgreich auf deinem Palworld-Server aktiviert.

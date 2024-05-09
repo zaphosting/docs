@@ -87,6 +87,6 @@ Die weitere Konfiguration ist im Webinterface selbsterklärend und kann mit weni
 ## Schritt 5 Ports freischalten in der Firewall
 
 Der Server soll natürlich öffentlich erreichbar sein, um mit Freunden spielen zu können. Dazu müssen die Ports des Servers in der Windows Firewall freigeschaltet werden. Es müssen die Ports 10823 und 8080 freigegeben werden für das Protokoll TCP. 10823 ist dabei der Gameserver Port und 8080 ist der Webport für das Webinterface, der Webport muss nur bei Bedarf freigegeben werden, eine Verwaltung kann auch weiterhin nur lokal auf dem Windows Server erfolgen via RDP. 
-Wie Ports bei Windows freigeschaltet werden können, [erklären wir in diesem Guide](vserver-windows-port.md). 
+Wie Ports bei Windows freigeschaltet werden können, [erklären wir in dieser Anleitung](vserver-windows-port.md). 
 
 Nach der Port Freigabe ist der Server öffentlich erreichbar, sofern er gestartet wurde. 

@@ -1,7 +1,7 @@
 ---
 id: vserver-linux-cockpit
 title: "Server: Installation von Cockpit"
-description: Guide, um Cockpit auf Linux zu installieren - ZAP-Hosting.com Dokumentation
+description: Informationen, um Cockpit auf Linux zu installieren - ZAP-Hosting.com Dokumentation
 sidebar_label: Cockpit installieren
 ---
 
@@ -14,7 +14,7 @@ Cockpit eignet sich für Einsteiger, aber auch für Fortgeschrittene, die gerne 
 Die Projektwebseite ist unter https://cockpit-project.org/ erreichbar. 
 
 :::info
-In diesem Guide wird die Installation bei Debian (ab Buster)/ bei Ubuntu (ab Bionic Beaver) erklärt. Die Installation ist auf der Projektseite ebenfalls für Fedora, Red Hat, Fedora CoreOS, CentOS, Clear Linux, Archlinux und Tumbleweed verfügbar.   
+In dieser Anleitung wird die Installation bei Debian (ab Buster)/ bei Ubuntu (ab Bionic Beaver) erklärt. Die Installation ist auf der Projektseite ebenfalls für Fedora, Red Hat, Fedora CoreOS, CentOS, Clear Linux, Archlinux und Tumbleweed verfügbar.   
 :::
 
 ## Installation

@@ -165,7 +165,7 @@ Die Dokumentationsdateien sind nach einer einfachen Konvention benannt: Das erst
 
 In diesem Fall haben wir in unserer Frage vorgeschlagen, dass wir einen neuen Anleitung über das Spiel Rust erstellen wollen, der eine Reihe nützlicher Befehle enthält. Auf der Website können wir sehen, dass es bereits einen Abschnitt **Rust** unter gameservers gibt. Wir können also im Ordner **docs** in unserer IDE nachsehen, um die richtige Namenskonvention zu finden. Das bedeutet, dass der Dateiname der Anleitung `rust-commands.md` lauten wird. Erstelle diese Datei im Ordner **docs**.
 
-Der nächste Teil besteht darin, die Metadaten der obersten Datei zu platzieren. Am einfachsten geht das, wenn du zu einer anderen Datei gehst, zum Beispiel `rust-plugins.md`. Kopiere die Top-Metadaten-Tags aus dieser Datei und füge sie in deine neue Datei ein. Bearbeite den Tag `id` so, dass er mit dem Namen deiner Datei übereinstimmt, in diesem Fall `rust-commands`, und bearbeite die anderen Metadaten entsprechend dem von dir akzeptierten Vorschlag für den neuen Guide.
+Der nächste Teil besteht darin, die Metadaten der obersten Datei zu platzieren. Am einfachsten geht das, wenn du zu einer anderen Datei gehst, zum Beispiel `rust-plugins.md`. Kopiere die Top-Metadaten-Tags aus dieser Datei und füge sie in deine neue Datei ein. Bearbeite den Tag `id` so, dass er mit dem Namen deiner Datei übereinstimmt, in diesem Fall `rust-commands`, und bearbeite die anderen Metadaten entsprechend dem von dir akzeptierten Vorschlag für die neue Anleitung.
 
 Die Datei sollte nun mit (dem Beispiel folgend) beginnen:
 ```

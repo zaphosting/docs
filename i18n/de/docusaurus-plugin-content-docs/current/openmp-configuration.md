@@ -106,7 +106,7 @@ Nachdem du deine Änderungen vorgenommen hast, speichere die Datei an den entspr
 
 Open.mp verfügt über eine Vielzahl von Gameplay- und Netzwerkoptionen, mit denen du deinen Server in hohem Maße anpassen kannst. Hier fassen wir ein paar der wichtigsten zusammen. Du musst diese Optionen in deiner Konfigurationsdatei finden. Das geht ganz einfach, indem du mit `CTRL+F` in deinem Browser oder deinem Bearbeitungsprogramm suchst.
 
-Wenn du alle Einstellungen vornehmen möchtest, empfehlen wir dir die Lektüre des [open.mp's config.json guide](https://www.open.mp/docs/server/config.json), in dem alle derzeit verfügbaren Konfigurationsoptionen aufgeführt sind.
+Wenn du alle Einstellungen vornehmen möchtest, empfehlen wir dir die [open.mp's config.json Anleitung](https://www.open.mp/docs/server/config.json), in dem alle derzeit verfügbaren Konfigurationsoptionen aufgeführt sind.
 
 :::tip
 Wir raten davon ab, die Port- oder IP-Einstellungen zu ändern, da diese automatisch vom Gameserver konfiguriert werden. Wenn du die IP/Port-Werte änderst, kann dein Gameserver kaputt gehen!
