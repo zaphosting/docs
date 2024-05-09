@@ -106,7 +106,7 @@ Unser Blog ist mit der weit verbreiteten Auszeichnungssprache Markdown formatier
 Wir erlauben es den Nutzern, jedes beliebige Schreibprogramm für die Erstellung ihrer Inhalte zu verwenden. Wir empfehlen jedoch, das Tool **[StackEdit](https://stackedit.io/app#)** zu verwenden, um deine Inhalte zu schreiben und gleichzeitig die fantastischen Funktionen von Markdown zu nutzen. Du kannst sie dann direkt in dein Google Drive oder eine andere Anwendung zur Dateifreigabe exportieren und erhältst einen Link, den du mit uns teilen kannst.
 
 :::tip
-Weitere Beispiele und ausführliche Erklärungen zu den Funktionen von Markdown findest du im [Markdown Guide](https://www.markdownguide.org/cheat-sheet/), der weitere Informationen enthält.
+Weitere Beispiele und ausführliche Erklärungen zu den Funktionen von Markdown findest du in der [Markdown Anleitung](https://www.markdownguide.org/cheat-sheet/), die weitere Informationen enthält.
 :::
 
 ### Kopfzeilen

@@ -127,18 +127,6 @@ We offer extensive documentation for our products, which serves as a knowledge b
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/SyxK6CFgedeL2GF/preview)
 
-We also offer guides for your product. This includes for example the following guides: 
-
-| Guide                  | Page                                                         |
-| ---------------------- | ------------------------------------------------------------ |
-| Become Admin           | [View guide](ark-becomeadmin.md) |
-| Install Mods           | [View guide](ark-mods.md) |
-| Serverlisting problems | [View guide](ark-serverlisting.md) |
-| Server Configuration   | [View guide](ark-configuration.md) |
-<p style={{textAlign: 'center'}}>List updated last on 03.05.2023</p>
-
-
-
 
 ## Settings
 

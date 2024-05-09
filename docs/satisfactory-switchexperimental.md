@@ -13,16 +13,16 @@ Note: Regardless of which build you choose, both your server and your game clien
 :::
 
 ## How to switch to experimental build?
-Through our gameserver system, it is very simple to change the build of the server through our website. Before beginning, we recommend that you back up your Satisfactory savegames as switching the game will erase all files.
+Through our game server system, it is very simple to change the build of the server through our website. Before beginning, we recommend that you back up your Satisfactory savegames as switching the game will erase all files.
 
 ### Backing up savegames
-Backing up your entire gameserver or gamesaves is very easy. Head over to the Satisfactory product page and enter the `Tools -> Backups` tab.
+Backing up your entire game server or gamesaves is very easy. Head over to the Satisfactory product page and enter the `Tools -> Backups` tab.
 
 ![Screenshot 2023-02-21 192618](https://user-images.githubusercontent.com/42719082/220439833-3b8f24d4-75bd-42f2-84a5-df59206497e4.png)
 
 On this page you can perform a wide range of functions, including automatic backups which is further explained [on this page](gameserver-backups.md). Here we will focus on a manual backup.
 
-At the top of the page, simply press the green + icon and accept the prompt to perform a backup of the entire gameserver to your ZAP backup storage.
+At the top of the page, simply press the green + icon and accept the prompt to perform a backup of the entire game server to your ZAP backup storage.
 
 ![Screenshot 2023-02-21 193113](https://user-images.githubusercontent.com/42719082/220440713-4f7acd14-3b9f-4f2b-a03d-72b8b1a9ec2d.png)
 
@@ -30,7 +30,7 @@ Your backup has now been created and it can be accessed via FTP, shown [on this 
 
 Alternatively, you can download the savegame files directly from the `Savegame Manager` section in the webinterface. You can find this [on this page](satisfactory-savegame.md).
 
-### Switching to the experimental gameserver
+### Switching to the experimental game server
 Firstly, head over to your Satisfactory product page and enter the `Settings -> Games` tab.
 
 ![Screenshot 2023-02-21 191212](https://user-images.githubusercontent.com/42719082/220437310-bb85b189-e599-401d-a30c-35232ce0b46b.png)
@@ -57,7 +57,7 @@ Attention: All data of the game will be deleted during reinstallation, make sure
 
 ![Screenshot 2023-02-22 020606](https://user-images.githubusercontent.com/42719082/220502401-4738e1b7-e083-40e4-88f8-8e5e044f3270.png)
 
-If you wish to change back to regular build, follow the same steps but pick the regular Satisfactory gameserver during the selection process instead!
+If you wish to change back to regular build, follow the same steps but pick the regular Satisfactory game server during the selection process instead!
 
 ## Switching game client to experimental
 :::info

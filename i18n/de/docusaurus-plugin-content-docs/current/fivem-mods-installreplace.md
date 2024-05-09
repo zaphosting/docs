@@ -10,7 +10,7 @@ Zuerst solltest du dich über FTP auf deinen Server verbinden, dazu kannst du un
 
 ## Vorbereitung
 
-Erstelle im "Resources" Ordner nun einen Ordner für deine Mods.
+Erstelle im "Ressources" Ordner nun einen Ordner für deine Mods.
 
 :::info
 Du kannst den Ordner alles nennen, solange es keine speziellen Zeichen enthält, bei unserem Beispiel ist es "assets"
@@ -39,10 +39,10 @@ In deinem Assetsordner erstellst du jetzt einen "stream" Ordner.
 
 ![image](https://user-images.githubusercontent.com/13604413/159168290-8136adcb-6bb3-4c97-af56-b834bb3311ab.png)
 
-Nachdem die Mods alle hochgeladen sind, muss jetzt nur noch deine Resource in der server.cfg eingetragen werden, diese findest du im "server-data" Ordner deines FiveM Servers.
+Nachdem die Mods alle hochgeladen sind, muss jetzt nur noch deine Ressource in der server.cfg eingetragen werden, diese findest du im "server-data" Ordner deines FiveM Servers.
 
 
-Diese kannst du mit einem beliebigen Texteditor öffnen, unter den "start" Einträgen kannst du nun deine Resource wie folgt eintragen:
+Diese kannst du mit einem beliebigen Texteditor öffnen, unter den "start" Einträgen kannst du nun deine Ressource wie folgt eintragen:
 
 
 ```

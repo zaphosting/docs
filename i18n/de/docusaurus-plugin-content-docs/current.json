@@ -340,15 +340,15 @@
     "description": "The label for category Blogs in sidebar guidesSidebar"
   },
   "sidebar.dedicatedserverSidebar.category.Services": {
-    "message": "Services",
+    "message": "Dienste",
     "description": "The label for category Services in sidebar dedicatedserverSidebar"
   },
   "sidebar.dedicatedserverSidebar.category.Security": {
-    "message": "Security",
+    "message": "Sicherheit",
     "description": "The label for category Security in sidebar dedicatedserverSidebar"
   },
   "sidebar.dedicatedserverSidebar.category.Gameserver services": {
-    "message": "Gameserver services",
+    "message": "Gameserver Dienste",
     "description": "The label for category Gameserver services in sidebar dedicatedserverSidebar"
   },
   "sidebar.gameserverSidebar.category.Sunkenland": {

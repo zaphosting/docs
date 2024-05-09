@@ -59,7 +59,6 @@ Es gibt eine Reihe von Farben, die du zu deinem Servernamen hinzufügen kannst. 
 
 :::info
 Um Farben in deinem Servernamen verwenden zu können, musst du ein gültiges [FiveM Patreon Tier] (https://www.patreon.com/fivem/posts) haben, das den Vorteil beinhaltet. Wenn das der Fall ist und es trotzdem nicht funktioniert, vergewissere dich, dass du einen [benutzerdefinierten Lizenzschlüssel, weitere Informationen findest du in unserer Anleitung](fivem-licensekey.md) eingestellt hast.
-In order to use colours in your server name, you must have a valid [FiveM Patreon tier](https://www.patreon.com/fivem/posts) which has the benefit. If you do but it still doesn't work, ensure that you have set a [custom license key, more info can be found on our guide](fivem-licensekey.md).
 :::
 
 Nun kannst du den Namen deines Servers ändern, indem du eine der drei Methoden anwendest, die im Abschnitt Zugriff auf die Konfiguration beschrieben sind. Hier ist ein Beispiel für die Verwendung von Farben und das Ergebnis:

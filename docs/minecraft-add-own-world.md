@@ -23,7 +23,7 @@ The new world must now be uploaded to the directory. You can either delete and r
 
 ![image](https://user-images.githubusercontent.com/13604413/159177630-97982a29-6ec7-4014-bd10-81c2e2585630.png)
 
-Now the newly uploaded world only needs to be configured in the **server.properties** Config. You can find it in the **gameserver administration** under **Configs**. There you have to adjust the value of the **level-name=** command:
+Now the newly uploaded world only needs to be configured in the **server.properties** Config. You can find it in the **game server administration** under **Configs**. There you have to adjust the value of the **level-name=** command:
 
 ![image](https://user-images.githubusercontent.com/13604413/159177632-6d0d181d-ce56-4257-886b-e1e75367abcd.png)
 

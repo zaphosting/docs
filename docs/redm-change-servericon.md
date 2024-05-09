@@ -19,7 +19,7 @@ Once you have prepared the image which follows those parameters, you are ready t
 
 ### Uploading files
 
-The next step is to upload your ready image to your RedM gameserver, which is done through the use of FTP. If you are not familiar with using FTP, we recommend you to have a look at the [FTP file access](gameserver-ftpaccess.md) guide.
+The next step is to upload your ready image to your RedM game server, which is done through the use of FTP. If you are not familiar with using FTP, we recommend you to have a look at the [FTP file access](gameserver-ftpaccess.md) guide.
 
 Once you are logged in to FTP, navigate to the folder `gXXXX/redm/server-data/` and upload your server icon file there. Make sure to remember what the file is called.
 
@@ -35,7 +35,7 @@ For example, if you have named your icon `zaphosting96x96`, the set command woul
 load_server_icon zaphosting96x96
 ```
 
-You can access your `server.cfg` file either through FTP (as seen above), or via the **Configs** section on your gameserver's webinterface.
+You can access your `server.cfg` file either through FTP (as seen above), or via the **Configs** section on your game server's webinterface.
 
 :::info
 Please ensure that the name of the image file set in the command exactly matches what you previously uploaded. This includes being case sensitive.
@@ -43,4 +43,4 @@ Please ensure that the name of the image file set in the command exactly matches
 
 Finally, you can restart your server. Your new server iocn will be loaded next time your server has fully started and will should show up on the server list shortly.
 
-You have successfully set a custom server icon on your RedM gameserver!
+You have successfully set a custom server icon on your RedM game server!

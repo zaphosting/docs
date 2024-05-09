@@ -7,13 +7,13 @@ sidebar_label: Manage Savegames
 
 ## Introduction
 
-In this guide, you will explore how to manage your Myth of Empires Gamesaves on your gameserver, including backing up your local and server savegames as well as uploading it to your server.
+In this guide, you will explore how to manage your Myth of Empires Gamesaves on your game server, including backing up your local and server savegames as well as uploading it to your server.
 
 ## Prerequisites
 
 In order to access your server files, you will require an FTP Client such as [WinSCP](https://winscp.net/eng/index.php) or [FileZilla](https://filezilla-project.org/) which are both open-source and free to download.
 
-You will have to connect to your server through an FTP Client using the credentials that are found under **Tools->FTP-Broswer** on your gameserver's webinterface. Please use our [FTP File Access guide](https://zap-hosting.com/guides/docs/gameserver-ftpaccess) as further assistance to connect to your server.
+You will have to connect to your server through an FTP Client using the credentials that are found under **Tools->FTP-Broswer** on your game server's webinterface. Please use our [FTP File Access guide](gameserver-ftpaccess.md) as further assistance to connect to your server.
 
 ## Backup Savegame
 
@@ -34,7 +34,7 @@ In this folder, you will be able to see all of your currently existing local Sav
 
 ### Accessing Savegame via FTP
 
-Backing up your Savegame from the server is simple. Once you have connected to your gameserver through an FTP Client, head over to the following path:
+Backing up your Savegame from the server is simple. Once you have connected to your game server through an FTP Client, head over to the following path:
 ```
 ../moe-dedicated/MOE/Saved/SaveGames/
 ```
@@ -45,11 +45,11 @@ At this location, you should see folders, which are your Savegames. Simply right
 
 ### Automatic Backup
 
-We also provide an option to automatically backup your Savegame (and configuration file) directly through our webinterface. Simply head over to your gameserver's webinterface and go to the **Tools->Backups** section. Here you can configure a variety of options to schedule automatic backups for your server. We provide you with 10gb free backup storage which your backups will be stored in. For further information regarding backups, have a look at our dedicated [Automatic Server Backup guide](gameserver-backups.md) for this topic.
+We also provide an option to automatically backup your Savegame (and configuration file) directly through our webinterface. Simply head over to your game server's webinterface and go to the **Tools->Backups** section. Here you can configure a variety of options to schedule automatic backups for your server. We provide you with 10gb free backup storage which your backups will be stored in. For further information regarding backups, have a look at our dedicated [Automatic Server Backup guide](gameserver-backups.md) for this topic.
 
 ## Uploading Savegame
 
-Similarly to backing up, uploading your Savegame is simple. First ensure that you connect to your gameserver through an FTP Client. Once you are ready, head over to the following path:
+Similarly to backing up, uploading your Savegame is simple. First ensure that you connect to your game server through an FTP Client. Once you are ready, head over to the following path:
 ```
 ../moe-dedicated/MOE/Saved/SaveGames/
 ```
@@ -60,10 +60,10 @@ Simply drag and drop any of your Savegames into this folder through your FTP Cli
 
 ## Activating Savegame
 
-Using your Savegame will require you to select it in your server configuration. The simplest way to do this is by heading over the **Settings** section on your gameserver's webinterface. Use our [MOE Configuration guide](moe-configuration.md) if for more information.
+Using your Savegame will require you to select it in your server configuration. The simplest way to do this is by heading over the **Settings** section on your game server's webinterface. Use our [MOE Configuration guide](moe-configuration.md) if for more information.
 
 ![image](https://github.com/zaphosting/docs/assets/42719082/5e65fc4a-45ec-4696-8170-e7c6384dac8d)
 
 In this section, find the **Map Name** parameter in the Basic settings section, and your uploaded world should now be found here. If you do not see it, ensure that you restart your server after uploading.
 
-You have successfully added a Savegame to your gameserver.
+You have successfully added a Savegame to your game server.

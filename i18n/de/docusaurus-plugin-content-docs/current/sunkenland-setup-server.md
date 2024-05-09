@@ -35,7 +35,7 @@ Im nächsten Schritt verbindest du dich per FTP mit deinem Gameserver und lädst
 
 Verbinde dich zunächst über einen FTP-Client mit deinem Server, indem du die Zugangsdaten verwendest, die du unter **Tools->FTP-Broswer** im Webinterface deines Gameservers findest. 
 
-Bitte benutze unseren [FTP Dateizugriff Guide](https://zap-hosting.com/guides/docs/gameserver-ftpaccess) als weitere Hilfe, um dich mit deinem Server zu verbinden.
+Bitte benutze unsere [Zugriff per FTP Anleitung](gameserver-ftpaccess.md) als weitere Hilfe, um dich mit deinem Server zu verbinden.
 
 Nach der Verbindung kannst du im Ordner "Sunkenland" den Ordner "AppData" und anschließend den Ordner "Worlds" öffnen, das Savegame aus dem vorherigen Schritt auswählen und es in diesen Ordner hochladen.
 

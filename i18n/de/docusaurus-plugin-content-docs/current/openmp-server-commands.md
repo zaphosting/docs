@@ -30,7 +30,7 @@ Wenn du mehr über RCON erfahren möchtest, kannst du unsere [Open.mp RCON Anlei
 
 ## Verfügbare Befehle
 
-In der folgenden Tabelle findest du eine Reihe wichtiger Serverbefehle für Open.mp sowie Beispiele und Beschreibungen, die du entweder im Spiel, über die Serverkonsole oder über ein RCON-Programm verwenden kannst. Wenn du alle aktuellen Befehle sehen möchtest, empfehlen wir dir die Lektüre des [open.mp's controlling a server guide](https://www.open.mp/docs/server/ControllingServer), in dem alle derzeit verfügbaren Serverbefehle vorgestellt werden.
+In der folgenden Tabelle findest du eine Reihe wichtiger Serverbefehle für Open.mp sowie Beispiele und Beschreibungen, die du entweder im Spiel, über die Serverkonsole oder über ein RCON-Programm verwenden kannst. Wenn du alle aktuellen Befehle sehen möchtest, empfehlen wir dir die [open.mp's controlling a server Anleitung](https://www.open.mp/docs/server/ControllingServer), in dem alle derzeit verfügbaren Serverbefehle vorgestellt werden.
 
 :::tip
 Wenn du Befehle direkt über die Konsole oder über ein RCON-Programm ausführst, musst du das Präfix `/rcon` nicht verwenden. Du musst dies nur tun, wenn du die Befehle **im Spiel** ausführst.

@@ -134,20 +134,10 @@ Wir bieten eine umfangreiche Dokumentation zu unseren Produkten an, die als Wiss
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/QrEL7ABJtS9yBcS/preview)
 
-Zu deinem Produkt bieten wir ebenfalls weitere Anleitungen an. Das beinhaltet beispielsweise folgende Anleitungen: 
-
-| Anleitungen           | Seite                                                        |
-| --------------------- | ------------------------------------------------------------ |
-| Server Icon ändern    | [Anleitung aufrufen](redm-change-servericon.md) |
-| Resource installieren | [Anleitung aufrufen](redm-installresources.md) |
-<p style={{textAlign: 'center'}}>Liste zuletzt aktualisiert am 03.05.2023</p>
-
-
-
 
 ## Einstellungen
 
-Im Abschnitt **Einstellungen** deines Navigationspanels findest du eine Reihe von Unterpunkten, die dir bei der Verwaltung deines Servers helfen. Dazu zählen die **Einstellungen**, **Configs**, **Spiele**, **Versionen**, **Resources** und der **Restart Planer**. Im Folgenden erhältst du eine detaillierte Einführung zu diesen verschiedenen Bereichen.
+Im Abschnitt **Einstellungen** deines Navigationspanels findest du eine Reihe von Unterpunkten, die dir bei der Verwaltung deines Servers helfen. Dazu zählen die **Einstellungen**, **Configs**, **Spiele**, **Versionen**, **Ressources** und der **Restart Planer**. Im Folgenden erhältst du eine detaillierte Einführung zu diesen verschiedenen Bereichen.
 
 
 
@@ -198,9 +188,9 @@ Darüber hinaus kannst du auch die E-Mail-Benachrichtigungsfunktion für automat
 
 
 
-### Resources
+### Ressources
 
-Für dieses Spiel bieten wir unter **Resources** die Möglichkeit, bekannte und beliebte Resources mit nur einem Klick einfach zu installieren. In der Übersicht findest du eine Auswahl der verfügbaren Inhalte, die du durch Betätigen des Installationsbuttons hinzufügen kannst. Nach einem Neustart des Servers werden diese Ressourcen installiert, aktiviert und stehen dir zur Verfügung.
+Für dieses Spiel bieten wir unter **Ressources** die Möglichkeit, bekannte und beliebte Ressources mit nur einem Klick einfach zu installieren. In der Übersicht findest du eine Auswahl der verfügbaren Inhalte, die du durch Betätigen des Installationsbuttons hinzufügen kannst. Nach einem Neustart des Servers werden diese Ressourcen installiert, aktiviert und stehen dir zur Verfügung.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/pedaDLb6SnMss5N/preview)
 

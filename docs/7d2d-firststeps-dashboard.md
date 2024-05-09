@@ -137,17 +137,6 @@ We offer extensive documentation for our products, which serves as a knowledge b
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/SyxK6CFgedeL2GF/preview)
 
-We also offer guides for your product. This includes for example the following guides: 
-
-| Guide        | Page                                                         |
-| ------------ | ------------------------------------------------------------ |
-| Become admin | [View guide](7d2d-becomeadmin.md) |
-| Install Mods | [View guide](7d2d-mods.md) |
-| Commands     | [View guide](7d2d-commands.md) |
-<p style={{textAlign: 'center'}} >List updated last on 03.05.2023</p>
-
-
-
 
 ## Settings
 

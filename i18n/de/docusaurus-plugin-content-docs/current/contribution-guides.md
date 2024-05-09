@@ -133,7 +133,7 @@ Jetzt, wo deine Datei fertig ist, kannst du damit fortfahren, den Inhalt zu schr
 Bitte beachte, dass einige Docusaurus-spezifische Elemente wie Ermahnungen (Tags wie `:::note`, `:::tip` usw.) bei der Vorschau über GitHub möglicherweise nicht korrekt angezeigt werden. Das liegt daran, dass sie nicht Teil des traditionellen Markdowns sind. Sie werden jedoch bei lokalen Tests und in der Produktion korrekt angezeigt.
 :::
 
-In den [ZAP Guides Guidelines](https://zap-hosting.com/guides/docs/contribution-guidelines) findest du alle Informationen zu Markdown, Struktur, Terminologie und mehr.
+In den [ZAP Guides Guidelines](contribution-guides-guidelines.md) findest du alle Informationen zu Markdown, Struktur, Terminologie und mehr.
 
 Wenn du deine Änderungen vorgenommen hast, klickst du auf die Schaltfläche **Änderungen bestätigen...**, woraufhin eine Aufforderung erscheint.
 
@@ -165,7 +165,7 @@ Die Dokumentationsdateien sind nach einer einfachen Konvention benannt: Das erst
 
 In diesem Fall haben wir in unserer Frage vorgeschlagen, dass wir einen neuen Anleitung über das Spiel Rust erstellen wollen, der eine Reihe nützlicher Befehle enthält. Auf der Website können wir sehen, dass es bereits einen Abschnitt **Rust** unter gameservers gibt. Wir können also im Ordner **docs** in unserer IDE nachsehen, um die richtige Namenskonvention zu finden. Das bedeutet, dass der Dateiname der Anleitung `rust-commands.md` lauten wird. Erstelle diese Datei im Ordner **docs**.
 
-Der nächste Teil besteht darin, die Metadaten der obersten Datei zu platzieren. Am einfachsten geht das, wenn du zu einer anderen Datei gehst, zum Beispiel `rust-plugins.md`. Kopiere die Top-Metadaten-Tags aus dieser Datei und füge sie in deine neue Datei ein. Bearbeite den Tag `id` so, dass er mit dem Namen deiner Datei übereinstimmt, in diesem Fall `rust-commands`, und bearbeite die anderen Metadaten entsprechend dem von dir akzeptierten Vorschlag für den neuen Guide.
+Der nächste Teil besteht darin, die Metadaten der obersten Datei zu platzieren. Am einfachsten geht das, wenn du zu einer anderen Datei gehst, zum Beispiel `rust-plugins.md`. Kopiere die Top-Metadaten-Tags aus dieser Datei und füge sie in deine neue Datei ein. Bearbeite den Tag `id` so, dass er mit dem Namen deiner Datei übereinstimmt, in diesem Fall `rust-commands`, und bearbeite die anderen Metadaten entsprechend dem von dir akzeptierten Vorschlag für die neue Anleitung.
 
 Die Datei sollte nun mit (dem Beispiel folgend) beginnen:
 ```

@@ -20,7 +20,7 @@ The overview will show you how much resources you have available, how much you h
 
 
 
-## Unlocking of your gameserver
+## Unlocking of your game server
 
 There are three options available to you to unlock your game server in order to fix the problem and restore operation. The options **Find faulty mods/scripts via console & temporarily unlock server**, **Perform upgrade** and **Create support ticket** are explained in more detail below. 
 

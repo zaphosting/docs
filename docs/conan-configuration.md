@@ -8,7 +8,7 @@ sidebar_label: Server Configuration
 
 ## Server Configuration
 
-Conan Exiles servers can be configured extensively. The configuration of the server takes place via the config files. You can find them in the webinterface in the gameserver administration under Configs. To do so, open the **ServerSettings.ini** config file.
+Conan Exiles servers can be configured extensively. The configuration of the server takes place via the config files. You can find them in the webinterface in the game server administration under Configs. To do so, open the **ServerSettings.ini** config file.
 
 
 

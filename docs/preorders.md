@@ -16,7 +16,7 @@ Pre-orders are marked as pre-orders on the product page. They will have an stopw
 
 ## Provision of pre-orders
 
-Pre-ordered servers will be set up fully automatically once the product is ready and set-up in our gameserver cloud. You will receive an email as soon as the server has been set up. The time until pre-ordered servers are installed can vary greatly, because it may depend on when server files are released. We try to install pre-ordered products as soon as it is possible.
+Pre-ordered servers will be set up fully automatically once the product is ready and set-up in our game server cloud. You will receive an email as soon as the server has been set up. The time until pre-ordered servers are installed can vary greatly, because it may depend on when server files are released. We try to install pre-ordered products as soon as it is possible.
 
 
 

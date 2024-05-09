@@ -23,7 +23,7 @@ In general, any type of suggestion regarding our services can be submited. In pa
 If you have a suggestion regarding other areas such as our ZAP Community or events, which are not fully relevant to our services, we always welcome your feedback on our [ZAP-Hosting Discord Server](https://discord.com/invite/zaphosting).
 
 #### Considerations for new game suggestions
-When submiting a new game suggestion, we review it and decide whether it makes sense to add a particular game based on a few factors. Generally, any game or modpack that we do not offer as a gameserver currently can be proposed and it will be reviewed.
+When submiting a new game suggestion, we review it and decide whether it makes sense to add a particular game based on a few factors. Generally, any game or modpack that we do not offer as a game server currently can be proposed and it will be reviewed.
 
 :::info
 When suggesting a game, it is sufficient enough to enter the game or modpack name and also a link to the appropriate game or modpack site.
@@ -32,7 +32,7 @@ When suggesting a game, it is sufficient enough to enter the game or modpack nam
 Some of the factors that we review for new game or modpack suggestions include whether there is a certain minimum demand for the game, the age of the game and whether it is still popular and actively maintained/updated.
 
 #### Considerations for new webinterface features
-When submitting a new webinterface feature, ensure that it relates to our ZAP-Hosting website and the webinterface panels such as your gameserver's webinterface.
+When submitting a new webinterface feature, ensure that it relates to our ZAP-Hosting website and the webinterface panels such as your game server's webinterface.
 
 Any ideas are welcome here, whether it is a small suggestion for improvement or an entirely new feature that you believe should be included on our website and webinterface panels.
 

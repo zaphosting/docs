@@ -7,7 +7,7 @@ sidebar_label: ELS installieren
 
 ## Mit FTP verbinden
 
-Bevor die Resource installiert werden kann, muss der [FTP-Zugang](gameserver-ftpaccess.md) eingerichtet werden
+Bevor die Ressource installiert werden kann, muss der [FTP-Zugang](gameserver-ftpaccess.md) eingerichtet werden
 
 ## Vorbereitung
 
@@ -25,7 +25,7 @@ Beachte: Die alte `vcf.default.lua` darf nicht gelöscht werden.
 
 Es können auch weitere Einstellungen in der "config.lua" vorgenommen werden, wir lassen diese aber Standard.
 
-## Resource hochladen
+## Ressource hochladen
 
 Um ELS-FiveM zu installieren, können diese über Drag&Drop in den "resources" Ordner hochgeladen werden
 

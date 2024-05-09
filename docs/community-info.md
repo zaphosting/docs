@@ -27,7 +27,7 @@ We run an official contribution program for our guides (yes these very docs that
 
 The contribution program is accessible to anyone who wants to share their **knowledge** and **experience** with the community! We actively look for dedicated writers who have **strong technical skills** and are **knowledgeable** in the respective field. Most importantly, we look for writers who are dedicated and are happy in collaborating with our ZAP-Hosting Docs Team to improve and revise their content prior to publishing. ✏️🗣️
 
-Interested? **Contribute now. Get rewarded.** Head over to the [Contribution Program](https://zap-hosting.com/guides/docs/contribution-introduction) section of our documentation to learn more! 🚀
+Interested? **Contribute now. Get rewarded.** Head over to the [Contribution Program](contribution-introduction.md) section of our documentation to learn more! 🚀
 
 ### Giveaways
 

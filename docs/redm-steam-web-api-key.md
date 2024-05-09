@@ -29,7 +29,7 @@ If everything is successful, you should be able to see your own Steam Web API Ke
 
 ## Activation of an API key
 
-Now that you have your Steam Web API Key, you must place it into your server configuration (`server.cfg`) file on your RedM gameserver. You can access your `server.cfg` file either through FTP (as seen above), or via the **Configs** section on your gameserver's webinterface.
+Now that you have your Steam Web API Key, you must place it into your server configuration (`server.cfg`) file on your RedM game server. You can access your `server.cfg` file either through FTP (as seen above), or via the **Configs** section on your game server's webinterface.
 
 ![image](https://github.com/zaphosting/docs/assets/42719082/43793138-db0c-4824-827e-c50abf6e76e4)
 
@@ -38,4 +38,4 @@ Find an existing line or create a new one if it doesn't exist, and add the follo
 set steam_webApiKey "YOUR_KEY_HERE"
 ```
 
-Finally, you can restart your server. Your Steam Web API key will be loaded the next time your server has fully started. You have successfully added a Steam Web API Key into your RedM gameserver!
+Finally, you can restart your server. Your Steam Web API key will be loaded the next time your server has fully started. You have successfully added a Steam Web API Key into your RedM game server!

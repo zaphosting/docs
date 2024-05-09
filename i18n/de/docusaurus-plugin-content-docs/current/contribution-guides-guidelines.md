@@ -119,7 +119,7 @@ Schließlich müssen alle Schreiber/innen unseren Verhaltenskodex befolgen, um s
 Unsere Dokumentation ist mit der Markdown-Auszeichnungssprache formatiert, die weit verbreitet und relativ einfach zu verwenden ist. In den folgenden Abschnitten erfährst du, welche Sprache wir verwenden und wie sie genutzt wird.
 
 :::tip
-Weitere Beispiele und ausführliche Erklärungen zu den Funktionen von Markdown findest du im [Markdown Guide](https://www.markdownguide.org/cheat-sheet/), der weitere Informationen enthält.
+Weitere Beispiele und ausführliche Erklärungen zu den Funktionen von Markdown findest du in der [Markdown Anleitung](https://www.markdownguide.org/cheat-sheet/), die weitere Informationen enthält.
 :::
 
 ### Kopfzeilen

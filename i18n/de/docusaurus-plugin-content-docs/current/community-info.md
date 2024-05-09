@@ -27,7 +27,7 @@ Wir haben ein offizielles Beitragsprogramm für unsere Anleitungen (ja, genau di
 
 Das Beitragsprogramm ist für jeden zugänglich, der sein **Wissen** und seine **Erfahrung** mit der Community teilen möchte! Wir suchen aktiv nach engagierten Schreibern, die **starke technische Fähigkeiten** haben und sich in dem jeweiligen Bereich **auskennen**. Vor allem aber suchen wir Autoren, die engagiert sind und gerne mit unserem ZAP-Hosting Docs Team zusammenarbeiten, um ihre Inhalte vor der Veröffentlichung zu verbessern und zu überarbeiten. ✏️🗣️
 
-Interessiert? **Werde jetzt Mitglied. Du bekommst eine Belohnung** Besuche  den Abschnitt [Beitragsprogramm](https://zap-hosting.com/guides/docs/contribution-introduction) in unserer Dokumentation, um mehr zu erfahren! 🚀
+Interessiert? **Werde jetzt Mitglied. Du bekommst eine Belohnung** Besuche  den Abschnitt [Beitragsprogramm](contribution-introduction.md) in unserer Dokumentation, um mehr zu erfahren! 🚀
 
 
 
