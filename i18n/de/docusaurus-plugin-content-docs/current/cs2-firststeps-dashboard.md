@@ -134,9 +134,9 @@ Zu deinem Produkt bieten wir ebenfalls Anleitungen an. Das beinhaltet beispielsw
 
 | Anleitungen          | Seite                                                        |
 | -------------------- | ------------------------------------------------------------ |
-| Server configuration | [Anleitung aufrufen](https://zap-hosting.com/guides/de/docs/cs2-configuration/) |
-| CSTV                 | [Anleitung aufrufen](https://zap-hosting.com/guides/de/docs/cs2-cstv) |
-| Install plugins      | [Anleitung aufrufen](https://zap-hosting.com/guides/de/docs/cs2-plugins) |
+| Server configuration | [Anleitung aufrufen](cs2-configuration/) |
+| CSTV                 | [Anleitung aufrufen](cs2-cstv) |
+| Install plugins      | [Anleitung aufrufen](cs2-plugins) |
 
 
 

@@ -7,7 +7,7 @@ sidebar_label: Mods installieren
 
 ## Wo bekomme ich Mods her?
 Da BeamMP auf BeamNG basiert, funktionieren also die Mods davon auch auf deinem BeamMP-Server
-Es gibt verschiedene Orte wo Mods gefunden werden können, die offizielle Resourcenseite findest du bei beamng.com/resources
+Es gibt verschiedene Orte wo Mods gefunden werden können, die offizielle Ressourcenseite findest du bei beamng.com/resources
 
 
 ## Hochladen der Daten

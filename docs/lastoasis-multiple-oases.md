@@ -19,7 +19,7 @@ On the website, head over to the **Realms** section. On your current Realm, pres
 ![image](https://github.com/zaphosting/docs/assets/42719082/9f06547a-f23f-4542-bcd7-e69d0bbfbf19)
 
 :::info
-In order to be able to run multiple Oases at the same time, you must rent one gameserver per Oasis. You should use the same provider key as the original server for each new server. Make sure to restart your server after changes.
+In order to be able to run multiple Oases at the same time, you must rent one game server per Oasis. You should use the same provider key as the original server for each new server. Make sure to restart your server after changes.
 :::
 
 After you perform this change, you will be able to manage the Oases using the **Manage** button under this section.

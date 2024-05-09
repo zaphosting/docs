@@ -25,7 +25,7 @@ Bitte fülle das Formular so detailliert wie möglich aus, um die Chancen zu erh
 
 Für unseren Blog suchen wir eine breite Palette an informativen und praktischen Beiträgen, die eine große Bandbreite an Themen abdecken, wie z.B. Gaming, Server-Scripting, Tipps, Artikel über Leidenschaften und vieles mehr. Wir bemühen uns, unsere Blog-Beiträge abwechslungsreich zu gestalten und eine große Auswahl an verschiedenen Themen zu bieten, damit unser Blog informativ, interessant und spannend zu lesen ist.
 
-Wie bereits in der Einleitung erwähnt, müssen alle Inhalte, die wir erstellen, original sein, um die Urheberrechtsgesetze einzuhalten. Jegliche unerlaubte Nutzung von KI/generativen Tools und/oder anderem geistigen Eigentum ist strengstens untersagt.
+Wie bereits in der Einführung erwähnt, müssen alle Inhalte, die wir erstellen, original sein, um die Urheberrechtsgesetze einzuhalten. Jegliche unerlaubte Nutzung von KI/generativen Tools und/oder anderem geistigen Eigentum ist strengstens untersagt.
 
 #### Liste gesuchter Blogbeiträge
 

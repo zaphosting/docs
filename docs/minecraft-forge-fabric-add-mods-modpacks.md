@@ -13,7 +13,7 @@ Click here to get to our Minecraft servers: [Minecraft server hosting](https://z
 
 - A Gameserver ([you can get one here](https://zap-hosting.com/en/gameserver-hosting/))
 - An FTP-Client (e.g. WinSCP, FileZilla)
-- Connect to your server via FTP ([Tutorial](https://zap-hosting.com/guides/docs/gameserver-ftpaccess))
+- Connect to your server via FTP ([Tutorial](gameserver-ftpaccess.md))
 
 ## Step 1 - Finding & downloading mods or modpacks
 

@@ -849,6 +849,23 @@ const sidebars = {
     },
     {
       type: "category",
+      label: "Foundry",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "foundry-firststeps-dashboard",
+            "foundry-firststeps-connect"
+          ]
+        },
+        "foundry-configuration",
+        "foundry-server-savegames",
+
+      ],
+    },
+    {
+      type: "category",
       label: "Garry's Mod",
       items: [
         {
@@ -1347,6 +1364,7 @@ const sidebars = {
         'vserver-linux-docker',
         'vserver-linux-ftp-install',
         'vserver-linux-java',
+        'server-linux-javascript',
         'vserver-linux-jitsi',
         'vserver-linux-mastodon',
         'vserver-linux-nextcloud',
@@ -1388,7 +1406,9 @@ const sidebars = {
       items: [
         'vserver-windows-ftpserver',
         'vserver-windows-installmysql',
+        'server-windows-javascript',
         'vserver-windows-plesk',
+        'server-windows-python',
       ]
     },
     {
@@ -1397,6 +1417,7 @@ const sidebars = {
       items: [
         'vserver-windows-arksurvivalascended',
         'vserver-windows-enshrouded',
+        'server-windows-foundry',
         'vserver-windows-fs-19',
         'vserver-windows-fs-22',
         'vserver-windows-palworld',
@@ -1464,12 +1485,14 @@ const sidebars = {
         'vserver-linux-docker',
         'vserver-linux-ftp-install',
         'vserver-linux-java',
+        'server-linux-javascript',
         'vserver-linux-jitsi',
         'vserver-linux-mastodon',
         'vserver-linux-nextcloud',
         'vserver-linux-openvpn',
         'vserver-linux-phpmyadmin',
         'vserver-linux-plesk',
+        'dedicated-pterodactyl',
         'server-linux-python',
         'vserver-linux-ssh-server',
         'vserver-linux-webserver',
@@ -1501,7 +1524,9 @@ const sidebars = {
       items: [
         'vserver-windows-ftpserver',
         'vserver-windows-installmysql',
+        'server-windows-javascript',
         'vserver-windows-plesk',
+        'server-windows-python',
       ]
     },
     {
@@ -1510,6 +1535,7 @@ const sidebars = {
       items: [
         'vserver-windows-arksurvivalascended',
         'vserver-windows-enshrouded',
+        'server-windows-foundry',
         'vserver-windows-fs-19',
         'vserver-windows-fs-22',
         'vserver-windows-palworld',
@@ -1551,7 +1577,8 @@ const sidebars = {
     'domain-expertdns',
     'domain-records',
     'domain-gameserver-srv-link',
-    'domain-teamspeak-redirect',		
+    'domain-teamspeak-redirect',
+    'domain-cloudflare-setup',
     {
       type: 'html',
       className: 'sidebar-title',

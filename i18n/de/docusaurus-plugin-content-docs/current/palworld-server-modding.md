@@ -5,16 +5,20 @@ description: Informationen über die Installation von Mods auf deinem Palworld-S
 sidebar_label: Mods installieren
 ---
 
-Seit der Veröffentlichung von Palworld sind immer wieder neue spannende Mods online gegangen, die das Spielerlebnis verbessern und das Spiel noch unterhaltsamer machen. In dieser Anleitung erklären wir dir, wie du Modifikationen (Mods) zu deinem Palworld Server und/oder Spielclient hinzufügst.
+import YouTube from '@site/src/components/YouTube/YouTube';
 
 ## Einführung
+
+Seit der Veröffentlichung von Palworld sind immer wieder neue spannende Mods online gegangen, die das Spielerlebnis verbessern und das Spiel noch unterhaltsamer machen. In dieser Anleitung erklären wir dir, wie du Modifikationen (Mods) zu deinem Palworld Server und/oder Spielclient hinzufügst.
+
+<YouTube videoId="x4tfL3Vi5qE" title="How To Install Mods On Your Palworld Server!" description="Hast du das Gefühl, dass du etwas besser verstehst, wenn du es in Aktion siehst? Wir haben etwas für dich! Tauche ab in unser Video, welches alles für dich zusammenfasst. Egal, ob du es eilig hast oder einfach nur Informationen auf möglichst verständliche Art und Weise aufnehmen möchtest!"/>
 
 ### Wichtige Informationen
 
 Gegenwärtig kannst du verfügbare Mods auf Modding-Seiten von Drittanbietern ansehen und herunterladen. Wir empfehlen die Nutzung von Seiten wie [Nexus Mods](https://www.nexusmods.com/palworld/) oder [Curseforge](https://www.curseforge.com/palworld/), die in der Modding-Szene einen guten Ruf genießen. Du kannst derzeit keine Mods über Steam Workshop herunterladen.
 
 :::note
-ZAP-Hosting haftet nicht für mögliche Veränderungen/Schäden an deinen Serverdateien oder deiner Welt durch die Installation von Mods. Wir raten dir dringend, Backups zu machen, bevor du weitermachst. Mehr über Backups erfährst du in unserem [Palworld Savegame guide](https://zap-hosting.com/guides/docs/palworld-server-savegames), in dem dieses Thema ausführlich behandelt wird.
+ZAP-Hosting haftet nicht für mögliche Veränderungen/Schäden an deinen Serverdateien oder deiner Welt durch die Installation von Mods. Wir raten dir dringend, Backups zu machen, bevor du weitermachst. Mehr über Backups erfährst du in unserem [Palworld Savegame Anleitung](palworld-server-savegames.md), in dem dieses Thema ausführlich behandelt wird.
 :::
 
 :::info
@@ -37,7 +41,7 @@ Du musst sicherstellen, dass die Mod, die du verwenden möchtest, mit der aktuel
 
 ## Schritt 1: Vorbereiten der PAK-Datei
 
-Auf Modding-Websites, wie den in der Einleitung vorgeschlagenen, kannst du eine große Auswahl an verschiedenen Mods durchsuchen und herunterladen.
+Auf Modding-Websites, wie den in der Einführung vorgeschlagenen, kannst du eine große Auswahl an verschiedenen Mods durchsuchen und herunterladen.
 
 :::info
 Zur Erinnerung: Aus Sicherheitsgründen unterstützen wir derzeit nur PAK-Mods (.PAK-Dateien).
@@ -53,7 +57,7 @@ Gehe zu der Mod, die du verwenden möchtest, und lade sie lokal auf dein Gerät 
 
 Sobald du die PAK-Dateien zum Hochladen bereit hast, gehst du zum Bereich **Tools->FTP-Browser** im Webinterface deines Gameservers. 
 
-Du brauchst einen FTP-Client, um dich mit deinem Server zu verbinden. Wenn du keinen FTP-Client hast oder Hilfe bei der FTP-Verbindung brauchst, verwende bitte unsere [Gameserver FTP Access guide](gameserver-ftpaccess.md).
+Du brauchst einen FTP-Client, um dich mit deinem Server zu verbinden. Wenn du keinen FTP-Client hast oder Hilfe bei der FTP-Verbindung brauchst, verwende bitte unsere [Zugriff per FTP Anleitung](gameserver-ftpaccess.md).
 
 In deinem Webinterface kannst du die Schaltfläche **Direktverbindung** verwenden. Dadurch wird das FTP-Programm deiner Wahl geöffnet und du wirst automatisch eingeloggt. 
 

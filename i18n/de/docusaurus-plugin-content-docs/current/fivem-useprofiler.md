@@ -7,7 +7,7 @@ sidebar_label: Profiler Benutzen
 
 ## Was ist der Profiler Eigentlich?
 
-Der Profiler ist dafür da, die Performance des Servers zu messen, damit können schlechte und langsame Resourcen identifiziert und entfernt werden. Dieser Profiler ist in FiveM integriert und kann bei jedem Server benutzt werden.
+Der Profiler ist dafür da, die Performance des Servers zu messen, damit können schlechte und langsame Ressourcen identifiziert und entfernt werden. Dieser Profiler ist in FiveM integriert und kann bei jedem Server benutzt werden.
 
 ## Nutzung
 
@@ -47,10 +47,10 @@ Wir wählen nun einen "Tick" aus, welcher viel Performance verbraucht:
 
 ![image](https://user-images.githubusercontent.com/13604413/159169936-a7e25065-a425-442f-bf58-a4b766932eae.png)
 
-Nun können wir sehen, welche Resourcen sehr viel Zeit verbrauchen.
+Nun können wir sehen, welche Ressourcen sehr viel Zeit verbrauchen.
 
 
 :::info
-Resourcen welche insgesamt über 6 ms verbrauchen können Probleme verursachen
+Ressourcen welche insgesamt über 6 ms verbrauchen können Probleme verursachen
 :::
 

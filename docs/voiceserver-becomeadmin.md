@@ -8,13 +8,13 @@ sidebar_label: Become admin
 
 
 
-## Teamspeak Become Admin
+## Introduction
 
 In order to manage and configure your Teamspeak server, you need administrator permissions. In the following we will explain how you can add users as admin. 
 
 
 
-### Preparation
+## Preparation
 
 For authentication as admin you need the privilege key. You can find it in the web interface at the Teamspeak Server Administration under **Privilege Keys**. There you have to create a new privilege key if there is none present yet and copy the key after that.
 
@@ -22,7 +22,7 @@ For authentication as admin you need the privilege key. You can find it in the w
 
 
 
-### Assign permission
+## Assigning permission
 
 Now a connection to the Teamspeak server must be established via the Teamspeak client. If the Teamspeak server hasn't been configured/used yet, then the following popup window will show up when connecting:
 
@@ -39,6 +39,6 @@ After pressing **OK** your user account will be assigned with the administrator 
 ![image](https://user-images.githubusercontent.com/13604413/159177468-4913fa61-d37e-4ae8-8cab-4191fde5ef93.png)
 
 
-### Add more Admins
+## Adding more Admins
 
 If you want to assign administrator permissions to additional users, then you can either create more privilege keys for the corresponding users or assign the corresponding server group in the Teamspeak client itself for the respective user. To do this, right-click on the user, click on Server Groups and then select the server group. 

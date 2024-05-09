@@ -68,27 +68,27 @@
     "description": "The label of footer link with label=Security linking to https://zap-hosting.com/en/security/"
   },
   "copyright": {
-    "message": "Copyright © 2023 ZAP-Hosting GmbH & Co. KG",
+    "message": "Copyright © 2024 ZAP-Hosting GmbH & Co. KG",
     "description": "The footer copyright"
   },
   "link.item.label.Rent a RootServer": {
-    "message": "Rent a RootServer",
+    "message": "Miete einen Rootserver",
     "description": "The label of footer link with label=Rent a RootServer linking to https://zap-hosting.com/en/rent-a-root-server/"
   },
   "link.item.label.Rent a Gameserver": {
-    "message": "Rent a Gameserver",
+    "message": "Miete einen Gameserver",
     "description": "The label of footer link with label=Rent a Gameserver linking to https://zap-hosting.com/en/rent-a-gameserver/"
   },
   "link.item.label.Rent a TeamSpeak server": {
-    "message": "Rent a TeamSpeak server",
+    "message": "Miete einen TeamSpeak Server",
     "description": "The label of footer link with label=Rent a TeamSpeak server linking to https://zap-hosting.com/en/rent-a-teamspeak-3-server/"
   },
   "link.item.label.Rent a Domain": {
-    "message": "Rent a Domain",
+    "message": "Miete eine Domain",
     "description": "The label of footer link with label=Rent a Domain linking to https://zap-hosting.com/en/domain-check/"
   },
   "link.item.label.Rent a Webspace": {
-    "message": "Rent a Webspace",
+    "message": "Miete ein Webspace",
     "description": "The label of footer link with label=Rent a Webspace linking to https://zap-hosting.com/en/webhosting-rent-a-webspace/"
   },
   "link.item.label.X": {

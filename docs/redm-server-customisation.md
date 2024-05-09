@@ -9,20 +9,20 @@ Are you looking to customise your server to display custom information in the se
 
 ## Accessing your server's configuration
 
-There are multiple ways available to access your `server.cfg` configuration file for your RedM gameserver. Editing this file is needed in order to allow you to set customisations.
+There are multiple ways available to access your `server.cfg` configuration file for your RedM game server. Editing this file is needed in order to allow you to set customisations.
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
 <Tabs>
 <TabItem value="settings" label="Via Webinterface" default>
-The most user-friendly method is by heading over to the **Settings** section on your gameserver's webinterface and searching for the appropriate settings there, as seen below:
+The most user-friendly method is by heading over to the **Settings** section on your game server's webinterface and searching for the appropriate settings there, as seen below:
 
 ![image](https://github.com/zaphosting/docs/assets/42719082/01d7bf1c-6524-46e4-8c3d-7b54aaf6cf92)
 </TabItem>
 
 <TabItem value="configs" label="Via WI Config file">
-Alternatively, for users who wish to directly edit the raw file, you can access this by heading over to the **Configs** section on your gameserver's webinterface and pressing the blue edit file button, as seen below:
+Alternatively, for users who wish to directly edit the raw file, you can access this by heading over to the **Configs** section on your game server's webinterface and pressing the blue edit file button, as seen below:
 
 ![image](https://github.com/zaphosting/docs/assets/42719082/43793138-db0c-4824-827e-c50abf6e76e4)
 
@@ -30,7 +30,7 @@ This will open up a text editor directly on the site to enable you to edit it.
 </TabItem>
 
 <TabItem value="ftp" label="Via FTP">
-The final method of accessing the raw file, is through FTP. If you are not familiar with using FTP, we recommend you to have a look at the [FTP file access](gameserver-ftpaccess.md) guide. However, this method takes longer and if you wish to directly edit the file contents, we recommend simply using the **Configs** section on your gameserver's webinterface as mentioned.
+The final method of accessing the raw file, is through FTP. If you are not familiar with using FTP, we recommend you to have a look at the [FTP file access](gameserver-ftpaccess.md) guide. However, this method takes longer and if you wish to directly edit the file contents, we recommend simply using the **Configs** section on your game server's webinterface as mentioned.
 </TabItem>
 </Tabs>
 
@@ -72,17 +72,17 @@ RedM also allows you to place emojis directly into your server name.
 
 Simply place any emojis you wish into the `sv_hostname` parameter within your server configuration and it will work. You do not need a RedM Patreon tier for this.
 
-Here is an example of adding emojis via your gameserver's webinterface:
+Here is an example of adding emojis via your game server's webinterface:
 
 ![image](https://github.com/zaphosting/docs/assets/42719082/01d7bf1c-6524-46e4-8c3d-7b54aaf6cf92)
 
-Likewise, you can add this directly to your `server.cfg` file via FTP or the **Configs** section on your gameserver's webinterface.
+Likewise, you can add this directly to your `server.cfg` file via FTP or the **Configs** section on your game server's webinterface.
 
 ## Setting Project Details
 
 ### Server Description
 
-Setting a server description is useful for providing a short and to the point overview of your server.You can easily set a small project server description for your RedM gameserver, which will display besides your server name on the server list.
+Setting a server description is useful for providing a short and to the point overview of your server.You can easily set a small project server description for your RedM game server, which will display besides your server name on the server list.
 
 Here is an example of setting a project name and the outcome it produces:
 ```
@@ -110,7 +110,7 @@ You can also change a few miscellaneous server details to your liking.
 
 Setting the gametype parameter changes what is displayed on your server's server list page. This does **not** change the gamemode on the server itself.
 
-You can change the gametype through your gameserver's webinterface, or by setting a tag:
+You can change the gametype through your game server's webinterface, or by setting a tag:
 ```
 sets gametype "Freeroam"
 ```
@@ -119,11 +119,11 @@ sets gametype "Freeroam"
 
 Finally, you can change the language of your server which is displayed on your server's server list page. We have a dedicated page for setting localisation which you can view here: [Change language / location (flag)](redm-locale.md).
 
-This can be done through your gameserver's webinterface, or by setting a tag:
+This can be done through your game server's webinterface, or by setting a tag:
 ```
 sets locale "en-GB"
 ```
 
 You can get a list of all locale tags by viewing [this resource](https://github.com/TiagoDanin/Locale-Codes#locale-list) or anything similar.
 
-You have successfully customised your RedM gameserver!
+You have successfully customised your RedM game server!

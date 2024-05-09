@@ -5,6 +5,8 @@ description: Informationen zum Dashboard eines BeamMP Server von ZAP-Hosting - Z
 sidebar_label: Dashboard
 ---
 
+import YouTube from '@site/src/components/YouTube/YouTube';
+
 
 
 ## Einführung
@@ -12,6 +14,10 @@ sidebar_label: Dashboard
 Du bist an einem **BeamMP Server** interessiert oder besitzt bereits einen, doch dir fehlt noch ein umfassender Überblick über die Verwaltung und die Auffindbarkeit aller notwendigen Optionen? Gerade zu Beginn kann dies eine Herausforderung darstellen. Aber keine Sorge, im Folgenden bieten wir dir eine ausführliche Einführung zur Verwaltung deines Dienstes, damit du den optimalen Durchblick hast.
 
 Nachdem du diese Anleitung durchgegangen bist, wirst du problemlos in der Lage sein, deinen Server effizient zu verwalten und alle erforderlichen Optionen sowie Features zügig und unkompliziert zu finden. Hier erhältst du einen strukturierten Überblick, der dir Schritt für Schritt hilft, dich mit der Serververwaltung vertraut zu machen und dein Wissen gezielt zu erweitern. So kannst du sicherstellen, dass dein **BeamMP Server** optimal auf deine Bedürfnisse abgestimmt ist und du das Beste aus den vorhandenen Möglichkeiten herausholst.
+
+
+
+<YouTube videoId="tUuKe91wgtI" title="Get BeamMP server in just a MINUTE!" description="Hast du das Gefühl, dass du etwas besser verstehst, wenn du es in Aktion siehst?  Wir haben etwas für dich! Tauche ab in unser Video, welches alles für dich zusammenfasst. Egal, ob du es eilig hast oder einfach nur Informationen auf möglichst verständliche Art und Weise aufnehmen möchtest!"/>
 
 
 
@@ -127,16 +133,6 @@ Falls du noch offene Fragen hast, empfehlen wir dir, zunächst in unsere Fragen 
 Wir bieten eine umfangreiche Dokumentation zu unseren Produkten an, die als Wissensdatenbank für die am häufigsten gestellten Fragen und Anliegen dient. Dort findest du zahlreiche Anleitungen und Hilfestellungen zu verschiedenen Themen, die dir bei der Nutzung und Verwaltung deines Produktes unterstützen.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/QrEL7ABJtS9yBcS/preview)
-
-Zu deinem Produkt bieten wir ebenfalls weitere Anleitungen an. Das beinhaltet beispielsweise folgende Anleitungen: 
-
-| Anleitungen        | Seite                                                        |
-| ------------------ | ------------------------------------------------------------ |
-| Auth Key erstellen | [Anleitung aufrufen](beammp-authkey.md) |
-| Mods installieren  | [Anleitung aufrufen](beammp-mods.md) |
-<p style={{textAlign: 'center'}}>Liste zuletzt aktualisiert am 03.05.2023</p>
-
-
 
 
 ## Einstellungen

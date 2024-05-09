@@ -7,7 +7,7 @@ sidebar_label: Sicherheitstipps
 
 ## Einführung
 
-Dieser Anleitung enthält einige Tipps und Hinweise, wie du deinen Linux Server sicherer machen kannst. Gerade bei (virtuellen) Servern, auf die von außen zugegriffen werden muss, ist ein grundlegender Schutz vor unerwünschten Zugriffen durchaus empfehlenswert und sollte nicht vernachlässigt werden. 
+Diese Anleitung enthält einige Tipps und Hinweise, wie du deinen Linux Server sicherer machen kannst. Gerade bei (virtuellen) Servern, auf die von außen zugegriffen werden muss, ist ein grundlegender Schutz vor unerwünschten Zugriffen durchaus empfehlenswert und sollte nicht vernachlässigt werden. 
 
 :::info
 Bitte beachte , dass diese Anleitung nicht allumfassend ist und dass detailliertere Informationen in anderen Abschnitten der ZAP-Dokumentation zu finden sind. (z.B. [2FA](vserver-linux-ssh2fa.md))
@@ -387,7 +387,7 @@ Achte darauf, dass du keine separaten Regeln hast, die den uneingeschränkten Zu
 
 ## Fazit - dein Server ist nun um einiges besser geschützt
 
-Dieses Guide hat dir einige grundlegende und erweiterte Funktionen zur Absicherung deines Linux-Servers gezeigt. Solltest du alle auf dein System zutreffenden Empfehlungen umgesetzt haben ist dein Server schon um einiges sicherer als vorher, Glückwunsch!
+Diese Anleitung hat dir einige grundlegende und erweiterte Funktionen zur Absicherung deines Linux-Servers gezeigt. Solltest du alle auf dein System zutreffenden Empfehlungen umgesetzt haben ist dein Server schon um einiges sicherer als vorher, Glückwunsch!
 
 Weitergehend können natürlich noch weitere Maßnahmen vorgenommen werden:
 

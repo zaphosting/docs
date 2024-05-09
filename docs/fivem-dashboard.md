@@ -136,17 +136,6 @@ We offer extensive documentation for our products, which serves as a knowledge b
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/tspCPMyyMJJaiXp/preview)
 
-We also offer guides for your product. This includes for example the following guides: 
-
-| Guide                 | Page                                                         |
-| --------------------- | ------------------------------------------------------------ |
-| Change server icon    | [View guide](redm-change-servericon.md) |
-| Resource installation | [View guide](redm-installresources.md) |
-
-<p style={{textAlign: 'center'}}>List updated last on 03.05.2023</p>
-
-
-
 
 ## Settings
 

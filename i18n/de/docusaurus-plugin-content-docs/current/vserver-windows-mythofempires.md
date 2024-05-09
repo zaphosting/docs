@@ -102,7 +102,7 @@ Du musst neue Regeln für deinen MOE-Server erstellen. Klicke dazu auf die ein- 
 - TCP eingehend und ausgehend: 11888, 12888
 - UDP eingehend und ausgehend: 11888, 12888
 
-Bitte benutze unseren [Windows Port Forwarding Guide](vserver-windows-port.md), wenn du weitere Hilfe benötigst.
+Bitte benutze unsere [Windows Port Weiterleitung Anleitung](vserver-windows-port.md), wenn du weitere Hilfe benötigst.
 
 </TabItem>
 </Tabs>

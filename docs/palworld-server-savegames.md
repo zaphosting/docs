@@ -5,13 +5,13 @@ description: Information on how to manage savegames on your Palworld server from
 sidebar_label: Manage Savegames
 ---
 
-In this guide, we will explore how to manage your Palworld Gamesaves on your gameserver, including backing up your local and server savegames as well as uploading it to your server.
+In this guide, we will explore how to manage your Palworld Gamesaves on your game server, including backing up your local and server savegames as well as uploading it to your server.
 
 ## Prerequisites
 
 In order to access your server files, you will require an FTP Client such as [WinSCP](https://winscp.net/eng/index.php) or [FileZilla](https://filezilla-project.org/) which are both open-source and free to download.
 
-You will have to connect to your server through an FTP Client using the credentials that are found under **Tools->FTP-Broswer** on your gameserver's webinterface. Please use our [FTP File Access guide](https://zap-hosting.com/guides/docs/gameserver-ftpaccess) as further assistance to connect to your server.
+You will have to connect to your server through an FTP Client using the credentials that are found under **Tools->FTP-Broswer** on your game server's webinterface. Please use our [FTP File Access guide](gameserver-ftpaccess.md) as further assistance to connect to your server.
 
 
 ## Backup Savegame
@@ -35,7 +35,7 @@ At this location, you will be able to see a folder which will be your SteamID. O
 
 ### Accessing Savegame via FTP
 
-Backing up your Savegame from the server is simple. Once you have connected to your gameserver through an FTP Client, head over to the following path:
+Backing up your Savegame from the server is simple. Once you have connected to your game server through an FTP Client, head over to the following path:
 ```
 ../palworld/Pal/Saved/SaveGames/0
 ```
@@ -46,11 +46,11 @@ At this location, you should see a folder with a range of random characters whic
 
 ### Automatic Backup
 
-We also provide an option to automatically backup your Savegame (and configuration file) directly through our webinterface. Simply head over to your gameserver's webinterface and go to the **Tools->Backups** section. Here you can configure a variety of options to schedule automatic backups for your server. We provide you with 10gb free backup storage which your backups will be stored in. For further information regarding backups, have a look at our dedicated [Automatic Server Backup guide](gameserver-backups.md) for this topic.
+We also provide an option to automatically backup your Savegame (and configuration file) directly through our webinterface. Simply head over to your game server's webinterface and go to the **Tools->Backups** section. Here you can configure a variety of options to schedule automatic backups for your server. We provide you with 10gb free backup storage which your backups will be stored in. For further information regarding backups, have a look at our dedicated [Automatic Server Backup guide](gameserver-backups.md) for this topic.
 
 ## Uploading Savegame
 
-Similarly to backing up, uploading your Savegame is simple. First ensure that you connect to your gameserver through an FTP Client. Once you are ready, head over to the following path:
+Similarly to backing up, uploading your Savegame is simple. First ensure that you connect to your game server through an FTP Client. Once you are ready, head over to the following path:
 ```
 ../Pal/Saved/SaveGames/0
 ```
@@ -77,7 +77,7 @@ At this line, edit the contents, replacing it with the name of the Savegame (the
 
 ![image](https://screensaver01.zap-hosting.com/index.php/s/qLG2jtzFkYM6WB7/preview)
 
-Ensure that you save this file and restart your server for this to take effect. You have successfully added a Savegame to your gameserver.
+Ensure that you save this file and restart your server for this to take effect. You have successfully added a Savegame to your game server.
 
 ## Savegame has Disappeared
 

@@ -15,7 +15,7 @@ Wenn du mehr darüber erfahren möchtest, wie du die Sicherheit deines Servers v
 
 ## Installation
 
-Um die Installation zu beginnen, musst du erst über VNC auf deinem Server verbinden. Du kannst dazu unserer Anleitung folgen [VNC Konsole](https://zap-hosting.com/guides/de/docs/vserver-vnc/)
+Um die Installation zu beginnen, musst du erst über VNC auf deinem Server verbinden. Du kannst dazu unserer Anleitung folgen [VNC Konsole](vserver-vnc.md)
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';

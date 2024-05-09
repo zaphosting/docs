@@ -5,11 +5,15 @@ description: Informationen, über die RAID Konfigurationsmöglichkeiten für dei
 sidebar_label: RAID konfigurieren
 ---
 
-:::info
-Wir bieten Dedicated Server mit bis zu 2 SSDs an, dies ermöglicht ein RAID0 oder RAID1
-:::
 
-## Welche RAID-Typen gibt es?
+
+## Einführung
+
+RAID (Redundant Array of Independent Disks) ist eine Technologie, die mehrere Festplatten zu einem einzigen logischen Laufwerk zusammenfasst, um Datenredundanz und/oder Leistungssteigerung zu erreichen. Es gibt verschiedene RAID-Levels, die unterschiedliche Kombinationen aus Datenverteilung und Fehlertoleranz bieten.
+
+
+
+## Verfügbare RAID Arten
 Grundsätzlich gibt es verschiedenste Arten von RAID-Möglichkeiten. Dadurch dass unsere Dedicated Server für SSDs 2 Bays bereitstellen,
 ist eine Konfiguration von RAID0 oder RAID1 möglich. Andere Arten von RAID würden mehr Datenträger erfordern.
 
@@ -19,7 +23,7 @@ RAID0 hat geringfügig schnellere Lese- und Schreibraten
 
 ### RAID0
 Bei dieser RAID-Konfiguration werden alle vorhandenen Datenträger in ein großes Volume zusammengefasst, beispielsweise aus 2 jeweils 1 TB SSDs,
-würde eine 2 TB Partition entstehen, welche dann komplett genutzt werden könnte.
+würde eine 2 TB Partition entstehen, welche dann komplett genutzt werden könnte.
 Es besteht keine Datenredundanz, im Falle eines technischen Defektes ist also ein Datenverlust häufig unausweichlich, da deine Daten in verschiedenen Sektoren geschrieben werden.
 Solltest du also sensible Daten auf deinem System lagern ist grundsätzlich von RAID0 abzuraten oder es sollten zumindest regelmäßige Systembackups durchgeführt werden.
 
@@ -37,7 +41,7 @@ Gerade für sensiblere Daten ist diese Konfiguration sehr empfehlenswert, dennoc
 Regelmäßige Backups aller wichtigen Daten sind unerlässlich!
 :::
 
-## Das Konfigurationsmenü
+## Der Konfigurationsassistent
 
 Zuerst muss der Konfigurator für RAIDs aufgerufen werden, dies wird mit `F8` während dem Bootprozess erledigt.
 

@@ -1,6 +1,6 @@
 ---
 id: partner-guide
-title: Partner Guide The Partner Program of ZAP-Hosting
+title: Partner Guide
 description: Information on ZAP-Hosting's partner programme - ZAP-Hosting.com documentation
 sidebar_label: Partner Guide
 ---
@@ -32,7 +32,7 @@ Your own server is waiting! Create your dream server now at ZAP-Hosting.com: (YO
 Powerful game servers, root servers and domains! Online immediately! Now at my partner ZAP-Hosting.com (YOUR LINK) #Ad
 
 
-Server provided by my partner in terms of gameserver, root server and domains: (YOUR LINK) #Ad
+Server provided by my partner in terms of game server, root server and domains: (YOUR LINK) #Ad
 :::
 
 ## The partner ranks

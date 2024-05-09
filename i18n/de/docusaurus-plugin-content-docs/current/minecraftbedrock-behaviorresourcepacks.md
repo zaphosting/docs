@@ -1,8 +1,8 @@
 ---
 id: minecraftbedrock-behaviorresourcepacks
-title: "Minecraft: Bedrock Behavior/Resource Packs installieren"
-description: Informationen, wie du Behaviour/Resource Packs auf deinen Minecraft Bedrock Server von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentation
-sidebar_label: Behavior/Resource Packs installieren
+title: "Minecraft: Bedrock Behavior/Ressource Packs installieren"
+description: Informationen, wie du Behaviour/Ressource Packs auf deinen Minecraft Bedrock Server von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentation
+sidebar_label: Behavior/Ressource Packs installieren
 ---
 
 Hier gelangst du zu unseren Minecraft Servern: [Minecraft Server mieten](https://zap-hosting.com/de/minecraft-server-mieten/)
@@ -27,7 +27,7 @@ C:\Users\%username%\AppData\Local\Packages\Microsoft.MinecraftUWP_8wekyb3d8bbwe\
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/fkZBGKf3obsEkPk/preview)
 
-Die Welt, die du heruntergeladen hast, von deinem Server sollte nun angezeigt werden, falls du die Welt nicht heruntergeladen hast, klicke einfach auf "Neu erstellen". Hier hast du die Option, deine Resourcen & Behavior packs auszuwählen.
+Die Welt, die du heruntergeladen hast, von deinem Server sollte nun angezeigt werden, falls du die Welt nicht heruntergeladen hast, klicke einfach auf "Neu erstellen". Hier hast du die Option, deine Ressourcen & Behavior packs auszuwählen.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/SzDbFoJQK37okye/preview)
 
@@ -60,7 +60,7 @@ auf
 texturepack-required=true
 ```
 
-setzen. Dies stellt sicher das Spieler, die auf deinen Server joinen auch die erforderlichen Resourcen downloaden.
+setzen. Dies stellt sicher das Spieler, die auf deinen Server joinen auch die erforderlichen Ressourcen downloaden.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/5DWLKKkPgSJSFsE/preview)
 

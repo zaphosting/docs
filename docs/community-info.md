@@ -17,7 +17,7 @@ We regularly host events & competitions across many of our socials. We typically
 
 Our livestreams take place on our [Twitch](https://twitch.tv/zaphosting) and [YouTube](https://youtube.com/zaphosting) whilst our game competitions are typically hosted on our [ZAP-Hosting Community Discord Server](https://discord.gg/invite/zaphosting). 🎥
 
-Both our events and competitions are always filled with freebies such as ZAP Coins, free products as well as of course... being filled with much fun by us and the community! 🪙
+Both our events and competitions are always filled with freebies such as money for your cashbox, free products as well as of course... being filled with much fun by us and the community! 🪙
 
 We hope to see you at one of our events or competitions in the future! ⚔️
 
@@ -27,19 +27,19 @@ We run an official contribution program for our guides (yes these very docs that
 
 The contribution program is accessible to anyone who wants to share their **knowledge** and **experience** with the community! We actively look for dedicated writers who have **strong technical skills** and are **knowledgeable** in the respective field. Most importantly, we look for writers who are dedicated and are happy in collaborating with our ZAP-Hosting Docs Team to improve and revise their content prior to publishing. ✏️🗣️
 
-Interested? **Contribute now. Get rewarded.** Head over to the [Contribution Program](https://zap-hosting.com/guides/docs/contribution-introduction) section of our documentation to learn more! 🚀
+Interested? **Contribute now. Get rewarded.** Head over to the [Contribution Program](contribution-introduction.md) section of our documentation to learn more! 🚀
 
 ### Giveaways
 
 Want to win some awesome freebies and prizes? 🎁
 
-We host a huge selection of giveaways throughout the year, including our world-renowned Zappy Monday codes where **each & every** Monday, we post a code on our socials for free ZAP Coins! 🪙
+We host a huge selection of giveaways throughout the year, including our world-renowned Zappy Monday codes where **each & every** Monday, we post a code on our socials to provied free money for your cashbox! 🪙
 
 Moreover, we frequently host awesome giveaways on our social platforms, including Instagram, X, Facebook & others, where you can win a wide range of prizes. Take one our latest giveaway post for example, we gave away a **Lifetime VPS** to one lucky winner from our community. 💪
 
 Sounds awesome? Well there's more! 🎉
 
-We are also proud to be hosting daily... yes you heard me right... **daily** giveaways for **€10 ZAP Coins** on our [ZAP-Hosting Community Discord Server](https://discord.gg/invite/zaphosting) to give back to our most active members of the community. Our Discord Nitro boosters also receive an extra weekly giveaway as a thank you! 🫢
+We are also proud to be hosting daily... yes you heard me right... **daily** giveaways providing **€10** in money for the winner's cashbox on our [ZAP-Hosting Community Discord Server](https://discord.gg/invite/zaphosting) to give back to our most active members of the community. Our Discord Nitro boosters also receive an extra weekly giveaway as a thank you! 🫢
 
 I know all of this sounds awesome and we hope to see you around at our giveaways! ✨
 

@@ -13,7 +13,7 @@ Klicken hier, um zu unseren Minecraft-Servern zu gelangen:  [Minecraft Server Ho
 
 - Ein [Gameserver](https://zap-hosting.com/de/gameserver-hosting/)
 - Ein FTP-Client ( wie zum Beispiel WinSCP, FileZilla)
-- Verbindung zu deinem Server via FTP ([Anleitung](https://zap-hosting.com/guides/de/docs/gameserver-ftpaccess/))
+- Verbindung zu deinem Server via FTP ([Anleitung](gameserver-ftpaccess.md))
 
 
 

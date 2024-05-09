@@ -17,7 +17,7 @@ Wir veranstalten regelmäßig Events und Wettbewerbe in vielen unserer sozialen 
 
 Unsere Livestreams finden auf [Twitch](https://twitch.tv/zaphosting) und [YouTube](https://youtube.com/zaphosting) statt, während unsere Spielewettbewerbe normalerweise auf unserem [ZAP-Hosting Community Discord Server](https://discord.gg/invite/zaphosting) veranstaltet werden. 🎥
 
-Sowohl unsere Events als auch unsere Wettbewerbe sind immer mit Gratisgeschenken wie ZAP-Coins, kostenlosen Produkten und natürlich... mit viel Spaß für uns und die Community gefüllt! 🪙
+Sowohl unsere Events als auch unsere Wettbewerbe sind immer mit Gratisgeschenken wie Geld für deine cashbox, kostenlosen Produkten und natürlich... mit viel Spaß für uns und die Community gefüllt! 🪙
 
 Wir hoffen, dich bei einem unserer Events oder Wettbewerbe in der Zukunft zu sehen! ⚔️
 
@@ -27,17 +27,17 @@ Wir haben ein offizielles Beitragsprogramm für unsere Anleitungen (ja, genau di
 
 Das Beitragsprogramm ist für jeden zugänglich, der sein **Wissen** und seine **Erfahrung** mit der Community teilen möchte! Wir suchen aktiv nach engagierten Schreibern, die **starke technische Fähigkeiten** haben und sich in dem jeweiligen Bereich **auskennen**. Vor allem aber suchen wir Autoren, die engagiert sind und gerne mit unserem ZAP-Hosting Docs Team zusammenarbeiten, um ihre Inhalte vor der Veröffentlichung zu verbessern und zu überarbeiten. ✏️🗣️
 
-Interessiert? **Werde jetzt Mitglied. Du bekommst eine Belohnung** Besuche  den Abschnitt [Beitragsprogramm](https://zap-hosting.com/guides/docs/contribution-introduction) in unserer Dokumentation, um mehr zu erfahren! 🚀
+Interessiert? **Werde jetzt Mitglied. Du bekommst eine Belohnung** Besuche  den Abschnitt [Beitragsprogramm](contribution-introduction.md) in unserer Dokumentation, um mehr zu erfahren! 🚀
 
 
 
 ### Giveaways
 
-Willst du ein paar tolle Gratisgeschenke und Preise gewinnen? 🎁 Wir veranstalten das ganze Jahr über eine riesige Auswahl an Giveaways, darunter unsere weltbekannten Zappy Monday Codes, bei denen wir **jeden** Montag einen Code für kostenlose ZAP Coins auf unseren sozialen Netzwerken veröffentlichen! 🪙
+Willst du ein paar tolle Gratisgeschenke und Preise gewinnen? 🎁 Wir veranstalten das ganze Jahr über eine riesige Auswahl an Giveaways, darunter unsere weltbekannten Zappy Monday Codes, bei denen wir **jeden** Montag einen Code um kostenloses Geld für deine cashbox zu erhalten auf unseren sozialen Netzwerken veröffentlichen! 🪙
 
 Außerdem veranstalten wir auf unseren sozialen Plattformen wie Instagram, X, Facebook & Co. regelmäßig tolle Giveaways, bei denen du eine Vielzahl von Preisen gewinnen kannst. In unserem letzten Posting haben wir zum Beispiel einen **Lifetime VPS** an einen glücklichen Gewinner aus unserer Community verschenkt. 💪
 
-Klingt fantastisch? Nun, es gibt noch mehr! 🎉 Wir sind auch stolz darauf, täglich... ja, du hast richtig gehört... **tägliche** Verlosungen für **10€ ZAP-Coins** auf unserem [ZAP-Hosting Community Discord Server] (https://discord.gg/invite/zaphosting), um unseren aktivsten Mitgliedern der Community etwas zurückzugeben. Unsere Discord-Nitro-Booster erhalten außerdem ein zusätzliches wöchentliches Giveaway als Dankeschön! 🫢
+Klingt fantastisch? Nun, es gibt noch mehr! 🎉 Wir sind auch stolz darauf, täglich... ja, du hast richtig gehört... **tägliche** Verlosungen die Bereitstellung von **10€** Geld für die cashbox des Gewinners auf unserem [ZAP-Hosting Community Discord Server](https://discord.gg/invite/zaphosting), um unseren aktivsten Mitgliedern der Community etwas zurückzugeben. Unsere Discord-Nitro-Booster erhalten außerdem ein zusätzliches wöchentliches Giveaway als Dankeschön! 🫢
 
 Ich weiß, das klingt alles super und wir hoffen, euch bei unseren Giveaways zu sehen! ✨
 
@@ -77,7 +77,6 @@ Bei Fragen oder Problemen mit deinen ZAP-Hosting-Diensten kannst du uns jederzei
 Hier findest du einige nützliche Links zu unserem Support:
 
 - [Systemstatus & Störungen](https://zap-hosting.com/status)
-
 - [Dokumentation & Anleitungen](https://zap-hosting.com/guides/)
 - [Offizielle Unterstützung anfordern](https://zap-hosting.com/en/customer/support/)
 - [AGB](https://zap-hosting.com/en/terms/)

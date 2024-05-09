@@ -7,7 +7,7 @@ sidebar_label: Einführung
 
 ![Contribution Program 2.0](https://screensaver01.zap-hosting.com/index.php/s/djbjL5gHGRCYAzq/preview)
 
-## Einleitung
+## Einführung
 
 Wir bei ZAP-Hosting glauben an die Kraft unserer Community. Deshalb freuen wir uns, unser eigenes ZAP-Hosting Community Contributions Programm zu starten. Dieses Programm ermöglicht es unserer ZAP-Community, qualitativ hochwertige, praktische und leicht zugängliche Anleitungen zu erstellen, die eine breite Palette von Themen unterstützen und anderen Mitmenschen helfen. Das Programm unterstützt auch die Kreativität unserer Community durch die Erstellung einzigartiger Blogbeiträge und Inhalte.
 
@@ -25,13 +25,13 @@ Wir freuen uns, dass wir unser Programm aufgrund des großen Engagements und Fee
 
 Im Bereich ZAP Guides geht es um die Erstellung von Inhalten für unsere Guides auf den offiziellen [ZAP-Hosting Docs](https://zap-hosting.com/guides/). Dabei geht es um die Erstellung ganz neuer Anleitungen, aber auch um Aktualisierungen und Erweiterungen bestehender Anleitungen, wenn dies notwendig ist.
 
-Bist du daran interessiert, zu unseren Anleitungen beizutragen? In unserem [Guides Process Guide](contribution-guides.md) erfährst du mehr.
+Bist du daran interessiert, zu unseren Anleitungen beizutragen? In unserem [Beitragsanleitung](contribution-guides.md) erfährst du mehr.
 
 ### ZAP Blogs - Blogbeiträge schreiben
 
 Wir freuen uns, Blogbeiträge als neuen Bereich für unser Beitragsprogramm vorstellen zu können. Bei dieser spannenden Möglichkeit schreibst du deine eigenen informativen Blogbeiträge für unseren offiziellen [ZAP-Hosting.com Blog](https://zap-hosting.com/en/blog/).
 
-Bist du daran interessiert, einen Beitrag für unseren Blog zu schreiben? In unserem [Blogs Process Guide](contribution-blogs.md) erfährst du mehr.
+Bist du daran interessiert, einen Beitrag für unseren Blog zu schreiben? In unserem [Beitragsanleitung](contribution-blogs.md) erfährst du mehr.
 
 ## Für wen ist dieses Programm gedacht?
 

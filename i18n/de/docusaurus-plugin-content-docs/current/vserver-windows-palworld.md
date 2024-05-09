@@ -106,7 +106,7 @@ Wechsle zunächst in das folgende Verzeichnis:
 ../steamapps/common/PalServer/Pal/Saved/Config/WindowsServer
 ```
 
-Dort findest du die Konfigurationsdatei **PalWorldSettings.ini**. Über diese Datei kannst du eine große Auswahl an Parametern für deinen Server konfigurieren. Im [Palworld Server-Konfiguration guide](palworld-configuration.md) kannst du dir alle verfügbaren Optionen ansehen und erfahren, was sie jeweils bewirken.
+Dort findest du die Konfigurationsdatei **PalWorldSettings.ini**. Über diese Datei kannst du eine große Auswahl an Parametern für deinen Server konfigurieren. In der [Palworld Server-Konfiguration Anleitung](palworld-configuration.md) kannst du dir alle verfügbaren Optionen ansehen und erfahren, was sie jeweils bewirken.
 
 :::note
 Wenn du diese Datei nicht siehst, starte deinen Server bitte mindestens **einmal**, damit sie automatisch erstellt wird. Alternativ kannst du auch die Standardeinstellungen aus dem Pfad `steamapps/common/PalServer/DefaultPalWorldSettings.ini` kopieren und verwenden.

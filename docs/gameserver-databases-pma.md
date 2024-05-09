@@ -1,6 +1,6 @@
 ---
 id: gameserver-databases-pma
-title: PHPMyAdmin for servers of ZAP-Hosting
+title: 'Game server: PHPMyAdmin access'
 description: Information on how to use PHPMyAdmin with game servers from ZAP-Hosting to manage the databases - ZAP-Hosting.com documentation
 sidebar_label: PHPMyAdmin
 ---
@@ -8,7 +8,7 @@ sidebar_label: PHPMyAdmin
 
 ## Introduction
 
-By using phpMyAdmin, MySQL databases can be managed quickly and easily via a web interface. ZAP-Hosting offers MySQL databases inclusive with the gameserver products. These can be managed with phpMyAdmin as well as with external MySQL administration programs like Navicat or HeidiSQL. We also offer a guide for this which can be found [here](gameserver-database-external-access.md).
+By using phpMyAdmin, MySQL databases can be managed quickly and easily via a web interface. ZAP-Hosting offers MySQL databases inclusive with the game server products. These can be managed with phpMyAdmin as well as with external MySQL administration programs like Navicat or HeidiSQL. We also offer a guide for this which can be found [here](gameserver-database-external-access.md).
 
 ## Login to phpMyAdmin
 

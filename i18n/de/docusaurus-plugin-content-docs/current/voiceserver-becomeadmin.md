@@ -5,6 +5,8 @@ description: Informationen, wie du Admins für deinen Teamspeak Server von ZAP-H
 sidebar_label: Admin werden
 ---
 
+
+
 ## Einführung
 
 Damit du deinen Teamspeak Server verwalten und konfigurieren kannst, benötigst du Administrator-Berechtigungen. Im Folgenden wird erklärt, wie du Benutzer als Admin hinzufügen kannst. 

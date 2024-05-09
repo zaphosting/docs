@@ -25,7 +25,7 @@ Unsere Anleitungen in den ZAP Docs folgen einer relativ einheitlichen Struktur, 
 Verfahrensanleitungen, die veröffentlicht werden, sollten den Leser Schritt für Schritt durch das jeweilige Thema führen, so dass er es am Ende vollständig beherrscht. Die Struktur dafür wäre/sollte sein:
 
 - Seitentitel (H1-Überschrift - wird über die Metadaten "Titel" oben auf der Seite festgelegt)
-- Einleitungstext
+- Einführungstext
 - Voraussetzungen (H2 Überschrift)
 - Schritt 1 (H2 Überschrift)
 - Schritt 2 (H2 Überschrift)
@@ -36,7 +36,7 @@ Verfahrensanleitungen, die veröffentlicht werden, sollten den Leser Schritt fü
 Informative Anleitungen, die Informationen und Wissen vermitteln, sollten die folgende Struktur verwenden:
 
 - Seitentitel (H1-Überschrift - wird über die `title`-Metadaten oben auf der Seite festgelegt)
-- Einleitungstext
+- Einführungstext
 - Hauptthema 1 (H2 Überschrift)
 - Hauptthema 2 (H2 Überschrift)
 - Optional: Unterthema 2.1 (H3 Überschrift)
@@ -55,16 +55,16 @@ In Zukunft werden wir Vorlagen mit vorgefertigtem Markdown für dich hinzufügen
 
 Wenn du einen Titel erstellst, solltest du das Ziel deiner Anleitung berücksichtigen. Überlege dir genau, was der Leser erreichen soll, wenn er deinem Anleitung folgt. Ein typischer Verfahrensleitfaden hat das folgende Titelformat: **Wie man [Aufgabe] mit [Software]** erledigt. Ein typischer informativer Anleitung hat die folgende Überschrift: **Informationen zu [Anleitung-Info]**.
 
-### Einleitung
+### Einführung
 
-Einleitungen in Anleitungen sollten relativ kurz sein und einfach erklären, was die Anleitung vermitteln soll und was das Ergebnis ist, wenn es sich um eine Anleitung handelt. Ein paar Fragen, die du dir stellen solltest:
+Einführungen in Anleitungen sollten relativ kurz sein und einfach erklären, was die Anleitung vermitteln soll und was das Ergebnis ist, wenn es sich um eine Anleitung handelt. Ein paar Fragen, die du dir stellen solltest:
 
 - Worum geht es in deiner Anleitung?
 - Was soll der Leser aus dieser Anleitung lernen?
 - Was wird er am Ende der Anleitung erreicht haben?
 
 
-Die Beantwortung dieser Fragen sollte dir helfen, eine kurze und prägnante Einleitung für deine Anleitung zu verfassen.
+Die Beantwortung dieser Fragen sollte dir helfen, eine kurze und prägnante Einführung für deine Anleitung zu verfassen.
 
 ### Voraussetzungen
 
@@ -83,7 +83,7 @@ Du solltest eine Aufzählung dieser Voraussetzungen unter der Abschnittsübersch
 
 Der Abschnitt Schritte ist der Teil einer Anleitung, in dem du beschreibst, was die Leser/innen tun müssen und warum. Jeder Schritt sollte auf die Überschrift H2 folgen. Du kannst die Nummer des Schritts erwähnen, bevor du den Schritt beschreibst, z.B. wäre **Schritt 1 - Einrichten des API-Kontos** eine passende Schrittüberschrift. Nach dieser Überschrift solltest du kurz und knapp beschreiben, was der Leser in diesem Schritt tun wird, um ein Gesamtziel zu erreichen. Wie bereits erwähnt, solltest du die Zeitform der zweiten Person verwenden (z. B. "Du wirst erstellen") und nicht die erste Person.
 
-Zwischen den einzelnen Schritten solltest du eine kurze Einleitung und eine abschließende Überleitung einbauen, um den Leser/die Leserin darüber zu informieren, was er/sie bisher getan hat und was in den nächsten Schritten passieren wird. Diese Übergänge bieten dem Leser einen wichtigen Kontext. Versuche, Wiederholungen zu vermeiden und verwende eine Reihe von Begriffen, um Wiederholungen von Schritten zu vermeiden.
+Zwischen den einzelnen Schritten solltest du eine kurze Einführung und eine abschließende Überleitung einbauen, um den Leser/die Leserin darüber zu informieren, was er/sie bisher getan hat und was in den nächsten Schritten passieren wird. Diese Übergänge bieten dem Leser einen wichtigen Kontext. Versuche, Wiederholungen zu vermeiden und verwende eine Reihe von Begriffen, um Wiederholungen von Schritten zu vermeiden.
 
 ### Schlussfolgerung
 
@@ -119,7 +119,7 @@ Schließlich müssen alle Schreiber/innen unseren Verhaltenskodex befolgen, um s
 Unsere Dokumentation ist mit der Markdown-Auszeichnungssprache formatiert, die weit verbreitet und relativ einfach zu verwenden ist. In den folgenden Abschnitten erfährst du, welche Sprache wir verwenden und wie sie genutzt wird.
 
 :::tip
-Weitere Beispiele und ausführliche Erklärungen zu den Funktionen von Markdown findest du im [Markdown Guide](https://www.markdownguide.org/cheat-sheet/), der weitere Informationen enthält.
+Weitere Beispiele und ausführliche Erklärungen zu den Funktionen von Markdown findest du in der [Markdown Anleitung](https://www.markdownguide.org/cheat-sheet/), die weitere Informationen enthält.
 :::
 
 ### Kopfzeilen

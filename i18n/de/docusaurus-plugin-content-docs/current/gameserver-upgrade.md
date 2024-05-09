@@ -1,6 +1,6 @@
 ---
 id: gameserver-upgrade
-title: Up-/Downgrade
+title: 'Gameserver: Up-/Downgrade'
 description: Informationen, wie du deinen Gameserver von ZAP-Hosting.com Up-/Downgraden kannst. - ZAP-Hosting.com Dokumentation
 sidebar_label: Up-/Downgrade
 ---
@@ -41,7 +41,7 @@ Darunter befinden sich noch weitere Parameter, in unserem Beispiel eines FiveM S
 
 * Gameserver Slot: Solltest du mehr Kapazität auf deinem Gameserver benötigen, schiebe den Regler einfach nach Links, um mehr Platz zu haben für gleichzeitige Spieler.
 
-* RAM Boost: Sinnvoll bei vielen Dingen wie Resourcen, Mods, Addons o.ä. erweitert die Kapazität des zur Verfügung stehenden Arbeitsspeichers deines Produktes.
+* RAM Boost: Sinnvoll bei vielen Dingen wie Ressourcen, Mods, Addons o.ä. erweitert die Kapazität des zur Verfügung stehenden Arbeitsspeichers deines Produktes.
 
 * CPU & Hostserver: Solltest du mehr Performance benötigen, kannst du auf ein Premium-System wechseln, welches dir den entsprechenden Leistungsboost bringt.
 

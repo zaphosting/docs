@@ -1,17 +1,15 @@
 ---
-id: beammp-firststeps-connect
-title: "BeamMP: Dashboard Übersicht"
-description: Informationen zum Dashboard eines BeamMP Server von ZAP-Hosting - ZAP-Hosting.com Dokumentationen
+id: foundry-firststeps-dashboard
+title: "Foundry: Dashboard Übersicht"
+description: Informationen zum Dashboard eines Foundry Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Dashboard
 ---
 
-
-
 ## Einführung
 
-Du bist an einem **BeamMP Server** interessiert oder besitzt bereits einen, doch dir fehlt noch ein umfassender Überblick über die Verwaltung und die Auffindbarkeit aller notwendigen Optionen? Gerade zu Beginn kann dies eine Herausforderung darstellen. Aber keine Sorge, im Folgenden bieten wir dir eine ausführliche Einführung zur Verwaltung deines Dienstes, damit du den optimalen Durchblick hast.
+Du bist an einem **Foundry Server** interessiert oder besitzt bereits einen, doch dir fehlt noch ein umfassender Überblick über die Verwaltung und die Auffindbarkeit aller notwendigen Optionen? Gerade zu Beginn kann dies eine Herausforderung darstellen. Aber keine Sorge, im Folgenden bieten wir dir eine ausführliche Einführung zur Verwaltung deines Dienstes, damit du den optimalen Durchblick hast.
 
-Nachdem du diese Anleitung durchgegangen bist, wirst du problemlos in der Lage sein, deinen Server effizient zu verwalten und alle erforderlichen Optionen sowie Features zügig und unkompliziert zu finden. Hier erhältst du einen strukturierten Überblick, der dir Schritt für Schritt hilft, dich mit der Serververwaltung vertraut zu machen und dein Wissen gezielt zu erweitern. So kannst du sicherstellen, dass dein **BeamMP Server** optimal auf deine Bedürfnisse abgestimmt ist und du das Beste aus den vorhandenen Möglichkeiten herausholst.
+Nachdem du diese Anleitung durchgegangen bist, wirst du problemlos in der Lage sein, deinen Server effizient zu verwalten und alle erforderlichen Optionen sowie Features zügig und unkompliziert zu finden. Hier erhältst du einen strukturierten Überblick, der dir Schritt für Schritt hilft, dich mit der Serververwaltung vertraut zu machen und dein Wissen gezielt zu erweitern. So kannst du sicherstellen, dass dein **Foundry Server** optimal auf deine Bedürfnisse abgestimmt ist und du das Beste aus den vorhandenen Möglichkeiten herausholst.
 
 
 
@@ -25,7 +23,7 @@ Im Abschnitt **Informationen** deines Navigationspanels findest du eine Reihe vo
 
 Das **Dashboard** deines Servers stellt das Herzstück für die Verwaltung dar. Hier werden alle grundlegenden und essenziellen Informationen zu deinem Dienst übersichtlich präsentiert. Dazu zählen beispielsweise Angaben zum Standort, Status, IP:Port, genutzter Speicherplatz, aktuell laufendes Spiel, Servername, Karte und die Anzahl der verfügbaren Slots. Zudem werden auch die Auslastungen der CPU, des Arbeitsspeichers und des RAM dargestellt.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/L8k23pnHq39ERGM/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/Hrtwb7DFmmQmH5X/preview)
 
 Im Dashboard hast du außerdem die Möglichkeit, deinen Dienst zu starten, zu stoppen oder neu zu starten, um so die volle Kontrolle über dessen Betrieb zu haben. Weiterhin kannst du die Live-Konsole aufrufen, um Echtzeitinformationen über den Serverzustand zu erhalten und gegebenenfalls direkte Eingriffe vorzunehmen.
 
@@ -44,16 +42,6 @@ Durch regelmäßiges Überprüfen der **News** bleibst du stets informiert und k
 
 
 
-### Statistiken
-
-Unter den **Statistiken** erhältst du eine umfassende Übersicht über die Auslastungswerte deines Servers. Dort findest du Informationen zu verschiedenen Aspekten wie etwa der Auslastung der verfügbaren Slots, der CPU und dem Arbeitsspeicher. Du kannst dir diese Daten für verschiedene Zeiträume anzeigen lassen, zum Beispiel für die letzten **60 Minuten, 24 Stunden, 3 Tage, 7 Tage** oder **30 Tage.**
-
-![img](https://screensaver01.zap-hosting.com/index.php/s/r7gi2dwayMXCk7N/preview)
-
-Dank dieser Informationen bekommst du einen guten Einblick in den Verbrauch deines Servers. Zudem sind diese Statistiken oft hilfreich, um mögliche Performance-Probleme zu identifizieren und deren Ursachen einzugrenzen. Du kannst beispielsweise nachvollziehen, seit wann die Auslastung angestiegen ist und ob dies mit bestimmten Ereignissen oder Änderungen zusammenhängt. Dies ist insbesondere dann wichtig, wenn plötzlich Probleme auftreten, da es dir ermöglicht, gezielte Schritte zur Problemlösung zu unternehmen und mögliche Ursachen systematisch zu analysieren.
-
-
-
 ### DDoS Manager
 
 Der **DDoS-Manager** ermöglicht es dir, vergangene Attacken einzusehen und dadurch einen besseren Überblick für potenzielle Bedrohungen zu erhalten. Zusätzlich hast du die Option, Benachrichtigungen für laufende DDoS-Angriffe auf deinem Server zu aktivieren, um schnell auf solche Vorfälle reagieren zu können.
@@ -67,17 +55,10 @@ Darüber hinaus kannst du den Schutz anpassen, sofern du eine eigene IP-Adresse 
 
 Mit diesen Anpassungsmöglichkeiten kannst du den DDoS-Schutz individuell auf deine Bedürfnisse abstimmen und somit die Sicherheit deines Servers erhöhen.
 
-> ⚠️ Die Verwendung des DDoS-Managers ist ausschließlich möglich, wenn entweder eine eigene IP-Adresse oder die Option "DDoS-Manager-Übersicht" zusätzlich gebucht wurde. Falls diese Komponenten in deinem aktuellen Paket fehlen, kannst du sie jederzeit nachträglich durch ein Upgrade hinzufügen.
+:::info
+Die Verwendung des DDoS-Managers ist ausschließlich möglich, wenn entweder eine eigene IP-Adresse oder die Option "DDoS-Manager-Übersicht" zusätzlich gebucht wurde. Falls diese Komponenten in deinem aktuellen Paket fehlen, kannst du sie jederzeit nachträglich durch ein Upgrade hinzufügen.
+:::
 
-### Tebex Shop
-
-Mit TEBEX hast du die Möglichkeit, aus deinem Gameserver bares Geld zu machen, indem du virtuelle Güter und Ränge für echtes Geld verkaufst. Es ist ein leistungsstarkes und zuverlässiges Tool, das speziell für Game-Server-Administratoren entwickelt wurde, die ihren Spielern ein besseres Spielerlebnis bieten möchten.
-
-![img](https://screensaver01.zap-hosting.com/index.php/s/TbwafKd3Kmq4WrS/preview)
-
-TEBEX ist einfach zu bedienen und bietet zahlreiche Funktionen, um deinen Shop anzupassen und zu optimieren. Du kannst dein Shop-Layout anpassen, Zahlungsoptionen hinzufügen, und sogar Marketingkampagnen starten, um mehr Spieler zu erreichen.
-
-Indem du auf das Bild klickst, kannst du deinen eigenen Gameserver Shop mit TEBEX erstellen. Das Einrichten ist schnell und einfach, so dass du in kürzester Zeit bereit bist, deine virtuellen Güter zu verkaufen. 
 
 
 ### Log-Dateien
@@ -86,7 +67,9 @@ Tritt ein technisches Problem auf und du bist unsicher über dessen Ursache? Ein
 
 Insbesondere Fehlermeldungen können dabei helfen, die Ursache eines Problems zu identifizieren und besser zu verstehen. Oftmals lassen sich Schwierigkeiten durch einen gezielten Blick in die Log-Dateien aufdecken und beheben. 
 
-> ⚠️ Die dort zu findenden Informationen helfen nicht weiter oder du verstehst diese nicht? Keine Sorge! In dem Fall stehen wir dir auch im Support täglich zur Verfügung. Erstelle dazu einfach ein **[Ticket](https://zap-hosting.com/de/customer/support/)** und erläutere uns dein Problem. Wir werden uns dies dann so schnell wie möglich anschauen und dir bei der Lösung des Problems entsprechend weiterhelfen! :)
+:::info
+Die dort zu findenden Informationen helfen nicht weiter oder du verstehst diese nicht? Keine Sorge! In dem Fall stehen wir dir auch im Support täglich zur Verfügung. Erstelle dazu einfach ein **[Ticket](https://zap-hosting.com/de/customer/support/)** und erläutere uns dein Problem. Wir werden uns dies dann so schnell wie möglich anschauen und dir bei der Lösung des Problems entsprechend weiterhelfen! :)
+:::
 
 
 
@@ -141,7 +124,13 @@ Im Abschnitt **Einstellungen** deines Navigationspanels findest du eine Reihe vo
 
 ### Einstellungen
 
-Unter den Einstellungen findest du eine Übersicht der gängingsten Einstellungsoptionen zu deinem Server. Diese beinhalten ebenfalls jeweils eine kurze Erläutern. Die Nutzung der Einstellungsseite ist gerade für Neulinge in der Serververwaltung empfehlenswert. 
+Unter den Einstellungen findest du eine Übersicht der gängigsten Einstellungsoptionen zu deinem Server. Diese beinhalten ebenfalls jeweils eine kurze Erläutern. Die Nutzung der Einstellungsseite ist gerade für Neulinge in der Serververwaltung empfehlenswert. 
+
+![img](https://screensaver01.zap-hosting.com/index.php/s/HjBGJxrnkcH25nN/preview)
+
+Hier kannst du beispielsweise folgende Anpassungen vornehmen: 
+
+- Basiseinstellungen: Savegame name, Servername, Server Beschreibung, Admin Passwort
 
 Solltest du dir doch mehr zutrauen und präzisere Änderungen vornehmen wollen, so empfehlen wir stattdessen den Config-Editor zu verwenden. Mehr dazu findest du unter der Kategorie **Configs**.
 
@@ -149,19 +138,21 @@ Solltest du dir doch mehr zutrauen und präzisere Änderungen vornehmen wollen, 
 
 ### Configs
 
-Der Editor für die Config-Dateien ermöglicht dir, die Konfigurationsdateien direkt über die Webseite auf klassische Weise, also ohne vereinfachte Ansicht, zu bearbeiten. Mit dieser Option kannst du die Einstellungen deines Servers individuell anpassen und nach deinen persönlichen Wünschen konfigurieren.
+Der Editor für die Konfigurationsdateien ermöglicht dir, die Konfigurationsdateien direkt über die Webseite auf klassische Weise, also ohne vereinfachte Ansicht, zu bearbeiten. Mit dieser Option kannst du die Einstellungen deines Servers individuell anpassen und nach deinen persönlichen Wünschen konfigurieren.
 
 Durch die Verwendung des Editors erhältst du direkten Zugriff auf alle verfügbaren Optionen und kannst diese präzise anpassen. Dies ist besonders nützlich für fortgeschrittene Benutzer, die eine umfassende Kontrolle über ihre Servereinstellungen wünschen und genau wissen, welche Änderungen sie vornehmen möchten.
 
-> ⚠️ Hast du festgestellt, dass einige deiner Änderungen teilweise überschrieben werden? Bitte beachte, dass bestimmte Optionenwerte von der Einstellungsseite herangezogen werden. Wenn du diese Änderungen direkt in der Config vornehmen möchtest, solltest du zuerst die betreffenden Optionen auf der Einstellungsseite deaktivieren.
+:::info
+Hast du festgestellt, dass einige deiner Änderungen teilweise überschrieben werden? Bitte beachte, dass bestimmte Optionenwerte von der Einstellungsseite herangezogen werden. Wenn du diese Änderungen direkt in der Config vornehmen möchtest, solltest du zuerst die betreffenden Optionen auf der Einstellungsseite deaktivieren.
+:::
 
 
 
 ### Spiele
 
-Unter **Spiele** hast du jederzeit die Möglichkeit die Spielvariante deines bestehenden Spiels zu verändern oder generell ein anderes Spiel zu installieren.  Spiele die den gleichen Slotpreis beinhalten kannst du direkt unter **Verfügbare Spiele** auswählen. Für alle weiteren Spiele wird zunächst eine Anpassung des Slotpreises benötigt. Mehr dazu findest du in der [Spielwechsel](https://zap-hosting.com/guides/docs/de/gameserver_gameswitch/) Anleitung. 
+Unter **Spiele** hast du jederzeit die Möglichkeit die Spielvariante deines bestehenden Spiels zu verändern oder generell ein anderes Spiel zu installieren.  Spiele die den gleichen Slotpreis beinhalten kannst du direkt unter **Verfügbare Spiele** auswählen. Für alle weiteren Spiele wird zunächst eine Anpassung des Slotpreises benötigt. Mehr dazu findest du in der [Spielwechsel](gameserver-gameswitch.md) Anleitung. 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/xkkECw7o52fAMWk/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/2mof3kBgrMXxXAj/preview)
 
 
 
@@ -191,7 +182,7 @@ Im Abschnitt **Werkzeuge** deines Navigationspanels findest du eine Reihe von Un
 
 ### FTP-Browser
 
-Über den **FTP-Browser** erhältst du alle erforderlichen Informationen, um eine Verbindung zum FTP-Zugang herzustellen. Der FTP-Zugang ermöglicht dir einen direkten Zugriff auf die Dateien deines Gameservers. Wir empfehlen die Verwendung eines externen FTP-Programms wie **Filezilla** oder **WinSCP** für eine optimale Nutzung. Wenn du nicht weißt, wie man FTP verwendet, dann kann dir ein Blick in die folgende [Anleitung](https://zap-hosting.com/guides/docs/de/gameserver_ftpaccess/) weiterhelfen.
+Über den **FTP-Browser** erhältst du alle erforderlichen Informationen, um eine Verbindung zum FTP-Zugang herzustellen. Der FTP-Zugang ermöglicht dir einen direkten Zugriff auf die Dateien deines Gameservers. Wir empfehlen die Verwendung eines externen FTP-Programms wie **Filezilla** oder **WinSCP** für eine optimale Nutzung. Wenn du nicht weißt, wie man FTP verwendet, dann kann dir ein Blick in die folgende [Anleitung](gameserver-ftpaccess.md) weiterhelfen.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/aXjfGiX48Yqzy75/preview)
 

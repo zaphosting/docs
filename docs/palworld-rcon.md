@@ -27,7 +27,7 @@ We recommend using this method as it is the easiest.
 The Server must be stopped before the config can be edited, editing the config and restarting the server will result in any changes being undone.
 :::
 
-Simply head over to the **Configs** section on your gameserver's webinterface and press the blue edit file button, as seen below:
+Simply head over to the **Configs** section on your game server's webinterface and press the blue edit file button, as seen below:
 
 ![image](https://github.com/zaphosting/docs/assets/42719082/53c8acad-7347-4c3e-85bf-5ae0ad423fc6)
 
@@ -38,7 +38,7 @@ Right beside it, there will also be an `RCONPort` parameter. This is the RCON in
 ![image](https://github.com/zaphosting/docs/assets/42719082/39871736-7ea1-4fb8-85b8-7f5e311cdba4)
 
 :::note
-We advise you not to change this value for your gameserver, as this is predefined and altering it may break functionality. For self-hosted Palworld servers on VPS products, you can edit this but ensure that you port forward the selected port.
+We advise you not to change this value for your game server, as this is predefined and altering it may break functionality. For self-hosted Palworld servers on VPS products, you can edit this but ensure that you port forward the selected port.
 :::
 
 </TabItem>
@@ -51,7 +51,7 @@ We advise you not to change this value for your gameserver, as this is predefine
 The Server must be stopped before the config can be edited, editing the config and restarting the server will result in any changes being undone.
 :::
 
-Another method of editing your configuration file, is through FTP. If you are not familiar with using FTP, we recommend you to have a look at the [FTP file access](gameserver-ftpaccess.md) guide. However, this method takes longer and if you wish to directly edit the file contents, we recommend simply using the **Configs** section on your gameserver's webinterface as mentioned.
+Another method of editing your configuration file, is through FTP. If you are not familiar with using FTP, we recommend you to have a look at the [FTP file access](gameserver-ftpaccess.md) guide. However, this method takes longer and if you wish to directly edit the file contents, we recommend simply using the **Configs** section on your game server's webinterface as mentioned.
 
 Once you have connected to your server through FTP, head over to the following directory:
 ```
@@ -64,7 +64,7 @@ Find the `PalWorldSettings.ini` file and open this. In the file, search for the 
 Right beside it, there will also be an `RCONPort` parameter. This is the RCON interface port that you will use to connect later on.
 
 :::note
-We advise you not to change this value for your gameserver, as this is predefined and altering it may break functionality. For self-hosted Palworld servers on VPS products, you can edit this but ensure that you port forward the selected port.
+We advise you not to change this value for your game server, as this is predefined and altering it may break functionality. For self-hosted Palworld servers on VPS products, you can edit this but ensure that you port forward the selected port.
 :::
 
 </TabItem>
@@ -80,7 +80,7 @@ Now that you have you have enabled RCON in your server's configuration, you will
 
 You will need to use an RCON program to connect to this. We recommend using [RCON Console](https://sourceforge.net/projects/rconconsole/) as it is open-source.
 
-In the RCON program of your choice, you will have to input the IP address of your server and the RCON port that was defined in the configuration file. Ensure that your gameserver is online and running.
+In the RCON program of your choice, you will have to input the IP address of your server and the RCON port that was defined in the configuration file. Ensure that your game server is online and running.
 
 :::tip
 Ensure that you are entering the RCON Port you viewed in the configuration file and not the port that you connect to your server through. This is a common mistake.

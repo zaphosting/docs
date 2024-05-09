@@ -17,7 +17,7 @@ In many cases, one or more files with the file extension **.sql** will be enclos
 
 ## Preparation of your database
 
-To begin, you must access the **Settings** section on your gameserver webinterface.
+To begin, you must access the **Settings** section on your game server webinterface.
 
 ![image](https://github.com/zaphosting/docs/assets/42719082/a9d59d0b-3b6c-4e1b-be73-2e3609418169)
 
@@ -29,11 +29,11 @@ You must active the **Configure database** section. By default, this should be e
 Ensure that you scroll to the bottom of the page and press the **Save** button, otherwise your changes might not be saved.
 :::
 
-Now, you must navigate to the **Resources** section on your gameserver webinterface. Here, you must install the `MySQL-Async` resource if it's not installed yet. This must be installed in order to allow the server to communicate with your database.
+Now, you must navigate to the **Resources** section on your game server webinterface. Here, you must install the `MySQL-Async` resource if it's not installed yet. This must be installed in order to allow the server to communicate with your database.
 
 ![image](https://github.com/zaphosting/docs/assets/42719082/60dcb5f0-5bd9-4955-bc11-551082e1ab91)
 
-You have now configured your database to work with your gameserver and it is ready to be used.
+You have now configured your database to work with your game server and it is ready to be used.
 
 ## Preparing the SQL file
 
@@ -48,12 +48,12 @@ Before proceeding with the import, you should open the .sql file with any text e
 
 If this exists within your .sql file, ensure to remove the `CREATE` and `USE` database lines and save the file, otherwise the SQL file cannot be imported. 
 
-This is because the first line declares that a new database should be created, but you do not need this as your RedM gameserver already has a database with another name. The second line declares that the database with the name `essentialmode` should be used to import into, but once again you do not need this as there is an existing database that you will use for importing.
+This is because the first line declares that a new database should be created, but you do not need this as your RedM game server already has a database with another name. The second line declares that the database with the name `essentialmode` should be used to import into, but once again you do not need this as there is an existing database that you will use for importing.
 :::
 
 ## Import the SQL file into your RedM database
 
-You should now access the **Database** section on your gameserver webinterface.
+You should now access the **Database** section on your game server webinterface.
 
 ![image](https://github.com/zaphosting/docs/assets/42719082/5f0f81ec-832b-4b9e-a39a-8ec78fd10890)
 
@@ -84,4 +84,4 @@ Finally, press the **Import** button at the bottom of the page to start the impo
 
 ![image](https://github.com/zaphosting/docs/assets/42719082/5fef5d58-78f1-4b59-bc3e-1e0af2ff981b)
 
-You have successfully imported an SQL file to your gameserver's database!
+You have successfully imported an SQL file to your game server's database!

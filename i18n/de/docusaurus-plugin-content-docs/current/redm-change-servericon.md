@@ -21,7 +21,7 @@ Um ein benutzerdefiniertes Server-Icon für deinen FiveM Server zu erstellen, mu
 
 ### Dateien hochladen
 
-Der nächste Schritt ist das Hochladen des fertigen Bildes auf deinen RedM Gameserver, was mit Hilfe von FTP geschieht. Wenn du mit FTP nicht vertraut bist, empfehlen wir dir einen Blick in die [FTP file access](gameserver-ftpaccess.md) Anleitung zu werfen.
+Der nächste Schritt ist das Hochladen des fertigen Bildes auf deinen RedM Gameserver, was mit Hilfe von FTP geschieht. Wenn du mit FTP nicht vertraut bist, empfehlen wir dir einen Blick in die [Zugriff per FTP](gameserver-ftpaccess.md) Anleitung zu werfen.
 
 Sobald du bei FTP eingeloggt bist, navigiere zum Ordner `gXXXX/gta-fivem/server-data/` und lade dort deine Server-Icon-Datei hoch. Achte darauf, dass du dir den Namen der Datei merkst.
 

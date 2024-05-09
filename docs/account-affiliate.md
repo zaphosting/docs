@@ -1,6 +1,6 @@
 ---
 id: account-affiliate
-title: Affiliate Program
+title: ZAP-Hosting Affiliate Program
 description: How to earn money with ZAP-Hosting via the Affiliate program - ZAP-Hosting.com documentation
 sidebar_label: Affiliate Program
 ---
@@ -8,7 +8,7 @@ sidebar_label: Affiliate Program
 ![Affiliate Program](https://screensaver01.zap-hosting.com/index.php/s/GoXwRnHrRARc4jk/preview)
 
 ## Introduction
-Our Affiliate program allows you to earn some free money or ZAP Coins through referring new customers to ZAP-Hosting. You can access this by heading over to the [Affiliate Page](https://zap-hosting.com/en/customer/affiliate/) on our website.
+Our Affiliate program allows you to earn free money by referring new customers to ZAP-Hosting. You can access this by heading over to the [Affiliate Page](https://zap-hosting.com/en/customer/affiliate/) on our website.
 
 Through the Affiliate page, you will be able to manage affiliate links, banners and access your dedicated affiliate coupon code which will provide any new customers with an awesome permanent **20% off** their server price for its entire runtime.
 
@@ -29,7 +29,7 @@ You can view the latest and up-to-date commission % values through the [Conditio
 :::info
 The affiliate credit display is based on payments including VAT. If you are not a German business/individual who has to add VAT to their invoices, you have to deduct VAT before sending your invoice. This means that you have to deduct the VAT from your displayed affiliate balance when paying out. You can do this by dividing the displayed amount by 1.19 (19% German VAT).
 
-Example: You have €100 affiliate credit. You should invoice: 100 / 1.19 = €84.03 in total. If you pay out in ZAP Coins, you will receive the full amount.
+Example: You have €100 affiliate credit. You should invoice: 100 / 1.19 = €84.03 in total if you choose PayPal as your payout option. Otherwise, if you pay out to your cashbox (ZAP Coins), you will receive the full amount.
 
 If VAT has to be shown in the invoice, the full amount will be shown in the invoice including VAT. With an affiliate credit of 100€, an invoice of 100€, consisting of €84.03 invoice amount and €15.97 VAT will be sent. Non-German invoices generally will not have to add VAT to the invoice.
 :::
@@ -73,16 +73,16 @@ Once you have filled everything in to your liking, simply press the green **Crea
 
 ## Cash out & Transferring
 
-You can transfer out your Affiliate Program balance either into ZAP-Coins or into real money. Head over to the [Affiliate Page](https://zap-hosting.com/en/customer/affiliate/) page again and press the blue **Payment/Transfer** button.
+You can transfer out your Affiliate Program balance either into your cashbox (ZAP Coins) or into money via PayPal. Head over to the [Affiliate Page](https://zap-hosting.com/en/customer/affiliate/) page again and press the blue **Payment/Transfer** button.
 
 ![image](https://screensaver01.zap-hosting.com/index.php/s/GnzqQrQtC3jtzt9/preview)
 
 Now follow the appropriate section below to transfer to either currency.
 
-### ZAP-Coins
+### ZAP Coins
 
 :::warning
-Once you have your credits transferred into ZAP-Coins, you can no longer cash out them out!
+Once you have your credits transferred into ZAP Coins, you can no longer cash out them out!
 :::
 
 On the menu prompt, select **ZAP credit balance** as the option. Choose whether you wish to transfer the entire balance or only a specific part of it. Once ready, simply press the green **Transfer** button to confirm.

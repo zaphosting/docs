@@ -1,6 +1,6 @@
 ---
 id: gameserver-tebex
-title: TEBEX Gameserver monetization setup
+title: 'Game server: TEBEX monetization setup'
 description: Information on how to earn money with TEBEX on your game server from ZAP-Hosting and how to set up TEBEX on your server - ZAP-Hosting.com documentation
 sidebar_label: TEBEX Monetization
 ---
@@ -26,8 +26,8 @@ The platform currently supports the following games: [Click Here](https://www.te
 Setting up TEBEX with ZAP 2.5 is simple. 
 
 ### Step 1 - Install a supported Game onto your Gameserver
-Pick a game which is currently supported by TEBEX and install it onto your gameserver. Click on
-your gameserver and choose "Games" in the sidebar. Choose a supported game under "Available Games" 
+Pick a game which is currently supported by TEBEX and install it onto your game server. Click on
+your game server and choose "Games" in the sidebar. Choose a supported game under "Available Games" 
 and choose the download button to install it. As soon as this is done, proceed to step 2.
 
 ### Step 2 - Send yourself a TEBEX invite
@@ -40,17 +40,17 @@ TEBEX will now sent an invite to the email address
 linked to your ZAP-Hosting customer account. Please follow the instructions within the email to 
 activate your TEBEX account. You will be guided through the basic configuration of your shop.
 
-### Step 3 - Install the TEBEX plugin onto your gameserver
+### Step 3 - Install the TEBEX plugin onto your game server
 This process is normally automated. If we have no plugin for an automatic setup present on our 
 servers or if we are missing the pingback of TEBEX you will have to perform a manual setup.
 
 ### Step 4 - Install & configure the TEBEX plugin
-Install the appropriate gameserver plugin for your game manually. The setup process differs 
+Install the appropriate game server plugin for your game manually. The setup process differs 
 from game to game. Basic instructions on how to install the plugins can be found
 [here](https://docs.tebex.io/store/integrating-with-your-game-server-or-website/minecraft-java-edition).
 
 #### Step 5 - Confirm the successful installation with us
-Finally you will have to confirm that you installed the gameserver plugin successfully. 
+Finally you will have to confirm that you installed the game server plugin successfully. 
 
 ![](https://user-images.githubusercontent.com/61839701/165711046-51bdf1b4-b92d-4e24-ab81-c7b4debb4653.png)
 

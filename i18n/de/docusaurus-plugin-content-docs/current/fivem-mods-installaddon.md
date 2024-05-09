@@ -37,7 +37,7 @@ Nun müssen wir einfach nur auf den Download Button rechts klicken und "Adresse 
 
 ![image](https://user-images.githubusercontent.com/13604413/159167824-56daa647-0abc-4741-aeeb-ff6c8a7d3d7d.png)
 
-Hier können wir jetzt unseren eigenen Resource Namen eintippen und "Add to queue" drücken.
+Hier können wir jetzt unseren eigenen Ressource Namen eintippen und "Add to queue" drücken.
 
 
 Falls weitere Mods heruntergeladen werden sollen, können diese einfach genauso hinzugefügt werden, es können mehrere carmods gleichzeitig installiert werden:
@@ -54,7 +54,7 @@ Beachte: der `compress/downsize textures` haken sollte immer gesetzt werden, um 
 
 Jetzt werden die Carmods heruntergeladen und für FiveM vorbereitet.
 
-## Resourcen hochladen
+## Ressourcen hochladen
 
 Nachdem rpf2fivem fertig ist, können die Carmods im "rpf2fivem" Ordner gefunden werden:
 

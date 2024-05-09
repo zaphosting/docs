@@ -1,6 +1,6 @@
 ---
 id: contribution-guides
-title: "Rust: Anleitung Prozess"
+title: Anleitung Prozess
 description: Informationen zum Beitragsprozess der Guides (ZAP-Docs) für das ZAP-Hosting Community Contributions Programm - ZAP-Hosting.com Dokumentation
 sidebar_label: Guides Prozess
 ---
@@ -23,7 +23,7 @@ Wir empfehlen, unsere [Guidelines Page](contribution-guides-guidelines.md) zu le
 
 Für unsere Anleitungen suchen wir ein breites Spektrum an praktischen und qualitativ hochwertigen Anleitungen zu Produkten, Dienstleistungen und Open-Source-Software, die über ZAP-Hosting verfügbar sind oder sich auf einen unserer Dienste beziehen. Wenn du ein paar Ideen oder Inspirationen brauchst, schau dir unsere Seiten in den ZAP-Docs an, um ein Gefühl für unseren Schreibstil und die Art der Inhalte zu bekommen, die wir veröffentlichen.
 
-Wie bereits in der Einleitung erwähnt, müssen alle Inhalte, die wir erstellen, original sein, um die Urheberrechtsgesetze einzuhalten. Jegliche unerlaubte Nutzung von KI/generativen Tools und/oder anderem geistigen Eigentum ist strengstens untersagt. Unsere Anleitungen zielen darauf ab, qualitativ hochwertige Informationen durch eine Reihe von Schritten zu liefern, um sicherzustellen, dass die Leser/innen verstehen, was sie tun und wie sie es tun können, mit dem Ziel, die Leser/innen aufzuklären und ihnen eine Lösung zu bieten.
+Wie bereits in der Einführung erwähnt, müssen alle Inhalte, die wir erstellen, original sein, um die Urheberrechtsgesetze einzuhalten. Jegliche unerlaubte Nutzung von KI/generativen Tools und/oder anderem geistigen Eigentum ist strengstens untersagt. Unsere Anleitungen zielen darauf ab, qualitativ hochwertige Informationen durch eine Reihe von Schritten zu liefern, um sicherzustellen, dass die Leser/innen verstehen, was sie tun und wie sie es tun können, mit dem Ziel, die Leser/innen aufzuklären und ihnen eine Lösung zu bieten.
 
 #### Liste gesuchter Anleitungen
 
@@ -133,7 +133,7 @@ Jetzt, wo deine Datei fertig ist, kannst du damit fortfahren, den Inhalt zu schr
 Bitte beachte, dass einige Docusaurus-spezifische Elemente wie Ermahnungen (Tags wie `:::note`, `:::tip` usw.) bei der Vorschau über GitHub möglicherweise nicht korrekt angezeigt werden. Das liegt daran, dass sie nicht Teil des traditionellen Markdowns sind. Sie werden jedoch bei lokalen Tests und in der Produktion korrekt angezeigt.
 :::
 
-In den [ZAP Guides Guidelines](https://zap-hosting.com/guides/docs/contribution-guidelines) findest du alle Informationen zu Markdown, Struktur, Terminologie und mehr.
+In den [ZAP Guides Guidelines](contribution-guides-guidelines.md) findest du alle Informationen zu Markdown, Struktur, Terminologie und mehr.
 
 Wenn du deine Änderungen vorgenommen hast, klickst du auf die Schaltfläche **Änderungen bestätigen...**, woraufhin eine Aufforderung erscheint.
 
@@ -165,7 +165,7 @@ Die Dokumentationsdateien sind nach einer einfachen Konvention benannt: Das erst
 
 In diesem Fall haben wir in unserer Frage vorgeschlagen, dass wir einen neuen Anleitung über das Spiel Rust erstellen wollen, der eine Reihe nützlicher Befehle enthält. Auf der Website können wir sehen, dass es bereits einen Abschnitt **Rust** unter gameservers gibt. Wir können also im Ordner **docs** in unserer IDE nachsehen, um die richtige Namenskonvention zu finden. Das bedeutet, dass der Dateiname der Anleitung `rust-commands.md` lauten wird. Erstelle diese Datei im Ordner **docs**.
 
-Der nächste Teil besteht darin, die Metadaten der obersten Datei zu platzieren. Am einfachsten geht das, wenn du zu einer anderen Datei gehst, zum Beispiel `rust-plugins.md`. Kopiere die Top-Metadaten-Tags aus dieser Datei und füge sie in deine neue Datei ein. Bearbeite den Tag `id` so, dass er mit dem Namen deiner Datei übereinstimmt, in diesem Fall `rust-commands`, und bearbeite die anderen Metadaten entsprechend dem von dir akzeptierten Vorschlag für den neuen Guide.
+Der nächste Teil besteht darin, die Metadaten der obersten Datei zu platzieren. Am einfachsten geht das, wenn du zu einer anderen Datei gehst, zum Beispiel `rust-plugins.md`. Kopiere die Top-Metadaten-Tags aus dieser Datei und füge sie in deine neue Datei ein. Bearbeite den Tag `id` so, dass er mit dem Namen deiner Datei übereinstimmt, in diesem Fall `rust-commands`, und bearbeite die anderen Metadaten entsprechend dem von dir akzeptierten Vorschlag für die neue Anleitung.
 
 Die Datei sollte nun mit (dem Beispiel folgend) beginnen:
 ```

@@ -5,21 +5,22 @@ description: Information about RAID configuration options for your Dedicated Ser
 sidebar_label: Configure RAID
 ---
 
-:::info
-We're offering up to 2 SSDs in our dedicated server products, so you can use RAID0 or RAID1 as you prefer
-:::
+## Introduction
 
-## Which types of RAID are there?
-Basically, there are different RAID types. Since our dedicated servers are only offering 2 SSD bays, there is only a configuration of RAID0 or RAID1 possible.
-Other RAID types would require having more SSDs drives.
+RAID (Redundant Array of Independent Disks) is a technology that combines multiple hard disks into a single logical drive to achieve data redundancy and/or increased performance. There are different RAID levels that offer different combinations of data distribution and fault tolerance
+
+## Available RAID types
+Our dedicated servers currently offer 2 SSD bays, meaning that there are two possible configurations for RAID. The first is RAID0 which is used to combine volumes into one large volume, and RAID1 which is used to mirror volumes and keep data redundant. We will go in-depth for both in the following sections.
 
 :::info
-RAID0 has slightly faster read and write rates
+RAID0 provides slightly faster read and write speeds, due to two drives being present.
 :::
 
 ### RAID0
 In this RAID configuration, all existing volumes are combined into one large volume, for example, from 2 SSDs, each with 1 TB. A 2TB partition would be created which could then be used completely.
+
 There is no data redundancy, so in case of a technical malfunction, data loss is often inevitable because the data is written in different sectors.
+
 If you store sensitive data on your system, RAID0 should not be used or at least regular system backups should be performed.
 
 :::info
@@ -29,6 +30,7 @@ If your dedicated server has only 1 SSD this is automatically a RAID0.
 ### RAID1
 This configuration is very different from RAID0, here there is a redundancy of your data, which means that everything you store on your server is duplicated.
 It is therefore mirrored on both SSDs and would be available at a failure rate of 50%, so your data is safe with 1 SSD.
+
 In case of a technical malfunction, only the affected SSD would have to be replaced and your server would rebuild the RAID, which means to mirror the data again.
 Especially for more sensitive data this configuration is highly recommended, but it is not an alternative to avoid backups.
 

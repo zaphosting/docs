@@ -5,16 +5,26 @@ description: Information on how to install mods to your Palworld server or game 
 sidebar_label: Install Mods
 ---
 
-Since Palworld's release, new exciting mods have begun to appear online to improve the gaming experience and make the game even more fun. In this guide we will explore the process of adding game modifications (mods) to your Palworld server and/or game client.
+
+
+import YouTube from '@site/src/components/YouTube/YouTube';
+
+
 
 ## Introduction
+
+Since Palworld's release, new exciting mods have begun to appear online to improve the gaming experience and make the game even more fun. In this guide we will explore the process of adding game modifications (mods) to your Palworld server and/or game client.
+
+<YouTube videoId="x4tfL3Vi5qE" title="How To Install Mods On Your Palworld Server!" description="Feel like you understand better when you see things in action?  We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
+
+
 
 ### Key Information
 
 At present time, you can view and download available mods through 3rd party modding sites. We can recommend using sites such as [Nexus Mods](https://www.nexusmods.com/palworld/) or [Curseforge](https://www.curseforge.com/palworld/) which are reputable within the modding space. You cannot download mods through Steam Workshop at this current time.
 
 :::note
-ZAP-Hosting is not liable for any potential modifications/damage to your server files or world by installing mods. We heavily advise you to make backups before continuing. Learn more about backups through our dedicated [Palworld Savegame guide](https://zap-hosting.com/guides/docs/palworld-server-savegames) which explores this in further detail.
+ZAP-Hosting is not liable for any potential modifications/damage to your server files or world by installing mods. We heavily advise you to make backups before continuing. Learn more about backups through our dedicated [Palworld Savegame guide](palworld-server-savegames.md) which explores this in further detail.
 :::
 
 :::info
@@ -51,7 +61,7 @@ Proceed to the mod which you wish to use, and download it locally to your device
 
 ## Step 2: Upload via FTP
 
-Once you have the PAK files ready to upload, head over to the **Tools->FTP-Browser** section of your gameserver's webinterface. 
+Once you have the PAK files ready to upload, head over to the **Tools->FTP-Browser** section of your game server's webinterface. 
 
 You will require an FTP Client to connect to your server. Please use our dedicated [Gameserver FTP Access guide](gameserver-ftpaccess.md) for this topic if you do not have an FTP Client setup or require assistance with FTP connection.
 
@@ -124,7 +134,7 @@ Make sure to restart the server after any changes were made or if you do not see
 
 #### Search Logs for Errors
 
-A first possible strategy for a solution is to check the **Information->Log Files** section on your gameserver's webinterface. These files will contain a range of logs containing information about the server, such as current events, hints or error messages.
+A first possible strategy for a solution is to check the **Information->Log Files** section on your game server's webinterface. These files will contain a range of logs containing information about the server, such as current events, hints or error messages.
 
 Error messages in particular can help to identify and better understand the cause of a problem. Often, difficulties can be uncovered and resolved by taking a targeted look at the log files.
 

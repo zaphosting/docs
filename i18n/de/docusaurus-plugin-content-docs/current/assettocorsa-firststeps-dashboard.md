@@ -106,17 +106,6 @@ Wir bieten eine umfangreiche Dokumentation zu unseren Produkten an, die als Wiss
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/QrEL7ABJtS9yBcS/preview)
 
-Zu deinem Produkt bieten wir ebenfalls weitere Anleitungen an. Das beinhaltet beispielsweise folgende Anleitungen: 
-
-| Anleitungen                              | Seite                                                        |
-| ---------------------------------------- | ------------------------------------------------------------ |
-| Server konfigurieren                     | [Anleitung aufrufen](assettocorsa-configure.md) |
-| Server konfigurieren mit Content Manager | [Anleitung aufrufen](assettocorsa-contentmanager.md) |
-| Mods installieren                        | [Anleitung aufrufen](assettocorsa-mods.md) |
-<p style={{textAlign: 'center'}}>Liste zuletzt aktualisiert am 03.05.2023</p>
-
-
-
 
 ## Einstellungen
 

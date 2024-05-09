@@ -1,13 +1,13 @@
 ---
 id: gameserver-upgrade
-title: Gameserver Up-/Downgrade
-description: Information on how to Upgrade/Downgrade your gameserver from ZAP-Hosting.com - ZAP-Hosting.com documentation
+title: 'Game server: Up-/Downgrade'
+description: Information on how to Upgrade/Downgrade your game server from ZAP-Hosting.com - ZAP-Hosting.com documentation
 sidebar_label: Up-/Downgrade
 ---
 
 ## Preface
 
-Thanks to our cloud system, you can always modify your ZAP-Hosting gameserver and V-Root server according to your wishes and needs.
+Thanks to our cloud system, you can always modify your ZAP-Hosting game server and V-Root server according to your wishes and needs.
 For example, if you need more slots or more RAM, this is not a problem and can be adjusted at any time.
 Please keep in mind, if you have used a voucher, a downgrade is no longer possible, in the voucher period.
 
@@ -46,7 +46,7 @@ Below you will find some more parameters, in our example of a FiveM server the s
 
 *** 
 
-* Gameserver Slot: If you need more capacity on your gameserver, just move the slider to the left to have more space for simultaneous players.
+* Gameserver Slot: If you need more capacity on your game server, just move the slider to the left to have more space for simultaneous players.
 
 * RAM Boost: Useful for many things like resources, mods, add-ons or similar. Expands the capacity of the available RAM of your product.
 

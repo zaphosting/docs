@@ -27,7 +27,7 @@ We recommend using this method as it is the easiest.
 The Server must be stopped before the config can be edited, editing the config and restarting the server will result in any changes being undone.
 :::
 
-Simply head over to the **Configs** section on your gameserver's webinterface and press the blue edit file button, as seen below:
+Simply head over to the **Configs** section on your game server's webinterface and press the blue edit file button, as seen below:
 
 ![image](https://github.com/zaphosting/docs/assets/42719082/6a147644-8bfb-4e5d-bff5-3e2c5d999e64)
 
@@ -47,7 +47,7 @@ In the same section, you should also setup a password for your RCON interface ac
 The Server must be stopped before the config can be edited, editing the config and restarting the server will result in any changes being undone.
 :::
 
-Another method of editing your configuration file, is through FTP. If you are not familiar with using FTP, we recommend you to have a look at the [FTP file access](gameserver-ftpaccess.md) guide. However, this method takes longer and if you wish to directly edit the file contents, we recommend simply using the **Configs** section on your gameserver's webinterface as mentioned.
+Another method of editing your configuration file, is through FTP. If you are not familiar with using FTP, we recommend you to have a look at the [FTP file access](gameserver-ftpaccess.md) guide. However, this method takes longer and if you wish to directly edit the file contents, we recommend simply using the **Configs** section on your game server's webinterface as mentioned.
 
 Once you have connected to your server through FTP, head over to the following directory:
 ```
@@ -71,7 +71,7 @@ Now that you have you have enabled RCON in your server's configuration, you will
 
 You will need to use an RCON program to connect to this. We recommend using [RCON Console](https://sourceforge.net/projects/rconconsole/) as it is open-source.
 
-In the RCON program of your choice, you will have to input the IP address and port of your server. Ensure that your gameserver is online and running.
+In the RCON program of your choice, you will have to input the IP address and port of your server. Ensure that your game server is online and running.
 
 If the connection is successful, you will now be able to send commands to your Palworld sever through the RCON Console program that you chose. 
 
