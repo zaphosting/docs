@@ -10,7 +10,7 @@ sidebar_label: Unterschied Rootserver / V-Server
 Unsere Linux V-Server werden mittels LXC virtualisiert.
 Dabei handelt es sich um eine Container Virtualisierung.
 Mehrere V-Server können somit voneinander isoliert auf einem einzigen Hauptsystem betrieben werden.
-Allerdings werden die Resourcen hierbei untereinander geteilt, was zu Leistungsschwankungen führen kann.
+Allerdings werden die Ressourcen hierbei untereinander geteilt, was zu Leistungsschwankungen führen kann.
 Außerdem teilen sich Container den gleichen Betriebssystem-Kernel,
 weshalb es auch nicht möglich ist andere Betriebssysteme, wie Windows, als LXC-Gast zu starten. 
 

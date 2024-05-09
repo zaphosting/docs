@@ -21,7 +21,7 @@ Die Whitelist ist eine Liste, welches ermöglicht eine bestimmte Auswahl an Pers
 
 ## Installation
 
-Über unseren Resource Installer, welchen du in deinem Gameserver Dashboard unter den **Einstellungen** bei **Resourcen** findest, kannst du unsere angebotene Whitelist Resource per Klick installieren. Klicke dazu bei der Resource **Whitelist** auf den grünen Button, um die Resource zu installieren. 
+Über unseren Ressource Installer, welchen du in deinem Gameserver Dashboard unter den **Einstellungen** bei **Ressourcen** findest, kannst du unsere angebotene Whitelist Ressource per Klick installieren. Klicke dazu bei der Ressource **Whitelist** auf den grünen Button, um die Ressource zu installieren. 
 
 ![image](https://user-images.githubusercontent.com/26007280/219638770-8caad3c9-a98e-4505-ada5-70bac7f1729b.png)
 

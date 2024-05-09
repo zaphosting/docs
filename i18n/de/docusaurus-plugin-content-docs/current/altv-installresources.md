@@ -1,13 +1,13 @@
 ---
 id: altv-installresources
-title: "Alt:V: Installation von Resourcen"
-description: 'Informationen, wie du Resourcen auf deinen ALT:V Server von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentation'
-sidebar_label: Resourcen installieren
+title: "Alt:V: Installation von Ressourcen"
+description: 'Informationen, wie du Ressourcen auf deinen ALT:V Server von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentation'
+sidebar_label: Ressourcen installieren
 ---
 
 ## Mit FTP verbinden
 
-Bevor Resourcen installiert werden können, muss der [FTP-Zugang](gameserver-ftpaccess.md) eingerichtet werden:
+Bevor Ressourcen installiert werden können, muss der [FTP-Zugang](gameserver-ftpaccess.md) eingerichtet werden:
 
 ![image](https://user-images.githubusercontent.com/13604413/159184693-261d0660-4cfb-472e-b3bb-945ab6a33346.png)
 
@@ -19,9 +19,9 @@ Nachdem dieser eingerichtet wurde, kann sich nun verbunden werden und der Server
 
 ## Vorbereitung
 
-Nachdem eine Resource heruntergeladen wurde, ist diese normalerweiseals  ZIP-gepackt. Diese muss nun entpackt werden (z. B. mit 7Zip, WinRar oder WinZip)
+Nachdem eine Ressource heruntergeladen wurde, ist diese normalerweiseals  ZIP-gepackt. Diese muss nun entpackt werden (z. B. mit 7Zip, WinRar oder WinZip)
 
-Nachdem die Resource entpackt wurde, sollte darin nun eine resource.cfg und Script Files/Ordner sein.
+Nachdem die Ressource entpackt wurde, sollte darin nun eine resource.cfg und Script Files/Ordner sein.
 
 ![image](https://user-images.githubusercontent.com/13604413/169707329-52aaa6ab-2de2-48ac-9c45-3a5d95968edc.png)
 
@@ -30,10 +30,10 @@ Nachdem die Resource entpackt wurde, sollte darin nun eine resource.cfg und Scri
 Wenn dies nicht der Fall ist, befinden sich diese ggf. in einem Unterordner, meist mit dem gleichen Namen.
 :::
 
-## Resourcen hochladen
+## Ressourcen hochladen
 
 
-Um mit WinSCP Resourcen zu installieren, können diese über drag&drop in den "resources" Ordner hochgeladen werden
+Um mit WinSCP Ressourcen zu installieren, können diese über drag&drop in den "resources" Ordner hochgeladen werden
 
 ![image](https://user-images.githubusercontent.com/13604413/169707344-7e6e6266-5540-4b9b-a287-ce633a0f592e.png)
 
@@ -50,4 +50,4 @@ Unter den restlichen Starteinträgen für Ressourcen kann nun der Eintrag für u
 Beachte: Es muss nach jeder Zeile in dieser Liste, außer bei der letzten, ein Komma stehen.
 :::
 
-Danach kann der Server neu gestartet werden und die Resource sollte im Spiel angezeigt werden!
+Danach kann der Server neu gestartet werden und die Ressource sollte im Spiel angezeigt werden!

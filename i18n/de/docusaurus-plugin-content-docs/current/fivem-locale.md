@@ -48,7 +48,7 @@ Die Definition der Sprache/Anzeige erfolgt über die Locales (Sprachcodes/Lände
 
 :::caution 
 
-Die Anzeige der Serverflagge wird prinzipiell von allen verfügbaren Ländern unterstützt. Allerdings beinhalten nicht alle Resourcen alle Sprachen. Stelle daher vorher sicher, dass deine Land/Sprache unterstützt wird! 
+Die Anzeige der Serverflagge wird prinzipiell von allen verfügbaren Ländern unterstützt. Allerdings beinhalten nicht alle Ressourcen alle Sprachen. Stelle daher vorher sicher, dass deine Land/Sprache unterstützt wird! 
 
 :::
 

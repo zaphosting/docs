@@ -37,15 +37,15 @@ In der Live Konsole können Befehle in der Serverkonsole eingegeben werden und d
 
 Von hier aus kann ebenfalls der Server neu gestartet werden.
 
-## Resources
+## Ressources
 
-Hier können alle Resourcen, welche sich auf dem Server befinden, verwaltet werden, falls eine Resource neu gestartet werden muss, kann das Ganze direkt von hier aus gemacht werden:
+Hier können alle Ressourcen, welche sich auf dem Server befinden, verwaltet werden, falls eine Ressource neu gestartet werden muss, kann das Ganze direkt von hier aus gemacht werden:
 
 ![image](https://user-images.githubusercontent.com/13604413/159169631-4445e0c8-d90f-4247-bc85-e967d8538ad4.png)
 
 ## Server Log
 
-Das Server Log ist das txAdmin Log, hier werden einige Informationen von txAdmin angezeigt, falls die Resource es unterstützt, werden hier auch Logs von bestimmten Resourcen angezeigt.
+Das Server Log ist das txAdmin Log, hier werden einige Informationen von txAdmin angezeigt, falls die Ressource es unterstützt, werden hier auch Logs von bestimmten Ressourcen angezeigt.
 
 ![image](https://user-images.githubusercontent.com/13604413/159169641-23e3b19e-f5f2-4dbf-8ca3-19de39510c0f.png)
 
@@ -92,7 +92,7 @@ Im txAdmin Log können wir einsehen, was in letzter Zeit im txAdmin Interface ge
 
 In den Settings können mehrere Einstellungen zu txAdmin und dem FiveM Server vorgenommen werden, diese sind in mehreren Kategorien eingeteilt.
 
-Hier können ebenfalls Backups der Datenbank angelegt werden, Bans aus anderen Resourcen importiert werden oder der FiveM Server zurückgesetzt werden.
+Hier können ebenfalls Backups der Datenbank angelegt werden, Bans aus anderen Ressourcen importiert werden oder der FiveM Server zurückgesetzt werden.
 ![image](https://user-images.githubusercontent.com/13604413/159169739-9f8533d7-59e6-4c8e-bc3a-1632f69c0c78.png)
 
 

@@ -25,9 +25,9 @@ Ebenfalls sollte der Servername (`sv_hostname`) geprüft werden:
 In diesem Fall fehlt das Anführungszeichen am Ende der Zeile, bei manchen Servernamen kann es auch durch Formatierung Probleme geben, wir würden in diesem Fall empfehlen, z. B. [DE], Sonderzeichen wie ä, ü, ö zu entfernen.
 
 
-## Problematische Resourcen
+## Problematische Ressourcen
 
-Es können auch Resourcen verhindern, dass der Server gelistet wurde, in diesem Fall empfehlen wir zuletzt installierte Resourcen wieder zu entfernen und danach den Server für ~1h online zu lassen, in den meisten Fällen sollte er dann wieder angezeigt werden.
+Es können auch Ressourcen verhindern, dass der Server gelistet wurde, in diesem Fall empfehlen wir zuletzt installierte Ressourcen wieder zu entfernen und danach den Server für ~1h online zu lassen, in den meisten Fällen sollte er dann wieder angezeigt werden.
 
 
 ## Neuinstallation

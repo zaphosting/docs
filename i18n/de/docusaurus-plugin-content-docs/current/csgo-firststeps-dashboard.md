@@ -177,7 +177,7 @@ Darüber hinaus kannst du auch die E-Mail-Benachrichtigungsfunktion für automat
 
 ### Plugins
 
-Für dieses Spiel bieten wir unter **Plugins** die Möglichkeit, bekannte und beliebte Resources/Plugins mit nur einem Klick einfach zu installieren. In der Übersicht findest du eine Auswahl der verfügbaren Inhalte, die du durch Betätigen des Installationsbuttons hinzufügen kannst. Nach einem Neustart des Servers werden diese Ressourcen/Plugins installiert, aktiviert und stehen dir zur Verfügung.
+Für dieses Spiel bieten wir unter **Plugins** die Möglichkeit, bekannte und beliebte Ressources/Plugins mit nur einem Klick einfach zu installieren. In der Übersicht findest du eine Auswahl der verfügbaren Inhalte, die du durch Betätigen des Installationsbuttons hinzufügen kannst. Nach einem Neustart des Servers werden diese Ressourcen/Plugins installiert, aktiviert und stehen dir zur Verfügung.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/9MXSSAxtW8CQsAt/preview)
 
