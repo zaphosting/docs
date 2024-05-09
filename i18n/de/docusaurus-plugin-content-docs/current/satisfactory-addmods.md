@@ -110,4 +110,4 @@ Die ausgewählten Ordner werden jetzt mittels Drag & Drop in den zuvor geöffnet
 ## Server starten
 
 Nachdem die Mods hochgeladen worden sind, kann der Server einfach via Webinterface gestartet werden.
-Danach kann dem Server wie in dieser Anleitung beschrieben gejoint werden: https://zap-hosting.com/guides/docs/de/satisfactory_connect/
+Danach kann dem Server wie in dieser [Anleitung](satisfactory-connect.md) beschrieben beigetreten werden 
