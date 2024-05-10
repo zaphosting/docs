@@ -2,7 +2,7 @@
 id: vserver-windows-enshrouded
 title: "Server: Enshrouded Dedicated Dedicated Server Einrichtung"
 description: Informationen zur Einrichtung eines Enshrouded Dedizierten Servers auf einem vServer/Rootserver - ZAP-Hosting.com Dokumentation
-sidebar_label: Enshrouded Dedicated Server Einrichtung
+sidebar_label: Enshrouded
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';
