@@ -1,18 +1,16 @@
 ---
 id: vserver-windows-fs-19
-title: "Server: Landwirtschafts-Simulator 2019 auf Windows installieren"
+title: "Server: Landwirtschafts-Simulator 2019 Dedicated Server Einrichtung"
 description: Informationen wie du einen Landwirtschafts-Simulator Dedizierter Server 2019 auf deinen Windows vServer und Dedizierter Server von ZAP-Hosting installieren und einrichten kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Landwirtschafts-Simulator 2019
 ---
 
-# Installation eines Dedizierter Servers für den Landwirtschafts-Simulator 2019
+## Einführung
 
-:::info
-Diese Anleitung gilt auch für einen Dedizierter Server von ZAP-Hosting mit Windowsserver 2016/2019. Wie Windows auf einem dedizierten Server installiert werden kann, erklären wir [hier](dedicated-windows.md).
-:::
+Hast du einen Windows VPS oder Rootserver und möchtest darauf einen Landwirtschafts-Simulator 2019 Dedicated Server installieren? Dann bist du hier genau richtig. In dieser Anleitung erklären wir dir Schritt für Schritt, wie du diesen Dienst auf deinem Server installierst.
 
-## Basic Informationen: 
-Es wird ein Server, basierend auf Windowsserver 2016/2019, mit mindestens 4x 2,4 GHz CPU (AMD/Intel) sowie mindestens 2 GB RAM (DDR3/4) und 6 GB freien Speicher (SSD oder besser, bevorzugt) benötigt. Der Server muss auf der 64 Bit Architektur laufen. 
+## Vorbereitung
+Es wird ein Server, basierend auf Windowsserver 2016/2019, mit mindestens 4x 2,4 GHz CPU (AMD/Intel) sowie mindestens 2 GB RAM (DDR3/4) und 6 GB freien Speicher (SSD oder besser, bevorzugt) benötigt. Der Server muss auf der 64 Bit Architektur laufen. 
 Des Weiteren wird eine eigene Spiellizenz benötigt (keine Steam Version), sowie eine öffentliche IPv4 Adresse. Eine GPU oder eine Soundkarte sind für den Dedizierter Server nicht notwendig. 
 Je nachdem, wie stark der dedizierter Server modifiziert wird, mit Mods oder mit DLCs erweitert wird, sind ggf. mehr Ressourcen nötig. 
 

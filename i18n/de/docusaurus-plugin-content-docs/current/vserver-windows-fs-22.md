@@ -1,21 +1,17 @@
 ---
 id: vserver-windows-fs-22
-title: "Server: Landwirtschafts-Simulator 2022 auf Windows installieren"
+title: "Server: Landwirtschafts-Simulator 2022 Dedicated Server Einrichtung"
 description: Informationen wie du einen Landwirtschafts-Simulator Dedicated Server 2022 auf deinen Windows vServer und Dedicated Server von ZAP-Hosting installieren und einrichten kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Landwirtschafts-Simulator 2022
 ---
 
 
 
-# Installation eines Dedicated Servers für den Landwirtschafts-Simulator 2022
+## Einführung
 
-:::info
-:information_source: Diese Anleitung gilt auch für einen Dedicated Server von ZAP-Hosting mit Windowsserver 2016/2019. Wie Windows auf einem Dedicated Server installiert werden kann, erklären wir [hier](dedicated-windows.md).
-:::
+Hast du einen Windows VPS oder Rootserver und möchtest darauf einen Landwirtschafts-Simulator 2019 Dedicated Server installieren? Dann bist du hier genau richtig. In dieser Anleitung erklären wir dir Schritt für Schritt, wie du diesen Dienst auf deinem Server installierst.
 
-## Basic Informationen: 
-
-
+## Vorbereitung
 
 Es wird ein Server, basierend auf Windowsserver 2016/2019 mit mindestens 4x 2,4 GHz CPU (AMD/Intel) sowie mindestens 2GB RAM (DDR3/4) und 6GB freien Speicher (SSD oder besser, bevorzugt) benötigt. Der Server muss auf der 64 Bit Architektur laufen. 
 Des Weiteren wird eine eigene GameLizenz benötigt (keine Steam Version), sowie eine öffentliche IPv4 Adresse. Eine GPU oder eine Soundkarte sind für den Dedicated Server nicht notwendig. 
