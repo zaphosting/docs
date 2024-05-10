@@ -1364,12 +1364,14 @@ const sidebars = {
         'vserver-linux-docker',
         'vserver-linux-ftp-install',
         'vserver-linux-java',
+        'server-linux-javascript',
         'vserver-linux-jitsi',
         'vserver-linux-mastodon',
         'vserver-linux-nextcloud',
         'vserver-linux-openvpn',
         'vserver-linux-phpmyadmin',
         'vserver-linux-plesk',
+        'server-linux-python',
         'vserver-linux-ssh-server',
         'vserver-linux-webserver',
         'vserver-linux-xrdp',
@@ -1404,7 +1406,9 @@ const sidebars = {
       items: [
         'vserver-windows-ftpserver',
         'vserver-windows-installmysql',
+        'server-windows-javascript',
         'vserver-windows-plesk',
+        'server-windows-python',
       ]
     },
     {
@@ -1481,6 +1485,7 @@ const sidebars = {
         'vserver-linux-docker',
         'vserver-linux-ftp-install',
         'vserver-linux-java',
+        'server-linux-javascript',
         'vserver-linux-jitsi',
         'vserver-linux-mastodon',
         'vserver-linux-nextcloud',
@@ -1488,6 +1493,7 @@ const sidebars = {
         'vserver-linux-phpmyadmin',
         'vserver-linux-plesk',
         'dedicated-pterodactyl',
+        'server-linux-python',
         'vserver-linux-ssh-server',
         'vserver-linux-webserver',
         'vserver-linux-xrdp',
@@ -1518,7 +1524,9 @@ const sidebars = {
       items: [
         'vserver-windows-ftpserver',
         'vserver-windows-installmysql',
+        'server-windows-javascript',
         'vserver-windows-plesk',
+        'server-windows-python',
       ]
     },
     {
@@ -1569,7 +1577,8 @@ const sidebars = {
     'domain-expertdns',
     'domain-records',
     'domain-gameserver-srv-link',
-    'domain-teamspeak-redirect',		
+    'domain-teamspeak-redirect',
+    'domain-cloudflare-setup',
     {
       type: 'html',
       className: 'sidebar-title',
