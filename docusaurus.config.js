@@ -167,40 +167,41 @@ const config = {
       },
       items: [
         {
-          type: 'docSidebar',
-          sidebarId: 'guidesSidebar',
+          type: 'dropdown',
+          label: 'Guides',
           position: 'left',
-          label: 'General',
-        },
-        {
-          type: 'docSidebar',
-          sidebarId: 'gameserverSidebar',
-          position: 'left',
-          label: 'Gameserver',
-        },
-        {
-          type: 'docSidebar',
-          sidebarId: 'vpsrootSidebar',
-          position: 'left',
-          label: 'vRootserver',
-        },
-        {
-          type: 'docSidebar',
-          sidebarId: 'dedicatedserverSidebar',
-          position: 'left',
-          label: 'Dedicated Server',
-        },
-        {
-          type: 'docSidebar',
-          sidebarId: 'domainwebspaceSidebar',
-          position: 'left',
-          label: 'Domain & Webspace',
-        },
-        {
-          type: 'docSidebar',
-          sidebarId: 'voiceserverbotSidebar',
-          position: 'left',
-          label: 'Voicebot & Voiceserver',
+          items: [
+            {
+              type: 'docSidebar',
+              sidebarId: 'guidesSidebar',
+              label: 'General',
+            },
+            {
+              type: 'docSidebar',
+              sidebarId: 'gameserverSidebar',
+              label: 'Gameserver',
+            },
+            {
+              type: 'docSidebar',
+              sidebarId: 'vpsrootSidebar',
+              label: 'vRootserver',
+            },
+            {
+              type: 'docSidebar',
+              sidebarId: 'dedicatedserverSidebar',
+              label: 'Dedicated Server',
+            },
+            {
+              type: 'docSidebar',
+              sidebarId: 'domainwebspaceSidebar',
+              label: 'Domain & Webspace',
+            },
+            {
+              type: 'docSidebar',
+              sidebarId: 'voiceserverbotSidebar',
+              label: 'Voicebot & Voiceserver',
+            },
+          ],
         },
         {
           type: 'html',
