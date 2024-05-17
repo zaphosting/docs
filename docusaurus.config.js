@@ -110,6 +110,10 @@ const config = {
             to: '/docs/contribution-guides-guidelines',
             from: '/docs/contribution-guidelines',
           },
+          {
+            to: '/docs/vserver-root-difference',
+            from: '/docs/vserver-root-unterschied',
+          },
           // Redirect from multiple old paths to the new path
           /*{
             to: '/docs/newDoc2',
