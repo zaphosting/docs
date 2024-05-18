@@ -386,5 +386,17 @@
   "sidebar.gameserverSidebar.category.Foundry": {
     "message": "Foundry",
     "description": "The label for category Foundry in sidebar gameserverSidebar"
+  },
+  "sidebar.gameserverSidebar.category.American Truck Simulator": {
+    "message": "American Truck Simulator",
+    "description": "The label for category American Truck Simulator in sidebar gameserverSidebar"
+  },
+  "sidebar.gameserverSidebar.category.Euro Truck Simulator": {
+    "message": "Euro Truck Simulator",
+    "description": "The label for category Euro Truck Simulator in sidebar gameserverSidebar"
+  },
+  "sidebar.gameserverSidebar.category.Path of Titans": {
+    "message": "Path of Titans",
+    "description": "The label for category Path of Titans in sidebar gameserverSidebar"
   }
 }
