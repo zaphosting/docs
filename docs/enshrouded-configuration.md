@@ -5,6 +5,8 @@ description: Information about configuring a Enshrouded game server from ZAP-Hos
 sidebar_label: Server Configuration
 ---
 
+import YouTube from '@site/src/components/YouTube/YouTube';
+
 ## Introduction
 
 Enshrouded at launch has a few configuration parameters that you can customise to your likings. In this guide, we will explore all of the currently available configuration parameters and explain each in more detail.

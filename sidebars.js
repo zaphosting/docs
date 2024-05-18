@@ -1429,7 +1429,7 @@ const sidebars = {
         'vserver-windows-installmysql',
         'vserver-windows-javascript',
         'vserver-windows-plesk',
-        'server-windows-python',
+        'vserver-windows-python',
       ]
     },
     {
