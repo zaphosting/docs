@@ -29,7 +29,7 @@ You can easily access this directly path by pressing `CTRL` + `R` at the same ti
 ![image](https://screensaver01.zap-hosting.com/index.php/s/E6rniERFyc5AdS9/preview)
 :::
 
-At this location, you will be able to see a folder which will be your SteamID. Open this folder and you will be able to see all of your local Savegames in one place.
+At this location, you will be able to see all of your local Savegames.
 
 ![image](https://screensaver01.zap-hosting.com/index.php/s/LGPj2xZNGeCJpjt/preview)
 
