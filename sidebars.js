@@ -1029,6 +1029,20 @@ const sidebars = {
     },
     {
       type: "category",
+      label: "Path of Titans",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "pathoftitans-firststeps-dashboard"
+          ]
+        },
+        "pathoftitans-becomeadmin",
+      ],
+    },
+    {
+      type: "category",
       label: "Project Zomboid",
       items: [
         {
