@@ -5,6 +5,8 @@ description: Informationen zum Dashboard eines Foundry Server von ZAP-Hosting - 
 sidebar_label: Dashboard
 ---
 
+import YouTube from '@site/src/components/YouTube/YouTube';
+
 ## Einführung
 
 Du bist an einem **Foundry Server** interessiert oder besitzt bereits einen, doch dir fehlt noch ein umfassender Überblick über die Verwaltung und die Auffindbarkeit aller notwendigen Optionen? Gerade zu Beginn kann dies eine Herausforderung darstellen. Aber keine Sorge, im Folgenden bieten wir dir eine ausführliche Einführung zur Verwaltung deines Dienstes, damit du den optimalen Durchblick hast.

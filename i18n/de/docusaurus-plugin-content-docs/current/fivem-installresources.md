@@ -5,6 +5,8 @@ description: Informationen, wie du Ressourcen auf deinen FiveM-Server von ZAP-Ho
 sidebar_label: Ressourcen installieren
 ---
 
+import YouTube from '@site/src/components/YouTube/YouTube';
+
 ## Einführung
 
 Ressourcen können verwendet werden, um deinen FiveM Server um zusätzliche Funktionen zu erweitern. Dies ist gerade dann interessant, wenn du größere Projekte angehen möchtest, wie zum Beispiel einen Roleplay Server oder ähnlichen. Ohne solche zusätzlichen Ressourcen lässt sich das so direkt nicht umsetzen.

@@ -5,6 +5,8 @@ description: Informationen zur Nutzung einer Whitelist bei FiveM Server von ZAP-
 sidebar_label: Whitelist
 ---
 
+import YouTube from '@site/src/components/YouTube/YouTube';
+
 ## Einführung
 Du möchtest deinen Server nicht jedem zugänglich machen? Es gibt mehrere Möglichkeiten, die Sichtbarkeit und Zugänglichkeit von einem Server einzuschränken. Eine dieser Möglichkeiten ist beispielsweise die Nutzung einer Whitelist, welche im Folgenden erläutert wird.
 
