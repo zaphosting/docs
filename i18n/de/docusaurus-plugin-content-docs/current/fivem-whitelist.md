@@ -5,16 +5,13 @@ description: Informationen zur Nutzung einer Whitelist bei FiveM Server von ZAP-
 sidebar_label: Whitelist
 ---
 
+## Einführung
 Du möchtest deinen Server nicht jedem zugänglich machen? Es gibt mehrere Möglichkeiten, die Sichtbarkeit und Zugänglichkeit von einem Server einzuschränken. Eine dieser Möglichkeiten ist beispielsweise die Nutzung einer Whitelist, welche im Folgenden erläutert wird.
 
-**📺Video:** Du bevorzugst eine Anleitung eher in Form eines Videos oder als zusätzliche visuelle Ergänzung? Kein Problem! Für dieses Thema stellen wir ebenfalls ein Video zur Verfügung: 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/CrLK7o-rX2g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
-## Einführung
+<YouTube videoId="CrLK7o-rX2g" title="How to enable WHITELIST on your FiveM Server" description="Hast du das Gefühl, dass du etwas besser verstehst, wenn du es in Aktion siehst?  Wir haben etwas für dich! Tauche ab in unser Video, welches alles für dich zusammenfasst. Egal, ob du es eilig hast oder einfach nur Informationen auf möglichst verständliche Art und Weise aufnehmen möchtest!"/>
 
 Die Whitelist ist eine Liste, welches ermöglicht eine bestimmte Auswahl an Personen zuzulassen. Das bedeutet, dass sich nur die Personen verbinden, können, die in der Whitelist eingetragen wurden. Personen, die nicht auf der Liste stehen, werden nicht zugelassen und erhalten beim Verbindungsaufbau die Meldung, dass sie nicht auf der Whitelist stehen. 
+
 
 ![image](https://user-images.githubusercontent.com/26007280/219638519-631ff321-9e29-4c5d-b444-6bbb7fbf9bca.png)
 

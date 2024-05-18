@@ -5,9 +5,11 @@ description: Information about configuring a Enshrouded game server from ZAP-Hos
 sidebar_label: Server Configuration
 ---
 
+## Introduction
+
 Enshrouded at launch has a few configuration parameters that you can customise to your likings. In this guide, we will explore all of the currently available configuration parameters and explain each in more detail.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/wgvfvQdtwN4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<YouTube videoId="wgvfvQdtwN4" title="Setup Enshrouded Server in just 60 seconds!" description="Feel like you understand better when you see things in action?  We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
 
 ## Accessing your Configuration File
 

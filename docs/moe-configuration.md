@@ -5,9 +5,13 @@ description: Information about configuring a Myth of Empires game server from ZA
 sidebar_label: Server Configuration
 ---
 
+import YouTube from '@site/src/components/YouTube/YouTube';
+
+## Introduction
 Myth of Empires contains a wide range of configuration options that allows you to customise your server to your liking. In this guide, we will explore some of the currently available configuration parameters and explain each in more detail.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/a-tZnWIpOSg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<YouTube videoId="a-tZnWIpOSg" title="Setup Myth Of Empires server in just a MINUTE!" description="Feel like you understand better when you see things in action?  We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
+
 
 ## Accessing your Configuration File
 

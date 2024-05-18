@@ -5,17 +5,13 @@ description: Information about setting up an ARK Survival Evolved Dedicated Serv
 sidebar_label: ARK Survival Evolved Dedicated Server Setup
 ---
 
-
-
-Got a Windows VPS or root server and want to install game servers on it? For example an ARK: Survival Evolved Dedicated Server? Then you are at the right place! In the following we will explain step by step how you can install such a service on your server.
-
-**📺Video:** Do you prefer instructions in the form of a video or as an additional visual supplement? No problem! We also provide a video for this topic: 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/YOz_SqsUkg4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+import YouTube from '@site/src/components/YouTube/YouTube';
 
 
 ## Introduction
+Got a Windows VPS or root server and want to install game servers on it? For example an ARK: Survival Evolved Dedicated Server? Then you are at the right place! In the following we will explain step by step how you can install such a service on your server.
+
+<YouTube videoId="YOz_SqsUkg4" title="ARK: Survival Evolved Dedicated Server Setup on Windows VPS" description="Feel like you understand better when you see things in action?  We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
 
 Connect to your VPS or root server via RDP to set up your ARK: Survival Evolved Dedicated Server. In case you don't know how to connect to your server via RDP, we recommend you to have a look at the [RDP Guide](vserver-windows-userdp.md).
 

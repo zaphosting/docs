@@ -5,9 +5,12 @@ description: Information about setting up and adding yourself as admin for a Pal
 sidebar_label: Setup Admin
 ---
 
-In this guide, we will look at configurating your server with an admin password and adding yourself as an admin in-game. This password can be shared with trusted players to grant a range of admin commands. You can learn more about these server commands through our [Palworld Server Commands guide](palworld-server-commands.md).
+import YouTube from '@site/src/components/YouTube/YouTube';
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/SDZC4-FEdNM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+##Introduction
+In this guide, we will look at configurating your server with an admin password and adding yourself as an admin in-game. This password can be shared with trusted players to grant a range of admin commands. You can learn more about these server commands through our [Palworld Server Commands guide](palworld-server-commands.md).
+<YouTube videoId="SDZC4-FEdNM" title="Setup Palworld server in just a MINUTE!" description="Feel like you understand better when you see things in action?  We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
 
 ## Configuring your Admin password
 
