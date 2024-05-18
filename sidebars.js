@@ -1288,8 +1288,11 @@ const sidebars = {
           label: "First Steps",
           items: [
             "vrising-firststeps-dashboard",
+            "vrising-firststeps-connect",
           ]
         },
+        "vrising-configuration",
+        "vrising-server-savegames",
         "vrising-becomeadmin"
       ],
     },
