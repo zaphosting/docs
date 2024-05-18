@@ -1,6 +1,6 @@
 ---
-id: server-windows-python
-title: 'Server: Installation von Python'
+id: vserver-windows-python
+title: 'vServer: Installation von Python'
 description: Informationen darüber, wie man Python auf deinem Windows-Server von ZAP-Hosting.com installiert und ausführt -  ZAP-Hosting.com Dokumentation
 sidebar_label: Python installieren
 ---

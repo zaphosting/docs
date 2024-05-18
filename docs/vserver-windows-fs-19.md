@@ -1,7 +1,7 @@
 ---
 id: vserver-windows-fs-19
-title: "Server: Farming Simulator 2019 Dedicated Server Setup"
-description: Information on how to install and set up a Farming Simulator Dedicated Server 2019 on your Windows VPS and Dedicated Server from ZAP-Hosting - ZAP-Hosting.com documentation
+title: "VPS: Farming Simulator 2019 Dedicated Server Setup"
+description: Information on how to install and set up a Farming Simulator Dedicated Server 2019 on your Windows VPS from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Farming Simulator 2019
 ---
 
@@ -9,7 +9,7 @@ sidebar_label: Farming Simulator 2019
 
 ## Introduction
 
-Do you have a Windows VPS, root server or dedicated server and you want to install the Farming Simulator Dedicated Server 2019 service on it? You are in the right place. In this guide, we will explain the step by step process of installing this service on your server.
+Do you have a Windows VPS or root server and you want to install the Farming Simulator Dedicated Server 2019 service on it? You are in the right place. In this guide, we will explain the step by step process of installing this service on your server.
 
 ## Preperation
 

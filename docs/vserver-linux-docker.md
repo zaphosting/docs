@@ -1,6 +1,6 @@
 ---
 id: vserver-linux-docker
-title: "Server: Installation of Docker"
+title: "VPS: Installation of Docker"
 description: Information on how to install Docker on your VPS from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Install Docker
 ---

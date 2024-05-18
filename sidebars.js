@@ -448,6 +448,13 @@ const sidebars = {
     },
     {
       type: "category",
+      label: "American Truck Simulator",
+      items: [
+        "trucksim-dlc"
+      ],
+    },
+    {
+      type: "category",
       label: "Among Us",
       items: [
         {
@@ -755,6 +762,13 @@ const sidebars = {
     },
     {
       type: "category",
+      label: "Euro Truck Simulator",
+      items: [
+        "trucksim-dlc"
+      ],
+    },
+    {
+      type: "category",
       label: "Factorio",
       items: [
         {
@@ -861,7 +875,7 @@ const sidebars = {
         },
         "foundry-configuration",
         "foundry-server-savegames",
-
+        
       ],
     },
     {
@@ -1215,13 +1229,6 @@ const sidebars = {
     },
     {
       type: "category",
-      label: "Truck Sim",
-      items: [
-        "trucksim-dlc"
-      ],
-    },
-    {
-      type: "category",
       label: "Unturned",
       items: [
         {
@@ -1323,7 +1330,7 @@ const sidebars = {
       })(),
       defaultStyle: true,
     },
-    'vserver-root-unterschied',
+    'vserver-root-difference',
     'vserver-vnc',
     'vserver-network-analysis-winmtr',
     'vserver-ssh-default',
@@ -1364,14 +1371,14 @@ const sidebars = {
         'vserver-linux-docker',
         'vserver-linux-ftp-install',
         'vserver-linux-java',
-        'server-linux-javascript',
+        'vserver-linux-javascript',
         'vserver-linux-jitsi',
         'vserver-linux-mastodon',
         'vserver-linux-nextcloud',
         'vserver-linux-openvpn',
         'vserver-linux-phpmyadmin',
         'vserver-linux-plesk',
-        'server-linux-python',
+        'vserver-linux-python',
         'vserver-linux-ssh-server',
         'vserver-linux-webserver',
         'vserver-linux-xrdp',
@@ -1406,7 +1413,7 @@ const sidebars = {
       items: [
         'vserver-windows-ftpserver',
         'vserver-windows-installmysql',
-        'server-windows-javascript',
+        'vserver-windows-javascript',
         'vserver-windows-plesk',
         'server-windows-python',
       ]
@@ -1417,9 +1424,10 @@ const sidebars = {
       items: [
         'vserver-windows-arksurvivalascended',
         'vserver-windows-enshrouded',
-        'server-windows-foundry',
+        'vserver-windows-foundry',
         'vserver-windows-fs-19',
         'vserver-windows-fs-22',
+        'vserver-windows-mythofempires',
         'vserver-windows-palworld',
         'vserver-windows-satisfactory',
         'vserver-windows-valheim',
@@ -1475,36 +1483,36 @@ const sidebars = {
       })(),
       defaultStyle: true,
     },
-    'vserver-linux-gs-interface',
+    'dedicated-linux-gs-interface',
     {
       type: "category",
       label: "Services",
       items: [
-        'vserver-linux-cockpit',	
-        'vserver-linux-databases',
-        'vserver-linux-docker',
-        'vserver-linux-ftp-install',
-        'vserver-linux-java',
-        'server-linux-javascript',
-        'vserver-linux-jitsi',
-        'vserver-linux-mastodon',
-        'vserver-linux-nextcloud',
-        'vserver-linux-openvpn',
-        'vserver-linux-phpmyadmin',
-        'vserver-linux-plesk',
+        'dedicated-linux-cockpit',	
+        'dedicated-linux-databases',
+        'dedicated-linux-docker',
+        'dedicated-linux-ftp-install',
+        'dedicated-linux-java',
+        'dedicated-linux-javascript',
+        'dedicated-linux-jitsi',
+        'dedicated-linux-mastodon',
+        'dedicated-linux-nextcloud',
+        'dedicated-linux-openvpn',
+        'dedicated-linux-phpmyadmin',
+        'dedicated-linux-plesk',
         'dedicated-pterodactyl',
-        'server-linux-python',
-        'vserver-linux-ssh-server',
-        'vserver-linux-webserver',
-        'vserver-linux-xrdp',
+        'dedicated-linux-python',
+        'dedicated-linux-ssh-server',
+        'dedicated-linux-webserver',
+        'dedicated-linux-xrdp',
       ],
     },
     {
       type: "category",
       label: "Security",
       items: [
-        'vserver-linux-ssh2fa',
-        'vserver-linux-security-tips',
+        'dedicated-linux-ssh2fa',
+        'dedicated-linux-security-tips',
       ]
     },
     {
@@ -1522,26 +1530,27 @@ const sidebars = {
       type: "category",
       label: "Services",
       items: [
-        'vserver-windows-ftpserver',
-        'vserver-windows-installmysql',
-        'server-windows-javascript',
-        'vserver-windows-plesk',
-        'server-windows-python',
+        'dedicated-windows-ftpserver',
+        'dedicated-windows-installmysql',
+        'dedicated-windows-javascript',
+        'dedicated-windows-plesk',
+        'dedicated-windows-python',
       ]
     },
     {
       type: "category",
       label: "Gameserver services",
       items: [
-        'vserver-windows-arksurvivalascended',
-        'vserver-windows-enshrouded',
-        'server-windows-foundry',
-        'vserver-windows-fs-19',
-        'vserver-windows-fs-22',
-        'vserver-windows-palworld',
-        'vserver-windows-satisfactory',
-        'vserver-windows-valheim',
-        'vserver-windows-vrising',
+        'dedicated-windows-arksurvivalascended',
+        'dedicated-windows-enshrouded',
+        'dedicated-windows-foundry',
+        'dedicated-windows-fs-19',
+        'dedicated-windows-fs-22',
+        'dedicated-windows-mythofempires',
+        'dedicated-windows-palworld',
+        'dedicated-windows-satisfactory',
+        'dedicated-windows-valheim',
+        'dedicated-windows-vrising',
       ]
     },
     {

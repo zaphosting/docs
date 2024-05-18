@@ -1,6 +1,6 @@
 ---
 id: vserver-windows-palworld
-title: "Server: Palworld Dedicated Server Einrichtung"
+title: "vServer: Palworld Dedicated Server Einrichtung"
 description: Informationen zur Einrichtung eines Palworld Dedizierten Servers auf einem vServer/Rootserver - ZAP-Hosting.com Dokumentation
 sidebar_label: Palworld
 ---

@@ -1,7 +1,7 @@
 ---
 id: vserver-windows-fs-22
-title: "Server: Landwirtschafts-Simulator 2022 Dedicated Server Einrichtung"
-description: Informationen wie du einen Landwirtschafts-Simulator Dedicated Server 2022 auf deinen Windows vServer und Dedicated Server von ZAP-Hosting installieren und einrichten kannst - ZAP-Hosting.com Dokumentation
+title: "vServer: Landwirtschafts-Simulator 2022 Dedicated Server Einrichtung"
+description: Informationen wie du einen Landwirtschafts-Simulator Dedicated Server 2022 auf deinen Windows vServer von ZAP-Hosting installieren und einrichten kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Landwirtschafts-Simulator 2022
 ---
 

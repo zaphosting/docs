@@ -1,6 +1,6 @@
 ---
-id: server-linux-javascript
-title: 'Server: Installation von JavaScript'
+id: vserver-linux-javascript
+title: 'vServer: Installation von JavaScript'
 description: Informationen darüber, wie man JavaScript auf deinem Linux-Server von ZAP-Hosting.com installiert - ZAP-Hosting.com Dokumentation
 sidebar_label: JavaScript installieren
 ---

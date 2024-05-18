@@ -34,6 +34,16 @@ const config = {
   i18n: {
     defaultLocale: 'en',
     locales: ['en', 'de'],
+    localeConfigs: {
+      en: {
+        label: 'EN',
+        htmlLang: 'en-US',
+      },
+      de: {
+        label: 'DE',
+        htmlLang: 'de-DE',
+      },
+    },
   },
   plugins: [
     [
@@ -151,7 +161,9 @@ const config = {
   
   themeConfig:
   /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
-  ({
+  (
+    
+    {
     // Replace with your project's social card
     //image: 'img/docusaurus-default/docusaurus-social-card.jpg',
     image: undefined,
@@ -345,6 +357,14 @@ const config = {
       ],
       copyright: `Copyright © ${new Date().getFullYear()} ZAP-Hosting GmbH & Co. KG`,
     },
+    // announcementBar: {
+    //   id: 'support_us',
+    //   content:
+    //     'Placeholder',
+    //   backgroundColor: 'green',
+    //   textColor: 'white',
+    //   isCloseable: false,
+    // },
     prism: {
       theme: lightCodeTheme,
       darkTheme: darkCodeTheme,

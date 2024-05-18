@@ -1,6 +1,6 @@
 ---
-id: server-windows-foundry
-title: "Server: Foundry Dedicated Server Setup"
+id: vserver-windows-foundry
+title: "vServer: Foundry Dedicated Server Setup"
 description: Informationen zum Einrichten eines Foundry Dedicated Servers auf einem VPS/Root-Server/Dedicated Server - ZAP-Hosting.com Dokumentation
 sidebar_label: Foundry
 ---

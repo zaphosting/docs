@@ -1,6 +1,6 @@
 ---
-id: server-windows-javascript
-title: 'Server: Installation of JavaScript'
+id: dedicated-windows-javascript
+title: 'Dedicated Server: Installation of JavaScript'
 description: Information on how to install and run JavaScript on your Windows server from ZAP-Hosting.com - ZAP-Hosting.com documentation
 sidebar_label: Install JavaScript
 ---
@@ -64,7 +64,7 @@ Once finished, you can simply press `Finish` on the final page and start using N
 
 ### Update Node.js to latest version
 
-Running `node -v` will show you the installed version of Node.js. From time to time, you should check that you're running the latest LTS version. To update Node.js, you need to follow the provided [install section](server-windows-javascript.md#installing-nodejs-runtime) again.
+Running `node -v` will show you the installed version of Node.js. From time to time, you should check that you're running the latest LTS version. To update Node.js, you need to follow the provided [install section](vserver-windows-javascript.md#installing-nodejs-runtime) again.
 
 ### Running Node.js & npm
 

@@ -1,7 +1,7 @@
 ---
 id: vserver-windows-fs-19
-title: "Server: Landwirtschafts-Simulator 2019 Dedicated Server Einrichtung"
-description: Informationen wie du einen Landwirtschafts-Simulator Dedizierter Server 2019 auf deinen Windows vServer und Dedizierter Server von ZAP-Hosting installieren und einrichten kannst - ZAP-Hosting.com Dokumentation
+title: "vServer: Landwirtschafts-Simulator 2019 Dedicated Server Einrichtung"
+description: Informationen wie du einen Landwirtschafts-Simulator Dedizierter Server 2019 auf deinen Windows vServer von ZAP-Hosting installieren und einrichten kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Landwirtschafts-Simulator 2019
 ---
 

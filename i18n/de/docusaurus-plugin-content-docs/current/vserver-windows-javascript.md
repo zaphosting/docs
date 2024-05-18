@@ -1,6 +1,6 @@
 ---
-id: server-windows-javascript
-title: 'Server: Installation von JavaScript'
+id: vserver-windows-javascript
+title: 'vServer: Installation von JavaScript'
 description: Informationen darüber, wie man JavaScript auf deinem Windows-Server von ZAP-Hosting.com installiert -  ZAP-Hosting.com Dokumentation
 sidebar_label: JavaScript installieren
 ---
@@ -64,7 +64,7 @@ Sobald die Installation abgeschlossen ist, kannst du einfach auf der letzten Sei
 
 ### Node.js auf die neueste Version aktualisieren
 
-Mit `node -v` wird die installierte Version von Node.js angezeigt. Von Zeit zu Zeit solltest du überprüfen, ob du die neueste LTS-Version verwendest. Um Node.js zu aktualisieren, musst du den bereitgestellten [Installationsabschnitt](server-windows-javascript#nodejs-laufzeitumgebung-installieren) erneut befolgen.
+Mit `node -v` wird die installierte Version von Node.js angezeigt. Von Zeit zu Zeit solltest du überprüfen, ob du die neueste LTS-Version verwendest. Um Node.js zu aktualisieren, musst du den bereitgestellten [Installationsabschnitt](vserver-windows-javascript.md#nodejs-laufzeitumgebung-installieren) erneut befolgen.
 
 ### Node.js & npm ausführen
 
