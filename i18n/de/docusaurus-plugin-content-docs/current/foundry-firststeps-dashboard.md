@@ -13,6 +13,10 @@ Nachdem du diese Anleitung durchgegangen bist, wirst du problemlos in der Lage s
 
 
 
+<YouTube videoId="7xr5iTsn2bs" title="How to get FOUNDRY server in just a MINUTE!" description="Hast du das Gefühl, dass du etwas besser verstehst, wenn du es in Aktion siehst?  Wir haben etwas für dich! Tauche ab in unser Video, welches alles für dich zusammenfasst. Egal, ob du es eilig hast oder einfach nur Informationen auf möglichst verständliche Art und Weise aufnehmen möchtest!"/>
+
+
+
 ## Informationen
 
 Im Abschnitt **Informationen** deines Navigationspanels findest du eine Reihe von Unterpunkten, die dir bei der Verwaltung deines Servers helfen. Dazu zählen **Dashboard**, **News**, **Statistiken**, **DDoS Manager**, **Tebex Shop**, **Log-Dateien**, **Ereignislog**, **Live Konsole**, **Störungen**, **Fragen und Antworten** und der **ZAP-Hosting.com Dokumentation**. Im Folgenden erhältst du eine detaillierte Einführung zu diesen verschiedenen Bereichen.
