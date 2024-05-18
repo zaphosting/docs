@@ -5,10 +5,10 @@ description: Informationen, wie man seinen eigenen Discord-Bot einrichtet - ZAP-
 sidebar_label: Einrichtung
 ---
 
+import YouTube from '@site/src/components/YouTube/YouTube';
 
-**📺Video:** Du bevorzugst eine Anleitung eher in Form eines Videos oder als zusätzliche visuelle Ergänzung? Kein Problem! Für dieses Thema stellen wir ebenfalls ein Video zur Verfügung:
+<YouTube videoId="OoKA8UJ_N5A" title="Wie man einen Discord-Bot-Server einrichtet und Bot-Dateien hochlädt!" description="Hast du das Gefühl, dass du etwas besser verstehst, wenn du es in Aktion siehst?  Wir haben etwas für dich! Tauche ab in unser Video, welches alles für dich zusammenfasst. Egal, ob du es eilig hast oder einfach nur Informationen auf möglichst verständliche Art und Weise aufnehmen möchtest!"/>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/OoKA8UJ_N5A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Verbinden mit FTP
 

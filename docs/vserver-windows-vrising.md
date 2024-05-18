@@ -1,17 +1,11 @@
 ---
 id: vserver-windows-vrising
-title: "VPS: Install V-Rising  on Windows"
-description: Information on how to install and set up a V-Rising Server on your Windows VPS and Dedicated Server from ZAP-Hosting - ZAP-Hosting.com documentation
+title: "VPS: V-Rising Dedicated Server Setup"
+description: Information on how to install and set up a V-Rising Server on your Windows VPS from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: V-Rising
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';
-
-# Installing a dedicated server for V-Rising
-
-:::info
-:information_source: These instructions are also valid for a Dedicated Server from ZAP-Hosting with Windows Server 2016/2019. How to install Windows on a Dedicated Server we explain [here](dedicated-windows.md).
-:::
 
 <YouTube videoId="to2ghqNpGLA" title="How to setup a V RISING Dedicated Windows Server!" description="Feel like you understand better when you see things in action?  We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
 

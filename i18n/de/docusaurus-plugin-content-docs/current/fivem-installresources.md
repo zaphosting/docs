@@ -5,9 +5,7 @@ description: Informationen, wie du Ressourcen auf deinen FiveM-Server von ZAP-Ho
 sidebar_label: Ressourcen installieren
 ---
 
-**📺Video:** Du bevorzugst eine Anleitung eher in Form eines Videos oder als zusätzliche visuelle Ergänzung? Kein Problem! Für dieses Thema stellen wir ebenfalls ein Video zur Verfügung:
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/V7us5V6KLho" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+import YouTube from '@site/src/components/YouTube/YouTube';
 
 ## Einführung
 
@@ -15,6 +13,7 @@ Ressourcen können verwendet werden, um deinen FiveM Server um zusätzliche Funk
 
 FiveM beziehungsweise dessen Community bietet hierbei eine große Auswahl an Ressourcen an. Eine Übersicht mit den beliebtesten Ressourcen findest du im Cfx.re Forum: https://forum.cfx.re/c/development/releases/7
 
+<YouTube videoId="V7us5V6KLho" title="How to Add Resources to a FiveM Server" description="Hast du das Gefühl, dass du etwas besser verstehst, wenn du es in Aktion siehst?  Wir haben etwas für dich! Tauche ab in unser Video, welches alles für dich zusammenfasst. Egal, ob du es eilig hast oder einfach nur Informationen auf möglichst verständliche Art und Weise aufnehmen möchtest!"/>
 
 
 ## Vorbereitung
@@ -26,7 +25,6 @@ Heruntergeladene Ressourcen werden in der Regel in einem komprimierten Format be
 :::info
 Falls diese Dateien nicht vorhanden sind, kann es sein, dass sie sich in einem Unterverzeichnis innerhalb der Ressource befinden.
 :::
-
 
 
 ## Installation

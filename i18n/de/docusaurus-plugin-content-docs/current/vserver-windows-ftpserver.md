@@ -1,6 +1,6 @@
 ---
 id: vserver-windows-ftpserver
-title: "Server: FTP Server auf Windows Server installieren"
+title: "vServer: Installation von FTP Server"
 description: Informationen, wie du einen FTP Server auf deinen Windows vServer von ZAP-Hosting installieren und einrichten kannst - ZAP-Hosting.com Dokumenationen
 sidebar_label: FTP Server installieren
 ---

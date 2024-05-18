@@ -1,6 +1,6 @@
 ---
 id: vserver-windows-port
-title: "VPS: Forwarding ports on Windows servers"
+title: "VPS: Forwarding ports on Windows servers (Firewall)"
 description: Information on how to forward ports on your Windows VPS from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Port Forwarding
 ---

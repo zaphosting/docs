@@ -33,18 +33,18 @@ Die Definition der Sprache/Anzeige erfolgt über die Locales (Sprachcodes/Lände
 
 | Land           | Sprache        | Locale |
 | -------------- | -------------- | ------ |
-| Deutschland    | Deutsch        | de_DE  |
-| USA            | Englisch       | en_US  |
-| Canada         | Englisch       | en_CA  |
-| Australien     | Englisch       | en_AU  |
-| United Kingdom | Englisch       | en_GB  |
-| Finnland       | Finnisch       | fi_FI  |
-| Frankreich     | Französisch    | fr_FR  |
-| Niederlande    | Niederländisch | nl_NL  |
-| Portugal       | Portugiesisch  | pt_PT  |
-| Brasilien      | Portugiesisch  | pt_BR  |
-| Spanien        | Spanisch       | es_ES  |
-| Singapur       | Englisch       | en_SG  |
+| Deutschland    | Deutsch        | de-DE  |
+| USA            | Englisch       | en-US  |
+| Canada         | Englisch       | en-CA  |
+| Australien     | Englisch       | en-AU  |
+| United Kingdom | Englisch       | en-GB  |
+| Finnland       | Finnisch       | fi-FI  |
+| Frankreich     | Französisch    | fr-FR  |
+| Niederlande    | Niederländisch | nl-NL  |
+| Portugal       | Portugiesisch  | pt-PT  |
+| Brasilien      | Portugiesisch  | pt-BR  |
+| Spanien        | Spanisch       | es-ES  |
+| Singapur       | Englisch       | en-SG  |
 
 :::caution 
 

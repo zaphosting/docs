@@ -1,8 +1,8 @@
 ---
 id: vserver-windows-valheim
-title: "Server: Valheim Dedicated Server Setup"
+title: "vServer: Valheim Dedicated Server Einrichtung"
 description: Informationen zum Einrichten eines Valheim Dedicated Server auf einem vServer/Rootserver - ZAP-Hosting.com Dokumentation
-sidebar_label: Valheim Dedicated Server Setup
+sidebar_label: Valheim
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';

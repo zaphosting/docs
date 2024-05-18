@@ -33,18 +33,18 @@ The definition of the language/display is done via the locales (language codes/c
 
 | Country        | Language   | Locale |
 | -------------- | ---------- | ------ |
-| Germany        | German     | de_DE  |
-| USA            | English    | en_US  |
-| Canada         | English    | en_CA  |
-| Australia      | English    | en_AU  |
-| United Kingdom | English    | en_GB  |
-| Finland        | Finnish    | fi_FI  |
-| France         | French     | fr_FR  |
-| Netherlands    | Dutch      | nl_NL  |
-| Portugal       | Portuguese | pt_PT  |
-| Brazil         | Portuguese | pt_BR  |
-| Spain          | Spanish    | es_ES  |
-| Singapore      | English    | en_SG  |
+| Germany        | German     | de-DE  |
+| USA            | English    | en-US  |
+| Canada         | English    | en-CA  |
+| Australia      | English    | en-AU  |
+| United Kingdom | English    | en-GB  |
+| Finland        | Finnish    | fi-FI  |
+| France         | French     | fr-FR  |
+| Netherlands    | Dutch      | nl-NL  |
+| Portugal       | Portuguese | pt-PT  |
+| Brazil         | Portuguese | pt-BR  |
+| Spain          | Spanish    | es-ES  |
+| Singapore      | English    | en-SG  |
 
 :::caution 
 The display of the server flag is generally supported by all available countries. However, not all resources contain all languages. Therefore, make sure that your country/language is supported in advance!

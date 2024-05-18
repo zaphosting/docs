@@ -1,6 +1,6 @@
 ---
 id: vserver-linux-gs-interface
-title: "Server: Gameserver/TS3 Interface"
+title: "VPS: Gameserver/TS3 Interface"
 description: Information on how to install TS and game server via the game server/TS3 interface with just a few clicks - ZAP-Hosting.com documentation
 sidebar_label: GS/TS3 Interface
 
@@ -10,7 +10,7 @@ sidebar_label: GS/TS3 Interface
 
 ## Introduction
 
- If game server products don't meet your taste or expectations, or if you need your service in other ways, using a VPS, root server, or dedicated server is often a better option. However, you often face the challenge that not all services are automated or pre-installed. Setting up services such as game servers, Teamspeak 3 servers, and music bots must be done independently.
+If game server products don't meet your taste or expectations, or if you need your service in other ways, using a VPS or root server is often a better option. However, you often face the challenge that not all services are automated or pre-installed. Setting up services such as game servers, Teamspeak 3 servers, and music bots must be done independently.
 
 To solve this problem, we have developed a practical solution for our Linux-based VPS, root server, or dedicated server. The so-called Gameserver/Teamspeak 3 Server interface (GS/TS3 Interface)!
 

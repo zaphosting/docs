@@ -5,17 +5,13 @@ description: Information about importing a save file to your ARK Survival Evolve
 sidebar_label: Importing save file
 ---
 
-
-
-**📺Video:** Do you prefer instructions in the form of a video or as an additional visual supplement? No problem! We also provide a video for this topic: 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/lvIIVOhAUjo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
+import YouTube from '@site/src/components/YouTube/YouTube';
 
 ## Introduction
 
 Are you looking to import your own or an official backup save file to your Ark: Survival Evolved server? Look no further, this guide will explain the steps to importing your regular own or official backup save file to your new server.
+
+<YouTube videoId="lvIIVOhAUjo" title="How to get an ARK:SE Server with Official Server Backups" description="Feel like you understand better when you see things in action?  We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
 
 ## Prepare your save file
 

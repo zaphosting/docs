@@ -1,8 +1,8 @@
 ---
 id: vserver-windows-satisfactory
-title: "Server: Satisfactory Dedicated Server Setup"
+title: "vServer: Satisfactory Dedicated Server Einrichtung"
 description: Informationen zum Einrichten eines Satisfactory Dedicated Server auf einem vServer/Rootserver - ZAP-Hosting.com Dokumentation
-sidebar_label: Satisfactory Dedicated Server Setup
+sidebar_label: Satisfactory
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';

@@ -5,9 +5,13 @@ description: Information about connecting to a Palworld server from ZAP-Hosting 
 sidebar_label: Connect to Server
 ---
 
+import YouTube from '@site/src/components/YouTube/YouTube';
+
+## Introduction
+
 In this guide, we will explore how to connect to your Palworld server. We recommend configurating the server to your likings beforehand, learn more about this through our [Palworld Configuration guide](palworld-configuration.md).
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/SDZC4-FEdNM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<YouTube videoId="SDZC4-FEdNM" title="Setup Palworld server in just a MINUTE!" description="Feel like you understand better when you see things in action?  We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
 
 ## Obtaining Server IP
 
