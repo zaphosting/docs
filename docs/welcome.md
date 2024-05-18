@@ -25,6 +25,7 @@ Perfect and utilize the full extent of your game server. With our expertise, we 
 <Cards>
     <Card title="7 Days to Die" description="Placeholder" link="7d2d-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/251570/header.jpg?=1698860631"/>
     <Card title="Alt:V" description="Placeholder" link="altv-firststeps-dashboard" image="https://zap-cdn.com/interface/_images/icons/alt-v-icon.png"/>
+    <Card title="American Truck Simulator" description="Placeholder" link="trucksim-dlc" image="https://cdn.cloudflare.steamstatic.com/steam/apps/270880/header.jpg?t=1707218064"/>
     <Card title="Among Us" description="Placeholder" link="amongus-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/945360/header.jpg?t=1698860631"/>
     <Card title="ARK" description="Placeholder" link="ark-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/346110/header.jpg?t=1698860631"/>
     <Card title="ArmA 3" description="Placeholder" link="arma3-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/107410/header.jpg?t=1698860631"/>
@@ -43,9 +44,11 @@ Perfect and utilize the full extent of your game server. With our expertise, we 
     <Card title="Don't Starve Together" description="Placeholder" link="dst-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/322330/header.jpg?t=1698860631"/>
     <Card title="ECO" description="Placeholder" link="eco-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/382310/header.jpg?t=1698860631"/>
     <Card title="Empyrion" description="Placeholder" link="empyrion-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/383120/header.jpg?t=1698860631"/>
+    <Card title="Euro Truck Simulator" description="Placeholder" link="trucksim-dlc" image="https://cdn.cloudflare.steamstatic.com/steam/apps/227300/header.jpg?t=1707210696"/>
     <Card title="Enshrouded" description="Placeholder" link="enshrouded-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/1203620/header.jpg?t=1698860631"/>
     <Card title="Factorio" description="Placeholder" link="factorio-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/427520/header.jpg?t=1698860631"/>
     <Card title="FiveM" description="Placeholder" link="fivem-dashboard" image="https://zap-cdn.com/interface/_images/icons/fivem-gameserver-icon.png"/>
+    <Card title="Foundry" description="Placeholder" link="trucksim-dlc" image="https://cdn.cloudflare.steamstatic.com/steam/apps/983870/header_alt_assets_1_german.jpg?t=1715273802"/>
     <Card title="Garry's Mod" description="Placeholder" link="gmod-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/4000/header.jpg?t=1698860631"/>
     <Card title="Last Oasis" description="Placeholder" link="lastoasis-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/903950/header.jpg?t=1698860631"/>
     <Card title="Minecraft" description="Placeholder" link="minecraft-firststeps-dashboard" image="https://zap-cdn.com/interface/_images/game/minecraft.png"/>
@@ -64,7 +67,6 @@ Perfect and utilize the full extent of your game server. With our expertise, we 
     <Card title="Sunkenland" description="Placeholder" link="sunkenland-firststeps-dashboard" image="https://cdn.akamai.steamstatic.com/steam/apps/2080690/header.jpg?t=1703562037"/>
     <Card title="Terraria" description="Placeholder" link="terraria-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/105600/header.jpg?t=1698860631"/>
     <Card title="Terratech Worlds" description="Placeholder" link="terratech-worlds-firststeps-dashboard" image="https://cdn.akamai.steamstatic.com/steam/apps/2313330/header.jpg?t=1711171512"/>
-    <Card title="Truck Simulator" description="Placeholder" link="trucksim-dlc" image="https://cdn.cloudflare.steamstatic.com/steam/apps/227300/header.jpg?t=1698860631"/>
     <Card title="Unturned" description="Placeholder" link="unturned-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/304930/header.jpg?t=1698860631"/>
     <Card title="Valheim" description="Placeholder" link="valheim-firststeps-dashboard"  image="https://cdn.cloudflare.steamstatic.com/steam/apps/892970/header.jpg?t=1698860631"/>
     <Card title="Vein" description="Placeholder" link="vein-firststeps-dashboard"  image="https://cdn.akamai.steamstatic.com/steam/apps/1857950/header.jpg?t=1707036202"/>
@@ -77,10 +79,10 @@ Perfect and utilize the full extent of your game server. With our expertise, we 
 Utilize the full extent of your vRoot server (VPS/Root server) with our comprehensive guides. Whether you prefer Linux or Windows, our guides help you efficiently set up and manage your server.
 
 <Cards>
-    <Card title="VPS (Linux)" description="Placeholder" link="vserver-root-unterschied" image="https://screensaver01.zap-hosting.com/index.php/s/xAwGpyHdW6ApLs3/preview" type="product-categories"/>
-    <Card title="VPS (Windows)" description="Placeholder" link="vserver-root-unterschied" image="https://screensaver01.zap-hosting.com/index.php/s/xAwGpyHdW6ApLs3/preview" type="product-categories"/>
-    <Card title="Root server (Linux)" description="Placeholder" link="vserver-root-unterschied" image="https://screensaver01.zap-hosting.com/index.php/s/nB65mgwdWwb3M6T/preview" type="product-categories"/>
-    <Card title="Root server (Windows)" description="Placeholder" link="vserver-root-unterschied" image="https://screensaver01.zap-hosting.com/index.php/s/nB65mgwdWwb3M6T/preview" type="product-categories"/>
+    <Card title="VPS (Linux)" description="Placeholder" link="vserver-root-difference" image="https://screensaver01.zap-hosting.com/index.php/s/xAwGpyHdW6ApLs3/preview" type="product-categories"/>
+    <Card title="VPS (Windows)" description="Placeholder" link="vserver-root-difference" image="https://screensaver01.zap-hosting.com/index.php/s/xAwGpyHdW6ApLs3/preview" type="product-categories"/>
+    <Card title="Root server (Linux)" description="Placeholder" link="vserver-root-difference" image="https://screensaver01.zap-hosting.com/index.php/s/nB65mgwdWwb3M6T/preview" type="product-categories"/>
+    <Card title="Root server (Windows)" description="Placeholder" link="vserver-root-difference" image="https://screensaver01.zap-hosting.com/index.php/s/nB65mgwdWwb3M6T/preview" type="product-categories"/>
 </Cards>
 
 ## Dedicated Server
