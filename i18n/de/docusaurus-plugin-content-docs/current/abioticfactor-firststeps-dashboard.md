@@ -1,7 +1,7 @@
 ---
-id: rimworldtogether-firsteps-dashboard
-title: "Rimworld Together: Dashboard Übersicht"
-description: Informationen zum Dashboard eines Rimworld Together Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
+id: abioticfactor-firststeps-dashboard
+title: "Abiotic Factor: Dashboard Übersicht"
+description: Informationen zum Dashboard eines Abiotic Factor Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Dashboard
 ---
 
@@ -9,9 +9,9 @@ import YouTube from '@site/src/components/YouTube/YouTube';
 
 ## Einführung
 
-Du bist an einem **Rimworld Together Server** interessiert oder besitzt bereits einen, doch dir fehlt noch ein umfassender Überblick über die Verwaltung und die Auffindbarkeit aller notwendigen Optionen? Gerade zu Beginn kann dies eine Herausforderung darstellen. Aber keine Sorge, im Folgenden bieten wir dir eine ausführliche Einführung zur Verwaltung deines Dienstes, damit du den optimalen Durchblick hast.
+Du bist an einem **Abiotic Factor Server** interessiert oder besitzt bereits einen, doch dir fehlt noch ein umfassender Überblick über die Verwaltung und die Auffindbarkeit aller notwendigen Optionen? Gerade zu Beginn kann dies eine Herausforderung darstellen. Aber keine Sorge, im Folgenden bieten wir dir eine ausführliche Einführung zur Verwaltung deines Dienstes, damit du den optimalen Durchblick hast.
 
-Nachdem du diese Anleitung durchgegangen bist, wirst du problemlos in der Lage sein, deinen Server effizient zu verwalten und alle erforderlichen Optionen sowie Features zügig und unkompliziert zu finden. Hier erhältst du einen strukturierten Überblick, der dir Schritt für Schritt hilft, dich mit der Serververwaltung vertraut zu machen und dein Wissen gezielt zu erweitern. So kannst du sicherstellen, dass dein **Rimworld Together Server** optimal auf deine Bedürfnisse abgestimmt ist und du das Beste aus den vorhandenen Möglichkeiten herausholst.
+Nachdem du diese Anleitung durchgegangen bist, wirst du problemlos in der Lage sein, deinen Server effizient zu verwalten und alle erforderlichen Optionen sowie Features zügig und unkompliziert zu finden. Hier erhältst du einen strukturierten Überblick, der dir Schritt für Schritt hilft, dich mit der Serververwaltung vertraut zu machen und dein Wissen gezielt zu erweitern. So kannst du sicherstellen, dass dein **Abiotic Factor Server** optimal auf deine Bedürfnisse abgestimmt ist und du das Beste aus den vorhandenen Möglichkeiten herausholst.
 
 
 
@@ -25,7 +25,7 @@ Im Abschnitt **Informationen** deines Navigationspanels findest du eine Reihe vo
 
 Das **Dashboard** deines Servers stellt das Herzstück für die Verwaltung dar. Hier werden alle grundlegenden und essenziellen Informationen zu deinem Dienst übersichtlich präsentiert. Dazu zählen beispielsweise Angaben zum Standort, Status, IP:Port, genutzter Speicherplatz, aktuell laufendes Spiel, Servername, Karte und die Anzahl der verfügbaren Slots. Zudem werden auch die Auslastungen der CPU, des Arbeitsspeichers und des RAM dargestellt.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/kiL5PLe8EjCStt2/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/jM7tK7QQbb2KqNd/preview)
 
 Im Dashboard hast du außerdem die Möglichkeit, deinen Dienst zu starten, zu stoppen oder neu zu starten, um so die volle Kontrolle über dessen Betrieb zu haben. Weiterhin kannst du die Live-Konsole aufrufen, um Echtzeitinformationen über den Serverzustand zu erhalten und gegebenenfalls direkte Eingriffe vorzunehmen.
 
@@ -166,11 +166,7 @@ Unter **Versionen** hast du die Möglichkeit, die aktuelle Version deines Spiels
 
 Darüber hinaus kannst du auch die E-Mail-Benachrichtigungsfunktion für automatische Updates aktivieren, um dich über Aktualisierungen zu informieren und sicherzustellen, dass du immer auf dem neuesten Stand bist. 
 
-### Steam Workshop 
 
-Wenn du auf der Suche nach neuen Inhalten bist, um dein Spielerlebnis zu erweitern, bietet der Steam Workshop eine breite Auswahl an Mods und Maps für eine Vielzahl von Spielen. Um eine Sammlung von Mods oder Maps in deinem Spiel zu verwenden, musst du lediglich die Steam Workshop Collection ID eingeben. Anschließend musst du deinen Server neu starten, um sicherzustellen, dass die neuen Inhalte geladen werden. Sobald dies erledigt ist, kannst du die neuen Inhalte auf deinem Server verwenden und deinem Spiel mehr Abwechslung und Spaß hinzufügen.
-
-![img](https://screensaver01.zap-hosting.com/index.php/s/AaL9sQeye5gKzWQ/preview)
 
 ### Restart Planer
 

@@ -1,7 +1,7 @@
 ---
-id: abioticfactor-firsteps-dashboard
-title: "Abiotic Factor: Dashboard Overview"
-description: Information about the dashboard of a Abiotic Factor server from ZAP-Hosting - ZAP-Hosting.com documentation
+id: rimworldtogether-firststeps-dashboard
+title: "Rimworld Together: Dashboard Overview"
+description: Information about the dashboard of a Rimworld Together server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Dashboard
 ---
 
@@ -10,9 +10,9 @@ import YouTube from '@site/src/components/YouTube/YouTube';
 
 ## Introduction
 
-You are interested in an **Abiotic Factor server** or already own one, but you still lack a comprehensive overview of the administration and the findability of all necessary options? Especially at the beginning, this can be a challenge. But don't worry, we'll provide you with a detailed introduction to the administration of your service below, so you'll have the best possible overview.
+You are interested in an **Rimworld Together server** or already own one, but you still lack a comprehensive overview of the administration and the findability of all necessary options? Especially at the beginning, this can be a challenge. But don't worry, we'll provide you with a detailed introduction to the administration of your service below, so you'll have the best possible overview.
 
-After going through this guide, you will easily be able to manage your server efficiently and find all the necessary options and features quickly and easily. Here, you will get a structured overview that will help you step by step to get familiar with the server administration and expand your knowledge in a targeted manner. This way, you can ensure that your **Abiotic Factor server** is optimally adapted to your needs and that you get the most out of the available options.
+After going through this guide, you will easily be able to manage your server efficiently and find all the necessary options and features quickly and easily. Here, you will get a structured overview that will help you step by step to get familiar with the server administration and expand your knowledge in a targeted manner. This way, you can ensure that your **Rimworld Together server** is optimally adapted to your needs and that you get the most out of the available options.
 
 
 
@@ -26,7 +26,7 @@ In the **Information** section of your navigation panel, you will find a number 
 
 The **Dashboard** of your server is the heart of the administration. All basic and essential information about your service is clearly presented here. This includes, for example, information about the location, status, IP: Port, used memory, game in progress, server name, map and the number of available slots. In addition, the utilization of the CPU, memory and RAM is also displayed.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/jR6dsMezHzFotmM/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/pYy8nmAG9Z7L7H9/preview)
 
 In the dashboard you also have the option of starting, stopping or restarting your service, to have full control over its operation. Furthermore, you can access the live console to get real-time information about the server's state and take direct action if necessary.
 
@@ -169,7 +169,11 @@ Moreover, you can also enable the email notification feature for automatic updat
 
 
 
+### Steam Workshop
 
+If you are looking for new content to enhance your gaming experience, the Steam Workshop offers a wide selection of mods and maps for a variety of games. To use a collection of mods or maps in your game, you simply need to enter the Steam Workshop Collection ID. Then, you will need to restart your server to ensure that the new content is loaded. Once this is done, you can use the new content on your server and add more variety and fun to your game.
+
+![img](https://screensaver01.zap-hosting.com/index.php/s/AaL9sQeye5gKzWQ/preview)
 
 
 
