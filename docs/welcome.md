@@ -24,6 +24,7 @@ Perfect and utilize the full extent of your game server. With our expertise, we 
 
 <Cards>
     <Card title="7 Days to Die" description="Placeholder" link="7d2d-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/251570/header.jpg?=1698860631"/>
+    <Card title="Abiotic Factor" description="Placeholder" link="abioticfactor-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/427410/header.jpg?t=1714694871"/>
     <Card title="Alt:V" description="Placeholder" link="altv-firststeps-dashboard" image="https://zap-cdn.com/interface/_images/icons/alt-v-icon.png"/>
     <Card title="American Truck Simulator" description="Placeholder" link="trucksim-dlc" image="https://cdn.cloudflare.steamstatic.com/steam/apps/270880/header.jpg?t=1707218064"/>
     <Card title="Among Us" description="Placeholder" link="amongus-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/945360/header.jpg?t=1698860631"/>
@@ -44,8 +45,8 @@ Perfect and utilize the full extent of your game server. With our expertise, we 
     <Card title="Don't Starve Together" description="Placeholder" link="dst-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/322330/header.jpg?t=1698860631"/>
     <Card title="ECO" description="Placeholder" link="eco-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/382310/header.jpg?t=1698860631"/>
     <Card title="Empyrion" description="Placeholder" link="empyrion-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/383120/header.jpg?t=1698860631"/>
-    <Card title="Euro Truck Simulator" description="Placeholder" link="trucksim-dlc" image="https://cdn.cloudflare.steamstatic.com/steam/apps/227300/header.jpg?t=1707210696"/>
     <Card title="Enshrouded" description="Placeholder" link="enshrouded-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/1203620/header.jpg?t=1698860631"/>
+    <Card title="Euro Truck Simulator" description="Placeholder" link="trucksim-dlc" image="https://cdn.cloudflare.steamstatic.com/steam/apps/227300/header.jpg?t=1707210696"/>
     <Card title="Factorio" description="Placeholder" link="factorio-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/427520/header.jpg?t=1698860631"/>
     <Card title="FiveM" description="Placeholder" link="fivem-dashboard" image="https://zap-cdn.com/interface/_images/icons/fivem-gameserver-icon.png"/>
     <Card title="Foundry" description="Placeholder" link="trucksim-dlc" image="https://cdn.cloudflare.steamstatic.com/steam/apps/983870/header_alt_assets_1_german.jpg?t=1715273802"/>
@@ -59,6 +60,7 @@ Perfect and utilize the full extent of your game server. With our expertise, we 
     <Card title="Project Zomboid" description="Placeholder" link="projectzomboid-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/108600/header.jpg?t=1698860631"/>
     <Card title="RageMP" description="Placeholder" link="ragemp-firststeps-dashboard" image="https://zap-cdn.com/interface/_images/icons/ragemp-icon-new2.jpg"/>
     <Card title="RedM" description="Placeholder" link="redm-firststeps-dashboard" image="https://zap-cdn.com/interface/_images/icons/redm-icon-new.jpg"/>
+    <Card title="Rimworld Together" description="Placeholder" link="rimworldtogether-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/294100/header.jpg?t=1712954312"/>
     <Card title="Rust" description="Placeholder" link="rust-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/252490/header.jpg?t=1698860631"/>
     <Card title="Satisfactory" description="Placeholder" link="satisfactory-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/526870/header.jpg?t=1698860631"/>
     <Card title="SCP: Secret Laboratory" description="Placeholder" link="scp-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/700330/header.jpg?t=1698860631"/>
@@ -73,7 +75,6 @@ Perfect and utilize the full extent of your game server. With our expertise, we 
     <Card title="V Rising" description="Placeholder" link="vrising-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/1604030/header.jpg?t=1698860631"/>
     <Card title="Wurm Unlimited" description="Placeholder" link="wurmunlimited-firststeps-dashboard" image="https://cdn.akamai.steamstatic.com/steam/apps/366220/header.jpg?t=1593011906"/>
 </Cards>
-
 
 ## vRootserver
 Utilize the full extent of your vRoot server (VPS/Root server) with our comprehensive guides. Whether you prefer Linux or Windows, our guides help you efficiently set up and manage your server.
