@@ -398,5 +398,13 @@
   "sidebar.gameserverSidebar.category.Path of Titans": {
     "message": "Path of Titans",
     "description": "The label for category Path of Titans in sidebar gameserverSidebar"
+  },
+  "sidebar.gameserverSidebar.category.Abiotic Factor": {
+    "message": "Abiotic Factor",
+    "description": "The label for category Abiotic Factor in sidebar gameserverSidebar"
+  },
+  "sidebar.gameserverSidebar.category.Rimworld Together": {
+    "message": "Rimworld Together",
+    "description": "The label for category Rimworld Together in sidebar gameserverSidebar"
   }
 }
