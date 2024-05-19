@@ -13,11 +13,13 @@ Are you looking for your own server with powerful configuration at a fair price?
 
 Unlike a virtual server (vRootserver), you will have your own physical hardware with a dedicated server. This means that when you rent/buy a Dedicated Server, the full power of all components is available only to you and your applications. Virtual servers, on the other hand, run on a host system whose resources are shared with other virtual servers.
 
+![img](https://screensaver01.zap-hosting.com/index.php/s/9YMG6QfsNzzjCSQ/preview)
 
-
-## Order
+## Ordering
 
 The ordering process is very simple. Select your desired configuration for your [Dedicated Server](https://zap-hosting.com/en/dedicated-server-hosting/). The setup time of the dedicated server depends on the availability. You can check this by having a look at the status symbol next to the flag for each configuration. The status **Green** means that the configuration is available and will be ready within a few minutes. If the status **Orange** is displayed for the configuration, the configuration is not immediately available and has to be assembled. The time for the setup is approximately 5 business days (monday-friday).
+
+![img](https://screensaver01.zap-hosting.com/index.php/s/NDLcyjdj6BmSwLq/preview)
 
 
 

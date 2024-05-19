@@ -28,20 +28,14 @@ const sidebars = {
       })(),
       defaultStyle: true,
     },
-    {
-      type: 'category',
-      label: 'General',
-      items: [
-        'welcome',
-        'firststeps-register',
-        'firststeps-locations',
-        'preorders',
-        'firststeps-rent-or-purchase',
-        'firststeps-rent-contractorprepaid',
-        'community-info',
-        'suggestions',
-      ],
-    },
+    'welcome',
+    'firststeps-register',
+    'firststeps-locations',
+    'preorders',
+    'firststeps-rent-or-purchase',
+    'firststeps-rent-contractorprepaid',
+    'community-info',
+    'suggestions',
     {
       type: 'category',
       label: 'Support',
@@ -134,27 +128,22 @@ const sidebars = {
       })(),
       defaultStyle: true,
     },
+    "gameserver-introduction",
+    "gameserver-resourcelimit",
+    "gameserver-gameswitch",
+    "gameserver-upgrade",
+    "gameserver-ftpaccess",
+    "gameserver-restartplaner",
+    "gameserver-backups",
+    "gameserver-server-down-what-now",
+    "gameserver-tebex",
     {
-      type: 'category',
-      label: 'General',
+      type: "category",
+      label: "Databases",
       items: [
-        "gameserver-resourcelimit",
-        "gameserver-gameswitch",
-        "gameserver-upgrade",
-        "gameserver-ftpaccess",
-        "gameserver-restartplaner",
-        "gameserver-backups",
-        "gameserver-server-down-what-now",
-        "gameserver-tebex",
-        {
-          type: "category",
-          label: "Databases",
-          items: [
-            "gameserver-databases-pma",
-            "gameserver-database-external-access"
-          ]
-        }
-      ]
+        "gameserver-databases-pma",
+        "gameserver-database-external-access"
+      ],
     },
     {
       type: 'html',
@@ -430,6 +419,19 @@ const sidebars = {
         "7d2d-becomeadmin",
         "7d2d-mods",
         "7d2d-commands",
+      ],
+    },
+    {
+      type: "category",
+      label: "Abiotic Factor",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "abioticfactor-firststeps-dashboard",
+          ]
+        },
       ],
     },
     {
@@ -1104,6 +1106,19 @@ const sidebars = {
     },
     {
       type: "category",
+      label: "Rimworld Together",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "rimworldtogether-firststeps-dashboard"
+          ]
+        },
+      ],
+    },
+    {
+      type: "category",
       label: "Rust",
       items: [
         {
@@ -1348,6 +1363,7 @@ const sidebars = {
       })(),
       defaultStyle: true,
     },
+    'vserver-introduction',
     'vserver-root-difference',
     'vserver-vnc',
     'vserver-network-analysis-winmtr',
@@ -1617,6 +1633,7 @@ const sidebars = {
       })(),
       defaultStyle: true,
     }, 
+    'webspace-introduction',
     'webspace-adddomain',
     'webspace-plesk-ftp',
     'webspace-plesk-sendmail',

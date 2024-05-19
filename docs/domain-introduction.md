@@ -1,29 +1,59 @@
 ---
 id: domain-introduction
 title: "Domain: Introduction"
-description: General information about domains. What are domains, subdomains or IP addresses? - ZAP-Hosting.com Documentation
+description: Introduction and information about the Domain product from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Introduction
 ---
 
 
 
-## What is a domain?
+## Introduction
 
-A domain can represent your name or your project on the Internet and make it accessible worldwide. You can use a domain for example to make a website reachable online, furthermore you can forward a domain to a game or TeamSpeak 3 server and reach it online with an easy memorable name.
-
-
-
-## Subdomains
-
-A **subdomain** is a child domain which you can create at any time for free for your existing domain. This is done via the DNS settings, a subdomain can look like this for example: **server.fivem-server.com**.
-
-In this case **server** is your subdomain and **fivem-server.de** is the name of the actual domain. A subdomain usually redirects to a different address compared to the actual domain, so you can for example make your website accessible with **fivem-server.com** while you can connect to your FiveM or another game server with **server.fivem-server.com**.
+Are you looking for a domain at a fair price? Then ZAP-Hosting is the right place for you! At ZAP-Hosting, you can register your  domain to to individualize your web presence. You can for example use the domain for a website or as a forwarding for a game server or voice server service. 
 
 
+![img](https://screensaver01.zap-hosting.com/index.php/s/ESkLyeoLMTTENHG/preview)
+
+## Ordering
+
+The ordering process is very simple. Choose your desired configuration for your [Domain](https://zap-hosting.com/en/shop/product/domain/). The setup time takes only a few seconds. Afterwards, you can immediately start with the configuration. More information about the exact ordering process can be found in our [Order Domain](domain-order.md) guide. 
+
+![img](https://screensaver01.zap-hosting.com/index.php/s/FEN8gHSaL9i7X38/preview)
 
 
-## Domains and IP addresses
 
-Unlike an IP address, you have to rent a domain individually, this is **NOT** automatically included with a game server, root server, VPS or voice server. A domain already differs in appearance from an IP address. While an IP address consists of numbers, for example **140.82.118.3**, a domain has a real name and a corresponding domain extension, for example fivem.net. So **fivem** would be the name of the domain and **.net** the domain extension. Besides **.net** there are of course many other domain extensions like **.com** or **.de**.
 
-Find out how to rent a domain here: [Order a domain](domain-order.md)
+## Available domains
+
+We offer a wide selection of available domain endings. The prices between the individual domain endings can differ. In the following we list the most common domains and their prices as well as all other domain endings that we actively offer. 
+
+
+| Common Domain endings | Price (Year) |
+|---------------|-------|
+| .com          | 22.30 € |
+| .org          | 24.39 € |
+| .net          | 26.01 € |
+| .info         | 34.12 € |
+| .biz          | 32.22 € |
+| .eu           | 10.15 € |
+| .de           | 8.90 € |
+| .online       | 62.26 € |
+| .tech         | 81.20 € |
+| .shop         | 54.50 € |
+
+Furthermore, we also offer the following domain endings: .es, .it, .nl, .fr, .ch, .link, .work, .at, .ro, .xyz, .dk, .club, .rocks, .me, .rip, .one, .vip, .exposed, .jetzt, .run, .website, .cloud, .ninja, .earth, .today, .solutions, .technology, .gmbh, .systems, .email, .wine, .win, .download, .lol, .party, .site, .beer, .vodka, .surf, .help, .fail, .wiki, .blog, .cool, .plus, .world, .wtf, .community, .team, .zone, .life, .money, .digital, .design, .pizza, .codes, .store, .berlin, .bar, .bio, .io, .im, .host, .gg
+
+:::info
+Please make sure that you do not select a premium domain when choosing the name and domain extension. We are unable to offer these at the prices listed. 
+:::
+
+
+
+## Areas of application
+
+Due to the favorable price, administration and associated possibilities, a Domain can be used for several application areas, including the following:
+
+- Websites
+- Mail service
+- Company identity and branding
+- Digital marketing and advertising
