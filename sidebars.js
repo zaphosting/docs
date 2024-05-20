@@ -430,8 +430,11 @@ const sidebars = {
           label: "First Steps",
           items: [
             "abioticfactor-firststeps-dashboard",
+            "abioticfactor-firststeps-connect",
           ]
         },
+        "abioticfactor-configuration",
+        "abioticfactor-server-savegames",
       ],
     },
     {
