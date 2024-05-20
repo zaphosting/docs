@@ -62,7 +62,7 @@ Ziehe einfach eines deiner Savegames mit deinem FTP-Client in diesen Ordner und 
 
 Um dein Savegame zu benutzen, musst du es in deiner Serverkonfiguration auswählen. Am einfachsten ist es, wenn du im Webinterface deines Gameservers den Bereich **Einstellungen** aufrufst. Weitere Informationen findest du in unserer [MOE-Konfigurationsanleitung](moe-configuration.md).
 
-![image](https://github.com/zaphosting/docs/assets/42719082/98f19443-9e84-42b6-b4e8-a35ae6b802fc)
+![image](https://screensaver01.zap-hosting.com/index.php/s/cGbSnRp5gfbWnnb/preview)
 
 In diesem Abschnitt findest du den Parameter **Map Name** im Abschnitt Grundeinstellungen, und deine hochgeladene Welt sollte nun hier zu finden sein. Wenn du ihn nicht siehst, stelle sicher, dass du deinen Server nach dem Hochladen neu startest.
 

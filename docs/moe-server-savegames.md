@@ -62,7 +62,7 @@ Simply drag and drop any of your Savegames into this folder through your FTP Cli
 
 Using your Savegame will require you to select it in your server configuration. The simplest way to do this is by heading over the **Settings** section on your game server's webinterface. Use our [MOE Configuration guide](moe-configuration.md) if for more information.
 
-![image](https://github.com/zaphosting/docs/assets/42719082/5e65fc4a-45ec-4696-8170-e7c6384dac8d)
+![image](https://screensaver01.zap-hosting.com/index.php/s/QDPzFgWRrfB49HB/preview)
 
 In this section, find the **Map Name** parameter in the Basic settings section, and your uploaded world should now be found here. If you do not see it, ensure that you restart your server after uploading.
 
