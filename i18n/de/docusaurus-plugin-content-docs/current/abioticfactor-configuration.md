@@ -1,5 +1,5 @@
 ---
-id: abioticfactor-Konfiguration
+id: abioticfactor-configuration
 title: "Abiotic Factor: Server-Konfiguration"
 description: Informationen zur Konfiguration eines Abiotic Factor-Spielservers von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Server-Konfiguration
