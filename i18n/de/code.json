@@ -1,4 +1,16 @@
 {
+  "Hosting Voucher": {
+    "message": "Hosting-Gutschein"
+  },
+  "YEEEAH!": {
+    "message": "YUHUU!"
+  },
+  "Rent a server": {
+    "message": "Server mieten"
+  },
+  "Redeem": {
+    "message": "Einlösen"
+  },
   "theme.ErrorPageContent.title": {
     "message": "Die Seite ist abgestürzt.",
     "description": "The title of the fallback page when the page crashed"
