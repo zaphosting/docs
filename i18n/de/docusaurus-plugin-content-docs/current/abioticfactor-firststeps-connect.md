@@ -9,7 +9,7 @@ sidebar_label: Mit dem Server verbinden
 
 ## Einleitung
 
-In dieser Anleitung erfahren wir, wie du dich mit deinem Abiotic Factor Server verbinden kannst. Es gibt zwei Möglichkeiten, sich zu verbinden: entweder direkt über die IP-Adresse deines Servers oder über die Serverliste. Wir empfehlen, den Server vorher nach deinen Wünschen zu konfigurieren. Mehr dazu erfährst du in unserem [Abiotic Factor Konfigurationsleitfaden](abioticfactor-configuration.md).
+In dieser Anleitung erfährst du, wie du dich mit deinem Abiotic Factor Server verbinden kannst. Es gibt zwei Möglichkeiten, sich zu verbinden: entweder direkt über die IP-Adresse deines Servers oder über die Serverliste. Wir empfehlen, den Server vorher nach deinen Wünschen zu konfigurieren. Mehr dazu erfährst du in unserem [Abiotic Factor KonfigurationsAnleitung](abioticfactor-configuration.md).
 
 ## Direktverbindung über IP
 
