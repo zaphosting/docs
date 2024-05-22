@@ -24,7 +24,7 @@ Local Savegames are ones which you have created whilst hosting a multiplayer gam
 ```
 
 :::tip
-You can easily access this directly path by pressing `CTRL` + `R` at the same time and searching for the following path in the run dialog: `%localappdata%/Pal/Saved/SaveGames/`. Simply press **OK** and you will be taken to the folder.
+You can easily access this path directly by pressing `CTRL` + `R` at the same time and searching for the following path in the run dialog: `%localappdata%/Pal/Saved/SaveGames/`. Simply press **OK** and you will be taken to the folder.
 
 ![image](https://github.com/zaphosting/docs/assets/42719082/5cdff375-57f8-4699-9985-42bcecf22218)
 :::

@@ -24,7 +24,7 @@ Local Savegames are ones which you have created whilst hosting a multiplayer gam
 ```
 
 :::tip
-You can easily access this directly path by pressing `CTRL` + `R` at the same time and searching for the following path in the run dialog: `%userprofile%/appdata/locallow/Channel 3 Entertainment/foundry/save`. Simply press **OK** and you will be taken to the folder.
+You can easily access this path directly by pressing `CTRL` + `R` at the same time and searching for the following path in the run dialog: `%userprofile%/appdata/locallow/Channel 3 Entertainment/foundry/save`. Simply press **OK** and you will be taken to the folder.
 
 ![image](https://screensaver01.zap-hosting.com/index.php/s/E6rniERFyc5AdS9/preview)
 :::

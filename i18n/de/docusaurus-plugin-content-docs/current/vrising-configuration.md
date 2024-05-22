@@ -5,7 +5,7 @@ description: Informationen zur Konfiguration eines V Rising-Spielservers von ZAP
 sidebar_label: Server-Konfiguration
 ---
 
-V Rising-Server verfügen über eine Vielzahl von Konfigurationsparametern, die du nach deinen Wünschen anpassen kannst. In diesem Leitfaden gehen wir auf alle derzeit verfügbaren Konfigurationsparameter ein und erklären sie genauer.
+V Rising-Server verfügen über eine Vielzahl von Konfigurationsparametern, die du nach deinen Wünschen anpassen kannst. In dieser Anleitung gehen wir auf alle derzeit verfügbaren Konfigurationsparameter ein und erklären sie genauer.
 
 ## Zugriff auf deine Konfigurationsdatei
 
@@ -21,7 +21,7 @@ import TabItem from '@theme/TabItem';
 
 Die benutzerfreundlichste Methode ist es, im Webinterface deines Spieleservers in den Bereich **Einstellungen** zu gehen und dort nach den entsprechenden Einstellungen zu suchen, wie unten zu sehen:
 
-![image](https://github.com/zaphosting/docs/assets/42719082/98f19443-9e84-42b6-b4e8-a35ae6b802fc)
+![image](https://screensaver01.zap-hosting.com/index.php/s/cGbSnRp5gfbWnnb/preview)
 </TabItem>
 
 <TabItem value="configs" label="Über die WI-Konfigurationsdatei">

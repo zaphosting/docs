@@ -21,7 +21,7 @@ import TabItem from '@theme/TabItem';
 
 Die benutzerfreundlichste Methode, um die Grundeinstellungen zu bearbeiten, ist es, im Webinterface deines Gameservers in den Bereich **Einstellungen** zu gehen und dort nach den entsprechenden Einstellungen zu suchen, wie unten zu sehen:
 
-![image](https://github.com/zaphosting/docs/assets/42719082/98f19443-9e84-42b6-b4e8-a35ae6b802fc)
+![image](https://screensaver01.zap-hosting.com/index.php/s/cGbSnRp5gfbWnnb/preview)
 
 Denke daran, dass nicht alle Konfigurationsoptionen hier zugänglich sind. Wenn du alles konfigurieren möchtest, benutze den Reiter **WI-Konfigurationsdatei**, um die notwendige Datei direkt im Webinterface zu bearbeiten.
 
