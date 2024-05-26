@@ -20,7 +20,7 @@ Du musst dich über einen FTP-Client mit deinem Server verbinden, indem du die Z
 
 ### Lokales Savegame
 
-Lokale Savegames sind Savegames, die du erstellt hast, während du ein Multiplayer-Spiel lokal auf deinem Gerät veranstaltet hast. Diese findest du in deinen Widnows LocalLow AppData, und zwar in folgendem Pfad:
+Lokale Savegames sind Savegames, die du erstellt hast, während du ein Multiplayer-Spiel lokal auf deinem Gerät veranstaltet hast. Diese findest du in deinen Windows LocalLow AppData, und zwar in folgendem Pfad:
 ```
 ../AppData/LocalLow/Channel 3 Entertainment/Foundry/save
 ```
