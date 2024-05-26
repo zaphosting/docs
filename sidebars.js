@@ -1119,6 +1119,7 @@ const sidebars = {
           ]
         },
         "rimworldtogether-configuration",
+        "rimworldtogether-server-savegames",
         "rimworldtogether-mods"
       ],
     },
