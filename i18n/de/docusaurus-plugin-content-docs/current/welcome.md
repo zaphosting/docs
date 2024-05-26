@@ -59,7 +59,7 @@ Perfektioniere und Nutze den vollen Umfang deines Gameservers. Mit unserer Exper
     <Card title="Project Zomboid" description="Placeholder" link="projectzomboid-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/108600/header.jpg?t=1698860631"/>
     <Card title="RageMP" description="Placeholder" link="ragemp-firststeps-dashboard" image="https://zap-cdn.com/interface/_images/icons/ragemp-icon-new2.jpg"/>
     <Card title="RedM" description="Placeholder" link="redm-firststeps-dashboard" image="https://zap-cdn.com/interface/_images/icons/redm-icon-new.jpg"/>
-    <Card title="Rimworld Together" description="Placeholder" link="rimworldtogether-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/294100/header.jpg?t=1712954312"/>
+    <Card title="RimWorld Together" description="Placeholder" link="rimworldtogether-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/294100/header.jpg?t=1712954312"/>
     <Card title="Rust" description="Placeholder" link="rust-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/252490/header.jpg?t=1698860631"/>
     <Card title="Satisfactory" description="Placeholder" link="satisfactory-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/526870/header.jpg?t=1698860631"/>
     <Card title="SCP: Secret Laboratory" description="Placeholder" link="scp-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/700330/header.jpg?t=1698860631"/>
