@@ -53,7 +53,7 @@ In Zukunft werden wir Vorlagen mit vorgefertigtem Markdown für dich hinzufügen
 
 ### Überschriften
 
-Wenn du einen Titel erstellst, solltest du das Ziel deiner Anleitung berücksichtigen. Überlege dir genau, was der Leser erreichen soll, wenn er deinem Anleitung folgt. Ein typischer Verfahrensleitfaden hat das folgende Titelformat: **Wie man [Aufgabe] mit [Software]** erledigt. Ein typischer informativer Anleitung hat die folgende Überschrift: **Informationen zu [Anleitung-Info]**.
+Wenn du einen Titel erstellst, solltest du das Ziel deiner Anleitung berücksichtigen. Überlege dir genau, was der Leser erreichen soll, wenn er deinem Anleitung folgt. Ein typischer Verfahrensanleitung hat das folgende Titelformat: **Wie man [Aufgabe] mit [Software]** erledigt. Ein typischer informativer Anleitung hat die folgende Überschrift: **Informationen zu [Anleitung-Info]**.
 
 ### Einführung
 
@@ -285,7 +285,7 @@ Du solltest `zaphosting` als Standard-Hostname, -Benutzername oder -Datenbanknam
 
 ### Software
 
-Wenn du Software in deinem Leitfaden erwähnst, solltest du darauf achten, dass du die korrekte Schreibweise und Großschreibung des Namens der Software beachtest. Wenn die Software-Website die Groß- und Kleinschreibung nicht beibehält, solltest du die gleiche Groß- und Kleinschreibung in einer Anleitung verwenden, um die Konsistenz zu wahren.
+Wenn du Software in deiner Anleitung erwähnst, solltest du darauf achten, dass du die korrekte Schreibweise und Großschreibung des Namens der Software beachtest. Wenn die Software-Website die Groß- und Kleinschreibung nicht beibehält, solltest du die gleiche Groß- und Kleinschreibung in einer Anleitung verwenden, um die Konsistenz zu wahren.
 
 
 Wenn du die Software zum ersten Mal erwähnst, solltest du einen Hyperlink auf die Website der Software setzen, sofern eine offizielle Website vorhanden ist.

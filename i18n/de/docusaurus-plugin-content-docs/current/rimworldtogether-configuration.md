@@ -5,7 +5,7 @@ description: Informationen zur Konfiguration eines RimWorld Together-Spielserver
 sidebar_label: Server-Konfiguration
 ---
 
-RimWorld Together-Server verfügen über eine Vielzahl von Konfigurationsparametern, die du nach deinen Wünschen anpassen kannst. In diesem Leitfaden gehen wir auf alle derzeit verfügbaren Konfigurationsparameter ein und erklären sie genauer.
+RimWorld Together-Server verfügen über eine Vielzahl von Konfigurationsparametern, die du nach deinen Wünschen anpassen kannst. In dieser Anleitung gehen wir auf alle derzeit verfügbaren Konfigurationsparameter ein und erklären sie genauer.
 
 ## Zugriff auf deine Konfigurationsdatei
 

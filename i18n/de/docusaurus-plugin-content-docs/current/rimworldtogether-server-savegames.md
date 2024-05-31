@@ -62,5 +62,5 @@ Wir bieten auch die Möglichkeit, dein Savegame (und deine Konfigurationsdatei) 
 Ziehe einfach alle deine Savegames mit deinem FTP-Client in diesen Ordner und sie werden auf deinen Server hochgeladen.
 
 :::info
-Wie bereits zu Beginn des Leitfadens erwähnt, kann das Verschieben von Welten zwischen Servern mit verschiedenen Mods zu Problemen beim Gameplay führen.
+Wie bereits zu Beginn des Anleitung erwähnt, kann das Verschieben von Welten zwischen Servern mit verschiedenen Mods zu Problemen beim Gameplay führen.
 :::
