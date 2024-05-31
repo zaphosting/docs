@@ -18,7 +18,7 @@ You will have to connect to your server through an FTP Client using the credenti
 
 ### Local Savegame
 
-Local Savegames are ones which you have created whilst hosting a multiplayer game locally on your device. These can be found within your Widnows Local AppData, specifically in the following path:
+Local Savegames are ones which you have created whilst hosting a multiplayer game locally on your device. These can be found within your Windows Local AppData, specifically in the following path:
 ```
 ../AppData/Local/AbioticFactor/Saved/SaveGames/[your_steamid]/Worlds
 ```

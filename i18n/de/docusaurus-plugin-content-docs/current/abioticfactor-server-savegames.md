@@ -18,7 +18,7 @@ Du musst dich über einen FTP-Client mit deinem Server verbinden, indem du die Z
 
 ### Lokales Savegame
 
-Lokale Savegames sind Savegames, die du erstellt hast, während du ein Multiplayer-Spiel lokal auf deinem Gerät veranstaltet hast. Du findest sie in den lokalen AppDaten von Widnows, und zwar in folgendem Pfad:
+Lokale Savegames sind Savegames, die du erstellt hast, während du ein Multiplayer-Spiel lokal auf deinem Gerät veranstaltet hast. Du findest sie in den lokalen AppDaten von Windows, und zwar in folgendem Pfad:
 ```
 ../AppData/Local/AbioticFactor/Saved/SaveGames/[your_steamid]/Worlds
 ```
