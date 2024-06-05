@@ -6,6 +6,7 @@ const Card = ({ image, title, description, link, type }) => {
   return (
     <div className={styles.card}>
       <Link to={link} autoAddBaseUrl="true" isNavLink="true" className={styles.cardLink}>
+
         <div className={styles.imageContainer}>
           <img className={type == "product-categories" ? styles.objectContain : styles.objectCover} src={image} alt={title} />
         </div>

@@ -85,7 +85,7 @@ Wir empfehlen, **Methode 1** zu verwenden, um deine Inhalte zu schreiben, da die
 
 Der einfachste und empfohlene Weg, um Inhalte zu erstellen, ist über die GitHub-Website. In diesem Abschnitt zeigen wir dir, wie du über die GitHub-Website eine neue Anleitung erstellst und einen bestehenden Anleitung bearbeitest.
 
-Um zu beginnen, gehe zu der Fork , die du im vorherigen Schritt erstellt hast. Sobald du dich auf deinem ZAP Docs Fork befindest, kannst du über den Ordner **docs** auf alle Dokumentationsleitfäden zugreifen.
+Um zu beginnen, gehe zu der Fork , die du im vorherigen Schritt erstellt hast. Sobald du dich auf deinem ZAP Docs Fork befindest, kannst du über den Ordner **docs** auf alle Dokumentationsanleitungen zugreifen.
 
 ![image](https://github.com/zaphosting/docs/assets/42719082/6a91889f-891d-440d-a5d3-720afc5d8abc)
 

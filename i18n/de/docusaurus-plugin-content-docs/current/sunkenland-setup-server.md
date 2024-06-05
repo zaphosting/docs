@@ -5,7 +5,7 @@ description: Informationen zur Einrichtung deines Sunkenland Gameservers von ZAP
 sidebar_label: Server Einrichtung
 ---
 
-Sunkenland-Server erfordern eine Ersteinrichtung, damit der Server korrekt funktioniert. In diesem Leitfaden werden wir die notwendigen Schritte zur Einrichtung deines Sunkenland Gameservers beschreiben.
+Sunkenland-Server erfordern eine Ersteinrichtung, damit der Server korrekt funktioniert. In dieser Anleitung werden wir die notwendigen Schritte zur Einrichtung deines Sunkenland Gameservers beschreiben.
 
 ## Voraussetzungen
 

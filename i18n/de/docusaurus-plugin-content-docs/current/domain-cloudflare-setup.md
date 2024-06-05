@@ -10,7 +10,7 @@ sidebar_label: Cloudflare einrichten
 Cloudflare ist ein sehr beliebter CDN-Anbieter (Content Delivery Network), der deine Websites mit verbessertem Sicherheitsschutz und DDoS-Abwehr ausstattet und eine einfache Verwaltung über sein Dashboard ermöglicht. In dieser Anleitung erfährst du, wie du deine ZAP-Hosting-Domain mit Hilfe von ExpertDNS und der Anpassung der Nameserver für die Nutzung mit Cloudflare einrichtest.
 
 ## Voraussetzungen
-Um diesen Leitfaden zu befolgen, benötigst du:
+Um diese Anleitung zu befolgen, benötigst du:
 - Eine Domain auf deinem ZAP-Hosting-Konto
 - Ein Cloudflare-Konto
   
