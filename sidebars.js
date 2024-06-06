@@ -1470,6 +1470,7 @@ const sidebars = {
         'vserver-windows-mythofempires',
         'vserver-windows-palworld',
         'vserver-windows-satisfactory',
+        'vserver-windows-soulmask',
         'vserver-windows-valheim',
         'vserver-windows-vrising',
       ]
@@ -1589,6 +1590,7 @@ const sidebars = {
         'dedicated-windows-mythofempires',
         'dedicated-windows-palworld',
         'dedicated-windows-satisfactory',
+        'dedicated-windows-soulmask',
         'dedicated-windows-valheim',
         'dedicated-windows-vrising',
       ]
