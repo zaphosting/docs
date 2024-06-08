@@ -32,7 +32,7 @@ Wir halten hierzu auch bereits eine Eintrag in unserer Dokumentation bereit, wel
 
 ### Daten-Komprimierung
 
-Auf einem Server werden permanent zwischen Server und den verbundenen Spielern ausgetauscht.
+Auf einem Server werden permanent Daten zwischen dem Server und den verbundenen Spielern ausgetauscht.
 Dabei werden etwas die Bewegungen von den Spieler selbst an den Server übertragen und der Server sendet dies dann wiederum an alle anderen Spieler.
 Aber auch Spieler-Aktionen oder Ereignisse in der Welt, wie Explosionen als Beispiel sind ein Teil der Daten, welche immer wieder übertragen werden.
 
@@ -98,7 +98,7 @@ Wir halten hierzu auch bereits eine Eintrag in unserer Dokumentation bereit, wel
 
 ### Daten-Komprimierung
 
-Auf einem Server werden permanent zwischen Server und den verbundenen Spielern ausgetauscht.
+Auf einem Server werden permanent Daten zwischen dem Server und den verbundenen Spielern ausgetauscht.
 Dabei werden etwas die Bewegungen von den Spieler selbst an den Server übertragen und der Server sendet dies dann wiederum an alle anderen Spieler.
 Aber auch Spieler-Aktionen oder Ereignisse in der Welt, wie Explosionen als Beispiel sind ein Teil der Daten, welche immer wieder übertragen werden.
 
@@ -119,7 +119,7 @@ Wir halten hierzu auch bereits eine Eintrag in unserer Dokumentation bereit, wel
 
 ### Daten-Komprimierung
 
-Auf einem Server werden permanent zwischen Server und den verbundenen Spielern ausgetauscht.
+Auf einem Server werden permanent Daten zwischen dem Server und den verbundenen Spielern ausgetauscht.
 Dabei werden etwas die Bewegungen von den Spieler selbst an den Server übertragen und der Server sendet dies dann wiederum an alle anderen Spieler.
 Aber auch Spieler-Aktionen oder Ereignisse in der Welt, wie Explosionen als Beispiel sind ein Teil der Daten, welche immer wieder übertragen werden.
 
@@ -181,7 +181,7 @@ Je nach belieben kann der Wert auch auf 4 gestellt werden, was als Beispiel sehr
 
 ### Daten-Komprimierung
 
-Auf einem Server werden permanent zwischen Server und den verbundenen Spielern ausgetauscht.
+Auf einem Server werden permanent Daten zwischen dem Server und den verbundenen Spielern ausgetauscht.
 Dabei werden etwas die Bewegungen von den Spieler selbst an den Server übertragen und der Server sendet dies dann wiederum an alle anderen Spieler.
 Aber auch Spieler-Aktionen oder Ereignisse in der Welt, wie Explosionen als Beispiel sind ein Teil der Daten, welche immer wieder übertragen werden.
 
@@ -306,7 +306,7 @@ Je nach belieben kann der Wert auch auf 4 gestellt werden, was als Beispiel sehr
 
 ### Daten-Komprimierung
 
-Auf einem Server werden permanent zwischen Server und den verbundenen Spielern ausgetauscht.
+Auf einem Server werden permanent Daten zwischen dem Server und den verbundenen Spielern ausgetauscht.
 Dabei werden etwas die Bewegungen von den Spieler selbst an den Server übertragen und der Server sendet dies dann wiederum an alle anderen Spieler.
 Aber auch Spieler-Aktionen oder Ereignisse in der Welt, wie Explosionen als Beispiel sind ein Teil der Daten, welche immer wieder übertragen werden.
 

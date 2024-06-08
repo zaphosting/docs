@@ -1,7 +1,7 @@
 ---
 id: rimworldtogether-firststeps-dashboard
-title: "Rimworld Together: Dashboard Overview"
-description: Information about the dashboard of a Rimworld Together server from ZAP-Hosting - ZAP-Hosting.com documentation
+title: "RimWorld Together: Dashboard Overview"
+description: Information about the dashboard of a RimWorld Together server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Dashboard
 ---
 
@@ -10,9 +10,9 @@ import YouTube from '@site/src/components/YouTube/YouTube';
 
 ## Introduction
 
-You are interested in an **Rimworld Together server** or already own one, but you still lack a comprehensive overview of the administration and the findability of all necessary options? Especially at the beginning, this can be a challenge. But don't worry, we'll provide you with a detailed introduction to the administration of your service below, so you'll have the best possible overview.
+You are interested in an **RimWorld Together server** or already own one, but you still lack a comprehensive overview of the administration and the findability of all necessary options? Especially at the beginning, this can be a challenge. But don't worry, we'll provide you with a detailed introduction to the administration of your service below, so you'll have the best possible overview.
 
-After going through this guide, you will easily be able to manage your server efficiently and find all the necessary options and features quickly and easily. Here, you will get a structured overview that will help you step by step to get familiar with the server administration and expand your knowledge in a targeted manner. This way, you can ensure that your **Rimworld Together server** is optimally adapted to your needs and that you get the most out of the available options.
+After going through this guide, you will easily be able to manage your server efficiently and find all the necessary options and features quickly and easily. Here, you will get a structured overview that will help you step by step to get familiar with the server administration and expand your knowledge in a targeted manner. This way, you can ensure that your **RimWorld Together server** is optimally adapted to your needs and that you get the most out of the available options.
 
 
 

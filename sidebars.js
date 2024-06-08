@@ -1109,7 +1109,7 @@ const sidebars = {
     },
     {
       type: "category",
-      label: "Rimworld Together",
+      label: "RimWorld Together",
       items: [
         {
           type: "category",
@@ -1118,6 +1118,9 @@ const sidebars = {
             "rimworldtogether-firststeps-dashboard"
           ]
         },
+        "rimworldtogether-configuration",
+        "rimworldtogether-server-savegames",
+        "rimworldtogether-mods"
       ],
     },
     {
