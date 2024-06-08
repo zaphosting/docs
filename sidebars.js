@@ -1190,7 +1190,21 @@ const sidebars = {
         }
       ],
     },
-    
+    {
+      type: "category",
+      label: "Soulmask",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "soulmask-firststeps-dashboard"
+          ]
+        },
+        "soulmask-configuration",
+        "soulmask-server-savegames",
+      ],
+    },
     {
       type: "category",
       label: "Space Engineers",
