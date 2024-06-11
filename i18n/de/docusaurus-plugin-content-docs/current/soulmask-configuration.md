@@ -7,7 +7,7 @@ sidebar_label: Server-Konfiguration
 
 ## Einführung
 
-Soulmask-Server verfügen über eine Vielzahl von Konfigurationsparametern, die du nach deinen Wünschen anpassen kannst. In diesem Leitfaden gehen wir auf alle derzeit verfügbaren Konfigurationsparameter ein und erklären sie genauer.
+Soulmask-Server verfügen über eine Vielzahl von Konfigurationsparametern, die du nach deinen Wünschen anpassen kannst. In dieser Anleitung gehen wir auf alle derzeit verfügbaren Konfigurationsparameter ein und erklären sie genauer.
 
 ## Zugriff auf deine Konfigurationsdatei
 

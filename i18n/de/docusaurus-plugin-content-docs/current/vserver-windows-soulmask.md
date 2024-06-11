@@ -9,11 +9,11 @@ import YouTube from '@site/src/components/YouTube/YouTube';
 
 ## Einleitung
 
-Hast du einen Windows VPS, Root Server oder Dedicated Server und möchtest den Soulmask Dedicated Server Service darauf installieren? Dann bist du hier genau richtig. In dieser Anleitung erklären wir dir Schritt für Schritt, wie du diesen Dienst auf deinem Server installierst.
+Hast du einen Windows VPS oder Root Server und möchtest den Soulmask Dedicated Server Service darauf installieren? Dann bist du hier genau richtig. In dieser Anleitung erklären wir dir Schritt für Schritt, wie du diesen Dienst auf deinem Server installierst.
 
 ## Vorbereitung
 
-Verbinde dich zunächst über Remote Desktop (RDP) mit deinem VPS oder Root-Server. Benutze unseren Leitfaden [RDP-Erstzugang](vserver-windows-userdp.md), wenn du dabei Hilfe brauchst.
+Verbinde dich zunächst über Remote Desktop (RDP) mit deinem VPS oder Root-Server. Benutze unsere Anleitung [RDP-Erstzugang](vserver-windows-userdp.md), wenn du dabei Hilfe brauchst.
 
 Sobald du auf deinen Server zugegriffen hast, musst du **SteamCMD** einrichten, damit du die notwendigen Dateien für den dedizierten Server herunterladen kannst. SteamCMD ist die **Befehlszeilenversion (CLI)** des Steam-Clients und das Tool, mit dem du ganz einfach eine Reihe von Steam-Workshop- und Dedicated Server-Dateien herunterladen kannst. Lade [SteamCMD von der offiziellen Valve-Website](https://developer.valvesoftware.com/wiki/SteamCMD) oder direkt [hier](https://steamcdn-a.akamaihd.net/client/installer/steamcmd.zip) herunter.
 
@@ -115,4 +115,4 @@ Jetzt kannst du dich über deine IP direkt mit deinem Server verbinden, indem du
 
 Wenn du möchtest, dass dein Server in der Serverliste verfügbar ist, sieh dir bitte unsere [Soulmask Server Configuration guide](soulmask-configuration.md) an und füge den entsprechenden Parameter "SteamServerName" in deine **StartServer.bat**-Datei ein. Speichere die Datei danach und führe die Batch-Datei erneut aus.
 
-Du hast Soulmask erfolgreich auf deinem Windows Dedicated Server installiert.
+Du hast Soulmask erfolgreich auf deinem Windows vServer installiert.
