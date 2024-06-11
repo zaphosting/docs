@@ -406,5 +406,9 @@
   "sidebar.gameserverSidebar.category.RimWorld Together": {
     "message": "RimWorld Together",
     "description": "The label for category RimWorld Together in sidebar gameserverSidebar"
+  },
+  "sidebar.gameserverSidebar.category.Soulmask": {
+    "message": "Soulmask",
+    "description": "The label for category Soulmask in sidebar gameserverSidebar"
   }
 }

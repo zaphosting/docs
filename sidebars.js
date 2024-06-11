@@ -1190,7 +1190,21 @@ const sidebars = {
         }
       ],
     },
-    
+    {
+      type: "category",
+      label: "Soulmask",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "soulmask-firststeps-dashboard"
+          ]
+        },
+        "soulmask-configuration",
+        "soulmask-server-savegames",
+      ],
+    },
     {
       type: "category",
       label: "Space Engineers",
@@ -1470,6 +1484,7 @@ const sidebars = {
         'vserver-windows-mythofempires',
         'vserver-windows-palworld',
         'vserver-windows-satisfactory',
+        'vserver-windows-soulmask',
         'vserver-windows-valheim',
         'vserver-windows-vrising',
       ]
@@ -1589,6 +1604,7 @@ const sidebars = {
         'dedicated-windows-mythofempires',
         'dedicated-windows-palworld',
         'dedicated-windows-satisfactory',
+        'dedicated-windows-soulmask',
         'dedicated-windows-valheim',
         'dedicated-windows-vrising',
       ]
