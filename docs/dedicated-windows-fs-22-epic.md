@@ -31,12 +31,10 @@ It is possible that you may already have the C++ Redistribute tools downloaded, 
 :::
 
 ![image](https://i.imgur.com/CuJQYBx.png)
-![image](https://i.imgur.com/BJ1xuHH.png)
 
 Now you have to install the Epic Games launcher, which can be downloaded from [Epic Games' website](https://store.epicgames.com/en-US/download). Once again, follow the on-screen instructions to complete installations.
 
 ![image](https://i.imgur.com/q6Pcq3W.png)
-![image](https://i.imgur.com/xmCudZ1.png)
 
 After installation, it is very likely that the launcher will have to download a few additional files and updates before launching.
 
@@ -49,7 +47,6 @@ Once the launcher has opened, you must sign in with your Epic Games account, one
 In the Epic Games Launcher, click on the **Library** tab and locate Farming Simulator 22. Use the **Install** button and select the location that you wish to download the game to.
 
 ![image](https://i.imgur.com/au9CunQ.png)
-![image](https://i.imgur.com/lh65fYY.png)
 
 You will now have to wati for the download and installation to complete. The download speed is dependent on the bandwidth of your server.
 
@@ -58,12 +55,10 @@ You will now have to wati for the download and installation to complete. The dow
 Once the game is installed, go back to the **Library** tab in the Epic Games Launcher. Find Farming Simulator 22, click the three dots next to it and select **Manage**.
 
 ![image](https://i.imgur.com/90eZz92.png)
-![image](https://i.imgur.com/OXCp1NM.png)
 
 Scroll down to the **Launch Options** section and enable it. In the textbox that appears, enter `-server` and close the menu.
 
 ![image](https://i.imgur.com/yrQonuo.png)
-![image](https://i.imgur.com/XJgT266.png)
 
 ## Step 4: Running the Server
 
@@ -100,7 +95,6 @@ Ensure that you save the file before closing and run the `dedicatedServer.exe` l
 You should now be able to access the web interface by heading over to `http://[your_serverip]:8080` in your web browser, replacing `[your_serverip]` with the IP address of your server. If you want to access the panel directly on the same server, you can simply access it via `http://127.0.0.1:8080` too.
 
 ![image](https://i.imgur.com/NDDmxqq.png)
-![image](https://i.imgur.com/m397adi.png)
 
 :::info
 Due to the unique setup of the Epic Games version, you may encounter difficulties using the web interface to its full extent. While you can make changes and stop the server using the web interface, you cannot initiate the server through it for example.
