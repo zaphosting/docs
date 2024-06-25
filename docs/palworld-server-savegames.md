@@ -18,13 +18,13 @@ You will have to connect to your server through an FTP Client using the credenti
 
 ### Local Savegame
 
-Local Savegames are ones which you have created whilst hosting a multiplayer game locally on your device. These can be found within your Widnows AppData, specifically in the following path:
+Local Savegames are ones which you have created whilst hosting a multiplayer game locally on your device. These can be found within your Windows AppData, specifically in the following path:
 ```
 ../AppData/Local/Pal/Saved/SaveGames
 ```
 
 :::tip
-You can easily access this directly path by pressing `CTRL` + `R` at the same time and searching for the following path in the run dialog: `%localappdata%/Pal/Saved/SaveGames/`. Simply press **OK** and you will be taken to the folder.
+You can easily access this path directly by pressing `CTRL` + `R` at the same time and searching for the following path in the run dialog: `%localappdata%/Pal/Saved/SaveGames/`. Simply press **OK** and you will be taken to the folder.
 
 ![image](https://github.com/zaphosting/docs/assets/42719082/5cdff375-57f8-4699-9985-42bcecf22218)
 :::

@@ -1,25 +1,52 @@
 ---
 id: domain-introduction
 title: "Domain: Einführung"
-description: Allgemeine Informationen über Domains. Was sind Domains, Subdomains oder IP-Adressen? - ZAP-Hosting.com Dokumentation
+description: Einführung und Informationen rund um das Domain Produkt von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Einführung
 ---
 
-## Was ist eine Domain?
-Eine Domain kann deinen Namen oder dein Projekt im Internet repräsentieren und es weltweit zugänglich machen. Du kannst eine Domain z.B. nutzen, um eine Website online erreichbar zu machen, außerdem kannst du eine Domain an einen Spiel- oder TeamSpeak 3-Server weiterleiten und diesen mit einem leicht zu merkenden Namen online erreichen.
+## Einführung
+
+Du suchst nach einer Domain zu einem fairen Preis? Dann bist du bei ZAP-Hosting genau richtig! Bei ZAP-Hosting kannst du deine Domain registrieren, um deine Webpräsenz zu individualisieren. Du kannst die Domain beispielsweise für eine Webseite verwenden oder als Weiterleitung für einen Gameserver oder Voiceserver Dienst benutzen.
+
+![img](https://screensaver01.zap-hosting.com/index.php/s/rD8rLHyLNxLcm5r/preview)
 
 
+## Bestellen
 
-## Subdomains
-Eine **Subdomain** ist eine untergeordnete Domain, die du jederzeit kostenlos zu deiner bestehenden Domain anlegen kannst. Dies geschieht über die DNS-Einstellungen, eine Subdomain kann z.B. wie folgt aussehen: **server.fivem-server.com**.
-
-In diesem Fall ist **server** die Subdomain und **fivem-server.de** ist der Name der eigentlichen Domain. Eine Subdomain leitet in der Regel auf eine andere Adresse weiter als die eigentliche Domain, so dass du z.B. deine Webseite mit **fivem-server.com** erreichbar machen kannst, während du dich mit deinem FiveM oder einem anderen Spieleserver mit **server.fivem-server.com** verbinden kannst.
+Der Bestellvorgang ist sehr einfach. Wähle deine gewünschte Konfiguration für deine [Domain](https://zap-hosting.com/en/shop/product/domain/). Die Einrichtungsdauer beträgt nur wenige Sekunden. Anschließend kannst du sofort mit der Konfiguration beginnen. Weitere Informationen zum genauen Bestellvorgang findest du in unserer [Domain bestellen](domain-order.md) Anleitung.
 
 
+![img](https://screensaver01.zap-hosting.com/index.php/s/DLXCtXHkzdpXkao/preview)
 
+## Verfügbare Domains
 
-## Domains und IP-Adressen
-Im Gegensatz zu einer IP-Adresse musst du eine Domain individuell buchen, diese ist **NICHT** automatisch bei einem Gameserver, Rootserver, VPS oder Voiceserver enthalten. Eine Domain unterscheidet sich bereits im Aussehen von einer IP-Adresse. Während eine IP-Adresse aus Zahlen besteht, zum Beispiel **140.82.118.3**, hat eine Domain einen richtigen Namen und eine entsprechende Domainendung, zum Beispiel fivem.net. So wäre **fivem** der Name der Domain und **.net** die Domain-Endung. Neben **.net** gibt es natürlich noch viele weitere Domainendungen wie **.com** oder **.de**.
+Wir bieten eine breite Auswahl an verfügbaren Domainendungen. Die Preise zwischen den einzelnen Domainendungen können variieren. Im Folgenden listen wir die gängigsten Domains und ihre Preise sowie alle anderen Domainendungen, die wir aktiv anbieten.
 
-Wie du eine Domain mieten kannst, erfährst du hier: [Domain bestellen](domain-order.md)
+| Gängige Domainendungen | Preis (Jahr) |
+| ---------------------- | ------------ |
+| .com                   | 22,30 €      |
+| .org                   | 24,39 €      |
+| .net                   | 26,01 €      |
+| .info                  | 34,12 €      |
+| .biz                   | 32,22 €      |
+| .eu                    | 10,15 €      |
+| .de                    | 8,90 €       |
+| .online                | 62,26 €      |
+| .tech                  | 81,20 €      |
+| .shop                  | 54,50 €      |
 
+Weiterhin bieten wir folgende Domainendungen an: .es, .it, .nl, .fr, .ch, .link, .work, .at, .ro, .xyz, .dk, .club, .rocks, .me, .rip, .one, .vip, .exposed, .jetzt, .run, .website, .cloud, .ninja, .earth, .today, .solutions, .technology, .gmbh, .systems, .email, .wine, .win, .download, .lol, .party, .site, .beer, .vodka, .surf, .help, .fail, .wiki, .blog, .cool, .plus, .world, .wtf, .community, .team, .zone, .life, .money, .digital, .design, .pizza, .codes, .store, .berlin, .bar, .bio, .io, .im, .host, .gg
+
+:::info
+Bitte stelle sicher, dass du bei der Auswahl des Namens und der Domainendung keine Premium-Domain wählst. Wir können diese nicht zu den aufgeführten Preisen anbieten.
+:::
+
+## Anwendungsbereiche
+
+Aufgrund des günstigen Preises, der Verwaltung und den damit verbundenen Möglichkeiten kann eine Domain für mehrere Anwendungsbereiche genutzt werden, darunter folgende:
+
+- Webseiten
+- Maildienst
+- Unternehmensidentität und Branding
+- Digitales Marketing und Werbung

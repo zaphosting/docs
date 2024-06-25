@@ -21,7 +21,7 @@ import TabItem from '@theme/TabItem';
 
 Die benutzerfreundlichste Methode ist es, im Webinterface deines Gameservers in den Bereich **Einstellungen** zu gehen.
 
-![image](https://github.com/zaphosting/docs/assets/42719082/98f19443-9e84-42b6-b4e8-a35ae6b802fc)
+![image](https://screensaver01.zap-hosting.com/index.php/s/cGbSnRp5gfbWnnb/preview)
 
 Suche im Bereich **Einstellungen** nach der Option **Gameserver Passwort**. Erstelle in diesem Feld ein Passwort, das du verwenden möchtest, und gib es ein.
 

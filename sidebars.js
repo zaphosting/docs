@@ -28,20 +28,14 @@ const sidebars = {
       })(),
       defaultStyle: true,
     },
-    {
-      type: 'category',
-      label: 'General',
-      items: [
-        'welcome',
-        'firststeps-register',
-        'firststeps-locations',
-        'preorders',
-        'firststeps-rent-or-purchase',
-        'firststeps-rent-contractorprepaid',
-        'community-info',
-        'suggestions',
-      ],
-    },
+    'welcome',
+    'firststeps-register',
+    'firststeps-locations',
+    'preorders',
+    'firststeps-rent-or-purchase',
+    'firststeps-rent-contractorprepaid',
+    'community-info',
+    'suggestions',
     {
       type: 'category',
       label: 'Support',
@@ -134,27 +128,22 @@ const sidebars = {
       })(),
       defaultStyle: true,
     },
+    "gameserver-introduction",
+    "gameserver-resourcelimit",
+    "gameserver-gameswitch",
+    "gameserver-upgrade",
+    "gameserver-ftpaccess",
+    "gameserver-restartplaner",
+    "gameserver-backups",
+    "gameserver-server-down-what-now",
+    "gameserver-tebex",
     {
-      type: 'category',
-      label: 'General',
+      type: "category",
+      label: "Databases",
       items: [
-        "gameserver-resourcelimit",
-        "gameserver-gameswitch",
-        "gameserver-upgrade",
-        "gameserver-ftpaccess",
-        "gameserver-restartplaner",
-        "gameserver-backups",
-        "gameserver-server-down-what-now",
-        "gameserver-tebex",
-        {
-          type: "category",
-          label: "Databases",
-          items: [
-            "gameserver-databases-pma",
-            "gameserver-database-external-access"
-          ]
-        }
-      ]
+        "gameserver-databases-pma",
+        "gameserver-database-external-access"
+      ],
     },
     {
       type: 'html',
@@ -430,6 +419,22 @@ const sidebars = {
         "7d2d-becomeadmin",
         "7d2d-mods",
         "7d2d-commands",
+      ],
+    },
+    {
+      type: "category",
+      label: "Abiotic Factor",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "abioticfactor-firststeps-dashboard",
+            "abioticfactor-firststeps-connect",
+          ]
+        },
+        "abioticfactor-configuration",
+        "abioticfactor-server-savegames",
       ],
     },
     {
@@ -1104,6 +1109,22 @@ const sidebars = {
     },
     {
       type: "category",
+      label: "RimWorld Together",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "rimworldtogether-firststeps-dashboard"
+          ]
+        },
+        "rimworldtogether-configuration",
+        "rimworldtogether-server-savegames",
+        "rimworldtogether-mods"
+      ],
+    },
+    {
+      type: "category",
       label: "Rust",
       items: [
         {
@@ -1169,7 +1190,21 @@ const sidebars = {
         }
       ],
     },
-    
+    {
+      type: "category",
+      label: "Soulmask",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "soulmask-firststeps-dashboard"
+          ]
+        },
+        "soulmask-configuration",
+        "soulmask-server-savegames",
+      ],
+    },
     {
       type: "category",
       label: "Space Engineers",
@@ -1309,9 +1344,13 @@ const sidebars = {
           label: "First Steps",
           items: [
             "vrising-firststeps-dashboard",
+            "vrising-firststeps-connect",
           ]
         },
-        "vrising-becomeadmin"
+        "vrising-configuration",
+        "vrising-server-savegames",
+        "vrising-becomeadmin",
+        "vrising-plugins-bepinex"
       ],
     },
     {
@@ -1344,6 +1383,7 @@ const sidebars = {
       })(),
       defaultStyle: true,
     },
+    'vserver-introduction',
     'vserver-root-difference',
     'vserver-vnc',
     'vserver-network-analysis-winmtr',
@@ -1441,9 +1481,11 @@ const sidebars = {
         'vserver-windows-foundry',
         'vserver-windows-fs-19',
         'vserver-windows-fs-22',
+        'vserver-windows-fs-22-epic',
         'vserver-windows-mythofempires',
         'vserver-windows-palworld',
         'vserver-windows-satisfactory',
+        'vserver-windows-soulmask',
         'vserver-windows-valheim',
         'vserver-windows-vrising',
       ]
@@ -1560,9 +1602,11 @@ const sidebars = {
         'dedicated-windows-foundry',
         'dedicated-windows-fs-19',
         'dedicated-windows-fs-22',
+        'dedicated-windows-fs-22-epic',
         'dedicated-windows-mythofempires',
         'dedicated-windows-palworld',
         'dedicated-windows-satisfactory',
+        'dedicated-windows-soulmask',
         'dedicated-windows-valheim',
         'dedicated-windows-vrising',
       ]
@@ -1613,6 +1657,7 @@ const sidebars = {
       })(),
       defaultStyle: true,
     }, 
+    'webspace-introduction',
     'webspace-adddomain',
     'webspace-plesk-ftp',
     'webspace-plesk-sendmail',

@@ -18,18 +18,18 @@ You will have to connect to your server through an FTP Client using the credenti
 
 ### Local Savegame
 
-Local Savegames are ones which you have created whilst hosting a multiplayer game locally on your device. These can be found within your Widnows LocalLow AppData, specifically in the following path:
+Local Savegames are ones which you have created whilst hosting a multiplayer game locally on your device. These can be found within your Windows LocalLow AppData, specifically in the following path:
 ```
 ../AppData/LocalLow/Channel 3 Entertainment/Foundry/save
 ```
 
 :::tip
-You can easily access this directly path by pressing `CTRL` + `R` at the same time and searching for the following path in the run dialog: `%userprofile%/appdata/locallow/Channel 3 Entertainment/foundry/save`. Simply press **OK** and you will be taken to the folder.
+You can easily access this path directly by pressing `CTRL` + `R` at the same time and searching for the following path in the run dialog: `%userprofile%/appdata/locallow/Channel 3 Entertainment/foundry/save`. Simply press **OK** and you will be taken to the folder.
 
 ![image](https://screensaver01.zap-hosting.com/index.php/s/E6rniERFyc5AdS9/preview)
 :::
 
-At this location, you will be able to see a folder which will be your SteamID. Open this folder and you will be able to see all of your local Savegames in one place.
+At this location, you will be able to see all of your local Savegames.
 
 ![image](https://screensaver01.zap-hosting.com/index.php/s/LGPj2xZNGeCJpjt/preview)
 

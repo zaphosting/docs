@@ -89,12 +89,6 @@ table {
   margin-top: 1.8rem;
 }
 
-@media (max-width: 996px){
-    .navbar__search-input {
-        width: 3rem;
-    }
-}
-
 .theme-doc-sidebar-menu {
   font-size: 14px;
 }
@@ -203,4 +197,67 @@ table {
 
 .w-full {
   width: 100%;
+}
+
+/* Navigation Bar Scaling */
+@media (max-width: 1700px) and (min-width: 996px){
+  .navbar {
+    height: auto;
+  }
+
+  .navbar__items--right {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-items: right;
+    column-gap: 0px;
+    row-gap: 0px;
+    align-items: center;
+    padding: 0.3rem;
+    padding-top: 0px;
+  }
+
+  .navbar__items--right .externalLink {
+    grid-row: 2;
+    grid-column: span 2;
+  }
+}
+
+@media (max-width: 1400px) and (min-width: 996px){
+  .navbar__items:not(.navbar__items--right) {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: left;
+    column-gap: 0px;
+    row-gap: 0px;
+    align-items: center;
+    padding: 0.3rem;
+  }
+
+  .navbar__brand {
+    grid-row: span 2;
+  }
+
+  .navbar__search-input {
+    width: 10rem;
+  }
+
+  .navbar__inner {
+    align-items: center;
+  }
+}
+
+@media (max-width: 1100px) and (min-width: 996px){
+  .navbar__inner, .externalLink a {
+    font-size: 14px;
+  }
+
+  .navbar__search-input {
+    width: 9rem;
+  }
+}
+
+@media (max-width: 996px){
+  .navbar__search-input {
+      width: 2rem;
+  }
 }

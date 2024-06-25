@@ -20,7 +20,7 @@ Du musst dich über einen FTP-Client mit deinem Server verbinden, indem du die Z
 
 ### Lokales Savegame
 
-Lokale Savegames sind Savegames, die du erstellt hast, während du ein Multiplayer-Spiel lokal auf deinem Gerät veranstaltet hast. Diese findest du in deinen Widnows LocalLow AppData, und zwar in folgendem Pfad:
+Lokale Savegames sind Savegames, die du erstellt hast, während du ein Multiplayer-Spiel lokal auf deinem Gerät veranstaltet hast. Diese findest du in deinen Windows LocalLow AppData, und zwar in folgendem Pfad:
 ```
 ../AppData/LocalLow/Channel 3 Entertainment/Foundry/save
 ```
@@ -31,7 +31,7 @@ Du kannst ganz einfach direkt auf diesen Pfad zugreifen, indem du `CTRL` + `R` g
 ![image](https://screensaver01.zap-hosting.com/index.php/s/E6rniERFyc5AdS9/preview)
 :::
 
-An diesem Ort siehst du einen Ordner, der deine SteamID ist. Öffne diesen Ordner und du kannst alle deine lokalen Savegames an einem Ort sehen.
+An dieser Stelle kannst du alle deine lokalen Savegames sehen.
 
 ![image](https://screensaver01.zap-hosting.com/index.php/s/LGPj2xZNGeCJpjt/preview)
 

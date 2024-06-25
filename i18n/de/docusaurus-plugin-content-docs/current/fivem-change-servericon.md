@@ -33,7 +33,7 @@ Um sicherzustellen, dass das Icon beim Start des Servers geladen wird, musst du 
 
 ```
 # Loading a server icon (96x96 PNG file)
-load_server_icon zaphosting96x96
+load_server_icon zaphosting96x96.png
 ```
 
 Du kannst auf deine `server.cfg` Datei entweder per FTP (wie oben gesehen), oder über den **Configs** Bereich im Webinterface deines Gameservers zugreifen.
