@@ -1,15 +1,48 @@
 {
-  "Hosting Voucher": {
-    "message": "Hosting-Gutschein"
+  "inlinevoucher.description.without-products": {
+    "message": "Startklar für dein nächstes cooles Projekt 😉"
   },
-  "YEEEAH!": {
-    "message": "YUHUU!"
+  "inlinevoucher.list-title.without-products": {
+    "message": "Warum du uns testen solltest?"
   },
-  "Rent a server": {
+  "inlinevoucher.list-reasons.first": {
+    "message": "DDoS-Protection"
+  },
+  "inlinevoucher.list-reasons.second": {
+    "message": "Server online in Minuten"
+  },
+  "inlinevoucher.list-reasons.third": {
+    "message": "Eigenes Webinterface"
+  },
+  "voucherbox.cta": {
     "message": "Server mieten"
   },
-  "Redeem": {
+  "voucherbutton.success": {
+    "message": "JUHUUU!"
+  },
+  "inlinevoucher.title": {
+    "message": "{voucherValue} {voucherType} Hosting-Gutschein 🏷️"
+  },
+  "inlinevoucher.description.with-products": {
+    "message": "Starklar mit den Produkten aus der Anleitung 😉"
+  },
+  "inlinevoucher.list-title.with-products": {
+    "message": "Somit unter anderem gültig für:"
+  },
+  "inlinevoucher.your-voucher": {
+    "message": "Dein Gutschein"
+  },
+  "voucher.redeem": {
     "message": "Einlösen"
+  },
+  "voucherbox.title": {
+    "message": "Hosting-Gutschein"
+  },
+  "servicelist.introduction": {
+    "message": "Die Anleitung wurde mit folgenden Produkten erstellt:"
+  },
+  "servicelist.note": {
+    "message": "(Einzelheiten können sich bei Produkten anderer Anbieter unterscheiden, die Grundkonzepte bleiben in der Regel unverändert)"
   },
   "theme.ErrorPageContent.title": {
     "message": "Die Seite ist abgestürzt.",

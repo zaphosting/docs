@@ -1,0 +1,137 @@
+[data-theme='dark'] .box {
+    background-color: rgb(38 38 38);
+    border: none;
+}
+
+.box {
+    background-color: white;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / .1), 0 1px 2px -1px rgb(0 0 0 / .1);
+    border: 1px solid rgb(228 228 231 / .6);
+    border-radius: .5rem;
+    padding: 1rem 1.75rem;
+}
+
+.verticalSpace {
+    margin: 2rem 0;
+}
+
+.mtsmall {
+    margin-top: .75rem;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+[data-theme='dark'] .note {
+    color: rgb(229 229 229);
+}
+
+.note {
+    font-size: 0.875rem;
+    line-height: 1.625;
+    color: #3F3F46;
+}
+
+[data-theme='dark'] .fineprint {
+    color: rgb(163 163 163);
+}
+
+.fineprint {
+    font-size: 0.75rem;
+    line-height: 1.625;
+    color: #71717A;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 0.75rem;
+    row-gap: 0.5rem;
+}
+
+.service {
+    background-color: rgb(236 252 203 / .75);
+    border: 1px solid rgb(217 249 157 / .75);
+    border-radius: 0.375rem;
+    padding: .25rem .5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 500ms;
+}
+
+.service:hover {
+    background-color: rgb(217 249 157 / .75);
+}
+
+[data-theme='dark'] .service {
+    background-color: rgb(132 204 22 / .05);
+    border-color: rgb(77 124 15 / .1);
+}
+
+[data-theme='dark'] .service:hover {
+    border-color: rgb(190 242 100 / .1);
+}
+
+.service .iconContainer {
+    margin-right: .5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition-property: transform;
+    transition-timing-function: cubic-bezier(1,.01,.06,.98);
+    transition-duration: 700ms;
+}
+
+[data-theme='dark'] .service .iconContainer .icon {
+    color: rgb(190 242 100 / .4);
+}
+
+.service .iconContainer .icon {
+    width: .75rem;
+    height: .75rem;
+    color: rgb(77 124 15 / .7);
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 500ms;
+}
+
+.service:hover .iconContainer {
+    transform: translateX(.125rem);
+}
+
+[data-theme='dark'] .service:hover .iconContainer .icon {
+    color: rgb(217 249 157 / .6);
+}
+
+.service:hover .iconContainer .icon {
+    color: #4D7C0F;
+}
+
+[data-theme='dark'] .service .label {
+    color: rgb(217 249 157 / .8);
+}
+
+.service .label {
+    color: #3F6212;
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 500ms;
+}
+
+[data-theme='dark'] .service:hover .label {
+    color: rgb(236 252 203);
+}
+
+.service:hover .label {
+    color: #365314;
+}
