@@ -6,7 +6,7 @@ interface serviceMap {
 
 export interface serviceDetails {
     [title: string]: string,
-    [path: string]: string,
+    [url: string]: string,
 }
 
 const servicesMap: serviceMap = {

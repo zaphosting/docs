@@ -1,12 +1,14 @@
 import styles from './styles.module.css';
-import Translate from '@docusaurus/Translate';
+import Translate, { translate } from '@docusaurus/Translate';
 import { mapList } from '../../utilities/serviceMapper';
 import VoucherButton from '../VoucherButton';
 import { VoucherContext } from '../../utilities/contexts/VoucherContext';
 import { useContext } from 'react';
 import { useDoc } from '@docusaurus/theme-common/internal';
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 
 export default function InlineVoucher({ showProducts = true }): JSX.Element {
+  const { siteConfig = {} } = useDocusaurusContext();
   const { frontMatter } = useDoc();
 
   const { loading, voucher, found } = useContext(VoucherContext);
@@ -193,7 +195,14 @@ export default function InlineVoucher({ showProducts = true }): JSX.Element {
                           <VoucherButton code={voucher.code} small={true}></VoucherButton>
                         </div>
                         <div className={styles.cutLine}></div>
-                        <a href="#" className={styles.footer} target="_blank">
+                        <a href={siteConfig.customFields.marketingSite}
+                           className={styles.footer}
+                           target="_blank"
+                           title={translate({
+                             id: 'voucherbox.cta',
+                             message: 'Rent a server',
+                           })}
+                        >
                           <span
                             className={styles.text}>
                             <Translate id="voucher.redeem">
