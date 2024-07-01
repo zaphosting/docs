@@ -5,6 +5,8 @@ description: Information about pre-orders at ZAP-Hosting. What are pre-orders? W
 sidebar_label: Preorders
 ---
 
+import InlineVoucher from '@site/src/components/InlineVoucher';
+
 ## Introduction
 Some products can be ordered at ZAP-Hosting.com as pre-orders. This means that this product has not yet been integrated into our systems, but will be added in the future. The server will be set up automatically once the product has been added.
 

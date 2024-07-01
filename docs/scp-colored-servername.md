@@ -3,14 +3,19 @@ id: scp-colored-servername
 title: "SCP Secret Laboratory: Colored Servername"
 description: Information on how to color the server name on your SCP server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Colored Servername
+services:
+  - gameserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 :::info
 For showing your server in the public server list its required to set a pastebin ID. You can find our guide [here](scp-pastebin.md).
 
-
 The server must be turned off for changes to take effect.
 :::
+
+<InlineVoucher />
 
 Open your server settings and check if 'SCP Servername' is empty.
 

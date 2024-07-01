@@ -3,15 +3,20 @@ id: enshrouded-configuration
 title: "Enshrouded: Enshrouded Server Configuration"
 description: Information about configuring a Enshrouded game server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Server Configuration
+services:
+  - gameserver
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
 Enshrouded at launch has a few configuration parameters that you can customise to your likings. In this guide, we will explore all of the currently available configuration parameters and explain each in more detail.
 
 <YouTube videoId="wgvfvQdtwN4" title="Setup Enshrouded Server in just 60 seconds!" description="Feel like you understand better when you see things in action?  We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
+
+<InlineVoucher />
 
 ## Accessing your Configuration File
 

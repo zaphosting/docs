@@ -3,9 +3,11 @@ id: vserver-linux-nextcloud
 title: "VPS: Installation of Nextcloud"
 description: Information on how to set up a Nextcloud server on your server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Install Nextcloud
+services:
+  - vserver
 ---
 
-
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
@@ -14,6 +16,8 @@ Nextcloud is an open source cloud solution and fork of Owncloud, which was found
 ![image](https://user-images.githubusercontent.com/13604413/159172333-5c613339-d564-4852-8b32-d3661d283534.png)
 
 In order to achieve optimal performance, stability and functionality, the following setup is recommended for hosting a Nextcloud server. The Nextcloud server is not compatible with Windows and MacOS. At least not without any further virtualization or similar workarounds.<br/>
+
+<InlineVoucher />
 
 **System prerequisites**
 

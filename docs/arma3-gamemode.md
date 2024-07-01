@@ -3,8 +3,11 @@ id: arma3-gamemode
 title: "ArmA 3: Change game mode"
 description: Information on how to change the game mode on your Arma 3 server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Change game mode
+services:
+  - gameserver
 ---
 
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Set the game mode
 
@@ -16,6 +19,7 @@ We currently offer the following mission files without the need for you to uploa
 
 These are already in your **mpmissions** directory.
 
+<InlineVoucher />
 
 ## Upload the mission file
 

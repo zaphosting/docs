@@ -3,8 +3,11 @@ id: gameserver-gameswitch
 title: 'Game server: Game switching with the gameservercloud'
 description: Information on how to install more games on your game server from ZAP-Hosting.com and how to switch between games - ZAP-Hosting.com documentation
 sidebar_label: Change the game
-
+services:
+  - gameserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
@@ -27,6 +30,8 @@ Tip: You can upgrade / downgrade your game server to a lower number of slots and
 :::info
 Minecraft modpacks have the same slot price. Since no host system change is necessary, no data is deleted when changing games. You can test a new modpack and reactivate your previous server as you need it.
 :::
+
+<InlineVoucher />
 
 ## Change the game
 

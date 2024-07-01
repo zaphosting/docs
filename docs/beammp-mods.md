@@ -3,7 +3,13 @@ id: beammp-mods
 title: "BeamMP: Install Mods"
 description: Information on how to install mods on your BeamMP server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Install Mods
+services:
+  - gameserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
+
+<InlineVoucher />
 
 ## From where do I get mods?
 Since BeamMP is built on BeamNG, it can of course use the BeamNG Mods.

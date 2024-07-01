@@ -3,27 +3,23 @@ id: vserver-network-analysis-winmtr
 title: "VPS: Network troubleshooting with MTR/WinMTR"
 description: Information on how to perform a network analysis with MTR/WinMTR to identify network problems - ZAP-Hosting.com documentation
 sidebar_label: Network troubleshooting
+services:
+  - vserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
 WinMTR is a network diagnostics program that combines the features of ping and traceroute. The program was developed by Matt Kimball based on the well-known MTR program for Linux. It offers the possibility to get detailed information about possible network problems. The program also allows to track the time between sending a signal and receiving the corresponding response packet. In the following screenshot the outgoing route to ZAP-Hosting.com is shown as an example:
 
-
-
 ![image](https://user-images.githubusercontent.com/13604413/159171609-82df7202-a2a2-4d8a-8e16-168f5b90366f.png)
-
-
 
 All nodes are listed, which are used to reach the destination. In case of possible problems you can see if there are problems on the server side or if they already occur on your own. The starting point starts with the first value and the end (ZAP - 104.xx.xx) with the last value.
 
-
-
-
+<InlineVoucher />
 
 ## Installation
-
-
 
 ### Windows
 

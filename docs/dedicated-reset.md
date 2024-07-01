@@ -3,13 +3,17 @@ id: dedicated-reset
 title: "Dedicated Server: Server reset"
 description: Information on how to reset your dedicated server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Server reset
+services:
+  - dedicated
 ---
 
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
+## Introduction
 
 Are you experiencing problems with your server or would you like to completely wipe the data of your server? This is not a problem and can be easily done. For example, you can completely delete the existing data using a Wipe ISO.
 
-
+<InlineVoucher />
 
 ## Preparations
 

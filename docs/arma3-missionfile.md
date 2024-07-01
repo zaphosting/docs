@@ -3,8 +3,11 @@ id: arma3-missionfile
 title: "ArmA 3: Upload your own mission file"
 description: Information on how to add your own mission file to your Arma 3 server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Upload your own mission file
+services:
+  - gameserver
 ---
 
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Upload the mission file
 
@@ -14,6 +17,7 @@ In this example we upload the mission file **King_of_the_hill.Altis** to our ser
 
 ![image](https://user-images.githubusercontent.com/26007280/189678011-e09b3415-f6ca-42f5-8329-3481f037174d.png)
 
+<InlineVoucher />
 
 ## Loading the mission file on the server
 

@@ -3,20 +3,21 @@ id: fivem-steam-web-api-key
 title: "FiveM: Steam Web API Key setup"
 description: Information on setting up a Steam Web API key from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Steam Web API Key
+services:
+  - gameserver
 ---
 
-
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
 A Steam Web API key has important uses for FiveM. This includes authentication by the API Key when Steam is used as identifier by different scripts and/or resources.
 
+<InlineVoucher />
+
 ## Prerequisites
 
 A non-limited Steam account is required to request an API key. Restricted Steam accounts have limited access to Steam's features, so without full access it is not possible to request an API key. You have to spend at least **5.00 USD** in the Steam store to unlock your account and its features.
-
-
-
 
 ## Request an API key
 

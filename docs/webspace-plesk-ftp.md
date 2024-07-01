@@ -3,9 +3,11 @@ id: webspace-plesk-ftp
 title: "Webspace: Setting up FTP access for webspace"
 description: Information on how to set up FTP access for your webspace from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: FTP access
+services:
+  - webspace
 ---
 
-
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
@@ -15,6 +17,8 @@ Every customer automatically gets FTP access to the ordered webspace.
 Here we explain how to set up further FTP accesses. This is useful if you are working with several people on a project and each person should have their own FTP access.
 
 These people can then use the FTP access created only to the folders that were specified by the owner of the web space.
+
+<InlineVoucher />
 
 ## Set up FTP access
 

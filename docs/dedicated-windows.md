@@ -3,9 +3,12 @@ id: dedicated-windows
 title: "Dedicated Server: Installation of Windows Server"
 description: Information on how to install the Windows operating system on your dedicated server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Install Windows
+services:
+  - dedicated
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';
+import InlineVoucher from '@site/src/components/InlineVoucher';
 import Advertisements from '@site/src/components/Advertisements/Advertisements';
 
 ## Introduction
@@ -16,6 +19,8 @@ The following will explain to you step by step how to install and configure the 
 :::info
 The structure of the guide is based on the use of the Windows Server 2019 operating system. Installations from previous or newer versions may differ slightly in terms of the process. 
 :::
+
+<InlineVoucher />
 
 ## Preparation
 For the installation and configuration of an operating system, it is initially important to mount the corresponding ISO of the operating system. There are several possible ways to mount it:

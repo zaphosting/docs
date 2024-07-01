@@ -3,11 +3,17 @@ id: rimworldtogether-mods
 title: "RimWorld Together: Installing mods"
 description: Information on how to install mods on your RimWorld Together server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Install Mods
+services:
+  - gameserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
 RimWorld Together is a highly popular open-source multiplayer mod which is fully ran by the RimWorld Community and it enables online CO-OP gameplay for the game RimWorld. In this guide, we will show you how to install mods onto your RimWorld Together server.
+
+<InlineVoucher />
 
 ## Gathering Mods
 

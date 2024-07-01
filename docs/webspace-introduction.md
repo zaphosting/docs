@@ -3,13 +3,18 @@ id: webspace-introduction
 title: "Webspace: Introduction"
 description: Introduction and information about the Webspace product from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Introduction
+services:
+  - webspace
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
 Are you looking for a good web solution at a fair price? Then ZAP-Hosting is the right place for you! At ZAP-Hosting, you can rent or buy the right Webspace product to start your web presence.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/gK7k86xDcfcTQ29/preview)
+<InlineVoucher />
 
 ## Ordering
 

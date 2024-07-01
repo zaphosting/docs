@@ -3,15 +3,17 @@ id: rust-plugins
 title: "Rust: Installation of plugins"
 description: Information on how to install plugins on your Rust server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Install Plugins 
+services:
+  - gameserver
 ---
 
-
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Plugins installation
 
 With plugins you have the possibility to customize your server even more. Below we will explain where you can find the most popular server plugins and how to set them up. 
 
-
+<InlineVoucher />
 
 
 ### Preparation

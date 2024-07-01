@@ -2,9 +2,12 @@
 id: satisfactory-connect
 title: "Satisfactory: Connect to the Server"
 sidebar_label: Connect to the Server
+services:
+  - gameserver
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 <YouTube videoId="EC4FXT5Mwb8" title="How to create a Satisfactory Server at ZAP and upload your own save-game" description="Feel like you understand better when you see things in action?  We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
 
@@ -13,6 +16,8 @@ If you're already using a QWERTY keyboard layout, you must not do these steps, j
 :::
 
 To connect to your Satisfactory Server, its required to open the console of the game, there are two ways on how to do that.
+
+<InlineVoucher />
 
 ## Open the Console
 

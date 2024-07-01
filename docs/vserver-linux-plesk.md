@@ -3,15 +3,17 @@ id: vserver-linux-plesk
 title: "VPS: Installation of Plesk"
 description: Information on how to install Plesk on your Linux VPS from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Install Plesk
+services:
+  - vserver
 ---
 
-
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
 Plesk is a comprehensive web hosting and server management platform that allows users to manage websites, servers, email accounts and more through a user-friendly interface. It is a versatile solution that is suitable for beginners as well as experienced web developers and system administrators. 
 
-
+<InlineVoucher />
 
 ## Install Plesk
 

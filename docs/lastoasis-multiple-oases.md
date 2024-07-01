@@ -3,10 +3,16 @@ id: lastoasis-multiple-oases
 title: "Last Oasis: Connecting multiple Oases"
 description: Information about setting up multiple Oases for your Last Oasis server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Multiple Oases
+services:
+  - gameserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 Last Oasis has the option to connect multiple Oases at once in the same Realm. In this guide, we will explore how to enable this mode for your own Realm.
+
+<InlineVoucher />
 
 ## Preparation
 Begin by heading over to [the official Last Oasis](https://myrealm.lastoasis.gg/) website and logging in with your preferred choice of platform (Steam or Xbox).

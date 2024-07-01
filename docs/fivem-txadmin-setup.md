@@ -3,16 +3,20 @@ id: fivem-txadmin-setup
 title: "FiveM: txAdmin Setup"
 description: Information on how to set up the TxAdmin interface for FiveM game servers from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: txAdmin Setup
+services:
+  - gameserver
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';
-import Advertisements from '@site/src/components/Advertisements/Advertisements';
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
 txAdmin is a completely free to use, full-featured web panel to Manage & Monitor your FiveM server. It offers a wide range of features designed to make managing a FiveM server as easy as anything. Setting up txAdmin is completely free, begin your journey on using the most simplistic, yet functional FiveM server web panel.
 
 <YouTube videoId="n3RoiExrvN0" title="Setup a txAdmin Server" description="Feel like you understand better when you see things in action?  We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
+
+<InlineVoucher />
 
 ## First-Time Setup
 

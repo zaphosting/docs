@@ -3,15 +3,19 @@ id: eco-whitelist
 title: "ECO: Activate Whitelist"
 description: Information on how to create and manage a whitelist for your ECO server at ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Whitelist
+services:
+  - gameserver
 ---
 
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
-## Activate whitelist
+
+## Introduction
 
 ECO's whitelist allows you to protect your server by only allowing selected players on the list to connect to the server.
 
-
+<InlineVoucher />
 
 ### Activation (Config)
 

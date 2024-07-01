@@ -3,9 +3,13 @@ id: minecraft-worlds
 title: "Minecraft: Server Manage worlds"
 description: Information on how to manage multiple worlds on your Minecraft server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Manage Worlds
+services:
+  - gameserver
 ---
 
-Click here to get to our Minecraft servers: [Minecraft server hosting](https://zap-hosting.com/en/minecraft-server-hosting/)
+import InlineVoucher from '@site/src/components/InlineVoucher';
+
+<InlineVoucher />
 
 ## Connecting to FTP
 

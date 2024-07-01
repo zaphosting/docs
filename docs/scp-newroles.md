@@ -2,8 +2,14 @@
 id: scp-newroles
 title: "SCP Secret Laboratory: Server Adding new roles"
 description: Information on how to add new roles to your SCP server from ZAP-Hosting - ZAP-Hosting.com documentation
-sidebar_label: Add new roles 
+sidebar_label: Add new roles
+services:
+  - gameserver 
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
+
+<InlineVoucher />
 
 ## View the Config
 New roles are entered in the "config_remoteadmin.txt" file.

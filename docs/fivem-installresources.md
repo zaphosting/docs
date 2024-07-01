@@ -3,10 +3,12 @@ id: fivem-installresources
 title: "FiveM: Installation of resources"
 description: Information on how to install resources on your FiveM server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Install resources
+services:
+  - gameserver
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';
-import Advertisements from '@site/src/components/Advertisements/Advertisements';
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
@@ -15,6 +17,8 @@ Resources can be used to expand your FiveM server with additional features. This
 FiveM and its community offers a large variety of resources. An overview of the most popular resources can be found on the Cfx.re Forum: https://forum.cfx.re/c/development/releases/7
 
 <YouTube videoId="V7us5V6KLho" title="How to Add Resources to a FiveM Server" description="Feel like you understand better when you see things in action?  We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
+
+<InlineVoucher />
 
 ## Preperation
 

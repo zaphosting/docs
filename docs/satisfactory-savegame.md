@@ -3,9 +3,12 @@ id: satisfactory-savegame
 title: "Satisfactory: Savegame Manager"
 description: Information on possibilities to manage savegames via Savegames Manager on your Satisfactory server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Savegame Manager
+services:
+  - gameserver
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 You can easily modify savegames through our interface. With only a few clicks you can manage your savegames including uploading and restoring.
@@ -16,6 +19,8 @@ Navigate to `Savegame Manager` in your server's dashboard.
 :::info
 Note: Your server is saves in 5 minute increments automatically and will always keep the last 6 autosaves.
 :::
+
+<InlineVoucher />
 
 ## Downloading your Savegame
 

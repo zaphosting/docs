@@ -3,9 +3,17 @@ id: openmp-configuration
 title: "Open.mp: Open.mp Server Configuration"
 description: Information about configuring an Open.mp game server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Server Configuration
+services:
+  - gameserver
 ---
 
+import InlineVoucher from '@site/src/components/InlineVoucher';
+
+## Introduction
+
 Open.mp servers come with a wide range of configuration parameters that you can customise to your likings. In this guide, we will explore all of the currently available configuration parameters and explain each in more detail.
+
+<InlineVoucher />
 
 ## Accessing your Configuration File
 

@@ -3,9 +3,17 @@ id: openmp-server-commands
 title: "Open.mp: Open.mp Server Commands"
 description: Information on useful commands for Open.mp game from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Server Commands
+services:
+  - gameserver
 ---
 
+import InlineVoucher from '@site/src/components/InlineVoucher';
+
+## Introduction
+
 Open.mp servers all come with a set of useful built-in server commands which can be used in-game and through your server console. In this guide, we will explore many of these commands providing descriptions and usage examples for each.
+
+<InlineVoucher />
 
 ## Setting up access (RCON)
 

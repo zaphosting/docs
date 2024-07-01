@@ -3,9 +3,13 @@ id: fivem-deletecache
 title: "FiveM: Empty Cache"
 description: Information on how to clear the cache of your FiveM Server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Delete Cache
+services:
+  - gameserver
 ---
 
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
+<InlineVoucher />
 
 ## Simple Method
 

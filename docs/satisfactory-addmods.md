@@ -2,7 +2,12 @@
 id: satisfactory-addmods
 title: "Satisfactory: Install Mods"
 sidebar_label: Install Mods
+services:
+  - gameserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
+
 :::danger
 **IMPORTANT**
 
@@ -18,6 +23,8 @@ In the worst case, the installation of mods can destroy the savegame, make it te
 
 A backup should be created **in any case before** installing mods and backups should also be created regularly just in case!
 :::
+
+<InlineVoucher />
 
 ## Install Modded Satisfactory on the server
 

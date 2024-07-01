@@ -3,13 +3,18 @@ id: palworld-configuration
 title: "Palworld: Palworld Server Configuration"
 description: Information about configuring a Palworld game server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Server Configuration
+services:
+  - gameserver
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 Palworld servers come with a wide range of configuration parameters that you can customise to your likings. In this guide, we will explore all of the currently available configuration parameters and explain each in more detail.
 <YouTube videoId="Trs9Ysxa1gc" title="Setup Palworld server in just a MINUTE! " description="Feel like you understand better when you see things in action?  We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
+
+<InlineVoucher />
 
 ## Accessing your Configuration File
 

@@ -3,7 +3,11 @@ id: domain-gameserver-srv-link
 title: "Domain: Set up game server forwarding"
 description: Information on how to set up a forwarding from your domain to a game server - ZAP-Hosting.com documentation
 sidebar_label: Gameserver forwarding
+services:
+  - domain
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 :::info
 Please note that it can always take up to 24 hours until changes to DNS entries become active!
@@ -12,6 +16,8 @@ Please note that it can always take up to 24 hours until changes to DNS entries 
 ## Introduction
 You can either forward your domain completely or only a subdomain to your game server. 
 This is useful because it allows people to connect to your game server via a domain, instead of having to remember complicated IP addresses composed of numbers only.
+
+<InlineVoucher />
 
 ## Functionality
 

@@ -3,7 +3,13 @@ id: vserver-linux-add-ip
 title: "VPS: Add IPv4 address to server"
 description: Information on how to add an IPv4 address to your VPS from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Add IPv4 Address
+services:
+  - vserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
+
+<InlineVoucher />
 
 ## Add Additional IPv4 address(es)
 

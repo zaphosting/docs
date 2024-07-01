@@ -3,7 +3,11 @@ id: source-custom-content
 title: Installing custom content and mods on game servers
 description: Information on how to install custom content and mods on your Source game server (e.g. CSS or Garry's Mod) from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Custom Content
+services:
+  - gameserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## What is custom content?
 
@@ -11,7 +15,7 @@ Some source games such as Counter-Strike or Garry's Mod have become known for th
 
 ![image](https://user-images.githubusercontent.com/13604413/159178680-6fd1ea06-9ee9-4bfc-a23e-2f3457800c04.png)
 
-
+<InlineVoucher />
 
 Such servers often use maps, player skins and sounds created by the community. In order for players to be able to use or view the custom content of the server, the content must first be downloaded from the server. In this case there are two possibilities:
 

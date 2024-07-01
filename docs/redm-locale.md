@@ -3,9 +3,11 @@ id: redm-locale
 title: "RedM: Change language / location (flag)"
 description: Information on how to customize the language and location (flag) on a RedM server - ZAP-Hosting.com documentation
 sidebar_label: Language / location (flag)
+services:
+  - gameserver
 ---
 
-
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
@@ -13,7 +15,7 @@ RedM servers can be displayed in different languages. This applies both to the d
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/JHgoDfcsN4XX8Jb/preview)
 
-
+<InlineVoucher />
 
 ## Configuration
 

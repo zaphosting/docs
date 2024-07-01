@@ -3,7 +3,13 @@ id: domain-teamspeak-redirect
 title: "Domain: Set up TeamSpeak 3 forwarding"
 description: Information on how to set up a forwarding from a domain to a TS server at ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: TeamSpeak 3 forwarding
+services:
+  - domain
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
+
+<InlineVoucher />
 
 :::info
 Please note that it can always take up to 24 hours before changes to DNS entries become active!

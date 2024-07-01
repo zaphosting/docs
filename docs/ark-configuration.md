@@ -3,9 +3,11 @@ id: ark-configuration
 title: "ARK: Server configuration"
 description: Information about the configuration options in the web interface of your ARK server at ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Server Configuration
+services:
+  - gameserver
 ---
 
-
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Server Configuration
 
@@ -13,7 +15,7 @@ The configuration of an **ARK game server** may cause confusion and helplessness
 
 ![image](https://user-images.githubusercontent.com/13604413/159179441-19eea1bc-fe87-4c31-ab2f-c44b45e8a130.png)
 
-
+<InlineVoucher />
 
 ## Differences between configuration files 
 

@@ -5,6 +5,8 @@ description: Information about the differences of rental and lifetime servers fr
 sidebar_label: Rental or Lifetime
 ---
 
+import InlineVoucher from '@site/src/components/InlineVoucher';
+
 
 
 ## Introduction

@@ -3,8 +3,11 @@ id: ark-mods
 title: "ARK: Installing mods"
 description: Information on how to install mods on your ARK server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Install Mods
+services:
+  - gameserver
 ---
 
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Install Mods
 
@@ -14,7 +17,7 @@ The installation of mods for ARK servers is possible by using the Steam Workshop
 
 ![image](https://user-images.githubusercontent.com/26007280/189940265-80329b80-1dac-44b8-af9e-b92ebd248607.png)
 
-
+<InlineVoucher />
 
 ## Search mods
 

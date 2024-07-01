@@ -3,7 +3,13 @@ id: assettocorsa-mods
 title: "Assetto Corsa: Installing mods on a server"
 description: Information on how to install mods on your Assetto Corsa server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Install Mods
+services:
+  - gameserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
+
+<InlineVoucher />
 
 ## Connect to FTP
 

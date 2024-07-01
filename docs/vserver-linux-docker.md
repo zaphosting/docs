@@ -3,11 +3,17 @@ id: vserver-linux-docker
 title: "VPS: Installation of Docker"
 description: Information on how to install Docker on your VPS from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Install Docker
+services:
+  - vserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
 Docker is a lightweight, open source virtualization software to provide services or applications in isolation on a single system. In contrast to real virtual machines, no extra operating system is emulated or hosted for this, but rather only an application environment within the host system. This not only saves resources in general, but at the same time causes a low overhead compared to full virtualization.
+
+<InlineVoucher />
 
 ## How do I install Docker on my Linux server?
 

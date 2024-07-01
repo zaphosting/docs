@@ -3,7 +3,13 @@ id: valheim-admin
 title: "Valheim: Server Admin Commands  & Cheats"
 description: Information about admin commands and cheats for your Valheim server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Admin Commands & Cheats
+services:
+  - gameserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
+
+<InlineVoucher />
 
 ## Adding yourself as Admin
 

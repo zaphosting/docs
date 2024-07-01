@@ -3,10 +3,16 @@ id: lastoasis-createrealm
 title: "Last Oasis: Create a new Realm"
 description: Information about creating a new realm for your Last Oasis server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Create Realm
+services:
+  - gameserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 Last Oasis servers require a range of setup steps to authenticate with the official site. In this guide, we will explore the steps required to create your own realm on Last Oasis and setup an oasis within your new realm.
+
+<InlineVoucher />
 
 ## Preparation
 One of the prerequisites to setup a new realm is to generate a key from the official site in order to be able to verify and authenticate with the official online services.

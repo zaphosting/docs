@@ -3,11 +3,17 @@ id: scp-pastebin
 title: "SCP Secret Laboratory: Pastebin ID"
 description: Information on how to add a Pastebin entry to create a server description on your SCP server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Pastebin ID
+services:
+  - gameserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 :::info
 Its required to have a server description which needs to be created on pastebin, to show your server in the official serverlist.
 :::
+
+<InlineVoucher />
 
 First open pastebin.com in a webbrowser of your choice.
 

@@ -3,12 +3,16 @@ id: minecraft-rcon
 title: "Minecraft: Server Using RCON"
 description: Information on how to use RCON with your Minecraft server from ZAP-Hosting to manage your server - ZAP-Hosting.com documentation
 sidebar_label: RCON
+services:
+  - gameserver
 ---
 
-Click here to get to our Minecraft servers: [Minecraft server hosting](https://zap-hosting.com/en/minecraft-server-hosting/)
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## What is RCON?
 RCON is an interface in various programs, such as game servers, with which remote maintenance and remote administration can be carried out. This interface can be used to manage servers that are already running and can be reached. The interface can then be accessed with a specific remote maintenance program and the server can thus be managed.
+
+<InlineVoucher />
 
 ## How do I use RCON with Minecraft?
 In order to use RCON with Minecraft, it must first be activated in the `server.properties`

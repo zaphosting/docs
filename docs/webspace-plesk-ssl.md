@@ -3,7 +3,11 @@ id: webspace-plesk-ssl
 title: "Webspace: Create SSL certificate"
 description: Information on how to create an SSL certificate for your webspace from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Create SSL Certificate
+services:
+  - webspace
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Encrypt website with SSL
 
@@ -21,6 +25,8 @@ And the notification in the browser when opening the domain:
 ![image](https://user-images.githubusercontent.com/13604413/159176743-154bf742-e93e-4743-8a0a-0f43e46952a9.png)
 
 With an SSL certificate, a domain can be protected/encrypted accordingly.
+
+<InlineVoucher />
 
 ## Creation of the Certificate 
 

@@ -3,7 +3,13 @@ id: fivem-devtools
 title: "FiveM: Activate Devtools"
 description: Informations on how to activate the FiveM Developer Tools - ZAP-Hosting.com documentation
 sidebar_label: Activate Devtools
+services:
+  - gameserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
+
+<InlineVoucher />
 
 To activate the devtools in FiveM we first have to open our FiveM client and open the settings:
 

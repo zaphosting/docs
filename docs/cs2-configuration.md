@@ -3,9 +3,11 @@ id: cs2-configuration
 title: "CS2: Server configuration"
 description: Information on the settings and configuration options of your CS2 server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Server Configration
+services:
+  - gameserver
 ---
 
-
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 :::caution 
 CS2 has just recently been released. The game is currently receiving quite a few updates and changes. This also affects the functionality and structure of the CS2 servers. We do our best to keep the guides as correct and up to date as quickly as possible in case something has changed concerning this.
@@ -19,7 +21,7 @@ Counter-Strike servers can be configured widely. Basic settings can be configure
 
 Under the settings you can choose the gamemode you want to use. The commands of this Config are then accordingly loaded. These can be managed either in the game server administration or manually via FTP under **gXXXXXX/cs2/game/csgo/cfg/**. 
 
-
+<InlineVoucher />
 
 ## Configuration
 

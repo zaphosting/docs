@@ -3,7 +3,13 @@ id: spaceengineers-addmods
 title: "Space Engineers: Installation of mods"
 description: Information on how to install mods on your Space Engineers server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Install mods
+services:
+  - gameserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
+
+<InlineVoucher />
 
 ### Prepartion
 

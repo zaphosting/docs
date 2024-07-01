@@ -3,13 +3,17 @@ id: abioticfactor-firststeps-connect
 title: "Abiotic Factor: Connect to Abiotic Factor Server"
 description: Information about connecting to a Abiotic Factor server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Connect to Server
+services:
+  - gameserver
 ---
 
-
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
 In this guide, we will explore how to connect to your Abiotic Factor server. There are two methods of connecting, either directly via the IP address of your server or through the server list. We recommend configurating the server to your likings beforehand, learn more about this through our [Abiotic Factor Configuration guide](abioticfactor-configuration.md).
+
+<InlineVoucher />
 
 ## Direct Connect via IP
 

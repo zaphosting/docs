@@ -3,13 +3,17 @@ id: dayz-mods
 title: "DayZ: Installation of Mods"
 description: Information on installing mods on your DayZ game server from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Install Mods
+services:
+  - gameserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
 Mods allow you to customize your server even more. The following explains where you can find the most popular server mods and how to set them up.
 
-
+<InlineVoucher />
 
 ## Preparation
 

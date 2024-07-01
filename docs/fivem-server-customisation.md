@@ -3,16 +3,21 @@ id: fivem-server-customisation
 title: "FiveM: Customise server details"
 description: Information on how to customise server details displayed in the server list for FiveM servers - ZAP-Hosting.com 
 sidebar_label: Customise Server Details
+services:
+  - gameserver
 ---
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import YouTube from '@site/src/components/YouTube/YouTube';
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 Are you looking to customise your server to display custom information in the server list? This can be done easily! In this guide you will learn how to set a range of different customisations that are available to make your server stand out in the server list!
 
 <YouTube videoId="zuWgjwb2-Xs" title="How to add COLORED text to your FiveM Server name" description="Feel like you understand better when you see things in action?  We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
+
+<InlineVoucher />
 
 ## Access options for the configuration
 

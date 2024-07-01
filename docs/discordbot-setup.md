@@ -3,12 +3,12 @@ id: discordbot-setup
 title: Set up your Discord Bot
 description: Information on how to set up your own Discord Bot - ZAP-Hosting.com documentation
 sidebar_label: Setup
+services:
+  - gameserver
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';
-
-import Advertisements from '@site/src/components/Advertisements/Advertisements';
-
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Introduction
@@ -17,7 +17,7 @@ With a **Discord bot server**, you can run Discord bots continuously, which can,
 
 <YouTube videoId="OoKA8UJ_N5A" title="How to set up a Discord bot server and upload bot files!" description="Feel like you understand better when you see things in action?  We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
 
-
+<InlineVoucher />
 
 ## Preparation
 

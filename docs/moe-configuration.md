@@ -3,15 +3,19 @@ id: moe-configuration
 title: "Myth of Empires: Server Configuration"
 description: Information about configuring a Myth of Empires game server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Server Configuration
+services:
+  - gameserver
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 Myth of Empires contains a wide range of configuration options that allows you to customise your server to your liking. In this guide, we will explore some of the currently available configuration parameters and explain each in more detail.
 
 <YouTube videoId="a-tZnWIpOSg" title="Setup Myth Of Empires server in just a MINUTE!" description="Feel like you understand better when you see things in action?  We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
 
+<InlineVoucher />
 
 ## Accessing your Configuration File
 

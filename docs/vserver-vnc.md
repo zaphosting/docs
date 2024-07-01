@@ -3,9 +3,11 @@ id: vserver-vnc
 title: "VPS: VNC (Virtual Network Computing) console"
 description: Information about the VNC console for VPSs at ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: VNC console
+services:
+  - vserver
 ---
 
-## 
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
@@ -13,7 +15,7 @@ VNC (Virtual Network Computing) is a software that displays the screen content o
 
 In case of startup or network problems you still have the possibility to access the system and take countermeasures. 
 
-
+<InlineVoucher />
 
 
 ## Use of VNC

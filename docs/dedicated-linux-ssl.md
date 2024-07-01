@@ -3,13 +3,17 @@ id: dedicated-linux-ssl
 title: "VPS: Create SSL certificate (Lets Encrypt) for Linux server"
 description: Information on how to create an SSL certificate with Let's Entcrypt for your VPS from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: SSL-Certificate (Lets Encrypt)
+services:
+  - dedicated
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## What is Let's Encrypt?
 
 Let's Encrypt is a Certificate Authority (CA) that offers free SSL/TLS certificates. This way you can get a valid SSL certificate for your domain for free. The certificates can only be requested from the server the domain points to. Let's Encrypt checks the DNS of the domain which points to the current server. Then the certificate will be generated. In this tutorial we explain the setup with both Apache and Nginx web servers. 
 
-
+<InlineVoucher />
 
 ## Preparation
 

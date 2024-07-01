@@ -3,15 +3,17 @@ id: vserver-windows-addip
 title: "VPS: Configure additional IP addresses on Windows"
 description: Information on how to add additional IPs to your Windows VPS from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Additional IP addresses
+services:
+  - vserver
 ---
 
-
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
 Having multiple IP addresses on a server can be beneficial for several reasons, especially in complex network environments or to meet specific prerequisites for network performance, security, and management. Assigning different IP addresses to different services or applications on the same server can achieve better isolation.
 
-
+<InlineVoucher />
 
 
 ## Prerequisites

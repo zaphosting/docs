@@ -3,7 +3,13 @@ id: webspace-htaccess-discord
 title: "Webspace: Set up Discord forwarding via domain"
 description: Information on how to add a Discord forwarding domain to your webspace from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Discord forwarding
+services:
+  - webspace
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
+
+<InlineVoucher />
 
 ## Join Discord Server via domain
 

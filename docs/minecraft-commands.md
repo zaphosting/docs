@@ -3,9 +3,11 @@ id: minecraft-commands
 title: "Minecraft: General Server Commands"
 description: Information about general commands you can use on your Minecraft server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: General commands
+services:
+  - gameserver
 ---
 
-Click here to get to our Minecraft servers: [Minecraft server hosting](https://zap-hosting.com/en/minecraft-server-hosting/)
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ### What are commands?
 
@@ -14,7 +16,7 @@ Commands can be used in Minecraft to perform additional functions or special fun
 In this article of our documentation we will go into the most important commands, which are used and needed very often.
 If a command is not listed here, the official [Minecraft-Wiki](https://minecraft-de.gamepedia.com/) is very helpful, because every part (including all commands) is explained in detail.
 
-
+<InlineVoucher />
 
 ### Use
 

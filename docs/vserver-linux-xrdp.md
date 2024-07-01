@@ -3,12 +3,17 @@ id: vserver-linux-xrdp
 title: "VPS: Installation of xRDP (Remote Desktop) "
 description: Guide to install xRDP (Remote Desktop) on Linux - ZAP-Hosting.com documentation
 sidebar_label: Install xRDP
+services:
+  - vserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
 On Linux, there is usually a default SSH console to manage the server. In some cases it may be easier to use a remote desktop connection, similar to Windows. 
 A post-installation is possible for most Linux distros. In this guide this is explained for Ubuntu and Debian. 
+<InlineVoucher />
 
 :::info
 Important: At least Ubuntu 18.04.X LTS (Bionic Beaver) or Debian 10 (Buster) must be used as OS. Newer versions are recommended. 

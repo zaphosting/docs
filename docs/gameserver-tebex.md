@@ -3,9 +3,11 @@ id: gameserver-tebex
 title: 'Game server: TEBEX monetization setup'
 description: Information on how to earn money with TEBEX on your game server from ZAP-Hosting and how to set up TEBEX on your server - ZAP-Hosting.com documentation
 sidebar_label: TEBEX Monetization
+services:
+  - gameserver
 ---
 
-
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
@@ -15,7 +17,7 @@ webstore where you can sell goods and view how your store is doing. Visit
 [tebex.io](https://affiliate.tebex.io/r/690a6731-fee1-4054-84e1-30c26729403a) for 
 more information on how it works.
 
-
+<InlineVoucher />
 
 ## Which games are supported by TEBEX?
 The platform currently supports the following games: [Click Here](https://www.tebex.io/games)

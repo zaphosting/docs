@@ -3,7 +3,13 @@ id: source-metamod-plugins
 title: Installing plugins
 description: Information on how to install plugins on your source game server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Plugins
+services:
+  - gameserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
+
+<InlineVoucher />
 
 ## Plugin Installation
 

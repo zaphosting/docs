@@ -3,11 +3,17 @@ id: fivem-esx-changerespawnpoint
 title: "FiveM: Set respawn point"
 description: Information on how to set/change the respawnpoint on your FiveM server with ESX from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Change Respawnpoint 
+services:
+  - gameserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 :::info
 ESX must be installed
 :::
+
+<InlineVoucher />
 
 📔 Preparations
 

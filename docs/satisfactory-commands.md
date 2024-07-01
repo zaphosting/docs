@@ -3,9 +3,17 @@ id: satisfactory-commands
 title: "Satisfactory: Console Commands"
 description: Information about possible console commands for your Satisfactory server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Console Commands
+services:
+  - gameserver
 ---
 
+import InlineVoucher from '@site/src/components/InlineVoucher';
+
+## Introduction
+
 Satisfactory has a wide range of useful commands available for players to adjust client settings. Within this page we summarise the popular and useful commands that are commonly used by players across Satisfactory.
+
+<InlineVoucher />
 
 ## Accessing the console
 Using the console within Satisfactory is very easy, simply press the ` key (backtick is located above TAB key) to cycle between console visibility. The console will either become closed, will be open with a small command window at the bottom or will be fully expanded each time you toggle.

@@ -3,7 +3,13 @@ id: fivem-installels
 title: "FiveM: Installing ELS on your server"
 description: Information on how to install ELS on your FiveM server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Install ELS
+services:
+  - gameserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
+
+<InlineVoucher />
 
 ## Connect to FTP
 

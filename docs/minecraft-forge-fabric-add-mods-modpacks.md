@@ -3,11 +3,17 @@ id: minecraft-forge-fabric-add-mods-modpacks
 title: "Minecraft: Install Mods / Modpacks"
 description: Information on how to install mods / modpacks on your Minecraft Forge server from ZAP-Hosting.com - ZAP-Hosting.com documentation
 sidebar_label: Install Mods / Modpacks
+services:
+  - gameserver
 ---
 
-You'll learn how to download and install a Mod / Modpack on your Minecraft server.
-Click here to get to our Minecraft servers: [Minecraft server hosting](https://zap-hosting.com/en/minecraft-server-hosting/)
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
+## Introduction
+
+You'll learn how to download and install a Mod / Modpack on your Minecraft server.
+
+<InlineVoucher />
 
 ## Prerequisites
 

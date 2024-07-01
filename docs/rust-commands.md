@@ -3,13 +3,21 @@ id: rust-commands
 title: "Rust: Admin Commands"
 description: Information on Admin commands for Rust from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Admin Commands
+services:
+  - gameserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
+
+## Introduction
 
 Rust has a wide range of different commands available for server owners and players to use. On this page, we summarise the most useful and popular ones which are used for server settings, player administrating and to control players.
 
 :::info
 Some commands require the use of a player's Steam64 ID. Use the small tutorial below to understand how to get a player's Steam ID.
 :::
+
+<InlineVoucher />
 
 ## Getting your Steam ID
 Firstly, use use a tool like the [Steam ID Finder](https://steamidfinder.com/) to get your Steam64 ID.
