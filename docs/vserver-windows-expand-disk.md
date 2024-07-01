@@ -8,7 +8,9 @@ services:
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
+
 <InlineVoucher />
+
 After upgrading your ZAP Windows VPS, it may be necessary to add the new storage to your existing partition.
 
 :::info
