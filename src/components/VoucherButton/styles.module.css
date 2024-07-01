@@ -1,0 +1,68 @@
+.voucherButton {
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    border-width: 1px;
+    border-color: rgb(132 204 22 / .15);
+    background-color: #ECFCCB;
+    padding: .25rem .25rem .25rem .75rem;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    font-weight: 700;
+    box-shadow: 0 10px 15px -3px rgb(132 204 22 / .15), 0 4px 6px -4px rgb(132 204 22 / .15);
+    border-radius: 9999px;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, .2, 1);
+    transition-duration: 700ms;
+}
+
+.voucherButton.small {
+    font-size: .688rem;
+}
+
+.voucherButton.small .voucherCode {
+    max-width: 4.5rem;
+}
+
+.voucherButton:hover {
+    transform: scaleX(1.05) scaleY(1.05);
+    box-shadow: 0 20px 25px -5px rgb(132 204 22 / .2), 0 8px 10px -6px rgb(132 204 22 / .2);
+}
+
+.voucherButton:active {
+    transition-duration: 150ms;
+    transform: scaleX(.95) scaleY(.95);
+}
+
+.voucherButton .voucherCode {
+    padding-right: .5rem;
+    color: #3F6212;
+    max-width: 5rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.voucherButton .copyBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 9999px;
+    border: 1px solid rgb(77 124 15 / .15);
+    background-color: #F7FEE7;
+    padding: .25rem;
+}
+
+.voucherButton .copyBox .icon {
+    width: .75rem;
+    height: .75rem;
+    color: #84cc16;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 700ms;
+}
+
+.voucherButton:hover .copyBox .icon {
+    color: #4D7C0F;
+}

@@ -1,0 +1,379 @@
+.box {
+    position: relative;
+    z-index: 10;
+    display: flex;
+    column-gap: 2.5rem;
+    border-radius: 1.5rem;
+    border: 1px solid rgb(132 204 22 / .25);
+    background-image: linear-gradient(to top right, #dcfce7, #ecfccb);
+    padding: 2.5rem 3rem;
+    box-shadow: 0 20px 25px -5px rgb(21 128 61 / .1), 0 8px 10px -6px rgb(21 128 61 / .1);
+}
+
+[data-theme='dark'] .box {
+    background-image: linear-gradient(to top right, rgb(38 38 38 / .4), #262626);
+    border: 1px solid rgb(115 115 115 / .05);
+    box-shadow: 0 0 #000000;
+}
+
+.sibblingCard {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    border-radius: 1.5rem;
+    border: 1px solid rgb(132 204 22 / .2);
+    background-image: linear-gradient(to top right, #dcfce7, #ecfccb);
+}
+
+.sibblingCard:nth-of-type(1),
+.sibblingCard:nth-of-type(3) {
+    opacity: 45%;
+}
+
+.sibblingCard:nth-of-type(2),
+.sibblingCard:nth-of-type(4) {
+    opacity: 25%;
+}
+
+[data-theme='dark'] .sibblingCard {
+    display: none;
+}
+
+.sibblingCard:nth-of-type(1) {
+    transform: translate(-3.6rem, .25rem) scale(90%);
+}
+
+.sibblingCard:nth-of-type(3) {
+    transform: translate(3.6rem, .25rem) scale(90%);
+}
+
+.sibblingCard:nth-of-type(2) {
+    transform: translate(-8rem, 1.25rem) scale(75%);
+}
+
+.sibblingCard:nth-of-type(4) {
+    transform: translate(8rem, 1.25rem) scale(75%);
+}
+
+@media (max-width: 1600px) {
+    .sibblingCard:nth-of-type(1) {
+        transform: translate(0, -2rem) scale(90%);
+    }
+
+    .sibblingCard:nth-of-type(3) {
+        transform: translate(0, 2rem) scale(90%);
+    }
+
+    .sibblingCard:nth-of-type(2) {
+        transform: translate(0, -4.5rem) scale(75%);
+    }
+
+    .sibblingCard:nth-of-type(4) {
+        transform: translate(0, 4.5rem) scale(75%);
+    }
+}
+
+.informationArea {
+    flex: 1 1 0%;
+}
+
+.title {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 700;
+    color: #14532d;
+}
+
+[data-theme='dark'] .title {
+    color: rgb(250 250 250);
+}
+
+.mtsmall {
+    margin-top: .75rem;
+}
+
+.mtmedium {
+    margin-top: 1.25rem;
+}
+
+.mtbig {
+    margin-top: 1.5rem;
+}
+
+.mbhuge {
+    margin-bottom: 2rem;
+}
+
+.description,
+.descriptionSmall {
+    line-height: 1.625;
+    color: rgb(22 101 52 / .9);
+}
+
+[data-theme='dark'] .description,
+[data-theme='dark'] .descriptionSmall {
+    color: rgb(245 245 245 / .9);
+}
+
+.descriptionSmall {
+    font-size: .875rem;
+}
+
+.detailList {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: .75rem;
+}
+
+.detailList .item {
+    display: flex;
+    align-items: flex-start;
+}
+
+.detailList .item .icon {
+    margin-right: .75rem;
+    width: 1.25rem;
+    height: 1.25rem;
+    color: #22c55e;
+}
+
+[data-theme='dark'] .detailList .item .icon {
+    color: rgb(217 249 157 / .8);
+}
+
+.detailList .item .text {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    color: rgb(22 101 52 / .9);
+    padding-top: 1px;
+}
+
+[data-theme='dark'] .detailList .item .text {
+    color: rgb(245 245 245 / .9);
+}
+
+.voucherArea {
+    position: relative;
+    margin-right: .5rem;
+    display: flex;
+}
+
+.voucherSibblingCard {
+    position: absolute;
+    inset: 0;
+    transform-origin: bottom;
+    background-color: white;
+    opacity: 50%;
+    border-radius: 1rem;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / .1), 0 1px 2px -1px rgb(0 0 0 / .1);
+}
+
+[data-theme='dark'] .voucherSibblingCard {
+    opacity: 5%;
+}
+
+.voucherSibblingCard:nth-of-type(1) {
+    transform: translate(-1rem, -.5rem) rotate(-6deg) scale(85%);
+}
+
+.voucherSibblingCard:nth-of-type(2) {
+    transform: translate(1rem, -.5rem) rotate(6deg) scale(85%);
+}
+
+.cardDecoration {
+    color: rgb(190 242 100);
+}
+
+[data-theme='dark'] .cardDecoration {
+    color: rgb(190 242 100 / .2);
+}
+
+.voucherCard {
+    background-color: white;
+    position: relative;
+    z-index: 10;
+    width: 9rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 1rem;
+    border: 1px solid rgb(190 242 100 / .6);
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / .1), 0 4px 6px -4px rgb(0 0 0 / .1);
+}
+
+[data-theme='dark'] .voucherCard {
+    backdrop-filter: blur(24px);
+    background-color: transparent;
+    background-image: linear-gradient(to top right, rgb(64 64 64 / .8), rgb(82 82 82 / .8));
+    border: 1px solid transparent;
+}
+
+[data-theme='dark'] .voucherCard:before,
+[data-theme='dark'] .voucherCard:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-image: linear-gradient(to right, transparent, #a3e635, transparent);
+}
+
+[data-theme='dark'] .voucherCard:before {
+    height: 1px;
+    opacity: 20%;
+}
+
+[data-theme='dark'] .voucherCard:after {
+    height: 2px;
+    opacity: 80%;
+    filter: blur(12px);
+}
+
+.voucherCard .voucherLabel {
+    text-align: center;
+    font-weight: 700;
+    color: #365314;
+    font-size: .875rem;
+    line-height: 1.25rem;
+    padding: 1.75rem 1rem 1.5rem 1rem;
+}
+
+[data-theme='dark'] .voucherCard .voucherLabel {
+    color: rgb(247 254 231);
+}
+
+.voucherCard .cutLine {
+    position: relative;
+    margin-top: auto;
+    width: 100%;
+    border-top-width: 4px;
+    border-style: dotted;
+    border-color: rgb(217 249 157);
+    border-bottom-width: 0;
+}
+
+[data-theme='dark'] .voucherCard .cutLine {
+    border-color: rgb(82 82 82);
+}
+
+.voucherCard .cutLine:before,
+.voucherCard .cutLine:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 9999px;
+    background-color: rgb(217 249 157);
+    margin-top: -1px;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+[data-theme='dark'] .voucherCard .cutLine:before,
+[data-theme='dark'] .voucherCard .cutLine:after {
+    background-color: rgb(82 82 82);
+}
+
+.voucherCard .cutLine:before {
+    left: -1.25rem;
+}
+
+.voucherCard .cutLine:after {
+    right: -1.25rem;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    padding: 1.5rem;
+}
+
+.footer:hover .text {
+    color: rgb(54 83 20);
+}
+
+[data-theme='dark'] .footer:hover .text {
+    color: rgb(245 245 245);
+}
+
+.footer .text {
+    font-size: .688rem;
+    color: rgb(63 98 18 / .8);
+    transition-property: color;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 700ms;
+}
+
+[data-theme='dark'] .footer .text {
+    color: rgb(163 163 163);
+}
+
+.footer:hover .icon {
+    transform: translateX(.125rem);
+    color: rgb(63 98 18 / .8);
+}
+
+[data-theme='dark'] .footer:hover .icon {
+    color: rgb(229 229 229);
+}
+
+.footer .icon {
+    width: .75rem;
+    height: .75rem;
+    color: rgb(63 98 18 / .6);
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 300ms;
+    margin-left: .25rem;
+}
+
+[data-theme='dark'] .footer .icon {
+    color: rgb(115 115 115);
+}
+
+.backgroundFader {
+    position: absolute;
+    inset: 0;
+    background-image: linear-gradient(to bottom, var(--ifm-background-color), transparent);
+}
+
+.wiggleBg {
+    opacity: 75%;
+}
+
+[data-theme='dark'] .wiggleBg {
+    opacity: 10%;
+}
+
+@media (max-width: 525px) {
+    .box {
+        flex-direction: column;
+        padding: 2.5rem 5rem;
+        align-items: center;
+    }
+
+    .title {
+        font-size: 1.25rem;
+        line-height: 1.75rem;
+    }
+
+    .voucherArea {
+        display: flex;
+        margin-top: 3rem;
+        margin-right: 0;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .voucherCard {
+        width: 100%
+    }
+}
+
+@media (max-width: 400px) {
+    .box {
+        padding: 2.5rem;
+    }
+}

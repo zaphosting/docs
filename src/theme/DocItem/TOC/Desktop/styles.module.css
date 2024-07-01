@@ -1,0 +1,11 @@
+.container {
+    position: sticky;
+    top: calc(var(--ifm-navbar-height) + 1rem);
+    max-height: calc(100vh - (var(--ifm-navbar-height) + 2rem)) !important;
+    overflow-y: auto;
+    padding: 5px;
+}
+
+.mtbig {
+    margin-top: 2rem;
+}

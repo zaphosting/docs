@@ -1,0 +1,251 @@
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes spin-reverse {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(-360deg);
+    }
+}
+
+[data-theme='dark'] .box {
+    background-color: rgb(38 38 38);
+    border: none;
+}
+
+.box {
+    position: relative;
+    display: flex;
+    max-width: 13rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: .5em;
+    border: 1px solid rgb(228 228 231 / .6);
+    background-color: white;
+    text-align: center;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / .1), 0 1px 2px -1px rgb(0 0 0 / .1);
+}
+
+.giftContainer {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    padding: 1.25rem 0;
+}
+
+.giftContainer .whiteFadeOut {
+    position: absolute;
+    bottom: -1.25rem;
+    top: -1.75rem;
+    left: -100%;
+    right: -100%;
+    z-index: 10;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, .75) 0%, rgba(0, 0, 0, 0) 50%, rgba(255, 255, 255, 100));
+}
+
+[data-theme='dark'] .giftContainer .whiteFadeOut {
+    background-image: linear-gradient(to bottom, rgb(38 38 38) 0%, rgba(0, 0, 0, 0) 50%, rgb(38 38 38));
+}
+
+[data-theme='dark'] .giftContainer .spinLine {
+    border-color: rgb(132 204 22 / .1);
+}
+
+.giftContainer .spinLine {
+    position: absolute;
+    inset: -1.5rem;
+    border-radius: 9999px;
+    border: 1px solid rgb(132 204 22 / .2);
+}
+
+.giftContainer .spinAnchor {
+    position: absolute;
+    inset: 0;
+    left: 50%;
+    top: 50%;
+    display: flex;
+    z-index: 0;
+    transform: translate(-50%, -50%);
+}
+
+.giftContainer .spinAnchor > .spinBox {
+    position: absolute;
+    inset: 0;
+    opacity: .75;
+    animation: spin 10000ms linear infinite;
+}
+
+[data-theme='dark'] .giftContainer .spinAnchor > .spinBox > .spinItem {
+    background-color: rgb(54 83 20 / .25);
+}
+
+.giftContainer .spinAnchor > .spinBox > .spinItem {
+    position: absolute;
+    height: 2rem;
+    width: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(77 124 15 / 0.1);
+    border-radius: 9999px;
+    background-color: white;
+}
+
+.giftContainer .spinAnchor > .spinBox > .spinItem.spinItemRight {
+    transform: translate(3.5rem);
+}
+.giftContainer .spinAnchor > .spinBox > .spinItem.spinItemLeft {
+    transform: translate(-3.5rem);
+}
+.giftContainer .spinAnchor > .spinBox > .spinItem.spinItemBottom {
+    transform: translate(0, 3.5rem);
+}
+.giftContainer .spinAnchor > .spinBox > .spinItem.spinItemTop {
+    transform: translate(0, -3.5rem);
+}
+
+.giftContainer .spinAnchor > .spinBox > .spinItem > .icon {
+    width: 1rem;
+    height: 1rem;
+    color: #BEF264;
+    animation: spin-reverse 10000ms linear infinite;
+}
+
+[data-theme='dark'] .giftContainer .giftPackage {
+    background-color: rgb(54 83 20 / .2);
+}
+
+.giftContainer .giftPackage {
+    position: relative;
+    z-index: 20;
+    display: flex;
+    width: 4rem;
+    height: 4rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 9999px;
+    background-color: #F7FEE7;
+}
+
+[data-theme='dark'] .giftContainer .giftPackage > .icon {
+    color: rgb(217 249 157);
+}
+
+.giftContainer .giftPackage > .icon {
+    width: 1.5rem;
+    height: 1.5rem;
+    color: #4D7C0F;
+}
+
+.contentContainer {
+    position: relative;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 1.5rem;
+}
+
+[data-theme='dark'] .contentContainer .voucherValue {
+    color: rgb(247 254 231);
+}
+
+.contentContainer .voucherValue {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    font-weight: 600;
+    color: #27272A;
+}
+
+[data-theme='dark'] .contentContainer .voucherLabel {
+    color: rgb(236 252 203);
+}
+
+.contentContainer .voucherLabel {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    color: #3F3F46;
+}
+
+.contentContainer .actionLink {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+[data-theme='dark'] .contentContainer .actionLink .actionLabel {
+    color: rgb(115 115 115);
+}
+
+.contentContainer .actionLink .actionLabel {
+    padding-right: 0.25rem;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    color: #71717A;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 700ms;
+}
+
+[data-theme='dark'] .contentContainer .actionLink:hover .actionLabel {
+    color: rgb(244 244 245);
+}
+
+.contentContainer .actionLink:hover .actionLabel {
+    color: #27272A;
+}
+
+[data-theme='dark'] .contentContainer .actionLink .icon {
+    color: rgb(82 82 82);
+}
+
+.contentContainer .actionLink .icon {
+    width: .75rem;
+    height: .75rem;
+    color: #A1A1AA;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 300ms;
+}
+
+[data-theme='dark'] .contentContainer .actionLink:hover .icon {
+    color: rgb(212 212 216);
+}
+
+.contentContainer .actionLink:hover .icon {
+    color: #52525B;
+    transform: translate(.125rem);
+}
+
+.mtsmall {
+    margin-top: 1rem;
+}
+
+.mtbig {
+    margin-top: 2rem;
+}
+
+.mbmid {
+    margin-bottom: 1.5rem;
+}
+
+.loader {
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}

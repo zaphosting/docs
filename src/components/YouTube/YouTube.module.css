@@ -1,25 +1,25 @@
-[data-theme='light'] .YouTubeContainer {
+.YouTubeContainer {
   display: flex;
   max-width: 100%;
   border-radius: 8px;
   overflow: hidden;
-  border: 1px solid lightgrey;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-  margin: 20px 0;
+  margin: 30px 0;
+}
+
+[data-theme='light'] .YouTubeContainer {
+  border: 1px solid rgb(228 228 231 / .6);
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / .1), 0 1px 2px -1px rgb(0 0 0 / .1);
+  background-color: white;
 }
 
 [data-theme='dark'] .YouTubeContainer {
-  display: flex;
-  max-width: 100%;
-  border-radius: 8px;
-  overflow: hidden;
   border: 1px solid lightgrey;
   box-shadow: 0 4px 8px rgba(187, 185, 185, 0.3);
-  margin: 20px 0;
 }
 
 .videoContainer {
-  flex-basis: 30%;
+  width: 30%;
+  flex-shrink: 0;
 }
 
 .videoIframe {
@@ -29,13 +29,14 @@
 }
 
 .contentContainer {
-  flex-basis: 70%;
-  padding: 10px;
+  flex: 1 1 0%;
+  padding: 10px 30px;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
   justify-content: center;
   cursor: pointer;
+  min-width: 0;
 }
 
 .title {
@@ -43,15 +44,15 @@
   font-weight: bold;
   margin: 0px 0px 10px 0px;
   text-overflow: ellipsis;
-  overflow: hidden; 
-  width: 95%;
+  overflow: hidden;
+  max-width: 95%;
   white-space: nowrap;
 }
 
 .description {
   font-size: 0.75rem;
   margin: 0;
-  width: 95%;
+  line-height: 2;
 }
 
 @media (max-width: 768px) {
@@ -61,6 +62,10 @@
 
   .videoContainer, .contentContainer {
     flex-basis: 50%;
+  }
+
+  .videoContainer {
+    width: 100%;
   }
 
   .videoIframe {
