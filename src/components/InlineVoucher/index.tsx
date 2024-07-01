@@ -45,7 +45,7 @@ export default function InlineVoucher({ showProducts = true }): JSX.Element {
           {found === true &&
             <>
               <div className={styles.wiggleBg + ' wiggle-bg'} style={{
-                'height': '7rem',
+                'height': '4.5rem',
                 'margin': '0 1rem',
                 'position': 'relative',
               }}>
@@ -223,7 +223,7 @@ export default function InlineVoucher({ showProducts = true }): JSX.Element {
                   </div>
                 </div>
               <div className={styles.wiggleBg + ' wiggle-bg'} style={{
-                'height': '7rem',
+                'height': '4.5rem',
                 'margin': '0 1rem',
                 'position': 'relative',
               }}>
