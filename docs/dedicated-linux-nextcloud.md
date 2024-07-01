@@ -3,9 +3,11 @@ id: dedicated-linux-nextcloud
 title: "Dedicated Server: Installation of Nextcloud"
 description: Information on how to set up a Nextcloud server on your server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Install Nextcloud
+services:
+  - dedicated
 ---
 
-
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
@@ -41,8 +43,7 @@ In order to achieve optimal performance, stability and functionality, the follow
 The prerequisites are based on our own experience and the information provided by the developers..
 :::
 
-
-
+<InlineVoucher />
 
 ## Preparation
 

@@ -3,7 +3,13 @@ id: fivem-vrp-changemoneyicon
 title: "FiveM: Change money icon"
 description: Information on how to change the money icon for your FiveM server with VRP from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Change Money Icon
+services:
+  - gameserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
+
+<InlineVoucher />
 
 ## Connect with FTP
 

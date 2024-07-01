@@ -3,9 +3,17 @@ id: sunkenland-setup-server
 title: "Sunkenland: Sunkenland Server Setup"
 description: Information about setting up your Sunkenland game server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Server Setup
+services:
+  - gameserver
 ---
 
+import InlineVoucher from '@site/src/components/InlineVoucher';
+
+## Introduction
+
 Sunkenland servers require a quick first-time setup in order for the server to function correctly. In this guide, we will explore the steps necessary to setup your Sunkenland game server.
+
+<InlineVoucher />
 
 ## Prerequisites
 Before proceeding, you will have to first launch Sunkenland and create a world save file. Ensure that you save the world before proceeding.

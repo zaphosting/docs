@@ -3,10 +3,16 @@ id: valheim-plugins-bepinex
 title: "Valheim: Installing plugins on server (BepInEx)"
 description: Information on how to install plugins on your Valheim server using BepInEx (Valheim Plus Server) from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Install plugins (BepInEx)
+services:
+  - gameserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 BepInEx is a highly popular open-source plugin and modding framework which enables players to add mods to a range of games that traditionally do not support official modding. In this guide, we will show how you can install plugins through BepInEx on Valheim.
+
+<InlineVoucher />
 
 ## BepInEx Game Version
 

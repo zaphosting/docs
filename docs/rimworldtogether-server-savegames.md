@@ -3,13 +3,21 @@ id: rimworldtogether-server-savegames
 title: "Rimworld Together: Managing Rimworld Together Savegames"
 description: Information on how to manage savegames on your Rimworld Together server from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Manage Savegames
+services:
+  - gameserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
+
+## Introduction
 
 In this guide, we will explore how to manage your Rimworld Together Gamesaves on your game server, including backing up your local and server savegames as well as uploading it to your server.
 
 :::info
 Keep in mind that moving an existing vanilla game to a Rimworld Together server with mods will likely result in gameplay issues. This especially applies when moving worlds between servers with different mods.
 :::
+
+<InlineVoucher />
 
 ## Prerequisites
 

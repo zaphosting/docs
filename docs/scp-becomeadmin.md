@@ -3,11 +3,17 @@ id: scp-becomeadmin
 title: "SCP Secret Laboratory: Become an admin on your own server"
 description: Information on how to become an admin on your SCP server from ZAP-Hosting.com - ZAP-Hosting.com documentation
 sidebar_label: Become admin
+services:
+  - gameserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 :::info
 NOTICE: Since recent SCP Updates, the password login is no longer functional. Please use the following guide to add your roles directly by the steamid. 
 :::
+
+<InlineVoucher />
 
 ## Configuration for the Remote Admin Config
 

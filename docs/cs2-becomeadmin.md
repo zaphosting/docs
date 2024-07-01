@@ -3,13 +3,17 @@ id: cs2-becomeadmin
 title: "CS2: Become admin"
 description: Information on how to become an admin on your CS2 server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Become admin
+services:
+  - gameserver
 ---
 
-
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
 Using administrator privileges allows you to manage the server in-game. This gives you the ability to execute commands through the console.
+
+<InlineVoucher />
 
 ## Prerequisites
 To use administrator privileges, a foundation must first be established. By default, CS2 does not offer comprehensive administration management. However, there are frameworks for this purpose, such as CounterStrikeSharp. The framework must be installed for configuration. If you have not installed it yet, feel free to check out our [Install Plugins](cs2-plugins) guide.

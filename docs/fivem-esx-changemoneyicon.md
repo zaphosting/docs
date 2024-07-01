@@ -3,7 +3,13 @@ id: fivem-esx-changemoneyicon
 title: "FiveM: Change money icon"
 description: Information on how to change the money icon on your FiveM server with ESX from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Change Money Icon
+services:
+  - gameserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
+
+<InlineVoucher />
 
 ## Connect with FTP
 

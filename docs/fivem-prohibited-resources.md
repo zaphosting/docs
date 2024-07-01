@@ -3,13 +3,19 @@ id: fivem-prohibited-resources
 title: "FiveM: Error: 'Resource contains prohibited logic?'"
 description: Information about the error "Resource contains prohibited logic" on a FiveM server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Resource contains prohibited logic
+services:
+  - gameserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
 The developers of FiveM resources have taken great efforts in recent years to protect their source code using techniques such as obfuscation, IP locking, remote code loading and other methods. Unfortunately, these measures often lead to problems, which many already know about. Some of these tools do not just significantly slow down the performance of the code, but also introduce numerous security concerns.
 
 FiveM has therefore started blocking malicious resources that contain malicious code designed to infect servers and other resources. These resources sometimes try to "spread" their code to other resources to give third parties access to scripts and databases. It is important to note that these resources can generally be compared to viruses and therefore represent a serious threat.
+
+<InlineVoucher />
 
 ## What does "Resource contains prohibited logic" mean?
 

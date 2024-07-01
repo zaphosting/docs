@@ -3,10 +3,11 @@ id: dedicated-linux-gs-interface
 title: "Dedicated Server: Gameserver/TS3 Interface"
 description: Information on how to install TS and game server via the game server/TS3 interface with just a few clicks - ZAP-Hosting.com documentation
 sidebar_label: GS/TS3 Interface
-
+services:
+  - dedicated
 ---
 
-
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
@@ -14,7 +15,7 @@ sidebar_label: GS/TS3 Interface
 
 To solve this problem, we have developed a practical solution for our Linux-based VPS, root server, or dedicated server. The so-called Gameserver/Teamspeak 3 Server interface (GS/TS3 Interface)!
 
-
+<InlineVoucher />
 
 ## Use of the GS/TS3 interface
 

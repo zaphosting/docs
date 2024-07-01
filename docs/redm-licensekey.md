@@ -3,11 +3,17 @@ id: redm-licensekey
 title: "RedM: Add your own license key (Patreon) to the server"
 description: Information on how to create your own custom license key (from Patreon) and add it to your RedM server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Own License Key
+services:
+  - gameserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Why would you need a custom key?
 
 You would require your own license key, primarily if you wish to use your [RedM Patreon](https://www.patreon.com/fivem/posts) benefits including items such as Onesync, coloured server name and more. Alternatively, you may want a custom license key to change the listed owner on the server list or if you receive an error that the automatically generated ZAP key is invalid.
+
+<InlineVoucher />
 
 ## Preparation
 

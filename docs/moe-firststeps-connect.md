@@ -3,9 +3,11 @@ id: moe-firststeps-connect
 title: "Myth of Empires: Connect to the server"
 description: Information on how to connect to a Myth of Empires server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Connect to the server
+services:
+  - gameserver
 ---
 
-
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
@@ -13,7 +15,7 @@ Are you unsure about what you need to connect to your server in general or how t
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/ridFqb6psM7b25G/preview)
 
-
+<InlineVoucher />
 
 ## Prerequisites
 

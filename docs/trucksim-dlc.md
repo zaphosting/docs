@@ -3,7 +3,13 @@ id: trucksim-dlc
 title: "Truck Sim: Activate DLC/Mods"
 description: Information on how to activate DLCs and mods on your Trucksim server
 sidebar_label: Activate DLC/Mods
+services:
+  - gameserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
+
+<InlineVoucher />
 
 ## Activate Console
 

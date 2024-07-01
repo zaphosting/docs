@@ -3,14 +3,18 @@ id: minecraft-default-config
 title: "Minecraft: Server Config settings"
 description: Information about the server config settings of your Minecraft server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Server Config
+services:
+  - gameserver
 ---
 
-Click here to get to our Minecraft servers: [Minecraft server hosting](https://zap-hosting.com/en/minecraft-server-hosting/)
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## What can I set in this config?
 
 Minecraft already comes with a small config called *server.properties*.
 The server can be fundamentally configured in. Here we describe what the individual points do and what needs to be considered when making changes. Some settings are **carefully** treated, as they sometimes drasticly influence on the performance of the server, which can lead among other things to instability of the server.
+
+<InlineVoucher />
 
 ### view-distance
 

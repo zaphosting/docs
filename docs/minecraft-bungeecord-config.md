@@ -3,13 +3,17 @@ id: minecraft-bungeecord-config
 title: "Minecraft: Bungeecord Server Server Config Settings"
 description: Information about the server config settings for your bungeecord server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Server Properties
+services:
+  - gameserver
 ---
 
-Click here to get to our Minecraft servers: [Minecraft server hosting](https://zap-hosting.com/en/minecraft-server-hosting/)
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## What do I need a BungeeCord Configuration for?
 
 BungeeCord is the management of a bundle of servers that are connected through the proxy server (BungeeCord server). To customize the network of these servers, the file *config.yml* must be edited. On this page you will learn the exact meaning of each setting and you get additional information about the impact on the sub-servers such as PaperSpigot and Bukkit servers.
+
+<InlineVoucher />
 
 ## Settings
 

@@ -3,7 +3,11 @@ id: gameserver-database-external-access
 title: 'Game server: External database access'
 description: Information on how to access the databases of game servers from ZAP-Hosting with external administration programs - ZAP-Hosting.com documentation
 sidebar_label: External database access
+services:
+  - gameserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
@@ -12,6 +16,8 @@ ZAP-Hosting offers MySQL databases inclusive for the game server products. These
 The user credentials to access the database are required for this purpose. Those can be found in the game server administration under databases. For this you need the information regarding **server/IP**, **database**, **user**, **password** and the default port **3306**:
 
 ![image](https://user-images.githubusercontent.com/13604413/159171035-cbada76f-c540-42d1-8a77-26d9b09acaa1.png)
+
+<InlineVoucher />
 
 ## Preparation
 

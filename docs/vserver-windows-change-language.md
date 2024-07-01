@@ -3,12 +3,18 @@ id: vserver-windows-change-language
 title: "VPS: Add/change language on Windows Server"
 description: Information on how to change the language of your Windows VPS from ZAP-Hosting and how to add languages - ZAP-Hosting.com documentation
 sidebar_label: Add/change language
+services:
+  - vserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 :::info
 By default we provide Windows in German and English, you can identify that on the (DE) and (EN) tags
 :::
 ***
+
+<InlineVoucher />
 
 ## Preparation
 

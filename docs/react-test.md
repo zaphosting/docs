@@ -5,6 +5,7 @@ sidebar_label: React Test
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';
+import InlineVoucher from '@site/src/components/InlineVoucher';
 import Advertisements from '@site/src/components/Advertisements/Advertisements';
 
 ## Introduction

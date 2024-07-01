@@ -3,15 +3,17 @@ id: dedicated-linux-java
 title: "Dedicated Server: Installation of Java"
 description: Information on how to install Java on your server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Install Java
+services:
+  - dedicated
 ---
 
-
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
 Java is a very popular programming language that is used worldwide for numerous programs and services. To run these programs based on Java it is absolutely necessary that Java is installed on the system. In the following you will learn how to install Java on your system for the offered Linux operating systems. 
 
-
+<InlineVoucher />
 
 ## Preparation
 

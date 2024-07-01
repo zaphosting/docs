@@ -3,14 +3,19 @@ id: dedicated-windows-valheim
 title: "Dedicated Server: Valheim Dedicated Server Setup"
 description: Information about setting up a Valheim Dedicated Server on a Dedicated Server - ZAP-Hosting.com documentation
 sidebar_label: Valheim
+services:
+  - dedicated
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 Got a dedicated server and want to install game servers on it? For example an Valheim Dedicated Server? Then you are at the right place! In the following we will explain step by step how you can install such a service on your server.
 
 <YouTube videoId="Trs9Ysxa1gc" title="Valehim Dedicated Server Setup on Windows VPS" description="Feel like you understand better when you see things in action?  We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
+
+<InlineVoucher />
 
 ## Preparation
 For the setup of a Valheim server the SteamCMD is needed. The SteamCMD is the **command line edition of the Steam client**. This tool can be used to quickly and easily download the dedicated server applications of popular Steam games. You will find the SteamCMD on the official Valve developer website: https://developer.valvesoftware.com/wiki/SteamCMD. 

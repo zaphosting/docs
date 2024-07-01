@@ -3,7 +3,13 @@ id: valheim-savegame
 title: "Valheim: Managing savegames on servers"
 description: Information on how to manage savegames and worlds on your Valheim server from ZAP-Hosting and how to add existing worlds to your server - ZAP-Hosting.com documentation
 sidebar_label: Manage Savegames
+services:
+  - gameserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
+
+<InlineVoucher />
 
 ## Download Savegames
 

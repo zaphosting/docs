@@ -3,13 +3,12 @@ id: terraria-firststeps-dashboard
 title: "Terraria: Dashboard Overview"
 description: Information about the dashboard of an Terraria server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Dashboard
+services:
+  - gameserver
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';
-
-import Advertisements from '@site/src/components/Advertisements/Advertisements';
-
-
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
@@ -19,7 +18,7 @@ After going through this guide, you will easily be able to manage your server ef
 
 <YouTube videoId="3k7AySyv0S4" title="Terraria server in just a MINUTE!" description="Feel like you understand better when you see things in action?  We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
 
-
+<InlineVoucher />
 
 ## Information
 

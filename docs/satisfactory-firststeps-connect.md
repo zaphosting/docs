@@ -2,9 +2,12 @@
 id: satisfactory-firststeps-connect
 title: "Satisfactory: Connect to the Server"
 description: Information about connecting to a Satisfactory Server from ZAP-Hosting - ZAP-Hosting.com documentation
+sidebar_label: Connect to server
+services:
+  - gameserver
 ---
 
-
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
@@ -12,7 +15,7 @@ Are you unsure about what you need to connect to your server in general or how t
 
 ![image-20230227165554296](C:\Users\ZAP Florian Galz\AppData\Roaming\Typora\typora-user-images\image-20230227165554296.png)
 
-
+<InlineVoucher />
 
 ## Prerequisites
 

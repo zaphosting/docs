@@ -3,11 +3,17 @@ id: fivem-installeup
 title: "FiveM: Install EUP on server"
 description: Information on how to install EUP on your FiveM server from ZAP-Hosting.com - ZAP-Hosting.com documentation
 sidebar_label: Install EUP
+services:
+  - gameserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 :::info
 To install the EUP a Fivem Element Argentum (or higher) key is required [Fivem Patreon](https://www.patreon.com/fivem)
 :::
+
+<InlineVoucher />
 
 ## Connect to FTP
 

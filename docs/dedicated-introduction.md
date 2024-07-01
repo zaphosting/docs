@@ -3,9 +3,11 @@ id: dedicated-introduction
 title: "Dedicated Server: Introduction"
 description: Introduction and information about the dedicated server product from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Introduction
+services:
+  - dedicated
 ---
 
-
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
@@ -14,6 +16,8 @@ Are you looking for your own server with powerful configuration at a fair price?
 Unlike a virtual server (vRootserver), you will have your own physical hardware with a dedicated server. This means that when you rent/buy a Dedicated Server, the full power of all components is available only to you and your applications. Virtual servers, on the other hand, run on a host system whose resources are shared with other virtual servers.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/9YMG6QfsNzzjCSQ/preview)
+
+<InlineVoucher />
 
 ## Ordering
 

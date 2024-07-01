@@ -3,9 +3,13 @@ id: minecraft-server-optimize
 title: "Minecraft: server performance optimisation"
 description: Information on how to optimise your Minecraft server from ZAP-Hosting for better performance - ZAP-Hosting.com documentation
 sidebar_label: Minecraft-Server Optimization
+services:
+  - gameserver
 ---
 
-Click here to get to our Minecraft servers: [Minecraft server hosting](https://zap-hosting.com/en/minecraft-server-hosting/)
+import InlineVoucher from '@site/src/components/InlineVoucher';
+
+<InlineVoucher />
 
 ### What exactly happens during optimization?
 

@@ -3,9 +3,13 @@ id: unturned-firststeps-dashboard
 title: "Unturned: Dashboard Overview"
 description: Information about the dashboard of an Unturned server from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Dashboard
+services:
+  - gameserver
 ---
 
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
+<InlineVoucher />
 
 ## Introduction
 

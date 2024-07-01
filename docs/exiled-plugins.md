@@ -3,8 +3,14 @@ id: exiled-plugins
 title: Installing plugins on your server
 description: Information on how to install plugins on your EXILED  server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Plugins Install
+services:
+  - gameserver
 
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
+
+<InlineVoucher />
 
 ## Plugins installation
 

@@ -3,15 +3,17 @@ id: fivem-gamebuild
 title: "FiveM: Enable DLC Content"
 description: Information on how to enable a DLC gamebuild for FiveM servers - ZAP-Hosting.com - Documentation
 sidebar_label: Enable DLC Gamebuild
+services:
+  - gameserver
 ---
 
-
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
 Enforcing game build allows you to force a specific DLC version to your server, allowing you to play with the latest maps, clothing, vehicles and more! You can do this very simply, use the sections below based on your game server type to active it.
 
-
+<InlineVoucher />
 
 ## Available Gamebuilds
 

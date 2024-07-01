@@ -3,10 +3,13 @@ id: factorio-becomeadmin
 title: "Factorio: Become an Admin"
 description: Information on how to become an admin on your Factorio server at ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Become admin
-
+services:
+  - gameserver
 ---
 
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
+<InlineVoucher />
 
 Administrator rights allow you to make changes directly in the game on your server without having to change it in the Config. Adding an admin is done via the **server-settings.json** Config, which you can find in the interface under Configs.
 

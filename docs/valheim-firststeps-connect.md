@@ -3,9 +3,11 @@ id: valheim-firststeps-connect
 title: "Valheim: Connect to the server"
 description: Information about connecting to a Valheim server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Connect to the server
+services:
+  - gameserver
 ---
 
-
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
@@ -13,7 +15,7 @@ Are you unsure about what you need to connect to your server in general or how t
 
 ![image](https://user-images.githubusercontent.com/26007280/218265852-80d7699f-65a9-42b4-a9ac-b50cf61862f7.png)
 
-
+<InlineVoucher />
 
 ## Prerequisites
 

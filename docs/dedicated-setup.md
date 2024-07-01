@@ -3,11 +3,16 @@ id: dedicated-setup
 title: "Dedicated Server: Initial setup"
 description: Information about the initial setup of your dedicated server from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Initial setup
+services:
+  - dedicated
 ---
 
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 Are you still new to this area and worried that you might not be able to cope with setting up such a service or that you might encounter difficulties when doing so? No worries! This guide and our setup assistant will take you through all the steps for the initial setup of your ZAP Dedicated Server. 
+
+<InlineVoucher />
 
 ## Preperation
 

@@ -3,11 +3,17 @@ id: vserver-linux-phpmyadmin
 title: "VPS: Installation of phpMyAdmin"
 description: Information on how to install and set up phpMyAdmin on your Linux VPS from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Install phpMyAdmin
+services:
+  - vserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
 phpMyAdmin is a free, web-based tool for managing MySQL and MariaDB databases. It provides a user-friendly interface that allows users to create, edit, manage and delete databases without having to enter SQL commands manually. 
+
+<InlineVoucher />
 
 ## Preparation
 

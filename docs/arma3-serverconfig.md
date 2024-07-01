@@ -3,8 +3,11 @@ id: arma3-serverconfig
 title: "ArmA 3: Edit server configuration file"
 description: Information about the settings and configuration options of the server.cfg file of your Arma 3 server from ZAP-Hosting - ZAP-Hosting.com 
 sidebar_label: Server.cfg
+services:
+  - gameserver
 ---
 
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Server.cfg parameters and configuration
 
@@ -15,8 +18,7 @@ The Server.cfg is edited either directly via FTP on a pre-installed game server,
 With a game server the menu item Configs is also available on the left side in the game server interface, from there the
 Server.cfg can be edited with a few clicks.
 
-
-
+<InlineVoucher />
 
 ## Edit the Server.cfg via the ZAP editor
 

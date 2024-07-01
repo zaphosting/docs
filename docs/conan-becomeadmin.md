@@ -3,9 +3,13 @@ id: conan-becomeadmin
 title: "Conan Exiles: Become an admin on your own server"
 description: Information on how to become an admin on your Conan Exiles server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Become admin
+services:
+  - gameserver
 ---
 
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
+<InlineVoucher />
 
 ## Become Admin 
 

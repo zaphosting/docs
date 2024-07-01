@@ -3,15 +3,19 @@ id: vserver-windows-palworld
 title: "VPS: Palworld Dedicated Server Setup"
 description: Information about setting up a Palworld Dedicated Server on a VPS/Root server - ZAP-Hosting.com documentation
 sidebar_label: Palworld
+services:
+  - vserver
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
 Do you have a Windows VPS or root server and you want to install the Palworld Dedicated server service on it? You are in the right place. In this guide, we will explain the step by step process of installing this service on your server.
 
 <YouTube videoId="thn0wDE5LDg" title="How To Setup Palworld Dedicated Server on Windows VPS!" description="Feel like you understand better when you see things in action?  We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
+<InlineVoucher />
 
 ## Preparation
 
