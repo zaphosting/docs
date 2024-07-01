@@ -8,6 +8,7 @@ services:
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
+
 <InlineVoucher />
 
 ## Port Forwarding
