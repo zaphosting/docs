@@ -136,6 +136,7 @@ const sidebars = {
     "gameserver-restartplaner",
     "gameserver-backups",
     "gameserver-server-down-what-now",
+    "gameserver-subdomain",
     "gameserver-tebex",
     {
       type: "category",
