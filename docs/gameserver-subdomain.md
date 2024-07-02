@@ -11,7 +11,7 @@ Our Game Servers now come with a brand new feature that provides you with a conv
 
 When activated, you will begin to see an automatic `xxx`**.zap.cloud** subdomain across your web interface, which makes it much more convenient to input for you and your player base when accessing the server and connecting in-game.
 
-You will still be able to see your regular IP Address besides the automatic ZAP Cloud subdomain.
+You will still be able to see your regular IP Address, besides the automatic ZAP Cloud subdomain.
 
 ![image](https://screensaver01.zap-hosting.com/index.php/s/yJTBQ7oC926LfbT/preview)
 
@@ -42,7 +42,7 @@ Head over to the very bottom and find the **Resolve subdomain** button within th
 Simply press this button to activate or refresh the ZAP Cloud subdomain.
 
 :::info
-It make take up to a few minutes for the subdomain to become visible and active!
+It may take up to a few minutes for the subdomain to become visible and active!
 :::
 
 :::tip
@@ -51,7 +51,7 @@ If you do not see this button, this means that your current game is **not suppor
 
 ### Alternative Methods
 
-You can choose to contact our friendly Support Team by [creating a ticket on our website](https://zap-hosting.com/en/customer/support/) and we will be more than happy to active the feature for you if it is available for the installed game.
+You can choose to contact our friendly Support Team by [creating a ticket on our website](https://zap-hosting.com/en/customer/support/) and we will be more than happy to activate the feature for you if it is available for the installed game.
 
 Your Game Server will also have the feature automatically enabled if the game is supported, when you:
 - Re-install your Game Server

@@ -5,7 +5,7 @@ description: Informationen über die automatische ZAP-Subdomain (zap.cloud) für
 sidebar_label: ZAP Cloud Subdomain
 ---
 
-## Einleitung
+## Einführung
 
 Unsere Gameserver sind jetzt mit einer brandneuen Funktion ausgestattet, die dir eine bequeme ZAP Cloud Subdomain zur Verfügung stellt, die zu deiner herkömmlichen IP-Adresse hinzukommt, wenn das aktuell installierte Spiel unterstützt wird.
 
@@ -35,18 +35,18 @@ Gehe einfach zum Abschnitt **Einstellungen** im Webinterface deines Gameservers.
 
 ![image](https://screensaver01.zap-hosting.com/index.php/s/8aWGLAopEWHZSW6/preview)
 
-Gehe ganz nach unten und suche die Schaltfläche **Subdomain neu auflösen** im Abschnitt **Aktionen**.
+Gehe ganz nach unten und suche den Button **Subdomain neu auflösen** im Abschnitt **Aktionen**.
 
 ![image](https://screensaver01.zap-hosting.com/index.php/s/FAmDk3ZoytnkTTm/preview)
 
-Drücke einfach auf diese Schaltfläche, um die ZAP Cloud Subdomain zu aktivieren oder zu aktualisieren.
+Drücke einfach auf diesen Button, um die ZAP Cloud Subdomain zu aktivieren oder zu aktualisieren.
 
 :::info
 Es kann ein paar Minuten dauern, bis die Subdomain sichtbar und aktiv wird!
 :::
 
 :::tip
-Wenn du diese Schaltfläche nicht siehst, bedeutet das, dass die ZAP-Subdomain-Funktion für dein aktuelles Spiel **nicht** unterstützt wird. Du kannst dich gerne an [unseren Support](https://zap-hosting.com/en/customer/support/) wenden, um zu sehen, ob wir diese Funktion hinzufügen können :)
+Wenn du diesen Button nicht siehst, bedeutet das, dass die ZAP-Subdomain-Funktion für dein aktuelles Spiel **nicht** unterstützt wird. Du kannst dich gerne an [unseren Support](https://zap-hosting.com/en/customer/support/) wenden, um zu sehen, ob wir diese Funktion hinzufügen können :)
 ::: 
 
 ### Alternative Methoden
@@ -60,7 +60,7 @@ Auf deinem Gameserver wird die Funktion auch automatisch aktiviert, wenn das Spi
 
 ## Fehlersuche
 
-Wenn du Probleme mit der ZAP Cloud-Subdomain hast, kannst du versuchen, das Problem selbst zu lösen, indem du im Webinterface deines Gameservers unter **Einstellungen** auf die Schaltfläche **Subdomain auflösen** klickst, die sich am unteren Rand befindet.
+Wenn du Probleme mit der ZAP Cloud-Subdomain hast, kannst du versuchen, das Problem selbst zu lösen, indem du im Webinterface deines Gameservers unter **Einstellungen** auf den Button **Subdomain auflösen** klickst, die sich am unteren Rand befindet.
 
 ![image](https://screensaver01.zap-hosting.com/index.php/s/FAmDk3ZoytnkTTm/preview)
 
