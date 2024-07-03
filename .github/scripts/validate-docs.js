@@ -55,6 +55,26 @@ changedFiles.forEach(file => {
   if (errors.length > 0) {
     comment += `### Found possible issues in \`${file}\`\n` + errors.join('\n') + '\n\n';
   }
+
+
+  // Check for Tabs & TabItem tag and corresponding import statement
+  const tabsTagRegex = /<Tabs\b[^>]*\/>/g;
+  const tabsImportRegex = /import\s+Tabs\s+from\s+'@theme\/Tabs';/;
+
+  if (fileContent.match(tabsTagRegex) && !fileContent.match(tabsImportRegex)) {
+    errors.push('- Missing import statement for Tabs component, please add `import Tabs from \'@theme/Tabs\';` to the docs page.');
+  }
+
+  const tabItemTagRegex = /<TabItem\b[^>]*\/>/g;
+  const tabItemImportRegex = /import\s+TabItem\s+from\s+'@theme\/TabItem';/;
+
+  if (fileContent.match(tabItemTagRegex) && !fileContent.match(tabItemImportRegex)) {
+    errors.push('- Missing import statement for TabItem component, please add `import TabItem from \'@theme/TabItem\';` to the docs page.');
+  }
+
+  if (errors.length > 0) {
+    comment += `### Found possible issues in \`${file}\`\n` + errors.join('\n') + '\n\n';
+  }
 });
 
 if (comment) {
