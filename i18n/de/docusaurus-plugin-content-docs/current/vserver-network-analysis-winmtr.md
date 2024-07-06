@@ -3,9 +3,11 @@ id: vserver-network-analysis-winmtr
 title: "vServer: Netzwerkanalyse mit MTR/WinMTR"
 description: Informationen, wie du eine Netzwerkanalyse mit MTR/WinMTR durchführen kannst, um Netzwerkprobleme zu identifizieren - ZAP-Hosting.com Dokumentation
 sidebar_label: Netzwerkanalyse
+services:
+  - vserver
 ---
 
-
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
@@ -15,7 +17,7 @@ WinMTR ist ein Netzwerk-Diagnose-Programm, welches die Funktion von Ping und Tra
 
 Hierbei werden alles Nodes aufgelistet, welche benutzt werden, um ans Ziel zu kommen. Bei möglichen Problemen kann man so erkennen, ob es Probleme seitens des Servers oder diese bereits bei einem selbst auftreten. Der Startpunkt fängt mit dem ersten Eintrag an und das Ende (ZAP - 104.xx.xx) als letzter Eintrag.
 
-
+<InlineVoucher />
 
 ## Zeitpunkt der Erstellung einer Auswertung
 

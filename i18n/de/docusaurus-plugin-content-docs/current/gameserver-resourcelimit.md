@@ -3,9 +3,11 @@ id: gameserver-resourcelimit
 title: 'Gameserver: Ressourcenlimit - Gameserver freischalten'
 description: Informationen, wie du deinen Gameserver freischalten kannst, wenn er durch Überschreitung des Ressourcenlimits gesperrt wurde - ZAP-Hosting.com Dokumentation
 sidebar_label: Ressourcenlimit
+services:
+  - gameserver
 ---
 
-
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Sperrung deines Gameservers
 
@@ -13,19 +15,15 @@ Oh nein, leider ist es passiert! Doch warum? Die Ursachen für eine Sperrung kö
 
 ![image](https://user-images.githubusercontent.com/13604413/159170760-095b4170-6039-4e6b-9774-ab468c2d754b.png)
 
-
-
 Die Ursache für die Sperrung ist eine Überschreitung des Ressourcenlimits. Das bedeutet, dass der Server über einen längeren Zeitraum mehr Ressourcen verbraucht, als du für deinen Dienst gebucht hast. Bei einer kurzen Überschreitung ist das kein Problem. Dort stellen wir dennoch auch mehr zur Verfügung, um eine umgehende Sperrung und Probleme zu vermeiden. 
 
 Sollte diese allerdings über einen längeren Zeitraum überschritten werden, dann wird der Server automatisch gesperrt. Durch einen Klick auf das rote Fragezeichen kann man sich den Grund mit weiteren detaillierten Informationen anschauen.
 
 ![image](https://user-images.githubusercontent.com/13604413/159170763-e2668971-6308-4cfe-b69e-43877252ca86.png)
 
-
-
 In der Übersicht kannst du nachvollziehen, wie viel Ressourcen dir zur Verfügung stehen, wie viel du über einen längeren Zeitraum verbraucht hast und wie viel Ressourcen wir dir für einen regulären Gebrauch empfehlen würden. Dies soll dir die Möglichkeit geben zu erkennen, wo aktiv Handlungsbedarf besteht und um entsprechende Maßnahmen ergreifen zu können. 
 
-
+<InlineVoucher />
 
 ## Freischaltung deines Gameservers
 

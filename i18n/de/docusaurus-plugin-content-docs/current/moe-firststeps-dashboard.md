@@ -3,9 +3,11 @@ id: moe-firststeps-dashboard
 title: "Myth of Empires: Dashboard Übersicht"
 description: Informationen zum Dashboard eines Myth of Empires von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Dashboard
+services:
+  - gameserver
 ---
 
-
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
@@ -13,7 +15,7 @@ Du bist an einem **Myth of Empires** interessiert oder besitzt bereits einen, do
 
 Nachdem du diese Anleitung durchgegangen bist, wirst du problemlos in der Lage sein, deinen Server effizient zu verwalten und alle erforderlichen Optionen sowie Features zügig und unkompliziert zu finden. Hier erhältst du einen strukturierten Überblick, der dir Schritt für Schritt hilft, dich mit der Serververwaltung vertraut zu machen und dein Wissen gezielt zu erweitern. So kannst du sicherstellen, dass dein **Myth of Empires** optimal auf deine Bedürfnisse abgestimmt ist und du das Beste aus den vorhandenen Möglichkeiten herausholst.
 
-
+<InlineVoucher />
 
 ## Informationen
 

@@ -3,13 +3,17 @@ id: vserver-linux-ssl
 title: "vServer: SSL-Zertifikat (Lets Encrypt) für Linux Server erstellen"
 description: Informationen, wie du ein SSL-Zertifikat mit Let's Entcrypt für deinen vServer von ZAP-Hosting erstellen kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: SSL-Zertifikat (Lets Encrypt)
+services:
+  - vserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Was ist Let's Encrypt?
 
 Let's Encrypt ist eine Zertifizierungsstelle (CA), die kostenlose SSL/TLS-Zertifikate anbietet. So erhältst du kostenlos ein gültiges SSL-Zertifikat für deine Domain. Die Zertifikate können nur von dem Server angefordert werden, auf den die Domain verweist. Let's Encrypt prüft die DNS der Domain, welche auf den aktuellen Server zeigt. Anschließend wird das Zertifikat ausgestellt. In dieser Anleitung wird die Einrichtung sowohl mit dem Apache als auch Nginx Webserver erklärt. 
 
-
+<InlineVoucher />
 
 ## Vorbereitung
 

@@ -3,7 +3,11 @@ id: source-custom-content
 title: Source Spiele Custom Inhalte und Mods auf Gameserver installieren
 description: Informationen, wie du Custom Inhalte und Mods auf deinen Source Gameserver (z. B. CSS oder Garry's Mod) von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Custom Inhalte
+services:
+  - gameserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Was sind Custom Inhalte?
 
@@ -11,7 +15,7 @@ Einige Source-Games wie zum Beispiel Counter-Strike oder Garrys Mod sind durch i
 
 ![image](https://user-images.githubusercontent.com/13604413/159178680-6fd1ea06-9ee9-4bfc-a23e-2f3457800c04.png)
 
-
+<InlineVoucher />
 
 Auf solchen Server werden oftmals Maps, Player Skins und Sounds die von der Community erstellt wurden benutzt. Damit Spieler auch die verwendeten Custom Inhalte vom Server benutzen bzw. sehen können, müssen diese vorher erst vom Server heruntergeladen werden. Hierbei gibt es zwei Möglichkeiten:
 

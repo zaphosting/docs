@@ -3,9 +3,15 @@ id: voiceserver-query
 title: "Voiceserver: Teamspeak Query Login einrichten"
 description: Informationen, wie du einen TS Query Login für deinen Teamspeak Server von ZAP-Hosting einrichten kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Query Login
+services:
+  - voiceserver
 ---
 
+import InlineVoucher from '@site/src/components/InlineVoucher';
+
 ## Teamspeak Query Login
+
+<InlineVoucher />
 
 ### Selbst gehosteter Teamspeak-Server
 

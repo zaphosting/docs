@@ -3,8 +3,13 @@ id: ark-serverlisting
 title: "ARK: Serverlisting Probleme bei Steam Spielen, die Steamworks nutzen"
 description: Informationen zu Problemen mit dem Serverlisting deines Server, die bei Steam-Spielen auftreten können - ZAP-Hosting.com Dokumentation
 sidebar_label: Serverlisting Probleme
+services:
+  - gameserver
 ---
 
+import InlineVoucher from '@site/src/components/InlineVoucher';
+
+<InlineVoucher />
 
 Leider haben viele populäre Spiele wie ARK oder Valheim massive Probleme mit dem Listing aller Server in der im Spiel Serverliste. 
 

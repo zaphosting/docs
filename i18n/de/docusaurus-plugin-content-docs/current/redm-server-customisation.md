@@ -3,9 +3,17 @@ id: redm-server-customisation
 title: "RedM: Anpassen der Serverinformationen"
 description: Informationen über die Anpassung der in der Serverliste angezeigten Informationen für RedM-Server - ZAP-Hosting.com - Dokumentation
 sidebar_label: Anpassen der Serverinformationen
+services:
+  - gameserver
 ---
 
+import InlineVoucher from '@site/src/components/InlineVoucher';
+
+## Einführung
+
 Möchtest du deinen Server so anpassen, dass er benutzerdefinierte Informationen in der Serverliste anzeigt? Das ist ganz einfach möglich! In dieser Anleitung erfährst du, wie du eine Reihe von verschiedenen Anpassungen vornehmen kannst, um deinen Server in der Serverliste hervorzuheben!
+
+<InlineVoucher />
 
 ## Zugriff auf die Konfiguration deines Servers
 

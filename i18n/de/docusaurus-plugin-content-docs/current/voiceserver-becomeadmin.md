@@ -3,15 +3,17 @@ id: voiceserver-becomeadmin
 title: "Voiceserver: Admin werden"
 description: Informationen, wie du Admins für deinen Teamspeak Server von ZAP-Hosting erstellst und zuweist - ZAP-Hosting.com Dokumentation
 sidebar_label: Admin werden
+services:
+  - voiceserver
 ---
 
-
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
 Damit du deinen Teamspeak Server verwalten und konfigurieren kannst, benötigst du Administrator-Berechtigungen. Im Folgenden wird erklärt, wie du Benutzer als Admin hinzufügen kannst. 
 
-
+<InlineVoucher />
 
 ## Vorbereitung
 

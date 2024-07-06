@@ -3,13 +3,21 @@ id: rust-commands
 title: "Rust: Admin Befehle"
 description: Informationen zu Admin Befehle für Rust von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Admin Befehle
+services:
+  - gameserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
+
+## Einführung
 
 Rust verfügt über eine Vielzahl verschiedener Befehle, die von Serverbesitzern und Spielern verwendet werden können. Auf dieser Seite fassen wir die nützlichsten und beliebtesten zusammen, die für Servereinstellungen, Spielerverwaltung und zur Kontrolle von Spielern verwendet werden.
 
 :::info
 Einige Befehle erfordern die Verwendung der Steam64-ID eines Spielers. Verwende die kleine Anleitung unten, um zu verstehen, wie man die Steam-ID eines Spielers erhält.
 :::
+
+<InlineVoucher />
 
 ## Deine Steam ID erhalten
 Erstens, verwende ein Tool wie das [Steam ID Finder](https://steamidfinder.com/), um deine Steam64 ID zu erhalten. Hier gibst du deine Steam URL ein:

@@ -3,15 +3,17 @@ id: fivem-gamebuild
 title: "FiveM: DLC-Inhalte aktivieren"
 description: Informationen zur Aktivierung eines DLC Gamebuilds für FiveM Server - ZAP-Hosting.com - Dokumentation
 sidebar_label: DLC-Inhalte aktivieren
+services:
+  - gameserver
 ---
 
-
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
 Die Erzwingung des Game Builds ermöglicht es dir, eine bestimmte DLC-Version auf deinem Server zu erzwingen, sodass du mit den neuesten Karten, Kleidungsstücken, Fahrzeugen und mehr spielen kannst! Du kannst dies einfach umsetzen, indem du die unten stehenden Abschnitte für deinen Gameserver-Typ aktivierst.
 
-
+<InlineVoucher />
 
 ## Verfügbare Gamebuilds
 

@@ -3,14 +3,17 @@ id: webspace-mybb
 title: "Webspace: MyBB Forensoftware installieren"
 description: Informationen, wie du die MyBulletinBoard Forensoftware auf deinen Webspace von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: MyBB installieren
+services:
+  - webspace
 ---
 
-
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-MyBB, ursprünglich MyBulletinBoard, ist eine freie und quelloffene Forensoftware, welche von der MyBB Group entwickelt wird. In dieser Anleitung erklären wir, wie diese Forensoftware auf unserem Webspace Produkt installiert werden kann. 
+MyBB, ursprünglich MyBulletinBoard, ist eine freie und quelloffene Forensoftware, welche von der MyBB Group entwickelt wird. In dieser Anleitung erklären wir, wie diese Forensoftware auf unserem Webspace Produkt installiert werden kann.
 
+<InlineVoucher />
 
 ## Vorbereitung
 

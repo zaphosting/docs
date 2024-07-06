@@ -3,13 +3,17 @@ id: redm-change-servericon
 title: "RedM: Change server icon for the server list"
 description: Information on how to change RedM server icon from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Change server icon
+services:
+  - gameserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
 Du möchtest deinen Server individuell gestalten und ein eigenes Icon für deinen Server erstellen? Das ist ganz einfach möglich! In dieser Anleitung erfährst du, wie du ein Bild vorbereitest und es als dein neues benutzerdefiniertes Serversymbol einrichtest.
 
-
+<InlineVoucher />
 
 ## Vorbereitung
 

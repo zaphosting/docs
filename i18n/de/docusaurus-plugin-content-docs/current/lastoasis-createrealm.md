@@ -3,10 +3,16 @@ id: lastoasis-createrealm
 title: "Last Oasis: Einen neuen Realm erstellen"
 description: Informationen zur Erstellung eines neuen Realms für deinen Last Oasis Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Realm erstellen
+services:
+  - gameserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 Last Oasis Server erfordern eine Reihe von Einrichtungsschritten, um sich bei der offiziellen Seite zu authentifizieren. In dieser Anleitung gehen wir auf die Schritte ein, die erforderlich sind, um deinen eigenen Realm auf Last Oasis zu erstellen und eine Oase innerhalb deines neuen Realms einzurichten.
+
+<InlineVoucher />
 
 ## Vorbereitung
 Eine der Voraussetzungen für die Einrichtung eines neuen Realms ist die Generierung eines Schlüssels von der offiziellen Seite, damit du dich bei den offiziellen Online-Diensten verifizieren und authentifizieren kannst.

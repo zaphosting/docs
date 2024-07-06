@@ -3,15 +3,19 @@ id: vserver-windows-mythofempires
 title: "vServer: Myth of Empires Dedicated Server Einrichtung"
 description: Informationen zum Einrichten eines Myth of Empires Dedicated Servers auf einem VPS/Rootserver - ZAP-Hosting.com Dokumentation
 sidebar_label: Myth of Empires
+services:
+  - vserver
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 Hast du einen Windows VPS oder Rootserver und möchtest darauf einen Myth of Empires Dedicated Server installieren? Dann bist du hier genau richtig. In dieser Anleitung erklären wir dir Schritt für Schritt, wie du diesen Dienst auf deinem Server installierst.
 
 <YouTube videoId="ir3QNvwu7WY" title="Wie man Myth of Empires Server auf Windows VPS einrichtet!" description="Hast du das Gefühl, dass du etwas besser verstehst, wenn du es in Aktion siehst?  Wir haben etwas für dich! Tauche ab in unser Video, welches alles für dich zusammenfasst. Egal, ob du es eilig hast oder einfach nur Informationen auf möglichst verständliche Art und Weise aufnehmen möchtest!"/>
 
+<InlineVoucher />
 
 ## Vorbereitung
 

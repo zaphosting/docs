@@ -3,9 +3,11 @@ id: vserver-windows-ftpserver
 title: "vServer: Installation von FTP Server"
 description: Informationen, wie du einen FTP Server auf deinen Windows vServer von ZAP-Hosting installieren und einrichten kannst - ZAP-Hosting.com Dokumenationen
 sidebar_label: FTP Server installieren
+services:
+  - vserver
 ---
 
-
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
@@ -13,7 +15,7 @@ Das **FTP (File Transfer Protocol)** ist ein Netzwerkprotokoll, das dazu dient, 
 
 Mit dem **FileZilla Server** kann solch ein FTP-Server auf einem Windows-Betriebssystem eingerichtet werden. Der FileZilla Server ist dabei einfach zu installieren und zu konfigurieren und bietet zahlreiche Funktionen wie die Möglichkeit, Benutzerkonten einzurichten, Zugriffsrechte zu verwalten und Dateien zu übertragen.
 
-
+<InlineVoucher />
 
 ## Vorbereitung
 

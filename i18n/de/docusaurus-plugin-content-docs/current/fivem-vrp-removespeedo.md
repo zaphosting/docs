@@ -3,11 +3,17 @@ id: fivem-vrp-removespeedo
 title: "FiveM: Speedometer entfernen"
 description: Informationen, wie du den Speedometer bei deinem FiveM Server mit VRP von ZAP-Hosting entfernen kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Speedometer entfernen
+services:
+  - gameserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 :::info
 Erzwinge Überschreiben muss zum Editieren der Scripts deaktiviert werden, sonst werden alle Änderungen mit der offiziellen Version überschrieben.
 :::
+
+<InlineVoucher />
 
 ## Mit FTP verbinden
 

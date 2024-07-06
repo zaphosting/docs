@@ -3,11 +3,17 @@ id: dedicated-linux-python
 title: "Dedicated Server: Installation von Python"
 description: Informationen zur Installation und Ausführung von Python auf Ihrem Linux Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Python installieren
+services:
+  - dedicated
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einleitung
 
 Diese Anleitung bietet Schritte zur Installation der Python-Laufzeitumgebung und venv. Diese Befehle müssen über SSH ausgeführt werden, wenn du nicht weißt, wie man sich per SSH mit deinem Server verbindet, nutze bitte unsere [Erstzugriff (SSH)](https://zap-hosting.com/guides/docs/vserver-linux-ssh) Anleitung, um mehr zu erfahren.
+
+<InlineVoucher />
 
 ## Vorbereitung
 

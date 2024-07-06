@@ -3,9 +3,13 @@ id: minecraft-pluginuploader
 title: "Minecraft: Server ZAP-Hosting Plugin Uploader verwenden"
 description: Informationen, wie du den Plugin-Uploader verwenden kannst, um Plugins über das Web Interface auf deinen Minecraft-Server von ZAP-Hosting hochzuladen - ZAP-Hosting.com Dokumentation
 sidebar_label: Plugin Uploader
+services:
+  - gameserver
 ---
 
-Hier gelangst du zu unseren Minecraft Servern: [Minecraft Server mieten](https://zap-hosting.com/de/minecraft-server-mieten/)
+import InlineVoucher from '@site/src/components/InlineVoucher';
+
+<InlineVoucher />
 
 ## Plugin Uploader
 

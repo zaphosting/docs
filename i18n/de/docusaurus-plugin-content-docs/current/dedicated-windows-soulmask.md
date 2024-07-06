@@ -3,13 +3,18 @@ id: dedicated-windows-soulmask
 title: "Dedicated Server: Soulmask Dedicated Server Einrichtung"
 description: Informationen zum Einrichten eines Soulmask Dedicated Servers auf einem Dedicated Server - ZAP-Hosting.com Dokumentation
 sidebar_label: Soulmask
+services:
+  - dedicated
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einleitung
 
 Hast du einen Windows Dedicated Server und möchtest den Soulmask Dedicated Server Service darauf installieren? Dann bist du hier genau richtig. In dieser Anleitung erklären wir dir Schritt für Schritt, wie du diesen Dienst auf deinem Server installierst.
+
+<InlineVoucher />
 
 ## Vorbereitung
 

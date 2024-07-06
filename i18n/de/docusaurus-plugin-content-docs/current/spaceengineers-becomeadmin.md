@@ -3,11 +3,17 @@ id: spaceengineers-becomeadmin
 title: "Space Engineers: Server-Admin werden"
 description: Informationen, wie du dich um Admin auf deinem Space Engineers-Server von ZAP-Hosting machen kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Admin werden
+services:
+  - gameserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Admin werden
 
 Um den eigenen Spielserver gut im Spiel verwalten zu können ist es wichtig den Admin Rang zu haben.
+
+<InlineVoucher />
 
 ### SteamID64 via Webseite
 

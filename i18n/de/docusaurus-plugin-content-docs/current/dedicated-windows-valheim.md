@@ -3,14 +3,19 @@ id: dedicated-windows-valheim
 title: "Dedicated Server: Valheim Dedicated Server Einrichtung"
 description: Informationen zum Einrichten eines Valheim Dedicated Server auf einem Dedicated Server - ZAP-Hosting.com Dokumentation
 sidebar_label: Valheim
+services:
+  - dedicated
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 Du hast einen Windows Dedicated Server und möchtest darauf unter anderem Gameserver installieren? Beispielsweise einen Valheim Dedicated Server? Dann bist du hier genau richtig! Im Folgenden werden wir dir Schritt für Schritt erklären, wie du solch einen Dienst auf deinem Server installieren kannst.
 
 <YouTube videoId="Trs9Ysxa1gc" title="Valehim Dedicated Server Setup on Windows VPS" description="Feel like you understand better when you see things in action?  We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
+
+<InlineVoucher />
 
 ## Vorbereitung
 Verbinde dich für die Einrichtung deines Valheim Dedicated Server mit deinem vServer oder Rootserver per RDP. Solltest du noch nicht wissen, wie du dich per RDP mit deinem Server verbinden kannst, dann empfehlen wir einen Blick in die [RDP Anleitung](vserver-windows-userdp.md) zu werfen. Für die Einrichtung eines Valheim Server wird die SteamCMD benötigt. Die SteamCMD ist die **Kommandozeilen-Edition des Steam-Clients**. Über dieses Tool können schnell und einfach die Dedicated-Server-Anwendungen beliebter Steam-Games heruntergeladen werden. Die SteamCMD findest du auf der offiziellen Valve Entwickler Webseite: https://developer.valvesoftware.com/wiki/SteamCMD 

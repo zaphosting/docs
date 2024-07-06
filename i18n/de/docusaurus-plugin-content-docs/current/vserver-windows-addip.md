@@ -3,13 +3,17 @@ id: vserver-windows-addip
 title: "vServer: Zusätzliche IP-Adressen unter Windows konfigurieren"
 description: Informationen, wie du zusätzliche IPs zu deinem Windows vServer von ZAP-Hosting hinzufügen kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Zusätzliche IP-Adressen
+services:
+  - vserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
 Mehrere IP-Adressen auf einem Server können aus verschiedenen Gründen nützlich sein. Insbesondere in komplexen Netzwerkumgebungen oder um bestimmte Anforderungen an die Netzwerkleistung, Sicherheit und Verwaltung zu erfüllen. Durch die Zuweisung unterschiedlicher IP-Adressen zu verschiedenen Diensten oder Anwendungen auf demselben Server kann eine bessere Isolation erreicht werden.
 
-
+<InlineVoucher />
 
 ## Voraussetzungen
 

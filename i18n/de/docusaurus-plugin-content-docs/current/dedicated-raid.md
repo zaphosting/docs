@@ -3,15 +3,17 @@ id: dedicated-raid
 title: "Dedicated Server: RAID konfigurieren"
 description: Informationen, über die RAID Konfigurationsmöglichkeiten für deinen Dedicated Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation 
 sidebar_label: RAID konfigurieren
+services:
+  - dedicated
 ---
 
-
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
 RAID (Redundant Array of Independent Disks) ist eine Technologie, die mehrere Festplatten zu einem einzigen logischen Laufwerk zusammenfasst, um Datenredundanz und/oder Leistungssteigerung zu erreichen. Es gibt verschiedene RAID-Levels, die unterschiedliche Kombinationen aus Datenverteilung und Fehlertoleranz bieten.
 
-
+<InlineVoucher />
 
 ## Verfügbare RAID Arten
 Grundsätzlich gibt es verschiedenste Arten von RAID-Möglichkeiten. Dadurch dass unsere Dedicated Server für SSDs 2 Bays bereitstellen,

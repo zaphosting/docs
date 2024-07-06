@@ -3,7 +3,11 @@ id: webspace-plesk-ssl
 title: "Webspace: SSL Zertifikat erstellen"
 description: Informationen, wie du eni SSL Zertifikat für deinen Webspace von ZAP-Hosting erstellen kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: SSL Zertifikat erstellen
+services:
+  - webspace
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Webseite mit SSL verschlüsseln
 
@@ -19,7 +23,9 @@ Und B im Browser, beim Öffnen der Domain:
 ![image](https://user-images.githubusercontent.com/13604413/159176736-661b1f50-ffa2-45a8-8635-4e008d29c20a.png)
 ![image](https://user-images.githubusercontent.com/13604413/159176743-154bf742-e93e-4743-8a0a-0f43e46952a9.png)
 
-Durch ein SSL Zertifikat kann eine Domain entsprechend geschützt/verschlüsselt werden. 
+Durch ein SSL Zertifikat kann eine Domain entsprechend geschützt/verschlüsselt werden.
+
+<InlineVoucher />
 
 ## Anlegen des Zertifikats 
 

@@ -3,9 +3,11 @@ id: minecraft-firststeps-connect
 title: "Minecraft: Zum Server verbinden"
 description: Informationenen zum Verbindungsaufbau eines Minecraft Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Zum Server verbinden
+services:
+  - gameserver
 ---
 
-
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
@@ -13,7 +15,7 @@ Du bist dir unsicher, was du allgemein zum Verbinden deines Servers benötigst o
 
 ![Main menu – Minecraft Wiki](https://static.wikia.nocookie.net/minecraft_gamepedia/images/f/f8/Java_Edition_1.19.3.png/revision/latest?cb=20221207162002)
 
-
+<InlineVoucher />
 
 ## Voraussetzungen
 

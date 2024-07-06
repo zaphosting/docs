@@ -3,9 +3,17 @@ id: palworld-admin
 title: "Palworld: Setup Admin"
 description: Informationen zum Einrichten und Hinzufügen von Administratoren für einen Palworld-Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Setup Admin
+services:
+  - gameserver
 ---
 
+import InlineVoucher from '@site/src/components/InlineVoucher';
+
+## Einführung
+
 In dieser Anleitung werden wir uns ansehen, wie du deinen Server mit einem Admin-Passwort konfigurierst und dich selbst als Admin im Spiel hinzufügst. Dieses Passwort kann mit vertrauenswürdigen Spielern geteilt werden, um eine Reihe von Admin-Befehlen zu erhalten. Mehr über diese Serverbefehle erfährst du in unserem [Palworld Server Commands Anleitung](palworld-server-commands.md).
+
+<InlineVoucher />
 
 ## Konfiguriere dein Admin-Passwort
 

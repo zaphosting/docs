@@ -3,15 +3,17 @@ id: mta-becomeadmin
 title: "Multi Theft Auto: Admin auf MTA-Server werden"
 description: Informationen, wie du dich zum Admin auf deinem MTA-Server von ZAP-Hosting machen kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Admin werden
-
+services:
+  - gameserver
 ---
 
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Admin werden
 
 Mit Administrator-Rechten kannst du direkt im Spiel Änderungen im Live Zustand an deinem Server vornehmen, ohne diese in der Config vorzunehmen. 
 
-
+<InlineVoucher />
 
 ### Vorbereitung
 

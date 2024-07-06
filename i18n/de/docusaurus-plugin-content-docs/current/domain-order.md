@@ -3,7 +3,13 @@ id: domain-order
 title: "Domain: Eine Domain bestellen"
 description: Informationen zum Bestellprozess von Domains bei ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Domain bestellen
+services:
+  - domain
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
+
+<InlineVoucher />
 
 ## Bestellung einer Domain
 

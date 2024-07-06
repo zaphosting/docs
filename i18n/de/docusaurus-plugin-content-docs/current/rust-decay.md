@@ -3,7 +3,13 @@ id: rust-decay
 title: "Rust: Decay verändern"
 description: Information, zur Anpassung des Decay bei deinem Rust Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Decay
+services:
+  - gameserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
+
+<InlineVoucher />
 
 Mithilfe eines RCON Tools kannst du auf deinem Server beliebige Befehle ausführen, auch Adminrechte können so vergeben werden.
 Zuerst musst du [via RCON verbinden](rust-connectrcon.md).

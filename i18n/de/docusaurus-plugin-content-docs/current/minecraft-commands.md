@@ -3,9 +3,11 @@ id: minecraft-commands
 title: "Minecraft: Allgemeine Server-Befehle"
 description: Informationen zu allgemeinen Befehlen, die du auf deinen Minecraft-Server von ZAP-Hosting benutzen kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Allgemeine Befehle
+services:
+  - gameserver
 ---
 
-Hier gelangst du zu unseren Minecraft Servern: [Minecraft Server mieten](https://zap-hosting.com/de/minecraft-server-mieten/)
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ### Was sind Befehle?
 
@@ -14,6 +16,8 @@ Minecraft selbst bringt bereits ohne jegliche Modifikation mit über **100 Befeh
 
 In diesem Beitrag unserer Dokumentation gehen wir auf die wichtigsten Befehle ein, welche sehr oft genutzt und gebraucht werden.
 Sollte ein Befehl hier nicht aufgelistet sein, so ist hierbei das offizielle [Minecraft-Wiki](https://minecraft-de.gamepedia.com/) sehr hilfreich, da dort jeder noch so kleiner Bestandteil (inkl. aller Befehle) genauer erklärt werden.
+
+<InlineVoucher />
 
 ### Benutzung
 

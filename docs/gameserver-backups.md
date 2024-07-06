@@ -28,8 +28,6 @@ Press the green **+** button next to the backup list to create a backup manually
 The backup creation process can take a few minutes depending on the file size of your server!
 :::
 
-<InlineVoucher />
-
 ## Create backups automatically
 
 At the bottom of the page you will find more options, including the settings for automated backups. The option **Create backups automatically** needs to be enabled in order for this feature to be active. Furthermore the interval must be set. 

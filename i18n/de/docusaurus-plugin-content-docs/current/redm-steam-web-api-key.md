@@ -3,13 +3,17 @@ id: redm-steam-web-api-key
 title: "RedM: Einrichtung des Steam-Web-API-Key"
 description: Informationen zum Einrichten eines Steam-Web-API-Schlüssels von ZAP-Hosting - ZAP-Hosting.com-Dokumentation
 sidebar_label: Steam Web API Key
+services:
+  - gameserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
 Ein Steam-Web-API-Schlüssel hat wichtige Funktionen für RedM. Dazu gehört die Authentifizierung durch den API-Schlüssel, wenn Steam als Identifikator von verschiedenen Skripten und/oder Ressourcen verwendet wird.
 
-
+<InlineVoucher />
 
 ## Voraussetzungen
 

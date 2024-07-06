@@ -4,7 +4,7 @@ title: "VPS: Foundry Dedicated Server Setup"
 description: Information about setting up a Foundry Dedicated Server on a VPS/Root server - ZAP-Hosting.com documentation
 sidebar_label: Foundry
 services:
-  - gameserver
+  - vserver
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';

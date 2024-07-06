@@ -3,20 +3,19 @@ id: webspace-wordpress
 title: "Webspace: WordPress installieren"
 description: Informationen, wie du WordPress auf deinen Webspace von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: WordPress installieren
-
+services:
+  - webspace
 ---
 
-
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
-
-
 
 WordPress ist das meist verwendete freie Content-Management-System weltweit. Es wurde ab 2003 von Matthew Mullenweg als Software für Weblogs programmiert und wird als Open-Source-Projekt permanent weiterentwickelt. In dieser Anleitung erklären wir, wie diese Software auf unserem Webspace Produkt installiert werden kann. 
 
 ![](https://user-images.githubusercontent.com/26007280/189979034-3c35e1a2-7905-404a-a7f3-529ce90fa3e1.png)
 
-
+<InlineVoucher />
 
 ## Vorbereitung
 

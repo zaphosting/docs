@@ -3,13 +3,17 @@ id: dedicated-reset
 title: "Dedicated Server: Server zurücksetzen"
 description: Informationen, wie du deinen Dedicated Server von ZAP-Hosting zurücksetzen kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Server zurücksetzen
+services:
+  - dedicated
 ---
 
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
+## Einführung
 
 Du hast derzeit Probleme mit deinem Server oder möchtest die Daten des Servers komplett platt machen? Das ist kein Problem und lässt sich einfach umsetzen. Die bestehenden Daten deines Servers können beispielsweise mittels einer Wipe ISO vollständig gelöscht werden. 
 
-
+<InlineVoucher />
 
 ## Vorbereitungen
 

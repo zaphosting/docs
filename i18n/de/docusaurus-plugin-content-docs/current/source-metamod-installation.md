@@ -3,11 +3,17 @@ id: source-metamod-installation
 title: Source Spiele Source Mod und Meta Mod auf Server installieren
 description: Informationen, wie du Source Mod und Meta Mod auf deinen Source Gameserver von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Installation
+services:
+  - gameserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Was ist SM und MM überhaupt?
 
 Source- und Metamod sind zwei Half Life 2 Erweiterungen, welches es ermöglichen einen Source-Engine Gameserver (z.B. CS:S CS:GO, DoD:S, TF2, etc.) noch mehr als üblich zu individualisieren. Dazu gehört zum Beispiel die Nutzung von Plugins und eine erweitere Administration deines Servers.
+
+<InlineVoucher />
 
 ## SM / MM Installation
 

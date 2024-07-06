@@ -3,13 +3,18 @@ id: vserver-windows-installmysql
 title: "vServer: Installation von MySQL Server"
 description: Informationen, wie du einen MySQL Server auf deinen Windows Server von ZAP-Hosting installieren und einrichten kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: MySQL Server Installieren
+services:
+  - vserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
 Ein MySQL Server wird für verschiedenste Anwendungsgebiete benötigt und kann zum Beispiel wichtige Daten für einen Gameserver oder eine Website enthalten.
 Im Folgenden richtest du deinen eigenen MySQL Datenbankserver auf deinem Windows vServer oder Rootserver ein.
 
+<InlineVoucher />
 
 ## Installation
 

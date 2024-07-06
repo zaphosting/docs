@@ -3,7 +3,13 @@ id: valheim-connect
 title: "Valheim: Auf Valheim-Server verbinden"
 description: Informationen, wie du dich auf deinen Valheim Server von ZAP-Hosting verbinden kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Zum Server Verbinden
+services:
+  - gameserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
+
+<InlineVoucher />
 
 Um sich mit deinem Valheim-Server zu verbinden, öffnen wir zunächst unser Webinterface und stellen sicher, dass wir ein sicheres Passwort in den Einstellungen gesetzt haben:
 

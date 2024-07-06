@@ -3,9 +3,13 @@ id: factorio-becomeadmin
 title: "Factorio: Admin werden"
 description: Informationen, wie du Admin auf deinem Factorio-Server bei ZAP-Hosting wirst - ZAP-Hosting.com Dokumentation
 sidebar_label: Admin werden
+services:
+  - gameserver
 ---
 
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
+<InlineVoucher />
 
 Mit Administrator Berechtigungen kannst du direkt im Spiel Änderungen im Live Zustand an deinem Server vornehmen, ohne diese in der Config vorzunehmen. Das Hinzufügen eines Admins erfolgt über die **server-settings.json** Config, welche du im Interface unter Configs findest.
 

@@ -3,12 +3,17 @@ id: foundry-configuration
 title: "Foundry: Server-Konfiguration"
 description: Informationen zur Konfiguration eines Foundry Gameservers von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Server-Konfiguration
+services:
+  - gameserver
 ---
 
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
 Foundry-Server werden mit einer Vielzahl von Konfigurationsparametern geliefert, die du nach deinen Wünschen anpassen kannst. In dieser Anleitung gehen wir auf alle derzeit verfügbaren Konfigurationsparameter ein und erklären sie genauer.
+
+<InlineVoucher />
 
 ## Zugriff auf deine Konfigurationsdatei
 

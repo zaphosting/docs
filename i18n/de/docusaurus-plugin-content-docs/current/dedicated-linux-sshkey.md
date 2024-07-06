@@ -3,7 +3,13 @@ id: dedicated-linux-sshkey
 title: "Dedicated Server: SSH Key für Linux Server generieren und verwenden"
 description: Informationen wie du einen SSH Key für deinen Linux Dedicated Server von ZAP-Hosting generieren kannst und wie du den Key verwendest - ZAP-Hosting.com Dokumentation
 sidebar_label: SSH Key
+services:
+  - dedicated
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
+
+<InlineVoucher />
 
 ## SSH Key generieren
 

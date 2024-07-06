@@ -2,13 +2,17 @@
 id: satisfactory-addmods
 title: "Satisfactory: Mods installieren"
 sidebar_label: Mods installieren
+services:
+  - gameserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
+
 :::danger
 **ACHTUNG**
 
 Mods sind zum aktuellen Zeitpunkt NICHT nutzbar!
 :::
-
 
 :::info
 **ACHTUNG**
@@ -19,6 +23,8 @@ Die Installation von Mods kann im schlimmsten Fall den Spielstand zerstören, du
 
 Es sollte **in jedem Fall vor** der Installation von Mods ein Backup angelegt werden und auch sonst regelmäßig Backups angelegt werden für den Fall der Fälle!
 :::
+
+<InlineVoucher />
 
 ## Modded Satisfactory auf dem Server installieren
 

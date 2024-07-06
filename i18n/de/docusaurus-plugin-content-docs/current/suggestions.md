@@ -5,7 +5,7 @@ description: Informatoinen, wie du Vorschläge für neue Gameserver und Funktion
 sidebar_label: Vorschläge einreichen
 ---
 
-
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 

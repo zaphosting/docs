@@ -3,16 +3,18 @@ id: webspace-plesk-ftp
 title: "Webspace: FTP Zugang für Webspace einrichten"
 description: Informationen, wie du einen FTP Zugang für deinen Webspace von ZAP-Hosting einrichten kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: FTP-Zugang
+services:
+  - webspace
 ---
 
-
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
 FTP steht für *file transfer protocol* und wird benötigt, um Dateien von dem PC auf den Webspace zu laden.
 Jeder Kunde kriegt automatisch mit dem bestellten Webspace einen FTP Zugang zu diesem.  Hier erklären wir, wie weitere FTP Zugänge eingerichtet werden. Dies bietet sich an, wenn man mit mehreren Personen an einem Projekt arbeitet und jede Person einen eigenen FTP Zugang bekommen soll. Diese Personen können dann mit dem erstellten FTP Zugang nur auf die Ordner, welche von dem Besitzer des Webspace festgelegt wurden.
 
-
+<InlineVoucher />
 
 ## FTP Zugang einrichten
 

@@ -3,17 +3,19 @@ id: 7d2d-mods
 title: "7 Days to Die: Installation von Mods"
 description: Anleitung, wie du Mods auf einem 7 Days to Die Gameserver installierst - ZAP-Hosting.com Dokumentation 
 sidebar_label: Mods installieren
+services:
+  - gameserver
 ---
 
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
-
-## Mods installieren
+## Einführung
 
 Mit Mods hast du die Möglichkeit, deinen Server noch individueller anzupassen. Im Folgenden wird erklärt, wo du die beliebtesten Servers-Mods finden kannst und wie du diese eingerichtet werden. Mit der Einführung von Alpha 17 Experimental wurde das Konzept der Modlets eingeführt. Modlets sind kleinere Mods, die die Vanilla-XML-Dateien nicht überschreiben, sondern aus dem Mods-Ordner geladen werden. 
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/McQLetfwmEMbo6N/preview)
 
-
+<InlineVoucher />
 
 ## Vorbereitung
 

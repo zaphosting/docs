@@ -3,29 +3,23 @@ id: csgo-gotv
 title: "CSGO: Server Informationen zu GOTV"
 description: Informationen zu GOTV auf Counter-Strike Go-Servern von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: GOTV
-
+services:
+  - gameserver
 ---
 
-
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 :::caution
 **Counter-Strike: Global Offensive** has now been updated to **Counter-Strike 2**. Servers for Counter-Strike 2 can be found [here](https://zap-hosting.com/en/counter-strike-2-server-hosting/). Currently, it is possible to continue playing on Counter-Strike: Global Offensive servers and rent servers for Counter-Strike: GO through the [Steam Beta feature](https://zap-hosting.com/en/blog/2023/09/our-servers-are-still-compatible-with-the-latest-beta-version-of-cs-go-on-steam/).  Das kann sich allerdings jederzeit ändern, falls Valve dies unterbindet. Wir empfehlen zeitnah auf die neue Version umzusteigen. 
 :::
 
-
-
 ## Was ist GOTV?
-
 
 GOTV bietet die Möglichkeit, Spiele mit etwas Verzögerung live zu übertragen. Somit können auch Außenstehende, die nicht selbst am Spiel beteiligt sind, das Geschehen auf dem Server mitverfolgen. Diese Technologie wird auch bei den bekannten Counter-Strike Turnieren eingesetzt, damit die Zuschauer sich das Spektakel anschauen können. Des Weiteren können die Übertragungen auch automatisch gespeichert werden, sodass auch im Anschluss ein erneutes Anschauen möglich ist. 
 
-
-
 ![image](https://user-images.githubusercontent.com/26007280/189976843-8cf67797-ec09-42e8-94f7-055430a0224a.png)
 
-
-
-
+<InlineVoucher />
 
 ## Wie benutzt man GOTV?
 
@@ -35,19 +29,11 @@ Wenn die Funktion beim Server aktiviert ist, dann ist der Zugriff über die IP-A
 connect SERVERIP:27020
 ```
 
-
-
 Manuelle und automatische aufgenommene Demos werden im Hauptverzeichnis (gxxxxx/csgo/csgo/) des CS:GO Server abgelegt. Diese können über den bereitgestellten FTP-Zugang heruntergeladen werden. Sollte du noch nicht wissen, wie der Zugang via FTP möglich ist, dann findest du hierzu eine entsprechende [Anleitung](gameserver-ftpaccess.md).
-
-
 
 ![image](https://user-images.githubusercontent.com/26007280/189976867-0ea7da9c-fda3-472b-a79f-ac03919c2cc1.png)
 
-
-
 Mit dem Demo-Playback aus dem Spiel kann die heruntergeladene Demo über **Load** ausgewählt und über den **Play** Button gestartet werden. 
-
-
 
 ## Installation GOTV Masterserver
 
@@ -58,8 +44,6 @@ tv_enable 1
 tv_delay 90
 tv_advertise_watchable 1
 ```
-
-
 
 Die oben genannten Befehle sind zwingend notwendig, damit der GOTV Masterserver aktiviert und erreichbar ist. Allerdings gibt es im folgenden auch noch weitere Befehle zum erweiterten Konfigurieren:
 
@@ -82,4 +66,3 @@ Die oben genannten Befehle sind zwingend notwendig, damit der GOTV Masterserver 
 |           tv_stop           |                 Stoppt die GOTV-Übertragung                  |
 |        tv_stoprecord        |             Stoppt die Aufnahme einer GOTV Demo              |
 |          tv_title           |           Definiert den Namen der GOTV Übertragung           |
-

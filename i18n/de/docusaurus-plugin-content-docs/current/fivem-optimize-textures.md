@@ -3,18 +3,21 @@ id: fivem-optimize-textures
 title: "FiveM: Texturen optimieren"
 description: Wie du Texturen bei deinem FiveM Server von ZAP-Hosting optimieren kannst - ZAP-Hosting.com - Dokumentation
 sidebar_label: Texturen optimieren
+services:
+  - gameserver
 ---
 
-
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
+
 Du möchtest deine GTA5-Mod-Texturen optimieren und ihre Größe reduzieren, ohne dabei auf Qualität verzichten zu müssen? In dieser Anleitung zeigen wir dir, wie du Texturen effektiv unter 16MB komprimieren kannst. Mit ein paar einfachen Schritten und den richtigen Tools kannst du die Leistung deines Spiels verbessern und Speicherplatz sparen. Ebenfalls vermeidest du so mögliche Probleme, wie zum Beispiel:
 
 ```
 Asset hevo/hevo.ytd uses 166.0 MiB of physical memory. Oversized assets can and will lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great'). 
 ```
 
-
+<InlineVoucher />
 
 ## Vorbereitung
 
@@ -23,9 +26,8 @@ Bevor du beginnst, stelle sicher, dass du die notwendigen Tools heruntergeladen 
 - **OpenIV**  [(Download) ](https://openiv.com/)
 - **XnResize** [(Download)](https://www.xnview.com/en/xnresize/#downloads)
 
-
-
 ## Konfiguration
+
 Sobald du die notwendigen Tools heruntergeladen und installiert hast, kannst du mit der Bearbeitung der Texturen beginnen. Suche die .ytd Datei deines Mods in OpenIV und öffne diese, um auf die Texturen zugreifen zu können. 
 
 ![OpenIV Texture Dictionary](https://forum.cfx.re/uploads/default/optimized/4X/d/9/1/d91c308f849ed326be0324695c3d0897d486ef01_2_505x271.png) 
@@ -38,13 +40,9 @@ Jetzt, wo du alle Texturen exportiert hast, ist es Zeit, sie zu bearbeiten und d
 
 ![XnResize Action Tab](https://forum.cfx.re/uploads/default/original/4X/4/c/f/4cfccc99c913b0072787f90a705ae383ba482368.png)
 
-
-
 Wähle im „Output“-Tab einen Zielordner für die bearbeiteten Texturen, zum Beispiel „textures_resized“, und stelle das Format auf DDS - Direct Draw Surface ein.
 
 ![XnResize Output Tab](https://forum.cfx.re/uploads/default/original/4X/6/9/b/69b93dac616de807d4496f53363f1792646046b5.png)
-
-
 
 ## Schlussfolgerung
 Nachdem du alle Texturen bearbeitet und die Größe angepasst hast, ersetze die alten Texturen in deiner Mod durch die neuen, komprimierten Versionen. Du wirst feststellen, dass die komprimierte Texturgröße signifikant geringer ist, was nicht nur Speicherplatz spart, sondern auch die Leistung deines Spiels verbessern kann. 

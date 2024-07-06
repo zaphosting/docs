@@ -3,7 +3,11 @@ id: dedicated-linux-mastodon
 title: "Dedicated Server: Installation von Mastodon"
 description: Informationen, wie du einen Mastodon Server auf deinem Dedicated Server von ZAP-Hosting einrichten kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Mastodon installieren
+services:
+  - dedicated
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
@@ -16,6 +20,8 @@ Verschiedene Server, von Privatpersonen, Vereinen oder sonstigen Stellen eigenve
 :::info
 Diese Anleitung basiert auf einem auf Debian basierten Betriebssystem. Diese Anleitung varriert je nach Betriebssystem.
 :::
+
+<InlineVoucher />
 
 ## Voraussetzungen
 Für das Aufsetzen einer Mastodon Instanz, benötigst du Folgendes:

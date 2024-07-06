@@ -3,7 +3,11 @@ id: vserver-linux-mastodon
 title: "vServer: Installation von Mastodon"
 description: Informationen, wie du einen Mastodon Server auf deinem Server von ZAP-Hosting einrichten kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Mastodon installieren
+services:
+  - vserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
@@ -13,9 +17,12 @@ Mastodon ist ein verteilter Mikroblogging-Dienst, der seit 2016 von Eugen Rochko
 
 Im Gegensatz zu großen vergleichbaren Diensten wie Twitter ist Mastodon als dezentrales Netzwerk konzipiert, das nicht auf einer Plattform basiert:
 Verschiedene Server, von Privatpersonen, Vereinen oder sonstigen Stellen eigenverantwortlich betrieben, können miteinander interagieren.
+
 :::info
 Diese Anleitung basiert auf einem auf Debian basierten Betriebssystem. Diese Anleitung varriert je nach Betriebssystem.
 :::
+
+<InlineVoucher />
 
 ## Voraussetzungen
 Für das Aufsetzen einer Mastodon Instanz, benötigst du Folgendes:

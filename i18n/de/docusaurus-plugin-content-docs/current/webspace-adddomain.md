@@ -3,7 +3,11 @@ id: webspace-adddomain
 title: "Webspace: Domain hinzufügen"
 description: Informationen, wie du eine Domain zu deinem Webspace von ZAP-Hosting hinzufügen kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Domain hinzufügen
+services:
+  - webspace
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
@@ -11,6 +15,8 @@ Das Webspace Paket bietet die Möglichkeit, über das externe Plesk Interface, s
 
 Jedes über Zap-Hosting gebuchte Webspace kriegt eine automatisch generierte Subdomain zugewiesen. 
 Diese Subdomain besteht aus der Kundennummer, dem Hostserver und der Domain "zap-webspace.com". In der Anleitung "Domain verknüpfen" wird gezeigt, wie eine eigene Domain zu dem Webspace verbunden werden kann.
+
+<InlineVoucher />
 
 ## Erste Schritte
 

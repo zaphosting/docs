@@ -3,15 +3,19 @@ id: redm-installresources
 title: "RedM: Installation of resources"
 description: Information on how to install resources on your RedM server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Install resources
+services:
+  - gameserver
 ---
 
-## Introduction
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
 Ressourcen können verwendet werden, um deinen FiveM Server um zusätzliche Funktionen zu erweitern. Dies ist gerade dann interessant, wenn du größere Projekte angehen möchtest, wie zum Beispiel einen Roleplay Server oder ähnlichen. Ohne solche zusätzlichen Ressourcen lässt sich das so direkt nicht umsetzen.
 
 FiveM beziehungsweise dessen Community bietet hierbei eine große Auswahl an Ressourcen an. Eine Übersicht mit den beliebtesten Ressourcen findest du im Cfx.re Forum: https://forum.cfx.re/c/redm-development/54
+
+<InlineVoucher />
 
 ## Vorbereitung
 

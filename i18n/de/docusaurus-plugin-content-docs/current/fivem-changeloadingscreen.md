@@ -3,8 +3,13 @@ id: fivem-changeloadingscreen
 title: "FiveM: Loadingscreen für FiveM-Server installieren/ändern"
 description: Informationen, wie du neue Loadingscreens auf einem FiveM Server von ZAP-Hosting hinzufügen/ändern kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Loadingscreen installieren
-
+services:
+  - gameserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
+
+<InlineVoucher />
 
 ## Loadingscreen installieren
 

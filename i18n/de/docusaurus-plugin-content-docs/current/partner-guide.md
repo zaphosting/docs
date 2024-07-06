@@ -5,6 +5,8 @@ description: Informationen zum Partnerprogramm von ZAP-Hosting - ZAP-Hosting.com
 sidebar_label: Partner Guide
 ---
 
+import InlineVoucher from '@site/src/components/InlineVoucher';
+
 ## Willkommen im Partnerprogramm
 
 Deine Bewerbung ist angekommen und wir haben dir eine Bestätigung geschickt? **Dann herzlich willkommen in unserem ZAP-Partnerprogramm!** Ab jetzt zählst du zu einem sorgfältig ausgesuchtem Team von Influencern, die offiziell unsere Produkte und unsere Firma repräsentieren. 

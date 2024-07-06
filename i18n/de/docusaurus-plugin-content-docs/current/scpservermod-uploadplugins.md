@@ -3,10 +3,17 @@ id: scpservermod-uploadplugins
 title: "SCP Secret Laboratory: Plugins auf Server installieren installieren"
 description: Informationen, wie du Plugins auf deinen SCP ServerMod Server von ZAP-Hosting.com installieren kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Plugins installieren
+services:
+  - gameserver
 ---
 
+import InlineVoucher from '@site/src/components/InlineVoucher';
+
 :::caution
-Das Spiel SCP: Secret Laboratory mit der **Servermod Erweiterung** wird derzeit bis auf Weiteres aufgrund von fehlender Kompatibilität nicht mehr aktiv im Shop angeboten. Wir empfehlen stattdessen auf **[SCP:EXILED](https://zap-hosting.com/guides/de/docs/scpservermod-uploadplugins/)** umzusteigen. Diese Dokumentationsseite wird vorerst noch aufrechterhalten.  :::
+Das Spiel SCP: Secret Laboratory mit der **Servermod Erweiterung** wird derzeit bis auf Weiteres aufgrund von fehlender Kompatibilität nicht mehr aktiv im Shop angeboten. Wir empfehlen stattdessen auf **[SCP:EXILED](https://zap-hosting.com/guides/de/docs/scpservermod-uploadplugins/)** umzusteigen. Diese Dokumentationsseite wird vorerst noch aufrechterhalten.
+:::
+
+<InlineVoucher />
 
 ## Verbinden via FTP
 Bevor Plugins installiert werden können, muss dein [FTP Zugang](gameserver-ftpaccess.md) eingerichtet werden.

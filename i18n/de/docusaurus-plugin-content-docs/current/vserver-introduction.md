@@ -3,13 +3,19 @@ id: vserver-introduction
 title: "vServer: Einführung"
 description: Einführung und Informationen zum vServer- und Rootserver-Produkt von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Einführung
+services:
+  - vserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
 Du suchst nach deinem eigenen Server mit leistungsstarker Konfiguration zu einem fairen Preis? Dann bist du bei ZAP-Hosting genau richtig! Bei ZAP-Hosting kannst du deinen passenden vServer oder Rootserver mieten oder kaufen, um das maximale Leistungserlebnis für viele Anwendungsfälle zu erleben!
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/WY3eGoELodGwQMB/preview)
+
+<InlineVoucher />
 
 ## Bestellen
 

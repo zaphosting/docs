@@ -3,11 +3,17 @@ id: domain-easydns
 title: "Domain: EasyDNS"
 description: Informationen zu den EasyDNS Domaineinstellungen bei ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: EasyDNS
+services:
+  - domain
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
 Mit der **EasyDNS Funktion** kann die Weiterleitung einer Domain, welche bei **uns** gemietet wurde, auf ein anderes Produkt auf demselben Account mit einem Klick eingestellt werden.
+
+<InlineVoucher />
 
 ## Wo finde ich die EasyDNS Option und wie verwende ich es?
 

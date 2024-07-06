@@ -3,10 +3,13 @@ id: 7d2d-becomeadmin
 title: "7 Days to Die: 7 Days to Die Admin werden - Gameserver von ZAP-Hosting"
 description: Anleitung, wie du dich zum Admin für 7 Days to Die Gameserver machst - ZAP-Hosting.com Dokumentation 
 sidebar_label: Admin werden
-
+services:
+  - gameserver
 ---
 
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
+<InlineVoucher />
 
 ## Admin werden
 
