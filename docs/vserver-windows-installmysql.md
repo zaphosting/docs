@@ -17,7 +17,7 @@ A MySQL server is needed for various applications and can contain important data
 
 ## Installation
 
-At the beginning you connect via remote desktop connection to your server and download the latest version of MariaDB, which is used for the database server: [MariaDB Download](https://native-network.net/downloads/download/895/). 
+At the beginning you connect via remote desktop connection to your server and download the latest version of MariaDB, which is used for the database server: [MariaDB Download](https://mariadb.org/download/?t=mariadb). 
 
 Unpack the downloaded archive with WinRAR or 7Zip and start the installation file with a double click: 
 
