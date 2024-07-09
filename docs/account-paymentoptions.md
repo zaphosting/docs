@@ -8,10 +8,7 @@ sidebar_label: Payment options
 ## Overview
 ZAP-Hosting offers a large number of different payment options with which servers can be rented and deployed immediately. The payment process is simple and fast. The following payment options are offered by us:
 *  **ZAP Coins:** ZAP Coins are added via the Cashbox (deposit money) and can be used for almost all products.
-* **Sofortüberweisung:** Payment with online banking via Sofortüberweisung.de. Available for almost all German online banking accesses.
 * **Credit card:** Payment by credit card.
-* **Giropay:** Payment with online banking. Giropay is available for customers of savings banks and Raiffeisen banks and was developed by them.
-* **EPS:** The Austrian payment system to pay via the Internet using online banking. EPS Überweisung is connected to Giropay via an interface.
 * **PayPal:** Payment by PayPal.
 * **PaySafeCard:** PaySafeCards are prepaid cards that can be purchased at over 25,000 sales outlets in Germany. The card code is required for payment.
 * **Bitcoin:** Pay with Bitcoin. The transaction will be processed by the provider Coinify.
