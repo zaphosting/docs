@@ -26,7 +26,8 @@ Hier findest du eine Übersicht über alle verfügbaren DLCs und dessen Build-ID
 |   2699   | The Criminal Enterprises  |
 |   2802   |   Los Santos Drug Wars    |
 |   2944   |  San Andreas Mercenaries  |
-
+|   3095   |       The Chop Shop       |
+|   3258   |   Bottom Dollar Bounties  |
 
 
 ## Buld aktivieren mit FiveM (Linux/Windows)
