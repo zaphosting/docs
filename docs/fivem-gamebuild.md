@@ -26,6 +26,8 @@ This is an overview of all available DLC and its Build IDs:
 | 2699     | The Criminal Enterprises  |
 | 2802     | Los Santos Drug Wars      |
 | 2944     | San Andreas Mercenaries   |
+| 3095     | The Chop Shop             |
+| 3258     | Bottom Dollar Bounties    |
 
 
 
