@@ -24,31 +24,39 @@ export const VoucherProvider = props => {
 
     useEffect(() => {
         const voucherRetrieval = async () => {
-            setLoading(true);
-
-            const voucherResponse = await (
-                await fetch('https://zap-hosting.com/interface/shop/_ajax/json_getDocsCoupon.php', {
-                    headers: {
-                        'X-Requested-With': 'XMLHttpRequest',
-                    },
-                }).finally(() => {
-                    setLoading(false);
-                })
-            ).json();
-
-            if (voucherResponse.message === 'ok' && voucherResponse.result === 'success') {
-                setFound(true);
-                setVoucher(voucherResponse.data);
-
-                return;
+          setLoading(true);
+      
+          try {
+            const voucherResponse = await fetch('https://zap-hosting.com/interface/shop/_ajax/json_getDocsCoupon.php', {
+              headers: {
+                'X-Requested-With': 'XMLHttpRequest',
+              },
+            });
+      
+            if (!voucherResponse.ok) {
+              throw new Error(`HTTP error! Status: ${voucherResponse.status}`);
             }
-
+      
+            const voucherData = await voucherResponse.json(); 
+      
+            if (voucherData.message === 'ok' && voucherData.result === 'success') {
+              setFound(true);
+              setVoucher(voucherData.data);
+            } else {
+              setFound(false);
+              setVoucher({});
+            }
+          } catch (error) {
+            console.error("Error fetching voucher:", error); // Log the error for debugging
             setFound(false);
-            setVoucher({});
-        }
-
+            setVoucher({}); 
+          } finally {
+            setLoading(false); 
+          }
+        };
+      
         voucherRetrieval();
-    }, []);
+      }, []);
 
     return (
         <VoucherContext.Provider value={{
