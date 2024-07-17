@@ -5,7 +5,7 @@ description: Informationen über die Unterschiede zwischen Miet- und Lifetime Ka
 sidebar_label: Mieten oder Lifetime Kaufen
 ---
 
-import InlineVoucher from '@site/src/components/InlineVoucher';
+
 
 ## Einführung
 

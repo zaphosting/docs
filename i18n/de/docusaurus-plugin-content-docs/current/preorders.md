@@ -5,7 +5,7 @@ description: Informationen zu Vorbestellungen bei ZAP-Hosting. Was sind Vorbeste
 sidebar_label: Vorbestellungen
 ---
 
-import InlineVoucher from '@site/src/components/InlineVoucher';
+
 
 ## Einführung
 

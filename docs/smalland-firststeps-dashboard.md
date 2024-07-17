@@ -1,5 +1,5 @@
 ---
-id: smalland-firststeps-dashboard.md
+id: smalland-firststeps-dashboard
 title: "Smalland Survive the Wilds: Dashboard Overview"
 description: Information about the dashboard of an Smalland Survive the Wilds Server from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Dashboard

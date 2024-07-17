@@ -5,7 +5,7 @@ description: Information on ZAP-Hosting's partner programme - ZAP-Hosting.com do
 sidebar_label: Partner Guide
 ---
 
-import InlineVoucher from '@site/src/components/InlineVoucher';
+
 
 ## Welcome to the partner program
 Your application has arrived and we have sent you a confirmation? **Then welcome to our ZAP partner program!** From now on you belong to a carefully selected team of influencers who officially represent our products and our company. 

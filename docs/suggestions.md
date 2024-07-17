@@ -5,7 +5,7 @@ description: Information on how to submit suggestions for new games and features
 sidebar_label: Submit Suggestions
 ---
 
-import InlineVoucher from '@site/src/components/InlineVoucher';
+
 
 ## Introduction
 At ZAP-Hosting we always thrive to do the best that we can, thus we welcome any feedback and suggestions from our Community. We provide the ability to do this easily directly through our [Suggestions Page](https://zap-hosting.com/en/suggestion/) on the site.

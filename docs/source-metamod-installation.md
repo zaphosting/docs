@@ -7,7 +7,7 @@ services:
   - gameserver
 ---
 
-import InlineVoucher from '@site/src/components/InlineVoucher'
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## What is SM and MM anyway?
 
