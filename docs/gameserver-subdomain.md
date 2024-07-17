@@ -1,67 +1,94 @@
 ---
 id: gameserver-subdomain
 title: 'Game server: ZAP Subdomain'
-description: Information on the automatic ZAP subdomain (zap.cloud) feature for your game server from ZAP-Hosting -ZAP-Hosting.com 
-sidebar_label: ZAP Cloud Subdomain
+description: Information on settings up a ZAP Cloud (.zap.cloud) subdomain or your own domain for your game server from ZAP-Hosting - ZAP-Hosting.com 
+sidebar_label: Gameserver Subdomain
 ---
 
 ## Introduction
 
-Our Game Servers now come with a brand new feature that provides you with a convenient ZAP Cloud subdomain that accompanies your traditional IP Address, when the currently installed game is supported.
-
-When activated, you will begin to see an automatic `xxx`**.zap.cloud** subdomain across your web interface, which makes it much more convenient to input for you and your player base when accessing the server and connecting in-game.
-
-You will still be able to see your regular IP Address, besides the automatic ZAP Cloud subdomain.
+Our Game Servers now come with the ability to easily and quickly setup subdomains for your server. In this guide, you will explore how to use the DNS Subdomain functionality for your server to generate a ZAP Cloud subdomain or setup your own domain for use.
 
 ![image](https://screensaver01.zap-hosting.com/index.php/s/yJTBQ7oC926LfbT/preview)
 
 ## Availability
 
-This feature is available for both new and existing customers. New Customers will have this feature activated **automatically** when the installed game is supported. Existing customers should proceed with the __next section__ to perform some quick steps to enable this on their server.
+The Subdomain feature is available to both new and existing customers. New Customers will have a `xxx`**.zap.cloud** subdomain automatically setup during the installation process. Existing customers will have to enable this manually under the **Settings->DNS Settings** section on the game server's web interface panel. Usage of this section will be covered in the following section.
 
-In the long-term, we aim to expand this feature across as many games as possible. Unfortunately, certain games make it technically infeasible to add, but for such games you will simply see the IP Address as normal in the web interface.
-
-## Setup for Existing Customers
-
-Activating the new ZAP subdomain feature for your Game Server is simple.
-
-:::info
-Only existing customers who own a Game Server with us before `01/07/2024` need to set this up. New Game Servers will be automatically setup with the ZAP Subdomain if the game is supported.
-:::
-
-### Main Method
-
-Simply head over to the **Settings** section on your Game Server's Web Interface panel.
-
-![image](https://screensaver01.zap-hosting.com/index.php/s/WSc7bkgE7BgmDZf/preview)
-
-Head over to the very bottom and find the **Resolve subdomain** button within the **Actions** section.
-
-![image](https://screensaver01.zap-hosting.com/index.php/s/o4GTFGeJQLnMcP2/preview)
-
-Simply press this button to activate or refresh the ZAP Cloud subdomain.
-
-:::info
-It may take up to a few minutes for the subdomain to become visible and active!
-:::
+Not all games are currently supported, but we are pleased to have it already active on a variety of popular games including FiveM, Minecraft and more! In the long-term, we aim to expand this feature across as many games as possible. Unfortunately, certain games make it technically infeasible to add, but for such games you will simply see the IP Address as normal in the web interface.
 
 :::tip
-If you do not see this button, this means that your current game is **not supported** at this time for the ZAP subdomain feature. You are more than welcome to [contact our support](https://zap-hosting.com/en/customer/support/) to see if we can get this added :)
-::: 
+If the game you have installed is not currenly supported, feel free to get in [contact with our Support Team](https://zap-hosting.com/en/customer/support/) and we will see if we can get this added :)
+:::
 
-### Alternative Methods
+## Managing Subdomains (DNS)
 
-You can choose to contact our friendly Support Team by [creating a ticket on our website](https://zap-hosting.com/en/customer/support/) and we will be more than happy to activate the feature for you if it is available for the installed game.
+Managing the subdomain feature on your game server is simple. Head over to the **Settings->DNS Settings** section to begin.
 
-Your Game Server will also have the feature automatically enabled if the game is supported, when you:
-- Re-install your Game Server
-- Change Game
-- Upgrade or Downgrade your Server
+On this page, you will be able to perform a variety of management tasks related to the Free ZAP Cloud subdomain as well as the usage of your own domains that you have setup on your ZAP-Hosting account.
+
+![image](https://screensaver01.zap-hosting.com/index.php/s/M6SMHKJcZ3GgXQd/preview)
+
+:::info
+Currently, you can have a maximum of 3 subdomains active per product (not including the randomly generated ZAP Cloud subdomain).
+:::
+
+### Random ZAP Cloud Subdomain
+
+In order to generate a random ZAP Cloud subdomain, you must use the **Resolve subdomains** button found on this settings page.
+
+:::info
+Existing customers should also use this button to generate a random ZAP Cloud subdomain for the first time.
+:::
+
+![image](https://screensaver01.zap-hosting.com/index.php/s/Lc5CCQwMtCK63nx/preview)
+
+### Custom ZAP Cloud Subdomain
+
+You have the ability to create your very own ZAP Cloud subdomain to suit your needs, by simply inputting the subdomain you wish to use and selecting **.zap.cloud** from the drop down menu (default option).
+
+:::note
+If you recieve an error, it is possible that the subdomain is already in use and/or you have entered a banned word or character which is not allowed to protect our customers.
+:::
+
+Now use the **Create entry** button and you should be able to see the subdomain appear in the list. You may have to wait up to a few minutes before it becomes fully functional.
+
+![image](https://screensaver01.zap-hosting.com/index.php/s/odqKSyzXRLi5zRx/preview)
+
+![image](https://screensaver01.zap-hosting.com/index.php/s/yWmt4j3nWEgbN6K/preview)
+
+### Own Domain
+
+:::info
+In order to be able to use your domain to create a subdomain, please ensure that it is associated to your ZAP-Hosting account by [purchasing it on our website](https://zap-hosting.com/en/shop/product/domain/), or transferring the domain to your account from another provider.
+:::
+
+Creating a subdomain with your own domain follows the same steps as the Custom ZAP Cloud subdomain. Input the subdomain you wish to use and select your own domain from the drop down menu.
+
+:::note
+If you recieve an error, it is possible that the subdomain is already in use and/or you have entered a banned word or character which is not allowed to protect our customers.
+:::
+
+Now use the **Create entry** button and you should be able to see the subdomain appear in the list. You may have to wait up to a few minutes before it becomes fully functional.
+
+![image](https://screensaver01.zap-hosting.com/index.php/s/Xoe8c4T9TNpby27/preview)
+
+![image](https://screensaver01.zap-hosting.com/index.php/s/AX9yFSb3nRNoKiF/preview)
 
 ## Troubleshooting
 
-If you are experiencing any issues with the ZAP Cloud subdomain, you can attempt to resolve this yourself by heading over to the **Settings** section on your Game Server's Web Interface panel and using the **Resolve subdomain** button which is found at the bottom.
+### ZAP Cloud Subdomain
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/o4GTFGeJQLnMcP2/preview)
+If you are experiencing any issues with the ZAP Cloud subdomains, you can attempt to resolve this yourself by heading over to the **Settings->DNS Settings** section as previously explained, and use the **Resolve subdomains** button found at the bottom.
 
-Wait a few minutes and the ZAP Cloud subdomain should be refreshed. If you are still facing issues, please contact our Support Team by [creating a ticket on our website](https://zap-hosting.com/en/customer/support/).
+![image](https://screensaver01.zap-hosting.com/index.php/s/Lc5CCQwMtCK63nx/preview)
+
+Please wait a few minutes before checking again if they are functioning correctly.
+
+### Custom Domain
+
+If you cannot see your own domain in the drop down menu when attempting to create a subdomain, this is likely as you do not have it associated with your ZAP-Hosting account.
+
+Please ensure that the domain is active on your ZAP-Hosting account, which may involve transferring it from other providers.
+
+If you are still facing issues regarding any part of the subdomain feature, please contact our Support Team by [creating a ticket on our website](https://zap-hosting.com/en/customer/support/) and we will be happy to help out.
