@@ -1709,6 +1709,7 @@ const sidebars = {
       defaultStyle: true,
     },    
     'voiceserver-introduction',
+    'voiceserver-subdomain',
     'voiceserver-becomeadmin',
     'voiceserver-configuration',
     'voiceserver-ts3backup',
