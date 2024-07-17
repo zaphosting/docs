@@ -3,13 +3,19 @@ id: webspace-subdomain
 title: 'Webspace: ZAP Subdomain'
 description: Information on settings up a ZAP Cloud (.zap.cloud) subdomain or your own domain for your webspace from ZAP-Hosting - ZAP-Hosting.com 
 sidebar_label: Webspace Subdomain
+services:
+  - webspace
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
 Our Webspaces now come with the ability to quickly setup subdomains to easily access the site on your webspace. In this guide, you will explore how to use the DNS Subdomain functionality for your webspace to generate a ZAP Cloud subdomain or setup your own domain for use.
 
 ![image](https://screensaver01.zap-hosting.com/index.php/s/RJTfQf9ARDkC3r4/preview)
+
+<InlineVoucher />
 
 ## Availability
 

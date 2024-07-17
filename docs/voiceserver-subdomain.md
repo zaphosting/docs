@@ -3,13 +3,19 @@ id: voiceserver-subdomain
 title: 'Voiceserver: ZAP Subdomain'
 description: Information on settings up a ZAP Cloud (.zap.cloud) subdomain or your own domain for your voiceserver from ZAP-Hosting - ZAP-Hosting.com 
 sidebar_label: Voiceserver Subdomain
+services:
+  - voiceserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
 Our Voiceservers now come with the ability to quickly setup subdomains to easily access your server. In this guide, you will explore how to use the DNS Subdomain functionality for your voiceserver to generate a ZAP Cloud subdomain or setup your own domain for use.
 
 ![image](https://screensaver01.zap-hosting.com/index.php/s/5dCaYAztCfESCdN/preview)
+
+<InlineVoucher />
 
 ## Availability
 

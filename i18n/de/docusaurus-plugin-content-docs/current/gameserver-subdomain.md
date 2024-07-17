@@ -3,13 +3,19 @@ id: gameserver-subdomain
 title: 'Gameserver: ZAP Subdomain'
 description: Informationen zum Einrichten einer ZAP Cloud (.zap.cloud) Subdomain oder deiner eigenen Domain für deinen Gameserver von ZAP-Hosting - ZAP-Hosting.com 
 sidebar_label: Gameserver Subdomain
+services:
+  - gameserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
 Unsere Gameserver bieten dir jetzt die Möglichkeit, schnell und einfach Subdomains für deinen Server einzurichten. In dieser Anleitung erfährst du, wie du die DNS-Subdomain-Funktion für deinen Server nutzen kannst, um eine ZAP Cloud-Subdomain zu erstellen oder deine eigene Domain einzurichten.
 
 ![image](https://screensaver01.zap-hosting.com/index.php/s/o7is2nazsZ5NPFF/preview)
+
+<InlineVoucher />
 
 ## Verfügbarkeit
 
