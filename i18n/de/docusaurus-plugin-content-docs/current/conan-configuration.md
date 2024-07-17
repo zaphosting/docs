@@ -3,22 +3,21 @@ id: conan-configuration
 title: "Conan Exiles: Server konfigurieren"
 description: Informationen, wie du deinen Conan Exiles-Server von ZAP-Hosting via dem Web Interface konfigurieren kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Server Konfiguration
-
+services:
+  - gameserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Server Konfiguration
 
 Conan Exiles Server können umfangreich konfiguriert werden. Die Konfiguration des Servers findet über die Konfigurationsdateien statt. Diese findest du im Webinterface in der Gameserver Verwaltung unter Configs. Öffne dazu die **ServerSettings.ini** Konfigurationsdatei.
 
-
-
 ![image](https://user-images.githubusercontent.com/26007280/189717766-857109c7-0eb9-4c85-9ef0-49ee392e716f.png)
-
-
 
 Im Folgenden findest du eine kategorisierte Übersicht aller relevanten Befehle, mit der du deinen Server nach deinen wünschen, beliebig konfigurieren kannst. Gewisse Befehle können in der Config standardmäßig noch nicht vorhanden sein. Diese können einfach im nachhinein noch  an einer freien Stelle hinzugefügt werden. 
 
-
+<InlineVoucher />
 
 ## Allgemein
 

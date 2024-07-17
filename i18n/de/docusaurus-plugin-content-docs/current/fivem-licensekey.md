@@ -3,15 +3,17 @@ id: fivem-licensekey
 title: "FiveM: Fügen deinen eigenen Lizenzschlüssel (Patreon) zum Server hinzu"
 description: Informationen, wie du deinen eigenen Lizenzschlüssel (von Patreon) erstellen und zu deinem FiveM Server von ZAP-Hosting hinzufügen kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Eigener Lizenzschlüssel
+services:
+  - gameserver
 ---
 
-
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Warum benötigst du einen eigenen Lizenzschlüssel?
 
 Du benötigst einen eigenen Lizenzschlüssel, vor allem wenn du deine [FiveM Patreon](https://www.patreon.com/fivem/posts) Vorteile wie Onesync, farbige Servernamen und mehr nutzen möchtest. Alternativ kannst du auch einen eigenen Lizenzschlüssel benötigen, um den Eigentümer in der Serverliste zu ändern oder wenn du eine Fehlermeldung erhältst, dass der automatisch generierte ZAP-Schlüssel ungültig ist.
 
-
+<InlineVoucher />
 
 ## Vorbereitung
 

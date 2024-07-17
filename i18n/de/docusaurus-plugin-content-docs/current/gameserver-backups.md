@@ -18,6 +18,7 @@ Neben dem manuellen Erstellen von Backups können auch Backups voll automatisier
 
 <YouTube videoId="yUDAcfyDELc" title="Wie du BACKUPS für deinen Server erstellst!" description="Hast du das Gefühl, dass du etwas besser verstehst, wenn du es in Aktion siehst?  Wir haben etwas für dich! Tauche ab in unser Video, welches alles für dich zusammenfasst. Egal, ob du es eilig hast oder einfach nur Informationen auf möglichst verständliche Art und Weise aufnehmen möchtest!"/>
 
+<InlineVoucher />
 
 ## Backup manuell erstellen
 
@@ -26,8 +27,6 @@ Um ein Backup manuell zu erstellen, muss der grüne **+** Button neben der Backu
 :::info
 Je nach Speichergröße des Servers kann das Anlegen des Backups durchaus ein paar Minuten dauern!
 :::
-
-<InlineVoucher />
 
 ## Backup automatisiert erstellen
 

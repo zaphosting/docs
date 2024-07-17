@@ -3,9 +3,12 @@ id: minecraft-server-icon
 title: "Minecraft: Server Icon hinzufügen oder ändern"
 description: Informationen, wie du ein Server Icon für deinen Minecraft Server von ZAP-Hosting hinzufügen oder ändern kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Server Icon
+services:
+  - gameserver
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 Minecraft bietet die Option an, ein eigenes Servericon hinzuzufügen, das im Multiplayer vor dem Server angezeigt wird, sofern der Server eingespeichert wurde.
@@ -13,6 +16,8 @@ Minecraft bietet die Option an, ein eigenes Servericon hinzuzufügen, das im Mul
 ![](https://screensaver01.zap-hosting.com/index.php/s/zFQLZmRrLWrKN7r/preview)
 
 <YouTube videoId="m5mpKcd9Ur0" title="How to change the ICON on your Minecraft Server " description="Hast du das Gefühl, dass du etwas besser verstehst, wenn du es in Aktion siehst?  Wir haben etwas für dich! Tauche ab in unser Video, welches alles für dich zusammenfasst. Egal, ob du es eilig hast oder einfach nur Informationen auf möglichst verständliche Art und Weise aufnehmen möchtest!"/>
+
+<InlineVoucher />
 
 ## Hinzufügen des Icons 
 

@@ -3,7 +3,13 @@ id: unturned-rocketmod-permissions
 title: "Unturned: Server-Berechtigungen anpassen"
 description: Informationen, wie du die Berechtigungen für deinen Unturned Rocketmod Server von ZAP-Hosting anpassen kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Berechtigungen anpassen
+services:
+  - gameserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
+
+<InlineVoucher />
 
 ## Vorbereitungen
 Damit die notwendigen Config Dateien vom Server generiert werden, muss dieser erst einmal gestartet werden. Soweit der Server dann online ist, kannst du diesen wieder stoppen. Denn alle notwendigen Dateien, welche wir bzw. der Server benötigt, wurden dann erstellt.

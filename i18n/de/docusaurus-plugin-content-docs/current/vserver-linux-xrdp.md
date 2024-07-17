@@ -3,9 +3,11 @@ id: vserver-linux-xrdp
 title: "vServer: Installation von xRDP (Remotedesktop)"
 description: Informationen, um xRDP (Remotedesktop) auf Linux zu installieren - ZAP-Hosting.com Dokumentation
 sidebar_label: xRDP installieren
+services:
+  - vserver
 ---
 
-
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
@@ -15,6 +17,8 @@ Eine nachträgliche Installation ist bei den meisten Linux Distributionen mögli
 :::info
 Wichtig: Es muss mindestens Ubuntu 18.04.X LTS (Bionic Beaver) oder Debian 10 (Buster) genutzt werden als OS. Neuere Versionen sind empfehlenswert. 
 :::
+
+<InlineVoucher />
 
 ## Installation von xRDP
 

@@ -3,7 +3,13 @@ id: vserver-windows-expand-disk
 title: "vServer: Festplatte auf Windows Server erweitern"
 description: Informationen, wie du die Festplatte deines Windows vServers von ZAP-Hosting nach einem Upgrade erweitern kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Festplatte erweitern
+services:
+  - vserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
+
+<InlineVoucher />
 
 Nach einem Upgrade deines ZAP Windows vServers, ist es möglicherweise notwendig deiner bestehenden Partition den neuen Speicher hinzuzufügen.
 

@@ -3,7 +3,13 @@ id: ragemp-installpackages
 title: "RageMP: Installation of packages"
 description: Information on how to install packages on your RageMP server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Install packages
+services:
+  - gameserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
+
+<InlineVoucher />
 
 ## Connect via FTP
 

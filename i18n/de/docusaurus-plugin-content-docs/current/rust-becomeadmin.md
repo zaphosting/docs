@@ -3,7 +3,13 @@ id: rust-becomeadmin
 title: "Rust: Admin auf eigenem Server werden"
 description: Informationen, wie du dich zum Admin auf deinem Rust-Server von ZAP-Hosting machen kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Admin werden
+services:
+  - gameserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
+
+<InlineVoucher />
 
 ## Admin werden via RCON
 

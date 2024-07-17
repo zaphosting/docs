@@ -3,9 +3,17 @@ id: satisfactory-commands
 title: "Satisfactory: Konsolen-Befehle"
 description: Informationen zu den möglichen Konsolenbefehlen für deinen Satisfactory Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Konsolen-Befehle
+services:
+  - gameserver
 ---
 
+import InlineVoucher from '@site/src/components/InlineVoucher';
+
+## Einführung
+
 In Satisfactory gibt es viele nützliche Befehle, mit denen du die Einstellungen deines Clients anpassen kannst. Auf dieser Seite fassen wir die beliebtesten und nützlichsten Befehle zusammen, die von Spielern in Satisfactory häufig verwendet werden.
+
+<InlineVoucher />
 
 ## Zugriff auf die Konsole
 Die Verwendung der Konsole in Satisfactory ist sehr einfach: Drücke einfach die Taste ` (der Akut befindet sich neben der Rücktaste), um zwischen der Sichtbarkeit der Konsole zu wechseln. Die Konsole wird entweder geschlossen, mit einem kleinen Befehlsfenster am unteren Rand geöffnet oder ganz ausgeklappt, wenn du umschaltest.

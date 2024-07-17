@@ -3,13 +3,19 @@ id: valheim-plus
 title: "Valheim: Valheim Plus-Server"
 description: Informationen zu Valheim-Serven von ZAP-Hosting, auf denen die Valheim Plus Mod vorinstalliert ist - ZAP-Hosting.com Dokumentation
 sidebar_label: Valheim Plus
+services:
+  - gameserver
 ---
 
-## Vorwort
+import InlineVoucher from '@site/src/components/InlineVoucher';
+
+## Einführung
 
 :::info
 Valheim Plus ist eine clientseitige Modifikation. Sie ermöglicht es einige Änderungen am Spiel vorzunehmen.
 :::
+
+<InlineVoucher />
 
 ## Valheim Plus Installation auf dem Client
 

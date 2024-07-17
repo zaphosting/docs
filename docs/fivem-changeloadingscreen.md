@@ -3,7 +3,13 @@ id: fivem-changeloadingscreen
 title: "FiveM: Installation of loadingscreen"
 description: Information on how to add/change new loadings creens on a FiveM server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Install Loadingscreen
+services:
+  - gameserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
+
+<InlineVoucher />
 
 ## Install a loading screen
 

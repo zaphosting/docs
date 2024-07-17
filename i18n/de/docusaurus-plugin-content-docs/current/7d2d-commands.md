@@ -3,7 +3,13 @@ id: 7d2d-commands
 title: "7 Days to Die: Befehle ausführen"
 description: Information, wie du Server Befehle bei deinem 7 Days to Die Server von ZAP-Hosting ausführen kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Befehle ausführen
+services:
+  - gameserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
+
+<InlineVoucher />
 
 ## Die Konsole
 Um Befehle ausführen zu können musst du Admin sein, solltest du nicht wissen wie du ein Admin in 7 Days To die wirst, kannst du unserer Anleitung hierzu folgen.

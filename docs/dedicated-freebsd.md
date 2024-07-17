@@ -3,9 +3,11 @@ id: dedicated-freebsd
 title: "Dedicated Server: Installation of FreeBSD"
 description: Information about installing the FreeBSD operating system on your dedicated server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Install FreeBSD
+services:
+  - dedicated
 ---
 
-
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
@@ -16,6 +18,8 @@ The following will explain to you step by step how to install and configure the 
 The structure of the guide is based on the use of the FreeBSD 13.0 operating system. Installations from previous or newer versions may differ slightly in terms of the process.
 
 :::
+
+<InlineVoucher />
 
 ## Preparation
 

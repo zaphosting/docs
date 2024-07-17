@@ -3,7 +3,13 @@ id: vserver-linux-add-ip
 title: "vServer: IPv4 Adresse zum Server hinzufügen"
 description: Informationen, wie du eine IPv4 Adresse zu deinem vServer von ZAP-Hosting hinzufügen kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: IPv4 Adresse hinzufügen
+services:
+  - vserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
+
+<InlineVoucher />
 
 ## Zusätzlich(e) IPv4 Adresse(en) hinzufügen
 

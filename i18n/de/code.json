@@ -359,6 +359,54 @@
     "message": "Cloud-Gameserver",
     "description": "Product name for the gameserver product"
   },
+  "service.vserver.title": {
+    "message": "VPS",
+    "description": "Product name for the gameserver product"
+  },
+  "service.vserver.path": {
+    "message": "{marketingSite}/{language}/vps-hosting/",
+    "description": "URL path for the VPS product"
+  },
+  "service.dedicated.title": {
+    "message": "Dedicated Server",
+    "description": "Product name for the dedicated server product"
+  },
+  "service.dedicated.path": {
+    "message": "{marketingSite}/{language}/dedicated-server-hosting/",
+    "description": "URL path for the dedicated server product"
+  },
+  "service.domain.title": {
+    "message": "Domain",
+    "description": "Product name for the domain product"
+  },
+  "service.domain.path": {
+    "message": "{marketingSite}/{language}/domain-check/",
+    "description": "URL path for the domain product"
+  },
+  "service.webspace.title": {
+    "message": "Webspace",
+    "description": "Product name for the webspace product"
+  },
+  "service.webspace.path": {
+    "message": "{marketingSite}/{language}/webhosting-rent-a-webspace/",
+    "description": "URL path for the webspace product"
+  },
+  "service.voiceserver.title": {
+    "message": "Voiceserver",
+    "description": "Product name for the voiceserver product"
+  },
+  "service.voiceserver.path": {
+    "message": "{marketingSite}/{language}/teamspeak-3-server-hosting/",
+    "description": "URL path for the voiceserver product"
+  },
+  "service.voicebot.title": {
+    "message": "Voicebot",
+    "description": "Product name for the voicebot product"
+  },
+  "service.voicebot.path": {
+    "message": "{marketingSite}/{language}/teamspeak-3-server-hosting/",
+    "description": "URL path for the voicebot product"
+  },
   "service.storage.title": {
     "message": "Premium Storage",
     "description": "Product name for the storage product"

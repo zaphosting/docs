@@ -3,13 +3,19 @@ id: source-metamod-addadmins
 title: Become a server admin
 description: Information on how to become an admin on your Source game server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Become admin
+services:
+  - gameserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Become an admin
 
 To be able to register as admin, the installation of Source- / Metamod is essential.
 
 Furthermore you need the Steam ID of your Steam Account. There are several ways to get this. Either you use an external website that offers such a service or you use the game console.
+
+<InlineVoucher />
 
 ### SteamID via website
 

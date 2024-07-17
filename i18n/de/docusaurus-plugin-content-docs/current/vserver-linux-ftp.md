@@ -3,7 +3,13 @@ id: vserver-linux-ftp
 title: "vServer: FTP Dienst funktioniert nicht - Problemlösungen"
 description: Informationen, wie du FTP-Probleme bei deinem vServer von ZAP-Hosting beheben kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: FTP Dienst funktioniert nicht
+services:
+  - vserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
+
+<InlineVoucher />
 
 ## Was kann man tun, wenn der Gameserver oder Teamspeak Server nicht via FTP erreichbar ist? 
 

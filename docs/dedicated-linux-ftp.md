@@ -3,7 +3,11 @@ id: dedicated-linux-ftp
 title: "VPS: FTP service does not work - Troubleshooting"
 description: Information on how to fix FTP problems on your Dedicated Server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: FTP Service isn't working
+services:
+  - dedicated
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## What can you do if the game server or teamspeak server is not accessible via FTP?
 
@@ -12,6 +16,8 @@ Attention: The following steps only work on your own VPS/Root Server if the ZAP 
 :::
 
 If the created server cannot be reached via FTP, the FTP service (ProFTPD) is not active in most cases. In rare cases this can also be due to an incorrect config or an occupied port, i.e. FTP port 21 is used / occupied by another program.
+
+<InlineVoucher />
 
 ## Check the FTP problem more closely:
 

@@ -3,14 +3,16 @@ id: vserver-windows-nointernet
 title: "VPS:  No Internet what now?"
 description: Information on how to solve issues with non existing internet connection on windows vRootserver from ZAP-Hosting does not show Internet access - ZAP-Hosting.com documentation
 sidebar_label: No Internet what now?
+services:
+  - vserver
 ---
 
-
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
 An interrupted or faulty Internet connection can be caused by various reasons, such as incorrect IP address, subnet mask, gateway, DNS server or firewall settings. In the following, we will explain how you can check, identify and fix these possible issues.
-
+<InlineVoucher />
 
 
 ## Access without Internet

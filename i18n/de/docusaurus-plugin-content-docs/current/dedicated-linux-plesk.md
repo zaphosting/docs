@@ -3,15 +3,17 @@ id: dedicated-linux-plesk
 title: "Dedicated Server: Installation von Plesk"
 description: Informationen, wie du Plesk auf deinen Linux Dedicated Server von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Plesk installieren
+services:
+  - dedicated
 ---
 
-
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
 Plesk ist eine umfassende Webhosting- und Servermanagement-Plattform, die es Benutzern ermöglicht, Websites, Server, E-Mail-Konten und mehr über eine benutzerfreundliche Oberfläche zu verwalten. Es handelt sich um eine vielseitige Lösung, die sowohl für Einsteiger als auch für erfahrene Webentwickler und Systemadministratoren geeignet ist. 
 
-
+<InlineVoucher />
 
 ## Plesk installieren
 

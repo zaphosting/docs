@@ -3,10 +3,17 @@ id: vrising-becomeadmin
 title: "V Rising: Admin werden"
 description: Informationen, wie du Admin auf deinem V Rising Server bei ZAP-Hosting wirst - ZAP-Hosting.com Dokumentation
 sidebar_label: Admin werden
+services:
+  - gameserver
 ---
 
-Du möchtest mehr Kontrolle über deinen Server erhalten? Als Admin hast du die Möglichkeit noch mehr individuelle Anpassungen vorzunehmen oder deinen Server im Spiel zu verwalten. Im Folgenden wird dir erklärt, wie du dich als Admin registrieren und die Berechtigungen im Spiel hinzufügst kannst. 
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
+## Einführung
+
+Du möchtest mehr Kontrolle über deinen Server erhalten? Als Admin hast du die Möglichkeit noch mehr individuelle Anpassungen vorzunehmen oder deinen Server im Spiel zu verwalten. Im Folgenden wird dir erklärt, wie du dich als Admin registrieren und die Berechtigungen im Spiel hinzufügst kannst.
+
+<InlineVoucher />
 
 ### Berechtigungen hinzufügen
 

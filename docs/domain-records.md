@@ -3,7 +3,13 @@ id: domain-records
 title: "Domain: Domain records settings"
 description: Information about the domain record settings for domains at ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Domain Records
+services:
+  - domain
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
+
+<InlineVoucher />
 
 ## A Records
 

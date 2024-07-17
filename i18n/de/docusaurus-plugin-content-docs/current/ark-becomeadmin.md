@@ -3,10 +3,15 @@ id: ark-becomeadmin
 title: "ARK: Admin werden"
 description: Informationen, wie du Admin auf deinem ARK-Server bei ZAP-Hosting wirst - ZAP-Hosting.com Dokumentation
 sidebar_label: Admin werden
+services:
+  - gameserver
 ---
 
-## Admin werden
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
+<InlineVoucher />
+
+## Admin werden
 
 Mit Administrator-Rechten kannst du direkt im Spiel Änderungen im Live Zustand an deinem Server vornehmen, ohne diese in der Config vorzunehmen. Damit man sich selbst oder auch anderen Spielern Administrator-Rechte zuweisen kann, muss als erstes ein Serveradmin Passwort definiert werden. Das definieren des Passworts erfolgt über die Einstellungen in unserem Interface:
 

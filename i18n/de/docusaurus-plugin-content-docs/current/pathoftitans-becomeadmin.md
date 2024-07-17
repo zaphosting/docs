@@ -3,15 +3,17 @@ id: pathoftitans-becomeadmin
 title: "Path of Titans: Admin werden"
 description: Informationen darüber, wie du ein Admin auf deinem Path of Titans Server bei ZAP-Hosting wirst - ZAP-Hosting.com Dokumentation
 sidebar_label: Admin werden
+services:
+  - gameserver
 ---
 
-
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
 Möchtest du mehr Kontrolle über deinen Server haben? Als Admin hast du die Möglichkeit, noch mehr Anpassungen vorzunehmen oder deinen Server im Spiel zu verwalten. Im Folgenden erklären wir, wie du dich als Admin registrieren und Berechtigungen im Spiel hinzufügen kannst.
 
-
+<InlineVoucher />
 
 ## Vorbereitung
 

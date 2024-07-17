@@ -3,7 +3,11 @@ id: satisfactory-switchexperimental
 title: "Satisfactory: Experimental Build"
 description: Information on Experimental Build for Satisfactory from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Experimental Build
+services:
+  - gameserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## What is experimental build?
 Satisfactory consists of two versions, the regular build and the experimental build. The regular build is more reliable, stable and less bug-prone as it is a more finalised build. On the other hand, the experimental build provides access to major patches first before being released as a regular build, thus it has higher chances of bugs and has much more frequent updates but the benefits of trying out major updates first!
@@ -11,6 +15,8 @@ Satisfactory consists of two versions, the regular build and the experimental bu
 :::info
 Note: Regardless of which build you choose, both your server and your game client must be on the same build version to be able to connect.
 :::
+
+<InlineVoucher />
 
 ## How to switch to experimental build?
 Through our game server system, it is very simple to change the build of the server through our website. Before beginning, we recommend that you back up your Satisfactory savegames as switching the game will erase all files.

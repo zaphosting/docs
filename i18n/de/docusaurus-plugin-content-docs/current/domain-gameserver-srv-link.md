@@ -3,7 +3,11 @@ id: domain-gameserver-srv-link
 title: "Domain: Gameserver Weiterleitung einrichten"
 description: Informationen, wie du eine Weiterleitung von deiner Domain auf einen Gameserver einrichtest - ZAP-Hosting.com Dokumentation
 sidebar_label: Gameserver Weiterleitung
+services:
+  - domain
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 :::info
 Bitte beachte, dass es immer bis zu 24 Stunden dauern kann bis Änderungen an DNS Einträgen aktiv werden!
@@ -12,6 +16,8 @@ Bitte beachte, dass es immer bis zu 24 Stunden dauern kann bis Änderungen an DN
 ## Einführung
 Du kannst entweder deine Domain vollständig, oder lediglich eine Subdomain auf deinen Gameserver weiterleiten.
 So muss sich niemand die komplizierte IP-Adresse, welche aus Zahlen besteht merken, sondern kann sich einfach mithilfe der Domain auf deinen Gameserver verbinden.
+
+<InlineVoucher />
 
 ## Funktionsweise
 

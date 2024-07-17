@@ -3,9 +3,17 @@ id: redm-server-customisation
 title: "RedM: Customise server details"
 description: Information on how to customise server details displayed in the server list for RedM servers - ZAP-Hosting.com - Documentation
 sidebar_label: Customise Server Details
+services:
+  - gameserver
 ---
 
+import InlineVoucher from '@site/src/components/InlineVoucher';
+
+## Introduction
+
 Are you looking to customise your server to display custom information in the server list? This can be done easily! In this guide you will learn how to set a range of different customisations that are available to make your server stand out in the server list!
+
+<InlineVoucher />
 
 ## Accessing your server's configuration
 

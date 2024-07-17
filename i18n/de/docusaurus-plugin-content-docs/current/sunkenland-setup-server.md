@@ -3,9 +3,17 @@ id: sunkenland-setup-server
 title: "Sunkenland: Sunkenland Server Einrichtung"
 description: Informationen zur Einrichtung deines Sunkenland Gameservers von ZAP-Hosting - ZAP-Hosting.com dokumentation
 sidebar_label: Server Einrichtung
+services:
+  - gameserver
 ---
 
+import InlineVoucher from '@site/src/components/InlineVoucher';
+
+## Einführung
+
 Sunkenland-Server erfordern eine Ersteinrichtung, damit der Server korrekt funktioniert. In dieser Anleitung werden wir die notwendigen Schritte zur Einrichtung deines Sunkenland Gameservers beschreiben.
+
+<InlineVoucher />
 
 ## Voraussetzungen
 

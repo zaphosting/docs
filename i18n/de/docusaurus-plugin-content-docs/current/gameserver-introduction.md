@@ -3,13 +3,19 @@ id: gameserver-introduction
 title: "Gameserver: Einführung"
 description: Einführung und Informationen rund um das Gameserver Produkt von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Einführung
+services:
+  - gameserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
 Du suchst nach einem eigenen Gameserver mit leistungsstarker Konfiguration, einfacher Verwaltung und zu einem fairen Preis? Dann bist du bei ZAP-Hosting genau richtig! Bei ZAP-Hosting kannst du deinen passenden Server mieten oder kaufen, um das maximale Spielerlebnis zu genießen!
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/NZmdSnNGHNbKTcd/preview)
+
+<InlineVoucher />
 
 ## Bestellen
 

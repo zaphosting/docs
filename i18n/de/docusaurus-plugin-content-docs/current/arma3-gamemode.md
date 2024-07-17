@@ -3,8 +3,11 @@ id: arma3-gamemode
 title: "ArmA 3: Spielmodus ändern"
 description: Information, wie du den Spielmodus bei deinem Arma 3 Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Spielmodus ändern
+services:
+  - gameserver
 ---
 
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Festlegen des Spielmodus
 
@@ -16,6 +19,7 @@ Folgende Missionsdateien bieten wir aktuell an, ohne dass du diese hochladen mus
 
 Diese liegen bereits in deinem **mpmissions** Verzeichnis.
 
+<InlineVoucher />
 
 ## Hochladen der Missionsdatei
 

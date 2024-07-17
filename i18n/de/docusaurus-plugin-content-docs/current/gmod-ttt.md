@@ -3,7 +3,11 @@ id: gmod-ttt
 title: "Garry's Mod: Konfiguration"
 description: Informationen zu den Konfigurationsmöglichkeiten deines Garry's Mod TTT-Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Garry's Mod TTT Konfiguration
+services:
+  - gameserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Die Grundkonfiguration deines TTT-Servers
 
@@ -20,6 +24,8 @@ In unserem Webinterface findest du diese Funktion unter "Configs" dort öffnest 
 ![image](https://user-images.githubusercontent.com/26007280/189975802-380b6ba8-70a1-49d2-8994-b83c199cf929.png)
 
 Dort finden wir die Einstellungen von unserem TTT Server, die wichtigsten Variablen kurz erklärt:
+
+<InlineVoucher />
 
 ## Runden und Mapwechsel
 ttt_round_limit 

@@ -3,8 +3,13 @@ id: fivem-gamechange
 title: "FiveM: Spielwechsel"
 description: Wechsel zwischen den FiveM Versionen
 sidebar_label: Spielwechsel
-
+services:
+  - gameserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
+
+<InlineVoucher />
 
 ## Der Wechsel zwischen FiveM-Versionen
 Dank unserer Gamecloud kannst du jederzeit je nach Notwendigkeit deines FiveM Versionen wechseln, der Wechsel ist komplett kostenfrei.

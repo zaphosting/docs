@@ -3,13 +3,17 @@ id: foundry-firststeps-connect
 title: "Foundry: Zum Server verbinden"
 description: Informationen zur Verbindung mit einem Foundry-Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Zum Server verbinden
+services:
+  - gameserver
 ---
 
-
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
 In dieser Anleitung erfahren wir, wie du eine Verbindung zu deinem Foundry-Server herstellst. Es gibt zwei Möglichkeiten, eine Verbindung herzustellen: entweder direkt über die IP-Adresse deines Servers oder über die Serverliste. Wir empfehlen, den Server vorher nach deinen Wünschen zu konfigurieren. Mehr darüber erfährst du in unserer [Foundry-Konfigurationsanleitung](foundry-configuration.md).
+
+<InlineVoucher />
 
 ## Direktverbindung über IP
 

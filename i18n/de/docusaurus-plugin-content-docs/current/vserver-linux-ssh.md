@@ -3,15 +3,15 @@ id: vserver-linux-ssh
 title: "vServer: Erstzugriff mit SSH"
 description: Informationen, wie der Erstzugriff mit SSH auf deinen Server von ZAP-Hosting funktioniert - ZAP-Hosting.com Dokumentation
 sidebar_label: Erstzugriff (SSH)
+services:
+  - vserver
 ---
 
-
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
 Die Linux Server Produkte beinhalten standardmäßig keine grafische Verwaltungsoberfläche, weshalb die Verbindung und Verwaltung über einen SSH-Client (Konsole) erfolgt. Hierbei gibt es eine große Auswahl an SSH-Clients. Im Folgenden gibt es eine Übersicht der bekannten/oft genutzten SSH-Clients. 
-
-
 
 | SSH-Client | Unterstützte Betriebssysteme | Open-Source |                           Download                           |
 | :--------: | :--------------------------: | :---------: | :----------------------------------------------------------: |
@@ -21,7 +21,7 @@ Die Linux Server Produkte beinhalten standardmäßig keine grafische Verwaltungs
 | SecureCRT  |     Windows, Linux, Mac      |    Nein     | [Klick](https://www.vandyke.com/cgi-bin/releases.php?product=securecrt) |
 | mRemoteNG  |           Windows            |     Ja      |           [Klick](https://mremoteng.org/download)            |
 
-
+<InlineVoucher />
 
 ## IP-Adresse & Zugang
 

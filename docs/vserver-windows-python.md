@@ -3,11 +3,16 @@ id: vserver-windows-python
 title: 'VPS: Installation of Python'
 description: Information on how to install and run Python on your Windows server from ZAP-Hosting.com - ZAP-Hosting.com documentation
 sidebar_label: Install Python
+services:
+  - vserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
 This guide provides steps for the installation of Python runtime on Windows. The steps provided below must be executed via RDP, if you don't know how to connect to your server via RDP, please have a look at our [Initial access (RDP) guide](vserver-windows-userdp.md).
+<InlineVoucher />
 
 ## Installation
 

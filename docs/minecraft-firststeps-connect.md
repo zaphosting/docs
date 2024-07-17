@@ -3,9 +3,11 @@ id: minecraft-firststeps-connect
 title: "Minecraft: Connect to the server"
 description: Information on how to connect to a Minecraft server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Connect to the server
+services:
+  - gameserver
 ---
 
-
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
@@ -13,7 +15,7 @@ Are you unsure about what you need to connect to your server in general or how t
 
 ![Main menu – Minecraft Wiki](https://static.wikia.nocookie.net/minecraft_gamepedia/images/f/f8/Java_Edition_1.19.3.png/revision/latest?cb=20221207162002)
 
-
+<InlineVoucher />
 
 ## Prerequisites
 

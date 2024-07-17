@@ -3,11 +3,17 @@ id: scp-becomeadmin
 title: "SCP Secret Laboratory: Admin auf dem eigenen Server werden"
 description: Informationen, wie du dich zum Admin auf deinem SCP-Server von ZAP-Hosting.com machen kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Admin werden
+services:
+  - gameserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 :::info
 Seit den letzten SCP-Updates ist die Passwort-Anmeldung nicht mehr möglich. Mit der folgenden Anleitung kannst du die Rollen stattdessen mithilfe der Steam ID hinzufügen.
 :::
+
+<InlineVoucher />
 
 ## Konfiguration der Remote Admin Config
 

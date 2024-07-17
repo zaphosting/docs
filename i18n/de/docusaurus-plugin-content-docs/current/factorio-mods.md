@@ -3,13 +3,17 @@ id: factorio-mods
 title: "Factorio: Mods installieren"
 description: Informationen, wie du Mods auf deinem Factorio-Server bei ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Mods installieren
+services:
+  - gameserver
 ---
 
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
+## Einführung
 
 Mit Mods hast du die Möglichkeit, deinen Server noch individueller anzupassen. Im Folgenden wird erklärt, wo du die beliebtesten Servers-Mods finden und wie du diese einrichten kannst. 
 
-
+<InlineVoucher />
 
 ### Vorbereitung
 

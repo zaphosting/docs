@@ -3,18 +3,19 @@ id: ark-mods
 title: "ARK: Mods installieren"
 description: Informationen, wie du Mods auf deinem ARK-Server von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Mods installieren
+services:
+  - gameserver
 ---
 
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Mods Installation
 
 Die Installation von Mods für ARK-Server wird die Nutzung des Steam Workshops ermöglicht. Die Mod-Community in ARK gehört zu den aktivsten im Survival-Genre. Mehr als 6000 Mods können über den Steam Workshop heruntergeladen werden. Die Anzahl verfügbarer Mods steigt täglich. Im Folgenden wird erklärt, wie du diese Mods hinzufügen kannst. 
 
-
-
 ![image](https://user-images.githubusercontent.com/26007280/189939980-6d2d9dd6-9661-4d95-ab4b-c2a95e8637db.png)
 
-
+<InlineVoucher />
 
 ## Mods heraussuchen
 

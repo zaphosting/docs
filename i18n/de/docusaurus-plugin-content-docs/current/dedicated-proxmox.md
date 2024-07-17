@@ -3,15 +3,17 @@ id: dedicated-proxmox
 title: "Dedicated Server: Installation von Proxmox VE"
 description: Informationen, wie du das Proxmox Virtual Environment auf deinem Dedicated Server von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Proxmox installieren
+services:
+  - dedicated
 ---
 
-
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
 Proxmox Virtual Environment ist eine komplette Open Source-Virtualisierungsplattform für Server. Es kombiniert KVM- und Container-basierte Virtualisierung und verwaltet virtuelle Maschinen, Container, Storage, virtuelle Netzwerke und Hochverfügbarkeits-Cluster übersichtlich über die zentrale Managementoberfläche.
 
-
+<InlineVoucher />
 
 ## Vorbereitung
 

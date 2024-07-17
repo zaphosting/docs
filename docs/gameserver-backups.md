@@ -18,6 +18,7 @@ Besides creating backups manually, backups can also be created fully automatical
 
 <YouTube videoId="yUDAcfyDELc" title="How to create BACKUPS for your Server!" description="Feel like you understand better when you see things in action?  We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
 
+<InlineVoucher />
 
 ## Create backups manually
 
@@ -26,8 +27,6 @@ Press the green **+** button next to the backup list to create a backup manually
 :::info
 The backup creation process can take a few minutes depending on the file size of your server!
 :::
-
-<InlineVoucher />
 
 ## Create backups automatically
 

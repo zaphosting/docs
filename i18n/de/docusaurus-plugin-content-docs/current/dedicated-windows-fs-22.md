@@ -3,13 +3,17 @@ id: dedicated-windows-fs-22
 title: "Dedicated Server: Landwirtschafts-Simulator 2022 Dedicated Server Einrichtung"
 description: Informationen wie du einen Landwirtschafts-Simulator Dedicated Server 2022 auf deinen Windows Dedicated Server von ZAP-Hosting installieren und einrichten kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Landwirtschafts-Simulator 2022
+services:
+  - dedicated
 ---
 
-
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
 Hast du einen Windows Dedicated Server und möchtest darauf einen Landwirtschafts-Simulator 2019 Dedicated Server installieren? Dann bist du hier genau richtig. In dieser Anleitung erklären wir dir Schritt für Schritt, wie du diesen Dienst auf deinem Server installierst.
+
+<InlineVoucher />
 
 ## Vorbereitung
 

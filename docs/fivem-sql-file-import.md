@@ -3,7 +3,11 @@ id: fivem-sql-file-import
 title: "FiveM: SQL file import"
 description: Information on how to import SQL files into the database of your FiveM server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: SQL File Import
+services:
+  - gameserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
@@ -14,6 +18,8 @@ Not all resources require a database to function! When you download a resource, 
 :::
 
 In many cases, one or more files with the file extension **.sql** will be enclosed within the download files for the resource. These must be imported into the database.
+
+<InlineVoucher />
 
 ## Preparation of your database
 

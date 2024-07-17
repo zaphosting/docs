@@ -3,9 +3,11 @@ id: 7d2d-firststeps-dashboard
 title: "7 Days to Die: Dashboard Overview"
 description: Information about the dashboard of a 7 Days to Die server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Dashboard
+services:
+  - gameserver
 ---
 
-
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
@@ -13,7 +15,7 @@ You are interested in an **7 Days to Die server** or already own one, but you st
 
 After going through this guide, you will easily be able to manage your server efficiently and find all the necessary options and features quickly and easily. Here, you will get a structured overview that will help you step by step to get familiar with the server administration and expand your knowledge in a targeted manner. This way, you can ensure that your **7 Days to Die server** is optimally adapted to your needs and that you get the most out of the available options.
 
-
+<InlineVoucher />
 
 ## Information
 

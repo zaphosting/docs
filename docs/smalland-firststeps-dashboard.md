@@ -1,11 +1,13 @@
 ---
-id: smalland-firststeps-dashboard.md
+id: smalland-firststeps-dashboard
 title: "Smalland Survive the Wilds: Dashboard Overview"
 description: Information about the dashboard of an Smalland Survive the Wilds Server from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Dashboard
+services:
+  - gameserver
 ---
 
-
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
@@ -13,7 +15,7 @@ You are interested in an **Smalland: Survive the Wilds Server** or already own o
 
 After going through this guide, you will easily be able to manage your server efficiently and find all the necessary options and features quickly and easily. Here, you will get a structured overview that will help you step by step to get familiar with the server administration and expand your knowledge in a targeted manner. This way, you can ensure that your **Smalland: Survive the Wilds Server** is optimally adapted to your needs and that you get the most out of the available options.
 
-
+<InlineVoucher />
 
 ## Information
 

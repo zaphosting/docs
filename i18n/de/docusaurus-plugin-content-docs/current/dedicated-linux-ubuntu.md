@@ -3,19 +3,21 @@ id: dedicated-linux-ubuntu
 title: "Dedicated Server: Installation von Ubuntu"
 description: Informationen zu der Installation des Ubuntu Betriebssystem auf deinem Dedicated Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Ubuntu installieren
+services:
+  - dedicated
 ---
 
-
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
 Im Folgenden wird dir Schritt für Schritt erklärt, wie du das Debian Betriebssystem auf deinem Dedicated Server installieren und konfigurieren kannst. Folge diesen Anweisungen sorgfältig, um sicherzustellen, dass du das Betriebssystem erfolgreich einrichtest und optimal nutzt.
 
 :::info
-
 Der Aufbau der Anleitung basiert auf der Verwendung des Ubuntu 20.04 Betriebssystems. Installationen von früheren oder neueren Versionen können hinsichtlich des Prozesses leicht abweichen. 
-
 :::
+
+<InlineVoucher />
 
 ## Vorbereitung
 

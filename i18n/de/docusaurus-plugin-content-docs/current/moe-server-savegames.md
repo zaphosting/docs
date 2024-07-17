@@ -3,11 +3,17 @@ id: moe-server-savegames
 title: "Myth of Empires: Savegames verwalten"
 description: Informationen über die Verwaltung von Savegames auf deinem Myth of Empires Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Savegames verwalten
+services:
+  - gameserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
 In dieser Anleitung erfährst du, wie du deine Myth of Empires Gamesaves auf deinem Gameserver verwaltest, einschließlich der Sicherung deiner lokalen und Server-Savegames sowie des Uploads auf deinen Server.
+
+<InlineVoucher />
 
 ## Voraussetzungen
 

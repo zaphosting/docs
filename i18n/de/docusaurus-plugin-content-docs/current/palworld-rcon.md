@@ -3,11 +3,17 @@ id: palworld-rcon
 title: "Palworld: Server RCON verwenden"
 description: Informationen, wie du RCON mit deinem Palworld-Server von ZAP-Hosting verwendest, um deinen Server zu verwalten - ZAP-Hosting.com Dokumentation
 sidebar_label: RCON
+services:
+  - gameserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Was ist RCON?
 
 RCON ist eine Schnittstelle in verschiedenen Programmen, wie also auch Gameservern, mit der Fernwartungen wie auch Fernverwaltungen durchgeführt werden können. Mit dieser Schnittstelle können Server verwaltet werden, die bereits laufen und erreichbar sind. Mit einem bestimmten Fernwartungsprogramm kann dann auf die Schnittstelle zugegriffen werden und der Server somit verwaltet werden.
+
+<InlineVoucher />
 
 ## Zugriff auf deine Konfigurationsdatei
 

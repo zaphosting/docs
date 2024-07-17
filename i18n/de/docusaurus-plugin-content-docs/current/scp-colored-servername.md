@@ -3,13 +3,19 @@ id: scp-colored-servername
 title: "SCP Secret Laboratory: Farbiger Servername"
 description: Information, wie du den Servernamen bei deinem SCP Server von ZAP-Hosting färben kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Farbiger Servername
+services:
+  - gameserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 :::info
 Damit dein Server in der öffentlichen Serverliste angezeigt wird, muss eine Pastebin ID gesetzt sein. Unsere Anleitung dazu findest du [hier](scp-pastebin.md).
 
 Damit Änderungen wirksam werden, muss der Server ausgeschaltet sein.
 :::
+
+<InlineVoucher />
 
 Öffne die Einstellungen deines Servers und stelle sicher, dass in 'SCP Servername' nichts eingetragen ist.
 

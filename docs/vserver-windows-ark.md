@@ -3,9 +3,12 @@ id: vserver-windows-ark
 title: "VPS: ARK Survival Evolved Dedicated Server Setup"
 description: Information about setting up an ARK Survival Evolved Dedicated Server on a VPS/Root server - ZAP-Hosting.com documentation
 sidebar_label: ARK Survival Evolved Dedicated Server Setup
+services:
+  - vserver
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Introduction
@@ -15,7 +18,7 @@ Got a Windows VPS or root server and want to install game servers on it? For exa
 
 Connect to your VPS or root server via RDP to set up your ARK: Survival Evolved Dedicated Server. In case you don't know how to connect to your server via RDP, we recommend you to have a look at the [RDP Guide](vserver-windows-userdp.md).
 
-
+<InlineVoucher />
 
 ## Preparation
 

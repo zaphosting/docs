@@ -3,11 +3,17 @@ id: rust-connectrcon
 title: "Rust: Verbindung via RCON zum Server herstellen"
 description: Informationen, wie du dich via RCON mit deinem Rust-Server von ZAP-Hosting verbinden kannst, um deinen Server zu verwalten - ZAP-Hosting.com Dokumentation
 sidebar_label: Verbindung via RCON
+services:
+  - gameserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Was ist RCON?
 
 Bei RCON handelt es sich um ein Protokoll, mit welchem Befehle auf einem Server ausgeführt werden können, ohne dass ein direkter Zugriff auf die Serverkonsole erforderlich ist.
+
+<InlineVoucher />
 
 ### WebRCON aktivieren
 

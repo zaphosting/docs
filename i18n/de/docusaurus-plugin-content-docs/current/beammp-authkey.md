@@ -3,11 +3,17 @@ id: beammp-authkey
 title: "BeamMP: Auth Key Erstellen"
 description: Information, wie du einen Auth Key für deinen BeamMP Server von ZAP-Hosting erstellen kannst  - ZAP-Hosting.com Dokumentation
 sidebar_label: Auth Key Erstellen
+services:
+  - gameserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Wieso brauche ich einen Key?
 
 Ein Auth Key wird benötigt, wenn der Server in der Serverliste angezeigt werden soll, ansonsten ist dieser nur über die Direktverbindung verfügbar.
+
+<InlineVoucher />
 
 ## Vorbereitung
 Um einen eigenen Authkey zu erstellen, melden wir uns zunächst auf https://beammp.com/keymaster an, hierzu wird ein Discord Account benötigt.

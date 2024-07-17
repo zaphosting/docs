@@ -3,9 +3,13 @@ id: minecraftbedrock-behaviorresourcepacks
 title: "Minecraft: Bedrock Install Behaviour/Resource Packs"
 description: Information on how to install Behaviour/Resource Packs on your Minecraft Bedrock server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Behavior/Resource Packs Installation
+services:
+  - gameserver
 ---
 
-Click here to get to our Minecraft servers: [Minecraft server hosting](https://zap-hosting.com/en/minecraft-server-hosting/)
+import InlineVoucher from '@site/src/components/InlineVoucher';
+
+<InlineVoucher />
 
 ## Download the world from the server
 

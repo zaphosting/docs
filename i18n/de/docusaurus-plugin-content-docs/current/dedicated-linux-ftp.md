@@ -3,7 +3,11 @@ id: dedicated-linux-ftp
 title: "vServer: FTP Dienst funktioniert nicht - Problemlösungen"
 description: Informationen, wie du FTP-Probleme bei deinem Dedicated Server von ZAP-Hosting beheben kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: FTP Dienst funktioniert nicht
+services:
+  - dedicated
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Was kann man tun, wenn der Gameserver oder Teamspeak Server nicht via FTP erreichbar ist? 
 
@@ -12,7 +16,9 @@ Achtung: Die nachfolgenden Schritte funktionieren nur auf einem eigenen Dedicate
 :::
 
 Sollten die angelegten Server nicht via FTP erreichbar sein, so ist in den meisten Fällen der FTP Dienst (ProFTPD) nicht aktiv. 
-In seltenen Fällen kann dies auch an einer nicht korrekten Config oder einem belegten Port liegen, sprich der FTP Port 21 wird von einem anderen Programm genutzt/belegt. 
+In seltenen Fällen kann dies auch an einer nicht korrekten Config oder einem belegten Port liegen, sprich der FTP Port 21 wird von einem anderen Programm genutzt/belegt.
+
+<InlineVoucher />
 
 ## Das FTP Problem genauer prüfen:
 

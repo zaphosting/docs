@@ -3,9 +3,11 @@ id: spaceengineers-firststeps-dashboard
 title: "Space Engineers: Dashboard Übersicht"
 description: Informationen zum Dashboard eines Space Engineers Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Dashboard
+services:
+  - gameserver
 ---
 
-
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
@@ -13,7 +15,7 @@ Du bist an einem **Space Engineers Server** interessiert oder besitzt bereits ei
 
 Nachdem du diese Anleitung durchgegangen bist, wirst du problemlos in der Lage sein, deinen Server effizient zu verwalten und alle erforderlichen Optionen sowie Features zügig und unkompliziert zu finden. Hier erhältst du einen strukturierten Überblick, der dir Schritt für Schritt hilft, dich mit der Serververwaltung vertraut zu machen und dein Wissen gezielt zu erweitern. So kannst du sicherstellen, dass dein **Space Engineers Server** optimal auf deine Bedürfnisse abgestimmt ist und du das Beste aus den vorhandenen Möglichkeiten herausholst.
 
-
+<InlineVoucher />
 
 ## Informationen
 

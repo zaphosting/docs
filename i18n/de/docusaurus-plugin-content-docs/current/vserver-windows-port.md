@@ -3,7 +3,13 @@ id: vserver-windows-port
 title: "vServer: Ports bei Windows Servern freigeben (Firewall)"
 description: Informationen, wie du Ports bei deinem Windows vServer von ZAP-Hosting freigeben kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Port freigeben
+services:
+  - vserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
+
+<InlineVoucher />
 
 ## Die Firewall
 

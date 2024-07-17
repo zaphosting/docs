@@ -3,9 +3,11 @@ id: cs2-cstv
 title: "CS2: CSTV "
 description:  Information about CSTV for CS2 Server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: CSTV
+services:
+  - gameserver
 ---
 
-
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 :::caution
 CS2 has just recently been released. The game is currently receiving quite a few updates and changes. This also affects the functionality and structure of the CS2 servers. We do our best to keep the guides as correct and up to date as quickly as possible in case something has changed concerning this.
@@ -18,7 +20,7 @@ CS2 has just recently been released. The game is currently receiving quite a few
 
 CSTV offers the possibility to broadcast games live with a little delay. This means that outsiders who are not involved in the game can also follow what is happening on the server. This technology is also used in the well-known counter-strike tournaments so that the spectators can watch the spectacle. Furthermore, the transmissions can also be saved automatically, so that you can watch them again afterwards.
 
-
+<InlineVoucher />
 
 ## Activation
 

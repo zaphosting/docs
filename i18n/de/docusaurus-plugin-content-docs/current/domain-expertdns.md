@@ -3,11 +3,17 @@ id: domain-expertdns
 title: "Domain: ExpertDNS"
 description: Informationen zu den ExpertDNS Domaineinstellungen bei ZAP-Hosting - ZAP-hosting.com Dokumentationen
 sidebar_label: ExpertDNS
+services:
+  - domain
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
 Mit der **ExpertDNS Funktion** kann man einstellen, welche Nameserver für die Domain genutzt werden sollen.
+
+<InlineVoucher />
 
 ## Wo finde ich die ExpertDNS Option und wie verwende ich es?
 

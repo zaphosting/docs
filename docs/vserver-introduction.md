@@ -3,13 +3,19 @@ id: vserver-introduction
 title: "VPS: Introduction"
 description: Introduction and information about the VPS and root server product from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Introduction
+services:
+  - vserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
 Are you looking for your own server with powerful configuration at a fair price? Then ZAP-Hosting is the right place for you! At ZAP-Hosting you can rent or buy your suitable VPS or root server for a maximum performance experience for many use cases!
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/6cCD5TmrwXgtayy/preview)
+
+<InlineVoucher />
 
 ## Ordering
 

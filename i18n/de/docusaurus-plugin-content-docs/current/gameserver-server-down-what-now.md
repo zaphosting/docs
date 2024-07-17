@@ -3,15 +3,17 @@ id: gameserver-server-down-what-now
 title: 'Gameserver: Server down - Was nun?'
 description: Informationen, was du tun kannst, wenn dein Gameserver von ZAP-Hosting abgestürzt oder down ist - ZAP-Hosting.com Dokumentation
 sidebar_label: Server down - Was nun?
+services:
+  - gameserver
 ---
 
-
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
 Wenn dein Gameserver down ist, kann das viel Gründe haben. **Wichtig** ist, dass du erstmal nicht direkt versucht diesen neu zu starten, sondern erst einen Blick in die **Log-Datei** wirfst. Dort sind in der Regel **Fehlermeldungen**, die beschreiben, warum genau der Server abgestürzt ist. **Solltest du den Server direkt neu starten, so wird die Log neu generiert und die alte gelöscht. Dann kann man leider keine Fehler mehr einsehen.**
 
-
+<InlineVoucher />
 
 ## Einblick in die Log-Datei
 

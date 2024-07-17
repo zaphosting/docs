@@ -3,16 +3,18 @@ id: gameserver-ftpaccess
 title: 'Gameserver: Zugriff per FTP zum Verwalten der Serverdateien'
 description: Informationen, wie du per FTP verbindest und die Dateien deines Gameservers von ZAP-Hosting verwaltest - ZAP-Hosting.com Dokumentation
 sidebar_label: Zugriff per FTP
+services:
+  - gameserver
 ---
 
-
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
 Das FTP (File Transfer Protocol) ist ein Netzwerkprotokoll, das dazu dient, Dateien über ein TCP/IP-Netzwerk zu übertragen.
 Das Protokoll wurde entwickelt, um den einfachen Austausch von Dateien zwischen Systemen zu ermöglichen. Über das FTP-Protokoll hast du die Möglichkeit, auf deine Server-Dateien zuzugreifen und zu verwalten. Sei es, dass du Dateien hoch- und runterlädst oder diese aktiv bearbeitest. 
 
-
+<InlineVoucher />
 
 ## Vorbereitung
 

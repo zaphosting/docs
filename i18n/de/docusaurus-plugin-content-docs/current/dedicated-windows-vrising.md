@@ -3,11 +3,12 @@ id: dedicated-windows-vrising
 title: "Dedicated Server: V-Rising Dedicated Server Einrichtung"
 description: Informationen, wie du einen V-Rising Server auf deinem Dedicated Server von ZAP-Hosting installieren und einrichten kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: V-Rising
+services:
+  - dedicated
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';
-
-
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
@@ -15,11 +16,10 @@ Du hast einen Windows Dedicated Server und möchtest darauf einen Palworld Dedic
 
 <YouTube videoId="to2ghqNpGLA" title="How to setup a V RISING Dedicated Windows Server!" description="Feel like you understand better when you see things in action?  We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
 
+<InlineVoucher />
 
 ## Vorbereitung
 Es wird ein Server, basierend auf Windowsserver 2016/2019, mit mindestens 4x 2,4 GHz CPU (AMD/Intel) sowie mindestens 4 GB RAM (DDR3/4) und 6 GB freien Speicher (SSD oder besser, bevorzugt) benötigt. Der Server muss auf der 64 Bit Architektur laufen.  
-
-
 
 ## Step 1 Ordner erstellen für V-Rising
 

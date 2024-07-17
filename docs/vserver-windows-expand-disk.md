@@ -3,7 +3,13 @@ id: vserver-windows-expand-disk
 title: "VPS: Extending the hard disk on Windows Server"
 description: Information on how to expand the hard disk of your Windows VPS from ZAP-Hosting after an upgrade - ZAP-Hosting.com documentation
 sidebar_label: Extend disk
+services:
+  - vserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
+
+<InlineVoucher />
 
 After upgrading your ZAP Windows VPS, it may be necessary to add the new storage to your existing partition.
 

@@ -3,11 +3,17 @@ id: fivem-esx-becomeadminoverdatabase
 title: "FiveM: Admin über die Datenbank werden"
 description: Informationen, wie du Admin über Datenbank deines FiveM-Server mit ESX von ZAP-Hosting werden kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Admin über Datenbank werden
+services:
+  - gameserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 :::info
 Ein Charakter muss erstellt sein von euch, sodass ihr diesen dann auch in der Datenbank findet.
 :::
+
+<InlineVoucher />
 
 ## Admin werden
 

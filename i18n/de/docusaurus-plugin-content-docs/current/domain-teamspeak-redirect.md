@@ -3,7 +3,13 @@ id: domain-teamspeak-redirect
 title: "Domain: TeamSpeak 3 Weiterleitung einrichten"
 description: Informationen, wie du eine Weiterleitung von einer Domain auf einen TS-Server bei ZAP-Hosting einrichtest - ZAP-Hosting.com Dokumentation
 sidebar_label: TeamSpeak 3 Weiterleitung
+services:
+  - domain
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
+
+<InlineVoucher />
 
 :::info
 Bitte beachte, dass es immer bis zu 24 Stunden dauern kann, bis Änderungen an DNS Einträgen aktiv werden!

@@ -3,7 +3,13 @@ id: domain-order
 title: "Domain: Ordering a domain"
 description: Information about the process of ordering domains at ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Order domain
+services:
+  - domain
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
+
+<InlineVoucher />
 
 ## Order a domain
 

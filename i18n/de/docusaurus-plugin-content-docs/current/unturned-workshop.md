@@ -3,7 +3,13 @@ id: unturned-workshop
 title: "Unturned: Workshop Inhalte auf Server installieren"
 description: Informationen, wie du Steam Workshop Inhalte und Mods auf deinen Unturned-Server von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Workshop Inhalte
+services:
+  - gameserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
+
+<InlineVoucher />
 
 Mit dem Steam Workshop hast du die Möglichkeit deinen Server noch individueller anzupassen. Im Folgenden wird erklärt, wie du mittels Steam Workshop weitere Inhalte zu deinem Server hinzufügen kannst. 
 

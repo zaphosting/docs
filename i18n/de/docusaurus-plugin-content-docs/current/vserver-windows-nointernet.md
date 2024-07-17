@@ -3,15 +3,17 @@ id: vserver-windows-nointernet
 title: "vServer:  Kein Internet, was nun?"
 description: Informationen zur Lösung von Problemen mit nicht vorhandener Internetverbindung unter Windows vRootserver von ZAP-Hosting zeigt keinen Internetzugang - ZAP-Hosting.com Dokumentation
 sidebar_label: Kein Internet, was nun?
+services:
+  - vserver
 ---
 
-
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
 Eine unterbrochene oder fehlerhafte Internetverbindung kann auf unterschiedliche Ursachen zurückzuführen sein, wie beispielsweise falsche Einstellungen der IP-Adresse, Subnetzmaske, Gateway, DNS-Server oder Firewall. Im Folgenden werden wir dir erläutern, wie du diese möglichen Probleme überprüfen, identifizieren und beheben kannst.
 
-
+<InlineVoucher />
 
 ## Zugriff ohne Internet
 

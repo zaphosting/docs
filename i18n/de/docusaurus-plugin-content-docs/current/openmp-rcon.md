@@ -3,11 +3,17 @@ id: openmp-rcon
 title: "Open.mp: Server mit RCON"
 description: Informationen darüber, wie du RCON mit deinem Open.mp-Server von ZAP-Hosting verwendest, um deinen Server zu verwalten - ZAP-Hosting.com Dokumentation
 sidebar_label: RCON
+services:
+  - gameserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Was ist RCON?
 
 RCON ist eine Schnittstelle in verschiedenen Programmen, wie z.B. Spieleservern, mit der Fernwartung und Fernadministration durchgeführt werden kann. Mit dieser Schnittstelle können Server verwaltet werden, die bereits laufen und erreicht werden können. Die Schnittstelle kann dann mit einem bestimmten Fernwartungsprogramm aufgerufen und der Server so verwaltet werden.
+
+<InlineVoucher />
 
 ## Zugriff auf deine Konfigurationsdatei
 

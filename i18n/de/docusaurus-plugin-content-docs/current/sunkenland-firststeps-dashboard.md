@@ -3,10 +3,12 @@ id: sunkenland-firststeps-dashboard
 title: "Sunkenland: Dashboard Übersicht"
 description: Informationen zum Dashboard eines Sunkenland Server von ZAP-Hosting - ZAP-Hosting.com Dokumentationen
 sidebar_label: Dashboard
+services:
+  - gameserver
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';
-
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
@@ -16,8 +18,7 @@ Nachdem du diese Anleitung durchgegangen bist, wirst du problemlos in der Lage s
 
 <YouTube videoId="WztMheb29Gs" title="Get Sunkenland server in just a MINUTE!" description="Hast du das Gefühl, dass du etwas besser verstehst, wenn du es in Aktion siehst?  Wir haben etwas für dich! Tauche ab in unser Video, welches alles für dich zusammenfasst. Egal, ob du es eilig hast oder einfach nur Informationen auf möglichst verständliche Art und Weise aufnehmen möchtest!"/>
 
-
-
+<InlineVoucher />
 
 ## Informationen
 

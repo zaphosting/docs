@@ -3,10 +3,16 @@ id: vserver-ssh-default
 title: "VPS: Manage default SSH Keys in Profile"
 description: Information on managing SSH Keys set in your ZAP-Hosting account profile - ZAP-Hosting.com documentation
 sidebar_label: Default SSH Keys
+services:
+  - vserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 One of our latest additions to our ZAP-Hosting webinterface, is the ability to add default SSH Keys to your ZAP-Hosting account through our website. The awesome benefit of this is that the SSH Keys setup in your Profile page, will be automatically setup by default and used during first product setup or OS reinstallation. This saves you time as you won't have to manually setup your SSH Keys.
+
+<InlineVoucher />
 
 ## Requirements
 In order to use this feature, you must have an SSH Key generated. If you have an SSH Key ready, you can proceed to the next section.

@@ -3,7 +3,13 @@ id: 7d2d-commands
 title: "7 Days to Die: Commands"
 description: Information on how to execute server commands on your 7 Days to Die server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Commands
+services:
+  - gameserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
+
+<InlineVoucher />
 
 ## The Console
 To run commands on your server, you need to be an admin. If you dont know how to become an admin, please checkout our guide.

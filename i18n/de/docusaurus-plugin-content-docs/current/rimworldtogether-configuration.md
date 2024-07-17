@@ -3,9 +3,17 @@ id: rimworldtogether-configuration
 title: "RimWorld Together: Server-Konfiguration"
 description: Informationen zur Konfiguration eines RimWorld Together-Spielservers von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Server-Konfiguration
+services:
+  - gameserver
 ---
 
+import InlineVoucher from '@site/src/components/InlineVoucher';
+
+## Einführung
+
 RimWorld Together-Server verfügen über eine Vielzahl von Konfigurationsparametern, die du nach deinen Wünschen anpassen kannst. In dieser Anleitung gehen wir auf alle derzeit verfügbaren Konfigurationsparameter ein und erklären sie genauer.
+
+<InlineVoucher />
 
 ## Zugriff auf deine Konfigurationsdatei
 

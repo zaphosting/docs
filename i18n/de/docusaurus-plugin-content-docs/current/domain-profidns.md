@@ -3,7 +3,13 @@ id: domain-profidns
 title: "Domain: ProfiDNS Domain-Einstellungen"
 description: Informationen zu den ProfiDNS Domain-Einstellungen bei ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: ProfiDNS
+services:
+  - domain
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
+
+<InlineVoucher />
 
 ## Einführung
 

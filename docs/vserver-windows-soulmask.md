@@ -3,13 +3,18 @@ id: vserver-windows-soulmask
 title: "VPS: Soulmask Dedicated Server Setup"
 description: Information about setting up a Soulmask Dedicated Server on a vServer/Rootserver - ZAP-Hosting.com documentation
 sidebar_label: Soulmask
+services:
+  - vserver
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
 Do you have a Windows VPS, root server or dedicated server and you want to install the Soulmask Dedicated server service on it? You are in the right place. In this guide, we will explain the step by step process of installing this service on your server.
+
+<InlineVoucher />
 
 ## Preparation
 

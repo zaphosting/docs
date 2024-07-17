@@ -3,7 +3,13 @@ id: empyrion-becomeadmin
 title: "Empyrion: Admin werden"
 description: Informationen, wie du Admin auf deinem Empyrion-Server bei ZAP-Hosting wirst - ZAP-Hosting.com Dokumentation
 sidebar_label: Admin werden
+services:
+  - gameserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
+
+<InlineVoucher />
 
 ## Steam64ID lokalisieren
 

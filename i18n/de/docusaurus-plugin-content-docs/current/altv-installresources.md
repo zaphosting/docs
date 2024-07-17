@@ -3,7 +3,11 @@ id: altv-installresources
 title: "Alt:V: Installation von Ressourcen"
 description: 'Informationen, wie du Ressourcen auf deinen ALT:V Server von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentation'
 sidebar_label: Ressourcen installieren
+services:
+  - gameserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Mit FTP verbinden
 
@@ -15,7 +19,7 @@ Nachdem dieser eingerichtet wurde, kann sich nun verbunden werden und der Server
 
 ![image](https://user-images.githubusercontent.com/13604413/169707290-e987df75-e338-4fb7-aa64-e9fb80fd3df0.png)
 
-
+<InlineVoucher />
 
 ## Vorbereitung
 

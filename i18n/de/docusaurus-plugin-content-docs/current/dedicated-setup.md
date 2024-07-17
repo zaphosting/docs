@@ -3,11 +3,16 @@ id: dedicated-setup
 title: "Dedicated Server: Ersteinrichtung"
 description: Informationen über die Ersteinrichtung deines dedizierten Servers von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Ersteinrichtung
+services:
+  - dedicated
 ---
 
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
-Du bist noch neu in diesem Bereich und hast die Befürchtung, dass du der Einrichtung solch eines Dienstes nicht gewachsen bist oder bei der Einrichtung auf Schwierigkeiten stoßen könntest? Keine Sorge! Diese Anleitung und unser Einrichtungsassistent bringen dich einfach durch alle Schritte für die Erstinstallation deines ZAP Dedicated Servers. 
+Du bist noch neu in diesem Bereich und hast die Befürchtung, dass du der Einrichtung solch eines Dienstes nicht gewachsen bist oder bei der Einrichtung auf Schwierigkeiten stoßen könntest? Keine Sorge! Diese Anleitung und unser Einrichtungsassistent bringen dich einfach durch alle Schritte für die Erstinstallation deines ZAP Dedicated Servers.
+
+<InlineVoucher />
 
 ## Vorbereitung
 

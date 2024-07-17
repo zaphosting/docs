@@ -3,12 +3,17 @@ id: dedicated-linux-rsync
 title: "Dedicated Server: Backups von Linux Server mit Rsync anfertigen"
 description: Informationen, wie du mit Rsync Backups von deinem Linux Dedicated Server von ZAP-Hosting anfertigen kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Rsync Linux
+services:
+  - dedicated
 ---
 
-## Rsync:
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
-Mithilfe von Rsync können Backups angefertigt werden. 
-Sie können auf dem lokalen System selber z. B. in ein anderes Verzeichnis/Laufwerk kopiert werden oder auf ein Remote System. 
+## Einführung
+
+Mithilfe von Rsync können Backups angefertigt werden. Sie können auf dem lokalen System selber z. B. in ein anderes Verzeichnis/Laufwerk kopiert werden oder auf ein Remote System.
+
+<InlineVoucher />
 
 ## Kopieren von Daten in ein anderes lokales Verzeichnis oder Laufwerk:
 

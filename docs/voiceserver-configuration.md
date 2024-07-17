@@ -3,15 +3,17 @@ id: voiceserver-configuration
 title: "Voiceserver: Configuration"
 description: Information on how to configure your Teamspeak server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Server configuration
-
+services:
+  - voiceserver
 ---
 
-
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
 The Teamspeak server can be configured individually. In the following we will explain how you can configure your server. We will explain how you can customize general settings such as the server name, icon, banner, user permissions, channel and server group permissions. 
 
+<InlineVoucher />
 
 ## General
 

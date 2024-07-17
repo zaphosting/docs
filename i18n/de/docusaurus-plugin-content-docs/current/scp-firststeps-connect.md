@@ -3,9 +3,11 @@ id: scp-firststeps-connect
 title: "SCP Secret Laboratory: Zum Server verbinden"
 description: Informationenen zum Verbindungsaufbau eines SCP Secret Laboratory Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Zum Server verbinden
+services:
+  - gameserver
 ---
 
-
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
@@ -13,7 +15,7 @@ Du bist dir unsicher, was du allgemein zum Verbinden deines Servers benötigst o
 
 ![image](https://user-images.githubusercontent.com/26007280/218267779-d35d5eee-ddae-4d17-8221-85a65b5a2d78.png)
 
-
+<InlineVoucher />
 
 ## Voraussetzungen
 

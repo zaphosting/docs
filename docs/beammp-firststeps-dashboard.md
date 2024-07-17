@@ -3,11 +3,12 @@ id: beammp-firststeps-dashboard
 title: "BeamMP: Dashboard Overview"
 description: Information about the dashboard of a BeamMP server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Dashboard
+services:
+  - gameserver
 ---
 
-
-
 import YouTube from '@site/src/components/YouTube/YouTube';
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 
@@ -19,10 +20,7 @@ After going through this guide, you will easily be able to manage your server ef
 
 <YouTube videoId="tUuKe91wgtI" title="Get BeamMP server in just a MINUTE!" description="Feel like you understand better when you see things in action?  We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
 
-
-
-
-
+<InlineVoucher />
 
 ## Information
 

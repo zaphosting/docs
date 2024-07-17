@@ -3,10 +3,15 @@ id: vrising-plugins-bepinex
 title: "V Rising: Installing plugins on server (BepInEx)"
 description: Information on how to install plugins on your V Rising server using BepInEx (V Rising BepInEx Server) from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Install plugins (BepInEx)
+services:
+  - gameserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 BepInEx is a highly popular open-source plugin and modding framework which enables players to add mods to a range of games that traditionally do not support official modding. In this guide, we will show how you can install plugins through BepInEx on V Rising.
+<InlineVoucher />
 
 ## BepInEx Game Version
 

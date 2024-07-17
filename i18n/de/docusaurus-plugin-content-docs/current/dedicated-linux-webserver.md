@@ -3,15 +3,17 @@ id: dedicated-linux-webserver
 title: "Dedicated Server: Installation eines Webservers"
 description: Informationen wie du Nginx und Apache Webserver auf deinen Linx Dedicated Server von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Webserver installieren
+services:
+  - dedicated
 ---
 
-
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
 Nginx und Apache sind beliebte Webserver, die verwendet werden, um Webseiten an den Browser eines Benutzers zu übermitteln. Im Folgenden zeigen wir dir, wie du einen der Dienste auf deinem System installieren kannst. 
 
-
+<InlineVoucher />
 
 ## Vorbereitung
 

@@ -1,10 +1,13 @@
 ---
 id: satisfactory-firststeps-connect
-title: "Satisfactory: Zum Server verbinden"
+title: "Satisfactory: "
 description: Informationenen zum Verbindungsaufbau eines Satisfactory Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
+sidebar_label: Zum Server verbinden
+services:
+  - gameserver
 ---
 
-
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
@@ -12,7 +15,7 @@ Du bist dir unsicher, was du allgemein zum Verbinden deines Servers benötigst o
 
 ![image](https://user-images.githubusercontent.com/26007280/221620256-3df71e06-8d3f-47fb-940c-cfdb34e9dd3c.png)
 
-
+<InlineVoucher />
 
 ## Voraussetzungen
 

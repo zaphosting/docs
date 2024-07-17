@@ -3,9 +3,11 @@ id: mta-firststeps-dashboard
 title: "MTA (Multi Theft Auto): Dashboard Übersicht"
 description: Informationen zum Dashboard eines MTA (Multi Theft Auto) Server von ZAP-Hosting - ZAP-Hosting.com Dokumentationen
 sidebar_label: Dashboard
+services:
+  - gameserver
 ---
 
-
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
@@ -13,7 +15,7 @@ Du bist an einem **MTA (Multi Theft Auto) Server** interessiert oder besitzt ber
 
 Nachdem du diese Anleitung durchgegangen bist, wirst du problemlos in der Lage sein, deinen Server effizient zu verwalten und alle erforderlichen Optionen sowie Features zügig und unkompliziert zu finden. Hier erhältst du einen strukturierten Überblick, der dir Schritt für Schritt hilft, dich mit der Serververwaltung vertraut zu machen und dein Wissen gezielt zu erweitern. So kannst du sicherstellen, dass dein **MTA (Multi Theft Auto) Server** optimal auf deine Bedürfnisse abgestimmt ist und du das Beste aus den vorhandenen Möglichkeiten herausholst.
 
-
+<InlineVoucher />
 
 ## Informationen
 

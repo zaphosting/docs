@@ -3,7 +3,11 @@ id: fivem-optimize-textures
 title: "FiveM: Optimize textures"
 description: Wie du Texturen bei deinem FiveM Server von ZAP-Hosting optimieren kannst - ZAP-Hosting.com - Documentation
 sidebar_label: Optimize textures
+services:
+  - gameserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 Do you want to optimize your GTA5 mod textures and reduce their size without compromising on quality? In this guide, we will show you how to effectively compress textures to under 16MB. With a few simple steps and the right tools, you can improve the performance of your game and save storage space. This also helps to avoid potential issues such as:
@@ -12,7 +16,7 @@ Do you want to optimize your GTA5 mod textures and reduce their size without com
 Asset hevo/hevo.ytd uses 166.0 MiB of physical memory. Oversized assets can and will lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
 ```
 
-
+<InlineVoucher />
 
 
 ## Preparation

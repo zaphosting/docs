@@ -3,9 +3,11 @@ id: vserver-linux-mastodon
 title: "VPS: Installation of Mastodon"
 description: Information on how to set up Mastodon server on your server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Install Mastodon
+services:
+  - vserver
 ---
 
-
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
@@ -18,6 +20,8 @@ each with its own code of conduct, terms of service, privacy policy, privacy opt
 :::info
 This guide focuses the installation on a Debian based Distro. Examples are Debian and Ubuntu. This guide differs depending on what OS you are using.
 :::
+
+<InlineVoucher />
 
 ## System prerequisites
 If you want to setup a Mastodon Instance on your Server, you have to meet some prerequisites

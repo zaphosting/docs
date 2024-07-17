@@ -3,19 +3,21 @@ id: cs2-cstv
 title: "CS2: CSTV"
 description: Informationen über CSTV zu CS2 Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: CSTV
+services:
+  - gameserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 :::caution
 CS2 wurde erst vor kurzem veröffentlicht. Das Spiel erhält momentan noch einige Updates und Veränderungen. Dies betrifft ebenfalls die Funktionsweise und Struktur der CS2 Server. Wir bemühen uns die Anleitungen so korrekt und schnell wie möglich aktuell zu halten, falls sich zu diesem Thema etwas geändert hat.
 :::
 
-
-
 ## Einführung 
 
 CSTV bietet die Möglichkeit, Spiele mit etwas Verzögerung live zu übertragen. Somit können auch Außenstehende, die nicht selbst am Spiel beteiligt sind, das Geschehen auf dem Server mitverfolgen. Diese Technologie wird auch bei den bekannten Counter-Strike Turnieren eingesetzt, damit die Zuschauer sich das Spektakel anschauen können. Des Weiteren können die Übertragungen auch automatisch gespeichert werden, sodass auch im Anschluss ein erneutes Anschauen möglich ist. 
 
-
+<InlineVoucher />
 
 ## Aktivierung
 
@@ -26,8 +28,6 @@ tv_enable 1
 tv_delay 90
 tv_advertise_watchable 1
 ```
-
-
 
 ## Konfiguration
 
@@ -53,8 +53,6 @@ Die oben genannten Befehle sind zwingend notwendig, damit der CSTV Masterserver 
 |        tv_stoprecord        |             Stoppt die Aufnahme einer CSTV Demo              |
 |          tv_title           |           Definiert den Namen der CSTV Übertragung           |
 
-
-
 ## Verbindungsaufbau
 
 Wenn die Funktion beim Server aktiviert ist, dann ist der Zugriff über die IP-Adresse und den dafür zugewiesenen CSTV Port des Servers möglich. Zum Verbinden wird die Konsole im Spiel benötigt. Dort kannst du dich dann mit dem folgenden Befehl verbinden: 
@@ -63,17 +61,8 @@ Wenn die Funktion beim Server aktiviert ist, dann ist der Zugriff über die IP-A
 connect SERVERIP:27020 (Beispiel Port, schaue unter den Einstellungen nach deinen definierten Port)
 ```
 
-
-
 Manuelle und automatische aufgenommene Demos werden im Hauptverzeichnis (/gxxxxx/cs2/game/csgo) des CS2 Server abgelegt. Diese können über den bereitgestellten FTP-Zugang heruntergeladen werden. Sollte du noch nicht wissen, wie der Zugang via FTP möglich ist, dann findest du hierzu eine entsprechende [Anleitung](gameserver-ftpaccess.md).
-
-
 
 ![image](https://user-images.githubusercontent.com/26007280/189976867-0ea7da9c-fda3-472b-a79f-ac03919c2cc1.png)
 
-
-
 Mit dem Demo-Playback aus dem Spiel kann die heruntergeladene Demo über **Load** ausgewählt und über den **Play** Button gestartet werden. 
-
-
-

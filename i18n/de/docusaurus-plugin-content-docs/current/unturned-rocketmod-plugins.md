@@ -3,7 +3,13 @@ id: unturned-rocketmod-plugins
 title: "Unturned: Plugins auf Server installieren"
 description: Informationen, wie du Plugins auf deinen Unturned Rocketmod Server von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Plugins installieren
+services:
+  - gameserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
+
+<InlineVoucher />
 
 ## Plugins auf einem Unturned Rocket Mod Server installieren
 

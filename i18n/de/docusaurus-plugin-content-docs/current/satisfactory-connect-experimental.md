@@ -3,7 +3,13 @@ id: satisfactory-connect-experimental
 title: "Satisfactory: Zum Server verbinden (Experimental)"
 description: Information, wie du dich mit deinem Satisfactory Server von ZAP-Hosting verbinden kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Zum Server binden (Experimental)
+services:
+  - gameserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
+
+<InlineVoucher />
 
 Öffne dein ZAP-Hosting Gameserver Dashboard und stelle sicher das dein Server gestartet ist:
 
