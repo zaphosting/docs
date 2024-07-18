@@ -26,26 +26,33 @@ export const VoucherProvider = props => {
         const voucherRetrieval = async () => {
             setLoading(true);
 
-            const voucherResponse = await (
-                await fetch('https://zap-hosting.com/interface/shop/_ajax/json_getDocsCoupon.php', {
+            try {
+                const voucherResponse = await fetch('https://zap-hosting.com/interface/shop/_ajax/json_getDocsCoupon.php', {
                     headers: {
                         'X-Requested-With': 'XMLHttpRequest',
                     },
-                }).finally(() => {
-                    setLoading(false);
-                })
-            ).json();
+                });
 
-            if (voucherResponse.message === 'ok' && voucherResponse.result === 'success') {
+                if (!voucherResponse.ok) {
+                    throw new Error(`HTTP error! Status: ${voucherResponse.status}`);
+                }
+
+                const voucherData = await voucherResponse.json();
+
+                if (voucherData.message !== 'ok' || voucherData.result !== 'success') {
+                    throw new Error(`Successful response code with application level error: ${voucherData.message}`);
+                }
+
                 setFound(true);
-                setVoucher(voucherResponse.data);
-
-                return;
+                setVoucher(voucherData.data);
+            } catch (error) {
+                console.error("Not displaying a voucher for this reason:", error); // Log the error for debugging
+                setFound(false);
+                setVoucher({});
+            } finally {
+                setLoading(false);
             }
-
-            setFound(false);
-            setVoucher({});
-        }
+        };
 
         voucherRetrieval();
     }, []);
