@@ -10,11 +10,12 @@ let comment = '';
 
 changedFiles.forEach(file => {
   const filePath = path.join(process.cwd(), file);
-  const fileContent = fs.readFileSync(filePath, 'utf8');
-  
+  let fileContent = ""
+
   // Attempt to parse YAML, handle errors
   let metadata;
   try {
+    fileContent = fs.readFileSync(filePath, 'utf8');
     metadata = yaml.load(fileContent.split('---')[1]);
   } catch (yamlError) {
     // If YAML parsing fails, capture the error message
