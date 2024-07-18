@@ -2,7 +2,7 @@
 id: dedicated-linux-rsync
 title: "Dedicated Server: Backups von Linux Server mit Rsync anfertigen"
 description: Informationen, wie du mit Rsync Backups von deinem Linux Dedicated Server von ZAP-Hosting anfertigen kannst - ZAP-Hosting.com Dokumentation
-sidebar_label: Rsync Linux
+sidebar_label: Backups mit Rsync erstellen
 services:
   - dedicated
 ---
