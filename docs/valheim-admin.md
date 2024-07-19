@@ -33,7 +33,7 @@ After we have added our Steam ID, we save the Settings and then Restart the Serv
 
 ## Access the Console
 
-The Console in Valheim can be accessed by pressing "F5" While Ingame, there you can type all Admin Commands or Cheats
+The Console in Valheim can be accessed by pressing "F5" While Ingame, there you can type all Admin Commands.
 
 
 ### Admin Commands

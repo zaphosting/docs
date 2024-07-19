@@ -37,7 +37,7 @@ Nachdem wir unsere SteamID hinzugefügt haben, speichern wir die Einstellungen u
 
 ## Zugriff auf die Konsole
 
-Die Konsole in Valheim kann durch Drücken von "F5" während des Spiels aufgerufen werden, dort können Admin-Befehle oder Cheats eingegeben werden
+Die Konsole in Valheim kann durch Drücken von "F5" während des Spiels aufgerufen werden, dort können Admin-Befehle eingegeben werden
 
 
 ### Admin Befehle
