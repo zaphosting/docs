@@ -9,10 +9,6 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
-:::caution
-CS2 wurde erst vor kurzem veröffentlicht. Das Spiel erhält momentan noch einige Updates und Veränderungen. Dies betrifft ebenfalls die Funktionsweise und Struktur der CS2 Server. Wir bemühen uns die Anleitungen so korrekt und schnell wie möglich aktuell zu halten, falls sich zu diesem Thema etwas geändert hat.
-:::
-
 ## Einführung 
 
 Seit der Entwicklung von Counter-Strike hat sich das Spiel von einem simplen Half-Life Mod zu einer der bekanntesten und langlebigsten Ego-Shooter der Welt entwickelt. Doch was Counter-Strike besonders einzigartig und vielseitig macht, sind nicht nur die offiziellen Spielmodi, sondern auch die unzähligen benutzerdefinierten Modi, die von der weltweiten Community durch Plugins erstellt und ermöglicht wurden.

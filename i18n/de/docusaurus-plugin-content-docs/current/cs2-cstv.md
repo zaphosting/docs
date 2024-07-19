@@ -9,10 +9,6 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
-:::caution
-CS2 wurde erst vor kurzem veröffentlicht. Das Spiel erhält momentan noch einige Updates und Veränderungen. Dies betrifft ebenfalls die Funktionsweise und Struktur der CS2 Server. Wir bemühen uns die Anleitungen so korrekt und schnell wie möglich aktuell zu halten, falls sich zu diesem Thema etwas geändert hat.
-:::
-
 ## Einführung 
 
 CSTV bietet die Möglichkeit, Spiele mit etwas Verzögerung live zu übertragen. Somit können auch Außenstehende, die nicht selbst am Spiel beteiligt sind, das Geschehen auf dem Server mitverfolgen. Diese Technologie wird auch bei den bekannten Counter-Strike Turnieren eingesetzt, damit die Zuschauer sich das Spektakel anschauen können. Des Weiteren können die Übertragungen auch automatisch gespeichert werden, sodass auch im Anschluss ein erneutes Anschauen möglich ist. 

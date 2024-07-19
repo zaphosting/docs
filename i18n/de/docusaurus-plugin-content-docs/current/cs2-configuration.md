@@ -9,10 +9,6 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
-:::caution
-CS2 wurde erst vor kurzem veröffentlicht. Das Spiel erhält momentan noch einige Updates und Veränderungen. Dies betrifft ebenfalls die Funktionsweise und Struktur der CS2 Server. Wir bemühen uns die Anleitungen so korrekt und schnell wie möglich aktuell zu halten, falls sich zu diesem Thema etwas geändert hat.
-:::
-
 ## Einführung
 
 Counter-Strike Server lassen sich umfangreich konfigurieren. Grundlegende Einstellungen können über die **server.cfg** Konfigurationsdatei und über die Einstellungsseite im Webinterface vorgenommen werden. Die erweitere Konfiguration erfolgt über die Gamemode Konfigurationsdateien wie zum Beispiel gamemode_competitive.cfg, gamemode_custom.cfg, gamemode_casual.cfg, gamemode_cooperative.cfg, gamemode_demolition.cfg, usw.
