@@ -178,6 +178,10 @@ Du möchtest deinen Server zu bestimmten Uhrzeiten neu starten? Der Restart-Plan
 ![img](https://screensaver01.zap-hosting.com/index.php/s/k4k9TJTcP9WYx6n/preview)
 
 
+### DNS Einstellungen
+
+Mit den ZAP-Hosting DNS Einstellungen kannst du leicht zu merkende Adressen für deinen Service erstellen. Du kannst hier entweder eine Subdomain von einer unserer Domains nutze oder du erstellst einen DNS Eintrag auf deinen eigenen Domains und hast damit eine Adresse, die man noch besser mit dir als Person verbinden kann.
+https://screensaver01.zap-hosting.com/index.php/s/XAoNQEnSW6xwKXD/preview
 
 ## Werkzeuge
 
