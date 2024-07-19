@@ -9,9 +9,12 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
+## Einführung
+Die Zuweisung von Administratorberechtigungen ermöglicht dir eine einfache und umfangreiche Verwaltung mit voller Kontrolle deines Servers. Als Administrator hast du die Möglichkeit alle verfügbaren Optionen und Funktionen, die das Spiel bereitstellt, direkt im Spiel anzuwenden. Im folgenden werden dir alle notwendigen Schritte erläutert, die du benötigst, um dir die Administratorberechtigungen für deinen Server zuzuweisen. 
 <InlineVoucher />
 
-Mit Administrator Berechtigungen kannst du direkt im Spiel Änderungen im Live Zustand an deinem Server vornehmen, ohne diese in der Config vorzunehmen. Das Hinzufügen eines Admins erfolgt über die **server-settings.json** Config, welche du im Interface unter Configs findest.
+## Konfiguration
+Das Hinzufügen eines Admins erfolgt über die **server-settings.json** Config, welche du im Interface unter Configs findest.
 
 ![image](https://user-images.githubusercontent.com/26007280/189889682-7608bb64-c17a-4f23-8bc0-a2339bcbe168.png)
 

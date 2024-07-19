@@ -9,6 +9,8 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
+## Einführung
+Die Zuweisung von Administratorberechtigungen ermöglicht dir eine einfache und umfangreiche Verwaltung mit voller Kontrolle deines Servers. Als Administrator hast du die Möglichkeit alle verfügbaren Optionen und Funktionen, die das Spiel bereitstellt, direkt im Spiel anzuwenden. 
 <InlineVoucher />
 
 ## Als Admin hinzufügen
@@ -37,7 +39,7 @@ Nachdem wir unsere SteamID hinzugefügt haben, speichern wir die Einstellungen u
 
 ## Zugriff auf die Konsole
 
-Die Konsole in Valheim kann durch Drücken von "F5" während des Spiels aufgerufen werden, dort können Admin-Befehle oder Cheats eingegeben werden
+Die Konsole in Valheim kann durch Drücken von "F5" während des Spiels aufgerufen werden, dort können Admin-Befehle eingegeben werden
 
 
 ### Admin Befehle

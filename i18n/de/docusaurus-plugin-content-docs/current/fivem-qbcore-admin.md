@@ -9,9 +9,11 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
+## Einführung
+Die Zuweisung von Administratorberechtigungen ermöglicht dir eine einfache und umfangreiche Verwaltung mit voller Kontrolle deines Servers. Als Administrator hast du die Möglichkeit alle verfügbaren Optionen und Funktionen, die das Spiel bereitstellt, direkt im Spiel anzuwenden. 
 <InlineVoucher />
 
-## Admin werden
+## Konfiguration
 
 Dank unseres Webinterfaces kannst du schnell und unkompliziert Admin werden.
 Öffne hierzu die Einstellungen deines Servers:

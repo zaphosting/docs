@@ -10,9 +10,7 @@ services:
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
-
-In dieser Anleitung werden wir uns ansehen, wie du deinen Server mit einem Admin-Passwort konfigurierst und dich selbst als Admin im Spiel hinzufügst. Dieses Passwort kann mit vertrauenswürdigen Spielern geteilt werden, um eine Reihe von Admin-Befehlen zu erhalten. Mehr über diese Serverbefehle erfährst du in unserem [Palworld Server Commands Anleitung](palworld-server-commands.md).
-
+Die Zuweisung von Administratorberechtigungen ermöglicht dir eine einfache und umfangreiche Verwaltung mit voller Kontrolle deines Servers. Als Administrator hast du die Möglichkeit alle verfügbaren Optionen und Funktionen, die das Spiel bereitstellt, direkt im Spiel anzuwenden. 
 <InlineVoucher />
 
 ## Konfiguriere dein Admin-Passwort

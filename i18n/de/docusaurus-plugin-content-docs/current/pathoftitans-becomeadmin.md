@@ -10,9 +10,7 @@ services:
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
-
-Möchtest du mehr Kontrolle über deinen Server haben? Als Admin hast du die Möglichkeit, noch mehr Anpassungen vorzunehmen oder deinen Server im Spiel zu verwalten. Im Folgenden erklären wir, wie du dich als Admin registrieren und Berechtigungen im Spiel hinzufügen kannst.
-
+Die Zuweisung von Administratorberechtigungen ermöglicht dir eine einfache und umfangreiche Verwaltung mit voller Kontrolle deines Servers. Als Administrator hast du die Möglichkeit alle verfügbaren Optionen und Funktionen, die das Spiel bereitstellt, direkt im Spiel anzuwenden. Im folgenden werden dir alle notwendigen Schritte erläutert, die du benötigst, um dir die Administratorberechtigungen für deinen Server zuzuweisen. 
 <InlineVoucher />
 
 ## Vorbereitung

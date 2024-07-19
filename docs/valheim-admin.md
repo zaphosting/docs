@@ -9,11 +9,11 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
+## Introduction
+The assignment of administrator permissions allows you simple and comprehensive administration with full control of your server. As an administrator, you have the option of using all available options and functions provided by the game directly in the game. All the steps you need to take to assign administrator permissions for your server will be described below. 
 <InlineVoucher />
 
-## Adding yourself as Admin
-
-### Getting your Steam ID
+### Configuration
 To Add yourself as Admin, you first need to get your SteamID64, you can use a tool like the [Steam ID Finder](https://steamidfinder.com/)
 
 Here you enter your Steam URL:
@@ -33,7 +33,7 @@ After we have added our Steam ID, we save the Settings and then Restart the Serv
 
 ## Access the Console
 
-The Console in Valheim can be accessed by pressing "F5" While Ingame, there you can type all Admin Commands or Cheats
+The Console in Valheim can be accessed by pressing "F5" While Ingame, there you can type all Admin Commands.
 
 
 ### Admin Commands
