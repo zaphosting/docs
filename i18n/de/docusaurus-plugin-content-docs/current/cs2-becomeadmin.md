@@ -10,10 +10,9 @@ services:
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
+Die Zuweisung von Administratorberechtigungen ermöglicht dir eine einfache und umfangreiche Verwaltung mit voller Kontrolle deines Servers. Als Administrator hast du die Möglichkeit alle verfügbaren Optionen und Funktionen, die das Spiel bereitstellt, direkt im Spiel anzuwenden. Im folgenden werden dir alle notwendigen Schritte erläutert, die du benötigst, um dir die Administratorberechtigungen für deinen Server zuzuweisen. 
+<InlineVoucher />. 
 
-Die Nutzung von Administratorberechtigungen ermöglicht es dir den Server auch im Spiel zu verwalten. Somit hast du die Möglichkeit Befehle über die Konsole auszuführen. 
-
-<InlineVoucher />
 
 ## Voraussetzungen
 Um Administratorberechtigungen zu verwenden muss zunächst die Grundlage geschaffen werden. Standardmäßig bietet CS2 keine umfangreiche Administratorverwaltung an. Allerdings gibt es für so etwas Frameworks, wie zum Beispiel CounterStrikeSharp. Das Framework muss für die Konfiguration bereits installiert sein. Solltest du dies noch nicht installiert haben, so schaue dir gerne unsere [Plugins installieren](cs2-plugins) Anleitung an. 

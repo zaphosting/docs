@@ -9,11 +9,13 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
+## Einführung
+Die Zuweisung von Administratorberechtigungen ermöglicht dir eine einfache und umfangreiche Verwaltung mit voller Kontrolle deines Servers. Als Administrator hast du die Möglichkeit alle verfügbaren Optionen und Funktionen, die das Spiel bereitstellt, direkt im Spiel anzuwenden. Im folgenden werden dir alle notwendigen Schritte erläutert, die du benötigst, um dir die Administratorberechtigungen für deinen Server zuzuweisen. 
 <InlineVoucher />
 
-## Admin werden
+## Konfiguration
 
-Mit Administrator-Rechten kannst du direkt im Spiel Änderungen im Live Zustand an deinem Server vornehmen, ohne diese in der Config vorzunehmen. Damit man sich selbst oder auch anderen Spielern Administrator-Rechte zuweisen kann, muss als erstes ein Serveradmin Passwort definiert werden. Das definieren des Passworts erfolgt über die Einstellungen in unserem Interface:
+Damit man sich selbst oder auch anderen Spielern Administrator-Rechte zuweisen kann, muss als erstes ein Serveradmin Passwort definiert werden. Das definieren des Passworts erfolgt über die Einstellungen in unserem Interface:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/mJrDsH34G2iCq3c/preview)
 

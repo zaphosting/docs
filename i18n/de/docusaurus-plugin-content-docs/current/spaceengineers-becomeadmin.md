@@ -9,11 +9,13 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
-## Admin werden
+## Einführung
+Die Zuweisung von Administratorberechtigungen ermöglicht dir eine einfache und umfangreiche Verwaltung mit voller Kontrolle deines Servers. Als Administrator hast du die Möglichkeit alle verfügbaren Optionen und Funktionen, die das Spiel bereitstellt, direkt im Spiel anzuwenden. Im folgenden werden dir alle notwendigen Schritte erläutert, die du benötigst, um dir die Administratorberechtigungen für deinen Server zuzuweisen. 
+<InlineVoucher />
+
+## Konfiguration
 
 Um den eigenen Spielserver gut im Spiel verwalten zu können ist es wichtig den Admin Rang zu haben.
-
-<InlineVoucher />
 
 ### SteamID64 via Webseite
 
