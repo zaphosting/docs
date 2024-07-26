@@ -117,6 +117,35 @@ You will be able to find the **PalWorldSettings.ini** configuration file. Throug
 If you do not see this file, please start your server at least **once** for this to be generated automatically. Alternatively, you can copy and use the default settings from the `steamapps/common/PalServer/DefaultPalWorldSettings.ini` path.
 :::
 
+### Enable Xbox Mode
+
+Palworld dedicated servers now come with the ability to change and function as an Microsoft Store/Xbox dedicated server to allow Xbox players and Microsoft Store PC players to play on their own server together.
+
+:::note
+Cross-play between Steam & Microsoft Store/Xbox game versions is still not possible. Your server can either be set to work for Steam or for Microsoft Store/Xbox.
+:::
+
+Navigate to the following directory and open the **PalWorldSettings.ini** file:
+```
+../steamapps/common/PalServer/Pal/Saved/Config/WindowsServer/PalWorldSettings.ini
+```
+
+Into this file, add the following snippet to enable Xbox mode:
+```
+[/Script/Pal.PalGameWorldSettings]
+OptionSettings=(AllowConnectPlatform=Xbox)
+```
+
+Save the file and the next time you launch the server it will be in Xbox mode.
+
+:::info
+On Xbox consoles, you cannot connect directly via the IP Address therefore if you plan to play on Xbox consoles, you will have to make your dedicated server public.
+
+You can do this by creating a new `StartServer.bat` file in the root directory and populating it with: `PalServer.exe -publiclobby`. The special `-publiclobby` start up flag enables Community Server mode making it accessible in the server list.
+
+You should also set a server name that can be easily found, view our [Palworld Server Configuration guide](palworld-configuration.md) on how to do this.
+:::
+
 ## Starting & Connecting to your server
 
 Now it is time to start your server. You may be required to install [DirectX runtime](https://www.microsoft.com/en-gb/download/details.aspx?id=35) if you do not have it already on your Windows Dedicated Server.
