@@ -19,32 +19,27 @@ Um eine optimale Leistung, Stabilität und Funktionalität zu gewährleisten, wi
 
 <InlineVoucher />
 
-**Systemvoraussetzungen**
+## Voraussetzungen
+ 
+Die folgenden Voraussetzungen werden von den Entwicklern empfohlen und basieren auf unseren eigenen Erfahrungen. Du könntest Probleme bekommen, wenn du diese Voraussetzungen nicht erfüllst.
 
-<br/>
-**Hardware**
+#### Hardware
 
-| **Components** | Minimum                | Recommended                 |
+| Komponenten    | Minimum                | Empfohlen                   |
 | -------------- | ---------------------- | --------------------------- |
 | CPU            | 2x 1 GHz               | 4x 2+ GHz                   |
 | RAM            | 512 MB                 | 4+ GB                       |
-| Disc           | 10 GB                  | 50+ GB                      |
-| Bandwidth      | 100 mbit/s (up & down) | 500mbit/s (up & down) Sinnvoll, wenn mehrere User die Cloud benutzen sollen |
+| Lagerung       | 10 GB                  | 50+ GB                      |
+| Bandbreite     | 100 mbit/s (up & down) | 500mbit/s (up & down) Sinnvoll, wenn mehrere User die Cloud benutzen sollen |
 
-<br/>
-**Software**
+#### Software
 
-| Platform         | Options                                                      |
+| Plattform        | Optionen                                                     |
 | ---------------- | ------------------------------------------------------------ |
-| Operating System | Ubuntu (14.04, 16.04, 18.04), Debian(8,9,10), CentOS 6.5/7   |
-| Database         | MySQL or MariaDB 5.5+ (recommended),  SQLite (only recommended for testing and minimal-instances) |
-| Web server       | Apache 2.4 with `mod_php` or `php-fpm` (recommended)         |
+| Operationssystem | Ubuntu (14.04, 16.04, 18.04), Debian(8,9,10), CentOS 6.5/7   |
+| Datenbank        | MySQL or MariaDB 5.5+ (recommended),  SQLite (only recommended for testing and minimal-instances) |
+| Webserver        | Apache 2.4 with `mod_php` or `php-fpm` (recommended)         |
 | PHP              | 5.6, 7.0 (recommended), 7.1 (recommended), 7.2               |
-
-:::info
-Die Anforderungen wurden aus unseren eigenen Erfahrungen und den Informationen der Entwickler zusammengestellt.
-:::
-
 
 ## Vorbereitung
 

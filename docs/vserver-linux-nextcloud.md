@@ -15,24 +15,24 @@ Nextcloud is an open source cloud solution and fork of Owncloud, which was found
 
 ![image](https://user-images.githubusercontent.com/13604413/159172333-5c613339-d564-4852-8b32-d3661d283534.png)
 
-In order to achieve optimal performance, stability and functionality, the following setup is recommended for hosting a Nextcloud server. The Nextcloud server is not compatible with Windows and MacOS. At least not without any further virtualization or similar workarounds.<br/>
+In order to achieve optimal performance, stability and functionality, the following setup is recommended for hosting a Nextcloud server. The Nextcloud server is not compatible with Windows and MacOS. At least not without any further virtualization or similar workarounds.
 
 <InlineVoucher />
 
-**System prerequisites**
+## Prerequisites
 
-<br/>
-**Hardware**
+The following requirements are recommended by the developers and are based on our own experience. You may face issues if you do not meet these prerequisites.
 
-| **Components** | Minimum                | Recommended                 |
+#### Hardware
+
+| Components     | Minimum                | Recommended                 |
 | -------------- | ---------------------- | --------------------------- |
 | CPU            | 2x 1 GHz               | 4x 2+ GHz                   |
 | RAM            | 512 MB                 | 4+ GB                       |
-| Disc           | 10 GB                  | 50+ GB                      |
+| Storage        | 10 GB                  | 50+ GB                      |
 | Bandwidth      | 100 mbit/s (up & down) | 500mbit/s (up & down) Recommended if several users are supposed to use the cloud |
 
-<br/>
-**Software**
+#### Software
 
 | Platform         | Options                                                      |
 | ---------------- | ------------------------------------------------------------ |
@@ -40,13 +40,6 @@ In order to achieve optimal performance, stability and functionality, the follow
 | Database         | MySQL or MariaDB 5.5+ (recommended),  SQLite (only recommended for testing and minimal-instances) |
 | Web server       | Apache 2.4 with `mod_php` or `php-fpm` (recommended)         |
 | PHP              | 5.6, 7.0 (recommended), 7.1 (recommended), 7.2               |
-
-:::info
-The prerequisites are based on our own experience and the information provided by the developers..
-:::
-
-
-
 
 ## Preparation
 
