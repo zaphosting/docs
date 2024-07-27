@@ -23,7 +23,7 @@ Mit dieser Option kannst du auf deinen Server zugreifen und Probleme beheben, au
 
 Auf dieser Seite kannst du die Konsole aktivieren, indem du auf die Schaltfläche **Webclient öffnen** klickst und dich mit deinen üblichen Anmeldedaten anmeldest.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/y3S4Gw7scwZnHwy/preview)
+![image](https://screensaver01.zap-hosting.com/index.php/s/ZJSbjmTYtmi5Lie/preview)
 
 ## Methoden zur Fehlerbehebung
 
@@ -32,6 +32,8 @@ Auf dieser Seite kannst du die Konsole aktivieren, indem du auf die Schaltfläch
 Der erste Schritt zur Fehlerbehebung besteht darin, sicherzustellen, dass die technische Konfiguration des Netzwerkadapters auf deinem Server korrekt ist, d.h. die IP-Adresse, die Subnetzmaske und das Gateway.
 
 Beginne mit dem Abschnitt **Einstellungen->IP-Adressen** auf der Weboberfläche deines Servers, wo du alle IP-Adressen sehen kannst, die du derzeit für deinen Dienst mietest.
+
+![image](https://screensaver01.zap-hosting.com/index.php/s/D8gDpL24wkqR4rF/preview)
 
 Greife nun über RDP oder die VNC-Konsole auf deinen Server zu, wenn du Probleme hast. Gehe in die Einstellungen deines Windows-Netzwerkadapters, indem du in: 
 ```
@@ -46,16 +48,16 @@ Suche die Option **Internetprotokoll, Version 4 (TCP/IPv4)** in der Liste und w�
 
 Vergleiche die im Adapter gefundenen Informationen und stelle sicher, dass sie wie folgt eingestellt sind
 - IP-Adresse: Dies sollte die IP-Adresse sein, die du auf der Seite **IP-Adressen** im Webinterface findest.
-- Subnetzmaske: Diese sollte normalerweise „255.255.255.0“ lauten, da unser Netzwerk die Netzwerkklasse C verwendet.
+- Subnetzmaske: Diese sollte normalerweise `255.255.255.0` lauten, da unser Netzwerk die Netzwerkklasse C verwendet.
 - Standard-Gateway: Dies sollte deine IP-Adresse sein, die dem ersten Wert entspricht, wobei das letzte Oktett (`.xxx`) entfernt und durch eine `.1` ersetzt wird.
 
 #### Beispiel-Setup
 
 :::info
-Bitte beachte, dass dies ein **Beispiel** ist, das wir zum besseren Verständnis zur Verfügung stellen. Du solltest die IP-Adresse durch die IP-Adresse deines eigenen Servers ersetzen.
+Bitte beachte, dass dies ein **Beispiel** ist, das wir zum besseren Verständnis zur Verfügung stellen. Du solltest die IP-Adresse durch die IP-Adresse deines **eigenen** Servers ersetzen.
 :::
 
-Mit einer IP-Adresse von „185.223.28.163“ sollte deine Konfiguration wie folgt aussehen:
+Mit einer IP-Adresse von `185.223.28.163` sollte deine Konfiguration wie folgt aussehen:
 
 | Einstellung      | Wert           |
 | ---------------- | -------------- |

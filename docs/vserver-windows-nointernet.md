@@ -23,7 +23,7 @@ This option allows you to access your server and resolve issues even if the inte
 
 On this page, you will be able to activate the console by using the **Open Web Client** button and logging in with your usual credentials.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/y3S4Gw7scwZnHwy/preview)
+![image](https://screensaver01.zap-hosting.com/index.php/s/L9ZPLHEXbydc6ZS/preview)
 
 ## Troubleshooting Methods
 
@@ -32,6 +32,8 @@ On this page, you will be able to activate the console by using the **Open Web C
 The first troubleshooting step is to ensure that the technical configuration for the network adapter on your server is all correct, which includes the IP address, subnet mask and the gateway.
 
 Begin by heading over to the **Settings->IP-Addresses** section on your server's web interface panel where you will be able to view all of the IP Addresses that you currently rent with your service.
+
+![image](https://screensaver01.zap-hosting.com/index.php/s/8gF7Qsq5k5aYxbq/preview)
 
 Now access your server via RDP or the VNC Console if you are facing issues. Head over into your Windows Network Adapter Settings by going into: 
 ```
@@ -52,7 +54,7 @@ Compare the information found in the adapter and ensure that they are set to the
 #### Example Setup
 
 :::info
-Please note this is an **example** that we provide to make it easier to understand. You should replace the IP Address with your own server's IP address.
+Please note this is an **example** that we provide to make it easier to understand. You should replace the IP Address with your **own** server's IP address.
 :::
 
 With an IP address of `185.223.28.163`, your configuration should look like the following:
