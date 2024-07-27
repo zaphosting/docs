@@ -19,7 +19,7 @@ Eine unterbrochene oder fehlerhafte Internetverbindung kann verschiedene Ursache
 
 Falls du dich aufgrund einer nicht funktionierenden Internetverbindung nicht über RDP (Remote Desktop) mit deinem Server verbinden kannst, gibt es eine Alternative: die VNC-Konsole (Virtual Network Computing), die auf unserer Website zur Verfügung steht.
 
-Mit dieser Option kannst du auf deinen Server zugreifen und Probleme beheben, auch wenn die Internetverbindung nicht funktioniert. Du kannst darauf zugreifen, indem du in der Weboberfläche deines Servers den Bereich **Tools->VNC-Konsole** aufrufst.
+Mit dieser Option kannst du auf deinen Server zugreifen und Probleme beheben, auch wenn die Internetverbindung nicht funktioniert. Du kannst darauf zugreifen, indem du in der Weboberfläche deines Servers den Bereich **Werkzeuge->VNC-Konsole** aufrufst.
 
 Auf dieser Seite kannst du die Konsole aktivieren, indem du auf die Schaltfläche **Webclient öffnen** klickst und dich mit deinen üblichen Anmeldedaten anmeldest.
 
@@ -88,7 +88,7 @@ Wenn du fertig bist, drücke erneut **Ok**, um die Änderungen zu übernehmen. A
 
 Der letzte Schritt zur Fehlerbehebung besteht darin, sicherzustellen, dass die Windows Firewall richtig konfiguriert ist. 
 
-Wir empfehlen, die Windows Firewall vorübergehend komplett zu deaktivieren, um zu sehen, ob die Probleme weiterhin bestehen. Verwende die Suchfunktion von Windows, um **Windows Firewall-Einstellungen** zu öffnen und wähle im linken Bereich die Option **Windows Defender Firewall ein- oder ausschalten**.
+Wir empfehlen, die Windows Firewall vorübergehend komplett zu deaktivieren, um zu sehen, ob die Probleme weiterhin bestehen. Verwende die Suchfunktion von Windows, um **Windows Defender Firewall-Einstellungen** zu öffnen und wähle im linken Bereich die Option **Windows Defender Firewall ein- oder ausschalten**.
 
 ![image](https://screensaver01.zap-hosting.com/index.php/s/kSbpgpkNotFgiXL/preview)
 
@@ -96,4 +96,4 @@ Wenn die Probleme behoben sind, wenn die Firewall deaktiviert ist, ist die Ursac
 
 Die Lösung für die Firewall hängt stark von dem Problem ab, das du hast. Wenn du weitere Hilfe bei der Verwaltung von Firewall-Regeln benötigst, verwende bitte unsere [Windows Port Forwarding Guide](vserver-windows-port.md).
 
-Als letzten Ausweg kannst du auch versuchen, die Regeln der Windows-Firewall vollständig auf die Standardeinstellungen zurückzusetzen, indem du die Option **Standardeinstellungen wiederherstellen** im vorherigen Abschnitt verwendest.
+Als letzten Ausweg kannst du auch versuchen, die Regeln der Windows-Firewall vollständig auf die Standardeinstellungen zurückzusetzen, indem du die Option **Standardeinstellungen wiederherstellen** im Menü **Windows Defender Firewall-Einstellungen** verwendest.

@@ -88,7 +88,7 @@ Once ready, press **Ok** again to apply the changes. Here we also recommend rest
 
 The final troubleshooting step is to ensure that the Windows Firewall is configured appropriately. 
 
-We recommend attempting to disable the entire Windows Firewall temporarily to see if the issues persist. Use the search function on Windows to open up **Windows Firewall Settings** and select the **Turn Windows Defender Firewall on or off** option on the left section.
+We recommend attempting to disable the entire Windows Firewall temporarily to see if the issues persist. Use the search function on Windows to open up **Windows Defender Firewall Settings** and select the **Turn Windows Defender Firewall on or off** option on the left section.
 
 ![image](https://screensaver01.zap-hosting.com/index.php/s/bWcPqHcCZ7ajJSA/preview)
 
@@ -96,4 +96,4 @@ If the issues are resolved when the firewall is disabled, it is likely that the 
 
 The solution for the firewall is highly dependant on the issue that you are facing. Please use our [Windows port forwarding guide](vserver-windows-port.md) if you need further assistance managing firewall rules.
 
-As a last resort, you can also attempt resetting the Windows Firewall rules entirely back to default settings by using the **Restore defaults** option on the previous section.
+As a last resort, you can also attempt resetting the Windows Firewall rules entirely back to default settings by using the **Restore defaults** option found in the **Windows Defender Firewall Settings** menu.
