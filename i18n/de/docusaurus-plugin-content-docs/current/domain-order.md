@@ -26,11 +26,11 @@ Die Website zeigt dir nun die Verfügbarkeit der einzelnen Domains für den ange
 ## Domain-Informationen
 
 Domains werden immer in **1-Jahres-Schritten** angeboten und müssen vor dem Ablaufdatum verlängert werden, sonst riskierst du, dass sie verloren gehen.
- 
-Während des Bestellvorgangs musst du eine Reihe von persönlichen Daten wahrheitsgemäß angeben, darunter deinen Vor- und Nachnamen und deine Adresse. Diese Felder werden zur Verfügung gestellt und nur der Registrar und die Behörden können auf diese Daten zugreifen, wenn es unbedingt notwendig ist.
+
+Während des Bestellvorgangs musst du eine Reihe von persönlichen Daten wahrheitsgemäß angeben, darunter deinen Vor- und Nachnamen und deine Adresse. Diese Felder sind privat und nur die Registrierstelle und die Behörden können auf diese Daten zugreifen, wenn es unbedingt notwendig ist.
 
 :::info
-Aufgrund der in der EU geltenden DSGVO-Bestimmungen sind alle Felder, die du neben der Domain angibst, privat und können nicht öffentlich eingesehen werden.
+Aufgrund der DSGVO-Bestimmungen, die in der EU gelten, sind alle Informationen, die du neben der Domain angibst, privat und können nicht öffentlich zugänglich gemacht werden.
 :::
 
 ![image](https://screensaver01.zap-hosting.com/index.php/s/xEa3DJKE6pyXPfs/preview)

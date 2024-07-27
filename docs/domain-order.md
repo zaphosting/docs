@@ -27,10 +27,10 @@ The website will now return the availability of each domain for the given name, 
 
 Domains are always priced in **1 Year** increments and must be renewed before the expiry date, otherwise you may risk it being lost.
 
-During the order process, you will have to truthfully provide a range of personal information including your first name, surname and address. These fields are provide and only the registrar and authorities can access this data if absolutely necessary.
+During the order process, you will have to truthfully provide a range of personal information including your first name, surname and address. These fields are private and only the registrar and authorities can access this data if absolutely necessary.
 
 :::info
-With GDPR rules in place across the EU, all the fields that you provide alongside the domain will be private and cannot be accessed publicly.
+With GDPR rules in place across the EU, all the information that you provide alongside the domain will be private and cannot be accessed publicly.
 :::
 
 ![image](https://screensaver01.zap-hosting.com/index.php/s/d5gNX5mkpctk2c3/preview)

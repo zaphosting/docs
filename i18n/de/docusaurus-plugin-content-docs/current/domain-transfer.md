@@ -27,9 +27,9 @@ Wenn du die genaue Domain gefunden hast, die du übertragen möchtest, wähle si
 
 ![image](https://screensaver01.zap-hosting.com/index.php/s/omnaMqXJgarxsqW/preview)
 
-Es öffnet sich eine neue Eingabeaufforderung, die zur Authentifizierung des Transfers auf dein ZAP-Hosting-Konto dient.
+Daraufhin öffnet sich eine neue Eingabeaufforderung, mit der du den Transfer zu deinem ZAP-Hosting-Konto autorisierst.
 
-Du musst nun zu deinem bestehenden Registrar gehen und den **Auth Code** für deine Domain anfordern. In der Regel haben bekanntere Registrare ein automatisches System, mit dem du den Authentifizierungscode ganz einfach anfordern kannst, zum Beispiel über ein Formular oder dein Kunden-Dashboard. Im Zweifelsfall solltest du dich an das Support-Team deines Registrars wenden.
+Du musst nun zu deinem bisherigen Registrar gehen und den **Auth Code** für deine Domain beantragen. In der Regel haben gängige Registrare ein automatisches System, mit dem du den Autorisierungscode ganz einfach anfordern kannst, zum Beispiel über ein Formular oder dein Kunden-Dashboard. Im Zweifelsfall solltest du dich an das Support-Team deines Registrars wenden.
 
 Wenn du den **Auth Code** parat hast, gib ihn in die Eingabeaufforderung ein und bestätige ihn. Fahre wie gewohnt mit dem Bestellvorgang fort.
 
@@ -47,5 +47,4 @@ Gehe in den Bereich **Dashboard** im Webinterface deiner Domain. Auf dieser Seit
 
 ![image](https://screensaver01.zap-hosting.com/index.php/s/LHjd6i5xwX3rFM2/preview)
 
-Diesen Berechtigungscode solltest du deinem neuen Provider bei der Einrichtung mitteilen, um deine Domain umzuziehen.
-
+Diesen Autorisierungscode solltest du deinem neuen Anbieter bei der Einrichtung mitteilen, um deine Domain umzuziehen.

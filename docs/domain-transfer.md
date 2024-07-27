@@ -27,9 +27,9 @@ Once you find the exact domain you wish to transfer, select it from the list. It
 
 ![image](https://screensaver01.zap-hosting.com/index.php/s/omnaMqXJgarxsqW/preview)
 
-This will open up a new prompt which is used to authenticate the transfer to your ZAP-Hosting account.
+This will open up a new prompt which is used to authorize the transfer to your ZAP-Hosting account.
 
-You will now have go to your existing registrar and request the **Auth Code** for your domain. Typically, more popular registrars will have an automated system to let you easily request the authentication code, for example through filling out a form or your customer dashboard. If in doubt, you should contact your registrar's support team.
+You will now have go to your existing registrar and request the **Auth Code** for your domain. Typically, more popular registrars will have an automated system to let you easily request the authorization code, for example through filling out a form or your customer dashboard. If in doubt, you should contact your registrar's support team.
 
 Once you have the **Auth Code** ready, input it into the prompt and confirm it. Proceed as normal with the order process.
 
@@ -47,4 +47,4 @@ Head over to the **Dashboard** area on your Domain's web interface panel. On thi
 
 ![image](https://screensaver01.zap-hosting.com/index.php/s/TTHm6qFA9rfgFBn/preview)
 
-You should provide this authorisation code to your new provider during setup to move your domain.
+You should provide this authorization code to your new provider during setup to move your domain.
