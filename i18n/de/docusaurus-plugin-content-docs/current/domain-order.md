@@ -1,39 +1,36 @@
 ---
 id: domain-order
 title: "Domain: Eine Domain bestellen"
-description: Informationen zum Bestellprozess von Domains bei ZAP-Hosting - ZAP-Hosting.com Dokumentation
+description: Informationen über den Prozess der Bestellung einer neuen Domain bei ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Domain bestellen
-services:
-  - domain
+Dienstleistungen:
+  - Domain
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
+## Einführung
+
+Bei ZAP-Hosting bieten wir eine große Auswahl an beliebten Domains an, darunter gTLDs wie `.com` und `.net`, die du direkt über unseren [Domainkonfigurator](https://zap-hosting.com/en/shop/product/domain/) bestellen kannst. In diesem Leitfaden werden wir den Bestellvorgang im Detail erklären.
+
 <InlineVoucher />
 
-## Bestellung einer Domain
+## Neue Domain bestellen
 
-Zur Domainbestellung bei ZAP gelangst du hier: [Domain konfigurieren und bestellen](https://zap-hosting.com/de/shop/product/domain/)
+Du kannst deine eigene Domain [direkt hier](https://zap-hosting.com/en/shop/product/domain/) bestellen. Benutze auf der Seite die Suchleiste, um den gewünschten Domainnamen einzugeben, und drücke auf Suchen.
 
-Im Feld **meine-domain.de** kannst du nun nach deinem Domainnamen suchen und prüfen, ob dieser verfügbar oder vielleicht bereits vergeben ist. Domains werden immer ein Jahr im Voraus bezahlt und müssen dann entsprechend gekündigt oder verlängert werden.
+Die Website zeigt dir nun die Verfügbarkeit der einzelnen Domains für den angegebenen Namen an und macht es dir leicht, eine verfügbare zu finden. Wenn eine Domain nicht verfügbar ist, bedeutet das, dass sie bereits jemand anderes besitzt und du sie daher nicht bestellen kannst.
 
-![image](https://user-images.githubusercontent.com/13604413/159175914-69b5a2c4-c456-40f1-9fa8-4a972ea2af7c.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/cmdoBKgzYeJPPJH/preview)
 
+## Domain-Informationen
 
-Um eine Domain mieten zu können, müssen alle Felder wie Vorname, Nachname und Anschrift wahrheitsgemäß ausgefüllt werden, da immer ein eindeutiger Domaininhaber hinterlegt sein muss. Andernfalls kann es sein, dass die Domain nicht bereitgestellt werden kann.
+Domains werden immer in **1-Jahres-Schritten** angeboten und müssen vor dem Ablaufdatum verlängert werden, sonst riskierst du, dass sie verloren gehen.
+ 
+Während des Bestellvorgangs musst du eine Reihe von persönlichen Daten wahrheitsgemäß angeben, darunter deinen Vor- und Nachnamen und deine Adresse. Diese Felder werden zur Verfügung gestellt und nur der Registrar und die Behörden können auf diese Daten zugreifen, wenn es unbedingt notwendig ist.
 
 :::info
-Die Daten des Domaininhabers sind seit in Krafttreten der DSGVO nicht mehr für jeden einsehbar. Lediglich der Registrar und Behörden können diese Daten bei Bedarf abrufen. 
+Aufgrund der in der EU geltenden DSGVO-Bestimmungen sind alle Felder, die du neben der Domain angibst, privat und können nicht öffentlich eingesehen werden.
 :::
 
-
-![image](https://user-images.githubusercontent.com/13604413/159175924-79547794-44c0-4577-a9d2-709878b88a68.png)
-
-
-
-## Nach der Bereitstellung
-
-### Nachdem deine Domain bereitgestellt wurde, findest du diese auf der Startseite in deinem Interface.
-
-
-![image](https://user-images.githubusercontent.com/13604413/159175925-3ea6fbf5-e891-4ce4-85c7-71cdfa9fa82d.png
+![image](https://screensaver01.zap-hosting.com/index.php/s/xEa3DJKE6pyXPfs/preview)
