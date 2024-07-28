@@ -67,6 +67,32 @@ Die letzte Methode, um auf die Rohdatei zuzugreifen, ist über FTP. Wenn du dich
 
 ## Server-Konfigurationsoptionen
 
+### Aktiviere den Xbox-Modus
+
+:::tip
+Wir haben jetzt eine separate **Palword (Xbox)** Spielversion auf unseren Gameservern, die dies automatisch für dich einrichtet! Schau dir unsere [Anleitung zum Gameserver-Wechsel](gameserver-gameswitch.md) an, um zu erfahren, wie du ganz einfach umschalten kannst. Stelle sicher, dass du deine Spielstände wie immer sicherst.
+:::
+
+Die Palworld Dedicated Server können jetzt auch als Microsoft Store/Xbox Dedicated Server umgestellt werden, damit Xbox-Spieler und Microsoft Store PC-Spieler gemeinsam auf ihrem eigenen Server spielen können.
+
+:::note
+Cross-Play zwischen Steam & Microsoft Store/Xbox Spielversionen ist immer noch nicht möglich. Dein Server kann entweder für Steam oder für Microsoft Store/Xbox eingestellt werden.
+:::
+
+Rufe die Datei **PalWorldSettings.ini** auf deinem Server auf und füge den folgenden Ausschnitt hinzu, um den Xbox-Modus zu aktivieren:
+```
+[/Script/Pal.PalGameWorldSettings]
+OptionSettings=(AllowConnectPlatform=Xbox)
+```
+
+Speichere die Datei und das nächste Mal, wenn du den Server startest, wird er im Xbox-Modus sein.
+
+:::info
+Auf Xbox-Konsolen kannst du dich nicht direkt über die IP-Adresse verbinden. Wenn du also auf Xbox-Konsolen spielen willst, musst du deinen dedizierten Server öffentlich machen.
+
+Du solltest auch einen Servernamen festlegen, der leicht gefunden werden kann. Wie das geht, kannst du in unserer [Palworld Server Configuration guide](palworld-configuration.md) nachlesen.
+:::
+
 ### Wichtige Servereinstellungen
 
 Dies sind Serverkonfigurationsoptionen, die wichtig sind, um die Auflistung deines Servers anzupassen, ihn durch Passwörter zu schützen und weitere interne Einstellungen vorzunehmen.

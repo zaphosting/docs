@@ -1,92 +1,99 @@
 ---
 id: vserver-windows-nointernet
-title: "vServer:  Kein Internet, was nun?"
-description: Informationen zur Lösung von Problemen mit nicht vorhandener Internetverbindung unter Windows vRootserver von ZAP-Hosting zeigt keinen Internetzugang - ZAP-Hosting.com Dokumentation
-sidebar_label: Kein Internet, was nun?
+title: "VPS: Fehlersuche bei fehlendem Internet"
+description: Informationen zur Fehlersuche und Behebung von Netzwerk- und Internetproblemen auf Windows vRootserver von ZAP-Hosting - ZAP-Hosting.com Dokumentation
+sidebar_label: Fehlersuche bei fehlendem Internet
 services:
   - vserver
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
-
+ 
 ## Einführung
 
-Eine unterbrochene oder fehlerhafte Internetverbindung kann auf unterschiedliche Ursachen zurückzuführen sein, wie beispielsweise falsche Einstellungen der IP-Adresse, Subnetzmaske, Gateway, DNS-Server oder Firewall. Im Folgenden werden wir dir erläutern, wie du diese möglichen Probleme überprüfen, identifizieren und beheben kannst.
+Eine unterbrochene oder fehlerhafte Internetverbindung kann verschiedene Ursachen haben, z. B. eine falsche IP-Adresse, Subnetzmaske, Gateway, DNS-Server oder Firewall-Einstellungen. In diesem Leitfaden erklären wir dir, wie du mögliche Netzwerkprobleme beheben kannst.
 
 <InlineVoucher />
+ 
+## VNC-Zugang ohne Internet
 
-## Zugriff ohne Internet
+Falls du dich aufgrund einer nicht funktionierenden Internetverbindung nicht über RDP (Remote Desktop) mit deinem Server verbinden kannst, gibt es eine Alternative: die VNC-Konsole (Virtual Network Computing), die auf unserer Website zur Verfügung steht.
 
-Falls du aufgrund einer nicht funktionalen Internetverbindung keinen RDP-Zugriff hast, bietet sich die Verwendung der VNC-Konsole (Virtual Network Computing) als Alternative an. Diese Option ermöglicht es dir, auf den Dienst zuzugreifen und Probleme zu lösen, selbst wenn die Internetverbindung nicht funktional ist. Du kannst darauf zugreifen, indem du in deinem Dashboard den Bereich **Werkzeuge** öffnest und die **VNC-Konsole** auswählst. Dort kannst du die Konsole aktivieren, indem du den grünen "Webclient öffnen" Button verwendest und dich anschließend mit deinen gewohnten Zugangsdaten einloggst.
+Mit dieser Option kannst du auf deinen Server zugreifen und Probleme beheben, auch wenn die Internetverbindung nicht funktioniert. Du kannst darauf zugreifen, indem du in der Weboberfläche deines Servers den Bereich **Werkzeuge->VNC-Konsole** aufrufst.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/y3S4Gw7scwZnHwy/preview)
+Auf dieser Seite kannst du die Konsole aktivieren, indem du auf die Schaltfläche **Webclient öffnen** klickst und dich mit deinen üblichen Anmeldedaten anmeldest.
 
+![image](https://screensaver01.zap-hosting.com/index.php/s/ZJSbjmTYtmi5Lie/preview)
 
+## Methoden zur Fehlerbehebung
 
-## Problembehebung
+### IP-Adresse, Subnetzmaske und Gateway-Einstellungen überprüfen
 
+Der erste Schritt zur Fehlerbehebung besteht darin, sicherzustellen, dass die technische Konfiguration des Netzwerkadapters auf deinem Server korrekt ist, d.h. die IP-Adresse, die Subnetzmaske und das Gateway.
 
+Beginne mit dem Abschnitt **Einstellungen->IP-Adressen** auf der Weboberfläche deines Servers, wo du alle IP-Adressen sehen kannst, die du derzeit für deinen Dienst mietest.
 
-### Schritt 1: IP-Adresse, Subnetzmask, Gateway Einstellungen
+![image](https://screensaver01.zap-hosting.com/index.php/s/D8gDpL24wkqR4rF/preview)
 
-Wenn die Internetverbindung nicht funktional ist, dann kann dies an einer falschen Konfiguration der IP-Adresse, Subnetzmaske, und Gateway liegen. In dem Fall muss sichergestellt werden, dass die richtigen Informationen eingetragen sind. Die Informationen zu deiner IP-Adresse, Subnetzmaske und Gateway kannst du in deinem Dashboard unter Einstellungen bei IP-Adresses einsehen. 
+Greife nun über RDP oder die VNC-Konsole auf deinen Server zu, wenn du Probleme hast. Gehe in die Einstellungen deines Windows-Netzwerkadapters, indem du in: 
+```
+Einstellungen -> Netzwerk und Internet -> Adapteroptionen ändern -> Netzwerkadapter
+```
 
-Öffne nun die Netzwerkeinstellungen bei dem Betriebssystem deines Servers. Diese kannst du unter den Windows Einstellungen bei Netzwerk und Internet -> Adapteroptionen ändern -> Netzwerk Adapter -> Eigenschaften -> Internetprotokoll, Version 4 (TCP/IPv4) aufrufen. 
+Suche die Option **Internetprotokoll, Version 4 (TCP/IPv4)** in der Liste und wähle **Eigenschaften**.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/QmcworojD6pMQby/preview)
+![image](https://screensaver01.zap-hosting.com/index.php/s/QmcworojD6pMQby/preview)
 
+#### Adapter konfigurieren
 
+Vergleiche die im Adapter gefundenen Informationen und stelle sicher, dass sie wie folgt eingestellt sind
+- IP-Adresse: Dies sollte die IP-Adresse sein, die du auf der Seite **IP-Adressen** im Webinterface findest.
+- Subnetzmaske: Diese sollte normalerweise `255.255.255.0` lauten, da unser Netzwerk die Netzwerkklasse C verwendet.
+- Standard-Gateway: Dies sollte deine IP-Adresse sein, die dem ersten Wert entspricht, wobei das letzte Oktett (`.xxx`) entfernt und durch eine `.1` ersetzt wird.
 
-In den Eigenschaften muss nun sichergestellt werden, dass die korrekten Informationen zur IP-Adresse, Subnetzmaske, und Gateway hinterlegt sind. Gleiche die Informationen dazu mit denen aus dem Webinterface ab und korrigiere diese bei Notwendigkeit. In den Eigenschaften solltest du sicherstellen, dass die richtigen Informationen für die IP-Adresse, Subnetzmaske und das Gateway eingetragen sind. 
+#### Beispiel-Setup
 
-In unserem Netzwerk verwenden wir normalerweise die Netzklasse C mit einer Subnetzmaske von 255.255.255.0. Für das Standardgateway verwendest du die Informationen deiner IP-Adresse. Allerdings muss dort noch das letzte Oktett zum Wert 1 (XXX.XXX.XXX.XXX -> XXX.XXX.XXX.1) geändert werden. 
+:::info
+Bitte beachte, dass dies ein **Beispiel** ist, das wir zum besseren Verständnis zur Verfügung stellen. Du solltest die IP-Adresse durch die IP-Adresse deines **eigenen** Servers ersetzen.
+:::
 
+Mit einer IP-Adresse von `185.223.28.163` sollte deine Konfiguration wie folgt aussehen:
 
+| Einstellung      | Wert           |
+| ---------------- | -------------- |
+| IP-Adresse       | 185.223.28.163 |
+| Subnetzmaske     | 255.255.255.0  |
+| Standard-Gateway | 185.223.28.1   |
 
-**Beispiel**
+![image](https://screensaver01.zap-hosting.com/index.php/s/9B7ms2J8nxYzCep/preview)
 
-Wenn ein Dienst beispielsweise die IP-Adresse "185.223.28.163" besitzt, dann würde die Konfiguration wie folgt aussehen: 
+Wenn du fertig bist, drücke **Ok**, um die Änderungen zu übernehmen. Wir empfehlen, den Server neu zu starten, um die Fehlerbehebung abzuschließen.
 
-| Einstellung     | Wert           |
-| --------------- | -------------- |
-| IP-Adresse      | 185.223.28.163 |
-| Subnetzmaske    | 255.255.255.0  |
-| Standardgateway | 185.223.28.1   |
+### DNS Server Einstellungen
 
+Ein weiterer Schritt zur Fehlerbehebung, wenn du weiterhin Probleme mit der Internetnutzung hast, ist sicherzustellen, dass der DNS-Server richtig konfiguriert ist. Du solltest die fehlenden oder vorhandenen DNS-Serverwerte durch einen bekannten Host ersetzen.
 
+Wir empfehlen, entweder die DNS-Server von Google oder Cloudflare zu verwenden, da sie weit verbreitet und zuverlässig sind.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/9B7ms2J8nxYzCep/preview)
+| DNS-Anbieter | DNS-Server-Werte                        |
+| ------------ | --------------------------------------- |
+| Google       | Bevorzugt: 8.8.8.8 / Alternate: 8.8.4.4 |
+| Cloudflare   | Bevorzugt: 1.1.1.1 / Alternate: 1.0.0.1 |
 
+![image](https://screensaver01.zap-hosting.com/index.php/s/frYTimNEFzBjANy/preview)
 
+Wenn du fertig bist, drücke erneut **Ok**, um die Änderungen zu übernehmen. Auch hier empfehlen wir einen Neustart des Servers, um die Fehlersuche abzuschließen.
 
-Klicke im Anschluss auf "Ok", damit die Änderungen übernommen wird. In gewissen Situationen kann es vorkommen, dass zusätzlich ein Neustart des Dienstes notwendig ist, damit die Problembehebung vollständig abgeschlossen werden kann. 
+### Firewall-Einstellungen
 
+Der letzte Schritt zur Fehlerbehebung besteht darin, sicherzustellen, dass die Windows Firewall richtig konfiguriert ist. 
 
+Wir empfehlen, die Windows Firewall vorübergehend komplett zu deaktivieren, um zu sehen, ob die Probleme weiterhin bestehen. Verwende die Suchfunktion von Windows, um **Windows Defender Firewall-Einstellungen** zu öffnen und wähle im linken Bereich die Option **Windows Defender Firewall ein- oder ausschalten**.
 
-### Schritt 2: DNS-Server Einstellungen
+![image](https://screensaver01.zap-hosting.com/index.php/s/kSbpgpkNotFgiXL/preview)
 
-Wenn die Internetverbindung weiterhin nicht funktional ist, dann kann dies ebenfalls auf einen nicht funktionalen DNS-Server zurückzuführen zu sein. Versuche den fehlenden oder bestehenden DNS-Server zu ersetzen, wenn dieser nicht funktional ist. Es stehen verschiedene DNS-Server-Optionen zur Verfügung, darunter beispielsweise die bekannten DNS-Server Lösungen von Google und Cloudflare.  
+Wenn die Probleme behoben sind, wenn die Firewall deaktiviert ist, ist die Ursache deines Problems wahrscheinlich eine Fehlkonfiguration der Firewall.
 
-| DNS-Server | IP-Adresses                            |
-| ---------- | -------------------------------------- |
-| Google     | Bevorzugt: 8.8.8.8 Alternativ: 8.8.4.4 |
-| Cloudflare | Bevorzugt: 1.1.1.1 Alternativ: 1.0.0.1 |
+Die Lösung für die Firewall hängt stark von dem Problem ab, das du hast. Wenn du weitere Hilfe bei der Verwaltung von Firewall-Regeln benötigst, verwende bitte unsere [Windows Port Forwarding Guide](vserver-windows-port.md).
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/frYTimNEFzBjANy/preview)
-
-
-
-Klicke im Anschluss auf "Ok", damit die Änderungen übernommen wird. In gewissen Situationen kann es vorkommen, dass zusätzlich ein Neustart des Dienstes notwendig ist, damit die Problembehebung vollständig abgeschlossen werden kann. 
-
-
-
-### Schritt 3: Firewall Einstellungen 
-
-Eine weitere Möglichkeit für eine fehlende oder fehlerhafte Internetverbindung kann durch eine inkorrekte Konfiguration der Firewall entstehen. Das lässt sich in der Regel schnell durch die temporäre Deaktivierung der Firewall identifizieren. Sollte die Problematik im Anschluss nicht mehr auftreten, so wird eine spezifische Firewall Regel den notwendigen Austausch der Informationen blockieren. 
-
-![img](https://screensaver01.zap-hosting.com/index.php/s/kSbpgpkNotFgiXL/preview)
-
-In dem Fall musst du sicherstellen, dass du die zuletzt vorgenommenen Änderungen im Detail prüft und behebst. Alternativ kannst du die Windows Firewall Regeln auch zurücksetzen, in dem du bei Aktionen auf Standardrichtlinie wiederherstellen klickst. 
-
-
-
+Als letzten Ausweg kannst du auch versuchen, die Regeln der Windows-Firewall vollständig auf die Standardeinstellungen zurückzusetzen, indem du die Option **Standardeinstellungen wiederherstellen** im Menü **Windows Defender Firewall-Einstellungen** verwendest.

@@ -1640,6 +1640,7 @@ const sidebars = {
     },
     'domain-introduction',
     'domain-order',
+    'domain-transfer',
     'domain-easydns',
     'domain-profidns',
     'domain-expertdns',

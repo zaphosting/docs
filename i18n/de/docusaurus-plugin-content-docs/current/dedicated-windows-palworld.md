@@ -117,6 +117,35 @@ Dort findest du die Konfigurationsdatei **PalWorldSettings.ini**. Über diese Da
 Wenn du diese Datei nicht siehst, starte deinen Server bitte mindestens **einmal**, damit sie automatisch erstellt wird. Alternativ kannst du auch die Standardeinstellungen aus dem Pfad `steamapps/common/PalServer/DefaultPalWorldSettings.ini` kopieren und verwenden.
 :::
 
+### Xbox-Modus aktivieren
+
+Die Palworld Dedicated Server können jetzt als Microsoft Store/Xbox Dedicated Server umgestellt werden, damit Xbox-Spieler und Microsoft Store PC-Spieler gemeinsam auf ihrem eigenen Server spielen können.
+
+:::note
+Cross-Play zwischen Steam & Microsoft Store/Xbox Spielversionen ist immer noch nicht möglich. Dein Server kann entweder für Steam oder für Microsoft Store/Xbox eingestellt werden.
+:::
+
+Navigiere in das folgende Verzeichnis und öffne die Datei **PalWorldSettings.ini**:
+```
+../steamapps/common/PalServer/Pal/Saved/Config/WindowsServer/PalWorldSettings.ini
+```
+
+Füge in diese Datei den folgenden Abschnitt ein, um den Xbox-Modus zu aktivieren:
+```
+[/Script/Pal.PalGameWorldSettings]
+OptionSettings=(AllowConnectPlatform=Xbox)
+```
+
+Speichere die Datei und das nächste Mal, wenn du den Server startest, wird er im Xbox-Modus sein.
+
+:::info
+Auf Xbox-Konsolen kannst du dich nicht direkt über die IP-Adresse verbinden. Wenn du also auf Xbox-Konsolen spielen willst, musst du deinen dedizierten Server öffentlich machen.
+
+Dazu erstellst du eine neue Datei `StartServer.bat` im Hauptverzeichnis und füllst sie mit: `PalServer.exe -publiclobby`. Das spezielle Startflag `-publiclobby` aktiviert den Community Server Modus und macht ihn in der Serverliste zugänglich.
+
+Du solltest auch einen Servernamen festlegen, der leicht gefunden werden kann. Wie das geht, kannst du in unserer [Palworld Server Configuration guide](palworld-configuration.md) nachlesen.
+:::
+
 ## Starten und Verbinden mit deinem Server
 
 Jetzt ist es an der Zeit, deinen Server zu starten. Möglicherweise musst du [DirectX Runtime](https://www.microsoft.com/en-gb/download/details.aspx?id=35) installieren, wenn du es nicht bereits auf deinem Windows VPS hast.
