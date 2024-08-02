@@ -29,7 +29,7 @@ Es gibt zu diesem Problem auch verschiedene Spieleentwickler, die sich dazu √§u√
 
 ![image](https://user-images.githubusercontent.com/26007280/189939694-fb34c990-8386-4591-a09f-9283b2586fd8.png)
 
-Quelle: https://twitter.com/garrynewman/status/1334446218437681152?s=20
+Quelle: https://x.com/garrynewman/status/1334446218437681152?s=20
 
 Oder auch Rust, wie sie in Ihrem Blog schreiben:
 

@@ -17,7 +17,7 @@ Bevor Pakete installiert werden können, muss der [FTP-Zugang](gameserver-ftpacc
 
 ![image](https://user-images.githubusercontent.com/13604413/159178012-0172691b-d49f-49d6-ab34-cc01eadbacf5.png)
 
-## RageMP Pakete
+## RAGE Multiplayer Pakete
 
 Bei RageMP Paketen handelt es sich um Erweiterungen oder auch Modifikationen. 
 RageMP unterscheidet hierbei zwischen "**Client**" und "**Server**" Paketen

@@ -1,6 +1,6 @@
 ---
 id: arma3-serverconfig
-title: "ArmA 3: Serverkonfigurationsdatei bearbeiten"
+title: "Arma 3: Serverkonfigurationsdatei bearbeiten"
 description: Informationen zu den Einstellungen und Konfigurationsmöglichkeiten der server.cfg-Datei deines Arma-3 Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Server.cfg
 services:
@@ -11,8 +11,8 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Server.cfg Parameter und Konfiguration
 
-Die Server.cfg von ArmA 3 wird für den Betrieb eines jeden ArmA 3 Servers benötigt und bietet eine Vielzahl von 
-Möglichkeit einen ArmA 3 Server individuell zu konfigurieren.
+Die Server.cfg von Arma 3 wird für den Betrieb eines jeden Arma 3 Servers benötigt und bietet eine Vielzahl von 
+Möglichkeit einen Arma 3 Server individuell zu konfigurieren.
 
 Editiert wird die Server.cfg entweder direkt über FTP auf einem vorinstallierten Gameserver, Rootserver oder vServer. 
 Bei einem Gameserver steht zudem der Menüpunkt Configs auf der linken Seite im Gameserverinterface zur Verfügung, von dort kann die
@@ -22,18 +22,18 @@ Server.cfg mit wenigen Klicks bearbeitet werden.
 
 ## Bearbeiten der Server.cfg über den ZAP-Editor
 
-Um die Server.cfg deines ArmA 3 Servers im ZAP-Editor zu bearbeiten klickst du zuerst auf deinen Server im Interface und wählst dort anschließend im Menü auf der linken Seite unter "Einstellungen" den Unterpunkt "Configs" aus. 
+Um die Server.cfg deines Arma 3 Servers im ZAP-Editor zu bearbeiten klickst du zuerst auf deinen Server im Interface und wählst dort anschließend im Menü auf der linken Seite unter "Einstellungen" den Unterpunkt "Configs" aus. 
 
 ![](https://puu.sh/Fk7Ck/9b2d95185f.png)
 
 
-Dort siehst du nun eine Liste der für ArmA 3 verfügbaren Configurationsdateien, wir bearbeiten nun ausschließlich die Server.cfg. 
+Dort siehst du nun eine Liste der für Arma 3 verfügbaren Configurationsdateien, wir bearbeiten nun ausschließlich die Server.cfg. 
 Durch einen Klick auf den blauen Button "Datei öffnen" gelangst du in den ZAP-Editor. 
 
 ![](https://puu.sh/Fk7Ez/b0f32d8c61.png)
 
 
-Dort hast du nun die Möglichkeit deinen ArmA 3 Server individuell zu konfigurieren, unter anderem auch den Servernamen und die Anzahl der Slots. Du kannst die Einstellungen beliebig anpassen und klickst im Anschluss auf "Speichern".
+Dort hast du nun die Möglichkeit deinen Arma 3 Server individuell zu konfigurieren, unter anderem auch den Servernamen und die Anzahl der Slots. Du kannst die Einstellungen beliebig anpassen und klickst im Anschluss auf "Speichern".
 
 ![](https://puu.sh/Fk7I1/407a039e38.png)
 
@@ -79,7 +79,7 @@ einen Gameserver besitzt.
 
 ![](https://puu.sh/Fo4Tw/06f7a53914.png)
 
-Im Verzeichnis angekommen findest du die Server.cfg deines ArmA 3 Servers so wie weitere vorhandene Konfigurationsdateien.
+Im Verzeichnis angekommen findest du die Server.cfg deines Arma 3 Servers so wie weitere vorhandene Konfigurationsdateien.
 Nun kannst du einen **Rechtsklick** auf die Server.cfg ausführen und auf **Ansehen/Bearbeiten** klicken.
 
 ![](https://puu.sh/Fo4Yd/f12db2fbe6.png)

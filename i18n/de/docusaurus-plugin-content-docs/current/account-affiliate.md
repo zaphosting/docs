@@ -95,7 +95,7 @@ Wir bieten derzeit nur Auszahlungen in Echtgeld über PayPal an. Um eine Auszahl
 
 Rufe den [PayPal Invoice Creator](https://www.paypal.com/invoice/create?fromWidget=newuser) auf und fülle die Rechnung entsprechend aus:
 
-- Gib unsere Unternehmensdaten als Empfänger an: `ZAP-Hosting GmbH & Co. KG, Hafenweg 8, 48155 Münster, Deutschland`
+- Gib unsere Unternehmensdaten als Empfänger an: `ZAP-Hosting GmbH, Hafenweg 8, 48155 Münster, Deutschland`
 - Die Beschreibung muss enthalten: `ZAP Affiliate Payout [deine_zapid]`
 - Die Rechnung muss gesendet werden an: `m.kluck@zap-hosting.com`
 
