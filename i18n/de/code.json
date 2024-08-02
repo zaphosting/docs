@@ -404,7 +404,7 @@
     "description": "Product name for the voicebot product"
   },
   "service.voicebot.path": {
-    "message": "{marketingSite}/{language}/teamspeak-3-server-hosting/",
+    "message": "{marketingSite}/{language}/teamspeak-3-mymusicbot-mieten/",
     "description": "URL path for the voicebot product"
   },
   "service.storage.title": {
