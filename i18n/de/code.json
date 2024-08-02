@@ -364,7 +364,7 @@
     "description": "Product name for the gameserver product"
   },
   "service.vserver.path": {
-    "message": "{marketingSite}/{language}/vps-hosting/",
+    "message": "{marketingSite}/{language}/vserver-mieten/",
     "description": "URL path for the VPS product"
   },
   "service.dedicated.title": {
@@ -372,7 +372,7 @@
     "description": "Product name for the dedicated server product"
   },
   "service.dedicated.path": {
-    "message": "{marketingSite}/{language}/dedicated-server-hosting/",
+    "message": "{marketingSite}/{language}/dedicated-server-mieten/",
     "description": "URL path for the dedicated server product"
   },
   "service.domain.title": {
@@ -388,7 +388,7 @@
     "description": "Product name for the webspace product"
   },
   "service.webspace.path": {
-    "message": "{marketingSite}/{language}/webhosting-rent-a-webspace/",
+    "message": "{marketingSite}/{language}/webhosting-webspace-mieten/",
     "description": "URL path for the webspace product"
   },
   "service.voiceserver.title": {
@@ -396,7 +396,7 @@
     "description": "Product name for the voiceserver product"
   },
   "service.voiceserver.path": {
-    "message": "{marketingSite}/{language}/teamspeak-3-server-hosting/",
+    "message": "{marketingSite}/{language}/teamspeak-3-server-mieten/",
     "description": "URL path for the voiceserver product"
   },
   "service.voicebot.title": {
