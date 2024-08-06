@@ -360,7 +360,7 @@ const config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} ZAP-Hosting GmbH & Co. KG`,
+      copyright: `Copyright © ${new Date().getFullYear()} ZAP-Hosting GmbH`,
     },
     // announcementBar: {
     //   id: 'support_us',

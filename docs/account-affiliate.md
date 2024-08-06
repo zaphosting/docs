@@ -85,7 +85,7 @@ Now follow the appropriate section below to transfer to either currency.
 Once you have your credits transferred into ZAP Coins, you can no longer cash out them out!
 :::
 
-On the menu prompt, select **ZAP credit balance** as the option. Choose whether you wish to transfer the entire balance or only a specific part of it. Once ready, simply press the green **Transfer** button to confirm.
+On the menu prompt, select **ZAP Coin balance** as the option. Choose whether you wish to transfer the entire balance or only a specific part of it. Once ready, simply press the green **Transfer** button to confirm.
 
 ![image](https://screensaver01.zap-hosting.com/index.php/s/HyCXmc2KzqSY4yL/preview)
 
@@ -95,7 +95,7 @@ We currently only offer payouts into real money via PayPal. In order to payout v
 
 Head over to the [PayPal Invoice Creator](https://www.paypal.com/invoice/create?fromWidget=newuser) and fill in the invoice as appropriate:
 
-- Fill in our company information as the recipient: `ZAP-Hosting GmbH & Co. KG, Hafenweg 8, 48155 Münster, Deutschland`
+- Fill in our company information as the recipient: `ZAP-Hosting GmbH, Hafenweg 8, 48155 Münster, Deutschland`
 - Description must include: `ZAP Affiliate Payout [your_zapid]`
 - Invoice must be sent to: `m.kluck@zap-hosting.com`
 

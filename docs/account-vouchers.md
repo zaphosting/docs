@@ -17,11 +17,11 @@ To begin, you should login or register on our website in order to be able to use
 As soon as you are logged in, you will automatically land in your webinterface. In order to be able to use a code, you should first find out what kind of code you want to redeem.
 
 There are two different types of coupon codes:
-- Codes that increase your ZAP credit (**voucher codes**)
+- Codes that increase your ZAP Coins (**voucher codes**)
 - Codes that reduce the price of an order (**discount codes**)
 
-## Voucher Credit codes
-Voucher credit codes can be redeemed very easily through your webinterface panel. Simply head over to your **Cashbox** by pressing the ZAP Coins text at the top of your web interface.
+## Voucher ZAP Coin codes
+Voucher ZAP coin codes can be redeemed very easily through your webinterface panel. Simply head over to your **Cashbox** by pressing the ZAP Coins text at the top of your web interface.
 
 ![image](https://github.com/zaphosting/docs/assets/42719082/e436f9d9-ad85-482a-90fa-03fe6cd6836e)
 

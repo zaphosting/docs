@@ -29,7 +29,7 @@ There are also various game developers who have commented on this problem. For e
 
 ![image](https://user-images.githubusercontent.com/26007280/189939842-4de687c2-b26e-4120-93fd-56a6f87a8d07.png)
 
-Source: https://twitter.com/garrynewman/status/1334446218437681152?s=20
+Source: https://x.com/garrynewman/status/1334446218437681152?s=20
 
 Or even Rust, as they write in their blog:
 

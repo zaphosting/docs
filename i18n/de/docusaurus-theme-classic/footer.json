@@ -68,7 +68,7 @@
     "description": "The label of footer link with label=Security linking to https://zap-hosting.com/en/security/"
   },
   "copyright": {
-    "message": "Copyright © 2024 ZAP-Hosting GmbH & Co. KG",
+    "message": "Copyright © 2024 ZAP-Hosting GmbH",
     "description": "The footer copyright"
   },
   "link.item.label.Rent a RootServer": {

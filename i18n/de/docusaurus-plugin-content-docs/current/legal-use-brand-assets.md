@@ -114,5 +114,5 @@ Bei nicht genehmigten veröffentlichten Inhalten dieser Art behalten wir uns das
 
 ZAP-Hosting behält sich das Recht vor, das Erscheinungsbild der ZAP-Hosting Brand Assets jederzeit und ohne vorherige Ankündigung zu ändern. Jegliche Nutzung der ZAP-Hosting Marken-Assets muss zum Nutzen von ZAP-Hosting erfolgen. Durch die von ZAP-Hosting genehmigte Nutzung der Marken-Assets erkennst du das Eigentum von ZAP-Hosting an allen Marken-Assets an und garantieren, dass du keine Handlungen vornehmen wirst, die mit dem Eigentum von ZAP-Hosting unvereinbar sind. Die strikte Einhaltung dieser Richtlinien ist jederzeit erforderlich, und jede Verwendung der geschützten Grafiken und Logos von ZAP-Hosting, die gegen diese Richtlinien verstößt, führt automatisch zur Beendigung jeglicher Lizenz und Erlaubnis in Bezug auf Ihre Verwendung der Markenwerte von ZAP-Hosting.
 
-"ZAP-Hosting", ZAP-Hosting.com und das ZAP-Hosting-Logo sind Marken der ZAP-Hosting GmbH & Co. KG .
+"ZAP-Hosting", ZAP-Hosting.com und das ZAP-Hosting-Logo sind Marken der ZAP-Hosting GmbH.
 Rechtsgrundlage gemäß [Impressum](https://zap-hosting.com/en/impressum/).

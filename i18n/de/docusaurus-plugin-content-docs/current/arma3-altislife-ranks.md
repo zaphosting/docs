@@ -1,6 +1,6 @@
 ---
 id: arma3-altislife-ranks
-title: "ArmA 3: Ränge bei einem Altis Life Server hinzufügen"
+title: "Arma 3: Ränge bei einem Altis Life Server hinzufügen"
 description: Informationen, wie du Ränge auf deinem Altis Life-Server von ZAP-Hosting hinzufügen kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Altis Life Ränge
 services:
@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-In ArmA 3 gibt es verschiedene Ränge, welche einem Spieler zugewiesen werden können. Hierzu gehören Cop, Medic so wie die verschiedenen Admin-Ränge.
+In Arma 3 gibt es verschiedene Ränge, welche einem Spieler zugewiesen werden können. Hierzu gehören Cop, Medic so wie die verschiedenen Admin-Ränge.
 Je nach Server kann es noch weitere Ränge geben, wenn zum Beispiel eine neue Fraktion oder ein Beruf eingebaut wurde.
 Im Folgenden lernst du wie du die Ränge für Cop's, Medic's und Administratoren im Spiel vergibst, geschehen tut dies immer mithilfe der Datenbank innerhalb der Tabelle **players**.
 

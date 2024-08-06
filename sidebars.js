@@ -475,7 +475,7 @@ const sidebars = {
     },
     {
       type: "category",
-      label: "ArmA 3",
+      label: "Arma 3",
       items: [
         {
           type: "category",

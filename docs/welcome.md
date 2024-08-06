@@ -29,7 +29,7 @@ Perfect and utilize the full extent of your game server. With our expertise, we 
     <Card title="American Truck Simulator" description="Placeholder" link="trucksim-dlc" image="https://cdn.cloudflare.steamstatic.com/steam/apps/270880/header.jpg?t=1707218064"/>
     <Card title="Among Us" description="Placeholder" link="amongus-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/945360/header.jpg?t=1698860631"/>
     <Card title="ARK" description="Placeholder" link="ark-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/346110/header.jpg?t=1698860631"/>
-    <Card title="ArmA 3" description="Placeholder" link="arma3-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/107410/header.jpg?t=1698860631"/>
+    <Card title="Arma 3" description="Placeholder" link="arma3-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/107410/header.jpg?t=1698860631"/>
     <Card title="Assetto Corsa" description="Placeholder" link="assettocorsa-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/244210/header.jpg?t=1698860631"/>
     <Card title="Assetto Corsa (Comp.)" description="Placeholder" link="assetto-competizione-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/805550/header.jpg?t=1698860631"/>
     <Card title="Avorion" description="Placeholder" link="avorion-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/445220/header.jpg?t=1698860631"/>
