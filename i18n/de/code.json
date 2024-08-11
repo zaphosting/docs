@@ -21,7 +21,7 @@
     "message": "JUHUUU!"
   },
   "inlinevoucher.title": {
-    "message": "{voucherValue} {voucherType} GUTSCHEIN-CODE 🏷️"
+    "message": "{voucherValue} {voucherType} HOSTING-GUTSCHEIN 🏷️"
   },
   "inlinevoucher.description.with-products": {
     "message": "Starklar mit den Produkten aus der Anleitung 😉"
@@ -36,7 +36,7 @@
     "message": "Einlösen"
   },
   "voucherbox.title": {
-    "message": "GUTSCHEIN-CODE"
+    "message": "HOSTING-GUTSCHEIN"
   },
   "servicelist.introduction": {
     "message": "Die Anleitung wurde mit folgenden Produkten erstellt:"
