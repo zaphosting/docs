@@ -15,7 +15,7 @@ Mastodon ist ein verteilter Mikroblogging-Dienst, der seit 2016 von Eugen Rochko
 
 ![image](https://user-images.githubusercontent.com/32127408/207198152-fa6ca1e6-b845-4fd8-83d9-cc4a8fb91f9f.png)
 
-Im Gegensatz zu großen vergleichbaren Diensten wie Twitter ist Mastodon als dezentrales Netzwerk konzipiert, das nicht auf einer Plattform basiert:
+Im Gegensatz zu großen vergleichbaren Diensten wie X (formerly Twitter) ist Mastodon als dezentrales Netzwerk konzipiert, das nicht auf einer Plattform basiert:
 Verschiedene Server, von Privatpersonen, Vereinen oder sonstigen Stellen eigenverantwortlich betrieben, können miteinander interagieren.
 :::info
 Diese Anleitung basiert auf einem auf Debian basierten Betriebssystem. Diese Anleitung varriert je nach Betriebssystem.

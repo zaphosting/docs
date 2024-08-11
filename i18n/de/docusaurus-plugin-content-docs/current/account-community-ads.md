@@ -68,7 +68,7 @@ Wir bieten derzeit nur Auszahlungen in Echtgeld über PayPal an. Um eine Auszahl
 
 Rufen dazu den [PayPal Invoice Creator] (https://www.paypal.com/invoice/create?fromWidget=newuser) auf und füllen die Rechnung entsprechend aus:
 
-- Trage dazu als Empfänger unsere Unternehmensdaten ein: "ZAP-Hosting GmbH & Co. KG, Hafenweg 8, 48155 Münster, Deutschland`
+- Trage dazu als Empfänger unsere Unternehmensdaten ein: "ZAP-Hosting GmbH, Hafenweg 8, 48155 Münster, Deutschland`
 - Die Beschreibung muss enthalten: `zap community ads payout <Kunden-ID>`
 - Die Rechnung muss gesendet werden an: `m.kluck@zap-hosting.com`
 

@@ -63,7 +63,7 @@ export default function InlineVoucher({ showProducts = true }): JSX.Element {
                           voucherType: voucher.type,
                           voucherValue: voucher.value,
                         }}>
-                            {'{voucherValue} {voucherType} Hosting Voucher 🏷️'}
+                            {'{voucherValue} {voucherType} HOSTING DISCOUNT 🏷️'}
                         </Translate>
                     </span>
                     {canDisplayProducts === true &&
@@ -188,7 +188,7 @@ export default function InlineVoucher({ showProducts = true }): JSX.Element {
                       <div className={styles.voucherCard}>
                         <span className={styles.voucherLabel}>
                           <Translate id="inlinevoucher.your-voucher">
-                            YOUR voucher
+                            YOUR CODE
                           </Translate>
                         </span>
                         <div className={styles.mbhuge}>

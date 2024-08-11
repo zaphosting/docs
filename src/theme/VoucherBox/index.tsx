@@ -82,7 +82,7 @@ export default function VoucherBox() {
               </span>
               <span className={styles.voucherLabel}>
                   <Translate id="voucherbox.title">
-                      Hosting Voucher
+                      HOSTING DISCOUNT
                   </Translate>
               </span>
                 <div className={styles.mtsmall}>

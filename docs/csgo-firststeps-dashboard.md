@@ -75,13 +75,13 @@ These customization options allow you to adjust the DDoS protection to your indi
 
 ### Tebex Shop
 
-With TEBEX you have the possibility to turn your game server into cash by selling virtual goods and ranks for real money. It's a powerful and reliable tool designed specifically for game server administrators who want to offer a better gaming experience to their players.
+With Tebex you have the possibility to turn your game server into cash by selling virtual goods and ranks for real money. It's a powerful and reliable tool designed specifically for game server administrators who want to offer a better gaming experience to their players.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/TbwafKd3Kmq4WrS/preview)
 
-TEBEX is easy to use and offers numerous features to customize and optimize your store. You can customize your store layout, add payment options, and even launch marketing campaigns to reach more players.
+Tebex is easy to use and offers numerous features to customize and optimize your store. You can customize your store layout, add payment options, and even launch marketing campaigns to reach more players.
 
-By clicking on the image, you can create your own game server store with TEBEX. The setup is quick and easy, so you'll be ready to sell your virtual goods in no time.
+By clicking on the image, you can create your own game server store with Tebex. The setup is quick and easy, so you'll be ready to sell your virtual goods in no time.
 
 
 

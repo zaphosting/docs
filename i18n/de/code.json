@@ -21,7 +21,7 @@
     "message": "JUHUUU!"
   },
   "inlinevoucher.title": {
-    "message": "{voucherValue} {voucherType} Hosting-Gutschein 🏷️"
+    "message": "{voucherValue} {voucherType} HOSTING-GUTSCHEIN 🏷️"
   },
   "inlinevoucher.description.with-products": {
     "message": "Starklar mit den Produkten aus der Anleitung 😉"
@@ -30,13 +30,13 @@
     "message": "Somit unter anderem gültig für:"
   },
   "inlinevoucher.your-voucher": {
-    "message": "Dein Gutschein"
+    "message": "DEIN CODE"
   },
   "voucher.redeem": {
     "message": "Einlösen"
   },
   "voucherbox.title": {
-    "message": "Hosting-Gutschein"
+    "message": "HOSTING-GUTSCHEIN"
   },
   "servicelist.introduction": {
     "message": "Die Anleitung wurde mit folgenden Produkten erstellt:"

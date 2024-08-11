@@ -99,9 +99,9 @@
     "message": "Garry's Mod",
     "description": "The label for category Garry's Mod in sidebar gameserverSidebar"
   },
-  "sidebar.gameserverSidebar.category.ArmA 3": {
-    "message": "ArmA 3",
-    "description": "The label for category ArmA 3 in sidebar gameserverSidebar"
+  "sidebar.gameserverSidebar.category.Arma 3": {
+    "message": "Arma 3",
+    "description": "The label for category Arma 3 in sidebar gameserverSidebar"
   },
   "sidebar.gameserverSidebar.category.ARK": {
     "message": "ARK",

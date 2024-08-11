@@ -1,7 +1,7 @@
 ---
 id: ragemp-firststeps-dashboard
 title: "RageMP: Dashboard Overview"
-description: Information about the dashboard of an RageMP server from ZAP-Hosting - ZAP-Hosting.com Documentation
+description: Information about the dashboard of an RAGE Multiplayer server from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Dashboard
 services:
   - gameserver
@@ -11,9 +11,9 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
-You are interested in an **RageMP server** or already own one, but you still lack a comprehensive overview of the administration and the findability of all necessary options? Especially at the beginning, this can be a challenge. But don't worry, we'll provide you with a detailed introduction to the administration of your service below, so you'll have the best possible overview.
+You are interested in an **RAGE Multiplayer server** or already own one, but you still lack a comprehensive overview of the administration and the findability of all necessary options? Especially at the beginning, this can be a challenge. But don't worry, we'll provide you with a detailed introduction to the administration of your service below, so you'll have the best possible overview.
 
-After going through this guide, you will easily be able to manage your server efficiently and find all the necessary options and features quickly and easily. Here, you will get a structured overview that will help you step by step to get familiar with the server administration and expand your knowledge in a targeted manner. This way, you can ensure that your **RageMP server** is optimally adapted to your needs and that you get the most out of the available options.
+After going through this guide, you will easily be able to manage your server efficiently and find all the necessary options and features quickly and easily. Here, you will get a structured overview that will help you step by step to get familiar with the server administration and expand your knowledge in a targeted manner. This way, you can ensure that your **RAGE Multiplayer server** is optimally adapted to your needs and that you get the most out of the available options.
 
 <InlineVoucher />
 

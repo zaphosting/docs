@@ -79,8 +79,8 @@ Ensure that you include both your ZAP ID and the ticket ID for the PayPal confir
 
 You will have to use [PayPal Invoice Creator](https://www.paypal.com/invoice/create?fromWidget=newuser) and fill it out as appropriate:
 
-- Fill in our company information as the recipient: `ZAP-Hosting GmbH & Co. KG, Hafenweg 8, 48155 Münster, Deutschland`
+- Fill in our company information as the recipient: `ZAP-Hosting GmbH, Hafenweg 8, 48155 Münster, Deutschland`
 - Description must include both your ZAP ID and the ticket ID for your payout confirmation ticket, as following: `Contribution Program Payout: Ticket #[yourticket_id], [your_zapid]`
 - Invoice must be sent to: `m.kluck@zap-hosting.com`
 
-Once the payout occurs, you agree to transfer all exclusive intellectual property rights of your creation to ZAP-Hosting GmbH & Co KG. This transfer is confirmed once you have received your payment and is listed in our Terms of Service (TOS) which you accepted during the suggestion phase of your contribution.
+Once the payout occurs, you agree to transfer all exclusive intellectual property rights of your creation to ZAP-Hosting GmbH. This transfer is confirmed once you have received your payment and is listed in our Terms of Service (TOS) which you accepted during the suggestion phase of your contribution.
