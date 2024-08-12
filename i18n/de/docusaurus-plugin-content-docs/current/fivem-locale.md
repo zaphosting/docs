@@ -3,9 +3,11 @@ id: fivem-locale
 title: "FiveM: Sprache / Standort (Flagge) ändern"
 description: Informationen, wie du die Sprache und den Standort (Flagge) bei einem FiveM Server anpassen kannst. - ZAP-Hosting.com Dokumentation
 sidebar_label: Sprache / Standort (Flagge)
+services:
+  - gameserver
 ---
 
-
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
@@ -13,7 +15,7 @@ FiveM Server können in verschiedenen Sprachen angezeigt werden. Das gilt sowohl
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/FJZc7pJmppG28mX/preview)
 
-
+<InlineVoucher />
 
 ## Konfiguration
 

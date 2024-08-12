@@ -1,10 +1,13 @@
 ---
 id: arma3-missionfile
-title: "ArmA 3: Eigene Missionsdatei hochladen"
+title: "Arma 3: Eigene Missionsdatei hochladen"
 description: Information, wie du eine eigene Missionsdatei bei deinem Arma 3 Server von ZAP-Hosting hinzufügen kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Eigene Missionsdatei hochladen
+services:
+  - gameserver
 ---
 
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Hochladen der Missionsdatei
 
@@ -14,10 +17,11 @@ In diesem Beispiel laden wir die Missionsdatei **King_of_the_hill.Altis** auf un
 
 ![image](https://user-images.githubusercontent.com/26007280/189677600-bbe00c3a-0be6-4c2f-9bf5-eeb166b3c4dc.png)
 
+<InlineVoucher />
 
 ## Laden der Missionsdatei auf dem Server
 
-Damit die Missionsdatei nun vom Server geladen wird, begibst du dich in dein ArmA 3 Serverinterface und klickst links im Menü auf den Tab **Configs**:
+Damit die Missionsdatei nun vom Server geladen wird, begibst du dich in dein Arma 3 Serverinterface und klickst links im Menü auf den Tab **Configs**:
 
 ![image](https://user-images.githubusercontent.com/26007280/189677626-8f5acdde-5f0e-4ea5-8d5d-c02282e72f9e.png)
 

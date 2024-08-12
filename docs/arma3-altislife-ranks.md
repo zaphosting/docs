@@ -1,14 +1,17 @@
 ---
 id: arma3-altislife-ranks
-title: "ArmA 3: Adding ranks to an Altis Life server"
+title: "Arma 3: Adding ranks to an Altis Life server"
 description: Information on how to add ranks to your Altis Life server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Altis Life Ranks
+services:
+  - gameserver
 ---
 
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
-## Ranks in ArmA 3: Altis Life
+## Introduction
 
-In ArmA 3 there are different ranks which can be assigned to a player. These include Cop, Medic and the different Admin ranks.
+In Arma 3 there are different ranks which can be assigned to a player. These include Cop, Medic and the different Admin ranks.
 Depending on the server, there can be other ranks if for example a new faction or profession is added.
 In the following you will learn how to assign the ranks for Cop's, Medic's and Administrators in the game, always using the database within the table **players**.
 
@@ -16,6 +19,7 @@ In the following you will learn how to assign the ranks for Cop's, Medic's and A
 IMPORTANT: To find the name of the player in the database you have to connect to the server at least once!
 :::
 
+<InlineVoucher />
 
 ## Opening the database
 

@@ -3,11 +3,15 @@ id: scpservermod-uploadplugins
 title: "SCP Secret Laboratory: Installing plugins on server"
 description: Information on how to install plugins on your SCP ServerMod server from ZAP-Hosting.com - ZAP-Hosting.com documentation
 sidebar_label: Install Plugins
+services:
+  - gameserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 :::caution The game SCP: Secret Laboratory with the **Servermod extension** is currently no longer actively offered in our store for the time being due to lack of compatibility. We recommend to switch to **[SCP:EXILED](https://zap-hosting.com/guides/docs/exiled-plugins)** instead. This documentation page will remain up for the time being.  :::
 
-
+<InlineVoucher />
 
 ## Connect to FTP
 

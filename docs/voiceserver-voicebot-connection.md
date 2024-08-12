@@ -3,8 +3,13 @@ id: voiceserver-voicebot-connection
 title: "Voiceserver: Link your Voiceserver with your Voicebot"
 description: Information on how to link your voicebot to a Teamspeak/Discord server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Link to voice server
+services:
+  - voiceserver
 ---
 
+import InlineVoucher from '@site/src/components/InlineVoucher';
+
+<InlineVoucher />
 
 ## Connecting the bot to your TeamSpeak
 

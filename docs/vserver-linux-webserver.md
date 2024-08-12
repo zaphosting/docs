@@ -3,12 +3,16 @@ id: vserver-linux-webserver
 title: "VPS: Installation of Nginx and Apache webserver"
 description: Information on how to install Nginx and Apache web servers on your Linx VPS from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Install webserver
+services:
+  - vserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
 Nginx and Apache are popular web services that are used to deliver web pages to a user's browser. Below we will show you how to install one of the services on your system. 
-
+<InlineVoucher />
 
 
 ## Preparation

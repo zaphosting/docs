@@ -3,7 +3,14 @@ id: fivem-esx-addcarstoshop
 title: "FiveM: Adding cars to the shop"
 description: Information on how to add cars to the shop on your FiveM server with ESX from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Add Cars to Dealership
+services:
+  - gameserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
+
+<InlineVoucher />
+
 ## Access to the database
 
 First of all we have to connect to our database. We do this under the tab "Databases"

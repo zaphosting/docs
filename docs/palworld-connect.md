@@ -3,15 +3,24 @@ id: palworld-connect
 title: "Palworld: Connect to Palworld Server"
 description: Information about connecting to a Palworld server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Connect to Server
+services:
+  - gameserver
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
 In this guide, we will explore how to connect to your Palworld server. We recommend configurating the server to your likings beforehand, learn more about this through our [Palworld Configuration guide](palworld-configuration.md).
 
+:::tip
+We have a separate **Palword (Xbox)** game version now available on our Gameservers, which allows you to play on Xbox/Microsoft Store game versions. Check out our [Game server Switch guide](gameserver-gameswitch.md) to learn how to easily switch your game. Make sure to backup your saves as always.
+:::
+
 <YouTube videoId="SDZC4-FEdNM" title="Setup Palworld server in just a MINUTE!" description="Feel like you understand better when you see things in action?  We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
+
+<InlineVoucher />
 
 ## Obtaining Server IP
 

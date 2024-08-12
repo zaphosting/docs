@@ -3,7 +3,13 @@ id: fivem-mods-installreplace
 title: "FiveM: Install Replacement Carmods on server"
 description: Information on how to install Replacement Carmods on your FiveM server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Install Replace Carmods
+services:
+  - gameserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
+
+<InlineVoucher />
 
 ## Connect with FTP
 First you should connect to your server via FTP, you can use our [FTP-Tutorial](gameserver-ftpaccess.md).

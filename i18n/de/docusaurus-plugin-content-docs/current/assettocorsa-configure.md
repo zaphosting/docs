@@ -3,7 +3,13 @@ id: assettocorsa-configure
 title: Server konfigurieren
 description: Informationen zu den Konfigurationsoptionen deines Assetto Corsa-Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Server konfigurieren
+services:
+  - gameserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
+
+<InlineVoucher />
 
 ## Mit FTP verbinden
 

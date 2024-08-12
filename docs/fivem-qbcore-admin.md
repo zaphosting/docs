@@ -3,9 +3,18 @@ id: fivem-qbcore-admin
 title: "FiveM: QBCore Server Become admin"
 description: Information on how to become admin on your FiveM QBCore server. - ZAP-Hosting.com documentation
 sidebar_label: Become admin
+services:
+  - gameserver
 ---
 
-## Become an admin
+import InlineVoucher from '@site/src/components/InlineVoucher';
+
+## Introduction
+The assignment of administrator permissions allows you simple and comprehensive administration with full control of your server. As an administrator, you have the option of using all available options and functions provided by the game directly in the game. All the steps you need to take to assign administrator permissions for your server will be described below. 
+
+<InlineVoucher />
+
+## Configuration
 
 Thanks to our web interface you can quickly and easily become an admin.
 Open the settings of your server:

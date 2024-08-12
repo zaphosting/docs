@@ -3,9 +3,13 @@ id: unturned-firststeps-dashboard
 title: "Unturned: Dashboard Overview"
 description: Information about the dashboard of an Unturned server from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Dashboard
+services:
+  - gameserver
 ---
 
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
+<InlineVoucher />
 
 ## Introduction
 
@@ -180,7 +184,9 @@ Do you want to schedule server restarts at specific times? The Restart Planner a
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/Y6WciDS7YP98P4m/preview)
 
-
+### DNS settings
+With the ZAP DNS settings, you can create easy-to-remember addresses for your service. You can either use a subdomain of one of our domains or you can create a DNS entry on your own domains and thus have an address that can be better associated with you as a person.
+![img](https://screensaver01.zap-hosting.com/index.php/s/tM5FGTHRSbZA5rN/preview)
 
 ## Tools
 

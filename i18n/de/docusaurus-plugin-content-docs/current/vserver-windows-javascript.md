@@ -3,12 +3,17 @@ id: vserver-windows-javascript
 title: 'vServer: Installation von JavaScript'
 description: Informationen darüber, wie man JavaScript auf deinem Windows-Server von ZAP-Hosting.com installiert -  ZAP-Hosting.com Dokumentation
 sidebar_label: JavaScript installieren
+services:
+  - vserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
 Diese Anleitung liefert Schritte zur Installation von Node.js, Deno und Bun unter Windows. Die unten aufgeführten Schritte müssen über RDP ausgeführt werden. Wenn du nicht weißt, wie man sich über RDP mit deinem Server verbindet, schau dir bitte unseren [Erstzugriff (RDP)](vserver-windows-userdp.md) Anleitung an.
 
+<InlineVoucher />
 
 ## Installation
 

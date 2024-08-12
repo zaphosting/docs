@@ -3,12 +3,18 @@ id: eco-becomeadmin
 title: "ECO: Become an Admin"
 description: Information on how to become an admin on your ECO server at ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Become admin
+services:
+  - gameserver
 ---
 
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
-## 🔑 Become Admin
+## Introduction
+The assignment of administrator permissions allows you simple and comprehensive administration with full control of your server. As an administrator, you have the option of using all available options and functions provided by the game directly in the game. All the steps you need to take to assign administrator permissions for your server will be described below. 
+<InlineVoucher />
 
-Administrator rights allow you to make changes directly in the game on your server without having to change it in the Config. Adding an admin is done via the **Users.eco** Config, which you can find in the interface under Configs.
+## Configuration
+Adding an admin is done via the **Users.eco** Config, which you can find in the interface under Configs.
 
 ![image](https://user-images.githubusercontent.com/26007280/189889438-9fff284d-0b0b-40bd-ac00-27adc646de55.png)
 
@@ -73,7 +79,7 @@ In the following you will find an overview of common used admin commands that yo
 
 
 
-## ⌨️ Common used commands
+## Common used commands
 
 |              Commands              |                      Description                       |
 | :--------------------------------: | :----------------------------------------------------: |

@@ -3,15 +3,19 @@ id: assetto-competizione-slot-requirement
 title: "Assetto Corsa Competizione: Car Slot Voraussetzungen"
 description: Informationen, wie du deine Car Slots erhöhst und korrekt nutzen kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Car Slot Voraussetzungen
+services:
+  - gameserver
 ---
 
-## Allgemeine Informationen
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
-Bei Assetto Corsa lassen sich 10 Slots ohne weitere Änderung korrekt nutzen. 
-Allerdings müssen für die Nutzung von mehr als 10 Slots bestimmte Voraussetzungen erfüllt sein.
-Diese Voraussetzungen werden unter "**Configs**" eingestellt. Dort wird die "**settings.json**" bearbeitet.
+## Einführung
+
+Bei Assetto Corsa lassen sich 10 Slots ohne weitere Änderung korrekt nutzen. Allerdings müssen für die Nutzung von mehr als 10 Slots bestimmte Voraussetzungen erfüllt sein. Diese Voraussetzungen werden unter "**Configs**" eingestellt. Dort wird die "**settings.json**" bearbeitet.
 
 ![image](https://user-images.githubusercontent.com/26007280/189936558-f7482728-9fa4-4944-b3b5-fa36ab212db4.png)
+
+<InlineVoucher />
 
 ## Voraussetzungen und Slot Limits
 

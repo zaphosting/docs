@@ -3,9 +3,12 @@ id: terratech-worlds-firststeps-dashboard
 title: "Terratech Worlds: Dashboard Overview"
 description: Information about the dashboard of an TerraTech Worlds from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Dashboard
+services:
+  - gameserver
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
@@ -15,7 +18,7 @@ After going through this guide, you will easily be able to manage your server ef
 
 <YouTube videoId="sSbLQnrB2q0" title="Get TerraTech Worlds server in just a MINUTE!" description="eel like you understand better when you see things in action?  We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
 
-
+<InlineVoucher />
 
 ## Information
 
@@ -164,7 +167,9 @@ Do you want to schedule server restarts at specific times? The Restart Planner a
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/Y6WciDS7YP98P4m/preview)
 
-
+### DNS settings
+With the ZAP DNS settings, you can create easy-to-remember addresses for your service. You can either use a subdomain of one of our domains or you can create a DNS entry on your own domains and thus have an address that can be better associated with you as a person.
+![img](https://screensaver01.zap-hosting.com/index.php/s/tM5FGTHRSbZA5rN/preview)
 
 ## Tools
 

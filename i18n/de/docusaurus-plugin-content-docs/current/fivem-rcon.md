@@ -3,12 +3,17 @@ id: fivem-rcon
 title: "FiveM: Rcon benutzen"
 description: Informationen, wie du Rcon auf deinem FiveM-Server benutzen kannst, um Befehle an den Server zu senden - ZAP-Hosting.com Dokumentation
 sidebar_label: Rcon benutzen
+services:
+  - gameserver
 ---
 
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Was ist Rcon?
 
 Rcon ist ein Protokoll zur Ausführung von Kommandos auf den Server, ohne direkt Zugriff auf die Konsole haben zu müssen.
+
+<InlineVoucher />
 
 ### Vorbereitung
 

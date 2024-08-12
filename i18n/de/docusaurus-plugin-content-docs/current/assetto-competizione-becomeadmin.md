@@ -3,13 +3,22 @@ id: assetto-competizione-becomeadmin
 title: "Assetto Corsa Competizione: Admin auf dem eigenen Server werden"
 description: Informationen, wie du dich zum Admin auf deinem Assetto Corsa Competizione-Server von ZAP-Hosting machst - ZAP-Hosting.com Dokumentation
 sidebar_label: Admin werden
+services:
+  - gameserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
+
+## Einführung
+Die Zuweisung von Administratorberechtigungen ermöglicht dir eine einfache und umfangreiche Verwaltung mit voller Kontrolle deines Servers. Als Administrator hast du die Möglichkeit alle verfügbaren Optionen und Funktionen, die das Spiel bereitstellt, direkt im Spiel anzuwenden. Im folgenden werden dir alle notwendigen Schritte erläutert, die du benötigst, um dir die Administratorberechtigungen für deinen Server zuzuweisen. 
+<InlineVoucher />
 
 ## Admin Passwort setzen 
 Das Admin Passwort kannst du im Interface von deinem Server unter dem Reiter "Einstellungen" einsehen und ändern.
 Zu den Einstellungen gelangst du hier:
 
 ![image](https://user-images.githubusercontent.com/26007280/189937410-40b43828-17fe-4c00-8573-9e01763494a8.png)
+
 
 ## Mit dem Server verbinden
 Verbinde dich nun mit deinem Server.

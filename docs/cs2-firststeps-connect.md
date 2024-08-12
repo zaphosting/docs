@@ -3,9 +3,11 @@ id: cs2-firststeps-connect
 title: "CS2: Connect to the server"
 description: Information on how to connect to a CS2 server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Connect to the server
+services:
+  - gameserver
 ---
 
-
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
@@ -13,7 +15,7 @@ Are you unsure about what you need to connect to your server in general or how t
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/H5M3SWXcdsZXmJG/preview)
 
-
+<InlineVoucher />
 
 ## Prerequisites
 

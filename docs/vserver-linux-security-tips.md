@@ -3,7 +3,11 @@ id: vserver-linux-security-tips
 title: "VPS: Linux Security Tips"
 description: Tips and advice on how to secure your Linux server - ZAP-Hosting.com documentation
 sidebar_label: Security Tips
+services:
+  - vserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
@@ -16,6 +20,8 @@ Please note that these instructions are not exhaustive and that more detailed in
 :::tip
 The easiest way to protect your server is always the same, regardless of the server: Use secure passwords, update your services regularly and generally pay attention to which services you want to install and which guides you follow.
 :::
+
+<InlineVoucher />
 
 ## Securing SSH 
 

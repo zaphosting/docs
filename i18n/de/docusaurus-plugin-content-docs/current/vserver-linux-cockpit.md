@@ -3,9 +3,11 @@ id: vserver-linux-cockpit
 title: "vServer: Installation von Cockpit"
 description: Informationen, um Cockpit auf Linux zu installieren - ZAP-Hosting.com Dokumentation
 sidebar_label: Cockpit installieren
+services:
+  - vserver
 ---
 
-
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
@@ -16,6 +18,8 @@ Die Projektwebseite ist unter https://cockpit-project.org/ erreichbar.
 :::info
 In dieser Anleitung wird die Installation bei Debian (ab Buster)/ bei Ubuntu (ab Bionic Beaver) erklärt. Die Installation ist auf der Projektseite ebenfalls für Fedora, Red Hat, Fedora CoreOS, CentOS, Clear Linux, Archlinux und Tumbleweed verfügbar.   
 :::
+
+<InlineVoucher />
 
 ## Installation
 

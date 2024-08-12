@@ -3,11 +3,17 @@ id: vserver-linux-javascript
 title: 'vServer: Installation von JavaScript'
 description: Informationen darüber, wie man JavaScript auf deinem Linux-Server von ZAP-Hosting.com installiert - ZAP-Hosting.com Dokumentation
 sidebar_label: JavaScript installieren
+services:
+  - vserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
 Diese Anleitung liefert Schritte zur Installation von Node.js, Deno und Bun. Diese Befehle müssen über SSH ausgeführt werden. Wenn du nicht weißt, wie man sich über SSH mit deinem Server verbindet, schau dir bitte unsere [Erstzugriff (SSH) Anleitung](https://zap-hosting.com/guides/docs/vserver-linux-ssh) an.
+
+<InlineVoucher />
 
 ## Voraussetzungen
 

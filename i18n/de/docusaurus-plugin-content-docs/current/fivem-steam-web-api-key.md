@@ -3,19 +3,21 @@ id: fivem-steam-web-api-key
 title: "FiveM: Steam Web API Key setup"
 description: Information on setting up a Steam Web API key from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Steam Web API Key
+services:
+  - gameserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
 Ein Steam-Web-API-Schlüssel hat wichtige Funktionen für FiveM. Dazu gehört die Authentifizierung durch den API-Schlüssel, wenn Steam als Identifikator von verschiedenen Skripten und/oder Ressourcen verwendet wird.
 
-
+<InlineVoucher />
 
 ## Voraussetzungen
 
 Um einen API-Schlüssel anzufordern, ist ein nicht eingeschränkter Steam-Account erforderlich. Eingeschränkte Steam-Konten haben einen eingeschränkten Zugang zu den Funktionen von Steam, sodass es ohne vollen Zugang nicht möglich ist, einen API-Schlüssel anzufordern. Du musst mindestens **5,00 USD** im Steam-Store ausgeben, um dein Konto und dessen Funktionen freizuschalten.
-
-
 
 ## Anfordern eines API-Schlüssels
 
@@ -30,8 +32,6 @@ Nach der Anmeldung musst du einen Domainnamen eingeben, die Nutzungsbedingungen 
 Wenn alles erfolgreich war, solltest du deinen eigenen Steam-Web-API-Schlüssel sehen können, wie unten dargestellt.
 
 ![image](https://user-images.githubusercontent.com/115637675/195397282-c79aff45-2e38-49f9-bf1a-3efd563b3294.png)
-
-
 
 ## Aktivierung eines API-Schlüssels
 

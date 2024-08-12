@@ -2,8 +2,14 @@
 id: vserver-linux-rsync
 title: "vServer: Backups von Linux Server mit Rsync anfertigen"
 description: Informationen, wie du mit Rsync Backups von deinem Linux vServer von ZAP-Hosting anfertigen kannst - ZAP-Hosting.com Dokumentation
-sidebar_label: Rsync Linux
+sidebar_label: Backups mit Rsync erstellen
+services:
+  - vserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
+
+<InlineVoucher />
 
 ## Rsync:
 

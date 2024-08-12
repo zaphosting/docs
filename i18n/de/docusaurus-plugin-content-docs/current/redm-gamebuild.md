@@ -3,13 +3,17 @@ id: redm-gamebuild
 title: "RedM: Enable DLC Content"
 description: Information on how to enable a DLC gamebuild for RedM servers - ZAP-Hosting.com
 sidebar_label: Enable DLC Gamebuild
+services:
+  - gameserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
 Die Erzwingung des Game Builds ermöglicht es dir, eine bestimmte DLC-Version auf deinem Server zu erzwingen, sodass du mit den neuesten Karten, Kleidungsstücken, Fahrzeugen und mehr spielen kannst! Du kannst dies einfach umsetzen, indem du die unten stehenden Abschnitte für deinen Gameserver-Typ aktivierst.
 
-
+<InlineVoucher />
 
 ## Buld aktivieren
 Um zusätzliche DLC-Inhalte wie Cayo Perico, den Tuner-DLC oder Los Santos Summer Special zu verwenden, musst du diese in den Einstellungen deines Servers festlegen. Du kannst dies entweder direkt tun, indem du die Datei `server.cfg` bearbeitest, oder der einfachere Weg ist, dies über den Abschnitt **Settings** im Webinterface deines Gameservers zu ändern.

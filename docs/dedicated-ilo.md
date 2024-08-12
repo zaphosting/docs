@@ -3,12 +3,18 @@ id: dedicated-ilo
 title: "Dedicated Server: iLO"
 description: Information, about ILO administration for your Dedicated Server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: iLO
+services:
+  - dedicated
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## What is it and what can it do?
 On our Enterprise Dedicated Servers we use the management interface iLo, it allows unrestricted full manageability of your server.
 Its functionalities include server start/stop/reboot, management console via Java or HTML5, mounting of boot media (ISOs).
 You should modify the settings carefully, in case of wrong changes it can cause big problems.
+
+<InlineVoucher />
 
 ## How do I get into the iLO?
 Open the server dashboard of your ZAP Dedicated Server with a browser of your choice. There you will already find the most important information about your iLO.

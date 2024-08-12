@@ -3,7 +3,11 @@ id: dedicated-linux-ssh
 title: "VPS: Initial access with SSH"
 description: Information on how to access your server from ZAP-Hosting with SSH for the first time - ZAP-Hosting.com documentation
 sidebar_label: Initial access (SSH)
+services:
+  - dedicated
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
@@ -22,6 +26,7 @@ Linux server products do not include a graphical management interface by default
 | mRemoteNG  |           Windows            |     Yes      |           [Click](https://mremoteng.org/download)            |
 
 
+<InlineVoucher />
 
 ## IP address & access
 

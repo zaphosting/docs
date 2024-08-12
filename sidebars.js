@@ -136,6 +136,7 @@ const sidebars = {
     "gameserver-restartplaner",
     "gameserver-backups",
     "gameserver-server-down-what-now",
+    "gameserver-subdomain",
     "gameserver-tebex",
     {
       type: "category",
@@ -474,7 +475,7 @@ const sidebars = {
     },
     {
       type: "category",
-      label: "ArmA 3",
+      label: "Arma 3",
       items: [
         {
           type: "category",
@@ -1190,7 +1191,21 @@ const sidebars = {
         }
       ],
     },
-    
+    {
+      type: "category",
+      label: "Soulmask",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "soulmask-firststeps-dashboard"
+          ]
+        },
+        "soulmask-configuration",
+        "soulmask-server-savegames",
+      ],
+    },
     {
       type: "category",
       label: "Space Engineers",
@@ -1467,9 +1482,11 @@ const sidebars = {
         'vserver-windows-foundry',
         'vserver-windows-fs-19',
         'vserver-windows-fs-22',
+        'vserver-windows-fs-22-epic',
         'vserver-windows-mythofempires',
         'vserver-windows-palworld',
         'vserver-windows-satisfactory',
+        'vserver-windows-soulmask',
         'vserver-windows-valheim',
         'vserver-windows-vrising',
       ]
@@ -1586,9 +1603,11 @@ const sidebars = {
         'dedicated-windows-foundry',
         'dedicated-windows-fs-19',
         'dedicated-windows-fs-22',
+        'dedicated-windows-fs-22-epic',
         'dedicated-windows-mythofempires',
         'dedicated-windows-palworld',
         'dedicated-windows-satisfactory',
+        'dedicated-windows-soulmask',
         'dedicated-windows-valheim',
         'dedicated-windows-vrising',
       ]
@@ -1621,6 +1640,7 @@ const sidebars = {
     },
     'domain-introduction',
     'domain-order',
+    'domain-transfer',
     'domain-easydns',
     'domain-profidns',
     'domain-expertdns',
@@ -1640,6 +1660,7 @@ const sidebars = {
       defaultStyle: true,
     }, 
     'webspace-introduction',
+    'webspace-subdomain',
     'webspace-adddomain',
     'webspace-plesk-ftp',
     'webspace-plesk-sendmail',
@@ -1689,6 +1710,7 @@ const sidebars = {
       defaultStyle: true,
     },    
     'voiceserver-introduction',
+    'voiceserver-subdomain',
     'voiceserver-becomeadmin',
     'voiceserver-configuration',
     'voiceserver-ts3backup',

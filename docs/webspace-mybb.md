@@ -3,15 +3,17 @@ id: webspace-mybb
 title: "Webspace: Install MyBB forum software"
 description: Information on how to install the MyBulletinBoard forum software on your webspace from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Install MyBB
-
+services:
+  - webspace
 ---
 
-
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
 MyBB, previously MyBulletinBoard, is a free and open source forum software developed by the MyBB Group. In this guide we explain how to install this forum software on our webspace product. 
 
+<InlineVoucher />
 
 ## Preparation
 

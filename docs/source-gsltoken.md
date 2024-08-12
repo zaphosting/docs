@@ -3,13 +3,17 @@ id: source-gsltoken
 title: Using game server login tokens
 description: Information on how to create and use a login token for your Source game server from ZAP-Hosting.com - ZAP-Hosting.com documentation
 sidebar_label: GSL-Token
+services:
+  - gameserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## ❓ What is a GSL token?
 
 Gameserver Login Tokens (GSLTs) is a procedure that Steam has implemented as a security measure. In order to run gameservers of certain Steam Games ( mostly source games) it is necessary to generate a token.
 
-
+<InlineVoucher />
 
 ## ❓ What is the purpose of a GSL token?
 

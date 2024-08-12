@@ -3,13 +3,12 @@ id: palworld-server-modding
 title: "Palworld: Installing Mods for Palworld"
 description: Information on how to install mods to your Palworld server or game client from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Install Mods
+services:
+  - gameserver
 ---
 
-
-
 import YouTube from '@site/src/components/YouTube/YouTube';
-
-
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
@@ -17,7 +16,7 @@ Since Palworld's release, new exciting mods have begun to appear online to impro
 
 <YouTube videoId="x4tfL3Vi5qE" title="How To Install Mods On Your Palworld Server!" description="Feel like you understand better when you see things in action?  We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
 
-
+<InlineVoucher />
 
 ### Key Information
 

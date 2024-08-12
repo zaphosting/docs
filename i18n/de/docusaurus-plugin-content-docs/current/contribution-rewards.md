@@ -78,7 +78,7 @@ Achte darauf, dass du sowohl deine ZAP-ID als auch die Ticket-ID für das PayPal
 
 Du musst den [PayPal Invoice Creator](https://www.paypal.com/invoice/create?fromWidget=newuser) verwenden und ihn entsprechend ausfüllen:
 
-- Gib unsere Unternehmensdaten als Empfänger an: `ZAP-Hosting GmbH & Co. KG, Hafenweg 8, 48155 Münster, Deutschland`
+- Gib unsere Unternehmensdaten als Empfänger an: `ZAP-Hosting GmbH, Hafenweg 8, 48155 Münster, Deutschland`
 - Die Beschreibung muss sowohl deine ZAP-ID als auch die Ticket-ID deines Auszahlungsbestätigungstickets enthalten, wie folgt: `Contribution Program Payout: Ticket #[deineticket_id], [deine_zapid]`
 - Die Rechnung muss gesendet werden an: `m.kluck@zap-hosting.com`
 

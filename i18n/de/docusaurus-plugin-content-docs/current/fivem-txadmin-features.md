@@ -3,13 +3,19 @@ id: fivem-txadmin-features
 title: "FiveM: txAdmin Interface"
 description: Übersicht zu den Einstellungsmöglichkeiten des TxAdmin Interfaces für FiveM Gameserver von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: txAdmin Interface
+services:
+  - gameserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Dashboard
 
 Im Dashboard von txAdmin können wir einsehen, wie viele auf dem Server sind und wie performant der Server läuft, hier können wir ebenfalls den Server Starten oder Stoppen, Announcements auf dem Server anzeigen lassen oder alle Spieler kicken:
 
 ![image](https://user-images.githubusercontent.com/13604413/159169522-fd692c95-1a15-486b-a959-99fa58bea7ce.png)
+
+<InlineVoucher />
 
 ## Rechte Sidebar
 

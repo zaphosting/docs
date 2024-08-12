@@ -3,10 +3,17 @@ id: dedicated-iso
 title: "Dedicated Server: Own ISO"
 description: Information on how to install your own ISO file on your dedicated server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Own ISO
+services:
+  - dedicated
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
+
 :::info
 Mounting your own ISO File is at your own risk.
 :::
+
+<InlineVoucher />
 
 ## Which options are there?
 There are two ways to mount your own iso file. It's always necessary to restart the server, to load the file.

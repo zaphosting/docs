@@ -27,7 +27,11 @@ const config = {
   onBrokenMarkdownLinks: 'throw',
   onDuplicateRoutes: 'throw',
   onBrokenAnchors: 'throw',
-  
+
+  customFields: {
+    marketingSite: 'https://zap-hosting.com',
+  },
+
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
@@ -149,7 +153,8 @@ const config = {
           sidebarPath: './sidebars.js',
           editUrl: 'https://github.com/zaphosting/docs/tree/master/',
           editLocalizedFiles: true,
-          showLastUpdateTime: true
+          showLastUpdateTime: true,
+          showLastUpdateAuthor: true,
         },
         blog: false,
         theme: {
@@ -355,7 +360,7 @@ const config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} ZAP-Hosting GmbH & Co. KG`,
+      copyright: `Copyright © ${new Date().getFullYear()} ZAP-Hosting GmbH`,
     },
     // announcementBar: {
     //   id: 'support_us',

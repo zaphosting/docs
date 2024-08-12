@@ -3,13 +3,19 @@ id: webspace-adddomain
 title: "Webspace: Add a domain"
 description: Information on how to add a domain to your webspace from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Add Domain
+services:
+  - webspace
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
 The web space package offers the possibility to create and manage both websites and email addresses via the external Plesk interface. The web space acts as web storage. Files and folders can be uploaded via an FTP connection.
 
 Every webspace booked through Zap-Hosting is assigned an automatically generated subdomain. This subdomain consists of the customer number, the host server and the domain "zap-webspace.com". The instructions "Link Domain" shows how your own domain can be connected to the web space.
+
+<InlineVoucher />
 
 ## First steps
 

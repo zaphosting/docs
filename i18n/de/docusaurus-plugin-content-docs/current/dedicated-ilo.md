@@ -3,30 +3,29 @@ id: dedicated-ilo
 title: "Dedicated Server: iLO"
 description: Informationen, über die ILO Verwaltung für deinen Dedicated Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: iLO
+services:
+  - dedicated
 ---
 
+import InlineVoucher from '@site/src/components/InlineVoucher';
+
 ## Was ist das und was kann es?
-Auf unseren Enterprise Dedicated Servern wird die Verwaltungsoberfläche iLO eingesetzt, sie ermöglicht eine uneingeschränkte volle Verwaltbarkeit deines Servers.
-Zu ihren Funktionsumfängen zählen z.B. Server Start/Stop/Reboot, Management-Consolen über Java oder HTML5 und das Einbinden von Bootmedien (ISOs).
-Du solltest mit einer grundsätzlichen Vorsicht dort Einstellungen verändern, bei falschen Änderungen könnte dies Probleme hervorrufen.
+Auf unseren Enterprise Dedicated Servern wird die Verwaltungsoberfläche iLO eingesetzt, sie ermöglicht eine uneingeschränkte volle Verwaltbarkeit deines Servers. Zu ihren Funktionsumfängen zählen z.B. Server Start/Stop/Reboot, Management-Consolen über Java oder HTML5 und das Einbinden von Bootmedien (ISOs). Du solltest mit einer grundsätzlichen Vorsicht dort Einstellungen verändern, bei falschen Änderungen könnte dies Probleme hervorrufen.
+
+<InlineVoucher />
 
 ## Wie komme ich in die iLO?
-Öffne mit einem Browser deiner Wahl das Server Dashboard deines ZAP Dedicated Servers. Dort findest du bereits die wichtigsten Informationen zu deiner iLO.
-Um die iLO zu aktivieren, klicke ganz einfach auf "iLO aktivieren"
-![](https://screensaver01.zap-hosting.com/index.php/s/qYPEPiwCKKrzLDL/preview)
+Öffne mit einem Browser deiner Wahl das Server Dashboard deines ZAP Dedicated Servers. Dort findest du bereits die wichtigsten Informationen zu deiner iLO. Um die iLO zu aktivieren, klicke ganz einfach auf "iLO aktivieren".
 
-Bitte beachte dass es einige Augenblicke dauern kann bis deine iLO vollständig zur Verfügung steht. 
-Wenn das System die Verwaltungsoberfläche gestartet hat und sie für dich zugänglich ist, werden dir die Logininformationen angezeigt.
-Um die iLO zu öffnen, klicke auf die angezeigte IP-Adresse und verwende die Logindaten, um dich anzumelden.
+![image](https://screensaver01.zap-hosting.com/index.php/s/qYPEPiwCKKrzLDL/preview)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/qktwjwRcPmcRzAA/preview)
+Bitte beachte dass es einige Augenblicke dauern kann bis deine iLO vollständig zur Verfügung steht. Wenn das System die Verwaltungsoberfläche gestartet hat und sie für dich zugänglich ist, werden dir die Logininformationen angezeigt. Um die iLO zu öffnen, klicke auf die angezeigte IP-Adresse und verwende die Logindaten, um dich anzumelden.
 
-***
+![image](https://screensaver01.zap-hosting.com/index.php/s/qktwjwRcPmcRzAA/preview)
 
-Nach einem kurzen Augenblick bist du nun in der Verwaltungsoberfläche deines Dedicated Servers eingeloggt. 
-Hierbei findest du viele wichtige Informationen auf den ersten Blick:
+Nach einem kurzen Augenblick bist du nun in der Verwaltungsoberfläche deines Dedicated Servers eingeloggt. Hierbei findest du viele wichtige Informationen auf den ersten Blick:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/BGWGXDRgS9A74dB/preview)
+![image](https://screensaver01.zap-hosting.com/index.php/s/BGWGXDRgS9A74dB/preview)
 
 ### Overview
 * **System Health**

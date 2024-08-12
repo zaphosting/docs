@@ -3,7 +3,13 @@ id: gameserver-upgrade
 title: 'Gameserver: Up-/Downgrade'
 description: Informationen, wie du deinen Gameserver von ZAP-Hosting.com Up-/Downgraden kannst. - ZAP-Hosting.com Dokumentation
 sidebar_label: Up-/Downgrade
+services:
+  - gameserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
+
+<InlineVoucher />
 
 ## Vorwort
 

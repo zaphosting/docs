@@ -3,9 +3,12 @@ id: fivem-whitelist
 title: "FiveM: Whitelist"
 description: Information on how to use a whitelist with FiveM Server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Whitelist
+services:
+  - gameserver
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 You don't want to make your server accessible to everyone? There are several ways to limit the visibility and accessibility of a server. One of those possibilities is, for example, the use of a whitelist, which will be explained in the following.
@@ -16,6 +19,7 @@ The whitelist is a list that makes it possible to allow a certain selection of p
 
 ![image](https://user-images.githubusercontent.com/26007280/219639252-afb24ed1-99d9-42c0-81a9-c767ca65d9f3.png)
 
+<InlineVoucher />
 
 ## Installation
 

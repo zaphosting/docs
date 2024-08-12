@@ -3,10 +3,12 @@ id: dedicated-windows
 title: "Dedicated Server: Installation von Windows Server"
 description: Informationen, wie du das Windows Betriebssystem auf deinem Dedicated Server von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Windows installieren
+services:
+  - dedicated
 ---
 
-
 import YouTube from '@site/src/components/YouTube/YouTube';
+import InlineVoucher from '@site/src/components/InlineVoucher';
 import Advertisements from '@site/src/components/Advertisements/Advertisements';
 
 ## Einführung
@@ -18,6 +20,8 @@ Im Folgenden wird dir Schritt für Schritt erklärt, wie du das Windows Server B
 :::info
 Der Aufbau der Anleitung basiert auf der Verwendung des Windows Server 2019 Betriebssystems. Installationen von früheren oder neueren Versionen können hinsichtlich des Prozesses leicht abweichen. 
 :::
+
+<InlineVoucher />
 
 ## Vorbereitung
 

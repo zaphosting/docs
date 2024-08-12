@@ -3,9 +3,13 @@ id: gameserver-backups
 title: 'Gameserver: Backups erstellen, herunterladen und einspielen'
 description: Informationen, wie du Backups für deinen Gameserver von ZAP-Hosting erstellen, herunterladen und wieder einspielen kannst -ZAP-Hosting.com Dokumentation
 sidebar_label: Backups
+services:
+  - gameserver
+  - premium-storage
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 Wir bieten die Möglichkeit, Backups individuell per Klick zu erstellen. Dadurch können Backups kinderleicht und ohne großen Aufwand erstellt und zu einem späteren Zeitpunkt jederzeit wieder importiert werden. Dieses Feature bieten wir sowohl für die Server-Dateien deines Gameserver als auch für die dazugehörigen Datenbanken. Das Backup wird dann auf deinem Storage Server gespeichert, welcher standardmäßig 10 GB kostenlosen Speicherplatz bietet. Solltest du mehr benötigen, dann kannst du auch auf ein Premium Storage upgraden.
@@ -14,6 +18,7 @@ Neben dem manuellen Erstellen von Backups können auch Backups voll automatisier
 
 <YouTube videoId="yUDAcfyDELc" title="Wie du BACKUPS für deinen Server erstellst!" description="Hast du das Gefühl, dass du etwas besser verstehst, wenn du es in Aktion siehst?  Wir haben etwas für dich! Tauche ab in unser Video, welches alles für dich zusammenfasst. Egal, ob du es eilig hast oder einfach nur Informationen auf möglichst verständliche Art und Weise aufnehmen möchtest!"/>
 
+<InlineVoucher />
 
 ## Backup manuell erstellen
 
@@ -22,8 +27,6 @@ Um ein Backup manuell zu erstellen, muss der grüne **+** Button neben der Backu
 :::info
 Je nach Speichergröße des Servers kann das Anlegen des Backups durchaus ein paar Minuten dauern!
 :::
-
-
 
 ## Backup automatisiert erstellen
 

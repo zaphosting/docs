@@ -3,15 +3,17 @@ id: vserver-linux-ssh2fa
 title: "vServer: SSH Zwei-Faktor-Authentifizierung "
 description: Informationen, wie du Zwei Faktor Authentifizierung für deinen Linux Server von ZAP-Hosting einrichten kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: 2FA (SSH)
+services:
+  - vserver
 ---
 
-
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
 Der SSH-Zweifaktorauthentifizierung (2FA) Service von Google, bekannt als **Google Authenticator SSH**, erweitert die Sicherheit von SSH-Zugängen (Secure Shell) durch die Hinzufügung einer zweiten Authentifizierungsebene. Während SSH bereits eine sichere Methode bietet, um eine verschlüsselte Verbindung zu einem Remote-Server herzustellen, erhöht die Integration von 2FA die Sicherheitsstufe, indem sie verlangt, dass Benutzer nicht nur ihr Passwort eingeben, sondern auch einen einmaligen Verifizierungscode, der durch den Google Authenticator generiert wird. In dieser Anleitung werden wir uns mit der Installation und Konfiguration des **Google Authenticator SSH**-Dienstes auf einem Linux-Server beschäftigen.
 
-
+<InlineVoucher />
 
 ## Installation
 

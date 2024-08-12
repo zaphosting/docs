@@ -1,0 +1,64 @@
+name: Validate Docs Metadata
+
+on:
+  pull_request:
+    branches: ["master", "main"]
+    paths:
+      - 'docs/**.md'
+      - 'i18n/docusaurus-plugin-content-docs/current/**.md'
+
+jobs:
+  check-metadata:
+    runs-on: self-hosted
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4.1.7
+        with:
+          fetch-depth: 0
+
+
+      - name: Fetch all branches
+        run: git fetch --all
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4.0.2
+        with:
+          node-version: 19
+
+      - name: Install dependencies
+        run: npm install js-yaml@latest
+
+      - name: Run metadata check script
+        run: node .github/scripts/validate-docs.js
+        continue-on-error: true
+
+      - name: Comment on pull request if needed
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const fs = require('fs');
+            const path = `.github/scripts/comment.md`;
+            const commentIdentifier = '<!-- metadata-check-comment -->';
+            const commentContent = fs.readFileSync(path, 'utf8') + '\n' + commentIdentifier;
+
+            const { data: comments } = await github.rest.issues.listComments({
+              ...context.repo,
+              issue_number: context.issue.number
+            });
+
+            const existingComment = comments.find(comment => comment.body.includes(commentIdentifier));
+
+            if (existingComment) {
+              await github.rest.issues.updateComment({
+                ...context.repo,
+                comment_id: existingComment.id,
+                body: commentContent
+              });
+            } else {
+              await github.rest.issues.createComment({
+                ...context.repo,
+                issue_number: context.issue.number,
+                body: commentContent
+              });
+            }

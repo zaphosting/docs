@@ -3,9 +3,11 @@ id: altv-firststeps-dashboard
 title: "Alt V: Altv Dashboard Overview"
 description: Information about the dashboard of an Altv server from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Dashboard
+services:
+  - gameserver
 ---
 
-
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
@@ -13,7 +15,7 @@ You are interested in an **Alt:V server** or already own one, but you still lack
 
 After going through this guide, you will easily be able to manage your server efficiently and find all the necessary options and features quickly and easily. Here, you will get a structured overview that will help you step by step to get familiar with the server administration and expand your knowledge in a targeted manner. This way, you can ensure that your **Alt:V server** is optimally adapted to your needs and that you get the most out of the available options.
 
-
+<InlineVoucher />
 
 ## Information
 
@@ -160,7 +162,9 @@ Do you want to schedule server restarts at specific times? The Restart Planner a
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/Y6WciDS7YP98P4m/preview)
 
-
+### DNS settings
+With the ZAP DNS settings, you can create easy-to-remember addresses for your service. You can either use a subdomain of one of our domains or you can create a DNS entry on your own domains and thus have an address that can be better associated with you as a person.
+![img](https://screensaver01.zap-hosting.com/index.php/s/tM5FGTHRSbZA5rN/preview)
 
 ## Tools
 

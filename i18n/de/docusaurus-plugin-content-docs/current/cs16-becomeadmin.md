@@ -3,14 +3,20 @@ id: cs16-becomeadmin
 title: "CS 1.6: Admin auf dem eigenen Server werden"
 description: Informationen, wie du Admin auf deinem CS 1.6-Server von ZAP-Hosting wirst - ZAP-Hosting.com Dokumentation
 sidebar_label: Admin werden
-
+services:
+  - gameserver
 ---
 
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
+## Einführung
+Die Zuweisung von Administratorberechtigungen ermöglicht dir eine einfache und umfangreiche Verwaltung mit voller Kontrolle deines Servers. Als Administrator hast du die Möglichkeit alle verfügbaren Optionen und Funktionen, die das Spiel bereitstellt, direkt im Spiel anzuwenden. Im folgenden werden dir alle notwendigen Schritte erläutert, die du benötigst, um dir die Administratorberechtigungen für deinen Server zuzuweisen. 
+<InlineVoucher />
 
-Mit Administrator-Rechten kannst du direkt im Spiel Änderungen im Live-Zustand an deinem Server vornehmen, ohne diese in der Config vorzunehmen. Das Hinzufügen eines Admins erfolgt über die **users.ini** Config. Damit du überhaupt Admin werden kannst und diese Dateien findest, musst du vorher **AMXmodX** und **Metamod** installieren. Falls du dies noch nicht getan hast, dann lohnt es sich einen Blick in die folgende Anleitung zu werfen: [AMXmodX/Metamod + Plugins](cs16-plugins.md)
+## Konfigurations
+Das Hinzufügen eines Admins erfolgt über die **users.ini** Config. Damit du überhaupt Admin werden kannst und diese Dateien findest, musst du vorher **AMXmodX** und **Metamod** installieren. Falls du dies noch nicht getan hast, dann lohnt es sich einen Blick in die folgende Anleitung zu werfen: [AMXmodX/Metamod + Plugins](cs16-plugins.md)
 
-Damit die **users.ini** Konfigurationsdatei bearbeitet werden kann, muss eine Verbindung per FTP zum Server hergestellt werden. Dort navigieren wir in das ``/gXXXXXX/cs16/cstrike/addons/amxmodx/configs`` Verzeichnis. Als Nächstes öffnen wir die Config mit einem Text-Editor und bearbeiten diese. 
+Damit die **users.ini** Konfigurationsdatei bearbeitet werden kann, muss eine Verbindung per FTP zum Server hergestellt werden. Dort navigieren wir in das ``/gXXXXXX/cs16/cstrike/addons/amxmodx/configs`` Verzeichnis. Als Nächstes öffnen wir die Config mit einem Text-Editor und bearbeiten diese.
 
 ```
 ...

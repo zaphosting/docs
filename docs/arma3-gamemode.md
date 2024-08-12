@@ -1,21 +1,25 @@
 ---
 id: arma3-gamemode
-title: "ArmA 3: Change game mode"
+title: "Arma 3: Change game mode"
 description: Information on how to change the game mode on your Arma 3 server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Change game mode
+services:
+  - gameserver
 ---
 
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Set the game mode
 
-To change the game mode on your ArmA 3 server you have to upload the appropriate mission file for the game mode to your server.
+To change the game mode on your Arma 3 server you have to upload the appropriate mission file for the game mode to your server.
 
 We currently offer the following mission files without the need for you to upload them:
 
-- ArmA 3 Wasteland
+- Arma 3 Wasteland
 
 These are already in your **mpmissions** directory.
 
+<InlineVoucher />
 
 ## Upload the mission file
 
@@ -28,7 +32,7 @@ In this example we upload the game mode **King of the Hill** to our server.
 
 ## Loading the mission file on the server
 
-To load the mission file from the server, go to your ArmA 3 server interface and click on the **Configs** tab in the menu on the left:
+To load the mission file from the server, go to your Arma 3 server interface and click on the **Configs** tab in the menu on the left:
 
 ![image](https://user-images.githubusercontent.com/26007280/189677415-4fa43482-ef31-4140-a6e8-5b55bc7b62db.png)
 

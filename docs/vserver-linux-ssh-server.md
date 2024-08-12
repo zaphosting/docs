@@ -3,7 +3,11 @@ id: vserver-linux-ssh-server
 title: "VPS: Installation of SSH"
 description: Information on how to install SSH Server on your Linux VPS from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Install SSH
+services:
+  - vserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
@@ -13,6 +17,7 @@ In this guide, you will understand how to install or reinstall the SSH Server fo
 
 If you wish to learn more about improving your security on your server, we highly recommend viewing our [Linux Security Tips](vserver-linux-security-tips.md) guide which promotes a range of tools and services that can help secure your server further.
 
+<InlineVoucher />
 
 ## Installation
 

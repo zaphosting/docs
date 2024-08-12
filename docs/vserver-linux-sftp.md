@@ -3,7 +3,13 @@ id: vserver-linux-sftp
 title: "VPS: Connecting to Linux Server via SFTP"
 description: Information on how to connect via SFTP to your Linux VPS from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: SFTP Connection
+services:
+  - vserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
+
+<InlineVoucher />
 
 ## How do I connect via SFTP?
 

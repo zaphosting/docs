@@ -3,10 +3,6 @@
     "message": "Next",
     "description": "The label for version current"
   },
-  "sidebar.guidesSidebar.category.First Steps": {
-    "message": "Erste Schritte",
-    "description": "The label for category First Steps in sidebar guidesSidebar"
-  },
   "sidebar.guidesSidebar.category.Support": {
     "message": "Support",
     "description": "The label for category Support in sidebar guidesSidebar"
@@ -18,10 +14,6 @@
   "sidebar.guidesSidebar.category.Security": {
     "message": "Sicherheit",
     "description": "The label for category Security in sidebar guidesSidebar"
-  },
-  "sidebar.gameserverSidebar.category.General": {
-    "message": "Allgemein",
-    "description": "The label for category General in sidebar gameserverSidebar"
   },
   "sidebar.gameserverSidebar.category.Databases": {
     "message": "Databases",
@@ -95,10 +87,6 @@
     "message": "Terraria",
     "description": "The label for category Terraria in sidebar gameserverSidebar"
   },
-  "sidebar.gameserverSidebar.category.Source Games": {
-    "message": "Source Games",
-    "description": "The label for category Source Games in sidebar gameserverSidebar"
-  },
   "sidebar.gameserverSidebar.category.Sourcemod / Metamod": {
     "message": "Sourcemod / Metamod",
     "description": "The label for category Sourcemod / Metamod in sidebar gameserverSidebar"
@@ -107,17 +95,13 @@
     "message": "CS:GO",
     "description": "The label for category CS:GO in sidebar gameserverSidebar"
   },
-  "sidebar.gameserverSidebar.category.Counter Strike 1.6": {
-    "message": "Counter Strike 1.6",
-    "description": "The label for category Counter Strike 1.6 in sidebar gameserverSidebar"
-  },
   "sidebar.gameserverSidebar.category.Garry's Mod": {
     "message": "Garry's Mod",
     "description": "The label for category Garry's Mod in sidebar gameserverSidebar"
   },
-  "sidebar.gameserverSidebar.category.ArmA 3": {
-    "message": "ArmA 3",
-    "description": "The label for category ArmA 3 in sidebar gameserverSidebar"
+  "sidebar.gameserverSidebar.category.Arma 3": {
+    "message": "Arma 3",
+    "description": "The label for category Arma 3 in sidebar gameserverSidebar"
   },
   "sidebar.gameserverSidebar.category.ARK": {
     "message": "ARK",
@@ -211,14 +195,6 @@
     "message": "Last Oasis",
     "description": "The label for category Last Oasis in sidebar gameserverSidebar"
   },
-  "sidebar.gameserverSidebar.category.Discord Bot": {
-    "message": "Discord Bot",
-    "description": "The label for category Discord Bot in sidebar gameserverSidebar"
-  },
-  "sidebar.gameserverSidebar.category.Truck Sim": {
-    "message": "Truck Sim",
-    "description": "The label for category Truck Sim in sidebar gameserverSidebar"
-  },
   "sidebar.gameserverSidebar.category.V Rising": {
     "message": "V Rising",
     "description": "The label for category V Rising in sidebar gameserverSidebar"
@@ -239,14 +215,6 @@
     "message": "Project Zomboid",
     "description": "The label for category Project Zomboid in sidebar gameserverSidebar"
   },
-  "sidebar.vpsrootSidebar.category.First Steps": {
-    "message": "Erste Schritte",
-    "description": "The label for category First Steps in sidebar vpsrootSidebar"
-  },
-  "sidebar.vpsrootSidebar.category.Linux": {
-    "message": "Linux",
-    "description": "The label for category Linux in sidebar vpsrootSidebar"
-  },
   "sidebar.vpsrootSidebar.category.General": {
     "message": "Allgemein",
     "description": "The label for category General in sidebar vpsrootSidebar"
@@ -255,37 +223,9 @@
     "message": "Dienste",
     "description": "The label for category Services in sidebar vpsrootSidebar"
   },
-  "sidebar.vpsrootSidebar.category.Windows": {
-    "message": "Windows",
-    "description": "The label for category Windows in sidebar vpsrootSidebar"
-  },
   "sidebar.vpsrootSidebar.category.Gameserver services": {
     "message": "Gameserver Dienste",
     "description": "The label for category Gameserver services in sidebar vpsrootSidebar"
-  },
-  "sidebar.dedicatedserverSidebar.category.First Steps": {
-    "message": "Erste Schritte",
-    "description": "The label for category First Steps in sidebar dedicatedserverSidebar"
-  },
-  "sidebar.dedicatedserverSidebar.category.Operating system": {
-    "message": "Betriebssystem",
-    "description": "The label for category Operating system in sidebar dedicatedserverSidebar"
-  },
-  "sidebar.domainwebspaceSidebar.category.Domain": {
-    "message": "Domain",
-    "description": "The label for category Domain in sidebar domainwebspaceSidebar"
-  },
-  "sidebar.domainwebspaceSidebar.category.Webspace": {
-    "message": "Webspace",
-    "description": "The label for category Webspace in sidebar domainwebspaceSidebar"
-  },
-  "sidebar.voiceserverbotSidebar.category.Voicebot": {
-    "message": "Voicebot",
-    "description": "The label for category Voicebot in sidebar voiceserverbotSidebar"
-  },
-  "sidebar.voiceserverbotSidebar.category.Voiceserver": {
-    "message": "Voiceserver",
-    "description": "The label for category Voiceserver in sidebar voiceserverbotSidebar"
   },
   "sidebar.gameserverSidebar.category.Myth of Empires": {
     "message": "Myth of Empires",
@@ -310,14 +250,6 @@
   "sidebar.gameserverSidebar.category.CS:S": {
     "message": "CS:S",
     "description": "The label for category CS:S in sidebar gameserverSidebar"
-  },
-  "sidebar.gameserverSidebar.category.CS2 (NEW)": {
-    "message": "CS2 (NEW)",
-    "description": "The label for category CS2 (NEW) in sidebar gameserverSidebar"
-  },
-  "sidebar.guidesSidebar.category.General": {
-    "message": "Allgemein",
-    "description": "The label for category General in sidebar guidesSidebar"
   },
   "sidebar.gameserverSidebar.category.Palworld": {
     "message": "Palworld",
@@ -406,5 +338,9 @@
   "sidebar.gameserverSidebar.category.RimWorld Together": {
     "message": "RimWorld Together",
     "description": "The label for category RimWorld Together in sidebar gameserverSidebar"
+  },
+  "sidebar.gameserverSidebar.category.Soulmask": {
+    "message": "Soulmask",
+    "description": "The label for category Soulmask in sidebar gameserverSidebar"
   }
 }

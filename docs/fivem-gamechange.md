@@ -3,8 +3,13 @@ id: fivem-gamechange
 title: "FiveM: Gamechange"
 description: Change your FiveM Version
 sidebar_label: Gamechange
-
+services:
+  - gameserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
+
+<InlineVoucher />
 
 ## Changing your FiveM Version
 Thanks to our gamecloud, you can easily switch between all fivem versions for free.

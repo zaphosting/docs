@@ -3,13 +3,17 @@ id: vrising-firststeps-connect
 Titel: "V Rising: Mit dem V Rising Server verbinden"
 description: Informationen zur Verbindung mit einem V Rising Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Mit dem Server verbinden
+services:
+  - gameserver
 ---
 
-
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einleitung
 
 In dieser Anleitung erfahren wir, wie du dich mit deinem V Rising Server verbinden kannst. Es gibt zwei Möglichkeiten, eine Verbindung herzustellen: entweder direkt über die IP-Adresse deines Servers oder über die Serverliste. Wir empfehlen, den Server vorher nach deinen Wünschen zu konfigurieren. Mehr darüber erfährst du in unserer [V Rising Konfigurationsanleitung](vrising-configuration.md).
+
+<InlineVoucher />
 
 ## Direktverbindung über IP
 

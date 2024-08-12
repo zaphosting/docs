@@ -3,13 +3,19 @@ id: fivem-useprofiler
 title: "FiveM: Using the Profiler and Identifying Server Problems"
 description: Information on how to use and interpret the profiler for your FiveM server on ZAP-Hosting to identify problems - ZAP-Hosting.com 
 sidebar_label: Use Profiler
+services:
+  - gameserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## What is the FiveM Profiler? 
 
 The Profiler is there to measure the performance of the server, so bad and slow resources can be identified and removed/optimized. 
 
 This profiler is integrated in FiveM and can be used with any server.
+
+<InlineVoucher />
 
 ## Usage
 

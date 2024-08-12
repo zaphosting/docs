@@ -3,9 +3,17 @@ id: enshrouded-server-savegames
 title: "Enshrouded: Managing Enshrouded Savegames"
 description: Information on how to manage savegames on your Enshrouded server from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Manage Savegames
+services:
+  - gameserver
 ---
 
+import InlineVoucher from '@site/src/components/InlineVoucher';
+
+## Introduction
+
 In this guide, we will explore how to manage your Enshrouded Gamesaves on your game server, including backing up your local and server savegames as well as uploading it to your server.
+
+<InlineVoucher />
 
 ## Prerequisites
 

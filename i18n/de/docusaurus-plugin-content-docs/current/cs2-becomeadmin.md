@@ -3,20 +3,19 @@ id: cs2-becomeadmin
 title: "CS2: Admin werden"
 description: Information darüber, wie du bei deinem CS2 Server von ZAP-Hosting Admin wirst - ZAP-Hosting.com documentation
 sidebar_label: Admin werden
+services:
+  - gameserver
 ---
 
-
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
-
-Die Nutzung von Administratorberechtigungen ermöglicht es dir den Server auch im Spiel zu verwalten. Somit hast du die Möglichkeit Befehle über die Konsole auszuführen. 
-
+Die Zuweisung von Administratorberechtigungen ermöglicht dir eine einfache und umfangreiche Verwaltung mit voller Kontrolle deines Servers. Als Administrator hast du die Möglichkeit alle verfügbaren Optionen und Funktionen, die das Spiel bereitstellt, direkt im Spiel anzuwenden. Im folgenden werden dir alle notwendigen Schritte erläutert, die du benötigst, um dir die Administratorberechtigungen für deinen Server zuzuweisen. 
+<InlineVoucher />. 
 
 
 ## Voraussetzungen
 Um Administratorberechtigungen zu verwenden muss zunächst die Grundlage geschaffen werden. Standardmäßig bietet CS2 keine umfangreiche Administratorverwaltung an. Allerdings gibt es für so etwas Frameworks, wie zum Beispiel CounterStrikeSharp. Das Framework muss für die Konfiguration bereits installiert sein. Solltest du dies noch nicht installiert haben, so schaue dir gerne unsere [Plugins installieren](cs2-plugins) Anleitung an. 
-
-
 
 ## Admins definieren
 
@@ -34,8 +33,6 @@ Das  Hinzufügen eines Admins erfolgt über die `admins.json` Konfigurationsdate
   }
 }
 ```
-
-
 ## Admin Gruppen definieren
 Es können ebenfalls Admin Gruppen definiert werden. Somit können die Berechtigungen eines Admins über die zugehörige Gruppe definiert werden. Dadurch müssen die Berechtigungen nicht bei jedem einzelnen Admin individuell konfiguriert werden. Die Gruppen werden in der admin_groups.json Konfigurationsdatei definiert, die unter `../cs2/game/csgo/addons/CounterStrikeShap/addons/configs/` zu finden ist.
 ```js title="admin_groups.json"
@@ -48,8 +45,6 @@ Es können ebenfalls Admin Gruppen definiert werden. Somit können die Berechtig
   ]
 }
 ```
-
-
 
 ## Admin Immunität definieren
 

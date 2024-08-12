@@ -3,9 +3,11 @@ id: dedicated-linux-mastodon
 title: "Dedicated Server: Installation of Mastodon"
 description: Information on how to set up Mastodon server on your server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Install Mastodon
+services:
+  - dedicated
 ---
 
-
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
@@ -13,11 +15,13 @@ Mastodon is free and open-source software for running self-hosted social network
 
 ![image](https://user-images.githubusercontent.com/32127408/207198152-fa6ca1e6-b845-4fd8-83d9-cc4a8fb91f9f.png)
 
-It has microblogging features similar to the Twitter service, which are offered by a large number of independently run nodes, known as instances,
+It has microblogging features similar to the X (formerly Twitter) service, which are offered by a large number of independently run nodes, known as instances,
 each with its own code of conduct, terms of service, privacy policy, privacy options, and moderation policies.
 :::info
 This guide focuses the installation on a Debian based Distro. Examples are Debian and Ubuntu. This guide differs depending on what OS you are using.
 :::
+
+<InlineVoucher />
 
 ## System prerequisites
 If you want to setup a Mastodon Instance on your Server, you have to meet some prerequisites

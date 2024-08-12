@@ -3,7 +3,13 @@ id: valheim-backup-schedule
 title: "Valheim: Enable automated backups for servers"
 description: Information on how to enable and set up automated backups for your Valheim server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Automated Backups
+services:
+  - gameserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
+
+<InlineVoucher />
 
 Sadly Valheim is not offering a direct way to do automated Backups, so we need to use a little workaround. 
 

@@ -3,11 +3,17 @@ id: minecraft-firststeps-java-bedrock-comparison
 title: "Minecraft: Java / Bedrock Comparison"
 description: Information on the similarities and differences between Minecraft Java and Bedrock edition game versions - ZAP-Hosting.com documentation
 sidebar_label: Java vs Bedrock
+services:
+  - gameserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
 Are you unsure about what version of Minecraft you should install or buy a server for? Don't worry! This guide will tell you everything about Java and Bedrock Edition (referred to as *Java* and *Bedrock* throughout this page) so you can make an educated choice.
+
+<InlineVoucher />
 
 ## Basics
 

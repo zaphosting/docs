@@ -3,10 +3,16 @@ id: vserver-ssh-default
 title: "vServer: Standard SSH-Schlüssel im Profil verwalten"
 description: Informationen zur Verwaltung von SSH-Schlüsseln, die im Profil deines ZAP-Hosting-Kontos festgelegt sind - ZAP-Hosting.com Dokumentation
 sidebar_label: Standard SSH-Schlüssel
+services:
+  - vserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 Eine unserer neuesten Erweiterungen des ZAP-Hosting-Webinterfaces ist die Möglichkeit, deinem ZAP-Hosting-Konto über unsere Website Standard-SSH-Schlüssel hinzuzufügen. Der große Vorteil dabei ist, dass die SSH-Schlüssel, die du auf deiner Profilseite einrichtest, automatisch eingerichtet und bei der Ersteinrichtung des Produkts oder der Neuinstallation des Betriebssystems verwendet werden. Dadurch sparst du Zeit, da du deine SSH-Schlüssel nicht mehr manuell einrichten musst.
+
+<InlineVoucher />
 
 ## Voraussetzungen
 Um diese Funktion nutzen zu können, musst du einen SSH-Schlüssel erstellen lassen. Wenn du bereits einen SSH-Schlüssel hast, kannst du mit dem nächsten Abschnitt fortfahren.

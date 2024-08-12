@@ -3,15 +3,24 @@ id: palworld-firststeps-dashboard
 title: "Palworld: Dashboard Übersicht"
 description: Informationen zum Dashboard eines Palworld Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Dashboard
+services:
+  - gameserver
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
 Du bist an einem **Palworld Server** interessiert oder besitzt bereits einen, doch dir fehlt noch ein umfassender Überblick über die Verwaltung und die Auffindbarkeit aller notwendigen Optionen? Gerade zu Beginn kann dies eine Herausforderung darstellen. Aber keine Sorge, im Folgenden bieten wir dir eine ausführliche Einführung zur Verwaltung deines Dienstes, damit du den optimalen Durchblick hast. Nachdem du diese Anleitung durchgegangen bist, wirst du problemlos in der Lage sein, deinen Server effizient zu verwalten und alle erforderlichen Optionen sowie Features zügig und unkompliziert zu finden. Hier erhältst du einen strukturierten Überblick, der dir Schritt für Schritt hilft, dich mit der Serververwaltung vertraut zu machen und dein Wissen gezielt zu erweitern. So kannst du sicherstellen, dass dein **Palworld Server** optimal auf deine Bedürfnisse abgestimmt ist und du das Beste aus den vorhandenen Möglichkeiten herausholst.
+ 
+:::tip
+Wir haben jetzt eine separate **Palword (Xbox)** Spielversion auf unseren Gameservern, mit der du auf Xbox/Microsoft Store Spielversionen spielen kannst. In unserer [Anleitung zum Gameserver-Wechsel](gameserver-gameswitch.md) erfährst du, wie du dein Spiel ganz einfach wechseln kannst. Achte darauf, dass du deine Spielstände wie immer sicherst.
+:::
 
 <YouTube videoId="SDZC4-FEdNM" title="Setup Palworld server in just a MINUTE!" description="Hast du das Gefühl, dass du etwas besser verstehst, wenn du es in Aktion siehst?  Wir haben etwas für dich! Tauche ab in unser Video, welches alles für dich zusammenfasst. Egal, ob du es eilig hast oder einfach nur Informationen auf möglichst verständliche Art und Weise aufnehmen möchtest!"/>
+
+<InlineVoucher />
 
 ## Informationen
 
@@ -172,7 +181,10 @@ Du möchtest deinen Server zu bestimmten Uhrzeiten neu starten? Der Restart-Plan
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/k4k9TJTcP9WYx6n/preview)
 
+### DNS Einstellungen
 
+Mit den ZAP-Hosting DNS Einstellungen kannst du leicht zu merkende Adressen für deinen Service erstellen. Du kannst hier entweder eine Subdomain von einer unserer Domains nutze oder du erstellst einen DNS Eintrag auf deinen eigenen Domains und hast damit eine Adresse, die man noch besser mit dir als Person verbinden kann.
+![img](https://screensaver01.zap-hosting.com/index.php/s/XAoNQEnSW6xwKXD/preview)
 
 ## Werkzeuge
 

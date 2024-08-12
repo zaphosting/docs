@@ -3,9 +3,11 @@ id: minecraft-firststeps-dashboard
 title: "Minecraft: Dashboard Overview"
 description: Information about the dashboard of an Minecraft server from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Dashboard
+services:
+  - gameserver
 ---
 
-
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
@@ -13,7 +15,7 @@ You are interested in an **Minecraft server** or already own one, but you still 
 
 After going through this guide, you will easily be able to manage your server efficiently and find all the necessary options and features quickly and easily. Here, you will get a structured overview that will help you step by step to get familiar with the server administration and expand your knowledge in a targeted manner. This way, you can ensure that your **Minecraft server** is optimally adapted to your needs and that you get the most out of the available options.
 
-
+<InlineVoucher />
 
 ## Information
 
@@ -73,13 +75,13 @@ These customization options allow you to adjust the DDoS protection to your indi
 
 ### Tebex Shop
 
-With TEBEX you have the possibility to turn your game server into cash by selling virtual goods and ranks for real money. It's a powerful and reliable tool designed specifically for game server administrators who want to offer a better gaming experience to their players.
+With Tebex you have the possibility to turn your game server into cash by selling virtual goods and ranks for real money. It's a powerful and reliable tool designed specifically for game server administrators who want to offer a better gaming experience to their players.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/TbwafKd3Kmq4WrS/preview)
 
-TEBEX is easy to use and offers numerous features to customize and optimize your store. You can customize your store layout, add payment options, and even launch marketing campaigns to reach more players.
+Tebex is easy to use and offers numerous features to customize and optimize your store. You can customize your store layout, add payment options, and even launch marketing campaigns to reach more players.
 
-By clicking on the image, you can create your own game server store with TEBEX. The setup is quick and easy, so you'll be ready to sell your virtual goods in no time.
+By clicking on the image, you can create your own game server store with Tebex. The setup is quick and easy, so you'll be ready to sell your virtual goods in no time.
 
 
 
@@ -186,7 +188,9 @@ Do you want to schedule server restarts at specific times? The Restart Planner a
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/Y6WciDS7YP98P4m/preview)
 
-
+### DNS settings
+With the ZAP DNS settings, you can create easy-to-remember addresses for your service. You can either use a subdomain of one of our domains or you can create a DNS entry on your own domains and thus have an address that can be better associated with you as a person.
+![img](https://screensaver01.zap-hosting.com/index.php/s/tM5FGTHRSbZA5rN/preview)
 
 ## Tools
 

@@ -44,10 +44,10 @@ Are you interested in joining the conversation and collaborating with other like
 During participation in our ZAP-Hosting Contribution Program, you must abide by our Terms & Conditions and prerequisites. These are non-negotiable and must be followed to be able to participate in our Contribution Program. If we believe that you have breached one of our terms, your work may not be approved and thus will not qualify for our Contribution Program. All final decisions are at the discretion of the ZAP-Hosting Contributions Team.
 
 **Key Information:**
-- You agree to transfer all exclusive intellectual property rights of your creation to ZAP-Hosting GmbH & Co KG. This transfer is confirmed once you have received your payment.
+- You agree to transfer all exclusive intellectual property rights of your creation to ZAP-Hosting GmbH. This transfer is confirmed once you have received your payment.
 - In order to comply with copyright laws, we cannot accept content from other sources. All content that is produced under our contribution program **must be original work** produced by **you**.
 - No unauthorized use of AI/generative tools and/or other pieces of intellectual property is allowed (this includes but is not limited to images, audiovisual media, written content and/or any other piece of intellectual property not specifically stated here, without explicit permission from the rightsholders).
-- All game content and trademarks are the property of their respective owners. All content on this site is the property of ZAP-Hosting GmbH & Co KG.
+- All game content and trademarks are the property of their respective owners. All content on this site is the property of ZAP-Hosting GmbH.
 
 Our full Terms & Conditions for our Contribution Program can be [accessed here](contribution-terms.md).
 

@@ -3,9 +3,11 @@ id: minecraft-default-config
 title: "Minecraft: Server Config-Einstellungen"
 description: Informationen zu den Server Config-Einstellungen deines Minecraft-Servers von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Server Config
+services:
+  - gameserver
 ---
 
-Hier gelangst du zu unseren Minecraft Servern: [Minecraft Server mieten](https://zap-hosting.com/de/minecraft-server-mieten/)
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Was kann ich in dieser Config einstellen?
 
@@ -13,6 +15,8 @@ Minecraft bringt bereits eine kleine Config mit sich, welche sich *server.proper
 In der  kann der Server grundlegend konfiguriert werden.
 Wir beschreiben hier, was die einzelnen Punkte bewirken und was bei Änderungen zu beachten ist.
 Einige Einstellungen sind **behutsam** zu behandeln, da diese teilweise drastischen Einfluss auf die Performance des Servers haben, was unter anderem auch zu Instabilität des Servers führen kann.
+
+<InlineVoucher />
 
 ## Einstellungen
 

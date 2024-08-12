@@ -3,7 +3,11 @@ id: vserver-linux-sshkey
 title: "VPS: Generating and using SSH keys for Linux servers"
 description: Information on how to generate an SSH key for your Linux VPS from ZAP-Hosting and how to use the key - ZAP-Hosting.com documentation
 sidebar_label: SSH Key
+services:
+  - vserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Generate SSH Key
 
@@ -18,6 +22,8 @@ In order for the key to be added to the server, the "**Add Key**" button must be
 :::info
 In the case of Linux VPSs, the key is added directly. In the case of Linux Root Servers, the server must be restarted in order for these changes to take effect.
 :::
+
+<InlineVoucher />
 
 ![](https://user-images.githubusercontent.com/61839701/166181285-f3784fb1-a98f-419c-ac96-6bb12769c36d.png)
 

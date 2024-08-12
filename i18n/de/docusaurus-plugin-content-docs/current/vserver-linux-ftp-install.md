@@ -3,15 +3,17 @@ id: vserver-linux-ftp-install
 title: "vServer: Installation eines FTP-Servers"
 description: Informationen, wie du einen FTP Server auf deinen vServer von ZAP-Hosting installieren und einrichten kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: FTP Server installieren
+services:
+  - vserver
 ---
 
-
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
 Das **FTP (File Transfer Protocol)** ist ein Netzwerkprotokoll, das dazu dient, Dateien über ein TCP/IP-Netzwerk zu übertragen. Das Protokoll wurde entwickelt, um den einfachen Austausch von Dateien zwischen Systemen zu ermöglichen. Mit dem **FileZilla Server** kann solch ein FTP-Server auf einem Linux Betriebssystem eingerichtet werden. Der FileZilla Server ist dabei einfach zu installieren und zu konfigurieren und bietet zahlreiche Funktionen wie die Möglichkeit, Benutzerkonten einzurichten, Zugriffsrechte zu verwalten und Dateien zu übertragen. In dieser Anleitung werden wir uns mit der Installation und Konfiguration des **FileZilla Server**-Dienstes auf einem Linux-Server beschäftigen.
 
-
+<InlineVoucher />
 
 ## Wie installiere ich den FTP Server, und füge einen Nutzer hinzu? 
 

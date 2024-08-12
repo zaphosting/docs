@@ -3,8 +3,11 @@ id: gameserver-resourcelimit
 title: 'Game server: Resource limit - Unlocking a game server'
 description: Information on how to unlock your game server if it has been locked due to exceeding the resource limit - ZAP-Hosting.com documentation
 sidebar_label: Resource limit
+services:
+  - gameserver
 ---
 
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Suspension of your game server
 
@@ -18,7 +21,7 @@ However, if the limit is exceeded for a longer period of time, the server will b
 
 The overview will show you how much resources you have available, how much you have used over a longer period of time and how much we would recommend for regular use. This should give you the opportunity to recognize where active action is needed and to be able to take appropriate steps. 
 
-
+<InlineVoucher />
 
 ## Unlocking of your game server
 

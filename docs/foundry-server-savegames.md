@@ -3,9 +3,17 @@ id: foundry-server-savegames
 title: "Foundry: Managing Foundry Savegames"
 description: Information on how to manage savegames on your Foundry server from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Manage Savegames
+services:
+  - gameserver
 ---
 
+import InlineVoucher from '@site/src/components/InlineVoucher';
+
+## Introduction
+
 In this guide, we will explore how to manage your Foundry Gamesaves on your game server, including backing up your local and server savegames as well as uploading it to your server.
+
+<InlineVoucher />
 
 ## Prerequisites
 

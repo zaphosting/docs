@@ -3,19 +3,17 @@ id: cs2-plugins
 title: "CS2: Installation of plugins"
 description: Information about installing plugins for CS2 Server from ZAP Hosting - ZAP-Hosting.com documentation
 sidebar_label: Install plugins
+services:
+  - gameserver
 ---
 
-:::caution
-CS2 has just recently been released. The game is currently receiving quite a few updates and changes. This also affects the functionality and structure of the CS2 servers. We do our best to keep the guides as correct and up to date as quickly as possible in case something has changed concerning this. 
-:::
-
-
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
 Since the development of Counter-Strike, the game has evolved from a simple Half-Life mod to one of the most well-known and long-lived first-person shooters in the world. But what makes Counter-Strike especially unique and versatile are not only the official game modes, but also the countless custom modes created and made possible by the worldwide community through plugins.
 
-
+<InlineVoucher />
 
 ## Current situation
 

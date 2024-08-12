@@ -1,4 +1,53 @@
 {
+  "inlinevoucher.description.without-products": {
+    "message": "Startklar für dein nächstes cooles Projekt 😉"
+  },
+  "inlinevoucher.list-title.without-products": {
+    "message": "Warum du uns testen solltest?"
+  },
+  "inlinevoucher.list-reasons.first": {
+    "message": "DDoS-Protection"
+  },
+  "inlinevoucher.list-reasons.second": {
+    "message": "Server online in Minuten"
+  },
+  "inlinevoucher.list-reasons.third": {
+    "message": "Eigenes Webinterface"
+  },
+  "voucherbox.cta": {
+    "message": "Server mieten"
+  },
+  "voucherbutton.success": {
+    "message": "JUHUUU!"
+  },
+  "inlinevoucher.title": {
+    "message": "{voucherValue} {voucherType} HOSTING-GUTSCHEIN 🏷️"
+  },
+  "inlinevoucher.description.with-products": {
+    "message": "Starklar mit den Produkten aus der Anleitung 😉"
+  },
+  "inlinevoucher.list-title.with-products": {
+    "message": "Somit unter anderem gültig für:"
+  },
+  "inlinevoucher.your-voucher": {
+    "message": "DEIN CODE"
+  },
+  "voucher.redeem": {
+    "message": "Einlösen"
+  },
+  "voucherbox.title": {
+    "message": "HOSTING-GUTSCHEIN"
+  },
+  "servicelist.introduction": {
+    "message": "Die Anleitung wurde mit folgenden Produkten erstellt:"
+  },
+  "servicelist.note": {
+    "message": "(Einzelheiten können sich bei Produkten anderer Anbieter unterscheiden, die Grundkonzepte bleiben in der Regel unverändert)"
+  },
+  "service.gameserver.path": {
+    "message": "{marketingSite}/{language}/gameserver-mieten/",
+    "description": "URL path for the gameserver product"
+  },
   "theme.ErrorPageContent.title": {
     "message": "Die Seite ist abgestürzt.",
     "description": "The title of the fallback page when the page crashed"
@@ -305,5 +354,65 @@
   "theme.docs.DocCard.categoryDescription.plurals": {
     "message": "{count} Einträge",
     "description": "The default description for a category card in the generated index about how many items this category includes"
+  },
+  "service.gameserver.title": {
+    "message": "Cloud-Gameserver",
+    "description": "Product name for the gameserver product"
+  },
+  "service.vserver.title": {
+    "message": "VPS",
+    "description": "Product name for the gameserver product"
+  },
+  "service.vserver.path": {
+    "message": "{marketingSite}/{language}/vserver-mieten/",
+    "description": "URL path for the VPS product"
+  },
+  "service.dedicated.title": {
+    "message": "Dedicated Server",
+    "description": "Product name for the dedicated server product"
+  },
+  "service.dedicated.path": {
+    "message": "{marketingSite}/{language}/dedicated-server-mieten/",
+    "description": "URL path for the dedicated server product"
+  },
+  "service.domain.title": {
+    "message": "Domain",
+    "description": "Product name for the domain product"
+  },
+  "service.domain.path": {
+    "message": "{marketingSite}/{language}/domain-check/",
+    "description": "URL path for the domain product"
+  },
+  "service.webspace.title": {
+    "message": "Webspace",
+    "description": "Product name for the webspace product"
+  },
+  "service.webspace.path": {
+    "message": "{marketingSite}/{language}/webhosting-webspace-mieten/",
+    "description": "URL path for the webspace product"
+  },
+  "service.voiceserver.title": {
+    "message": "Voiceserver",
+    "description": "Product name for the voiceserver product"
+  },
+  "service.voiceserver.path": {
+    "message": "{marketingSite}/{language}/teamspeak-3-server-mieten/",
+    "description": "URL path for the voiceserver product"
+  },
+  "service.voicebot.title": {
+    "message": "Voicebot",
+    "description": "Product name for the voicebot product"
+  },
+  "service.voicebot.path": {
+    "message": "{marketingSite}/{language}/teamspeak-3-mymusicbot-mieten/",
+    "description": "URL path for the voicebot product"
+  },
+  "service.storage.title": {
+    "message": "Premium Storage",
+    "description": "Product name for the storage product"
+  },
+  "service.storage.path": {
+    "message": "{marketingSite}/{language}/shop/product/premium-storage/",
+    "description": "URL path for the storage product"
   }
 }

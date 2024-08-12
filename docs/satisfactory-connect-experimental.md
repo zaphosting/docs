@@ -3,7 +3,13 @@ id: satisfactory-connect-experimental
 title: "Satisfactory: Connect to the Server (Experimental)"
 description: Information on how to connect to your Satisfactory server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Connect to the Server (Experimental)
+services:
+  - gameserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
+
+<InlineVoucher />
 
 Open your ZAP-Hosting Gameserver Dashboard and verify that the Server is Online:
 

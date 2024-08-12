@@ -1,9 +1,15 @@
 ---
 id: ragemp-installpackages
 title: "RageMP: Installation of packages"
-description: Information on how to install packages on your RageMP server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: Information on how to install packages on your RAGE Multiplayer server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Install packages
+services:
+  - gameserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
+
+<InlineVoucher />
 
 ## Connect via FTP
 
@@ -12,7 +18,7 @@ Before packages can be installed, the [FTP-Access](gameserver-ftpaccess.md) must
 ![image](https://user-images.githubusercontent.com/13604413/159178012-0172691b-d49f-49d6-ab34-cc01eadbacf5.png)
 
 
-## RageMP Packages
+## RAGE Multiplayer Packages
 
 RageMP packages are extensions or modifications. 
 RageMP distinguishes between "**Client**" and "**Server**" packages

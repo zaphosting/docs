@@ -8,10 +8,7 @@ sidebar_label: Zahlungsoptionen
 ## Übersicht
 Wir bieten eine große Anzahl verschiedener Zahlungsoptionen an, mit denen Server sofort gemietet werden und bereitgestellt werden können. Der Zahlungsprozess ist einfach und schnell. Folgende Zahlungsoptionen werden von uns angeboten:
 *  **ZAP Coins:** ZAP Coins wird über die Cashbox (Geld einzahlen) hinzugefügt und kann für fast alle Produkte verwendet werden.
-* **Sofortüberweisung:** Bezahlung mit Onlinebanking über Sofortüberweisung.de. Verfügbar für fast alle deutschen Onlinebanking-Zugänge.
 * **Kreditkarte:** Bezahlung per Kreditkarte
-* **Giropay:** Bezahlung mit Onlinebanking. Giropay ist verfügbar für Kunden von Sparkassen und Raiffeisenbanken und wurde von diesen entwickelt.
-* **EPS:** Das österreiche Zahlungssystem, um per Internet über Onlinebanking zu bezahlen. EPS Überweisung ist über eine Schnittstelle mit Giropay verbunden.
 * **PayPal:** Bezahlung per PayPal.
 * **Paysafecard:** PaySafeCards sind Prepaidkarten, die an über 25.000 Verkaufsstellen in Deutschand erworben werden können. Zur Zahlung wird der Kartencode benötigt.
 * **Bitcoin:** Bezahlung mit Bitcoin bezahlen. Die Abwicklung wird über den Anbieter Coinify durchgeführt.

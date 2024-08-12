@@ -3,11 +3,12 @@ id: beammp-firststeps-dashboard
 title: "BeamMP: Dashboard Overview"
 description: Information about the dashboard of a BeamMP server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Dashboard
+services:
+  - gameserver
 ---
 
-
-
 import YouTube from '@site/src/components/YouTube/YouTube';
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 
@@ -19,10 +20,7 @@ After going through this guide, you will easily be able to manage your server ef
 
 <YouTube videoId="tUuKe91wgtI" title="Get BeamMP server in just a MINUTE!" description="Feel like you understand better when you see things in action?  We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
 
-
-
-
-
+<InlineVoucher />
 
 ## Information
 
@@ -84,13 +82,13 @@ The use of the DDoS Manager is only possible if either an own IP address or the 
 
 ### Tebex Shop
 
-With TEBEX you have the possibility to turn your game server into cash by selling virtual goods and ranks for real money. It's a powerful and reliable tool designed specifically for game server administrators who want to offer a better gaming experience to their players.
+With Tebex you have the possibility to turn your game server into cash by selling virtual goods and ranks for real money. It's a powerful and reliable tool designed specifically for game server administrators who want to offer a better gaming experience to their players.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/TbwafKd3Kmq4WrS/preview)
 
-TEBEX is easy to use and offers numerous features to customize and optimize your store. You can customize your store layout, add payment options, and even launch marketing campaigns to reach more players.
+Tebex is easy to use and offers numerous features to customize and optimize your store. You can customize your store layout, add payment options, and even launch marketing campaigns to reach more players.
 
-By clicking on the image, you can create your own game server store with TEBEX. The setup is quick and easy, so you'll be ready to sell your virtual goods in no time.
+By clicking on the image, you can create your own game server store with Tebex. The setup is quick and easy, so you'll be ready to sell your virtual goods in no time.
 
 
 
@@ -193,7 +191,9 @@ Do you want to schedule server restarts at specific times? The Restart Planner a
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/Y6WciDS7YP98P4m/preview)
 
-
+### DNS settings
+With the ZAP DNS settings, you can create easy-to-remember addresses for your service. You can either use a subdomain of one of our domains or you can create a DNS entry on your own domains and thus have an address that can be better associated with you as a person.
+![img](https://screensaver01.zap-hosting.com/index.php/s/tM5FGTHRSbZA5rN/preview)
 
 ## Tools
 

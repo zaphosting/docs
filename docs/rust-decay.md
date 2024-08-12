@@ -3,7 +3,13 @@ id: rust-decay
 title: "Rust: Modify Decay"
 description: Information, how to adjust the decay on your Rust server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Decay
+services:
+  - gameserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
+
+<InlineVoucher />
 
 Using RCON, you can run a command directly to make yourself admin. Firstly its required to [Connect via RCON](rust-connectrcon.md).
 

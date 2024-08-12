@@ -3,9 +3,11 @@ id: stormworks-firststeps-dashboard
 title: "Stormworks: Dashboard Übersicht"
 description: Informationen zum Dashboard eines Stormworks  Server von ZAP-Hosting - ZAP-Hosting.com Dokumentationen
 sidebar_label: Dashboard
+services:
+  - gameserver
 ---
 
-
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
@@ -13,7 +15,7 @@ Du bist an einem **Stormworks  Server** interessiert oder besitzt bereits einen,
 
 Nachdem du diese Anleitung durchgegangen bist, wirst du problemlos in der Lage sein, deinen Server effizient zu verwalten und alle erforderlichen Optionen sowie Features zügig und unkompliziert zu finden. Hier erhältst du einen strukturierten Überblick, der dir Schritt für Schritt hilft, dich mit der Serververwaltung vertraut zu machen und dein Wissen gezielt zu erweitern. So kannst du sicherstellen, dass dein **Stormworks  Server** optimal auf deine Bedürfnisse abgestimmt ist und du das Beste aus den vorhandenen Möglichkeiten herausholst.
 
-
+<InlineVoucher />
 
 ## Informationen
 
@@ -179,7 +181,10 @@ Du möchtest deinen Server zu bestimmten Uhrzeiten neu starten? Der Restart-Plan
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/k4k9TJTcP9WYx6n/preview)
 
+### DNS Einstellungen
 
+Mit den ZAP-Hosting DNS Einstellungen kannst du leicht zu merkende Adressen für deinen Service erstellen. Du kannst hier entweder eine Subdomain von einer unserer Domains nutze oder du erstellst einen DNS Eintrag auf deinen eigenen Domains und hast damit eine Adresse, die man noch besser mit dir als Person verbinden kann.
+![img](https://screensaver01.zap-hosting.com/index.php/s/XAoNQEnSW6xwKXD/preview)
 
 ## Werkzeuge
 

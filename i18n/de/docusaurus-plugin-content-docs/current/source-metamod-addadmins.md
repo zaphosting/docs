@@ -3,13 +3,19 @@ id: source-metamod-addadmins
 title: Source Spiele Server-Admin werden
 description: Informationen, wie du dich zum Admin auf deinem Source Gameserver von ZAP-Hosting machen kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Admin werden
+services:
+  - gameserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Admin werden
 
 Damit man sich als Admin eintragen kann, ist die Installation von Source- / Metamod essenziell.
 
 Des Weiteren benötigt man die Steam ID des Steam Accounts. Es gibt mehrere Möglichkeiten, um an diese heranzukommen. Entweder man benutzt eine externe Webseite, die so einen Dienst anbietet oder die Spiel-Konsole dafür.
+
+<InlineVoucher />
 
 ### SteamID via Webseite
 

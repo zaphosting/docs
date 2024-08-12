@@ -3,9 +3,13 @@ id: gameserver-backups
 title: 'Game server: Create, download and import backups'
 description: Information on how to create, download and restore backups for your game server from ZAP-Hosting -ZAP-Hosting.com 
 sidebar_label: Backups
+services:
+  - gameserver
+  - premium-storage
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 We offer the possibility to create individual backups per click. This allows you to create backups easily and without much effort as well as import them at any time later. We offer this feature for the server files of your game server as well as for the associated databases. All backups are stored on your storage server, which includes 10GB free storage space by default. If you need more, then you can also upgrade to Premium Storage.
@@ -14,6 +18,7 @@ Besides creating backups manually, backups can also be created fully automatical
 
 <YouTube videoId="yUDAcfyDELc" title="How to create BACKUPS for your Server!" description="Feel like you understand better when you see things in action?  We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
 
+<InlineVoucher />
 
 ## Create backups manually
 
@@ -22,8 +27,6 @@ Press the green **+** button next to the backup list to create a backup manually
 :::info
 The backup creation process can take a few minutes depending on the file size of your server!
 :::
-
-
 
 ## Create backups automatically
 

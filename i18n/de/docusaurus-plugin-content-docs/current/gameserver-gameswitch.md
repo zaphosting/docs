@@ -3,7 +3,11 @@ id: gameserver-gameswitch
 title: 'Gameserver: Spielwechsel mit der Gameservercloud'
 description: Informationen, wie du weitere Spiele auf deinen Gameserver von ZAP-Hosting.com installieren und zwischen den Spielen wechseln kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Spielwechsel
+services:
+  - gameserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
@@ -25,6 +29,8 @@ Tipp: Du kannst deinen Gameserver über die Upgrade / Downgrade-Funktion auf ein
 :::info
 Minecraft-Modpacks haben den gleichen Slotpreis. Da keine Host-System-Wechsel notwendig ist, werden keine Daten beim Spielwechsel gelöscht. Du kannst ein neues Modpack testen und bei Bedarf deinen bisherigen Server wieder aktivieren.
 :::
+
+<InlineVoucher />
 
 ## Spielwechsel
 

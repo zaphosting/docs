@@ -3,9 +3,11 @@ id: domain-introduction
 title: "Domain: Introduction"
 description: Introduction and information about the Domain product from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Introduction
+services:
+  - domain
 ---
 
-
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
@@ -13,6 +15,8 @@ Are you looking for a domain at a fair price? Then ZAP-Hosting is the right plac
 
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/ESkLyeoLMTTENHG/preview)
+
+<InlineVoucher />
 
 ## Ordering
 

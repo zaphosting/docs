@@ -3,10 +3,11 @@ id: vserver-linux-gs-interface
 title: "vServer: Gameserver/TS3 Interface"
 description: Informationen, wie du über das Gameserver/TS3 Interface mit wenigen Klicks TS und Gameserver auf deinen vServer von ZAP-Hosting.com installieren kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: GS/TS3 Interface
-
+services:
+  - vserver
 ---
 
-
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
@@ -14,8 +15,7 @@ Wenn Gameserver-Produkte nicht deinem Geschmack oder Erwartungen entsprechen ode
 
 Um dieses Problem zu lösen, haben wir für unsere Linux-basierten vServer, Rootserver oder Dedicated Server eine praktische Lösung entwickelt. Das sogenannte Gameserver / Teamspeak 3 Server Interface (GS/TS3 Interface)!
 
-
-
+<InlineVoucher />
 
 ## Nutzen des GS/TS3 Interface
 

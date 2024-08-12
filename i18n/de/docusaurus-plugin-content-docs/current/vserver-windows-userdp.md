@@ -3,12 +3,17 @@ id: vserver-windows-userdp
 title: "vServer: Erstzugriff auf Windows Server mit RDP"
 description: Informationen, wie der Erstzugriff auf deinen Windows vServer von ZAP-Hosting mit der Remote Desktopverbindung funktioniert - ZAP-Hosting.com Dokumentation
 sidebar_label: Erstzugriff (RDP)
+services:
+  - vserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
+
+<InlineVoucher />
 
 ## Remotedesktopverbindung
 
 ![Remote](https://user-images.githubusercontent.com/13604413/178118543-4b8ca75d-1308-44b6-80c0-da5eb7c48bfc.gif)
-
 
 Die Verbindung zu deinem Windows Server erfolgt über das von Windows mitgelieferte Programm "Remotedesktopverbindung".  Das Programm lässt sich über die Windows Suche unter dem Begriff "remote" finden.
 

@@ -3,10 +3,17 @@ id: dedicated-iso
 title: "Dedicated Server: Eigene ISO"
 description: Informationen, wie du eine eigene ISO-Datei auf deinen Dedicated Server von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Eigene ISO
+services:
+  - dedicated
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
+
 :::info
 Das Einbinden eigener ISO Dateien erfolgt auf eigene Verantwortung
 :::
+
+<InlineVoucher />
 
 ## Welche Möglichkeiten gibt es?
 Es gibt zwei verschiedene Wege, eine eigene ISO einzubinden. Bei allen Wegen ist es erforderlich, dass der Server neu gestartet wird.

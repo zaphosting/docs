@@ -3,9 +3,17 @@ id: stormworks-becomeadmin
 title: "Stormworks: Become a Stormworks Admin"
 description: How to become an admin for Stormworks game servers - ZAP-Hosting.com documentation 
 sidebar_label: Become admin
+services:
+  - gameserver
 ---
 
-### You can become an admin on your Stormwork server as follows:
+import InlineVoucher from '@site/src/components/InlineVoucher';
+
+## Introduction
+The assignment of administrator permissions allows you simple and comprehensive administration with full control of your server. As an administrator, you have the option of using all available options and functions provided by the game directly in the game. All the steps you need to take to assign administrator permissions for your server will be described below. 
+<InlineVoucher />
+
+### Configuration
 
 Click on "Configs" under Settings in the web interface of your game server:
 

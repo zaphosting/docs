@@ -3,10 +3,11 @@ id: cs16-plugins
 title: "CS 1.6: Plugins auf dem eigenen Server installieren"
 description: Informationen, wie du Plugins auf deinem CS 1.6-Server von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Plugins installieren
-
+services:
+  - gameserver
 ---
 
-
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## AMXmodX / Metamod installation
 
@@ -14,6 +15,7 @@ Um Plugins auf einem Counter-Strike 1.6 Server zu installieren wird **AMXmodX** 
 
 ![image](https://user-images.githubusercontent.com/26007280/189676187-c08cf45f-578d-4cbe-ba76-8d59792ea5c3.png)
 
+<InlineVoucher />
 
 ### Vorbereitung
 

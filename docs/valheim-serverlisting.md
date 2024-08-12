@@ -3,7 +3,13 @@ id: valheim-serverlisting
 title: "Valheim: Server listing problems with Steam games using Steamworks"
 description: Information about the problem that servers for Steamworks games are not shown in the server listing - ZAP-Hosting.com documentation
 sidebar_label: Serverlisting Problems
+services:
+  - gameserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
+
+<InlineVoucher />
 
 Unfortunately, many popular games like ARK or Valheim have massive problems with listing all servers in the ingame server list. 
 
@@ -23,7 +29,7 @@ There are also various game developers who have commented on this problem. For e
 
 ![image](https://user-images.githubusercontent.com/26007280/189887401-d7672655-5700-4bad-9944-98b29b55df9b.png)
 
-Source: https://twitter.com/garrynewman/status/1334446218437681152?s=20
+Source: https://x.com/garrynewman/status/1334446218437681152?s=20
 
 Or even Rust, as they write in their blog:
 

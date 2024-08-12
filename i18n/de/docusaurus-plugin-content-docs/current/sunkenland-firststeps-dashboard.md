@@ -3,10 +3,12 @@ id: sunkenland-firststeps-dashboard
 title: "Sunkenland: Dashboard Übersicht"
 description: Informationen zum Dashboard eines Sunkenland Server von ZAP-Hosting - ZAP-Hosting.com Dokumentationen
 sidebar_label: Dashboard
+services:
+  - gameserver
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';
-
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
@@ -16,8 +18,7 @@ Nachdem du diese Anleitung durchgegangen bist, wirst du problemlos in der Lage s
 
 <YouTube videoId="WztMheb29Gs" title="Get Sunkenland server in just a MINUTE!" description="Hast du das Gefühl, dass du etwas besser verstehst, wenn du es in Aktion siehst?  Wir haben etwas für dich! Tauche ab in unser Video, welches alles für dich zusammenfasst. Egal, ob du es eilig hast oder einfach nur Informationen auf möglichst verständliche Art und Weise aufnehmen möchtest!"/>
 
-
-
+<InlineVoucher />
 
 ## Informationen
 
@@ -75,13 +76,13 @@ Mit diesen Anpassungsmöglichkeiten kannst du den DDoS-Schutz individuell auf de
 
 ### Tebex Shop
 
-Mit TEBEX hast du die Möglichkeit, aus deinem Gameserver bares Geld zu machen, indem du virtuelle Güter und Ränge für echtes Geld verkaufst. Es ist ein leistungsstarkes und zuverlässiges Tool, das speziell für Game-Server-Administratoren entwickelt wurde, die ihren Spielern ein besseres Spielerlebnis bieten möchten.
+Mit Tebex hast du die Möglichkeit, aus deinem Gameserver bares Geld zu machen, indem du virtuelle Güter und Ränge für echtes Geld verkaufst. Es ist ein leistungsstarkes und zuverlässiges Tool, das speziell für Game-Server-Administratoren entwickelt wurde, die ihren Spielern ein besseres Spielerlebnis bieten möchten.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/TbwafKd3Kmq4WrS/preview)
 
-TEBEX ist einfach zu bedienen und bietet zahlreiche Funktionen, um deinen Shop anzupassen und zu optimieren. Du kannst dein Shop-Layout anpassen, Zahlungsoptionen hinzufügen, und sogar Marketingkampagnen starten, um mehr Spieler zu erreichen.
+Tebex ist einfach zu bedienen und bietet zahlreiche Funktionen, um deinen Shop anzupassen und zu optimieren. Du kannst dein Shop-Layout anpassen, Zahlungsoptionen hinzufügen, und sogar Marketingkampagnen starten, um mehr Spieler zu erreichen.
 
-Indem du auf das Bild klickst, kannst du deinen eigenen Gameserver Shop mit TEBEX erstellen. Das Einrichten ist schnell und einfach, so dass du in kürzester Zeit bereit bist, deine virtuellen Güter zu verkaufen. 
+Indem du auf das Bild klickst, kannst du deinen eigenen Gameserver Shop mit Tebex erstellen. Das Einrichten ist schnell und einfach, so dass du in kürzester Zeit bereit bist, deine virtuellen Güter zu verkaufen. 
 
 
 ### Log-Dateien
@@ -185,6 +186,10 @@ Du möchtest deinen Server zu bestimmten Uhrzeiten neu starten? Der Restart-Plan
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/k4k9TJTcP9WYx6n/preview)
 
+### DNS Einstellungen
+
+Mit den ZAP-Hosting DNS Einstellungen kannst du leicht zu merkende Adressen für deinen Service erstellen. Du kannst hier entweder eine Subdomain von einer unserer Domains nutze oder du erstellst einen DNS Eintrag auf deinen eigenen Domains und hast damit eine Adresse, die man noch besser mit dir als Person verbinden kann.
+![img](https://screensaver01.zap-hosting.com/index.php/s/XAoNQEnSW6xwKXD/preview)
 
 
 ## Werkzeuge

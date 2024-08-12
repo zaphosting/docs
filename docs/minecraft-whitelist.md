@@ -3,9 +3,12 @@ id: minecraft-whitelist
 title: "Minecraft: Server Activating and editing a whitelist"
 description: Information on how to activate and edit a whitelist for your Minecraft server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Whitelist
+services:
+  - gameserver
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 The **Minecraft Whitelist** is an option to protect your server by only allowing selected players on the list to connect to yourserver. By default, Minecraft doesn't offer a server password option like other games do.
@@ -13,6 +16,8 @@ The **Minecraft Whitelist** is an option to protect your server by only allowing
 ![image](https://user-images.githubusercontent.com/13604413/159177717-aa8faccd-3535-4147-b3db-278f2799c883.png)
 
 <YouTube videoId="nyor26XxwLY" title="How to enable WHITELIST on your Minecraft Server" description="Feel like you understand better when you see things in action?  We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
+
+<InlineVoucher />
 
 ## Activate whitelist
 

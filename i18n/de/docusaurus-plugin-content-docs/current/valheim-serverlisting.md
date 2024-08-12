@@ -3,8 +3,13 @@ id: valheim-serverlisting
 title: "Valheim: Serverlisting Probleme bei Steam Spielen, die Steamworks nutzen"
 description: Informationen zu dem Problem, dass Server für Steamworks-Spiele nicht in der Serverliste angezeigt werden - ZAP-Hosting.com Dokumentation
 sidebar_label: Serverlisting Probleme
+services:
+  - gameserver
 ---
 
+import InlineVoucher from '@site/src/components/InlineVoucher';
+
+<InlineVoucher />
 
 Leider haben viele populäre Spiele wie ARK oder Valheim massive Probleme mit dem Listing aller Server in der im Spiel Serverliste. 
 Das liegt daran, dass diese Spiele die Software "Steamworks" für ihr Listing verwenden. 
@@ -23,7 +28,7 @@ Es gibt zu diesem Problem auch verschiedene Spieleentwickler, die sich dazu äu�
 
 ![image](https://user-images.githubusercontent.com/26007280/189887324-8b35242c-5ff8-455e-8a34-f26b76b732fd.png)
 
-Quelle: https://twitter.com/garrynewman/status/1334446218437681152?s=20
+Quelle: https://x.com/garrynewman/status/1334446218437681152?s=20
 
 Oder auch Rust, wie sie in Ihrem Blog schreiben:
 

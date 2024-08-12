@@ -44,10 +44,10 @@ Bist du daran interessiert, dich an der Konversation zu beteiligen und mit ander
 Während der Teilnahme an unserem ZAP-Hosting-Beitragsprogramm musst du dich an unsere Allgemeinen Geschäftsbedingungen und Anforderungen halten. Diese sind nicht verhandelbar und müssen befolgt werden, damit du an unserem Beitragsprogramm teilnehmen kannst. Wenn wir der Meinung sind, dass du gegen eine unserer Bedingungen verstoßen hast, kann es sein, dass deine Arbeit nicht genehmigt wird und du dich somit nicht für unser Beitragsprogramm qualifizierst. Alle endgültigen Entscheidungen liegen im Ermessen des ZAP-Hosting Beitragsteams.
 
 **Wichtige Informationen:**
-- Du stimmst zu, alle exklusiven Rechte am geistigen Eigentum deiner Kreation an die ZAP-Hosting GmbH & Co KG zu übertragen. Diese Übertragung wird bestätigt, sobald du deine Zahlung erhalten hast.
+- Du stimmst zu, alle exklusiven Rechte am geistigen Eigentum deiner Kreation an die ZAP-Hosting GmbH zu übertragen. Diese Übertragung wird bestätigt, sobald du deine Zahlung erhalten hast.
 - Um die Urheberrechtsgesetze einzuhalten, können wir keine Inhalte aus anderen Quellen akzeptieren. Alle Inhalte, die im Rahmen unseres Beitragsprogramms erstellt werden, **müssen Originalwerke** sein, die von **Du** erstellt wurden.
 - Die unerlaubte Nutzung von KI/generativen Werkzeugen und/oder anderem geistigen Eigentum ist nicht erlaubt (dazu gehören unter anderem Bilder, audiovisuelle Medien, schriftliche Inhalte und/oder anderes geistiges Eigentum, das hier nicht ausdrücklich genannt ist, ohne ausdrückliche Genehmigung der Rechteinhaber).
-- Alle Spielinhalte und Marken sind das Eigentum der jeweiligen Inhaber. Alle Inhalte auf dieser Seite sind Eigentum der ZAP-Hosting GmbH & Co KG.
+- Alle Spielinhalte und Marken sind das Eigentum der jeweiligen Inhaber. Alle Inhalte auf dieser Seite sind Eigentum der ZAP-Hosting GmbH.
 
 Unsere vollständigen Geschäftsbedingungen für unser Beitragsprogramm kannst du [hier](contribution-terms.md) abrufen.
 

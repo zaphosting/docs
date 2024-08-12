@@ -104,5 +104,5 @@ In the case of unapproved published content of this kind, we reserve the right o
 
 ZAP-Hosting reserves the right to change the appearance of the ZAP-Hosting brand assets at any time and without prior notice. Any use of the ZAP-Hosting brand assets must be for the benefit of ZAP-Hosting. By using the Brand Assets as authorized by ZAP-Hosting, you acknowledge ZAP-Hosting's ownership of all Brand Assets and warrant that you will not take any action inconsistent with ZAP-Hosting's ownership. Strict adherence to these guidelines is required at all times, and any use of ZAP-Hosting's proprietary graphics and logos in violation of these guidelines automatically terminates any license and permission relating to your use of ZAP-Hosting's Brand Assets.
 
-"ZAP-Hosting", ZAP-Hosting.com and the ZAP-Hosting logo are trademarks of ZAP-Hosting GmbH & Co. KG
+"ZAP-Hosting", ZAP-Hosting.com and the ZAP-Hosting logo are trademarks of ZAP-Hosting GmbH
 Legal basis according to [Imprint](https://zap-hosting.com/en/imprint/)

@@ -3,16 +3,24 @@ id: fivem-esx-becomeadminoverdatabase
 title: "FiveM: Become admin over the database"
 description: Information on how to become admin over database of your FiveM server with ESX from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Become admin over the Database
+services:
+  - gameserver
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
+
+## Introduction
+The assignment of administrator permissions allows you simple and comprehensive administration with full control of your server. As an administrator, you have the option of using all available options and functions provided by the game directly in the game. All the steps you need to take to assign administrator permissions for your server will be described below. 
+<InlineVoucher />
+
+## Configuration
+
+First of all we have to connect to our database.Here's what we do.
 
 :::info
 **Important:** A character must be created by you, so that you can find it in the database.
 :::
 
-## Become Admin
-
-First of all we have to connect to our database.
-Here's what we do.
 
 **1** Select Database TAB
 

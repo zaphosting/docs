@@ -3,13 +3,19 @@ id: dedicated-pterodactyl
 title: "Dedicated Server: Installation von Pterodactyl"
 description: Informationen zur Installation des Pterodactyl-Panels mit Debian auf deinem Dedicated Server von ZAP-Hosting -   ZAP-Hosting.com Dokumentation
 sidebar_label: Pterodactyl installieren
+services:
+  - dedicated
 ---
+
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
 Das Pterodactyl Panel ist ein Open-Source-Kontrollpanel, das speziell dafür entwickelt wurde, um das Verwalten und Hosten von Spieleservern zu vereinfachen. Es bietet eine Benutzeroberfläche, die es Administratoren ermöglicht, zentral mehrere Spieleserver zu konfigurieren und zu verwalten.
 
 In dieser Anleitung werden wir die notwendigen Schritte durchgehen, um deine eigene Pterodactyl-Instanz auf deinem Server einzurichten.
+
+<InlineVoucher />
 
 ## Voraussetzungen
 
@@ -20,8 +26,6 @@ Du benötigst einen dedizierten Server mit Linux, um das Pterodactyl Panel zu in
 | Ubuntu | 20.04, 22.04 |
 | CentOS | 7, 8    |
 | Debian | 11, 12  |
-
-
 
 ## Abhängigkeiten
 
