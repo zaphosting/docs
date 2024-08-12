@@ -4,7 +4,7 @@ import { mapList } from '../../utilities/serviceMapper';
 import VoucherButton from '../VoucherButton';
 import { VoucherContext } from '../../utilities/contexts/VoucherContext';
 import { useContext } from 'react';
-import { useDoc } from '@docusaurus/theme-common/internal';
+import { useDoc } from '@docusaurus/plugin-content-docs/client';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 
 export default function InlineVoucher({ showProducts = true }): JSX.Element {
