@@ -1,6 +1,6 @@
 ---
 id: vserver-windows-nointernet
-title: "VPS: Fehlersuche bei fehlendem Internet"
+title: "vServer: Fehlersuche bei fehlendem Internet"
 description: Informationen zur Fehlersuche und Behebung von Netzwerk- und Internetproblemen auf Windows vRootserver von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Fehlersuche bei fehlendem Internet
 services:
