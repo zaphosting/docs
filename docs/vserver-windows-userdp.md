@@ -1,48 +1,51 @@
 ---
 id: vserver-windows-userdp
-title: "VPS: Initial access to Windows Server with RDP"
-description: Information on how to gain initial access to your Windows VPS from ZAP-Hosting with the remote desktop connection - ZAP-Hosting.com documentation
-sidebar_label: Initial access (RDP)
+title: "VPS: Accessing Windows Server via Remote Desktop (RDP)"
+description: Information on accessing your Windows VPS from ZAP-Hosting using Remote Desktop (RDP) - ZAP-Hosting.com documentation
+sidebar_label: Initial Access (RDP)
 services:
   - vserver
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
+## Introduction
+
+Windows OS uses the Remote Desktop (RDP) protocol to easily facilitate connecting remotely to other Windows systems. In this guide, we will go through the simple connection process via RDP to your Windows server.
+
 <InlineVoucher />
 
-## Remotedesktop connection
+## Preparing Connection Details
 
-![](https://screensaver01.zap-hosting.com/index.php/s/iKzYiHJ46WRQq2G/download/Remote.gif)
+Regardless of the application used to access the Windows server, you will always be required to enter credentials to connect to the server.
 
-You connect to your Windows server using the Remote Desktop Connection program provided by Windows.  The program can be found via the Windows search under the term "remote".
+Begin by going to your server's web interface panel and heading over to the **Access & Security** section.
 
-:::info
-The Windows search function can be found via the Windows icon in the lower left corner.
-:::
+On this page, you will be able to view all the necessary information, mainly your server's **IP Address** and user connection credentials. Your user credentials is composed of the **Username** field which should be `Administrator` and the **Password** field.
 
-![image](https://user-images.githubusercontent.com/13604413/159172603-28ab83df-7b01-47ff-a7de-820a2f9b21cd.png)
+If your server is new, you will be able to access your initial ranomly-generated password on this page via a prompt. Otherwise, the password is redacted for security reasons, but if you at any point forget it, you can set your own password or randomly generate a new one.
 
-## IP address & access
+![image](https://screensaver01.zap-hosting.com/index.php/s/amLy6sC6XzBN5fQ/preview)
 
-"Remote Desktop Connection", asks for a "**computer name**". This is the IP address of the server.
+Now that you have your connection information ready, head over to the next section to select an appropriate application to connect.
 
-![image](https://user-images.githubusercontent.com/13604413/159172608-95cba5ba-111f-41e5-b3c5-edc28ef495b5.png)
+## Connecting via Windows
 
-The IP address can be found in the ZAP web interface under "**Access & Security**" and in the Infobar.
+Since the inception of RDP, Windows OS has the **Remote Desktop Connection** application installed as a core system application.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/yynJ3otyBXAn8dC/preview)
+You can access this simply by searching for this in the Windows search bar or by pressing the Windows key/icon and using the start menu search bar.
 
-The program asks for a **user name** and **password**. The user name is "**administrator**". The password can be set in the web interface under "**Access & Security**".
+![image](https://screensaver01.zap-hosting.com/index.php/s/TRfpNC3rACZ3KGB/preview)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/2dJnoBHddPG6fsb/preview)
+In the new window, fill in the **Computer** field as your server's IP Address and press **Connect**.
 
-:::info
-No certificate is installed by default. The password is therefore transmitted insecurely. Learn how to create a certificate here: RDP Certificate
-:::
+You should now see a Windows native credentials prompt display, where you should input the **Username** as `Administrator` and the **Password** which you either found or set as new on the web interface panel.
 
+![image](https://screensaver01.zap-hosting.com/index.php/s/GCRs6KbGHz27HBS/preview)
 
-## Alternative Remote Programs
+## Other Remote Connection (RDP) Apps
+
+### Desktop Apps
 
 The following alternative programs are suitable for connecting to a Windows server via remote desktop:
 
@@ -52,6 +55,8 @@ The following alternative programs are suitable for connecting to a Windows serv
 - Devolutions Remote Desktop Manager
 - DameWare Mini Remote Control
 
-:::info
-For **iOS** users : **Microsoft Remote Desktop 10** in the Mac App Store, **Android** Parallels Client
-:::
+### Mobile Device Apps
+
+In modern times, Microsoft provides an official Remote Desktop (RDP) app for both major mobile operating systems.
+
+These can be found here for: [Android](https://play.google.com/store/apps/details?id=com.microsoft.rdc.androidx&hl=en) and [iOS](https://apps.apple.com/us/app/remote-desktop-mobile/id714464092)
