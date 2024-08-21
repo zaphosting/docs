@@ -23,7 +23,7 @@ Beginne damit, dass du das Webinterface deines Servers aufrufst und zum Abschnit
 
 Auf dieser Seite kannst du alle notwendigen Informationen einsehen, vor allem die **IP-Adresse** deines Servers und die Anmeldedaten für die Benutzerverbindung. Deine Benutzerdaten bestehen aus dem Feld **Benutzername**, das `Administrator` lauten sollte, und dem Feld **Passwort**.
 
-Wenn dein Server neu ist, kannst du auf dieser Seite über eine Eingabeaufforderung dein anfängliches, von Ranomly generiertes Passwort abrufen. Andernfalls ist das Passwort aus Sicherheitsgründen geschwärzt, aber wenn du es irgendwann vergisst, kannst du dein eigenes Passwort festlegen oder ein neues zufällig generieren.
+Wenn dein Server neu ist, kannst du dein ursprüngliches, von Ranomly generiertes Passwort auf dieser Seite über eine Eingabeaufforderung abrufen. Andernfalls ist das Passwort aus Sicherheitsgründen geschwärzt. Solltest du das Passwort irgendwann vergessen haben, kannst du auf derselben Seite einfach ein neues generieren oder festlegen.
 
 ![image](https://screensaver01.zap-hosting.com/index.php/s/pzGKXNmjxQ3eEKe/preview)
 
@@ -39,7 +39,7 @@ Du kannst darauf zugreifen, indem du in der Windows-Suchleiste danach suchst ode
 
 Gib in dem neuen Fenster im Feld **Computer** die IP-Adresse deines Servers ein und drücke **Verbinden**.
 
-Du solltest nun eine Windows-eigene Eingabeaufforderung sehen, in der du den **Benutzernamen** als `Administrator` und das **Passwort** eingibst, das du entweder gefunden oder im Webinterface neu festgelegt hast.
+Du solltest nun eine Windows-eigene Eingabeaufforderung sehen, in der du den **Benutzernamen** als `Administrator` und das **Passwort**, das Passwort für deinen Windows-Server, eingeben musst.
 
 ![image](https://screensaver01.zap-hosting.com/index.php/s/GCRs6KbGHz27HBS/preview)
 
@@ -47,7 +47,7 @@ Du solltest nun eine Windows-eigene Eingabeaufforderung sehen, in der du den **B
 
 ### Desktop Apps
 
-Die folgenden alternativen Programme eignen sich für die Verbindung mit einem Windows-Server per Remotedesktop:
+Die folgenden Programme sind großartige Alternativen, die sich für die Verbindung zu deinem Windows-Server über das Remotedesktop-Protokoll (RDP) eignen. Wir empfehlen dir, die integrierte Anwendung zu verwenden, wenn du von Windows aus auf den Server zugreifst (wie im vorigen Schritt beschrieben), da sie sehr einfach zu bedienen ist und gut funktioniert.
 
 - Remote Desktop Connection Manager (RDCMan)
 - mRemoteNG
@@ -57,7 +57,6 @@ Die folgenden alternativen Programme eignen sich für die Verbindung mit einem W
 
 ### Apps für mobile Geräte
 
-In der heutigen Zeit bietet Microsoft eine offizielle Remote Desktop (RDP) App für die beiden wichtigsten mobilen Betriebssysteme an.
+In der heutigen Zeit bietet Microsoft eine offizielle Remote Desktop (RDP) App für die beiden wichtigsten mobilen Betriebssysteme an. Wir empfehlen, diese auf dem Handy zu benutzen, da sie viele nützliche Funktionen hat.
 
-Diese findest du hier für: [Android](https://play.google.com/store/apps/details?id=com.microsoft.rdc.androidx&hl=en) und [iOS](https://apps.apple.com/us/app/remote-desktop-mobile/id714464092)
-
+Die App findest du hier für die jeweilige Plattform: [Android](https://play.google.com/store/apps/details?id=com.microsoft.rdc.androidx&hl=en) und [iOS](https://apps.apple.com/us/app/remote-desktop-mobile/id714464092)

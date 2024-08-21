@@ -23,7 +23,7 @@ Begin by going to your server's web interface panel and heading over to the **Ac
 
 On this page, you will be able to view all the necessary information, mainly your server's **IP Address** and user connection credentials. Your user credentials is composed of the **Username** field which should be `Administrator` and the **Password** field.
 
-If your server is new, you will be able to access your initial ranomly-generated password on this page via a prompt. Otherwise, the password is redacted for security reasons, but if you at any point forget it, you can set your own password or randomly generate a new one.
+If your server is new, you will be able to access your initial ranomly-generated password on this page via a prompt. Otherwise, the password is redacted for security reasons, but if you forget the password at any point, simply generate or set a new one on the same page.
 
 ![image](https://screensaver01.zap-hosting.com/index.php/s/amLy6sC6XzBN5fQ/preview)
 
@@ -39,7 +39,7 @@ You can access this simply by searching for this in the Windows search bar or by
 
 In the new window, fill in the **Computer** field as your server's IP Address and press **Connect**.
 
-You should now see a Windows native credentials prompt display, where you should input the **Username** as `Administrator` and the **Password** which you either found or set as new on the web interface panel.
+You should now see a Windows native credentials prompt display, where you should input the **Username** as `Administrator` and the **Password** which is the password for your Windows server.
 
 ![image](https://screensaver01.zap-hosting.com/index.php/s/GCRs6KbGHz27HBS/preview)
 
@@ -47,7 +47,7 @@ You should now see a Windows native credentials prompt display, where you should
 
 ### Desktop Apps
 
-The following alternative programs are suitable for connecting to a Windows server via remote desktop:
+The following programs are great alternatives that are suitable for connecting to your Windows server through the Remote Desktop protocol (RDP). We highly recommend using the built-in application if you are accessing the server from Windows (as seen in the previous step) as it reduces the hassle and works well.
 
 - Remote Desktop Connection Manager (RDCMan)
 - mRemoteNG
@@ -57,6 +57,6 @@ The following alternative programs are suitable for connecting to a Windows serv
 
 ### Mobile Device Apps
 
-In modern times, Microsoft provides an official Remote Desktop (RDP) app for both major mobile operating systems.
+In modern times, Microsoft provides an official Remote Desktop (RDP) app for both major mobile operating systems. We recommend using these on mobile as they have alot of useful features.
 
-These can be found here for: [Android](https://play.google.com/store/apps/details?id=com.microsoft.rdc.androidx&hl=en) and [iOS](https://apps.apple.com/us/app/remote-desktop-mobile/id714464092)
+The app can be found here respectively to the platform: [Android](https://play.google.com/store/apps/details?id=com.microsoft.rdc.androidx&hl=en) and [iOS](https://apps.apple.com/us/app/remote-desktop-mobile/id714464092)
