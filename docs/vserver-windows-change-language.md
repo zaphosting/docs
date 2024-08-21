@@ -1,49 +1,70 @@
 ---
 id: vserver-windows-change-language
-title: "VPS: Add/change language on Windows Server"
-description: Information on how to change the language of your Windows VPS from ZAP-Hosting and how to add languages - ZAP-Hosting.com documentation
-sidebar_label: Add/change language
+title: "VPS: Manage Languages on Windows Server"
+description: Information on how to add and manage languages on your Windows VPS from ZAP-Hosting - ZAP-Hosting.com documentation
+sidebar_label: Add & Manage Languages
 services:
   - vserver
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
+## Introduction
+
+Windows OS is localised in a wide variety of languages, allowing you to easily use your native language. In this guide, we will cover the available methods of changing the language of your Windows server.
+
 :::info
-By default we provide Windows in German and English, you can identify that on the (DE) and (EN) tags
+During initial server configuration, you can pick between English or German server versions, which are highlighted by the **(EN)** and **(DE)** tags during OS version selection.
 :::
-***
 
 <InlineVoucher />
 
-## Preparation
+## Adding Language Packs
 
-Connect through Remotedesktop on your Windows Server and open the settings.
+Language packs is a useful feature built-in to Windows which allows you to easily manage localised language packs on your server.
 
-![image](https://user-images.githubusercontent.com/13604413/159173307-1c9b4b7c-d70b-4ed5-bfa9-cc5e68c093f1.png)
+Begin by connecting to your Windows server via RDP. If you need help doing this, please refer to our [Windows RDP Connection guide](vserver-windows-userdp.md).
 
-Choose the menu "Time & Language", there the submenu "Language"
+Once connected, search for **Language** via the Windows search bar or by pressing the Windows key/icon and using the start menu search bar.
 
-Press on "Add a language"
+![image](https://screensaver01.zap-hosting.com/index.php/s/iwnxdwsYHPy9AMP/preview)
 
-![image](https://user-images.githubusercontent.com/13604413/159173310-f9ebd0aa-9e59-4c9b-9cde-5f7bd8e14172.png)
+On this page, find the language section and press the **Add a language** button. 
 
-Search for the language of your like and be sure that its a display language.
+![image](https://screensaver01.zap-hosting.com/index.php/s/EJxNz66LPBDiE9J/preview)
 
-## Installation
+Using the menu, search for the language that you wish to install and select it by pressing **Next**. On the following page, ensure that all the options are ticked, including the **Set as Windows Display language** option if you wish to enable it straight away.
 
-![image](https://user-images.githubusercontent.com/13604413/159173312-f53f9fe0-dec9-493f-8046-f2f05b96955c.png)
-
-Choose the language of your like by a mouseclick and proceed by pressing "Next", accept the installation of all additional packages
-
-:::info
-"Display Language installation and use as windows display language" must be enabled.
+:::important
+In order to change the language across Windows OS itself, ensure that the selected language supports the **Display Language** functionality.
 :::
 
-Windows is now downloading the language of your decision, this can take several minutes (30-60 minutes).
+:::tip
+If you do not see any languages with the **Display Language** field, please install any pending Windows updates via **Update & Security** in the Settings, which resolves this bug.
+:::
 
-![image](https://user-images.githubusercontent.com/13604413/159173315-2927599d-7894-4171-8c7f-37516d6c5997.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/ZENz49zaSmkLNER/preview)
 
-After the installation of your language was successfully done, you just need to sign in again or restart your server.
+Windows will now begin downloading the selected language pack. Please be patient as this can take some time to complete.
 
-![image](https://user-images.githubusercontent.com/13604413/159173318-6fa1e87a-2f5d-401e-abbf-383456b8bb70.png)
+After the donwload completes, if you didn't previously select the **Set as Windows Display language** option during the download step, go back to the languages page again and select it in the drop down menu.
+
+![image](https://screensaver01.zap-hosting.com/index.php/s/Ee3rMKzXTidr9Jk/preview)
+
+Finally restart your server and the new language will be used. You have successfully managed language packs on your Windows server.
+
+## Reinstalling Server OS
+
+If you are facing troubles changing language packs or your server is still brand new, you may decide to simply reinstall your Windows server in English or German via the available OS versions.
+
+:::warning
+Reinstalling the OS is a destructive process and **will** erase all data on the server. Ensure that you backup any important data before proceeding with this step.
+:::
+
+This can be done by going to your server's web interface panel and heading over to the **Settings** section.
+
+On this page, you will be able to select between **Windows (EN)** and **Windows (DE)** for the respective language and choose to reinstall the server.
+
+![image](https://screensaver01.zap-hosting.com/index.php/s/gxw8pKDr8sBBTHQ/preview)
+
+Once you have started the reinstall, please be patient as it can take some time (up to 30mins) for the server to complete the entire process.
