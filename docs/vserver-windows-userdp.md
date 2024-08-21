@@ -43,6 +43,14 @@ You should now see a Windows native credentials prompt display, where you should
 
 ![image](https://screensaver01.zap-hosting.com/index.php/s/GCRs6KbGHz27HBS/preview)
 
+Now press **OK** and you should be able to remote connect to your Windows server. If you are facing issues, double check that the credentials you inputted are correct.
+
+:::info
+You may see a certificate error appear when connecting for the first time. This is normal and can be safely ignored.
+:::
+
+You have successfully connected to your Windows Server.
+
 ## Other Remote Connection (RDP) Apps
 
 ### Desktop Apps
