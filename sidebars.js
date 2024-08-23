@@ -457,7 +457,14 @@ const sidebars = {
       type: "category",
       label: "American Truck Simulator",
       items: [
-        "trucksim-dlc"
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "ats-firststeps-dashboard",
+          ]
+        },
+        "ats-server-modding"
       ],
     },
     {
@@ -769,11 +776,19 @@ const sidebars = {
     },
     {
       type: "category",
-      label: "Euro Truck Simulator",
+      label: "Euro Truck Simulator 2",
       items: [
-        "trucksim-dlc"
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "ets2-firststeps-dashboard",
+          ]
+        },
+        "ets2-server-modding"
       ],
     },
+    
     {
       type: "category",
       label: "Factorio",

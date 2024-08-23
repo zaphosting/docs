@@ -40,7 +40,7 @@ In order to change the language across Windows OS itself, ensure that the select
 :::
 
 :::tip
-If you do not see any languages with the **Display Language** field, please install any pending Windows updates via **Update & Security** in the Settings, which resolves this bug.
+If you do not see any languages with the **Display Language** field, please install any pending Windows updates via **Update & Security** in the Settings, which resolves this [bug](https://learn.microsoft.com/en-us/troubleshoot/windows-server/shell-experience/cannot-configure-language-pack-windows-server-desktop-experience).
 :::
 
 ![image](https://screensaver01.zap-hosting.com/index.php/s/ZENz49zaSmkLNER/preview)

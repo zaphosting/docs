@@ -40,7 +40,7 @@ Um die Sprache im Windows-Betriebssystem selbst zu ändern, musst du sicherstell
 :::
 
 :::tip
-Wenn du im Feld **Anzeigesprache** keine Sprachen siehst, installiere bitte alle ausstehenden Windows-Updates über **Update & Sicherheit** in den Einstellungen, um diesen Fehler zu beheben.
+Wenn du im Feld **Anzeigesprache** keine Sprachen siehst, installiere bitte alle ausstehenden Windows-Updates über **Update & Sicherheit** in den Einstellungen, um diesen Fehler zu [beheben](https://learn.microsoft.com/en-us/troubleshoot/windows-server/shell-experience/cannot-configure-language-pack-windows-server-desktop-experience).
 :::
 
 ![image](https://screensaver01.zap-hosting.com/index.php/s/gdAjwb3Q4ofmsAr/preview)
