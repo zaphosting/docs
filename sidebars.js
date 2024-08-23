@@ -1209,6 +1209,19 @@ const sidebars = {
     },
     {
       type: "category",
+      label: "SCP: 5K",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "scp5k-firststeps-dashboard"
+          ]
+        },
+      ],
+    },
+    {
+      type: "category",
       label: "Soulmask",
       items: [
         {
