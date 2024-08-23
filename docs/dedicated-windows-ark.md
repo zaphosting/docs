@@ -14,7 +14,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Got a Windows VPS or root server and want to install game servers on it? For example an ARK: Survival Evolved Dedicated Server? Then you are at the right place! In the following we will explain step by step how you can install such a service on your server. Connect to your VPS or root server via RDP to set up your ARK: Survival Evolved Dedicated Server. In case you don't know how to connect to your server via RDP, we recommend you to have a look at the [RDP Guide](vserver-windows-userdp.md).
 
-<YouTube videoId="YOz_SqsUkg4" title="ARK: Survival Evolved Dedicated Server Setup on Windows VPS" description="Feel like you understand better when you see things in action?  We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
+<YouTube videoId="YOz_SqsUkg4" title="ARK: Survival Evolved Dedicated Server Setup on Windows VPS" description="Feel like you understand better when you see things in action? We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
 
 <InlineVoucher />
 

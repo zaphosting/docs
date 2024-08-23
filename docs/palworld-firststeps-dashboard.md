@@ -20,7 +20,7 @@ After going through this guide, you will easily be able to manage your server ef
 We have a separate **Palword (Xbox)** game version now available on our Gameservers, which allows you to play on Xbox/Microsoft Store game versions. Check out our [Game server Switch guide](gameserver-gameswitch.md) to learn how to easily switch your game. Make sure to backup your saves as always.
 :::
 
-<YouTube videoId="SDZC4-FEdNM" title="Setup Palworld server in just a MINUTE!" description="Feel like you understand better when you see things in action?  We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
+<YouTube videoId="SDZC4-FEdNM" title="Setup Palworld server in just a MINUTE!" description="Feel like you understand better when you see things in action? We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
 
 <InlineVoucher />
 

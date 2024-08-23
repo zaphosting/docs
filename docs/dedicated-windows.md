@@ -14,7 +14,7 @@ import Advertisements from '@site/src/components/Advertisements/Advertisements';
 ## Introduction
 The following will explain to you step by step how to install and configure the Windows Server operating system on your dedicated server. Follow these instructions carefully to ensure that you set up the operating system successfully and utilize it optimally.
 
-<YouTube videoId="yEjQOrcEus0" title="Setup a Dedicated Server and install Windows easily!" description="Feel like you understand better when you see things in action?  We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
+<YouTube videoId="yEjQOrcEus0" title="Setup a Dedicated Server and install Windows easily!" description="Feel like you understand better when you see things in action? We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
 
 :::info
 The structure of the guide is based on the use of the Windows Server 2019 operating system. Installations from previous or newer versions may differ slightly in terms of the process. 
