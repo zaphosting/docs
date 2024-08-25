@@ -9,136 +9,168 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
-## Dashboard
 
-Im Dashboard von txAdmin können wir einsehen, wie viele auf dem Server sind und wie performant der Server läuft, hier können wir ebenfalls den Server Starten oder Stoppen, Announcements auf dem Server anzeigen lassen oder alle Spieler kicken:
 
-![image](https://user-images.githubusercontent.com/13604413/159169522-fd692c95-1a15-486b-a959-99fa58bea7ce.png)
+## Einführung
+
+txAdmin ist ein vollständig kostenloses, funktionsreiches Webpanel zur Verwaltung und Überwachung deines FiveM-Servers. Es bietet eine breite Palette von Funktionen, die darauf ausgelegt sind, die Verwaltung eines FiveM-Servers so einfach wie möglich zu gestalten. Im Folgenden stellen wir dir die txAdmin-Oberfläche vor, heben ihre Funktionen hervor und erklären genau, was du damit machen kannst.
+
+![img](https://screensaver01.zap-hosting.com/index.php/s/YrRXBNBX2xTnRyJ/preview)
 
 <InlineVoucher />
 
-## Rechte Sidebar
 
-In der rechten Sidebar haben wir eine Liste von Spielern, welche aktuell auf dem Server ist, um einen Spieler zu verwalten, kann einfach auf den Namen geklickt werden.
 
+## Navigation
 
-Hier können wir nun einige Informationen des Spielers einsehen, z. B. wie lange dieser schon auf dem Server war, unter IDs können wir ebenfalls die Identifier des Spielers einsehen. Unten haben wir Optionen um dem Spieler eine DM zu senden, Ingame wird diese dann im Chat angezeigt.
+Die Navigation umfasst die folgenden Elemente: **Spieler**, **Historie**, **Whitelist**, **Admins**, **Einstellungen** und **System**. Jeder dieser Punkte wird im Folgenden näher erläutert.
 
-Warnungen werden als Vollbild-Notifikation in FiveM angezeigt. Ebenfalls gibt es eine "Ban" Option, womit man den Spieler direkt vom Server bannen kann.
+### Players
 
+Der Bereich Players bietet dir einen allgemeinen Überblick über die Spielerstatistiken, einschließlich der Gesamtzahl der verbundenen Spieler, der Spieler, die in den letzten 24 Stunden verbunden waren, und der neuen Spieler, die in den letzten 24 Stunden und 7 Tagen verbunden waren. Darunter findest du eine Liste der aktuell verbundenen Spieler mit ihrer gesamten Spielzeit, der ersten Verbindungszeit und der letzten Verbindungszeit.
 
-## Players
+Klicke auf einen Spieler, um weitere Verwaltungsoptionen zu öffnen. Hier kannst du weitere Informationen, Notizen, Verlauf (Bans/Warnungen), IDs (Player Identifiers, Player Hardware IDs) und die Bannoptionen einsehen.
 
-Das Players-Interface zeigt an, welche Spieler auf dem Server sind, hier können diese Spieler ebenfalls verwaltet werden:
+![img](https://screensaver01.zap-hosting.com/index.php/s/wpRc2sW6gZZaN3S/download)
 
-![image](https://user-images.githubusercontent.com/13604413/159169590-7b91178c-505e-4a33-9eca-a47897b95b69.png)
 
-Hier können ebenfalls bestimmte Identifier direkt gebannt werden, falls du die Whitelist auf dem Server aktiv hast, kannst du diese hier ebenfalls verwalten.
 
-## Live Konsole
 
-In der Live Konsole können Befehle in der Serverkonsole eingegeben werden und die Logs des FiveM Servers angezeigt werden:
 
-![image](https://user-images.githubusercontent.com/13604413/159169620-7b13ee9e-8db8-409c-970f-1f5775e49a6d.png)
+### History
 
-Von hier aus kann ebenfalls der Server neu gestartet werden.
+Im Bereich History sind alle Warnungen und Bans von Spielern aufgelistet, einschließlich detaillierter Informationen über den Spieler, den Grund sowie denjenigen, der die Warnung oder den Ban ausgesprochen oder ausgeführt hat, einschließlich Datum und Uhrzeit. Dort kannst du auch Warnungen und Bans widerrufen.
 
-## Ressources
+![img](https://screensaver01.zap-hosting.com/index.php/s/qbLwEx39pmpY4sa/preview)
 
-Hier können alle Ressourcen, welche sich auf dem Server befinden, verwaltet werden, falls eine Ressource neu gestartet werden muss, kann das Ganze direkt von hier aus gemacht werden:
+### Whitelist
 
-![image](https://user-images.githubusercontent.com/13604413/159169631-4445e0c8-d90f-4247-bc85-e967d8538ad4.png)
+Im Bereich Whitelist hast du die Möglichkeit, die Whitelist-Funktion zu verwalten. Die Whitelist ermöglicht es dir, den Zugang zum Server zu beschränken. Wenn diese Option in den txAdmin-Einstellungen aktiviert ist, wird eine Whitelist-Anfrage automatisch erstellt, sobald ein neuer Spieler sich zum ersten Mal verbindet. Diese Anfragen kannst du dann entsprechend in diesem Bereich verwalten.
 
-## Server Log
+![img](https://screensaver01.zap-hosting.com/index.php/s/o4K5zgGrz8G7Rqp/preview)
 
-Das Server Log ist das txAdmin Log, hier werden einige Informationen von txAdmin angezeigt, falls die Ressource es unterstützt, werden hier auch Logs von bestimmten Ressourcen angezeigt.
+### Admins
 
-![image](https://user-images.githubusercontent.com/13604413/159169641-23e3b19e-f5f2-4dbf-8ca3-19de39510c0f.png)
+Im Bereich Admins können Administratoren festgelegt und verwaltet werden. Neue Administratoren können durch Klicken auf den Button **Add** hinzugefügt werden. Daraufhin öffnet sich ein Pop-up-Fenster, in dem du das Konto erstellen und die entsprechenden Berechtigungen festlegen kannst.
 
-## Cfg Editor
+![img](https://screensaver01.zap-hosting.com/index.php/s/H7BYP2QqyZD6nSJ/download)
 
-Im Cfg Editor kann deine server.cfg konfiguriert werden, das ganze funktioniert genauso wie der Config-Editor im ZAP-Hosting Interface.
+### Settings
 
-![image](https://user-images.githubusercontent.com/13604413/159169655-907a4b05-0d58-4c27-a419-40805662d380.png)
+Im Bereich Settings können zahlreiche Einstellungen für txAdmin und den Server selbst vorgenommen werden. Aufgrund der großen Menge an Einstellungsmöglichkeiten wurden diese in die Bereiche **Global**, **FXServer**, **Restarter**, **Player Manager**, **Discord** und **Game** unterteilt, auf die im Folgenden genauer eingegangen wird.
 
-## Diagnostik
+![img](https://screensaver01.zap-hosting.com/index.php/s/PBE9sSfTXgsejqj/download)
 
-Die Diagnostik zeigt an, wie gut der FiveM Server läuft, und zeigt mögliche Probleme mit txAdmin oder dem FiveM Server an:
+#### Global
 
-![image](https://user-images.githubusercontent.com/13604413/159169661-da828f3a-fd2d-4cfc-81a4-27fb9971926a.png)
+Einstellungen für den Servernamen, die Sprache für Chat-/Discord-Nachrichten und Bannvorlagen können im Bereich Global festgelegt werden.
 
-## Admin Manager
+![img](https://screensaver01.zap-hosting.com/index.php/s/y3WMSp5PPKyyDC2/preview)
 
-Im Admin Manager können neue User zum txAdmin Interface hinzugefügt werden, diese kannst du ganz einfach per Username/Passwort hinzufügen, du kannst aber auch die Discord ID oder den FiveM Forum Account linken.
+#### FXServer
 
-![image](https://user-images.githubusercontent.com/13604413/159169682-2c6a3659-7ddc-45f7-a364-c9bb66ed1c82.png)
+Im Bereich FXServer können Einstellungen für den Serverdaten-Ordner und den CFG-Dateipfad vorgenommen werden, sowie zusätzliche Argumente wie Gamemodes/DLC, das Aktivieren/Deaktivieren von OneSync, Autostart und Quietmode.
 
-### Neue Admins anlegen
+![img](https://screensaver01.zap-hosting.com/index.php/s/Gxd2LTaYCwzNN2R/preview)
 
-Um neue Admins anzulegen, klicken wir rechts oben auf den grünen "Add" Button, hier können wir nun die Informationen des Accounts einfügen:
 
-![image](https://user-images.githubusercontent.com/13604413/159169687-fca2cad8-d6c8-476c-8eaf-1195acd65a7e.png)
 
-Hier können wir ebenfalls angeben, welche Funktionen der Account zur Verfügung haben sollte, wenn es z. B. nur ein Account zum Moderieren des Servers sein soll, können wir z. B. nur die Players-Optionen aktivieren und alles andere deaktiviert lassen.
+#### Restarter
 
+Geplante Neustarts können im Bereich Restarter definiert werden. Du kannst außerdem festlegen, wie lange nach einem Neustart gewartet werden soll, bis die Ressourcen gestartet werden.
 
-Nun bekommen wir ein temporäres Passwort, dieses muss beim Anmelden dieses Nutzers angegeben werden, danach kann man das Passwort in txAdmin direkt ändern:
+![img](https://screensaver01.zap-hosting.com/index.php/s/qP27oGX8ix6gNQc/preview)
 
-![image](https://user-images.githubusercontent.com/13604413/159169698-c6e3e457-90e2-4640-8414-581a478ed8dc.png)
 
-Fertig! Nun wurde der neue Nutzer angelegt, in Zukunft kann dieser auch hier wieder verändert oder gelöscht werden.
 
-## txAdmin Log
+#### Player Manager
 
-Im txAdmin Log können wir einsehen, was in letzter Zeit im txAdmin Interface gemacht wurde, damit können wir z. B. prüfen, was erstellte Nutzer im Interface genau machen:
+Einstellungen für den Whitelist-Modus, Whitelist-Benachrichtigungen, Whitelist-Rollen sowie Bannüberprüfungen können über den Player Manager vorgenommen werden.
 
-![image](https://user-images.githubusercontent.com/13604413/159169722-5e6275e4-1e89-47d5-93dd-fcc8b399c8e5.png)
+![img](https://screensaver01.zap-hosting.com/index.php/s/NK9QgdAnmoKE8Q3/preview)
 
-## Settings
+#### Discord
 
-In den Settings können mehrere Einstellungen zu txAdmin und dem FiveM Server vorgenommen werden, diese sind in mehreren Kategorien eingeteilt.
+Die Discord-Integration kann im Bereich Discord aktiviert werden, sodass Informationen automatisch an den verknüpften Discord-Server übertragen werden. Dazu müssen die erforderlichen Informationen für den Discord-Bot hinterlegt werden.
 
-Hier können ebenfalls Backups der Datenbank angelegt werden, Bans aus anderen Ressourcen importiert werden oder der FiveM Server zurückgesetzt werden.
-![image](https://user-images.githubusercontent.com/13604413/159169739-9f8533d7-59e6-4c8e-bc3a-1632f69c0c78.png)
+![img](https://screensaver01.zap-hosting.com/index.php/s/4FCaKgsDFH5k8qK/preview)
 
+#### Game
 
-### FXServer
+Im Bereich Game kannst du das txAdmin-Menü für das Spiel aktivieren, wodurch Admins das Menü über den Befehl **/tx** aufrufen und verwalten können. Weitere Anpassungen für das Layout, die Tastenbelegung zum Umschalten und die Benachrichtigungen/Warnungen können ebenfalls festgelegt werden.
 
-Hier können wir den Server-Data Ordnerpfad ändern, falls wir einen anderen server-data Ordner hochladen, die server.cfg kann ebenfalls geändert werden.
+![img](https://screensaver01.zap-hosting.com/index.php/s/X5xtGGeoGq5W4Ct/preview)
 
-![image](https://user-images.githubusercontent.com/13604413/159169756-f5917576-13a2-40ae-a0ef-bd1812da6f4e.png)
+### System
 
-Falls eigene Startparameter hinzugefügt werden sollen, kann dies hier auch getan werden, dies ist nützlich, um z. B. bestimmte Builds zu Forcen oder mehrere cfg Files auszuführen.
+Im Bereich Einstellungen kannst du einige wichtige allgemeine Optionen und Informationen einsehen. Diese sind in folgenden Abschnitte unterteilt: **Master Actions**, **Diagnostics**, **Console Log** and **Action Log**. Jeder dieser Bereiche wird im Folgenden näher erläutert.
 
-Onesync kann hier ebenfalls aktiviert oder deaktiviert werden.
 
-Falls du txAdmin öfters neu startest, kannst du hier einstellen, ob txAdmin automatisch den FiveM Server wieder starten soll, das Ganze ist standardmäßig aktiviert.
 
-Die "Quiet" Option stellt um, ob Nachrichten in der FiveM Konsole in der Live Konsole des Servers angezeigt werden, diese Option sollte am besten deaktiviert bleiben.
+#### Master Actions
 
+In den Master Actions findest du die Option, deinen FXServer zurückzusetzen, ein Datenbank-Backup zu erstellen, die Datenbank zu bereinigen und festzulegen, wann Spieler von einer Whitelist entfernt werden sollen, wenn diese zu lange inaktiv gewesen sind.  
 
-### Restarter
+![img](https://screensaver01.zap-hosting.com/index.php/s/3A38EoqELeWMYJ6/download)
 
-Im Restarter können wir geplante Neustarts für den Server einstellen, hier können wir bestimmte Zeiten einfügen:
 
-![image](https://user-images.githubusercontent.com/13604413/159169774-b7171fb6-ac1c-4cb1-a4fe-5ad1e448ee1b.png)
 
-Ebenfalls können wir hier einstellen, wie oft eine Warnung im Chat kommen soll, im "Restart Warnings" Parameter werden diese Zeiträume als Minuten angegeben.
+#### Diagnostics
 
+Der Bereich Diagnostics zeigt alle relevanten Informationen zur Umgebung, zur txAdmin Runtime, zum Diagnosereport, zur FXServer /info.json und zu den Prozessen an.
 
-### Player Manager
+![img](https://screensaver01.zap-hosting.com/index.php/s/4Qg9MKwwnqFXwBd/preview)
 
-Der Player Manager hat einige Features zum Moderieren des Servers, unter anderem können wir hier das Ban Feature und die Whitelist aktivieren:
+#### Console Log
 
-![image](https://user-images.githubusercontent.com/13604413/159169779-682fa426-907f-46a1-9531-ddef47d24c98.png)
+Das Console Log zeigt die Ausgaben von txAdmin im übergeordneten Terminal an, einschließlich der normalerweise ausgeblendeten Debug-Nachrichten.
 
-Falls die Whitelist aktiviert ist, können wir hier auch angeben, welche Nachricht beim Verbinden kommen soll, falls ein Spieler noch nicht whitelisted wurde.
+![img](https://screensaver01.zap-hosting.com/index.php/s/jsCerbambRn5DMy/preview)
 
-Die Option "Wipe Pending Whitelist On txAdmin Start" bestimmt, ob die Whitelisting Anfragen, welche beim Verbinden erstellt werden, beim txAdmin Neustart gelöscht werden sollen, falls die Whitelisting Anfragen über mehrere Tage bearbeitet werden, sollte diese Option am besten deaktiviert werden.
+#### Action Log
 
+Das Action Log zeichnet alle Aktionen auf, die von txAdmin oder einem Administrator durchgeführt wurden.
 
-### Discord
+![img](https://screensaver01.zap-hosting.com/index.php/s/P65fwKRSfjDZgdo/preview)
 
-In dem letzten Menü der Settings können wir einen Discord Bot einstellen, welcher Informationen zu txAdmin in einem Channel postet, hierzu muss der Discord Bot Token und die Channel-ID, in welchem diese Informationen gepostet werden sollen, eingetragen werden.
 
-![image](https://user-images.githubusercontent.com/13604413/159169784-4ef64bbb-ee96-4f42-9cb0-3105323ec334.png)
+
+## Sidebar 
+
+Die Seitenleiste enthält die folgenden Elemente: **Dashboard**, **Live Console**, **Resources**, **Server Log** and **CFG Editor**. Jeder dieser Punkte wird im Folgenden näher erläutert.
+
+
+
+### Dashboard
+
+Das Dashboard zeigt alle wichtigen allgemeinen Informationen über den Server an. Live-Daten zur Auslastung und Leistung können über die Statistiken eingesehen werden. Der Serverstatus, ob gestartet, online oder gestoppt, ist in der Seitenleiste sichtbar. Dort kannst du den Server auch starten, stoppen oder neu starten, alle Spieler mit einem Klick kicken und Ankündigungen senden. Außerdem können dort geplante Neustarts erstellt werden. Auf der rechten Seite der Seitenleiste kannst du Informationen über die derzeit verbundenen Spieler einsehen.
+
+![img](https://screensaver01.zap-hosting.com/index.php/s/YrRXBNBX2xTnRyJ/preview)
+
+
+
+### Live Console
+
+Die Live-Konsole bietet dir Echtzeitinformationen über die Serveraktivitäten. Hier kannst du Details zu Aktivitäten, Warnungen und Fehlermeldungen einsehen. Sie dient als wertvolle Referenzstelle zur Fehlerbehebung, indem du mögliche Fehlermeldungen analysieren kannst.
+
+![img](https://screensaver01.zap-hosting.com/index.php/s/PDyPa7TfsHgTbAD/preview)
+
+### Resources
+Im Bereich Ressourcen findest du eine Übersicht über alle Ressourcen, egal ob sie über eine Template (Rezept) vorinstalliert sind oder später von dir hinzugefügt wurden. Darüber hinaus kannst du sie bei Bedarf neu starten oder stoppen.
+
+![img](https://screensaver01.zap-hosting.com/index.php/s/QJZnMTCqQpx92EL/preview)
+
+### Server Log
+
+Die Server Log ermöglicht es dir, alle Aktivitäten auf dem Server zu überwachen. Du kannst z. B. Details einsehen, wenn Spieler sich verbinden oder die Verbindung trennen, Chat-Nachrichten, Spielabbrüche, Menüaktionen, ausgeführte Befehle und Systemereignisse.
+
+![img](https://screensaver01.zap-hosting.com/index.php/s/zgBGMQq3stNkstq/preview)
+
+
+
+### CFG Editor
+
+Du kannst den CFG-Editor verwenden, um die Konfigurationsdatei `server.cfg` deines Servers zu verwalten und zu aktualisieren. Hier finden Sie alle wichtigen Konfigurationsbefehle, die die Einstellungen Ihres Servers steuern.
+
+![img](https://screensaver01.zap-hosting.com/index.php/s/jqDBDqp55HoKmNB/preview)
+
