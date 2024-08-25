@@ -18,7 +18,15 @@ Mit den sogenannten FiveM Upvotes hast du die Möglichkeit deinen eigenen oder e
 
 <InlineVoucher />
 
-## Wie erhalte ich Upvotes?
+
+
+## Upvotes vs Burst Upvotes
+
+FiveM Upvotes und FiveM Burst Upvotes sind beides Methoden, um die Sichtbarkeit und Popularität eines FiveM-Servers zu steigern. FiveM Upvotes sind kontinuierliche Stimmen, die über einen längeren Zeitraum verwendet werden, um eine langfristige Sichtbarkeit in den Server-Rankings zu sichern. FiveM Burst Upvotes hingegen sind eine für kurzfristige Aktionen, bei der in kurzer Zeit viele Stimmen verwendet werden, um den Server kurzfristig schnell in den Rankings nach oben zu bringen.
+
+
+
+## Upvotes erhalten
 
 Die FiveM Upvotes können in [unserem Shop](https://zap-hosting.com/de/shop/product/fivem-upvotes/) erworben werden. Während des Bestellvorgangs hast du die Möglichkeit, die Anzahl der Upvotes, Laufzeit, FiveM Benutzername und Abrechnungsart zu bestimmen. 
 
