@@ -94,3 +94,9 @@ Wenn alle Felder ausgefüllt wurden, dann muss im Anschluss auf **WordPress inst
 
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/MnLRYMDJCXjJJ8i/download/chrome_4KNjihGpo0.gif)
+
+
+
+## Abschluss
+
+Glückwünsch, du hast dein WordPress bei deinem Webspace installiert. olltest du noch weitere Fragen oder Probleme haben, dann wende dich gerne an unser Support-Team, welches dir jeden Tag zur Verfügung steht!

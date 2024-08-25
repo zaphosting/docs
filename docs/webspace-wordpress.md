@@ -2,14 +2,16 @@
 id: webspace-wordpress
 title: "Webspace: Install WordPress"
 description: Information on how to install WordPress on your webspace from ZAP-Hosting - ZAP-Hosting.com documentation
-sidebar_label: Install WordPress
+sidebar_label: Install
 services:
   - webspace
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
-## What is WordPress?
+
+
+## Introduction
 
 WordPress is the most used free content management system worldwide. It was programmed from 2003 by Matthew Mullenweg as software for weblogs and continues to be developed as an open source project. In this guide we explain how to install this software on our webspace product. 
 
@@ -17,9 +19,7 @@ WordPress is the most used free content management system worldwide. It was prog
 
 <InlineVoucher />
 
-## Set up WordPress
-
-### Preparation
+## Preparation
 
 Before the actual installation of WordPress can be performed, certain preparations must be made. This includes getting the software, setting up the database to be used and the mail server (email address).
 
@@ -67,7 +67,7 @@ For registering an account at the forum a mail server with an e-mail address is 
 
 
 
-### Installation
+## Installation
 
 If all the steps from the preparation have been fulfilled, then the actual setup of Wordpress can be started. For this, the website must now be called up in the Internet browser. This should look like this: 
 
@@ -102,3 +102,9 @@ WordPress now needs some more additional information. The title of the website, 
 Once all fields have been fulfilled, click on **Install WordPress**. The installation will then be completed within a few seconds and the login window should show up. There you can log in with your created account. Afterwards you can set up your WordPress as you like!
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/MnLRYMDJCXjJJ8i/download/chrome_4KNjihGpo0.gif)
+
+
+
+## Conclusion
+
+Congratulations, you have installed WordPress on your webspace. If you have any further questions or problems, please contact our support team, who are available to help you every day!
