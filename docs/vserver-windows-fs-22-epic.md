@@ -157,4 +157,8 @@ Launch the game and navigate to the multiplayer menu. Look for the server name, 
 
 Once you locate the server, click on it to connect. If prompted, enter the password, which will also be visible on the web interface.
 
-You have successfully installed Farming Simulator 22 (Epic Games version) on your Windows VPS.
+
+
+## Conclusion
+
+Congratulations, you have successfully installed and configurated the Farming Simulator 2022 server on your VPS! If you have any further questions or problems, please contact our support team, who are available to help you every day! 

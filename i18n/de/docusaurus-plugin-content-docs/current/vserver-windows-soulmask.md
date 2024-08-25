@@ -120,4 +120,6 @@ Jetzt kannst du dich über deine IP direkt mit deinem Server verbinden, indem du
 
 Wenn du möchtest, dass dein Server in der Serverliste verfügbar ist, sieh dir bitte unsere [Soulmask Server Configuration guide](soulmask-configuration.md) an und füge den entsprechenden Parameter "SteamServerName" in deine **StartServer.bat**-Datei ein. Speichere die Datei danach und führe die Batch-Datei erneut aus.
 
-Du hast Soulmask erfolgreich auf deinem Windows vServer installiert.
+## Abschluss
+
+Glückwunsch, du hast den Soulmask Server erfolgreich installiert und konfiguriert! Solltest du noch weitere Fragen oder Probleme haben, dann wende dich gerne an unser Support-Team, welches dir jeden Tag zur Verfügung steht!

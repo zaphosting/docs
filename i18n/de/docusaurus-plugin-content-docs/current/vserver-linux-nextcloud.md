@@ -536,3 +536,8 @@ Zusätzlich gibt es auch die Möglichkeit neben den Standard Apps noch weitere A
 ![image](https://user-images.githubusercontent.com/13604413/159172353-708039fe-2697-4852-83d5-e132bf129f47.png)
 
 Mit solchen **Apps** ist es möglich die Nextcloud zusätzlich noch weiter nach seinen Wünschen zu individualisieren.
+
+
+## Abschluss
+
+Glückwunsch, du hast Nextcloud erfolgreich installiert und konfiguriert! Solltest du noch weitere Fragen oder Probleme haben, dann wende dich gerne an unser Support-Team, welches dir jeden Tag zur Verfügung steht! 

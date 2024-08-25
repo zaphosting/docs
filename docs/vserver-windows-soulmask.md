@@ -121,3 +121,9 @@ You will now be able to direct connect to your server via your IP by inputting y
 If you wish your server to be available in the server list, please check out our [Soulmask Server Configuration guide](soulmask-configuration.md) and add the appropriate `-SteamServerName` parameter into your **StartServer.bat** file. Save the file once done and run the batch file again.
 
 You have successfully installed Soulmask on your Windows Dedicated Server.
+
+
+
+## Conclusion
+
+Congratulations, you have successfully installed and configurated the Soulmask Server on your VPS! If you have any further questions or problems, please contact our support team, who are available to help you every day! 

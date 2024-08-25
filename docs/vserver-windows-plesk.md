@@ -51,3 +51,8 @@ Command: `plesk-installer.exe --select-product-id=panel --select-release-latest 
 :::info
 The installation process can take 30 to 60 minutes, after which Plesk would be installed and ready to use.
 :::
+
+
+## Conclusion
+
+Congratulations, you have successfully installed and configurated the Plesk on your VPS! If you have any further questions or problems, please contact our support team, who are available to help you every day! 

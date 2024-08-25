@@ -85,3 +85,8 @@ The actual setup is already complete. Further configuration changes can be made 
 
 At the end of the setup, you can now start the server by executing the **server-start.bat** file you created earlier. This should open the server's console and start the server startup process. If everything goes as expected, the server should be visible in the server list after a successful start.
 
+
+
+## Conclusion
+
+Congratulations, you have successfully installed and configurated the Satisfactory server on your VPS! If you have any further questions or problems, please contact our support team, who are available to help you every day! 

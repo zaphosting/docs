@@ -122,3 +122,8 @@ https://meet.zap-testdomain.de
 ```
 
 Lädt die Seite mit Jitsi Meet, kannst du direkt deine 1. Videokonferenz starten.
+
+
+## Abschluss
+
+Glückwunsch, du hast Jitsi Meet erfolgreich installiert und konfiguriert! Solltest du noch weitere Fragen oder Probleme haben, dann wende dich gerne an unser Support-Team, welches dir jeden Tag zur Verfügung steht! 

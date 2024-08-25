@@ -165,3 +165,8 @@ Starte das Spiel und navigiere zum Multiplayer-Menü. Suche nach dem Servernamen
 Sobald du den Server gefunden hast, klicke darauf, um dich zu verbinden. Wenn du dazu aufgefordert wirst, gib das Passwort ein, das ebenfalls auf dem Web-Interface sichtbar sein wird. 
 
 Du hast erfolgreich Farming Simulator 22 (Epic Games-Version) auf deinem Windows vServer installiert.
+
+
+## Abschluss
+
+Glückwunsch, du hast den Farming Simulator 2022 Server erfolgreich installiert und konfiguriert! Solltest du noch weitere Fragen oder Probleme haben, dann wende dich gerne an unser Support-Team, welches dir jeden Tag zur Verfügung steht!

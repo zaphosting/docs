@@ -202,3 +202,8 @@ If the domain is now opened in the browser, it shows its encryption.
 :::info
 The installation as well as the setup of the first domain with encryption is now completely finished. 
 :::
+
+
+## Conclusion
+
+Congratulations, you have successfully installed and configurated Plesk! If you have any further questions or problems, please contact our support team, who are available to help you every day! 

@@ -87,3 +87,8 @@ Ubuntu:
 Debian: 
 
 ![xrdp4](https://user-images.githubusercontent.com/61953937/167338611-9ecaaa54-aa98-4eaa-95d5-968decef2219.png)
+
+
+## Conclusion
+
+Congratulations, you have successfully installed XRDP! If you have any further questions or problems, please contact our support team, who are available to help you every day! 

@@ -37,3 +37,8 @@ Sobald die Installation abgeschlossen ist, kann das Cockpit-Panel über die IP:9
 Der Login findet mit den normalen Logindaten des Servers/Users statt. 
 
 ![cockpit](https://user-images.githubusercontent.com/61953937/167338111-31decaf3-6838-402b-819b-94323c87c11c.png)
+
+
+## Abschluss
+
+Glückwunsch, du hast Cockpit erfolgreich installiert und konfiguriert! Solltest du noch weitere Fragen oder Probleme haben, dann wende dich gerne an unser Support-Team, welches dir jeden Tag zur Verfügung steht! 

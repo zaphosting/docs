@@ -148,3 +148,8 @@ Under the menu item "Settings" you have further options to customize your server
 :::info
 **Note**: There is no licence installed on the Teamspeak 3 server by default. This means that you can only use a Teamspeak 3 server with a capacity of 32 slots. However, if you would like to activate more capacity or additional functions for your Teamspeak 3 server, you can purchase a corresponding licence from Teamspeak.
 :::
+
+
+## Conclusion
+
+Congratulations, you have successfully installed and configurated our GS/TS3 interface! If you have any further questions or problems, please contact our support team, who are available to help you every day! 

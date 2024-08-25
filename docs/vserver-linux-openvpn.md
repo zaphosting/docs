@@ -96,3 +96,8 @@ Connect via SFTP to your server to download the created .ovpn file and then dele
 :::info
 In case you have imported several files, you have to select the client you want to use and then click on Connect
 :::
+
+
+## Conclusion
+
+Congratulations, you have successfully installed and configurated OpenVPN! If you have any further questions or problems, please contact our support team, who are available to help you every day! 

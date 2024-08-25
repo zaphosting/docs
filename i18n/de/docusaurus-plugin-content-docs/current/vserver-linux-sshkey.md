@@ -129,3 +129,6 @@ Alternativ wären diese erst nach einem Serverneustart aktiv.
 service sshd restart
 ```
 
+## Abschluss
+
+Glückwunsch, du hast den SSH Key erfolgreich angelegt und konfiguriert! Solltest du noch weitere Fragen oder Probleme haben, dann wende dich gerne an unser Support-Team, welches dir jeden Tag zur Verfügung steht! 

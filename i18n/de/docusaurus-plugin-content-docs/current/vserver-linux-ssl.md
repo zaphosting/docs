@@ -120,3 +120,7 @@ Darüber hinaus kann die Erneuerung von Zertifikaten automatisiert werden. Dadur
 0 0 1 * * /opt/letsencrypt/letsencrypt-auto renew
 ```
 
+
+## Abschluss
+
+Glückwunsch, du hast das SSL-Zertifikat erfolgreich angelegt! Solltest du noch weitere Fragen oder Probleme haben, dann wende dich gerne an unser Support-Team, welches dir jeden Tag zur Verfügung steht! 

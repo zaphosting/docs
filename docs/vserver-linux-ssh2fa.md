@@ -97,3 +97,8 @@ You now enter your password as normal. You will be asked for a code, simply ente
 ![](https://user-images.githubusercontent.com/61839701/166184108-ed9c504c-e6cc-4b28-8afa-210f245f76d3.png)
 
 Now you are logged in!
+
+
+## Conclusion
+
+Congratulations, you have successfully enabled and configurated 2FA for SSH! If you have any further questions or problems, please contact our support team, who are available to help you every day! 

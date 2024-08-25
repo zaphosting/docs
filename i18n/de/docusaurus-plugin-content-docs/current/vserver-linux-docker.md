@@ -64,4 +64,6 @@ Die Ausgabe sollte so aussehen:
 ![image](https://user-images.githubusercontent.com/13604413/172061244-6834dae0-f14a-43ad-85d6-b5bf74ea89f8.png)
 
 
-Die Installation von Docker war erfolgreich. Nun kannst du loslegen und Docker verwenden!
+## Abschluss
+
+Glückwunsch, du hast Docker erfolgreich installiert und konfiguriert! Solltest du noch weitere Fragen oder Probleme haben, dann wende dich gerne an unser Support-Team, welches dir jeden Tag zur Verfügung steht! 

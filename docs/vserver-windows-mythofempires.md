@@ -143,4 +143,6 @@ Now it is time to start your server. Head over to the directory of your Myth of 
 If you are having issues connecting to the server, open your `StartPrivateServer.bat` file using a tool such as notepad and ensure that the two IP parameters match the IP of your Windows server. This should be automatically populated by the tool that was used, but it is great troubleshooting step.
 :::
 
-You have successfully installed Myth of Empires on your Windows VPS.
+## Conclusion
+
+Congratulations, you have successfully installed and configurated the Myth of Empires erver on your VPS! If you have any further questions or problems, please contact our support team, who are available to help you every day! 

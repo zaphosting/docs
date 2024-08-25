@@ -194,6 +194,8 @@ Wird nun die Domain im Browser geöffnet, so zeigt diese ihre Verschlüsslung an
 
 ![](https://user-images.githubusercontent.com/61839701/166189426-946bcad0-584d-4139-9ccb-6770b39d4132.png)
 
-:::info
-Die Installation sowie der Einrichtung der ersten Domain mit Verschlüsslung ist nun vollständig abgeschlossen. 
-:::
+
+
+## Abschluss
+
+Glückwunsch, du hast Plesk erfolgreich installiert! Solltest du noch weitere Fragen oder Probleme haben, dann wende dich gerne an unser Support-Team, welches dir jeden Tag zur Verfügung steht! 

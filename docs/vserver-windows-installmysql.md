@@ -47,3 +47,9 @@ You can find the guide in how to forward ports in the firewall here:
 [Windows Port Forwarding](vserver-windows-port.md)
 
 Now you can access your MySQL server externally!
+
+
+
+## Conclusion
+
+Congratulations, you have successfully installed and configurated the MySQL server on your VPS! If you have any further questions or problems, please contact our support team, who are available to help you every day! 

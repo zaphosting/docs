@@ -204,4 +204,6 @@ Jetzt kannst du den bereitgestellten Code mit dem Befehl `bun index.ts` ausführ
 </TabItem>
 </Tabs>
 
-Wenn du dieser Anleitung folgst, wirst du erfolgreich eine der beliebten JavaScript-Laufzeitumgebungen auf deinem Windows-Server installiert haben.
+## Abschluss
+
+Glückwunsch, du hast JavaScript erfolgreich installiert und konfiguriert! Solltest du noch weitere Fragen oder Probleme haben, dann wende dich gerne an unser Support-Team, welches dir jeden Tag zur Verfügung steht!

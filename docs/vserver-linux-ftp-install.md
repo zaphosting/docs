@@ -60,3 +60,8 @@ Now we can connect with our set information:
 
 ![image](https://user-images.githubusercontent.com/13604413/159172082-8cb4721f-01ef-4dd2-b21d-1e0933199140.png)
 
+
+
+## Conclusion
+
+Congratulations, you have successfully installed and configurated FTP! If you have any further questions or problems, please contact our support team, who are available to help you every day! 

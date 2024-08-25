@@ -93,3 +93,8 @@ The server should of course be publicly accessible to play with friends. For thi
 How to enable ports on Windows, [we explain in this guide](vserver-windows-port.md). 
 
 After the port release the server is publicly accessible, if it was started. 
+
+
+## Conclusion
+
+Congratulations, you have successfully installed and configurated the Farming Simulator 2019 server on your VPS! If you have any further questions or problems, please contact our support team, who are available to help you every day! 

@@ -163,3 +163,8 @@ systemctl enable --now mastodon-web mastodon-sidekiq mastodon-streaming
 ```
 
 Nach einem Neustart ist deine Installation fertig und ready-to-go für den Livebtrieb! 
+
+
+## Abschluss
+
+Glückwunsch, du hast Mastodon erfolgreich installiert und konfiguriert! Solltest du noch weitere Fragen oder Probleme haben, dann wende dich gerne an unser Support-Team, welches dir jeden Tag zur Verfügung steht! 

@@ -530,3 +530,8 @@ Moreover, there is also the possibility to install additional apps apart from th
 ![image](https://user-images.githubusercontent.com/13604413/159172353-708039fe-2697-4852-83d5-e132bf129f47.png)
 
 With such **Apps** it is possible to further individualize Nextcloud according to your wishes.
+
+
+## Conclusion
+
+Congratulations, you have successfully installed Nextcloud! If you have any further questions or problems, please contact our support team, who are available to help you every day! 

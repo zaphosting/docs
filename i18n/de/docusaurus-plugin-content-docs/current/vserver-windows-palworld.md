@@ -153,3 +153,8 @@ Jetzt ist es an der Zeit, deinen Server zu starten. Möglicherweise musst du [Di
 Gehe in das Basisverzeichnis deines Palworld-Servers und starte **PalServer.exe**, um den Startvorgang zu beginnen. Dadurch wird die Konsole des Servers in einer Eingabeaufforderung geöffnet und der Startvorgang beginnt. Wenn alles wie erwartet abläuft, wird dein Server in der Serverliste sichtbar sein. Alternativ kannst du dich auch direkt verbinden, indem du in der unteren Suchleiste der Serverliste nach `[your_ip_address]:8211`.
 
 Du hast Palworld erfolgreich auf deinem Windows VPS installiert.
+
+
+## Abschluss
+
+Glückwunsch, du hast den Palworld Server erfolgreich installiert und konfiguriert! Solltest du noch weitere Fragen oder Probleme haben, dann wende dich gerne an unser Support-Team, welches dir jeden Tag zur Verfügung steht!

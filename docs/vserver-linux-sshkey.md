@@ -114,3 +114,8 @@ The SSH service must then be restarted so that the changes are immediately activ
 ```
 service sshd restart
 ```
+
+
+## Conclusion
+
+Congratulations, you have successfully installed and configurated your SSH key! If you have any further questions or problems, please contact our support team, who are available to help you every day! 

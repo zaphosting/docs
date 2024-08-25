@@ -161,4 +161,9 @@ systemctl daemon-reload
 systemctl enable --now mastodon-web mastodon-sidekiq mastodon-streaming
 ```
 
-After a reboot you should be finished with your setup. Have fun with your instance!
+
+## Conclusion
+
+Congratulations, you have successfully installed and configurated Mastodon! If you have any further questions or problems, please contact our support team, who are available to help you every day! 
+
+

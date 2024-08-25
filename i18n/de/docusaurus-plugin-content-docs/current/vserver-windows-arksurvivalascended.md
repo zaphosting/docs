@@ -161,4 +161,6 @@ Sobald du sie auf deinem VPS installiert hast, kannst du den Server starten, ind
 
 Dadurch wird die Konsole des Servers in einer Eingabeaufforderung geöffnet und der Startvorgang beginnt. Wenn alles wie erwartet abläuft, wird dein Server in der Serverliste angezeigt. Alternativ kannst du dich auch direkt mit dem Server verbinden, indem du die Konsole im Spiel öffnest und "open [your_ip_address]:7777" eingibst.
 
-Du hast Ark: Survival Ascended erfolgreich auf deinem Windows VPS installiert.
+## Abschluss
+
+Glückwunsch, du hast den ARK-Survival-Ascended Server erfolgreich installiert und konfiguriert! Solltest du noch weitere Fragen oder Probleme haben, dann wende dich gerne an unser Support-Team, welches dir jeden Tag zur Verfügung steht!

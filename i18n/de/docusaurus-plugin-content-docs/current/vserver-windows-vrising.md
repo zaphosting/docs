@@ -123,3 +123,8 @@ Der Server soll natürlich öffentlich erreichbar sein, um mit Freunden spielen 
 Wie Ports bei Windows freigeschaltet werden können, [erklären wir in dieser Anleitung](vserver-windows-port.md). 
 
 Nach der Port Freigabe ist der Server öffentlich erreichbar, sofern er gestartet wurde. 
+
+
+## Abschluss
+
+Glückwunsch, du hast den V-Rising Server erfolgreich installiert und konfiguriert! Solltest du noch weitere Fragen oder Probleme haben, dann wende dich gerne an unser Support-Team, welches dir jeden Tag zur Verfügung steht!

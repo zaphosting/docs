@@ -96,3 +96,8 @@ In this example the path is **C:\Program Files (x86)\FileZilla Server\FileZilla 
 ![image](https://user-images.githubusercontent.com/26007280/190912805-1a972dec-1e60-425a-806f-4c7dad3663dc.png)
 
 After that you can close the process with a click on **OK**, a connection to your FTP server is now possible.
+
+
+## Conclusion
+
+Congratulations, you have successfully installed and configurated the FTP server on your VPS! If you have any further questions or problems, please contact our support team, who are available to help you every day! 

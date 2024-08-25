@@ -126,4 +126,8 @@ After that Jitsi Meet should be fully installed and active on your server. To te
 https://meet.zap-testdomain.de
 ```
 
-If the page loads with Jitsi Meet you can directly start your 1st video conference.
+
+
+## Conclusion
+
+Congratulations, you have successfully installed and configurated Jitsi! If you have any further questions or problems, please contact our support team, who are available to help you every day! 

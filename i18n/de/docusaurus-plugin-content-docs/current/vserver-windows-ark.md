@@ -89,3 +89,8 @@ Die eigentliche Einrichtung ist damit bereits abgeschlossen. Weitere Änderungen
 Zum Abschluss der Einrichtung kannst du nun den Server starten, indem du die zuvor erstellte **start-ark.bat** Datei ausführst. Hierdurch sollte sich die Konsole des Servers öffnen und der Startprozess beginnen. Wenn alles wie erwartet verläuft, sollte der Server nach dem erfolgreichen Start in der Liste der Server sichtbar sein.
 
 ![image](https://user-images.githubusercontent.com/26007280/217031374-cd159a55-3dc8-4b62-9f1b-0b35bb0917e7.png)
+
+
+## Abschluss
+
+Glückwunsch, du hast den ARK Survival Server erfolgreich installiert und konfiguriert! Solltest du noch weitere Fragen oder Probleme haben, dann wende dich gerne an unser Support-Team, welches dir jeden Tag zur Verfügung steht!

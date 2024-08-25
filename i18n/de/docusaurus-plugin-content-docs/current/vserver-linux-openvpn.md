@@ -131,3 +131,8 @@ Solltest du mehrere Dateien importiert haben, musst du noch den Client auswähle
 Jetzt solltest du verbunden werden.
 
 Wenn du die Verbindung wieder trennen möchtest, wähle nicht "Verbinden" aus, sondern "Trennen". 
+
+
+## Abschluss
+
+Glückwunsch, du hast OpenVPN erfolgreich installiert und konfiguriert! Solltest du noch weitere Fragen oder Probleme haben, dann wende dich gerne an unser Support-Team, welches dir jeden Tag zur Verfügung steht! 

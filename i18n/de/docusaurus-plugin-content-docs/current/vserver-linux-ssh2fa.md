@@ -113,3 +113,9 @@ Du gibst nun ganz normal dein Passwort ein. Danach wirst du nach einem Code gefr
 ![](https://user-images.githubusercontent.com/61839701/166183906-b2d6e770-66fa-4096-a642-b3873470dc85.png)
 
 Und schon bist du eingeloggt! Du hast nun 2FA für SSH aktiviert.
+
+
+
+## Abschluss
+
+Glückwunsch, du hast die 2FA für SSH erfolgreich aktiviert! Solltest du noch weitere Fragen oder Probleme haben, dann wende dich gerne an unser Support-Team, welches dir jeden Tag zur Verfügung steht! 

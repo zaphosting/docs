@@ -124,4 +124,6 @@ You will now be able to direct connect to your server via your IP by heading to 
 
 If you wish your server to be available in the server list, please check out our [Foundry Server Configuration guide](foundry-configuration.md) and add the appropriate `server_name` and `server_is_public` parameters into your configuration file. Save the file once done and run the server executable again.
 
-You have successfully installed Foundry on your Windows VPS.
+## Conclusion
+
+Congratulations, you have successfully installed and configurated the Foundry server on your VPS! If you have any further questions or problems, please contact our support team, who are available to help you every day! 

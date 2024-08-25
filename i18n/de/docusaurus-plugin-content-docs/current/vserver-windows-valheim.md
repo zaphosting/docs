@@ -80,3 +80,9 @@ Die eigentliche Einrichtung ist damit bereits abgeschlossen. Weitere Änderungen
 ## Spielen
 
 Zum Abschluss der Einrichtung kannst du jetzt den Server starten, indem du die zuvor erstellte **start_headless_server.bat** Datei ausführst. Hierdurch sollte sich die Konsole des Servers öffnen und der Startprozess beginnen. Wenn alles wie erwartet verläuft, sollte der Server nach dem erfolgreichen Start in der Liste der Server sichtbar sein.
+
+
+
+## Abschluss
+
+Glückwunsch, du hast den Valheim Server erfolgreich installiert und konfiguriert! Solltest du noch weitere Fragen oder Probleme haben, dann wende dich gerne an unser Support-Team, welches dir jeden Tag zur Verfügung steht!

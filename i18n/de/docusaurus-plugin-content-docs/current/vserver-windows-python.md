@@ -75,3 +75,8 @@ Um Befehle wie `pip install` innerhalb deiner venv auszuführen, musst du sie ak
 Wenn du mit der Arbeit in der venv fertig bist, kannst du mit dem Befehl `deactivate` zurückkehren.
 
 ![Aktivieren / Deaktivieren der Python venv](https://imgur.com/KvJxliT.png)
+
+
+## Abschluss
+
+Glückwunsch, du hast Python erfolgreich installiert und konfiguriert! Solltest du noch weitere Fragen oder Probleme haben, dann wende dich gerne an unser Support-Team, welches dir jeden Tag zur Verfügung steht!
