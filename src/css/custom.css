@@ -226,7 +226,7 @@ p {
   }
 }
 
-@media (max-width: 1400px) and (min-width: 996px){
+@media (max-width: 1350px) and (min-width: 996px){
   .navbar__items:not(.navbar__items--right) {
     display: grid;
     grid-template-columns: auto auto auto auto;
