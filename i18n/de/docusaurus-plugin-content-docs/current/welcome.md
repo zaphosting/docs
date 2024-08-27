@@ -48,7 +48,7 @@ Perfektioniere und Nutze den vollen Umfang deines Gameservers. Mit unserer Exper
     <Card title="Euro Truck Simulator" description="Placeholder" link="ets2-server-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/227300/header.jpg?t=1707210696"/>
     <Card title="Factorio" description="Placeholder" link="factorio-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/427520/header.jpg?t=1698860631"/>
     <Card title="FiveM" description="Placeholder" link="fivem-dashboard" image="https://zap-cdn.com/interface/_images/icons/fivem-gameserver-icon.png"/>
-    <Card title="Foundry" description="Placeholder" link="trucksim-dlc" image="https://cdn.cloudflare.steamstatic.com/steam/apps/983870/header_alt_assets_1_german.jpg?t=1715273802"/>
+    <Card title="Foundry" description="Placeholder" link="foundry-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/983870/header_alt_assets_1_german.jpg?t=1715273802"/>
     <Card title="Garry's Mod" description="Placeholder" link="gmod-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/4000/header.jpg?t=1698860631"/>
     <Card title="Last Oasis" description="Placeholder" link="lastoasis-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/903950/header.jpg?t=1698860631"/>
     <Card title="Minecraft" description="Placeholder" link="minecraft-firststeps-dashboard" image="https://zap-cdn.com/interface/_images/game/minecraft.png"/>
