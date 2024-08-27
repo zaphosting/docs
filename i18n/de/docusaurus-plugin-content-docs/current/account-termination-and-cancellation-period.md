@@ -13,22 +13,20 @@ In diesem Leitfaden erfährst du mehr über unsere aktuellen Richtlinien zur Kü
 
 Um die für dein Produkt geltenden Bedingungen zu verstehen, musst du die **Abrechnungsart** deines Produkts kennen. Du kannst herausfinden, welche Abrechnungsart du zum Zeitpunkt des Kaufs gewählt hast, indem du dein [Webinterface-Dashboard](https://zap-hosting.com/de/customer/) auf unserer Website aufrufst, während du eingeloggt bist, und die blaue Schaltfläche **Paket anzeigen** auswählst.
 
-- Kündigungsfrist: Dies bezieht sich auf den Zeitraum, den du ab dem Kaufdatum hast, um deine Meinung zu ändern und dein Produkt zu kündigen. Wenn du dich für die Kündigung entscheidest, bekommst du ZAP Coins (Kontoguthaben) gutgeschrieben, die du für ein anderes Produkt ausgeben kannst.
+- Widerrufsfrist: Dies bezieht sich auf den Zeitraum, den du ab dem Kaufdatum hast, um deine Meinung zu ändern und dein Produkt zu widerrufen. Wenn du dich für die Kündigung entscheidest, bekommst du ZAP Coins (Kontoguthaben) gutgeschrieben, die du für ein anderes Produkt ausgeben kannst.
 - Kündigungsfrist: Dies bezieht sich auf den Zeitraum, vor dem du uns über deine Entscheidung, deinen Vertrag zu kündigen, informieren musst. Dies gilt nur für **Vertrag** Abrechnungsprodukte.
 
 ![image](https://screensaver01.zap-hosting.com/index.php/s/wgNF7jSP6CaSeqd/preview)
 
-## Dein Produkt kündigen
+## Dein Produkt widerrufen
 
 Unabhängig von der Abrechnungsart für dein Produkt hast du eine **14-tägige** Frist, in der du dich entscheiden kannst, deine Bestellung aus irgendeinem Grund zu kündigen und zu widerrufen. Wir bieten keine vollständige Rückerstattung an, wie in unseren allgemeinen Geschäftsbedingungen und den Bedingungen, die du während des Bestellvorgangs akzeptiert hast, angegeben.
 
 Aus Gründen der Höflichkeit gegenüber unseren Kunden bieten wir dir jedoch die Möglichkeit, deine Bestellung zu widerrufen und ZAP Coins (Kontoguthaben) auf dein ZAP-Hosting-Konto zu erhalten, die du für ein anderes Produkt ausgeben kannst. Es fällt eine kleine Gebühr von 3 € an, die von der Summe, die deinem Konto gutgeschrieben wird, abgezogen wird.
 
-#### Kündigungsprozess
+#### Widerrufsprozess
 
-Logge dich zunächst in dein ZAP-Hosting-Konto ein und gehe zu deinem [Webinterface-Dashboard](https://zap-hosting.com/de/customer/).
-
-Gehe von hier aus zum Abschnitt **Bestellungen** auf der linken Seite.
+Logge dich zunächst in dein ZAP-Hosting-Konto ein und gehe zu deinem [Webinterface-Dashboard](https://zap-hosting.com/de/customer/). Gehe von hier aus zum Abschnitt **Bestellungen** auf der linken Seite.
 
 ![image](https://screensaver01.zap-hosting.com/index.php/s/JoepQjDWReSAsjE/preview)
 
@@ -66,9 +64,7 @@ Hier ist ein nützliches Beispiel, um das Verständnis zu erleichtern:
 
 #### Kündigungsprozess
 
-Logge dich zunächst in dein ZAP-Hosting-Konto ein und gehe zu deinem [Webinterface-Dashboard](https://zap-hosting.com/de/customer/).
-
-Auf dem Dashboard suchst du dein **Vertragsprodukt** und wählst die blaue Schaltfläche **Paket anzeigen**.
+Logge dich zunächst in dein ZAP-Hosting-Konto ein und gehe zu deinem [Webinterface-Dashboard](https://zap-hosting.com/de/customer/). Auf dem Dashboard suchst du dein **Vertragsprodukt** und wählst die blaue Schaltfläche **Paket anzeigen**.
 
 ![image](https://screensaver01.zap-hosting.com/index.php/s/8yLTwtxeppd3zSz/preview)
 
@@ -86,10 +82,8 @@ Zum Schluss kannst du die Informationen zur Kündigung einsehen. Gemäß unseren
 
 Du hast nun den Kündigungsprozess abgeschlossen, der zum nächstmöglichen Termin, der angezeigt wurde, stattfinden wird.
 
-## Zusätzliche Abfragen
+## Zusätzliche Anfragen
 
 Hier bei ZAP-Hosting schätzen wir alle unsere Kunden sehr. Wenn du mit etwas Bestimmten in Bezug auf unsere Richtlinien unzufrieden bist oder eine allgemeine Frage hast, kannst du uns jederzeit kontaktieren.
 
-Du kannst dies tun, indem du [ein Ticket auf unserer Website erstellst](https://zap-hosting.com/de/customer/support/) und unser freundliches Support-Team wird sich so schnell wie möglich bei dir melden.
-
-Bitte beachte, dass dies keine Garantie dafür ist, dass wir dir helfen können, aber wir werden immer versuchen, dein Problem so gut wie möglich zu lösen.
+Du kannst dies tun, indem du [ein Ticket auf unserer Website erstellst](https://zap-hosting.com/de/customer/support/) und unser freundliches Support-Team wird sich so schnell wie möglich bei dir melden. Bitte beachte, dass dies keine Garantie dafür ist, dass wir dir helfen können, aber wir werden immer versuchen, dein Problem so gut wie möglich zu lösen.

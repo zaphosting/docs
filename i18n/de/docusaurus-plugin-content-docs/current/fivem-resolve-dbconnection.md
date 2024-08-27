@@ -11,9 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Oxmysql ist eine nützliche Open-Source-FiveM-Ressource, die auf deinem FiveM-Server vorinstalliert ist, um die Kommunikation zwischen dem Server und deiner Datenbank zu ermöglichen. Während der Entwicklung kann es vorkommen, dass du Änderungen vornimmst (z.B. neue Datenbankanmeldedaten), die eine Änderung des oxmysql-Verbindungsstrings erfordern.
-
-Beispiel für ein Problem mit der Datenbankverbindung:
+Oxmysql ist eine nützliche Open-Source-FiveM-Ressource, die auf deinem FiveM-Server vorinstalliert ist, um die Kommunikation zwischen dem Server und deiner Datenbank zu ermöglichen. Während der Entwicklung kann es vorkommen, dass du Änderungen vornimmst (z.B. neue Datenbankanmeldedaten), die eine Änderung des oxmysql-Verbindungsstrings erfordern. Beispiel für ein Problem mit der Datenbankverbindung:
 
 ![image](https://screensaver01.zap-hosting.com/index.php/s/G5zACEEErfP4EHG/preview)
 
@@ -31,9 +29,7 @@ Diese Methode ist derzeit nur für die Spielversion **FiveM: txAdmin** verfügba
 
 ![image](https://screensaver01.zap-hosting.com/index.php/s/JW4XHRd8d2n7Ljm/preview)
 
-Scrolle auf dieser Seite ganz nach unten, wo du die Schaltflächen **Aktionen** findest.
-
-Benutze einfach die Schaltfläche **Reconfigure mysql connection string** und starte deinen Server neu, um sicherzustellen, dass die Änderungen verarbeitet werden.
+Scrolle auf dieser Seite ganz nach unten, wo du die Schaltflächen **Aktionen** findest. Benutze einfach die Schaltfläche **Reconfigure mysql connection string** und starte deinen Server neu, um sicherzustellen, dass die Änderungen verarbeitet werden.
 
 ![image](https://screensaver01.zap-hosting.com/index.php/s/eZoSBJcbCr7422K/preview)
 

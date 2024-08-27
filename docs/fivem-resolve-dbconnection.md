@@ -11,9 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
-Oxmysql is a useful open-source FiveM resource that comes pre-installed with your FiveM server, to allow communication between the server and your database. During development, it is possible that you may perform changes (such as refreshing database credentials) that will require changes to the oxmysql connection string.
-
-Example of database connection issue:
+Oxmysql is a useful open-source FiveM resource that comes pre-installed with your FiveM server, to allow communication between the server and your database. During development, it is possible that you may perform changes (such as refreshing database credentials) that will require changes to the oxmysql connection string. Example of database connection issue:
 
 ![image](https://screensaver01.zap-hosting.com/index.php/s/G5zACEEErfP4EHG/preview)
 
@@ -31,9 +29,7 @@ Begin by opening your server's web interface panel on the website and head over 
 
 ![image](https://screensaver01.zap-hosting.com/index.php/s/DXxNyPXEAEntPHS/preview)
 
-On this page, scroll to the bottom where you will be able to find the **Actions** buttons.
-
-Simply use the **Reconfigure mysql connection string** button and once pressed, restart your server to ensure the changes are processed.
+On this page, scroll to the bottom where you will be able to find the **Actions** buttons. Simply use the **Reconfigure mysql connection string** button and once pressed, restart your server to ensure the changes are processed.
 
 ![image](https://screensaver01.zap-hosting.com/index.php/s/eZoSBJcbCr7422K/preview)
 
@@ -65,4 +61,9 @@ Once you have this ready, make sure to save the file and restart your server.
 
 ![image](https://screensaver01.zap-hosting.com/index.php/s/MdanaTBPGLnkQX5/preview)
 
+## Conclusion
+
 The next time the server launches, your database should be accessible again by your server and thus should fully function. You have successfully resolved your database connection issues.
+
+
+
