@@ -204,7 +204,7 @@ p {
 }
 
 /* Navigation Bar Scaling */
-@media (max-width: 1700px) and (min-width: 996px){
+@media (max-width: 1550px) and (min-width: 996px){
   .navbar {
     height: auto;
   }
