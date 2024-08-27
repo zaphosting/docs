@@ -441,20 +441,6 @@ const sidebars = {
     },
     {
       type: "category",
-      label: "Alt:V",
-      items: [
-        {
-          type: "category",
-          label: "First Steps",
-          items: [
-            "altv-firststeps-dashboard",
-          ]
-        },
-        "altv-installresources"
-      ],
-    },
-    {
-      type: "category",
       label: "American Truck Simulator",
       items: [
         {
@@ -1074,20 +1060,6 @@ const sidebars = {
             "projectzomboid-firststeps-dashboard"
           ]
         }
-      ],
-    },
-    {
-      type: "category",
-      label: "RageMP",
-      items: [
-        {
-          type: "category",
-          label: "First Steps",
-          items: [
-            "ragemp-firststeps-dashboard",
-          ]
-        },
-        "ragemp-installpackages"
       ],
     },
     {

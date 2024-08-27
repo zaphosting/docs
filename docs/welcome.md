@@ -25,7 +25,6 @@ Perfect and utilize the full extent of your game server. With our expertise, we 
 <Cards>
     <Card title="7 Days to Die" description="Placeholder" link="7d2d-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/251570/header.jpg?=1698860631"/>
     <Card title="Abiotic Factor" description="Placeholder" link="abioticfactor-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/427410/header.jpg?t=1714694871"/>
-    <Card title="Alt:V" description="Placeholder" link="altv-firststeps-dashboard" image="https://zap-cdn.com/interface/_images/icons/alt-v-icon.png"/>
     <Card title="American Truck Simulator" description="Placeholder" link="ats-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/270880/header.jpg?t=1707218064"/>
     <Card title="Among Us" description="Placeholder" link="amongus-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/945360/header.jpg?t=1698860631"/>
     <Card title="ARK" description="Placeholder" link="ark-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/346110/header.jpg?t=1698860631"/>
@@ -58,7 +57,6 @@ Perfect and utilize the full extent of your game server. With our expertise, we 
     <Card title="Open.mp" description="Placeholder" link="openmp-firststeps-dashboard" image="https://zap-cdn.com/interface/_images/icons/openmp-icon.jpg"/>
     <Card title="Palworld" description="Placeholder" link="palworld-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/1623730/header.jpg?t=1698860631"/>
     <Card title="Project Zomboid" description="Placeholder" link="projectzomboid-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/108600/header.jpg?t=1698860631"/>
-    <Card title="RageMP" description="Placeholder" link="ragemp-firststeps-dashboard" image="https://zap-cdn.com/interface/_images/icons/ragemp-icon-new2.jpg"/>
     <Card title="RedM" description="Placeholder" link="redm-firststeps-dashboard" image="https://zap-cdn.com/interface/_images/icons/redm-icon-new.jpg"/>
     <Card title="RimWorld Together" description="Placeholder" link="rimworldtogether-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/294100/header.jpg?t=1712954312"/>
     <Card title="Rust" description="Placeholder" link="rust-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/252490/header.jpg?t=1698860631"/>
