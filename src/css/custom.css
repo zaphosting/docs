@@ -199,6 +199,10 @@ table {
   width: 100%;
 }
 
+p {
+  text-align: justify;
+}
+
 /* Navigation Bar Scaling */
 @media (max-width: 1700px) and (min-width: 996px){
   .navbar {
