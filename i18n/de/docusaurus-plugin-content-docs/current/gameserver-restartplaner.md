@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 ## Einführung
 Bei dem Restartplaner handelt es sich um eine bei Gameservern angebotene Funktion. Mit dieser kann im Vorfeld ein automatischer Restart erstellt, damit der Server täglich zur selben Zeit automatisch neugestartet werden kann.
 
-<YouTube videoId="bcsAePevPnY" title="How to setup a RESTART PLANNER for your Server!" description="Hast du das Gefühl, dass du etwas besser verstehst, wenn du es in Aktion siehst?  Wir haben etwas für dich! Tauche ab in unser Video, welches alles für dich zusammenfasst. Egal, ob du es eilig hast oder einfach nur Informationen auf möglichst verständliche Art und Weise aufnehmen möchtest!"/>
+<YouTube videoId="bcsAePevPnY" title="How to setup a RESTART PLANNER for your Server!" description="Hast du das Gefühl, dass du etwas besser verstehst, wenn du es in Aktion siehst? Wir haben etwas für dich! Tauche ab in unser Video, welches alles für dich zusammenfasst. Egal, ob du es eilig hast oder einfach nur Informationen auf möglichst verständliche Art und Weise aufnehmen möchtest!"/>
 
 :::info
 Diese Funktion ist nur für Gameserver eingebunden

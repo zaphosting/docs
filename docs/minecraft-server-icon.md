@@ -16,7 +16,7 @@ Minecraft offers the option to add your own server icon, which is displayed in m
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/zFQLZmRrLWrKN7r/preview)
 
-<YouTube videoId="m5mpKcd9Ur0" title="How to change the ICON on your Minecraft Server " description="Feel like you understand better when you see things in action?  We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
+<YouTube videoId="m5mpKcd9Ur0" title="How to change the ICON on your Minecraft Server " description="Feel like you understand better when you see things in action? We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
 
 <InlineVoucher />
 
