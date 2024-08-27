@@ -15,7 +15,7 @@ Minecraft bietet die Option an, ein eigenes Servericon hinzuzufügen, das im Mul
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/zFQLZmRrLWrKN7r/preview)
 
-<YouTube videoId="m5mpKcd9Ur0" title="How to change the ICON on your Minecraft Server " description="Hast du das Gefühl, dass du etwas besser verstehst, wenn du es in Aktion siehst?  Wir haben etwas für dich! Tauche ab in unser Video, welches alles für dich zusammenfasst. Egal, ob du es eilig hast oder einfach nur Informationen auf möglichst verständliche Art und Weise aufnehmen möchtest!"/>
+<YouTube videoId="m5mpKcd9Ur0" title="How to change the ICON on your Minecraft Server " description="Hast du das Gefühl, dass du etwas besser verstehst, wenn du es in Aktion siehst? Wir haben etwas für dich! Tauche ab in unser Video, welches alles für dich zusammenfasst. Egal, ob du es eilig hast oder einfach nur Informationen auf möglichst verständliche Art und Weise aufnehmen möchtest!"/>
 
 <InlineVoucher />
 

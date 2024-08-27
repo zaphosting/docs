@@ -39,7 +39,7 @@ With your order now submitted, your transfer request should be typically complet
 
 If there is an issue with the order, for example issues with the Auth Code, we will contact you as soon as possible to have this resolved promptly.
 
-### Transferring Domain away from ZAP-Hosting
+## Transferring Domain away from ZAP-Hosting
 
 We are sad to see you consider moving your domain away from us, but we respect our customers and thus we have made transferring your domain away from us just as simple.
 
