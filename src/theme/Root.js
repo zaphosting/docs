@@ -8,7 +8,15 @@ export default function Root({ children }) {
 
   useEffect(() => {
     const applyMediumZoom = () => {
-      mediumZoom('img');
+      const zoom = mediumZoom('img');
+
+      zoom.on('open', (event) => {
+        event.target.style.zIndex = 9999;
+      });
+
+      zoom.on('close', (event) => {
+        event.target.style.zIndex = '';
+      });
     };
 
     const intervalId = setInterval(() => {
@@ -16,7 +24,7 @@ export default function Root({ children }) {
         applyMediumZoom();
         clearInterval(intervalId);
       }
-    }, 100); 
+    }, 100);
 
     window.addEventListener('docusaurus.onRouteDidUpdate', applyMediumZoom);
 
