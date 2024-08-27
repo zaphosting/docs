@@ -172,6 +172,7 @@ const sidebars = {
             "fivem-rcon",
             "fivem-licensekey",
             "fivem-deletecache",
+            "fivem-resolve-dbconnection",
             "fivem-useprofiler",
             "fivem-mastodon",
             "fivem-prohibited-resources",
@@ -456,7 +457,14 @@ const sidebars = {
       type: "category",
       label: "American Truck Simulator",
       items: [
-        "trucksim-dlc"
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "ats-firststeps-dashboard",
+          ]
+        },
+        "ats-server-modding"
       ],
     },
     {
@@ -768,11 +776,19 @@ const sidebars = {
     },
     {
       type: "category",
-      label: "Euro Truck Simulator",
+      label: "Euro Truck Simulator 2",
       items: [
-        "trucksim-dlc"
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "ets2-firststeps-dashboard",
+          ]
+        },
+        "ets2-server-modding"
       ],
     },
+    
     {
       type: "category",
       label: "Factorio",
@@ -1189,6 +1205,19 @@ const sidebars = {
             "exiled-plugins"
           ]
         }
+      ],
+    },
+    {
+      type: "category",
+      label: "SCP: 5K",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "scp5k-firststeps-dashboard"
+          ]
+        },
       ],
     },
     {

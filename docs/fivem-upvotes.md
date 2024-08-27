@@ -14,7 +14,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 FiveM upvotes give you the opportunity to have your own or another server placed higher in the server list. The more active upvote points a server has, the higher it will be ranked. 
 
-<YouTube videoId="H-bdMJTQkSM" title="Get FiveM Upvotes FAST!" description="Feel like you understand better when you see things in action?  We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
+<YouTube videoId="H-bdMJTQkSM" title="Get FiveM Upvotes FAST!" description="Feel like you understand better when you see things in action? We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
 
 <InlineVoucher />
 

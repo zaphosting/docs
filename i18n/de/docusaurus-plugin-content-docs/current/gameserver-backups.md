@@ -16,7 +16,7 @@ Wir bieten die Möglichkeit, Backups individuell per Klick zu erstellen. Dadurch
 
 Neben dem manuellen Erstellen von Backups können auch Backups voll automatisiert erstellt werden. Es können entweder täglich oder wöchentlich Backups zu einer angegebenen Uhrzeit angelegt werden. Nach einer Wiederherstellung eines Backups befindet sich der Server auf dem Stand zum Zeitpunkt der Backuperstellung.
 
-<YouTube videoId="yUDAcfyDELc" title="Wie du BACKUPS für deinen Server erstellst!" description="Hast du das Gefühl, dass du etwas besser verstehst, wenn du es in Aktion siehst?  Wir haben etwas für dich! Tauche ab in unser Video, welches alles für dich zusammenfasst. Egal, ob du es eilig hast oder einfach nur Informationen auf möglichst verständliche Art und Weise aufnehmen möchtest!"/>
+<YouTube videoId="yUDAcfyDELc" title="Wie du BACKUPS für deinen Server erstellst!" description="Hast du das Gefühl, dass du etwas besser verstehst, wenn du es in Aktion siehst? Wir haben etwas für dich! Tauche ab in unser Video, welches alles für dich zusammenfasst. Egal, ob du es eilig hast oder einfach nur Informationen auf möglichst verständliche Art und Weise aufnehmen möchtest!"/>
 
 <InlineVoucher />
 

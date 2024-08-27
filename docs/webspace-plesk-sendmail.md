@@ -10,7 +10,7 @@ services:
 import YouTube from '@site/src/components/YouTube/YouTube';
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
-<YouTube videoId="x82zqEeAK1U" title="How to create a MAIL SERVER for your ZAP WEBSPACE!" description="Feel like you understand better when you see things in action?  We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
+<YouTube videoId="x82zqEeAK1U" title="How to create a MAIL SERVER for your ZAP WEBSPACE!" description="Feel like you understand better when you see things in action? We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
 
 <InlineVoucher />
 

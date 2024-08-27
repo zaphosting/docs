@@ -18,7 +18,7 @@ Du bist an einem **Palworld Server** interessiert oder besitzt bereits einen, do
 Wir haben jetzt eine separate **Palword (Xbox)** Spielversion auf unseren Gameservern, mit der du auf Xbox/Microsoft Store Spielversionen spielen kannst. In unserer [Anleitung zum Gameserver-Wechsel](gameserver-gameswitch.md) erfährst du, wie du dein Spiel ganz einfach wechseln kannst. Achte darauf, dass du deine Spielstände wie immer sicherst.
 :::
 
-<YouTube videoId="SDZC4-FEdNM" title="Setup Palworld server in just a MINUTE!" description="Hast du das Gefühl, dass du etwas besser verstehst, wenn du es in Aktion siehst?  Wir haben etwas für dich! Tauche ab in unser Video, welches alles für dich zusammenfasst. Egal, ob du es eilig hast oder einfach nur Informationen auf möglichst verständliche Art und Weise aufnehmen möchtest!"/>
+<YouTube videoId="SDZC4-FEdNM" title="Setup Palworld server in just a MINUTE!" description="Hast du das Gefühl, dass du etwas besser verstehst, wenn du es in Aktion siehst? Wir haben etwas für dich! Tauche ab in unser Video, welches alles für dich zusammenfasst. Egal, ob du es eilig hast oder einfach nur Informationen auf möglichst verständliche Art und Weise aufnehmen möchtest!"/>
 
 <InlineVoucher />
 

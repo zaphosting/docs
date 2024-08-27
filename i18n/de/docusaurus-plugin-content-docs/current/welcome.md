@@ -16,7 +16,7 @@ Unser Ziel ist es, Wissen zugänglich und verständlich zu machen. Deshalb haben
 
 Wir decken eine breite Palette an Themen ab und aktualisieren unsere Inhalte regelmäßig, um sicherzustellen, dass du immer auf dem neuesten Stand bist und die besten Praktiken anwenden kannst. Von grundlegenden Einrichtungsanleitungen bis hin zu fortgeschrittenen Konfigurationstechniken. 
 
-<YouTube videoId="Trs9Ysxa1gc" title="Die ZAP-Docs ist da, um zu helfen!" description="Hast du das Gefühl, dass du etwas besser verstehst, wenn du es in Aktion siehst?  Wir haben etwas für dich! Tauche ab in unser Video, welches alles für dich zusammenfasst. Egal, ob du es eilig hast oder einfach nur Informationen auf möglichst verständliche Art und Weise aufnehmen möchtest!"/>
+<YouTube videoId="Trs9Ysxa1gc" title="Die ZAP-Docs ist da, um zu helfen!" description="Hast du das Gefühl, dass du etwas besser verstehst, wenn du es in Aktion siehst? Wir haben etwas für dich! Tauche ab in unser Video, welches alles für dich zusammenfasst. Egal, ob du es eilig hast oder einfach nur Informationen auf möglichst verständliche Art und Weise aufnehmen möchtest!"/>
 
 ## Gameserver
 Perfektioniere und Nutze den vollen Umfang deines Gameservers. Mit unserer Expertise bringen wir dein Gaming auf ein neues Level. Unsere detaillierten Anleitungen für über 50 verschiedene Spiele und die dazugehörigen Erweiterungen/Modifikationen ermöglichen es dir, ein tiefgreifendes Verständnis für die Konfiguration und Verwaltung deiner Gameserver zu entwickeln.
@@ -25,7 +25,7 @@ Perfektioniere und Nutze den vollen Umfang deines Gameservers. Mit unserer Exper
     <Card title="7 Days to Die" description="Placeholder" link="7d2d-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/251570/header.jpg?=1698860631"/>
     <Card title="Abiotic Factor" description="Placeholder" link="abioticfactor-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/427410/header.jpg?t=1714694871"/>
     <Card title="Alt:V" description="Placeholder" link="altv-firststeps-dashboard" image="https://zap-cdn.com/interface/_images/icons/alt-v-icon.png"/>
-    <Card title="American Truck Simulator" description="Placeholder" link="trucksim-dlc" image="https://cdn.cloudflare.steamstatic.com/steam/apps/270880/header.jpg?t=1707218064"/>
+    <Card title="American Truck Simulator" description="Placeholder" link="ats-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/270880/header.jpg?t=1707218064"/>
     <Card title="Among Us" description="Placeholder" link="amongus-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/945360/header.jpg?t=1698860631"/>
     <Card title="ARK" description="Placeholder" link="ark-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/346110/header.jpg?t=1698860631"/>
     <Card title="Arma 3" description="Placeholder" link="arma3-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/107410/header.jpg?t=1698860631"/>
@@ -45,10 +45,10 @@ Perfektioniere und Nutze den vollen Umfang deines Gameservers. Mit unserer Exper
     <Card title="ECO" description="Placeholder" link="eco-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/382310/header.jpg?t=1698860631"/>
     <Card title="Empyrion" description="Placeholder" link="empyrion-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/383120/header.jpg?t=1698860631"/>
     <Card title="Enshrouded" description="Placeholder" link="enshrouded-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/1203620/header.jpg?t=1698860631"/>
-    <Card title="Euro Truck Simulator" description="Placeholder" link="trucksim-dlc" image="https://cdn.cloudflare.steamstatic.com/steam/apps/227300/header.jpg?t=1707210696"/>
+    <Card title="Euro Truck Simulator" description="Placeholder" link="ets2-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/227300/header.jpg?t=1707210696"/>
     <Card title="Factorio" description="Placeholder" link="factorio-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/427520/header.jpg?t=1698860631"/>
     <Card title="FiveM" description="Placeholder" link="fivem-dashboard" image="https://zap-cdn.com/interface/_images/icons/fivem-gameserver-icon.png"/>
-    <Card title="Foundry" description="Placeholder" link="trucksim-dlc" image="https://cdn.cloudflare.steamstatic.com/steam/apps/983870/header_alt_assets_1_german.jpg?t=1715273802"/>
+    <Card title="Foundry" description="Placeholder" link="foundry-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/983870/header_alt_assets_1_german.jpg?t=1715273802"/>
     <Card title="Garry's Mod" description="Placeholder" link="gmod-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/4000/header.jpg?t=1698860631"/>
     <Card title="Last Oasis" description="Placeholder" link="lastoasis-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/903950/header.jpg?t=1698860631"/>
     <Card title="Minecraft" description="Placeholder" link="minecraft-firststeps-dashboard" image="https://zap-cdn.com/interface/_images/game/minecraft.png"/>

@@ -128,6 +128,10 @@ const config = {
             to: '/docs/vserver-root-difference',
             from: '/docs/vserver-root-unterschied',
           },
+          {
+            to: '/docs/ets2-server-modding',
+            from: '/docs/trucksim-dlc',
+          }
           // Redirect from multiple old paths to the new path
           /*{
             to: '/docs/newDoc2',

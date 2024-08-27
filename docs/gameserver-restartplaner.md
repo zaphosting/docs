@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 ## Introduction
 The restart planner is a feature offered for game servers which allows you to create an automatic restart to restart the server automatically at the same time every day.
 
-<YouTube videoId="bcsAePevPnY" title="How to setup a RESTART PLANNER for your Server!" description="Feel like you understand better when you see things in action?  We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
+<YouTube videoId="bcsAePevPnY" title="How to setup a RESTART PLANNER for your Server!" description="Feel like you understand better when you see things in action? We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
 
 
 :::info

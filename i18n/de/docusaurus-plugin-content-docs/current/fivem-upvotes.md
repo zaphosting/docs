@@ -14,7 +14,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Mit den sogenannten FiveM Upvotes hast du die Möglichkeit deinen eigenen oder einen beliebigen Server in der Serverliste höher platzieren zu lassen. So mehr aktive Upvote-Punkte ein Server hat, desto höher wird dieser eingestuft. 
 
-<YouTube videoId="H-bdMJTQkSM" title="Get FiveM Upvotes FAST!" description="Hast du das Gefühl, dass du etwas besser verstehst, wenn du es in Aktion siehst?  Wir haben etwas für dich! Tauche ab in unser Video, welches alles für dich zusammenfasst. Egal, ob du es eilig hast oder einfach nur Informationen auf möglichst verständliche Art und Weise aufnehmen möchtest!"/>
+<YouTube videoId="H-bdMJTQkSM" title="Get FiveM Upvotes FAST!" description="Hast du das Gefühl, dass du etwas besser verstehst, wenn du es in Aktion siehst? Wir haben etwas für dich! Tauche ab in unser Video, welches alles für dich zusammenfasst. Egal, ob du es eilig hast oder einfach nur Informationen auf möglichst verständliche Art und Weise aufnehmen möchtest!"/>
 
 <InlineVoucher />
 

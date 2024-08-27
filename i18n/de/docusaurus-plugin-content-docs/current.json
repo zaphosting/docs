@@ -342,5 +342,13 @@
   "sidebar.gameserverSidebar.category.Soulmask": {
     "message": "Soulmask",
     "description": "The label for category Soulmask in sidebar gameserverSidebar"
+  },
+  "sidebar.gameserverSidebar.category.Euro Truck Simulator 2": {
+    "message": "Euro Truck Simulator 2",
+    "description": "The label for category Euro Truck Simulator 2 in sidebar gameserverSidebar"
+  },
+  "sidebar.gameserverSidebar.category.SCP: 5K": {
+    "message": "SCP: 5K",
+    "description": "The label for category SCP: 5K in sidebar gameserverSidebar"
   }
 }
