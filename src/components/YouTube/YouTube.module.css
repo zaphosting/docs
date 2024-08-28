@@ -4,6 +4,7 @@
   border-radius: 8px;
   overflow: hidden;
   margin: 30px 0;
+  cursor: pointer; /* Zeigt an, dass der gesamte Bereich klickbar ist */
 }
 
 [data-theme='light'] .YouTubeContainer {
@@ -22,10 +23,11 @@
   flex-shrink: 0;
 }
 
-.videoIframe {
+.videoImage {
   width: 100%;
   height: 100%;
-  border-radius: 0px 0px 0px 0px;
+  object-fit: cover;
+  display: block;
 }
 
 .contentContainer {
@@ -35,7 +37,6 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  cursor: pointer;
   min-width: 0;
 }
 
@@ -66,10 +67,6 @@
 
   .videoContainer {
     width: 100%;
-  }
-
-  .videoIframe {
-    height: auto; /* Stelle sicher, dass das Video responsiv ist */
   }
 
   .title {
