@@ -30,8 +30,8 @@ FiveM Upvotes and FiveM Burst Upvotes are both methods to increase the visibilit
 
 The FiveM Upvotes can be purchased in [our store](https://zap-hosting.com/en/shop/product/fivem-upvotes/). During the order process you have the possibility to choose the amount of upvotes, runtime, FiveM username and billing method. 
 
-:::info
-**Attention:** FiveM Upvotes can not be paid with ZAP Coins as it is an external product. The order can only be placed through a proper payment method like PayPal or credit card. Exceptions are not possible here.
+:::warning Warning about the payment process
+FiveM Upvotes cannot be purchased with ZAP Coins since they are an external product. Payment must be made through accepted methods such as PayPal or credit card.
 :::
 
 For the use of the FiveM upvotes it is necessary to link your FiveM account. The upvotes will be assigned to this account, which you can then use to assign the upvotes in game according to your wishes. 
