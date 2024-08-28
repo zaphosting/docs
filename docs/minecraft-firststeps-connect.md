@@ -33,7 +33,7 @@ For the connection to your game server, it is mandatory that you already own the
 
 Provided that all prerequisites of **Game / Content** are met, you will need the information of your server. Click on your game server service in your dashboard. The overview will now show you all general information about your server.
 
-![image](https://user-images.githubusercontent.com/26007280/217034202-7de52363-fbcb-4a33-ba0e-4e9c82792cfb.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/fqm64RcaNjKFSRx/preview)
 
 The relevant information includes the **IP address,** **Port** and **Password**. You should remember these, because you will need them for your first connection to your server.
 
@@ -43,7 +43,7 @@ The relevant information includes the **IP address,** **Port** and **Password**.
 
 Once all the prerequisites have been met, you can begin to connect to the server. To do this, start your game via the Minecraft or Mod pack launcher and navigate to the Multiplayer menu option. Then click on Add Server. There you can enter a name as a placeholder and the IP address/port.
 
-![image](https://user-images.githubusercontent.com/26007280/217034268-cddd8cc0-cd1b-439c-ba93-321c847e45e5.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/8nnoSokTNN7AKgn/preview)
 
 
 

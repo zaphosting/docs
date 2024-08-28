@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Nextcloud ist eine Open-Source-Cloud-Lösung und Abspaltung von Owncloud, die 2016 vom ehemaligen Owncloud-Gründer Frank Kalitschek aufgrund unterschiedlicher Auffassungen ins Leben gerufen wurde.
 
-![image](https://user-images.githubusercontent.com/13604413/159172333-5c613339-d564-4852-8b32-d3661d283534.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/xBpdD5jKXKpNTWk/preview)
 
 Um eine optimale Leistung, Stabilität und Funktionalität zu gewährleisten, wird für den Betrieb eines Nextcloud-Servers die folgende Einrichtung empfohlen. Der Nextcloud-Server ist nicht mit Windows und MacOS kompatibel. Zumindest nicht ohne weitere Virtualisierung oder ähnlichen Workarounds.<br/>
 
@@ -438,10 +438,10 @@ Wenn dieser Schritt abgeschlossen ist, dann ist es an der Zeit  das Installation
 
 Es erscheint die Konfiguration des Installationsscipt, in der ein Root-Benutzer angelegt und die Datenbankinformationen definiert werden:
 
-![image](https://user-images.githubusercontent.com/13604413/159172340-920fdf9f-7646-447d-b8c5-cd472627b9b5.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/ojCsdgasB8TDP3e/preview)
 
 
-![image](https://user-images.githubusercontent.com/13604413/159172341-efd5c39c-cf32-44d5-8518-51632d3fb475.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/naC8sLNBAW2B72r/preview)
 
 
 ## Absicherung und Sicherheit
@@ -450,7 +450,7 @@ Es erscheint die Konfiguration des Installationsscipt, in der ein Root-Benutzer 
 **Setup Warnungen**
 
 
-![image](https://user-images.githubusercontent.com/13604413/159172343-b8d041bc-2b9f-429d-9a87-54d6f86d8973.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/R9bX7r4GESPpmCy/preview)
 
 
 
@@ -525,7 +525,7 @@ Wenn du dir nicht sicher bist, wie du ein SSL-Zertifikat generieren kannst, dann
 
 Der Zugriff auf die Nextcloud ist sowohl über den Browser, als auch über das Smartphone und den Computer per App möglich. Die Downloadquellen sind hier zu finden: https://nextcloud.com/install/#install-clients
 
-![image](https://user-images.githubusercontent.com/13604413/159172347-25273458-2607-4c15-acfb-db2bfc1bf62d.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/5wkq9CNGrZRtwMe/preview)
 
 Unter den Einstellungen können auch nach der Einrichtung noch einige Optionen angepasst und wichtige Informationen wie Logs, Aktivitäten eingesehen werden. Dazu gehören unter anderem zusätzliche Sicherheitseinstellungen (Zwei-Faktor-Authentifizierung, Verschlüsselung, ... ), Designeinstellungen (Logo, Farbe, Slogan, Header), Zugriffseinstellungen und vieles mehr.
 
@@ -533,6 +533,6 @@ Unter den Einstellungen können auch nach der Einrichtung noch einige Optionen a
 
 Zusätzlich gibt es auch die Möglichkeit neben den Standard Apps noch weitere Apps zu installieren. Diese können über den Menüpunkt **Apps** eingesehen werden.
 
-![image](https://user-images.githubusercontent.com/13604413/159172353-708039fe-2697-4852-83d5-e132bf129f47.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/6oKA2zbYAJ3YRDw/preview)
 
 Mit solchen **Apps** ist es möglich die Nextcloud zusätzlich noch weiter nach seinen Wünschen zu individualisieren.

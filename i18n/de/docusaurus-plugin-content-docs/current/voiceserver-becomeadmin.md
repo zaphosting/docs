@@ -19,7 +19,7 @@ Damit du deinen Teamspeak Server verwalten und konfigurieren kannst, benötigst 
 
 Zum Authentifizieren als Admin wird der Berechtigungsschlüssel benötigt. Diesen findest du im Webinterface bei der Teamspeak Server Verwaltung unter Berechtigungsschlüssel. Dort legen wir einen neuen Berechtigungsschlüssel an, falls noch keiner vorhanden ist und kopieren den Schlüssel im Anschluss.
 
-![image](https://user-images.githubusercontent.com/13604413/159177460-262d7773-f8b2-42bd-9cd2-044c995a38a8.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/ZYYEJzgBNKY7xcD/preview)
 
 
 
@@ -27,7 +27,7 @@ Zum Authentifizieren als Admin wird der Berechtigungsschlüssel benötigt. Diese
 
 Nun muss eine Verbindung zum Teamspeak Server per Teamspeak Client hergestellt werden. Wenn der Teamspeak Server bis dato noch nicht konfiguriert/verwendet wurde, dann wird beim Verbindungsaufbau folgendes Popup-Fenster angezeigt:
 
-![image](https://user-images.githubusercontent.com/13604413/159177467-1575b23f-3434-43fe-9e5f-6a1c999337be.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/B3gyw5Jcy4DipzM/preview)
 
 
 
@@ -35,7 +35,7 @@ Dort kann jetzt der Berechtigungsschlüssel eingetragen und im Anschluss mit dem
 
 Nach dem **OK** drücken werden deinem Benutzeraccount dann die Administrator-Berechtigungen zugewiesen. 
 
-![image](https://user-images.githubusercontent.com/13604413/159177468-4913fa61-d37e-4ae8-8cab-4191fde5ef93.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/x7FkztJeqxwimGo/preview)
 
 
 ## Weitere Administratoren hinzufügen

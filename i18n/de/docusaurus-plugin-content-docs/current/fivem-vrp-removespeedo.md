@@ -19,7 +19,7 @@ Erzwinge Überschreiben muss zum Editieren der Scripts deaktiviert werden, sonst
 
 Zuerst muss der [FTP-Zugang](gameserver-ftpaccess.md) eingerichtet werden:
 
-![image](https://user-images.githubusercontent.com/13604413/159137870-82291650-2fbe-4c53-be81-19f8552069c4.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/WJTgjXeRsHrRG7D/preview)
 
 Nachdem dieser eingerichtet wurde, kann sich nun verbunden werden und der Server Ordner geöffnet werden.
 

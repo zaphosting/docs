@@ -21,14 +21,14 @@ The Teamspeak server can be configured individually. In the following we will ex
 
 In case you want to do the general configuration of your server via the web interface, then you can find the options in the Teamspeak Server Administration under Settings. The settings page will look like this:  
 
-![img](https://user-images.githubusercontent.com/61839701/170320914-394445fb-47be-437b-9824-7d701c7b53d9.png)
+![img](https://screensaver01.zap-hosting.com/index.php/s/fLYXn5sx38BBC92/preview)
 
 
 **Teamspeak Client**
 
 In case you want to do the general configuration of your server directly through the Teamspeak client, then you can find the options by right-clicking on the top channel **TeamSpeak ]I[ Server** and then clicking **Edit Virtual Server**.
 
-![img](https://user-images.githubusercontent.com/61839701/170322403-2d6e8500-0706-4992-9d30-b2f0ba96f571.png)
+![img](https://screensaver01.zap-hosting.com/index.php/s/epQ2qzRiex9BmpE/preview)
 
 
 
@@ -62,7 +62,7 @@ The slots are set by us and cannot be changed. However, you have the possibility
 
 With this you can add a welcome message of your choice. This message will be displayed when you connect. This can look like this, for example:
 
-![img](https://user-images.githubusercontent.com/61839701/170322280-4f29e7d8-732a-482e-9ad2-6d9d618fd8ad.png)
+![img](https://screensaver01.zap-hosting.com/index.php/s/AWFcf4HHJ7jesdc/preview)
 
 
 ### Security level
@@ -97,7 +97,7 @@ To create more channels, you have to make a **right click** below the existing c
 
 
 
-![img](https://user-images.githubusercontent.com/61839701/170322518-7d739c67-dea2-4af9-8074-b340e6bccd5f.png)
+![img](https://screensaver01.zap-hosting.com/index.php/s/Bkx2q69a5ceNiyD/preview)
 
 
 ### Server groups
@@ -106,7 +106,7 @@ To create additional server groups, you have to click on **permissions** in the 
 
 
 
-![img](https://user-images.githubusercontent.com/61839701/170322593-f524b867-11b0-4647-b872-ff7a656f10b5.png)
+![img](https://screensaver01.zap-hosting.com/index.php/s/QqcaaRse6kLNwPQ/preview)
 
 
 ## Permissions
@@ -119,14 +119,14 @@ By now, it should be clear how to adjust the general settings of the Teamspeak s
 
 The permissions of the users depend on the assigned server groups. By default, a user gets the **Normal** group assigned. If you want to add more permissions to the user, you can do that by right-clicking on the user, then clicking on Server Groups and then assigning the desired group. 
 
-![img](https://user-images.githubusercontent.com/61839701/170322698-f834ed63-28d7-4f21-b901-c44a3f19c9a3.png)
+![img](https://screensaver01.zap-hosting.com/index.php/s/sXG3qFXXJXc6Kjr/preview)
 
 ### Permissions: Channel
 
 Permissions can be defined for each channel. For example, you can define which users can **enter, subscribe, describe, view, modify, delete** the channel and **access the File Browser channel**. 
 
 
-![img](https://user-images.githubusercontent.com/61839701/170322787-b1346abb-8f90-467f-ba67-f7cfa50f27e8.png)
+![img](https://screensaver01.zap-hosting.com/index.php/s/9sCRd7NgMNHy9Do/preview)
 
 
 
@@ -146,7 +146,7 @@ For server group permissions, there are several categories that can be customize
 - Basics
 
 
-![img](https://user-images.githubusercontent.com/61839701/170322863-0f80824d-6647-4e40-bdf6-853e1a107e8d.png)
+![img](https://screensaver01.zap-hosting.com/index.php/s/RxcYJCsar7C3KnM/preview)
 
 
 

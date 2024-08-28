@@ -17,7 +17,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 GOTV bietet die Möglichkeit, Spiele mit etwas Verzögerung live zu übertragen. Somit können auch Außenstehende, die nicht selbst am Spiel beteiligt sind, das Geschehen auf dem Server mitverfolgen. Diese Technologie wird auch bei den bekannten Counter-Strike Turnieren eingesetzt, damit die Zuschauer sich das Spektakel anschauen können. Des Weiteren können die Übertragungen auch automatisch gespeichert werden, sodass auch im Anschluss ein erneutes Anschauen möglich ist. 
 
-![image](https://user-images.githubusercontent.com/26007280/189976843-8cf67797-ec09-42e8-94f7-055430a0224a.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/3PAkmCxNWrmP5X5/preview)
 
 <InlineVoucher />
 
@@ -31,7 +31,7 @@ connect SERVERIP:27020
 
 Manuelle und automatische aufgenommene Demos werden im Hauptverzeichnis (gxxxxx/csgo/csgo/) des CS:GO Server abgelegt. Diese können über den bereitgestellten FTP-Zugang heruntergeladen werden. Sollte du noch nicht wissen, wie der Zugang via FTP möglich ist, dann findest du hierzu eine entsprechende [Anleitung](gameserver-ftpaccess.md).
 
-![image](https://user-images.githubusercontent.com/26007280/189976867-0ea7da9c-fda3-472b-a79f-ac03919c2cc1.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/cqZC3oXmbziDNnb/preview)
 
 Mit dem Demo-Playback aus dem Spiel kann die heruntergeladene Demo über **Load** ausgewählt und über den **Play** Button gestartet werden. 
 

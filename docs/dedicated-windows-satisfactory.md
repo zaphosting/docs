@@ -23,7 +23,7 @@ For the setup of a Satisfactory server the SteamCMD is needed. The SteamCMD is t
 
 Following this, the download takes place. This will contain the **steamcmd.zip** file, which must first be unpacked. It is recommended to create a separate folder, where the file can be unzipped. You should see the **steamcmd.exe** as a result. Execute it and wait until the installation process has been completed.
 
-![image](https://user-images.githubusercontent.com/26007280/217031901-3833abac-f575-4cb0-9796-79b3fc3aa612.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/9EaPpm3NWadXTx5/preview)
 
 As soon as the message **Loading Steam API.... OK** is displayed, the process has been completed successfully and you can start with the installation of the Satisfactory server.
 
@@ -35,7 +35,7 @@ After the installation you should be able to execute commands in the **Steam com
 
 The next step will be the installation. This is done with the `app_update 1690800` command. The App ID **1690800** stands for the **Satisfactory Dedicated Server** application.
 
-![image](https://user-images.githubusercontent.com/26007280/217031918-ab4d48cf-aab8-4800-a762-5ec10fb0eb0f.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/KtzJ3AaYJk7BJEt/preview)
 
 
 
@@ -65,7 +65,7 @@ The file is then executed. At the first startup, a popup window should appear te
 
 To make the server visible and accessible externally, the server ports used must be enabled/forwarded in the firewall. To do this, open the Windows Firewall settings.
 
-![image](https://user-images.githubusercontent.com/26007280/217031951-237a28e1-ca48-4fe1-9678-437fc805574d.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/dy6AwJsT8XBpdXr/preview)
 
 
 Additional rules must be added in the settings. To do this, click on the incoming and outgoing rules as described below and add them for the UDP protocol and port 15000.

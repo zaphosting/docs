@@ -23,11 +23,11 @@ Du solltest zu jederzeit Backups erstellt haben von deinen Daten, dies kannst du
 ## Der Wechsel im Detail
 Um das Spiel bzw. die Version deines FiveM-Servers zu ändern, musst du in deinem Server in unserem Interface, den Tab "Spiele" öffnen:
 
-![image](https://user-images.githubusercontent.com/13604413/159138107-da3e5822-307c-41d1-ab79-fd68c2963f53.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/2iQaobTCMP9mJDz/preview)
 
 Dort kannst du dann unter verfügbare Spiele nach "FiveM" suchen, um alle verfügbaren Versionen angezeigt zu bekommen:
 
-![image](https://user-images.githubusercontent.com/13604413/159138109-12d76fc3-9309-48d8-8808-bf3395034f81.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/SJf3aGEKWwzzTLr/preview)
 
 Wähle die gewünschte Version und klicke auf den grünen Button. Bestätige das den Wechsel im darauf folgenden Popup-Fenster.
 

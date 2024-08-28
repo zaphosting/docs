@@ -15,7 +15,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 The password can be changed via our web interface. Open the page "Access and Security", which you can find at the left of the navigation.
 
-![](https://user-images.githubusercontent.com/61839701/165682186-8ebee656-d0d1-4697-bef7-b93877549aee.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/Kt3B9n4sGpbpn5q/preview)
 
 The root password field is located there where the desired password can be set. 
 
@@ -25,7 +25,7 @@ Please keep in mind that it has to be at least 8 characters long and contain upp
 
 After the password has been entered, a pop-up message appears which can be confirmed with "ok". 
 
-![](https://user-images.githubusercontent.com/61839701/165682312-00ebebbb-1f93-492a-ae53-56a8d689afe0.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/Ckc6PLB3tRY5epR/preview)
 
 If all prerequisites are met, the system will confirm that the password has been successfully changed. 
 
@@ -35,7 +35,7 @@ If all prerequisites are met, the system will confirm that the password has been
 
 From now on, the password can be viewed in our web interface for 3 hours. After that it will be deleted due to security reasons. To view the password, just click on the eye icon at "Password"
 
-![](https://user-images.githubusercontent.com/61839701/165682372-657ce47d-ff36-4ec2-892a-5fba1f02d996.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/XfpFrGg5LyKEiRL/preview)
 
 Afterwards a pop-up window appears where the password is displayed.
 

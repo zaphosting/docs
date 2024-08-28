@@ -15,7 +15,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 WordPress is the most used free content management system worldwide. It was programmed from 2003 by Matthew Mullenweg as software for weblogs and continues to be developed as an open source project. In this guide we explain how to install this software on our webspace product. 
 
-![image](https://user-images.githubusercontent.com/26007280/189989802-b729db5c-7e7b-4fff-b4ff-47b6a842ef49.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/j3Ctfont64EnpcH/preview)
 
 <InlineVoucher />
 
@@ -29,7 +29,7 @@ Before the actual installation of WordPress can be performed, certain preparatio
 
 The software can be downloaded from the official website of WordPress. The download for it can be found here: [WordPress Download](https://en.wordpress.org/download/)
 
-![image](https://user-images.githubusercontent.com/26007280/189989828-4c06b5db-42ba-4b0d-a446-554eb5a0be13.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/69YD2QWG8iHzzaa/preview)
 
 The download contains a packed zip file, which must be unpacked on your local computer. Inside you will find a folder with the name **wordpress**. It's content is needed and must be uploaded either via **FTP or File Manager**. In this example the setup is shown using FTP. You can create an FTP user under **Websites & Domains** at **FTP-Access**.
 
@@ -43,7 +43,7 @@ Now we connect to the web space with the created FTP account. There we navigate 
 
 
 
-![image](https://user-images.githubusercontent.com/26007280/189989855-683604d8-3ca1-4bb8-b781-b9b75334278a.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/c9JSb9XEjfwGwwQ/preview)
 
 
 
@@ -71,7 +71,7 @@ For registering an account at the forum a mail server with an e-mail address is 
 
 If all the steps from the preparation have been fulfilled, then the actual setup of Wordpress can be started. For this, the website must now be called up in the Internet browser. This should look like this: 
 
-![image](https://user-images.githubusercontent.com/26007280/189989882-1fc9b68b-43aa-4b14-93e0-15d50fd240c0.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/8AcGsKyHpsSgKxL/preview)
 
 
 
@@ -79,7 +79,7 @@ Once there, we can click on **Let's go!** to start the setup. The first thing to
 
 
 
-![image](https://user-images.githubusercontent.com/26007280/189989922-d7dfd4f4-402f-435b-9c50-bfd20e9d9851.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/9jnjxz8B9TaeZSD/preview)
 
 
 
@@ -87,7 +87,7 @@ Click on **Submit** and in the following step on **Run the installation**.
 
 
 
-![image](https://user-images.githubusercontent.com/26007280/189989953-f0a27b50-a4d7-4240-81d0-1896d46c6643.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/ZLZdC5NeWDoQBkr/preview)
 
 
 
@@ -95,7 +95,7 @@ WordPress now needs some more additional information. The title of the website, 
 
  
 
-![image](https://user-images.githubusercontent.com/26007280/189989966-8b113e9c-749b-43fe-9fa1-e58fee20976f.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/WzckYZ47QJLd7yM/preview)
 
 
 

@@ -21,24 +21,24 @@ Um den Server mit dem Content Manager verwalten zu können, ist die Full-Version
 
 Zunächst öffnen wir unseren Content Manager, und klicken rechts oben auf das Sandwich Menü, dort wählen wir "Server":
 
-![image](https://user-images.githubusercontent.com/13604413/159136989-b4cfb732-072d-472d-bb8b-8abe97508107.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/Np78jeeJeSBs3Mi/preview)
 
 Hier erstellen wir nun ein neues Preset und wählen dieses aus:
 
-![image](https://user-images.githubusercontent.com/13604413/159136995-7994802f-4902-47c2-bdde-97187e7ccbf0.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/2HyyRjQDt78Dtf4/preview)
 
 
 ## Server Slots Einstellen
 
 Wir müssen zuerst einstellen, wie viel Kapazität unser Server hat, in unserem Fall ist unser Server nur 10 Slots, daher wählen wir bei Capacity '10' aus:
 
-![image](https://user-images.githubusercontent.com/13604413/159137001-22301dbb-838a-46dc-a24c-ebdf903b1768.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/ENnjE8ZFiMTbqCD/preview)
 
 ## Map Einstellen
 
 Hier wird standardmäßig Imola als Map ausgewählt, indem wir auf die Map klicken, können wir unsere eigene Map auswählen:
 
-![image](https://user-images.githubusercontent.com/13604413/159137008-d2e5e0ef-d3df-402e-9611-66b93b4916fb.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/DTon4gDnCN9r48b/preview)
 
 
 
@@ -46,29 +46,29 @@ Hier wird standardmäßig Imola als Map ausgewählt, indem wir auf die Map klick
 
 Nun wechseln wir in das Tab "Entry List", hier können wir nun neue Autos hinzufügen:
 
-![image](https://user-images.githubusercontent.com/13604413/159137029-f4dcf8ef-c3f6-4428-bb1e-27315637c36a.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/xLrDPWgZYWfa5B6/preview)
 
 
-![image](https://user-images.githubusercontent.com/13604413/159137034-22cb04a5-17a4-4c39-9697-c65fdac44561.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/tcD4aPc4qMQTwca/preview)
 
 
 
 :::info
 Beachte, dass alle Autoslots befüllt werden und nicht mehr, als die Menge der verfügbaren Slots gesetzt wird
 
-![image](https://user-images.githubusercontent.com/13604413/159137039-17947b65-947a-4276-b681-0a7f27b49e3e.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/QHfXaPGNTp9xLGf/preview)
 :::
 
 ## FTP Upload Konfigurieren
 
 Über das "Advanced" Menü können wir einen FTP-Uploader konfigurieren, damit du deine Serverconfig mit einem Click hochladen kannst.
 
-![image](https://user-images.githubusercontent.com/13604413/159137074-ab04ba8b-29af-499f-a938-f611c6046cce.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/rAcPfq3ZNkietz3/preview)
 
 
 Hier gibst du nun deine FTP-Daten ein:
 
-![image](https://user-images.githubusercontent.com/13604413/159137117-597633df-d277-4ae6-b5bc-e155b4fbdf30.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/GX945J67eWZMGRg/preview)
 
 
 :::info

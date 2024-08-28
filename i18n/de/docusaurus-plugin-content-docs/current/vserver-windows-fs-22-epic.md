@@ -39,21 +39,21 @@ Sobald du verbunden bist, musst du ein notwendiges Voraussetzungsprogramm instal
 Es ist möglich, dass du die C++ Redistributable-Tools bereits heruntergeladen hast. In diesem Fall könnte der Installer einen Fehler zurückgeben. Du kannst diesen sicher ignorieren und fortfahren.
 :::
 
-![image](https://i.imgur.com/BJ1xuHH.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/2z4YTqFbXiEX2EL/preview)
 
 Nun musst du den Epic Games Launcher installieren, der von [der Website von Epic Games](https://store.epicgames.com/de-DE/download) heruntergeladen werden kann. Befolge erneut die Anweisungen auf dem Bildschirm, um die Installation abzuschließen.
-![image](https://i.imgur.com/xmCudZ1.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/WmifDEnZYfoGc26/preview)
 
 Nach der Installation ist es sehr wahrscheinlich, dass der Launcher einige zusätzliche Dateien und Updates herunterladen muss, bevor er gestartet werden kann.
 
-![image](https://i.imgur.com/78rhcdD.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/Bzya5Tzj8sY7RY2/preview)
 
 Sobald der Launcher geöffnet ist, musst du dich mit deinem Epic Games-Konto anmelden, auf dem Farming Simulator 2022 in der Spielesammlung vorhanden ist.
 
 ## Schritt 2: Herunterladen von Farming Simulator 2022 
 
 Im Epic Games Launcher klicke auf den Tab **Bibliothek** und suche Farming Simulator 22. Verwende den **Installieren**-Button und wähle den Ort aus, an den du das Spiel herunterladen möchtest.
-![image](https://i.imgur.com/lh65fYY.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/g8tjpNfJoB47dwf/preview)
 
 Du musst nun auf den Abschluss des Downloads und der Installation warten. Die Downloadgeschwindigkeit hängt von der Bandbreite deines Servers ab.
 
@@ -64,15 +64,15 @@ Du musst nun auf den Abschluss des Downloads und der Installation warten. Die Do
 Sobald das Spiel installiert ist, gehe zurück zum Tab **Bibliothek** im Epic Games Launcher. Finde Farming Simulator 22, klicke auf die drei Punkte daneben und wähle **Verwalten**.
 
 
-![image](https://i.imgur.com/OXCp1NM.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/NjwctFFxyN7rK8y/preview)
 
-Scrolle nach unten zum Abschnitt **Startoptionen** und aktiviere diesen. In das erscheinende Textfeld gib `-server` ein und schließe das Menü.![image](https://i.imgur.com/XJgT266.png)
+Scrolle nach unten zum Abschnitt **Startoptionen** und aktiviere diesen. In das erscheinende Textfeld gib `-server` ein und schließe das Menü.![image](https://screensaver01.zap-hosting.com/index.php/s/zJQzPtMtZo6XoGf/preview)
 
 ## Schritt 4: Server starten
 
 Du kannst jetzt Farming Simulator 2022 über deinen Epic Games Launcher oder das Desktop-Shortcut starten. Das Spiel sollte nun über eine Befehlszeile (CMD) im dedizierten Servermodus starten. Wenn dies nicht der Fall ist, stelle sicher, dass du die Startoption korrekt eingerichtet hast.
 
-![image](https://i.imgur.com/Izbfu8q.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/Bf5LX72LWNwSFib/preview)
 
 ## Schritt 5: Aktivieren des Web-Interfaces (optional)
 
@@ -82,7 +82,7 @@ Bevor du fortfährst, stelle sicher, dass du den Server schließt, indem du das 
 
 Navigiere zum Installationspfad deines Spiels, der typischerweise `C:\Program Files\Epic Games\FarmingSimulator22` ist, wenn du im Standardverzeichnis installiert hast.
 
-![image](https://i.imgur.com/bDNvf88.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/yoqHoDAFZFkP2Ps/preview)
 
 Finde und öffne die Datei `dedicatedServer.xml`, die im Stammverzeichnis gefunden wird, mit einem Texteditor wie Notepad.
 
@@ -94,15 +94,15 @@ Setze den Benutzernamen und das Passwort für den Admin, indem du die entspreche
   </initial_admin>
 ```
 
-![image](https://i.imgur.com/m9rFsle.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/gks4Pswpyc3Wcix/preview)
 
 Stelle sicher, dass du die Datei speicherst, bevor du sie schließt, und führe die `dedicatedServer.exe` aus, die sich im selben Stammverzeichnis befindet.
 
-![image](https://i.imgur.com/4UJoPqv.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/KjNeS5E8BLEgnnH/preview)
 
 Du solltest jetzt in der Lage sein, auf das Web-Interface zuzugreifen, indem du `http://[deine_serverip]:8080` in deinem Webbrowser aufrufst, wobei `[deine_serverip]` durch die IP-Adresse deines Servers ersetzt wird. Wenn du das Panel direkt auf demselben Server aufrufen möchtest, kannst du es auch einfach über `http://127.0.0.1:8080` erreichen.
 
-![image](https://i.imgur.com/m397adi.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/FzaJyAdBtym4jGH/preview)
 
 :::info 
 Aufgrund der besonderen Konfiguration der Epic Games-Version kannst du auf Schwierigkeiten stoßen, das Web-Interface vollständig zu nutzen. Obwohl du Änderungen vornehmen und den Server über das Web-Interface stoppen kannst, kannst du den Server beispielsweise nicht darüber starten. 

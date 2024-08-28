@@ -20,11 +20,11 @@ Haben wir das gemacht, suchen wir nach dem Script, wo wir die Localfiles veränd
 
 Dort suchen wir dann nach dem Ordner **locales**
 
-![image](https://user-images.githubusercontent.com/26007280/189978114-e78cdd71-0247-45a3-8588-b73e1509d70e.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/W7qGXjbHFeJG9tx/preview)
 
 Dort suchen wir uns dann unsere locales Datei. In unserem Fall ist das de.lua
 
-![image](https://user-images.githubusercontent.com/26007280/189978135-f8d47185-7a39-4b3b-a27f-0c2bf7766947.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/eYWtgfLfTGg3iTM/preview)
 
 Diesen öffnen wir dann.
 
@@ -32,7 +32,7 @@ Diesen öffnen wir dann.
 
 Jetzt können wir die Locales ändern. **Wichtig** immer in den ' Symbol schreiben.
 
-![image](https://user-images.githubusercontent.com/26007280/189978157-95cb0045-a19d-496b-916f-4d22499cf7df.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/gN6siagmMGY2Ckt/preview)
 
 Haben wir alles geändert, was wir ändern wollten, speichern wir die Datei ab und laden sie hoch.
 
@@ -40,6 +40,6 @@ Haben wir alles geändert, was wir ändern wollten, speichern wir die Datei ab u
 
 Nachdem das alles erledigt ist, müssen wir noch sichergehen, dass in der Config die richtige Locales Datei angegeben ist.
 
-![image](https://user-images.githubusercontent.com/26007280/189978178-e09e095e-ee46-40ad-a97c-e185266811e4.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/3MRAtDP7ejPCknf/preview)
 
 Ist das auch erledigt, laden wir die Datei wieder hoch und starten den Server neu.

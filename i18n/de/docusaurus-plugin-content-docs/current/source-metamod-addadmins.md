@@ -21,7 +21,7 @@ Des Weiteren benötigt man die Steam ID des Steam Accounts. Es gibt mehrere Mög
 
 Zunächst einmal muss in Steam das Profil aufgerufen und dort dann an einer beliebigen Stelle Rechtsklick klicken werden. Dort kann man dann die Steam URL des Profils kopieren.
 
-![image](https://user-images.githubusercontent.com/13604413/159178874-9784e3e0-9689-4a8e-a7ee-55a678d4d12e.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/fyoCMabN6w7DzbH/preview)
 
 Im Anschluss kann die URL auf einer der folgenden Webseiten angeben werden:
 
@@ -29,7 +29,7 @@ Im Anschluss kann die URL auf einer der folgenden Webseiten angeben werden:
 - https://steamidfinder.com/
 - https://steamid.io/
 
-![image](https://user-images.githubusercontent.com/13604413/159178882-44e4b9d3-5f43-4cf6-b0a3-bb688e03d92f.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/DTJa9cHQJQNCBay/preview)
 
 Im Anschluss erhält man neben den allgemeinen Account Informationen auch die Steam ID. Dort wird die **Steam ID 32** benötigt:
 
@@ -102,4 +102,4 @@ Je nachdem, welche Rechte vergeben werden sollen, kann man die jeweiligen Flags 
 
 Mit dem Befehl `!admin` im Chat oder `sm_admin` in der Konsole kann das Menü aufgerufen werden.
 
-![image](https://user-images.githubusercontent.com/13604413/159178889-0f82f7fe-5a94-417c-884f-8393aab2b432.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/o6WyMxb4NiEfNim/preview)

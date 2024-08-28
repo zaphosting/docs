@@ -56,7 +56,7 @@ sudo systemctl status xrdp
 // Ubuntu
 sudo systemctl status xrdp
 ```
-![xrdp](https://user-images.githubusercontent.com/61953937/167338588-910589f1-4cfc-482b-95d1-179f0d58ed66.png)
+![xrdp](https://screensaver01.zap-hosting.com/index.php/s/P3G4ztqbYjZZMGR/preview)
 
 If the status is okay, a user still needs to be created. Then the xRDP service has to be restarted: 
 ```
@@ -75,18 +75,18 @@ The default port is: 3389
 The connection can be made via any RDP tool, connected with IP:PORT. 
 When connecting you will be asked for the login data: 
 
-![xrdp2](https://user-images.githubusercontent.com/61953937/167338595-c36f7912-4201-478c-8b97-ecfe1fd0773e.png)
+![xrdp2](https://screensaver01.zap-hosting.com/index.php/s/GHzrDz6Ct3TGDN2/preview)
 
 After successful login you see the desktop. 
 With Ubuntu it looks a bit different than with Debian:
 
 Ubuntu: 
 
-![xrdp3](https://user-images.githubusercontent.com/61953937/167338601-9ad25d8c-b799-4430-aca5-37bd6b122cb6.png)
+![xrdp3](https://screensaver01.zap-hosting.com/index.php/s/tgkAEyQxXnrk3Qr/preview)
 
 Debian: 
 
-![xrdp4](https://user-images.githubusercontent.com/61953937/167338611-9ecaaa54-aa98-4eaa-95d5-968decef2219.png)
+![xrdp4](https://screensaver01.zap-hosting.com/index.php/s/gtxmQcPACEZJce7/preview)
 
 
 ## Conclusion

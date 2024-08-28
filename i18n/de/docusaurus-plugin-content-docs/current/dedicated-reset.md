@@ -31,13 +31,13 @@ http://185.223.30.65/wipe.iso
 
 Nach dem Neustart des Servers sollte die Wipe ISO automatisch erkannt und geladen werden. Verbinde dich nun mit einer Remote Konsole deiner Wahl auf deinen Dedicated Server.
 
-![image](https://user-images.githubusercontent.com/26007280/217033937-d9b15ebc-eb3f-401f-95e2-5cc871f3b018.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/4gmiB5N4knB5eZT/preview)
 
 
 
 Dort kannst du nun erkennen, wie der Server automatisch den Prozess durchführt und wie weit der Fortschritt der Formatierung dabei ist. Dein Server überschreibt einmalig alle vorhandenen Datenträger, somit sind keine Daten mehr vorhanden. Je nach Größe der SSD kann dieser Prozess circa 45 Minuten - 2 Stunden dauern.
 
-![image](https://user-images.githubusercontent.com/13604413/159174333-ef109e7e-2e79-4201-81cf-b33301c4d0b7.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/oymERF7xB8wGDes/preview)
 
 
 

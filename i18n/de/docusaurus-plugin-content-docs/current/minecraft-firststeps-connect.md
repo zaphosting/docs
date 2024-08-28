@@ -33,7 +33,7 @@ Für die Verbindung zu deinem Gameserver ist es zwingend notwendig, dass du das 
 
 Sofern alle Voraussetzungen von **Spiel / Inhalte** erfüllt sind, benötigst du nun Informationen deines Servers. Klicke dazu in deinem Dashboard auf deinen Gameserver Dienst. In der Übersicht siehst du nun alle allgemeinen Informationen zu deinem Server. 
 
-![image](https://user-images.githubusercontent.com/26007280/217034483-93dfeaaa-e9b5-481f-8277-e9624832ea9a.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/yDtGL3FraDoJmZi/preview)
 
 Zu den relevanten Informationen gehören hierbei die **IP-Adresse,** **Port** und **Passwort**. Diese solltest du dir merken/notieren, da du diese gleich für deinen ersten Verbindungsaufbau zu deinem Server benötigst. 
 
@@ -43,7 +43,7 @@ Zu den relevanten Informationen gehören hierbei die **IP-Adresse,** **Port** un
 
 Nachdem alle Voraussetzungen erfüllt worden sind, kann nun damit begonnen werden eine Verbindung zum Server herzustellen. Starte dafür dein Spiel über den Minecraft oder Modpack Launcher und navigiere in den Menüpunkt Multiplayer. Klicke daraufhin auf Server hinzufügen. Dort kannst du nun einen Namen als Platzhalter und die IP-Adresse/Port einfügen. 
 
-![image](https://user-images.githubusercontent.com/26007280/217034448-81772147-72f0-454b-a14c-6a9764f6547f.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/LLi9cNQnrK49Wpj/preview)
 
 
 

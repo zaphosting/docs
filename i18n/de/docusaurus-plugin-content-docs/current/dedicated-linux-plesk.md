@@ -60,7 +60,7 @@ Es kann passieren das es so aussieht als ob der Installer "stecken" geblieben is
 
 Die Installation ist abgeschlossen, sobald dies angezeigt wird
 
-![](https://user-images.githubusercontent.com/61839701/166188858-d4a9111b-987b-48d3-9ce2-616d46d62148.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/LaKba4J2k78KFGa/preview)
 
 </TabItem>
 <TabItem value="Web Installation" label="Web Installation">
@@ -115,7 +115,7 @@ Starten des Installers:
 
 Sobald die drei Befehle zum Starten ausgeführt wurden, muss der Lizenz zugestimmt werden mit "F": 
 
-![](https://user-images.githubusercontent.com/61839701/166188952-7dc6227a-b0ad-4057-92f5-07feb0774bb6.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/m99KaWpybCNL7qc/preview)
 
 Nach der Zustimmung fragt das System, welches Plesk installiert werden soll. In diesem Fall Plesk Obsidian oder Plesk Onyx. Es wird auch gekennzeichnet, welches das stabilere davon ist. In der Regel wird eine "Stable" Version für den Produktiveinsatz genutzt. Da die ausgewählten Optionen bereits auf die Stable Version zeigen, bestätigt man dies erneut mit "F"
 
@@ -133,7 +133,7 @@ Es kann passieren das es so aussieht als ob der Installer "stecken" geblieben is
 
 Die Installation ist abgeschlossen sobald folgendes erscheint: 
 
-![](https://user-images.githubusercontent.com/61839701/166189018-19049c87-243a-49c6-bd26-55f7e245f98f.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/3oEqHtZJbPjtpFb/preview)
 
 </TabItem>
 </Tabs>
@@ -161,17 +161,17 @@ Plesk kann nun genutzt werden.
 Nach der Installation ist das Plesk-Panel in englischer Sprache, die Deutsche Sprache kann unter Tools&Settings ➡️ Plesk Appearance ➡️ Languages eingestellt bzw. ausgewählt werden. Dort muss dann "de-DE" ausgewählt werden. Anschließend kann die Sprache mit Klick auf "Make default" dauerhaft für alle gesetzt werden. 
 Nach einem Logout und anschließendem Login ist das Plesk-Panel in Deutsch vorzufinden.
 
-![](https://user-images.githubusercontent.com/61839701/166189048-96d33b62-7827-4e4d-a309-14eb24db0d86.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/CKC7ts4XRkzeg3G/preview)
 
 ### Domain hinzufügen
 
 Um die erste Domain hinzuzufügen, klickt man auf den blauen Button "Domain hinzufügen" bzw. "Add Domain".
 
-![](https://user-images.githubusercontent.com/61839701/166189082-67e19710-76b1-4e23-b3a8-8ed3837acd3c.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/gsGgkxH9E65PMXM/preview)
 
 Jetzt kann die eigene Domain eingetragen werden. Ebenfalls muss eine IP sowie ein Benutzername und Passwort für den Webspace der Domain festgelegt werden. Sollte bereits die Subdomain "www" im DNS der Domain eingetragen sein, kann direkt ein SSL Zertifikat von Let's Emcrypt mit erstellt werden. Dazu kann diese Option ausgewählt werden, nachdem eine Mail Adresse eingetragen wurde, wird es auf dem blauen "OK" Button bestätigt.  
 
-![](https://user-images.githubusercontent.com/61839701/166189232-20770ac9-0b4c-4c6a-83f2-f2db3fead20c.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/crtp75sQe8eBCJA/preview)
 
 :::info
 Die Domain muss auf die IP des Webspaces zeigen, liegt die Domain bei ZAP-Hosting, kann diese via EasyDNS einfach auf den Webspace geleitet werden, liegt sie extern, so muss ein A-Record auf die IP gesetzt werden sowie die Subdomain "www", "webmail" müssen ebenfalls auf die IP zeigen. Ein MX Record sollte auch auf die IP des Webspaces angelegt werden. 
@@ -188,11 +188,11 @@ Bei der Domain Eintragung/Erstellung vom Webspace wurde bereits ein SSL Zertifik
 Damit dauerhaft auf HTTPS (SSL) geleitet wird beim Aufruf der Webseite muss das Häkchen bei "Dauerhafte, für SEO geeignete 301-Weiterleitung von HTTP zu HTTPS" gesetzt werden. 
 :::
 
-![](https://user-images.githubusercontent.com/61839701/166189406-3091cb91-c590-41aa-855c-c89170647e2c.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/QfdiqRL5pG3AEGr/preview)
 
 Wird nun die Domain im Browser geöffnet, so zeigt diese ihre Verschlüsslung an.
 
-![](https://user-images.githubusercontent.com/61839701/166189426-946bcad0-584d-4139-9ccb-6770b39d4132.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/oYjGKRtnKMakGnp/preview)
 
 :::info
 Die Installation sowie der Einrichtung der ersten Domain mit Verschlüsslung ist nun vollständig abgeschlossen. 

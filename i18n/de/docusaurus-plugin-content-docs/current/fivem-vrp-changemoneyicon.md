@@ -21,12 +21,12 @@ Nachdem dieser eingerichtet wurde, kann sich nun verbunden werden und der Server
 
 Um ein eigenes Geldicon zu verwenden, muss dieses erst auf Imgur hochgeladen werden:
 
-![image](https://user-images.githubusercontent.com/13604413/159137839-6556817e-d237-44fe-b6f1-671a7bd2d7c4.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/MsHHdY32QteptCC/preview)
 
 
 Hier können wir nun unser Bild via Drag & Drop hochladen:
 
-![image](https://user-images.githubusercontent.com/13604413/159137847-9890edeb-af8e-4b40-9791-cd0c9e524238.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/nBdcwZSPMgTMyWr/preview)
 
 
 Nach dem Upload sehen wir unser Bild hochgeladen, um die URL zu kopieren, klicken wir per Rechtsklick auf das Icon und wählen "Grafikadresse kopieren". Diese URL kann jetzt in die Config eintragen werden.

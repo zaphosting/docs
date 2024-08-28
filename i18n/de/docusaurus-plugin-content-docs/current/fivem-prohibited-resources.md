@@ -23,7 +23,7 @@ Unser System prüft aus den oben genannten Sicherheitsgründen alle Ressource vo
 
 Im Falle dessen, dass eine deiner hochgeladenen Ressourcen davon betroffen ist, liefert die Server-Konsole diesbezüglich zusätzliche Informationen. Der Inhalt dieser Informationen kann beispielsweise wie folgt aussehen: 
 
-![image-20230109185341047](https://user-images.githubusercontent.com/26007280/217035909-10035095-c285-4ad7-9853-675c30ec389e.png)
+![image-20230109185341047](https://screensaver01.zap-hosting.com/index.php/s/CfgAQyfzz9PQG4W/preview)
 
 
 

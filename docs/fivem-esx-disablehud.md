@@ -18,11 +18,11 @@ Just press CTRL + F and search for es_extended.
 Then you better find it fast.
 We'll work on these.
 
-![image](https://user-images.githubusercontent.com/13604413/159166882-9f7ff88e-e82e-4f0f-8942-c729fe037906.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/FfjdwPMGYgz2k3k/preview)
 
 Now let's have a look: Config.EnableHUD.
 
-![image](https://user-images.githubusercontent.com/13604413/159166890-39e92b90-cb40-4650-8733-c08fa926775a.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/F6w582EoXgbPjeC/preview)
 
 We then set this to false and save the file.
 

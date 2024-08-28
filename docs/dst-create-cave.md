@@ -17,7 +17,7 @@ In order to use caves at Don't Starve Together, two servers ordered through us a
 
 Both configs can be seen in the interface under "**Configs**" and can be edited there.
 
-![image](https://user-images.githubusercontent.com/26007280/189930223-83128fc2-0a12-4ef4-8ace-ee38cc5f011c.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/mgjpecSGBsyasmc/preview)
 
 Only the "**[SHARD]**" part is edited in both .ini files 
 

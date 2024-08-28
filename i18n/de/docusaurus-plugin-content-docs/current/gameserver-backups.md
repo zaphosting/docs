@@ -32,7 +32,7 @@ Je nach Speichergröße des Servers kann das Anlegen des Backups durchaus ein pa
 
 Unten am Ende der Seite befinden sich weitere Optionen, wo unter anderem auch die Einstellungen für automatisierte Backups zu finden. Die Option **Backups automatisch erstellen** muss aktiviert sein, damit die Funktion aktiv ist. Zudem muss das Intervall gesetzt werden. 
 
-![image](https://user-images.githubusercontent.com/13604413/159171260-f3d1775e-25bc-45a0-b4aa-d6bdc13bfa0f.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/rMW42qd2joy4yZ6/preview)
 
 Je nach Spiel ist es oftmals auch zu empfehlen die Datenbank mitzusichern, da dort oftmals wichtige Daten wie Spielstände, Rechte und vieles mehr gespeichert werden. 
 
@@ -47,8 +47,8 @@ Ausreichend Speicherplatz ist essenziell, damit regelmäßige Backups erstellt w
 
 Um Backups herunterladen oder zu löschen, muss man sich per FTP mit dem Storage Server verbinden. Eine Anleitung zum Benutzen von FTP findest du hier: [FTP-Zugang](gameserver-ftpaccess.md)
 
-![image](https://user-images.githubusercontent.com/13604413/159171263-ef2c31b3-1541-4f41-b7b1-e8a70c96a422.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/Px9jEtoxQoPkeFs/preview)
 
-![image](https://user-images.githubusercontent.com/13604413/159171264-187a5aca-1829-41a0-967b-f9125df236c1.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/Bi8YbGNejsw97an/preview)
 
 Dort angelangt, findet man die Zugangsdaten zum Storage Server und den aktuell belegten Speicherplatz. Wenn du per FTP verbunden bist, dann findest du dort die Backups und kannst sie darüber herunterladen oder löschen.

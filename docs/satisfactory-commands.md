@@ -33,13 +33,13 @@ Press `Windows-Key + R` or search in your startmenu for `Run`. Next, copy the fo
 
 Open up the `Input.ini` file with a text editor (such as notepad).
 
-![Screenshot 2023-02-22 011634](https://user-images.githubusercontent.com/42719082/220495653-6109d259-e31a-429f-aeda-b6c2ca2f495b.png)
+![Screenshot 2023-02-22 011634](https://screensaver01.zap-hosting.com/index.php/s/re9wfZLbCosj5K5/preview)
 
 Next copy and paste the exact lines to the bottom:
 
 `[/script/engine.inputsettings] ConsoleKey=F6`
 
-![Screenshot 2023-02-22 011758](https://user-images.githubusercontent.com/42719082/220495816-401b59b6-7c1b-434a-a878-bc5988f44519.png)
+![Screenshot 2023-02-22 011758](https://screensaver01.zap-hosting.com/index.php/s/Qta7zsNA9ofo3dp/preview)
 
 Finally, save and restart your game and now you will be able to open the console with `F6` as a keybind.
 
@@ -51,7 +51,7 @@ In order to display the entire list of commands, use `?` in the console which wi
 
 An example of using the `?` to view all commands can be viewed below.
 
-![Screenshot 2023-02-22 015435](https://user-images.githubusercontent.com/42719082/220500871-e1ea0303-718d-4552-9173-3ea2f66669f2.png)
+![Screenshot 2023-02-22 015435](https://screensaver01.zap-hosting.com/index.php/s/gS7bSwCFNngz8yx/preview)
 
 :::info
 Any command which is mentioned on this page is for vanilla Satisfactory.

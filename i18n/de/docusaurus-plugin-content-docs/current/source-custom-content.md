@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Einige Source-Games wie zum Beispiel Counter-Strike oder Garrys Mod sind durch ihre Vielfältigkeit bekannt geworden. Ermöglicht wurde das Ganze durch die Unterstützung von Plugins und sogenannten **Custom Inhalten**. So entwickelten sich über die Jahre diverse Spielmodi wie zum Beispiel Zombie Mod, Hide and Seek, Minigames, Jailbreak und vieles mehr. 
 
-![image](https://user-images.githubusercontent.com/13604413/159178680-6fd1ea06-9ee9-4bfc-a23e-2f3457800c04.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/S8sAPCa5zkwdeFr/preview)
 
 <InlineVoucher />
 
@@ -40,21 +40,21 @@ Je nach Anwendungsbereich lohnt sich die eine Option eher als die andere Optione
 
 Im Folgenden wird die Einrichtung des FastDL Servers mittels eines unserer [Webspace Produkte](https://zap-hosting.com/de/shop/product/webspace/) erklärt. Allerdings kann hierfür auch eine beliebige andere Option benutzt werden die einen öffentlich zugänglichen Webserver beinhaltet. Um mit der Einrichtung zu beginnen, rufen wir das Webspace Produkt auf und öffnen die Verwaltung:
 
-![image](https://user-images.githubusercontent.com/26007280/189977410-ceed2407-51a6-4948-9ff1-0e0a330b35b0.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/HALDLKRpnngenNT/preview)
 
 
 
 Dort angelangt, rufen wir den File-Manager auf und legen dabei die folgenden Ordner an:
 
-![image](https://user-images.githubusercontent.com/26007280/189977431-ffb69343-cce3-4c8b-a692-852d09485dfd.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/TPrWGrXpQCr2DmM/preview)
 
-![image](https://user-images.githubusercontent.com/13604413/159178687-7ea690cf-0d73-4e22-a302-023be7603cef.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/zMAPgCC7pbMp5HL/preview)
 
 
 
 Als Nächstes müssen beim Webspace noch die Berechtigungen vorgenommen werden, damit das Herunterladen der Inhalte im Spiel im Anschluss auch funktioniert:
 
-![image](https://user-images.githubusercontent.com/26007280/189977450-0060dae6-bfdd-4c45-a566-0720a1c20be7.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/cmqsKxfcqyPFHb8/preview)
 
 :::info
 Die Berechtigungen müssen für alle Ordner gesetzt werden!
@@ -72,7 +72,7 @@ sv_downloadurl "https://zapXXXXX-1.plesk08.zap-hosting.com" // Ersetze die URL d
 
 Nach neu starten und verbinden des Servers sollten die entsprechenden Inhalte heruntergeladen werden. Das kann in der Konsole vom Spiel auch überprüft werden:
 
-![image](https://user-images.githubusercontent.com/13604413/159178720-35ccc5ca-7367-467a-869c-5cf87a834d95.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/FTwRQixfR6TPPRe/preview)
 
 
 
@@ -80,19 +80,19 @@ Nach neu starten und verbinden des Servers sollten die entsprechenden Inhalte he
 
 Im Folgenden wird die Einrichtung des Steam Workshops erklärt. Zu Beginn muss die Steam Workshop Seite aufgerufen werden. Dafür wählt ihr in Steam das entsprechende Spiel aus und ruft dort den Workshop auf. In diesem Fall nehmen wir [CS:GO](https://steamcommunity.com/workshop/browse/?appid=730&browsesort=trend&section=collections) als Beispiel. Dort angelangt klicken wir im Menüpunkt auf Durchsuchen und wählen Kollektion aus:
 
-![image](https://user-images.githubusercontent.com/26007280/189977467-255c3a49-c052-4380-b998-fcbd32f6697a.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/itoJ9AgpPLB69EL/preview)
 
 
 
 Dort klicken wir nun rechts auf Kollektion und legen die Kollektion für den Gameserver an:
 
-![image](https://user-images.githubusercontent.com/26007280/189977491-4adc04dc-7c9d-4f28-94a4-6acf58daf882.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/zGQKa4z2XqACHSw/preview)
 
-![image](https://user-images.githubusercontent.com/13604413/159178741-f3d5bd5a-88e7-4bbc-9d9d-5273d16c3676.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/7xW7ZZzSRRjXfyw/preview)
 
 Danach wurde die Kollektion erfolgreich erstellt. Diese ist standardmäßig aber noch leer. Daher rufen wir nun den Workshop des Spiels wieder auf und wählen die Objekte aus, die wir hinzufügen wollen:
 
-![image](https://user-images.githubusercontent.com/26007280/189977514-079c20d6-69ee-4459-b051-20d59a61f5f5.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/95axt5e3eoyPqsn/preview)
 
 
 Wenn du die mit dem Zusammenstellen der Inhalte fertig bist, dann musst du im Anschluss erneut die Kollektion aufrufen und dort dann Rechtsklick drücken und Seiten-URL kopieren auswählen. Aus der URL wird die ID der Kollektion benötigt, welche wie folgt aussehen kann:
@@ -101,4 +101,4 @@ Wenn du die mit dem Zusammenstellen der Inhalte fertig bist, dann musst du im An
 
 Diese muss am Ende dann nur noch unter Steam Workshop in der Gameserver Verwaltung eingetragen werden:
 
-![image](https://user-images.githubusercontent.com/26007280/189977550-ccaf65c4-ed4c-48fc-bc45-c42b86a2688d.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/EodC6doDQBGoiti/preview)

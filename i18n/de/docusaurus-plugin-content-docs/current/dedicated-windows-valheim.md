@@ -22,7 +22,7 @@ Verbinde dich für die Einrichtung deines Valheim Dedicated Server mit deinem vS
 
 Im Anschluss erfolgt der Download. Dieser beinhaltet die **steamcmd.zip** Datei, welche zunächst entpackt werden muss. Erstelle dafür am besten einen separaten Ordner, wo die Datei dann entpackt wird. Als Resultat solltest du nun die **steamcmd.exe** sehen. Führe diese aus und warte, bis der Installationsprozess abgeschlossen ist. 
 
-![image](https://user-images.githubusercontent.com/26007280/217028019-99df003d-0a7d-4bc7-9f06-a9022862fd53.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/6i72Yrj5TKC3tdd/preview)
 
 Sobald die Meldung **Loading Steam API... OK** angezeigt wird, wurde der Vorgang erfolgreich abgeschlossen und es kann mit der Installation des Valheim Servers begonnen werden. 
 
@@ -34,7 +34,7 @@ Nach der Installation solltest du die Möglichkeit haben, Befehle in der **Steam
 
 Als nächstes erfolgt die Installation. Diese wird mit dem `app_update 896660` Befehl durchgeführt. Die App ID **896660** steht in dem Fall für die **Valheim Dedicated Server** Applikation. 
 
-![image](https://user-images.githubusercontent.com/26007280/217027978-f34caa53-3c85-428e-bd06-9a55684e0279.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/N88sMNnNfacK7zq/preview)
 
 >Bitte unterbreche den Vorgang nicht, bevor er abgeschlossen ist, um Fehler zu vermeiden. Es kann einen Moment dauern, aber es lohnt sich, geduldig zu sein! :)
 
@@ -64,7 +64,7 @@ valheim server -nographics -batchmode -name "My Server" -port 2456 -world "Dedic
 
 Damit der Server auch extern sichtbar und erreichbar ist, müssen die verwendeten Server Ports in der Firewall freigeschaltet/weitergeleitet werden. Öffne dazu die Windows Firewall Einstellungen. 
 
-![image](https://user-images.githubusercontent.com/26007280/217027905-bb6bde60-1e9d-4db3-aadf-7b853abc963e.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/ByL8NWGRQ7qARNC/preview)
 
 In den Einstellungen müssen nun weitere Regeln angelegt werden. Klicke dazu jeweils, wie im Folgenden beschrieben, auf die eingehenden und ausgehenden Regeln und füge die Ports 2456-2458 für die Protokolle TCP/UDP hinzu. 
 

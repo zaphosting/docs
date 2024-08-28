@@ -26,11 +26,11 @@ Note: Your server is saves in 5 minute increments automatically and will always 
 
 Downloading your savegame is very easy. Head over to the `Savegame Manager` section in the webinterface:
 
-![Screenshot 2023-02-04 002245](https://user-images.githubusercontent.com/42719082/216734438-33eb2c0a-970c-4a8e-b250-ece262f94978.png)
+![Screenshot 2023-02-04 002245](https://screensaver01.zap-hosting.com/index.php/s/cdDn5cNt2SbJDyM/preview)
 
 Scroll down and near the bottom of the page, you will see your active savegames and any backups that you currently have of your game saves. To download, simply press the `Download` button on the right hand side of the file you wish to download.
 
-![Screenshot 2023-02-04 003915](https://user-images.githubusercontent.com/42719082/216735431-ad1fb5c8-773b-40b3-ad6e-62142415b9c6.png)
+![Screenshot 2023-02-04 003915](https://screensaver01.zap-hosting.com/index.php/s/BQmTa4grkdBJm9Y/preview)
 
 ## Using your own Savegame
 It is very easy to use your own savegame by using the Savegame Uploader section of the Savegame Manager.
@@ -43,12 +43,12 @@ It is sometimes possible that your inventory may not save correctly, so ensure t
 Press `Windows-Key + R` and copy this path in there: `%LOCALAPPDATA%\FactoryGame\Saved\SaveGames\`
 Now you are in the SaveGames folder for your Satisfactory game. Now press the folder which has alot of numbers (green on the screenshot).
 
-![Screenshot 2023-02-04 004351](https://user-images.githubusercontent.com/42719082/216735823-397d0c03-5f4f-467c-8ceb-95dc3574d840.png)
+![Screenshot 2023-02-04 004351](https://screensaver01.zap-hosting.com/index.php/s/CHE2sw7PYMH5zL6/preview)
 
 You are now in your Savegame directory of your satisfactory game. In this folder you can see all savegame which you have.
 You should be able to identify the savegame by checking their file name, date, timestamp or size. If you are using autosaves, `x_autosave_0` will always be the latest one which was saved.
 
-![Screenshot 2023-02-04 004903](https://user-images.githubusercontent.com/42719082/216736126-9ead16f1-1f81-410c-8271-fdb915fac348.png)
+![Screenshot 2023-02-04 004903](https://screensaver01.zap-hosting.com/index.php/s/cmYeSwNSpX3nAxL/preview)
 
 :::info
 Optional: We recommend to remove everything except the name of the savegame itself to make it easier to identify in the future. In this example the savegame would be named "Factory".
@@ -56,11 +56,11 @@ Optional: We recommend to remove everything except the name of the savegame itse
 
 Upload now your file through the Savegame Manager by dragging & dropping to your server:
 
-![Screenshot 2023-02-04 005404(1)](https://user-images.githubusercontent.com/42719082/216736491-11424805-59c3-421f-bb84-e3b3ab8e6da1.png)
+![Screenshot 2023-02-04 005404(1)](https://screensaver01.zap-hosting.com/index.php/s/nGFnTJXPPsMEB26/preview)
 
 And finally, ensure to change the `Active savegame` at the top of the page to the name of the savegame you have uploaded and press Save! In this example, the uploaded file is called Factory thus it is changed to that.
 
-![Screenshot 2023-02-04 005836](https://user-images.githubusercontent.com/42719082/216736588-9b0a8258-8f06-4f48-9645-48c0d25c22f6.png)
+![Screenshot 2023-02-04 005836](https://screensaver01.zap-hosting.com/index.php/s/adnst92YdtzK7QK/preview)
 
 Now the next time you start the server now, the savegame will be loaded.
 

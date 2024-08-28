@@ -36,13 +36,13 @@ Then the fxmanifest.lua can be saved and closed, we no longer need it.
 
 In your assets folder you now create a "stream" folder.
 
-![image](https://user-images.githubusercontent.com/13604413/159168259-1508dc05-118c-4508-a1b3-7d11316b56fd.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/yZgpLTTPtpe2sXZ/preview)
 
 ## Upload Mods
 
 Now open this stream folder, here you can now upload all ytd and yft files by drag & drop:
 
-![image](https://user-images.githubusercontent.com/13604413/159168290-8136adcb-6bb3-4c97-af56-b834bb3311ab.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/mxNAFtBHaAjeQYj/preview)
 
 After all the mods have been uploaded, all you have to do is enter your resource in the server.cfg, you will find this in the "server-data" folder of your FiveM server.
 

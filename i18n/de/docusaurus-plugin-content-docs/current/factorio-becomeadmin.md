@@ -16,7 +16,7 @@ Die Zuweisung von Administratorberechtigungen ermöglicht dir eine einfache und 
 ## Konfiguration
 Das Hinzufügen eines Admins erfolgt über die **server-settings.json** Config, welche du im Interface unter Configs findest.
 
-![image](https://user-images.githubusercontent.com/26007280/189889682-7608bb64-c17a-4f23-8bc0-a2339bcbe168.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/rS8Js24Ys5aywQf/preview)
 
 Am Ende der Konfigurationsdatei befindet sich der wichtige Part. Dort werden die Admins definiert:
 

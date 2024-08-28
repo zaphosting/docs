@@ -17,7 +17,7 @@ Last Oasis has the option to connect multiple Oases at once in the same Realm. I
 ## Preparation
 Begin by heading over to [the official Last Oasis](https://myrealm.lastoasis.gg/) website and logging in with your preferred choice of platform (Steam or Xbox).
 
-![image](https://user-images.githubusercontent.com/26007280/189681463-3331d6c8-2771-43ee-9b71-a520ad323c98.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/d6xZsqYbEF9jSj8/preview)
 
 ## Enabling multi hosting
 On the website, head over to the **Realms** section. On your current Realm, press the **Change** button and switch the hosting mode from **Single -> Multiple**.
@@ -33,16 +33,16 @@ After you perform this change, you will be able to manage the Oases using the **
 ## Create a new Oasis
 Proceed by selecting a desired place for the new Oasis and press **Add** to confirm.
 
-![image](https://user-images.githubusercontent.com/26007280/189681804-db2b1702-86b0-475d-bfbc-2d1a3209622a.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/A2GLkeBWaBQr6m9/preview)
 
 A new prompt will display where you are able to set a name and select a map.
 
-![image](https://user-images.githubusercontent.com/26007280/189681842-3891bc9b-05e9-45f7-8095-1fd56152d062.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/6SkCFyAzooKwQAA/preview)
 
-![image](https://user-images.githubusercontent.com/26007280/189681890-6bd12a88-9cba-4279-bdc7-2465145fc024.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/CBFHBq8TxAxogk9/preview)
 
 Once confired, you can finally press **Add Oasis** to create the Oassis and active it using the **Activate** button.
 
-![image](https://user-images.githubusercontent.com/26007280/189681913-6d4113cf-87d8-4c04-9ff1-a86fd3ca1c27.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/yoeHTdeAeXneC2q/preview)
 
 You should now be able to see multiple active Oasis at the same time under the **Oases** section. You have successfully setup multiple Oases for your Realm.

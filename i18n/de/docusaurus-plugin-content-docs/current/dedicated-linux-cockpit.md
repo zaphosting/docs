@@ -33,4 +33,4 @@ sudo apt install cockpit -y
 ```
 Sobald die Installation abgeschlossen ist, kann das Cockpit-Panel über die IP:9090 erreicht werden. Der Login findet mit den normalen Logindaten des Servers/Users statt. 
 
-![image](https://user-images.githubusercontent.com/61953937/167338111-31decaf3-6838-402b-819b-94323c87c11c.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/fjrCk2y4RSccceZ/preview)

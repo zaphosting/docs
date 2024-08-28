@@ -35,7 +35,7 @@ The field **$values** contains the SteamIDs of the players that should be added 
 
 
 
-![image](https://user-images.githubusercontent.com/26007280/189889186-9c30b86c-5339-4c54-945a-39c0f8b56f40.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/BoY3ZapTkQfyKKX/preview)
 
 
 Afterwards open one of the following pages and paste the URL of your profile there: 
@@ -45,7 +45,7 @@ Afterwards open one of the following pages and paste the URL of your profile the
 - https://steamid.io/
 
 
-![image](https://user-images.githubusercontent.com/13604413/159183763-7e2db2ca-ca78-4a08-9e30-77d58ce51fef.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/trfGtL9obL4WRkp/preview)
 
 This will provide you with general information as well as the Steam ID of your account. In this case we only need the SteamID64. The SteamID64 will then be set at **$values**. This will look like this:
 

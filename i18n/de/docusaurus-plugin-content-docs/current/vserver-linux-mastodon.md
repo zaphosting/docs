@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Mastodon ist ein verteilter Mikroblogging-Dienst, der seit 2016 von Eugen Rochko und der von ihm in Jena gegründeten und in Berlin ansässigen Mastodon GmbH entwickelt wird.
 
-![image](https://user-images.githubusercontent.com/32127408/207198152-fa6ca1e6-b845-4fd8-83d9-cc4a8fb91f9f.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/kPDRrCjJ3pADYPt/preview)
 
 Im Gegensatz zu großen vergleichbaren Diensten wie X (formerly Twitter) ist Mastodon als dezentrales Netzwerk konzipiert, das nicht auf einer Plattform basiert:
 Verschiedene Server, von Privatpersonen, Vereinen oder sonstigen Stellen eigenverantwortlich betrieben, können miteinander interagieren.
@@ -32,7 +32,7 @@ Für das Aufsetzen einer Mastodon Instanz, benötigst du Folgendes:
 
 ## Systemvorbereitung
 Wir empfehlen, das Deaktivieren vom Passwortlogin über SSH, da dies ein Sicherheitsrisiko darstellt, vor allem auf Servern, die aus dem Internet erreichbar sind. Dies kannst du im Webinterface unter Informationen -> Zugang & Sicherheit -> Deaktiviere Passwortlogin machen. 
-![image](https://user-images.githubusercontent.com/32127408/207198356-d36eeb4d-647c-4102-9d09-dcaebd8a29b5.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/YKRWGLsZYEkaKSq/preview)
 Danach verbinden wir uns mit SSH und führen folgenden Befehl aus:
 ```
 apt update && apt upgrade -y

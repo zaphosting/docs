@@ -18,9 +18,9 @@ The assignment of administrator permissions allows you simple and comprehensive 
 To be able to register as an admin on your Terraria server, you need your unique token.
 This token is generated when you start the server for the first time, then you open the live console where you can find the token:
 
-![image](https://user-images.githubusercontent.com/13604413/159178412-e6fbff3e-8935-4fd3-bb2e-7de32a2e1891.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/5cEQYgBgxAYQRcx/preview)
 
-![image](https://user-images.githubusercontent.com/13604413/159178415-c8237723-734f-42e3-94ef-a352d13d1b82.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/HEYwEWe5c3DPZ6E/preview)
 
 In this case the token is **4914096**.
 
@@ -29,11 +29,11 @@ In this case the token is **4914096**.
 In order to be able to register as an admin, join your server in Terraria and enter the command **/setup 4914096** in the game.
 Of course you replace the token **4914096** with your own.
 
-![image](https://user-images.githubusercontent.com/13604413/159178429-655c1645-c26f-4702-ac9d-1ae6ebf7ccb7.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/tadkJkQf5cE3dTB/preview)
 
 ### The following message will then appear in the chat:
 
-![image](https://user-images.githubusercontent.com/13604413/159178430-9545044b-a89d-493e-b610-207070370625.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/JDfKNpaeB63pCeB/preview)
 
 
 ## Adding an Admin
@@ -42,8 +42,8 @@ Now you can add a new admin to your server with the command **/user add USERNAME
 You replace **USERNAME** with your name and as **PASSWORD** you can choose any password you like
 which you can use in the future to login as admin on your server. 
 
-![image](https://user-images.githubusercontent.com/13604413/159178432-d6f9e2ab-bc7f-448c-9f12-d8908b022acc.png)
-![image](https://user-images.githubusercontent.com/13604413/159178433-e49d98cd-bbcc-400a-abd2-d1e2f83c9052.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/iX62CLtn577NfFQ/preview)
+![image](https://screensaver01.zap-hosting.com/index.php/s/xeP8Y8sx66LkSJQ/preview)
 
 :::info
 Note that your password must be at least 4 characters long!
@@ -56,6 +56,6 @@ After you have registered in the game as admin, you can log in with the followin
 
 Of course you replace **USERNAME** with your name and **PASSWORD** with the password you set before.
 
-![image](https://user-images.githubusercontent.com/13604413/159178437-649a13f9-8ac3-45e1-91a5-e59311b00795.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/ewTra2Fi2yia9jS/preview)
 
 Now you are logged in as admin on your server and can manage it with different commands.

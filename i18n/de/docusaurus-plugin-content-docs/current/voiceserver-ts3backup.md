@@ -19,14 +19,14 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 <br/>
 Um im Webinterface ein Backup von deinem Ts3 Server zu machen, gehst du einfach links auf **Snapshots**.
 
-![image](https://user-images.githubusercontent.com/13604413/159177305-ec17ce4e-42da-4669-a54c-3b9ea7aef2e4.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/PwQbERXp34kCgWY/preview)
 
 Anschließend gehst du auf **Snapshot erstellen**. Unten siehst du dann alle deine Snapshots und kannst diese bei Bedarf einspielen, downloaden oder löschen.
 :::info
 Info: Das Einbinden eigener Snapshots ist aus Sicherheitsgründen nicht erlaubt!
 :::
 
-![image](https://user-images.githubusercontent.com/13604413/159177311-8b87f8d4-b8ed-41dd-9a77-ca84886da311.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/mQyxGga7ArCPBXg/preview)
 
 
 </TabItem>
@@ -36,11 +36,11 @@ Um ein Backup von deinem Ts3 Server zu machen, welcher auf deinem v/Rootserver i
 
 Anschließend rufst du deine Ts3 Instanz auf und meldest dich mit den Daten bei Yatqa an: 
 
-![image](https://user-images.githubusercontent.com/13604413/159177323-172ee599-9091-41c3-b44e-95b9533b928d.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/JWmSLjenkYfGpbX/preview)
 
 Um nun das Backup zu erstellen, musst du auf **Miscellaneous** gehen und dann auf **Create and save a snapshot**:
 
-![image](https://user-images.githubusercontent.com/13604413/159177326-da70288f-aeb9-497d-b870-4768ec710768.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/FKHb6fizLyxtjkE/preview)
 
 Zum Einspielen eines Backups kannst du dann einfach auf **Restore snapshot** gehen.
 

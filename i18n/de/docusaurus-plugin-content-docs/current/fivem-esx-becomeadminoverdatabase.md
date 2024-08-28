@@ -23,24 +23,24 @@ Ein Charakter muss erstellt sein von euch, sodass ihr diesen dann auch in der Da
 
 **1** Datenbank TAB auswählen
 
-![](https://user-images.githubusercontent.com/61839701/170333733-b0a5f7d2-472c-401a-8403-56a11fbc2fab.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/24HeBnk2gjQ6jSA/preview)
 
 **2** Auf Verwalten klicken
 
-![](https://user-images.githubusercontent.com/61839701/170333965-24f2827e-2051-4e5a-881f-dee77f4dc062.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/FniRaWmWbXZzeDm/preview)
 
 **3** Uns mit unseren Daten anmelden
 
 Falls nötig, mit unseren Daten anmelden, welche wir hier finden:
-![](https://user-images.githubusercontent.com/61839701/170334437-3eefea79-ca49-4fa8-ab15-bd1fabd570df.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/888248bxBSpELXg/preview)
 
 **4** Die Users Tabelle öffnen
 
-![](https://user-images.githubusercontent.com/61839701/170334709-1fad99b2-a713-4e73-af56-9ff9a89a8a05.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/HbRCwzxneK8MRD8/preview)
 
 **5** Eigenen Charakter finden
 
 Nun suchen wir unseren Charakter und machen einen Doppelklick auf die "group" spalte. Dort muss "admin" eingetragen werden.
-![](https://user-images.githubusercontent.com/61839701/170335077-b3552090-94c5-438e-81a2-fa61b5890b01.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/n3YxebDWiz2qXfX/preview)
 
 Das war es auch schon. Nun bist du Admin auf deinem Server.

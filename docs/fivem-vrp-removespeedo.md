@@ -19,7 +19,7 @@ Force overwrite must be disabled to edit the scripts, otherwise all changes will
 
 First the [FTP access](gameserver-ftpaccess.md) must be set up:
 
-![image](https://user-images.githubusercontent.com/13604413/159137870-82291650-2fbe-4c53-be81-19f8552069c4.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/tmQf5wwoF5Cq3Qc/preview)
 
 After this has been set up, you can now connect and open the server folder.
 

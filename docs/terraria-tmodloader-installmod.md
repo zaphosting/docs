@@ -26,14 +26,14 @@ After downloading and installing you can start your tModLoader directly from Ste
 
 Once in the main menu, open your mod folder, you do this by clicking on **Mods** and then on **Manage Mods** then **Open Mod Folder**:
 
-![image](https://user-images.githubusercontent.com/26007280/189975016-52eb5c86-d427-427d-94d5-4fedd7d40765.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/KYXqfC3oaFeti3t/preview)
 
-![image](https://user-images.githubusercontent.com/26007280/189975029-693bc662-2d62-485d-9fd7-2eb54d454330.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/sPbWCz9KiY6n9dN/preview)
 
 In the now opened folder, which is located by default under **C:\Users\UserName\Documents\My Games\Terraria\ModLoader\Mods** you can now put your desired Mods.
 In this example we are installing the Calamity-Mod.
 
-![image](https://user-images.githubusercontent.com/26007280/189975047-b641f42a-7ab6-4954-8db1-089fd237c4be.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/bbXjf6JpMKC6jzq/preview)
 
 :::info
 A mod must always have the ending **.tmod** , otherwise it cannot be loaded from the server!
@@ -41,11 +41,11 @@ A mod must always have the ending **.tmod** , otherwise it cannot be loaded from
 
 Then you can close the folder again, then click on **Back** in the game and then on **Mods**: 
 
-![image](https://user-images.githubusercontent.com/26007280/189975073-e40b342a-35a7-4915-95b5-67662ecffaca.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/95y5k6AfobCJJed/preview)
 
 There you will now see your added mod which you can activate by clicking on **Disabled**:
 
-![image](https://user-images.githubusercontent.com/26007280/189975095-829e41f1-c534-4723-83a8-f80714dde419.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/dCbgnKbeWkr2JeY/preview)
 
 To make the mod active, click on **Reload Mods**, then you can close the game again and start installing the mod on your server.
 
@@ -56,7 +56,7 @@ In order to be able to install the mod on your server, you can connect to your s
 
 There you navigate to the following directory: /g******/terraria/mods/ where you also insert the previously used **.tmod** file:
 
-![image](https://user-images.githubusercontent.com/26007280/189975128-0ec4f68e-1d50-4228-94ab-b4f7e1c7ae86.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/7NtFqes4g9JfQLW/preview)
 
 :::info
 If there is no file with the name **enabled.json** you have to start the server first, then it should appear. Alternatively, you can create the file yourself.
@@ -64,11 +64,11 @@ If there is no file with the name **enabled.json** you have to start the server 
 
 After you open the file **enabled.json** via **Right Click > Edit** and add there the name of your mod one, which should look like this:
 
-![image](https://user-images.githubusercontent.com/26007280/189975152-ff10e2cc-32c9-49f0-ae39-e5175dcba739.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/FECRXyNGsNNwadd/preview)
 
 If you want to insert several mod's, you can do so like this: 
 
-![image](https://user-images.githubusercontent.com/26007280/189975186-57ce2560-44bf-4c5f-8dfd-c39c11ec9c68.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/dtSqazRiH6zBRqD/preview)
 
 :::info
 Please note that a comma must be placed after each mod name, except for the name of the last mod!

@@ -14,7 +14,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 Für eine Verbindung, die deutlich sicherer ist, wie eine herkömmliche Verbindung mit dem SSH Password, wird die Nutzung von SSH Keys empfohlen.
 Hierzu im Dashboard von dem Linux Server den Reiter "**Zugang & Sicherheit**" öffnen.
 
-![](https://user-images.githubusercontent.com/61839701/166181073-10f9342b-e483-41ac-accc-2996009647ba.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/7a6NbYMSLAn2DDw/preview)
 
 Bei "**Zugang & Sicherheit**" kann nun mit dem "**SSH-Key generieren**" Button in Key generiert werden.
 Sobald dieser gedrückt wird, öffnet sich ein Popup und ein Key zufällig erstellter Key wird direkt auf den PC heruntergeladen.
@@ -28,18 +28,18 @@ Bei Linux Rootserver ist ein Neustart von dem Server erforderlich, damit diese �
 
 <InlineVoucher />
 
-![](https://user-images.githubusercontent.com/61839701/166181092-391eb0bf-aaee-426a-ab8c-241ac788b4bc.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/wYgLT8aZmmijnPC/preview)
 
 Sollten weitere Keys benötigt werden, kann im gleichen Fenster der "**Key generieren**" Button betätigt werden.
 Mit "**Keyname**" kann man einen Namen für den Key setzen, welcher im ZAP-Hosting Panel angezeigt werden soll, wird für eine deutlich bessere Übersicht empfohlen.
 
 Sofern alle gewünschten Keys generiert und hinzugefügt wurden, werden diese nun bei "**Zugang & Sicherheit**" angezeigt.
 
-![](https://user-images.githubusercontent.com/61839701/166181103-6c451061-02c7-479e-ba3f-544eca736b59.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/ijroyJ6jK7R8FkK/preview)
 
 Solltest du einen eigenen Public Key haben, welchen du vorher extern und nicht über unser Panel generiert hast, kannst du diesen über einen Klick auf das "**+**" Icon einbinden.
 
-![](https://user-images.githubusercontent.com/61839701/166181116-0888ba78-b00d-4ac9-ba8a-a610800c0079.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/YXAoP7RPA7fdPws/preview)
 
 Es öffnet sich dann ein leeres Panel, in welchem du deinen eigenen Public Key einfügen kannst. 
 Der Key wird dann mit Betätigen der "**Key hinzufügen**" Funktion zum Server hinzugefügt und in unserem Panel angezeigt.
@@ -55,7 +55,7 @@ Standardmäßig wäre der PuTTY Ordner wie im Beispielbild zu sehen bei "** C: >
 
 Die PuTTYGen Anwendung starten und dort dann auf "**File**" -> "**Load private key**"
 
-![](https://user-images.githubusercontent.com/61839701/166181127-afefd29c-b812-433c-97fc-437915e24b62.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/gEf7RNEFSM8SF7Y/preview)
 
 Nun muss die vom ZAP-Hosting generierte Datei geöffnet werden.
 Dafür musst du in das Standardverzeichnis, wo alle deine Downloads abgelegt werden.
@@ -64,14 +64,14 @@ Dafür musst du in das Standardverzeichnis, wo alle deine Downloads abgelegt wer
 **Wichtig:** stelle sicher, dass du den Filter wie im Bild zu sehen auf "**ALL Files**" stehen hast, da die vom System erstellte .pri Datei nicht zu sehen ist.
 :::
 
-![](https://user-images.githubusercontent.com/61839701/166181140-46c617ad-17a3-4900-848c-8412f5945b91.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/D4gDMZfnc3T3bBk/preview)
 
 Sobald diese geladen wurde, kann man jetzt mit den verschiedenen Feldern sowohl Kommentare als auch ein Passwort für die Keys festlegen.
 Um das Passwort zu setzen, muss dieses Wunschpasswort sowohl in "**Key passphrase**" als auch "**Confirm passphrase**" eingetragen werden.
 *Hinweis:* Man kann diese Felder auch leer lassen und den Key ohne ein Passwort erstellen, dies wäre aber etwas unsicherer und demnach nicht empfohlen. 
 Sobald alle Wunscheinträge gesetzt, kann nun mit dem Button "**Save private key**" ein für PuTTY kompatibler Key gespeichert werden.
 
-![](https://user-images.githubusercontent.com/61839701/166181158-27665375-de25-420b-80fb-c6da56eef3c7.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/noFCwZWoj5PE2Cf/preview)
 
 Diese .ppk Datei benennen und so abspeichern, dass diese später wiedergefunden werden kann.
 
@@ -80,14 +80,14 @@ Diese .ppk Datei benennen und so abspeichern, dass diese später wiedergefunden 
 Damit der Key für die Verbindungen genutzt werden kann, muss dieser bei Putty erst verknüpft werden.
 Dafür im PuTTY Panel auf "**SSH**" - "**Auth**" - "**Browse...**".
 
-![](https://user-images.githubusercontent.com/61839701/166181174-38c20745-8bc5-4022-9f4e-962c6600b057.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/WfroQtpinWjeKYe/preview)
 
 Den gerade über PuTTYGen erstellten Key heraussuchen und dort "**Öffnen**".
 
 Damit man diese Schritte nicht bei jeder Verbindung wiederholen muss, wäre es empfohlen dies in der Session zu speichern.
 Dafür auf "**Session**" - "**Default Settings**" - "**Save**", sowie es im Screenshot zu sehen wäre.
 
-![](https://user-images.githubusercontent.com/61839701/166181184-f97dd6d9-5f3f-4d5c-a943-3673d9b738d2.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/qwLYtan4oNrpBYr/preview)
 
 Nun kann bei Putty der Login zu dem Server durchgeführt werden.
 
@@ -102,7 +102,7 @@ Insofern der Login für deinen Server korrekt deaktiviert wurde, ist die Verbind
 
 Bei Linux vServer befindet sich direkt neben dem "**SSH Key generieren**" Button der "**Login mit Passwort deaktivieren**" Button, sofern dieser gedrückt wurde, ist der SSH Login mit dem Passwort nicht mehr möglich.
 
-![](https://user-images.githubusercontent.com/61839701/166181209-d00bddf6-291b-410e-8617-65a66f450a08.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/eT8jeirpdWEnRB2/preview)
 
 Die Anzeige bei "**SSH-Login via Passwort**" würde sich dann auch auf "**inaktiv**" stellen.
 

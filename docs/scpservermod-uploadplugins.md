@@ -20,7 +20,7 @@ Before plugins can be installed, the [FTP access](gameserver-ftpaccess.md) must 
 After this has been setup, you can connect and open the following server folder.
 `/g#####/scp/sm_plugins`
 
-![image](https://user-images.githubusercontent.com/26007280/189887882-337f89e3-15bf-47dd-978d-f71e83647901.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/2Fid5MKq57YDCNj/preview)
 
 ## Installing Plugins
 
@@ -36,15 +36,15 @@ This is only one place you can get them. They could be found elsewhere. It's imp
 
 In this example, we will get the following plugin:
 
-![image](https://user-images.githubusercontent.com/13604413/159183661-4e3c22ac-4d4b-44d2-b74c-4f521d581ac0.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/bEEQP3cm33fgMFi/preview)
 
 ### Uploading Plugins
 
 Once you have your wanted plugins installed, you will then upload them to your server FTP. You can upload them via **drag&drop** into the **sm_plugins folder.**
 
-![image](https://user-images.githubusercontent.com/13604413/159183662-b9032125-b4d6-46dd-aba2-e34f1f70762a.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/HzRKJXFyENqK4N8/preview)
 
-![image](https://user-images.githubusercontent.com/13604413/159183666-e5ed02fb-c7e3-44bd-83e7-2ecb99a8befe.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/kSSMs23E6g4PfwN/preview)
 
 :::info
 Note: After any plugin installation, you will have to **restart your server** for them **to take affect.**
@@ -56,23 +56,23 @@ Depending on the plugin, there could be various configurations you will have to 
 
 In our example plugin, the following configurations are defined.
 
-![image](https://user-images.githubusercontent.com/13604413/159183671-0cbad21c-98e4-4a9c-831c-2313a7072c78.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/5PrLzeCQaFamGRn/preview)
 
 To add these, we would edit the config_gameplay.txt.
 
 You can find that using the **Configs** tab on the left.
 
-![image](https://user-images.githubusercontent.com/26007280/189887942-4f3d211d-b8c5-4cdb-8cfb-22f2d238968d.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/mMck39x2mEnLtLY/preview)
 
 And then we can find the **config_gameplay.txt**
 
-![image](https://user-images.githubusercontent.com/26007280/189888122-c8a7d186-8c02-4da6-905d-ff94990c4b5c.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/SGLpBYM5DAWRRzN/preview)
 
 :::info
 The configurations themselves can really be written anywhere. For best practice, we will write them under the '#Misc gameplay settings' in the config.gameplay.txt file.
 :::
 
-![image](https://user-images.githubusercontent.com/26007280/189888144-969a4758-bb1e-45e2-a364-95225d608613.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/JMK542jpCj472ag/preview)
 
 :::info
 NOTE: Depending on the plugin, your configurations will be different. Always make sure to read the instructions with that plugin, so you can add the configs correctly.

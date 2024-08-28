@@ -19,7 +19,7 @@ Welchen Server du zum "Master" machst und welcher davon der "Slave" wird, entsch
 
 Beide Configs sind im Interface unter "**Configs**" zu sehen und können dort bearbeitet werden.
 
-![image](https://user-images.githubusercontent.com/26007280/189925993-137d1375-4461-41bf-a36c-3f62fd4c8cab.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/WmAswQDJtHCBDbM/preview)
 
 Bearbeitet wird in beiden .ini Dateien nur der "**[SHARD]**" Teil.
 

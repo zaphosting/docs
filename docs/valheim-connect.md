@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 To connect to your Valheim server, we first open our web interface and make sure we have set a secure password in the settings:
 
-![image](https://user-images.githubusercontent.com/26007280/189886121-63fe759b-921c-4ad1-acfa-bf9f44bd4cf1.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/XC7Cxd2zt75jyap/preview)
 
 :::info
 Note: Without the password your Valheim server will not start.
@@ -21,23 +21,23 @@ Note: Without the password your Valheim server will not start.
 
 After setting the password we can start the server, it may take a few minutes until it switches to "Online":
 
-![image](https://user-images.githubusercontent.com/13604413/159179762-23d41680-df0e-46e7-b484-d9f99f6e88db.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/GZQRqpGC6GGaAXa/preview)
 
 ## Direct Connect using Valheim
 
 First we copy the IP from the server from the Webinterface:
 
-![image](https://user-images.githubusercontent.com/13604413/159179774-6ff4f3aa-9978-4a43-8fa2-a16731057d61.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/KMkbMyx4bTQkLJT/preview)
 
 
 Now we open Valheim and click on the "Join IP" button in the server list:
 
-![image](https://user-images.githubusercontent.com/26007280/189886153-0f233985-9fe5-43f9-8be7-09e451bc5afb.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/zqKp6sx5tEYRebx/preview)
 
 
 Here we add our server IP:
 
-![image](https://user-images.githubusercontent.com/13604413/159179777-35c7201d-c5da-4a59-a752-4090f470b701.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/EniEzmaP3E9JpLp/preview)
 
 
 We can now connect directly to the server via the "Connect" button.
@@ -47,26 +47,26 @@ We can now connect directly to the server via the "Connect" button.
 
 First we copy the IP from the server from the Webinterface:
 
-![image](https://user-images.githubusercontent.com/13604413/159179803-d22fb02c-22a5-4a03-9f43-2b415773742d.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/FkYSA8AFm53d8kK/preview)
 
 
 To connect to the Valheim server directly, we need to open the server list in Steam:
 
-![image](https://user-images.githubusercontent.com/13604413/159179809-2fdfa72b-2940-4081-9284-1a5ed7f0a085.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/yHxMdtTBe7xTWeZ/preview)
 
 Here we now add our server as follows:
 
-![image](https://user-images.githubusercontent.com/13604413/159179811-47456cd9-674e-4017-bc95-219c83349950.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/QQcjzriQ5K4Mj9k/preview)
 
 :::info
 Note: The Port has to be calculated with +1 at the end, that means if your port is 27043, you need to enter 27044 in Steam.
 :::
 
-![image](https://user-images.githubusercontent.com/26007280/189886184-e457325d-0ee5-47b1-b9d2-df0cf79b404a.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/RgsszmnKQLCnYSa/preview)
 
 After adding this, we should now see our server in the server list:
 
-![image](https://user-images.githubusercontent.com/26007280/189886204-20843bfc-f582-4c14-8d80-60c56e9d7179.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/54XtiJzn7xndfPT/preview)
 
 Now we can connect directly to the server via the "Connect" button.
 
@@ -77,11 +77,11 @@ First we open Valheim and click on `Start Game`, if you do not have a Character 
 
 Here we do not want to create a new World, so we press "Cancel"
 
-![image](https://user-images.githubusercontent.com/26007280/189886249-ca2295a1-6d82-4fce-a2d7-d2006f9afdfa.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/ZnKWT8eXCcArMwX/preview)
 
 Now we can click on `Join Game` at the top of the Menu and Enter our Servername in the "Filter" Section, we will also set a Checkmark at "Community"
 
-![image](https://user-images.githubusercontent.com/13604413/159179817-c7c921fb-5d4b-4b34-9ef4-4c93288937fb.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/kFmZP5wyFQbpLiR/preview)
 
 :::info
 If you do not see your Server yet, make sure to wait a bit, depending on the amount of Servers, a refresh can take a few Minutes.

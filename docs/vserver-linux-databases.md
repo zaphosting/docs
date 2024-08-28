@@ -87,7 +87,7 @@ mysql_secure_installation
 
 Now you can configure your MariaDB (MySQL) server by following the prompts and setting a password for your server. On the following prompt, you can skip the input for now by pressing **Enter**.
 
-![](https://user-images.githubusercontent.com/61839701/165694493-b113409b-3f2a-41ba-8113-59f86ded31b8.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/S8mibcHmaAcetqJ/preview)
 
 :::info
 The user root is the main user of your MariaDB (MySQL) server!
@@ -101,23 +101,23 @@ While typing in the password, you won't be able to see it. However, this behavio
 
 Now you will be asked if you want to remove anonymous users from your server, you should do this in any case for security reasons. Confirm this with a **y** for yes:
 
-![image](https://user-images.githubusercontent.com/13604413/159171942-82667636-b148-4248-a95d-ad3d9ed3ab47.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/7q2kGxDXTfWg36m/preview)
 
 In the following prompt, you define if the user root is allowed to connect to the server externally. For security reasons, you should also deactivate this option and confirm this therefore with **y**:
 
-![image](https://user-images.githubusercontent.com/13604413/159171944-d897a99a-a0f4-421b-bfb9-92c0640f2db0.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/PcpJ6boNspf2fPo/preview)
 
 In the next step, you can also confirm to remove the test database provided by MariaDB (MySQL) with **y**, because it is not needed and can be easily deleted:
 
-![image](https://user-images.githubusercontent.com/13604413/159171945-e7b4f9ef-1ec0-409f-ad5f-dff05f42c561.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/9HfkcaLjGXjEwK7/preview)
 
 At the end of the configuration process, you will be asked if you want to update the permissions of the database. Confirm this with **y** to activate the previously set password for the root user:
 
-![image](https://user-images.githubusercontent.com/13604413/159171953-8a6cb526-6fac-47fd-be04-eb752f57b1a1.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/QiBNQYFiwJM4CcA/preview)
 
 Your MariaDB (MySQL) server is now ready for use!
 
-![](https://user-images.githubusercontent.com/61839701/165694518-162f9567-e95e-43e8-98b2-c2450f26c975.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/zkKoTX7GbbKgj2M/preview)
 </TabItem>
 
 <TabItem value="redis" label="Redis">

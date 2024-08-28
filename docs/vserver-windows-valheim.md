@@ -20,7 +20,7 @@ Got a VPS, root server or dedicated server and want to install game servers on i
 For the setup of a Valheim server the SteamCMD is needed. The SteamCMD is the **command line edition of the Steam client**. This tool can be used to quickly and easily download the dedicated server applications of popular Steam games. You will find the SteamCMD on the official Valve developer website: https://developer.valvesoftware.com/wiki/SteamCMD. 
 
 Following this, the download takes place. This will contain the **steamcmd.zip** file, which must first be unpacked. It is recommended to create a separate folder, where the file can be unzipped. You should see the **steamcmd.exe** as a result. Execute it and wait until the installation process has been completed.
-![image](https://user-images.githubusercontent.com/26007280/217028019-99df003d-0a7d-4bc7-9f06-a9022862fd53.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/7Hib2ZgaYWTsRNE/preview)
 
 As soon as the message **Loading Steam API.... OK** is displayed, the process has been completed successfully and you can start with the installation of the Valheim server.
 
@@ -32,7 +32,7 @@ After the installation you should be able to execute commands in the **Steam com
 
 The next step will be the installation. This is done with the `app_update 896660` command. The App ID **896660** stands for the **Valheim Dedicated Server** application.
 
-![image](https://user-images.githubusercontent.com/26007280/217027978-f34caa53-3c85-428e-bd06-9a55684e0279.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/cgMfJdL5DNNxjrf/preview)
 
 :::info
 Please do not interrupt the process before it is completed to avoid mistakes. It may take a moment, but it's worth being patient! :)
@@ -64,7 +64,7 @@ valheim server -nographics -batchmode -name "My Server" -port 2456 -world "Dedic
 
 To make the server visible and accessible externally, the server ports used must be enabled/forwarded in the firewall. To do this, open the Windows Firewall settings.
 
-![image](https://user-images.githubusercontent.com/26007280/217027905-bb6bde60-1e9d-4db3-aadf-7b853abc963e.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/EM32i73TLcn32Mc/preview)
 
 Additional rules must be added in the settings. To do this, click on the incoming and outgoing rules as described below and add them for the following ports: 2456-2458 for the TCP/UDP protocols.
 

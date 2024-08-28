@@ -33,13 +33,13 @@ Drücke Windows-Taste + R oder suche in deinem Startmenü nach Ausführen. Kopie
 
 Öffne die Datei Input.ini mit einem Texteditor (z.B. Notepad)
 
-![Screenshot 2023-02-22 011634](https://user-images.githubusercontent.com/42719082/220495653-6109d259-e31a-429f-aeda-b6c2ca2f495b.png)
+![Screenshot 2023-02-22 011634](https://screensaver01.zap-hosting.com/index.php/s/qkR8kMtJEWn2SgB/preview)
 
 Kopiere nun genau diese Zeilen und füge sie unten ein:
 
 `[/script/engine.inputsettings] ConsoleKey=F6`
 
-![Screenshot 2023-02-22 011758](https://user-images.githubusercontent.com/42719082/220495816-401b59b6-7c1b-434a-a878-bc5988f44519.png)
+![Screenshot 2023-02-22 011758](https://screensaver01.zap-hosting.com/index.php/s/5TLf9m9ReGRXXAC/preview)
 
 Speichere abschließend und starte dein Spiel neu. Nun kannst du die Konsole mit der Tastenkombination `F6` öffnen
 
@@ -51,7 +51,7 @@ Um die gesamte Liste der Befehle anzuzeigen, verwende `?` in der Konsole, wodurc
 
 Ein Beispiel für die Verwendung von `?` zur Anzeige aller Befehle ist unten zu sehen.
 
-![Screenshot 2023-02-22 015435](https://user-images.githubusercontent.com/42719082/220500871-e1ea0303-718d-4552-9173-3ea2f66669f2.png)
+![Screenshot 2023-02-22 015435](https://screensaver01.zap-hosting.com/index.php/s/ZAp84CYYtysEEq3/preview)
 
 :::info
 Jeder Befehl, der auf dieser Seite erwähnt wird, ist für Vanille Satisfactory.

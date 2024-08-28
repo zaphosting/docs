@@ -28,14 +28,14 @@ Diese kann über einen Klick auf [Plesk Installer](https://installer-win.plesk.c
 Diesen Installer wird nun in einem Ordner abgelegt, in unserem Beispiel nutzen wir dafür einen auf unserem Desktop erstellten "Plesk" Ordner
 Der Pfad zu dieser Datei wäre für die weiteren Schritte wichtig.
 
-![](https://user-images.githubusercontent.com/61839701/166202762-579fe417-e6b2-4be8-b3a4-90114a63b02c.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/HjzEBrowYnWk4pf/preview)
 
 ### Befehl Prompt öffnen
 
 Für die Installation muss jetzt die CMD Konsole geöffnet werden.
 Dies würde über die Tastenkombination [Windows] + [R] gehen oder auch wenn man bei dem "Windows Symbol" nach "Befehl" sucht und diese "command prompt" dort öffnet.
 
-![](https://user-images.githubusercontent.com/61839701/166202804-694e3d29-dc3c-4963-9d3d-2c1abf5c1784.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/BjnZszr8KbP6yz2/preview)
 
 ### Plesk Installation
 
@@ -44,12 +44,12 @@ In unserem Beispiel war es der "Plesk" Ordner auf dem "Desktop".
 
 Über CMD gelangt man mit dem Befehl "*cd*" in dieses Verzeichnis.
 
-![](https://user-images.githubusercontent.com/61839701/166202847-222f8fb2-a776-4d53-ae5d-77470eb184a7.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/wx9EGrtAewMSkHd/preview)
 
 Korrekt in dieses Verzeichnis gekommen, wäre der letzte Schritt die Ausführung von dem Installer Befehl.
 Mit diesem würde die Plesk-installer.exe ausgeführt und es würde automatisch die neuste Plesk Version installiert werden.
 
-![](https://user-images.githubusercontent.com/61839701/166202878-f14baaa5-0405-40b3-ab5b-ac4d49bf76a8.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/7wc8dWQqnW5E3XT/preview)
 
 Befehl: `plesk-installer.exe --select-product-id=panel --select-release-latest --installation-type=recommended`
 

@@ -16,13 +16,13 @@ Die Zuweisung von Administratorberechtigungen ermöglicht dir eine einfache und 
 ## Konfiguration
 Das Hinzufügen eines Admins erfolgt über die Einstellungsseite im Webinterface statt. Klicke dazu in der **Gameserver Verwaltung** auf **Einstellungen** und scrolle dann runter zu den **Servereinstellungen**.
 
-![image](https://user-images.githubusercontent.com/13604413/159184322-cb6e4aeb-690b-4bed-8ba4-7d9527e873be.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/aXAKkxfCq9JtjPC/preview)
 
 
 
 Dort angelangt findest du ein Feld mit dem Namen **Admin SteamIDs**. Dort muss die SteamID64 eingetragen werden. Deine SteamID64 kannst du ausfindig machen, indem du zunächst dein Steam Profil aufrufst und dort dann an einer beliebigen Stelle einen Rechtsklick machst. Dort klickst du dann auf **Steam URL kopieren**. 
 
-![image](https://user-images.githubusercontent.com/13604413/159184330-9b4155c9-6ca3-4a9a-9a3e-050597e23038.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/Si4L2xBf3NJ4nqz/preview)
 
 
 
@@ -38,7 +38,7 @@ Dadurch erhältst du dort sowohl allgemeine Informationen als auch die Steam ID 
 
 
 
-![image](https://user-images.githubusercontent.com/26007280/189938182-d37cea80-fa23-4265-8357-244b5da63900.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/2BL9zsXy2yBZN4f/preview)
 
 
 

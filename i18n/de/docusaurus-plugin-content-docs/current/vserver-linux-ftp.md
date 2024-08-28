@@ -26,17 +26,17 @@ In seltenen Fällen kann dies auch an einer nicht korrekten Config oder einem be
 Das kann man ganz einfach über den FTP Browser im Webinterface machen. 
 Man klickt links im Menü unter Werkzeuge des jeweiligen Servers auf "FTP-Browser"
 
-![image](https://user-images.githubusercontent.com/13604413/159172130-2649e590-639d-4b1b-a464-fb4956c52929.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/pDgmRQFAwXFQeTA/preview)
 
 
 Anschließen klingt man auf den grünen Button "Direktverbindung"
 
 
-![image](https://user-images.githubusercontent.com/13604413/159172131-2a355b01-508f-4b8a-8e67-f011e48a1b30.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/jek8EkPTYeF3bEr/preview)
 
 Nun wird man vermutlich folgendes Bild sehen: 
 
-![image](https://user-images.githubusercontent.com/13604413/159172135-52ee9fe3-dc99-4f70-8331-253514e6a949.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/eJ23PJjSGMbDNGM/preview)
 
 Hat man bereits ein FTP-Tool probiert, so wird dieses sehr wahrscheinlich auch bereits einen ähnlichen Fehler wie folgenden Fehler angezeigt haben: 
 
@@ -48,7 +48,7 @@ Da nun klar ist, dass weder eine Verbindung via WebFTP oder FTP-Tool möglich is
 Dazu verbindet man sich via SSH/Console mit seinem Server und gibt anschließend den Befehl "service proftpd status" ein. 
 Es wird nun der Status ausgelesen und entsprechend angezeigt:
 
-![image](https://user-images.githubusercontent.com/13604413/159172148-c736c6ed-9cca-42f6-8766-8170011e9848.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/KNKsPF875oDnm5F/preview)
 
 
 Dort ist zu erkennen, dass der Status "dead" meldet, kurz gesagt ist der Dienst offline und somit nicht erreichbar. 
@@ -67,7 +67,7 @@ Kommt keine Rückmeldung nach der Ausführung des Befehls, ist der Dienst in der
 Das ganze kann dann mit dem Befehl "service proftpd status" noch einmal verifiziert werden. 
 Es sollte dann wie folgt aussehen: 
 
-![image](https://user-images.githubusercontent.com/13604413/159172153-f66bf3f5-6c56-45ed-b79e-04c645171c9d.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/jXs8H5dMcyjY7jW/preview)
 
 
 Da der Status jetzt wieder "active" lautet und nicht mehr "dead" kann die FTP Verbindung via FTP-Tool und WebFTP erneut probiert werden. 

@@ -54,14 +54,14 @@ systemctl status docker
 ```
 
 
-![image](https://user-images.githubusercontent.com/13604413/172061231-1bbde11c-85b9-47a7-9f88-44e31144d1c8.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/FeZZ4QkTnJab2ay/preview)
 
 
 Wenn das so aussieht und bei der Ausgabe "**Active (running)**" steht, wurde Docker komplett ohne Probleme installiert. 
 Mit einem **docker run hello-world** kann man dann checken, ob Docker auch korrekt ausgeführt wird.
 Die Ausgabe sollte so aussehen:
 
-![image](https://user-images.githubusercontent.com/13604413/172061244-6834dae0-f14a-43ad-85d6-b5bf74ea89f8.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/giyjrg8qdkS5N7y/preview)
 
 
 ## Abschluss

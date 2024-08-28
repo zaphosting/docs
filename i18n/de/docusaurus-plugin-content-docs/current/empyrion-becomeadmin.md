@@ -21,22 +21,22 @@ Die ID wird später in die Konfigurationsdatei eingetragen.
 
 Hier ist ein Beispiel zu sehen, wie die Steam64ID lokalisiert wird.
 
-![image](https://user-images.githubusercontent.com/13604413/159184139-e07456a3-965e-4e66-9aed-11a3a1cc9f76.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/i3nGooRzAENRJms/preview)
 
 ## Admin Konfig konfigurieren
 
 Die "**adminconfig.yaml**" welche bearbeitet werden muss befindet sich in dem "**Saves**" Verzeichnis.
 Um dieses Verzeichnis zu öffnen, muss die Anleitung für die [FTP-Verbindung](gameserver-ftpaccess.md) befolgt werden.
 
-![image](https://user-images.githubusercontent.com/26007280/189930662-f57fd04f-449b-41c8-80e7-ac6562c00380.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/dqBCQfQ7wjJoC7G/preview)
 
 Standardmäßig stehen dort folgende Werte vorgeschrieben drin:
 
-![image](https://user-images.githubusercontent.com/26007280/189930696-a284351a-ac4d-42dd-9853-5b931a2df4d9.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/kk6Z5xQM3xdbpDP/preview)
 
 Die vorher rausgesuchte Steam64ID muss dort nun hinter "**Id:**" geschrieben werden.
 
-![image](https://user-images.githubusercontent.com/26007280/189930734-9837ca13-4b19-4eeb-9156-09b6ca62030a.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/C6fFxT2Mw3XtWLf/preview)
 
 Mit "**Permission**" wird der Rang bestimmt, welcher dem User gegeben werden soll.
 Die Ränge werden wie folgt vergeben:
