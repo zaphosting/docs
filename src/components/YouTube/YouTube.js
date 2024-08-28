@@ -15,6 +15,9 @@ const YouTube = ({ videoId, imageSrc, title, description }) => {
           src={imageSrc}
           alt={title}
         />
+        <div className={styles.overlay}>
+          <div className={styles.playIcon}></div>
+        </div>
       </div>
       <div className={styles.contentContainer}>
         <p className={styles.title}>{title}</p>
