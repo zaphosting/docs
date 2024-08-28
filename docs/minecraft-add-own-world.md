@@ -16,7 +16,7 @@ You want to use your own world or a world downloaded from the internet on your s
 
 ![image](https://screensaver01.zap-hosting.com/index.php/s/Rmx6c6n2rP5MqBz/preview)
 
-<YouTube videoId="5tII3C9yO3g" title="How to upload custom MAPS on your Minecraft Server" description="Feel like you understand better when you see things in action? We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
+<YouTube videoId="5tII3C9yO3g" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/SbB6iZmdZtMAPaS/preview" title="How to upload custom MAPS on your Minecraft Server" description="Feel like you understand better when you see things in action? We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
 
 Once the connection to the server has been established via FTP, you can start setting up your own world. To do this, you first have to go to the appropriate directory where the current world is located. It is located in the following directory: /gXXXXX/modpack/
 

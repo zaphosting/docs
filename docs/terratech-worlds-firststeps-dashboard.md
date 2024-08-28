@@ -16,7 +16,7 @@ You are interested in an **TerraTech Worlds** or already own one, but you still 
 
 After going through this guide, you will easily be able to manage your server efficiently and find all the necessary options and features quickly and easily. Here, you will get a structured overview that will help you step by step to get familiar with the server administration and expand your knowledge in a targeted manner. This way, you can ensure that your **TerraTech Worlds** is optimally adapted to your needs and that you get the most out of the available options.
 
-<YouTube videoId="sSbLQnrB2q0" title="Setup TerraTech Worlds server in just a MINUTE!" description="eel like you understand better when you see things in action? We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
+<YouTube videoId="sSbLQnrB2q0" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/pRdsSS7KfXYnjai/preview" title="Setup TerraTech Worlds server in just a MINUTE!" description="eel like you understand better when you see things in action? We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
 
 <InlineVoucher />
 

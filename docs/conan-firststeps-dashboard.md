@@ -16,7 +16,7 @@ You are interested in an **Conan Exiles Server** or already own one, but you sti
 
 After going through this guide, you will easily be able to manage your server efficiently and find all the necessary options and features quickly and easily. Here, you will get a structured overview that will help you step by step to get familiar with the server administration and expand your knowledge in a targeted manner. This way, you can ensure that your **Conan Exiles Server** is optimally adapted to your needs and that you get the most out of the available options.
 
-<YouTube videoId="X3pX9EZxM9o" title="Setup Conan Exiles server in just a MINUTE!" description="Feel like you understand better when you see things in action? We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
+<YouTube videoId="X3pX9EZxM9o" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/sBZL86aYZbmWoow/preview" title="Setup Conan Exiles server in just a MINUTE!" description="Feel like you understand better when you see things in action? We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
 
 <InlineVoucher />
 

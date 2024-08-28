@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 ## Einführung
 Du kannst deine Spielstände ganz einfach über unsere Website bearbeiten. Mit nur wenigen Klicks kannst du deine Savegames verwalten, hochladen und wiederherstellen. Navigieren dazu im Dashboard deines Servers zu `Savegame Manager`.
 
-<YouTube videoId="EC4FXT5Mwb8" title="How to create a Satisfactory Server at ZAP and upload your own save-game" description="Feel like you understand better when you see things in action? We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
+<YouTube videoId="EC4FXT5Mwb8" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/j9XYs8KrtAoActY/preview" title="How to create a Satisfactory Server at ZAP and upload your own save-game" description="Feel like you understand better when you see things in action? We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
 
 :::info
 Dein Server speichert automatisch in Abständen von 5 Minuten und behält immer die letzten 6 automatischen Speicherungen.

@@ -15,7 +15,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 With a **Discord bot server**, you can run Discord bots continuously, which can, for example, automatically moderate your Discord channel, play music, conduct giveaways and polls, and much more. A Discord bot server from ZAP-Hosting is configurable by simply **uploading your required files via FTP**. ZAP-Hosting’s Discord bot servers support the languages **NodeJS**, **Java** and **Python**.
 
-<YouTube videoId="OoKA8UJ_N5A" title="How to set up a Discord bot server and upload bot files!" description="Feel like you understand better when you see things in action? We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
+<YouTube videoId="OoKA8UJ_N5A" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/ffjmn3snRrkoeoK/preview" title="How to set up a Discord bot server and upload bot files!" description="Feel like you understand better when you see things in action? We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
 
 <InlineVoucher />
 

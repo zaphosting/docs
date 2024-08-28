@@ -16,7 +16,7 @@ You are interested in a **Space Engineers server** or already own one, but you s
 
 After going through this guide, you will easily be able to manage your server efficiently and find all the necessary options and features quickly and easily. Here, you will get a structured overview that will help you step by step to get familiar with the server administration and expand your knowledge in a targeted manner. This way, you can ensure that your **Space Engineers server** is optimally adapted to your needs and that you get the most out of the available options.
 
-<YouTube videoId="UDZ_sxgBJok" title="Setup Space Engineers server in just a MINUTE!" description="Feel like you understand better when you see things in action? We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
+<YouTube videoId="UDZ_sxgBJok" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/A5pf7CHKYGYBJ8F/preview" title="Setup Space Engineers server in just a MINUTE!" description="Feel like you understand better when you see things in action? We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
 
 <InlineVoucher />
 

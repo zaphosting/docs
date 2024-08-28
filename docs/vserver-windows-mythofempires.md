@@ -12,7 +12,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 Do you have a Windows VPS or rootserver and want to install a MOE Dedicated server on it? You are in the right place. In this guide we will explain the step by step process of installing this service on your server.
-<YouTube videoId="ir3QNvwu7WY" title="How To Setup Myth Of Empires Server on Windows VPS!" description="Feel like you understand better when you see things in action? We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
+<YouTube videoId="ir3QNvwu7WY" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/4WnZSyGqLyN7pmG/preview" title="How To Setup Myth Of Empires Server on Windows VPS!" description="Feel like you understand better when you see things in action? We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
 <InlineVoucher />
 
 ## Preparation

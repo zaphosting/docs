@@ -15,7 +15,7 @@ import Advertisements from '@site/src/components/Advertisements/Advertisements';
 
 Im Folgenden wird dir Schritt für Schritt erklärt, wie du das Windows Server Betriebssystem auf deinem Dedicated Server installieren und konfigurieren kannst. Folge diesen Anweisungen sorgfältig, um sicherzustellen, dass du das Betriebssystem erfolgreich einrichtest und optimal nutzt.
 
-<YouTube videoId="yEjQOrcEus0" title="Setup a Dedicated Server and install Windows easily!" description="Hast du das Gefühl, dass du etwas besser verstehst, wenn du es in Aktion siehst? Wir haben etwas für dich! Tauche ab in unser Video, welches alles für dich zusammenfasst. Egal, ob du es eilig hast oder einfach nur Informationen auf möglichst verständliche Art und Weise aufnehmen möchtest!"/>
+<YouTube videoId="yEjQOrcEus0" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/q4YdJyzkMAibEte/preview" title="Setup a Dedicated Server and install Windows easily!" description="Hast du das Gefühl, dass du etwas besser verstehst, wenn du es in Aktion siehst? Wir haben etwas für dich! Tauche ab in unser Video, welches alles für dich zusammenfasst. Egal, ob du es eilig hast oder einfach nur Informationen auf möglichst verständliche Art und Weise aufnehmen möchtest!"/>
 
 :::info
 Der Aufbau der Anleitung basiert auf der Verwendung des Windows Server 2019 Betriebssystems. Installationen von früheren oder neueren Versionen können hinsichtlich des Prozesses leicht abweichen. 

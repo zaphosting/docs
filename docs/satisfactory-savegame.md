@@ -14,7 +14,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 You can easily modify savegames through our interface. With only a few clicks you can manage your savegames including uploading and restoring.
 Navigate to `Savegame Manager` in your server's dashboard. 
 
-<YouTube videoId="EC4FXT5Mwb8" title="How to create a Satisfactory Server at ZAP and upload your own save-game" description="Feel like you understand better when you see things in action? We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
+<YouTube videoId="EC4FXT5Mwb8" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/4gQxAMEggbGRnBy/preview" title="How to create a Satisfactory Server at ZAP and upload your own save-game" description="Feel like you understand better when you see things in action? We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
 
 :::info
 Note: Your server is saves in 5 minute increments automatically and will always keep the last 6 autosaves.

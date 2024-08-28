@@ -15,7 +15,7 @@ Die **Minecraft Whitelist** ist eine Möglichkeit, um seinen Server zu schützen
 
 ![image](https://screensaver01.zap-hosting.com/index.php/s/7PdkCFcZk3o8Wr8/preview)
 
-<YouTube videoId="nyor26XxwLY" title="How to enable WHITELIST on your Minecraft Server" description="Hast du das Gefühl, dass du etwas besser verstehst, wenn du es in Aktion siehst? Wir haben etwas für dich! Tauche ab in unser Video, welches alles für dich zusammenfasst. Egal, ob du es eilig hast oder einfach nur Informationen auf möglichst verständliche Art und Weise aufnehmen möchtest!"/>
+<YouTube videoId="nyor26XxwLY" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/gAKarSFY2m3LD8R/preview" title="How to enable WHITELIST on your Minecraft Server" description="Hast du das Gefühl, dass du etwas besser verstehst, wenn du es in Aktion siehst? Wir haben etwas für dich! Tauche ab in unser Video, welches alles für dich zusammenfasst. Egal, ob du es eilig hast oder einfach nur Informationen auf möglichst verständliche Art und Weise aufnehmen möchtest!"/>
 
 <InlineVoucher />
 
