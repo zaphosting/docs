@@ -35,7 +35,6 @@ The **Dashboard** of your server is the heart of the administration. All basic a
 In the dashboard you also have the option of starting, stopping or restarting your service, to have full control over its operation. Furthermore, you can access the live console to get real-time information about the server's state and take direct action if necessary.
 
 
-
 ### Messages
 
 The **News** provides you with a comprehensive overview of all announcements and news related to your service. Here you will find important information on various aspects such as:
