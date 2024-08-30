@@ -138,16 +138,16 @@ const config = {
             to: '/docs/fivem-dashboard', from: '/docs/fivem-vrp-removespeedo',
           },
           {
-            to: '/docs/fivem-dashboard', from: 'altv-firststeps-dashboard',
+            to: '/docs/fivem-dashboard', from: '/docs/altv-firststeps-dashboard',
           },
           {
-            to: '/docs/fivem-dashboard', from: 'altv-installresources',
+            to: '/docs/fivem-dashboard', from: '/docs/altv-installresources',
           },
           {
-            to: '/docs/fivem-dashboard', from: 'ragemp-firststeps-dashboard',
+            to: '/docs/fivem-dashboard', from: '/docs/ragemp-firststeps-dashboard',
           },
           {
-            to: '/docs/fivem-dashboard', from: 'ragemp-installpackages',
+            to: '/docs/fivem-dashboard', from: '/docs/ragemp-installpackages',
           }
         ],
       },
