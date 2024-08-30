@@ -117,26 +117,38 @@ const config = {
         redirects: [
           // /docs/oldDoc -> /docs/newDoc
           {
-            to: '/docs/contribution-guides',
-            from: '/docs/contribution-submission',
+            to: '/docs/contribution-guides', from: '/docs/contribution-submission',
           },
           {
-            to: '/docs/contribution-guides-guidelines',
-            from: '/docs/contribution-guidelines',
+            to: '/docs/contribution-guides-guidelines', from: '/docs/contribution-guidelines',
           },
           {
-            to: '/docs/vserver-root-difference',
-            from: '/docs/vserver-root-unterschied',
+            to: '/docs/vserver-root-difference', from: '/docs/vserver-root-unterschied',
           },
           {
-            to: '/docs/ets2-server-modding',
-            from: '/docs/trucksim-dlc',
+            to: '/docs/ets2-server-modding', from: '/docs/trucksim-dlc',
+          },
+          {
+            to: '/docs/fivem-dashboard', from: '/docs/fivem-vrp-removespeedo',
+          },
+          {
+            to: '/docs/fivem-dashboard', from: '/docs/fivem-vrp-removespeedo',
+          },
+          {
+            to: '/docs/fivem-dashboard', from: '/docs/fivem-vrp-removespeedo',
+          },
+          {
+            to: '/docs/fivem-dashboard', from: 'altv-firststeps-dashboard',
+          },
+          {
+            to: '/docs/fivem-dashboard', from: 'altv-installresources',
+          },
+          {
+            to: '/docs/fivem-dashboard', from: 'ragemp-firststeps-dashboard',
+          },
+          {
+            to: '/docs/fivem-dashboard', from: 'ragemp-installpackages',
           }
-          // Redirect from multiple old paths to the new path
-          /*{
-            to: '/docs/newDoc2',
-            from: ['/docs/oldDocFrom2019', '/docs/legacyDocFrom2016'],
-          },*/
         ],
       },
     ],
