@@ -87,7 +87,7 @@ Klicke zunächst mit der rechten Maustaste auf **Eingangsregeln** in der Seitenl
 
 Im ersten Abschnitt wählst du die Option **Port** als Regeltyp aus.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/NPm9ae8BsD78An9/preview)
+![image](https://screensaver01.zap-hosting.com/index.php/s/eobA3wzbwQSqjpK/preview)
 
 Jetzt musst du den Port-Typ (TCP oder UDP) und den/die zugewiesenen Port(s) festlegen, die du weiterleiten möchtest. Wenn du sowohl TCP- als auch UDP-Ports weiterleiten willst, musst du zwei separate Regeln erstellen, eine für jeden Porttyp.
 

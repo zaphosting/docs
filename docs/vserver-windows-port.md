@@ -87,7 +87,7 @@ Begin by right-clicking **Inbound Rules** on the sidebar and select the **New Ru
 
 On the first section, select the **Port** option as the rule type.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/NPm9ae8BsD78An9/preview)
+![image](https://screensaver01.zap-hosting.com/index.php/s/eobA3wzbwQSqjpK/preview)
 
 Now you will have to define the port type (TCP or UDP) and allocated port(s) that you wish to port forward. If you need to port forward both TCP and UDP, you will have to create two seperate rules, one for each port type.
 
