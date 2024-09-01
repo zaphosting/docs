@@ -28,7 +28,7 @@ You can access this simply by searching for this in the Windows search bar or by
 Most applications and processes, especially ones that must be accessible across the internet such as game servers or web servers, will require port forwarding to ensure that clients can communicate with your server (the host).
 
 :::info
-By default, Windows only opens the firewall for applications that require it, keeping all other ports closed. This is done to prevent unnessarily exposing ports, reducing risk. This is also why you may see UAC prompts appear when launching games for the first time for example, to confirm a new firewall rule.
+By default, Windows only opens the firewall for applications that require it, keeping all other ports closed. This is done to prevent unnecessarily exposing ports, reducing risk. This is also why you may see UAC prompts appear when launching games for the first time for example, to confirm a new firewall rule.
 :::
 
 In Windows, managing rules is done easily in two ways; by creating rules for programs or by creating rules that cover ports as a whole (and thus any programs or processes that use it).
