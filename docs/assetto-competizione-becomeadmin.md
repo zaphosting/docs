@@ -17,7 +17,7 @@ The assignment of administrator permissions allows you simple and comprehensive 
 You can view and change the admin password in the interface of your server under the tab "Settings".
 You can access the settings here:
 
-![image](https://user-images.githubusercontent.com/26007280/189937516-b38826ba-ba10-43d4-a3f6-b54983c81496.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/3yB6Zym5LKc8FPr/preview)
 
 <InlineVoucher />
 

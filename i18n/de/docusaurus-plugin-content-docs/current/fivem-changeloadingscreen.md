@@ -15,20 +15,20 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Um deinen Loadingscreen zu installieren, musst du erstmal einen von den [FiveM Foren](https://forum.cfx.re/) herunterladen. Anschließend musst du ihn in **loadingscreen** umbenennen.
 
-![image](https://user-images.githubusercontent.com/13604413/159137969-1093e207-da3b-442d-9e98-c2eb848f80d7.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/wKpW4jom6E2ymcm/preview)
 
 Nun verbindest du dich via FTP mit deinem FiveM Server und lädst diesen in den Ressourcen Ordner hoch.
 
-![image](https://user-images.githubusercontent.com/13604413/159137976-99390bc4-108c-477f-8baf-d4945a7b3fe6.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/fo8S47PdnQdwnKX/preview)
 
 Als letzten Schritt musst du diesen nun noch in die Server.cfg eintragen. Diese kannst du in **Configs** im Webinterface öffnen
 
-![image](https://user-images.githubusercontent.com/13604413/159137985-e4ae0c0e-5cee-400a-8f0d-2d625b0e47f8.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/NMmksMrEQjH4qiX/preview)
 
 
 Dort trägst du jetzt folgendes ein **start loadingscreen** und speicherst es anschließend.
 
-![image](https://user-images.githubusercontent.com/13604413/159137995-dd0b6acd-6203-4899-96b9-30eb2ace50ba.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/s7Zt6ssJRQGC5yk/preview)
 
 Nun kannst du deinen Server starten und dein Loadingscreen wird im Spiel sichtbar sein.
 

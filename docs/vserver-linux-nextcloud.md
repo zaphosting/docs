@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Nextcloud is an open source cloud solution and fork of Owncloud, which was founded in 2016 by former Owncloud founder Frank Kalitschek.
 
-![image](https://user-images.githubusercontent.com/13604413/159172333-5c613339-d564-4852-8b32-d3661d283534.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/kCndbKaFAaktERk/preview)
 
 In order to achieve optimal performance, stability and functionality, the following setup is recommended for hosting a Nextcloud server. The Nextcloud server is not compatible with Windows and MacOS. At least not without any further virtualization or similar workarounds.
 
@@ -440,17 +440,17 @@ Once this step is finished, it's time to run the installation script. Access is 
 
 The installation script configuration appears, in which a root user is created and database information defined:
 
-![image](https://user-images.githubusercontent.com/13604413/159172340-920fdf9f-7646-447d-b8c5-cd472627b9b5.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/79kgamkS36Dgi9x/preview)
 
 
-![image](https://user-images.githubusercontent.com/13604413/159172341-efd5c39c-cf32-44d5-8518-51632d3fb475.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/qJs3Sd8TiYAg6mB/preview)
 
 
 ## Security and safety
 
 **Setup Warnings**
 
-![image](https://user-images.githubusercontent.com/13604413/159172343-b8d041bc-2b9f-429d-9a87-54d6f86d8973.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/nat3Fekj6MRP8Nw/preview)
 
 
 
@@ -519,7 +519,7 @@ Furthermore, all HTTP traffic should be redirected to HTTPS by using a permanent
 
 Access to Nextcloud is possible via the browser, as well as via the smartphone and computer using the app. The download sources can be found here: https://nextcloud.com/install/#install-clients
 
-![image](https://user-images.githubusercontent.com/13604413/159172347-25273458-2607-4c15-acfb-db2bfc1bf62d.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/aw6qpNE7TkwQeaP/preview)
 
 Under settings you can adjust a few more options even after the setup and view important information like logs, activities. This includes additional security settings (two-factor authentication, encryption, ... ), design settings (logo, color, slogan, header), access settings and much more.
 
@@ -527,6 +527,11 @@ Under settings you can adjust a few more options even after the setup and view i
 
 Moreover, there is also the possibility to install additional apps apart from the default apps. You can access them via the menu item **Apps**.
 
-![image](https://user-images.githubusercontent.com/13604413/159172353-708039fe-2697-4852-83d5-e132bf129f47.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/wKERd24E25668kt/preview)
 
 With such **Apps** it is possible to further individualize Nextcloud according to your wishes.
+
+
+## Conclusion
+
+Congratulations, you have successfully installed Nextcloud! If you have any further questions or problems, please contact our support team, who are available to help you every day! 

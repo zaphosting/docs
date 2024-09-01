@@ -35,7 +35,7 @@ In order to create and export the Timings report you have to use the following c
 
 After a few seconds a message appears stating that the export was successful. The Timings-Report can be opened by clicking the link.
 
-![image](https://user-images.githubusercontent.com/26007280/217858875-1feea824-9642-4026-a08d-ab45604af2c6.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/wpmB2jr2XCibHtY/preview)
 
 ## Analysis
 
@@ -43,13 +43,13 @@ After a few seconds a message appears stating that the export was successful. Th
 
 Once the Timings report has been exported and opened as described above, a window similar to this one should appear:
 
-![image](https://user-images.githubusercontent.com/26007280/217858906-38d680a6-422e-4495-8479-38ed97a0a3da.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/9xMMtpr2jePk7B5/preview)
 
 First of all, a closer look at the graph should be taken to be able to check rough values for the individual recording points by moving the mouse over the individual points.
 
 In order to get the most accurate values possible, which refer to a possible problem on the server, the problematic period should first be narrowed down by the sliders below, as shown in the graph:
 
-![image](https://user-images.githubusercontent.com/26007280/217858947-054902c7-7095-462e-9499-c4e8c7f86faf.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/yfkbfqJdcQwbsiB/preview)
 
 ### Investigate server values
 
@@ -61,7 +61,7 @@ In Box number 2 you can see more precise values in miliseconds, but please note 
 The **Full Server Tick** can usually be ignored, since the values are always in the red area, but this is not a big issue.
 :::
 
-![image](https://user-images.githubusercontent.com/13604413/159177796-03f504fc-94f4-4f88-af53-d4ce33ed8039.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/gLkFeTek6yR5tME/preview)
 
 In any case you should always investigate the colored highlighted values points more closely.
 

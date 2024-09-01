@@ -215,14 +215,6 @@ const sidebars = {
         },
         {
           type: "category",
-          label: "Dunko VRP",
-          items: [
-            "fivem-vrp-changemoneyicon",
-            "fivem-vrp-removespeedo"
-          ]
-        },
-        {
-          type: "category",
           label: "txAdmin",
           items: [
             "fivem-txadmin-setup",
@@ -437,20 +429,6 @@ const sidebars = {
         },
         "abioticfactor-configuration",
         "abioticfactor-server-savegames",
-      ],
-    },
-    {
-      type: "category",
-      label: "Alt:V",
-      items: [
-        {
-          type: "category",
-          label: "First Steps",
-          items: [
-            "altv-firststeps-dashboard",
-          ]
-        },
-        "altv-installresources"
       ],
     },
     {
@@ -713,6 +691,7 @@ const sidebars = {
             "dayz-firststeps-dashboard"
           ]
         },
+        "dayz-becomeadmin",
         "dayz-mods",
       ],
     },
@@ -856,14 +835,6 @@ const sidebars = {
             "fivem-esx-changejobgarages",
             "fivem-esx-changerespawnpoint",
             "fivem-editlocalfiles"
-          ]
-        },
-        {
-          type: "category",
-          label: "Dunko VRP",
-          items: [
-            "fivem-vrp-changemoneyicon",
-            "fivem-vrp-removespeedo"
           ]
         },
         {
@@ -1074,20 +1045,6 @@ const sidebars = {
             "projectzomboid-firststeps-dashboard"
           ]
         }
-      ],
-    },
-    {
-      type: "category",
-      label: "RageMP",
-      items: [
-        {
-          type: "category",
-          label: "First Steps",
-          items: [
-            "ragemp-firststeps-dashboard",
-          ]
-        },
-        "ragemp-installpackages"
       ],
     },
     {
@@ -1519,7 +1476,14 @@ const sidebars = {
         'vserver-windows-valheim',
         'vserver-windows-vrising',
       ]
-    },		
+    },
+    {
+      type: "category",
+      label: "Troubleshooting",
+      items: [
+        'vserver-windows-rdp-freeze',
+      ]
+    },	
   ],
   
   //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -1642,6 +1606,13 @@ const sidebars = {
       ]
     },
     {
+      type: "category",
+      label: "Troubleshooting",
+      items: [
+        'dedicated-windows-rdp-freeze',
+      ]
+    },	
+    {
       type: 'html',
       className: 'sidebar-title',
       value: (() => {
@@ -1692,11 +1663,32 @@ const sidebars = {
     'webspace-subdomain',
     'webspace-adddomain',
     'webspace-plesk-ftp',
-    'webspace-plesk-sendmail',
+    {
+      type: "category",
+      label: "E-Mails",
+      items: [
+        'webspace-plesk-sendmail',
+        'webspace-email-delivery-optimization',
+      ],
+    },
     'webspace-plesk-ssl',
     'webspace-htaccess-discord',
-    'webspace-mybb',
-    'webspace-wordpress',		
+    {
+      type: "category",
+      label: "MyBB",
+      items: [
+        'webspace-mybb',
+      ],
+    },
+    {
+      type: "category",
+      label: "WordPress",
+      items: [
+        'webspace-wordpress',
+        'webspace-wordpress-plugins',
+      ],
+    },
+
   ],
   
   //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////

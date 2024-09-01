@@ -14,7 +14,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 ## Introduction
 Got a Windows VPS or root server and want to install game servers on it? For example an ARK: Survival Evolved Dedicated Server? Then you are at the right place! In the following we will explain step by step how you can install such a service on your server.
 
-<YouTube videoId="YOz_SqsUkg4" title="ARK: Survival Evolved Dedicated Server Setup on Windows VPS" description="Feel like you understand better when you see things in action? We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
+<YouTube videoId="YOz_SqsUkg4" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/Tde2kaHrjgtMd3H/preview" title="ARK: Survival Evolved Dedicated Server Setup on Windows VPS" description="Feel like you understand better when you see things in action? We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
 
 Connect to your VPS or root server via RDP to set up your ARK: Survival Evolved Dedicated Server. In case you don't know how to connect to your server via RDP, we recommend you to have a look at the [RDP Guide](vserver-windows-userdp.md).
 
@@ -26,7 +26,7 @@ For the setup of an ARK server the SteamCMD is needed. The SteamCMD is the **com
 
 Following this, the download takes place. This will contain the **steamcmd.zip** file, which must first be unpacked. It is recommended to create a separate folder, where the file can be unzipped. You should see the **steamcmd.exe** as a result. Execute it and wait until the installation process has been completed.
 
-![image](https://user-images.githubusercontent.com/26007280/217031479-b5d426d0-f663-4994-af23-4a6df4f6f98e.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/67Prbs9CKEo4tfG/preview)
 
 As soon as the message **Loading Steam API.... OK** is displayed, the process has been completed successfully and you can start with the installation of the ARK server.
 
@@ -38,7 +38,7 @@ After the installation you should be able to execute commands in the **Steam com
 
 The next step will be the installation. This is done with the `app_update 376030` command. The App ID **376030** stands for the **ARK: Survival Evolved Dedicated Server** application.
 
-![image](https://user-images.githubusercontent.com/26007280/217031501-05497159-0d11-40a5-ab64-b6ab5a053b22.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/37YL4YgiL4EogS6/preview)
 
 
 
@@ -67,7 +67,7 @@ exit
 
 To make the server visible and accessible externally, the server ports used must be enabled/forwarded in the firewall. To do this, open the Windows Firewall settings.
 
-![image](https://user-images.githubusercontent.com/26007280/217031552-cda356f4-60cd-48fd-bd9d-741c4f60f76f.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/WxKJRKAPf9dXwFF/preview)
 
 
 Additional rules must be added in the settings. To do this, click on the incoming and outgoing rules as described below and add them for the following protocols and ports:
@@ -93,4 +93,9 @@ The actual setup is already complete. Further configuration changes can be made 
 
 At the end of the setup, you can now start the server by executing the **start-ark.bat** file you created earlier. This should open the server's console and start the server startup process. If everything goes as expected, the server should be visible in the server list after a successful start.
 
-![image](https://user-images.githubusercontent.com/26007280/217031649-cd79ec81-a38f-4ddf-8fae-0215aa1674d6.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/SkjP94KCa9YnJXn/preview)
+
+
+## Conclusion
+
+Congratulations, you have successfully installed and configurated the ARK Survival server on your VPS! If you have any further questions or problems, please contact our support team, who are available to help you every day! 

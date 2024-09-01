@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 WordPress ist das meist verwendete freie Content-Management-System weltweit. Es wurde ab 2003 von Matthew Mullenweg als Software für Weblogs programmiert und wird als Open-Source-Projekt permanent weiterentwickelt. In dieser Anleitung erklären wir, wie diese Software auf unserem Webspace Produkt installiert werden kann. 
 
-![](https://user-images.githubusercontent.com/26007280/189979034-3c35e1a2-7905-404a-a7f3-529ce90fa3e1.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/ddP3y64b4nCW2nq/preview)
 
 <InlineVoucher />
 
@@ -27,7 +27,7 @@ Bevor die eigentliche Installation von WordPress durchgeführt werden kann, müs
 
 Die Software kann auf der offiziellen Webseite von WordPress heruntergeladen werden. Der Download dazu ist hier zu finden: [WordPress Download](https://de.wordpress.org/download/)
 
-![](https://user-images.githubusercontent.com/26007280/189979056-8da8ebd8-bf5a-4d9f-9458-6c63bef63f71.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/a9GgdcdgWnExELk/preview)
 
 Beim Download erhält man eine gepackte ZIP-Datei, welche auf dem lokalen Computer entpackt werden muss. Darin befindet sich dann ein Ordner. Dessen Inhalt wird benötigt und muss entweder per **FTP oder Datei-Manager** hochgeladen werden. In dem Beispiel wird die Einrichtung mittels FTP gezeigt. Unter **Websites & Domains** bei **FTP-Access** kannst du einen FTP-Benutzer anlegen.
 
@@ -39,7 +39,7 @@ Beim Download erhält man eine gepackte ZIP-Datei, welche auf dem lokalen Comput
 
 Nun verbinden wir uns mit dem erstellten FTP-Account mit dem Webspace. Dort navigieren wir dann in das **httpdocs** Verzeichnis und laden im Anschluss die Dateien der Forensoftware hoch.
 
-![](https://user-images.githubusercontent.com/26007280/189979081-1b531b59-1617-499d-b016-7835db97e560.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/fBDzPzmykfFQGRQ/preview)
 
 
 
@@ -65,13 +65,13 @@ Um einen Account beim Forum zu registrieren wird ein Mailserver mit einer E-Mail
 
 Wenn alle Schritte von der Vorbereitung erfüllt wurden, dann kann mit der eigentlichen Einrichtung von WordPress begonnen werden. Dafür muss jetzt im Internetbrowser die Webseite aufgerufen werden. Das sieht dann so aus: 
 
-![](https://user-images.githubusercontent.com/26007280/189979110-049a424c-cdbb-4260-b9d3-3ce1292284a4.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/3w5gWATLjfDFoan/preview)
 
 
 
 Dort angelangt können wir auf **Los geht's!** Klicken, um mit der Einrichtung anzufangen. Als Erstes steht dann die Konfiguration der Datenbank an, welche bereits im Voraus in der Vorbereitung erstellt wurde. Die Datenbankinformationen von der erstellten Datenbank müssen nun dort eingetragen werden.
 
-![](https://user-images.githubusercontent.com/26007280/189979129-a8128d72-637c-4be8-92d0-b27300e856ab.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/KGRpK4s92RYyRCa/preview)
 
 
 
@@ -79,13 +79,13 @@ Klicke im Anschluss auf **Senden** und im folgenden Schritt auf **Installation d
 
 
 
-![image](https://user-images.githubusercontent.com/26007280/189979160-0479fc35-2b0a-4554-967b-1c32c9747972.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/6rYLYQRJJRqgKJq/preview)
 
 
 
 Jetzt benötigt WordPress noch weitere Informationen. Hier kann der Titel der Webseite, Benutzername, Passwort, und die E-Mail-Adresse angegeben werden. 
 
-![image](https://user-images.githubusercontent.com/26007280/189979185-a753bbab-b6fd-4bdc-a1d4-69531b00197d.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/nkos6Kg99cHEHt7/preview)
 
 
 
@@ -94,3 +94,9 @@ Wenn alle Felder ausgefüllt wurden, dann muss im Anschluss auf **WordPress inst
 
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/MnLRYMDJCXjJJ8i/download/chrome_4KNjihGpo0.gif)
+
+
+
+## Abschluss
+
+Glückwünsch, du hast dein WordPress bei deinem Webspace installiert. olltest du noch weitere Fragen oder Probleme haben, dann wende dich gerne an unser Support-Team, welches dir jeden Tag zur Verfügung steht!

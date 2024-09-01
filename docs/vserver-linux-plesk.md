@@ -61,7 +61,7 @@ It can happen that it looks like the installer is "stuck", in 99% of the cases t
 
 The installation is complete when this is displayed
 
-![](https://user-images.githubusercontent.com/61839701/166189499-4b9c47d5-fbac-4fbb-a00a-5eca544dc6db.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/9o6bEzBr8rCAWzf/preview)
 
 </TabItem>
 <TabItem value="Web Installation" label="Web Installation">
@@ -118,7 +118,7 @@ Start the installer:
 
 Once the three startup commands have been executed, the license must be approved with "F": 
 
-![](https://user-images.githubusercontent.com/61839701/166189577-89149da5-e232-4b90-8e96-5ec43425ff33.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/XrCa3WYALoDx6H3/preview)
 
 After approval, the system will ask which Plesk to install. In this case Plesk Obsidian or Plesk Onyx. It will also indicate which is the more stable one. Usually a "stable" version is used for productive use. Since the selected options already point to the stable version, confirm this again with "F".
 
@@ -137,7 +137,7 @@ It can happen that it looks like the installer is "stuck", in 99% of the cases t
 
 The installation is complete as soon as the following appears: 
 
-![](https://user-images.githubusercontent.com/61839701/166189643-fea60039-0bb9-42ee-a7c9-4e534c543b17.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/8K5p6RHapwYDfZY/preview)
 
 </TabItem>
 </Tabs>
@@ -165,7 +165,7 @@ Plesk can now be used.
 After installation, the Plesk panel is in English, the German language can be set or selected under Tools&Settings ➡️ Plesk Appearance ➡️ Languages. There "de-DE" must be selected. Afterwards the language can be set permanently for all by clicking on "Make default". 
 After a logout and login you will find the Plesk panel in German.
 
-![](https://user-images.githubusercontent.com/61839701/166189663-4e64ede1-e179-4e7a-81f1-6445f8798991.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/6Wo8Qz3oMXGzn3t/preview)
 
 ### Add domain
 
@@ -197,8 +197,13 @@ In order to be permanently redirected to HTTPS (SSL) when calling up the web pag
 
 If the domain is now opened in the browser, it shows its encryption.
 
-![](https://user-images.githubusercontent.com/61839701/166189776-af720eaa-3c80-4768-ad52-fb6e3862d3b6.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/xcqwAQWK77X3yip/preview)
 
 :::info
 The installation as well as the setup of the first domain with encryption is now completely finished. 
 :::
+
+
+## Conclusion
+
+Congratulations, you have successfully installed and configurated Plesk! If you have any further questions or problems, please contact our support team, who are available to help you every day! 

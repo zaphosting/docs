@@ -66,7 +66,7 @@ Scrollen im Abschnitt "Dateidetails" nach unten, bis der Punkt "Zusätzliche Dat
 ## Schritt 2 - Extrahieren von Dateien aus Downloads (nur für Modpacks)
 
 Suche die heruntergeladene Datei auf deinem PC und klicke mit der rechten Maustaste darauf, wähle "Alle extrahieren...". Lege den Ordner fest, in dem du die extrahierten Dateien haben möchtest. Nicht vergessen!
-![extract the file german version](https://i.imgur.com/R3BZDg4.png)
+![extract the file german version](https://screensaver01.zap-hosting.com/index.php/s/TwSmqm8YBQy97A3/preview)
 
 Dein entpackter Ordner sollte einen Mods, Config und Defaultconfig Ordner enthalten. Es können auch mehr als die hier gezeigten Ordner vorhanden sein.
 
@@ -78,16 +78,16 @@ Einige Modpacks erfordern zusätzliche Schritte, wie zum Beispiel AllOfFabric6. 
 ## Schritt 3 - Installation der richtigen Serverversion
 
 Wähle im Zap-Hosting Webinterface den Gameserver aus und gehe im Bereich Einstellungen auf "Spiele".
-![select "Games" german version](https://i.imgur.com/fU9CavE.png)
+![select "Games" german version](https://screensaver01.zap-hosting.com/index.php/s/sBR9FQJZgXH3pPG/preview)
 
 Klappe den Abschnitt "Verfügbare Spiele" auf und suche nach deinem Modloader (Forge für Forge Mods / Modpacks, Fabric für Fabric Mods / Modpacks). Klicke auf den grünen Download Button.
 
-![download modloader german version](https://i.imgur.com/3WFXozc.png)
+![download modloader german version](https://screensaver01.zap-hosting.com/index.php/s/JmgwaDc6EQcSR4B/preview)
 
 Klicke auf das Dropdown-Menü unter "Spielversion" und wähle deine Minecraft-Version aus, die der korrekten Version für deinen Mod/Modpack entspricht. Bei Forge hast du die Möglichkeit, die neueste Version oder die empfohlene Version zu verwenden. Versuche zuerst die neueste Version und wenn dein Server nicht wie erwartet funktioniert, gehe zurück und versuche die empfohlene Version. Klicke auf den Button "Akzeptieren und installieren".
 
 
-![select the right version german version](https://i.imgur.com/VBVMiIy.png)
+![select the right version german version](https://screensaver01.zap-hosting.com/index.php/s/jnytJwnzDdw6rM4/preview)
 
 :::tip
 Wenn du nicht weißt, welche Minecraft-Version du brauchst, gehe zurück auf die Seite "File Details" auf CurseForge. Neben dem Gamecontroller-Symbol kannst du die Version sehen.
@@ -98,7 +98,7 @@ Wenn du nicht weißt, welche Minecraft-Version du brauchst, gehe zurück auf die
 
 Wenn die Installation des Spiels abgeschlossen ist, erscheint ein blauer Button neben dem Namen des Spiels (z. B. Forge, Fabric). Klicke auf diesen Button, um das Spiel zu aktivieren.
 
-![activate the game german version](https://i.imgur.com/gGqQpJG.png)
+![activate the game german version](https://screensaver01.zap-hosting.com/index.php/s/GiFsA7JmGPd4LCB/preview)
 
 
 

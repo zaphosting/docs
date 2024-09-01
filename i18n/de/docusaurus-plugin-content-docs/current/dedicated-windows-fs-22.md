@@ -31,29 +31,29 @@ Nachdem die digitale Version erworben wurde, kann der Landwirtschafts-Simulator 
 Wichtig: In der Mail befindet sich der GameKey der zum Download als auch zur späteren Aktivierung der Installation benötigt wird. 
 :::
 
-![image](https://user-images.githubusercontent.com/13604413/159173431-deafbefa-f186-4acc-9605-1d980142c5c0.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/qkj3xF7Ai7KL5JY/preview)
 
 ## Schritt 2 Download des Landwirtschafts-Simulator direkt auf deinen Windowserver
 
 Verbinde dich via [RDP](vserver-windows-userdp.md) zu deinem Windowsserver. Nachdem du verbunden bist, öffne den Browser und rufe erneut den [Link](https://eshop.giants-software.com/downloads.php) aus der Mail auf. Gebe dort dann deinen GameKey ein und wähle dann den Download für Windows8/10. 
 
-![image](https://user-images.githubusercontent.com/13604413/159173433-c3c90cb4-0c5c-4e60-a61c-ce150e5b99f2.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/85gzmbXL8M9sQAq/preview)
 
 Anschließend wird die Datei heruntergeladen und sollte sich dann im Download Verzeichnis befinden. (Das Downloadverzeichnis kann abweichend sein)
 
 
-![image](https://user-images.githubusercontent.com/13604413/159173436-409b2130-0165-424f-bbff-996f7b149730.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/cPJZgmzwHCFqsjX/preview)
 
 Mit einem Doppelklick wird die Datei geöffnet und es kann die Setup.exe ausgeführt werden.
 Anschließend liest man die TOS und bestätigt sie. Danach kann die Installation als Standard oder Benutzerdefiniert erfolgen, in der Regel reicht Standard aus. 
 Zum Abschluss klickt man auf installieren und der Landwirtschafts-Simulator 2022 wird nun installiert, dies kann einige Minuten dauern. 
 
-![image](https://user-images.githubusercontent.com/13604413/159173444-037c1c40-e2a1-4551-9aaf-bc2aa402c9d0.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/XHtGqcSm454LjJG/preview)
 
 Sobald der Installationsvorgang beendet ist, erscheint folgende Meldung, welche mit "Fertigstellen" bestätigt werden kann. 
 
 
-![image](https://user-images.githubusercontent.com/13604413/159173446-faee231b-8635-48f3-9caa-7c78e617702a.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/8XBiSesjBANdNo9/preview)
 
 Die Basis-Installation ist jetzt abgeschlossen. 
 
@@ -61,25 +61,25 @@ Die Basis-Installation ist jetzt abgeschlossen.
 
 Jetzt muss der Landwirtschafts-Simulator gestartet werden. Auf dem Desktop sollte eine Verknüpfung liegen, falls nicht, kann er auch über das Windows Menü gestartet werden. Fehler bezüglich einer fehlenden GPU oder ähnliches können ignoriert bzw. mit Nein/Abbrechen geschlossen werden. Der Landwirtschafts-Simulator muss nur gestartet werden, um den Key eingeben zu können. 
 
-![image](https://user-images.githubusercontent.com/13604413/159173458-691716a6-6329-45d2-a782-e191388a7041.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/8LHsXKcrNkFPaRN/preview)
 
-![image](https://user-images.githubusercontent.com/13604413/159173461-3b03f54d-5b97-40e3-be2a-e0ca09da41bf.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/kWXsHPaLbZeBH98/preview)
 
 Jetzt muss in der Config des Dedicated Servers ein Login Name und Passwort gesetzt bzw. geändert/ausgelesen werden, damit ein Login in das Webinterface des Dedicated Servers möglich ist. Die Config ist in der Standardinstallation unter 
 `C:\Program Files (x86)\Landwirtschafts-Simulator 2022` zu finden unter dem Namen `"dedicatedServer.xml"`. 
 Die Logindaten können frei angepasst werden. 
 
-![image](https://user-images.githubusercontent.com/13604413/159173467-2341681d-a40d-44c1-bfdb-8523a716ff41.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/72rRgoJnDycFi92/preview)
 
 ## Schritt 4 Landwirtschafts-Simulator 2022 Dedicated Server starten
 
 Um den Dedicated Server zu starten, muss im gleichen Verzeichnis, wo auch die `"dedicatedServer.xml"` liegt, die `"dedicatedServer.exe"` ausgeführt werden.
 
-![image](https://user-images.githubusercontent.com/13604413/159173468-5f9473f8-734d-4236-a079-2c4a83e87caf.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/mWwBm8Sk5aPwzCc/preview)
 
 Anschließend kann das Webinterface via `https://SERVER-IP:8080` geöffnet werden. 
 
-![image](https://user-images.githubusercontent.com/13604413/159173472-525e9125-2011-4550-bc7c-a95fb20f6667.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/6F5xsJAAzBm2Yes/preview)
 
 Der Login ist mit den zuvor gesetzten/ausgelesenen Login Daten aus der `"dedicatedServer.xml"` möglich. 
 Die weitere Konfiguration ist im Webinterface selbsterklärend und kann mit wenigen Klicks vorgenommen werden, ganz nach den persönlichen Wünschen. 

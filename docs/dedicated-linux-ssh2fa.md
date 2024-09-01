@@ -25,23 +25,23 @@ sudo apt install libpam-google-authenticator
 
 You will then be prompted to type "Y" to install the package, type this, press Enter and then the Google Authenticator will be installed!
 
-![](https://user-images.githubusercontent.com/61839701/166183966-276ee6c7-4b17-4fb3-9283-94f2a663b0a1.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/mtqePXTr5KdoHkm/preview)
 
 Start the Google Authenticator by typing 'google-authenticator'. Make sure that your window size is sufficient for the QR Code, otherwise press "CTRL+C" and enter it again.
 
-![](https://user-images.githubusercontent.com/61839701/166183981-22467640-91a8-41e2-ad2d-a48532e1b9fc.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/agW9EHjs5Aimc43/preview)
 
 You will now be prompted again if you want to execute it, type "Y" to accept. You will now get a QR Code. Open your Authenticator app on your smartphone and scan the QR Code.For this example we use the Google Authenticator:
 
-![image](https://user-images.githubusercontent.com/13604413/159171815-4a7368da-fab1-4284-9c90-e310a577dbbf.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/CmQERELXNotsgZB/preview)
 
 Make sure to copy the backup codes, these can each be used once in case you lose your authenticator.
 
-![](https://user-images.githubusercontent.com/61839701/166183994-39e1b89a-0227-4c92-b455-23995d06acb5.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/pkKM2SANJbEejFD/preview)
 
 Now the app already shows you the codes you need to log in later. In this case it looks like this:
 
-![](https://user-images.githubusercontent.com/61839701/166184007-8faed2ff-1559-4f19-8143-f4acaee70918.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/QnBxLbR8Grf2GL4/preview)
 
 The following questions are now prompted:
 
@@ -52,7 +52,7 @@ The following questions are now prompted:
 
 For security reasons we recommend to confirm all with Yes. 
 
-![](https://user-images.githubusercontent.com/61839701/166184028-9636c936-18da-414d-bc1e-4ea233bb6185.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/A9RmFA6nWgKzSF6/preview)
 
 ## Configuration
 
@@ -69,9 +69,9 @@ You are now in a text editor. You can move around with the arrow keys, freely de
 
 Make sure that the two lines 'UsePAM' and 'ChallengeResponseAuthentication' are set to 'yes'. Like this:
 
-![](https://user-images.githubusercontent.com/61839701/166184047-0f7784fc-67bd-4380-9f68-5630736a9422.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/f5a9G5Wif9HcwQq/preview)
 
-![](https://user-images.githubusercontent.com/61839701/166184062-5de87b6c-2e49-4352-9665-9823178257c9.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/qdf4JCqLgZ85nia/preview)
 
 Save the file with 'CTRL + X' then 'Y' and lastly 'Enter`. Restart SSH afterwards with the following command:
 ```
@@ -82,7 +82,7 @@ sudo systemctl restart ssh
 
 Now we add the Google Authenticator to the login in the `/etc/pam.d/sshd`.Open the `/etc/pam.d/sshd` file by typing `sudo nano /etc/pam.d/sshd`. The last step is to scroll down to the end of the file and enter 'auth required pam_google_authenticator.so'.
 
-![](https://user-images.githubusercontent.com/61839701/166184084-1e07230b-6691-4bb8-8977-bcc784342afa.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/Mgw8tJJtTbkg7T3/preview)
 
 Save the file with 'CTRL + X' then 'Y' and lastly 'Enter`
 
@@ -90,10 +90,10 @@ Save the file with 'CTRL + X' then 'Y' and lastly 'Enter`
 
 Now it is time to log in for the first time with 2FA. After you have followed the steps above, all you need to do is restart your SSH connection.
 
-![image](https://user-images.githubusercontent.com/13604413/159171829-90fb3349-c238-4558-818a-0657b87062e5.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/RwaymAzjGjMgbYL/preview)
 
 You now enter your password as normal. You will be asked for a code, simply enter the recent 2FA code.
 
-![](https://user-images.githubusercontent.com/61839701/166184108-ed9c504c-e6cc-4b28-8afa-210f245f76d3.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/w7BFMMTMdcwXj2x/preview)
 
 Now you are logged in!

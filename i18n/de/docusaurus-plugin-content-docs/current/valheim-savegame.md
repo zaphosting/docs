@@ -19,11 +19,11 @@ Beachte: Vor dem Herunterladen des Savegames muss der Server gestoppt werden, da
 
 Um dein Savegame herunterladen zu können, kannst du den `Savegame-Manager` im Webinterface nutzen:
 
-![image](https://user-images.githubusercontent.com/26007280/189886630-8eebbae7-f322-44d8-8dea-3918205e1901.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/HSNNJKCmb2bPrmg/preview)
 
 Hier kannst du dein Savegame ganz einfach über den grünen "Download" Button herunterladen:
 
-![image](https://user-images.githubusercontent.com/26007280/189886651-8a74d1bf-53d7-4d14-a570-bd6df65ba252.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/aN2SkGBE4FFTpD5/preview)
 
 :::info
 Beachte, dass du die `.db` **und** `.fwl` Dateien herunterladen musst.
@@ -38,7 +38,7 @@ Um deine eigenen Savegames hochzuladen, öffnen wir zunächst unseren Savegame-M
 
 Hier können wir nun unser eigenes Savegame per Drag&Drop hochladen, dies sollte danach wie folgt aussehen:
 
-![image](https://user-images.githubusercontent.com/26007280/189886675-44c0ed35-2eee-4501-a0c1-6702ce672d11.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/DWYGxX8Hoxg9Bnb/preview)
 
 :::info
 Beachte, dass dein Savegame genauso heißen sollte, wie es vom Spiel erstellt wurde.
@@ -48,17 +48,17 @@ In unseren Fall heißen die Backup-Dateien `380622.fwl` und `380622.db`.
 
 Nun tragen wir den Namen des Backups oben unter `Savegame (worlds)` ein:
 
-![image](https://user-images.githubusercontent.com/26007280/189886698-434550f2-e6dd-4873-8bb6-49d85997c779.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/5iCtc2e6qCZpAQc/preview)
 
 Unter `ZAP Backups` hier suchen wir nun unser Savegame raus:
 
-![image](https://user-images.githubusercontent.com/26007280/189886739-05c36f4d-107d-4032-881f-73a8a7ab238b.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/MfLMPtAykSb6DYX/preview)
 
 Jetzt müssen wir nur noch bei beiden Dateien den gelben "Wiederherstellen" Button drücken und das Ganze bestätigen, dann wird unser Savegame geladen.
 
 Nachdem dies geladen wurde, erscheint unten rechts eine Meldung:
 
-![image](https://user-images.githubusercontent.com/26007280/189886759-bb34e209-4b94-462f-acef-e32135f47d79.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/54N5wBMCHa3SkyQ/preview)
 
 Jetzt kann der Server gestartet werden, das hochgeladene Savegame wird dann auf dem Server aktiv sein.
 
@@ -66,14 +66,14 @@ Jetzt kann der Server gestartet werden, das hochgeladene Savegame wird dann auf 
 
 Leider unterstützt Valheim derzeit keine Autosaves, um den Spielverlauf zu speichern, muss der Server gestoppt werden. Mit dem Restart Planer im Webinterface kann der Server zu bestimmten Zeiten automatisch neu gestartet werden:
 
-![image](https://user-images.githubusercontent.com/26007280/189886785-cc289487-9671-4ce2-bd33-d80a86825104.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/YKjbgfsJyqDYp78/preview)
 
 Hier können wir einfach eine Zeit für einen täglichen oder wöchentlichen Neustart hinzufügen:
 
-![image](https://user-images.githubusercontent.com/26007280/189886817-85c7060d-d8cd-4c24-864f-b340b4fd2a2e.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/FfymF9KfiDidCYB/preview)
 
 Nachdem wir den Neustart gespeichert haben, können wir auch mehr als einen täglichen oder wöchentlichen Neustart hinzufügen.
 
-![image](https://user-images.githubusercontent.com/26007280/189886853-07368109-14ba-4971-9ec8-e27a2e809c02.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/iQmQ4K4EcL6bQsw/preview)
 
 Fertig! Ihr Server wird nun zu diesen bestimmten Zeiten neu gestartet, das Savegame wird während dieser Neustarts gespeichert.

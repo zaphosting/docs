@@ -12,18 +12,26 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
-FiveM upvotes give you the opportunity to have your own or another server placed higher in the server list. The more active upvote points a server has, the higher it will be ranked. 
+FiveM Upvotes/Burst Upvotes provide an opportunity to boost the ranking of your own server or another server on the server list. The more upvote points a server accumulates, the higher it will be positioned in the rankings.
 
-<YouTube videoId="H-bdMJTQkSM" title="Get FiveM Upvotes FAST!" description="Feel like you understand better when you see things in action? We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
+<YouTube videoId="H-bdMJTQkSM" imageSrc="https://img.youtube.com/vi/H-bdMJTQkSM/maxresdefault.jpg" title="Get FiveM Upvotes FAST!" description="Feel like you understand better when you see things in action? We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
 
 <InlineVoucher />
 
-## How do I get Upvotes?
+
+
+## Upvotes vs Burst Upvotes
+
+FiveM Upvotes and FiveM Burst Upvotes are both methods to increase the visibility and popularity of a FiveM server. FiveM Upvotes are continuous votes that are used over a longer period of time to ensure long-term visibility in the server rankings. FiveM Burst Upvotes, on the other hand, are one for short-term actions, where many votes are used in a short period of time to bring the server up the rankings quickly in a short time.
+
+
+
+## Get Upvotes
 
 The FiveM Upvotes can be purchased in [our store](https://zap-hosting.com/en/shop/product/fivem-upvotes/). During the order process you have the possibility to choose the amount of upvotes, runtime, FiveM username and billing method. 
 
-:::info
-**Attention:** FiveM Upvotes can not be paid with ZAP Coins as it is an external product. The order can only be placed through a proper payment method like PayPal or credit card. Exceptions are not possible here.
+:::warning Warning about the payment process
+FiveM Upvotes cannot be purchased with ZAP Coins since they are an external product. Payment must be made through accepted methods such as PayPal or credit card.
 :::
 
 For the use of the FiveM upvotes it is necessary to link your FiveM account. The upvotes will be assigned to this account, which you can then use to assign the upvotes in game according to your wishes. 

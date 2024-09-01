@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 ## Introduction
 Do you have a Windows VPS or root server and you want to install the Enshrouded Dedicated server service on it? You are in the right place. In this guide, we will explain the step by step process of installing this service on your server.
 
-<YouTube videoId="cxhqHt2DYjQ" title="How To Setup Enshrouded Dedicated Server on Windows VPS!" description="Feel like you understand better when you see things in action? We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
+<YouTube videoId="cxhqHt2DYjQ" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/qQy4x4cS5Rz8WR4/preview" title="How To Setup Enshrouded Dedicated Server on Windows VPS!" description="Feel like you understand better when you see things in action? We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
 <InlineVoucher />
 
 ## Preparation
@@ -119,4 +119,6 @@ You will be able to find the **enshrouded_server.json** configuration file. Thro
 
 Now it is time to start your server. Head over to the base directory of your Enshrouded server and run **enshrouded_server.exe** to begin the start up process. This will open the server's console in a command prompt and begin the startup process. You will now be able to connect directly to your server by heading over to the **Find Games** tab, pressing **Add Server** and inputting your Server IP and Port (default is 15636).
 
-You have successfully installed Enshrouded on your Windows VPS.
+## Conclusion
+
+Congratulations, you have successfully installed and configurated the Enshrouded server on your VPS! If you have any further questions or problems, please contact our support team, who are available to help you every day! 

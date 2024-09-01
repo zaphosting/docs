@@ -10,7 +10,7 @@ services:
 import YouTube from '@site/src/components/YouTube/YouTube';
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
-<YouTube videoId="x82zqEeAK1U" title="How to create a MAIL SERVER for your ZAP WEBSPACE!" description="Hast du das Gefühl, dass du etwas besser verstehst, wenn du es in Aktion siehst? Wir haben etwas für dich! Tauche ab in unser Video, welches alles für dich zusammenfasst. Egal, ob du es eilig hast oder einfach nur Informationen auf möglichst verständliche Art und Weise aufnehmen möchtest!"/>
+<YouTube videoId="x82zqEeAK1U" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/ay6yqSQorHD6DwM/preview" title="How to create a MAIL SERVER for your ZAP WEBSPACE!" description="Hast du das Gefühl, dass du etwas besser verstehst, wenn du es in Aktion siehst? Wir haben etwas für dich! Tauche ab in unser Video, welches alles für dich zusammenfasst. Egal, ob du es eilig hast oder einfach nur Informationen auf möglichst verständliche Art und Weise aufnehmen möchtest!"/>
 
 <InlineVoucher />
 
@@ -18,37 +18,37 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 In dem Plesk Dashboar die Funktion "**Mail**" öffnen
 
-![image](https://user-images.githubusercontent.com/13604413/159176526-5b41ebeb-adba-4a67-860f-95765d186a8e.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/mxGRXt4GD68bpGE/preview)
 
 Dort "**Email Adresses**" anklicken
 
-![image](https://user-images.githubusercontent.com/13604413/159176528-294b85a5-bbee-4ed3-bb90-8c67cb03043d.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/5worfgyopg3sFyJ/preview)
 
 Im Anschluss kann nun in dem neuen Fenster der Button "**Create Email Address**" gedrückt werden.
 
-![image](https://user-images.githubusercontent.com/13604413/159176534-76ca79d3-2a15-4537-a92d-b09bb1731e09.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/iriX3ESn3Q37mqe/preview)
 
 In der ersten Zeile gibt man seine Wunschdomain an, bei dem Passwort kann ein eigenes genutzt werden.
 Alternativ kann über den Button "**Generate**" eins erstellt werden, welches herauskopiert werden kann.
 
 Sobald alle Wunscheinträge eingetragen über den "**OK**" Button die Eingabe bestätigen.
 
-![image](https://user-images.githubusercontent.com/13604413/159176540-00691706-f866-4930-bf42-beddd4c96fef.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/q2aDdGSLNrWQyd5/preview)
 
 ## Thunderbird einrichten
 
 Nachdem Thunderbird heruntergeladen und installiert werude, wähle einfach bei "**Einrichtung starten**", "**E-Mail**" aus.
 Es öffnet sich jetzt ein Fenster, um eine bestehende E-Mail-Adresse hinzuzufügen.
 
-![image](https://user-images.githubusercontent.com/13604413/159176547-57009470-7f2a-4804-be39-d8925fb53915.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/9jKM256XM8r8qCG/preview)
 
 Wir tragen unsere Informationen ein und klicken dann auf "**Weiter**"
 
-![image](https://user-images.githubusercontent.com/13604413/159176550-05cf85c0-35e9-40f6-a281-dc5e349567fb.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/8zAnxXdAFKBDdLT/preview)
 
 Thunderbird versucht jetzt automatisch alle nötigen Informationen zu beziehen, dies dauert in der Regel nur wenige Sekunden.
 
-![image](https://user-images.githubusercontent.com/13604413/159176554-5ba91b4d-5726-4959-95be-a7949f5b29de.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/Ay9PLcAH3zSfWpg/preview)
 
 Die Eingaben werden mit dem "**Fertig**" Button bestätigt.
 
@@ -56,11 +56,11 @@ Die Eingaben werden mit dem "**Fertig**" Button bestätigt.
 
 Sobald die Mail erstellt wurde, kann man diese bei Thunderbird auswählen und auf "**Verfassen**".
 
-![image](https://user-images.githubusercontent.com/13604413/159176557-6c740e7f-1de5-4999-92d2-a93f8cbbe860.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/F6aDso7HAfgfo4H/preview)
 
 Dort trägt man nun den Empfänger als auch den Betreff und den Text ein.
 
-![image](https://user-images.githubusercontent.com/13604413/159176575-0fbf1122-57b0-4c93-8364-083f36b44fd1.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/JJdAwiFDpPzRLqY/preview)
 
 ### Zertifikat fehlt
 

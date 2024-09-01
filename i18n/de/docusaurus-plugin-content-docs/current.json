@@ -350,5 +350,25 @@
   "sidebar.gameserverSidebar.category.SCP: 5K": {
     "message": "SCP: 5K",
     "description": "The label for category SCP: 5K in sidebar gameserverSidebar"
+  },
+  "sidebar.vpsrootSidebar.category.Troubleshooting": {
+    "message": "Troubleshooting",
+    "description": "The label for category Troubleshooting in sidebar vpsrootSidebar"
+  },
+  "sidebar.dedicatedserverSidebar.category.Troubleshooting": {
+    "message": "Troubleshooting",
+    "description": "The label for category Troubleshooting in sidebar dedicatedserverSidebar"
+  },
+  "sidebar.domainwebspaceSidebar.category.E-Mails": {
+    "message": "E-Mails",
+    "description": "The label for category E-Mails in sidebar domainwebspaceSidebar"
+  },
+  "sidebar.domainwebspaceSidebar.category.MyBB": {
+    "message": "MyBB",
+    "description": "The label for category MyBB in sidebar domainwebspaceSidebar"
+  },
+  "sidebar.domainwebspaceSidebar.category.WordPress": {
+    "message": "WordPress",
+    "description": "The label for category WordPress in sidebar domainwebspaceSidebar"
   }
 }

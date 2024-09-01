@@ -227,4 +227,7 @@ Now you can run the provided code with the `bun index.ts` command and check the 
 </TabItem>
 </Tabs>
 
-By following this guide, you will have successfully installed one of the popular JavaScript runtimes on your Linux server.
+
+## Conclusion
+
+Congratulations, you have successfully installed and configurated JavaScript! If you have any further questions or problems, please contact our support team, who are available to help you every day! 

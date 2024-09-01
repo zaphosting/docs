@@ -80,4 +80,6 @@ OpenJDK Runtime Environment (build 11.0.9.1+1-Ubuntu-0ubuntu1.20.04)
 OpenJDK 64-Bit Server VM (build 11.0.9.1+1-Ubuntu-0ubuntu1.20.04, mixed mode)
 ```
 
-In dem Fall wurde Java 11 erfolgreich auf dem System eingerichtet. Nun kannst du problemlos Java-Applikationen auf deinem System laufen lassen. 
+## Abschluss
+
+Glückwunsch, du hast Java erfolgreich installiert und konfiguriert! Solltest du noch weitere Fragen oder Probleme haben, dann wende dich gerne an unser Support-Team, welches dir jeden Tag zur Verfügung steht! 

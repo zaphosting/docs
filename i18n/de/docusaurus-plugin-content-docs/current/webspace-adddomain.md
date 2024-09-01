@@ -26,14 +26,14 @@ Im Anschluss an die abgeschlossene Bestellung wird das Webspace im Zap-Hosting D
 
 Auf der nun geöffneten Seite sind die Logindaten einzusehen. Das Passwort wird nicht im Klartext gespeichert. Um sich dieses anzeigen zu lassen, muss man auf das "Augen" Symbol drücken.
 
-![](https://user-images.githubusercontent.com/61953937/168204970-d1b1fef0-1ce9-46ca-8d4d-70007f1385b6.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/HAysMM5bE7fAQoH/preview)
 :::info
 Wenn dir das dort automatisch generierte Passwort nicht zusagt, kann dieses auf derselben Seite mit der Funktion "Passwort ändern" innerhalb von wenigen Sekunden geändert werden.
 :::
 
 Sobald Benutzername und Passwort eingesehen werden, kann das Plesk Interface durch Betätigen der Schaltfläche "**Verwaltung öffnen**" geöffnet werden. Nach der Weiterleitung auf das Plesk Interface müssen jetzt die vorher ersichtlichen Login Daten eingegeben werden.
 
-![](https://user-images.githubusercontent.com/61953937/168205026-9544e888-89d2-4846-afaa-e1a0d948bec3.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/YEriMrkQrL7Fq9z/preview)
 
 :::info
 Bei "Sprache der Oberfläche" kann die Sprache von Deutsch auf Englisch umgestellt werden, als "Standard" definierter Wert ist Deutsch gesetzt.
@@ -43,11 +43,11 @@ Bei "Sprache der Oberfläche" kann die Sprache von Deutsch auf Englisch umgestel
 
 Eine eigene Domain kann in dem Plesk Interface bei dem Menüpunkt "**Hosting-Einstellungen**" eingetragen werden.
 
-![](https://user-images.githubusercontent.com/61953937/168205062-797d10cd-5931-4561-9414-d060d8867dfa.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/75oBaTGs4x9GNit/preview)
 
 Bei "**Hosting Einstellungen**" kann nun bei "**Domainname**" die von ZAP-Hosting generierte Subdomain gelöscht werden, damit die eigene Domain in dieses eingetragen werden kann. 
 
-![](https://user-images.githubusercontent.com/61953937/168205076-b0e4f340-cbc4-461e-beee-cbd8f89459e7.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/sHKHMm4Gs4K8aLD/preview)
 
 Die Änderungen werden durch das Drücken der Schaltfläche "**OK**" bestätigt. 
 
@@ -58,4 +58,4 @@ Die Bestätigung kann etwas Zeit in Anspruch nehmen. Solltest du bei diesem Wech
 Sofern es keine Probleme bei der Änderung gegeben hat, wird dies in dem Plesk Interface bestätigt. Um diese Domain für das Webspace nutzen zu können, müssen bei der Domainverwaltung die DNS Einstellungen konfiguriert werden. 
 Wie dies bei über uns bestellten Domains geht, kann hier eingesehen werden. 
 
-![](https://user-images.githubusercontent.com/61953937/168205099-787c4cb4-5e03-408c-a588-43a4a622199f.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/AoMBdgmwMm7x2P2/preview)

@@ -20,7 +20,7 @@ Firstly, you must [Connect via RCON](rust-connectrcon.md).
 
 Once you are connected, please navigate to where you can run console commands. In our example, we are using RustAdmin.
 
-![image](https://user-images.githubusercontent.com/26007280/189936309-0b77f9b5-a9d6-445d-b181-3bf945d77125.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/zpJH32AHCySP8qT/preview)
 
 Here you would run the respecive command:
 `ownerid Steam64ID`

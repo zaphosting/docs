@@ -83,7 +83,7 @@ As **Name** we choose here the name of the domain, as an example **teamspeak-ser
 IP of your TeamSpeak 3 server, in this case **88.214.57.116**.
 You can leave the **TTL** field untouched.
 
-![image](https://user-images.githubusercontent.com/13604413/159176289-1ebd0495-bc04-402e-a4e8-eb9c59ea110a.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/cTGTdBFrigs7HDG/preview)
 
 When you have entered everything, click on **Save**, the entry will be saved in the DNS settings and will be displayed within
 of 24 hours.
@@ -98,7 +98,7 @@ If you want to create a subdomain, for example ts.teamspeak-server.de, you do it
 However, for **Name** you do not enter the name of the domain, but the subdomain.
 This looks like this:
 
-![image](https://user-images.githubusercontent.com/13604413/159176292-8340ab9a-f9d3-43fe-83c4-597fa9da319b.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/ocaqgX2DSdspGQ8/preview)
 
 
 ## Forwarding the domain with port (SRV)
@@ -115,7 +115,7 @@ directly to the TeamSpeak 3 server, both are possible.
 After you have forwarded your domain to the IP address of your TeamSpeak 3 server as described above, click on **New Entry**.
 and create an entry that looks like this:
 
-![image](https://user-images.githubusercontent.com/13604413/159176297-5db7fc10-048b-4df8-a1a2-384e1012a61c.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/H3NGmYZHyJsCYnf/preview)
 
 The **Name** field contains the name of the service, which in this case is our TeamSpeak 3 server, so **_ts3**. It also contains the protocol type, in this case **_udp** as well as the **domain name**. 
 The **Type** field indicates what type of entry it is, in this case it is a **SRV** entry.
@@ -134,7 +134,7 @@ It is important that a **dot** is set in the **value** field at the end of the d
 
 With a subdomain it behaves almost exactly the same. First, you create a subdomain as described above and forward it to the IP address of your TeamSpeak 3 server. Then click on **New Entry** and create an entry with the following content:
 
-![image](https://user-images.githubusercontent.com/13604413/159176301-c59eda6b-be94-4ad4-837a-6dd50de6929a.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/aEkro3z9WBgWf8g/preview)
 
 
 The **Name** field contains the name of the service, which in this case is our TeamSpeak 3 server, so **_ts3**. It also contains the protocol type, in this case **_udp** as well as the **domain name** together with the **subdomain**, which is **ts.teamspeak-server.de**. 

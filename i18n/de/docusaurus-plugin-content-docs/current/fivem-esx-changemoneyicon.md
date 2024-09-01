@@ -17,7 +17,7 @@ Zuerst muss der [FTP-Zugang](gameserver-ftpaccess.md) eingerichtet werden.
 
 Nachdem dieser eingerichtet wurde, kann sich nun verbunden werden und der Server Ordner geöffnet werden.
 
-![image](https://user-images.githubusercontent.com/13604413/159166832-2e63233a-f386-4d87-8481-873bfad56f4c.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/kWm34ZRyYrs3dt6/preview)
 
 Hier öffnen wir im `server-data` Ordner die server.cfg Datei
 
@@ -31,7 +31,7 @@ set es_moneyIcon "$"
 
 Hier können wir jetzt das $ mit unserem eigenen Icon ersetzen.
 
-![image](https://user-images.githubusercontent.com/13604413/159166838-80e3974b-9a49-4604-9f85-50c1a5775f41.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/M6SpD2wiMTWoXCG/preview)
 
 
 Nach einem Serverneustart wird das Geldicon im Spiel sichtbar sein.

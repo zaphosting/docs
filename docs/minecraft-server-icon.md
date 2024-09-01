@@ -16,7 +16,7 @@ Minecraft offers the option to add your own server icon, which is displayed in m
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/zFQLZmRrLWrKN7r/preview)
 
-<YouTube videoId="m5mpKcd9Ur0" title="How to change the ICON on your Minecraft Server " description="Feel like you understand better when you see things in action? We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
+<YouTube videoId="m5mpKcd9Ur0" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/5EzyAm8SzqDemqf/preview" title="How to change the ICON on your Minecraft Server " description="Feel like you understand better when you see things in action? We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
 
 <InlineVoucher />
 
@@ -30,20 +30,20 @@ First, a connection is established via FTP to the game server, how exactly that 
 
 As soon as the connection is established, you can see the server data such as:
 
-![](https://user-images.githubusercontent.com/61839701/170329249-053b5777-9058-4bb1-8ec1-7f9740ab6afd.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/jKDxAfWzgiepiTE/preview)
 
 The icon must now be uploaded to the main directory, it must not be uploaded to any subdirectory:
 
-![](https://user-images.githubusercontent.com/61839701/170329289-580bd096-1c66-414a-817e-ef40afddd48b.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/dNWE4W5KQ8XgsQs/preview)
 
 Once this has been done, the server must now be started / restarted using the control buttons in the web interface at the top right of the respective server:
 
-![](https://user-images.githubusercontent.com/61839701/170329312-c8e6bc33-ccfe-4d6a-99ab-1f92232cabbb.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/D4RGqboisxJoBa9/preview)
 
 ## Checking the icon 
 
 If the name and size have now been matched, it is displayed in multiplayer in front of the server:
 
-![](https://user-images.githubusercontent.com/61839701/170329376-18fca5d7-1815-49cd-978b-3d3503f07171.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/qzoySiJAPReZDfc/preview)
 
 The icon can also be exchanged or deleted at any time in this way.

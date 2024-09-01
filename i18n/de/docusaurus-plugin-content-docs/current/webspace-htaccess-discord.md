@@ -22,19 +22,19 @@ Es soll zum Beispiel über die Domain beispiel-example.de/discord eine Weiterlei
 ### Schritt 1
 Anlegen des Unterverzeichnis "discord" auf dem Webspace/Webserver: 
 
-![](https://user-images.githubusercontent.com/61953937/168206898-35423959-dbde-4dc1-afbf-13d366201a44.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/3CqRrTP9gAxKctn/preview)
 
 ### Schritt 2
 Anlegen der ".htaccess" Datei auf dem Webspace/Webserver: 
 
-![](https://user-images.githubusercontent.com/61953937/168206912-705bc4e8-c1a8-4523-87a8-62a1a3b59802.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/fx4MGDpBoHKWgX5/preview)
 
-![](https://user-images.githubusercontent.com/61953937/168206923-59fcc59a-ae79-447f-962f-9e7a3f8062eb.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/GBzeab3DFiDbNqc/preview)
 
 ### Schritt 3
 Erstellen der Weiterleitungsregel in der ".htaccess" Datei:
 
-![](https://user-images.githubusercontent.com/61953937/168206933-f9ac7d75-420a-4760-99e3-77d1493fba42.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/y2HKtxgE7QNKF4e/preview)
 
 Wichtig bei der Weiterleitungsregel ist, dass die ursprüngliche Domain durch eine andere "getauscht" bzw. weitergeleitet wird. 
 Es muss also in der Weiterleitungsregel "beispiel-example.de" durch die eigene Domain ersetzt werden und "https://discord.gg/A6e4jyg" durch die eigene Discord Server Adresse. 

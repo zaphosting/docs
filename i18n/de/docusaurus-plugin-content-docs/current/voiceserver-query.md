@@ -29,32 +29,32 @@ Es kann jedoch wie folgt ein eigener Query Login erstellt werden, sofern man Adm
 Um einen eigenen Query Login zu erstellen, muss im Teamspeak Client unter Extras der Punkt "Server Query Login" angeklickt werden.
 Anschließend muss ein Name für den Login eingetragen werden, dieser ist auch gleichzeitig der Login Name z. B. "MeinQueryLogin":
 
-![image](https://user-images.githubusercontent.com/13604413/159177367-e085ff23-c3e1-4afc-b4a5-44d2c3bc9fd3.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/eweyFfpToxgc8zz/preview)
 
 Nachdem dies mit "OK" bestätigt wurde, wird ein Passwort angezeigt. 
 Dies muss unbedingt gespeichert werden, es lässt sich später nicht mehr ändern. 
 
-![image](https://user-images.githubusercontent.com/13604413/159177369-80ce4ec5-e9b5-4ff4-a3e5-2afac1aabdfd.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/46ZMkiekeTKe2px/preview)
 
 ## Schritt 2:
 Mit den nun erstellten Login Daten kann eine Verbindung z. B. via [YaTQA](https://yat.qa) hergestellt werden. 
 Dazu wird die Server IP, der Query Port, der Server Port sowie der Query Loginname und das dazugehörige Passwort benötigt. 
 Die Server IP sowie der Query Port als auch der Server Port kann auf dem Dashboard im Webinterface eingesehen werden: 
 
-![image](https://user-images.githubusercontent.com/13604413/159177371-139b9e2f-b7ab-46dd-92df-ac3785958b48.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/koneCDCyRRar8CC/preview)
 
 Anschließend können die Daten in YaTQA eingetragen werden: 
 
-![image](https://user-images.githubusercontent.com/13604413/159177374-86e07d75-d065-4c5b-99e1-aada760e7b75.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/Jesm3QmyAGz4dws/preview)
 
 >Sofern beim ändern des Query Ports ein Fehler erscheint, muss dies in den Einstellungen noch zugelassen werden. 
 
 Fehler:
->![image](https://user-images.githubusercontent.com/13604413/159177378-68e3638a-098f-4a6b-9903-3525e773d87f.png)
+>![image](https://screensaver01.zap-hosting.com/index.php/s/yZTy5FG3Cz7imbk/preview)
 
 Lösung:
->![image](https://user-images.githubusercontent.com/13604413/159177381-9ec4269c-e05e-44c4-b0ae-662ff2f580ca.png)
+>![image](https://screensaver01.zap-hosting.com/index.php/s/SenjCbzc8eyPgP7/preview)
 
 Mit einem Klick auf "Verbinden", lässt sich dann eine Verbindung zum Teamspeak Server herstellen:
 
-![image](https://user-images.githubusercontent.com/13604413/159177383-0dcccdcd-cc45-46e5-a6ed-27dc167aca5e.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/NZ4Epk4kNLiRjZt/preview)

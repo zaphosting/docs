@@ -24,13 +24,13 @@ Durch unser Gameserver-System ist es sehr einfach, den Build des Servers über u
 ### Sichern von Spielständen
 Deinen gesamten Gameserver oder deine Gamesaves zu sichern, ist ganz einfach. Gehe auf die Satisfactory-Produktseite und wähle den Reiter `Tools -> Backups`.
 
-![Screenshot 2023-02-21 192618](https://user-images.githubusercontent.com/42719082/220439833-3b8f24d4-75bd-42f2-84a5-df59206497e4.png)
+![Screenshot 2023-02-21 192618](https://screensaver01.zap-hosting.com/index.php/s/5p6F77zjjem5ZMg/preview)
 
 Auf dieser Seite kannst du eine Vielzahl von Funktionen ausführen, darunter auch automatische Backups, die [auf dieser Seite](gameserver-backups.md) näher erläutert werden. Hier konzentrieren wir uns auf eine manuelle Sicherung.
 
 Drücke oben auf der Seite einfach auf das grüne + Symbol und akzeptiere die Aufforderung, ein Backup des gesamten Gameservers auf deinem ZAP-Backup-Speicher zu erstellen.
 
-![Screenshot 2023-02-21 193113](https://user-images.githubusercontent.com/42719082/220440713-4f7acd14-3b9f-4f2b-a03d-72b8b1a9ec2d.png)
+![Screenshot 2023-02-21 193113](https://screensaver01.zap-hosting.com/index.php/s/RYdg5CFsPoiD8GY/preview)
 
 Dein Backup wurde nun erstellt und du kannst über FTP darauf zugreifen, wie [auf dieser Seite](gameserver-ftpaccess.md) gezeigt wird.
 
@@ -39,17 +39,17 @@ Alternativ kannst du die Savegame-Dateien auch direkt aus dem Bereich "Savegame 
 ### Zur experimentellen Version wechseln
 Gehe zunächst auf deine Satisfactory Produktseite und öffne den Reiter "Einstellungen -> Spiele".
 
-![Screenshot 2023-02-21 191212](https://user-images.githubusercontent.com/42719082/220437310-bb85b189-e599-401d-a30c-35232ce0b46b.png)
+![Screenshot 2023-02-21 191212](https://screensaver01.zap-hosting.com/index.php/s/gJekTd5S9meW22G/preview)
 
 Du siehst den Abschnitt `Installierte Spiele`, in dem die Spiele angezeigt werden, die du bereits installiert hast. Wenn du bereits zwischen den beiden Versionen gewechselt hast, werden sie dort angezeigt und du kannst zum letzten Schritt übergehen, um das Spiel zu aktivieren.
 
 Scrolle anschließen nach unten, klicke auf das Dropdown-Menü "Verfügbare Spiele" und suche im Textfeld nach "Satisfactory".
 
-![Screenshot 2023-02-21 191713](https://user-images.githubusercontent.com/42719082/220438422-c1f512c0-a0c3-4940-8423-0155b1692875.png)
+![Screenshot 2023-02-21 191713](https://screensaver01.zap-hosting.com/index.php/s/tegbMeKeaz329TA/preview)
 
 Drücke auf die grüne Download-Schaltfläche und bestätige die Einrichtung, bei der daraufhin erscheinenden Aufforderung. Der Download des angegebenen Server-Builds wird nun gestartet.
 
-![Screenshot 2023-02-21 191956](https://user-images.githubusercontent.com/42719082/220438714-8dc8ccb2-24f1-4a12-86da-112edb58277d.png)
+![Screenshot 2023-02-21 191956](https://screensaver01.zap-hosting.com/index.php/s/xPJ7gssbJscsYQS/preview)
 
 >Der Download kann einigen Minuten beanspruchen. Bitte warte, bis der Vorgang abgeschlossen ist, bevor du mit dem letzten Schritt fortfährst.
 
@@ -61,7 +61,7 @@ Schließlich musst du das Spiel unter dem Abschnitt `Installierte Spiele` aktivi
 Achtung! Alle Daten des Spiels werden bei der Neuinstallation gelöscht. Gehe also unbedingt ein paar Schritte zurück und erstelle ein Backup, falls du das noch nicht getan hast.
 :::
 
-![Screenshot 2023-02-22 020606](https://user-images.githubusercontent.com/42719082/220502401-4738e1b7-e083-40e4-88f8-8e5e044f3270.png)
+![Screenshot 2023-02-22 020606](https://screensaver01.zap-hosting.com/index.php/s/no3d4g4PjsxHY63/preview)
 
 Wenn du wieder zum regulären Build wechseln möchtest, befolge dieselben Schritte, wähle aber stattdessen das regulären Satisfactory Spielpaket während des Auswahlprozesses!
 
@@ -78,11 +78,11 @@ import TabItem from '@theme/TabItem';
 <TabItem value="Steam Version" label="Steam Version">
 Öffne zunächst dein Steam und gehe zu deiner Spielbibliothek. Suche nach "Satisfactory", klicke mit der rechten Maustaste darauf und wähle das Menü "Eigenschaften" aus.
 
-![Screenshot 2023-02-21 203108](https://user-images.githubusercontent.com/42719082/220451989-b90762b7-0b13-4374-82e6-af24d3da321a.png)
+![Screenshot 2023-02-21 203108](https://screensaver01.zap-hosting.com/index.php/s/aG3SeTSKZNm7nGm/preview)
 
 Im neuen Menü gehst du zum Abschnitt `Betas` und wählst `Experimentell` aus.
 
-![Screenshot 2023-02-21 203435](https://user-images.githubusercontent.com/42719082/220452436-e30decc9-1a9d-4d4d-9aa6-5ff9681da1ef.png)
+![Screenshot 2023-02-21 203435](https://screensaver01.zap-hosting.com/index.php/s/gawYknATwbY23Dj/preview)
 
 Das war's. Jetzt musst du nur noch darauf warten, dass Steam das Spiel auf den ausgewählten Spiel-Version aktualisiert, dann kannst du dein Spiel starten und deinen Server genießen!
 

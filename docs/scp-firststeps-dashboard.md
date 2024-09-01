@@ -16,7 +16,7 @@ You are interested in an **SCP: Secret Laboratory Vanilla server** or already ow
 
 After going through this guide, you will easily be able to manage your server efficiently and find all the necessary options and features quickly and easily. Here, you will get a structured overview that will help you step by step to get familiar with the server administration and expand your knowledge in a targeted manner. This way, you can ensure that your **SCP: Secret Laboratory Vanilla server** is optimally adapted to your needs and that you get the most out of the available options.
 
-<YouTube videoId="n-V4JDSfIBI" title="Setup SCP Secret Laboratory server in just a MINUTE!" description="Feel like you understand better when you see things in action? We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
+<YouTube videoId="n-V4JDSfIBI" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/pwsRiEXH8AnboEg/preview" title="Setup SCP Secret Laboratory server in just a MINUTE!" description="Feel like you understand better when you see things in action? We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
 
 <InlineVoucher />
 

@@ -4,6 +4,7 @@
   border-radius: 8px;
   overflow: hidden;
   margin: 30px 0;
+  cursor: pointer;
 }
 
 [data-theme='light'] .YouTubeContainer {
@@ -18,14 +19,37 @@
 }
 
 .videoContainer {
+  position: relative;
   width: 30%;
   flex-shrink: 0;
+  cursor: pointer; /* Cursor für das ganze Bild */
 }
 
-.videoIframe {
+.videoImage {
   width: 100%;
   height: 100%;
-  border-radius: 0px 0px 0px 0px;
+  object-fit: cover;
+  display: block;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.playIcon {
+  width: 0;
+  height: 0;
+  border-left: 30px solid white;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
 }
 
 .contentContainer {
@@ -35,7 +59,6 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  cursor: pointer;
   min-width: 0;
 }
 
@@ -66,10 +89,6 @@
 
   .videoContainer {
     width: 100%;
-  }
-
-  .videoIframe {
-    height: auto; /* Stelle sicher, dass das Video responsiv ist */
   }
 
   .title {

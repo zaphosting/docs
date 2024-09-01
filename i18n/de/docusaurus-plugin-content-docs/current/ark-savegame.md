@@ -14,7 +14,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Willst du deine eigene oder eine offizielle Backup-Speicherdatei auf deinen Ark: Survival Evolved-Server importieren? In dieser Anleitung erfährst du, wie du deine eigene oder eine offizielle Backup-Speicherdatei auf deinen neuen Server importierst.
 
-<YouTube videoId="lvIIVOhAUjo" title="How to get an ARK:SE Server with Official Server Backups" description="Hast du das Gefühl, dass du etwas besser verstehst, wenn du es in Aktion siehst? Wir haben etwas für dich! Tauche ab in unser Video, welches alles für dich zusammenfasst. Egal, ob du es eilig hast oder einfach nur Informationen auf möglichst verständliche Art und Weise aufnehmen möchtest!"/>
+<YouTube videoId="lvIIVOhAUjo" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/RcyrLiddANLADXz/preview" title="How to get an ARK:SE Server with Official Server Backups" description="Hast du das Gefühl, dass du etwas besser verstehst, wenn du es in Aktion siehst? Wir haben etwas für dich! Tauche ab in unser Video, welches alles für dich zusammenfasst. Egal, ob du es eilig hast oder einfach nur Informationen auf möglichst verständliche Art und Weise aufnehmen möchtest!"/>
 
 <InlineVoucher />
 

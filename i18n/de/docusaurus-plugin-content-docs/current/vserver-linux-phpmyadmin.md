@@ -124,3 +124,9 @@ Das gerade erstelle Verzeichnis benötigt noch die richtigen Rechte:
 chown -R www-data:www-data /usr/share/phpmyadmin/tmp/
 ```
 Fertig ist die phpMyAdmin Installation. Das phpMyAdmin Webinterface kann nun via Browser mit /phpmyadmin geöffnet werden, z. B. 123.123.123.123/phpmyadmin
+
+
+
+## Abschluss
+
+Glückwunsch, du hast phpMyAdmin erfolgreich installiert! Solltest du noch weitere Fragen oder Probleme haben, dann wende dich gerne an unser Support-Team, welches dir jeden Tag zur Verfügung steht! 

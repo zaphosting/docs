@@ -14,7 +14,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Du hast einen Windows VPS oder Rootserver und möchtest darauf einen Palworld Dedicated Server installieren? Dann bist du hier genau richtig. In dieser Anleitung erklären wir dir Schritt für Schritt, wie du diesen Dienst auf deinem Server installierst.
 
-<YouTube videoId="thn0wDE5LDg" title="How To Setup Palworld Dedicated Server on Windows VPS!" description="Feel like you understand better when you see things in action? We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
+<YouTube videoId="thn0wDE5LDg" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/RsaL8W4jdoqHcft/preview" title="How To Setup Palworld Dedicated Server on Windows VPS!" description="Feel like you understand better when you see things in action? We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
 
 <InlineVoucher />
 
@@ -153,3 +153,8 @@ Jetzt ist es an der Zeit, deinen Server zu starten. Möglicherweise musst du [Di
 Gehe in das Basisverzeichnis deines Palworld-Servers und starte **PalServer.exe**, um den Startvorgang zu beginnen. Dadurch wird die Konsole des Servers in einer Eingabeaufforderung geöffnet und der Startvorgang beginnt. Wenn alles wie erwartet abläuft, wird dein Server in der Serverliste sichtbar sein. Alternativ kannst du dich auch direkt verbinden, indem du in der unteren Suchleiste der Serverliste nach `[your_ip_address]:8211`.
 
 Du hast Palworld erfolgreich auf deinem Windows VPS installiert.
+
+
+## Abschluss
+
+Glückwunsch, du hast den Palworld Server erfolgreich installiert und konfiguriert! Solltest du noch weitere Fragen oder Probleme haben, dann wende dich gerne an unser Support-Team, welches dir jeden Tag zur Verfügung steht!

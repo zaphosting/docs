@@ -68,7 +68,7 @@ Find the downloaded file on you pc and rightclick it, select "Extract All...". C
 
 ![image](https://github.com/Yoshlix/docs/assets/26007280/edbc753d-1906-4d81-9f05-354ff48ceebb)
 
-![extract the file german version](https://i.imgur.com/R3BZDg4.png)
+![extract the file german version](https://screensaver01.zap-hosting.com/index.php/s/iE9XFMmrjj7b7ST/preview)
 
 Your unzipped folder should contain a mods, config and defaultconfig folder. There may also be more folders than the ones shown here. 
 
@@ -103,7 +103,7 @@ If you don't know which Minecraft version you need, go back to the "File Details
 When finished installing the game, you will see a blue button next to the name of your game (e.g. Forge, Fabric). Click this button to activate the game.
 
 ![image](https://github.com/Yoshlix/docs/assets/26007280/53cf9569-3529-42fb-9a7d-6ae636ca4f9c)
-![activate the game german version](https://i.imgur.com/gGqQpJG.png)
+![activate the game german version](https://screensaver01.zap-hosting.com/index.php/s/GiFsA7JmGPd4LCB/preview)
 
 
 ## Step 4 - Connecting & uploading mods / modpack via FTP

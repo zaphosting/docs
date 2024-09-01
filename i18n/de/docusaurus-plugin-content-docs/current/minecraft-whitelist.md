@@ -13,9 +13,9 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 ## Einführung
 Die **Minecraft Whitelist** ist eine Möglichkeit, um seinen Server zu schützen, indem nur ausgewählte Spieler, die auf der Liste stehen, die Erlaubnis haben, sich mit dem Server zu verbinden. Denn Minecraft bietet standardmäßig keine Server Passwort Option, wie manch andere Spiele.
 
-![image](https://user-images.githubusercontent.com/13604413/159177717-aa8faccd-3535-4147-b3db-278f2799c883.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/7PdkCFcZk3o8Wr8/preview)
 
-<YouTube videoId="nyor26XxwLY" title="How to enable WHITELIST on your Minecraft Server" description="Hast du das Gefühl, dass du etwas besser verstehst, wenn du es in Aktion siehst? Wir haben etwas für dich! Tauche ab in unser Video, welches alles für dich zusammenfasst. Egal, ob du es eilig hast oder einfach nur Informationen auf möglichst verständliche Art und Weise aufnehmen möchtest!"/>
+<YouTube videoId="nyor26XxwLY" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/gAKarSFY2m3LD8R/preview" title="How to enable WHITELIST on your Minecraft Server" description="Hast du das Gefühl, dass du etwas besser verstehst, wenn du es in Aktion siehst? Wir haben etwas für dich! Tauche ab in unser Video, welches alles für dich zusammenfasst. Egal, ob du es eilig hast oder einfach nur Informationen auf möglichst verständliche Art und Weise aufnehmen möchtest!"/>
 
 <InlineVoucher />
 
@@ -40,7 +40,7 @@ Alternativ kann die Whitelist Funktion auch im Spiel oder per Live Konsole aktiv
 
 Um die Whitelist Funktion über das Spiel zu aktivieren, sind Operator Rechte zwingend notwendig! Alternativ kann dies ansonsten auch über die Live Konsole (Webinterface) gemacht werden. Allerdings ist dort zu beachten, dass die Befehle dort ohne das **/** Symbole ausgeführt werden müssen.
 
-![image](https://user-images.githubusercontent.com/13604413/159177718-f61f5bef-e6fa-4bc3-a14c-8a9224b8b15a.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/KJ2pmgKs6ABrAem/preview)
 
 ## Whitelist verwalten
 

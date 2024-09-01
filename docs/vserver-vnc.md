@@ -21,7 +21,7 @@ In case of startup or network problems you still have the possibility to access 
 ## Use of VNC
 The VNC web client can be found in the VPS / Root server dashboard. To do this, click on the serial console option in the tools section of the administration and then open the VNC connection via the **Start VNC tunnel** button. 
 
-![image](https://user-images.githubusercontent.com/13604413/159184892-dd8a52a0-8d0c-4edc-aec0-7388cc9c489f.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/AgSL8QcynHSfXFA/preview)
 
 
 
@@ -31,4 +31,4 @@ The following example shows a Windows VPS / Root server. This server has been su
 
 
 
-![image](https://user-images.githubusercontent.com/13604413/159184897-2e42d34b-74d8-4a25-a723-cb030a148aee.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/XTFS35AJBJaS86r/preview)

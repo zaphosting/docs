@@ -22,7 +22,7 @@ Einige Befehle erfordern die Verwendung der Steam64-ID eines Spielers. Verwende 
 ## Deine Steam ID erhalten
 Erstens, verwende ein Tool wie das [Steam ID Finder](https://steamidfinder.com/), um deine Steam64 ID zu erhalten. Hier gibst du deine Steam URL ein:
 
-![image](https://user-images.githubusercontent.com/13604413/159179966-154bb929-edcc-42aa-965e-cb747bb463f8.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/JdSDSXZZ4sScYYb/preview)
 
 Dann drückst du `Find Steam ID`. Jetzt solltest du dein Steam-Profil sehen können, hier kopierst du deine "Steam64ID (Dec)".
 

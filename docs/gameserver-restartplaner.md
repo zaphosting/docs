@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 ## Introduction
 The restart planner is a feature offered for game servers which allows you to create an automatic restart to restart the server automatically at the same time every day.
 
-<YouTube videoId="bcsAePevPnY" title="How to setup a RESTART PLANNER for your Server!" description="Feel like you understand better when you see things in action? We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
+<YouTube videoId="bcsAePevPnY" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/pNsgKBQQGEC3tPj/preview" title="How to setup a RESTART PLANNER for your Server!" description="Feel like you understand better when you see things in action? We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
 
 
 :::info
@@ -22,7 +22,7 @@ This feature is only available for game servers.
 
 This feature can be found in the interface of the game server.
 
-![image](https://user-images.githubusercontent.com/13604413/159171151-58a2ede5-609b-4d9d-b1fd-2e1640050b19.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/doBQoGw3kTj8o6r/preview)
 
 <InlineVoucher />
 
@@ -38,7 +38,7 @@ Within the next window you can now choose between Weekly and Daily restarts. In 
 
 This procedure is now repeated for each desired automatic restart. If "**24:00**" occurs, the system displays an error message. To avoid this error, "**00:00**" needs to be used instead.
 
-![image](https://user-images.githubusercontent.com/13604413/159171159-94dfe1d5-e218-4e2a-b0fe-388a884b81d2.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/j4nyS4efsKTinBS/preview)
 
 ###  Start offline server
 
@@ -50,7 +50,7 @@ The command option among the specified automatic restarts is intended to be used
 
 If you want to warn players beforehand, then you can use the *say* command in Minecraft
 
-![image](https://user-images.githubusercontent.com/13604413/159171163-7be2fa64-9219-4f36-802b-34eccc379894.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/bcRJQprM2BFeR75/preview)
 
 ### Delay
 

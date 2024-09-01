@@ -29,28 +29,28 @@ The ID will later be entered in the configuration file.
 
 Here you can find an example of how you can get your steamid by inputting your profile link there:
 
-![image](https://user-images.githubusercontent.com/26007280/189888449-eda43870-464c-416e-b3ae-b373b71cc6a0.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/k4EEWwFQB3xAxA2/preview)
 
 ## Add Admins
 
 Now the configuration file has to be opened and edited.
 This is located in "**Configs**" under "**Settings**".
 
-![image](https://user-images.githubusercontent.com/17176877/220733319-e8b81ed6-e9be-449a-a587-0f8ea8064333.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/NSFrZG3SX6ZaQgb/preview)
 
 There the "**config_remoteadmin.txt**" can be opened in which the necessary lines are rewritten.
 
-![image](https://user-images.githubusercontent.com/17176877/220733567-ae418389-f538-4d54-83eb-f52e5d09ac87.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/KM6YpQwGC4n8rZW/preview)
 
 The roles are now created and assigned there.
 In this, "**SomeSteamId64**" which stands in front of "**@steam: owner**" must be replaced with your SteamID64, which you have previously viewed under "**steamid lookup**"
 
-![image](https://user-images.githubusercontent.com/13604413/159181591-fe0fb375-db67-45a6-8790-1a497e81c69b.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/HC4Z2s9wPgdJjXT/preview)
 
 This can now be done for every additional user who should receive rights.
 In our example we set rights for three users, one of them gets "**owner**" the other two get "**admin**".
 
-![image](https://user-images.githubusercontent.com/13604413/159181666-fd68aac0-2c42-470c-b0c2-b1448d67a2cd.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/9e7YWoMHAxn3z3b/preview)
 
 ## Add More Roles to Override the Password
 
@@ -59,12 +59,12 @@ If you have multiple roles you want to override the remote admin password, you c
 
 Find exactly the following section: 
 
-![image](https://user-images.githubusercontent.com/26007280/189888482-6a066272-bf6d-4741-a73b-447d020015e8.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/HoGJ7X2ZEWW34bH/preview)
 
 To add more roles, you simply write your desired roles with a comma.
 For example, to add admin and moderator to override the password:
 
-![image](https://user-images.githubusercontent.com/26007280/189888498-75842a1c-848b-4169-a468-270a32edccf9.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/PFLFiG9W3kScZ3d/preview)
 
 :::info
 Hint: To open the remote admin console ingame, once you are logged into the server, you would use the "**M**" key. 

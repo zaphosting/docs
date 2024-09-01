@@ -12,7 +12,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 Do you have a Windows VPS or root server and you want to install the ARK: Survival Ascended Dedicated server service on it? You are in the right place. In this guide, we will explain the step by step process of installing this service on your server.
-<YouTube videoId="NvaXYjLSCn8" title="ARK: Survival Ascended Dedicated Server Setup on Windows VPS" description="Feel like you understand better when you see things in action? We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
+<YouTube videoId="NvaXYjLSCn8" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/Sa76nDiSmQKx7x2/preview" title="ARK: Survival Ascended Dedicated Server Setup on Windows VPS" description="Feel like you understand better when you see things in action? We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
 <InlineVoucher />
 
 ## Preparation
@@ -164,4 +164,6 @@ Once you have this installed on your VPS, you can proceed towards starting the s
 
 This will open the server's console in a command prompt and begin the startup process. If everthing occurs as expected, your server will be visible in the server list. Alternatively, you will be able to connect directly by opening the console in-game and running `open [your_ip_address]:7777`.
 
-You have successfully installed Ark: Survival Ascended on your Windows VPS.
+## Conclusion
+
+Congratulations, you have successfully installed and configurated the ARK-Survival-Ascended server on your VPS! If you have any further questions or problems, please contact our support team, who are available to help you every day! 

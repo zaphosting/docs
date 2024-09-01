@@ -25,15 +25,15 @@ Um einen API-Schlüssel anzufordern, ist ein nicht eingeschränkter Steam-Accoun
 
 Nachdem du dein Steam-Konto eingerichtet hast, solltest du in der Lage sein, deinen eigenen Steam-Web-API-Schlüssel anzufordern. Dazu musst du dich [auf der Steam-Website] (https://steamcommunity.com/dev/apikey) mit deinem Steam-Kontonamen und Passwort anmelden.
 
-![image](https://user-images.githubusercontent.com/115637675/195389732-939c0a8e-f011-4242-8048-97bb51122a58.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/4sPfaj7yT4SgWwM/preview)
 
 Nach der Anmeldung musst du einen Domainnamen eingeben, die Nutzungsbedingungen für die Steam Web API bestätigen und auf die Schaltfläche **Registrieren** klicken. Die Domain sollte auf deine **Server IP** *(ohne Port)* eingestellt sein, also gib diese dort an. 
 
-![image](https://user-images.githubusercontent.com/115637675/195401735-0615a6e3-ea01-4a77-97ce-f91d3d753bee.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/a5oNcgBGiTYdWT3/preview)
 
 Wenn alles erfolgreich war, solltest du deinen eigenen Steam-Web-API-Schlüssel sehen können, wie unten dargestellt.
 
-![image](https://user-images.githubusercontent.com/115637675/195397282-c79aff45-2e38-49f9-bf1a-3efd563b3294.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/i9ewyEdXwp6iHWt/preview)
 
 ## Aktivierung eines API-Schlüssels
 

@@ -21,14 +21,14 @@ Du kannst deinen Teamspeak Server individuell konfigurieren. Im Folgenden wird e
 
 Wenn du die allgemeine Konfiguration deines Servers über das Webinterface vornehmen möchtest, dann findest du die Optionen in der Teamspeak Server Verwaltung unter Einstellungen. Die Einstellungsseite sieht dann wie folgt aus: 
 
-![img](https://user-images.githubusercontent.com/61839701/170319600-b95395ba-0bf1-4b7a-b58b-f4feb63fbf1d.png)
+![img](https://screensaver01.zap-hosting.com/index.php/s/cqYZLjCfx2BLJ3T/preview)
 
 
 **Teamspeak Client**
 
 Wenn du die allgemeine Konfiguration deines Servers über den Teamspeak Client direkt vornehmen möchtest, dann findest du die Optionen, in dem du auf den obersten Channel **TeamSpeak ]I[ Server** einen Rechtsklick machst und dann auf **Virtuellen Server editieren** klickst.
 
-![img](https://user-images.githubusercontent.com/61839701/170319758-09745a1c-457d-45f6-8f17-402aa52b3134.png)
+![img](https://screensaver01.zap-hosting.com/index.php/s/Ca9gaXEXA6Re88T/preview)
 
 
 Da die Einstellungsmöglichkeiten im Webinterface soweit so verständlich wie möglich sein sollten und dort nicht ebenfalls nicht alles angepasst werden kann, fokussiert sich diese Anleitung auf die Konfiguration des Teamspeak Servers über den Teamspeak Client. 
@@ -61,7 +61,7 @@ Die Slots werden von uns gesetzt und können nicht verändert werden. Allerdings
 
 Hierbei kannst du eine beliebige Willkommensnachricht hinzufügen. Diese wird dann beim Verbinden angezeigt. Das kann dann zum Beispiel so aussehen:
 
-![img](https://user-images.githubusercontent.com/61839701/170319971-d89d3240-9bc9-4a99-bef4-c6e37d4d1c92.png)
+![img](https://screensaver01.zap-hosting.com/index.php/s/eX2f6m39oEnX7Yc/preview)
 
 
 ### Sicherheitsstufe
@@ -95,14 +95,14 @@ Du kannst bei deinem Teamspeak Server noch weitere Channel und Server-Gruppen an
 
 Um weitere Channel anzulegen, musst du unter den vorhandenen Channels einen **Rechtsklick** machen und dann auf **Channel erstellen** klicken. Im Anschluss öffnet sich ein Popup-Fenster. Dort kannst du den Channel dann nach den folgenden Optionen konfigurieren: Channel-Name, Passwort, Icon, Beschreibung, Channel Typ und noch mehr. 
 
-![img](https://user-images.githubusercontent.com/61839701/170320598-34fb3683-9f0e-4f4a-ba32-ff4219e99358.png)
+![img](https://screensaver01.zap-hosting.com/index.php/s/TmeAiArsxAb3Ptm/preview)
 
 
 ### Server-Gruppen
 
 Um weitere Server-Gruppen anzulegen, musst du in der **Navigationszeile** auf **Rechte** klicken und dann auf **Server-Gruppen gehen**. Dort findest du dann eine Übersicht der vorhandenen Server-Gruppen, deren Berechtigungen und den zugewiesenen Benutzer. In der Liste der Server-Gruppen kannst du unten auf das **Plus Symbol** klicken und dann eine neue Gruppe anlegen. 
 
-![img](https://user-images.githubusercontent.com/61839701/170320643-7d37277e-9162-493f-907c-7e52836acbd3.png)
+![img](https://screensaver01.zap-hosting.com/index.php/s/WmDHRQ4RJiBf7FQ/preview)
 
 
 
@@ -116,14 +116,14 @@ Bis hierhin sollte klar sein, wie du allgemeine Einstellungen vom Teamspeak Serv
 
 Die Berechtigungen der Benutzer hängen von den zugewiesenen Server-Gruppen ab. Standardmäßig erhält ein Benutzer die **Normal** Gruppe. Wenn dem Benutzer weitere Berechtigungen hinzugefügt werden sollen, dann kann das gemacht werden, in dem ein Rechtsklick auf den Benutzer macht, dann auf Server-Gruppen klickt und im Anschluss die gewünschte Gruppe zugewiesen wird. 
 
-![img](https://user-images.githubusercontent.com/61839701/170320690-72fbd954-fe6e-45d8-a657-9ed3851cb427.png)
+![img](https://screensaver01.zap-hosting.com/index.php/s/oN3eCxqJpo2EW6H/preview)
 
 
 ### Berechtigungen: Channel 
 
 Für die einzelnen Channels können jeweils Berechtigungen definiert werden. So kann zum Beispiel definiert werden, welche Benutzer den Channel **Betreten, Abonnieren, Beschreibung, sehen, Ändern, Löschen kann** und **Zugriff auf den Channel Datei-Browser haben dürfen**. 
 
-![img](https://user-images.githubusercontent.com/61839701/170320718-2bd14e50-861c-42f4-8224-3f792610dc63.png)
+![img](https://screensaver01.zap-hosting.com/index.php/s/eMdpJykriqiNfJy/preview)
 
 
 Der Wert der einzelnen Felder wird von den Server-Gruppen abhängig gemacht. Wenn du zum Beispiel eine zusätzliche Server-Gruppe mit dem Namen **Mitglied** erstellst und nur die Zugriff auf den Channel haben sollen, dann muss der Wert mit der von der Server Gruppe übereinstimmen. Nehmen wir an, die Server-Gruppe hat den Berechtigungswert von 50, dann muss in den einzelnen Feldern die **50** eingetragen werden.
@@ -142,7 +142,7 @@ Bei den Berechtigungen der Server-Gruppen gibt es verschiedene Kategorien, die a
 - Grundlagen
 
 
-![img](https://user-images.githubusercontent.com/61839701/170320740-6f928032-79f6-426a-b4ba-78ca0a7e8064.png)
+![img](https://screensaver01.zap-hosting.com/index.php/s/teqGGTCEAXNXswD/preview)
 
 Diese können nach deinen Wünschen beliebig angepasst werden. Falls du noch mehr umfassende Änderungen an den Berechtigungen vornehmen möchtest, dann kannst du das machen, in dem du die Optionen deines Teamspeak Clients aufrufst, dort dann auf Anwendung gehst und dann das **Fortgeschrittene Rechtesystem** aktivierst.
 

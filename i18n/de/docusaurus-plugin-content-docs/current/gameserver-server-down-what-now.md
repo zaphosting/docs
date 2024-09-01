@@ -19,18 +19,18 @@ Wenn dein Gameserver down ist, kann das viel Gründe haben. **Wichtig** ist, das
 
 Die Log-Datei kann einfach links über das Menü aufgerufen werden.
 
-![](https://user-images.githubusercontent.com/61839701/165679746-3a46b1f0-017b-47a6-a8f3-67da10b600eb.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/9XRNoSA7EqxocXE/preview)
 
 Im Anschluss kannst du diese über das grüne Auge einsehen. **Wichtig ist dabei, dass du immer die neuste Log öffnet.**
 Diese kannst du am Datum oder dem Namen erkennen.
 
-![](https://user-images.githubusercontent.com/61839701/165679774-b81cb0bf-d399-4bee-9493-d8412ff110b6.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/cYXBo3JQ6zcFjJs/preview)
 
 Wenn du diese dann geöffnet hast, musst du sie auf Fehler prüfen.(**Fehler enthalten meistens etwas wie "Error" "Cant find" "Couldnt load"**)
 
 Im folgenden Screenshot habe ich ein Beispiel eines FivemServers mit falschem Server Lizenz Key.
 
-![image](https://user-images.githubusercontent.com/13604413/159184775-0adaa28c-df45-4457-a420-a84d4ad3016a.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/tqFaSRqiAT8YmN2/preview)
 
 Diesen Fehler könntest du dann z.B. bei Google eingeben und schauen, ob dieser bekannt ist. In der Regel findet man dort recht schnell den Grund, der diesen Fehler ausgelöst hat.
 
@@ -50,13 +50,13 @@ Die zweite Lösung wäre es ein Backup einzuspielen oder den Server neu zu insta
 
 Um ein Backup einzuspielen, musst du lediglich links auf Backups gehen und dort dann das neuste Backup über den grünen Pfeil einspielen. Im Anschluss sollte dein Server wieder wie gewohnt laufen.
 
-![](https://user-images.githubusercontent.com/61839701/165679797-ab07331a-8af3-4ed6-be43-cee696875863.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/zbctK7rzcL3g2SG/preview)
 
 ### Variante 2 - Server neu installieren
 
 Die Neuinstallation kann unter "Einstellungen" auf der linken Seite gestartet werden. Im Anschluss wird der komplette Server wieder auf den ersten Tag zurückgesetzt.(zusätzlich können die Einstellungen auch zurückgesetzt werden "**Alle Optionen zurücksetzen**")
 
-![](https://user-images.githubusercontent.com/61839701/165679819-e5dc7a4e-92d0-492f-b685-93077c82d5b3.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/8AFBNbGjWDQ7AFe/preview)
 
 
 

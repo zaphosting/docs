@@ -16,63 +16,61 @@ Unser Ziel ist es, Wissen zugänglich und verständlich zu machen. Deshalb haben
 
 Wir decken eine breite Palette an Themen ab und aktualisieren unsere Inhalte regelmäßig, um sicherzustellen, dass du immer auf dem neuesten Stand bist und die besten Praktiken anwenden kannst. Von grundlegenden Einrichtungsanleitungen bis hin zu fortgeschrittenen Konfigurationstechniken. 
 
-<YouTube videoId="Trs9Ysxa1gc" title="Die ZAP-Docs ist da, um zu helfen!" description="Hast du das Gefühl, dass du etwas besser verstehst, wenn du es in Aktion siehst? Wir haben etwas für dich! Tauche ab in unser Video, welches alles für dich zusammenfasst. Egal, ob du es eilig hast oder einfach nur Informationen auf möglichst verständliche Art und Weise aufnehmen möchtest!"/>
+<YouTube videoId="Trs9Ysxa1gc" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/9RAkLTRmGG6HZsW/preview" title="Die ZAP-Docs ist da, um zu helfen!" description="Hast du das Gefühl, dass du etwas besser verstehst, wenn du es in Aktion siehst? Wir haben etwas für dich! Tauche ab in unser Video, welches alles für dich zusammenfasst. Egal, ob du es eilig hast oder einfach nur Informationen auf möglichst verständliche Art und Weise aufnehmen möchtest!"/>
 
 ## Gameserver
 Perfektioniere und Nutze den vollen Umfang deines Gameservers. Mit unserer Expertise bringen wir dein Gaming auf ein neues Level. Unsere detaillierten Anleitungen für über 50 verschiedene Spiele und die dazugehörigen Erweiterungen/Modifikationen ermöglichen es dir, ein tiefgreifendes Verständnis für die Konfiguration und Verwaltung deiner Gameserver zu entwickeln.
 
 <Cards>
-    <Card title="7 Days to Die" description="Placeholder" link="7d2d-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/251570/header.jpg?=1698860631"/>
-    <Card title="Abiotic Factor" description="Placeholder" link="abioticfactor-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/427410/header.jpg?t=1714694871"/>
-    <Card title="Alt:V" description="Placeholder" link="altv-firststeps-dashboard" image="https://zap-cdn.com/interface/_images/icons/alt-v-icon.png"/>
-    <Card title="American Truck Simulator" description="Placeholder" link="ats-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/270880/header.jpg?t=1707218064"/>
-    <Card title="Among Us" description="Placeholder" link="amongus-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/945360/header.jpg?t=1698860631"/>
-    <Card title="ARK" description="Placeholder" link="ark-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/346110/header.jpg?t=1698860631"/>
-    <Card title="Arma 3" description="Placeholder" link="arma3-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/107410/header.jpg?t=1698860631"/>
-    <Card title="Assetto Corsa" description="Placeholder" link="assettocorsa-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/244210/header.jpg?t=1698860631"/>
-    <Card title="Assetto Corsa (Comp.)" description="Placeholder" link="assetto-competizione-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/805550/header.jpg?t=1698860631"/>
-    <Card title="Avorion" description="Placeholder" link="avorion-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/445220/header.jpg?t=1698860631"/>
-    <Card title="Barotrauma" description="Placeholder" link="barotrauma-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/602960/header.jpg?t=1698860631"/>
-    <Card title="BeamMP" description="Placeholder" link="beammp-firststeps-dashboard" image="https://zap-cdn.com/interface/_images/icons/beammp-icon.png"/>
-    <Card title="Conan Exiles" description="Placeholder" link="conan-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/440900/header.jpg?t=1698860631"/>
-    <Card title="Core Keeper" description="Placeholder" link="corekeeper-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/1621690/header.jpg?t=1698860631"/>
-    <Card title="CS 1.6" description="Placeholder" link="cs16-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/10/header.jpg?t=1666823513"/>
-    <Card title="CS:GO" description="Placeholder" link="csgo-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/730/header.jpg?t=1698860631"/>
-    <Card title="CS:S" description="Placeholder" link="css-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/240/header.jpg?t=1666823740"/>
-    <Card title="CS2" description="Placeholder" link="cs2-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/730/header.jpg?t=1698860631"/>
-    <Card title="DayZ" description="Placeholder" link="dayz-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/221100/header.jpg?t=1698860631"/>
-    <Card title="Don't Starve Together" description="Placeholder" link="dst-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/322330/header.jpg?t=1698860631"/>
-    <Card title="ECO" description="Placeholder" link="eco-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/382310/header.jpg?t=1698860631"/>
-    <Card title="Empyrion" description="Placeholder" link="empyrion-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/383120/header.jpg?t=1698860631"/>
-    <Card title="Enshrouded" description="Placeholder" link="enshrouded-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/1203620/header.jpg?t=1698860631"/>
-    <Card title="Euro Truck Simulator" description="Placeholder" link="ets2-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/227300/header.jpg?t=1707210696"/>
-    <Card title="Factorio" description="Placeholder" link="factorio-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/427520/header.jpg?t=1698860631"/>
-    <Card title="FiveM" description="Placeholder" link="fivem-dashboard" image="https://zap-cdn.com/interface/_images/icons/fivem-gameserver-icon.png"/>
-    <Card title="Foundry" description="Placeholder" link="foundry-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/983870/header_alt_assets_1_german.jpg?t=1715273802"/>
-    <Card title="Garry's Mod" description="Placeholder" link="gmod-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/4000/header.jpg?t=1698860631"/>
-    <Card title="Last Oasis" description="Placeholder" link="lastoasis-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/903950/header.jpg?t=1698860631"/>
-    <Card title="Minecraft" description="Placeholder" link="minecraft-firststeps-dashboard" image="https://zap-cdn.com/interface/_images/game/minecraft.png"/>
-    <Card title="Multi Theft Auto" description="Placeholder" link="mta-firststeps-dashboard" image="https://zap-cdn.com/interface/_images/icons/mta_icon.png"/>
-    <Card title="Myth of Empires" description="Placeholder" link="moe-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/1371580/header.jpg?t=1698860631"/>
-    <Card title="Open.mp" description="Placeholder" link="openmp-firststeps-dashboard" image="https://zap-cdn.com/interface/_images/icons/openmp-icon.jpg"/>
-    <Card title="Palworld" description="Placeholder" link="palworld-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/1623730/header.jpg?t=1698860631"/>
-    <Card title="Project Zomboid" description="Placeholder" link="projectzomboid-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/108600/header.jpg?t=1698860631"/>
-    <Card title="RageMP" description="Placeholder" link="ragemp-firststeps-dashboard" image="https://zap-cdn.com/interface/_images/icons/ragemp-icon-new2.jpg"/>
-    <Card title="RedM" description="Placeholder" link="redm-firststeps-dashboard" image="https://zap-cdn.com/interface/_images/icons/redm-icon-new.jpg"/>
-    <Card title="RimWorld Together" description="Placeholder" link="rimworldtogether-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/294100/header.jpg?t=1712954312"/>
-    <Card title="Rust" description="Placeholder" link="rust-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/252490/header.jpg?t=1698860631"/>
-    <Card title="Satisfactory" description="Placeholder" link="satisfactory-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/526870/header.jpg?t=1698860631"/>
-    <Card title="SCP: Secret Laboratory" description="Placeholder" link="scp-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/700330/header.jpg?t=1698860631"/>
-    <Card title="Space Engineers" description="Placeholder" link="spaceengineers-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/244850/header.jpg?t=1698860631"/>
-    <Card title="Stormworks" description="Placeholder" link="stormworks-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/573090/header.jpg?t=1698860631"/>
-    <Card title="Sunkenland" description="Placeholder" link="sunkenland-firststeps-dashboard" image="https://cdn.akamai.steamstatic.com/steam/apps/2080690/header.jpg?t=1703562037"/>
-    <Card title="Terraria" description="Placeholder" link="terraria-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/105600/header.jpg?t=1698860631"/>
-    <Card title="Terratech Worlds" description="Placeholder" link="terratech-worlds-firststeps-dashboard" image="https://cdn.akamai.steamstatic.com/steam/apps/2313330/header.jpg?t=1711171512"/>
-    <Card title="Unturned" description="Placeholder" link="unturned-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/304930/header.jpg?t=1698860631"/>
-    <Card title="Valheim" description="Placeholder" link="valheim-firststeps-dashboard"  image="https://cdn.cloudflare.steamstatic.com/steam/apps/892970/header.jpg?t=1698860631"/>
-    <Card title="Vein" description="Placeholder" link="vein-firststeps-dashboard"  image="https://cdn.akamai.steamstatic.com/steam/apps/1857950/header.jpg?t=1707036202"/>
-    <Card title="V Rising" description="Placeholder" link="vrising-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/1604030/header.jpg?t=1698860631"/>
-    <Card title="Wurm Unlimited" description="Placeholder" link="wurmunlimited-firststeps-dashboard" image="https://cdn.akamai.steamstatic.com/steam/apps/366220/header.jpg?t=1593011906"/>
+    <Card title="7 Days to Die" description="Placeholder" link="7d2d-firststeps-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/dXbYWLtmqHnAz8n/preview"/>
+    <Card title="Abiotic Factor" description="Placeholder" link="abioticfactor-firststeps-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/ktTGqHAKnPH6rya/preview"/>
+    <Card title="American Truck Simulator" description="Placeholder" link="ats-firststeps-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/MEJfqyT5YwYpjpW/preview"/>
+    <Card title="Among Us" description="Placeholder" link="amongus-firststeps-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/56aajb26cS6Lda3/preview"/>
+    <Card title="ARK" description="Placeholder" link="ark-firststeps-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/qnWELD8ik9srBDG/preview"/>
+    <Card title="Arma 3" description="Placeholder" link="arma3-firststeps-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/J3X8RGWSZ5MgFNq/preview"/>
+    <Card title="Assetto Corsa" description="Placeholder" link="assettocorsa-firststeps-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/z8SQ7C2fkcJmWYj/preview"/>
+    <Card title="Assetto Corsa (Comp.)" description="Placeholder" link="assetto-competizione-firststeps-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/oLbXej9nzXPc6Kr/preview"/>
+    <Card title="Avorion" description="Placeholder" link="avorion-firststeps-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/FGtbBbgYsjygaHQ/preview"/>
+    <Card title="Barotrauma" description="Placeholder" link="barotrauma-firststeps-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/CRf8AAmcXwAReHT/preview"/>
+    <Card title="BeamMP" description="Placeholder" link="beammp-firststeps-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/XLLGT8nMkoXKYtC/preview"/>
+    <Card title="Conan Exiles" description="Placeholder" link="conan-firststeps-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/Kf4Agc6HXkEMJGM/preview"/>
+    <Card title="Core Keeper" description="Placeholder" link="corekeeper-firststeps-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/RsHHfMtbAdY4pJf/preview"/>
+    <Card title="CS 1.6" description="Placeholder" link="cs16-firststeps-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/q5enKNatKZMpXPf/preview"/>
+    <Card title="CS:GO" description="Placeholder" link="csgo-firststeps-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/cSkWS3sQb22s5f8/preview"/>
+    <Card title="CS:S" description="Placeholder" link="css-firststeps-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/PqQqSqgin9BjJtw/preview"/>
+    <Card title="CS2" description="Placeholder" link="cs2-firststeps-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/cSkWS3sQb22s5f8/preview"/>
+    <Card title="DayZ" description="Placeholder" link="dayz-firststeps-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/pnsf69ApNAWxzEa/preview"/>
+    <Card title="Don't Starve Together" description="Placeholder" link="dst-firststeps-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/rtFRzgDkWPZodc4/preview"/>
+    <Card title="ECO" description="Placeholder" link="eco-firststeps-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/XiHGRrHtkqnsNF7/preview"/>
+    <Card title="Empyrion" description="Placeholder" link="empyrion-firststeps-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/xYyDybq5znjy3HR/preview"/>
+    <Card title="Enshrouded" description="Placeholder" link="enshrouded-firststeps-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/65zgmLrBtcPTt7k/preview"/>
+    <Card title="Euro Truck Simulator" description="Placeholder" link="ets2-firststeps-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/yZX6rF6emyBbrgq/preview"/>
+    <Card title="Factorio" description="Placeholder" link="factorio-firststeps-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/iZeioXS2ZPHrnjq/preview"/>
+    <Card title="FiveM" description="Placeholder" link="fivem-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/2JA2yD8CgCpn3nZ/preview"/>
+    <Card title="Foundry" description="Placeholder" link="foundry-firststeps-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/meb8kopKD3WETbt/preview"/>
+    <Card title="Garry's Mod" description="Placeholder" link="gmod-firststeps-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/LddW8FyQ2ZKKTzN/preview"/>
+    <Card title="Last Oasis" description="Placeholder" link="lastoasis-firststeps-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/3CwdeqDaikA6Mp8/preview"/>
+    <Card title="Minecraft" description="Placeholder" link="minecraft-firststeps-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/nQ5nkPeAN25dJaf/preview"/>
+    <Card title="Multi Theft Auto" description="Placeholder" link="mta-firststeps-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/MjAJfQFWBprjdk3/preview"/>
+    <Card title="Myth of Empires" description="Placeholder" link="moe-firststeps-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/W8rBp8LESZidDLs/preview"/>
+    <Card title="Open.mp" description="Placeholder" link="openmp-firststeps-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/JwKCDWdigbHag3C/preview"/>
+    <Card title="Palworld" description="Placeholder" link="palworld-firststeps-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/RgdKJoRRNBPcT5r/preview"/>
+    <Card title="Project Zomboid" description="Placeholder" link="projectzomboid-firststeps-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/tYJB3JWdG9ewAmf/preview"/>
+    <Card title="RedM" description="Placeholder" link="redm-firststeps-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/9HTK29mQCHe5kNs/preview"/>
+    <Card title="RimWorld Together" description="Placeholder" link="rimworldtogether-firststeps-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/7PBDBpc2ysJPWdA/preview"/>
+    <Card title="Rust" description="Placeholder" link="rust-firststeps-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/G82jnYsbexscj5W/preview"/>
+    <Card title="Satisfactory" description="Placeholder" link="satisfactory-firststeps-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/JFfEJs6E5ExjYmD/preview"/>
+    <Card title="SCP: Secret Laboratory" description="Placeholder" link="scp-firststeps-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/b5qWPyQeoB5wN8s/preview"/>
+    <Card title="Space Engineers" description="Placeholder" link="spaceengineers-firststeps-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/Wi29doTRKNHGn2a/preview"/>
+    <Card title="Stormworks" description="Placeholder" link="stormworks-firststeps-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/wzDPFmpDJ8oZTtW/preview"/>
+    <Card title="Sunkenland" description="Placeholder" link="sunkenland-firststeps-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/F8eyGq2GjKYcNcb/preview"/>
+    <Card title="Terraria" description="Placeholder" link="terraria-firststeps-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/eByW7ZDwsmySJr9/preview"/>
+    <Card title="Terratech Worlds" description="Placeholder" link="terratech-worlds-firststeps-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/Sf4LScK23KCxzDF/preview"/>
+    <Card title="Unturned" description="Placeholder" link="unturned-firststeps-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/GTxekqqTxQyttDS/preview"/>
+    <Card title="Valheim" description="Placeholder" link="valheim-firststeps-dashboard"  image="https://screensaver01.zap-hosting.com/index.php/s/LSiFMXMmyKgo4LG/preview"/>
+    <Card title="Vein" description="Placeholder" link="vein-firststeps-dashboard"  image="https://screensaver01.zap-hosting.com/index.php/s/mBkRqP68YrDmdop/preview"/>
+    <Card title="V Rising" description="Placeholder" link="vrising-firststeps-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/xazMeLwLJTJG7LF/preview"/>
+    <Card title="Wurm Unlimited" description="Placeholder" link="wurmunlimited-firststeps-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/BzbDjJWySW4LjtX/preview"/>
 </Cards>
 
 ## vRootserver

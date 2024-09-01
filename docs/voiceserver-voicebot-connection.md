@@ -15,20 +15,20 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 To connect your voice bot to your TeamSpeak 3 server, you have to call it up in the control panel. Then, you will go to the **TeamSpeak Server** on the left as shown below:
 
-![image](https://user-images.githubusercontent.com/13604413/159177224-3c27167e-acac-48d0-b22b-d7a3100455be.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/wp2ttHJyJeWbS44/preview)
 
 Now you can select a TeamSpeak under **TeamSpeak Server** if this has also been booked with your account. If this is hosted externally, you can select **Custom Teamspeak Server** there as well.
 
 The data can then be entered below, then just save and the voice bot connects to your TeamSpeak 3 server, here is an example:
 
-![image](https://user-images.githubusercontent.com/13604413/159177226-fdf5fba8-7d75-4cbf-b6cb-c6119dd1e553.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/fB7bF4XdcxPsjfm/preview)
 
 
 ## Connecting the bot to your Discord
 
 To connect your voice bot to your Discord, you have to go to **TeamSpeak Server*, then under **TeamSpeak Server** you will have to select **Discord**.
 
-![image](https://user-images.githubusercontent.com/13604413/159177233-8a4fe8cd-28af-4c6c-9c24-5ef25c3287c3.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/BJsrP6rSaA7d8Rk/preview)
 
 The **Discord Bot Token** and **Discord Bot Client ID** must then be entered. Then, the voice bot connects to your Discord server.
 
@@ -43,18 +43,18 @@ The first thing you need to do is create a Discord application. Your bot is then
 
 Now, you will create a new application by clicking on **New App** and now you can assign a name as seen below:
 
-![image](https://user-images.githubusercontent.com/13604413/159177237-d4abdea5-2d04-4ad3-8078-03be9ff137ef.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/3ALe2j6yda2pwqW/preview)
 
 Then, you create the appplication by clicking on **Create App**. For the following steps, please write down the client ID now:
 
-![image](https://user-images.githubusercontent.com/13604413/159177239-d533686c-cb7b-48ce-a6ef-1d74cad3f023.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/zPtx6WBffE9W5kE/preview)
 
 
 ### Step 2: Create a Bot User
 
 Your application now needs a user that the bot can use to connect to your server. 50 You can easily create this by clicking on **Create a Bot User**. Then, you will receive a user token which you should also note or write down somewhere:
 
-![image](https://user-images.githubusercontent.com/13604413/159177244-074344ef-1319-4282-a18e-f4eb94935f1f.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/X4Moysj9E5FabeA/preview)
 
 >**Important: Please do not reveal the bot token to anyone so that your bot can work undisturbed. The token is like a secret key.**
 
