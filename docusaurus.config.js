@@ -129,10 +129,7 @@ const config = {
             to: '/docs/ets2-server-modding', from: '/docs/trucksim-dlc',
           },
           {
-            to: '/docs/fivem-dashboard', from: '/docs/fivem-vrp-removespeedo',
-          },
-          {
-            to: '/docs/fivem-dashboard', from: '/docs/fivem-vrp-removespeedo',
+            to: '/docs/fivem-dashboard', from: '/docs/fivem-vrp-changemoneyicon',
           },
           {
             to: '/docs/fivem-dashboard', from: '/docs/fivem-vrp-removespeedo',
