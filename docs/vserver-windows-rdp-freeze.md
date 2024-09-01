@@ -9,21 +9,15 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
-
-
 ## Introduction
 
 The RDP freeze problem is a common phenomenon where, depending on the operating system and version used, remote desktop sessions unexpectedly freeze. This issue can be frustrating and significantly impair productivity. In this document, you will learn more about the cause of the problem and how to fix it.
 
 <InlineVoucher />
 
-
-
-## Cause
+## Primary Cause
 
 Various sources increasingly indicate that the problem is due to the reduced resilience of the RDP protocol to packet loss or corrupted packets. Additionally, a bug in certain Windows versions can cause the operating system to fail to seamlessly switch between the TCP and UDP protocols, further exacerbating the issue.
-
-
 
 ## Solution Approach
 
@@ -37,10 +31,6 @@ reg add "HKLM\software\policies\microsoft\windows nt\Terminal Services\Client" /
 
 By executing this command, your computer will now use the TCP protocol instead of the UDP protocol for the RDP session. This can improve the stability of the connection, especially in networks with unstable connections or high packet loss.
 
-
-
-:::warning 
-
+:::info 
 **Confirm the input** by pressing the Enter key and **restart your computer afterward** so that the change is applied and takes effect.
-
 :::

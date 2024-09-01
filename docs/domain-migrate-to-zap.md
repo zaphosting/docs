@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
-Are you new and interested in ZAP-Hosting's products? Then you are in the right place. First of all, welcome to ZAP-Hosting! We are pleased that you are interested in our services and want to learn on how to transfer your existing domain from another provider to us. This document will inform you of the general steps you need to take to successfully transfer your domain to us.
+Are you new and interested in ZAP-Hosting's products? Then you are in the right place. First of all, welcome to ZAP-Hosting! We are pleased that you are interested in our services and want to learn on how to transfer your existing domain from another provider to us. This guide will inform you of the general steps you need to take to successfully transfer your domain to us.
 
 <InlineVoucher />
 
@@ -25,7 +25,7 @@ If you have decided on us, you are welcome to start transferring your existing d
 
 ## Preparation
 
-For the transfer of an already registered domain, an auth code (short for authorization code) is necessary. This is a type of password for domains. The auth code is required when a domain is to be transferred from one provider to another. This code ensures that the domain transfer is indeed requested by the rightful domain owner.
+For the transfer of an already registered domain, an **Auth Code** (short for authorization code) is necessary. This is a type of password for domains. The auth code is required when a domain is to be transferred from one provider to another. This code ensures that the domain transfer is indeed requested by the rightful domain owner.
 
 Some providers already provide the auth code directly in the management interface. If this is not the case, you will need to inform your current provider about your desired domain transfer and request the auth code.
 
@@ -36,21 +36,30 @@ The auth code is only valid for a certain period. After this time expires, you w
 
 ## Transfer 
 
-Assuming you have your auth code, you can now proceed with ordering and registering your domain with ZAP-Hosting. Go to the order page for our [**domains**](https://zap-hosting.com/en/shop/product/domain/). In the next step, enter your domain name and fill in the necessary information about yourself. Then click the green check button to continue.
+Assuming you have your auth code, you can now proceed with ordering and registering your domain with ZAP-Hosting. Go to the order page for our [**domains**](https://zap-hosting.com/en/shop/product/domain/). Begin by filling out your personal details, followed by searching for the domain you wish to transfer.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/3dmY76dZscz9DPM/preview)
+![image](https://screensaver01.zap-hosting.com/index.php/s/3dmY76dZscz9DPM/preview)
 
-A list of your desired domain with all available domain extensions will then open. Domains that are already registered elsewhere can be recognized by the gray button with the arrow. Click on this arrow. A pop-up window will then inform you that the domain is already registered elsewhere.
+:::info
+In order to transfer a domain, you will have to extend it by 1 Year during the order process. This is standard policy across all providers.
+:::
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/cLZ298FwwHH5eTg/preview)
+A list of your desired domain with all available domain extensions will then open. Domains that are already registered elsewhere can be identified by the gray button with the arrow. 
 
-Now, enter your auth code, which you received from your previous provider, into the auth code field and then click the green **Add** button. 
+![image](https://screensaver01.zap-hosting.com/index.php/s/omnaMqXJgarxsqW/preview)
+
+Find the domain you wish to transfer and click on the arrow. This will open up a new prompt which is used to authorize the transfer to your ZAP-Hosting account.
+
+![image](https://screensaver01.zap-hosting.com/index.php/s/fXjwGCX7kFtPnTB/preview)
+
+Into this field, you will have to enter the **Auth Code** that you received from your previous provider during the preparation step. Once ready, submit it with the green **Add** button.
 
 :::danger Check Input for Accuracy
-Make sure the auth code is entered correctly and is valid. Otherwise, the order process and the domain transfer will fail.
+
+Please ensure that the **Auth Code** is entered correctly and is valid. Otherwise, the order process and the domain transfer will take longer and may fail.
 ::: 
 
-The domain transfer has now been initiated. The duration of the domain transfer can vary depending on the domain extension and the previous provider. Typically, a domain transfer is successfully completed within 72 hours. However, in special cases, a transfer can take more time.
+The domain transfer has now been initiated. The duration of the domain transfer can vary depending on the domain extension and the previous provider. Typically, a domain transfer is successfully completed within 72 hours. However, in special cases, a transfer can take more time as there are many factors that influence this.
 
 ## Configuration
 

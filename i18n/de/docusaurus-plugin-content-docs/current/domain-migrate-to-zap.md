@@ -16,6 +16,7 @@ Du bist neu und interessierst dich für die Produkte von ZAP-Hosting? Dann bist 
 <InlineVoucher />
 
 ## Vorteile
+
 Mit Sicherheit stehst du vor der Entscheidung, welcher Anbieter der richtige für dich ist. Solch eine Entscheidung kann unter Umständen viel Zeit beanspruchen. Aus diesem Grund möchten wir dir bei der Entscheidung weiterhelfen und die Vorteile von ZAP-Hosting mit dir teilen. Mit Sicherheit stehst du vor der Entscheidung, welcher Anbieter der richtige für dich ist. Solch eine Entscheidung kann unter Umständen viel Zeit beanspruchen. Aus diesem Grund möchten wir dir bei der Entscheidung weiterhelfen und die Vorteile von ZAP-Hosting mit dir teilen. ZAP-Hosting bietet bereits seit über einem Jahrzehnt seine Dienstleistungen an und ist somit ein etablierter und erfahrener Anbieter im Server Hosting Bereich.
 
 Unsere Verwaltungsoberfläche ermöglicht eine einfache und unkomplizierte Verwaltung von Domains. Des Weiteren bieten wir die Möglichkeit Subdomains für weitere ZAP-Produkte einfach per Klick anzulegen. 
@@ -24,7 +25,7 @@ Solltest du dich für uns entschieden haben, so kann im folgenden mit dem Umzug 
 
 ## Vorbereitung
 
-Für den Umzug einer bereits bestehende registrierte Domain ist ein Auth-Code (kurz für Authorization Code) notwendig. Dies ist eine Art Passwort für Domains. Der Auth-Code wird benötigt, wenn eine Domain von einem Anbieter zu einem anderen transferiert werden soll. Dieser Code gewährleistet, dass der Domainumzug tatsächlich vom rechtmäßigen Domain-Inhaber beantragt wurde.
+Für den Umzug einer bereits bestehende registrierte Domain ist ein **Auth-Code** (kurz für Authorization Code) notwendig. Dies ist eine Art Passwort für Domains. Der Auth-Code wird benötigt, wenn eine Domain von einem Anbieter zu einem anderen transferiert werden soll. Dieser Code gewährleistet, dass der Domainumzug tatsächlich vom rechtmäßigen Domain-Inhaber beantragt wurde.
 
 Einige Anbieter stellen den Auth-Code bereits direkt in der Verwaltungsoberfläche bereit. Sollte dies nicht der Fall sein, so müsstest du deinen bisherigen Anbieter über deinen gewünschten Domainumzug informieren und den Auth-Code anfragen. 
 
@@ -34,24 +35,30 @@ Der Auth-Code ist nur für eine bestimmte Zeit gültig. Nach Ablauf dieser Zeit 
 
 ## Übertragung
 
-Vorausgesetzt, dass du deinen Auth-Code besitzt, kannst du jetzt mit der Bestellung und Registrierung deiner Domain bei ZAP-Hosting fortfahren. Rufe dafür die Bestellseite für unsere [**Domains**](https://zap-hosting.com/de/shop/product/domain/) auf. Gebe im folgenden Schritt deinen Domainnamen an und fülle die notwendigen Informationen zu deiner Person aus. Klicke im Anschluss auf den grünen Check Button, um den Vorgang fortzuführen. 
+Vorausgesetzt, dass du deinen Auth-Code besitzt, kannst du jetzt mit der Bestellung und Registrierung deiner Domain bei ZAP-Hosting fortfahren. Rufe dafür die Bestellseite für unsere [**Domains**](https://zap-hosting.com/de/shop/product/domain/) auf. Fülle zunächst deine persönlichen Daten aus und suche dann nach der Domain, die du übertragen möchtest.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/FaFECx24GLSfkPy/preview)
+![image](https://screensaver01.zap-hosting.com/index.php/s/FaFECx24GLSfkPy/preview)
 
-Anschließend öffnet sich eine Auflistung deiner Wunschdomain mit allen angebotenen Domainendungen. Domains, die bereits anderweitig registriert sind, können anhand des grauen Buttons mit dem Pfeil erkannt werden. Klicke auf diesen Pfeil. Daraufhin öffnet sich ein Pop-up-Fenster, in dem dir mitgeteilt wird, dass die Domain bereits anderweitig registriert ist. 
+:::info
+Um eine Domain zu übertragen, musst du sie während des Bestellvorgangs um 1 Jahr verlängern. Das ist bei allen Anbietern üblich.
+:::
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/PajgHLLZC5d6NLH/preview)
+Daraufhin öffnet sich eine Liste deiner Wunschdomain mit allen verfügbaren Domainendungen. Domains, die bereits woanders registriert sind, erkennst du an der grauen Schaltfläche mit dem Pfeil. 
 
+![image](https://screensaver01.zap-hosting.com/index.php/s/omnaMqXJgarxsqW/preview)
 
+Suche die Domain, die du übertragen möchtest, und klicke auf den Pfeil. Daraufhin öffnet sich eine neue Eingabeaufforderung, mit der du den Transfer zu deinem ZAP-Hosting-Konto autorisierst.
 
-Füge in dem Auth-Code Feld nun deinen Auth-Code hinzu, welchen du von deinem bisherigen Anbieter erhalten hast und klicke im Anschluss auf den grünen **Hinzufügen** Button. 
+![image](https://screensaver01.zap-hosting.com/index.php/s/y9mca4c3XeTaaHS/preview)
+
+In dieses Feld musst du den **Auth Code** eingeben, den du von deinem vorherigen Anbieter während der Vorbereitung erhalten hast. Sobald du fertig bist, übermittle ihn mit der grünen Schaltfläche **Hinzufügen**.
 
 :::danger Eingabe auf Richtigkeit prüfen
 
-Stelle sicher, dass die Eingabe des Auth-Codes korrekt und gültig ist. Andernfalls wird der Bestellvorgang und Umzug der Domain fehlschlagen. 
+Stelle sicher, dass die Eingabe des **Auth Code** korrekt und gültig ist. Andernfalls wird der Bestellvorgang und Umzug der Domain fehlschlagen. 
 :::
 
-Der Umzug der Domain wurde nun eingeleitet. Die Dauer des Umzugs der Domain kann abhängig von der Domainendung und vom bisherigen Anbieter unterschiedlich lange dauern. In der Regel wird ein Domainumzug innerhalb von 72 Stunden erfolgreich abgeschlossen. In besonderen Fällen kann ein Umzug allerdings auch mehr Zeit beanspruchen.  
+Der Domaintransfer wurde nun eingeleitet. Die Dauer des Domaintransfers kann je nach Domainendung und bisherigem Provider variieren. Normalerweise wird ein Domaintransfer innerhalb von 72 Stunden erfolgreich abgeschlossen. In besonderen Fällen kann ein Transfer jedoch mehr Zeit in Anspruch nehmen, da es viele Faktoren gibt, die dies beeinflussen.
 
 ## Konfiguration
 
