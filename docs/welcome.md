@@ -24,7 +24,7 @@ Perfect and utilize the full extent of your game server. With our expertise, we 
 
 <Cards>
     <Card title="7 Days to Die" description="Placeholder" link="7d2d-firststeps-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/dXbYWLtmqHnAz8n/preview"/>
-    <Card title="Abiotic Factor" description="Placeholder" link="abioticfactor-firststeps-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/ktTGqHAKnPH6rya"/>
+    <Card title="Abiotic Factor" description="Placeholder" link="abioticfactor-firststeps-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/ktTGqHAKnPH6rya/preview"/>
     <Card title="American Truck Simulator" description="Placeholder" link="ats-firststeps-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/MEJfqyT5YwYpjpW/preview"/>
     <Card title="Among Us" description="Placeholder" link="amongus-firststeps-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/56aajb26cS6Lda3/preview"/>
     <Card title="ARK" description="Placeholder" link="ark-firststeps-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/qnWELD8ik9srBDG/preview"/>
