@@ -1,6 +1,7 @@
 name: Validate Docs Metadata
 
 permissions:
+  issues: write
   pull-requests: write
 
 
