@@ -1658,17 +1658,38 @@ const sidebars = {
         }
       })(),
       defaultStyle: true,
-    }, 
+    },
     'webspace-introduction',
     'webspace-subdomain',
     'webspace-adddomain',
     'webspace-plesk-ftp',
-    'webspace-plesk-sendmail',
+    {
+      type: "category",
+      label: "E-Mails",
+      items: [
+        'webspace-plesk-sendmail',
+        'webspace-email-delivery-optimization',
+      ],
+    },
     'webspace-plesk-ssl',
     'webspace-htaccess-discord',
-    'webspace-mybb',
-    'webspace-wordpress',
-    'webspace-wordpress-migration',
+    {
+      type: "category",
+      label: "MyBB",
+      items: [
+        'webspace-mybb',
+      ],
+    },
+    {
+      type: "category",
+      label: "WordPress",
+      items: [
+        'webspace-wordpress',
+        'webspace-wordpress-plugins',
+        'webspace-wordpress-migration',
+      ],
+    },
+    
   ],
   
   //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
