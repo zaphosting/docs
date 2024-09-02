@@ -17,7 +17,7 @@ Last Oasis bietet die Möglichkeit, mehrere Oasen gleichzeitig mit demselben Rea
 ## Vorbereitung
 Beginne damit, die [offizielle Last Oasis](https://myrealm.lastoasis.gg/) Website aufzurufen und dich mit deiner bevorzugten Plattform (Steam oder Xbox) einzuloggen.
 
-![image](https://user-images.githubusercontent.com/26007280/189681463-3331d6c8-2771-43ee-9b71-a520ad323c98.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/TRjCdm3Lges6w5C/preview)
 
 ## Aktivieren von Multi-Hosting
 Gehe auf der Website in den Bereich **Realms**. Klicke auf deinem aktuellen Realm auf die Schaltfläche **Ändern** und ändere den Hosting-Modus von **Einzel -> Mehrfach**.
@@ -33,16 +33,16 @@ Nachdem du diese Änderung vorgenommen hast, kannst du die Oasen über die Schal
 ## Eine neue Oase erstellen
 Wähle den gewünschten Ort für die neue Oase aus und bestätige mit **Hinzufügen**.
 
-![image](https://user-images.githubusercontent.com/26007280/189681804-db2b1702-86b0-475d-bfbc-2d1a3209622a.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/N3nEyXZF5dcw2dT/preview)
 
 Es wird eine neue Eingabeaufforderung angezeigt, in der du einen Namen festlegen und eine Karte auswählen kannst.
 
-![image](https://user-images.githubusercontent.com/26007280/189681842-3891bc9b-05e9-45f7-8095-1fd56152d062.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/dtzneWcNz2LPCCT/preview)
 
-![image](https://user-images.githubusercontent.com/26007280/189681890-6bd12a88-9cba-4279-bdc7-2465145fc024.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/M2LwXYgtmCR6LeY/preview)
 
 Sobald du bestätigt hast, kannst du auf **Oase hinzufügen** drücken, um die Oase zu erstellen, und sie mit dem Button **Aktivieren** aktivieren.
 
-![image](https://user-images.githubusercontent.com/26007280/189681913-6d4113cf-87d8-4c04-9ff1-a86fd3ca1c27.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/HTsoExwPjcZtAR4/preview)
 
 Du solltest jetzt in der Lage sein, mehrere aktive Oasen gleichzeitig unter dem Abschnitt **Oasen** zu sehen. Du hast erfolgreich mehrere Oasen für dein Realm eingerichtet.

@@ -14,7 +14,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Hast du einen Windows VPS, Root Server oder Dedicated Server und möchtest den Foundry Dedicated Server Service darauf installieren? Dann bist du hier genau richtig. In dieser Anleitung erklären wir dir Schritt für Schritt, wie du diesen Dienst auf deinem Server installierst.
 
-<YouTube videoId="bRsZNqKsghA" title="How To Setup Foundry Dedicated Server on Windows VPS!" description="Hast du das Gefühl, dass du etwas besser verstehst, wenn du es in Aktion siehst? Wir haben etwas für dich! Tauche ab in unser Video, welches alles für dich zusammenfasst. Egal, ob du es eilig hast oder einfach nur Informationen auf möglichst verständliche Art und Weise aufnehmen möchtest!"/>
+<YouTube videoId="bRsZNqKsghA" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/XkT5mxPtb2QxozG/preview" title="How To Setup Foundry Dedicated Server on Windows VPS!" description="Hast du das Gefühl, dass du etwas besser verstehst, wenn du es in Aktion siehst? Wir haben etwas für dich! Tauche ab in unser Video, welches alles für dich zusammenfasst. Egal, ob du es eilig hast oder einfach nur Informationen auf möglichst verständliche Art und Weise aufnehmen möchtest!"/>
 
 <InlineVoucher />
 
@@ -126,4 +126,7 @@ Jetzt kannst du dich über deine IP direkt mit deinem Server verbinden, indem du
 
 Wenn du möchtest, dass dein Server in der Serverliste verfügbar ist, sieh dir bitte unsere [Foundry Server-Konfigurationsanleitung](foundry-configuration.md) an und füge die entsprechenden Parameter `server_name` und `server_is_public` in deine Konfigurationsdatei ein. Speichere die Datei anschließend und führe den Server erneut aus.
 
-Du hast Foundry erfolgreich auf deinem Windows VPS installiert.
+## Abschluss
+
+Glückwunsch, du hast den Foundry Server erfolgreich installiert und konfiguriert! Solltest du noch weitere Fragen oder Probleme haben, dann wende dich gerne an unser Support-Team, welches dir jeden Tag zur Verfügung steht!
+

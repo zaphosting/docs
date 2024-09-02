@@ -14,7 +14,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Hast du einen Windows VPS oder Rootserver und möchtest darauf einen Enshrouded Dedicated Server installieren? Dann bist du hier genau richtig. In dieser Anleitung erklären wir dir Schritt für Schritt, wie du diesen Dienst auf deinem Server installierst.
 
-<YouTube videoId="cxhqHt2DYjQ" title="How To Setup Enshrouded Dedicated Server on Windows VPS!" description="Hast du das Gefühl, dass du etwas besser verstehst, wenn du es in Aktion siehst?  Wir haben etwas für dich! Tauche ab in unser Video, welches alles für dich zusammenfasst. Egal, ob du es eilig hast oder einfach nur Informationen auf möglichst verständliche Art und Weise aufnehmen möchtest!"/>
+<YouTube videoId="cxhqHt2DYjQ" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/ij7SkeBCPrZGt9J/preview" title="How To Setup Enshrouded Dedicated Server on Windows VPS!" description="Hast du das Gefühl, dass du etwas besser verstehst, wenn du es in Aktion siehst? Wir haben etwas für dich! Tauche ab in unser Video, welches alles für dich zusammenfasst. Egal, ob du es eilig hast oder einfach nur Informationen auf möglichst verständliche Art und Weise aufnehmen möchtest!"/>
 
 <InlineVoucher />
 
@@ -121,4 +121,6 @@ Dort findest du die Konfigurationsdatei **enshrouded_server.json**. In dieser Da
 
 Jetzt ist es an der Zeit, deinen Server zu starten. Gehe in das Basisverzeichnis deines Enshrouded-Servers und starte **enshrouded_server.exe**, um den Startvorgang zu beginnen. Dadurch wird die Konsole des Servers in einer Eingabeaufforderung geöffnet und der Startvorgang beginnt. Jetzt kannst du dich direkt mit deinem Server verbinden, indem du auf die Registerkarte **Spiele finden** gehst, auf **Server hinzufügen** drückst und deine Server-IP und deinen Port eingibst (Standard ist 15636).
 
-Du hast Enshrouded erfolgreich auf deinem Windows VPS installiert.
+## Abschluss
+
+Glückwunsch, du hast den Enshrouded Server erfolgreich installiert und konfiguriert! Solltest du noch weitere Fragen oder Probleme haben, dann wende dich gerne an unser Support-Team, welches dir jeden Tag zur Verfügung steht!

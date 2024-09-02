@@ -39,7 +39,7 @@ Nachdem du deine Bestellung abgeschickt hast, sollte dein Überweisungsantrag in
 
 Sollte es ein Problem mit der Bestellung geben, z. B. Probleme mit dem Auth-Code, werden wir dich so schnell wie möglich kontaktieren, damit das Problem umgehend gelöst wird.
 
-### Domain von ZAP-Hosting weg transferieren
+## Domain von ZAP-Hosting weg transferieren
 
 Wir sind traurig, dass du den Umzug deiner Domain von uns weg in Erwägung ziehst, aber wir respektieren unsere Kunden und haben daher den Transfer deiner Domain von uns weg genauso einfach gemacht.
 

@@ -77,7 +77,7 @@ Es soll z. B. täglich um 3 Uhr Morgens ein Backup erstellt werden:
 
 Crontab -e öffnen: 
 
-![](https://user-images.githubusercontent.com/61839701/166191606-3a05da59-82f7-439f-8f44-b94c4ba9d153.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/ZLnnrXc9WteZ6cK/preview)
 
 Mit der Ziffer 1 kann "nano" als Editor genutzt werden.
 Mit der Ziffer 2 kann "vim" als Editor genutzt werden. 
@@ -157,7 +157,7 @@ Es soll z.b täglich um 3 Uhr Morgens ein Backup erstellt werden:
 
 Crontab -e öffnen: 
 
-![](https://user-images.githubusercontent.com/61839701/166191606-3a05da59-82f7-439f-8f44-b94c4ba9d153.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/ZLnnrXc9WteZ6cK/preview)
 
 Mit der Ziffer 1 kann "nano" als Editor genutzt werden.
 Mit der Ziffer 2 kann "vim" als Editor genutzt werden. 

@@ -14,7 +14,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Du hast einen Windows vServer oder Rootserver und möchtest darauf unter anderem Gameserver installieren? Beispielsweise einen ARK: Survival Evolved Dedicated Server? Dann bist du hier genau richtig! Im folgenden werden wir dir Schritt für Schritt erklären, wie du solch einen Dienst auf deinem Server installieren kannst. Verbinde dich für die Einrichtung deines ARK: Survival Evolved Dedicated Server mit deinem vServer oder Rootserver per RDP. Solltest du noch nicht wissen, wie du dich per RDP mit deinem Server verbinden kannst, dann empfehlen wir einen Blick in die [RDP Anleitung](vserver-windows-userdp.md) zu werfen. 
 
-<YouTube videoId="YOz_SqsUkg4" title="ARK: Survival Evolved Dedicated Server Setup on Windows VPS" description="Hast du das Gefühl, dass du etwas besser verstehst, wenn du es in Aktion siehst?  Wir haben etwas für dich! Tauche ab in unser Video, welches alles für dich zusammenfasst. Egal, ob du es eilig hast oder einfach nur Informationen auf möglichst verständliche Art und Weise aufnehmen möchtest!"/>
+<YouTube videoId="YOz_SqsUkg4" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/pf2ETekCJmXbsrb/preview" title="ARK: Survival Evolved Dedicated Server Setup on Windows VPS" description="Hast du das Gefühl, dass du etwas besser verstehst, wenn du es in Aktion siehst? Wir haben etwas für dich! Tauche ab in unser Video, welches alles für dich zusammenfasst. Egal, ob du es eilig hast oder einfach nur Informationen auf möglichst verständliche Art und Weise aufnehmen möchtest!"/>
 
 <InlineVoucher />
 
@@ -24,7 +24,7 @@ Für die Einrichtung eines ARK Servers wird die SteamCMD benötigt. Die SteamCMD
 
 Im Anschluss erfolgt der Download. Dieser beinhaltet die **steamcmd.zip** Datei, welche zunächst entpackt werden muss. Erstelle dafür am besten einen separaten Ordner, wo die Datei dann entpackt wird. Als Resultat solltest du nun die **steamcmd.exe** sehen. Führe diese aus und warte, bis der Installationsprozess abgeschlossen ist. 
 
-![image](https://user-images.githubusercontent.com/26007280/217031201-9998c3b6-08a7-4550-b8c3-795c7553ca8f.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/Bg4JjDaQLFyRw9j/preview)
 
 Sobald die Meldung **Loading Steam API... OK** angezeigt wird, wurde der Vorgang erfolgreich abgeschlossen und es kann mit der Installation des ARK Servers begonnen werden. 
 
@@ -36,7 +36,7 @@ Nach der Installation solltest du die Möglichkeit haben, Befehle in der **Steam
 
 Als nächstes erfolgt die Installation. Diese wird mit dem `app_update 376030` Befehl durchgeführt. Die App ID **376030** steht in dem Fall für die **ARK: Survival Evolved Dedicated Server** Applikation. 
 
-![image](https://user-images.githubusercontent.com/26007280/217031272-ec28f4e4-c981-4053-b97e-ba15be3f1b03.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/Da3DBbppNe3TDfg/preview)
 
 
 
@@ -63,7 +63,7 @@ exit
 
 Damit der Server auch extern sichtbar und erreichbar ist, müssen die verwendeten Server Ports in der Firewall freigeschaltet/weitergeleitet werden. Öffne dazu die Windows Firewall Einstellungen. 
 
-![image](https://user-images.githubusercontent.com/26007280/217031321-d56cd679-9423-49e5-b477-4412e4ffbc24.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/HfbkgcWf9JxDdc8/preview)
 
 
 
@@ -88,4 +88,9 @@ Die eigentliche Einrichtung ist damit bereits abgeschlossen. Weitere Änderungen
 
 Zum Abschluss der Einrichtung kannst du nun den Server starten, indem du die zuvor erstellte **start-ark.bat** Datei ausführst. Hierdurch sollte sich die Konsole des Servers öffnen und der Startprozess beginnen. Wenn alles wie erwartet verläuft, sollte der Server nach dem erfolgreichen Start in der Liste der Server sichtbar sein.
 
-![image](https://user-images.githubusercontent.com/26007280/217031374-cd159a55-3dc8-4b62-9f1b-0b35bb0917e7.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/tAwoBLNJn9Rr68K/preview)
+
+
+## Abschluss
+
+Glückwunsch, du hast den ARK Survival Server erfolgreich installiert und konfiguriert! Solltest du noch weitere Fragen oder Probleme haben, dann wende dich gerne an unser Support-Team, welches dir jeden Tag zur Verfügung steht!

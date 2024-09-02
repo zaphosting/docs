@@ -29,7 +29,7 @@ Im Folgenden wird die Verbindung mittels des Putty SSH-Client erläutert. Im Kon
 
 
 
-![image](https://user-images.githubusercontent.com/13604413/159171679-e55411b6-17be-49f8-a80f-645f4652c9c4.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/YYwE5jRzMgLpEag/preview)
 
 
 
@@ -39,7 +39,7 @@ Standardmäßig ist der SSH-Login via Passwort deaktiviert. Solltest du dich mit
 
 
 
-![image](https://user-images.githubusercontent.com/13604413/159171681-abfa1472-41cf-4219-92fe-9ad948c7e8d2.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/qTGZ2yDztnXrND7/preview)
 
 
 
@@ -53,7 +53,7 @@ Daraufhin öffnet sich die SSH-Konsole, in der nach einem **Benutzernamen** und 
 
 
 
-![image](https://user-images.githubusercontent.com/13604413/159171684-d50db714-df08-46ed-9453-1d186edda3de.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/SyTPePoYjm2c2rS/preview)
 
 
 

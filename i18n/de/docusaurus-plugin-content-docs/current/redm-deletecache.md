@@ -33,18 +33,18 @@ Dein Server wird nun neu gestartet und der Cache gelöscht. Wenn der Server neu 
 
 Zunächst musst du dich per FTP mit deinem Server verbinden. Wenn du mit der Verwendung von FTP nicht vertraut bist, empfehlen wir dir, einen Blick in die [Zugriff per FTP](gameserver-ftpaccess.md) Anleitung zu werfen.
 
-![image](https://user-images.githubusercontent.com/13604413/159137768-9431a8d8-afa2-47a7-960b-7bcd700c9627.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/Fk6napwiqWmMTfN/preview)
 
 ### Cache lokalisieren
 
 Im nächsten Schritt musst du den Cache-Ordner finden und ihn löschen. Du solltest diesem Pfad folgen: `/gXXXXXX/gta5-RedM/server-data/cache`, um direkt auf den Cache-Ordner zugreifen zu können.
 
-![image](https://user-images.githubusercontent.com/13604413/159137776-328b84d3-992b-47ef-b8d8-c1abb0beae45.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/pde2FaQ4PqTTrdp/preview)
 
 ### Cache leeren
 
 Jetzt musst du einfach den Cache leeren. Klicken dazu auf den Ordner **Cache** und dann auf **Files**. Nun solltest du alle Ordner markieren, die sich im Ordner **Cache** befinden und sie löschen.
 
-![image](https://user-images.githubusercontent.com/13604413/159137786-b7a63449-4d89-4f77-a06c-9edd87bdd85e.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/xikbzRPBH4gpH3w/preview)
 
 Starten jetzt deinen RedM Server neu, damit die Änderungen wirksam werden. Beim Neustart des Servers wird der Cache neu beschrieben. Du hast den Cache für deinen RedM Gameserver erfolgreich bereinigt!

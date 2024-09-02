@@ -124,4 +124,7 @@ nginx version: nginx/1.2.3
 ...
 ```
 
-Wenn eines der beiden Fälle eintrifft, dann wurde erfolgreich der Webserver installiert. 
+
+## Abschluss
+
+Glückwunsch, du hast deinen gewünschten Webserver erfolgreich installiert und konfiguriert! Solltest du noch weitere Fragen oder Probleme haben, dann wende dich gerne an unser Support-Team, welches dir jeden Tag zur Verfügung steht! 

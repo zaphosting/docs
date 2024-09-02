@@ -15,12 +15,12 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Zuallererst müssen wir uns mit unserer Datenbank verbinden. Dies tun wir unter dem Reiter "Datenbanken"
 
-![image](https://user-images.githubusercontent.com/13604413/172065852-e653eed4-82b2-4adb-b204-401766830be0.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/br9Rbw6EQAdccbP/preview)
 
 
 Dort klicken wir dann auf das blaue Icon und loggen uns dann mit unseren Daten, welche wir auch auf der Seite finden, ein.
 
-![image](https://user-images.githubusercontent.com/13604413/172065857-ca86be43-dbbd-4045-b2cd-a836c06ddd27.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/2QDaDNL4MxCgj2f/preview)
 
 
 ## Spawnnamen finden
@@ -39,17 +39,17 @@ Standardmäßig sind sehr viele Autos schon im Fahrzeugshop. Schaut, ob euer Aut
 Zu aller erst kontrollieren wir die Fahrzeugkategorien, sodass wir wissen, welche wir hinterlegen können.
 Das machen wir im "vehicle_categories Table
 
-![image](https://user-images.githubusercontent.com/13604413/172065895-321b78a5-7952-44e4-a15c-050d80e2aa2a.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/3Eb9JeFiDnJ3YQy/preview)
 
 
 Hier brauchen wir die "name" Spalte. Diese merken wir uns.
 
-![image](https://user-images.githubusercontent.com/13604413/172065901-53ff6c6a-e671-4ee3-9db9-6e26336f4ac3.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/ADRnRKGE2TikD3F/preview)
 
 
 Haben wir das gemacht, gehen wir in den "vehicles" Table und gehen dann auf Einfügen
 
-![image](https://user-images.githubusercontent.com/13604413/172065912-157e9132-78ed-4557-827f-d55c4dcb8aa6.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/6dw4tarMHfdYMsM/preview)
 
 
 Nun fügen wir ein neues Fahrzeug hinzu. Eine kurze Erklärung, was für was steht:
@@ -61,5 +61,5 @@ Nun fügen wir ein neues Fahrzeug hinzu. Eine kurze Erklärung, was für was ste
 
 Hier noch ein Beispiel:
 
-![image](https://user-images.githubusercontent.com/13604413/172065930-4de7949f-b59f-4dd5-a1f0-4773fcfd3c41.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/LHmdSw4ipARcanc/preview)
 

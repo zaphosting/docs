@@ -40,7 +40,7 @@ Server zur Verfügung gestellt von meinem Partner in Sachen Gameserver, Rootserv
 
 Sobald du dich auf ZAP-Hosting.com eingeloggt hast, wirst du in der Kopfzeile als ZAP-Partner zwei Veränderungen feststellen: Erstens glänzt nun ein Ring um dein Avatarbild, der deinen Rang als Partner darstellt und zweitens ist ein Stern neben deinem Avatar aufgetaucht, der dich zum **Partner Menü** führt.
 
-![2022-04-14_04-49](https://user-images.githubusercontent.com/61953937/164868573-675a8595-7930-465e-911d-2b345d41a281.png)
+![2022-04-14_04-49](https://screensaver01.zap-hosting.com/index.php/s/4F7AteNbyigg3rZ/preview)
 
 Unterteilt werden Partner bei uns in die Ränge **Silver**, **Gold** und **Diamond**. Diese Ränge unterscheiden sich nicht nur in ihrem Namen, sondern vor allem in der von uns gestellten Leistung und natürlich der Leistung des jeweiligen Influencers/Partners. Erstmal startet jeder Partner im **Silver-Rang** und erhält von uns eine Basisausstattung mit kostenlosen Servern, Grafiken und einem Ansprechpartner bei Rückfragen (Partner Manager). 
 
@@ -54,13 +54,13 @@ Sobald Partner den finalen Rang des **Diamond Partners** erreicht haben, winken 
 
 Jeder ZAP-Partner bekommt Zugriff auf das Partner Menü, in dem er unter anderem die Kontaktdaten seines Partnermanagers findet, Einblick in seine Statistiken bekommt, Werbemittel erstellen kann und natürlich auch individuelle Links anlegen kann.
 
-![2022-04-23_03-55_1](https://user-images.githubusercontent.com/61953937/164868620-839f04f7-0d93-43b5-846a-13e41d39be01.png)
+![2022-04-23_03-55_1](https://screensaver01.zap-hosting.com/index.php/s/w43CjTNFg8H2MD3/preview)
 
 ### Werbemittel
 
 Du benötigst ein Minecraft-Banner, den du auf deiner Website anbringen kannst? Dir fehlt das ZAP Logo? Oder brauchst du ein paar Ideen, wie dein Panel aussehen kann? Dann schau dich im Dropdown Menü um und lade dir hier alle benötigten Grafiken runter. Wir geben dir neben der Grafik selbst auch einen Link, mit dem du deine Grafik unkompliziert einbinden kannst.
 
-![2022-04-23_04-46](https://user-images.githubusercontent.com/61953937/164869023-ccec6184-b25b-40ae-b543-7c95939c74bd.png)
+![2022-04-23_04-46](https://screensaver01.zap-hosting.com/index.php/s/r6tWWG6gxmsyN43/preview)
 
 Klicke einfach auf den grünen Button **Neues Werbemittel erstellen** und wähle im Dropdown Menü aus unseren Vorlagen deinen Favoriten.
 
@@ -70,13 +70,13 @@ Klicke einfach auf den grünen Button **Neues Werbemittel erstellen** und wähle
 
 **Name/Beschreibung:** Der Name deines Banners. Sollte es der Banner für deine Frontpage werden, so könnte man den Banner einfach "Minecraft Banner Frontpage" nennen.
 
-![2022-04-23_03-55_2](https://user-images.githubusercontent.com/61953937/164869030-8b13e41a-fb70-447a-9153-e5ff4dc65228.png)
+![2022-04-23_03-55_2](https://screensaver01.zap-hosting.com/index.php/s/XNg34fssJLCSnLx/preview)
 
 ### Links
 
 Unter demselben Menüpunkt gelangst du zum Link-Generator. Dieser funktioniert im Grunde genau wie der Banner-Generator, jedoch ohne euch ein Banner anzubieten. Stattdessen könnt ihr einen eigenen Linktext eingeben, der anderen in der Vorschau angezeigt wird.
 
-![2022-04-23_03-56](https://user-images.githubusercontent.com/61953937/164869035-ac56822c-cc4d-43f0-a377-315c5cecd79b.png)
+![2022-04-23_03-56](https://screensaver01.zap-hosting.com/index.php/s/s5w4BTDg2Q4bpKS/preview)
 
 ### Events
 

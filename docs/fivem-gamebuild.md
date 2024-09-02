@@ -51,7 +51,7 @@ One you have picked your choice, head over to the bottom of the page and press t
 
 To enable the content on a txadmin server, you need to open your txadmin-interface and head over to the FXServer settings.
 
-![image](https://user-images.githubusercontent.com/13604413/159138094-9d72159c-36f7-4193-aea9-fb1c0260ad04.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/HxmnfPEdcDJgZLX/preview)
 
 
 

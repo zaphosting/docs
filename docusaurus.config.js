@@ -117,22 +117,35 @@ const config = {
         redirects: [
           // /docs/oldDoc -> /docs/newDoc
           {
-            to: '/docs/contribution-guides',
-            from: '/docs/contribution-submission',
+            to: '/docs/contribution-guides', from: '/docs/contribution-submission',
           },
           {
-            to: '/docs/contribution-guides-guidelines',
-            from: '/docs/contribution-guidelines',
+            to: '/docs/contribution-guides-guidelines', from: '/docs/contribution-guidelines',
           },
           {
-            to: '/docs/vserver-root-difference',
-            from: '/docs/vserver-root-unterschied',
+            to: '/docs/vserver-root-difference', from: '/docs/vserver-root-unterschied',
           },
-          // Redirect from multiple old paths to the new path
-          /*{
-            to: '/docs/newDoc2',
-            from: ['/docs/oldDocFrom2019', '/docs/legacyDocFrom2016'],
-          },*/
+          {
+            to: '/docs/ets2-server-modding', from: '/docs/trucksim-dlc',
+          },
+          {
+            to: '/docs/fivem-dashboard', from: '/docs/fivem-vrp-changemoneyicon',
+          },
+          {
+            to: '/docs/fivem-dashboard', from: '/docs/fivem-vrp-removespeedo',
+          },
+          {
+            to: '/docs/fivem-dashboard', from: '/docs/altv-firststeps-dashboard',
+          },
+          {
+            to: '/docs/fivem-dashboard', from: '/docs/altv-installresources',
+          },
+          {
+            to: '/docs/fivem-dashboard', from: '/docs/ragemp-firststeps-dashboard',
+          },
+          {
+            to: '/docs/fivem-dashboard', from: '/docs/ragemp-installpackages',
+          }
         ],
       },
     ],
@@ -231,18 +244,6 @@ const config = {
             switch (process.env.DOCUSAURUS_CURRENT_LOCALE) {
               case "de": return '<a href="https://zap-hosting.com/de/server-mieten/">Server mieten</a>';
               default: return '<a href="https://zap-hosting.com/en/server-hosting/">Rent a server</a>';
-            }
-          })(),
-        },
-        {
-          type: 'html',
-          position: 'right',
-          className: 'externalLink',
- 
-          value: (() => {
-            switch (process.env.DOCUSAURUS_CURRENT_LOCALE) {
-              case "de": return '<a href="https://zap-hosting.com/de/">Zurück zu ZAP-Hosting ⤾</a>';
-              default: return '<a href="https://zap-hosting.com/en/">Back to ZAP-Hosting ⤾</a>';
             }
           })(),
         },

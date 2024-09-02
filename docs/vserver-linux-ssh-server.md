@@ -7,7 +7,10 @@ services:
   - vserver
 ---
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 import InlineVoucher from '@site/src/components/InlineVoucher';
+
 
 ## Introduction
 
@@ -23,9 +26,6 @@ If you wish to learn more about improving your security on your server, we highl
 
 To start the installation process, access your server via VNC. You can follow these steps using the [VNC Console](vserver-vnc.md).
 
-
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
 
 <Tabs>
 <TabItem value="CentOS" label="CentOS" default>
@@ -54,33 +54,6 @@ Ensure that you enable the service to automatically start on system boot. You ca
 systemctl enable sshd
 ```
 
-## Enabling root login
-
-To enable root login, you need to edit the openssh configuration file. In this guide, we will use "nano" as editor.
-
-:::info
-If "nano" is not already installed, it must be installed first. To do so, use the following command: `yum install nano`
-:::
-
-Proceed to open the configuration file by running:
-```
-nano /etc/ssh/sshd_config 
-```
-
-Using arrows keys to navigate, search for the following line:
-```
-#PermitRootLogin prohibit-password
-```
-
-Change this to the following, which enables remote root login:
-```
-PermitRootLogin yes
-```
-
-Finally, restart the SSH Server in order to apply the new configuration by using the following command:
-```
-systemctl restart sshd
-```
 </TabItem>
 
 <TabItem value="Debian" label="Debian">
@@ -107,34 +80,6 @@ systemctl start sshd
 Ensure that you enable the service to automatically start on system boot. You can do this through the following command:
 ```
 systemctl enable sshd
-```
-
-## Enabling root login
-
-To enable root login, you need to edit the openssh configuration file. In this guide, we will use "nano" as editor.
-
-:::info
-If you do not already have "nano" installed, you will need to install it. To do so, use the following command: `apt install nano`
-:::
-
-Proceed to open the configuration file by running:
-```
-nano /etc/ssh/sshd_config 
-```
-
-Using arrows keys to navigate, search for the following line:
-```
-#PermitRootLogin prohibit-password
-```
-
-Change this to the following, which enables remote root login:
-```
-PermitRootLogin yes
-```
-
-Finally, restart the SSH Server in order to apply the new configuration by using the following command:
-```
-systemctl restart sshd
 ```
 </TabItem>
 
@@ -163,34 +108,6 @@ Ensure that you enable the service to automatically start on system boot. You ca
 ```
 systemctl enable sshd
 ```
-
-## Enabling root login
-
-To enable root login, you need to edit the openssh configuration file. In this guide, we will use "nano" as editor.
-
-:::info
-If you do not already have "nano" installed, you will need to install it. To do so, use the following command: `apt install nano`
-:::
-
-Proceed to open the configuration file by running:
-```
-nano /etc/ssh/sshd_config 
-```
-
-Using arrows keys to navigate, search for the following line:
-```
-#PermitRootLogin prohibit-password
-```
-
-Change this to the following, which enables remote root login:
-```
-PermitRootLogin yes
-```
-
-Finally, restart the SSH Server in order to apply the new configuration by using the following command:
-```
-systemctl restart sshd
-```
 </TabItem>
 
 <TabItem value="Fedora" label="Fedora">
@@ -218,18 +135,107 @@ Ensure that you enable the service to automatically start on system boot. You ca
 ```
 systemctl enable sshd
 ```
+</TabItem>
+</Tabs>
 
 ## Enabling root login
 
+<Tabs>
+
+<TabItem value="CentOS" label="CentOS" default>
 To enable root login, you need to edit the openssh configuration file. In this guide, we will use "nano" as editor.
 
 :::info
-If you do not already have "nano" installed, you will need to install it. To do so, use the following command: `dnf install nano`
+If "nano" is not already installed, it must be installed first. To do so, use the following command: `yum install nano`
 :::
 
 Proceed to open the configuration file by running:
 ```
-sudo nano /etc/ssh/sshd_config 
+nano /etc/ssh/sshd_config 
+```
+
+Using arrows keys to navigate, search for the following line:
+```
+#PermitRootLogin prohibit-password
+```
+
+Change this to the following, which enables remote root login:
+```
+PermitRootLogin yes
+```
+
+Finally, restart the SSH Server in order to apply the new configuration by using the following command:
+```
+systemctl restart sshd
+```
+</TabItem>
+
+<TabItem value="Debian" label="Debian" default>
+To enable root login, you need to edit the openssh configuration file. In this guide, we will use "nano" as editor.
+
+:::info
+If "nano" is not already installed, it must be installed first. To do so, use the following command: `yum install nano`
+:::
+
+Proceed to open the configuration file by running:
+```
+nano /etc/ssh/sshd_config 
+```
+
+Using arrows keys to navigate, search for the following line:
+```
+#PermitRootLogin prohibit-password
+```
+
+Change this to the following, which enables remote root login:
+```
+PermitRootLogin yes
+```
+
+Finally, restart the SSH Server in order to apply the new configuration by using the following command:
+```
+systemctl restart sshd
+```
+</TabItem>
+
+<TabItem value="Ubuntu" label="Ubuntu" default>
+To enable root login, you need to edit the openssh configuration file. In this guide, we will use "nano" as editor.
+
+:::info
+If "nano" is not already installed, it must be installed first. To do so, use the following command: `yum install nano`
+:::
+
+Proceed to open the configuration file by running:
+```
+nano /etc/ssh/sshd_config 
+```
+
+Using arrows keys to navigate, search for the following line:
+```
+#PermitRootLogin prohibit-password
+```
+
+Change this to the following, which enables remote root login:
+```
+PermitRootLogin yes
+```
+
+Finally, restart the SSH Server in order to apply the new configuration by using the following command:
+```
+systemctl restart sshd
+```
+</TabItem>
+
+<TabItem value="Fedora" label="Fedora" default>
+To enable root login, you need to edit the openssh configuration file. In this guide, we will use "nano" as editor.
+
+:::info
+If "nano" is not already installed, it must be installed first. To do so, use the following command: `yum install nano`
+:::
+
+Proceed to open the configuration file by running:
+```
+nano /etc/ssh/sshd_config 
 ```
 
 Using arrows keys to navigate, search for the following line:
@@ -249,5 +255,8 @@ systemctl restart sshd
 </TabItem>
 </Tabs>
 
-You have now successfully installed the SSH Service on your server and can now access your server via SSH.
+
+## Conclusion
+
+Congratulations, you have successfully installed and configurated the SSH service! If you have any further questions or problems, please contact our support team, who are available to help you every day! 
 

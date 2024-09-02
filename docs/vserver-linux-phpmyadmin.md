@@ -147,3 +147,9 @@ chown -R www-data:www-data /usr/share/phpmyadmin/tmp/
 The phpMyAdmin installation is finished. 
 
 The phpMyAdmin web interface can now be opened via browser with/phpmyadmin, e.g. 123.123.123.123/phpmyadmin
+
+
+
+## Conclusion
+
+Congratulations, you have successfully installed and configurated phpMyAdmin! If you have any further questions or problems, please contact our support team, who are available to help you every day! 

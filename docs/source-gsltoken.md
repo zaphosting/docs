@@ -30,7 +30,7 @@ To create a game server login token, you need to be logged in to the Steam websi
 
 
 
-![image](https://user-images.githubusercontent.com/13604413/159178565-0844dacc-31d2-4a11-980d-d1b5caba44d6.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/an5ySHwzSZmEwep/preview)
 
 
 
@@ -47,7 +47,7 @@ When you get there, you will be asked for the App ID and a memo (any name you wi
 
 The GSL token can be defined in the interface under the settings.
 
-![image](https://user-images.githubusercontent.com/26007280/189975649-7eda2073-2e15-4e89-97c6-9b0b594029ae.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/jqkbkXG2YQLatw2/preview)
 
 
 Once this step is done and the server has been restarted, the server will also appear in the public server list. 

@@ -13,12 +13,12 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Um die Devtools in FiveM zu aktiveren, müssen wir zunächst unseren FiveM Client öffnen und die Einstellungen öffnen:
 
-![image](https://user-images.githubusercontent.com/13604413/159137913-16bd57dc-c9b6-435d-bc88-4d0a788c8b7f.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/tMp68tzRmnPPW8Z/preview)
 
 Hier scrollen wir nun runter zum Update Channel, und setzen diesen auf Beta:
 
-![image](https://user-images.githubusercontent.com/13604413/159137922-6380eb24-a85e-4cdb-909d-fa14903e6f6e.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/BB2eyoM2axkTHH8/preview)
 
 Nun müssen wir einfach nur unser FiveM neu starten, danach werden die Devtools aktiviert sein:
 
-![image](https://user-images.githubusercontent.com/13604413/159137932-d8081be6-95a7-4309-976a-c154bc7ed7fa.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/GKxmoXqm7pgnZw4/preview)

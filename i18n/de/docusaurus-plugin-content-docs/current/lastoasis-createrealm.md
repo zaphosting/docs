@@ -19,23 +19,23 @@ Eine der Voraussetzungen für die Einrichtung eines neuen Realms ist die Generie
 
 Gehe einfach auf die [offizielle Last Oasis](https://myrealm.lastoasis.gg/) Website und logge dich mit der von dir bevorzugten Plattform (Steam oder Xbox) ein.
 
-![image](https://user-images.githubusercontent.com/26007280/189681463-3331d6c8-2771-43ee-9b71-a520ad323c98.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/d7MNA94TAkmfq4w/preview)
 
 ## Serverschlüssel einrichten
 Sobald du eingeloggt bist, erhältst du bereits einen **CustomerKey**, den Schlüssel für deinen Gameserver.
 
-![image](https://user-images.githubusercontent.com/26007280/189681494-eb3a43ae-c64a-4e00-ab23-16db84a9e45f.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/iLZT2WBbeJdsq5F/preview)
 
 Gehe einfach zum Abschnitt **Einstellungen** im Webinterface deines Gameservers und gib diesen Code in das Feld **Kundenschlüssel** ein. Achte darauf, dass du nach der Änderung speicherst.
 
 ## Providerschlüssel einrichten
 Du musst auch einen Anbieterschlüssel erstellen, um deinen Gameserver eindeutig zu identifizieren. Benutze einfach den Button **Schlüssel hinzufügen**, um ein Menü zu öffnen.
 
-![image](https://user-images.githubusercontent.com/26007280/189681525-0d70a939-ed9a-4ba0-857c-d409e3f6dd70.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/oZtZyPqgw9bPTmF/preview)
 
 Gib im Menü einen sinnvollen Namen und eine Beschreibung für den Schlüssel ein und drücke **Hinzufügen**.
 
-![image](https://user-images.githubusercontent.com/26007280/189681548-b56758c4-7508-4eb5-bdca-eceeb4889ac1.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/qpPTPZHP4EFfsid/preview)
 
 :::tip
 Wenn du mehrere Oasen in deinem Realm miteinander verbinden möchtest und sie gleichzeitig aktiv sein sollen, kannst du in unserem [Last Oasis mehrere Oasen Anleitung](lastoasis-multiple-oases.md) nachlesen, wie du das machst.
@@ -46,36 +46,36 @@ Gehe wieder zu den **Einstellungen** im Webinterface deines Gameservers und gib 
 ## Einen Realm erstellen
 Jetzt kannst du einen Realm erstellen. Gehe auf der [offiziellen Last Oasis](https://myrealm.lastoasis.gg/) Website in den Bereich **Realms** und erstelle einen neuen Realm.
 
-![image](https://user-images.githubusercontent.com/26007280/189681598-f4dc892f-23b1-4ecf-8d99-6e0168264917.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/tMsAJBEkmAj9ZAp/preview)
 
 Wähle einen Namen und fülle alle zusätzlichen Details aus, die du möchtest. Wenn du fertig bist, speichere den Realm. Dies ist notwendig, damit du dich mit deinem Server verbinden kannst.
 
-![image](https://user-images.githubusercontent.com/26007280/189681657-242bfb33-3d4a-43a2-bb7a-3d764bffe1cc.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/6SAePfoi3Z29jq5/preview)
 
 Sobald du deinen Realm erstellt hast, siehst du eine Übersicht über den gesamten Realm, in der du alle zusätzlichen Einstellungen vornehmen und nützliche Informationen einsehen kannst.
 
-![image](https://user-images.githubusercontent.com/26007280/189681726-00bf5516-92f2-4a6e-bd21-c7a0e937293f.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/xbFLbTEd4TPPimg/preview)
 
 ## Eine Oase erstellen
 Der letzte Schritt besteht darin, eine Oase in deinem Realm zu erstellen. Für jeden Gameserver, den du besitzt, musst du eine eigene Oase erstellen. Wenn du zum Beispiel 2 Gameserver besitzt, solltest du für beide eine eigene Oase erstellen.
 
 Klicke einfach auf den Button **Verwalten** in der Realm-Übersicht.
 
-![image](https://user-images.githubusercontent.com/26007280/189681750-1a44c54f-1240-45ae-a31d-1ae44ae4e014.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/d7PcKf7H7zpWTm6/preview)
 
 Auf der neuen Seite wählst du den gewünschten Ort für deine neue Oase aus und bestätigst mit **Hinzufügen**.
 
-![image](https://user-images.githubusercontent.com/26007280/189681804-db2b1702-86b0-475d-bfbc-2d1a3209622a.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/PD5KfSABgxqQ93S/preview)
 
 Es wird eine neue Eingabeaufforderung angezeigt, in der du einen Namen festlegen und eine Karte auswählen kannst.
 
-![image](https://user-images.githubusercontent.com/26007280/189681842-3891bc9b-05e9-45f7-8095-1fd56152d062.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/crcZkzabyCa3zFn/preview)
 
-![image](https://user-images.githubusercontent.com/26007280/189681890-6bd12a88-9cba-4279-bdc7-2465145fc024.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/KNWnbcTb7QdMJmn/preview)
 
 Sobald du bestätigt hast, kannst du auf **Oase hinzufügen** drücken, um die Oase zu erstellen, und sie mit dem Button **Aktivieren** aktivieren.
 
-![image](https://user-images.githubusercontent.com/26007280/189681913-6d4113cf-87d8-4c04-9ff1-a86fd3ca1c27.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/AfFCY2psAw4oLrb/preview)
 
 :::tip
 Wenn du mehrere Oasen in deinem Realm miteinander verbinden möchtest und sie gleichzeitig aktiv sein sollen, kannst du in unserem [Last Oasis mehrere Oasen Anleitung](lastoasis-multiple-oases.md) nachlesen, wie du das machst.

@@ -15,11 +15,11 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 First of all we have to connect to our database. We do this under the tab "Databases"
 
-![image](https://user-images.githubusercontent.com/13604413/172065955-25e74b2b-ce4c-495d-b846-c3fecaec0216.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/8NYJC6Qq5inG5yk/preview)
 
 There we click on the blue icon and log in with our data, which we also find on the page.
 
-![image](https://user-images.githubusercontent.com/13604413/172065959-8abe71a9-321f-42ee-a6b5-9294f0fbdbd0.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/XK5CLoeckxxHk8w/preview)
 
 ## Find spawn names
 
@@ -37,18 +37,18 @@ By default there are a lot of cars already in the car shop. See if your car is a
 First of all we check the car categories. So we know which ones we can add.
 We do this in the "vehicle_categories table
 
-![image](https://user-images.githubusercontent.com/13604413/172065895-321b78a5-7952-44e4-a15c-050d80e2aa2a.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/PYSt6anrdXs8QLY/preview)
 
 Here we need the "name" column. We'll remember this one.
 
 
-![image](https://user-images.githubusercontent.com/13604413/172065901-53ff6c6a-e671-4ee3-9db9-6e26336f4ac3.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/CnrQJcGbf3SPdtg/preview)
 
 Once we do that, we go to the "vehicles" table.
 And then go to Insert
 
 
-![image](https://user-images.githubusercontent.com/13604413/172065912-157e9132-78ed-4557-827f-d55c4dcb8aa6.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/eN5x9o724a6tKwf/preview)
 
 Now we add a new vehicle. A short explanation what stands for what:
 
@@ -60,4 +60,4 @@ Now we add a new vehicle. A short explanation what stands for what:
 Ich habe hier noch ein kleines Beispiel für euch:
 
 
-![image](https://user-images.githubusercontent.com/13604413/172065930-4de7949f-b59f-4dd5-a1f0-4773fcfd3c41.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/cFrrLYKTALmCnFP/preview)

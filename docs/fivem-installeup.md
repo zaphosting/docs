@@ -21,7 +21,7 @@ Before EUP can be installed, the [FTP access](gameserver-ftpaccess.md) must be s
 
 After this has been set up, you can now connect and open the server folder.
 
-![image](https://user-images.githubusercontent.com/26007280/189978708-0b6694b6-861d-456e-a154-93e0c1262158.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/RpZGaJ6W3HMgmtg/preview)
 
 ## Preparation
 
@@ -31,7 +31,7 @@ We also need to [download NativeUI](https://github.com/FrazzIe/NativeUILua/archi
 
 after we have downloaded the `eup-ui.7z`, `eup-stream.7z` and `NativeUI-master.zip`, we have to unzip them
 
-![image](https://user-images.githubusercontent.com/13604413/159167172-33ea451b-fc5f-4dd7-8768-c55dd4e791c5.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/D5XMadzJ2NwpLgq/preview)
 
 :::info
 Note: For NativeUI, you have to open the "NativeUI-master" folder first, there you will find the correct scripts.
@@ -40,13 +40,13 @@ Note: For NativeUI, you have to open the "NativeUI-master" folder first, there y
 After unzipping the resource, it should now contain a __resource.lua or fxmanifest.lua and script files/folders.
 
 **eup-ui**
-![image](https://user-images.githubusercontent.com/13604413/159167183-5a3c682f-5e9f-4df3-938f-f8168f2c8ab6.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/PjXPtC49ZAkiD87/preview)
 
 **eup-stream**
-![image](https://user-images.githubusercontent.com/13604413/159167191-887fb1a0-961d-4b57-9beb-78a6a0a5ef00.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/y4HNTngCjkg8n44/preview)
 
 **NativeUI**
-![image](https://user-images.githubusercontent.com/13604413/159167198-1c976213-42f3-41df-b444-b8dafb8ebeec.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/EwdgkfA5qjWNAYj/preview)
 
 :::info
 If this is not the case, they may be in a subfolder, usually with the same name.
@@ -57,15 +57,15 @@ If this is not the case, they may be in a subfolder, usually with the same name.
 
 Now we install the resources, in our example via WinSCP, we can upload them via drag&drop into the "resources" folder
 
-![image](https://user-images.githubusercontent.com/13604413/159167216-255c1841-8db9-4d43-a0ec-58f6783ead3a.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/qFtS6sJHy67Y773/preview)
 
 After this has been uploaded, the server.cfg must be opened in the server-data folder:
 
-![image](https://user-images.githubusercontent.com/13604413/159167223-cd8e0b4b-67a4-420e-9f0d-c74e070e489f.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/TaLNK6SP8jwCJYT/preview)
 
 Among the remaining start entries for resources you can now add the entry for our resources, in this case "NativeUI", "eup-stream" and "eup-ui":
 
-![image](https://user-images.githubusercontent.com/13604413/159167238-56880863-9a49-4651-a95c-daa070743def.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/zdMYkpoSnP8mjHM/preview)
 
 
 After that the server can be restarted and EUP ingame should be available via the `/eup` command!

@@ -35,7 +35,7 @@ Important: Since there is no screenshot function there, the screenshot must be m
 
 Upload Option:
 
-![image](https://user-images.githubusercontent.com/13604413/159170265-740e9052-41fc-43c3-9b3b-d4ce3725239f.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/4sCEeKkyGEm3EXd/preview)
 
 After the screenshot has been uploaded, small edits can still be made
 
@@ -43,7 +43,7 @@ Afterwards, the screenshot can be posted as a Post to Community (will be listed 
 
 Once this is done, the link that can be used for sharing will be displayed:
 
-![image](https://user-images.githubusercontent.com/13604413/159170268-ee36e695-4354-439e-b98f-5a6ab953f935.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/dJCpsKtka9rHX6T/preview)
 
 ### Lightshot
 
@@ -53,7 +53,7 @@ The client can be obtained directly from the website and also offers a few tools
 Download the client [Download](https://app.prntscr.com/en/)
 Important: A version for Linux is not offered. 
 
-![image](https://user-images.githubusercontent.com/13604413/159170271-13f1373f-b5e2-4c8a-8546-bf0f0359daaf.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/iGEccwZZDXqLGKp/preview)
 
 After the download, the client can be installed. 
 Afterwards, by default, a scrrenshot can be created or an area can be selected with the "Print" button. 

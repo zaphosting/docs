@@ -36,7 +36,7 @@ Damit der Timings-Report nun wirklich erstellt und exportiert wird, muss der fol
 
 Nach einigen Sekunden erscheint nun eine Nachricht, dass der Export erfolgreich war und der Timings-Report durch den Link mittels eines Klicks geöffnet werden kann.
 
-![image](https://user-images.githubusercontent.com/26007280/217858464-3032bea9-8c9b-4793-9cff-5654238cb282.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/4mm98iE32SMrNYR/preview)
 
 ## Auswertung
 
@@ -44,13 +44,13 @@ Nach einigen Sekunden erscheint nun eine Nachricht, dass der Export erfolgreich 
 
 Nachdem der Timings-Report wie oben beschrieben exportiert und geöffnet wurde, sollte ein ähnliches Fenster wie dieses erscheinen:
 
-![image](https://user-images.githubusercontent.com/26007280/217858514-2c42db5e-51ad-4e5b-aeb9-3b5710accb61.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/ogzYB6YyHsTFXCA/preview)
 
 Als Erstes sollte man einen genaueren Blick auf den Graphen werfen, um sich grobe Werte zu den einzelnen Aufnahmepunkten anschauen zu können, indem man mit der Maus über die einzelnen Punkte fährt.
 
 Um möglichste genaue Werte zu erhalten, welche sich auf ein mögliches Problem auf Server bezieht, sollte zunächst der problematische Zeitraum wie im Graphen einzusehen durch die Schieberegler darunter eingegrenzt werden.
 
-![image](https://user-images.githubusercontent.com/26007280/217858561-bf2febcf-904e-4694-99e2-9dfdcdcc0091.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/2FRbgn2J8TiqYZR/preview)
 
 ### Server-Werte untersuchen
 
@@ -62,7 +62,7 @@ In Box 2 sehen wir genauere Werte in Millisekunden, hierbei sollte man beachten,
 Der **Full Server Tick** kann in der Regel ignoriert werden, da die Werte hierbei immer im roten Bereich liegen, was jedoch kein Problem darstellt.
 :::
 
-![image](https://user-images.githubusercontent.com/13604413/159177796-03f504fc-94f4-4f88-af53-d4ce33ed8039.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/eHKeDQkotAwraTY/preview)
 
 Grundlegend sollte man in jedem Fall die farblich hervorgehobenen Wertepunkte genauer untersuchen.
 

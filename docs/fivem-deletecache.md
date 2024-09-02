@@ -33,7 +33,7 @@ Your server will now restart and clear its cache. When the server is restarted, 
 
 Fistly, you need to connect to your server using FTP. If you are not familiar with using FTP, we recommend you to have a look at the [FTP file access](gameserver-ftpaccess.md) guide.
 
-![image](https://user-images.githubusercontent.com/13604413/159137768-9431a8d8-afa2-47a7-960b-7bcd700c9627.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/EnZBzf2TWoQCQGp/preview)
 
 ### Locate Cache
 
@@ -41,7 +41,7 @@ In the next step, you have to find the cache folder and delete it.
 
 You should follow this path: `/gXXXXXX/gta5-fivem/server-data/cache` in order to directly access the cache folder.
 
-![image](https://user-images.githubusercontent.com/13604413/159137776-328b84d3-992b-47ef-b8d8-c1abb0beae45.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/mgkRTgiLd5ka8dE/preview)
 
 ### Clear Cache
 
@@ -49,6 +49,6 @@ Now you have to simply clear/empty the cache. To do this you should click on the
 
 Now you should mark all of the folders that are present in the **Cache** folder and delete them.
 
-![image](https://user-images.githubusercontent.com/13604413/159137786-b7a63449-4d89-4f77-a06c-9edd87bdd85e.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/HXYJfskfXTDRYie/preview)
 
 Now proceed to restart your FiveM server for this to take effect. When the server is restarted, the server will rewrite the cache. You have successfully cleared the cache for your FiveM game server!

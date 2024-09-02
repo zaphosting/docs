@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Some source games such as Counter-Strike or Garry's Mod have become known for their variety. All of this was made possible by the support of plugins and **custom content**. Various game modes have been developed over the years, such as Zombie Mod, Hide and Seek, Minigames, Jailbreak and much more. 
 
-![image](https://user-images.githubusercontent.com/13604413/159178680-6fd1ea06-9ee9-4bfc-a23e-2f3457800c04.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/MxDRfHZDFRHEjog/preview)
 
 <InlineVoucher />
 
@@ -40,21 +40,21 @@ Depending on the scope of application, one option is more useful than the other.
 
 In the following, the setup of the FastDL server using one of our [Webspace Products](https://zap-hosting.com/en/shop/product/webspace/) is explained. However, you can also use any other option that provides a publicly accessible web server. To start with the setup, we open the webspace product and open the administration:
 
-![image](https://user-images.githubusercontent.com/26007280/189977735-eb2af56b-4966-41d2-afca-38957f403af9.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/JdmBxGiicrQTxDt/preview)
 
 
 
 Once there, we open the file manager and create the following folders:
 
-![image](https://user-images.githubusercontent.com/26007280/189977756-0ac041f2-c58d-4b31-977c-e0d84ded1f34.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/dptRwGTgL6bHXrE/preview)
 
-![image](https://user-images.githubusercontent.com/13604413/159178687-7ea690cf-0d73-4e22-a302-023be7603cef.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/beCCJPFT5si3wRZ/preview)
 
 
 
 Afterwards, the web space has to be authorized so that the download of the content in the game will work properly:
 
-![image](https://user-images.githubusercontent.com/26007280/189977795-96a8c515-8841-4c23-a1b7-b32d09e33b58.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/7xSDbPRW6MYomk4/preview)
 
 :::info
 The permissions must be set for all folders!
@@ -72,7 +72,7 @@ sv_downloadurl "https://zapXXXXX-1.plesk08.zap-hosting.com" // Replace the URL w
 
 After restarting and connecting to the server the corresponding content should be downloaded. This can also be checked in the console of the game:
 
-![image](https://user-images.githubusercontent.com/13604413/159178720-35ccc5ca-7367-467a-869c-5cf87a834d95.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/Xbk5gSQAMQSK9Me/preview)
 
 
 
@@ -80,17 +80,17 @@ After restarting and connecting to the server the corresponding content should b
 
 In the following, the setup of the Steam Workshop is explained. First of all, the Steam Workshop page must be opened. To do this, select the appropriate game in Steam and open the workshop there. In this case we take [CS:GO](https://steamcommunity.com/workshop/browse/?appid=730&browsesort=trend&section=collections) as an example. Once there, we click on the menu item Browse and select Collection:
 
-![image](https://user-images.githubusercontent.com/26007280/189977817-82eb4d29-43c6-4456-96d1-db5f2c8fb704.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/PaTrSqacw7733yB/preview)
 
 There we click right on Collection and create the collection for the game server:
 
-![image](https://user-images.githubusercontent.com/26007280/189977835-8b89022e-fff5-4ad4-ad41-146aa9688ab1.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/JZmsT6KexmteeJw/preview)
 
-![image](https://user-images.githubusercontent.com/13604413/159178741-f3d5bd5a-88e7-4bbc-9d9d-5273d16c3676.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/99bEm45t48rCzAT/preview)
 
 The collection has then been successfully created. However, it is still empty by default. Therefore, we now reopen the workshop of the game and select the objects we want to add:
 
-![image](https://user-images.githubusercontent.com/26007280/189977857-560a0f1d-78e0-4667-9011-6d9577f7aa5e.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/WpYrLbYESYjmmWa/preview)
 
 When you are done collecting, you will need to go back to the collection, right click and select Copy Page URL. The ID of the collection is needed from the URL, which can look like this:
 
@@ -98,4 +98,4 @@ When you are done collecting, you will need to go back to the collection, right 
 
 At the end this has to be added at Steam Workshop in your game server administration:
 
-![image](https://user-images.githubusercontent.com/26007280/189977881-ab405d42-36d8-4191-a9ca-cb788d64f320.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/6gCM5rWoeBeg57M/preview)

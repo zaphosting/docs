@@ -15,7 +15,7 @@ Bei den Gameserver Produkten bietet ZAP-Hosting MySQL Datenbanken inklusive an. 
 
 Hierfür werden die Zugangsdaten zu der Datenbank benötigt. Diese befinden sich in der Gameserver Verwaltung unter Datenbanken. Hierbei werden die Informationen bezüglich **Server/IP**, **Datenbank**, **Benutzer**, **Passwort** und des Standard Port **3306** benötigt:
 
-![image](https://user-images.githubusercontent.com/13604413/159171035-cbada76f-c540-42d1-8a77-26d9b09acaa1.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/ZFo5GQk62i4734q/preview)
 
 <InlineVoucher />
 
@@ -27,7 +27,7 @@ Zunächst benötigen wir eine Software, um zur Datenbank zu verbinden, in diesem
 
 Damit die Verbindung in HeidiSQL hergestellt werden kann, legen wir mit "Neu" eine neue Verbindung an.
 
-![image](https://user-images.githubusercontent.com/71441339/161415767-8acd5679-6462-4207-9021-8d5ea4b4c4c5.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/YWmR2aTJzWP7LqH/preview)
 
 Bei Hostname / IP, tragen wir den Namen deiner Datenbank an, in unserem Beispiel "mysql-mariadb-5-101.zap-hosting.com"
 Benutzername und Passwort sind ebenso den Angaben zu entnehmen, Port bleibt auf 3306
@@ -38,15 +38,15 @@ Danach klicken wir einfach "Öffnen"
 
 Damit die Verbindung in Navicat hergestellt werden kann, legen wir eine neue Verbindung an. Unter **Connection** wählen wir **MySQL** aus. Im Anschluss öffnet sich ein weiteres Popup Fenster, wo die Datenbankinformationen eingetragen werden.
 
-![](https://user-images.githubusercontent.com/61839701/165672645-81f0c3ed-0f1c-4be5-8a85-d92df335981f.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/jGbWRBmkDZZBpyx/preview)
 
 Der **Connection Name** gilt nur zur Übersicht der Datenbanken und kann daher frei gewählt werden. Alle weiteren Informationen übernehmen wir aus dem Interface, wie oben beschrieben. Im Anschluss klicken wir auf **OK** und fertig ist die Einrichtung. Die Verbindung kann im Anschluss links in der Datenbank Übersicht hergestellt 
 werden. Klicke dafür einmal einen Doppelklick auf deine Datenbank oder Rechtsklick und wähle "Öffne Verbindung":
 
-![](https://user-images.githubusercontent.com/61839701/165673163-213ab077-478f-4102-b36b-60ff5e1f2262.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/CHYEZW2Mrks6pHB/preview)
 
-![](https://user-images.githubusercontent.com/61839701/165673099-e1cd908a-5421-4ec4-bb88-186c3d894c39.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/LHy9bieft62bKN7/preview)
 
 
 Im Anschluss öffnet sich die Datenbank mit allen vorhandenen Datenbanktabellen. Dort kann nun deine Datenbank ähnlich wie in PhpMyAdmin sowohl per Klick als auch per SQL-Befehle verändert oder verwaltet werden. 
-![image](https://user-images.githubusercontent.com/13604413/159171040-0e45c5ef-997f-49dd-aab8-3f6e0171a1dd.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/8FaoQai8AriXZDz/preview)

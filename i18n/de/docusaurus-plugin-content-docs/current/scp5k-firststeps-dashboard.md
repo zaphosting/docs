@@ -1,25 +1,28 @@
 ---
-id: ragemp-firststeps-dashboard
-title: "RageMP: Dashboard Übersicht"
-description: Informationen zum Dashboard eines RAGE Multiplayer Server von ZAP-Hosting - ZAP-Hosting.com Dokumentationen
+id: scp5k-firststeps-dashboard
+title: "SCP 5K: Dashboard Übersicht"
+description: Informationen zum Dashboard eines SCP 5K Server von ZAP-Hosting - ZAP-Hosting.com Dokumentationen
 sidebar_label: Dashboard
 services:
   - gameserver
 ---
 
+import YouTube from '@site/src/components/YouTube/YouTube';
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Du bist an einem **RAGE Multiplayer Server** interessiert oder besitzt bereits einen, doch dir fehlt noch ein umfassender Überblick über die Verwaltung und die Auffindbarkeit aller notwendigen Optionen? Gerade zu Beginn kann dies eine Herausforderung darstellen. Aber keine Sorge, im Folgenden bieten wir dir eine ausführliche Einführung zur Verwaltung deines Dienstes, damit du den optimalen Durchblick hast.
+Du bist an einem **SCP: 5K Server** interessiert oder besitzt bereits einen, doch dir fehlt noch ein umfassender Überblick über die Verwaltung und die Auffindbarkeit aller notwendigen Optionen? Gerade zu Beginn kann dies eine Herausforderung darstellen. Aber keine Sorge, im Folgenden bieten wir dir eine ausführliche Einführung zur Verwaltung deines Dienstes, damit du den optimalen Durchblick hast.
 
-Nachdem du diese Anleitung durchgegangen bist, wirst du problemlos in der Lage sein, deinen Server effizient zu verwalten und alle erforderlichen Optionen sowie Features zügig und unkompliziert zu finden. Hier erhältst du einen strukturierten Überblick, der dir Schritt für Schritt hilft, dich mit der Serververwaltung vertraut zu machen und dein Wissen gezielt zu erweitern. So kannst du sicherstellen, dass dein **RAGE Multiplayer Server** optimal auf deine Bedürfnisse abgestimmt ist und du das Beste aus den vorhandenen Möglichkeiten herausholst.
+Nachdem du diese Anleitung durchgegangen bist, wirst du problemlos in der Lage sein, deinen Server effizient zu verwalten und alle erforderlichen Optionen sowie Features zügig und unkompliziert zu finden. Hier erhältst du einen strukturierten Überblick, der dir Schritt für Schritt hilft, dich mit der Serververwaltung vertraut zu machen und dein Wissen gezielt zu erweitern. So kannst du sicherstellen, dass dein **SCP: 5K Server** optimal auf deine Bedürfnisse abgestimmt ist und du das Beste aus den vorhandenen Möglichkeiten herausholst.
+
+<YouTube videoId="xUxIWKvKbG8" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/TtGAWn8wREcCxTS/preview" title="Setup SCP: 5K server in just a MINUTE!" description="Hast du das Gefühl, dass du etwas besser verstehst, wenn du es in Aktion siehst? Wir haben etwas für dich! Tauche ab in unser Video, welches alles für dich zusammenfasst. Egal, ob du es eilig hast oder einfach nur Informationen auf möglichst verständliche Art und Weise aufnehmen möchtest!"/>
 
 <InlineVoucher />
 
 ## Informationen
 
-Im Abschnitt **Informationen** deines Navigationspanels findest du eine Reihe von Unterpunkten, die dir bei der Verwaltung deines Servers helfen. Dazu zählen **Dashboard**, **News**, **Statistiken**, **DDoS Manager**, **Tebex Shop**, **Log-Dateien**, **Ereignislog**, **Live Konsole**, **Störungen**, **Fragen und Antworten** und der **ZAP-Hosting.com Dokumentation**. Im Folgenden erhältst du eine detaillierte Einführung zu diesen verschiedenen Bereichen.
+Im Abschnitt **Informationen** deines Navigationspanels findest du eine Reihe von Unterpunkten, die dir bei der Verwaltung deines Servers helfen. Dazu zählen **Dashboard**, **News**, **DDoS Manager**, **Log-Dateien**, **Ereignislog**, **Live Konsole**, **Störungen**, **Fragen und Antworten** und der **ZAP-Hosting.com Dokumentation**. Im Folgenden erhältst du eine detaillierte Einführung zu diesen verschiedenen Bereichen.
 
 
 
@@ -27,7 +30,7 @@ Im Abschnitt **Informationen** deines Navigationspanels findest du eine Reihe vo
 
 Das **Dashboard** deines Servers stellt das Herzstück für die Verwaltung dar. Hier werden alle grundlegenden und essenziellen Informationen zu deinem Dienst übersichtlich präsentiert. Dazu zählen beispielsweise Angaben zum Standort, Status, IP:Port, genutzter Speicherplatz, aktuell laufendes Spiel, Servername, Karte und die Anzahl der verfügbaren Slots. Zudem werden auch die Auslastungen der CPU, des Arbeitsspeichers und des RAM dargestellt.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/Z8BEXKGX7Rkp79M/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/Lct9xs7w4sSKFHn/preview)
 
 Im Dashboard hast du außerdem die Möglichkeit, deinen Dienst zu starten, zu stoppen oder neu zu starten, um so die volle Kontrolle über dessen Betrieb zu haben. Weiterhin kannst du die Live-Konsole aufrufen, um Echtzeitinformationen über den Serverzustand zu erhalten und gegebenenfalls direkte Eingriffe vorzunehmen.
 
@@ -46,16 +49,6 @@ Durch regelmäßiges Überprüfen der **News** bleibst du stets informiert und k
 
 
 
-### Statistiken
-
-Unter den **Statistiken** erhältst du eine umfassende Übersicht über die Auslastungswerte deines Servers. Dort findest du Informationen zu verschiedenen Aspekten wie etwa der Auslastung der verfügbaren Slots, der CPU und dem Arbeitsspeicher. Du kannst dir diese Daten für verschiedene Zeiträume anzeigen lassen, zum Beispiel für die letzten **60 Minuten, 24 Stunden, 3 Tage, 7 Tage** oder **30 Tage.**
-
-![img](https://screensaver01.zap-hosting.com/index.php/s/r7gi2dwayMXCk7N/preview)
-
-Dank dieser Informationen bekommst du einen guten Einblick in den Verbrauch deines Servers. Zudem sind diese Statistiken oft hilfreich, um mögliche Performance-Probleme zu identifizieren und deren Ursachen einzugrenzen. Du kannst beispielsweise nachvollziehen, seit wann die Auslastung angestiegen ist und ob dies mit bestimmten Ereignissen oder Änderungen zusammenhängt. Dies ist insbesondere dann wichtig, wenn plötzlich Probleme auftreten, da es dir ermöglicht, gezielte Schritte zur Problemlösung zu unternehmen und mögliche Ursachen systematisch zu analysieren.
-
-
-
 ### DDoS Manager
 
 Der **DDoS-Manager** ermöglicht es dir, vergangene Attacken einzusehen und dadurch einen besseren Überblick für potenzielle Bedrohungen zu erhalten. Zusätzlich hast du die Option, Benachrichtigungen für laufende DDoS-Angriffe auf deinem Server zu aktivieren, um schnell auf solche Vorfälle reagieren zu können.
@@ -71,15 +64,7 @@ Mit diesen Anpassungsmöglichkeiten kannst du den DDoS-Schutz individuell auf de
 
 > ⚠️ Die Verwendung des DDoS-Managers ist ausschließlich möglich, wenn entweder eine eigene IP-Adresse oder die Option "DDoS-Manager-Übersicht" zusätzlich gebucht wurde. Falls diese Komponenten in deinem aktuellen Paket fehlen, kannst du sie jederzeit nachträglich durch ein Upgrade hinzufügen.
 
-### Tebex Shop
 
-Mit Tebex hast du die Möglichkeit, aus deinem Gameserver bares Geld zu machen, indem du virtuelle Güter und Ränge für echtes Geld verkaufst. Es ist ein leistungsstarkes und zuverlässiges Tool, das speziell für Game-Server-Administratoren entwickelt wurde, die ihren Spielern ein besseres Spielerlebnis bieten möchten.
-
-![img](https://screensaver01.zap-hosting.com/index.php/s/TbwafKd3Kmq4WrS/preview)
-
-Tebex ist einfach zu bedienen und bietet zahlreiche Funktionen, um deinen Shop anzupassen und zu optimieren. Du kannst dein Shop-Layout anpassen, Zahlungsoptionen hinzufügen, und sogar Marketingkampagnen starten, um mehr Spieler zu erreichen.
-
-Indem du auf das Bild klickst, kannst du deinen eigenen Gameserver Shop mit Tebex erstellen. Das Einrichten ist schnell und einfach, so dass du in kürzester Zeit bereit bist, deine virtuellen Güter zu verkaufen. 
 
 
 ### Log-Dateien

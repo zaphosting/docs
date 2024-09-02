@@ -87,7 +87,7 @@ mysql_secure_installation
 
 Nun kannst du deinen MariaDB (MySQL)-Server konfigurieren, indem du den Eingabeaufforderungen folgst und ein Passwort für Ihren Server festlegen. Bei der folgenden Aufforderung können Sie die Eingabe vorerst überspringen, indem Sie **Enter** drücken.
 
-![](https://user-images.githubusercontent.com/61839701/165694493-b113409b-3f2a-41ba-8113-59f86ded31b8.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/oEjbWX9nK3d7F6q/preview)
 
 :::info
 Der Benutzer root ist der Hauptbenutzer deines MariaDB (MySQL) Servers!
@@ -101,23 +101,23 @@ Während du das Passwort eingibst, kannst du es nicht sehen. Dieses Verhalten is
 
 Nun wirst du gefragt, ob du anonyme Benutzer von deinem Server entfernen willst, was du aus Sicherheitsgründen auf jeden Fall tun solltest. Bestätige dies mit einem **y** für ja:
 
-![image](https://user-images.githubusercontent.com/13604413/159171942-82667636-b148-4248-a95d-ad3d9ed3ab47.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/7QYmtxN2PSAfaqc/preview)
 
 In der folgenden Eingabeaufforderung legst du fest, ob sich der Benutzer root von außen mit dem Server verbinden darf. Aus Sicherheitsgründen solltest du auch diese Option deaktivieren und dies daher mit **y** bestätigen:
 
-![image](https://user-images.githubusercontent.com/13604413/159171944-d897a99a-a0f4-421b-bfb9-92c0640f2db0.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/7494fd7A6GenqDw/preview)
 
 Im nächsten Schritt kannst du auch bestätigen, dass du die von MariaDB (MySQL) bereitgestellte Testdatenbank mit **y** entfernst, da sie nicht benötigt wird und einfach gelöscht werden kann:
 
-![image](https://user-images.githubusercontent.com/13604413/159171945-e7b4f9ef-1ec0-409f-ad5f-dff05f42c561.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/EYcyFCCoJFsYSqc/preview)
 
 Am Ende des Konfigurationsprozesses wirst du gefragt, ob du die Berechtigungen der Datenbank aktualisieren möchtest. Bestätige dies mit **y**, um das zuvor festgelegte Passwort für den Root-Benutzer zu aktivieren:
 
-![image](https://user-images.githubusercontent.com/13604413/159171953-8a6cb526-6fac-47fd-be04-eb752f57b1a1.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/MySkcNJWERnew2E/preview)
 
 Dein MariaDB (MySQL) Server ist nun einsatzbereit!
 
-![](https://user-images.githubusercontent.com/61839701/165694518-162f9567-e95e-43e8-98b2-c2450f26c975.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/FgC4K9aqxqrTPAw/preview)
 </TabItem>
 
 <TabItem value="redis" label="Redis">
@@ -271,3 +271,8 @@ Deine MongoDB-Installation sollte jetzt funktionieren!
 
 </TabItem>
 </Tabs>
+
+
+## Abschluss
+
+Glückwunsch, du hast die Datenbankinstanz erfolgreich installiert und konfiguriert! Solltest du noch weitere Fragen oder Probleme haben, dann wende dich gerne an unser Support-Team, welches dir jeden Tag zur Verfügung steht! 

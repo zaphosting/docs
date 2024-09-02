@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 ## Einführung
 Bei dem Restartplaner handelt es sich um eine bei Gameservern angebotene Funktion. Mit dieser kann im Vorfeld ein automatischer Restart erstellt, damit der Server täglich zur selben Zeit automatisch neugestartet werden kann.
 
-<YouTube videoId="bcsAePevPnY" title="How to setup a RESTART PLANNER for your Server!" description="Hast du das Gefühl, dass du etwas besser verstehst, wenn du es in Aktion siehst?  Wir haben etwas für dich! Tauche ab in unser Video, welches alles für dich zusammenfasst. Egal, ob du es eilig hast oder einfach nur Informationen auf möglichst verständliche Art und Weise aufnehmen möchtest!"/>
+<YouTube videoId="bcsAePevPnY" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/C5QaLsaHmSyKHxK/preview" title="How to setup a RESTART PLANNER for your Server!" description="Hast du das Gefühl, dass du etwas besser verstehst, wenn du es in Aktion siehst? Wir haben etwas für dich! Tauche ab in unser Video, welches alles für dich zusammenfasst. Egal, ob du es eilig hast oder einfach nur Informationen auf möglichst verständliche Art und Weise aufnehmen möchtest!"/>
 
 :::info
 Diese Funktion ist nur für Gameserver eingebunden
@@ -21,7 +21,7 @@ Diese Funktion ist nur für Gameserver eingebunden
 
 Auffinden kann man diese Funktion daher in dem Gameserver Interface von dem bestellten Gameserver.
 
-![image](https://user-images.githubusercontent.com/13604413/159171151-58a2ede5-609b-4d9d-b1fd-2e1640050b19.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/TcTCFpzeqq6pPby/preview)
 
 <InlineVoucher />
 
@@ -42,7 +42,7 @@ Die Eingabe bestätigen wir mit "**Speichern**"
 Dieser Vorgang wird jetzt für jeden gewünschten automatischen Neustart wiederholt.
 Bei "**24:00**" wird von dem System eine Fehlermeldung angezeigt. Um diesen Fehler zu vermeiden, muss dort stattdessen "**00:00**" genutzt werden.
 
-![image](https://user-images.githubusercontent.com/13604413/159171159-94dfe1d5-e218-4e2a-b0fe-388a884b81d2.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/TdJwPbpwz3kbTo7/preview)
 
 ###  Offline Server starten
 
@@ -54,7 +54,7 @@ Die Befehle unter den festgelegten automatischen Neustarts, sollen dafür genutz
 
 Diese Funktion würde den Befehl so wie er dort eingetragen wird, an die Konsole weiterleiten. Sollen Spieler vorgewarnt werden, kann bei Minecraft der *say* Befehl genutzt werden
 
-![image](https://user-images.githubusercontent.com/13604413/159171163-7be2fa64-9219-4f36-802b-34eccc379894.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/Crt5ZPSgqXB2b23/preview)
 
 ### Verzögerung
 

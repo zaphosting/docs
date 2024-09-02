@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Mastodon is free and open-source software for running self-hosted social networking services.
 
-![image](https://user-images.githubusercontent.com/32127408/207198152-fa6ca1e6-b845-4fd8-83d9-cc4a8fb91f9f.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/tprjy6DYmZNWSDH/preview)
 
 It has microblogging features similar to the X (formerly Twitter) service, which are offered by a large number of independently run nodes, known as instances,
 each with its own code of conduct, terms of service, privacy policy, privacy options, and moderation policies.
@@ -32,7 +32,7 @@ If you want to setup a Mastodon Instance on your Server, you have to meet some p
 ## Preparing your System
 Its recommended, that you beforehand disable Password Login on SSH, as it is a security risk to use Password Login on Servers which are reachable from the Internet.
 You can do this in your Servers Webinterface under Information -> Access & Security -> Deactivate Password Login
-![image](https://user-images.githubusercontent.com/32127408/207198356-d36eeb4d-647c-4102-9d09-dcaebd8a29b5.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/jYHPGg6t9qJn3gD/preview)
 After that, update your packages by using the following command:
 ```
 apt update && apt upgrade -y
@@ -161,4 +161,9 @@ systemctl daemon-reload
 systemctl enable --now mastodon-web mastodon-sidekiq mastodon-streaming
 ```
 
-After a reboot you should be finished with your setup. Have fun with your instance!
+
+## Conclusion
+
+Congratulations, you have successfully installed and configurated Mastodon! If you have any further questions or problems, please contact our support team, who are available to help you every day! 
+
+

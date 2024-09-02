@@ -1,19 +1,22 @@
 ---
-id: altv-firststeps-dashboard
-title: "Alt V: Altv Dashboard Overview"
-description: Information about the dashboard of an Altv server from ZAP-Hosting - ZAP-Hosting.com Documentation
+id: ets2-firststeps-dashboard
+title: "Euro Truck Simulator 2: Dashboard Overview"
+description: Information about the dashboard of an Euro Truck Simulator 2 server from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Dashboard
 services:
   - gameserver
 ---
 
+import YouTube from '@site/src/components/YouTube/YouTube';
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
-You are interested in an **Alt:V server** or already own one, but you still lack a comprehensive overview of the administration and the findability of all necessary options? Especially at the beginning, this can be a challenge. But don't worry, we'll provide you with a detailed introduction to the administration of your service below, so you'll have the best possible overview.
+You are interested in an **Euro Truck Simulator 2 server** or already own one, but you still lack a comprehensive overview of the administration and the findability of all necessary options? Especially at the beginning, this can be a challenge. But don't worry, we'll provide you with a detailed introduction to the administration of your service below, so you'll have the best possible overview.
 
-After going through this guide, you will easily be able to manage your server efficiently and find all the necessary options and features quickly and easily. Here, you will get a structured overview that will help you step by step to get familiar with the server administration and expand your knowledge in a targeted manner. This way, you can ensure that your **Alt:V server** is optimally adapted to your needs and that you get the most out of the available options.
+After going through this guide, you will easily be able to manage your server efficiently and find all the necessary options and features quickly and easily. Here, you will get a structured overview that will help you step by step to get familiar with the server administration and expand your knowledge in a targeted manner. This way, you can ensure that your **Euro Truck Simulator 2 server** is optimally adapted to your needs and that you get the most out of the available options.
+
+<YouTube videoId="7QyU6wXQyeo" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/fEC5A2nDNfZFMNk/preview" title="Setup ETS2 server in just a MINUTE!" description="Feel like you understand better when you see things in action? We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
 
 <InlineVoucher />
 
@@ -27,7 +30,7 @@ In the **Information** section of your navigation panel, you will find a number 
 
 The **Dashboard** of your server is the heart of the administration. All basic and essential information about your service is clearly presented here. This includes, for example, information about the location, status, IP: Port, used memory, game in progress, server name, map and the number of available slots. In addition, the utilization of the CPU, memory and RAM is also displayed.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/p7BT9tigq6KSzoZ/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/caGsmf5gn5eS4H4/preview)
 
 In the dashboard you also have the option of starting, stopping or restarting your service, to have full control over its operation. Furthermore, you can access the live console to get real-time information about the server's state and take direct action if necessary.
 
@@ -125,6 +128,8 @@ In the **Settings** section of your navigation panel, you will find a number of 
 ### Settings
 
 Under the settings you will find an overview of the most common setting options for your server. These also include a short explanation. The use of the settings page is especially recommended for newcomers to server administration.
+
+If you are more confident and want to make more precise changes, we recommend using the Config Editor instead. You can find more information about this in the **Configs** category.
 
 
 

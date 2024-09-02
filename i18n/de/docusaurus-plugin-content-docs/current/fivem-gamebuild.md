@@ -48,7 +48,7 @@ Wenn du deine Wahl getroffen hast, gehe zum Ende der Seite und drücke den Butto
 
 ## Buld aktivieren mit FiveM TxAdmin
 
-Um den Inhalt auf einem txAdmin Server zu aktivieren, musst du dein txAdmin-Interface öffnen und zu den FXServer-Einstellungen navigieren. ![image](https://user-images.githubusercontent.com/13604413/159138094-9d72159c-36f7-4193-aea9-fb1c0260ad04.png)
+Um den Inhalt auf einem txAdmin Server zu aktivieren, musst du dein txAdmin-Interface öffnen und zu den FXServer-Einstellungen navigieren. ![image](https://screensaver01.zap-hosting.com/index.php/s/PfQ59DJ7B6DnpYi/preview)
 
 
 

@@ -16,7 +16,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 You can manage your world with a program like FileZilla Client or WinSCP. In our example we use FileZilla. 
 Please reference the guide [FTP-Access](gameserver-ftpaccess.md) for connecting via FTP. 
 
-![image](https://user-images.githubusercontent.com/26007280/189978953-f3937aeb-0d8d-4d49-8299-af11392556be.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/yLRmnynxfBC7zpp/preview)
 
 The folder "world" is the standard folder. The name of this is set in the server.properties file. This file is where the "world" folder is located. The value can be changed by editing the line "level-name". If a name is entered that does not exist as a folder, a new world is generated.
 

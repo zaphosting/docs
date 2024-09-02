@@ -172,6 +172,7 @@ const sidebars = {
             "fivem-rcon",
             "fivem-licensekey",
             "fivem-deletecache",
+            "fivem-resolve-dbconnection",
             "fivem-useprofiler",
             "fivem-mastodon",
             "fivem-prohibited-resources",
@@ -210,14 +211,6 @@ const sidebars = {
             "fivem-esx-changejobgarages",
             "fivem-esx-changerespawnpoint",
             "fivem-editlocalfiles"
-          ]
-        },
-        {
-          type: "category",
-          label: "Dunko VRP",
-          items: [
-            "fivem-vrp-changemoneyicon",
-            "fivem-vrp-removespeedo"
           ]
         },
         {
@@ -440,23 +433,16 @@ const sidebars = {
     },
     {
       type: "category",
-      label: "Alt:V",
+      label: "American Truck Simulator",
       items: [
         {
           type: "category",
           label: "First Steps",
           items: [
-            "altv-firststeps-dashboard",
+            "ats-firststeps-dashboard",
           ]
         },
-        "altv-installresources"
-      ],
-    },
-    {
-      type: "category",
-      label: "American Truck Simulator",
-      items: [
-        "trucksim-dlc"
+        "ats-server-modding"
       ],
     },
     {
@@ -705,6 +691,7 @@ const sidebars = {
             "dayz-firststeps-dashboard"
           ]
         },
+        "dayz-becomeadmin",
         "dayz-mods",
       ],
     },
@@ -768,11 +755,19 @@ const sidebars = {
     },
     {
       type: "category",
-      label: "Euro Truck Simulator",
+      label: "Euro Truck Simulator 2",
       items: [
-        "trucksim-dlc"
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "ets2-firststeps-dashboard",
+          ]
+        },
+        "ets2-server-modding"
       ],
     },
+    
     {
       type: "category",
       label: "Factorio",
@@ -840,14 +835,6 @@ const sidebars = {
             "fivem-esx-changejobgarages",
             "fivem-esx-changerespawnpoint",
             "fivem-editlocalfiles"
-          ]
-        },
-        {
-          type: "category",
-          label: "Dunko VRP",
-          items: [
-            "fivem-vrp-changemoneyicon",
-            "fivem-vrp-removespeedo"
           ]
         },
         {
@@ -1062,20 +1049,6 @@ const sidebars = {
     },
     {
       type: "category",
-      label: "RageMP",
-      items: [
-        {
-          type: "category",
-          label: "First Steps",
-          items: [
-            "ragemp-firststeps-dashboard",
-          ]
-        },
-        "ragemp-installpackages"
-      ],
-    },
-    {
-      type: "category",
       label: "RedM",
       items: [
         {
@@ -1189,6 +1162,19 @@ const sidebars = {
             "exiled-plugins"
           ]
         }
+      ],
+    },
+    {
+      type: "category",
+      label: "SCP: 5K",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "scp5k-firststeps-dashboard"
+          ]
+        },
       ],
     },
     {
@@ -1490,7 +1476,14 @@ const sidebars = {
         'vserver-windows-valheim',
         'vserver-windows-vrising',
       ]
-    },		
+    },
+    {
+      type: "category",
+      label: "Troubleshooting",
+      items: [
+        'vserver-windows-rdp-freeze',
+      ]
+    },	
   ],
   
   //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -1613,6 +1606,13 @@ const sidebars = {
       ]
     },
     {
+      type: "category",
+      label: "Troubleshooting",
+      items: [
+        'dedicated-windows-rdp-freeze',
+      ]
+    },	
+    {
       type: 'html',
       className: 'sidebar-title',
       value: (() => {
@@ -1689,7 +1689,6 @@ const sidebars = {
         'webspace-wordpress-migration',
       ],
     },
-    
   ],
   
   //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////

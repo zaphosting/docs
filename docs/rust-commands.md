@@ -24,7 +24,7 @@ Firstly, use use a tool like the [Steam ID Finder](https://steamidfinder.com/) t
 
 Here you enter your Steam URL:
 
-![image](https://user-images.githubusercontent.com/13604413/159179966-154bb929-edcc-42aa-965e-cb747bb463f8.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/wscaNkzWSjzAktf/preview)
 
 Then press `Find Steam ID`. Now we should be able to see our Steam Profile, here we copy our "Steam64ID (Dec)".
 

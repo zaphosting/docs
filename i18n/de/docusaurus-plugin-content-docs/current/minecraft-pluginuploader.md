@@ -30,13 +30,13 @@ Es gibt zwei verschiedene Möglichkeiten, wie du ein Plugin auf deinem Minecraft
 
 Wähle aus der Liste "Alle Plugins" dein Wunschplugin aus und klicke auf den grünen Button "Installieren". Die Installation kann je nach Plugingröße einen Augenblick dauern.
 
-![](https://user-images.githubusercontent.com/61839701/170331189-08e40996-da59-4cd0-9cd4-9dfea46af331.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/WwJDopFHT9BRQ5b/preview)
 
 ###  Eigenes Plugin hochladen 
 
 Ziehe der gewünschte Plugin .jar Datei in die auf dem Bild markierte Box. Es ist auch möglich, mehrere Plugins gleichzeitig in diesen Bereich zu ziehen und zu installieren.
 
-![](https://user-images.githubusercontent.com/61839701/170331249-e5eae815-f38c-4291-b5f1-0867a18dd5ad.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/5i46zFN9Ps6PpEP/preview)
 
 Hast du das Plugin in das Uploadfeld gezogen, dauert es einen Augenblick, bis sich das Plugin auf dem Server befindet.
 
@@ -48,7 +48,7 @@ In seltenen Fällen muss der Server einmal neu gestartet werden, damit das Plugi
 
 ## Plugin deinstallieren
 
-![](https://user-images.githubusercontent.com/61839701/170331287-2511ab44-6127-4a19-8761-a0bd6780b908.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/T2PFJqJ3DeZSXy2/preview)
 
 Um ein Plugin zu deinstallieren, klicke auf die rote Mülltone neben dem Eintrag.
 
@@ -89,7 +89,7 @@ Lösungsvorschläge:
 
 - Für die aktuell installierte Version deines Gameservers gibt es möglicherweise keine aktuelle Version dieses Plugins. Um dir ein Plugin zu wünschen, benutze den blauen Button "Plugin fehlt?".
 
-![](https://user-images.githubusercontent.com/61839701/170331324-c63b78fb-5bfa-4355-81ac-3d01f25bb910.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/xPHnpr6wRwYRjym/preview)
 
 ### Das Neu-/De-/Installieren in der vorgefertigten Liste scheint nicht zu funktionieren.
 

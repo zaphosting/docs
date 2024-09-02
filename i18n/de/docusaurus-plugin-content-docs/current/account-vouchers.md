@@ -28,7 +28,7 @@ Es gibt zwei verschiedene Arten von Gutscheincodes:
 
 Gutscheincodes können ganz einfach über das Webinterface eingelöst werden. Gehe dazu einfach zu deiner **Cashbox**, indem du oben in deinem Webinterface auf die "ZAP Coins" klickst.
 
-![image](https://user-images.githubusercontent.com/13604413/159170449-0f1ace01-f85c-4ebf-b41e-871c45803d00.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/AoASqdZ7AbyEQtQ/preview)
 
 Sobald du dich auf der Seite **Cashbox** befindest, scrolle nach unten bis zum blauen Button **Gutschein einlösen**. Durch Drücken des Buttons öffnet sich ein Menü.
 

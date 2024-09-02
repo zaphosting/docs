@@ -1,118 +1,108 @@
 ---
 id: vserver-windows-port
-title: "VPS: Forwarding ports on Windows servers (Firewall)"
-description: Information on how to forward ports on your Windows VPS from ZAP-Hosting - ZAP-Hosting.com documentation
-sidebar_label: Port Forwarding
+title: "VPS: Managing Windows Defender Firewall Rules"
+description: Information on managing Windows Defender Firewall rules, including Port Forwarding, on your Windows VPS from ZAP-Hosting - ZAP-Hosting.com documentation
+sidebar_label: Port Forwarding (Firewall)
 services:
   - vserver
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
+## Introduction
+
+Windows OS consists of its own Windows Defender Firewall which manages incoming and outbound trafcic between the server and internet. In this guide, we will go through the process of managing firewall rules and general tips for port forwarding.
+
 <InlineVoucher />
 
-## Port Forwarding
+## Accessing Windows Defender Firewall
 
-A firewall controls the incoming and outgoing traffic between the server and the Internet.
-Opened ports can be a security risk, due to which not every port is automatically opened.
+Windows OS includes the **Windows Defender Firewall with Advanced Seurity** application as a core system application which allows you to easily manage firewall rules in a single place.
 
-If opened ports are needed for a game server or certain applications, a port forward must be performed.
+You can access this simply by searching for this in the Windows search bar or by pressing the Windows key/icon and using the start menu search bar.
 
-First the "**Windows Defender Firewall with extended security**" must be opened.
-This can be searched for by clicking on the Windows logo:
+![image](https://screensaver01.zap-hosting.com/index.php/s/MEdQwo2do8zA84m/preview)
 
-![](https://user-images.githubusercontent.com/61839701/166197502-2350fe8a-3965-4ba0-8237-66f1d7b2e94a.png)
+## Managing Rules
 
-With the incoming rule, the ports are forwarded for applications that try to communicate with the server from outside.
-In the outbound rule, the ports are forwarded for applications that want to communicate from the server to the outside.
-
-
-***
-
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
-
-<Tabs>
-
-<TabItem value="Allowing programs in the Windows firewall" label="Allowing programs in the Windows firewall">
-
-## Allowing programs in the Windows firewall
-
-The release for the "**Outgoing rule**" works in the same way as for the "**Incoming rule**", so in this example we only show the release of a programme for the "**Incoming rule**".
-
-As soon as the "**Incoming rule**" or "**Outgoing rule**" has been selected in the firewall administration, a "**New rule**" must be created for it.
-
-![](https://user-images.githubusercontent.com/61839701/166197531-984726dd-befc-4488-bcc3-c140e7229076.png)
-
-For this new rule, "**Program**" is selected as the "**Rule type**" and confirmed with "**Next >**".
-
-![](https://user-images.githubusercontent.com/61839701/166197550-e9e0e472-40d0-4c42-ab80-00271aff2628.png)
-
-Here you can search directly for our programme, in our case we take Chrome for example:
-
-![](https://user-images.githubusercontent.com/61839701/166197577-3d2f4116-2fc4-4c35-a169-c94cd7871d9d.png)
-
-Now you can choose whether the server should allow the connection to the programme, only allow it under certain conditions or block it.
-
-![](https://user-images.githubusercontent.com/61839701/166197598-1af69566-40b4-46e9-8ec9-17f5aea8a393.png)
-
-This is confirmed again with "**Continue >**".
-
-In the "**Profile**" you can now choose whether this rule should only be active for certain networks or for all. 
-
-![](https://user-images.githubusercontent.com/61839701/166197624-8883a2d4-da7a-482b-9939-79cd15d6ac64.png)
-
-At "**Name**" only a name for this new "**Rule**" must be entered, this is freely selectable.
+Most applications and processes, especially ones that must be accessible across the internet such as game servers or web servers, will require port forwarding to ensure that clients can communicate with your server (the host).
 
 :::info
-A name should be chosen that is still unused and unique so that it can be found again under "**Incoming rule**" or "**Outgoing rule**".
+By default, Windows only opens the firewall for applications that require it, keeping all other ports closed. This is done to prevent unnecessarily exposing ports, reducing risk. This is also why you may see UAC prompts appear when launching games for the first time for example, to confirm a new firewall rule.
 :::
 
-![](https://user-images.githubusercontent.com/61839701/166197676-0e575fa1-5ae7-48be-b5fc-b9d1ddad0d8c.png)
+In Windows, managing rules is done easily in two ways; by creating rules for programs or by creating rules that cover ports as a whole (and thus any programs or processes that use it).
 
-As soon as you confirm with the button "**Complete**", the rule is activated and the port is released.
+There are two types of rules:
+- Inbound Rule: A rule that controls inbound communication (from the internet, to your server).
+- Outbound Rule: A rule that controls outbound communication (from your server, to the internet).
 
+Usually when port forwarding, you would need to create both types of rules to allow communication with clients. However, this depends on your specific use case and setup.
 
-</TabItem>
-<TabItem value="Port forwarding with Windows Firewall" label="Port forwarding with Windows Firewall">
+![image](https://screensaver01.zap-hosting.com/index.php/s/a8HCX6ZyWfemQtN/preview)
 
-## Port forwarding with Windows Firewall
+### Program Rules
 
+Creating a Program rule is usually the recommended choice because it restricts communication to a specific program or process, rather than an entire port which would mean any program/service can communicate on that port.
 
-The port forwarding for the "**Outgoing Rule**" works the same way as for the "**Incoming Rule**", so in this example we only show the port forwarding for the "**Incoming Rule**".
+You will now create two Program Rules, an Outbound and Inbound rule which both accept connection.
 
-As soon as the "**Inbound Rule**" or "**Outbound Rule**" is selected in the firewall administration, a "**New Rule**" must be created for it.
+In the example below, you will setup the **Inbound** rule only. The steps are exactly the same thus you should repeat the steps to also create the Outbound rule yourself.
 
-![](https://user-images.githubusercontent.com/61839701/166197550-e9e0e472-40d0-4c42-ab80-00271aff2628.png)
+Begin by right-clicking **Inbound Rules** on the sidebar and select the **New Rules...** option.
 
-With this new rule, the "**Port**" is selected as the "**Rule type**" and confirmed with "**Next >**
+![image](https://screensaver01.zap-hosting.com/index.php/s/mnZXWgEWyxSciE4/preview)
 
-![](https://user-images.githubusercontent.com/61839701/166197723-8952c3d0-939b-4120-a6c7-79a6e37399cc.png)
+On the first section, select the **Program** option as the rule type.
 
-Depending on the application "**TCP**" or "**UDP**" must now be selected. 
-As soon as you have found out and selected which of the two is to be used for the desired application, you must now enter the port which is to be forwarded under "**Determined local ports:**".
-This is confirmed again with "**Next >**".
+![image](https://screensaver01.zap-hosting.com/index.php/s/NPm9ae8BsD78An9/preview)
 
-![](https://user-images.githubusercontent.com/61839701/166197748-71fdb9ee-c113-4cc9-b80d-bdb6c7f14205.png)
+Now you will have to select the program that you wish to create the forwarding rule for, using the browse button. In this example, Mozilla Firefox browser was picked as an example application.
 
-Now you can choose whether the server should allow, allow only under certain conditions or block the connection with the port.
-This is confirmed again with "**Next >**".
+![image](https://screensaver01.zap-hosting.com/index.php/s/XsS2iTa4JjXF8j5/preview)
 
-![](https://user-images.githubusercontent.com/61839701/166197773-c4b16bf2-579b-4f8b-890a-0618d836f93a.png)
+In the action section, select the **Allow the Connection** option.
 
-In the "**Profile**" you can now select whether this rule should only be active for certain networks or for all networks. 
-This is confirmed again with "**Next >**".
+![image](https://screensaver01.zap-hosting.com/index.php/s/pnFz9EoxPqPT8xS/preview)
 
-![](https://user-images.githubusercontent.com/61839701/166197793-7888540c-27bf-4daa-9160-fe9bfc961117.png)
+In the profile section, keep all of the options ticked and continue to the final section. Here you should set a useful name that you can remember the rule by and you can add an optional description if necessary.
 
-With "**Name**" only a name for this new "**Rule**" must be entered, this can be freely selected.
+Once ready, finally press the **Finish** button to create the rule.
 
-:::info
-You should choose a name that is still unused and unique so that it can be found under "**Incoming rule**" or "**Outgoing rule**".
-:::
-![715-570-max](https://screensaver01.zap-hosting.com/index.php/s/cfRpq3zA9on2aoW/preview)
+![image](https://screensaver01.zap-hosting.com/index.php/s/dpWEYFYGtWQYkw3/preview)
 
-As soon as "**Finish**" is confirmed with the button, the rule is activated and the port is forwarded.
+You have successfully created your very own Program Rule for your Windows server. You should now repeat this to create an **Outbound Rule** following the same steps, but creating it under the Outbound Rules section.
 
-</TabItem>
-</Tabs>
+### Port Rules
+
+Creating a general Port Rule can also be useful for many use cases and follows similar steps to before.
+
+You will now create two Program Rules, an Outbound and Inbound rule which both accept connection.
+
+In the example below, you will setup the **Inbound** rule only. The steps are exactly the same thus you should repeat the steps to also create the Outbound rule yourself.
+
+Begin by right-clicking **Inbound Rules** on the sidebar and select the **New Rules...** option.
+
+![image](https://screensaver01.zap-hosting.com/index.php/s/mnZXWgEWyxSciE4/preview)
+
+On the first section, select the **Port** option as the rule type.
+
+![image](https://screensaver01.zap-hosting.com/index.php/s/eobA3wzbwQSqjpK/preview)
+
+Now you will have to define the port type (TCP or UDP) and allocated port(s) that you wish to port forward. If you need to port forward both TCP and UDP, you will have to create two seperate rules, one for each port type.
+
+In this example, port 25565 (TCP) was used as an example port which is used as the default port for Minecraft.
+
+![image](https://screensaver01.zap-hosting.com/index.php/s/yMco5L6ERWiLEHk/preview)
+
+In the action section, select the **Allow the Connection** option.
+
+![image](https://screensaver01.zap-hosting.com/index.php/s/pnFz9EoxPqPT8xS/preview)
+
+In the profile section, keep all of the options ticked and continue to the final section. Here you should set a useful name that you can remember the rule by and you can add an optional description if necessary.
+
+Once ready, finally press the **Finish** button to create the rule.
+
+![image](https://screensaver01.zap-hosting.com/index.php/s/Ro5k6JgTF73exoH/preview)
+
+You have successfully created your very own Port Rule for your Windows server. You should now repeat this to create an **Outbound Rule** following the same steps, but creating it under the Outbound Rules section.

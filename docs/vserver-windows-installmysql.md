@@ -21,11 +21,11 @@ At the beginning you connect via remote desktop connection to your server and do
 
 Unpack the downloaded archive with WinRAR or 7Zip and start the installation file with a double click: 
 
-![](https://user-images.githubusercontent.com/61839701/166200227-8ca5c169-1cc6-404b-9522-15781eb22a84.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/aPZn6jmLK5NZybW/preview)
 
 Afterwards you navigate through the installation process by clicking on **Next** until you are asked to type in the root password:
 
-![](https://user-images.githubusercontent.com/61839701/166200257-5676d728-1c2f-476a-b943-afcf570b8614.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/gMrr8aHEM2eAG22/preview)
 
 There you can define the master password for the access to your database server. Please make sure that you use a secure password which no one else knows!
 
@@ -35,7 +35,7 @@ IMPORTANT! If you want to access the database externally via Navicat, HeidiSQL o
 
 Afterwards you click on **Next** until you reach the end of the installation, there you then have to click on **Install**:
 
-![](https://user-images.githubusercontent.com/61839701/166200280-68ab2ccd-225b-424e-b85b-11946c949ae6.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/qYT3rrDrcXRb4gc/preview)
 
 Your database server is now online and ready to use!
 
@@ -47,3 +47,9 @@ You can find the guide in how to forward ports in the firewall here:
 [Windows Port Forwarding](vserver-windows-port.md)
 
 Now you can access your MySQL server externally!
+
+
+
+## Conclusion
+
+Congratulations, you have successfully installed and configurated the MySQL server on your VPS! If you have any further questions or problems, please contact our support team, who are available to help you every day! 

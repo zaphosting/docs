@@ -74,3 +74,9 @@ To run commands like `pip install` inside your venv you need to activate it by r
 When you have finished working inside the venv you can go back by running the `deactivate` command.
 
 ![Activating / Deactivating Python venv](https://imgur.com/KvJxliT.png)
+
+
+
+## Conclusion
+
+Congratulations, you have successfully installed and configurated the Python on your VPS! If you have any further questions or problems, please contact our support team, who are available to help you every day! 

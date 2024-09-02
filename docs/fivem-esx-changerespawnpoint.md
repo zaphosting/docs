@@ -31,12 +31,12 @@ Here we press **CTRL + F** and search for **ambulance**
 We will then open this file.
 Here we scroll down until we find **Config_RespawnPoint**.
 
-![image](https://user-images.githubusercontent.com/13604413/159166852-965cc0d9-e82e-469a-8680-7c9efa891a73.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/6FYfkgfPfEWK6sj/preview)
 
 We will now edit these and replace the coordinates.
 After that we just click on Save and that's it.
 
-![image](https://user-images.githubusercontent.com/13604413/159166856-e2d31e0d-6b75-4f1b-8797-1c4891b5b335.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/ZEcfQt69SX5if3Q/preview)
 
 :::info
 After a server restart, the changes will take effect.

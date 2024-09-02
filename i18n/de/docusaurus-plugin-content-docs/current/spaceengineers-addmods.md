@@ -20,12 +20,12 @@ Sofern die Einstellungen hierzu nicht angepasst wurden, lautet dieser standardm�
 
 Um zu den Einstellungen von deinem Server zu gelangen, öffne in der linken Listen unter dem Reiter "Einstellungen" den Punkt "Einstellungen"
 
-![image](https://user-images.githubusercontent.com/26007280/189890899-4695e557-2778-42b4-8a38-5b75abfc5204.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/HW3DZrMaijDfrnw/preview)
 
 Auf dieser Seite kann im ersten Feld der Name des Savegames eingesehen werden oder auch angepasst werden.
 Dieser Name muss sich nun gemerkt werden, damit später die richtige Konfigurationsdatei bearbeitet wird.
 
-![image](https://user-images.githubusercontent.com/26007280/189890915-979395c8-122a-47e4-99f0-29bff18ea45a.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/3Hx4pNLkAr3saaC/preview)
 
 Die Installation von **Notepad++** ist zudem Vorrausetzung dieser Anleitung, damit die Schritte auch genau gleich durchgeführt werden können!
 
@@ -37,7 +37,7 @@ Der Workshop kann [hier](https://steamcommunity.com/workshop/about/?appid=244850
 Nachdem ein interessanter Mod gefunden wurde, klicken wir diese einmal an, um alle weiteren Details einsehen zu können.
 Wenn der Mod einem gefällt, dann muss sich nun die Mod-ID nortiert werden. Die Mod-ID ist meist fett markiert auf der Seite oder oben in der URL-Leiste zu finden:
 
-![image](https://user-images.githubusercontent.com/26007280/189890955-3977d749-f559-44b2-b689-9e70a6ce2ed0.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/XSLW5Ysq5gFRoKg/preview)
 
 ## Konfigurationsdateien öffnen
 
@@ -55,12 +55,12 @@ In diesem Ordner sind alle Savegames aufgelistet, welche jemals auf dem Server e
 Um die Configs des jeweiligen Savegames anpassen zu können, muss jetzt der entsprechende Ordner geöffnet werden.
 In unserem Beispiel wäre das der Ordner "zap001":
 
-![image](https://user-images.githubusercontent.com/26007280/189890981-505c39f3-5b46-4be0-bc3b-15e77ccd698e.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/Fox34KdXg9Ywm3M/preview)
 
 In diesem Ordner muss jetzt die Sandbox-Datei bearbeitet werden.
 Es muss genau diese Config geöffnet werden, wie im Screenshot dargestellt!
 
-![grafik](https://user-images.githubusercontent.com/13604413/215349596-768ea75a-4347-4f70-bf2b-63cd81455dc2.png)
+![grafik](https://screensaver01.zap-hosting.com/index.php/s/ramYJxx9opKZKeY/preview)
 
 
 ## Mods hinzufügen
@@ -73,7 +73,7 @@ Im Anschluss fügen wir folgenden Inhalt ein:
 Sobald der Inhalt eingefügt ist, gehen wir mit dem Cursor zwischen "&gt;" & "&lt;" und drücken dann einmal ENTER.
 Damit wird automatisch die korrekte Sytnax genutzt und wir können fortfahren.
 
-![image](https://user-images.githubusercontent.com/26007280/189891046-4d7a5975-e815-4189-8f22-a5faaa29a375.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/JfBax75wn4kCbqE/preview)
 
 Im nächsten Schritt fügen wir den ersten Mod hinzu. Hierzu arbeiten wir mit einem "ModItem", welches ein Mod bildet.
 Hierzu kopieren wir den folgenden Inhalt und fügen ihn dann wie im Screenshot gezeigt in die Config ein:
@@ -86,7 +86,7 @@ Hierzu kopieren wir den folgenden Inhalt und fügen ihn dann wie im Screenshot g
 	</ModItem>
 ```
 
-![image](https://user-images.githubusercontent.com/26007280/189891069-c15c8af7-9ecf-48d4-aa45-cbdf17efc97b.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/stHa6DSEnP4gr45/preview)
 
 :::info
 Hierbei muss 12345 mit der Mod-ID deiner ausgeäwhlten Mod getauscht werden!

@@ -15,18 +15,18 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Open your ZAP-Hosting game server dashboard and make sure that your server is up and running:
 
-![image](https://user-images.githubusercontent.com/61953937/196052791-70d040ae-1f8c-403d-9424-69d2ebef14c2.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/2NbQaA6E2CJ4ZE8/preview)
 
 Start the game and select the menu item "Multiplayer": 
 
-![385-351-max](https://user-images.githubusercontent.com/61953937/196052119-2b481209-cf7d-4dae-8f00-f193646b393e.png)
+![385-351-max](https://screensaver01.zap-hosting.com/index.php/s/t36H8NxmLa4gx5S/preview)
 
 Then select the menu item "Direct join": 
 
-![image](https://user-images.githubusercontent.com/61953937/196052262-046f201e-2d0b-4044-8bb0-5260988357ea.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/3MdnG7Xb2222EPQ/preview)
 
 Once there, enter the IP and port that is shown on your game server dashboard:
 
-![image](https://user-images.githubusercontent.com/61953937/196052291-66142f5c-6c4a-466a-9e8a-21924fc3c696.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/R9nRFWFrS9Fbwox/preview)
 
 The client will connect to your server after clicking "Connect".

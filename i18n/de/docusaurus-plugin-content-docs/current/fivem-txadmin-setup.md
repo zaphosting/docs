@@ -13,71 +13,96 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 ## Einführung
 txAdmin ist ein komplett kostenloses, voll ausgestattetes Web-Panel, um deinen FiveM-Server zu verwalten und zu überwachen. Es bietet eine Vielzahl von Funktionen, die darauf ausgelegt sind, die Verwaltung eines FiveM-Servers so einfach wie möglich zu machen. Die Einrichtung von txAdmin ist völlig kostenlos, beginne deine Reise mit dem einfachsten und doch funktionalsten Web-Panel für FiveM-Server.
 
-<YouTube videoId="n3RoiExrvN0" title="Einrichten eines txAdmin FiveM Servers in nur 5 Minuten!" description="Hast du das Gefühl, dass du etwas besser verstehst, wenn du es in Aktion siehst?  Wir haben etwas für dich! Tauche ab in unser Video, welches alles für dich zusammenfasst. Egal, ob du es eilig hast oder einfach nur Informationen auf möglichst verständliche Art und Weise aufnehmen möchtest!"/>
+<YouTube videoId="n3RoiExrvN0" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/9ko7otb3ZJXoxK8/preview" title="Einrichten eines txAdmin FiveM Servers in nur 5 Minuten!" description="Hast du das Gefühl, dass du etwas besser verstehst, wenn du es in Aktion siehst? Wir haben etwas für dich! Tauche ab in unser Video, welches alles für dich zusammenfasst. Egal, ob du es eilig hast oder einfach nur Informationen auf möglichst verständliche Art und Weise aufnehmen möchtest!"/>
 
 <InlineVoucher />
 
-## Ersteinrichtung
-Nachdem wir unseren txAdmin Server gemietet haben, wird dieser im Interface wie folgt angezeigt:
 
-![image](https://user-images.githubusercontent.com/13604413/159169306-97751551-ef77-47a1-9fe2-acf2a437c16c.png)
 
-Hier öffnen wir das txAdmin Interface nun über den Link im Interface:
+## Zugriff
 
-![image](https://user-images.githubusercontent.com/13604413/159169313-5e9e3c01-1c48-48e5-855e-6126c39bfdf9.png)
+Über das Dashboard deines Game-Servers findest du im txAdmin-Bereich einen Link sowie die Zugangsdaten zum Zugriff auf txAdmin. Dies gibt dir die notwendigen Informationen, um einfach auf die txAdmin-Oberfläche zuzugreifen und mit der Einrichtung zu beginnen.
 
-Im txAdmin Interface geben wir nun unseren Benutzer und unser Passwort an, welches unter dem Link steht und melden uns an.
+![img](https://screensaver01.zap-hosting.com/index.php/s/aTQeF69ojtqM9iX/preview)
 
-Nach der Anmeldung landen wir direkt im txAdmin Setup, hier können wir nun auswählen, wie unser Server heißt:
 
-:::info
-Diese Einstellung ist **nicht** der Server Name in der Serverliste, sondern ein interner Name für im Spiel Meldungen und den Discord Webhook.
-:::
 
-![image](https://user-images.githubusercontent.com/13604413/159169329-6b9670f4-e472-4619-8451-4dc8158a33cf.png)
+![img](https://screensaver01.zap-hosting.com/index.php/s/wzcQqB3MY7k28rZ/preview)
 
-Nun können wir auswählen, wie genau wir den Server einrichten wollen, hier gibt es mehrere Optionen:
+Kopiere die Informationen zum Benutzer und Passwort und klicke auf den Link (IP-Adresse:Port), um das txAdmin Interface aufzurufen und dich einzuloggen. Im Anschluss öffnet sich das txAdmin Interface in einem neuen Fenster, wo du dich mit den vorgegebenen Zugangsdaten einloggen musst. 
 
-![image](https://user-images.githubusercontent.com/13604413/159169335-a4a52bc6-020e-4116-985c-9145ae7d5d84.png)
+![img](https://screensaver01.zap-hosting.com/index.php/s/pp8GLQBoX4LoqTA/preview)
 
-### Local Server Data
 
-Diese Einstellung solltest du benutzen, falls du bereits einen Server mit txAdmin betrieben hast und diesen nun bei uns betreiben möchtest, du kannst in diesem Fall die Daten einfach per FTP Hochladen, und den Pfad davon im Setup angeben:
 
-![image](https://user-images.githubusercontent.com/13604413/159169346-9d8536fc-8fe2-4746-aa78-67b54b60c89c.png)
+## Einrichtung
+
+Nun, da du dich erfolgreich eingeloggt hast, kannst du mit der Einrichtung von txAdmin und deinem Server beginnen. Du solltest nun die Startseite (Dashboard) von txAdmin sehen. Oben links findest du einen Hinweis, dass dein Server noch konfiguriert werden muss. Klicke dort auf **Go to the setup page**, um das Setup zu beginnen.
+
+![img](https://screensaver01.zap-hosting.com/index.php/s/oXakf3qoJaim7ex/download)
+
+
+
+### Willkommen und Server Name
+
+Definiere im Anschluss einen Servernamen, welchen du für dein Projekt verwenden möchtest. Dieser Name ist nicht für die Serverliste gedacht sondern dient lediglich für das txAdmin Interface und Chat/Discord Nachrichten. 
+
+![img](https://screensaver01.zap-hosting.com/index.php/s/FCmd5xQ89wSPHfe/preview)
+
+
+
+### Deployment Type
+
+Beim Deployment Type musst du nun auswählen, wie du deinen Server einrichten möchtest. Dir stehen die folgenden Auswahloptionen zur Verfügung: **Popular Recipes**, **Existing Server Data**, Remote URL Template und **Custom Template**. Diese Optionen werden im Folgenden genauer erläutert, sodass du selbst entscheiden kannst, welche die beste Wahl für deinen Anwendungsfall ist. 
+
+![img](https://screensaver01.zap-hosting.com/index.php/s/52HfyJSNLscApNE/preview)
+
 
 
 ### Popular Template
 
-Popular Templates sind vorgefertigte Packs, welche direkt benutzt werden können, dies ist der einfachste weg, den FiveM Server direkt benutzen zu können, falls dies dein erster Server ist, wird diese Option empfohlen:
+Popular Templates sind vorgefertigte Pakete, die direkt verwendet werden können. Dies ist der einfachste Weg, um deinen FiveM-Server schnell einsatzbereit zu machen. Wenn dies dein erster Server ist, wird diese Option besonders empfohlen. Diese Templates enthalten alle notwendigen Konfigurationen und Ressourcen, um einen funktionalen Server schnell einzurichten, sodass du dich auf die Anpassung und das Gameplay konzentrieren kannst, anstatt dich mit der Ersteinrichtung zu beschäftigen. Wähle einfach ein Template aus, das deinen Anforderungen entspricht.
 
-![image](https://github.com/zaphosting/docs/assets/13604413/1363dc9c-bd9e-4aea-86d5-a85e989b06f3)
-
-Nun können wir einen eigenen Pfad für das Pack generieren, generell würden wir empfehlen, diesen Pfad Standard zu lassen.
-
-![image](https://user-images.githubusercontent.com/13604413/159169394-3fc332b4-4537-46cf-bd25-57235783c843.png)
-
-
-Nachdem wir das bestätigt haben, landen wir sofort im Recipe Deployer, falls Änderungen am Recipe vorgenommen werden sollen, kann dies nun getan werden, ansonsten kann das Ganze einfach mit dem "Next" Button bestätigt werden.
-
-
-Falls eigene Datenbank-Einstellungen oder License Key genutzt werden sollen, kann dies nun geändert werden, wir empfehlen, die Datenbankinformationen nicht zu verändern.
-
-![image](https://user-images.githubusercontent.com/13604413/159169403-1909153c-67ac-4b6b-9623-7d8cf6f0751b.png)
+![img](https://screensaver01.zap-hosting.com/index.php/s/PSsf22NeebNBRw7/preview)
 
 
 
-Fast fertig! Jetzt können wir noch die letzten Änderungen in der server.cfg vornehmen, nun drücken wir einfach nur noch "Save & Run Server", und der FiveM Server wird automatisch starten!
+### Existing Server Data
+
+Diese Einstellung solltest du verwenden, falls du bereits einen Server mit txAdmin betrieben hast und diesen nun bei uns hosten möchtest. In diesem Fall kannst du die Serverdaten einfach per FTP hochladen und den Pfad während des Setups angeben. Solltest du noch nicht wissen, wie du FTP allgemein benutzt, lohnt es sich, einen Blick in unsere Anleitung [Zugriff per FTP](gameserver-ftpaccess.md) zu werfen.
+
+![img](https://screensaver01.zap-hosting.com/index.php/s/DJtoBPqmBLSDdXZ/preview)
+
+
+
 
 
 ### Remote URL Template
 
-Falls ein Template aufgespielt werden soll, welche in txAdmin selbst nicht verlinkt ist, kann mit dieser Funktion ein eigenes Recipe angegeben werden, welches auf dem Server ausgeführt wird.
+Falls ein Template aufgespielt werden soll, das in txAdmin selbst nicht verlinkt ist, kannst du mit dieser Funktion ein eigenes Recipe über eine Remote-URL angeben. Dieses Recipe wird dann heruntergeladen und auf deinem Server ausgeführt. Diese Option ist besonders nützlich, um benutzerdefinierte Serverkonfigurationen oder spezielle Setups bereitzustellen, die nicht in den Standardoptionen von txAdmin enthalten sind. Durch die Angabe der URL lädt txAdmin das Template automatisch herunter und wendet es an, sodass dein Server genau nach deinen Vorgaben eingerichtet wird.
+
+![img](https://screensaver01.zap-hosting.com/index.php/s/jrGzTGp9FwLc82i/preview)
 
 ### Custom Template
 
-Diese Option ist für Benutzer gedacht, welche ein eigenes Recipe bereits erstellt haben, und dieses erneut laden möchten.
+Diese Option ist für Benutzer gedacht, die bereits ein eigenes Recipe erstellt haben und dieses erneut laden möchten. Dies ermöglicht es dir, deine benutzerdefinierten Konfigurationen schnell und einfach anzuwenden, ohne alles von Grund auf neu einrichten zu müssen. Wähle einfach dein vorhandenes Recipe aus, und txAdmin kümmert sich um den Rest, damit dein Server genau so konfiguriert ist, wie du es beabsichtigt hast.
 
-### Zusätzliche Unterstützung
+![img](https://screensaver01.zap-hosting.com/index.php/s/Z75q5RKakwfpHGy/preview)
 
-Für txAdmin-spezifischen Support kontaktiere bitte das txAdmin-Team über https://txadm.in/ oder https://discord.gg/txAdmin/
+
+
+### Recipe Deployer
+
+Nachdem du dich für einen Deployment Type entschieden und die dort vorgegebenen Schritte befolgt hast, kannst du zum Abschluss auf **Go to Recipe Deployer** klicken. Dort müssen nun noch die finalen Schritte **Review Recipe**, **Input Parameters**, **Run Recipe** und **Configure server.cfg** abgeschlossen werden.
+
+Im ersten Schritt kannst du das ausgewählte oder hinzugefügte Recipe noch weiter anpassen. Sind keine weiteren Anpassungen mehr notwendig, gehe zu Schritt 2. Dort kannst du nun deinen eigenen [**Lizenzschlüssel**](fivem-licensekey.md) angeben und die Datenbankinformationen prüfen. Wenn alles korrekt ist, klicke auf **Run Recipe**. Dieser Vorgang kann einen Moment dauern. Zum Abschluss kannst du dann noch die Server-Konfigurationsdatei `server.cfg` anpassen. 
+
+![img](https://screensaver01.zap-hosting.com/index.php/s/wFMD576sBQAAdxZ/download)
+
+Klicke abschließend auf **Save & Run Server**. Damit ist das txAdmin-Setup abgeschlossen, und du kannst dich mit deinem Server verbinden.
+
+
+
+## Zusätzliche Unterstützung
+
+Für txAdmin-spezifischen Support kontaktiere bitte das txAdmin-Team über deren [offizielle Webseite](https://txadm.in/) oder trete der Community auf [Discord](https://discord.gg/txAdmin/) bei.

@@ -22,17 +22,17 @@ Valheim Plus ist eine clientseitige Modifikation. Sie ermöglicht es einige Änd
 Zuerst muss der Valheim Ordner auf dem PC geöffnet werden. 
 Dafür bei Steam in der Bibliothek 'Rechtsklick' auf Valheim, bei den Optionen dann auf "***Verwalten***" und dort auf "***Lokale Dateien durchsuchen***".
 
-![image](https://user-images.githubusercontent.com/13604413/159180035-ac9c6116-bbf9-44c2-9927-7c31cbebbf4c.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/DeMbrJjpkNGtAtn/preview)
 
 Sobald dieser Ordner geöffnet wurde, muss nun die "***WindowsClient.zip***" heruntergeladen werden. 
 Die "***WindowsClient.zip***" kann [hier](https://github.com/valheimPlus/ValheimPlus/releases) (runterscrollen bis "Assets") heruntergeladen werden.
 
 
-![image](https://user-images.githubusercontent.com/13604413/159180038-9eb609a1-3e14-461b-b7ae-5afb5d3bbc89.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/NXdJNgTzZbeNnFn/preview)
 
 Im Anschluss muss nur noch der Inhalt der "***WindowsClient.zip***" in den vorher geöffneten Valheim Server entpackt werden
 
-![image](https://user-images.githubusercontent.com/13604413/159180041-de775b09-a531-4d37-b232-7bf06e3f8130.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/x6z7XQnNnWiNjAd/preview)
 
 Dann kann Valheim gestartet werden und die Einrichtung bei dem Client ist beendet.
 
@@ -40,11 +40,11 @@ Dann kann Valheim gestartet werden und die Einrichtung bei dem Client ist beende
 
 Um das Spiel zu wechseln, öffnen wir zuerst das Spiele-Tab auf unserem Server:
 
-![image](https://user-images.githubusercontent.com/26007280/189885529-009cc0c7-356c-4ab9-83f0-e4c69533df23.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/yDbAw4mtmH2sdeZ/preview)
 
 Hier suchen wir unter "Verfügbare Spiele" nun nach Valheim Plus und klicken auf den Download Button:
 
-![image](https://user-images.githubusercontent.com/26007280/189885558-f233535b-8cde-4efa-896f-13b9a82cd857.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/HnsjY3k8sywNaKD/preview)
 
 Danach wird der Server neu installiert. Nach der Neuinstallation hat man die Möglichkeit das Passwort bei "**Configs**" zu entfernen und man kann auf mehr Slots upgraden.
 
@@ -52,7 +52,7 @@ Danach wird der Server neu installiert. Nach der Neuinstallation hat man die Mö
 
 Um ein Slotupgrade durchführen zu können, muss die "**UP- und Downgrade**" Funktion im Gameserver Dashboard geöffnet werden.
 
-![image](https://user-images.githubusercontent.com/26007280/189885583-b4086c3d-4891-4d22-9ba6-8bec12118916.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/KHjymPXF44QRcte/preview)
 
 Bei der Upgrade-Seite wählt man nun die gewünschte Anzahl an Slots aus. 
 
@@ -60,19 +60,19 @@ Bei der Upgrade-Seite wählt man nun die gewünschte Anzahl an Slots aus.
 Hierbei muss nur der "**Aufpreis**" bezahlt werden, dieser berechnet sich für die noch verbliebene Laufzeit
 :::
 
-![image](https://user-images.githubusercontent.com/13604413/159180047-0089d7b6-3a2f-4ce1-9c6f-daa2eb5acc64.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/xddb28k6LnKSTMZ/preview)
 
 Um das Upgrade abzuschließen, muss auf der Seite ganz unten jetzt die Bezahlmethode ausgewählt werden.
 Sobald ausgewählt drückt man den "***Upgrade durchführen***" Button und das Upgrade wird durchgeführt
 
-![image](https://user-images.githubusercontent.com/13604413/159180050-43c2fe91-48a5-413d-ac17-f451858bed7d.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/ZpSSNQRfyAa3znT/preview)
 
 ## Valheim Plus Config
 
 Um die Konfigurationsdatei zu öffnen, muss im Gameserver Interface die "**Configs**" Seite geöffnet werden, bei dieser ist dann die "*ValheimPlus: valheim_plus.cfg*" zu sehen.
 Diese kann über das blaue Icon geöffnet werden, welches sich neben der Konfigurationsdatei befindet.
 
-![image](https://user-images.githubusercontent.com/13604413/159180059-4d68cc14-b0d9-4a6e-8804-4c48647f503a.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/BL6syWfgWiffBt5/preview)
 
 Eine Liste sämtlicher in der Konfigurationsdatei nutzbaren Befehle:
 

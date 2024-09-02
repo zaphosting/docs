@@ -59,6 +59,6 @@ connect SERVERIP:27020 (Beispiel Port, schaue unter den Einstellungen nach deine
 
 Manuelle und automatische aufgenommene Demos werden im Hauptverzeichnis (/gxxxxx/cs2/game/csgo) des CS2 Server abgelegt. Diese können über den bereitgestellten FTP-Zugang heruntergeladen werden. Sollte du noch nicht wissen, wie der Zugang via FTP möglich ist, dann findest du hierzu eine entsprechende [Anleitung](gameserver-ftpaccess.md).
 
-![image](https://user-images.githubusercontent.com/26007280/189976867-0ea7da9c-fda3-472b-a79f-ac03919c2cc1.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/M6226mceDG5b2As/preview)
 
 Mit dem Demo-Playback aus dem Spiel kann die heruntergeladene Demo über **Load** ausgewählt und über den **Play** Button gestartet werden. 

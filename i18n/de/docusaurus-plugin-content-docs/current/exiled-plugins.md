@@ -28,13 +28,13 @@ Unter (https://plugins.scpslgame.com/) findest du eine Liste von Plugins, die f�
 
 ## Option 2 über Github herunterladen
 Um ein Plugin über Github herunterzuladen, musst du zum EXILED Github gehen, wie unten gezeigt, und ein Plugin-Repository auswählen.
-![image](https://user-images.githubusercontent.com/17176877/219128457-a7a4aa64-5b7c-4778-9602-fa1286150b51.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/GJWWsbbNPry2Sgc/preview)
 
 Sobald du das Plugin-Repository gefunden hast, das du herunterladen möchtest, erscheint auf der rechten Seite ein Abschnitt mit den Veröffentlichungen.
-![image](https://user-images.githubusercontent.com/17176877/219128727-89f515af-394d-44d6-beb5-3ee6bed1a90b.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/83GHkFKigg5BR5a/preview)
 
 Sobald du den Abschnitt "Releases" ausgewählt hast, wird eine .dll-Ressource angezeigt, auf die du klicken musst, um den Download zu starten.
-![image](https://user-images.githubusercontent.com/17176877/219129751-2303885c-f09f-4513-ad92-699d6bc49546.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/ycWDs557E6PmZCm/preview)
 
 Und das war's. Du kannst nun dem Installationsteil dieses Dokuments folgen, um zu erfahren, wie du die .dll auf deinem Server installierst.
 
@@ -42,12 +42,12 @@ Und das war's. Du kannst nun dem Installationsteil dieses Dokuments folgen, um z
 
 Jetzt, wenn die gewünschten Plugins heruntergeladen wurden, dann kann mit der eigentlichen Installation der Plugins angefangen werden. Die Einrichtung der Plugins erfolgt per FTP. Um Dateien auf deinen Server hochladen zu können, benötigst du einen FTP-Client. Falls du noch nicht weißt, was FTP ist und wie es funktioniert, dann schaue dir am besten die folgende Anleitung an: [FTP Dateizugriff](gameserver-ftpaccess.md)
 
-![image](https://user-images.githubusercontent.com/26007280/189888621-6734b077-2cc4-4dab-ad6e-a243d7815267.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/EwDMrFxGazMeWkB/preview)
 
 Unter dem ``/gXXXXXX/.config/EXILED/`` Verzeichnis findest du den **Plugins** Ordner. Dort werden deine ausgewählten Plugins dann in das Verzeichnis hochgeladen. Das Ganze kann dann wie folgt aussehen:
 
-![image](https://user-images.githubusercontent.com/26007280/189888652-4c31e683-4185-4bdf-af69-7b4c73f0c027.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/ybicJCJAMZn5xyW/preview)
 
 Mehr muss nicht gemacht werden. Damit ist die Installation bereits abgeschlossen. Im Anschluss kannst du in der Live-Konsole nachschauen, ob das Plugin erfolgreich kompiliert und geladen wurde. Die Ausgabe sollte dann wie folgt aussehen:
 
-![image](https://user-images.githubusercontent.com/26007280/189888682-4fd26a7d-170a-447f-8b05-99253becf5ad.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/P9oW3CWyfaiaWTq/preview)

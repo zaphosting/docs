@@ -36,14 +36,14 @@ Danach kann die fxmanifest.lua gespeichert und geschlossen werden, diese brauche
 
 In deinem Assetsordner erstellst du jetzt einen "stream" Ordner.
 
-![image](https://user-images.githubusercontent.com/13604413/159168259-1508dc05-118c-4508-a1b3-7d11316b56fd.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/njXzEjaiq5wZx4R/preview)
 
 
 ## Mods hochladen
 
 Öffne diesen Stream Ordner nun, hier kannst du nun alle ytd und yft Dateien per Drag & Drop hochladen:
 
-![image](https://user-images.githubusercontent.com/13604413/159168290-8136adcb-6bb3-4c97-af56-b834bb3311ab.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/wWjRKfGF3AGFCy4/preview)
 
 Nachdem die Mods alle hochgeladen sind, muss jetzt nur noch deine Ressource in der server.cfg eingetragen werden, diese findest du im "server-data" Ordner deines FiveM Servers.
 

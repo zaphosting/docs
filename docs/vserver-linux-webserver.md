@@ -125,3 +125,7 @@ nginx version: nginx/1.2.3
 ```
 
 If either one of the two cases occurs, then the web server has been successfully installed. 
+
+## Conclusion
+
+Congratulations, you have successfully installed and configurated your desired webserver! If you have any further questions or problems, please contact our support team, who are available to help you every day! 

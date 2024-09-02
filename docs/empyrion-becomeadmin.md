@@ -21,22 +21,22 @@ The ID will later be entered in the configuration file.
 
 Here you can find an example of how you can get your steamid by inputting your profile link there:
 
-![image](https://user-images.githubusercontent.com/13604413/159184139-e07456a3-965e-4e66-9aed-11a3a1cc9f76.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/3LQXKFg58qXCCHw/preview)
 
 ## Configure adminconfig
 
 The "**adminconfig.yaml**" which must be edited is located in the "**Saves**" directory.
 To open this directory, the instructions for the [FTP connection](gameserver-ftpaccess.md) must be followed.
 
-![image](https://user-images.githubusercontent.com/26007280/189930998-9c22c865-d2fb-4a6d-8cd9-e039cac8ff81.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/XtfdjdgoxcqXsWx/preview)
 
 The following values are specified as standard:
 
-![image](https://user-images.githubusercontent.com/26007280/189931028-535b2c79-dcd5-4838-9318-795ffad325a8.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/Tpf23riFnGfZAsP/preview)
 
 The previously selected Steam64ID must now be written after "**Id:**".
 
-![image](https://user-images.githubusercontent.com/26007280/189931066-796567e9-2d96-4b31-8131-2184f5ea6645.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/RHEr44CGsaLQWyY/preview)
 
 With "**Permission**" the rank is determined, which should be given to the user.
 The ranks are assigned as follows:

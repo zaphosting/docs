@@ -35,7 +35,7 @@ Die Daten dazu können in diesem Beispiel aus dem rot markierten Bereich entnomm
 
 Zunächst wird nur die Startseite von phpMyAdmin angezeigt. Um die Tabellen in der jeweiligen Datenbank nun einsehen und bearbeiten zu können, muss die Datenbank mit einem einfachen Klick geöffnet werden:
 
-![image](https://user-images.githubusercontent.com/26007280/195381711-178d5900-1c54-465b-9d67-14c1605b8bde.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/7xeLT6TNEafQw9H/preview)
 
 Jetzt werden alle Tabellen in der Datenbank aufgelistet und bereit einige Tools angezeigt, womit bereits einige Aktionen durchgeführt werden können.
 Beispielsweise können Tabellen mit einem Klick auf den roten "Löschen" Button so gelöscht werden.
@@ -46,7 +46,7 @@ Um Zeit zu sparen, können auch auf mehrere Tabellen gleichzeitig Aktionen durch
 Hierzu klick man das Auswahlkästchen an der äußeren linken Seite einmal an und wiederholt dies dann so oft, bis alle gewünschten Tabellen ausgewählt wurden.
 Sofern die Aktion auf alle Tabellen in der Datenbank angewendet werden soll, kann auch der Button "Alle auswählen" verwendet werden, wodurch jede Tabelle automatisch ausgewählt wird. Danach kann über das Dropdown-Menü die gewünschte Aktion ausgewählt werden und mit einem Klick auf "OK" ausgeführt werden.
 
-![image](https://user-images.githubusercontent.com/26007280/195381775-17abbcbf-422b-4740-9038-aa2152605d46.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/MgexrKaYx3D5PR7/preview)
 
 ## Tabellen-Inhalte bearbeiten
 
@@ -54,7 +54,7 @@ Inhalte in einer Tabelle können schnell und einfach mit einem Doppelklick auf d
 Hierzu muss aber sichergestellt werden, dass die Tabelle so konfiguriert ist, dass die Bearbeitung auch möglich ist.
 Dies kann aber an den drei Aktions-Buttons erkennen, welche in diesem Fall dargestellt werden.
 
-![image](https://user-images.githubusercontent.com/26007280/195381812-20810f1d-2c07-4466-8da6-993ac6ed5c4a.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/xe4Qm9cNB3L9BX4/preview)
 
 ## SQL-Befehle ausführen
 
@@ -63,4 +63,4 @@ Hierzu muss die Datenbank **zuvor** in der linken Liste einmal angeklickt werden
 
 In der Befehlseingabe angekommen, können dort nun alle gewünschten SQL-Befehle eingetragen werden, welche dann im Anschluss mit einem Klick auf "OK" ausgeführt werden.
 
-![image](https://user-images.githubusercontent.com/26007280/195381868-597ebfad-5506-43e4-b1e6-32cf9447feb7.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/9jrZfEer2rRjdgX/preview)

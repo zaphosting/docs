@@ -79,7 +79,7 @@ For example, a backup should be created daily at 3 am:
 
 Open crontab -e:
 
-![](https://user-images.githubusercontent.com/61839701/166191682-3b56805e-1677-4c48-b5d9-107148e76367.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/9ScQ7roDkzWcSFW/preview)
 
 With the number 1 "nano" can be used as an editor.
 With the number 2, "vim" can be used as an editor.  
@@ -164,7 +164,7 @@ For example, a backup should be created daily at 3 am:
 
 Open crontab -e:
 
-![](https://user-images.githubusercontent.com/61839701/166191682-3b56805e-1677-4c48-b5d9-107148e76367.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/9ScQ7roDkzWcSFW/preview)
 
 With the number 1 "nano" can be used as an editor.
 With the number 2, "vim" can be used as an editor.  

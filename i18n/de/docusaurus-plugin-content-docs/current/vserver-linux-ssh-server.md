@@ -248,4 +248,6 @@ systemctl restart sshd
 </TabItem>
 </Tabs>
 
-Du hast nun erfolgreich den SSH-Dienst auf deinem Server installiert und kannst nun über SSH auf deinen Server zugreifen.
+## Abschluss
+
+Glückwunsch, du hast den SSH-Dienst erfolgreich installiert! Solltest du noch weitere Fragen oder Probleme haben, dann wende dich gerne an unser Support-Team, welches dir jeden Tag zur Verfügung steht! 

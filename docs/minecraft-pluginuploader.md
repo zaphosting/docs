@@ -30,13 +30,13 @@ There are two different ways you can install a plugin on your Minecraft server.
 
 Select your desired plug-in from the "All plugins" list and click on the green "Install" button. The installation may take a moment depending on the size of the plug-in.
 
-![](https://user-images.githubusercontent.com/61839701/170331439-f78360fb-ddb3-4278-bd1b-f86ee88b8a9d.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/dxrtY8pQwmtfEP9/preview)
 
 ### Upload your own Plugin
 
 Drag the desired plugin .jar file into the box marked on the picture. It is also possible to drag and install several plugins into this area at the same time.
 
-![](https://user-images.githubusercontent.com/61839701/170331518-03585cc4-db01-4221-8073-246084a959ed.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/fM2a4AeyspaQzYd/preview)
 
 If you have dragged the plugin into the upload field, it takes a moment until the plugin is on the server.
 
@@ -49,7 +49,7 @@ In rare cases the server has to be restarted so that the plugin runs smoothly.
 
 ## Uninstall Plugin
 
-![](https://user-images.githubusercontent.com/61839701/170331549-c08e53b1-6ba1-4cbf-95c9-ea20585977f0.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/dKaeJr8M3jzgMBS/preview)
 
 To uninstall a plugin, click on the red bin next to the entry.
 
@@ -90,7 +90,7 @@ Suggested solutions:
 
 - There may not be a current version of this plugin for the currently installed version of your game server. To request a plugin, use the blue button Plugin missing ?.
 
-![](https://user-images.githubusercontent.com/61839701/170331621-3befcec0-b4d3-46f3-b8df-78aeb303a1a6.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/DeMjH2s74geaLPq/preview)
 
 ### The Uninstall/Install in the pre-made list does not seem to work.
 

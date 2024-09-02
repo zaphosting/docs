@@ -16,7 +16,7 @@ We offer the possibility to create individual backups per click. This allows you
 
 Besides creating backups manually, backups can also be created fully automatically. Backups can be created either daily or weekly at a specified time. After restoring a backup, the server will be at the state at the time of backup creation.
 
-<YouTube videoId="yUDAcfyDELc" title="How to create BACKUPS for your Server!" description="Feel like you understand better when you see things in action?  We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
+<YouTube videoId="yUDAcfyDELc" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/CTWHD2Lq4QqFWQw/preview" title="How to create BACKUPS for your Server!" description="Feel like you understand better when you see things in action? We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
 
 <InlineVoucher />
 
@@ -32,7 +32,7 @@ The backup creation process can take a few minutes depending on the file size of
 
 At the bottom of the page you will find more options, including the settings for automated backups. The option **Create backups automatically** needs to be enabled in order for this feature to be active. Furthermore the interval must be set. 
 
-![image](https://user-images.githubusercontent.com/13604413/159171260-f3d1775e-25bc-45a0-b4aa-d6bdc13bfa0f.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/gB9n6JspdNW73bj/preview)
 
 Depending on the game, it's usually also a good idea to back up the database as well, since important data such as scores, permissions and much more is often stored there. 
 
@@ -44,8 +44,8 @@ Depending on the game, it's usually also a good idea to back up the database as 
 ## Download/delete backups
 
 If you want to download or delete backups you have to connect to the storage server via FTP. Here you can find instructions to use FTP: [FTP access](gameserver-ftpaccess.md)
-![image](https://user-images.githubusercontent.com/13604413/159171263-ef2c31b3-1541-4f41-b7b1-e8a70c96a422.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/tfJoBpaELEPKMij/preview)
 
-![image](https://user-images.githubusercontent.com/13604413/159171264-187a5aca-1829-41a0-967b-f9125df236c1.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/q3E8XTX8gRQoasY/preview)
 
 There, you can view the user credentials of your storage server and the currently used storage space. If you are connected via FTP, you can download or delete the backups there.

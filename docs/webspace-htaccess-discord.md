@@ -22,19 +22,19 @@ For example, the domain example-example.de/discord should enable a forwarding to
 ### Step 1
 Create the subdirectory "discord" on the web space/web server: 
 
-![Bildschirmfoto vom 2022-05-13 05-38-40](https://user-images.githubusercontent.com/61953937/168207049-be0c345b-d28d-4b1e-ada5-454c5cf26e98.png)
+![Bildschirmfoto vom 2022-05-13 05-38-40](https://screensaver01.zap-hosting.com/index.php/s/DpCtmzkcw5Hd6NN/preview)
 
 ### Step 2
 Creating the ".htaccess" file on the web space/web server:
 
-![Bildschirmfoto vom 2022-05-13 05-39-09](https://user-images.githubusercontent.com/61953937/168207066-331ffbe9-edb2-448f-8182-4235df7bae80.png)
+![Bildschirmfoto vom 2022-05-13 05-39-09](https://screensaver01.zap-hosting.com/index.php/s/2ZLm8J4H5dH5AHC/preview)
 
-![Bildschirmfoto vom 2022-05-13 05-39-58](https://user-images.githubusercontent.com/61953937/168207072-e2a0cb99-6e9d-48ea-8489-b93b9c75b57b.png)
+![Bildschirmfoto vom 2022-05-13 05-39-58](https://screensaver01.zap-hosting.com/index.php/s/np6f3ctsS7oirkL/preview)
 
 ### Step 3
 Create the forwarding rule in the ".htaccess" file:
 
-![Bildschirmfoto vom 2022-05-13 05-40-23](https://user-images.githubusercontent.com/61953937/168207079-f08308b9-9a04-4e8a-a3d5-bedce79936e8.png)#
+![Bildschirmfoto vom 2022-05-13 05-40-23](https://screensaver01.zap-hosting.com/index.php/s/Z48Rj7xJbAXTFFR/preview)#
 
 Important with the forwarding rule is that the original domain is "exchanged" for another one. 
 So in the forwarding rule "example-example.de" has to be replaced by the own domain and "https://discord.gg/A6e4jyg" by the own discord server address. 

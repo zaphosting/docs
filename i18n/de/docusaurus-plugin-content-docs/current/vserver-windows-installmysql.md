@@ -23,11 +23,11 @@ aktuellste Version von MariaDB herunter, diese verwenden wir als unseren Datenba
 
 Das heruntergeladene Archiv entpackst du mit WinRAR oder 7Zip und startest die darin befindliche Installationsdatei mit einem Doppelklick: 
 
-![](https://user-images.githubusercontent.com/61839701/166200051-bfd13072-ba5e-4013-a927-a9c848897976.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/WSHe5HY2iTZXNsb/preview)
 
 Im Anschluss navigierst du durch das Klicken auf **Next** durch den Installationsvorgang, bis du zur Eingabe des root Passwort aufgefordert wirst:
 
-![](https://user-images.githubusercontent.com/61839701/166200079-25b262be-a90b-45e6-8361-95956c204381.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/zafn8KAPzTm7qaq/preview)
 
 Dort legst du nun das Hauptpasswort für den Zugang zu deinem Datenbankserver fest, achte bitte unbedingt darauf, dass du hier ein sicheres Passwort verwendest und dass niemand außer dir dieses Passwort kennt!
 
@@ -37,7 +37,7 @@ WICHTIG! Möchtest du von Außen via Navicat, HeidiSQL oder mithilfe eines ander
 
 Im Anschluss klickst du auch hier auf **Next** bis du zum Ende der Installation gelangst, dort klickst du dann abschließend auf **Install**:
 
-![](https://user-images.githubusercontent.com/61839701/166200095-9d3ae478-42a3-4ef7-91f7-10adf549148a.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/TCmk7csEQRN8fDi/preview)
 
 Dein Datenbankserver ist jetzt online und einsatzbereit!
 
@@ -48,3 +48,8 @@ Dafür findest du eine seperate Anleitung: [Firewall Ports freigeben](vserver-wi
 
 
 Damit ist dein MySQL Server nun auch von außen erreichbar. 
+
+
+## Abschluss
+
+Glückwunsch, du hast den MySQL Server erfolgreich installiert und konfiguriert! Solltest du noch weitere Fragen oder Probleme haben, dann wende dich gerne an unser Support-Team, welches dir jeden Tag zur Verfügung steht!

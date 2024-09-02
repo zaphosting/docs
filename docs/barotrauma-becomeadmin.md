@@ -16,7 +16,7 @@ The assignment of administrator permissions allows you simple and comprehensive 
 ## Configuration
 Adding an admin is done via the **Clientpermissions.xml** Config, which you can find in the interface under Configs.
 
-![image](https://user-images.githubusercontent.com/26007280/189938031-7d38542c-410e-492b-bfe4-95f765d3fd4d.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/oJNTozXz9YW8sjG/preview)
 
 
 A new client entry must be added to the Config to add a new player. The syntax for this looks like this:
@@ -39,7 +39,7 @@ You can find it by accessing your Steam profile and then right-clicking anywhere
 
 
 
-![image](https://user-images.githubusercontent.com/26007280/189938085-bd48d905-ecf1-429d-90f7-5dbd24e1766b.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/C3nfdjemxkjZH5n/preview)
 
 
 
@@ -49,7 +49,7 @@ Afterwards, the URL must be typed in one of the following websites:
 - https://steamidfinder.com/
 - https://steamid.io/
 
-![image](https://user-images.githubusercontent.com/13604413/159179580-c562bce5-444a-4ec6-8993-21483f7f85be.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/asnbFc4JDifdSHn/preview)
 
 
 

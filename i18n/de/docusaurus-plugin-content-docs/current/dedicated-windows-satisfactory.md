@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 ## Einführung
 Du hast einen Windows Dedicated Server und möchtest darauf unter anderem Gameserver installieren? Beispielsweise einen Satisfactory Dedicated Server? Dann bist du hier genau richtig! Im Folgenden werden wir dir Schritt für Schritt erklären, wie du solch einen Dienst auf deinem Server installieren kannst.
 
-<YouTube videoId="rqtQJa_awGw" title="Satisfactory Dedicated Server Setup on Windows VPS" description="Hast du das Gefühl, dass du etwas besser verstehst, wenn du es in Aktion siehst?  Wir haben etwas für dich! Tauche ab in unser Video, welches alles für dich zusammenfasst. Egal, ob du es eilig hast oder einfach nur Informationen auf möglichst verständliche Art und Weise aufnehmen möchtest!"/>
+<YouTube videoId="rqtQJa_awGw" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/sjCCn9w79LTXC3C/preview" title="Satisfactory Dedicated Server Setup on Windows VPS" description="Hast du das Gefühl, dass du etwas besser verstehst, wenn du es in Aktion siehst? Wir haben etwas für dich! Tauche ab in unser Video, welches alles für dich zusammenfasst. Egal, ob du es eilig hast oder einfach nur Informationen auf möglichst verständliche Art und Weise aufnehmen möchtest!"/>
 
 <InlineVoucher />
 
@@ -22,7 +22,7 @@ Verbinde dich für die Einrichtung deines Satisfactory Dedicated Server mit dein
 
 Im Anschluss erfolgt der Download. Dieser beinhaltet die **steamcmd.zip** Datei, welche zunächst entpackt werden muss. Erstelle dafür am besten einen separaten Ordner, wo die Datei dann entpackt wird. Als Resultat solltest du nun die **steamcmd.exe** sehen. Führe diese aus und warte, bis der Installationsprozess abgeschlossen ist. 
 
-![image](https://user-images.githubusercontent.com/26007280/217031741-4f29ac21-d3e3-4c00-8b25-c1d15a95c213.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/N3N6YDBZm2nQYbL/preview)
 
 Sobald die Meldung **Loading Steam API... OK** angezeigt wird, wurde der Vorgang erfolgreich abgeschlossen und es kann mit der Installation des Satisfactory Servers begonnen werden. 
 
@@ -34,7 +34,7 @@ Nach der Installation solltest du die Möglichkeit haben, Befehle in der **Steam
 
 Als nächstes erfolgt die Installation. Diese wird mit dem `app_update 1690800` Befehl durchgeführt. Die App ID **1690800** steht in dem Fall für die **Satisfactory Dedicated Server** Applikation. 
 
-![image](https://user-images.githubusercontent.com/26007280/217031764-55338964-8547-4539-babc-2e12e78d8d98.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/KTropz3j4a5cXfb/preview)
 
 
 
@@ -62,7 +62,7 @@ Im Anschluss wird die Datei ausgeführt. Bei dem ersten Startvorgang sollte ein 
 
 Damit der Server auch extern sichtbar und erreichbar ist, müssen die verwendeten Server Ports in der Firewall freigeschaltet/weitergeleitet werden. Öffne dazu die Windows Firewall Einstellungen. 
 
-![image](https://user-images.githubusercontent.com/26007280/217031778-d5a2a978-6989-4602-83d9-5d37d8c5f2cc.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/jJfLN4cZTyEE3bM/preview)
 
 
 

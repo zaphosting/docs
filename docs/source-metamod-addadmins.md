@@ -21,7 +21,7 @@ Furthermore you need the Steam ID of your Steam Account. There are several ways 
 
 First of all, the profile must be called up in Steam and then right-click anywhere in the profile. There you can copy the Steam URL of the profile.
 
-![image](https://user-images.githubusercontent.com/13604413/159178874-9784e3e0-9689-4a8e-a7ee-55a678d4d12e.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/5xbii7Kzmpa33KE/preview)
 
 Afterwards, the URL can be specified on one of the following web pages:
 
@@ -29,7 +29,7 @@ Afterwards, the URL can be specified on one of the following web pages:
 - https://steamidfinder.com/
 - https://steamid.io/
 
-![image](https://user-images.githubusercontent.com/13604413/159178882-44e4b9d3-5f43-4cf6-b0a3-bb688e03d92f.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/wiMssSGFEXWSF9R/preview)
 
 Afterwards you will receive the Steam ID in addition to the general account information. There the **Steam ID 32** is needed:
 
@@ -102,4 +102,4 @@ Depending on which rights are to be assigned, the respective flags can be writte
 
 With the command 'admin' in the chat or 'sm_admin' in the console the menu can be called.
 
-![image](https://user-images.githubusercontent.com/13604413/159178889-0f82f7fe-5a94-417c-884f-8393aab2b432.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/jwLWXJ99XeJJGSK/preview)

@@ -203,4 +203,8 @@ Now you can run the provided code with the `bun index.ts` command and check the 
 </TabItem>
 </Tabs>
 
-By following this guide, you will have successfully installed one of the popular JavaScript runtimes on your Windows server.
+
+
+## Conclusion
+
+Congratulations, you have successfully installed and configurated the JavaScript on your VPS! If you have any further questions or problems, please contact our support team, who are available to help you every day! 

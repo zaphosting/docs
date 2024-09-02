@@ -8,7 +8,7 @@ sidebar_label: Registrieren
 ## Registriere Dich bei ZAP-Hosting
 Das ist super einfach! Besuche unsere Website und begib Dich auf die Startseite. Dort findest Du eine Anmeldemaske, bei der Du Usernamen, E-Mail-Adresse und Passwort eingeben musst.
 
-![image](https://user-images.githubusercontent.com/61953937/159139295-517c94d1-0983-49cd-9676-ebc615d8e606.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/SXPXDoDF8rwtZSX/preview)
 
 :::info
 Nach der Registrierung kannst du dich zwar sofort einloggen, Du solltest jedoch die Aktivierungs-E-Mail bestätigen, um den vollen Funktionsumfang nutzen zu können.
