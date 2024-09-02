@@ -1,12 +1,7 @@
 name: Validate Docs Metadata
 
-permissions:
-  issues: write
-  pull-requests: write
-
-
 on:
-  pull_request_target:
+  pull_request:
     branches: ["master", "main"]
     types: [opened, edited, synchronize, reopened]
     paths:
@@ -40,10 +35,12 @@ jobs:
 
       - name: Run metadata check script
         run: node .github/scripts/validate-docs.js
+        if: ${{ !github.event.pull_request.head.repo.fork }}
         continue-on-error: true
 
       - name: Comment on pull request if needed
         uses: actions/github-script@v6
+        if: ${{ !github.event.pull_request.head.repo.fork }}
         with:
           script: |
             const fs = require('fs');
