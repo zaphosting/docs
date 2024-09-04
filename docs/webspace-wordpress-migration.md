@@ -18,16 +18,14 @@ Are you interested in our powerful webspace product offerings and are looking to
 
 ## Prerequisites
 
-Before continuining with the guide, ensure that you have the following prepared:
+Before continuing with the guide, ensure that you have the following prepared:
 - A domain, with admin access to manage DNS Settings.
 - Admin access to your old WordPress instance.
 - Own a [Webspace](https://zap-hosting.com/en/shop/product/webspace/) product with us.
 
 ## Step 1: Preparing Webspace
 
-Begin by visiting our [Webspace](https://zap-hosting.com/en/shop/product/webspace/) product page and purchasing the appropriate webspace hosting plan that suits your website requirements.
-
-Once the product is setup, you will have to install WordPress onto it. Please read our dedicated [Webspace Install Wordpress guide](webspace-wordpress.md) for detailed instructions on doing this.
+Begin by visiting our [Webspace](https://zap-hosting.com/en/shop/product/webspace/) product page and purchasing the appropriate webspace hosting plan that suits your website requirements. Once the product is set up, you will have to install WordPress onto it. Please read our dedicated [Webspace Install WordPress guide](webspace-wordpress.md) for detailed instructions on doing this.
 
 With WordPress installed on the Webspace, you will have to link your Domain to it. Once again, please read our dedicated [Webspace Domain guide](webspace-adddomain.md) for detailed instructions on doing this.
 
@@ -35,21 +33,19 @@ With WordPress installed on the Webspace, you will have to link your Domain to i
 
 ## Step 2: Setting up Migrate Guru Plugin
 
-In order to automate the migration process, you will be using the **Migrate Guru** WordPress plugin which is free and is popularly used.
-
-You will need to install this on both your new and old WordPress instances.
+In order to automate the migration process, you will be using the **Migrate Guru** WordPress plugin, which is free and is popularly used. You will need to install this on both your new and old WordPress instances.
 
 :::tip Logging in to Admin Panel
-To log in as an admin on a WordPress site, open your browser and navigate to your website. Add `/wp-admin` at the end of your website's url (e.g. `[your_website].com/wp-admin`) and search for this in your browser. This will redirect you to the WordPress admin login page, where you have to log in using your old hosting WordPress admin panel credentials.
+To log in as an admin on a WordPress site, open your browser and navigate to your website. Add `/wp-admin` at the end of your website's URL (e.g. `[your_website].com/wp-admin`) and search for this in your browser. This will redirect you to the WordPress admin login page, where you have to log in using your old hosting WordPress admin panel credentials.
 
 ![image](https://screensaver01.zap-hosting.com/index.php/s/zwzRyGJwEJMNPGQ/preview)
 :::
 
-On your WordPress panel, access the **Plugins** category which is on the left-hand side of the page. Now select **Add New Plugin** and in the search bar enter **Migrate Guru**.
+On your WordPress panel, access the **Plugins** category, which is on the left-hand side of the page. Now select **Add New Plugin** and in the search bar enter **Migrate Guru**.
 
 Once the search result appears, press **Install** followed by **Activate**. Ensure that you do this on both the old and new WordPress instance before continuing.
 
-Once activated, you will see a screen appear prompting you to enter your email address and to agree to the terms and conditions, which you should completed.
+Once activated, you will see a screen appear prompting you to enter your email address and to agree to the terms and conditions, which you should complete.
 
 ![image](https://screensaver01.zap-hosting.com/index.php/s/SXYGfpWJTwNyYjJ/preview)
 
@@ -91,7 +87,7 @@ We recommend that you test the website thoroughly on your new WordPress instance
 
 ## Step 5: Updating Domain DNS Settings
 
-With the migration complete, the last step is to update the DNS Settings on your domain, in order configure it for the new Webspace instance. You need to modify your Domain's DNS settings and set it to ZAP Hosting's webspace IP address to render your WordPress website from ZAP Hosting server.
+With the migration complete, the last step is to update the DNS Settings on your domain, in order to configure it for the new Webspace instance. You need to modify your Domain's DNS settings and set it to ZAP Hosting's webspace IP address to render your WordPress website from ZAP Hosting server.
 
 To get the webspace IP address, begin by navigating to your webserver's web interface panel on the ZAP-Hosting website, and head over to the **DNS** section. You will be able to find the Webspace's IP address on this page.
 
@@ -99,12 +95,12 @@ To get the webspace IP address, begin by navigating to your webserver's web inte
 
 Now that you have the IP address ready, if your domain is not on your ZAP-Hosting account, begin by logging in to your account on your domain provider's website.
 
-Find the **DNS Settings** section or similar on an external providers. You will have to replace your existing **A Record** that points towards your old hosting provider, with the IP Address of your ZAP Webspace. 
+Find the **DNS Settings** section or similar on external providers. You will have to replace your existing **A Record** that points towards your old hosting provider, with the IP Address of your ZAP Webspace. 
 
 Do this for all **A Records** that are still pointing to your old instance. Once completed, your domain will be ready to function alongside your WordPress website from ZAP-Hosting.
 
 :::info
-Please note that changes to DNS records may take up to 24 hours to propagate. This is usually occurs quickly, but it can take longer sometimes.
+Please note that changes to DNS records may take up to 24 hours to propagate. This is usually occurring quickly, but it can take longer sometimes.
 :::
 
 ![image](https://screensaver01.zap-hosting.com/index.php/s/P93CG3MLJc2DL3i/preview)
