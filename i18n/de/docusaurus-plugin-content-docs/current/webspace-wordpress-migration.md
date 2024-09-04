@@ -31,7 +31,7 @@ Besuche zunächst unsere [Webspace](https://zap-hosting.com/de/shop/product/webs
 
 Wenn du WordPress auf dem Webspace installiert hast, musst du deine Domain mit ihm verknüpfen. Auch hierzu findest du in unserem [Webspace-Domain Anleitung](webspace-adddomain.md) eine ausführliche Anleitung.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/Qa3mmmQtTybNgGj/preview)
+![image](https://screensaver01.zap-hosting.com/index.php/s/sHKHMm4Gs4K8aLD/preview)
 
 ## Schritt 2: Migrate Guru Plugin einrichten
 
@@ -49,7 +49,7 @@ Sobald das Suchergebnis erscheint, klicke auf **Installieren**, gefolgt von **Ak
 
 Nach der Aktivierung erscheint ein Bildschirm, in dem du aufgefordert wirst, deine E-Mail-Adresse einzugeben und den Geschäftsbedingungen zuzustimmen, was du ausfüllen solltest.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/SXYGfpWJTwNyYjJ/preview)
+![image](https://screensaver01.zap-hosting.com/index.php/s/c3krf8nQPZ5tx7y/preview)
 
 ## Schritt 3: Zugriff auf den Migrationsschlüssel
 
@@ -57,7 +57,7 @@ Wenn das Migrate Guru Plugin auf beiden Instanzen installiert ist, musst du auf 
 
 Du findest ihn im Bereich **Migrate Guru** auf der linken Seite deines WordPress-Panels. Kopiere diesen Schlüssel, da du ihn im nächsten Schritt benötigst.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/g3X9fMrqoWyfwtN/preview)
+![image](https://screensaver01.zap-hosting.com/index.php/s/PNW289KnE9bzKsJ/preview))
 
 :::tip Backup vorbereiten
 Als zusätzliche Sicherheitsvorkehrung empfehlen wir dir, ein Backup deiner alten WordPress-Instanz zu erstellen, bevor du mit dem Migrationsprozess über das Plugin fortfährst. Bei diesem Vorgang gehen zwar keine Daten verloren, aber es ist immer besser, auf Nummer sicher zu gehen und für den Fall der Fälle ein Backup bereitzuhalten.
@@ -67,7 +67,7 @@ Als zusätzliche Sicherheitsvorkehrung empfehlen wir dir, ein Backup deiner alte
 
 Gehe zurück in das Admin-Panel deiner **alten** WordPress-Instanz. Klicke im Bereich **Migrate Guru** auf die Schaltfläche **Migrate** und wähle **Other Hosts** aus der Liste.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/x6ctdxnL2mdpTt5/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/K4FEnGpq6Kj7NSf/preview)
 
 Füge den Migrate Guru-Migrationsschlüssel ein, den du gerade von deiner neuen ZAP-Hosting-WordPress-Instanz kopiert hast, und drücke auf die Schaltfläche **Migrieren**, um mit dem Migrationsprozess fortzufahren.
 
@@ -75,13 +75,13 @@ Füge den Migrate Guru-Migrationsschlüssel ein, den du gerade von deiner neuen 
 Achte darauf, dass du den Migrationsschlüssel aus deinem **neuen** ZAP-Hosting-WordPress-Administrationsbereich kopierst und ihn in deinen **alten** WordPress-Administrationsbereich einfügst. Wenn du es andersherum machst, werden deine Daten gelöscht.
 :::
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/7nEr2L48PKCDXrj/preview)
+![image](https://screensaver01.zap-hosting.com/index.php/s/73rq3F95935sckW/preview)
 
 Nachdem du auf die Schaltfläche **Migrieren** geklickt hast, wird der Migrationsprozess nach einigen Validierungsprüfungen sofort gestartet. 
 
 Der Migrationsprozess läuft im Hintergrund und sollte innerhalb weniger Minuten abgeschlossen sein. Bitte habe etwas Geduld, da dies stark von der Größe deiner Website abhängt. Sobald der Vorgang abgeschlossen ist, siehst du eine Erfolgsmeldung.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/YHSAwLkCjWBHsHT/preview)
+![image](https://screensaver01.zap-hosting.com/index.php/s/RAFemNcFiemoMJc/preview))
 
 :::tip
 Wir empfehlen, dass du die Website auf deiner neuen WordPress-Instanz gründlich testest, um sicherzustellen, dass der gesamte Migrationsprozess erfolgreich war.
@@ -93,7 +93,7 @@ Nachdem die Migration abgeschlossen ist, musst du im letzten Schritt die DNS-Ein
 
 Um die Webspace-IP-Adresse zu erhalten, gehst du zunächst zum Webinterface deines Webservers auf der ZAP-Hosting-Website und rufst den Bereich **DNS** auf. Auf dieser Seite findest du die IP-Adresse deines Webspace.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/pd8iQdXsd8Kaobd/preview)
+![image](https://screensaver01.zap-hosting.com/index.php/s/pFcfzYm4XrwZwyJ/preview)
 
 Wenn du die IP-Adresse parat hast und deine Domain nicht auf deinem ZAP-Hosting-Konto ist, logge dich zunächst auf der Website deines Domain-Anbieters in dein Konto ein.
 

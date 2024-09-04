@@ -30,7 +30,7 @@ Begin by visiting our [Webspace](https://zap-hosting.com/en/shop/product/webspac
 With WordPress installed on the Webspace, you will have to link your Domain to it. Once again, please read our dedicated [Webspace Domain guide](webspace-adddomain.md) for detailed instructions on doing this.
 
 ![image](https://screensaver01.zap-hosting.com/index.php/s/Qa3mmmQtTybNgGj/preview)
-![image](https://screensaver01.zap-hosting.com/index.php/s/sHKHMm4Gs4K8aLD/preview)
+
 
 ## Step 2: Setting up Migrate Guru Plugin
 
@@ -39,7 +39,6 @@ In order to automate the migration process, you will be using the **Migrate Guru
 :::tip Logging in to Admin Panel
 To log in as an admin on a WordPress site, open your browser and navigate to your website. Add `/wp-admin` at the end of your website's URL (e.g. `[your_website].com/wp-admin`) and search for this in your browser. This will redirect you to the WordPress admin login page, where you have to log in using your old hosting WordPress admin panel credentials.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/zwzRyGJwEJMNPGQ/preview)
 ![image](https://screensaver01.zap-hosting.com/index.php/s/zwzRyGJwEJMNPGQ/preview)
 :::
 
@@ -59,7 +58,6 @@ With the Migrate Guru plugin now installed on both instances, you will have to a
 You can find this by accessing the **Migrate Guru** section on the left-hand side of your WordPress panel. Copy this key as it will be needed in the next step.
 
 ![image](https://screensaver01.zap-hosting.com/index.php/s/g3X9fMrqoWyfwtN/preview)
-![image](https://i.imgur.com/3EjHJec.png/preview)
 
 :::tip Prepare Backup
 As an additional safety precaution, we recommend creating a backup of your old WordPress instance before proceeding with the migration process via the plugin. This process doesn't cause any data loss, however it is always best to be safe and have a backup ready just in-case.
@@ -79,14 +77,12 @@ Ensure that you copy the Migration Key from your **new** ZAP-Hosting WordPress a
 :::
 
 ![image](https://screensaver01.zap-hosting.com/index.php/s/7nEr2L48PKCDXrj/preview)
-![image](https://i.imgur.com/MJUpD2E.png/preview)
 
 After pressing the **Migrate** button, the migration process will start instantly after a few validation checks. 
 
 The migration process will run in the background without any downtime and should be completed within a few minutes. Please be patient as this heavily depends on the scale of your website. Once it is ready, you will see a success screen.
 
 ![image](https://screensaver01.zap-hosting.com/index.php/s/YHSAwLkCjWBHsHT/preview)
-![image](https://i.imgur.com/tLtWHsT.png/preview)
 
 :::tip
 We recommend that you test the website thoroughly on your new WordPress instance, to ensure that the entire migration process was successful.
@@ -99,7 +95,6 @@ With the migration complete, the last step is to update the DNS Settings on your
 To get the webspace IP address, begin by navigating to your webserver's web interface panel on the ZAP-Hosting website, and head over to the **DNS** section. You will be able to find the Webspace's IP address on this page.
 
 ![image](https://screensaver01.zap-hosting.com/index.php/s/pd8iQdXsd8Kaobd/preview)
-![image](https://i.imgur.com/zH2lFk9.png/preview)
 
 Now that you have the IP address ready, if your domain is not on your ZAP-Hosting account, begin by logging in to your account on your domain provider's website.
 
