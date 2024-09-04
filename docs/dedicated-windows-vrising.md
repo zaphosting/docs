@@ -1,7 +1,7 @@
 ---
 id: dedicated-windows-vrising
 title: "Dedicated Server: V-Rising Dedicated Server Setup"
-description: Information on how to install and set up a V-Rising Server on your Dedicated Server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: Information about setting up a V-Rising Dedicated Server on a Windows Dedicated Server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: V-Rising
 services:
   - dedicated

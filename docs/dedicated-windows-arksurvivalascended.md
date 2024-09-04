@@ -1,7 +1,7 @@
 ---
 id: dedicated-windows-arksurvivalascended
 title: "Dedicated Server: ARK Survival Ascended Dedicated Server Setup"
-description: Information about setting up an ARK Survival Ascended Dedicated Server on a Dedicated Server - ZAP-Hosting.com documentation
+description: Information about setting up an ARK Survival Ascended Dedicated Server on a Windows Dedicated Server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: ARK Survival Ascended
 services:
   - dedicated

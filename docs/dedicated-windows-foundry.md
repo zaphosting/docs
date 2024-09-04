@@ -1,7 +1,7 @@
 ---
 id: dedicated-windows-foundry
 title: "Dedicated Server: Foundry Dedicated Server Setup"
-description: Information about setting up a Foundry Dedicated Server on a Dedicated Server - ZAP-Hosting.com documentation
+description: Information about setting up a Foundry Dedicated Server on a Windows Dedicated Server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Foundry
 services:
   - dedicated
