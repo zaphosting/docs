@@ -10,34 +10,32 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
+
+
 ## Einführung
 
-Du interessierst dich für unser leistungsstarkes Webspace-Angebot und möchtest zu uns wechseln? Such nicht weiter! In diesem Leitfaden erfahren wir, wie du deine WordPress-Website mithilfe eines WordPress-Plugins auf dein ZAP-Hosting-Webspace-Produkt migrierst.
+Du interessierst dich für unser leistungsstarkes Webspace-Angebot und möchtest zu uns wechseln? Such nicht weiter! In dieser Anleitung erfahren wir, wie du deine WordPress-Website mithilfe eines WordPress-Plugins auf dein ZAP-Hosting-Webspace-Produkt migrierst.
 
 <InlineVoucher />
 
 ## Voraussetzungen
 
-Bevor du mit diesem Leitfaden fortfährst, solltest du sicherstellen, dass du Folgendes vorbereitet hast:
+Bevor du mit dieser Anleitung fortfährst, solltest du sicherstellen, dass du Folgendes vorbereitet hast:
 - Eine Domain mit Admin-Zugang zur Verwaltung der DNS-Einstellungen.
 - Admin-Zugang zu deiner alten WordPress-Instanz.
 - Du besitzt ein [Webspace](https://zap-hosting.com/de/shop/product/webspace/) Produkt bei uns.
 
 ## Schritt 1: Vorbereiten des Webspace
 
-Besuche zunächst unsere [Webspace](https://zap-hosting.com/de/shop/product/webspace/)-Produktseite und kaufe das passende Webspace-Hosting-Angebot, das den Anforderungen deiner Website entspricht.
+Besuche zunächst unsere [Webspace](https://zap-hosting.com/de/shop/product/webspace/)-Produktseite und kaufe das passende Webspace-Hosting-Angebot, das den Anforderungen deiner Website entspricht. Sobald das Produkt eingerichtet ist, musst du WordPress darauf installieren. Eine ausführliche Anleitung dazu findest du in unserer [WordPress Installationsanleitung](webspace-wordpress.md).
 
-Sobald das Produkt eingerichtet ist, musst du WordPress darauf installieren. Eine ausführliche Anleitung dazu findest du in unserem [Webspace Install Wordpress guide](webspace-wordpress.md).
-
-Wenn du WordPress auf dem Webspace installiert hast, musst du deine Domain mit ihm verknüpfen. Auch hierzu findest du in unserem [Webspace-Domain-Leitfaden](webspace-adddomain.md) eine ausführliche Anleitung.
+Wenn du WordPress auf dem Webspace installiert hast, musst du deine Domain mit ihm verknüpfen. Auch hierzu findest du in unserem [Webspace-Domain Anleitung](webspace-adddomain.md) eine ausführliche Anleitung.
 
 ![image](https://screensaver01.zap-hosting.com/index.php/s/Qa3mmmQtTybNgGj/preview)
 
 ## Schritt 2: Migrate Guru Plugin einrichten
 
-Um den Migrationsprozess zu automatisieren, verwendest du das **Migrate Guru** WordPress Plugin, das kostenlos ist und häufig verwendet wird.
-
-Du musst es sowohl auf deiner neuen als auch auf deiner alten WordPress-Instanz installieren.
+Um den Migrationsprozess zu automatisieren, verwendest du das **Migrate Guru** WordPress Plugin, das kostenlos ist und häufig verwendet wird. Du musst es sowohl auf deiner neuen als auch auf deiner alten WordPress-Instanz installieren.
 
 :::tip Einloggen in den Admin-Bereich
 Um dich als Admin auf einer WordPress-Seite einzuloggen, öffne deinen Browser und navigiere zu deiner Website. Füge `/wp-admin` am Ende der URL deiner Website hinzu (z. B. `[deine_website].com/wp-admin`) und suche danach in deinem Browser. Dadurch wirst du auf die Anmeldeseite für den WordPress-Admin weitergeleitet, wo du dich mit den Anmeldedaten deines alten Hosting-WordPress-Admin-Panels anmelden musst.
@@ -115,6 +113,7 @@ Als letzten Schritt empfehlen wir dir, ein neues SSL-Zertifikat für deine neue 
 
 Wir empfehlen dir, unsere [Webspace-SSL-Anleitung](webspace-plesk-ssl.md) zu lesen, um detaillierte Anweisungen zur Einrichtung zu erhalten.
 
-## Ergebnis
+## Abschluss
 
 Wenn du diese Anleitung befolgt hast, solltest du deine alte WordPress-Website erfolgreich auf deinen neuen ZAP-Hosting-Webspace migriert haben. Wir empfehlen, alles gründlich zu testen, um sicherzustellen, dass der Migrationsprozess alles übertragen hat.
+
