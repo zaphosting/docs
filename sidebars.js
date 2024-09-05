@@ -1658,7 +1658,7 @@ const sidebars = {
         }
       })(),
       defaultStyle: true,
-    }, 
+    },
     'webspace-introduction',
     'webspace-subdomain',
     'webspace-adddomain',
@@ -1686,9 +1686,9 @@ const sidebars = {
       items: [
         'webspace-wordpress',
         'webspace-wordpress-plugins',
+        'webspace-wordpress-migration',
       ],
     },
-
   ],
   
   //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
