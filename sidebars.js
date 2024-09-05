@@ -1426,6 +1426,25 @@ const sidebars = {
       ],
     },
     {
+      type: "category",
+      label: "Gameserver services",
+      items: [
+        'vserver-linux-steamcmd',
+        'vserver-linux-arksurvivalascended',
+        'vserver-linux-enshrouded',
+        'vserver-linux-foundry',
+        'vserver-linux-fs-19',
+        'vserver-linux-fs-22',
+        'vserver-linux-fs-22-epic',
+        'vserver-linux-mythofempires',
+        'vserver-linux-palworld',
+        'vserver-linux-satisfactory',
+        'vserver-linux-soulmask',
+        'vserver-linux-valheim',
+        'vserver-linux-vrising',
+      ]
+    },
+    {
       type: 'html',
       className: 'sidebar-title',
       value: (() => {
@@ -1556,6 +1575,25 @@ const sidebars = {
         'dedicated-linux-webserver',
         'dedicated-linux-xrdp',
       ],
+    },
+    {
+      type: "category",
+      label: "Gameserver services",
+      items: [
+        'dedicated-linux-steamcmd',
+        'dedicated-linux-arksurvivalascended',
+        'dedicated-linux-enshrouded',
+        'dedicated-linux-foundry',
+        'dedicated-linux-fs-19',
+        'dedicated-linux-fs-22',
+        'dedicated-linux-fs-22-epic',
+        'dedicated-linux-mythofempires',
+        'dedicated-linux-palworld',
+        'dedicated-linux-satisfactory',
+        'dedicated-linux-soulmask',
+        'dedicated-linux-valheim',
+        'dedicated-linux-vrising',
+      ]
     },
     {
       type: "category",

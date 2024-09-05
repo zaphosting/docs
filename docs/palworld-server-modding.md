@@ -27,7 +27,7 @@ ZAP-Hosting is not liable for any potential modifications/damage to your server 
 :::
 
 :::info
-We currently only support PAK mods (.PAK files). You will not be able to use any mods which require an executible file for security purposes.
+We currently only support PAK mods (.PAK files). You will not be able to use any mods which require an executable file for security purposes.
 :::
 
 
