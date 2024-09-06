@@ -20,6 +20,12 @@ To begin with, connect to your VPS or root server via SSH. Use our [SSH Initial 
 
 You will also have to complete a first-time setup for SteamCMD if this is your first time using this on your Linux server. Please use our [SteamCMD Linux Setup](vserver-linux-steamcmd.md) guide and ensure SteamCMD is fully setup before proceeding.
 
+:::info Wine Compatibility Layer
+ARK: Survival Ascended currently does not offer a native Linux-based server build, which means that there is an extra preparation step necessary to run the Windows server build on Linux.
+
+You have to complete a one-time installation of the **Wine** compatibility layer if this is your first time using this on your Linux server. Please use our quick [Wine Compatibility Layer Setup](vserver-linux-wine.md) guide to set this up before proceeding.
+:::
+
 ### Installing Wine
 
 Currently, ARK: Survival Ascended does not have a native Linux-based server build, which means that there is an extra preparation step necessary to run the Windows server build on Linux. To resolve this, you will have to install the latest version of Wine which is a compatibility layer to allow Windows-native apps to run on Linux.

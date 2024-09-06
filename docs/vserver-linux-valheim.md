@@ -56,7 +56,7 @@ You should now see logs appear in your command prompt which signals that the sta
 :::info
 If you cannot connect and receive `PlayFab` errors in console, you may need to disable crossplay support to resolve this as this is a current issue with the Linux version. To do so, run `nano /home/steam/Valheim-Server/start_server.sh` and remove the `-crossplay` flag.
 
-If you do require crossplay, an alternate solution is to instead install the Windows version and use Wine as a compatibility layer. See the **Installing Wine** section [on this example guide](vserver-linux-enshrouded.md) on how to do this. Then install the Valheim Windows server version via SteamCMD using:
+If you do require crossplay, an alternate solution is to instead install the Windows version and use **Wine** as a compatibility layer. Please use our quick [Wine Compatibility Layer Setup](vserver-linux-wine.md) guide to set this up. Once ready, you can install the Valheim Windows server version via SteamCMD using:
 ```
 steamcmd +@sSteamCmdForcePlatformType windows +force_install_dir '/home/steam/Valheim-Server' +login anonymous +app_update 896660 validate +quit
 ```
