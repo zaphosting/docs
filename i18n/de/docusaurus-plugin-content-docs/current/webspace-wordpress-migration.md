@@ -57,7 +57,7 @@ Wenn das Migrate Guru Plugin auf beiden Instanzen installiert ist, musst du auf 
 
 Du findest ihn im Bereich **Migrate Guru** auf der linken Seite deines WordPress-Panels. Kopiere diesen Schlüssel, da du ihn im nächsten Schritt benötigst.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/PNW289KnE9bzKsJ/preview))
+![image](https://screensaver01.zap-hosting.com/index.php/s/PNW289KnE9bzKsJ/preview)
 
 :::tip Backup vorbereiten
 Als zusätzliche Sicherheitsvorkehrung empfehlen wir dir, ein Backup deiner alten WordPress-Instanz zu erstellen, bevor du mit dem Migrationsprozess über das Plugin fortfährst. Bei diesem Vorgang gehen zwar keine Daten verloren, aber es ist immer besser, auf Nummer sicher zu gehen und für den Fall der Fälle ein Backup bereitzuhalten.
@@ -81,7 +81,7 @@ Nachdem du auf die Schaltfläche **Migrieren** geklickt hast, wird der Migration
 
 Der Migrationsprozess läuft im Hintergrund und sollte innerhalb weniger Minuten abgeschlossen sein. Bitte habe etwas Geduld, da dies stark von der Größe deiner Website abhängt. Sobald der Vorgang abgeschlossen ist, siehst du eine Erfolgsmeldung.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/RAFemNcFiemoMJc/preview))
+![image](https://screensaver01.zap-hosting.com/index.php/s/RAFemNcFiemoMJc/preview)
 
 :::tip
 Wir empfehlen, dass du die Website auf deiner neuen WordPress-Instanz gründlich testest, um sicherzustellen, dass der gesamte Migrationsprozess erfolgreich war.
