@@ -1,10 +1,10 @@
 ---
-id: vserver-linux-steamcmd
-title: "VPS: SteamCMD Linux Setup"
-description: Information about setting up SteamCMD on a Linux VPS from ZAP-Hosting - ZAP-Hosting.com documentation
+id: dedicated-linux-steamcmd
+title: "Dedicated Server: SteamCMD Linux Setup"
+description: Information about setting up SteamCMD on a Linux Dedicated Server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Setup SteamCMD
 services:
-  - vserver
+  - dedicated
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
@@ -16,7 +16,7 @@ SteamCMD is an essential tool that is necessary for installing dedicated servers
 
 ## Preparation
 
-To begin with, connect to your VPS or root server via SSH. Use our [SSH Initial Access](vserver-linux-ssh.md) guide if you need help doing this.
+To begin with, connect to your Dedicated Server via SSH. Use our [SSH Initial Access](vserver-linux-ssh.md) guide if you need help doing this.
 
 ## Installing SteamCMD
 

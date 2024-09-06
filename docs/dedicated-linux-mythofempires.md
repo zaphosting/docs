@@ -1,33 +1,33 @@
 ---
-id: vserver-linux-mythofempires
-title: "VPS: Myth of Empires Dedicated Server Linux Setup"
-description: Information about setting up an Myth of Empires Dedicated Server on a Linux VPS from ZAP-Hosting - ZAP-Hosting.com documentation
+id: dedicated-linux-mythofempires
+title: "Dedicated Server: Myth of Empires Dedicated Server Linux Setup"
+description: Information about setting up an Myth of Empires Dedicated Server on a Linux Dedicated Server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Myth of Empires
 services:
-  - vserver
+  - dedicated
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
-Do you have a Linux VPS or root server and you want to install the Myth of Empires Dedicated server service on it? You are in the right place. In this guide, we will explain the step by step process of installing this service on your Linux server through the use of SteamCMD. We will be using Ubuntu in the examples, but the process should be very similar for other distributions.
+Do you have a Linux Dedicated Server and you want to install the Myth of Empires Dedicated server service on it? You are in the right place. In this guide, we will explain the step by step process of installing this service on your Linux server through the use of SteamCMD. We will be using Ubuntu in the examples, but the process should be very similar for other distributions.
 
 :::tip
-Did you know that you can install our **ZAP GS/TS3 Interface** directly onto your VPS or root server, allowing you to setup game server services, with direct integration to your ZAP-Hosting dashboard, in just a few clicks! Learn more about the [GS/TS3 Interface here](vserver-linux-gs-interface.md).
+Did you know that you can install our **ZAP GS/TS3 Interface** directly onto your dedicated server, allowing you to setup game server services, with direct integration to your ZAP-Hosting dashboard, in just a few clicks! Learn more about the [GS/TS3 Interface here](dedicated-linux-gs-interface.md).
 :::
 
 <InlineVoucher />
 
 ## Preparation
 
-To begin with, connect to your VPS or root server via SSH. Use our [SSH Initial Access](vserver-linux-ssh.md) guide if you need help doing this.
+To begin with, connect to your Dedicated Server via SSH. Use our [SSH Initial Access](vserver-linux-ssh.md) guide if you need help doing this.
 
-You will also have to complete a first-time setup for SteamCMD if this is your first time using this on your Linux server. Please use our [SteamCMD Linux Setup](vserver-linux-steamcmd.md) guide and ensure SteamCMD is fully setup before proceeding.
+You will also have to complete a first-time setup for SteamCMD if this is your first time using this on your Linux server. Please use our [SteamCMD Linux Setup](dedicated-linux-steamcmd.md) guide and ensure SteamCMD is fully setup before proceeding.
 
 :::info Wine Compatibility Layer
 Myth of Empires currently does not offer a native Linux-based server build, which means that there is an extra preparation step necessary to run the Windows server build on Linux.
 
-You have to complete a one-time installation of the **Wine** compatibility layer if this is your first time using this on your Linux server. Please use our quick [Wine Compatibility Layer Setup](vserver-linux-wine.md) guide to set this up before proceeding.
+You have to complete a one-time installation of the **Wine** compatibility layer if this is your first time using this on your Linux server. Please use our quick [Wine Compatibility Layer Setup](dedicated-linux-wine.md) guide to set this up before proceeding.
 :::
 
 ## Installation
@@ -69,4 +69,4 @@ You should now see logs appear in your command prompt which signals that the sta
 
 ## Conclusion
 
-Congratulations, you have successfully installed and configurated the Myth of Empires server on your VPS! If you have any further questions or problems, please contact our support team, who are available to help you every day! 
+Congratulations, you have successfully installed and configurated the Myth of Empires server on your Dedicated Server! If you have any further questions or problems, please contact our support team, who are available to help you every day! 

@@ -1427,16 +1427,13 @@ const sidebars = {
     },
     {
       type: "category",
-      label: "Gameserver services",
+      label: "Dedicated Game Servers",
       items: [
         'vserver-linux-steamcmd',
         'vserver-linux-wine',
         'vserver-linux-arksurvivalascended',
         'vserver-linux-enshrouded',
         'vserver-linux-foundry',
-        'vserver-linux-fs-19',
-        'vserver-linux-fs-22',
-        'vserver-linux-fs-22-epic',
         'vserver-linux-mythofempires',
         'vserver-linux-palworld',
         'vserver-linux-satisfactory',
@@ -1481,7 +1478,7 @@ const sidebars = {
     },
     {
       type: "category",
-      label: "Gameserver services",
+      label: "Dedicated Game Servers",
       items: [
         'vserver-windows-arksurvivalascended',
         'vserver-windows-enshrouded',
@@ -1579,16 +1576,13 @@ const sidebars = {
     },
     {
       type: "category",
-      label: "Gameserver services",
+      label: "Dedicated Game Servers",
       items: [
         'dedicated-linux-steamcmd',
         'dedicated-linux-wine',
         'dedicated-linux-arksurvivalascended',
         'dedicated-linux-enshrouded',
         'dedicated-linux-foundry',
-        'dedicated-linux-fs-19',
-        'dedicated-linux-fs-22',
-        'dedicated-linux-fs-22-epic',
         'dedicated-linux-mythofempires',
         'dedicated-linux-palworld',
         'dedicated-linux-satisfactory',
@@ -1629,7 +1623,7 @@ const sidebars = {
     },
     {
       type: "category",
-      label: "Gameserver services",
+      label: "Dedicated Game Servers",
       items: [
         'dedicated-windows-arksurvivalascended',
         'dedicated-windows-enshrouded',
