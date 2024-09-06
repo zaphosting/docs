@@ -49,7 +49,6 @@ Once the search result appears, press **Install** followed by **Activate**. Ensu
 Once activated, you will see a screen appear prompting you to enter your email address and to agree to the terms and conditions, which you should complete.
 
 ![image](https://screensaver01.zap-hosting.com/index.php/s/SXYGfpWJTwNyYjJ/preview)
-![image](https://i.imgur.com/ea8Uj3b.png/preview)
 
 ## Step 3: Accessing Migration Key
 
@@ -68,7 +67,6 @@ As an additional safety precaution, we recommend creating a backup of your old W
 Head over back to the admin panel of your **old** WordPress instance. On the **Migrate Guru** section, press the **Migrate** button and select **Other Hosts** from the list.
 
 ![image](https://screensaver01.zap-hosting.com/index.php/s/x6ctdxnL2mdpTt5/preview)
-![image](https://i.imgur.com/vte7LzG.png/preview)
 
 Paste the Migrate Guru migration key that you just copied from your new ZAP-Hosting WordPress instance and press the **Migrate** button to proceed with the migration process.
 
