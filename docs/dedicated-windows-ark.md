@@ -1,6 +1,6 @@
 ---
 id: dedicated-windows-ark
-title: "Dedicated Server: ARK Survival Evolved Dedicated Server Setup"
+title: "Dedicated Server: ARK Survival Evolved Dedicated Server Windows Setup"
 description: Information about setting up an ARK Survival Evolved Dedicated Server on a Dedicated Server - ZAP-Hosting.com documentation
 sidebar_label: ARK Survival Evolved Dedicated Server Setup
 services:

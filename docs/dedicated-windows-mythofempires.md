@@ -1,6 +1,6 @@
 ---
 id: dedicated-windows-mythofempires
-title: "Dedicated Server: Myth of Empires Dedicated Server Setup"
+title: "Dedicated Server: Myth of Empires Dedicated Server Windows Setup"
 description: Information about setting up a Myth of Empires Dedicated Server on a Windows Dedicated Server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: MOE Dedicated Server Setup
 services:

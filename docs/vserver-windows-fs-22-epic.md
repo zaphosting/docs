@@ -1,6 +1,6 @@
 ---
 id: vserver-windows-fs-22-epic
-title: "VPS: Farming Simulator 2022 (Epic Games) Dedicated Server Setup"
+title: "VPS: Farming Simulator 2022 (Epic Games) Dedicated Server Windows Setup"
 description: Information about setting up a Farming Simulator 2022 Dedicated Server (Epic Games version) on a Windows VPS from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Farming Simulator 2022 (Epic Games)
 services:
