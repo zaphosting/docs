@@ -30,42 +30,6 @@ ARK: Survival Ascended currently does not offer a native Linux-based server buil
 You have to complete a one-time installation of the **Wine** compatibility layer if this is your first time using this on your Linux server. Please use our quick [Wine Compatibility Layer Setup](dedicated-linux-wine.md) guide to set this up before proceeding.
 :::
 
-### Installing Wine
-
-Currently, ARK: Survival Ascended does not have a native Linux-based server build, which means that there is an extra preparation step necessary to run the Windows server build on Linux. To resolve this, you will have to install the latest version of Wine which is a compatibility layer to allow Windows-native apps to run on Linux.
-
-Firstly, ensure that the `/etc/apt/keyrings/` directory exists, as this is necessary for Wine.
-```
-sudo mkdir -pm755 /etc/apt/keyrings
-```
-
-The next step is to download and store the Wine GPG key into this directory which verifies that the package is authentic.
-```
-sudo wget -O /etc/apt/keyrings/winehq-archive.key https://dl.winehq.org/wine-builds/winehq.key
-```
-
-You will also have to save the sources list for WineHQ which can be done with the following pre-written source file:
-```
-sudo wget -NP /etc/apt/sources.list.d/ https://dl.winehq.org/wine-builds/$(lsb_release -is | tr '[:upper:]' '[:lower:]')/dists/$(lsb_release -cs)/winehq-$(lsb_release -cs).sources
-```
-
-Run the update command again to ensure that your package changes are read and installed.
-```
-sudo apt update
-```
-
-Now you can download the latest version of Wine.
-```
-sudo apt install --install-recommends winehq-staging
-```
-
-Finally, you need to install a few extra packages to ensure Wine works well with the ARK: Survival Ascended server by running the following command.
-```
-sudo apt install cabextract winbind screen xvfb
-```
-
-You have successfully installed the Wine comaptibility layer, which will allow you to run ARK: Survival Ascended's Windows server build on your Linux server. Proceed with the installation.
-
 ## Installation
 
 Begin by logging in to your `steam` user and heading over to the root `home/steam` user directory to keep things organised.
