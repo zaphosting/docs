@@ -58,9 +58,9 @@ See our [Enshrouded Server Configuration guide](enshrouded-configuration.md) to 
 
 ## Starting & Connecting to your server
 
-Now it is time to start your server. Head over to the main game directory and run the **enshrouded_server.exe** executable file using the command below. Ensure that you add the **wine64** command to run it through the Wine compatibility layer.
+Now it is time to start your server. Head over to the main game directory and run the **enshrouded_server.exe** executable file using the command below. Ensure that you add the **xvfb-run** and **wine** commands to run it through the Wine compatibility layer.
 ```
-wine64 /home/steam/Enshrouded-Server/enshrouded_server.exe
+xvfb-run wine /home/steam/Enshrouded-Server/enshrouded_server.exe
 ```
 
 You should now see many logs appear in your command prompt. If you see the `[Session] 'HostOnline' (up)!` log message, this signals that the start up was successful. You will be able to connect directly by adding the server details in the **Find Games** tab: `[your_ip_address]:15636`.
