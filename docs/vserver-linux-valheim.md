@@ -70,4 +70,6 @@ Once installed, use the following command to launch the Windows version through 
 
 ## Conclusion
 
-Congratulations, you have successfully installed and configurated the Valheim server on your VPS! If you have any further questions or problems, please contact our support team, who are available to help you every day! 
+Congratulations, you have successfully installed and configurated the Valheim server on your VPS! As a next step, we recommend looking over our [Setup Linux Service](vserver-linux-create-gameservice.md) guide, which covers setting up your new dedicated game server as a service. This provides various benefits including automatic server launching on boot, automatic server updates, easy management and access to logs, plus much more!
+
+If you have any further questions or problems, please contact our support team, who are available to help you every day!
