@@ -1431,6 +1431,7 @@ const sidebars = {
       items: [
         'vserver-linux-steamcmd',
         'vserver-linux-wine',
+        'vserver-linux-create-gameservice',
         'vserver-linux-arksurvivalascended',
         'vserver-linux-enshrouded',
         'vserver-linux-foundry',
@@ -1580,6 +1581,7 @@ const sidebars = {
       items: [
         'dedicated-linux-steamcmd',
         'dedicated-linux-wine',
+        'dedicated-linux-create-gameservice',
         'dedicated-linux-arksurvivalascended',
         'dedicated-linux-enshrouded',
         'dedicated-linux-foundry',
