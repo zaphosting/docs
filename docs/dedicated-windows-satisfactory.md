@@ -1,7 +1,7 @@
 ---
 id: dedicated-windows-satisfactory
-title: "Dedicated Server: Satisfactory Dedicated Server Setup"
-description: Information about setting up a Satisfactory Dedicated Server on a Dedicated Server - ZAP-Hosting.com documentation
+title: "Dedicated Server: Satisfactory Dedicated Server Windows Setup"
+description: Information about setting up a Satisfactory Dedicated Server on a Windows Dedicated Server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Satisfactory
 services:
   - dedicated

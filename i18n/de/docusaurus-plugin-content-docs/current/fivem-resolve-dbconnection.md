@@ -15,7 +15,7 @@ Oxmysql ist eine nützliche Open-Source-FiveM-Ressource, die auf deinem FiveM-Se
 
 ![image](https://screensaver01.zap-hosting.com/index.php/s/G5zACEEErfP4EHG/preview)
 
-In diesem Leitfaden werden wir untersuchen, wie du Probleme mit der Datenbankverbindung auf deinem FiveM Server durch die Anpassung des Verbindungsstrings in deiner Serverkonfigurationsdatei lösen kannst.
+In diese Anleitung werden wir untersuchen, wie du Probleme mit der Datenbankverbindung auf deinem FiveM Server durch die Anpassung des Verbindungsstrings in deiner Serverkonfigurationsdatei lösen kannst.
 
 <InlineVoucher />
 

@@ -1,7 +1,7 @@
 ---
 id: dedicated-windows-palworld
-title: "Dedicated Server: Palworld Dedicated Server Setup"
-description: Information about setting up a Palworld Dedicated Server on a Dedicated Server - ZAP-Hosting.com documentation
+title: "Dedicated Server: Palworld Dedicated Server Windows Setup"
+description: Information about setting up a Palworld Dedicated Server on a Windows Dedicated Server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Palworld
 services:
   - dedicated

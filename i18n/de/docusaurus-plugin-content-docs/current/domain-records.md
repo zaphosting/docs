@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Domains können ganz einfach konfiguriert werden, indem man eine Vielzahl von DNS-Eintragstypen verwendet, die unterschiedliche Aktionen ausführen. In diesem Leitfaden gehen wir auf die verschiedenen Eintragstypen ein und erklären, wie sie funktionieren.
+Domains können ganz einfach konfiguriert werden, indem man eine Vielzahl von DNS-Eintragstypen verwendet, die unterschiedliche Aktionen ausführen. In diesem Anleitung gehen wir auf die verschiedenen Eintragstypen ein und erklären, wie sie funktionieren.
 
 <InlineVoucher />
 

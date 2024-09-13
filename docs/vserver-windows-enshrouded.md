@@ -1,7 +1,7 @@
 ---
 id: vserver-windows-enshrouded
-title: "VPS: Enshrouded Dedicated Server Setup"
-description: Information about setting up an Enshrouded Dedicated Server on a VPS/Root server - ZAP-Hosting.com documentation
+title: "VPS: Enshrouded Dedicated Server Windows Setup"
+description: Information about setting up an Enshrouded Dedicated Server on a Windows VPS from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Enshrouded
 services:
   - vserver

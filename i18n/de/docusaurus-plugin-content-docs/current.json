@@ -370,5 +370,13 @@
   "sidebar.domainwebspaceSidebar.category.WordPress": {
     "message": "WordPress",
     "description": "The label for category WordPress in sidebar domainwebspaceSidebar"
+  },
+  "sidebar.vpsrootSidebar.category.Dedicated Game Servers": {
+    "message": "Dedicated Game Servers",
+    "description": "The label for category Dedicated Game Servers in sidebar vpsrootSidebar"
+  },
+  "sidebar.dedicatedserverSidebar.category.Dedicated Game Servers": {
+    "message": "Dedicated Game Servers",
+    "description": "The label for category Dedicated Game Servers in sidebar dedicatedserverSidebar"
   }
 }

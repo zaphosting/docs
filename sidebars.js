@@ -1426,6 +1426,24 @@ const sidebars = {
       ],
     },
     {
+      type: "category",
+      label: "Dedicated Game Servers",
+      items: [
+        'vserver-linux-steamcmd',
+        'vserver-linux-wine',
+        'vserver-linux-create-gameservice',
+        'vserver-linux-arksurvivalascended',
+        'vserver-linux-enshrouded',
+        'vserver-linux-foundry',
+        'vserver-linux-mythofempires',
+        'vserver-linux-palworld',
+        'vserver-linux-satisfactory',
+        'vserver-linux-soulmask',
+        'vserver-linux-valheim',
+        'vserver-linux-vrising',
+      ]
+    },
+    {
       type: 'html',
       className: 'sidebar-title',
       value: (() => {
@@ -1461,7 +1479,7 @@ const sidebars = {
     },
     {
       type: "category",
-      label: "Gameserver services",
+      label: "Dedicated Game Servers",
       items: [
         'vserver-windows-arksurvivalascended',
         'vserver-windows-enshrouded',
@@ -1559,6 +1577,24 @@ const sidebars = {
     },
     {
       type: "category",
+      label: "Dedicated Game Servers",
+      items: [
+        'dedicated-linux-steamcmd',
+        'dedicated-linux-wine',
+        'dedicated-linux-create-gameservice',
+        'dedicated-linux-arksurvivalascended',
+        'dedicated-linux-enshrouded',
+        'dedicated-linux-foundry',
+        'dedicated-linux-mythofempires',
+        'dedicated-linux-palworld',
+        'dedicated-linux-satisfactory',
+        'dedicated-linux-soulmask',
+        'dedicated-linux-valheim',
+        'dedicated-linux-vrising',
+      ]
+    },
+    {
+      type: "category",
       label: "Security",
       items: [
         'dedicated-linux-ssh2fa',
@@ -1589,7 +1625,7 @@ const sidebars = {
     },
     {
       type: "category",
-      label: "Gameserver services",
+      label: "Dedicated Game Servers",
       items: [
         'dedicated-windows-arksurvivalascended',
         'dedicated-windows-enshrouded',

@@ -7,7 +7,7 @@ sidebar_label: Kündigung & Stornierung
 
 ## Einführung
 
-In diesem Leitfaden erfährst du mehr über unsere aktuellen Richtlinien zur Kündigung und Stornierung unserer Produkte. Außerdem zeigen wir dir, wie du dein Produkt kündigen oder stornieren kannst.
+In dieser Anleitung erfährst du mehr über unsere aktuellen Richtlinien zur Kündigung und Stornierung unserer Produkte. Außerdem zeigen wir dir, wie du dein Produkt kündigen oder stornieren kannst.
 
 ## Unsere Richtlinien
 
