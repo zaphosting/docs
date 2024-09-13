@@ -10,7 +10,7 @@ services:
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 :::info
-Damit dein Server in der öffentlichen Serverliste angezeigt wird, muss eine Pastebin ID gesetzt sein. Unsere Anleitung dazu findest du [hier](scp-pastebin.md).
+Damit dein Server in der öffentlichen Serverliste angezeigt wird, muss eine Pastebin ID gesetzt sein. Unsere Anleitung dazu findest du [Pastebin ID](scp-pastebin.md).
 
 Damit Änderungen wirksam werden, muss der Server ausgeschaltet sein.
 :::

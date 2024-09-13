@@ -40,7 +40,7 @@ The main method to access your server configuration options is by heading over t
 The Server must be stopped before the config can be edited, editing the config and restarting the server will result in any changes being undone.
 :::
 
-The main method to access your gameplay configuration file is through FTP. If you are not familiar with using FTP, we recommend you to have a look at the [FTP file access](gameserver-ftpaccess.md) guide.
+The main method to access your gameplay configuration file is through FTP. If you are not familiar with using FTP, we recommend you to have a look at the [Access via FTP](gameserver-ftpaccess.md) guide.
 
 </TabItem>
 </Tabs>

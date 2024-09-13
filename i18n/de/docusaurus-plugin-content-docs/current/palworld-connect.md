@@ -12,10 +12,10 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-In dieser Anleitung erfährst du, wie du dich mit deinem Palworld-Server verbinden kannst. Wir empfehlen, den Server vorher nach deinen Wünschen zu konfigurieren. Mehr darüber erfährst du in unserer [Palworld-Konfigurationsanleitung](palworld-configuration.md).
+In dieser Anleitung erfährst du, wie du dich mit deinem Palworld-Server verbinden kannst. Wir empfehlen, den Server vorher nach deinen Wünschen zu konfigurieren. Mehr darüber erfährst du in unserer [Server Konfiguration](palworld-configuration.md).
 
 :::tip
-Wir haben jetzt eine separate **Palword (Xbox)** Spielversion auf unseren Gameservern, mit der du auf Xbox/Microsoft Store Spielversionen spielen kannst. In unserer [Anleitung zum Gameserver-Wechsel](gameserver-gameswitch.md) erfährst du, wie du dein Spiel ganz einfach wechseln kannst. Achte darauf, dass du deine Spielstände wie immer sicherst.
+Wir haben jetzt eine separate **Palword (Xbox)** Spielversion auf unseren Gameservern, mit der du auf Xbox/Microsoft Store Spielversionen spielen kannst. In unserer [Spielwechsel](gameserver-gameswitch.md) erfährst du, wie du dein Spiel ganz einfach wechseln kannst. Achte darauf, dass du deine Spielstände wie immer sicherst.
 :::
 
 <YouTube videoId="SDZC4-FEdNM" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/ecdBptZkaZMNSGX/preview" title="Setup Palworld server in just a MINUTE!" description="Hast du das Gefühl, dass du etwas besser verstehst, wenn du es in Aktion siehst? Wir haben etwas für dich! Tauche ab in unser Video, welches alles für dich zusammenfasst. Egal, ob du es eilig hast oder einfach nur Informationen auf möglichst verständliche Art und Weise aufnehmen möchtest!"/>
@@ -28,7 +28,7 @@ Zunächst musst du die IP und den Port deines Palworld-Servers kennen, um eine d
 
 ![image](https://github.com/zaphosting/docs/assets/42719082/a27d76e0-acf6-4736-b5c9-c110901a5f14)
 
-Wenn du deinen Palworld-Server als externen dedizierten Server betreibst, ist die IP die des Host-Rechners und der Port derjenige, den du in deiner Konfigurationsdatei eingestellt hast (standardmäßig ist dies 8211). In unserer [Palworld-Konfigurationsanleitung](palworld-configuration.md) findest du weitere Informationen zum Port.
+Wenn du deinen Palworld-Server als externen dedizierten Server betreibst, ist die IP die des Host-Rechners und der Port derjenige, den du in deiner Konfigurationsdatei eingestellt hast (standardmäßig ist dies 8211). In unserer [Server Konfiguration](palworld-configuration.md) findest du weitere Informationen zum Port.
 
 ## Direktverbindung
 

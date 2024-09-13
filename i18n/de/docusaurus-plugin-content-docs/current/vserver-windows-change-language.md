@@ -23,7 +23,7 @@ Bei der anfänglichen Serverkonfiguration kannst du zwischen der englischen und 
 
 Sprachpakete sind eine nützliche Funktion, die in Windows eingebaut ist und mit der du ganz einfach lokalisierte Sprachpakete auf deinem Server verwalten kannst.
 
-Verbinde dich zunächst über RDP mit deinem Windows-Server. Wenn du dabei Hilfe brauchst, sieh dir bitte unsere [Windows RDP-Verbindungsanleitung](vserver-windows-userdp.md) an.
+Verbinde dich zunächst über RDP mit deinem Windows-Server. Wenn du dabei Hilfe brauchst, sieh dir bitte unsere [Erstzugang (RDP)](vserver-windows-userdp.md) an.
 
 Sobald du verbunden bist, suche über die Windows-Suchleiste oder durch Drücken der Windows-Taste/des Windows-Symbols und die Suchleiste im Startmenü nach **Sprachen**.
 

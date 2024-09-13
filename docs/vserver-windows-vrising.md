@@ -18,7 +18,7 @@ A server based on Windows Server 2016/2019 with at least 4x 2.4 GHz CPU (AMD/Int
 
 ## Step 1 Create a folder for V-Rising
 
-First, you need to connect to your server by using [RDP](vserver-windows-userdp.md). After you are connected, you need to create a new Folder on your Server in which the files for V-Rising will be installed.
+First, you need to connect to your server by using [Initial Access (RDP)](vserver-windows-userdp.md). After you are connected, you need to create a new Folder on your Server in which the files for V-Rising will be installed.
 In this example, we will create a new Folder on our Desktop.
 This can be done by making a right mousclick.
 Then choose "New -> Folder".
@@ -115,7 +115,7 @@ If the ports were forwarded correctly in the next step, you can find the Server 
 ## Step 5 Unlock ports in the firewall
 
 The server should of course be publicly accessible to play with friends. For this purpose, the ports of the server must be enabled in the Windows firewall. The ports 9876 and 9877 must be released for the protocol TCP AND UDP. 9876 is the game server port and 9877  is the Query Port.
-How to enable ports on Windows, [we explain in this guide](vserver-windows-port.md). 
+How to enable ports on Windows, [Port Forwarding (Firewall)](vserver-windows-port.md). 
 
 After the port release the server is publicly accessible, if it was started. 
 

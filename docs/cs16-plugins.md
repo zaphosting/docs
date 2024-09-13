@@ -32,7 +32,7 @@ You need the Linux packages **AMX Mod X Base, Counter-Strike Addon and Metamod**
 
 ### Installation
 
-Once the above steps have been completed, then it's time for the actual installation. The files have to be uploaded to your server via FTP. You need a FTP client to be able to upload files to your server. If you don't know what FTP is and how it works, then you should have a look at the following guide:  [FTP File Access](gameserver-ftpaccess.md)
+Once the above steps have been completed, then it's time for the actual installation. The files have to be uploaded to your server via FTP. You need a FTP client to be able to upload files to your server. If you don't know what FTP is and how it works, then you should have a look at the following guide:  [Access via FTP](gameserver-ftpaccess.md)
 
 Now, the **addons** folder has to be uploaded to the main directory of the server. The file structure of the folder should then look like this:
 

@@ -14,7 +14,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 Diese Anleitung enthält einige Tipps und Hinweise, wie du deinen Linux Server sicherer machen kannst. Gerade bei (virtuellen) Servern, auf die von außen zugegriffen werden muss, ist ein grundlegender Schutz vor unerwünschten Zugriffen durchaus empfehlenswert und sollte nicht vernachlässigt werden. 
 
 :::info
-Bitte beachte , dass diese Anleitung nicht allumfassend ist und dass detailliertere Informationen in anderen Abschnitten der ZAP-Dokumentation zu finden sind. (z.B. [2FA](vserver-linux-ssh2fa.md))
+Bitte beachte , dass diese Anleitung nicht allumfassend ist und dass detailliertere Informationen in anderen Abschnitten der ZAP-Dokumentation zu finden sind. (z.B. [2FA (SSH)](vserver-linux-ssh2fa.md))
 :::
 
 :::tip
@@ -25,11 +25,11 @@ Der einfachste Weg, um deinen Server zu schützen, ist unabhängig von der Art d
 
 ## Absicherung von SSH
 
-SSH (Secure Shell) ist ein Dienst, der es dir erlaubt aus der Ferne auf die Konsole deines Servers zuzugreifen und Befehle auf dem Server auszuführen. Hier siehst du, wie du SSH auf deinem Server einrichten kannst: [Wie richte ich SSH auf meinem Server ein?](vserver-linux-ssh.md)
+SSH (Secure Shell) ist ein Dienst, der es dir erlaubt aus der Ferne auf die Konsole deines Servers zuzugreifen und Befehle auf dem Server auszuführen. Hier siehst du, wie du SSH auf deinem Server einrichten kannst: [Erstzugriff (SSH)](vserver-linux-ssh.md)
 
 Standardmäßig wird für SSH eine passwortbasierte Anmeldung genutzt. Dies hat jedoch den großen Nachteil, dass die Authentifizierung relativ einfach per Brute-Force-Attacke umgangen werden kann, insbesondere dann, wenn du ein zu simples Passwort für deinen SSH Login nutzt. Solltest du dich also für die Passwortlösung entscheiden, dann nutze bitte ein **sicheres** Passwort.
 
-Um deinen Server noch besser vor ungewünschten SSH Zugriffen zu schützen, solltest du die Authentifizierung ausschließlich über SSH-Schlüssel ermöglichen, und den Passwort-Login deaktivieren. Schau dir dazu [unsere SSH-Anleitung](vserver-linux-sshkey.md) an, in der erklärt wird, wie man SSH-Schlüssel generiert und hinzufügt werden. 
+Um deinen Server noch besser vor ungewünschten SSH Zugriffen zu schützen, solltest du die Authentifizierung ausschließlich über SSH-Schlüssel ermöglichen, und den Passwort-Login deaktivieren. Schau dir dazu [SSH Key](vserver-linux-sshkey.md) an, in der erklärt wird, wie man SSH-Schlüssel generiert und hinzufügt werden. 
 
 ## Port Konfiguration deiner Dienste 
 
@@ -117,7 +117,7 @@ Bitte beachte, dass diese Regel nur für **Port 22** (Der Wert nach `--dport`) a
 Die folgenden Befehle funktionieren möglicherweise nicht mit jedem beliebigen Linux-Betriebssystem, aber sie funktionieren mit der überwiegenden Mehrheit der beliebtesten Betriebssysteme.
 :::
 
-Melde dich zunächst bei deinem Linux-Server an. Wenn du dabei Hilfe brauchst, folge bitte unserer Anleitung [SSH-Zugang](vserver-linux-ssh.md), die erklärt, wie dies funktioniert. Führe dann die folgenden Befehle in der aufgelisteten Reihenfolge aus.
+Melde dich zunächst bei deinem Linux-Server an. Wenn du dabei Hilfe brauchst, folge bitte unserer Anleitung [Erstzugriff (SSH)](vserver-linux-ssh.md), die erklärt, wie dies funktioniert. Führe dann die folgenden Befehle in der aufgelisteten Reihenfolge aus.
 
 ```
 iptables -A INPUT -p tcp --syn --dport 22 -m connlimit --connlimit-above 2 --connlimit-mask 32 -j DROP
@@ -133,7 +133,7 @@ iptables -A INPUT -p tcp --dport 22 -m state --state NEW -m recent --update --se
 
 Wie oben beschrieben ist UFW ein "einfacheres" Interface für IPTables. Im ersten Schritt muss UFW installiert werden, da es nicht bei allen Linux Distributionen inkludiert ist. Die Befehle solltest du entweder als Root ausführen oder unter der Verwendung von *sudo*.
 
-Melde dich zunächst bei deinem Linux-Server an. Wenn du dabei Hilfe benötigst, dann befolge bitte unserer [SSH-Zugang](vserver-linux-ssh.md) Anleitung, in der erläutert wird, wie dies genau funktioniert. 
+Melde dich zunächst bei deinem Linux-Server an. Wenn du dabei Hilfe benötigst, dann befolge bitte unserer [Erstzugriff (SSH)](vserver-linux-ssh.md) Anleitung, in der erläutert wird, wie dies genau funktioniert. 
 
 Zuerst sollte das apt Verzeichnis aktualisiert werden
 ```
@@ -212,7 +212,7 @@ Fail2Ban nutzt nun genau dieses Logfile und überwacht es auf fehlgeschlagene Au
 
 ### Installation von Fail2Ban
 
-Melde dich zunächst bei deinem Linux-Server an. Wenn du dabei Hilfe benötigst, dann befolge bitte unserer [SSH-Zugang](vserver-linux-ssh.md) Anleitung, in der erläutert wird, wie dies genau funktioniert. Die Befehle solltest du entweder als Root ausführen oder unter der Verwendung von *sudo*.
+Melde dich zunächst bei deinem Linux-Server an. Wenn du dabei Hilfe benötigst, dann befolge bitte unserer [Erstzugriff (SSH)](vserver-linux-ssh.md) Anleitung, in der erläutert wird, wie dies genau funktioniert. Die Befehle solltest du entweder als Root ausführen oder unter der Verwendung von *sudo*.
 
 ```
 sudo apt update && sudo apt upgrade -y
@@ -397,7 +397,7 @@ Diese Anleitung hat dir einige grundlegende und erweiterte Funktionen zur Absich
 
 Weitergehend können natürlich noch weitere Maßnahmen vorgenommen werden:
 
-- [Einrichtung 2FA](vserver-linux-ssh2fa.md)
+- [2FA (SSH)](vserver-linux-ssh2fa.md)
 - Hinzufügen weiterer Konfigurationen zu Fail2Ban
 - Einrichten von Mail-Benachrichtigungen in Fail2Ban
 - und viele mehr

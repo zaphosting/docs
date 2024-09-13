@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Mit FTP verbinden
 
-Zuerst muss der [FTP-Zugang](gameserver-ftpaccess.md) eingerichtet werden.
+Zuerst muss der [Zugriff per FTP](gameserver-ftpaccess.md) eingerichtet werden.
 
 Nachdem dieser eingerichtet wurde, kann sich nun verbunden werden und der Server Ordner geöffnet werden.
 

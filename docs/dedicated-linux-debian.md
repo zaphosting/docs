@@ -29,7 +29,7 @@ For the installation and configuration of an operating system, it is initially i
 2. Mounting via iLO (Virtual Media)
 3. Mounting via iLO (Remote Console)
 
-If you are not familiar with mounting an ISO file yet, it's best to refer to our [Initial Setup](dedicated-setup.md) or [Custom ISO](dedicated-iso.md) guide.
+If you are not familiar with mounting an ISO file yet, it's best to refer to our [Initial setup](dedicated-setup.md) or [Own ISO](dedicated-iso.md) guide.
 
 
 

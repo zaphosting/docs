@@ -36,7 +36,7 @@ Abschließend musst du deinen dedizierten Server neu starten, um von der ISO boo
 
 
 ### ISO über die iLO einbinden
-Bereite deine Proxmox VE-ISO vor, indem du auf die [Proxmox Download-Seite](https://www.proxmox.com/en/downloads/proxmox-virtual-environment/iso) gehst. Du musst diese dann auf deinen dedizierten Server hochladen und mounten, indem du die [iLO-Anleitung](dedicated-ilo.md) & [Eigene ISO-Anleitung](dedicated-iso.md) befolgst, die zeigen, wie du dich anmeldest und deine benutzerdefinierte ISO hochlädst.
+Bereite deine Proxmox VE-ISO vor, indem du auf die [Proxmox Download-Seite](https://www.proxmox.com/en/downloads/proxmox-virtual-environment/iso) gehst. Du musst diese dann auf deinen dedizierten Server hochladen und mounten, indem du die [iLO](dedicated-ilo.md) & [Eigene ISO](dedicated-iso.md) befolgst, die zeigen, wie du dich anmeldest und deine benutzerdefinierte ISO hochlädst.
 
 
 

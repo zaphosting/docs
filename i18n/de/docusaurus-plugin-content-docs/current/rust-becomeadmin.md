@@ -16,7 +16,7 @@ Die Zuweisung von Administratorberechtigungen ermöglicht dir eine einfache und 
 ## Admin werden via RCON
 
 Mithilfe eines RCON Tools kannst du auf deinem Server beliebige Befehle ausführen, auch Adminrechte können so vergeben werden.
-Zuerst musst du [via RCON verbinden](rust-connectrcon.md).
+Zuerst musst du [Verbindung via RCON](rust-connectrcon.md).
 
 Sobald du verbunden bist, navigiere in das Feld, in welchem du Konsolenbefehle ausführen kannst. In unserem Beispiel nutzen wir **RustAdmin**.
 
@@ -40,7 +40,7 @@ Nun bist du Administrator. :)
 ## Adminrechte via FTP setzen
 
 Ein weiterer Weg dir Adminrechte auf deinem Server zu geben ist via FTP.
-Zuerst musst du auf deinen Server via [FTP verbinden](gameserver-ftpaccess.md).
+Zuerst musst du auf deinen Server via [Zugriff per FTP](gameserver-ftpaccess.md).
 
 Nachdem du dich via FTP verbunden hast, navigierst du in folgendes Verzeichnis: 
 

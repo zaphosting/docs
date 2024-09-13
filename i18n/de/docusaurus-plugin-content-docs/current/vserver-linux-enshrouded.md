@@ -14,14 +14,14 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 Hast du einen Linux VPS oder Root Server und möchtest den Enshrouded Dedicated Server Dienst darauf installieren? Dann bist du hier genau richtig. In diesem Anleitung erklären wir dir Schritt für Schritt, wie du diesen Dienst mithilfe von SteamCMD auf deinem Linux-Server installierst. In den Beispielen verwenden wir Ubuntu, aber der Prozess sollte für andere Distributionen sehr ähnlich sein.
 
 :::tip
-Wusstest du, dass du unser **ZAP GS/TS3 Interface** direkt auf deinem VPS oder Root-Server installieren kannst? Damit kannst du mit nur wenigen Klicks Gameserver-Dienste einrichten, die direkt in dein ZAP-Hosting-Dashboard integriert sind! Erfahre mehr über das [GS/TS3 Interface hier](vserver-linux-gs-interface.md).
+Wusstest du, dass du unser **ZAP GS/TS3 Interface** direkt auf deinem VPS oder Root-Server installieren kannst? Damit kannst du mit nur wenigen Klicks Gameserver-Dienste einrichten, die direkt in dein ZAP-Hosting-Dashboard integriert sind! Erfahre mehr über das [GS/TS3 Interface](vserver-linux-gs-interface.md).
 :::
 
 <InlineVoucher />
 
 ## Vorbereitung
 
-Verbinde dich zunächst über SSH mit deinem VPS oder Root-Server. Benutze unsere Anleitung [SSH-Erstzugang](vserver-linux-ssh.md), wenn du dabei Hilfe brauchst.
+Verbinde dich zunächst über SSH mit deinem VPS oder Root-Server. Benutze unsere Anleitung [Erstzugriff (SSH)](vserver-linux-ssh.md), wenn du dabei Hilfe brauchst.
 
 Du musst auch eine Ersteinrichtung für SteamCMD vornehmen, wenn du es zum ersten Mal auf deinem Linux-Server verwendest. Bitte benutze unsere [SteamCMD einrichten](vserver-linux-steamcmd.md) Anleitung und stelle sicher, dass SteamCMD vollständig eingerichtet ist, bevor du fortfährst.
 
@@ -55,7 +55,7 @@ Du kannst alle Konfigurationsparameter anpassen, indem du die Konfigurationsdate
 nano /home/steam/Enshrouded-Server/enshrouded_server.json
 ```
 
-In unserer [Enshrouded-Server-Konfigurationsanleitung](enshrouded-configuration.md) findest du alle verfügbaren Serveroptionen und ihre Funktionen.
+In unserer [Server Konfiguration](enshrouded-configuration.md) findest du alle verfügbaren Serveroptionen und ihre Funktionen.
 
 ## Starten und Verbinden mit deinem Server
 

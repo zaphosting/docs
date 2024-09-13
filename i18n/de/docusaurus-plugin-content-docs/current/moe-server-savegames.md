@@ -19,7 +19,7 @@ In dieser Anleitung erfährst du, wie du deine Myth of Empires Gamesaves auf dei
 
 Um auf die Dateien deines Servers zugreifen zu können, benötigst du einen FTP-Client wie [WinSCP](https://winscp.net/eng/index.php) oder [FileZilla](https://filezilla-project.org/), die beide Open-Source sind und kostenlos heruntergeladen werden können.
 
-Du musst dich über einen FTP-Client mit deinem Server verbinden, indem du die Zugangsdaten verwendest, die du unter **Tools->FTP-Broswer** im Webinterface deines Gameservers findest. Bitte benutze unseren [FTP-Dateizugriff](gameserver-ftpaccess.md) als weitere Hilfe, um dich mit deinem Server zu verbinden.
+Du musst dich über einen FTP-Client mit deinem Server verbinden, indem du die Zugangsdaten verwendest, die du unter **Tools->FTP-Broswer** im Webinterface deines Gameservers findest. Bitte benutze unseren [Zugriff per FTP](gameserver-ftpaccess.md) als weitere Hilfe, um dich mit deinem Server zu verbinden.
 
 ## Backup Savegame
 
@@ -51,7 +51,7 @@ An diesem Ort solltest du Ordner sehen, die deine Savegames sind. Klicke einfach
 
 ### Automatische Sicherung
 
-Wir bieten auch die Möglichkeit, dein Savegame (und deine Konfigurationsdatei) direkt über unser Webinterface automatisch zu sichern. Rufe einfach das Webinterface deines Gameservers auf und gehe in den Bereich **Tools->Backups**. Hier kannst du eine Reihe von Optionen konfigurieren, um automatische Backups für deinen Server zu planen. Wir stellen dir 10gb kostenlosen Backup-Speicher zur Verfügung, in dem deine Backups gespeichert werden. Weitere Informationen zu Backups findest du in unserem [Automatische Server Backups Anleitung](gameserver-backups.md) zu diesem Thema.
+Wir bieten auch die Möglichkeit, dein Savegame (und deine Konfigurationsdatei) direkt über unser Webinterface automatisch zu sichern. Rufe einfach das Webinterface deines Gameservers auf und gehe in den Bereich **Tools->Backups**. Hier kannst du eine Reihe von Optionen konfigurieren, um automatische Backups für deinen Server zu planen. Wir stellen dir 10gb kostenlosen Backup-Speicher zur Verfügung, in dem deine Backups gespeichert werden. Weitere Informationen zu Backups findest du in unserem [Backups](gameserver-backups.md) zu diesem Thema.
 
 ## Savegame hochladen
 
@@ -66,7 +66,7 @@ Ziehe einfach eines deiner Savegames mit deinem FTP-Client in diesen Ordner und 
 
 ## Savegame aktivieren
 
-Um dein Savegame zu benutzen, musst du es in deiner Serverkonfiguration auswählen. Am einfachsten ist es, wenn du im Webinterface deines Gameservers den Bereich **Einstellungen** aufrufst. Weitere Informationen findest du in unserer [MOE-Konfigurationsanleitung](moe-configuration.md).
+Um dein Savegame zu benutzen, musst du es in deiner Serverkonfiguration auswählen. Am einfachsten ist es, wenn du im Webinterface deines Gameservers den Bereich **Einstellungen** aufrufst. Weitere Informationen findest du in unserer [Server Konfiguration](moe-configuration.md).
 
 ![image](https://screensaver01.zap-hosting.com/index.php/s/cGbSnRp5gfbWnnb/preview)
 

@@ -14,21 +14,21 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 Hast du einen Linux Dedicated Server und möchtest den ARK: Survival Ascended Dedicated Server Service darauf installieren? Dann bist du hier genau richtig. In diesem Anleitung erklären wir dir Schritt für Schritt, wie du diesen Dienst mithilfe von SteamCMD auf deinem Linux-Server installierst. Wir verwenden in den Beispielen Ubuntu, aber der Prozess sollte bei anderen Distributionen sehr ähnlich sein.
 
 :::tip
-Wusstest du, dass du unser **ZAP GS/TS3 Interface** direkt auf deinem Dedicated Server installieren kannst? Damit kannst du mit nur wenigen Klicks Gameserver-Dienste einrichten, die direkt in dein ZAP-Hosting-Dashboard integriert sind! Erfahre mehr über das [GS/TS3 Interface hier](dedicated-linux-gs-interface.md).
+Wusstest du, dass du unser **ZAP GS/TS3 Interface** direkt auf deinem Dedicated Server installieren kannst? Damit kannst du mit nur wenigen Klicks Gameserver-Dienste einrichten, die direkt in dein ZAP-Hosting-Dashboard integriert sind! Erfahre mehr über das [GS/TS3 Interface](dedicated-linux-gs-interface.md).
 :::
 
 <InlineVoucher />
 
 ## Vorbereitung
 
-Verbinde dich zunächst über SSH mit deinem Dedicated Server. Benutze unsere Anleitung [SSH-Erstzugang](vserver-linux-ssh.md), wenn du dabei Hilfe brauchst.
+Verbinde dich zunächst über SSH mit deinem Dedicated Server. Benutze unsere Anleitung [Erstzugriff (SSH)](vserver-linux-ssh.md), wenn du dabei Hilfe brauchst.
 
-Du musst auch eine Ersteinrichtung für SteamCMD vornehmen, wenn du es zum ersten Mal auf deinem Linux-Server verwendest. Bitte benutze unsere [SteamCMD Linux Setup](dedicated-linux-steamcmd.md) Anleitung und stelle sicher, dass SteamCMD vollständig eingerichtet ist, bevor du fortfährst.
+Du musst auch eine Ersteinrichtung für SteamCMD vornehmen, wenn du es zum ersten Mal auf deinem Linux-Server verwendest. Bitte benutze unsere [SteamCMD einrichten](dedicated-linux-steamcmd.md) Anleitung und stelle sicher, dass SteamCMD vollständig eingerichtet ist, bevor du fortfährst.
 
 :::info Wine-Kompatibilitätsschicht
 ARK: Survival Ascended bietet derzeit keinen nativen Linux-basierten Server-Build an, was bedeutet, dass ein zusätzlicher Vorbereitungsschritt notwendig ist, um den Windows-Server-Build unter Linux auszuführen.
 
-Wenn du ARK: Survival Ascended zum ersten Mal auf deinem Linux-Server verwendest, musst du die Kompatibilitätsschicht **Wine** einmalig installieren. Bitte benutze unsere Kurzanleitung [Wine Compatibility Layer Setup](dedicated-linux-wine.md), um dies einzurichten, bevor du fortfährst.
+Wenn du ARK: Survival Ascended zum ersten Mal auf deinem Linux-Server verwendest, musst du die Kompatibilitätsschicht **Wine** einmalig installieren. Bitte benutze unsere Kurzanleitung [Wine-Kompatibilitätsschicht einrichten](dedicated-linux-wine.md), um dies einzurichten, bevor du fortfährst.
 :::
 
 ## Installation
@@ -56,7 +56,7 @@ Du kannst alle Konfigurationsparameter anpassen, indem du die Konfigurationsdate
 nano /home/steam/ARK-SA-Server/ShooterGame/Saved/Config/WindowsServer/GameUserSettings.ini
 ```
 
-In unserer [ARK: Survival Ascended Server Konfiguration Anleitung](ark-configuration.md) findest du alle verfügbaren Optionen und ihre Funktionen.
+In unserer [Server Konfiguration](ark-configuration.md) findest du alle verfügbaren Optionen und ihre Funktionen.
 
 ## Starten und Verbinden mit deinem Server
 
@@ -73,6 +73,6 @@ In der Eingabeaufforderung sollten nun Logs erscheinen, die anzeigen, dass der S
 
 ## Abschluss
 
-Glückwunsch, du hast den ARK: Survival Ascended Server erfolgreich auf deinem Dedicated Server installiert und konfiguriert! Als nächsten Schritt empfehlen wir dir einen Blick in unserer [Linux Dienst einrichten S](dedicated-linux-create-gameservice.md) Anleitung, in der du deinen neuen dedizierten Spieleserver als Dienst einrichtest. Dies bietet verschiedene Vorteile, wie z. B. den automatischen Start des Servers beim Hochfahren, automatische Server-Updates, einfache Verwaltung und Zugriff auf Logs und vieles mehr!
+Glückwunsch, du hast den ARK: Survival Ascended Server erfolgreich auf deinem Dedicated Server installiert und konfiguriert! Als nächsten Schritt empfehlen wir dir einen Blick in unserer [Linux Dienst einrichten](dedicated-linux-create-gameservice.md) Anleitung, in der du deinen neuen dedizierten Spieleserver als Dienst einrichtest. Dies bietet verschiedene Vorteile, wie z. B. den automatischen Start des Servers beim Hochfahren, automatische Server-Updates, einfache Verwaltung und Zugriff auf Logs und vieles mehr!
 
 Wenn du weitere Fragen oder Probleme hast, wende dich bitte an unser Support-Team, das dir jeden Tag zur Verfügung steht!

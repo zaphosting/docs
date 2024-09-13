@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Mit FTP verbinden
 
-Bevor mods installiert werden können, muss der [FTP-Zugang](gameserver-ftpaccess.md) eingerichtet werden:
+Bevor mods installiert werden können, muss der [Zugriff per FTP](gameserver-ftpaccess.md) eingerichtet werden:
 
 ![image](https://screensaver01.zap-hosting.com/index.php/s/sg6i7AYFZ89znzk/preview)
 

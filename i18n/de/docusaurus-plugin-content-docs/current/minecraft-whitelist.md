@@ -57,7 +57,7 @@ Mit den folgenden Befehlen können Spieler zur Whitelist hinzugefügt oder entfe
 
 **white-list.json**
 
-Wenn die UUID des Spielers bekannt ist, dann kann der Spieler auch manuell über die **white-list.json** hinzugefügt werden. Diese kannst du per FTP-Verbindung aufrufen und bearbeiten. Eine Anleitung zum Verbinden per FTP findest du hier: [FTP Dateizugriff](gameserver-ftpaccess.md)
+Wenn die UUID des Spielers bekannt ist, dann kann der Spieler auch manuell über die **white-list.json** hinzugefügt werden. Diese kannst du per FTP-Verbindung aufrufen und bearbeiten. Eine Anleitung zum Verbinden per FTP findest du hier: [Zugriff per FTP](gameserver-ftpaccess.md)
 
 ```
 [

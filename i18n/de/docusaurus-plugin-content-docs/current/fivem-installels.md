@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Mit FTP verbinden
 
-Bevor die Ressource installiert werden kann, muss der [FTP-Zugang](gameserver-ftpaccess.md) eingerichtet werden
+Bevor die Ressource installiert werden kann, muss der [Zugriff per FTP](gameserver-ftpaccess.md) eingerichtet werden
 
 ## Vorbereitung
 

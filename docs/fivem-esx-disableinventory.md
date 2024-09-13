@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Connect to FTP
 
-Before we can deactivate the inventory, the [FTP access](gameserver-ftpaccess.md) must be set up.
+Before we can deactivate the inventory, the [Access via FTP](gameserver-ftpaccess.md) must be set up.
 
 After this has been set up, you can now connect and open the server folder:
 

@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Mit FTP verbinden
 
-Bevor wir den Server konfigurieren können, muss der [FTP-Zugang](gameserver-ftpaccess.md) eingerichtet werden:
+Bevor wir den Server konfigurieren können, muss der [Zugriff per FTP](gameserver-ftpaccess.md) eingerichtet werden:
 
 ![image](https://screensaver01.zap-hosting.com/index.php/s/LoP5aCdQKHw7eca/preview)
 

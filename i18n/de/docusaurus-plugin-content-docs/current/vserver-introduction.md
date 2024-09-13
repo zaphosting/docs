@@ -39,7 +39,7 @@ Wir bieten verschiedene Konfigurationsoptionen für unsere vServer- und Rootserv
 | **Traffic**                      | 5000 GB/Monat       | 5000 GB/Monat       |
 
 :::info
-Für detailliertere Informationen über die anderen Unterschiede zwischen dem vServer- und Rootserver Produkt in Bezug auf Leistung, Virtualisierung und so weiter, siehe dir die [Unterschied Rootserver/vServer](vserver-root-difference.md). Anleitung an
+Für detailliertere Informationen über die anderen Unterschiede zwischen dem vServer- und Rootserver Produkt in Bezug auf Leistung, Virtualisierung und so weiter, siehe dir die [Unterschied Rootserver / V-Server](vserver-root-difference.md). Anleitung an
 :::
 
 ## Anwendungsbereiche

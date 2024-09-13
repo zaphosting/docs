@@ -14,7 +14,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 This guide contains some tips and advice on how to make your Linux server more secure. Especially since servers must be accessed externally, basic protection against unwanted access is definitely recommended and should not be neglected. 
 
 :::info
-Please note that these instructions are not exhaustive and that more detailed information can be found in other sections of the ZAP documentation. (e.g. [2FA](vserver-linux-ssh2fa.md))
+Please note that these instructions are not exhaustive and that more detailed information can be found in other sections of the ZAP documentation. (e.g. [2FA (SSH)](vserver-linux-ssh2fa.md))
 :::
 
 :::tip
@@ -25,11 +25,11 @@ The easiest way to protect your server is always the same, regardless of the ser
 
 ## Securing SSH 
 
-SSH (Secure Shell) is a service that allows you to remotely access your server's console to execute commands on the server. Here you can see how to set up SSH on your server: [How do I set up SSH on my server?](vserver-linux-ssh.md)
+SSH (Secure Shell) is a service that allows you to remotely access your server's console to execute commands on the server. Here you can see how to set up SSH on your server: [Initial access (SSH)](vserver-linux-ssh.md)
 
 By default, a password-based login is used for SSH. However, this has the major disadvantage that authentication can be bypassed relatively easily using a brute force attack, especially if you use a password that is too simple for your SSH login. So if you decide to use the password solution, please use a **secure** password.
 
-To protect your server even better against unwanted SSH access, you should enable authentication exclusively via SSH keys and deactivate the password login. Take a look at [our SSH guide](vserver-linux-sshkey.md), which explains how to generate and add SSH keys.
+To protect your server even better against unwanted SSH access, you should enable authentication exclusively via SSH keys and deactivate the password login. Take a look at [SSH Key](vserver-linux-sshkey.md), which explains how to generate and add SSH keys.
 
 ## Port configuration of your services
 
@@ -118,7 +118,7 @@ Please note that this rule is only activated for **port 22** (the value after `-
 The following commands may not work for every single Linux distro, but they will work on the vast majority of the most popular distros.
 :::
 
-First, log in to your Linux server. If you need help doing this, please follow our [SSH access](vserver-linux-ssh.md) guide which explains how to do this. Next, run the following commands in the order they are listed.
+First, log in to your Linux server. If you need help doing this, please follow our [Initial access (SSH)](vserver-linux-ssh.md) guide which explains how to do this. Next, run the following commands in the order they are listed.
 
 ```
 iptables -A INPUT -p tcp --syn --dport 22 -m connlimit --connlimit-above 2 --connlimit-mask 32 -j DROP
@@ -134,7 +134,7 @@ iptables -A INPUT -p tcp --dport 22 -m state --state NEW -m recent --update --se
 
 As described above, UFW is a "simpler" interface for IPTables. The first step is to install UFW, as it is by default not included in all Linux distributions. You should either execute the commands as root or use *sudo*.
 
-First log in to your Linux server. If you need help with this, please follow our guide [SSH access](vserver-linux-ssh.md), which explains how this works. The following instructions used Debian and Ubuntu for testing, but should work on other Linux Distributions too.
+First log in to your Linux server. If you need help with this, please follow our guide [Initial access (SSH)](vserver-linux-ssh.md), which explains how this works. The following instructions used Debian and Ubuntu for testing, but should work on other Linux Distributions too.
 
 First, the apt directory and existing services should be upgraded.
 ```
@@ -212,7 +212,7 @@ Fail2Ban now uses this log file and monitors it for failed authentications. As t
 
 ### Installation of Fail2Ban
 
-First log in to your Linux server. If you need help with this, please follow our instructions [SSH access](vserver-linux-ssh.md), which explain how this works. You should either execute the commands as root or using *sudo*.
+First log in to your Linux server. If you need help with this, please follow our instructions [Initial access (SSH)](vserver-linux-ssh.md), which explain how this works. You should either execute the commands as root or using *sudo*.
 
 ```
 sudo apt update && sudo apt upgrade -y
@@ -391,7 +391,7 @@ Make sure you do not have any separate rules that allow unrestricted access to y
 This guide has shown you some basic and advanced functions for securing your Linux server. If you have implemented all the recommendations that apply to your system, your server is already much more secure than before - congratulations!
 
 Further measures can of course be taken:
-- [Setup 2FA](vserver-linux-ssh2fa.md)
+- [2FA (SSH)](vserver-linux-ssh2fa.md)
 - Add further configurations to Fail2Ban
 - Set up mail notifications in Fail2Ban
 - And many more...

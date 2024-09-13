@@ -76,4 +76,4 @@ There are two different discount codes:
 ## Getting Freebies and Codes
 We love to give back to our ZAP Community, which is why there are many ways to get discounts and freebies including money for your cashbox, occasional free servers and more!
 
-To learn more, we recommend reading our awesome [ZAP-Hosting Community Info](community-info.md) guide which covers the multitudes of ways to gain voucher codes and freebies across our range of social platforms (and even by writing guides for these very ZAP-Docs you are reading :) 💚
+To learn more, we recommend reading our awesome [ZAP-Hosting Community](community-info.md) guide which covers the multitudes of ways to gain voucher codes and freebies across our range of social platforms (and even by writing guides for these very ZAP-Docs you are reading :) 💚

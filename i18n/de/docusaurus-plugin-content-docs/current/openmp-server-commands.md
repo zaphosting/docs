@@ -17,7 +17,7 @@ Open.mp-Server verfügen über eine Reihe nützlicher integrierter Serverbefehle
 
 ## Zugriff einrichten (RCON)
 
-Um Serverbefehle im Spiel ausführen zu können, musst du die RCON-Funktion aktivieren. Du musst auf deine Konfiguration `config.json` zugreifen und die notwendigen Parameter anpassen, um die Funktion einzuschalten und ein Passwort hinzuzufügen. Bitte benutze unsere [Open.mp-Konfigurationsanleitung](openmp-configuration.md), um auf deine Serverkonfigurationsdatei zuzugreifen.
+Um Serverbefehle im Spiel ausführen zu können, musst du die RCON-Funktion aktivieren. Du musst auf deine Konfiguration `config.json` zugreifen und die notwendigen Parameter anpassen, um die Funktion einzuschalten und ein Passwort hinzuzufügen. Bitte benutze unsere [Server-Konfiguration](openmp-configuration.md), um auf deine Serverkonfigurationsdatei zuzugreifen.
 
 Sobald du die Datei fertig hast, findest du die folgenden Parameter, um die Funktion einzuschalten und ein RCON-Passwort festzulegen.
 
@@ -33,7 +33,7 @@ Vergewissere dich, dass du bei der Konfigration ein RCON-Passwort eingerichtet h
 Nachdem du deine Änderungen vorgenommen hast, speichere die Datei an der richtigen Stelle und starte deinen Server neu. Wenn dein Server das nächste Mal hochfährt, sollte RCON jetzt zugänglich und bereit sein.
 
 :::tip
-Wenn du mehr über RCON erfahren möchtest, kannst du unsere [Open.mp RCON Anleitung](openmp-rcon.md) benutzen, der weitere Details enthält.
+Wenn du mehr über RCON erfahren möchtest, kannst du unsere [RCON](openmp-rcon.md) benutzen, der weitere Details enthält.
 :::
 
 ## Verfügbare Befehle

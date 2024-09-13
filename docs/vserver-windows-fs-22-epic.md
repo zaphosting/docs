@@ -147,7 +147,7 @@ You must create new rules for your Farming Simulator 22 server. To do this, clic
 - TCP incoming and outgoing: 3724, 27015
 - UDP incoming and outgoing: 3724, 27015
 
-Please use our [Windows port forwarding guide](vserver-windows-port.md) if you need further assistance doing this.
+Please use our [Port Forwarding (Firewall)](vserver-windows-port.md) if you need further assistance doing this.
 
 </TabItem>
 </Tabs>

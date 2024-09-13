@@ -57,7 +57,7 @@ We advise you not to change this value for your game server, as this is predefin
 The Server must be stopped before the config can be edited, editing the config and restarting the server will result in any changes being undone.
 :::
 
-Another method of editing your configuration file, is through FTP. If you are not familiar with using FTP, we recommend you to have a look at the [FTP file access](gameserver-ftpaccess.md) guide. However, this method takes longer and if you wish to directly edit the file contents, we recommend simply using the **Configs** section on your game server's webinterface as mentioned.
+Another method of editing your configuration file, is through FTP. If you are not familiar with using FTP, we recommend you to have a look at the [Access via FTP](gameserver-ftpaccess.md) guide. However, this method takes longer and if you wish to directly edit the file contents, we recommend simply using the **Configs** section on your game server's webinterface as mentioned.
 
 Once you have connected to your server through FTP, head over to the following directory:
 ```
@@ -95,7 +95,7 @@ Ensure that you are entering the RCON Port you viewed in the configuration file 
 If the connection is successful, you will now be able to send commands to your Palworld sever through the RCON Console program that you chose.
 
 :::tip
-Check out our [Palworld server commands guide](palworld-server-commands.md) to view all the currently available commands that you can run through RCON.
+Check out our [Server Commands](palworld-server-commands.md) to view all the currently available commands that you can run through RCON.
 :::
 
 You have successfully enabled RCON on your Palworld server.

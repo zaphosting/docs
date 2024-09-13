@@ -29,12 +29,12 @@ For the installation and configuration of an operating system, it is initially i
 2. Mounting via iLO (Virtual Media)
 3. Mounting via iLO (Remote Console)
 
-If you are not familiar with mounting an ISO file yet, it's best to refer to our [Initial Setup](dedicated-setup.md) or [Custom ISO](dedicated-iso.md) guide.
+If you are not familiar with mounting an ISO file yet, it's best to refer to our [Initial setup](dedicated-setup.md) or [Own ISO](dedicated-iso.md) guide.
 
 
 
 ## Installation
-To install a Windows Server, you'll need to have an ISO File of your decision, you could choose in our webinterface the desired version of Windows. Alternatively, you could choose an own ISO File, we have a [detailed guide](dedicated-iso.md) for that.
+To install a Windows Server, you'll need to have an ISO File of your decision, you could choose in our webinterface the desired version of Windows. Alternatively, you could choose an own ISO File, we have a [Own ISO](dedicated-iso.md) for that.
 
 ![image](https://screensaver01.zap-hosting.com/index.php/s/DDNsa9zjbXng9Z6/preview)
 

@@ -25,9 +25,9 @@ Before continuing with the guide, ensure that you have the following prepared:
 
 ## Step 1: Preparing Webspace
 
-Begin by visiting our [Webspace](https://zap-hosting.com/en/shop/product/webspace/) product page and purchasing the appropriate webspace hosting plan that suits your website requirements. Once the product is set up, you will have to install WordPress onto it. Please read our dedicated [Webspace Install WordPress guide](webspace-wordpress.md) for detailed instructions on doing this.
+Begin by visiting our [Webspace](https://zap-hosting.com/en/shop/product/webspace/) product page and purchasing the appropriate webspace hosting plan that suits your website requirements. Once the product is set up, you will have to install WordPress onto it. Please read our dedicated [Install](webspace-wordpress.md) for detailed instructions on doing this.
 
-With WordPress installed on the Webspace, you will have to link your Domain to it. Once again, please read our dedicated [Webspace Domain guide](webspace-adddomain.md) for detailed instructions on doing this.
+With WordPress installed on the Webspace, you will have to link your Domain to it. Once again, please read our dedicated [Add Domain](webspace-adddomain.md) for detailed instructions on doing this.
 
 ![image](https://screensaver01.zap-hosting.com/index.php/s/Qa3mmmQtTybNgGj/preview)
 
@@ -110,7 +110,7 @@ Please note that changes to DNS records may take up to 24 hours to propagate. Th
 
 As a last step, we would recommend setting up a new SSL Certificate for your new website instance on your ZAP-Hosting Webspace. By default, when a domain is added via the webspace, it will remain unencrypted.
 
-We recommend reading our dedicated [Webspace SSL guide](webspace-plesk-ssl.md) for detailed instructions on setting this up.
+We recommend reading our dedicated [Create SSL Certificate](webspace-plesk-ssl.md) for detailed instructions on setting this up.
 
 ## Conclusion
 

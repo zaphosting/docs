@@ -14,7 +14,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 ## Plugins auf einem Unturned Rocket Mod Server installieren
 
 ### Schritt 1
-Zuerst muss eine Verbindung zum Server über [FTP](gameserver-ftpaccess.md) hergestellt werden.
+Zuerst muss eine Verbindung zum Server über [Zugriff per FTP](gameserver-ftpaccess.md) hergestellt werden.
 
 Sobald die FTP Verbindung steht, muss das Verzeichnis "Plugins" geöffnet werden.
 

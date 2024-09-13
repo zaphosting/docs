@@ -13,15 +13,15 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Secure Shell (SSH) ist ein sicheres Protokoll, das einen sicheren und verschlüsselten Zugang zu entfernten Systemen ermöglicht. Es bietet eine vertrauliche und sichere Übertragung von Daten über Netzwerke.
 
-In dieser Anleitung erfährst du, wie du den SSH-Server für eine Reihe von Linux-Distributionen, die wir derzeit auf unseren VPS-Servern anbieten, installieren oder neu installieren kannst. Die meisten Linux-Distributionen, die wir auf unseren VPS-Servern anbieten, sind standardmäßig mit einem SSH-Server ausgestattet, den du einfach über das Webinterface des Produkts verwalten kannst. Wie das geht, kannst du in unserem Anleitung nachlesen: [Erstzugang mit SSH](vserver-linux-ssh.md)
+In dieser Anleitung erfährst du, wie du den SSH-Server für eine Reihe von Linux-Distributionen, die wir derzeit auf unseren VPS-Servern anbieten, installieren oder neu installieren kannst. Die meisten Linux-Distributionen, die wir auf unseren VPS-Servern anbieten, sind standardmäßig mit einem SSH-Server ausgestattet, den du einfach über das Webinterface des Produkts verwalten kannst. Wie das geht, kannst du in unserem Anleitung nachlesen: [Erstzugriff (SSH)](vserver-linux-ssh.md)
 
-Wenn du mehr darüber erfahren möchtest, wie du die Sicherheit deines Servers verbessern kannst, empfehlen wir dir unsere Anleitung [Linux Security Tips](vserver-linux-security-tips.md), die eine Reihe von Tools und Diensten vorstellt, mit denen du deinen Server noch besser schützen kannst.
+Wenn du mehr darüber erfahren möchtest, wie du die Sicherheit deines Servers verbessern kannst, empfehlen wir dir unsere Anleitung [Sicherheitstipps](vserver-linux-security-tips.md), die eine Reihe von Tools und Diensten vorstellt, mit denen du deinen Server noch besser schützen kannst.
 
 <InlineVoucher />
 
 ## Installation
 
-Um die Installation zu beginnen, musst du erst über VNC auf deinem Server verbinden. Du kannst dazu unserer Anleitung folgen [VNC Konsole](vserver-vnc.md)
+Um die Installation zu beginnen, musst du erst über VNC auf deinem Server verbinden. Du kannst dazu unserer Anleitung folgen [VNC-Konsole](vserver-vnc.md)
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';

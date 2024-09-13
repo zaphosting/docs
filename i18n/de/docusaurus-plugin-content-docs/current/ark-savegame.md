@@ -31,7 +31,7 @@ Wenn du ein Xbox- oder Playstation-Spieler bist, kannst du leider keine offiziel
 Es wurden zwei Schnappschüsse gemacht, der erste ist vom 25. August 2023 und der zweite vom 30. September 2023. Für beide musst du deinen Server finden und deine Spieldatei herunterladen.
 
 :::note
-Die Verwendung deines eigenen offiziellen Backup-Saves ist nur mit der **ARK - SE (Official backupsave compatible)** Gameserver-Variante möglich. Wenn du eine andere Version für deinen Server verwendest, kannst du die Version unter **games** im Webinterface deines Gameservers entsprechend ändern oder unsere [Gameswitch-Anleitung](gameserver-gameswitch.md) verwenden.
+Die Verwendung deines eigenen offiziellen Backup-Saves ist nur mit der **ARK - SE (Official backupsave compatible)** Gameserver-Variante möglich. Wenn du eine andere Version für deinen Server verwendest, kannst du die Version unter **games** im Webinterface deines Gameservers entsprechend ändern oder unsere [Spielwechsel](gameserver-gameswitch.md) verwenden.
 
 ![image](https://github.com/zaphosting/docs/assets/42719082/8f2ac8fa-2b23-4738-8d95-87c289e9d98a)
 :::
@@ -54,7 +54,7 @@ Hierfür solltest du die reguläre **Ark: SE** Gameserver-Variante (ohne die off
 
 Sobald du deine `.zip`-Speicherdatei heruntergeladen hast, musst du sie mit einem Programm wie 7zip oder Winrar entpacken. Der Upload ist für beide Arten von Gameservern und Spieldateien derselbe.
 
-Jetzt musst du über FTP auf deinen Server zugreifen, um deine Spieldateien hochzuladen. Bitte benutze unsere Anleitung [FTP-Zugang](gameserver-ftpaccess.md), wenn du Hilfe beim Einloggen über deinen bevorzugten FTP-Client und beim Übertragen von Dateien benötigst.
+Jetzt musst du über FTP auf deinen Server zugreifen, um deine Spieldateien hochzuladen. Bitte benutze unsere Anleitung [Zugriff per FTP](gameserver-ftpaccess.md), wenn du Hilfe beim Einloggen über deinen bevorzugten FTP-Client und beim Übertragen von Dateien benötigst.
 
 Wenn du deinen FTP-Client geöffnet hast, gehe in das folgende Unterverzeichnis deines Gameservers:
 ```

@@ -25,7 +25,7 @@ In order to set a custom server icon for your FiveM server, you must first perpa
 
 ### Uploading files
 
-The next step is to upload your ready image to your FiveM game server, which is done through the use of FTP. If you are not familiar with using FTP, we recommend you to have a look at the [FTP file access](gameserver-ftpaccess.md) guide.
+The next step is to upload your ready image to your FiveM game server, which is done through the use of FTP. If you are not familiar with using FTP, we recommend you to have a look at the [Access via FTP](gameserver-ftpaccess.md) guide.
 
 Once you are logged in to FTP, navigate to the folder `gXXXX/gta-fivem/server-data/` and upload your server icon file there. Make sure to remember what the file is called.
 

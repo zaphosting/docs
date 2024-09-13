@@ -45,7 +45,7 @@ Ausreichend Speicherplatz ist essenziell, damit regelmäßige Backups erstellt w
 
 ## Backups herunterladen/löschen
 
-Um Backups herunterladen oder zu löschen, muss man sich per FTP mit dem Storage Server verbinden. Eine Anleitung zum Benutzen von FTP findest du hier: [FTP-Zugang](gameserver-ftpaccess.md)
+Um Backups herunterladen oder zu löschen, muss man sich per FTP mit dem Storage Server verbinden. Eine Anleitung zum Benutzen von FTP findest du hier: [Zugriff per FTP](gameserver-ftpaccess.md)
 
 ![image](https://screensaver01.zap-hosting.com/index.php/s/Px9jEtoxQoPkeFs/preview)
 

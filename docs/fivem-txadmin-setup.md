@@ -94,7 +94,7 @@ This option is intended for users who have already created their own recipe and 
 
 After deciding on a Deployment Type and following the specified steps, you can finish by clicking on **Go to Recipe Deployer**. There, you'll need to complete the final steps: **Review Recipe**, **Input Parameters**, **Run Recipe**, and **Configure server.cfg**.
 
-In the first step, you have the option to further customize the selected or added recipe. If no further adjustments are necessary, proceed to Step 2. Here, you can enter your own [**license key**](fivem-licensekey.md) and review the database information. Once everything is in order, click on **Run Recipe**. This process may take a moment. Finally, you can adjust the server configuration file (`server.cfg`) as needed.
+In the first step, you have the option to further customize the selected or added recipe. If no further adjustments are necessary, proceed to Step 2. Here, you can enter your own [Own License Key](fivem-licensekey.md) and review the database information. Once everything is in order, click on **Run Recipe**. This process may take a moment. Finally, you can adjust the server configuration file (`server.cfg`) as needed.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/wFMD576sBQAAdxZ/download)
 

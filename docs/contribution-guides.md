@@ -16,7 +16,7 @@ The first part of the process involves creating a suggestion issue via our GitHu
 Please ensure that your idea is not a duplicate of any existing guide or suggestion and that you deeply believe will be useful for beginners or more advanced users. You can view existing suggestions by heading over to the [Issues Page](https://github.com/zaphosting/docs/issues?q=is%3Aissue).
 
 :::tip
-We recommend reviewing our [Guidelines Page](contribution-guides-guidelines.md) to understand the content and documentation style that we are pursuing.
+We recommend reviewing our [Guidelines](contribution-guides-guidelines.md) to understand the content and documentation style that we are pursuing.
 :::
 
 ### What topics are we looking for?
@@ -38,7 +38,7 @@ Keep in mind, these are only useful ideas, you **do not** have to strictly write
 
 ### Submitting suggestion
 
-Now that you are confident that your suggestion is appropriate for our documentation, please head over to our [ZAP Docs GitHub repository](https://github.com/zaphosting/docs) and open an issue using the **Contribution Suggestion** template. Please follow the template that is provided and ensure that you fill in all necessary details. You will also be requested to confirm that you accept our Terms & Conditions for the Contribution Program, which can be [accessed here](contribution-terms.md). 
+Now that you are confident that your suggestion is appropriate for our documentation, please head over to our [ZAP Docs GitHub repository](https://github.com/zaphosting/docs) and open an issue using the **Contribution Suggestion** template. Please follow the template that is provided and ensure that you fill in all necessary details. You will also be requested to confirm that you accept our Terms & Conditions for the Contribution Program, which can be [Contribution Terms](contribution-terms.md). 
 
 :::caution
 Please ensure that you fill in your ZAP ID correctly to ensure you receive your reward to the correct account!
@@ -54,7 +54,7 @@ Within our response, we will provide you with additional feedback or details tha
 
 ## Step 2: Writing the Guide
 
-When performing any additions or changes to our documentation, please ensure that you follow our [Contribution Guidelines](contribution-guides-guidelines.md) thoroughly to ensure consistency and a high-quality end product. In this sub-section we will dive deep into best practices and the optimal workflow for creating new content, but also for modifying existing content. If you are new to using GitHub, please use these brief tutorials below to understand the easiest way to edit or create new content for our ZAP-Docs.
+When performing any additions or changes to our documentation, please ensure that you follow our [Guidelines](contribution-guides-guidelines.md) thoroughly to ensure consistency and a high-quality end product. In this sub-section we will dive deep into best practices and the optimal workflow for creating new content, but also for modifying existing content. If you are new to using GitHub, please use these brief tutorials below to understand the easiest way to edit or create new content for our ZAP-Docs.
 
 :::note
 Ensure that you have created a suggestion on our [GitHub Repository](https://github.com/zaphosting/docs) and that this has been approved by one of our ZAP Contribution Team members before proceeding to work on a new guide or changes. We will not be able to guarantee a reward if you haven't followed the process as it has not been approved.
@@ -133,7 +133,7 @@ You can use the **Preview** button at the top of the edit window to switch to th
 Please keep in mind that some Docusaurus-specific elements such as admonitions (tags like `:::note`, `:::tip` etc.) may not show up correctly when previewing through GitHub. This is because they aren't part of traditional Markdown, however, they will display correctly during local testing and production.
 :::
 
-Please refer to the [ZAP Guides Guidelines](contribution-guides-guidelines.md) for everything regarding Markdown, structure, terminology and more.
+Please refer to the [Guidelines](contribution-guides-guidelines.md) for everything regarding Markdown, structure, terminology and more.
 
 Once you have performed your changes, use the **Commit changes...** button which will display a prompt.
 
@@ -208,7 +208,7 @@ Please keep in mind that some Docusaurus-specific elements such as admonitions (
 
 ![image](https://github.com/zaphosting/docs/assets/42719082/95effdaa-ab2d-4556-832c-dad33834d636)
 
-Please refer to the [ZAP Guides Guidelines](contribution-guides-guidelines.md) for everything regarding Markdown, structure, terminology and more.
+Please refer to the [Guidelines](contribution-guides-guidelines.md) for everything regarding Markdown, structure, terminology and more.
 
 Once you are finished with the changes to your guide, the last step of the entire process is to push a commit to your fork repository and submit a Pull Request. You can create a commit through the GitHub Desktop by adding an appropriate title and description and pushing via the top button. Likewise, you can do this directly through Visual Studio Code if you prefer. You may now head over to the **Submitting Content** section to create a Pull Request to submit the content to our ZAP-Hosting Docs Repository.
 
@@ -281,7 +281,7 @@ Upon review of your Pull Request, we may ask you to produce a few changes that w
 Once we finally accept your Pull Request after completing any requested changes, we will reply to your Pull Request and let you know about key details regarding this. This includes providing information about publishing your guide changes, as well as your reward payment for completing your guide changes successfully.
 
 :::info
-The reward for this type of contribution will depend on a couple of factors, most notably the quality and scale of content written, alongside other criteria that are evaluated by the ZAP Contribution Team. Read more about our criteria in our [Contribution Rewards guide](contribution-rewards.md).
+The reward for this type of contribution will depend on a couple of factors, most notably the quality and scale of content written, alongside other criteria that are evaluated by the ZAP Contribution Team. Read more about our criteria in our [Rewards](contribution-rewards.md).
 :::
 
 Congratulations on contributing to our ZAP-Hosting Guides! We appreciate all your contributions! 💚

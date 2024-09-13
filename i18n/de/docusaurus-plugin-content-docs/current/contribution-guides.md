@@ -16,7 +16,7 @@ Der erste Teil des Prozesses besteht darin, einen Vorschlag über unser GitHub-R
 Achte bitte darauf, dass deine Idee kein Duplikat eines bestehenden Anleitungs oder Vorschlags ist und dass du fest davon überzeugt bist, dass sie für Anfänger oder fortgeschrittene Nutzer nützlich ist. Vorhandene Vorschläge kannst du auf der [Issues Page](https://github.com/zaphosting/docs/issues?q=is%3Aissue) einsehen.
 
 :::tip
-Wir empfehlen, unsere [Guidelines Page](contribution-guides-guidelines.md) zu lesen, um den Inhalt und den Dokumentationsstil zu verstehen, den wir verfolgen.
+Wir empfehlen, unsere [Richtlinien](contribution-guides-guidelines.md) zu lesen, um den Inhalt und den Dokumentationsstil zu verstehen, den wir verfolgen.
 :::
 
 ### Nach welchen Themen suchen wir?
@@ -38,7 +38,7 @@ Denke daran, dass dies nur nützliche Ideen sind, du **musst** nicht unbedingt d
 
 ### Einreichen des Vorschlags
 
-Wenn du dir sicher bist, dass dein Vorschlag für unsere Dokumentation geeignet ist, gehe bitte zu unserem [ZAP Docs GitHub Repository] (https://github.com/zaphosting/docs) und eröffne einen Beitrag mit der Vorlage **Beitragsvorschlag**. Bitte folge der Vorlage, die dir zur Verfügung gestellt wird, und stelle sicher, dass du alle notwendigen Details ausfüllst. Außerdem musst du bestätigen, dass du unsere Allgemeinen Geschäftsbedingungen für das Beitragsprogramm akzeptierst, die du [hier](contribution-terms.md) einsehen kannst. 
+Wenn du dir sicher bist, dass dein Vorschlag für unsere Dokumentation geeignet ist, gehe bitte zu unserem [ZAP Docs GitHub Repository] (https://github.com/zaphosting/docs) und eröffne einen Beitrag mit der Vorlage **Beitragsvorschlag**. Bitte folge der Vorlage, die dir zur Verfügung gestellt wird, und stelle sicher, dass du alle notwendigen Details ausfüllst. Außerdem musst du bestätigen, dass du unsere Allgemeinen Geschäftsbedingungen für das Beitragsprogramm akzeptierst, die du [Beitragsbedingungen](contribution-terms.md) einsehen kannst. 
 
 :::caution
 Bitte achte darauf, dass du deine ZAP ID richtig ausfüllst, damit du deine Prämie auf das richtige Konto erhältst!
@@ -54,7 +54,7 @@ In unserer Antwort geben wir dir zusätzliches Feedback oder Details, die wir be
 
 ## Schritt 2: Schreiben der Anleitung
 
-Wenn du Ergänzungen oder Änderungen an unserer Dokumentation vornimmst, stelle bitte sicher, dass du unsere [Beitragsrichtlinien](contribution-guides-guidelines.md) genau befolgst, um Konsistenz und ein hochwertiges Endprodukt zu gewährleisten. In diesem Unterkapitel werden wir uns mit den besten Praktiken und dem optimalen Arbeitsablauf für die Erstellung neuer, aber auch für die Änderung bestehender Inhalte beschäftigen. Wenn du GitHub noch nicht kennst, kannst du die folgenden kurzen Anleitungen nutzen, um zu verstehen, wie du am einfachsten neue Inhalte für unsere ZAP-Docs bearbeiten oder erstellen kannst.
+Wenn du Ergänzungen oder Änderungen an unserer Dokumentation vornimmst, stelle bitte sicher, dass du unsere [Richtlinien](contribution-guides-guidelines.md) genau befolgst, um Konsistenz und ein hochwertiges Endprodukt zu gewährleisten. In diesem Unterkapitel werden wir uns mit den besten Praktiken und dem optimalen Arbeitsablauf für die Erstellung neuer, aber auch für die Änderung bestehender Inhalte beschäftigen. Wenn du GitHub noch nicht kennst, kannst du die folgenden kurzen Anleitungen nutzen, um zu verstehen, wie du am einfachsten neue Inhalte für unsere ZAP-Docs bearbeiten oder erstellen kannst.
 
 :::note
 Vergewissere dich, dass du einen Vorschlag auf unserem [GitHub Repository](https://github.com/zaphosting/docs) erstellt hast und dass dieser von einem Mitglied unseres ZAP Contribution Teams genehmigt wurde, bevor du mit der Arbeit an einer neuen Anleitung oder an Änderungen beginnst. Wir können dir keine Belohnung garantieren, wenn du diesen Prozess nicht befolgt hast, da er nicht genehmigt wurde.
@@ -133,7 +133,7 @@ Jetzt, wo deine Datei fertig ist, kannst du damit fortfahren, den Inhalt zu schr
 Bitte beachte, dass einige Docusaurus-spezifische Elemente wie Ermahnungen (Tags wie `:::note`, `:::tip` usw.) bei der Vorschau über GitHub möglicherweise nicht korrekt angezeigt werden. Das liegt daran, dass sie nicht Teil des traditionellen Markdowns sind. Sie werden jedoch bei lokalen Tests und in der Produktion korrekt angezeigt.
 :::
 
-In den [ZAP Guides Guidelines](contribution-guides-guidelines.md) findest du alle Informationen zu Markdown, Struktur, Terminologie und mehr.
+In den [Richtlinien](contribution-guides-guidelines.md) findest du alle Informationen zu Markdown, Struktur, Terminologie und mehr.
 
 Wenn du deine Änderungen vorgenommen hast, klickst du auf die Schaltfläche **Änderungen bestätigen...**, woraufhin eine Aufforderung erscheint.
 
@@ -208,7 +208,7 @@ Bitte beachte, dass einige Docusaurus-spezifische Elemente wie Ermahnungen (Tags
 
 ![image](https://github.com/zaphosting/docs/assets/42719082/95effdaa-ab2d-4556-832c-dad33834d636)
 
-Bitte beachte die [ZAP Guides Guidelines](contribution-guides-guidelines.md) für alles, was Markdown, Struktur, Terminologie und mehr betrifft.
+Bitte beachte die [Richtlinien](contribution-guides-guidelines.md) für alles, was Markdown, Struktur, Terminologie und mehr betrifft.
 
 Wenn du mit den Änderungen an deiner Anleitung fertig bist, musst du als letzten Schritt einen Commit in dein Fork-Repository einfügen und einen Pull Request stellen. Du kannst einen Commit über den GitHub-Desktop erstellen, indem du einen passenden Titel und eine Beschreibung hinzufügst und über den oberen Button einen Push sendest. Du kannst dies auch direkt über Visual Studio Code tun, wenn du das möchtest. Jetzt kannst du im Abschnitt **Inhalte einreichen** einen Pull Request erstellen, um die Inhalte an unser ZAP-Hosting Docs Repository zu übermitteln.
 
@@ -281,7 +281,7 @@ Nach der Prüfung deines Pull Requests bitten wir dich eventuell, einige Änderu
 Sobald wir deinen Pull Request nach Abschluss aller gewünschten Änderungen endgültig akzeptieren, antworten wir auf deinen Pull Request und informieren dich über die wichtigsten Details dazu. Dazu gehören auch Informationen über die Veröffentlichung deiner Änderungen und die Auszahlung deiner Belohnung für die erfolgreiche Fertigstellung deiner Änderungen am Anleitung.
 
 :::info
-Die Belohnung für diese Art von Beitrag hängt von mehreren Faktoren ab, vor allem von der Qualität und dem Umfang des geschriebenen Inhalts sowie von anderen Kriterien, die vom ZAP Contribution Team bewertet werden. Mehr über unsere Kriterien erfährst du in unserem [Anleitung für Beitragsbelohnungen](contribution-rewards.md).
+Die Belohnung für diese Art von Beitrag hängt von mehreren Faktoren ab, vor allem von der Qualität und dem Umfang des geschriebenen Inhalts sowie von anderen Kriterien, die vom ZAP Contribution Team bewertet werden. Mehr über unsere Kriterien erfährst du in unserem [Belohnungen](contribution-rewards.md).
 :::
 
 Herzlichen Glückwunsch zu deinen Beiträgen zu unseren ZAP-Hosting Guides! Wir schätzen alle deine Beiträge! 💚

@@ -40,7 +40,7 @@ Keep in mind, these are only useful ideas, you **do not** have to strictly write
 
 ### Submitting suggestion
 
-Now that you understand all of the information, please head over to our **[Blog Suggestion Form](https://forms.gle/jft8sb4mmKMkbt5W9)**. Fill out the form with as much detail as possible and submit it. You will also be requested to confirm that you accept our Terms & Conditions for the Contribution Program, which can be [accessed here](contribution-terms.md).
+Now that you understand all of the information, please head over to our **[Blog Suggestion Form](https://forms.gle/jft8sb4mmKMkbt5W9)**. Fill out the form with as much detail as possible and submit it. You will also be requested to confirm that you accept our Terms & Conditions for the Contribution Program, which can be [Contribution Terms](contribution-terms.md).
 
 :::caution
 Please ensure that you fill in your ZAP ID correctly as this is how we will contact you regarding your blog suggestion!
@@ -77,7 +77,7 @@ Please do not hesitate to contact us by replying directly to the ticket on the w
 Before submitting your draft, double check everything is correct using this quick checklist:
 - You followed a clear structure.
 - Your content relates to what was agreed upon within your blog suggestion and discussions with the ZAP Contributions Team.
-- You have followed our [Blogs Guidelines](contribution-blogs-guidelines.md) closely.
+- You have followed our [Guidelines](contribution-blogs-guidelines.md) closely.
 
 Once you believe that you have finished writing your blog and have a draft ready, please send us your draft copy by replying to the ticket. Please note, you will not be able to upload files to the ticket directly, thus be prepared to upload it to a cloud storage site, such as Google Drive, and share a link if needed. We thus recommend using Google Docs or Microsoft Word to write your content as sharing your file is very simple and quick by generating a link instantly.
 
@@ -88,7 +88,7 @@ We will aim to reply to your ticket response within 2-3 days. Upon review, we ma
 Once your final draft is accepted, we will reply to your ticket and let you know about key details regarding this. This includes providing information about when we plan to schedule your blog post, as well as your reward payment for completing your blog post successfully.
 
 :::info
-The reward for this type of contribution will depend on a couple of factors, most notably the quality and scale of content written, alongside other criteria that are evaluated by the ZAP Contributions Team. Read more about our criteria in our [Contribution Rewards guide](contribution-rewards.md).
+The reward for this type of contribution will depend on a couple of factors, most notably the quality and scale of content written, alongside other criteria that are evaluated by the ZAP Contributions Team. Read more about our criteria in our [Rewards](contribution-rewards.md).
 :::
 
 Congratulations on contributing to our ZAP-Hosting Guides! We appreciate all your contributions! 💚

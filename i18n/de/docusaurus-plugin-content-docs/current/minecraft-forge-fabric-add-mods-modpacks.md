@@ -19,7 +19,7 @@ Hier erfährst du, wie du einen Mod / Modpack auf deinen Minecraft-Server herunt
 
 - Ein [Gameserver](https://zap-hosting.com/de/gameserver-hosting/)
 - Ein FTP-Client ( wie zum Beispiel WinSCP, FileZilla)
-- Verbindung zu deinem Server via FTP ([Anleitung](gameserver-ftpaccess.md))
+- Verbindung zu deinem Server via FTP ([Zugriff per FTP](gameserver-ftpaccess.md))
 
 
 

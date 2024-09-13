@@ -15,7 +15,7 @@ The assignment of administrator permissions allows you simple and comprehensive 
 <InlineVoucher />
 
 ## Configuration
-Adding an admin is done via the **users.ini** config. To be able to become an admin and find those files you have to install **AMXmodX** and **Metamod** first. If you haven't done this yet, then the following guide is worth a look: [AMXmodX/Metamod + Plugins](cs16-plugins.md)
+Adding an admin is done via the **users.ini** config. To be able to become an admin and find those files you have to install **AMXmodX** and **Metamod** first. If you haven't done this yet, then the following guide is worth a look: [Install Plugins](cs16-plugins.md)
 
 In order to edit the **users.ini** config file, you need to connect to the server via FTP. There you have to navigate to the ``/gXXXX/cs16/cstrike/addons/amxmodx/configs`` directory. As next we open the Config with a text editor and modify it.
 

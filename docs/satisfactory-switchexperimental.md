@@ -26,15 +26,15 @@ Backing up your entire game server or gamesaves is very easy. Head over to the S
 
 ![Screenshot 2023-02-21 192618](https://screensaver01.zap-hosting.com/index.php/s/sMA9kQxoLoozsPa/preview)
 
-On this page you can perform a wide range of functions, including automatic backups which is further explained [on this page](gameserver-backups.md). Here we will focus on a manual backup.
+On this page you can perform a wide range of functions, including automatic backups which is further explained [Backups](gameserver-backups.md). Here we will focus on a manual backup.
 
 At the top of the page, simply press the green + icon and accept the prompt to perform a backup of the entire game server to your ZAP backup storage.
 
 ![Screenshot 2023-02-21 193113](https://screensaver01.zap-hosting.com/index.php/s/Gf2XRLzz46WNHHE/preview)
 
-Your backup has now been created and it can be accessed via FTP, shown [on this page](gameserver-ftpaccess.md).
+Your backup has now been created and it can be accessed via FTP, shown [Access via FTP](gameserver-ftpaccess.md).
 
-Alternatively, you can download the savegame files directly from the `Savegame Manager` section in the webinterface. You can find this [on this page](satisfactory-savegame.md).
+Alternatively, you can download the savegame files directly from the `Savegame Manager` section in the webinterface. You can find this [Savegame Manager](satisfactory-savegame.md).
 
 ### Switching to the experimental game server
 Firstly, head over to your Satisfactory product page and enter the `Settings -> Games` tab.

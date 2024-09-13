@@ -17,7 +17,7 @@ RimWorld Together servers come with a wide range of configuration parameters tha
 
 ## Accessing your Configuration File
 
-Firstly, you will have to access your configuration file in order to edit any parameters. Currently, the only way to edit these files is by accessing your server via FTP. If you are not familiar with using FTP, we recommend you to have a look at the [FTP file access](gameserver-ftpaccess.md) guide.
+Firstly, you will have to access your configuration file in order to edit any parameters. Currently, the only way to edit these files is by accessing your server via FTP. If you are not familiar with using FTP, we recommend you to have a look at the [Access via FTP](gameserver-ftpaccess.md) guide.
 
 :::note
 The Server must be stopped before any configs can be edited, editing a config and restarting the server will result in any changes being undone.

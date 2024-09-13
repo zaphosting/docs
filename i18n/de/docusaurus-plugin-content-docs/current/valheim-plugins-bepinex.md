@@ -16,7 +16,7 @@ BepInEx ist ein sehr beliebtes Open-Source-Plugin und Modding-Framework, mit dem
 
 ## BepInEx Spielversion
 
-Um **BepInEx**-kompatible Plugins in Valheim zu verwenden, musst du zuerst die **Valheim Plus**-Spielversion auf deinem Server installieren. Wir haben auch eine eigenständige **Valheim BepInEx** Spielversion, aber wir empfehlen, Valheim Plus zu installieren, da es mit allem mitgeliefert wird. Das geht ganz einfach mit unserem Gameserver Game Switcher. Mehr darüber erfährst du in unserem [Gameserver Game Switch guide](gameserver-gameswitch.md).
+Um **BepInEx**-kompatible Plugins in Valheim zu verwenden, musst du zuerst die **Valheim Plus**-Spielversion auf deinem Server installieren. Wir haben auch eine eigenständige **Valheim BepInEx** Spielversion, aber wir empfehlen, Valheim Plus zu installieren, da es mit allem mitgeliefert wird. Das geht ganz einfach mit unserem Gameserver Game Switcher. Mehr darüber erfährst du in unserem [Spielwechsel](gameserver-gameswitch.md).
 
 :::info
 Valheim Plus muss auch lokal auf deinem PC installiert werden. Hier findest du den Download für Valheim Plus: [Valheim Plus Download](https://www.nexusmods.com/valheim/mods/4).
@@ -30,7 +30,7 @@ Du solltest damit beginnen, Mods zu finden, die mit BepInEx kompatibel sind und 
 Verwendete Plugins müssen **BepInEx**-kompatibel sein, sonst werden sie nicht funktionieren!
 :::
 
-Wenn du einen Mod fertig hast, verbinde dich zunächst per FTP mit deinem Gameserver. Lies unseren [Access FTP guide](gameserver-ftpaccess.md), um zu erfahren, wie das geht.
+Wenn du einen Mod fertig hast, verbinde dich zunächst per FTP mit deinem Gameserver. Lies unseren [Zugriff per FTP](gameserver-ftpaccess.md), um zu erfahren, wie das geht.
 
 Wenn dein FTP-Client nun bereit ist, navigiere in das folgende Verzeichnis:
 ```

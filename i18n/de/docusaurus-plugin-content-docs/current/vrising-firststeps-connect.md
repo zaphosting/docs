@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einleitung
 
-In dieser Anleitung erfahren wir, wie du dich mit deinem V Rising Server verbinden kannst. Es gibt zwei Möglichkeiten, eine Verbindung herzustellen: entweder direkt über die IP-Adresse deines Servers oder über die Serverliste. Wir empfehlen, den Server vorher nach deinen Wünschen zu konfigurieren. Mehr darüber erfährst du in unserer [V Rising Konfigurationsanleitung](vrising-configuration.md).
+In dieser Anleitung erfahren wir, wie du dich mit deinem V Rising Server verbinden kannst. Es gibt zwei Möglichkeiten, eine Verbindung herzustellen: entweder direkt über die IP-Adresse deines Servers oder über die Serverliste. Wir empfehlen, den Server vorher nach deinen Wünschen zu konfigurieren. Mehr darüber erfährst du in unserer [Server-Konfiguration](vrising-configuration.md).
 
 <InlineVoucher />
 
@@ -23,7 +23,7 @@ Zunächst musst du die IP und den Port deines V Rising-Servers kennen, um eine d
 
 ![image](https://screensaver01.zap-hosting.com/index.php/s/tyDGMi7YmmNMLsd/preview)
 
-Wenn du deinen V Rising Server als externen dedizierten Server betreibst, ist deine IP die des Hostrechners und der Port derjenige, den du in deiner Konfigurationsdatei eingestellt hast (standardmäßig ist das 9876). In unserer [V Rising Konfigurationsanleitung](vrising-configuration.md) findest du weitere Informationen zum Port.
+Wenn du deinen V Rising Server als externen dedizierten Server betreibst, ist deine IP die des Hostrechners und der Port derjenige, den du in deiner Konfigurationsdatei eingestellt hast (standardmäßig ist das 9876). In unserer [Server-Konfiguration](vrising-configuration.md) findest du weitere Informationen zum Port.
 
 ### Verbindung im Spiel herstellen
 
@@ -43,7 +43,7 @@ Wenn du dem Server nicht erfolgreich beitreten kannst und eine Timeout-Fehlermel
 
 Die einfachste Möglichkeit, dich mit deinem Server zu verbinden, ist über die Serverliste. Dazu muss dein Server jedoch in den Serverkonfigurationsparametern auf öffentlich eingestellt sein. 
 
-Bitte schau dir unsere [V Rising Server Configuration guide](vrising-configuration.md) an, um die entsprechenden Parameter `Name` und `ListOnMasterServer` in deiner Konfigurationsdatei oder über das Webinterface-Panel hinzuzufügen.
+Bitte schau dir unsere [Server-Konfiguration](vrising-configuration.md) an, um die entsprechenden Parameter `Name` und `ListOnMasterServer` in deiner Konfigurationsdatei oder über das Webinterface-Panel hinzuzufügen.
 
 Sobald dies erledigt ist, wähle im Hauptmenü **Spielen**, gefolgt von der Option **Online spielen** und drücke noch einmal unten rechts auf **Alle Server anzeigen**. Jetzt kannst du den Server-Browser benutzen, um deinen Server mit Hilfe der bereitgestellten Filter wie Namenssuche, Spielmodus, Schwierigkeitsgrad und vielem mehr zu finden.
 

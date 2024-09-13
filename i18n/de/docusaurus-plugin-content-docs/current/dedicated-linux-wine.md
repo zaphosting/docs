@@ -17,7 +17,7 @@ Wine ist eine Open-Source-Kompatibilitätsschicht für Linux, mit der Software, 
 
 ## Vorbereitung
 
-Verbinde dich zunächst über SSH mit deinem Dedicated Server. Benutze unsere Anleitung [SSH Erstzugriff](vserver-linux-ssh.md), wenn du Hilfe brauchst.
+Verbinde dich zunächst über SSH mit deinem Dedicated Server. Benutze unsere Anleitung [Erstzugriff (SSH)](vserver-linux-ssh.md), wenn du Hilfe brauchst.
 
 ## Wine installieren
 

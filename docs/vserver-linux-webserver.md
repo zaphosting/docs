@@ -17,7 +17,7 @@ Nginx and Apache are popular web services that are used to deliver web pages to 
 
 ## Preparation
 
-Before the actual installation of a webserver can begin, it's necessary to make sure that the system is up to date. To do this, we connect to the server via SSH. If you don't know what SSH is and how to use it, check out the following guide: [Initial Access (SSH)](vserver-linux-ssh.md).
+Before the actual installation of a webserver can begin, it's necessary to make sure that the system is up to date. To do this, we connect to the server via SSH. If you don't know what SSH is and how to use it, check out the following guide: [Initial access (SSH)](vserver-linux-ssh.md).
 
 Once there you can update the system with the following command depending on your operating system:
 

@@ -17,7 +17,7 @@ Um den EUP zu installieren wird ein Fivem Element Argentum (oder höher) Schlüs
 
 ## Mit FTP verbinden
 
-Bevor EUP installiert werden kann, muss der [FTP-Zugang](gameserver-ftpaccess.md) eingerichtet werden
+Bevor EUP installiert werden kann, muss der [Zugriff per FTP](gameserver-ftpaccess.md) eingerichtet werden
 
 Nachdem dieser eingerichtet wurde, kann sich nun verbunden werden und der Server Ordner geöffnet werden:
 

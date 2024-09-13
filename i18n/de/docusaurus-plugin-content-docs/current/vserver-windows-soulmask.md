@@ -18,7 +18,7 @@ Hast du einen Windows VPS oder Root Server und möchtest den Soulmask Dedicated 
 
 ## Vorbereitung
 
-Verbinde dich zunächst über Remote Desktop (RDP) mit deinem VPS oder Root-Server. Benutze unsere Anleitung [RDP-Erstzugang](vserver-windows-userdp.md), wenn du dabei Hilfe brauchst.
+Verbinde dich zunächst über Remote Desktop (RDP) mit deinem VPS oder Root-Server. Benutze unsere Anleitung [Erstzugang (RDP)](vserver-windows-userdp.md), wenn du dabei Hilfe brauchst.
 
 Sobald du auf deinen Server zugegriffen hast, musst du **SteamCMD** einrichten, damit du die notwendigen Dateien für den dedizierten Server herunterladen kannst. SteamCMD ist die **Befehlszeilenversion (CLI)** des Steam-Clients und das Tool, mit dem du ganz einfach eine Reihe von Steam-Workshop- und Dedicated Server-Dateien herunterladen kannst. Lade [SteamCMD von der offiziellen Valve-Website](https://developer.valvesoftware.com/wiki/SteamCMD) oder direkt [hier](https://steamcdn-a.akamaihd.net/client/installer/steamcmd.zip) herunter.
 
@@ -91,7 +91,7 @@ Du musst neue Regeln für deinen Soulmask-Server erstellen. Klicke dazu auf die 
 - TCP eingehend und ausgehend: 8777, 27015
 - UDP eingehend und ausgehend: 8777, 27015
 
-Bitte benutze unseren [Windows Port Forwarding Guide](vserver-windows-port.md), wenn du weitere Hilfe benötigst.
+Bitte benutze unseren [Portweiterleitung (Firewall)](vserver-windows-port.md), wenn du weitere Hilfe benötigst.
 
 </TabItem>
 </Tabs>
@@ -104,7 +104,7 @@ Wir empfehlen, dass du deine Servereinstellungen zuerst im folgenden Abschnitt k
 
 An dieser Stelle hast du die Einrichtung deines Soulmask-Servers abgeschlossen. Du kannst weitere Serverkonfigurationen vornehmen, indem du die Parameter in der Datei **StartServer.bat** im Stammverzeichnis und in der Datei **GameUserSettings.ini** im Pfad `../WS/Saved/Config/WindowsServer` anpasst.
 
-In unserem [Soulmask Server Configuration guide](soulmask-configuration.md) findest du alle verfügbaren Parameter und Konfigurationsoptionen für deinen Soulmask Server.
+In unserem [Server-Konfiguration](soulmask-configuration.md) findest du alle verfügbaren Parameter und Konfigurationsoptionen für deinen Soulmask Server.
 
 ## Starten und Verbinden mit deinem Server
 
@@ -118,7 +118,7 @@ Es gibt ein häufiges Problem, das damit zusammenhängt, dass der Online-Dienst 
 
 Jetzt kannst du dich über deine IP direkt mit deinem Server verbinden, indem du die IP-Adresse deines Servers und den Port 8777 im Multiplayer-Menü des Spiels eingibst.
 
-Wenn du möchtest, dass dein Server in der Serverliste verfügbar ist, sieh dir bitte unsere [Soulmask Server Configuration guide](soulmask-configuration.md) an und füge den entsprechenden Parameter "SteamServerName" in deine **StartServer.bat**-Datei ein. Speichere die Datei danach und führe die Batch-Datei erneut aus.
+Wenn du möchtest, dass dein Server in der Serverliste verfügbar ist, sieh dir bitte unsere [Server-Konfiguration](soulmask-configuration.md) an und füge den entsprechenden Parameter "SteamServerName" in deine **StartServer.bat**-Datei ein. Speichere die Datei danach und führe die Batch-Datei erneut aus.
 
 ## Abschluss
 

@@ -517,7 +517,7 @@ Darüber hinaus sollte der gesamte HTTP-Verkehr unter Verwendung einer permanent
 </VirtualHost>
 ```
 
-Wenn du dir nicht sicher bist, wie du ein SSL-Zertifikat generieren kannst, dann findest du hier eine Anleitung dazu: [Placeholder](vserver-linux-ssh.md)
+Wenn du dir nicht sicher bist, wie du ein SSL-Zertifikat generieren kannst, dann findest du hier eine Anleitung dazu: [Erstzugriff (SSH)](vserver-linux-ssh.md)
 
 
 

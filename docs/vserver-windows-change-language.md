@@ -23,7 +23,7 @@ During initial server configuration, you can pick between English or German serv
 
 Language packs is a useful feature built-in to Windows which allows you to easily manage localised language packs on your server.
 
-Begin by connecting to your Windows server via RDP. If you need help doing this, please refer to our [Windows RDP Connection guide](vserver-windows-userdp.md).
+Begin by connecting to your Windows server via RDP. If you need help doing this, please refer to our [Initial Access (RDP)](vserver-windows-userdp.md).
 
 Once connected, search for **Language** via the Windows search bar or by pressing the Windows key/icon and using the start menu search bar.
 

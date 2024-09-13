@@ -18,7 +18,7 @@ Die Version kann unter "Versionen" jederzeit angepasst werden oder falls die jew
 ## Verbinden via FTP
 
 Um Mods auf einen Forge-Server installieren zu können ist die Verbindung via FTP erfoderlich um die Mods hochladen zu können.
-Wie genau die FTP-Verbindung hergestellt werden kann, haben wir in dieser Anleitung beschrieben: [*Klick*](gameserver-ftpaccess.md)
+Wie genau die FTP-Verbindung hergestellt werden kann, haben wir in dieser Anleitung beschrieben: [Zugriff per FTP](gameserver-ftpaccess.md)
 
 ## Mods hochladen
 

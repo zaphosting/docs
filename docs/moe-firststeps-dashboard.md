@@ -163,7 +163,7 @@ Have you noticed that some of your changes are partially overwritten? Please be 
 
 ### Games
 
-Under **Games** you always have the possibility to change the game variant of your existing game or to install another game in general.  Games with the same slot price can be selected directly under **Available Games**. For all other games an adjustment of the slot price is required first. More information about this can be found in the [Game Change](gameserver-gameswitch.md) guide.
+Under **Games** you always have the possibility to change the game variant of your existing game or to install another game in general.  Games with the same slot price can be selected directly under **Available Games**. For all other games an adjustment of the slot price is required first. More information about this can be found in the [Change the game](gameserver-gameswitch.md) guide.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/xkkECw7o52fAMWk/preview)
 
@@ -197,7 +197,7 @@ In the **Tools** section of your navigation panel, you will find a range of sub-
 
 ### FTP-Browser
 
-Using the **FTP Browser**, you will get all the necessary information to establish a connection to the FTP access. The FTP access allows you direct access to the files of your game server. We recommend using an external FTP program such as **Filezilla** or **WinSCP** for optimal use. If you are not familiar with how to use FTP, then taking a look at the following [guide](gameserver-ftpaccess.md) may help you.
+Using the **FTP Browser**, you will get all the necessary information to establish a connection to the FTP access. The FTP access allows you direct access to the files of your game server. We recommend using an external FTP program such as **Filezilla** or **WinSCP** for optimal use. If you are not familiar with how to use FTP, then taking a look at the following [Access via FTP](gameserver-ftpaccess.md) may help you.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/sX85i9HyzR9wmAM/preview)
 

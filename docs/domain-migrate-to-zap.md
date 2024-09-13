@@ -73,7 +73,7 @@ If the domain has now been successfully transferred to us, you can begin configu
 - [Domain Records](domain-records.md)
 - [Gameserver forwarding](domain-gameserver-srv-link.md)
 - [TeamSpeak 3 forwarding](domain-teamspeak-redirect.md)
-- [Setting up Cloudflare](domain-cloudflare-setup.md)
+- [Cloudflare setup](domain-cloudflare-setup.md)
 
 ## Support
 

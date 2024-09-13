@@ -40,7 +40,7 @@ Then you are now an administrator! :)
 ## Using FTP to Become Admin
 
 Alternatively, you can assign your self admin directly through FTP.
-Firstly, you must connect using [FTP](gameserver-ftpaccess.md).
+Firstly, you must connect using [Access via FTP](gameserver-ftpaccess.md).
 
 Once you are successfully connected, you will then navigate to the following directory:
 

@@ -40,7 +40,7 @@ Die wichtigste Methode, um auf die Konfigurationsoptionen deines Servers zuzugre
 Der Server muss angehalten werden, bevor die Konfiguration bearbeitet werden kann. Wenn du die Konfiguration bearbeitest und den Server neu startest, werden alle Änderungen rückgängig gemacht.
 :::
 
-Die wichtigste Methode, um auf die Konfigurationsdatei deines Spiels zuzugreifen, ist FTP. Wenn du mit der Verwendung von FTP nicht vertraut bist, empfehlen wir dir, einen Blick in die Anleitung [FTP-Dateizugriff](gameserver-ftpaccess.md) zu werfen.
+Die wichtigste Methode, um auf die Konfigurationsdatei deines Spiels zuzugreifen, ist FTP. Wenn du mit der Verwendung von FTP nicht vertraut bist, empfehlen wir dir, einen Blick in die Anleitung [Zugriff per FTP](gameserver-ftpaccess.md) zu werfen.
 
 </TabItem>
 </Tabs>

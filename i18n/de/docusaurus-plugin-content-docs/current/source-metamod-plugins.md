@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Plugin Installation
 
-Im Folgenden wird erklärt, wie man Plugins installieren kann. Für das Nutzen von Plugins wird Sourcemod / Metamod vorausgesetzt. Eine Anleitung zur Installation findest du hier: [SM / MM installation](source-metamod-installation.md)
+Im Folgenden wird erklärt, wie man Plugins installieren kann. Für das Nutzen von Plugins wird Sourcemod / Metamod vorausgesetzt. Eine Anleitung zur Installation findest du hier: [Installation](source-metamod-installation.md)
 
 
 
