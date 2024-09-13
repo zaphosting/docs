@@ -2,7 +2,7 @@
 id: domain-transfer
 title: "Domain: Übertragung einer Domain"
 description: Informationen über den Prozess des Transfers einer bestehenden Domain bei ZAP-Hosting - ZAP-Hosting.com Dokumentation
-sidebar_label: Domain übertragen
+sidebar_label: Domain transferieren
 services:
   - domain
 ---
@@ -11,19 +11,19 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Die Verwaltung deiner Domain ist wichtig. Dazu gehört auch die Möglichkeit, deine Domain zwischen verschiedenen Anbietern zu übertragen. In diesem Leitfaden zeigen wir dir, wie du deine bestehende Domain zu und von deinem ZAP-Hosting-Konto übertragen kannst.
+Die Verwaltung deiner Domain ist wichtig. Dazu gehört auch die Möglichkeit, deine Domain zwischen verschiedenen Anbietern zu transferieren. In diesem Anleitung zeigen wir dir, wie du deine bestehende Domain zu und von deinem ZAP-Hosting-Konto transferieren kannst.
 
 <InlineVoucher />
 
-## Domain zu ZAP-Hosting übertragen
+## Domain zu ZAP-Hosting t
 
-Der Transfer einer Domain zu deinem ZAP-Hosting-Konto ist ganz einfach. Beginne damit, indem du eingeloggt auf die [Domainkonfigurator-Seite](https://zap-hosting.com/en/shop/product/domain/) gehst und nach deiner bestehenden Domain suchst.
+Der Transfer einer Domain zu deinem ZAP-Hosting-Konto ist ganz einfach. Beginne damit, indem du eingeloggt auf die [Domainkonfigurator-Seite](https://zap-hosting.com/de/shop/product/domain/) gehst und nach deiner bestehenden Domain suchst.
 
 :::info
-Um eine Domain zu übertragen, musst du sie während des Bestellvorgangs um 1 Jahr verlängern.
+Um eine Domain zu transferieren, musst du sie während des Bestellvorgangs um 1 Jahr verlängern.
 :::
 
-Wenn du die genaue Domain gefunden hast, die du übertragen möchtest, wähle sie in der Liste aus. Es ist normal, dass die Domain als nicht verfügbar angezeigt wird, aber du solltest das Transfersymbol daneben sehen.
+Wenn du die genaue Domain gefunden hast, die du transferieren möchtest, wähle sie in der Liste aus. Es ist normal, dass die Domain als nicht verfügbar angezeigt wird, aber du solltest das Transfersymbol daneben sehen.
 
 ![image](https://screensaver01.zap-hosting.com/index.php/s/omnaMqXJgarxsqW/preview)
 

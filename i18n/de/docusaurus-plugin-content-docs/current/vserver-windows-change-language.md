@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Das Windows-Betriebssystem ist in einer Vielzahl von Sprachen lokalisiert, so dass du problemlos deine Muttersprache verwenden kannst. In diesem Leitfaden stellen wir dir die Methoden vor, mit denen du die Sprache deines Windows-Servers ändern kannst.
+Das Windows-Betriebssystem ist in einer Vielzahl von Sprachen lokalisiert, so dass du problemlos deine Muttersprache verwenden kannst. In diesem Anleitung stellen wir dir die Methoden vor, mit denen du die Sprache deines Windows-Servers ändern kannst.
 
 :::info
 Bei der anfänglichen Serverkonfiguration kannst du zwischen der englischen und der deutschen Serverversion wählen, die bei der Auswahl der Betriebssystemversion durch die Tags **(EN)** und **(DE)** hervorgehoben werden.

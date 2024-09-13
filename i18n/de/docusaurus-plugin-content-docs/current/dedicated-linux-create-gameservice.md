@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Dienste sind ein fester Bestandteil von Linux und bezeichnen einen Prozess oder eine Anwendung, die im Hintergrund läuft, entweder als vordefinierte Aufgabe oder ereignisbasiert. Dies bietet verschiedene Vorteile, z. B. den automatischen Start des Servers beim Booten, automatische Server-Updates, einfache Verwaltung und Zugriff auf Logs und vieles mehr! In diesem Leitfaden erfahren wir, wie du einen Dienst für deinen dedizierten Spieleserver erstellst.
+Dienste sind ein fester Bestandteil von Linux und bezeichnen einen Prozess oder eine Anwendung, die im Hintergrund läuft, entweder als vordefinierte Aufgabe oder ereignisbasiert. Dies bietet verschiedene Vorteile, z. B. den automatischen Start des Servers beim Booten, automatische Server-Updates, einfache Verwaltung und Zugriff auf Logs und vieles mehr! In diesem Anleitung erfahren wir, wie du einen Dienst für deinen dedizierten Spieleserver erstellst.
 
 <InlineVoucher />
 
@@ -19,7 +19,7 @@ Dienste sind ein fester Bestandteil von Linux und bezeichnen einen Prozess oder 
 
 Verbinde dich zunächst über SSH mit deinem Dedicated Server. Nutze unsere Anleitung [SSH-Erstzugang](vserver-linux-ssh.md), wenn du dabei Hilfe brauchst.
 
-Du solltest auch eine unserer speziellen Anleitungen für Spieleserver in diesem Abschnitt befolgen, um einen Spieleserver auf deinem Linux-System zu installieren und einzurichten. In dieser Anleitung verwenden wir den [Palworld dedicated game server](dedicated-linux-palworld.md) als Beispiel, aber die Anweisungen können für alle unsere Anleitungen angepasst werden.
+Du solltest auch eine unserer speziellen Anleitungen für Spieleserver in diesem Abschnitt befolgen, um einen Spieleserver auf deinem Linux-System zu installieren und einzurichten. In dieser Anleitung verwenden wir den [Palworld Dedicated Gameserver](dedicated-linux-palworld.md) als Beispiel, aber die Anweisungen können für alle unsere Anleitungen angepasst werden.
 
 ## Einen Dienst erstellen
 

@@ -12,7 +12,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Betreibst du einen Maildienst auf deinem Webspace und stellst fest, dass einige E-Mails nicht erfolgreich zugestellt werden? Dann bist du hier genau richtig. Es gibt verschiedene Aspekte, die berücksichtigt werden müssen, um einen zuverlässigen E-Mail-Verkehr sicherzustellen. In diesem Leitfaden lernst du die wichtigsten Faktoren kennen, die die Zustellung von E-Mails beeinflussen, um die Zuverlässigkeit deiner E-Mails zu verbessern.
+Betreibst du einen Maildienst auf deinem Webspace und stellst fest, dass einige E-Mails nicht erfolgreich zugestellt werden? Dann bist du hier genau richtig. Es gibt verschiedene Aspekte, die berücksichtigt werden müssen, um einen zuverlässigen E-Mail-Verkehr sicherzustellen. In diesem Anleitung lernst du die wichtigsten Faktoren kennen, die die Zustellung von E-Mails beeinflussen, um die Zuverlässigkeit deiner E-Mails zu verbessern.
 
 <InlineVoucher />
 

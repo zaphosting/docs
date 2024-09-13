@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Dienste sind ein fester Bestandteil von Linux und bezeichnen einen Prozess oder eine Anwendung, die im Hintergrund läuft, entweder als vordefinierte Aufgabe oder ereignisbasiert. Dies bietet verschiedene Vorteile, z. B. den automatischen Start des Servers beim Booten, automatische Server-Updates, einfache Verwaltung und Zugriff auf Logs und vieles mehr! In diesem Leitfaden erfahren wir, wie du einen Dienst für deinen dedizierten Spieleserver erstellst.
+Dienste sind ein fester Bestandteil von Linux und bezeichnen einen Prozess oder eine Anwendung, die im Hintergrund läuft, entweder als vordefinierte Aufgabe oder ereignisbasiert. Dies bietet verschiedene Vorteile, z. B. den automatischen Start des Servers beim Booten, automatische Server-Updates, einfache Verwaltung und Zugriff auf Logs und vieles mehr! In diesem Anleitung erfahren wir, wie du einen Dienst für deinen dedizierten Spieleserver erstellst.
 
 <InlineVoucher />
 

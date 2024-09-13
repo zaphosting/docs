@@ -11,13 +11,13 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Wine ist eine Open-Source-Kompatibilitätsschicht für Linux, mit der Software, die ursprünglich für Windows entwickelt wurde, auf Linux-Systemen laufen kann. Dies ist besonders wichtig für dedizierte Spieleserver, die nur Windows-Serverdateien anbieten, und kann als Voraussetzung für unsere anderen Anleitungen zu dedizierten Linux-Spieleservern erforderlich sein. In diesem Leitfaden werden wir uns mit der erstmaligen Installation von Wine auf deinem Linux-Server beschäftigen. In den Beispielen verwenden wir Ubuntu, aber der Prozess sollte für andere Distributionen sehr ähnlich sein.
+Wine ist eine Open-Source-Kompatibilitätsschicht für Linux, mit der Software, die ursprünglich für Windows entwickelt wurde, auf Linux-Systemen laufen kann. Dies ist besonders wichtig für dedizierte Spieleserver, die nur Windows-Serverdateien anbieten, und kann als Voraussetzung für unsere anderen Anleitungen zu dedizierten Linux-Spieleservern erforderlich sein. In diesem Anleitung werden wir uns mit der erstmaligen Installation von Wine auf deinem Linux-Server beschäftigen. In den Beispielen verwenden wir Ubuntu, aber der Prozess sollte für andere Distributionen sehr ähnlich sein.
 
 <InlineVoucher />
 
 ## Vorbereitung
 
-Verbinde dich zunächst über SSH mit deinem VPS oder Root-Server. Benutze unsere Anleitung [SSH Initial Access](vserver-linux-ssh.md), wenn du Hilfe brauchst.
+Verbinde dich zunächst über SSH mit deinem VPS oder Root-Server. Benutze unsere Anleitung [SSH Erstzugriff](vserver-linux-ssh.md), wenn du Hilfe brauchst.
 
 ## Wine installieren
 

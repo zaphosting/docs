@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
  
 ## Einführung
 
-Eine unterbrochene oder fehlerhafte Internetverbindung kann verschiedene Ursachen haben, z. B. eine falsche IP-Adresse, Subnetzmaske, Gateway, DNS-Server oder Firewall-Einstellungen. In diesem Leitfaden erklären wir dir, wie du mögliche Netzwerkprobleme beheben kannst.
+Eine unterbrochene oder fehlerhafte Internetverbindung kann verschiedene Ursachen haben, z. B. eine falsche IP-Adresse, Subnetzmaske, Gateway, DNS-Server oder Firewall-Einstellungen. In diesem Anleitung erklären wir dir, wie du mögliche Netzwerkprobleme beheben kannst.
 
 <InlineVoucher />
  

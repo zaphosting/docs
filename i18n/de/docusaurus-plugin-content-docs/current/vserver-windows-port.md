@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Das Windows-Betriebssystem verfügt über eine eigene Windows Defender Firewall, die den ein- und ausgehenden Datenverkehr zwischen dem Server und dem Internet verwaltet. In diesem Leitfaden gehen wir auf die Verwaltung der Firewall-Regeln und allgemeine Tipps zur Portweiterleitung ein.
+Das Windows-Betriebssystem verfügt über eine eigene Windows Defender Firewall, die den ein- und ausgehenden Datenverkehr zwischen dem Server und dem Internet verwaltet. In diesem Anleitung gehen wir auf die Verwaltung der Firewall-Regeln und allgemeine Tipps zur Portweiterleitung ein.
 
 <InlineVoucher />
 

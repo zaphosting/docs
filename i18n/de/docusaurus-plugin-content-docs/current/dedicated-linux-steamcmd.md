@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-SteamCMD ist ein unverzichtbares Tool, das für die Installation von dedizierten Servern für eine Vielzahl von Spielen wie Palworld, Enshrouded und mehr benötigt wird. In diesem Leitfaden zeigen wir dir, wie du SteamCMD zum ersten Mal auf deinem Linux-Server installierst. In den Beispielen verwenden wir Ubuntu, aber der Prozess sollte für andere Distributionen sehr ähnlich sein.
+SteamCMD ist ein unverzichtbares Tool, das für die Installation von dedizierten Servern für eine Vielzahl von Spielen wie Palworld, Enshrouded und mehr benötigt wird. In diesem Anleitung zeigen wir dir, wie du SteamCMD zum ersten Mal auf deinem Linux-Server installierst. In den Beispielen verwenden wir Ubuntu, aber der Prozess sollte für andere Distributionen sehr ähnlich sein.
 
 <InlineVoucher />
 
