@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
-In this guide, we will explore how to connect to your V Rising server. There are two methods of connecting, either directly via the IP address of your server or through the server list. We recommend configurating the server to your likings beforehand, learn more about this through our [Server Configuration](vrising-configuration.md).
+In this guide, we will explore how to connect to your V Rising server. There are two methods of connecting, either directly via the IP address of your server or through the server list. We recommend configurating the server to your likings beforehand, learn more about this through our [Server Configuration](vrising-configuration.md) guide.
 
 <InlineVoucher />
 
@@ -23,7 +23,7 @@ Firstly, you need to know the IP and Port of your V Rising server in order to be
 
 ![image](https://screensaver01.zap-hosting.com/index.php/s/4L86LFeqL8o96kn/preview)
 
-If you are running your V Rising server as an external dedicated server, your IP will be of the host machine and the Port will be the one which you have set in your configuration file (by default this is 9876). Check out our [Server Configuration](vrising-configuration.md) for more information about the port.
+If you are running your V Rising server as an external dedicated server, your IP will be of the host machine and the Port will be the one which you have set in your configuration file (by default this is 9876). Check out our [Server Configuration](vrising-configuration.md) guide for more information about the port.
 
 ### Connecting in-game
 

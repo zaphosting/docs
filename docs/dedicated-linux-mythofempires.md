@@ -56,7 +56,7 @@ cd /home/steam/MOE-Server/MOE/Saved/Config/WindowsServer
 
 To edit a file, simply run `nano ./[filename].ini` to open the nano editor.
 
-See our [Myth of Empires Server Configuration guide](moe-configuration.md) to view all of the available server options and what they each do.
+See our Myth of Empires [Server Configuration](moe-configuration.md) guide to view all of the available server options and what they each do.
 
 ## Starting & Connecting to your server
 

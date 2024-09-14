@@ -29,7 +29,7 @@ SSH (Secure Shell) is a service that allows you to remotely access your server's
 
 By default, a password-based login is used for SSH. However, this has the major disadvantage that authentication can be bypassed relatively easily using a brute force attack, especially if you use a password that is too simple for your SSH login. So if you decide to use the password solution, please use a **secure** password.
 
-To protect your server even better against unwanted SSH access, you should enable authentication exclusively via SSH keys and deactivate the password login. Take a look at [SSH Key](vserver-linux-sshkey.md), which explains how to generate and add SSH keys.
+To protect your server even better against unwanted SSH access, you should enable authentication exclusively via SSH keys and deactivate the password login. Take a look at the [SSH Key](vserver-linux-sshkey.md) guide, which explains how to generate and add SSH keys.
 
 ## Port configuration of your services
 

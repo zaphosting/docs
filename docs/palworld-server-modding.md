@@ -23,7 +23,7 @@ Since Palworld's release, new exciting mods have begun to appear online to impro
 At present time, you can view and download available mods through 3rd party modding sites. We can recommend using sites such as [Nexus Mods](https://www.nexusmods.com/palworld/) or [Curseforge](https://www.curseforge.com/palworld/) which are reputable within the modding space. You cannot download mods through Steam Workshop at this current time.
 
 :::note
-ZAP-Hosting is not liable for any potential modifications/damage to your server files or world by installing mods. We heavily advise you to make backups before continuing. Learn more about backups through our dedicated [Manage Savegames](palworld-server-savegames.md) which explores this in further detail.
+ZAP-Hosting is not liable for any potential modifications/damage to your server files or world by installing mods. We heavily advise you to make backups before continuing. Learn more about backups through our dedicated [Manage Savegames](palworld-server-savegames.md) guide which explores this in further detail.
 :::
 
 :::info
@@ -62,7 +62,7 @@ Proceed to the mod which you wish to use, and download it locally to your device
 
 Once you have the PAK files ready to upload, head over to the **Tools->FTP-Browser** section of your game server's webinterface. 
 
-You will require an FTP Client to connect to your server. Please use our dedicated [Access via FTP](gameserver-ftpaccess.md) for this topic if you do not have an FTP Client setup or require assistance with FTP connection.
+You will require an FTP Client to connect to your server. Please use our dedicated [Access via FTP](gameserver-ftpaccess.md) guide for this topic if you do not have an FTP Client setup or require assistance with FTP connection.
 
 Within your webinterface, you can use the **Direct Connection** button. This should open the FTP program of your choice and log you in automatically. 
 
@@ -107,7 +107,7 @@ Move the mods' **.pak** files into this folder. Repeat this for any additional m
 
 ## Step 4: Launch Palworld & Connect to server
 
-You will now be able to connect to your Palworld Server and enjoy the experience with a bunch of new mods. Use our dedicated [Connect to Server](palworld-connect.md) if you require assistance with connecting to your server.
+You will now be able to connect to your Palworld Server and enjoy the experience with a bunch of new mods. Use our dedicated [Connect to Server](palworld-connect.md) guide if you require assistance with connecting to your server.
 
 Once you load in, you should be able to view differences that the mods have caused.
 

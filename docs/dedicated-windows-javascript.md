@@ -70,7 +70,7 @@ Once finished, you can simply press `Finish` on the final page and start using N
 
 ### Update Node.js to latest version
 
-Running `node -v` will show you the installed version of Node.js. From time to time, you should check that you're running the latest LTS version. To update Node.js, you need to follow the provided [install section](vserver-windows-javascript.md#installing-nodejs-runtime) again.
+Running `node -v` will show you the installed version of Node.js. From time to time, you should check that you're running the latest LTS version. To update Node.js, you need to follow the provided [Install JavaScript](dedicated-windows-javascript.md#installing-nodejs-runtime) guide section again.
 
 ### Running Node.js & npm
 

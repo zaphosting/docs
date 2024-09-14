@@ -120,7 +120,7 @@ You must create new rules for your Ark: Survival Ascended server. To do this, cl
 - UDP incoming and outgoing: 27015
 - UDP incoming and outgoing: 7777-7778
 
-Please use our [Port Forwarding (Firewall)](vserver-windows-port.md) if you need further assistance doing this.
+Please use our [Port Forwarding (Firewall)](vserver-windows-port.md) guide if you need further assistance doing this.
 
 </TabItem>
 </Tabs>

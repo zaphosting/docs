@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Activate whitelist
 
-The whitelist in Unturned allows you to protect your server by only allowing selected players who are on the list to connect to the server. Activating the whitelist is done in the game via command. This requires **owner permissions**. If you don't know what this is and how to assign them then check out the following guide: [Unturned - Admin]: [Become admin](unturned-becomeadmin.md)
+The whitelist in Unturned allows you to protect your server by only allowing selected players who are on the list to connect to the server. Activating the whitelist is done in the game via command. This requires **owner permissions**. If you don't know what this is and how to assign them then check out the following guide: [Become admin](unturned-becomeadmin.md)
 
 If you followed the guide and successfully became an admin, then you can now activate the whitelist on your server. To do this, open the chat/console in game on your server. There you have to execute the following command:
 

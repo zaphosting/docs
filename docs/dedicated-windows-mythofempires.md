@@ -105,7 +105,7 @@ You must create new rules for your MOE server. To do this, click on the incoming
 - TCP incoming and outgoing: 11888, 12888
 - UDP incoming and outgoing: 11888, 12888
 
-Please use our [Port Forwarding (Firewall)](vserver-windows-port.md) if you need further assistance doing this.
+Please use our [Port Forwarding (Firewall)](vserver-windows-port.md) guide if you need further assistance doing this.
 
 </TabItem>
 </Tabs>

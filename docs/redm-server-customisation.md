@@ -125,7 +125,7 @@ sets gametype "Freeroam"
 
 #### Language
 
-Finally, you can change the language of your server which is displayed on your server's server list page. We have a dedicated page for setting localisation which you can view here: [Language / location (flag)](redm-locale.md).
+Finally, you can change the language of your server which is displayed on your server's server list page. We have a dedicated guide for setting localisation which you can view here: [Language / location (flag)](redm-locale.md).
 
 This can be done through your game server's webinterface, or by setting a tag:
 ```

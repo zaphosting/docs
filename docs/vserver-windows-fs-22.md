@@ -85,7 +85,7 @@ The further configuration is self-explanatory in the web interface and can be do
 ## Step 5 Unlock ports in the firewall
 
 The server should of course be publicly accessible to play with friends. For this purpose, the ports of the server must be enabled in the Windows firewall. The ports 10823 and 8080 must be released for the protocol TCP. 10823 is the game server port and 8080 is the webport for the webinterface, the webport has to be released only if needed, an administration can still be done only locally on the Windows server via RDP. 
-How to enable ports on Windows, [Port Forwarding (Firewall)](vserver-windows-port.md). 
+How to enable ports on Windows: [Port Forwarding (Firewall)](vserver-windows-port.md). 
 
 After the port release the server is publicly accessible, if it was started. 
 

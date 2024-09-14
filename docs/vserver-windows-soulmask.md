@@ -91,7 +91,7 @@ You must create new rules for your Soulmask server. To do this, click on the inc
 - TCP incoming and outgoing: 8777, 27015
 - UDP incoming and outgoing: 8777, 27015
 
-Please use our [Port Forwarding (Firewall)](vserver-windows-port.md) if you need further assistance doing this.
+Please use our [Port Forwarding (Firewall)](vserver-windows-port.md) guide if you need further assistance doing this.
 
 </TabItem>
 </Tabs>

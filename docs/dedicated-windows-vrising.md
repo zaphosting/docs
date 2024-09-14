@@ -116,6 +116,6 @@ If the ports were forwarded correctly in the next step, you can find the Server 
 ## Step 5 Unlock ports in the firewall
 
 The server should of course be publicly accessible to play with friends. For this purpose, the ports of the server must be enabled in the Windows firewall. The ports 9876 and 9877 must be released for the protocol TCP AND UDP. 9876 is the game server port and 9877  is the Query Port.
-How to enable ports on Windows, [Port Forwarding (Firewall)](vserver-windows-port.md). 
+How to enable ports on Windows: [Port Forwarding (Firewall)](vserver-windows-port.md). 
 
 After the port release the server is publicly accessible, if it was started. 

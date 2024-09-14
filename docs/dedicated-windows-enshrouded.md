@@ -92,7 +92,7 @@ You must create new rules for your Enshrouded server. To do this, click on the i
 - TCP incoming and outgoing: 15636-15637
 - UDP incoming and outgoing: 15636-15637
 
-Please use our [Port Forwarding (Firewall)](vserver-windows-port.md) if you need further assistance doing this.
+Please use our [Port Forwarding (Firewall)](vserver-windows-port.md) guide if you need further assistance doing this.
 
 </TabItem>
 </Tabs>
@@ -100,7 +100,7 @@ Please use our [Port Forwarding (Firewall)](vserver-windows-port.md) if you need
 Once you have added these rules, your server will now be accessible which means you will be able to connect to it through your server's IP address. You can do this by selecting your character in the main menu, heading over to the **Find Games** tab and pressing **Add Server**. Here, input your Server IP alongside the Port (15636 by default) and your server password (if set, otherwise leave empty).
 
 :::tip
-Check out our [Server Configuration](enshrouded-configuration.md) if you wish to enable a password for your server and adjust settings.
+Check out our [Server Configuration](enshrouded-configuration.md) guide if you wish to enable a password for your server and adjust settings.
 :::
 
 We recommend that you configure your server settings first through the following section before accessing your server.
@@ -114,7 +114,7 @@ Firstly, navigate to the following directory:
 ..EnshroudedServer/ (root directory)
 ```
 
-You will be able to find the **enshrouded_server.json** configuration file. Through this file, you can configure a few parameters for your server. See our [Server Configuration](enshrouded-configuration.md) to view all of the available server options and what they each do.
+You will be able to find the **enshrouded_server.json** configuration file. Through this file, you can configure a few parameters for your server. See our [Server Configuration](enshrouded-configuration.md) guide to view all of the available server options and what they each do.
 
 ## Starting & Connecting to your server
 

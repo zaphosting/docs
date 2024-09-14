@@ -96,7 +96,7 @@ cluster_key = deinclusterkey
 
 If all configs have been set correctly, a new world must be generated for the slave server. A new file is required so that the caves are created correctly.
 
-Use this [Access via FTP](gameserver-ftpaccess.md) guide to navigate to the slave server in the directory: */starve/Save/Cluster_1/Master/*
+Use the [Access via FTP](gameserver-ftpaccess.md) guide to navigate to the slave server in the directory: */starve/Save/Cluster_1/Master/*
 A new file with the name  "*worldgenoverwrite.lua*" is now created in this directory.
 This file is filled with the following content.
 

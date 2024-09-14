@@ -49,7 +49,7 @@ During participation in our ZAP-Hosting Contribution Program, you must abide by 
 - No unauthorized use of AI/generative tools and/or other pieces of intellectual property is allowed (this includes but is not limited to images, audiovisual media, written content and/or any other piece of intellectual property not specifically stated here, without explicit permission from the rightsholders).
 - All game content and trademarks are the property of their respective owners. All content on this site is the property of ZAP-Hosting GmbH.
 
-Our full Terms & Conditions for our Contribution Program can be [Contribution Terms](contribution-terms.md).
+Our full Terms & Conditions for our Contribution Program can be found in our [Contribution Terms](contribution-terms.md).
 
 ## Provision of Temporary Services
 

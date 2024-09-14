@@ -26,7 +26,7 @@ Backing up your entire game server or gamesaves is very easy. Head over to the S
 
 ![Screenshot 2023-02-21 192618](https://screensaver01.zap-hosting.com/index.php/s/sMA9kQxoLoozsPa/preview)
 
-On this page you can perform a wide range of functions, including automatic backups which is further explained [Backups](gameserver-backups.md). Here we will focus on a manual backup.
+On this page you can perform a wide range of functions, including automatic backups which is further explained in [Backups](gameserver-backups.md). Here we will focus on a manual backup.
 
 At the top of the page, simply press the green + icon and accept the prompt to perform a backup of the entire game server to your ZAP backup storage.
 

@@ -56,7 +56,7 @@ On top of this, there may be other mods that don't function as expected when att
 
 ## Uploading Mods
 
-Now that you have mods ready, you can begin by connecting to your gameserver via FTP. Read our [Access via FTP](gameserver-ftpaccess.md) to learn how to do this.
+Now that you have mods ready, you can begin by connecting to your gameserver via FTP. Read our [Access via FTP](gameserver-ftpaccess.md) guide to learn how to do this.
 
 With your FTP client now ready, navigate to the following directory:
 ```

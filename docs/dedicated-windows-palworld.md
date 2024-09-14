@@ -93,7 +93,7 @@ You must create new rules for your Palworld server. To do this, click on the inc
 - TCP incoming and outgoing: 8211
 - UDP incoming and outgoing: 8211
 
-Please use our [Port Forwarding (Firewall)](vserver-windows-port.md) if you need further assistance doing this.
+Please use our [Port Forwarding (Firewall)](vserver-windows-port.md) guide if you need further assistance doing this.
 
 </TabItem>
 </Tabs>
@@ -143,7 +143,7 @@ On Xbox consoles, you cannot connect directly via the IP Address therefore if yo
 
 You can do this by creating a new `StartServer.bat` file in the root directory and populating it with: `PalServer.exe -publiclobby`. The special `-publiclobby` start up flag enables Community Server mode making it accessible in the server list.
 
-You should also set a server name that can be easily found, view our [Server Configuration](palworld-configuration.md) on how to do this.
+You should also set a server name that can be easily found, view our [Server Configuration](palworld-configuration.md) guide on how to do this.
 :::
 
 ## Starting & Connecting to your server

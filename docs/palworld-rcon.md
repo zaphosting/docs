@@ -95,7 +95,7 @@ Ensure that you are entering the RCON Port you viewed in the configuration file 
 If the connection is successful, you will now be able to send commands to your Palworld sever through the RCON Console program that you chose.
 
 :::tip
-Check out our [Server Commands](palworld-server-commands.md) to view all the currently available commands that you can run through RCON.
+Check out our [Server Commands](palworld-server-commands.md) guide to view all the currently available commands that you can run through RCON.
 :::
 
 You have successfully enabled RCON on your Palworld server.

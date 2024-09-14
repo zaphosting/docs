@@ -12,7 +12,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ##Introduction
-In this guide, we will look at configurating your server with an admin password and adding yourself as an admin in-game. This password can be shared with trusted players to grant a range of admin commands. You can learn more about these server commands through our [Server Commands](palworld-server-commands.md).
+In this guide, we will look at configurating your server with an admin password and adding yourself as an admin in-game. This password can be shared with trusted players to grant a range of admin commands. You can learn more about these server commands through our [Server Commands](palworld-server-commands.md) guide.
 <YouTube videoId="SDZC4-FEdNM" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/ramgExKNxeLeDdL/preview" title="Setup Palworld server in just a MINUTE!" description="Feel like you understand better when you see things in action? We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
 
 <InlineVoucher />
@@ -78,7 +78,7 @@ The final method of accessing the raw file, is through FTP. If you are not famil
 
 ## Setting yourself as admin
 
-Once your admin password is set, you will have to add yourself as admin. Launch Palworld and connect to your server. If you need help doing this, please have a look at our [Connect to Server](palworld-connect.md).
+Once your admin password is set, you will have to add yourself as admin. Launch Palworld and connect to your server. If you need help doing this, please have a look at our [Connect to Server](palworld-connect.md) guide.
 
 In-game, open the chat using `Enter`. Next, input the following command, replacing `[password]` wihh the admin password that you have set previously:
 

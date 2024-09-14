@@ -115,7 +115,7 @@ server_name=ZAP-Hosting Docs Test
 server_max_players=10
 ```
 
-See our [Server Configuration](foundry-configuration.md) to view all of the available options and what they each do.
+See our [Server Configuration](foundry-configuration.md) guide to view all of the available options and what they each do.
 
 ## Starting & Connecting to your server
 
@@ -123,6 +123,6 @@ Now it is time to start your server. Head over to the root directory and run **F
 
 You will now be able to direct connect to your server via your IP by heading to **Multiplayer->IP Direct Connect** and inputting your server's IP address and 3724 port, which is the default and the one you have port forwarded.
 
-If you wish your server to be available in the server list, please check out our [Server Configuration](foundry-configuration.md) and add the appropriate `server_name` and `server_is_public` parameters into your configuration file. Save the file once done and run the server executable again.
+If you wish your server to be available in the server list, please check out our [Server Configuration](foundry-configuration.md) guide and add the appropriate `server_name` and `server_is_public` parameters into your configuration file. Save the file once done and run the server executable again.
 
 You have successfully installed Foundry on your Windows Dedicated Server.

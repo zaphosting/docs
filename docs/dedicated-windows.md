@@ -34,7 +34,7 @@ If you are not familiar with mounting an ISO file yet, it's best to refer to our
 
 
 ## Installation
-To install a Windows Server, you'll need to have an ISO File of your decision, you could choose in our webinterface the desired version of Windows. Alternatively, you could choose an own ISO File, we have a [Own ISO](dedicated-iso.md) for that.
+To install a Windows Server, you'll need to have an ISO File of your decision, you could choose in our webinterface the desired version of Windows. Alternatively, you could choose an own ISO File, we have a [Own ISO](dedicated-iso.md) guide for that.
 
 ![image](https://screensaver01.zap-hosting.com/index.php/s/DDNsa9zjbXng9Z6/preview)
 

@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
-In this guide, we will explore how to connect to your Foundry server. There are two methods of connecting, either directly via the IP address of your server or through the server list. We recommend configurating the server to your likings beforehand, learn more about this through our [Server Configuration](foundry-configuration.md).
+In this guide, we will explore how to connect to your Foundry server. There are two methods of connecting, either directly via the IP address of your server or through the server list. We recommend configurating the server to your likings beforehand, learn more about this through our [Server Configuration](foundry-configuration.md) guide.
 
 <InlineVoucher />
 

@@ -31,7 +31,7 @@ If you are an Xbox or Playstation player, you will not be able to download offic
 There are two snapshots that were made, the first is from August 25th, 2023 and the second is from September 30th, 2023. For either, you must find your server and download your save file.
 
 :::note
-The use of your own official backup save is only possible with the **ARK - SE (Official backupsave compatible)** game server variant. If you use a different version for your server, you can change the version under **games** section on your game server's webinterface accordingly or using our [Change the game](gameserver-gameswitch.md).
+The use of your own official backup save is only possible with the **ARK - SE (Official backupsave compatible)** game server variant. If you use a different version for your server, you can change the version under **games** section on your game server's webinterface accordingly or using our [Change the game](gameserver-gameswitch.md) guide.
 
 ![image](https://github.com/zaphosting/docs/assets/42719082/8f2ac8fa-2b23-4738-8d95-87c289e9d98a)
 :::

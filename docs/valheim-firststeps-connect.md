@@ -25,7 +25,7 @@ First of all, it is necessary to clarify which prerequisites have to be met so t
 
 ### Game / Contents
 
-For the connection to your game server, it is mandatory that you already own the game. This is not provided by us when renting a server. It is also relevant which version of the game is used. The standard Valheim version does not require any additional content. However, if you have ordered a **Valheim Plus** or Valheim BepInEX server, then you will also need the client-side modification. We also offer a guide for the installation:  [Valheim Plus](valheim-plus.md)
+For the connection to your game server, it is mandatory that you already own the game. This is not provided by us when renting a server. It is also relevant which version of the game is used. The standard Valheim version does not require any additional content. However, if you have ordered a **Valheim Plus** or Valheim BepInEX server, then you will also need the client-side modification. We also offer a guide for the installation: [Valheim Plus](valheim-plus.md)
 
 
 

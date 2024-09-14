@@ -91,7 +91,7 @@ You must create new rules for your Soulmask server. To do this, click on the inc
 - TCP incoming and outgoing: 8777, 27015
 - UDP incoming and outgoing: 8777, 27015
 
-Please use our [Port Forwarding (Firewall)](vserver-windows-port.md) if you need further assistance doing this.
+Please use our [Port Forwarding (Firewall)](vserver-windows-port.md) guide if you need further assistance doing this.
 
 </TabItem>
 </Tabs>
@@ -104,7 +104,7 @@ We recommend that you configure your server settings first through the following
 
 By this stage, you have finished the setup for your Soulmask server. You can perform further server configuration by adjusting the parameters within your **StartServer.bat** file found in the root directory and through the **GameUserSettings.ini** file found under the `../WS/Saved/Config/WindowsServer` path.
 
-See our [Server Configuration](soulmask-configuration.md) to view all of the available parameters and configuration options for your Soulmask server.
+See our [Server Configuration](soulmask-configuration.md) guide to view all of the available parameters and configuration options for your Soulmask server.
 
 ## Starting & Connecting to your server
 
@@ -118,6 +118,6 @@ There is a common issue with related to Steam online service failing to start on
 
 You will now be able to direct connect to your server via your IP by inputting your server's IP address and 8777 port within the in-game multiplayer menu.
 
-If you wish your server to be available in the server list, please check out our [Server Configuration](soulmask-configuration.md) and add the appropriate `-SteamServerName` parameter into your **StartServer.bat** file. Save the file once done and run the batch file again.
+If you wish your server to be available in the server list, please check out our [Server Configuration](soulmask-configuration.md) guide and add the appropriate `-SteamServerName` parameter into your **StartServer.bat** file. Save the file once done and run the batch file again.
 
 You have successfully installed Soulmask on your Windows Dedicated Server.
