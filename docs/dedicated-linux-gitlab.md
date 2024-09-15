@@ -14,7 +14,6 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 GitLab is a comprehensive DevOps platform that enables teams to collaborate on code, automate workflows, and manage the full software development lifecycle efficiently. In this guide, we will explore the process of installing GitLab on a Linux server.
 
 ![image](https://i.imgur.com/FbG1qx9.png)
-![image](https://i.imgur.com/bhlojF4.png)
 
 <InlineVoucher />
 
@@ -46,7 +45,7 @@ For the most accurate and up-to-date specification information, please refer to 
 
 ## Preparation
 
-A connection has to be established via a SSH client in order to install GitLab on your Linux server. Please view our [Initial access (SSH)](https://zap-hosting.com/guides/docs/vserver-linux-ssh) guide to learn more about this.
+A connection has to be established via a SSH client in order to install GitLab on your Linux server. Please view our [Initial access (SSH)](vserver-linux-ssh.md) guide to learn more about this.
 
 Once the connection is established, you can begin to install the necessary packages that are required for the actual installation of GitLab.
 
@@ -244,7 +243,6 @@ https://[your_domain] OR http://[your_ip_address]
 On initial entry of the web interface, you will be prompted with a login page.
 
 ![image](https://i.imgur.com/ekpj6ZS.png)
-![image](https://i.imgur.com/5s9aae6.png)
 
 To get the admin access at your first login, login as an root user by using `root` as the username.
 
@@ -273,7 +271,6 @@ Password: `[YOUR_PASSWORD_IS_HERE]`
 Input the username and password on the login page to enter your GitLab dashboard for the first time. You should now be able to access your GitLab panel on your very own Linux server.
 
 ![image](https://i.imgur.com/v43r2MT.png)
-![image](https://i.imgur.com/4WWLDib.png)
 
 We highly recommend creating a new user and/or changing the password for your `root` user. This can be all done by accessing **Admin** in the bottom-left corner and selecting **Overview->Users**. On this page, you will be able to manage users for your GitLab instance.
 
