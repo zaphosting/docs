@@ -1,10 +1,10 @@
 ---
-id: vserver-linux-gitlab
-title: "VPS: Installation of GitLab"
-description: Information on how to set up GitLab on your Linux Server from ZAP-Hosting - ZAP-Hosting.com documentation
+id: dedicated-linux-gitlab
+title: "Dedicated Server: Installation of GitLab"
+description: Information on how to set up GitLab on your Linux Dedicated Server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Install GitLab
 services:
-  - vserver
+  - dedicated
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
