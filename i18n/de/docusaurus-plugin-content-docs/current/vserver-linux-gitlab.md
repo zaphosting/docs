@@ -1,7 +1,7 @@
 ---
 id: vserver-linux-gitlab
-title: "VPS: Installation von GitLab"
-description: Informationen zur Einrichtung von GitLab auf Ihrem Linux-Server von ZAP-Hosting - ZAP-Hosting.com-Dokumentation
+title: "vServer: Installation von GitLab"
+description: Informationen zur Einrichtung von GitLab auf deinem Linux-Server von ZAP-Hosting - ZAP-Hosting.com-Dokumentation
 sidebar_label: Installiere GitLab
 services:
   - vserver
@@ -11,9 +11,9 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-GitLab ist eine umfassende DevOps-Plattform, die es Teams ermöglicht, gemeinsam an Code zu arbeiten, Arbeitsabläufe zu automatisieren und den gesamten Softwareentwicklungszyklus effizient zu verwalten. In diesem Leitfaden werden wir den Prozess der Installation von GitLab auf einem Linux-Server untersuchen.
+GitLab ist eine umfassende DevOps-Plattform, die es Teams ermöglicht, gemeinsam an Code zu arbeiten, Arbeitsabläufe zu automatisieren und den gesamten Softwareentwicklungszyklus effizient zu verwalten. In dieser Anleitung wird die Installation von GitLab auf einem Linux-Server erläutert.
 
-![image](https://i.imgur.com/bhlojF4.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/CnL5ab23Kp62LdC/preview)
 
 <InlineVoucher />
 
@@ -45,11 +45,11 @@ Die genauesten und aktuellsten Spezifikationsinformationen findest du in der off
 
 ## Vorbereitung
 
-Um GitLab auf deinem Linux-Server zu installieren, muss eine Verbindung über einen SSH-Client hergestellt werden. Weitere Informationen hierzu findest du in unserem Leitfaden [Initial access (SSH)](https://zap-hosting.com/guides/docs/vserver-linux-ssh).
+Um GitLab auf deinem Linux-Server zu installieren, muss eine Verbindung über einen SSH-Client hergestellt werden. Weitere Informationen hierzu findest du in unserer Anleitung [Erstzugriff (SSH)](https://zap-hosting.com/guides/de/docs/vserver-linux-ssh).
 
 Sobald die Verbindung hergestellt ist, kannst du mit der Installation der erforderlichen Pakete beginnen, die für die eigentliche Installation von GitLab benötigt werden.
 
-Schritt 1: Linux-Server aktualisieren
+## Schritt 1: Linux-Server aktualisieren
 
 Vor der Installation von Abhängigkeiten müssen einige Updates und Tools installiert werden, um die Abhängigkeiten zu installieren, die für die Installation von GitLab verwendet werden.
 
@@ -87,7 +87,7 @@ Du kannst auch Postfix (STMP-Server) installieren, wenn du E-Mail-Benachrichtigu
 Wenn du E-Mail-Benachrichtigungen verwenden möchtest, lade Postfix herunter, indem du den folgenden Befehl ausführst.
 ```
 sudo apt-get install -y postfix
-
+```
 </TabItem>
 
 <TabItem value="debian" label="Debian">
@@ -120,6 +120,7 @@ Als Nächstes stelle sicher, dass der OpenSSH-Daemon über die folgenden Befehle
 sudo systemctl status sshd
 sudo systemctl enable sshd
 sudo systemctl start sshd
+```
 
 Du solltest sicherstellen, dass die Firewall den erforderlichen Zugriff ermöglicht.
 ```
@@ -145,7 +146,7 @@ Während der Installation von Postfix wird möglicherweise eine Konfiguration an
 
 Wenn du eine andere Lösung zum Senden von E-Mails verwenden möchtest, überspringe bitte diesen Schritt und [konfiguriere einen externen SMTP-Server](https://docs.gitlab.com/omnibus/settings/smtp), nachdem GitLab auf deinem Linux-Server installiert wurde, indem du einer Anleitung des offiziellen GitLab-Teams folgst.
 :::
- 
+
 ## Schritt 3: GitLab installieren
 
 Nachdem du alle erforderlichen Abhängigkeiten heruntergeladen und installiert hast, kannst du nun GitLab installieren.
@@ -191,7 +192,7 @@ Als Nächstes suche nach der Zeile `external_url` und gib entweder deine Domain 
 ##! https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instancedata-data-retrieval.html
 external_url 'http`s`://`Your domain / IPv4 address of your Linux server`'
 ```
- 
+
 Zusätzlich empfehlen wir, deine E-Mail-Adresse in die Zeile `letsencrypt['contact_emails']` einzugeben. Dadurch kann Let's Encrypt dir Benachrichtigungen senden und dich bezüglich der automatischen und kostenlosen SSL-Zertifikate kontaktieren.
 
 :::note
@@ -240,7 +241,7 @@ https://[deine_domain] OR http://[deine_ip_address]
 
 Beim ersten Aufrufen der Webschnittstelle wird eine Anmeldeseite angezeigt.
 
-![image](https://i.imgur.com/5s9aae6.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/2RKCzYXidfA8SnM/preview)
 
 Um bei der ersten Anmeldung Administratorzugriff zu erhalten, melde dich als Root-Benutzer an, indem du `root` als Benutzernamen verwendest.
 
@@ -268,7 +269,7 @@ Password: `[YOUR_PASSWORD_IS_HERE]`
 
 Gib den Benutzernamen und das Passwort auf der Anmeldeseite ein, um dein GitLab-Dashboard zum ersten Mal aufzurufen. Du solltest nun in der Lage sein, auf dein GitLab-Panel auf deinem eigenen Linux-Server zuzugreifen.
 
-![image](https://i.imgur.com/4WWLDib.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/QbkNcp4Kd3Eeon2/preview)
 
 Wir empfehlen dringend, einen neuen Benutzer anzulegen und/oder das Passwort für deinen `root`-Benutzer zu ändern. Dies kann alles über den Zugriff auf **Admin** in der linken unteren Ecke und die Auswahl von **Übersicht->Benutzer** erfolgen. Auf dieser Seite kannst du die Benutzer für deine GitLab-Instanz verwalten.
 
