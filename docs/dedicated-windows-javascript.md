@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
-This guide provides steps for the installation of Node.js, Deno and Bun on Windows. The steps provided below must be executed via RDP, if you don't know how to connect to your server via RDP, please have a look at our [Initial access (RDP)](vserver-windows-userdp.md) guide.
+This guide provides steps for the installation of Node.js, Deno and Bun on Windows. The steps provided below must be executed via RDP, if you don't know how to connect to your server via RDP, please have a look at our [Initial Access (RDP)](vserver-windows-userdp.md) guide.
 
 <InlineVoucher />
 
@@ -70,7 +70,7 @@ Once finished, you can simply press `Finish` on the final page and start using N
 
 ### Update Node.js to latest version
 
-Running `node -v` will show you the installed version of Node.js. From time to time, you should check that you're running the latest LTS version. To update Node.js, you need to follow the provided [install section](vserver-windows-javascript.md#installing-nodejs-runtime) again.
+Running `node -v` will show you the installed version of Node.js. From time to time, you should check that you're running the latest LTS version. To update Node.js, you need to follow the provided [Install JavaScript](dedicated-windows-javascript.md#installing-nodejs-runtime) guide section again.
 
 ### Running Node.js & npm
 

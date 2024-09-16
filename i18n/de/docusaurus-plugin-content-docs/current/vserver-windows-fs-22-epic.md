@@ -153,7 +153,7 @@ Du musst neue Regeln für deinen Farming Simulator 22 Server erstellen. Um dies 
 - TCP eingehend und ausgehend: 3724, 27015 
 - UDP eingehend und ausgehend: 3724, 27015 
 
-Bitte verwende unsere [Anleitung zur Portweiterleitung unter Windows](vserver-windows-port.md), wenn du weitere Hilfe dabei benötigst.
+Bitte verwende unsere [Portweiterleitung (Firewall)](vserver-windows-port.md) Anleitung, wenn du weitere Hilfe dabei benötigst.
 
 </TabItem>
 </Tabs>

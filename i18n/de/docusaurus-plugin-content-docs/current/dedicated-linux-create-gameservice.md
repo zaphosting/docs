@@ -17,9 +17,9 @@ Dienste sind ein fester Bestandteil von Linux und bezeichnen einen Prozess oder 
 
 ## Vorbereitung
 
-Verbinde dich zunächst über SSH mit deinem Dedicated Server. Nutze unsere Anleitung [SSH-Erstzugang](vserver-linux-ssh.md), wenn du dabei Hilfe brauchst.
+Verbinde dich zunächst über SSH mit deinem Dedicated Server. Nutze unsere Anleitung [Erstzugriff (SSH)](vserver-linux-ssh.md), wenn du dabei Hilfe benötigst.
 
-Du solltest auch eine unserer speziellen Anleitungen für Spieleserver in diesem Abschnitt befolgen, um einen Spieleserver auf deinem Linux-System zu installieren und einzurichten. In dieser Anleitung verwenden wir den [Palworld Dedicated Gameserver](dedicated-linux-palworld.md) als Beispiel, aber die Anweisungen können für alle unsere Anleitungen angepasst werden.
+Du solltest auch eine unserer speziellen Anleitungen für Spieleserver in diesem Abschnitt befolgen, um einen Spieleserver auf deinem Linux-System zu installieren und einzurichten. In dieser Anleitung verwenden wir den [Palworld](dedicated-linux-palworld.md) Dedicated Server als Beispiel, aber die Anweisungen können für alle unsere Anleitungen angepasst werden.
 
 ## Einen Dienst erstellen
 

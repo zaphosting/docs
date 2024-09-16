@@ -101,7 +101,7 @@ cluster_key = deinclusterkey
 Insofern alle Configs korrekt eingestellt wurden, muss für den Slave Server eine neue Welt generiert werden.
 Damit die Höhlen auch korrekt erstellt werden, wird eine neue Datei benötigt.
 
-Navigiere mithilfe dieser [FTP-Verbindung](gameserver-ftpaccess.md) Anleitung bei dem Slave Server in das Verzeichnis: */starve/Save/Cluster_1/Master/*
+Navigiere mithilfe dieser [Zugriff per FTP](gameserver-ftpaccess.md) Anleitung bei dem Slave Server in das Verzeichnis: */starve/Save/Cluster_1/Master/*
 In diesem Verzeichnis wird nun eine neue Datei mit dem Namen "*worldgenoverwrite.lua*" angelegt.
 Diese Datei wird mit folgendem Inhalt gefüllt.
 

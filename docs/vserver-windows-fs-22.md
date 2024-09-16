@@ -33,7 +33,7 @@ Important: In the mail you will find the GameKey which is needed for the downloa
 
 ## Step 2 Download Farming Simulator directly to your Windows server
 
-Connect via [RDP](vserver-windows-userdp.md) to your Windows server. After you are connected, open the browser and go to the [link](https://eshop.giants-software.com/downloads.php) from the mail again. Then enter your GameKey and select the download for Windows8/10. 
+Connect via [Initial Access (RDP)](vserver-windows-userdp.md) to your Windows server. After you are connected, open the browser and go to the [link](https://eshop.giants-software.com/downloads.php) from the mail again. Then enter your GameKey and select the download for Windows8/10. 
 
 ![image](https://screensaver01.zap-hosting.com/index.php/s/JwMzAXbMx64CybQ/preview)
 
@@ -85,7 +85,7 @@ The further configuration is self-explanatory in the web interface and can be do
 ## Step 5 Unlock ports in the firewall
 
 The server should of course be publicly accessible to play with friends. For this purpose, the ports of the server must be enabled in the Windows firewall. The ports 10823 and 8080 must be released for the protocol TCP. 10823 is the game server port and 8080 is the webport for the webinterface, the webport has to be released only if needed, an administration can still be done only locally on the Windows server via RDP. 
-How to enable ports on Windows, [we explain in this guide](vserver-windows-port.md). 
+How to enable ports on Windows: [Port Forwarding (Firewall)](vserver-windows-port.md). 
 
 After the port release the server is publicly accessible, if it was started. 
 

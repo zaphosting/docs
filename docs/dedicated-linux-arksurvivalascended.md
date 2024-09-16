@@ -55,7 +55,7 @@ You will be able to adjust all configuration parameters by accessing and editing
 nano /home/steam/ARK-SA-Server/ShooterGame/Saved/Config/WindowsServer/GameUserSettings.ini
 ```
 
-See our [ARK: Survival Ascended Server Configuration guide](ark-configuration.md) to view all of the available options and what they each do.
+See our [ARK: Survival Ascended Server Configuration guide](ark-configuration.md) guide to view all of the available options and what they each do.
 
 ## Starting & Connecting to your server
 

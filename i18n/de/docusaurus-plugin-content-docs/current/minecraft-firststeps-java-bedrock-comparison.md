@@ -54,7 +54,7 @@ Möchtest du eine rund um die Uhr geöffnete Welt haben, in der du und andere sp
 
 Beim ersten Start des Spiels ist es üblich, dass die Spieler ihre Skins bearbeiten. Diese können mit Online-Tools selbst erstellt oder im [Minecraft Marketplace] (https://www.minecraft.net/en-us/marketplace) (*Minecraft Bedrock Edition's* In-Game Store) mit Minecoins (einer virtuellen Währung, die man kaufen kann) gekauft werden. Für *Java* kannst du eine Reihe von kostenlosen Websites mit Skins finden oder deine eigenen entwerfen und sie über den **Minecraft Launcher** in dein *Java*-Edition-Konto hochladen, und zwar über die Registerkarte "Skins" oder du kannst einen der Standard-Skins aus diesem Bereich verwenden.
 
-*Java* ist offener für Modding und hat eine Reihe verschiedener "Launcher" (z.B. [Forge](https://files.minecraftforge.net/net/minecraftforge/forge/) & [Fabric](https://fabricmc.net/use/installer/)), die es ermöglichen, dass einige interessante neue Inhalte und Mods von der Community hinzugefügt und gepflegt werden können. Für weitere Einblicke in das umfangreiche Feld der *Java*-Edition Modding, schau dir unsere [installing mods and modpack](minecraft-forge-fabric-add-mods-modpacks.md) Anleitung an, die dies gut abdeckt.
+*Java* ist offener für Modding und hat eine Reihe verschiedener "Launcher" (z.B. [Forge](https://files.minecraftforge.net/net/minecraftforge/forge/) & [Fabric](https://fabricmc.net/use/installer/)), die es ermöglichen, dass einige interessante neue Inhalte und Mods von der Community hinzugefügt und gepflegt werden können. Für weitere Einblicke in das umfangreiche Feld der *Java*-Edition Modding, schau dir unsere [Installation von Mods / Modpacks](minecraft-forge-fabric-add-mods-modpacks.md) Anleitung an, die dies gut abdeckt.
 
 *Bedrock* bietet eine Möglichkeit zur einfacheren Installation von benutzerdefinierten Karten, Texturpaketen und Spielmodi direkt über den [store](https://www.minecraft.net/en-us/catalog).
 
@@ -62,4 +62,4 @@ Beim ersten Start des Spiels ist es üblich, dass die Spieler ihre Skins bearbei
 
 ## Fazit
 
-Wir hoffen, diese Anleitung hat dir geholfen, mehr über dieses wunderbare Spiel zu erfahren und zu entscheiden, mit welcher Version du die riesige offene Welt erkunden wirst. Falls du noch unschlüssig bist, für welche Version du dich entscheiden sollst, kannst du mit unserem [fantastischen gameservercloud game switcher](gameserver-gameswitch.md) schnell und einfach zwischen den beiden Versionen auf deinem Gameserver wechseln und beide ausprobieren!
+Wir hoffen, diese Anleitung hat dir geholfen, mehr über dieses wunderbare Spiel zu erfahren und zu entscheiden, mit welcher Version du die riesige offene Welt erkunden wirst. Falls du noch unschlüssig bist, für welche Version du dich entscheiden sollst, kannst du mit unserem [Spielwechsel](gameserver-gameswitch.md) schnell und einfach zwischen den beiden Versionen auf deinem Gameserver wechseln und beide ausprobieren!

@@ -81,4 +81,4 @@ Es gibt zwei verschiedene Rabattcodes:
 
 Wir lieben es, unserer ZAP-Community etwas zurückzugeben. Deshalb gibt es viele Möglichkeiten, Rabatte und Werbegeschenke zu erhalten, darunter Geld für deine cashbox, gelegentliche kostenlose Server und mehr!
 
-Um mehr zu erfahren, empfehlen wir dir, unsere großartige [ZAP-Hosting Community Info](community-info.md) Anleitung zu lesen, in dem die vielen Möglichkeiten beschrieben werden, wie du Gutscheincodes und Werbegeschenke über unsere verschiedenen sozialen Plattformen erhalten kannst (und sogar durch das Schreiben von Anleitungen für genau diese ZAP-Docs, die du gerade liest :) 💚
+Um mehr zu erfahren, empfehlen wir dir, unsere großartige [ZAP-Hosting Community](community-info.md) Anleitung zu lesen, in dem die vielen Möglichkeiten beschrieben werden, wie du Gutscheincodes und Werbegeschenke über unsere verschiedenen sozialen Plattformen erhalten kannst (und sogar durch das Schreiben von Anleitungen für genau diese ZAP-Docs, die du gerade liest :) 💚

@@ -60,7 +60,7 @@ Dadurch wird ein Texteditor direkt auf der Seite geöffnet, mit dem du die Datei
 Der Server muss gestoppt werden, bevor die Konfigurationsdatei bearbeitet werden kann. Wenn die Konfigurationsdatei erst bearbeitet und der Server neu gestartet wird, werden sämtliche Änderungen rückgängig gemacht.
 :::
 
-Die letzte Methode, um auf die Rohdatei zuzugreifen, ist über FTP. Wenn du dich mit der Verwendung von FTP nicht auskennst, empfehlen wir dir, einen Blick in die Anleitung [FTP-Dateizugriff](gameserver-ftpaccess.md) zu werfen. Diese Methode dauert jedoch länger und wenn du den Inhalt der Datei direkt bearbeiten möchtest, empfehlen wir dir, wie bereits erwähnt, den Bereich **Configs** im Webinterface deines Gameservers zu verwenden.
+Die letzte Methode, um auf die Rohdatei zuzugreifen, ist über FTP. Wenn du dich mit der Verwendung von FTP nicht auskennst, empfehlen wir dir, einen Blick in die Anleitung [Zugriff per FTP](gameserver-ftpaccess.md) zu werfen. Diese Methode dauert jedoch länger und wenn du den Inhalt der Datei direkt bearbeiten möchtest, empfehlen wir dir, wie bereits erwähnt, den Bereich **Configs** im Webinterface deines Gameservers zu verwenden.
 
 </TabItem>
 </Tabs>
@@ -70,7 +70,7 @@ Die letzte Methode, um auf die Rohdatei zuzugreifen, ist über FTP. Wenn du dich
 ### Aktiviere den Xbox-Modus
 
 :::tip
-Wir haben jetzt eine separate **Palword (Xbox)** Spielversion auf unseren Gameservern, die dies automatisch für dich einrichtet! Schau dir unsere [Anleitung zum Gameserver-Wechsel](gameserver-gameswitch.md) an, um zu erfahren, wie du ganz einfach umschalten kannst. Stelle sicher, dass du deine Spielstände wie immer sicherst.
+Wir haben jetzt eine separate **Palword (Xbox)** Spielversion auf unseren Gameservern, die dies automatisch für dich einrichtet! Schau dir unsere [Spielwechsel](gameserver-gameswitch.md) an, um zu erfahren, wie du ganz einfach umschalten kannst. Stelle sicher, dass du deine Spielstände wie immer sicherst.
 :::
 
 Die Palworld Dedicated Server können jetzt auch als Microsoft Store/Xbox Dedicated Server umgestellt werden, damit Xbox-Spieler und Microsoft Store PC-Spieler gemeinsam auf ihrem eigenen Server spielen können.
@@ -90,7 +90,7 @@ Speichere die Datei und das nächste Mal, wenn du den Server startest, wird er i
 :::info
 Auf Xbox-Konsolen kannst du dich nicht direkt über die IP-Adresse verbinden. Wenn du also auf Xbox-Konsolen spielen willst, musst du deinen dedizierten Server öffentlich machen.
 
-Du solltest auch einen Servernamen festlegen, der leicht gefunden werden kann. Wie das geht, kannst du in unserer [Palworld Server Configuration guide](palworld-configuration.md) nachlesen.
+Du solltest auch einen Servernamen festlegen, der leicht gefunden werden kann. Wie das geht, kannst du in unserer [Server Konfiguration](palworld-configuration.md) nachlesen.
 :::
 
 ### Wichtige Servereinstellungen

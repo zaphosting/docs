@@ -19,7 +19,7 @@ Do you have a Windows VPS or root server and you want to install the Palworld De
 
 ## Preparation
 
-To begin with, connect to your VPS or rootserver through Remote Desktop (RDP). Use our [RDP Initial Access](vserver-windows-userdp.md) guide if you need help doing this.
+To begin with, connect to your VPS or rootserver through Remote Desktop (RDP). Use our [Initial Access (RDP)](vserver-windows-userdp.md) guide if you need help doing this.
 
 Once you have accessed your server, you will need to setup **SteamCMD** in order to be able to download the necessary dedicated server files. SteamCMD is the **command-line (CLI)** version of the Steam client and is the tool which allows you to easily download a range of Steam workshop and dedicated server files. Download [SteamCMD from the official Valve website](https://developer.valvesoftware.com/wiki/SteamCMD) or directly [here](https://steamcdn-a.akamaihd.net/client/installer/steamcmd.zip).
 
@@ -92,7 +92,7 @@ You must create new rules for your Palworld server. To do this, click on the inc
 - TCP incoming and outgoing: 8211
 - UDP incoming and outgoing: 8211
 
-Please use our [Windows port forwarding guide](vserver-windows-port.md) if you need further assistance doing this.
+Please use our [Port Forwarding (Firewall)](vserver-windows-port.md) guide if you need further assistance doing this.
 
 </TabItem>
 </Tabs>
@@ -110,7 +110,7 @@ Firstly, navigate to the following directory:
 ../steamapps/common/PalServer/Pal/Saved/Config/WindowsServer
 ```
 
-You will be able to find the **PalWorldSettings.ini** configuration file. Through this file, you can configure a wide selection of parameters for your server. See our [Palworld Server Configuration guide](palworld-configuration.md) to view all of the available options and what they each do.
+You will be able to find the **PalWorldSettings.ini** configuration file. Through this file, you can configure a wide selection of parameters for your server. See our [Server Configuration](palworld-configuration.md) to view all of the available options and what they each do.
 
 :::note
 If you do not see this file, please start your server at least **once** for this to be generated automatically. Alternatively, you can copy and use the default settings from the `steamapps/common/PalServer/DefaultPalWorldSettings.ini` path.
@@ -142,7 +142,7 @@ On Xbox consoles, you cannot connect directly via the IP Address therefore if yo
 
 You can do this by creating a new `StartServer.bat` file in the root directory and populating it with: `PalServer.exe -publiclobby`. The special `-publiclobby` start up flag enables Community Server mode making it accessible in the server list.
 
-You should also set a server name that can be easily found, view our [Palworld Server Configuration guide](palworld-configuration.md) on how to do this.
+You should also set a server name that can be easily found, view our [Server Configuration](palworld-configuration.md) guide on how to do this.
 :::
 
 ## Starting & Connecting to your server

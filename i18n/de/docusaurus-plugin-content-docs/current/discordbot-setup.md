@@ -20,7 +20,7 @@ Mit einem **Discord-Bot-Server** kannst du Discord-Bots kontinuierlich laufen la
 
 ## Verbinden mit FTP
 
-Um deinen Bot einzurichten, muss der [FTP-Zugang](gameserver-ftpaccess.md) erst konfiguriert werden.
+Um deinen Bot einzurichten, muss der [Zugriff per FTP](gameserver-ftpaccess.md) erst konfiguriert werden.
 
 ## Vorbereitung
 

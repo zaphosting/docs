@@ -52,7 +52,7 @@ To make the mod active, click on **Reload Mods**, then you can close the game ag
 
 ## Installation of Mod's on your Server
 
-In order to be able to install the mod on your server, you can connect to your server via FTP, how it works you can find out here: [FTP File Access](gameserver-ftpaccess.md)
+In order to be able to install the mod on your server, you can connect to your server via FTP, how it works you can find out here: [Access via FTP](gameserver-ftpaccess.md)
 
 There you navigate to the following directory: /g******/terraria/mods/ where you also insert the previously used **.tmod** file:
 

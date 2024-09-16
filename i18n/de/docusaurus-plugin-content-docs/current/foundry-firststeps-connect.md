@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-In dieser Anleitung erfahren wir, wie du eine Verbindung zu deinem Foundry-Server herstellst. Es gibt zwei Möglichkeiten, eine Verbindung herzustellen: entweder direkt über die IP-Adresse deines Servers oder über die Serverliste. Wir empfehlen, den Server vorher nach deinen Wünschen zu konfigurieren. Mehr darüber erfährst du in unserer [Foundry-Konfigurationsanleitung](foundry-configuration.md).
+In dieser Anleitung erfahren wir, wie du eine Verbindung zu deinem Foundry-Server herstellst. Es gibt zwei Möglichkeiten, eine Verbindung herzustellen: entweder direkt über die IP-Adresse deines Servers oder über die Serverliste. Wir empfehlen, den Server vorher nach deinen Wünschen zu konfigurieren. Mehr darüber erfährst du in unserer [Server-Konfiguration](foundry-configuration.md) Anleitung.
 
 <InlineVoucher />
 
@@ -23,7 +23,7 @@ Zunächst musst du die IP und den Port deines Foundry-Servers kennen, um eine di
 
 ![image](https://screensaver01.zap-hosting.com/index.php/s/49mqSzCamYnA3dx/preview)
 
-Wenn du deinen Foundry-Server als externen dedizierten Server betreibst, ist deine IP die des Host-Rechners und der Port derjenige, den du in deiner Konfigurationsdatei eingestellt hast (standardmäßig ist das 3724). Weitere Informationen über den Port findest du in unserer [Foundry-Konfigurationsanleitung](foundry-configuration.md).
+Wenn du deinen Foundry-Server als externen dedizierten Server betreibst, ist deine IP die des Host-Rechners und der Port derjenige, den du in deiner Konfigurationsdatei eingestellt hast (standardmäßig ist das 3724). Weitere Informationen über den Port findest du in unserer [Server-Konfiguration](foundry-configuration.md).
 
 ### Verbindung im Spiel herstellen
 
@@ -43,7 +43,7 @@ Wenn du dich nicht erfolgreich mit dem Server verbinden kannst und eine Timeout-
 
 Die einfachste Möglichkeit, sich mit deinem Server zu verbinden, ist über die Serverliste. Dazu muss dein Server jedoch in den Serverkonfigurationsparametern auf öffentlich eingestellt sein. 
 
-Sieh dir bitte unsere [Foundry Server Konfigurationsanleitung](foundry-configuration.md) an, um die entsprechenden Parameter "server_name" und "server_is_public" in deiner Konfigurationsdatei oder über das Webinterface hinzuzufügen.
+Sieh dir bitte unsere [Server-Konfiguration](foundry-configuration.md) an, um die entsprechenden Parameter "server_name" und "server_is_public" in deiner Konfigurationsdatei oder über das Webinterface hinzuzufügen.
 
 Wenn das erledigt ist, wähle im Hauptmenü **Multiplayer** und dann die Option **Join Steam Server**. Suche hier nach dem Servernamen, den du in der Konfiguration festgelegt hast, und du solltest deinen Server finden und dich verbinden können.
 

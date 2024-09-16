@@ -40,7 +40,7 @@ Denk daran, dass dies nur nützliche Ideen sind, du **musst** nicht unbedingt da
 
 ### Einreichen des Vorschlags
 
-Nachdem du nun alle Informationen verstanden hast, gehe bitte zu unserem **[Blog-Vorschlagsformular](https://forms.gle/jft8sb4mmKMkbt5W9)**. Fülle das Formular so detailliert wie möglich aus und sende es ab. Außerdem musst du bestätigen, dass du unsere Allgemeinen Geschäftsbedingungen für das Beitragsprogramm akzeptierst, die du [hier](contribution-terms.md) einsehen kannst.
+Nachdem du nun alle Informationen verstanden hast, gehe bitte zu unserem **[Blog-Vorschlagsformular](https://forms.gle/jft8sb4mmKMkbt5W9)**. Fülle das Formular so detailliert wie möglich aus und sende es ab. Außerdem musst du bestätigen, dass du unsere Allgemeinen Geschäftsbedingungen für das Beitragsprogramm akzeptierst, die du unter [Beitragsbedingungen](contribution-terms.md) einsehen kannst.
 
 :::caution
 Achte bitte darauf, dass du deine ZAP ID korrekt angibst, denn so werden wir dich bezüglich deines Blogvorschlags kontaktieren!
@@ -77,7 +77,7 @@ Bitte zögere nicht, uns zu kontaktieren, indem du direkt auf das Ticket auf der
 Bevor du deinen Entwurf einreichst, solltest du anhand dieser kurzen Checkliste überprüfen, ob alles korrekt ist:
 - Du hast eine klare Struktur eingehalten.
 - Dein Inhalt entspricht dem, was in deinem Blog-Vorschlag und in den Gesprächen mit dem ZAP-Beitragsteam vereinbart wurde.
-- Du hast unsere [Blog-Richtlinien](contribution-blogs-guidelines.md) genau befolgt.
+- Du hast unsere [Richtlinien](contribution-blogs-guidelines.md) genau befolgt.
 
 Wenn du glaubst, dass du deinen Blog fertig geschrieben hast und einen Entwurf vorliegen hast, schicke uns bitte deinen Entwurf, indem du auf das Ticket antwortest. Bitte beachte, dass du keine Dateien direkt in das Ticket hochladen kannst. Bereite dich daher darauf vor, den Entwurf in einen Cloud-Speicher wie Google Drive hochzuladen und bei Bedarf einen Link zu teilen. Wir empfehlen dir daher, deinen Inhalt mit Google Docs oder Microsoft Word zu verfassen, da das Teilen deiner Datei sehr einfach und schnell geht, indem du sofort einen Link generierst.
 
@@ -88,7 +88,7 @@ Wir bemühen uns, innerhalb von 2-3 Tagen auf dein Ticket zu antworten. Wenn wir
 Sobald dein endgültiger Entwurf akzeptiert wurde, antworten wir auf dein Ticket und teilen dir die wichtigsten Details mit. Dazu gehören Informationen darüber, wann wir deinen Blogbeitrag veröffentlichen wollen, sowie die Auszahlung deiner Belohnung für die erfolgreiche Fertigstellung deines Blogbeitrags.
 
 :::info
-Die Belohnung für diese Art von Beitrag hängt von mehreren Faktoren ab, vor allem von der Qualität und dem Umfang des geschriebenen Inhalts sowie von anderen Kriterien, die vom ZAP-Beitragsteam bewertet werden. Mehr über unsere Kriterien erfährst du in unserem [Anleitung für Beitragsbelohnungen](contribution-rewards.md).
+Die Belohnung für diese Art von Beitrag hängt von mehreren Faktoren ab, vor allem von der Qualität und dem Umfang des geschriebenen Inhalts sowie von anderen Kriterien, die vom ZAP-Beitragsteam bewertet werden. Mehr über unsere Kriterien erfährst du in unserem [Belohnungen](contribution-rewards.md).
 :::
 
 Herzlichen Glückwunsch zu deinen Beiträgen für unsere ZAP-Hosting Guides! Wir schätzen alle deine Beiträge! 💚

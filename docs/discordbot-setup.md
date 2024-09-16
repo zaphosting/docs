@@ -21,7 +21,7 @@ With a **Discord bot server**, you can run Discord bots continuously, which can,
 
 ## Preparation
 
-In order to be able to set up your Bot, the [FTP access](gameserver-ftpaccess.md) needs to be configured. Once you are connected using FTP, you need to open the`discordbot` folder, this is where the files of the bot have to be uploaded:
+In order to be able to set up your Bot, the [Access via FTP](gameserver-ftpaccess.md) needs to be configured. Once you are connected using FTP, you need to open the`discordbot` folder, this is where the files of the bot have to be uploaded:
 
 ![image](https://screensaver01.zap-hosting.com/index.php/s/x4WPiNS6xQcWQrp/preview)
 

@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 Do you have a Linux VPS or root server and you want to install the V-Rising Dedicated server service on it? You are in the right place. In this guide, we will explain the step by step process of installing this service on your Linux server through the use of SteamCMD. We will be using Ubuntu in the examples, but the process should be very similar for other distributions.
 
 :::tip
-Did you know that you can install our **ZAP GS/TS3 Interface** directly onto your VPS or root server, allowing you to setup game server services, with direct integration to your ZAP-Hosting dashboard, in just a few clicks! Learn more about the [GS/TS3 Interface here](vserver-linux-gs-interface.md).
+Did you know that you can install our **ZAP GS/TS3 Interface** directly onto your VPS or root server, allowing you to setup game server services, with direct integration to your ZAP-Hosting dashboard, in just a few clicks! Learn more about the [GS/TS3 Interface](vserver-linux-gs-interface.md).
 :::
 
 <InlineVoucher />
@@ -55,7 +55,7 @@ nano /home/steam/V-Rising-Server/VRisingServer_Data/StreamingAssets/Settings/Ser
 nano /home/steam/V-Rising-Server/VRisingServer_Data/StreamingAssets/Settings/ServerHostSettings.json
 ```
 
-See our [V-Rising Server Configuration guide](vrising-configuration.md) to view all of the available server options and what they each do.
+See our V-Rising [Server Configuration ](vrising-configuration.md) guide to view all of the available server options and what they each do.
 
 ## Starting & Connecting to your server
 

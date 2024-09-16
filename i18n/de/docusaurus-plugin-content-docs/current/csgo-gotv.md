@@ -29,7 +29,7 @@ Wenn die Funktion beim Server aktiviert ist, dann ist der Zugriff über die IP-A
 connect SERVERIP:27020
 ```
 
-Manuelle und automatische aufgenommene Demos werden im Hauptverzeichnis (gxxxxx/csgo/csgo/) des CS:GO Server abgelegt. Diese können über den bereitgestellten FTP-Zugang heruntergeladen werden. Sollte du noch nicht wissen, wie der Zugang via FTP möglich ist, dann findest du hierzu eine entsprechende [Anleitung](gameserver-ftpaccess.md).
+Manuelle und automatische aufgenommene Demos werden im Hauptverzeichnis (gxxxxx/csgo/csgo/) des CS:GO Server abgelegt. Diese können über den bereitgestellten FTP-Zugang heruntergeladen werden. Sollte du noch nicht wissen, wie der Zugang via FTP möglich ist, dann findest du hierzu eine entsprechende Anleitung: [Zugriff per FTP](gameserver-ftpaccess.md).
 
 ![image](https://screensaver01.zap-hosting.com/index.php/s/cqZC3oXmbziDNnb/preview)
 

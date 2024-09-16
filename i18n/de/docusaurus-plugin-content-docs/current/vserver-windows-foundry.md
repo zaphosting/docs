@@ -20,7 +20,7 @@ Hast du einen Windows VPS, Root Server oder Dedicated Server und möchtest den F
 
 ## Vorbereitung
 
-Verbinde dich zunächst über Remote Desktop (RDP) mit deinem VPS oder Rootserver. Benutze unsere Anleitung [RDP-Erstzugang](vserver-windows-userdp.md), wenn du Hilfe dabei brauchst.
+Verbinde dich zunächst über Remote Desktop (RDP) mit deinem VPS oder Rootserver. Benutze unsere Anleitung [Erstzugang (RDP)](vserver-windows-userdp.md), wenn du Hilfe dabei brauchst.
 
 Sobald du auf deinen Server zugegriffen hast, musst du **SteamCMD** einrichten, damit du die notwendigen Dateien für den dedizierten Server herunterladen kannst. SteamCMD ist die **Befehlszeilenversion (CLI)** des Steam-Clients und das Tool, mit dem du ganz einfach eine Reihe von Steam-Workshop- und Dedicated Server-Dateien herunterladen kannst. Lade [SteamCMD von der offiziellen Valve-Website](https://developer.valvesoftware.com/wiki/SteamCMD) oder direkt [hier](https://steamcdn-a.akamaihd.net/client/installer/steamcmd.zip) herunter.
 
@@ -94,7 +94,7 @@ Du musst neue Regeln für deinen Foundry-Server erstellen. Dazu klickst du auf d
 - TCP eingehend und ausgehend: 3724, 27015
 - UDP eingehend und ausgehend: 3724, 27015
 
-Bitte benutze unseren [Windows Port freigeben Anleitung](vserver-windows-port.md), wenn du weitere Hilfe benötigst.
+Bitte benutze unseren [Portweiterleitung (Firewall)](vserver-windows-port.md), wenn du weitere Hilfe benötigst.
 
 </TabItem>
 </Tabs>
@@ -116,7 +116,7 @@ server_name=ZAP-Hosting Docs Test
 server_max_players=10
 ```
 
-In unserer [Foundry Server-Konfigurationsanleitung](foundry-configuration.md) findest du alle verfügbaren Optionen und ihre Funktionen.
+In unserer [Server-Konfiguration](foundry-configuration.md) Anleitung findest du alle verfügbaren Optionen und ihre Funktionen.
 
 ## Starten und Verbinden mit deinem Server
 
@@ -124,7 +124,7 @@ Nun ist es an der Zeit, deinen Server zu starten. Gehe in das Stammverzeichnis u
 
 Jetzt kannst du dich über deine IP direkt mit deinem Server verbinden, indem du unter **Multiplayer->IP Direct Connect** die IP-Adresse deines Servers und den Port 3724 eingibst, der standardmäßig eingestellt ist und den du weitergeleitet hast.
 
-Wenn du möchtest, dass dein Server in der Serverliste verfügbar ist, sieh dir bitte unsere [Foundry Server-Konfigurationsanleitung](foundry-configuration.md) an und füge die entsprechenden Parameter `server_name` und `server_is_public` in deine Konfigurationsdatei ein. Speichere die Datei anschließend und führe den Server erneut aus.
+Wenn du möchtest, dass dein Server in der Serverliste verfügbar ist, sieh dir bitte unsere [Server-Konfiguration](foundry-configuration.md) an und füge die entsprechenden Parameter `server_name` und `server_is_public` in deine Konfigurationsdatei ein. Speichere die Datei anschließend und führe den Server erneut aus.
 
 ## Abschluss
 

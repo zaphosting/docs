@@ -43,7 +43,7 @@ Depending on the game, it's usually also a good idea to back up the database as 
 
 ## Download/delete backups
 
-If you want to download or delete backups you have to connect to the storage server via FTP. Here you can find instructions to use FTP: [FTP access](gameserver-ftpaccess.md)
+If you want to download or delete backups you have to connect to the storage server via FTP. Here you can find instructions to use FTP: [Access via FTP](gameserver-ftpaccess.md)
 ![image](https://screensaver01.zap-hosting.com/index.php/s/tfJoBpaELEPKMij/preview)
 
 ![image](https://screensaver01.zap-hosting.com/index.php/s/q3E8XTX8gRQoasY/preview)

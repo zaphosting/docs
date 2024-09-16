@@ -15,7 +15,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Connect to FTP
 
-Before plugins can be installed, the [FTP access](gameserver-ftpaccess.md) must be set up.
+Before plugins can be installed, the [Access via FTP](gameserver-ftpaccess.md) must be set up.
 
 After this has been setup, you can connect and open the following server folder.
 `/g#####/scp/sm_plugins`

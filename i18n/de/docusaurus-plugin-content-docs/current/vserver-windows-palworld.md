@@ -20,7 +20,7 @@ Du hast einen Windows VPS oder Rootserver und möchtest darauf einen Palworld De
 
 ## Vorbereitung
 
-Verbinde dich zunächst über Remote Desktop (RDP) mit deinem VPS oder Rootserver. Verwende unsere Anleitung [RDP-Erstzugang](vserver-windows-userdp.md), wenn du Hilfe brauchst.
+Verbinde dich zunächst über Remote Desktop (RDP) mit deinem VPS oder Rootserver. Verwende unsere Anleitung [Erstzugang (RDP)](vserver-windows-userdp.md), wenn du Hilfe benötigst.
 
 Sobald du auf deinen Server zugegriffen hast, musst du **SteamCMD** einrichten, damit du die notwendigen Dateien für den dedizierten Server herunterladen kannst. SteamCMD ist die **Befehlszeilenversion (CLI)** des Steam-Clients und das Tool, mit dem du ganz einfach eine Reihe von Steam-Workshop- und Dedicated Server-Dateien herunterladen kannst. Lade [SteamCMD von der offiziellen Valve-Website](https://developer.valvesoftware.com/wiki/SteamCMD) oder direkt [hier](https://steamcdn-a.akamaihd.net/client/installer/steamcmd.zip) herunter.
 
@@ -93,7 +93,7 @@ Du musst neue Regeln für deinen Palworld Server erstellen. Klicke dazu auf die 
 - TCP eingehend und ausgehend: 8211
 - UDP eingehend und ausgehend: 8211
 
-Bitte benutze unseren [Ports bei Windows Servern freigeben](vserver-windows-port.md), wenn du weitere Hilfe dabei brauchst.
+Bitte benutze unseren [Portweiterleitung (Firewall)](vserver-windows-port.md) Anleitung, wenn du weitere Hilfe dabei brauchst.
 
 </TabItem>
 </Tabs>
@@ -111,7 +111,7 @@ Wechsle zunächst in das folgende Verzeichnis:
 ../steamapps/common/PalServer/Pal/Saved/Config/WindowsServer
 ```
 
-Dort findest du die Konfigurationsdatei **PalWorldSettings.ini**. Über diese Datei kannst du eine große Auswahl an Parametern für deinen Server konfigurieren. In der [Palworld Server-Konfiguration Anleitung](palworld-configuration.md) kannst du dir alle verfügbaren Optionen ansehen und erfahren, was sie jeweils bewirken.
+Dort findest du die Konfigurationsdatei **PalWorldSettings.ini**. Über diese Datei kannst du eine große Auswahl an Parametern für deinen Server konfigurieren. In der [Server Konfiguration](palworld-configuration.md) kannst du dir alle verfügbaren Optionen ansehen und erfahren, was sie jeweils bewirken.
 
 :::note
 Wenn du diese Datei nicht siehst, starte deinen Server bitte mindestens **einmal**, damit sie automatisch erstellt wird. Alternativ kannst du auch die Standardeinstellungen aus dem Pfad `steamapps/common/PalServer/DefaultPalWorldSettings.ini` kopieren und verwenden.
@@ -143,7 +143,7 @@ Auf Xbox-Konsolen kannst du dich nicht direkt über die IP-Adresse verbinden. We
 
 Dazu erstellst du eine neue Datei `StartServer.bat` im Hauptverzeichnis und füllst sie mit: `PalServer.exe -publiclobby`. Das spezielle Startflag `-publiclobby` aktiviert den Community Server Modus und macht ihn in der Serverliste zugänglich.
 
-Du solltest auch einen Servernamen festlegen, der leicht gefunden werden kann. Wie das geht, kannst du in unserer [Palworld Server Configuration guide](palworld-configuration.md) nachlesen.
+Du solltest auch einen Servernamen festlegen, der leicht gefunden werden kann. Wie das geht, kannst du in unserer [Server Konfiguration](palworld-configuration.md) nachlesen.
 :::
 
 ## Starten und Verbinden mit deinem Server

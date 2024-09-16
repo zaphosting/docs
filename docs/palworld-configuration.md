@@ -58,7 +58,7 @@ This will open up a text editor directly on the site to enable you to edit it.
 The Server must be stopped before the config can be edited, editing the config and restarting the server will result in any changes being undone.
 :::
 
-The final method of accessing the raw file, is through FTP. If you are not familiar with using FTP, we recommend you to have a look at the [FTP file access](gameserver-ftpaccess.md) guide. However, this method takes longer and if you wish to directly edit the file contents, we recommend simply using the **Configs** section on your game server's webinterface as mentioned.
+The final method of accessing the raw file, is through FTP. If you are not familiar with using FTP, we recommend you to have a look at the [Access via FTP](gameserver-ftpaccess.md) guide. However, this method takes longer and if you wish to directly edit the file contents, we recommend simply using the **Configs** section on your game server's webinterface as mentioned.
 
 </TabItem>
 </Tabs>
@@ -68,7 +68,7 @@ The final method of accessing the raw file, is through FTP. If you are not famil
 ### Enable Xbox Mode
 
 :::tip
-We have a separate **Palword (Xbox)** game version now available on our Gameservers, which sets this up automatically for you! Check out our [Game server Switch guide](gameserver-gameswitch.md) to learn how to easily switch your game. Make sure to backup your saves as always.
+We have a separate **Palword (Xbox)** game version now available on our Gameservers, which sets this up automatically for you! Check out our [Change the game](gameserver-gameswitch.md) guide to learn how to easily switch your game. Make sure to backup your saves as always.
 :::
 
 Palworld dedicated servers now come with the ability to change and function as an Microsoft Store/Xbox dedicated server to allow Xbox players and Microsoft Store PC players to play on their own server together.
@@ -88,7 +88,7 @@ Save the file and the next time you launch the server it will be in Xbox mode.
 :::info
 On Xbox consoles, you cannot connect directly via the IP Address therefore if you plan to play on Xbox consoles, you will have to make your dedicated server public.
 
-You should also set a server name that can be easily found, view our [Palworld Server Configuration guide](palworld-configuration.md) on how to do this.
+You should also set a server name that can be easily found, view our [Server Configuration](palworld-configuration.md) guide on how to do this.
 :::
 
 ### Important Server Settings

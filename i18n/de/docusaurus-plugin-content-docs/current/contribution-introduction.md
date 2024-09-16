@@ -13,7 +13,7 @@ Wir bei ZAP-Hosting glauben an die Kraft unserer Community. Deshalb freuen wir u
 
 Für alle Inhalte, die im Rahmen dieses Programms produziert werden, gibt es **Geldprämien** als großartigen Vorteil für einen erfolgreichen Beitrag! Wir bieten die Auszahlung der Prämien über PayPal und als Guthaben für dein ZAP-Hosting-Konto an. Die Belohnungen werden im letzten Schritt ausgezahlt, sobald dein Beitrag von unserem ZAP-Hosting-Beitragsteam genehmigt wurde und zur Veröffentlichung bereit ist.
 
-Weitere Informationen zu den Belohnungen sowie die Kriterien, nach denen die Belohnungen bewertet werden, findest du in der [Anleitung für Beitrags-Belohnungen](contribution-rewards.md).
+Weitere Informationen zu den Belohnungen sowie die Kriterien, nach denen die Belohnungen bewertet werden, findest du unter [Belohnungen](contribution-rewards.md).
 
 Unser Programm nimmt derzeit Beiträge in **Englisch** an.
 
@@ -25,13 +25,13 @@ Wir freuen uns, dass wir unser Programm aufgrund des großen Engagements und Fee
 
 Im Bereich ZAP Guides geht es um die Erstellung von Inhalten für unsere Guides auf den offiziellen [ZAP-Hosting Docs](https://zap-hosting.com/guides/). Dabei geht es um die Erstellung ganz neuer Anleitungen, aber auch um Aktualisierungen und Erweiterungen bestehender Anleitungen, wenn dies notwendig ist.
 
-Bist du daran interessiert, zu unseren Anleitungen beizutragen? In unserem [Beitragsanleitung](contribution-guides.md) erfährst du mehr.
+Bist du daran interessiert, zu unseren Anleitungen beizutragen? In unserem [Guides Prozess](contribution-guides.md) erfährst du mehr.
 
 ### ZAP Blogs - Blogbeiträge schreiben
 
 Wir freuen uns, Blogbeiträge als neuen Bereich für unser Beitragsprogramm vorstellen zu können. Bei dieser spannenden Möglichkeit schreibst du deine eigenen informativen Blogbeiträge für unseren offiziellen [ZAP-Hosting.com Blog](https://zap-hosting.com/en/blog/).
 
-Bist du daran interessiert, einen Beitrag für unseren Blog zu schreiben? In unserem [Beitragsanleitung](contribution-blogs.md) erfährst du mehr.
+Bist du daran interessiert, einen Beitrag für unseren Blog zu schreiben? In unserem [Blogs Prozess](contribution-blogs.md) erfährst du mehr.
 
 ## Für wen ist dieses Programm gedacht?
 
@@ -49,7 +49,7 @@ Während der Teilnahme an unserem ZAP-Hosting-Beitragsprogramm musst du dich an 
 - Die unerlaubte Nutzung von KI/generativen Werkzeugen und/oder anderem geistigen Eigentum ist nicht erlaubt (dazu gehören unter anderem Bilder, audiovisuelle Medien, schriftliche Inhalte und/oder anderes geistiges Eigentum, das hier nicht ausdrücklich genannt ist, ohne ausdrückliche Genehmigung der Rechteinhaber).
 - Alle Spielinhalte und Marken sind das Eigentum der jeweiligen Inhaber. Alle Inhalte auf dieser Seite sind Eigentum der ZAP-Hosting GmbH.
 
-Unsere vollständigen Geschäftsbedingungen für unser Beitragsprogramm kannst du [hier](contribution-terms.md) abrufen.
+Unsere vollständigen Geschäftsbedingungen für unser Beitragsprogramm kannst du [Beitragsbedingungen](contribution-terms.md) abrufen.
 
 ## Bereitstellung von temporären Diensten
 

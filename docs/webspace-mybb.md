@@ -46,7 +46,7 @@ Click on **OK** and the database will be created.
 
 **Mail server (e-mail address)**
 
-For registering an account at the forum a mail server with an e-mail address is needed, so that the registration mails can be sent to the users. Instructions for setting up such an email address can be found here: [Send e-mails](webspace-plesk-sendmail.md)
+For registering an account at the forum a mail server with an e-mail address is needed, so that the registration mails can be sent to the users. Instructions for setting up such an email address can be found here: [Sending Emails](webspace-plesk-sendmail.md)
 
 
 

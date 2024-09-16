@@ -38,7 +38,7 @@ In the menu, fill out a useful name and description for the key and press **Add*
 ![image](https://screensaver01.zap-hosting.com/index.php/s/bfiaA2gjjjxESpM/preview)
 
 :::tip
-If you wish to connect multiple Oases together in your Realm and have them active at the same time, use our [Last Oasis multiple oases guide](lastoasis-multiple-oases.md) to learn how to enable this.
+If you wish to connect multiple Oases together in your Realm and have them active at the same time, use our [Multiple Oases](lastoasis-multiple-oases.md) guide to learn how to enable this.
 :::
 
 Once again, head over to the **Settings** section on your game server's webinterface and enter this code into the **ProviderKey** field. Make sure to save after changing.
@@ -78,7 +78,7 @@ Once confired, you can finally press **Add Oasis** to create the Oassis and acti
 ![image](https://screensaver01.zap-hosting.com/index.php/s/tfEXd4GgAMDd8sE/preview)
 
 :::tip
-If you wish to connect multiple Oases together in your Realm and have them active at the same time, use our [Last Oasis connect multiple oases guide](lastoasis-multiple-oases.md) to learn how to enable this.
+If you wish to connect multiple Oases together in your Realm and have them active at the same time, use our [Multiple Oases](lastoasis-multiple-oases.md) to learn how to enable this.
 :::
 
 You have successfully setup a new Realm and an Oasis for your Last Oasis game server.

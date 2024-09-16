@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Mit FTP verbinden
 
-Zuerst solltest du dich über FTP auf deinen Server verbinden, dazu kannst du unser [FTP-Tutorial](gameserver-ftpaccess.md) nutzen.
+Zuerst solltest du dich über FTP auf deinen Server verbinden, dazu kannst du unser [Zugriff per FTP](gameserver-ftpaccess.md) Anleitung nutzen.
 
 ## Vorbereitung
 
@@ -66,7 +66,7 @@ Nachdem rpf2fivem fertig ist, können die Carmods im "rpf2fivem" Ordner gefunden
 
 ![image](https://screensaver01.zap-hosting.com/index.php/s/KTiTN89Cdx8etBt/preview)
 
-Diese können wir jetzt einfach per [FTP hochladen](fivem-installresources.md), ebenfalls wird eine `servercfg.txt` angelegt, welche die Einträge enthält, um die Carmods direkt in die server.cfg einzutragen, diese Einträge können wir einfach in die server.cfg kopieren.
+Diese können wir jetzt einfach per [Ressourcen installieren](fivem-installresources.md), ebenfalls wird eine `servercfg.txt` angelegt, welche die Einträge enthält, um die Carmods direkt in die server.cfg einzutragen, diese Einträge können wir einfach in die server.cfg kopieren.
 
 
 Fertig! Die Carmods sind nun auf deinem Server installiert, nach einem Neustart des Servers können diese benutzt werden.

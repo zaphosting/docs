@@ -37,7 +37,7 @@ And that's it you can now follow the Installation part of this document to learn
 
 ### Installation
 
-Once the desired plugins have been downloaded, the actual installation of the plugins can be started. The setup of the plugins is done via FTP. You need a FTP client to be able to upload files to your server. If you don't know yet what FTP is and how it works, then you should have a look at the following guide: [FTP file access](gameserver-ftpaccess.md)
+Once the desired plugins have been downloaded, the actual installation of the plugins can be started. The setup of the plugins is done via FTP. You need a FTP client to be able to upload files to your server. If you don't know yet what FTP is and how it works, then you should have a look at the following guide: [Access via FTP](gameserver-ftpaccess.md)
 
 ![image](https://screensaver01.zap-hosting.com/index.php/s/pr5s8ySnpBN7qjC/preview)
 

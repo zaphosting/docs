@@ -27,7 +27,7 @@ Für die Installation und Konfiguration eines Betriebssystems ist es zunächst w
 2. Mounten über die iLO (Virtual Media)
 3. Mounten über die iLO (Remote Console)
 
-Solltest du mit dem Mounten einer ISO-Datei noch nicht vertraut sein, dann schaue dir am besten unsere [Ersteinrichtung](dedicated-setup.md) oder [Eigene ISO](dedicated-iso.md) Anleitung an
+Solltest du mit dem Mounten einer ISO-Datei noch nicht vertraut sein, dann schaue dir am besten unsere [Ersteinrichtung](dedicated-setup.md) oder [Eigene ISO](dedicated-iso.md) Anleitung an.
 
 
 

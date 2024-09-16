@@ -53,7 +53,7 @@ With the copy created, you can edit the core configuration parameters by opening
 nano /home/steam/Palworld-Server/Pal/Saved/Config/LinuxServer/PalWorldSettings.ini
 ```
 
-See our [Palworld Server Configuration guide](palworld-configuration.md) to view all of the available options and what they each do.
+See our Palworld [Server Configuration](palworld-configuration.md) guide to view all of the available options and what they each do.
 
 ## Starting & Connecting to your server
 

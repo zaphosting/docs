@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Whitelist aktivieren
 
-Die Whitelist in Unturned ermöglicht es dir deinen Server zu schützen, indem nur ausgewählte Spieler, die auf der Liste stehen, Erlaubnis haben, sich mit dem Server zu verbinden. Die Aktivierung der Whitelist erfolgt im Spiel per Befehl. Hierzu werden **Owner Berechtigungen** benötigt. Falls du nicht weißt, was das ist und wie du dir diese zuweist, dann schaue dir folgende Anleitung dazu an: [Unturned - Admin werden](unturned-becomeadmin.md)
+Die Whitelist in Unturned ermöglicht es dir deinen Server zu schützen, indem nur ausgewählte Spieler, die auf der Liste stehen, Erlaubnis haben, sich mit dem Server zu verbinden. Die Aktivierung der Whitelist erfolgt im Spiel per Befehl. Hierzu werden **Owner Berechtigungen** benötigt. Falls du nicht weißt, was das ist und wie du dir diese zuweist, dann schaue dir folgende Anleitung dazu an: [Admin werden](unturned-becomeadmin.md)
 
 
 

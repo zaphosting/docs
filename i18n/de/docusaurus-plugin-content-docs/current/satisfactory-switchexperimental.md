@@ -26,15 +26,15 @@ Deinen gesamten Gameserver oder deine Gamesaves zu sichern, ist ganz einfach. Ge
 
 ![Screenshot 2023-02-21 192618](https://screensaver01.zap-hosting.com/index.php/s/5p6F77zjjem5ZMg/preview)
 
-Auf dieser Seite kannst du eine Vielzahl von Funktionen ausführen, darunter auch automatische Backups, die [auf dieser Seite](gameserver-backups.md) näher erläutert werden. Hier konzentrieren wir uns auf eine manuelle Sicherung.
+Auf dieser Seite kannst du eine Vielzahl von Funktionen ausführen, darunter auch automatische Backups, die [Backups](gameserver-backups.md) näher erläutert werden. Hier konzentrieren wir uns auf eine manuelle Sicherung.
 
 Drücke oben auf der Seite einfach auf das grüne + Symbol und akzeptiere die Aufforderung, ein Backup des gesamten Gameservers auf deinem ZAP-Backup-Speicher zu erstellen.
 
 ![Screenshot 2023-02-21 193113](https://screensaver01.zap-hosting.com/index.php/s/RYdg5CFsPoiD8GY/preview)
 
-Dein Backup wurde nun erstellt und du kannst über FTP darauf zugreifen, wie [auf dieser Seite](gameserver-ftpaccess.md) gezeigt wird.
+Dein Backup wurde nun erstellt und du kannst über FTP darauf zugreifen, wie [Zugriff per FTP](gameserver-ftpaccess.md) gezeigt wird.
 
-Alternativ kannst du die Savegame-Dateien auch direkt aus dem Bereich "Savegame Manager" im Webinterface herunterladen. Diesen findest du [auf dieser Seite](satisfactory-savegame.md).
+Alternativ kannst du die Savegame-Dateien auch direkt aus dem Bereich "Savegame Manager" im Webinterface herunterladen. Diesen findest du im [Savegame Manager](satisfactory-savegame.md).
 
 ### Zur experimentellen Version wechseln
 Gehe zunächst auf deine Satisfactory Produktseite und öffne den Reiter "Einstellungen -> Spiele".

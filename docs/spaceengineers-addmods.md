@@ -37,7 +37,7 @@ After an interesting mod has been found, we click on it once to see all further 
 
 ## Open Config Files
 
-There are two ways to edit a server's files. On the one hand, this would be possible via [FTP](gameserver-ftpaccess.md) and once through the Config Editor in the web interface itself.
+There are two ways to edit a server's files. On the one hand, this would be possible via [Access via FTP](gameserver-ftpaccess.md) and once through the Config Editor in the web interface itself.
 
 In this case, the config is edited manually via FTP to avoid syntax errors in the config. How exactly the connection via FTP is established is described in detail in the instructions linked above.
 

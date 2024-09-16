@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Upload the mission file
 
-For uploading your own mission file you have to connect to your server via FTP before: [Gameserver FTP connection](gameserver-ftpaccess.md).
+For uploading your own mission file you have to connect to your server via FTP before: [Access via FTP](gameserver-ftpaccess.md).
 There you have to upload the mission file into your **mpmissions** directory which you can find under **/gxxxxxx/arma3/**.
 In this example we upload the mission file **King_of_the_hill.Altis** to our server.
 

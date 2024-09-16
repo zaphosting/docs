@@ -56,7 +56,7 @@ Damit die Mods aktiv werden, klickst du nun auf **Mods neu laden**, danach kanns
 
 ## Installation von Mods auf deinem Server
 
-Um die Mods nun auch auf deinem Server installieren zu können verbindest du dich via FTP zu deinem Server, wie das funktioniert erfährst du hier: [FTP Dateizugriff](gameserver-ftpaccess.md)
+Um die Mods nun auch auf deinem Server installieren zu können verbindest du dich via FTP zu deinem Server, wie das funktioniert erfährst du hier: [Zugriff per FTP](gameserver-ftpaccess.md)
 
 Dort navigierst du in folgendes Verzeichnis: /g******/terraria/mods/ wo du ebenfalls die zuvor verwendete **.tmod** Datei einfügst:
 

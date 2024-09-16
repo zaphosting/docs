@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Mit FTP verbinden
 
-Bevor wir das Inventar deaktivieren können, muss der [FTP-Zugang](gameserver-ftpaccess.md) eingerichtet werden. Nachdem dieser eingerichtet wurde, kann sich nun verbunden werden und der Server Ordner geöffnet werden:
+Bevor wir das Inventar deaktivieren können, muss der [Zugriff per FTP](gameserver-ftpaccess.md) eingerichtet werden. Nachdem dieser eingerichtet wurde, kann sich nun verbunden werden und der Server Ordner geöffnet werden:
 
 ![image](https://screensaver01.zap-hosting.com/index.php/s/T4noj9BnKDD2R2r/preview)
 

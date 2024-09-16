@@ -54,7 +54,7 @@ You will be able to adjust all configuration parameters by accessing and editing
 nano /home/steam/Enshrouded-Server/enshrouded_server.json
 ```
 
-See our [Enshrouded Server Configuration guide](enshrouded-configuration.md) to view all of the available server options and what they each do.
+See our Enshrouded [Server Configuration](enshrouded-configuration.md) guide to view all of the available server options and what they each do.
 
 ## Starting & Connecting to your server
 

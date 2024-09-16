@@ -29,7 +29,7 @@ Es sollte **in jedem Fall vor** der Installation von Mods ein Backup angelegt we
 ## Modded Satisfactory auf dem Server installieren
 
 Um Mods auf deinem Server überhaupt installieren zu können, muss zunächst ein Modded Satisfactory Server bestellt werden: https://zap-hosting.com/de/modded-satisfactory-server-mieten/
-Solltest du bereits einen Satisfactory Server gemietet haben, kann das Spiel jederzeit dank des Cloud-Systems, wie in [dieser Anleitung](gameserver-gameswitch.md) beschrieben wird, geändert werden.
+Solltest du bereits einen Satisfactory Server gemietet haben, kann das Spiel jederzeit dank des Cloud-Systems, wie in [Spielwechsel](gameserver-gameswitch.md) beschrieben wird, geändert werden.
 
 ## Mod-Manager installieren
 
@@ -79,7 +79,7 @@ Nachdem alle gewünschten Mods auf dem Client installiert und sichergestellt wor
 Damit es hierbei keine Probleme bei der Übernähe der Änderungen gibt, stelle bitte sicher, dass dein Server hierbei zuvor gestoppt wird!
 
 Verbinde dich nun via FTP zu deinem Server, um die Mods im nächsten Schritt hochladen zu können.
-Wir haben in [dieser Anleitung](gameserver-ftpaccess.md) alles zur FTP-Verbindung beschrieben.
+Wir haben in [Zugriff per FTP](gameserver-ftpaccess.md) alles zur FTP-Verbindung beschrieben.
 Nachdem die Verbindung hergestellt wurde, öffne den folgenden Ordner-Pfad: `/gXXXXXX/modded-satisfactory/FactoryGame/Mods`
 
 Nun muss der lokale Ordner von Satisfactory bei dir auf dem PC geöffnet werden.
@@ -116,4 +116,4 @@ Die ausgewählten Ordner werden jetzt mittels Drag & Drop in den zuvor geöffnet
 ## Server starten
 
 Nachdem die Mods hochgeladen worden sind, kann der Server einfach via Webinterface gestartet werden.
-Danach kann dem Server wie in dieser [Anleitung](satisfactory-connect.md) beschrieben beigetreten werden 
+Danach kann dem Server wie in dieser [Zum Server binden](satisfactory-connect.md) beschrieben beigetreten werden 

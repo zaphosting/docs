@@ -17,7 +17,7 @@ Open.mp servers all come with a set of useful built-in server commands which can
 
 ## Setting up access (RCON)
 
-In order to be able to run server commands in-game, you will have to enable the RCON feature. You will have to access your configuration `config.json` and adjust the necessary parameters to toggle the feature on and add a password. Please use our [Open.mp Configuration guide](openmp-configuration.md) to access your server configuration file.
+In order to be able to run server commands in-game, you will have to enable the RCON feature. You will have to access your configuration `config.json` and adjust the necessary parameters to toggle the feature on and add a password. Please use our [Server Configuration](openmp-configuration.md) guide to access your server configuration file.
 
 Once you have the file ready, find the parameters below; toggle the feature on and set an RCON password.
 
@@ -33,7 +33,7 @@ Ensure that you have setup an RCON Password through your configration. Otherwise
 After you complete your changes, make sure to save the file where appropriate and restart your server. The next time your server starts up, RCON should be now accessible and ready.
 
 :::tip
-If you want to learn more about RCON, feel free to use our [Open.mp RCON guide](openmp-rcon.md) which goes into further details.
+If you want to learn more about RCON, feel free to use our [RCON](openmp-rcon.md) guide which goes into further details.
 :::
 
 ## Available Commands

@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Diese Anleitung beinhaltet Schritte für die Installation verschiedener Arten von Datenbanken. In diesem Beispiel wird Ubuntu 20.04 als Betriebssystem verwendet, es werden jedoch auch entsprechende Befehle für andere Linux-Distributionen angegeben, die wir auf unserer Website bereitstellen. Diese Befehle müssen über SSH ausgeführt werden. Wenn du nicht weißt, wie du dich über SSH mit deinem Server verbinden kannst, schaue bitte hier nach: [Erstzugang (SSH)](vserver-linux-ssh.md).
+Diese Anleitung beinhaltet Schritte für die Installation verschiedener Arten von Datenbanken. In diesem Beispiel wird Ubuntu 20.04 als Betriebssystem verwendet, es werden jedoch auch entsprechende Befehle für andere Linux-Distributionen angegeben, die wir auf unserer Website bereitstellen. Diese Befehle müssen über SSH ausgeführt werden. Wenn du nicht weißt, wie du dich über SSH mit deinem Server verbinden kannst, schaue bitte hier nach: [Erstzugriff (SSH)](vserver-linux-ssh.md).
 
 <InlineVoucher />
 

@@ -29,7 +29,7 @@ For the installation and configuration of an operating system, it is initially i
 2. Mounting via iLO (Virtual Media)
 3. Mounting via iLO (Remote Console)
 
-If you are not familiar with mounting an ISO file yet, it's best to refer to our [Initial Setup](dedicated-setup.md) or [Custom ISO](dedicated-iso.md) guide.
+If you are not familiar with mounting an ISO file yet, it's best to refer to our [Initial setup](dedicated-setup.md) or [Own ISO](dedicated-iso.md) guide.
 
 
 
@@ -52,7 +52,7 @@ You could choose optional system packages which should be installed, after you'r
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/zTSBQRGRFLHDxDo/preview)
 
-In this step you could create partitions, in this example we're using a RAID0. More information about RAIDs are explained in [our special guide.](dedicated-raid.md)
+In this step you could create partitions, in this example we're using a RAID0. More information about RAIDs are explained in [Configure RAID](dedicated-raid.md)
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/DTk5zgjbpCWwbmp/preview)
 

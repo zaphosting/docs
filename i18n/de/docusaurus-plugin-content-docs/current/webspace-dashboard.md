@@ -8,4 +8,4 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
-[Diese Seite ist umgezogen](webspace-adddomain.md)
+[Domain hinzufügen](webspace-adddomain.md)

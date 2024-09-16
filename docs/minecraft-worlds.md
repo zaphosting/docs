@@ -14,7 +14,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 ## Connecting to FTP
 
 You can manage your world with a program like FileZilla Client or WinSCP. In our example we use FileZilla. 
-Please reference the guide [FTP-Access](gameserver-ftpaccess.md) for connecting via FTP. 
+Please reference the guide [Access via FTP](gameserver-ftpaccess.md) for connecting via FTP. 
 
 ![image](https://screensaver01.zap-hosting.com/index.php/s/yLRmnynxfBC7zpp/preview)
 

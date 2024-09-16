@@ -16,15 +16,15 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Secure Shell (SSH) is a secure protocol that enables safe and encrypted access to remote systems. It ensures the confidentiality and integrity of data transmitted across networks.
 
-In this guide, you will understand how to install or reinstall the SSH Server for a range of Linux Distributions that we currently offer across our VPS servers. Most Linux Distros offered through our VPS servers, are equipped with an SSH Server by default which means you can easily manage it through the product's webinterface. You can view how to do this via our guide: [Initial Access with SSH](vserver-linux-ssh.md)
+In this guide, you will understand how to install or reinstall the SSH Server for a range of Linux Distributions that we currently offer across our VPS servers. Most Linux Distros offered through our VPS servers, are equipped with an SSH Server by default which means you can easily manage it through the product's webinterface. You can view how to do this via our guide: [Initial access (SSH)](vserver-linux-ssh.md)
 
-If you wish to learn more about improving your security on your server, we highly recommend viewing our [Linux Security Tips](vserver-linux-security-tips.md) guide which promotes a range of tools and services that can help secure your server further.
+If you wish to learn more about improving your security on your server, we highly recommend viewing our [Security Tips](vserver-linux-security-tips.md) guide which promotes a range of tools and services that can help secure your server further.
 
 <InlineVoucher />
 
 ## Installation
 
-To start the installation process, access your server via VNC. You can follow these steps using the [VNC Console](vserver-vnc.md).
+To start the installation process, access your server via VNC. You can follow these steps using the [VNC console](vserver-vnc.md).
 
 
 <Tabs>

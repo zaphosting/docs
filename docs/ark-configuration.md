@@ -342,7 +342,7 @@ This command defines the distance between players and resources, in which no mor
 
 **ServerAdminPassword**
 
-This command defines the password to log in as an admin. You can find more information about this in our guide: [ARK - Become Admin](ark-becomeadmin.md)
+This command defines the password to log in as an admin. You can find more information about this in our guide: [Become admin](ark-becomeadmin.md)
 
 | Data type | Default value | Value range |
 | :-------: | :-----------: | :---------: |

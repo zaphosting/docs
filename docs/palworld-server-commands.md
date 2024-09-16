@@ -24,7 +24,7 @@ You must first set an admin password for your Palword server and add yourself as
 You can set your server's admin password through the **Settings** tab on your server's webinterface or via the **PalWorldSettings.ini** configuration file. Once set, you can use the `/AdminPassword [password]` command in-game to add yourself as admin.
 
 :::tip
-We highly recommend that you take a look at our [Palworld Setup Admin guide](palworld-admin.md) which is a dedicated guide for this topic and provides more in-depth details regarding setting an admin password and adding users as admin.
+We highly recommend that you take a look at our [Setup Admin](palworld-admin.md) guide which is a dedicated guide for this topic and provides more in-depth details regarding setting an admin password and adding users as admin.
 :::
 
 ## Available Commands

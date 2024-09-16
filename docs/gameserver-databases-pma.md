@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
-By using phpMyAdmin, MySQL databases can be managed quickly and easily via a web interface. ZAP-Hosting offers MySQL databases inclusive with the game server products. These can be managed with phpMyAdmin as well as with external MySQL administration programs like Navicat or HeidiSQL. We also offer a guide for this which can be found [here](gameserver-database-external-access.md).
+By using phpMyAdmin, MySQL databases can be managed quickly and easily via a web interface. ZAP-Hosting offers MySQL databases inclusive with the game server products. These can be managed with phpMyAdmin as well as with external MySQL administration programs like Navicat or HeidiSQL. We also offer a guide for this which can be found [External database access](gameserver-database-external-access.md).
 
 <InlineVoucher />
 

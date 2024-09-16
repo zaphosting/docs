@@ -20,7 +20,7 @@ Do you have a Windows VPS, root server or dedicated server and you want to insta
 
 ## Preparation
 
-To begin with, connect to your VPS or root server through Remote Desktop (RDP). Use our [RDP Initial Access](vserver-windows-userdp.md) guide if you need help doing this.
+To begin with, connect to your VPS or root server through Remote Desktop (RDP). Use our [Initial Access (RDP)](vserver-windows-userdp.md) guide if you need help doing this.
 
 Once you have accessed your server, you will need to setup **SteamCMD** in order to be able to download the necessary dedicated server files. SteamCMD is the **command-line (CLI)** version of the Steam client and is the tool which allows you to easily download a range of Steam workshop and dedicated server files. Download [SteamCMD from the official Valve website](https://developer.valvesoftware.com/wiki/SteamCMD) or directly [here](https://steamcdn-a.akamaihd.net/client/installer/steamcmd.zip).
 
@@ -93,7 +93,7 @@ You must create new rules for your Foundry server. To do this, click on the inco
 - TCP incoming and outgoing: 3724, 27015
 - UDP incoming and outgoing: 3724, 27015
 
-Please use our [Windows port forwarding guide](vserver-windows-port.md) if you need further assistance doing this.
+Please use our [Port Forwarding (Firewall)](vserver-windows-port.md) if you need further assistance doing this.
 
 </TabItem>
 </Tabs>
@@ -115,7 +115,7 @@ server_name=ZAP-Hosting Docs Test
 server_max_players=10
 ```
 
-See our [Foundry Server Configuration guide](foundry-configuration.md) to view all of the available options and what they each do.
+See our [Server Configuration](foundry-configuration.md) guide to view all of the available options and what they each do.
 
 ## Starting & Connecting to your server
 
@@ -123,6 +123,6 @@ Now it is time to start your server. Head over to the root directory and run **F
 
 You will now be able to direct connect to your server via your IP by heading to **Multiplayer->IP Direct Connect** and inputting your server's IP address and 3724 port, which is the default and the one you have port forwarded.
 
-If you wish your server to be available in the server list, please check out our [Foundry Server Configuration guide](foundry-configuration.md) and add the appropriate `server_name` and `server_is_public` parameters into your configuration file. Save the file once done and run the server executable again.
+If you wish your server to be available in the server list, please check out our [Server Configuration](foundry-configuration.md) guide and add the appropriate `server_name` and `server_is_public` parameters into your configuration file. Save the file once done and run the server executable again.
 
 You have successfully installed Foundry on your Windows Dedicated Server.

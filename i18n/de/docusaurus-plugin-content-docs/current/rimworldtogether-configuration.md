@@ -17,7 +17,7 @@ RimWorld Together-Server verfügen über eine Vielzahl von Konfigurationsparamet
 
 ## Zugriff auf deine Konfigurationsdatei
 
-Zunächst musst du auf deine Konfigurationsdatei zugreifen, um die Parameter zu bearbeiten. Derzeit kannst du diese Dateien nur bearbeiten, indem du per FTP auf deinen Server zugreifst. Wenn du dich mit der Verwendung von FTP nicht auskennst, empfehlen wir dir, einen Blick in die Anleitung [FTP file access](gameserver-ftpaccess.md) zu werfen.
+Zunächst musst du auf deine Konfigurationsdatei zugreifen, um die Parameter zu bearbeiten. Derzeit kannst du diese Dateien nur bearbeiten, indem du per FTP auf deinen Server zugreifst. Wenn du dich mit der Verwendung von FTP nicht auskennst, empfehlen wir dir, einen Blick in die Anleitung [Zugriff per FTP](gameserver-ftpaccess.md) zu werfen.
 
 :::note
 Der Server muss gestoppt werden, bevor eine Konfiguration bearbeitet werden kann. Wenn du eine Konfiguration bearbeitest und den Server neu startest, werden alle Änderungen rückgängig gemacht.

@@ -13,7 +13,7 @@ Here at ZAP-Hosting, we believe in the power of our Community, thus we are pleas
 
 All content produced under this program provides **money rewards** as an awesome benefit for successfully contributing! We offer reward payouts through PayPal and as credit for your ZAP-Hosting account. Rewards are provided as the final step once your contribution is approved by our ZAP-Hosting Contributions Team and is ready to be published.
 
-You can view more information about rewards as well as the criteria used for evaluating rewards via the [Contribution Rewards guide](contribution-rewards.md).
+You can view more information about rewards as well as the criteria used for evaluating rewards via the [Rewards](contribution-rewards.md).
 
 Our program currently accepts contributions in **English**.
 
@@ -25,13 +25,13 @@ We are pleased to have expanded our program to cover new areas in response to gr
 
 Our ZAP Guides contribution section involves creating content for our guides on our official [ZAP-Hosting Docs](https://zap-hosting.com/guides/). This involves creating brand new guides but also covers updates and expansions to existing guides where deemed necessary.
 
-Interested in Contributing to our Guides? Head over to our dedicated [Guides Process Guide](contribution-guides.md) to learn more.
+Interested in Contributing to our Guides? Head over to our dedicated [Guides Process](contribution-guides.md) to learn more.
 
 ### ZAP Blogs - Writing Blog Posts
 
 We are pleased to introduce blog posts as our latest area of interest for our contribution program. This is a very exciting opportunity that involves writing your very own informative blog posts for our official [ZAP-Hosting.com Blog](https://zap-hosting.com/en/blog/).
 
-Interested in Contributing to our Blog? Head over to our dedicated [Blogs Process Guide](contribution-blogs.md) to learn more.
+Interested in Contributing to our Blog? Head over to our dedicated [Blogs Process](contribution-blogs.md) to learn more.
 
 ## Who is this program for?
 
@@ -49,7 +49,7 @@ During participation in our ZAP-Hosting Contribution Program, you must abide by 
 - No unauthorized use of AI/generative tools and/or other pieces of intellectual property is allowed (this includes but is not limited to images, audiovisual media, written content and/or any other piece of intellectual property not specifically stated here, without explicit permission from the rightsholders).
 - All game content and trademarks are the property of their respective owners. All content on this site is the property of ZAP-Hosting GmbH.
 
-Our full Terms & Conditions for our Contribution Program can be [accessed here](contribution-terms.md).
+Our full Terms & Conditions for our Contribution Program can be found in our [Contribution Terms](contribution-terms.md).
 
 ## Provision of Temporary Services
 

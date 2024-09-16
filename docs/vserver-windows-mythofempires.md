@@ -16,7 +16,7 @@ Do you have a Windows VPS or rootserver and want to install a MOE Dedicated serv
 <InlineVoucher />
 
 ## Preparation
-To begin with, connect to your VPS or rootserver through Remote Desktop (RDP). Use our [RDP Initial Access](vserver-windows-userdp.md) guide if you need help doing this.
+To begin with, connect to your VPS or rootserver through Remote Desktop (RDP). Use our [Initial Access (RDP)](vserver-windows-userdp.md) guide if you need help doing this.
 
 Once you have accessed your server, you will need to setup **SteamCMD** in order to be able to download the necessary dedicated server files. SteamCMD is the **command-line (CLI)** version of the Steam client and is the tool which allows you to easily download a range of Steam workshop and dedicated server files. Download [SteamCMD from the official Valve website](https://developer.valvesoftware.com/wiki/SteamCMD) or directly [here](https://steamcdn-a.akamaihd.net/client/installer/steamcmd.zip).
 
@@ -103,7 +103,7 @@ You must create new rules for your MOE server. To do this, click on the incoming
 - TCP incoming and outgoing: 11888, 12888
 - UDP incoming and outgoing: 11888, 12888
 
-Please use our [Windows port forwarding guide](vserver-windows-port.md) if you need further assistance doing this.
+Please use our [Port Forwarding (Firewall)](vserver-windows-port.md) guide if you need further assistance doing this.
 
 </TabItem>
 </Tabs>

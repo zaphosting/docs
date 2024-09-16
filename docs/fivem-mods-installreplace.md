@@ -12,7 +12,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 <InlineVoucher />
 
 ## Connect with FTP
-First you should connect to your server via FTP, you can use our [FTP-Tutorial](gameserver-ftpaccess.md).
+First you should connect to your server via FTP, you can use our [Access via FTP](gameserver-ftpaccess.md) guide for this.
 
 ## Preperation
 

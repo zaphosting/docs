@@ -95,7 +95,7 @@ Achte darauf, dass du den RCON-Port eingibst, den du in der Konfigurationsdatei 
 Wenn die Verbindung erfolgreich ist, kannst du jetzt über das von dir gewählte RCON-Konsolenprogramm Befehle an deinen Palworld-Server senden. 
 
 :::tip
-In unserer [Palworld Server-Befehle Anleitung](palworld-server-commands.md) findest du alle derzeit verfügbaren Befehle, die du über RCON ausführen kannst.
+In unserer [Server-Befehle](palworld-server-commands.md) findest du alle derzeit verfügbaren Befehle, die du über RCON ausführen kannst.
 :::
 
 Du hast RCON erfolgreich auf deinem Palworld-Server aktiviert.

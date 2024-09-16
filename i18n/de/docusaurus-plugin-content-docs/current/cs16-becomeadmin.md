@@ -14,7 +14,7 @@ Die Zuweisung von Administratorberechtigungen ermöglicht dir eine einfache und 
 <InlineVoucher />
 
 ## Konfigurations
-Das Hinzufügen eines Admins erfolgt über die **users.ini** Config. Damit du überhaupt Admin werden kannst und diese Dateien findest, musst du vorher **AMXmodX** und **Metamod** installieren. Falls du dies noch nicht getan hast, dann lohnt es sich einen Blick in die folgende Anleitung zu werfen: [AMXmodX/Metamod + Plugins](cs16-plugins.md)
+Das Hinzufügen eines Admins erfolgt über die **users.ini** Config. Damit du überhaupt Admin werden kannst und diese Dateien findest, musst du vorher **AMXmodX** und **Metamod** installieren. Falls du dies noch nicht getan hast, dann lohnt es sich einen Blick in die folgende Anleitung zu werfen: [Plugins installieren](cs16-plugins.md)
 
 Damit die **users.ini** Konfigurationsdatei bearbeitet werden kann, muss eine Verbindung per FTP zum Server hergestellt werden. Dort navigieren wir in das ``/gXXXXXX/cs16/cstrike/addons/amxmodx/configs`` Verzeichnis. Als Nächstes öffnen wir die Config mit einem Text-Editor und bearbeiten diese.
 

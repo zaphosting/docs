@@ -27,7 +27,7 @@ Once you have prepared the image which follows those parameters, you are ready t
 
 ### Uploading files
 
-The next step is to upload your ready image to your RedM game server, which is done through the use of FTP. If you are not familiar with using FTP, we recommend you to have a look at the [FTP file access](gameserver-ftpaccess.md) guide.
+The next step is to upload your ready image to your RedM game server, which is done through the use of FTP. If you are not familiar with using FTP, we recommend you to have a look at the [Access via FTP](gameserver-ftpaccess.md) guide.
 
 Once you are logged in to FTP, navigate to the folder `gXXXX/redm/server-data/` and upload your server icon file there. Make sure to remember what the file is called.
 

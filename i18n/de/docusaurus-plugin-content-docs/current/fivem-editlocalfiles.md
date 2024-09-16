@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Übersicht
 
-Zuallererst müssen wir uns auf den Server verbinden. Hier geht es zur [Anleitung](gameserver-ftpaccess.md)
+Zuallererst müssen wir uns auf den Server verbinden. Hier geht es zur [Zugriff per FTP](gameserver-ftpaccess.md) Anleitung.
 
 ## Locales Files finden
 Haben wir das gemacht, suchen wir nach dem Script, wo wir die Localfiles verändern wollen.

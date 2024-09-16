@@ -10,7 +10,7 @@ services:
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 :::info
-For showing your server in the public server list its required to set a pastebin ID. You can find our guide [here](scp-pastebin.md).
+For showing your server in the public server list its required to set a pastebin ID. You can find our guide [Pastebin ID](scp-pastebin.md).
 
 The server must be turned off for changes to take effect.
 :::

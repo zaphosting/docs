@@ -27,9 +27,9 @@ Bevor du mit dieser Anleitung fortfährst, solltest du sicherstellen, dass du Fo
 
 ## Schritt 1: Vorbereiten des Webspace
 
-Besuche zunächst unsere [Webspace](https://zap-hosting.com/de/shop/product/webspace/)-Produktseite und kaufe das passende Webspace-Hosting-Angebot, das den Anforderungen deiner Website entspricht. Sobald das Produkt eingerichtet ist, musst du WordPress darauf installieren. Eine ausführliche Anleitung dazu findest du in unserer [WordPress Installationsanleitung](webspace-wordpress.md).
+Besuche zunächst unsere [Webspace](https://zap-hosting.com/de/shop/product/webspace/)-Produktseite und kaufe das passende Webspace-Hosting-Angebot, das den Anforderungen deiner Website entspricht. Sobald das Produkt eingerichtet ist, musst du WordPress darauf installieren. Eine ausführliche Anleitung dazu findest du in unserer [WordPress installieren](webspace-wordpress.md).
 
-Wenn du WordPress auf dem Webspace installiert hast, musst du deine Domain mit ihm verknüpfen. Auch hierzu findest du in unserem [Webspace-Domain Anleitung](webspace-adddomain.md) eine ausführliche Anleitung.
+Wenn du WordPress auf dem Webspace installiert hast, musst du deine Domain mit ihm verknüpfen. Auch hierzu findest du in unserem [Domain hinzufügen](webspace-adddomain.md) eine ausführliche Anleitung.
 
 ![image](https://screensaver01.zap-hosting.com/index.php/s/sHKHMm4Gs4K8aLD/preview)
 
@@ -111,7 +111,7 @@ Bitte beachte, dass es bis zu 24 Stunden dauern kann, bis Änderungen an DNS-Ein
 
 Als letzten Schritt empfehlen wir dir, ein neues SSL-Zertifikat für deine neue Website-Instanz auf deinem ZAP-Hosting-Webspace einzurichten. Wenn eine Domain über den Webspace hinzugefügt wird, bleibt sie standardmäßig unverschlüsselt.
 
-Wir empfehlen dir, unsere [Webspace-SSL-Anleitung](webspace-plesk-ssl.md) zu lesen, um detaillierte Anweisungen zur Einrichtung zu erhalten.
+Wir empfehlen dir, unsere [SSL Zertifikat erstellen](webspace-plesk-ssl.md) zu lesen, um detaillierte Anweisungen zur Einrichtung zu erhalten.
 
 ## Abschluss
 

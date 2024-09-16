@@ -42,7 +42,7 @@ Wenn der Mod einem gefällt, dann muss sich nun die Mod-ID nortiert werden. Die 
 ## Konfigurationsdateien öffnen
 
 Es gibt zwei Möglichkeiten die Dateien eines Servers bearbeiten zu können.
-Zum einen wäre dies via [FTP](gameserver-ftpaccess.md) möglich und einmal durch den Config-Editor im Webinterface selbst.
+Zum einen wäre dies via [Zugriff per FTP](gameserver-ftpaccess.md) möglich und einmal durch den Config-Editor im Webinterface selbst.
 
 In diesem Fall wird die Config manuell via FTP bearbeitet, um Syntax-Fehler in der Config zu vermeiden.
 Wie genau die Verbindung via FTP hergestellt wird, wird in der oben verlinkten Anleitung genau beschrieben.

@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
-In this guide, we will explore how to connect to your Abiotic Factor server. There are two methods of connecting, either directly via the IP address of your server or through the server list. We recommend configurating the server to your likings beforehand, learn more about this through our [Abiotic Factor Configuration guide](abioticfactor-configuration.md).
+In this guide, we will explore how to connect to your Abiotic Factor server. There are two methods of connecting, either directly via the IP address of your server or through the server list. We recommend configurating the server to your likings beforehand, learn more about this through our [Server Configuration](abioticfactor-configuration.md) guide.
 
 <InlineVoucher />
 
@@ -23,7 +23,7 @@ Firstly, you need to know the IP and Port of your Abiotic Factor server in order
 
 ![image](https://screensaver01.zap-hosting.com/index.php/s/FYdNBfyWHb6g9MJ/preview)
 
-If you are running your Abiotic Factor server as an external dedicated server, your IP will be of the host machine and the Port will be the one which you have set in your configuration file (by default this is 7777). Check out our [Abiotic Factor Configuration guide](abioticfactor-configuration.md) for more information about the port.
+If you are running your Abiotic Factor server as an external dedicated server, your IP will be of the host machine and the Port will be the one which you have set in your configuration file (by default this is 7777). Check out our [Server Configuration](abioticfactor-configuration.md) guide for more information about the port.
 
 ### Connecting in-game
 

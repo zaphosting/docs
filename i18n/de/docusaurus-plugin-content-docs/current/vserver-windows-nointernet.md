@@ -94,6 +94,6 @@ Wir empfehlen, die Windows Firewall vorübergehend komplett zu deaktivieren, um 
 
 Wenn die Probleme behoben sind, wenn die Firewall deaktiviert ist, ist die Ursache deines Problems wahrscheinlich eine Fehlkonfiguration der Firewall.
 
-Die Lösung für die Firewall hängt stark von dem Problem ab, das du hast. Wenn du weitere Hilfe bei der Verwaltung von Firewall-Regeln benötigst, verwende bitte unsere [Windows Port Forwarding Guide](vserver-windows-port.md).
+Die Lösung für die Firewall hängt stark von dem Problem ab, das du hast. Wenn du weitere Hilfe bei der Verwaltung von Firewall-Regeln benötigst, verwende bitte unsere [Portweiterleitung (Firewall)](vserver-windows-port.md) Anleitung.
 
 Als letzten Ausweg kannst du auch versuchen, die Regeln der Windows-Firewall vollständig auf die Standardeinstellungen zurückzusetzen, indem du die Option **Standardeinstellungen wiederherstellen** im Menü **Windows Defender Firewall-Einstellungen** verwendest.

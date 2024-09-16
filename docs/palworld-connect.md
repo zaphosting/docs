@@ -12,10 +12,10 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
-In this guide, we will explore how to connect to your Palworld server. We recommend configurating the server to your likings beforehand, learn more about this through our [Palworld Configuration guide](palworld-configuration.md).
+In this guide, we will explore how to connect to your Palworld server. We recommend configurating the server to your likings beforehand, learn more about this through our [Server Configuration](palworld-configuration.md) guide.
 
 :::tip
-We have a separate **Palword (Xbox)** game version now available on our Gameservers, which allows you to play on Xbox/Microsoft Store game versions. Check out our [Game server Switch guide](gameserver-gameswitch.md) to learn how to easily switch your game. Make sure to backup your saves as always.
+We have a separate **Palword (Xbox)** game version now available on our Gameservers, which allows you to play on Xbox/Microsoft Store game versions. Check out our [Change the game](gameserver-gameswitch.md) guide to learn how to easily switch your game. Make sure to backup your saves as always.
 :::
 
 <YouTube videoId="SDZC4-FEdNM" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/eA3xonLFkB4x3G6/preview" title="Setup Palworld server in just a MINUTE!" description="Feel like you understand better when you see things in action? We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
@@ -28,7 +28,7 @@ Firstly, you need to know the IP and Port of your Palworld server in order to be
 
 ![image](https://github.com/zaphosting/docs/assets/42719082/62bcad5b-064c-45cd-a7f0-406a1148b15c)
 
-If you are running your Palworld server as an external dedicated server, your IP will be of the host machine and the Port will be the one which you have set in your configuration file (by default this is 8211). Check out our [Palworld Configuration guide](palworld-configuration.md) for more information about the port.
+If you are running your Palworld server as an external dedicated server, your IP will be of the host machine and the Port will be the one which you have set in your configuration file (by default this is 8211). Check out our [Server Configuration](palworld-configuration.md) guide for more information about the port.
 
 ## Direct Connect
 

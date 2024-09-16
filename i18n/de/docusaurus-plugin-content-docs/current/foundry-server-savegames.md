@@ -19,7 +19,7 @@ In dieser Anleitung erfährst du, wie du deine Foundry Gamesaves auf deinem Game
 
 Um auf die Dateien deines Servers zuzugreifen, benötigst du einen FTP-Client wie [WinSCP](https://winscp.net/eng/index.php) oder [FileZilla](https://filezilla-project.org/), die beide Open-Source sind und kostenlos heruntergeladen werden können.
 
-Du musst dich über einen FTP-Client mit deinem Server verbinden, indem du die Zugangsdaten verwendest, die du unter **Tools->FTP-Broswer** im Webinterface deines Gameservers findest. Bitte benutze unseren [Zugriff per FTP Anleitung](gameserver-ftpaccess.md) als weitere Hilfe, um dich mit deinem Server zu verbinden.
+Du musst dich über einen FTP-Client mit deinem Server verbinden, indem du die Zugangsdaten verwendest, die du unter **Tools->FTP-Broswer** im Webinterface deines Gameservers findest. Bitte benutze unsere [Zugriff per FTP](gameserver-ftpaccess.md) Anleitung als weitere Hilfe, um dich mit deinem Server zu verbinden.
 
 
 ## Backup Savegame
@@ -54,7 +54,7 @@ An diesem Ort solltest du Ordner sehen, die jeweils ein Savegame sind. Klicke ei
 
 ### Automatische Sicherung
 
-Wir bieten auch die Möglichkeit, dein Savegame (und deine Konfigurationsdatei) direkt über unser Webinterface automatisch zu sichern. Rufe einfach das Webinterface deines Gameservers auf und gehe in den Bereich **Tools->Backups**. Hier kannst du eine Reihe von Optionen konfigurieren, um automatische Backups für deinen Server zu planen. Wir stellen dir 10gb kostenlosen Backup-Speicher zur Verfügung, in dem deine Backups gespeichert werden. Weitere Informationen zu Backups findest du in unserem [Automatic Server Backups Anleitung](gameserver-backups.md) zu diesem Thema.
+Wir bieten auch die Möglichkeit, dein Savegame (und deine Konfigurationsdatei) direkt über unser Webinterface automatisch zu sichern. Rufe einfach das Webinterface deines Gameservers auf und gehe in den Bereich **Tools->Backups**. Hier kannst du eine Reihe von Optionen konfigurieren, um automatische Backups für deinen Server zu planen. Wir stellen dir 10gb kostenlosen Backup-Speicher zur Verfügung, in dem deine Backups gespeichert werden. Weitere Informationen zu Backups findest du in unserer [Backups](gameserver-backups.md) Anleitung zu diesem Thema.
 
 ## Savegame hochladen
 
@@ -73,7 +73,7 @@ Es kann nützlich sein, den Namen des hochgeladenen Gamesave-Ordners zu kopieren
 
 ## Savegame aktivieren
 
-Um ein bestimmtes Savegame verwenden zu können, musst du eine Konfigurationsdatei bearbeiten. Es gibt mehrere Möglichkeiten, dies zu tun. Wir werden uns mit dem Webinterface beschäftigen, da dies die benutzerfreundlichste ist. Wenn du andere Methoden zur Bearbeitung der Datei suchst, schaue dir bitte unsere [Foundry-Konfigurationsanleitung](foundry-configuration.md) an, in der dies beschrieben wird.
+Um ein bestimmtes Savegame verwenden zu können, musst du eine Konfigurationsdatei bearbeiten. Es gibt mehrere Möglichkeiten, dies zu tun. Wir werden uns mit dem Webinterface beschäftigen, da dies die benutzerfreundlichste ist. Wenn du andere Methoden zur Bearbeitung der Datei suchst, schaue dir bitte unsere [Server-Konfiguration](foundry-configuration.md) an, in der dies beschrieben wird.
 
 Gehe einfach zum Abschnitt **Einstellungen** im Webinterface deines Gameservers und suche die Einstellung **Savename**.
 

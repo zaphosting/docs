@@ -59,7 +59,7 @@ The setting of quotation marks such as semicolon and comma is missing here, the 
 Instead of the ZAP editor the Server.cfg can also be edited directly via FTP. In this example we use **FileZilla**
 to establish a connection via FTP to the game server server and the directories of your game server.
 
-Here you learn how to connect to your game server via FTP: [FTP-Dateizugriff - Mit FTP verbinden](gameserver-ftpaccess.md).
+Here you learn how to connect to your game server via FTP: [Access via FTP](gameserver-ftpaccess.md).
 
 
 ## Establishing the connection and navigating to the path of the server.cfg
