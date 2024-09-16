@@ -21,7 +21,7 @@ Wusstest du, dass du unser **ZAP GS/TS3 Interface** direkt auf deinem Dedicated 
 
 ## Vorbereitung
 
-Verbinde dich zunächst über SSH mit deinem Dedicated Server. Benutze unsere Anleitung [Erstzugriff (SSH)](vserver-linux-ssh.md), wenn du dabei Hilfe brauchst.
+Verbinde dich zunächst über SSH mit deinem Dedicated Server. Benutze unsere Anleitung [Erstzugriff (SSH)](vserver-linux-ssh.md), wenn du dabei Hilfe benötigst.
 
 Du musst auch eine Ersteinrichtung für SteamCMD vornehmen, wenn du es zum ersten Mal auf deinem Linux-Server verwendest. Bitte benutze unsere [SteamCMD einrichten](dedicated-linux-steamcmd.md) Anleitung und stelle sicher, dass SteamCMD vollständig eingerichtet ist, bevor du fortfährst.
 
@@ -54,7 +54,7 @@ Mit der erstellten Kopie kannst du die wichtigsten Konfigurationsparameter bearb
 nano /home/steam/Palworld-Server/Pal/Saved/Config/LinuxServer/PalWorldSettings.ini
 ```
 
-In unserem [Server Konfiguration](palworld-configuration.md) findest du alle verfügbaren Optionen und ihre Funktionen.
+In unserem [Server Konfiguration](palworld-configuration.md) Anleitung findest du alle verfügbaren Optionen und ihre Funktionen.
 
 ## Starten und Verbinden mit deinem Server
 

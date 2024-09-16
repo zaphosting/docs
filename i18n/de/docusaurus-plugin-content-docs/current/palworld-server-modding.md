@@ -23,7 +23,7 @@ Seit der Veröffentlichung von Palworld sind immer wieder neue spannende Mods on
 Gegenwärtig kannst du verfügbare Mods auf Modding-Seiten von Drittanbietern ansehen und herunterladen. Wir empfehlen die Nutzung von Seiten wie [Nexus Mods](https://www.nexusmods.com/palworld/) oder [Curseforge](https://www.curseforge.com/palworld/), die in der Modding-Szene einen guten Ruf genießen. Du kannst derzeit keine Mods über Steam Workshop herunterladen.
 
 :::note
-ZAP-Hosting haftet nicht für mögliche Veränderungen/Schäden an deinen Serverdateien oder deiner Welt durch die Installation von Mods. Wir raten dir dringend, Backups zu machen, bevor du weitermachst. Mehr über Backups erfährst du in unserem [Savegames verwalten](palworld-server-savegames.md), in dem dieses Thema ausführlich behandelt wird.
+ZAP-Hosting haftet nicht für mögliche Veränderungen/Schäden an deinen Serverdateien oder deiner Welt durch die Installation von Mods. Wir raten dir dringend, Backups zu machen, bevor du weitermachst. Mehr über Backups erfährst du in unserer [Savegames verwalten](palworld-server-savegames.md) Anleitung, in dem dieses Thema ausführlich behandelt wird.
 :::
 
 :::info
@@ -62,7 +62,7 @@ Gehe zu der Mod, die du verwenden möchtest, und lade sie lokal auf dein Gerät 
 
 Sobald du die PAK-Dateien zum Hochladen bereit hast, gehst du zum Bereich **Tools->FTP-Browser** im Webinterface deines Gameservers. 
 
-Du brauchst einen FTP-Client, um dich mit deinem Server zu verbinden. Wenn du keinen FTP-Client hast oder Hilfe bei der FTP-Verbindung brauchst, verwende bitte unsere [Zugriff per FTP](gameserver-ftpaccess.md).
+Du brauchst einen FTP-Client, um dich mit deinem Server zu verbinden. Wenn du keinen FTP-Client hast oder Hilfe bei der FTP-Verbindung brauchst, verwende bitte unsere [Zugriff per FTP](gameserver-ftpaccess.md) Anleitung.
 
 In deinem Webinterface kannst du die Schaltfläche **Direktverbindung** verwenden. Dadurch wird das FTP-Programm deiner Wahl geöffnet und du wirst automatisch eingeloggt. 
 

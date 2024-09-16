@@ -16,7 +16,7 @@ Die Zuweisung von Administratorberechtigungen ermöglicht dir eine einfache und 
 ## Admin werden via RCON
 
 Mithilfe eines RCON Tools kannst du auf deinem Server beliebige Befehle ausführen, auch Adminrechte können so vergeben werden.
-Zuerst musst du [Verbindung via RCON](rust-connectrcon.md).
+Zuerst musst du die [Verbindung via RCON](rust-connectrcon.md) herstellen.
 
 Sobald du verbunden bist, navigiere in das Feld, in welchem du Konsolenbefehle ausführen kannst. In unserem Beispiel nutzen wir **RustAdmin**.
 

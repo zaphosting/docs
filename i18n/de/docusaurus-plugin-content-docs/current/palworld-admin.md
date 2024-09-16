@@ -74,7 +74,7 @@ Die letzte Methode, um auf die Rohdatei zuzugreifen, ist über FTP. Wenn du dich
 
 ## Sich als Admin einstellen
 
-Sobald dein Admin-Passwort festgelegt ist, musst du dich selbst als Admin hinzufügen. Starte Palworld und verbinde dich mit deinem Server. Wenn du dabei Hilfe brauchst, wirf einen Blick in unserer [Mit dem Server verbinden](palworld-connect.md).
+Sobald dein Admin-Passwort festgelegt ist, musst du dich selbst als Admin hinzufügen. Starte Palworld und verbinde dich mit deinem Server. Wenn du dabei Hilfe brauchst, wirf einen Blick in unserer [Mit dem Server verbinden](palworld-connect.md) Anleitung.
 
 Öffne im Spiel den Chat mit "Enter". Gib dann den folgenden Befehl ein und ersetze dabei "Passwort" durch das Admin-Passwort, das du zuvor festgelegt hast:
 

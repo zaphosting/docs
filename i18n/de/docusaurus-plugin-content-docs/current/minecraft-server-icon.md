@@ -25,7 +25,7 @@ Um das Icon hinzuzufügen werden FTP Rechte sowie das Icon selbst benötigt.
 
 >Wichtig: Das Icon muss in der Größe 64x64 Pixel sein und den Namen server-icon.png tragen. 
 
-Zuerst wird eine Verbindung via FTP zum Gameserver aufgebaut, wie genau das funktioniert, kann [Zugriff per FTP](gameserver-ftpaccess.md) eingesehen werden. 
+Zuerst wird eine Verbindung via FTP zum Gameserver aufgebaut, wie genau das funktioniert, kann in der [Zugriff per FTP](gameserver-ftpaccess.md) Anleitung eingesehen werden. 
 
 Sobald die Verbindung besteht, sieht man die Server-Daten, wie z.B.: 
 

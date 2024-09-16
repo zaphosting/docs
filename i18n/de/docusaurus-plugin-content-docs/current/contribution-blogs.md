@@ -40,7 +40,7 @@ Denk daran, dass dies nur nützliche Ideen sind, du **musst** nicht unbedingt da
 
 ### Einreichen des Vorschlags
 
-Nachdem du nun alle Informationen verstanden hast, gehe bitte zu unserem **[Blog-Vorschlagsformular](https://forms.gle/jft8sb4mmKMkbt5W9)**. Fülle das Formular so detailliert wie möglich aus und sende es ab. Außerdem musst du bestätigen, dass du unsere Allgemeinen Geschäftsbedingungen für das Beitragsprogramm akzeptierst, die du [Beitragsbedingungen](contribution-terms.md) einsehen kannst.
+Nachdem du nun alle Informationen verstanden hast, gehe bitte zu unserem **[Blog-Vorschlagsformular](https://forms.gle/jft8sb4mmKMkbt5W9)**. Fülle das Formular so detailliert wie möglich aus und sende es ab. Außerdem musst du bestätigen, dass du unsere Allgemeinen Geschäftsbedingungen für das Beitragsprogramm akzeptierst, die du unter [Beitragsbedingungen](contribution-terms.md) einsehen kannst.
 
 :::caution
 Achte bitte darauf, dass du deine ZAP ID korrekt angibst, denn so werden wir dich bezüglich deines Blogvorschlags kontaktieren!

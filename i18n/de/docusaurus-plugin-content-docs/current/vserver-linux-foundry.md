@@ -21,7 +21,7 @@ Wusstest du, dass du unser **ZAP GS/TS3 Interface** direkt auf deinem VPS oder R
 
 ## Vorbereitung
 
-Verbinde dich zunächst über SSH mit deinem VPS oder Root-Server. Benutze unsere Anleitung [Erstzugriff (SSH)](vserver-linux-ssh.md), wenn du dabei Hilfe brauchst.
+Verbinde dich zunächst über SSH mit deinem VPS oder Root-Server. Benutze unsere Anleitung [Erstzugriff (SSH)](vserver-linux-ssh.md), wenn du dabei Hilfe benötigst.
 
 Du musst auch eine Ersteinrichtung für SteamCMD vornehmen, wenn du es zum ersten Mal auf deinem Linux-Server verwendest. Bitte benutze unsere [SteamCMD einrichten](vserver-linux-steamcmd.md) Anleitung und stelle sicher, dass SteamCMD vollständig eingerichtet ist, bevor du fortfährst.
 
@@ -55,7 +55,7 @@ Du kannst alle Konfigurationsparameter anpassen, indem du die Konfigurationsdate
 nano /home/steam/Foundry-Server/app.cfg
 ```
 
-In unserem [Server-Konfiguration](foundry-configuration.md) findest du alle verfügbaren Optionen und ihre Funktionen.
+In unserem [Server-Konfiguration](foundry-configuration.md) Anleitung findest du alle verfügbaren Optionen und ihre Funktionen.
 
 ## Starten und Verbinden mit deinem Server
 

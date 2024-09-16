@@ -38,7 +38,7 @@ Denke daran, dass dies nur nützliche Ideen sind, du **musst** nicht unbedingt d
 
 ### Einreichen des Vorschlags
 
-Wenn du dir sicher bist, dass dein Vorschlag für unsere Dokumentation geeignet ist, gehe bitte zu unserem [ZAP Docs GitHub Repository] (https://github.com/zaphosting/docs) und eröffne einen Beitrag mit der Vorlage **Beitragsvorschlag**. Bitte folge der Vorlage, die dir zur Verfügung gestellt wird, und stelle sicher, dass du alle notwendigen Details ausfüllst. Außerdem musst du bestätigen, dass du unsere Allgemeinen Geschäftsbedingungen für das Beitragsprogramm akzeptierst, die du [Beitragsbedingungen](contribution-terms.md) einsehen kannst. 
+Wenn du dir sicher bist, dass dein Vorschlag für unsere Dokumentation geeignet ist, gehe bitte zu unserem [ZAP Docs GitHub Repository] (https://github.com/zaphosting/docs) und eröffne einen Beitrag mit der Vorlage **Beitragsvorschlag**. Bitte folge der Vorlage, die dir zur Verfügung gestellt wird, und stelle sicher, dass du alle notwendigen Details ausfüllst. Außerdem musst du bestätigen, dass du unsere Allgemeinen Geschäftsbedingungen für das Beitragsprogramm akzeptierst, die du unter [Beitragsbedingungen](contribution-terms.md) einsehen kannst. 
 
 :::caution
 Bitte achte darauf, dass du deine ZAP ID richtig ausfüllst, damit du deine Prämie auf das richtige Konto erhältst!

@@ -38,7 +38,7 @@ Gib im Menü einen sinnvollen Namen und eine Beschreibung für den Schlüssel ei
 ![image](https://screensaver01.zap-hosting.com/index.php/s/qpPTPZHP4EFfsid/preview)
 
 :::tip
-Wenn du mehrere Oasen in deinem Realm miteinander verbinden möchtest und sie gleichzeitig aktiv sein sollen, kannst du in unserem [Mehrere Oasen](lastoasis-multiple-oases.md) nachlesen, wie du das machst.
+Wenn du mehrere Oasen in deinem Realm miteinander verbinden möchtest und sie gleichzeitig aktiv sein sollen, kannst du in unserer [Mehrere Oasen](lastoasis-multiple-oases.md) Anleitung nachlesen, wie du das machst.
 :::
 
 Gehe wieder zu den **Einstellungen** im Webinterface deines Gameservers und gib diesen Code in das Feld **ProviderKey** ein. Achte darauf, dass du nach der Änderung speicherst.

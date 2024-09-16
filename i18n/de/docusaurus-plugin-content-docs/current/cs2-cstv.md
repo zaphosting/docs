@@ -57,7 +57,7 @@ Wenn die Funktion beim Server aktiviert ist, dann ist der Zugriff über die IP-A
 connect SERVERIP:27020 (Beispiel Port, schaue unter den Einstellungen nach deinen definierten Port)
 ```
 
-Manuelle und automatische aufgenommene Demos werden im Hauptverzeichnis (/gxxxxx/cs2/game/csgo) des CS2 Server abgelegt. Diese können über den bereitgestellten FTP-Zugang heruntergeladen werden. Sollte du noch nicht wissen, wie der Zugang via FTP möglich ist, dann findest du hierzu eine entsprechende [Zugriff per FTP](gameserver-ftpaccess.md).
+Manuelle und automatische aufgenommene Demos werden im Hauptverzeichnis (/gxxxxx/cs2/game/csgo) des CS2 Server abgelegt. Diese können über den bereitgestellten FTP-Zugang heruntergeladen werden. Sollte du noch nicht wissen, wie der Zugang via FTP möglich ist, dann findest du hierzu eine entsprechende Anleitung: [Zugriff per FTP](gameserver-ftpaccess.md).
 
 ![image](https://screensaver01.zap-hosting.com/index.php/s/M6226mceDG5b2As/preview)
 

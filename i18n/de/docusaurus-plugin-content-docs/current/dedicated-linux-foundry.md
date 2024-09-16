@@ -55,7 +55,7 @@ Du kannst alle Konfigurationsparameter anpassen, indem du die Konfigurationsdate
 nano /home/steam/Foundry-Server/app.cfg
 ```
 
-In unserem [Server-Konfiguration](foundry-configuration.md) findest du alle verfügbaren Optionen und ihre Funktionen.
+In unserer [Server-Konfiguration](foundry-configuration.md) Anleitung findest du alle verfügbaren Optionen und ihre Funktionen.
 
 ## Starten und Verbinden mit deinem Server
 

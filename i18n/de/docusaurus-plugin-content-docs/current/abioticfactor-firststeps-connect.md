@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-In dieser Anleitung erfährst du, wie du dich mit deinem Abiotic Factor Server verbinden kannst. Es gibt zwei Möglichkeiten, sich zu verbinden: entweder direkt über die IP-Adresse deines Servers oder über die Serverliste. Wir empfehlen, den Server vorher nach deinen Wünschen zu konfigurieren. Mehr dazu erfährst du in unserem [Server-Konfiguration](abioticfactor-configuration.md).
+In dieser Anleitung erfährst du, wie du dich mit deinem Abiotic Factor Server verbinden kannst. Es gibt zwei Möglichkeiten, sich zu verbinden: entweder direkt über die IP-Adresse deines Servers oder über die Serverliste. Wir empfehlen, den Server vorher nach deinen Wünschen zu konfigurieren. Mehr dazu erfährst du in unserer [Server-Konfiguration](abioticfactor-configuration.md) Anleitung.
 
 <InlineVoucher />
 
@@ -23,7 +23,7 @@ Zunächst musst du die IP und den Port deines Abiotic Factor-Servers kennen, um 
 
 ![image](https://screensaver01.zap-hosting.com/index.php/s/P2GPRPcTPAytK2z/preview)
 
-Wenn du deinen Abiotic Factor Server als externen dedizierten Server betreibst, ist die IP die des Host-Rechners und der Port derjenige, den du in deiner Konfigurationsdatei eingestellt hast (standardmäßig ist das 7777). In unserer [Server-Konfiguration](abioticfactor-configuration.md) findest du weitere Informationen zum Port.
+Wenn du deinen Abiotic Factor Server als externen dedizierten Server betreibst, ist die IP die des Host-Rechners und der Port derjenige, den du in deiner Konfigurationsdatei eingestellt hast (standardmäßig ist das 7777). In unserer [Server-Konfiguration](abioticfactor-configuration.md) Anleitung findest du weitere Informationen zum Port.
 
 ### Verbinden im Spiel
 

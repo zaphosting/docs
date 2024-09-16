@@ -16,7 +16,7 @@ BepInEx ist ein sehr beliebtes Open-Source-Plugin und Modding-Framework, mit dem
 
 ## BepInEx Spielversion
 
-Um **BepInEx**-kompatible Plugins in V Rising zu verwenden, musst du zuerst die **V Rising BepInEx**-Spielversion auf deinem Server installieren. Das kannst du ganz einfach mit unserem Gameserver Game Switcher machen. Mehr darüber erfährst du in unserem [Spielwechsel](gameserver-gameswitch.md).
+Um **BepInEx**-kompatible Plugins in V Rising zu verwenden, musst du zuerst die **V Rising BepInEx**-Spielversion auf deinem Server installieren. Das kannst du ganz einfach mit unserem Gameserver Game Switcher machen. Mehr darüber erfährst du in unserer [Spielwechsel](gameserver-gameswitch.md) Anleitung.
 
 ## Plugins hochladen
 

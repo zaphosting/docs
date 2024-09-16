@@ -82,7 +82,7 @@ In dem RCON-Programm deiner Wahl musst du die IP-Adresse und den Port deines Ser
 Wenn die Verbindung erfolgreich ist, kannst du nun über das RCON-Konsolenprogramm deiner Wahl Befehle an deinen Palworld-Server senden. 
 
 :::tip
-In unserer [Server-Befehle](openmp-server-commands.md) findest du alle derzeit verfügbaren Befehle, die du über RCON ausführen kannst.
+In unserer [Server-Befehle](openmp-server-commands.md) Anleitung findest du alle derzeit verfügbaren Befehle, die du über RCON ausführen kannst.
 :::
 
 Du hast RCON erfolgreich auf deinem Palworld-Server aktiviert.

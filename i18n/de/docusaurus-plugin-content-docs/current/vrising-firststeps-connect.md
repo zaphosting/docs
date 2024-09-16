@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einleitung
 
-In dieser Anleitung erfahren wir, wie du dich mit deinem V Rising Server verbinden kannst. Es gibt zwei Möglichkeiten, eine Verbindung herzustellen: entweder direkt über die IP-Adresse deines Servers oder über die Serverliste. Wir empfehlen, den Server vorher nach deinen Wünschen zu konfigurieren. Mehr darüber erfährst du in unserer [Server-Konfiguration](vrising-configuration.md).
+In dieser Anleitung erfahren wir, wie du dich mit deinem V Rising Server verbinden kannst. Es gibt zwei Möglichkeiten, eine Verbindung herzustellen: entweder direkt über die IP-Adresse deines Servers oder über die Serverliste. Wir empfehlen, den Server vorher nach deinen Wünschen zu konfigurieren. Mehr darüber erfährst du in unserer [Server-Konfiguration](vrising-configuration.md) Anleitung.
 
 <InlineVoucher />
 

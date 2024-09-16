@@ -13,7 +13,7 @@ Wir bei ZAP-Hosting glauben an die Kraft unserer Community. Deshalb freuen wir u
 
 Für alle Inhalte, die im Rahmen dieses Programms produziert werden, gibt es **Geldprämien** als großartigen Vorteil für einen erfolgreichen Beitrag! Wir bieten die Auszahlung der Prämien über PayPal und als Guthaben für dein ZAP-Hosting-Konto an. Die Belohnungen werden im letzten Schritt ausgezahlt, sobald dein Beitrag von unserem ZAP-Hosting-Beitragsteam genehmigt wurde und zur Veröffentlichung bereit ist.
 
-Weitere Informationen zu den Belohnungen sowie die Kriterien, nach denen die Belohnungen bewertet werden, findest du in der [Belohnungen](contribution-rewards.md).
+Weitere Informationen zu den Belohnungen sowie die Kriterien, nach denen die Belohnungen bewertet werden, findest du unter [Belohnungen](contribution-rewards.md).
 
 Unser Programm nimmt derzeit Beiträge in **Englisch** an.
 

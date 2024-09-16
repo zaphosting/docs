@@ -1,4 +1,4 @@
----
+# ---
 id: vserver-linux-create-gameservice
 title: "VPS: Erstelle deinen Dedicated Game Server als Linux Service"
 description: Informationen zum Einrichten deines dedizierten Spieleservers als Linux Service auf einem Linux VPS von ZAP-Hosting - ZAP-Hosting.com Dokumentation
@@ -19,7 +19,7 @@ Dienste sind ein fester Bestandteil von Linux und bezeichnen einen Prozess oder 
 
 Verbinde dich zunächst über SSH mit deinem VPS oder Root-Server. Nutze unsere Anleitung [Erstzugriff (SSH)](vserver-linux-ssh.md), wenn du dabei Hilfe brauchst.
 
-Du solltest auch eine unserer speziellen Anleitungen für Spieleserver in diesem Abschnitt befolgen, um einen Spieleserver auf deinem Linux-System zu installieren und einzurichten. In dieser Anleitung verwenden wir den [Palworld](vserver-linux-palworld.md) als Beispiel, aber die Anweisungen können für alle unsere Anleitungen angepasst werden.
+Du solltest auch eine unserer speziellen Anleitungen für Spieleserver in diesem Abschnitt befolgen, um einen Spieleserver auf deinem Linux-System zu installieren und einzurichten. In dieser Anleitung verwenden wir den [Palworld Dedicated Server](vserver-linux-palworld.md) als Beispiel, aber die Anweisungen können für alle unsere Anleitungen angepasst werden.
 
 ## Einen Dienst erstellen
 

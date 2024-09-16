@@ -19,7 +19,7 @@ Hast du einen Windows VPS oder Rootserver und möchtest darauf einen Myth of Emp
 
 ## Vorbereitung
 
-Verbinde dich zunächst mit deinem VPS oder Rootserver über Remote Desktop (RDP). Verwende unsere Anleitung [Erstzugang (RDP)](vserver-windows-userdp.md), wenn du Hilfe brauchst.
+Verbinde dich zunächst mit deinem VPS oder Rootserver über Remote Desktop (RDP). Verwende unsere Anleitung [Erstzugang (RDP)](vserver-windows-userdp.md), wenn du Hilfe benötigst.
 
 Sobald du auf deinen Server zugegriffen hast, musst du **SteamCMD** einrichten, damit du die notwendigen Dateien für den dedizierten Server herunterladen kannst. SteamCMD ist die **Befehlszeilenversion (CLI)** des Steam-Clients und das Tool, mit dem du ganz einfach eine Reihe von Steam-Workshop- und Dedicated Server-Dateien herunterladen kannst. Lade [SteamCMD von der offiziellen Valve-Website](https://developer.valvesoftware.com/wiki/SteamCMD) oder direkt [hier](https://steamcdn-a.akamaihd.net/client/installer/steamcmd.zip) herunter.
 
@@ -106,7 +106,7 @@ Du musst neue Regeln für deinen MOE-Server erstellen. Klicke dazu auf die ein- 
 - TCP eingehend und ausgehend: 11888, 12888
 - UDP eingehend und ausgehend: 11888, 12888
 
-Bitte benutze unsere [Portweiterleitung (Firewall)](vserver-windows-port.md), wenn du weitere Hilfe benötigst.
+Bitte benutze unsere [Portweiterleitung (Firewall)](vserver-windows-port.md) Anleitung, wenn du weitere Hilfe benötigst.
 
 </TabItem>
 </Tabs>

@@ -58,7 +58,7 @@ Außerdem kann es sein, dass andere Mods nicht wie erwartet funktionieren, wenn 
 
 ## Mods hochladen
 
-Wenn du die Mods fertig hast, kannst du damit beginnen, dich per FTP mit deinem Gameserver zu verbinden. Lies unsere [Zugriff per FTP](gameserver-ftpaccess.md), um zu erfahren, wie das geht.
+Wenn du die Mods fertig hast, kannst du damit beginnen, dich per FTP mit deinem Gameserver zu verbinden. Lies unsere [Zugriff per FTP](gameserver-ftpaccess.md) Anleitung, um zu erfahren, wie das geht.
 
 Wenn dein FTP-Client bereit ist, navigiere in das folgende Verzeichnis:
 ```

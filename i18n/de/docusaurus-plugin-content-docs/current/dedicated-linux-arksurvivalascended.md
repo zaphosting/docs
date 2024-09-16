@@ -56,7 +56,7 @@ Du kannst alle Konfigurationsparameter anpassen, indem du die Konfigurationsdate
 nano /home/steam/ARK-SA-Server/ShooterGame/Saved/Config/WindowsServer/GameUserSettings.ini
 ```
 
-In unserer [Server Konfiguration](ark-configuration.md) findest du alle verfügbaren Optionen und ihre Funktionen.
+In unserer [Server Konfiguration](ark-configuration.md) Anleitung findest du alle verfügbaren Optionen und ihre Funktionen.
 
 ## Starten und Verbinden mit deinem Server
 

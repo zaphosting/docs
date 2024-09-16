@@ -34,7 +34,7 @@ Drücke oben auf der Seite einfach auf das grüne + Symbol und akzeptiere die Au
 
 Dein Backup wurde nun erstellt und du kannst über FTP darauf zugreifen, wie [Zugriff per FTP](gameserver-ftpaccess.md) gezeigt wird.
 
-Alternativ kannst du die Savegame-Dateien auch direkt aus dem Bereich "Savegame Manager" im Webinterface herunterladen. Diesen findest du [Savegame Manager](satisfactory-savegame.md).
+Alternativ kannst du die Savegame-Dateien auch direkt aus dem Bereich "Savegame Manager" im Webinterface herunterladen. Diesen findest du im [Savegame Manager](satisfactory-savegame.md).
 
 ### Zur experimentellen Version wechseln
 Gehe zunächst auf deine Satisfactory Produktseite und öffne den Reiter "Einstellungen -> Spiele".
