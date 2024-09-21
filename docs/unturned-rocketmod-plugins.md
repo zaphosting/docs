@@ -13,7 +13,8 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Install plugins on an Unturned Rocket Mod Server
 
-### Step 1
+### Prerequisites
+
 First, a connection to the server via [Access via FTP](gameserver-ftpaccess.md) must be established.
 
 As soon as the FTP connection is established, the "Plugins" directory must be opened. 
@@ -25,7 +26,7 @@ It should also be empty by default:
 
 ![image](https://screensaver01.zap-hosting.com/index.php/s/wYY7jLji9YaNcBp/preview)
 
-### Step 2
+### Uploading Plugins
 
 Now a plugin can be uploaded. 
 Plugins for the Rocketmod can be found for example on Github: https://github.com/RocketModPlugins
@@ -44,7 +45,7 @@ Now the desired plugin is available on the server:
 
 ![image](https://screensaver01.zap-hosting.com/index.php/s/DYXpnZ2n5ibxW5t/preview)
 
-### Step 3
+### Starting the Server
 
 The game server can now be started in the web interface: 
 

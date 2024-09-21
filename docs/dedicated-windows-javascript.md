@@ -27,7 +27,7 @@ import TabItem from '@theme/TabItem';
 
 ## Installing Node.js Runtime
 
-### Step 1: Downloading Files
+### Downloading Files
 Open up the browser of your choice (I'm going to use Chrome for this guide) and head over to [https://Node.js.org/en](https://Node.js.org/en)
 
 ![Picture of Node.js.org](https://imgur.com/yGkI21n.png)
@@ -40,7 +40,7 @@ Now click on the `Download Node.js (LTS)` button and wait for it to finish.
 It is generally recommended to keep your installation on the latest Long Term Support (LTS) version.
 :::
 
-### Step 2: Installing Python
+### Installing Python
 Run the installer by clicking on it. Now you will be prompted to set a few settings for the installation. On the `Welcome` page you should click `Next`.
 
 ![Picture of Node.js's Installer - First Page](https://imgur.com/DJzVIRM.png)
@@ -61,7 +61,7 @@ On the next page, you can opt out of installing some of Node.js core packages. I
 
 ![Picture of Node.js's Installer - Custom Install Page](https://imgur.com/Ereqity.png)
 
-### Step 3: Completing Installation
+### Completing Installation
 That's all you can now click `Install` and wait for everything to be set up. Be patient as this may take some time. :)
 
 ![Picture of Node.js's Installer - Install Page](https://imgur.com/Nxl3553.png)

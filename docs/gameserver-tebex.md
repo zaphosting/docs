@@ -27,12 +27,11 @@ The platform currently supports the following games: [Click Here](https://www.te
 ## How is Tebex configured with the ZAP Interface?
 Setting up Tebex with ZAP 2.5 is simple. 
 
-### Step 1 - Install a supported Game onto your Gameserver
+## Install a supported Game onto your Gameserver
 Pick a game which is currently supported by Tebex and install it onto your game server. Click on
 your game server and choose "Games" in the sidebar. Choose a supported game under "Available Games" 
 and choose the download button to install it. As soon as this is done, proceed to step 2.
-
-### Step 2 - Send yourself a Tebex invite
+## Send yourself a Tebex invite
 If the game you chose supports Tebex you will see a tab called "Tebex Shop" in the sidebar. Click 
 on the image that appears upon loading the page. 
 
@@ -41,17 +40,15 @@ on the image that appears upon loading the page.
 Tebex will now sent an invite to the email address
 linked to your ZAP-Hosting customer account. Please follow the instructions within the email to 
 activate your Tebex account. You will be guided through the basic configuration of your shop.
-
-### Step 3 - Install the Tebex plugin onto your game server
+## Install the Tebex plugin onto your game server
 This process is normally automated. If we have no plugin for an automatic setup present on our 
 servers or if we are missing the pingback of Tebex you will have to perform a manual setup.
-
-### Step 4 - Install & configure the Tebex plugin
+## Install & configure the Tebex plugin
 Install the appropriate game server plugin for your game manually. The setup process differs 
 from game to game. Basic instructions on how to install the plugins can be found
 [here](https://docs.tebex.io/store/integrating-with-your-game-server-or-website/minecraft-java-edition).
 
-#### Step 5 - Confirm the successful installation with us
+### - Confirm the successful installation with us
 Finally you will have to confirm that you installed the game server plugin successfully. 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/DkDtPMtij2QTKGS/preview)

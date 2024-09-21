@@ -23,13 +23,13 @@ The configuration of the flag and language of the server is done via the Locales
 
 
 
-## Step 1 - Open server configuration file
+### Open server configuration file
 
 The server configuration file (server.cfg) can be accessed in the game server administration under Configs. RedM servers with the use of txAdmin also have the possibility to access it directly in TxAdmin.
 
 
 
-## Step 2 - Find locale/language code for your language
+### Find locale/language code for your language
 
 The definition of the language/display is done via the locales (language codes/country codes) based on the ISO 639-1/ISO 3166-1 standards. We have summarized a small list of the most relevant countries/languages below. The actual list is of course significantly larger:
 
@@ -56,7 +56,7 @@ The definition of the language/display is done via the locales (language codes/c
 
 
 
-## Step 3 - Adjust the content of the server configuration file
+### Adjust the content of the server configuration file
 
 Once the configuration file has been opened and you have taken care of the locale/language code, the configuration can now be done.  First you have to check if the **sets locale** command already exists. If not, the input for it looks like this:
 
@@ -71,6 +71,6 @@ The value of the **sets-locale** command has the **root-AQ** value by default. T
 
 
 
-## Step 4 - Restart and test server
+### Restart and test server
 
 The last step is to restart the server to make sure that the change is applied. After that you can reload the server list in your RedM client and should be able to see the change you just made. :)

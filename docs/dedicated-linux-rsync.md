@@ -22,7 +22,7 @@ Attention: The first run can take much longer than the following runs, depending
 :::
 >So then a incremental backup is created.  
 
-## Step 1
+## Installing Rsync
 
 Rsync can be installed with the following command:
 
@@ -37,7 +37,6 @@ import TabItem from '@theme/TabItem';
 
 <Tabs>
 <TabItem value="Daily backup to a local directory/drive" label="Daily backup to a local directory/drive">
-## Step 2
 
 In this example, the Client folder under /home should be synchronized to the Backups folder under /home. 
 
@@ -71,8 +70,6 @@ rsync -arz --delete /home/Client /home/Backup
 <br/>
 --delete= Deletes data that no longer exists in the source but still exists in the target
 
-## Step 3
-
 So that the command does not always have to be d manually, it can simply be placed in a cronjob. 
 For example, a backup should be created daily at 3 am: 
 
@@ -96,8 +93,6 @@ Every day at 3 a.m. the command is executed and a backup is created.
 
 </TabItem>
 <TabItem value="Daily backup to a remote system" label="Daily backup to a remote system">
-
-## Step 4
 
 In this example, the Client folder under /home should be synchronized to the Backups folder under on a remote system. The connection is to be made via SSH key, so that a backup can also be automated.  
 >Important: Rsync must also be installed on the remote server. 
@@ -155,8 +150,6 @@ Specify the directory to be backed up (/home/client/)= /[directory]
 RemoteHost(root@123.123.123.123:)= Login Name of the user on the RemoteHost and address: name@IP/Domain
 <br/>
 Target directory for the data on the RemoteHost(:/home/Backup/Home-Server1/)= :/[Path to target directory]
-
-## Step 5
 
 So that the command does not always have to be executed manually, it can simply be placed in a cronjob. 
 For example, a backup should be created daily at 3 am: 

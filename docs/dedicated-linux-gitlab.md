@@ -49,7 +49,7 @@ A connection has to be established via a SSH client in order to install GitLab o
 
 Once the connection is established, you can begin to install the necessary packages that are required for the actual installation of GitLab.
 
-## Step 1: Updating Linux Server
+### Updating Linux Server
 
 Before installing dependencies, you have to install some updates and some tools to install the dependencies which will be used to install GitLab.
 
@@ -66,7 +66,9 @@ sudo ufw allow https
 sudo ufw allow OpenSSH
 ```
 
-## Step 2: Installing Dependencies
+## Installation
+
+### Dependencies
 
 Next, you have to install some dependencies in order run the GitLab installer. Use the following commands to install required dependencies on your Linux server.
 
@@ -148,7 +150,7 @@ While installing Postfix, a configuration may appear. In this case, select 'Inte
 If you wish to use another solution to send emails please skip this step and [configure an external SMTP server](https://docs.gitlab.com/omnibus/settings/smtp) after GitLab has been installed on your Linux server by following a guide provided by official GitLab Team.
 :::
 
-## Step 3: Installing GitLab
+### GitLab
 
 After downloading and installing all the required dependencies you are now ready to install GitLab.
 
@@ -170,7 +172,7 @@ zypper install gitlab-ee # OpenSUSE
 
 Once this process is complete, you should have GitLab ready to go on your Linux server. Proceed with the following section where you will configure some essential settings to ensure the server is functional.
 
-## Step 4: Configuring GitLab
+## Configuring GitLab
 
 To ensure everything is functional, you must complete some changes to the configuration file. Begin by opening the GitLab configuration file using your preferred text editor. As an example we wil be using the pre-built `nano` editor.
 ```
@@ -233,7 +235,7 @@ sudo gitlab-ctl reconfigure
 
 This process may take a while because it will initialize GitLab using the updated configuration information, with automated processes. The SSL Certificates will also be issued if a domain has been used.
 
-## Step 5: Accessing the Web Interface
+## Accessing the Web Interface
 
 After the initialization, the server should now be accessable via a web browser. Navigate to your website by entering your domain name or IP Address as following.
 ```

@@ -20,13 +20,13 @@ In order to follow this guide, you will require:
 - A domain on your ZAP-Hosting Account
 - A Cloudflare account
   
-## Step 1: Enabling ExpertDNS Option
+## Enabling ExpertDNS Option
 
 Begin by navigating to the web interface panel for your selected domain on your ZAP-Hosting account. Locate the **ExpertDNS** option and enable it by ticking the checkmark and pressing the save button.
 
 ![image](https://screensaver01.zap-hosting.com/index.php/s/ZdJDTfAtjQe5Xgt/preview)
 
-## Step 2: Setting up your Domain on Cloudflare
+## Setting up your Domain
 
 The next steps will involve using Cloudflare, so begin by logging in to your Cloudflare account. Now that you are logged in, add your website to the dashboard by following the setup steps provided directly by Cloudflare.
 
@@ -42,7 +42,7 @@ Head over to your domain's web interface panel and access the **ExpertDNS** sect
 
 Make sure to save your changes once this is completed.
 
-## Step 3: Completing the setup on Cloudflare
+## Completing the setup on Cloudflare
 
 Proceed back to your Cloudflare dashboard. On the previous setup page for your domain, you should be able to see a button to force Cloudflare to check your nameservers again.
 

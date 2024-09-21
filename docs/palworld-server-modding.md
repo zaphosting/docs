@@ -44,7 +44,7 @@ You must verify that the mod you wish to use is compatible with the current game
 
 
 
-## Step 1: Preparing PAK File
+### Preparing PAK File
 
 By heading to modding sites, such as the ones suggested in the introduction section, you will be able to browse and download a wide selection of different mods.
 
@@ -58,7 +58,7 @@ Proceed to the mod which you wish to use, and download it locally to your device
 
 
 
-## Step 2: Upload via FTP
+## Upload via FTP
 
 Once you have the PAK files ready to upload, head over to the **Tools->FTP-Browser** section of your game server's webinterface. 
 
@@ -82,7 +82,7 @@ And that's it for the server side! Now time to work on the client side.
 
 
 
-## Step 3: Install mods Client-Side
+### Install mods Client-Side
 
 Now that all our mods are installed on the server we need to ensure we do the same for any client who is wanting to join the server. They will need to repeat this process. Currently, there is no way for a client to automatically retrieve mods and download them upon joining.
 
@@ -105,7 +105,7 @@ Move the mods' **.pak** files into this folder. Repeat this for any additional m
 
 
 
-## Step 4: Launch Palworld & Connect to server
+## Launch Palworld & Connect to server
 
 You will now be able to connect to your Palworld Server and enjoy the experience with a bunch of new mods. Use our dedicated [Connect to Server](palworld-connect.md) guide if you require assistance with connecting to your server.
 

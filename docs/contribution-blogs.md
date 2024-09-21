@@ -9,7 +9,7 @@ sidebar_label: Blogs Process
 
 Learn more about the process for contributing to our ZAP-Hosting.com blogs on this page. The process is written in chronological order throughout this page, thus we recommend beginning from here.
 
-## Step 1: Suggesting Content
+## Suggesting Content
 
 The first part of the process involves creating and submitting a suggestion for a blog post that you wish to write about. This is done through our [Blog Suggestion Form](https://forms.gle/jft8sb4mmKMkbt5W9). You must provide us with key information about your idea.
 
@@ -27,7 +27,7 @@ On our blog, we look for a wide range of informative and practical posts that co
 
 As mentioned in the introduction, all content that is produced must be original to comply with copyright laws. Any unauthorized use of AI/generative tools and/or other pieces of intellectual property is strictly disallowed.
 
-#### Wanted Blogs Post List
+### Wanted Blogs Post List
 
 We have a useful list of great suggestions below, for new blog posts that you may be interested in writing. Certain blog topics and suggestions may even have an extra reward bonus. You can access the [list manually here](https://docs.google.com/document/d/1XviKFThPxVcbunCZ9zh4xghmrNjettfTLRutIUsZkkY/edit?usp=sharing).
 
@@ -38,7 +38,7 @@ We have a useful list of great suggestions below, for new blog posts that you ma
 Keep in mind, these are only useful ideas, you **do not** have to strictly write about these, your blog suggestions can be creative as mentioned previously.
 :::
 
-### Submitting suggestion
+## Submitting suggestion
 
 Now that you understand all of the information, please head over to our **[Blog Suggestion Form](https://forms.gle/jft8sb4mmKMkbt5W9)**. Fill out the form with as much detail as possible and submit it. You will also be requested to confirm that you accept our Terms & Conditions for the Contribution Program, which can be [Contribution Terms](contribution-terms.md).
 
@@ -54,7 +54,7 @@ Now that you have submitted your blog suggestion, we will aim to get back to you
 
 Within our ticket response, we will provide you with any additional feedback or details that we wish to adjust in regard to your blog suggestion. Once we both agree on specific details, you will be able to proceed in writing your blog based on the agreed upon information and you can move on to the next step in this guide.
 
-## Step 2: Writing the Blog Post
+## Writing the Blog Post
 
 During this step, you will be writing a new blog post based on the agreed-upon information with the ZAP Contributions Team. You can use any application or system you wish to write your blog content as this is flexible.
 
@@ -72,7 +72,7 @@ Whilst you write your blog content, ensure that you are closely following the st
 
 Please do not hesitate to contact us by replying directly to the ticket on the website if you have any additional questions or require some help. We are more than happy to support you during this stage. :D
 
-## Step 3: Submitting Draft
+### Submitting Draft
 
 Before submitting your draft, double check everything is correct using this quick checklist:
 - You followed a clear structure.
@@ -83,7 +83,7 @@ Once you believe that you have finished writing your blog and have a draft ready
 
 We will aim to reply to your ticket response within 2-3 days. Upon review, we may decide that additional tweaks or changes are needed which we will let you know in our reply. Where needed, you would repeat this step and submit another draft with the requested changes, until we reach a final acceptable state.
 
-## Step 4: Publish blog & reward payment
+### Publish blog & reward payment
 
 Once your final draft is accepted, we will reply to your ticket and let you know about key details regarding this. This includes providing information about when we plan to schedule your blog post, as well as your reward payment for completing your blog post successfully.
 

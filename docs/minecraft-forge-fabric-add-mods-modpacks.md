@@ -21,7 +21,7 @@ You'll learn how to download and install a Mod / Modpack on your Minecraft serve
 - An FTP-Client (e.g. WinSCP, FileZilla)
 - Connect to your server via FTP: ([Access via FTP](gameserver-ftpaccess.md))
 
-## Step 1 - Finding & downloading mods or modpacks
+### Finding & downloading mods or modpacks
 
 There are many places on the internet to find mods / modpacks. The largest platform for mods and modpacks is CurseForge. Almost 99% of all mods / modpacks for Minecraft can be found there and downloaded with just a few clicks. This guide will focus on the use of CurseForge. You can search for mods [here](https://www.curseforge.com/minecraft/mc-mods) and for modpacks [here](https://curseforge.com/minecraft/modpacks).
 
@@ -62,7 +62,7 @@ In the "File Details" section, scroll down until you see "Additional Files" and 
 </TabItem>
 </Tabs>
 
-## Step 2 - Extracting files from downloads (only for modpacks)
+## Extracting files from downloads (only for modpacks)
 
 Find the downloaded file on you pc and rightclick it, select "Extract All...". Choose a folder where you want the extracted files. Remember it!
 
@@ -77,7 +77,7 @@ Some modpacks require additional steps, such as AllOfFabric6. In the case of All
 :::
 
 
-## Step 3 - Installing the correct server version
+## Installing the correct server version
 
 In the Zap-Hosting webinterface, select your Gameserver and go to "Games" in the settings section.
 
@@ -106,18 +106,18 @@ When finished installing the game, you will see a blue button next to the name o
 ![activate the game german version](https://screensaver01.zap-hosting.com/index.php/s/GiFsA7JmGPd4LCB/preview)
 
 
-## Step 4 - Connecting & uploading mods / modpack via FTP
+## Connecting & uploading mods / modpack via FTP
 
 Connect to your server using your chosen FTP client. Make sure your server is stopped.
 
-### Uploading a mod
+## Uploading a mod
 
 When you are connected, navigate into your game folder (e.g. minecraft-forge, minecraft-fabric). Open the mods folder and simply drag and drop you downloaded mod files into the folder.
 ![image](https://github.com/Yoshlix/docs/assets/26007280/8619fc4f-4fab-415a-9692-f74f8930da3f)
 
 When uploading is finished you can start your server.
 
-### Uploading a modpack
+## Uploading a modpack
 
 When you are connected, navigate into your game folder (e.g. minecraft-forge, minecraft-fabric). Delete the world, mods, config and defaultconfig folders on your server. Now upload all the folders from the unzipped folder you downloaded earlier, except the jre, libraries folders. Simply select all the folders and drag them to your server directory.
 

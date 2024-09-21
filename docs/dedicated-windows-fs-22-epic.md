@@ -27,7 +27,7 @@ Before starting, ensure that your setup meets the following requirements:
 When running the server, you cannot host the server and play on the same Epic Games account. This means you will need a second copy of the game on another account if you wish to play on the server.
 :::
 
-## Step 1: Preparing for server install
+### Preparing for server install
 Begin by connecting to your server via Remote Desktop (RDP). If you need help with this, please refer to our [RDP Initial Access guide](https://zap-hosting.com/guides/docs/vserver-windows-userdp/).
 
 Once connected you will have to install a necessary prerequisite, Microsoft Visual C++ Redistribute, which can be downloaded from [Microsoft's website](https://learn.microsoft.com/en-US/cpp/windows/latest-supported-vc-redist?view=msvc-170). After downloading, follow the on-screen instructions to complete the installation.
@@ -48,7 +48,9 @@ After installation, it is very likely that the launcher will have to download a 
 
 Once the launcher has opened, you must sign in with your Epic Games account, one which owns Farming Simulator 2022 in its game library.
 
-## Step 2: Downloading Farming Simulator 2022
+## Server Setup
+
+### Downloading Farming Simulator 2022
 
 In the Epic Games Launcher, click on the **Library** tab and locate Farming Simulator 22. Use the **Install** button and select the location that you wish to download the game to.
 
@@ -56,7 +58,7 @@ In the Epic Games Launcher, click on the **Library** tab and locate Farming Simu
 
 You will now have to wati for the download and installation to complete. The download speed is dependent on the bandwidth of your server.
 
-## Step 3: Setting up Launch options
+### Setting up Launch options
 
 Once the game is installed, go back to the **Library** tab in the Epic Games Launcher. Find Farming Simulator 22, click the three dots next to it and select **Manage**.
 
@@ -66,13 +68,13 @@ Scroll down to the **Launch Options** section and enable it. In the textbox that
 
 ![image](https://screensaver01.zap-hosting.com/index.php/s/HLAXkbdpanAFfbS/preview)
 
-## Step 4: Running the Server
+### Running the Server
 
 You can now start Farming Simulator 2022 from your Epic Games launcher or the shortcut on your desktop. The game should now launch via a command prompt (CMD) in dedicated server mode. If this is not the case, ensure that you have setup the launch option correctly.
 
 ![image](https://screensaver01.zap-hosting.com/index.php/s/Bf5LX72LWNwSFib/preview)
 
-## Step 5: Enabling the Web Interface (optional)
+### Enabling the Web Interface (optional)
 
 Farming Simulator 22 dedicated servers come with a web interface that you can enable for your server. This is optional, but you may find it useful to adjust settings and a wide variety of other information therefore we recommend enabling it.
 
@@ -110,7 +112,7 @@ If you encounter issues, first stop dedicatedServer.exe, then run Farming Simula
 It is important that you run the server **first** and the web interface **afterwards**, otherwise Epic Games may detect both as the same file and thus prevent you from being able to launch the main server.
 :::
 
-## Step 6: Port Forwarding
+### Port Forwarding
 
 In order to ensure that your server is accessible to the public, you must alter port forwarding rules for the ports that the dedicated server process is using. You can do this either through PowerShell commands directly, which is easier, or regularly through the Windows Defender Firewall page.
 
@@ -153,7 +155,7 @@ Please use our [Port Forwarding (Firewall)](vserver-windows-port.md) guide if yo
 </TabItem>
 </Tabs>
 
-## Step 7: Connecting to the Server
+## Connecting to the Server
 Launch the game and navigate to the multiplayer menu. Look for the server name, which can be found on the web interface and is customizable.
 
 Once you locate the server, click on it to connect. If prompted, enter the password, which will also be visible on the web interface.

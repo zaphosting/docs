@@ -21,7 +21,7 @@ Furthermore, an own GameLicense is required (no Steam version), as well as a pub
 Depending on how much the dedicated server is modded, extended with mods or DLCs, more resources may be required. 
 
 
-## Step 1 Purchase digital license
+###  Purchase digital license
 
 A digital version of FarmingSimulator 2022 is required, it can not be the Steam version.
 The digital version can be purchased on the [FarmingSimulator Webseite](https://www.farming-simulator.com/buy-now.php?lang=de&country=de&platform=pcdigital).
@@ -32,7 +32,7 @@ Important: In the mail you will find the GameKey which is needed for the downloa
 
 ![image](https://screensaver01.zap-hosting.com/index.php/s/MXkbf8pNSYJAmGt/preview)
 
-## Step 2 Download Farming Simulator directly to your Windows server
+## Downloading Farming Simulator
 
 Connect via [Initial Access (RDP)](vserver-windows-userdp.md) to your Windows server. After you are connected, open the browser and go to the [link](https://eshop.giants-software.com/downloads.php) from the mail again. Then enter your GameKey and select the download for Windows8/10. 
 
@@ -54,7 +54,7 @@ As soon as the installation process is finished, the following message appears, 
 
 The basic installation is now complete. 
 
-## Step 3 Activation of the game and configuration of the dedicated server
+### Activating the Game
 
 Now the Farming Simulator must be started. There should be a shortcut on the desktop, if not, it can also be started via the Windows menu. 
 Errors regarding a missing GPU or similar can be ignored or closed with No/Cancel. Farming Simulator only needs to be started to be able to enter the key. 
@@ -70,7 +70,7 @@ The login data can be freely customized.
 
 ![image](https://screensaver01.zap-hosting.com/index.php/s/LHkeCNSnEtE5Rd8/preview)
 
-## Step 4 Start Farming Simulator 2022 Dedicated Server
+### Starting the Server
 
 To start the dedicated server, `"dedicatedServer.exe"` must be executed in the same directory where `"dedicatedServer.xml"` is located.
 
@@ -83,7 +83,7 @@ Afterwards the web interface can be opened via `https://SERVER-IP:8080`.
 The login is possible with the previously set/read login data from the `"dedicatedServer.xml"`. 
 The further configuration is self-explanatory in the web interface and can be done with a few clicks, according to your personal wishes. 
 
-## Step 5 Unlock ports in the firewall
+### Port Forwarding
 
 The server should of course be publicly accessible to play with friends. For this purpose, the ports of the server must be enabled in the Windows firewall. The ports 10823 and 8080 must be released for the protocol TCP. 10823 is the game server port and 8080 is the webport for the webinterface, the webport has to be released only if needed, an administration can still be done only locally on the Windows server via RDP. 
 How to enable ports on Windows:[Port Forwarding (Firewall)](vserver-windows-port.md). 

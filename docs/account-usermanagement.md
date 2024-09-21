@@ -19,7 +19,7 @@ You can find the user administration by clicking on the arrow to the right of yo
 
 ![image](https://screensaver01.zap-hosting.com/index.php/s/FDznDDKTQFydDTZ/preview)
 
-### Step 1 - Create user group
+### Create user group
 
 At first you have to create a user group, in order to be able to create and assign sub users to the group. Permissions can be defined during the creation of the group. The following permissions options are available:
 
@@ -50,8 +50,7 @@ At first you have to create a user group, in order to be able to create and assi
  You can create the group with the desired permissions by using the **Create group** button. As soon as the name of the group and the permissions have been set, the sub-user can be added.
 
 
-
-### Step 2 - Create user 
+### Create user 
 
 Once the user group has been successfully created and configured, you can continue with the creation of the user. Click on the green plus button for this purpose. 
 

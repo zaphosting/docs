@@ -14,10 +14,13 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 <InlineVoucher />
 
-## Basic Information: 
+## Introduction
 A server based on Windows Server 2016/2019 with at least 4x 2.4 GHz CPU (AMD/Intel) and at least 4GB RAM (DDR3/4) and 6GB free Disk (SSD or better, preferred) is required. The server must run on 64 bit architecture. 
 
-## Step 1 Create a folder for V-Rising
+
+## Server Setup
+
+### Create a folder for V-Rising
 
 First, you need to connect to your server by using [Initial Access (RDP)](vserver-windows-userdp.md). After you are connected, you need to create a new Folder on your Server in which the files for V-Rising will be installed.
 In this example, we will create a new Folder on our Desktop.
@@ -28,7 +31,7 @@ Then choose "New -> Folder".
 
 You can name it whatever you want. In our example we will name it "VRising"
 
-## Step 2 Download SteamCMD to your Windows server
+### Download SteamCMD to your Windows server
 
 Open the browser and go to the [link](https://steamcdn-a.akamaihd.net/client/installer/steamcmd.zip). That will download SteamCMD for Windows to your Server.
 
@@ -56,7 +59,7 @@ A new window should be opened now, installing the steamcmd files.
 
 ![image](https://screensaver01.zap-hosting.com/index.php/s/TC2KAbWaCHEeZiF/preview)
 
-## Step 3 Download the V Rising Files
+### Download the V Rising Files
 
 Once the steamcmd files were installed, you will see this in the newly opened window.
 
@@ -87,7 +90,7 @@ Once the process is done, you can see all the files on your Server in the VRisin
 
 ![image](https://screensaver01.zap-hosting.com/index.php/s/y9Gx9ANEpgbpESy/preview)
 
-## Step 4 Start and configure the V Rising Server
+### Start and configure the V Rising Server
 
 You can edit the start_server_example.bat file to make a few changes in there.
 For it, you need to make a right click on the file and then choose edit.
@@ -113,7 +116,7 @@ If the ports were forwarded correctly in the next step, you can find the Server 
 
 ![image](https://screensaver01.zap-hosting.com/index.php/s/S9mM8KNzsFARmQW/preview)
 
-## Step 5 Unlock ports in the firewall
+### Unlock ports in the firewall
 
 The server should of course be publicly accessible to play with friends. For this purpose, the ports of the server must be enabled in the Windows firewall. The ports 9876 and 9877 must be released for the protocol TCP AND UDP. 9876 is the game server port and 9877  is the Query Port.
 How to enable ports on Windows: [Port Forwarding (Firewall)](vserver-windows-port.md). 

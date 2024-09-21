@@ -9,7 +9,7 @@ sidebar_label: Guides Process
 
 Learn more about the process for contributing to our ZAP-Docs on this page. The process is written in chronological order throughout this page, thus we recommend beginning from here.
 
-## Step 1: Suggesting Content
+### Suggesting Content
 
 The first part of the process involves creating a suggestion issue via our GitHub repository. You must provide us with details about the changes and improvements that you plan to produce.
 
@@ -52,7 +52,7 @@ Now that you have submitted your suggestion, we aim to get back to you within 3-
 
 Within our response, we will provide you with additional feedback or details that we wish to adjust regarding your suggestion. If there is an issue, we will follow this up with you directly in your GitHub issue.
 
-## Step 2: Writing the Guide
+## Writing the Guide
 
 When performing any additions or changes to our documentation, please ensure that you follow our [Guidelines](contribution-guides-guidelines.md) thoroughly to ensure consistency and a high-quality end product. In this sub-section we will dive deep into best practices and the optimal workflow for creating new content, but also for modifying existing content. If you are new to using GitHub, please use these brief tutorials below to understand the easiest way to edit or create new content for our ZAP-Docs.
 
@@ -258,7 +258,7 @@ Once this is complete, a local version of the website should automatically open 
 
 Once you are satisfied with your changes, you may now head over to the next section to create a Pull Request to submit the content to the main documentation repository.
 
-## Step 3: Submitting Content
+### Submitting Content
 
 Once you have made your necessary contributions which you believe follow our guidelines closely and are of the highest standard, you may create a Pull Request. You can do this by heading over to your fork of the ZAP Docs repository, pressing the **Contribute** text found below the primary buttons and opening a pull request.
 
@@ -276,7 +276,7 @@ Our system will ensure that your changes pass a range of syntax and quality chec
 
 Upon review of your Pull Request, we may ask you to produce a few changes that we feel are necessary. We may also make some changes ourselves where we believe it is appropriate. Once any additional changes are completed, we will approve your change so that it is ready to be published.
 
-## Step 4: Publish guide changes & reward payment
+## Publish guide changes & reward payment
 
 Once we finally accept your Pull Request after completing any requested changes, we will reply to your Pull Request and let you know about key details regarding this. This includes providing information about publishing your guide changes, as well as your reward payment for completing your guide changes successfully.
 
