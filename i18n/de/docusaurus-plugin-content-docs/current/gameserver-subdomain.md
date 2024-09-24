@@ -7,11 +7,14 @@ services:
   - gameserver
 ---
 
+import YouTube from '@site/src/components/YouTube/YouTube';
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
 Unsere Gameserver bieten dir jetzt die Möglichkeit, schnell und einfach Subdomains für deinen Server einzurichten. In dieser Anleitung erfährst du, wie du die DNS-Subdomain-Funktion für deinen Server nutzen kannst, um eine ZAP Cloud-Subdomain zu erstellen oder deine eigene Domain einzurichten.
+
+<YouTube videoId="1fFagkzOvfo" title="ZAP Cloud domain for Game Servers" description="Hast du das Gefühl, dass du etwas besser verstehst, wenn du es in Aktion siehst? Wir haben etwas für dich! Tauche ab in unser Video, welches alles für dich zusammenfasst. Egal, ob du es eilig hast oder einfach nur Informationen auf möglichst verständliche Art und Weise aufnehmen möchtest!"/>
 
 ![image](https://screensaver01.zap-hosting.com/index.php/s/o7is2nazsZ5NPFF/preview)
 
