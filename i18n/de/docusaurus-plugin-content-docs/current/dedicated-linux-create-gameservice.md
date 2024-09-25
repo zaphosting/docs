@@ -30,7 +30,14 @@ sudo nano /etc/systemd/system/[dein_spiel].service
 
 ## Dienst einrichten
 
-Wenn du den nano-Editor geöffnet hast, kopiere den Inhalt der folgenden Kerndatei, die eine Vorlagedienstdatei ist, die du wiederverwenden kannst.
+Kopiere nun, da der Nano-Editor geöffnet ist, den folgenden Inhalt der Kerndatei, bei der es sich um eine Vorlage für eine Servicedatei handelt, die du wiederverwenden kannst. Wir haben zwei Versionen, eine für Anleitungen, die SteamCMD verwenden, und eine für Anleitungen für Spiele, die SteamCMD nicht verwenden.
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+<Tabs>
+<TabItem value="steamcmd" label="SteamCMD Game" default>
+
 ```
 [Unit]
 Description=[dein_server] Server
@@ -40,20 +47,44 @@ After=network-online.target
 [Service]
 User=steam
 Group=steam
-WorkingDirectory=/home/steam/[dein_server_ordner]
-ExecStartPre=/usr/games/steamcmd +force_install_dir '/home/steam/[dein_server_ordner]' +login anonymous +app_update [dein_game_steamid] +quit
-ExecStart=/home/steam/[dein_server_ordner]/[dein_pfad_zur_start_datei]
+WorkingDirectory=/home/steam/[dein_server_folder]
+ExecStartPre=/usr/games/steamcmd +force_install_dir '/home/steam/[dein_server_folder]' +login anonymous +app_update [dein_game_steamid] +quit
+ExecStart=/home/steam/[dein_server_folder]/[dein_path_to_start_file]
 Restart=always
 
 [Install]
 WantedBy=multi-user.target
 ```
 
+</TabItem>
+
+<TabItem value="regular" label="Regular Game">
+
+```
+[Unit]
+Description=[dein_server] Server
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+User=gameservers
+Group=gameservers
+WorkingDirectory=/home/gameservers/[dein_server_folder]
+ExecStart=/home/gameservers/[dein_server_folder]/[dein_path_to_start_file]
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
+```
+
+</TabItem>
+</Tabs>
+
 Lass uns den Inhalt der Datei aufschlüsseln, damit wir alles besser verstehen.
 - `Description`: Das kann alles Mögliche sein, was nützlich ist, um den Zweck des Dienstes leicht zu erkennen.
-- `User`: Wenn du unsere Anleitungen benutzt, solltest du einen separaten `Steam`-Benutzer für die Verwendung mit SteamCMD eingerichtet haben. Wenn nicht, solltest du hier den Benutzer angeben, der den Dienst ausführen soll.
+- `User`: Mit unseren Anleitungen solltest du einen separaten `Steam`-Benutzer für die Verwendung mit SteamCMD oder den „Gameservers“-Benutzer für Nicht-SteamCMD-Spiele eingerichtet haben. Wenn nicht, sollte dies auf den Benutzer eingestellt werden, der den Dienst ausführen soll.
 - `WorkingDirectory`: Dies ist der Pfad zum Hauptverzeichnis, das alles enthält, was der Dienst benötigt.
-- `ExecStartPre`: In diesem Feld stellen wir im Wesentlichen denselben SteamCMD-Installationsbefehl wie zuvor ein, der bei jedem Neustart des Servers ausgeführt wird, um sicherzustellen, dass er aktuell ist. Du solltest dies aus der jeweiligen Anleitung für den dedizierten Spieleserver kopieren oder die Werte manuell durch die Werte des Spiels ersetzen.
+- `ExecStartPre` (Nur SteamCMD): In diesem Feld stellen wir im Wesentlichen denselben SteamCMD-Installationsbefehl wie zuvor ein, der bei jedem Neustart des Servers ausgeführt wird, um sicherzustellen, dass er aktuell ist. Du solltest dies aus der jeweiligen Anleitung für den dedizierten Spieleserver kopieren oder die Werte manuell durch die Werte des Spiels ersetzen.
 - `ExecStart`: In diesem Feld wird die vordefinierte Aufgabe festgelegt, die mit dem Dienst ausgeführt werden soll. Auch hier solltest du den Pfad aus dem jeweiligen Dedicated Game Server Guide kopieren oder die Werte manuell ersetzen, um zur Startdatei zu navigieren.
 
 :::important Wine-Kompatibilitätsschicht
