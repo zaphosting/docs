@@ -14,7 +14,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Our Game Servers now come with the ability to easily and quickly setup subdomains for your server. In this guide, you will explore how to use the DNS Subdomain functionality for your server to generate a ZAP Cloud subdomain or setup your own domain for use.
 
-<YouTube videoId="1fFagkzOvfo" title="ZAP Cloud domain for Game Servers" description="Feel like you understand better when you see things in action?  We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
+<YouTube videoId="1fFagkzOvfo" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/bbTYcXxCWXEYNrQ/preview" title="ZAP Cloud domain for Game Servers" description="Feel like you understand better when you see things in action?  We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
 
 ![image](https://screensaver01.zap-hosting.com/index.php/s/yJTBQ7oC926LfbT/preview)
 
