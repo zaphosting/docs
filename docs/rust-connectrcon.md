@@ -20,10 +20,10 @@ Rcon is a protocol for executing commands on the server without having direct ac
 Firstly before you can connect, you must make sure Web RCON is enabled.
 To enable it, visit the **Settings** tab.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/RqpZcnBcEHY3gN2/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/RqpZcnBcEHY3gN2/preview)
 
 And then enable it directly on this page.
-![image](https://screensaver01.zap-hosting.com/index.php/s/wJ5psnbAneZ6rMD/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/wJ5psnbAneZ6rMD/preview)
 
 :::info
 A server restart would be required for it to take affect. 
@@ -35,7 +35,7 @@ You will be required to connect to it from an RCON Program. There are several di
 For this example, and as a reccomendation, you can download [RustAdmin](https://www.rustadmin.com/).
 
 You can install it with the button directly on their website.
-![image](https://screensaver01.zap-hosting.com/index.php/s/zNtESocaQPFwzCg/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/zNtESocaQPFwzCg/preview)
 
 ## Connect via RCON 
 
@@ -45,12 +45,12 @@ Once you have opened WebAdmin, press the **Server** at the top. And then press *
 Your server must be fully ONLINE to be reachable from RCON. 
 :::
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/bHLwGDCqH52Bye8/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/bHLwGDCqH52Bye8/preview)
 
 Then you are redirected to a Configuration page.
 Here you would enter your respective server information.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/qmQFd7S79EpYWTE/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/qmQFd7S79EpYWTE/preview)
 
 :::info
 TIP: Your RCON Port && RCON Password can be found in the **Settings** tab where you enabled the WebRCON. 
@@ -58,15 +58,15 @@ TIP: Your RCON Port && RCON Password can be found in the **Settings** tab where 
 
 Once you have entered your data, you can save the configuration.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/FDMqdsfAHrbiTpt/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/FDMqdsfAHrbiTpt/preview)
 
 And then press Server -> Connect.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/4DLGZiQ5X6WJrzA/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/4DLGZiQ5X6WJrzA/preview)
 
 Then if connected sucessfully, you will be the **Connected** in green letters at the bottom.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/qzq68ENHzXGK69T/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/qzq68ENHzXGK69T/preview)
 
 You can now use RCON to manage your server! :) 
 

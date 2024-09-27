@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Are you looking for your own server with powerful configuration at a fair price? Then ZAP-Hosting is the right place for you! At ZAP-Hosting you can rent or buy your suitable VPS or root server for a maximum performance experience for many use cases!
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/6cCD5TmrwXgtayy/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/6cCD5TmrwXgtayy/preview)
 
 <InlineVoucher />
 
@@ -21,7 +21,7 @@ Are you looking for your own server with powerful configuration at a fair price?
 
 The ordering process is very simple. Choose your desired configuration for your [VPS](https://zap-hosting.com/en/vps-hosting/) or [root server](https://zap-hosting.com/en/root-server-hosting/). The setup time takes only a few seconds. Afterwards, you can immediately start with the configuration.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/Lm9HpPkzZQ8NAS6/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/Lm9HpPkzZQ8NAS6/preview)
 
 ## Configurations
 

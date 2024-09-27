@@ -25,26 +25,26 @@ IMPORTANT: To find the name of the player in the database you have to connect to
 
 First you have to navigate to your database which you can reach via the menu on the left under **Tools** > **Databases**:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/Y8mZZ7JCNqr9zZM/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/Y8mZZ7JCNqr9zZM/preview)
 
 The login to the database can be reached via this blue icon, on the left side you will also find the login data (username and password) for your database:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/3tta9MQ5XcdZk98/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/3tta9MQ5XcdZk98/preview)
 
 
 After clicking on this button you are now in phpMyAdmin, the administration interface of your database.
 There you choose the name of your database on the left side:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/YfTpyoXmArbtBwb/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/YfTpyoXmArbtBwb/preview)
 
 Afterwards you select the table **players** with a left click in which you can assign the ranks:
 
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/A643Ds2LFjFCzba/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/A643Ds2LFjFCzba/preview)
 
 There you search for the name of the player you want to assign a rank to and click on **Edit**:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/KrnpZMyeiL8YXAm/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/KrnpZMyeiL8YXAm/preview)
 
 
 ## Assigning ranks for Cop's and Medic's
@@ -52,26 +52,26 @@ There you search for the name of the player you want to assign a rank to and cli
 
 The fields for the Cop- as well as Medic-Level you will find right at the top of the list:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/z5KoxwqHf7XMcFd/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/z5KoxwqHf7XMcFd/preview)
 
 There you can now easily select the rank level via the drop-down menu, available are levels from 1 to 7 for cops and from 1 to 5 for medics.
 The higher the level, the more permissions the Cop or Medic has in the game, this has among other things an influence on the available weapons and vehicles.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/bKr4MHNy5LYnWYr/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/bKr4MHNy5LYnWYr/preview)
 
 
 ## Assign ranks for administrators (admin level)
 
 You set the admin level as described above, only the entry for it is further down:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/fc5G93bWkdW7nAj/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/fc5G93bWkdW7nAj/preview)
 
 There you can also choose between 5 different levels by dropdown. The higher the level the more rights the administrator has in the game.
 
 
 To save the changes, simply click on the **GO** button at the bottom right:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/y85Zwq3J8zM9sFi/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/y85Zwq3J8zM9sFi/preview)
 
 The ranks have now been saved, so that they become active for the player who has to reconnect to the server once, a restart
 of the server is not necessary.

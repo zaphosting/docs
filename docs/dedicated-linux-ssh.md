@@ -34,7 +34,7 @@ In the following, the connection using the Putty SSH client is explained. In the
 
 
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/Jp2Wn3s9kQG5t55/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/Jp2Wn3s9kQG5t55/preview)
 
 
 
@@ -44,7 +44,7 @@ SSH login via password is disabled by default. If you want to log in with the pa
 
 
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/4fSRwzaq8QQLZ3o/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/4fSRwzaq8QQLZ3o/preview)
 
 
 
@@ -58,7 +58,7 @@ This opens the SSH console and prompts for a **user name** and **password**. The
 
 
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/pG4dTmCGFyzK3dY/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/pG4dTmCGFyzK3dY/preview)
 
 
 

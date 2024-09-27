@@ -32,7 +32,7 @@ Es gibt im Internet viele Möglichkeiten, Mods / Modpacks zu finden. Die größt
 
 Gehe auf die Seite des Mods/Modpacks deiner Wahl und klicke auf den Reiter "Dateien".
 
-![image](https://github.com/Yoshlix/docs/assets/26007280/cc528cf6-9fc8-4524-aca0-b954e24716f8)
+![](https://github.com/Yoshlix/docs/assets/26007280/cc528cf6-9fc8-4524-aca0-b954e24716f8)
 
 
 Suchen nach der gewünschten Version und klicken darauf, um den Abschnitt "Dateidetails" aufzurufen.
@@ -40,7 +40,7 @@ Suchen nach der gewünschten Version und klicken darauf, um den Abschnitt "Datei
 :::tip
 Über das Dropdown-Menü am oberen Rand der ausgewählten Registerkarte "Dateien" kannst du nach Version und Modloader filtern.
 
-![image](https://github.com/Yoshlix/docs/assets/26007280/6867b2f2-e9db-4a4c-be88-b9b22b800e72)
+![](https://github.com/Yoshlix/docs/assets/26007280/6867b2f2-e9db-4a4c-be88-b9b22b800e72)
 
 :::
 
@@ -51,14 +51,14 @@ import TabItem from '@theme/TabItem';
 <TabItem value="Mods" label="For Mods" default>
 Klicken im Abschnitt "Dateidetails" auf die Schaltfläche "Herunterladen". Speichere diese Datei an einem beliebigen Ort, du wirst sie später noch brauchen.
 
-![image](https://github.com/Yoshlix/docs/assets/26007280/7b84ae33-1bef-4568-80d7-ef651a654b08)
+![](https://github.com/Yoshlix/docs/assets/26007280/7b84ae33-1bef-4568-80d7-ef651a654b08)
 
 </TabItem>
 
 <TabItem value="Modpacks" label="For Modpacks">
 Scrollen im Abschnitt "Dateidetails" nach unten, bis der Punkt "Zusätzliche Dateien" erscheint, klicken dort auf die drei Punkte und wählen "Datei herunterladen". Speichere diese Datei an einem beliebigen Ort, du wirst sie später noch brauchen.
 
-![image](https://github.com/Yoshlix/docs/assets/26007280/49fb9317-fdd3-474e-8140-b78b102c5f3d)
+![](https://github.com/Yoshlix/docs/assets/26007280/49fb9317-fdd3-474e-8140-b78b102c5f3d)
 
 </TabItem>
 </Tabs>
@@ -92,7 +92,7 @@ Klicke auf das Dropdown-Menü unter "Spielversion" und wähle deine Minecraft-Ve
 :::tip
 Wenn du nicht weißt, welche Minecraft-Version du brauchst, gehe zurück auf die Seite "File Details" auf CurseForge. Neben dem Gamecontroller-Symbol kannst du die Version sehen.
 
-![image](https://github.com/Yoshlix/docs/assets/26007280/89f751c1-7179-4107-b8bc-7c4381a7d94c)
+![](https://github.com/Yoshlix/docs/assets/26007280/89f751c1-7179-4107-b8bc-7c4381a7d94c)
 
 :::
 
@@ -110,7 +110,7 @@ Verbinde dich mit dem FTP-Client deiner Wahl mit deinem Server. Stelle dabei sic
 ### Hochladen eines Mods
 
 Sobald du verbunden bist, navigiere zu deinem Spielordner (z.B. minecraft-forge, minecraft-fabric). Öffne den Mods-Ordner und ziehe die heruntergeladenen Mod-Dateien einfach per Drag & Drop in den Ordner.
-![image](https://github.com/Yoshlix/docs/assets/26007280/8619fc4f-4fab-415a-9692-f74f8930da3f)
+![](https://github.com/Yoshlix/docs/assets/26007280/8619fc4f-4fab-415a-9692-f74f8930da3f)
 
 Wenn der Upload abgeschlossen ist, kannst du deinen Server starten.
 
@@ -119,6 +119,6 @@ Wenn der Upload abgeschlossen ist, kannst du deinen Server starten.
 
 Sobald du verbunden bist, navigiere zu deinem Spielordner (z.B. minecraft-forge, minecraft-fabric). Lösche die Ordner world, mods, config und defaultconfig auf deinem Server. Lade nun alle Ordner aus dem entpackten Ordner, den du zuvor heruntergeladen hast, hoch, außer den Ordnern jre und libraries. Wählen dazu einfach alle Ordner aus und ziehen sie in dein Serververzeichnis.
 
-![image](https://github.com/Yoshlix/docs/assets/26007280/1424a94d-aa96-40ca-8b30-7c1905e67c21)
+![](https://github.com/Yoshlix/docs/assets/26007280/1424a94d-aa96-40ca-8b30-7c1905e67c21)
 
 Wenn der Upload abgeschlossen ist, kannst du deinen Server starten.

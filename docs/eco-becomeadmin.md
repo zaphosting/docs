@@ -16,7 +16,7 @@ The assignment of administrator permissions allows you simple and comprehensive 
 ## Configuration
 Adding an admin is done via the **Users.eco** Config, which you can find in the interface under Configs.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/ACgPpyPfGmnmi8X/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/ACgPpyPfGmnmi8X/preview)
 
 
 
@@ -37,7 +37,7 @@ The player who is supposed to become admin is specified in the field **values**.
 
 You can find it by accessing your Steam profile and then right-clicking anywhere on the profile. There you can copy the Steam URL of your profile..
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/SrqRcSL3XtX2TkA/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/SrqRcSL3XtX2TkA/preview)
 
 
 
@@ -47,7 +47,7 @@ Afterwards, the URL must be typed in one of the following websites:
 - https://steamidfinder.com/
 - https://steamid.io/
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/3RSya5KbWGfcgHr/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/3RSya5KbWGfcgHr/preview)
 
 
 

@@ -29,7 +29,7 @@ The next step is to upload your ready image to your FiveM game server, which is 
 
 Once you are logged in to FTP, navigate to the folder `gXXXX/gta-fivem/server-data/` and upload your server icon file there. Make sure to remember what the file is called.
 
-![image](https://github.com/zaphosting/docs/assets/42719082/ae7c3a42-f240-49cb-8839-fdd0e39bd885)
+![](https://github.com/zaphosting/docs/assets/42719082/ae7c3a42-f240-49cb-8839-fdd0e39bd885)
 
 ### Activation
 

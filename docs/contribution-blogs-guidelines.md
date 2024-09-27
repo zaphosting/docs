@@ -199,7 +199,7 @@ Screenshots are an extremely useful method of guiding readers through the steps 
 
 You can use the following syntax to add a screenshot to your content, replacing `your_url` with the URL of the image:
 ```
-![image](your_url)
+![](your_url)
 ```
 
 The best practice is to use an online image hosting site such as [Imgur](https://imgur.com/) to upload and use the image in your markdown.

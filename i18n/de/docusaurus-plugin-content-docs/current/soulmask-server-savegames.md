@@ -34,7 +34,7 @@ Lokale Savegames sind Spiele, die du erstellt hast, während du ein Multiplayer-
 :::tip
 Du kannst auf diesen Pfad auch direkt zugreifen, indem du die Tasten `CTRL` + `R` gleichzeitig drückst und im Ausführen-Dialog nach dem folgenden Pfad suchst: `%userprofile%/appdata/local/WS/`. Drücke einfach **OK** und öffne den Ordner mit deiner SteamID, um den Ordner AutoGames zu erreichen.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/FT4J9Jdi8d8LDxq/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/FT4J9Jdi8d8LDxq/preview)
 :::
 
 An diesem Ort kannst du alle deine lokalen Savegames sehen. Jeder Ordner ist mit dem Einladungscode des Servers gekennzeichnet, so dass es einfach ist, die richtige Welt zu finden.
@@ -52,7 +52,7 @@ Dort siehst du den Hauptordner `Level01_Main`, in dem sich die Speicherstände f
 Im Moment unterstützen die Soulmask Dedicated Server nur einen Speicherstand, der sich im Hauptordner `Level01_Main` befindet.
 :::
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/Ywna6zc3BkCK6ES/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/Ywna6zc3BkCK6ES/preview)
 
 ### Automatische Sicherung
 

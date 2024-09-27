@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Unsere Voiceserver bieten jetzt die Möglichkeit, schnell Subdomains einzurichten, damit du ganz einfach auf deinen Server zugreifen kannst. In dieser Anleitung erfährst du, wie du die DNS-Subdomain-Funktion für deinen Voiceserver nutzen kannst, um eine ZAP Cloud-Subdomain zu erstellen oder deine eigene Domain einzurichten.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/dqmJ8ZAd6Jkpx52/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/dqmJ8ZAd6Jkpx52/preview)
 
 <InlineVoucher />
 
@@ -27,7 +27,7 @@ Die Verwaltung der Subdomain-Funktion auf deinem Voiceserver ist ganz einfach. G
 
 Auf dieser Seite kannst du eine Reihe von Verwaltungsaufgaben in Bezug auf die Free ZAP Cloud Subdomain sowie die Nutzung deiner eigenen Domains, die du auf deinem ZAP-Hosting-Konto eingerichtet hast, durchführen.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/RM9eQYoz4fNpRJg/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/RM9eQYoz4fNpRJg/preview)
 
 :::info
 Derzeit kannst du maximal 3 Subdomains pro Produkt aktiv haben (ohne die zufällig generierte ZAP Cloud Subdomain).
@@ -39,7 +39,7 @@ Alle Voiceserver haben eine zufällige Subdomain, die sie standardmäßig verwen
 
 Wenn du keine Subdomain siehst oder Probleme hast, kannst du [unser Support-Team](https://zap-hosting.com/de/customer/support/) kontaktieren, um die zufällige ZAP Cloud-Subdomain aktualisieren zu lassen.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/eCXcyNbgjEnQrx4/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/eCXcyNbgjEnQrx4/preview)
 
 ### Benutzerdefinierte ZAP Cloud Subdomain
 
@@ -51,9 +51,9 @@ Wenn du eine Fehlermeldung erhältst, ist es möglich, dass die Subdomain bereit
 
 Klicke nun auf die Schaltfläche **Eintrag erstellen** und du solltest sehen, dass die Subdomain in der Liste erscheint. Es kann sein, dass du ein paar Minuten warten musst, bis sie voll funktionsfähig ist.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/2iSAZJpETYw9H3p/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/2iSAZJpETYw9H3p/preview)
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/cMwxmPZFcyL7RjT/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/cMwxmPZFcyL7RjT/preview)
 
 ### Eigene Domain
 
@@ -69,9 +69,9 @@ Wenn du eine Fehlermeldung erhältst, ist es möglich, dass die Subdomain bereit
 
 Klicke nun auf die Schaltfläche **Eintrag erstellen** und du solltest sehen, dass die Subdomain in der Liste erscheint. Es kann sein, dass du ein paar Minuten warten musst, bis sie voll funktionsfähig ist.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/23w6gBHoYL75p5m/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/23w6gBHoYL75p5m/preview)
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/WD42o4ytri6WPBf/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/WD42o4ytri6WPBf/preview)
 
 ## Fehlersuche
 

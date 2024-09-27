@@ -19,7 +19,7 @@ Du kannst deine eigene Domain [direkt hier](https://zap-hosting.com/de/shop/prod
 
 Die Website zeigt dir nun die Verfügbarkeit der einzelnen Domains für den angegebenen Namen an und macht es dir leicht, eine verfügbare zu finden. Wenn eine Domain nicht verfügbar ist, bedeutet das, dass sie bereits jemand anderes besitzt und du sie daher nicht bestellen kannst.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/cmdoBKgzYeJPPJH/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/cmdoBKgzYeJPPJH/preview)
 
 ## Domain-Informationen
 
@@ -31,4 +31,4 @@ Während des Bestellvorgangs musst du eine Reihe von persönlichen Daten wahrhei
 Aufgrund der DSGVO-Bestimmungen, die in der EU gelten, sind alle Informationen, die du neben der Domain angibst, privat und können nicht öffentlich zugänglich gemacht werden.
 :::
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/xEa3DJKE6pyXPfs/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/xEa3DJKE6pyXPfs/preview)

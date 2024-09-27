@@ -48,7 +48,7 @@ Bitte benutze unsere [Zugriff per FTP](gameserver-ftpaccess.md) Anleitung als we
 Nach der Verbindung kannst du im Ordner "Sunkenland" den Ordner "AppData" und anschließend den Ordner "Worlds" öffnen, das Savegame aus dem vorherigen Schritt auswählen und es in diesen Ordner hochladen.
 
 Die Ordnerstruktur sollte nun wie folgt aussehen, wobei `Marvin's World~cef76ff5-447a-48df-b3a8-74b9ea5b7a86` dein eigenes Savegame ist.
-![image](https://github.com/zaphosting/docs/assets/13604413/40aecc3b-4a8a-4477-8c09-d56ec412883e)
+![](https://github.com/zaphosting/docs/assets/13604413/40aecc3b-4a8a-4477-8c09-d56ec412883e)
 
 :::important
 An dieser Stelle sollte die GUID kopiert werden, die am Ende des Namens der Spielwelt steht. 

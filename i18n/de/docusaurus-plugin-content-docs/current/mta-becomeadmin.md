@@ -23,11 +23,11 @@ addaccount <BENUTZERNAME> <PASSWORT>
 
 Die Live Konsole kann beim Gameserver Dashboard im Interface gefunden werden, wenn der Server gestartet ist. Das sieht dann folgendermaßen aus:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/dn2GrAMsYazW6MM/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/dn2GrAMsYazW6MM/preview)
 
 
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/nDgjWHiZsP7ct6C/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/nDgjWHiZsP7ct6C/preview)
 
 
 

@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Du bist dir unsicher, was du allgemein zum Verbinden deines Servers benötigst oder wie das genau vonstattengeht? Keine Sorge! Wir werden dir im Folgenden Schritt für Schritt erklären, was du für die Verbindung zu deinem Server benötigst, wie du dich im Anschluss damit verbindest und was es dabei allgemein zu beachten gibt. Damit sollte es dir problemlos möglich sein, dich erfolgreich mit deinem Server zu verbinden! :)
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/2d8fzHa8HdTnD76/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/2d8fzHa8HdTnD76/preview)
 
 <InlineVoucher />
 
@@ -33,7 +33,7 @@ Für die Verbindung zu deinem Gameserver ist es zwingend notwendig, dass du das 
 
 Sofern alle Voraussetzungen von **Spiel / Inhalte** erfüllt sind, benötigst du nun Informationen deines Servers. Klicke dazu in deinem Dashboard auf deinen Gameserver Dienst. In der Übersicht siehst du nun alle allgemeinen Informationen zu deinem Server. 
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/DgTmxRmfYTW5MRd/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/DgTmxRmfYTW5MRd/preview)
 
 Zu den relevanten Informationen gehören hierbei die **IP-Adresse** und der **Port**. Diese solltest du dir merken/notieren, da du diese gleich für deinen ersten Verbindungsaufbau zu deinem Server benötigst. 
 
@@ -43,12 +43,12 @@ Zu den relevanten Informationen gehören hierbei die **IP-Adresse** und der **Po
 
 Nachdem alle Voraussetzungen erfüllt worden sind, kann nun damit begonnen werden eine Verbindung zum Server herzustellen. Starte dafür dein Spiel und navigiere im Anschluss zu Spiel Starten -> Start -> Spiel beitreten und klicke dort auf Server hinzufügen.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/RnbfWzx6xr5BAF4/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/RnbfWzx6xr5BAF4/preview)
 
 
  Trage nun die IP und Port deines Servers ein. Daraufhin kann die Verbindung hergestellt werden, in dem der **Verbinden** Button geklickt wird:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/kffc9W7k45GWW6C/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/kffc9W7k45GWW6C/preview)
 
 
 

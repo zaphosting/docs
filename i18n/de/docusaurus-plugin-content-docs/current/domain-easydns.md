@@ -24,7 +24,7 @@ So wie es im obigen Beispiel zu sehen ist.
 Man wählt den gewünschten Dienst aus und bestätigt es dann mit einem Klick auf den "Speichern" Button.
 Es gibt ebenfalls die Option, dass man seine Domain mit einer Subdomain auf einen Minecraft Server weiterleitet.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/YXK3YQNowQAYW8B/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/YXK3YQNowQAYW8B/preview)
 
 Hier kann im ersten Feld der Name der **gewünschten Subdomain** eingetragen werden.
 Rechts daneben wählt man den gewünschten **Minecraft Server** aus, welchen man mit der Subdomain dann verknüpfen möchte.

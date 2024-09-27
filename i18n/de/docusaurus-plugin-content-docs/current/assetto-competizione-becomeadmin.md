@@ -17,7 +17,7 @@ Die Zuweisung von Administratorberechtigungen ermöglicht dir eine einfache und 
 Das Admin Passwort kannst du im Interface von deinem Server unter dem Reiter "Einstellungen" einsehen und ändern.
 Zu den Einstellungen gelangst du hier:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/erM9WFt2kC86xcM/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/erM9WFt2kC86xcM/preview)
 
 
 ## Mit dem Server verbinden

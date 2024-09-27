@@ -29,7 +29,7 @@ Die Nutzung von mehreren IP-Adressen setzt voraus, dass dein Server (Paket) dies
 
 Zunächst werden die Informationen zu den verfügbaren IP-Adressen benötigt. Die zusätzlichen IP-Adressen können in der Server Verwaltung unter IP-Adressen eingesehen werden. 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/cioF28HcsWS5iko/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/cioF28HcsWS5iko/preview)
 
 
 
@@ -43,7 +43,7 @@ Um die Netzwerkkonfiguration auf einem Windows Server aufzurufen, gibt es versch
 
 Öffne nun in den **Eigenschaften** des Netzwerkadapters die Option **Internetprotokoll Version 4 (TCP/IPv4)** aus. Dort siehst du Informationen zur Haupt-IP-Adresse, Subnetzmaske, Standard Gateway und die DNS-Server. Klicke dort auf den Button **Erweitert** um die zusätzliche(n) IP-Adressen hinzuzufügen. 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/R4FyxYPMEH6syS3/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/R4FyxYPMEH6syS3/preview)
 
 
 
@@ -53,7 +53,7 @@ Um die Netzwerkkonfiguration auf einem Windows Server aufzurufen, gibt es versch
 
 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/96RpNegkcGGEsJe/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/96RpNegkcGGEsJe/preview)
 
 
 
@@ -64,5 +64,5 @@ Die IP-Adresse ist jetzt erfolgreich konfiguriert und hinzugefügt worden. Du ka
 
 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/XsZBB9fjatdrpRL/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/XsZBB9fjatdrpRL/preview)
 

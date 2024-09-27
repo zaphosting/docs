@@ -38,7 +38,7 @@ Lokale Savegames sind Spiele, die du erstellt hast, während du ein Multiplayer-
 :::tip
 Du kannst auf diesen Pfad auch direkt zugreifen, indem du gleichzeitig `CTRL` + `R` drückst und im Ausführen-Dialog nach dem folgenden Pfad suchst: `%Benutzerprofil%/appdata/locallow/Ludeon Studios/RimWorld by Ludeon Studios/Saves`. Drücke einfach **OK** und du wirst zu dem Ordner weitergeleitet.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/LZ6Ljo2DfBoH45s/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/LZ6Ljo2DfBoH45s/preview)
 :::
 
 An diesem Ort kannst du alle deine lokalen Savegames sehen.
@@ -52,7 +52,7 @@ Das Sichern deines Savegames vom Server aus ist ganz einfach. Sobald du dich üb
 
 An diesem Ort solltest du Ordner sehen, die jeweils ein Savegame sind. Klicke einfach mit der rechten Maustaste auf den Ordner und benutze die Schaltfläche **Download**, um ihn lokal auf deinem Gerät zu speichern.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/yjYXnDSHs7g5eCH/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/yjYXnDSHs7g5eCH/preview)
 
 ### Automatische Sicherung
 
@@ -65,7 +65,7 @@ Wir bieten auch die Möglichkeit, dein Savegame (und deine Konfigurationsdatei) 
 ../rimworld-together/Saves
 ```
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/s4zakSdKniMdGmT/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/s4zakSdKniMdGmT/preview)
 
 Ziehe einfach alle deine Savegames mit deinem FTP-Client in diesen Ordner und sie werden auf deinen Server hochgeladen.
 

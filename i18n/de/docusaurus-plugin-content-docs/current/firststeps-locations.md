@@ -40,7 +40,7 @@ Du bist dir unsicher, welcher Standort für dich der beste ist? Das ist kein Pro
 
 Die Ping-Check Option findest du während des Bestellvorgangs bei der Standortauswahl. Klicke dort auf den **Ping-Check 🚀** Button. Im Anschluss wird dir das Ergebnis des jeweiligen Standorts angezeigt. 
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/qZwpgHMgnqs8FaH/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/qZwpgHMgnqs8FaH/preview)
 
 
 

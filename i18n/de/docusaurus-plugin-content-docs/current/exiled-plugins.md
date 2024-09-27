@@ -28,13 +28,13 @@ Unter (https://plugins.scpslgame.com/) findest du eine Liste von Plugins, die f�
 
 ## Option 2 über Github herunterladen
 Um ein Plugin über Github herunterzuladen, musst du zum EXILED Github gehen, wie unten gezeigt, und ein Plugin-Repository auswählen.
-![image](https://screensaver01.zap-hosting.com/index.php/s/GJWWsbbNPry2Sgc/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/GJWWsbbNPry2Sgc/preview)
 
 Sobald du das Plugin-Repository gefunden hast, das du herunterladen möchtest, erscheint auf der rechten Seite ein Abschnitt mit den Veröffentlichungen.
-![image](https://screensaver01.zap-hosting.com/index.php/s/83GHkFKigg5BR5a/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/83GHkFKigg5BR5a/preview)
 
 Sobald du den Abschnitt "Releases" ausgewählt hast, wird eine .dll-Ressource angezeigt, auf die du klicken musst, um den Download zu starten.
-![image](https://screensaver01.zap-hosting.com/index.php/s/ycWDs557E6PmZCm/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/ycWDs557E6PmZCm/preview)
 
 Und das war's. Du kannst nun dem Installationsteil dieses Dokuments folgen, um zu erfahren, wie du die .dll auf deinem Server installierst.
 
@@ -42,12 +42,12 @@ Und das war's. Du kannst nun dem Installationsteil dieses Dokuments folgen, um z
 
 Jetzt, wenn die gewünschten Plugins heruntergeladen wurden, dann kann mit der eigentlichen Installation der Plugins angefangen werden. Die Einrichtung der Plugins erfolgt per FTP. Um Dateien auf deinen Server hochladen zu können, benötigst du einen FTP-Client. Falls du noch nicht weißt, was FTP ist und wie es funktioniert, dann schaue dir am besten die folgende Anleitung an: [Zugriff per FTP](gameserver-ftpaccess.md)
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/EwDMrFxGazMeWkB/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/EwDMrFxGazMeWkB/preview)
 
 Unter dem ``/gXXXXXX/.config/EXILED/`` Verzeichnis findest du den **Plugins** Ordner. Dort werden deine ausgewählten Plugins dann in das Verzeichnis hochgeladen. Das Ganze kann dann wie folgt aussehen:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/ybicJCJAMZn5xyW/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/ybicJCJAMZn5xyW/preview)
 
 Mehr muss nicht gemacht werden. Damit ist die Installation bereits abgeschlossen. Im Anschluss kannst du in der Live-Konsole nachschauen, ob das Plugin erfolgreich kompiliert und geladen wurde. Die Ausgabe sollte dann wie folgt aussehen:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/P9oW3CWyfaiaWTq/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/P9oW3CWyfaiaWTq/preview)

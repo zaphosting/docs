@@ -23,21 +23,21 @@ Um diese Anleitung zu befolgen, benötigst du:
 
 Beginne damit, zum Webinterface deiner ausgewählten Domain auf deinem ZAP-Hosting-Konto zu navigieren. Finde die Option **ExpertDNS** und aktiviere sie, indem du das Häkchen setzt und auf den Speichern-Button drückst.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/wtk5FSTdqDkYoKj/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/wtk5FSTdqDkYoKj/preview)
 
 ## Schritt 2: Einrichten deiner Domain bei Cloudflare
 
 Für die nächsten Schritte musst du Cloudflare nutzen, also logge dich zunächst in dein Cloudflare-Konto ein. Wenn du eingeloggt bist, fügst du deine Website zum Dashboard hinzu, indem du den Einrichtungsschritten folgst, die direkt von Cloudflare bereitgestellt werden.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/D5gjMEcfBkDjcP6/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/D5gjMEcfBkDjcP6/preview)
 
 Sobald du Schritt 4 des Prozesses erreicht hast, werden dir Nameserver angezeigt, die du einrichten musst.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/yZimJRCaBqGJBRD/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/yZimJRCaBqGJBRD/preview)
 
 Gehe in das Webinterface deiner Domain und öffne den Bereich **ExpertDNS**. Entferne in diesem Bereich die Standard-Nameserver von ZAP-Hosting und ersetze sie durch die, die du von Cloudflare erhalten hast.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/wpMTaqcaqbnswJJ/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/wpMTaqcaqbnswJJ/preview)
 
 Achte darauf, dass du deine Änderungen speicherst, sobald du fertig bist.
 

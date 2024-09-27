@@ -15,14 +15,14 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Bevor wir das Inventar deaktivieren können, muss der [Zugriff per FTP](gameserver-ftpaccess.md) eingerichtet werden. Nachdem dieser eingerichtet wurde, kann sich nun verbunden werden und der Server Ordner geöffnet werden:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/T4noj9BnKDD2R2r/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/T4noj9BnKDD2R2r/preview)
 
 
 ## Änderungen Vornehmen
 
 Nun öffnen wir den `server-data/resources/[esx]` Pfad, hier finden wir einen es_extended Ordner:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/giexwAPkHxpZ7RB/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/giexwAPkHxpZ7RB/preview)
 
 In diesem Ordner öffnen wir nun die `config.lua` Datei.
 

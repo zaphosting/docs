@@ -20,7 +20,7 @@ Zuerst musst du die [Verbindung via RCON](rust-connectrcon.md) herstellen.
 
 Sobald du verbunden bist, navigiere in das Feld, in welchem du Konsolenbefehle ausführen kannst. In unserem Beispiel nutzen wir **RustAdmin**.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/fr4eoPj8YybX4kw/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/fr4eoPj8YybX4kw/preview)
 
 Um dir Adminrechte zu geben, kannst du dort nun folgenden Befehl ausführen:
 `ownerid Steam64ID`

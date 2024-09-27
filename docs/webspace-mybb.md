@@ -67,7 +67,7 @@ An overview of the required system prerequisites should then be displayed. This 
 
 In case any prerequisites are not met, please contact the support. Otherwise you can click on **Next** and continue the setup. Now we have to configure the database, which has already been created in advance. The database information from the created database must be filled in there: 
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/GaRZiSizcYCMX3Z/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/GaRZiSizcYCMX3Z/preview)
 
 
 
@@ -88,6 +88,6 @@ Last but not least, a general administrator account must be created before the s
 
 If you have done this and everything else has been configured successfully, then you should see the following message and be able to access your forum as well:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/9N2jBCbzEYe2iyn/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/9N2jBCbzEYe2iyn/preview)
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/g9iecMjiDX4GoqP/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/g9iecMjiDX4GoqP/preview)

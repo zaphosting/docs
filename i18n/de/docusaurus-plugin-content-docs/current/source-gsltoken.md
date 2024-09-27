@@ -33,7 +33,7 @@ Um einen Gameserver Login Token zu erstellen, muss man auf der Steam Webseite ei
 
 
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/AaZTGE87EyX82jF/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/AaZTGE87EyX82jF/preview)
 
 
 
@@ -52,7 +52,7 @@ Unter den Einstellungen deines Gameservers kann in den Basiseinstellungen der GS
 
 
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/yptTNfEWEEqry2T/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/yptTNfEWEEqry2T/preview)
 
 
 

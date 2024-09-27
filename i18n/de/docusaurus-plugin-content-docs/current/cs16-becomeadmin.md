@@ -36,7 +36,7 @@ Im Anschluss rufst du dann eine der folgenden Seiten auf:
 - https://steamidfinder.com/
 - https://steamid.io/
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/EFHQSqf72bDjRrp/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/EFHQSqf72bDjRrp/preview)
 
 Dadurch erhältst du dort sowohl allgemeine Informationen als auch die Steam ID von deinem Account. In dem Fall wird nur die SteamID64 benötigt. Den vorhandenen Eintrag passen wir dann wie folgt an: 
 

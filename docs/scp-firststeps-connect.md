@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Are you unsure about what you need to connect to your server in general or how to do it exactly? Don't worry! We will explain you in the following step by step what you will need to connect to your server, how to connect to it afterwards and what to consider in general. This should allow you to successfully connect to your server without any problems! :)
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/QRWLSKmSRSCYsmj/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/QRWLSKmSRSCYsmj/preview)
 
 <InlineVoucher />
 
@@ -33,7 +33,7 @@ For the connection to your game server, it is mandatory that you already own the
 
 Provided that all prerequisites of **Game / Content** are met, you will need the information of your server. Click on your game server service in your dashboard. The overview will now show you all general information about your server.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/YpiLt9Byz8A292y/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/YpiLt9Byz8A292y/preview)
 
 The relevant information includes the **IP address** and **Port**. You should remember these, because you will need them for your first connection to your server.
 
@@ -45,13 +45,13 @@ The relevant information includes the **IP address** and **Port**. You should re
 
 Once all the prerequisites have been met, you can begin to connect to the server. To do this, start your game and navigate to the **Servers** tab. Click there on Direct Connect: 
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/58L9WNxqydmHDfP/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/58L9WNxqydmHDfP/preview)
 
 Enter the IP and port of your server. After that you can establish the connection by clicking the **Connect** button:
 
 
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/sQN2nPwTnTbZ8qj/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/sQN2nPwTnTbZ8qj/preview)
 
 
 

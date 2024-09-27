@@ -19,7 +19,7 @@ Euro Truck Simulator 2 has native modding support via the Steam Workshop built i
 
 To begin with, you will have to find and select the mods and DLCs that you wish to use. You can do this by in-game by accessing the **Mod Manager** and **DLC Browser** options in the main menu.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/osjX59MRjrPBfe6/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/osjX59MRjrPBfe6/preview)
 
 ### Mods
 
@@ -27,7 +27,7 @@ You can access Mods via the **Mod Manager** option in the main menu, which allow
 
 Once you have installed some mods, ensure that you move them to the **Active Mods** list using the arrows besides each mod.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/TG7XK6ZodWZM2pz/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/TG7XK6ZodWZM2pz/preview)
 
 Finally, confirm the changes and enter the game, into single player mode.
 
@@ -48,8 +48,8 @@ C:/Users/[your_user]/Documents/Euro Truck Simulator 2
 
 In this file, find the line `uset g_developer "0"` and replace it with `uset g_developer "1"` to enable. Likewise, also find the line `uset g_console "0"` and replace it with `uset g_console "1"`.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/Wz52e4o2KtTndZM/preview)
-![image](https://screensaver01.zap-hosting.com/index.php/s/raR8jxq7imKzjDD/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/Wz52e4o2KtTndZM/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/raR8jxq7imKzjDD/preview)
 
 Restart your game, and you will now be able to open the console via one of the following keys depending on keyboard layout:
 ```
@@ -61,7 +61,7 @@ Now that you are ready, in the console type in the following command to export s
 export_server_packages
 ```
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/zbzbdKfyr5xyNrK/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/zbzbdKfyr5xyNrK/preview)
 
 Two files will be exported into your `Documents/Euro Truck Simulator 2` folder, the `server_packages.dat` and `server_packages.sii` files, which contain information about DLCs/mods and will be used in the next section.
 
@@ -71,7 +71,7 @@ Now with your server packages exported for your mods, you will have to upload th
 
 Once ready, head over into the main root **Euro Truck Simulator 2** directory. Upload both of the server packages files into this folder. If these files already exist, simply replace them.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/9xaDPw7sptsN3FH/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/9xaDPw7sptsN3FH/preview)
 
 :::tip
 When modding, the mods must be synced between the client and the server. This means that if you are connecting to a server with mods that you do not have, you will be prompted to download the missing mods.

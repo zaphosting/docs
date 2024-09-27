@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Die Konfiguration eines **ARK Gameservers** mag bei dem einen oder anderen für Verwirrung und Ratlosigkeit sorgen. Allerdings geschieht das nicht ohne Grund. ARK bietet bei seinem Spiel sehr viele Konfigurationsmöglichkeiten an. Dazu kommt noch, dass die Konfiguration über verschiedene Konfigurationsdateien stattfindet, bei denen ebenfalls aufgepasst werden muss, in welche Datei welche Befehle gehören. In dieser Anleitung versuchen wir dir einen besseren Überblick über die Funktionsweise der Konfiguration eines ARK Gameservers zu vermitteln. 
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/teF8XRKqT8e77XY/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/teF8XRKqT8e77XY/preview)
 
 <InlineVoucher />
 
@@ -59,7 +59,7 @@ Trage dafür den Befehlsname der Map einfach in das Feld **Karte / Map** ein und
 
 
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/bsFiTetGd7fKi8R/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/bsFiTetGd7fKi8R/preview)
 
 
 

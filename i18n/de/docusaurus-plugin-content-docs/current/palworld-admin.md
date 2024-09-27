@@ -27,16 +27,16 @@ import TabItem from '@theme/TabItem';
 
 Die benutzerfreundlichste Methode ist es, im Webinterface deines Gameservers in den Bereich **Einstellungen** zu gehen.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/cGbSnRp5gfbWnnb/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/cGbSnRp5gfbWnnb/preview)
 
 Suche im Bereich **Einstellungen** nach der Option **Gameserver Passwort**. Erstelle in diesem Feld ein Passwort, das du verwenden möchtest, und gib es ein.
 
-![image](https://github.com/zaphosting/docs/assets/42719082/1cd01ae3-1abd-45d5-9bdb-69e63364764d)
+![](https://github.com/zaphosting/docs/assets/42719082/1cd01ae3-1abd-45d5-9bdb-69e63364764d)
 
 :::info
 Wenn du ein Passwort ausgewählt hast, scrolle nach oben und drücke die grüne Taste **Speichern**, um die Auswahl zu bestätigen.
 
-![image](https://github.com/zaphosting/docs/assets/42719082/0c314a42-1644-4dcf-9d71-45428059cd53)
+![](https://github.com/zaphosting/docs/assets/42719082/0c314a42-1644-4dcf-9d71-45428059cd53)
 :::
 
 </TabItem>
@@ -51,11 +51,11 @@ Der Server muss angehalten werden, bevor die Konfiguration bearbeitet werden kan
 
 Wenn du die Rohdatei direkt bearbeiten möchtest, kannst du dies auch tun, indem du im Webinterface deines Gameservers in den Bereich **Configs** gehst und dort auf die blaue Schaltfläche "Datei bearbeiten" klickst, wie unten zu sehen:
 
-![image](https://github.com/zaphosting/docs/assets/42719082/ba2b275b-952f-4a5e-bdc0-5850b4eb5a85)
+![](https://github.com/zaphosting/docs/assets/42719082/ba2b275b-952f-4a5e-bdc0-5850b4eb5a85)
 
 Dadurch wird ein Texteditor direkt auf der Seite geöffnet, mit dem du die Datei bearbeiten kannst. Finde die Option **AdminPassword** in der Datei (benutze die Tastenkombination `CTRL+F`, um die Suche zu erleichtern) und gib das gewünschte Admin-Passwort ein. Zum Schluss speicherst du die Datei und kannst dann deinen Server starten.
 
-![image](https://github.com/zaphosting/docs/assets/42719082/d86376b8-1a41-4fb0-b8cd-8570ddcaa9ae)
+![](https://github.com/zaphosting/docs/assets/42719082/d86376b8-1a41-4fb0-b8cd-8570ddcaa9ae)
 
 </TabItem>
 
@@ -82,6 +82,6 @@ Sobald dein Admin-Passwort festgelegt ist, musst du dich selbst als Admin hinzuf
 /AdminPassword [Passwort]
 ```
 
-![image](https://github.com/zaphosting/docs/assets/42719082/2f6e3ee7-e83f-4b71-87dc-d36f9b8c7340)
+![](https://github.com/zaphosting/docs/assets/42719082/2f6e3ee7-e83f-4b71-87dc-d36f9b8c7340)
 
 Du solltest eine Erfolgsmeldung im Chat erhalten, wenn dies korrekt war. Wenn du eine Fehlermeldung erhältst, vergewissere dich bitte, dass das eingegebene Admin-Passwort korrekt ist und das, das du im vorherigen Schritt festgelegt hast.

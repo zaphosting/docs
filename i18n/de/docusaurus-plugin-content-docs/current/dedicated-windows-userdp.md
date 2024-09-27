@@ -16,22 +16,22 @@ Die Verbindung zu deinem Windows Server erfolgt über das von Windows mitgeliefe
 Die Windows Suchfunktion ist über das Windows Symbol in der linken unteren Ecke zu finden.
 :::
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/zeeqQX7So5Snb7e/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/zeeqQX7So5Snb7e/preview)
 
 ## IP-Adresse & Zugang
 
 "Remotedesktopverbindung", fragt nach einem, "**Computernamen**". Das ist die IP-Adresse des Servers.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/qwKKnmzMqnrRSwy/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/qwKKnmzMqnrRSwy/preview)
 
 Die IP-Adresse findet sich im ZAP Webinterface unter "**Zugang & Sicherheit**", sowie in der Infobar.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/8g2am7BYBFBE7pz/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/8g2am7BYBFBE7pz/preview)
 
 
 Das Programm fragt nach einem **Benutzernamen** und **Kennwort**. Der Benutzername lautet "**Administrator**". Das Passwort lässt sich im Webinterface unter "**Zugang & Sicherheit**" setzen.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/L6RxBtN4bM8RMEy/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/L6RxBtN4bM8RMEy/preview)
 
 
 :::info

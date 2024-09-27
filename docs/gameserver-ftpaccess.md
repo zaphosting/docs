@@ -26,7 +26,7 @@ To manage your files using the FTP protocol, you need a suitable FTP client. The
 
 Choose an FTP client and install it on your computer. To connect to the server, you need to enter the **IP address (FTP Server)**, **username**, and **password**. This information can be found on the FTP browser page. The port is always **21**, which is usually entered automatically.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/PXkQmqFN39dS3L5/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/PXkQmqFN39dS3L5/preview)
 
 ## FileZilla
 
@@ -34,7 +34,7 @@ Choose an FTP client and install it on your computer. To connect to the server, 
 
 You can establish a connection either through the Quickconnect feature or by going to **File -> Site Manager**. Enter the **FTP credentials** for your server there and then click **Connect**.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/wxSSFoW3GTXJdLK/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/wxSSFoW3GTXJdLK/preview)
 
 :::info
 Make sure to stop the server and update the FTP permissions before accessing the server files. Otherwise, error messages like "Permission Denied" or "Access Denied" may occur.
@@ -46,7 +46,7 @@ As mentioned before, you can use the FTP client to upload, download, and edit fi
 
 Management is done by right-clicking on the respective file or folder. Depending on what you want to do, you can upload, download, edit, rename, or move files or folders.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/qizoBD5JnHBRkJc/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/qizoBD5JnHBRkJc/preview)
 
 :::info
 If you have multiple game servers, you must first navigate to the correct game server directory.
@@ -70,7 +70,7 @@ If this error occurs during connection or transfer, you can try switching the tr
 ### Connecting
 You can establish a connection through the Quickconnect or at the top via **New Session**. Enter the FTP credentials for your server there and then click **Connect**.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/KNnkJsnETTFqZpD/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/KNnkJsnETTFqZpD/preview)
 
 
 :::info
@@ -84,7 +84,7 @@ As mentioned before, you can use the FTP client to upload, download, and edit fi
 
 Management is done by right-clicking on the respective file or folder. Depending on what you want to do, you can upload, download, edit, rename, or move files or folders.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/dAYiFwWQAipgTqW/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/dAYiFwWQAipgTqW/preview)
 
 
 ### Possible problems and solutions

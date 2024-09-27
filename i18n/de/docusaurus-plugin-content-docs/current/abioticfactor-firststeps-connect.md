@@ -21,7 +21,7 @@ In dieser Anleitung erfährst du, wie du dich mit deinem Abiotic Factor Server v
 
 Zunächst musst du die IP und den Port deines Abiotic Factor-Servers kennen, um eine direkte Verbindung herstellen zu können. Gehe einfach zu deinem [ZAP-Hosting Webinterface](https://zap-hosting.com/en/customer/) auf der Website und halte die vollständige IP und den Port bereit.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/P2GPRPcTPAytK2z/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/P2GPRPcTPAytK2z/preview)
 
 Wenn du deinen Abiotic Factor Server als externen dedizierten Server betreibst, ist die IP die des Host-Rechners und der Port derjenige, den du in deiner Konfigurationsdatei eingestellt hast (standardmäßig ist das 7777). In unserer [Server-Konfiguration](abioticfactor-configuration.md) Anleitung findest du weitere Informationen zum Port.
 
@@ -31,15 +31,15 @@ Abiotic Factor nutzt Steam Serves, d.h. du kannst die IP-Adresse deines Gameserv
 
 Öffne Steam und gehe auf die Registerkarte **View->Game Server**.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/9Yi2ymdSRj3WDbx/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/9Yi2ymdSRj3WDbx/preview)
 
 Gehe nun zum Abschnitt **Favorites** und drücke unten auf das Plus-Symbol, um das Menü Direct IP zu öffnen.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/7dFW9ANQmeTNdz9/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/7dFW9ANQmeTNdz9/preview)
 
 In der neuen Eingabeaufforderung gibst du die IP-Adresse und den Port deines Servers im folgenden Format ein: `[Deine_IP-Adresse]:[Dein_Port]`. Drücke **OK**, wenn du fertig bist und der Server sollte zu deiner Liste hinzugefügt werden. Wenn du eine Fehlermeldung erhältst, vergewissere dich, dass du beide Teile der direkten IP richtig eingegeben hast.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/ir5Hy54fc95CDbs/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/ir5Hy54fc95CDbs/preview)
 
 Jetzt solltest du deinen Abiotic Factor-Server in der Liste der Steam Game Servers sehen können. Wähle einfach den Server aus und benutze die Schaltfläche **Verbinden** unten im Menü, um dich mit deinem Server zu verbinden.
 
@@ -57,4 +57,4 @@ Es kann einige Zeit dauern, bis die Suchergebnisse angezeigt werden. Alternativ 
 Vergewissere dich, dass das Kontrollkästchen **Show Dedicated** angekreuzt ist, sonst wird dein Server nicht angezeigt.
 :::
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/B5JjGR93qkp9WXK/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/B5JjGR93qkp9WXK/preview)

@@ -23,7 +23,7 @@ This option allows you to access your server and resolve issues even if the inte
 
 On this page, you will be able to activate the console by using the **Open Web Client** button and logging in with your usual credentials.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/L9ZPLHEXbydc6ZS/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/L9ZPLHEXbydc6ZS/preview)
 
 ## Troubleshooting Methods
 
@@ -33,7 +33,7 @@ The first troubleshooting step is to ensure that the technical configuration for
 
 Begin by heading over to the **Settings->IP-Addresses** section on your server's web interface panel where you will be able to view all of the IP Addresses that you currently rent with your service.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/8gF7Qsq5k5aYxbq/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/8gF7Qsq5k5aYxbq/preview)
 
 Now access your server via RDP or the VNC Console if you are facing issues. Head over into your Windows Network Adapter Settings by going into: 
 ```
@@ -42,7 +42,7 @@ Settings -> Network and Internet -> Change Adapter Options -> Network Adapter
 
 Find the **Internet Protocol, Version 4 (TCP/IPv4)** option in the list and select **Properties**.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/xYSSa2txkRkM4bx/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/xYSSa2txkRkM4bx/preview)
 
 #### Configuring Adapter
 
@@ -65,7 +65,7 @@ With an IP address of `185.223.28.163`, your configuration should look like the 
 | Subnet mask     | 255.255.255.0  |
 | Default gateway | 185.223.28.1   |
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/PTjQZc5gqP2okAC/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/PTjQZc5gqP2okAC/preview)
 
 Once ready, press **Ok** to apply the changes. We recommend restarting the server in order to complete the troubleshooting process.
 
@@ -80,7 +80,7 @@ We recommend using either Google's or Cloudflare's DNS servers as they are widel
 | Google       | Preferred: 8.8.8.8 / Alternate: 8.8.4.4 |
 | Cloudflare   | Preferred: 1.1.1.1 / Alternate: 1.0.0.1 |
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/oqcR5BHBKLa3ink/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/oqcR5BHBKLa3ink/preview)
 
 Once ready, press **Ok** again to apply the changes. Here we also recommend restarting the server in order to complete the troubleshooting process.
 
@@ -90,7 +90,7 @@ The final troubleshooting step is to ensure that the Windows Firewall is configu
 
 We recommend attempting to disable the entire Windows Firewall temporarily to see if the issues persist. Use the search function on Windows to open up **Windows Defender Firewall Settings** and select the **Turn Windows Defender Firewall on or off** option on the left section.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/bWcPqHcCZ7ajJSA/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/bWcPqHcCZ7ajJSA/preview)
 
 If the issues are resolved when the firewall is disabled, it is likely that the root cause of your issue will be a firewall misconfiguration.
 

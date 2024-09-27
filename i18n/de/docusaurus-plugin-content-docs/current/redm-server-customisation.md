@@ -26,13 +26,13 @@ import TabItem from '@theme/TabItem';
 <TabItem value="settings" label="Via Webinterface" default>
 Die einfachste Methode ist es, den Abschnitt **Einstellungen** im Webinterface deines Gameservers aufzurufen und dort nach den entsprechenden Einstellungen zu suchen, wie unten zu sehen:
 
-![image](https://github.com/zaphosting/docs/assets/42719082/43d0e6eb-a24d-46b8-a6a2-5659ae94084c)
+![](https://github.com/zaphosting/docs/assets/42719082/43d0e6eb-a24d-46b8-a6a2-5659ae94084c)
 </TabItem>
 
 <TabItem value="configs" label="Via WI Config file">
 Alternativ dazu können Benutzer, die die Raw-Datei direkt bearbeiten möchten, dies tun, indem sie den Abschnitt **Configs** im Webinterface ihres Gameservers aufrufen und auf den blauen Button " Datei bearbeiten" klicken, wie unten zu sehen:
 
-![image](https://github.com/zaphosting/docs/assets/42719082/e3c7392c-7246-4133-be2e-383dac4b0327)
+![](https://github.com/zaphosting/docs/assets/42719082/e3c7392c-7246-4133-be2e-383dac4b0327)
 
 Dadurch öffnet sich direkt auf der Website ein Texteditor, mit dem du diese bearbeiten kannst.
 </TabItem>
@@ -57,7 +57,7 @@ Jetzt kannst du den Namen deines Servers ändern, indem du eine der drei Methode
 sv_hostname "^2ZAP-Hosting ^0| ^4Official Community Server ^0- ^1Events coming ^8soon^1!"
 ```
 
-![image](https://github.com/zaphosting/docs/assets/42719082/32bbf492-9ee0-4c78-a391-9c44120369c2)
+![](https://github.com/zaphosting/docs/assets/42719082/32bbf492-9ee0-4c78-a391-9c44120369c2)
 
 #### Farbcodes Tabelle
 
@@ -80,7 +80,7 @@ RedM ermöglicht es auch, Emojis direkt in Ihren Servernamen einzufügen. Fügen
 
 Hier ist ein Beispiel für das Hinzufügen von Emojis über das Webinterface deines Gameservers:
 
-![image](https://github.com/zaphosting/docs/assets/42719082/43d0e6eb-a24d-46b8-a6a2-5659ae94084c)
+![](https://github.com/zaphosting/docs/assets/42719082/43d0e6eb-a24d-46b8-a6a2-5659ae94084c)
 
 Du kannst dies ebenfalls direkt zu deiner `server.cfg` Konfigurationsdatei per FTP oder über den Abschnitt **Configs** im Webinterface deines Gameservers hinzufügen.
 
@@ -98,7 +98,7 @@ Hier ist ein Beispiel für das Setzen eines Projektnamens und das Ergebnis:
 sets sv_projectDesc "Join our Discord to stay updated on latest events! discord.gg/zaphosting"
 ```
 
-![image](https://github.com/zaphosting/docs/assets/42719082/32bbf492-9ee0-4c78-a391-9c44120369c2)
+![](https://github.com/zaphosting/docs/assets/42719082/32bbf492-9ee0-4c78-a391-9c44120369c2)
 
 ### Server Tags
 
@@ -110,7 +110,7 @@ Hier ist ein Beispiel für das Setzen von Projekt-Tags und das daraus resultiere
 sets tags "zap, zap-hosting, official, community, zap-community, zap-community-server"
 ```
 
-![image](https://github.com/zaphosting/docs/assets/42719082/33407e9f-9e28-4264-9b13-e946ed5b434a)
+![](https://github.com/zaphosting/docs/assets/42719082/33407e9f-9e28-4264-9b13-e946ed5b434a)
 
 ### Sonstige Informationen
 

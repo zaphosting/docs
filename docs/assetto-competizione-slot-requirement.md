@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 In Assetto Corsa, 10 slots can be used correctly without any further modification. However, to use more than 10 slots, certain prerequisites must be met. These prerequisites are set under "**Configs**" and in there the "**settings.json**" has to be edited.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/QbA5ZaeFywt974J/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/QbA5ZaeFywt974J/preview)
 
 <InlineVoucher />
 

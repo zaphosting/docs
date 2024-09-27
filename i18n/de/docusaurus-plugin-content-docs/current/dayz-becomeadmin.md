@@ -19,13 +19,13 @@ Die Zuweisung von Administratorberechtigungen ermöglicht dir eine einfache und 
 
 Die Konfiguration der Administratorberechtigungen erfolgt über die Server Konfigurationsdatei. Die Konfigurationsdateien deines Servers kannst du in der Gameserver Verwaltung unter **Configs** aufrufen. Dort angelangt findest du eine übersicht der verfügbaren Konfigurationsdateien. Rufe die **server.DZ.cfg** auf, in dem du auf den blauen Button klickst. 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/Km4M9FFzgtEXqR9/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/Km4M9FFzgtEXqR9/preview)
 
 In der Konfigurationsdatei solltest du nun den Eintrag **passwordAdmin** finden. An dieser Stelle musst du das gewünschte Passwort für den Zugang festlegen. Trage dein Wunschpasswort ein und klicke unten auf den **Speichern** Button. 
 
 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/EsFqXznnKFokrAg/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/EsFqXznnKFokrAg/preview)
 
 
 

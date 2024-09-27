@@ -43,7 +43,7 @@ Into this folder you should drop in the mods that you have downloaded. Typically
 The server must be stopped before adding or editing mods, otherwise any edits may become undone.
 :::
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/d8gTeFiGXTsxHwz/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/d8gTeFiGXTsxHwz/preview)
 
 ## Starting Server
 

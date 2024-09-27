@@ -20,23 +20,23 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 First, we open our Content Manager and click on the sandwich menu at the top right, where we select "Server":
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/LGKdDPSCMCEMEZj/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/LGKdDPSCMCEMEZj/preview)
 
 Here we now create a new preset and select it:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/XLTcJkwrAAwB65o/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/XLTcJkwrAAwB65o/preview)
 
 ## Set Server Slots
 
 We first need to set how much capacity our server has, in our case our server is only 10 slots, so we select '10' for Capacity:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/XreNRjbpSJJqEsQ/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/XreNRjbpSJJqEsQ/preview)
 
 ## Set Map
 
 Here Imola is selected as map by default, by clicking on the map we can select our own map:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/B87ywSwXHL6qzFD/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/B87ywSwXHL6qzFD/preview)
 
 
 
@@ -45,28 +45,28 @@ Here Imola is selected as map by default, by clicking on the map we can select o
 Now we change to the tab "Entry List", here we can now add new cars:
 
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/bY5Q5WB7nDq7f8q/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/bY5Q5WB7nDq7f8q/preview)
 
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/w6oxDfGJifFZbd7/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/w6oxDfGJifFZbd7/preview)
 
 
 :::info
 Note that all car slots are filled and no more than the amount of available slots are set.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/tSZn2QJLzfDx4r9/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/tSZn2QJLzfDx4r9/preview)
 :::
 
 ## Configure FTP Upload
 
 Via the "Advanced" menu we can configure an FTP uploader so that you can upload your server config with one click.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/7TmdJPGKAbAJnDP/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/7TmdJPGKAbAJnDP/preview)
 
 
 Now enter your FTP data here:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/7R9xNeEbDQpF4BD/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/7R9xNeEbDQpF4BD/preview)
 
 :::info
 In the "Folder" you must enter the ID of your game server as you see it in the URL of your game server, for example:

@@ -17,7 +17,7 @@ Die Benutzerverwaltung ermöglicht die Erstellung von Unterbenutzern. Somit hast
 
 Die Benutzerverwaltung findest du, indem du auf den Pfeil rechts neben deinem Avatar klickst und dort im Anschluss auf den Unterpunkt **Benutzerverwaltung** gehst.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/Dxz2RcD2C6epcmm/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/Dxz2RcD2C6epcmm/preview)
 
 
 
@@ -43,9 +43,9 @@ Zunächst muss eine Benutzergruppe angelegt werden, damit im Anschluss die Unter
 
   
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/LxtGMfmpqBrdWjC/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/LxtGMfmpqBrdWjC/preview)
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/xTyyCMF7zYcao5P/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/xTyyCMF7zYcao5P/preview)
 
   
 
@@ -59,7 +59,7 @@ Mit der erfolgreichen Erstellung und Konfiguration der Benutzergruppe kann nun m
 
   
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/eiibGfGz5wCNE9T/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/eiibGfGz5wCNE9T/preview)
 
   
 
@@ -69,7 +69,7 @@ Mit der erfolgreichen Erstellung und Konfiguration der Benutzergruppe kann nun m
 
 Es öffnet sich jetzt ein Popup-Fenster, wo der Benutzer konfiguriert und angelegt wird. Hierbei wird die gewünschte Gruppe zugewiesen, der Benutzername, E-Mail-Adresse und Passwort definiert.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/D7SZz76dTpTdGYX/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/D7SZz76dTpTdGYX/preview)
 
 
 

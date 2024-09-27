@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Are you unsure about what you need to connect to your server in general or how to do it exactly? Don't worry! We will explain you in the following step by step what you will need to connect to your server, how to connect to it afterwards and what to consider in general. This should allow you to successfully connect to your server without any problems! :)
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/H5M3SWXcdsZXmJG/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/H5M3SWXcdsZXmJG/preview)
 
 <InlineVoucher />
 
@@ -33,7 +33,7 @@ For the connection to your game server, it is mandatory that you already own the
 
 Provided that all prerequisites of **Game / Content** are met, you will need the information of your server. Click on your game server service in your dashboard. The overview will now show you all general information about your server.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/mHMs3kbEjnsCTnJ/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/mHMs3kbEjnsCTnJ/preview)
 
 The relevant information includes the **IP address,** **Port** and **Password (Optional)**. You should remember these, because you will need them for your first connection to your server.
 
@@ -43,11 +43,11 @@ The relevant information includes the **IP address,** **Port** and **Password (O
 
 Once all prerequisites have been met, you can now begin to connect to the server. Open the Steam Server Browser. There you have to add the IP address and port of your server to your favorites.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/PyF2xMHEzyyfjw7/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/PyF2xMHEzyyfjw7/preview)
 
 A popup window will open where you have to provide the information. Afterwards you should be able to find your server. You can now connect to it by selecting it and using the Connect button.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/cYLfEWyfBHMGB63/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/cYLfEWyfBHMGB63/preview)
 
 
 

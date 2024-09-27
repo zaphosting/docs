@@ -37,7 +37,7 @@ Bei regulären Installationen befindet sich der Steam-Ordner auf dem Laufwerk de
 
 Sobald du diesen Ordner erreicht hast, siehst du eine Zeichendatei mit allen deinen lokalen Savegames an einem Ort. 
 
-![image](https://github.com/zaphosting/docs/assets/42719082/31022018-3072-4b40-85f0-77f9da992ccc)
+![](https://github.com/zaphosting/docs/assets/42719082/31022018-3072-4b40-85f0-77f9da992ccc)
 
 :::note
 Wenn du explizit **nicht** die Steam Cloud zum Speichern verwendest, findest du deinen Speicherordner in folgendem Verzeichnis: `C://Users/[deinBenutzer]/Saved Games/Enshrouded`.
@@ -52,7 +52,7 @@ Das Sichern deines Savegames vom Server aus ist ganz einfach. Sobald du dich üb
 
 An diesem Ort solltest du eine Datei mit zufälligen Zeichen sehen, die dein Savegame ist. Klicke einfach mit der rechten Maustaste auf die Datei und benutze die Schaltfläche **Download**, um sie lokal auf deinem Gerät zu speichern.
 
-![image](https://github.com/zaphosting/docs/assets/42719082/e7c230a3-a2cb-4ae0-a0dc-6d2211edd06c)
+![](https://github.com/zaphosting/docs/assets/42719082/e7c230a3-a2cb-4ae0-a0dc-6d2211edd06c)
 
 ### Automatische Sicherung
 
@@ -65,7 +65,7 @@ Wir bieten auch die Möglichkeit, dein Savegame (und deine Konfigurationsdatei) 
 ../enshrouded/savegame/
 ```
 
-![image](https://github.com/zaphosting/docs/assets/42719082/e465680f-65bc-456d-bd99-fbdff755defb)
+![](https://github.com/zaphosting/docs/assets/42719082/e465680f-65bc-456d-bd99-fbdff755defb)
 
 Ziehe einfach eines deiner Savegames mit deinem FTP-Client in diesen Ordner und es wird auf deinen Server hochgeladen.
 

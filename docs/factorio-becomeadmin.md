@@ -17,7 +17,7 @@ The assignment of administrator permissions allows you simple and comprehensive 
 
 Administrator rights allow you to make changes directly in the game on your server without having to change it in the Config. Adding an admin is done via the **server-settings.json** Config, which you can find in the interface under Configs.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/nDGgzXfmgzqDrf5/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/nDGgzXfmgzqDrf5/preview)
 
 At the end of the config file is the important part. The admins are defined there:
 

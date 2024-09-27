@@ -34,12 +34,12 @@ Local Savegames are ones which you have created whilst hosting a multiplayer gam
 :::tip
 You can easily access this path directly by pressing `CTRL` + `R` at the same time and searching for the following path in the run dialog: `%userprofile%/appdata/locallow/Channel 3 Entertainment/foundry/save`. Simply press **OK** and you will be taken to the folder.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/E6rniERFyc5AdS9/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/E6rniERFyc5AdS9/preview)
 :::
 
 At this location, you will be able to see all of your local Savegames.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/LGPj2xZNGeCJpjt/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/LGPj2xZNGeCJpjt/preview)
 
 ### Accessing Savegame via FTP
 
@@ -50,7 +50,7 @@ Backing up your Savegame from the server is simple. Once you have connected to y
 
 At this location, you should be able to see folders which are each a Savegame. Simply right-click on the folder and use the **Download** button to save it locally to your device.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/X2f3Fo27GCyFe3m/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/X2f3Fo27GCyFe3m/preview)
 
 ### Automatic Backup
 
@@ -63,7 +63,7 @@ Similarly to backing up, uploading your Savegame is simple. First ensure that yo
 ../foundry/saves/save
 ```
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/CobaowD4JLPWte7/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/CobaowD4JLPWte7/preview)
 
 Simply drag and drop any of your Savegames into this folder through your FTP Client and it will be uploaded to your server.
 

@@ -23,7 +23,7 @@ Um eine Domain zu transferieren, musst du sie während des Bestellvorgangs um 1 
 
 Wenn du die genaue Domain gefunden hast, die du transferieren möchtest, wähle sie in der Liste aus. Es ist normal, dass die Domain als nicht verfügbar angezeigt wird, aber du solltest das Transfersymbol daneben sehen.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/omnaMqXJgarxsqW/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/omnaMqXJgarxsqW/preview)
 
 Daraufhin öffnet sich eine neue Eingabeaufforderung, mit der du den Transfer zu deinem ZAP-Hosting-Konto autorisierst.
 
@@ -31,7 +31,7 @@ Du musst nun zu deinem bisherigen Registrar gehen und den **Auth Code** für dei
 
 Wenn du den **Auth Code** parat hast, gib ihn in die Eingabeaufforderung ein und bestätige ihn. Fahre wie gewohnt mit dem Bestellvorgang fort.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/y9mca4c3XeTaaHS/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/y9mca4c3XeTaaHS/preview)
 
 Nachdem du deine Bestellung abgeschickt hast, sollte dein Überweisungsantrag in der Regel innerhalb von 48 Stunden bearbeitet werden. Dieser Prozess kann jedoch manchmal länger dauern, da dein alter Anbieter die Überweisung erst genehmigen muss. Wir bitten dich daher, während dieses Prozesses etwas Geduld zu haben :)
 
@@ -43,6 +43,6 @@ Wir sind traurig, dass du den Umzug deiner Domain von uns weg in Erwägung ziehs
 
 Gehe in den Bereich **Dashboard** im Webinterface deiner Domain. Auf dieser Seite kannst du direkt deinen aktuellen **Auth Code** für die Domain einsehen.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/LHjd6i5xwX3rFM2/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/LHjd6i5xwX3rFM2/preview)
 
 Diesen Autorisierungscode solltest du deinem neuen Anbieter bei der Einrichtung mitteilen, um deine Domain umzuziehen.

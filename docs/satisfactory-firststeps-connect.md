@@ -33,7 +33,7 @@ For the connection to your game server, it is mandatory that you already own the
 
 Provided that all prerequisites of **Game / Content** are met, you will need the information of your server. Click on your game server service in your dashboard. The overview will now show you all general information about your server.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/wYgykBmWqtynSm4/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/wYgykBmWqtynSm4/preview)
 
 The relevant information includes the **IP address,** and **Port**. You should remember these, because you will need them for your first connection to your server.
 
@@ -43,25 +43,25 @@ The relevant information includes the **IP address,** and **Port**. You should r
 
 Once all the prerequisites have been met, you can begin to connect to the server. To do this, start your game. Then navigate to the menu item Server Manager in the game and click on "Add Server" to add your server.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/E2MFTm9NskpmseS/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/E2MFTm9NskpmseS/preview)
 
 
 
 A popup window will open where the server information is entered. Enter the IP address and port of your game server and click **Confirm**. The game will ask you to set a name and admin password afterwards.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/fw7WsiRBqqQ9o2M/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/fw7WsiRBqqQ9o2M/preview)
 
 
 
 The next and last step is to create a **Savegame**. This can be done by clicking on the **Create Game** tab on the added server and selecting the name and type of world.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/pDgZA5Ha56c9kJx/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/pDgZA5Ha56c9kJx/preview)
 
 
 
 After creating the game, you can connect to the server. Click on the **Status** tab and then on the **Join Game** button.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/Q7AeEzNz8sqYs2s/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/Q7AeEzNz8sqYs2s/preview)
 
 
 

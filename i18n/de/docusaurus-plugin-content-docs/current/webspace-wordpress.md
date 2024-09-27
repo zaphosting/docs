@@ -79,13 +79,13 @@ Klicke im Anschluss auf **Senden** und im folgenden Schritt auf **Installation d
 
 
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/6rYLYQRJJRqgKJq/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/6rYLYQRJJRqgKJq/preview)
 
 
 
 Jetzt benötigt WordPress noch weitere Informationen. Hier kann der Titel der Webseite, Benutzername, Passwort, und die E-Mail-Adresse angegeben werden. 
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/nkos6Kg99cHEHt7/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/nkos6Kg99cHEHt7/preview)
 
 
 
@@ -93,7 +93,7 @@ Wenn alle Felder ausgefüllt wurden, dann muss im Anschluss auf **WordPress inst
 
 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/MnLRYMDJCXjJJ8i/download/chrome_4KNjihGpo0.gif)
+![](https://screensaver01.zap-hosting.com/index.php/s/MnLRYMDJCXjJJ8i/download/chrome_4KNjihGpo0.gif)
 
 
 

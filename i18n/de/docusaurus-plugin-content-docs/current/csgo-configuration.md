@@ -27,7 +27,7 @@ Unter den Einstellungen wird der Gamemode bestimmt der benutzt werden soll. Die 
 
 Auf der Einstellungsseite kannst du Basiseinstellungen zum GSL Token, Gametype/Gamemode, Mapgroup, Tickrate und mehr vornehmen. 
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/xLqmNwaYWPHXwgS/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/xLqmNwaYWPHXwgS/preview)
 
 
 
@@ -98,7 +98,7 @@ Pingboost ist eine Methode, welche da Spielgefühl durch verschiedene Methoden v
 
 In der **server.cfg** kannst du Einstellungen bezüglich Servername, Rcon Passwort, Server Passwort einstellen. 
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/CYsqnAcppLZ3Spb/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/CYsqnAcppLZ3Spb/preview)
 
 
 

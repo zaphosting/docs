@@ -19,7 +19,7 @@ Der Euro Truck Simulator 2 verfügt über eine native Modding-Unterstützung üb
 
 Zunächst musst du die Mods und DLCs, die du verwenden möchtest, finden und auswählen. Das kannst du im Spiel tun, indem du die Optionen **Mod Manager** und **DLC Browser** im Hauptmenü aufrufst.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/osjX59MRjrPBfe6/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/osjX59MRjrPBfe6/preview)
 
 ### Mods
 
@@ -27,7 +27,7 @@ Auf Mods kannst du über die Option **Mod Manager** im Hauptmenü zugreifen, mit
 
 Wenn du einige Mods installiert hast, stelle sicher, dass du sie mit den Pfeilen neben jeder Mod in die Liste **Aktive Mods** verschiebst.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/TG7XK6ZodWZM2pz/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/TG7XK6ZodWZM2pz/preview)
 
 Bestätige abschließend die Änderungen und starte das Spiel im Einzelspielermodus.
 
@@ -48,8 +48,8 @@ C:/Users/[dein_benutzer]/Dokumente/Euro Truck Simulator 2
 
 Suche in dieser Datei die Zeile `uset g_developer "0"` und ersetze sie durch `uset g_developer "1"`, um sie zu aktivieren. Finde auch die Zeile `uset g_console "0"` und ersetze sie durch `uset g_console "1"`.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/Wz52e4o2KtTndZM/preview)
-![image](https://screensaver01.zap-hosting.com/index.php/s/raR8jxq7imKzjDD/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/Wz52e4o2KtTndZM/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/raR8jxq7imKzjDD/preview)
 
 Starte dein Spiel neu. Jetzt kannst du die Konsole je nach Tastaturlayout mit einer der folgenden Tasten öffnen:
 ```
@@ -61,7 +61,7 @@ Jetzt bist du bereit und gibst in der Konsole den folgenden Befehl ein, um die S
 export_server_packages
 ```
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/zbzbdKfyr5xyNrK/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/zbzbdKfyr5xyNrK/preview)
 
 Es werden zwei Dateien in deinen `Dokumente/Euro Truck Simulator 2` Ordner exportiert, die `server_packages.dat` und die `server_packages.sii` Dateien, die Informationen über DLCs/Mods enthalten und im nächsten Abschnitt verwendet werden.
 
@@ -71,7 +71,7 @@ Nachdem du die Serverpakete für deine Mods exportiert hast, musst du sie per FT
 
 Sobald du fertig bist, gehe in das Hauptverzeichnis  von **Euro Truck Simulator 2**. Lade die beiden Dateien der Serverpakete in diesen Ordner hoch. Wenn diese Dateien bereits existieren, ersetze sie einfach.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/9xaDPw7sptsN3FH/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/9xaDPw7sptsN3FH/preview)
 
 :::tip
 Beim Modding müssen die Mods zwischen dem Client und dem Server synchronisiert werden. Das heißt, wenn du dich mit einem Server verbindest, auf dem du keine Mods hast, wirst du aufgefordert, die fehlenden Mods herunterzuladen.

@@ -23,7 +23,7 @@ This should be found under
 ```
 It should also be empty by default: 
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/wYY7jLji9YaNcBp/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/wYY7jLji9YaNcBp/preview)
 
 ### Step 2
 
@@ -34,23 +34,23 @@ Depending on the operating system it can be unpacked directly, but some may requ
 
 Under Windows, for example, it is sufficient to open the ZIP archive with a double click and then drag and drop the contents onto the desktop. 
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/qnpy29HySQzJTBL/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/qnpy29HySQzJTBL/preview)
 
 Once this is done, it can be uploaded, also via "drag and drop":  
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/o4ZNQtyosnw5eHo/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/o4ZNQtyosnw5eHo/preview)
 
 Now the desired plugin is available on the server:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/DYXpnZ2n5ibxW5t/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/DYXpnZ2n5ibxW5t/preview)
 
 ### Step 3
 
 The game server can now be started in the web interface: 
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/pgyBsYcoXNP7dnL/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/pgyBsYcoXNP7dnL/preview)
 
 The server is now online with the desired plugin: 
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/ZZLPBprWoBZfTQ6/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/ZZLPBprWoBZfTQ6/preview)
 

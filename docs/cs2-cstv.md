@@ -66,7 +66,7 @@ connect SERVERIP:27020
 Manual and automatic recorded demos are stored in the main directory /gxxxxx/cs2/game/csgo) of the CS: GO server. These can be downloaded via the FTP access provided. If you do not yet know how to access via FTP, you will find instructions on how to do this: https://docs.zap-hosting.com/docs/en/gameserver-ftpaccess/
 
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/w9b4Z7ECoSkSQdT/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/w9b4Z7ECoSkSQdT/preview)
 
 
 

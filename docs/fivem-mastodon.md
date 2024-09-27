@@ -29,7 +29,7 @@ sets activitypubFeed username
 
 "username" should be replaced with your Mastodon username.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/oQWC9pxrweM8FsY/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/oQWC9pxrweM8FsY/preview)
 
 Now we save the file and restart our server, after ~20 minutes the "Feed" tab will be available after your server is opened.
 

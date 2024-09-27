@@ -15,12 +15,12 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Zuallererst müssen wir uns mit unserer Datenbank verbinden. Dies tun wir unter dem Reiter "Datenbanken"
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/br9Rbw6EQAdccbP/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/br9Rbw6EQAdccbP/preview)
 
 
 Dort klicken wir dann auf das blaue Icon und loggen uns dann mit unseren Daten, welche wir auch auf der Seite finden, ein.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/2QDaDNL4MxCgj2f/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/2QDaDNL4MxCgj2f/preview)
 
 
 ## Spawnnamen finden
@@ -39,17 +39,17 @@ Standardmäßig sind sehr viele Autos schon im Fahrzeugshop. Schaut, ob euer Aut
 Zu aller erst kontrollieren wir die Fahrzeugkategorien, sodass wir wissen, welche wir hinterlegen können.
 Das machen wir im "vehicle_categories Table
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/3Eb9JeFiDnJ3YQy/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/3Eb9JeFiDnJ3YQy/preview)
 
 
 Hier brauchen wir die "name" Spalte. Diese merken wir uns.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/ADRnRKGE2TikD3F/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/ADRnRKGE2TikD3F/preview)
 
 
 Haben wir das gemacht, gehen wir in den "vehicles" Table und gehen dann auf Einfügen
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/6dw4tarMHfdYMsM/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/6dw4tarMHfdYMsM/preview)
 
 
 Nun fügen wir ein neues Fahrzeug hinzu. Eine kurze Erklärung, was für was steht:
@@ -61,5 +61,5 @@ Nun fügen wir ein neues Fahrzeug hinzu. Eine kurze Erklärung, was für was ste
 
 Hier noch ein Beispiel:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/LHmdSw4ipARcanc/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/LHmdSw4ipARcanc/preview)
 

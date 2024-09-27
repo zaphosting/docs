@@ -33,7 +33,7 @@ For the connection to your game server, it is mandatory that you already own the
 
 Provided that all prerequisites of **Game / Content** are met, you will need the information of your server. Click on your game server service in your dashboard. The overview will now show you all general information about your server.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/xXH4P7GewpXCHpp/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/xXH4P7GewpXCHpp/preview)
 
 The relevant information includes the **IP address,** **Port** and **Password (Optional)**. You should remember these, because you will need them for your first connection to your server.
 

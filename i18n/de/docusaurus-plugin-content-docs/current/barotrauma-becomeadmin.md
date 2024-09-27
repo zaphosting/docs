@@ -16,7 +16,7 @@ Die Zuweisung von Administratorberechtigungen ermöglicht dir eine einfache und 
 ## Konfiguration 
 Das Hinzufügen eines Admins erfolgt über die **Clientpermissions.xml** Config, welche du im Interface unter Configs findest.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/aY7mydaioewqAm9/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/aY7mydaioewqAm9/preview)
 
 
 Um einen neuen Spieler hinzuzufügen, muss ein neuer Client Eintrag zu der Config hinzugefügt werden. Die Syntax dazu sieht wie folgt aus:
@@ -37,7 +37,7 @@ In dem Client Eintrag sind die Variablen **Name, SteamID, Permissions, und Befeh
 
 Diese findest du, indem du zunächst einmal Steam Profil aufrufst und dort dann an einer beliebigen Stelle Rechtsklick drückst. Dort kann dann die Steam URL des Profils kopieren.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/PZtkHWMB8NkCABF/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/PZtkHWMB8NkCABF/preview)
 
 
 
@@ -47,7 +47,7 @@ Im Anschluss kann die URL auf einer der folgenden Webseiten angeben werden:
 - https://steamidfinder.com/
 - https://steamid.io/
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/Q39EjBqmBez5J2Y/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/Q39EjBqmBez5J2Y/preview)
 
 
 

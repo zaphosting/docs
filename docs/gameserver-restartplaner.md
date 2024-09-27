@@ -22,7 +22,7 @@ This feature is only available for game servers.
 
 This feature can be found in the interface of the game server.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/doBQoGw3kTj8o6r/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/doBQoGw3kTj8o6r/preview)
 
 <InlineVoucher />
 
@@ -38,7 +38,7 @@ Within the next window you can now choose between Weekly and Daily restarts. In 
 
 This procedure is now repeated for each desired automatic restart. If "**24:00**" occurs, the system displays an error message. To avoid this error, "**00:00**" needs to be used instead.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/j4nyS4efsKTinBS/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/j4nyS4efsKTinBS/preview)
 
 ###  Start offline server
 
@@ -50,7 +50,7 @@ The command option among the specified automatic restarts is intended to be used
 
 If you want to warn players beforehand, then you can use the *say* command in Minecraft
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/bcRJQprM2BFeR75/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/bcRJQprM2BFeR75/preview)
 
 ### Delay
 

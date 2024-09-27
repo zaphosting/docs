@@ -21,7 +21,7 @@ Windows OS includes the **Windows Defender Firewall with Advanced Seurity** appl
 
 You can access this simply by searching for this in the Windows search bar or by pressing the Windows key/icon and using the start menu search bar.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/MEdQwo2do8zA84m/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/MEdQwo2do8zA84m/preview)
 
 ## Managing Rules
 
@@ -39,7 +39,7 @@ There are two types of rules:
 
 Usually when port forwarding, you would need to create both types of rules to allow communication with clients. However, this depends on your specific use case and setup.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/a8HCX6ZyWfemQtN/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/a8HCX6ZyWfemQtN/preview)
 
 ### Program Rules
 
@@ -51,25 +51,25 @@ In the example below, you will setup the **Inbound** rule only. The steps are ex
 
 Begin by right-clicking **Inbound Rules** on the sidebar and select the **New Rules...** option.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/mnZXWgEWyxSciE4/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/mnZXWgEWyxSciE4/preview)
 
 On the first section, select the **Program** option as the rule type.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/NPm9ae8BsD78An9/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/NPm9ae8BsD78An9/preview)
 
 Now you will have to select the program that you wish to create the forwarding rule for, using the browse button. In this example, Mozilla Firefox browser was picked as an example application.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/XsS2iTa4JjXF8j5/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/XsS2iTa4JjXF8j5/preview)
 
 In the action section, select the **Allow the Connection** option.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/pnFz9EoxPqPT8xS/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/pnFz9EoxPqPT8xS/preview)
 
 In the profile section, keep all of the options ticked and continue to the final section. Here you should set a useful name that you can remember the rule by and you can add an optional description if necessary.
 
 Once ready, finally press the **Finish** button to create the rule.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/dpWEYFYGtWQYkw3/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/dpWEYFYGtWQYkw3/preview)
 
 You have successfully created your very own Program Rule for your Windows server. You should now repeat this to create an **Outbound Rule** following the same steps, but creating it under the Outbound Rules section.
 
@@ -83,26 +83,26 @@ In the example below, you will setup the **Inbound** rule only. The steps are ex
 
 Begin by right-clicking **Inbound Rules** on the sidebar and select the **New Rules...** option.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/mnZXWgEWyxSciE4/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/mnZXWgEWyxSciE4/preview)
 
 On the first section, select the **Port** option as the rule type.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/eobA3wzbwQSqjpK/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/eobA3wzbwQSqjpK/preview)
 
 Now you will have to define the port type (TCP or UDP) and allocated port(s) that you wish to port forward. If you need to port forward both TCP and UDP, you will have to create two seperate rules, one for each port type.
 
 In this example, port 25565 (TCP) was used as an example port which is used as the default port for Minecraft.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/yMco5L6ERWiLEHk/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/yMco5L6ERWiLEHk/preview)
 
 In the action section, select the **Allow the Connection** option.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/pnFz9EoxPqPT8xS/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/pnFz9EoxPqPT8xS/preview)
 
 In the profile section, keep all of the options ticked and continue to the final section. Here you should set a useful name that you can remember the rule by and you can add an optional description if necessary.
 
 Once ready, finally press the **Finish** button to create the rule.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/Ro5k6JgTF73exoH/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/Ro5k6JgTF73exoH/preview)
 
 You have successfully created your very own Port Rule for your Windows server. You should now repeat this to create an **Outbound Rule** following the same steps, but creating it under the Outbound Rules section.

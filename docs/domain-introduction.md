@@ -14,13 +14,13 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 Are you looking for a domain at a fair price? Then ZAP-Hosting is the right place for you! At ZAP-Hosting, you can register your  domain to to individualize your web presence. You can for example use the domain for a website or as a forwarding for a game server or voice server service. 
 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/ESkLyeoLMTTENHG/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/ESkLyeoLMTTENHG/preview)
 
 ## Ordering
 
 The ordering process is very simple. Choose your desired configuration for your [Domain](https://zap-hosting.com/en/shop/product/domain/). The setup time takes only a few seconds. Afterwards, you can immediately start with the configuration. More information about the exact ordering process can be found in our [Order Domain](domain-order.md) guide. 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/FEN8gHSaL9i7X38/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/FEN8gHSaL9i7X38/preview)
 
 
 

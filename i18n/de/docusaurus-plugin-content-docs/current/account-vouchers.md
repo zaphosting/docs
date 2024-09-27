@@ -13,7 +13,7 @@ Du hast einen Gutscheincode gefunden, den du als Geld in deine cashbox einlösen
 
 Zunächst solltest du dich auf unserer Website anmelden oder registrieren, um die Codes verwenden zu können. Dies kann sehr schnell und einfach über das obere Login-Panel gemacht werden.
 
-![image](https://github.com/zaphosting/docs/assets/42719082/b146be91-69d9-444a-b1f5-3aed09ae866b)
+![](https://github.com/zaphosting/docs/assets/42719082/b146be91-69d9-444a-b1f5-3aed09ae866b)
 
 Sobald du eingeloggt bist, landest du automatisch in deinem Webinterface. Um einen Code verwenden zu können, musst du zuerst herausfinden, welche Art von Code du einlösen möchtest.
 
@@ -28,15 +28,15 @@ Es gibt zwei verschiedene Arten von Gutscheincodes:
 
 Gutscheincodes können ganz einfach über das Webinterface eingelöst werden. Gehe dazu einfach zu deiner **Cashbox**, indem du oben in deinem Webinterface auf die "ZAP Coins" klickst.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/AoASqdZ7AbyEQtQ/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/AoASqdZ7AbyEQtQ/preview)
 
 Sobald du dich auf der Seite **Cashbox** befindest, scrolle nach unten bis zum blauen Button **Gutschein einlösen**. Durch Drücken des Buttons öffnet sich ein Menü.
 
-![image](https://github.com/zaphosting/docs/assets/42719082/a115cb35-5560-4d76-b0b0-71703e96c895)
+![](https://github.com/zaphosting/docs/assets/42719082/a115cb35-5560-4d76-b0b0-71703e96c895)
 
 Hier kannst du den Gutscheincode eingeben, den du erhalten hast. Sobald du fertig bist, drückst du auf den grünen Button **Gutschein einlösen**, um ihn abzuschicken.
 
-![image](https://github.com/zaphosting/docs/assets/42719082/c891f0e6-0328-4d44-bd7e-5f39314e8c7e)
+![](https://github.com/zaphosting/docs/assets/42719082/c891f0e6-0328-4d44-bd7e-5f39314e8c7e)
 
 
 
@@ -56,13 +56,13 @@ Rabattcodes funktionieren ähnlich wie Guthabencodes, werden aber an anderer Ste
 
 Suche zunächst das Produkt, das du bestellen möchtest, auf unserer Website und konfiguriere es in unserem Server-Konfigurator nach deinen Wünschen.
 
-![image](https://github.com/zaphosting/docs/assets/42719082/8eb8e9e8-c930-4d10-b488-74b0002212cb)
+![](https://github.com/zaphosting/docs/assets/42719082/8eb8e9e8-c930-4d10-b488-74b0002212cb)
 
 Sobald alles korrekt konfiguriert ist, kannst du deinen Code während des Bestellvorgangs verwenden. Scrollen nach unten, wähle deine Zahlungsmethode und klicke einfach auf den Text **Gutschein einlösen** unterhalb der Bestellsumme.
 
-![image](https://github.com/zaphosting/docs/assets/42719082/7db5d875-8eb1-47c6-ab79-eb1b91857b83)
+![](https://github.com/zaphosting/docs/assets/42719082/7db5d875-8eb1-47c6-ab79-eb1b91857b83)
 
-![image](https://github.com/zaphosting/docs/assets/42719082/68d5bab1-23c5-489b-9a06-e2916f8a1740)
+![](https://github.com/zaphosting/docs/assets/42719082/68d5bab1-23c5-489b-9a06-e2916f8a1740)
 
 
 

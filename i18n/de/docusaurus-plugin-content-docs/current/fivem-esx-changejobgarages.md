@@ -19,11 +19,11 @@ ESX muss installiert sein
 
 Wir müssen zuerst sichergehen, dass "Überschreiben erzwingen" deaktiviert ist. Dafür gehen wir auf den Tab "Ressourcen".
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/S4yZkRDjkBjWrHN/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/S4yZkRDjkBjWrHN/preview)
 
 Dort entfernen wir dir dann den Haken.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/PwAEFiyArJrsLif/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/PwAEFiyArJrsLif/preview)
 
 
 ## Configs einstellen

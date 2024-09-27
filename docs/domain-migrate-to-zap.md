@@ -37,7 +37,7 @@ The auth code is only valid for a certain period. After this time expires, you w
 
 Assuming you have your auth code, you can now proceed with ordering and registering your domain with ZAP-Hosting. Go to the order page for our [**domains**](https://zap-hosting.com/en/shop/product/domain/). Begin by filling out your personal details, followed by searching for the domain you wish to transfer.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/3dmY76dZscz9DPM/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/3dmY76dZscz9DPM/preview)
 
 :::info
 In order to transfer a domain, you will have to extend it by 1 Year during the order process. This is standard policy across all providers.
@@ -45,11 +45,11 @@ In order to transfer a domain, you will have to extend it by 1 Year during the o
 
 A list of your desired domain with all available domain extensions will then open. Domains that are already registered elsewhere can be identified by the gray button with the arrow. 
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/omnaMqXJgarxsqW/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/omnaMqXJgarxsqW/preview)
 
 Find the domain you wish to transfer and click on the arrow. This will open up a new prompt which is used to authorize the transfer to your ZAP-Hosting account.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/fXjwGCX7kFtPnTB/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/fXjwGCX7kFtPnTB/preview)
 
 Into this field, you will have to enter the **Auth Code** that you received from your previous provider during the preparation step. Once ready, submit it with the green **Add** button.
 

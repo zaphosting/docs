@@ -29,7 +29,7 @@ import TabItem from '@theme/TabItem';
 
 The most user-friendly method to edit the basic settings is by heading over to the **Settings** section on your game server's webinterface and searching for the appropriate settings there, as seen below:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/QDPzFgWRrfB49HB/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/QDPzFgWRrfB49HB/preview)
 
 Keep in mind, not all configuration options will be accessible here. If you wish to configure everything, use the **WI Config File** tab to easily edit the necessary file directly in the webinterface.
 
@@ -45,7 +45,7 @@ The Server must be stopped before the config can be edited, editing the config a
 
 For users who wish to directly edit the file and all of the configuration options, you can access this by heading over to the **Configs** section on your game server's webinterface and pressing the blue edit file button, as seen below:
 
-![image](https://github.com/zaphosting/docs/assets/42719082/6a147644-8bfb-4e5d-bff5-3e2c5d999e64)
+![](https://github.com/zaphosting/docs/assets/42719082/6a147644-8bfb-4e5d-bff5-3e2c5d999e64)
 
 This will open up a text editor directly on the site to enable you to edit it.
 

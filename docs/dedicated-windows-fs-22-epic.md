@@ -36,15 +36,15 @@ Once connected you will have to install a necessary prerequisite, Microsoft Visu
 It is possible that you may already have the C++ Redistribute tools downloaded, if this is the case then the installer may return an error. You can safely ignore this and move forward.
 :::
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/9kjW9QdoWtwRAbW/preview.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/9kjW9QdoWtwRAbW/preview.png)
 
 Now you have to install the Epic Games launcher, which can be downloaded from [Epic Games' website](https://store.epicgames.com/en-US/download). Once again, follow the on-screen instructions to complete installations.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/msGyRYr5cxoSti5/preview.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/msGyRYr5cxoSti5/preview.png)
 
 After installation, it is very likely that the launcher will have to download a few additional files and updates before launching.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/Bzya5Tzj8sY7RY2/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/Bzya5Tzj8sY7RY2/preview)
 
 Once the launcher has opened, you must sign in with your Epic Games account, one which owns Farming Simulator 2022 in its game library.
 
@@ -52,7 +52,7 @@ Once the launcher has opened, you must sign in with your Epic Games account, one
 
 In the Epic Games Launcher, click on the **Library** tab and locate Farming Simulator 22. Use the **Install** button and select the location that you wish to download the game to.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/s9SxMgLtQHtwTPQ/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/s9SxMgLtQHtwTPQ/preview)
 
 You will now have to wati for the download and installation to complete. The download speed is dependent on the bandwidth of your server.
 
@@ -60,17 +60,17 @@ You will now have to wati for the download and installation to complete. The dow
 
 Once the game is installed, go back to the **Library** tab in the Epic Games Launcher. Find Farming Simulator 22, click the three dots next to it and select **Manage**.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/t63G5XzxwpaLje9/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/t63G5XzxwpaLje9/preview)
 
 Scroll down to the **Launch Options** section and enable it. In the textbox that appears, enter `-server` and close the menu.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/HLAXkbdpanAFfbS/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/HLAXkbdpanAFfbS/preview)
 
 ## Step 4: Running the Server
 
 You can now start Farming Simulator 2022 from your Epic Games launcher or the shortcut on your desktop. The game should now launch via a command prompt (CMD) in dedicated server mode. If this is not the case, ensure that you have setup the launch option correctly.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/Bf5LX72LWNwSFib/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/Bf5LX72LWNwSFib/preview)
 
 ## Step 5: Enabling the Web Interface (optional)
 
@@ -80,7 +80,7 @@ Before proceeding, ensure that you close the server by exiting the command promp
 
 Navigate to the installation path of your game, typically the path will be `C:\Program Files\Epic Games\FarmingSimulator22` if you installed at the default directory.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/yoqHoDAFZFkP2Ps/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/yoqHoDAFZFkP2Ps/preview)
 
 Find and open the `dedicatedServer.xml` file found in the root directory using a text editor such as Notepad.
 
@@ -92,15 +92,15 @@ Set the username and password for admin by modifying the appropriate fields.
   </initial_admin>
 ```
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/gks4Pswpyc3Wcix/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/gks4Pswpyc3Wcix/preview)
 
 Ensure that you save the file before closing and run the `dedicatedServer.exe` located in the same root directory.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/KjNeS5E8BLEgnnH/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/KjNeS5E8BLEgnnH/preview)
 
 You should now be able to access the web interface by heading over to `http://[your_serverip]:8080` in your web browser, replacing `[your_serverip]` with the IP address of your server. If you want to access the panel directly on the same server, you can simply access it via `http://127.0.0.1:8080` too.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/n96fcAxyxBnfjyL/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/n96fcAxyxBnfjyL/preview)
 
 :::info
 Due to the unique setup of the Epic Games version, you may encounter difficulties using the web interface to its full extent. While you can make changes and stop the server using the web interface, you cannot initiate the server through it for example.
@@ -142,7 +142,7 @@ These commands will automatically create firewall rules which are necessary for 
 
 Use the search function on Windows to open up **Windows Firewall Settings with Advanced Security**. You may have to press **Advanced Settings** to open up the necessary window if you open up the base Windows Firewall page.
 
-![image](https://github.com/zaphosting/docs/assets/42719082/5fb9f943-7e51-4d8f-9df4-2f5ff60857d3)
+![](https://github.com/zaphosting/docs/assets/42719082/5fb9f943-7e51-4d8f-9df4-2f5ff60857d3)
 
 You must create new rules for your Farming Simulator 22 server. To do this, click on the incoming and outgoing rules as described below and add them for the following protocols and ports:
 - TCP incoming and outgoing: 3724, 27015

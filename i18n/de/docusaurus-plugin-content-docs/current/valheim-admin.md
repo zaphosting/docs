@@ -21,7 +21,7 @@ Um sich selbst als Admin hinzuzufügen, muss zunächst die SteamID herausgefunde
 
 Hier gibt man seine Steam-URL ein:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/8JSZYgMH637oJKj/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/8JSZYgMH637oJKj/preview)
 
 Dann drücken wir auf `Find Steam ID`.
 
@@ -32,7 +32,7 @@ Jetzt sollten wir unser Steam-Profil sehen können, hier kopieren wir unsere "St
 
 Nun öffnen wir unser Server-Webinterface und öffnen die Einstellungen, hier sehen wir eine "Admins"-Option, wo wir unsere SteamID hinzufügen können:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/DBZrdtf9NttzQ9a/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/DBZrdtf9NttzQ9a/preview)
 
 
 Nachdem wir unsere SteamID hinzugefügt haben, speichern wir die Einstellungen und starten dann den Server neu.

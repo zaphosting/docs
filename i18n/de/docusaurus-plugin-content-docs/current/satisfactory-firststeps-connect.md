@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Du bist dir unsicher, was du allgemein zum Verbinden deines Servers benötigst oder wie das genau vonstattengeht? Keine Sorge! Wir werden dir im Folgenden Schritt für Schritt erklären, was du für die Verbindung zu deinem Server benötigst, wie du dich im Anschluss damit verbindest und was es dabei allgemein zu beachten gibt. Damit sollte es dir problemlos möglich sein, dich erfolgreich mit deinem Server zu verbinden! :)
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/wox82FNqBcKEiBH/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/wox82FNqBcKEiBH/preview)
 
 <InlineVoucher />
 
@@ -33,7 +33,7 @@ Für die Verbindung zu deinem Gameserver ist es zwingend notwendig, dass du das 
 
 Sofern alle Voraussetzungen von **Spiel / Inhalte** erfüllt sind, benötigst du nun die Informationen deines Servers. Klicke dazu in deinem Dashboard auf deinen Gameserver Dienst. In der Übersicht siehst du nun alle allgemeinen Informationen zu deinem Server. 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/w2q3ygxDWA97fjc/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/w2q3ygxDWA97fjc/preview)
 
 Zu den relevanten Informationen gehören hierbei die **IP-Adresse,** **Port** und **Passwort**. Diese solltest du dir merken/notieren, da du diese gleich für deinen ersten Verbindungsaufbau zu deinem Server benötigst. 
 
@@ -43,25 +43,25 @@ Zu den relevanten Informationen gehören hierbei die **IP-Adresse,** **Port** un
 
 Nachdem alle Voraussetzungen erfüllt worden sind, kann nun damit begonnen werden eine Verbindung zum Server herzustellen. Starte dafür dein Spiel. Navigiere im Spiel anschließend zu dem Menüpunkt Server-Manager und klicke auf "Server hinzufügen", um deinen Server hinzuzufügen. 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/92myKcdMLcKfR3X/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/92myKcdMLcKfR3X/preview)
 
 
 
 Es öffnet sich nun ein Popup Fenster, in dem die Informationen zum Server hinterlegt werden. Trage dort die IP-Adresse und Port deines Gameservers ein und klicke auf **Bestätigen**. Das Spiel wird dich im Anschluss dazu auffordern einen Namen und Admin Passwort zu setzen. 
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/5ZPHTeBTeHNNf6n/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/5ZPHTeBTeHNNf6n/preview)
 
 
 
 Als nächster und letzter Schritt muss nun noch ein **Savegame** erstellt werden. Dies lässt sich realisieren, in dem du bei dem hinzugefügten Server auf den Reiter **Create Game** und wähle dort den Namen und Art der Welt aus. 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/wcrwGHnQPEoMqWW/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/wcrwGHnQPEoMqWW/preview)
 
 
 
 Nach der Erstellung des Spiels kann die Verbindung zum Server hergestellt werden. Klicke dazu im Anschluss auf den Tab **Status** und dann auf den **Join Game** Button. 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/r2zcMQpeJrLHMTc/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/r2zcMQpeJrLHMTc/preview)
 
 
 

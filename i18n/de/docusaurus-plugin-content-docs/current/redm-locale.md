@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 FiveM Server können in verschiedenen Sprachen angezeigt werden. Das gilt sowohl für die Anzeige der Flagge des Servers im Serverbrowser als auch die Sprache, die auf dem Server aktiv verwendet wird. Diese kann bei Bedarf angepasst werden. Somit hast du die Möglichkeit deine Sprache und Landesflagge für deinen Server zu setzen.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/JHgoDfcsN4XX8Jb/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/JHgoDfcsN4XX8Jb/preview)
 
 <InlineVoucher />
 

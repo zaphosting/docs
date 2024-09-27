@@ -16,7 +16,7 @@ Um die für dein Produkt geltenden Bedingungen zu verstehen, musst du die **Abre
 - Widerrufsfrist: Dies bezieht sich auf den Zeitraum, den du ab dem Kaufdatum hast, um deine Meinung zu ändern und dein Produkt zu widerrufen. Wenn du dich für die Kündigung entscheidest, bekommst du ZAP Coins (Kontoguthaben) gutgeschrieben, die du für ein anderes Produkt ausgeben kannst.
 - Kündigungsfrist: Dies bezieht sich auf den Zeitraum, vor dem du uns über deine Entscheidung, deinen Vertrag zu kündigen, informieren musst. Dies gilt nur für **Vertrag** Abrechnungsprodukte.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/wgNF7jSP6CaSeqd/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/wgNF7jSP6CaSeqd/preview)
 
 ## Dein Produkt widerrufen
 
@@ -28,19 +28,19 @@ Aus Gründen der Höflichkeit gegenüber unseren Kunden bieten wir dir jedoch di
 
 Logge dich zunächst in dein ZAP-Hosting-Konto ein und gehe zu deinem [Webinterface-Dashboard](https://zap-hosting.com/de/customer/). Gehe von hier aus zum Abschnitt **Bestellungen** auf der linken Seite.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/JoepQjDWReSAsjE/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/JoepQjDWReSAsjE/preview)
 
 Auf dieser Seite suchst du das Produkt, das du kündigen möchtest. Wenn du es gefunden hast, wähle die rote Schaltfläche **Bestellung widerrufen**.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/9sc3Cnq6X9b8dnk/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/9sc3Cnq6X9b8dnk/preview)
 
 Es erscheint eine Eingabeaufforderung, in der du die wichtigsten Informationen und deine Berechtigung zur Kündigung erfährst. Wähle **Weiter fortsetzen**, wenn du mit dem Prozess fortfahren möchtest.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/TNe33bnDZ9er9s9/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/TNe33bnDZ9er9s9/preview)
 
 Schließlich wird die Aufforderung erweitert, um dir Informationen über die Rückerstattung in ZAP-Münzen zu geben, die du erhalten wirst. Wir bedauern, dass du deine Bestellung widerrufen hast und hoffen, dass du uns ein Feedback zur Verbesserung geben kannst. Wenn du dir sicher bist, wähle **Bestellung widerrufen**, um den Vorgang abzuschließen.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/scMDMBJAdr6FMR2/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/scMDMBJAdr6FMR2/preview)
 
 Du hast nun den Kündigungsprozess abgeschlossen. Es kann ein paar Minuten dauern, bis der Vorgang abgeschlossen ist, bitte habe etwas Geduld.
 
@@ -66,19 +66,19 @@ Hier ist ein nützliches Beispiel, um das Verständnis zu erleichtern:
 
 Logge dich zunächst in dein ZAP-Hosting-Konto ein und gehe zu deinem [Webinterface-Dashboard](https://zap-hosting.com/de/customer/). Auf dem Dashboard suchst du dein **Vertragsprodukt** und wählst die blaue Schaltfläche **Paket anzeigen**.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/8yLTwtxeppd3zSz/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/8yLTwtxeppd3zSz/preview)
 
 Auf dieser Seite wählst du nun die rote Option **Vertrag kündigen** in der oberen rechten Ecke.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/BZrRBFsHrwAipEe/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/BZrRBFsHrwAipEe/preview)
 
 Daraufhin öffnet sich eine Eingabeaufforderung, in der du die Möglichkeit hast, unser Support-Team zu kontaktieren oder mit der Kündigung fortzufahren. Wenn du fortfahren möchtest, wähle die Option **Vertrag kündigen**.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/CACoFz86ws9SF7C/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/CACoFz86ws9SF7C/preview)
 
 Zum Schluss kannst du die Informationen zur Kündigung einsehen. Gemäß unseren Richtlinien kannst du dir das nächstmögliche Kündigungsdatum anzeigen lassen. Wir bedauern, dass du dein Produkt storniert hast, und hoffen, dass du uns ein Feedback zur Verbesserung geben kannst. Wenn du dir sicher bist, wähle **Kündigungsvertrag**, um den Vorgang abzuschließen.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/5D3itm6f9nNoRAo/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/5D3itm6f9nNoRAo/preview)
 
 Du hast nun den Kündigungsprozess abgeschlossen, der zum nächstmöglichen Termin, der angezeigt wurde, stattfinden wird.
 

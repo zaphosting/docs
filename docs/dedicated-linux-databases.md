@@ -101,19 +101,19 @@ While typing in the password, you won't be able to see it. However, this behavio
 
 Now you will be asked if you want to remove anonymous users from your server, you should do this in any case for security reasons. Confirm this with a **y** for yes:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/9rnHy9dJmezjemq/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/9rnHy9dJmezjemq/preview)
 
 In the following prompt, you define if the user root is allowed to connect to the server externally. For security reasons, you should also deactivate this option and confirm this therefore with **y**:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/cEozmgcXDBgaRwY/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/cEozmgcXDBgaRwY/preview)
 
 In the next step, you can also confirm to remove the test database provided by MariaDB (MySQL) with **y**, because it is not needed and can be easily deleted:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/kGHT3tm78dNBTRo/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/kGHT3tm78dNBTRo/preview)
 
 At the end of the configuration process, you will be asked if you want to update the permissions of the database. Confirm this with **y** to activate the previously set password for the root user:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/kGNDZkRS4QrpEfF/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/kGNDZkRS4QrpEfF/preview)
 
 Your MariaDB (MySQL) server is now ready for use!
 

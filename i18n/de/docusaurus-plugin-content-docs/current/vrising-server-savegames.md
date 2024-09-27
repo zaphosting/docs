@@ -34,7 +34,7 @@ Lokale Savegames sind Savegames, die du erstellt hast, während du ein Multiplay
 :::tip
 Du kannst ganz einfach direkt auf diesen Pfad zugreifen, indem du gleichzeitig `CTRL` + `R` drückst und im Ausführen-Dialog nach dem folgenden Pfad suchst: `%Benutzerprofil%/appdata/locallow/Stunlock Studios/VRising`. Drücke einfach **OK** und du wirst zu dem Ordner weitergeleitet.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/dz4ytiTai5jD2ep/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/dz4ytiTai5jD2ep/preview)
 :::
 
 An diesem Ort siehst du entweder einen `Saves`- und/oder einen `CloudSaves`-Ordner, je nachdem, ob du die Steam Cloud Saving-Funktion genutzt hast und welchen Server du benutzt. Wenn du in die Ordner gehst, findest du deine lokalen Savegames.
@@ -52,7 +52,7 @@ Es ist ganz einfach, dein Savegame auf dem Server zu sichern. Sobald du dich üb
 
 Dort solltest du je nach Spielversion einen v1- und einen v3-Ordner sehen können. In jedem dieser Ordner findest du deine Savegames. Klicke einfach mit der rechten Maustaste auf den Ordner und benutze die Schaltfläche **Download**, um ihn lokal auf deinem Gerät zu speichern.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/tZ4HngqLeHTkizz/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/tZ4HngqLeHTkizz/preview)
 
 ### Automatische Sicherung
 
@@ -65,7 +65,7 @@ Wir bieten auch die Möglichkeit, dein Savegame (und deine Konfigurationsdatei) 
 .../vrising/save-data/Saves
 ```
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/RXd4aoxrA6QnP46/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/RXd4aoxrA6QnP46/preview)
 
 Je nach Version deines Spielstandes musst du jetzt nur noch deine Savegames mit deinem FTP-Client in den entsprechenden Ordner ziehen und schon werden sie auf deinen Server hochgeladen.
 

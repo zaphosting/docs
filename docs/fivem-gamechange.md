@@ -23,11 +23,11 @@ You should always have a backup of your data, you can easily create one in your 
 ## The change in detail
 To change the game (the version) of your FiveM-Server, you need to open "Games" in our interface.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/n82YtN2DEkAeNpq/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/n82YtN2DEkAeNpq/preview)
 
 There you can see all Fivem versions in "Available Games", simply search there "FiveM"
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/drTykzYs2527b7D/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/drTykzYs2527b7D/preview)
 
 Choose the version of your like and press the green button to start the installation. There will be a popup which requires a confirmation to start the process.
 

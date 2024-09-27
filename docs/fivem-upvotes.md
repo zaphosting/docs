@@ -48,7 +48,7 @@ Once this has been confirmed, the order can be completed. The information will t
 
 As soon as the upvotes are visible in the interface, they can be assigned via the FiveM client. To do this, click on the Upvotes icon in the server list for the server of your choice. 
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/XyHzKM2KXPK2gtE/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/XyHzKM2KXPK2gtE/preview)
 
 
 

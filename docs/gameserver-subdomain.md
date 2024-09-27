@@ -16,7 +16,7 @@ Our Game Servers now come with the ability to easily and quickly setup subdomain
 
 <YouTube videoId="1fFagkzOvfo" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/bbTYcXxCWXEYNrQ/preview" title="ZAP Cloud domain for Game Servers" description="Feel like you understand better when you see things in action?  We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/yJTBQ7oC926LfbT/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/yJTBQ7oC926LfbT/preview)
 
 <InlineVoucher />
 
@@ -36,7 +36,7 @@ Managing the subdomain feature on your game server is simple. Head over to the *
 
 On this page, you will be able to perform a variety of management tasks related to the Free ZAP Cloud subdomain as well as the usage of your own domains that you have setup on your ZAP-Hosting account.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/M6SMHKJcZ3GgXQd/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/M6SMHKJcZ3GgXQd/preview)
 
 :::info
 Currently, you can have a maximum of 3 subdomains active per product (not including the randomly generated ZAP Cloud subdomain).
@@ -50,7 +50,7 @@ In order to generate a random ZAP Cloud subdomain, you must use the **Resolve su
 Existing customers should also use this button to generate a random ZAP Cloud subdomain for the first time.
 :::
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/Lc5CCQwMtCK63nx/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/Lc5CCQwMtCK63nx/preview)
 
 ### Custom ZAP Cloud Subdomain
 
@@ -62,9 +62,9 @@ If you recieve an error, it is possible that the subdomain is already in use and
 
 Now use the **Create entry** button and you should be able to see the subdomain appear in the list. You may have to wait up to a few minutes before it becomes fully functional.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/odqKSyzXRLi5zRx/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/odqKSyzXRLi5zRx/preview)
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/yWmt4j3nWEgbN6K/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/yWmt4j3nWEgbN6K/preview)
 
 ### Own Domain
 
@@ -80,9 +80,9 @@ If you recieve an error, it is possible that the subdomain is already in use and
 
 Now use the **Create entry** button and you should be able to see the subdomain appear in the list. You may have to wait up to a few minutes before it becomes fully functional.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/Xoe8c4T9TNpby27/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/Xoe8c4T9TNpby27/preview)
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/AX9yFSb3nRNoKiF/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/AX9yFSb3nRNoKiF/preview)
 
 ## Troubleshooting
 
@@ -90,7 +90,7 @@ Now use the **Create entry** button and you should be able to see the subdomain 
 
 If you are experiencing any issues with the ZAP Cloud subdomains, you can attempt to resolve this yourself by heading over to the **Settings->DNS Settings** section as previously explained, and use the **Resolve subdomains** button found at the bottom.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/Lc5CCQwMtCK63nx/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/Lc5CCQwMtCK63nx/preview)
 
 Please wait a few minutes before checking again if they are functioning correctly.
 

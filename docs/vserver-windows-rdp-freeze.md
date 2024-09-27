@@ -27,7 +27,7 @@ To resolve the issue, you can disable the UDP protocol for the RDP connection an
 reg add "HKLM\software\policies\microsoft\windows nt\Terminal Services\Client" /v fClientDisableUDP /d 1 /t REG_DWORD
 ```
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/6E6AzroG88ETj2X/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/6E6AzroG88ETj2X/preview)
 
 By executing this command, your computer will now use the TCP protocol instead of the UDP protocol for the RDP session. This can improve the stability of the connection, especially in networks with unstable connections or high packet loss.
 

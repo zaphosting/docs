@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 GitLab ist eine umfassende DevOps-Plattform, die es Teams ermöglicht, gemeinsam an Code zu arbeiten, Arbeitsabläufe zu automatisieren und den gesamten Softwareentwicklungszyklus effizient zu verwalten. In dieser Anleitung wird die Installation von GitLab auf einem Linux-Server erläutert.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/CnL5ab23Kp62LdC/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/CnL5ab23Kp62LdC/preview)
 
 <InlineVoucher />
 
@@ -241,7 +241,7 @@ https://[deine_domain] OR http://[deine_ip_address]
 
 Beim ersten Aufrufen der Webschnittstelle wird eine Anmeldeseite angezeigt.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/2RKCzYXidfA8SnM/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/2RKCzYXidfA8SnM/preview)
 
 Um bei der ersten Anmeldung Administratorzugriff zu erhalten, melde dich als Root-Benutzer an, indem du `root` als Benutzernamen verwendest.
 
@@ -269,7 +269,7 @@ Password: `[YOUR_PASSWORD_IS_HERE]`
 
 Gib den Benutzernamen und das Passwort auf der Anmeldeseite ein, um dein GitLab-Dashboard zum ersten Mal aufzurufen. Du solltest nun in der Lage sein, auf dein GitLab-Panel auf deinem eigenen Linux-Server zuzugreifen.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/QbkNcp4Kd3Eeon2/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/QbkNcp4Kd3Eeon2/preview)
 
 Wir empfehlen dringend, einen neuen Benutzer anzulegen und/oder das Passwort für deinen `root`-Benutzer zu ändern. Dies kann alles über den Zugriff auf **Admin** in der linken unteren Ecke und die Auswahl von **Übersicht->Benutzer** erfolgen. Auf dieser Seite kannst du die Benutzer für deine GitLab-Instanz verwalten.
 

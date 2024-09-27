@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Conan Exiles Server können umfangreich konfiguriert werden. Die Konfiguration des Servers findet über die Konfigurationsdateien statt. Diese findest du im Webinterface in der Gameserver Verwaltung unter Configs. Öffne dazu die **ServerSettings.ini** Konfigurationsdatei.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/z642McNYpP9dD4F/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/z642McNYpP9dD4F/preview)
 
 Im Folgenden findest du eine kategorisierte Übersicht aller relevanten Befehle, mit der du deinen Server nach deinen wünschen, beliebig konfigurieren kannst. Gewisse Befehle können in der Config standardmäßig noch nicht vorhanden sein. Diese können einfach im nachhinein noch  an einer freien Stelle hinzugefügt werden. 
 

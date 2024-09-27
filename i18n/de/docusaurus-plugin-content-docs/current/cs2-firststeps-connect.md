@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Du bist dir unsicher, was du allgemein zum Verbinden deines Servers benötigst oder wie das genau vonstattengeht? Keine Sorge! Wir werden dir im Folgenden Schritt für Schritt erklären, was du für die Verbindung zu deinem Server benötigst, wie du dich im Anschluss damit verbindest und was es dabei allgemein zu beachten gibt. Damit sollte es dir problemlos möglich sein, dich erfolgreich mit deinem Server zu verbinden! :)
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/H5M3SWXcdsZXmJG/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/H5M3SWXcdsZXmJG/preview)
 
 <InlineVoucher />
 
@@ -33,7 +33,7 @@ Für die Verbindung zu deinem Gameserver ist es zwingend notwendig, dass du das 
 
 Sofern alle Voraussetzungen von **Spiel / Inhalte** erfüllt sind, benötigst du nun Informationen deines Servers. Klicke dazu in deinem Dashboard auf deinen Gameserver Dienst. In der Übersicht siehst du nun alle allgemeinen Informationen zu deinem Server. 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/X2kZ4J2LZTRX9Xx/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/X2kZ4J2LZTRX9Xx/preview)
 
 
 
@@ -45,11 +45,11 @@ Zu den relevanten Informationen gehören hierbei die **IP-Adresse,** **Port** un
 
 Nachdem alle Voraussetzungen erfüllt worden sind, kann nun damit begonnen werden eine Verbindung zum Server herzustellen. Öffne dazu den Steam Server Browser. Dort muss nun die IP-Adresse und Port deines Servers unter den Favoriten hinzugefügt werden.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/PyF2xMHEzyyfjw7/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/PyF2xMHEzyyfjw7/preview)
 
 Es öffnet sich nun ein PopUp-Fenster, wo die Informationen eingetragen werden müssen. Im Anschluss solltest du nun deinen Server auffinden können. Mit diesem kannst du dich nun verbinden, in dem du diesen auswählst und die Verbindung herstellen Button verwendest.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/cYLfEWyfBHMGB63/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/cYLfEWyfBHMGB63/preview)
 
 
 

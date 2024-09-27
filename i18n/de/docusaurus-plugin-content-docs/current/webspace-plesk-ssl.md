@@ -16,12 +16,12 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 Wird eine Domain im Webspace angelegt, so ist diese am Anfang immer unverschlüsselt. 
 Dies ist A im Plesk Panel zusehen: 
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/ZHMmDwJ7zQW3SWF/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/ZHMmDwJ7zQW3SWF/preview)
 
 Und B im Browser, beim Öffnen der Domain:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/rLqG5FbxxbpyFHB/preview)
-![image](https://screensaver01.zap-hosting.com/index.php/s/co7yG7iBw5yCfjo/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/rLqG5FbxxbpyFHB/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/co7yG7iBw5yCfjo/preview)
 
 Durch ein SSL Zertifikat kann eine Domain entsprechend geschützt/verschlüsselt werden.
 
@@ -31,7 +31,7 @@ Durch ein SSL Zertifikat kann eine Domain entsprechend geschützt/verschlüsselt
 
 Schritt 1️⃣: Durch einen Doppelklick auf "SSL/TLS-Zertifikat" öffnet sich folgendes Menü:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/PbHoPnHz4AXSpMP/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/PbHoPnHz4AXSpMP/preview)
 
 Dort kann kostenlos ein Let's Emcrypt Zertifikat angefordert werden. 
 
@@ -110,7 +110,7 @@ Nun wird geprüft, ob der DNS Eintrag vorhanden ist, da dies der Fall ist, wird 
 
 Wird nun eine Subdomain angelegt, ist diese bereits geschützt: 
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/ax5GsECmfxybRei/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/ax5GsECmfxybRei/preview)
 
 Nun erfolgt der vollständige Datentransfer zur Seite verschlüsselt, fertig. 
 

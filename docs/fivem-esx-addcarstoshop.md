@@ -15,11 +15,11 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 First of all we have to connect to our database. We do this under the tab "Databases"
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/8NYJC6Qq5inG5yk/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/8NYJC6Qq5inG5yk/preview)
 
 There we click on the blue icon and log in with our data, which we also find on the page.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/XK5CLoeckxxHk8w/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/XK5CLoeckxxHk8w/preview)
 
 ## Find spawn names
 
@@ -37,18 +37,18 @@ By default there are a lot of cars already in the car shop. See if your car is a
 First of all we check the car categories. So we know which ones we can add.
 We do this in the "vehicle_categories table
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/PYSt6anrdXs8QLY/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/PYSt6anrdXs8QLY/preview)
 
 Here we need the "name" column. We'll remember this one.
 
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/CnrQJcGbf3SPdtg/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/CnrQJcGbf3SPdtg/preview)
 
 Once we do that, we go to the "vehicles" table.
 And then go to Insert
 
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/eN5x9o724a6tKwf/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/eN5x9o724a6tKwf/preview)
 
 Now we add a new vehicle. A short explanation what stands for what:
 
@@ -60,4 +60,4 @@ Now we add a new vehicle. A short explanation what stands for what:
 Ich habe hier noch ein kleines Beispiel für euch:
 
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/cFrrLYKTALmCnFP/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/cFrrLYKTALmCnFP/preview)

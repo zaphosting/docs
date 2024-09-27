@@ -33,7 +33,7 @@ Falls diese Dateien nicht vorhanden sind, kann es sein, dass sie sich in einem U
 
 Du musst nun die zuvor unkomprimierten Dateien als einen einzelnen Ordner hochladen (falls noch nicht geschehen). Dein Ordner muss in das `Resource`-Verzeichnis des Servers hochgeladen werden.
 
-![image](https://github.com/zaphosting/docs/assets/42719082/5a9678bf-ddb5-41a2-a5ad-10cb6f748b67)
+![](https://github.com/zaphosting/docs/assets/42719082/5a9678bf-ddb5-41a2-a5ad-10cb6f748b67)
 
 Die Verzeichnisstruktur sieht normalerweise wie folgt aus:
 ```

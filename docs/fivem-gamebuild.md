@@ -37,7 +37,7 @@ This is an overview of all available DLC and its Build IDs:
 
 In order use additional DLC content such as Cayo Perico, the Tuner DLC or Los Santos Summer Special, you must set them in the settings of your server. You can do this either directly by editing the `server.cfg` file, or the simpler way which is to change it through the **Settings** section of your game server's webinterface.
 
-![image](https://github.com/zaphosting/docs/assets/42719082/1f138326-75f0-4681-8290-ec83312179c3)
+![](https://github.com/zaphosting/docs/assets/42719082/1f138326-75f0-4681-8290-ec83312179c3)
 
 
 
@@ -51,7 +51,7 @@ One you have picked your choice, head over to the bottom of the page and press t
 
 To enable the content on a txadmin server, you need to open your txadmin-interface and head over to the FXServer settings.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/HxmnfPEdcDJgZLX/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/HxmnfPEdcDJgZLX/preview)
 
 
 

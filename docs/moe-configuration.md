@@ -35,7 +35,7 @@ import TabItem from '@theme/TabItem';
 
 The most user-friendly method is by heading over to the **Settings** section on your game server's webinterface and searching for the appropriate settings there, as seen below:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/QDPzFgWRrfB49HB/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/QDPzFgWRrfB49HB/preview)
 
 You will be able to see a wide variety of sections and settings in which you can directly edit the values.
 
@@ -51,7 +51,7 @@ The Server must be stopped before the config can be edited, editing the config a
 
 Alternatively, for users who wish to directly edit raw configuration files, you can access these by heading over to the **Configs** section on your game server's webinterface. To edit a configuration file, simply press the blue edit file button, as seen below:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/ke6TF9RooBGqawW/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/ke6TF9RooBGqawW/preview)
 
 This will open up a text editor directly on the site to enable you to edit it.
 

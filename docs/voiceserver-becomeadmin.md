@@ -19,7 +19,7 @@ In order to manage and configure your Teamspeak server, you need administrator p
 
 For authentication as admin you need the privilege key. You can find it in the web interface at the Teamspeak Server Administration under **Privilege Keys**. There you have to create a new privilege key if there is none present yet and copy the key after that.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/EESWRrqm5rXaPit/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/EESWRrqm5rXaPit/preview)
 
 
 
@@ -27,7 +27,7 @@ For authentication as admin you need the privilege key. You can find it in the w
 
 Now a connection to the Teamspeak server must be established via the Teamspeak client. If the Teamspeak server hasn't been configured/used yet, then the following popup window will show up when connecting:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/7iwSrfxYKFrGqxT/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/7iwSrfxYKFrGqxT/preview)
 
 
 
@@ -37,7 +37,7 @@ There you can fill in the privilege key and confirm the process with the **OK** 
 After pressing **OK** your user account will be assigned with the administrator permissions. 
 
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/b4MgfsCMzAc7wD2/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/b4MgfsCMzAc7wD2/preview)
 
 
 ## Adding more Admins

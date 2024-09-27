@@ -31,7 +31,7 @@ There are multiple ways available to access your `server.cfg` configuration file
 
 The most user-friendly method is by heading over to the **Settings** section on your game server's webinterface and searching for the appropriate settings there, as seen below:
 
-![image](https://github.com/zaphosting/docs/assets/42719082/01d7bf1c-6524-46e4-8c3d-7b54aaf6cf92)
+![](https://github.com/zaphosting/docs/assets/42719082/01d7bf1c-6524-46e4-8c3d-7b54aaf6cf92)
 </TabItem>
 
 <TabItem value="configs" label="Via WI Config file">
@@ -40,7 +40,7 @@ The most user-friendly method is by heading over to the **Settings** section on 
 
 Alternatively, for users who wish to directly edit the raw file, you can access this by heading over to the **Configs** section on your game server's webinterface and pressing the blue edit file button, as seen below:
 
-![image](https://github.com/zaphosting/docs/assets/42719082/43793138-db0c-4824-827e-c50abf6e76e4)
+![](https://github.com/zaphosting/docs/assets/42719082/43793138-db0c-4824-827e-c50abf6e76e4)
 
 This will open up a text editor directly on the site to enable you to edit it.
 </TabItem>
@@ -69,7 +69,7 @@ Now you can change your server's name, through one of the three methods describe
 sv_hostname "^2ZAP-Hosting ^0| ^4Official Community Server ^0- ^1Events coming ^8soon^1!"
 ```
 
-![image](https://github.com/zaphosting/docs/assets/42719082/32bbf492-9ee0-4c78-a391-9c44120369c2)
+![](https://github.com/zaphosting/docs/assets/42719082/32bbf492-9ee0-4c78-a391-9c44120369c2)
 
 
 
@@ -94,7 +94,7 @@ Simply place any emojis you wish into the `sv_hostname` parameter within your se
 
 Here is an example of adding emojis via your game server's webinterface:
 
-![image](https://github.com/zaphosting/docs/assets/42719082/01d7bf1c-6524-46e4-8c3d-7b54aaf6cf92)
+![](https://github.com/zaphosting/docs/assets/42719082/01d7bf1c-6524-46e4-8c3d-7b54aaf6cf92)
 
 Likewise, you can add this directly to your `server.cfg` file via FTP or the **Configs** section on your game server's webinterface.
 
@@ -108,7 +108,7 @@ Setting a server description is useful for providing a short and to the point ov
 sets sv_projectDesc "Join our Discord to stay updated on latest events! discord.gg/zaphosting"
 ```
 
-![image](https://github.com/zaphosting/docs/assets/42719082/32bbf492-9ee0-4c78-a391-9c44120369c2)
+![](https://github.com/zaphosting/docs/assets/42719082/32bbf492-9ee0-4c78-a391-9c44120369c2)
 
 ### Server Tags
 
@@ -118,7 +118,7 @@ Setting server tags can be beneficial to narrowing down what your server is abou
 sets tags "zap, zap-hosting, official, community, zap-community, zap-community-server"
 ```
 
-![image](https://github.com/zaphosting/docs/assets/42719082/33407e9f-9e28-4264-9b13-e946ed5b434a)
+![](https://github.com/zaphosting/docs/assets/42719082/33407e9f-9e28-4264-9b13-e946ed5b434a)
 
 ### Other Misc. Details
 

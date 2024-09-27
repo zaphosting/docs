@@ -21,7 +21,7 @@ In this guide, we will explore how to connect to your Abiotic Factor server. The
 
 Firstly, you need to know the IP and Port of your Abiotic Factor server in order to be able to direct connect. Simply head over to your [ZAP-Hosting webinterface](https://zap-hosting.com/en/customer/) on the site, and have the full IP and Port on hand.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/FYdNBfyWHb6g9MJ/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/FYdNBfyWHb6g9MJ/preview)
 
 If you are running your Abiotic Factor server as an external dedicated server, your IP will be of the host machine and the Port will be the one which you have set in your configuration file (by default this is 7777). Check out our [Server Configuration](abioticfactor-configuration.md) guide for more information about the port.
 
@@ -31,15 +31,15 @@ Abiotic Factor makes use of Steam Serves which means you can use your gameserver
 
 Open up Steam and head over to the **View->Game Servers** tab.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/9Yi2ymdSRj3WDbx/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/9Yi2ymdSRj3WDbx/preview)
 
 Now head over to the **Favorites** section and press the plus icon at the bottom to open the Direct IP menu.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/7dFW9ANQmeTNdz9/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/7dFW9ANQmeTNdz9/preview)
 
 Into the new prompt, input your server's IP Address and Port in the following format: `[your_ipaddress]:[your_port]`. Press **OK** when ready and it should add the server to your list. If you recieve an error, ensure that you have inputted both parts of the Direct IP correctly.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/ir5Hy54fc95CDbs/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/ir5Hy54fc95CDbs/preview)
 
 You should now be able to see your Abiotic Factor server in the Steam Game Servers list. Simply select the server and use the **Connect** button at the bottom of the menu to connect to your server.
 
@@ -57,4 +57,4 @@ Be patient as it may take some time for the search results to appear, or alterna
 Ensure that the **Show Dedicated** toggle is ticked, otherwise your server won't display.
 :::
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/B5JjGR93qkp9WXK/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/B5JjGR93qkp9WXK/preview)

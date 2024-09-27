@@ -34,7 +34,7 @@ Lokale Savegames sind Savegames, die du erstellt hast, während du ein Multiplay
 :::tip
 Du kannst auf diesen Pfad auch direkt zugreifen, indem du gleichzeitig `CTRL` + `R` drückst und im Ausführen-Dialog nach dem folgenden Pfad suchst: `%Benutzerprofil%/AppData/Local/AbioticFactor/Saved/SaveGames`. Drücke einfach **OK** und du wirst zu dem Ordner weitergeleitet.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/zd7Zy5C6EH7BMHa/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/zd7Zy5C6EH7BMHa/preview)
 :::
 
 Achte darauf, dass du zu dem Ordner mit der Steam ID navigierst, gefolgt von dem Ordner `Worlds`. An diesem Ort findest du alle deine lokalen Savegames.
@@ -48,7 +48,7 @@ Das Sichern deines Savegames vom Server aus ist ganz einfach. Sobald du dich üb
 
 An diesem Ort findest du deine Savegames. Klicke einfach mit der rechten Maustaste auf den Ordner und benutze die Schaltfläche **Download**, um sie lokal auf deinem Gerät zu speichern.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/RJSeBFpCdGamK7s/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/RJSeBFpCdGamK7s/preview)
 
 ### Automatische Sicherung
 
@@ -67,7 +67,7 @@ Zurzeit unterstützen Abiotic Factor Dedicated Server den Wechsel zwischen Saveg
 
 Öffne nun den Ordner des Savegames, das du hochladen möchtest. Ziehe den gesamten Inhalt deines Savegame-Ordners per Drag and Drop in den Hauptordner `world` auf dem Server. So wird dein Savegame auf deinen Server hochgeladen.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/wsT4MXpp2MFWLtQ/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/wsT4MXpp2MFWLtQ/preview)
 
 :::info
 Wenn der Hauptordner `world` des Savegames fehlt, versuche, den Server herunterzufahren und neu zu starten. Wenn das nicht hilft, benutze die Schaltfläche **Steam Dateien validieren** auf dem Dashboard des Gameservers, um die Standarddateien wiederherzustellen.

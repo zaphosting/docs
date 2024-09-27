@@ -20,7 +20,7 @@ In order use additional DLC content such as Cayo Perico, the Tuner DLC or Los Sa
 
 You can do this either directly by editing the `server.cfg` file, or the simpler way which is to change it through the **Settings** section of your game server's webinterface.
 
-![image](https://github.com/zaphosting/docs/assets/42719082/1f138326-75f0-4681-8290-ec83312179c3)
+![](https://github.com/zaphosting/docs/assets/42719082/1f138326-75f0-4681-8290-ec83312179c3)
 
 You should now either search for `game build` or simply scroll down until you find the **Enforce Game Build** subsection. Here using the drop down menu, you can select which DLC build you wish to set your server to run on.
 

@@ -29,33 +29,33 @@ But you can create your own Query Login as follows, if you have admin rights on 
 To create your own Query Login, you have to click on "Server Query Login" in the Teamspeak Client under Tools.
 Afterwards you have to enter a name for the login, this is also the login name e.g. "MyQueryLogin":
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/gMeQtSTkrtRzbk7/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/gMeQtSTkrtRzbk7/preview)
 
 After this has been confirmed with "OK", a password is displayed. 
 This must be saved, it cannot be changed later. 
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/c7W3mzRMJ4EP23E/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/c7W3mzRMJ4EP23E/preview)
 
 ## Step 2️:
 With the now created login data a connection can be established e.g. via [YaTQA](https://yat.qa). 
 For this purpose, the server IP, the Query port, the server port and the Query login name and password are required. 
 The Server IP, the Query Port and the Server Port can be viewed on the Dashboard in the web interface: 
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/RGsk8wfBkoCPzA4/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/RGsk8wfBkoCPzA4/preview)
 
 The data can then be entered into YaTQA: 
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/EiwpzsPCiK5cPRJ/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/EiwpzsPCiK5cPRJ/preview)
 
 >If an error occurs when changing the Query port, this must be allowed in the settings. 
 Error:
->![image](https://screensaver01.zap-hosting.com/index.php/s/R3sMLJ8QYPYJ7MC/preview)
+>![](https://screensaver01.zap-hosting.com/index.php/s/R3sMLJ8QYPYJ7MC/preview)
 
 Solution:
->![image](https://screensaver01.zap-hosting.com/index.php/s/s98diC6eZmaZH5i/preview)
+>![](https://screensaver01.zap-hosting.com/index.php/s/s98diC6eZmaZH5i/preview)
 
 With a click on "Connect", a connection to the Teamspeak server can be established:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/3sxtEfCLF4A2ZC9/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/3sxtEfCLF4A2ZC9/preview)
 
 Ready ✅

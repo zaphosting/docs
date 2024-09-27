@@ -30,12 +30,12 @@ Local Savegames are ones which you have created whilst hosting a multiplayer gam
 :::tip
 You can easily access this path directly by pressing `CTRL` + `R` at the same time and searching for the following path in the run dialog: `%localappdata%/Pal/Saved/SaveGames/`. Simply press **OK** and you will be taken to the folder.
 
-![image](https://github.com/zaphosting/docs/assets/42719082/5cdff375-57f8-4699-9985-42bcecf22218)
+![](https://github.com/zaphosting/docs/assets/42719082/5cdff375-57f8-4699-9985-42bcecf22218)
 :::
 
 At this location, you will be able to see a folder which will be your SteamID. Open this folder and you will be able to see all of your local Savegames in one place.
 
-![image](https://github.com/zaphosting/docs/assets/42719082/8f36715d-7e87-45e1-b859-6ebedd18c8da)
+![](https://github.com/zaphosting/docs/assets/42719082/8f36715d-7e87-45e1-b859-6ebedd18c8da)
 
 ### Accessing Savegame via FTP
 
@@ -46,7 +46,7 @@ Backing up your Savegame from the server is simple. Once you have connected to y
 
 At this location, you should see a folder with a range of random characters which is your Savegame. Simply right-click on the folder and use the **Download** button to save it locally to your device.
 
-![image](https://github.com/zaphosting/docs/assets/42719082/ca890470-450d-4962-a982-39378dfbb695)
+![](https://github.com/zaphosting/docs/assets/42719082/ca890470-450d-4962-a982-39378dfbb695)
 
 ### Automatic Backup
 
@@ -59,7 +59,7 @@ Similarly to backing up, uploading your Savegame is simple. First ensure that yo
 ../Pal/Saved/SaveGames/0
 ```
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/tadxngnRCJDbtTe/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/tadxngnRCJDbtTe/preview)
 
 Simply drag and drop any of your Savegames into this folder through your FTP Client and it will be uploaded to your server.
 
@@ -79,7 +79,7 @@ In this folder, open the **GameUserSettings.ini** file and find the `DedicatedSe
 
 At this line, edit the contents, replacing it with the name of the Savegame (the name of the folder) that you wish to activate on your server.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/qLG2jtzFkYM6WB7/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/qLG2jtzFkYM6WB7/preview)
 
 Ensure that you save this file and restart your server for this to take effect. You have successfully added a Savegame to your game server.
 
@@ -92,7 +92,7 @@ Firstly, check your Savefiles through your FTP Client by heading to the followin
 ../Pal/Saved/SaveGames/0
 ```
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/wYQ42Aein5y6Z6j/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/wYQ42Aein5y6Z6j/preview)
 
 At this location you should still see the old Savegame and a new one that was generated. To resolve this, simply edit the configuration file as described in the [Activating Savegame section](#activating-savegame) above, with the correct Savegame folder name.
 

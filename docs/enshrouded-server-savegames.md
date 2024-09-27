@@ -37,7 +37,7 @@ In regular installations, the Steam folder will be on your OS drive, at the path
 
 Once you reach this folder, you will be able to see a characters file alongside all of your local Savegames in one place. 
 
-![image](https://github.com/zaphosting/docs/assets/42719082/31022018-3072-4b40-85f0-77f9da992ccc)
+![](https://github.com/zaphosting/docs/assets/42719082/31022018-3072-4b40-85f0-77f9da992ccc)
 
 :::note
 If you are explicitly **not** using Steam Cloud to save, you will be able to find your save folder in the following directory: `C://Users/[youruser]/Saved Games/Enshrouded`.
@@ -52,7 +52,7 @@ Backing up your Savegame from the server is simple. Once you have connected to y
 
 At this location, you should see a file with random characters which is your Savegame. Simply right-click on the file and use the **Download** button to save it locally to your device.
 
-![image](https://github.com/zaphosting/docs/assets/42719082/e7c230a3-a2cb-4ae0-a0dc-6d2211edd06c)
+![](https://github.com/zaphosting/docs/assets/42719082/e7c230a3-a2cb-4ae0-a0dc-6d2211edd06c)
 
 ### Automatic Backup
 
@@ -65,7 +65,7 @@ Similarly to backing up, uploading your Savegame is simple. First ensure that yo
 ../enshrouded/savegame/
 ```
 
-![image](https://github.com/zaphosting/docs/assets/42719082/e465680f-65bc-456d-bd99-fbdff755defb)
+![](https://github.com/zaphosting/docs/assets/42719082/e465680f-65bc-456d-bd99-fbdff755defb)
 
 Simply drag and drop any of your Savegames into this folder through your FTP Client and it will be uploaded to your server.
 

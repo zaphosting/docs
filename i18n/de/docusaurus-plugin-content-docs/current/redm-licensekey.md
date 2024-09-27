@@ -19,7 +19,7 @@ Ein eigener Lizenzschlüssel ist notwendig, vor allem, wenn du Features wie Ones
 
 Um deinen eigenen Lizenzschlüssel zu erstellen, musst du dich zunächst auf der [Cfx.re Keymaster Webseite](https://keymaster.fivem.net) anmelden. Wenn du kein bestehendes Cfx.re Forum-Konto hast, musst du eines erstellen, um dich anmelden und fortfahren zu können.
 
-![image](https://github.com/zaphosting/docs/assets/42719082/4c5bd4d9-ea1a-49aa-b70c-b5d7f07682c2)
+![](https://github.com/zaphosting/docs/assets/42719082/4c5bd4d9-ea1a-49aa-b70c-b5d7f07682c2)
 
 Nachdem du eingeloggt bist, klicke auf den Button **Neuer Server** in der Navigationsleiste links, der dich zur Seite für die Erstellung des Schlüssels führt:
 
@@ -29,7 +29,7 @@ Nachdem du eingeloggt bist, klicke auf den Button **Neuer Server** in der Naviga
 
 Sobald du alle notwendigen Informationen eingegeben hast, solltest du in der Lage sein, einen Lizenzschlüssel zu generieren. Deine Seite sollte ungefähr so aussehen wie unten. Klicken nun auf den Button **Generieren** und es wird ein Lizenzschlüssel erstellt.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/oszSwCxqs43BWDa/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/oszSwCxqs43BWDa/preview)
 
 Kehre zur Startseite zurück, und der neu registrierte Lizenzschlüssel wird dir angezeigt.
 
@@ -39,7 +39,7 @@ Kehre zur Startseite zurück, und der neu registrierte Lizenzschlüssel wird dir
 
 Abschließend musst du im Webinterface deines Gameservers zum Bereich **Einstellungen** navigieren und dort das Feld **Benutzerdefinierter Lizenzschlüssel** aufrufen. Füge in dieses Feld den generierten Code ein.
 
-![image](https://github.com/zaphosting/docs/assets/42719082/5e2f3fce-0f34-4401-8003-ecdcd1e175ce)
+![](https://github.com/zaphosting/docs/assets/42719082/5e2f3fce-0f34-4401-8003-ecdcd1e175ce)
 
 :::info
 **Für txAdmin:**

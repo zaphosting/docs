@@ -9,7 +9,7 @@ Learn more about the differences between contracts and prepaids
 ## Billing type "Prepaid"
 All server products where you select "**Prepaid**" as "**Billing type**" will automatically expire after the paid time. You then have 14 days to reactivate your locked server. If you do not do this, it will be irrevocably deleted.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/bFsHRJygPiCmQ2D/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/bFsHRJygPiCmQ2D/preview)
 
 Prepaid servers can also be deleted at any time during the paid term under "**Contracts & Prepaids**".
 In contrast to contract servers, prepaid servers can also be booked for a **shorter period of 7 days**.
@@ -20,11 +20,11 @@ Prepaid servers are **10% more expensive** than contract servers.
 
 All server products for which you selected "**Contract**" as "**Billing type**" during the order process will be automatically renewed unless you cancel them.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/KsEGsJTNQbS4W5N/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/KsEGsJTNQbS4W5N/preview)
 
 If you pay with PayPal or credit card, a payment agreement is automatically created on a contract server, unless you explicitly deactivate this. So it can't happen that you forget to pay and run the risk of having to pay reminder fees.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/bEBe85Ge26Tf8nj/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/bEBe85Ge26Tf8nj/preview)
 
 :::info
 You also have the possibility to deactivate the checkbox "**subscription payment**" during the order process. We will send you an invoice on a regular basis, which you will have to pay manually in the customer portal.

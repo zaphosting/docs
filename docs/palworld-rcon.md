@@ -35,13 +35,13 @@ The Server must be stopped before the config can be edited, editing the config a
 
 Simply head over to the **Configs** section on your game server's webinterface and press the blue edit file button, as seen below:
 
-![image](https://github.com/zaphosting/docs/assets/42719082/53c8acad-7347-4c3e-85bf-5ae0ad423fc6)
+![](https://github.com/zaphosting/docs/assets/42719082/53c8acad-7347-4c3e-85bf-5ae0ad423fc6)
 
 A text editor will open up allowing you to directly edit the file. In the file, search for the `RCONEnabled` parameter and set this to `true`, for example: `RCONEnabled=True`. We recommend using `CTRL+F` to open your browser's search tool to help with this.
 
 Right beside it, there will also be an `RCONPort` parameter. This is the RCON interface port that you will use to connect later on.
 
-![image](https://github.com/zaphosting/docs/assets/42719082/39871736-7ea1-4fb8-85b8-7f5e311cdba4)
+![](https://github.com/zaphosting/docs/assets/42719082/39871736-7ea1-4fb8-85b8-7f5e311cdba4)
 
 :::note
 We advise you not to change this value for your game server, as this is predefined and altering it may break functionality. For self-hosted Palworld servers on VPS products, you can edit this but ensure that you port forward the selected port.

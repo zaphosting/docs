@@ -29,7 +29,7 @@ Im Folgenden wird die Verbindung mittels des Putty SSH-Client erläutert. Im Kon
 
 
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/YYwE5jRzMgLpEag/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/YYwE5jRzMgLpEag/preview)
 
 
 
@@ -39,7 +39,7 @@ Standardmäßig ist der SSH-Login via Passwort deaktiviert. Solltest du dich mit
 
 
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/qTGZ2yDztnXrND7/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/qTGZ2yDztnXrND7/preview)
 
 
 
@@ -53,7 +53,7 @@ Daraufhin öffnet sich die SSH-Konsole, in der nach einem **Benutzernamen** und 
 
 
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/SyTPePoYjm2c2rS/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/SyTPePoYjm2c2rS/preview)
 
 
 

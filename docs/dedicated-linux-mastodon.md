@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Mastodon is free and open-source software for running self-hosted social networking services.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/oNCpfBwLNB5f79P/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/oNCpfBwLNB5f79P/preview)
 
 It has microblogging features similar to the X (formerly Twitter) service, which are offered by a large number of independently run nodes, known as instances,
 each with its own code of conduct, terms of service, privacy policy, privacy options, and moderation policies.
@@ -32,7 +32,7 @@ If you want to setup a Mastodon Instance on your Server, you have to meet some p
 ## Preparing your System
 Its recommended, that you beforehand disable Password Login on SSH, as it is a security risk to use Password Login on Servers which are reachable from the Internet.
 You can do this in your Servers Webinterface under Information -> Access & Security -> Deactivate Password Login
-![image](https://screensaver01.zap-hosting.com/index.php/s/k6bBoxt7HJ4jqnL/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/k6bBoxt7HJ4jqnL/preview)
 After that, update your packages by using the following command:
 ```
 apt update && apt upgrade -y

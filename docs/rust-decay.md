@@ -31,13 +31,13 @@ In example you would like to disable the decay completly, then its required to e
 
 You can verify in the console tab now if the command was successfully sent.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/J4HPW5Dee93BDJP/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/J4HPW5Dee93BDJP/preview)
 
 To save our changes, its required to send
 
 ```server.writecfg``` once and sent it by pressing enter.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/kEbCodqYTf8tqKp/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/kEbCodqYTf8tqKp/preview)
 
 If your console now shows `Config Saved` the server has taken your changes.
 

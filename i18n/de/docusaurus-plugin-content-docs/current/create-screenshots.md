@@ -35,7 +35,7 @@ Wichtig: Da es keine Screenshot-Funktion dort gibt, muss der Screenshot bereits 
 
 Upload Option:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/PKjf8zoDBn6WezQ/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/PKjf8zoDBn6WezQ/preview)
 
 Nachdem der Screenshot hochgeladen wurde, können noch kleine Bearbeitungen vorgenommen werden
 
@@ -43,7 +43,7 @@ Anschließend kann der Screenshot als Post zur Community (wird öffentlich gelis
 
 Ist dies erfolgt, wird der Link angezeigt, der zum Teilen genutzt werden kann:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/b35tzZWrk3nCqok/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/b35tzZWrk3nCqok/preview)
 
 ### Lightshot
 
@@ -53,7 +53,7 @@ Der Client kann direkt auf der Webseite bezogen werden und bietet zu dem noch ei
 Download des Clients [Download](https://app.prntscr.com/en/)
 Wichtig: Eine Version für Linux wird nicht angeboten. 
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/K4645EBtz8meeyE/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/K4645EBtz8meeyE/preview)
 
 Nach dem Download kann der Client installiert werden. 
 Anschließend kann standardmäßig mit der Taste "Druck" ein Screenshot erstellt werden bzw. ein Bereich ausgewählt werden. 

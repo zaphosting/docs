@@ -27,7 +27,7 @@ Erstelle irgendwo auf deinem Server einen neuen Ordner, in diesem Szenario nenne
 
 Führe einfach **steamcmd.exe** aus und warte, bis der Installationsprozess vollständig abgeschlossen ist.
 
-![image](https://github.com/zaphosting/docs/assets/42719082/ffb8e8a1-26e3-4d16-9baf-938e17ec1613)
+![](https://github.com/zaphosting/docs/assets/42719082/ffb8e8a1-26e3-4d16-9baf-938e17ec1613)
 
 Sobald die Meldung **Loading Steam API.... OK** angezeigt wird, ist der Vorgang erfolgreich abgeschlossen und du kannst mit der Installation des MOE Dedicated Servers im folgenden Abschnitt fortfahren.
 
@@ -46,7 +46,7 @@ force_install_dir C:\MOE-Server
 
 Führe nun den Befehl `app_update 1794810` aus, der den Download startet. Die App-ID **1794810** ist die **MOE**-Anwendung.
 
-![image](https://github.com/zaphosting/docs/assets/42719082/29931eec-fd19-4806-88dc-69e585e42370)
+![](https://github.com/zaphosting/docs/assets/42719082/29931eec-fd19-4806-88dc-69e585e42370)
 
 :::info
 Bitte unterbrich den Vorgang nicht, bevor er abgeschlossen ist, um Fehler zu vermeiden. Es kann einen Moment dauern, aber es lohnt sich, geduldig zu sein! :)
@@ -64,7 +64,7 @@ Anders als bei typischen SteamCMD-Installationen musst du bei MOE einen Ordner a
 
 In dem Stammordner, der sich öffnet, findest du den Ordner **PrivateServerTool**. Das ist der Ordner, den du auf deinen Server kopieren musst. Das kannst du ganz einfach tun, indem du `CTRL+C` zum Kopieren auf deinem lokalen PC und `CTRL+V` zum Einfügen auf deinem Windows Server über RDP benutzt. Achte darauf, dass du sie in das Stammverzeichnis deines Servers einfügst.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/sXdqCYW2QnKrReN/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/sXdqCYW2QnKrReN/preview)
 
 Als Nächstes gehst du zum folgenden Abschnitt, um deinen Server zu portforwarden und zu konfigurieren.
 
@@ -100,7 +100,7 @@ Mit diesen Befehlen werden automatisch Firewall-Regeln erstellt, die notwendig s
 
 Verwende die Suchfunktion von Windows, um die **Windows Firewall-Einstellungen mit erweiterter Sicherheit** zu öffnen. Es kann sein, dass du auf **Erweiterte Einstellungen** drücken musst, um das entsprechende Fenster zu öffnen, wenn du die Basisseite der Windows Firewall öffnest.
 
-![image](https://github.com/zaphosting/docs/assets/42719082/5fb9f943-7e51-4d8f-9df4-2f5ff60857d3)
+![](https://github.com/zaphosting/docs/assets/42719082/5fb9f943-7e51-4d8f-9df4-2f5ff60857d3)
 
 Du musst neue Regeln für deinen MOE-Server erstellen. Klicke dazu auf die ein- und ausgehenden Regeln wie unten beschrieben und füge sie für die folgenden Protokolle und Ports hinzu:
 - TCP eingehend und ausgehend: 11888, 12888

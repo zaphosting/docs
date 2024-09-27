@@ -35,13 +35,13 @@ Der Server muss gestoppt werden, bevor die Konfigurationsdatei bearbeitet werden
 
 Gehe einfach zum Abschnitt **Configs** im Webinterface deines Gameservers und klicke auf die blaue Schaltfläche Datei bearbeiten, wie unten zu sehen:
 
-![image](https://github.com/zaphosting/docs/assets/42719082/53c8acad-7347-4c3e-85bf-5ae0ad423fc6)
+![](https://github.com/zaphosting/docs/assets/42719082/53c8acad-7347-4c3e-85bf-5ae0ad423fc6)
 
 Es öffnet sich ein Texteditor, mit dem du die Datei direkt bearbeiten kannst. Suche in der Datei nach dem Parameter `RCONEnabled` und setze ihn auf `True`, zum Beispiel: `RCONEnabled=True`. Wir empfehlen dir, die Suchfunktion deines Browsers mit der Tastenkombination `CTRL+F` zu öffnen, um dir dabei zu helfen.
 
 Direkt daneben befindet sich der Parameter `RCONPort`. Das ist der RCON-Schnittstellenport, den du später für die Verbindung verwenden wirst.
 
-![image](https://github.com/zaphosting/docs/assets/42719082/40dbb8ae-a75d-47b9-96d5-3af0519b62ac)
+![](https://github.com/zaphosting/docs/assets/42719082/40dbb8ae-a75d-47b9-96d5-3af0519b62ac)
 
 :::note
 Wir raten dir, diesen Wert für deinen Gameserver nicht zu ändern, da er vordefiniert ist und eine Änderung die Funktionalität beeinträchtigen kann. Bei selbst gehosteten Palworld-Servern auf VPS-Produkten kannst du diesen Wert ändern, musst aber sicherstellen, dass du den ausgewählten Port weiterleitest.

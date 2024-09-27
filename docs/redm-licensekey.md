@@ -19,18 +19,18 @@ An own license key is necessary, especially if you want to access features like 
 
 To create your own license key, you should first login to the [Cfx.re Keymaster website](https://keymaster.fivem.net). If you do not have an existing Cfx.re Forum account, you must create one in order to to be able to login and proceed. 
 
-![image](https://github.com/zaphosting/docs/assets/42719082/4c5bd4d9-ea1a-49aa-b70c-b5d7f07682c2)
+![](https://github.com/zaphosting/docs/assets/42719082/4c5bd4d9-ea1a-49aa-b70c-b5d7f07682c2)
 
 After you are logged in, click on the **New server** button on the left navigation bar, which will take you to the key creation page:
 
-![image](https://github.com/zaphosting/docs/assets/42719082/8562c10c-3453-4fb8-bb1f-ed65219580a9)
+![](https://github.com/zaphosting/docs/assets/42719082/8562c10c-3453-4fb8-bb1f-ed65219580a9)
 
 
 
 ## Generate Key
 
 Once you have provided all of the necessary information, you should be able to generate a key. Your page should look similar to below. Now, press the **Generate** button and a key will be created.
-![img](https://screensaver01.zap-hosting.com/index.php/s/oszSwCxqs43BWDa/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/oszSwCxqs43BWDa/preview)
 
 Return back to the home page, and you will be able to see your newly registered license key.
 
@@ -38,7 +38,7 @@ Return back to the home page, and you will be able to see your newly registered 
 
 Finally, you must head over to the **Settings** section on your game server's webinterface, and head over to the **Custom license key** field. In this field, paste the code that was generated.
 
-![image](https://github.com/zaphosting/docs/assets/42719082/c0475d70-bed9-4eaa-8d4c-c7cf121703d5)
+![](https://github.com/zaphosting/docs/assets/42719082/c0475d70-bed9-4eaa-8d4c-c7cf121703d5)
 
 :::info
 **For txAdmin:**

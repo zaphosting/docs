@@ -54,7 +54,7 @@ Press F8 at this point to open the RAID configuration tool
 
 ***
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/L4Lw8oGjxbDR96N/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/L4Lw8oGjxbDR96N/preview)
 
 After a few seconds, this configuration overview will show up.
 
@@ -71,7 +71,7 @@ This shows the current RAID configuration.
 ***
 RAID0
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/6mtbrFXNPeqHnYi/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/6mtbrFXNPeqHnYi/preview)
 
 RAID1
 
@@ -96,13 +96,13 @@ This causes a minimal performance disadvantage.
 
 First of all we check that there is no volume anymore, open `Delete Logical Drive`
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/EbPtmgFyZ3oN6jb/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/EbPtmgFyZ3oN6jb/preview)
 
 We press `F8` to delete the existing RAID.
 
 ***
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/qmtAciacCLKJ9QG/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/qmtAciacCLKJ9QG/preview)
 
 By pressing `F3` we confirm the deletion.
 
@@ -110,7 +110,7 @@ By pressing `F3` we confirm the deletion.
 
 After the RAID was successfully deleted we need to open `Create Logical Drive`
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/SjP6ZkcWXCKc4kT/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/SjP6ZkcWXCKc4kT/preview)
 
 
 Here you can see all your SSDs and have a choice of RAID configurations.

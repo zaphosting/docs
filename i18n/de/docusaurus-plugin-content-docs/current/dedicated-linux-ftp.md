@@ -26,17 +26,17 @@ In seltenen Fällen kann dies auch an einer nicht korrekten Config oder einem be
 Das kann man ganz einfach über den FTP Browser im Webinterface machen. 
 Man klickt links im Menü unter Werkzeuge des jeweiligen Servers auf "FTP-Browser"
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/tybpGFmwBKtS3n2/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/tybpGFmwBKtS3n2/preview)
 
 
 Anschließen klingt man auf den grünen Button "Direktverbindung"
 
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/5NHpatgyaknaNRS/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/5NHpatgyaknaNRS/preview)
 
 Nun wird man vermutlich folgendes Bild sehen: 
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/NMbR5DakM4BeLPY/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/NMbR5DakM4BeLPY/preview)
 
 Hat man bereits ein FTP-Tool probiert, so wird dieses sehr wahrscheinlich auch bereits einen ähnlichen Fehler wie folgenden Fehler angezeigt haben: 
 
@@ -48,7 +48,7 @@ Da nun klar ist, dass weder eine Verbindung via WebFTP oder FTP-Tool möglich is
 Dazu verbindet man sich via SSH/Console mit seinem Server und gibt anschließend den Befehl "service proftpd status" ein. 
 Es wird nun der Status ausgelesen und entsprechend angezeigt:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/qH7D3Aqn9L5ZEjs/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/qH7D3Aqn9L5ZEjs/preview)
 
 
 Dort ist zu erkennen, dass der Status "dead" meldet, kurz gesagt ist der Dienst offline und somit nicht erreichbar. 
@@ -67,7 +67,7 @@ Kommt keine Rückmeldung nach der Ausführung des Befehls, ist der Dienst in der
 Das ganze kann dann mit dem Befehl "service proftpd status" noch einmal verifiziert werden. 
 Es sollte dann wie folgt aussehen: 
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/oSXq2FjQTciTsAS/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/oSXq2FjQTciTsAS/preview)
 
 
 Da der Status jetzt wieder "active" lautet und nicht mehr "dead" kann die FTP Verbindung via FTP-Tool und WebFTP erneut probiert werden. 

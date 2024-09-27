@@ -13,14 +13,14 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Du suchst nach einer Domain zu einem fairen Preis? Dann bist du bei ZAP-Hosting genau richtig! Bei ZAP-Hosting kannst du deine Domain registrieren, um deine Webpräsenz zu individualisieren. Du kannst die Domain beispielsweise für eine Webseite verwenden oder als Weiterleitung für einen Gameserver oder Voiceserver Dienst benutzen.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/rD8rLHyLNxLcm5r/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/rD8rLHyLNxLcm5r/preview)
 
 ## Bestellen
 
 Der Bestellvorgang ist sehr einfach. Wähle deine gewünschte Konfiguration für deine [Domain](https://zap-hosting.com/en/shop/product/domain/). Die Einrichtungsdauer beträgt nur wenige Sekunden. Anschließend kannst du sofort mit der Konfiguration beginnen. Weitere Informationen zum genauen Bestellvorgang findest du in unserer [Domain bestellen](domain-order.md) Anleitung.
 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/DLXCtXHkzdpXkao/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/DLXCtXHkzdpXkao/preview)
 
 ## Verfügbare Domains
 

@@ -31,16 +31,16 @@ import TabItem from '@theme/TabItem';
 
 The most user-friendly method is by heading over to the **Settings** section on your game server's webinterface.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/QDPzFgWRrfB49HB/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/QDPzFgWRrfB49HB/preview)
 
 In the **Settings** area, search for the **Game server password** option. In this field, create a password that you wish to use and input it.
 
-![image](https://github.com/zaphosting/docs/assets/42719082/dadbd22b-2fd9-42e1-be71-f6d28a3f2938)
+![](https://github.com/zaphosting/docs/assets/42719082/dadbd22b-2fd9-42e1-be71-f6d28a3f2938)
 
 :::info
 Once you have a password selected, scroll up and ensure you press the green **Save** button to confirm selection.
 
-![image](https://github.com/zaphosting/docs/assets/42719082/5a4f5ab1-8079-4b20-96a6-36e4aca2e28e)
+![](https://github.com/zaphosting/docs/assets/42719082/5a4f5ab1-8079-4b20-96a6-36e4aca2e28e)
 :::
 
 </TabItem>
@@ -55,11 +55,11 @@ The Server must be stopped before the config can be edited, editing the config a
 
 Alternatively, for users who wish to directly edit the raw file, you can access this by heading over to the **Configs** section on your game server's webinterface and pressing the blue edit file button, as seen below:
 
-![image](https://github.com/zaphosting/docs/assets/42719082/53c8acad-7347-4c3e-85bf-5ae0ad423fc6)
+![](https://github.com/zaphosting/docs/assets/42719082/53c8acad-7347-4c3e-85bf-5ae0ad423fc6)
 
 This will open up a text editor directly on the site to enable you to edit it. Find the **AdminPassword** option within the file (use `CTRL+F` to help with searching) and edit it with the admin password you wish to set. Lastly, save the file and then you can start your server.
 
-![image](https://github.com/zaphosting/docs/assets/42719082/d86376b8-1a41-4fb0-b8cd-8570ddcaa9ae)
+![](https://github.com/zaphosting/docs/assets/42719082/d86376b8-1a41-4fb0-b8cd-8570ddcaa9ae)
 
 </TabItem>
 
@@ -86,6 +86,6 @@ In-game, open the chat using `Enter`. Next, input the following command, replaci
 /AdminPassword [password]
 ```
 
-![image](https://github.com/zaphosting/docs/assets/42719082/2f6e3ee7-e83f-4b71-87dc-d36f9b8c7340)
+![](https://github.com/zaphosting/docs/assets/42719082/2f6e3ee7-e83f-4b71-87dc-d36f9b8c7340)
 
 You should recieve a success message in chat if this was correct. If you received an error, please ensure that the admin password you have inputted is correct and the one that you set in the previous step.

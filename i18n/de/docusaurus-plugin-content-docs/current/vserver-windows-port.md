@@ -21,7 +21,7 @@ Das Windows-Betriebssystem enthält die Anwendung **Windows Defender Firewall mi
 
 Du kannst darauf zugreifen, indem du in der Windows-Suchleiste danach suchst oder indem du die Windows-Taste/das Windows-Symbol drückst und die Suchleiste im Startmenü verwendest.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/Ppr6fwGmCArZHwk/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/Ppr6fwGmCArZHwk/preview)
 
 ## Regeln verwalten
 
@@ -39,7 +39,7 @@ Es gibt zwei Arten von Regeln:
 
 Normalerweise musst du bei der Portweiterleitung beide Arten von Regeln erstellen, um die Kommunikation mit den Clients zu ermöglichen. Dies hängt jedoch von deinem speziellen Anwendungsfall und deiner Einrichtung ab.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/CXnoaSERDzWcCqA/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/CXnoaSERDzWcCqA/preview)
 
 ### Programmregeln
 
@@ -51,25 +51,25 @@ Im folgenden Beispiel richtest du nur die **Eingangsregel** ein. Die Schritte si
 
 Klicke zunächst mit der rechten Maustaste auf **Eingangsregeln** in der Seitenleiste und wähle die Option **Neue Regel...**.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/3C3cgLjSSriygfG/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/3C3cgLjSSriygfG/preview)
 
 Im ersten Abschnitt wählst du die Option **Programm** als Regeltyp aus.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/NPm9ae8BsD78An9/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/NPm9ae8BsD78An9/preview)
 
 Jetzt musst du das Programm, für das du die Weiterleitungsregel erstellen möchtest, mit der Schaltfläche Durchsuchen auswählen. In diesem Beispiel wurde der Mozilla Firefox Browser als Beispielanwendung ausgewählt.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/XsS2iTa4JjXF8j5/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/XsS2iTa4JjXF8j5/preview)
 
 Im Abschnitt Aktion wählst du die Option **Verbindung zulassen**.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/pnFz9EoxPqPT8xS/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/pnFz9EoxPqPT8xS/preview)
 
 Lasse im Abschnitt Profil alle Optionen angekreuzt und fahre mit dem letzten Abschnitt fort. Hier solltest du einen aussagekräftigen Namen festlegen, mit dem du dich an die Regel erinnern kannst, und du kannst bei Bedarf eine optionale Beschreibung hinzufügen.
 
 Wenn du fertig bist, klicke auf die Schaltfläche **Finish**, um die Regel zu erstellen.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/dpWEYFYGtWQYkw3/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/dpWEYFYGtWQYkw3/preview)
 
 Du hast erfolgreich deine eigene Programmregel für deinen Windows-Server erstellt. Wiederhole nun den Vorgang, um eine **Ausgangsregel** zu erstellen, indem du dieselben Schritte befolgst, sie aber unter dem Abschnitt Ausgangsregeln erstellst.
 
@@ -83,26 +83,26 @@ Im folgenden Beispiel wirst du nur die Regel **Eingang** einrichten. Die Schritt
 
 Klicke zunächst mit der rechten Maustaste auf **Eingangsregeln** in der Seitenleiste und wähle die Option **Neue Regel...**.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/3C3cgLjSSriygfG/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/3C3cgLjSSriygfG/preview)
 
 Im ersten Abschnitt wählst du die Option **Port** als Regeltyp aus.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/eobA3wzbwQSqjpK/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/eobA3wzbwQSqjpK/preview)
 
 Jetzt musst du den Port-Typ (TCP oder UDP) und den/die zugewiesenen Port(s) festlegen, die du weiterleiten möchtest. Wenn du sowohl TCP- als auch UDP-Ports weiterleiten willst, musst du zwei separate Regeln erstellen, eine für jeden Porttyp.
 
 In diesem Beispiel wurde Port 25565 (TCP) als Beispielport verwendet, der als Standardport für Minecraft verwendet wird.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/yMco5L6ERWiLEHk/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/yMco5L6ERWiLEHk/preview)
 
 Wähle im Abschnitt Aktion die Option **Verbindung zulassen**.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/pnFz9EoxPqPT8xS/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/pnFz9EoxPqPT8xS/preview)
 
 Lasse im Abschnitt Profil alle Optionen angekreuzt und fahre mit dem letzten Abschnitt fort. Hier solltest du einen aussagekräftigen Namen festlegen, mit dem du dich an die Regel erinnern kannst, und du kannst bei Bedarf eine optionale Beschreibung hinzufügen.
 
 Wenn du fertig bist, klicke auf die Schaltfläche **Finish**, um die Regel zu erstellen.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/Ro5k6JgTF73exoH/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/Ro5k6JgTF73exoH/preview)
 
 Du hast erfolgreich deine eigene Portregel für deinen Windows-Server erstellt. Wiederhole nun den Vorgang, um eine **Ausgangsregel** zu erstellen, indem du dieselben Schritte ausführst, sie aber im Abschnitt für ausgehende Regeln erstellst.

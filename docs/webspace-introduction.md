@@ -13,14 +13,14 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Are you looking for a good web solution at a fair price? Then ZAP-Hosting is the right place for you! At ZAP-Hosting, you can rent or buy the right Webspace product to start your web presence.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/gK7k86xDcfcTQ29/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/gK7k86xDcfcTQ29/preview)
 <InlineVoucher />
 
 ## Ordering
 
 The ordering process is very simple. Choose your desired configuration for your [Webspace](https://zap-hosting.com/en/webhosting-rent-a-webspace/). The setup time takes only a few seconds. Afterwards, you can immediately start with the configuration.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/XSNK4Bi8T5dWFpB/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/XSNK4Bi8T5dWFpB/preview)
 
 ## Configurations
 

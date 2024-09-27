@@ -23,21 +23,21 @@ Um einen API-Schlüssel anzufordern, ist ein nicht eingeschränkter Steam-Accoun
 
 Nachdem du dein Steam-Konto eingerichtet hast, solltest du in der Lage sein, deinen eigenen Steam-Web-API-Schlüssel anzufordern. Dazu musst du dich [auf der Steam-Website] (https://steamcommunity.com/dev/apikey) mit deinem Steam-Kontonamen und Passwort anmelden.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/f4zTKdgnLgKZsY5/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/f4zTKdgnLgKZsY5/preview)
 
 Nach der Anmeldung musst du einen Domainnamen eingeben, die Nutzungsbedingungen für die Steam Web API bestätigen und auf die Schaltfläche **Registrieren** klicken. Die Domain sollte auf deine **Server IP** *(ohne Port)* eingestellt sein, also gib diese dort an. 
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/J5P9Dw2Lqr2ZrfN/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/J5P9Dw2Lqr2ZrfN/preview)
 
 Wenn alles erfolgreich war, solltest du deinen eigenen Steam-Web-API-Schlüssel sehen können, wie unten dargestellt.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/tHW7ZFJfG7CMYET/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/tHW7ZFJfG7CMYET/preview)
 
 ## Aktivierung eines API-Schlüssels
 
 Jetzt, wo du deinen Steam Web API Key hast, musst du ihn in deiner Serverkonfigurationsdatei (`server.cfg`) bei deinem FiveM Gameserver ablegen. Du kannst auf deine server.cfg Konfigurationsdatei entweder per FTP (siehe oben) oder über den Abschnitt **Configs** im Webinterface deines Gameservers zugreifen. 
 
-![image](https://github.com/zaphosting/docs/assets/42719082/e3c7392c-7246-4133-be2e-383dac4b0327)
+![](https://github.com/zaphosting/docs/assets/42719082/e3c7392c-7246-4133-be2e-383dac4b0327)
 
 Suchen eine vorhandene Zeile oder erstellen eine neue, falls sie nicht existiert, und füge folgendes hinzu, wobei du `YOUR_KEY_HERE` durch den von dir erzeugten Schlüssel ersetzt:
 ```

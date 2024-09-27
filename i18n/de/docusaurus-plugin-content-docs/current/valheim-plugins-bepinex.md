@@ -43,7 +43,7 @@ In diesen Ordner musst du die Mods, die du heruntergeladen hast, ablegen. In der
 Der Server muss angehalten werden, bevor du Mods hinzufügst oder bearbeitest, da sonst alle Änderungen rückgängig gemacht werden können.
 :::
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/d8gTeFiGXTsxHwz/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/d8gTeFiGXTsxHwz/preview)
 
 ## Server starten
 

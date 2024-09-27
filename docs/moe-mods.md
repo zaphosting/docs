@@ -25,7 +25,7 @@ Through the [Steam Workshop](https://steamcommunity.com/app/221100/workshop/), y
 
 Next, you can begin installing the mods. Installation is a breeze with the Steam Workshop option. Access your game server's management and navigate to Steam Workshop. There, you have the option to enter the mods in the designated field. Enter the Workshop IDs you noted earlier and add them there. If you are adding multiple mods, make sure to separate the mods with a comma symbol.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/MwT4zCxtJ3Jo6Md/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/MwT4zCxtJ3Jo6Md/preview)
 
 ## Conclusion
 

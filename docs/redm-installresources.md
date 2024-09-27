@@ -33,7 +33,7 @@ In the case that these files are not present, it may be that they are located in
 
 You must now upload the previously uncompressed files as an individual folder (if not already). Your folder must be uploaded to the server's `resource` directory.
 
-![image](https://github.com/zaphosting/docs/assets/42719082/5a9678bf-ddb5-41a2-a5ad-10cb6f748b67)
+![](https://github.com/zaphosting/docs/assets/42719082/5a9678bf-ddb5-41a2-a5ad-10cb6f748b67)
 
 The directory structure typically looks like:
 ```

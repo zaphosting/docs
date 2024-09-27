@@ -23,12 +23,12 @@ With a **Discord bot server**, you can run Discord bots continuously, which can,
 
 In order to be able to set up your Bot, the [Access via FTP](gameserver-ftpaccess.md) needs to be configured. Once you are connected using FTP, you need to open the`discordbot` folder, this is where the files of the bot have to be uploaded:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/x4WPiNS6xQcWQrp/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/x4WPiNS6xQcWQrp/preview)
 
 
 Provided you have opened the folder, you can now simply upload the bot files into the empty folder:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/t7DDaF684PZkXjn/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/t7DDaF684PZkXjn/preview)
 
 
 
@@ -36,11 +36,11 @@ Provided you have opened the folder, you can now simply upload the bot files int
 
 To be able to run your bot using the Dashboard, the bot needs to be configured using the "Settings" Page:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/HoPpfJKsTC6ozNy/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/HoPpfJKsTC6ozNy/preview)
 
 Here you now have to configure which programming language the Bot uses, and how it's main file is called. In our case this will be Python 3 Programming Language and the main.py start file.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/ixfz2xKYCepS9Ek/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/ixfz2xKYCepS9Ek/preview)
 
 
 

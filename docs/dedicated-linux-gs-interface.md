@@ -52,7 +52,7 @@ The first time you call up the GS/TS3 interface, you will be taken to the user-f
 Once there, the SSH key must be created. To do this, click on the **Generate SSH key** button and then add the key by clicking on the **Add key** button. 
 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/dbXCDobqe2BkHD6/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/dbXCDobqe2BkHD6/preview)
 
 
 
@@ -60,7 +60,7 @@ Once you have clicked on **Add Key**, the SSH key is stored on your server. The 
 
 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/FK9mP3BgzrPmH7S/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/FK9mP3BgzrPmH7S/preview)
 
 
 
@@ -70,7 +70,7 @@ Once you have clicked on **Add Key**, the SSH key is stored on your server. The 
 
 During the installation you can check the current progress. Please note that the installation and configuration of the interface and its packages may take some time. This can usually take from 5 to 15 minutes.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/JL7jyTKbCEx8FBZ/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/JL7jyTKbCEx8FBZ/preview)
 
 :::info
 **Caution**: Please do not continue the process until the interface is completely installed. You can recognize the successful installation by the fact that the progress bar has disappeared and "Installed" is displayed instead of "Missing" for each required package.
@@ -82,13 +82,13 @@ During the installation you can check the current progress. Please note that the
 
 Provided that the creation and installation of the GS/TS3 interface has been completed successfully, you can now start setting up the services. The installation of a game server is done via the **Install game server** button in the **Game server** category.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/QinM7KtFwcAp5pE/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/QinM7KtFwcAp5pE/preview)
 
 
 
 In the next step, you have the option of selecting the IP address of the desired game server (provided your server has more than one IP). You can also specify the desired port, the number of slots and the RAM boost individually.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/cqWwZbXT77okeDa/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/cqWwZbXT77okeDa/preview)
 
 Make sure that all the details are correct and meet your prerequisites. As soon as you have made all the settings, click on "Install game server now" to start the installation process. The game server will then be set up according to your specifications and you will soon be able to get started. You can now view and call up your newly created game server in the list.
 
@@ -100,7 +100,7 @@ Make sure that all the details are correct and meet your prerequisites. As soon 
 
 You are now in the administration of your game server. There you can select and install the desired game for your game server in the **Settings** navigation panel under **Games**.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/6pxEbWttos6HAYt/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/6pxEbWttos6HAYt/preview)
 
 Here you will find a list of all the games you can install on your server. In this example, a server with the game (package) Minecraft: Paperspigot will be installed. Select your desired game and click on the green button to start the installation.
 
@@ -108,7 +108,7 @@ Here you will find a list of all the games you can install on your server. In th
 
 An overview with all the necessary conditions will be displayed. If all conditions are met, you can confirm the process with the **Accept and Install** button.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/jeQC7dp6zpe3ny4/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/jeQC7dp6zpe3ny4/preview)
 
 Setting up the game may take some time depending on the game. The progress is shown in the status display. Afterwards, you can start your game server and connect to it in the game!
 
@@ -118,11 +118,11 @@ Setting up the game may take some time depending on the game. The progress is sh
 
 The installation of a **Voiceserver (Teamspeak 3 Server)** is similar to the installation of a game server. You must first click on "Gameserver / TS3" again. In this section you will find the option **Install voice server**, which you can click to start the installation process for the Teamspeak 3 server.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/mi8p3NTfwBBExsD/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/mi8p3NTfwBBExsD/preview)
 
 In the next step, you have the option of specifying the desired settings for your Teamspeak 3 server, such as the IP address, the port and the number of available slots. Once you have entered all the necessary information, you can complete the installation by clicking on **Install voice server now**.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/ajfzxsJfCFdfBac/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/ajfzxsJfCFdfBac/preview)
 
 Make sure that all the information is correct and meets your prerequisites. Once you have made all the settings, click on **Install Teamspeak 3/5 Server now** to start the installation process. You can now view and click on the installed Teamspeak 3 server in the **Voiceserver Overview**.
 
@@ -139,7 +139,7 @@ You are now in the interface of the instance of your installed Teamspeak 3 serve
 
 You can now click on the menu item **Virtual Servers**. All installed Teamspeak 3 servers on your instance are clearly listed in this area. To call up the interface of the respective Teamspeak 3 server, simply click on the "eye" symbol.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/E3ZqxC9rPjWwC5F/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/E3ZqxC9rPjWwC5F/preview)
 
 In the Teamspeak 3 server interface, you will find all the necessary information and setting options to individually design and manage your server. For example, under the tab "Authorization key" you can create a token that grants you admin rights on your server. This gives you complete control over user administration and access to the server.
 

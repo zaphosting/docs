@@ -37,7 +37,7 @@ Wenn die Mehrwertsteuer in der Rechnung ausgewiesen werden muss, wird der volle 
 ## Erstellen eines Affiliate-Links & Banners
 Um einen neuen Affiliate-Link oder Banner zu erstellen, gehst du einfach auf die [Affiliate-Hauptseite](https://zap-hosting.com/en/customer/affiliate/) und scrollst nach unten. Dort kannst du deine bestehenden Links und Banner sehen, aber auch neue über den grünen Button **Werbemittel erstellen** erstellen.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/3KTLeT7y4PzZtLS/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/3KTLeT7y4PzZtLS/preview)
 
 Daraufhin öffnet sich ein Menü, in dem du eine Reihe von Werten anpassen kannst. Zunächst solltest du auswählen, ob es sich um einen einfachen Link oder ein Banner handeln soll.
 
@@ -69,13 +69,13 @@ Als Nächstes kannst du über das Dropdown-Menü das Feld **Produkt** auswählen
 #### Abschluss des Erstellungsprozesses
 Wenn du alles nach deinen Vorstellungen ausgefüllt hast, drückst du einfach auf die grüne Schaltfläche **Erstellen**, um mit der Erstellung deines Banners oder Links fortzufahren. Du solltest eine Erfolgsmeldung erhalten, wenn alles korrekt ist und dein neuer Banner oder Link erscheint unter dem Abschnitt **Deine Banner/Links**, wenn du nach unten scrollst.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/724JJWXKptMB9qR/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/724JJWXKptMB9qR/preview)
 
 ## Auszahlen & Übertragen
 
 Du kannst dir dein Partnerprogramm-Guthaben entweder deine cashbox (ZAP Coins) oder in Geld über PayPal. Gehe dazu wieder auf die [Affiliate-Seite](https://zap-hosting.com/en/customer/affiliate/) und klicke auf den blauen Button **Auszahlung/Umbuchung**.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/639MHYsCXnf7YeP/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/639MHYsCXnf7YeP/preview)
 
 Folge nun dem entsprechenden Abschnitt unten, um in eine der beiden Währungen zu überweisen.
 
@@ -87,7 +87,7 @@ Sobald du deine Credits in ZAP Coins transferiert hast, kannst du sie nicht mehr
 
 Wähle bei der Menüaufforderung **ZAP-Guthaben** als Option aus. Wähle aus, ob du das gesamte Guthaben oder nur einen bestimmten Teil davon übertragen möchtest. Wenn du fertig bist, drückst du zur Bestätigung einfach auf die grüne Taste **Übertragen**.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/AEoNwL7sMGsQD6Z/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/AEoNwL7sMGsQD6Z/preview)
 
 ### Echtgeld (PayPal)
 

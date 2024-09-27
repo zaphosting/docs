@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Are you looking for your own game server with powerful configuration, easy administration and at a fair price? Then ZAP-Hosting is the right place for you! At ZAP-Hosting you can rent or buy your suitable server for a maximum gaming performance experience!
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/tnb5i2dSfTWTDxx/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/tnb5i2dSfTWTDxx/preview)
 
 <InlineVoucher />
 
@@ -21,7 +21,7 @@ Are you looking for your own game server with powerful configuration, easy admin
 
 The ordering process is very simple. Choose your desired configuration for your [Game server](https://zap-hosting.com/en/shop/product/cloud-gameserver/). The setup time takes only a few seconds. Afterwards, you can immediately start with the configuration.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/KCPy4c5xQ9wSAma/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/KCPy4c5xQ9wSAma/preview)
 
 
 

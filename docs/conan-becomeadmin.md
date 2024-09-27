@@ -17,12 +17,12 @@ The assignment of administrator permissions allows you simple and comprehensive 
 In order to assign administrator rights to yourself or other players, you must first define a server admin password. This password is defined in the **Settings** of your Server, which you can find in the interface.
 
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/gpHQXB9tk46RpLL/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/gpHQXB9tk46RpLL/preview)
 
 Inside the **Setings** page we look for "Admin Password", feel free to change it to a password of your like.
 
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/bKWx4qCj3aj6agA/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/bKWx4qCj3aj6agA/preview)
 
 
 
@@ -30,7 +30,7 @@ Once the password has been defined, please save the changes and restart your ser
 
 
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/giLP794irsw8bjK/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/giLP794irsw8bjK/preview)
 
 
 

@@ -23,10 +23,10 @@ Starte das Spiel und wähle den Menüpunkt "Multiplayer" aus:
 
 Anschließend wählst du den Menüpunkt "Direct join" aus: 
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/ayRGk2pePDPXTE7/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/ayRGk2pePDPXTE7/preview)
 
 Dort trägst du die IP und Port ein, welche auf deinem Gameserver Dashboard angezeigt wird:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/swkJR7YY5L9xYJt/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/swkJR7YY5L9xYJt/preview)
 
 Nach dem Klick auf "Connect" verbindet sich der Client zu deinem Server.

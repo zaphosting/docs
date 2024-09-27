@@ -15,11 +15,11 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Um die server.cfg direkt zu bearbeiten, wechseln wir in den "Configs"-Tab unseres Webinterfaces
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/XpikEaKQXygdndN/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/XpikEaKQXygdndN/preview)
 
 Danach öffnen wir die server.cfg in unserem eingebauten Config-Editor.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/9BQASHKEREJisHy/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/9BQASHKEREJisHy/preview)
 
 Du befindest dich nun in unserem Config-Editor und kannst die Variablen darin wie gewünscht anpassen. Achte bitte darauf, dass du unter Einstellungen nicht andere Werte festlegst als in der server.cfg, diese werden andernfalls überschrieben, betrifft u.a. hostname, rcon_password, sv_password.
 
@@ -63,6 +63,6 @@ sv_region 3				//0+1 = US, 2 = South Africa, 3 = Europe, 4 = Asia, 5 = Australia
 
 Sobald du alle Einstellungen vorgenommen hast, welche du anpassen wolltest, muss nur noch deine Änderung gespeichert werden.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/Hcd4seAQEjBfYtG/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/Hcd4seAQEjBfYtG/preview)
 
 Nach einem Serverneustart werden deine Änderungen automatisch übernommen.

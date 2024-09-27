@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Die Installation von Mods für ARK-Server wird die Nutzung des Steam Workshops ermöglicht. Die Mod-Community in ARK gehört zu den aktivsten im Survival-Genre. Mehr als 6000 Mods können über den Steam Workshop heruntergeladen werden. Die Anzahl verfügbarer Mods steigt täglich. Im Folgenden wird erklärt, wie du diese Mods hinzufügen kannst. 
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/Y5sYJ3BZ9GSGwsk/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/Y5sYJ3BZ9GSGwsk/preview)
 
 <InlineVoucher />
 
@@ -39,7 +39,7 @@ Wenn du dich für einen Mod entschieden hast, dann musst du die ID des Workshop-
 
   Mache einen Rechtsklick bei der Steam Workshop Seite des Mods und klicke auf Seitenurl kopieren. Aus der URL kopierst du die ID des Mods. 
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/pCQxKMfcQPFS3D9/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/pCQxKMfcQPFS3D9/preview)
 
   
 
@@ -47,7 +47,7 @@ Wenn du dich für einen Mod entschieden hast, dann musst du die ID des Workshop-
 
   In der URL-Leiste findest du in der URL hinter **.../?id=** eine Zahlenkombination. Diese musst du kopieren. 
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/7zXyw7E7YKFRM8F/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/7zXyw7E7YKFRM8F/preview)
 
 
 
@@ -55,7 +55,7 @@ Diese muss im Anschluss im Interface unter Steam Workshop eingetragen werden. We
 
 
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/JngsaEkZStRAgRc/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/JngsaEkZStRAgRc/preview)
 
 
 

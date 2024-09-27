@@ -17,7 +17,7 @@ All commands are required to be executed through the developers console. You can
 
 The console looks like that:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/Lyi4qrT5MjzJLkL/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/Lyi4qrT5MjzJLkL/preview)
 
 ## The Commands
 The most important commands:

@@ -50,7 +50,7 @@ Jetzt sind wir im Profiler und können die Performanceinfos sehen, das sieht am 
 
 Wir wählen nun einen "Tick" aus, welcher viel Performance verbraucht:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/mJQAtcdQoWe7qZT/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/mJQAtcdQoWe7qZT/preview)
 
 Nun können wir sehen, welche Ressourcen sehr viel Zeit verbrauchen.
 
