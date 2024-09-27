@@ -32,7 +32,7 @@ With "**Key name**"  you can set a name for the key, which should be displayed i
 
 If all the desired keys have been generated and added, they will now be displayed under "**Access & Security**".
 
-(https://user-images.githubusercontent.com/61839701/166181301-02cce96d-d35b-4b97-9f43-7763215c14c4.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/c7NzacjDy9Npwrm/preview)
 
 If you have your own public key, which you generated externally and not via our panel, you can integrate it by clicking on the "**+**" Icon. 
 

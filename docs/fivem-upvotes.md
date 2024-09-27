@@ -36,9 +36,9 @@ FiveM Upvotes cannot be purchased with ZAP Coins since they are an external prod
 
 For the use of the FiveM upvotes it is necessary to link your FiveM account. The upvotes will be assigned to this account, which you can then use to assign the upvotes in game according to your wishes. 
 
-![image](https://user-images.githubusercontent.com/13604413/159169065-88195fd0-38b7-41a9-8c55-c5515949b01b.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/29q5rdtgcKs32d8/preview)
 
-![image](https://user-images.githubusercontent.com/13604413/159169068-40b8ed7b-8db6-4b40-9402-6901bad43474.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/ZLSMZPAgnyXrAZS/preview)
 
 Once this has been confirmed, the order can be completed. The information will then immediately be forwarded to FiveM and processed there. As soon as this process has been completed, the upvotes are available to you and can be managed via the interface. The runtime of the upvotes also starts at this point. 
 
@@ -48,13 +48,13 @@ Once this has been confirmed, the order can be completed. The information will t
 
 As soon as the upvotes are visible in the interface, they can be assigned via the FiveM client. To do this, click on the Upvotes icon in the server list for the server of your choice. 
 
-![image](https://user-images.githubusercontent.com/13604413/159169075-24cc8c15-9575-4661-b9ae-62d9d41474c1.png)
+![image](https://screensaver01.zap-hosting.com/index.php/s/XyHzKM2KXPK2gtE/preview)
 
 
 
 As a confirmation, a pop-up should now open confirming that the upvotes have been successfully assigned.  
 
-![image](https://user-images.githubusercontent.com/13604413/159169077-9835d49f-7cb1-4c47-9426-60eb0a8bd74d.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/tWi9oYTGJcGrNs5/preview)
 
 
 
@@ -62,7 +62,7 @@ As a confirmation, a pop-up should now open confirming that the upvotes have bee
 
 In case the upvotes should be reassigned to another server or an error occurred while assigning the upvotes, they can be reset via the dashboard.
 
-![image](https://user-images.githubusercontent.com/13604413/159169081-a8d3a1f5-ac6a-4902-a75f-98b7e478bd73.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/PKzqHx4tbRFDWg8/preview)
 
 
 The reset of the upvotes can take a few minutes. They can usually be reassigned after 60 minutes at the latest.

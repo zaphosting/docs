@@ -171,11 +171,11 @@ After a logout and login you will find the Plesk panel in German.
 
 To add the first domain click on the blue button "Add domain".
 
-[](https://user-images.githubusercontent.com/61839701/166189693-2a36e8af-2cd9-4c50-9788-cfc236433479.png)
+[](https://screensaver01.zap-hosting.com/index.php/s/G3fetgKfLNKFr7N/preview)
 
 Now the own domain can be entered. Also an IP as well as a user name and password for the web space of the domain must be defined. If the subdoimain "www" is already entered in the DNS of the domain, an SSL certificate from Let's Encrypt can be created directly. This option can be selected, after entering a mail address, it is confirmed on the blue "OK" button.  
 
-[](https://user-images.githubusercontent.com/61839701/166189713-a3a201c3-c4ad-4c57-a8d3-3dab31316a43.png)
+[](https://screensaver01.zap-hosting.com/index.php/s/Pw2PSFDKGFDXZi2/preview)
 
 
 :::info
@@ -193,7 +193,7 @@ During the domain registration/creation of the web space, an SSL certificate fro
 In order to be permanently redirected to HTTPS (SSL) when calling up the web page, the checkbox "Permanent, SEO-suitable 301 forwarding from HTTP to HTTPS" must be checked. 
 :::
 
-[](https://user-images.githubusercontent.com/61839701/166189750-13548aa4-98f3-4f51-b0fe-1611b42c8171.png)
+[](https://screensaver01.zap-hosting.com/index.php/s/xad7pbeZWY6QQHK/preview)
 
 If the domain is now opened in the browser, it shows its encryption.
 
