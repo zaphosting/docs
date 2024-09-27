@@ -13,8 +13,6 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Managing your domain is important, including the ability to transfer your domain across providers. In this guide, we will explore how you can transfer your existing domain, both to and from your ZAP-Hosting account.
 
-<InlineVoucher />
-
 ## Transferring Domain to ZAP-Hosting
 
 Transferring a domain to your ZAP-Hosting account is simple. Begin by heading over to the [Domain configurator page](https://zap-hosting.com/en/shop/product/domain/) whilst logged in and search for your existing domain.

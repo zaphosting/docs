@@ -13,8 +13,6 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Du bist neu und interessierst dich für die Produkte von ZAP-Hosting? Dann bist du hier genau richtig. Zunächst einmal herzlich willkommen bei ZAP-Hosting! Es freut uns, dass du dich für unsere Dienstleistungen interessierst und dich darüber informieren möchtest, wie du deine bestehende Domain von einem anderen Anbieter zu uns umziehen möchtest. Dieses Dokument wird dir die allgemein notwendigen Schritte mitteilen, die du erledigen musst, um deine Domain erfolgreich zu uns umzuziehen. 
 
-<InlineVoucher />
-
 ## Vorteile
 
 Mit Sicherheit stehst du vor der Entscheidung, welcher Anbieter der richtige für dich ist. Solch eine Entscheidung kann unter Umständen viel Zeit beanspruchen. Aus diesem Grund möchten wir dir bei der Entscheidung weiterhelfen und die Vorteile von ZAP-Hosting mit dir teilen. Mit Sicherheit stehst du vor der Entscheidung, welcher Anbieter der richtige für dich ist. Solch eine Entscheidung kann unter Umständen viel Zeit beanspruchen. Aus diesem Grund möchten wir dir bei der Entscheidung weiterhelfen und die Vorteile von ZAP-Hosting mit dir teilen. ZAP-Hosting bietet bereits seit über einem Jahrzehnt seine Dienstleistungen an und ist somit ein etablierter und erfahrener Anbieter im Server Hosting Bereich.

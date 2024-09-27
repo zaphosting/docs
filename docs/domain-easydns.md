@@ -13,7 +13,6 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 With the **EasyDNS function** the forwarding of a domain, which was rented with **us**, to another product on the **same** account can be set with one click.
 
-<InlineVoucher />
 
 ## Where do I find the EasyDNS option and how do I use it?
 

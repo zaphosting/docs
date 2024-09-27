@@ -13,8 +13,6 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Mit der **EasyDNS Funktion** kann die Weiterleitung einer Domain, welche bei **uns** gemietet wurde, auf ein anderes Produkt auf demselben Account mit einem Klick eingestellt werden.
 
-<InlineVoucher />
-
 ## Wo finde ich die EasyDNS Option und wie verwende ich es?
 
 Die Option wird einem angezeigt, soweit man die gewünschte Domain bei sich im Interface anklickt.

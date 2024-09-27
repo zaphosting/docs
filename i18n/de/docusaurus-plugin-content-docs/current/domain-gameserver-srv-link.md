@@ -17,8 +17,6 @@ Bitte beachte, dass es immer bis zu 24 Stunden dauern kann bis Änderungen an DN
 Du kannst entweder deine Domain vollständig, oder lediglich eine Subdomain auf deinen Gameserver weiterleiten.
 So muss sich niemand die komplizierte IP-Adresse, welche aus Zahlen besteht merken, sondern kann sich einfach mithilfe der Domain auf deinen Gameserver verbinden.
 
-<InlineVoucher />
-
 ## Funktionsweise
 
 Für die Weiterleitung der IP-Adresse wird entweder eine Subdomain erstellt, welche auf die IP-Adresse des Gameservers leitet, oder du leitest die komplette Domain ohne Subdomain weiter.

@@ -9,7 +9,6 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
-<InlineVoucher />
 
 :::info
 Bitte beachte, dass es immer bis zu 24 Stunden dauern kann, bis Änderungen an DNS Einträgen aktiv werden!

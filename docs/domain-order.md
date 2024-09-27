@@ -13,8 +13,6 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Here at ZAP-Hosting, we offer a wide variety of popular domains including gTLD's such as `.com` and `.net`, that you can order directly through our [Domain configurator](https://zap-hosting.com/en/shop/product/domain/). In this guide, we will explore the order process in-depth.
 
-<InlineVoucher />
-
 ## Ordering a New Domain
 
 You can order your very own domain [directly here](https://zap-hosting.com/en/shop/product/domain/). On the page, use the search bar to enter the domain name that you wish to own and press search.

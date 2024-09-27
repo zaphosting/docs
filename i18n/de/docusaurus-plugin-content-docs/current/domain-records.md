@@ -13,8 +13,6 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Domains können ganz einfach konfiguriert werden, indem man eine Vielzahl von DNS-Eintragstypen verwendet, die unterschiedliche Aktionen ausführen. In diesem Anleitung gehen wir auf die verschiedenen Eintragstypen ein und erklären, wie sie funktionieren.
 
-<InlineVoucher />
-
 ## A Records
 
 Mit einem A Record wird eine Weiterleitung von einer "**Sub-**" oder "**Hauptdomain**" auf eine "**IPv4-Adresse**" erstellt.

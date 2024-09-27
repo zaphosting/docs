@@ -13,7 +13,6 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Cloudflare ist ein sehr beliebter CDN-Anbieter (Content Delivery Network), der deine Websites mit verbessertem Sicherheitsschutz und DDoS-Abwehr ausstattet und eine einfache Verwaltung über sein Dashboard ermöglicht. In dieser Anleitung erfährst du, wie du deine ZAP-Hosting-Domain mit Hilfe von ExpertDNS und der Anpassung der Nameserver für die Nutzung mit Cloudflare einrichtest.
 
-<InlineVoucher />
 
 ## Voraussetzungen
 Um diese Anleitung zu befolgen, benötigst du:

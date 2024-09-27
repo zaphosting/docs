@@ -16,8 +16,6 @@ You can either forward your domain completely or only a subdomain to your game s
 Please note that it can always take up to 24 hours until changes to DNS entries become active!
 :::
 
-<InlineVoucher />
-
 ## Functionality
 
 For forwarding the IP address, either a subdomain is created which forwards to the IP address of the game server, or you forward the entire domain without a subdomain. This would be sufficient if the game server uses the default port of the game. If the game server uses another port than the default port of the game, you need an additional **SRV entry** to forward the subdomain to the game server.

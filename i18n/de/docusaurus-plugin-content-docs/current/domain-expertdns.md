@@ -13,8 +13,6 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Mit der **ExpertDNS Funktion** kann man einstellen, welche Nameserver für die Domain genutzt werden sollen.
 
-<InlineVoucher />
-
 ## Wo finde ich die ExpertDNS Option und wie verwende ich es?
 
 Die Option wird in der Domainverwaltungsseite angezeigt. Standardmäßig wäre dort **EasyDNS** ausgewählt, vorher muss daher der Haken bei "**expertDNS aktivieren**" gesetzt werden.
