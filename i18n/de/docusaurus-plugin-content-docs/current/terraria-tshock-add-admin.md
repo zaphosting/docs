@@ -18,9 +18,9 @@ Die Zuweisung von Administratorberechtigungen ermöglicht dir eine einfache und 
 Um dich als Admin auf deinem Terraria Server eintragen zu können, benötigst du deinen einzigartigen Token.
 Dieser wird generiert, wenn du den Server das erste Mal startest, im Anschluss öffnest du die Live Konsole, in welcher du den Token findest:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/Kp9ffgYrCBjSWok/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/Kp9ffgYrCBjSWok/preview)
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/CRnkSk5oAboXK6D/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/CRnkSk5oAboXK6D/preview)
 
 In diesem Fall lautet der Token **4914096**.
 
@@ -29,11 +29,11 @@ In diesem Fall lautet der Token **4914096**.
 Um dich nun als Admin eintragen zu können, trittst du deinem Server in Terraria bei und gibst im Spiel den Befehl **/setup 4914096** ein.
 Dabei ersetzt du natürlich den Token **4914096** mit deinem eigenen.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/qckj4cGApTRBBL6/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/qckj4cGApTRBBL6/preview)
 
 ### Im Anschluss erscheint folgende Meldung im Chat:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/9wB3rzNwMAJLnKg/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/9wB3rzNwMAJLnKg/preview)
 
 
 ## Hinzufügen eines Admins
@@ -42,8 +42,8 @@ Jetzt kannst du mit dem Befehl **/user add USERNAME PASSWORT owner** einen neuen
 Dabei ersetzt du **USERNAME** durch deinen Namen und als **PASSWORT** kannst du ein beliebiges Passwort frei wählen
 welches du künftig für den Login als Admin auf deinem Server verwenden kannst. 
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/KryfWQi4Xebcfa5/preview)
-![image](https://screensaver01.zap-hosting.com/index.php/s/zWzWKeEApcbZSCd/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/KryfWQi4Xebcfa5/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/zWzWKeEApcbZSCd/preview)
 
 :::info
 Beachte, dass dein Passwort mindestens 4 Zeichen lang sein muss!
@@ -56,6 +56,6 @@ Nachdem du dich im Spiel als Admin eingetragen hast, kannst du dich mit folgende
 
 Dabei ersetzt du natürlich wieder **USERNAME** durch deinen Namen und **PASSWORT** durch das von dir zuvor gesetzte Passwort.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/b5EbWNzcaA5PkAL/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/b5EbWNzcaA5PkAL/preview)
 
 Nun bist du als Admin auf deinem Server angemeldet und kannst diesen mit verschiedenen Befehlen verwalten.

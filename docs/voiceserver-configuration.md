@@ -21,14 +21,14 @@ The Teamspeak server can be configured individually. In the following we will ex
 
 In case you want to do the general configuration of your server via the web interface, then you can find the options in the Teamspeak Server Administration under Settings. The settings page will look like this:  
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/fLYXn5sx38BBC92/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/fLYXn5sx38BBC92/preview)
 
 
 **Teamspeak Client**
 
 In case you want to do the general configuration of your server directly through the Teamspeak client, then you can find the options by right-clicking on the top channel **TeamSpeak ]I[ Server** and then clicking **Edit Virtual Server**.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/epQ2qzRiex9BmpE/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/epQ2qzRiex9BmpE/preview)
 
 
 
@@ -62,7 +62,7 @@ The slots are set by us and cannot be changed. However, you have the possibility
 
 With this you can add a welcome message of your choice. This message will be displayed when you connect. This can look like this, for example:
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/AWFcf4HHJ7jesdc/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/AWFcf4HHJ7jesdc/preview)
 
 
 ### Security level
@@ -97,7 +97,7 @@ To create more channels, you have to make a **right click** below the existing c
 
 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/Bkx2q69a5ceNiyD/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/Bkx2q69a5ceNiyD/preview)
 
 
 ### Server groups
@@ -106,7 +106,7 @@ To create additional server groups, you have to click on **permissions** in the 
 
 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/QqcaaRse6kLNwPQ/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/QqcaaRse6kLNwPQ/preview)
 
 
 ## Permissions
@@ -119,14 +119,14 @@ By now, it should be clear how to adjust the general settings of the Teamspeak s
 
 The permissions of the users depend on the assigned server groups. By default, a user gets the **Normal** group assigned. If you want to add more permissions to the user, you can do that by right-clicking on the user, then clicking on Server Groups and then assigning the desired group. 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/sXG3qFXXJXc6Kjr/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/sXG3qFXXJXc6Kjr/preview)
 
 ### Permissions: Channel
 
 Permissions can be defined for each channel. For example, you can define which users can **enter, subscribe, describe, view, modify, delete** the channel and **access the File Browser channel**. 
 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/9sCRd7NgMNHy9Do/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/9sCRd7NgMNHy9Do/preview)
 
 
 
@@ -146,7 +146,7 @@ For server group permissions, there are several categories that can be customize
 - Basics
 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/RxcYJCsar7C3KnM/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/RxcYJCsar7C3KnM/preview)
 
 
 

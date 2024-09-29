@@ -54,7 +54,7 @@ Zur Erinnerung: Aus Sicherheitsgründen unterstützen wir derzeit nur PAK-Mods (
 
 Gehe zu der Mod, die du verwenden möchtest, und lade sie lokal auf dein Gerät herunter. Falls nötig, entpacke die Dateien mit einem Tool wie [7zip](https://www.7-zip.org/), um die **.pak** Datei zu extrahieren.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/EA4NBWkQAZQoqfi/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/EA4NBWkQAZQoqfi/preview)
 
 
 
@@ -68,7 +68,7 @@ In deinem Webinterface kannst du die Schaltfläche **Direktverbindung** verwende
 
 Alternativ kannst du die Anmeldedaten, die du auf der Seite FTP-Browser findest, auch manuell in deinen FTP-Client eingeben und dich verbinden.
 
-![image](https://github.com/zaphosting/docs/assets/42719082/01a28fcf-c576-4c97-9090-9201bdb01d04)
+![](https://github.com/zaphosting/docs/assets/42719082/01a28fcf-c576-4c97-9090-9201bdb01d04)
 
 Als nächstes musst du die PAK-Dateien für die Mod hochladen, die du zuvor vorbereitet hast. Du musst sie in das folgende Verzeichnis hochladen:
 ```
@@ -76,7 +76,7 @@ Als nächstes musst du die PAK-Dateien für die Mod hochladen, die du zuvor vorb
 ../g[dein_zapid]/palworld-linux/Pal/Content/Paks/ # Für die Linux-Version
 ```
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/87wqpW65SibyLGz/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/87wqpW65SibyLGz/preview)
 
 Und das war's mit der Serverseite! Jetzt ist es an der Zeit, an der Client-Seite zu arbeiten.
 
@@ -88,11 +88,11 @@ Jetzt, wo alle Mods auf dem Server installiert sind, müssen wir sicherstellen, 
 
 Öffne zunächst Steam und klicke mit der rechten Maustaste auf Palworld, wähle Verwalten und durchsuche lokale Dateien.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/zf8iSjsJNit9sqB/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/zf8iSjsJNit9sqB/preview)
 
 Es wird ein Ordner mit deiner Palworld-Spielinstallation auf deinem lokalen Gerät angezeigt.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/GwSzNffxDJaJCrX/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/GwSzNffxDJaJCrX/preview)
 
 Navigiere nun in das folgende Verzeichnis: 
 ```
@@ -101,7 +101,7 @@ Navigiere nun in das folgende Verzeichnis:
 
 Verschiebe die **.pak** Dateien der Mods in diesen Ordner. Wiederhole dies für jede weitere Mod, die du hinzugefügt hast.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/ZmAtezELEbNCwc4/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/ZmAtezELEbNCwc4/preview)
 
 
 
@@ -113,7 +113,7 @@ Sobald du dich eingeloggt hast, solltest du die Unterschiede sehen können, die 
 
 Auf unserem Testserver verwenden wir zum Beispiel die Minecraft-Blocks-Mod:
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/dxytjjrwaqLtiik/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/dxytjjrwaqLtiik/preview)
 
 Du hast erfolgreich Mods auf deinem Palworld-Server installiert. Wenn du Probleme mit dem Modding hast, sieh dir bitte den Abschnitt zur Fehlersuche unten an.
 

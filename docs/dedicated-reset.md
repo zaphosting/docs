@@ -32,13 +32,13 @@ http://185.223.30.65/wipe.iso
 
 Once the server has been restarted, the Wipe ISO should be automatically detected and loaded. Connect to your dedicated server using a remote console of your choice.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/yi62kBKMFerLCex/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/yi62kBKMFerLCex/preview)
 
 
 
 There you will see how the server automatically executes the process and how far the formatting progress is. Your server will overwrite all existing volumes, effectively deleting all data. Depending on the size of the SSD, this process may take from 45 minutes to 2 hours.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/4nfaexaqiK78t6e/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/4nfaexaqiK78t6e/preview)
 
 
 

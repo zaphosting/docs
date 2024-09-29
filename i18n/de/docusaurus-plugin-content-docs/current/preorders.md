@@ -17,7 +17,7 @@ Einige Produkte können bei ZAP-Hosting.com als Vorbestellungen bestellt werden.
 
 Vorbestellungen sind auf der Produktseite als Vorbestellung gekennzeichnet. Sie haben ein Stoppuhr-Symbol, um dies darzustellen.
 
-![image](https://github.com/zaphosting/docs/assets/42719082/91f85b30-3dd0-4608-8f38-6d170540101a)
+![](https://github.com/zaphosting/docs/assets/42719082/91f85b30-3dd0-4608-8f38-6d170540101a)
 
 ## Bereitstellung von Vorbestellungen
 Vorbestellte Server werden vollautomatisch eingerichtet, sobald das Produkt in unsere Gameserver-Cloud eingerichtet wurde. Du erhältst eine E-mail, sobald der Server eingerichtet wurde. Die Zeit, bis vorzubestellende Server eingebaut werden, kann stark variieren, da es beispielsweise davon abhängen kann, wann Server-Dateien freigegeben werden. Wir versuchen, vorbestellte Produkte so schnell wie möglich zu installieren.

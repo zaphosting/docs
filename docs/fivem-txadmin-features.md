@@ -15,7 +15,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 txAdmin is a completely free to use, full-featured web panel to Manage & Monitor your FiveM server. It offers a wide range of features designed to make managing a FiveM server as easy as anything. In the following, we will introduce you to the txAdmin interface, highlighting its features and explaining exactly what you can do with it.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/YrRXBNBX2xTnRyJ/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/YrRXBNBX2xTnRyJ/preview)
 
 <InlineVoucher />
 
@@ -31,7 +31,7 @@ The Players section provides a general overview of player statistics, including 
 
 Click on a player to access additional management options. Here, you can view further information, notes, history (bans/warnings), IDs (Player Identifiers, Player Hardware IDs), and the ban options.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/wpRc2sW6gZZaN3S/download)
+![](https://screensaver01.zap-hosting.com/index.php/s/wpRc2sW6gZZaN3S/download)
 
 
 
@@ -41,37 +41,37 @@ Click on a player to access additional management options. Here, you can view fu
 
 The History section lists all warnings and bans issued to players, along with detailed information about the player, the reason, and who issued or executed the warning/ban, including the date and time. You can also revoke warnings and bans from there.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/qbLwEx39pmpY4sa/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/qbLwEx39pmpY4sa/preview)
 
 ### Whitelist
 
 In the Whitelist section, you have the option to manage the whitelist function. The whitelist allows you to restrict who has access to the server. If this option is enabled in the txAdmin settings, a whitelist request is automatically created when a new player connects for the first time. You can then manage these requests accordingly in this section.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/o4K5zgGrz8G7Rqp/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/o4K5zgGrz8G7Rqp/preview)
 
 ### Admins
 
 Under the Admins section, administrators can be specified and managed. New admins can be added by clicking the **Add** button. This opens a pop-up window where you can create the account and set the appropriate permissions.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/H7BYP2QqyZD6nSJ/download)
+![](https://screensaver01.zap-hosting.com/index.php/s/H7BYP2QqyZD6nSJ/download)
 
 ### Settings
 
 In the Settings section, you can configure a wide range of options for both txAdmin and the server itself. Due to the large number of settings available, they are categorized into the following sections: **Global**, **FXServer**, **Restarter**, **Player Manager**, **Discord**, and **Game**. Each of these will be explained in more detail below.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/PBE9sSfTXgsejqj/download)
+![](https://screensaver01.zap-hosting.com/index.php/s/PBE9sSfTXgsejqj/download)
 
 #### Global
 
 Settings for the server name, chat/Discord message language, and ban templates can be configured under the Global section.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/y3WMSp5PPKyyDC2/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/y3WMSp5PPKyyDC2/preview)
 
 #### FXServer
 
 Settings for the Server Data Folder and CFG File Path, as well as additional arguments such as activating gamemodes/DLCs, enabling/disabling OneSync, Autostart, and Quietmode, can be configured under the FXServer section.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/Gxd2LTaYCwzNN2R/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/Gxd2LTaYCwzNN2R/preview)
 
 
 
@@ -79,7 +79,7 @@ Settings for the Server Data Folder and CFG File Path, as well as additional arg
 
 Scheduled restarts can be configured under the Restarter section. You can also define how long to wait before starting the resources after a restart.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/qP27oGX8ix6gNQc/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/qP27oGX8ix6gNQc/preview)
 
 
 
@@ -87,19 +87,19 @@ Scheduled restarts can be configured under the Restarter section. You can also d
 
 Settings for whitelist mode, whitelist notifications, whitelist roles, and ban checking can be configured through the Player Manager.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/NK9QgdAnmoKE8Q3/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/NK9QgdAnmoKE8Q3/preview)
 
 #### Discord
 
 Discord integration can be activated under the Discord section, allowing information to be automatically transmitted to the linked Discord server. To enable this, the necessary details for the Discord bot must be configured.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/4FCaKgsDFH5k8qK/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/4FCaKgsDFH5k8qK/preview)
 
 #### Game
 
 Under game, you can enable the txAdmin Menu for in-game use, allowing admins to access and manage the menu using the /tx command. Additional customization options for layout, button configuration for toggling switches, and notifications/warnings can also be defined.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/X5xtGGeoGq5W4Ct/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/X5xtGGeoGq5W4Ct/preview)
 
 ### System
 
@@ -111,7 +111,7 @@ In the Settings section, you can see a few important general options and informa
 
 In the Master Actions you will find the option to reset your FXServer, make a database backup, clean the database and define when players should be removed from a whitelist if they have been inactive for too long.  
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/3A38EoqELeWMYJ6/download)
+![](https://screensaver01.zap-hosting.com/index.php/s/3A38EoqELeWMYJ6/download)
 
 
 
@@ -119,19 +119,19 @@ In the Master Actions you will find the option to reset your FXServer, make a da
 
 The Diagnostics section displays all relevant information about the environment, txAdmin runtime, Diagnostics Report, FXServer /info.json, and processes.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/4Qg9MKwwnqFXwBd/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/4Qg9MKwwnqFXwBd/preview)
 
 #### Console Log
 
 The Console Log displays the output from txAdmin on the parent terminal, including the typically hidden debug messages.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/jsCerbambRn5DMy/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/jsCerbambRn5DMy/preview)
 
 #### Action Log
 
 The Console Log shows the Action Log, which records all actions performed by txAdmin or any Admin.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/P65fwKRSfjDZgdo/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/P65fwKRSfjDZgdo/preview)
 
 
 
@@ -145,7 +145,7 @@ The sidebar menu includes the following items: **Dashboard**, **Live Console**, 
 
 The dashboard displays all essential general information about the server. Live data on utilization and performance can be monitored through the statistics. The server status, whether started, online, or stopped, is visible in the sidebar. From there, you can also start, stop, or restart the server, kick all players with one click, and send announcements. Additionally, scheduled restarts can be set up. On the right side of the sidebar, you can view information about the players currently connected.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/YrRXBNBX2xTnRyJ/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/YrRXBNBX2xTnRyJ/preview)
 
 
 
@@ -153,18 +153,18 @@ The dashboard displays all essential general information about the server. Live 
 
 The Live Console provides you with real-time information about server activities. Here, you can view details on activities, warnings, and error messages. It serves as a valuable reference point for debugging issues by analyzing potential error messages.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/PDyPa7TfsHgTbAD/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/PDyPa7TfsHgTbAD/preview)
 
 ### Resources
 Under the Resources section, you'll find an overview of all resources, whether pre-installed via a template (recipe) or added by you later. You can also restart or stop them as needed.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/QJZnMTCqQpx92EL/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/QJZnMTCqQpx92EL/preview)
 
 ### Server Log
 
 The server log allows you to monitor all activities on the server. For instance, you can view details such as when players connect or disconnect, chat messages, game deaths, menu actions, executed commands, and system events.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/zgBGMQq3stNkstq/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/zgBGMQq3stNkstq/preview)
 
 
 
@@ -172,5 +172,5 @@ The server log allows you to monitor all activities on the server. For instance,
 
 You can use the CFG editor to manage and update your server's `server.cfg` configuration file. This is where you'll find all the essential configuration commands that control your server's settings.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/jqDBDqp55HoKmNB/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/jqDBDqp55HoKmNB/preview)
 

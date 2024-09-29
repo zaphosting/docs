@@ -31,7 +31,7 @@ The use of multiple IP addresses assumes that your server package includes them.
 
 First, you need information about the available IP addresses. Additional IP addresses can be viewed in the server management under IP addresses.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/ER3d6R7T28mNSKp/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/ER3d6R7T28mNSKp/preview)
 
 
 
@@ -45,7 +45,7 @@ Open the **Control Panel**, click on **Network and Internet**, and then on **Net
 
 Now in the **Properties** of the network adapter, select the **Internet Protocol Version 4 (TCP/IPv4)** option. There, you will see information about the main IP address, subnet mask, default gateway, and the DNS servers. Click on the **Advanced** button to add the additional IP address(es).
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/KtBawR89RASs4Jc/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/KtBawR89RASs4Jc/preview)
 
 
 
@@ -53,7 +53,7 @@ Now in the **Properties** of the network adapter, select the **Internet Protocol
 
 Now, the additional IP address is added via the **Advanced TCP/IP Settings**. To do this, click on the **Add** button under IP addresses and fill in the fields for the **IP Address** and **Subnet Mask**. In the field for the IP address, enter the additional IP address. The subnet mask used is 255.255.255.0.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/gsaceiYPqdiMC7x/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/gsaceiYPqdiMC7x/preview)
 
 
 
@@ -61,4 +61,4 @@ Now, the additional IP address is added via the **Advanced TCP/IP Settings**. To
 
 The IP address has now been successfully configured and added. You can check the current status of the IP addresses by navigating to the **IP Addresses** section in the server management. There, the newly added IP address should be displayed as reachable.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/xBZGM72WX4nqXS6/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/xBZGM72WX4nqXS6/preview)

@@ -18,11 +18,11 @@ Drücke dafür einfach STRG + F und suche nach `es_`
 Dann solltest du es schnell finden.
 Diese bearbeiten wir dann.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/G3HN9ff2w7Sc2fb/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/G3HN9ff2w7Sc2fb/preview)
 
 Nun schauen wir nach: Config.EnableHUD.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/xb4XsdJRWdKAeBa/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/xb4XsdJRWdKAeBa/preview)
 
 Diese setzen wir dann auf false und speichern dann die Datei.
 

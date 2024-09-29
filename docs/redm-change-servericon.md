@@ -31,7 +31,7 @@ The next step is to upload your ready image to your RedM game server, which is d
 
 Once you are logged in to FTP, navigate to the folder `gXXXX/redm/server-data/` and upload your server icon file there. Make sure to remember what the file is called.
 
-![image](https://github.com/zaphosting/docs/assets/42719082/066d6d02-5e88-4583-9a20-e7d8146317b7)
+![](https://github.com/zaphosting/docs/assets/42719082/066d6d02-5e88-4583-9a20-e7d8146317b7)
 
 ### Activation
 

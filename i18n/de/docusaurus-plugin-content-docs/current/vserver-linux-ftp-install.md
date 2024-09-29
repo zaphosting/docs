@@ -21,15 +21,15 @@ Als Erstes muss ein FTP Server installiert werden. Dafür verbindest du dich ein
 
 Um den FTP Server nun zu installieren, gibst du folgendes ein **apt-get install proftpd**. Die Abfrage musst du dann noch mit einem **Y** und Enter bestätigen:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/rNS2YN9QzKEdZNE/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/rNS2YN9QzKEdZNE/preview)
 
 Jetzt müssen wir noch die Konfiguration anpassen. Dafür geben wir ein mal folgendes ein **nano /etc/proftpd/proftpd.conf** und bestätigen. Anschließend wird die Konfigurationsdatei im Nanoeditor geöffnet:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/8XCsNZSL46nH89H/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/8XCsNZSL46nH89H/preview)
 
 Folgende Einträge müssen hinzugefügt werden: 
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/ZTmyB2iq9gxXWiG/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/ZTmyB2iq9gxXWiG/preview)
 
 Jetzt muss der FTP-Server neu gestartet werden, sodass die Änderungen übernommen werden. Dies kann man mit folgendem Befehl mache: **service proftpd restart**
 
@@ -37,30 +37,30 @@ Jetzt muss der FTP-Server neu gestartet werden, sodass die Änderungen übernomm
 
 Um jetzt den neuen FTP Nutzer anzulegen, müssen wir erst eine FTP Gruppe erstellen. Dies machen wir mit dem Befehl **addgroup ftpuser**. Dies sieht dann so aus: 
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/BoxpCCjXgXaWQrq/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/BoxpCCjXgXaWQrq/preview)
 
 
 Jetzt können wir unseren ersten FTP Benutzer hinzufügen, mit den Befehlen: **adduser benutzerftp -shell /bin/false -home /var/www** und anschließend **adduser benutzerftp ftpuser**.
 
 Nun werden wir aufgefordert, ein Passwort zu setzen: 
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/ztTyyTNoNjj2YNc/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/ztTyyTNoNjj2YNc/preview)
 
 
 Anschließend müssen wir noch bestätigen, dass die Eingaben auch korrekt sind: 
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/G5cABxoazA42bmo/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/G5cABxoazA42bmo/preview)
 
 Als letzten Schritt müssen wir den neuen User nun noch der Gruppe zuweisen per **adduser benutzerftp ftpuser** :
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/7d4JRPp9eLHZc6M/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/7d4JRPp9eLHZc6M/preview)
 
 Nun können wir mit unseren angegebenen Informationen verbinden:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/ymcQJ4m2EmNK5mb/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/ymcQJ4m2EmNK5mb/preview)
 
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/MCFoo9mxGGWiysM/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/MCFoo9mxGGWiysM/preview)
 
 
 

@@ -17,7 +17,7 @@ Alle Befehle werden im Spiel über die sogenannte Entwicklerkonsole ausgeführt.
 
 Diese sieht in etwa so aus:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/9JGKjap7WXSZsNL/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/9JGKjap7WXSZsNL/preview)
 
 ## Die Befehle
 Eine kleine Auswahl der wichtigsten Befehle haben wir hier für dich zusammengestellt:

@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Bei Assetto Corsa lassen sich 10 Slots ohne weitere Änderung korrekt nutzen. Allerdings müssen für die Nutzung von mehr als 10 Slots bestimmte Voraussetzungen erfüllt sein. Diese Voraussetzungen werden unter "**Configs**" eingestellt. Dort wird die "**settings.json**" bearbeitet.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/Rj5YmXCJiLs8Xf8/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/Rj5YmXCJiLs8Xf8/preview)
 
 <InlineVoucher />
 

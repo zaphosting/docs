@@ -18,19 +18,19 @@ Die Zuweisung von Administratorberechtigungen ermöglicht dir eine einfache und 
 Damit man sich selbst oder auch anderen Spielern Administrator-Rechte zuweisen kann, muss als Erstes ein Serveradmin Passwort definiert werden. Das Definieren des Passworts erfolgt in den **Einstellungen** deines Servers.
 
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/McaZd8nDntxXNTB/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/McaZd8nDntxXNTB/preview)
 
 
 In den Einstellungen angekommen, suchen wir nach **Admin Passwort** und setzen dort, sofern gewünscht, ein individuelles Passwort.
 
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/rWMizDyeYcJxwW8/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/rWMizDyeYcJxwW8/preview)
 
 
 
 Sofern das gewünschte Passwort angegeben wurde, bitte die Änderungen speichern und den Server einmal neu starten. Im Anschluss kannst du dich mit deinem Server verbinden und über die ESC-Taste auf Server-Einstellungen klicken und dort dann das Admin Passwort setzen und dich zum Admin machen.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/5xqmaB8MFc8ZQyS/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/5xqmaB8MFc8ZQyS/preview)
 
 
 

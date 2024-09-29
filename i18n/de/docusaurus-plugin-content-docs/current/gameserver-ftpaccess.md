@@ -27,7 +27,7 @@ Damit du deine Dateien mittels des FTP-Protokolls verwalten kannst, benötigst d
 
 Suche dir einen FTP-Client aus und installiere diesen auf deinem Computer. Um eine Verbindung mit dem Server herzustellen, muss die **IP-Adresse (FTP Server)**, der **Username** und das **Passwort** eingegeben werden. Diese Informationen können unter FTP-Browser Seite eingesehen werden. Der Port ist immer **21**. Dieser wird in der Regel automatisch eingetragen.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/q8qb6GLXHmrMwEw/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/q8qb6GLXHmrMwEw/preview)
 
 
 
@@ -37,7 +37,7 @@ Suche dir einen FTP-Client aus und installiere diesen auf deinem Computer. Um ei
 
 Die Verbindung kannst du entweder über die Direktverbindung oder unter **Datei -> Server Manager** herstellen. Trage dort die **FTP-Zugangsdaten** von deinem Server ein und klicke im Anschluss auf **Verbinden**. 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/KH9HRWK3geypbf4/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/KH9HRWK3geypbf4/preview)
 
 :::info
 Stelle sicher, dass du den Server stoppst und die FTP-Berechtigungen aktualisierst, bevor du auf die Serverdateien zugreifst. Andernfalls könnten Fehlermeldungen wie „Permission Denied“ oder „Access Denied“ auftreten.
@@ -51,7 +51,7 @@ Wie bereits ursprünglich erwähnt kannst du mit dem FTP-Client bei deinem Serve
 
 Die Verwaltung erfolgt mit einem Rechtsklick auf die jeweilige Datei oder Ordner. Je nachdem was du machen möchtest, kannst du darüber Dateien oder Ordner hoch- und herunterladen, bearbeiten, umbenennen oder verschieben. 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/65LiiStT7SrFndT/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/65LiiStT7SrFndT/preview)
 
 
 
@@ -80,7 +80,7 @@ Sollte bei der Verbindung oder auch Übertragung diese Fehlermeldung auftreten, 
 
 Die Verbindung kannst du entweder über die Direktverbindung oder oben über **Neue Sitzung** herstellen. Trage dort die FTP-Zugangsdaten von deinem Server ein und klicke im Anschluss auf **Verbinden**. 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/QZj8SMLS574rK2F/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/QZj8SMLS574rK2F/preview)
 
 :::info
 Stelle sicher, dass du den Server stoppst und die FTP-Berechtigungen aktualisierst, bevor du auf die Serverdateien zugreifst. Andernfalls könnten Fehlermeldungen wie „Permission Denied“ oder „Access Denied“ auftreten.
@@ -92,7 +92,7 @@ Wie bereits ursprünglich erwähnt kannst du mit dem FTP-Client bei deinem Serve
 
 Die Verwaltung erfolgt mit einem rechtsklick auf die jeweilige Datei oder Ordner. Je nachdem was du machen möchtest, kannst du darüber Dateien oder Ordner hoch- und herunterladen, bearbeiten, umbenennen oder verschieben. 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/rFMnnsdi2dbEt6r/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/rFMnnsdi2dbEt6r/preview)
 
 
 

@@ -30,7 +30,7 @@ Eine anteilige Finanzierung über Guthaben ist nicht möglich. Wenn du bereits G
 Überweisungen können verwendet werden, um ZAP Coins einzuzahlen. Sobald die Überweisung bei uns eingegangen ist, wird das Guthaben freigeschaltet und kann verwendet werden.
 :::
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/a6JZgCEBsqa6iwt/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/a6JZgCEBsqa6iwt/preview)
 
 ## Cashbox
 Die Cashbox ist über das Web Interface unter dem Punkt **Cashbox** erreichbar. Neben der Möglichkeit, Guthaben einzuzahlen, bietet die Cashbox folgende Zusatzfunktionen:
@@ -40,4 +40,4 @@ Die Cashbox ist über das Web Interface unter dem Punkt **Cashbox** erreichbar. 
 * **ZAP Coins automatisch aufladen:** ZAP Coins kann automatisch aufgeladen werden. Dies ist sinnvoll, wenn ein Vertragsserver bestellt wurde. Um ZAP Coins automatisch aufladen zu können, muss PayPal verwendet werden.
 * **Transaktionsübersicht:** Eine Übersicht aller bisher getätigten Transaktionen.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/EPJpyam5WHJF2eR/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/EPJpyam5WHJF2eR/preview)

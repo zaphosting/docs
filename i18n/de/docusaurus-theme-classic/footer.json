@@ -49,7 +49,7 @@
   },
   "link.item.label.Smokeping": {
     "message": "Smokeping",
-    "description": "The label of footer link with label=Smokeping linking to http://smoky.zap-hosting.com/smokeping/"
+    "description": "The label of footer link with label=Smokeping linking to https://smoky.zap-hosting.com/smokeping/"
   },
   "link.item.label.Terms of Service": {
     "message": "AGBs",

@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Some source games such as Counter-Strike or Garry's Mod have become known for their variety. All of this was made possible by the support of plugins and **custom content**. Various game modes have been developed over the years, such as Zombie Mod, Hide and Seek, Minigames, Jailbreak and much more. 
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/MxDRfHZDFRHEjog/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/MxDRfHZDFRHEjog/preview)
 
 <InlineVoucher />
 
@@ -40,21 +40,21 @@ Depending on the scope of application, one option is more useful than the other.
 
 In the following, the setup of the FastDL server using one of our [Webspace Products](https://zap-hosting.com/en/shop/product/webspace/) is explained. However, you can also use any other option that provides a publicly accessible web server. To start with the setup, we open the webspace product and open the administration:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/JdmBxGiicrQTxDt/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/JdmBxGiicrQTxDt/preview)
 
 
 
 Once there, we open the file manager and create the following folders:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/dptRwGTgL6bHXrE/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/dptRwGTgL6bHXrE/preview)
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/beCCJPFT5si3wRZ/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/beCCJPFT5si3wRZ/preview)
 
 
 
 Afterwards, the web space has to be authorized so that the download of the content in the game will work properly:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/7xSDbPRW6MYomk4/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/7xSDbPRW6MYomk4/preview)
 
 :::info
 The permissions must be set for all folders!
@@ -72,7 +72,7 @@ sv_downloadurl "https://zapXXXXX-1.plesk08.zap-hosting.com" // Replace the URL w
 
 After restarting and connecting to the server the corresponding content should be downloaded. This can also be checked in the console of the game:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/Xbk5gSQAMQSK9Me/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/Xbk5gSQAMQSK9Me/preview)
 
 
 
@@ -80,17 +80,17 @@ After restarting and connecting to the server the corresponding content should b
 
 In the following, the setup of the Steam Workshop is explained. First of all, the Steam Workshop page must be opened. To do this, select the appropriate game in Steam and open the workshop there. In this case we take [CS:GO](https://steamcommunity.com/workshop/browse/?appid=730&browsesort=trend&section=collections) as an example. Once there, we click on the menu item Browse and select Collection:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/PaTrSqacw7733yB/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/PaTrSqacw7733yB/preview)
 
 There we click right on Collection and create the collection for the game server:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/JZmsT6KexmteeJw/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/JZmsT6KexmteeJw/preview)
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/99bEm45t48rCzAT/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/99bEm45t48rCzAT/preview)
 
 The collection has then been successfully created. However, it is still empty by default. Therefore, we now reopen the workshop of the game and select the objects we want to add:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/WpYrLbYESYjmmWa/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/WpYrLbYESYjmmWa/preview)
 
 When you are done collecting, you will need to go back to the collection, right click and select Copy Page URL. The ID of the collection is needed from the URL, which can look like this:
 
@@ -98,4 +98,4 @@ When you are done collecting, you will need to go back to the collection, right 
 
 At the end this has to be added at Steam Workshop in your game server administration:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/6gCM5rWoeBeg57M/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/6gCM5rWoeBeg57M/preview)

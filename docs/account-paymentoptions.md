@@ -29,7 +29,7 @@ Partial payment using ZAP Coins is not allowed. If you already have ZAP Coins, f
 Transfers can be used to deposit ZAP Coins. As soon as we have received the transfer, the credit will be activated and can be used.
 :::
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/wwbxA7PCe45ofzf/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/wwbxA7PCe45ofzf/preview)
 
 ## Cashbox
 The Cashbox can be accessed via the web interface under the item **Cashbox**. In addition to the possibility of depositing money, the Cashbox offers the following additional functions:
@@ -40,4 +40,4 @@ The Cashbox can be accessed via the web interface under the item **Cashbox**. In
 * **Transaction overview:** An overview of all transactions made so far.
 
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/JS9BW7p39tMiatL/preview) 
+![](https://screensaver01.zap-hosting.com/index.php/s/JS9BW7p39tMiatL/preview) 

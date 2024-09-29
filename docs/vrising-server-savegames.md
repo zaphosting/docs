@@ -34,7 +34,7 @@ Local Savegames are ones which you have created whilst hosting a multiplayer gam
 :::tip
 You can easily access this path directly by pressing `CTRL` + `R` at the same time and searching for the following path in the run dialog: `%userprofile%/appdata/locallow/Stunlock Studios/VRising`. Simply press **OK** and you will be taken to the folder.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/dz4ytiTai5jD2ep/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/dz4ytiTai5jD2ep/preview)
 :::
 
 At this location, you will be able to either see a `Saves` and/or `CloudSaves` folder depending on whether you have used Steam Cloud Saving feature and the type of server. If you head into the folders, you will be able to find your local Savegames.
@@ -52,7 +52,7 @@ Backing up your Savegame from the server is simple. Once you have connected to y
 
 At this location, you should be able to see a v1 and v3 folder, which depends on the game version. Within each, you will be able to find your Savegames. Simply right-click on the folder and use the **Download** button to save it locally to your device.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/tZ4HngqLeHTkizz/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/tZ4HngqLeHTkizz/preview)
 
 ### Automatic Backup
 
@@ -65,7 +65,7 @@ Similarly to backing up, uploading your Savegame is simple. First ensure that yo
 ../vrising/save-data/Saves
 ```
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/RXd4aoxrA6QnP46/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/RXd4aoxrA6QnP46/preview)
 
 Depending on your saves version, you will now simply drag and drop any of your Savegames into the appropriate folder through your FTP Client and it will be uploaded to your server.
 

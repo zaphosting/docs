@@ -73,7 +73,7 @@ Mit diesem Wissen solltest du jetzt die Dateien der heruntergeladenen Mods aufru
 Der Server muss angehalten werden, bevor du Mods hinzufügst oder bearbeitest, da sonst alle Änderungen rückgängig gemacht werden können.
 :::
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/3TsB3wYFzoxK3NL/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/3TsB3wYFzoxK3NL/preview)
 
 ## Server starten
 

@@ -30,7 +30,7 @@ Upgrades are currently possible for all products except Dedicated Servers.
 
 The upgrade/downgrade manager is displayed in the left menu of your product dashboard:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/f9z7xyEpB55ZZ52/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/f9z7xyEpB55ZZ52/preview)
 
 ### Upgrade options
 
@@ -38,7 +38,7 @@ Once in our manager, you will find the parameters of your product that can be cu
 
 For gameservers, it is possible to move them between different locations.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/tW3sbKxSszQpb8a/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/tW3sbKxSszQpb8a/preview)
 
 :::info
 **Important** This process can cause data loss, make sure you have a backup of your data at all times!
@@ -48,7 +48,7 @@ If a move is desired, simply click on the corresponding location to select it.
 
 Below you will find some more parameters, in our example of a FiveM server the slot count and RAM boost as well as the system type and own IP address:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/eb5FsMSdwJszjWK/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/eb5FsMSdwJszjWK/preview)
 
 *** 
 
@@ -68,13 +68,13 @@ Below you will find some more parameters, in our example of a FiveM server the s
 
 Paying for the upgrade is very straightforward, just scroll down until you get to the payment methods:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/PFsBtsMr7iyRadf/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/PFsBtsMr7iyRadf/preview)
 
 * 1: Your new monthly package price, in this example your package costs 16.84€ monthly, this already includes the selected upgrades.
 
 * 2: The surcharge is the amount that has to be paid for the remaining term of your product, this has to be paid immediately.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/XtyJ6X4jjfz3AEY/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/XtyJ6X4jjfz3AEY/preview)
 
 Choose the payment method of your choice and finish the upgrade process by clicking "Upgrade".
 

@@ -30,7 +30,7 @@ With your FTP client now ready, navigate to the following directory:
 
 This folder will contain a wide variety of `.json` configuration files for your RimWorld Together server.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/76g3TcY9TCLyFsH/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/76g3TcY9TCLyFsH/preview)
 
 ## Server Configuration Options
 

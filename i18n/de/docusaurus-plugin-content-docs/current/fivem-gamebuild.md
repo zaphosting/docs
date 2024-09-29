@@ -36,7 +36,7 @@ Hier findest du eine Übersicht über alle verfügbaren DLCs und dessen Build-ID
 
 Um zusätzliche DLC-Inhalte wie Cayo Perico, den Tuner-DLC oder Los Santos Summer Special zu verwenden, musst du diese in den Einstellungen deines Servers festlegen. Du kannst dies entweder direkt tun, indem du die Datei `server.cfg` bearbeitest, oder der einfachere Weg ist, dies über den Abschnitt **Settings** im Webinterface deines Gameservers zu ändern.
 
-![image](https://github.com/zaphosting/docs/assets/42719082/1f138326-75f0-4681-8290-ec83312179c3)
+![](https://github.com/zaphosting/docs/assets/42719082/1f138326-75f0-4681-8290-ec83312179c3)
 
 
 
@@ -48,7 +48,7 @@ Wenn du deine Wahl getroffen hast, gehe zum Ende der Seite und drücke den Butto
 
 ## Buld aktivieren mit FiveM TxAdmin
 
-Um den Inhalt auf einem txAdmin Server zu aktivieren, musst du dein txAdmin-Interface öffnen und zu den FXServer-Einstellungen navigieren. ![image](https://screensaver01.zap-hosting.com/index.php/s/PfQ59DJ7B6DnpYi/preview)
+Um den Inhalt auf einem txAdmin Server zu aktivieren, musst du dein txAdmin-Interface öffnen und zu den FXServer-Einstellungen navigieren. ![](https://screensaver01.zap-hosting.com/index.php/s/PfQ59DJ7B6DnpYi/preview)
 
 
 

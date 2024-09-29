@@ -30,7 +30,7 @@ Once you have opened them, you must check them for errors (**Errors usually cont
 
 In the following screenshot I have an example of a FivemServer with a wrong server license key.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/pAwzNkHZBTtHds9/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/pAwzNkHZBTtHds9/preview)
 
 You could then enter this error e.g. at Google and see if it is known. Usually you can find the reason for this error quite quickly.
 

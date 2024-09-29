@@ -37,31 +37,31 @@ If you are not familiar with mounting an ISO file yet, it's best to refer to our
 
 When the ISO is successfully loaded, the server is in the setup process.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/QdRyxyaSLWPGHwN/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/QdRyxyaSLWPGHwN/preview)
 
 In this example, we will go through the installation process using the "classic" install.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/YEy9jKbPcmCwD22/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/YEy9jKbPcmCwD22/preview)
 
 Select your desired language in which the installation wizard will be displayed. Keep in mind that this language will later affect the installed system in the end.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/qprfbz2SPf5MZ4j/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/qprfbz2SPf5MZ4j/preview)
 
 Our desired location is not in the first selection page, so we go to the next page with "Other".
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/frH9t9arerKxecZ/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/frH9t9arerKxecZ/preview)
 
 In our example we select the "Europe" option.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/5DyPjbG3S2Mr3zC/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/5DyPjbG3S2Mr3zC/preview)
 
 Depending on the desired time zone, we choose the German time zone in this example.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/F3SCKdb2dCrqndM/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/F3SCKdb2dCrqndM/preview)
 
 We choose United States as locale.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/zYP8rRJN9G4ftPx/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/zYP8rRJN9G4ftPx/preview)
 
 In our case we choose the German keyboard layout which is the QWERTZ layout. If you're from America the default layout would be QWERTY
 
@@ -69,21 +69,21 @@ In our case we choose the German keyboard layout which is the QWERTZ layout. If 
 Your server is now preparing some components which are necessary for the installation, this can take a few minutes.
 :::
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/XmLgEHDszmHG23r/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/XmLgEHDszmHG23r/preview)
 
-Your server configures its network interface automatically by using DHCP. Select `eno1` this is the default network adapter of your ZAP Dedicated Server. ![image](https://screensaver01.zap-hosting.com/index.php/s/Q8RRoMwfeTMPpxE/preview)
+Your server configures its network interface automatically by using DHCP. Select `eno1` this is the default network adapter of your ZAP Dedicated Server. ![](https://screensaver01.zap-hosting.com/index.php/s/Q8RRoMwfeTMPpxE/preview)
 
 The hostname can be modified if you'd like to, but does not need to be changed.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/onWnt4GArJZcJgX/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/onWnt4GArJZcJgX/preview)
 
 The domain name does not have to be changed either.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/wRLRrxrDKLf5d4q/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/wRLRrxrDKLf5d4q/preview)
 
 Here you have to set the password for your "root" account. Make a note of the chosen password.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/SQeqqKDZx3PjWTs/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/SQeqqKDZx3PjWTs/preview)
 
 To confirm the password you have to enter it again.
 
@@ -91,7 +91,7 @@ To confirm the password you have to enter it again.
 The installation wizard asks you to create a second user account
 :::
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/CLxectPXbqzteqf/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/CLxectPXbqzteqf/preview)
 
 Now enter the name of the owner for a normal user account. You can of course freely choose what you'd like to enter here.
 
@@ -99,21 +99,21 @@ Now enter the name of the owner for a normal user account. You can of course fre
 You can of course use the "root" account in the end
 :::
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/GixGJyTfAzENSmc/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/GixGJyTfAzENSmc/preview)
 
 Now enter the username of the account. Also choose a password of your choice and confirm it again. Your server will now prepare the next installation steps.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/NM8fdY9J8qwiNGJ/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/NM8fdY9J8qwiNGJ/preview)
 
 You have now the possibility to create partitions or alternatively to use the whole SSD as 1 partition. If you don't want to change anything on the partition just choose "Guided - Use entire disk".
 
 ***
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/J37QtNNMXA8m49Z/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/J37QtNNMXA8m49Z/preview)
 
-Select the SSD which is installed in your server. ![image](https://screensaver01.zap-hosting.com/index.php/s/foqPgy3oPbzDAZf/preview)
+Select the SSD which is installed in your server. ![](https://screensaver01.zap-hosting.com/index.php/s/foqPgy3oPbzDAZf/preview)
 
-Basically it is fine if the complete structure is stored on one partition. ![image](https://screensaver01.zap-hosting.com/index.php/s/ApME7eaxLkWmNew/preview)
+Basically it is fine if the complete structure is stored on one partition. ![](https://screensaver01.zap-hosting.com/index.php/s/ApME7eaxLkWmNew/preview)
 
 We confirm the configuration with "Finish partitioning and write changes to disk".
 
@@ -123,27 +123,27 @@ If there are old partitions on your SSD we confirm the overwrite with "Yes".
 
 Your server now performs the partitioning and prepares the installation of the system.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/JoJ6MppTzm79R3R/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/JoJ6MppTzm79R3R/preview)
 
 If you want to include other installation media, for example for certain packages, this could be done now. Normally, however, you can download all packages conveniently afterwards via the package manager (apt). 
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/c6Mq4kP7mYYWyLL/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/c6Mq4kP7mYYWyLL/preview)
 
 Our dedicated servers are located in Germany, so it's recommended to choose the German mirror location to achieve the best possible download speed rates.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/8nReYnYopxJNBmg/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/8nReYnYopxJNBmg/preview)
 
 Basically we recommend to use the default Debian repository.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/iqZSLMBqbx8ZDdZ/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/iqZSLMBqbx8ZDdZ/preview)
 
 If you'd like to use a HTTP proxy, you could enter the data. (this is not required)
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/Ty7BzmzXY78x38q/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/Ty7BzmzXY78x38q/preview)
 
 The system wants to collect anonymized statistics, this can be refused or confirmed.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/gwxF4k5jf3o3xM4/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/gwxF4k5jf3o3xM4/preview)
 
 Now select the packages you want to install:
 
@@ -159,11 +159,11 @@ Is needed to provide a number of basic packages.
 The selection of the different packages is done by `TAB` and `arrow keys`. Packages are selected or deselected with the space bar.
 When you are satisfied with your selection press `TAB` until you reach Continue and confirm with Enter.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/mwbNHxBCHxXPQiw/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/mwbNHxBCHxXPQiw/preview)
 
 Confirm that this operating system is the only one on the current server with `Yes`.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/YWiBDBMNsczMHcm/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/YWiBDBMNsczMHcm/preview)
 
 As storage location we choose the default location on our SSD.
 
@@ -173,11 +173,11 @@ As storage location we choose the default location on our SSD.
 
 Open "Virtual Media" in your iLO and press "Eject Media" to remove the ISO File from the system.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/WMTJ88CFBsQ2miz/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/WMTJ88CFBsQ2miz/preview)
 
 When this is done successfully, we select Continue, the server will now perform a reboot.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/pYysYayb6d2rQtb/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/pYysYayb6d2rQtb/preview)
 
 
 
@@ -187,15 +187,15 @@ When this is done successfully, we select Continue, the server will now perform 
 
 Once the reboot of your server is done and the installation was successful, you will now be prompted to login.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/7PxyTxE56GgcAbE/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/7PxyTxE56GgcAbE/preview)
 
 Of course you also want to be able to manage your server through SSH, i.e., PuTTY, for example, so we still need to enable the login for that:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/Y2YiFyX9HkjoSco/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/Y2YiFyX9HkjoSco/preview)
 
 Open with nano the configuration file of your SSH service `nano /etc/ssh/sshd_config`.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/HyJaCWFzZ7R3kjR/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/HyJaCWFzZ7R3kjR/preview)
 
 Search for `#PermitRootLogin no` and change it to `PermitRootLogin yes`.
 
@@ -206,7 +206,7 @@ After that you have to restart the SSH service by typing `service ssh restart`.
 Your SSH login is now active and you can connect via PuTTY, for example.
 Enter the IP address of your server, which you see in your zap dashboard and use the previously defined credentials.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/qBqF2fPmyWrtH6Q/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/qBqF2fPmyWrtH6Q/preview)
 
 :::tip
 If you have any further questions or problems, our support is happy to assist you!

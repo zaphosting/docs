@@ -17,12 +17,12 @@ Last Oasis has the option to connect multiple Oases at once in the same Realm. I
 ## Preparation
 Begin by heading over to [the official Last Oasis](https://myrealm.lastoasis.gg/) website and logging in with your preferred choice of platform (Steam or Xbox).
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/d6xZsqYbEF9jSj8/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/d6xZsqYbEF9jSj8/preview)
 
 ## Enabling multi hosting
 On the website, head over to the **Realms** section. On your current Realm, press the **Change** button and switch the hosting mode from **Single -> Multiple**.
 
-![image](https://github.com/zaphosting/docs/assets/42719082/9f06547a-f23f-4542-bcd7-e69d0bbfbf19)
+![](https://github.com/zaphosting/docs/assets/42719082/9f06547a-f23f-4542-bcd7-e69d0bbfbf19)
 
 :::info
 In order to be able to run multiple Oases at the same time, you must rent one game server per Oasis. You should use the same provider key as the original server for each new server. Make sure to restart your server after changes.
@@ -33,16 +33,16 @@ After you perform this change, you will be able to manage the Oases using the **
 ## Create a new Oasis
 Proceed by selecting a desired place for the new Oasis and press **Add** to confirm.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/A2GLkeBWaBQr6m9/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/A2GLkeBWaBQr6m9/preview)
 
 A new prompt will display where you are able to set a name and select a map.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/6SkCFyAzooKwQAA/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/6SkCFyAzooKwQAA/preview)
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/CBFHBq8TxAxogk9/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/CBFHBq8TxAxogk9/preview)
 
 Once confired, you can finally press **Add Oasis** to create the Oassis and active it using the **Activate** button.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/yoeHTdeAeXneC2q/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/yoeHTdeAeXneC2q/preview)
 
 You should now be able to see multiple active Oasis at the same time under the **Oases** section. You have successfully setup multiple Oases for your Realm.

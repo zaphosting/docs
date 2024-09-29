@@ -257,7 +257,7 @@ In order to accommodate the German section, when you are taking a screenshot, we
 
 You can use the following syntax to add a screenshot to your content, replacing `your_url` with the URL of the image:
 ```
-![image](your_url)
+![](your_url)
 ```
 
 The best practice is to use a site such as Imgur to upload and use the image, or alternatively you can directly drag it into the editing field directly if you are using the GitHub website to create your content to automatically upload it for you.

@@ -8,8 +8,6 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
-<InlineVoucher />
-
 ## Introduction
 
 With the **ProfiDNS function** you can create additional entries (records) for your domain, which you cannot do with the EasyDNS option or if you want to create the desired entries for your domain yourself.

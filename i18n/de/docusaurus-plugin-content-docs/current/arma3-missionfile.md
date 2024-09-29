@@ -15,7 +15,7 @@ Für das Hochladen deiner eigenen Missionsdatei musst du zuvor via FTP auf deine
 Dort lädst du nun die entsprechende Missionsdatei in dein **mpmissions** Verzeichnis, welches du unter **/gxxxxxx/arma3/** finden kannst.
 In diesem Beispiel laden wir die Missionsdatei **King_of_the_hill.Altis** auf unseren Server.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/K3tqTsTyZiFKZpr/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/K3tqTsTyZiFKZpr/preview)
 
 <InlineVoucher />
 
@@ -23,12 +23,12 @@ In diesem Beispiel laden wir die Missionsdatei **King_of_the_hill.Altis** auf un
 
 Damit die Missionsdatei nun vom Server geladen wird, begibst du dich in dein Arma 3 Serverinterface und klickst links im Menü auf den Tab **Configs**:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/fYYxGQyXFzitC7n/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/fYYxGQyXFzitC7n/preview)
 
 Dort bearbeitest du nun die Datei **server.cfg** und trägst dort wie auf dem Bild zu sehen den Namen deiner Missionsdatei ein: 
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/oBtCmmgXLYTyZoe/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/oBtCmmgXLYTyZoe/preview)
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/wyppiEcFX9nbyt8/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/wyppiEcFX9nbyt8/preview)
 
 Danach klickst du auf **Speichern** und kannst deinen Server im Anschluss starten. Die neue Missionsdatei wird dann geladen.

@@ -17,11 +17,11 @@ The assignment of administrator permissions allows you simple and comprehensive 
 
 The administration of the admin permissions is handled by the **adminlist.txt** config file. You can access this file in the web interface under Configs. The SteamID64 of the player is needed to add an admin. You can get it by opening your Steam profile and doing a right click at any place. There you will have the possibility to copy the page URL. The URL can then be entered on one of the following websites: https://steamid.io/ https://steamrep.com/ https://steamidfinder.com/ 
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/QT5HRX4t966kRjQ/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/QT5HRX4t966kRjQ/preview)
 
 Once there, enter your Steam profile URL in the field, which you have copied, and you will then receive your SteamID64. Add the SteamID64 to the **adminlist.txt** config file. To do this, go to the web interface to your game server administration in the category Configs and open the adminlist.txt config file. 
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/Y35BDx5xJ5zLGoS/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/Y35BDx5xJ5zLGoS/preview)
 
 :::info
 If you are planning to assign admin permissions to multiple players, then the SteamIDs must have their own line for each player. 
@@ -31,7 +31,7 @@ If you are planning to assign admin permissions to multiple players, then the St
 
 Before you can assign the admin permissions in the game, you have to activate the console for your game. Connect to your server and go to the settings. In the settings you have to activate the option **Console Enabled**. The console can be opened by default with the Gravis key on the keyboard. The admin permissions can then be activated in the console with the `adminauth` command. 
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/MLS9wbcC56ZomAb/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/MLS9wbcC56ZomAb/preview)
 
 
 ### Admin command list

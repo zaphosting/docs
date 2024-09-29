@@ -21,24 +21,24 @@ Um den Server mit dem Content Manager verwalten zu können, ist die Full-Version
 
 Zunächst öffnen wir unseren Content Manager, und klicken rechts oben auf das Sandwich Menü, dort wählen wir "Server":
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/Np78jeeJeSBs3Mi/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/Np78jeeJeSBs3Mi/preview)
 
 Hier erstellen wir nun ein neues Preset und wählen dieses aus:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/2HyyRjQDt78Dtf4/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/2HyyRjQDt78Dtf4/preview)
 
 
 ## Server Slots Einstellen
 
 Wir müssen zuerst einstellen, wie viel Kapazität unser Server hat, in unserem Fall ist unser Server nur 10 Slots, daher wählen wir bei Capacity '10' aus:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/ENnjE8ZFiMTbqCD/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/ENnjE8ZFiMTbqCD/preview)
 
 ## Map Einstellen
 
 Hier wird standardmäßig Imola als Map ausgewählt, indem wir auf die Map klicken, können wir unsere eigene Map auswählen:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/DTon4gDnCN9r48b/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/DTon4gDnCN9r48b/preview)
 
 
 
@@ -46,29 +46,29 @@ Hier wird standardmäßig Imola als Map ausgewählt, indem wir auf die Map klick
 
 Nun wechseln wir in das Tab "Entry List", hier können wir nun neue Autos hinzufügen:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/xLrDPWgZYWfa5B6/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/xLrDPWgZYWfa5B6/preview)
 
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/tcD4aPc4qMQTwca/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/tcD4aPc4qMQTwca/preview)
 
 
 
 :::info
 Beachte, dass alle Autoslots befüllt werden und nicht mehr, als die Menge der verfügbaren Slots gesetzt wird
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/QHfXaPGNTp9xLGf/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/QHfXaPGNTp9xLGf/preview)
 :::
 
 ## FTP Upload Konfigurieren
 
 Über das "Advanced" Menü können wir einen FTP-Uploader konfigurieren, damit du deine Serverconfig mit einem Click hochladen kannst.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/rAcPfq3ZNkietz3/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/rAcPfq3ZNkietz3/preview)
 
 
 Hier gibst du nun deine FTP-Daten ein:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/GX945J67eWZMGRg/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/GX945J67eWZMGRg/preview)
 
 
 :::info

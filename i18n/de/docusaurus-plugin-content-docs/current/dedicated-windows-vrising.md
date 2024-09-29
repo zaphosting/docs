@@ -28,7 +28,7 @@ Nachdem du verbunden bist, musst du einen neuen Ordner erstellen, in welchem die
 In diesem Beispiel erstellen wir einen neuen Ordner auf dem Desktop.
 Dafür einen Rechtsklick auf dem Desktop machen und "Neu -> Ordner" auswählen.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/XSwqr3q9LqAGGbZ/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/XSwqr3q9LqAGGbZ/preview)
 
 Du kannst den Ordner nennen, wie du möchtest. In unserem Beispiel nennen wir den Ordner "VRising"
 
@@ -36,48 +36,48 @@ Du kannst den Ordner nennen, wie du möchtest. In unserem Beispiel nennen wir de
 Öffne den Browser und öffne den folgenden [link](https://steamcdn-a.akamaihd.net/client/installer/steamcmd.zip)
 Dadurch wird SteamCMD für Windows auf deinem Server heruntergeladen. 
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/5H3sqe3F8XtGCPB/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/5H3sqe3F8XtGCPB/preview)
 
 Die Datei wird heruntergeladen und sollte sich dann im Download Ordner befinden.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/sGFQrbPtgG2iX9Q/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/sGFQrbPtgG2iX9Q/preview)
 
 Aus Gründen der Übersicht kopieren wir die steamcmd.zip Datei nun in den vorhin erstellten VRising Ordner auf unserem Desktop.
 Dafür muss die Datei angeklickt werden. Danach muss die Tastenkombination "STRG+C" gedrückt werden, damit die Datei kopiert wird.
 Öffne jetzt den VRising Ordner auf deinem Desktop und drücke "STRG+V".
 Die Datei befindet sich nun im VRising Ordner.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/KQkC4FtXmGgLHtw/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/KQkC4FtXmGgLHtw/preview)
 
 Mache einen Rechtskick auf die steamcmd.zip Datei und wähle "Entpacken" aus.
 Bestätige den Vorgang in der kommenden Meldung, indem du auf den Entpacken / Extract Button klickst.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/axqpb7TR2a7QP4c/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/axqpb7TR2a7QP4c/preview)
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/HobJGemsEEZzi5H/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/HobJGemsEEZzi5H/preview)
 
 Soweit das erledigt ist, mache einen Doppelklick auf die SteamCMD Datei.
 Ein neues Fenster öffnet sich dann, in welchem die SteamCMD Dateien installiert werden.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/TggSsFoNyyLme92/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/TggSsFoNyyLme92/preview)
 
 ## Step 3 Download der V-Rising Dateien
 
 Soweit die SteamCMD Dateien installiert sind, siehst du folgendes in dem SteamCMD Fenster.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/6N8EZwsS7RrKNwg/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/6N8EZwsS7RrKNwg/preview)
 
 Wir geben jetzt den Pfad an, in welchem die Dateien heruntergeladen werden sollen. Das wird mit dem Befehl "force_install_dir" gemacht.Der komplette Befehl in unserem Beispiel lautet: 
 `` force_install_dir "C:\Users\Administrator\Desktop\VRising"``
 
 Damit werden die Dateien dann in den vorhin erstellten VRising Ordner heruntergeladen.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/5Px6NqgC3NFyA5b/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/5Px6NqgC3NFyA5b/preview)
 
 Im Anschluss loggen wir uns als anonymous User an.
 Dafür muss "login anonymous" eingegeben werden.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/Qp2HKX8ZNiX9pcF/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/Qp2HKX8ZNiX9pcF/preview)
 
 Soweit das abgeschlossen ist, können wir jetzt endlich die Spieldateien herunterladen.
 Das geht mit dem folgenden Befehl:
@@ -85,11 +85,11 @@ Das geht mit dem folgenden Befehl:
 
 Die Dateien werden im Anschluss heruntergeladen, der Vorgang kann einige Minuten in Anspruch nehmen.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/QeEoixYAAiCfxyG/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/QeEoixYAAiCfxyG/preview)
 
 Soweit der Vorgang abgeschlossen ist, siehst du die ganzen Dateien im VRising Ordner.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/fi3esDf4LXoTdAR/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/fi3esDf4LXoTdAR/preview)
 
 ## Step 4 Starten und Konfigurieren vom V-Rising Server
 
@@ -97,25 +97,25 @@ Du kannst die start_Server_example.bat Datei editieren und einige Änderungen da
 Dafür einen Rechtsklick auf die Datei machen und "bearbeiten" auswählen.
 Darin kann zum Beispiel der Name vom Server sowie der Pfad für Savegame festgelegt werden.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/amZ5PJPW2RqXsJQ/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/amZ5PJPW2RqXsJQ/preview)
 
 Weitere Änderungen können in den Config Files vorgenommen werden.
 Diese findest du im folgenden Verzeichnis:
 ``RisingServer_Data\StreamingAssets\Settings``
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/sKYTFN2k9YtG93J/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/sKYTFN2k9YtG93J/preview)
 
 In der ServerHostSettings.json Datei kannst du allgemeine Änderungen vornehmen.
 Zum Beispiel das Festlegen der Ports, das Definieren einer Beschreibung oder auch das Speicherverhalten.
 
 Um den Server zu starten, kannst du einen Doppelklick auf die start_server_example.bat Datei machen.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/6JEDMbbPfZwpsMC/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/6JEDMbbPfZwpsMC/preview)
 
 Der Startvorgang wird einige Minuten in Anspruch nehmen.
 Soweit die Ports im folgenden Schritt korrekt freigegeben worden sind, kann der Server in der Server Liste aufgefunden werden.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/Z8ip66dKfY5yL5K/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/Z8ip66dKfY5yL5K/preview)
 
 ## Step 5 Ports freigeben
 

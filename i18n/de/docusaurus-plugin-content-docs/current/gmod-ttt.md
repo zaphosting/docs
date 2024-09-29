@@ -15,13 +15,13 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Einige Basiseinstellungen kannst du bereits bequem in unserem Webinterface setzen, wie den Servernamen, das Rcon- und Serverpasswort.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/pG2sJYgn7aRx2Dm/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/pG2sJYgn7aRx2Dm/preview)
 
 Sofern du diese Einstellungen nach deinen Wünschen angepasst hast, können nun die spezifischen Einstellungen des TTT-Gamemodes verändert werden. Hierbei kannst du bequem unseren Config-Editor im Webinterface nutzen, selbstverständlich ist eine Bearbeitung der Datei auch via FTP möglich.
 
 In unserem Webinterface findest du diese Funktion unter "Configs" dort öffnest du die server.cfg
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/WGbPdFAPHWPkLBS/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/WGbPdFAPHWPkLBS/preview)
 
 Dort finden wir die Einstellungen von unserem TTT Server, die wichtigsten Variablen kurz erklärt:
 
@@ -173,6 +173,6 @@ Wenn das Karma eines Spielers über dem Startlevel liegt (was bedeutet, dass das
 
 Wenn du alle Variablen angepasst hast, musst du deine Änderungen nur noch speichern.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/Zxy8gSLLaybioy8/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/Zxy8gSLLaybioy8/preview)
 
 Danach kannst du deinen Server starten! 

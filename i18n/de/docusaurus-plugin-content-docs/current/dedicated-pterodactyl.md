@@ -268,7 +268,7 @@ Der Vorteil einer weiteren Webserver-Konfiguration besteht darin, dass du das Pa
 ### DNS-Eintrag für Domain
 Damit dein Server über deine Domain erreichbar ist, musst du einen `A` DNS-Eintrag für diese Domain einrichten. Dies hängt stark von deinem Anbieter ab, sollte jedoch über eine Art `DNS-Panel`-Bereich zugänglich sein, wenn du deine Domain verwaltest. Der Inhalt des Eintrags sollte die Ziel-IP-Adresse deines Servers sein, die du verwendest.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/EsGB6DaTC65Fce8/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/EsGB6DaTC65Fce8/preview)
 
 ### Entfernen der Standardkonfiguration
 Beginne damit, die Standardkonfiguration von Nginx zu entfernen. Dies geschieht einfach durch das Löschen der Datei.

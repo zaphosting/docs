@@ -36,7 +36,7 @@ Damit der Timings-Report nun wirklich erstellt und exportiert wird, muss der fol
 
 Nach einigen Sekunden erscheint nun eine Nachricht, dass der Export erfolgreich war und der Timings-Report durch den Link mittels eines Klicks geöffnet werden kann.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/4mm98iE32SMrNYR/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/4mm98iE32SMrNYR/preview)
 
 ## Auswertung
 
@@ -44,13 +44,13 @@ Nach einigen Sekunden erscheint nun eine Nachricht, dass der Export erfolgreich 
 
 Nachdem der Timings-Report wie oben beschrieben exportiert und geöffnet wurde, sollte ein ähnliches Fenster wie dieses erscheinen:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/ogzYB6YyHsTFXCA/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/ogzYB6YyHsTFXCA/preview)
 
 Als Erstes sollte man einen genaueren Blick auf den Graphen werfen, um sich grobe Werte zu den einzelnen Aufnahmepunkten anschauen zu können, indem man mit der Maus über die einzelnen Punkte fährt.
 
 Um möglichste genaue Werte zu erhalten, welche sich auf ein mögliches Problem auf Server bezieht, sollte zunächst der problematische Zeitraum wie im Graphen einzusehen durch die Schieberegler darunter eingegrenzt werden.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/2FRbgn2J8TiqYZR/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/2FRbgn2J8TiqYZR/preview)
 
 ### Server-Werte untersuchen
 
@@ -62,7 +62,7 @@ In Box 2 sehen wir genauere Werte in Millisekunden, hierbei sollte man beachten,
 Der **Full Server Tick** kann in der Regel ignoriert werden, da die Werte hierbei immer im roten Bereich liegen, was jedoch kein Problem darstellt.
 :::
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/eHKeDQkotAwraTY/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/eHKeDQkotAwraTY/preview)
 
 Grundlegend sollte man in jedem Fall die farblich hervorgehobenen Wertepunkte genauer untersuchen.
 

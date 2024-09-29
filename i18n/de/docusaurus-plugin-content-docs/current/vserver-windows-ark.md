@@ -24,7 +24,7 @@ Für die Einrichtung eines ARK Servers wird die SteamCMD benötigt. Die SteamCMD
 
 Im Anschluss erfolgt der Download. Dieser beinhaltet die **steamcmd.zip** Datei, welche zunächst entpackt werden muss. Erstelle dafür am besten einen separaten Ordner, wo die Datei dann entpackt wird. Als Resultat solltest du nun die **steamcmd.exe** sehen. Führe diese aus und warte, bis der Installationsprozess abgeschlossen ist. 
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/Bg4JjDaQLFyRw9j/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/Bg4JjDaQLFyRw9j/preview)
 
 Sobald die Meldung **Loading Steam API... OK** angezeigt wird, wurde der Vorgang erfolgreich abgeschlossen und es kann mit der Installation des ARK Servers begonnen werden. 
 
@@ -36,7 +36,7 @@ Nach der Installation solltest du die Möglichkeit haben, Befehle in der **Steam
 
 Als nächstes erfolgt die Installation. Diese wird mit dem `app_update 376030` Befehl durchgeführt. Die App ID **376030** steht in dem Fall für die **ARK: Survival Evolved Dedicated Server** Applikation. 
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/Da3DBbppNe3TDfg/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/Da3DBbppNe3TDfg/preview)
 
 
 
@@ -63,7 +63,7 @@ exit
 
 Damit der Server auch extern sichtbar und erreichbar ist, müssen die verwendeten Server Ports in der Firewall freigeschaltet/weitergeleitet werden. Öffne dazu die Windows Firewall Einstellungen. 
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/HfbkgcWf9JxDdc8/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/HfbkgcWf9JxDdc8/preview)
 
 
 
@@ -88,7 +88,7 @@ Die eigentliche Einrichtung ist damit bereits abgeschlossen. Weitere Änderungen
 
 Zum Abschluss der Einrichtung kannst du nun den Server starten, indem du die zuvor erstellte **start-ark.bat** Datei ausführst. Hierdurch sollte sich die Konsole des Servers öffnen und der Startprozess beginnen. Wenn alles wie erwartet verläuft, sollte der Server nach dem erfolgreichen Start in der Liste der Server sichtbar sein.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/tAwoBLNJn9Rr68K/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/tAwoBLNJn9Rr68K/preview)
 
 
 ## Abschluss

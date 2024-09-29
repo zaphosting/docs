@@ -22,7 +22,7 @@ Verbinde dich für die Einrichtung deines Satisfactory Dedicated Server mit dein
 
 Im Anschluss erfolgt der Download. Dieser beinhaltet die **steamcmd.zip** Datei, welche zunächst entpackt werden muss. Erstelle dafür am besten einen separaten Ordner, wo die Datei dann entpackt wird. Als Resultat solltest du nun die **steamcmd.exe** sehen. Führe diese aus und warte, bis der Installationsprozess abgeschlossen ist. 
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/N3N6YDBZm2nQYbL/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/N3N6YDBZm2nQYbL/preview)
 
 Sobald die Meldung **Loading Steam API... OK** angezeigt wird, wurde der Vorgang erfolgreich abgeschlossen und es kann mit der Installation des Satisfactory Servers begonnen werden. 
 
@@ -34,7 +34,7 @@ Nach der Installation solltest du die Möglichkeit haben, Befehle in der **Steam
 
 Als nächstes erfolgt die Installation. Diese wird mit dem `app_update 1690800` Befehl durchgeführt. Die App ID **1690800** steht in dem Fall für die **Satisfactory Dedicated Server** Applikation. 
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/KTropz3j4a5cXfb/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/KTropz3j4a5cXfb/preview)
 
 
 
@@ -62,7 +62,7 @@ Im Anschluss wird die Datei ausgeführt. Bei dem ersten Startvorgang sollte ein 
 
 Damit der Server auch extern sichtbar und erreichbar ist, müssen die verwendeten Server Ports in der Firewall freigeschaltet/weitergeleitet werden. Öffne dazu die Windows Firewall Einstellungen. 
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/jJfLN4cZTyEE3bM/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/jJfLN4cZTyEE3bM/preview)
 
 
 

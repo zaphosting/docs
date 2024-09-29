@@ -41,7 +41,7 @@ You are unsure which location is the best for you? That's no problem! We have de
 
 You will find the ping check option during the order process at the location selection. Click there on the **Ping-Check 🚀** button. The result of the respective location will then be displayed to you. 
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/9q9X3tFrjbWkitD/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/9q9X3tFrjbWkitD/preview)
 
 
 

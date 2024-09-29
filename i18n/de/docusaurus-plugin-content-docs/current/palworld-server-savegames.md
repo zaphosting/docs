@@ -31,12 +31,12 @@ Lokale Savegames sind Savegames, die du erstellt hast, während du ein Multiplay
 :::tip
 Du kannst ganz einfach auf diesen Pfad zugreifen, indem du gleichzeitig `CTRL` + `R` drückst und im Ausführen-Dialog nach dem folgenden Pfad suchst: `%localappdata%/Pal/Saved/SaveGames/`. Drücke einfach **OK** und du wirst zu dem Ordner weitergeleitet.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/wtwnsM5rrjFxjis/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/wtwnsM5rrjFxjis/preview)
 :::
 
 An diesem Ort kannst du einen Ordner sehen, der deine SteamID enthält. Öffne diesen Ordner und du kannst alle deine lokalen Savegames an einem Ort sehen.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/rpaSM3AQsZai6fz/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/rpaSM3AQsZai6fz/preview)
 
 ### Zugriff auf das Savegame über FTP
 
@@ -47,7 +47,7 @@ Es ist ganz einfach, dein Savegame auf dem Server zu sichern. Sobald du dich üb
 
 An diesem Ort solltest du einen Ordner mit einer Reihe zufälliger Zeichen sehen, der dein Savegame ist. Klicke einfach mit der rechten Maustaste auf den Ordner und benutze die Schaltfläche **Download**, um es lokal auf deinem Gerät zu speichern.
 
-![image](https://github.com/zaphosting/docs/assets/42719082/ca890470-450d-4962-a982-39378dfbb695)
+![](https://github.com/zaphosting/docs/assets/42719082/ca890470-450d-4962-a982-39378dfbb695)
 
 ### Automatische Backups
 
@@ -80,7 +80,7 @@ In diesem Ordner öffnest du die Datei **GameUserSettings.ini** und suchst den P
 
 Bearbeite den Inhalt dieser Zeile und ersetze ihn durch den Namen des Savegames (den Namen des Ordners), das du auf deinem Server aktivieren möchtest.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/qLG2jtzFkYM6WB7/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/qLG2jtzFkYM6WB7/preview)
 
 Stelle sicher, dass du diese Datei speicherst und deinen Server neu startest, damit die Änderungen wirksam werden. Du hast erfolgreich ein Savegame zu deinem Gameserver hinzugefügt.
 
@@ -93,7 +93,7 @@ In seltenen Fällen kann es vorkommen, dass der Server beim Starten ein neues Sa
 ../Pal/Saved/SaveGames/0
 ```
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/wYQ42Aein5y6Z6j/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/wYQ42Aein5y6Z6j/preview)
 
 An dieser Stelle solltest du immer noch das alte Savegame sehen und ein neues, das generiert wurde. Um dies zu beheben, bearbeite einfach die Konfigurationsdatei, wie im Abschnitt [Savegame aktivieren](#savegame-aktivieren) oben beschrieben, mit dem richtigen Namen des Savegame-Ordners.
 

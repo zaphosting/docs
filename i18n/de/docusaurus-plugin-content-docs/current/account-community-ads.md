@@ -43,13 +43,13 @@ Drücken nun auf das grüne **+**, um das Menü zu öffnen, in dem du deinen Lin
 Dieser Link muss ein Direktverweis auf die eigens erstellte Werbung sein. Sollte bei dem Link keine Werbung ersichtlich sein, wird diese abgelehnt.
 :::
 
-![image](https://github.com/zaphosting/docs/assets/42719082/12839234-efe5-45f5-8d9c-addb69af3e60)
+![](https://github.com/zaphosting/docs/assets/42719082/12839234-efe5-45f5-8d9c-addb69af3e60)
 
 ## Auszahlung & Überweisung
 
 Du kannst dir dein Guthaben aus der Community Werbung entweder deine cashbox (ZAP Coins) oder in Geld über PayPal. Gehen dazu wieder auf die Seite [Community Advertising](https://zap-hosting.com/de/customer/communityads/) und drücke den blauen Button **Auszahlung/Umbuchung**.
 
-![image](https://github.com/zaphosting/docs/assets/42719082/de11ee5a-97e5-432a-944c-7f0e2dd9d448)
+![](https://github.com/zaphosting/docs/assets/42719082/de11ee5a-97e5-432a-944c-7f0e2dd9d448)
 
 ### ZAP Coins
 
@@ -58,7 +58,7 @@ Du kannst dir dein Guthaben aus der Community Werbung entweder deine cashbox (ZA
 
 In der Menüleiste musst du **ZAP-Guthaben** als Option auswählen. Entscheide, ob du das gesamte Guthaben oder nur einen bestimmten Teil davon übertragen möchtest. Wenn du damit fertig bist, drücke einfach auf den grünen Button **Überweisung**, um den Vorgang zu bestätigen.
 
-![image](https://github.com/zaphosting/docs/assets/42719082/5e88aeee-cb33-46b4-a3c4-4da92273f7b1)
+![](https://github.com/zaphosting/docs/assets/42719082/5e88aeee-cb33-46b4-a3c4-4da92273f7b1)
 
 
 

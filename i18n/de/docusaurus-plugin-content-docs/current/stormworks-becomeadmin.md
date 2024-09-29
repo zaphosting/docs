@@ -25,14 +25,14 @@ Jetzt siehst du die "Stormworks server_config.xml". Klicke zum Bearbeiten auf de
 
 Anschließend kannst du in der Sektion "admin" eine Steam64ID hinzufügen, welche Admin Rechte erhalten soll:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/68LsAWRmDoYzmTY/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/68LsAWRmDoYzmTY/preview)
 
 Wenn du weitere Admins hinzufügen möchtest, trage sie untereinander ein:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/2Fait3TFez7DXD8/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/2Fait3TFez7DXD8/preview)
 
 Nachdem du die Admins eingetragen hast, kannst du die Config mit dem "Speichern" Button speichern:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/5Wjtz9q3D84xbda/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/5Wjtz9q3D84xbda/preview)
 
 Starte nun deinen Server neu, damit alle eingetragenen Steam64IDs ihre Admin-Berechtigungen erhalten. 

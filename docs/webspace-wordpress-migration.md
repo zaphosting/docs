@@ -29,7 +29,7 @@ Begin by visiting our [Webspace](https://zap-hosting.com/en/shop/product/webspac
 
 With WordPress installed on the Webspace, you will have to link your Domain to it. Once again, please read our dedicated [Add Domain](webspace-adddomain.md) guide for detailed instructions on doing this.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/Qa3mmmQtTybNgGj/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/Qa3mmmQtTybNgGj/preview)
 
 
 ## Step 2: Setting up Migrate Guru Plugin
@@ -39,7 +39,7 @@ In order to automate the migration process, you will be using the **Migrate Guru
 :::tip Logging in to Admin Panel
 To log in as an admin on a WordPress site, open your browser and navigate to your website. Add `/wp-admin` at the end of your website's URL (e.g. `[your_website].com/wp-admin`) and search for this in your browser. This will redirect you to the WordPress admin login page, where you have to log in using your old hosting WordPress admin panel credentials.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/zwzRyGJwEJMNPGQ/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/zwzRyGJwEJMNPGQ/preview)
 :::
 
 On your WordPress panel, access the **Plugins** category, which is on the left-hand side of the page. Now select **Add New Plugin** and in the search bar enter **Migrate Guru**.
@@ -48,7 +48,7 @@ Once the search result appears, press **Install** followed by **Activate**. Ensu
 
 Once activated, you will see a screen appear prompting you to enter your email address and to agree to the terms and conditions, which you should complete.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/SXYGfpWJTwNyYjJ/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/SXYGfpWJTwNyYjJ/preview)
 
 ## Step 3: Accessing Migration Key
 
@@ -56,7 +56,7 @@ With the Migrate Guru plugin now installed on both instances, you will have to a
 
 You can find this by accessing the **Migrate Guru** section on the left-hand side of your WordPress panel. Copy this key as it will be needed in the next step.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/g3X9fMrqoWyfwtN/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/g3X9fMrqoWyfwtN/preview)
 
 :::tip Prepare Backup
 As an additional safety precaution, we recommend creating a backup of your old WordPress instance before proceeding with the migration process via the plugin. This process doesn't cause any data loss, however it is always best to be safe and have a backup ready just in-case.
@@ -66,7 +66,7 @@ As an additional safety precaution, we recommend creating a backup of your old W
 
 Head over back to the admin panel of your **old** WordPress instance. On the **Migrate Guru** section, press the **Migrate** button and select **Other Hosts** from the list.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/x6ctdxnL2mdpTt5/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/x6ctdxnL2mdpTt5/preview)
 
 Paste the Migrate Guru migration key that you just copied from your new ZAP-Hosting WordPress instance and press the **Migrate** button to proceed with the migration process.
 
@@ -74,13 +74,13 @@ Paste the Migrate Guru migration key that you just copied from your new ZAP-Host
 Ensure that you copy the Migration Key from your **new** ZAP-Hosting WordPress admin panel, and paste it into your **old** WordPress admin panel. If you do it the other way, you will erase data.
 :::
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/7nEr2L48PKCDXrj/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/7nEr2L48PKCDXrj/preview)
 
 After pressing the **Migrate** button, the migration process will start instantly after a few validation checks. 
 
 The migration process will run in the background without any downtime and should be completed within a few minutes. Please be patient as this heavily depends on the scale of your website. Once it is ready, you will see a success screen.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/YHSAwLkCjWBHsHT/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/YHSAwLkCjWBHsHT/preview)
 
 :::tip
 We recommend that you test the website thoroughly on your new WordPress instance, to ensure that the entire migration process was successful.
@@ -92,7 +92,7 @@ With the migration complete, the last step is to update the DNS Settings on your
 
 To get the webspace IP address, begin by navigating to your webserver's web interface panel on the ZAP-Hosting website, and head over to the **DNS** section. You will be able to find the Webspace's IP address on this page.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/pd8iQdXsd8Kaobd/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/pd8iQdXsd8Kaobd/preview)
 
 Now that you have the IP address ready, if your domain is not on your ZAP-Hosting account, begin by logging in to your account on your domain provider's website.
 
@@ -104,7 +104,7 @@ Do this for all **A Records** that are still pointing to your old instance. Once
 Please note that changes to DNS records may take up to 24 hours to propagate. This is usually occurring quickly, but it can take longer sometimes.
 :::
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/P93CG3MLJc2DL3i/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/P93CG3MLJc2DL3i/preview)
 
 ## Step 6: Setting up SSL Certificate
 

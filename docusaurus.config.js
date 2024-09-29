@@ -335,7 +335,7 @@ const config = {
             },
             {
               label: 'Smokeping',
-              href: 'http://smoky.zap-hosting.com/smokeping/',
+              href: 'https://smoky.zap-hosting.com/smokeping/',
             },
           ],
         },

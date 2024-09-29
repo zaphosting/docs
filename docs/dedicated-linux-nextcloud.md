@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Nextcloud is an open source cloud solution and fork of Owncloud, which was founded in 2016 by former Owncloud founder Frank Kalitschek.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/n2PbXo94RGNdPzt/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/n2PbXo94RGNdPzt/preview)
 
 In order to achieve optimal performance, stability and functionality, the following setup is recommended for hosting a Nextcloud server. The Nextcloud server is not compatible with Windows and MacOS. At least not without any further virtualization or similar workarounds.<br/>
 
@@ -440,17 +440,17 @@ Once this step is finished, it's time to run the installation script. Access is 
 
 The installation script configuration appears, in which a root user is created and database information defined:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/BdLXfzQwpRPbL9E/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/BdLXfzQwpRPbL9E/preview)
 
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/BNcyjRJNeT9dcZj/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/BNcyjRJNeT9dcZj/preview)
 
 
 ## Security and safety
 
 **Setup Warnings**
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/PdzHSP5WaPEcQqH/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/PdzHSP5WaPEcQqH/preview)
 
 
 
@@ -519,7 +519,7 @@ Furthermore, all HTTP traffic should be redirected to HTTPS by using a permanent
 
 Access to Nextcloud is possible via the browser, as well as via the smartphone and computer using the app. The download sources can be found here: https://nextcloud.com/install/#install-clients
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/5ay4YtgM8szkrxM/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/5ay4YtgM8szkrxM/preview)
 
 Under settings you can adjust a few more options even after the setup and view important information like logs, activities. This includes additional security settings (two-factor authentication, encryption, ... ), design settings (logo, color, slogan, header), access settings and much more.
 
@@ -527,6 +527,6 @@ Under settings you can adjust a few more options even after the setup and view i
 
 Moreover, there is also the possibility to install additional apps apart from the default apps. You can access them via the menu item **Apps**.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/AG8PCQwDfsKGQXS/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/AG8PCQwDfsKGQXS/preview)
 
 With such **Apps** it is possible to further individualize Nextcloud according to your wishes.

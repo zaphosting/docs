@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Nextcloud ist eine Open-Source-Cloud-Lösung und Abspaltung von Owncloud, die 2016 vom ehemaligen Owncloud-Gründer Frank Kalitschek aufgrund unterschiedlicher Auffassungen ins Leben gerufen wurde.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/tFLtk46edx9RcLk/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/tFLtk46edx9RcLk/preview)
 
 Um eine optimale Leistung, Stabilität und Funktionalität zu gewährleisten, wird für den Betrieb eines Nextcloud-Servers die folgende Einrichtung empfohlen. Der Nextcloud-Server ist nicht mit Windows und MacOS kompatibel. Zumindest nicht ohne weitere Virtualisierung oder ähnlichen Workarounds.
 
@@ -438,10 +438,10 @@ Wenn dieser Schritt abgeschlossen ist, dann ist es an der Zeit  das Installation
 
 Es erscheint die Konfiguration des Installationsscipt, in der ein Root-Benutzer angelegt und die Datenbankinformationen definiert werden:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/SSfjfGpynpKoNb7/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/SSfjfGpynpKoNb7/preview)
 
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/SGJt5N56j6TQEQZ/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/SGJt5N56j6TQEQZ/preview)
 
 
 ## Absicherung und Sicherheit
@@ -450,7 +450,7 @@ Es erscheint die Konfiguration des Installationsscipt, in der ein Root-Benutzer 
 **Setup Warnungen**
 
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/jZYjyQzBmrDSpJ8/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/jZYjyQzBmrDSpJ8/preview)
 
 
 
@@ -525,7 +525,7 @@ Wenn du dir nicht sicher bist, wie du ein SSL-Zertifikat generieren kannst, dann
 
 Der Zugriff auf die Nextcloud ist sowohl über den Browser, als auch über das Smartphone und den Computer per App möglich. Die Downloadquellen sind hier zu finden: https://nextcloud.com/install/#install-clients
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/y2cLpBpWZL8ZWft/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/y2cLpBpWZL8ZWft/preview)
 
 Unter den Einstellungen können auch nach der Einrichtung noch einige Optionen angepasst und wichtige Informationen wie Logs, Aktivitäten eingesehen werden. Dazu gehören unter anderem zusätzliche Sicherheitseinstellungen (Zwei-Faktor-Authentifizierung, Verschlüsselung, ... ), Designeinstellungen (Logo, Farbe, Slogan, Header), Zugriffseinstellungen und vieles mehr.
 
@@ -533,7 +533,7 @@ Unter den Einstellungen können auch nach der Einrichtung noch einige Optionen a
 
 Zusätzlich gibt es auch die Möglichkeit neben den Standard Apps noch weitere Apps zu installieren. Diese können über den Menüpunkt **Apps** eingesehen werden.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/qtAbwFCMPXqqNRr/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/qtAbwFCMPXqqNRr/preview)
 
 Mit solchen **Apps** ist es möglich die Nextcloud zusätzlich noch weiter nach seinen Wünschen zu individualisieren.
 

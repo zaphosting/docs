@@ -23,7 +23,7 @@ The configuration of admin permissions is done through the configuration files o
 
 Under the section [/Script/PathOfTitans.IGameSession], the Alderon Games ID (AGID) of the admin must be entered. The entry for this is `Server-Admins=` followed by the AGID. If you want to add multiple admins, then you must create each in a new line. Assuming you want to assign admin permissions to a total of three players, then the configuration would look as follows:
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/TwZyRsEoeATM3By/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/TwZyRsEoeATM3By/preview)
 
 ```
 [/Script/PathOfTitans.IGameSession]

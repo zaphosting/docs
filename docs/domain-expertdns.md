@@ -13,8 +13,6 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 With the **ExpertDNS function** you can set which name servers should be used for the domain.
 
-<InlineVoucher />
-
 ## Where do I find the ExpertDNS option and how do I use it?
 
 The option is displayed in the domain administration page. **EasyDNS** would be selected by default in there, so you must first check "**expertDNS Activate**"

@@ -26,7 +26,7 @@ Create a new folder somewhere on your server, in this scenario we will name it `
 
 Simply run **steamcmd.exe** and await until the installation process is fully completed.
 
-![image](https://github.com/zaphosting/docs/assets/42719082/ffb8e8a1-26e3-4d16-9baf-938e17ec1613)
+![](https://github.com/zaphosting/docs/assets/42719082/ffb8e8a1-26e3-4d16-9baf-938e17ec1613)
 
 As soon as the message **Loading Steam API.... OK** is displayed, the process has been completed successfully and you can being with the installation of the MOE dedicated server in the following section.
 
@@ -45,7 +45,7 @@ force_install_dir C:\MOE-Server
  
 Now run the command `app_update 1794810` which will begin the download. The App ID **1794810** is the **MOE** application.
 
-![image](https://github.com/zaphosting/docs/assets/42719082/29931eec-fd19-4806-88dc-69e585e42370)
+![](https://github.com/zaphosting/docs/assets/42719082/29931eec-fd19-4806-88dc-69e585e42370)
 
 :::info
 Please do not interrupt the process before it is completed to avoid mistakes. It may take a moment, but it's worth being patient! :)
@@ -59,11 +59,11 @@ Unlike typical SteamCMD installations, MOE requires you to gather a folder from 
 
 Open up Steam on your system, right-click your **Myth of Empires** game and select **Browse local files** whilst hovering over the **Manage** section.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/Cmj325wLSWgNGif/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/Cmj325wLSWgNGif/preview)
 
 In the root folder that opens, find the **PrivateServerTool** folder. This is the folder that you will have to copy to your server. You can do so easily by using `CTRL+C` to copy on your local PC, and `CTRL+V` to paste into your Windows server via RDP. Make sure to paste it into the root directory of your dedicated server.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/sXdqCYW2QnKrReN/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/sXdqCYW2QnKrReN/preview)
 
 Next, head over to the following section to port forward and configure your server.
 
@@ -99,7 +99,7 @@ These commands will automatically create firewall rules which are necessary for 
 
 Use the search function on Windows to open up **Windows Firewall Settings with Advanced Security**. You may have to press **Advanced Settings** to open up the necessary window if you open up the base Windows Firewall page.
 
-![image](https://github.com/zaphosting/docs/assets/42719082/5fb9f943-7e51-4d8f-9df4-2f5ff60857d3)
+![](https://github.com/zaphosting/docs/assets/42719082/5fb9f943-7e51-4d8f-9df4-2f5ff60857d3)
 
 You must create new rules for your MOE server. To do this, click on the incoming and outgoing rules as described below and add them for the following protocols and ports:
 - TCP incoming and outgoing: 11888, 12888
@@ -127,7 +127,7 @@ We recommend setting up at least the basic parameters such as **Server Name** be
 
 Once ready, simply head over to the **Start Console** tab in the tool, and press **Save Config** button followed by the **Start Server** button. This will generate the `StartPrivateServer.bat` file that you will use to start your server.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/TtcAbW6ZEWNyjXS/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/TtcAbW6ZEWNyjXS/preview)
 
 We recommend creating a shortcut to your `StartPrivateServer.bat` file by right-clicking and using **Create a shortcut**, to make it easier to start.
 

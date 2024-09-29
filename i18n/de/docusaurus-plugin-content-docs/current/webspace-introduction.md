@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Du suchst nach einer guten Weblösung zu einem fairen Preis? Dann bist du bei ZAP-Hosting genau richtig! Bei ZAP-Hosting kannst du dein passendes Webspace Produkt mieten oder kaufen, um damit deine Webpräsenz zu beginnen. 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/F7xgZegrYLECQfW/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/F7xgZegrYLECQfW/preview)
 
 <InlineVoucher />
 
@@ -21,7 +21,7 @@ Du suchst nach einer guten Weblösung zu einem fairen Preis? Dann bist du bei ZA
 
 Der Bestellvorgang ist ganz einfach. Wähle deine Wunschkonfiguration für dein [Webspace](https://zap-hosting.com/de/webhosting-webspace-mieten/) aus. Die Einrichtungsdauer beträgt nur wenige Sekunden. Im Anschluss kannst du umgehend mit der Konfiguration starten. 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/5aw46HPDasEHPST/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/5aw46HPDasEHPST/preview)
 
 ## Konfigurationen
 

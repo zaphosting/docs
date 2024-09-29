@@ -29,27 +29,27 @@ After purchasing the digital version, FarmingSimulator can be downloaded online 
 Important: In the mail you will find the GameKey which is needed for the download as well as for the later activation of the installation. 
 :::
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/EH9ysn2jHaQXrtf/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/EH9ysn2jHaQXrtf/preview)
 
 ## Step 2 Download Farming Simulator directly to your Windows server
 
 Connect via [Initial Access (RDP)](vserver-windows-userdp.md) to your Windows server. After you are connected, open the browser and go to the [link](https://eshop.giants-software.com/downloads.php) from the mail again. Then enter your GameKey and select the download for Windows8/10. 
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/JwMzAXbMx64CybQ/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/JwMzAXbMx64CybQ/preview)
 
 The file will then be downloaded and should be located in the download directory. (The download directory can be different)
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/74LiBCfn2w6BwLJ/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/74LiBCfn2w6BwLJ/preview)
 
 With a double click the file is opened and the Setup.exe can be executed.
 Afterwards one reads the TOS and confirms it. After that, the installation can be done as Standard or Custom, usually Standard is sufficient. 
 Finally, click on install and FarmingSimulator 2022 will now be installed, this can take a few minutes. 
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/8SrHwEjgirmKTJJ/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/8SrHwEjgirmKTJJ/preview)
 
 As soon as the installation process is finished, the following message appears, which can be confirmed with "Finish". 
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/KYMX8SeMgxWmYdt/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/KYMX8SeMgxWmYdt/preview)
 
 The basic installation is now complete. 
 
@@ -58,26 +58,26 @@ The basic installation is now complete.
 Now the Farming Simulator must be started. There should be a shortcut on the desktop, if not, it can also be started via the Windows menu. 
 Errors regarding a missing GPU or similar can be ignored or closed with No/Cancel. Farming Simulator only needs to be started to be able to enter the key. 
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/iMTyYAGknFwDA3H/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/iMTyYAGknFwDA3H/preview)
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/spnct8XYniz3Nf5/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/spnct8XYniz3Nf5/preview)
 
 Now a login name and password must be set or changed/read out in the Config of the Dedicated Server, so that a login to the web interface of the Dedicated Server is possible. 
 The Config is in the standard installation under 
 `C:\Program Files (x86)\Farming Simulator 2022` to be found under the name `"dedicatedServer.xml"`. 
 The login data can be freely customized. 
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/kK7nxEtqxgxjLFG/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/kK7nxEtqxgxjLFG/preview)
 
 ## Step 4 Start Farming Simulator 2022 Dedicated Server
 
 To start the dedicated server, `"dedicatedServer.exe"` must be executed in the same directory where `"dedicatedServer.xml"` is located.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/qagHezKmK2tx2kj/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/qagHezKmK2tx2kj/preview)
 
 Afterwards the web interface can be opened via `https://SERVER-IP:8080`. 
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/E8b34yHDPDbr9YP/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/E8b34yHDPDbr9YP/preview)
 
 The login is possible with the previously set/read login data from the `"dedicatedServer.xml"`. 
 The further configuration is self-explanatory in the web interface and can be done with a few clicks, according to your personal wishes. 

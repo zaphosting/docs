@@ -70,7 +70,7 @@ servers:
 ```
 The **motd** is the message that appears in your server list when you ping a sub-server using the *forced_hosts* function:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/E93qgyfkjfW7Mzf/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/E93qgyfkjfW7Mzf/preview)
 
 Under **address** you enter the corresponding IP of the sub server. If the value **restricted** is true the player must have the permission *bungeecord.server.ServerName* to enter the sub-server.
 

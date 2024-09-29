@@ -29,7 +29,7 @@ import TabItem from '@theme/TabItem';
 
 Die benutzerfreundlichste Methode, um die Grundeinstellungen zu bearbeiten, ist es, im Webinterface deines Gameservers in den Bereich **Einstellungen** zu gehen und dort nach den entsprechenden Einstellungen zu suchen, wie unten zu sehen:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/cGbSnRp5gfbWnnb/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/cGbSnRp5gfbWnnb/preview)
 
 Denke daran, dass nicht alle Konfigurationsoptionen hier zugänglich sind. Wenn du alles konfigurieren möchtest, benutze den Reiter **WI-Konfigurationsdatei**, um die notwendige Datei direkt im Webinterface zu bearbeiten.
 
@@ -45,7 +45,7 @@ Der Server muss angehalten werden, bevor die Config bearbeitet werden kann. Wenn
 
 Wenn du die Datei und alle Konfigurationsoptionen direkt bearbeiten möchtest, kannst du dies tun, indem du im Webinterface deines Gameservers in den Bereich **Configs** gehst und auf die blaue Schaltfläche Datei bearbeiten klickst, wie unten zu sehen:
 
-![image](https://github.com/zaphosting/docs/assets/42719082/60a922ab-0ca3-4248-b936-3ce43ba8bd5f)
+![](https://github.com/zaphosting/docs/assets/42719082/60a922ab-0ca3-4248-b936-3ce43ba8bd5f)
 
 Dadurch wird ein Texteditor direkt auf der Seite geöffnet, mit dem du die Datei bearbeiten kannst.
 

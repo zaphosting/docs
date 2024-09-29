@@ -37,7 +37,7 @@ If VAT has to be shown in the invoice, the full amount will be shown in the invo
 ## Creating an Affiliate link & banner
 To create a new affiliate link or banner, simply head over to the main [Affiliate Page](https://zap-hosting.com/en/customer/affiliate/) and scroll down. You will be able to view your existing links and banners, but you will also be able to create new ones through the green **Create advertising material** buton.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/zHjcrXACxAoA7qJ/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/zHjcrXACxAoA7qJ/preview)
 
 This will open up a menu in where you will be able to customise a range of values. Firstly, you should pick if you want this to be simply a link or a banner.
 
@@ -69,13 +69,13 @@ Next you can select the **Product** field using the drop down menu. This is wher
 #### Finshing the creation process
 Once you have filled everything in to your liking, simply press the green **Create** button to proceed in creating your banner or link. You should receive an success message if everything is correct, and your new banner or link will appear under the **Your Banners/Links** section once you scroll down.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/THYSkKPHtSpMgiy/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/THYSkKPHtSpMgiy/preview)
 
 ## Cash out & Transferring
 
 You can transfer out your Affiliate Program balance either into your cashbox (ZAP Coins) or into money via PayPal. Head over to the [Affiliate Page](https://zap-hosting.com/en/customer/affiliate/) page again and press the blue **Payment/Transfer** button.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/GnzqQrQtC3jtzt9/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/GnzqQrQtC3jtzt9/preview)
 
 Now follow the appropriate section below to transfer to either currency.
 
@@ -87,7 +87,7 @@ Once you have your credits transferred into ZAP Coins, you can no longer cash ou
 
 On the menu prompt, select **ZAP Coin balance** as the option. Choose whether you wish to transfer the entire balance or only a specific part of it. Once ready, simply press the green **Transfer** button to confirm.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/HyCXmc2KzqSY4yL/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/HyCXmc2KzqSY4yL/preview)
 
 ### Real money (PayPal)
 

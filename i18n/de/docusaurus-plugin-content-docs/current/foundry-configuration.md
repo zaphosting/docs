@@ -29,7 +29,7 @@ import TabItem from '@theme/TabItem';
 
 Die benutzerfreundlichste Methode ist es, im Webinterface deines Gameservers in den Bereich **Einstellungen** zu gehen und dort nach den entsprechenden Einstellungen zu suchen, wie unten zu sehen:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/cGbSnRp5gfbWnnb/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/cGbSnRp5gfbWnnb/preview)
 </TabItem>
 
 <TabItem value="configs" label="Über die WI-Konfigurationsdatei">
@@ -42,7 +42,7 @@ Der Server muss angehalten werden, bevor die Config bearbeitet werden kann. Wenn
 
 Wenn du die Rohdatei direkt bearbeiten möchtest, kannst du dies auch tun, indem du im Webinterface deines Gameservers in den Bereich **Configs** gehst und auf die blaue Schaltfläche Datei bearbeiten klickst, wie unten zu sehen:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/dEfMcBBiDgZesYG/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/dEfMcBBiDgZesYG/preview)
 
 Dadurch wird ein Texteditor direkt auf der Seite geöffnet, mit dem du die Datei bearbeiten kannst.
 

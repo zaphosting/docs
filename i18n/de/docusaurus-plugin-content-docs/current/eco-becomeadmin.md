@@ -17,7 +17,7 @@ Die Zuweisung von Administratorberechtigungen ermöglicht dir eine einfache und 
 
 Das Hinzufügen eines Admins erfolgt über die **Users.eco** Config, welche du im Interface unter Configs findest.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/iNJQ8Nk6HjbGHro/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/iNJQ8Nk6HjbGHro/preview)
 
 
 
@@ -38,7 +38,7 @@ Im Feld **values** wird der Spieler eingetragen, der Admin werden soll. Bei mehr
 
 Diese findest du, indem du zunächst einmal dein Steam Profil aufrufst und dort dann an einer beliebigen Stelle Rechtsklick drückst. Dort kann dann die Steam URL des Profils kopiert werden.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/MJYAL6NfwDEeStf/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/MJYAL6NfwDEeStf/preview)
 
 
 
@@ -48,7 +48,7 @@ Im Anschluss kann die URL auf einer der folgenden Webseiten angeben werden:
 - https://steamidfinder.com/
 - https://steamid.io/
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/WZjtKno2AfrBHDR/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/WZjtKno2AfrBHDR/preview)
 
 
 

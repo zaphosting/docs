@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Are you unsure about what you need to connect to your server in general or how to do it exactly? Don't worry! We will explain you in the following step by step what you will need to connect to your server, how to connect to it afterwards and what to consider in general. This should allow you to successfully connect to your server without any problems! :)
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/r8ZHxrdiG38iQdj/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/r8ZHxrdiG38iQdj/preview)
 
 <InlineVoucher />
 
@@ -33,7 +33,7 @@ For the connection to your game server, it is mandatory that you already own the
 
 Provided that all prerequisites of **Game / Content** are met, you will need the information of your server. Click on your game server service in your dashboard. The overview will now show you all general information about your server.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/tLAtDammCrKdGn3/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/tLAtDammCrKdGn3/preview)
 
 Zu den relevanten Informationen gehören hierbei die **IP-Adresse,** **Port** und **Passwort**. Diese solltest du dir merken/notieren, da du diese gleich für deinen ersten Verbindungsaufbau zu deinem Server benötigst. 
 
@@ -45,7 +45,7 @@ Zu den relevanten Informationen gehören hierbei die **IP-Adresse,** **Port** un
 
 Once all the prerequisites have been met, you can begin to connect to the server. To do this, start your game and then navigate to Start Game -> Start -> Join Game and click on Add Server. Now enter the IP and port of your server:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/Tk9Qm8nxRdaE2Fe/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/Tk9Qm8nxRdaE2Fe/preview)
 
 
 

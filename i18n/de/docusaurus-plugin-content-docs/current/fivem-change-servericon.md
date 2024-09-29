@@ -28,7 +28,7 @@ Der nächste Schritt ist das Hochladen des fertigen Bildes auf deinen FiveM Game
 
 Sobald du bei FTP eingeloggt bist, navigiere zum Ordner `gXXXX/gta-fivem/server-data/` und lade dort deine Server-Icon-Datei hoch. Achte darauf, dass du dir den Namen der Datei merkst.
 
-![image](https://github.com/zaphosting/docs/assets/42719082/ae7c3a42-f240-49cb-8839-fdd0e39bd885)
+![](https://github.com/zaphosting/docs/assets/42719082/ae7c3a42-f240-49cb-8839-fdd0e39bd885)
 
 ### Aktivierung
 

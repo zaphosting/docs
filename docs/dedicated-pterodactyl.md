@@ -266,7 +266,7 @@ The benefits of further webserver configuration is that you will be able to set 
 ### Domain DNS Record
 In order for your server to be reachable by your domain, you must setup an `A` DNS record for that domain. This is highly dependent on the provider that you use, but it should be accessible through some sort of a `DNS Panel` area when managing your domain. The contents of the record should be the target IP address of your server that you are using.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/EsGB6DaTC65Fce8/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/EsGB6DaTC65Fce8/preview)
 
 ### Removing default configuration
 Begin by removing the default Nginx configuration. This is done simply by removing the file.

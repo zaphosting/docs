@@ -24,15 +24,15 @@ If the created server cannot be reached via FTP, the FTP service (ProFTPD) is no
 ### Check Availability
 You can easily do this using the FTP browser in the web interface. Click on "FTP browser" in the menu under Tools of the respective server
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/GiqyC6G5cLsbSqp/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/GiqyC6G5cLsbSqp/preview)
 
 Then press the "Direct Connection" button once. 
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/ZSbrF5raYzdMgzZ/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/ZSbrF5raYzdMgzZ/preview)
 
 Now you will probably see the following picture:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/GtcCWfqadKGJoY7/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/GtcCWfqadKGJoY7/preview)
 
 Since it is now clear that a connection via WebFTP or FTP tool is not possible, you have to take a closer look at the FTP service on the VPS or root server.
 
@@ -40,7 +40,7 @@ Since it is now clear that a connection via WebFTP or FTP tool is not possible, 
 
 To do this, you connect to your server via SSH / Console and then enter the command "service proftpd status". The status is now read out and displayed accordingly:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/TWqySPM3D5RmgYL/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/TWqySPM3D5RmgYL/preview)
 
 
 There you can see that the status reports "dead", in short the service is offline and therefore not accessible.
@@ -57,7 +57,7 @@ If there is no response after the command has been executed, the service is usua
 
 The whole thing can then be verified again with the command "service proftpd status". It should look like this:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/iYxKMLJ2QfgzBKD/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/iYxKMLJ2QfgzBKD/preview)
 
 Since the status is now "active" again and no longer "dead", the FTP connection can be tried again using the FTP tool and WebFTP.
 

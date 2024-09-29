@@ -52,7 +52,7 @@ Now we are in the Profiler and can see the performance information, it looks mor
 
 We now select a "tick" that consumes a lot of performance:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/6BJozz7abRSHSj5/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/6BJozz7abRSHSj5/preview)
 
 
 Now we can see which resources are consuming a lot of time.

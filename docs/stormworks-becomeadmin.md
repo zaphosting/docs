@@ -17,7 +17,7 @@ The assignment of administrator permissions allows you simple and comprehensive 
 
 Click on "Configs" under Settings in the web interface of your game server:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/JgnbqrjwwZB7gsT/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/JgnbqrjwwZB7gsT/preview)
 
 You will now see the "Stormworks server_config.xml". Click on the blue pencil to modify it:
 
@@ -25,14 +25,14 @@ You will now see the "Stormworks server_config.xml". Click on the blue pencil to
 
 Afterwards you can add a Steam64ID in the section "admin", which should get admin rights:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/jTbdLBEpTT7rasF/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/jTbdLBEpTT7rasF/preview)
 
 If you are planning to add more admins, add them one by one:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/EJts4nQ4JtfHQEQ/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/EJts4nQ4JtfHQEQ/preview)
 
 Once you have entered the admins, you can save the config with the "Save" button:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/zYDPRazLsAAA3xr/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/zYDPRazLsAAA3xr/preview)
 
 Restart your server now, to ensure that all registered Steam64IDs will get their admin permissions. 

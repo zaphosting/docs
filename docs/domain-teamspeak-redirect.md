@@ -9,8 +9,6 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
-<InlineVoucher />
-
 :::info
 Please note that it can always take up to 24 hours before changes to DNS entries become active!
 :::
@@ -36,7 +34,7 @@ For this quick setup feature, you would need to [purchase a perfect domain direc
 
 In our example, you can see us create a new subdomain using the `.zap.cloud` domain, which will lead us to our TeamSpeak 3 server when used.
 
-![image](https://github.com/zaphosting/docs/assets/42719082/5b311ff1-625c-4f6d-82b8-6847d432beb9)
+![](https://github.com/zaphosting/docs/assets/42719082/5b311ff1-625c-4f6d-82b8-6847d432beb9)
 
 :::note
 Please note, it can take up to 3 hours for the domain to propagate and start functioning.
@@ -83,7 +81,7 @@ As **Name** we choose here the name of the domain, as an example **teamspeak-ser
 IP of your TeamSpeak 3 server, in this case **88.214.57.116**.
 You can leave the **TTL** field untouched.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/cTGTdBFrigs7HDG/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/cTGTdBFrigs7HDG/preview)
 
 When you have entered everything, click on **Save**, the entry will be saved in the DNS settings and will be displayed within
 of 24 hours.
@@ -98,7 +96,7 @@ If you want to create a subdomain, for example ts.teamspeak-server.de, you do it
 However, for **Name** you do not enter the name of the domain, but the subdomain.
 This looks like this:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/ocaqgX2DSdspGQ8/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/ocaqgX2DSdspGQ8/preview)
 
 
 ## Forwarding the domain with port (SRV)
@@ -115,7 +113,7 @@ directly to the TeamSpeak 3 server, both are possible.
 After you have forwarded your domain to the IP address of your TeamSpeak 3 server as described above, click on **New Entry**.
 and create an entry that looks like this:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/H3NGmYZHyJsCYnf/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/H3NGmYZHyJsCYnf/preview)
 
 The **Name** field contains the name of the service, which in this case is our TeamSpeak 3 server, so **_ts3**. It also contains the protocol type, in this case **_udp** as well as the **domain name**. 
 The **Type** field indicates what type of entry it is, in this case it is a **SRV** entry.
@@ -134,7 +132,7 @@ It is important that a **dot** is set in the **value** field at the end of the d
 
 With a subdomain it behaves almost exactly the same. First, you create a subdomain as described above and forward it to the IP address of your TeamSpeak 3 server. Then click on **New Entry** and create an entry with the following content:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/aEkro3z9WBgWf8g/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/aEkro3z9WBgWf8g/preview)
 
 
 The **Name** field contains the name of the service, which in this case is our TeamSpeak 3 server, so **_ts3**. It also contains the protocol type, in this case **_udp** as well as the **domain name** together with the **subdomain**, which is **ts.teamspeak-server.de**. 

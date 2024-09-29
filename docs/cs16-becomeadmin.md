@@ -39,7 +39,7 @@ Afterwards, the URL must be typed in one of the following websites:
 - https://steamidfinder.com/
 - https://steamid.io/
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/agXYcjRaDn8nSim/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/agXYcjRaDn8nSim/preview)
 
 
 

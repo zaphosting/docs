@@ -27,11 +27,11 @@ Verbinde dich zunächst über RDP mit deinem Windows-Server. Wenn du dabei Hilfe
 
 Sobald du verbunden bist, suche über die Windows-Suchleiste oder durch Drücken der Windows-Taste/des Windows-Symbols und die Suchleiste im Startmenü nach **Sprachen**.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/Rf4inxAES3tBH8E/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/Rf4inxAES3tBH8E/preview)
 
 Finde auf dieser Seite den Abschnitt Sprache und drücke auf die Schaltfläche **Sprache hinzufügen**. 
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/mbKyb4FiNZnYtDj/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/mbKyb4FiNZnYtDj/preview)
 
 Suche im Menü nach der Sprache, die du installieren möchtest, und wähle sie aus, indem du auf **Next** drückst. Vergewissere dich auf der folgenden Seite, dass alle Optionen angekreuzt sind, einschließlich der Option **Als Windows-Anzeigesprache festlegen**, wenn du sie sofort aktivieren möchtest.
 
@@ -43,13 +43,13 @@ Um die Sprache im Windows-Betriebssystem selbst zu ändern, musst du sicherstell
 Wenn du im Feld **Anzeigesprache** keine Sprachen siehst, installiere bitte alle ausstehenden Windows-Updates über **Update & Sicherheit** in den Einstellungen, um diesen Fehler zu [beheben](https://learn.microsoft.com/en-us/troubleshoot/windows-server/shell-experience/cannot-configure-language-pack-windows-server-desktop-experience).
 :::
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/gdAjwb3Q4ofmsAr/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/gdAjwb3Q4ofmsAr/preview)
 
 Windows beginnt nun mit dem Herunterladen des ausgewählten Sprachpakets. Bitte habe etwas Geduld, da dieser Vorgang einige Zeit in Anspruch nehmen kann.
 
 Wenn du nach Abschluss des Downloads die Option **Als Windows-Anzeigesprache festlegen** nicht ausgewählt hast, gehe noch einmal auf die Seite mit den Sprachen und wähle sie im Dropdown-Menü aus.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/5ggZyjBmENEzCgS/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/5ggZyjBmENEzCgS/preview)
 
 Starte schließlich deinen Server neu und die neue Sprache wird verwendet. Du hast erfolgreich Sprachpakete auf deinem Windows-Server verwaltet.
 
@@ -65,6 +65,6 @@ Dazu gehst du in das Webinterface deines Servers und rufst den Bereich **Einstel
 
 Auf dieser Seite kannst du zwischen **Windows (EN)** und **Windows (DE)** für die jeweilige Sprache wählen und dich für die Neuinstallation des Servers entscheiden.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/9b6njXx3PMdCG6s/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/9b6njXx3PMdCG6s/preview)
 
 Sobald du die Neuinstallation gestartet hast, sei bitte geduldig, da es einige Zeit (bis zu 30 Minuten) dauern kann, bis der Server den gesamten Prozess abgeschlossen hat.

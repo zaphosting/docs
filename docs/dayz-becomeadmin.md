@@ -17,11 +17,11 @@ Assigning admin rights allows you to manage your server with full control easily
 
 The configuration of admin rights is done through the server configuration file. You can access your server's configuration files in the game server management under **Configs**. Once there, you will find an overview of the available configuration files. Open the **server.DZ.cfg** by clicking on the blue button.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/n6FSdPnYxxWp4Po/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/n6FSdPnYxxWp4Po/preview)
 
 In the configuration file, you should find the entry **passwordAdmin**. Here, you need to set the desired password for access. Enter your desired password and click the **Save** button below.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/H3ndjqRYBPXRgRK/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/H3ndjqRYBPXRgRK/preview)
 
 To apply the change, the server needs to be restarted. After that, connect to your server and open the in-game chat. Execute the following command to log in as an admin:
 

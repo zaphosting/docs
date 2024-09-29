@@ -20,7 +20,7 @@ ESX must be installed
 First we have to make sure that "Force overwrite" is disabled.
 To do this, we go to the Resources tab.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/rtFRtmGxJcrGGQj/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/rtFRtmGxJcrGGQj/preview)
 
 There we will remove the checkmark.
 

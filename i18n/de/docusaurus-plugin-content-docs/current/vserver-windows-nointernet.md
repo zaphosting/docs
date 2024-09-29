@@ -23,7 +23,7 @@ Mit dieser Option kannst du auf deinen Server zugreifen und Probleme beheben, au
 
 Auf dieser Seite kannst du die Konsole aktivieren, indem du auf die Schaltfläche **Webclient öffnen** klickst und dich mit deinen üblichen Anmeldedaten anmeldest.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/ZJSbjmTYtmi5Lie/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/ZJSbjmTYtmi5Lie/preview)
 
 ## Methoden zur Fehlerbehebung
 
@@ -33,7 +33,7 @@ Der erste Schritt zur Fehlerbehebung besteht darin, sicherzustellen, dass die te
 
 Beginne mit dem Abschnitt **Einstellungen->IP-Adressen** auf der Weboberfläche deines Servers, wo du alle IP-Adressen sehen kannst, die du derzeit für deinen Dienst mietest.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/D8gDpL24wkqR4rF/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/D8gDpL24wkqR4rF/preview)
 
 Greife nun über RDP oder die VNC-Konsole auf deinen Server zu, wenn du Probleme hast. Gehe in die Einstellungen deines Windows-Netzwerkadapters, indem du in: 
 ```
@@ -42,7 +42,7 @@ Einstellungen -> Netzwerk und Internet -> Adapteroptionen ändern -> Netzwerkada
 
 Suche die Option **Internetprotokoll, Version 4 (TCP/IPv4)** in der Liste und wähle **Eigenschaften**.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/QmcworojD6pMQby/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/QmcworojD6pMQby/preview)
 
 #### Adapter konfigurieren
 
@@ -65,7 +65,7 @@ Mit einer IP-Adresse von `185.223.28.163` sollte deine Konfiguration wie folgt a
 | Subnetzmaske     | 255.255.255.0  |
 | Standard-Gateway | 185.223.28.1   |
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/9B7ms2J8nxYzCep/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/9B7ms2J8nxYzCep/preview)
 
 Wenn du fertig bist, drücke **Ok**, um die Änderungen zu übernehmen. Wir empfehlen, den Server neu zu starten, um die Fehlerbehebung abzuschließen.
 
@@ -80,7 +80,7 @@ Wir empfehlen, entweder die DNS-Server von Google oder Cloudflare zu verwenden, 
 | Google       | Bevorzugt: 8.8.8.8 / Alternate: 8.8.4.4 |
 | Cloudflare   | Bevorzugt: 1.1.1.1 / Alternate: 1.0.0.1 |
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/frYTimNEFzBjANy/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/frYTimNEFzBjANy/preview)
 
 Wenn du fertig bist, drücke erneut **Ok**, um die Änderungen zu übernehmen. Auch hier empfehlen wir einen Neustart des Servers, um die Fehlersuche abzuschließen.
 
@@ -90,7 +90,7 @@ Der letzte Schritt zur Fehlerbehebung besteht darin, sicherzustellen, dass die W
 
 Wir empfehlen, die Windows Firewall vorübergehend komplett zu deaktivieren, um zu sehen, ob die Probleme weiterhin bestehen. Verwende die Suchfunktion von Windows, um **Windows Defender Firewall-Einstellungen** zu öffnen und wähle im linken Bereich die Option **Windows Defender Firewall ein- oder ausschalten**.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/kSbpgpkNotFgiXL/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/kSbpgpkNotFgiXL/preview)
 
 Wenn die Probleme behoben sind, wenn die Firewall deaktiviert ist, ist die Ursache deines Problems wahrscheinlich eine Fehlkonfiguration der Firewall.
 

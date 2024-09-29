@@ -16,8 +16,6 @@ You can either forward your domain completely or only a subdomain to your game s
 Please note that it can always take up to 24 hours until changes to DNS entries become active!
 :::
 
-<InlineVoucher />
-
 ## Functionality
 
 For forwarding the IP address, either a subdomain is created which forwards to the IP address of the game server, or you forward the entire domain without a subdomain. This would be sufficient if the game server uses the default port of the game. If the game server uses another port than the default port of the game, you need an additional **SRV entry** to forward the subdomain to the game server.
@@ -39,11 +37,11 @@ with an **underscore** and is either **_udp** or **_tcp**.
 
 To forward your domain to a game server without creating a subdomain, you first open your domain by in the dashboard, then open the DNS management from the menu on the left.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/X8q3jdigEdZrRaB/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/X8q3jdigEdZrRaB/preview)
 
 There you can see all existing DNS entries for your domain.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/zRzCnwbqYxaeSiJ/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/zRzCnwbqYxaeSiJ/preview)
 
 ## Domain forwarding (Minecraft)
 
@@ -57,15 +55,15 @@ To create a new record, use the **New entry** button.
 
 This opens a window with four fields that must be filled:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/BYNiFMMwdwjEHwZ/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/BYNiFMMwdwjEHwZ/preview)
 
 The **Name** is the main- or subdomain over which the forwarding to the IP takes place, this name is freely selectable. The **Type** is left at **A** in this step. At the **Value** only the IP of the Minecraft server has to be entered which was searched out before. In our example it looks like this.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/aRYpxgrySQqzton/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/aRYpxgrySQqzton/preview)
 
 Once saved this entry will be displayed correctly:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/eFLm8oqbo4cLtn8/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/eFLm8oqbo4cLtn8/preview)
 
 ### Create SRV Record
 
@@ -74,14 +72,14 @@ Therefore click again on the button **New entry**.
 
 At **Name** you have to enter the protocol and the connection domain. The domain name which is entered there will be used later for the connection to the server. As **Type** the value **SRV** is selected in this step through the drop down menu:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/pH9F5kZins8wHn4/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/pH9F5kZins8wHn4/preview)
 
 
 At the **Value** now three values have to be entered, first the priority which can be left at 0 by default, then as second the port of the game server in our example `25500` and last but not least the domain name of the just created **A-Record**.
 
 In our example it looks like this:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/Gf8kkc5srHEbC2N/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/Gf8kkc5srHEbC2N/preview)
 
 
 ### Troubleshooting & Result
@@ -102,16 +100,16 @@ To create a new record, use the **New entry** button.
 
 This opens a window with four fields that must be filled:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/FigmCXEc3eJYz78/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/FigmCXEc3eJYz78/preview)
 
 
 The **Name** is the main- or subdomain over which the forwarding to the IP takes place, this name is freely selectable. The **Type** is left at **A** in this step. At the **Value** only the IP of the FiveM server must be entered which was searched out before. In our example it looks like this.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/7dBKaJ4xomTiS9C/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/7dBKaJ4xomTiS9C/preview)
 
 Once saved this entry will be displayed correctly:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/5DppfyXsADTT85t/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/5DppfyXsADTT85t/preview)
 
 ### Create SRV Record
 Now you have to create a SRV record, this is used for port forwarding which is necessary if you don't have the default port.
@@ -119,14 +117,14 @@ Therefore click again on the button **New entry**.
 
 At **Name** you have to enter the protocol and the connection domain. The domain name which is entered there will be used later for the connection to the server. As **Type** the value **SRV** is selected in this step through the drop down menu:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/Yab6ksJNJFTLAeB/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/Yab6ksJNJFTLAeB/preview)
 
 
 At the **Value** now three values have to be entered, first the priority which can be left at 0 by default, then as second the port of the game server in our example `30300` and last but not least the domain name of the just created **A-Record**.
 
 In our example it looks like this:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/te4LJ3yKRpTSi5W/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/te4LJ3yKRpTSi5W/preview)
 
 
 ### Troubleshooting & Result

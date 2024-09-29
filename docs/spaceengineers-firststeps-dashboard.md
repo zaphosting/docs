@@ -16,7 +16,7 @@ You are interested in a **Space Engineers server** or already own one, but you s
 
 After going through this guide, you will easily be able to manage your server efficiently and find all the necessary options and features quickly and easily. Here, you will get a structured overview that will help you step by step to get familiar with the server administration and expand your knowledge in a targeted manner. This way, you can ensure that your **Space Engineers server** is optimally adapted to your needs and that you get the most out of the available options.
 
-<YouTube videoId="UDZ_sxgBJok" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/A5pf7CHKYGYBJ8F/preview" title="Setup Space Engineers server in just a MINUTE!" description="Feel like you understand better when you see things in action? We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
+<YouTube videoId="Y2zXcKyX9Rk" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/Erjfsrn3MdsHzfG/preview" title="Setup Space Engineers server in just a MINUTE!" description="Feel like you understand better when you see things in action? We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
 
 <InlineVoucher />
 
@@ -30,7 +30,7 @@ In the **Information** section of your navigation panel, you will find a number 
 
 The **Dashboard** of your server is the heart of the administration. All basic and essential information about your service is clearly presented here. This includes, for example, information about the location, status, IP: Port, used memory, game in progress, server name, map and the number of available slots. In addition, the utilization of the CPU, memory and RAM is also displayed.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/iRczw5SxBn85aoj/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/iRczw5SxBn85aoj/preview)
 
 In the dashboard you also have the option of starting, stopping or restarting your service, to have full control over its operation. Furthermore, you can access the live console to get real-time information about the server's state and take direct action if necessary.
 
@@ -53,7 +53,7 @@ By checking the **News** regularly, you'll stay informed and be able to adjust y
 
 Under the **Statistics** you get a comprehensive overview of the load values of your server. There you will find information about various aspects such as the load of the available slots, the CPU and the memory. You can view this data for different time periods, for example for the last **60 minutes, 24 hours, 3 days, 7 days** or **30 days.**
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/N8jcmdqqG2Xt4Bk/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/N8jcmdqqG2Xt4Bk/preview)
 
 Thanks to this information, you get a good insight into the usage of your server. Additionally, these statistics are often helpful to identify possible performance issues and narrow down their causes. For example, you can trace back when the utilization has increased and whether this is related to certain events or changes. This is particularly important when sudden problems arise, as it allows you to take targeted steps to troubleshoot and systematically analyze possible causes.
 
@@ -63,7 +63,7 @@ Thanks to this information, you get a good insight into the usage of your server
 
 The **DDoS Manager** allows you to view past attacks and thus get a better overview of potential threats. Furthermore, you have the option to activate notifications for ongoing DDoS attacks on your server to be able to react quickly to such incidents.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/pertwX6DzWXECyx/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/pertwX6DzWXECyx/preview)
 
 Moreover, you can customize the protection provided that you have booked your own IP address. There are two different options available:
 
@@ -94,7 +94,7 @@ The information found there does not help or you do not understand it? Don't wor
 
 The **Event Log** provides you with a comprehensive overview of all activities related to server administration. Here you can track at any time when a server started, stopped or crashed, as well as when updates, backups or new installations were performed.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/xNzsaMbW5BS5KJC/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/xNzsaMbW5BS5KJC/preview)
 
 
 
@@ -118,12 +118,12 @@ In case you still have unanswered questions, we recommend that you first take a 
 
 We offer extensive documentation for our products, which serves as a knowledge base for the most frequently asked questions and concerns. There you will find various guides and help on different topics that will assist you in using and managing your product.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/SyxK6CFgedeL2GF/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/SyxK6CFgedeL2GF/preview)
 
 
 ## Settings
 
-In the **Settings** section of your navigation panel, you will find a number of sub-items that will help you manage your server. These include the **Settings**, **Configs**, **Games**, **Versions** and the **Restart planner**. In the following you will get a detailed introduction to these different areas.
+In the **Settings** section of your navigation panel, you will find a number of sub-items that will help you manage your server. These include the **Settings**, **Configs**, **Games**, **Versions** and the **Restart planner**. In the following you will get a detailed introduction to these different areas.
 
 
 
@@ -131,7 +131,7 @@ In the **Settings** section of your navigation panel, you will find a number of 
 
 Under the settings you will find an overview of the most common setting options for your server. These also include a short explanation. The use of the settings page is especially recommended for newcomers to server administration.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/PRapb9FFDTr5ciJ/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/PRapb9FFDTr5ciJ/preview)
 
 Here you can make for example the following adjustments: 
 
@@ -157,7 +157,7 @@ Have you noticed that some of your changes are partially overwritten? Please be 
 
 Under **Games** you always have the possibility to change the game variant of your existing game or to install another game in general.  Games with the same slot price can be selected directly under **Available Games**. For all other games an adjustment of the slot price is required first. More information about this can be found in the [Change the game](gameserver-gameswitch.md) guide.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/QB82f3CSKmJgwqk/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/QB82f3CSKmJgwqk/preview)
 
 
 
@@ -165,7 +165,7 @@ Under **Games** you always have the possibility to change the game variant of yo
 
 Under **Versions** you have the possibility to view and manage the current version of your game server. Here you can update to the latest version at any time or activate automatic updates to ensure that your server is always up to date.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/r2RDSA3w6yYq8nt/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/r2RDSA3w6yYq8nt/preview)
 
 Moreover, you can also enable the email notification feature for automatic updates to keep you informed about updates and ensure that you are always up-to-date.
 
@@ -175,11 +175,11 @@ Moreover, you can also enable the email notification feature for automatic updat
 
 Do you want to schedule server restarts at specific times? The Restart Planner allows you to set up scheduled automatic restarts of your game server. With this feature, you can set up restarts at specific times or at regular intervals.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/Y6WciDS7YP98P4m/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/Y6WciDS7YP98P4m/preview)
 
 ### DNS settings
 With the ZAP DNS settings, you can create easy-to-remember addresses for your service. You can either use a subdomain of one of our domains or you can create a DNS entry on your own domains and thus have an address that can be better associated with you as a person.
-![img](https://screensaver01.zap-hosting.com/index.php/s/tM5FGTHRSbZA5rN/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/tM5FGTHRSbZA5rN/preview)
 
 ## Tools
 
@@ -191,7 +191,7 @@ In the **Tools** section of your navigation panel, you will find a range of sub-
 
 Using the **FTP Browser**, you will get all the necessary information to establish a connection to the FTP access. The FTP access allows you direct access to the files of your game server. We recommend using an external FTP program such as **Filezilla** or **WinSCP** for optimal use. If you are not familiar with how to use FTP, then taking a look at the [Access via FTP](gameserver-ftpaccess.md) guide may help you.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/fZSYpSi4KwPos5P/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/fZSYpSi4KwPos5P/preview)
 
 **FileZilla:**  FileZilla is the easiest and most familiar FTP client. Just install, start and enter your access data in the upper bar, which you find on this page a bit further up. After a quick click on "Connect", you are logged in directly to the server and can manage the files.
 
@@ -203,7 +203,7 @@ Using the **FTP Browser**, you will get all the necessary information to establi
 
 In addition to our game server products, we also offer 10 included databases. These databases are necessary, for example, when data needs to be stored in a database. Under **Databases**, you can create a database and view the access credentials. You also have the option to activate the backup option and import existing database backups.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/WFLwCbZSQfYjrmD/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/WFLwCbZSQfYjrmD/preview)
 
 
 
@@ -213,7 +213,7 @@ Under **Backups**, you have the option to create both manual and automatic backu
 
 In the settings, you can specify whether backups should be created automatically and whether this should be done daily or weekly. Additionally, you can decide whether the oldest backups should be deleted if necessary, such as when the available storage space becomes limited.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/nm9za5LTMEcNsga/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/nm9za5LTMEcNsga/preview)
 
 We provide 10 GB of storage space on the storage server for backups for our game server products by default. If you need more storage space, it can be upgraded for a fee. This way you ensure that you always have enough space for your backups and can still access older backups if necessary.
 

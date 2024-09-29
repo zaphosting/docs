@@ -34,7 +34,7 @@ Local Savegames are ones which you have created whilst hosting a multiplayer gam
 :::tip
 You can easily access this path directly by pressing `CTRL` + `R` at the same time and searching for the following path in the run dialog: `%userprofile%/AppData/Local/AbioticFactor/Saved/SaveGames`. Simply press **OK** and you will be taken to the folder.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/zd7Zy5C6EH7BMHa/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/zd7Zy5C6EH7BMHa/preview)
 :::
 
 Make sure to navigate to the subsequent Steam ID folder followed by the `Worlds` folder. At this location, you will be able to find all of your local Savegames.
@@ -48,7 +48,7 @@ Backing up your Savegame from the server is simple. Once you have connected to y
 
 At this location, you will be able to find your Savegames. Simply right-click on the folder and use the **Download** button to save it locally to your device.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/RJSeBFpCdGamK7s/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/RJSeBFpCdGamK7s/preview)
 
 ### Automatic Backup
 
@@ -67,7 +67,7 @@ Currently, Abiotic Factor dedicated servers don't support switching between Save
 
 Now get the folder of the Savegame you wish to upload opened up. Simply drag and drop all of the inner contents of your Savegame folder into the main `world` folder on the server. This will upload your Savegame onto your server.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/wsT4MXpp2MFWLtQ/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/wsT4MXpp2MFWLtQ/preview)
 
 :::info
 If the main Savegame `world` folder is missing, attempt to shut down and start the server. If this doesn't help, use the **Revalidate Steam Files** button on the main gameserver dashboard to restore the default files.

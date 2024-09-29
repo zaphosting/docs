@@ -25,7 +25,7 @@ Mit Mods hast du die Möglichkeit, deinen Server noch individueller anzupassen. 
 
 Im nächsten Schritt kann mit der Installation der Mods begonnen werden. Die Installation ist dank der Steam Workshop Option kinderleicht. Rufe die Verwaltung deines Gameservers auf und navigiere zu Steam Workshop. Dort hast du die Möglichkeit die Mods in das vorgegebene Feld einzutragen. Trage nun die Workshop ID's die du im Voraus notiert hast und füge diese dort ein. Solltest du mehrere Mods hinzufügen, so stelle sicher, dass die Mods mit einem Komma Symbol getrennt werden. 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/cja64fYyx5E85SX/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/cja64fYyx5E85SX/preview)
 
 
 

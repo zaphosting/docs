@@ -17,14 +17,14 @@ Before we can deactivate the inventory, the [Access via FTP](gameserver-ftpacces
 
 After this has been set up, you can now connect and open the server folder:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/GWPAB639GoYcybT/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/GWPAB639GoYcybT/preview)
 
 
 ## Makig the Changes
 
 Now we open the `server-data/resources/[esx]` path, here we find an es_extended folder:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/6HLxaYmZgsQ5Qc5/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/6HLxaYmZgsQ5Qc5/preview)
 
 In this folder we now open the `config.lua` file.
 

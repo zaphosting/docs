@@ -21,12 +21,12 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 To make a backup of your Ts3 server in our Webinterface, just go to **Snapshots** on the left.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/rsQKdmYqy9dgKJz/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/rsQKdmYqy9dgKJz/preview)
 
 Then you go to **Create a snapshot**. Below you will see all your snapshots and can import, download or delete them.
 >Info: For security reasons, it is not allowed to upload your own snapshots!
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/raq2TBY47XTL8tz/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/raq2TBY47XTL8tz/preview)
 
 </TabItem>
 <TabItem value="v/Root server" label="v/Root server">
@@ -34,11 +34,11 @@ To make a backup of your Ts3 server, which is installed on your v/Root server, y
 
 Then you call up your Ts3 instance and log in to Yatqa with the data: 
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/GNak6s26sFcX4bA/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/GNak6s26sFcX4bA/preview)
 
 To create the backup you have to go to **Miscellaneous** and then to **Create and save a snapshot**:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/CZWZRYSXpCTi4j3/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/CZWZRYSXpCTi4j3/preview)
 
 To import a backup you can simply go to **Restore snapshot**.
 

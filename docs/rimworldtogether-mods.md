@@ -71,7 +71,7 @@ With this in mind, you should now access the files for the mods that you have do
 The server must be stopped before adding or editing mods, otherwise any edits may become undone.
 :::
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/3TsB3wYFzoxK3NL/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/3TsB3wYFzoxK3NL/preview)
 
 ## Starting Server
 

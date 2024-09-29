@@ -33,7 +33,7 @@ There are two snapshots that were made, the first is from August 25th, 2023 and 
 :::note
 The use of your own official backup save is only possible with the **ARK - SE (Official backupsave compatible)** game server variant. If you use a different version for your server, you can change the version under **games** section on your game server's webinterface accordingly or using our [Change the game](gameserver-gameswitch.md) guide.
 
-![image](https://github.com/zaphosting/docs/assets/42719082/8f2ac8fa-2b23-4738-8d95-87c289e9d98a)
+![](https://github.com/zaphosting/docs/assets/42719082/8f2ac8fa-2b23-4738-8d95-87c289e9d98a)
 :::
 
 
@@ -45,7 +45,7 @@ To import your own save file (non-official), all files from the save file are re
 :::note
 For this, you should use the regular **Ark: SE** game server variant (without the official backupsave support) as you are importing a regular save file which is not official.
 
-![image](https://github.com/zaphosting/docs/assets/42719082/43a6f039-778b-471f-82c8-91f1b8644a33)
+![](https://github.com/zaphosting/docs/assets/42719082/43a6f039-778b-471f-82c8-91f1b8644a33)
 :::
 
 
@@ -61,7 +61,7 @@ With your FTP client open, head over to the following subdirectory within your g
 /gxxxxx/ark/ShooterGame/Saved/SavedArks
 ```
 
-![image](https://github.com/zaphosting/docs/assets/42719082/92ca6e48-346e-4f3c-80e2-972421d1f73f)
+![](https://github.com/zaphosting/docs/assets/42719082/92ca6e48-346e-4f3c-80e2-972421d1f73f)
 
 Delete all files of the current save file (or back them up beforehand if you wish to play on this save file in the future). Next, drag and upload all of the extracted files into this directory (including .ark, .arktribe and .arkprofile files). Please be patient as it may take some time to finish uploading everything, which is dependant on the size of all of your save file content.
 

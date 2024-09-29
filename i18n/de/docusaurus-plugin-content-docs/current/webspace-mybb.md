@@ -67,7 +67,7 @@ Anschließend sollte eine Übersicht aller notwendigen Voraussetzungen angezeigt
 
 Sollten irgendwelche Voraussetzungen nicht erfüllt werden, dann melde dich diesbezüglich bitte im Support. Ansonsten kannst du einfach auf **Weiter** klicken und die Einrichtung fortsetzen. Jetzt steht die Konfiguration der Datenbank an, welche bereits im Voraus erstellt wurde. Die Datenbankinformationen von der erstellten Datenbank müssen nun dort eingetragen werden: 
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/ySCZWiPwWFWsFD2/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/ySCZWiPwWFWsFD2/preview)
 
 
 Die Datenbank wird im Anschluss konfiguriert. Das kann einen Augenblick dauern. Im Anschluss erfolgt dann die Implementierung der Standard Daten und Designs. Hier musst du ebenfalls nur auf **Weiter** klicken.
@@ -84,6 +84,6 @@ Zu guter Letzt wird nun noch ein allgemeiner Administrator Account angelegt, bev
 
 Wenn du das erledigt hast und auch ansonsten alles erfolgreich konfiguriert wurde, dann solltest du im Anschluss folgende Meldung sehen und dein Forum ebenfalls aufrufen können:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/e8btBkHP9Cd5nxt/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/e8btBkHP9Cd5nxt/preview)
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/kHTSpaESrJB7MMP/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/kHTSpaESrJB7MMP/preview)

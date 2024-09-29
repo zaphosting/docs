@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 FiveM servers can be displayed in different languages. This applies both to the display of the server's flag in the server browser as well as the language that is actively used on the server. The language can be customized if needed. So you have the possibility to choose your language and country flag for your server.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/FJZc7pJmppG28mX/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/FJZc7pJmppG28mX/preview)
 
 <InlineVoucher />
 

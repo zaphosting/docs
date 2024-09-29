@@ -32,22 +32,22 @@ If the login does not work automatically, then the login must be done manually w
 
 First of all only the start page of phpMyAdmin is displayed. To view and edit the tables of the respective database, the database must be opened: 
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/DFTDGKm47ngaB9R/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/DFTDGKm47ngaB9R/preview)
 
 Now all tables of the database and some tools are listed with which you can perform certain actions, e.g. tables can be deleted by clicking the red "Delete" button.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/dkPqEj5xgQoHgHD/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/dkPqEj5xgQoHgHD/preview)
 
 To save time, actions can be performed on several tables at the same time. To do this, click once on the selection box on the outer left side and repeat this until all desired tables are selected. If the action should be applied to all tables in the database, you can also use the "Select All" button, which automatically selects each table. Afterwards, the desired action can be selected from the drop-down menu and executed by clicking "OK".
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/Qip8TDLbeezT67F/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/Qip8TDLbeezT67F/preview)
 
 
 ## Modify table contents
 
 Values in a table can be edited quickly and easily by double-clicking on the respective field. However, it must be ensured that the table is configured in such a way that editing is possible.This can be recognized by the three action buttons, which are shown in this case.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/H7twJagPyR7L66w/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/H7twJagPyR7L66w/preview)
 
 
 ## Execute SQL commands
@@ -56,4 +56,4 @@ With phpMyAdmin it is also possible to execute normal SQL commands. To do this, 
 
 Once you have reached the command prompt, you can enter all desired SQL commands, which are then executed by clicking on "OK".
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/jJcmLGcXAfxQgkH/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/jJcmLGcXAfxQgkH/preview)

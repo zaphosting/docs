@@ -17,7 +17,7 @@ The assignment of administrator permissions allows you simple and comprehensive 
 
 Adding an admin is done via the settings page in the web interface. Click in the **Gameserver Administration** on **Settings** and scroll down to the **Server Settings**.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/gzei7sWedJMrqzc/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/gzei7sWedJMrqzc/preview)
 
 
 
@@ -25,7 +25,7 @@ Once there, you will find a field called **Admin SteamIDs**. There you have to e
 
 
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/q7E3qSd9GoLCswM/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/q7E3qSd9GoLCswM/preview)
 
 
 
@@ -39,7 +39,7 @@ This will provide you with general information as well as the Steam ID of your a
 
 
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/qakTq9iLW72jkyC/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/qakTq9iLW72jkyC/preview)
 
 
 

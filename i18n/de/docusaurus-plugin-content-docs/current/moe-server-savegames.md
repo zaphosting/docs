@@ -47,7 +47,7 @@ Das Sichern deines Savegames vom Server aus ist ganz einfach. Sobald du dich üb
 
 An diesem Ort solltest du Ordner sehen, die deine Savegames sind. Klicke einfach mit der rechten Maustaste auf den Ordner und benutze die Schaltfläche **Download**, um ihn lokal auf deinem Gerät zu speichern.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/3yN723tY8eiBb2w/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/3yN723tY8eiBb2w/preview)
 
 ### Automatische Sicherung
 
@@ -60,7 +60,7 @@ Wir bieten auch die Möglichkeit, dein Savegame (und deine Konfigurationsdatei) 
 ../moe-dedicated/MOE/Saved/SaveGames/
 ```
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/KLD26KTYZYpfoqP/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/KLD26KTYZYpfoqP/preview)
 
 Ziehe einfach eines deiner Savegames mit deinem FTP-Client in diesen Ordner und es wird auf deinen Server hochgeladen.
 
@@ -68,7 +68,7 @@ Ziehe einfach eines deiner Savegames mit deinem FTP-Client in diesen Ordner und 
 
 Um dein Savegame zu benutzen, musst du es in deiner Serverkonfiguration auswählen. Am einfachsten ist es, wenn du im Webinterface deines Gameservers den Bereich **Einstellungen** aufrufst. Weitere Informationen findest du in unserer [Server Konfiguration](moe-configuration.md).
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/cGbSnRp5gfbWnnb/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/cGbSnRp5gfbWnnb/preview)
 
 In diesem Abschnitt findest du den Parameter **Map Name** im Abschnitt Grundeinstellungen, und deine hochgeladene Welt sollte nun hier zu finden sein. Wenn du ihn nicht siehst, stelle sicher, dass du deinen Server nach dem Hochladen neu startest.
 

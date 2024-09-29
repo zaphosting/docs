@@ -29,7 +29,7 @@ Local Savegames are ones which you have created whilst hosting a multiplayer gam
 
 Open up Steam on your system, right-click your **Myth of Empires** game and select **Browse local files** whilst hovering over the **Manage** section.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/Cmj325wLSWgNGif/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/Cmj325wLSWgNGif/preview)
 
 Navigate to the following path:
 ```
@@ -47,7 +47,7 @@ Backing up your Savegame from the server is simple. Once you have connected to y
 
 At this location, you should see folders, which are your Savegames. Simply right-click on the folder and use the **Download** button to save it locally to your device.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/3yN723tY8eiBb2w/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/3yN723tY8eiBb2w/preview)
 
 ### Automatic Backup
 
@@ -60,7 +60,7 @@ Similarly to backing up, uploading your Savegame is simple. First ensure that yo
 ../moe-dedicated/MOE/Saved/SaveGames/
 ```
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/KLD26KTYZYpfoqP/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/KLD26KTYZYpfoqP/preview)
 
 Simply drag and drop any of your Savegames into this folder through your FTP Client and it will be uploaded to your server.
 
@@ -68,7 +68,7 @@ Simply drag and drop any of your Savegames into this folder through your FTP Cli
 
 Using your Savegame will require you to select it in your server configuration. The simplest way to do this is by heading over the **Settings** section on your game server's webinterface. Use our [Server Configuration](moe-configuration.md) if for more information.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/QDPzFgWRrfB49HB/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/QDPzFgWRrfB49HB/preview)
 
 In this section, find the **Map Name** parameter in the Basic settings section, and your uploaded world should now be found here. If you do not see it, ensure that you restart your server after uploading.
 

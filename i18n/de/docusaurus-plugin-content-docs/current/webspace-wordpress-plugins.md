@@ -19,17 +19,17 @@ Logge dich in Verwaltungsoberfläche von WordPress ein und navigiere in der Side
 
 Es öffnet sich eine neue Seite, wo du zur Plugin Übersicht kommst. Dort findest du aufgelistetet Plugins, die du anhand Featured, Popular, Recommended und Favorites sortieren kannst. Daneben findest du rechts ein Suchfeld, wo du ebenfalls nach einem spezifischen Plugin suchen kannst. 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/KwndcojKwB8DeSp/download)
+![](https://screensaver01.zap-hosting.com/index.php/s/KwndcojKwB8DeSp/download)
 
 Verschaffe dir einen Überblick über die verfügbaren Plugins und entscheide dich für das Plugin, welches du installieren möchtest. In diesem Beispiel wird nach dem bekannten **Contact Form 7** Plugin gesucht und installiert.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/ygm2P4yMpiiZDFY/download)
+![](https://screensaver01.zap-hosting.com/index.php/s/ygm2P4yMpiiZDFY/download)
 
 ## Aktivierung
 
 Installierte Plugins sind standardmäßig nicht aktiviert. Das erkennst du an dem **Aktivieren** Button, der nach der Installation angezeigt wird. Klicke auf **Aktivieren**, um das Plugin zu aktivieren.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/ng8XrowDxgrCeSK/download)
+![](https://screensaver01.zap-hosting.com/index.php/s/ng8XrowDxgrCeSK/download)
 
 ## Aktualisierung
 

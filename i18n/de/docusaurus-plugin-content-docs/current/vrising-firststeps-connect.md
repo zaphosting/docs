@@ -21,7 +21,7 @@ In dieser Anleitung erfahren wir, wie du dich mit deinem V Rising Server verbind
 
 Zunächst musst du die IP und den Port deines V Rising-Servers kennen, um eine direkte Verbindung herstellen zu können. Gehe einfach zu deinem [ZAP-Hosting Webinterface](https://zap-hosting.com/en/customer/) auf der Website und halte die vollständige IP und den Port bereit.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/tyDGMi7YmmNMLsd/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/tyDGMi7YmmNMLsd/preview)
 
 Wenn du deinen V Rising Server als externen dedizierten Server betreibst, ist deine IP die des Hostrechners und der Port derjenige, den du in deiner Konfigurationsdatei eingestellt hast (standardmäßig ist das 9876). In unserer [Server-Konfiguration](vrising-configuration.md) findest du weitere Informationen zum Port.
 
@@ -29,13 +29,13 @@ Wenn du deinen V Rising Server als externen dedizierten Server betreibst, ist de
 
 Beginne damit, V Rising über deinen Game Launcher zu starten. Wähle im Hauptmenü **Spielen**, gefolgt von der Option **Online-Spiel**.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/cJcnRAX2Wj7sogx/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/cJcnRAX2Wj7sogx/preview)
 
 Wähle den Spielmodus aus, den du spielen willst, oder drücke alternativ unten rechts auf **Alle Server anzeigen**, um direkt zum Server-Browser zu gelangen. 
 
 Drücke unten auf die Schaltfläche **Direktverbindung** und gib deine IP gefolgt von dem Port ein, zum Beispiel: "123.456.679.123:9876". Wenn es ein Passwort gibt, wird das Spiel dich nach der Verbindung auffordern, dieses einzugeben.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/tfroQDEgmr3p2D8/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/tfroQDEgmr3p2D8/preview)
 
 Wenn du dem Server nicht erfolgreich beitreten kannst und eine Timeout-Fehlermeldung erhältst, vergewissere dich bitte, dass die eingegebene IP und der Port korrekt sind und dass der Server online ist. Du kannst den Konsolenbereich deines Webinterfaces für deinen V Rising Server verwenden, um die Fehlersuche zu erleichtern.
 
@@ -47,4 +47,4 @@ Bitte schau dir unsere [Server-Konfiguration](vrising-configuration.md) an, um d
 
 Sobald dies erledigt ist, wähle im Hauptmenü **Spielen**, gefolgt von der Option **Online spielen** und drücke noch einmal unten rechts auf **Alle Server anzeigen**. Jetzt kannst du den Server-Browser benutzen, um deinen Server mit Hilfe der bereitgestellten Filter wie Namenssuche, Spielmodus, Schwierigkeitsgrad und vielem mehr zu finden.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/CGoZBkRsGTwkTQg/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/CGoZBkRsGTwkTQg/preview)

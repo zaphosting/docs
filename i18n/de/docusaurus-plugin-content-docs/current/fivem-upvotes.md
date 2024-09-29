@@ -37,9 +37,9 @@ FiveM Upvotes können nicht mit ZAP Coins erworben werden, da es sich um ein ext
 
 Für die Verwendung der FiveM Upvotes ist die Verknüpfung zu deinem FiveM Account notwendig. Denn die Upvotes werden diesem Account zugewiesen, worüber du dann im Anschluss die Upvotes im Spiel nach deinen Wünschen zuweisen kannst. 
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/iDk5NoM2gpWs3Ay/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/iDk5NoM2gpWs3Ay/preview)
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/BX2rZtJex6fqepS/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/BX2rZtJex6fqepS/preview)
 
 Nachdem dies bestätigt wurde, kann die Bestellung abgeschlossen werden. Die Informationen werden im Anschluss umgehend an FiveM übermittelt und dort verarbeitet. Sobald dieser Vorgang abgeschlossen wurde, stehen dir die Upvotes bei uns zur Verfügung und können über das Interface verwaltet werden. Ab diesem Zeitpunkt beginnt ebenfalls die Laufzeit der Upvotes. 
 
@@ -49,13 +49,13 @@ Nachdem dies bestätigt wurde, kann die Bestellung abgeschlossen werden. Die Inf
 
 Sobald die Upvotes im Webinterface sichtbar sind, können diese über den FiveM Client zugewiesen werden. Klicke dafür in der Serverliste bei dem Server deiner Wahl auf das Upvotes Icon. 
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/eyCidKx9eJenF6m/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/eyCidKx9eJenF6m/preview)
 
 
 
 Als Bestätigung sollte sich nun ein Pop-up öffnen, in dem bestätigt wird, dass die Upvotes erfolgreich zugewiesen wurden. 
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/oA4xPReeaoJ8XXa/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/oA4xPReeaoJ8XXa/preview)
 
 
 
@@ -63,7 +63,7 @@ Als Bestätigung sollte sich nun ein Pop-up öffnen, in dem bestätigt wird, das
 
 Falls die Upvotes an einen anderen Server zugewiesen werden sollen oder beim Zuweisen der Upvotes ein Fehler aufgetreten ist, können diese über das Dashboard zurückgesetzt werden.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/mCsTDgLSZqFyXrL/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/mCsTDgLSZqFyXrL/preview)
 
 
 Das Zurücksetzen der Upvotes kann einige Minuten beanspruchen. In der Regel können diese spätestens nach 60 Minuten erneut zugewiesen werden.

@@ -13,7 +13,6 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Cloudflare is a highly popular CDN (Content Delivery Network) provider which enchances your websites with improved security protection, DDoS mitigation and provides easy management via their dashboard. This guide will provide information about setting up your ZAP-Hosting domain to use it with Cloudflare through the use of ExpertDNS and adjusting nameservers.
 
-<InlineVoucher />
 
 ## Prerequisites
 In order to follow this guide, you will require:
@@ -24,21 +23,21 @@ In order to follow this guide, you will require:
 
 Begin by navigating to the web interface panel for your selected domain on your ZAP-Hosting account. Locate the **ExpertDNS** option and enable it by ticking the checkmark and pressing the save button.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/ZdJDTfAtjQe5Xgt/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/ZdJDTfAtjQe5Xgt/preview)
 
 ## Step 2: Setting up your Domain on Cloudflare
 
 The next steps will involve using Cloudflare, so begin by logging in to your Cloudflare account. Now that you are logged in, add your website to the dashboard by following the setup steps provided directly by Cloudflare.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/aSFWP63XsHZsKk9/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/aSFWP63XsHZsKk9/preview)
 
 Once you reach step 4 of the process, you will be provided with nameservers that you will have to set up.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/mN7gHoEZWjz7FJG/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/mN7gHoEZWjz7FJG/preview)
 
 Head over to your domain's web interface panel and access the **ExpertDNS** section. In this section, remove the default ZAP-Hosting nameservers and replace them with the ones that you were provided with by Cloudflare.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/cqboxyTns4o8B5j/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/cqboxyTns4o8B5j/preview)
 
 Make sure to save your changes once this is completed.
 

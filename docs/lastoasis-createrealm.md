@@ -19,23 +19,23 @@ One of the prerequisites to setup a new realm is to generate a key from the offi
 
 Simply, head over to [the official Last Oasis](https://myrealm.lastoasis.gg/) website and login with your preferred choice of platform (Steam or Xbox).
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/Z2sPJLFks9LY8cg/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/Z2sPJLFks9LY8cg/preview)
 
 ## Setting up server key
 Once logged in, you will already a **CustomerKey** which is the key for your game server.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/DgdDoCHf7DDjZ2s/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/DgdDoCHf7DDjZ2s/preview)
 
 Simply head over to the **Settings** section on your game server's webinterface and enter this code into the **Customer Key** field. Make sure to save after changing.
 
 ## Setting up provider key
 You will also have to create a provider key to uniquely identify your game server. Simply use the **Add Key** button to open a menu.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/JMQPTZrHcCxgEz2/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/JMQPTZrHcCxgEz2/preview)
 
 In the menu, fill out a useful name and description for the key and press **Add**.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/bfiaA2gjjjxESpM/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/bfiaA2gjjjxESpM/preview)
 
 :::tip
 If you wish to connect multiple Oases together in your Realm and have them active at the same time, use our [Multiple Oases](lastoasis-multiple-oases.md) guide to learn how to enable this.
@@ -46,36 +46,36 @@ Once again, head over to the **Settings** section on your game server's webinter
 ## Creating a Realm
 You can now proceed to create a realm. On the same [official Last Oasis](https://myrealm.lastoasis.gg/) website, head over to the **Realms** section and create a new Realm.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/ydzjKZTgG4L7QpQ/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/ydzjKZTgG4L7QpQ/preview)
 
 Select a name and fill out any additional details as you wish. Once ready, save the Realm. This is needed so that you can connect to your server.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/4rJq5r2zfHx66Qs/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/4rJq5r2zfHx66Qs/preview)
 
 Once you have created your Realm, you will be able to see an overview of the entire Realm where you can adjust any additional settings and view useful information.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/j5egcHeicf3QPiR/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/j5egcHeicf3QPiR/preview)
 
 ## Create an Oasis
 The final step is to create an Oasis within your Realm. For each game server that you own, you have to create a separate Oasis. For example, if you own 2 gameservers, you should create a separate oasis for both.
 
 Simply press the **Manage** button in the Realm overview.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/GNDZ7DaeLT2qAoC/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/GNDZ7DaeLT2qAoC/preview)
 
 On the new page, select a desired place for your new Oasis and press **Add** to confirm.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/dXKXKod6y8NE8SC/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/dXKXKod6y8NE8SC/preview)
 
 A new prompt will display where you are able to set a name and select a map.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/aKJmGmGQmz65Xnz/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/aKJmGmGQmz65Xnz/preview)
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/Hrq49c3TArdYXdG/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/Hrq49c3TArdYXdG/preview)
 
 Once confired, you can finally press **Add Oasis** to create the Oassis and active it using the **Activate** button.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/tfEXd4GgAMDd8sE/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/tfEXd4GgAMDd8sE/preview)
 
 :::tip
 If you wish to connect multiple Oases together in your Realm and have them active at the same time, use our [Multiple Oases](lastoasis-multiple-oases.md) to learn how to enable this.

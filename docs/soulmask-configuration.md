@@ -29,7 +29,7 @@ import TabItem from '@theme/TabItem';
 
 The main method to access your server configuration options is by heading over to the **Settings** section on your game server's webinterface and searching for the appropriate settings there, as seen below:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/QDPzFgWRrfB49HB/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/QDPzFgWRrfB49HB/preview)
 </TabItem>
 
 <TabItem value="ftp" label="Via FTP">

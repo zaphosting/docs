@@ -65,7 +65,7 @@ Ensure that you have created a suggestion on our [GitHub Repository](https://git
 
 The first step is to create your own fork of the ZAP-Hosting documentation repository from GitHub. You can do this by heading over to the [ZAP Docs GitHub repository](https://github.com/zaphosting/docs) and pressing the **Fork** button at the top of the page. 
 
-![image](https://github.com/zaphosting/docs/assets/42719082/9bc28311-0a4c-4c25-9736-9d0eab932689)
+![](https://github.com/zaphosting/docs/assets/42719082/9bc28311-0a4c-4c25-9736-9d0eab932689)
 
 You should name the repository based on the suggestion that was accepted and tick the `Copy the master branch only` text. Next, press the create button and await a few seconds until it has successfully forked. 
 
@@ -87,7 +87,7 @@ The easiest and recommended way to create content is to do so through the GitHub
 
 To begin, head over to the Fork that you have created in the previous step. Once you are on your ZAP Docs fork, you can access all of the documentation guides through the **docs** folder.
 
-![image](https://github.com/zaphosting/docs/assets/42719082/6a91889f-891d-440d-a5d3-720afc5d8abc)
+![](https://github.com/zaphosting/docs/assets/42719082/6a91889f-891d-440d-a5d3-720afc5d8abc)
 
 The documentation files are named in a simple convention, where the first word refers to the type of guide, typically a game, product or section and any following words refer to the specific section. For example `dedicated-windows.md` refers to the Dedicated Server section, specifically for the Windows OS.
 
@@ -98,7 +98,7 @@ Now you will either have to open an existing guide file or create a new one if y
 
 In this case, head over to the top right whilst you are in the `/docs` folder, and press **Add File**. In the menu, you should press **Create new file** which will open a new page.
 
-![image](https://github.com/zaphosting/docs/assets/42719082/5a980882-4b47-4e40-9d15-b3b9ea2fe650)
+![](https://github.com/zaphosting/docs/assets/42719082/5a980882-4b47-4e40-9d15-b3b9ea2fe650)
 
 On this page, you can set a name for your new guide at the top directory and simply begin writing your content.
 
@@ -106,7 +106,7 @@ On this page, you can set a name for your new guide at the top directory and sim
 Make sure that you don't forget to add `.md` as the file extension.
 :::
 
-![image](https://github.com/zaphosting/docs/assets/42719082/562269e1-aaf7-4b07-9bbe-5641e3b54274)
+![](https://github.com/zaphosting/docs/assets/42719082/562269e1-aaf7-4b07-9bbe-5641e3b54274)
 
 </TabItem>
 
@@ -116,7 +116,7 @@ In this case, open up the target file that you wish to edit, in this example, we
 
 Head over to the top right of the file and press the edit (pen) icon. This will open up an edit window where you can perform any changes that you have previously suggested and which have been accepted.
 
-![image](https://github.com/zaphosting/docs/assets/42719082/49570185-b495-42d2-b74a-0b9300922758)
+![](https://github.com/zaphosting/docs/assets/42719082/49570185-b495-42d2-b74a-0b9300922758)
 
 </TabItem>
 </Tabs>
@@ -127,7 +127,7 @@ Now that your file is ready, you can proceed to write the content that was agree
 
 You can use the **Preview** button at the top of the edit window to switch to the preview mode which will display the rough preview and switch back again via the **Edit** button.
 
-![image](https://github.com/zaphosting/docs/assets/42719082/711ae450-e8c7-4a03-b358-4c5cf2caa7ba)
+![](https://github.com/zaphosting/docs/assets/42719082/711ae450-e8c7-4a03-b358-4c5cf2caa7ba)
 
 :::note
 Please keep in mind that some Docusaurus-specific elements such as admonitions (tags like `:::note`, `:::tip` etc.) may not show up correctly when previewing through GitHub. This is because they aren't part of traditional Markdown, however, they will display correctly during local testing and production.
@@ -137,7 +137,7 @@ Please refer to the [Guidelines](contribution-guides-guidelines.md) for everythi
 
 Once you have performed your changes, use the **Commit changes...** button which will display a prompt.
 
-![image](https://github.com/zaphosting/docs/assets/42719082/1c401a6f-71ef-4853-8d9e-3f5e400f2c2c)
+![](https://github.com/zaphosting/docs/assets/42719082/1c401a6f-71ef-4853-8d9e-3f5e400f2c2c)
 
 Enter a useful commit message that explains what you have done and an extended description where appropriate. Finally, commit the changes. This will commit it to your fork of the docs. You may now head over to the **Submitting Content** section to create a Pull Request to submit the content to our main ZAP-Hosting Docs Repository.
 
@@ -154,7 +154,7 @@ You may prefer to write content locally via an IDE or editor such as Visual Stud
 
 The first part of the process is to clone your fork repository. The simpler and more user-friendly way of doing this is through GitHub Desktop by selecting **Add**, followed by **Clone repository** and choosing your fork repository. You may also do this directly through the Visual Studio Code application.
 
-![image](https://github.com/zaphosting/docs/assets/42719082/75f02edb-0b46-4c5a-a4ca-c1fd2f49a1c3)
+![](https://github.com/zaphosting/docs/assets/42719082/75f02edb-0b46-4c5a-a4ca-c1fd2f49a1c3)
 
 Next, open up the repository folder within Visual Studio Code. On the **Explorer** left tab you should see all of the folders within the repository.
 
@@ -179,7 +179,7 @@ sidebar_label: Admin Commands
 
 The final step for ensuring that your newly created page shows up on the sidebar is to add it to the `sidebar.js` file in the correct place. Since the **Rust** section already exists, we can find it using `CTRL+F` and searching for rust. Under the last item, you should create a new line and enter the name of your file, in this example, it will be `rust-commands`.
 
-![image](https://github.com/zaphosting/docs/assets/42719082/c5480a84-1778-4c62-928a-928fd4da962e)
+![](https://github.com/zaphosting/docs/assets/42719082/c5480a84-1778-4c62-928a-928fd4da962e)
 
 :::note
 Ensure that you add a comma (`,`) on the line before your new line so that the syntax is correct. 
@@ -206,7 +206,7 @@ You can use `CTRL+SHIFT+V` or press the preview icon in the top right of the edi
 Please keep in mind that some Docusaurus-specific elements such as admonitions (tags like `:::note`, `:::tip` etc.) may not show up correctly when previewing through GitHub. This is because they aren't part of traditional Markdown, however, they will display correctly during local testing and production.
 :::
 
-![image](https://github.com/zaphosting/docs/assets/42719082/95effdaa-ab2d-4556-832c-dad33834d636)
+![](https://github.com/zaphosting/docs/assets/42719082/95effdaa-ab2d-4556-832c-dad33834d636)
 
 Please refer to the [Guidelines](contribution-guides-guidelines.md) for everything regarding Markdown, structure, terminology and more.
 
@@ -262,7 +262,7 @@ Once you are satisfied with your changes, you may now head over to the next sect
 
 Once you have made your necessary contributions which you believe follow our guidelines closely and are of the highest standard, you may create a Pull Request. You can do this by heading over to your fork of the ZAP Docs repository, pressing the **Contribute** text found below the primary buttons and opening a pull request.
 
-![image](https://github.com/zaphosting/docs/assets/42719082/d08ce65e-2c21-4110-97d4-a15588172db4)
+![](https://github.com/zaphosting/docs/assets/42719082/d08ce65e-2c21-4110-97d4-a15588172db4)
 
 A new page will open up where you can view the changes that you have produced. By default, the description will contain a small checklist to ensure that you have done everything correctly and comprehensively. You may delete this template once you have browsed it as it is not needed.
 
@@ -270,7 +270,7 @@ Next, please set an appropriate title that explains what has been done. Within t
 
 Once you have populated the title, description and ensured that the changes are correct, you may create your pull request via the button to submit it to our Repository.
 
-![image](https://github.com/zaphosting/docs/assets/42719082/fc04a359-bffc-459b-89fd-94eee74e4a71)
+![](https://github.com/zaphosting/docs/assets/42719082/fc04a359-bffc-459b-89fd-94eee74e4a71)
 
 Our system will ensure that your changes pass a range of syntax and quality checks. If both of these checks pass successfully, your Pull Request will finally be reviewed by the ZAP-Hosting docs team within a couple of days. 
 

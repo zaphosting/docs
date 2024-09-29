@@ -37,27 +37,27 @@ Minecraft modpacks have the same slot price. Since no host system change is nece
 
 You can add and activate more games in the web interface of your game server under Settings - Games:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/Bk7MStAGX8S5yd9/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/Bk7MStAGX8S5yd9/preview)
 
 You will then be shown a list with the games already installed:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/SM2n68EgTj6HtjM/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/SM2n68EgTj6HtjM/preview)
 
 Under "Available games" you can find all games that you can install on your server without additional costs. To install another game, select the game you want to install. For installation press the green button:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/qjctAP2teo9Y5eC/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/qjctAP2teo9Y5eC/preview)
 
 Confirm the setup:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/5Z9M98iCz8BHz4y/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/5Z9M98iCz8BHz4y/preview)
 
 After installation, the new game will be displayed in the list of installed games. To change the game, the new game must still be activated:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/wBgEXwCDzxQXiWj/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/wBgEXwCDzxQXiWj/preview)
 
 Once activated, you can play your new game on your server. In the overview you can still activate your old game at any time:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/3eZP5zzPsSHePfw/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/3eZP5zzPsSHePfw/preview)
 
 Via the game server cloud, you can reinstall your game servers with one click:
 
@@ -65,17 +65,17 @@ Via the game server cloud, you can reinstall your game servers with one click:
 ***Attention:*** All data of the game will be deleted during reinstallation
 :::
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/oZ3CzexCyLoQ8bA/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/oZ3CzexCyLoQ8bA/preview)
 
 ## Change slot prices
 
 If you want to switch to a game that has a higher slot price or you don't need additional slots for a game with a lower slot price, then you can change the slot price of your game server. Games with a higher slot price are listed under "More games". To change the slot price, click on "Change slot price":
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/dfpniATdySdK5JD/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/dfpniATdySdK5JD/preview)
 
 You can select your new slot price in the edit box. The additional amount that has to be paid (slot price increase) or the credit will be displayed. The games available at the new slot price are also displayed:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/HnBQSzAEKibdz4Z/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/HnBQSzAEKibdz4Z/preview)
 
 If the slot price changes, your booked slots will automatically be adjusted.
 
@@ -83,4 +83,4 @@ If the slot price changes, your booked slots will automatically be adjusted.
 Note: If the slot price is reduced below the slot price for the installed games, then those games will be deleted!
 :::
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/ti6AENTLEWbQcaE/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/ti6AENTLEWbQcaE/preview)

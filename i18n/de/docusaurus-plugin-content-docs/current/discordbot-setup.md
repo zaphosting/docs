@@ -26,23 +26,23 @@ Um deinen Bot einzurichten, muss der [Zugriff per FTP](gameserver-ftpaccess.md) 
 
 Sobald du über FTP verbunden bist, kannst du den Discord Bot Ordner öffnen und deine Botdateien hochladen.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/XKc2bRwifG5JswA/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/XKc2bRwifG5JswA/preview)
 
 ## Bot hochladen
 
 Jetzt können wir unsere Bot-Dateien einfach in den leeren Ordner hochladen:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/3pdXmN6fX3Qowbm/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/3pdXmN6fX3Qowbm/preview)
 
 ## Konfiguration des Dashboards
 
 Damit du deinen Bot über das Dashboard ausführen kannst, musst du es erst unter "Einstellungen" konfigurieren:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/itzjxJaTtTyGaD6/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/itzjxJaTtTyGaD6/preview)
 
 Hier kannst du nun die Programmiersprache und die Hauptdatei des Bots festlegen:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/KofY38BgAS9xT4L/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/KofY38BgAS9xT4L/preview)
 
 In unserem Fall sind dies Python 3 und main.py.
 

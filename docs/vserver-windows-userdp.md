@@ -23,7 +23,7 @@ Begin by going to your server's web interface panel and heading over to the **Ac
 
 If your server is new, you will be able to access your initial ranomly-generated password on this page via a prompt. Otherwise, the password is redacted for security reasons, but if you forget the password at any point, simply generate or set a new one on the same page.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/amLy6sC6XzBN5fQ/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/amLy6sC6XzBN5fQ/preview)
 
 Now that you have your connection information ready, head over to the next section to select an appropriate application to connect.
 
@@ -31,11 +31,11 @@ Now that you have your connection information ready, head over to the next secti
 
 Since the inception of RDP, Windows OS has the **Remote Desktop Connection** application installed as a core system application. You can access this simply by searching for this in the Windows search bar or by pressing the Windows key/icon and using the start menu search bar.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/TRfpNC3rACZ3KGB/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/TRfpNC3rACZ3KGB/preview)
 
 In the new window, fill in the **Computer** field as your server's IP Address and press **Connect**. You should now see a Windows native credentials prompt display, where you should input the **Username** as `Administrator` and the **Password** which is the password for your Windows server.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/GCRs6KbGHz27HBS/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/GCRs6KbGHz27HBS/preview)
 
 Now press **OK** and you should be able to remote connect to your Windows server. If you are facing issues, double check that the credentials you inputted are correct.
 

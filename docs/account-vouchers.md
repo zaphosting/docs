@@ -10,7 +10,7 @@ Found a voucher code which you wish to redeem as money to your cashbox (ZAP Coin
 
 To begin, you should login or register on our website in order to be able to use codes. This can be done very quickly and easily through the top login panel.
 
-![image](https://github.com/zaphosting/docs/assets/42719082/f81bcb46-2129-47c9-ab98-90b746e01fd0)
+![](https://github.com/zaphosting/docs/assets/42719082/f81bcb46-2129-47c9-ab98-90b746e01fd0)
 
 
 
@@ -23,17 +23,17 @@ There are two different types of coupon codes:
 ## Voucher ZAP Coin codes
 Voucher ZAP coin codes can be redeemed very easily through your webinterface panel. Simply head over to your **Cashbox** by pressing the ZAP Coins text at the top of your web interface.
 
-![image](https://github.com/zaphosting/docs/assets/42719082/e436f9d9-ad85-482a-90fa-03fe6cd6836e)
+![](https://github.com/zaphosting/docs/assets/42719082/e436f9d9-ad85-482a-90fa-03fe6cd6836e)
 
 Once you are in on your **Cashbox** page, scroll down to the blue **Use Voucher** button. Press the button to open up a menu. 
 
-![image](https://github.com/zaphosting/docs/assets/42719082/cee125ff-06b1-460b-a4d9-8c71157c50c4)
+![](https://github.com/zaphosting/docs/assets/42719082/cee125ff-06b1-460b-a4d9-8c71157c50c4)
 
 
 
 Here you can enter the voucher code that you received. Once ready, press the green **Use voucher** button in order to submit it.
 
-![image](https://github.com/zaphosting/docs/assets/42719082/0daa73de-00a6-4079-9e93-c12d9df8f222)
+![](https://github.com/zaphosting/docs/assets/42719082/0daa73de-00a6-4079-9e93-c12d9df8f222)
 
 
 
@@ -53,15 +53,15 @@ Discount codes work similar to credit codes, but are used elsewhere in the webin
 
 Firstly, find the product that you wish to order on our website and configure it to your likings within our server configurator.
 
-![image](https://github.com/zaphosting/docs/assets/42719082/93fce0a9-1ff6-4878-9625-6581361324ef)
+![](https://github.com/zaphosting/docs/assets/42719082/93fce0a9-1ff6-4878-9625-6581361324ef)
 
 
 
 Once everything is configured correctly, you can now use your code in the ordering process. Scroll down to the bottom, select your payment method, and simply click the **Redeem voucher** text below the order total.
 
-![image](https://github.com/zaphosting/docs/assets/42719082/8e27371d-a9db-4dae-bc52-6861fcbc5598)
+![](https://github.com/zaphosting/docs/assets/42719082/8e27371d-a9db-4dae-bc52-6861fcbc5598)
 
-![image](https://github.com/zaphosting/docs/assets/42719082/6502ef6a-16bf-4066-a25d-58d312caa0f1)
+![](https://github.com/zaphosting/docs/assets/42719082/6502ef6a-16bf-4066-a25d-58d312caa0f1)
 
 
 

@@ -16,7 +16,7 @@ In order to understand the applicable terms to your product, you must know your 
 - Termination Period: This refers to the period of time that you have from the purchase date, in order to change your mind and cancel your product. You will be credited with ZAP Coins (account credit) if you choose to terminate, which you can spend on another product.
 - Cancellation Period: This refers to the period of time prior to which you must let us know about your decision to cancel your contract. This only applies to **Contract** settlement products.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/DwktektyCP4jfLM/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/DwktektyCP4jfLM/preview)
 
 ## Terminating your Product
 
@@ -30,19 +30,19 @@ To begin, login to your ZAP-Hosting account and head over to your [web interface
 
 From here, head over to the **Orders** section on the left-hand side panel.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/TYJ5oGkDMyb6XQD/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/TYJ5oGkDMyb6XQD/preview)
 
 On this page, locate the product that you wish to terminate. Once found, select the red **Revoke Order** button.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/2QEABQLPMWxy28q/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/2QEABQLPMWxy28q/preview)
 
 You will see a prompt appear which provides you with key information as well as your eligibility for termination. Select **Continue Revocation** if you wish to proceed with the process.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/8nB5LWn6xibnFf6/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/8nB5LWn6xibnFf6/preview)
 
 Lastly the prompt will extend to present you with information regarding the refund in ZAP Coins that you will receive. We are sad to see you terminate your order and we hope that you can provide us with some feedback for improvement. Once certain, select **Revoke Order** to complete the process.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/SYmz97Pc65qSbW8/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/SYmz97Pc65qSbW8/preview)
 
 You have now completed the termination process. It may take a few minutes for the process to complete, please be patient.
 
@@ -70,19 +70,19 @@ To begin, login to your ZAP-Hosting account and head over to your [web interface
 
 On the dashboard, locate your **contract** product and select the blue **Show Package** button.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/Ep7QPaLiwJSS82N/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/Ep7QPaLiwJSS82N/preview)
 
 Now on this page, select the red **Cancel Contract** option in the top right corner.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/cTwq7FD6pZzRyBb/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/cTwq7FD6pZzRyBb/preview)
 
 This will open up a prompt, which presents you with the option to contact our Support Team or continue with cancellation. If you wish to proceed, continue with the **Cancel Contract** option.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/WqWsCLw9x9jP6Xe/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/WqWsCLw9x9jP6Xe/preview)
 
 Lastly, you will be able to view information regarding the cancellation. As per our policies, you will be able to view the next possible cancellation date. We are sad to see you cancel your product and we hope that you can provide us with some feedback for improvement. Once certain, select **Cance Contract** to complete the process.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/DE9tFcJNZTHdR96/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/DE9tFcJNZTHdR96/preview)
 
 You have now completed the cancellation process, which will occur on the next possible date that was displayed.
 

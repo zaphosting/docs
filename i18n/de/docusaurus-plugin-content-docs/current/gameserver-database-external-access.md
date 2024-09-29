@@ -15,7 +15,7 @@ Bei den Gameserver Produkten bietet ZAP-Hosting MySQL Datenbanken inklusive an. 
 
 Hierfür werden die Zugangsdaten zu der Datenbank benötigt. Diese befinden sich in der Gameserver Verwaltung unter Datenbanken. Hierbei werden die Informationen bezüglich **Server/IP**, **Datenbank**, **Benutzer**, **Passwort** und des Standard Port **3306** benötigt:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/ZFo5GQk62i4734q/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/ZFo5GQk62i4734q/preview)
 
 <InlineVoucher />
 
@@ -27,7 +27,7 @@ Zunächst benötigen wir eine Software, um zur Datenbank zu verbinden, in diesem
 
 Damit die Verbindung in HeidiSQL hergestellt werden kann, legen wir mit "Neu" eine neue Verbindung an.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/YWmR2aTJzWP7LqH/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/YWmR2aTJzWP7LqH/preview)
 
 Bei Hostname / IP, tragen wir den Namen deiner Datenbank an, in unserem Beispiel "mysql-mariadb-5-101.zap-hosting.com"
 Benutzername und Passwort sind ebenso den Angaben zu entnehmen, Port bleibt auf 3306
@@ -49,4 +49,4 @@ werden. Klicke dafür einmal einen Doppelklick auf deine Datenbank oder Rechtskl
 
 
 Im Anschluss öffnet sich die Datenbank mit allen vorhandenen Datenbanktabellen. Dort kann nun deine Datenbank ähnlich wie in PhpMyAdmin sowohl per Klick als auch per SQL-Befehle verändert oder verwaltet werden. 
-![image](https://screensaver01.zap-hosting.com/index.php/s/8FaoQai8AriXZDz/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/8FaoQai8AriXZDz/preview)

@@ -13,8 +13,6 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Mit der **EasyDNS Funktion** kann die Weiterleitung einer Domain, welche bei **uns** gemietet wurde, auf ein anderes Produkt auf demselben Account mit einem Klick eingestellt werden.
 
-<InlineVoucher />
-
 ## Wo finde ich die EasyDNS Option und wie verwende ich es?
 
 Die Option wird einem angezeigt, soweit man die gewünschte Domain bei sich im Interface anklickt.
@@ -26,7 +24,7 @@ So wie es im obigen Beispiel zu sehen ist.
 Man wählt den gewünschten Dienst aus und bestätigt es dann mit einem Klick auf den "Speichern" Button.
 Es gibt ebenfalls die Option, dass man seine Domain mit einer Subdomain auf einen Minecraft Server weiterleitet.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/YXK3YQNowQAYW8B/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/YXK3YQNowQAYW8B/preview)
 
 Hier kann im ersten Feld der Name der **gewünschten Subdomain** eingetragen werden.
 Rechts daneben wählt man den gewünschten **Minecraft Server** aus, welchen man mit der Subdomain dann verknüpfen möchte.

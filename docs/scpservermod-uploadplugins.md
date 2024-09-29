@@ -20,7 +20,7 @@ Before plugins can be installed, the [Access via FTP](gameserver-ftpaccess.md) m
 After this has been setup, you can connect and open the following server folder.
 `/g#####/scp/sm_plugins`
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/2Fid5MKq57YDCNj/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/2Fid5MKq57YDCNj/preview)
 
 ## Installing Plugins
 
@@ -36,15 +36,15 @@ This is only one place you can get them. They could be found elsewhere. It's imp
 
 In this example, we will get the following plugin:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/bEEQP3cm33fgMFi/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/bEEQP3cm33fgMFi/preview)
 
 ### Uploading Plugins
 
 Once you have your wanted plugins installed, you will then upload them to your server FTP. You can upload them via **drag&drop** into the **sm_plugins folder.**
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/HzRKJXFyENqK4N8/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/HzRKJXFyENqK4N8/preview)
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/kSSMs23E6g4PfwN/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/kSSMs23E6g4PfwN/preview)
 
 :::info
 Note: After any plugin installation, you will have to **restart your server** for them **to take affect.**
@@ -56,23 +56,23 @@ Depending on the plugin, there could be various configurations you will have to 
 
 In our example plugin, the following configurations are defined.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/5PrLzeCQaFamGRn/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/5PrLzeCQaFamGRn/preview)
 
 To add these, we would edit the config_gameplay.txt.
 
 You can find that using the **Configs** tab on the left.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/mMck39x2mEnLtLY/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/mMck39x2mEnLtLY/preview)
 
 And then we can find the **config_gameplay.txt**
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/SGLpBYM5DAWRRzN/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/SGLpBYM5DAWRRzN/preview)
 
 :::info
 The configurations themselves can really be written anywhere. For best practice, we will write them under the '#Misc gameplay settings' in the config.gameplay.txt file.
 :::
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/JMK542jpCj472ag/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/JMK542jpCj472ag/preview)
 
 :::info
 NOTE: Depending on the plugin, your configurations will be different. Always make sure to read the instructions with that plugin, so you can add the configs correctly.

@@ -31,7 +31,7 @@ import TabItem from '@theme/TabItem';
 
 Die benutzerfreundlichste Möglichkeit ist es, im Webinterface deines Gameservers in den Bereich **Einstellungen** zu gehen und dort nach den entsprechenden Einstellungen zu suchen, wie unten dargestellt:
 
-![image](https://github.com/zaphosting/docs/assets/42719082/43d0e6eb-a24d-46b8-a6a2-5659ae94084c)
+![](https://github.com/zaphosting/docs/assets/42719082/43d0e6eb-a24d-46b8-a6a2-5659ae94084c)
 </TabItem>
 
 <TabItem value="configs" label="Konfigurationsdatei">
@@ -40,7 +40,7 @@ Die benutzerfreundlichste Möglichkeit ist es, im Webinterface deines Gameserver
 
 Alternativ kannst du die Datei auch direkt bearbeiten, indem du im Webinterface deines Gameservers in den Bereich **Configs** gehst und den blauen editieren Button drückst, wie unten zu sehen:
 
-![image](https://github.com/zaphosting/docs/assets/42719082/e3c7392c-7246-4133-be2e-383dac4b0327)
+![](https://github.com/zaphosting/docs/assets/42719082/e3c7392c-7246-4133-be2e-383dac4b0327)
 
 Es öffnet sich ein Texteditor zur Bearbeitung direkt auf der Website.
 </TabItem>
@@ -72,7 +72,7 @@ Nun kannst du den Namen deines Servers ändern, indem du eine der drei Methoden 
 sv_hostname "^2ZAP-Hosting ^0| ^4Official Community Server ^0- ^1Events coming ^8soon^1!"
 ```
 
-![image](https://github.com/zaphosting/docs/assets/42719082/32bbf492-9ee0-4c78-a391-9c44120369c2)
+![](https://github.com/zaphosting/docs/assets/42719082/32bbf492-9ee0-4c78-a391-9c44120369c2)
 
 
 
@@ -95,7 +95,7 @@ sv_hostname "^2ZAP-Hosting ^0| ^4Official Community Server ^0- ^1Events coming ^
 
 FiveM ermöglicht es dir auch, Emojis direkt in deinem Servernamen zu platzieren. Füge einfach beliebige Emojis in den Parameter `sv_hostname` in deiner Serverkonfiguration ein und schon funktioniert es. Du brauchst dafür keine FiveM Patreon Mitgliedschaft. Hier ist ein Beispiel für das Hinzufügen von Emojis über das Webinterface deines Gameservers:
 
-![image](https://github.com/zaphosting/docs/assets/42719082/43d0e6eb-a24d-46b8-a6a2-5659ae94084c)
+![](https://github.com/zaphosting/docs/assets/42719082/43d0e6eb-a24d-46b8-a6a2-5659ae94084c)
 
 Du kannst dies auch direkt in der Konfigurationsdatei `server.cfg` per FTP oder in dem Abschnitt **Configs** beim Webinterface deines Gameservers hinzufügen.
 
@@ -111,7 +111,7 @@ Um einen kurzen und prägnanten Überblick über deinen Server zu bekommen, kann
 sets sv_projectDesc "Join our Discord to stay updated on latest events! discord.gg/zaphosting"
 ```
 
-![image](https://github.com/zaphosting/docs/assets/42719082/32bbf492-9ee0-4c78-a391-9c44120369c2)
+![](https://github.com/zaphosting/docs/assets/42719082/32bbf492-9ee0-4c78-a391-9c44120369c2)
 
 ### Server Tags
 
@@ -121,7 +121,7 @@ Das Setzen von Server-Tags kann nützlich sein, um den Inhalt eures Servers einz
 sets tags "zap, zap-hosting, official, community, zap-community, zap-community-server"
 ```
 
-![image](https://github.com/zaphosting/docs/assets/42719082/33407e9f-9e28-4264-9b13-e946ed5b434a)
+![](https://github.com/zaphosting/docs/assets/42719082/33407e9f-9e28-4264-9b13-e946ed5b434a)
 
 ### Sonstiges
 

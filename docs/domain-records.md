@@ -13,8 +13,6 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Domains can be configured easily by utilising a wide variety of DNS record types which perform different actions. In this guide, we will cover all of the different record types and explain how they work.
 
-<InlineVoucher />
-
 ## A Records
 
 An A record is used to create a forwarding of a "**sub**" or "**main domain**" to an "**IPv4 address**".

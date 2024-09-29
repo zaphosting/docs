@@ -18,7 +18,7 @@ Es gibt verschiedene Orte wo Mods gefunden werden können, die offizielle Ressou
 ## Hochladen der Daten
 Wir müssen uns zuerst per FTP auf den BeamMP-Server verbinden. Die Zugangsdaten zu deiner FTP-Verbindung findest du im FTP-Browser in deinem ZAP Interface.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/PxGfR37aRyPGQ4c/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/PxGfR37aRyPGQ4c/preview)
 
 Verbinde dich mit einem FTP Programm deiner Wahl und öffne das Verzeichnis
 

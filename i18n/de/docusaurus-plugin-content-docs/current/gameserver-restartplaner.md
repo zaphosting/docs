@@ -21,7 +21,7 @@ Diese Funktion ist nur für Gameserver eingebunden
 
 Auffinden kann man diese Funktion daher in dem Gameserver Interface von dem bestellten Gameserver.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/TcTCFpzeqq6pPby/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/TcTCFpzeqq6pPby/preview)
 
 <InlineVoucher />
 
@@ -42,7 +42,7 @@ Die Eingabe bestätigen wir mit "**Speichern**"
 Dieser Vorgang wird jetzt für jeden gewünschten automatischen Neustart wiederholt.
 Bei "**24:00**" wird von dem System eine Fehlermeldung angezeigt. Um diesen Fehler zu vermeiden, muss dort stattdessen "**00:00**" genutzt werden.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/TdJwPbpwz3kbTo7/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/TdJwPbpwz3kbTo7/preview)
 
 ###  Offline Server starten
 
@@ -54,7 +54,7 @@ Die Befehle unter den festgelegten automatischen Neustarts, sollen dafür genutz
 
 Diese Funktion würde den Befehl so wie er dort eingetragen wird, an die Konsole weiterleiten. Sollen Spieler vorgewarnt werden, kann bei Minecraft der *say* Befehl genutzt werden
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/Crt5ZPSgqXB2b23/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/Crt5ZPSgqXB2b23/preview)
 
 ### Verzögerung
 

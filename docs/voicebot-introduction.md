@@ -13,14 +13,14 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Are you looking for a Voicebot for your voiceserver, whether it's Teamspeak 3/5 or Discord? Then you've come to the right place at ZAP-Hosting! At ZAP-Hosting, you can rent or buy your suitable Voicebot. You can then link it accordingly with a Teamspeak 3/5 or Discord server.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/7gJ9DLXMzCsYdok/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/7gJ9DLXMzCsYdok/preview)
 
 <InlineVoucher />
 
 ## Ordering
 The ordering process is quite simple. Choose your desired configuration for your [Voicebot](https://zap-hosting.com/en/shop/product/voicebot/). The setup time for the Voicebot takes only a few seconds. Afterward, you can immediately begin with the individual customization and configuration of your Voicebot.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/6siF2pLmaZe2DsC/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/6siF2pLmaZe2DsC/preview)
 
 
 

@@ -19,11 +19,11 @@ The assignment of administrator permissions allows you simple and comprehensive 
 Thanks to our web interface you can quickly and easily become an admin.
 Open the settings of your server:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/5REAZ9XS44M8KnK/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/5REAZ9XS44M8KnK/preview)
 
 there look for the option "Admins - Steam64 IDs (e.g. for Nucleus, vMenu, EasyAdmin)".
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/Ybex9S2zC6bH96D/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/Ybex9S2zC6bH96D/preview)
 
 in the next step you have to find out your STEAM64 ID, open one of the following pages:
 
@@ -33,13 +33,13 @@ in the next step you have to find out your STEAM64 ID, open one of the following
 
 in this example we use steamid.io, log in there via STEAM:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/bXtwxxgZRndBc2T/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/bXtwxxgZRndBc2T/preview)
 
 now copy your STEAM64 ID and paste it into the admins:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/kqLwo9LZd9Ce6B4/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/kqLwo9LZd9Ce6B4/preview)
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/6Z5fJR4xcTWATiF/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/6Z5fJR4xcTWATiF/preview)
 
 Now scroll to the end of the page and click save.
 

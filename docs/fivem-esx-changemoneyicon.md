@@ -18,7 +18,7 @@ First the [Access via FTP](gameserver-ftpaccess.md) must be set up.
 
 After this has been set up, you can now connect and open the server folder.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/pxEfN8qRjRJGWzN/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/pxEfN8qRjRJGWzN/preview)
 
 
 Here we open the `server.cfg` file in the `server-data` folder.
@@ -33,7 +33,7 @@ set es_moneyIcon "$"
 
 Here we can now replace the $ with our own icon.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/gYapTyixG98AQo5/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/gYapTyixG98AQo5/preview)
 
 
 After Saving the File and Restarting the server, the Money Icon will be changed ingame.

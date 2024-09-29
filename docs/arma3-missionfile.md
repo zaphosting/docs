@@ -15,7 +15,7 @@ For uploading your own mission file you have to connect to your server via FTP b
 There you have to upload the mission file into your **mpmissions** directory which you can find under **/gxxxxxx/arma3/**.
 In this example we upload the mission file **King_of_the_hill.Altis** to our server.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/jkfK9X48qj2e7Pn/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/jkfK9X48qj2e7Pn/preview)
 
 <InlineVoucher />
 
@@ -23,12 +23,12 @@ In this example we upload the mission file **King_of_the_hill.Altis** to our ser
 
 To load the mission file from the server, go to your Arma 3 server interface and click on the **Configs** tab in the menu on the left:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/PD98ATq8xHdjy8Q/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/PD98ATq8xHdjy8Q/preview)
 
 There you edit the file **server.cfg** and enter the name of your mission file as shown in the picture: 
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/aG7QESxyTNpATsG/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/aG7QESxyTNpATsG/preview)
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/6TZ7mc578pcHpbF/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/6TZ7mc578pcHpbF/preview)
 
 After that, click **Save** and you can start your server. The new mission file will be loaded.

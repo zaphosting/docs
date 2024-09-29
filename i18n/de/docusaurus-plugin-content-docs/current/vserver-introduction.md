@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Du suchst nach deinem eigenen Server mit leistungsstarker Konfiguration zu einem fairen Preis? Dann bist du bei ZAP-Hosting genau richtig! Bei ZAP-Hosting kannst du deinen passenden vServer oder Rootserver mieten oder kaufen, um das maximale Leistungserlebnis für viele Anwendungsfälle zu erleben!
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/WY3eGoELodGwQMB/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/WY3eGoELodGwQMB/preview)
 
 <InlineVoucher />
 
@@ -21,7 +21,7 @@ Du suchst nach deinem eigenen Server mit leistungsstarker Konfiguration zu einem
 
 Der Bestellvorgang ist sehr einfach. Wähle deine gewünschte Konfiguration für deinen [vServer](https://zap-hosting.com/en/vServer-hosting/) oder [Rootserver](https://zap-hosting.com/en/root-server-hosting/). Die Einrichtungszeit dauert nur wenige Sekunden. Anschließend kannst du sofort mit der Konfiguration beginnen.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/36yfq9XSrKNmjSg/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/36yfq9XSrKNmjSg/preview)
 
 ## Konfigurationen
 

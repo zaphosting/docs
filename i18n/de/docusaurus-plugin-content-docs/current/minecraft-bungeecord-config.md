@@ -70,7 +70,7 @@ servers:
 ```
 Die **motd** ist die Nachricht, welche in der deiner Serverliste angezeigt wird, wenn du den einzelnen Unterserver über die Funktion *forced_hosts* anpingst:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/2wgQ3abQ3JeaRqt/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/2wgQ3abQ3JeaRqt/preview)
 
 Unter **address** gibst du die entsprechende IP des Unterservers ein. Wenn der Wert **restricted** auf true ist, muss der Spieler die Berechtigung *bungeecord.server.[Spieler]* besitzen, um den Unterserver betreten zu können.
 

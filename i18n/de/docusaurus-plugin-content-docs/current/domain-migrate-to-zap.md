@@ -13,8 +13,6 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Du bist neu und interessierst dich für die Produkte von ZAP-Hosting? Dann bist du hier genau richtig. Zunächst einmal herzlich willkommen bei ZAP-Hosting! Es freut uns, dass du dich für unsere Dienstleistungen interessierst und dich darüber informieren möchtest, wie du deine bestehende Domain von einem anderen Anbieter zu uns umziehen möchtest. Dieses Dokument wird dir die allgemein notwendigen Schritte mitteilen, die du erledigen musst, um deine Domain erfolgreich zu uns umzuziehen. 
 
-<InlineVoucher />
-
 ## Vorteile
 
 Mit Sicherheit stehst du vor der Entscheidung, welcher Anbieter der richtige für dich ist. Solch eine Entscheidung kann unter Umständen viel Zeit beanspruchen. Aus diesem Grund möchten wir dir bei der Entscheidung weiterhelfen und die Vorteile von ZAP-Hosting mit dir teilen. Mit Sicherheit stehst du vor der Entscheidung, welcher Anbieter der richtige für dich ist. Solch eine Entscheidung kann unter Umständen viel Zeit beanspruchen. Aus diesem Grund möchten wir dir bei der Entscheidung weiterhelfen und die Vorteile von ZAP-Hosting mit dir teilen. ZAP-Hosting bietet bereits seit über einem Jahrzehnt seine Dienstleistungen an und ist somit ein etablierter und erfahrener Anbieter im Server Hosting Bereich.
@@ -37,7 +35,7 @@ Der Auth-Code ist nur für eine bestimmte Zeit gültig. Nach Ablauf dieser Zeit 
 
 Vorausgesetzt, dass du deinen Auth-Code besitzt, kannst du jetzt mit der Bestellung und Registrierung deiner Domain bei ZAP-Hosting fortfahren. Rufe dafür die Bestellseite für unsere [**Domains**](https://zap-hosting.com/de/shop/product/domain/) auf. Fülle zunächst deine persönlichen Daten aus und suche dann nach der Domain, die du übertragen möchtest.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/FaFECx24GLSfkPy/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/FaFECx24GLSfkPy/preview)
 
 :::info
 Um eine Domain zu übertragen, musst du sie während des Bestellvorgangs um 1 Jahr verlängern. Das ist bei allen Anbietern üblich.
@@ -45,11 +43,11 @@ Um eine Domain zu übertragen, musst du sie während des Bestellvorgangs um 1 Ja
 
 Daraufhin öffnet sich eine Liste deiner Wunschdomain mit allen verfügbaren Domainendungen. Domains, die bereits woanders registriert sind, erkennst du an der grauen Schaltfläche mit dem Pfeil. 
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/omnaMqXJgarxsqW/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/omnaMqXJgarxsqW/preview)
 
 Suche die Domain, die du übertragen möchtest, und klicke auf den Pfeil. Daraufhin öffnet sich eine neue Eingabeaufforderung, mit der du den Transfer zu deinem ZAP-Hosting-Konto autorisierst.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/y9mca4c3XeTaaHS/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/y9mca4c3XeTaaHS/preview)
 
 In dieses Feld musst du den **Auth Code** eingeben, den du von deinem vorherigen Anbieter während der Vorbereitung erhalten hast. Sobald du fertig bist, übermittle ihn mit der grünen Schaltfläche **Hinzufügen**.
 

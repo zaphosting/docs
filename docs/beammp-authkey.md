@@ -19,11 +19,11 @@ An Auth Key is required if the server is to be displayed in the server list, oth
 To create your own authkey, we first log in to https://beammp.com/keymaster, which requires a Discord account.
 After we have logged in, we click on "Keys" on the left, which takes us to the Licensekey overview:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/Zp72q2WR85pxJgq/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/Zp72q2WR85pxJgq/preview)
 
 Here we now click on the blue "here" to create the key:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/ARqCQyEbF6BYnH4/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/ARqCQyEbF6BYnH4/preview)
 
 
 ## Specify data
@@ -38,19 +38,19 @@ Now we can fill in the data as follows:
 
 The IP must be specified without the port, we can find this at the top of our interface:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/8MJeXxm87EdLykg/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/8MJeXxm87EdLykg/preview)
 
 ## Create Key
 
 Now we click on "Create", a key will now be generated.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/Ebyk5tPCHnppcWC/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/Ebyk5tPCHnppcWC/preview)
 
 ## Set Key
 
 Now we open the settings of our game server and scroll down, here we can now specify our own key under "Auth Key", the final result should look like this.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/5p7LdSDCJzrxKDy/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/5p7LdSDCJzrxKDy/preview)
 
 Now we save the settings and restart the server.
 

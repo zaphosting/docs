@@ -17,7 +17,7 @@ Deine Welt kannst du über ein Programm wie FileZilla Client oder WinSCP verwalt
 Stelle mit dem Programm deiner Wahl einfach eine Verbindung her, die Daten dafür findest du links im Dashboard unter "FTP-Browser".
 Sobald du angemeldet bist, sollte es so aussehen:
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/PnkGtWnNyNXFCgS/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/PnkGtWnNyNXFCgS/preview)
 
 Der Ordner "world" ist der Standart Ordner. Der Name von diesem wird in der server.properties Datei festgelegt.
 Diese Datei liegt da, wo auch der "world" Ordner liegt. Der Wert kann durch das Bearbeiten von der Zeile "level-name" geändert werden.

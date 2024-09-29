@@ -18,37 +18,37 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 In dem Plesk Dashboar die Funktion "**Mail**" öffnen
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/mxGRXt4GD68bpGE/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/mxGRXt4GD68bpGE/preview)
 
 Dort "**Email Adresses**" anklicken
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/5worfgyopg3sFyJ/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/5worfgyopg3sFyJ/preview)
 
 Im Anschluss kann nun in dem neuen Fenster der Button "**Create Email Address**" gedrückt werden.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/iriX3ESn3Q37mqe/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/iriX3ESn3Q37mqe/preview)
 
 In der ersten Zeile gibt man seine Wunschdomain an, bei dem Passwort kann ein eigenes genutzt werden.
 Alternativ kann über den Button "**Generate**" eins erstellt werden, welches herauskopiert werden kann.
 
 Sobald alle Wunscheinträge eingetragen über den "**OK**" Button die Eingabe bestätigen.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/q2aDdGSLNrWQyd5/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/q2aDdGSLNrWQyd5/preview)
 
 ## Thunderbird einrichten
 
 Nachdem Thunderbird heruntergeladen und installiert werude, wähle einfach bei "**Einrichtung starten**", "**E-Mail**" aus.
 Es öffnet sich jetzt ein Fenster, um eine bestehende E-Mail-Adresse hinzuzufügen.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/9jKM256XM8r8qCG/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/9jKM256XM8r8qCG/preview)
 
 Wir tragen unsere Informationen ein und klicken dann auf "**Weiter**"
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/8zAnxXdAFKBDdLT/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/8zAnxXdAFKBDdLT/preview)
 
 Thunderbird versucht jetzt automatisch alle nötigen Informationen zu beziehen, dies dauert in der Regel nur wenige Sekunden.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/Ay9PLcAH3zSfWpg/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/Ay9PLcAH3zSfWpg/preview)
 
 Die Eingaben werden mit dem "**Fertig**" Button bestätigt.
 
@@ -56,11 +56,11 @@ Die Eingaben werden mit dem "**Fertig**" Button bestätigt.
 
 Sobald die Mail erstellt wurde, kann man diese bei Thunderbird auswählen und auf "**Verfassen**".
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/F6aDso7HAfgfo4H/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/F6aDso7HAfgfo4H/preview)
 
 Dort trägt man nun den Empfänger als auch den Betreff und den Text ein.
 
-![image](https://screensaver01.zap-hosting.com/index.php/s/JJdAwiFDpPzRLqY/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/JJdAwiFDpPzRLqY/preview)
 
 ### Zertifikat fehlt
 
