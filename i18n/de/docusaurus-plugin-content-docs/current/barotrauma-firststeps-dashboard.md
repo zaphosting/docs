@@ -16,7 +16,7 @@ Du bist an einem **Barotrauma Server** interessiert oder besitzt bereits einen, 
 
 Nachdem du diese Anleitung durchgegangen bist, wirst du problemlos in der Lage sein, deinen Server effizient zu verwalten und alle erforderlichen Optionen sowie Features zügig und unkompliziert zu finden. Hier erhältst du einen strukturierten Überblick, der dir Schritt für Schritt hilft, dich mit der Serververwaltung vertraut zu machen und dein Wissen gezielt zu erweitern. So kannst du sicherstellen, dass dein **Barotrauma Server** optimal auf deine Bedürfnisse abgestimmt ist und du das Beste aus den vorhandenen Möglichkeiten herausholst.
 
-<YouTube videoId="gak3-WLOvKs" imageSrc=https://screensaver01.zap-hosting.com/index.php/s/dF37oSEaM85nMms/preview" title="Setup Barotrauma server in just a MINUTE!" description="Hast du das Gefühl, dass du etwas besser verstehst, wenn du es in Aktion siehst? Wir haben etwas für dich! Tauche ab in unser Video, welches alles für dich zusammenfasst. Egal, ob du es eilig hast oder einfach nur Informationen auf möglichst verständliche Art und Weise aufnehmen möchtest!"/>
+<YouTube videoId="gak3-WLOvKs" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/dF37oSEaM85nMms/preview" title="Setup Barotrauma server in just a MINUTE!" description="Hast du das Gefühl, dass du etwas besser verstehst, wenn du es in Aktion siehst? Wir haben etwas für dich! Tauche ab in unser Video, welches alles für dich zusammenfasst. Egal, ob du es eilig hast oder einfach nur Informationen auf möglichst verständliche Art und Weise aufnehmen möchtest!"/>
 
 
 <InlineVoucher />
@@ -207,4 +207,3 @@ In den Einstellungen kannst du festlegen, ob Backups automatisch erstellt werden
 ![](https://screensaver01.zap-hosting.com/index.php/s/MpqkKaQrLowFxqQ/preview)
 
 Wir stellen für unsere Gameserver Produkte standardmäßig 10 GB Speicherplatz auf dem Storage Server für Backups zur Verfügung. Solltest du mehr Speicherplatz benötigen, so kann dieser kostenpflichtig per Upgrade erweitert werden. So stellst du sicher, dass du stets genügend Platz für deine Backups hast und bei Bedarf auf ältere Backups zugreifen kannst.
-
