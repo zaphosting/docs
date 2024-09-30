@@ -114,7 +114,7 @@ Diese Befehle erstellen automatisch Firewall-Regeln, die notwendig sind, damit d
 
 Verwende die Suchfunktion in Windows, um die **Windows-Firewall-Einstellungen mit erweiterter Sicherheit** zu öffnen. Möglicherweise musst du **Erweiterte Einstellungen** auswählen, um das erforderliche Fenster zu öffnen, wenn du die Startseite der Windows-Firewall öffnest.
 
-![](https://github.com/zaphosting/docs/assets/42719082/5fb9f943-7e51-4d8f-9df4-2f5ff60857d3)
+![](https://screensaver01.zap-hosting.com/index.php/s/rsKWH5dyyycFXBw/preview)
 
 Du musst neue Regeln für deinen ARK: Survival Ascended Server erstellen. Klicke dazu auf die eingehenden und ausgehenden Regeln, wie unten beschrieben, und füge sie für die folgenden Protokolle und Ports hinzu:
 - TCP eingehend und ausgehend: 27020

@@ -85,7 +85,7 @@ Mit diesen Befehlen werden automatisch Firewall-Regeln erstellt, die notwendig s
 
 Verwende die Suchfunktion von Windows, um die **Windows Firewall-Einstellungen mit erweiterter Sicherheit** zu öffnen. Es kann sein, dass du auf **Erweiterte Einstellungen** drücken musst, um das entsprechende Fenster zu öffnen, wenn du die Basisseite der Windows Firewall öffnest.
 
-![](https://github.com/zaphosting/docs/assets/42719082/5fb9f943-7e51-4d8f-9df4-2f5ff60857d3)
+![](https://screensaver01.zap-hosting.com/index.php/s/rsKWH5dyyycFXBw/preview)
 
 Du musst neue Regeln für deinen Soulmask-Server erstellen. Klicke dazu auf die ein- und ausgehenden Regeln wie unten beschrieben und füge sie für die folgenden Protokolle und Ports hinzu:
 - TCP eingehend und ausgehend: 8777, 27015

@@ -146,7 +146,7 @@ Diese Befehle erstellen automatisch Firewallregeln, die notwendig sind, damit de
 
 Verwende die Suchfunktion auf Windows, um die **Windows-Firewall-Einstellungen mit erweiterter Sicherheit** zu öffnen. Möglicherweise musst du auf **Erweiterte Einstellungen** klicken, um das notwendige Fenster zu öffnen, wenn du die Basisseite der Windows-Firewall öffnest.
 
-![](https://github.com/zaphosting/docs/assets/42719082/5fb9f943-7e51-4d8f-9df4-2f5ff60857d3)
+![](https://screensaver01.zap-hosting.com/index.php/s/rsKWH5dyyycFXBw/preview)
 
 Du musst neue Regeln für deinen Farming Simulator 22 Server erstellen. Um dies zu tun, klicke auf die eingehenden und ausgehenden Regeln, wie unten beschrieben, und füge sie für die folgenden Protokolle und Ports hinzu: 
 
