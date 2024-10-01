@@ -64,7 +64,7 @@ Jetzt ist es an der Zeit, deinen Server zu starten. Gehe in das Hauptverzeichnis
 xvfb-run wine /home/steam/Foundry-Server/FoundryDedicatedServer.exe
 ```
 
-In der Eingabeaufforderung sollten nun Protokolle erscheinen, die zeigen, dass der Start erfolgreich war. Wenn alles wie erwartet abläuft, wird dein Server in der Serverliste sichtbar sein. Alternativ kannst du dich auch direkt verbinden, indem du in der unteren Suchleiste der Serverliste nach `[your_ip_address]:3724`.
+In der Eingabeaufforderung sollten nun Protokolle erscheinen, die zeigen, dass der Start erfolgreich war. Wenn alles wie erwartet abläuft, wird dein Server in der Serverliste sichtbar sein. Alternativ kannst du dich auch direkt verbinden, indem du in der unteren Suchleiste der Serverliste nach `[deine_ip_address]:3724`.
 
 ## Abschluss
 

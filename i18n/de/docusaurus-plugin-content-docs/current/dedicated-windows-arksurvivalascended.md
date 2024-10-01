@@ -126,7 +126,7 @@ Wenn du weitere Hilfe bei diesem Vorgang benötigst, nutze unsere Anleitung [Por
 </TabItem>
 </Tabs>
 
-Nachdem du diese Regeln hinzugefügt hast, wird dein Server nun erreichbar sein, was bedeutet, dass du dich über die IP-Adresse deines Servers mit ihm verbinden kannst. Dies kannst du tun, indem du deine In-Game-Konsole in ARK: Survival Ascended öffnest und `open [your_ip_address]:7777` ausführst.
+Nachdem du diese Regeln hinzugefügt hast, wird dein Server nun erreichbar sein, was bedeutet, dass du dich über die IP-Adresse deines Servers mit ihm verbinden kannst. Dies kannst du tun, indem du deine In-Game-Konsole in ARK: Survival Ascended öffnest und `open [deine_ip_address]:7777` ausführst.
 
 Wir empfehlen dir, deine Servereinstellungen zuerst im folgenden Abschnitt zu konfigurieren.
 
@@ -159,6 +159,6 @@ Du musst [Microsoft Visual C++ 2015 Redistributable](https://learn.microsoft.com
 
 Sobald du sie auf deinem VPS installiert hast, kannst du den Server starten, indem du die Datei **start-ark.bat** ausführst, die du zuvor erstellt hast.
 
-Dadurch wird die Konsole des Servers in einer Eingabeaufforderung geöffnet und der Startvorgang beginnt. Wenn alles wie erwartet abläuft, wird dein Server in der Serverliste angezeigt. Alternativ kannst du dich auch direkt mit dem Server verbinden, indem du die Konsole im Spiel öffnest und "open [your_ip_address]:7777" eingibst.
+Dadurch wird die Konsole des Servers in einer Eingabeaufforderung geöffnet und der Startvorgang beginnt. Wenn alles wie erwartet abläuft, wird dein Server in der Serverliste angezeigt. Alternativ kannst du dich auch direkt mit dem Server verbinden, indem du die Konsole im Spiel öffnest und "open [deine_ip_address]:7777" eingibst.
 
 Du hast Ark: Survival Ascended erfolgreich auf deinem Windows VPS installiert.

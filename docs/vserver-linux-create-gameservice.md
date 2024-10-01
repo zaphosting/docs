@@ -30,7 +30,14 @@ sudo nano /etc/systemd/system/[your_game].service
 
 ## Setting up Service
 
-With the nano editor now open, copy the following core file contents which is a template service file that you can reuse.
+With the nano editor now open, copy the following core file contents which is a template service file that you can reuse. We have two versions, one for guides which use SteamCMD and another for non-SteamCMD game guides.
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+<Tabs>
+<TabItem value="steamcmd" label="SteamCMD Game" default>
+
 ```
 [Unit]
 Description=[your_server] Server
@@ -49,11 +56,35 @@ Restart=always
 WantedBy=multi-user.target
 ```
 
+</TabItem>
+
+<TabItem value="regular" label="Regular Game">
+
+```
+[Unit]
+Description=[your_server] Server
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+User=gameservers
+Group=gameservers
+WorkingDirectory=/home/gameservers/[your_server_folder]
+ExecStart=/home/gameservers/[your_server_folder]/[your_path_to_start_file]
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
+```
+
+</TabItem>
+</Tabs>
+
 Let's break down the file contents to help understand everything.
 - `Description`: This can be anything, useful to easily distinguish the purpose of the service.
-- `User`: Using our guides, you should have setup a separate `steam` user for use with SteamCMD. If not, this should be set to the user that should run the service.
+- `User`: Using our guides, you should have setup a separate `steam` user for use with SteamCMD, or the `gameservers` user for non-SteamCMD games. If not, this should be set to the user that should run the service.
 - `WorkingDirectory`: This is the path to the main directory which contains everything the service requires.
-- `ExecStartPre`: In this field, we essentially setup the same SteamCMD installation command as before, which will run every time the server is restarted to ensure it is up-to-date. You should copy this from the respective dedicated game server guide, or replace the values manually with the values of the game.
+- `ExecStartPre` (SteamCMD-only): In this field, we essentially setup the same SteamCMD installation command as before, which will run every time the server is restarted to ensure it is up-to-date. You should copy this from the respective dedicated game server guide, or replace the values manually with the values of the game.
 - `ExecStart`: This field determines the pre-defined task that should run with the service. Once again, you should copy the path from the respective dedicated game server guide, or replace the values manually to navigate to the start file.
 
 :::important Wine Compatibility Layer
