@@ -93,7 +93,7 @@ Wir empfehlen RCON zu deaktivieren, um Eingriffe von unbefugten vorzubeugen.
 ### op-permission-level
 
 Hier kann das standardmäßige OP-Level festgelegt werden, welches einem neuen Operator zu Anfang zugeteilt werden soll.
-Die jeweiligen Level und die einzelne Vergabe je Spieler wird [hier](https://docs.zap-hosting.com/docs/de/minecraft-addop.md/) genauer von uns beschrieben.
+Die jeweiligen Level und die einzelne Vergabe je Spieler wird [hier](minecraft-addop.md) genauer von uns beschrieben.
 
 ### enable-query
 
@@ -159,7 +159,7 @@ Sofern dies gewünscht ist, **muss** eine neue Welt erstellt werden, da der Hard
 
 ### white-list
 
-Dies aktiviert die [Whitelist](https://minecraft.fandom.com/de/wiki/Befehl/whitelist), wodurch nur Spieler welche sich auf der Liste befinden Zugang erhalten. Den Umgang mit der Whitelist erklären wir [hier](http://zap-hosting.com/guides/docs/de/minecraft_whitelist/).
+Dies aktiviert die [Whitelist](https://minecraft.fandom.com/de/wiki/Befehl/whitelist), wodurch nur Spieler welche sich auf der Liste befinden Zugang erhalten. Den Umgang mit der Whitelist erklären wir [hier](minecraft-whitelist.md).
 
 ### broadcast-console-to-ops
 

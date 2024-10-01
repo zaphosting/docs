@@ -41,7 +41,7 @@ Die Windows Version für WinMTR kann über die [ZAP-Hosting](https://zap-hosting
 
 ### Linux
 
-Um MTR auf Linux zu installieren, muss eine Verbindung per SSH zum Server aufgebaut werden. Falls du nicht genau weißt, wie das funktioniert, dann kannst du dir dazu folgende Anleitung anschauen: [Erstzugriff (SSH)](https://docs.zap-hosting.com/docs/de/vserver-linux-ssh/)
+Um MTR auf Linux zu installieren, muss eine Verbindung per SSH zum Server aufgebaut werden. Falls du nicht genau weißt, wie das funktioniert, dann kannst du dir dazu folgende Anleitung anschauen: [Erstzugriff (SSH)](vserver-linux-ssh.md)
 
 Nun kann das Paket mit dem folgenden Befehl installiert werden:
 
