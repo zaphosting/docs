@@ -17,7 +17,7 @@ Plesk is a comprehensive web hosting and server management platform that allows 
 
 ## Establish a connection to the server
 
-To install Plesk on the server, you first need to connect to it. How this works is explained in detail in our separate instructions: [RDP First Access](https://docs.zap-hosting.com/docs/en/vserver-windows-userdp/#-remotedesktopverbindung)
+To install Plesk on the server, you first need to connect to it. How this works is explained in detail in our separate guide: [Initial Access (RDP)](vserver-windows-userdp.md)
 
 ## Plesk Installer 
 

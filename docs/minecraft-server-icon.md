@@ -26,7 +26,7 @@ To add the icon, FTP rights and the icon itself are required.
 
 >Important: The icon must be 64x64 pixels in size and bear the name server-icon.png. 
 
-First, a connection is established via FTP to the game server, how exactly that works can be seen here: https://docs.zap-hosting.com/docs/en/gameserver-ftpaccess/
+First, a connection is established via FTP to the game server, how exactly that works can be seen here: [Access via FTP](gameserver-ftpaccess.md)
 
 As soon as the connection is established, you can see the server data such as:
 

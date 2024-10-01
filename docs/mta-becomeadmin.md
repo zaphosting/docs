@@ -34,7 +34,7 @@ The Live Console can be found in the game server dashboard in the interface whil
 
 ### Configuration
 
-Once the account has been created, the account must be added to the Admin Group in the **acl.xml** Config. For this we connect to the server via FTP and open the file. The file is located at **gXXXX/gtamta/mods/deathmatch/**. If you don't know yet what a FTP client is and how to use it, then have a look at the following guide:  [FTP file access](https://docs.zap-hosting.com/docs/en/gameserver-ftpaccess/)
+Once the account has been created, the account must be added to the Admin Group in the **acl.xml** Config. For this we connect to the server via FTP and open the file. The file is located at **gXXXX/gtamta/mods/deathmatch/**. If you don't know yet what a FTP client is and how to use it, then have a look at the following guide:  [FTP file access](gameserver-ftpaccess.md)
 
 ```
 <group name="Admin">
