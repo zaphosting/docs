@@ -23,17 +23,17 @@ There are two different types of coupon codes:
 ## Voucher ZAP Coin codes
 Voucher ZAP coin codes can be redeemed very easily through your webinterface panel. Simply head over to your **Cashbox** by pressing the ZAP Coins text at the top of your web interface.
 
-![](https://github.com/zaphosting/docs/assets/42719082/e436f9d9-ad85-482a-90fa-03fe6cd6836e)
+![](https://screensaver01.zap-hosting.com/index.php/s/wGwBswEsGYg4Qoz/preview)
 
 Once you are in on your **Cashbox** page, scroll down to the blue **Use Voucher** button. Press the button to open up a menu. 
 
-![](https://github.com/zaphosting/docs/assets/42719082/cee125ff-06b1-460b-a4d9-8c71157c50c4)
+![](https://screensaver01.zap-hosting.com/index.php/s/4GEgEpDojAHdGEb/preview)
 
 
 
 Here you can enter the voucher code that you received. Once ready, press the green **Use voucher** button in order to submit it.
 
-![](https://github.com/zaphosting/docs/assets/42719082/0daa73de-00a6-4079-9e93-c12d9df8f222)
+![](https://screensaver01.zap-hosting.com/index.php/s/An8F5TnFLQMW22k/preview)
 
 
 
@@ -59,9 +59,9 @@ Firstly, find the product that you wish to order on our website and configure it
 
 Once everything is configured correctly, you can now use your code in the ordering process. Scroll down to the bottom, select your payment method, and simply click the **Redeem voucher** text below the order total.
 
-![](https://github.com/zaphosting/docs/assets/42719082/8e27371d-a9db-4dae-bc52-6861fcbc5598)
+![](https://screensaver01.zap-hosting.com/index.php/s/LAKkABwR24Ge98Q/preview)
 
-![](https://github.com/zaphosting/docs/assets/42719082/6502ef6a-16bf-4066-a25d-58d312caa0f1)
+![](https://screensaver01.zap-hosting.com/index.php/s/cQwNe9q39xZN8NW/preview)
 
 
 

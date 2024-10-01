@@ -5,13 +5,9 @@ description: Anleitung zur Nutzung von Community Werbung, um Geld über ZAP-Host
 sidebar_label: Community Werbung
 ---
 
-
-
 ## Einführung
 
 Community-Werbung ist eine großartige Möglichkeit, durch Werbung für ZAP-Hosting Geld zu verdienen. Durch dieses Programm ist es grundsätzlich möglich, **kostenlose** Server zu erhalten. Erfolgreiche Werbung, die eingereicht und akzeptiert wird, wird mit **0,24€** für jeden Link vergütet.
-
-
 
 ## Wichtige Faktoren, die zu beachten sind
 
@@ -43,13 +39,13 @@ Drücken nun auf das grüne **+**, um das Menü zu öffnen, in dem du deinen Lin
 Dieser Link muss ein Direktverweis auf die eigens erstellte Werbung sein. Sollte bei dem Link keine Werbung ersichtlich sein, wird diese abgelehnt.
 :::
 
-![](https://github.com/zaphosting/docs/assets/42719082/12839234-efe5-45f5-8d9c-addb69af3e60)
+![](https://screensaver01.zap-hosting.com/index.php/s/ZceWqea5MoigdmQ/preview)
 
 ## Auszahlung & Überweisung
 
 Du kannst dir dein Guthaben aus der Community Werbung entweder deine cashbox (ZAP Coins) oder in Geld über PayPal. Gehen dazu wieder auf die Seite [Community Advertising](https://zap-hosting.com/de/customer/communityads/) und drücke den blauen Button **Auszahlung/Umbuchung**.
 
-![](https://github.com/zaphosting/docs/assets/42719082/de11ee5a-97e5-432a-944c-7f0e2dd9d448)
+![](https://screensaver01.zap-hosting.com/index.php/s/7ixxaZrTk4qMrkT/preview)
 
 ### ZAP Coins
 
@@ -58,9 +54,7 @@ Du kannst dir dein Guthaben aus der Community Werbung entweder deine cashbox (ZA
 
 In der Menüleiste musst du **ZAP-Guthaben** als Option auswählen. Entscheide, ob du das gesamte Guthaben oder nur einen bestimmten Teil davon übertragen möchtest. Wenn du damit fertig bist, drücke einfach auf den grünen Button **Überweisung**, um den Vorgang zu bestätigen.
 
-![](https://github.com/zaphosting/docs/assets/42719082/5e88aeee-cb33-46b4-a3c4-4da92273f7b1)
-
-
+![](https://screensaver01.zap-hosting.com/index.php/s/WrWAJNrgr8Kpz2S/preview)
 
 ### Echtgeld (PayPal)
 

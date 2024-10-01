@@ -21,7 +21,7 @@ You can easily find the current status of all of our services, including your se
 :::tip
 On our status site, you can even subscribe via email to notificaitons for any service on our network! You can do this, by pressing the arrow button on the top right, selecting the scope and entering the email you would like notifications to be sent to.
 
-![](https://github.com/zaphosting/docs/assets/42719082/2758b2b4-29e1-433f-9e40-76ca70fc90b0)
+![](https://screensaver01.zap-hosting.com/index.php/s/6NkmGrN2BCWDsaC/preview)
 :::
 
 If the product that you are having problems with is currently affected, we advise you to wait until this has been resolved. Our technicians are automatically alerted about any interruptions and will be working on solving the problem as soon as possible.
@@ -41,7 +41,7 @@ You can access our ticket system via the ticket icon on the top navigation bar o
 
 On the page, you will be able to view your active and previous tickets, as well as create a new ticket.
 
-![](https://github.com/zaphosting/docs/assets/42719082/be474363-21b1-4e7c-8f55-d7fd1e70ceed)
+![](https://screensaver01.zap-hosting.com/index.php/s/4zfDra7P6TY42NA/preview)
 
 ## Creating a new ticket
 
@@ -59,7 +59,7 @@ Here is a breakdown of useful information that you can provide:
 - A detailed description about the problem. Ask yourself questions such as: When did this start? How often does this happen? Have you tried any troubleshooting steps prior to the ticket?
 - Additional information, perhaps screenshots of errors, logs and anything else which may prove useful.
 
-![](https://github.com/zaphosting/docs/assets/42719082/361732b1-2ac9-45db-be6e-81e20951c498)
+![](https://screensaver01.zap-hosting.com/index.php/s/xJpN64864r69dZ2/preview)
 
 Once you are finished filling out the ticket form, you should press the **Send Support Ticket** button which will send the ticket to our support team!
 

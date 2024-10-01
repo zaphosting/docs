@@ -13,7 +13,7 @@ Mit der ZAP Spendenfunktion können deine Freunde mit nur wenigen Klicks Geld au
 
 Um einen Spendenlink für deinen Account zu erstellen, klickst du oben im Interface auf den Button für die **Spendeneinstellungen**: 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/k9aEMiLa9FpP7Jr/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/QW35Ld8HdyB2Prc/preview)
 
 Nun landest du auf der Konfigurationsseite, auf welcher du alle Spendeneinstellungen einstellen kannst: 
 

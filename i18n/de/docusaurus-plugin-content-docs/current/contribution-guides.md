@@ -65,7 +65,7 @@ Vergewissere dich, dass du einen Vorschlag auf unserem [GitHub Repository](https
 
 Der erste Schritt besteht darin, einen eigenen Fork des ZAP-Hosting-Dokumentations-Repository auf GitHub zu erstellen. Dazu gehst du zum [ZAP Docs GitHub Repository](https://github.com/zaphosting/docs) und drückst den Button **Fork** oben auf der Seite. 
 
-![](https://github.com/zaphosting/docs/assets/42719082/9bc28311-0a4c-4c25-9736-9d0eab932689)
+![](https://screensaver01.zap-hosting.com/index.php/s/2P7tKBg3rMTQdHi/preview)
 
 Du solltest das Repository nach dem Vorschlag benennen, der akzeptiert wurde, und den Text "Nur den Master-Zweig kopieren" ankreuzen. Drücke dann auf die Schaltfläche "Erstellen" und warte ein paar Sekunden, bis es erfolgreich geforkt wurde. 
 
@@ -87,7 +87,7 @@ Der einfachste und empfohlene Weg, um Inhalte zu erstellen, ist über die GitHub
 
 Um zu beginnen, gehe zu der Fork , die du im vorherigen Schritt erstellt hast. Sobald du dich auf deinem ZAP Docs Fork befindest, kannst du über den Ordner **docs** auf alle Dokumentationsanleitungen zugreifen.
 
-![](https://github.com/zaphosting/docs/assets/42719082/6a91889f-891d-440d-a5d3-720afc5d8abc)
+![](https://screensaver01.zap-hosting.com/index.php/s/6QnL2HQ567b7BBj/preview)
 
 Die Dokumentationsdateien werden nach einer einfachen Konvention benannt, bei der das erste Wort auf die Art der Anleitung verweist, in der Regel auf ein Spiel, ein Produkt oder einen Abschnitt, und alle folgenden Wörter auf den jeweiligen Abschnitt. Zum Beispiel verweist `dedicated-windows.md` auf den Abschnitt Dedicated Server, speziell für das Betriebssystem Windows.
 
@@ -98,7 +98,7 @@ Jetzt musst du entweder eine bestehende Anleitung öffnen oder eine neue erstell
 
 In diesem Fall gehst du oben rechts in den Ordner "/docs" und drückst auf **Datei hinzufügen**. Im Menü solltest du auf **Neue Datei erstellen** klicken, damit sich eine neue Seite öffnet.
 
-![](https://github.com/zaphosting/docs/assets/42719082/5a980882-4b47-4e40-9d15-b3b9ea2fe650)
+![](https://screensaver01.zap-hosting.com/index.php/s/w4Y3TYcdrW928sH/preview)
 
 Auf dieser Seite kannst du im obersten Verzeichnis einen Namen für deine neue Anleitung festlegen und einfach mit dem Schreiben deines Inhalts beginnen.
 
@@ -106,7 +106,7 @@ Auf dieser Seite kannst du im obersten Verzeichnis einen Namen für deine neue A
 Vergiss nicht, als Dateierweiterung `.md` anzugeben.
 :::
 
-![](https://github.com/zaphosting/docs/assets/42719082/562269e1-aaf7-4b07-9bbe-5641e3b54274)
+![](https://screensaver01.zap-hosting.com/index.php/s/Kb2eR3Da35qXPSQ/preview)
 
 </TabItem>
 
@@ -116,7 +116,7 @@ In diesem Fall öffnest du die Zieldatei, die du bearbeiten möchtest. In diesem
 
 Gehe oben rechts in der Datei auf das Bearbeiten-Symbol (Stift). Daraufhin öffnet sich ein Bearbeitungsfenster, in dem du alle Änderungen vornehmen kannst, die du zuvor vorgeschlagen hast und die akzeptiert worden sind.
 
-![](https://github.com/zaphosting/docs/assets/42719082/49570185-b495-42d2-b74a-0b9300922758)
+![](https://screensaver01.zap-hosting.com/index.php/s/bTZiiPG9TRnWzQr/preview)
 
 </TabItem>
 </Tabs>
@@ -127,7 +127,7 @@ Jetzt, wo deine Datei fertig ist, kannst du damit fortfahren, den Inhalt zu schr
 
 Über die Schaltfläche **Vorschau** oben im Bearbeitungsfenster kannst du in den Vorschaumodus wechseln, der die grobe Vorschau anzeigt, und über die Schaltfläche **Bearbeiten** wieder zurückschalten.
 
-![](https://github.com/zaphosting/docs/assets/42719082/711ae450-e8c7-4a03-b358-4c5cf2caa7ba)
+![](https://screensaver01.zap-hosting.com/index.php/s/zy4J9Lo44PjyME3/preview)
 
 :::note
 Bitte beachte, dass einige Docusaurus-spezifische Elemente wie Ermahnungen (Tags wie `:::note`, `:::tip` usw.) bei der Vorschau über GitHub möglicherweise nicht korrekt angezeigt werden. Das liegt daran, dass sie nicht Teil des traditionellen Markdowns sind. Sie werden jedoch bei lokalen Tests und in der Produktion korrekt angezeigt.
@@ -137,7 +137,7 @@ In den [Richtlinien](contribution-guides-guidelines.md) findest du alle Informat
 
 Wenn du deine Änderungen vorgenommen hast, klickst du auf die Schaltfläche **Änderungen bestätigen...**, woraufhin eine Aufforderung erscheint.
 
-![](https://github.com/zaphosting/docs/assets/42719082/1c401a6f-71ef-4853-8d9e-3f5e400f2c2c)
+![](https://screensaver01.zap-hosting.com/index.php/s/6FDRsiXT4ttZfji/preview)
 
 Gib eine sinnvolle Commit-Nachricht ein, in der du erklärst, was du getan hast, und ggf. eine ausführliche Beschreibung. Übertrage schließlich die Änderungen. Damit werden die Änderungen in deinen Fork der Dokumente übertragen. Jetzt kannst du im Abschnitt **Inhalt einreichen** einen Pull Request erstellen, um den Inhalt in unser ZAP-Hosting Docs Repository zu übertragen.
 
@@ -262,7 +262,7 @@ Wenn du mit deinen Änderungen zufrieden bist, kannst du im nächsten Abschnitt 
 
 Wenn du deine Beiträge gemacht hast, von denen du glaubst, dass sie unseren Richtlinien genau entsprechen und den höchsten Standards entsprechen, kannst du einen Pull Request erstellen. Dazu gehst du zu deinem Fork des ZAP Docs Repository, drückst auf den Text **Beitragen** unter den primären Buttons und öffnest einen Pull Request.
 
-![](https://github.com/zaphosting/docs/assets/42719082/d08ce65e-2c21-4110-97d4-a15588172db4)
+![](https://screensaver01.zap-hosting.com/index.php/s/2J2dcMTkyLTjfCy/preview)
 
 Es öffnet sich eine neue Seite, auf der du die Änderungen sehen kannst, die du vorgenommen hast. Standardmäßig enthält die Beschreibung eine kleine Checkliste, um sicherzustellen, dass du alles richtig und umfassend gemacht hast. Du kannst diese Vorlage löschen, sobald du sie durchgeblättert hast, da sie nicht benötigt wird.
 
@@ -270,7 +270,7 @@ Als Nächstes gibst du bitte einen passenden Titel ein, der erklärt, was du gem
 
 Sobald du den Titel und die Beschreibung eingegeben und sichergestellt hast, dass die Änderungen korrekt sind, kannst du deinen Pull Request über die Schaltfläche erstellen, um ihn an unser Repository zu senden.
 
-![](https://github.com/zaphosting/docs/assets/42719082/fc04a359-bffc-459b-89fd-94eee74e4a71)
+![](https://screensaver01.zap-hosting.com/index.php/s/4q9HE5BxNZ4wxp8/preview)
 
 Unser System stellt sicher, dass deine Änderungen eine Reihe von Syntax- und Qualitätsprüfungen bestehen. Wenn beide Prüfungen erfolgreich verlaufen sind, wird dein Pull Request innerhalb weniger Tage vom ZAP-Hosting Docs Team geprüft. 
 

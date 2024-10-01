@@ -45,7 +45,7 @@ You can create a new suggestion using the green **Suggest feature** button on th
 
 We recommend being logged in to do this, or alternatively you can fill in the email section if you are not logged in to your ZAP-Hosting account at the time of submitting your suggestion.
 
-![](https://github.com/zaphosting/docs/assets/42719082/3cb61b1b-b922-4145-8081-a52d0040bdaf)
+![](https://imgs.jacobee.gg/u/2024-09-30_23:07:46.png)
 
 ### After Suggestion Sumbission
 Once you have submitted your suggestion successfully, we regularly check for new suggestions and make a decision whether to approve it if it is acceptable, or occasionally we may even implement it directly.

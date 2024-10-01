@@ -21,7 +21,7 @@ Du kannst den aktuellen Status aller unserer Dienste, einschließlich deines Ser
 :::tip
 Auf unserer Statusseite kannst du dich so gar per E-Mail für Benachrichtigungen zu jedem Dienst in unserem Netzwerk anmelden! Drücke dazu auf die Pfeiltaste oben rechts, wähle den Bereich aus und gebe die E-Mail-Adresse ein, an die die Benachrichtigungen gesendet werden sollen.
 
-![](https://github.com/zaphosting/docs/assets/42719082/2758b2b4-29e1-433f-9e40-76ca70fc90b0)
+![](https://screensaver01.zap-hosting.com/index.php/s/6NkmGrN2BCWDsaC/preview)
 :::
 
 Wenn das Produkt, mit dem du Probleme hast, derzeit betroffen ist, raten wir dir, zu warten, bis das Problem behoben ist. Unsere Techniker werden automatisch über jede Störung informiert und arbeiten daran, das Problem so schnell wie möglich zu beheben.
@@ -42,7 +42,7 @@ Du kannst auf unser Ticketsystem über das Ticket-Symbol in der oberen Navigatio
 
 Auf dieser Seite hast du die Möglichkeit, deine aktiven und früheren Anfragen einzusehen und eine neue Anfrage zu erstellen.
 
-![](https://github.com/zaphosting/docs/assets/42719082/1e9987b9-bc0c-4d8f-8fd7-a039f7958121)
+![](https://screensaver01.zap-hosting.com/index.php/s/NTKmLHqjm3pkswt/preview)
 
 ## Erstellung eines neuen Tickets
 
@@ -60,7 +60,7 @@ Hier findest du eine Auflistung nützlicher Informationen, die du angeben kannst
 - Eine detaillierte Beschreibung des Problems. Stelle dir Fragen wie: Wann hat das Problem begonnen? Wie oft tritt das Problem auf? Hast du schon vor der Anfrage Schritte zur Fehlerbehebung unternommen?
 - Zusätzliche Informationen, vielleicht Screenshots von Fehlern, Protokolle und alles andere, was sich als nützlich erweisen könnte.
 
-![](https://github.com/zaphosting/docs/assets/42719082/57bee936-fd3f-48ed-ab0e-ca915c78afb9)
+![](https://screensaver01.zap-hosting.com/index.php/s/nDfJEKnYsgfz2YW/preview)
 
 Wenn du mit dem Ausfüllen des Ticketformulars fertig bist, solltest du auf die Schaltfläche **Support-Ticket senden** klicken, wodurch das Ticket an unser Support-Team gesendet wird!
 

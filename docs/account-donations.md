@@ -13,7 +13,7 @@ With the ZAP donation function your friends can deposit money on your ZAP accoun
 
 To create a donation link for your account, click on the button for **donation settings** at the top of the interface: 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/9CA7ibPk8cWfP5R/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/QW35Ld8HdyB2Prc/preview)
 
 Now you will be taken to the configuration page where you can set all the donation settings: 
 

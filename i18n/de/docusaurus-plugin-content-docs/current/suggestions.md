@@ -54,7 +54,7 @@ Du kannst einen neuen Vorschlag über den grünen Button **Vorschlagsfunktion** 
 
 Wir empfehlen dir, dazu eingeloggt zu sein. Alternativ kannst du auch den E-Mail-Bereich ausfüllen, wenn du zum Zeitpunkt der Einreichung deines Vorschlags nicht in deinem ZAP-Hosting-Konto eingeloggt bist.
 
-![](https://github.com/zaphosting/docs/assets/42719082/54c96bb9-4fc7-46d4-9ffa-f78d80688f76)
+![](https://screensaver01.zap-hosting.com/index.php/s/jGNczgwka7XxJy9/preview)
 
 
 
