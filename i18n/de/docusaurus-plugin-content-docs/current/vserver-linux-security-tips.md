@@ -391,7 +391,7 @@ Zu diesem Zweck kannst du den Zugang manuell mit Firewall-Regeln aus der [Cloudf
 Alternativ kannst du auch etwas Zeit sparen und Tools wie [Cloudflare-ufw](https://github.com/Paul-Reed/cloudflare-ufw) verwenden, um diese Firewall-Regeln schnell zu importieren.
 Achte darauf, dass du keine separaten Regeln hast, die den uneingeschränkten Zugriff auf deinen Webserver erlauben, außer denen, die du gerade hinzugefügt hast, sonst werden diese nicht funktionieren.
 
-## Fazit - dein Server ist nun um einiges besser geschützt
+## Abschluss - dein Server ist nun um einiges besser geschützt
 
 Diese Anleitung hat dir einige grundlegende und erweiterte Funktionen zur Absicherung deines Linux-Servers gezeigt. Solltest du alle auf dein System zutreffenden Empfehlungen umgesetzt haben ist dein Server schon um einiges sicherer als vorher, Glückwunsch!
 

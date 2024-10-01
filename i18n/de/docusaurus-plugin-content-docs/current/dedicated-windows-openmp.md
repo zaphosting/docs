@@ -103,6 +103,6 @@ Jetzt ist es an der Zeit, deinen Server zu starten. Gehe zum Stammverzeichnis un
 
 Du kannst dich nun über den open.mp-Launcher direkt mit deinem Server im Spiel verbinden. Wenn du Serverinformationen in der Serverliste anzeigen möchtest, lies bitte unseren Anleitung [Server Konfiguration](openmp-configuration.md) und stelle sicher, dass der Parameter `enable_query` auf true gesetzt ist (sollte die Standardeinstellung sein). Speichere die Datei anschließend und führe die ausführbare Serverdatei erneut aus.
 
-## Fazit
+## Abschluss
 
 Herzlichen Glückwunsch, du hast den open.mp-Server erfolgreich auf deinem Dedicated Server installiert und konfiguriert! Bei weiteren Fragen oder Problemen wende dich bitte an unser Support-Team, das dir täglich zur Verfügung steht! 

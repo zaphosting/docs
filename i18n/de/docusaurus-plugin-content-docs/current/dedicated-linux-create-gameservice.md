@@ -30,7 +30,7 @@ sudo nano /etc/systemd/system/[dein_spiel].service
 
 ## Dienst einrichten
 
-Kopiere nun, da der Nano-Editor geöffnet ist, den folgenden Inhalt der Kerndatei, bei der es sich um eine Vorlage für eine Servicedatei handelt, die du wiederverwenden kannst. Wir haben zwei Versionen, eine für Anleitungen, die SteamCMD verwenden, und eine für Anleitungen für Spiele, die SteamCMD nicht verwenden.
+Kopiere nun, sobald der Nano-Editor geöffnet ist, den folgenden Inhalt der Kerndatei, bei der es sich um eine Vorlage für eine Servicedatei handelt, die du wiederverwenden kannst. Wir haben zwei Versionen, eine für Anleitungen, die SteamCMD verwenden, und eine für Anleitungen für Spiele, die SteamCMD nicht verwenden.
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
@@ -47,9 +47,9 @@ After=network-online.target
 [Service]
 User=steam
 Group=steam
-WorkingDirectory=/home/steam/[dein_server_folder]
-ExecStartPre=/usr/games/steamcmd +force_install_dir '/home/steam/[dein_server_folder]' +login anonymous +app_update [dein_game_steamid] +quit
-ExecStart=/home/steam/[dein_server_folder]/[dein_path_to_start_file]
+WorkingDirectory=/home/steam/[dein_server_ordner]
+ExecStartPre=/usr/games/steamcmd +force_install_dir '/home/steam/[dein_server_ordner]' +login anonymous +app_update [dein_game_steamid] +quit
+ExecStart=/home/steam/[dein_server_ordner]/[dein_pfad_zur_start_datei]
 Restart=always
 
 [Install]
@@ -69,8 +69,8 @@ After=network-online.target
 [Service]
 User=gameservers
 Group=gameservers
-WorkingDirectory=/home/gameservers/[dein_server_folder]
-ExecStart=/home/gameservers/[dein_server_folder]/[dein_path_to_start_file]
+WorkingDirectory=/home/gameservers/[dein_server_ordner]
+ExecStart=/home/gameservers/[dein_server_ordner]/[dein_pfad_zur_start_datei]
 Restart=always
 
 [Install]
@@ -119,9 +119,9 @@ WantedBy=multi-user.target
 
 ## Dienst verwalten
 
-Nachdem du nun deine Dienstdatei erstellt hast, musst du sie aktivieren. Im Beispiel `palworld.service` wird `[dein_service]` durch `palworld` ersetzt.
+Nachdem du nun deine Dienstdatei erstellt hast, musst du sie aktivieren. Im Beispiel `palworld.service` wird `[dein_dienst]` durch `palworld` ersetzt.
 ```
-sudo systemctl enable [dein_service]
+sudo systemctl enable [dein_dienst]
 ```
 
 :::tip
@@ -130,18 +130,18 @@ Wenn du zu irgendeinem Zeitpunkt Änderungen an deiner Servicedatei vornimmst, s
 
 Jetzt kannst du den Server mit dem Befehl `systemctl start` starten. Genauso einfach kannst du den Server mit ähnlichen Befehlen anhalten und neu starten.
 ```
-sudo systemctl start [dein_service]
-sudo systemctl stop [dein_service]
-sudo systemctl restart [dein_service]
+sudo systemctl start [dein_dienst]
+sudo systemctl stop [dein_dienst]
+sudo systemctl restart [dein_dienst]
 ```
 
 :::tip
-Um Details über den Dienst anzuzeigen, kannst du den Befehl `systemctl status` verwenden. Wenn du die Logs für Debugging-Zwecke benötigst, kannst du den Befehl `journalctl -u [dein_service].service` verwenden, um die letzten Logs des Dienstes einzusehen.
+Um Details über den Dienst anzuzeigen, kannst du den Befehl `systemctl status` verwenden. Wenn du die Logs für Debugging-Zwecke benötigst, kannst du den Befehl `journalctl -u [dein_dienst].service` verwenden, um die letzten Logs des Dienstes einzusehen.
 :::
 
 Wenn du nicht möchtest, dass der Dienst beim Start ausgeführt wird, kannst du ihn einfach deaktivieren.
 ```
-sudo systemctl disable [dein_service]
+sudo systemctl disable [dein_dienst]
 ```
 
 ## Abschluss

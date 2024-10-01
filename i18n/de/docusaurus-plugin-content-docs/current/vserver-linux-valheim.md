@@ -56,7 +56,7 @@ Nun ist es an der Zeit, deinen Server zu starten. Gehe in das Hauptverzeichnis d
 /home/steam/Valheim-Server/start_server.sh
 ```
 
-In der Eingabeaufforderung sollten nun Logs erscheinen, die anzeigen, dass der Start erfolgreich war. Bitte beachte, dass der erste Start einige Zeit dauern kann, da alles eingerichtet wird. Alternativ kannst du dich auch direkt verbinden, indem du in der unteren Suchleiste der Serverliste nach suchst: `[your_ip_address]:2456`.
+In der Eingabeaufforderung sollten nun Logs erscheinen, die anzeigen, dass der Start erfolgreich war. Bitte beachte, dass der erste Start einige Zeit dauern kann, da alles eingerichtet wird. Alternativ kannst du dich auch direkt verbinden, indem du in der unteren Suchleiste der Serverliste nach suchst: `[deine_ip_address]:2456`.
 
 :::info
 Wenn du keine Verbindung herstellen kannst und in der Konsole die Fehlermeldung `PlayFab` angezeigt wird, musst du möglicherweise die Crossplay-Unterstützung deaktivieren, um dieses Problem zu beheben, da es sich um ein aktuelles Problem der Linux-Version handelt. Führe dazu `nano /home/steam/Valheim-Server/start_server.sh` aus und entferne das `-crossplay`-Flag.

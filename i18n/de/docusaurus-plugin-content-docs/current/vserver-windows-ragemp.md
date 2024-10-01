@@ -130,6 +130,6 @@ Jetzt ist es an der Zeit, deinen Server zu starten. Gehe zum Verzeichnis `server
 
 Du kannst dich jetzt über den RageMP-Launcher direkt mit deinem Server im Spiel verbinden.
 
-## Fazit
+## Abschluss
 
 Herzlichen Glückwunsch, du hast den RageMP-Server erfolgreich auf deinem VPS installiert und konfiguriert! Bei weiteren Fragen oder Problemen wende dich bitte an unser Support-Team, das dir täglich zur Verfügung steht!

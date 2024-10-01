@@ -66,7 +66,7 @@ Jetzt ist es an der Zeit, deinen Server zu starten. Gehe in das Hauptverzeichnis
 xvfb-run wine /home/steam/MOE-Server/MOE/Binaries/Win64/MOEServer.exe
 ```
 
-In der Eingabeaufforderung sollten nun Protokolle erscheinen, die anzeigen, dass der Start erfolgreich war. Bitte beachte, dass der erste Start einige Zeit dauern kann, da alles eingerichtet wird. Du kannst dich direkt verbinden, indem du auf der Registerkarte **Custom Server** nach den Serverdetails suchst: `[your_ip_address]:15636`.
+In der Eingabeaufforderung sollten nun Protokolle erscheinen, die anzeigen, dass der Start erfolgreich war. Bitte beachte, dass der erste Start einige Zeit dauern kann, da alles eingerichtet wird. Du kannst dich direkt verbinden, indem du auf der Registerkarte **Custom Server** nach den Serverdetails suchst: `[deine_ip_address]:15636`.
 
 ## Abschluss
 

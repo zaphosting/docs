@@ -98,7 +98,7 @@ Bitte benutze unseren [Portweiterleitung (Firewall)](vserver-windows-port.md), w
 </TabItem>
 </Tabs>
 
-Wenn du diese Regeln hinzugefügt hast, ist dein Server jetzt erreichbar, d.h. du kannst dich über die IP-Adresse deines Servers mit ihm verbinden. Das kannst du tun, indem du den Browser der Serverliste aufrufst und deine IP-Adresse und den Port in die Suche am unteren Rand eingibst. Du solltest suchen nach: `[your_ip_address]:8211`
+Wenn du diese Regeln hinzugefügt hast, ist dein Server jetzt erreichbar, d.h. du kannst dich über die IP-Adresse deines Servers mit ihm verbinden. Das kannst du tun, indem du den Browser der Serverliste aufrufst und deine IP-Adresse und den Port in die Suche am unteren Rand eingibst. Du solltest suchen nach: `[deine_ip_address]:8211`
 
 Wir empfehlen, dass du deine Servereinstellungen zuerst im folgenden Abschnitt konfigurierst, bevor du auf deinen Server zugreifst.
 
@@ -150,6 +150,6 @@ Du solltest auch einen Servernamen festlegen, der leicht gefunden werden kann. W
 
 Jetzt ist es an der Zeit, deinen Server zu starten. Möglicherweise musst du [DirectX Runtime](https://www.microsoft.com/en-gb/download/details.aspx?id=35) installieren, wenn du es nicht bereits auf deinem Windows VPS hast.
 
-Gehe in das Basisverzeichnis deines Palworld-Servers und starte **PalServer.exe**, um den Startvorgang zu beginnen. Dadurch wird die Konsole des Servers in einer Eingabeaufforderung geöffnet und der Startvorgang beginnt. Wenn alles wie erwartet abläuft, wird dein Server in der Serverliste sichtbar sein. Alternativ kannst du dich auch direkt verbinden, indem du in der unteren Suchleiste der Serverliste nach `[your_ip_address]:8211`.
+Gehe in das Basisverzeichnis deines Palworld-Servers und starte **PalServer.exe**, um den Startvorgang zu beginnen. Dadurch wird die Konsole des Servers in einer Eingabeaufforderung geöffnet und der Startvorgang beginnt. Wenn alles wie erwartet abläuft, wird dein Server in der Serverliste sichtbar sein. Alternativ kannst du dich auch direkt verbinden, indem du in der unteren Suchleiste der Serverliste nach `[deine_ip_address]:8211`.
 
 Du hast Palworld erfolgreich auf deinem Windows VPS installiert.

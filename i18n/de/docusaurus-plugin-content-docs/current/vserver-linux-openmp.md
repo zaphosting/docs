@@ -79,7 +79,7 @@ Jetzt ist es an der Zeit, deinen Server zu starten. Gehe zum Hauptverzeichnis de
 /home/gameservers/OpenMP-Server/Server/omp-server
 ```
 
-In deiner Eingabeaufforderung sollten nun Protokolle angezeigt werden, einschließlich Netzwerkprotokollen, was darauf hinweist, dass der Startvorgang erfolgreich war. Wenn alles wie erwartet abläuft, ist dein Server über Direct Connect erreichbar und in der Serverliste sichtbar. Alternativ kannst du dich direkt über: `[your_ip_address]:7777` verbinden.
+In deiner Eingabeaufforderung sollten nun Protokolle angezeigt werden, einschließlich Netzwerkprotokollen, was darauf hinweist, dass der Startvorgang erfolgreich war. Wenn alles wie erwartet abläuft, ist dein Server über Direct Connect erreichbar und in der Serverliste sichtbar. Alternativ kannst du dich direkt über: `[deine_ip_address]:7777` verbinden.
 
 ## Abschluss
 

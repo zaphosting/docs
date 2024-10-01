@@ -63,7 +63,7 @@ Jetzt ist es an der Zeit, deinen Server zu starten. Gehe in das Hauptverzeichnis
 /home/steam/Palworld-Server/PalServer.sh
 ```
 
-In der Eingabeaufforderung sollten nun Protokolle erscheinen, darunter auch ein Protokoll der Spielversion, das anzeigt, dass der Startvorgang erfolgreich war. Wenn alles wie erwartet abläuft, wird dein Server in der Serverliste sichtbar sein. Alternativ kannst du dich auch direkt verbinden, indem du in der unteren Suchleiste der Serverliste nach `[your_ip_address]:8211`.
+In der Eingabeaufforderung sollten nun Protokolle erscheinen, darunter auch ein Protokoll der Spielversion, das anzeigt, dass der Startvorgang erfolgreich war. Wenn alles wie erwartet abläuft, wird dein Server in der Serverliste sichtbar sein. Alternativ kannst du dich auch direkt verbinden, indem du in der unteren Suchleiste der Serverliste nach `[deine_ip_address]:8211`.
 
 ## Abschluss
 
