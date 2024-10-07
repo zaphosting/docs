@@ -1,0 +1,70 @@
+.contributors {
+    margin-top: 50px;
+}
+
+.contributors a {
+    font-weight: bold;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+.zapTeam {
+    position: relative;
+    display: block;
+}
+
+.zapTeam:before {
+    background-image: url(https://avatars.githubusercontent.com/u/100870482?s=48&v=4);
+    content: "";
+    display: block;
+    height: 20px;
+    position: absolute;
+    right: 0px;
+    top: 35px;
+    width: 20px;
+    z-index: 2;
+    border-radius: 50%;
+    background-size: cover;
+    border: 2px solid lightgrey;
+}
+
+.zapTeam:hover:before {
+    border-color: green;
+    transition: 250ms;
+    scale: 1.1;
+}
+
+.wrapper li {
+    list-style: none;
+}
+
+.contributor {
+    padding-top: 15px;
+}
+
+.contributor img {
+    border-radius: 50%;
+    margin: 0;
+    padding: 0;
+    max-width: 50px;
+    border: 2px solid lightgrey;
+    z-index: 2;
+}
+
+.contributor img:hover {
+    border-color: green;
+    transition: 250ms;
+    scale: 1.1;
+}
+
+@media (max-width: 600px) {
+    .wrapper {
+        display: block;
+    }
+}
