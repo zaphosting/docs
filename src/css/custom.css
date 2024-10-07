@@ -78,11 +78,9 @@ table {
 
 /* smaller edit button */
 .theme-edit-this-page {
-  color: grey;
   font-size: 1em;
 }
 .theme-edit-this-page svg {
-  height: 70%;
   display: inline-block;
 }
 
