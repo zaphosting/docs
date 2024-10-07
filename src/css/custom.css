@@ -247,8 +247,16 @@ p {
   }
 }
 
-@media (max-width: 996px){
+@media (max-width: 500px){
   .navbar__search-input {
       width: 2rem;
+  }
+  .navbar__search-input:focus {
+    width: 15rem;
+    transition: width 0.2s ease-out;
+  }
+
+  .navbar__search-input:not(:focus) {
+    transition: width 0.2s ease-out;
   }
 }
