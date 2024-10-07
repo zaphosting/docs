@@ -55,7 +55,7 @@ const GitHubContributors = ({ owner, repo, filePath, additionalContributors }) =
             <hr></hr>
             <h2>
                 <Translate id="contributors.title">
-                    Contributor(s)
+                    Guide Contributor(s)
                 </Translate>
             </h2>
             <p>
@@ -68,7 +68,7 @@ const GitHubContributors = ({ owner, repo, filePath, additionalContributors }) =
                     ),
                 }}>
                 {
-                    'Become part of the ZAP-Hosting community - Join our {contributionLink}, share your knowledge by writing guides and earn valuable rewards. Start today and make a difference!🙂'
+                    'Become a part of the ZAP-Hosting Community today! Join our {contributionLink} to share your knowledge and expertise by producing high-quality guides & creative content whilst earning valuable rewards (up to €130). Begin today and make a difference! 🙂'
                 }
                 </Translate>
             </p>
