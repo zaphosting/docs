@@ -61,7 +61,6 @@ h3 {
   font-size: 1.25rem !important;
 }
 
-
 /* center images */
 img, iframe {
   display: block;
@@ -200,6 +199,10 @@ table {
 
 p {
   text-align: justify;
+}
+
+svg.iconExternalLink_node_modules-\@docusaurus-theme-classic-lib-theme-Icon-ExternalLink-styles-module {
+  display: none;
 }
 
 /* Navigation Bar Scaling */
