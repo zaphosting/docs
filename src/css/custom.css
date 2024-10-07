@@ -161,6 +161,10 @@ table {
   font-weight: bold;
 }
 
+.theme-doc-markdown.markdown p {
+  text-align: justify;
+}
+
 .theme-doc-toc-desktop {
   position: relative !important;
   top: auto !important;
@@ -170,7 +174,6 @@ table {
 .theme-doc-breadcrumbs {
   margin-top: 13px !important;
 }
-
 
 .relative {
   position: relative;
@@ -200,10 +203,6 @@ table {
 
 .w-full {
   width: 100%;
-}
-
-p {
-  text-align: justify;
 }
 
 svg.iconExternalLink_node_modules-\@docusaurus-theme-classic-lib-theme-Icon-ExternalLink-styles-module {
