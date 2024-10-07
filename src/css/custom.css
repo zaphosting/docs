@@ -157,6 +157,10 @@ table {
   position: absolute;
 }
 
+.theme-doc-markdown.markdown a {
+  font-weight: bold;
+}
+
 .theme-doc-toc-desktop {
   position: relative !important;
   top: auto !important;
@@ -166,6 +170,7 @@ table {
 .theme-doc-breadcrumbs {
   margin-top: 13px !important;
 }
+
 
 .relative {
   position: relative;
