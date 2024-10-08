@@ -62,7 +62,9 @@ Moreover, you can customize the protection provided that you have booked your ow
 
 These customization options allow you to adjust the DDoS protection to your individual needs and thus increase the security of your server.
 
-> ⚠️ The use of the DDoS Manager is only possible if either an own IP address or the option "DDoS Manager Overview" has been booked as an additional option. If these components are missing from your current package, you can add them at any time by upgrading.
+:::danger
+The use of the DDoS Manager is only possible if either an own IP address or the option "DDoS Manager Overview" has been booked as an additional option. If these components are missing from your current package, you can add them at any time by upgrading.
+:::
 
 
 
