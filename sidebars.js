@@ -927,6 +927,7 @@ const sidebars = {
           label: "First Steps",
           items: [
             "deadlock-firststeps-dashboard",
+            "deadlock-firststeps-connect",
           ]
         },
       ],
