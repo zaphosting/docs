@@ -1,7 +1,7 @@
 ---
-id: game-firststeps-dashboard
-title: "Avorion: Dashboard overview"
-description: Information about the dashboard of an Avorion server from ZAP-Hosting - ZAP-Hosting.com Documentation
+id: killingfloor2-firststeps-dashboard
+title: "Killing Floor 2: Dashboard overview"
+description: Information about the dashboard of an Killing Floor 2server from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Dashboard
 services:
   - gameserver
@@ -11,15 +11,15 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
-You are interested in an **Avorion server** or already own one, but you still lack a comprehensive overview of the administration and the findability of all necessary options? Especially at the beginning, this can be a challenge. But don't worry, we'll provide you with a detailed introduction to the administration of your service below, so you'll have the best possible overview.
+You are interested in an **Killing Floor 2 server** or already own one, but you still lack a comprehensive overview of the administration and the findability of all necessary options? Especially at the beginning, this can be a challenge. But don't worry, we'll provide you with a detailed introduction to the administration of your service below, so you'll have the best possible overview.
 
-After going through this guide, you will easily be able to manage your server efficiently and find all the necessary options and features quickly and easily. Here, you will get a structured overview that will help you step by step to get familiar with the server administration and expand your knowledge in a targeted manner. This way, you can ensure that your **Avorion server** is optimally adapted to your needs and that you get the most out of the available options.
+After going through this guide, you will easily be able to manage your server efficiently and find all the necessary options and features quickly and easily. Here, you will get a structured overview that will help you step by step to get familiar with the server administration and expand your knowledge in a targeted manner. This way, you can ensure that your **Killing Floor 2 server** is optimally adapted to your needs and that you get the most out of the available options.
 
 <InlineVoucher />
 
 ## Information
 
-In the **Information** section of your navigation panel, you will find a number of sub-items to help you manage your server. These include **Dashboard**, **News**, **DDoS Manager**, **Log Files**, **Event Log**, **Service interruptions**, **Frequently Asked Questions** and the **ZAP-Hosting.com Documentation**. In the following you will get a detailed introduction to these different areas.
+In the **Information** section of your navigation panel, you will find a number of sub-items to help you manage your server. These include **Dashboard**, **News**, **DDoS Manager** **Log Files**, **Event Log**, **Service interruptions**, **Frequently Asked Questions** and the **ZAP-Hosting.com Documentation**. In the following you will get a detailed introduction to these different areas.
 
 
 
@@ -27,7 +27,7 @@ In the **Information** section of your navigation panel, you will find a number 
 
 The **Dashboard** of your server is the heart of the administration. All basic and essential information about your service is clearly presented here. This includes, for example, information about the location, status, IP: Port, used memory, game in progress, server name, map and the number of available slots. In addition, the utilization of the CPU, memory and RAM is also displayed.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/5tWycZcDsE2HeP9/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/CoNfEqg3KMJaYPQ/preview)
 
 In the dashboard you also have the option of starting, stopping or restarting your service, to have full control over its operation. Furthermore, you can access the live console to get real-time information about the server's state and take direct action if necessary.
 
@@ -46,7 +46,7 @@ By checking the **News** regularly, you'll stay informed and be able to adjust y
 
 
 
-### DDoS Manager
+### DoS Manager
 
 The **DDoS Manager** allows you to view past attacks and thus get a better overview of potential threats. Furthermore, you have the option to activate notifications for ongoing DDoS attacks on your server to be able to react quickly to such incidents.
 

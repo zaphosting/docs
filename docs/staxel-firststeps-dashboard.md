@@ -1,7 +1,7 @@
 ---
-id: game-firststeps-dashboard
-title: "Avorion: Dashboard overview"
-description: Information about the dashboard of an Avorion server from ZAP-Hosting - ZAP-Hosting.com Documentation
+id: staxel-firststeps-dashboard
+title: "Staxel: Dashboard overview"
+description: Information about the dashboard of an Staxel server from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Dashboard
 services:
   - gameserver
@@ -11,9 +11,9 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
-You are interested in an **Avorion server** or already own one, but you still lack a comprehensive overview of the administration and the findability of all necessary options? Especially at the beginning, this can be a challenge. But don't worry, we'll provide you with a detailed introduction to the administration of your service below, so you'll have the best possible overview.
+You are interested in an **Staxel server** or already own one, but you still lack a comprehensive overview of the administration and the findability of all necessary options? Especially at the beginning, this can be a challenge. But don't worry, we'll provide you with a detailed introduction to the administration of your service below, so you'll have the best possible overview.
 
-After going through this guide, you will easily be able to manage your server efficiently and find all the necessary options and features quickly and easily. Here, you will get a structured overview that will help you step by step to get familiar with the server administration and expand your knowledge in a targeted manner. This way, you can ensure that your **Avorion server** is optimally adapted to your needs and that you get the most out of the available options.
+After going through this guide, you will easily be able to manage your server efficiently and find all the necessary options and features quickly and easily. Here, you will get a structured overview that will help you step by step to get familiar with the server administration and expand your knowledge in a targeted manner. This way, you can ensure that your **Staxel server** is optimally adapted to your needs and that you get the most out of the available options.
 
 <InlineVoucher />
 
@@ -27,7 +27,7 @@ In the **Information** section of your navigation panel, you will find a number 
 
 The **Dashboard** of your server is the heart of the administration. All basic and essential information about your service is clearly presented here. This includes, for example, information about the location, status, IP: Port, used memory, game in progress, server name, map and the number of available slots. In addition, the utilization of the CPU, memory and RAM is also displayed.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/5tWycZcDsE2HeP9/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/sLX27PeZax5q2oF/preview)
 
 In the dashboard you also have the option of starting, stopping or restarting your service, to have full control over its operation. Furthermore, you can access the live console to get real-time information about the server's state and take direct action if necessary.
 
@@ -84,6 +84,8 @@ The **Event Log** provides you with a comprehensive overview of all activities r
 
 
 
+
+
 ### Service Interruptions
 
 Your server was temporarily offline and you can't explain why? A look into the event log and log files did not provide any information either? It could be that the cause of the problem does not lie directly with your server, but with the host system on which your server is operated.
@@ -111,7 +113,7 @@ We offer extensive documentation for our products, which serves as a knowledge b
 
 ## Settings
 
-In the **Settings** section of your navigation panel, you will find a number of sub-items that will help you manage your server. These include the **Settings**, **Configs**, **Games**, **Versions** and the **Restart planner**. In the following you will get a detailed introduction to these different areas.
+In the **Settings** section of your navigation panel, you will find a number of sub-items that will help you manage your server. These include the **Settings**, **Configs**, **Games**, **Versions**, **Plugins**, **Steam Workshop**, **SaveGame Manager** and the **Restart planner**. In the following you will get a detailed introduction to these different areas.
 
 
 
@@ -149,6 +151,12 @@ Under **Versions** you have the possibility to view and manage the current versi
 ![img](https://screensaver01.zap-hosting.com/index.php/s/BH2JzyRHTeLdKHz/preview)
 
 Moreover, you can also enable the email notification feature for automatic updates to keep you informed about updates and ensure that you are always up-to-date.
+
+
+
+### SaveGame Manager
+
+![img](https://screensaver01.zap-hosting.com/index.php/s/R9Ss5sd2z9Adrnq/preview)
 
 
 
