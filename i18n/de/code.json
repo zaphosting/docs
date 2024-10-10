@@ -442,5 +442,11 @@
   "theme.contentVisibility.draftBanner.message": {
     "message": "This page is a draft. It will only be visible in dev and be excluded from the production build.",
     "description": "The draft content banner message"
+  },
+  "contributors.title": {
+    "message": "Anleitung Mitwirkende(r)"
+  },
+  "contributors.description": {
+    "message": "Werde noch heute Teil der ZAP-Hosting-Community! Tritt unserem {contributionLink} bei, um dein Wissen und deine Expertise zu teilen, indem du hochwertige Anleitungen und kreative Inhalte erstellst und gleichzeitig wertvolle Belohnungen (bis zu 130€) erhältst. Fange noch heute an und bewirke etwas! 🙂"
   }
 }
