@@ -45,7 +45,7 @@ Die genauesten und aktuellsten Spezifikationsinformationen findest du in der off
 
 ## Vorbereitung
 
-Um GitLab auf deinem Linux-Server zu installieren, muss eine Verbindung über einen SSH-Client hergestellt werden. Weitere Informationen hierzu findest du in unserer Anleitung [Erstzugriff (SSH)](https://zap-hosting.com/guides/de/docs/vserver-linux-ssh).
+Um GitLab auf deinem Linux-Server zu installieren, muss eine Verbindung über einen SSH-Client hergestellt werden. Weitere Informationen hierzu findest du in unserer Anleitung [Erstzugriff (SSH)](vserver-linux-ssh.md).
 
 Sobald die Verbindung hergestellt ist, kannst du mit der Installation der erforderlichen Pakete beginnen, die für die eigentliche Installation von GitLab benötigt werden.
 
