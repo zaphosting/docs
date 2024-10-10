@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Diese Anleitung liefert Schritte zur Installation von Node.js, Deno und Bun. Diese Befehle müssen über SSH ausgeführt werden. Wenn du nicht weißt, wie man sich über SSH mit deinem Server verbindet, schau dir bitte unsere [Erstzugriff (SSH)](vserver-linux-ssh.md) Anleitung.
+Diese Anleitung liefert Schritte zur Installation von Node.js, Deno und Bun. Diese Befehle müssen über SSH ausgeführt werden. Wenn du nicht weißt, wie man sich über SSH mit deinem Server verbindet, schau dir bitte unsere [Erstzugriff (SSH)](vserver-linux-ssh.md) Anleitung an.
 
 <InlineVoucher />
 
