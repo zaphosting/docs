@@ -176,7 +176,7 @@ In the **Tools** section of your navigation panel, you will find a range of sub-
 
 ### FTP-Browser
 
-Using the **FTP Browser**, you will get all the necessary information to establish a connection to the FTP access. The FTP access allows you direct access to the files of your game server. We recommend using an external FTP program such as **Filezilla** or **WinSCP** for optimal use. If you are not familiar with how to use FTP, then taking a look at the following [guide](https://zap-hosting.com/guides/docs/en/gameserver_ftpaccess/) may help you.
+Using the **FTP Browser**, you will get all the necessary information to establish a connection to the FTP access. The FTP access allows you direct access to the files of your game server. We recommend using an external FTP program such as **Filezilla** or **WinSCP** for optimal use. If you are not familiar with how to use FTP, we recommend taking a look at our [FTP Access](gameserver-ftpaccess.md) guide which may help you.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/sX85i9HyzR9wmAM/preview)
 
