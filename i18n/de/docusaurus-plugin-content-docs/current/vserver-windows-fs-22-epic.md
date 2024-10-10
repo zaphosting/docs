@@ -31,7 +31,7 @@ Wenn du den Server betreibst, kannst du den Server nicht hosten und gleichzeitig
 
 ## Schritt 1: Vorbereitung zur Serverinstallation
 
-Beginne damit, dich über Remote Desktop (RDP) mit deinem Server zu verbinden. Wenn du dabei Hilfe benötigst, sieh dir bitte unsere [RDP-Ersteinrichtungsanleitung](https://zap-hosting.com/guides/docs/vserver-windows-userdp/) an.
+Beginne damit, dich über Remote Desktop (RDP) mit deinem Server zu verbinden. Verwende unsere Anleitung [Erstzugang (RDP)](vserver-windows-userdp.md), wenn du Hilfe benötigst.
 
 Sobald du verbunden bist, musst du ein notwendiges Voraussetzungsprogramm installieren, Microsoft Visual C++ Redistributable, das von [Microsofts Website](https://learn.microsoft.com/de-DE/cpp/windows/latest-supported-vc-redist?view=msvc-170) heruntergeladen werden kann. Nach dem Herunterladen folge den Anweisungen auf dem Bildschirm, um die Installation abzuschließen.
 

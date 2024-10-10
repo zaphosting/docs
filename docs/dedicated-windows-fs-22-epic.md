@@ -28,7 +28,7 @@ When running the server, you cannot host the server and play on the same Epic Ga
 :::
 
 ## Step 1: Preparing for server install
-Begin by connecting to your server via Remote Desktop (RDP). If you need help with this, please refer to our [RDP Initial Access guide](https://zap-hosting.com/guides/docs/vserver-windows-userdp/).
+Begin by connecting to your server via Remote Desktop (RDP). If you need help with this, please refer to our [Initial Access (RDP)](vserver-windows-userdp.md).
 
 Once connected you will have to install a necessary prerequisite, Microsoft Visual C++ Redistribute, which can be downloaded from [Microsoft's website](https://learn.microsoft.com/en-US/cpp/windows/latest-supported-vc-redist?view=msvc-170). After downloading, follow the on-screen instructions to complete the installation.
 

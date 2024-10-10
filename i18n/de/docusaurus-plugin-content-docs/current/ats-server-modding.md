@@ -67,7 +67,7 @@ Es werden zwei Dateien in deinen `Dokumente/American Truck Simulator` Ordner exp
 
 ## Server-Pakete hochladen
 
-Nachdem du die Serverpakete für deine Mods exportiert hast, musst du sie per FTP auf deinen ATS-Server hochladen. Bitte benutze unsere [FTP File Access guide](https://zap-hosting.com/guides/docs/gameserver-ftpaccess) als weitere Hilfe, um dich mit deinem Server zu verbinden.
+Nachdem du die Serverpakete für deine Mods exportiert hast, musst du sie per FTP auf deinen ATS-Server hochladen. BWenn du nicht weißt, wie man FTP verwendet, dann kann dir ein Blick in die folgende [Anleitung](gameserver-ftpaccess.md) weiterhelfen.
 
 Sobald du fertig bist, gehe in das Hauptverzeichnis  von **American Truck Simulator**. Lade die beiden Dateien der Serverpakete in diesen Ordner hoch. Wenn diese Dateien bereits existieren, ersetze sie einfach.
 

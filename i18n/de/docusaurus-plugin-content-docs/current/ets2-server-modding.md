@@ -67,7 +67,7 @@ Es werden zwei Dateien in deinen `Dokumente/Euro Truck Simulator 2` Ordner expor
 
 ## Server-Pakete hochladen
 
-Nachdem du die Serverpakete für deine Mods exportiert hast, musst du sie per FTP auf deinen ETS2-Server hochladen. Bitte benutze unsere [FTP File Access guide](https://zap-hosting.com/guides/docs/gameserver-ftpaccess) als weitere Hilfe, um dich mit deinem Server zu verbinden.
+Nachdem du die Serverpakete für deine Mods exportiert hast, musst du sie per FTP auf deinen ETS2-Server hochladen. Wenn du nicht weißt, wie man sich über SSH mit deinem Server verbindet, schau dir bitte unsere [Erstzugriff (SSH)](vserver-linux-ssh.md) Anleitung.
 
 Sobald du fertig bist, gehe in das Hauptverzeichnis  von **Euro Truck Simulator 2**. Lade die beiden Dateien der Serverpakete in diesen Ordner hoch. Wenn diese Dateien bereits existieren, ersetze sie einfach.
 
