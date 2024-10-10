@@ -378,5 +378,253 @@
   "sidebar.dedicatedserverSidebar.category.Dedicated Game Servers": {
     "message": "Dedicated Game Servers",
     "description": "The label for category Dedicated Game Servers in sidebar dedicatedserverSidebar"
+  },
+  "sidebar.gameserverSidebar.category.Afterinfection": {
+    "message": "Afterinfection",
+    "description": "The label for category Afterinfection in sidebar gameserverSidebar"
+  },
+  "sidebar.gameserverSidebar.category.Animalia Survival": {
+    "message": "Animalia Survival",
+    "description": "The label for category Animalia Survival in sidebar gameserverSidebar"
+  },
+  "sidebar.gameserverSidebar.category.Argo": {
+    "message": "Argo",
+    "description": "The label for category Argo in sidebar gameserverSidebar"
+  },
+  "sidebar.gameserverSidebar.category.ASTRONEER": {
+    "message": "ASTRONEER",
+    "description": "The label for category ASTRONEER in sidebar gameserverSidebar"
+  },
+  "sidebar.gameserverSidebar.category.Banana Shooter": {
+    "message": "Banana Shooter",
+    "description": "The label for category Banana Shooter in sidebar gameserverSidebar"
+  },
+  "sidebar.gameserverSidebar.category.Battalion 1944": {
+    "message": "Battalion 1944",
+    "description": "The label for category Battalion 1944 in sidebar gameserverSidebar"
+  },
+  "sidebar.gameserverSidebar.category.Battle Grounds III": {
+    "message": "Battle Grounds III",
+    "description": "The label for category Battle Grounds III in sidebar gameserverSidebar"
+  },
+  "sidebar.gameserverSidebar.category.Beasts of Bermuda": {
+    "message": "Beasts of Bermuda",
+    "description": "The label for category Beasts of Bermuda in sidebar gameserverSidebar"
+  },
+  "sidebar.gameserverSidebar.category.Beyond the Wire": {
+    "message": "Beyond the Wire",
+    "description": "The label for category Beyond the Wire in sidebar gameserverSidebar"
+  },
+  "sidebar.gameserverSidebar.category.Broke Protocol": {
+    "message": "Broke Protocol",
+    "description": "The label for category Broke Protocol in sidebar gameserverSidebar"
+  },
+  "sidebar.gameserverSidebar.category.Citadel: Forged With Fire": {
+    "message": "Citadel: Forged With Fire",
+    "description": "The label for category Citadel: Forged With Fire in sidebar gameserverSidebar"
+  },
+  "sidebar.gameserverSidebar.category.Colony Survival": {
+    "message": "Colony Survival",
+    "description": "The label for category Colony Survival in sidebar gameserverSidebar"
+  },
+  "sidebar.gameserverSidebar.category.Contagion": {
+    "message": "Contagion",
+    "description": "The label for category Contagion in sidebar gameserverSidebar"
+  },
+  "sidebar.gameserverSidebar.category.Craftopia": {
+    "message": "Craftopia",
+    "description": "The label for category Craftopia in sidebar gameserverSidebar"
+  },
+  "sidebar.gameserverSidebar.category.Cryofall": {
+    "message": "Cryofall",
+    "description": "The label for category Cryofall in sidebar gameserverSidebar"
+  },
+  "sidebar.gameserverSidebar.category.Day of Infamy": {
+    "message": "Day of Infamy",
+    "description": "The label for category Day of Infamy in sidebar gameserverSidebar"
+  },
+  "sidebar.gameserverSidebar.category.DDraceNetwork": {
+    "message": "DDraceNetwork",
+    "description": "The label for category DDraceNetwork in sidebar gameserverSidebar"
+  },
+  "sidebar.gameserverSidebar.category.Deadlock": {
+    "message": "Deadlock",
+    "description": "The label for category Deadlock in sidebar gameserverSidebar"
+  },
+  "sidebar.gameserverSidebar.category.Ground Branch": {
+    "message": "Ground Branch",
+    "description": "The label for category Ground Branch in sidebar gameserverSidebar"
+  },
+  "sidebar.gameserverSidebar.category.Holdfast: Nations At War": {
+    "message": "Holdfast: Nations At War",
+    "description": "The label for category Holdfast: Nations At War in sidebar gameserverSidebar"
+  },
+  "sidebar.gameserverSidebar.category.HumanitZ": {
+    "message": "HumanitZ",
+    "description": "The label for category HumanitZ in sidebar gameserverSidebar"
+  },
+  "sidebar.gameserverSidebar.category.Hurtworld": {
+    "message": "Hurtworld",
+    "description": "The label for category Hurtworld in sidebar gameserverSidebar"
+  },
+  "sidebar.gameserverSidebar.category.Icarus": {
+    "message": "Icarus",
+    "description": "The label for category Icarus in sidebar gameserverSidebar"
+  },
+  "sidebar.gameserverSidebar.category.Insurgency: Sandstorm": {
+    "message": "Insurgency: Sandstorm",
+    "description": "The label for category Insurgency: Sandstorm in sidebar gameserverSidebar"
+  },
+  "sidebar.gameserverSidebar.category.Iron Armada": {
+    "message": "Iron Armada",
+    "description": "The label for category Iron Armada in sidebar gameserverSidebar"
+  },
+  "sidebar.gameserverSidebar.category.Journey of Life": {
+    "message": "Journey of Life",
+    "description": "The label for category Journey of Life in sidebar gameserverSidebar"
+  },
+  "sidebar.gameserverSidebar.category.Killing Floor 2": {
+    "message": "Killing Floor 2",
+    "description": "The label for category Killing Floor 2 in sidebar gameserverSidebar"
+  },
+  "sidebar.gameserverSidebar.category.Leap": {
+    "message": "Leap",
+    "description": "The label for category Leap in sidebar gameserverSidebar"
+  },
+  "sidebar.gameserverSidebar.category.Left 4 Dead 2": {
+    "message": "Left 4 Dead 2",
+    "description": "The label for category Left 4 Dead 2 in sidebar gameserverSidebar"
+  },
+  "sidebar.gameserverSidebar.category.Longvinter": {
+    "message": "Longvinter",
+    "description": "The label for category Longvinter in sidebar gameserverSidebar"
+  },
+  "sidebar.gameserverSidebar.category.Minetest": {
+    "message": "Minetest",
+    "description": "The label for category Minetest in sidebar gameserverSidebar"
+  },
+  "sidebar.gameserverSidebar.category.Miscreated": {
+    "message": "Miscreated",
+    "description": "The label for category Miscreated in sidebar gameserverSidebar"
+  },
+  "sidebar.gameserverSidebar.category.Mount & Blade": {
+    "message": "Mount & Blade",
+    "description": "The label for category Mount & Blade in sidebar gameserverSidebar"
+  },
+  "sidebar.gameserverSidebar.category.Necesse": {
+    "message": "Necesse",
+    "description": "The label for category Necesse in sidebar gameserverSidebar"
+  },
+  "sidebar.gameserverSidebar.category.Never Split the Party": {
+    "message": "Never Split the Party",
+    "description": "The label for category Never Split the Party in sidebar gameserverSidebar"
+  },
+  "sidebar.gameserverSidebar.category.Nienix": {
+    "message": "Nienix",
+    "description": "The label for category Nienix in sidebar gameserverSidebar"
+  },
+  "sidebar.gameserverSidebar.category.No More Room In Hell": {
+    "message": "No More Room In Hell",
+    "description": "The label for category No More Room In Hell in sidebar gameserverSidebar"
+  },
+  "sidebar.gameserverSidebar.category.No One Survived": {
+    "message": "No One Survived",
+    "description": "The label for category No One Survived in sidebar gameserverSidebar"
+  },
+  "sidebar.gameserverSidebar.category.One Hour One Life": {
+    "message": "One Hour One Life",
+    "description": "The label for category One Hour One Life in sidebar gameserverSidebar"
+  },
+  "sidebar.gameserverSidebar.category.OpenTTD": {
+    "message": "OpenTTD",
+    "description": "The label for category OpenTTD in sidebar gameserverSidebar"
+  },
+  "sidebar.gameserverSidebar.category.Operation: Harsh Doorstop": {
+    "message": "Operation: Harsh Doorstop",
+    "description": "The label for category Operation: Harsh Doorstop in sidebar gameserverSidebar"
+  },
+  "sidebar.gameserverSidebar.category.Outlaws of the Old West": {
+    "message": "Outlaws of the Old West",
+    "description": "The label for category Outlaws of the Old West in sidebar gameserverSidebar"
+  },
+  "sidebar.gameserverSidebar.category.PixARK": {
+    "message": "PixARK",
+    "description": "The label for category PixARK in sidebar gameserverSidebar"
+  },
+  "sidebar.gameserverSidebar.category.Portal Knights": {
+    "message": "Portal Knights",
+    "description": "The label for category Portal Knights in sidebar gameserverSidebar"
+  },
+  "sidebar.gameserverSidebar.category.Reign of Kings": {
+    "message": "Reign of Kings",
+    "description": "The label for category Reign of Kings in sidebar gameserverSidebar"
+  },
+  "sidebar.gameserverSidebar.category.Rising Storm 2": {
+    "message": "Rising Storm 2",
+    "description": "The label for category Rising Storm 2 in sidebar gameserverSidebar"
+  },
+  "sidebar.gameserverSidebar.category.Risk of Rain 2": {
+    "message": "Risk of Rain 2",
+    "description": "The label for category Risk of Rain 2 in sidebar gameserverSidebar"
+  },
+  "sidebar.gameserverSidebar.category.Sanctuary Island": {
+    "message": "Sanctuary Island",
+    "description": "The label for category Sanctuary Island in sidebar gameserverSidebar"
+  },
+  "sidebar.gameserverSidebar.category.Soldat": {
+    "message": "Soldat",
+    "description": "The label for category Soldat in sidebar gameserverSidebar"
+  },
+  "sidebar.gameserverSidebar.category.Sons of the Forest": {
+    "message": "Sons of the Forest",
+    "description": "The label for category Sons of the Forest in sidebar gameserverSidebar"
+  },
+  "sidebar.gameserverSidebar.category.Squad": {
+    "message": "Squad",
+    "description": "The label for category Squad in sidebar gameserverSidebar"
+  },
+  "sidebar.gameserverSidebar.category.Starbound": {
+    "message": "Starbound",
+    "description": "The label for category Starbound in sidebar gameserverSidebar"
+  },
+  "sidebar.gameserverSidebar.category.Starmade": {
+    "message": "Starmade",
+    "description": "The label for category Starmade in sidebar gameserverSidebar"
+  },
+  "sidebar.gameserverSidebar.category.Staxel": {
+    "message": "Staxel",
+    "description": "The label for category Staxel in sidebar gameserverSidebar"
+  },
+  "sidebar.gameserverSidebar.category.Subsistence": {
+    "message": "Subsistence",
+    "description": "The label for category Subsistence in sidebar gameserverSidebar"
+  },
+  "sidebar.gameserverSidebar.category.Team Fortress 2": {
+    "message": "Team Fortress 2",
+    "description": "The label for category Team Fortress 2 in sidebar gameserverSidebar"
+  },
+  "sidebar.gameserverSidebar.category.Teeworlds": {
+    "message": "Teeworlds",
+    "description": "The label for category Teeworlds in sidebar gameserverSidebar"
+  },
+  "sidebar.gameserverSidebar.category.The Front": {
+    "message": "The Front",
+    "description": "The label for category The Front in sidebar gameserverSidebar"
+  },
+  "sidebar.gameserverSidebar.category.The Isle": {
+    "message": "The Isle",
+    "description": "The label for category The Isle in sidebar gameserverSidebar"
+  },
+  "sidebar.gameserverSidebar.category.Unfortunate Spacemen": {
+    "message": "Unfortunate Spacemen",
+    "description": "The label for category Unfortunate Spacemen in sidebar gameserverSidebar"
+  },
+  "sidebar.gameserverSidebar.category.Veloren": {
+    "message": "Veloren",
+    "description": "The label for category Veloren in sidebar gameserverSidebar"
+  },
+  "sidebar.gameserverSidebar.category.Vintage Story": {
+    "message": "Vintage Story",
+    "description": "The label for category Vintage Story in sidebar gameserverSidebar"
   }
 }
