@@ -48,6 +48,7 @@ const sidebars = {
       type: 'category',
       label: 'Account',
       items: [
+        "account-restore-access",
         "account-contractsandprepaid",
         "account-termination-and-cancellation-period",
         "account-paymentoptions",
@@ -218,7 +219,8 @@ const sidebars = {
           label: "txAdmin",
           items: [
             "fivem-txadmin-setup",
-            "fivem-txadmin-features"
+            "fivem-txadmin-features",
+            "fivem-txadmin-import-server-base"
           ]
         },
         {
@@ -433,6 +435,19 @@ const sidebars = {
     },
     {
       type: "category",
+      label: "Afterinfection",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "afterinfection-firststeps-dashboard",
+          ]
+        },
+      ],
+    },
+    {
+      type: "category",
       label: "American Truck Simulator",
       items: [
         {
@@ -457,6 +472,32 @@ const sidebars = {
           ]
         },
         "amongus-connection"
+      ],
+    },
+    {
+      type: "category",
+      label: "Animalia Survival",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "animalia-survival-firststeps-dashboard",
+          ]
+        },
+      ],
+    },
+    {
+      type: "category",
+      label: "Argo",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "argo-firststeps-dashboard",
+          ]
+        },
       ],
     },
     {
@@ -510,6 +551,19 @@ const sidebars = {
     },
     {
       type: "category",
+      label: "ASTRONEER",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "astroneer-firststeps-dashboard",
+          ]
+        },
+      ],
+    },
+    {
+      type: "category",
       label: "Avorion",
       items: [
         {
@@ -524,6 +578,19 @@ const sidebars = {
     },
     {
       type: "category",
+      label: "Banana Shooter",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "bananashooter-firststeps-dashboard",
+          ]
+        },
+      ],
+    },
+    {
+      type: "category",
       label: "Barotrauma",
       items: [
         {
@@ -534,6 +601,32 @@ const sidebars = {
           ]
         },
         "barotrauma-becomeadmin"
+      ],
+    },
+    {
+      type: "category",
+      label: "Battalion 1944",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "battalion1944-firststeps-dashboard",
+          ]
+        },
+      ],
+    },
+    {
+      type: "category",
+      label: "Battle Grounds III",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "battlegrounds3-firststeps-dashboard",
+          ]
+        },
       ],
     },
     {
@@ -553,6 +646,71 @@ const sidebars = {
     },
     {
       type: "category",
+      label: "Beasts of Bermuda",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "bob-firststeps-dashboard",
+          ]
+        },
+      ],
+    },
+    {
+      type: "category",
+      label: "Beyond the Wire",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "beyondthewire-firststeps-dashboard",
+          ]
+        },
+      ],
+    },
+    {
+      type: "category",
+      label: "Broke Protocol",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "brokeprotocol-firststeps-dashboard",
+          ]
+        },
+      ],
+    },
+    {
+      type: "category",
+      label: "Citadel: Forged With Fire",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "citadel-forgedwithfire-firststeps-dashboard",
+          ]
+        },
+      ],
+    },
+    {
+      type: "category",
+      label: "Colony Survival",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "colonysurvival-firststeps-dashboard",
+          ]
+        },
+      ],
+    },
+    {
+      type: "category",
       label: "Conan Exiles",
       items: [
         {
@@ -568,6 +726,19 @@ const sidebars = {
     },
     {
       type: "category",
+      label: "Contagion",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "contagion-firststeps-dashboard",
+          ]
+        },
+      ],
+    },
+    {
+      type: "category",
       label: "Core Keeper",
       items: [
         {
@@ -578,6 +749,32 @@ const sidebars = {
             "corekeeper-connecttoserver"
           ]
         }
+      ],
+    },
+    {
+      type: "category",
+      label: "Craftopia",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "craftopia-firststeps-dashboard",
+          ]
+        },
+      ],
+    },
+    {
+      type: "category",
+      label: "Cryofall",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "cryofall-firststeps-dashboard",
+          ]
+        },
       ],
     },
     {
@@ -682,6 +879,19 @@ const sidebars = {
     },
     {
       type: "category",
+      label: "Day of Infamy",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "dayofinfamy-firststeps-dashboard",
+          ]
+        },
+      ],
+    },
+    {
+      type: "category",
       label: "DayZ",
       items: [
         {
@@ -693,6 +903,32 @@ const sidebars = {
         },
         "dayz-becomeadmin",
         "dayz-mods",
+      ],
+    },
+    {
+      type: "category",
+      label: "DDraceNetwork",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "ddracenetwork-firststeps-dashboard",
+          ]
+        },
+      ],
+    },
+    {
+      type: "category",
+      label: "Deadlock",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "deadlock-firststeps-dashboard",
+          ]
+        },
       ],
     },
     {
@@ -767,7 +1003,6 @@ const sidebars = {
         "ets2-server-modding"
       ],
     },
-    
     {
       type: "category",
       label: "Factorio",
@@ -842,7 +1077,8 @@ const sidebars = {
           label: "txAdmin",
           items: [
             "fivem-txadmin-setup",
-            "fivem-txadmin-features"
+            "fivem-txadmin-features",
+            "fivem-txadmin-import-server-base"
           ]
         },
         {
@@ -885,6 +1121,123 @@ const sidebars = {
         "gmod-servercfg",
         "gmod-ttt"
       ],
+    }, 
+    {
+      type: "category",
+      label: "Ground Branch",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "groundbranch-firststeps-dashboard",
+          ]
+        },
+      ],
+    }, 
+    {
+      type: "category",
+      label: "Holdfast: Nations At War",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "holdfast-firststeps-dashboard",
+          ]
+        },
+      ],
+    },
+    {
+      type: "category",
+      label: "HumanitZ",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "humanitz-firststeps-dashboard",
+          ]
+        },
+      ],
+    },
+    {
+      type: "category",
+      label: "Hurtworld",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "hurtworld-firststeps-dashboard",
+          ]
+        },
+      ],
+    },
+    {
+      type: "category",
+      label: "Icarus",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "icarus-firststeps-dashboard",
+          ]
+        },
+      ],
+    },
+    {
+      type: "category",
+      label: "Insurgency: Sandstorm",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "insurgency-firststeps-dashboard",
+          ]
+        },
+      ],
+    },
+    {
+      type: "category",
+      label: "Iron Armada",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "ironarmada-firststeps-dashboard",
+          ]
+        },
+      ],
+    },
+    {
+      type: "category",
+      label: "Journey of Life",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "jol-firststeps-dashboard",
+          ]
+        },
+      ],
+    },
+    {
+      type: "category",
+      label: "Killing Floor 2",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "killingfloor2-firststeps-dashboard",
+          ]
+        },
+      ],
     },
     {
       type: "category",
@@ -900,7 +1253,46 @@ const sidebars = {
         "lastoasis-createrealm",
         "lastoasis-multiple-oases"
       ],
-    },    
+    },  
+    {
+      type: "category",
+      label: "Leap",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "leap-firststeps-dashboard",
+          ]
+        },
+      ],
+    },
+    {
+      type: "category",
+      label: "Left 4 Dead 2",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "l4d2-firststeps-dashboard",
+          ]
+        },
+      ],
+    },
+    {
+      type: "category",
+      label: "Longvinter",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "longvinter-firststeps-dashboard",
+          ]
+        },
+      ],
+    },
     {
       type: "category",
       label: "Minecraft",
@@ -956,6 +1348,45 @@ const sidebars = {
     },
     {
       type: "category",
+      label: "Minetest",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "minetest-firststeps-dashboard",
+          ]
+        },
+      ],
+    },
+    {
+      type: "category",
+      label: "Miscreated",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "miscreated-firststeps-dashboard",
+          ]
+        },
+      ],
+    },
+    {
+      type: "category",
+      label: "Mount & Blade",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "mountandblade-firststeps-dashboard",
+          ]
+        },
+      ],
+    },
+    {
+      type: "category",
       label: "Multi Theft Auto",
       items: [
         {
@@ -987,6 +1418,84 @@ const sidebars = {
     },
     {
       type: "category",
+      label: "Necesse",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "necesse-firststeps-dashboard",
+          ]
+        },
+      ],
+    },
+    {
+      type: "category",
+      label: "Never Split the Party",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "nstp-firststeps-dashboard",
+          ]
+        },
+      ],
+    },
+    {
+      type: "category",
+      label: "Nienix",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "nienix-firststeps-dashboard",
+          ]
+        },
+      ],
+    },
+    {
+      type: "category",
+      label: "No More Room In Hell",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "nmrih-firststeps-dashboard",
+          ]
+        },
+      ],
+    },
+    {
+      type: "category",
+      label: "No One Survived",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "noonesurvived-firststeps-dashboard",
+          ]
+        },
+      ],
+    },
+    {
+      type: "category",
+      label: "One Hour One Life",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "ohol-firststeps-dashboard",
+          ]
+        },
+      ],
+    },
+    {
+      type: "category",
       label: "Open.mp",
       items: [
         {
@@ -999,6 +1508,45 @@ const sidebars = {
         "openmp-configuration",
         "openmp-server-commands",
         "openmp-rcon"
+      ],
+    },
+    {
+      type: "category",
+      label: "OpenTTD",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "openttd-firststeps-dashboard",
+          ]
+        },
+      ],
+    },
+    {
+      type: "category",
+      label: "Operation: Harsh Doorstop",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "ohd-firststeps-dashboard",
+          ]
+        },
+      ],
+    },
+    {
+      type: "category",
+      label: "Outlaws of the Old West",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "ootow-firststeps-dashboard",
+          ]
+        },
       ],
     },
     {
@@ -1032,6 +1580,32 @@ const sidebars = {
           ]
         },
         "pathoftitans-becomeadmin",
+      ],
+    },
+    {
+      type: "category",
+      label: "PixARK",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "pixark-firststeps-dashboard",
+          ]
+        },
+      ],
+    },
+    {
+      type: "category",
+      label: "Portal Knights",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "portalknights-firststeps-dashboard",
+          ]
+        },
       ],
     },
     {
@@ -1083,6 +1657,19 @@ const sidebars = {
     },
     {
       type: "category",
+      label: "Reign of Kings",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "reignofkings-firststeps-dashboard",
+          ]
+        },
+      ],
+    },
+    {
+      type: "category",
       label: "RimWorld Together",
       items: [
         {
@@ -1095,6 +1682,32 @@ const sidebars = {
         "rimworldtogether-configuration",
         "rimworldtogether-server-savegames",
         "rimworldtogether-mods"
+      ],
+    },
+    {
+      type: "category",
+      label: "Rising Storm 2",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "risingstorm2-firststeps-dashboard",
+          ]
+        },
+      ],
+    },
+    {
+      type: "category",
+      label: "Risk of Rain 2",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "riskofrain2-firststeps-dashboard",
+          ]
+        },
       ],
     },
     {
@@ -1113,6 +1726,19 @@ const sidebars = {
         "rust-commands",
         "rust-plugins",
         "rust-decay"
+      ],
+    },
+    {
+      type: "category",
+      label: "Sanctuary Island",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "sanctuaryisland-firststeps-dashboard",
+          ]
+        },
       ],
     },
     {
@@ -1179,6 +1805,32 @@ const sidebars = {
     },
     {
       type: "category",
+      label: "Soldat",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "soldat-firststeps-dashboard",
+          ]
+        },
+      ],
+    },
+    {
+      type: "category",
+      label: "Sons of the Forest",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "sonsoftheforest-firststeps-dashboard",
+          ]
+        },
+      ],
+    },
+    {
+      type: "category",
       label: "Soulmask",
       items: [
         {
@@ -1209,6 +1861,58 @@ const sidebars = {
     },
     {
       type: "category",
+      label: "Squad",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "squad-firststeps-dashboard",
+          ]
+        },
+      ],
+    },
+    {
+      type: "category",
+      label: "Starbound",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "starbound-firststeps-dashboard",
+          ]
+        },
+      ],
+    },
+    {
+      type: "category",
+      label: "Starmade",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "starmade-firststeps-dashboard",
+          ]
+        },
+      ],
+    },
+    {
+      type: "category",
+      label: "Staxel",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "staxel-firststeps-dashboard",
+          ]
+        },
+      ],
+    },
+    {
+      type: "category",
       label: "Stormworks",
       items: [
         {
@@ -1223,6 +1927,19 @@ const sidebars = {
     },
     {
       type: "category",
+      label: "Subsistence",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "subsistence-firststeps-dashboard",
+          ]
+        },
+      ],
+    },
+    {
+      type: "category",
       label: "Sunkenland",
       items: [
         {
@@ -1231,6 +1948,32 @@ const sidebars = {
           items: [
             "sunkenland-firststeps-dashboard",
             "sunkenland-setup-server",
+          ]
+        },
+      ],
+    },
+    {
+      type: "category",
+      label: "Team Fortress 2",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "tf2-firststeps-dashboard",
+          ]
+        },
+      ],
+    },
+    {
+      type: "category",
+      label: "Teeworlds",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "teeworlds-firststeps-dashboard",
           ]
         },
       ],
@@ -1259,6 +2002,45 @@ const sidebars = {
           label: "First Steps",
           items: [
             "terratech-worlds-firststeps-dashboard"
+          ]
+        },
+      ],
+    },
+    {
+      type: "category",
+      label: "The Front",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "thefront-firststeps-dashboard",
+          ]
+        },
+      ],
+    },
+    {
+      type: "category",
+      label: "The Isle",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "theisle-firststeps-dashboard",
+          ]
+        },
+      ],
+    },
+    {
+      type: "category",
+      label: "Unfortunate Spacemen",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "unfortunate-spacemen-firststeps-dashboard",
           ]
         },
       ],
@@ -1320,6 +2102,32 @@ const sidebars = {
           ]
         },
         
+      ],
+    },
+    {
+      type: "category",
+      label: "Veloren",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "veloren-firststeps-dashboard",
+          ]
+        },
+      ],
+    },
+    {
+      type: "category",
+      label: "Vintage Story",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "vintagestory-firststeps-dashboard",
+          ]
+        },
       ],
     },
     {
@@ -1610,6 +2418,14 @@ const sidebars = {
       ]
     },
     {
+      type: "category",
+      label: "Troubleshooting",
+      items: [
+        'dedicated-linux-troubleshooting-fsck'
+
+      ]
+    },	
+    {
       type: 'html',
       className: 'sidebar-title',
       value: (() => {
@@ -1655,6 +2471,7 @@ const sidebars = {
       type: "category",
       label: "Troubleshooting",
       items: [
+        'dedicated-windows-troubleshooting-restore-access',
         'dedicated-windows-rdp-freeze',
       ]
     },	
