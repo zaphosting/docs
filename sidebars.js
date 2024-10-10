@@ -2418,14 +2418,6 @@ const sidebars = {
       ]
     },
     {
-      type: "category",
-      label: "Troubleshooting",
-      items: [
-        'dedicated-linux-troubleshooting-fsck'
-
-      ]
-    },	
-    {
       type: 'html',
       className: 'sidebar-title',
       value: (() => {
