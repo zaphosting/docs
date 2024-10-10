@@ -32,7 +32,7 @@ mknod /dev/net/tun c 10 200
 chmod 0666 /dev/net/tun
 ```
 
-Save the file by pressing `STRG+O`, followed by `Y` and finally press `Enter`. To exit the file press `CTRL+X`. After that run the following command: 
+Save the file by pressing `CTRL+O`, followed by `Y` and finally press `Enter`. To exit the file press `CTRL+X`. After that run the following command: 
 
 ```
 chmod +x /usr/sbin/tunscript.sh
@@ -41,7 +41,7 @@ chmod +x /usr/sbin/tunscript.sh
 Once you have done this, run ``crontab -e`` and select the **nano editor** [1]. Add this line to the end of the file:
 ``` @reboot /usr/sbin/tunscript.sh || exit 1 ```
 
-Save the file by pressing `STRG+O`, then `Y` and finally press `Enter`. To exit the file press `CTRL+X`. You should then be able to continue after a restart.
+Save the file by pressing `CTRL+O`, then `Y` and finally press `Enter`. To exit the file press `CTRL+X`. You should then be able to continue after a restart.
 
 ## Installation
 
