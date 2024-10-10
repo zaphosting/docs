@@ -17,7 +17,7 @@ You are interested in an **Palworld server** or already own one, but you still l
 After going through this guide, you will easily be able to manage your server efficiently and find all the necessary options and features quickly and easily. Here, you will get a structured overview that will help you step by step to get familiar with the server administration and expand your knowledge in a targeted manner. This way, you can ensure that your **Palworld server** is optimally adapted to your needs and that you get the most out of the available options.
 
 :::tip
-We have a separate **Palword (Xbox)** game version now available on our Gameservers, which allows you to play on Xbox/Microsoft Store game versions. Check out our [Change the game](gameserver-gameswitch.md) to learn how to easily switch your game. Make sure to backup your saves as always.
+We have a separate **Palword (Xbox)** game version now available on our Gameservers, which allows you to play on Xbox/Microsoft Store game versions. Check out our [Game Change](gameserver-gameswitch.md) to learn how to easily switch your game. Make sure to backup your saves as always.
 :::
 
 <YouTube videoId="SDZC4-FEdNM" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/5nkkN7JxgoigmSd/preview" title="Setup Palworld server in just a MINUTE!" description="Feel like you understand better when you see things in action? We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
@@ -161,7 +161,7 @@ Have you noticed that some of your changes are partially overwritten? Please be 
 
 ### Games
 
-Under **Games** you always have the possibility to change the game variant of your existing game or to install another game in general. Games with the same slot price can be selected directly under **Available Games**. For all other games an adjustment of the slot price is required first. More information about this can be found in the [Change the game](gameserver-gameswitch.md) guide.
+Under **Games** you always have the possibility to change the game variant of your existing game or to install another game in general. Games with the same slot price can be selected directly under **Available Games**. For all other games an adjustment of the slot price is required first. More information about this can be found in the [Game Change](gameserver-gameswitch.md) guide.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/QB82f3CSKmJgwqk/preview)
 

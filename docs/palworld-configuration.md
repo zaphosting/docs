@@ -68,7 +68,7 @@ The final method of accessing the raw file, is through FTP. If you are not famil
 ### Enable Xbox Mode
 
 :::tip
-We have a separate **Palword (Xbox)** game version now available on our Gameservers, which sets this up automatically for you! Check out our [Change the game](gameserver-gameswitch.md) guide to learn how to easily switch your game. Make sure to backup your saves as always.
+We have a separate **Palword (Xbox)** game version now available on our Gameservers, which sets this up automatically for you! Check out our [Game Change](gameserver-gameswitch.md) guide to learn how to easily switch your game. Make sure to backup your saves as always.
 :::
 
 Palworld dedicated servers now come with the ability to change and function as an Microsoft Store/Xbox dedicated server to allow Xbox players and Microsoft Store PC players to play on their own server together.

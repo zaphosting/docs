@@ -146,7 +146,7 @@ Hast du festgestellt, dass einige deiner Änderungen teilweise überschrieben we
 
 ### Spiele
 
-Unter **Spiele** hast du jederzeit die Möglichkeit die Spielvariante deines bestehenden Spiels zu verändern oder generell ein anderes Spiel zu installieren.  Spiele die den gleichen Slotpreis beinhalten kannst du direkt unter **Verfügbare Spiele** auswählen. Für alle weiteren Spiele wird zunächst eine Anpassung des Slotpreises benötigt. Mehr dazu findest du in der [Spielwechsel](https://zap-hosting.com/guides/docs/de/gameserver_gameswitch/) Anleitung. 
+Unter **Spiele** hast du jederzeit die Möglichkeit die Spielvariante deines bestehenden Spiels zu verändern oder generell ein anderes Spiel zu installieren.  Spiele die den gleichen Slotpreis beinhalten kannst du direkt unter **Verfügbare Spiele** auswählen. Für alle weiteren Spiele wird zunächst eine Anpassung des Slotpreises benötigt. Mehr dazu findest du in der [Spielwechsel](gameserver-gameswitch.md) Anleitung. 
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/xkkECw7o52fAMWk/preview)
 
