@@ -1,7 +1,7 @@
 ---
 id: smalland-firststeps-dashboard
-title: "Smalland Survive the Wilds: Dashboard Overview"
-description: Information about the dashboard of an Smalland Survive the Wilds Server from ZAP-Hosting - ZAP-Hosting.com Documentation
+title: "Smalland: Survive the Wilds: Dashboard overview"
+description: "Information about the dashboard of an Smalland: Survive the Wilds server from ZAP-Hosting - ZAP-Hosting.com Documentation"
 sidebar_label: Dashboard
 services:
   - gameserver
@@ -11,9 +11,9 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
-You are interested in an **Smalland: Survive the Wilds Server** or already own one, but you still lack a comprehensive overview of the administration and the findability of all necessary options? Especially at the beginning, this can be a challenge. But don't worry, we'll provide you with a detailed introduction to the administration of your service below, so you'll have the best possible overview.
+You are interested in an **Smalland: Survive the Wilds server** or already own one, but you still lack a comprehensive overview of the administration and the findability of all necessary options? Especially at the beginning, this can be a challenge. But don't worry, we'll provide you with a detailed introduction to the administration of your service below, so you'll have the best possible overview.
 
-After going through this guide, you will easily be able to manage your server efficiently and find all the necessary options and features quickly and easily. Here, you will get a structured overview that will help you step by step to get familiar with the server administration and expand your knowledge in a targeted manner. This way, you can ensure that your **Smalland: Survive the Wilds Server** is optimally adapted to your needs and that you get the most out of the available options.
+After going through this guide, you will easily be able to manage your server efficiently and find all the necessary options and features quickly and easily. Here, you will get a structured overview that will help you step by step to get familiar with the server administration and expand your knowledge in a targeted manner. This way, you can ensure that your **Smalland: Survive the Wilds server** is optimally adapted to your needs and that you get the most out of the available options.
 
 <InlineVoucher />
 
@@ -27,7 +27,7 @@ In the **Information** section of your navigation panel, you will find a number 
 
 The **Dashboard** of your server is the heart of the administration. All basic and essential information about your service is clearly presented here. This includes, for example, information about the location, status, IP: Port, used memory, game in progress, server name, map and the number of available slots. In addition, the utilization of the CPU, memory and RAM is also displayed.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/j3n5GFX6jPTYcjT/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/ACBs7SrXTgQsAFC/preview)
 
 In the dashboard you also have the option of starting, stopping or restarting your service, to have full control over its operation. Furthermore, you can access the live console to get real-time information about the server's state and take direct action if necessary.
 
@@ -50,7 +50,7 @@ By checking the **News** regularly, you'll stay informed and be able to adjust y
 
 Under the **Statistics** you get a comprehensive overview of the load values of your server. There you will find information about various aspects such as the load of the available slots, the CPU and the memory. You can view this data for different time periods, for example for the last **60 minutes, 24 hours, 3 days, 7 days** or **30 days.**
 
-![](https://screensaver01.zap-hosting.com/index.php/s/N8jcmdqqG2Xt4Bk/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/N8jcmdqqG2Xt4Bk/preview)
 
 Thanks to this information, you get a good insight into the usage of your server. Additionally, these statistics are often helpful to identify possible performance issues and narrow down their causes. For example, you can trace back when the utilization has increased and whether this is related to certain events or changes. This is particularly important when sudden problems arise, as it allows you to take targeted steps to troubleshoot and systematically analyze possible causes.
 
@@ -60,7 +60,7 @@ Thanks to this information, you get a good insight into the usage of your server
 
 The **DDoS Manager** allows you to view past attacks and thus get a better overview of potential threats. Furthermore, you have the option to activate notifications for ongoing DDoS attacks on your server to be able to react quickly to such incidents.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/pertwX6DzWXECyx/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/pertwX6DzWXECyx/preview)
 
 Moreover, you can customize the protection provided that you have booked your own IP address. There are two different options available:
 
@@ -69,7 +69,9 @@ Moreover, you can customize the protection provided that you have booked your ow
 
 These customization options allow you to adjust the DDoS protection to your individual needs and thus increase the security of your server.
 
-> ⚠️ The use of the DDoS Manager is only possible if either an own IP address or the option "DDoS Manager Overview" has been booked as an additional option. If these components are missing from your current package, you can add them at any time by upgrading.
+:::warning
+The use of the DDoS Manager is only possible if either an own IP address or the option "DDoS Manager Overview" has been booked as an additional option. If these components are missing from your current package, you can add them at any time by upgrading.
+:::
 
 
 
@@ -79,15 +81,16 @@ Is a technical problem occurring and you are unsure about its cause? A first pos
 
 Error messages in particular can help to identify and better understand the cause of a problem. Often, difficulties can be uncovered and resolved by taking a targeted look at the log files.
 
-> ⚠️ The information found there does not help or you do not understand it? Don't worry! In this case, we are also daily available in support. Just create a **[Ticket](https://zap-hosting.com/en/customer/support/)** and explain your problem to us. We will look at it as quickly as possible and help you to solve the problem accordingly! :)
-
+:::warning
+The information found there does not help or you do not understand it? Don't worry! In this case, we are also daily available in support. Just create a **[Ticket](https://zap-hosting.com/en/customer/support/)** and explain your problem to us. We will look at it as quickly as possible and help you to solve the problem accordingly! :)
+:::
 
 
 ### Event log
 
 The **Event Log** provides you with a comprehensive overview of all activities related to server administration. Here you can track at any time when a server started, stopped or crashed, as well as when updates, backups or new installations were performed.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/xNzsaMbW5BS5KJC/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/xNzsaMbW5BS5KJC/preview)
 
 
 
@@ -95,7 +98,7 @@ The **Event Log** provides you with a comprehensive overview of all activities r
 
 The **Live Console** offers you a real-time view of all current events on your server. Here you can see information about the activities of the players as well as possible error messages and system messages. This overview allows you to get a comprehensive view of what is happening on your server and to detect possible problems at an early stage.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/dktDADkq3bzG3F6/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/bDqw5G9fLi5mxAg/preview)
 
 Additionally to monitoring the events, you can also send commands directly to the server in the **Live Console**. This can be useful to adjust settings, perform certain actions, or respond quickly to problems that arise.
 
@@ -121,7 +124,7 @@ In case you still have unanswered questions, we recommend that you first take a 
 
 We offer extensive documentation for our products, which serves as a knowledge base for the most frequently asked questions and concerns. There you will find various guides and help on different topics that will assist you in using and managing your product.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SyxK6CFgedeL2GF/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/QrEL7ABJtS9yBcS/preview)
 
 
 
@@ -146,15 +149,16 @@ The config file editor allows you to edit the configuration files directly from 
 
 By using the editor, you get direct access to all available options and can customize them precisely. This is especially useful for advanced users who want full control over their server settings and know exactly what changes they want to make.
 
-> ⚠️ Have you noticed that some of your changes are partially overwritten? Please be aware that certain option values are taken from the settings page. If you want to make these changes directly in the config, you must first disable the relevant options on the settings page.
-
+:::warning
+Have you noticed that some of your changes are partially overwritten? Please be aware that certain option values are taken from the settings page. If you want to make these changes directly in the config, you must first disable the relevant options on the settings page.
+:::
 
 
 ### Games
 
-Under **Games** you always have the possibility to change the game variant of your existing game or to install another game in general.  Games with the same slot price can be selected directly under **Available Games**. For all other games an adjustment of the slot price is required first. More information about this can be found in the [Change the game](gameserver-gameswitch.md) guide.
+Under **Games** you always have the possibility to change the game variant of your existing game or to install another game in general.  Games with the same slot price can be selected directly under **Available Games**. For all other games an adjustment of the slot price is required first. More information about this can be found in the [Game Change](gameserver-gameswitch.md) guide.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/xkkECw7o52fAMWk/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/xkkECw7o52fAMWk/preview)
 
 
 
@@ -162,7 +166,7 @@ Under **Games** you always have the possibility to change the game variant of yo
 
 Under **Versions** you have the possibility to view and manage the current version of your game server. Here you can update to the latest version at any time or activate automatic updates to ensure that your server is always up to date.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/BH2JzyRHTeLdKHz/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/BH2JzyRHTeLdKHz/preview)
 
 Moreover, you can also enable the email notification feature for automatic updates to keep you informed about updates and ensure that you are always up-to-date.
 
@@ -172,11 +176,9 @@ Moreover, you can also enable the email notification feature for automatic updat
 
 Do you want to schedule server restarts at specific times? The Restart Planner allows you to set up scheduled automatic restarts of your game server. With this feature, you can set up restarts at specific times or at regular intervals.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/Y6WciDS7YP98P4m/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/Y6WciDS7YP98P4m/preview)
 
-### DNS settings
-With the ZAP DNS settings, you can create easy-to-remember addresses for your service. You can either use a subdomain of one of our domains or you can create a DNS entry on your own domains and thus have an address that can be better associated with you as a person.
-![](https://screensaver01.zap-hosting.com/index.php/s/tM5FGTHRSbZA5rN/preview)
+
 
 ## Tools
 
@@ -186,9 +188,9 @@ In the **Tools** section of your navigation panel, you will find a range of sub-
 
 ### FTP-Browser
 
-Using the **FTP Browser**, you will get all the necessary information to establish a connection to the FTP access. The FTP access allows you direct access to the files of your game server. We recommend using an external FTP program such as **Filezilla** or **WinSCP** for optimal use. If you are not familiar with how to use FTP, then taking a look at the [Access via FTP](gameserver-ftpaccess.md) guide may help you.
+Using the **FTP Browser**, you will get all the necessary information to establish a connection to the FTP access. The FTP access allows you direct access to the files of your game server. We recommend using an external FTP program such as **Filezilla** or **WinSCP** for optimal use. If you are not familiar with how to use FTP, we recommend taking a look at our [FTP Access](gameserver-ftpaccess.md) guide which may help you.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/sX85i9HyzR9wmAM/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/sX85i9HyzR9wmAM/preview)
 
 **FileZilla:**  FileZilla ist der wohl einfachste und bekannteste FTP-Client. Einfach installieren, starten und in der oberen Leiste deine Zugangsdaten eingeben, die du auf dieser Seite etwas weiter oben findest. Nach einem schnellen Klick auf "Verbinden" bist du direkt am Server angemeldet und kannst die Dateien verwalten.
 
@@ -200,7 +202,7 @@ Using the **FTP Browser**, you will get all the necessary information to establi
 
 In addition to our game server products, we also offer 10 included databases. These databases are necessary, for example, when data needs to be stored in a database. Under **Databases**, you can create a database and view the access credentials. You also have the option to activate the backup option and import existing database backups.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/WFLwCbZSQfYjrmD/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/WFLwCbZSQfYjrmD/preview)
 
 
 
@@ -210,7 +212,7 @@ Under **Backups**, you have the option to create both manual and automatic backu
 
 In the settings, you can specify whether backups should be created automatically and whether this should be done daily or weekly. Additionally, you can decide whether the oldest backups should be deleted if necessary, such as when the available storage space becomes limited.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/nm9za5LTMEcNsga/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/nm9za5LTMEcNsga/preview)
 
 We provide 10 GB of storage space on the storage server for backups for our game server products by default. If you need more storage space, it can be upgraded for a fee. This way you ensure that you always have enough space for your backups and can still access older backups if necessary.
 

@@ -67,7 +67,7 @@ Two files will be exported into your `Documents/American Truck Simulator` folder
 
 ## Uploading Server Packages
 
-Now with your server packages exported for your mods, you will have to upload them to your ATS server via FTP. Please use our [FTP File Access guide](https://zap-hosting.com/guides/docs/gameserver-ftpaccess) as further assistance to connect to your server.
+Now with your server packages exported for your mods, you will have to upload them to your ATS server via FTP. Please use our [FTP Access](gameserver-ftpaccess.md) guide as further assistance to connect to your server.
 
 Once ready, head over into the main root **American Truck Simulator** directory. Upload both of the server packages files into this folder. If these files already exist, simply replace them.
 

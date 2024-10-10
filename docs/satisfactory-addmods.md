@@ -29,7 +29,7 @@ A backup should be created **in any case before** installing mods and backups sh
 ## Install Modded Satisfactory on the server
 
 To be able to install mods on your server at all, you must first order a Modded Satisfactory Server: https://zap-hosting.com/en/modded-satisfactory-server-mieten/
-If you have already rented a Satisfactory server, the game can be changed at any time thanks to the cloud system as described in [Change the game](gameserver-gameswitch.md).
+If you have already rented a Satisfactory server, the game can be changed at any time thanks to the cloud system as described in [Game Change](gameserver-gameswitch.md).
 
 ## Install Mod-Manager
 
@@ -115,5 +115,4 @@ The selected folders are now dragged and dropped into the previously opened mod 
 
 ## Server starten
 
-After the mods have been uploaded, the server can simply be started via the web interface.
-Afterwards, the server can be joined as described in these instructions: https://zap-hosting.com/guides/docs/en/satisfactory_connect/
+After the mods have been uploaded, the server can simply be started via the web interface. The server should now be joinable which you can learn more via the [Connect to Server](satisfactory-connect.md) guide.

@@ -53,7 +53,7 @@ As soon as the connection to the server has been established via FTP, you have t
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/TTeL8WqnQfrdEDq/preview)
 
-Now the value of "level" must be set to the desired level for the desired player, whereupon the file must be saved with **STRG+S**.
+Now the value of "level" must be set to the desired level for the desired player, whereupon the file must be saved with **CTRL+S**.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/WKQkAR3oALsSNAc/preview)
 

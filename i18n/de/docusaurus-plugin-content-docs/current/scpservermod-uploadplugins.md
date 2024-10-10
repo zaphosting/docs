@@ -10,7 +10,7 @@ services:
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 :::caution
-Das Spiel SCP: Secret Laboratory mit der **Servermod Erweiterung** wird derzeit bis auf Weiteres aufgrund von fehlender Kompatibilität nicht mehr aktiv im Shop angeboten. Wir empfehlen stattdessen auf **[SCP:EXILED](https://zap-hosting.com/guides/de/docs/scpservermod-uploadplugins/)** umzusteigen. Diese Dokumentationsseite wird vorerst noch aufrechterhalten.
+Das Spiel SCP: Secret Laboratory mit der **Servermod Erweiterung** wird derzeit bis auf Weiteres aufgrund von fehlender Kompatibilität nicht mehr aktiv im Shop angeboten. Wir empfehlen stattdessen auf **[SCP:EXILED](exiled-plugins.md)** umzusteigen. Diese Dokumentationsseite wird vorerst noch aufrechterhalten.
 :::
 
 <InlineVoucher />
