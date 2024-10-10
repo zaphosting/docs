@@ -15,7 +15,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 Du hast einen vorgefertigten Server im Internet gefunden und möchtest ihn bei deinem eigenen Server hochladen? Kein Problem! Mit txAdmin kannst du schnell und unkompliziert einen vorgefertigten Server importieren – vorausgesetzt, du beachtest einige wichtige Anforderungen und Details. Wir zeigen dir, worauf du achten musst und wie der Import Vorgang genau umgesetzt wird.
 
 :::warning txAdmin benötigt
-Wenn dein Gameserver **nicht** TxAdmin enthält, kannst du das Spiel in der Gameserververwaltung unter Spiele auf **Five: txAdmin** ändern. 
+Wenn dein Gameserver **nicht** TxAdmin enthält, kannst du das Spiel in der Gameserververwaltung unter Spiele auf **Five: txAdmin** ändern. Mehr dazu findest du in der [Spielwechsel](gameserver-gameswitch.md) Anleitung.
 :::
 
 <InlineVoucher />

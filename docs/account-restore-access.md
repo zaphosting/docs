@@ -9,7 +9,7 @@ sidebar_label: Restore access
 
 ## Introduction
 
-Are you trying to log in to your account, but suddenly it doesn't work anymore? You may have forgotten your password, entered your login details incorrectly or there are technical problems. The possible causes for this can be many and varied. 
+Are you trying to log in to your account, but suddenly it doesn't work anymore? You may have forgotten your password, entered your login details incorrectly or there are technical problems. There are many possible causes for this which we will cover in this guide.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/HSxdStAXyMK95ps/preview)
 

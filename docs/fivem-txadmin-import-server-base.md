@@ -12,10 +12,10 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
-Have you found a ready-made server on the Internet and want to upload it to your own server? No problem! With txAdmin, you can import a ready-made server quickly and easily - provided you take care of a few important requirements and details. We will show you what you need to pay attention to and how exactly the import process is done.
+Have you found a ready-made server on the Internet and want to upload it to your own server? No problem! With txAdmin, you can import a ready-made server quickly and easily - provided you take care of a few important requirements and details. In this guide, we will show how you can import a server base.
 
 :::warning txAdmin required
-If your game server **does not contain** TxAdmin, you can change the game to **Five: txAdmin** in the game server administration under Games. 
+If your game server **does not contain** TxAdmin, you can change the game to **Five: txAdmin** in the game server administration under Games. See our [Game Change](https://zap-hosting.com/guides/docs/en/gameserver_gameswitch/) guide for futher help.
 :::
 
 <InlineVoucher />
