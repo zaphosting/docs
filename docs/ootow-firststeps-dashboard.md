@@ -1,5 +1,5 @@
 ---
-id: game-firststeps-dashboard
+id: ootow-firststeps-dashboard
 title: "Outlaws of the Old West: Dashboard overview"
 description: Information about the dashboard of an Outlaws of the Old West server from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Dashboard

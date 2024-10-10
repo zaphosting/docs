@@ -1,7 +1,7 @@
 ---
-id: icarus-firststeps-dashboard
-title: "Icarus: Dashboard Übersicht"
-description: Informationen zum Dashboard eines Icarus Server von ZAP-Hosting - ZAP-Hosting.com Dokumentationen
+id: holdfast-firststeps-dashboard
+title: "Holdfast: Dashboard Übersicht"
+description: Informationen zum Dashboard eines Holdfast Server von ZAP-Hosting - ZAP-Hosting.com Dokumentationen
 sidebar_label: Dashboard
 services:
   - gameserver
@@ -11,15 +11,15 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Du bist an einem **Icarus Server** interessiert oder besitzt bereits einen, doch dir fehlt noch ein umfassender Überblick über die Verwaltung und die Auffindbarkeit aller notwendigen Optionen? Gerade zu Beginn kann dies eine Herausforderung darstellen. Aber keine Sorge, im Folgenden bieten wir dir eine ausführliche Einführung zur Verwaltung deines Dienstes, damit du den optimalen Durchblick hast.
+Du bist an einem **Holdfast Server** interessiert oder besitzt bereits einen, doch dir fehlt noch ein umfassender Überblick über die Verwaltung und die Auffindbarkeit aller notwendigen Optionen? Gerade zu Beginn kann dies eine Herausforderung darstellen. Aber keine Sorge, im Folgenden bieten wir dir eine ausführliche Einführung zur Verwaltung deines Dienstes, damit du den optimalen Durchblick hast.
 
-Nachdem du diese Anleitung durchgegangen bist, wirst du problemlos in der Lage sein, deinen Server effizient zu verwalten und alle erforderlichen Optionen sowie Features zügig und unkompliziert zu finden. Hier erhältst du einen strukturierten Überblick, der dir Schritt für Schritt hilft, dich mit der Serververwaltung vertraut zu machen und dein Wissen gezielt zu erweitern. So kannst du sicherstellen, dass dein **Icarus Server** optimal auf deine Bedürfnisse abgestimmt ist und du das Beste aus den vorhandenen Möglichkeiten herausholst.
+Nachdem du diese Anleitung durchgegangen bist, wirst du problemlos in der Lage sein, deinen Server effizient zu verwalten und alle erforderlichen Optionen sowie Features zügig und unkompliziert zu finden. Hier erhältst du einen strukturierten Überblick, der dir Schritt für Schritt hilft, dich mit der Serververwaltung vertraut zu machen und dein Wissen gezielt zu erweitern. So kannst du sicherstellen, dass dein **Holdfast Server** optimal auf deine Bedürfnisse abgestimmt ist und du das Beste aus den vorhandenen Möglichkeiten herausholst.
 
 <InlineVoucher />
 
 ## Informationen
 
-Im Abschnitt **Informationen** deines Navigationspanels findest du eine Reihe von Unterpunkten, die dir bei der Verwaltung deines Servers helfen. Dazu zählen **Dashboard**, **News**, **Statistiken**, **DDoS Manager**, **Log-Dateien**, **Ereignislog**, **Störungen**, **Fragen und Antworten** und der **ZAP-Hosting.com Dokumentation**. Im Folgenden erhältst du eine detaillierte Einführung zu diesen verschiedenen Bereichen.
+Im Abschnitt **Informationen** deines Navigationspanels findest du eine Reihe von Unterpunkten, die dir bei der Verwaltung deines Servers helfen. Dazu zählen **Dashboard**, **News**, **DDoS Manager**, **Log-Dateien**, **Ereignislog**, **Störungen**, **Fragen und Antworten** und der **ZAP-Hosting.com Dokumentation**. Im Folgenden erhältst du eine detaillierte Einführung zu diesen verschiedenen Bereichen.
 
 
 
@@ -27,7 +27,7 @@ Im Abschnitt **Informationen** deines Navigationspanels findest du eine Reihe vo
 
 Das **Dashboard** deines Servers stellt das Herzstück für die Verwaltung dar. Hier werden alle grundlegenden und essenziellen Informationen zu deinem Dienst übersichtlich präsentiert. Dazu zählen beispielsweise Angaben zum Standort, Status, IP:Port, genutzter Speicherplatz, aktuell laufendes Spiel, Servername, Karte und die Anzahl der verfügbaren Slots. Zudem werden auch die Auslastungen der CPU, des Arbeitsspeichers und des RAM dargestellt.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/fPxqRjocdCPDGbj/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/p6RGzMJnAGRJk9q/preview)
 
 Im Dashboard hast du außerdem die Möglichkeit, deinen Dienst zu starten, zu stoppen oder neu zu starten, um so die volle Kontrolle über dessen Betrieb zu haben. Weiterhin kannst du die Live-Konsole aufrufen, um Echtzeitinformationen über den Serverzustand zu erhalten und gegebenenfalls direkte Eingriffe vorzunehmen.
 
@@ -45,14 +45,6 @@ Die **News** bieten dir eine umfassende Übersicht über sämtliche Ankündigung
 Durch regelmäßiges Überprüfen der **News** bleibst du stets informiert und kannst dein Dienst entsprechend anpassen, um das Beste aus deinem Server herauszuholen.
 
 
-
-### Statistiken
-
-Unter den **Statistiken** erhältst du eine umfassende Übersicht über die Auslastungswerte deines Servers. Dort findest du Informationen zu verschiedenen Aspekten wie etwa der Auslastung der verfügbaren Slots, der CPU und dem Arbeitsspeicher. Du kannst dir diese Daten für verschiedene Zeiträume anzeigen lassen, zum Beispiel für die letzten **60 Minuten, 24 Stunden, 3 Tage, 7 Tage** oder **30 Tage.**
-
-![img](https://screensaver01.zap-hosting.com/index.php/s/r7gi2dwayMXCk7N/preview)
-
-Dank dieser Informationen bekommst du einen guten Einblick in den Verbrauch deines Servers. Zudem sind diese Statistiken oft hilfreich, um mögliche Performance-Probleme zu identifizieren und deren Ursachen einzugrenzen. Du kannst beispielsweise nachvollziehen, seit wann die Auslastung angestiegen ist und ob dies mit bestimmten Ereignissen oder Änderungen zusammenhängt. Dies ist insbesondere dann wichtig, wenn plötzlich Probleme auftreten, da es dir ermöglicht, gezielte Schritte zur Problemlösung zu unternehmen und mögliche Ursachen systematisch zu analysieren.
 
 
 
@@ -75,7 +67,6 @@ Die Verwendung des DDoS-Managers ist ausschließlich möglich, wenn entweder ein
 
 
 
-
 ### Log-Dateien
 
 Tritt ein technisches Problem auf und du bist unsicher über dessen Ursache? Eine erste mögliche Lösungsstrategie besteht darin, die **Log-Dateien** zu überprüfen. In diesen Dateien sind zahlreiche Informationen über den Server enthalten, wie beispielsweise aktuelle Geschehnisse, Hinweise oder Fehlermeldungen.
@@ -92,6 +83,8 @@ Die dort zu findenden Informationen helfen nicht weiter oder du verstehst diese 
 Die **Ereignislog** bietet dir einen umfassenden Überblick über sämtliche Aktivitäten im Zusammenhang mit der Serververwaltung. Hier kannst du jederzeit nachvollziehen, wann ein Server gestartet, gestoppt oder abgestürzt ist, sowie wann Updates, Backups oder Neuinstallationen durchgeführt wurden.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/Sya5d9aJMw25xwZ/preview)
+
+
 
 
 
@@ -122,7 +115,7 @@ Wir bieten eine umfangreiche Dokumentation zu unseren Produkten an, die als Wiss
 
 ## Einstellungen
 
-Im Abschnitt **Einstellungen** deines Navigationspanels findest du eine Reihe von Unterpunkten, die dir bei der Verwaltung deines Servers helfen. Dazu zählen die **Einstellungen**, **Configs**, **Spiele**, **Versionen **und der **Restart Planer**. Im Folgenden erhältst du eine detaillierte Einführung zu diesen verschiedenen Bereichen.
+Im Abschnitt **Einstellungen** deines Navigationspanels findest du eine Reihe von Unterpunkten, die dir bei der Verwaltung deines Servers helfen. Dazu zählen die **Einstellungen**, **Configs**, **Spiele**, **Versionen** und der **Restart Planer**. Im Folgenden erhältst du eine detaillierte Einführung zu diesen verschiedenen Bereichen.
 
 
 

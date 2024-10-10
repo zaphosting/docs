@@ -1,5 +1,5 @@
 ---
-id: game-firststeps-dashboard
+id: thefront-firststeps-dashboard
 title: "The Front: Dashboard Übersicht"
 description: Informationen zum Dashboard eines The Front Server von ZAP-Hosting - ZAP-Hosting.com Dokumentationen
 sidebar_label: Dashboard
