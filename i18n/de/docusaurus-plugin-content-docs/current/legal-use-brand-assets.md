@@ -11,7 +11,7 @@ sidebar_label: Verwendung unserer Marke
 
 Wir bei ZAP-Hosting glauben an die Kraft von Kreativität und Ideen in Bezug auf unsere Markenwerte. Wir sind eine enthusiastische, spielerische Marke, die Sinn für Humor hat. Allerdings sind wir auch verpflichtet, dafür zu sorgen, dass unsere Marke auf seriöse Weise verwendet wird, um unsere Markenidentität und unseren Ruf zu schützen.
 
-Aus diesem Grund haben wir eine Reihe von Richtlinien für die Verwendung unserer Marke aufgestellt, um sicherzustellen, dass wir angemessen repräsentiert werden. Diese müssen Sie auf [unserer Branding-Website](http://zap-hosting.com/branding) befolgen.
+Aus diesem Grund haben wir eine Reihe von Richtlinien für die Verwendung unserer Marke aufgestellt, um sicherzustellen, dass wir angemessen repräsentiert werden. Diese müssen Sie auf [unserer Branding-Website](https://zap-hosting.com/branding) befolgen.
 
 :::info
 Wir haben eine eigene [Branding-Seite](https://zap-hosting.com/branding), auf der du Zugang zu unseren Richtlinien, unserer Pressemappe und allgemeinen Informationen über unsere großartige Marke hast!
