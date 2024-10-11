@@ -78,10 +78,10 @@ Perfect and utilize the full extent of your game server. With our expertise, we 
 Utilize the full extent of your vRoot server (VPS/Root server) with our comprehensive guides. Whether you prefer Linux or Windows, our guides help you efficiently set up and manage your server.
 
 <Cards>
-    <Card title="VPS (Linux)" description="Placeholder" link="vserver-root-difference" image="https://screensaver01.zap-hosting.com/index.php/s/xAwGpyHdW6ApLs3/preview" type="product-categories"/>
-    <Card title="VPS (Windows)" description="Placeholder" link="vserver-root-difference" image="https://screensaver01.zap-hosting.com/index.php/s/xAwGpyHdW6ApLs3/preview" type="product-categories"/>
-    <Card title="Root server (Linux)" description="Placeholder" link="vserver-root-difference" image="https://screensaver01.zap-hosting.com/index.php/s/nB65mgwdWwb3M6T/preview" type="product-categories"/>
-    <Card title="Root server (Windows)" description="Placeholder" link="vserver-root-difference" image="https://screensaver01.zap-hosting.com/index.php/s/nB65mgwdWwb3M6T/preview" type="product-categories"/>
+    <Card title="VPS (Linux)" description="Placeholder" link="vserver-root-difference" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
+    <Card title="VPS (Windows)" description="Placeholder" link="vserver-root-difference" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
+    <Card title="Root server (Linux)" description="Placeholder" link="vserver-root-difference" image="https://screensaver01.zap-hosting.com/index.php/s/fqn5SZYRJjoikXa/preview" type="product-categories"/>
+    <Card title="Root server (Windows)" description="Placeholder" link="vserver-root-difference" image="https://screensaver01.zap-hosting.com/index.php/s/fqn5SZYRJjoikXa/preview" type="product-categories"/>
 </Cards>
 
 ## Dedicated Server
@@ -89,21 +89,21 @@ Utilize the full extent of your vRoot server (VPS/Root server) with our comprehe
 Our dedicated servers offer performance for demanding projects. Discover in our guides how to configure the hardware and operating systems according to your needs and ensure that your applications run optimally.
 
 <Cards>
-    <Card title="Dedicated Server" description="Placeholder" link="dedicated-introduction" image="https://screensaver01.zap-hosting.com/index.php/s/i3P2P7HQ5YGimXJ/preview" type="product-categories"/>
+    <Card title="Dedicated Server" description="Placeholder" link="dedicated-introduction" image="https://screensaver01.zap-hosting.com/index.php/s/o5kTJsSdwGY69m8/preview" type="product-categories"/>
 </Cards>
 
 ## Domain & Webspace
 Start your online project on a solid foundation with easily understandable guides on domain registration and webspace management. We guide you through every step, from setup to publishing your website.
 
 <Cards>
-    <Card title="Domain" description="Placeholder" link="domain-introduction" image="https://screensaver01.zap-hosting.com/index.php/s/SbnmcoyedKSBJzw/preview" type="product-categories"/>
-    <Card title="Webspace" description="Placeholder" link="webspace-adddomain" image="https://screensaver01.zap-hosting.com/index.php/s/SbnmcoyedKSBJzw/preview" type="product-categories"/>
+    <Card title="Domain" description="Placeholder" link="domain-introduction" image="https://screensaver01.zap-hosting.com/index.php/s/CHKT8d4ARD8sqZE/preview" type="product-categories"/>
+    <Card title="Webspace" description="Placeholder" link="webspace-adddomain" image="https://screensaver01.zap-hosting.com/index.php/s/CHKT8d4ARD8sqZE/preview" type="product-categories"/>
 </Cards>
 
 ## Voicebot & Voiceserver
 Enhance your online interactions with our voicebots and voice servers. Our guides make the setup easy, so you can spend more time with your community, whether it's gaming or in meetings.
 
 <Cards>
-    <Card title="Voicebot" description="Placeholder" link="voiceserver-voicebot-connection" image="https://screensaver01.zap-hosting.com/index.php/s/ncdbFLz7XygdBXM/preview" type="product-categories"/>
-    <Card title="Voiceserver" description="Placeholder" link="voiceserver-becomeadmin" image="https://screensaver01.zap-hosting.com/index.php/s/dAoJ6ji6bmZtb66/preview" type="product-categories"/>
+    <Card title="Voicebot" description="Placeholder" link="voiceserver-voicebot-connection" image="https://screensaver01.zap-hosting.com/index.php/s/zZ73fps5Eq93foK/preview" type="product-categories"/>
+    <Card title="Voiceserver" description="Placeholder" link="voiceserver-becomeadmin" image="https://screensaver01.zap-hosting.com/index.php/s/6cxS6Mo93YL6X5K/preview" type="product-categories"/>
 </Cards>
