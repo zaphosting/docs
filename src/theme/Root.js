@@ -8,7 +8,7 @@ export default function Root({ children }) {
 
   useEffect(() => {
     const applyMediumZoom = () => {
-      mediumZoom('img');
+      mediumZoom('article img:not(.card_xqyZ img)');
     };
 
     const intervalId = setInterval(() => {

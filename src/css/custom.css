@@ -61,7 +61,6 @@ h3 {
   font-size: 1.25rem !important;
 }
 
-
 /* center images */
 img, iframe {
   display: block;
@@ -78,11 +77,9 @@ table {
 
 /* smaller edit button */
 .theme-edit-this-page {
-  color: grey;
   font-size: 1em;
 }
 .theme-edit-this-page svg {
-  height: 70%;
   display: inline-block;
 }
 
@@ -160,6 +157,16 @@ table {
   position: absolute;
 }
 
+
+article a {
+  font-weight: bold;
+}
+
+article p {
+  text-align: justify;
+}
+
+
 .theme-doc-toc-desktop {
   position: relative !important;
   top: auto !important;
@@ -200,8 +207,8 @@ table {
   width: 100%;
 }
 
-p {
-  text-align: justify;
+.iconExternalLink_nPIU {
+  display: none;
 }
 
 /* Navigation Bar Scaling */
