@@ -8,7 +8,7 @@ export default function Root({ children }) {
 
   useEffect(() => {
     const applyMediumZoom = () => {
-      mediumZoom('.theme-doc-markdown.markdown img:not(.imageContainer_src-components-Card-Card-module img)');
+      mediumZoom('article img:not(.card_xqyZ img)');
     };
 
     const intervalId = setInterval(() => {

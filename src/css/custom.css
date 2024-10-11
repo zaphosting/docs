@@ -157,13 +157,15 @@ table {
   position: absolute;
 }
 
-.theme-doc-markdown.markdown a {
+
+article a {
   font-weight: bold;
 }
 
-.theme-doc-markdown.markdown p {
+article p {
   text-align: justify;
 }
+
 
 .theme-doc-toc-desktop {
   position: relative !important;
