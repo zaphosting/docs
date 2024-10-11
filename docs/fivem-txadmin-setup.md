@@ -20,15 +20,11 @@ txAdmin is a completely free to use, full-featured web panel to Manage & Monitor
 
 ## Access
 
-Über das Dashboard deines Game-Servers findest du im txAdmin-Bereich einen Link sowie die Zugangsdaten zum Zugriff auf txAdmin. Dies gibt dir die notwendigen Informationen, um einfach auf die txAdmin-Oberfläche zuzugreifen und mit der Einrichtung zu beginnen.
-
-![](https://screensaver01.zap-hosting.com/index.php/s/aTQeF69ojtqM9iX/preview)
-
-
+You can find a link and the access data to access txAdmin in the txAdmin area of your game server's dashboard. This gives you the information you need to easily access the txAdmin interface and start setting it up.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/wzcQqB3MY7k28rZ/preview)
 
-Kopiere die Informationen zum Benutzer und Passwort und klicke auf den Link (IP-Adresse:Port), um das txAdmin Interface aufzurufen und dich einzuloggen. Im Anschluss öffnet sich das txAdmin Interface in einem neuen Fenster, wo du dich mit den vorgegebenen Zugangsdaten einloggen musst. 
+Copy the information for the user name and password and click on the link (IP address:port) to access the txAdmin interface and log in. The txAdmin interface will then open in a new window, where you have to log in with the given access data. 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/pp8GLQBoX4LoqTA/preview)
 

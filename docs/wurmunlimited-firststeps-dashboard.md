@@ -62,7 +62,9 @@ Moreover, you can customize the protection provided that you have booked your ow
 
 These customization options allow you to adjust the DDoS protection to your individual needs and thus increase the security of your server.
 
-> ⚠️ The use of the DDoS Manager is only possible if either an own IP address or the option "DDoS Manager Overview" has been booked as an additional option. If these components are missing from your current package, you can add them at any time by upgrading.
+:::danger
+The use of the DDoS Manager is only possible if either an own IP address or the option "DDoS Manager Overview" has been booked as an additional option. If these components are missing from your current package, you can add them at any time by upgrading.
+:::
 
 
 
@@ -145,7 +147,7 @@ By using the editor, you get direct access to all available options and can cust
 
 ### Games
 
-Under **Games** you always have the possibility to change the game variant of your existing game or to install another game in general.  Games with the same slot price can be selected directly under **Available Games**. For all other games an adjustment of the slot price is required first. More information about this can be found in the [Change the game](gameserver-gameswitch.md) guide.
+Under **Games** you always have the possibility to change the game variant of your existing game or to install another game in general.  Games with the same slot price can be selected directly under **Available Games**. For all other games an adjustment of the slot price is required first. More information about this can be found in the [Game Change](gameserver-gameswitch.md) guide.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/xkkECw7o52fAMWk/preview)
 

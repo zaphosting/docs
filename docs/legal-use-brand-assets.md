@@ -9,7 +9,7 @@ sidebar_label: Use of our Brand
 
 At ZAP-Hosting, we believe in the power of creativity and ideas in regards to our brand assets. We are an enthusiatic, playful brand that has a sense of humour. However, we are also obligated to ensure that our brand is used in a reputable way in order to protect our brand identity and reputation.
 
-For this reason, we have a wide range of guidelines in regards to using our brand assets to make sure that that we are represented appropriately which you must follow via [our Branding site](http://zap-hosting.com/branding).
+For this reason, we have a wide range of guidelines in regards to using our brand assets to make sure that that we are represented appropriately which you must follow via [our Branding site](https://zap-hosting.com/branding).
 
 :::info
 We have a dedicated [Branding site](https://zap-hosting.com/branding) which allows you to access our guidelines, press kit and general information regarding our awesome brand!
