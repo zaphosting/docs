@@ -320,7 +320,7 @@
     "description": "The title of the tag list page"
   },
   "theme.admonition.warning": {
-    "message": "warnung",
+    "message": "Warnung",
     "description": "The default label used for the Warning admonition (:::warning)"
   },
   "theme.DocSidebarItem.expandCategoryAriaLabel": {
