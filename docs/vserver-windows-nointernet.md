@@ -95,5 +95,3 @@ We recommend attempting to disable the entire Windows Firewall temporarily to se
 If the issues are resolved when the firewall is disabled, it is likely that the root cause of your issue will be a firewall misconfiguration.
 
 The solution for the firewall is highly dependant on the issue that you are facing. Please use our [Port Forwarding (Firewall)](vserver-windows-port.md) guide if you need further assistance managing firewall rules.
-
-As a last resort, you can also attempt resetting the Windows Firewall rules entirely back to default settings by using the **Restore defaults** option found in the **Windows Defender Firewall Settings** menu.
