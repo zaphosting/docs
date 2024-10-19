@@ -62,13 +62,13 @@ const GitHubContributors = ({ owner, repo, filePath, additionalContributors }) =
                 <Translate id="contributors.description"
                 values={{
                     contributionLink: (
-                        <a href="contribution-introduction">
+                        <a href="https://zap-hosting.com/guides/docs/contribution-introduction/">
                             Contribution Program
                         </a>
                     ),
                 }}>
                 {
-                    'Become a part of the ZAP-Hosting Community today! Join our {contributionLink} to share your knowledge and expertise by producing high-quality guides & creative content whilst earning valuable rewards (up to €130). Begin today and make a difference! 🙂'
+                    'Become a part of the ZAP-Hosting Community today! Join our {contributionLink} to share your knowledge and expertise by producing high-quality guides & creative content whilst earning valuable rewards up to 130€. Begin today and make a difference! 🙂'
                 }
                 </Translate>
             </p>
