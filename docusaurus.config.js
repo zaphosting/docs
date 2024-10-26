@@ -147,7 +147,7 @@ const config = {
             to: '/docs/fivem-dashboard', from: '/docs/ragemp-installpackages',
           },
           {
-            to: 'minecraft-forge-fabric-add-mods-modpacks', from: '/docs/minecraft_forge_add_mods',
+            to: '/docs/minecraft-forge-fabric-add-mods-modpacks', from: '/docs/minecraft_forge_add_mods',
           }
         ],
       },
