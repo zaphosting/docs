@@ -19,7 +19,7 @@ Du suchst nach deinem eigenen Server mit leistungsstarker Konfiguration zu einem
 
 ## Bestellen
 
-Der Bestellvorgang ist sehr einfach. Wähle deine gewünschte Konfiguration für deinen [vServer](https://zap-hosting.com/en/vServer-hosting/) oder [Rootserver](https://zap-hosting.com/en/root-server-hosting/). Die Einrichtungszeit dauert nur wenige Sekunden. Anschließend kannst du sofort mit der Konfiguration beginnen.
+Der Bestellvorgang ist sehr einfach. Wähle deine gewünschte Konfiguration für deinen [vServer](https://zap-hosting.com/de/vserver-mieten/) oder [Rootserver](https://zap-hosting.com/de/rootserver-mieten/). Die Einrichtungszeit dauert nur wenige Sekunden. Anschließend kannst du sofort mit der Konfiguration beginnen.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/36yfq9XSrKNmjSg/preview)
 

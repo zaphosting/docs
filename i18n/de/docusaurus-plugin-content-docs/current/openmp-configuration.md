@@ -82,10 +82,10 @@ Dies sind die Serverkonfigurationsoptionen, die die Informationen deines Servers
 | ------------------------------ | --------------------------------------- | ---------------------------------------------------------------------------------- |
 | Name | ZAP-Hosting Docs Test | Setzt den Hostnamen für deinen Server |
 | Sprache | Englisch | Sprache, die im Server-Browser für deinen Server angezeigt wird |
-| Website | https://zap-hosting.com/ | Füge eine Website hinzu, die Leute besuchen können, um mehr Informationen über deinen Server zu erhalten |
-| discord.invite | https://discord.gg/zaphosting | Discord-Server-Link, der im Server-Browser erscheint |
-| banners.light | https://zap-hosting.com/lighticon.png | Lege eine URL zu deinem Banner mit dem hellen Thema fest, das im Serverbrowser erscheint |
-| banners.dark | https://zap-hosting.com/darkicon.png | Setzt eine URL zu eurem Banner mit dem dunklen Thema, das im Serverbrowser erscheint |
+| Website | zap-hosting.com | Füge eine Website hinzu, die Leute besuchen können, um mehr Informationen über deinen Server zu erhalten |
+| discord.invite | discord.gg/zaphosting | Discord-Server-Link, der im Server-Browser erscheint |
+| banners.light | zap-hosting.com/lighticon.png | Lege eine URL zu deinem Banner mit dem hellen Thema fest, das im Serverbrowser erscheint |
+| banners.dark | zap-hosting.com/darkicon.png | Setzt eine URL zu eurem Banner mit dem dunklen Thema, das im Serverbrowser erscheint |
 | game.map | ZAPtastic Stunt Map | Der Mapname, der im Server-Browser erscheinen soll |
 | game.mode | Survival | Der Spielmodus, der im Serverbrowser angezeigt werden soll |
 | announce | true | Schalte ein, ob dein Server überhaupt im öffentlichen Serverbrowser angezeigt werden soll |
