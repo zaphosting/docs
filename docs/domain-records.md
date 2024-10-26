@@ -28,8 +28,9 @@ An AAAA record is used to create a forwarding of a "**sub**" or "**main domain**
 ## CNAME Records
 
 A CNAME record is used to create a forwarding of a "**subdomain**" to a "**sub-**" or "**main domain**".
+Be careful that the value you save in the CNAME record has a "." at the end. If you dont do that you wont be able to read the values. 
 
-![2022-05-07_22-14](https://screensaver01.zap-hosting.com/index.php/s/R7Kx8QEyqd3W8pN/preview)
+![2024-10-26 23-09](https://github.com/user-attachments/assets/5497e714-9ae6-4a3c-b863-c77b420d27f7)
 
 ## MX Records
 
