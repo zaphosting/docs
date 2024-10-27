@@ -15,7 +15,7 @@ Die Zuweisung von Administratorberechtigungen ermöglicht dir eine einfache und 
 
 
 ## Voraussetzungen
-Um Administratorberechtigungen zu verwenden muss zunächst die Grundlage geschaffen werden. Standardmäßig bietet CS2 keine umfangreiche Administratorverwaltung an. Allerdings gibt es für so etwas Frameworks, wie zum Beispiel CounterStrikeSharp. Das Framework muss für die Konfiguration bereits installiert sein. Solltest du dies noch nicht installiert haben, so schaue dir gerne unsere [Plugins installieren](cs2-plugins) Anleitung an. 
+Um Administratorberechtigungen zu verwenden muss zunächst die Grundlage geschaffen werden. Standardmäßig bietet CS2 keine umfangreiche Administratorverwaltung an. Allerdings gibt es für so etwas Frameworks, wie zum Beispiel CounterStrikeSharp. Das Framework muss für die Konfiguration bereits installiert sein. Solltest du dies noch nicht installiert haben, so schaue dir gerne unsere [Plugins installieren](cs2-plugins.md) Anleitung an. 
 
 ## Admins definieren
 
