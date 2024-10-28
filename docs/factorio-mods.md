@@ -15,7 +15,7 @@ Factorio has native modding support allowing you to easily add a wide variety of
 
 <InlineVoucher />
 
-### Preparation
+## Preparation
 
 You can access the [official Factorio mods](https://mods.factorio.com/) website to browse mods. On this site, you can find a huge library of free mods made by the community across a wide variety of categories.
 
@@ -23,7 +23,7 @@ You can access the [official Factorio mods](https://mods.factorio.com/) website 
 Ensure that the mods you browse and download support the version of your Factorio server.
 :::
 
-### Enabling DLCs
+## Enabling DLCs
 
 With the Factorio 2.0 update, the first ever DLC was introduced named Space Age. To accomodate this, a new configuration option was introduced into the web interface panel to allow you to toggle whether the DLC is activated.
 
@@ -33,7 +33,7 @@ Head over to your product's web interface panel and access the **Settings** sect
 
 Toggle the feature and use the green **Save** button at the bottom of the page. You have now successfully enabled a Factorio DLC.
 
-### Adding & Uploading Mods
+## Adding & Uploading Mods
 
 Now with the mods of your choice downloaded, you will have to upload them to your Factorio server via FTP. Please use our [FTP Access](gameserver-ftpaccess.md) guide as further assistance to connect to your server.
 

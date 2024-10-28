@@ -15,7 +15,7 @@ Factorio bietet native Modding-Unterstützung, sodass du deinem Spiel und Server
 
 <InlineVoucher />
 
-### Vorbereitung
+## Vorbereitung
 
 Du kannst die [offizielle Factorio-Mods-Website](https://mods.factorio.com/) besuchen, um nach Mods zu suchen. Auf dieser Website findest du eine riesige Bibliothek mit kostenlosen Mods, die von der Community in einer Vielzahl von Kategorien erstellt wurden.
 
@@ -23,7 +23,7 @@ Du kannst die [offizielle Factorio-Mods-Website](https://mods.factorio.com/) bes
 Stelle sicher, dass die Mods, die du dir ansiehst und herunterlädst, die Version deines Factorio-Servers unterstützen.
 :::
 
-### Aktivierung von DLCs
+## Aktivierung von DLCs
 
 Mit dem Factorio 2.0-Update wurde der erste DLC namens Space Age eingeführt. Um dies zu ermöglichen, wurde eine neue Konfigurationsoption in das Web-Interface-Panel eingeführt, mit der du umschalten kannst, ob der DLC aktiviert ist.
 
@@ -34,7 +34,7 @@ Gehe zum Web-Interface-Panel deines Produkts und rufe den Abschnitt **Einstellun
 Schalte die Funktion um und benutze den grünen **Speichern**-Knopf unten auf der Seite. Du hast nun erfolgreich einen Factorio-DLC aktiviert.
 
  
-### Mods hinzufügen und hochladen
+## Mods hinzufügen und hochladen
 
 Nachdem du die Mods deiner Wahl heruntergeladen hast, musst du sie per FTP auf deinen Factorio-Server hochladen. Wenn du nicht weißt, wie man FTP verwendet, dann kann dir ein Blick in die folgende [Zugriff per FTP](gameserver-ftpaccess.md) Anleitung weiterhelfen.
 
