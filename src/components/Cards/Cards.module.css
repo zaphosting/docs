@@ -1,6 +1,28 @@
+.Core {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
 .Cards {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
   justify-content: center;
+  max-height: 1240px;
+  overflow: hidden;
+}
+
+.CardsUnhidden {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  max-height: none;
+}
+
+.Button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
 }
