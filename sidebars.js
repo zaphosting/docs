@@ -185,6 +185,7 @@ const sidebars = {
             "fivem-whitelist",
             "fivem-locale",
             "fivem-optimize-textures",
+            "fivem-proxy"
           ]
         },
         {
