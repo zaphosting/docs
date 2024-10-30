@@ -7,14 +7,17 @@ services:
   - vserver
 ---
 
+import YouTube from '@site/src/components/YouTube/YouTube';
 import InlineVoucher from '@site/src/components/InlineVoucher';
- 
+
 ## Einführung
 
 Eine unterbrochene oder fehlerhafte Internetverbindung kann verschiedene Ursachen haben, z. B. eine falsche IP-Adresse, Subnetzmaske, Gateway, DNS-Server oder Firewall-Einstellungen. In diesem Anleitung erklären wir dir, wie du mögliche Netzwerkprobleme beheben kannst.
 
+<YouTube videoId="VfZyNge5ikA" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/GLDdSYoaE6jeW9K/preview" title="How to Fix Internet Connection Issues on Windows VPS" description="Hast du das Gefühl, dass du etwas besser verstehst, wenn du es in Aktion siehst? Wir haben etwas für dich! Tauche ab in unser Video, welches alles für dich zusammenfasst. Egal, ob du es eilig hast oder einfach nur Informationen auf möglichst verständliche Art und Weise aufnehmen möchtest!"/>
+
 <InlineVoucher />
- 
+
 ## VNC-Zugang ohne Internet
 
 Falls du dich aufgrund einer nicht funktionierenden Internetverbindung nicht über RDP (Remote Desktop) mit deinem Server verbinden kannst, gibt es eine Alternative: die VNC-Konsole (Virtual Network Computing), die auf unserer Website zur Verfügung steht.
