@@ -13,7 +13,7 @@ const Cards = ({ children }) => {
       <div className={isHidden ? styles.Cards : styles.CardsUnhidden}>{children}</div>
 
       {
-        children.length > 10 ? <button className={styles.Button} onClick={toggleHiddenState}>{isHidden ? 'Show More Games' : 'Show Less Games'}</button> : null
+        children.length > 10 ? <button className={styles.Button} onClick={toggleHiddenState}>{isHidden ? 'Show More' : 'Show Less'}</button> : null
       }
     </div>
   )

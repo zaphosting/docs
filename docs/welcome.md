@@ -51,7 +51,7 @@ Perfect and utilize the full extent of your game server. With our expertise, we 
     <Card title="Craftopia" description="Placeholder" link="craftopia-firststeps-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/tWM7QnzAJCrcKxN/preview"/>
     <Card title="Cryofall" description="Placeholder" link="cryofall-firststeps-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/9ZRrbPymRdDiLgq/preview"/>
     <Card title="CS 1.6" description="Placeholder" link="cs16-firststeps-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/q5enKNatKZMpXPf/preview"/>
-    <Card title="CS:GO" description="Placeholder" link="csgo-firststeps-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/cSkWS3sQb22s5f8/preview"/>
+    <Card title="CS:GO" description="Placeholder" link="csgo-firststeps-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/RojGnj9TcpGSdzm/preview"/>
     <Card title="CS:S" description="Placeholder" link="css-firststeps-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/PqQqSqgin9BjJtw/preview"/>
     <Card title="CS2" description="Placeholder" link="cs2-firststeps-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/cSkWS3sQb22s5f8/preview"/>
     <Card title="Day of Infamy" description="Placeholder" link="dayofinfamy-firststeps-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/Cq2qGELaF4zGTYZ/preview"/>
@@ -65,7 +65,7 @@ Perfect and utilize the full extent of your game server. With our expertise, we 
     <Card title="Euro Truck Simulator" description="Placeholder" link="ets2-firststeps-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/yZX6rF6emyBbrgq/preview"/>
     <Card title="Factorio" description="Placeholder" link="factorio-firststeps-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/iZeioXS2ZPHrnjq/preview"/>
     <Card title="FiveM" description="Placeholder" link="fivem-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/PQKfzYiMAmSjXNz/preview"/>
-    <Card title="Foundry" description="Placeholder" link="foundry-firststeps-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/meb8kopKD3WETbt/preview"/>
+    <Card title="Foundry" description="Placeholder" link="foundry-firststeps-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/wpiikozcXjmfTty/preview"/>
     <Card title="Garry's Mod" description="Placeholder" link="gmod-firststeps-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/LddW8FyQ2ZKKTzN/preview"/>
     <Card title="Ground Branch" description="Placeholder" link="groundbranch-firststeps-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/fbBGrqH3FEetMNF/preview"/>
     <Card title="Holdfast: Nations At War" description="Placeholder" link="holdfast-firststeps-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/4AZSbxWmk2ciakj/preview"/>
@@ -101,7 +101,7 @@ Perfect and utilize the full extent of your game server. With our expertise, we 
     <Card title="PixARK" description="Placeholder" link="pixark-firststeps-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/QFoBF5Ttj7MLkYj/preview"/>
     <Card title="Portal Knights" description="Placeholder" link="portalknights-firststeps-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/RgwDNq5YYcebjaD/preview"/>
     <Card title="Project Zomboid" description="Placeholder" link="projectzomboid-firststeps-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/tYJB3JWdG9ewAmf/preview"/>
-    <Card title="RedM" description="Placeholder" link="redm-firststeps-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/smGPGzWrKpFFXmn/preview"/>
+    <Card title="RedM" description="Placeholder" link="redm-firststeps-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/kbigpfsqHDsJYA4/preview"/>
     <Card title="Reign of Kings" description="Placeholder" link="reignofkings-firststeps-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/7e2dTHedn7ttHHY/preview"/>
     <Card title="RimWorld Together" description="Placeholder" link="rimworldtogether-firststeps-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/7PBDBpc2ysJPWdA/preview"/>
     <Card title="Rising Storm 2" description="Placeholder" link="risingstorm2-firststeps-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/ABacBei4XPSPjbS/preview"/>
@@ -114,7 +114,7 @@ Perfect and utilize the full extent of your game server. With our expertise, we 
     <Card title="Soldat" description="Placeholder" link="soldat-firststeps-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/bDXAmMb8rXC7HMw/preview"/>
     <Card title="Sons of the Forest" description="Placeholder" link="sotf-firststeps-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/KWWKMimk8k4Piyp/preview"/>
     <Card title="Soulmask" description="Placeholder" link="soulmask-firststeps-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/NYaRT7cHqXXQF8d/preview"/>
-    <Card title="Space Engineers" description="Placeholder" link="spaceengineers-firststeps-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/Wi29doTRKNHGn2a/preview"/>
+    <Card title="Space Engineers" description="Placeholder" link="spaceengineers-firststeps-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/wgp2Jofo2BTkcR9/preview"/>
     <Card title="Squad" description="Placeholder" link="squad-firststeps-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/HfF9inX8qEp5Ext/preview"/>
     <Card title="Starbound" description="Placeholder" link="starbound-firststeps-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/pdQ2L4XHAPNKtCf/preview"/>
     <Card title="Starmade" description="Placeholder" link="starmade-firststeps-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/XQNqaTK8p2PnQrL/preview"/>
