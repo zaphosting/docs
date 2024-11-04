@@ -7,6 +7,7 @@ services:
   - gameserver
 ---
 
+import YouTube from '@site/src/components/YouTube/YouTube';
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
@@ -26,6 +27,8 @@ Stelle sicher, dass die Mods, die du dir ansiehst und herunterlädst, die Versio
 ## Aktivierung von DLCs
 
 Mit dem Factorio 2.0-Update wurde der erste DLC namens Space Age eingeführt. Um dies zu ermöglichen, wurde eine neue Konfigurationsoption in das Web-Interface-Panel eingeführt, mit der du umschalten kannst, ob der DLC aktiviert ist.
+
+<YouTube videoId="i9CuAsCxUsk" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/BRa5saY3L76xe5F/preview" title="Activate Factorio Space Age DLC" description="Hast du das Gefühl, dass du etwas besser verstehst, wenn du es in Aktion siehst? Wir haben etwas für dich! Tauche ab in unser Video, welches alles für dich zusammenfasst. Egal, ob du es eilig hast oder einfach nur Informationen auf möglichst verständliche Art und Weise aufnehmen möchtest!"/>
 
 Gehe zum Web-Interface-Panel deines Produkts und rufe den Abschnitt **Einstellungen** auf. Scrolle nach unten und suche die Option **Space Age DLC**, die standardmäßig aktiviert sein sollte.
 
