@@ -25,7 +25,7 @@ Um einen Reverse Proxy einzurichten, benötigst du einen **Linux Server** (z. B.
 Wir empfehlen dir, eine höhere Netzwerkgeschwindigkeit zu wählen, wenn du einen Server-Proxy einrichten willst, vor allem, wenn dein Server viele Spieler hat. Das liegt daran, dass dein VPS rohes TCP/UDP direkt zwischen dem Client (Spieler) und dem FiveM Server überträgt. Ansonsten sollte ein Server mit den Basisspezifikationen und minimalen Upgrades ausreichen :)
 :::
 
-Wir empfehlen außerdem, den Proxy mit einer **Domain** einzurichten, die du besitzt. Du solltest einen `A`- oder `CNAME`-Eintrag für die Domain erstellen, die du verwenden möchtest (zum Beispiel `zapdocs.example.com`), der auf die IP-Adresse deines __Linux VPS__ zeigt. Diese Adresse wird von den Spielern verwendet, um sich mit dem Server zu verbinden, obwohl du stattdessen auch die IP-Adresse deines Proxy-Servers verwenden könntest, wenn du möchtest.
+Wir empfehlen außerdem, den Proxy mit einer **Domain** einzurichten, die du besitzt. Du solltest einen `A`-Eintrag für die Domain erstellen, die du verwenden möchtest (zum Beispiel `zapdocs.example.com`), der auf die IP-Adresse deines __Linux VPS__ zeigt. Diese Adresse wird von den Spielern verwendet, um sich mit dem Server zu verbinden, obwohl du stattdessen auch die IP-Adresse deines Proxy-Servers verwenden könntest, wenn du möchtest.
 
 ### Zugriff auf VPS
 
@@ -33,26 +33,30 @@ Wenn dein Linux VPS bereit ist, musst du dich mit ihm verbinden. In unserer Anle
 
 ### Nginx installieren
 
-Du wirst Nginx als Reverse-Proxy-Server verwenden, da es sich um einen sehr leistungsstarken und beliebten Open-Source-Webserver handelt.
+Du wirst Nginx verwenden, um einen Reverse-Proxy-Server zu hosten, da es ein sehr leistungsfähiger und beliebter Open-Source-Webserver ist.
 
-Nachdem du auf deinen VPS zugegriffen hast, installierst du Nginx mit folgendem Befehl:
+Nachdem du auf deinen VPS zugegriffen hast, verwende den folgenden Befehl, um Nginx zu installieren.
 ```
 sudo apt install nginx
 ```
 
-Jetzt musst du die Firewall des Servers anpassen. Du kannst die Nginx-Profile überprüfen, indem du `sudo ufw app list` ausführst.
+Nach der Installation musst du deine Firewall anpassen, um sicherzustellen, dass der Dienst über das Internet zugänglich ist. In diesem Leitfaden verwenden wir die **UFW Firewall**, da Nginx sich selbst als App registriert, wodurch sich die Einstellungen leicht anpassen lassen. Weitere Informationen zur UFW Firewall findest du in unserem Leitfaden [Linux Security Tips] (vserver-linux-security-tips.md).
 
-In diesem Szenario würden wir die Option **Nginx Full** wählen, die den Zugriff auf HTTP für Tests (und wenn du keine Domain verwendest) und HTTPS für den Produktionsbetrieb ermöglicht.
+:::note
+Wenn du andere Firewalls (wie IPTables) verwendest, stelle bitte sicher, dass du Nginx den entsprechenden Firewall-Zugriff gewährst, insbesondere auf Port 80 und 443, wo der Nginx-Dienst ausgeführt wird.
+:::
+
+Du kannst Nginx-Profile überprüfen, indem du `sudo ufw app list` ausführst. In diesem Szenario würden wir die Option **Nginx Full** auswählen, die den Zugriff auf HTTP für Tests und HTTPS für die Produktion ermöglicht.
 ```
 sudo ufw allow 'Nginx Full'
 ```
 
-Wenn Nginx nun eingerichtet ist, versuche, die Seite über einen Browser aufzurufen, um sicherzustellen, dass sie wie erwartet funktioniert.
+Nachdem Nginx nun eingerichtet ist, versuche, über einen Browser auf die Seite zuzugreifen, um sicherzustellen, dass sie wie erwartet funktioniert. Wenn die Testseite wie erwartet funktioniert, kannst du nun mit der Anleitung fortfahren.
 ```
 http://[deine_serverip]
 ```
 
-Wenn die Testseite wie erwartet funktioniert, kannst du jetzt mit den Hauptschritten der Proxy-Einrichtung in den folgenden Abschnitten fortfahren.
+![](https://screensaver01.zap-hosting.com/index.php/s/JaBgE4Cn73L5Xe8/preview)
 
 ## Proxy verbinden
 
@@ -70,34 +74,31 @@ sudo nano /etc/nginx/sites-available/[deine_domain]
 Kopiere nun die folgende Vorlage in deinen Editor und passe sie mit deinen Werten an.
 
 ```
-Upstream Backend {
-    # FiveM Server IP Adresse
+upstream Backend {
+    # FiveM Server IP Address
     server [deine_fivem_serverip]:30120;
 }
 
 proxy_cache_path /srv/cache levels=1:2 keys_zone=assets:48m max_size=20g inactive=2h;
 
-Server {
-    listen 443 ssl http2;
-    listen [::]:443 ssl http2;
+server {
+    listen 80;
+    listen [::]:80;
 
-    server_name [deine_domain]; # Zum Beispiel: zapdocs.example.com
+    server_name [deine_domain]; # For example: zapdocs.example.com
 
-    ssl_certificate /path/to/certificate.pem;
-    ssl_certificate_key /path/to/privkey.pem;
-
-    Standort / {
+    location / {
         proxy_set_header Host $host;
         proxy_set_header X-Real-IP $remote_addr;
         proxy_set_header X-Forwarded-For $remote_addr;
-        # erforderlich, um Auth-Header korrekt zu übergeben
+        # Required to pass auth headers correctly
         proxy_pass_request_headers on;
-        # erforderlich, um die Verbindung nicht sofort zu schließen
+        # Required to not make deferrals close the connection instantly
         proxy_http_version 1.1;
         proxy_pass http://backend;
     }
 
-    # zusätzlicher Block für einen Caching-Proxy
+    # Extra block for a caching proxy
     location /files/ {
         proxy_pass http://backend$request_uri;
         add_header X-Cache-Status $upstream_cache_status;
@@ -111,7 +112,19 @@ Server {
 }
 ```
 
-Wenn alle Eingabewerte an deine Einstellungen angepasst sind, kannst du die Datei speichern und nano mit `CTRL + X` beenden, gefolgt von `Y` zur Bestätigung und schließlich `ENTER`.
+Da nun alle Eingabewerte an deine Konfiguration angepasst sind, kannst du die Datei speichern und nano mit `STRG + X` beenden, gefolgt von `Y` zur Bestätigung und schließlich `ENTER`.
+
+Jetzt musst du die Serverblockdatei aktivieren, indem du einen symbolischen Link zum aktiven Verzeichnis erstellst.
+```
+sudo ln -s /etc/nginx/sites-available/[deine_filename] /etc/nginx/sites-enabled/[deine_filename]
+```
+
+Um sicherzustellen, dass alles korrekt ist, insbesondere in Bezug auf die Syntax, kannst du mit `sudo nginx -t` überprüfen, ob Probleme auftreten. Wenn die Ausführung erfolgreich ist, besteht der letzte Schritt darin, Nginx neu zu starten, um den neuen Serverblock in Kraft zu setzen.
+```
+systemctl reload nginx.service
+```
+
+Nach dem Neustart des Dienstes solltest du nun testen, ob du in deinem Browser auf die Domain zugreifen kannst, die du für den Reverse-Proxy verwendet hast. Bei Erfolg sollte die Seite den gewünschten Inhalt laden, den du als Parameter `targetServer` festgelegt hast. Wenn du auf Probleme stößt, empfehlen wir, die Protokolle zur Fehlerbehebung mit `journalctl -f -u nginx.service` zu überprüfen, um mögliche Fehler zu identifizieren.
 
 ### FiveM Konfiguration
 
@@ -149,14 +162,16 @@ sudo nano /etc/nginx/nginx.conf
 
 Kopiere nun den folgenden Inhalt in den Root-Bereich und ersetze die Werte durch deine Einstellungen.
 ```
-Stream {
+stream {
     upstream backend {
         server [deine_fivem_serverip]:30120;
     }
+
     Server {
 		listen 30120;
 		proxy_pass backend;
 	}
+
 	server {
 		listen 30120 udp reuseport;
 		proxy_pass backend;
@@ -164,7 +179,14 @@ Stream {
 }
 ```
 
-Wenn alle Eingabewerte an deine Einstellungen angepasst sind, kannst du die Datei speichern und nano mit `CTRL + X` beenden, gefolgt von `Y` zur Bestätigung und schließlich `ENTER`.
+Da nun alle Eingabewerte an deine Konfiguration angepasst sind, kannst du die Datei speichern und nano mit `STRG + X` beenden, gefolgt von `Y` zur Bestätigung und schließlich `ENTER`.
+
+Um sicherzustellen, dass alles korrekt ist, insbesondere in Bezug auf die Syntax, kannst du mit `sudo nginx -t` überprüfen, ob Probleme auftreten. Wenn die Ausführung erfolgreich ist, besteht der letzte Schritt darin, Nginx neu zu starten, damit die neue Konfiguration wirksam wird.
+```
+systemctl reload nginx.service
+```
+
+Nach dem Neustart des Dienstes solltest du versuchen, dich über die Proxy-Domain mit deinem Spielserver zu verbinden. Bei Erfolg solltest du dich mit dem Spielserver verbinden können, insbesondere mit dem Server, den du als Parameter `targetServer` festgelegt hast. Wenn du auf Probleme stößt, empfehlen wir, die Protokolle mit `journalctl -f -u nginx.service` auf Fehler zu überprüfen, um mögliche Fehler zu identifizieren.
 
 ### FiveM Konfiguration
 
@@ -183,6 +205,12 @@ set sv_endpoints "[deine_fivem_serverip]:30120"
 Speichere nun die Datei und starte den Server neu. Beim nächsten Start des Servers sollten die rohen TCP/UDP-Endpunkte nun über deinen Reverse-Proxy gestreamt werden.
 
 Du kannst dies überprüfen, indem du die IP-Adressen der Spieler analysierst, die alle die IP-Adresse deines Proxy-Servers gefolgt von zufällig zugewiesenen Ports sein sollten.
+
+## SSL-Zertifikat
+
+Da dein FiveM-Reverse-Proxy jetzt eingerichtet ist, empfehlen wir dringend, ein SSL-Zertifikat zu deinen verwendeten Domains hinzuzufügen, um sicherzustellen, dass die Website Daten sicher über HTTPS überträgt.
+
+Bitte lies dir unsere Anleitung [Install Certbot](vserver-linux-certbot.md) durch, die den gesamten Prozess der Beantragung und automatischen Verlängerung von SSL-Zertifikaten für deine Domain(s) abdeckt.
 
 ## Abschluss
 
