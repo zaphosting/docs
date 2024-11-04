@@ -17,7 +17,7 @@ Mehrere IP-Adressen auf einem Server können aus verschiedenen Gründen nützlic
 
 ## Voraussetzungen
 
-Die Nutzung von mehreren IP-Adressen setzt voraus, dass dein Server (Paket) diese auch beinhaltet. Solltest du standardmäßig noch keine zusätzlichen IP-Adressen dazugebucht haben, so müsstest du diese zunächst per Upgrade ergänzen. Verbinde dich im Anschluss mit deinem Server per [RDP](vserver-windows-userdp). 
+Die Nutzung von mehreren IP-Adressen setzt voraus, dass dein Server (Paket) diese auch beinhaltet. Solltest du standardmäßig noch keine zusätzlichen IP-Adressen dazugebucht haben, so müsstest du diese zunächst per Upgrade ergänzen. Verbinde dich im Anschluss mit deinem Server per [RDP](vserver-windows-userdp.md). 
 
 
 

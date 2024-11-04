@@ -82,10 +82,10 @@ These are server configuration options which adjust your server's information in
 | ------------------------------ | --------------------------------------- | ---------------------------------------------------------------------------------- |
 | name                           | ZAP-Hosting Docs Test                   | Set the hostname for your server                                                   |
 | language                       | English                                 | Language which will appear in the server browser for your server                   |
-| website                        | https://zap-hosting.com/                | Add a website that people can visit to gain more info about your server            |
-| discord.invite                 | https://discord.gg/zaphosting           | Discord server link that appears in he server browser                              |
-| banners.light                  | https://zap-hosting.com/lighticon.png   | Set a url to your light theme banner which appears in the server browser           |
-| banners.dark                   | https://zap-hosting.com/darkicon.png    | Set a url to your dark theme banner which appears in the server browser            |
+| website                        | zap-hosting.com/                | Add a website that people can visit to gain more info about your server            |
+| discord.invite                 | discord.gg/zaphosting           | Discord server link that appears in he server browser                              |
+| banners.light                  | zap-hosting.com/lighticon.png   | Set a url to your light theme banner which appears in the server browser           |
+| banners.dark                   | zap-hosting.com/darkicon.png    | Set a url to your dark theme banner which appears in the server browser            |
 | game.map                       | ZAPtastic Stunt Map                     | The mapname that should appear in the server browser                               |
 | game.mode                      | Survival                                | The gamemode that should appear in the server browser                              |
 | announce                       | true                                    | Toggle whether your server should be displayed in the public server browser at all |

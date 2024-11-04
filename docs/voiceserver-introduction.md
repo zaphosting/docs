@@ -17,7 +17,7 @@ Are you looking for your own voiceserver for you and your friends at a fair pric
 <InlineVoucher />
 
 ## Order
-The ordering process is quite simple. Choose your desired configuration for your [voiceserver (Teamspeak 3/5)](https://zap-hosting.com/en/teamspeak-5-server-rental/) . The setup time for the voiceserver takes only a few seconds.
+The ordering process is quite simple. Choose your desired configuration for your [voiceserver (Teamspeak 3/5)](https://zap-hosting.com/en/shop/product/teamspeak3-server/) . The setup time for the voiceserver takes only a few seconds.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/tKbF8JrHTw6cGMn/preview)
 

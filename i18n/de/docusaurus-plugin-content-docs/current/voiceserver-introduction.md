@@ -17,7 +17,7 @@ Du suchst nach einem eigenen Voiceserver für dich und deine Freunde zu einem fa
 <InlineVoucher />
 
 ## Bestellen
-Der Bestellvorgang ist ganz einfach. Wähle deine Wunschkonfiguration für deinen [Voiceserver (Teamspeak 3/5)](https://zap-hosting.com/de/teamspeak-5-server-mieten/) aus. Die Einrichtungsdauer des Voiceservers dauert lediglich wenige Sekunden. 
+Der Bestellvorgang ist ganz einfach. Wähle deine Wunschkonfiguration für deinen [Voiceserver (Teamspeak 3/5)](https://zap-hosting.com/de/shop/product/teamspeak3-server/) aus. Die Einrichtungsdauer des Voiceservers dauert lediglich wenige Sekunden. 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/JiNjiy68Gc6cj6w/preview)
 

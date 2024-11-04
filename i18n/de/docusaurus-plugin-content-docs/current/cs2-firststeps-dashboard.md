@@ -138,14 +138,6 @@ Wir bieten eine umfangreiche Dokumentation zu unseren Produkten an, die als Wiss
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/QrEL7ABJtS9yBcS/preview)
 
-Zu deinem Produkt bieten wir ebenfalls Anleitungen an. Das beinhaltet beispielsweise folgende Anleitungen: 
-
-| Anleitungen          | Seite                                                        |
-| -------------------- | ------------------------------------------------------------ |
-| Server configuration | [Anleitung aufrufen](cs2-configuration/) |
-| CSTV                 | [Anleitung aufrufen](cs2-cstv) |
-| Install plugins      | [Anleitung aufrufen](cs2-plugins) |
-
 
 
 

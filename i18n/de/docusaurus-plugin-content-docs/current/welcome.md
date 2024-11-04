@@ -141,10 +141,10 @@ Perfektioniere und Nutze den vollen Umfang deines Gameservers. Mit unserer Exper
 Nutze den vollen Umfang deines vRootservers (VPS/Rootserver) mit unseren umfassenden Anleitungen. Egal, ob du Linux oder Windows bevorzugst, Anleitungen helfen dir, deinen Server effizient einzurichten und zu verwalten.
 
 <Cards>
-    <Card title="VPS (Linux)" description="Placeholder" link="https://zap-hosting.com/guides/de/docs/vserver-root-difference" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
-    <Card title="VPS (Windows)" description="Placeholder" link="https://zap-hosting.com/guides/de/docs/vserver-root-difference" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
-    <Card title="Root server (Linux)" description="Placeholder" link="https://zap-hosting.com/guides/de/docs/vserver-root-difference" image="https://screensaver01.zap-hosting.com/index.php/s/fqn5SZYRJjoikXa/preview" type="product-categories"/>
-    <Card title="Root server (Windows)" description="Placeholder" link="https://zap-hosting.com/guides/de/docs/vserver-root-difference" image="https://screensaver01.zap-hosting.com/index.php/s/fqn5SZYRJjoikXa/preview" type="product-categories"/>
+    <Card title="vServer (Linux)" description="Placeholder" link="https://zap-hosting.com/guides/de/docs/vserver-root-difference" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
+    <Card title="vServer (Windows)" description="Placeholder" link="https://zap-hosting.com/guides/de/docs/vserver-root-difference" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
+    <Card title="Rootserver (Linux)" description="Placeholder" link="https://zap-hosting.com/guides/de/docs/vserver-root-difference" image="https://screensaver01.zap-hosting.com/index.php/s/fqn5SZYRJjoikXa/preview" type="product-categories"/>
+    <Card title="Rootserver (Windows)" description="Placeholder" link="https://zap-hosting.com/guides/de/docs/vserver-root-difference" image="https://screensaver01.zap-hosting.com/index.php/s/fqn5SZYRJjoikXa/preview" type="product-categories"/>
 </Cards>
 
 ## Dedicated Server
