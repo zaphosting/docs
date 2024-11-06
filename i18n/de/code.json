@@ -448,5 +448,9 @@
   },
   "contributors.description": {
     "message": "Werde noch heute Teil der ZAP-Hosting-Community! Tritt unserem {contributionLink} bei, um dein Wissen und deine Expertise zu teilen, indem du hochwertige Anleitungen und kreative Inhalte erstellst und gleichzeitig wertvolle Belohnungen (bis zu 130€) erhältst. Fange noch heute an und bewirke etwas! 🙂"
+  },
+  "theme.blog.author.noPosts": {
+    "message": "This author has not written any posts yet.",
+    "description": "The text for authors with 0 blog post"
   }
 }
