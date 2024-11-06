@@ -146,7 +146,7 @@ We offer extensive documentation for our products, which serves as a knowledge b
 
 ## Settings
 
-In the **Settings** section of your navigation panel, you will find a number of sub-items that will help you manage your server. These include the **Settings**, **Configs**, **Games**, **Versions** and the **Restart planner**. In the following you will get a detailed introduction to these different areas.
+In the **Settings** section of your navigation panel, you will find a number of sub-items that will help you manage your server. These include the **Settings**, **Configs**, **Games**, **Versions**, **Restart planner**, **DNS Settings** and the **Player management**. In the following you will get a detailed introduction to these different areas.
 
 
 
@@ -198,6 +198,16 @@ Do you want to schedule server restarts at specific times? The Restart Planner a
 ### DNS settings
 With the ZAP DNS settings, you can create easy-to-remember addresses for your service. You can either use a subdomain of one of our domains or you can create a DNS entry on your own domains and thus have an address that can be better associated with you as a person.
 ![](https://screensaver01.zap-hosting.com/index.php/s/tM5FGTHRSbZA5rN/preview)
+
+
+
+### Player management
+
+The Player Management allows you to manage your players fast and easily. Add players as operators or ban players who are not welcome with just a few clicks. 
+
+![img](https://screensaver01.zap-hosting.com/index.php/s/ijDqwZdpmkFMGdn/preview)
+
+
 
 ## Tools
 

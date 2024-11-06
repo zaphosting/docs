@@ -143,7 +143,7 @@ Wir bieten eine umfangreiche Dokumentation zu unseren Produkten an, die als Wiss
 
 ## Einstellungen
 
-Im Abschnitt **Einstellungen** deines Navigationspanels findest du eine Reihe von Unterpunkten, die dir bei der Verwaltung deines Servers helfen. Dazu zählen die **Einstellungen**, **Configs**, **Spiele**, **Versionen** und der **Restart Planer**. Im Folgenden erhältst du eine detaillierte Einführung zu diesen verschiedenen Bereichen.
+Im Abschnitt **Einstellungen** deines Navigationspanels findest du eine Reihe von Unterpunkten, die dir bei der Verwaltung deines Servers helfen. Dazu zählen die **Einstellungen**, **Configs**, **Spiele**, **Versionen**, **Restart Planer**, **DNS Einstellungen** und die **Spielerverwaltung**. Im Folgenden erhältst du eine detaillierte Einführung zu diesen verschiedenen Bereichen.
 
 
 
@@ -194,6 +194,16 @@ Du möchtest deinen Server zu bestimmten Uhrzeiten neu starten? Der Restart-Plan
 
 Mit den ZAP-Hosting DNS Einstellungen kannst du leicht zu merkende Adressen für deinen Service erstellen. Du kannst hier entweder eine Subdomain von einer unserer Domains nutze oder du erstellst einen DNS Eintrag auf deinen eigenen Domains und hast damit eine Adresse, die man noch besser mit dir als Person verbinden kann.
 ![](https://screensaver01.zap-hosting.com/index.php/s/XAoNQEnSW6xwKXD/preview)
+
+
+
+### Spielerverwaltung
+
+Die Spielerverwaltung ermöglicht es dir, schnell und einfach deine Spieler zu verwalten. Füge mit wenigen Klicks Spieler als Operator hinzu oder verbanne Spieler, die nicht willkommen sind. 
+
+![img](https://screensaver01.zap-hosting.com/index.php/s/sfPXqktDCB9rqR3/preview)
+
+
 
 ## Werkzeuge
 
