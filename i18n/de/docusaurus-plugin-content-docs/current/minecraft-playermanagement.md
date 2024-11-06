@@ -13,7 +13,7 @@ services:
 
 Verwalte deine Spieler mit nur wenigen Klicks über die Gameserververwaltung. Unter Spielerverwaltung hast du die Möglichkeit, Spieler zu Operatoren zu machen, Spieler auf die Whitelist zu setzen und Spieler zu bannen, die auf dem Server nicht mehr willkommen sind. 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/ijDqwZdpmkFMGdn/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/sfPXqktDCB9rqR3/preview)
 
 Klicke auf den grünen Button neben der entsprechenden Liste, um einen neuen Spielereintrag hinzuzufügen. Während des Vorgangs öffnet sich ein Pop-up-Fenster, in dem du den Namen des Spielers angeben musst. 
 
@@ -28,17 +28,17 @@ Um einen Spieler wieder zu entfernen (Operatorberechtigungen entziehen, Sperre a
 ## Operatoren
 Über die Liste Operatoren können Spieler hinzugefügt werden, die Administratorberechtigungen erhalten sollen. 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/Kjpe8t3DFEdgPSz/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/a55tmzAF9j8n2bp/preview)
 
 ## Gästeliste
 Über die Gästeliste (Whitelist) können Spieler hinzugefügt werden, die eine Verbindung zum Server herstellen dürfen. Alle Spieler, die nicht auf der Liste stehen, können sich dann nicht mehr verbinden. 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/iY8dSnoXpFYfpfz/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/fpMjJ7A9krQyPyB/preview)
 
 ## Bans
 Die Bannliste erlaubt es, Spieler hinzuzufügen, die nicht mehr auf dem Server sein sollen und deshalb gebannt werden. 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/aspGsM28fimDR3a/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/5K8jqwrPy3MXgYm/preview)
 
 
 ## Abschluss
