@@ -59,3 +59,8 @@ The permissions for all administrator commands can be defined under ``permission
 ```
 
 A permission level is a value between 0 and 1000 and determines what permissions a player has. 1000 is the lowest (no permissions) and 0 is the highest (full administrator permissions). Depending on how the permissions should be in this regard, this must then be adjusted accordingly. 
+
+
+## Conclusion
+
+Congratulations, you have successfully configured the administrator permissions. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂

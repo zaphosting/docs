@@ -66,4 +66,6 @@ moderatorid 76561198114248380 "Und hier den Namen des zweiten Administrators..."
 Nun musst du deinen Server einmal neu starten, damit die Änderungen wirksam werden.
 :::
 
-Nun bist du Administrator. :) 
+## Abschluss
+
+Glückwunsch, du hast erfolgreich die Administratorberechtigungen konfiguriert. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂

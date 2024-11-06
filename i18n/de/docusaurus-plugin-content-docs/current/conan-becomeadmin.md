@@ -57,3 +57,8 @@ Im Anschluss kannst du sämtliche Server-Befehle als Admin ausführen. Im Folgen
 
 
 Weitere Admin-Befehle rund ums Spiel findest du auf der [Gamepedia](https://conanexiles.gamepedia.com/Admin_Panel) von Conan Exiles. 
+
+
+## Abschluss
+
+Glückwunsch, du hast erfolgreich die Administratorberechtigungen konfiguriert. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂

@@ -56,3 +56,7 @@ The whole thing should look like this afterwards:
 ![](https://screensaver01.zap-hosting.com/index.php/s/r7tj3EF6trSiz5x/preview)
 
 Now only **Save** the Config file and thats it
+
+## Conclusion
+
+Congratulations, you have successfully configured the administrator permissions. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂

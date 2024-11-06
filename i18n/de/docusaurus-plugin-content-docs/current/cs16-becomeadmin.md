@@ -93,3 +93,8 @@ In dem Fall wird kein Passwort benötigt, da es sich um eine Authentifizierung �
 | c    | SteamID                                                      |
 | d    | IP                                                           |
 | e    | Passwort wird nicht geprüft (nur Name/Ip/Steamid erforderlich) |
+
+
+## Abschluss
+
+Glückwunsch, du hast erfolgreich die Administratorberechtigungen konfiguriert. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂

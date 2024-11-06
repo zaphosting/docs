@@ -53,3 +53,7 @@ Im Fall von Administratoren wird das "owner" einfach nur durch "admin" ersetzt.
 
 Nachdem alle Ränge in der Config vergeben worden sind, kann die Config mit einem Klick auf "Speichern" gespeichert werden.
 Der Server kann nun wieder gestartet werden und alle in die Config eingetragenen Spieler erhalten ihren Rang automatisch.
+
+## Abschluss
+
+Glückwunsch, du hast erfolgreich die Administratorberechtigungen konfiguriert. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂

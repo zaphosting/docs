@@ -80,4 +80,6 @@ Jetzt wo die Konfiguration der **acl.xml** abgeschlossen wurde kannst du dein Sp
 login BENUTZERNAME PASSWORT
 ```
 
-Nun hast du deine Administrator-Berechtigungen und kannst deinen Server nach deinen Wünschen verwalten!
+## Abschluss
+
+Glückwunsch, du hast erfolgreich die Administratorberechtigungen konfiguriert. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂

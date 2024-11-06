@@ -64,3 +64,7 @@ An immunity value can be assigned to admins. If an admin or player with a lower 
 :::info
 The immunity check is not automatically carried out by CounterStrikeSharp. It is up to the individual plugins to handle/manage the immunity check.
 :::
+
+## Conclusion
+
+Congratulations, you have successfully configured the administrator permissions. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂

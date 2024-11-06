@@ -99,3 +99,8 @@ Im Folgenden findest du eine Übersicht von häufig verwendeten Admin Befehlen, 
 |       /removeadmin [player]        |          Entfernt einen Spieler als Admin          |
 
 Noch weitere verfügbare Befehle findest du in der offiziellen [ECO Wiki](https://eco.gamepedia.com/Chat_Befehls).
+
+
+## Abschluss
+
+Glückwunsch, du hast erfolgreich die Administratorberechtigungen konfiguriert. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂

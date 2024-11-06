@@ -15,7 +15,7 @@ The assignment of administrator permissions allows you simple and comprehensive 
 <InlineVoucher />
 
 :::info
-NOTICE: Since recent SCP Updates, the password login is no longer functional. Please use the following guide to add your roles directly by the steamid. 
+Since recent SCP Updates, the password login is no longer functional. Please use the following guide to add your roles directly by the steamid. 
 :::
 
 
@@ -67,8 +67,10 @@ For example, to add admin and moderator to override the password:
 ![](https://screensaver01.zap-hosting.com/index.php/s/PFLFiG9W3kScZ3d/preview)
 
 :::info
-Hint: To open the remote admin console ingame, once you are logged into the server, you would use the "**M**" key. 
-
-
-If the server is running, you will have to restart the server for it to take affect. Or if the server is offline, simply turn the server on and then check the Remote Admin Console ingame.
+To open the remote admin console ingame, once you are logged into the server, you would use the "**M**" key. If the server is running, you will have to restart the server for it to take affect. Or if the server is offline, simply turn the server on and then check the Remote Admin Console ingame.
 :::
+
+
+## Conclusion
+
+Congratulations, you have successfully configured the administrator permissions. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂

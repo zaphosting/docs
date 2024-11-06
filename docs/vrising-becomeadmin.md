@@ -49,3 +49,8 @@ This is a short overview of the most common admin commands you can execute on yo
 | giveset                  | Allows you to explore various sets of armor and weapons |
 | kick [name/IP/userID]    | Kick a specific player by name, IP or user ID           |
 | unban [name/IP/userID]   | Unban a specific player by name, IP or user ID          |
+
+
+## Conclusion
+
+Congratulations, you have successfully configured the administrator permissions. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂

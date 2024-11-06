@@ -104,3 +104,7 @@ Hier findest du eine Übersicht von gängigen Befehlen, die du als Admin ausfüh
 | /galaxy-name [value]          | Galaxienname, angehängt an Datenpfad, endgültiger Pfad wird [Datenpfad]/[Galaxienname] sein |
 | /datapath [value]             | Ordner, in dem die Galaxien gespeichert werden sollen, wird dem Galaxiennamen vorangestellt |
 | /admin [value]                | Steam-ID(s) des/der Administrator(en) des Servers            |
+
+## Abschluss
+
+Glückwunsch, du hast erfolgreich die Administratorberechtigungen konfiguriert. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂

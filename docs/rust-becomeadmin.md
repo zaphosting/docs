@@ -66,4 +66,6 @@ moderatorid 76561198114248380 "Testing  Person"
 You will have to restart your server for it to take affect.
 :::
 
-Then you are now an administrator! :)
+## Conclusion
+
+Congratulations, you have successfully configured the administrator permissions. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂

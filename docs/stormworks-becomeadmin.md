@@ -36,3 +36,8 @@ Once you have entered the admins, you can save the config with the "Save" button
 ![](https://screensaver01.zap-hosting.com/index.php/s/zYDPRazLsAAA3xr/preview)
 
 Restart your server now, to ensure that all registered Steam64IDs will get their admin permissions. 
+
+
+## Conclusion
+
+Congratulations, you have successfully configured the administrator permissions. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂

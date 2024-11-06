@@ -34,3 +34,9 @@ ATTENTION: It can take about 30 minutes until the server is listed.
 If you are connected to the server, you can press ENTER to enter something in the chat.
 Here you can now enter "/admin ADMINPW".
 Now you are admin on your server! 
+
+
+
+## Conclusion
+
+Congratulations, you have successfully configured the administrator permissions. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂

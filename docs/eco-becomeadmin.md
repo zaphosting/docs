@@ -99,3 +99,6 @@ In the following you will find an overview of common used admin commands that yo
 
 More available commands can be found in the official [ECO Wiki](https://eco.gamepedia.com/Chat_Commands).
 
+## Conclusion
+
+Congratulations, you have successfully configured the administrator permissions. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂

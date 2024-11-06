@@ -50,3 +50,7 @@ For adding an Administrator, the "owner" is simply replaced by "admin".
 ![](https://screensaver01.zap-hosting.com/index.php/s/i6PpdsfK6spBECj/preview)
 
 After all ranks have been assigned in the config, the config can be saved with a click on "Save". The server can now be restarted and all players entered in the config receive their rank automatically.
+
+## Conclusion
+
+Congratulations, you have successfully configured the administrator permissions. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂

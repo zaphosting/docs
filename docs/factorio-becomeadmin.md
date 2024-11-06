@@ -58,3 +58,8 @@ The players with the names **PlayerName1, PlayerName2, PlayerName3** have now re
 | /whitelist add/remove/get/clear player |         Adds or removes a player from the whitelist          |
 
 More available commands can be found in the official [Factorio Wiki](https://wiki.factorio.com/Console).
+
+
+## Conclusion
+
+Congratulations, you have successfully configured the administrator permissions. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂

@@ -63,5 +63,10 @@ Um mehr Rollen hinzufügen zu können, kannst du diese einfach mit einem Komma g
 ![](https://screensaver01.zap-hosting.com/index.php/s/jEtyF3exTYHAWni/preview)
 
 :::info
-Hinweis: Die Adminkonsole im Spiel lässt sich jederzeit mit der Taste **M** öffnen. Nun kannst du deinen Server starten und die vergebenen Rechte im Spiel nutzen.
+Die Adminkonsole im Spiel lässt sich jederzeit mit der Taste **M** öffnen. Nun kannst du deinen Server starten und die vergebenen Rechte im Spiel nutzen.
 :::
+
+
+## Abschluss
+
+Glückwunsch, du hast erfolgreich die Administratorberechtigungen konfiguriert. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂

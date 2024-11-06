@@ -43,3 +43,8 @@ After pressing **OK** your user account will be assigned with the administrator 
 ## Adding more Admins
 
 If you want to assign administrator permissions to additional users, then you can either create more privilege keys for the corresponding users or assign the corresponding server group in the Teamspeak client itself for the respective user. To do this, right-click on the user, click on Server Groups and then select the server group. 
+
+
+## Conclusion
+
+Congratulations, you have successfully configured the administrator permissions. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
