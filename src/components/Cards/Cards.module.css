@@ -27,4 +27,5 @@
   border-radius: 5px;
   width: 200px;
   align-self: center;
+  color: var(--ifm-color-primary);
 }
