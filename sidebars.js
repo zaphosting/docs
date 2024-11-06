@@ -251,6 +251,7 @@ const sidebars = {
           items: [
             "minecraft-commands",
             "minecraft-addop",
+            "minecraft-playermanagement",
             "minecraft-default-config",
             "minecraft-server-icon",
             "minecraft-add-own-world",
