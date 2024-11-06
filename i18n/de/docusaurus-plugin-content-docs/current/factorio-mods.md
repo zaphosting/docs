@@ -12,7 +12,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Factorio bietet native Modding-Unterstützung, sodass du deinem Spiel und Server neben gekauften Spiel-DLCs auch eine Vielzahl von Mods hinzufügen kannst. In diesem Leitfaden werden wir den Prozess der Aktivierung von DLCs und der Installation von Mods auf deinem Client und Factorio-Server behandeln.
+Factorio bietet native Modding-Unterstützung, sodass du deinem Spiel und Server neben gekauften Spiel-DLCs auch eine Vielzahl von Mods hinzufügen kannst. In dieser Anleitung werden wir den Prozess der Aktivierung von DLCs und der Installation von Mods auf deinem Client und Factorio-Server behandeln.
 
 <InlineVoucher />
 
@@ -36,7 +36,7 @@ Gehe zum Web-Interface-Panel deines Produkts und rufe den Abschnitt **Einstellun
 
 Schalte die Funktion um und benutze den grünen **Speichern**-Knopf unten auf der Seite. Du hast nun erfolgreich einen Factorio-DLC aktiviert.
 
- 
+
 ## Mods hinzufügen und hochladen
 
 Nachdem du die Mods deiner Wahl heruntergeladen hast, musst du sie per FTP auf deinen Factorio-Server hochladen. Wenn du nicht weißt, wie man FTP verwendet, dann kann dir ein Blick in die folgende [Zugriff per FTP](gameserver-ftpaccess.md) Anleitung weiterhelfen.
@@ -58,4 +58,8 @@ Wenn du Mods anpasst, müssen diese zwischen dem Client und dem Server synchroni
 
 Zum Schluss musst du deinen Server neu starten, um die Mods automatisch auf deinem Factorio-Server zu aktivieren und zu installieren. Wenn Fehler auftreten, wie z. B. das automatische Herunterfahren des Servers, überprüfe bitte den Abschnitt „Information->Event Log“ auf deiner Weboberfläche, um etwaige Fehler anzuzeigen. Es ist wahrscheinlich, dass ein Versionskonflikt solche Probleme verursachen könnte.
 
-Du hast erfolgreich Mods auf deinem Factorio-Server installiert.
+
+
+## Abschluss
+
+Glückwunsch, du hast erfolgreich Mods auf deinem Factorio-Server installiert. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂

@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Ein Reverse-Proxy-Server ist ein Server, der als Vermittler zwischen den Endnutzern (deinen Spielern) und deinem FiveM-Server fungiert. Dies kann für Server, die häufig DDoS-Angriffen ausgesetzt sind, sehr vorteilhaft sein, da er eine zusätzliche Sicherheits- und Zuverlässigkeitsschicht bietet, indem er die Sichtbarkeit des Haupthosts verringert und zusätzliche Schutzmaßnahmen bietet.
 
-In diesem Leitfaden werden wir uns mit der Einrichtung eines Reverse-Proxys für deinen FiveM-Server befassen. In diesem Szenario gibt es zwei Arten von Reverse-Proxys: den Connect-Proxy, der für den Connect-Endpunkt verwendet wird, und einen Server-Proxy, der für den Server-Endpunkt verwendet wird, an dem das rohe TCP/UDP-Proxying stattfindet. Beide können unabhängig voneinander eingerichtet werden.
+In dieser Anleitung werden wir uns mit der Einrichtung eines Reverse-Proxys für deinen FiveM-Server befassen. In diesem Szenario gibt es zwei Arten von Reverse-Proxys: den Connect-Proxy, der für den Connect-Endpunkt verwendet wird, und einen Server-Proxy, der für den Server-Endpunkt verwendet wird, an dem das rohe TCP/UDP-Proxying stattfindet. Beide können unabhängig voneinander eingerichtet werden.
 
 <InlineVoucher />
 
@@ -40,10 +40,10 @@ Nachdem du auf deinen VPS zugegriffen hast, verwende den folgenden Befehl, um Ng
 sudo apt install nginx
 ```
 
-Nach der Installation musst du deine Firewall anpassen, um sicherzustellen, dass der Dienst über das Internet zugänglich ist. In diesem Leitfaden verwenden wir die **UFW Firewall**, da Nginx sich selbst als App registriert, wodurch sich die Einstellungen leicht anpassen lassen. Weitere Informationen zur UFW Firewall findest du in unserem Leitfaden [Linux Security Tips] (vserver-linux-security-tips.md).
+Nach der Installation musst du deine Firewall anpassen, um sicherzustellen, dass der Dienst über das Internet zugänglich ist. In dieser Anleitung verwenden wir die **UFW Firewall**, da Nginx sich selbst als App registriert, wodurch sich die Einstellungen leicht anpassen lassen. Weitere Informationen zur UFW Firewall findest du in unserer Anleitung [Tipps zur Linux-Sicherheit](vserver-linux-security-tips.md).
 
 :::note
-Wenn du andere Firewalls (wie IPTables) verwendest, stelle bitte sicher, dass du Nginx den entsprechenden Firewall-Zugriff gewährst, insbesondere auf Port 80 und 443, wo der Nginx-Dienst ausgeführt wird.
+Wenn du andere Firewalls (wie IPtables) verwendest, stelle bitte sicher, dass du Nginx den entsprechenden Firewall-Zugriff gewährst, insbesondere auf Port 80 und 443, wo der Nginx-Dienst ausgeführt wird.
 :::
 
 Du kannst Nginx-Profile überprüfen, indem du `sudo ufw app list` ausführst. In diesem Szenario würden wir die Option **Nginx Full** auswählen, die den Zugriff auf HTTP für Tests und HTTPS für die Produktion ermöglicht.
@@ -210,8 +210,8 @@ Du kannst dies überprüfen, indem du die IP-Adressen der Spieler analysierst, d
 
 Da dein FiveM-Reverse-Proxy jetzt eingerichtet ist, empfehlen wir dringend, ein SSL-Zertifikat zu deinen verwendeten Domains hinzuzufügen, um sicherzustellen, dass die Website Daten sicher über HTTPS überträgt.
 
-Bitte lies dir unsere Anleitung [Install Certbot](vserver-linux-certbot.md) durch, die den gesamten Prozess der Beantragung und automatischen Verlängerung von SSL-Zertifikaten für deine Domain(s) abdeckt.
+Bitte lies dir unsere Anleitung [Certbot installieren](vserver-linux-certbot.md) durch, die den gesamten Prozess der Beantragung und automatischen Verlängerung von SSL-Zertifikaten für deine Domain(s) abdeckt.
 
 ## Abschluss
 
-Du hast erfolgreich einen Reverse Proxy für deinen FiveM-Server eingerichtet, der dir verschiedene Verbesserungen in Bezug auf Sicherheit, Zuverlässigkeit und Leistung bietet.
+Glückwunsch, du hast erfolgreich einen Reverse Proxy für deinen FiveM-Server eingerichtet, der dir verschiedene Verbesserungen in Bezug auf Sicherheit, Zuverlässigkeit und Leistung bietet. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂

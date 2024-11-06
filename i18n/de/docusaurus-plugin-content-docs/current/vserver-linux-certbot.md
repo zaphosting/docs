@@ -11,13 +11,13 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-SSL-Zertifikate sind ein wesentlicher Bestandteil des Internets und stellen sicher, dass Daten sicher zwischen Client und Host übertragen werden können. In diesem Leitfaden werden wir den Prozess der Einrichtung des Open-Source-Tools [**Certbot**](https://certbot.eff.org/) zur Beantragung kostenloser SSL-Zertifikate bei der gemeinnützigen Zertifizierungsstelle **Let's Encrypt** untersuchen.
+SSL-Zertifikate sind ein wesentlicher Bestandteil des Internets und stellen sicher, dass Daten sicher zwischen Client und Host übertragen werden können. In dieser Anleitung werden wir den Prozess der Einrichtung des Open-Source-Tools [**Certbot**](https://certbot.eff.org/) zur Beantragung kostenloser SSL-Zertifikate bei der gemeinnützigen Zertifizierungsstelle **Let's Encrypt** untersuchen.
 
 <InlineVoucher />
 
 ## Vorbereitung
 
-Du musst einen Linux VPS vorbereiten, auf dem ein Webserver wie Nginx oder Apache installiert und eingerichtet ist. In unserem Beispiel verwenden wir Nginx, da es sich um einen leistungsstarken und beliebten Open-Source-Webserver handelt. In unserem [Linux Proxy](vserver-linux-proxy.md)-Leitfaden findest du Hilfe bei der Einrichtung.
+Du musst einen Linux VPS vorbereiten, auf dem ein Webserver wie Nginx oder Apache installiert und eingerichtet ist. In unserem Beispiel verwenden wir Nginx, da es sich um einen leistungsstarken und beliebten Open-Source-Webserver handelt. In unserer [Linux Proxy](vserver-linux-proxy.md) Anleitung findest du Hilfe bei der Einrichtung.
 
 Um Certbot nutzen zu können, benötigst du eine **Domain**, die dir gehört. Für jede Subdomain, die du verwenden möchtest, solltest du einen `A`-DNS-Eintrag erstellen (z. B. `zapdocs.example.com`), der auf die IP-Adresse deines __Linux VPS__ verweist. Dies ist der Weg, über den Benutzer auf deine Website oder deinen Spieleserver zugreifen.
 
@@ -26,7 +26,7 @@ Um Certbot nutzen zu können, benötigst du eine **Domain**, die dir gehört. F�
 Wenn dein Nginx-Webserver und deine Domain bereit sind, kannst du mit der Installation von Certbot auf deinem Server fortfahren.
 
 :::wichtig Deaktiviere den permanenten DDoS-Schutzmodus
-Bitte stelle sicher, dass der DDoS-Schutz auf deinem VPS über den Abschnitt **DDoS-Manager** auf der Weboberfläche deines Produkts auf **Sentry-Modus** eingestellt ist. Verwende nicht den permanenten Modus, da es sonst wahrscheinlich zu Problemen beim Abschließen von ACME-Herausforderungen von Certbot kommt, da echte Anfragen blockiert werden.
+Bitte stelle sicher, dass der DDoS-Schutz auf deinem VPS über den Abschnitt **DDoS-Manager** auf der Weboberfläche deines Produkts auf **Sensor-Modus** eingestellt ist. Verwende nicht den permanenten Modus, da es sonst wahrscheinlich zu Problemen beim Abschließen von ACME-Herausforderungen von Certbot kommt, da echte Anfragen blockiert werden.
 :::
 
 ### Einrichtung von Certbot
@@ -124,4 +124,4 @@ Speichere die Datei und beende nano mit `STRG + X`, gefolgt von `Y` zur Bestäti
 
 ## Abschluss
 
-Du hast Certbot erfolgreich für deine Domain(s) mit Nginx eingerichtet und stellst damit eine sichere Datenübertragung über HTTPS für deine Website bereit.
+Glückwunsch, du hast Certbot erfolgreich für deine Domain(s) mit Nginx eingerichtet und stellst damit eine sichere Datenübertragung über HTTPS für deine Website bereit. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂

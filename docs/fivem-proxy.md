@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
-A reverse proxy server is a server that acts as an intermediary between the end users (your players) and your FiveM server. This can be highly beneficial for servers that receive frequent DDoS attacks as it provides an extra layer of security and reliability by reducing visibility of the main host and provides extra mitigation.
+A reverse proxy server is a server that acts as an intermediary between the end users (your players) and your FiveM server. This can be highly beneficial for servers that receive frequent DDoS attacks, as it provides an extra layer of security and reliability by reducing visibility of the main host and provides extra mitigation.
 
 In this guide, we will explore the process of setting up a reverse proxy for your FiveM server. There are two types of reverse proxies in this scenario; the connect proxy which is used for the connect endpoint and a server proxy which is used for the server endpoint where raw TCP/UDP proxying occurs. Both can be setup independent of each other.
 
@@ -33,9 +33,10 @@ With your Linux VPS ready, you will have to connect to it. Please use our [SSH I
 
 ### Installing Nginx
 
-You will be using Nginx to host reverse proxy server as it is a highly performant and popular open-source web server.
+You will be using Nginx to host a reverse proxy server as it is a highly performant and popular open-source web server.
 
 Now that you have accessed your VPS, use the following command to install Nginx.
+
 ```
 sudo apt install nginx
 ```
@@ -43,15 +44,17 @@ sudo apt install nginx
 Once installed, you will have to adjust your firewall to ensure that the service is accessible from the internet. For this guide, we will be using the **UFW Firewall** since Nginx registers itself as an app, making it easy to adjust settings. You can learn more about the UFW Firewall using our [Linux Security Tips](vserver-linux-security-tips.md) guide.
 
 :::note
-If you are using other firewalls (such as IPTables), please ensure that you provide the relevant firewall access to Nginx, specifically on port 80 and 443 where the nginx service operates.
+If you are using other firewalls (such as Iptables), please ensure that you provide the relevant firewall access to Nginx, specifically on port 80 and 443 where the nginx service operates.
 :::
 
-You can check Nginx profiles by running `sudo ufw app list`. In this scenario, we would want to select the **Nginx Full** option which will provide access to HTTP for testing and HTTPS for production use.
+You can check Nginx profiles by running `sudo ufw app list`. In this scenario, we would want to select the **Nginx Full** option, which will provide access to HTTP for testing and HTTPS for production use.
+
 ```
 sudo ufw allow 'Nginx Full'
 ```
 
 With Nginx now setup, attempt to access the page via a browser to ensure it is working as expected. If the test page works as expected, you can now proceed with the guide.
+
 ```
 http://[your_serverip]
 ```
@@ -67,6 +70,7 @@ A connect proxy is used to proxy the connect endpoint for your FiveM server. In 
 Begin by creating an entry within the Nginx directory for the host you selected earlier during domain setup. In this example, we will be using `zapdocs.example.com` as before.
 
 Use the following command to create the server block for your domain, replacing `[your_domain]` with your own.
+
 ```
 sudo nano /etc/nginx/sites-available/[your-domain]
 ```
@@ -115,22 +119,25 @@ server {
 With all the input values now adapted to your setup, you can save the file and quit nano by using `CTRL + X`, followed by `Y` to confirm and lastly `ENTER`.
 
 Now you need to activate the server block file by creating a symlink to the active directory.
+
 ```
 sudo ln -s /etc/nginx/sites-available/[your_filename] /etc/nginx/sites-enabled/[your_filename]
 ```
 
-To ensure that everything is correct, especially in regards to syntax, you can use `sudo nginx -t` to see if any issues return. If it returns successful, the last step is to restart Nginx to take the new server block in effect.
+To ensure that everything is correct, especially in regard to syntax, you can use `sudo nginx -t` to see if any issues return. If it returns successful, the last step is to restart Nginx to take the new server block in effect.
+
 ```
 systemctl reload nginx.service
 ```
 
-With the service restarted, you should now test accessing the the domain you have used for the reverse proxy in your browser. Upon success, the page should load the desired content that you have set as the `targetServer` parameter. If you are facing issues, we recommend checking the logs for troubleshooting using `journalctl -f -u nginx.service` to identify any potential errors.
+With the service restarted, you should now test accessing the domain you have used for the reverse proxy in your browser. Upon success, the page should load the desired content that you have set as the `targetServer` parameter. If you are facing issues, we recommend checking the logs for troubleshooting using `journalctl -f -u nginx.service` to identify any potential errors.
 
 ### FiveM Configuration
 
 With the proxy now setup, you will have to adjust some values in the `server.cfg` configuration file on your FiveM server.
 
 Add the following contents into the configuration, replacing values with your setup.
+
 ```
 # Prevents the server list from advertising your server using its actual IP
 set sv_forceIndirectListing true
@@ -156,11 +163,13 @@ A server proxy is used to proxy the server endpoint to your FiveM server, which 
 ### Nginx Setup
 
 To do this, you will use the **stream** module that is a part of Nginx. Access and open the `nginx.conf` file using nano.
+
 ```
 sudo nano /etc/nginx/nginx.conf
 ```
 
 Now copy the following contents into the root scope, replacing values with your setup.
+
 ```
 stream {
     upstream backend {
@@ -181,7 +190,8 @@ stream {
 
 With all the input values now adapted to your setup, you can save the file and quit nano by using `CTRL + X`, followed by `Y` to confirm and lastly `ENTER`.
 
-To ensure that everything is correct, especially in regards to syntax, you can use `sudo nginx -t` to see if any issues return. If it returns successful, the last step is to restart Nginx to take the new configuration in effect.
+To ensure that everything is correct, especially in regard to syntax, you can use `sudo nginx -t` to see if any issues return. If it returns successful, the last step is to restart Nginx to take the new configuration in effect.
+
 ```
 systemctl reload nginx.service
 ```
@@ -196,7 +206,8 @@ With the proxy now setup, you will have to adjust a value in the `server.cfg` co
 If you have already setup the `set sv_endpoints` parameter by setting up a Connect Proxy, you can skip this.
 :::
 
-Add the following line into the configuration, replacing value with your setup.
+Add the following line into the configuration, replacing the value with your setup.
+
 ```
 # The actual endpoint your server is hosted on, or one or multiple server endpoint proxies
 set sv_endpoints "[your_fivem_serverip]:30120"
@@ -210,8 +221,8 @@ You can verify this by analysing the IP Address of players, which should all be 
 
 With your FiveM reverse proxy now setup, we highly recommend adding an SSL Certificate to your used domains to ensure that the site transmits data securely via HTTPS.
 
-Please check out our [Install Certbot](vserver-linux-certbot.md) guide which covers the entire process of requesting and automatically renewing SSL Certificates for your domain(s).
+Please check out our [Install Certbot](vserver-linux-certbot.md) guide, which covers the entire process of requesting and automatically renewing SSL Certificates for your domain(s).
 
 ## Conclusion
 
-You have successfully setup a reverse proxy for your FiveM server, providing you with various security, reliability and performance improvements.
+Congratulations, you have successfully setup a reverse proxy for your FiveM server, providing you with various security, reliability and performance improvements. For further questions or assistance, please don’t hesitate to contact our support team, which is available daily to assist you! 🙂

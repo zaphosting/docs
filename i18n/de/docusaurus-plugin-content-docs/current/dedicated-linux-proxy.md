@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Ein Reverse-Proxy-Server ist ein Server, der als Vermittler zwischen den Endbenutzern und einem anderen Server fungiert. Websites und Spieleserver sind beliebte Gründe für die Implementierung eines Reverse-Proxys, die jeweils ihre eigenen verschiedenen Vorteile haben, darunter Sicherheit, einfacher Zugriff und Schutz.
 
-In diesem Leitfaden werden wir den Prozess der Einrichtung eines universellen Reverse-Proxys für Websites sowie eines auf Spieleserver zugeschnittenen Reverse-Proxys untersuchen.
+In dieser Anleitung werden wir den Prozess der Einrichtung eines universellen Reverse-Proxys für Websites sowie eines auf Spieleserver zugeschnittenen Reverse-Proxys untersuchen.
 
 <InlineVoucher />
 
@@ -40,7 +40,7 @@ Nachdem du auf deinen VPS zugegriffen hast, verwende den folgenden Befehl, um Ng
 sudo apt install nginx
 ```
 
-Nach der Installation musst du deine Firewall anpassen, um sicherzustellen, dass der Dienst über das Internet zugänglich ist. In diesem Leitfaden verwenden wir die **UFW Firewall**, da Nginx sich selbst als App registriert, wodurch sich die Einstellungen leicht anpassen lassen. Weitere Informationen zur UFW Firewall findest du in unserem Leitfaden [Linux Security Tips] (vserver-linux-security-tips.md).
+Nach der Installation musst du deine Firewall anpassen, um sicherzustellen, dass der Dienst über das Internet zugänglich ist. In dieser Anleitung verwenden wir die **UFW Firewall**, da Nginx sich selbst als App registriert, wodurch sich die Einstellungen leicht anpassen lassen. Weitere Informationen zur UFW Firewall findest du in unserer Anleitung [Tipps zur Linux-Sicherheit](vserver-linux-security-tips.md).
 
 :::note
 Wenn du andere Firewalls (wie IPTables) verwendest, stelle bitte sicher, dass du Nginx den entsprechenden Firewall-Zugriff gewährst, insbesondere auf Port 80 und 443, wo der Nginx-Dienst ausgeführt wird.
@@ -173,8 +173,9 @@ Nach dem Neustart des Dienstes solltest du versuchen, dich über die Proxy-Domai
 
 Nachdem der von dir gewählte Reverse-Proxy nun eingerichtet ist, empfehlen wir dringend, ein SSL-Zertifikat zu deinen verwendeten Domains hinzuzufügen, um sicherzustellen, dass die Website Daten sicher über HTTPS überträgt.
 
-Bitte lies dir unsere Anleitung [Install Certbot](dedicated-linux-certbot.md) durch, die den gesamten Prozess der Beantragung und automatischen Verlängerung von SSL-Zertifikaten für deine Domain(s) abdeckt.
+Bitte lies dir unsere Anleitung [Certbot installieren](dedicated-linux-certbot.md) durch, die den gesamten Prozess der Beantragung und automatischen Verlängerung von SSL-Zertifikaten für deine Domain(s) abdeckt.
 
 ## Abschluss
 
-Du hast erfolgreich einen Reverse-Proxy für eine Website oder deinen Spieleserver (oder beides :) eingerichtet, der dir verschiedene Verbesserungen in Bezug auf Sicherheit, Zuverlässigkeit und Leistung bietet.
+Glückwunsch, du hast erfolgreich einen Reverse-Proxy für eine Website oder deinen Spieleserver (oder beides :) eingerichtet, der dir verschiedene Verbesserungen in Bezug auf Sicherheit, Zuverlässigkeit und Leistung bietet. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+
