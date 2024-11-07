@@ -38,7 +38,7 @@ Im Feld **values** wird der Spieler eingetragen, der Admin werden soll. Bei mehr
 
 Diese findest du, indem du zunächst einmal dein Steam Profil aufrufst und dort dann an einer beliebigen Stelle Rechtsklick drückst. Dort kann dann die Steam URL des Profils kopiert werden.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/MJYAL6NfwDEeStf/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/Fk9jDfeqsWS5kNE/preview)
 
 
 

@@ -37,7 +37,7 @@ The player who is supposed to become admin is specified in the field **values**.
 
 You can find it by accessing your Steam profile and then right-clicking anywhere on the profile. There you can copy the Steam URL of your profile..
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SrqRcSL3XtX2TkA/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/YQoe4tpFzbRTAqd/preview)
 
 
 
