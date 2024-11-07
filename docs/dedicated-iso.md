@@ -7,19 +7,23 @@ services:
   - dedicated
 ---
 
+
+
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
-:::info
-Mounting your own ISO File is at your own risk.
+## Introduction
+Are you looking to mount an ISO? Perhaps one of ours or would you prefer your own? That's no problem. We provide a large selection of ISO files and also offer further options. 
+
+:::danger Selection and use of ISO files
+When using your own ISO (OS), which we do not actively offer, we cannot guarantee functionality in the event of any possible issues. 
 :::
 
 <InlineVoucher />
 
-## Which options are there?
-There are two ways to mount your own iso file. It's always necessary to restart the server, to load the file.
-There are in general no restrictions on mounting a file, it's important that the ISO file is bootable.
+## Available mounting options
+There are two ways to mount your own iso file. It's always necessary to restart the server, to load the file. There are in general no restrictions on mounting a file, it's important that the ISO file is bootable.
 
-### Mounting through the iLO
+## Mounting through iLO
 Open your iLO Management Interface and open "Virtual" Media
 ![](https://screensaver01.zap-hosting.com/index.php/s/myWMSi3GgyLBHXR/preview)
 
@@ -29,7 +33,7 @@ Open your iLO Management Interface and open "Virtual" Media
 
 Your ISO File will now be loaded.
 
-### Mounting through a remote console
+## Mounting through remote console
 
 **HTML5 Console**
 You can easily mount the file itself, in the remote console:
@@ -43,7 +47,6 @@ The difference between "Scripted media URL" and "Local .iso File" is that you ca
 
 When you chose your ISO File, it's required to reboot the server.
 
-***
 
 **Java Console**
 As on the HTML5 console, the ISO File is also directly mounted in the application itself.
@@ -54,3 +57,7 @@ As on the HTML5 console, the ISO File is also directly mounted in the applicatio
 The difference between "Image File CD/DVD-ROM" and "URL CD/DVD-ROM" is that you can mount an ISO File which is uploaded to a server/webspace or directly choose with "Image File CD/DVD-ROM" a file from your computer, without uploading it somewhere.
 
 After you have injected your desired ISO File, a server reboot is required.
+
+
+## Conclusion
+Congratulations, you have successfully selected and mounted your ISO file. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
