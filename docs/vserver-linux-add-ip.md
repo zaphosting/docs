@@ -1,30 +1,32 @@
 ---
 id: vserver-linux-add-ip
-title: "VPS: Add IPv4 address to server"
+title: "VPS: Configurate IP address(es)"
 description: Information on how to add an IPv4 address to your VPS from ZAP-Hosting - ZAP-Hosting.com documentation
-sidebar_label: Add IPv4 Address
+sidebar_label: Configure IP address(es)
 services:
   - vserver
 ---
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 import InlineVoucher from '@site/src/components/InlineVoucher';
+
+## Introduction
+
+Are you looking to configure your network configuration and specify IP addresses?
 
 <InlineVoucher />
 
-## Add Additional IPv4 address(es)
 
-If this has not already been entered automatically, it can be entered manually in the network config.
 
-### Step 1
-The network config is opened with an editor, eg with "nano".
-```
-sudo nano /etc/network/interfaces
-```
-:::info
-Attention: The config must be edited with root rights.
-:::
+## Configuring IP address
 
-There is already an entry in the config that could look like this:
+This section describes how to define and determine the main IP address.
+
+<Tabs>
+  <TabItem value="debian" label="Debian" default>
+
+The network configuration in Debian takes place via the network interfaces. Execute the `sudo nano /etc/network/interfaces` command to open the network configuration. By default, the content of the network configuration should look like this: 
 
 ```
 auto lo
@@ -32,59 +34,83 @@ iface lo inet loopback
 
 allow-hotplug eth0
 iface eth0 inet static
-        address 123.123.123.100
+        address XXX.XXX.XXX.XXX
         netmask 255.255.255.0
-        gateway 123.123.123.1
-```
-There the interface "eth0" is specified as well as the IPv4, its netmask and gateway.
-
-### Step 2
-
-In order to add a further IPv4, another interface must be entered, eg "eth1". The additional IPv4 is e.g. 124.124.124.55. The network mask is 255.255.255.0 because it is a class C network. The gateway is always the IPv4 address with a 1 at the end.
-
->⚠️ Important: It must be the additional IPv4 that is displayed in the web interface under IP addresses.
-
-
-The additional interface then looks like this: 
-
-```
-allow-hotplug eth1
-iface eth1 inet static
-        address 124.124.124.55
-        netmask 255.255.255.0
-        gateway 124.124.124.1
+        gateway XXX.XXX.XXX.1
 ```
 
-Together with the "eth0" interface, the config now looks like this:
+If this is not yet available, the content must look as shown. Replace the IP address placeholder (XXX.XXX.XXX.XXX) with your own server IP address, displayed in the server administration in the dashboard. Use `255.255.255.0` (class C network) as subnet and make sure that the last octet only contains the 1 for the gateway. 
 
-```
-auto lo
-iface lo inet loopback
+Save the changes by pressing CTRL+X and confirm the changes with the Enter key. The network module must now be restarted so that the new IPv4 address becomes active, this is done with the following command:
 
-allow-hotplug eth0
-iface eth0 inet static
-        address 123.123.123.100
-        netmask 255.255.255.0
-        gateway 123.123.123.1
-        
-allow-hotplug eth1
-iface eth1 inet static
-        address 124.124.124.55
-        netmask 255.255.255.0
-        gateway 124.124.124.1
-```
-The confing must then be saved, with "nano" eg with **CTRL+X, y then Enter**
-
-### Step 3
-
-The network module must now be restarted so that the new IPv4 address becomes active, this is done with the following command:
 ```
 sudo service networking restart
 ```
-As soon as this is completed, the server can be reached via both IPv4 addresses. This can be checked, for example, with a ping check via Windows CMD or Linux Terminal, depending on your own computer operating system:
-```
-ping TheNewIP
-```
-The same steps have to be done with even more additional IPv4 addresses, the interface then always increases by a number e.g. "eth2", "eht3" etc.
 
-✅ The additional IPv4 address has now been successfully set up.
+
+
+  </TabItem>
+  <TabItem value="ubuntu" label="Ubuntu">
+
+```
+[Match]
+Name = eth0
+
+[Network]
+Description = Interface eth0 autoconfigured by PVE
+Address = 185.223.31.234/24
+Gateway = 185.223.31.1
+DHCP = no
+IPv6AcceptRA = false
+```
+
+ </TabItem>
+</Tabs>
+
+## Configuring additional IP addresses
+<Tabs>
+  <TabItem value="debian" label="Debian" default>
+
+```
+allow-hotplug eth0:1
+iface eth0 inet static
+        address XXX.XXX.XXX.XXX
+        netmask 255.255.255.0
+        gateway XXX.XXX.XXX.1
+```
+
+  </TabItem>
+  <TabItem value="ubuntu" label="Ubuntu">
+
+   Placeholder
+
+</TabItem>
+</Tabs>
+
+## Testing the configuration
+To check the correctness and functionality of a configured IP address, a ping test can be carried out. You can do this for example on your own computer by opening the command prompt (cmd.exe) and executing the following command: 
+
+```
+ping <your_server_ip>
+```
+
+After executing the command and with the assumption that you have configured the IP address correctly, the result should look like this:
+
+```
+Pinging XXX.XXX.XXX.XX with 32 bytes of data:
+Reply from XXX.XXX.XXX.XX: bytes=32 time=25ms TTL=56
+Reply from XXX.XXX.XXX.XX: bytes=32 time=22ms TTL=56
+Reply from XXX.XXX.XXX.XX: bytes=32 time=22ms TTL=56
+Reply from XXX.XXX.XXX.XX: bytes=32 time=23ms TTL=56
+
+Ping statistics for XXX.XXX.XXX.XX:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 22ms, Maximum = 25ms, Average = 23ms
+```
+
+
+
+## Conclusion
+
+Congratulations, you have successfully configured your network configuration. For further questions or assistance, please don’t hesitate to contact our support team, which is available daily to assist you! 🙂

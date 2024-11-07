@@ -33,3 +33,8 @@ ServerAdmins=XXX-XXX-XXX # 3. Admin Eintrag
 ```
 
 Klicke auf Speichern und Starte den Server daraufhin neu. Die Adminberechtigungen sind nun erfolgreich gesetzt. Sobald du über Adminrechte verfügst, hast du die Möglichkeit, andere Spieler im Spiel durch Chat-Befehle entweder zu Admins zu ernennen oder deren Adminstatus zu entziehen. Diese Funktionen stehen dir zur Verfügung, solange dein Server aktiv ist. Weitere Informationen zu den Befehlen findest du in der offiziellen [GitHub Wik](https://github.com/Alderon-Games/pot-community-servers/wiki/Admin-Chat-Commands#admin-tools)i.
+
+
+## Abschluss
+
+Glückwunsch, du hast erfolgreich die Administratorberechtigungen konfiguriert. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂

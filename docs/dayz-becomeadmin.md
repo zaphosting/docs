@@ -57,3 +57,8 @@ Below you will find a list of a few available commands that you can use with you
 | #debug (command) (param)                    | There are a few available commands:JIPQueueuserQueuecheckFiletotalSentuserSentuserInfo You can disable each command by adding the parameter off after each command. e.g. #totalSent off. The output differs between these commands. Some will output to the log file, others to screen, etc.  Please notice that you will need some debugger capable of catching OutputDebugString running on the client machine. |
 | #debug (command)                            | Admin log out.                                               |
 | #logout                                     | There are two available commands:console - Sends what is in the server console to the sender.von - Outputs in logFile defined in server.cfg, e.g. logfile could be named “server_console.log” You will see a confirmation of these commands in the chat channels. |
+
+
+## Conclusion
+
+Congratulations, you have successfully configured the administrator permissions. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂

@@ -211,3 +211,11 @@ Enter the IP address of your server, which you see in your zap dashboard and use
 :::tip
 If you have any further questions or problems, our support is happy to assist you!
 :::
+
+
+
+
+
+## Conclusion
+
+Congratulations, you have successfully installed the Debian operating system on your dedicated server. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂

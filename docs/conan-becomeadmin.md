@@ -57,3 +57,8 @@ Afterwards you can execute all server commands as admin. In the following you wi
 | SetServerSetting serverSetting[FString] Value[FString] | Allows you to change the server settings from ServerSettings.ini during the game |
 
 More admin commands related to the game can be found on [Gamepedia](https://conanexiles.gamepedia.com/Admin_Panel) of Conan Exiles. 
+
+
+## Conclusion
+
+Congratulations, you have successfully configured the administrator permissions. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂

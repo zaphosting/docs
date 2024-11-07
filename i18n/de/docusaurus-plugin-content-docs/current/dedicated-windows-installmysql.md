@@ -45,5 +45,10 @@ Dein Datenbankserver ist jetzt online und einsatzbereit!
 Wenn du während der Installation den Zugriff von Außen (Enable access from remote machins for root user" aktiviert hast, musst du zusätzlich noch den MySQL Port **3306** in der Windows-Firewall freigeben, dazu öffnest du diese und legst dort eine neue Regel an.
 Dafür findest du eine seperate Anleitung: [Portweiterleitung (Firewall)](vserver-windows-port.md)
 
-
 Damit ist dein MySQL Server nun auch von außen erreichbar. 
+
+
+
+## Abschluss
+
+Glückwunsch, du hast den MySQL Server erfolgreich installiert. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂

@@ -138,3 +138,11 @@ Verlasse den Editor ebenfalls mit `STRG+C` und der Eingabe von "exit" und führe
 :::info
 Dein Server sollte nun eine Netzwerkverbindung haben
 :::
+
+
+
+
+
+## Abschluss
+
+Glückwunsch, du hast das FreeBSD Betriebssystem erfolgreich installiert. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂

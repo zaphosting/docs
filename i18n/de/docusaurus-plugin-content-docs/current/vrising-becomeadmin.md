@@ -51,3 +51,7 @@ Hier findest du eine kurze Übersicht über die gängigsten Admin-Befehle, welch
 | giveset                  | Ermöglicht die Erkundung verschiedener Rüstungs- und Waffensets |
 | kick [name/IP/userID]    | Einen bestimmten Spieler anhand des Namens, der IP oder der Benutzer-ID kicken |
 | unban [name/IP/userID]   | Einen bestimmten Spieler anhand des Namens, der IP oder der Benutzer-ID entsperren |
+
+## Abschluss
+
+Glückwunsch, du hast erfolgreich die Administratorberechtigungen konfiguriert. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂

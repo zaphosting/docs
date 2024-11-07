@@ -1,61 +1,67 @@
 ---
 id: fivem-useprofiler
-title: "FiveM: Profiler benutzen und Serverprobleme identifizieren"
+title: "FiveM: Verwendung des Profilers zur Ermittlung von Serverproblemen"
 description: Informationen, wie du den Profiler für deinen FiveM Server on ZAP-Hosting zur Problemidentifizierung benutzt und interpretierst - ZAP-Hosting.com Dokumentation
 sidebar_label: Profiler Benutzen
 services:
   - gameserver
 ---
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
-## Was ist der Profiler Eigentlich?
 
-Der Profiler ist dafür da, die Performance des Servers zu messen, damit können schlechte und langsame Ressourcen identifiziert und entfernt werden. Dieser Profiler ist in FiveM integriert und kann bei jedem Server benutzt werden.
+## Einführung
+
+Der Profiler ist ein recht nützliches und einfach zu bedienendes Spieltool, um die Leistung des Servers zu messen. Damit lassen sich Codes und Threads überprüfen, die zu möglichen Leistungsproblemen führen. Dies kann zum Beispiel durch schlecht entwickelte Ressourcen oder ähnliches verursacht werden. Der Profiler ist direkt in die Serversoftware integriert und kann somit auch für jede FiveM Servervariante verwendet werden. 
 
 <InlineVoucher />
 
-## Nutzung
+## Verwendung des Profilers
+Die Vorgehensweise zur Nutzung des Profilers kann je nach gewählter FiveM Server Variante (Windows/Linux/TxAdmin) leicht abweichen. Das Vorgehen wird in den folgenden Abschnitten näher erläutert. 
 
-### RCon
+<Tabs>
+  <TabItem value="fivem_txadmin" label="FiveM (txAdmin) server" default>
 
-Zuerst sollte man sich über [Icecon](https://github.com/icedream/icecon/releases) an den Server anmelden, das Passwort dazu kann in den Einstellungen des Servers gefunden werden:
+Die FiveM (txAdmin) Servervariante ermöglicht dir, ein Profil direkt über die Live-Konsole zu erstellen. Führe dazu die Befehle `profiler record 100` und `profiler view` in der Konsole aus. Es wird ein Profil mit 100 Frames erstellt, welches dann über den bereitgestellten Link in der Konsole aufgerufen werden kann. ![img](https://screensaver01.zap-hosting.com/index.php/s/ZGFEaFFmgyKn8PK/preview)
 
+  </TabItem>
 
-Nachdem wir angemeldet sind, können wir nun den Profiler mit folgendem Befehl starten:
+ <TabItem value="fivem_linux" label="FiveM (Linux) server">
 
-```
-profiler record 25
-```
+Die FiveM (Linux) Servervariante ermöglicht dir, ein Profil direkt über die Live-Konsole zu erstellen. Führe dazu die Befehle `profiler record 100` und `profiler view` in der Konsole aus. Es wird ein Profil mit 100 Frames erstellt, welches dann über den bereitgestellten Link in der Konsole aufgerufen werden kann. 
+![img](https://screensaver01.zap-hosting.com/index.php/s/mK8HPBZESz4LKfN/download)
 
-Danach sollten wir für ca. 10 Sekunden warten, und überprüfen, ob der Profiler noch läuft:
+  </TabItem>
 
-```
-profiler status
-```
+<TabItem value="fivem_windows" label="FiveM (Windows) server">
 
+Die FiveM (Windows) Servervariante unterstützt die Live-Konsole nicht, das heißt, von dort können keine Befehle ausgeführt werden. Als Alternative kann daher das RCON-Tool [Icecon](https://github.com/icedream/icecon/releases/tag/v1.0.0) verwendet werden. 
 
-Wenn dort "Recording: No" steht, dann ist die Aufnahme fertig und wir können uns nun die aufgenommenen Daten anschauen, über dem Befehl:
-
-```
-profiler view
-```
-
-Diese URL können wir nun in Chrome oder Firefox öffnen.
+Um eine Verbindung aufzubauen, benötigst du die IP-Adresse, den Port und das definierte RCON-Passwort deines Servers, die du in den entsprechenden Feldern angeben musst. 
 
 
-### Probleme Identifizieren
 
-Jetzt sind wir im Profiler und können die Performanceinfos sehen, das sieht am Anfang komplizierter aus, als es ist.
+![img](https://screensaver01.zap-hosting.com/index.php/s/kogH6z4XeGGwMCf/download)
 
-Wir wählen nun einen "Tick" aus, welcher viel Performance verbraucht:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/mJQAtcdQoWe7qZT/preview)
-
-Nun können wir sehen, welche Ressourcen sehr viel Zeit verbrauchen.
+Sobald die Verbindung über RCON hergestellt ist, kannst du ein Profil erstellen. Führe dazu die Befehle `profiler record 25` und `profiler view` aus. Es wird ein Profil mit 100 Einzelbildern erstellt, das dann über den in der Konsole angegebenen Link aufgerufen werden kann.
 
 
-:::info
-Ressourcen welche insgesamt über 6 ms verbrauchen können Probleme verursachen
-:::
 
+  </TabItem>
+</Tabs>
+
+
+## Probleme erkennen
+Der Profiler enthält Informationen zu den einzelnen Aktivitäten (Ticks), die genauer überprüft werden müssen. Wähle einen Tick-Bereich aus und zoomen ihn heran. Anhand des Ticks kann man nun sehen, welche Prozesse ausgeführt wurden und wie lange sie gedauert haben. 
+
+![](https://screensaver01.zap-hosting.com/index.php/s/6BJozz7abRSHSj5/preview)
+
+So kannst du zum Beispiel auch erkennen, welche Ressourcen viel Zeit in Anspruch nehmen. Ressourcen, die insgesamt mehr als 6 ms verbrauchen, können mögliche Probleme verursachen.
+
+
+
+## Abschluss
+
+Glückwunsch, du hast erfolgreich ein FiveM-Profil erstellt, mit dem du potenzielle Probleme erkennen kannst. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂

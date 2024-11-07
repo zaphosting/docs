@@ -114,3 +114,8 @@ In this example the admin has been given access to the server logs, console, hea
 | KarmaImmunity     | Is made immune to the karma system's negative effects, doesn't lose karma. |
 | All               | Grants all permissions.                                      |
 
+
+
+## Conclusion
+
+Congratulations, you have successfully configured the administrator permissions. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂

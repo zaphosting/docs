@@ -58,3 +58,7 @@ Das ganze sollte danach dann so aussehen:
 ![](https://screensaver01.zap-hosting.com/index.php/s/FqDX9KXdcGkaRqi/preview)
 
 Jetzt nur noch die Config Datei **Speichern** und fertig.
+
+## Abschluss
+
+Glückwunsch, du hast erfolgreich die Administratorberechtigungen konfiguriert. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂

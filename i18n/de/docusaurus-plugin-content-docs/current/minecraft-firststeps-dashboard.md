@@ -7,6 +7,7 @@ services:
   - gameserver
 ---
 
+import YouTube from '@site/src/components/YouTube/YouTube';
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
@@ -14,6 +15,8 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 Du bist an einem **Minecraft Server** interessiert oder besitzt bereits einen, doch dir fehlt noch ein umfassender Überblick über die Verwaltung und die Auffindbarkeit aller notwendigen Optionen? Gerade zu Beginn kann dies eine Herausforderung darstellen. Aber keine Sorge, im Folgenden bieten wir dir eine ausführliche Einführung zur Verwaltung deines Dienstes, damit du den optimalen Durchblick hast.
 
 Nachdem du diese Anleitung durchgegangen bist, wirst du problemlos in der Lage sein, deinen Server effizient zu verwalten und alle erforderlichen Optionen sowie Features zügig und unkompliziert zu finden. Hier erhältst du einen strukturierten Überblick, der dir Schritt für Schritt hilft, dich mit der Serververwaltung vertraut zu machen und dein Wissen gezielt zu erweitern. So kannst du sicherstellen, dass dein **Minecraft Server** optimal auf deine Bedürfnisse abgestimmt ist und du das Beste aus den vorhandenen Möglichkeiten herausholst.
+
+<YouTube videoId="ZL76g5gsUoc" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/nnRLPMYJZdgA24W/preview" title="Setup MINECRAFT server in just a MINUTE!" description="Hast du das Gefühl, dass du etwas besser verstehst, wenn du es in Aktion siehst? Wir haben etwas für dich! Tauche ab in unser Video, welches alles für dich zusammenfasst. Egal, ob du es eilig hast oder einfach nur Informationen auf möglichst verständliche Art und Weise aufnehmen möchtest!"/>
 
 <InlineVoucher />
 
@@ -140,7 +143,7 @@ Wir bieten eine umfangreiche Dokumentation zu unseren Produkten an, die als Wiss
 
 ## Einstellungen
 
-Im Abschnitt **Einstellungen** deines Navigationspanels findest du eine Reihe von Unterpunkten, die dir bei der Verwaltung deines Servers helfen. Dazu zählen die **Einstellungen**, **Configs**, **Spiele**, **Versionen** und der **Restart Planer**. Im Folgenden erhältst du eine detaillierte Einführung zu diesen verschiedenen Bereichen.
+Im Abschnitt **Einstellungen** deines Navigationspanels findest du eine Reihe von Unterpunkten, die dir bei der Verwaltung deines Servers helfen. Dazu zählen die **Einstellungen**, **Configs**, **Spiele**, **Versionen**, **Restart Planer**, **DNS Einstellungen** und die **Spielerverwaltung**. Im Folgenden erhältst du eine detaillierte Einführung zu diesen verschiedenen Bereichen.
 
 
 
@@ -191,6 +194,16 @@ Du möchtest deinen Server zu bestimmten Uhrzeiten neu starten? Der Restart-Plan
 
 Mit den ZAP-Hosting DNS Einstellungen kannst du leicht zu merkende Adressen für deinen Service erstellen. Du kannst hier entweder eine Subdomain von einer unserer Domains nutze oder du erstellst einen DNS Eintrag auf deinen eigenen Domains und hast damit eine Adresse, die man noch besser mit dir als Person verbinden kann.
 ![](https://screensaver01.zap-hosting.com/index.php/s/XAoNQEnSW6xwKXD/preview)
+
+
+
+### Spielerverwaltung
+
+Die Spielerverwaltung ermöglicht es dir, schnell und einfach deine Spieler zu verwalten. Füge mit wenigen Klicks Spieler als Operator hinzu oder verbanne Spieler, die nicht willkommen sind. 
+
+![img](https://screensaver01.zap-hosting.com/index.php/s/sfPXqktDCB9rqR3/preview)
+
+
 
 ## Werkzeuge
 

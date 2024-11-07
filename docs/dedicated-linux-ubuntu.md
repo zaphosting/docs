@@ -106,6 +106,15 @@ You can easily change the password of the root user:
 
 Write `sudo su`, and enter your password; then write `sudo passwd` to change the password. Now enter the new desired password for the root user. That's it - You can now login with your user account `root`
 
-:::tip
-If you have any further questions or problems, our support is happy to assist you!
-:::
+
+
+
+
+## Conclusion
+
+Congratulations, you have successfully installed the Ubuntu operating system on your dedicated server. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
+
+
+
+
+

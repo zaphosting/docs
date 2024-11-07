@@ -44,3 +44,11 @@ Dort kannst du nun erkennen, wie der Server automatisch den Prozess durchführt 
 :::danger 
 Wichtig: Dieser Vorgang kann nicht rückgängig gemacht werden und ist dementsprechend endgültig. Es bestehen keine zusätzlichen Backups, welche zur Not eingespielt werden können. Solltest du dir daher nicht zwingend sicher sein, ob du deine Daten löschen möchtest, dann raten wir dir von diesem Prozess ab. 
 :::
+
+
+
+
+
+## Abschluss
+
+Glückwunsch, du hast die Daten deines Dedicated Server erfolgreich zurückgesetzt. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂

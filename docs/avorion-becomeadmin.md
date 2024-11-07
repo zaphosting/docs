@@ -106,3 +106,8 @@ Here you will find an overview of common commands that you can execute as admin.
 | /galaxy-name [value]          | galaxy name, appended to datapath, final path will be [datapath]/[galaxyname] |
 | /datapath [value]             | folder the galaxies will be stored in, will be prepended to galaxy name |
 | /admin [value]                | steam id(s) of the administrator(s) of the server            |
+
+
+## Conclusion
+
+Congratulations, you have successfully configured the administrator permissions. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂

@@ -62,3 +62,7 @@ Unter ``permissions`` können für alle Administrator-Befehle die Berechtigungen
 ```
 
 Eine Berechtigungsstufe besteht aus einem Wert zwischen 0 und 1000 und legt fest, welche Berechtigungen ein Spieler hat. 1000 ist die niedrigste (keine Berechtigungen) und 0 die höchste (volle Administrator-Berechtigungen). Je nachdem, wie die Zugriffsrechte diesbezüglich sein sollen, muss das dann entsprechend angepasst werden. 
+
+## Abschluss
+
+Glückwunsch, du hast erfolgreich die Administratorberechtigungen konfiguriert. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂

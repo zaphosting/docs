@@ -9,30 +9,42 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
-:::info
-Damit dein Server in der öffentlichen Serverliste angezeigt wird, ist es notwendig einen sogenannten Pastebin Eintrag zu erstellen.
-:::
+## Einführung
+
+Eine Serverbeschreibung ist für die Funktionalität eines SCP-Servers erforderlich. Die Implementierung der Beschreibung vom Spiel basiert auf der Verwendung von Pastebin. [Pastebin](https://pastebin.com/) ist eine Website, auf der du Texte online speichern kannst.
 
 <InlineVoucher />
 
-Als Erstes öffne Pastebin.com in einem Webbrowser deiner Wahl.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/YR7WHx7x4qmJ3NQ/preview)
 
-Schreibe nun die gewünschte Beschreibung deines Servers in das Textfeld und klicke auf 'Create New Paste'
+## Pastebin erstellen
 
-![](https://screensaver01.zap-hosting.com/index.php/s/FeDXeMFZg5SYDXq/preview)
+Füge die Beschreibung deines Servers auf der Pastebin-Seite in das Feld unter **New Paste** ein und klicke anschließend unten auf **Create New Paste**. 
 
-Dein Pastebin-Eintrag wurde erfolgreich erstellt. Kopiere nun die ID von der Adresszeile deines Browsers.
-
-Die kopierte ID muss jetzt in den Einstellungen deines SCP Servers in deinem Server Dashboard eingetragen werden.
-
-![](https://screensaver01.zap-hosting.com/index.php/s/kT5wsgeC2fE434d/preview)
-
-Als Nächstes noch die Änderungen speichern.
-
-:::info
-Damit Änderungen wirksam werden, muss der Server neu gestartet werden.
+:::warning
+Bitte stelle sicher, dass du das Pastebin nicht auf privat oder ein Verfallsdatum setzt, um mögliche Probleme zu vermeiden.
 :::
 
-Im Informationsfenster deines Servers wird nun die von dir gewählte Beschreibung angezeigt und der Server wird in der öffentlichen Serverliste angezeigt.
+![img](https://screensaver01.zap-hosting.com/index.php/s/5jJkBgkNzQT9fym/download)
+
+
+
+Wenn du diese Schritte befolgt und das Pastebin erstellt hast, solltest du zu dem Pastebin weitergeleitet werden, das du erstellt hast. Das sieht dann wie folgt aus:
+
+![img](https://screensaver01.zap-hosting.com/index.php/s/RtFrbdGBbowj9Pr/preview)
+
+
+
+
+
+## Serverbeschreibung hinzufügen
+
+Nachdem das Pastebin erstellt wurde, muss nun die Pastebin-ID in die Serverkonfiguration eingetragen werden. Kopiere dazu die ID aus der Pastebin-URL und füge diese dann in das Textfeld „Serverinfo Pastebin-Info“ in der **Gameserver Verwaltung** unter **Einstellungen** ein. 
+
+![img](https://screensaver01.zap-hosting.com/index.php/s/KtLokKtsz9mR6D3/download)
+
+
+
+## Abschluss
+
+Glückwunsch, wenn du das Pastebin erfolgreich erstellt und in den Servereinstellungen gespeichert hast, sollte die Serverbeschreibung beim nächsten Neustart angezeigt werden. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂

@@ -142,3 +142,11 @@ We also recommend leaving the Network settings section default as it should be c
 ![](https://github.com/zaphosting/docs/assets/42719082/d14a8b3d-e9bb-4feb-8049-428e84c1e917)
 
 And just like that you have created your first VM on your Proxmox panel! You should be able to view it in the server view section on the left side of the panel.
+
+
+
+
+
+## Conclusion
+
+Congratulations, you have successfully installed Proxmox on your dedicated server. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂

@@ -7,11 +7,16 @@ services:
   - vserver
 ---
 
+import YouTube from '@site/src/components/YouTube/YouTube';
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
 An interrupted or faulty internet connection can be caused by various reasons, such as incorrect IP address, subnet mask, gateway, DNS server or firewall settings. In this guide, we will explain how you can troubleshoot and resolve potential network issues.
+
+<YouTube videoId="VfZyNge5ikA" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/GLDdSYoaE6jeW9K/preview" title="How to Fix Internet Connection Issues on Windows VPS" description="Feel like you understand better when you see things in action? We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
+
+
 
 <InlineVoucher />
 
@@ -83,6 +88,13 @@ We recommend using either Google's or Cloudflare's DNS servers as they are widel
 ![](https://screensaver01.zap-hosting.com/index.php/s/oqcR5BHBKLa3ink/preview)
 
 Once ready, press **Ok** again to apply the changes. Here we also recommend restarting the server in order to complete the troubleshooting process.
+
+:::tip
+You can open the command prompt (cmd.exe) on your server and execute the following command to set the DNS servers fast and simple: 
+```
+powershell “Get-NetAdapter | Get-NetIPAddress | ForEach-Object { netsh interface ip set dns name=”$($_.InterfaceAlias)“ static 8.8.8.8; netsh interface ip add dns name=”$($_.InterfaceAlias)“ 1.1.1.1 index=2 }”
+```
+:::
 
 ### Firewall Settings
 

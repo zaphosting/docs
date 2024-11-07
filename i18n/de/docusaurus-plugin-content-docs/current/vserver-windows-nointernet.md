@@ -7,14 +7,17 @@ services:
   - vserver
 ---
 
+import YouTube from '@site/src/components/YouTube/YouTube';
 import InlineVoucher from '@site/src/components/InlineVoucher';
- 
+
 ## Einführung
 
 Eine unterbrochene oder fehlerhafte Internetverbindung kann verschiedene Ursachen haben, z. B. eine falsche IP-Adresse, Subnetzmaske, Gateway, DNS-Server oder Firewall-Einstellungen. In diesem Anleitung erklären wir dir, wie du mögliche Netzwerkprobleme beheben kannst.
 
+<YouTube videoId="VfZyNge5ikA" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/GLDdSYoaE6jeW9K/preview" title="How to Fix Internet Connection Issues on Windows VPS" description="Hast du das Gefühl, dass du etwas besser verstehst, wenn du es in Aktion siehst? Wir haben etwas für dich! Tauche ab in unser Video, welches alles für dich zusammenfasst. Egal, ob du es eilig hast oder einfach nur Informationen auf möglichst verständliche Art und Weise aufnehmen möchtest!"/>
+
 <InlineVoucher />
- 
+
 ## VNC-Zugang ohne Internet
 
 Falls du dich aufgrund einer nicht funktionierenden Internetverbindung nicht über RDP (Remote Desktop) mit deinem Server verbinden kannst, gibt es eine Alternative: die VNC-Konsole (Virtual Network Computing), die auf unserer Website zur Verfügung steht.
@@ -83,6 +86,13 @@ Wir empfehlen, entweder die DNS-Server von Google oder Cloudflare zu verwenden, 
 ![](https://screensaver01.zap-hosting.com/index.php/s/frYTimNEFzBjANy/preview)
 
 Wenn du fertig bist, drücke erneut **Ok**, um die Änderungen zu übernehmen. Auch hier empfehlen wir einen Neustart des Servers, um die Fehlersuche abzuschließen.
+
+:::tip
+Du kannst die Eingabeaufforderung (cmd.exe) auf deinem Server öffnen und folgenden Befehl ausführen, um die DNS-Server schnell und einfach zu setzen: 
+```
+powershell “Get-NetAdapter | Get-NetIPAddress | ForEach-Object { netsh interface ip set dns name=”$($_.InterfaceAlias)“ static 8.8.8.8; netsh interface ip add dns name=”$($_.InterfaceAlias)“ 1.1.1.1 index=2 }”
+```
+:::
 
 ### Firewall-Einstellungen
 

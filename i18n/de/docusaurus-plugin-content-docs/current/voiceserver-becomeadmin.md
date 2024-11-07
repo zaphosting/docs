@@ -41,3 +41,8 @@ Nach dem **OK** drücken werden deinem Benutzeraccount dann die Administrator-Be
 ## Weitere Administratoren hinzufügen
 
 Wenn du weiteren Benutzer Administrator-Berechtigungen zuweisen möchtest, dann kannst du für die entsprechenden Benutzer entweder weitere Berechtigungsschlüssel anlegen oder im Teamspeak Client selbst bei dem jeweiligen Benutzer die entsprechende Server-Gruppe zuweisen. Mache dafür einen Rechtsklick bei dem Benutzer, klicke auf Server Gruppen und dann wählst du die Server Gruppe aus. 
+
+
+## Abschluss
+
+Glückwunsch, du hast erfolgreich die Administratorberechtigungen konfiguriert. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂

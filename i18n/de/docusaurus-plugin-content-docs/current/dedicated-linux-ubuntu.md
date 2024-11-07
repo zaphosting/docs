@@ -116,6 +116,8 @@ Das Passwort des Root-Nutzers kann einfach geändert werden. Trage in der Consol
 
 Fertig! Du kannst dich jetzt mit dem gesetzten Passwort als `root` anmelden.
 
-:::info
-Bei weiteren Fragen und Problemen steht dir unser Support jederzeit gerne zur Verfügung
-:::
+
+
+## Abschluss
+
+Glückwunsch, du hast das Ubuntu Betriebssystem erfolgreich installiert. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂

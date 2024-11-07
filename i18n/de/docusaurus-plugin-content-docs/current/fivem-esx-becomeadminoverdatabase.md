@@ -43,4 +43,6 @@ Falls nötig, mit unseren Daten anmelden, welche wir hier finden:
 Nun suchen wir unseren Charakter und machen einen Doppelklick auf die "group" spalte. Dort muss "admin" eingetragen werden.
 ![](https://screensaver01.zap-hosting.com/index.php/s/n3YxebDWiz2qXfX/preview)
 
-Das war es auch schon. Nun bist du Admin auf deinem Server.
+## Abschluss
+
+Glückwunsch, du hast erfolgreich die Administratorberechtigungen konfiguriert. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂

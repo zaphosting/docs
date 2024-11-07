@@ -36,3 +36,8 @@ Nachdem du die Admins eingetragen hast, kannst du die Config mit dem "Speichern"
 ![](https://screensaver01.zap-hosting.com/index.php/s/5Wjtz9q3D84xbda/preview)
 
 Starte nun deinen Server neu, damit alle eingetragenen Steam64IDs ihre Admin-Berechtigungen erhalten. 
+
+
+## Abschluss
+
+Glückwunsch, du hast erfolgreich die Administratorberechtigungen konfiguriert. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂

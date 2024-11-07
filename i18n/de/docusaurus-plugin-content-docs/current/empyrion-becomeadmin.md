@@ -46,3 +46,7 @@ Permission | Rang
 3 | Gamemaster
 6 | Moderator
 9 | Admin
+
+## Abschluss
+
+Glückwunsch, du hast erfolgreich die Administratorberechtigungen konfiguriert. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂

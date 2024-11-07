@@ -7,6 +7,7 @@ services:
   - gameserver
 ---
 
+import YouTube from '@site/src/components/YouTube/YouTube';
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
@@ -14,6 +15,8 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 You are interested in an **Minecraft server** or already own one, but you still lack a comprehensive overview of the administration and the findability of all necessary options? Especially at the beginning, this can be a challenge. But don't worry, we'll provide you with a detailed introduction to the administration of your service below, so you'll have the best possible overview.
 
 After going through this guide, you will easily be able to manage your server efficiently and find all the necessary options and features quickly and easily. Here, you will get a structured overview that will help you step by step to get familiar with the server administration and expand your knowledge in a targeted manner. This way, you can ensure that your **Minecraft server** is optimally adapted to your needs and that you get the most out of the available options.
+
+<YouTube videoId="ZL76g5gsUoc" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/nnRLPMYJZdgA24W/preview" title="Setup MINECRAFT server in just a MINUTE!" description="Feel like you understand better when you see things in action? We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
 
 <InlineVoucher />
 
@@ -143,7 +146,7 @@ We offer extensive documentation for our products, which serves as a knowledge b
 
 ## Settings
 
-In the **Settings** section of your navigation panel, you will find a number of sub-items that will help you manage your server. These include the **Settings**, **Configs**, **Games**, **Versions** and the **Restart planner**. In the following you will get a detailed introduction to these different areas.
+In the **Settings** section of your navigation panel, you will find a number of sub-items that will help you manage your server. These include the **Settings**, **Configs**, **Games**, **Versions**, **Restart planner**, **DNS Settings** and the **Player management**. In the following you will get a detailed introduction to these different areas.
 
 
 
@@ -195,6 +198,16 @@ Do you want to schedule server restarts at specific times? The Restart Planner a
 ### DNS settings
 With the ZAP DNS settings, you can create easy-to-remember addresses for your service. You can either use a subdomain of one of our domains or you can create a DNS entry on your own domains and thus have an address that can be better associated with you as a person.
 ![](https://screensaver01.zap-hosting.com/index.php/s/tM5FGTHRSbZA5rN/preview)
+
+
+
+### Player management
+
+The Player Management allows you to manage your players fast and easily. Add players as operators or ban players who are not welcome with just a few clicks. 
+
+![img](https://screensaver01.zap-hosting.com/index.php/s/ijDqwZdpmkFMGdn/preview)
+
+
 
 ## Tools
 

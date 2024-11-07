@@ -130,12 +130,13 @@ const sidebars = {
       defaultStyle: true,
     },
     "gameserver-introduction",
+    "gameserver-backups",
+    "gameserver-ftpaccess",
+    "gameserver-reset",
     "gameserver-resourcelimit",
     "gameserver-gameswitch",
     "gameserver-upgrade",
-    "gameserver-ftpaccess",
     "gameserver-restartplaner",
-    "gameserver-backups",
     "gameserver-server-down-what-now",
     "gameserver-subdomain",
     "gameserver-tebex",
@@ -251,6 +252,7 @@ const sidebars = {
           items: [
             "minecraft-commands",
             "minecraft-addop",
+            "minecraft-playermanagement",
             "minecraft-default-config",
             "minecraft-server-icon",
             "minecraft-add-own-world",
@@ -259,7 +261,8 @@ const sidebars = {
             "minecraft-rcon",
             "minecraft-whitelist",
             "minecraft-timings-report",
-            "minecraft-server-optimize"
+            "minecraft-server-optimize",
+            "minecraft-faultyworld"
           ]
         },
         {
@@ -1321,7 +1324,8 @@ const sidebars = {
             "minecraft-rcon",
             "minecraft-whitelist",
             "minecraft-timings-report",
-            "minecraft-server-optimize"
+            "minecraft-server-optimize",
+            "minecraft-faultyworld"
           ]
         },
         {
@@ -2180,10 +2184,11 @@ const sidebars = {
       defaultStyle: true,
     },
     'vserver-introduction',
-    'vserver-root-difference',
+    'vserver-reset',
     'vserver-vnc',
+    'vserver-root-difference',
     'vserver-network-analysis-winmtr',
-    'vserver-ssh-default',
+
     {
       type: 'html',
       className: 'sidebar-title',
@@ -2203,6 +2208,7 @@ const sidebars = {
         'vserver-linux-sftp',
         'vserver-linux-sshkey',
         'vserver-linux-ssh2fa',
+        'vserver-ssh-default',
         'vserver-linux-password-change',
         'vserver-linux-gs-interface',
         'vserver-linux-ftp',
@@ -2516,6 +2522,7 @@ const sidebars = {
       defaultStyle: true,
     },
     'webspace-introduction',
+    'webspace-backups',
     'webspace-subdomain',
     'webspace-adddomain',
     'webspace-plesk-ftp',

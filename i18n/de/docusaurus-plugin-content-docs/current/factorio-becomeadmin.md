@@ -57,3 +57,7 @@ Die Spieler mit den Namen **SpielerName1, SpielerName2, SpielerName3** haben nac
 | /whitelist add/remove/get/clear spieler | Fügt einen Spieler zur Whitelist hinzu oder entfernt ihn von der Whitelist |
 
 Noch weitere verfügbare Befehle findest du in der offiziellen [Factorio Wiki](https://wiki.factorio.com/Console).
+
+## Abschluss
+
+Glückwunsch, du hast erfolgreich die Administratorberechtigungen konfiguriert. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂

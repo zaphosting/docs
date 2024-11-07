@@ -37,7 +37,7 @@ The player who is supposed to become admin is specified in the field **values**.
 
 You can find it by accessing your Steam profile and then right-clicking anywhere on the profile. There you can copy the Steam URL of your profile..
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SrqRcSL3XtX2TkA/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/YQoe4tpFzbRTAqd/preview)
 
 
 
@@ -99,3 +99,6 @@ In the following you will find an overview of common used admin commands that yo
 
 More available commands can be found in the official [ECO Wiki](https://eco.gamepedia.com/Chat_Commands).
 
+## Conclusion
+
+Congratulations, you have successfully configured the administrator permissions. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂

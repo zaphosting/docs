@@ -55,3 +55,7 @@ Danach kannst du sämtliche Server-Befehle als Admin ausführen. Im folgenden fi
 | admincheat saveworld                           | Speichert den aktuellen Stand der Welt                       |
 | admincheat addexperience Menge                 | Fügt dem Spieler Erfahrung hinzu                             |
 | admincheat settimeofday Zeit                   | Ändert die Tageszeit des Gameservers. Beispiel: "admincheat settimeofday 12:00" |
+
+## Abschluss
+
+Glückwunsch, du hast erfolgreich die Administratorberechtigungen konfiguriert. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂

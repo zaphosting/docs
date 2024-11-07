@@ -56,3 +56,9 @@ Befehl: `plesk-installer.exe --select-product-id=panel --select-release-latest -
 :::info
 Der Installationsprozess kann 30 bis 60 Minuten dauern, im Anschluss wäre Plesk installiert und kann genutzt werden.
 :::
+
+
+
+## Abschluss
+
+Glückwunsch, du hast erfolgreich Plesk installiert. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂

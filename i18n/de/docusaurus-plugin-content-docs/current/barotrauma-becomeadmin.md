@@ -112,3 +112,7 @@ In dem Beispiel wurde dem Admin Zugriff auf die Server-Logs, Konsole, Heilen und
 | KarmaImmunity     | Wird gegen die negativen Auswirkungen des Karmasystems immun gemacht und verliert kein Karma. |
 | All               | Erteilt alle Berechtigungen.                                 |
 
+
+## Abschluss
+
+Glückwunsch, du hast erfolgreich die Administratorberechtigungen konfiguriert. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂

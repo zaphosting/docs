@@ -62,3 +62,7 @@ Admins kann ein Immunitätswert zugewiesen werden. Wenn ein Admin oder Spieler m
 :::info
 Die Immunitätsprüfung wird von CounterStrikeSharp nicht automatisch durchgeführt. Es liegt an den einzelnen Plugins, die Immunitätsprüfung zu handhaben/verwalten. 
 :::
+
+## Abschluss
+
+Glückwunsch, du hast erfolgreich die Administratorberechtigungen konfiguriert. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂

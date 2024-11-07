@@ -144,3 +144,11 @@ We also recommend leaving the Network settings section default as it should be c
 ![](https://github.com/zaphosting/docs/assets/42719082/d14a8b3d-e9bb-4feb-8049-428e84c1e917)
 
 Wir empfehlen außerdem, den Abschnitt Netzwerkeinstellungen standardmäßig zu belassen, da er für den Moment angemessen konfiguriert sein sollte. Abschließend kannst du alle Einstellungen überprüfen, die du während der VM-Einrichtung vorgenommen hast. Wir empfehlen, die Option "Nach der Erstellung starten" zu aktivieren, damit deine VM automatisch für dich startet. Wenn du mit allem zufrieden bist, fahre mit der Erstellung der VM fort, indem du auf den Button **Finish** drückst.
+
+
+
+
+
+## Abschluss
+
+Glückwunsch, du hast Proxmox erfolgreich installiert. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂

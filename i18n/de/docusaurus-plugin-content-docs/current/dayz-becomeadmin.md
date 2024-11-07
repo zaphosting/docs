@@ -63,3 +63,8 @@ Im folgenden findest du eine Auflistung von einigen verfügbaren Befehlen, die d
 | #debug (Befehl) (Parameter)                 | Es gibt einige verfügbare Befehle:JIPQueueuserQueuecheckFiletotalSentuserSentuserInfo Du kannst jeden Befehl deaktivieren, indem du den Parameter off nach jedem Befehl hinzufügst. z.B. #totalSent off. Die Ausgabe variiert je nach Befehl. Einige werden in die Logdatei geschrieben, andere auf dem Bildschirm angezeigt, etc. Bitte beachte, dass du einen Debugger benötigst, der in der Lage ist, OutputDebugString auf der Clientmaschine zu erfassen. |
 | #debug (Befehl)                             | Admin-Abmeldung.                                             |
 | #logout                                     | Es gibt zwei verfügbare Befehle:console - Sendet, was in der Serverkonsole ist, an den Absender.von - Ausgabe in der in server.cfg definierten Logdatei, z.B. könnte die Logdatei „server_console.log“ heißen. Du wirst eine Bestätigung dieser Befehle in den Chatkanälen sehen. |
+
+
+## Abschluss
+
+Glückwunsch, du hast erfolgreich die Administratorberechtigungen konfiguriert. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
