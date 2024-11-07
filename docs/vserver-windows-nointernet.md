@@ -89,6 +89,13 @@ We recommend using either Google's or Cloudflare's DNS servers as they are widel
 
 Once ready, press **Ok** again to apply the changes. Here we also recommend restarting the server in order to complete the troubleshooting process.
 
+:::tip
+You can open the command prompt (cmd.exe) on your server and execute the following command to set the DNS servers fast and simple: 
+```
+powershell “Get-NetAdapter | Get-NetIPAddress | ForEach-Object { netsh interface ip set dns name=”$($_.InterfaceAlias)“ static 8.8.8.8; netsh interface ip add dns name=”$($_.InterfaceAlias)“ 1.1.1.1 index=2 }”
+```
+:::
+
 ### Firewall Settings
 
 The final troubleshooting step is to ensure that the Windows Firewall is configured appropriately. 
