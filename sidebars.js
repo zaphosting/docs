@@ -260,7 +260,8 @@ const sidebars = {
             "minecraft-rcon",
             "minecraft-whitelist",
             "minecraft-timings-report",
-            "minecraft-server-optimize"
+            "minecraft-server-optimize",
+            "minecraft-faultyworld"
           ]
         },
         {
@@ -1322,7 +1323,8 @@ const sidebars = {
             "minecraft-rcon",
             "minecraft-whitelist",
             "minecraft-timings-report",
-            "minecraft-server-optimize"
+            "minecraft-server-optimize",
+            "minecraft-faultyworld"
           ]
         },
         {
