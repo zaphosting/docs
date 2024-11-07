@@ -2184,10 +2184,11 @@ const sidebars = {
       defaultStyle: true,
     },
     'vserver-introduction',
-    'vserver-root-difference',
+    'vserver-reset',
     'vserver-vnc',
+    'vserver-root-difference',
     'vserver-network-analysis-winmtr',
-    'vserver-ssh-default',
+
     {
       type: 'html',
       className: 'sidebar-title',
@@ -2207,6 +2208,7 @@ const sidebars = {
         'vserver-linux-sftp',
         'vserver-linux-sshkey',
         'vserver-linux-ssh2fa',
+        'vserver-ssh-default',
         'vserver-linux-password-change',
         'vserver-linux-gs-interface',
         'vserver-linux-ftp',
