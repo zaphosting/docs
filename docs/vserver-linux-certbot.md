@@ -7,6 +7,8 @@ services:
   - vserver
 ---
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
@@ -17,19 +19,11 @@ SSL Certificates are essential parts of the internet, ensuring that data can be 
 
 ## Preparation
 
-You will need to have a Linux VPS prepared, with a web server such as Nginx or Apache installed and setup. In our example, we will be using Nginx as it is a highly performant and popular open-source web server. See our [Linux Proxy](vserver-linux-proxy.md) guide for help setting this up.
+In order to make use of Certbot, you will require a Linux VPS and a **Domain** that you own. You need to have access to the DNS Settings of the Domain and you **must** create an `A` DNS record poitning at the IP Address of your __Linux VPS__ for each root domain or sub domain you plan to use.
 
-In order to make use of Certbot, you will need a **Domain** that you own. For each subdomain that you plan to use, you should create an `A` DNS record (for example `zapdocs.example.com`), pointing it at the IP Address of your __Linux VPS__. This is what users will use to access your website or game server.
+Certbot also had additional plugins which allows you to easily "one-click" setup a certificate for a domain which works with a variety of web servers such as Nginx or Apache. We recommend using Nginx as it is a highly performant and popular open-source web server. See our [Linux Proxy](vserver-linux-proxy.md) guide for help setting this up.
 
 ## Installation
-
-With your Nginx web server and domain ready, you can proceed with installing Certbot to your server.
-
-:::important Disable Permanent DDoS Protection Mode
-Please ensure that the DDoS protection on your VPS is set to **Sentry Mode** via the **DDoS Manager** section on your product's web interface. Do not use Permanent Mode, otherwise you will likely face issues with completing ACME Challenges from Certbot as genuine requests become blocked.
-:::
-
-### Setting up Certbot
 
 Begin by installing the open-source [**Certbot**](https://certbot.eff.org/) package, which you will be using to request free SSL certificates from **Let's Encrypt**.
 
@@ -37,17 +31,84 @@ Begin by installing the open-source [**Certbot**](https://certbot.eff.org/) pack
 sudo apt install certbot python3-certbot-nginx
 ```
 
-With Certbot now installed, you can proceed to request certificates for your domain(s). We recommend using the default **ACME Challenge** method, which is a one-click setup and automatically verifies the domain and edits your Nginx server block for you. However, if you are facing issues with this, you can attempt to use the **TXT** DNS record method as an alternative which require more manual setup.
+With Certbot now installed, you can proceed to request certificates for your domain(s). Let's Encrypt and Certbot provide a variety of ACME Challenges to verify ownership of the domain.
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
+We highly recommend using the default **HTTP-01** method because it allows for automatic renewal. However, if you are facing issues with this, you can attempt to use the **DNS-01** method as an alternative which is manual and does not support automatic renewals as it relies on verifying using a **TXT** DNS record.
+
+:::tip Utilise Web Server Plugins
+For readers using a web server such as Nginx, Apache or their own web server, we recommend moving to the **Web Server Plugins** section below which shows how to utilise additional Certbot plugins for these web servers to utilise a "one-click" install setup as well as request certificates without the need to turn off the web server.
+:::
+
+### HTTP-01 Challenge
+
+With Certbot now installed, you can now request certificates for your domain(s). In this example, we will be using standalone mode which means that Certbot will start a temporary web server for you to perform the necessary actions. This means that you must open port 80 in your firewall rules and not have any existing web servers or services running on port 80 to allow the temporary web server to start and allow the challenge to be fetched (hence the `HTTP` in the name of the challenge).
+
+In the following command, you will utilise the `--standalone` parameter to inform Certbot that you wish to use the temporary web server option.
+
+```
+# For Root Domains
+certbot certonly --standalone -d [your_root_domain] -d www.[your_root_domain]
+
+# For Sub-Domains
+certbot certonly --standalone -d [your_domain]
+
+# Interactive Setup
+certbot certonly --standalone
+```
+
+Once the command is ran, you may be required to follow a first-time interactive setup which will ask you to input an email address to be used for certificate communication followed by an optional mailing list and the terms & conditions which you must accept.
+
+Certbot will now generate an ACME Challenge and host it using the temporary webserver. The Let's Encrypt servers will then attempt to fetch this from your server and upon success the certificates will be created and saved at the `/etc/letsencrypt/live/[your_domain]` path.
+
+![](https://screensaver01.zap-hosting.com/index.php/s/7oGcQotKaowaDzM/preview)
+
+You can now utilise the SSL Certificates where ever you need simply by providing the local path to the certificates.
+
+### TXT DNS Record
+
+If you are facing difficulties or troubles with verifying your domain through the **HTTP-01** method, as an alternative you can attempt to use the **DNS-01** method which involves creating a **TXT** DNS record with a value provided by Let's Encrypt.
+
+As previously mentioned, this method does **not** support automatic renewal unless you setup your own infrastructure to manage this. Thus, it is highly recommended to use the **HTTP-01** method where possible.
+
+In the following command, you will utilise the `--preferred-challenges` parameter to inform Certbot that you wish to use the `DNS-01` method.
+
+```
+# For Root Domains
+certbot certonly --preferred-challenges dns-01 -d [your_root_domain] -d www.[your_root_domain] --manual -m [your_root_domain] -m www.[your_root_domain]
+
+# For Sub-Domains
+certbot certonly --preferred-challenges dns-01 -d [your_domain] --manual -m [your_domain]
+
+# Interactive Setup
+certbot certonly --preferred-challenges dns-01
+```
+
+Once the command is ran, you may be required to follow a first-time interactive setup which will ask you to input an email address to be used for certificate communication followed by an optional mailing list and the terms & conditions which you must accept.
+
+Certbot will now provide you with instructions on creating a **TXT** DNS record with a specific value that you must use. The target will typically be `_acme-challenge.` prefixed to your domain (in this example, it would be `_acme-challenge.zapdocs.example.com`) and the value it should be set to will be provided in the console.
+
+Once you have created the record, press enter to continue. If everything is correct and propegated, the certificates will be created and saved at the `/etc/letsencrypt/live/[your_domain]` path.
+
+:::note
+Please be patient as DNS Record changes may take some time to propegate. This should typically occur within minutes, but on rare occurances it could take longer.
+:::
+
+You can now utilise the SSL Certificates where ever you need simply by providing the local path to the certificates.
+
+## Web Server Plugins
+
+Certbot contains a range of different additional web server plugins which makes it even simpler to manage certificates as the plugins automatically edit the relevant server blocks for you. To use a plugin, you simply have the add the relevant parameter to your `certbot` command.
+
+Both of these methods utilise the **HTTP-01** challenge and work in essentially the same manner. When one of the plugins is used, Certbot will first search for the relevant server block that includes the requested domain as the `server_name` parameter. Once found, Certbot will generate an ACME Challenge and add a temporary `location /.well-known/acme-challenge/...` location block to the relevant server block config.
+
+The Let's Encrypt servers will then attempt to fetch this from your server and upon success your certificate will be generated and your Nginx server block configuration will be automatically edited to adjust to using HTTPS (port 443) and to add paths to the newly generated certificate.
 
 <Tabs>
-<TabItem value="acme" label="ACME Challenge (recommended)" default>
+<TabItem value="nginx" label="Nginx" default>
 
-#### Verification via ACME Challenge
+### Nginx Plugin
 
-With Certbot now installed, you can now request certificates for your domain using the following command. If you are using a root domain (e.g. `example.com`) we recommend you request a certificate both for both the `www.` and non-www versions. In our example, we will be requesting a certificate for the `zapdocs.example.com` subdomain.
+To make use of the Nginx plugin, you should use the `--nginx` parameter within your command as following.
 
 ```
 # For Root Domains
@@ -55,71 +116,82 @@ certbot --nginx -d [your_root_domain] -d www.[your_root_domain]
 
 # For Sub-Domains
 certbot --nginx -d [your_domain]
+
+# Interactive Setup
+certbot --nginx
 ```
 
-Once the command is ran, follow the interactive setup which will ask you to input an email address to be used for certificate communication followed by an optional mailing list and the terms & conditions which you must accept.
-
-Certbot should now create an ACME Challenge and automatically verify the domain(s) requested. Upon success, Certbot will return certificates for your requested domain(s) and automatically edit your Nginx server block to accept port 443 (HTTPS) and add paths to your certificates.
-
-![](https://screensaver01.zap-hosting.com/index.php/s/7oGcQotKaowaDzM/preview)
+:::tip
+If you wish to disable automatic "one-click" server block adjustments from Certbot, you can include `certonly` parameter within the command such as `certbot certonly`.
+:::
 
 </TabItem>
 
-<TabItem value="txtrecord" label="TXT DNS Record">
+<TabItem value="apache" label="Apache">
 
-#### Verification via TXT DNS Record
+### Apache Plugin
 
-If you are facing difficulties or troubles with verifying your domain through the ACME Challenge (default) method, you can instead attempt to use a DNS challenge, where you will be required to create a **TXT** DNS record with the value that Let's Encrypt provides you.
-
-By using this method, you will have to manually edit your server block with the certificate paths, thus we recommend using the ACME method as the main method which does this automatically by using the `--nginx` parameter addon. Similarly, you cannot easily automatically renew the certificates using this method.
-
-Simply run the following command, replacing `[your_domain]` with the domain you are using.
+To make use of the Nginx plugin, you should use the `--apache` parameter within your command as following.
 
 ```
-certbot certonly -d [your_domain] --preferred-challenges dns-01 --manual -m [your_domain]
+# For Root Domains
+certbot --apache -d [your_root_domain] -d www.[your_root_domain]
+
+# For Sub-Domains
+certbot --apache -d [your_domain]
+
+# Interactive Setup
+certbot --apache
 ```
 
-After command execution, you will be required to set up a new **TXT** record with the value that is returned in console (which should be `_acme-challenge.` prefixed to your domain). Using our example, we would create a **TXT** record for `_acme-challenge.zapdocs.example.com` with the value provided.
+:::tip
+If you wish to disable automatic "one-click" server block adjustments from Certbot, you can include `certonly` parameter within the command such as `certbot certonly`.
+:::
 
-Once you have created the record, press enter to continue. If everything is correct and propegated, the certificates will be created and saved at the `/etc/letsencrypt/live/[your_domain]` path.
+</TabItem>
 
-Now you will have to return back to your server block file. You can do this by running the `sudo nano /etc/nginx/sites-available/[your_domain]` command.
+<TabItem value="webroot" label="Webroot">
 
-In the file, you should either replace port 80 (HTTP) listeners with port 443 (HTTPS) or add it separately, depending on whether you wish to keep the content accessible via HTTP as well.
+### Webroot Plugin
 
-```
-listen 443 ssl;
-listen [::]:443 ssl;
-```
+If you are running your own local web server that doesn't use traditional software, you may wish to use the webroot method to use your own web server without being forced to stop it.
 
-Most importantly, you will have to manually define the paths to the SSL Certificate that you have created. Below the `server_name` parameter, add the following lines replacing `[your_domain]` with the domain you have been using.
-
-```
-server_name
-...
-# SSL Certificates
-ssl_certificate /etc/letsencrypt/live/[your_domain]/fullchain.pem;
-ssl_certificate_key /etc/letsencrypt/live/[your_domain]/privkey.pem;
-```
-
-Save the file and quit nano by using `CTRL + X`, followed by `Y` to confirm and lastly `ENTER`.
-
-To ensure that everything is correct, especially in regard to syntax, you can use `sudo nginx -t` to see if any issues return. If it returns successful, the last step is to restart Nginx to take the new configuration in effect.
+To make use of the Webroot plugin, you should use the `--weboot` parameter within your command as following. You will also need to include a `-w [your_webserver_path]` (short for `--webroot-path`) which is the path to the top-level directory of your web server.
 
 ```
-systemctl reload nginx.service
+# For Root Domains
+certbot --webroot -w [your_webserver_path] -d [your_root_domain] -d www.[your_root_domain]
+
+# For Sub-Domains
+certbot --webroot -w [your_webserver_path] -d [your_domain]
+
+# Interactive Setup
+certbot --webroot -w [your_webserver_path]
 ```
+
+:::tip
+One of thse most common web root location is `/var/www/html`. You could also do this for web servers such as Nginx or Apache in cases where you wish to utilise the web server, without having automatic server block adjustments like the native plugins provide.
+:::
 
 </TabItem>
 </Tabs>
 
-You have successfully setup an SSL Certificate for your domain(s). With Nginx restarted, you should now attempt to access the domain you have used via HTTPS to ensure that everything is functional. If you are facing issues, we recommend checking the logs for troubleshooting using `journalctl -f -u nginx.service` to identify any potential errors.
-
 ## Automatic Renewal
 
-Lastly, we recommend setting up a cronjob to automatically renew the SSL certificates in regular intervals once again using Certbot. This can be done easy via the crontab menu using: `crontab -e`
+In most cases, Certbot should automatically setup certificate renewal for you through the use of cronjob and/or systemd timer. You can confirm this by running the following command which utilises the `--dry-run` parameter to test the process.
+```
+certbot renew --dry-run
+```
 
-If this is your first time using this, you may be prompted to select an editor. We recommend selecting the first option, which should be `/bin/nano`.
+:::tip
+As previously mentioned, the **DNS-01** method does not support automatic renewal via Certbot, unless you setup your own infrastructure to manage this. Thus, it is highly recommended to use the **HTTP-01** method.
+:::
+
+This should be successful if everything is as expected. If you wish to view or make changes to the automatic renewal, the command will be found in one of the following locations: `/etc/crontab/`, `/etc/cron.*/*` or via `systemctl list-timers`.
+
+### Manual Cronjob Setup
+
+If for some reason automatic renewal is not setup for you, you can add this yourself via cronjob. Open the crontab menu using `crontab -e`. If this is your first time doing this, you may be prompted to select an editor. Select the first option which should be `/bin/nano`.
 
 With the file now open in nano, simply add the following line to run the renewal every day at 6am local time.
 
@@ -127,8 +199,8 @@ With the file now open in nano, simply add the following line to run the renewal
 0 6 * * * certbot renew
 ```
 
-Save the file and quit nano by using `CTRL + X`, followed by `Y` to confirm and lastly `ENTER`. You have successfully setup autorenewal using Certbot for your SSL Certificates.
+Save the file and quit nano by using `CTRL + X`, followed by `Y` to confirm and lastly `ENTER`.
 
 ## Conclusion
 
-You have successfully setup Certbot for your domain(s) using Nginx, providing your website with secure data transmission via HTTPS.
+You have successfully setup Certbot for your domain(s) through a variety of methods including standalone, web root or via one of the plugins, providing your website with secure data transmission via HTTPS. For further questions or assistance, please don’t hesitate to contact our support team, which is available daily to assist you! 🙂
