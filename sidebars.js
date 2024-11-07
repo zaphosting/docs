@@ -2519,6 +2519,7 @@ const sidebars = {
       defaultStyle: true,
     },
     'webspace-introduction',
+    'webspace-backups',
     'webspace-subdomain',
     'webspace-adddomain',
     'webspace-plesk-ftp',
