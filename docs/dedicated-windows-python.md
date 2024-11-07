@@ -20,25 +20,25 @@ This guide provides steps for the installation of Python runtime on Windows. The
 ### Step 1: Downloading Files
 Open up the browser of your choice (I'm going to use Chrome for this guide) and head over to [https://www.python.org/downloads/](https://www.python.org/downloads/)
 
-![Picture of python.com/downloads](https://imgur.com/g30evfk.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/WAET5RFn6yBfNzC/preview)
 
 Now click on the `Download Python [version]` button and wait for it to finish.
 
-![Picture of Python installer downloaded](https://imgur.com/eHjq3nI.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/b8j6ZbfGWoBjpep/preview)
 
 ### Step 2: Installing Python
 Run the installer by clicking on it. Now you will be prompted to set a few settings for the installation. Make sure the `Add python.exe to PATH` checkbox at the bottom is marked (this will make running Python files easier later on) and click the `Install Now` button.
 
-![Picture of Python's Installer - First Page](https://imgur.com/CcRCbhn.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/Z57KiQwHqP3RpPy/preview)
 
 ### Step 3: Completing Installation
 Wait for all files to be installed. Be patient as this may take some time. :)
 
-![Picture of Python's Installer downloading files](https://imgur.com/CNqjZ4c.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/XA2Y3DGezb84Ek9/preview)
 
 Once it is finished, simply press `Close` and you can begin using Python on your server.
 
-![Picture of Python's Installer - Succefully installed Page](https://imgur.com/f9I8zaa.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/t7xPKRtsJ7kGRxw/preview)
 
 ## Running code
 
@@ -48,7 +48,7 @@ Now that you have Python installed on your server, you can start running your Py
 
 Running the `python` command inside a Command Prompt or PowerShell instance will now start the Python interpreter. You can start writing any valid Python code after the `>>>` prefix and it will be executed after pressing `Enter`. You can close the interpreter once you are finished by running `exit()` into the console or simply closing the prompt.
 
-![Python Interpreter mode](https://imgur.com/AQSm2hX.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/DskKi5Ac28ERY38/preview)
 
 ### Running .py files
 
@@ -74,7 +74,7 @@ To run commands like `pip install` inside your venv you need to activate it by r
 
 When you have finished working inside the venv you can go back by running the `deactivate` command.
 
-![Activating / Deactivating Python venv](https://imgur.com/KvJxliT.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/Ws5BosJzJ78s7Y9/preview)
 
 
 

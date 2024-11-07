@@ -30,11 +30,11 @@ import TabItem from '@theme/TabItem';
 ### Step 1: Downloading Files
 Open up the browser of your choice (I'm going to use Chrome for this guide) and head over to [https://Node.js.org/en](https://Node.js.org/en)
 
-![Picture of Node.js.org](https://imgur.com/yGkI21n.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/FXEML6xiCedS7Nq/preview)
 
 Now click on the `Download Node.js (LTS)` button and wait for it to finish.
 
-![Picture of Node.js installer downloaded](https://imgur.com/i9ZMP9L.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/EwjMejMYykPCQRQ/preview)
 
 :::tip
 It is generally recommended to keep your installation on the latest Long Term Support (LTS) version.
@@ -43,11 +43,11 @@ It is generally recommended to keep your installation on the latest Long Term Su
 ### Step 2: Installing Python
 Run the installer by clicking on it. Now you will be prompted to set a few settings for the installation. On the `Welcome` page you should click `Next`.
 
-![Picture of Node.js's Installer - First Page](https://imgur.com/DJzVIRM.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/4kZo7AFbMk58c2E/preview)
 
 Now you need to read and accept (by marking the checkbox) the Node.js License Agreement and then click on the `Next` button.
 
-![Picture of Node.js's Installer - Agreement Page](https://imgur.com/eUfK86B.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/sDNjGj7fCqHRFGp/preview)
 
 After that you will be asked for a location to install Node.js.
 
@@ -55,16 +55,16 @@ After that you will be asked for a location to install Node.js.
 We recommend using the default install location.
 :::
 
-![Picture of Node.js's Installer - Location Page](https://imgur.com/QUInz5M.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/L2wNRLFfEo3H6wn/preview)
 
 On the next page, you can opt out of installing some of Node.js core packages. If you want a normal installation, which is recommended, simply press on the `Next` button. You will also have an option to install Chocolatey, but this is not needed.
 
-![Picture of Node.js's Installer - Custom Install Page](https://imgur.com/Ereqity.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/y6ssQbn2psE5sFt/preview)
 
 ### Step 3: Completing Installation
 That's all you can now click `Install` and wait for everything to be set up. Be patient as this may take some time. :)
 
-![Picture of Node.js's Installer - Install Page](https://imgur.com/Nxl3553.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/Bdr4pfwS2HRoaS2/preview)
 
 Once finished, you can simply press `Finish` on the final page and start using Node.js on your server.
 
@@ -86,8 +86,6 @@ Every time you want to start a new Node.js project you need to make a new direct
 
 :::tip
 On Windows, clicking once on the File Explorer current path and typing `cmd` then pressing `Enter` will open the Command Prompt inside the current directory, making it easier.
-
-![Cmd inside directory tip](https://imgur.com/61sWPoe.png)
 :::
 
 After initializing the new project, you can make a new file called `index.js` and write code inside it. As an example, we will create a simple http server on default port 80 which replies with a test message when accessed via localhost. This can be seen below.
@@ -105,7 +103,7 @@ server.listen(80)
 
 Now you can run the provided code with the `node .` command and check the results by going to `localhost:80` in your browser.
 
-![Node.js app in browser](https://imgur.com/DcaM9Dd.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/kWRi9agrzkWc4rw/preview)
 
 :::tip
 Installing external packages from npm is done with the `npm install [package-name]`
@@ -119,7 +117,7 @@ Installing external packages from npm is done with the `npm install [package-nam
 
 Installing Deno is as simple as writing `irm https://deno.land/install.ps1 | iex` inside a PowerShell instance. Use the Windows search bar and search for `Powershell`. Open a prompt as administrator and run the above command, following any steps it may prompt you with.
 
-![Deno install command inside PowerShell](https://imgur.com/gOjyave.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/jTdDo6c2Kx42o8B/preview)
 
 :::tip
 To check the currently installed version, you can run `deno --version`.
@@ -141,7 +139,7 @@ Deno.serve({ port: 80 }, (_req: Request) => {
 
 Now you can run the provided code with the `deno run --allow-net index.ts` command and check the results by going to `localhost:80` in your browser.
 
-![Deno app in browser](https://imgur.com/fjBhEe7.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/rswYFXWM9D5grpS/preview)
 
 :::info
 Deno was created to be more secure and thus requires certain permissions such as `--allow-net` to access some of its modules.
@@ -160,12 +158,12 @@ Bun also provides a very easy one command installer but also gives users the opt
 
 Running `irm bun.sh/install.ps1|iex` inside PowerShell will install Bun on your server.
 
-![Bun install command inside PowerShell](https://imgur.com/utUKgRN.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/65oooTQRGQPW8DS/preview)
 
 :::info
 The server might be missing some required files. Bun will give you information on this and also links to download said files when trying to run the installer.
 
-![Bun install error command inside PowerShell](https://imgur.com/Sq0IHDQ.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/kZsc5DF3BAiQ2fF/preview)
 :::
 
 </TabItem>
@@ -173,7 +171,7 @@ The server might be missing some required files. Bun will give you information o
 
 If you already have npm installed, you can run `npm install -g bun` to install Bun.
 
-![Bun install command via npm](https://imgur.com/fUPmPoW.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/cejbBAQdHxkrm2A/preview)
 
 </TabItem>
 </Tabs>
@@ -199,7 +197,7 @@ const server = Bun.serve({
 
 Now you can run the provided code with the `bun index.ts` command and check the results by going to `localhost:80` in your browser.
 
-![Bun app in browser](https://imgur.com/wwuWP4i.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/oTco7F65bZbSGP9/preview)
 
 </TabItem>
 </Tabs>

@@ -20,25 +20,25 @@ Diese Anleitung liefert Schritte zur Installation der Python-Laufzeitumgebung au
 ### Schritt 1: Dateien herunterladen
 Öffne den Browser deiner Wahl und navigiere zu [https://www.python.org/downloads/](https://www.python.org/downloads/)
 
-![Bild von python.org/downloads](https://imgur.com/g30evfk.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/WAET5RFn6yBfNzC/preview)
 
 Klicke nun auf den `Python [Version] herunterladen`-Button und warte, bis der Download abgeschlossen ist.
 
-![Bild des heruntergeladenen Python-Installers](https://imgur.com/eHjq3nI.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/b8j6ZbfGWoBjpep/preview)
 
 ### Schritt 2: Python installieren
 Starte den Installer, indem du darauf klickst. Nun wirst du aufgefordert, einige Einstellungen für die Installation vorzunehmen. Achte darauf, dass das Kontrollkästchen `python.exe zum PATH hinzufügen` am unteren Rand markiert ist (dies erleichtert später das Ausführen von Python-Dateien) und klicke auf den Button `Jetzt installieren`.
 
-![Bild des Python-Installers - Erste Seite](https://imgur.com/CcRCbhn.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/Z57KiQwHqP3RpPy/preview)
 
 ### Schritt 3: Installation abschließen
 Warte, bis alle Dateien installiert sind. Hab Geduld, denn das kann etwas dauern. :)
 
-![Bild des Python-Installers beim Herunterladen von Dateien](https://imgur.com/CNqjZ4c.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/XA2Y3DGezb84Ek9/preview)
 
 Sobald es fertig ist, drücke einfach auf `Schließen` und du kannst anfangen, Python auf deinem Server zu verwenden.
 
-![Bild des Python-Installers - Erfolgreich installierte Seite](https://imgur.com/f9I8zaa.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/t7xPKRtsJ7kGRxw/preview)
 
 ## Code ausführen
 
@@ -48,7 +48,7 @@ Jetzt, da du Python auf deinem Server installiert hast, kannst du beginnen, dein
 
 Das Ausführen des `python`-Befehls in einer Eingabeaufforderung oder PowerShell-Instanz startet nun den Python-Interpreter. Du kannst nach dem `>>>`-Präfix gültigen Python-Code schreiben, der nach dem Drücken von `Enter` ausgeführt wird. Du kannst den Interpreter schließen, indem du `exit()` in die Konsole eingibst oder einfach die Eingabeaufforderung schließt.
 
-![Python Interpreter-Modus](https://imgur.com/AQSm2hX.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/DskKi5Ac28ERY38/preview)
 
 ### .py-Dateien ausführen
 
@@ -74,7 +74,7 @@ Um Befehle wie `pip install` innerhalb deiner venv auszuführen, musst du sie ak
 
 Wenn du mit der Arbeit in der venv fertig bist, kannst du mit dem Befehl `deactivate` zurückkehren.
 
-![Aktivieren / Deaktivieren der Python venv](https://imgur.com/KvJxliT.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/Ws5BosJzJ78s7Y9/preview)
 
 ## Abschluss
 

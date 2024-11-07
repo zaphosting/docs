@@ -31,22 +31,22 @@ import TabItem from '@theme/TabItem';
 
 Öffne den Browser deiner Wahl (in dieser Anleitung wird Chrome verwenden) und navigiere zu [https://nodejs.org/en](https://nodejs.org/en)
 
-![Picture of Node.js.org](https://imgur.com/yGkI21n.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/FXEML6xiCedS7Nq/preview)
 
 Klicke nun auf den Button `Node.js (LTS) herunterladen` und warte, bis der Download abgeschlossen ist. 
 
-![Picture of Node.js installer downloaded](https://imgur.com/i9ZMP9L.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/EwjMejMYykPCQRQ/preview)
 
 :::tip Es wird allgemein empfohlen, deine Installation auf der neuesten Langzeitunterstützungs-Version (LTS) zu halten. :::
 
 ### Schritt 2: Installation von Python
 Starte den Installer, indem du darauf klickst. Nun wirst du aufgefordert, einige Einstellungen für die Installation vorzunehmen. Auf der `Willkommen`-Seite solltest du `Weiter` klicken.
 
-![Bild des Node.js-Installationsprogramms - Erste Seite](https://imgur.com/DJzVIRM.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/4kZo7AFbMk58c2E/preview)
 
 Nun musst du die Node.js-Lizenzvereinbarung lesen und akzeptieren (indem du das Kontrollkästchen markierst) und dann auf den `Weiter`-Button klicken.
 
-![Bild des Node.js-Installationsprogramms - Vereinbarungsseite](https://imgur.com/eUfK86B.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/sDNjGj7fCqHRFGp/preview)
 
 Danach wirst du nach einem Installationsort für Node.js gefragt.
 
@@ -54,16 +54,16 @@ Danach wirst du nach einem Installationsort für Node.js gefragt.
 Wir empfehlen, den Standardinstallationsort zu verwenden.
 :::
 
-![Bild des Node.js-Installationsprogramms - Ortsseite](https://imgur.com/QUInz5M.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/L2wNRLFfEo3H6wn/preview)
 
 Auf der nächsten Seite kannst du dich gegen die Installation einiger Kernpakete von Node.js entscheiden. Wenn du eine normale Installation wünschst, was empfohlen wird, drücke einfach auf den `Weiter`-Button. Du hast auch die Möglichkeit, Chocolatey zu installieren, aber das ist nicht notwendig.
 
-![Bild des Node.js-Installationsprogramms - Benutzerdefinierte Installationsseite](https://imgur.com/Ereqity.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/y6ssQbn2psE5sFt/preview)
 
 ### Schritt 3: Installation abschließen
 Das war's, jetzt kannst du auf `Installieren` klicken und warten, bis alles eingerichtet ist. Hab Geduld, denn das kann etwas dauern. :)
 
-![Bild des Node.js-Installationsprogramms - Installationsseite](https://imgur.com/Nxl3553.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/Bdr4pfwS2HRoaS2/preview)
 
 Sobald die Installation abgeschlossen ist, kannst du einfach auf der letzten Seite auf `Fertigstellen` drücken und beginnen, Node.js auf deinem Server zu verwenden.
 
@@ -86,8 +86,6 @@ Jedes Mal, wenn du ein neues Node.js-Projekt starten möchtest, musst du mit dem
 
 :::tip
 Unter Windows kannst du einmal auf den aktuellen Pfad im Datei-Explorer klicken und `cmd` eingeben, dann `Enter` drücken, um die Eingabeaufforderung im aktuellen Verzeichnis zu öffnen, was die Arbeit erleichtert.
-
-![Cmd im Verzeichnis Tipp](https://imgur.com/61sWPoe.png)
 :::
 
 Nachdem du das neue Projekt initialisiert hast, kannst du eine neue Datei namens `index.js` erstellen und darin Code schreiben. Als Beispiel werden wir einen einfachen HTTP-Server auf dem Standardport 80 erstellen, der mit einer Testnachricht antwortet, wenn er über localhost aufgerufen wird. Dies kann unten gesehen werden.
@@ -105,7 +103,7 @@ server.listen(80)
 
 Jetzt kannst du den bereitgestellten Code mit dem Befehl `node .` ausführen und die Ergebnisse überprüfen, indem du `localhost:80` in deinem Browser aufrufst.
 
-![Node.js-App im Browser](https://imgur.com/DcaM9Dd.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/kWRi9agrzkWc4rw/preview)
 
 :::tip
 Das Installieren externer Pakete von npm wird mit dem Befehl `npm install [paket-name]` durchgeführt.
@@ -119,7 +117,7 @@ Das Installieren externer Pakete von npm wird mit dem Befehl `npm install [paket
 
 Deno zu installieren ist so einfach, wie `irm https://deno.land/install.ps1 | iex` in einer PowerShell-Instanz einzugeben. Benutze die Windows-Suchleiste und suche nach `Powershell`. Öffne eine Eingabeaufforderung als Administrator und führe den obigen Befehl aus, wobei du allen Schritten folgst, die dir möglicherweise angezeigt werden.
 
-![Deno-Installationsbefehl in PowerShell](https://imgur.com/gOjyave.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/jTdDo6c2Kx42o8B/preview)
 
 :::tip
 Um die derzeit installierte Version zu überprüfen, kannst du `deno --version` ausführen.
@@ -141,7 +139,7 @@ Deno.serve({ port: 80 }, (_req: Request) => {
 
 Jetzt kannst du den bereitgestellten Code mit dem Befehl `deno run --allow-net index.ts` ausführen und die Ergebnisse überprüfen, indem du `localhost:80` in deinem Browser aufrufst.
 
-![Deno-App im Browser](https://imgur.com/fjBhEe7.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/rswYFXWM9D5grpS/preview)
 
 :::info
 Deno wurde entwickelt, um sicherer zu sein, und erfordert daher bestimmte Berechtigungen wie `--allow-net`, um auf einige seiner Module zugreifen zu können.
@@ -160,12 +158,12 @@ Bun bietet ebenfalls eine sehr einfache Ein-Befehl-Installation, gibt den Nutzer
 
 Das Ausführen von `irm bun.sh/install.ps1|iex` in PowerShell installiert Bun auf deinem Server.
 
-![Bun Installationsbefehl in PowerShell](https://imgur.com/utUKgRN.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/65oooTQRGQPW8DS/preview)
 
 :::info
 Dem Server könnten einige erforderliche Dateien fehlen. Bun wird dich über dieses Problem informieren und auch Links zum Herunterladen der benötigten Dateien bereitstellen, wenn du versuchst, den Installer auszuführen.
 
-![Bun Installationsfehler in PowerShell](https://imgur.com/Sq0IHDQ.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/kZsc5DF3BAiQ2fF/preview)
 :::
 
 </TabItem>
@@ -173,7 +171,7 @@ Dem Server könnten einige erforderliche Dateien fehlen. Bun wird dich über die
 
 Wenn du bereits npm installiert hast, kannst du `npm install -g bun` ausführen, um Bun zu installieren.
 
-![Bun Installationsbefehl über npm](https://imgur.com/fUPmPoW.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/cejbBAQdHxkrm2A/preview)
 
 </TabItem>
 </Tabs>
@@ -199,7 +197,7 @@ const server = Bun.serve({
 
 Jetzt kannst du den bereitgestellten Code mit dem Befehl `bun index.ts` ausführen und die Ergebnisse überprüfen, indem du `localhost:80` in deinem Browser aufrufst.
 
-![Bun-App im Browser](https://imgur.com/wwuWP4i.png)
+![](https://screensaver01.zap-hosting.com/index.php/s/oTco7F65bZbSGP9/preview)
 
 </TabItem>
 </Tabs>
