@@ -47,3 +47,9 @@ You can find the guide in how to forward ports in the firewall here:
 [Port Forwarding (Firewall)](vserver-windows-port.md)
 
 Now you can access your MySQL server externally!
+
+
+
+## Conclusion
+
+Congratulations, you have successfully installed the MySQL server. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂

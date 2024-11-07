@@ -97,3 +97,9 @@ You now enter your password as normal. You will be asked for a code, simply ente
 ![](https://screensaver01.zap-hosting.com/index.php/s/w7BFMMTMdcwXj2x/preview)
 
 Now you are logged in!
+
+
+
+## Conclusion
+
+Congratulations, you have successfully configured 2FA for your SSH access. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂

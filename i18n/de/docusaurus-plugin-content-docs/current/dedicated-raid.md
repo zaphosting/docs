@@ -145,3 +145,11 @@ Dies kann unter **Select Boot Volume** erledigt werden, wähle hierbei dein Spei
 
 Danach hast du die Möglichkeit, mit `F8` direkt dein System neuzustarten oder mit `Enter` weitere Einstellungen im RAID-Manager vorzunehmen.
 Bedenke, dass das Boot Volume **immer** nach Veränderungen deines RAIDs angepasst werden muss.
+
+
+
+
+
+## Abschluss
+
+Glückwunsch, du hast das RAID erfolgreich konfiguriert. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂

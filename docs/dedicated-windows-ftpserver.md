@@ -96,3 +96,11 @@ In this example the path is **C:\Program Files (x86)\FileZilla Server\FileZilla 
 ![](https://screensaver01.zap-hosting.com/index.php/s/Laz3HFb7GrLBY9w/preview)
 
 After that you can close the process with a click on **OK**, a connection to your FTP server is now possible.
+
+
+
+
+
+## Conclusion
+
+Congratulations, you have successfully installed the FTP server. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂

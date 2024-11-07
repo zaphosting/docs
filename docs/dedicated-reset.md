@@ -46,3 +46,9 @@ There you will see how the server automatically executes the process and how far
 This process cannot be undone and is therefore final. There are no additional backups that can be imported in case of need.
 We strongly advise against performing this process unless you are absolutely certain you want to delete all your data.
 :::
+
+
+
+## Conclusion
+
+Congratulations, you have successfully wiped the data on your dedicated server. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂

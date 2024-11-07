@@ -215,7 +215,9 @@ Dein SSH-Login ist nun aktiv und du kannst beispielsweise per PuTTY verbinden. G
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/TzFoYNWRjmWjetA/preview)
 
-:::info
-Bei weiteren Fragen und Problemen steht dir unser Support jederzeit gerne zur Verfügung
-:::
+
+
+## Abschluss
+
+Glückwunsch, du hast das Debian Betriebssystem erfolgreich installiert. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
 

@@ -204,4 +204,9 @@ Now you can run the provided code with the `bun index.ts` command and check the 
 </TabItem>
 </Tabs>
 
-By following this guide, you will have successfully installed one of the popular JavaScript runtimes on your Windows server.
+## Conclusion
+
+Congratulations, you have successfully installed JavaScript. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
+
+
+

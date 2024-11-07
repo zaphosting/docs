@@ -147,3 +147,10 @@ This can easily be done in **Select Boot Volume**, choose there the logical driv
 
 In the end you have the possibility by pressing `F8` to directly reboot your system or to return into the main menu by pressing `Enter`.
 Mention that the boot volume must be set **anytime** when you have touched your RAID configuration.
+
+
+
+## Conclusion
+
+Congratulations, you have successfully configurated the RAID on your dedicated server. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
+
