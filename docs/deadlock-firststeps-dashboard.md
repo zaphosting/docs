@@ -8,6 +8,8 @@ services:
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
+import YouTube from '@site/src/components/YouTube/YouTube';
+
 
 ## Introduction
 
@@ -30,6 +32,8 @@ The **Dashboard** of your server is the heart of the administration. All basic a
 ![img](https://screensaver01.zap-hosting.com/index.php/s/o2sTn9MXDDEsF5E/preview)
 
 In the dashboard you also have the option of starting, stopping or restarting your service, to have full control over its operation. Furthermore, you can access the live console to get real-time information about the server's state and take direct action if necessary.
+
+<YouTube videoId="Uw1eHKdybm4" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/aptfossJ2fz4pk9/preview" title="Setup a Deadlock private server in just a MINUTE! | 2024" description="Feel like you understand better when you see things in action? We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
 
 
 
