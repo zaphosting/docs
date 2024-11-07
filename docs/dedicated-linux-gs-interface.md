@@ -11,64 +11,58 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
- If game server products don't meet your taste or expectations, or if you need your service in other ways, using a VPS, root server, or dedicated server is often a better option. However, you often face the challenge that not all services are automated or pre-installed. Setting up services such as game servers, Teamspeak 3 servers, and music bots must be done independently.
+If game server products don't meet your taste or expectations, or if you need your service in other ways, using a VPS, root server, or dedicated server is often a better option. However, you often face the challenge that not all services are automated or pre-installed. Setting up services such as game servers, Teamspeak 3 servers, and music bots must be done independently.
 
 To solve this problem, we have developed a practical solution for our Linux-based VPS, root server, or dedicated server. The so-called Gameserver/Teamspeak 3 Server interface (GS/TS3 Interface)!
 
 <InlineVoucher />
 
-## Use of the GS/TS3 interface
+## Use case
 
 With the user-friendly GS/TS3 interface, you can install Teamspeak 3 or other selected game server services on your Linux-based VPS, root server, or dedicated server with just a few clicks. No prior knowledge is required for this installation. The setup of all required packages, server files, and the actual installation are fully automated, saving you time and effort.
 
-:::info
-**Note:** To successfully install the GS/TS3 interface, it is important to ensure that your server has one of the following supported operating systems installed:
-- Debian 10
-- Debian 11
+:::warning
+The GS/TS3 interface feature can be used with the following operating systems:
+
+- Debian: 10, 11
+- Ubuntu: 20.04
+
+(*) We are already working on making other and newer operating systems and (versions) available in the near future.
 :::
 
 
 
-## Available services / games
+## Available services & games
 
 The GS/TS3 interface supports the setup of game servers, voice servers, and music bots. Most of the games we offer for our game server products are also available in the GS/TS3 interface option. This applies to all games that we actively operate under Linux. All games that run on Windows operating systems can unfortunately not be installed. There, only a manual installation is possible, provided that the game supports a Linux server version.
 
-| Services    | Description / Content                             | VPS  | Root server | Dedicated Server |
-| ----------- | ------------------------------------------------- | ---- | ---------- | ---------------- |
-| Gameserver  | Linux based game server applications are supported | ✔️    | ✔️          | ✔️                |
-| Voiceserver | Teamspeak 3 servers are supported                 | ✔️    | ✔️          | ✔️                |
-| Musikbot    | Sinusbot is supported                             | ✔️    | ✔️          | ✔️                |
+| Services    | Supported |
+| ----------- | ---------------- |
+| Gameserver  | ✔️                |
+| Voiceserver | ✔️                |
+| Musicbot (Sinusbot)  | ✔️                |
 
-<p style={{textAlign: 'center'}}>List updated last on 01.05.2023</p>
+<p style={{textAlign: 'center'}}>List updated last on 07.11.2024</p>
 
 
 
-## Installation and configuration of the GS/TS3 interface
+## Installation and configuration
 
 To install the GS/TS3 interface, you need to navigate to the navigation panel **Settings** in the server administration of your product and click on the sub-item **Gameserver / TS3**. 
 
-The first time you call up the GS/TS3 interface, you will be taken to the user-friendly setup assistant. To set up the interface and link it to your server, it is first necessary to create an SSH key. This key is necessary for the website to establish a secure connection to the server. This makes it possible to set up, manage and control services such as game servers and Teamspeak 3 servers directly via the interface.
+The first time you call up the GS/TS3 interface, you will be redirected to the user-friendly setup assistant. To set up the interface and link it with the server, you must select an supported operating system and provide the root user's login details. 
 
-Once there, the SSH key must be created. To do this, click on the **Generate SSH key** button and then add the key by clicking on the **Add key** button. 
-
-
-![](https://screensaver01.zap-hosting.com/index.php/s/dbXCDobqe2BkHD6/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/dLeLDKdmdiZ74CP/download)
 
 
 
-Once you have clicked on **Add Key**, the SSH key is stored on your server. The GS/TS3 interface can then be added to your server.
+Once the server and the website have been successfully linked, the GS/TS3 interface can be created. 
 
 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/FK9mP3BgzrPmH7S/preview)
 
 
-
-:::info
-**Note:** If the SSH key is not recognised right away, restarting the server and refreshing the page is a possible solution.
-:::
-
-During the installation you can check the current progress. Please note that the installation and configuration of the interface and its packages may take some time. This can usually take from 5 to 15 minutes.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/JL7jyTKbCEx8FBZ/preview)
 
@@ -78,7 +72,7 @@ During the installation you can check the current progress. Please note that the
 
 
 
-## Installation of a game server
+### Create Game server
 
 Provided that the creation and installation of the GS/TS3 interface has been completed successfully, you can now start setting up the services. The installation of a game server is done via the **Install game server** button in the **Game server** category.
 
@@ -114,7 +108,7 @@ Setting up the game may take some time depending on the game. The progress is sh
 
 
 
-## Installation of a voice server
+### Create Voice server
 
 The installation of a **Voiceserver (Teamspeak 3 Server)** is similar to the installation of a game server. You must first click on "Gameserver / TS3" again. In this section you will find the option **Install voice server**, which you can click to start the installation process for the Teamspeak 3 server.
 
@@ -145,6 +139,13 @@ In the Teamspeak 3 server interface, you will find all the necessary information
 
 Under the menu item "Settings" you have further options to customize your server. Here you can, for example, change the name of your server, set a password to restrict access, or store a personal welcome message that users receive when they enter the server.
 
-:::info
-**Note**: There is no licence installed on the Teamspeak 3 server by default. This means that you can only use a Teamspeak 3 server with a capacity of 32 slots. However, if you would like to activate more capacity or additional functions for your Teamspeak 3 server, you can purchase a corresponding licence from Teamspeak.
+:::caution Information about Teamspeak licenses
+There is no licence installed on the Teamspeak 3 server by default. This means that you can only use a Teamspeak 3 server with a capacity of 32 slots. However, if you would like to activate more capacity or additional functions for your Teamspeak 3 server, you can purchase a corresponding licence from Teamspeak.
 :::
+
+
+
+
+
+## Conclusion
+Congratulations, you have successfully installed and configurated our GS/TS3 interface! If you have any further questions or problems, please contact our support team, who are available to help you every day!
