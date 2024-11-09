@@ -12,7 +12,7 @@ import TabItem from '@theme/TabItem';
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
-SSL-Zertifikate sind ein wesentlicher Bestandteil des Internets und stellen sicher, dass Daten sicher zwischen Client und Host übertragen werden können. In diesem Leitfaden werden wir den Prozess der Einrichtung des Open-Source-Tools [**Certbot**](https://certbot.eff.org/) zur Beantragung kostenloser SSL-Zertifikate bei der gemeinnützigen Zertifizierungsstelle **Let's Encrypt** untersuchen.
+SSL-Zertifikate sind ein wesentlicher Bestandteil des Internets und stellen sicher, dass Daten sicher zwischen Client und Host übertragen werden können. In dieser Anleitung werden wir den Prozess der Einrichtung des Open-Source-Tools [**Certbot**](https://certbot.eff.org/) zur Beantragung kostenloser SSL-Zertifikate bei der gemeinnützigen Zertifizierungsstelle **Let's Encrypt** untersuchen.
 
 <InlineVoucher />
 
@@ -20,7 +20,7 @@ SSL-Zertifikate sind ein wesentlicher Bestandteil des Internets und stellen sich
 
 Um Certbot nutzen zu können, benötigst du einen Linux VPS und eine **Domain**, die dir gehört. Du musst Zugriff auf die DNS-Einstellungen der Domain haben und **musst** für jede Root-Domain oder Sub-Domain, die du verwenden möchtest, einen `A`-DNS-Eintrag erstellen, der auf die IP-Adresse deines __Linux VPS__ verweist.
 
-Certbot verfügt außerdem über zusätzliche Plugins, mit denen du ganz einfach mit einem Klick ein Zertifikat für eine Domain einrichten kannst, das mit einer Vielzahl von Webservern wie Nginx oder Apache funktioniert. Wir empfehlen die Verwendung von Nginx, da es sich um einen hochleistungsfähigen und beliebten Open-Source-Webserver handelt. Weitere Informationen zur Einrichtung findest du in unserem [Linux-Proxy](vserver-linux-proxy.md)-Leitfaden.
+Certbot verfügt außerdem über zusätzliche Plugins, mit denen du ganz einfach mit einem Klick ein Zertifikat für eine Domain einrichten kannst, das mit einer Vielzahl von Webservern wie Nginx oder Apache funktioniert. Wir empfehlen die Verwendung von Nginx, da es sich um einen hochleistungsfähigen und beliebten Open-Source-Webserver handelt. Weitere Informationen zur Einrichtung findest du in unserer [Linux-Proxy](vserver-linux-proxy.md) Anleitung.
 
 ## Installation
 
