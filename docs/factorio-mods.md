@@ -1,34 +1,65 @@
 ---
 id: factorio-mods
-title: "Factorio: Installing Mods"
-description: Information on how to install mods on your Factorio server at ZAP-Hosting - ZAP-Hosting.com documentation
-sidebar_label: Install Mods
+title: "Factorio: Installing Mods/DLCs to your Factorio server"
+description: Information on how to install mods and DLCs to your Factorio server from ZAP-Hosting - ZAP-Hosting.com documentation
+sidebar_label: Install Mods/DLCs
 services:
   - gameserver
 ---
 
+import YouTube from '@site/src/components/YouTube/YouTube';
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
-Mods allow you to customize your server more individually. In the following we will explain where you can find the most popular server mods and how you can install them. 
+Factorio has native modding support allowing you to easily add a wide variety of mods to your game and server, alongside purchased game DLCs. In this guide, we will cover the process of enabling DLCs and installing mods to your client and Factorio server.
 
 <InlineVoucher />
 
-### Preparation
+## Preparation
 
-First of all it is necessary to find out where to download mods for Factorio. Factorio itself offers a wide range of mods on their website. These can be found here: [Factorio - Mods](https://mods.factorio.com/)
+You can access the [official Factorio mods](https://mods.factorio.com/) website to browse mods. On this site, you can find a huge library of free mods made by the community across a wide variety of categories.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/8nJPqCkXfCyBpMt/preview)
+:::tip
+Ensure that the mods you browse and download support the version of your Factorio server.
+:::
 
-On this site you have the possibility to apply different filters. For example, you can differ between popularity, category or version. It is important that the mods support the installed server version. Otherwise it is possible that the mod doesn't load or that the server doesn't start anymore. 
+## Enabling DLCs
+
+With the Factorio 2.0 update, the first ever DLC was introduced named Space Age. To accommodate this, a new configuration option was introduced into the web interface panel to allow you to toggle whether the DLC is activated.
+
+<YouTube videoId="i9CuAsCxUsk" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/BRa5saY3L76xe5F/preview" title="Activate Factorio Space Age DLC" description="Feel like you understand better when you see things in action? We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
+
+Head over to your product's web interface panel and access the **Settings** section. Scroll down and find the **Space Age DLC** option, which should be enabled by default.
+
+![](https://screensaver01.zap-hosting.com/index.php/s/T5G5GrEzwoxM3Xk/preview)
+
+Toggle the feature and use the green **Save** button at the bottom of the page. You have now successfully enabled a Factorio DLC.
+
+## Adding & Uploading Mods
+
+Now with the mods of your choice downloaded, you will have to upload them to your Factorio server via FTP. Please use our [FTP Access](gameserver-ftpaccess.md) guide as further assistance to connect to your server.
+
+:::note
+The server must be stopped before adding or editing mods, otherwise any edits may become undone.
+:::
+
+Once ready, navigate to the following directory and upload your downloaded mods, which should be in `.zip` format.
+
+```
+../factorio/saves/mods
+```
+
+![](https://screensaver01.zap-hosting.com/index.php/s/APFEnmg29jBCFKn/preview)
+
+:::tip
+When modding, the mods must be synced between the client and the server. Factorio makes this very simple. When you join the server for the first time after adjusting mods, your game will prompt you to synchronize your mods automatically.
+:::
+
+Finally, restart your server in order to automatically activate and install the mods on your Factorio server. If you are facing any errors, such as the server automatically shutting down, please check the **Information->Event Log** section on your web interface to view any errors. It is likely that a version mismatch could such issues.
 
 
 
-### Add mods
+## Conclusion
 
-Once you have chosen your desired mods and downloaded them, you can start installing the mods. You have to upload the mods to the server. To upload files to your server you need a FTP client. If you don't know what FTP is and how it works, please have a look at the following guide: [Access via FTP](gameserver-ftpaccess.md)
-
-![](https://screensaver01.zap-hosting.com/index.php/s/SLHTW7D5Lp9Ygms/preview)
-
-The folder in which the mods are uploaded can be found under `gXXXXXX/factorio-exp/mods/`. The downloaded mods are uploaded there as a ZIP file. The next time you start the server the mods will be loaded accordingly.
+Congratulations, you have successfully installed mods to your Factorio server. For further questions or assistance, please don’t hesitate to contact our support team, which is available daily to assist you! 🙂

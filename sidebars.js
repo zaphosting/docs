@@ -186,6 +186,7 @@ const sidebars = {
             "fivem-whitelist",
             "fivem-locale",
             "fivem-optimize-textures",
+            "fivem-proxy"
           ]
         },
         {
@@ -2216,12 +2217,14 @@ const sidebars = {
         'vserver-linux-ssl',
         'vserver-linux-rsync',
         'vserver-linux-security-tips',
+        'vserver-linux-proxy'
       ]
     },
     {
       type: "category",
       label: "Services",
       items: [
+        'vserver-linux-certbot',
         'vserver-linux-cockpit',	
         'vserver-linux-databases',
         'vserver-linux-docker',
@@ -2372,10 +2375,12 @@ const sidebars = {
       defaultStyle: true,
     },
     'dedicated-linux-gs-interface',
+    'dedicated-linux-proxy',
     {
       type: "category",
       label: "Services",
       items: [
+        'dedicated-linux-certbot',
         'dedicated-linux-cockpit',	
         'dedicated-linux-databases',
         'dedicated-linux-docker',
