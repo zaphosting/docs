@@ -31,7 +31,7 @@ Verwende den folgenden Befehl, um einen Benutzer namens `gameservers` mit einem 
 
 ```
 sudo useradd -m gameservers
-sudo passwd [your_password] # Optionales Passwort
+sudo passwd gameservers # Optionales Passwort
 ```
 
 Sobald du auf deinen Server zugegriffen hast und einen Benutzer bereit hast, fahre mit den Installationsschritten fort.

@@ -30,7 +30,7 @@ Use the following command to create a user named `gameservers` with an optional 
 
 ```
 sudo useradd -m gameservers
-sudo passwd [your_password] # Optional Password
+sudo passwd gameservers # Optional Password
 ```
 
 Once you have accessed your server and have a user ready, proceed with the installation steps.

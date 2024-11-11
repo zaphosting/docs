@@ -20,7 +20,7 @@ Did you know that you can install our **ZAP GS/TS3 Interface** directly onto you
 
 ## Preparation
 
-To begin with, connect to your Dedicated Server via SSH. Use our [SSH Initial Access](vserver-linux-ssh.md) guide if you need help doing this.
+To begin with, connect to your Dedicated Server via SSH. Use our [SSH Initial Access](dedicated-linux-ssh.md) guide if you need help doing this.
 
 ### Creating User
 
@@ -30,7 +30,7 @@ Use the following command to create a user named `gameservers` with an optional 
 
 ```
 sudo useradd -m gameservers
-sudo passwd [your_password] # Optional Password
+sudo passwd gameservers # Optional Password
 ```
 
 Once you have accessed your server and have a user ready, proceed with the installation steps.
