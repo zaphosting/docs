@@ -2252,6 +2252,7 @@ const sidebars = {
         'vserver-linux-wine',
         'vserver-linux-create-gameservice',
         'vserver-linux-arksurvivalascended',
+        'vserver-linux-avorion',
         'vserver-linux-enshrouded',
         'vserver-linux-foundry',
         'vserver-linux-mythofempires',
@@ -2303,6 +2304,7 @@ const sidebars = {
       label: "Dedicated Game Servers",
       items: [
         'vserver-windows-arksurvivalascended',
+        'vserver-windows-avorion',
         'vserver-windows-enshrouded',
         'vserver-windows-foundry',
         'vserver-windows-fs-19',
@@ -2409,6 +2411,7 @@ const sidebars = {
         'dedicated-linux-wine',
         'dedicated-linux-create-gameservice',
         'dedicated-linux-arksurvivalascended',
+        'dedicated-linux-avorion',
         'dedicated-linux-enshrouded',
         'dedicated-linux-foundry',
         'dedicated-linux-mythofempires',
@@ -2456,6 +2459,7 @@ const sidebars = {
       label: "Dedicated Game Servers",
       items: [
         'dedicated-windows-arksurvivalascended',
+        'dedicated-windows-avorion',
         'dedicated-windows-enshrouded',
         'dedicated-windows-foundry',
         'dedicated-windows-fs-19',
