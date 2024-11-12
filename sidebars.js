@@ -145,7 +145,8 @@ const sidebars = {
       label: "Databases",
       items: [
         "gameserver-databases-pma",
-        "gameserver-database-external-access"
+        "gameserver-database-external-access",
+        "gameserver-database-manage-sqlfiles"
       ],
     },
     {
