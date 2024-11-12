@@ -63,4 +63,4 @@ The output should look like this:
 
 ## Conclusion
 
-Congratulations, you have successfully installed and configurated Docker! If you have any further questions or problems, please contact our support team, who are available to help you every day! 
+Congratulations, you have successfully installed and configured Docker! If you have any further questions or problems, please contact our support team, who are available to help you every day! 

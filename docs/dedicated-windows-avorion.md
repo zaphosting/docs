@@ -122,4 +122,4 @@ Now it is time to start your server. Head over to the base directory of your Avo
 
 ## Conclusion
 
-Congratulations, you have successfully installed and configurated the Avorion server on your VPS! If you have any further questions or problems, please contact our support team, who are available to help you every day! 
+Congratulations, you have successfully installed and configured the Avorion server on your VPS! If you have any further questions or problems, please contact our support team, who are available to help you every day! 

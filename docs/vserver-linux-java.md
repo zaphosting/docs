@@ -82,6 +82,6 @@ OpenJDK 64-Bit Server VM (build 11.0.9.1+1-Ubuntu-0ubuntu1.20.04, mixed mode)
 
 ## Conclusion
 
-Congratulations, you have successfully installed and configurated Java! If you have any further questions or problems, please contact our support team, who are available to help you every day! 
+Congratulations, you have successfully installed and configured Java! If you have any further questions or problems, please contact our support team, who are available to help you every day! 
 
 

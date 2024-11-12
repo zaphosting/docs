@@ -206,4 +206,4 @@ The installation as well as the setup of the first domain with encryption is now
 
 ## Conclusion
 
-Congratulations, you have successfully installed and configurated Plesk! If you have any further questions or problems, please contact our support team, who are available to help you every day! 
+Congratulations, you have successfully installed and configured Plesk! If you have any further questions or problems, please contact our support team, who are available to help you every day! 

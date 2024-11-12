@@ -64,4 +64,4 @@ Now we can connect with our set information:
 
 ## Conclusion
 
-Congratulations, you have successfully installed and configurated FTP! If you have any further questions or problems, please contact our support team, who are available to help you every day! 
+Congratulations, you have successfully installed and configured FTP! If you have any further questions or problems, please contact our support team, who are available to help you every day! 

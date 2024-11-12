@@ -21,7 +21,7 @@ The user credentials to access the database are required for this purpose. Those
 
 ## Preparation
 
-First of all we need a Software, in this example we're showing [Navicat](https://www.chip.de/downloads/Navicat-Lite_70358373.html) or [HeidiSQL](https://www.heidisql.com/download.php) Afterwards the downloaded file must be executed and the setup procedure has to be followed. When this step is completed, the program can be started and the connection to the database configurated. 
+First of all we need a Software, in this example we're showing [Navicat](https://www.chip.de/downloads/Navicat-Lite_70358373.html) or [HeidiSQL](https://www.heidisql.com/download.php) Afterwards the downloaded file must be executed and the setup procedure has to be followed. When this step is completed, the program can be started and the connection to the database configured. 
 
 ## HeidiSQL
 
