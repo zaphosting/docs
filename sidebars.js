@@ -2238,6 +2238,7 @@ const sidebars = {
         'vserver-linux-mastodon',
         'vserver-linux-nextcloud',
         'vserver-linux-openvpn',
+        'vserver-linux-php',
         'vserver-linux-phpmyadmin',
         'vserver-linux-plesk',
         'vserver-linux-python',
