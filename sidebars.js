@@ -1762,7 +1762,8 @@ const sidebars = {
         "satisfactory-connect-experimental",
         "satisfactory-savegame",
         "satisfactory-switchexperimental",
-        "satisfactory-commands"
+        "satisfactory-commands",
+        "satisfactory-mods"
       ],
     },
     {
