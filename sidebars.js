@@ -2397,6 +2397,7 @@ const sidebars = {
         'dedicated-linux-mastodon',
         'dedicated-linux-nextcloud',
         'dedicated-linux-openvpn',
+        'dedicated-linux-php',
         'dedicated-linux-phpmyadmin',
         'dedicated-linux-plesk',
         'dedicated-pterodactyl',
