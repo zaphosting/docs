@@ -2288,6 +2288,7 @@ const sidebars = {
         'vserver-windows-addip',
         'vserver-windows-nointernet',
         'vserver-windows-change-language',
+        'vserver-windows-manage-users',
         'vserver-windows-expand-disk',
       ]
     },
