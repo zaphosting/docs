@@ -1,12 +1,15 @@
 ---
-id: dedicated-linux-proxy
-title: "Dedicated Server: Setup a Reverse Proxy"
-description: Information on how to setup a Reverse Proxy on your Dedicated Server from ZAP-Hosting - ZAP-Hosting.com documentation
+id: linux-proxy
+title: "Setup a Reverse Proxy with nginx on Linux"
+description: Information on how to setup a Reverse Proxy on your Linux server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Reverse Proxy
 services:
+  - vserver
   - dedicated
 ---
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
@@ -19,7 +22,7 @@ In this guide, we will explore the process of setting up a general-purpose rever
 
 ## Preparation
 
-In order to setup a reverse proxy, you will require a **Linux Server** (such as a VPS) which will host your proxy server. In this example, we will be using Ubuntu as the Linux distro, but the installation steps should be very similar for most Linux distributions.
+In order to setup a reverse proxy you will require a **Linux Server** (such as a VPS) which will host your proxy server. In this example, we will be using Ubuntu as the Linux distro, but the installation steps should be very similar for most Linux distributions.
 
 :::tip Recommended VPS Specs
 For a reverse proxy tailored to game servers, we highly recommend purchasing higher network speeds, especially if your server has many players. This is because your VPS will be streaming raw TCP/UDP directly between the client (player) and the game server. Otherwise, a server with base specs and minimal upgrades should suffice for a web-related proxy. :)
@@ -33,7 +36,7 @@ With your Linux VPS ready, you will have to connect to it. Please use our [SSH I
 
 ### Installing Nginx
 
-You will be using Nginx to host a reverse proxy server, as it is a highly performant and popular open-source web server.
+You will be using Nginx to host a reverse proxy server as it is a highly performant and popular open-source web server.
 
 Now that you have accessed your VPS, use the following command to install Nginx.
 
@@ -41,7 +44,7 @@ Now that you have accessed your VPS, use the following command to install Nginx.
 sudo apt install nginx
 ```
 
-Once installed, you will have to adjust your firewall to ensure that the service is accessible from the internet. For this guide, we will be using the **UFW Firewall** since Nginx registers itself as an app, making it easy to adjust settings. You can learn more about the UFW Firewall using our [Linux Security Tips](dedicated-linux-security-tips.md) guide.
+Once installed, you will have to adjust your firewall to ensure that the service is accessible from the internet. For this guide, we will be using the **UFW Firewall** since Nginx registers itself as an app, making it easy to adjust settings. You can learn more about the UFW Firewall using our [Linux Security Tips](vserver-linux-security-tips.md) guide.
 
 :::note
 If you are using other firewalls (such as Iptables), please ensure that you provide the relevant firewall access to Nginx, specifically on port 80 and 443 where the nginx service operates.
@@ -72,7 +75,7 @@ One of the biggest benefits is that your server can handle requests from as many
 Begin by creating an entry within the Nginx directory for the domain you selected earlier, which typically will be a subdomain such as `zapdocs.example.com` as in our example.
 
 :::important
-Ensure that you setup an `A` record pointing it at the IP Address of your proxy server before proceeding. Without this, the domain and any subsequent steps will not work as expected.
+Ensure that you set up an `A` record pointing it at the IP Address of your proxy server before proceeding. Without this, the domain and any subsequent steps will not work as expected.
 :::
 
 Access the server block folder using the following command. This is where you will store all of your proxy configurations.
@@ -87,7 +90,7 @@ Now use the following command to create a new config file. We recommend using th
 sudo nano [your_filename]
 ```
 
-This should open the nano editor, which will allow you to enter contents. Copy the following template into the editor. You need to adjust `[your_domain]` with the domain you wish to proxy, followed by `[your_target_server]` for the target server you wish to reach.
+This should open the nano editor, which will allow you to enter contents. Copy the following template into the editor. You need to adjust `[your_domain]` with the domain you wish to proxy followed by `[your_target_server]` for the target server you wish to reach.
 
 ```
 upstream targetServer {
@@ -136,12 +139,34 @@ With the service restarted, you should now test accessing the domain you have us
 A reverse proxy for game servers can be highly beneficial for a variety of reasons, including providing an extra layer of security and reliability by improving mitigation and restricting access to the main host.
 
 :::tip
-Most dedicated game servers should work perfectly well with a raw TCP/UDP endpoint proxy, which you will set up. However, a small minority of games such as BeamMP may not work well with VPNs and proxies, so you will have to test it on a per-game basis.
+Most dedicated game servers should work perfectly well with a raw TCP/UDP endpoint proxy which you will setup. However, a small minority of games such as BeamMP may not work well with VPNs and proxies, so you will have to test it on a per-game basis.
 :::
 
 ### Nginx Setup
 
-Setting this up requires the **Nginx Stream** module, which should be installed by default. You will be adding a new `stream` block to the main `nginx.conf` file where you will define the upstream server and what port it should be accessed by on your proxy.
+Setting this up requires the **Nginx Stream** module, which is not part of a default Nginx build.
+
+#### Install Nginx stream module
+
+<Tabs>
+
+<TabItem value="ubuntu-debian" label="Ubuntu & Debian" default>
+```bash
+sudo apt install -y libnginx-mod-stream
+```
+</TabItem>
+
+<TabItem value="centos-fedora" label="CentOS & Fedora">
+```bash
+sudo dnf -y install nginx-mod-stream 
+```
+</TabItem>
+
+</Tabs>
+
+#### Nginx stream configuration
+
+You will be adding a new `stream` block to the main `nginx.conf` file where you will define the upstream server and what port it should be accessed by on your proxy.
 
 Simply open up the file using the following command.
 
@@ -180,10 +205,8 @@ With the service restarted, you should attempt to connect to your game server vi
 
 ## SSL Certificate
 
-With your chosen reverse proxy now setup, we highly recommend adding an SSL Certificate to your used domains to ensure that the site transmits data securely via HTTPS.
-
-Please check out our [Install Certbot](dedicated-linux-certbot.md) guide, which covers the entire process of requesting and automatically renewing SSL Certificates for your domain(s).
+With your chosen reverse proxy now setup, we highly recommend adding an SSL Certificate to your used domains to ensure that the site transmits data securely via HTTPS. Please check out our [Install Certbot](linux-certbot.md) guide, which covers the entire process of requesting and automatically renewing SSL Certificates for your domain(s).
 
 ## Conclusion
 
-You have successfully set up a reverse proxy for either a website or your game server (or both :), providing you with various security, reliability and performance improvements. For further questions or assistance, please don’t hesitate to contact our support team, which is available daily to assist you! 🙂
+Congratulations, you have successfully setup a reverse proxy for either a website or your game server (or both :), providing you with various security, reliability and performance improvements. For further questions or assistance, please don’t hesitate to contact our support team, which is available daily to assist you! 🙂

@@ -2217,19 +2217,19 @@ const sidebars = {
         'vserver-linux-ssl',
         'vserver-linux-rsync',
         'vserver-linux-security-tips',
-        'vserver-linux-proxy'
+        'linux-proxy'
       ]
     },
     {
       type: "category",
       label: "Services",
       items: [
-        'vserver-linux-certbot',
+        'linux-certbot',
         'vserver-linux-cockpit',	
         'vserver-linux-databases',
         'vserver-linux-docker',
         'vserver-linux-ftp-install',
-        'vserver-linux-gitlab',
+        'linux-gitlab',
         'vserver-linux-java',
         'vserver-linux-javascript',
         'vserver-linux-jitsi',
@@ -2376,17 +2376,17 @@ const sidebars = {
       defaultStyle: true,
     },
     'dedicated-linux-gs-interface',
-    'dedicated-linux-proxy',
+    'linux-proxy',
     {
       type: "category",
       label: "Services",
       items: [
-        'dedicated-linux-certbot',
+        'linux-certbot',
         'dedicated-linux-cockpit',	
         'dedicated-linux-databases',
         'dedicated-linux-docker',
         'dedicated-linux-ftp-install',
-        'dedicated-linux-gitlab',
+        'linux-gitlab',
         'dedicated-linux-java',
         'dedicated-linux-javascript',
         'dedicated-linux-jitsi',
