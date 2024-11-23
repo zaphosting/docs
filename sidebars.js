@@ -2309,6 +2309,7 @@ const sidebars = {
       items: [
         'vserver-windows-arksurvivalascended',
         'vserver-windows-avorion',
+        'vserver-windows-conan',
         'vserver-windows-enshrouded',
         'vserver-windows-foundry',
         'vserver-windows-fs-19',
@@ -2465,6 +2466,7 @@ const sidebars = {
       items: [
         'dedicated-windows-arksurvivalascended',
         'dedicated-windows-avorion',
+        'dedicated-windows-conan',
         'dedicated-windows-enshrouded',
         'dedicated-windows-foundry',
         'dedicated-windows-fs-19',
