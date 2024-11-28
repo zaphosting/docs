@@ -300,7 +300,8 @@ const sidebars = {
             'scp-firststeps-dashboard',
             "scp-firststeps-connect",
           ]
-        },		
+        },
+        "scp-beta-version",		
         "scp-becomeadmin",
         "scp-newroles",
         "scp-colored-servername",
@@ -1775,7 +1776,8 @@ const sidebars = {
             "scp-firststeps-dashboard",
             "scp-firststeps-connect"
           ]
-        },		
+        },	
+        "scp-beta-version",	
         "scp-becomeadmin",
         "scp-newroles",
         "scp-colored-servername",
