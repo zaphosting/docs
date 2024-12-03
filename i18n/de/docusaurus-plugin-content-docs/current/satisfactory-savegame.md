@@ -1,8 +1,8 @@
 ---
 id: satisfactory-savegame
-title: "Satisfactory: Savegame Manager"
-description: Information, zu den Verwaltungsmöglichkeiten von Savegames über den Savegames Manager bei deinem Satisfactory Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
-sidebar_label: Savegame Manager
+title: "Satisfactory: Manage Savegames"
+description: Informationen über die Verwaltung von Savegames auf deinem Satisfactory-Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
+sidebar_label: Managing Savegames
 services:
   - gameserver
 ---
@@ -11,78 +11,68 @@ import YouTube from '@site/src/components/YouTube/YouTube';
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
-Du kannst deine Spielstände ganz einfach über unsere Website bearbeiten. Mit nur wenigen Klicks kannst du deine Savegames verwalten, hochladen und wiederherstellen. Navigieren dazu im Dashboard deines Servers zu `Savegame Manager`.
 
-<YouTube videoId="EC4FXT5Mwb8" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/j9XYs8KrtAoActY/preview" title="How to create a Satisfactory Server at ZAP and upload your own save-game" description="Feel like you understand better when you see things in action? We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
-
-:::info
-Dein Server speichert automatisch in Abständen von 5 Minuten und behält immer die letzten 6 automatischen Speicherungen.
-:::
+In dieser Anleitung erfährst du, wie du deine Satisfactory-Spielstände auf deinem Spielserver verwaltest, einschließlich der Sicherung deiner lokalen und Server-Spielstände sowie des Hochladens auf deinen Server.
 
 <InlineVoucher />
 
-## Savegame herunterladen
+## Voraussetzungen
 
-Das Herunterladen deines Spielstands ist sehr einfach. Gehe dazu zum Abschnitt `Savegame Manager` im Webinterface:
+Um auf deine Serverdateien zugreifen zu können, benötigst du einen FTP-Client wie [WinSCP](https://winscp.net/eng/index.php) oder [FileZilla](https://filezilla-project.org/), die beide Open-Source und kostenlos zum Download zur Verfügung stehen.
 
-![Screenshot 2023-02-04 002245](https://screensaver01.zap-hosting.com/index.php/s/s64inQcSd9XXStP/preview)
+Du musst dich über einen FTP-Client mit deinem Server verbinden und dabei die Anmeldedaten verwenden, die du unter **Tools->FTP-Broswer** auf der Weboberfläche deines Spielservers findest. Bitte verwende unseren Leitfaden [Zugang über FTP](gameserver-ftpaccess.md) als weitere Hilfe, um dich mit deinem Server zu verbinden.
 
-Scrolle nach unten und am unteren Ende der Seite siehst du deine aktiven Spielstände und alle Sicherungen, die du derzeit von deinen Spielständen hast. Zum Herunterladen klickst du einfach auf die Schaltfläche "Herunterladen" auf der rechten Seite der Datei, die du herunterladen möchtest.
+## Backup Savegame
 
-![Screenshot 2023-02-04 003915](https://screensaver01.zap-hosting.com/index.php/s/dSQ29FX7myyk9pM/preview)
+### Lokales Savegame
 
+Lokale Savegames sind solche, die du erstellt hast, während du entweder im Einzelspieler-Modus gespielt oder ein Multiplayer-Spiel lokal auf deinem Gerät gehostet hast. Diese befinden sich in deinen Windows AppData, genauer gesagt unter folgendem Pfad:
+```
+../AppData/Local/FactoryGame/Saved/SaveGames
+```
 
+:::tip
+Du kannst direkt auf diesen Pfad zugreifen, indem du gleichzeitig `STRG + R` drückst und im Ausführen-Dialog nach dem folgenden Pfad suchst: `%localappdata%/FactoryGame/Saved/SaveGames`. Drücke einfach auf **OK** und du gelangst zum Ordner.
 
-## Eigenes Savegame verwenden
-
-Die Verwendung eines eigenen Spielstandes ist sehr einfach, indem du den Savegame Uploader Bereich des Savegame Managers benutzt.
-Allerdings musst du zunächst das Savegame auf deinem eigenen Computer finden.
-
-:::info
-Es kann vorkommen, dass dein Inventar nicht richtig gespeichert wird. Stelle also sicher, dass du die Gegenstände in die Kisten legst und speicherst, bevor du weitermachst.
+![](https://screensaver01.zap-hosting.com/index.php/s/pbXDwJWfEPtbAY3/preview)
 :::
 
-Drücke `Windows-Key + R` und kopiere diesen Pfad dort hinein: `%LOCALAPPDATA%\FactoryGame\Saved\SaveGames\`
-Nun befindest du dich im Ordner "SaveGames" deines Satisfactory-Spiels. Drücke jetzt auf den Ordner mit den vielen Zahlen (grün auf dem Screenshot).
+An diesem Ort kannst du einen Ordner sehen, der deine lokalen Savegames an einem Ort enthält.
 
-![Screenshot 2023-02-04 004351](https://screensaver01.zap-hosting.com/index.php/s/Rofi38CyfkC3ZTe/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/knB2RkXYGNR7J5M/preview)
 
-Du bist jetzt in deinem Savegame-Verzeichnis deines Spiels. In diesem Ordner kannst du alle Savegames sehen, die du hast.
-Du solltest in der Lage sein, die Savegames anhand des Dateinamens, des Datums, des Zeitstempels oder der Größe zu identifizieren. Wenn du Autosaves verwendest, ist `x_autosave_0` immer das Letzte, das gespeichert wurde.
+### Zugriff auf das Savegame über FTP
 
-![Screenshot 2023-02-04 004903](https://screensaver01.zap-hosting.com/index.php/s/9Xs25BmWZpnZBsm/preview)
+Das Sichern deines Spielstands vom Server ist ganz einfach. Sobald du dich über einen FTP-Client mit deinem Spielserver verbunden hast, gehe zum folgenden Pfad:
+```
+../satisfactory/save-backups
+```
 
-:::info
-Optional: Wir empfehlen, alles außer dem Namen des Spielstands selbst zu entfernen, um ihn in Zukunft leichter identifizieren zu können. In diesem Beispiel würde das Savegame "Factory" heißen.
+An dieser Stelle solltest du einen Ordner mit einer Reihe von zufälligen Zeichen sehen, der dein Spielstand ist. Klicke einfach mit der rechten Maustaste auf den Ordner und verwende die Schaltfläche "Download", um ihn lokal auf deinem Gerät zu speichern.
+
+![](https://screensaver01.zap-hosting.com/index.php/s/feHc74QHrzPwo24/preview)
+
+### Automatisches Backup
+
+Wir bieten auch die Möglichkeit, ein automatisches Backup deines Savegames (und deiner Konfigurationsdatei) direkt über unser Webinterface zu erstellen. Rufe einfach das Webinterface deines Gameservers auf und gehe in den Bereich **Tools->Backups**. Hier kannst du eine Reihe von Optionen konfigurieren, um automatische Backups für deinen Server zu planen. Wir stellen dir 10gb kostenlosen Backup-Speicher zur Verfügung, in dem deine Backups gespeichert werden. Weitere Informationen zu Backups findest du in unserer [Backups](gameserver-backups.md) zu diesem Thema.
+
+## Savegame hochladen
+
+Ähnlich wie das Erstellen von Backups ist auch das Hochladen deines Savegames einfach. Stelle zunächst sicher, dass du über einen FTP-Client mit deinem Spielserver verbunden bist. Wenn du bereit bist, gehe zum folgenden Pfad:
+```
+../satisfactory/save-backups
+```
+
+![](https://screensaver01.zap-hosting.com/index.php/s/8WsKYjYzNk54A65/preview)
+
+Ziehe einfach eines deiner Savegames per Drag-and-Drop über deinen FTP-Client in diesen Ordner und es wird auf deinen Server hochgeladen.
+
+:::tip
+Es kann nützlich sein, den Namen des hochgeladenen Savegame-Ordners zu kopieren, da du diesen benötigst, wenn du ihn im nächsten Abschnitt aktivieren möchtest.
 :::
 
-Lade nun deine Datei über den Savegame Manager per Drag & Drop auf deinen Server hoch:
+## Savegame aktivieren
 
-![Screenshot 2023-02-04 005404(1)](https://screensaver01.zap-hosting.com/index.php/s/jfFyga3GGJDrcbT/preview)
+Die Verwendung deines Savegames ist sehr einfach. Du kannst dies entweder über den Satisfactory Server Manager im Spiel verwalten oder indem du zum Dashboard deines Servers gehst und den Abschnitt "Savegame Manager" verwendest.
 
-Stelle zum Schluss sicher, dass du das `Active savegame` oben auf der Seite in den Namen des hochgeladenen Spiels änderst und drücke auf Speichern! In diesem Beispiel heißt die hochgeladene Datei "Factory", also wird sie in diesen Namen geändert.
-
-![Screenshot 2023-02-04 005836](https://screensaver01.zap-hosting.com/index.php/s/Tm4WSYeygwAqJzR/preview)
-
-Wenn du nun das nächste Mal den Server startest, wird das Savegame geladen.
-
-
-
-## Savegames bearbeiten
-Wenn du dein Savegame verändern möchtest, um beispielsweise zu cheaten, ist das Editieren deines Savegames die einzige Möglichkeit dazu.
-Dafür kannst du [das Satisfactory Save Editor Tool] (https://github.com/Goz3rr/SatisfactorySaveEditor) verwenden.
-
-:::info
-Wir können die volle Funktionalität des Tools nicht garantieren, da es sich um ein Open-Source-Projekt handelt. 
-:::
-
-Downloade das Savegame von deinem Savegame-Manager und öffne es im Savegame-Editor ("Datei > Zuletzt öffnen")
-
-Wenn du zum Beispiel das Inventar ändern möchtest, suche nach:
-`FactoryGame.FGInventoryComponent` in dieser Suche nach `Persistent_Level:PersistentLevel.Char_Player_C *************.Inventory`
-
-Wenn du mehr Spieler hast, gibt es mehr Einträge, du könntest den Spieler anhand der Gegenstände im Inventar identifizieren. Wenn du zum Beispiel die Anzahl der Machtsplitter in deinem Inventar ändern möchtest, suche nach diesem Gegenstand und ändere den Wert in "NumItems".
-
-Wenn du mit deinen Änderungen fertig bist, öffne "Datei" und drücke Speichern. Jetzt kannst du das bearbeitete Savegame wieder hochladen und den Server starten.
-
-Der Savegame-Editor bietet dir noch einige weitere Cheats, öffne dazu einfach den "Cheats"-Tab
+Du hast deinem Spielserver erfolgreich ein Savegame hinzugefügt.
