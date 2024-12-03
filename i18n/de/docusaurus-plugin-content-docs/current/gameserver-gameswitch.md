@@ -27,6 +27,12 @@ Du befindest dich nun im Abschnitt Spielwechsel, in dem du Spielinstallationen v
 
 Im Abschnitt **Spiele** auf deiner Webschnittstelle siehst du eine Liste der derzeit installierten Spiele. Außerdem siehst du die Spielversion und verschiedene Schaltflächen zum Verwalten der Spielinstallation.
 
+:::info Lifetime Game Servers
+Bei unserem Produkt Lifetime Game Server gelten andere Preise für die Spielwechsel-Funktion. Für jedes Spiel, das du dauerhaft auf deinem Lifetime Game Server besitzen möchtest, fällt eine **einmalige** Gebühr von **30 €** pro Spiel an, das du erwerben möchtest. Nach dem Kauf ist das Spiel **dauerhaft** auf diesem bestimmten Lifetime Game Server verfügbar und kann daher jederzeit gewechselt werden.
+
+Abgesehen von den Preisen für lebenslange Spieleserver ist der Spielwechselprozess genau derselbe, nur dass die Spiele gekauft werden und nicht auf die Slot-Preise zurückgegriffen wird.
+:::
+
 ![](https://screensaver01.zap-hosting.com/index.php/s/LjfzWgWY3rrC87D/preview)
 
 ### Neues Spiel installieren

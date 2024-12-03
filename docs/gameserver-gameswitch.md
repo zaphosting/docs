@@ -27,6 +27,12 @@ You will now be on the Game Switch section, where you can manage game installs, 
 
 Within the **Games** section on your Web Interface, you will be able to see a list of currently installed games. Besides you will be able to see the game version & various buttons for managing the game installation.
 
+:::info Lifetime Game Servers
+With our Lifetime Game Server product, the game switch feature pricing works differently. For each game that you wish to permanently own on your lifetime game server, there is a **one-time** fee of **€30** per game you wish to purchase. Upon purchase, the game will become **permanently** available on that specific lifetime game server and can therefore be switched to at any time.
+
+Other than the pricing for lifetime game servers, the game switch process is exactly the same but with the purchase of games instead of relying on slot prices.
+:::
+
 ![](https://screensaver01.zap-hosting.com/index.php/s/JJfYoRSi3M26qbc/preview)
 
 ### Installing New Game
