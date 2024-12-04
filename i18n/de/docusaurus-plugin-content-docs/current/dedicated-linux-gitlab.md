@@ -1,10 +1,9 @@
 ---
-id: linux-gitlab
-title: "GitLab auf Linux-Server installieren"
-description: Informationen zur Einrichtung von GitLab auf deinem Linux-Server von ZAP-Hosting - ZAP-Hosting.com-Dokumentation
+id: dedicated-linux-gitlab
+title: "Dedicated Server: GitLab unter Linux installieren"
+description: Informationen zur Einrichtung von GitLab auf deinem Linux-Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: GitLab installieren
 services:
-  - vserver
   - dedicated
 ---
 

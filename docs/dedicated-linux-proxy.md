@@ -1,10 +1,9 @@
 ---
-id: linux-proxy
-title: "Setup a Reverse Proxy with nginx on Linux"
-description: Information on how to setup a Reverse Proxy on your Linux server from ZAP-Hosting - ZAP-Hosting.com documentation
+id: dedicated-linux-proxy
+title: "Dedicated Server: Setup a Reverse Proxy with nginx on Linux"
+description: Information on how to setup a Reverse Proxy on your Linux Dedicated Server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Reverse Proxy
 services:
-  - vserver
   - dedicated
 ---
 
@@ -22,7 +21,7 @@ In this guide, we will explore the process of setting up a general-purpose rever
 
 ## Preparation
 
-In order to setup a reverse proxy you will require a **Linux Server** (such as a VPS) which will host your proxy server. In this example, we will be using Ubuntu as the Linux distro, but the installation steps should be very similar for most Linux distributions.
+In order to setup a reverse proxy you will require a **Linux Server** which will host your proxy server. In this example, we will be using Ubuntu as the Linux distro, but the installation steps should be very similar for most Linux distributions.
 
 :::tip Recommended VPS Specs
 For a reverse proxy tailored to game servers, we highly recommend purchasing higher network speeds, especially if your server has many players. This is because your VPS will be streaming raw TCP/UDP directly between the client (player) and the game server. Otherwise, a server with base specs and minimal upgrades should suffice for a web-related proxy. :)
@@ -205,7 +204,7 @@ With the service restarted, you should attempt to connect to your game server vi
 
 ## SSL Certificate
 
-With your chosen reverse proxy now setup, we highly recommend adding an SSL Certificate to your used domains to ensure that the site transmits data securely via HTTPS. Please check out our [Install Certbot](linux-certbot.md) guide, which covers the entire process of requesting and automatically renewing SSL Certificates for your domain(s).
+With your chosen reverse proxy now setup, we highly recommend adding an SSL Certificate to your used domains to ensure that the site transmits data securely via HTTPS. Please check out our [Install Certbot](dedicated-linux-certbot.md) guide, which covers the entire process of requesting and automatically renewing SSL Certificates for your domain(s).
 
 ## Conclusion
 

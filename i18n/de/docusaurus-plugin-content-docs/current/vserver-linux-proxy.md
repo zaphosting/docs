@@ -1,11 +1,10 @@
 ---
-id: linux-proxy
-title: "Reverse-Proxy mit nginx auf Linux-Server einrichten"
-description: Informationen zur Einrichtung eines Reverse-Proxys auf deinem Linux-Server von ZAP-Hosting - ZAP-Hosting.com-Dokumentation
+id: vserver-linux-proxy
+title: "vServer: Reverse-Proxy mit nginx unter Linux einrichten"
+description: Informationen zur Einrichtung eines Reverse-Proxys auf deinem Linux vServer von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Reverse-Proxy
 services:
   - vserver
-  - dedicated
 ---
 
 import Tabs from '@theme/Tabs';
@@ -199,7 +198,7 @@ Nach dem Neustart des Dienstes solltest du versuchen, dich über die Proxy-Domai
 
 Nachdem der von dir gewählte Reverse-Proxy nun eingerichtet ist, empfehlen wir dringend, ein SSL-Zertifikat zu deinen verwendeten Domains hinzuzufügen, um sicherzustellen, dass die Website Daten sicher über HTTPS überträgt.
 
-Bitte lies dir unsere Anleitung [Install Certbot](linux-certbot.md) durch, die den gesamten Prozess der Beantragung und automatischen Verlängerung von SSL-Zertifikaten für deine Domain(s) abdeckt.
+Bitte lies dir unsere Anleitung [Install Certbot](vserver-linux-certbot.md) durch, die den gesamten Prozess der Beantragung und automatischen Verlängerung von SSL-Zertifikaten für deine Domain(s) abdeckt.
 
 ## Abschluss
 
