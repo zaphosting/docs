@@ -1,6 +1,6 @@
 ---
 id: dedicated-linux-certbot
-title: "VPS: Installation von Certbot"
+title: "Dedicated Server: Certbot unter Linux einrichten"
 description: Informationen zur Einrichtung von Certbot auf deinem Linux Dedicated Server von ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Certbot installieren
 services:
@@ -18,9 +18,9 @@ SSL-Zertifikate sind ein wesentlicher Bestandteil des Internets und stellen sich
 
 ## Vorbereitung
 
-Um Certbot nutzen zu können, benötigst du einen Linux VPS und eine **Domain**, die dir gehört. Du musst Zugriff auf die DNS-Einstellungen der Domain haben und **musst** für jede Root-Domain oder Sub-Domain, die du verwenden möchtest, einen `A`-DNS-Eintrag erstellen, der auf die IP-Adresse deines __Linux VPS__ verweist.
+Um Certbot nutzen zu können, benötigst du einen Linux-Server und eine **Domain**, die dir gehört. Du musst Zugriff auf die DNS-Einstellungen der Domain haben und **musst** für jede Root-Domain oder Sub-Domain, die du verwenden möchtest, einen `A`-DNS-Eintrag erstellen, der auf die IP-Adresse deines __Linux-Server__ verweist.
 
-Certbot verfügt außerdem über zusätzliche Plugins, mit denen du ganz einfach mit einem Klick ein Zertifikat für eine Domain einrichten kannst, das mit einer Vielzahl von Webservern wie Nginx oder Apache funktioniert. Wir empfehlen die Verwendung von Nginx, da es sich um einen hochleistungsfähigen und beliebten Open-Source-Webserver handelt. Weitere Informationen zur Einrichtung findest du in unserem [Linux-Proxy](dedicated-linux-proxy.md) Anleitung.
+Certbot verfügt außerdem über zusätzliche Plugins, mit denen du ganz einfach mit einem Klick ein Zertifikat für eine Domain einrichten kannst, das mit einer Vielzahl von Webservern wie Nginx oder Apache funktioniert. Wir empfehlen die Verwendung von Nginx, da es sich um einen hochleistungsfähigen und beliebten Open-Source-Webserver handelt. Weitere Informationen zur Einrichtung findest du in unserer [Linux-Reverse-Proxy](dedicated-linux-proxy.md) Anleitung.
 
 ## Installation
 

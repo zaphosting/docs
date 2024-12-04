@@ -301,7 +301,8 @@ const sidebars = {
             'scp-firststeps-dashboard',
             "scp-firststeps-connect",
           ]
-        },		
+        },
+        "scp-beta-version",		
         "scp-becomeadmin",
         "scp-newroles",
         "scp-colored-servername",
@@ -1777,7 +1778,8 @@ const sidebars = {
             "scp-firststeps-dashboard",
             "scp-firststeps-connect"
           ]
-        },		
+        },	
+        "scp-beta-version",	
         "scp-becomeadmin",
         "scp-newroles",
         "scp-colored-servername",
@@ -2316,6 +2318,7 @@ const sidebars = {
         'vserver-windows-fs-19',
         'vserver-windows-fs-22',
         'vserver-windows-fs-22-epic',
+        'vserver-windows-fs-25',
         'vserver-windows-mythofempires',
         'vserver-windows-openmp',
         'vserver-windows-palworld',
@@ -2474,6 +2477,7 @@ const sidebars = {
         'dedicated-windows-fs-19',
         'dedicated-windows-fs-22',
         'dedicated-windows-fs-22-epic',
+        'dedicated-windows-fs-25',
         'dedicated-windows-mythofempires',
         'dedicated-windows-openmp',
         'dedicated-windows-palworld',

@@ -1,6 +1,6 @@
 ---
 id: vserver-linux-certbot
-title: "VPS: Installation of Certbot"
+title: "VPS: Setup Certbot on Linux"
 description: Information on how to setup Certbot on your Linux VPS from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Install Certbot
 services:
@@ -19,9 +19,9 @@ SSL Certificates are essential parts of the internet, ensuring that data can be 
 
 ## Preparation
 
-In order to make use of Certbot, you will require a Linux VPS and a **Domain** that you own. You need to have access to the DNS Settings of the Domain and you **must** create an `A` DNS record poitning at the IP Address of your __Linux VPS__ for each root domain or sub domain you plan to use.
+In order to make use of Certbot, you will require a Linux server and a **Domain** that you own. You need to have access to the DNS Settings of the Domain and you **must** create an `A` DNS record poitning at the IP Address of your __Linux server__ for each root domain or sub domain you plan to use.
 
-Certbot also had additional plugins which allows you to easily "one-click" setup a certificate for a domain which works with a variety of web servers such as Nginx or Apache. We recommend using Nginx as it is a highly performant and popular open-source web server. See our [Linux Proxy](vserver-linux-proxy.md) guide for help setting this up.
+Certbot also had additional plugins which allows you to easily "one-click" setup a certificate for a domain which works with a variety of web servers such as Nginx or Apache. We recommend using Nginx as it is a highly performant and popular open-source web server. See our [Linux reverse proxy](vserver-linux-proxy.md) guide for help setting this up.
 
 ## Installation
 
