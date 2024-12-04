@@ -1,17 +1,19 @@
 ---
 id: dedicated-linux-gitlab
-title: "Dedicated Server: Installation von GitLab"
-description: Informationen zur Einrichtung von GitLab auf deinem Linux Dedicated Server von ZAP-Hosting - ZAP-Hosting.com-Dokumentation
-sidebar_label: Installiere GitLab
+title: "Dedicated Server: GitLab unter Linux installieren"
+description: Informationen zur Einrichtung von GitLab auf deinem Linux-Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
+sidebar_label: GitLab installieren
 services:
   - dedicated
 ---
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-GitLab ist eine umfassende DevOps-Plattform, die es Teams ermöglicht, gemeinsam an Code zu arbeiten, Arbeitsabläufe zu automatisieren und den gesamten Softwareentwicklungszyklus effizient zu verwalten. In dieser Anleitung wird die Installation von GitLab auf einem Linu Dedicated Server erläutert.
+GitLab ist eine umfassende DevOps-Plattform, die es Teams ermöglicht, gemeinsam an Code zu arbeiten, Arbeitsabläufe zu automatisieren und den gesamten Softwareentwicklungszyklus effizient zu verwalten. In dieser Anleitung wird die Installation von GitLab auf einem Linux-Server erläutert.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/CnL5ab23Kp62LdC/preview)
 
@@ -49,29 +51,9 @@ Um GitLab auf deinem Linux-Server zu installieren, muss eine Verbindung über ei
 
 Sobald die Verbindung hergestellt ist, kannst du mit der Installation der erforderlichen Pakete beginnen, die für die eigentliche Installation von GitLab benötigt werden.
 
-## Schritt 1: Linux-Server aktualisieren
+## Schritt 1: Abhängigkeiten installieren
 
-Vor der Installation von Abhängigkeiten müssen einige Updates und Tools installiert werden, um die Abhängigkeiten zu installieren, die für die Installation von GitLab verwendet werden.
-
-Verwende die folgenden Befehle, um die erforderlichen Tools auf deinem Linux-Server zu aktualisieren und zu installieren. Wenn du bereits eine Firewall eingerichtet hast, musst du die Firewall-Befehle nicht verwenden. Stelle sicher, dass du Port 80/443 und Port 22 zulässt.
-```
-apt update # Neueste Updates abrufen
-sudo apt install curl # CURL installieren
-
-# Installiere und aktiviere UFW Firewall
-sudo apt install ufw
-sudo ufw enable
-sudo ufw allow http
-sudo ufw allow https
-sudo ufw allow OpenSSH
-```
-
-## Schritt 2: Abhängigkeiten installieren
-
-Als Nächstes musst du einige Abhängigkeiten installieren, um den GitLab-Installer ausführen zu können. Verwende die folgenden Befehle, um die erforderlichen Abhängigkeiten auf deinem Linux-Server zu installieren.
-
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
+Zunächst musst du einige Abhängigkeiten installieren, um den GitLab-Installer ausführen zu können. Verwende die folgenden Befehle, um die erforderlichen Abhängigkeiten auf deinem Linux-Server zu installieren.
 
 <Tabs>
 <TabItem value="ubuntu" label="Ubuntu" default>
@@ -147,29 +129,47 @@ Während der Installation von Postfix wird möglicherweise eine Konfiguration an
 Wenn du eine andere Lösung zum Senden von E-Mails verwenden möchtest, überspringe bitte diesen Schritt und [konfiguriere einen externen SMTP-Server](https://docs.gitlab.com/omnibus/settings/smtp), nachdem GitLab auf deinem Linux-Server installiert wurde, indem du einer Anleitung des offiziellen GitLab-Teams folgst.
 :::
 
-## Schritt 3: GitLab installieren
+## Schritt 2: GitLab installieren
 
 Nachdem du alle erforderlichen Abhängigkeiten heruntergeladen und installiert hast, kannst du nun GitLab installieren.
 
-Beginne damit, in das Verzeichnis `/tmp` zu wechseln.
-```
-cd /tmp
-```
+In unserer Anleitung installieren wir GitLab aus deren offiziellen Package-Repositories.
 
-Lade anschließend das GitLab-Installationsskript herunter und fahre mit dem folgenden Befehl fort.
+<Tabs>
+
+<TabItem value="ubuntu-debian" label="Ubuntu & Debian" default>
+Folgendes Skript fügt das Repository automatisch dem apt-Package-Manager hinzu:
+
 ```
 curl https://packages.gitlab.com/install/repositories/gitlab/gitlab-ee/script.deb.sh | sudo bash
 ```
 
-Um GitLab zu installieren, führe schließlich das folgende Installationsskript basierend auf deiner Linux-Distribution aus, um den Prozess zu starten.
+Im Anschluss kann das `gitlab-ee`-Paket installiert werden:
+
+```bash
+sudo apt-get install -y gitlab-ee
 ```
-apt-get install gitlab-ee # Ubuntu/Debian
-zypper install gitlab-ee # OpenSUSE
+</TabItem>
+
+<TabItem value="opensuse" label="OpenSUSE" default>
+Folgendes Skript fügt das Repository automatisch dem Zypper-Package-Manager hinzu:
+
 ```
+curl -sS https://packages.gitlab.com/install/repositories/gitlab/gitlab-ee/script.rpm.sh | sudo bash
+```
+
+Im Anschluss kann das `gitlab-ee`-Paket installiert werden:
+
+```bash
+sudo zypper install gitlab-ee
+```
+</TabItem>
+
+</Tabs>
 
 Sobald dieser Prozess abgeschlossen ist, sollte GitLab auf deinem Linux-Server einsatzbereit sein. Fahre mit dem folgenden Abschnitt fort, in dem du einige grundlegende Einstellungen konfigurierst, um sicherzustellen, dass der Server funktionsfähig ist.
 
-## Schritt 4: GitLab konfigurieren
+## Schritt 3: GitLab konfigurieren
 
 Um sicherzustellen, dass alles funktioniert, musst du einige Änderungen an der Konfigurationsdatei vornehmen. Öffne zunächst die GitLab-Konfigurationsdatei mit deinem bevorzugten Texteditor. Als Beispiel verwenden wir den vorgefertigten `nano`-Editor.
 ```
@@ -232,7 +232,7 @@ sudo gitlab-ctl reconfigure
 
 Dieser Vorgang kann eine Weile dauern, da GitLab mit den aktualisierten Konfigurationsinformationen und automatisierten Prozessen initialisiert wird. Die SSL-Zertifikate werden auch ausgestellt, wenn eine Domain verwendet wurde.
 
-## Schritt 5: Zugriff auf die Webschnittstelle
+## Schritt 4: Zugriff auf die Webschnittstelle
 
 Nach der Initialisierung sollte der Server nun über einen Webbrowser zugänglich sein. Rufe deine Website auf, indem du deinen Domainnamen oder deine IP-Adresse wie folgt eingibst.
 ```
@@ -272,6 +272,51 @@ Gib den Benutzernamen und das Passwort auf der Anmeldeseite ein, um dein GitLab-
 ![](https://screensaver01.zap-hosting.com/index.php/s/QbkNcp4Kd3Eeon2/preview)
 
 Wir empfehlen dringend, einen neuen Benutzer anzulegen und/oder das Passwort für deinen `root`-Benutzer zu ändern. Dies kann alles über den Zugriff auf **Admin** in der linken unteren Ecke und die Auswahl von **Übersicht->Benutzer** erfolgen. Auf dieser Seite kannst du die Benutzer für deine GitLab-Instanz verwalten.
+
+## Optional: Firewall mit ufw einrichten
+
+Falls du bereits eine andere Firewall hast, z. B. `firewalld` in OpenSUSE, oder keine Firewall möchtest, kannst du diesen Schritt überspringen und bist fertig.
+Stelle sicher, dass Port 80/443 und 22 zugänglich sind.
+
+### ufw installieren
+
+Falls du `ufw` bereits installiert hast, kannst du diesen Schritt einfach überpringen.
+
+<Tabs>
+
+<TabItem value="ubuntu-debian" label="Ubuntu & Debian" default>
+```bash
+sudo apt-get install -y ufw
+```
+</TabItem>
+
+<TabItem value="opensuse" label="OpenSUSE" default>
+```bash
+sudo zypper install ufw
+```
+</TabItem>
+
+</Tabs>
+
+### Benötigte Ports freischalten
+
+```
+sudo ufw allow http
+sudo ufw allow https
+sudo ufw allow OpenSSH
+```
+
+### Firewall aktiv schalten
+
+:::warning
+In diesem Schritt werden alle Verbindungen zu Ports, die nicht explizit freigeschaltet wurden, blockiert. Stelle also vorher sicher, dass die Whitelist korrekt konfiguriert ist.
+:::
+
+Damit die Firewall greift, musss sie aktiviert werden.
+
+```
+sudo ufw enable
+```
 
 ## Abschluss
 

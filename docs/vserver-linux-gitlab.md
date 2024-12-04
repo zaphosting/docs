@@ -1,12 +1,14 @@
 ---
 id: vserver-linux-gitlab
-title: "VPS: Installation of GitLab"
-description: Information on how to set up GitLab on your Linux Server from ZAP-Hosting - ZAP-Hosting.com documentation
+title: "VPS: Install GitLab on Linux"
+description: Information on how to set up GitLab on your Linux VPS from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Install GitLab
 services:
   - vserver
 ---
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
@@ -49,36 +51,17 @@ A connection has to be established via a SSH client in order to install GitLab o
 
 Once the connection is established, you can begin to install the necessary packages that are required for the actual installation of GitLab.
 
-## Step 1: Updating Linux Server
+## Step 1: Installing Dependencies
 
-Before installing dependencies, you have to install some updates and some tools to install the dependencies which will be used to install GitLab.
-
-Use the following commands to update and install the required tools on your Linux server. If you have an existing firewall setup, you don't have to use the firewall commands. Ensure that you allow port 80/443 and port 22.
-```
-apt update # Fetch latest updates
-sudo apt install curl # Install CURL
-
-# Install & Enable UFW Firewall
-sudo apt install ufw
-sudo ufw enable
-sudo ufw allow http
-sudo ufw allow https
-sudo ufw allow OpenSSH
-```
-
-## Step 2: Installing Dependencies
-
-Next, you have to install some dependencies in order run the GitLab installer. Use the following commands to install required dependencies on your Linux server.
-
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
+First, you have to install some dependencies in order run the GitLab installer. Use the following commands to install required dependencies on your Linux server.
 
 <Tabs>
 <TabItem value="ubuntu" label="Ubuntu" default>
 
-Install the OpenSSH Server package alongside the prerequisities it requires using the following command. This is how your web interface panel for GitLab will be hosted.
+Update package list to the latest version and install the OpenSSH Server package alongside the prerequisites it requires using the following command. This is how your web interface panel for GitLab will be hosted.
 
 ```
+sudo apt update
 sudo apt-get install -y curl openssh-server ca-certificates tzdata perl
 ```
 
@@ -93,9 +76,10 @@ sudo apt-get install -y postfix
 
 <TabItem value="debian" label="Debian">
 
-Install the OpenSSH Server package alongside the prerequisities it requires using the following command. This is how your web interface panel for GitLab will be hosted.
+Update package list to the latest version and install the OpenSSH Server package alongside the prerequisites it requires using the following command. This is how your web interface panel for GitLab will be hosted.
 
 ```
+sudo apt update
 sudo apt-get install -y curl openssh-server ca-certificates perl
 ```
 
@@ -110,7 +94,7 @@ sudo apt-get install -y postfix
 
 <TabItem value="opensuse" label="OpenSUSE">
 
-Install the OpenSSH Server package alongside the prerequisities it requires using the following command. This is how your web interface panel for GitLab will be hosted.
+Install the OpenSSH Server package alongside the prerequisites it requires using the following command. This is how your web interface panel for GitLab will be hosted.
 
 ```
 sudo zypper install curl openssh perl
@@ -123,7 +107,16 @@ sudo systemctl enable sshd
 sudo systemctl start sshd
 ```
 
-You should ensure that the firewall provides the necessary access.
+You should ensure that the firewall provides the necessary access, if you are using `firewalld`.
+
+Find out it if you are using `firewalld` by running the following command first:
+
+```bash
+sudo systemtl status firewalld
+```
+
+If you are, make sure you open required ports (80 and 443 by default):
+
 ```
 sudo firewall-cmd --permanent --add-service=http
 sudo firewall-cmd --permanent --add-service=https
@@ -148,29 +141,47 @@ While installing Postfix, a configuration may appear. In this case, select 'Inte
 If you wish to use another solution to send emails please skip this step and [configure an external SMTP server](https://docs.gitlab.com/omnibus/settings/smtp) after GitLab has been installed on your Linux server by following a guide provided by official GitLab Team.
 :::
 
-## Step 3: Installing GitLab
+## Step 2: Installing GitLab
 
 After downloading and installing all the required dependencies you are now ready to install GitLab.
 
-Begin by moving into the `/tmp` directory.
-```
-cd /tmp
-```
+In this guide, we will be installing GitLab directly from the official package repositories.
 
-Proceed by downloading the GitLab installation script to continue using the following command.
+<Tabs>
+
+<TabItem value="ubuntu-debian" label="Ubuntu & Debian" default>
+The following script will add GitLab's repositories to the apt package manager:
+
 ```
 curl https://packages.gitlab.com/install/repositories/gitlab/gitlab-ee/script.deb.sh | sudo bash
 ```
 
-Finally, to install GitLab run the follow installation script based on your Linux distro to start the process.
+Once done, the `gitlab-ee` package can be installed:
+
+```bash
+sudo apt-get install -y gitlab-ee
 ```
-apt-get install gitlab-ee # Ubuntu/Debian
-zypper install gitlab-ee # OpenSUSE
+</TabItem>
+
+<TabItem value="opensuse" label="OpenSUSE" default>
+The following script will add GitLab's repositories to the Zypper package manager:
+
 ```
+curl -sS https://packages.gitlab.com/install/repositories/gitlab/gitlab-ee/script.rpm.sh | sudo bash
+```
+
+Once done, the `gitlab-ee` package can be installed:
+
+```bash
+sudo zypper install gitlab-ee
+```
+</TabItem>
+
+</Tabs>
 
 Once this process is complete, you should have GitLab ready to go on your Linux server. Proceed with the following section where you will configure some essential settings to ensure the server is functional.
 
-## Step 4: Configuring GitLab
+## Step 3: Configuring GitLab
 
 To ensure everything is functional, you must complete some changes to the configuration file. Begin by opening the GitLab configuration file using your preferred text editor. As an example we wil be using the pre-built `nano` editor.
 ```
@@ -233,7 +244,7 @@ sudo gitlab-ctl reconfigure
 
 This process may take a while because it will initialize GitLab using the updated configuration information, with automated processes. The SSL Certificates will also be issued if a domain has been used.
 
-## Step 5: Accessing the Web Interface
+## Step 4: Accessing the Web Interface
 
 After the initialization, the server should now be accessable via a web browser. Navigate to your website by entering your domain name or IP Address as following.
 ```
@@ -273,6 +284,51 @@ Input the username and password on the login page to enter your GitLab dashboard
 ![](https://screensaver01.zap-hosting.com/index.php/s/AqPHoEmY2Q2nFCF/preview)
 
 We highly recommend creating a new user and/or changing the password for your `root` user. This can be all done by accessing **Admin** in the bottom-left corner and selecting **Overview->Users**. On this page, you will be able to manage users for your GitLab instance.
+
+## Optional: Setup a firewall with ufw
+
+You can skip this if you don't want to configure a firewall or, for example, already use `firewalld` on OpenSUSE.
+Ensure that you allow port 80/443 and port 22.
+
+### Install ufw
+
+If you already have installed `ufw`, you can safely skip this step.
+
+<Tabs>
+
+<TabItem value="ubuntu-debian" label="Ubuntu & Debian" default>
+```bash
+sudo apt-get install -y ufw
+```
+</TabItem>
+
+<TabItem value="opensuse" label="OpenSUSE" default>
+```bash
+sudo zypper install ufw
+```
+</TabItem>
+
+</Tabs>
+
+### Open required ports
+
+```
+sudo ufw allow http
+sudo ufw allow https
+sudo ufw allow OpenSSH
+```
+
+### Enable firewall
+
+:::warning
+This will by default block access to all ports other than the ones allowed. Make sure the whitelist is properly setup before running this command.
+:::
+
+For the firewall to take effect, enable it with the following command.
+
+```
+sudo ufw enable
+```
 
 ## Conclusion
 

@@ -1,12 +1,14 @@
 ---
 id: vserver-linux-proxy
-title: "VPS: Einrichtung eines Reverse-Proxys"
-description: Informationen zur Einrichtung eines Reverse-Proxys auf deinem VPS von ZAP-Hosting - ZAP-Hosting.com-Dokumentation
+title: "vServer: Reverse-Proxy mit nginx unter Linux einrichten"
+description: Informationen zur Einrichtung eines Reverse-Proxys auf deinem Linux vServer von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Reverse-Proxy
 services:
   - vserver
 ---
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
@@ -134,7 +136,30 @@ Die meisten dedizierten Spieleserver sollten mit einem von dir eingerichteten Ra
 
 ### Nginx-Einrichtung
 
-Für diese Einrichtung wird das **Nginx Stream**-Modul benötigt, das standardmäßig installiert sein sollte. Du fügst einen neuen `Stream`-Block zur Hauptdatei `nginx.conf` hinzu, in dem du den Upstream-Server und den Port definierst, über den er auf deinem Proxy aufgerufen werden soll.
+Für diese Einrichtung wird das **Nginx-Stream**-Modul benötigt, welches nicht Teil des normalen Nginx-Pakets ist.
+
+
+#### Nginx-Stream-Modul installieren
+
+<Tabs>
+
+<TabItem value="ubuntu-debian" label="Ubuntu & Debian" default>
+```bash
+sudo apt install -y libnginx-mod-stream
+```
+</TabItem>
+
+<TabItem value="centos-fedora" label="CentOS & Fedora">
+```bash
+sudo dnf -y install nginx-mod-stream 
+```
+</TabItem>
+
+</Tabs>
+
+#### Nginx-Stream konfigurieren
+
+Du fügst einen neuen `stream`-Block zur Hauptdatei `nginx.conf` hinzu, in dem du den Upstream-Server und den Port definierst, über den er auf deinem Proxy aufgerufen werden soll.
 
 Öffne die Datei einfach mit dem folgenden Befehl.
 ```

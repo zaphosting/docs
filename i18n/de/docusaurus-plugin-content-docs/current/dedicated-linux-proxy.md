@@ -1,12 +1,14 @@
 ---
 id: dedicated-linux-proxy
-title: "Dedicated Server: Einrichtung eines Reverse-Proxys"
-description: Informationen zur Einrichtung eines Reverse-Proxys auf deinem Dedicated Server von ZAP-Hosting - ZAP-Hosting.com-Dokumentation
+title: "Dedicated Server: Reverse-Proxy mit nginx unter Linux einrichten"
+description: Informationen zur Einrichtung eines Reverse-Proxys auf deinem Linux Dedicated Server von ZAP-Hosting - ZAP-Hosting.com-Dokumentation
 sidebar_label: Reverse-Proxy
 services:
   - dedicated
 ---
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
@@ -43,7 +45,7 @@ sudo apt install nginx
 Nach der Installation musst du deine Firewall anpassen, um sicherzustellen, dass der Dienst über das Internet zugänglich ist. In dieser Anleitung verwenden wir die **UFW Firewall**, da Nginx sich selbst als App registriert, wodurch sich die Einstellungen leicht anpassen lassen. Weitere Informationen zur UFW Firewall findest du in unserer Anleitung [Tipps zur Linux-Sicherheit](vserver-linux-security-tips.md).
 
 :::note
-Wenn du andere Firewalls (wie IPTables) verwendest, stelle bitte sicher, dass du Nginx den entsprechenden Firewall-Zugriff gewährst, insbesondere auf Port 80 und 443, wo der Nginx-Dienst ausgeführt wird.
+Wenn du andere Firewalls (wie IPtables) verwendest, stelle bitte sicher, dass du Nginx den entsprechenden Firewall-Zugriff gewährst, insbesondere auf Port 80 und 443, wo der Nginx-Dienst ausgeführt wird.
 :::
 
 Du kannst Nginx-Profile überprüfen, indem du `sudo ufw app list` ausführst. In diesem Szenario würden wir die Option **Nginx Full** auswählen, die den Zugriff auf HTTP für Tests und HTTPS für die Produktion ermöglicht.
@@ -134,7 +136,30 @@ Die meisten dedizierten Spieleserver sollten mit einem von dir eingerichteten Ra
 
 ### Nginx-Einrichtung
 
-Für diese Einrichtung wird das **Nginx Stream**-Modul benötigt, das standardmäßig installiert sein sollte. Du fügst einen neuen `Stream`-Block zur Hauptdatei `nginx.conf` hinzu, in dem du den Upstream-Server und den Port definierst, über den er auf deinem Proxy aufgerufen werden soll.
+Für diese Einrichtung wird das **Nginx-Stream**-Modul benötigt, welches nicht Teil des normalen Nginx-Pakets ist.
+
+
+#### Nginx-Stream-Modul installieren
+
+<Tabs>
+
+<TabItem value="ubuntu-debian" label="Ubuntu & Debian" default>
+```bash
+sudo apt install -y libnginx-mod-stream
+```
+</TabItem>
+
+<TabItem value="centos-fedora" label="CentOS & Fedora">
+```bash
+sudo dnf -y install nginx-mod-stream 
+```
+</TabItem>
+
+</Tabs>
+
+#### Nginx-Stream konfigurieren
+
+Du fügst einen neuen `stream`-Block zur Hauptdatei `nginx.conf` hinzu, in dem du den Upstream-Server und den Port definierst, über den er auf deinem Proxy aufgerufen werden soll.
 
 Öffne die Datei einfach mit dem folgenden Befehl.
 ```
@@ -173,9 +198,8 @@ Nach dem Neustart des Dienstes solltest du versuchen, dich über die Proxy-Domai
 
 Nachdem der von dir gewählte Reverse-Proxy nun eingerichtet ist, empfehlen wir dringend, ein SSL-Zertifikat zu deinen verwendeten Domains hinzuzufügen, um sicherzustellen, dass die Website Daten sicher über HTTPS überträgt.
 
-Bitte lies dir unsere Anleitung [Certbot installieren](dedicated-linux-certbot.md) durch, die den gesamten Prozess der Beantragung und automatischen Verlängerung von SSL-Zertifikaten für deine Domain(s) abdeckt.
+Bitte lies dir unsere Anleitung [Install Certbot](dedicated-linux-certbot.md) durch, die den gesamten Prozess der Beantragung und automatischen Verlängerung von SSL-Zertifikaten für deine Domain(s) abdeckt.
 
 ## Abschluss
 
 Glückwunsch, du hast erfolgreich einen Reverse-Proxy für eine Website oder deinen Spieleserver (oder beides :) eingerichtet, der dir verschiedene Verbesserungen in Bezug auf Sicherheit, Zuverlässigkeit und Leistung bietet. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
-

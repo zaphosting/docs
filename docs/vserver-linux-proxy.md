@@ -1,12 +1,14 @@
 ---
 id: vserver-linux-proxy
-title: "VPS: Setup a Reverse Proxy"
-description: Information on how to setup a Reverse Proxy on your VPS from ZAP-Hosting - ZAP-Hosting.com documentation
+title: "VPS: Setup a Reverse Proxy with nginx on Linux"
+description: Information on how to setup a Reverse Proxy on your Linux VPS from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Reverse Proxy
 services:
-  - vserver
+  - dedicated
 ---
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
@@ -19,7 +21,7 @@ In this guide, we will explore the process of setting up a general-purpose rever
 
 ## Preparation
 
-In order to setup a reverse proxy you will require a **Linux Server** (such as a VPS) which will host your proxy server. In this example, we will be using Ubuntu as the Linux distro, but the installation steps should be very similar for most Linux distributions.
+In order to setup a reverse proxy you will require a **Linux Server** which will host your proxy server. In this example, we will be using Ubuntu as the Linux distro, but the installation steps should be very similar for most Linux distributions.
 
 :::tip Recommended VPS Specs
 For a reverse proxy tailored to game servers, we highly recommend purchasing higher network speeds, especially if your server has many players. This is because your VPS will be streaming raw TCP/UDP directly between the client (player) and the game server. Otherwise, a server with base specs and minimal upgrades should suffice for a web-related proxy. :)
@@ -141,7 +143,29 @@ Most dedicated game servers should work perfectly well with a raw TCP/UDP endpoi
 
 ### Nginx Setup
 
-Setting this up requires the **Nginx Stream** module, which should be installed by default. You will be adding a new `stream` block to the main `nginx.conf` file where you will define the upstream server and what port it should be accessed by on your proxy.
+Setting this up requires the **Nginx Stream** module, which is not part of a default Nginx build.
+
+#### Install Nginx stream module
+
+<Tabs>
+
+<TabItem value="ubuntu-debian" label="Ubuntu & Debian" default>
+```bash
+sudo apt install -y libnginx-mod-stream
+```
+</TabItem>
+
+<TabItem value="centos-fedora" label="CentOS & Fedora">
+```bash
+sudo dnf -y install nginx-mod-stream 
+```
+</TabItem>
+
+</Tabs>
+
+#### Nginx stream configuration
+
+You will be adding a new `stream` block to the main `nginx.conf` file where you will define the upstream server and what port it should be accessed by on your proxy.
 
 Simply open up the file using the following command.
 
