@@ -21,7 +21,7 @@ SSL Certificates are essential parts of the internet, ensuring that data can be 
 
 In order to make use of Certbot, you will require a Linux server and a **Domain** that you own. You need to have access to the DNS Settings of the Domain and you **must** create an `A` DNS record poitning at the IP Address of your __Linux server__ for each root domain or sub domain you plan to use.
 
-Certbot also had additional plugins which allows you to easily "one-click" setup a certificate for a domain which works with a variety of web servers such as Nginx or Apache. We recommend using Nginx as it is a highly performant and popular open-source web server. See our [Linux reverse proxy](deicated-linux-proxy.md) guide for help setting this up.
+Certbot also had additional plugins which allows you to easily "one-click" setup a certificate for a domain which works with a variety of web servers such as Nginx or Apache. We recommend using Nginx as it is a highly performant and popular open-source web server. See our [Linux reverse proxy](dedicated-linux-proxy.md) guide for help setting this up.
 
 ## Installation
 
