@@ -112,7 +112,7 @@ Firstly, navigate to the following directory:
 ../Conan-Server/Engine/Config/Windows
 ```
 
-You will be able to find the **WindowsServerEngine.ini** configuration file. Through this file, you can adjust a wide variety of configuration options by adding specific parameters
+You will be able to find the **WindowsServerEngine.ini** configuration file. Through this file, you can adjust a wide variety of configuration options by adding specific parameters.
 
 As an example, to add a server name, password and admin password you would add the following to the file.
 ```
