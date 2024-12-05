@@ -49,4 +49,4 @@ Als ein offizieller Partner von ZAP-Hosting kannst du folgende Vorteile erhalten
 
 Nachdem du nun mehr über unser großartiges Partnerprogramm erfahren hast, ist es vielleicht an der Zeit, dich zu bewerben. Unser Partnerbewerbungsprozess ist super einfach! 
 
-Gehe auf unsere [Partnerseite](https://zap-hosting.com/en/partner/) und fülle einfach den Antrag nach bestem Wissen und Gewissen aus. Wenn du fertig bist, klicke auf die Schaltfläche "Senden" und wir melden uns so schnell wie möglich bei dir. Viel Glück!
+Gehe auf unsere [Partnerseite](https://zap-hosting.com/en/partner/) und fülle einfach den Antrag nach bestem Wissen und Gewissen aus. Wenn du fertig bist, klicke auf den Button "Senden" und wir melden uns so schnell wie möglich bei dir. Viel Glück!

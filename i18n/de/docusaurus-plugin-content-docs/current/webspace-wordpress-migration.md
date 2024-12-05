@@ -65,11 +65,11 @@ Als zusätzliche Sicherheitsvorkehrung empfehlen wir dir, ein Backup deiner alte
 
 ## Schritt 4: Migrationsprozess
 
-Gehe zurück in das Admin-Panel deiner **alten** WordPress-Instanz. Klicke im Bereich **Migrate Guru** auf die Schaltfläche **Migrate** und wähle **Other Hosts** aus der Liste.
+Gehe zurück in das Admin-Panel deiner **alten** WordPress-Instanz. Klicke im Bereich **Migrate Guru** auf den Button **Migrate** und wähle **Other Hosts** aus der Liste.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/K4FEnGpq6Kj7NSf/preview)
 
-Füge den Migrate Guru-Migrationsschlüssel ein, den du gerade von deiner neuen ZAP-Hosting-WordPress-Instanz kopiert hast, und drücke auf die Schaltfläche **Migrieren**, um mit dem Migrationsprozess fortzufahren.
+Füge den Migrate Guru-Migrationsschlüssel ein, den du gerade von deiner neuen ZAP-Hosting-WordPress-Instanz kopiert hast, und drücke auf den Button **Migrieren**, um mit dem Migrationsprozess fortzufahren.
 
 :::warning
 Achte darauf, dass du den Migrationsschlüssel aus deinem **neuen** ZAP-Hosting-WordPress-Administrationsbereich kopierst und ihn in deinen **alten** WordPress-Administrationsbereich einfügst. Wenn du es andersherum machst, werden deine Daten gelöscht.
@@ -77,7 +77,7 @@ Achte darauf, dass du den Migrationsschlüssel aus deinem **neuen** ZAP-Hosting-
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/73rq3F95935sckW/preview)
 
-Nachdem du auf die Schaltfläche **Migrieren** geklickt hast, wird der Migrationsprozess nach einigen Validierungsprüfungen sofort gestartet. 
+Nachdem du auf den Button **Migrieren** geklickt hast, wird der Migrationsprozess nach einigen Validierungsprüfungen sofort gestartet. 
 
 Der Migrationsprozess läuft im Hintergrund und sollte innerhalb weniger Minuten abgeschlossen sein. Bitte habe etwas Geduld, da dies stark von der Größe deiner Website abhängt. Sobald der Vorgang abgeschlossen ist, siehst du eine Erfolgsmeldung.
 

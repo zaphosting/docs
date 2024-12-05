@@ -46,7 +46,7 @@ Das Sichern deines Savegames vom Server aus ist ganz einfach. Sobald du dich üb
 ../abiotic-factor/AbioticFactor/Saved/SaveGames/Server/Worlds
 ```
 
-An diesem Ort findest du deine Savegames. Klicke einfach mit der rechten Maustaste auf den Ordner und benutze die Schaltfläche **Download**, um sie lokal auf deinem Gerät zu speichern.
+An diesem Ort findest du deine Savegames. Klicke einfach mit der rechten Maustaste auf den Ordner und benutze den Button **Download**, um sie lokal auf deinem Gerät zu speichern.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/RJSeBFpCdGamK7s/preview)
 
@@ -70,7 +70,7 @@ Zurzeit unterstützen Abiotic Factor Dedicated Server den Wechsel zwischen Saveg
 ![](https://screensaver01.zap-hosting.com/index.php/s/wsT4MXpp2MFWLtQ/preview)
 
 :::info
-Wenn der Hauptordner `world` des Savegames fehlt, versuche, den Server herunterzufahren und neu zu starten. Wenn das nicht hilft, benutze die Schaltfläche **Steam Dateien validieren** auf dem Dashboard des Gameservers, um die Standarddateien wiederherzustellen.
+Wenn der Hauptordner `world` des Savegames fehlt, versuche, den Server herunterzufahren und neu zu starten. Wenn das nicht hilft, benutze den Button **Steam Dateien validieren** auf dem Dashboard des Gameservers, um die Standarddateien wiederherzustellen.
 :::
 
 ## Savegame aktivieren

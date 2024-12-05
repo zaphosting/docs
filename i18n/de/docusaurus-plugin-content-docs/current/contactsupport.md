@@ -48,7 +48,7 @@ Auf dieser Seite hast du die Möglichkeit, deine aktiven und früheren Anfragen 
 
 Wenn du immer noch Unterstützung benötigst, wende dich bitte an unseren offiziellen Support, indem du die [Ticket-Seite](https://zap-hosting.com/en/customer/support/) in deinem Webinterface aufrufst, nachdem du dich eingeloggt hast.
 
-Beginne mit der Schaltfläche **Ticket erstellen**. Hier kannst du zwischen einem normalen Ticket oder einem **Speed-UP**-Ticket wählen.
+Beginne mit des Buttons **Ticket erstellen**. Hier kannst du zwischen einem normalen Ticket oder einem **Speed-UP**-Ticket wählen.
 
 ![](https://github.com/zaphosting/docs/assets/42719082/4053c79d-0f8d-4e91-aee6-8269384a9045)
 
@@ -62,6 +62,6 @@ Hier findest du eine Auflistung nützlicher Informationen, die du angeben kannst
 
 ![](https://github.com/zaphosting/docs/assets/42719082/57bee936-fd3f-48ed-ab0e-ca915c78afb9)
 
-Wenn du mit dem Ausfüllen des Ticketformulars fertig bist, solltest du auf die Schaltfläche **Support-Ticket senden** klicken, wodurch das Ticket an unser Support-Team gesendet wird!
+Wenn du mit dem Ausfüllen des Ticketformulars fertig bist, solltest du auf den Button **Support-Ticket senden** klicken, wodurch das Ticket an unser Support-Team gesendet wird!
 
 Nun musst du warten, bis einer unserer hervorragenden Support-Mitarbeiter auf dein Ticket antwortet. Wir informieren dich, sobald wir geantwortet haben, indem wir dir eine E-Mail an die mit deinem Konto verknüpfte E-Mail-Adresse schicken.

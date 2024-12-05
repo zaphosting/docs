@@ -152,7 +152,7 @@ Sobald ihr diese Regeln hinzugefügt habt, ist euer Server erreichbar, was bedeu
 
 ### Server starten
 
-Nachdem du deine Einstellungen angepasst und Firewall-Regeln eingerichtet hast, rufe die Startseite der Weboberfläche auf und klicke auf die Schaltfläche **Start**, um den Startvorgang zu starten.
+Nachdem du deine Einstellungen angepasst und Firewall-Regeln eingerichtet hast, rufe die Startseite der Weboberfläche auf und klicke auf den Button **Start**, um den Startvorgang zu starten.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/5S4FmawFoJBsMyo/preview)
 

@@ -48,7 +48,7 @@ Das Sichern deines Spielstands vom Server ist ganz einfach. Sobald du dich über
 ../satisfactory/save-backups
 ```
 
-An dieser Stelle solltest du einen Ordner mit einer Reihe von zufälligen Zeichen sehen, der dein Spielstand ist. Klicke einfach mit der rechten Maustaste auf den Ordner und verwende die Schaltfläche "Download", um ihn lokal auf deinem Gerät zu speichern.
+An dieser Stelle solltest du einen Ordner mit einer Reihe von zufälligen Zeichen sehen, der dein Spielstand ist. Klicke einfach mit der rechten Maustaste auf den Ordner und verwende den Button "Download", um ihn lokal auf deinem Gerät zu speichern.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/feHc74QHrzPwo24/preview)
 

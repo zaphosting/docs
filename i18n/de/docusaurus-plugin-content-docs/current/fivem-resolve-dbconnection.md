@@ -29,7 +29,7 @@ Diese Methode ist derzeit nur für die Spielversion **FiveM: txAdmin** verfügba
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/JW4XHRd8d2n7Ljm/preview)
 
-Scrolle auf dieser Seite ganz nach unten, wo du die Schaltflächen **Aktionen** findest. Benutze einfach die Schaltfläche **Reconfigure mysql connection string** und starte deinen Server neu, um sicherzustellen, dass die Änderungen verarbeitet werden.
+Scrolle auf dieser Seite ganz nach unten, wo du die Schaltflächen **Aktionen** findest. Benutze einfach den Button **Reconfigure mysql connection string** und starte deinen Server neu, um sicherzustellen, dass die Änderungen verarbeitet werden.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/eZoSBJcbCr7422K/preview)
 

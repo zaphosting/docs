@@ -35,7 +35,7 @@ Gehe zum Abschnitt **Tools->FTP-Browser** auf der Weboberfläche deines Servers,
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/9RqoD845JWfFCYT/preview)
 
-Wenn du fertig bist, klicke auf die grüne Schaltfläche **Add**, um den Server hinzuzufügen. Wenn du eine Fehlermeldung erhältst, dass zu viele Clients vorhanden sind, warte bitte ein paar Minuten und versuche es dann erneut. Wenn der Vorgang erfolgreich war, sollte der Server im selben Abschnitt angezeigt werden.
+Wenn du fertig bist, klicke auf den grünen Button **Add**, um den Server hinzuzufügen. Wenn du eine Fehlermeldung erhältst, dass zu viele Clients vorhanden sind, warte bitte ein paar Minuten und versuche es dann erneut. Wenn der Vorgang erfolgreich war, sollte der Server im selben Abschnitt angezeigt werden.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/iS4j2RyxJNYZc85/preview)
 
@@ -47,11 +47,11 @@ Da dein „Befriedigend“-Server jetzt verbunden ist, kannst du über das Menü
 
 Verwende nun den mittleren Bereich, um nach Mods zu suchen, die du installieren möchtest. Du kannst die Filter- und Sortierschaltflächen verwenden, um bestimmte coole neue Mods zu finden.
 
-Du kannst die Download-Schaltfläche neben jedem Mod verwenden, um ihn entweder direkt zu installieren oder als Änderung vorzubereiten, wenn du bei der Ersteinrichtung die Standardeinstellungen verwendet hast. Wir empfehlen außerdem, deine Lieblingsmods mit einem Stern zu markieren, damit du sie in Zukunft leichter finden kannst.
+Du kannst den Download Button neben jedem Mod verwenden, um ihn entweder direkt zu installieren oder als Änderung vorzubereiten, wenn du bei der Ersteinrichtung die Standardeinstellungen verwendet hast. Wir empfehlen außerdem, deine Lieblingsmods mit einem Stern zu markieren, damit du sie in Zukunft leichter finden kannst.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/9984GJDTkpZjLXW/preview)
 
-Sobald du die Mods fertig hast, musst du die Änderungen mit der roten Schaltfläche unten links anwenden, wenn du bei der Ersteinrichtung die Standardeinstellungen verwendet hast.
+Sobald du die Mods fertig hast, musst du die Änderungen mit dem roten Button unten links anwenden, wenn du bei der Ersteinrichtung die Standardeinstellungen verwendet hast.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/Tjnkoo5bYgAB86M/preview)
 
@@ -63,7 +63,7 @@ Dadurch werden die erforderlichen Dateien direkt auf deinen Satisfactory-Server 
 
 In diesem Stadium empfehlen wir, deinen Satisfactory-Server neu zu starten, um sicherzustellen, dass alle Mods aktiv sind und erfolgreich gestartet wurden.
 
-Sobald dies erledigt ist, stelle das Spielinstallationsprofil in der Satisfactory Mod Manager-Anwendung wieder auf deine Satisfactory-Spielinstallation auf deinem lokalen System um. Verwende nun die Schaltfläche **Play Satisfactory** unten links, um dein Spiel automatisch mit denselben aktivierten Mods wie auf deinem Server zu starten. Du kannst überprüfen, ob die Mods im Spiel funktionieren, indem du den unteren linken Bereich des Hauptmenüs überprüfst.
+Sobald dies erledigt ist, stelle das Spielinstallationsprofil in der Satisfactory Mod Manager-Anwendung wieder auf deine Satisfactory-Spielinstallation auf deinem lokalen System um. Verwende nun den Button **Play Satisfactory** unten links, um dein Spiel automatisch mit denselben aktivierten Mods wie auf deinem Server zu starten. Du kannst überprüfen, ob die Mods im Spiel funktionieren, indem du den unteren linken Bereich des Hauptmenüs überprüfst.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/NaRPTMRydm74Eor/preview)
 

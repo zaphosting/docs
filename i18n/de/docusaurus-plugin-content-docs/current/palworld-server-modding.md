@@ -64,7 +64,7 @@ Sobald du die PAK-Dateien zum Hochladen bereit hast, gehst du zum Bereich **Tool
 
 Du brauchst einen FTP-Client, um dich mit deinem Server zu verbinden. Wenn du keinen FTP-Client hast oder Hilfe bei der FTP-Verbindung brauchst, verwende bitte unsere [Zugriff per FTP](gameserver-ftpaccess.md) Anleitung.
 
-In deinem Webinterface kannst du die Schaltfläche **Direktverbindung** verwenden. Dadurch wird das FTP-Programm deiner Wahl geöffnet und du wirst automatisch eingeloggt. 
+In deinem Webinterface kannst du den Button **Direktverbindung** verwenden. Dadurch wird das FTP-Programm deiner Wahl geöffnet und du wirst automatisch eingeloggt. 
 
 Alternativ kannst du die Anmeldedaten, die du auf der Seite FTP-Browser findest, auch manuell in deinen FTP-Client eingeben und dich verbinden.
 

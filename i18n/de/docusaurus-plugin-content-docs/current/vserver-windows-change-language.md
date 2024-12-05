@@ -29,7 +29,7 @@ Sobald du verbunden bist, suche über die Windows-Suchleiste oder durch Drücken
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/Rf4inxAES3tBH8E/preview)
 
-Finde auf dieser Seite den Abschnitt Sprache und drücke auf die Schaltfläche **Sprache hinzufügen**. 
+Finde auf dieser Seite den Abschnitt Sprache und drücke auf den Button **Sprache hinzufügen**. 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/mbKyb4FiNZnYtDj/preview)
 

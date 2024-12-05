@@ -27,7 +27,7 @@ Du kannst eine solche Datei identifizieren, indem du beim Öffnen der Datei in e
 ![](https://screensaver01.zap-hosting.com/index.php/s/DRoDqGngrS7qbQW/preview)
 :::
 
-Gehe zum Abschnitt **Tools->Datenbanken** und öffne über die blaue Schaltfläche die phpMyAdmin-Benutzeroberfläche. Melde dich mit den Anmeldedaten auf deiner Web-Oberfläche an.
+Gehe zum Abschnitt **Tools->Datenbanken** und öffne über den blauen Button die phpMyAdmin-Benutzeroberfläche. Melde dich mit den Anmeldedaten auf deiner Web-Oberfläche an.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/8HgkfqBaw26XC5g/preview)
 
@@ -37,7 +37,7 @@ Um mehr über phpMyAdmin zu erfahren, empfehlen wir dir, unsere Anleitung [Daten
 
 Nachdem du dich bei der phpMyAdmin-Benutzeroberfläche angemeldet hast, wähle die Hauptdatenbank aus, die deine ZAP-ID sein sollte. Suche in der oberen Navigationsleiste den Abschnitt **Import**.
 
-Verwende auf dieser Seite die Schaltfläche **Browse...**, um ein Datei-Explorer-Fenster zu öffnen. Suche darin die SQL-Datei, die du in deine Datenbank importieren möchtest, und öffne sie.
+Verwende auf dieser Seite den Button **Browse...**, um ein Datei-Explorer-Fenster zu öffnen. Suche darin die SQL-Datei, die du in deine Datenbank importieren möchtest, und öffne sie.
 
 :::note
 Die maximale Dateigröße für deine SQL-Datei beträgt 2 MB. Wenn deine Datei größer ist, empfehlen wir die Verwendung eines SQL-Splitters wie den [Pinetools SQL-Splitter](https://pinetools.com/split-files), der die Datei in kleinere Dateien aufteilt. Diese kannst du dann einzeln importieren.
@@ -45,7 +45,7 @@ Die maximale Dateigröße für deine SQL-Datei beträgt 2 MB. Wenn deine Datei g
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/TgZZBaSJJmXraZc/preview)
 
-Du kannst auch einige zusätzliche Einstellungen anpassen, wenn du möchtest. Für die meisten Benutzer sollten die Standardwerte akzeptabel sein, daher scrolle einfach nach unten und klicke auf die Schaltfläche **Import**.
+Du kannst auch einige zusätzliche Einstellungen anpassen, wenn du möchtest. Für die meisten Benutzer sollten die Standardwerte akzeptabel sein, daher scrolle einfach nach unten und klicke auf den Button **Import**.
 
 Die SQL-Datei sollte nun erfolgreich importiert worden sein und in der Datenbank sollten sich Änderungen wie neue Tabellen, Daten usw. widerspiegeln.
 
@@ -53,7 +53,7 @@ Die SQL-Datei sollte nun erfolgreich importiert worden sein und in der Datenbank
 
 Das Exportieren deiner Datenbank ist eine weitere wichtige Funktion, die sich für die einfache Übertragung von Datenbanken oder für Sicherungskopien als nützlich erweisen kann. Wähle erneut die Hauptdatenbank aus, die deine ZAP-ID sein sollte, und suche den Abschnitt **Export** in der oberen Navigationsleiste.
 
-Standardmäßig ist die **Quick**-Exportmethode ausgewählt, die automatisch alle deine Tabellen und Daten exportiert. Wenn du die zu exportierenden Tabellen und Daten individuell anpassen möchtest, wähle die Option **Custom** und passe die relevanten Parameter nach deinen Wünschen an. Wenn du fertig bist, kannst du einfach die Schaltfläche **Export** verwenden, um eine SQL-Datei lokal auf dein System herunterzuladen.
+Standardmäßig ist die **Quick**-Exportmethode ausgewählt, die automatisch alle deine Tabellen und Daten exportiert. Wenn du die zu exportierenden Tabellen und Daten individuell anpassen möchtest, wähle die Option **Custom** und passe die relevanten Parameter nach deinen Wünschen an. Wenn du fertig bist, kannst du einfach den Button **Export** verwenden, um eine SQL-Datei lokal auf dein System herunterzuladen.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/Qa2HakWpYGpfzfA/preview)
 

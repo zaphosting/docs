@@ -49,7 +49,7 @@ Du hast die Möglichkeit, deine eigene ZAP Cloud Subdomain zu erstellen, indem d
 Wenn du eine Fehlermeldung erhältst, ist es möglich, dass die Subdomain bereits in Gebrauch ist und/oder du ein verbotenes Wort oder Zeichen eingegeben hast, das zum Schutz unserer Kunden nicht erlaubt ist.
 :::
 
-Klicke nun auf die Schaltfläche **Eintrag erstellen** und du solltest sehen, dass die Subdomain in der Liste erscheint. Es kann sein, dass du ein paar Minuten warten musst, bis sie voll funktionsfähig ist.
+Klicke nun auf den Button **Eintrag erstellen** und du solltest sehen, dass die Subdomain in der Liste erscheint. Es kann sein, dass du ein paar Minuten warten musst, bis sie voll funktionsfähig ist.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/2iSAZJpETYw9H3p/preview)
 
@@ -67,7 +67,7 @@ Das Anlegen einer Subdomain mit deiner eigenen Domain erfolgt in denselben Schri
 Wenn du eine Fehlermeldung erhältst, ist es möglich, dass die Subdomain bereits in Gebrauch ist und/oder du ein verbotenes Wort oder Zeichen eingegeben hast, das zum Schutz unserer Kunden nicht erlaubt ist.
 :::
 
-Klicke nun auf die Schaltfläche **Eintrag erstellen** und du solltest sehen, dass die Subdomain in der Liste erscheint. Es kann sein, dass du ein paar Minuten warten musst, bis sie voll funktionsfähig ist.
+Klicke nun auf den Button **Eintrag erstellen** und du solltest sehen, dass die Subdomain in der Liste erscheint. Es kann sein, dass du ein paar Minuten warten musst, bis sie voll funktionsfähig ist.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/23w6gBHoYL75p5m/preview)
 

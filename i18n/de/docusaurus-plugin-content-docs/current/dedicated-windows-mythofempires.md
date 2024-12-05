@@ -126,7 +126,7 @@ Führe in diesem Ordner die Datei **PrivateServerTool.exe** aus. Mit diesem Tool
 
 Wir empfehlen, zumindest die grundlegenden Parameter wie den **Servernamen** einzurichten, bevor du fortfährst.
 
-Wenn du fertig bist, gehst du einfach auf die Registerkarte **Startkonsole** im Tool und drückst die Schaltfläche **Konfiguration speichern** und anschließend die Schaltfläche **Server starten**. Dadurch wird die Datei `StartPrivateServer.bat` erstellt, mit der du deinen Server starten kannst.
+Wenn du fertig bist, gehst du einfach auf die Registerkarte **Startkonsole** im Tool und drückst den Button **Konfiguration speichern** und anschließend den Button **Server starten**. Dadurch wird die Datei `StartPrivateServer.bat` erstellt, mit der du deinen Server starten kannst.
 
 ![Bild](https://screensaver01.zap-hosting.com/index.php/s/TtcAbW6ZEWNyjXS/preview)
 

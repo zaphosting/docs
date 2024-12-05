@@ -40,7 +40,7 @@ Die benutzerfreundlichste Methode ist es, im Webinterface deines Spieleservers i
 Der Server muss gestoppt werden, bevor die Konfigurationsdatei bearbeitet werden kann. Wenn die Konfigurationsdatei erst bearbeitet und der Server neu gestartet wird, werden sämtliche Änderungen rückgängig gemacht.
 :::
 
-Wenn du die Rohdatei direkt bearbeiten möchtest, kannst du dies auch tun, indem du im Webinterface deines Spieleservers den Bereich **Configs** aufrufst und auf die blaue Schaltfläche Datei bearbeiten klickst (siehe unten):
+Wenn du die Rohdatei direkt bearbeiten möchtest, kannst du dies auch tun, indem du im Webinterface deines Spieleservers den Bereich **Configs** aufrufst und auf den blauen Button Datei bearbeiten klickst (siehe unten):
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/r63pEw5AArgCspZ/preview)
 

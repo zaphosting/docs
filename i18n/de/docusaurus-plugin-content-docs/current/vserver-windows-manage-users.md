@@ -53,7 +53,7 @@ Daraufhin wird eine Eingabeaufforderung auf deinem Bildschirm geöffnet, in der 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/yMSxx2FmeEjpi3C/preview)
 
-Wenn du fertig bist, klicke einfach auf die Schaltfläche **Weiter**, um deinen neuen Benutzer zu erstellen.
+Wenn du fertig bist, klicke einfach auf den Button **Weiter**, um deinen neuen Benutzer zu erstellen.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/kbQRXN5fJasJHsj/preview)
 
@@ -75,7 +75,7 @@ Wähle im Anzeigemenü **Hinzufügen...** aus, um eine neue Benutzerauswahl-Eing
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/qyzgkg6qCiamyWn/preview)
 
-Dadurch wird das Fenster erweitert, damit der Benutzer leicht zu finden ist. Über die Schaltfläche **Jetzt suchen** wird eine Liste der Benutzer angezeigt, in der der neue Benutzer gesucht werden kann. In diesem Beispiel ist dies `ZAP-Docs`.
+Dadurch wird das Fenster erweitert, damit der Benutzer leicht zu finden ist. Über den Button **Jetzt suchen** wird eine Liste der Benutzer angezeigt, in der der neue Benutzer gesucht werden kann. In diesem Beispiel ist dies `ZAP-Docs`.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/X2KiYYGSKYAcGxx/preview)
 

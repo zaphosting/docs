@@ -36,7 +36,7 @@ Beginne damit, Palworld über deinen Game Launcher zu starten. Wähle im Hauptme
 
 ![](https://github.com/zaphosting/docs/assets/42719082/fefc7ead-5098-4bdb-aa56-c9d78673d7e8)
 
-Gehe im dedizierten Server-Browser zum unteren Ende der Seite. Gib in das untere Suchfeld deine IP- und Portdaten ein. Sobald du fertig bist, drückst du auf die Schaltfläche **Verbinden** und trittst deinem Server bei.
+Gehe im dedizierten Server-Browser zum unteren Ende der Seite. Gib in das untere Suchfeld deine IP- und Portdaten ein. Sobald du fertig bist, drückst du auf den Button **Verbinden** und trittst deinem Server bei.
 
 :::note
 Achte darauf, dass du das untere Suchfeld benutzt und nicht das obere. Das obere Feld wird verwendet, um in der Serverliste nach Servern mit Namen zu suchen.

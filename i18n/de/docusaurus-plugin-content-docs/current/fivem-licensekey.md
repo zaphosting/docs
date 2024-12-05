@@ -31,11 +31,11 @@ Wir empfehlen dir, den [offiziellen Blog-Beitrag](https://forum.cfx.re/t/introdu
 
 Wenn du im Portal eingeloggt bist, navigiere über die obere Navigationsleiste zum Abschnitt **Server**, um den Hauptbereich für die Schlüsselverwaltung aufzurufen. Dieser ersetzt die alte FiveM Keymaster-Website in einem übersichtlichen All-in-One-Portal. Du kannst auch jeden Lizenzschlüssel aktualisieren, indem du die Option **Re-Aktivieren** auf dieser Seite nutzt.
 
-Wähle die Schaltfläche **Schlüssel generieren**, um die Registrierungsaufforderung zu öffnen.
+Wähle den Button **Schlüssel generieren**, um die Registrierungsaufforderung zu öffnen.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/JQ6dkNHZcBD4e4B/preview)
 
-Gib in die Eingabeaufforderung einen sinnvollen Namen für den Schlüssel ein, damit du ihn in Zukunft leichter identifizieren kannst. Klicke auf die Schaltfläche Erzeugen, sobald du fertig bist.
+Gib in die Eingabeaufforderung einen sinnvollen Namen für den Schlüssel ein, damit du ihn in Zukunft leichter identifizieren kannst. Klicke auf den Button Erzeugen, sobald du fertig bist.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/3cYyRo7pgzQraz2/preview)
 
@@ -61,7 +61,7 @@ Für Leser, die die Spielversion **FiveM: txAdmin** verwenden, musst du auf das 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/2Rjx8sCFG6eteMD/preview)
 
-Auf der txAdmin-Oberfläche navigierst du zum **CFG-Editor** auf der linken Seite, um auf die Datei `server.cfg` zuzugreifen. Suche im Editor die Zeile mit dem Parameter `sv_licensekey` und füge dort deinen eigenen Lizenzschlüssel ein. Klicke anschließend auf die Schaltfläche Speichern, um die Änderungen zu speichern.
+Auf der txAdmin-Oberfläche navigierst du zum **CFG-Editor** auf der linken Seite, um auf die Datei `server.cfg` zuzugreifen. Suche im Editor die Zeile mit dem Parameter `sv_licensekey` und füge dort deinen eigenen Lizenzschlüssel ein. Klicke anschließend auf den Button Speichern, um die Änderungen zu speichern.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/2E8j9jtykcjwF7L/preview)
 

@@ -57,7 +57,7 @@ Im ersten Abschnitt wählst du die Option **Programm** als Regeltyp aus.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/NPm9ae8BsD78An9/preview)
 
-Jetzt musst du das Programm, für das du die Weiterleitungsregel erstellen möchtest, mit der Schaltfläche Durchsuchen auswählen. In diesem Beispiel wurde der Mozilla Firefox Browser als Beispielanwendung ausgewählt.
+Jetzt musst du das Programm, für das du die Weiterleitungsregel erstellen möchtest, mit des Buttons Durchsuchen auswählen. In diesem Beispiel wurde der Mozilla Firefox Browser als Beispielanwendung ausgewählt.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/XsS2iTa4JjXF8j5/preview)
 
@@ -67,7 +67,7 @@ Im Abschnitt Aktion wählst du die Option **Verbindung zulassen**.
 
 Lasse im Abschnitt Profil alle Optionen angekreuzt und fahre mit dem letzten Abschnitt fort. Hier solltest du einen aussagekräftigen Namen festlegen, mit dem du dich an die Regel erinnern kannst, und du kannst bei Bedarf eine optionale Beschreibung hinzufügen.
 
-Wenn du fertig bist, klicke auf die Schaltfläche **Finish**, um die Regel zu erstellen.
+Wenn du fertig bist, klicke auf den Button **Finish**, um die Regel zu erstellen.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/dpWEYFYGtWQYkw3/preview)
 
@@ -101,7 +101,7 @@ Wähle im Abschnitt Aktion die Option **Verbindung zulassen**.
 
 Lasse im Abschnitt Profil alle Optionen angekreuzt und fahre mit dem letzten Abschnitt fort. Hier solltest du einen aussagekräftigen Namen festlegen, mit dem du dich an die Regel erinnern kannst, und du kannst bei Bedarf eine optionale Beschreibung hinzufügen.
 
-Wenn du fertig bist, klicke auf die Schaltfläche **Finish**, um die Regel zu erstellen.
+Wenn du fertig bist, klicke auf den Button **Finish**, um die Regel zu erstellen.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/Ro5k6JgTF73exoH/preview)
 

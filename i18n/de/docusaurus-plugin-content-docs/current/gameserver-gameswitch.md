@@ -49,7 +49,7 @@ Für bestimmte Spiele in unserer Spielesammlung ist eine bestimmte Mindestanzahl
 ![](https://screensaver01.zap-hosting.com/index.php/s/88r9qDeTfLT7D73/preview)
 :::
 
-Sobald du ein Spiel gefunden hast, das du installieren möchtest, klicke auf die grüne Download-Schaltfläche, um mit dem Installationsvorgang fortzufahren.
+Sobald du ein Spiel gefunden hast, das du installieren möchtest, klicke auf den grünen Download Button, um mit dem Installationsvorgang fortzufahren.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/RAmpDZoKZFXWHsG/preview)
 
@@ -59,7 +59,7 @@ Je nach Spiel kann es sein, dass du zu einem anderen Host-System wechseln musst,
 Der Hostwechsel ist ein **destruktiver** Vorgang, d. h. alle Daten, die sich derzeit auf dem Server befinden, werden gelöscht. Bitte stelle sicher, dass du alle Dateien oder Speicherstände sicherst, wenn du sie behalten möchtest, bevor du fortfährst.
 :::
 
-Kurz nachdem du auf die Schaltfläche zum Herunterladen geklickt hast, solltest du eine Pop-up-Eingabeaufforderung erhalten, in der du die Installation des Spiels bestätigen musst. Akzeptiere die Eingabeaufforderung, um den automatischen Installationsvorgang zu starten. Oben auf der Seite kannst du den Fortschritt der Installation verfolgen.
+Kurz nachdem du auf den Button zum Herunterladen geklickt hast, solltest du eine Pop-up-Eingabeaufforderung erhalten, in der du die Installation des Spiels bestätigen musst. Akzeptiere die Eingabeaufforderung, um den automatischen Installationsvorgang zu starten. Oben auf der Seite kannst du den Fortschritt der Installation verfolgen.
 
 Nach Abschluss des Vorgangs wird das neue Spiel im Abschnitt „Installierte Spiele“ angezeigt. Du hast erfolgreich ein neues Spiel auf deinem Gameserver installiert.
 
@@ -67,7 +67,7 @@ Nach Abschluss des Vorgangs wird das neue Spiel im Abschnitt „Installierte Spi
 
 Als letzten Schritt vor dem Spielen musst du das Spiel aktivieren, wodurch es zum aktiven Spiel wird, das auf deinem Spielserver läuft.
 
-Dies kannst du ganz einfach tun, indem du den Abschnitt **Installierte Spiele** aufrufst und auf die blaue Schaltfläche Aktivieren klickst. Das derzeit aktivierte Spiel erkennst du am grünen Häkchen. Sobald du auf die Schaltfläche Aktivieren geklickt hast, erscheint eine Aufforderung, die du akzeptieren solltest, um fortzufahren.
+Dies kannst du ganz einfach tun, indem du den Abschnitt **Installierte Spiele** aufrufst und auf den blauen Button Aktivieren klickst. Das derzeit aktivierte Spiel erkennst du am grünen Häkchen. Sobald du auf den Button Aktivieren geklickt hast, erscheint eine Aufforderung, die du akzeptieren solltest, um fortzufahren.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/8sftaSqKAGEMmWc/preview)
 
@@ -79,11 +79,11 @@ Sobald das Spiel bereit ist, wird es aktiviert und du kannst mit dem Spielen dei
 
 Das Löschen und Neuinstallieren eines Spiels ist sehr einfach und kann über den Abschnitt **Installierte Spiele** erfolgen.
 
-Wenn du das gewünschte Spiel gefunden hast, klicke auf die orangefarbene Schaltfläche Neu installieren, um das Spiel neu zu installieren. Dieser Vorgang ist destruktiv und löscht alle Daten, die in diesem bestimmten Spiel gefunden werden, wie z. B. Spielserver oder Konfigurationsoptionen.
+Wenn du das gewünschte Spiel gefunden hast, klicke auf den orangen Button Neu installieren, um das Spiel neu zu installieren. Dieser Vorgang ist destruktiv und löscht alle Daten, die in diesem bestimmten Spiel gefunden werden, wie z. B. Spielserver oder Konfigurationsoptionen.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/dcRfmJx4q42NqdT/preview)
 
-Wenn du ein Spiel löschen möchtest, kannst du auch jederzeit auf die rote Schaltfläche Löschen neben dem entsprechenden Spiel im Abschnitt **Installierte Spiele** klicken, um es vom Spielserver zu entfernen.
+Wenn du ein Spiel löschen möchtest, kannst du auch jederzeit auf den roten Button Löschen neben dem entsprechenden Spiel im Abschnitt **Installierte Spiele** klicken, um es vom Spielserver zu entfernen.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/LDoHPdjT7y2ioqq/preview)
 
@@ -91,9 +91,9 @@ Wenn du ein Spiel löschen möchtest, kannst du auch jederzeit auf die rote Scha
 
 Bestimmte Spiele in unserer Spielesammlung können unterschiedliche Slot-Preise haben, was möglicherweise dazu führt, dass du bestimmte Spiele nicht installieren kannst. In solchen Fällen musst du deinen Slot-Preis erhöhen und einen Aufpreis zahlen, um diese Spiele wieder zur Installation verfügbar zu machen.
 
-Du kannst dies auf zwei Arten tun: Entweder du klickst oben auf der Seite auf die Schaltfläche **Spielplatzpreis ändern** oder du suchst zuerst nach Spielen, um die zugehörigen Spielplatzpreise für nicht verfügbare Spiele zu sehen.
+Du kannst dies auf zwei Arten tun: Entweder du klickst oben auf der Seite auf den Button **Spielplatzpreis ändern** oder du suchst zuerst nach Spielen, um die zugehörigen Spielplatzpreise für nicht verfügbare Spiele zu sehen.
 
-Wir empfehlen, zuerst das Dropdown-Menü **Weitere Spiele** zu verwenden, um Spiele zu finden und ihre Spielplatzpreise einfach zu durchsuchen. Wenn du das Spiel gefunden hast, klicke auf die blaue Schaltfläche Kaufen!
+Wir empfehlen, zuerst das Dropdown-Menü **Weitere Spiele** zu verwenden, um Spiele zu finden und ihre Spielplatzpreise einfach zu durchsuchen. Wenn du das Spiel gefunden hast, klicke auf den blauen Button Kaufen!
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/5kDzyCCcykeHAbA/preview)
 
@@ -101,7 +101,7 @@ Dies öffnet die Eingabeaufforderung für die Anpassung des Spielautomatenpreise
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/aibdr5yCqp3TK2o/preview)
 
-Wenn du fertig bist, klicke auf die Schaltfläche Weiter, um die Seite zu aktualisieren und eine Zahlungsmethode zur Deckung der Kosten für den Aufpreis auszuwählen. Wähle die Zahlungsmethode aus und klicke auf die Schaltfläche Jetzt kaufen, um die Änderung des Slot-Preises abzuschließen.
+Wenn du fertig bist, klicke auf den Button Weiter, um die Seite zu aktualisieren und eine Zahlungsmethode zur Deckung der Kosten für den Aufpreis auszuwählen. Wähle die Zahlungsmethode aus und klicke auf den Button Jetzt kaufen, um die Änderung des Slot-Preises abzuschließen.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/HyoLxct4rH3ac22/preview)
 

@@ -45,7 +45,7 @@ Das Sichern deines Savegames vom Server aus ist ganz einfach. Sobald du dich üb
 ../moe-dedicated/MOE/Saved/SaveGames/
 ```
 
-An diesem Ort solltest du Ordner sehen, die deine Savegames sind. Klicke einfach mit der rechten Maustaste auf den Ordner und benutze die Schaltfläche **Download**, um ihn lokal auf deinem Gerät zu speichern.
+An diesem Ort solltest du Ordner sehen, die deine Savegames sind. Klicke einfach mit der rechten Maustaste auf den Ordner und benutze den Button **Download**, um ihn lokal auf deinem Gerät zu speichern.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/3yN723tY8eiBb2w/preview)
 
