@@ -11,24 +11,30 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
-With the **ExpertDNS function** you can set which name servers should be used for the domain.
+The **ExpertDNS option** offers the possibility to use external name servers instead of the ones provided by ZAP-Hosting. With just a few clicks you can change the name servers. 
 
-## Where do I find the ExpertDNS option and how do I use it?
 
-The option is displayed in the domain administration page. **EasyDNS** would be selected by default in there, so you must first check "**expertDNS Activate**"
 
-![2022-05-07_21-59](https://screensaver01.zap-hosting.com/index.php/s/BD3yGao8StibP3C/preview)
+## Access and use case
 
-As soon as activated, further name servers can now be entered there. 
-The changes are confirmed with "**Save**".
+To access and activate the EasyDNS option, you must open the administration of your domain in the web interface. Once there, you will see the following options under DNS administration:
 
-:::info
-You can only use name servers in which the domain was already configured
-:::
+- EasyDNS
+- ProfiDNS
+- ExpertDNS
+
+The **EasyDNS** option should be selected by default. So you must first select and activate the The **EasyDNS** option should be selected by default in there, so you must first check **ExpertDNS** option. 
 
 ![2022-05-07_21-58](https://screensaver01.zap-hosting.com/index.php/s/zrKagEpZx7coebe/preview)
 
-If the zap-hosting.com name servers are no longer desired, other external name servers can be entered instead.
-Confirm the changes with "**Save**".
+As soon as the option is active, you can either change the default nameservers or add additional (optional) nameservers. Save the change afterwards by clicking on the green **Save** button. 
 
-![2022-05-07_22-00](https://screensaver01.zap-hosting.com/index.php/s/do2eLai2iigwwke/preview)
+:::warning Domains must be configured within the nameserver
+Different nameservers can only be specified and used if the domain is already stored and configured with the provided nameserver. 
+:::
+
+
+
+## Conclusion
+
+Congratulations, you have successfully adjusted the used nameservers of your domain. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
