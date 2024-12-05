@@ -4,7 +4,7 @@ title: "Dedicated Server: Remote Desktop Verbindungsabbrüche"
 description: Informationen zur Fehlersuche und Behebung von Remote Desktop Verbindungsabbrüche - ZAP-Hosting.com Dokumentation
 sidebar_label: RDP Verbindungsabbrüche
 services:
-  - vserver
+  - dedicated
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

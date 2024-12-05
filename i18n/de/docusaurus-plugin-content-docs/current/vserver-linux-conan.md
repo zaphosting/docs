@@ -1,6 +1,6 @@
 ---
 id: vserver-linux-conan
-title: "VPS: Conan Exiles Dedicated Server Linux Setup"
+title: "vServer: Conan Exiles Dedicated Server Linux Setup"
 description: Informationen zur Einrichtung eines Conan Exiles Dedicated Servers auf einem Linux VPS von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Conan Exiles
 services:

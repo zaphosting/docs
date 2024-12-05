@@ -1,6 +1,6 @@
 ---
 id: vserver-linux-palworld
-title: "VPS: Palworld Dedicated Server Linux Setup"
+title: "vServer: Palworld Dedicated Server Linux Setup"
 description: Informationen zur Einrichtung eines Palworld Dedicated Servers auf einem Linux VPS von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Palworld
 services:

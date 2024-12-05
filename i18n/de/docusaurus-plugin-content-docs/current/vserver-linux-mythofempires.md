@@ -1,6 +1,6 @@
 ---
 id: vserver-linux-mythofempires
-title: "VPS: Myth of Empires Dedicated Server Linux Setup"
+title: "vServer: Myth of Empires Dedicated Server Linux Setup"
 description: Informationen zur Einrichtung eines Myth of Empires Dedicated Servers auf einem Linux VPS von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Myth of Empires
 services:

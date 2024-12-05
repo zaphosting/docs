@@ -1,6 +1,6 @@
 ---
 id: vserver-linux-create-gameservice
-title: "VPS: Erstelle deinen Dedicated Game Server als Linux Service"
+title: "vServer: Erstelle deinen Dedicated Game Server als Linux Service"
 description: Informationen zum Einrichten deines dedizierten Spieleservers als Linux Service auf einem Linux VPS von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Linux Dienst einrichten
 services:

@@ -1,6 +1,6 @@
 ---
 id: vserver-linux-ragemp
-title: "VPS: RageMP Dedicated Server Linux Setup"
+title: "vServer: RageMP Dedicated Server Linux Setup"
 description: Informationen zur Einrichtung eines RageMP Dedicated Servers auf einem Linux VPS von ZAP-Hosting – ZAP-Hosting.com-Dokumentation
 sidebar_label: RageMP
 services:

@@ -1,6 +1,6 @@
 ---
 id: vserver-linux-openmp
-title: "VPS: Open.mp Dedicated Server Linux Setup"
+title: "vServer: Open.mp Dedicated Server Linux Setup"
 description: Informationen zur Einrichtung eines open.mp Dedicated Servers auf einem Linux VPS von ZAP-Hosting – ZAP-Hosting.com-Dokumentation
 sidebar_label: Open.mp
 services:

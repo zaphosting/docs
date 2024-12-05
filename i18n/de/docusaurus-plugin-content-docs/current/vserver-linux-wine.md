@@ -1,6 +1,6 @@
 ---
 id: vserver-linux-wine
-title: "VPS: Wine Kompatibilitätsschicht Linux Setup"
+title: "vServer: Wine Kompatibilitätsschicht Linux Setup"
 description: Informationen zur Einrichtung der Wine (WineHQ) Windows-Kompatibilitätsschicht auf einem Linux VPS von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Wine-Kompatibilitätsschicht einrichten
 services:
