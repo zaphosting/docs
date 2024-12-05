@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
-PHP is popular general-purpose programming language with significant usage in web development. In this guide, we cover the process of installing PHP to your server.
+PHP is a popular general-purpose programming language with significant usage in web development. In this guide, we cover the process of installing PHP to your server.
 
 <InlineVoucher />
 
@@ -95,12 +95,14 @@ Verify that the installation was successful using the `php -v` command. You have
 
 ## PHP Extensions
 
-PHP comes with a wide selection of extensions that are optional and can be installed to extend the functionality. To view a list of available extensions, run the following command which will return the results of the search command into console by pipelining the results to the `less` command.
+PHP comes with a wide selection of extensions that are optional and can be installed to extend the functionality. To view a list of available extensions, run the following command, which will return the results of the search command into console by pipelining the results to the `less` command.
+
 ```
 apt search php- | less
 ```
 
 Use the arrow keys to scroll and press `Q` once ready to quit. Now to install an extension package, simply use the apt install command as following. You can enter multiple extensions at once separated by a space to make the installation faster.
+
 ```
 sudo apt install [php_extension] [...]
 ```

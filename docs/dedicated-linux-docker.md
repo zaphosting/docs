@@ -17,7 +17,7 @@ Docker is a lightweight, open source virtualization software to provide services
 
 <InlineVoucher />
 
-## Prepreration
+## Preparation
 
 To begin, you must connect to your Linux server via SSH. Please have a look at our [Initial access (SSH)](dedicated-linux-ssh.md) guide if you require assistance with this. Throughout this guide, we will be using Ubuntu as the Linux distribution.
 
@@ -94,7 +94,7 @@ To verify that your installation is successful, try running the **hello-world** 
 sudo docker run hello-world
 ```
 
-Upon success you should see a useful hello message in chat with some basic information. If you are facing `Permission Denied` errors, please ensure that you enabled the **Docker Compatibility** option on your web interface and restarted the server as described in the [preperation](#prepreration) section.
+Upon success, you should see a useful hello message in chat with some basic information. If you are facing `Permission Denied` errors, please ensure that you enabled the **Docker Compatibility** option on your web interface and restarted the server as described in the [preperation](#prepreration) section.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/tzJwpYRYb9Mmryo/preview)
 
@@ -122,7 +122,7 @@ With this now done, we recommend restarting your server to ensure that the group
 Now verify that you can run Docker commands without `sudo` privileges by running the `docker run hello-world` command again.
 
 :::tip
-Sometimes you may receive an error regarding a config file if you previously ran the command with `sudo` privileges. To resolve this, simply use `rmdir ~/.docker/` to delete the Docker directory which will be automatically re-created upon next command usage.
+Sometimes you may receive an error regarding a config file if you previously ran the command with `sudo` privileges. To resolve this, simply use `rmdir ~/.docker/` to delete the Docker directory, which will be automatically re-created upon next command usage.
 :::
 
 If the command runs as expected, that means you have successfully setup your Docker to run without the need for using `sudo` privileges.

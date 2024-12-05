@@ -55,7 +55,7 @@ You will be able to adjust all configuration parameters by accessing and editing
 nano /home/steam/ARK-SA-Server/ShooterGame/Saved/Config/WindowsServer/GameUserSettings.ini
 ```
 
-See our [ARK: Survival Ascended Server Configuration guide](ark-configuration.md) guide to view all of the available options and what they each do.
+See our [ARK: Survival Ascended Server Configuration](ark-configuration.md) guide to view all of the available options and what they each do.
 
 ## Starting & Connecting to your server
 
@@ -65,10 +65,10 @@ xvfb-run wine /home/steam/ARK-SA-Server/ShooterGame/Binaries/Win64/ArkAscendedSe
 ```
 
 :::info
-Unfortunately due to a lack of support, you cannot run the Anti-Cheat Battleye version of the server on Linux. This is because the Anti-Cheat is not compatible at all.
+Unfortunately, due to a lack of support, you cannot run the Anti-Cheat Battleye version of the server on Linux. This is because the Anti-Cheat is not compatible at all.
 :::
 
-You should now see logs appear in your command prompt which signals that the start up was successful. Please note that first time start up could take some time as everything is setup. Alternatively, you will be able to connect directly by using the bottom search bar on the server list and searching for: `[your_ip_address]:7777`.
+You should now see logs appear in your command prompt, which signals that the start up was successful. Please note that first time start up could take some time as everything is setup. Alternatively, you will be able to connect directly by using the bottom search bar on the server list and searching for: `[your_ip_address]:7777`.
 
 ## Conclusion
 

@@ -25,7 +25,7 @@ Du kannst darauf zugreifen, indem du in der Windows-Suchleiste danach suchst ode
 
 ## Regeln verwalten
 
-Die meisten Anwendungen und Prozesse, vor allem solche, die über das Internet erreichbar sein müssen, wie z. B. Spieleserver oder Webserver, benötigen eine Portweiterleitung, um sicherzustellen, dass die Clients mit deinem Server (dem Host) kommunizieren können.
+Die meisten Anwendungen und Prozesse, vor allem solche, die über das Internet erreichbar sein müssen, wie z. B. Gameserver oder Webserver, benötigen eine Portweiterleitung, um sicherzustellen, dass die Clients mit deinem Server (dem Host) kommunizieren können.
 
 :::info
 In der Standardeinstellung öffnet Windows die Firewall nur für Anwendungen, die sie benötigen, und hält alle anderen Ports geschlossen. So wird verhindert, dass Ports unnötigerweise geöffnet werden, um das Risiko zu verringern. Das ist auch der Grund, warum du beim ersten Start von Spielen UAC-Eingabeaufforderungen siehst, um eine neue Firewall-Regel zu bestätigen.

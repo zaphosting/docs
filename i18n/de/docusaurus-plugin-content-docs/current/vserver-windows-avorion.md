@@ -91,7 +91,7 @@ Du musst neue Regeln für deinen Avorion-Server erstellen. Klicke dazu wie unten
 - TCP eingehend und ausgehend: 27000
 - UDP eingehend und ausgehend: 27000, 27003, 27020, 27021
 
-Bitte benutze unsere [Portweiterleitung (Firewall)](vserver-windows-port.md), wenn du weitere Hilfe dabei brauchst.
+Bitte benutze unsere [Portweiterleitung (Firewall)](vserver-windows-port.md) Anleitung, wenn du weitere Hilfe dabei brauchst.
 
 </TabItem>
 </Tabs>

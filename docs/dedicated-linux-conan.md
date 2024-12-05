@@ -74,7 +74,7 @@ Now it is time to start your server. Head over to the main game directory and ru
 xvfb-run wine64 /home/steam/Conan-Server/ConanSandboxServer.exe
 ```
 
-You should now see many logs appear in your command prompt signifying that the server is starting up. You will be able to connect directly by searchinf for the server in the server list or direct connecting via: `[your_ip_address]:7777`.
+You should now see many logs appear in your command prompt, signifying that the server is starting up. You will be able to connect directly by searchinf for the server in the server list or direct connecting via: `[your_ip_address]:7777`.
 
 ## Conclusion
 

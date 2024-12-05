@@ -51,3 +51,11 @@ The **Connection Name** is only used for the overview of the databases and can t
 
 Afterwards the database opens with all existing database tables. There your can now modify or manage your database similar to phpMyAdmin by click as well as by using SQL commands.
 ![](https://screensaver01.zap-hosting.com/index.php/s/FxDrm2K3f7YwLqS/preview)
+
+
+
+
+
+## Conclusion
+
+You have successfully established a connection to your database and can now manage it. For further questions or assistance, please don’t hesitate to contact our support team, which is available daily to assist you! 🙂

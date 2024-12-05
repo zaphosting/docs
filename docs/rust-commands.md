@@ -77,9 +77,9 @@ import TabItem from '@theme/TabItem';
 | global.kickall      | -          | Kicks all players from the server         | 
 | global.kick "steam64 / playername" "reason"      | Integer/String (e.g. "Jacob"), String (e.g. "Was naughty!")         | Kicks a user from the server through their Steam 64 ID or their playername (with optional reason)         | 
 | global.ownerid "steam64 / playername"      | Integer/String (e.g. "Jacob")          | Sets the specified player as a server administartor through their Steam 64 ID or their playername (Auth level 2)         | 
-| global.removeowner "steam64"      | Integer         | Removes administartor privilages from the user through the specified Steam 64 ID         | 
+| global.removeowner "steam64"      | Integer         | Removes administartor privileges  from the user through the specified Steam 64 ID         | 
 | global.moderatorid "steam64 / playername"      | Integer/String (e.g. "Jacob")          | Sets the specified player as a server moderator through their Steam 64 ID or their playername (Auth level 1)         | 
-| global.removemoderator "steam64"      | Integer          | Removes moderator privilages from the user through the specified Steam 64 ID         | 
+| global.removemoderator "steam64"      | Integer          | Removes moderator privileges  from the user through the specified Steam 64 ID         | 
 | global.listid      | -          | Returns a list of users who have been banned via Steam 64 ID          | 
 
 </TabItem>

@@ -19,11 +19,11 @@ Windows OS provides built-in user management allowing you to easily manage addit
 
 Begin by connecting to your Windows server via RDP. If you need help doing this, please refer to our [Initial Access (RDP)](vserver-windows-userdp.md) guide.
 
-:::important Administrative Privilages
-Ensure that you use the **Administrator** user or any user with administrative privilages to login to your Windows server, otherwise you will not be able to manage users.
+:::important Administrative Privileges
+Ensure that you use the **Administrator** user or any user with administrative privileges  to login to your Windows server, otherwise you will not be able to manage users.
 :::
 
-Each user that you create on your Windows server, will be able to use their own credentials to connect to the server through Remote Desktop. Similarly, each user will have their very own desktop, files and programs which are independent of others and can only be viewed by any user with administrative privilages. Programs that were installed for all users specifically, will be accessible globally.
+Each user that you create on your Windows server, will be able to use their own credentials to connect to the server through Remote Desktop. Similarly, each user will have their very own desktop, files and programs which are independent of others and can only be viewed by any user with administrative privileges . Programs that were installed for all users specifically, will be accessible globally.
 
 With the regular Windows Server license, **2** accounts will be able to login and use the server simultanously. If this is exceeded and another user connects, the user that connected first will be disconnected in favour of the connecting user. Otherwise, there is no limit to how many user accounts can be created.
 
@@ -87,8 +87,8 @@ You have successfully created a new user on your Windows server with access to r
 
 You can easily manage all users through the **Manage Accounts** section. Simply select a user that you wish to manage.
 
-:::important Administrative Privilages
-In order to manage users, you must be using the main **Administrator** account or a user with the administrator account type which contains all the necessary privilages to allow this.
+:::important Administrative Privileges
+In order to manage users, you must be using the main **Administrator** account or a user with the administrator account type which contains all the necessary privileges  to allow this.
 :::
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/yJPTWKieZNZXifH/preview)

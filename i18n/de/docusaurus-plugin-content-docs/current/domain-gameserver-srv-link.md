@@ -75,7 +75,7 @@ Hierbei muss bei "**Name**" nun das Protokol als auch die Verbindungsdomain rein
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/gsT6B5JqmWRZCe4/preview)
 
-Bei dem "**Wert**" müssen jetzt drei Werte eingetragen werden, erst die Priorität welche standardmäßig auf 0 belassen werden kann, dann als zweites der Port vom Spieleserver in unserem Beispiel "25500" und zu guter Letzt den Domainnamen des gerade erstellten "**A-Records**".
+Bei dem "**Wert**" müssen jetzt drei Werte eingetragen werden, erst die Priorität welche standardmäßig auf 0 belassen werden kann, dann als zweites der Port vom Gameserver in unserem Beispiel "25500" und zu guter Letzt den Domainnamen des gerade erstellten "**A-Records**".
 
 In unserem Beispiel sieht es dann wie folgt aus:
 
@@ -117,7 +117,7 @@ Hierbei muss bei "**Name**" nun das Protokoll als auch die Verbindungsdomain rei
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/t5XRRNLFirMxXis/preview)
 
-Bei dem "**Wert**" müssen jetzt drei Werte eingetragen werden, erst die Priorität welche standardmäßig auf 0 belassen werden kann, dann als zweites der Port vom Spieleserver in unserem Beispiel "30300" und zu guter Letzt den Domainnamen des gerade erstellten "**A-Records**".
+Bei dem "**Wert**" müssen jetzt drei Werte eingetragen werden, erst die Priorität welche standardmäßig auf 0 belassen werden kann, dann als zweites der Port vom Gameserver in unserem Beispiel "30300" und zu guter Letzt den Domainnamen des gerade erstellten "**A-Records**".
 
 In unserem Beispiel sieht es dann wie folgt aus:
 

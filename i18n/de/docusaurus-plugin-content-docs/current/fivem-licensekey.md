@@ -45,7 +45,7 @@ In der Tabelle sollte nun ein neuer Eintrag mit einem Schlüssel erscheinen, den
 
 ## Schlüssel zum Server hinzufügen
 
-Nachdem du den Lizenzschlüssel vorbereitet hast, musst du nun den bestehenden Lizenzschlüssel auf deinem FiveM Spieleserver anpassen und durch den neu erstellten Schlüssel ersetzen. Wenn du die Spielversion **txAdmin FiveM** verwendest, solltest du den Abschnitt [dedicated txAdmin](#txadmin-fivem-version) verwenden, da die Anweisungen etwas anders sind.
+Nachdem du den Lizenzschlüssel vorbereitet hast, musst du nun den bestehenden Lizenzschlüssel auf deinem FiveM Gameserver anpassen und durch den neu erstellten Schlüssel ersetzen. Wenn du die Spielversion **txAdmin FiveM** verwendest, solltest du den Abschnitt [dedicated txAdmin](#txadmin-fivem-version) verwenden, da die Anweisungen etwas anders sind.
 
 ### Allgemeine FiveM Server
 
@@ -67,4 +67,4 @@ Auf der txAdmin-Oberfläche navigierst du zum **CFG-Editor** auf der linken Seit
 
 ## Fazit
 
-Nachdem du den benutzerdefinierten Lizenzschlüssel eingerichtet hast, starte deinen Server neu, um ihn zu nutzen. Du hast erfolgreich einen benutzerdefinierten Lizenzschlüssel zu deinem FiveM Spieleserver hinzugefügt.
+Nachdem du den benutzerdefinierten Lizenzschlüssel eingerichtet hast, starte deinen Server neu, um ihn zu nutzen. Du hast erfolgreich einen benutzerdefinierten Lizenzschlüssel zu deinem FiveM Gameserver hinzugefügt.

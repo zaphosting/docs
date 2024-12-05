@@ -66,7 +66,7 @@ Die letzte Methode, um auf die Rohdatei zuzugreifen, ist über FTP. Wenn du dich
 In den folgenden Abschnitten findest du Tabellen mit Informationen über die verfügbaren Konfigurationsoptionen, sowohl für den eigentlichen Server als auch für die Spielkonfiguration.
 
 :::tip
-Wir raten davon ab, die Port-Einstellungen zu ändern, da diese automatisch vom Spielserver konfiguriert werden. Wenn du die Port-Werte änderst, kann es passieren, dass dein Spieleserver kaputt geht!
+Wir raten davon ab, die Port-Einstellungen zu ändern, da diese automatisch vom Spielserver konfiguriert werden. Wenn du die Port-Werte änderst, kann es passieren, dass dein Gameserver kaputt geht!
 :::
 
 ### Wichtige Servereinstellungen

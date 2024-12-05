@@ -17,13 +17,13 @@ Docker is a lightweight, open source virtualization software to provide services
 
 <InlineVoucher />
 
-## Prepreration
+## Preparation
 
 To begin, you must connect to your Linux server via SSH. Please have a look at our [Initial access (SSH)](vserver-linux-ssh.md) guide if you require assistance with this. Throughout this guide, we will be using Ubuntu as the Linux distribution.
 
 ### Enable Docker Compatibility
 
-You must enable **Docker Compatibility** on your web interface in order to allow Docker contaienrs to work, otherwise you will receive `Permission Denied` errors.
+You must enable **Docker Compatibility** on your web interface in order to allow Docker containers to work, otherwise you will receive `Permission Denied` errors.
 
 Head over to the **Settings** section on your server's web interface panel, enable the **Docker Compatibility** option and save.
 
@@ -41,6 +41,7 @@ Now that you are connected to your Linux server, you can proceed with the instal
 To begin, you will have to add Docker's package through the use of `apt` and set it up. This will allow you to easily install and update Docker from the repository in the future.
 
 Use the following commands to add Docker's official GPG key to your repository list.
+
 ```
 sudo apt-get update
 sudo apt-get install ca-certificates curl
@@ -50,6 +51,7 @@ sudo chmod a+r /etc/apt/keyrings/docker.asc
 ```
 
 Once these have been setup, you will have to add the repository to the `apt` sources, through the following command.
+
 ```
 echo \
   "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \
@@ -58,11 +60,13 @@ echo \
 ```
 
 Now that you have added the Docker repository to your sources, run the `apt-get` update command to fetch the changes.
+
 ```
 sudo apt-get update
 ```
 
 By this stage, you have successfully setup the Docker `apt` repository. As the final step, you will have to install the Docker pacakages. You can install the latest version using the following command.
+
 ```
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 ```
@@ -72,16 +76,19 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
 <TabItem value="fedora" label="Fedora">
 
 To begin, you should install the `dnf-plugins-core` pacakge which helps in managing repositories.
+
 ```
 sudo dnf -y install dnf-plugins-core
 ```
 
 With the package now installed, you should add the Docker repository and install it using the following command.
+
 ```
 sudo dnf-3 config-manager --add-repo https://download.docker.com/linux/fedora/docker-ce.repo
 ```
 
 Docker should now be installed. As a final step, you need to start and enable it before it can function.
+
 ```
 sudo systemctl enable --now docker
 ```
@@ -90,11 +97,12 @@ sudo systemctl enable --now docker
 </Tabs>
 
 To verify that your installation is successful, try running the **hello-world** image using the following command.
+
 ```
 sudo docker run hello-world
 ```
 
-Upon success you should see a useful hello message in chat with some basic information. If you are facing `Permission Denied` errors, please ensure that you enabled the **Docker Compatibility** option on your web interface and restarted the server as described in the [preperation](#prepreration) section.
+Upon success, you should see a useful hello message in chat with some basic information. If you are facing `Permission Denied` errors, please ensure that you enabled the **Docker Compatibility** option on your web interface and restarted the server as described in the [preparation](#preparation) section.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/tzJwpYRYb9Mmryo/preview)
 
@@ -109,6 +117,7 @@ With Docker now installed on your server, you may choose to perform some additio
 You can remove the need to prefix all Docker-related commands with the `sudo` command by creating a new Docker group and adding your users to it. This improves convenience, however be cautious that this indirectly grants root-level privileges to the user.
 
 Create the `docker` group and add your current user to the group using the following commands.
+
 ```
 # Create Docker group
 sudo groupadd docker
@@ -122,7 +131,7 @@ With this now done, we recommend restarting your server to ensure that the group
 Now verify that you can run Docker commands without `sudo` privileges by running the `docker run hello-world` command again.
 
 :::tip
-Sometimes you may receive an error regarding a config file if you previously ran the command with `sudo` privileges. To resolve this, simply use `rmdir ~/.docker/` to delete the Docker directory which will be automatically re-created upon next command usage.
+Sometimes you may receive an error regarding a config file if you previously ran the command with `sudo` privileges. To resolve this, simply use `rmdir ~/.docker/` to delete the Docker directory, which will be automatically re-created upon next command usage.
 :::
 
 If the command runs as expected, that means you have successfully setup your Docker to run without the need for using `sudo` privileges.

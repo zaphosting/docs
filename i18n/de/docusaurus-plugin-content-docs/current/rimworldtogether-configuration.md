@@ -37,7 +37,7 @@ Dieser Ordner enthält eine Vielzahl von `.json` Konfigurationsdateien für dein
 In den folgenden Abschnitten findest du Informationen darüber, wie du einige beliebte und gängige Konfigurationsoptionen für deinen RimWorld Together-Server anpassen kannst. Mehr über die einzelnen Dateien erfährst du in der [offiziellen RimWorld Together-Anleitung](https://rimworldtogether.github.io/Guide/selfhosting/getting-started.html#core), in der die Konfigurationsoptionen behandelt werden.
 
 :::tip
-Wir raten davon ab, die Port- oder IP-Einstellungen in der Datei **ServerConfig.json** zu ändern, da diese automatisch vom Spielserver konfiguriert werden. Wenn du diese Werte änderst, kann dein Spieleserver kaputt gehen!
+Wir raten davon ab, die Port- oder IP-Einstellungen in der Datei **ServerConfig.json** zu ändern, da diese automatisch vom Spielserver konfiguriert werden. Wenn du diese Werte änderst, kann dein Gameserver kaputt gehen!
 :::
 
 #### Server-Whitelist

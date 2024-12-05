@@ -45,7 +45,7 @@ You should now see a new entry in the table with a key that you have just genera
 
 ## Adding Key to Server
 
-With the license key now prepared, you will now have to adjust the existing license key on your FiveM game server and replace it with the newly created key. If you are utilising the **txAdmin FiveM** game version, you should utilise the [dedicated txAdmin](#txadmin-fivem-version) section as the instructions are slightly different.
+With the license key now prepared, you will now have to adjust the existing license key on your FiveM game server and replace it with the newly created key. If you are utilising the **txAdmin FiveM** game version, you should utilise the [dedicated txAdmin](#txadmin-fivem-version) section, as the instructions are slightly different.
 
 ### General FiveM Servers
 

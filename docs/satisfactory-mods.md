@@ -11,13 +11,13 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
-Satisfactory does not offer official modding, however the game is built with modding in mind which has caused the growth of a strong modding community ever since early access. These mods allow you to add a wide variety of improvements and additions to play throuhgs making it more exciting and fun. In this guide, we will cover the process of installing unofficial mods to your client and Satisfactory server.
+Satisfactory does not offer official modding, however the game is built with modding in mind, which has caused the growth of a strong modding community ever since early access. These mods allow you to add a wide variety of improvements and additions to play through making it more exciting and fun. In this guide, we will cover the process of installing unofficial mods to your client and Satisfactory server.
 
 <InlineVoucher />
 
 ## Preperation
 
-To begin, you will need to find mods that you wish to use. In this guide, we will be utilising the [Satisfactory Mod Manager](https://ficsit.app/) tool which is popular open-source mod manager allowing you to easily manage mods for both your local game and your game server.
+To begin, you will need to find mods that you wish to use. In this guide, we will be utilizing the [Satisfactory Mod Manager](https://ficsit.app/) tool, which is a popular open-source mod manager allowing you to easily manage mods for both your local game and your game server.
 
 Some of the key benefits of this tool include automatic mod management, easily "one-click" mod installation, filtering for multiplayer compatbility and the platform being the most popular repository for mods.
 
@@ -31,7 +31,7 @@ Head over to the **Tools->FTP-Browser** section on your server's web interface t
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/bmEiCgJ56N6KeJ6/preview)
 
-Now open the **Manage Servers** tab on the Satsifactory Mod Manager application and fill in the FTP Credentials. You may need to search the path to find the Satsifactory game server folder which is displayed with a server icon.
+Now open the **Manage Servers** tab on the Satisfactory Mod Manager application and fill in the FTP Credentials. You may need to search the path to find the Satisfactory game server folder, which is displayed with a server icon.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/9RqoD845JWfFCYT/preview)
 

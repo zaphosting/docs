@@ -1,8 +1,8 @@
 ---
 id: gameserver-gameswitch
-title: 'Gameserver: Spielumschaltfunktion für Web-Oberfläche'
-description: Informationen zur ZAP-Hosting-Spielwechsel-Funktion für Spieleserver und zur Verwaltung und zum Wechsel zwischen verschiedenen Spielen – ZAP-Hosting.com-Dokumentation
-sidebar_label: Switch Game
+title: 'Gameserver: Spielwechsel Feature über das Webinterface'
+description: Informationen zur ZAP-Hosting-Spielwechsel Feature für Gameserver und zur Verwaltung und zum Wechsel zwischen verschiedenen Spielen – ZAP-Hosting.com-Dokumentation
+sidebar_label: Spielwechsel
 services:
   - gameserver
 ---
@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Mit einem ZAP-Hosting-Spieleserver hast du die Möglichkeit, den Server über dein Webinterface-Panel schnell und einfach zwischen verschiedenen von uns angebotenen Spielen zu wechseln. In dieser Anleitung werden wir unsere Spielwechsel-Funktion vorstellen und erläutern, wie du damit verschiedene Spiele auf deinem Spieleserver verwalten und aktivieren kannst.
+Mit einem ZAP-Hosting-Gameserver hast du die Möglichkeit, den Server über dein Webinterface-Panel schnell und einfach zwischen verschiedenen von uns angebotenen Spielen zu wechseln. In dieser Anleitung werden wir unsere Spielwechsel-Funktion vorstellen und erläutern, wie du damit verschiedene Spiele auf deinem Gameserver verwalten und aktivieren kannst.
 
 <InlineVoucher />
 
@@ -30,21 +30,21 @@ Im Abschnitt **Spiele** auf deiner Webschnittstelle siehst du eine Liste der der
 :::info Lifetime Game Servers
 Bei unserem Produkt Lifetime Game Server gelten andere Preise für die Spielwechsel-Funktion. Für jedes Spiel, das du dauerhaft auf deinem Lifetime Game Server besitzen möchtest, fällt eine **einmalige** Gebühr von **30 €** pro Spiel an, das du erwerben möchtest. Nach dem Kauf ist das Spiel **dauerhaft** auf diesem bestimmten Lifetime Game Server verfügbar und kann daher jederzeit gewechselt werden.
 
-Abgesehen von den Preisen für lebenslange Spieleserver ist der Spielwechselprozess genau derselbe, nur dass die Spiele gekauft werden und nicht auf die Slot-Preise zurückgegriffen wird.
+Abgesehen von den Preisen für lebenslange Gameserver ist der Spielwechselprozess genau derselbe, nur dass die Spiele gekauft werden und nicht auf die Slot-Preise zurückgegriffen wird.
 :::
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/LjfzWgWY3rrC87D/preview)
 
 ### Neues Spiel installieren
 
-Um ein neues Spiel auf deinem Spieleserver zu installieren, wähle das Dropdown-Menü **Verfügbare Spiele** aus, in dem du verfügbare Spiele durchsuchen kannst, die du ohne zusätzliche Kosten auf deinem Server installieren kannst.
+Um ein neues Spiel auf deinem Gameserver zu installieren, wähle das Dropdown-Menü **Verfügbare Spiele** aus, in dem du verfügbare Spiele durchsuchen kannst, die du ohne zusätzliche Kosten auf deinem Server installieren kannst.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/EHDFJj26fm3Yocz/preview)
 
 In diesem Abschnitt findest du auch das Dropdown-Menü **Weitere Spiele**. Bei unserer großen Spielauswahl können bestimmte Spiele unterschiedliche Slot-Preise haben, was bedeuten kann, dass du das ausgewählte Spiel nicht ohne zusätzliche Kosten installieren kannst. Um dies zu beheben, musst du einen Aufpreis zahlen, um deinen Slot-Preis zu erhöhen. Weitere Informationen findest du im Abschnitt [Slot-Preis ändern](#slot-preis-ändern) der Anleitung.
 
 :::info Mindestanzahl an Slots
-Für bestimmte Spiele in unserer Spielesammlung ist eine bestimmte Mindestanzahl an Slots erforderlich, bevor du sie auf deinem Spieleserver installieren kannst. Fahre in solchen Fällen mit der Maus über das Warnsymbol, um mehr zu erfahren. Du solltest die Upgrade-/Downgrade-Funktion nutzen, um deinen Server basierend auf den Informationen zu aktualisieren.
+Für bestimmte Spiele in unserer Spielesammlung ist eine bestimmte Mindestanzahl an Slots erforderlich, bevor du sie auf deinem Gameserver installieren kannst. Fahre in solchen Fällen mit der Maus über das Warnsymbol, um mehr zu erfahren. Du solltest die Upgrade-/Downgrade-Funktion nutzen, um deinen Server basierend auf den Informationen zu aktualisieren.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/88r9qDeTfLT7D73/preview)
 :::
@@ -61,7 +61,7 @@ Der Hostwechsel ist ein **destruktiver** Vorgang, d. h. alle Daten, die sich der
 
 Kurz nachdem du auf die Schaltfläche zum Herunterladen geklickt hast, solltest du eine Pop-up-Eingabeaufforderung erhalten, in der du die Installation des Spiels bestätigen musst. Akzeptiere die Eingabeaufforderung, um den automatischen Installationsvorgang zu starten. Oben auf der Seite kannst du den Fortschritt der Installation verfolgen.
 
-Nach Abschluss des Vorgangs wird das neue Spiel im Abschnitt „Installierte Spiele“ angezeigt. Du hast erfolgreich ein neues Spiel auf deinem Spieleserver installiert.
+Nach Abschluss des Vorgangs wird das neue Spiel im Abschnitt „Installierte Spiele“ angezeigt. Du hast erfolgreich ein neues Spiel auf deinem Gameserver installiert.
 
 ### Spiel aktivieren und löschen
 
@@ -73,7 +73,7 @@ Dies kannst du ganz einfach tun, indem du den Abschnitt **Installierte Spiele** 
 
 Dein Server aktiviert das Spiel automatisch und startet den Server während dieses Vorgangs neu. 
 
-Sobald das Spiel bereit ist, wird es aktiviert und du kannst mit dem Spielen deines neuen Spiels beginnen. Du hast ein Spiel auf deinem Spieleserver erfolgreich aktiviert.
+Sobald das Spiel bereit ist, wird es aktiviert und du kannst mit dem Spielen deines neuen Spiels beginnen. Du hast ein Spiel auf deinem Gameserver erfolgreich aktiviert.
 
 ### Spiel löschen und neu installieren
 

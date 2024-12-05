@@ -32,7 +32,7 @@ Wenn das Spiel, das du installiert hast, derzeit nicht unterstützt wird, kannst
 
 ## Verwaltung von Subdomains (DNS)
 
-Die Verwaltung der Subdomain-Funktion auf deinem Spieleserver ist ganz einfach. Gehe dazu in den Bereich **Einstellungen->DNS Einstellungen**.
+Die Verwaltung der Subdomain-Funktion auf deinem Gameserver ist ganz einfach. Gehe dazu in den Bereich **Einstellungen->DNS Einstellungen**.
 
 Auf dieser Seite kannst du eine Reihe von Verwaltungsaufgaben durchführen, die sich auf die Free ZAP Cloud-Subdomain sowie auf die Nutzung deiner eigenen Domains beziehen, die du in deinem ZAP-Hosting-Konto eingerichtet hast.
 

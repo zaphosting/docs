@@ -96,7 +96,7 @@ Du musst neue Regeln für deinen Conan Exiles-Server erstellen. Klicke dazu auf 
 - TCP eingehend und ausgehend: 7777, 25575
 - UDP eingehend und ausgehend: 7777, 7778, 27015
 
-Bitte benutze unsere [Portweiterleitung (Firewall)](vserver-windows-port.md), wenn du weitere Hilfe dabei brauchst.
+Bitte benutze unsere [Portweiterleitung (Firewall)](vserver-windows-port.md) Anleitung, wenn du weitere Hilfe dabei brauchst.
 
 </TabItem>
 </Tabs>

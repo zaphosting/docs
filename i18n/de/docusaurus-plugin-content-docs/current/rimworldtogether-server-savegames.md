@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-In dieser Anleitung erfahren wir, wie du deine Rimworld Together Gamesaves auf deinem Spieleserver verwaltest, einschließlich der Sicherung deiner lokalen und Server-Savegames sowie des Uploads auf deinen Server.
+In dieser Anleitung erfahren wir, wie du deine Rimworld Together Gamesaves auf deinem Gameserver verwaltest, einschließlich der Sicherung deiner lokalen und Server-Savegames sowie des Uploads auf deinen Server.
 
 :::info
 Bedenke, dass das Verschieben eines bestehenden Vanilla-Spiels auf einen Rimworld Together-Server mit Mods wahrscheinlich zu Problemen beim Spielablauf führen wird. Das gilt besonders, wenn du Welten zwischen Servern mit verschiedenen Mods verschiebst.
