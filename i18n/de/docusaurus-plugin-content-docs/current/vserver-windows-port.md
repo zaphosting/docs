@@ -1,6 +1,6 @@
 ---
 id: vserver-windows-port
-title: "VPS: Verwaltung von Windows Defender Firewall-Regeln"
+title: "vServer: Verwaltung von Windows Defender Firewall-Regeln"
 description: Informationen zur Verwaltung von Windows Defender Firewall-Regeln, einschließlich Portweiterleitung, auf deinem Windows VPS von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Portweiterleitung (Firewall)
 services:
@@ -25,7 +25,7 @@ Du kannst darauf zugreifen, indem du in der Windows-Suchleiste danach suchst ode
 
 ## Regeln verwalten
 
-Die meisten Anwendungen und Prozesse, vor allem solche, die über das Internet erreichbar sein müssen, wie z. B. Spieleserver oder Webserver, benötigen eine Portweiterleitung, um sicherzustellen, dass die Clients mit deinem Server (dem Host) kommunizieren können.
+Die meisten Anwendungen und Prozesse, vor allem solche, die über das Internet erreichbar sein müssen, wie z. B. Gameserver oder Webserver, benötigen eine Portweiterleitung, um sicherzustellen, dass die Clients mit deinem Server (dem Host) kommunizieren können.
 
 :::info
 In der Standardeinstellung öffnet Windows die Firewall nur für Anwendungen, die sie benötigen, und hält alle anderen Ports geschlossen. So wird verhindert, dass Ports unnötigerweise geöffnet werden, um das Risiko zu verringern. Das ist auch der Grund, warum du beim ersten Start von Spielen UAC-Eingabeaufforderungen siehst, um eine neue Firewall-Regel zu bestätigen.
@@ -57,7 +57,7 @@ Im ersten Abschnitt wählst du die Option **Programm** als Regeltyp aus.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/NPm9ae8BsD78An9/preview)
 
-Jetzt musst du das Programm, für das du die Weiterleitungsregel erstellen möchtest, mit der Schaltfläche Durchsuchen auswählen. In diesem Beispiel wurde der Mozilla Firefox Browser als Beispielanwendung ausgewählt.
+Jetzt musst du das Programm, für das du die Weiterleitungsregel erstellen möchtest, mit des Buttons Durchsuchen auswählen. In diesem Beispiel wurde der Mozilla Firefox Browser als Beispielanwendung ausgewählt.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/XsS2iTa4JjXF8j5/preview)
 
@@ -67,7 +67,7 @@ Im Abschnitt Aktion wählst du die Option **Verbindung zulassen**.
 
 Lasse im Abschnitt Profil alle Optionen angekreuzt und fahre mit dem letzten Abschnitt fort. Hier solltest du einen aussagekräftigen Namen festlegen, mit dem du dich an die Regel erinnern kannst, und du kannst bei Bedarf eine optionale Beschreibung hinzufügen.
 
-Wenn du fertig bist, klicke auf die Schaltfläche **Finish**, um die Regel zu erstellen.
+Wenn du fertig bist, klicke auf den Button **Finish**, um die Regel zu erstellen.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/dpWEYFYGtWQYkw3/preview)
 
@@ -101,7 +101,7 @@ Wähle im Abschnitt Aktion die Option **Verbindung zulassen**.
 
 Lasse im Abschnitt Profil alle Optionen angekreuzt und fahre mit dem letzten Abschnitt fort. Hier solltest du einen aussagekräftigen Namen festlegen, mit dem du dich an die Regel erinnern kannst, und du kannst bei Bedarf eine optionale Beschreibung hinzufügen.
 
-Wenn du fertig bist, klicke auf die Schaltfläche **Finish**, um die Regel zu erstellen.
+Wenn du fertig bist, klicke auf den Button **Finish**, um die Regel zu erstellen.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/Ro5k6JgTF73exoH/preview)
 

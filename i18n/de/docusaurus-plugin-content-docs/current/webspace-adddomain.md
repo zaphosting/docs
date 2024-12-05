@@ -31,7 +31,7 @@ Auf der nun geöffneten Seite sind die Logindaten einzusehen. Das Passwort wird 
 Wenn dir das dort automatisch generierte Passwort nicht zusagt, kann dieses auf derselben Seite mit der Funktion "Passwort ändern" innerhalb von wenigen Sekunden geändert werden.
 :::
 
-Sobald Benutzername und Passwort eingesehen werden, kann das Plesk Interface durch Betätigen der Schaltfläche "**Verwaltung öffnen**" geöffnet werden. Nach der Weiterleitung auf das Plesk Interface müssen jetzt die vorher ersichtlichen Login Daten eingegeben werden.
+Sobald Benutzername und Passwort eingesehen werden, kann das Plesk Interface durch Betätigen des Buttons "**Verwaltung öffnen**" geöffnet werden. Nach der Weiterleitung auf das Plesk Interface müssen jetzt die vorher ersichtlichen Login Daten eingegeben werden.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/YEriMrkQrL7Fq9z/preview)
 
@@ -49,7 +49,7 @@ Bei "**Hosting Einstellungen**" kann nun bei "**Domainname**" die von ZAP-Hostin
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/sHKHMm4Gs4K8aLD/preview)
 
-Die Änderungen werden durch das Drücken der Schaltfläche "**OK**" bestätigt. 
+Die Änderungen werden durch das Drücken des Buttons "**OK**" bestätigt. 
 
 :::info
 Die Bestätigung kann etwas Zeit in Anspruch nehmen. Solltest du bei diesem Wechsel Fehler erhalten, wäre eine mögliche Fehlerquelle, dass deine Domain bereits als Alias in der Domain angelegt ist. 

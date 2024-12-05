@@ -15,7 +15,7 @@ The **FTP (File Transfer Protocol)** is a network protocol used to transfer file
 
 <InlineVoucher />
 
-## How do I install the FTP server to add a user? 
+## Installation
 
 To add a FTP user, you first need to install the FTP server. To do this, connect to the server once via SSH(Putty).
 
@@ -33,7 +33,7 @@ The following entries must be added:
 
 Now the FTP server must be restarted so that the changes are applied. This can be done with the following command: **service proftpd restart**
 
-## How do I add an FTP user? 
+## Add users
 
 To create the new FTP user, we first have to create an FTP group. We do this with the command **addgroup ftpuser**. This will look like this: 
 
@@ -64,4 +64,4 @@ Now we can connect with our set information:
 
 ## Conclusion
 
-Congratulations, you have successfully installed and configurated FTP! If you have any further questions or problems, please contact our support team, who are available to help you every day! 
+Congratulations, you have successfully installed and configured FTP! If you have any further questions or problems, please contact our support team, who are available to help you every day! 

@@ -25,7 +25,7 @@ Nachdem du dein Steam-Konto eingerichtet hast, solltest du in der Lage sein, dei
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/f4zTKdgnLgKZsY5/preview)
 
-Nach der Anmeldung musst du einen Domainnamen eingeben, die Nutzungsbedingungen für die Steam Web API bestätigen und auf die Schaltfläche **Registrieren** klicken. Die Domain sollte auf deine **Server IP** *(ohne Port)* eingestellt sein, also gib diese dort an. 
+Nach der Anmeldung musst du einen Domainnamen eingeben, die Nutzungsbedingungen für die Steam Web API bestätigen und auf den Button **Registrieren** klicken. Die Domain sollte auf deine **Server IP** *(ohne Port)* eingestellt sein, also gib diese dort an. 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/J5P9Dw2Lqr2ZrfN/preview)
 

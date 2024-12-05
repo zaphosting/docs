@@ -126,4 +126,4 @@ You have successfully installed Soulmask on your Windows Dedicated Server.
 
 ## Conclusion
 
-Congratulations, you have successfully installed and configurated the Soulmask Server on your VPS! If you have any further questions or problems, please contact our support team, who are available to help you every day! 
+Congratulations, you have successfully installed and configured the Soulmask Server on your VPS! If you have any further questions or problems, please contact our support team, who are available to help you every day! 

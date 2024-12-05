@@ -13,9 +13,9 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Ein Reverse-Proxy-Server ist ein Server, der als Vermittler zwischen den Endbenutzern und einem anderen Server fungiert. Websites und Spieleserver sind beliebte Gründe für die Implementierung eines Reverse-Proxys, die jeweils ihre eigenen verschiedenen Vorteile haben, darunter Sicherheit, einfacher Zugriff und Schutz.
+Ein Reverse-Proxy-Server ist ein Server, der als Vermittler zwischen den Endbenutzern und einem anderen Server fungiert. Websites und Gameserver sind beliebte Gründe für die Implementierung eines Reverse-Proxys, die jeweils ihre eigenen verschiedenen Vorteile haben, darunter Sicherheit, einfacher Zugriff und Schutz.
 
-In dieser Anleitung werden wir den Prozess der Einrichtung eines universellen Reverse-Proxys für Websites sowie eines auf Spieleserver zugeschnittenen Reverse-Proxys untersuchen.
+In dieser Anleitung werden wir den Prozess der Einrichtung eines universellen Reverse-Proxys für Websites sowie eines auf Gameserver zugeschnittenen Reverse-Proxys untersuchen.
 
 <InlineVoucher />
 
@@ -24,10 +24,10 @@ In dieser Anleitung werden wir den Prozess der Einrichtung eines universellen Re
 Für die Einrichtung eines Reverse-Proxys benötigst du einen **Linux-Server** (z. B. einen VPS), der als Host für deinen Proxy-Server dient. In diesem Beispiel verwenden wir Ubuntu als Linux-Distribution, aber die Installationsschritte sollten bei den meisten Linux-Distributionen sehr ähnlich sein.
 
 :::tip Empfohlene VPS-Spezifikationen
-Für einen Reverse-Proxy, der auf Spieleserver zugeschnitten ist, empfehlen wir dringend, eine höhere Netzwerkgeschwindigkeit zu erwerben, insbesondere wenn dein Server viele Spieler hat. Das liegt daran, dass dein VPS rohes TCP/UDP direkt zwischen dem Client (Spieler) und dem Spieleserver streamen wird. Ansonsten sollte ein Server mit Basisspezifikationen und minimalen Upgrades für einen webbezogenen Proxy ausreichen. :)
+Für einen Reverse-Proxy, der auf Gameserver zugeschnitten ist, empfehlen wir dringend, eine höhere Netzwerkgeschwindigkeit zu erwerben, insbesondere wenn dein Server viele Spieler hat. Das liegt daran, dass dein VPS rohes TCP/UDP direkt zwischen dem Client (Spieler) und dem Gameserver streamen wird. Ansonsten sollte ein Server mit Basisspezifikationen und minimalen Upgrades für einen webbezogenen Proxy ausreichen. :)
 :::
 
-Wir empfehlen, den Proxy mit einer **Domain** einzurichten, die dir gehört. Für jede Subdomain, die du verwenden möchtest, solltest du einen `A`-DNS-Eintrag erstellen (z. B. `zapdocs.example.com`), der auf die IP-Adresse deines __Linux VPS__ verweist. Dies ist der Zugriff, den Benutzer verwenden, um auf deine Website oder deinen Spieleserver zuzugreifen.
+Wir empfehlen, den Proxy mit einer **Domain** einzurichten, die dir gehört. Für jede Subdomain, die du verwenden möchtest, solltest du einen `A`-DNS-Eintrag erstellen (z. B. `zapdocs.example.com`), der auf die IP-Adresse deines __Linux VPS__ verweist. Dies ist der Zugriff, den Benutzer verwenden, um auf deine Website oder deinen Gameserver zuzugreifen.
 
 ### Zugriff auf VPS
 
@@ -126,12 +126,12 @@ systemctl reload nginx.service
 
 Nach dem Neustart des Dienstes solltest du nun testen, ob du in deinem Browser auf die Domain zugreifen kannst, die du für den Reverse-Proxy verwendet hast. Bei Erfolg sollte die Seite den gewünschten Inhalt laden, den du als Parameter `targetServer` festgelegt hast. Wenn du auf Probleme stößt, empfehlen wir, die Protokolle zur Fehlerbehebung mit `journalctl -f -u nginx.service` zu überprüfen, um mögliche Fehler zu identifizieren.
 
-## Für Spieleserver
+## Für Gameserver
 
-Ein Reverse-Proxy für Spieleserver kann aus verschiedenen Gründen sehr vorteilhaft sein, unter anderem, weil er eine zusätzliche Sicherheits- und Zuverlässigkeitsebene bietet, indem er die Schadensbegrenzung verbessert und den Zugriff auf den Haupt-Host einschränkt.
+Ein Reverse-Proxy für Gameserver kann aus verschiedenen Gründen sehr vorteilhaft sein, unter anderem, weil er eine zusätzliche Sicherheits- und Zuverlässigkeitsebene bietet, indem er die Schadensbegrenzung verbessert und den Zugriff auf den Haupt-Host einschränkt.
 
 :::tip
-Die meisten dedizierten Spieleserver sollten mit einem von dir eingerichteten Raw-TCP/UDP-Endpunkt-Proxy einwandfrei funktionieren. Bei einer kleinen Minderheit von Spielen wie BeamMP kann es jedoch sein, dass sie nicht gut mit VPNs und Proxys funktionieren, sodass du sie für jedes Spiel einzeln testen musst.
+Die meisten dedizierten Gameserver sollten mit einem von dir eingerichteten Raw-TCP/UDP-Endpunkt-Proxy einwandfrei funktionieren. Bei einer kleinen Minderheit von Spielen wie BeamMP kann es jedoch sein, dass sie nicht gut mit VPNs und Proxys funktionieren, sodass du sie für jedes Spiel einzeln testen musst.
 :::
 
 ### Nginx-Einrichtung
@@ -202,4 +202,4 @@ Bitte lies dir unsere Anleitung [Install Certbot](vserver-linux-certbot.md) durc
 
 ## Abschluss
 
-Glückwunsch, du hast erfolgreich einen Reverse-Proxy für eine Website oder deinen Spieleserver (oder beides :) eingerichtet, der dir verschiedene Verbesserungen in Bezug auf Sicherheit, Zuverlässigkeit und Leistung bietet. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+Glückwunsch, du hast erfolgreich einen Reverse-Proxy für eine Website oder deinen Gameserver (oder beides :) eingerichtet, der dir verschiedene Verbesserungen in Bezug auf Sicherheit, Zuverlässigkeit und Leistung bietet. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂

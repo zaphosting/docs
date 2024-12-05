@@ -89,4 +89,4 @@ At the end of the setup, you can now start the server by executing the **server-
 
 ## Conclusion
 
-Congratulations, you have successfully installed and configurated the Satisfactory server on your VPS! If you have any further questions or problems, please contact our support team, who are available to help you every day! 
+Congratulations, you have successfully installed and configured the Satisfactory server on your VPS! If you have any further questions or problems, please contact our support team, who are available to help you every day! 

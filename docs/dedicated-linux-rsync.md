@@ -1,6 +1,6 @@
 ---
 id: dedicated-linux-rsync
-title: "VPS: Backing up Linux servers with Rsync"
+title: "Dedicated Server: Backing up Linux servers with Rsync"
 description: Information on how to make backups of on your Linux Dedicated Server from ZAP-Hosting with Rsync - ZAP-Hosting.com documentation
 sidebar_label: Create Backups with Rsync
 services:

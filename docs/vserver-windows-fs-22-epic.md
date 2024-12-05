@@ -161,4 +161,4 @@ Once you locate the server, click on it to connect. If prompted, enter the passw
 
 ## Conclusion
 
-Congratulations, you have successfully installed and configurated the Farming Simulator 2022 server on your VPS! If you have any further questions or problems, please contact our support team, who are available to help you every day! 
+Congratulations, you have successfully installed and configured the Farming Simulator 2022 server on your VPS! If you have any further questions or problems, please contact our support team, who are available to help you every day! 

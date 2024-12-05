@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Hast du einen Windows Dedicated Server und möchtest den Farming Simulator Dedicated Server 2022-Dienst darauf installieren? Dann bist du hier richtig. In diesem Leitfaden erklären wir dir Schritt für Schritt, wie du diesen Dienst auf deinem Server installierst.
+Hast du einen Windows Dedicated Server und möchtest den Farming Simulator Dedicated Server 2022-Dienst darauf installieren? Dann bist du hier richtig. In dieser Anleitung erklären wir dir Schritt für Schritt, wie du diesen Dienst auf deinem Server installierst.
 
 <InlineVoucher />
 
@@ -32,7 +32,7 @@ Du kannst nicht denselben Lizenzschlüssel verwenden, mit dem du das Spiel spiel
 :::info Steam-Spielelizenz
 Es ist möglich, eine Steam-Spielelizenz zu verwenden, um deinen dedizierten Server zu hosten. Dies kann jedoch sehr unpraktisch sein, da du gezwungen wärst, den Steam-Client ständig im Hintergrund laufen zu lassen. Dies bedeutet auch, dass du aufgrund der Einschränkungen von Steam kein anderes Spiel auf einem anderen System mit demselben Steam-Konto spielen kannst. Daher empfehlen wir dir dringend, stattdessen einen eigenständigen Schlüssel direkt auf der Website zu erwerben, um diesen Aufwand zu vermeiden.
 
-Wenn du jedoch vorhast, eine **Steam**-Lizenz zu verwenden, solltest du die Dateien stattdessen wie gewohnt über Steam installieren und mit dem Abschnitt [**Einrichtung eines dedizierten Servers**](#einrichtung-des-dedizierten-servers) des Leitfadens fortfahren.
+Wenn du jedoch vorhast, eine **Steam**-Lizenz zu verwenden, solltest du die Dateien stattdessen wie gewohnt über Steam installieren und mit dem Abschnitt [**Einrichtung eines dedizierten Servers**](#einrichtung-des-dedizierten-servers) der Anleitung fortfahren.
 :::
 
 Sobald du eine digitale Version auf der Website gekauft hast, erhältst du einen Produktcode an die E-Mail-Adresse, die du beim Bezahlvorgang angegeben hast. Du benötigst diesen Lizenzschlüssel im folgenden Abschnitt, um auf den Spiel-Download zuzugreifen und deinen dedizierten Server während der Einrichtung zu validieren.
@@ -143,7 +143,7 @@ Du musst neue Regeln für deinen FS2025 Server erstellen. Klicke dazu auf die ei
 - TCP incoming and outgoing: 8080, 10823
 - UDP incoming and outgoing: 8080, 10823
 
-Bitte benutze unseren [Portweiterleitung (Firewall)](vserver-windows-port.md) Anleitung, wenn du weitere Hilfe dabei brauchst.
+Bitte benutze unsere [Portweiterleitung (Firewall)](vserver-windows-port.md) Anleitung, wenn du weitere Hilfe dabei brauchst.
 
 </TabItem>
 </Tabs>
@@ -152,7 +152,7 @@ Sobald ihr diese Regeln hinzugefügt habt, ist euer Server erreichbar, was bedeu
 
 ### Server starten
 
-Nachdem du deine Einstellungen angepasst und Firewall-Regeln eingerichtet hast, rufe die Startseite der Weboberfläche auf und klicke auf die Schaltfläche **Start**, um den Startvorgang zu starten.
+Nachdem du deine Einstellungen angepasst und Firewall-Regeln eingerichtet hast, rufe die Startseite der Weboberfläche auf und klicke auf den Button **Start**, um den Startvorgang zu starten.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/5S4FmawFoJBsMyo/preview)
 

@@ -33,7 +33,7 @@ Wir empfehlen, diese Methode zu verwenden, da sie am einfachsten ist.
 Der Server muss gestoppt werden, bevor die Konfigurationsdatei bearbeitet werden kann. Wenn die Konfigurationsdatei erst bearbeitet und der Server neu gestartet wird, werden sämtliche Änderungen rückgängig gemacht.
 :::
 
-Gehe einfach zum Abschnitt **Configs** im Webinterface deines Gameservers und klicke auf die blaue Schaltfläche Datei bearbeiten, wie unten zu sehen:
+Gehe einfach zum Abschnitt **Configs** im Webinterface deines Gameservers und klicke auf den blauen Button Datei bearbeiten, wie unten zu sehen:
 
 ![](https://github.com/zaphosting/docs/assets/42719082/53c8acad-7347-4c3e-85bf-5ae0ad423fc6)
 

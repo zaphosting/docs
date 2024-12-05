@@ -132,4 +132,4 @@ You will now be able to direct connect to your server in-game via the RageMP lau
 
 ## Conclusion
 
-Congratulations, you have successfully installed and configurated the RageMP server on your Dedicated Server! If you have any further questions or problems, please contact our support team, who are available to help you every day!
+Congratulations, you have successfully installed and configured the RageMP server on your Dedicated Server! If you have any further questions or problems, please contact our support team, who are available to help you every day!

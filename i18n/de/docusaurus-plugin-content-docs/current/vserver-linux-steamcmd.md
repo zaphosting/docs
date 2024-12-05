@@ -1,6 +1,6 @@
 ---
 id: vserver-linux-steamcmd
-title: "VPS: SteamCMD Linux Einrichtung"
+title: "vServer: SteamCMD Linux Einrichtung"
 description: Informationen zur Einrichtung von SteamCMD auf einem Linux VPS von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: SteamCMD einrichten
 services:
@@ -82,7 +82,7 @@ Verwende den folgenden Befehl, um einen Benutzer namens `steam` mit einem option
 
 ```
 sudo useradd -m steam
-sudo passwd [dein_passwort] # Optionales Passwort
+sudo passwd steam # Optionales Passwort
 ```
 
 Sobald der Benutzer erstellt ist, musst du die Datei `.bashrc` anpassen, um den Zugriff auf den Pfad `/usr/games` zu ermöglichen, in dem sich SteamCMD befindet. Dazu fügst du eine zusätzliche Umgebungsvariable path hinzu.

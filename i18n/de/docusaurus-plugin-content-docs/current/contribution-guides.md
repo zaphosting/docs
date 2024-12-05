@@ -67,7 +67,7 @@ Der erste Schritt besteht darin, einen eigenen Fork des ZAP-Hosting-Dokumentatio
 
 ![](https://github.com/zaphosting/docs/assets/42719082/9bc28311-0a4c-4c25-9736-9d0eab932689)
 
-Du solltest das Repository nach dem Vorschlag benennen, der akzeptiert wurde, und den Text "Nur den Master-Zweig kopieren" ankreuzen. Drücke dann auf die Schaltfläche "Erstellen" und warte ein paar Sekunden, bis es erfolgreich geforkt wurde. 
+Du solltest das Repository nach dem Vorschlag benennen, der akzeptiert wurde, und den Text "Nur den Master-Zweig kopieren" ankreuzen. Drücke dann auf den Button "Erstellen" und warte ein paar Sekunden, bis es erfolgreich geforkt wurde. 
 
 Jetzt kannst du zum nächsten Abschnitt gehen, um Inhalte zu erstellen oder zu bearbeiten. Für fortgeschrittene Benutzer kann es sinnvoller sein, die Inhalte lokal zu erstellen, da du sie so einfach und von unterwegs testen kannst.
 
@@ -125,7 +125,7 @@ Gehe oben rechts in der Datei auf das Bearbeiten-Symbol (Stift). Daraufhin öffn
 
 Jetzt, wo deine Datei fertig ist, kannst du damit fortfahren, den Inhalt zu schreiben, der in deinem Vorschlag vereinbart wurde. Wir empfehlen, regelmäßig zu speichern oder zu bestätigen, um sicherzustellen, dass du nicht möglicherweise etwas von deiner Arbeit verlierst.
 
-Über die Schaltfläche **Vorschau** oben im Bearbeitungsfenster kannst du in den Vorschaumodus wechseln, der die grobe Vorschau anzeigt, und über die Schaltfläche **Bearbeiten** wieder zurückschalten.
+Über den Button **Vorschau** oben im Bearbeitungsfenster kannst du in den Vorschaumodus wechseln, der die grobe Vorschau anzeigt, und über den Button **Bearbeiten** wieder zurückschalten.
 
 ![](https://github.com/zaphosting/docs/assets/42719082/711ae450-e8c7-4a03-b358-4c5cf2caa7ba)
 
@@ -135,7 +135,7 @@ Bitte beachte, dass einige Docusaurus-spezifische Elemente wie Ermahnungen (Tags
 
 In den [Richtlinien](contribution-guides-guidelines.md) findest du alle Informationen zu Markdown, Struktur, Terminologie und mehr.
 
-Wenn du deine Änderungen vorgenommen hast, klickst du auf die Schaltfläche **Änderungen bestätigen...**, woraufhin eine Aufforderung erscheint.
+Wenn du deine Änderungen vorgenommen hast, klickst du auf den Button **Änderungen bestätigen...**, woraufhin eine Aufforderung erscheint.
 
 ![](https://github.com/zaphosting/docs/assets/42719082/1c401a6f-71ef-4853-8d9e-3f5e400f2c2c)
 
@@ -268,7 +268,7 @@ Es öffnet sich eine neue Seite, auf der du die Änderungen sehen kannst, die du
 
 Als Nächstes gibst du bitte einen passenden Titel ein, der erklärt, was du gemacht hast. Achte bitte darauf, dass du in der Beschreibung deinen Vorschlag erwähnst und verlinkst, indem du neben der ID des Vorschlags `#000` verwendest. Wenn du den Vorschlag nicht über das Menü findest, kannst du schnell zum [ZAP Docs GitHub Repository](https://github.com/zaphosting/docs) gehen, den Bereich "Issues" aufrufen und dort nach deinem Vorschlag und seiner ID-Nummer suchen.
 
-Sobald du den Titel und die Beschreibung eingegeben und sichergestellt hast, dass die Änderungen korrekt sind, kannst du deinen Pull Request über die Schaltfläche erstellen, um ihn an unser Repository zu senden.
+Sobald du den Titel und die Beschreibung eingegeben und sichergestellt hast, dass die Änderungen korrekt sind, kannst du deinen Pull Request über den Button erstellen, um ihn an unser Repository zu senden.
 
 ![](https://github.com/zaphosting/docs/assets/42719082/fc04a359-bffc-459b-89fd-94eee74e4a71)
 

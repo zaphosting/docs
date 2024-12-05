@@ -24,7 +24,7 @@ Falls du dich aufgrund einer nicht funktionierenden Internetverbindung nicht üb
 
 Mit dieser Option kannst du auf deinen Server zugreifen und Probleme beheben, auch wenn die Internetverbindung nicht funktioniert. Du kannst darauf zugreifen, indem du in der Weboberfläche deines Servers den Bereich **Werkzeuge->VNC-Konsole** aufrufst.
 
-Auf dieser Seite kannst du die Konsole aktivieren, indem du auf die Schaltfläche **Webclient öffnen** klickst und dich mit deinen üblichen Anmeldedaten anmeldest.
+Auf dieser Seite kannst du die Konsole aktivieren, indem du auf den Button **Webclient öffnen** klickst und dich mit deinen üblichen Anmeldedaten anmeldest.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/ZJSbjmTYtmi5Lie/preview)
 

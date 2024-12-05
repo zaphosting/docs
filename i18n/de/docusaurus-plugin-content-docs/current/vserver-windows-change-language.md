@@ -1,6 +1,6 @@
 ---
 id: vserver-windows-change-language
-title: "VPS: Sprache auf Windows Server hinzufügen/ändern"
+title: "vServer: Sprache auf Windows Server hinzufügen/ändern"
 description: Informationen darüber, wie du die Sprache deines Windows VPS von ZAP-Hosting ändern kannst und wie du Sprachen hinzufügst - ZAP-Hosting.com Dokumentation
 sidebar_label: Sprache hinzufügen/ändern
 services:
@@ -29,7 +29,7 @@ Sobald du verbunden bist, suche über die Windows-Suchleiste oder durch Drücken
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/Rf4inxAES3tBH8E/preview)
 
-Finde auf dieser Seite den Abschnitt Sprache und drücke auf die Schaltfläche **Sprache hinzufügen**. 
+Finde auf dieser Seite den Abschnitt Sprache und drücke auf den Button **Sprache hinzufügen**. 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/mbKyb4FiNZnYtDj/preview)
 

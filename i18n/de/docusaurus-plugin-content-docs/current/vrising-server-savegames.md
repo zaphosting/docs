@@ -50,7 +50,7 @@ Es ist ganz einfach, dein Savegame auf dem Server zu sichern. Sobald du dich üb
 ../vrising/save-data/Saves
 ```
 
-Dort solltest du je nach Spielversion einen v1- und einen v3-Ordner sehen können. In jedem dieser Ordner findest du deine Savegames. Klicke einfach mit der rechten Maustaste auf den Ordner und benutze die Schaltfläche **Download**, um ihn lokal auf deinem Gerät zu speichern.
+Dort solltest du je nach Spielversion einen v1- und einen v3-Ordner sehen können. In jedem dieser Ordner findest du deine Savegames. Klicke einfach mit der rechten Maustaste auf den Ordner und benutze den Button **Download**, um ihn lokal auf deinem Gerät zu speichern.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/tZ4HngqLeHTkizz/preview)
 
@@ -79,4 +79,4 @@ Um ein bestimmtes Savegame verwenden zu können, musst du eine Konfigurationsdat
 
 Gehe einfach im Webinterface deines Spieleservers in den Bereich **Einstellungen** und suche die Einstellung **Savenname**.
 
-Ändere diese Einstellung auf den Namen des Spielstandsordners, den du im vorherigen Schritt hochgeladen hast. Wenn du fertig bist, stelle sicher, dass du unten mit der grünen Schaltfläche **Speichern** speicherst und dann deinen Server neu startest.
+Ändere diese Einstellung auf den Namen des Spielstandsordners, den du im vorherigen Schritt hochgeladen hast. Wenn du fertig bist, stelle sicher, dass du unten mit dem grünen Button **Speichern** speicherst und dann deinen Server neu startest.

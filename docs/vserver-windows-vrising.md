@@ -122,4 +122,4 @@ After the port release the server is publicly accessible, if it was started.
 
 ## Conclusion
 
-Congratulations, you have successfully installed and configurated the V-Rising on your VPS! If you have any further questions or problems, please contact our support team, who are available to help you every day! 
+Congratulations, you have successfully installed and configured the V-Rising on your VPS! If you have any further questions or problems, please contact our support team, who are available to help you every day! 

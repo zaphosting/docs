@@ -1,6 +1,6 @@
 ---
 id: dedicated-linux-sftp
-title: "VPS: Connecting to Linux Server via SFTP"
+title: "Dedicated Server: Connecting to Linux Server via SFTP"
 description: Information on how to connect via SFTP to on your Linux Dedicated Server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: SFTP Connection
 services:

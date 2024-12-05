@@ -47,7 +47,7 @@ Scrolle anschließen nach unten, klicke auf das Dropdown-Menü "Verfügbare Spie
 
 ![Screenshot 2023-02-21 191713](https://screensaver01.zap-hosting.com/index.php/s/tegbMeKeaz329TA/preview)
 
-Drücke auf die grüne Download-Schaltfläche und bestätige die Einrichtung, bei der daraufhin erscheinenden Aufforderung. Der Download des angegebenen Server-Builds wird nun gestartet.
+Drücke auf den grünen Download Button und bestätige die Einrichtung, bei der daraufhin erscheinenden Aufforderung. Der Download des angegebenen Server-Builds wird nun gestartet.
 
 ![Screenshot 2023-02-21 191956](https://screensaver01.zap-hosting.com/index.php/s/xPJ7gssbJscsYQS/preview)
 

@@ -93,7 +93,7 @@ Du musst neue Regeln für deinen Enshrouded-Server erstellen. Klicke dazu auf di
 - TCP eingehend und ausgehend: 15636-15637
 - UDP eingehend und ausgehend: 15636-15637
 
-Bitte benutze unsere [Portweiterleitung (Firewall)](vserver-windows-port.md), wenn du weitere Hilfe dabei brauchst.
+Bitte benutze unsere [Portweiterleitung (Firewall)](vserver-windows-port.md) Anleitung, wenn du weitere Hilfe dabei brauchst.
 
 </TabItem>
 </Tabs>

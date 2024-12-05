@@ -48,7 +48,7 @@ Es ist ganz einfach, dein Savegame auf dem Server zu sichern. Sobald du dich üb
 ../foundry/saves/save
 ```
 
-An diesem Ort solltest du Ordner sehen, die jeweils ein Savegame sind. Klicke einfach mit der rechten Maustaste auf den Ordner und benutze die Schaltfläche **Download**, um ihn lokal auf deinem Gerät zu speichern.
+An diesem Ort solltest du Ordner sehen, die jeweils ein Savegame sind. Klicke einfach mit der rechten Maustaste auf den Ordner und benutze den Button **Download**, um ihn lokal auf deinem Gerät zu speichern.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/X2f3Fo27GCyFe3m/preview)
 

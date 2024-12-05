@@ -49,7 +49,7 @@ import TabItem from '@theme/TabItem';
 
 <Tabs>
 <TabItem value="Mods" label="For Mods" default>
-Klicken im Abschnitt "Dateidetails" auf die Schaltfläche "Herunterladen". Speichere diese Datei an einem beliebigen Ort, du wirst sie später noch brauchen.
+Klicken im Abschnitt "Dateidetails" auf den Button "Herunterladen". Speichere diese Datei an einem beliebigen Ort, du wirst sie später noch brauchen.
 
 ![](https://github.com/Yoshlix/docs/assets/26007280/7b84ae33-1bef-4568-80d7-ef651a654b08)
 

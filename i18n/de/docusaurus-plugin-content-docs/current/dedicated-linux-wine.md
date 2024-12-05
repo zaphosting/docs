@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Wine ist eine Open-Source-Kompatibilitätsschicht für Linux, mit der Software, die ursprünglich für Windows entwickelt wurde, auf Linux-Systemen laufen kann. Dies ist besonders wichtig für dedizierte Spieleserver, die nur Windows-Serverdateien anbieten, und kann als Voraussetzung für unsere anderen Anleitungen zu dedizierten Linux-Spieleservern erforderlich sein. In diesem Anleitung werden wir uns mit der erstmaligen Installation von Wine auf deinem Linux-Server beschäftigen. In den Beispielen verwenden wir Ubuntu, aber der Prozess sollte für andere Distributionen sehr ähnlich sein.
+Wine ist eine Open-Source-Kompatibilitätsschicht für Linux, mit der Software, die ursprünglich für Windows entwickelt wurde, auf Linux-Systemen laufen kann. Dies ist besonders wichtig für dedizierte Gameserver, die nur Windows-Serverdateien anbieten, und kann als Voraussetzung für unsere anderen Anleitungen zu dedizierten Linux-Spieleservern erforderlich sein. In diesem Anleitung werden wir uns mit der erstmaligen Installation von Wine auf deinem Linux-Server beschäftigen. In den Beispielen verwenden wir Ubuntu, aber der Prozess sollte für andere Distributionen sehr ähnlich sein.
 
 <InlineVoucher />
 
@@ -46,13 +46,13 @@ Jetzt kannst du mit dem Hauptschritt fortfahren und die neueste Version von Wine
 sudo apt install --install-recommends winehq-staging
 ```
 
-Zum Schluss musst du noch ein paar zusätzliche Pakete installieren, um sicherzustellen, dass Wine gut mit dem dedizierten Spieleserver zusammenarbeitet, indem du den folgenden Befehl ausführst.
+Zum Schluss musst du noch ein paar zusätzliche Pakete installieren, um sicherzustellen, dass Wine gut mit dem dedizierten Gameserver zusammenarbeitet, indem du den folgenden Befehl ausführst.
 ```
 sudo apt install cabextract winbind screen xvfb
 ```
 
 ## Abschluss
 
-Du hast nun erfolgreich die Wine-Anpassungsschicht eingerichtet, mit der du Windows-Programme auf deinem Linux-Server ausführen kannst. Mit dieser wichtigen Voraussetzung kannst du nun dedizierte Spieleserver installieren, auch wenn sie für Windows entwickelt wurden.
+Du hast nun erfolgreich die Wine-Anpassungsschicht eingerichtet, mit der du Windows-Programme auf deinem Linux-Server ausführen kannst. Mit dieser wichtigen Voraussetzung kannst du nun dedizierte Gameserver installieren, auch wenn sie für Windows entwickelt wurden.
 
 Wir empfehlen dir, die anderen Anleitungen in diesem Abschnitt zu lesen, in denen es um die Installation bestimmter Spiele mit Hilfe von SteamCMD und möglicherweise Wine für Windows-basierte dedizierte Server geht.

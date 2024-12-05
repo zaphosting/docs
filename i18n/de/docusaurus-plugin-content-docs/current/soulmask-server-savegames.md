@@ -46,7 +46,7 @@ Das Sichern deines Savegames vom Server ist ganz einfach. Sobald du dich über e
 ../soulmask/WS/Saved/Worlds/Dedicated
 ```
 
-Dort siehst du den Hauptordner `Level01_Main`, in dem sich die Speicherstände für den dedizierten Server befinden. Klicke einfach mit der rechten Maustaste auf den Ordner und benutze die Schaltfläche **Download**, um ihn lokal auf deinem Gerät zu speichern.
+Dort siehst du den Hauptordner `Level01_Main`, in dem sich die Speicherstände für den dedizierten Server befinden. Klicke einfach mit der rechten Maustaste auf den Ordner und benutze den Button **Download**, um ihn lokal auf deinem Gerät zu speichern.
 
 :::note
 Im Moment unterstützen die Soulmask Dedicated Server nur einen Speicherstand, der sich im Hauptordner `Level01_Main` befindet.

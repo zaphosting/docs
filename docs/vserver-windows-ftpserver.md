@@ -100,4 +100,4 @@ After that you can close the process with a click on **OK**, a connection to you
 
 ## Conclusion
 
-Congratulations, you have successfully installed and configurated the FTP server on your VPS! If you have any further questions or problems, please contact our support team, who are available to help you every day! 
+Congratulations, you have successfully installed and configured the FTP server on your VPS! If you have any further questions or problems, please contact our support team, who are available to help you every day! 

@@ -23,10 +23,6 @@ a:hover {
     text-decoration: none;
 }
 
-p {
-    margin-bottom: 0;
-}
-
 [data-theme='dark'] .note {
     color: rgb(229 229 229);
 }
@@ -35,6 +31,7 @@ p {
     font-size: 0.875rem;
     line-height: 1.625;
     color: #3F3F46;
+    margin-bottom: 0;
 }
 
 [data-theme='dark'] .fineprint {
@@ -45,6 +42,7 @@ p {
     font-size: 0.75rem;
     line-height: 1.625;
     color: #71717A;
+    margin-bottom: 0;
 }
 
 .list {

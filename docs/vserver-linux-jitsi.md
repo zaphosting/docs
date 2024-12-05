@@ -130,4 +130,4 @@ https://meet.zap-testdomain.de
 
 ## Conclusion
 
-Congratulations, you have successfully installed and configurated Jitsi! If you have any further questions or problems, please contact our support team, who are available to help you every day! 
+Congratulations, you have successfully installed and configured Jitsi! If you have any further questions or problems, please contact our support team, who are available to help you every day! 

@@ -50,7 +50,7 @@ Das Sichern deines Savegames vom Server aus ist ganz einfach. Sobald du dich üb
 ../enshrouded/savegame/
 ```
 
-An diesem Ort solltest du eine Datei mit zufälligen Zeichen sehen, die dein Savegame ist. Klicke einfach mit der rechten Maustaste auf die Datei und benutze die Schaltfläche **Download**, um sie lokal auf deinem Gerät zu speichern.
+An diesem Ort solltest du eine Datei mit zufälligen Zeichen sehen, die dein Savegame ist. Klicke einfach mit der rechten Maustaste auf die Datei und benutze den Button **Download**, um sie lokal auf deinem Gerät zu speichern.
 
 ![](https://github.com/zaphosting/docs/assets/42719082/e7c230a3-a2cb-4ae0-a0dc-6d2211edd06c)
 

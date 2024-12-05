@@ -11,7 +11,7 @@ In dieser Anleitung erfährst du mehr über unsere aktuellen Richtlinien zur Kü
 
 ## Unsere Richtlinien
 
-Um die für dein Produkt geltenden Bedingungen zu verstehen, musst du die **Abrechnungsart** deines Produkts kennen. Du kannst herausfinden, welche Abrechnungsart du zum Zeitpunkt des Kaufs gewählt hast, indem du dein [Webinterface-Dashboard](https://zap-hosting.com/de/customer/) auf unserer Website aufrufst, während du eingeloggt bist, und die blaue Schaltfläche **Paket anzeigen** auswählst.
+Um die für dein Produkt geltenden Bedingungen zu verstehen, musst du die **Abrechnungsart** deines Produkts kennen. Du kannst herausfinden, welche Abrechnungsart du zum Zeitpunkt des Kaufs gewählt hast, indem du dein [Webinterface-Dashboard](https://zap-hosting.com/de/customer/) auf unserer Website aufrufst, während du eingeloggt bist, und den blauen Button **Paket anzeigen** auswählst.
 
 - Widerrufsfrist: Dies bezieht sich auf den Zeitraum, den du ab dem Kaufdatum hast, um deine Meinung zu ändern und dein Produkt zu widerrufen. Wenn du dich für die Kündigung entscheidest, bekommst du ZAP Coins (Kontoguthaben) gutgeschrieben, die du für ein anderes Produkt ausgeben kannst.
 - Kündigungsfrist: Dies bezieht sich auf den Zeitraum, vor dem du uns über deine Entscheidung, deinen Vertrag zu kündigen, informieren musst. Dies gilt nur für **Vertrag** Abrechnungsprodukte.
@@ -30,7 +30,7 @@ Logge dich zunächst in dein ZAP-Hosting-Konto ein und gehe zu deinem [Webinterf
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/JoepQjDWReSAsjE/preview)
 
-Auf dieser Seite suchst du das Produkt, das du kündigen möchtest. Wenn du es gefunden hast, wähle die rote Schaltfläche **Bestellung widerrufen**.
+Auf dieser Seite suchst du das Produkt, das du kündigen möchtest. Wenn du es gefunden hast, wähle den roten Button **Bestellung widerrufen**.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/9sc3Cnq6X9b8dnk/preview)
 
@@ -64,7 +64,7 @@ Hier ist ein nützliches Beispiel, um das Verständnis zu erleichtern:
 
 #### Kündigungsprozess
 
-Logge dich zunächst in dein ZAP-Hosting-Konto ein und gehe zu deinem [Webinterface-Dashboard](https://zap-hosting.com/de/customer/). Auf dem Dashboard suchst du dein **Vertragsprodukt** und wählst die blaue Schaltfläche **Paket anzeigen**.
+Logge dich zunächst in dein ZAP-Hosting-Konto ein und gehe zu deinem [Webinterface-Dashboard](https://zap-hosting.com/de/customer/). Auf dem Dashboard suchst du dein **Vertragsprodukt** und wählst den blauen Button **Paket anzeigen**.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/8yLTwtxeppd3zSz/preview)
 

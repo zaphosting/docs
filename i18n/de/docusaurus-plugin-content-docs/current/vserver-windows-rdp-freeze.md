@@ -1,6 +1,6 @@
 ---
 id: vserver-windows-rdp-freeze
-title: "VPS: Remote Desktop Verbindungsabbrüche"
+title: "vServer: Remote Desktop Verbindungsabbrüche"
 description: Informationen zur Fehlersuche und Behebung von Remote Desktop Verbindungsabbrüche - ZAP-Hosting.com Dokumentation
 sidebar_label: RDP Verbindungsabbrüche
 services:

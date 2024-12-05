@@ -43,7 +43,7 @@ Denke daran, dass nicht alle Konfigurationsoptionen hier zugänglich sind. Wenn 
 Der Server muss angehalten werden, bevor die Config bearbeitet werden kann. Wenn du die Config bearbeitest und den Server neu startest, werden alle Änderungen rückgängig gemacht.
 :::
 
-Wenn du die Datei und alle Konfigurationsoptionen direkt bearbeiten möchtest, kannst du dies tun, indem du im Webinterface deines Gameservers in den Bereich **Configs** gehst und auf die blaue Schaltfläche Datei bearbeiten klickst, wie unten zu sehen:
+Wenn du die Datei und alle Konfigurationsoptionen direkt bearbeiten möchtest, kannst du dies tun, indem du im Webinterface deines Gameservers in den Bereich **Configs** gehst und auf den blauen Button Datei bearbeiten klickst, wie unten zu sehen:
 
 ![](https://github.com/zaphosting/docs/assets/42719082/60a922ab-0ca3-4248-b936-3ce43ba8bd5f)
 
