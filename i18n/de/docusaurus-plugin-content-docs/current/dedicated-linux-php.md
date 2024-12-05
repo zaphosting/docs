@@ -11,13 +11,13 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
  
 ## Einführung
 
-PHP ist eine beliebte Allzweck-Programmiersprache, die in der Webentwicklung häufig zum Einsatz kommt. In diesem Leitfaden wird der Prozess der Installation von PHP auf deinem Server behandelt.
+PHP ist eine beliebte Allzweck-Programmiersprache, die in der Webentwicklung häufig zum Einsatz kommt. In dieser Anleitung wird der Prozess der Installation von PHP auf deinem Server behandelt.
 
 <InlineVoucher />
 
 ## Voraussetzungen
 
-Beginne damit, dich über SSH mit deinem Server zu verbinden. Wenn du nicht weißt, wie das geht, schau dir bitte unseren Leitfaden [Erstzugriff (SSH)](vserver-linux-ssh.md) an.
+Beginne damit, dich über SSH mit deinem Server zu verbinden. Wenn du nicht weißt, wie das geht, schau dir bitte unsere Anleitung [Erstzugriff (SSH)](vserver-linux-ssh.md) an.
 
 Nach dem Einloggen wird empfohlen, den Aktualisierungsbefehl für dein Betriebssystem auszuführen, um die Sicherheit deines Servers zu gewährleisten und ihn mit den neuesten Funktionen auf dem neuesten Stand zu halten.
 

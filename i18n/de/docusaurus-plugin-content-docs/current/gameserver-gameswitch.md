@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Mit einem ZAP-Hosting-Spieleserver hast du die Möglichkeit, den Server über dein Webinterface-Panel schnell und einfach zwischen verschiedenen von uns angebotenen Spielen zu wechseln. In diesem Leitfaden werden wir unsere Spielwechsel-Funktion vorstellen und erläutern, wie du damit verschiedene Spiele auf deinem Spieleserver verwalten und aktivieren kannst.
+Mit einem ZAP-Hosting-Spieleserver hast du die Möglichkeit, den Server über dein Webinterface-Panel schnell und einfach zwischen verschiedenen von uns angebotenen Spielen zu wechseln. In dieser Anleitung werden wir unsere Spielwechsel-Funktion vorstellen und erläutern, wie du damit verschiedene Spiele auf deinem Spieleserver verwalten und aktivieren kannst.
 
 <InlineVoucher />
 
@@ -41,7 +41,7 @@ Um ein neues Spiel auf deinem Spieleserver zu installieren, wähle das Dropdown-
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/EHDFJj26fm3Yocz/preview)
 
-In diesem Abschnitt findest du auch das Dropdown-Menü **Weitere Spiele**. Bei unserer großen Spielauswahl können bestimmte Spiele unterschiedliche Slot-Preise haben, was bedeuten kann, dass du das ausgewählte Spiel nicht ohne zusätzliche Kosten installieren kannst. Um dies zu beheben, musst du einen Aufpreis zahlen, um deinen Slot-Preis zu erhöhen. Weitere Informationen findest du im Abschnitt [Slot-Preis ändern](#slot-preis-ändern) des Leitfadens.
+In diesem Abschnitt findest du auch das Dropdown-Menü **Weitere Spiele**. Bei unserer großen Spielauswahl können bestimmte Spiele unterschiedliche Slot-Preise haben, was bedeuten kann, dass du das ausgewählte Spiel nicht ohne zusätzliche Kosten installieren kannst. Um dies zu beheben, musst du einen Aufpreis zahlen, um deinen Slot-Preis zu erhöhen. Weitere Informationen findest du im Abschnitt [Slot-Preis ändern](#slot-preis-ändern) der Anleitung.
 
 :::info Mindestanzahl an Slots
 Für bestimmte Spiele in unserer Spielesammlung ist eine bestimmte Mindestanzahl an Slots erforderlich, bevor du sie auf deinem Spieleserver installieren kannst. Fahre in solchen Fällen mit der Maus über das Warnsymbol, um mehr zu erfahren. Du solltest die Upgrade-/Downgrade-Funktion nutzen, um deinen Server basierend auf den Informationen zu aktualisieren.

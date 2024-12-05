@@ -11,13 +11,13 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Satisfactory bietet kein offizielles Modding an, allerdings wurde das Spiel mit Blick auf Modding entwickelt, was seit dem Early Access zum Wachstum einer starken Modding-Community geführt hat. Mit diesen Mods kannst du eine Vielzahl von Verbesserungen und Ergänzungen zum Spiel hinzufügen, wodurch es spannender und unterhaltsamer wird. In diesem Leitfaden behandeln wir den Prozess der Installation inoffizieller Mods auf deinem Client und Satisfactory-Server.
+Satisfactory bietet kein offizielles Modding an, allerdings wurde das Spiel mit Blick auf Modding entwickelt, was seit dem Early Access zum Wachstum einer starken Modding-Community geführt hat. Mit diesen Mods kannst du eine Vielzahl von Verbesserungen und Ergänzungen zum Spiel hinzufügen, wodurch es spannender und unterhaltsamer wird. In dieser Anleitung behandeln wir den Prozess der Installation inoffizieller Mods auf deinem Client und Satisfactory-Server.
 
 <InlineVoucher />
 
 ## Vorbereitung
 
-Zunächst musst du Mods finden, die du verwenden möchtest. In diesem Leitfaden verwenden wir das Tool [Satisfactory Mod Manager](https://ficsit.app/), einen beliebten Open-Source-Mod-Manager, mit dem du Mods sowohl für dein lokales Spiel als auch für deinen Spielserver einfach verwalten kannst.
+Zunächst musst du Mods finden, die du verwenden möchtest. In dieser Anleitung verwenden wir das Tool [Satisfactory Mod Manager](https://ficsit.app/), einen beliebten Open-Source-Mod-Manager, mit dem du Mods sowohl für dein lokales Spiel als auch für deinen Spielserver einfach verwalten kannst.
 
 Zu den wichtigsten Vorteilen dieses Tools gehören die automatische Mod-Verwaltung, die einfache Mod-Installation mit nur einem Klick, die Filterung nach Multiplayer-Kompatibilität und die Tatsache, dass die Plattform das beliebteste Repository für Mods ist.
 

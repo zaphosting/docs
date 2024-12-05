@@ -20,7 +20,7 @@ In dieser Anleitung erfährst du, wie du deine Satisfactory-Spielstände auf dei
 
 Um auf deine Serverdateien zugreifen zu können, benötigst du einen FTP-Client wie [WinSCP](https://winscp.net/eng/index.php) oder [FileZilla](https://filezilla-project.org/), die beide Open-Source und kostenlos zum Download zur Verfügung stehen.
 
-Du musst dich über einen FTP-Client mit deinem Server verbinden und dabei die Anmeldedaten verwenden, die du unter **Tools->FTP-Broswer** auf der Weboberfläche deines Spielservers findest. Bitte verwende unseren Leitfaden [Zugang über FTP](gameserver-ftpaccess.md) als weitere Hilfe, um dich mit deinem Server zu verbinden.
+Du musst dich über einen FTP-Client mit deinem Server verbinden und dabei die Anmeldedaten verwenden, die du unter **Tools->FTP-Broswer** auf der Weboberfläche deines Spielservers findest. Bitte verwende unsere Anleitung [Zugang über FTP](gameserver-ftpaccess.md) als weitere Hilfe, um dich mit deinem Server zu verbinden.
 
 ## Backup Savegame
 

@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Eine Vielzahl von Spielen für deinen Spieleserver verwendet Datenbanken, um Langzeitdaten zu speichern und ordnungsgemäß zu funktionieren. Einige Spiele, Ressourcen oder Mods stellen dir möglicherweise eine `.sql`-Datei zur Verfügung, mit der die entsprechenden Tabellen und Daten in deine eigene Datenbank importiert werden. Das Exportieren deiner Datenbank kann sich auch als nützlich erweisen, um deine Daten zwischen Systemen zu übertragen oder einfach deine Dateien manuell zu sichern. In diesem Leitfaden werden wir den Prozess des Imports und Exports von SQL-Dateien in die bzw. aus der Datenbank deines Spielservers mithilfe der phpMyAdmin-Schnittstelle untersuchen.
+Eine Vielzahl von Spielen für deinen Spieleserver verwendet Datenbanken, um Langzeitdaten zu speichern und ordnungsgemäß zu funktionieren. Einige Spiele, Ressourcen oder Mods stellen dir möglicherweise eine `.sql`-Datei zur Verfügung, mit der die entsprechenden Tabellen und Daten in deine eigene Datenbank importiert werden. Das Exportieren deiner Datenbank kann sich auch als nützlich erweisen, um deine Daten zwischen Systemen zu übertragen oder einfach deine Dateien manuell zu sichern. In dieser Anleitung werden wir den Prozess des Imports und Exports von SQL-Dateien in die bzw. aus der Datenbank deines Spielservers mithilfe der phpMyAdmin-Schnittstelle untersuchen.
 
 <InlineVoucher />
 
@@ -31,7 +31,7 @@ Gehe zum Abschnitt **Tools->Datenbanken** und öffne über die blaue Schaltfläc
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/8HgkfqBaw26XC5g/preview)
 
-Um mehr über phpMyAdmin zu erfahren, empfehlen wir dir, unseren Leitfaden [Datenbankzugriff](gameserver-databases-pma.md) zu lesen, der die Benutzeroberfläche ausführlicher behandelt.
+Um mehr über phpMyAdmin zu erfahren, empfehlen wir dir, unsere Anleitung [Datenbankzugriff](gameserver-databases-pma.md) zu lesen, der die Benutzeroberfläche ausführlicher behandelt.
 
 ## SQL-Datei importieren
 

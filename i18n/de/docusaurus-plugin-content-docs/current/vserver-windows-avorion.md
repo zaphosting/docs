@@ -12,7 +12,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Besitzt du einen Windows Dedicated Server und möchtest den Avorion Dedicated Server-Dienst darauf installieren? Dann bist du hier richtig. In diesem Leitfaden erklären wir dir Schritt für Schritt, wie du diesen Dienst auf deinem Server installierst.
+Besitzt du einen Windows Dedicated Server und möchtest den Avorion Dedicated Server-Dienst darauf installieren? Dann bist du hier richtig. In dieser Anleitung erklären wir dir Schritt für Schritt, wie du diesen Dienst auf deinem Server installierst.
 
 <YouTube videoId="x10ssP09qtg" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/7Nfiz2kgc9Sxbts/preview" title="How To Setup Avorion Dedicated Server on Windows Dedicated Server!" description="Hast du das Gefühl, dass du etwas besser verstehst, wenn du es in Aktion siehst? Wir haben etwas für dich! Tauche ab in unser Video, welches alles für dich zusammenfasst. Egal, ob du es eilig hast oder einfach nur Informationen auf möglichst verständliche Art und Weise aufnehmen möchtest!"/>
 

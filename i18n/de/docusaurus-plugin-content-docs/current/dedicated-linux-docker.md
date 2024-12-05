@@ -13,13 +13,13 @@ import TabItem from '@theme/TabItem';
 
 ## Einführung
 
-Docker ist eine leichtgewichtige Open-Source-Virtualisierungssoftware, um Dienste oder Anwendungen isoliert auf einem einzelnen System bereitzustellen. Im Gegensatz zu echten virtuellen Maschinen wird hierfür kein zusätzliches Betriebssystem emuliert oder gehostet, sondern nur eine Anwendungsumgebung innerhalb des Hostsystems. Dies spart nicht nur generell Ressourcen, sondern verursacht gleichzeitig einen geringen Overhead im Vergleich zur Vollvirtualisierung. In diesem Leitfaden behandeln wir den Prozess der Installation von Docker auf deinem Server.
+Docker ist eine leichtgewichtige Open-Source-Virtualisierungssoftware, um Dienste oder Anwendungen isoliert auf einem einzelnen System bereitzustellen. Im Gegensatz zu echten virtuellen Maschinen wird hierfür kein zusätzliches Betriebssystem emuliert oder gehostet, sondern nur eine Anwendungsumgebung innerhalb des Hostsystems. Dies spart nicht nur generell Ressourcen, sondern verursacht gleichzeitig einen geringen Overhead im Vergleich zur Vollvirtualisierung. In dieser Anleitung behandeln wir den Prozess der Installation von Docker auf deinem Server.
 
 <InlineVoucher />
 
 ## Vorbereitung
 
-Zu Beginn musst du dich über SSH mit deinem Linux-Server verbinden. Bitte schau dir unseren Leitfaden [Erstzugriff (SSH)](vserver-linux-ssh.md) an, wenn du dabei Hilfe benötigst. In diesem Leitfaden verwenden wir Ubuntu als Linux-Distribution.
+Zu Beginn musst du dich über SSH mit deinem Linux-Server verbinden. Bitte schau dir unsere Anleitung [Erstzugriff (SSH)](vserver-linux-ssh.md) an, wenn du dabei Hilfe benötigst. In dieser Anleitung verwenden wir Ubuntu als Linux-Distribution.
 
 ### Docker-Kompatibilität aktivieren
 
