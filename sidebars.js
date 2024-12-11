@@ -646,7 +646,8 @@ const sidebars = {
           ]
         },
         "beammp-authkey",
-        "beammp-mods"
+        "beammp-mods",
+        "beammp-addon-map"
       ],
     },
     {
