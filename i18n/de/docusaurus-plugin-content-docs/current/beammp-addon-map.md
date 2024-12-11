@@ -37,7 +37,7 @@ Dazu musst du die heruntergeladene `.zip`-Datei öffnen. Suche und öffne in der
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/8cGobQaKBJmexwK/preview)
 
-Du musst den spezifischen Namen des Addon Maps Ordners in diesem Verzeichnis kopieren. Klicke dazu mit der rechten Maustaste, wähle die Option `eigenschaften` aus und kopiere den markierten Text mit `STRG + C`.
+Du musst den spezifischen Namen des Addon Maps Ordners in diesem Verzeichnis kopieren. Klicke dazu mit der rechten Maustaste, wähle die Option `Eigenschaften` aus und kopiere den markierten Text mit `STRG + C`.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/D4AnY5zbfHMgMwR/preview)
 
@@ -58,7 +58,9 @@ Danach ersetzt du den Wert durch `Map = "/levels/[your_mapname]/info.json"` unte
 ![](https://screensaver01.zap-hosting.com/index.php/s/kFgGEKgrXTQsqYZ/preview)
 
 :::info
-In seltenen Fällen kann eine Map unterschiedlich formatiert sein. Wenn die Map nach dem Ausführen aller Schritte nicht funktioniert, musst du möglicherweise anstelle von `Map = "/levels/[your_mapname]/info.json"` diesen Pfad angeben: `Map = "/levels/[your_mapname]/[your_mapname].mis"`
+In seltenen Fällen kann eine Map unterschiedlich formatiert sein. Wenn die Map nach dem Ausführen aller Schritte nicht funktioniert, musst du möglicherweise anstelle von 
+`Map = "/levels/[your_mapname]/info.json"` diesen Pfad angeben: 
+`Map = "/levels/[your_mapname]/[your_mapname].mis"`
 :::
 
 :::tip

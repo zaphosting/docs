@@ -37,7 +37,7 @@ To do so, you need to open the downloaded `.zip` file. Inside of the file, locat
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/8cGobQaKBJmexwK/preview)
 
-You need to copy the specific name of the map addon folder found in this directory. You can do so by pressing right-click, selecting the `properties` option and copying the highlighted text using `CTRL + C`.
+You need to copy the specific name of the map addon folder found in this directory. You can do so by pressing right-click, selecting the `Properties` option and copying the highlighted text using `CTRL + C`.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/D4AnY5zbfHMgMwR/preview)
 
@@ -49,7 +49,8 @@ This can be done easily by navigating to the **Configs** section in your game se
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/sBj4CFQ3yKmMy8d/preview)
 
-Find and open the `ServerConfig.toml` configuration file and search for the `Map = "/levels/gridmap_v2/info.json"` line.
+Find and open the `ServerConfig.toml` configuration file and search for the line:
+`Map = "/levels/gridmap_v2/info.json"`
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/JQg3EzkszXDrGFQ/preview)
 
