@@ -11,58 +11,58 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-BeamNG.Drive bietet native Modding-Unterstützung und eine riesige Community, die es Ihnen ermöglicht, das Gameplay mit Ihren Freunden zu erweitern und zu verbessern. Da BeamMP einfach als Multiplayer-Modifikation fungiert, sollten die meisten Karten-Addons mit Ihrem BeamMP-Server kompatibel sein. In diesem Leitfaden werden wir den Prozess der Installation und Aktivierung eines benutzerdefinierten Karten-Addons auf Ihrem BeamMP-Server behandeln.
+BeamNG.Drive bietet native Modding-Unterstützung und eine riesige Community, die es dir ermöglicht, das Gameplay mit deinen Freunden zu erweitern und zu verbessern. Da BeamMP einfach als Multiplayer-Modifikation fungiert, sollten die meisten Addon Maps mit deinem BeamMP-Server kompatibel sein. In dieser Anleitung behandeln wir den Prozess der Installation und Aktivierung einer benutzerdefinierten Addon Map auf deinem BeamMP-Server.
 
 <InlineVoucher />
 
 ## Vorbereitung
 
-Um eine Addon-Karte auf Ihrem BeamMP-Server zu installieren, müssen Sie sich per FTP mit ihm verbinden. Falls du nicht mit der Verwendung von FTP vertraut bist, empfehlen wir dir, einen Blick in die [Zugriff per FTP](gameserver-ftpaccess.md) Anleitung zu werfen.
+Um eine Addon Map auf deinem BeamMP-Server zu installieren, musst du dich per FTP verbinden. Falls du nicht mit der Verwendung von FTP vertraut bist, empfehlen wir dir, einen Blick in die [Zugriff per FTP](gameserver-ftpaccess.md) Anleitung zu werfen.
 
-Bevor Sie mit der Installation fortfahren, müssen Sie auch die Karten-Add-ons finden, die Sie auf Ihrem Server installieren möchten. Wir empfehlen Ihnen, das [offizielle BeamNG.Drive-Forum](https://www.beamng.com/resources/categories/terrains-levels-maps.9/) zu durchsuchen, das eine riesige Bibliothek an Mods und Karten-Add-ons enthält, die von der Community erstellt wurden. 
+Bevor du mit der Installation fortfährst, musst du die Addon Map heraussuchen, die du auf deinem Server installieren möchtest. Wir empfehlen dir, das [offizielle BeamNG.Drive-Forum](https://www.beamng.com/resources/categories/terrains-levels-maps.9/) zu durchsuchen, die eine riesige Bibliothek an Mods und Addon Maps enthält, die von der Community erstellt wurden.
 
 :::tip
-Da BeamMP eine Multiplayer-Modifikation für BeamNG.Drive ist, sollten die meisten Karten-Addons mit Ihrem BeamMP-Server kompatibel sein. Es ist jedoch möglich, dass bestimmte Karten nicht wie erwartet funktionieren, sodass Sie jede Karte einzeln testen müssen.
+Da BeamMP eine Multiplayer-Modifikation für BeamNG.Drive ist, sollten die meisten Addon Maps mit deinem BeamMP-Server kompatibel sein. Es ist jedoch möglich, dass bestimmte Maps nicht wie erwartet funktionieren, sodass du jede Map einzeln testen musst.
 :::
 
 ## Installation
 
-Stellen Sie zunächst sicher, dass Sie eine Addon-Karte heruntergeladen haben, die Sie Ihrem Server hinzufügen möchten. Diese sollte im `.zip`-Dateiformat vorliegen.
+Stelle zunächst sicher, dass du eine Addon Map heruntergeladen hast, die du deinem Server hinzufügen möchtest. Diese sollte im `.zip`-Dateiformat vorliegen.
 
-### Auswählen des Kartennamens
+### Auswählen der Map
 
-Bevor Sie mit dem nächsten Schritt fortfahren, müssen Sie sicherstellen, dass Sie den richtigen Kartennamen verwenden. Die heruntergeladene `.zip`-Datei sollte normalerweise den richtigen Namen haben, dies ist jedoch nicht immer der Fall, weshalb Sie dies überprüfen sollten.
+Bevor du mit dem nächsten Schritt fortfährst, musst du sicherstellen, dass du den richtigen Mapnamen verwendest. Die heruntergeladene `.zip`-Datei sollte normalerweise den richtigen Namen haben, dies ist jedoch nicht immer der Fall, weshalb du dies überprüfen solltest.
 
-Dazu müssen Sie die heruntergeladene `.zip`-Datei öffnen. Suchen und öffnen Sie in der Datei das Verzeichnis `levels`, das die eigentliche Karte enthält.
+Dazu musst du die heruntergeladene `.zip`-Datei öffnen. Suche und öffne in der Datei das Verzeichnis `levels`, das die eigentliche Map enthält.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/8cGobQaKBJmexwK/preview)
 
-Sie müssen den spezifischen Namen des Karten-Addon-Ordners in diesem Verzeichnis kopieren. Klicken Sie dazu mit der rechten Maustaste, wählen Sie die Option `eigenschaften` aus und kopieren Sie den markierten Text mit `STRG + C`.
+Du musst den spezifischen Namen des Addon Maps Ordners in diesem Verzeichnis kopieren. Klicke dazu mit der rechten Maustaste, wähle die Option `eigenschaften` aus und kopiere den markierten Text mit `STRG + C`.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/D4AnY5zbfHMgMwR/preview)
 
-### Konfigurieren der Karte
+### Konfigurieren der Map
 
-Nachdem Sie den Kartennamen bestimmt haben, müssen Sie die Konfigurationsdatei und einen Parameter anpassen, der die aktive Karte enthält.
+Nachdem du den Mapnamen bestimmt hast, musst du die Konfigurationsdatei und einen Parameter anpassen, der die aktive Map enthält.
 
-Dies kann ganz einfach durch Navigieren zum Abschnitt **Configs** im Webinterface-Panel Ihres Spielservers erfolgen.
+Dies kann ganz einfach durch Navigieren zum Abschnitt **Configs** im Webinterface deines Gameservers erfolgen.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/QnQHKiaG6oia3qJ/preview)
 
-Suchen und öffnen Sie die Konfigurationsdatei `ServerConfig.toml` und suchen Sie nach der Zeile `Map = "/levels/gridmap_v2/info.json"`.
+Suche und öffne die Konfigurationsdatei `ServerConfig.toml` und suche nach der Zeile `Map = "/levels/gridmap_v2/info.json"`.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/PiatDsnqPpoiZr4/preview)
 
-Danach ersetzen Sie den Wert durch `Map = "/levels/[your_mapname]/info.json"` unter Verwendung des zuvor festgelegten Kartennamens und speichern dann die Konfiguration.
+Danach ersetzt du den Wert durch `Map = "/levels/[your_mapname]/info.json"` unter Verwendung des zuvor festgelegten Mapnamen und speicherst dann die Konfiguration.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/kFgGEKgrXTQsqYZ/preview)
 
 :::info
-In seltenen Fällen kann eine Karte unterschiedlich formatiert sein. Wenn die Karte nach dem Ausführen aller Schritte nicht funktioniert, müssen Sie möglicherweise anstelle von `Map = "/levels/[your_mapname]/info.json"` diesen Pfad angeben: `Map = "/levels/[your_mapname]/[your_mapname].mis"`
+In seltenen Fällen kann eine Map unterschiedlich formatiert sein. Wenn die Map nach dem Ausführen aller Schritte nicht funktioniert, musst du möglicherweise anstelle von `Map = "/levels/[your_mapname]/info.json"` diesen Pfad angeben: `Map = "/levels/[your_mapname]/[your_mapname].mis"`
 :::
 
 :::tip
-Sie können jederzeit die Standardkarten des Spiels verwenden, indem Sie die Konfigurationsdatei erneut bearbeiten. Unten finden Sie eine Liste der aktuellen Standardkarten.
+Du kannst jederzeit die Standardmaps des Spiels verwenden, indem du die Konfigurationsdatei erneut bearbeitest. Unten findest du eine Liste der aktuellen Standardmaps.
 ```
 "/levels/gridmap/info.json"
 "/levels/automation_test_track/info.json"
@@ -80,17 +80,17 @@ Sie können jederzeit die Standardkarten des Spiels verwenden, indem Sie die Kon
 ```
 :::
 
-### Karte hochladen 
+### Map hochladen
 
-Als letzten Schritt müssen Sie die zuvor heruntergeladene `.zip`-Datei mit der Karte per FTP auf Ihren BeamMP-Spieleserver hochladen. Wenn Sie dabei Hilfe benötigen, verwenden Sie bitte erneut unseren Leitfaden [Zugriff per FTP](gameserver-ftpaccess.md).
+Als letzten Schritt musst du die zuvor heruntergeladene `.zip`-Datei mit der Map per FTP auf deinen BeamMP Gameserver hochladen. Wenn du dabei Hilfe benötigst, verwende bitte erneut unsere [Zugriff per FTP](gameserver-ftpaccess.md) Anleitung.
 
-Suchen Sie in Ihrem FTP-Client den folgenden Pfad.
+Suche in deinem FTP-Client den folgenden Pfad.
 ```
 ../beammp/Resources/Client
 ```
 
-Ziehen Sie die `.zip`-Datei des Karten-Add-ons einfach per Drag-and-drop an diesen Speicherort, um die Karte auf Ihren Server hochzuladen. Nachdem Sie die Konfigurationsdatei bearbeitet und die Kartendateien hochgeladen haben, sollte Ihr Karten-Add-on einsatzbereit sein.
+Ziehe die `.zip`-Datei der Addon Map einfach per Drag-and-drop an diesen Speicherort, um die Map auf deinen Server hochzuladen. Nachdem du die Konfigurationsdatei bearbeitet und die Addon Map hochgeladen hast, sollte deine Addon Map einsatzbereit sein.
 
 ## Abschluss
 
-Nachdem Sie alle Schritte ausgeführt haben, starten Sie Ihren BeamMP-Server neu. Sie haben erfolgreich eine Add-on-Karte auf Ihrem BeamMP-Spieleserver installiert!
+Nachdem du alle Schritte ausgeführt hast, starte deinen BeamMP-Server neu. Du hast erfolgreich eine Addon Map auf deinem BeamMP Gameserver installiert. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂

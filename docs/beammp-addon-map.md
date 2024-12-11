@@ -27,17 +27,17 @@ Since BeamMP is a multiplayer modification for BeamNG.Drive, most map addons sho
 
 ## Installation
 
-To begin ensure that you have downloaded an addon map which you aim to add to your server. This should be in a `.zip` file format.
+To begin, ensure that you have downloaded an addon map which you aim to add to your server. This should be in a `.zip` file format.
 
 ### Selecting Map Name
 
-Before proceeding with further step, it is important to ensure that the correct map name is being used. The `.zip` file that you have downloaded should typically have the correct name, however this is not always the case which is why you should double check.
+Before proceeding with further steps, it is important to ensure that the correct map name is being used. The `.zip` file that you have downloaded should typically have the correct name, however this is not always the case which is why you should double check.
 
-To do so, you need to open the downloaded `.zip` file. Inside of the file, locate and open the `levels` directory which will contain the actual map.
+To do so, you need to open the downloaded `.zip` file. Inside of the file, locate and open the `levels` directory, which will contain the actual map.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/8cGobQaKBJmexwK/preview)
 
-You need to copy the specific name of the map addon folder found in this directory. You can do so by pressing right-click, seleting the `properties` option and copying the highlighted text using `CTRL + C`.
+You need to copy the specific name of the map addon folder found in this directory. You can do so by pressing right-click, selecting the `properties` option and copying the highlighted text using `CTRL + C`.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/D4AnY5zbfHMgMwR/preview)
 
@@ -93,4 +93,4 @@ Simply drag and drop the map addon `.zip` file into this location to upload the 
 
 ## Conclusion
 
-After you followed all the steps, proceed to restart your BeamMP server. You have successfully installed an addon map on your BeamMP game server!
+After you followed all the steps, proceed to restart your BeamMP server. You have successfully installed an addon map on your BeamMP game server. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
