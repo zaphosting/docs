@@ -259,6 +259,7 @@ const sidebars = {
             "minecraft-server-icon",
             "minecraft-add-own-world",
             "minecraft-worlds",
+            "minecraft-crossplay",
             "minecraftbedrock-behaviorresourcepacks",
             "minecraft-rcon",
             "minecraft-whitelist",
