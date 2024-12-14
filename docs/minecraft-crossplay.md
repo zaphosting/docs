@@ -13,7 +13,7 @@ Traditionally playing together across both Minecraft Java and Bedrock editions h
 
 ## Prerequisites
 
-In order to setup crossplay, you need to have a Minecraft server running one of the compatible Java server software. We recommend using either Paper, Spigot or Bukkit which are the most popular options.
+In order to set up crossplay, you need to have a Minecraft server running one of the compatible Java server software. We recommend using either Paper, Spigot or Bukkit which are the most popular options.
 
 You should have a Minecraft Game Server ready with one of these games installed and activated. If you need help doing this, view our [Game Change](gameserver-gameswitch.md) guide.
 
@@ -36,7 +36,7 @@ With the plugins now installed to your server, head over to the following sectio
 
 ## Configuring Plugins
 
-In the same **Plugins** section on the web interface, select the blue settings icon located besides the GeyserMC plugin which will automatically take you to the appropriate area in the **Settings** section.
+In the same **Plugins** section on the web interface, select the blue settings icon located besides the GeyserMC plugin, which will automatically take you to the appropriate area in the **Settings** section.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/RAZKNSdePa5wBs4/preview)
 
@@ -58,6 +58,7 @@ For customers with the **Own IP** server configuration option, a custom port ass
 ![](https://screensaver01.zap-hosting.com/index.php/s/joA62kWeJ5crCmY/preview)
 
 <!--
+
 ### Floodgate Plugin
 
 If you decided to install the floodgate plugin, you will have to adjust the GeyserMC configuration file to enable it as the main authentication method. Please ensure that your server is turned off before editing configuration files, otherwise changes may be overwritten.
@@ -98,7 +99,7 @@ Unfortunately, you cannot easily change game versions on Bedrock editions. There
 We can also recommend utilising ViaVersion and ViaBackwards plugins which expands the game versions that the server is accessible from, meaning users with a lower or higher game version can still connect to the server. Similarly to before, head over to the **Plugins** section on the web interface and under the **All Plugins** drop down menu, locate **ViaVersion** and **ViaBackwards**. Use the green download icon to install them to your server.
 
 :::note
-If you are facing issues with installing the plugin via the web interface, it is possible that the plugin does not have a stable latest version release. In such scenarios we recommend manually downloading a beta version of the plugin from the website and uploading it via FTP. Learn more about how to do this by reading our [FTP Access](gameserver-ftpaccess.md) guide.
+If you are facing issues with installing the plugin via the web interface, it is possible that the plugin does not have a stable latest version release. In such scenarios, we recommend manually downloading a beta version of the plugin from the website and uploading it via FTP. Learn more about how to do this by reading our [FTP Access](gameserver-ftpaccess.md) guide.
 :::
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/QCcndf6TGMsrw7x/preview)
@@ -117,4 +118,4 @@ In this file, locate the `port` parameters found under the `bedrock` and `remote
 
 ## Conclusion 
 
-Congratulations, you have successfully installed and configured the GeyserMC plugin on your Minecraft server which has introduced crossplay between Java and Bedrock editions! If you have any further questions or problems, please contact our support team, who are available to help you every day!
+Congratulations, you have successfully installed and configured the GeyserMC plugin on your Minecraft server which has introduced crossplay between Java and Bedrock editions! For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
