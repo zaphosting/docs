@@ -74,6 +74,8 @@ With an IP address of `185.223.28.163`, your configuration should look like the 
 
 Once ready, press **Ok** to apply the changes. We recommend restarting the server in order to complete the troubleshooting process.
 
+
+
 ### DNS Server settings
 
 Another troubleshooting step if you continue to face issues with using the internet is to ensure that the DNS Server is configured correctly. You should replace the missing or existing DNS server values with a known host.
@@ -96,6 +98,8 @@ powershell “Get-NetAdapter | Get-NetIPAddress | ForEach-Object { netsh interfa
 ```
 :::
 
+
+
 ### Firewall Settings
 
 The final troubleshooting step is to ensure that the Windows Firewall is configured appropriately. 
@@ -107,3 +111,15 @@ We recommend attempting to disable the entire Windows Firewall temporarily to se
 If the issues are resolved when the firewall is disabled, it is likely that the root cause of your issue will be a firewall misconfiguration.
 
 The solution for the firewall is highly dependant on the issue that you are facing. Please use our [Port Forwarding (Firewall)](vserver-windows-port.md) guide if you need further assistance managing firewall rules.
+
+
+
+## Reset network configuration
+
+You can reset the network configuration in the web interface administration of your VPS/rootserver by clicking on the **Reset network configuration** button on the settings page. During this process, the configurations for the IP address, subnet mask, gateway and DNS server are reset to its original state. 
+
+![img](https://screensaver01.zap-hosting.com/index.php/s/YsLZZJZEaf3pemt/preview)
+
+
+## Conclusion
+If you have followed all the steps, the connection should be possible again as usual. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
