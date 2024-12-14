@@ -114,7 +114,7 @@ Die Lösung für die Firewall hängt stark von dem Problem ab, das du hast. Wenn
 
 Du kannst die Netzwerkkonfiguration in der Verwaltung des Webinterfaces deines VPS/Rootservers zurücksetzen, indem du auf der Einstellungsseite auf den Button **Netzwerkkonfiguration zurücksetzen** klickst. Bei diesem Vorgang werden die Konfigurationen für die IP-Adresse, die Subnetzmaske, das Gateway und den DNS-Server auf den ursprünglichen Zustand zurückgesetzt. 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/YsLZZJZEaf3pemt/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/9sEXrjoaFLSDM2x/preview)
 
 
 ## Abschluss
