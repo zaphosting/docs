@@ -2374,7 +2374,7 @@ const sidebars = {
       type: "category",
       label: "Troubleshooting",
       items: [
-        'vserver-network-analysis-winmtr',
+        'dedicated-network-analysis-winmtr',
       ]
     },
     {
