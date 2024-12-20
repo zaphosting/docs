@@ -16,7 +16,7 @@ Unser Ziel ist es, Wissen zugänglich und verständlich zu machen. Deshalb haben
 
 Wir decken eine breite Palette an Themen ab und aktualisieren unsere Inhalte regelmäßig, um sicherzustellen, dass du immer auf dem neuesten Stand bist und die besten Praktiken anwenden kannst. Von grundlegenden Einrichtungsanleitungen bis hin zu fortgeschrittenen Konfigurationstechniken. 
 
-<YouTube videoId="Trs9Ysxa1gc" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/9RAkLTRmGG6HZsW/preview" title="Die ZAP-Docs ist da, um zu helfen!" description="Hast du das Gefühl, dass du etwas besser verstehst, wenn du es in Aktion siehst? Wir haben etwas für dich! Tauche ab in unser Video, welches alles für dich zusammenfasst. Egal, ob du es eilig hast oder einfach nur Informationen auf möglichst verständliche Art und Weise aufnehmen möchtest!"/>
+<YouTube videoId="-2wJ6ZJ6ZVk" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/LHjDHL43wHSj5aE/preview" title="Willkommen bei ZAP-Docs!" description="Hast du das Gefühl, dass du etwas besser verstehst, wenn du es in Aktion siehst? Wir haben etwas für dich! Tauche ab in unser Video, welches alles für dich zusammenfasst. Egal, ob du es eilig hast oder einfach nur Informationen auf möglichst verständliche Art und Weise aufnehmen möchtest!"/>
 
 ## Gameserver
 Perfektioniere und Nutze den vollen Umfang deines Gameservers. Mit unserer Expertise bringen wir dein Gaming auf ein neues Level. Unsere detaillierten Anleitungen für über 100 verschiedene Spiele und die dazugehörigen Erweiterungen/Modifikationen ermöglichen es dir, ein tiefgreifendes Verständnis für die Konfiguration und Verwaltung deiner Gameserver zu entwickeln.
@@ -112,7 +112,7 @@ Perfektioniere und Nutze den vollen Umfang deines Gameservers. Mit unserer Exper
     <Card title="Sanctuary Island" description="Placeholder" link="https://zap-hosting.com/guides/de/docs/sanctuaryisland-firststeps-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/Rnn2rJf5sqxyfCx/preview"/>
     <Card title="SCP: 5K" description="Placeholder" link="https://zap-hosting.com/guides/de/docs/scp5k-firststeps-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/QiePT6LNr5T2p9c/preview"/>
     <Card title="Soldat" description="Placeholder" link="https://zap-hosting.com/guides/de/docs/soldat-firststeps-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/bDXAmMb8rXC7HMw/preview"/>
-    <Card title="Sons of the Forest" description="Placeholder" link="https://zap-hosting.com/guides/de/docs/sotf-firststeps-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/KWWKMimk8k4Piyp/preview"/>
+    <Card title="Sons of the Forest" description="Placeholder" link="https://zap-hosting.com/guides/de/docs/sonsoftheforest-firststeps-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/KWWKMimk8k4Piyp/preview"/>
     <Card title="Soulmask" description="Placeholder" link="https://zap-hosting.com/guides/de/docs/soulmask-firststeps-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/NYaRT7cHqXXQF8d/preview"/>
     <Card title="Space Engineers" description="Placeholder" link="https://zap-hosting.com/guides/de/docs/spaceengineers-firststeps-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/wgp2Jofo2BTkcR9/preview"/>
     <Card title="Squad" description="Placeholder" link="https://zap-hosting.com/guides/de/docs/squad-firststeps-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/HfF9inX8qEp5Ext/preview"/>

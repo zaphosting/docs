@@ -15,6 +15,7 @@ const zapTeam = new Map([
     ['danymo1221', 'ZAP-Hosting'],
     ['frank-zap', 'ZAP-Hosting'],
     ['RugileZAP', 'ZAP-Hosting'],
+    ['ItsPaulAT', 'ZAP-Hosting'],
 ]);
 
 
