@@ -2194,8 +2194,13 @@ const sidebars = {
     'vserver-reset',
     'vserver-vnc',
     'vserver-root-difference',
-    'vserver-network-analysis-winmtr',
-
+    {
+      type: "category",
+      label: "Troubleshooting",
+      items: [
+        'vserver-network-analysis-winmtr',
+      ]
+    },
     {
       type: 'html',
       className: 'sidebar-title',
@@ -2218,7 +2223,6 @@ const sidebars = {
         'vserver-ssh-default',
         'vserver-linux-password-change',
         'vserver-linux-gs-interface',
-        'vserver-linux-ftp',
         'vserver-linux-add-ip',
         'vserver-linux-ssl',
         'vserver-linux-rsync',
@@ -2274,6 +2278,13 @@ const sidebars = {
       ]
     },
     {
+      type: "category",
+      label: "Troubleshooting",
+      items: [
+        'vserver-linux-ftp',
+      ]
+    },	
+    {
       type: 'html',
       className: 'sidebar-title',
       value: (() => {
@@ -2291,7 +2302,6 @@ const sidebars = {
         'vserver-windows-userdp',
         'vserver-windows-port',
         'vserver-windows-addip',
-        'vserver-windows-nointernet',
         'vserver-windows-change-language',
         'vserver-windows-manage-users',
         'vserver-windows-expand-disk',
@@ -2336,6 +2346,7 @@ const sidebars = {
       label: "Troubleshooting",
       items: [
         'vserver-windows-rdp-freeze',
+        'vserver-windows-nointernet',
       ]
     },	
   ],
@@ -2359,6 +2370,13 @@ const sidebars = {
     'dedicated-iso',
     'dedicated-raid',
     'dedicated-reset',		
+    {
+      type: "category",
+      label: "Troubleshooting",
+      items: [
+        'vserver-network-analysis-winmtr',
+      ]
+    },
     {
       type: 'html',
       className: 'sidebar-title',
@@ -2531,9 +2549,21 @@ const sidebars = {
     'domain-profidns',
     'domain-expertdns',
     'domain-records',
-    'domain-gameserver-srv-link',
-    'domain-teamspeak-redirect',
-    'domain-cloudflare-setup',
+    {
+      type: "category",
+      label: "Domain forwarding",
+      items: [
+        'domain-gameserver-srv-link',
+        'domain-teamspeak-redirect',
+      ],
+    },
+    {
+      type: "category",
+      label: "Cloudflare",
+      items: [
+        'domain-cloudflare-setup',
+      ],
+    },
     {
       type: 'html',
       className: 'sidebar-title',
@@ -2546,9 +2576,9 @@ const sidebars = {
       defaultStyle: true,
     },
     'webspace-introduction',
+    'webspace-adddomain',
     'webspace-backups',
     'webspace-subdomain',
-    'webspace-adddomain',
     'webspace-plesk-ftp',
     {
       type: "category",
