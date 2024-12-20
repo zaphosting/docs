@@ -130,6 +130,18 @@ const servicesMap: serviceMap = {
             description: 'URL path for the storage product',
         }),
     },
+    'discord-bot': {
+        title: translate({
+            message: 'Discord Bot',
+            id: 'service.storage.title',
+            description: 'Product name for the storage product',
+        }),
+        url: translate({
+            message: '{marketingSite}/{language}/shop/product/cloud-gameserver/discord-bot/',
+            id: 'service.storage.path',
+            description: 'URL path for the storage product',
+        }),
+    },
 };
 
 export default servicesMap;
