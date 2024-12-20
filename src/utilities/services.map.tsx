@@ -109,36 +109,36 @@ const servicesMap: serviceMap = {
     'fivem-upvotes': {
         title: translate({
             message: 'FiveM Upvotes',
-            id: 'service.storage.title',
+            id: 'service.fivemupvotes.title',
             description: 'Product name for the storage product',
         }),
         url: translate({
             message: '{marketingSite}/{language}/shop/product/fivem-upvotes/',
-            id: 'service.storage.path',
+            id: 'service.fivemupvotes.path',
             description: 'URL path for the storage product',
         }),
     },
     'fivem-upvotes-burst': {
         title: translate({
             message: 'FiveM Upvotes BURST',
-            id: 'service.storage.title',
+            id: 'service.fivemupvotesburst.title',
             description: 'Product name for the storage product',
         }),
         url: translate({
             message: '{marketingSite}/{language}/shop/product/fivem-upvotes-burst/',
-            id: 'service.storage.path',
+            id: 'service.fivemupvotes.path',
             description: 'URL path for the storage product',
         }),
     },
     'discord-bot': {
         title: translate({
             message: 'Discord Bot',
-            id: 'service.storage.title',
+            id: 'service.fivemupvotes.title',
             description: 'Product name for the storage product',
         }),
         url: translate({
             message: '{marketingSite}/{language}/shop/product/cloud-gameserver/discord-bot/',
-            id: 'service.storage.path',
+            id: 'service.fivemupvotes.path',
             description: 'URL path for the storage product',
         }),
     },
