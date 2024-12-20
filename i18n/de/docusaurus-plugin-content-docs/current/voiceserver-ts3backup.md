@@ -1,48 +1,61 @@
 ---
 id: voiceserver-ts3backup
-title: "Voiceserver: Backup einrichten und herunterladen"
-description: Informationen, wie du ein Backup für deinen Teamspeak Server von ZAP-Hosting einrichten und herunterladen kannst - ZAP-Hosting.com Dokumentation
+title: "Voiceserver: Backups erstellen, herunterladen und einspielens"
+description: Informationen über das Erstellen, Herunterladen und Wiederherstellen von Backups für deinen TeamSpeak Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Backups
 services:
   - voiceserver
 ---
 
-
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
+## Einführung
+
+Wir bieten die Möglichkeit, Backups individuell per Klick zu erstellen. Dadurch können Backups kinderleicht und ohne großen Aufwand erstellt und zu einem späteren Zeitpunkt jederzeit wieder importiert werden. Das Backup wird dann auf deinem Storage Server gespeichert, welcher standardmäßig 10 GB kostenlosen Speicherplatz bietet. Solltest du mehr benötigen, dann kannst du auch auf ein Premium Storage upgraden.
+
 <InlineVoucher />
 
+## Backups erstellen
+
 <Tabs>
-<TabItem value="Webinterface" label="Webinterface">
-<br/>
-Um im Webinterface ein Backup von deinem Ts3 Server zu machen, gehst du einfach links auf **Snapshots**.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/PwQbERXp34kCgWY/preview)
+<TabItem value="Webinterface" label="TeamSpeak Server Produkt" default>
 
-Anschließend gehst du auf **Snapshot erstellen**. Unten siehst du dann alle deine Snapshots und kannst diese bei Bedarf einspielen, downloaden oder löschen.
-:::info
-Info: Das Einbinden eigener Snapshots ist aus Sicherheitsgründen nicht erlaubt!
+Um ein Backup auf unserer Website zu erstellen, musst du deinen Voiceserver Dienst im Webinterface aufrufen und in der Verwaltung zu **Snapshots** navigieren. Klicke dort auf den grünen Button **Snapshot erstellen**, um ein Backup zu erstellen.
+
+![img](https://screensaver01.zap-hosting.com/index.php/s/MPNrkDfDEPDA5Re/download)
+
+:::warning Externe Backups
+Der Import von externen Backups (Snapshots) ist aus Sicherheitsgründen nicht möglich. Ausnahmen sind ausgeschlossen. 
 :::
-
-![](https://screensaver01.zap-hosting.com/index.php/s/mQyxGga7ArCPBXg/preview)
 
 
 </TabItem>
-<TabItem value="v/Rootserver" label="v/Rootserver">
-<br/>
-Um ein Backup von deinem Ts3 Server zu machen, welcher auf deinem v/Rootserver installiert ist, musst du dir das Programm Yatqa downloaden. **https://yat.qa/herunterladen/**
+<TabItem value="self_hosted" label="Selbst gehostet (vRootserver/Dedicated Server)">
 
-Anschließend rufst du deine Ts3 Instanz auf und meldest dich mit den Daten bei Yatqa an: 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/JWmSLjenkYfGpbX/preview)
 
-Um nun das Backup zu erstellen, musst du auf **Miscellaneous** gehen und dann auf **Create and save a snapshot**:
+Wie beim TeamSpeak Server Produkt kannst du, wenn du das GS/TS3 Interface verwendest, ein Backup (Snapshot) mit einem Klick über die Verwaltung des TeamSpeak Server Dienstes erstellen. Allerdings kannst du ein Backup auch manuell mit den Zugangsdaten der TeamSpeak-Instanz (Query) und mit der externen Anwendung YatQA erstellen. 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/FKHb6fizLyxtjkE/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/GNak6s26sFcX4bA/preview)
 
-Zum Einspielen eines Backups kannst du dann einfach auf **Restore snapshot** gehen.
+Um einen Snapshot in YatQA zu erstellen, musst du oben in der Anwendung auf **Miscellaneous** gehen und dann auf **Create and save snapshot** klicken. 
+
+![](https://screensaver01.zap-hosting.com/index.php/s/CZWZRYSXpCTi4j3/preview)
 
 </TabItem>
 </Tabs>
+
+## Backups herunterladen
+
+Erstellte Backups (Snapshots) können per FTP von deinem Storage Server heruntergeladen werden. Die Zugangsdaten dazu findest du im Webinterface bei deinem Storage Server Dienst. Wenn du nicht weißt, wie man FTP benutzt, dann empfehlen wir dir, unsere allgemeine FTP-Zugang Anleitung zu verwenden.
+
+![img](https://screensaver01.zap-hosting.com/index.php/s/kHFod3oficKzR33/preview)
+
+![img](https://screensaver01.zap-hosting.com/index.php/s/MiX4GG2zoe5mkSc/preview)
+
+## Abschluss
+
+Du hast erfolgreich ein Backup erstellt, wenn du alle genannten Schritte befolgt hast. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
