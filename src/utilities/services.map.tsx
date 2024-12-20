@@ -106,6 +106,30 @@ const servicesMap: serviceMap = {
             description: 'URL path for the storage product',
         }),
     },
+    'fivem-upvotes': {
+        title: translate({
+            message: 'FiveM Upvotes',
+            id: 'service.storage.title',
+            description: 'Product name for the storage product',
+        }),
+        url: translate({
+            message: '{marketingSite}/{language}/shop/product/fivem-upvotes/',
+            id: 'service.storage.path',
+            description: 'URL path for the storage product',
+        }),
+    },
+    'fivem-upvotes-burst': {
+        title: translate({
+            message: 'FiveM Upvotes BURST',
+            id: 'service.storage.title',
+            description: 'Product name for the storage product',
+        }),
+        url: translate({
+            message: '{marketingSite}/{language}/shop/product/fivem-upvotes-burst/',
+            id: 'service.storage.path',
+            description: 'URL path for the storage product',
+        }),
+    },
 };
 
 export default servicesMap;

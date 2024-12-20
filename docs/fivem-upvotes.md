@@ -4,7 +4,8 @@ title: "FiveM: Upvotes and Server Boosts"
 description: Information about upvotes for FiveM servers and how to boost your server in the server list - ZAP-Hosting.com documentation
 sidebar_label: Upvotes
 services:
-  - gameserver
+  - fivem-upvotes
+  - fivem-upvotes-burst
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';
@@ -15,8 +16,6 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 FiveM Upvotes/Burst Upvotes provide an opportunity to boost the ranking of your own server or another server on the server list. The more upvote points a server accumulates, the higher it will be positioned in the rankings.
 
 <YouTube videoId="H-bdMJTQkSM" imageSrc="https://img.youtube.com/vi/H-bdMJTQkSM/maxresdefault.jpg" title="Get FiveM Upvotes FAST!" description="Feel like you understand better when you see things in action? We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
-
-<InlineVoucher />
 
 
 
@@ -66,3 +65,9 @@ In case the upvotes should be reassigned to another server or an error occurred 
 
 
 The reset of the upvotes can take a few minutes. They can usually be reassigned after 60 minutes at the latest.
+
+
+
+## Conclusion
+
+You have successfully received your upvotes and know how to manage them. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
