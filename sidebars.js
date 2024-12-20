@@ -270,13 +270,6 @@ const sidebars = {
         },
         {
           type: "category",
-          label: "Spigot & Bukkit",
-          items: [
-            "minecraft-pluginuploader"
-          ]
-        },
-        {
-          type: "category",
           label: "Bungeecord",
           items: [
             "minecraft-bungeecord-config"
@@ -284,11 +277,18 @@ const sidebars = {
         },
         {
           type: "category",
-          label: "Forge & Fabric",
+          label: "Forge & Fabric (Mods)",
           items: [
             "minecraft-forge-fabric-add-mods-modpacks"
           ]
-        }
+        },
+        {
+          type: "category",
+          label: "Spigot & Bukkit (Plugins)",
+          items: [
+            "minecraft-pluginuploader"
+          ]
+        },
       ],
     },
     {
