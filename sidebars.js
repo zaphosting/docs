@@ -2249,6 +2249,7 @@ const sidebars = {
         'vserver-linux-ssh-server',
         'vserver-linux-webserver',
         'vserver-linux-xrdp',
+        'vserver-linux-screen',
       ],
     },
     {
