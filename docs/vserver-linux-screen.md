@@ -147,7 +147,7 @@ To run 2 windows in a split configuration you can run `S` (horizontal) or `|` (v
 After creating a new split window go to it using `Tab` and run `"` to open a previous window in the 2nd view of the split.
 
 :::note
-You can keep splitting these windows as much as you can but the server's RAM usage might increase exponentially.
+You can keep splitting these windows as much as you want but the server's RAM usage might increase exponentially.
 
 ## Conclusion
 
