@@ -86,10 +86,10 @@ Installing the screen utility is as easy as running the following command based 
 
 ## Basic Screen Usage
 
-As previously mentioned screen allows users to create multiple sessions. To start one you just need to run:
-
 :::note 
 All commands in this guide are case sensitive.
+
+As previously mentioned screen allows users to create multiple sessions. To start one you just need to run:
 
 ```
 screen -S [name]
