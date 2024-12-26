@@ -41,7 +41,23 @@ Then you need to copy the name of the directory found in the levels folder. You 
 
 Now that you have determined the map name, it is time to set up our new map as standard in the configuration file.
 
-First, you need to navigate to the **Configs** section in your Webinterface.
+#### Deactivating the config override
+
+First, you need to disable the default map selection in the settings, as it would override your changes.
+
+To do that you need to navigate to the **Settings** section in your Webinterface.
+
+![](https://screensaver01.zap-hosting.com/index.php/s/SJ5L6APTFzyZKTC/preview)
+
+There you deactivate the "Map" setting.
+
+![](https://screensaver01.zap-hosting.com/index.php/s/kHSybw6rw5jMaE3/preview)
+
+Next you have to save the settings at the bottom of the page.
+
+#### Changing the map in the config
+
+To change the map in the config you first need to navigate to the **Configs** section in your Webinterface.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/sBj4CFQ3yKmMy8d/preview)
 
@@ -67,22 +83,8 @@ You need to put it in the following path:
 ```
 
 :::tip
-If you want to switch to one of the game's default maps, here is a list:
-```
-"/levels/gridmap/info.json"
-"/levels/automation_test_track/info.json"
-"/levels/east_coast_usa/info.json"
-"/levels/hirochi_raceway/info.json"
-"/levels/italy/info.json"
-"/levels/jungle_rock_island/info.json"
-"/levels/industrial/info.json"
-"/levels/small_island/info.json"
-"/levels/smallgrid/info.json"
-"/levels/utah/info.json"
-"/levels/west_coast_usa/info.json"
-"/levels/driver_training/info.json"
-"/levels/derby/info.json"
-```
+If you want to switch to one of the game's default maps, you can just enable the option in the settings again and choose one of them:
+![](https://screensaver01.zap-hosting.com/index.php/s/8SSceQj373GQ3sw/preview)
 :::
 
 ## Conclusion

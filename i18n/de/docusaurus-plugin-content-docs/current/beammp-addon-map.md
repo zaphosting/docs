@@ -40,9 +40,25 @@ Dann musst du den Namen des Ordners, welcher sich im `levels` Verzeichnis befind
 
 ### Konfigurationsdatei richtig einstellen
 
-Dadurch, dass wir nun den genauen Mapnamen haben, müssen wir diesen nur noch in der Config als Standartmap setzen.
+Dadurch, dass du nun den genauen Mapnamen hast, musst du diesen nur noch in der Config als Standartmap setzen.
 
-Als Erstes musst du zur **Configs** Seite im Webinterface wechseln.
+#### Deaktivieren der Standartmap-Einstellung
+
+Bevor du den Mapnamen in der Config anpassen kannst, musst du die Standartmap-Auswahl in den Einstellungen deaktivieren, da die Configänderung sonst überschrieben wird.
+
+Dafür musst du zur Seite **Einstellungen** im Webinterface wechseln.
+
+![](https://screensaver01.zap-hosting.com/index.php/s/92J8Qn2QcRjEx3G/preview)
+
+Dort deaktivierst du dann die Option "Karte".
+
+![](https://screensaver01.zap-hosting.com/index.php/s/QDm6Ma6mArSPAGN/preview)
+
+Als nächstes speicherst du die Einstellungen am Ende der Seite.
+
+#### Ändern der Map in der Config
+
+Nun musst du zur **Configs** Seite im Webinterface wechseln.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/QnQHKiaG6oia3qJ/preview)
 
@@ -68,22 +84,8 @@ Du musst das Archiv in folgenden Pfad hochladen:
 ```
 
 :::tip
-Solltest du zu einer der Standartmaps wechseln wollen, ist hier eine Liste:
-```
-"/levels/gridmap/info.json"
-"/levels/automation_test_track/info.json"
-"/levels/east_coast_usa/info.json"
-"/levels/hirochi_raceway/info.json"
-"/levels/italy/info.json"
-"/levels/jungle_rock_island/info.json"
-"/levels/industrial/info.json"
-"/levels/small_island/info.json"
-"/levels/smallgrid/info.json"
-"/levels/utah/info.json"
-"/levels/west_coast_usa/info.json"
-"/levels/driver_training/info.json"
-"/levels/derby/info.json"
-```
+Solltest du zu einer der Standartmaps wechseln wollen, kannst du die Einstellung einfach wieder aktivieren und eine der Maps auswählen:
+![](https://screensaver01.zap-hosting.com/index.php/s/5yii3i9PA4ADA8G/preview)
 :::
 
 ## Abschluss
