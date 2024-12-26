@@ -45,7 +45,23 @@ You need to copy the specific name of the map addon folder found in this directo
 
 Now that you have determined the map name, you will have to adjust the configuration file and adjust a parameter which contains the active map.
 
-This can be done easily by navigating to the **Configs** section in your game server's web interface panel.
+#### Deactivating the config override
+
+First, you need to disable the default map selection in the settings, as it would override your changes.
+
+This can be done easily by navigating to the **Settings** section in your game server's web interface panel.
+
+![](https://screensaver01.zap-hosting.com/index.php/s/SJ5L6APTFzyZKTC/preview)
+
+There you deactivate the "Map" setting.
+
+![](https://screensaver01.zap-hosting.com/index.php/s/kHSybw6rw5jMaE3/preview)
+
+Next you have to save the settings at the bottom of the page.
+
+#### Changing the map in the config
+
+To change the map in the config you first need to navigate to the **Configs** section in your Webinterface.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/sBj4CFQ3yKmMy8d/preview)
 
@@ -63,22 +79,8 @@ In rare cases, a map can be formatted differently. If the map doesn't work after
 :::
 
 :::tip
-At any time, you can utilise the game's default maps simply by editing the configuration file again. Below is the list of the current default maps.
-```
-"/levels/gridmap/info.json"
-"/levels/automation_test_track/info.json"
-"/levels/east_coast_usa/info.json"
-"/levels/hirochi_raceway/info.json"
-"/levels/italy/info.json"
-"/levels/jungle_rock_island/info.json"
-"/levels/industrial/info.json"
-"/levels/small_island/info.json"
-"/levels/smallgrid/info.json"
-"/levels/utah/info.json"
-"/levels/west_coast_usa/info.json"
-"/levels/driver_training/info.json"
-"/levels/derby/info.json"
-```
+At any time, you can utilise the game's default maps simply by enabling the option in the settings again and choosing one of them:
+![](https://screensaver01.zap-hosting.com/index.php/s/8SSceQj373GQ3sw/preview)
 :::
 
 ### Uploading Map 
