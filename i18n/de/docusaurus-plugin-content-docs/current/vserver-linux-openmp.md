@@ -1,6 +1,6 @@
 ---
 id: vserver-linux-openmp
-title: "VPS: Open.mp Dedicated Server Linux Setup"
+title: "vServer: Open.mp Dedicated Server Linux Setup"
 description: Informationen zur Einrichtung eines open.mp Dedicated Servers auf einem Linux VPS von ZAP-Hosting – ZAP-Hosting.com-Dokumentation
 sidebar_label: Open.mp
 services:
@@ -31,7 +31,7 @@ Verwende den folgenden Befehl, um einen Benutzer namens `gameservers` mit einem 
 
 ```
 sudo useradd -m gameservers
-sudo passwd [dein_password] # Optionales Passwort
+sudo passwd gameservers # Optionales Passwort
 ```
 
 Sobald du auf deinen Server zugegriffen hast und einen Benutzer bereit hast, fahre mit den Installationsschritten fort.
@@ -83,6 +83,6 @@ In deiner Eingabeaufforderung sollten nun Protokolle angezeigt werden, einschlie
 
 ## Abschluss
 
-Herzlichen Glückwunsch, du hast den open.mp-Server erfolgreich auf deinem VPS installiert und konfiguriert! Als nächsten Schritt empfehlen wir dir einen Blick in unsere Anleitung [Linux Dienst einrichten](vserver-linux-create-gameservice.md), in der du deinen neuen dedizierten Spieleserver als Dienst einrichten kannst. Dies bietet verschiedene Vorteile, wie z. B. den automatischen Start des Servers beim Hochfahren, automatische Server-Updates, einfache Verwaltung und Zugriff auf Logs und vieles mehr!
+Herzlichen Glückwunsch, du hast den open.mp-Server erfolgreich auf deinem VPS installiert und konfiguriert! Als nächsten Schritt empfehlen wir dir einen Blick in unsere Anleitung [Linux Dienst einrichten](vserver-linux-create-gameservice.md), in der du deinen neuen dedizierten Gameserver als Dienst einrichten kannst. Dies bietet verschiedene Vorteile, wie z. B. den automatischen Start des Servers beim Hochfahren, automatische Server-Updates, einfache Verwaltung und Zugriff auf Logs und vieles mehr!
 
 Wenn du weitere Fragen oder Probleme hast, wende dich bitte an unser Support-Team, das dir jeden Tag zur Verfügung steht!

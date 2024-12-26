@@ -117,4 +117,4 @@ Furthermore, the renewal of certificates can also be automated. This prevents th
 
 ## Conclusion
 
-Congratulations, you have successfully installed and configurated your SSL certificate! If you have any further questions or problems, please contact our support team, who are available to help you every day! 
+Congratulations, you have successfully installed and configured your SSL certificate! If you have any further questions or problems, please contact our support team, who are available to help you every day! 

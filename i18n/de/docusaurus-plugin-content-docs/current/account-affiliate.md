@@ -67,7 +67,7 @@ Wir empfehlen, die Option **Produkte kaufen** zu aktivieren, da sie den Kunden d
 Als Nächstes kannst du über das Dropdown-Menü das Feld **Produkt** auswählen. Dorthin wird dein neuer Partnerlink den Nutzer weiterleiten, wenn dieser ihn aufruft. Wenn du einen Gameserver auswählst, gibt es eine zusätzliche Option **Spiel**, die du auswählen musst, ansonsten ist das Produkt die einzige Option.
 
 #### Abschluss des Erstellungsprozesses
-Wenn du alles nach deinen Vorstellungen ausgefüllt hast, drückst du einfach auf die grüne Schaltfläche **Erstellen**, um mit der Erstellung deines Banners oder Links fortzufahren. Du solltest eine Erfolgsmeldung erhalten, wenn alles korrekt ist und dein neuer Banner oder Link erscheint unter dem Abschnitt **Deine Banner/Links**, wenn du nach unten scrollst.
+Wenn du alles nach deinen Vorstellungen ausgefüllt hast, drückst du einfach auf den grünen Button **Erstellen**, um mit der Erstellung deines Banners oder Links fortzufahren. Du solltest eine Erfolgsmeldung erhalten, wenn alles korrekt ist und dein neuer Banner oder Link erscheint unter dem Abschnitt **Deine Banner/Links**, wenn du nach unten scrollst.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/724JJWXKptMB9qR/preview)
 

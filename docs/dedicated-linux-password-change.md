@@ -1,6 +1,6 @@
 ---
 id: dedicated-linux-password-change
-title: "VPS: Change root password for Linux server"
+title: "Dedicated Server: Change root password for Linux server"
 description: Information on how to change the root password for on your Linux Dedicated Server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Change Password
 services:

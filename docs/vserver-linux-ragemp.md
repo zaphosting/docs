@@ -30,7 +30,7 @@ Use the following command to create a user named `gameservers` with an optional 
 
 ```
 sudo useradd -m gameservers
-sudo passwd [your_password] # Optional Password
+sudo passwd gameservers # Optional Password
 ```
 
 Once you have accessed your server and have a user ready, proceed with the installation steps.
@@ -84,6 +84,6 @@ You should now see logs appear in your command prompt, including network logs, w
 
 ## Conclusion
 
-Congratulations, you have successfully installed and configurated the RageMP server on your VPS! As a next step, we recommend looking over our [Setup Linux Service](vserver-linux-create-gameservice.md) guide, which covers setting up your new dedicated game server as a service. This provides various benefits including automatic server launching on boot, automatic server updates, easy management and access to logs, plus much more!
+Congratulations, you have successfully installed and configured the RageMP server on your VPS! As a next step, we recommend looking over our [Setup Linux Service](vserver-linux-create-gameservice.md) guide, which covers setting up your new dedicated game server as a service. This provides various benefits including automatic server launching on boot, automatic server updates, easy management and access to logs, plus much more!
 
 If you have any further questions or problems, please contact our support team, who are available to help you every day!

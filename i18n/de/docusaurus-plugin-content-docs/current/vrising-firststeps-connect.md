@@ -33,7 +33,7 @@ Beginne damit, V Rising über deinen Game Launcher zu starten. Wähle im Hauptme
 
 Wähle den Spielmodus aus, den du spielen willst, oder drücke alternativ unten rechts auf **Alle Server anzeigen**, um direkt zum Server-Browser zu gelangen. 
 
-Drücke unten auf die Schaltfläche **Direktverbindung** und gib deine IP gefolgt von dem Port ein, zum Beispiel: "123.456.679.123:9876". Wenn es ein Passwort gibt, wird das Spiel dich nach der Verbindung auffordern, dieses einzugeben.
+Drücke unten auf den Button **Direktverbindung** und gib deine IP gefolgt von dem Port ein, zum Beispiel: "123.456.679.123:9876". Wenn es ein Passwort gibt, wird das Spiel dich nach der Verbindung auffordern, dieses einzugeben.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/tfroQDEgmr3p2D8/preview)
 

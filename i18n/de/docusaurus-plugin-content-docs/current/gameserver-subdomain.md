@@ -32,7 +32,7 @@ Wenn das Spiel, das du installiert hast, derzeit nicht unterstützt wird, kannst
 
 ## Verwaltung von Subdomains (DNS)
 
-Die Verwaltung der Subdomain-Funktion auf deinem Spieleserver ist ganz einfach. Gehe dazu in den Bereich **Einstellungen->DNS Einstellungen**.
+Die Verwaltung der Subdomain-Funktion auf deinem Gameserver ist ganz einfach. Gehe dazu in den Bereich **Einstellungen->DNS Einstellungen**.
 
 Auf dieser Seite kannst du eine Reihe von Verwaltungsaufgaben durchführen, die sich auf die Free ZAP Cloud-Subdomain sowie auf die Nutzung deiner eigenen Domains beziehen, die du in deinem ZAP-Hosting-Konto eingerichtet hast.
 
@@ -44,10 +44,10 @@ Derzeit kannst du maximal 3 Subdomains pro Produkt aktiv haben (ohne die zufäll
 
 ### Zufällige ZAP Cloud Subdomain
 
-Um eine zufällige ZAP Cloud Subdomain zu generieren, musst du die Schaltfläche **Subdomains neu auflösen** auf dieser Einstellungsseite verwenden.
+Um eine zufällige ZAP Cloud Subdomain zu generieren, musst du den Button **Subdomains neu auflösen** auf dieser Einstellungsseite verwenden.
 
 :::info
-Bestehende Kunden sollten diese Schaltfläche auch verwenden, um zum ersten Mal eine zufällige ZAP Cloud-Subdomain zu generieren.
+Bestehende Kunden sollten diesen Button auch verwenden, um zum ersten Mal eine zufällige ZAP Cloud-Subdomain zu generieren.
 :::
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/XRbnp6D8m8GoENn/preview)
@@ -60,7 +60,7 @@ Du hast die Möglichkeit, deine eigene ZAP Cloud Subdomain zu erstellen, indem d
 Wenn du eine Fehlermeldung erhältst, ist es möglich, dass die Subdomain bereits in Gebrauch ist und/oder du ein verbotenes Wort oder Zeichen eingegeben hast, das zum Schutz unserer Kunden nicht erlaubt ist.
 :::
 
-Klicke nun auf die Schaltfläche **Eintrag erstellen** und du solltest sehen, dass die Subdomain in der Liste erscheint. Es kann sein, dass du ein paar Minuten warten musst, bis sie voll funktionsfähig ist.
+Klicke nun auf den Button **Eintrag erstellen** und du solltest sehen, dass die Subdomain in der Liste erscheint. Es kann sein, dass du ein paar Minuten warten musst, bis sie voll funktionsfähig ist.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/2iSAZJpETYw9H3p/preview)
 
@@ -78,7 +78,7 @@ Das Anlegen einer Subdomain mit deiner eigenen Domain erfolgt in denselben Schri
 Wenn du eine Fehlermeldung erhältst, ist es möglich, dass die Subdomain bereits in Gebrauch ist und/oder du ein verbotenes Wort oder Zeichen eingegeben hast, das zum Schutz unserer Kunden nicht erlaubt ist.
 :::
 
-Klicke nun auf die Schaltfläche **Eintrag erstellen** und du solltest sehen, dass die Subdomain in der Liste erscheint. Es kann sein, dass du ein paar Minuten warten musst, bis sie voll funktionsfähig ist.
+Klicke nun auf den Button **Eintrag erstellen** und du solltest sehen, dass die Subdomain in der Liste erscheint. Es kann sein, dass du ein paar Minuten warten musst, bis sie voll funktionsfähig ist.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/23w6gBHoYL75p5m/preview)
 
@@ -88,7 +88,7 @@ Klicke nun auf die Schaltfläche **Eintrag erstellen** und du solltest sehen, da
 
 ### ZAP Cloud Subdomain
 
-Wenn du Probleme mit den ZAP Cloud-Subdomains hast, kannst du versuchen, diese selbst zu beheben, indem du, wie oben beschrieben, zum Abschnitt **Einstellungen->DNS Einstellungen** gehst und dort die Schaltfläche **Subdomains neu auflösen** anklickst.
+Wenn du Probleme mit den ZAP Cloud-Subdomains hast, kannst du versuchen, diese selbst zu beheben, indem du, wie oben beschrieben, zum Abschnitt **Einstellungen->DNS Einstellungen** gehst und dort den Button **Subdomains neu auflösen** anklickst.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/XRbnp6D8m8GoENn/preview)
 

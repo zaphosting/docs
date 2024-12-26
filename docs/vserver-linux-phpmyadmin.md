@@ -152,4 +152,4 @@ The phpMyAdmin web interface can now be opened via browser with/phpmyadmin, e.g.
 
 ## Conclusion
 
-Congratulations, you have successfully installed and configurated phpMyAdmin! If you have any further questions or problems, please contact our support team, who are available to help you every day! 
+Congratulations, you have successfully installed and configured phpMyAdmin! If you have any further questions or problems, please contact our support team, who are available to help you every day! 

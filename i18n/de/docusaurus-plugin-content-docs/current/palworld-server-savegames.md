@@ -45,7 +45,7 @@ Es ist ganz einfach, dein Savegame auf dem Server zu sichern. Sobald du dich üb
 ../palworld/Pal/Saved/SaveGames/0
 ```
 
-An diesem Ort solltest du einen Ordner mit einer Reihe zufälliger Zeichen sehen, der dein Savegame ist. Klicke einfach mit der rechten Maustaste auf den Ordner und benutze die Schaltfläche **Download**, um es lokal auf deinem Gerät zu speichern.
+An diesem Ort solltest du einen Ordner mit einer Reihe zufälliger Zeichen sehen, der dein Savegame ist. Klicke einfach mit der rechten Maustaste auf den Ordner und benutze den Button **Download**, um es lokal auf deinem Gerät zu speichern.
 
 ![](https://github.com/zaphosting/docs/assets/42719082/ca890470-450d-4962-a982-39378dfbb695)
 

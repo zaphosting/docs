@@ -93,7 +93,7 @@ Du musst neue Regeln für deinen Palworld Server erstellen. Klicke dazu auf die 
 - TCP eingehend und ausgehend: 8211
 - UDP eingehend und ausgehend: 8211
 
-Bitte benutze unseren [Portweiterleitung (Firewall)](vserver-windows-port.md), wenn du weitere Hilfe dabei brauchst.
+Bitte benutze unseren [Portweiterleitung (Firewall)](vserver-windows-port.md) Anleitung, wenn du weitere Hilfe dabei brauchst.
 
 </TabItem>
 </Tabs>

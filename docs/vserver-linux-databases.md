@@ -96,7 +96,7 @@ The user root is the main user of your MariaDB (MySQL) server!
 Next, you will be asked if you want to set a password for the root user, confirm this with **y** for yes. Afterwards, you have to type in the new password for the user root.
 
 :::note
-While typing in the password, you won't be able to see it. However, this behavior is normal and your password will still be stored. Make sure you use a secure password for your root user and keep it in a safe place. 
+While typing in the password, you won't be able to see it. However, this behaviour is normal and your password will still be stored. Make sure you use a secure password for your root user and keep it in a safe place. 
 :::
 
 Now you will be asked if you want to remove anonymous users from your server, you should do this in any case for security reasons. Confirm this with a **y** for yes:
@@ -276,4 +276,4 @@ Your MongoDB installation should be working now!
 
 ## Conclusion
 
-Congratulations, you have successfully installed and configurated database! If you have any further questions or problems, please contact our support team, who are available to help you every day! 
+Congratulations, you have successfully installed and configured database! If you have any further questions or problems, please contact our support team, who are available to help you every day! 

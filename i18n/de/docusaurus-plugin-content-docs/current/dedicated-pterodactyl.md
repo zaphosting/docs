@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Das Pterodactyl Panel ist ein Open-Source-Kontrollpanel, das speziell dafür entwickelt wurde, um das Verwalten und Hosten von Spieleservern zu vereinfachen. Es bietet eine Benutzeroberfläche, die es Administratoren ermöglicht, zentral mehrere Spieleserver zu konfigurieren und zu verwalten.
+Das Pterodactyl Panel ist ein Open-Source-Kontrollpanel, das speziell dafür entwickelt wurde, um das Verwalten und Hosten von Spieleservern zu vereinfachen. Es bietet eine Benutzeroberfläche, die es Administratoren ermöglicht, zentral mehrere Gameserver zu konfigurieren und zu verwalten.
 
 In dieser Anleitung werden wir die notwendigen Schritte durchgehen, um deine eigene Pterodactyl-Instanz auf deinem Server einzurichten.
 

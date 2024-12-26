@@ -15,7 +15,7 @@ Das **FTP (File Transfer Protocol)** ist ein Netzwerkprotokoll, das dazu dient, 
 
 <InlineVoucher />
 
-## Wie installiere ich den FTP Server, und füge einen Nutzer hinzu? 
+## Installation
 
 Als Erstes muss ein FTP Server installiert werden. Dafür verbindest du dich ein mal via SSH(Putty) mit dem Server.
 
@@ -33,7 +33,7 @@ Folgende Einträge müssen hinzugefügt werden:
 
 Jetzt muss der FTP-Server neu gestartet werden, sodass die Änderungen übernommen werden. Dies kann man mit folgendem Befehl mache: **service proftpd restart**
 
-## Wie füge ich einen FTP Nutzer hinzu? 
+## Benutzer hinzufügen
 
 Um jetzt den neuen FTP Nutzer anzulegen, müssen wir erst eine FTP Gruppe erstellen. Dies machen wir mit dem Befehl **addgroup ftpuser**. Dies sieht dann so aus: 
 

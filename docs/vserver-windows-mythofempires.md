@@ -145,4 +145,4 @@ If you are having issues connecting to the server, open your `StartPrivateServer
 
 ## Conclusion
 
-Congratulations, you have successfully installed and configurated the Myth of Empires erver on your VPS! If you have any further questions or problems, please contact our support team, who are available to help you every day! 
+Congratulations, you have successfully installed and configured the Myth of Empires erver on your VPS! If you have any further questions or problems, please contact our support team, who are available to help you every day! 

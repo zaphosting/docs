@@ -41,7 +41,7 @@ Vorausgesetzt, dass du deinen Auth-Code besitzt, kannst du jetzt mit der Bestell
 Um eine Domain zu übertragen, musst du sie während des Bestellvorgangs um 1 Jahr verlängern. Das ist bei allen Anbietern üblich.
 :::
 
-Daraufhin öffnet sich eine Liste deiner Wunschdomain mit allen verfügbaren Domainendungen. Domains, die bereits woanders registriert sind, erkennst du an der grauen Schaltfläche mit dem Pfeil. 
+Daraufhin öffnet sich eine Liste deiner Wunschdomain mit allen verfügbaren Domainendungen. Domains, die bereits woanders registriert sind, erkennst du an dem grauen Button mit dem Pfeil. 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/omnaMqXJgarxsqW/preview)
 
@@ -49,7 +49,7 @@ Suche die Domain, die du übertragen möchtest, und klicke auf den Pfeil. Darauf
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/y9mca4c3XeTaaHS/preview)
 
-In dieses Feld musst du den **Auth Code** eingeben, den du von deinem vorherigen Anbieter während der Vorbereitung erhalten hast. Sobald du fertig bist, übermittle ihn mit der grünen Schaltfläche **Hinzufügen**.
+In dieses Feld musst du den **Auth Code** eingeben, den du von deinem vorherigen Anbieter während der Vorbereitung erhalten hast. Sobald du fertig bist, übermittle ihn mit dem grünen Button **Hinzufügen**.
 
 :::danger Eingabe auf Richtigkeit prüfen
 

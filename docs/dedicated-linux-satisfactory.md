@@ -20,7 +20,7 @@ Did you know that you can install our **ZAP GS/TS3 Interface** directly onto you
 
 ## Preparation
 
-To begin with, connect to your Dedicated Server via SSH. Use our [SSH Initial Access](vserver-linux-ssh.md) guide if you need help doing this.
+To begin with, connect to your Dedicated Server via SSH. Use our [SSH Initial Access](dedicated-linux-ssh.md) guide if you need help doing this.
 
 You will also have to complete a first-time setup for SteamCMD if this is your first time using this on your Linux server. Please use our [SteamCMD Linux Setup](dedicated-linux-steamcmd.md) guide and ensure SteamCMD is fully setup before proceeding.
 
@@ -60,6 +60,6 @@ You should now see logs appear in your command prompt which signals that the sta
 
 ## Conclusion
 
-Congratulations, you have successfully installed and configurated the Satisfactory server on your Dedicated Server! As a next step, we recommend looking over our [Setup Linux Service](dedicated-linux-create-gameservice.md) guide, which covers setting up your new dedicated game server as a service. This provides various benefits including automatic server launching on boot, automatic server updates, easy management and access to logs, plus much more!
+Congratulations, you have successfully installed and configured the Satisfactory server on your Dedicated Server! As a next step, we recommend looking over our [Setup Linux Service](dedicated-linux-create-gameservice.md) guide, which covers setting up your new dedicated game server as a service. This provides various benefits including automatic server launching on boot, automatic server updates, easy management and access to logs, plus much more!
 
 If you have any further questions or problems, please contact our support team, who are available to help you every day!

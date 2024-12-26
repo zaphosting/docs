@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Dienste sind ein fester Bestandteil von Linux und bezeichnen einen Prozess oder eine Anwendung, die im Hintergrund läuft, entweder als vordefinierte Aufgabe oder ereignisbasiert. Dies bietet verschiedene Vorteile, z. B. den automatischen Start des Servers beim Booten, automatische Server-Updates, einfache Verwaltung und Zugriff auf Logs und vieles mehr! In diesem Anleitung erfahren wir, wie du einen Dienst für deinen dedizierten Spieleserver erstellst.
+Dienste sind ein fester Bestandteil von Linux und bezeichnen einen Prozess oder eine Anwendung, die im Hintergrund läuft, entweder als vordefinierte Aufgabe oder ereignisbasiert. Dies bietet verschiedene Vorteile, z. B. den automatischen Start des Servers beim Booten, automatische Server-Updates, einfache Verwaltung und Zugriff auf Logs und vieles mehr! In diesem Anleitung erfahren wir, wie du einen Dienst für deinen dedizierten Gameserver erstellst.
 
 <InlineVoucher />
 
@@ -19,11 +19,11 @@ Dienste sind ein fester Bestandteil von Linux und bezeichnen einen Prozess oder 
 
 Verbinde dich zunächst über SSH mit deinem Dedicated Server. Nutze unsere Anleitung [Erstzugriff (SSH)](vserver-linux-ssh.md), wenn du dabei Hilfe benötigst.
 
-Du solltest auch eine unserer speziellen Anleitungen für Spieleserver in diesem Abschnitt befolgen, um einen Spieleserver auf deinem Linux-System zu installieren und einzurichten. In dieser Anleitung verwenden wir den [Palworld](dedicated-linux-palworld.md) Dedicated Server als Beispiel, aber die Anweisungen können für alle unsere Anleitungen angepasst werden.
+Du solltest auch eine unserer speziellen Anleitungen für Gameserver in diesem Abschnitt befolgen, um einen Gameserver auf deinem Linux-System zu installieren und einzurichten. In dieser Anleitung verwenden wir den [Palworld](dedicated-linux-palworld.md) Dedicated Server als Beispiel, aber die Anweisungen können für alle unsere Anleitungen angepasst werden.
 
 ## Einen Dienst erstellen
 
-Beginne damit, eine neue Dienstdatei für den dedizierten Spieleserver zu erstellen, den du eingerichtet hast. Ersetze `[dein_spiel]` durch einen Namen deiner Wahl. Wir empfehlen, den Namen des Spiels zu verwenden, damit alles übersichtlich bleibt, also verwenden wir `palworld.service`.
+Beginne damit, eine neue Dienstdatei für den dedizierten Gameserver zu erstellen, den du eingerichtet hast. Ersetze `[dein_spiel]` durch einen Namen deiner Wahl. Wir empfehlen, den Namen des Spiels zu verwenden, damit alles übersichtlich bleibt, also verwenden wir `palworld.service`.
 ```
 sudo nano /etc/systemd/system/[dein_spiel].service
 ```
@@ -84,7 +84,7 @@ Lass uns den Inhalt der Datei aufschlüsseln, damit wir alles besser verstehen.
 - `Description`: Das kann alles Mögliche sein, was nützlich ist, um den Zweck des Dienstes leicht zu erkennen.
 - `User`: Mit unseren Anleitungen solltest du einen separaten `Steam`-Benutzer für die Verwendung mit SteamCMD oder den „Gameservers“-Benutzer für Nicht-SteamCMD-Spiele eingerichtet haben. Wenn nicht, sollte dies auf den Benutzer eingestellt werden, der den Dienst ausführen soll.
 - `WorkingDirectory`: Dies ist der Pfad zum Hauptverzeichnis, das alles enthält, was der Dienst benötigt.
-- `ExecStartPre` (Nur SteamCMD): In diesem Feld stellen wir im Wesentlichen denselben SteamCMD-Installationsbefehl wie zuvor ein, der bei jedem Neustart des Servers ausgeführt wird, um sicherzustellen, dass er aktuell ist. Du solltest dies aus der jeweiligen Anleitung für den dedizierten Spieleserver kopieren oder die Werte manuell durch die Werte des Spiels ersetzen.
+- `ExecStartPre` (Nur SteamCMD): In diesem Feld stellen wir im Wesentlichen denselben SteamCMD-Installationsbefehl wie zuvor ein, der bei jedem Neustart des Servers ausgeführt wird, um sicherzustellen, dass er aktuell ist. Du solltest dies aus der jeweiligen Anleitung für den dedizierten Gameserver kopieren oder die Werte manuell durch die Werte des Spiels ersetzen.
 - `ExecStart`: In diesem Feld wird die vordefinierte Aufgabe festgelegt, die mit dem Dienst ausgeführt werden soll. Auch hier solltest du den Pfad aus dem jeweiligen Dedicated Game Server Guide kopieren oder die Werte manuell ersetzen, um zur Startdatei zu navigieren.
 
 :::important Wine-Kompatibilitätsschicht
@@ -96,7 +96,7 @@ Für Spiele, die den **Wine**-Kompatibilitätslayer benötigen, solltest du die 
 Bitte stelle außerdem sicher, dass dein `ExecStartPre` SteamCMD-Installationsbefehl auch den Parameter `+@sSteamCmdForcePlatformType` enthält, wenn du eine Plattformversion erzwingen willst.
 :::
 
-Nachdem nun alle Eingabewerte an deinen dedizierten Spieleserver angepasst sind, kannst du die Datei speichern und nano mit `CTRL + X` beenden, gefolgt von `Y` zur Bestätigung und schließlich `ENTER`.
+Nachdem nun alle Eingabewerte an deinen dedizierten Gameserver angepasst sind, kannst du die Datei speichern und nano mit `CTRL + X` beenden, gefolgt von `Y` zur Bestätigung und schließlich `ENTER`.
 
 In unserem Palworld-Beispiel würde unsere Datei wie folgt aussehen:
 ```
@@ -146,6 +146,6 @@ sudo systemctl disable [dein_dienst]
 
 ## Abschluss
 
-Du hast nun erfolgreich einen Dienst für deinen dedizierten Spieleserver eingerichtet. Der Server wird nun automatisch beim Hochfahren des Servers gestartet.
+Du hast nun erfolgreich einen Dienst für deinen dedizierten Gameserver eingerichtet. Der Server wird nun automatisch beim Hochfahren des Servers gestartet.
 
 Außerdem hast du den Inhalt der Servicedatei kennengelernt und erfahren, wie du den Dienst mit verschiedenen Befehlen verwalten kannst.

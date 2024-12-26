@@ -40,7 +40,7 @@ Die benutzerfreundlichste Methode ist es, im Webinterface deines Spieleservers i
 Der Server muss angehalten werden, bevor die Config bearbeitet werden kann. Wenn du die Config bearbeitest und den Server neu startest, werden alle Änderungen rückgängig gemacht.
 :::
 
-Wenn du die Rohdatei direkt bearbeiten möchtest, kannst du dies auch tun, indem du im Webinterface deines Spieleservers den Bereich **Configs** aufrufst und auf die blaue Schaltfläche Datei bearbeiten klickst (siehe unten):
+Wenn du die Rohdatei direkt bearbeiten möchtest, kannst du dies auch tun, indem du im Webinterface deines Spieleservers den Bereich **Configs** aufrufst und auf den blauen Button Datei bearbeiten klickst (siehe unten):
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/yF2bWmZwNqmoHmn/preview)
 
@@ -66,7 +66,7 @@ Die letzte Methode, um auf die Rohdatei zuzugreifen, ist über FTP. Wenn du dich
 In den folgenden Abschnitten findest du Tabellen mit Informationen über die verfügbaren Konfigurationsoptionen, sowohl für den eigentlichen Server als auch für die Spielkonfiguration.
 
 :::tip
-Wir raten davon ab, die Port-Einstellungen zu ändern, da diese automatisch vom Spielserver konfiguriert werden. Wenn du die Port-Werte änderst, kann es passieren, dass dein Spieleserver kaputt geht!
+Wir raten davon ab, die Port-Einstellungen zu ändern, da diese automatisch vom Spielserver konfiguriert werden. Wenn du die Port-Werte änderst, kann es passieren, dass dein Gameserver kaputt geht!
 :::
 
 ### Wichtige Servereinstellungen

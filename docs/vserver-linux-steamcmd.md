@@ -81,7 +81,7 @@ Use the following command to create a user named `steam` with an optional passwo
 
 ```
 sudo useradd -m steam
-sudo passwd [your_password] # Optional Password
+sudo passwd steam # Optional Password
 ```
 
 Once the user is created, you will need to adjust the `.bashrc` file to provide access to the `/usr/games` path where SteamCMD is located. This is done by adding an extra path environment variable.

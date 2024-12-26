@@ -21,7 +21,7 @@ Um einen SSH-Schlüssel zu generieren, empfehlen wir dir, den Bereich **Informat
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/RepcLDoHdxM4o8H/preview)
 
-Hier siehst du eine grüne Schaltfläche **SSH-Key generieren**. Sobald du diese Schaltfläche drückst, wird dein privater SSH-Schlüssel automatisch auf deinen PC heruntergeladen. Mit diesem Schlüssel kannst du dich mit deinem Server verbinden, sobald SSH eingerichtet ist.
+Hier siehst du einen grünen Button **SSH-Key generieren**. Sobald du diesen Button drückst, wird dein privater SSH-Schlüssel automatisch auf deinen PC heruntergeladen. Mit diesem Schlüssel kannst du dich mit deinem Server verbinden, sobald SSH eingerichtet ist.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/pdTTNDzQKr4ib3x/preview)
 
@@ -39,7 +39,7 @@ Die Verwaltung deiner Standard-SSH-Schlüssel in deinem Account ist ganz einfach
 ### Hinzufügen eines neuen Schlüssels
 Um einen Schlüssel hinzuzufügen, drücke zuerst auf das grüne Plus-Symbol, um die Eingabeaufforderung zu öffnen. In dieser Eingabeaufforderung wählst du zunächst einen passenden Namen aus, den du deinem SSH-Schlüssel hinzufügen möchtest.
 
-Anschließend fügst du deinen öffentlichen SSH-Schlüssel in das zweite Feld ein. Dein SSH-Schlüssel sollte im OpenSSH-Format sein, das mit `ssh-rsa` beginnt und mit einem Suffix endet. Wenn du fertig bist, drückst du auf die grüne Schaltfläche **Speichern**, um den Schlüssel hinzuzufügen.
+Anschließend fügst du deinen öffentlichen SSH-Schlüssel in das zweite Feld ein. Dein SSH-Schlüssel sollte im OpenSSH-Format sein, das mit `ssh-rsa` beginnt und mit einem Suffix endet. Wenn du fertig bist, drückst du auf den grünen Button **Speichern**, um den Schlüssel hinzuzufügen.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/EwfJmWHM7ewXH6M/preview)
 

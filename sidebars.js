@@ -145,7 +145,8 @@ const sidebars = {
       label: "Databases",
       items: [
         "gameserver-databases-pma",
-        "gameserver-database-external-access"
+        "gameserver-database-external-access",
+        "gameserver-database-manage-sqlfiles"
       ],
     },
     {
@@ -258,6 +259,7 @@ const sidebars = {
             "minecraft-server-icon",
             "minecraft-add-own-world",
             "minecraft-worlds",
+            "minecraft-crossplay",
             "minecraftbedrock-behaviorresourcepacks",
             "minecraft-rcon",
             "minecraft-whitelist",
@@ -1763,7 +1765,8 @@ const sidebars = {
         "satisfactory-connect-experimental",
         "satisfactory-savegame",
         "satisfactory-switchexperimental",
-        "satisfactory-commands"
+        "satisfactory-commands",
+        "satisfactory-mods"
       ],
     },
     {
@@ -2239,6 +2242,7 @@ const sidebars = {
         'vserver-linux-mastodon',
         'vserver-linux-nextcloud',
         'vserver-linux-openvpn',
+        'vserver-linux-php',
         'vserver-linux-phpmyadmin',
         'vserver-linux-plesk',
         'vserver-linux-python',
@@ -2255,6 +2259,8 @@ const sidebars = {
         'vserver-linux-wine',
         'vserver-linux-create-gameservice',
         'vserver-linux-arksurvivalascended',
+        'vserver-linux-avorion',
+        'vserver-linux-conan',
         'vserver-linux-enshrouded',
         'vserver-linux-foundry',
         'vserver-linux-mythofempires',
@@ -2287,6 +2293,7 @@ const sidebars = {
         'vserver-windows-addip',
         'vserver-windows-nointernet',
         'vserver-windows-change-language',
+        'vserver-windows-manage-users',
         'vserver-windows-expand-disk',
       ]
     },
@@ -2306,6 +2313,8 @@ const sidebars = {
       label: "Dedicated Game Servers",
       items: [
         'vserver-windows-arksurvivalascended',
+        'vserver-windows-avorion',
+        'vserver-windows-conan',
         'vserver-windows-enshrouded',
         'vserver-windows-foundry',
         'vserver-windows-fs-19',
@@ -2396,6 +2405,7 @@ const sidebars = {
         'dedicated-linux-mastodon',
         'dedicated-linux-nextcloud',
         'dedicated-linux-openvpn',
+        'dedicated-linux-php',
         'dedicated-linux-phpmyadmin',
         'dedicated-linux-plesk',
         'dedicated-pterodactyl',
@@ -2413,6 +2423,8 @@ const sidebars = {
         'dedicated-linux-wine',
         'dedicated-linux-create-gameservice',
         'dedicated-linux-arksurvivalascended',
+        'dedicated-linux-avorion',
+        'dedicated-linux-conan',
         'dedicated-linux-enshrouded',
         'dedicated-linux-foundry',
         'dedicated-linux-mythofempires',
@@ -2460,6 +2472,8 @@ const sidebars = {
       label: "Dedicated Game Servers",
       items: [
         'dedicated-windows-arksurvivalascended',
+        'dedicated-windows-avorion',
+        'dedicated-windows-conan',
         'dedicated-windows-enshrouded',
         'dedicated-windows-foundry',
         'dedicated-windows-fs-19',

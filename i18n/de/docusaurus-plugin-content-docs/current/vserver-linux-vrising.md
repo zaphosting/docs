@@ -1,6 +1,6 @@
 ---
 id: vserver-linux-vrising
-title: "VPS: V-Rising Dedicated Server Linux Setup"
+title: "vServer: V-Rising Dedicated Server Linux Setup"
 description: Informationen zur Einrichtung eines V-Rising Dedicated Servers auf einem Linux VPS von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: V-Rising
 services:
@@ -74,6 +74,6 @@ In der Eingabeaufforderung sollten nun Protokolle erscheinen, die zeigen, dass d
 
 ## Abschluss
 
-Herzlichen Glückwunsch, du hast den V-Rising Server erfolgreich auf deinem VPS installiert und konfiguriert! Als nächsten Schritt empfehlen wir dir einen Blick in unsere [Linux Dienst einrichten](vserver-linux-create-gameservice.md) Anleitung, in der du deinen neuen dedizierten Spieleserver als Dienst einrichtest. Dies bietet verschiedene Vorteile, wie z. B. den automatischen Start des Servers beim Hochfahren, automatische Server-Updates, einfache Verwaltung und Zugriff auf Logs und vieles mehr!
+Herzlichen Glückwunsch, du hast den V-Rising Server erfolgreich auf deinem VPS installiert und konfiguriert! Als nächsten Schritt empfehlen wir dir einen Blick in unsere [Linux Dienst einrichten](vserver-linux-create-gameservice.md) Anleitung, in der du deinen neuen dedizierten Gameserver als Dienst einrichtest. Dies bietet verschiedene Vorteile, wie z. B. den automatischen Start des Servers beim Hochfahren, automatische Server-Updates, einfache Verwaltung und Zugriff auf Logs und vieles mehr!
 
 Wenn du weitere Fragen oder Probleme hast, wende dich bitte an unser Support-Team, das dir jeden Tag zur Verfügung steht!

@@ -49,7 +49,7 @@ Wenn du ein Passwort ausgewählt hast, scrolle nach oben und drücke die grüne 
 Der Server muss angehalten werden, bevor die Konfiguration bearbeitet werden kann. Wenn du die Konfiguration bearbeitest und den Server neu startest, werden alle Änderungen rückgängig gemacht.
 :::
 
-Wenn du die Rohdatei direkt bearbeiten möchtest, kannst du dies auch tun, indem du im Webinterface deines Gameservers in den Bereich **Configs** gehst und dort auf die blaue Schaltfläche "Datei bearbeiten" klickst, wie unten zu sehen:
+Wenn du die Rohdatei direkt bearbeiten möchtest, kannst du dies auch tun, indem du im Webinterface deines Gameservers in den Bereich **Configs** gehst und dort auf den blauen Button "Datei bearbeiten" klickst, wie unten zu sehen:
 
 ![](https://github.com/zaphosting/docs/assets/42719082/ba2b275b-952f-4a5e-bdc0-5850b4eb5a85)
 

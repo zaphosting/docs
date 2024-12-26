@@ -1,7 +1,7 @@
 ---
 id: gameserver-gameswitch
-title: 'Gameserver: Spielwechsel mit der Gameservercloud'
-description: Informationen, wie du weitere Spiele auf deinen Gameserver von ZAP-Hosting.com installieren und zwischen den Spielen wechseln kannst - ZAP-Hosting.com Dokumentation
+title: 'Gameserver: Spielwechsel Feature über das Webinterface'
+description: Informationen zur ZAP-Hosting-Spielwechsel Feature für Gameserver und zur Verwaltung und zum Wechsel zwischen verschiedenen Spielen – ZAP-Hosting.com-Dokumentation
 sidebar_label: Spielwechsel
 services:
   - gameserver
@@ -11,73 +11,100 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Mit einem Gameserver bei ZAP-Hosting kannst du jederzeit das Spiel, dass auf deinem Gameserver installiert ist, wechseln.
-Dazu installierst du ein neues Spiel über das Web Interface und aktivierst es auf deinem Server. Inaktive Spiele bleiben erhalten und werden nicht gelöscht!
-Folgende Punkte sind bei einem Spielwechsel zu beachten:
-
-* Wenn das Host-System gewechselt werden muss, werden bestehende Spiele auf dem Server gelöscht. Dies ist der Fall, wenn du einen Gameserver, für ein anderes Betriebssystem installieren willst, beispielsweise von ARK (Windows) zu Minecraft (Linux) wechseln willst.
-:::info
-Bei einem Host-System-Wechsel erhältst du eine Warnmeldung. Lege vor dem Spielwechsel ein Backup an!
-:::
-* Du kannst jederzeit auf Spiele mit dem gleichen oder einem geringeren Slotpreis wechseln. Willst du auf ein Spiel mit einem höheren Slotpreis wechseln, fällt ein Aufpreis an.
-:::info
-Tipp: Du kannst deinen Gameserver über die Upgrade / Downgrade-Funktion auf eine geringere Slotanzahl und dann die ZAP Coins dazu verwenden, einen höheren Slotpreis freizuschalten und auf Spiele mit höherem Slotpreis zu wechseln.
-:::
-
-* Dank unserer Gameservercloud kannst du beispielsweise kostenfrei Minecraft-Modpacks installieren und aktivieren.
-
-:::info
-Minecraft-Modpacks haben den gleichen Slotpreis. Da keine Host-System-Wechsel notwendig ist, werden keine Daten beim Spielwechsel gelöscht. Du kannst ein neues Modpack testen und bei Bedarf deinen bisherigen Server wieder aktivieren.
-:::
+Mit einem ZAP-Hosting-Gameserver hast du die Möglichkeit, den Server über dein Webinterface-Panel schnell und einfach zwischen verschiedenen von uns angebotenen Spielen zu wechseln. In dieser Anleitung werden wir unsere Spielwechsel-Funktion vorstellen und erläutern, wie du damit verschiedene Spiele auf deinem Gameserver verwalten und aktivieren kannst.
 
 <InlineVoucher />
 
-## Spielwechsel
+## Zugriff auf das Webinterface
 
-Du kannst im Web Interface deines Gameservers unter Einstellungen - Spiele weitere Gameserver hinzufügen und aktivieren:
+Beginne damit, das Dashboard deines Spielserver-Produkts auf unserer Website aufzurufen. Navigiere dort zum Abschnitt **Einstellungen->Spiele** auf der linken Seite.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/CAdwRMaWLrmJCe4/preview)
+Du befindest dich nun im Abschnitt Spielwechsel, in dem du Spielinstallationen verwalten, ein Spiel aktivieren und den Slot-Preis bei Bedarf anpassen kannst.
 
-Dir wird eine Liste mit den bereits installierten Spielen angezeigt:
+![](https://screensaver01.zap-hosting.com/index.php/s/FtfaToYMW8szScE/preview)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/gZbHdcMzxDsR5nb/preview)
+## Spiele verwalten
 
-Unter "Verfügbar Spiele" werden dir alle Spiele angezeigt, die du auf deinem Server ohne zusätzliche Kosten installieren kannst. Um ein weiteres Spiel zu installieren, wähle das gewünschte Spiel aus. Zur Installation, klicke auf den grünen Button:
-Gebe das gewünschte Spiel in das Suchfeld ein, um die Auswahl einzuschränken.
+Im Abschnitt **Spiele** auf deiner Webschnittstelle siehst du eine Liste der derzeit installierten Spiele. Außerdem siehst du die Spielversion und verschiedene Schaltflächen zum Verwalten der Spielinstallation.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/wRQBnQX4tdpsMHY/preview)
+:::info Lifetime Game Servers
+Bei unserem Produkt Lifetime Game Server gelten andere Preise für die Spielwechsel-Funktion. Für jedes Spiel, das du dauerhaft auf deinem Lifetime Game Server besitzen möchtest, fällt eine **einmalige** Gebühr von **30 €** pro Spiel an, das du erwerben möchtest. Nach dem Kauf ist das Spiel **dauerhaft** auf diesem bestimmten Lifetime Game Server verfügbar und kann daher jederzeit gewechselt werden.
 
-Bestätige die Installation:
+Abgesehen von den Preisen für lebenslange Gameserver ist der Spielwechselprozess genau derselbe, nur dass die Spiele gekauft werden und nicht auf die Slot-Preise zurückgegriffen wird.
+:::
 
-![](https://screensaver01.zap-hosting.com/index.php/s/nfsZwdQen45Eoq8/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/LjfzWgWY3rrC87D/preview)
 
-Nach der Installation wird das neue Spiel in der Liste der installierten Spiele angezeigt. Um das Spiel zu wechseln, muss das neue Spiel noch aktiviert werden:
+### Neues Spiel installieren
 
-![](https://screensaver01.zap-hosting.com/index.php/s/EJpQqzBxS2CGXdm/preview)
+Um ein neues Spiel auf deinem Gameserver zu installieren, wähle das Dropdown-Menü **Verfügbare Spiele** aus, in dem du verfügbare Spiele durchsuchen kannst, die du ohne zusätzliche Kosten auf deinem Server installieren kannst.
 
-Nach der Aktivierung kannst du dein neues Spiel auf deinem Server spielen. In der Übersicht kannst du jederzeit dein altes Spiel wieder aktivieren:
+![](https://screensaver01.zap-hosting.com/index.php/s/EHDFJj26fm3Yocz/preview)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/MYZ6nSqaZQeTeSX/preview)
+In diesem Abschnitt findest du auch das Dropdown-Menü **Weitere Spiele**. Bei unserer großen Spielauswahl können bestimmte Spiele unterschiedliche Slot-Preise haben, was bedeuten kann, dass du das ausgewählte Spiel nicht ohne zusätzliche Kosten installieren kannst. Um dies zu beheben, musst du einen Aufpreis zahlen, um deinen Slot-Preis zu erhöhen. Weitere Informationen findest du im Abschnitt [Slot-Preis ändern](#slot-preis-ändern) der Anleitung.
 
-Über die Gameservercloud, kannst du deine Gameserver mit einem Klick neu installieren (Achtung: Alle Daten des Spiels gehen bei einer Neuinstallation verloren):
+:::info Mindestanzahl an Slots
+Für bestimmte Spiele in unserer Spielesammlung ist eine bestimmte Mindestanzahl an Slots erforderlich, bevor du sie auf deinem Gameserver installieren kannst. Fahre in solchen Fällen mit der Maus über das Warnsymbol, um mehr zu erfahren. Du solltest die Upgrade-/Downgrade-Funktion nutzen, um deinen Server basierend auf den Informationen zu aktualisieren.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/eWA88t9SPdycBnE/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/88r9qDeTfLT7D73/preview)
+:::
 
-## Slotpreisänderung
+Sobald du ein Spiel gefunden hast, das du installieren möchtest, klicke auf den grünen Download Button, um mit dem Installationsvorgang fortzufahren.
 
-Willst du zu einem Spiel wechseln, das einen höheren Slotpreis hat oder du benötigst für ein Spiel mit geringerem Slotpreis keinen zusätzlichen Slot, kannst du den Slotpreis deines Gameserver ändern.
-Spiele mit einem höheren Slotpreis werden unter "Weitere Spiele" aufgelistet.
+![](https://screensaver01.zap-hosting.com/index.php/s/RAmpDZoKZFXWHsG/preview)
 
-Um den Slotpreis zu ändern, klicke auf "Slotpreis ändern":
+:::caution Host-Systemwechsel
+Je nach Spiel kann es sein, dass du zu einem anderen Host-System wechseln musst, um mit der Installation fortzufahren. Dies liegt in der Regel daran, dass das Spiel, das du installieren möchtest, auf einem anderen Betriebssystem (Linux oder Windows) läuft und daher einen anderen Host erfordert.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/38CmTKMSQ36p42o/preview)
+Der Hostwechsel ist ein **destruktiver** Vorgang, d. h. alle Daten, die sich derzeit auf dem Server befinden, werden gelöscht. Bitte stelle sicher, dass du alle Dateien oder Speicherstände sicherst, wenn du sie behalten möchtest, bevor du fortfährst.
+:::
 
-Im Änderungsmenü kannst du deinen neuen Slotpreis auswählen. Der nachzuzahlende Betrag (bei Slotpreiserhöhung) bzw. die Gutschrift wird dir angezeigt. Außerdem werden die zu dem neuen Slotpreis verfügbaren Spiele angezeigt:
+Kurz nachdem du auf den Button zum Herunterladen geklickt hast, solltest du eine Pop-up-Eingabeaufforderung erhalten, in der du die Installation des Spiels bestätigen musst. Akzeptiere die Eingabeaufforderung, um den automatischen Installationsvorgang zu starten. Oben auf der Seite kannst du den Fortschritt der Installation verfolgen.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/zZeS7HPy8oxrN6q/preview)
+Nach Abschluss des Vorgangs wird das neue Spiel im Abschnitt „Installierte Spiele“ angezeigt. Du hast erfolgreich ein neues Spiel auf deinem Gameserver installiert.
 
-Bei einer Änderung des Slotpreises werden deine gebuchten Slots automatisch angeglichen. Achtung: Wird der Slotpreis unterhalb des Slotpreises für die installierten Spiele reduziert, so werden diese Spiele gelöscht!
+### Spiel aktivieren und löschen
 
-![](https://screensaver01.zap-hosting.com/index.php/s/PEskmeymgx3cZJH/preview)
+Als letzten Schritt vor dem Spielen musst du das Spiel aktivieren, wodurch es zum aktiven Spiel wird, das auf deinem Spielserver läuft.
 
-Nach einer Slotpreisänderung können alle Spiele bis zu dem gewählten Slotpreis installiert und aktiviert werden.
+Dies kannst du ganz einfach tun, indem du den Abschnitt **Installierte Spiele** aufrufst und auf den blauen Button Aktivieren klickst. Das derzeit aktivierte Spiel erkennst du am grünen Häkchen. Sobald du auf den Button Aktivieren geklickt hast, erscheint eine Aufforderung, die du akzeptieren solltest, um fortzufahren.
+
+![](https://screensaver01.zap-hosting.com/index.php/s/8sftaSqKAGEMmWc/preview)
+
+Dein Server aktiviert das Spiel automatisch und startet den Server während dieses Vorgangs neu. 
+
+Sobald das Spiel bereit ist, wird es aktiviert und du kannst mit dem Spielen deines neuen Spiels beginnen. Du hast ein Spiel auf deinem Gameserver erfolgreich aktiviert.
+
+### Spiel löschen und neu installieren
+
+Das Löschen und Neuinstallieren eines Spiels ist sehr einfach und kann über den Abschnitt **Installierte Spiele** erfolgen.
+
+Wenn du das gewünschte Spiel gefunden hast, klicke auf den orangen Button Neu installieren, um das Spiel neu zu installieren. Dieser Vorgang ist destruktiv und löscht alle Daten, die in diesem bestimmten Spiel gefunden werden, wie z. B. Spielserver oder Konfigurationsoptionen.
+
+![](https://screensaver01.zap-hosting.com/index.php/s/dcRfmJx4q42NqdT/preview)
+
+Wenn du ein Spiel löschen möchtest, kannst du auch jederzeit auf den roten Button Löschen neben dem entsprechenden Spiel im Abschnitt **Installierte Spiele** klicken, um es vom Spielserver zu entfernen.
+
+![](https://screensaver01.zap-hosting.com/index.php/s/LDoHPdjT7y2ioqq/preview)
+
+## Slot-Preis ändern
+
+Bestimmte Spiele in unserer Spielesammlung können unterschiedliche Slot-Preise haben, was möglicherweise dazu führt, dass du bestimmte Spiele nicht installieren kannst. In solchen Fällen musst du deinen Slot-Preis erhöhen und einen Aufpreis zahlen, um diese Spiele wieder zur Installation verfügbar zu machen.
+
+Du kannst dies auf zwei Arten tun: Entweder du klickst oben auf der Seite auf den Button **Spielplatzpreis ändern** oder du suchst zuerst nach Spielen, um die zugehörigen Spielplatzpreise für nicht verfügbare Spiele zu sehen.
+
+Wir empfehlen, zuerst das Dropdown-Menü **Weitere Spiele** zu verwenden, um Spiele zu finden und ihre Spielplatzpreise einfach zu durchsuchen. Wenn du das Spiel gefunden hast, klicke auf den blauen Button Kaufen!
+
+![](https://screensaver01.zap-hosting.com/index.php/s/5kDzyCCcykeHAbA/preview)
+
+Dies öffnet die Eingabeaufforderung für die Anpassung des Spielautomatenpreises, wobei der Spielautomatenpreis für das von dir ausgewählte Spiel bereits ausgefüllt ist. Du kannst den Aufpreis, den du zu diesem Zeitpunkt zahlen musst, sowie den neuen Paketpreis basierend auf der Anpassung des Spielautomatenpreises einsehen. Du kannst hier bei Bedarf auch erneut die Spiele durchsuchen.
+
+![](https://screensaver01.zap-hosting.com/index.php/s/aibdr5yCqp3TK2o/preview)
+
+Wenn du fertig bist, klicke auf den Button Weiter, um die Seite zu aktualisieren und eine Zahlungsmethode zur Deckung der Kosten für den Aufpreis auszuwählen. Wähle die Zahlungsmethode aus und klicke auf den Button Jetzt kaufen, um die Änderung des Slot-Preises abzuschließen.
+
+![](https://screensaver01.zap-hosting.com/index.php/s/HyoLxct4rH3ac22/preview)
+
+Nach erfolgreicher Änderung sollte der gebuchte Slot-Preis für deinen Spielserver die Anpassung widerspiegeln. Du wirst aufgefordert, deinen Server neu zu starten, um sicherzustellen, dass alles abgeschlossen ist.
+
+Du solltest nun in der Lage sein, zum Abschnitt **Verfügbare Spiele** zurückzukehren und das Spiel wie gewohnt zu installieren. Du hast den gebuchten Slot-Preis für deinen Spielserver erfolgreich geändert.

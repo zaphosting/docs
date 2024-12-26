@@ -1,6 +1,6 @@
 ---
 id: dedicated-linux-ssl
-title: "VPS: Create SSL certificate (Lets Encrypt) for Linux server"
+title: "Dedicated Server: Create SSL certificate (Lets Encrypt) for Linux server"
 description: Information on how to create an SSL certificate with Let's Entcrypt for your VPS from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: SSL-Certificate (Lets Encrypt)
 services:
