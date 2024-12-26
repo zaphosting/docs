@@ -11,41 +11,45 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
-Sometimes the default maps a game offer are not exiting enough or get boring after a while. That is the reason some people create customized maps and publish them for others! Do you want to change the map on your server to a custom one from the internet? Then this is the right place for you! 
-
-BeamMP is a multiplayer modification for the single player game BeamNG.drive. Therefore the maps for the base game are also compatible with BeamMP!
-Since BeamNG.drive has a large community, there are also a lot of maps out there! The most popular source for them is the [BeamNG Forum](https://www.beamng.com/resources/categories/terrains-levels-maps.9/).
+BeamNG.Drive has native modding support and a massive community which allows you to expand and enhance the gameplay with your friends. Since BeamMP simply acts as a multiplayer modification, most map addons should be compatible with your BeamMP server. In this guide, we will cover the process of installing and activating a custom map addon on your BeamMP server.
 
 <InlineVoucher />
 
 ## Preperation
 
-To install an addon map to your BeamMP server, you need to connect to it via FTP. You will need an FTP client to upload files to your server. If you are not familiar with using FTP, we recommend you to have a look at the [Access via FTP guide](https://zap-hosting.com/guides/docs/gameserver-ftpaccess).
+To install an addon map to your BeamMP server, you need to connect to it via FTP. If you are not familiar with this, we recommend you to have a look at the [Access via FTP](gameserver-ftpaccess.md) guide.
+
+Before proceeding with installation, you will also have to find maps addons that you wish to install to your server. We recommend browsing the [official BeamNG.Drive Forum](https://www.beamng.com/resources/categories/terrains-levels-maps.9/) which contains a huge library of mods and map addons created by the community. 
+
+:::tip
+Since BeamMP is a multiplayer modification for BeamNG.Drive, most map addons should be compatible with your BeamMP server. However, it is possible that certain specific maps may not function as expected, so you will have to test each map out.
+:::
 
 ## Installation
 
-### Determining map name
+To begin, ensure that you have downloaded an addon map which you aim to add to your server. This should be in a `.zip` file format.
 
-The first step to import the map into your server and also apply it correctly to your configuration file, is to find the correct map name.
-The ZIP archive you download is often already named correctly, but sometimes that is not the case, which is the reason you need to make sure to get the correct map name.
+### Selecting Map Name
 
-To do so, you need to open the downloaded map archive. You need to open the `levels` directory which is inside:
+Before proceeding with further steps, it is important to ensure that the correct map name is being used. The `.zip` file that you have downloaded should typically have the correct name, however this is not always the case which is why you should double check.
+
+To do so, you need to open the downloaded `.zip` file. Inside of the file, locate and open the `levels` directory, which will contain the actual map.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/8cGobQaKBJmexwK/preview)
 
-Then you need to copy the name of the directory found in the levels folder. You can do so by using `RIGHT CLICK`, clicking on `Properties` and copying the highlighted text using `CTRL + C`:
+You need to copy the specific name of the map addon folder found in this directory. You can do so by pressing right-click, selecting the `Properties` option and copying the highlighted text using `CTRL + C`.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/D4AnY5zbfHMgMwR/preview)
 
-### Setting up the config
+### Configuring Map
 
-Now that you have determined the map name, it is time to set up our new map as standard in the configuration file.
+Now that you have determined the map name, you will have to adjust the configuration file and adjust a parameter which contains the active map.
 
 #### Deactivating the config override
 
 First, you need to disable the default map selection in the settings, as it would override your changes.
 
-To do that you need to navigate to the **Settings** section in your Webinterface.
+This can be done easily by navigating to the **Settings** section in your game server's web interface panel.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/SJ5L6APTFzyZKTC/preview)
 
@@ -61,11 +65,12 @@ To change the map in the config you first need to navigate to the **Configs** se
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/sBj4CFQ3yKmMy8d/preview)
 
-Then you open the `ServerConfig.toml` and search for the value `Map = "/levels/gridmap_v2/info.json"`.
+Find and open the `ServerConfig.toml` configuration file and search for the line:
+`Map = "/levels/gridmap_v2/info.json"`
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/JQg3EzkszXDrGFQ/preview)
 
-After that, you replace the value with `Map = "/levels/[your_mapname]/info.json"` using the map name we determined earlier and then save the config:
+After that, you replace the value with `Map = "/levels/[your_mapname]/info.json"` using the map name we determined earlier and then save the config.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/oNKN34KTAxrSxYX/preview)
 
@@ -73,23 +78,22 @@ After that, you replace the value with `Map = "/levels/[your_mapname]/info.json"
 In rare cases, a map can be formatted differently. If the map doesn't work after following all the steps, it is possible that instead of `Map = "/levels/[your_mapname]/info.json"`, you need to specify this path: `Map = "/levels/[your_mapname]/[your_mapname].mis"`
 :::
 
-### Uploading the map to the server
-
-For the final step, you just need to upload the ZIP Archive containing the map via FTP to your server.
-You need to put it in the following path:
-
-```
-/gXXXXXX/beammp/Resources/Client
-```
-
 :::tip
-If you want to switch to one of the game's default maps, you can just enable the option in the settings again and choose one of them:
+At any time, you can utilise the game's default maps simply by enabling the option in the settings again and choosing one of them:
 ![](https://screensaver01.zap-hosting.com/index.php/s/8SSceQj373GQ3sw/preview)
 :::
 
+### Uploading Map 
+
+As a final step, you will need to upload the `.zip` file you downloaded previously containing the map to your BeamMP game server via FTP. Once again, please use our [Access via FTP](gameserver-ftpaccess.md) guide if you need assistance with this.
+
+Locate the following path in your FTP client.
+```
+../beammp/Resources/Client
+```
+
+Simply drag and drop the map addon `.zip` file into this location to upload the map to your server. With the configuration file edited and the map files uploaded, your map addon should be ready for use.
+
 ## Conclusion
 
-After you followed all the steps, proceed to restart your BeamMP server. You have successfully installed an addon map on your BeamMP game server!
-
-
-
+After you followed all the steps, proceed to restart your BeamMP server. You have successfully installed an addon map on your BeamMP game server. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
