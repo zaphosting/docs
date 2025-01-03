@@ -86,14 +86,14 @@ Installing the screen utility is as easy as running the following command based 
 
 ## Basic Screen Usage
 
-:::note 
-All commands in this guide are case sensitive.
-:::
-
 As previously mentioned screen allows users to create multiple sessions. To start one you simply need to run the following command, replacing `[name]` with anything you wish.
 ```
 screen -S [name]
 ```
+
+:::info
+Keep in mind that the commands presented in this guide are case sensitive, particularly regarding any parameter flags.
+:::
 
 This will then open up a new screen where you can start any script or program you want to keep running even after closing the remote connection.
 
