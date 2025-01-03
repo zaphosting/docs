@@ -9,7 +9,7 @@ services:
 
 ## Introduction
 
-Screen is a terminal multiplexer for Unix-like operating systems, like Linux. It allows users to manage multiple terminal sessions within a single window or remote connection.
+Screen is a terminal multiplexer for Unix-like operating systems, like Linux. It allows users to manage multiple terminal sessions within a single window or remote connection. In this guide, we will cover the installation steps and provide usage guidance to make you more familiar with screen.
 
 ## Prerequisites
 
@@ -88,72 +88,66 @@ Installing the screen utility is as easy as running the following command based 
 
 :::note 
 All commands in this guide are case sensitive.
+:::
 
-As previously mentioned screen allows users to create multiple sessions. To start one you just need to run:
-
+As previously mentioned screen allows users to create multiple sessions. To start one you simply need to run the following command, replacing `[name]` with anything you wish.
 ```
 screen -S [name]
 ```
 
-:::tip
-You can replace the `[name]` atribute with whatever you want. Just make sure you remember it for later.
-
-:::note
 This will then open up a new screen where you can start any script or program you want to keep running even after closing the remote connection.
 
-To exit this screen we need to press the following key combination: `ctrl-a` then `d` or just type `exit` in the console.
+You can exit a screen by using `CTRL + A`, followed by `D` or simply by typing `exit` in the console as a command.
 
-:::tip 
-If you want to keep tabs on all open screens you can run the `screen -ls` or `screen -list` commands.
+:::tip
+You can browse all active sessions/screens by using the `screen -ls` or `screen -list` command.
+:::
 
-Returning to our previously created screen is as easy as executing `screen -r [name]` in the console.
+To return back to a previously created screen, you can execute the `screen -r [name]` command which will instantly take you back to the relevant screen.
 
-## Screen `-` flags
+## Screen Parameter Flags
 
-Screen has many `-` flags you can use to configure the commands. These are the most important:
+Screen has many `-` parameter flags you can use to configure the commands. Some of the most important ones are listed below in the table.
 
 | Flag | Alias | Info |
 | ---- | ----- | ---- |
 | -v   | | Shows the current version of screen |
 | -S `[name]` | | Starts a new screen called `[name]` |
 | -ls | -list | Lists all running screens |
-| -wipe | | Same effect as 
+| -wipe `[name]` | | Delete screens with optional `[name]` parameter
 | -r `[name]` | | Reattach to the `[name]` screen session |
 | -d -r `[name]` | | Detach from your current screen and reattach to [name] |
 
-:::note 
-For all `-` flags you can run the `screen -h` command.
+:::tip
+You can browse all of the available parameters by running `screen -h` which will return a comprehensive list.
+:::
 
 ## Advanced Screen Usage
 
-### Basic windows usage
+### Window Usage
 
 Now that you've familiarized yourself with the basic commands of screens it's time to learn some shortcuts to help you navigate through your sessions more effectively. Inside any screen you can create multiple separate windows for different tasks.
 
 :::note 
-All of the shortcuts in this part of the guide need to be ran after pressing `ctrl+a`.
+All of the shortcuts in this part of the guide need to be ran after pressing `CTRL + A`.
+:::
 
-Pressing `c` will create a new empty window in your current directory. To navigate between windows you can run `n` (next) or `p` (previous) or `"` and selecting the window you want to see from the list with arrow keys.
+Pressing `C` will create a new empty window in your current directory. To navigate between windows you can run `N` (next) or `P` (previous) or `"` and selecting the window you want to see from the list with arrow keys.
 
 By default all windows will have the same name (usually the name of the shell you're using). To change it run the `A` command and pick a new name. 
 
-And finally to delete a window you can press `k`.
+And finally to delete a window you can press `K`.
 
-#### Split windows
+#### Split Windows
 
 To run 2 windows in a split configuration you can run `S` (horizontal) or `|` (vertical) and navigate between them using `Tab`. 
 
 :::tip
 After creating a new split window go to it using `Tab` and run `"` to open a previous window in the 2nd view of the split.
+:::
 
-:::note
-You can keep splitting these windows as much as you want but the server's RAM usage might increase exponentially.
+You can keep splitting these windows as much as you wish but the server's RAM usage might increase exponentially as you would expect when multi-tasking.
 
 ## Conclusion
 
 We hope this guide was helpful in teaching you how the screen utility works in Linux. If you have any further questions or problems, please contact our support team, who are available to help you every day! 
-
-
-
-
-
