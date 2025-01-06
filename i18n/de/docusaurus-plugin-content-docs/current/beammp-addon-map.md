@@ -45,7 +45,23 @@ Du musst den spezifischen Namen des Addon Maps Ordners in diesem Verzeichnis kop
 
 Nachdem du den Mapnamen bestimmt hast, musst du die Konfigurationsdatei und einen Parameter anpassen, der die aktive Map enthält.
 
-Dies kann ganz einfach durch Navigieren zum Abschnitt **Configs** im Webinterface deines Gameservers erfolgen.
+#### Deaktivieren der Standartmap-Einstellung
+
+Bevor du den Mapnamen in der Config anpassen kannst, musst du die Standartmap-Auswahl in den Einstellungen deaktivieren, da die Configänderung sonst überschrieben wird.
+
+Dies kann ganz einfach durch Navigieren zum Abschnitt **Einstellungen** im Webinterface deines Gameservers erfolgen.
+
+![](https://screensaver01.zap-hosting.com/index.php/s/92J8Qn2QcRjEx3G/preview)
+
+Dort deaktivierst du dann die Option "Karte".
+
+![](https://screensaver01.zap-hosting.com/index.php/s/QDm6Ma6mArSPAGN/preview)
+
+Als nächstes speicherst du die Einstellungen am Ende der Seite.
+
+#### Ändern der Map in der Config
+
+Nun musst du zur **Configs** Seite im Webinterface wechseln.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/QnQHKiaG6oia3qJ/preview)
 
@@ -64,22 +80,8 @@ In seltenen Fällen kann eine Map unterschiedlich formatiert sein. Wenn die Map 
 :::
 
 :::tip
-Du kannst jederzeit die Standardmaps des Spiels verwenden, indem du die Konfigurationsdatei erneut bearbeitest. Unten findest du eine Liste der aktuellen Standardmaps.
-```
-"/levels/gridmap/info.json"
-"/levels/automation_test_track/info.json"
-"/levels/east_coast_usa/info.json"
-"/levels/hirochi_raceway/info.json"
-"/levels/italy/info.json"
-"/levels/jungle_rock_island/info.json"
-"/levels/industrial/info.json"
-"/levels/small_island/info.json"
-"/levels/smallgrid/info.json"
-"/levels/utah/info.json"
-"/levels/west_coast_usa/info.json"
-"/levels/driver_training/info.json"
-"/levels/derby/info.json"
-```
+Du kannst jederzeit die Standardmaps des Spiels verwenden, indem du die Einstellung einfach wieder aktivierst und eine der Maps auswählst:
+![](https://screensaver01.zap-hosting.com/index.php/s/5yii3i9PA4ADA8G/preview)
 :::
 
 ### Map hochladen
