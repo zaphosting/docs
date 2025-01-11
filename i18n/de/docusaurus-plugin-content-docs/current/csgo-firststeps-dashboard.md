@@ -10,6 +10,12 @@ services:
 import YouTube from '@site/src/components/YouTube/YouTube';
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
+:::warning Archiviert - Ursache im Folgenden
+Dieses Dokument wurde archiviert. Dokumente werden archiviert, wenn sie nicht mehr relevant, nicht mehr korrekt oder nicht mehr auf dem neuesten Stand sind. Es wurde aus den folgenden Gründen archiviert:
+
+Grund: CS:GO wird nicht mehr aktiv angeboten und nicht mehr weiterentwickelt. CS2 ist der Nachfolger von CS:GO. Wir empfehlen den Umstieg auf CS2.
+::::
+
 ## Einführung
 
 Du bist an einem **Counter-Strike: Global Offensive Server** interessiert oder besitzt bereits einen, doch dir fehlt noch ein umfassender Überblick über die Verwaltung und die Auffindbarkeit aller notwendigen Optionen? Gerade zu Beginn kann dies eine Herausforderung darstellen. Aber keine Sorge, im Folgenden bieten wir dir eine ausführliche Einführung zur Verwaltung deines Dienstes, damit du den optimalen Durchblick hast.
