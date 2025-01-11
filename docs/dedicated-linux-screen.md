@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-screen
-title: "Installation of Screen"
-description: Information on how to install screen on your Linux server from ZAP-Hosting - ZAP-Hosting.com documentation
+title: "Dedicated Server: Installation of Screen"
+description: Information on how to install screen on your Linux Dedicated Server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Install Screen
 services:
   - dedicated
@@ -150,4 +150,4 @@ You can keep splitting these windows as much as you wish but the server's RAM us
 
 ## Conclusion
 
-We hope this guide was helpful in teaching you how the screen utility works in Linux. If you have any further questions or problems, please contact our support team, who are available to help you every day! 
+We hope this guide was helpful in teaching you how the screen utility works in Linux. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
