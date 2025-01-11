@@ -1,7 +1,7 @@
 ---
 id: redm-licensekey
-title: "RedM: Add your own license key (Patreon) to the server"
-description: Information on how to create your own custom license key (from Patreon) and add it to your RedM server from ZAP-Hosting - ZAP-Hosting.com documentation
+title: "RedM: Add Custom License Key"
+description: Information on creating a custom license key and adding it to your RedM server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Own License Key
 services:
   - gameserver
@@ -11,42 +11,61 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
-An own license key is necessary, especially if you want to access features like Onesync, colored server names, and other exclusive benefits available through [RedM Patreon](https://www.patreon.com/fivem/posts). Additionally, you may require a custom license key if you need to change the listed server owner or if an error occurs indicating that the automatically generated ZAP key is invalid.
+By default, your RedM Game Server will come with an automatically generated license key. Adjusting this and utilising your own RedM license key can be beneficial for various reasons including accessing your RedM element club subscription benefits such as Onesync, changing the server owner to your name and much more. In this guide, we will cover the process of creating and adding your own license key to your RedM Game Server.
 
 <InlineVoucher />
 
 ## Preparation
 
-To create your own license key, you should first login to the [Cfx.re Keymaster website](https://keymaster.fivem.net). If you do not have an existing Cfx.re Forum account, you must create one in order to to be able to login and proceed. 
+To begin with the key creation process, you must head over to the official **[Cfx.re Portal](https://portal.cfx.re/)** website and login with your Cfx.re Forum account. If you do not have an account yet, you can select the register option to create a new one.
 
-![](https://github.com/zaphosting/docs/assets/42719082/4c5bd4d9-ea1a-49aa-b70c-b5d7f07682c2)
+![](https://screensaver01.zap-hosting.com/index.php/s/j5onRjCSN42dbie/preview)
 
-After you are logged in, click on the **New server** button on the left navigation bar, which will take you to the key creation page:
+:::info New Cfx.re Portal
+The Cfx.re Portal is the new home for everything RedM related, replacing the old RedM Keymaster and Patreon solutions. On this new portal, you can now manage your server license keys, access any assets you have purchased and manage your RedM subscription all in one place.
 
-![](https://github.com/zaphosting/docs/assets/42719082/8562c10c-3453-4fb8-bb1f-ed65219580a9)
-
-
-
-## Generate Key
-
-Once you have provided all of the necessary information, you should be able to generate a key. Your page should look similar to below. Now, press the **Generate** button and a key will be created.
-![](https://screensaver01.zap-hosting.com/index.php/s/oszSwCxqs43BWDa/preview)
-
-Return back to the home page, and you will be able to see your newly registered license key.
-
-## Configure Key
-
-Finally, you must head over to the **Settings** section on your game server's webinterface, and head over to the **Custom license key** field. In this field, paste the code that was generated.
-
-![](https://github.com/zaphosting/docs/assets/42719082/c0475d70-bed9-4eaa-8d4c-c7cf121703d5)
-
-:::info
-**For txAdmin:**
-If you are using txAdmin version of the game server, you must instead define the key under the `sv_licensekey` parameter. You can access your `server.cfg` file either via your txAdmin interface panel, the **Configs** section on your game server's webinterface or directly through FTP access.
+We highly recommend reading the [official blog post](https://forum.cfx.re/t/introducing-the-cfx-re-portal/5287316/) for information about migrating Patreon subscriptions to the new Cfx.re Portal to maintain your benefits.
 :::
 
+## Generating License Key
 
+Once logged in to the portal, navigate to the **Servers** section via the top navigation bar to access the main key management area. This replaces the legacy RedM Keymaster website in a nice all-in-one portal. You can also refresh any license key by using the **Re-Activate** option on this page.
+
+Select the **Generate Key** button to open the registration prompt.
+
+![](https://screensaver01.zap-hosting.com/index.php/s/JQ6dkNHZcBD4e4B/preview)
+
+Into the prompt enter a useful name for the key to help you easily identify it in the future. Select the generate button once ready.
+
+![](https://screensaver01.zap-hosting.com/index.php/s/3cYyRo7pgzQraz2/preview)
+
+You should now see a new entry in the table with a key that you have just generated. Copy the key using the action buttons on the right-hand side and keep this ready for the next section.
+
+![](https://screensaver01.zap-hosting.com/index.php/s/3Hd8tQqJA4xPKWk/preview)
+
+## Adding Key to Server
+
+With the license key now prepared, you will now have to adjust the existing license key on your RedM game server and replace it with the newly created key. If you are utilising the **txAdmin RedM** game version, you should utilise the [dedicated txAdmin](#txadmin-RedM-version) section, as the instructions are slightly different.
+
+### General RedM Servers
+
+The easiest way to set your own custom license key is through the **Settings** section on the web interface panel. You could also adjust the `server.cfg` file manually through FTP or via the **Configs** section on the web interface, but we recommend and thus present the easier option below.
+
+Head over to your RedM game server's web interface panel and head over to the **Settings** section on the left-hand side. Browse the page and find the **Custom License Key** field. Place your custom license key into there and press the green save button to confirm the changes.
+
+![](https://screensaver01.zap-hosting.com/index.php/s/J6BY5k4B2jAabFw/preview)
+
+
+### txAdmin RedM Version
+
+For readers using the **RedM: txAdmin** game version, you will have to access the txAdmin panel for your RedM game server to perform the necessary adjustments. This can be found on your game server's web interface dashboard. Use the credentials on the page to login to the panel.
+
+![](https://screensaver01.zap-hosting.com/index.php/s/yNLQrfrDrAYHcEY/preview)
+
+Once on the txAdmin interface, navigate to the **CFG Editor** on the left-hand side to access the `server.cfg` file. In the editor, find the line with the `sv_licensekey` parameter and edit this with your custom license key. Press the save button once done to save the changes.
+
+![](https://screensaver01.zap-hosting.com/index.php/s/2E8j9jtykcjwF7L/preview)
 
 ## Conclusion
 
-After you have set your custom license key, proceed to restart your RedM server. You have successfully set a custom license key for your RedM game server!
+After you have setup the custom license key, restart your server to start utilising it. You have successfully added a custom license key to your RedM game server.

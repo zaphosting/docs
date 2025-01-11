@@ -1,7 +1,7 @@
 ---
 id: redm-licensekey
-title: "RedM: Fügen deinen eigenen Lizenzschlüssel (Patreon) zum Server hinzu"
-description: Informationen, wie du deinen eigenen Lizenzschlüssel (von Patreon) erstellen und zu deinem FiveM Server von ZAP-Hosting hinzufügen kannst - ZAP-Hosting.com Dokumentation
+title: "RedM: Benutzerdefinierten Lizenzschlüssel hinzufügen"
+description: Informationen zur Erstellung eines benutzerdefinierten Lizenzschlüssels und zum Hinzufügen zu deinem RedM-Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Eigener Lizenzschlüssel
 services:
   - gameserver
@@ -9,45 +9,62 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
-## Einführung
+## Einleitung
 
-Ein eigener Lizenzschlüssel ist notwendig, vor allem, wenn du Features wie Onesync, farbige Servernamen und andere exklusive Vorteile über FiveM Patreon nutzen möchtest. Außerdem brauchst du vielleicht einen benutzerdefinierten Lizenzschlüssel, wenn du den eingetragenen Serverbesitzer ändern willst oder eine Fehlermeldung bekommst, dass der automatisch generierte ZAP-Schlüssel ungültig ist.
+Standardmäßig wird dein RedM Game Server mit einem automatisch generierten Lizenzschlüssel geliefert. Wenn du diesen anpasst und deinen eigenen RedM Lizenzschlüssel verwendest, kann das aus verschiedenen Gründen von Vorteil sein, z.B. um auf die Vorteile deines RedM Element Club-Abonnements wie Onesync zuzugreifen, den Serverbesitzer auf deinen Namen zu ändern und vieles mehr. In dieser Anleitung erklären wir dir, wie du deinen eigenen Lizenzschlüssel für deinen RedM Game Server erstellst und hinzufügst.
 
 <InlineVoucher />
 
 ## Vorbereitung
 
-Um deinen eigenen Lizenzschlüssel zu erstellen, musst du dich zunächst auf der [Cfx.re Keymaster Webseite](https://keymaster.fivem.net) anmelden. Wenn du kein bestehendes Cfx.re Forum-Konto hast, musst du eines erstellen, um dich anmelden und fortfahren zu können.
+Um mit der Schlüsselerstellung zu beginnen, musst du auf die offizielle **[Cfx.re Portal](https://portal.cfx.re/)** Website gehen und dich mit deinem Cfx.re Forum-Account anmelden. Wenn du noch kein Konto hast, kannst du die Option Registrieren wählen, um ein neues Konto zu erstellen.
 
-![](https://github.com/zaphosting/docs/assets/42719082/4c5bd4d9-ea1a-49aa-b70c-b5d7f07682c2)
+![](https://screensaver01.zap-hosting.com/index.php/s/j5onRjCSN42dbie/preview)
 
-Nachdem du eingeloggt bist, klicke auf den Button **Neuer Server** in der Navigationsleiste links, der dich zur Seite für die Erstellung des Schlüssels führt:
+:::info Neues Cfx.re Portal
+Das Cfx.re Portal ist das neue Zuhause für alles, was mit RedM zu tun hat. Es ersetzt die alten Lösungen RedM Keymaster und Patreon. Auf diesem neuen Portal kannst du jetzt deine Serverlizenzschlüssel verwalten, auf alle gekauften Assets zugreifen und dein RedM-Abonnement verwalten - alles an einem Ort.
 
-
+Wir empfehlen dir, den [offiziellen Blog-Beitrag](https://forum.cfx.re/t/introducing-the-cfx-re-portal/5287316/) zu lesen, um zu erfahren, wie du deine Patreon-Abonnements auf das neue Cfx.re-Portal umstellen kannst, um deine Vorteile zu erhalten.
+:::
 
 ## Lizenzschlüssel generieren
 
-Sobald du alle notwendigen Informationen eingegeben hast, solltest du in der Lage sein, einen Lizenzschlüssel zu generieren. Deine Seite sollte ungefähr so aussehen wie unten. Klicken nun auf den Button **Generieren** und es wird ein Lizenzschlüssel erstellt.
+Wenn du im Portal eingeloggt bist, navigiere über die obere Navigationsleiste zum Abschnitt **Server**, um den Hauptbereich für die Schlüsselverwaltung aufzurufen. Dieser ersetzt die alte RedM Keymaster-Website in einem übersichtlichen All-in-One-Portal. Du kannst auch jeden Lizenzschlüssel aktualisieren, indem du die Option **Re-Aktivieren** auf dieser Seite nutzt.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/oszSwCxqs43BWDa/preview)
+Wähle den Button **Schlüssel generieren**, um die Registrierungsaufforderung zu öffnen.
 
-Kehre zur Startseite zurück, und der neu registrierte Lizenzschlüssel wird dir angezeigt.
+![](https://screensaver01.zap-hosting.com/index.php/s/JQ6dkNHZcBD4e4B/preview)
 
+Gib in die Eingabeaufforderung einen sinnvollen Namen für den Schlüssel ein, damit du ihn in Zukunft leichter identifizieren kannst. Klicke auf den Button Erzeugen, sobald du fertig bist.
 
+![](https://screensaver01.zap-hosting.com/index.php/s/3cYyRo7pgzQraz2/preview)
 
-## Lizenzschlüssel hinzufügen
+In der Tabelle sollte nun ein neuer Eintrag mit einem Schlüssel erscheinen, den du gerade erzeugt hast. Kopiere den Schlüssel über die Aktionsschaltflächen auf der rechten Seite und halte ihn für den nächsten Abschnitt bereit.
 
-Abschließend musst du im Webinterface deines Gameservers zum Bereich **Einstellungen** navigieren und dort das Feld **Benutzerdefinierter Lizenzschlüssel** aufrufen. Füge in dieses Feld den generierten Code ein.
+![](https://screensaver01.zap-hosting.com/index.php/s/3Hd8tQqJA4xPKWk/preview)
 
-![](https://github.com/zaphosting/docs/assets/42719082/5e2f3fce-0f34-4401-8003-ecdcd1e175ce)
+## Schlüssel zum Server hinzufügen
 
-:::info
-**Für txAdmin:**
-Wenn du die txAdmin-Version des Gameservers verwendest, musst du stattdessen den Schlüssel unter dem Parameter `sv_licensekey` definieren. Du kannst auf deine `server.cfg` Datei entweder über dein txAdmin Interface Panel, den Bereich **Configs** auf dem Webinterface deines Gameservers oder direkt über einen FTP Zugang zugreifen.
-:::
+Nachdem du den Lizenzschlüssel vorbereitet hast, musst du nun den bestehenden Lizenzschlüssel auf deinem RedM Gameserver anpassen und durch den neu erstellten Schlüssel ersetzen. Wenn du die Spielversion **txAdmin RedM** verwendest, solltest du den Abschnitt [dedicated txAdmin](#txadmin-RedM-version) verwenden, da die Anweisungen etwas anders sind.
 
+### Allgemeine RedM Server
 
+Der einfachste Weg, einen eigenen Lizenzschlüssel festzulegen, ist der Abschnitt **Einstellungen** in der Weboberfläche. Du könntest die Datei `server.cfg` auch manuell per FTP oder über den Bereich **Configs** im Webinterface anpassen, aber wir empfehlen dir die einfachere Variante und stellen sie daher im Folgenden vor.
+
+Rufe das Webinterface deines RedM-Spielservers auf und gehe zum Abschnitt **Einstellungen** auf der linken Seite. Durchsuche die Seite und finde das Feld **Benutzerdefinierter Lizenzschlüssel**. Gib deinen benutzerdefinierten Lizenzschlüssel dort ein und bestätige die Änderungen mit einem Klick auf den grünen Speichern-Button.
+
+![](https://screensaver01.zap-hosting.com/index.php/s/8SAf9yD4ztbEbZz/preview)
+
+### txAdmin RedM Version
+
+Für Leser, die die Spielversion **RedM: txAdmin** verwenden, musst du auf das txAdmin-Panel deines RedM-Spielservers zugreifen, um die notwendigen Anpassungen vorzunehmen. Dieses findest du auf dem Dashboard der Weboberfläche deines Spieleservers. Verwende die Anmeldedaten auf der Seite, um dich in das Panel einzuloggen.
+
+![](https://screensaver01.zap-hosting.com/index.php/s/2Rjx8sCFG6eteMD/preview)
+
+Auf der txAdmin-Oberfläche navigierst du zum **CFG-Editor** auf der linken Seite, um auf die Datei `server.cfg` zuzugreifen. Suche im Editor die Zeile mit dem Parameter `sv_licensekey` und füge dort deinen eigenen Lizenzschlüssel ein. Klicke anschließend auf den Button Speichern, um die Änderungen zu speichern.
+
+![](https://screensaver01.zap-hosting.com/index.php/s/2E8j9jtykcjwF7L/preview)
 
 ## Abschluss
 
-Nachdem du deinen individuellen Lizenzschlüssel gesetzt hast, kannst du deinen RedM Server neu starten. Du hast erfolgreich einen individuellen Lizenzschlüssel für deinen RedM Gameserver gesetzt!
+Nachdem du den benutzerdefinierten Lizenzschlüssel eingerichtet hast, starte deinen Server neu, um ihn zu nutzen. Du hast erfolgreich einen benutzerdefinierten Lizenzschlüssel zu deinem RedM Gameserver hinzugefügt.
