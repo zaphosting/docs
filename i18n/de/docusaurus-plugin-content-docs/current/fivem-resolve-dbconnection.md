@@ -50,15 +50,15 @@ Gehe in einem anderen Tab zum Bereich **Tools->Datenbanken**, wo du deine besteh
 Füge in deine Datei `server.cfg` die folgende Zeile ein (oder  ersetze sie, falls sie bereits existiert) und füge die Details mit deinen eigenen Datenbankzugangsdaten aus dem Webinterface ein.
 
 ```
-set mysql_connection_string "user=root;password=12345;host=localhost;port=3306;database=fivem"
+set mysql_connection_string "mysql://USER:PASSWORD@SERVER:PORT/DATABASE"
 ```
 
-:::tip
-Die Server/IP Adresse sollte in den `host` Abschnitt und der `port` sollte auf 3306 belassen werden.
-:::
+![](https://screensaver01.zap-hosting.com/index.php/s/sf9sMJoZyJttHBE/preview)
 
-Wenn du das erledigt hast, speichere die Datei und starte deinen Server neu.
+Sobald dies abgeschlossen wurde, speichere die Datei und starte deinen Server neu.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/MdanaTBPGLnkQX5/preview)
 
-Wenn der Server das nächste Mal startet, sollte dein Server wieder auf deine Datenbank zugreifen können und somit voll funktionsfähig sein. Du hast die Probleme mit der Datenbankverbindung erfolgreich behoben.
+
+## Abschluss
+
+Wenn der Server das nächste Mal startet, sollte dein Server wieder auf deine Datenbank zugreifen können und somit voll funktionsfähig sein. Du hast die Probleme mit der Datenbankverbindung erfolgreich behoben. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
