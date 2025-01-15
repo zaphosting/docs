@@ -452,5 +452,17 @@
   "theme.blog.author.noPosts": {
     "message": "This author has not written any posts yet.",
     "description": "The text for authors with 0 blog post"
+  },
+  "service.fivemupvotes.title": {
+    "message": "Discord Bot",
+    "description": "Product name for the storage product"
+  },
+  "service.fivemupvotes.path": {
+    "message": "{marketingSite}/{language}/shop/product/cloud-gameserver/discord-bot/",
+    "description": "URL path for the storage product"
+  },
+  "service.fivemupvotesburst.title": {
+    "message": "FiveM Upvotes BURST",
+    "description": "Product name for the storage product"
   }
 }
