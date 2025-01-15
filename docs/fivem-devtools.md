@@ -9,6 +9,18 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
+
+
+:::warning Archived - Reason
+
+This document has been archived. Documents are archived if they are no longer relevant, incorrect or up to date. It has been archived for the following reasons:
+
+**Reason**: Obsolete feature that is no longer used.
+
+::::
+
+
+
 <InlineVoucher />
 
 To activate the devtools in FiveM we first have to open our FiveM client and open the settings:
