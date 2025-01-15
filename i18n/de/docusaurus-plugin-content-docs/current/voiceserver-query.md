@@ -7,6 +7,8 @@ services:
   - voiceserver
 ---
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
@@ -18,8 +20,8 @@ Der Query-Login von TeamSpeak ermöglicht dir den Zugriff auf das Server Query I
 
 
 :::warning Server Admin Query Zugriff
-
 Unsere Teamspeak Server Produkte beinhalten keinen Server Admin Query Zugang.
+:::
 
 <InlineVoucher />
 
@@ -57,6 +59,7 @@ Die Server IP, der Query Port und der Server Port können auf dem Dashboard im W
 ![](https://screensaver01.zap-hosting.com/index.php/s/RGsk8wfBkoCPzA4/preview)
 
 </TabItem>
+
 <TabItem value="self_hosted" label="Self hosted (vRootserver/Dedicated Server)">
 
 Wurde der Teamspeak-Server auf dem eigenen VPS oder Root-Server über das Webinterface installiert, so kann die normale „Server Admin Query“ verwendet werden. 
@@ -64,8 +67,6 @@ Die Zugangsdaten findest du im Webinterface deiner Teamspeak-Instanz.
 
 </TabItem>
 </Tabs>
-
-
 
 ## Query zugreifen
 
@@ -76,9 +77,7 @@ Gebe die bereitgestellten/selbst erstellten Zugangsdaten für dein Query Login u
 
 
 :::warning Benutzerdefinierter Query Port Error
-
 Standardmäßig sollte nach einer Erstinstallation ein Fehler auftreten, wenn du einen anderen Port als den Standard-Abfrageport angibst. Dies ist normal und kann wie folgt gelöst werden:
-
 ![img](https://screensaver01.zap-hosting.com/index.php/s/3mofjG5RKPM9yBW/download)
 :::
 

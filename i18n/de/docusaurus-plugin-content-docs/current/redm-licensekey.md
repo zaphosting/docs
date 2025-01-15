@@ -45,7 +45,7 @@ In der Tabelle sollte nun ein neuer Eintrag mit einem Schlüssel erscheinen, den
 
 ## Schlüssel zum Server hinzufügen
 
-Nachdem du den Lizenzschlüssel vorbereitet hast, musst du nun den bestehenden Lizenzschlüssel auf deinem RedM Gameserver anpassen und durch den neu erstellten Schlüssel ersetzen. Wenn du die Spielversion **txAdmin RedM** verwendest, solltest du den Abschnitt [dedicated txAdmin](#txadmin-RedM-version) verwenden, da die Anweisungen etwas anders sind.
+Nachdem du den Lizenzschlüssel vorbereitet hast, musst du nun den bestehenden Lizenzschlüssel auf deinem RedM Gameserver anpassen und durch den neu erstellten Schlüssel ersetzen. Wenn du die Spielversion **txAdmin RedM** verwendest, solltest du den Abschnitt [dedicated txAdmin](#txadmin-redm-version) verwenden, da die Anweisungen etwas anders sind.
 
 ### Allgemeine RedM Server
 

@@ -132,6 +132,7 @@ const sidebars = {
     "gameserver-introduction",
     "gameserver-backups",
     "gameserver-ftpaccess",
+    "gameserver-scheduled-tasks",
     "gameserver-reset",
     "gameserver-resourcelimit",
     "gameserver-gameswitch",
@@ -180,7 +181,6 @@ const sidebars = {
             "fivem-mastodon",
             "fivem-prohibited-resources",
             "fivem-notlisted",
-            "fivem-devtools",
             "fivem-gamebuild",
             "fivem-gamechange",
             "fivem-steam-web-api-key",
@@ -207,13 +207,9 @@ const sidebars = {
           type: "category",
           label: "ESX",
           items: [
-            "fivem-esx-disableinventory",
-            "fivem-esx-changemoneyicon",
             "fivem-esx-becomeadminoverdatabase",
-            "fivem-esx-disablehud",
             "fivem-esx-addcarstoshop",
             "fivem-esx-changejobgarages",
-            "fivem-esx-changerespawnpoint",
             "fivem-editlocalfiles"
           ]
         },
@@ -310,13 +306,6 @@ const sidebars = {
         "scp-pastebin",
         {
           type: "category",
-          label: "ServerMod",
-          items: [
-            "scpservermod-uploadplugins",
-          ]
-        },
-        {
-          type: "category",
           label: "Exiled",
           items: [
             "exiled-plugins"
@@ -371,13 +360,13 @@ const sidebars = {
           label: "First Steps",
           items: [
             "palworld-firststeps-dashboard",
+            "palworld-connect"
           ]
         },
         "palworld-configuration",
         "palworld-server-commands",
         "palworld-server-savegames",
         "palworld-server-modding",
-        "palworld-connect",
         "palworld-admin",
         "palworld-rcon"
       ],
@@ -802,37 +791,6 @@ const sidebars = {
     },
     {
       type: "category",
-      label: "CS:GO",
-      items: [
-        {
-          type: "category",
-          label: "First Steps",
-          items: [
-            "csgo-firststeps-dashboard",
-            "csgo-configuration",
-          ]
-        },
-        {
-          type: "category",
-          label: "Configuration & Administration",
-          items: [
-            "csgo-gotv",
-            "source-custom-content"
-          ]
-        },
-        {
-          type: "category",
-          label: "Sourcemod / Metamod",
-          items: [
-            "source-metamod-installation",
-            "source-metamod-addadmins",
-            "source-metamod-plugins"
-          ]
-        }, 
-      ],
-    },
-    {
-      type: "category",
       label: "CS:S",
       items: [
         {
@@ -1042,16 +1000,18 @@ const sidebars = {
             "fivem-rcon",
             "fivem-licensekey",
             "fivem-deletecache",
+            "fivem-resolve-dbconnection",
             "fivem-useprofiler",
             "fivem-mastodon",
             "fivem-prohibited-resources",
             "fivem-notlisted",
-            "fivem-devtools",
             "fivem-gamebuild",
             "fivem-gamechange",
             "fivem-steam-web-api-key",
             "fivem-whitelist",
-            "fivem-locale"
+            "fivem-locale",
+            "fivem-optimize-textures",
+            "fivem-proxy"
           ]
         },
         {
@@ -1071,13 +1031,9 @@ const sidebars = {
           type: "category",
           label: "ESX",
           items: [
-            "fivem-esx-disableinventory",
-            "fivem-esx-changemoneyicon",
             "fivem-esx-becomeadminoverdatabase",
-            "fivem-esx-disablehud",
             "fivem-esx-addcarstoshop",
             "fivem-esx-changejobgarages",
-            "fivem-esx-changerespawnpoint",
             "fivem-editlocalfiles"
           ]
         },
@@ -1567,14 +1523,14 @@ const sidebars = {
           type: "category",
           label: "First Steps",
           items: [
-            "palworld-firststeps-dashboard"
+            "palworld-firststeps-dashboard",
+            "palworld-connect",
           ]
         },
         "palworld-configuration",
         "palworld-server-commands",
         "palworld-server-savegames",
         "palworld-server-modding",
-        "palworld-connect",
         "palworld-admin"
       ],
     },
@@ -1652,7 +1608,7 @@ const sidebars = {
             "redm-deletecache",
             "redm-gamebuild",
             "redm-steam-web-api-key",
-            "redm-locale"
+            "redm-locale",
           ]
         },
         {
@@ -1662,7 +1618,15 @@ const sidebars = {
             "redm-installresources",
             "redm-sql-file-import"
           ]
-        }
+        },
+        {
+          type: "category",
+          label: "txAdmin",
+          items: [
+            "redm-txadmin-setup",
+            "redm-txadmin-features",
+          ]
+        },
       ],
     },
     {
@@ -1716,6 +1680,19 @@ const sidebars = {
           label: "First Steps",
           items: [
             "riskofrain2-firststeps-dashboard",
+          ]
+        },
+      ],
+    },
+    {
+      type: "category",
+      label: "Rising World",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "risingworld-firststeps-dashboard",
           ]
         },
       ],
@@ -1786,13 +1763,6 @@ const sidebars = {
         "scp-newroles",
         "scp-colored-servername",
         "scp-pastebin",
-        {
-          type: "category",
-          label: "ServerMod",
-          items: [
-            "scpservermod-uploadplugins"
-          ]
-        },
         {
           type: "category",
           label: "Exiled",
@@ -1975,6 +1945,15 @@ const sidebars = {
             "tf2-firststeps-dashboard",
           ]
         },
+        {
+          type: "category",
+          label: "Sourcemod / Metamod",
+          items: [
+            "source-metamod-installation",
+            "source-metamod-addadmins",
+            "source-metamod-plugins"
+          ]
+        }, 
       ],
     },
     {
@@ -2650,10 +2629,10 @@ const sidebars = {
       defaultStyle: true,
     },    
     'voiceserver-introduction',
+    'voiceserver-ts3backup',
     'voiceserver-subdomain',
     'voiceserver-becomeadmin',
     'voiceserver-configuration',
-    'voiceserver-ts3backup',
     'voiceserver-query',
   ],
   
