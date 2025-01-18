@@ -1,7 +1,7 @@
 ---
-id: csgo-firststeps-dashboard
-title: "Counter-Strike Global Offensive: Dashboard Übersicht"
-description: Informationen zum Dashboard eines Counter-Strike Global Offensive Server von ZAP-Hosting - ZAP-Hosting.com Dokumentationen
+id: risingworld-firststeps-dashboard
+title: "Rising World: Dashboard Übersicht"
+description: Informationen zum Dashboard eines Rising World Server von ZAP-Hosting - ZAP-Hosting.com Dokumentationen
 sidebar_label: Dashboard
 services:
   - gameserver
@@ -10,25 +10,17 @@ services:
 import YouTube from '@site/src/components/YouTube/YouTube';
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
-:::warning Archivierte Anleitung
-Dieses Dokument wurde archiviert. Dokumente werden archiviert, wenn sie nicht mehr relevant, nicht mehr korrekt oder nicht mehr auf dem neuesten Stand sind. Es wurde aus den folgenden Gründen archiviert:
-
-Grund: CS:GO wird nicht mehr aktiv angeboten und nicht mehr weiterentwickelt. CS2 ist der Nachfolger von CS:GO. Wir empfehlen den Umstieg auf CS2.
-::::
-
 ## Einführung
 
-Du bist an einem **Counter-Strike: Global Offensive Server** interessiert oder besitzt bereits einen, doch dir fehlt noch ein umfassender Überblick über die Verwaltung und die Auffindbarkeit aller notwendigen Optionen? Gerade zu Beginn kann dies eine Herausforderung darstellen. Aber keine Sorge, im Folgenden bieten wir dir eine ausführliche Einführung zur Verwaltung deines Dienstes, damit du den optimalen Durchblick hast.
+Du bist an einem **Rising World Server** interessiert oder besitzt bereits einen, doch dir fehlt noch ein umfassender Überblick über die Verwaltung und die Auffindbarkeit aller notwendigen Optionen? Gerade zu Beginn kann dies eine Herausforderung darstellen. Aber keine Sorge, im Folgenden bieten wir dir eine ausführliche Einführung zur Verwaltung deines Dienstes, damit du den optimalen Durchblick hast.
 
-Nachdem du diese Anleitung durchgegangen bist, wirst du problemlos in der Lage sein, deinen Server effizient zu verwalten und alle erforderlichen Optionen sowie Features zügig und unkompliziert zu finden. Hier erhältst du einen strukturierten Überblick, der dir Schritt für Schritt hilft, dich mit der Serververwaltung vertraut zu machen und dein Wissen gezielt zu erweitern. So kannst du sicherstellen, dass dein **Counter-Strike: Global Offensive Server** optimal auf deine Bedürfnisse abgestimmt ist und du das Beste aus den vorhandenen Möglichkeiten herausholst.
-
-<YouTube videoId="nl88g8RI_cA" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/fB9D4kH2gZDNxm4/preview" title="Setup CS:GO server in just a MINUTE!" description="Hast du das Gefühl, dass du etwas besser verstehst, wenn du es in Aktion siehst? Wir haben etwas für dich! Tauche ab in unser Video, welches alles für dich zusammenfasst. Egal, ob du es eilig hast oder einfach nur Informationen auf möglichst verständliche Art und Weise aufnehmen möchtest!"/>
+Nachdem du diese Anleitung durchgegangen bist, wirst du problemlos in der Lage sein, deinen Server effizient zu verwalten und alle erforderlichen Optionen sowie Features zügig und unkompliziert zu finden. Hier erhältst du einen strukturierten Überblick, der dir Schritt für Schritt hilft, dich mit der Serververwaltung vertraut zu machen und dein Wissen gezielt zu erweitern. So kannst du sicherstellen, dass dein **Rising World Server** optimal auf deine Bedürfnisse abgestimmt ist und du das Beste aus den vorhandenen Möglichkeiten herausholst.
 
 <InlineVoucher />
 
 ## Informationen
 
-Im Abschnitt **Informationen** deines Navigationspanels findest du eine Reihe von Unterpunkten, die dir bei der Verwaltung deines Servers helfen. Dazu zählen **Dashboard**, **News**, **Statistiken**, **DDoS Manager**, **Tebex Shop**, **Log-Dateien**, **Ereignislog**, **Live Konsole**, **Störungen**, **Fragen und Antworten** und der **ZAP-Hosting.com Dokumentation**. Im Folgenden erhältst du eine detaillierte Einführung zu diesen verschiedenen Bereichen.
+Im Abschnitt **Informationen** deines Navigationspanels findest du eine Reihe von Unterpunkten, die dir bei der Verwaltung deines Servers helfen. Dazu zählen **Dashboard**, **News**, **DDoS Manager**, **Tebex Shop**, **Log-Dateien**, **Ereignislog**, **Live Konsole**, **Störungen**, **Fragen und Antworten** und der **ZAP-Hosting.com Dokumentation**. Im Folgenden erhältst du eine detaillierte Einführung zu diesen verschiedenen Bereichen.
 
 
 
@@ -36,7 +28,7 @@ Im Abschnitt **Informationen** deines Navigationspanels findest du eine Reihe vo
 
 Das **Dashboard** deines Servers stellt das Herzstück für die Verwaltung dar. Hier werden alle grundlegenden und essenziellen Informationen zu deinem Dienst übersichtlich präsentiert. Dazu zählen beispielsweise Angaben zum Standort, Status, IP:Port, genutzter Speicherplatz, aktuell laufendes Spiel, Servername, Karte und die Anzahl der verfügbaren Slots. Zudem werden auch die Auslastungen der CPU, des Arbeitsspeichers und des RAM dargestellt.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/ECoSwdDqpJn3E3C/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/MF4fWDm33sLRAa6/preview)
 
 Im Dashboard hast du außerdem die Möglichkeit, deinen Dienst zu starten, zu stoppen oder neu zu starten, um so die volle Kontrolle über dessen Betrieb zu haben. Weiterhin kannst du die Live-Konsole aufrufen, um Echtzeitinformationen über den Serverzustand zu erhalten und gegebenenfalls direkte Eingriffe vorzunehmen.
 
@@ -52,16 +44,6 @@ Die **News** bieten dir eine umfassende Übersicht über sämtliche Ankündigung
 - Sonstige relevante Informationen, die für die Nutzung deines Dienstes von Bedeutung sein könnten
 
 Durch regelmäßiges Überprüfen der **News** bleibst du stets informiert und kannst dein Dienst entsprechend anpassen, um das Beste aus deinem Server herauszuholen.
-
-
-
-### Statistiken
-
-Unter den **Statistiken** erhältst du eine umfassende Übersicht über die Auslastungswerte deines Servers. Dort findest du Informationen zu verschiedenen Aspekten wie etwa der Auslastung der verfügbaren Slots, der CPU und dem Arbeitsspeicher. Du kannst dir diese Daten für verschiedene Zeiträume anzeigen lassen, zum Beispiel für die letzten **60 Minuten, 24 Stunden, 3 Tage, 7 Tage** oder **30 Tage.**
-
-![](https://screensaver01.zap-hosting.com/index.php/s/r7gi2dwayMXCk7N/preview)
-
-Dank dieser Informationen bekommst du einen guten Einblick in den Verbrauch deines Servers. Zudem sind diese Statistiken oft hilfreich, um mögliche Performance-Probleme zu identifizieren und deren Ursachen einzugrenzen. Du kannst beispielsweise nachvollziehen, seit wann die Auslastung angestiegen ist und ob dies mit bestimmten Ereignissen oder Änderungen zusammenhängt. Dies ist insbesondere dann wichtig, wenn plötzlich Probleme auftreten, da es dir ermöglicht, gezielte Schritte zur Problemlösung zu unternehmen und mögliche Ursachen systematisch zu analysieren.
 
 
 
@@ -82,15 +64,7 @@ Mit diesen Anpassungsmöglichkeiten kannst du den DDoS-Schutz individuell auf de
 Die Verwendung des DDoS-Managers ist ausschließlich möglich, wenn entweder eine eigene IP-Adresse oder die Option "DDoS-Manager-Übersicht" zusätzlich gebucht wurde. Falls diese Komponenten in deinem aktuellen Paket fehlen, kannst du sie jederzeit nachträglich durch ein Upgrade hinzufügen.
 :::
 
-### Tebex Shop
 
-Mit Tebex hast du die Möglichkeit, aus deinem Gameserver bares Geld zu machen, indem du virtuelle Güter und Ränge für echtes Geld verkaufst. Es ist ein leistungsstarkes und zuverlässiges Tool, das speziell für Game-Server-Administratoren entwickelt wurde, die ihren Spielern ein besseres Spielerlebnis bieten möchten.
-
-![](https://screensaver01.zap-hosting.com/index.php/s/TbwafKd3Kmq4WrS/preview)
-
-Tebex ist einfach zu bedienen und bietet zahlreiche Funktionen, um deinen Shop anzupassen und zu optimieren. Du kannst dein Shop-Layout anpassen, Zahlungsoptionen hinzufügen, und sogar Marketingkampagnen starten, um mehr Spieler zu erreichen.
-
-Indem du auf das Bild klickst, kannst du deinen eigenen Gameserver Shop mit Tebex erstellen. Das Einrichten ist schnell und einfach, so dass du in kürzester Zeit bereit bist, deine virtuellen Güter zu verkaufen. 
 
 
 ### Log-Dateien
@@ -149,7 +123,7 @@ Wir bieten eine umfangreiche Dokumentation zu unseren Produkten an, die als Wiss
 
 ## Einstellungen
 
-Im Abschnitt **Einstellungen** deines Navigationspanels findest du eine Reihe von Unterpunkten, die dir bei der Verwaltung deines Servers helfen. Dazu zählen die **Einstellungen**, **Configs**, **Spiele**, **Versionen**, **Plugins**, **Steam Workshop** und der **Restart Planer**. Im Folgenden erhältst du eine detaillierte Einführung zu diesen verschiedenen Bereichen.
+Im Abschnitt **Einstellungen** deines Navigationspanels findest du eine Reihe von Unterpunkten, die dir bei der Verwaltung deines Servers helfen. Dazu zählen die **Einstellungen**, **Configs**, **Spiele**, **Versionen** und der **Restart Planer**. Im Folgenden erhältst du eine detaillierte Einführung zu diesen verschiedenen Bereichen.
 
 
 
@@ -187,24 +161,6 @@ Unter **Versionen** hast du die Möglichkeit, die aktuelle Version deines Spiels
 ![](https://screensaver01.zap-hosting.com/index.php/s/ZJpECn6qFDE96E5/preview)
 
 Darüber hinaus kannst du auch die E-Mail-Benachrichtigungsfunktion für automatische Updates aktivieren, um dich über Aktualisierungen zu informieren und sicherzustellen, dass du immer auf dem neuesten Stand bist. 
-
-
-
-### Plugins
-
-Für dieses Spiel bieten wir unter **Plugins** die Möglichkeit, bekannte und beliebte Ressources/Plugins mit nur einem Klick einfach zu installieren. In der Übersicht findest du eine Auswahl der verfügbaren Inhalte, die du durch Betätigen des Installationsbuttons hinzufügen kannst. Nach einem Neustart des Servers werden diese Ressourcen/Plugins installiert, aktiviert und stehen dir zur Verfügung.
-
-![](https://screensaver01.zap-hosting.com/index.php/s/9MXSSAxtW8CQsAt/preview)
-
-Durch die Nutzung dieser Funktion kannst du deinen Gameserver schnell und unkompliziert Inhalten erweitern, ohne selbständig Anpassungen vornehmen zu müssen. Dies spart Zeit und reduziert das Risiko von Fehlern oder Kompatibilitätsproblemen.
-
-
-
-### Steam Workshop 
-
-Wenn du auf der Suche nach neuen Inhalten bist, um dein Spielerlebnis zu erweitern, bietet der Steam Workshop eine breite Auswahl an Mods und Maps für eine Vielzahl von Spielen. Um eine Sammlung von Mods oder Maps in deinem Spiel zu verwenden, musst du lediglich die Steam Workshop Collection ID eingeben. Anschließend musst du deinen Server neu starten, um sicherzustellen, dass die neuen Inhalte geladen werden. Sobald dies erledigt ist, kannst du die neuen Inhalte auf deinem Server verwenden und deinem Spiel mehr Abwechslung und Spaß hinzufügen.
-
-![](https://screensaver01.zap-hosting.com/index.php/s/AaL9sQeye5gKzWQ/preview)
 
 
 

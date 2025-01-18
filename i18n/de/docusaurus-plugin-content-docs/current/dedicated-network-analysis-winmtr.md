@@ -1,10 +1,10 @@
 ---
-id: vserver-network-analysis-winmtr
-title: "vServer: Netzwerkprobleme mit MTR/WinMTR erkennen"
+id: dedicated-network-analysis-winmtr
+title: "Dedicated Server: Netzwerk Probleme mit MTR/WinMTR erkennen"
 description: Informationen, wie du eine Netzwerkanalyse mit MTR/WinMTR durchführen kannst, um Netzwerkprobleme zu identifizieren - ZAP-Hosting.com Dokumentation
 sidebar_label: Netzwerk Probleme
 services:
-  - vserver
+  - dedicated
 ---
 
 import Tabs from '@theme/Tabs';

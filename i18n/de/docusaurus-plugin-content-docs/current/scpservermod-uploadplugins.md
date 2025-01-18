@@ -9,9 +9,13 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
-:::caution
-Das Spiel SCP: Secret Laboratory mit der **Servermod Erweiterung** wird derzeit bis auf Weiteres aufgrund von fehlender Kompatibilität nicht mehr aktiv im Shop angeboten. Wir empfehlen stattdessen auf **[SCP:EXILED](exiled-plugins.md)** umzusteigen. Diese Dokumentationsseite wird vorerst noch aufrechterhalten.
-:::
+:::warning Archivierte Anleitung
+Dieses Dokument wurde archiviert. Dokumente werden archiviert, wenn sie nicht mehr relevant, nicht mehr korrekt oder nicht mehr auf dem neuesten Stand sind. Es wurde aus den folgenden Gründen archiviert:
+
+Grund: Die Servermod Erweiterung für SCP wurde aufgegeben und wird dementsprechend nicht mehr weiterentwickelt. Wir empfehlen stattdessen auf **[SCP:EXILED](exiled-plugins.md)** umzusteigen. 
+::::
+
+
 
 <InlineVoucher />
 

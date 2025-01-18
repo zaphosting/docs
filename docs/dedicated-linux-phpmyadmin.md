@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-phpmyadmin
 title: "Dedicated Server: Installation of phpMyAdmin"
-description: Information on how to install and set up phpMyAdmin on on your Linux Dedicated Server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: Information on how to install and set up phpMyAdmin on your Linux dedicated server from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Install phpMyAdmin
 services:
   - dedicated
@@ -11,90 +11,60 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
-phpMyAdmin is a free, web-based tool for managing MySQL and MariaDB databases. It provides a user-friendly interface that allows users to create, edit, manage and delete databases without having to enter SQL commands manually. 
+phpMyAdmin is a free, web-based tool for managing MySQL and MariaDB databases. It provides a user-friendly interface that allows users to create, edit, manage and delete databases without having to enter SQL commands manually.
 
 <InlineVoucher />
 
 ## Preparation
 
-First, you should check whether the server is up to date. To do this, the update command is executed: 
+Before starting the installation, make sure that the system is up to date. Pending updates and upgrades can be carried out as follows:
 
 ```
-sudo apt update
-```
-
-If the server has found new updates/packages, they can be installed with the upgrade command. 
-
-```
+sudo apt update -y
 sudo apt upgrade -y
 ```
 
-The server is now up to date. 
+You must also ensure that you already have PHP installed on your system. This is essential for the use of phpMyAdmin. To find out how to install PHP, please have a look at our [Install PHP](dedicated-linux-php.md) guide.
 
-:::info
-If "sudo" is not found, this can be installed with the following command: 
+:::warning Missing PHP packages
+Wenn die notwendigen PHP Pakete fehlen, dann können die PHP-Dateien von phpMyAdmin nicht korrekt vearbeitet und dargestellt werden. 
 :::
-
-```
-apt install sudo -y
-```
 
 ## Installation
 
-First, the installation directory is selected in which phpMyAdmin is to be installed. This is done with the following command: 
+If the preparation has been completed, the installation of the phpMyAdmin interface can now begin. To do this, first open the installation directory in which phpMyAdmin should be installed. 
 
-```
-cd /usr/share
-```
-
-Then, the latest phpMyAdmin version is downloaded to the installation directory using wget:
+Navigate to the corresponding directory with the command `cd /usr/share`. The latest phpMyAdmin version should then be downloaded to the installation directory using `wget`:
 
 ```
 wget https://www.phpmyadmin.net/downloads/phpMyAdmin-latest-all-languages.zip -O phpmyadmin.zip
 ```
 
-:::info
-If "wget" is not found, this can be installed with the following command: 
+:::warning
+If the `wget` service is not found, the corresponding service can be installed with the command `sudo apt install wget -y`. 
 :::
 
-```
-sudo apt install wget -y
-```
-
-As soon as the download is complete, the ZIP file can be extracted using the following command: 
+As soon as the download is complete, the downloaded ZIP file can be unpacked with the following command: 
 
 ```
 unzip phpmyadmin.zip
 ```
-
-:::info
-If "unzip" is not found, this can be installed with the following command: 
+:::warning
+If the `unzip` service is not found, the corresponding service can be installed with the command `sudo apt install unzip -y`. 
 :::
 
-```
-sudo apt install unzip -y
-```
-
-Now, the extracted archive can be renamed to a simpler name: 
+The unpacked archive can now be renamed to a simpler name, the ZIP file removed and the necessary permissions set: 
 
 ```
 mv phpMyAdmin-*-all-languages phpmyadmin
-```
-
-After this is done, the original ZIP file can be removed and the necessary rights for the phpMyAdmin directory can be set by using this: 
-
-```
 rm phpmyadmin.zip; chmod -R 0755 phpmyadmin
 ```
 
-## Creating Apache2 phpMyAdmin-Config
+## Configuration
 
-The Apache2-phpMyAdmin-Config is created with the following command:
+###  Web server configuration file
 
-```
-nano /etc/apache2/conf-available/phpmyadmin.conf
-```
-The empty Apache2-phpMyAdmin-Config must now be equipped with the following content: 
+Now phpMyAdmin must be added to the web server configuration. To do this, use `nano /etc/apache2/conf-available/phpmyadmin.conf` to create a new Virtual Host configuration file and fill it with the following content:
 
 ```
 # phpMyAdmin Apache configuration
@@ -118,32 +88,24 @@ Alias /phpmyadmin /usr/share/phpmyadmin
 </Directory>
 ```
 
-If the Apache2-phpMyAdmin-Config is now filled with the content, it can be saved and closed with *** CTRL + X ***, then press the *** Y key *** and with *** Enter *** to confirm. The newly created Apache2-phpMyAdmin-Config must be activated/read in by the Apache2 server:
+Once the Apach2-phpMyAdmin-Config has been filled with the content, it can be saved and closed with `CTRL+X`, then press `Y` and confirm with `Enter`.
+
+The newly created virtual host configuration file must then be activated and loaded. To do this, execute the following commands:
 
 ```
 a2enconf phpmyadmin
-```
-
-The Apache2 server must then be reloaded: 
-
-```
 systemctl reload apache2
 ```
 
-## Creating temporary directory for phpMyAdmin
+### Creating required temporary directory
 
-For phpMyAdmin to work properly, the following directory must be created:
+To ensure that phpMyAdmin works properly, a temporary directory must be created and the required permissions set. You can do this with the following commands: 
 
 ```
 mkdir /usr/share/phpmyadmin/tmp/
-```
-
-The directory just created still needs the correct rights, here is how to do this:
-
-```
 chown -R www-data:www-data /usr/share/phpmyadmin/tmp/
 ```
 
-The phpMyAdmin installation is finished. 
+## Conclusion
 
-The phpMyAdmin web interface can now be opened via browser with/phpmyadmin, e.g. 123.123.123.123/phpmyadmin
+Congratulations, you have successfully installed and configured phpMyAdmin. You can access the web interface using the IP address and the path of your server (http://IP-Address/phpmyadmin).  For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂

@@ -11,26 +11,30 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
-With the **EasyDNS function** the forwarding of a domain, which was rented with **us**, to another product on the **same** account can be set with one click.
+The **EasyDNS option** enables simple linking (forwarding) with one of your ZAP hosting services. With just a few clicks, you can for example connect your domain to a server or webspace product. 
 
 
-## Where do I find the EasyDNS option and how do I use it?
 
-The option will be shown, if you click on the desired domain in the interface.
+## Access and use case
 
-![2022-05-07_21-43](https://screensaver01.zap-hosting.com/index.php/s/Rif7FdN6D5acqDJ/preview)
+To access and activate the EasyDNS option, you must open the administration of your domain in the web interface. Once there, you will see the following options under DNS administration: 
 
-Once here, you can then select an existing service from a list.
-As shown in the example above.
-Select the desired service and confirm it by clicking the "Save" button.
-There is also the option to forward your domain to a Minecraft server with a subdomain.
+- EasyDNS
+- ProfiDNS
+- ExpertDNS
+
+Activate EasyDNS and select the service you want to actively link to your domain, as shown in the example. This can for example be a webspace or server product. Then click on **Save** to complete the change. 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/spg7YHqAJb6Wqky/preview)
 
-Here you can enter the name of the **desired subdomain** in the first field.
-On the right side you choose the desired **Minecraft Server**, which you want to link to the subdomain.
+In the example from the screenshot, the domain is linked to a game server that was installed via a vServer using the installed GS/TS3 interface. To do this, please enter a name in the subdomain field and select the service. 
 
-:::info
-Please note that it can take up to 24 hours until changes to the domains have been adopted globally!
+:::warning Changes to the DNS configuration
+Please be aware that changes to the DNS can take up to **24 hours** to be applied globally. Forwarding won't be available until then.
 :::
 
+
+
+## Conclusion
+
+Congratulations, you have successfully linked your domain to one of your services.  For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂

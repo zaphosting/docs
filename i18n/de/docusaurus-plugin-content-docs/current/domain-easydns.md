@@ -11,24 +11,30 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Mit der **EasyDNS Funktion** kann die Weiterleitung einer Domain, welche bei **uns** gemietet wurde, auf ein anderes Produkt auf demselben Account mit einem Klick eingestellt werden.
+Die **EasyDNS Option** ermöglicht die einfache Verknüpfung (Weiterleitung) mit einem deiner ZAP-Hosting-Dienste. Mit wenigen Klicks kannst du zum Beispiel deine Domain mit einem Server oder Webspace Produkt verbinden. 
 
-## Wo finde ich die EasyDNS Option und wie verwende ich es?
 
-Die Option wird einem angezeigt, soweit man die gewünschte Domain bei sich im Interface anklickt.
 
-![2022-05-07_21-42](https://screensaver01.zap-hosting.com/index.php/s/Tc6NpsXAFDC9nd9/preview)
+## Zugang und Anwendungsfall
 
-Hier angekommen, kann man dann einen bestehenden Dienst aus einer Liste auswählen.
-So wie es im obigen Beispiel zu sehen ist.
-Man wählt den gewünschten Dienst aus und bestätigt es dann mit einem Klick auf den "Speichern" Button.
-Es gibt ebenfalls die Option, dass man seine Domain mit einer Subdomain auf einen Minecraft Server weiterleitet.
+Um auf die EasyDNS Option zuzugreifen und sie zu aktivieren, musst du die Verwaltung deiner Domain im Webinterface öffnen. Dort siehst du unter der DNS-Verwaltung die folgenden Optionen: 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/YXK3YQNowQAYW8B/preview)
+- EasyDNS
+- ProfiDNS
+- ExpertDNS
 
-Hier kann im ersten Feld der Name der **gewünschten Subdomain** eingetragen werden.
-Rechts daneben wählt man den gewünschten **Minecraft Server** aus, welchen man mit der Subdomain dann verknüpfen möchte.
+Aktiviere EasyDNS und wähle den Dienst, den du aktiv mit deiner Domain verknüpfen möchtest, wie im Beispiel gezeigt. Dies kann zum Beispiel ein Webspace- oder Serverprodukt sein. Klicken anschließend auf **Speichern**, um die Änderung durchzuführen. 
 
-:::info
-Bitte beachte, dass es bis zu 24 Stunden in Anspruch nehmen kann, bis Änderungen an den Domains global übernommen worden sind!
+![](https://screensaver01.zap-hosting.com/index.php/s/spg7YHqAJb6Wqky/preview)
+
+In dem Beispiel aus dem Screenshot ist die Domain mit einem Gameserver verknüpft, der über einen vServer unter Verwendung des installierten GS/TS3-Interfaces installiert wurde. Trage dazu bitte einen Namen in das Feld Subdomain ein und wählen den Dienst aus. 
+
+:::warning Änderungen an der DNS-Konfiguration
+Bitte beachten Sie, dass es bis zu **24 Stunden** dauern kann, bis Änderungen am DNS global übernommen werden. Die Weiterleitung wird bis dahin nicht verfügbar sein.
 :::
+
+
+
+## Abschluss
+
+Glückwunsch, du hast deine Domain erfolgreich mit einem deiner Dienste verknüpft. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂

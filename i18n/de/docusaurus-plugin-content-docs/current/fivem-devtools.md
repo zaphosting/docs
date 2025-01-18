@@ -9,6 +9,14 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
+
+
+:::warning Archiviert - Grund
+Dieses Dokument wurde archiviert. Dokumente werden archiviert, wenn sie nicht mehr relevant, nicht mehr korrekt oder nicht mehr auf dem neuesten Stand sind. Es wurde aus den folgenden Gründen archiviert:
+
+**Grund**: Veraltetes Feature, das nicht mehr verwendet wird.
+::::
+
 <InlineVoucher />
 
 Um die Devtools in FiveM zu aktiveren, müssen wir zunächst unseren FiveM Client öffnen und die Einstellungen öffnen:

@@ -15,7 +15,7 @@ Do you have a Windows VPS or root server and you want to install the Farming Sim
 
 <InlineVoucher />
 
-## Preperation
+## Preparation
 
 In order to host a Farming Simulator 2025 dedicated server, you must have a Windows server ready alongside a valid game license to run the dedicated server.
 

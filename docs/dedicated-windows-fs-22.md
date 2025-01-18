@@ -15,7 +15,7 @@ Do you have a Windows VPS, root server or dedicated server and you want to insta
 
 <InlineVoucher />
 
-## Preperation
+## Preparation
 A server based on Windows Server 2016/2019 with at least 4x 2.4 GHz CPU (AMD/Intel) and at least 2GB RAM (DDR3/4) and 6GB free Disk (SSD or better, preferred) is required. The server must run on 64 bit architecture. 
 Furthermore, an own GameLicense is required (no Steam version), as well as a public IPv4 address. A GPU or a sound card are not required for the Dedicated Server. 
 Depending on how much the dedicated server is modded, extended with mods or DLCs, more resources may be required. 

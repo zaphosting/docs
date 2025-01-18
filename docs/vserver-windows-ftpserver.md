@@ -17,7 +17,7 @@ With the **FileZilla Server** it is possible to set up such a FTP server on a Wi
 <InlineVoucher />
 
 
-## Preperation
+## Preparation
 
 ### Download
 

@@ -132,6 +132,7 @@ const sidebars = {
     "gameserver-introduction",
     "gameserver-backups",
     "gameserver-ftpaccess",
+    "gameserver-scheduled-tasks",
     "gameserver-reset",
     "gameserver-resourcelimit",
     "gameserver-gameswitch",
@@ -180,7 +181,6 @@ const sidebars = {
             "fivem-mastodon",
             "fivem-prohibited-resources",
             "fivem-notlisted",
-            "fivem-devtools",
             "fivem-gamebuild",
             "fivem-gamechange",
             "fivem-steam-web-api-key",
@@ -207,13 +207,9 @@ const sidebars = {
           type: "category",
           label: "ESX",
           items: [
-            "fivem-esx-disableinventory",
-            "fivem-esx-changemoneyicon",
             "fivem-esx-becomeadminoverdatabase",
-            "fivem-esx-disablehud",
             "fivem-esx-addcarstoshop",
             "fivem-esx-changejobgarages",
-            "fivem-esx-changerespawnpoint",
             "fivem-editlocalfiles"
           ]
         },
@@ -270,13 +266,6 @@ const sidebars = {
         },
         {
           type: "category",
-          label: "Spigot & Bukkit",
-          items: [
-            "minecraft-pluginuploader"
-          ]
-        },
-        {
-          type: "category",
           label: "Bungeecord",
           items: [
             "minecraft-bungeecord-config"
@@ -284,11 +273,18 @@ const sidebars = {
         },
         {
           type: "category",
-          label: "Forge & Fabric",
+          label: "Forge & Fabric (Mods)",
           items: [
             "minecraft-forge-fabric-add-mods-modpacks"
           ]
-        }
+        },
+        {
+          type: "category",
+          label: "Spigot & Bukkit (Plugins)",
+          items: [
+            "minecraft-pluginuploader"
+          ]
+        },
       ],
     },
     {
@@ -308,13 +304,6 @@ const sidebars = {
         "scp-newroles",
         "scp-colored-servername",
         "scp-pastebin",
-        {
-          type: "category",
-          label: "ServerMod",
-          items: [
-            "scpservermod-uploadplugins",
-          ]
-        },
         {
           type: "category",
           label: "Exiled",
@@ -371,13 +360,13 @@ const sidebars = {
           label: "First Steps",
           items: [
             "palworld-firststeps-dashboard",
+            "palworld-connect"
           ]
         },
         "palworld-configuration",
         "palworld-server-commands",
         "palworld-server-savegames",
         "palworld-server-modding",
-        "palworld-connect",
         "palworld-admin",
         "palworld-rcon"
       ],
@@ -802,37 +791,6 @@ const sidebars = {
     },
     {
       type: "category",
-      label: "CS:GO",
-      items: [
-        {
-          type: "category",
-          label: "First Steps",
-          items: [
-            "csgo-firststeps-dashboard",
-            "csgo-configuration",
-          ]
-        },
-        {
-          type: "category",
-          label: "Configuration & Administration",
-          items: [
-            "csgo-gotv",
-            "source-custom-content"
-          ]
-        },
-        {
-          type: "category",
-          label: "Sourcemod / Metamod",
-          items: [
-            "source-metamod-installation",
-            "source-metamod-addadmins",
-            "source-metamod-plugins"
-          ]
-        }, 
-      ],
-    },
-    {
-      type: "category",
       label: "CS:S",
       items: [
         {
@@ -1042,16 +1000,18 @@ const sidebars = {
             "fivem-rcon",
             "fivem-licensekey",
             "fivem-deletecache",
+            "fivem-resolve-dbconnection",
             "fivem-useprofiler",
             "fivem-mastodon",
             "fivem-prohibited-resources",
             "fivem-notlisted",
-            "fivem-devtools",
             "fivem-gamebuild",
             "fivem-gamechange",
             "fivem-steam-web-api-key",
             "fivem-whitelist",
-            "fivem-locale"
+            "fivem-locale",
+            "fivem-optimize-textures",
+            "fivem-proxy"
           ]
         },
         {
@@ -1071,13 +1031,9 @@ const sidebars = {
           type: "category",
           label: "ESX",
           items: [
-            "fivem-esx-disableinventory",
-            "fivem-esx-changemoneyicon",
             "fivem-esx-becomeadminoverdatabase",
-            "fivem-esx-disablehud",
             "fivem-esx-addcarstoshop",
             "fivem-esx-changejobgarages",
-            "fivem-esx-changerespawnpoint",
             "fivem-editlocalfiles"
           ]
         },
@@ -1567,14 +1523,14 @@ const sidebars = {
           type: "category",
           label: "First Steps",
           items: [
-            "palworld-firststeps-dashboard"
+            "palworld-firststeps-dashboard",
+            "palworld-connect",
           ]
         },
         "palworld-configuration",
         "palworld-server-commands",
         "palworld-server-savegames",
         "palworld-server-modding",
-        "palworld-connect",
         "palworld-admin"
       ],
     },
@@ -1652,7 +1608,7 @@ const sidebars = {
             "redm-deletecache",
             "redm-gamebuild",
             "redm-steam-web-api-key",
-            "redm-locale"
+            "redm-locale",
           ]
         },
         {
@@ -1662,7 +1618,15 @@ const sidebars = {
             "redm-installresources",
             "redm-sql-file-import"
           ]
-        }
+        },
+        {
+          type: "category",
+          label: "txAdmin",
+          items: [
+            "redm-txadmin-setup",
+            "redm-txadmin-features",
+          ]
+        },
       ],
     },
     {
@@ -1716,6 +1680,19 @@ const sidebars = {
           label: "First Steps",
           items: [
             "riskofrain2-firststeps-dashboard",
+          ]
+        },
+      ],
+    },
+    {
+      type: "category",
+      label: "Rising World",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "risingworld-firststeps-dashboard",
           ]
         },
       ],
@@ -1786,13 +1763,6 @@ const sidebars = {
         "scp-newroles",
         "scp-colored-servername",
         "scp-pastebin",
-        {
-          type: "category",
-          label: "ServerMod",
-          items: [
-            "scpservermod-uploadplugins"
-          ]
-        },
         {
           type: "category",
           label: "Exiled",
@@ -1975,6 +1945,15 @@ const sidebars = {
             "tf2-firststeps-dashboard",
           ]
         },
+        {
+          type: "category",
+          label: "Sourcemod / Metamod",
+          items: [
+            "source-metamod-installation",
+            "source-metamod-addadmins",
+            "source-metamod-plugins"
+          ]
+        }, 
       ],
     },
     {
@@ -2194,8 +2173,13 @@ const sidebars = {
     'vserver-reset',
     'vserver-vnc',
     'vserver-root-difference',
-    'vserver-network-analysis-winmtr',
-
+    {
+      type: "category",
+      label: "Troubleshooting",
+      items: [
+        'vserver-network-analysis-winmtr',
+      ]
+    },
     {
       type: 'html',
       className: 'sidebar-title',
@@ -2218,7 +2202,6 @@ const sidebars = {
         'vserver-ssh-default',
         'vserver-linux-password-change',
         'vserver-linux-gs-interface',
-        'vserver-linux-ftp',
         'vserver-linux-add-ip',
         'vserver-linux-ssl',
         'vserver-linux-rsync',
@@ -2275,6 +2258,13 @@ const sidebars = {
       ]
     },
     {
+      type: "category",
+      label: "Troubleshooting",
+      items: [
+        'vserver-linux-ftp',
+      ]
+    },	
+    {
       type: 'html',
       className: 'sidebar-title',
       value: (() => {
@@ -2292,7 +2282,6 @@ const sidebars = {
         'vserver-windows-userdp',
         'vserver-windows-port',
         'vserver-windows-addip',
-        'vserver-windows-nointernet',
         'vserver-windows-change-language',
         'vserver-windows-manage-users',
         'vserver-windows-expand-disk',
@@ -2337,6 +2326,7 @@ const sidebars = {
       label: "Troubleshooting",
       items: [
         'vserver-windows-rdp-freeze',
+        'vserver-windows-nointernet',
       ]
     },	
   ],
@@ -2360,6 +2350,13 @@ const sidebars = {
     'dedicated-iso',
     'dedicated-raid',
     'dedicated-reset',		
+    {
+      type: "category",
+      label: "Troubleshooting",
+      items: [
+        'dedicated-network-analysis-winmtr',
+      ]
+    },
     {
       type: 'html',
       className: 'sidebar-title',
@@ -2533,9 +2530,21 @@ const sidebars = {
     'domain-profidns',
     'domain-expertdns',
     'domain-records',
-    'domain-gameserver-srv-link',
-    'domain-teamspeak-redirect',
-    'domain-cloudflare-setup',
+    {
+      type: "category",
+      label: "Domain forwarding",
+      items: [
+        'domain-gameserver-srv-link',
+        'domain-teamspeak-redirect',
+      ],
+    },
+    {
+      type: "category",
+      label: "Cloudflare",
+      items: [
+        'domain-cloudflare-setup',
+      ],
+    },
     {
       type: 'html',
       className: 'sidebar-title',
@@ -2548,9 +2557,9 @@ const sidebars = {
       defaultStyle: true,
     },
     'webspace-introduction',
+    'webspace-adddomain',
     'webspace-backups',
     'webspace-subdomain',
-    'webspace-adddomain',
     'webspace-plesk-ftp',
     {
       type: "category",
@@ -2620,10 +2629,10 @@ const sidebars = {
       defaultStyle: true,
     },    
     'voiceserver-introduction',
+    'voiceserver-ts3backup',
     'voiceserver-subdomain',
     'voiceserver-becomeadmin',
     'voiceserver-configuration',
-    'voiceserver-ts3backup',
     'voiceserver-query',
   ],
   

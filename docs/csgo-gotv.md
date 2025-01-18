@@ -9,9 +9,11 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
-:::caution
-**Counter-Strike: Global Offensive** has been updated to **Counter-Strike 2**. Servers for Counter-Strike 2 can be found [here](https://zap-hosting.com/en/counter-strike-2-server-hosting/). Currently, it is possible to continue playing on Counter-Strike: Global Offensive servers and rent servers for Counter-Strike: GO through the [Steam Beta feature](https://zap-hosting.com/en/blog/2023/09/our-servers-are-still-compatible-with-the-latest-beta-version-of-cs-go-on-steam/). However, this can change at any time in case Valve disables this. We recommend switching to the new version as soon as possible. 
-:::
+:::warning Archived Guide
+This document has been archived. Documents are archived if they are no longer relevant, incorrect or up to date. It has been archived for the following reasons:
+
+Reason: CS:GO is no longer actively offered and is no longer being developed. CS2 is the follow-up to CS:GO. We recommend switching to CS2.
+::::
 
 
 
