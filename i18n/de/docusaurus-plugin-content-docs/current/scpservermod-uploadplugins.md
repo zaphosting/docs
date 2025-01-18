@@ -9,7 +9,7 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
-:::warning Archiviert - Ursache
+:::warning Archivierte Anleitung
 Dieses Dokument wurde archiviert. Dokumente werden archiviert, wenn sie nicht mehr relevant, nicht mehr korrekt oder nicht mehr auf dem neuesten Stand sind. Es wurde aus den folgenden Gründen archiviert:
 
 Grund: Die Servermod Erweiterung für SCP wurde aufgegeben und wird dementsprechend nicht mehr weiterentwickelt. Wir empfehlen stattdessen auf **[SCP:EXILED](exiled-plugins.md)** umzusteigen. 
