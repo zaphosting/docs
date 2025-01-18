@@ -54,7 +54,7 @@ Select the option `repeating` for repetition type. In the Cron expression field,
 
 :::tip Cron generator
 
-Aren't familiar with the structure or syntax of Cron? Simply use the [**CronMaker**](http://www.cronmaker.com/). It is a simple application which allowsyou to build and copy cron expressions with a few clicks. 
+Aren't familiar with the structure or syntax of Cron? Simply use the [**Crontab Guru**](http://www.crontab.guru/). It is a simple application which allows you to build and copy cron expressions with a few clicks. 
 
 :::
 
