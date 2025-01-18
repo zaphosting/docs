@@ -9,7 +9,7 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
-:::warning Archived - Reason below
+:::warning Archived Guide
 This document has been archived. Documents are archived if they are no longer relevant, incorrect or up to date. It has been archived for the following reasons:
 
 Reason: The Servermod extension for SCP has been abandoned and will therefore no longer be maintained. We recommend switching to **[SCP:EXILED](exiled-plugins.md)** instead. 

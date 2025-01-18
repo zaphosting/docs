@@ -14,7 +14,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 Do you have a Windows VPS or root server and you want to install the Farming Simulator Dedicated Server 2022 service on it? You are in the right place. In this guide, we will explain the step by step process of installing this service on your server.
 <InlineVoucher />
 
-## Preperation
+## Preparation
 A server based on Windows Server 2016/2019 with at least 4x 2.4 GHz CPU (AMD/Intel) and at least 2GB RAM (DDR3/4) and 6GB free Disk (SSD or better, preferred) is required. The server must run on 64 bit architecture. 
 Furthermore, an own GameLicense is required (no Steam version), as well as a public IPv4 address. A GPU or a sound card are not required for the Dedicated Server. 
 Depending on how much the dedicated server is modded, extended with mods or DLCs, more resources may be required. 

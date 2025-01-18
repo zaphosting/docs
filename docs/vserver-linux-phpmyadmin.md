@@ -15,7 +15,7 @@ phpMyAdmin is a free, web-based tool for managing MySQL and MariaDB databases. I
 
 <InlineVoucher />
 
-## Preperation
+## Preparation
 
 Before starting the installation, make sure that the system is up to date. Pending updates and upgrades can be carried out as follows:
 

@@ -15,7 +15,7 @@ BeamNG.Drive has native modding support and a massive community which allows you
 
 <InlineVoucher />
 
-## Preperation
+## Preparation
 
 To install an addon map to your BeamMP server, you need to connect to it via FTP. If you are not familiar with this, we recommend you to have a look at the [Access via FTP](gameserver-ftpaccess.md) guide.
 

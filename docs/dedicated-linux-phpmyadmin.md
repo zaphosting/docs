@@ -15,7 +15,7 @@ phpMyAdmin is a free, web-based tool for managing MySQL and MariaDB databases. I
 
 <InlineVoucher />
 
-## Preperation
+## Preparation
 
 Before starting the installation, make sure that the system is up to date. Pending updates and upgrades can be carried out as follows:
 
@@ -24,7 +24,8 @@ sudo apt update -y
 sudo apt upgrade -y
 ```
 
-You must also ensure that you already have PHP installed on your system. This is essential for the use of phpMyAdmin. To find out how to install PHP, please have a look at our [Install PHP](dedicated-linux-php.md) guide. 
+You must also ensure that you already have PHP installed on your system. This is essential for the use of phpMyAdmin. To find out how to install PHP, please have a look at our [Install PHP](dedicated-linux-php.md) guide.
+
 :::warning Missing PHP packages
 Wenn die notwendigen PHP Pakete fehlen, dann können die PHP-Dateien von phpMyAdmin nicht korrekt vearbeitet und dargestellt werden. 
 :::
@@ -32,6 +33,7 @@ Wenn die notwendigen PHP Pakete fehlen, dann können die PHP-Dateien von phpMyAd
 ## Installation
 
 If the preparation has been completed, the installation of the phpMyAdmin interface can now begin. To do this, first open the installation directory in which phpMyAdmin should be installed. 
+
 Navigate to the corresponding directory with the command `cd /usr/share`. The latest phpMyAdmin version should then be downloaded to the installation directory using `wget`:
 
 ```
@@ -58,13 +60,11 @@ mv phpMyAdmin-*-all-languages phpmyadmin
 rm phpmyadmin.zip; chmod -R 0755 phpmyadmin
 ```
 
-
-
 ## Configuration
 
 ###  Web server configuration file
-Now phpMyAdmin must be added to the web server configuration. To do this, use `nano /etc/apache2/conf-available/phpmyadmin.conf` to create a new 
-Virtual Host configuration file and fill it with the following content:
+
+Now phpMyAdmin must be added to the web server configuration. To do this, use `nano /etc/apache2/conf-available/phpmyadmin.conf` to create a new Virtual Host configuration file and fill it with the following content:
 
 ```
 # phpMyAdmin Apache configuration
@@ -88,7 +88,7 @@ Alias /phpmyadmin /usr/share/phpmyadmin
 </Directory>
 ```
 
-Once the Apach2-phpMyAdmin-Config has been filled with the content, it can be saved and closed with ***CTRL+X***, then press the ***Y key*** and confirm with ***Enter***.
+Once the Apach2-phpMyAdmin-Config has been filled with the content, it can be saved and closed with `CTRL+X`, then press `Y` and confirm with `Enter`.
 
 The newly created virtual host configuration file must then be activated and loaded. To do this, execute the following commands:
 
@@ -96,8 +96,6 @@ The newly created virtual host configuration file must then be activated and loa
 a2enconf phpmyadmin
 systemctl reload apache2
 ```
-
-
 
 ### Creating required temporary directory
 
@@ -107,8 +105,6 @@ To ensure that phpMyAdmin works properly, a temporary directory must be created 
 mkdir /usr/share/phpmyadmin/tmp/
 chown -R www-data:www-data /usr/share/phpmyadmin/tmp/
 ```
-
-
 
 ## Conclusion
 

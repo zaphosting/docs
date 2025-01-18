@@ -17,7 +17,7 @@ RedM and its community offers a large variety of resources. An overview of the m
 
 <InlineVoucher />
 
-## Preperation
+## Preparation
 
 The installation of resources is done via FTP. You will need an FTP client to upload files to your server. If you are not familiar with using FTP, we recommend you to have a look at the [Access via FTP](gameserver-ftpaccess.md) guide.
 

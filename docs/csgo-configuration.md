@@ -9,7 +9,7 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
-:::warning Archived - Reason below
+:::warning Archived Guide
 This document has been archived. Documents are archived if they are no longer relevant, incorrect or up to date. It has been archived for the following reasons:
 
 Reason: CS:GO is no longer actively offered and is no longer being developed. CS2 is the follow-up to CS:GO. We recommend switching to CS2.

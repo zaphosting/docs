@@ -50,7 +50,7 @@ Um einen Snapshot in YatQA zu erstellen, musst du oben in der Anwendung auf **Mi
 
 ## Backups herunterladen
 
-Erstellte Backups (Snapshots) können per FTP von deinem Storage Server heruntergeladen werden. Die Zugangsdaten dazu findest du im Webinterface bei deinem Storage Server Dienst. Wenn du nicht weißt, wie man FTP benutzt, dann empfehlen wir dir, unsere allgemeine FTP-Zugang Anleitung zu verwenden.
+Erstellte Backups (Snapshots) können per FTP von deinem Storage Server heruntergeladen werden. Die Zugangsdaten dazu findest du im Webinterface bei deinem Storage Server Dienst. Wenn du nicht weißt, wie man FTP benutzt, dann empfehlen wir dir, unsere allgemeine [FTP-Zugang](gameserver-ftpaccess.md) Anleitung zu verwenden.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/kHFod3oficKzR33/preview)
 

@@ -14,7 +14,7 @@ Are you still new to this area and worried that you might not be able to cope wi
 
 <InlineVoucher />
 
-## Preperation
+## Preparation
 
 ### Activating iLO
 For the initial setup, the iLO administration interface must first be activated. This process may take a moment. For more information and further use of the iLO administration interface, we recommend taking a look at the [iLO](dedicated-ilo.md) guide.

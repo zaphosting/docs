@@ -14,7 +14,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 ## Connect with FTP
 First you should connect to your server via FTP, you can use our [Access via FTP](gameserver-ftpaccess.md) guide for this.
 
-## Preperation
+## Preparation
 
 Now create a folder for your mods in the "resources" folder.
 
