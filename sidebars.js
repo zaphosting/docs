@@ -211,7 +211,8 @@ const sidebars = {
             "fivem-esx-becomeadminoverdatabase",
             "fivem-esx-addcarstoshop",
             "fivem-esx-changejobgarages",
-            "fivem-editlocalfiles"
+            "fivem-editlocalfiles",
+            "fivem-esx-spawnpoints"
           ]
         },
         {
