@@ -1599,6 +1599,7 @@ const sidebars = {
             "redm-firststeps-dashboard"
           ]
         },
+        'redm-upvotes',
         {
           type: "category",
           label: "Configuration & Administration",
