@@ -777,7 +777,7 @@ const sidebars = {
     },
     {
       type: "category",
-      label: "CS 1.6",
+      label: "Counter-Strike 1.6",
       items: [
         {
           type: "category",
@@ -792,7 +792,7 @@ const sidebars = {
     },
     {
       type: "category",
-      label: "CS:S",
+      label: "Counter-Strike: Source",
       items: [
         {
           type: "category",
@@ -815,7 +815,7 @@ const sidebars = {
     },
     {
       type: "category",
-      label: "CS2",
+      label: "Counter-Strike 2",
       items: [
         {
           type: "category",
@@ -842,6 +842,28 @@ const sidebars = {
           ]
         },
         
+      ],
+    },
+    {
+      type: "category",
+      label: "Day of Defeat: Source",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "dods-firststeps-dashboard",
+          ]
+        },
+        {
+          type: "category",
+          label: "Sourcemod / Metamod",
+          items: [
+            "source-metamod-installation",
+            "source-metamod-addadmins",
+            "source-metamod-plugins"
+          ]
+        },
       ],
     },
     {
