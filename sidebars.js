@@ -1610,6 +1610,7 @@ const sidebars = {
             "redm-gamebuild",
             "redm-steam-web-api-key",
             "redm-locale",
+            "redm-devtools",
           ]
         },
         {
