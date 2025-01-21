@@ -1073,7 +1073,8 @@ const sidebars = {
           type: "category",
           label: "QBCore",
           items: [
-            "fivem-qbcore-admin"
+            "fivem-qbcore-admin",
+            "fivem-qbcore-spawnpoints"
           ]
         }
       ],
