@@ -177,6 +177,7 @@ const sidebars = {
             "fivem-licensekey",
             "fivem-deletecache",
             "fivem-resolve-dbconnection",
+            "fivem-devtools",
             "fivem-useprofiler",
             "fivem-mastodon",
             "fivem-prohibited-resources",
