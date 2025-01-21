@@ -60,12 +60,13 @@ Als Bestätigung sollte sich nun ein Pop-up öffnen, in dem bestätigt wird, das
 
 ## Upvotes zurücksetzen
 
-Falls die Upvotes an einen anderen Server zugewiesen werden sollen oder beim Zuweisen der Upvotes ein Fehler aufgetreten ist, können diese über das Dashboard zurückgesetzt werden.
+alls die Upvotes an einen anderen Server zugewiesen werden sollen oder beim Zuweisen der Upvotes ein Fehler aufgetreten ist, können diese über das Dashboard zurückgesetzt werden. Das Zurücksetzen der Upvotes wird ein paar Minuten dauern, bis es von Cfx.re übernommen wurde.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/mCsTDgLSZqFyXrL/preview)
 
-
-Das Zurücksetzen der Upvotes kann einige Minuten beanspruchen. In der Regel können diese spätestens nach 60 Minuten erneut zugewiesen werden.
+:::danger Reset Cooldown Zeitraum
+Cfx.re setzt eine Upvote **Cooldown-Periode** voraus. Die Zuweisung von Upvotes ist daher nur einmal pro Tag für einen Server deiner Wahl möglich. Nach der Zuweisung musst du **24 Stunden** warten, bis du diese erneut zuweisen kannst. 
+:::
 
 
 
