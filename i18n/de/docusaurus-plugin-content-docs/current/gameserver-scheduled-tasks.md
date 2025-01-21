@@ -53,7 +53,7 @@ In der Konfiguration einer Aufgabe kannst du festlegen, welche Art von Aufgabe d
 Wähle für den Wiederholungstyp die Option `Wiederholend`. Im Feld Cron-Ausdruck musst du nun die Intervalle angeben, in denen die Aufgabe ausgeführt werden soll. In diesem Fall wird der Dienst alle drei Stunden neu gestartet. 
 
 :::tip Cron generator
-Du bist mit der Struktur oder Syntax von Cron nicht vertraut? Verwenden einfach den [**Crontab Guru**] (http://www.crontab.guru/). Es handelt sich um eine einfache Anwendung, mit der du Cron-Ausdrücke mit ein paar Klicks erstellen und kopieren kannst. 
+Du bist mit der Struktur oder Syntax von Cron nicht vertraut? Verwenden einfach den [**Crontab Guru**](https://crontab.guru/). Es handelt sich um eine einfache Anwendung, mit der du Cron-Ausdrücke mit ein paar Klicks erstellen und kopieren kannst. 
 :::
 
 Um die Erstellung abzuschließen, wähle aus, von wann bis wann die geplante Aufgabe ausgeführt werden soll, und klicke dann auf Speichern.
