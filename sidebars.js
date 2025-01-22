@@ -166,6 +166,7 @@ const sidebars = {
       label: "FiveM",
       items: [
         "fivem-dashboard",
+        "fivem-firststeps-connect",
         "fivem-upvotes",
         {
           type: "category",
