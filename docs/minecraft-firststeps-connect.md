@@ -7,64 +7,103 @@ services:
   - gameserver
 ---
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
-
-Are you unsure about what you need to connect to your server in general or how to do it exactly? Don't worry! We will explain you in the following step by step what you will need to connect to your server, how to connect to it afterwards and what to consider in general. This should allow you to successfully connect to your server without any problems! :)
-
-![Main menu – Minecraft Wiki](https://static.wikia.nocookie.net/minecraft_gamepedia/images/f/f8/Java_Edition_1.19.3.png/revision/latest?cb=20221207162002)
-
-<InlineVoucher />
-
-## Prerequisites
-
-First of all, it is necessary to clarify which prerequisites have to be met so that a connection to the server is possible. This includes, for example, the game, additional content (extensions) such as mods/plugins and the general server information such as IP address, port and server name.
+Not sure how to connect to your **Minecraft** server or what you need to get started? No worries, we’ve got you covered! We will walk you through everything you need – from the required tools and information to the actual connection process, along with key considerations to ensure a smooth and trouble-free connection experience. Follow our guide and you'll be connected in no time!
 
 
 
-### Game / Contents
+## Requirements
 
-For the connection to your game server, it is mandatory that you already own the game. This is not provided by us when renting a server. It is also relevant whether you are using the vanilla or a custom version of Minecraft. When using a mod pack, it is important that you install the mod pack with the same version on your computer so that a connection can be established. The necessary mod pack launcher can be identified by the game name. For example, most mod packs run through the [Curse/Forge](https://www.curseforge.com/) and [Technique Launcher](https://www.technicpack.net/).
+Additional software may be required to connect to the game server for this game. For the vanilla version of Minecraft, i.e. without additional mods or modpacks, no additional software is required. If you want to use mods/modpacks, you will also need the matching launcher. You can see which launcher you need for the respective mod or modpack by the name of the game in the dashboard. 
 
-
-
-### Server information
-
-Provided that all prerequisites of **Game / Content** are met, you will need the information of your server. Click on your game server service in your dashboard. The overview will now show you all general information about your server.
-
-![](https://screensaver01.zap-hosting.com/index.php/s/fqm64RcaNjKFSRx/preview)
-
-The relevant information includes the **IP address,** **Port** and **Password**. You should remember these, because you will need them for your first connection to your server.
-
-
-
-## Connect to the server
-
-Once all the prerequisites have been met, you can begin to connect to the server. To do this, start your game via the Minecraft or Mod pack launcher and navigate to the Multiplayer menu option. Then click on Add Server. There you can enter a name as a placeholder and the IP address/port.
-
-![](https://screensaver01.zap-hosting.com/index.php/s/8nnoSokTNN7AKgn/preview)
+| Minecraft variant                       | Additional software required |
+| --------------------------------------- | ---------------------------- |
+| Minecraft: Vanilla                      | X                            |
+| Minecraft: Paper Spigot                 | X                            |
+| Minecraft: Spigot                       | X                            |
+| Minecraft: Bukkit                       | X                            |
+| Minecraft: Forge                        | ✓                            |
+| Minecraft: Fabric                       | ✓                            |
+| Minecraft with Mods/Modpacks in general | ✓                            |
 
 
 
-## Potential problems and **solutions**
 
-The establishment of the connection does not work as expected? This may happen in certain situations, when the connection fails due to a technical problem. We have listed the most common problems and their solutions below:
+#### Mods
+If you want to use mods, you will also need the matching mod loader. Depending on whether you want to use mods from Forge or Fabric, you will require one of the two. 
 
+- [Minecraft: Forge](https://files.minecraftforge.net/net/minecraftforge/forge/) - To use Forge mods, it is necessary to download and install Forge.
+- [Minecraft: Fabric](https://fabricmc.net/) - To use Fabric mods, it is necessary to download and install Fabric.
 
+Forge and also Fabric Mods must be installed manually both in the game and in the server software so that a connection can be established.
 
-### Not visible
-
-A lack of visibility of the server can occur if the initialization was not completed successfully for some reason. This may for example be due to a faulty configuration, faulty mods/plugins or corrupted files. Further information can usually be traced in the server console or log files.
-
-
-
-### Connection failed
-
-**Connection failed, Connection timed out.:** This error message means that a connection with the server could not be established within the scheduled time frame. The causes for this can be various. More information can usually be found in the logs or live console.
-
-**Mismatched mod channel list**: This error message occurs when there is a difference in mods between the client and the server. This can for example occur if individual mods are missing or they are installed for a different version. In this case, the mods should preferably be reinstalled and checked on the client and the server.
+:::danger Don't mix Fabric/Forge mods
+Fabric and Forge are not compatible with each other. Forge mods must run on Forge, and Fabric mods must run on Fabric. Mixing can lead to both client and server crashes. 
+:::
 
 
+#### Modpacks
+If you want to use one of the modpacks, you will also need the matching launcher. You can see which launcher you need for the respective modpack by the name of the game in the dashboard. 
+- [CurseForge](https://www.curseforge.com/) - To use modpacks from the Curse / Twitch Launcher, it is necessary to download it and install the modpack from there. 
+- [Feed The Beast](https://www.feed-the-beast.com/) - To use modpacks from the Feed The Beast Launcher, it is necessary to download it and install the modpack from there. 
+- [Technic Launcher](https://www.technicpack.net/) - To use modpacks from the Technic Launcher, it is necessary to download it and install the modpack from there. 
 
-The mentioned solutions have not solved your problem yet or do not apply in your case? In this case, we are also available to you daily in support. Simply create a **[Ticket](https://zap-hosting.com/en/customer/support/)** and explain your problem to us. We will have a look at it as quickly as possible and assist you in solving the problem accordingly! :)
+
+
+## Obtain server details
+
+You will require all the relevant information necessary to connect to your server. The information about your server can be found in the dashboard of your game server administration. Important information includes the following: 
+
+- IP address and port
+
+With the important information mentioned above, you should be able to locate your server and ensure that you connect to the correct server. 
+
+![img](https://screensaver01.zap-hosting.com/index.php/s/2orebizt2rz5bBz/preview)
+
+## Establish server connection
+
+The connection to a game server can often be established in one or more ways. The options and methods available and how to use them are explained in detail below. 
+
+<Tabs>
+    <TabItem value="connect_solution_server_browser_ingame" label="Server Browser (In game)" default>
+
+Start your game via the Minecraft or Mod pack launcher and navigate to the **Multiplayer** menu option. Then click on **Add Server**. There you can enter a name as a placeholder and the IP address/port.
+
+![img](https://screensaver01.zap-hosting.com/index.php/s/4nAK62sXGLySm4D/download)
+
+</TabItem>
+
+
+</Tabs>
+
+
+
+## Potential issues and solutions
+
+The establishment of the connection does not work as expected? This may happen in certain situations, when the connection fails due to technical issues. We have listed the most common issues and their solutions below:
+
+#### Not visible
+
+A lack of visibility of the server can occur if the initialization was not completed successfully for some reason. This may for example be due to a faulty configuration or corrupted files. Further information can usually be traced in the server console or log files.
+
+#### Connection failed, Connection timed out.
+This error message means that a connection with the server could not be established within the scheduled time frame. The causes for this can be various. More information can usually be found in the logs or live console.
+
+#### Mismatched mod channel list
+This error message occurs when there is a difference in mods between the client and the server. This can for example occur if individual mods are missing or they are installed for a different version. In this case, the mods should preferably be reinstalled and checked on the client and the server.
+
+
+
+#### Missing solution or unhelpful
+
+The mentioned solutions haven't solved your issue yet or don't apply in your case? In this case, we are also available to you daily in support. Simply create a **[Ticket](https://zap-hosting.com/en/customer/support/)** and explain your issue to us. We will have a look at it as quickly as possible and assist you in solving the issue accordingly!
+
+
+
+## Conclusion
+
+Congratulations, provided you have successfully followed everything, you should have successfully established a connection to the server. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
