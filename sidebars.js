@@ -786,6 +786,7 @@ const sidebars = {
           label: "First Steps",
           items: [
             "cs16-firststeps-dashboard",
+            "cs16-firststeps-connect"
           ]
         },
         "cs16-becomeadmin",
