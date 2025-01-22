@@ -1974,6 +1974,7 @@ const sidebars = {
           label: "First Steps",
           items: [
             "tf2-firststeps-dashboard",
+            "tf2-firststeps-connect"
           ]
         },
         {
