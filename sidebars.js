@@ -338,13 +338,14 @@ const sidebars = {
     },
     {
       type: "category",
-      label: "ARK",
+      label: "Ark: Survival Evolved",
       items: [
         {
           type: "category",
           label: "First Steps",
           items: [
             "ark-firststeps-dashboard",
+            "ark-firststeps-connect"
           ]
         },
         "ark-becomeadmin",
@@ -497,6 +498,25 @@ const sidebars = {
             "argo-firststeps-dashboard",
           ]
         },
+      ],
+    },
+    {
+      type: "category",
+      label: "Ark: Survival Evolved",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "ark-firststeps-dashboard",
+            "ark-firststeps-connect"
+          ]
+        },
+        "ark-becomeadmin",
+        "ark-mods",
+        "ark-serverlisting",
+        "ark-configuration",
+        "ark-savegame"
       ],
     },
     {
