@@ -1458,6 +1458,7 @@ const sidebars = {
           label: "First Steps",
           items: [
             "nmrih-firststeps-dashboard",
+            "nmrih-firststeps-connect"
           ]
         },
       ],
