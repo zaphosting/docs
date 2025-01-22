@@ -1621,7 +1621,8 @@ const sidebars = {
           type: "category",
           label: "First Steps",
           items: [
-            "redm-firststeps-dashboard"
+            "redm-firststeps-dashboard",
+            "redm-firststeps-connect"
           ]
         },
         'redm-upvotes',
