@@ -802,6 +802,7 @@ const sidebars = {
           label: "First Steps",
           items: [
             "css-firststeps-dashboard",
+            "css-firststeps-connect"
           ]
         },
         "source-gsltoken",
