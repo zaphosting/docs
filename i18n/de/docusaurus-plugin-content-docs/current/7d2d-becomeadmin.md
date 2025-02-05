@@ -41,6 +41,10 @@ Dadurch erhältst du dort sowohl allgemeine Informationen als auch die Steam ID 
   </users>
 ```
 
+:::danger Admin Eintrag wird nicht erkannt? 
+Achte darauf, die Kommentarzeichen `<!--` und `-->` zu entfernen, damit die Zeile gültig ist. Andernfalls bleibt die Zeile nur ein Kommentar und wird nicht übernommen. Entferne einfach die Zeichen am Anfang und Ende der Zeile, um sie aktiv zu machen.
+:::
+
 Das Spiel bietet bei den Administrator-Berechtigungen die Möglichkeit, unterschiedliche Berechtigungsstufen zu definieren. Somit ist es also möglich, verschiedene Administrator Gruppen mit unterschiedlichen Berechtigungen zu definieren. Das Ganze wird über die ``permission_level`` Option definiert. Diese kann von 0 bis 100 eingestellt werden. Je nachdem, wie diese konfiguriert wurde, haben die Administratoren dann Zugriff auf die zugewiesenen Berechtigungen. Wenn das erledigt wurde, dann wurden die Administrator-Berechtigungen erfolgreich zugewiesen. 
 
 
