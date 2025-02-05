@@ -25,9 +25,15 @@ Damit du deine Dateien mittels des FTP-Protokolls verwalten kannst, benötigst d
 | FileZilla  | [Offizielle Webseite](https://filezilla-project.org/download.php?platform=win64) |
 | WinSCP     | [Offizielle Webseite](https://winscp.net/eng/downloads.php)  |
 
-Suche dir einen FTP-Client aus und installiere diesen auf deinem Computer. Um eine Verbindung mit dem Server herzustellen, muss die **IP-Adresse (FTP Server)**, der **Username** und das **Passwort** eingegeben werden. Diese Informationen können unter FTP-Browser Seite eingesehen werden. Der Port ist immer **21**. Dieser wird in der Regel automatisch eingetragen.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/q8qb6GLXHmrMwEw/preview)
+
+## FTP-Daten abrufen
+
+Um über FTP auf deinen Gameserver zuzugreifen, benötigst du die entsprechenden Zugangsdaten. Diese findest du im Bereich **FTP-Browser** deiner Gameserver-Verwaltung.
+
+Gebe dazu einfach die **IP-Adresse (FTP-Server)**, den **Benutzernamen** und das **Passwort** ein, um die Verbindung herzustellen. Diese Zugangsdaten sind auf der Seite **FTP-Browser** aufgeführt. Der Port ist immer **21** und wird normalerweise automatisch eingestellt.
+
+![img](https://screensaver01.zap-hosting.com/index.php/s/QYWX8sSoszCXno4/download)
 
 
 
