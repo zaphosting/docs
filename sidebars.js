@@ -631,6 +631,7 @@ const sidebars = {
           label: "First Steps",
           items: [
             "battalion1944-firststeps-dashboard",
+            "battalion1944-firststeps-connect"
           ]
         },
       ],
