@@ -1,68 +1,95 @@
 ---
 id: cs2-firststeps-connect
-title: "CS2: Zum Server verbinden"
-description: Informationenen zum Verbindungsaufbau eines CS2 Server von ZAP-Hosting - ZAP-Hosting.com Dokumentationen
+title: "Counter-Strike 2: Zum Server verbinden"
+description: Informationen über verschiedene Möglichkeiten, wie du dich mit deinem Counter-Strike 2 Server von ZAP-Hosting verbinden kannst - ZAP-Hosting Dokumentation
 sidebar_label: Zum Server verbinden
 services:
   - gameserver
 ---
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 import InlineVoucher from '@site/src/components/InlineVoucher';
+
 
 ## Einführung
 
-Du bist dir unsicher, was du allgemein zum Verbinden deines Servers benötigst oder wie das genau vonstattengeht? Keine Sorge! Wir werden dir im Folgenden Schritt für Schritt erklären, was du für die Verbindung zu deinem Server benötigst, wie du dich im Anschluss damit verbindest und was es dabei allgemein zu beachten gibt. Damit sollte es dir problemlos möglich sein, dich erfolgreich mit deinem Server zu verbinden! :)
-
-![](https://screensaver01.zap-hosting.com/index.php/s/H5M3SWXcdsZXmJG/preview)
+Unsicher, wie du dich mit deinem **Counter-Strike 2** Server verbinden kannst oder was du dafür benötigst? Kein Problem, wir helfen dir weiter! Wir führen dich durch alles, was du benötigst - von den erforderlichen Werkzeugen und Informationen bis hin zum eigentlichen Verbindungsprozess und den wesentlichen Punkten, die für eine reibungslose und störungsfreie Verbindung erforderlich sind. Befolge unsere Anleitung und du wirst in kürzester Zeit verbunden sein!
 
 <InlineVoucher />
 
-## Voraussetzungen
-
-Zunächst gilt es zu klären, welche Voraussetzungen erfüllt werden müssen, damit eine Verbindung zum Server möglich ist. Das beinhaltet beispielsweise das Spiel, zusätzliche Inhalte (Erweiterungen) wie zum Beispiel Mods/Plugins und die allgemeinen Server-Informationen wie IP-Adresse, Port und Servername. 
 
 
+## Server-Details abrufen
 
-### Spiel / Inhalte
+Du benötigst alle relevanten Informationen, um dich mit deinem Server zu verbinden. Die Informationen über deinen Server findest du im Dashboard der Gameserver-Verwaltung. Zu den wichtigen Informationen gehören folgende: 
 
-Für die Verbindung zu deinem Gameserver ist es zwingend notwendig, dass du das Spiel bereits besitzt. Dies wird von uns beim Mieten eines Servers nicht bereitgestellt. Ansonsten müssen keine weiteren Voraussetzungen erfüllt werden.
+- IP-Adresse und Port
+- Name des Servers
+- Server-Passwort (optional)
 
+Mit den oben genannten wichtigen Informationen solltest du in der Lage sein, deinen Server zu finden und sicherzustellen, dass du dich mit dem richtigen Server verbindest. 
 
+![img](https://screensaver01.zap-hosting.com/index.php/s/wd8n8fTYPi8NtCw/preview)
 
-### Server Informationen
+## Verbindung zum Server herstellen
 
-Sofern alle Voraussetzungen von **Spiel / Inhalte** erfüllt sind, benötigst du nun Informationen deines Servers. Klicke dazu in deinem Dashboard auf deinen Gameserver Dienst. In der Übersicht siehst du nun alle allgemeinen Informationen zu deinem Server. 
+Die Verbindung zu einem Gameserver kann oftmals über einen oder mehrere Wege hergestellt werden. Die verfügbaren Optionen und Methoden sowie deren Verwendung werden im Folgenden detailliert erläutert. 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/X2kZ4J2LZTRX9Xx/preview)
+<Tabs>
+    <TabItem value="connect_solution_server_browser_ingame" label="Server Browser (Im Spiel)" default>
 
+Um eine Verbindung zu deinem Server über den Server-Browser im Spiel herzustellen, öffne den Server-Browser im Hauptmenü.
 
+</TabItem>
 
-Zu den relevanten Informationen gehören hierbei die **IP-Adresse,** **Port** und **Passwort**. Diese solltest du dir merken/notieren, da du diese gleich für deinen ersten Verbindungsaufbau zu deinem Server benötigst. 
-
-
-
-## Mit dem Server verbinden
-
-Nachdem alle Voraussetzungen erfüllt worden sind, kann nun damit begonnen werden eine Verbindung zum Server herzustellen. Öffne dazu den Steam Server Browser. Dort muss nun die IP-Adresse und Port deines Servers unter den Favoriten hinzugefügt werden.
-
-![](https://screensaver01.zap-hosting.com/index.php/s/PyF2xMHEzyyfjw7/preview)
-
-Es öffnet sich nun ein PopUp-Fenster, wo die Informationen eingetragen werden müssen. Im Anschluss solltest du nun deinen Server auffinden können. Mit diesem kannst du dich nun verbinden, in dem du diesen auswählst und die Verbindung herstellen Button verwendest.
-
-![](https://screensaver01.zap-hosting.com/index.php/s/cYLfEWyfBHMGB63/preview)
+<TabItem value="connect_solution_server_browser_steam" label="Server Browser (Steam)">
 
 
 
-## Mögliche Probleme und Lösungsansätze
+Um eine Verbindung zu deinem Server über den Steam-Server-Browser herzustellen, öffne den Server-Browser von Steam. Klicke oben in der Steam-Navigation auf `Ansicht` und dann auf den Abschnitt `Spielserver`, um diese zu öffnen. 
 
-Der Verbindungsaufbau klappt nicht so wie erwartet? Es kann in gewissen Situationen vorkommen, dass der Verbindungsaufbau durch ein technisches Problem fehlschlägt. Wir haben dir im Folgenden die bekanntesten Probleme und dazu gehörigen Lösungsansätze aufgelistet: 
+Suche oder füge deinen Server über den Steam-Browser hinzu, indem du die `IP-Adresse` und den `Port` deines Gameservers verwendest. Wähle dazu in der Serverliste den Reiter `Favoriten` aus und klicke auf das Plus-Symbol unten. Es öffnet sich ein Pop-up-Fenster, in dem du deine Serverinformationen angibst. 
+
+![img](https://screensaver01.zap-hosting.com/index.php/s/J6JsAwtSiXYjM4p/download)
+
+</TabItem>
+
+<TabItem value="connect_solution3" label="Konsole (Im Spiel)">
+
+Um eine Verbindung zu deinem Server über die Konsole herzustellen, öffne die Konsole mit der Taste `~`. Sobald die Konsole geöffnet ist, führe den folgenden Befehl aus: 
+
+```
+connect IP:Port
+connect IP:Port; password deindefiniertespasswort //  Wenn ein Server-Passwort festgelegt ist
+```
+
+![img](https://screensaver01.zap-hosting.com/index.php/s/ERHMR6q3CdySn4W/preview)
+
+</TabItem>
+</Tabs>
 
 
 
-### Nicht sichtbar
+## Mögliche Probleme und Lösungen
+
+Der Verbindungsaufbau klappt nicht so wie erwartet? Es kann in gewissen Situationen vorkommen, dass der Verbindungsaufbau durch ein technisches Problem fehlschlägt. Wir haben dir im Folgenden die bekanntesten Probleme und dazu gehörigen Lösungsansätze aufgelistet:
+
+#### Nicht sichtbar
 
 Eine fehlende Sichtbarkeit des Servers kann dann vorliegen, wenn die Initialisierung aus einem bestimmten Grund nicht erfolgreich abgeschlossen wurde. Das kann beispielsweise durch eine fehlerhafte Konfiguration oder beschädigten Dateien liegen. Weitere Informationen lassen sich in der Regel in der Server-Konsole oder den Log-Dateien nachvollziehen.
 
 
 
-Die genannten Lösungsansätze haben dein Problem noch nicht gelöst oder treffen in deinem Fall nicht zu? In dem Fall stehen wir dir auch im Support täglich zur Verfügung. Erstelle dazu einfach ein **[Ticket](https://zap-hosting.com/de/customer/support/)** und erläutere uns dein Problem. Wir werden uns dies dann so schnell wie möglich anschauen und dir bei der Lösung des Problems entsprechend weiterhelfen! 🙂
+#### Fehlende Lösung oder nicht hilfreich
+
+Die genannten Lösungsansätze haben dein Problem noch nicht gelöst oder treffen in deinem Fall nicht zu? In dem Fall stehen wir dir auch im Support täglich zur Verfügung. Erstelle dazu einfach ein **[Ticket](https://zap-hosting.com/de/customer/support/)** und erläutere uns dein Problem. Wir werden uns dies dann so schnell wie möglich anschauen und dir bei der Lösung des Problems entsprechend weiterhelfen!
+
+
+
+## Abschluss
+
+Glückwunsch, vorausgesetzt, dass du alle Schritte befolgt hast, solltest du erfolgreich eine Verbindung zum Server hergestellt haben. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+
+
+
