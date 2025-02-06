@@ -878,6 +878,7 @@ const sidebars = {
           label: "First Steps",
           items: [
             "dods-firststeps-dashboard",
+            "dods-firststeps-connect",
           ]
         },
         {
