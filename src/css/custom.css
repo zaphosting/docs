@@ -232,7 +232,7 @@ article p {
     padding-top: 0px;
   }
 
-  .navbar__items--right .navbarSearchContainer_node_modules-\@docusaurus-theme-classic-lib-theme-Navbar-Search-styles-module {
+  .navbar__items--right [class*="navbarSearchContainer"] {
     grid-row: 2;
     grid-column: span 3;
   }
