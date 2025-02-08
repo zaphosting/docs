@@ -5,6 +5,9 @@ const {themes} = require('prism-react-renderer');
 const lightCodeTheme = themes.github;
 const darkCodeTheme = themes.dracula;
 
+// Custom Navbar Menus
+const fs = require('fs');
+const vpsproductsHTML = fs.readFileSync('./src/theme/NavbarHover/vpsproducts.html', 'utf8');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -216,16 +219,14 @@ const config = {
           label: 'Gameserver',
         },
         {
-          type: 'docSidebar',
-          sidebarId: 'vpsrootSidebar',
+          label: 'Virtual Servers',
+          sidebarId: 'virtualserversSidebar',
           position: 'left',
-          label: 'vRootserver',
-        },
-        {
-          type: 'docSidebar',
-          sidebarId: 'dedicatedserverSidebar',
-          position: 'left',
-          label: 'Dedicated Server',
+          items: [{
+            type: 'html',
+            value: vpsproductsHTML,
+            className: 'hover-virtualserver-dropdown',
+          }]
         },
         {
           type: 'docSidebar',
