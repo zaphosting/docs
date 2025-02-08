@@ -274,11 +274,11 @@ article p {
 
 /* Navbar Dropdown Hover Menus */
 .dropdownWrapper {
-  padding: 10px;
+  padding: 0px 10px 10px 10px;
   position: relative;
   display: flex;
   flex-direction: column;
-  gap: 6px;
+  gap: 4px;
 }
 
 .dropdownWrapper h1, p {
@@ -292,7 +292,7 @@ article p {
   justify-content: space-between;
   align-items: center;
   gap: 10px;
-  margin-top: 6px;
+  margin-top: 8px;
 }
 
 .dropdownWrapper p {
@@ -305,7 +305,6 @@ article p {
 .contentImageDiv {
   display: flex;
   flex-direction: column;
-  padding: 4px;
   border: var(--ifm-color-primary) 2px solid;
   border-radius: 10px;
   height: 150px;
@@ -325,6 +324,10 @@ article p {
   margin-top: 0;
   margin-bottom: 0;
   font-weight: bold;
+  border-bottom: var(--ifm-color-primary) 2px solid;
+  border-radius: 0px 0px 5px 5px;
+  background-color: var(--ifm-color-primary);
+  color: var(--ifm-color-white);
 }
 
 #contentImageShort {
