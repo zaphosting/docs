@@ -13,6 +13,8 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 With a ZAP-Hosting Game Server, you have the ability to switch the server between various games that we offer quickly and easily through your web interface panel. In this guide, we will highlight our game switch feature and explore how you can utilise this to manage and activate different games on your game server.
 
+<YouTube videoId="nmPd4OsEEvc" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/egQo23DdptPw4qm/preview" title="How to Use the Game Switch Feature" description="Feel like you understand better when you see things in action? We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
+
 <InlineVoucher />
 
 ## Accessing Web Interface
