@@ -2,7 +2,7 @@
 id: gameserver-ftpaccess
 title: 'Gameserver: Zugriff per FTP zum Verwalten der Serverdateien'
 description: Informationen, wie du per FTP verbindest und die Dateien deines Gameservers von ZAP-Hosting verwaltest - ZAP-Hosting.com Dokumentation
-sidebar_label: Zugriff per FTP
+sidebar_label: FTP Zugriff
 services:
   - gameserver
 ---

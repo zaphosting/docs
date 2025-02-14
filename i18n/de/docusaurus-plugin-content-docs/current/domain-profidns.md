@@ -10,22 +10,43 @@ services:
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
+
 ## Einführung
 
-Mit der **ProfiDNS Funktion** kann man bei seiner Domain weitere zusätzliche Einträge(Records) erstellen, welche man über die EasyDNS Option nicht vornehmen kann bzw. wenn man selbst die gewünschten Einträge für seine Domain erstellen möchte.
+Die **ProfiDNS Option** ermöglicht es, erweiterte Konfigurationen der DNS-Einstellungen vorzunehmen. So kannst du sowohl auf die eigenen Dienste von ZAP-Hosting als auch auf andere externe Dienste verweisen. Die Möglichkeiten sind damit unbegrenzt. 
 
-## Wo finde ich die ProfiDNS Option und wie verwende ich es?
 
-Die Option wird einem angezeigt, soweit man die gewünschte Domain bei sich im Interface anklickt.
-Scrollt man dann ein wenig nach unten, werden einem die 3 zur Verfügung stehenden Optionen angezeigt.
-Die Haken bei ProfiDNS muss angeklickt + gespeichertwerden, damit man im Anschluss in der DNS Verwaltung die Einträge vornehmen kann.
 
-![2022-05-07_21-48](https://screensaver01.zap-hosting.com/index.php/s/f8y9qZcfowLqpk7/preview)
+## Zugang und Anwendungsfall
 
-Im Anschluss findet man auf der linken Seite den Reiter "DNS-Verwaltung" über welchen man dann neue Einträge erstellen kann: 
+Um auf die EasyDNS Option zuzugreifen und sie zu aktivieren, musst du die Verwaltung deiner Domain im Webinterface öffnen. Dort siehst du unter der DNS-Verwaltung die folgenden Optionen: 
 
-![2022-05-07_21-49](https://screensaver01.zap-hosting.com/index.php/s/rN9eqyfkMjmX4Gm/preview)
+\- EasyDNS
 
-Hier können dann neue Einträge erstellt werden oder bestehende Einträge können bearbeitet / gelöscht werden.
+\- ProfiDNS
 
-![2022-05-07_21-50](https://screensaver01.zap-hosting.com/index.php/s/isR8cNBwq5Z4weD/preview)
+\- ExpertDNS
+
+Die Option **EasyDNS** sollte dort standardmäßig ausgewählt sein, weshalb du zuerst die Option **ProfiDNS** aktivieren musst. 
+
+![2022-05-07_21-51_1](https://screensaver01.zap-hosting.com/index.php/s/f8y9qZcfowLqpk7/preview)
+
+
+
+Du kannst die DNS-Einträge in der Domainverwaltung unter den Einstellungen im Bereich **DNS-Verwaltung** verwalten. Dort können neue Einträge erstellt oder bestehende angepasst/gelöscht werden. 
+
+![2022-05-07_21-50_1](https://screensaver01.zap-hosting.com/index.php/s/isR8cNBwq5Z4weD/preview)
+
+
+
+Wir empfehlen für weitere wichtige Informationen zur Konfiguration der DNS-Einstellungen einen Blick in die folgenden Anleitungen zu werfen: 
+
+- [Domain Records](domain-records.md)
+- [Gameserver Weiterleitung](domain-gameserver-srv-link.md)
+- [Teamspeak 3 Weiterleitung](domain-teamspeak-redirect.md)
+
+
+
+## Abschluss
+
+Glückwunsch, du hast die DNS-Einstellungen von deiner Domain erfolgreich konfiguriert. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂

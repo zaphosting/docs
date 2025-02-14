@@ -1,7 +1,7 @@
 ---
 id: fivem-resolve-dbconnection
-title: "FiveM: Resolve Database Connection"
-description: Information on how to resolve any issues with oxmysql database connection on a FiveM from ZAP-Hosting - ZAP-Hosting.com documentation
+title: "FiveM: Resolve Database Connection issues"
+description: Information on how to resolve any issues with database connection on a FiveM from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Resolve DB Connection
 services:
   - gameserver
@@ -50,20 +50,17 @@ Now in another tab, head over to the **Tools->Databases** section where you will
 In your `server.cfg` file, add the following line (or **replace** it if it exists already), filling in the details with your own database credentials found on the web interface.
 
 ```
-set mysql_connection_string "user=root;password=12345;host=localhost;port=3306;database=fivem"
+set mysql_connection_string "mysql://USER:PASSWORD@SERVER:3306/DATABASE"
 ```
 
-:::tip
-The Server/IP Address should go into the `host` section, and the `port` should be kept as 3306.
-:::
 
-Once you have this ready, make sure to save the file and restart your server.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/MdanaTBPGLnkQX5/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/sf9sMJoZyJttHBE/preview)
+
+Once this has been completed, make sure to save the file and restart your server.
+
+
 
 ## Conclusion
 
-The next time the server launches, your database should be accessible again by your server and thus should fully function. You have successfully resolved your database connection issues.
-
-
-
+The next time the server launches, your database should be accessible again by your server and thus should fully function. You have successfully resolved your database connection issues. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂

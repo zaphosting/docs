@@ -10,20 +10,38 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
-With the **ProfiDNS function** you can create additional entries (records) for your domain, which you cannot do with the EasyDNS option or if you want to create the desired entries for your domain yourself.
+The **ProfiDNS option** offers the possibility to make advanced configurations to the DNS settings. This allows you to link to ZAP-Hosting's own services as well as to other external services. The possibilities are therefore endless. 
 
-## Where do I find the ProfiDNS Option and how do I use it?
 
-The option will be displayed, as long as you click on the desired domain in the interface.
-If you then scroll down a little, the 3 available options are displayed.
-The check mark at ProfiDNS must be clicked + saved so that you can make the entries in the DNS administration afterwards.
+
+## Access and use case
+
+To access and activate the EasyDNS option, you must open the administration of your domain in the web interface. Once there, you will see the following options under DNS administration:
+
+- EasyDNS
+- ProfiDNS
+- ExpertDNS
+
+The **EasyDNS** option should be selected by default. So you must first select and activate the **ProfiDNS** option. 
 
 ![2022-05-07_21-51_1](https://screensaver01.zap-hosting.com/index.php/s/tgQaM3iP2oYZsDC/preview)
 
-On the left hand side you will find the tab "DNS administration" where you can create new entries: 
 
-![2022-05-07_21-51](https://screensaver01.zap-hosting.com/index.php/s/Z95L8NtZ46KgDWo/preview)
 
-New entries can then be created or existing entries can be edited / deleted here:
+You can manage the DNS records under **DNS Administration** in the domain administration under Settings. New records can be created or existing ones can be adjusted/deleted there. 
 
 ![2022-05-07_21-50_1](https://screensaver01.zap-hosting.com/index.php/s/DHodS8rAggnMmSF/preview)
+
+
+
+We recommend taking a look at the following guides for further important information on configuring the DNS settings: 
+
+- [Domain records](domain-records.md)
+- [Gameserver forwarding](domain-gameserver-srv-link.md)
+- [Teamspeak 3 forwarding](domain-teamspeak-redirect.md)
+
+
+
+## Conclusion
+
+Congratulations, you have successfully configured the DNS settings of your domain. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂

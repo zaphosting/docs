@@ -9,6 +9,16 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
+
+
+:::warning Archived Guide
+This document has been archived. Documents are archived if they are no longer relevant, incorrect or up to date. It has been archived for the following reasons:
+
+**Reason**: The method of realization is for an outdated ESX version. This approach cannot be used for the current ESX version, as the structure has changed. 
+::::
+
+
+
 :::info
 ESX must be installed
 :::

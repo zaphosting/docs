@@ -15,7 +15,7 @@ Satisfactory does not offer official modding, however the game is built with mod
 
 <InlineVoucher />
 
-## Preperation
+## Preparation
 
 To begin, you will need to find mods that you wish to use. In this guide, we will be utilizing the [Satisfactory Mod Manager](https://ficsit.app/) tool, which is a popular open-source mod manager allowing you to easily manage mods for both your local game and your game server.
 

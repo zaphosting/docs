@@ -626,5 +626,25 @@
   "sidebar.gameserverSidebar.category.Vintage Story": {
     "message": "Vintage Story",
     "description": "The label for category Vintage Story in sidebar gameserverSidebar"
+  },
+  "sidebar.gameserverSidebar.category.Forge & Fabric (Mods)": {
+    "message": "Forge & Fabric (Mods)",
+    "description": "The label for category Forge & Fabric (Mods) in sidebar gameserverSidebar"
+  },
+  "sidebar.gameserverSidebar.category.Spigot & Bukkit (Plugins)": {
+    "message": "Spigot & Bukkit (Plugins)",
+    "description": "The label for category Spigot & Bukkit (Plugins) in sidebar gameserverSidebar"
+  },
+  "sidebar.gameserverSidebar.category.Rising World": {
+    "message": "Rising World",
+    "description": "The label for category Rising World in sidebar gameserverSidebar"
+  },
+  "sidebar.domainwebspaceSidebar.category.Domain forwarding": {
+    "message": "Domain forwarding",
+    "description": "The label for category Domain forwarding in sidebar domainwebspaceSidebar"
+  },
+  "sidebar.domainwebspaceSidebar.category.Cloudflare": {
+    "message": "Cloudflare",
+    "description": "The label for category Cloudflare in sidebar domainwebspaceSidebar"
   }
 }

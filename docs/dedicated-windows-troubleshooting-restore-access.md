@@ -15,7 +15,7 @@ It can happen quickly... You try to log into your Windows Server, but your passw
 
 <InlineVoucher />
 
-## Preperation
+## Preparation
 Resetting access from the administrator account is done by using a Windows ISO file. Accordingly, the same ISO file is used that was originally used for the installation of the Windows Server operating system. 
 
 This step can be carried out either via the [**First installation**](dedicated-setup.md) or via **[ISO](dedicated-iso.md)**. Select or specify the ISO file that was originally used, depending on the method used.

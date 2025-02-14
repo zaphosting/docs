@@ -10,6 +10,12 @@ services:
 import YouTube from '@site/src/components/YouTube/YouTube';
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
+:::warning Archivierte Anleitung
+Dieses Dokument wurde archiviert. Dokumente werden archiviert, wenn sie nicht mehr relevant, nicht mehr korrekt oder nicht mehr auf dem neuesten Stand sind. Es wurde aus den folgenden Gründen archiviert:
+
+Grund: CS:GO wird nicht mehr aktiv angeboten und nicht mehr weiterentwickelt. CS2 ist der Nachfolger von CS:GO. Wir empfehlen den Umstieg auf CS2.
+::::
+
 ## Einführung
 
 Du bist an einem **Counter-Strike: Global Offensive Server** interessiert oder besitzt bereits einen, doch dir fehlt noch ein umfassender Überblick über die Verwaltung und die Auffindbarkeit aller notwendigen Optionen? Gerade zu Beginn kann dies eine Herausforderung darstellen. Aber keine Sorge, im Folgenden bieten wir dir eine ausführliche Einführung zur Verwaltung deines Dienstes, damit du den optimalen Durchblick hast.
@@ -20,9 +26,10 @@ Nachdem du diese Anleitung durchgegangen bist, wirst du problemlos in der Lage s
 
 <InlineVoucher />
 
-## Informationen
+## Produktverwaltung
 
-Im Abschnitt **Informationen** deines Navigationspanels findest du eine Reihe von Unterpunkten, die dir bei der Verwaltung deines Servers helfen. Dazu zählen **Dashboard**, **News**, **Statistiken**, **DDoS Manager**, **Tebex Shop**, **Log-Dateien**, **Ereignislog**, **Live Konsole**, **Störungen**, **Fragen und Antworten** und der **ZAP-Hosting.com Dokumentation**. Im Folgenden erhältst du eine detaillierte Einführung zu diesen verschiedenen Bereichen.
+In dem Abschnitt **Produkt Administration** wirst du alle notwendigen Seiten finden, die für die Verwaltung deines Servers notwendig sind. Die Möglichkeiten, wie du deinen Server verwalten kannst, werden dir im folgenden detailliert aufgelistet. 
+
 
 
 
@@ -36,16 +43,11 @@ Im Dashboard hast du außerdem die Möglichkeit, deinen Dienst zu starten, zu st
 
 
 
-### News
 
-Die **News** bieten dir eine umfassende Übersicht über sämtliche Ankündigungen und Neuigkeiten in Bezug auf deinen Dienst. Hier findest du wichtige Informationen zu verschiedenen Aspekten wie etwa:
 
-- Veränderungen des Dienstes beispielsweise durch Updates oder neuen Funktionen
-- Ankündigungen zu möglichen Wartungsarbeiten oder technischen Problemen
-- Spezielle Angebote und Aktionen, die dir exklusive Vorteile oder Rabatte bieten
-- Sonstige relevante Informationen, die für die Nutzung deines Dienstes von Bedeutung sein könnten
 
-Durch regelmäßiges Überprüfen der **News** bleibst du stets informiert und kannst dein Dienst entsprechend anpassen, um das Beste aus deinem Server herauszuholen.
+
+
 
 
 
@@ -126,25 +128,18 @@ In diesem Bereich findest du eine Übersicht über die Störungshistorie des Hos
 
 
 
-### Fragen & Antworten
-
-Falls du noch offene Fragen hast, empfehlen wir dir, zunächst in unsere Fragen & Antworten (FAQ) Kategorie zu schauen. Dort bemühen wir uns, häufig auftretende Anliegen und Fragestellungen umfassend zu beantworten. Dies kann dir wertvolle Informationen liefern und eventuell bereits eine Lösung für dein Anliegen bieten.
 
 
 
-### ZAP-Hosting Dokumentation
 
-Wir bieten eine umfangreiche Dokumentation zu unseren Produkten an, die als Wissensdatenbank für die am häufigsten gestellten Fragen und Anliegen dient. Dort findest du zahlreiche Anleitungen und Hilfestellungen zu verschiedenen Themen, die dir bei der Nutzung und Verwaltung deines Produktes unterstützen.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/QrEL7ABJtS9yBcS/preview)
 
 
 
 
 ## Einstellungen
 
-Im Abschnitt **Einstellungen** deines Navigationspanels findest du eine Reihe von Unterpunkten, die dir bei der Verwaltung deines Servers helfen. Dazu zählen die **Einstellungen**, **Configs**, **Spiele**, **Versionen**, **Plugins**, **Steam Workshop** und der **Restart Planer**. Im Folgenden erhältst du eine detaillierte Einführung zu diesen verschiedenen Bereichen.
-
+In dem Abschnitt **Einstellungen** wirst du alle notwendigen Seiten finden, die für die Konfiguration deines Servers notwendig sind. Die verfügbaren Möglichkeiten, wie du deinen Server konfigurieren kannst, werden dir im folgenden detailliert aufgelistet. 
 
 
 ### Einstellungen
@@ -249,3 +244,25 @@ In den Einstellungen kannst du festlegen, ob Backups automatisch erstellt werden
 
 Wir stellen für unsere Gameserver Produkte standardmäßig 10 GB Speicherplatz auf dem Storage Server für Backups zur Verfügung. Solltest du mehr Speicherplatz benötigen, so kann dieser kostenpflichtig per Upgrade erweitert werden. So stellst du sicher, dass du stets genügend Platz für deine Backups hast und bei Bedarf auf ältere Backups zugreifen kannst.
 
+## Weiterführende Links
+In dem Abschnitt **Weiterführende Links** findest du weitere Links, die für dein Produkt relevant sind. 
+
+### Fragen und Antworten
+Der Bereich **Fragen und Antworten** bietet einen Überblick über die am häufigsten gestellten Fragen unserer Kunden. Hier findest du hilfreiche Antworten und detaillierte Informationen zu verschiedenen Themen, um dir schnell und effizient zu helfen.
+
+### ZAP-Hosting Dokumentation
+
+Wir bieten eine umfangreiche Dokumentation zu unseren Produkten an, die als Wissensdatenbank für die am häufigsten gestellten Fragen und Anliegen dient. Dort findest du zahlreiche Anleitungen und Hilfestellungen zu verschiedenen Themen, die dir bei der Nutzung und Verwaltung deines Produktes unterstützen.
+
+![](https://screensaver01.zap-hosting.com/index.php/s/a9ccomokEwYfPbo/preview)
+
+### News
+
+Die **News** bieten dir eine umfassende Übersicht über sämtliche Ankündigungen und Neuigkeiten in Bezug auf deinen Dienst. Hier findest du wichtige Informationen zu verschiedenen Aspekten, wie etwa:
+
+- Veränderungen des Dienstes beispielsweise durch Updates oder neuen Funktionen
+- Ankündigungen zu möglichen Wartungsarbeiten oder technischen Problemen
+- Spezielle Angebote und Aktionen, die dir exklusive Vorteile oder Rabatte bieten
+- Sonstige relevante Informationen, die für die Nutzung deines Dienstes von Bedeutung sein könnten
+
+Durch regelmäßiges Überprüfen der **News** bleibst du stets informiert und kannst dein Dienst entsprechend anpassen, um das Beste aus deinem Server herauszuholen.
