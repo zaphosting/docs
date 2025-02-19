@@ -646,5 +646,25 @@
   "sidebar.domainwebspaceSidebar.category.Cloudflare": {
     "message": "Cloudflare",
     "description": "The label for category Cloudflare in sidebar domainwebspaceSidebar"
+  },
+  "sidebar.gameserverSidebar.category.Ark: Survival Evolved": {
+    "message": "Ark: Survival Evolved",
+    "description": "The label for category Ark: Survival Evolved in sidebar gameserverSidebar"
+  },
+  "sidebar.gameserverSidebar.category.Counter-Strike 1.6": {
+    "message": "Counter-Strike 1.6",
+    "description": "The label for category Counter-Strike 1.6 in sidebar gameserverSidebar"
+  },
+  "sidebar.gameserverSidebar.category.Counter-Strike: Source": {
+    "message": "Counter-Strike: Source",
+    "description": "The label for category Counter-Strike: Source in sidebar gameserverSidebar"
+  },
+  "sidebar.gameserverSidebar.category.Counter-Strike 2": {
+    "message": "Counter-Strike 2",
+    "description": "The label for category Counter-Strike 2 in sidebar gameserverSidebar"
+  },
+  "sidebar.gameserverSidebar.category.Day of Defeat: Source": {
+    "message": "Day of Defeat: Source",
+    "description": "The label for category Day of Defeat: Source in sidebar gameserverSidebar"
   }
 }
