@@ -1665,6 +1665,7 @@ const sidebars = {
             "redm-steam-web-api-key",
             "redm-locale",
             "redm-devtools",
+            "redm-prohibited-resources"
           ]
         },
         {
