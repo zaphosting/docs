@@ -1,7 +1,7 @@
 ---
-id: valheim-firststeps-connect
-title: "Valheim: Connect to the server"
-description: Information about various ways on how to connect to your Valheim server from ZAP-Hosting - ZAP-Hosting.com Documentation
+id: css-firststeps-connect
+title: "Counter Strike Source: Connect to the server"
+description: "Information about various ways on how to connect to your Counter-Strike: Source server from ZAP-Hosting - ZAP-Hosting.com Documentation"
 sidebar_label: Connect to the server
 services:
   - gameserver
@@ -13,21 +13,9 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Introduction
-Not sure how to connect to your **Valheim** server or what you need to get started? No worries, we’ve got you covered! We will walk you through everything you need – from the required tools and information to the actual connection process, along with key considerations to ensure a smooth and trouble-free connection experience. Follow our guide and you'll be connected in no time!
+Not sure how to connect to your **Counter-Strike: Source** server or what you need to get started? No worries, we’ve got you covered! We will walk you through everything you need – from the required tools and information to the actual connection process, along with key considerations to ensure a smooth and trouble-free connection experience. Follow our guide and you'll be connected in no time!
 
 <InlineVoucher />
-
-
-
-
-## Requirements
-
-Additional software is not required for the regular use of a Valheim vanilla server. However, if you have chosen the Valheim Plus or BepInEx variant to use plugins, then you also need to install this extension locally. Please have a look here to find out how to install these extensions locally for your game: 
-
-| Extension       | Download                                                     |
-| --------------- | ------------------------------------------------------------ |
-| Valheim Plus    | [Link](https://github.com/Grantapher/ValheimPlus)            |
-| Valheim BepInEx | [Link](https://thunderstore.io/c/valheim/p/denikson/BepInExPack_Valheim/) |
 
 
 
@@ -41,7 +29,7 @@ You will require all the relevant information necessary to connect to your serve
 
 With the important information mentioned above, you should be able to locate your server and ensure that you connect to the correct server. 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/mfm2fFafq4Xq9H5/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/z3tAg8PFiS8N9r3/preview)
 
 ## Establish server connection
 
@@ -50,14 +38,35 @@ The connection to a game server can often be established in one or more ways. Th
 <Tabs>
     <TabItem value="connect_solution_server_browser_ingame" label="Server Browser (In game)" default>
 
-To connect to your server via the in game server browser, open the game. Click on **Start game**. If you haven't created a character yet, the next step is to create one and start with it. Now click on **Add server** in the server list. Enter the IP:Port of your server in the new popup window. Once you have added the server, you can connect via the **Connect** button. 
+To connect to your server via the in game server browser, open the server browser in the main menu by pressing on **Find servers** button. Click on **Add a server** and enter the IP:Port of your server in the field. Click on **Add this address to favorites** to add the server to your favorites.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/2CAiyKEkpYnmgEJ/download)
+![img](https://screensaver01.zap-hosting.com/index.php/s/xmQbcE2k8omcSaS/download)
 
 </TabItem>
 
+<TabItem value="connect_solution_server_browser_steam" label="Server Browser (Steam)">
 
 
+
+To connect to your server via the Steam server browser, open the server browser from Steam. Click on `View` at the top of the Steam navigation and then on the `Game Server` section to open it. 
+
+Search or add your server via the Steam browser by using the `IP address` and `Port` of your game server. To do this, select the `Favorites` tab in the server list and click on the plus symbol at the bottom. A pop-up window will open in which you specify your server information. 
+
+![img](https://screensaver01.zap-hosting.com/index.php/s/MMsokw2ZyCreeCN/download)
+
+</TabItem>
+
+<TabItem value="connect_solution3" label="Console (In game)">
+
+In Counter-Strike: Source, the console is disabled by default. To enable it, **visit Options → Keyboard and choose Advanced**. To connect to your server via console, open the console with the `~` key. Once the console is open, execute the following command: 
+
+```
+connect IP:Port
+```
+
+![img](https://screensaver01.zap-hosting.com/index.php/s/HJR9y7BdiLziABo/preview)
+
+</TabItem>
 </Tabs>
 
 
@@ -69,12 +78,6 @@ The establishment of the connection does not work as expected? This may happen i
 #### Not visible
 
 A lack of visibility of the server can occur if the initialization was not completed successfully for some reason. This may for example be due to a faulty configuration or corrupted files. Further information can usually be traced in the server console or log files.
-
-
-
-#### Connection failed
-
-Valheim Plus/BepInEx: The connection may fail if the necessary extension is not installed on the client or it is running on a different version. Make sure that the extension/modification is installed and functional. This can usually be seen in the main menu by the "Valheim Plus" heading and version.
 
 
 

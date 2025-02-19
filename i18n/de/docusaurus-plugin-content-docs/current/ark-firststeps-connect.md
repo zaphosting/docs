@@ -1,7 +1,7 @@
 ---
-id: cs2-firststeps-connect
-title: "Counter-Strike 2: Zum Server verbinden"
-description: Informationen über verschiedene Möglichkeiten, wie du dich mit deinem Counter-Strike 2 Server von ZAP-Hosting verbinden kannst - ZAP-Hosting Dokumentation
+id: ark-firststeps-connect
+title: "Ark Survival Evolved: Zum Server verbinden"
+description: Informationen über verschiedene Möglichkeiten, wie du dich mit deinem Ark Survival Evolved Server von ZAP-Hosting verbinden kannst - ZAP-Hosting Dokumentation
 sidebar_label: Zum Server verbinden
 services:
   - gameserver
@@ -14,7 +14,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Unsicher, wie du dich mit deinem **Counter-Strike 2** Server verbinden kannst oder was du dafür benötigst? Kein Problem, wir helfen dir weiter! Wir führen dich durch alles, was du benötigst - von den erforderlichen Werkzeugen und Informationen bis hin zum eigentlichen Verbindungsprozess und den wesentlichen Punkten, die für eine reibungslose und störungsfreie Verbindung erforderlich sind. Befolge unsere Anleitung und du wirst in kürzester Zeit verbunden sein!
+Unsicher, wie du dich mit deinem **Ark Survival Evolved** Server verbinden kannst oder was du dafür benötigst? Kein Problem, wir helfen dir weiter! Wir führen dich durch alles, was du benötigst - von den erforderlichen Werkzeugen und Informationen bis hin zum eigentlichen Verbindungsprozess und den wesentlichen Punkten, die für eine reibungslose und störungsfreie Verbindung erforderlich sind. Befolge unsere Anleitung und du wirst in kürzester Zeit verbunden sein!
 
 <InlineVoucher />
 
@@ -30,7 +30,7 @@ Du benötigst alle relevanten Informationen, um dich mit deinem Server zu verbin
 
 Mit den oben genannten wichtigen Informationen solltest du in der Lage sein, deinen Server zu finden und sicherzustellen, dass du dich mit dem richtigen Server verbindest. 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/wd8n8fTYPi8NtCw/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/LBiXJy7JdoRARJz/preview)
 
 ## Verbindung zum Server herstellen
 
@@ -39,13 +39,11 @@ Die Verbindung zu einem Gameserver kann oftmals über einen oder mehrere Wege he
 <Tabs>
     <TabItem value="connect_solution_server_browser_ingame" label="Server Browser (Im Spiel)" default>
 
-Um eine Verbindung zu deinem Server über den Server-Browser im Spiel herzustellen, öffne den Server-Browser im Hauptmenü.
+Um eine Verbindung zu deinem Server über den Server-Browser im Spiel herzustellen, öffne den Server-Browser im Hauptmenü. Klicke dafür auf **Join Ark** und gebe oben im **Name Filter** den Namen deines Gameservers an. Wähle anschließend den Server aus und klicke auf den **Join** Button. 
 
 </TabItem>
 
 <TabItem value="connect_solution_server_browser_steam" label="Server Browser (Steam)">
-
-
 
 Um eine Verbindung zu deinem Server über den Steam-Server-Browser herzustellen, öffne den Server-Browser von Steam. Klicke oben in der Steam-Navigation auf `Ansicht` und dann auf den Abschnitt `Spielserver`, um diese zu öffnen. 
 
@@ -55,18 +53,33 @@ Suche oder füge deinen Server über den Steam-Browser hinzu, indem du die `IP-A
 
 </TabItem>
 
-<TabItem value="connect_solution3" label="Konsole (Im Spiel)">
+<TabItem value="connect_solution_console" label="Konsole">
 
-Um eine Verbindung zu deinem Server über die Konsole herzustellen, öffne die Konsole mit der Taste `~`. Sobald die Konsole geöffnet ist, führe den folgenden Befehl aus: 
+Um eine Verbindung zu deinem Server über die Konsole herzustellen, öffne die Konsole mit der Taste `KEY_XY`. Sobald die Konsole geöffnet ist, führe den folgenden Befehl aus: 
 
 ```
-connect IP:Port
-connect IP:Port; password deindefiniertespasswort //  Wenn ein Server-Passwort festgelegt ist
+open IP:Port
 ```
-
-![img](https://screensaver01.zap-hosting.com/index.php/s/ERHMR6q3CdySn4W/preview)
 
 </TabItem>
+
+<TabItem value="connect_solution_epic" label="Konsole (Epic Games)">
+
+Um eine Verbindung zu deinem Server über die Konsole herzustellen, öffne die Konsole mit der Taste `KEY_XY`. Sobald die Konsole geöffnet ist, führe den folgenden Befehl aus: 
+
+```
+open IP:Port
+```
+
+:::warning Verwendung des Ports mit EPIC Launcher
+Wenn du dich über den EPIC Launcher mit deinem Gameserver verbinden möchtest, dann musst du den aktuellen Port um zwei (+2) erhöhen. Wenn dein Port z.B. 27015 ist, dann musst du stattdessen 27017 verwenden.
+:::
+
+:::danger Fehlende Kompatibilität mit Passwort-geschützten Servern
+Es ist derzeit nicht möglich, sich über den EPIC Launcher mit ARK-Servern zu verbinden, wenn diese durch ein Server-Passwort geschützt sind.
+:::
+</TabItem>
+
 </Tabs>
 
 

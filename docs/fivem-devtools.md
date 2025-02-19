@@ -1,36 +1,48 @@
 ---
 id: fivem-devtools
-title: "FiveM: Activate Devtools"
+title: "FiveM: Enable Dev Tools for extended debugging information"
 description: Informations on how to activate the FiveM Developer Tools - ZAP-Hosting.com documentation
-sidebar_label: Activate Devtools
+sidebar_label: Enable Dev Tools
 services:
   - gameserver
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
+## Introduction
 
+The FiveM Dev Tools are a set of development tools provided for the FiveM platform to help developers develop, debug and optimize their servers and resources more efficiently.
 
-:::warning Archived Guide
-
-This document has been archived. Documents are archived if they are no longer relevant, incorrect or up to date. It has been archived for the following reasons:
-
-**Reason**: Obsolete feature that is no longer used.
-
-::::
-
-
+![img](https://screensaver01.zap-hosting.com/index.php/s/GMp53mQNsxo247y/preview)
 
 <InlineVoucher />
 
-To activate the devtools in FiveM we first have to open our FiveM client and open the settings:
+## Use cases
 
-![](https://screensaver01.zap-hosting.com/index.php/s/kPWJtkQPxND8KNB/preview)
+Activating and using the dev tools will provide you with extensive debugging information. This gives you an overview and information for the following use cases: 
 
-Here we scroll down to the Update Channel and set it to Beta:
+- Resource Monitoring
+- Event Logger
+- Profiler
+- Network Diagnostics
+- Console & Debug Output
 
-![](https://screensaver01.zap-hosting.com/index.php/s/wSmQYfEppMCQNZT/preview)
+## Preparation
 
-Now we just have to restart our FiveM, after that the devtools will be activated:
+To be able to use the FiveM dev tools, the `Beta` channel must be selected and activated in the FiveM client settings under Game. A restart of the client is required once the change has been made. 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/BpNpA6TcMjcDGBR/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/FKfXXYAMEF39n25/download)
+
+## Use dev tools
+
+The Dev Tools can be accessed by opening the console with the `F8` key. Once there, you will see the Tools section at the top of the console navigation, where you will find the most common tools. 
+
+![img](https://screensaver01.zap-hosting.com/index.php/s/E5szziipJre6X7Y/preview)
+
+:::warning Tool options missing?
+Are you not seeing all the tool options as shown in the screenshot? In this case, you have probably not set the channel correctly as in the preparation or have forgotten to restart the client. 
+:::
+
+## Conclusion
+
+You have successfully enabled the FiveM Dev Tools. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂

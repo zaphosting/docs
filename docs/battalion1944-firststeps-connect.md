@@ -1,7 +1,7 @@
 ---
-id: cs2-firststeps-connect
-title: "Counter-Strike 2: Connect to the server"
-description: Information about various ways on how to connect to your Counter-Strike 2 server from ZAP-Hosting - ZAP-Hosting.com Documentation
+id: battalion1944-firststeps-connect
+title: "Battalion 1944: Connect to the server"
+description: Information about various ways on how to connect to your Battalion 1944 server from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Connect to the server
 services:
   - gameserver
@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Introduction
-Not sure how to connect to your **Counter-Strike 2** server or what you need to get started? No worries, we’ve got you covered! We will walk you through everything you need – from the required tools and information to the actual connection process, along with key considerations to ensure a smooth and trouble-free connection experience. Follow our guide and you'll be connected in no time!
+Not sure how to connect to your **Battalion 1944** server or what you need to get started? No worries, we’ve got you covered! We will walk you through everything you need – from the required tools and information to the actual connection process, along with key considerations to ensure a smooth and trouble-free connection experience. Follow our guide and you'll be connected in no time!
 
 <InlineVoucher />
 
@@ -29,13 +29,14 @@ You will require all the relevant information necessary to connect to your serve
 
 With the important information mentioned above, you should be able to locate your server and ensure that you connect to the correct server. 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/TArxRjwEcctXwFt/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/M9ojM7atCZBJze2/preview)
 
 ## Establish server connection
 
 The connection to a game server can often be established in one or more ways. The options and methods available and how to use them are explained in detail below. 
 
 <Tabs>
+ 
 
 <TabItem value="connect_solution_server_browser_steam" label="Server Browser (Steam)">
 
@@ -57,8 +58,6 @@ To connect to your server via console, open the console with the `~` key. Once t
 connect IP:Port
 connect IP:Port; password yourdefinedpassword // In case a server password is set
 ```
-
-![img](https://screensaver01.zap-hosting.com/index.php/s/ERHMR6q3CdySn4W/preview)
 
 </TabItem>
 </Tabs>

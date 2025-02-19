@@ -166,6 +166,7 @@ const sidebars = {
       label: "FiveM",
       items: [
         "fivem-dashboard",
+        "fivem-firststeps-connect",
         "fivem-upvotes",
         {
           type: "category",
@@ -177,6 +178,7 @@ const sidebars = {
             "fivem-licensekey",
             "fivem-deletecache",
             "fivem-resolve-dbconnection",
+            "fivem-devtools",
             "fivem-useprofiler",
             "fivem-mastodon",
             "fivem-prohibited-resources",
@@ -210,7 +212,8 @@ const sidebars = {
             "fivem-esx-becomeadminoverdatabase",
             "fivem-esx-addcarstoshop",
             "fivem-esx-changejobgarages",
-            "fivem-editlocalfiles"
+            "fivem-editlocalfiles",
+            "fivem-esx-spawnpoints"
           ]
         },
         {
@@ -335,13 +338,14 @@ const sidebars = {
     },
     {
       type: "category",
-      label: "ARK",
+      label: "Ark: Survival Evolved",
       items: [
         {
           type: "category",
           label: "First Steps",
           items: [
             "ark-firststeps-dashboard",
+            "ark-firststeps-connect"
           ]
         },
         "ark-becomeadmin",
@@ -380,6 +384,7 @@ const sidebars = {
           label: "First Steps",
           items: [
             "enshrouded-firststeps-dashboard",
+            "enshrouded-firststeps-connect"
           ]
         },
         "enshrouded-configuration",
@@ -498,6 +503,25 @@ const sidebars = {
     },
     {
       type: "category",
+      label: "Ark: Survival Evolved",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "ark-firststeps-dashboard",
+            "ark-firststeps-connect"
+          ]
+        },
+        "ark-becomeadmin",
+        "ark-mods",
+        "ark-serverlisting",
+        "ark-configuration",
+        "ark-savegame"
+      ],
+    },
+    {
+      type: "category",
       label: "Arma 3",
       items: [
         {
@@ -608,6 +632,7 @@ const sidebars = {
           label: "First Steps",
           items: [
             "battalion1944-firststeps-dashboard",
+            "battalion1944-firststeps-connect"
           ]
         },
       ],
@@ -776,13 +801,14 @@ const sidebars = {
     },
     {
       type: "category",
-      label: "CS 1.6",
+      label: "Counter-Strike 1.6",
       items: [
         {
           type: "category",
           label: "First Steps",
           items: [
             "cs16-firststeps-dashboard",
+            "cs16-firststeps-connect"
           ]
         },
         "cs16-becomeadmin",
@@ -791,13 +817,14 @@ const sidebars = {
     },
     {
       type: "category",
-      label: "CS:S",
+      label: "Counter-Strike: Source",
       items: [
         {
           type: "category",
           label: "First Steps",
           items: [
             "css-firststeps-dashboard",
+            "css-firststeps-connect"
           ]
         },
         "source-gsltoken",
@@ -814,7 +841,7 @@ const sidebars = {
     },
     {
       type: "category",
-      label: "CS2",
+      label: "Counter-Strike 2",
       items: [
         {
           type: "category",
@@ -841,6 +868,29 @@ const sidebars = {
           ]
         },
         
+      ],
+    },
+    {
+      type: "category",
+      label: "Day of Defeat: Source",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "dods-firststeps-dashboard",
+            "dods-firststeps-connect",
+          ]
+        },
+        {
+          type: "category",
+          label: "Sourcemod / Metamod",
+          items: [
+            "source-metamod-installation",
+            "source-metamod-addadmins",
+            "source-metamod-plugins"
+          ]
+        },
       ],
     },
     {
@@ -949,7 +999,8 @@ const sidebars = {
           type: "category",
           label: "First Steps",
           items: [
-            "enshrouded-firststeps-dashboard"
+            "enshrouded-firststeps-dashboard",
+            "enshrouded-firststeps-connect"
           ]
         },
         "enshrouded-configuration",
@@ -1050,7 +1101,8 @@ const sidebars = {
           type: "category",
           label: "QBCore",
           items: [
-            "fivem-qbcore-admin"
+            "fivem-qbcore-admin",
+            "fivem-qbcore-spawnpoints"
           ]
         }
       ],
@@ -1430,6 +1482,7 @@ const sidebars = {
           label: "First Steps",
           items: [
             "nmrih-firststeps-dashboard",
+            "nmrih-firststeps-connect"
           ]
         },
       ],
@@ -1595,9 +1648,11 @@ const sidebars = {
           type: "category",
           label: "First Steps",
           items: [
-            "redm-firststeps-dashboard"
+            "redm-firststeps-dashboard",
+            "redm-firststeps-connect"
           ]
         },
+        'redm-upvotes',
         {
           type: "category",
           label: "Configuration & Administration",
@@ -1609,6 +1664,8 @@ const sidebars = {
             "redm-gamebuild",
             "redm-steam-web-api-key",
             "redm-locale",
+            "redm-devtools",
+            "redm-prohibited-resources"
           ]
         },
         {
@@ -1943,6 +2000,7 @@ const sidebars = {
           label: "First Steps",
           items: [
             "tf2-firststeps-dashboard",
+            "tf2-firststeps-connect"
           ]
         },
         {

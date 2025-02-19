@@ -24,9 +24,17 @@ To manage your files using the FTP protocol, you need a suitable FTP client. The
 | FileZilla  | [Official Website](https://filezilla-project.org/download.php?platform=win64) |
 | WinSCP     | [Official Website](https://winscp.net/eng/downloads.php)    |
 
-Choose an FTP client and install it on your computer. To connect to the server, you need to enter the **IP address (FTP Server)**, **username**, and **password**. This information can be found on the FTP browser page. The port is always **21**, which is usually entered automatically.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/PXkQmqFN39dS3L5/preview)
+
+## Obtain FTP details
+
+To access your game server via FTP, you’ll need the corresponding login credentials. You can find these details in the **FTP Browser** section of your game server administration.
+
+Simply enter the **IP address (FTP server)**, **username**, and **password** to establish the connection. These credentials are listed on the **FTP Browser** page. The port is always **21** and is usually set automatically.
+
+![img](https://screensaver01.zap-hosting.com/index.php/s/6FTFDwyBQZ792Fd/download)
+
+
 
 ## FileZilla
 
@@ -90,4 +98,4 @@ Management is done by right-clicking on the respective file or folder. Depending
 ### Possible problems and solutions
 
 #### "530 Login incorrect" Error
-If this error occurs during the connection setup, it means that incorrect credentials have been provided. Check all the fields for completeness and correctness.
+If this error occurs during the connection setup, it means that incorrect credentials have been provided. Check all the fields for completeness and correctness.ma

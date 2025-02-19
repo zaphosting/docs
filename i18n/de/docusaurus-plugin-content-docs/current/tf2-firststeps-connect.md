@@ -1,7 +1,7 @@
 ---
-id: valheim-firststeps-connect
-title: "Valheim: Zum Server verbinden"
-description: Informationen über verschiedene Möglichkeiten, wie du dich mit deinem Valheim Server von ZAP-Hosting verbinden kannst - ZAP-Hosting Dokumentation
+id: tf2-firststeps-connect
+title: "Team Fortress 2: Zum Server verbinden"
+description: Informationen über verschiedene Möglichkeiten, wie du dich mit deinem Team Fortress 2 Server von ZAP-Hosting verbinden kannst - ZAP-Hosting Dokumentation
 sidebar_label: Zum Server verbinden
 services:
   - gameserver
@@ -14,20 +14,9 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Unsicher, wie du dich mit deinem **Valheim** Server verbinden kannst oder was du dafür benötigst? Kein Problem, wir helfen dir weiter! Wir führen dich durch alles, was du benötigst - von den erforderlichen Werkzeugen und Informationen bis hin zum eigentlichen Verbindungsprozess und den wesentlichen Punkten, die für eine reibungslose und störungsfreie Verbindung erforderlich sind. Befolge unsere Anleitung und du wirst in kürzester Zeit verbunden sein!
+Unsicher, wie du dich mit deinem **Team Fortress 2** Server verbinden kannst oder was du dafür benötigst? Kein Problem, wir helfen dir weiter! Wir führen dich durch alles, was du benötigst - von den erforderlichen Werkzeugen und Informationen bis hin zum eigentlichen Verbindungsprozess und den wesentlichen Punkten, die für eine reibungslose und störungsfreie Verbindung erforderlich sind. Befolge unsere Anleitung und du wirst in kürzester Zeit verbunden sein!
 
 <InlineVoucher />
-
-
-
-## Voraussetzungen (
-
-Zusätzliche Software ist für die reguläre Nutzung eines Valheim Vanilla Servers nicht erforderlich. Wenn du jedoch die Variante Valheim Plus oder BepInEx gewählt hast, um Plugins zu verwenden, dann musst du auch diese Erweiterung lokal installieren. Wie du diese Erweiterungen lokal für dein Spiel installieren kannst, erfährst du hier:
-
-| Erweiterung     | Download                                                     |
-| --------------- | ------------------------------------------------------------ |
-| Valheim Plus    | [Link](https://github.com/Grantapher/ValheimPlus)            |
-| Valheim BepInEx | [Link](https://thunderstore.io/c/valheim/p/denikson/BepInExPack_Valheim/) |
 
 
 
@@ -41,22 +30,35 @@ Du benötigst alle relevanten Informationen, um dich mit deinem Server zu verbin
 
 Mit den oben genannten wichtigen Informationen solltest du in der Lage sein, deinen Server zu finden und sicherzustellen, dass du dich mit dem richtigen Server verbindest. 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/wKG8P369cPRdAJ4/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/J9qAxiWrR2ZQx7D/preview)
 
 ## Verbindung zum Server herstellen
 
 Die Verbindung zu einem Gameserver kann oftmals über einen oder mehrere Wege hergestellt werden. Die verfügbaren Optionen und Methoden sowie deren Verwendung werden im Folgenden detailliert erläutert. 
 
 <Tabs>
-    <TabItem value="connect_solution_server_browser_ingame" label="Server Browser (Im Spiel)" default>
 
-Klicke auf **Start game**. Solltest du noch keinen Character erstellt haben, so musst du als nächstes einen Character erstellen und mit diesem dann starten. In der Serverliste klicke nun auf **Add server**. Trage in dem neuen Fenster die IP:Port deines Servers ein. Nachdem du den Server hinzugefügt hast, kannst du dich über den **Connect** Button verbinden. 
+<TabItem value="connect_solution_server_browser_steam" label="Server Browser (Steam)" default>
 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/2CAiyKEkpYnmgEJ/download)
+
+Um eine Verbindung zu deinem Server über den Steam-Server-Browser herzustellen, öffne den Server-Browser von Steam. Klicke oben in der Steam-Navigation auf `Ansicht` und dann auf den Abschnitt `Spielserver`, um diese zu öffnen. 
+
+Suche oder füge deinen Server über den Steam-Browser hinzu, indem du die `IP-Adresse` und den `Port` deines Gameservers verwendest. Wähle dazu in der Serverliste den Reiter `Favoriten` aus und klicke auf das Plus-Symbol unten. Es öffnet sich ein Pop-up-Fenster, in dem du deine Serverinformationen angibst. 
+
+![img](https://screensaver01.zap-hosting.com/index.php/s/J6JsAwtSiXYjM4p/download)
 
 </TabItem>
 
+<TabItem value="connect_solution3" label="Konsole (Im Spiel)">
+
+Um eine Verbindung zu deinem Server über die Konsole herzustellen, öffne die Konsole mit der Taste `~`. Sobald die Konsole geöffnet ist, führe den folgenden Befehl aus: 
+
+```
+connect IP:Port
+```
+
+</TabItem>
 </Tabs>
 
 
@@ -71,12 +73,6 @@ Eine fehlende Sichtbarkeit des Servers kann dann vorliegen, wenn die Initialisie
 
 
 
-#### Verbindung fehlgeschlagen
-
-Valheim Plus/BepInEx: Die Verbindung kann fehlschlagen, wenn die notwendige Erweiterung beim Client nicht installiert ist oder auf einer anderen Version läuft. Stelle sicher, dass die Erweiterung/Modifikation installiert und funktional ist. Das lässt sich in der Regel im Hauptmenü anhand der "Valheim Plus" Überschrift und Version nachvollziehen.
-
-
-
 #### Fehlende Lösung oder nicht hilfreich
 
 Die genannten Lösungsansätze haben dein Problem noch nicht gelöst oder treffen in deinem Fall nicht zu? In dem Fall stehen wir dir auch im Support täglich zur Verfügung. Erstelle dazu einfach ein **[Ticket](https://zap-hosting.com/de/customer/support/)** und erläutere uns dein Problem. Wir werden uns dies dann so schnell wie möglich anschauen und dir bei der Lösung des Problems entsprechend weiterhelfen!
@@ -86,3 +82,6 @@ Die genannten Lösungsansätze haben dein Problem noch nicht gelöst oder treffe
 ## Abschluss
 
 Glückwunsch, vorausgesetzt, dass du alle Schritte befolgt hast, solltest du erfolgreich eine Verbindung zum Server hergestellt haben. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+
+
+

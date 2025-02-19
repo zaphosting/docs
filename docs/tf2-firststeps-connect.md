@@ -1,7 +1,7 @@
 ---
-id: cs2-firststeps-connect
-title: "Counter-Strike 2: Connect to the server"
-description: Information about various ways on how to connect to your Counter-Strike 2 server from ZAP-Hosting - ZAP-Hosting.com Documentation
+id: tf2-firststeps-connect
+title: "Team Fortress 2: Connect to the server"
+description: Information about various ways on how to connect to your Team Fortress 2 server from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Connect to the server
 services:
   - gameserver
@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Introduction
-Not sure how to connect to your **Counter-Strike 2** server or what you need to get started? No worries, we’ve got you covered! We will walk you through everything you need – from the required tools and information to the actual connection process, along with key considerations to ensure a smooth and trouble-free connection experience. Follow our guide and you'll be connected in no time!
+Not sure how to connect to your **Team Fortress 2** server or what you need to get started? No worries, we’ve got you covered! We will walk you through everything you need – from the required tools and information to the actual connection process, along with key considerations to ensure a smooth and trouble-free connection experience. Follow our guide and you'll be connected in no time!
 
 <InlineVoucher />
 
@@ -29,7 +29,7 @@ You will require all the relevant information necessary to connect to your serve
 
 With the important information mentioned above, you should be able to locate your server and ensure that you connect to the correct server. 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/TArxRjwEcctXwFt/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/tRFDj4EsZxQPbg2/preview)
 
 ## Establish server connection
 
@@ -37,7 +37,7 @@ The connection to a game server can often be established in one or more ways. Th
 
 <Tabs>
 
-<TabItem value="connect_solution_server_browser_steam" label="Server Browser (Steam)">
+<TabItem value="connect_solution_server_browser_steam" label="Server Browser (Steam)" default>
 
 
 
@@ -51,14 +51,11 @@ Search or add your server via the Steam browser by using the `IP address` and `P
 
 <TabItem value="connect_solution3" label="Console (In game)">
 
-To connect to your server via console, open the console with the `~` key. Once the console is open, execute the following command: 
+To connect to your server via console, open the console with the `~` key. Once the console is open, execute the following command:
 
 ```
 connect IP:Port
-connect IP:Port; password yourdefinedpassword // In case a server password is set
 ```
-
-![img](https://screensaver01.zap-hosting.com/index.php/s/ERHMR6q3CdySn4W/preview)
 
 </TabItem>
 </Tabs>
