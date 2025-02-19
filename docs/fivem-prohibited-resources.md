@@ -1,6 +1,6 @@
 ---
 id: fivem-prohibited-resources
-title: "FiveM: Error: 'Resource contains prohibited logic?'"
+title: "FiveM: 'Resource contains prohibited logic?'"
 description: Information about the error "Resource contains prohibited logic" on a FiveM server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Resource contains prohibited logic
 services:
@@ -13,11 +13,13 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 The developers of FiveM resources have taken great efforts in recent years to protect their source code using techniques such as obfuscation, IP locking, remote code loading and other methods. Unfortunately, these measures often lead to problems, which many already know about. Some of these tools do not just significantly slow down the performance of the code, but also introduce numerous security concerns.
 
-FiveM has therefore started blocking malicious resources that contain malicious code designed to infect servers and other resources. These resources sometimes try to "spread" their code to other resources to give third parties access to scripts and databases. It is important to note that these resources can generally be compared to viruses and therefore represent a serious threat.
+Cfx.re has therefore started blocking malicious resources that contain malicious code designed to infect servers and other resources. These resources sometimes try to "spread" their code to other resources to give third parties access to scripts and databases. It is important to note that these resources can generally be compared to viruses and therefore represent a serious threat.
 
 <InlineVoucher />
 
-## What does "Resource contains prohibited logic" mean?
+
+
+## Meaning
 
 Our system checks all resources before the startup process for the above-mentioned security reasons and disables all resources that are recognized as dangerous. This step is absolutely necessary, which is why there is unfortunately no room for exceptions here. The security comes first! 
 
@@ -25,12 +27,21 @@ In case one of your uploaded resources is affected, the server console will prov
 
 ![image-20230109185341047](https://screensaver01.zap-hosting.com/index.php/s/WdCGZweo6Z5QNnz/preview)
 
-## What can I do about it?
+
+
+## How to proceed
 
 As the first and most important step, we recommend removing all malicious resources immediately. Furthermore, you should only install resources that have been obtained from reputable sources. A good place to start for this is, for example, the official website or the [Forum](https://forum.cfx.re/c/development/releases/7) of FiveM. A wide selection of resources is offered there. 
 
-As a developer or a person who has been in contact with the developer, we recommend to refer to the **FiveM Asset Escrow system**, which FiveM has developed in cooperation with Tebex. A post has also been published in the [FiveM Forum](https://forum.cfx.re/t/introducing-asset-escrow-for-your-resources/4777151) regarding this.
+As a developer or someone in contact with the developer, we recommend referring to the **FiveM Asset Escrow system**, which was developed by Cfx.re in collaboration with **Tebex**. Additional details can be found in the official [Cfx.re Forum post](https://forum.cfx.re/t/introducing-asset-escrow-for-your-resources/4777151).
 
-## What resources exactly are prohibited?
+
+
+## Prohibited Resources
 
 There is unfortunately no official list of resources that can lead to this message. In principle, you shouldn't use resources that use other obfuscation methods or aren't based on the FiveM Asset Escrow system. 
+
+
+
+## Conclusion
+To maintain a secure and stable server environment, it is essential to use only trusted resources and remove any flagged ones immediately. By following these guidelines and utilizing the FiveM Asset Escrow system, you can help ensure both security and compliance within the FiveM ecosystem. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
