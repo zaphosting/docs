@@ -384,6 +384,7 @@ const sidebars = {
           label: "First Steps",
           items: [
             "enshrouded-firststeps-dashboard",
+            "enshrouded-firststeps-connect"
           ]
         },
         "enshrouded-configuration",
@@ -998,7 +999,8 @@ const sidebars = {
           type: "category",
           label: "First Steps",
           items: [
-            "enshrouded-firststeps-dashboard"
+            "enshrouded-firststeps-dashboard",
+            "enshrouded-firststeps-connect"
           ]
         },
         "enshrouded-configuration",
