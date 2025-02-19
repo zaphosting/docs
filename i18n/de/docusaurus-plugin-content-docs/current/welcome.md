@@ -158,8 +158,8 @@ Unsere Dedicated Server bieten Leistung für anspruchsvolle Projekte. Entdecke i
 Beginne dein Online-Projekt auf festem Fundament mit leicht verständlichen Anleitungen zu Domain-Registrierung und Webspace-Management. Wir führen dich durch jeden Schritt. Von der Einrichtung bis zur Veröffentlichung deiner Website.
 
 <Cards>
-    <Card title="Domain" description="Placeholder" link="https://zap-hosting.com/guides/de/docs/domain-introduction" image="https://screensaver01.zap-hosting.com/index.php/s/CHKT8d4ARD8sqZE/preview" type="product-categories"/>
-    <Card title="Webspace" description="Placeholder" link="https://zap-hosting.com/guides/de/docs/webspace-adddomain" image="https://screensaver01.zap-hosting.com/index.php/s/CHKT8d4ARD8sqZE/preview" type="product-categories"/>
+    <Card title="Domain" description="Placeholder" link="https://zap-hosting.com/guides/de/docs/domain-introduction" image="https://screensaver01.zap-hosting.com/index.php/s/SPaNk8LSP57s83z/preview" type="product-categories"/>
+    <Card title="Webspace" description="Placeholder" link="https://zap-hosting.com/guides/de/docs/webspace-adddomain" image="https://screensaver01.zap-hosting.com/index.php/s/SPaNk8LSP57s83z/preview" type="product-categories"/>
 </Cards>
 
 ## Voicebot & Voiceserver
