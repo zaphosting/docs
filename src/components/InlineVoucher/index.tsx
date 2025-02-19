@@ -70,12 +70,12 @@ export default function InlineVoucher({ showProducts = true }): JSX.Element {
                       <>
                         <p className={[styles.description, styles.mtsmall].join(' ')}>
                           <Translate id="inlinevoucher.description.with-products">
-                            Ready to go with all products used in the guide 😉
+                          Take the opportunity and start your own project today! Use the discount code for the products listed in this guide and get a 50% discount. 😉
                           </Translate>
                         </p>
                         <p className={[styles.descriptionSmall, styles.mtbig].join(' ')}>
                           <Translate id="inlinevoucher.list-title.with-products">
-                            Therefore also applicable for:
+                          This discount code can be used for the following products on a rental basis:
                           </Translate>
                         </p>
                         <div className={[styles.detailList, styles.mtmedium].join(' ')}>
