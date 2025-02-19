@@ -24,10 +24,10 @@
     "message": "{voucherValue} {voucherType} HOSTING-GUTSCHEIN 🏷️"
   },
   "inlinevoucher.description.with-products": {
-    "message": "Starklar mit den Produkten aus der Anleitung 😉"
+    "message": "Nutze die Gelegenheit und starte noch heute dein eigenes Projekt! Verwende den Gutschein für die in dieser Anleitung aufgeführten Produkte und sichere dir 50 % Rabatt. 😉"
   },
   "inlinevoucher.list-title.with-products": {
-    "message": "Somit unter anderem gültig für:"
+    "message": "Dieser Gutschein kann für folgende Produkte auf Mietbasis verwendet werden:"
   },
   "inlinevoucher.your-voucher": {
     "message": "DEIN CODE"
