@@ -1,8 +1,8 @@
 ---
 id: minecraft-bedrock-add-world
-title: "Minecraft: Bedrock Import World"
-description: Information on how to import a world into your Minecraft Bedrock Server from ZAP-Hosting - ZAP-Hosting.com documentation
-sidebar_label: Import World
+title: "Minecraft Bedrock: Import own World"
+description: Information on how to import an own world into your Minecraft Bedrock Server from ZAP-Hosting - ZAP-Hosting.com documentation
+sidebar_label: Import own World
 services:
   - gameserver
 ---
@@ -10,13 +10,13 @@ services:
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
-Minecraft: Bedrock Edition allows you to create your own worlds and use them on your server. In this guide, we will show you how to import a world into your Minecraft: Bedrock Server to share it with your friends.
+Minecraft: Bedrock Edition allows you to create your own worlds and use them on your server. In this guide, we will show you how to import an own world into your Minecraft: Bedrock Server to share it with your friends.
 
 <InlineVoucher />
 
 ## Preparation
 
-To import a world into your Minecraft: Bedrock Server, you need to connect via FTP. If you are not familiar with this, we recommend taking a look at the [Access via FTP](gameserver-ftpaccess.md) guide.
+To import a world into your Minecraft: Bedrock Server, you need to connect via FTP. If you are not familiar with this, we recommend taking a look at the [FTP access](gameserver-ftpaccess.md) guide.
 
 Make sure you have already saved the world you want to import on your computer. The world should be in a folder with the corresponding files.
 If you want to upload a world from Minecraft: Bedrock single-player, you can find it at the following path:
@@ -40,7 +40,7 @@ Navigate via FTP to the directory where your server's worlds are stored. The pat
 
 Here you will see the folders of all worlds currently stored on your server. Each world has a unique name.
 
-Upload the folder of the world you want to import into the directory. Make sure the folder name is not changed, as Minecraft will not recognize the world otherwise.
+Upload the folder of your world you want to import into the directory. Make sure the folder name is not changed, as Minecraft will not recognize the world otherwise.
 
 Then you need to open the `server.properties` file, which is located in the server's main folder, and change the value of `Bedrock level` in the following setting to the folder name of your world:
 
@@ -61,4 +61,4 @@ Connect to your server and verify that the imported world has been loaded correc
 
 ## Conclusion
 
-Importing a world into your Minecraft: Bedrock Server is a simple process that allows you to share your own creations with others. With this guide, you can easily import worlds and enhance your gameplay experience. Have fun building and exploring!
+Importing a world into your Minecraft: Bedrock Server is a simple process that allows you to share your own creations with others. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂

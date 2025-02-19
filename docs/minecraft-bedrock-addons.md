@@ -1,8 +1,8 @@
 ---
 id: minecraft-bedrock-addons
-title: "Minecraft: Bedrock Install Addons"
+title: "Minecraft Bedrock: Install Addons"
 description: Information on how to install Addons on your Minecraft Bedrock server from ZAP-Hosting - ZAP-Hosting.com documentation
-sidebar_label: Addon Installation
+sidebar_label: Install Addons
 services:
   - gameserver
 ---
@@ -16,17 +16,15 @@ Minecraft: Bedrock Edition has native modding support and a massive community wh
 
 ## Preperation
 
-To install an addon map to your Minecraft: Bedrock, you need to connect to it via FTP. If you are not familiar with this, we recommend you to have a look at the [Access via FTP](gameserver-ftpaccess.md) guide.
+To install an addon map to your Minecraft: Bedrock, you need to connect to it via FTP. If you are not familiar with this, we recommend you to have a look at the [FTP access](gameserver-ftpaccess.md) guide.
 
-Before proceeding with installation, you will also have to find addons that you wish to install to your server. We recommend browsing on [CurseForge](https://www.curseforge.com/minecraft-bedrock) as they offer a huge library of addons and resource packs created by the community. 
+Before proceeding with installation, you will also have to find addons that you wish to install on your server. We recommend browsing on [CurseForge](https://www.curseforge.com/minecraft-bedrock) as they offer a huge library of addons and resource packs created by the community. 
 
 ## Installation
 
 ### Download the world from the server
 
-The first thing you need to do, ist stopping the server to save all current progress.
-
-Then you need to navigate via FTP to this location:
+The first thing you need to do, is stopping the server to save all current progress. After this, you need to navigate to this location via FTP:
 
 ```
 
@@ -39,7 +37,7 @@ C:\Users\%username%\AppData\Local\Packages\Microsoft.MinecraftUWP_8wekyb3d8bbwe\
 ### Install the Addon into the World
 Now open the .mcpack file from your addon. The game should open and automatically import the addon. The world that you downloaded from your server should now be displayed, if you have not downloaded the world simply click on "Create new". Make sure that you have selected everything you want and then go to "Play". Your addons should now be available in the game. If everything works, just close Minecraft.
 
-## Upload the world to the server
+### Upload the world to the server
 
 Now go back to your FTP Application (i.e Filezilla/WinSCP). Delete the world that you have downloaded before, as we will replace it. After this, upload the folder to your server again. It's important that the name hasn't been changed and is equal. One last step is still to come. In the world folder on your PC you now have the folder "behavior_packs" and / or "resource_packs"
 

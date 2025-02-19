@@ -264,6 +264,14 @@ const sidebars = {
         },
         {
           type: "category",
+          label: "Bedrock",
+          items: [
+            "minecraft-bedrock-addons",
+            "minecraft-bedrock-add-world"
+          ]
+        },
+        {
+          type: "category",
           label: "Bungeecord",
           items: [
             "minecraft-bungeecord-config"
