@@ -546,7 +546,8 @@ const sidebars = {
           type: "category",
           label: "First Steps",
           items: [
-            "arma-reforger-firststeps-dashboard"
+            "arma-reforger-firststeps-dashboard",
+            "arma-reforger-firststeps-connect"
           ]
         },
       ]
