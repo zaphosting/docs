@@ -2096,6 +2096,20 @@ const sidebars = {
     },
     {
       type: "category",
+      label: "The Lord of the Rings: RTM",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "lotr-rtm-firststeps-dashboard",
+            "lotr-rtm-firststeps-connect"
+          ]
+        },
+      ],
+    },
+    {
+      type: "category",
       label: "Unfortunate Spacemen",
       items: [
         {
