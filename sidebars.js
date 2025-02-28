@@ -540,6 +540,19 @@ const sidebars = {
     },
     {
       type: "category",
+      label: "Arma Reforger",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "arma-reforger-firststeps-dashboard"
+          ]
+        },
+      ]
+    },
+    {
+      type: "category",
       label: "Assetto Corsa",
       items: [
         {
