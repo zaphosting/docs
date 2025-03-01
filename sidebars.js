@@ -1266,6 +1266,7 @@ const sidebars = {
           label: "First Steps",
           items: [
             "killingfloor2-firststeps-dashboard",
+            "killingfloor2-firststeps-connect"
           ]
         },
       ],
