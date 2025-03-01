@@ -1899,6 +1899,7 @@ const sidebars = {
           label: "First Steps",
           items: [
             "sonsoftheforest-firststeps-dashboard",
+            "sonsoftheforest-firststeps-connect",
           ]
         },
       ],
