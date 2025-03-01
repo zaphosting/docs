@@ -844,7 +844,7 @@ const sidebars = {
         "source-gsltoken",
         {
           type: "category",
-          label: "Sourcemod / Metamod",
+          label: "Sourcemod / Metamod (Plugins)",
           items: [
             "source-metamod-installation",
             "source-metamod-addadmins",
@@ -898,7 +898,7 @@ const sidebars = {
         },
         {
           type: "category",
-          label: "Sourcemod / Metamod",
+          label: "Sourcemod / Metamod (Plugins)",
           items: [
             "source-metamod-installation",
             "source-metamod-addadmins",
@@ -1308,6 +1308,15 @@ const sidebars = {
           items: [
             "l4d2-firststeps-dashboard",
             "l4d2-firststeps-connect"
+          ]
+        },
+        {
+          type: "category",
+          label: "Sourcemod / Metamod (Plugins)",
+          items: [
+            "source-metamod-installation",
+            "source-metamod-addadmins",
+            "source-metamod-plugins"
           ]
         },
       ],
@@ -2020,7 +2029,7 @@ const sidebars = {
         },
         {
           type: "category",
-          label: "Sourcemod / Metamod",
+          label: "Sourcemod / Metamod (Plugins)",
           items: [
             "source-metamod-installation",
             "source-metamod-addadmins",
