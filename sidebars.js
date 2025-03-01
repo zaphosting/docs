@@ -1509,6 +1509,15 @@ const sidebars = {
             "nmrih-firststeps-connect"
           ]
         },
+        {
+          type: "category",
+          label: "Sourcemod / Metamod (Plugins)",
+          items: [
+            "source-metamod-installation",
+            "source-metamod-addadmins",
+            "source-metamod-plugins"
+          ]
+        },
       ],
     },
     {
