@@ -1331,6 +1331,7 @@ const sidebars = {
           label: "First Steps",
           items: [
             "longvinter-firststeps-dashboard",
+            "longvinter-firststeps-connect",
           ]
         },
       ],
