@@ -1307,6 +1307,7 @@ const sidebars = {
           label: "First Steps",
           items: [
             "l4d2-firststeps-dashboard",
+            "l4d2-firststeps-connect"
           ]
         },
       ],
