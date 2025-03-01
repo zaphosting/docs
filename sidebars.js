@@ -928,7 +928,8 @@ const sidebars = {
           type: "category",
           label: "First Steps",
           items: [
-            "dayz-firststeps-dashboard"
+            "dayz-firststeps-dashboard",
+            "dayz-firststeps-connect"
           ]
         },
         "dayz-becomeadmin",
