@@ -22,28 +22,28 @@ import TabItem from '@theme/TabItem';
 <TabItem value="ubuntu-debian" label="Ubuntu & Debian" default>
 
 ```
-  sudo apt update
+sudo apt update && sudo apt upgrade
 ```
 
 </TabItem>
 <TabItem value="centos" label="CentOS">
 
 ```
-  sudo yum update
+sudo yum update
 ```
 
 </TabItem>
 <TabItem value="opensuse" label="OpenSUSE">
 
 ```
-  sudo zypper update
+sudo zypper update
 ```
 
 </TabItem>
 <TabItem value="fedora" label="Fedora">
 
 ```
-  sudo dnf update
+sudo dnf update
 ```
 
 </TabItem>
@@ -57,28 +57,28 @@ Installing the screen utility is as easy as running the following command based 
 <TabItem value="ubuntu-debian" label="Ubuntu & Debian" default>
 
 ```
-  sudo apt install screen
+sudo apt install screen
 ```
 
 </TabItem>
 <TabItem value="centos" label="CentOS">
 
 ```
-  sudo yum install screen
+sudo yum install screen
 ```
 
 </TabItem>
 <TabItem value="opensuse" label="OpenSUSE">
 
 ```
-  sudo zypper install screen
+sudo zypper install screen
 ```
 
 </TabItem>
 <TabItem value="fedora" label="Fedora">
 
 ```
-  sudo dnf install screen
+sudo dnf install screen
 ```
 
 </TabItem>
