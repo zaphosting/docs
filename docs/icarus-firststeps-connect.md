@@ -21,32 +21,31 @@ Not sure how to connect to your **Icarus** server or what you need to get starte
 
 ## Obtain server details
 
-You will require all the relevant information necessary to connect to your server. The information about your server can be found in the dashboard of your game server administration. Important information includes the following: 
+You will require all the relevant information necessary to connect to your server. The information about your server can be found on the dashboard of your game server's web interface panel. Important information includes the following:
 
 - IP address and port
 - Server name
 - Server password (Optional)
 
-With the important information mentioned above, you should be able to locate your server and ensure that you connect to the correct server. 
+Using the information mentioned above, you should be able to locate your server and ensure that you connect to the correct server.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/yMmFmGkfbEadgME/preview)
 
 ## Establish server connection
 
-The connection to a game server can often be established in one or more ways. The options and methods available and how to use them are explained in detail below. 
+The connection to a game server can often be established in one or more ways. Available methods are described and explained in detail below.
 
 <Tabs>
-    
 
-<TabItem value="connect_solution_server_browser_ingame" label="Server Browser (In game)" default>
+<TabItem value="connect_solution_server_browser_ingame" label="Server Browser (In-game)" default>
 
-To connect to your server via the in game server browser, open the **Server Browser**. Click on **Play**, create a character provided you haven't created one yet. Once you are in the server browser, you can now search for your server by name using the search field at the top. Select your server and connect.
+To connect to your server via the in-game server browser, open the **Server Browser**. Click on **Play**, create a character provided you haven't created one yet. Once you are in the server browser, you can now search for your server by name using the search field at the top. Select your server and connect.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/43JboZPQY756SYi/download)
 
 </TabItem>
 
-<TabItem value="connect_solution_server_browser_direct" label="Server Browser Direct connect (In game)" default>
+<TabItem value="connect_solution_server_browser_direct" label="Server Browser Direct connect (In-game)" default>
 
 Instead of searching for the server in the server list, you can also add the server using the IP address and port of the server and establish a connection. To do this, click on **Direct connect** in the server list and enter the information. 
 
@@ -60,17 +59,17 @@ Instead of searching for the server in the server list, you can also add the ser
 
 ## Potential issues and solutions
 
-The establishment of the connection does not work as expected? This may happen in certain situations, when the connection fails due to technical issues. We have listed the most common issues and their solutions below:
+Can't connect to the server as expected? This may happen in certain situations, for example when the connection fails due to technical issues. We have listed the most common issues and their solutions below:
 
 #### Not visible
 
-A lack of visibility of the server can occur if the initialization was not completed successfully for some reason. This may for example be due to a faulty configuration or corrupted files. Further information can usually be traced in the server console or log files.
+A lack of visibility of the server can occur if the initialization was not completed successfully. This may for example be due to a faulty configuration or corrupted files. Further information can usually be traced in the server console or log files.
 
 
 
 #### Missing solution or unhelpful
 
-The mentioned solutions haven't solved your issue yet or don't apply in your case? In this case, we are also available to you daily in support. Simply create a **[Ticket](https://zap-hosting.com/en/customer/support/)** and explain your issue to us. We will have a look at it as quickly as possible and assist you in solving the issue accordingly!
+Still facing issues after troubleshooting? In this case, our support team is available daily to provide assistance. Simply create a **[Ticket](https://zap-hosting.com/en/customer/support/)** on our website and explain your issue to us with as much details as possible. We will have a look at it as quickly as possible and assist you in solving the issue accordingly!
 
 
 
