@@ -1215,6 +1215,7 @@ const sidebars = {
           label: "First Steps",
           items: [
             "icarus-firststeps-dashboard",
+            "icarus-firststeps-connect"
           ]
         },
       ],
