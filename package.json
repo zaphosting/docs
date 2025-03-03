@@ -30,7 +30,7 @@
     "path-to-regexp": "^8.2.0",
     "prism-react-renderer": "^2.4.1",
     "react": "^19.0.0",
-    "react-copy-to-clipboard": "^5.1.0",
+    "react-copy-to-clipboard": "github:fglendrange/react-copy-to-clipboard#ae44a56",
     "react-dom": "^19.0.0"
   },
   "devDependencies": {
