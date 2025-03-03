@@ -9,11 +9,15 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
-## Sperrung deines Gameservers
+
+
+## Einführung
 
 Oh nein, leider ist es passiert! Doch warum? Die Ursachen für eine Sperrung können vielfältig sein. Dies gilt es zu überprüfen und schnellstmöglich zu beheben. Wenn dein Gameserver gesperrt worden ist, dann sieht das ganze folgendermaßen so aus: 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/anLotx2QDjFbjX3/preview)
+
+## Ursachen
 
 Die Ursache für die Sperrung ist eine Überschreitung des Ressourcenlimits. Das bedeutet, dass der Server über einen längeren Zeitraum mehr Ressourcen verbraucht, als du für deinen Dienst gebucht hast. Bei einer kurzen Überschreitung ist das kein Problem. Dort stellen wir dennoch auch mehr zur Verfügung, um eine umgehende Sperrung und Probleme zu vermeiden. 
 
@@ -25,7 +29,7 @@ In der Übersicht kannst du nachvollziehen, wie viel Ressourcen dir zur Verfügu
 
 <InlineVoucher />
 
-## Freischaltung deines Gameservers
+## Lösungsansätze
 
 Für die Behebung des Problems und dem Wiederinstandsetzen des Betriebs stehen dir zur Freischaltung deines Gameservers drei Optionen zur Auswahl.   Die Auswahloptionen **Fehlerhafte Mods/Scripts per Konsole suchen & Server temporär freischalten**, **Upgrade durchführen** und **Support-Ticket erstellen** werden dir im folgenden genauer erklärt. 
 
@@ -40,8 +44,8 @@ Wie zu Beginn erklärt, können die Ursachen hierfür vielfältig sein. Zur Anal
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/gpbTzkiCgJWipwR/preview)
 
-:::info
-Bei diesem Vorgang wird dein Dienst wieder entsperrt, damit du dich dem Problem angehen kannst. Hierbei gilt es zu beachten, dass der Dienst bei einer erneuten langen Überschreitung der Auslastung erneut gesperrt wird. Versuche das Problem daher unbedingt aktiv anzugehen und Lösungen zu finden. 
+:::info Dienst entsperren
+Durch die Verwendung von Option 1 wird dein Dienst wieder entsperrt, damit du dich dem Problem angehen kannst. Hierbei gilt es zu beachten, dass der Dienst bei einer erneuten langen Überschreitung der Auslastung erneut gesperrt wird. Versuche das Problem daher unbedingt aktiv anzugehen und Lösungen zu finden. 
 :::
 
 
@@ -56,8 +60,12 @@ Ein Anstieg der Auslastung muss allerdings nicht immer durch Probleme verursacht
 
 
 
-### Ticket
+### Support kontaktieren
 
 Option 1 und 2 haben dir nicht weitergeholfen oder sind nicht ganz nachvollziehbar? Keine Sorge! Melde dich alternativ gerne bei uns im Support, wenn du unsere Hilfe hierzu benötigst. Gerne schauen wir uns das Problem mit dir genauer an, um die Ursache ausfindig zu machen und mögliche Lösungen zu finden. Erstelle dazu ein Ticket, in dem du auf den **Ausführen** Button von **Option 3** klickst. 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/gRqs88TTgHKKWr7/preview)
+
+
+## Abschluss
+Durch das Befolgen einer oder mehrerer der Lösungsansätze sollte das Problem erfolgreich behoben und die Funktionalität deines Servers wiederhergestellt sein. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂

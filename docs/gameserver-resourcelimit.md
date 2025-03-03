@@ -9,10 +9,19 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
-## Suspension of your game server
 
-Oh snap, it unfortunately happened! But why? The causes for a suspension can be manifold. This needs to be checked and fixed as soon as possible. This is what it looks like if your game server has been suspended: ![](https://screensaver01.zap-hosting.com/index.php/s/eSRe2WDkLPnTZxE/preview)
 
+
+
+## Introduction
+
+Oh snap, it unfortunately happened! But why? The causes for a suspension can be manifold. This needs to be checked and fixed as soon as possible. This is what it looks like if your game server has been suspended:
+
+ ![](https://screensaver01.zap-hosting.com/index.php/s/eSRe2WDkLPnTZxE/preview)
+ 
+ <InlineVoucher />
+
+## Reasons
 The reason for the suspension is that the resource limit has been exceeded. This means that the server consumes more resources than you have booked for your service over a longer period of time. This is not a problem if the limit is exceeded for a short period of time. There we still provide more resources to avoid immediate suspension and potential problems. 
 
 However, if the limit is exceeded for a longer period of time, the server will be suspended automatically. By clicking on the red question mark you can see the reason with more detailed information.
@@ -21,9 +30,7 @@ However, if the limit is exceeded for a longer period of time, the server will b
 
 The overview will show you how much resources you have available, how much you have used over a longer period of time and how much we would recommend for regular use. This should give you the opportunity to recognize where active action is needed and to be able to take appropriate steps. 
 
-<InlineVoucher />
-
-## Unlocking of your game server
+## Solution approaches
 
 There are three options available to you to unlock your game server in order to fix the problem and restore operation. The options **Find faulty mods/scripts via console & temporarily unlock server**, **Perform upgrade** and **Create support ticket** are explained in more detail below. 
 
@@ -36,8 +43,8 @@ In certain cases, something like this can lead to a memory leak. This means that
 
 As explained at the beginning, the causes for this can be manifold. To analyze the problem, the first thing to do is to take a look at the server console. This should usually provide helpful information to narrow down the possible causes. To do this, click on the **Console** button of **Option 1**. ![](https://screensaver01.zap-hosting.com/index.php/s/g9N5D7aqTPwX2R7/preview)
 
-:::info
-This process unlocks your service again so that you can address the problem. Be aware that if the load is exceeded for a long time again, the service will be suspended again. Please actively try to address the problem and find solutions. 
+:::info Unlock service 
+Using **Option 1** will unlock your service again so that you can address the problem. Be aware that if the load is exceeded for a long time again, the service will be suspended again. Please actively try to address the problem and find solutions. 
 :::
 
 
@@ -48,9 +55,15 @@ An increase in load doesn't always have to be caused by problems, though. Depend
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/JBAa2mFfyW5p9kC/preview)
 
-### Ticket
+### Contact support
 
 Option 1 and 2 didn't help you or are not quite comprehensible? Don't worry! Feel free to contact our support team if you need our help. We will be happy to take a closer look at the problem with you to find the cause and possible solutions. To do so, create a ticket by clicking on the **Execute** button of **Option 3**. 
 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/HPb5aT5xQgwkbcm/preview)
+
+
+
+## Conclusion
+
+By following one or more of the solution approaches, you should have successfully resolved the issue and restored the functionality of your server. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
