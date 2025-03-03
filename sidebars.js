@@ -1191,6 +1191,7 @@ const sidebars = {
           label: "First Steps",
           items: [
             "hl2-firststeps-dashboard",
+            "hl2-firststeps-connect",
           ]
         },
       ],
