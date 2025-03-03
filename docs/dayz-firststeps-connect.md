@@ -41,7 +41,7 @@ With the important information mentioned above, you should be able to locate you
 The connection to a game server can often be established in one or more ways. The options and methods available and how to use them are explained in detail below. 
 
 <Tabs>
-    <TabItem value="connect_solution_server_browser_ingame" label="Server Browser (In game)" default>
+    <TabItem value="connect_solution_server_browser_ingame" label="Server Browser (In game)">
 
 To connect to your server via the in game server browser, open the server browser in the main menu. Once in the server list, click on **Community**. Use the filter options to search for your server by the server name. 
 
@@ -59,7 +59,7 @@ The server list in the game is known for not being the most reliable. It may be 
 
 
 
-<TabItem value="connect_solution_server_browser_expext" label="Server Browser (Experimental & Extern)" default>
+<TabItem value="connect_solution_server_browser_expext" label="Server Browser (Experimental & Extern)">
 
 If you are using the experimental version of DayZ, you can connect to your server via the DayZ Launcher. To do this, start the launcher and open **Servers**. Click on the **Direct connect** button and enter the IP address and port of your server. 
 
@@ -67,7 +67,7 @@ If you are using the experimental version of DayZ, you can connect to your serve
 
 </TabItem>
 
-<TabItem value="connect_solution3" label="DZSA Launcher (Extern)">
+<TabItem value="connect_solution_dzsa" label="DZSA Launcher (Extern)">
 
 The official server list is unreliable or you are using mods? Then it's worth using the DZSA Launcher instead. Open the launcher and use the filters on the left to search for your server using the server name. 
 

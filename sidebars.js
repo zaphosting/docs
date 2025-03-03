@@ -2183,7 +2183,8 @@ const sidebars = {
           type: "category",
           label: "First Steps",
           items: [
-            "unturned-firststeps-dashboard"
+            "unturned-firststeps-dashboard",
+            "unturned-firststeps-connect"
           ]
         },
         "unturned-becomeadmin",
