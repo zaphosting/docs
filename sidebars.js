@@ -411,6 +411,7 @@ const sidebars = {
           label: "First Steps",
           items: [
             "7d2d-firststeps-dashboard",
+            "7d2d-firststeps-connect"
           ]
         },
         "7d2d-becomeadmin",
