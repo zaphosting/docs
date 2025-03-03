@@ -1,7 +1,7 @@
 ---
 id: lotr-rtm-firststeps-connect
 title: "The Lord of the Rings: Return to Moria: Zum Server verbinden"
-description: Informationen über verschiedene Möglichkeiten, wie du dich mit deinem The Lord of the Rings: Return to Moria Server von ZAP-Hosting verbinden kannst - ZAP-Hosting Dokumentation
+description: "Informationen über verschiedene Möglichkeiten, wie du dich mit deinem The Lord of the Rings: Return to Moria Server von ZAP-Hosting verbinden kannst - ZAP-Hosting Dokumentation"
 sidebar_label: Zum Server verbinden
 services:
   - gameserver
@@ -43,6 +43,7 @@ Um eine Verbindung zu deinem Server über den Server-Browser im Spiel herzustell
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/YWoD5tHWKWbJjrE/download)
 
+</TabItem>
 
 </Tabs>
 

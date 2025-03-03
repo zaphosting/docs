@@ -37,7 +37,7 @@ Mit den oben genannten wichtigen Informationen solltest du in der Lage sein, dei
 Die Verbindung zu einem Gameserver kann oftmals über einen oder mehrere Wege hergestellt werden. Die verfügbaren Optionen und Methoden sowie deren Verwendung werden im Folgenden detailliert erläutert. 
 
 <Tabs>
-    <TabItem value="connect_solution_server_browser_ingame" label="Server Browser (Im Spiel)" default>
+ <TabItem value="connect_solution_server_browser_ingame" label="Server Browser (Im Spiel)" default>
 
 Öffne das Spiel und verbinde dich mit deinem Server über den Server-Browser im Spiel. Klicke im Spiel auf Play und navigiere zu Multiplayer. Wähle dann in der Serverliste die Filteroptionen aus und verwende das Namensfeld, um anhand des Namens deines Servers nach deinem Server zu suchen.
 
@@ -45,7 +45,7 @@ Die Verbindung zu einem Gameserver kann oftmals über einen oder mehrere Wege he
 
 </TabItem>
 
-​    <TabItem value="connect_solution_server_browser_ingame" label="Direktverbindung (Im Spiel)">
+<TabItem value="connect_solution_server_browser_direct" label="Direktverbindung (Im Spiel)">
 
 Öffne das Spiel, um dich über die Direktverbindung zu verbinden. Sobald du im Spiel bist, klicke auf **Play** und navigiere zu **Connect directly**. Gebe dort die IP-Adresse und den Port des Servers ein und klicke dann auf **Connect**.
 
@@ -54,9 +54,6 @@ Die Verbindung zu einem Gameserver kann oftmals über einen oder mehrere Wege he
 </TabItem>
 
 <TabItem value="connect_solution_server_browser_steam" label="Server Browser (Steam)">
-
-
-
 Um eine Verbindung zu deinem Server über den Steam-Server-Browser herzustellen, öffne den Server-Browser von Steam. Klicke oben in der Steam-Navigation auf `Ansicht` und dann auf den Abschnitt `Spielserver`, um diese zu öffnen. 
 
 Suche oder füge deinen Server über den Steam-Browser hinzu, indem du die `IP-Adresse` und den `Port` deines Gameservers verwendest. Wähle dazu in der Serverliste den Reiter `Favoriten` aus und klicke auf das Plus-Symbol unten. Es öffnet sich ein Pop-up-Fenster, in dem du deine Serverinformationen angibst. 
@@ -64,8 +61,6 @@ Suche oder füge deinen Server über den Steam-Browser hinzu, indem du die `IP-A
 ![img](https://screensaver01.zap-hosting.com/index.php/s/J6JsAwtSiXYjM4p/download)
 
 </TabItem>
-
-
 </Tabs>
 
 

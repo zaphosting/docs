@@ -36,7 +36,7 @@ Du benötigst alle relevanten Informationen, um dich mit deinem Server zu verbin
 
 Mit den oben genannten wichtigen Informationen solltest du in der Lage sein, deinen Server zu finden und sicherzustellen, dass du dich mit dem richtigen Server verbindest. 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/r5MiCoDZqNTcGXf/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/WPtBDPCB2AQ4bZZ/preview)
 
 ## Verbindung zum Server herstellen
 
@@ -51,7 +51,7 @@ Um eine Verbindung zu deinem Server über den Server-Browser im Spiel herzustell
 
 </TabItem>
 
-<TabItem value="connect_solution_server_browser_ingame" label="Server Browser (Experimentell & Extern)">
+<TabItem value="connect_solution_server_browser_expext" label="Server Browser (Experimentell & Extern)">
 
 Wenn du die experimentelle Version von DayZ verwendest, kannst du dich über den DayZ Launcher mit deinem Server verbinden. Starte dazu den Launcher und öffne **Servers**. Klicke auf den Button **Direct connect** und gebe die IP-Adresse und den Port deines Servers ein.
 
