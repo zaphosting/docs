@@ -1167,7 +1167,20 @@ const sidebars = {
           ]
         },
       ],
-    }, 
+    },
+    {
+      type: "category",
+      label: "Half-Life 1",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "hl1-firststeps-dashboard",
+          ]
+        },
+      ],
+    },
     {
       type: "category",
       label: "Holdfast: Nations At War",
