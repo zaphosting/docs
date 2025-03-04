@@ -21,7 +21,7 @@ Not sure how to connect to your **Unturned** server or what you need to get star
 
 ## Obtain server details
 
-You will require all the relevant information necessary to connect to your server. The information about your server can be found on the dashboard of your game server's web interface panel. Important information includes the following: 
+You will require all the relevant information necessary to connect to your server. The information about your server can be found on the dashboard of your game server's web interface panel. Important information includes the following
 
 - IP address and port
 - Server name
@@ -36,14 +36,13 @@ Using the information mentioned above, you should be able to locate your server 
 The connection to a game server can often be established in one or more ways. Available methods are described and explained in detail below.
 
 <Tabs>
+    <TabItem value="connect_solution_server_browser_ingame" label="Server Browser (In game)" default>
 
-<TabItem value="connect_solution_server_browser_ingame" label="Server Browser (In-game)" default>
-
-Open the game to connect to your server via the in-game server browser. Once you are in the game, click on **Play** and navigate to **Multiplayer**. Then click on the filter options in the server list and use the name field to search for your server using the name of your server. ![img](https://screensaver01.zap-hosting.com/index.php/s/6cbF7Gp3kyfMc4E/download)
+Open the game to connect to your server via the in game server browser. Once you are in the game, click on **Play** and navigate to **Multiplayer**. Then click on the filter options in the server list and use the name field to search for your server using the name of your server. ![img](https://screensaver01.zap-hosting.com/index.php/s/6cbF7Gp3kyfMc4E/download)
 
 </TabItem>
 
-<TabItem value="connect_solutiion_direct" label="Direct connect (In-game)">
+<TabItem value="connect_solutiion_direct" label="Direct connect (In game)">
 
 Open the game to connect via direct connection. Once you are in the game, click on **Play** and navigate to **Connect directly**. Enter the IP address and port of the server there and then click on **Connect**. 
 
@@ -61,13 +60,14 @@ Search or add your server via the Steam browser by using the `IP address` and `P
 
 </TabItem>
 
+
 </Tabs>
 
 
 
 ## Potential issues and solutions
 
-Can't connect to the server as expected? This may happen in certain situations, for example when the connection fails due to technical issues. We have listed the most common issues and their solutions below:
+The connection to a game server can often be established in one or more ways. Available methods are described and explained in detail below.
 
 #### Not visible
 

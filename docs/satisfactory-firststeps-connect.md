@@ -73,7 +73,7 @@ The establishment of the connection does not work as expected? This may happen i
 
 ### Not visible
 
-A lack of visibility of the server can occur if the initialization was not completed successfully for some reason. This may for example be due to a faulty configuration or corrupted files. Further information can usually be traced in the server console or log files.
+A lack of visibility of the server can occur if the initialization was not completed successfully. This may for example be due to a faulty configuration or corrupted files. Further information can usually be traced in the server console or log files.
 
 
 

@@ -21,7 +21,7 @@ Not sure how to connect to your **Half-Life 1** server or what you need to get s
 
 ## Obtain server details
 
-You will require all the relevant information necessary to connect to your server. The information about your server can be found on the dashboard of your game server's web interface panel. Important information includes the following:
+You will require all the relevant information necessary to connect to your server. The information about your server can be found on the dashboard of your game server's web interface panel. Important information includes the following
 
 - IP address and port
 - Server name
@@ -39,6 +39,8 @@ The connection to a game server can often be established in one or more ways. Av
 
 <TabItem value="connect_solution_server_browser_steam" label="Server Browser (Steam)">
 
+
+
 To connect to your server via the Steam server browser, open the server browser from Steam. Click on `View` at the top of the Steam navigation and then on the `Game Server` section to open it. 
 
 Search or add your server via the Steam browser by using the `IP address` and `Port` of your game server. To do this, select the `Favorites` tab in the server list and click on the plus symbol at the bottom. A pop-up window will open in which you specify your server information. 
@@ -47,13 +49,14 @@ Search or add your server via the Steam browser by using the `IP address` and `P
 
 </TabItem>
 
+
 </Tabs>
 
 
 
 ## Potential issues and solutions
 
-Can't connect to the server as expected? This may happen in certain situations, for example when the connection fails due to technical issues. We have listed the most common issues and their solutions below:
+The connection to a game server can often be established in one or more ways. Available methods are described and explained in detail below.
 
 #### Not visible
 
