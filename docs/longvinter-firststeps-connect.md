@@ -21,7 +21,7 @@ Not sure how to connect to your **Longvinter** server or what you need to get st
 
 ## Obtain server details
 
-You will require all the relevant information necessary to connect to your server. The information about your server can be found on the dashboard of your game server's web interface panel. Important information includes the following:
+You will require all the relevant information necessary to connect to your server. The information about your server can be found on the dashboard of your game server's web interface panel. Important information includes the following
 
 - IP address and port
 - Server name
@@ -36,14 +36,14 @@ Using the information mentioned above, you should be able to locate your server 
 The connection to a game server can often be established in one or more ways. Available methods are described and explained in detail below.
 
 <Tabs>
+    <TabItem value="connect_solution_server_browser_ingame" label="Server Browser (In game)" default>
 
-<TabItem value="connect_solution_server_browser_ingame" label="Server Browser (In-game)" default>
-
-To connect to your server via the in-game server browser, open the server browser in the main menu. Click on **Connect by IP** at the top right of the server list and enter the IP address and port of your server. Confirm the entry with the `Enter` button to establish the connection. 
+To connect to your server via the in game server browser, open the server browser in the main menu. Click on **Connect by IP** at the top right of the server list and enter the IP address and port of your server. Confirm the entry with the `Enter` button to establish the connection. 
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/oWPNgNYRWqwqDzB/download)
 
 </TabItem>
+
 
 </Tabs>
 
@@ -51,7 +51,7 @@ To connect to your server via the in-game server browser, open the server browse
 
 ## Potential issues and solutions
 
-Can't connect to the server as expected? This may happen in certain situations, for example when the connection fails due to technical issues. We have listed the most common issues and their solutions below:
+The connection to a game server can often be established in one or more ways. Available methods are described and explained in detail below.
 
 #### Not visible
 

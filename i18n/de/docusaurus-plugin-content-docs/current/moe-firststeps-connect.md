@@ -51,14 +51,15 @@ Dein Server sollte nun in der Liste erscheinen. Diesen wählst du aus und klicks
 
 ## Mögliche Probleme und Lösungsansätze
 
-Der Verbindungsaufbau klappt nicht so wie erwartet? Es kann in gewissen Situationen vorkommen, dass der Verbindungsaufbau durch ein technisches Problem fehlschlägt. Wir haben dir im Folgenden die bekanntesten Probleme und dazu gehörigen Lösungsansätze aufgelistet: 
+Die Verbindung zum Server kann nicht wie erwartet hergestellt werden? Dies kann in bestimmten Situationen vorkommen, z. B. wenn die Verbindung aufgrund von technischen Problemen fehlschlägt. Im Folgenden haben wir die häufigsten Probleme und ihre Lösungen aufgeführt: 
 
 
 
 ### Nicht sichtbar
 
-Eine fehlende Sichtbarkeit des Servers kann dann vorliegen, wenn die Initialisierung aus einem bestimmten Grund nicht erfolgreich abgeschlossen wurde. Das kann beispielsweise durch eine fehlerhafte Konfiguration oder beschädigten Dateien liegen. Weitere Informationen lassen sich in der Regel in der Server-Konsole oder den Log-Dateien nachvollziehen.
+Eine fehlende Sichtbarkeit des Servers kann auftreten, wenn die Initialisierung nicht erfolgreich abgeschlossen wurde. Dies kann beispielsweise auf eine fehlerhafte Konfiguration oder beschädigte Dateien zurückzuführen sein. Weitere Informationen können in der Regel in der Serverkonsole oder in den Logdateien nachvollzogen werden.
 
 
 
-Die genannten Lösungsansätze haben dein Problem noch nicht gelöst oder treffen in deinem Fall nicht zu? In dem Fall stehen wir dir auch im Support täglich zur Verfügung. Erstelle dazu einfach ein **[Ticket](https://zap-hosting.com/de/customer/support/)** und erläutere uns dein Problem. Wir werden uns dies dann so schnell wie möglich anschauen und dir bei der Lösung des Problems entsprechend weiterhelfen! 🙂
+Hast du nach der Fehlersuche weiterhin Probleme? In diesem Fall steht unser Support-Team täglich zur Verfügung, um dir zu helfen. Erstelle einfach ein **[Ticket](https://zap-hosting.com/en/customer/support/)** auf unserer Website und erkläre uns dein Problem mit so vielen Einzelheiten wie möglich. Wir werden uns so schnell wie möglich darum kümmern und dir bei der Lösung des Problems helfen!
+ 🙂
