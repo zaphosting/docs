@@ -22,19 +22,19 @@ Unsicher, wie du dich mit deinem **Icarus** Server verbinden kannst oder was du 
 
 ## Server-Details abrufen
 
-Du benötigst alle relevanten Informationen, um dich mit deinem Server zu verbinden. Die Informationen über deinen Server findest du im Dashboard der Gameserver-Verwaltung. Zu den wichtigen Informationen gehören folgende: 
+Du benötigst alle relevanten Informationen, um dich mit deinem Server zu verbinden. Die Informationen zu deinem Server findest du im Dashboard des Webinterfaces deines Gameservers. Zu den wichtigen Informationen gehören die folgenden: 
 
 - IP-Adresse und Port
 - Name des Servers
 - Server-Passwort (optional)
 
-Mit den oben genannten wichtigen Informationen solltest du in der Lage sein, deinen Server zu finden und sicherzustellen, dass du dich mit dem richtigen Server verbindest. 
+Anhand der oben genannten Informationen solltest du in der Lage sein, deinen Server zu finden und sicherzustellen, dass du dich mit dem richtigen Server verbindest. 
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/Ep9ZTxAWtPqL8ws/preview)
 
 ## Verbindung zum Server herstellen
 
-Die Verbindung zu einem Gameserver kann oftmals über einen oder mehrere Wege hergestellt werden. Die verfügbaren Optionen und Methoden sowie deren Verwendung werden im Folgenden detailliert erläutert. 
+Die Verbindung zu einem Gameserver kann häufig auf eine oder mehrere Arten hergestellt werden. Die verfügbaren Methoden werden im Folgenden ausführlich beschrieben und erklärt. 
 
 <Tabs>
 
@@ -63,17 +63,18 @@ Alternativ kannst du anstelle nach dem Server zu suchen auch anhand der IP-Adres
 
 ## Mögliche Probleme und Lösungen
 
-Der Verbindungsaufbau klappt nicht so wie erwartet? Es kann in gewissen Situationen vorkommen, dass der Verbindungsaufbau durch ein technisches Problem fehlschlägt. Wir haben dir im Folgenden die bekanntesten Probleme und dazu gehörigen Lösungsansätze aufgelistet:
+Die Verbindung zum Server kann nicht wie erwartet hergestellt werden? Dies kann in bestimmten Situationen vorkommen, z. B. wenn die Verbindung aufgrund von technischen Problemen fehlschlägt. Im Folgenden haben wir die häufigsten Probleme und ihre Lösungen aufgeführt:
 
 #### Nicht sichtbar
 
-Eine fehlende Sichtbarkeit des Servers kann dann vorliegen, wenn die Initialisierung aus einem bestimmten Grund nicht erfolgreich abgeschlossen wurde. Das kann beispielsweise durch eine fehlerhafte Konfiguration oder beschädigten Dateien liegen. Weitere Informationen lassen sich in der Regel in der Server-Konsole oder den Log-Dateien nachvollziehen.
+Eine fehlende Sichtbarkeit des Servers kann auftreten, wenn die Initialisierung nicht erfolgreich abgeschlossen wurde. Dies kann beispielsweise auf eine fehlerhafte Konfiguration oder beschädigte Dateien zurückzuführen sein. Weitere Informationen können in der Regel in der Serverkonsole oder in den Logdateien nachvollzogen werden.
 
 
 
 #### Fehlende Lösung oder nicht hilfreich
 
-Die genannten Lösungsansätze haben dein Problem noch nicht gelöst oder treffen in deinem Fall nicht zu? In dem Fall stehen wir dir auch im Support täglich zur Verfügung. Erstelle dazu einfach ein **[Ticket](https://zap-hosting.com/de/customer/support/)** und erläutere uns dein Problem. Wir werden uns dies dann so schnell wie möglich anschauen und dir bei der Lösung des Problems entsprechend weiterhelfen!
+Hast du nach der Fehlersuche weiterhin Probleme? In diesem Fall steht unser Support-Team täglich zur Verfügung, um dir zu helfen. Erstelle einfach ein **[Ticket](https://zap-hosting.com/en/customer/support/)** auf unserer Website und erkläre uns dein Problem mit so vielen Einzelheiten wie möglich. Wir werden uns so schnell wie möglich darum kümmern und dir bei der Lösung des Problems helfen!
+
 
 
 

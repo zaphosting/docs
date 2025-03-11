@@ -21,7 +21,7 @@ Not sure how to connect to your **Half-Life 2** server or what you need to get s
 
 ## Obtain server details
 
-You will require all the relevant information necessary to connect to your server. The information about your server can be found on the dashboard of your game server's web interface panel. Important information includes the following:
+You will require all the relevant information necessary to connect to your server. The information about your server can be found on the dashboard of your game server's web interface panel. Important information includes the following
 
 - IP address and port
 - Server name
@@ -55,7 +55,7 @@ Search or add your server via the Steam browser by using the `IP address` and `P
 
 ## Potential issues and solutions
 
-Can't connect to the server as expected? This may happen in certain situations, for example when the connection fails due to technical issues. We have listed the most common issues and their solutions below:
+The connection to a game server can often be established in one or more ways. Available methods are described and explained in detail below.
 
 #### Not visible
 

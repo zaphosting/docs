@@ -21,7 +21,7 @@ Not sure how to connect to your **Killing Floor 2** server or what you need to g
 
 ## Obtain server details
 
-You will require all the relevant information necessary to connect to your server. The information about your server can be found on the dashboard of your game server's web interface panel. Important information includes the following:
+You will require all the relevant information necessary to connect to your server. The information about your server can be found on the dashboard of your game server's web interface panel. Important information includes the following
 
 - IP address and port
 - Server name
@@ -32,13 +32,13 @@ Using the information mentioned above, you should be able to locate your server 
 
 ## Establish server connection
 
-The connection to a game server can often be established in one or more ways. The options and methods available and how to use them are explained in detail below. 
+The connection to a game server can often be established in one or more ways. Available methods are described and explained in detail below.
 
 <Tabs>
 
-<TabItem value="connect_console" label="Console (In-game)">
+<TabItem value="connect_console" label="Console (In game)">
 
-To connect to your server via the in-game console, open the console with the `'` key. Once the console is open, execute the following command: 
+To connect to your server via console, open the console with the `'` key. Once the console is open, execute the following command: 
 
 ```
 open IP:port
@@ -53,7 +53,7 @@ open IP:port
 
 ## Potential issues and solutions
 
-Can't connect to the server as expected? This may happen in certain situations, for example when the connection fails due to technical issues. We have listed the most common issues and their solutions below:
+The connection to a game server can often be established in one or more ways. Available methods are described and explained in detail below.
 
 #### Not visible
 
