@@ -165,24 +165,27 @@ const sidebars = {
       type: "category",
       label: "FiveM",
       items: [
-        "fivem-dashboard",
-        "fivem-firststeps-connect",
-        "fivem-upvotes",
         {
           type: "category",
-          label: "Configuration & Administration",
+          label: "First Steps",
+          items: [
+            "fivem-dashboard",
+            "fivem-firststeps-connect",
+            "fivem-upvotes",
+          ]
+        },
+        {
+          type: "category",
+          label: "Configuration",
           items: [
             "fivem-change-servericon",
             "fivem-server-customisation",
             "fivem-rcon",
             "fivem-licensekey",
             "fivem-deletecache",
-            "fivem-resolve-dbconnection",
             "fivem-devtools",
             "fivem-useprofiler",
             "fivem-mastodon",
-            "fivem-prohibited-resources",
-            "fivem-notlisted",
             "fivem-gamebuild",
             "fivem-gamechange",
             "fivem-steam-web-api-key",
@@ -192,9 +195,9 @@ const sidebars = {
             "fivem-proxy"
           ]
         },
-        {
+                {
           type: "category",
-          label: "Resources & Mods",
+          label: "Resources",
           items: [
             "fivem-installresources",
             "fivem-sql-file-import",
@@ -207,13 +210,27 @@ const sidebars = {
         },
         {
           type: "category",
-          label: "ESX",
+          label: "Frameworks",
           items: [
-            "fivem-esx-becomeadminoverdatabase",
-            "fivem-esx-addcarstoshop",
-            "fivem-esx-changejobgarages",
-            "fivem-editlocalfiles",
-            "fivem-esx-spawnpoints"
+            {
+              type: "category",
+              label: "ESX",
+              items: [
+                "fivem-esx-becomeadminoverdatabase",
+                "fivem-esx-addcarstoshop",
+                "fivem-esx-changejobgarages",
+                "fivem-editlocalfiles",
+                "fivem-esx-spawnpoints"
+              ]
+            },
+            {
+              type: "category",
+              label: "QBCore",
+              items: [
+                "fivem-qbcore-admin",
+                "fivem-qbcore-spawnpoints"
+              ]
+            }
           ]
         },
         {
@@ -227,11 +244,13 @@ const sidebars = {
         },
         {
           type: "category",
-          label: "QBCore",
+          label: "Troubleshooting",
           items: [
-            "fivem-qbcore-admin"
+            "fivem-resolve-dbconnection",
+            "fivem-prohibited-resources"
+
           ]
-        }
+        },
       ],
     },
     {
@@ -1056,22 +1075,27 @@ const sidebars = {
       type: "category",
       label: "FiveM",
       items: [
-        "fivem-dashboard",
-        "fivem-upvotes",
         {
           type: "category",
-          label: "Configuration & Administration",
+          label: "First Steps",
+          items: [
+            "fivem-dashboard",
+            "fivem-firststeps-connect",
+            "fivem-upvotes",
+          ]
+        },
+        {
+          type: "category",
+          label: "Configuration",
           items: [
             "fivem-change-servericon",
             "fivem-server-customisation",
             "fivem-rcon",
             "fivem-licensekey",
             "fivem-deletecache",
-            "fivem-resolve-dbconnection",
+            "fivem-devtools",
             "fivem-useprofiler",
             "fivem-mastodon",
-            "fivem-prohibited-resources",
-            "fivem-notlisted",
             "fivem-gamebuild",
             "fivem-gamechange",
             "fivem-steam-web-api-key",
@@ -1081,9 +1105,9 @@ const sidebars = {
             "fivem-proxy"
           ]
         },
-        {
+                {
           type: "category",
-          label: "Resources & Mods",
+          label: "Resources",
           items: [
             "fivem-installresources",
             "fivem-sql-file-import",
@@ -1096,12 +1120,27 @@ const sidebars = {
         },
         {
           type: "category",
-          label: "ESX",
+          label: "Frameworks",
           items: [
-            "fivem-esx-becomeadminoverdatabase",
-            "fivem-esx-addcarstoshop",
-            "fivem-esx-changejobgarages",
-            "fivem-editlocalfiles"
+            {
+              type: "category",
+              label: "ESX",
+              items: [
+                "fivem-esx-becomeadminoverdatabase",
+                "fivem-esx-addcarstoshop",
+                "fivem-esx-changejobgarages",
+                "fivem-editlocalfiles",
+                "fivem-esx-spawnpoints"
+              ]
+            },
+            {
+              type: "category",
+              label: "QBCore",
+              items: [
+                "fivem-qbcore-admin",
+                "fivem-qbcore-spawnpoints"
+              ]
+            }
           ]
         },
         {
@@ -1115,12 +1154,13 @@ const sidebars = {
         },
         {
           type: "category",
-          label: "QBCore",
+          label: "Troubleshooting",
           items: [
-            "fivem-qbcore-admin",
-            "fivem-qbcore-spawnpoints"
+            "fivem-resolve-dbconnection",
+            "fivem-prohibited-resources"
+
           ]
-        }
+        },
       ],
     },
     {
