@@ -2769,6 +2769,7 @@ const sidebars = {
         'webspace-wordpress',
         'webspace-wordpress-plugins',
         'webspace-wordpress-migration',
+        'webspace-wordpress-elementor'
       ],
     },
   ],
