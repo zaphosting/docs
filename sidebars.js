@@ -1869,8 +1869,8 @@ const sidebars = {
           type: "category",
           label: "First Steps",
           items: [
-            "rust-firststeps-dashboard"
-          ]
+            "rust-firststeps-dashboard",
+            "rust-firststeps-connect"          ]
         },
         "rust-becomeadmin",
         "rust-connectrcon",
