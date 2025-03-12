@@ -1,50 +1,78 @@
 ---
 id: foundry-firststeps-connect
-title: "Foundry: Connect to Foundry Server"
-description: Information about connecting to a Foundry server from ZAP-Hosting - ZAP-Hosting.com documentation
-sidebar_label: Connect to Server
+title: "Foundry: Connect to the server"
+description: Information about various ways on how to connect to your Foundry server from ZAP-Hosting - ZAP-Hosting.com Documentation
+sidebar_label: Connect to the server
 services:
   - gameserver
 ---
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
-## Introduction
 
-In this guide, we will explore how to connect to your Foundry server. There are two methods of connecting, either directly via the IP address of your server or through the server list. We recommend configurating the server to your likings beforehand, learn more about this through our [Server Configuration](foundry-configuration.md) guide.
+## Introduction
+Not sure how to connect to your **Foundry** server or what you need to get started? No worries, we’ve got you covered! We will walk you through everything you need – from the required tools and information to the actual connection process, along with key considerations to ensure a smooth and trouble-free connection experience. Follow our guide and you'll be connected in no time!
 
 <InlineVoucher />
 
-## Direct Connect via IP
 
-### Obtaining Server IP
 
-Firstly, you need to know the IP and Port of your Foundry server in order to be able to direct connect. Simply head over to your [ZAP-Hosting webinterface](https://zap-hosting.com/en/customer/) on the site, and have the full IP and Port on hand.
+## Obtain server details
 
-![](https://screensaver01.zap-hosting.com/index.php/s/XmmnD2d9C3xm4SE/preview)
 
-If you are running your Foundry server as an external dedicated server, your IP will be of the host machine and the Port will be the one which you have set in your configuration file (by default this is 3724). Check out our [Server Configuration](foundry-configuration.md) for more information about the port.
+You will require all the relevant information necessary to connect to your server. The information about your server can be found on the dashboard of your game server's web interface panel. Important information includes the following:
 
-### Connecting in-game
+- IP address and port
+- Server name
 
-Begin by launching Foundry from your game launcher. In the main menu, select **Multiplayer**, followed by the **IP Direct Connect** option.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/KS9jQiZtgzfkfaW/preview)
+Using the information mentioned above, you should be able to locate your server and ensure that you connect to the correct server.
 
-A prompt will appear and into this you should input the details of your server including the IP Address and Port that you previously obtained from your webinterface, or the IP and Port of your own external dedicated server instance.
+![img](https://screensaver01.zap-hosting.com/index.php/s/mW5myH3mRPARkKb/preview)
 
-There is also an optional password field which you should use if your server has a password configured, otherwise you may leave this empty.
+## Establish server connection
 
-![](https://screensaver01.zap-hosting.com/index.php/s/5kNMZyrkDwt9ZAy/preview)
 
-If you cannot join the server successfully and receive a timeout error, please ensure that the inputted IP and Port is correct and that your server is online. You can use the console section of your webinterface for your Foundry server to help with debugging.
+The connection to a game server can often be established in one or more ways. Available methods are described and explained in detail below.
 
-## Connect via Server List
+<Tabs>
+    <TabItem value="connect_solution_server_browser_ingame" label="Direct connect (In game)" default>
 
-The easier option for connecting to your server is through the server list. However, this does require your server to be set to public within the server configuration parameters. 
+Open the game and navigate to multiplayer. Click on **IP Direct connect** and enter the IP address and port of your server. 
 
-Please check out our [Server Configuration](foundry-configuration.md) in order to add the appropriate `server_name` and `server_is_public` parameters into your configuration file or via the webinterface panel.
+![img](https://screensaver01.zap-hosting.com/index.php/s/MFmS5kNf7TseSFR/download)
 
-Once this is done, in the main menu select **Multiplayer**, followed by the **Join Steam Server** option. In here, search for the server name that you have set in the configuration and you should be able to find your server and connect.
+</TabItem>
 
-![](https://screensaver01.zap-hosting.com/index.php/s/FfTPgx7Q6wbwn4g/preview)
+
+</Tabs>
+
+
+
+## Potential issues and solutions
+
+
+The connection to a game server can often be established in one or more ways. Available methods are described and explained in detail below.
+
+#### Not visible
+
+
+A lack of visibility of the server can occur if the initialization was not completed successfully. This may for example be due to a faulty configuration or corrupted files. Further information can usually be traced in the server console or log files.
+
+
+
+#### Missing solution or unhelpful
+
+
+Still facing issues after troubleshooting? In this case, our support team is available daily to provide assistance. Simply create a **[Ticket](https://zap-hosting.com/en/customer/support/)** on our website and explain your issue to us with as much details as possible. We will have a look at it as quickly as possible and assist you in solving the issue accordingly!
+
+
+
+## Conclusion
+
+Congratulations, provided you have followed everything, you should have successfully established a connection to the server. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
+
+
+
