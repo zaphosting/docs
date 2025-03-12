@@ -2015,6 +2015,7 @@ const sidebars = {
           label: "First Steps",
           items: [
             "squad-firststeps-dashboard",
+            "squad-firststeps-connect",
           ]
         },
       ],
