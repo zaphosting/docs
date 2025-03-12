@@ -1741,7 +1741,8 @@ const sidebars = {
           type: "category",
           label: "First Steps",
           items: [
-            "projectzomboid-firststeps-dashboard"
+            "projectzomboid-firststeps-dashboard",
+            "projectzomboid-firststeps-connect"
           ]
         }
       ],
