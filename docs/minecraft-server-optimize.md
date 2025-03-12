@@ -349,7 +349,7 @@ In order to adapt the setting, the following values ​​must be adapted under 
 The values ​​here should not be set higher than 8, otherwise the lagg effect mentioned above can arise!
 :::
 
-### Explosionen
+### Explosions
 
 At Paper Spigot, many parts of Minecraft servers have been reprogrammed to make the server run better. This also applies to explosions! Here, the software handles explosions better, so that larger laggs on the server are avoided.
 
