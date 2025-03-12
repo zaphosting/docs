@@ -803,7 +803,7 @@ const sidebars = {
           label: "First Steps",
           items: [
             "corekeeper-firststeps-dashboard",
-            "corekeeper-connecttoserver"
+            "corekeeper-firststeps-connect"
           ]
         }
       ],
