@@ -1006,7 +1006,8 @@ const sidebars = {
           type: "category",
           label: "First Steps",
           items: [
-            "eco-firststeps-dashboard"
+            "eco-firststeps-dashboard",
+            "eco-firststeps-connect"
           ]
         },
         "eco-becomeadmin",
