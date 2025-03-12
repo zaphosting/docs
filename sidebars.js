@@ -548,7 +548,8 @@ const sidebars = {
           type: "category",
           label: "First Steps",
           items: [
-            "arma3-firststeps-dashboard"
+            "arma3-firststeps-dashboard",
+            "arma3-firststeps-connect"
           ]
         },
         "arma3-serverconfig",
