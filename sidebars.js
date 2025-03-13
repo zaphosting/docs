@@ -1001,7 +1001,8 @@ const sidebars = {
           type: "category",
           label: "First Steps",
           items: [
-            "empyrion-firststeps-dashboard"
+            "empyrion-firststeps-dashboard",
+            "empyrion-firststeps-connect"
           ]
         },
         "empyrion-becomeadmin"
