@@ -10,25 +10,25 @@ services:
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
-Minecraft: Bedrock Edition allows you to create your own worlds and use them on your server. In this guide, we will show you how to import an own world into your Minecraft: Bedrock Server to share it with your friends.
+Minecraft Bedrock Edition allows you to create your own worlds and use them on your server. In this guide, we will show you how to import an own world into your Minecraft: Bedrock Server to share it with your friends.
 
 <InlineVoucher />
 
 ## Preparation
 
-To import a world into your Minecraft: Bedrock Server, you need to connect via FTP. If you are not familiar with this, we recommend taking a look at the [FTP access](gameserver-ftpaccess.md) guide.
+To import a world into your Minecraft Bedrock Server, you need to connect via FTP. If you are not familiar with this, we recommend taking a look at the [FTP access](gameserver-ftpaccess.md) guide.
 
 Make sure you have already saved the world you want to import on your computer. The world should be in a folder with the corresponding files.
 If you want to upload a world from Minecraft: Bedrock single-player, you can find it at the following path:
 ```
-C:\Users\%username%\AppData\Local\Packages\Microsoft.MinecraftUWP_8wekyb3d8bbwe\LocalState\games\com.mojang\minecraftWorlds
+C:\Users\%userprofile%\AppData\Local\Packages\Microsoft.MinecraftUWP_8wekyb3d8bbwe\LocalState\games\com.mojang\minecraftWorlds
 ```
 
 ## Installation
 
 ### Stop the Server
 
-Before starting the import, you need to stop your Minecraft: Bedrock Server. This ensures that no data is lost and the import runs smoothly.
+Before starting the import, you need to stop your Minecraft Bedrock Server. This ensures that no data is lost and the import runs smoothly.
 
 ### Upload the World
 
@@ -61,4 +61,4 @@ Connect to your server and verify that the imported world has been loaded correc
 
 ## Conclusion
 
-Importing a world into your Minecraft: Bedrock Server is a simple process that allows you to share your own creations with others. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
+Importing a world into your Minecraft Bedrock Server is a simple process that allows you to share your own creations with others. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂

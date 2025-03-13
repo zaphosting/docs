@@ -22,7 +22,7 @@ Stelle sicher, dass du die Welt, die du importieren möchtest, bereits auf deine
 Solltest du eine Welt aus dem Minecraft: Bedrock einzelspieler hochladen wollen, kannst du diese unter folgendem Pfad finden:
 
 ```
-C:\Users\%username%\AppData\Local\Packages\Microsoft.MinecraftUWP_8wekyb3d8bbwe\LocalState\games\com.mojang\minecraftWorlds
+C:\Users\%userprofile%\AppData\Local\Packages\Microsoft.MinecraftUWP_8wekyb3d8bbwe\LocalState\games\com.mojang\minecraftWorlds
 ```
 
 ## Installation
