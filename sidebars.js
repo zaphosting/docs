@@ -1045,7 +1045,8 @@ const sidebars = {
           type: "category",
           label: "First Steps",
           items: [
-            "factorio-firststeps-dashboard"
+            "factorio-firststeps-dashboard",
+            "factorio-firststeps-connect"
           ]
         },
         "factorio-becomeadmin",
