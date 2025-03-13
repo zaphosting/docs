@@ -1,53 +1,50 @@
 ---
 id: vserver-windows-expand-disk
-title: "VPS: Extending the hard disk on Windows Server"
+title: "VPS: Expanding the disk (partition) on Windows Server"
 description: Information on how to expand the hard disk of your Windows VPS from ZAP-Hosting after an upgrade - ZAP-Hosting.com documentation
-sidebar_label: Extend disk
+sidebar_label: Expand Disk (Partition)
 services:
   - vserver
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
+
+
+## Introduction
+
+Sometimes it can happen that the hard disk or partitions are not properly extended or assigned, for example after an upgrade. If this is the case, you can solve this problem with the following steps. 
+
 <InlineVoucher />
 
-After upgrading your ZAP Windows VPS, it may be necessary to add the new storage to your existing partition.
 
-:::info
-Don't worry, this step will not delete any data.
-:::
 
-## Extend the partition
+## Expand the partition
 
-Press `Windows key` + `R` and type. ```diskmgmt.msc``` and confirm with `Enter`
+The partition can be adjusted using disk management. To open the application, press `Windows key` + `R` and then enter `diskmgmt.msc`. After this, click on `OK`.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/NBSLGqCNZDtebdS/preview)
 
-Now the **Disk management** opens. Here you have the possibility to adjust partitions.
-
-Click with **right click** on the already existing partition and select (1) Extend Volume
+Now the **Disk management** opens. Here you have the possibility to adjust partitions. Click with **right click** on the already existing partition and select (1) Extend Volume
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/nWMStW6T74SrrRe/preview)
 
 
-Now the wizard opens to extend volumes:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/NFk59pimy4dFdAk/preview)
+Now the **Extend Volume Wizard** opens to extend volumes. Start the wizard by clicking on **Next**. The available disk space will be detected automatically, you just have to continue with another **Next**. Confirm and complete this process by pressing on **Finish**.
 
-Start the wizard by clicking (1) **Next**.
-
-
-![](https://screensaver01.zap-hosting.com/index.php/s/QQpqeNEPdNnixXD/preview)
-
-The available disk space will be detected automatically, you just have to continue with (1) **Next**.
+![img](https://screensaver01.zap-hosting.com/index.php/s/MwRFS8eCHoqBSNt/download)
 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/rNKzKmGzXYf5tos/preview)
 
-Now finish the wizard with (1) **Finish**.
-
-:::info
-💚 Your disk partition is now enlarged by the new space!
-:::
+Once the process is complete, the current configuration is displayed again in Disk Management. 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/M46ca4FkeG42AZz/preview)
+
+
+
+
+
+## Conclusion
+
+Your disk (partition) should now be set and usable as intended. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂

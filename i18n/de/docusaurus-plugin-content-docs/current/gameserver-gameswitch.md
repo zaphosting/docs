@@ -7,11 +7,14 @@ services:
   - gameserver
 ---
 
+import YouTube from '@site/src/components/YouTube/YouTube';
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
 Mit einem ZAP-Hosting-Gameserver hast du die Möglichkeit, den Server über dein Webinterface-Panel schnell und einfach zwischen verschiedenen von uns angebotenen Spielen zu wechseln. In dieser Anleitung werden wir unsere Spielwechsel-Funktion vorstellen und erläutern, wie du damit verschiedene Spiele auf deinem Gameserver verwalten und aktivieren kannst.
+
+<YouTube videoId="nmPd4OsEEvc" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/3fiEazfHpXjWF5N/preview" title="How to Use the Game Switch Feature on ZAP-Hosting" description="Hast du das Gefühl, dass du etwas besser verstehst, wenn du es in Aktion siehst? Wir haben etwas für dich! Tauche ab in unser Video, welches alles für dich zusammenfasst. Egal, ob du es eilig hast oder einfach nur Informationen auf möglichst verständliche Art und Weise aufnehmen möchtest!"/>
 
 <InlineVoucher />
 

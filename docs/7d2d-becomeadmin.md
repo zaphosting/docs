@@ -38,6 +38,10 @@ This will provide you with general information as well as the Steam ID of your a
   </users>
 ```
 
+:::danger  Admin record isn't recognized? 
+Ensure to remove the comment characters `<!--` and `-->` to make the line valid. Otherwise the line remains just as a comment and will not be applied. Simply remove the characters at the beginning and end of the line to activate it.
+:::
+
 The game offers the possibility to define different permission levels for the administrator permissions. This means that it is possible to define different administrator groups with different permissions. The level is defined by the ``permission_level`` option. This can be set from 0 to 1000. Depending on how this is configured, the administrators then have access to the assigned permissions. Once this has been done, the administrator permissions have been assigned successfully. 
 
 

@@ -1,74 +1,92 @@
 ---
 id: valheim-firststeps-connect
 title: "Valheim: Connect to the server"
-description: Information about connecting to a Valheim server from ZAP-Hosting - ZAP-Hosting.com documentation
+description: Information about various ways on how to connect to your Valheim server from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Connect to the server
 services:
   - gameserver
 ---
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
+
 ## Introduction
-
-Are you unsure about what you need to connect to your server in general or how to do it exactly? Don't worry! We will explain you in the following step by step what you will need to connect to your server, how to connect to it afterwards and what to consider in general. This should allow you to successfully connect to your server without any problems! :)
-
-![](https://screensaver01.zap-hosting.com/index.php/s/r8ZHxrdiG38iQdj/preview)
+Not sure how to connect to your **Valheim** server or what you need to get started? No worries, we’ve got you covered! We will walk you through everything you need – from the required tools and information to the actual connection process, along with key considerations to ensure a smooth and trouble-free connection experience. Follow our guide and you'll be connected in no time!
 
 <InlineVoucher />
 
-## Prerequisites
-
-First of all, it is necessary to clarify which prerequisites have to be met so that a connection to the server is possible. This includes, for example, the game, additional content (extensions) and the general server information such as IP address, port and server name.
 
 
 
-### Game / Contents
+## Requirements
 
-For the connection to your game server, it is mandatory that you already own the game. This is not provided by us when renting a server. It is also relevant which version of the game is used. The standard Valheim version does not require any additional content. However, if you have ordered a **Valheim Plus** or Valheim BepInEX server, then you will also need the client-side modification. We also offer a guide for the installation: [Valheim Plus](valheim-plus.md)
+Additional software is not required for the regular use of a Valheim vanilla server. However, if you have chosen the Valheim Plus or BepInEx variant to use plugins, then you also need to install this extension locally. Please have a look here to find out how to install these extensions locally for your game: 
 
-
-
-### Server information
-
-Provided that all prerequisites of **Game / Content** are met, you will need the information of your server. Click on your game server service in your dashboard. The overview will now show you all general information about your server.
-
-![](https://screensaver01.zap-hosting.com/index.php/s/tLAtDammCrKdGn3/preview)
-
-Zu den relevanten Informationen gehören hierbei die **IP-Adresse,** **Port** und **Passwort**. Diese solltest du dir merken/notieren, da du diese gleich für deinen ersten Verbindungsaufbau zu deinem Server benötigst. 
+| Extension       | Download                                                     |
+| --------------- | ------------------------------------------------------------ |
+| Valheim Plus    | [Link](https://github.com/Grantapher/ValheimPlus)            |
+| Valheim BepInEx | [Link](https://thunderstore.io/c/valheim/p/denikson/BepInExPack_Valheim/) |
 
 
 
+## Obtain server details
 
+You will require all the relevant information necessary to connect to your server. The information about your server can be found on the dashboard of your game server's web interface panel. Important information includes the following
 
-## Connect to the server
+- IP address and port
+- Server name
+- Server password (Optional)
 
-Once all the prerequisites have been met, you can begin to connect to the server. To do this, start your game and then navigate to Start Game -> Start -> Join Game and click on Add Server. Now enter the IP and port of your server:
+Using the information mentioned above, you should be able to locate your server and ensure that you connect to the correct server.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/Tk9Qm8nxRdaE2Fe/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/mfm2fFafq4Xq9H5/preview)
 
+## Establish server connection
 
+The connection to a game server can often be established in one or more ways. Available methods are described and explained in detail below.
 
-The server should now be displayed in the server list. Double-click on the server to establish the connection to the server.
+<Tabs>
+    <TabItem value="connect_solution_server_browser_ingame" label="Server Browser (In game)" default>
 
+To connect to your server via the in game server browser, open the game. Click on **Start game**. If you haven't created a character yet, the next step is to create one and start with it. Now click on **Add server** in the server list. Enter the IP:Port of your server in the new popup window. Once you have added the server, you can connect via the **Connect** button. 
 
+![img](https://screensaver01.zap-hosting.com/index.php/s/2CAiyKEkpYnmgEJ/download)
 
-## Potential problems and solutions
-
-The establishment of the connection does not work as expected? This may happen in certain situations, when the connection fails due to a technical problem. We have listed the most common problems and their solutions below:
-
-
-
-### Not visible
-
-A lack of visibility of the server can occur if the initialization was not completed successfully for some reason. This may for example be due to a faulty configuration, faulty mods/plugins or corrupted files. Further information can usually be traced in the server console or log files.
-
-
-
-### Connection failed
-
-**Valheim Plus: ** The connection may fail if the necessary Valheim Plus extension is not installed on the client or it is running on a different version. Make sure that the Valheim Plus extension/modification is installed and functional. This can usually be seen in the main menu by the "Valheim Plus" heading and version.
+</TabItem>
 
 
 
-The mentioned solutions have not solved your problem yet or do not apply in your case? In this case, we are also available to you daily in support. Simply create a **[Ticket](https://zap-hosting.com/en/customer/support/)** and explain your problem to us. We will have a look at it as quickly as possible and assist you in solving the problem accordingly! :)
+</Tabs>
+
+
+
+## Potential issues and solutions
+
+The connection to a game server can often be established in one or more ways. Available methods are described and explained in detail below.
+
+#### Not visible
+
+A lack of visibility of the server can occur if the initialization was not completed successfully. This may for example be due to a faulty configuration or corrupted files. Further information can usually be traced in the server console or log files.
+
+
+
+#### Connection failed
+
+Valheim Plus/BepInEx: The connection may fail if the necessary extension is not installed on the client or it is running on a different version. Make sure that the extension/modification is installed and functional. This can usually be seen in the main menu by the "Valheim Plus" heading and version.
+
+
+
+#### Missing solution or unhelpful
+
+Still facing issues after troubleshooting? In this case, our support team is available daily to provide assistance. Simply create a **[Ticket](https://zap-hosting.com/en/customer/support/)** on our website and explain your issue to us with as much details as possible. We will have a look at it as quickly as possible and assist you in solving the issue accordingly!
+
+
+
+## Conclusion
+
+Congratulations, provided you have successfully followed everything, you should have successfully established a connection to the server. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
+
+
+

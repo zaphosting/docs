@@ -59,12 +59,14 @@ As a confirmation, a pop-up should now open confirming that the upvotes have bee
 
 ## Reset Upvotes
 
-In case the upvotes should be reassigned to another server or an error occurred while assigning the upvotes, they can be reset via the dashboard.
+In case the upvotes should be reassigned to another server or an error occurred while assigning the upvotes, they can be reset via the dashboard. The reset of the upvotes will take a few minutes until it has been adopted by Cfx.re. 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/PKzqHx4tbRFDWg8/preview)
 
+:::danger Reset cooldown period
+Cfx.re enforces an Upvote **cooldown period**. The assignment of upvotes is therefore only possible once a day for a server of your choice. After the assignment, you must wait **24 hours** until you can assign them again. 
+:::
 
-The reset of the upvotes can take a few minutes. They can usually be reassigned after 60 minutes at the latest.
 
 
 

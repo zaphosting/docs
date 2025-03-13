@@ -1,6 +1,6 @@
 ---
 id: vserver-windows-expand-disk
-title: "vServer: Festplatte auf Windows Server erweitern"
+title: "vServer: Festplatte (Partition) auf Windows Server erweitern"
 description: Informationen, wie du die Festplatte deines Windows vServers von ZAP-Hosting nach einem Upgrade erweitern kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Festplatte erweitern
 services:
@@ -8,6 +8,12 @@ services:
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
+
+
+
+## Einführung
+
+
 
 <InlineVoucher />
 
@@ -17,35 +23,30 @@ Nach einem Upgrade deines ZAP Windows vServers, ist es möglicherweise notwendig
 Keine Sorge, bei diesem Schritt werden keine Daten gelöscht
 :::
 
-## Die Partition erweitern
+## Partition erweitern
 
-
-Drücke `Windows-Taste` + `R` und gib dort ```diskmgmt.msc``` ein und bestätige mit `Enter`
+Die Partition kann mit der **Datenträgerverwaltung** angepasst werden. Um die Anwendung zu öffnen, drücke die `Windows-Taste` + `R` und gebe dort `diskmgmt.msc` ein. Bestätige die Eingabe anschließend in dem du  auf `OK` klickst.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/xPAZaPKckYXSsQR/preview)
 
-Es öffnet sich nun die **Datenträgerverwaltung** hier hast du die Möglichkeit Partitionen anzupassen.
-
-Klicke mit **Rechtsklick** auf die bereits bestehende Partition und wähle (1) Volume erweitern
+Nun öffnet sich die Datenträgerverwaltung. Hier hast du die Möglichkeit, Partitionen anzupassen. Klicke mit der rechten Maustaste auf die bereits vorhandene Partition und wähle Volume erweitern aus.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/Qo3aKWgeL94DgyQ/preview)
 
-Es öffnet sich nun der Assistent, um Volumes erweitern zu können:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/3YpMgfy7tWYNawz/preview)
 
-Starte den Assistenten, in dem du (1) **Weiter** klickst.
+Es öffnet sich nun der **Assistent zum Erweitern des Volumes**. Starte den Assistenten mit einem Klick auf **Weiter**. Der verfügbare Speicherplatz wird automatisch erkannt, so dass du nur noch mit einem weiteren **Weiter** fortfahren musst. Bestätige und schließe den Vorgang ab, indem du auf **Fertig stellen** klickst.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/wD5nwinGBRqksyR/preview)
 
-Der verfügbare Festplattenspeicher wird automatisiert erkannt, du musst lediglich mit (1) **Weiter** fortfahren.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/y8fxAj72AsqJ3RH/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/2cW43AGPMNrfTwr/preview)
 
-Beende nun den Assistenten mit (1) **Fertigstellen**
-
-:::info
-Deine Festplattenpartition ist jetzt um den neuen Speicher vergrößert!
-:::
+Sobald der Vorgang abgeschlossen ist, wird die aktuelle Konfiguration wieder in der Datenträgerverwaltung angezeigt.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/gRKJziB8WY5ZHNR/preview)
+
+
+
+## Abschluss
+
+Deine Festplatte (Partition) sollte nun wie vorgesehen eingestellt und nutzbar sein. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂

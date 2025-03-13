@@ -1,66 +1,89 @@
 ---
 id: cs2-firststeps-connect
-title: "CS2: Connect to the server"
-description: Information on how to connect to a CS2 server from ZAP-Hosting - ZAP-Hosting.com documentation
+title: "Counter-Strike 2: Connect to the server"
+description: Information about various ways on how to connect to your Counter-Strike 2 server from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Connect to the server
 services:
   - gameserver
 ---
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
+
 ## Introduction
-
-Are you unsure about what you need to connect to your server in general or how to do it exactly? Don't worry! We will explain you in the following step by step what you will need to connect to your server, how to connect to it afterwards and what to consider in general. This should allow you to successfully connect to your server without any problems! :)
-
-![](https://screensaver01.zap-hosting.com/index.php/s/H5M3SWXcdsZXmJG/preview)
+Not sure how to connect to your **Counter-Strike 2** server or what you need to get started? No worries, we’ve got you covered! We will walk you through everything you need – from the required tools and information to the actual connection process, along with key considerations to ensure a smooth and trouble-free connection experience. Follow our guide and you'll be connected in no time!
 
 <InlineVoucher />
 
-## Prerequisites
-
-First of all, it is necessary to clarify which prerequisites have to be met so that a connection to the server is possible. This includes, for example, the game, additional content (extensions) such as mods/plugins and the general server information such as IP address, port and server name.
 
 
+## Obtain server details
 
-### Game /Contents
+You will require all the relevant information necessary to connect to your server. The information about your server can be found on the dashboard of your game server's web interface panel. Important information includes the following
 
-For the connection to your game server, it is mandatory that you already own the game. This is not provided by us when renting a server. Additional extensions are not required for the game. Apart from that, no other prerequisites have to be met.
+- IP address and port
+- Server name
+- Server password (Optional)
 
+Using the information mentioned above, you should be able to locate your server and ensure that you connect to the correct server.
 
+![img](https://screensaver01.zap-hosting.com/index.php/s/TArxRjwEcctXwFt/preview)
 
-### Server information
+## Establish server connection
 
-Provided that all prerequisites of **Game / Content** are met, you will need the information of your server. Click on your game server service in your dashboard. The overview will now show you all general information about your server.
+The connection to a game server can often be established in one or more ways. Available methods are described and explained in detail below.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/mHMs3kbEjnsCTnJ/preview)
+<Tabs>
 
-The relevant information includes the **IP address,** **Port** and **Password (Optional)**. You should remember these, because you will need them for your first connection to your server.
-
-
-
-## Connect to the server
-
-Once all prerequisites have been met, you can now begin to connect to the server. Open the Steam Server Browser. There you have to add the IP address and port of your server to your favorites.
-
-![](https://screensaver01.zap-hosting.com/index.php/s/PyF2xMHEzyyfjw7/preview)
-
-A popup window will open where you have to provide the information. Afterwards you should be able to find your server. You can now connect to it by selecting it and using the Connect button.
-
-![](https://screensaver01.zap-hosting.com/index.php/s/cYLfEWyfBHMGB63/preview)
+<TabItem value="connect_solution_server_browser_steam" label="Server Browser (Steam)">
 
 
 
-## Potential problems and solutions
+To connect to your server via the Steam server browser, open the server browser from Steam. Click on `View` at the top of the Steam navigation and then on the `Game Server` section to open it. 
 
-The establishment of the connection does not work as expected? This may happen in certain situations, when the connection fails due to a technical problem. We have listed the most common problems and their solutions below:
+Search or add your server via the Steam browser by using the `IP address` and `Port` of your game server. To do this, select the `Favorites` tab in the server list and click on the plus symbol at the bottom. A pop-up window will open in which you specify your server information. 
+
+![img](https://screensaver01.zap-hosting.com/index.php/s/MMsokw2ZyCreeCN/download)
+
+</TabItem>
+
+<TabItem value="connect_solution3" label="Console (In game)">
+
+To connect to your server via console, open the console with the `~` key. Once the console is open, execute the following command: 
+
+```
+connect IP:Port
+connect IP:Port; password yourdefinedpassword // In case a server password is set
+```
+
+![img](https://screensaver01.zap-hosting.com/index.php/s/ERHMR6q3CdySn4W/preview)
+
+</TabItem>
+</Tabs>
 
 
 
-### Not visible
+## Potential issues and solutions
 
-A lack of visibility of the server can occur if the initialization was not completed successfully for some reason. This may for example be due to a faulty configuration or corrupted files. Further information can usually be traced in the server console or log files.
+The connection to a game server can often be established in one or more ways. Available methods are described and explained in detail below.
+
+#### Not visible
+
+A lack of visibility of the server can occur if the initialization was not completed successfully. This may for example be due to a faulty configuration or corrupted files. Further information can usually be traced in the server console or log files.
 
 
 
-The mentioned solutions have not solved your problem yet or do not apply in your case? In this case, we are also available to you daily in support. Simply create a **[Ticket](https://zap-hosting.com/en/customer/support/)** and explain your problem to us. We will have a look at it as quickly as possible and assist you in solving the problem accordingly! :)
+#### Missing solution or unhelpful
+
+Still facing issues after troubleshooting? In this case, our support team is available daily to provide assistance. Simply create a **[Ticket](https://zap-hosting.com/en/customer/support/)** on our website and explain your issue to us with as much details as possible. We will have a look at it as quickly as possible and assist you in solving the issue accordingly!
+
+
+
+## Conclusion
+
+Congratulations, provided you have successfully followed everything, you should have successfully established a connection to the server. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
+
+
+
