@@ -411,6 +411,7 @@ const sidebars = {
           label: "First Steps",
           items: [
             "7d2d-firststeps-dashboard",
+            "7d2d-firststeps-connect"
           ]
         },
         "7d2d-becomeadmin",
@@ -536,6 +537,20 @@ const sidebars = {
         "arma3-altislife-ranks",
         "arma3-gamemode",
         "arma3-missionfile"
+      ]
+    },
+    {
+      type: "category",
+      label: "Arma Reforger",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "arma-reforger-firststeps-dashboard",
+            "arma-reforger-firststeps-connect"
+          ]
+        },
       ]
     },
     {
@@ -830,7 +845,7 @@ const sidebars = {
         "source-gsltoken",
         {
           type: "category",
-          label: "Sourcemod / Metamod",
+          label: "Sourcemod / Metamod (Plugins)",
           items: [
             "source-metamod-installation",
             "source-metamod-addadmins",
@@ -884,7 +899,7 @@ const sidebars = {
         },
         {
           type: "category",
-          label: "Sourcemod / Metamod",
+          label: "Sourcemod / Metamod (Plugins)",
           items: [
             "source-metamod-installation",
             "source-metamod-addadmins",
@@ -914,7 +929,8 @@ const sidebars = {
           type: "category",
           label: "First Steps",
           items: [
-            "dayz-firststeps-dashboard"
+            "dayz-firststeps-dashboard",
+            "dayz-firststeps-connect"
           ]
         },
         "dayz-becomeadmin",
@@ -1151,7 +1167,35 @@ const sidebars = {
           ]
         },
       ],
-    }, 
+    },
+    {
+      type: "category",
+      label: "Half-Life 1",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "hl1-firststeps-dashboard",
+            "hl1-firststeps-connect",
+          ]
+        },
+      ],
+    },
+    {
+      type: "category",
+      label: "Half-Life 2",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "hl2-firststeps-dashboard",
+            "hl2-firststeps-connect",
+          ]
+        },
+      ],
+    },
     {
       type: "category",
       label: "Holdfast: Nations At War",
@@ -1200,6 +1244,7 @@ const sidebars = {
           label: "First Steps",
           items: [
             "icarus-firststeps-dashboard",
+            "icarus-firststeps-connect"
           ]
         },
       ],
@@ -1252,6 +1297,7 @@ const sidebars = {
           label: "First Steps",
           items: [
             "killingfloor2-firststeps-dashboard",
+            "killingfloor2-firststeps-connect"
           ]
         },
       ],
@@ -1293,6 +1339,16 @@ const sidebars = {
           label: "First Steps",
           items: [
             "l4d2-firststeps-dashboard",
+            "l4d2-firststeps-connect"
+          ]
+        },
+        {
+          type: "category",
+          label: "Sourcemod / Metamod (Plugins)",
+          items: [
+            "source-metamod-installation",
+            "source-metamod-addadmins",
+            "source-metamod-plugins"
           ]
         },
       ],
@@ -1306,6 +1362,7 @@ const sidebars = {
           label: "First Steps",
           items: [
             "longvinter-firststeps-dashboard",
+            "longvinter-firststeps-connect",
           ]
         },
       ],
@@ -1483,6 +1540,15 @@ const sidebars = {
           items: [
             "nmrih-firststeps-dashboard",
             "nmrih-firststeps-connect"
+          ]
+        },
+        {
+          type: "category",
+          label: "Sourcemod / Metamod (Plugins)",
+          items: [
+            "source-metamod-installation",
+            "source-metamod-addadmins",
+            "source-metamod-plugins"
           ]
         },
       ],
@@ -1864,6 +1930,7 @@ const sidebars = {
           label: "First Steps",
           items: [
             "sonsoftheforest-firststeps-dashboard",
+            "sonsoftheforest-firststeps-connect",
           ]
         },
       ],
@@ -2005,7 +2072,7 @@ const sidebars = {
         },
         {
           type: "category",
-          label: "Sourcemod / Metamod",
+          label: "Sourcemod / Metamod (Plugins)",
           items: [
             "source-metamod-installation",
             "source-metamod-addadmins",
@@ -2083,6 +2150,20 @@ const sidebars = {
     },
     {
       type: "category",
+      label: "The Lord of the Rings: RTM",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "lotr-rtm-firststeps-dashboard",
+            "lotr-rtm-firststeps-connect"
+          ]
+        },
+      ],
+    },
+    {
+      type: "category",
       label: "Unfortunate Spacemen",
       items: [
         {
@@ -2102,7 +2183,8 @@ const sidebars = {
           type: "category",
           label: "First Steps",
           items: [
-            "unturned-firststeps-dashboard"
+            "unturned-firststeps-dashboard",
+            "unturned-firststeps-connect"
           ]
         },
         "unturned-becomeadmin",

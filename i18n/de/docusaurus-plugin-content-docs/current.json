@@ -666,5 +666,25 @@
   "sidebar.gameserverSidebar.category.Day of Defeat: Source": {
     "message": "Day of Defeat: Source",
     "description": "The label for category Day of Defeat: Source in sidebar gameserverSidebar"
+  },
+  "sidebar.gameserverSidebar.category.Arma Reforger": {
+    "message": "Arma Reforger",
+    "description": "The label for category Arma Reforger in sidebar gameserverSidebar"
+  },
+  "sidebar.gameserverSidebar.category.Sourcemod / Metamod (Plugins)": {
+    "message": "Sourcemod / Metamod (Plugins)",
+    "description": "The label for category Sourcemod / Metamod (Plugins) in sidebar gameserverSidebar"
+  },
+  "sidebar.gameserverSidebar.category.Half-Life 1": {
+    "message": "Half-Life 1",
+    "description": "The label for category Half-Life 1 in sidebar gameserverSidebar"
+  },
+  "sidebar.gameserverSidebar.category.Half-Life 2": {
+    "message": "Half-Life 2",
+    "description": "The label for category Half-Life 2 in sidebar gameserverSidebar"
+  },
+  "sidebar.gameserverSidebar.category.The Lord of the Rings: RTM": {
+    "message": "The Lord of the Rings: RTM",
+    "description": "The label for category The Lord of the Rings: RTM in sidebar gameserverSidebar"
   }
 }
