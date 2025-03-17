@@ -1,7 +1,7 @@
 ---
-id: foundry-firststeps-connect
-title: "Foundry: Connect to the server"
-description: Information about various ways on how to connect to your Foundry server from ZAP-Hosting - ZAP-Hosting.com Documentation
+id: arma3-firststeps-connect
+title: "Arma 3: Connect to the server"
+description: Information about various ways on how to connect to your Arma 3 server from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Connect to the server
 services:
   - gameserver
@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Introduction
-Not sure how to connect to your **Foundry** server or what you need to get started? No worries, we’ve got you covered! We will walk you through everything you need – from the required tools and information to the actual connection process, along with key considerations to ensure a smooth and trouble-free connection experience. Follow our guide and you'll be connected in no time!
+Not sure how to connect to your **Arma 3** server or what you need to get started? No worries, we’ve got you covered! We will walk you through everything you need – from the required tools and information to the actual connection process, along with key considerations to ensure a smooth and trouble-free connection experience. Follow our guide and you'll be connected in no time!
 
 <InlineVoucher />
 
@@ -26,11 +26,12 @@ You will require all the relevant information necessary to connect to your serve
 
 - IP address and port
 - Server name
+- Server password (Optional)
 
 
 Using the information mentioned above, you should be able to locate your server and ensure that you connect to the correct server.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/mW5myH3mRPARkKb/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/Re2pEZCW4DHKmMF/preview)
 
 ## Establish server connection
 
@@ -38,14 +39,21 @@ Using the information mentioned above, you should be able to locate your server 
 The connection to a game server can often be established in one or more ways. Available methods are described and explained in detail below.
 
 <Tabs>
-    <TabItem value="connect_solution_server_browser_ingame" label="Direct connect (In game)" default>
+    <TabItem value="connect_solution_server_browser_ingame" label="Server Browser" default>
 
-Open the game and navigate to multiplayer. Click on **IP Direct connect** and enter the IP address and port of your server. 
+To connect to the server, start the game or rather open the launcher. Navigate to the **Servers** menu item in the launcher. Select the **Internet** section in the server list. Use the **Search field** to search for your server using the name of your server. Then select your server and click on the **Join** button. 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/MFmS5kNf7TseSFR/download)
+![img](https://screensaver01.zap-hosting.com/index.php/s/ogEprRpMdWe7pFn/download)
 
 </TabItem>
 
+<TabItem value="connect_solution_server_browser_direct" label="Direct Connect" default>
+
+To connect to the server, start the game or rather open the launcher. Navigate to the **Servers** menu item in the launcher. Click on the button **Direct Connect** at the bottom right. Enter the IP address and port of your server and click on the **Join** button. 
+
+![img](https://screensaver01.zap-hosting.com/index.php/s/pRHcaR7RcWrym9B/download)
+
+</TabItem>
 
 </Tabs>
 
