@@ -277,13 +277,19 @@ const sidebars = {
             "minecraft-server-icon",
             "minecraft-add-own-world",
             "minecraft-worlds",
-            "minecraft-crossplay",
-            "minecraftbedrock-behaviorresourcepacks",
             "minecraft-rcon",
             "minecraft-whitelist",
             "minecraft-timings-report",
             "minecraft-server-optimize",
             "minecraft-faultyworld"
+          ]
+        },
+        {
+          type: "category",
+          label: "Bedrock",
+          items: [
+            "minecraft-bedrock-addons",
+            "minecraft-bedrock-add-world"
           ]
         },
         {
@@ -1432,7 +1438,6 @@ const sidebars = {
             "minecraft-server-icon",
             "minecraft-add-own-world",
             "minecraft-worlds",
-            "minecraftbedrock-behaviorresourcepacks",
             "minecraft-rcon",
             "minecraft-whitelist",
             "minecraft-timings-report",
@@ -1442,9 +1447,10 @@ const sidebars = {
         },
         {
           type: "category",
-          label: "Spigot & Bukkit",
+          label: "Bedrock",
           items: [
-            "minecraft-pluginuploader"
+            "minecraft-bedrock-addons",
+            "minecraft-bedrock-add-world"
           ]
         },
         {
@@ -1459,6 +1465,13 @@ const sidebars = {
           label: "Forge & Fabric",
           items: [
             "minecraft-forge-fabric-add-mods-modpacks"
+          ]
+        },
+        {
+          type: "category",
+          label: "Spigot & Bukkit",
+          items: [
+            "minecraft-pluginuploader"
           ]
         }
       ],
