@@ -31,4 +31,8 @@ Während des Bestellvorgangs musst du eine Reihe von persönlichen Daten wahrhei
 Aufgrund der DSGVO-Bestimmungen, die in der EU gelten, sind alle Informationen, die du neben der Domain angibst, privat und können nicht öffentlich zugänglich gemacht werden.
 :::
 
+:::caution
+Bitte beachte, dass einige Domain-Endungen länderspezifischen oder regionalen Registrierungsrichtlinien unterliegen können. Für bestimmte Domains gelten Beschränkungen, wer diese registrieren darf – abhängig von Faktoren wie Wohnsitz, Unternehmenssitz oder anderen rechtlichen Vorgaben. Bitte informiere dich vor der Registrierung über die geltenden Bestimmungen der jeweiligen Domain-Registry.
+:::
+
 ![](https://screensaver01.zap-hosting.com/index.php/s/xEa3DJKE6pyXPfs/preview)
