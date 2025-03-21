@@ -606,6 +606,7 @@ const sidebars = {
           label: "First Steps",
           items: [
             "avorion-firststeps-dashboard",
+            "avorion-firststeps-connect",
           ]
         },
         "avorion-becomeadmin",
