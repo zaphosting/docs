@@ -1,7 +1,7 @@
 ---
-id: foundry-firststeps-connect
-title: "Foundry: Connect to the server"
-description: Information about various ways on how to connect to your Foundry server from ZAP-Hosting - ZAP-Hosting.com Documentation
+id: corekeeper-firststeps-connect
+title: "Core Keeper: Connect to the server"
+description: Information about various ways on how to connect to your Core Keeper server from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Connect to the server
 services:
   - gameserver
@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Introduction
-Not sure how to connect to your **Foundry** server or what you need to get started? No worries, we’ve got you covered! We will walk you through everything you need – from the required tools and information to the actual connection process, along with key considerations to ensure a smooth and trouble-free connection experience. Follow our guide and you'll be connected in no time!
+Not sure how to connect to your **Core Keeper** server or what you need to get started? No worries, we’ve got you covered! We will walk you through everything you need – from the required tools and information to the actual connection process, along with key considerations to ensure a smooth and trouble-free connection experience. Follow our guide and you'll be connected in no time!
 
 <InlineVoucher />
 
@@ -24,13 +24,12 @@ Not sure how to connect to your **Foundry** server or what you need to get start
 
 You will require all the relevant information necessary to connect to your server. The information about your server can be found on the dashboard of your game server's web interface panel. Important information includes the following:
 
-- IP address and port
-- Server name
+- Game ID
 
 
 Using the information mentioned above, you should be able to locate your server and ensure that you connect to the correct server.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/mW5myH3mRPARkKb/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/wJdLedrzKeKCB4F/download)
 
 ## Establish server connection
 
@@ -38,14 +37,13 @@ Using the information mentioned above, you should be able to locate your server 
 The connection to a game server can often be established in one or more ways. Available methods are described and explained in detail below.
 
 <Tabs>
-    <TabItem value="connect_solution_server_browser_ingame" label="Direct connect (In game)" default>
+    <TabItem value="connect_solution_server_joine" label="Join Game" default>
 
-Open the game and navigate to multiplayer. Click on **IP Direct connect** and enter the IP address and port of your server. 
+Click on **Join Game** in the game and enter the copied **Game ID** from the `Game ID` configuration file into the field. 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/MFmS5kNf7TseSFR/download)
+![img](https://screensaver01.zap-hosting.com/index.php/s/TNPSnD8YRKSoxsx/download)
 
 </TabItem>
-
 
 </Tabs>
 

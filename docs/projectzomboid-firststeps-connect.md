@@ -1,7 +1,7 @@
 ---
-id: foundry-firststeps-connect
-title: "Foundry: Connect to the server"
-description: Information about various ways on how to connect to your Foundry server from ZAP-Hosting - ZAP-Hosting.com Documentation
+id: projectzomboid-firststeps-connect
+title: "Project Zomboid: Connect to the server"
+description: Information about various ways on how to connect to your Project Zomboid server from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Connect to the server
 services:
   - gameserver
@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Introduction
-Not sure how to connect to your **Foundry** server or what you need to get started? No worries, we’ve got you covered! We will walk you through everything you need – from the required tools and information to the actual connection process, along with key considerations to ensure a smooth and trouble-free connection experience. Follow our guide and you'll be connected in no time!
+Not sure how to connect to your **Project Zomboid** server or what you need to get started? No worries, we’ve got you covered! We will walk you through everything you need – from the required tools and information to the actual connection process, along with key considerations to ensure a smooth and trouble-free connection experience. Follow our guide and you'll be connected in no time!
 
 <InlineVoucher />
 
@@ -26,11 +26,12 @@ You will require all the relevant information necessary to connect to your serve
 
 - IP address and port
 - Server name
+- Server password (Optional)
 
 
 Using the information mentioned above, you should be able to locate your server and ensure that you connect to the correct server.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/mW5myH3mRPARkKb/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/9ENCi6gY6H7TY5p/preview)
 
 ## Establish server connection
 
@@ -38,11 +39,23 @@ Using the information mentioned above, you should be able to locate your server 
 The connection to a game server can often be established in one or more ways. Available methods are described and explained in detail below.
 
 <Tabs>
-    <TabItem value="connect_solution_server_browser_ingame" label="Direct connect (In game)" default>
+    <TabItem value="connect_solution_server_browser_ingame" label="Server Browser (In game)" default>
 
-Open the game and navigate to multiplayer. Click on **IP Direct connect** and enter the IP address and port of your server. 
+To connect to your server via the in game server browser, open the game and navigate to **Join**. Once you are in the server list, enter your server information in the Favorite Name, IP address and Port fields. You must then also provide your account username and password. Click on **Add** to add the server. 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/MFmS5kNf7TseSFR/download)
+![img](https://screensaver01.zap-hosting.com/index.php/s/dDgzzbFzr6TwYNP/download)
+
+</TabItem>
+
+<TabItem value="connect_solution_server_browser_steam" label="Server Browser (Steam)">
+
+
+
+To connect to your server via the Steam server browser, open the server browser from Steam. Click on `View` at the top of the Steam navigation and then on the `Game Server` section to open it. 
+
+Search or add your server via the Steam browser by using the `IP address` and `Port` of your game server. To do this, select the `Favorites` tab in the server list and click on the plus symbol at the bottom. A pop-up window will open in which you specify your server information. 
+
+![img](https://screensaver01.zap-hosting.com/index.php/s/MMsokw2ZyCreeCN/download)
 
 </TabItem>
 
