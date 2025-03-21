@@ -170,6 +170,11 @@ article p {
   text-align: justify;
 }
 
+article img {
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+}
+
 
 .theme-doc-toc-desktop {
   position: relative !important;
