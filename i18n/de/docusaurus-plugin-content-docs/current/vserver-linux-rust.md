@@ -11,17 +11,17 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Hast du einen Linux VPS oder Root Server und möchtest den Rust Dedicated Server Dienst darauf installieren? Dann bist du hier genau richtig. In diesem Anleitung erklären wir dir Schritt für Schritt, wie du diesen Dienst mithilfe von SteamCMD auf deinem Linux-Server installierst. Wir verwenden in den Beispielen Ubuntu, aber der Prozess sollte bei anderen Distributionen sehr ähnlich sein.
+Hast du einen Linux VPS oder Root Server und möchtest den Rust Dedicated Server Dienst darauf installieren? Dann bist du hier genau richtig. In dieser Anleitung erklären wir dir Schritt für Schritt, wie du diesen Dienst mithilfe von SteamCMD auf deinem Linux Server installierst. Wir verwenden in den Beispielen Ubuntu, aber der Prozess sollte bei anderen Distributionen sehr ähnlich sein.
 
 :::tip
-Wusstest du, dass du unser **ZAP GS/TS3 Interface** direkt auf deinem VPS oder Root-Server installieren kannst? Damit kannst du mit nur wenigen Klicks Gameserver-Dienste einrichten, die direkt in dein ZAP-Hosting-Dashboard integriert sind! Erfahre mehr über das [GS/TS3 Interface](vserver-linux-gs-interface.md).
+Wusstest du, dass du unser **ZAP GS/TS3 Interface** direkt auf deinem VPS oder Root-Server installieren kannst? Damit kannst du mit nur wenigen Klicks Gameserver-Dienste einrichten, die direkt in dein ZAP-Hosting Dashboard integriert sind! Erfahre mehr über das [GS/TS3 Interface](vserver-linux-gs-interface.md).
 :::
 
 <InlineVoucher />
 
 ## Vorbereitung
 
-Verbinde dich zunächst über SSH mit deinem VPS oder Root-Server. Benutze unsere Anleitung [Erstzugriff (SSH)](vserver-linux-ssh.md), wenn du dabei Hilfe benötigst.
+Verbinde dich zunächst per SSH mit deinem VPS oder Root-Server. Benutze unsere Anleitung [Erstzugriff (SSH)](vserver-linux-ssh.md), wenn du dabei Hilfe benötigst.
 
 Du musst auch eine Ersteinrichtung für SteamCMD vornehmen, wenn du es zum ersten Mal auf deinem Linux-Server verwendest. Bitte benutze unsere [SteamCMD einrichten](vserver-linux-steamcmd.md) Anleitung und stelle sicher, dass SteamCMD vollständig eingerichtet ist, bevor du fortfährst.
 
@@ -33,7 +33,7 @@ sudo -u steam -s
 cd ~
 ```
 
-Wenn du eingeloggt bist, kannst du den Installationsprozess mit dem folgenden Befehl starten, um die Installation mit Hilfe von SteamCMD direkt in deinem `steam`-Benutzer zu starten.
+Wenn du eingeloggt bist, kannst du den Installationsprozess mit dem folgenden Befehl starten, um die Installation mit Hilfe von SteamCMD direkt in deinem `Steam` Benutzer zu starten.
 ```
 steamcmd +force_install_dir '/home/steam/Rust-Server' +login anonymous +app_update 258550 validate +quit
 ```
@@ -42,20 +42,20 @@ Bitte habe etwas Geduld, während der Download abgeschlossen wird, denn bei Spie
 
 ## Konfiguration
 
-In diesem Stadium hast du die Einrichtung deines Rust Servers abgeschlossen. Du kannst weitere Serverkonfigurationen in den Konfigurationsdateien vornehmen, die sich im Verzeichnis deines Servers befinden.
+Zu diesem Zeitpunkt hast du die Einrichtung deines Rust Servers abgeschlossen. Du kannst weitere Serverkonfigurationen in den Konfigurationsdateien vornehmen, die sich im Verzeichnis deines Servers befinden.
 
-Wechseln Sie in Ihr Stammverzeichnis und erstellen Sie eine `.sh`-Datei. Dies ist die Bash-Datei, die zum Starten des Servers und zum Anpassen verschiedener Konfigurationsparameter verwendet wird.
+Wechsel in dein Stammverzeichnis und erstelle eine `.sh`-Datei. Dies ist die Bash-Datei, die zum Starten des Servers und zum Anpassen verschiedener Konfigurationsparameter verwendet wird.
 ```
 nano /home/steam/Rust-Server/start_server.sh
 ```
 
-Fügen Sie nun den folgenden Inhalt in die Bash-Datei ein. Im folgenden Befehl wurden einige der grundlegenden und am häufigsten verwendeten Parameter hinzugefügt. Wenn Sie weitere hinzufügen oder mehr über die einzelnen Parameter erfahren möchten, empfehlen wir Ihnen, das [offizielle Rust-Wiki](https://wiki.facepunch.com/rust/Creating-a-server#startingtheserver) zu durchsuchen, das alle verfügbaren Konfigurationsoptionen enthält.
+Füge nun den folgenden Inhalt in die Bash-Datei ein. Im folgenden Befehl wurden einige der grundlegenden und am häufigsten verwendeten Parameter hinzugefügt. Wenn du weitere hinzufügen oder mehr über die einzelnen Parameter erfahren möchtest, empfehlen wir dir, das [offizielle Rust-Wiki](https://wiki.facepunch.com/rust/Creating-a-server#startingtheserver) zu durchsuchen, das alle verfügbaren Konfigurationsoptionen enthält.
 ```
 #!/bin/bash
 /home/steam/Rust-Server/RustDedicated -batchmode -nographics +server.hostname "deine_server_name" +server.port 28015 +server.identity "mein_server" +server.maxplayers 50 +server.worldsize 1000 +server.saveinterval 300
 ```
 
-Speichern Sie die Datei mit `STRG+X`, gefolgt von `Y` und `Enter`. Damit die Bash-Datei ohne sudo-Berechtigungen ausgeführt werden kann, führen Sie abschließend den folgenden Befehl aus, der der Datei die Ausführungsberechtigung hinzufügt.
+Speichere die Datei mit `STRG+X`, gefolgt von `Y` und `Enter`. Damit die Bash-Datei ohne sudo Berechtigungen ausgeführt werden kann, führe abschließend den folgenden Befehl aus, der der Datei die Ausführungsberechtigung hinzufügt.
 ```
 chmod +x /home/steam/Rust-Server/start_server.sh
 ```
@@ -67,7 +67,7 @@ Jetzt ist es an der Zeit, deinen Server zu starten. Gehe in das Hauptverzeichnis
 /home/steam/Rust-Server/start_server.sh
 ```
 
-In der Eingabeaufforderung sollten nun Protokolle erscheinen, die zeigen, dass der Start erfolgreich war. Bitte beachte, dass der erste Start einige Zeit dauern kann, da alles eingerichtet wird. Alternativ kannst du dich auch direkt verbinden, indem du in der unteren Suchleiste der Serverliste nach `[deine_ip_address]:28015`.
+In der Eingabeaufforderung sollten nun Logs erscheinen, die zeigen, dass der Start erfolgreich war. Bitte beachte, dass der erste Start einige Zeit dauern kann, da alles eingerichtet wird. Alternativ kannst du dich auch direkt verbinden, indem du in der unteren Suchleiste der Serverliste nach `[deine_ip_address]:28015`.
 
 ## Abschluss
 
