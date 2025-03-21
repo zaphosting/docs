@@ -1,6 +1,6 @@
 ---
 id: minecraft-bedrock-addons
-title: "Minecraft Bedrock Install Addons"
+title: "Minecraft Bedrock: Install Addons"
 description: Information on how to install Addons on your Minecraft Bedrock server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Install Addons
 services:
@@ -18,7 +18,7 @@ Minecraft Bedrock Edition has native modding support and a massive community, wh
 
 ## Preparation
 
-To install an addon map to your Minecraft: Bedrock, you need to connect to it via FTP. If you are not familiar with this, we recommend you take a look at the [FTP access](gameserver-ftpaccess.md) guide.
+To install an addon map to your Minecraft: Bedrock, you need to connect to your server via FTP. If you are not familiar with this, we recommend you take a look at the [FTP access](gameserver-ftpaccess.md) guide.
 
 Before proceeding with installation, you will also have to find addons that you wish to install on your server. We recommend browsing on [CurseForge](https://www.curseforge.com/minecraft-bedrock) as they offer a huge library of addons and resource packs created by the community. 
 
@@ -46,9 +46,7 @@ There you click on `Activate`, next to the addon name:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/ARnp4YFq5iZjxYZ/preview)
 
-Some addons have both a resource pack and a behavior pack, so you have to activate both.
-
-If you have activated all the desired addons, you can click `Create`.
+Some addons have both a resource pack and a behavior pack, so you have to activate both. If you have activated all the desired addons, you can click `Create`.
 
 To export the world and upload it to your server, you can use the [Import own World](minecraft-bedrock-add-world.md) guide.
 
@@ -102,18 +100,14 @@ The contents of the folder you are uploading should look like that:
 
 ### Enabling Resource Pack
 
-To enable the resource pack, you have to open the `manifest.json` inside the RP folder.
-
-Then you have to navigate to the world folder in your FTP client:
+To enable the resource pack, you have to open the `manifest.json` inside the RP folder. Then you have to navigate to the world folder in your FTP client:
 
 ```
 /gXXXXXX/minecraft-bedrock/worlds/Bedrock level
 ```
 
 Once there, you have to open the `world_resource_packs.json`. 
-If you never installed any addons, you have to create this file.
-
-Paste the following text into the file:
+If you never installed any addons, you have to create this file. Paste the following text into the file:
 
 ```
 [
@@ -174,18 +168,14 @@ The contents of the folder you are uploading should look like that:
 
 ### Enabling Behavior Pack
 
-To enable the resource pack, you have to open the `manifest.json` inside the BP folder.
-
-Then you have to navigate to the world folder in your FTP client:
+To enable the resource pack, you have to open the `manifest.json` inside the BP folder. Then you have to navigate to the world folder in your FTP client:
 
 ```
 /gXXXXXX/minecraft-bedrock/worlds/Bedrock level
 ```
 
 Once there, you have to open the `world_behavior_packs.json`. 
-If you never installed any addons, you have to create this file.
-
-Paste the following text into the file:
+If you never installed any addons, you have to create this file. Paste the following text into the file:
 
 ```
 [

@@ -1,6 +1,6 @@
 ---
 id: minecraft-bedrock-addons
-title: "Minecraft Bedrock Addons installieren"
+title: "Minecraft Bedrock: Addons installieren"
 description: Informationen zur Installation von Addons auf deinem Minecraft Bedrock Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Addons installieren
 services:
@@ -45,9 +45,7 @@ Dort klickst du auf `Aktivieren` neben dem Namen des Addons:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/R52pqy2sMncWmJs/preview)
 
-Einige Addons haben sowohl ein Ressourcenpaket als auch ein Verhaltenspaket, also musst du beide aktivieren.
-
-Wenn du alle gewünschten Addons aktiviert hast, kannst du auf `Erstellen` klicken.
+Einige Addons haben sowohl ein Ressourcenpaket als auch ein Verhaltenspaket, also musst du beide aktivieren. Wenn du alle gewünschten Addons aktiviert hast, kannst du auf `Erstellen` klicken.
 
 Um die Welt zu exportieren und auf deinen Server hochzuladen, kannst du die Anleitung [Eigene Welt importieren](minecraft-bedrock-add-world.md) verwenden.
 
@@ -100,18 +98,14 @@ Der Inhalt des Ordners, den du hochlädst, sollte so aussehen:
 
 ### Ressourcenpaket aktivieren
 
-Um das Ressourcenpaket zu aktivieren, musst du die `manifest.json` im RP-Ordner öffnen.
-
-Dann musst du im FTP-Client zum Weltordner navigieren:
+Um das Ressourcenpaket zu aktivieren, musst du die `manifest.json` im RP-Ordner öffnen. Dann musst du im FTP-Client zum Weltordner navigieren:
 
 ```
 /gXXXXXX/minecraft-bedrock/worlds/Bedrock level
 ```
 
 Dort musst du die `world_resource_packs.json` öffnen.
-Falls du noch nie Addons installiert hast, musst du diese Datei erstellen.
-
-Füge den folgenden Text in die Datei ein:
+Falls du noch nie Addons installiert hast, musst du diese Datei erstellen. Füge den folgenden Text in die Datei ein:
 
 ```
 [
@@ -172,18 +166,14 @@ Der Inhalt des Ordners, den du hochlädst, sollte so aussehen:
 
 ### Verhaltenspaket aktivieren
 
-Um das Verhaltenspaket zu aktivieren, musst du die `manifest.json` im BP-Ordner öffnen.
-
-Dann musst du im FTP-Client zum Weltordner navigieren:
+Um das Verhaltenspaket zu aktivieren, musst du die `manifest.json` im BP-Ordner öffnen. Dann musst du im FTP-Client zum Weltordner navigieren:
 
 ```
 /gXXXXXX/minecraft-bedrock/worlds/Bedrock level
 ```
 
 Dort musst du die `world_behavior_packs.json` öffnen.
-Falls du noch nie Addons installiert hast, musst du diese Datei erstellen.
-
-Füge den folgenden Text in die Datei ein:
+Falls du noch nie Addons installiert hast, musst du diese Datei erstellen. Füge den folgenden Text in die Datei ein:
 
 ```
 [
