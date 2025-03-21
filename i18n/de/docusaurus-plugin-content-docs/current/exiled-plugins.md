@@ -1,53 +1,53 @@
 ---
 id: exiled-plugins
-title: Plugins auf Server installieren
-description: Informationen, wie du Plugins auf deinen Exiled Gameserver von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentation
+title: "SCP EXILED: Plugins installieren"
+description: "Informationen zur Installation von Plugins auf deinem SCP: EXILED Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation"
 sidebar_label: Plugins installieren
 services:
   - gameserver
+
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
+## Einführung
+
+Plugins ermöglichen es dir, deinen Server noch weiter zu erweitern und individuell anzupassen. Im Folgenden erklären wir dir, wo du die am häufigsten genutzten Plugins findest und wie du sie einrichtest.
+
 <InlineVoucher />
 
-## Plugins installieren
+## Vorbereitung
 
-Mit Plugins hast du die Möglichkeit, deinen Server noch individueller anzupassen. Im Folgenden wird erklärt, wo du die beliebtesten Servers-Plugins finden kannst und wie du diese eingerichtet werden. 
+Zuerst musst du die Plugins herunterladen, die du auf deinem Server installieren möchtest. Eine große Auswahl an EXILED-Plugins findest du auf ihrer offiziellen GitHub-Seite. Sobald du ein Plugin-Repository ausgewählt hast, findest du dort einen Releases-Bereich, über den du die neueste Version herunterladen kannst. Detaillierte Anweisungen dazu findest du weiter unten.
 
-### Vorbereitung
+Auch wenn Plugins aus verschiedenen Quellen heruntergeladen werden können, empfehlen wir dir, auf vertrauenswürdige Plattformen wie das offizielle GitHub-Repository zurückzugreifen, da diese in der Regel als sicher gelten. Sei immer vorsichtig bei der Installation von Plugins – überprüfe die Quelle, informiere dich über die Entwickler und stelle sicher, dass du genau weißt, was das Plugin auf deinem Server macht.
 
-Zunächst einmal musst du die Plugins herunterladen, die auf deinem Server installiert werden sollen. Eine große Auswahl an Plugins findest du auf der EXILED-Seite (https://github.com/Exiled-Team). Sobald du das Plugin-Repo ausgewählt hast, erscheint auf der Seite ein Abschnitt "Releases", über den du auf eine Download-Seite gelangst; Anweisungen dazu findest du unten.
+Um ein Plugin von GitHub herunterzuladen, besuche die offizielle [EXILED GitHub-Seite](https://github.com/Exiled-Team) und wähle das gewünschte Plugin-Repository aus.  
+![](https://screensaver01.zap-hosting.com/index.php/s/6cCEZGEBKNnJ4o4/preview)  
 
-### Herunterladen eines Plugins
-Plugins können von vielen Quellen für deinen Server heruntergeladen werden. Diese sind jedoch nur als die sichersten Optionen anerkannt. Bitte sei vorsichtig, welche Plugins du auf deinem Gameserver installierst - überprüfe immer die Quelle des Plugins, indem du nach den Entwicklern suchst und was das Plugin tatsächlich tut.
+Innerhalb des Repositories findest du auf der rechten Seite den Bereich **Releases**.  
+![](https://screensaver01.zap-hosting.com/index.php/s/fteeKrPYmRZknBq/preview)  
 
-## Option 1 über die SCPSL-Website herunterladen
-Unter (https://plugins.scpslgame.com/) findest du eine Liste von Plugins, die für die Verwendung in SCPSL zur Verfügung stehen, mit einem Github Repo Link. Die Option 2 erklärt, was zu tun ist.
-(Zum Zeitpunkt des Verfassens dieses Artikels ist die Seite neu und wird gerade überarbeitet, daher wurde Option 2 bereitgestellt)
+Dort kannst du eine **.dll**-Datei herunterladen. Klicke darauf, um den Download zu starten.  
+![](https://screensaver01.zap-hosting.com/index.php/s/WzB3qHEb37kkBKs/preview)  
 
-## Option 2 über Github herunterladen
-Um ein Plugin über Github herunterzuladen, musst du zum EXILED Github gehen, wie unten gezeigt, und ein Plugin-Repository auswählen.
-![](https://screensaver01.zap-hosting.com/index.php/s/GJWWsbbNPry2Sgc/preview)
+Das war’s schon! Nach dem Download kannst du weiter unten in dieser Anleitung mit der Installation der **.dll**-Datei auf deinem Server fortfahren.
 
-Sobald du das Plugin-Repository gefunden hast, das du herunterladen möchtest, erscheint auf der rechten Seite ein Abschnitt mit den Veröffentlichungen.
-![](https://screensaver01.zap-hosting.com/index.php/s/83GHkFKigg5BR5a/preview)
+## Installation
 
-Sobald du den Abschnitt "Releases" ausgewählt hast, wird eine .dll-Ressource angezeigt, auf die du klicken musst, um den Download zu starten.
-![](https://screensaver01.zap-hosting.com/index.php/s/ycWDs557E6PmZCm/preview)
+Sobald die gewünschten Plugins heruntergeladen wurden, kannst du mit der Installation fortfahren. Diese erfolgt über **FTP**, daher benötigst du einen FTP-Client, um die Dateien auf deinen Server hochzuladen. Wenn du noch nicht weißt, was FTP ist und wie es funktioniert, wirf bitte einen Blick in die [FTP Zugriff](gameserver-ftpaccess.md) Anleitung:
 
-Und das war's. Du kannst nun dem Installationsteil dieses Dokuments folgen, um zu erfahren, wie du die .dll auf deinem Server installierst.
+![](https://screensaver01.zap-hosting.com/index.php/s/pr5s8ySnpBN7qjC/preview)
 
-### Installation
+Das richtige Plugin Verzeichnis findest du unter: 
+```/gXXXXXX/.config/EXILED/Plugins```  Lade die heruntergeladenen **.dll**-Dateien in diesen Ordner hoch. Nach dem Hochladen sollte es so ähnlich aussehen:  
 
-Jetzt, wenn die gewünschten Plugins heruntergeladen wurden, dann kann mit der eigentlichen Installation der Plugins angefangen werden. Die Einrichtung der Plugins erfolgt per FTP. Um Dateien auf deinen Server hochladen zu können, benötigst du einen FTP-Client. Falls du noch nicht weißt, was FTP ist und wie es funktioniert, dann schaue dir am besten die folgende Anleitung an: [Zugriff per FTP](gameserver-ftpaccess.md)
+![](https://screensaver01.zap-hosting.com/index.php/s/MRJHcdGpwSb2agK/preview)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/EwDMrFxGazMeWkB/preview)
+Damit ist die Installation abgeschlossen. Abschließend solltest du noch in der **Live-Konsole** überprüfen, ob das Plugin erfolgreich kompiliert und geladen wurde. Die Bestätigung sieht ungefähr so aus:
 
-Unter dem ``/gXXXXXX/.config/EXILED/`` Verzeichnis findest du den **Plugins** Ordner. Dort werden deine ausgewählten Plugins dann in das Verzeichnis hochgeladen. Das Ganze kann dann wie folgt aussehen:
+![](https://screensaver01.zap-hosting.com/index.php/s/NtN6T5fPif3ngEW/preview)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/ybicJCJAMZn5xyW/preview)
+## Abschluss
 
-Mehr muss nicht gemacht werden. Damit ist die Installation bereits abgeschlossen. Im Anschluss kannst du in der Live-Konsole nachschauen, ob das Plugin erfolgreich kompiliert und geladen wurde. Die Ausgabe sollte dann wie folgt aussehen:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/P9oW3CWyfaiaWTq/preview)
+Wenn du alle Schritte befolgt hast, solltest du dein Plugin erfolgreich installiert haben. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂

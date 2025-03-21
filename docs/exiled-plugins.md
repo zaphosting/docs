@@ -1,8 +1,8 @@
 ---
 id: exiled-plugins
-title: Installing plugins on your server
-description: Information on how to install plugins on your EXILED  server from ZAP-Hosting - ZAP-Hosting.com documentation
-sidebar_label: Plugins Install
+title: "SCP EXILED: Installing plugins"
+description: "Information on how to install plugins on your SCP: EXILED  server from ZAP-Hosting - ZAP-Hosting.com documentation"
+sidebar_label: Install Plugins
 services:
   - gameserver
 
@@ -10,41 +10,47 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
+## Introduction
+
+Plugins allow you to expand and personalize your server even more. In the following, we’ll explain where to find the most commonly used plugins and how to set them up.
+
 <InlineVoucher />
 
-## Plugins installation
+## Preparation
 
-With plugins you have the possibility to customize your server even more. Below we will explain where you can find the most popular server plugins and how to set them up. 
+First, you’ll need to download the plugins you want to install on your server. A wide range of EXILED plugins can be found on their official GitHub page. Once you’ve selected a plugin repository, you’ll find a releases section where you can download the latest version. Detailed instructions on how to proceed are provided below.
 
-### Preparation
+While plugins can be downloaded from various sources, we recommend sticking to trusted platforms like the official GitHub repository, as these are generally considered the safest. Always exercise caution when adding plugins to your server – make sure to verify the source, check the developers, and fully understand what the plugin does before installing it.
 
-First of all, you need to download the plugins that will be installed on the server. A large selection of EXILED Plugins can be found on their own github (https://github.com/Exiled-Team) and once selected the plugin repo, a releases section will appear on the side to which you will be brought to a download page, instructions on how to do this will be shown below.
+To download a plugin from GitHub, start by visiting the official [EXILED GitHub page](https://github.com/Exiled-Team) and selecting the plugin repository you’d like to use.  
+![](https://screensaver01.zap-hosting.com/index.php/s/6cCEZGEBKNnJ4o4/preview)  
 
-### Downloading a plugin
-Plugins can be downloaded from many sources for your server. However these are only recognised as the safest options. Please be careful with which plugins you install onto your game server - Always check the source of the plugin by looking for its developers and what the plugin actually does.
+Once inside the plugin repository, look for the **Releases** section, located on the right-hand side.  
+![](https://screensaver01.zap-hosting.com/index.php/s/fteeKrPYmRZknBq/preview)  
 
-## Download
-To download a plugin via the github you will need to head to the [EXILED Github page](https://github.com/Exiled-Team) as shown below and select a plugin-repo.
-![](https://screensaver01.zap-hosting.com/index.php/s/6cCEZGEBKNnJ4o4/preview)
+In the Releases section, you will find a downloadable **.dll** file. Click on it to start the download.  
+![](https://screensaver01.zap-hosting.com/index.php/s/WzB3qHEb37kkBKs/preview)  
 
-Once you have found the plugin-repo you wish to download a releases section will appear on the right side.
-![](https://screensaver01.zap-hosting.com/index.php/s/fteeKrPYmRZknBq/preview)
+That’s it! Once downloaded, you can proceed to the installation steps further down in this guide to learn how to install the **.dll** file onto your server.
 
-Once you selected the release section it will provide a **.dll** resource, once clicking on this a download will begin.
-![](https://screensaver01.zap-hosting.com/index.php/s/WzB3qHEb37kkBKs/preview)
 
-And that's it you can now follow the Installation part of this document to learn how to install the **.dll** onto your server.
+## Installation
 
-### Installation
-
-Once the desired plugins have been downloaded, the actual installation of the plugins can be started. The setup of the plugins is done via FTP. You need a FTP client to be able to upload files to your server. If you don't know yet what FTP is and how it works, then you should have a look at the following guide: [Access via FTP](gameserver-ftpaccess.md)
+Once the desired plugins have been downloaded, you can proceed with the installation. This is done via **FTP**, so you will need an FTP client to upload the files to your server. If you are not yet familiar with FTP and how it works, please refer to the following guide: [Access via FTP](gameserver-ftpaccess.md).
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/pr5s8ySnpBN7qjC/preview)
 
-You can find the **Plugins** folder under the ``/gXXXXXX/.config/EXILED`` directory. There you can upload your selected plugins into the directory. This could look like this:
+You will find the correct plugin directory under: ```/gXXXXXX/.config/EXILED/Plugins```. Simply upload the downloaded **.dll** plugin files to this folder. It should look similar to this after uploading:  
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/MRJHcdGpwSb2agK/preview)
 
-Nothing more needs to be done. This already completes the installation. Afterwards you can check in the live console if the plugin was compiled and loaded successfully. The output should look like this:
+Once this step is complete, the plugin installation is finished. Finally, check the **live console** to verify that the plugin has been successfully compiled and loaded. The confirmation in the console should look like this:  
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/NtN6T5fPif3ngEW/preview)
+
+
+
+
+## Conclusion
+
+Provided you have followed all the steps, you should have successfully installed your plugin.  For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
