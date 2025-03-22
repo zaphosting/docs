@@ -1,50 +1,74 @@
 ---
 id: foundry-firststeps-connect
 title: "Foundry: Zum Server verbinden"
-description: Informationen zur Verbindung mit einem Foundry-Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
+description: Informationen über verschiedene Möglichkeiten, wie du dich mit deinem Foundry Server von ZAP-Hosting verbinden kannst - ZAP-Hosting Dokumentation
 sidebar_label: Zum Server verbinden
 services:
   - gameserver
 ---
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 import InlineVoucher from '@site/src/components/InlineVoucher';
+
 
 ## Einführung
 
-In dieser Anleitung erfahren wir, wie du eine Verbindung zu deinem Foundry-Server herstellst. Es gibt zwei Möglichkeiten, eine Verbindung herzustellen: entweder direkt über die IP-Adresse deines Servers oder über die Serverliste. Wir empfehlen, den Server vorher nach deinen Wünschen zu konfigurieren. Mehr darüber erfährst du in unserer [Server-Konfiguration](foundry-configuration.md) Anleitung.
+Unsicher, wie du dich mit deinem **Foundry** Server verbinden kannst oder was du dafür benötigst? Kein Problem, wir helfen dir weiter! Wir führen dich durch alles, was du benötigst - von den erforderlichen Werkzeugen und Informationen bis hin zum eigentlichen Verbindungsprozess und den wesentlichen Punkten, die für eine reibungslose und störungsfreie Verbindung erforderlich sind. Befolge unsere Anleitung und du wirst in kürzester Zeit verbunden sein!
 
 <InlineVoucher />
 
-## Direktverbindung über IP
 
-### Server-IP ermitteln
 
-Zunächst musst du die IP und den Port deines Foundry-Servers kennen, um eine direkte Verbindung herstellen zu können. Gehe einfach zu deinem [ZAP-Hosting Webinterface](https://zap-hosting.com/en/customer/) auf der Website und halte die vollständige IP und den Port bereit.
+## Server-Details abrufen
 
-![](https://screensaver01.zap-hosting.com/index.php/s/49mqSzCamYnA3dx/preview)
+Du benötigst alle relevanten Informationen, um dich mit deinem Server zu verbinden. Die Informationen zu deinem Server findest du im Dashboard des Webinterfaces deines Gameservers. Zu den wichtigen Informationen gehören die folgenden: 
 
-Wenn du deinen Foundry-Server als externen dedizierten Server betreibst, ist deine IP die des Host-Rechners und der Port derjenige, den du in deiner Konfigurationsdatei eingestellt hast (standardmäßig ist das 3724). Weitere Informationen über den Port findest du in unserer [Server-Konfiguration](foundry-configuration.md).
+- IP-Adresse und Port
+- Name des Servers
+- Server-Passwort (optional)
 
-### Verbindung im Spiel herstellen
+Anhand der oben genannten Informationen solltest du in der Lage sein, deinen Server zu finden und sicherzustellen, dass du dich mit dem richtigen Server verbindest. 
 
-Starte Foundry zunächst über deinen Game Launcher. Wähle im Hauptmenü **Multiplayer** und dann die Option **IP Direct Connect**.
+![img](https://screensaver01.zap-hosting.com/index.php/s/WfFnJsbxAAjojt3/preview)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/KS9jQiZtgzfkfaW/preview)
+## Verbindung zum Server herstellen
 
-Es erscheint eine Eingabeaufforderung, in die du die Details deines Servers eingeben musst, einschließlich der IP-Adresse und des Ports, die du zuvor von deinem Webinterface erhalten hast, oder die IP-Adresse und den Port deiner eigenen externen dedizierten Serverinstanz.
+Die Verbindung zu einem Gameserver kann häufig auf eine oder mehrere Arten hergestellt werden. Die verfügbaren Methoden werden im Folgenden ausführlich beschrieben und erklärt. 
 
-Es gibt auch ein optionales Passwort-Feld, das du benutzen solltest, wenn dein Server ein Passwort hat, ansonsten kannst du es leer lassen.
+<Tabs>
+    <TabItem value="connect_solution_server_direct" label="Direktverbindung (Im Spiel)" default>
 
-![](https://screensaver01.zap-hosting.com/index.php/s/5kNMZyrkDwt9ZAy/preview)
+Öffnen das Spiel und navigiere zum **Multiplayer**. Klicke auf **IP Direct connect** und gib die IP-Adresse und den Port deines Servers ein.
 
-Wenn du dich nicht erfolgreich mit dem Server verbinden kannst und eine Timeout-Fehlermeldung erhältst, vergewissere dich bitte, dass die eingegebene IP und der Port korrekt sind und dass dein Server online ist. Du kannst den Konsolenbereich deines Webinterfaces für deinen Foundry-Server verwenden, um die Fehlersuche zu erleichtern.
+![img](https://screensaver01.zap-hosting.com/index.php/s/MFmS5kNf7TseSFR/download)
 
-## Verbindung über Serverliste
+</TabItem>
 
-Die einfachste Möglichkeit, sich mit deinem Server zu verbinden, ist über die Serverliste. Dazu muss dein Server jedoch in den Serverkonfigurationsparametern auf öffentlich eingestellt sein. 
 
-Sieh dir bitte unsere [Server-Konfiguration](foundry-configuration.md) an, um die entsprechenden Parameter "server_name" und "server_is_public" in deiner Konfigurationsdatei oder über das Webinterface hinzuzufügen.
+</Tabs>
 
-Wenn das erledigt ist, wähle im Hauptmenü **Multiplayer** und dann die Option **Join Steam Server**. Suche hier nach dem Servernamen, den du in der Konfiguration festgelegt hast, und du solltest deinen Server finden und dich verbinden können.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/FfTPgx7Q6wbwn4g/preview)
+
+## Mögliche Probleme und Lösungen
+
+Die Verbindung zum Server kann nicht wie erwartet hergestellt werden? Dies kann in bestimmten Situationen vorkommen, z. B. wenn die Verbindung aufgrund von technischen Problemen fehlschlägt. Im Folgenden haben wir die häufigsten Probleme und ihre Lösungen aufgeführt:
+
+#### Nicht sichtbar
+
+Eine fehlende Sichtbarkeit des Servers kann auftreten, wenn die Initialisierung nicht erfolgreich abgeschlossen wurde. Dies kann beispielsweise auf eine fehlerhafte Konfiguration oder beschädigte Dateien zurückzuführen sein. Weitere Informationen können in der Regel in der Serverkonsole oder in den Logdateien nachvollzogen werden.
+
+
+
+#### Fehlende Lösung oder nicht hilfreich
+
+Hast du nach der Fehlersuche weiterhin Probleme? In diesem Fall steht unser Support-Team täglich zur Verfügung, um dir zu helfen. Erstelle einfach ein **[Ticket](https://zap-hosting.com/en/customer/support/)** auf unserer Website und erkläre uns dein Problem mit so vielen Einzelheiten wie möglich. Wir werden uns so schnell wie möglich darum kümmern und dir bei der Lösung des Problems helfen!
+
+
+
+## Abschluss
+
+Glückwunsch, vorausgesetzt, dass du alle Schritte befolgt hast, solltest du erfolgreich eine Verbindung zum Server hergestellt haben. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+
+
+

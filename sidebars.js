@@ -165,24 +165,27 @@ const sidebars = {
       type: "category",
       label: "FiveM",
       items: [
-        "fivem-dashboard",
-        "fivem-firststeps-connect",
-        "fivem-upvotes",
         {
           type: "category",
-          label: "Configuration & Administration",
+          label: "First Steps",
+          items: [
+            "fivem-dashboard",
+            "fivem-firststeps-connect",
+            "fivem-upvotes",
+          ]
+        },
+        {
+          type: "category",
+          label: "Configuration",
           items: [
             "fivem-change-servericon",
             "fivem-server-customisation",
             "fivem-rcon",
             "fivem-licensekey",
             "fivem-deletecache",
-            "fivem-resolve-dbconnection",
             "fivem-devtools",
             "fivem-useprofiler",
             "fivem-mastodon",
-            "fivem-prohibited-resources",
-            "fivem-notlisted",
             "fivem-gamebuild",
             "fivem-gamechange",
             "fivem-steam-web-api-key",
@@ -192,9 +195,9 @@ const sidebars = {
             "fivem-proxy"
           ]
         },
-        {
+                {
           type: "category",
-          label: "Resources & Mods",
+          label: "Resources",
           items: [
             "fivem-installresources",
             "fivem-sql-file-import",
@@ -207,13 +210,27 @@ const sidebars = {
         },
         {
           type: "category",
-          label: "ESX",
+          label: "Frameworks",
           items: [
-            "fivem-esx-becomeadminoverdatabase",
-            "fivem-esx-addcarstoshop",
-            "fivem-esx-changejobgarages",
-            "fivem-editlocalfiles",
-            "fivem-esx-spawnpoints"
+            {
+              type: "category",
+              label: "ESX",
+              items: [
+                "fivem-esx-becomeadminoverdatabase",
+                "fivem-esx-addcarstoshop",
+                "fivem-esx-changejobgarages",
+                "fivem-editlocalfiles",
+                "fivem-esx-spawnpoints"
+              ]
+            },
+            {
+              type: "category",
+              label: "QBCore",
+              items: [
+                "fivem-qbcore-admin",
+                "fivem-qbcore-spawnpoints"
+              ]
+            }
           ]
         },
         {
@@ -227,11 +244,13 @@ const sidebars = {
         },
         {
           type: "category",
-          label: "QBCore",
+          label: "Troubleshooting",
           items: [
-            "fivem-qbcore-admin"
+            "fivem-resolve-dbconnection",
+            "fivem-prohibited-resources"
+
           ]
-        }
+        },
       ],
     },
     {
@@ -258,13 +277,19 @@ const sidebars = {
             "minecraft-server-icon",
             "minecraft-add-own-world",
             "minecraft-worlds",
-            "minecraft-crossplay",
-            "minecraftbedrock-behaviorresourcepacks",
             "minecraft-rcon",
             "minecraft-whitelist",
             "minecraft-timings-report",
             "minecraft-server-optimize",
             "minecraft-faultyworld"
+          ]
+        },
+        {
+          type: "category",
+          label: "Bedrock",
+          items: [
+            "minecraft-bedrock-addons",
+            "minecraft-bedrock-add-world"
           ]
         },
         {
@@ -529,7 +554,8 @@ const sidebars = {
           type: "category",
           label: "First Steps",
           items: [
-            "arma3-firststeps-dashboard"
+            "arma3-firststeps-dashboard",
+            "arma3-firststeps-connect"
           ]
         },
         "arma3-serverconfig",
@@ -784,7 +810,7 @@ const sidebars = {
           label: "First Steps",
           items: [
             "corekeeper-firststeps-dashboard",
-            "corekeeper-connecttoserver"
+            "corekeeper-firststeps-connect"
           ]
         }
       ],
@@ -987,7 +1013,8 @@ const sidebars = {
           type: "category",
           label: "First Steps",
           items: [
-            "eco-firststeps-dashboard"
+            "eco-firststeps-dashboard",
+            "eco-firststeps-connect"
           ]
         },
         "eco-becomeadmin",
@@ -1059,22 +1086,27 @@ const sidebars = {
       type: "category",
       label: "FiveM",
       items: [
-        "fivem-dashboard",
-        "fivem-upvotes",
         {
           type: "category",
-          label: "Configuration & Administration",
+          label: "First Steps",
+          items: [
+            "fivem-dashboard",
+            "fivem-firststeps-connect",
+            "fivem-upvotes",
+          ]
+        },
+        {
+          type: "category",
+          label: "Configuration",
           items: [
             "fivem-change-servericon",
             "fivem-server-customisation",
             "fivem-rcon",
             "fivem-licensekey",
             "fivem-deletecache",
-            "fivem-resolve-dbconnection",
+            "fivem-devtools",
             "fivem-useprofiler",
             "fivem-mastodon",
-            "fivem-prohibited-resources",
-            "fivem-notlisted",
             "fivem-gamebuild",
             "fivem-gamechange",
             "fivem-steam-web-api-key",
@@ -1084,9 +1116,9 @@ const sidebars = {
             "fivem-proxy"
           ]
         },
-        {
+                {
           type: "category",
-          label: "Resources & Mods",
+          label: "Resources",
           items: [
             "fivem-installresources",
             "fivem-sql-file-import",
@@ -1099,12 +1131,27 @@ const sidebars = {
         },
         {
           type: "category",
-          label: "ESX",
+          label: "Frameworks",
           items: [
-            "fivem-esx-becomeadminoverdatabase",
-            "fivem-esx-addcarstoshop",
-            "fivem-esx-changejobgarages",
-            "fivem-editlocalfiles"
+            {
+              type: "category",
+              label: "ESX",
+              items: [
+                "fivem-esx-becomeadminoverdatabase",
+                "fivem-esx-addcarstoshop",
+                "fivem-esx-changejobgarages",
+                "fivem-editlocalfiles",
+                "fivem-esx-spawnpoints"
+              ]
+            },
+            {
+              type: "category",
+              label: "QBCore",
+              items: [
+                "fivem-qbcore-admin",
+                "fivem-qbcore-spawnpoints"
+              ]
+            }
           ]
         },
         {
@@ -1118,12 +1165,13 @@ const sidebars = {
         },
         {
           type: "category",
-          label: "QBCore",
+          label: "Troubleshooting",
           items: [
-            "fivem-qbcore-admin",
-            "fivem-qbcore-spawnpoints"
+            "fivem-resolve-dbconnection",
+            "fivem-prohibited-resources"
+
           ]
-        }
+        },
       ],
     },
     {
@@ -1393,7 +1441,6 @@ const sidebars = {
             "minecraft-server-icon",
             "minecraft-add-own-world",
             "minecraft-worlds",
-            "minecraftbedrock-behaviorresourcepacks",
             "minecraft-rcon",
             "minecraft-whitelist",
             "minecraft-timings-report",
@@ -1403,9 +1450,10 @@ const sidebars = {
         },
         {
           type: "category",
-          label: "Spigot & Bukkit",
+          label: "Bedrock",
           items: [
-            "minecraft-pluginuploader"
+            "minecraft-bedrock-addons",
+            "minecraft-bedrock-add-world"
           ]
         },
         {
@@ -1420,6 +1468,13 @@ const sidebars = {
           label: "Forge & Fabric",
           items: [
             "minecraft-forge-fabric-add-mods-modpacks"
+          ]
+        },
+        {
+          type: "category",
+          label: "Spigot & Bukkit",
+          items: [
+            "minecraft-pluginuploader"
           ]
         }
       ],
@@ -1704,7 +1759,8 @@ const sidebars = {
           type: "category",
           label: "First Steps",
           items: [
-            "projectzomboid-firststeps-dashboard"
+            "projectzomboid-firststeps-dashboard",
+            "projectzomboid-firststeps-connect"
           ]
         }
       ],
@@ -1831,8 +1887,8 @@ const sidebars = {
           type: "category",
           label: "First Steps",
           items: [
-            "rust-firststeps-dashboard"
-          ]
+            "rust-firststeps-dashboard",
+            "rust-firststeps-connect"          ]
         },
         "rust-becomeadmin",
         "rust-connectrcon",
@@ -1977,6 +2033,7 @@ const sidebars = {
           label: "First Steps",
           items: [
             "squad-firststeps-dashboard",
+            "squad-firststeps-connect",
           ]
         },
       ],
@@ -2732,6 +2789,7 @@ const sidebars = {
         'webspace-wordpress',
         'webspace-wordpress-plugins',
         'webspace-wordpress-migration',
+        'webspace-wordpress-elementor'
       ],
     },
   ],

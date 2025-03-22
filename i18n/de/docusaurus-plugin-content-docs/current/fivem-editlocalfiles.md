@@ -1,45 +1,51 @@
 ---
 id: fivem-editlocalfiles
-title: "FiveM: Locales-Dateien bearbeiten"
-description: Informationen, wie du die Locales-Dateien deines FiveM-Server von ZAP-Hosting editieren kannst - ZAP-Hosting.com Dokumentation
-sidebar_label: Localesfiles bearbeiten
+title: "FiveM: Locales Dateien (Sprachvariablen)"
+description: Informationen, wie du die Locales-Dateien deines FiveM-Server mit ESX von ZAP-Hosting bearbeiten kannstkannst - ZAP-Hosting.com Dokumentation
+sidebar_label: Locales Dateien (Sprachvariablen)
 services:
   - gameserver
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
+
+
+## Einführung
+
+Möchtest du die Sprachvariablen einer Ressource ändern oder der Ressource weitere Sprachen hinzufügen, die vielleicht noch nicht existieren? Mit den Locale-Dateien kannst du die Sprachvariablen deiner gewünschten Ressource anpassen.
+
 <InlineVoucher />
 
-## Übersicht
 
-Zuallererst müssen wir uns auf den Server verbinden. Hier geht es zur [Zugriff per FTP](gameserver-ftpaccess.md) Anleitung.
 
 ## Locales Files finden
-Haben wir das gemacht, suchen wir nach dem Script, wo wir die Localfiles verändern wollen.
+Die Locale-Dateien müssen mit einem FTP-Client bearbeitet werden. Wenn die Nutzung von FTP für dich neu ist, empfehlen wir dir, zuerst die [FTP- Zugriff](gameserver-ftpaccess.md) Anleitung zu lesen. Sobald du verbunden bist, navigiere zum Verzeichnis der ESX-Ressource, die du bearbeiten möchtest. Öffne das Verzeichnis locales im Ressourcenverzeichnis.
 
-Dort suchen wir dann nach dem Ordner **locales**
+![img](https://screensaver01.zap-hosting.com/index.php/s/3ACw8DJ5MpetEw6/download)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/W7qGXjbHFeJG9tx/preview)
+In dem Verzeichnis locales findest du alle Sprachdateien, die für diese Ressource existieren. Von hier aus kannst du entweder eine bestehende Datei bearbeiten oder eine bestehende Datei mit einem neuen Namen für eine neue Sprache kopieren, die du dann bearbeiten kannst.
 
-Dort suchen wir uns dann unsere locales Datei. In unserem Fall ist das de.lua
+![img](https://screensaver01.zap-hosting.com/index.php/s/qfCxXFidseoqLAs/preview)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/eYWtgfLfTGg3iTM/preview)
 
-Diesen öffnen wir dann.
 
 ## Locales File bearbeiten
 
-Jetzt können wir die Locales ändern. **Wichtig** immer in den ' Symbol schreiben.
+Du kannst nun den Inhalt der einzelnen Sprachvariablen in der geöffneten Locale-Datei anpassen. Der Inhalt der Sprachvariablen befindet sich hinter dem Gleichheitszeichen innerhalb der Anführungszeichen. Passe den Inhalt nach deinen Wünschen an und speichere die Änderungen am Ende.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/gN6siagmMGY2Ckt/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/FBDP2rBKabx3NEF/preview)
 
-Haben wir alles geändert, was wir ändern wollten, speichern wir die Datei ab und laden sie hoch.
 
-## Config einstellen
 
-Nachdem das alles erledigt ist, müssen wir noch sichergehen, dass in der Config die richtige Locales Datei angegeben ist.
+## Locale (Sprache) festlegen
 
-![](https://screensaver01.zap-hosting.com/index.php/s/3MRAtDP7ejPCknf/preview)
+Die verwendete Sprache kann über die Konfigurationsdatei config.lua im Ressourcenverzeichnis festgelegt werden. Dazu muss der Wert von Config.Locale = GetConvar('esx:locale', 'en') angepasst werden.
 
-Ist das auch erledigt, laden wir die Datei wieder hoch und starten den Server neu.
+![img](https://screensaver01.zap-hosting.com/index.php/s/b3HkR9Qez5Pb7re/preview)
+
+
+
+## Abschluss
+
+Glückwunsch, vorausgesetzt, dass du alle Schritte befolgt hast, hast du die Locale-Datei deiner Ressource erfolgreich bearbeitet. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
