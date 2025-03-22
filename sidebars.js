@@ -632,6 +632,7 @@ const sidebars = {
           label: "First Steps",
           items: [
             "avorion-firststeps-dashboard",
+            "avorion-firststeps-connect",
           ]
         },
         "avorion-becomeadmin",
@@ -1028,7 +1029,8 @@ const sidebars = {
           type: "category",
           label: "First Steps",
           items: [
-            "empyrion-firststeps-dashboard"
+            "empyrion-firststeps-dashboard",
+            "empyrion-firststeps-connect"
           ]
         },
         "empyrion-becomeadmin"
@@ -1072,7 +1074,8 @@ const sidebars = {
           type: "category",
           label: "First Steps",
           items: [
-            "factorio-firststeps-dashboard"
+            "factorio-firststeps-dashboard",
+            "factorio-firststeps-connect"
           ]
         },
         "factorio-becomeadmin",
