@@ -9,54 +9,45 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
+## Introduction
+
+Domains cannot be forwarded directly to a specific URL by default, just to the main address of a server or website. However, in order to point to a specific URL, you can set up a redirect via a web server in combination with an `.htaccess` file. This automatically redirects the domain call to the desired target URL.
+
 <InlineVoucher />
 
-## Join Discord Server via domain
 
->It is assumed that an own domain as well as an own webserver/webspace is available. 
 
-To be able to reach a discord server via your own domain, a .htaccess file with a corresponding forwarding rule is required. 
+## Preparation
 
-For example, the domain example-example.de/discord should enable a forwarding to the discord server.
+In order to realize such a forwarding, it is assumed that you already have your own domain (TLD) and a webspace package. Connect the domain to your webspace package. If you don't know exactly how to do this, you can use our easy-to-use [EasyDNS](domain-easydns.md) option. 
 
-### Step 1
-Create the subdirectory "discord" on the web space/web server: 
+:::warning DNS changes take time
 
-![Bildschirmfoto vom 2022-05-13 05-38-40](https://screensaver01.zap-hosting.com/index.php/s/DpCtmzkcw5Hd6NN/preview)
+Changes to the DNS settings can take up to **24 hours** to be fully adopted and effective worldwide. In some cases, the implementation may be faster, but delays are normal due to caching on different servers. 
 
-### Step 2
-Creating the ".htaccess" file on the web space/web server:
+:::
 
-![Bildschirmfoto vom 2022-05-13 05-39-09](https://screensaver01.zap-hosting.com/index.php/s/2ZLm8J4H5dH5AHC/preview)
+As soon as the domain successfully points to the Webspace and can be accessed, you can start configuring the Discord forwarding. 
 
-![Bildschirmfoto vom 2022-05-13 05-39-58](https://screensaver01.zap-hosting.com/index.php/s/np6f3ctsS7oirkL/preview)
 
-### Step 3
-Create the forwarding rule in the ".htaccess" file:
 
-![Bildschirmfoto vom 2022-05-13 05-40-23](https://screensaver01.zap-hosting.com/index.php/s/Z48Rj7xJbAXTFFR/preview)#
+## Configuration
 
-Important with the forwarding rule is that the original domain is "exchanged" for another one. 
-So in the forwarding rule "example-example.de" has to be replaced by the own domain and "https://discord.gg/A6e4jyg" by the own discord server address. 
+An `.htaccess` file must be created and configured to configure the forwarding. To do this, navigate to the file manager in the Plesk management for your domain. Once there, click on the plus symbol to create a new folder called `discord`.
 
+![img](https://screensaver01.zap-hosting.com/index.php/s/ZAJAd7EXp7yJE64/download)
+
+Navigate to the `discord` folder and create a new file there with the name `.htaccess`. Now open the newly created file with the text editor. The rule for forwarding will now be added. Copy and paste the following content:
 ```
 RewriteEngine On
 RewriteCond %{HTTP_HOST} (www\.)?beispiel-example.de
 RewriteRule (.*) https://discord.gg/A6e4jyg [R=301,L]
-
 ```
-Values that must be changed: 
 
-```
-RewriteEngine On
-RewriteCond %{HTTP_HOST} (www\.)?***OWN-DOMAIN***
-RewriteRule (.*) ***OWN-DISCORD-DOMAIN*** [R=301,L]
-```
-After saving, the forwarding is immediately active.
+In order for the rule and redirection to work for your domain, you must change the name of the domain. To do this, replace the example domain `example-example.de` domain with your own and save the file. Also replace the Discord Invite URL with the one from your server. 
 
-### Step 4
-Test forwarding:
+You should now be able to call the redirect with your domain and the defined discord path. The structure would look like this in our example: `beispiel-example.de/discord`.
 
-If the domain/discord is now accessed, a redirection to Discord should take place.  
+## Conclusion
 
-Ready ✅
+Provided you have followed all the steps, you should have successfully configured the domain forwarding to your Discord server.  For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
