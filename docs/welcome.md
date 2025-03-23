@@ -16,7 +16,7 @@ Our goal is to make knowledge accessible and understandable. That's why we've de
 
 We cover a wide range of topics and regularly update our content to ensure you're always up to date and can apply the best practices. From basic setup guides to advanced configuration techniques.
 
-<YouTube videoId="-2wJ6ZJ6ZVk" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/zQMRo9nYBQANdPJ/preview" title="Welcome to ZAP-Docs!" description="Feel like you understand better when you see things in action? We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
+<YouTube videoId="-2wJ6ZJ6ZVk" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/kGb9tgzzoNZPZjW/preview" title="Welcome to ZAP-Docs!" description="Feel like you understand better when you see things in action? We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
 
 ## Gameserver
 

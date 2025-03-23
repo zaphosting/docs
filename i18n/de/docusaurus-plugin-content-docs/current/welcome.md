@@ -16,7 +16,7 @@ Unser Ziel ist es, Wissen zugänglich und verständlich zu machen. Deshalb haben
 
 Wir decken eine breite Palette an Themen ab und aktualisieren unsere Inhalte regelmäßig, um sicherzustellen, dass du immer auf dem neuesten Stand bist und die besten Praktiken anwenden kannst. Von grundlegenden Einrichtungsanleitungen bis hin zu fortgeschrittenen Konfigurationstechniken. 
 
-<YouTube videoId="-2wJ6ZJ6ZVk" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/zQMRo9nYBQANdPJ/preview" title="Willkommen bei ZAP-Docs!" description="Hast du das Gefühl, dass du etwas besser verstehst, wenn du es in Aktion siehst? Wir haben etwas für dich! Tauche ab in unser Video, welches alles für dich zusammenfasst. Egal, ob du es eilig hast oder einfach nur Informationen auf möglichst verständliche Art und Weise aufnehmen möchtest!"/>
+<YouTube videoId="-2wJ6ZJ6ZVk" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/kGb9tgzzoNZPZjW/preview" title="Willkommen bei ZAP-Docs!" description="Hast du das Gefühl, dass du etwas besser verstehst, wenn du es in Aktion siehst? Wir haben etwas für dich! Tauche ab in unser Video, welches alles für dich zusammenfasst. Egal, ob du es eilig hast oder einfach nur Informationen auf möglichst verständliche Art und Weise aufnehmen möchtest!"/>
 
 ## Gameserver
 Perfektioniere und Nutze den vollen Umfang deines Gameservers. Mit unserer Expertise bringen wir dein Gaming auf ein neues Level. Unsere detaillierten Anleitungen für über 100 verschiedene Spiele und die dazugehörigen Erweiterungen/Modifikationen ermöglichen es dir, ein tiefgreifendes Verständnis für die Konfiguration und Verwaltung deiner Gameserver zu entwickeln.
