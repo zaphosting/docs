@@ -2348,6 +2348,7 @@ const sidebars = {
           label: "First Steps",
           items: [
             "wreckfest2-firststeps-dashboard",
+            "wreckfest2-firststeps-connect",
           ]
         },
       ],
