@@ -2341,6 +2341,19 @@ const sidebars = {
     },
     {
       type: "category",
+      label: "Wreckfest 2",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "wreckfest2-firststeps-dashboard",
+          ]
+        },
+      ],
+    },
+    {
+      type: "category",
       label: "Wurm Unlimited",
       items: [
         {
