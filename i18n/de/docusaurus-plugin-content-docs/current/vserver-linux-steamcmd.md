@@ -51,10 +51,10 @@ Jetzt musst du noch ein paar Pakete installieren. Diese sind wie folgt unterteil
 sudo apt install software-properties-common
 sudo dpkg --add-architecture i386
 
-// Debian & Ubuntu
+// Ubuntu
 sudo add-apt-repository multiverse
 
-// Andere Nicht-Debian-Distros
+// Debian & Andere Nicht-Debian-Distros
 sudo apt-add-repository non-free
 ```
 
