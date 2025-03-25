@@ -18,7 +18,7 @@ Minecraft Bedrock Edition has native modding support and a massive community, wh
 
 ## Preparation
 
-To install an addon map to your Minecraft: Bedrock, you need to connect to your server via FTP. If you are not familiar with this, we recommend you take a look at the [FTP access](gameserver-ftpaccess.md) guide.
+To install an addon map to your Minecraft: Bedrock server, you need to connect to it via FTP. If you are not familiar with this, we recommend you take a look at the [FTP access](gameserver-ftpaccess.md) guide.
 
 Before proceeding with installation, you will also have to find addons that you wish to install on your server. We recommend browsing on [CurseForge](https://www.curseforge.com/minecraft-bedrock) as they offer a huge library of addons and resource packs created by the community. 
 

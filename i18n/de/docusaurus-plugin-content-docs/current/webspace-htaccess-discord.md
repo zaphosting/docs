@@ -9,52 +9,46 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
+
+
+## Einführung
+
+Domains können standardmäßig nicht direkt auf eine bestimmte URL weitergeleitet werden, sondern nur auf die Hauptadresse eines Servers oder einer Website. Um jedoch auf eine bestimmte URL zu verweisen, kannst du eine Umleitung über einen Webserver in Kombination mit einer `.htaccess`-Datei einrichten. Dadurch wird der Domainaufruf automatisch auf die gewünschte Ziel-URL umgeleitet.
+
 <InlineVoucher />
 
-## Discord Server via Domain beitreten
 
->Es wird vorausgesetzt das eine eigene Domain als auch ein eigener Webserver/Webspace vorhanden ist. 
 
-Damit über eine eigene Domain ein Discord Server erreicht werden kann, wird eine .htaccess Datei mit einer entsprechenden Weiterleitungsregel benötigt. 
+## Vorbereitung
 
-Es soll zum Beispiel über die Domain beispiel-example.de/discord eine Weiterleitung zum Discord Server ermöglicht werden. 
+Um eine solche Weiterleitung zu realisieren, wird vorausgesetzt, dass du bereits eine eigene Domain (TLD) und ein Webspace Paket besitzt. Verknüpfe die Domain mit deinem Webspace Paket. Wenn du nicht genau weißt, wie man das macht, kannst du unsere einfach zu bedienende [EasyDNS](domain-easydns.md) Option verwenden. 
 
-### Schritt 1
-Anlegen des Unterverzeichnis "discord" auf dem Webspace/Webserver: 
+::: warning DNS-Änderungen benötigen Zeit
+Änderungen an den DNS-Einstellungen können bis zu **24 Stunden** dauern, bis sie vollständig übernommen und weltweit wirksam werden. In einigen Fällen kann die Umsetzung schneller erfolgen, aber Verzögerungen sind aufgrund der Zwischenspeicherung auf verschiedenen Servern normal. 
+:::
 
-![](https://screensaver01.zap-hosting.com/index.php/s/3CqRrTP9gAxKctn/preview)
+Sobald die Domain erfolgreich auf den Webspace verweist und erreicht werden kann, kannst du mit der Konfiguration der Discord-Weiterleitung beginnen. 
 
-### Schritt 2
-Anlegen der ".htaccess" Datei auf dem Webspace/Webserver: 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/fx4MGDpBoHKWgX5/preview)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/GBzeab3DFiDbNqc/preview)
+## Konfiguration
 
-### Schritt 3
-Erstellen der Weiterleitungsregel in der ".htaccess" Datei:
+Eine `.htaccess`-Datei muss erstellt und konfiguriert werden, um die Weiterleitung zu konfigurieren. Navigiere dazu zum Dateimanager in der Plesk-Verwaltung deiner Domain. Klicke dort auf das Plussymbol, um einen neuen Ordner namens `discord` zu erstellen.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/y2HKtxgE7QNKF4e/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/ZAJAd7EXp7yJE64/download)
 
-Wichtig bei der Weiterleitungsregel ist, dass die ursprüngliche Domain durch eine andere "getauscht" bzw. weitergeleitet wird. 
-Es muss also in der Weiterleitungsregel "beispiel-example.de" durch die eigene Domain ersetzt werden und "https://discord.gg/A6e4jyg" durch die eigene Discord Server Adresse. 
-
+Navigiere zu dem Ordner `discord` und erstelle dort eine neue Datei mit dem Namen `.htaccess`. Öffne nun die neu erstellte Datei mit einem Texteditor. Die Regel für die Weiterleitung wird nun hinzugefügt. Kopiere den folgenden Inhalt und füge ihn ein:
 ```
 RewriteEngine On
 RewriteCond %{HTTP_HOST} (www\.)?beispiel-example.de
 RewriteRule (.*) https://discord.gg/A6e4jyg [R=301,L]
-
 ```
-Werte, die verändert werden müssen: 
 
-```
-RewriteEngine On
-RewriteCond %{HTTP_HOST} (www\.)?***EIGENE-DOMAIN***
-RewriteRule (.*) ***EIGENE-DISCORD-DOMAIN*** [R=301,L]
-```
-Nach dem Speichern ist die Weiterleitung direkt aktiv.
+Damit die Regel und die Umleitung für deine Domain funktioniert, musst du den Namen der Domain ändern. Ersetze dazu die Beispiel-Domain `beispiel-example.de` durch deine eigene Domain und speichere die Datei. Ersetze auch die Discord-Einladungs-URL durch die deines Discord Servers. 
 
-### Schritt 4
-Weiterleitung testen:
+Du solltest nun in der Lage sein, die Weiterleitung mit deiner Domain und dem definierten Discord-Pfad aufzurufen. Die Struktur würde in unserem Beispiel wie folgt aussehen: `beispiel-example.de/discord`.
 
-Wird nun die Domain/Discord aufgerufen, so sollte eine Weiterleitung zu Discord erfolgen. 
+## Abschluss
+
+Wenn du alle Schritte befolgt hast, solltest du die Weiterleitung zu deinem Discord Server erfolgreich konfiguriert haben. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+

@@ -31,4 +31,8 @@ During the order process, you will have to truthfully provide a range of persona
 With GDPR rules in place across the EU, all the information that you provide alongside the domain will be private and cannot be accessed publicly.
 :::
 
+:::caution 
+Please be aware that some domain endings may be subject to country-specific or regional registration policies. Certain domains are subject to restrictions on who may register them - depending on factors such as place of residence, company headquarters or other legal requirements. Please check the applicable regulations of the respective domain registry before registering.
+:::
+
 ![](https://screensaver01.zap-hosting.com/index.php/s/d5gNX5mkpctk2c3/preview)
