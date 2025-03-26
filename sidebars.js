@@ -512,6 +512,7 @@ const sidebars = {
           label: "First Steps",
           items: [
             "animalia-survival-firststeps-dashboard",
+            "animalia-survival-firststeps-connect",
           ]
         },
       ],
