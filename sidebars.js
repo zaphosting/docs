@@ -469,6 +469,7 @@ const sidebars = {
           label: "First Steps",
           items: [
             "afterinfection-firststeps-dashboard",
+            "afterinfection-firststeps-connect"
           ]
         },
       ],
