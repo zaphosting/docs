@@ -667,6 +667,7 @@ const sidebars = {
           label: "First Steps",
           items: [
             "barotrauma-firststeps-dashboard",
+            "barotrauma-firststeps-connect",
           ]
         },
         "barotrauma-becomeadmin"
