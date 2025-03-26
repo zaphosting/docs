@@ -624,6 +624,7 @@ const sidebars = {
           label: "First Steps",
           items: [
             "astroneer-firststeps-dashboard",
+            "astroneer-firststeps-connect",
           ]
         },
       ],
