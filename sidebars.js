@@ -483,6 +483,7 @@ const sidebars = {
           label: "First Steps",
           items: [
             "ats-firststeps-dashboard",
+            "ats-firststeps-connect",
           ]
         },
         "ats-server-modding"
