@@ -608,6 +608,7 @@ const sidebars = {
           label: "First Steps",
           items: [
             "assetto-competizione-firststeps-dashboard",
+            "assetto-competizione-firststeps-connect",
           ]
         },
         "assetto-competizione-becomeadmin",
