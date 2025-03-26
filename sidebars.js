@@ -754,6 +754,7 @@ const sidebars = {
           label: "First Steps",
           items: [
             "brokeprotocol-firststeps-dashboard",
+            "brokeprotocol-firststeps-connect",
           ]
         },
       ],
