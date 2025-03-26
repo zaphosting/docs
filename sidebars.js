@@ -590,7 +590,8 @@ const sidebars = {
           type: "category",
           label: "First Steps",
           items: [
-            "assettocorsa-firststeps-dashboard"
+            "assettocorsa-firststeps-dashboard",
+            "assettocorsa-firststeps-connect"
           ]
         },
         "assettocorsa-configure",
