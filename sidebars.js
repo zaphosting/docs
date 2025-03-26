@@ -740,6 +740,7 @@ const sidebars = {
           label: "First Steps",
           items: [
             "beyondthewire-firststeps-dashboard",
+            "beyondthewire-firststeps-connect",
           ]
         },
       ],
