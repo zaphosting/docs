@@ -696,6 +696,7 @@ const sidebars = {
           label: "First Steps",
           items: [
             "battlegrounds3-firststeps-dashboard",
+            "battlegrounds3-firststeps-connect",
           ]
         },
       ],
