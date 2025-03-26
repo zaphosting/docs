@@ -653,6 +653,7 @@ const sidebars = {
           label: "First Steps",
           items: [
             "bananashooter-firststeps-dashboard",
+            "bananashooter-firststeps-connect",
           ]
         },
       ],
