@@ -767,6 +767,7 @@ const sidebars = {
           label: "First Steps",
           items: [
             "citadel-forgedwithfire-firststeps-dashboard",
+            "citadel-forgedwithfire-firststeps-connect",
           ]
         },
       ],
