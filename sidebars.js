@@ -726,6 +726,7 @@ const sidebars = {
           label: "First Steps",
           items: [
             "bob-firststeps-dashboard",
+            "bob-firststeps-connect",
           ]
         },
       ],
