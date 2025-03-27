@@ -1232,6 +1232,7 @@ const sidebars = {
           label: "First Steps",
           items: [
             "groundbranch-firststeps-dashboard",
+            "groundbranch-firststeps-connect",
           ]
         },
       ],
