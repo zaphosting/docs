@@ -1273,6 +1273,7 @@ const sidebars = {
           label: "First Steps",
           items: [
             "holdfast-firststeps-dashboard",
+            "holdfast-firststeps-connect",
           ]
         },
       ],
