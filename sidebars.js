@@ -1346,6 +1346,7 @@ const sidebars = {
           label: "First Steps",
           items: [
             "ironarmada-firststeps-dashboard",
+            "ironarmada-firststeps-connect",
           ]
         },
       ],
