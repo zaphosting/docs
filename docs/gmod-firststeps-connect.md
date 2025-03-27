@@ -1,7 +1,7 @@
 ---
-id: moe-firststeps-connect
-title: "Myth of Empires: Connect to the server"
-description: Information about various ways on how to connect to your Myth of Empires server from ZAP-Hosting - ZAP-Hosting.com Documentation
+id: gmod-firststeps-connect
+title: "Garry's Mod: Connect to the server"
+description: Information about various ways on how to connect to your Garry's Mod server from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Connect to the server
 services:
   - gameserver
@@ -14,7 +14,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Introduction
-Not sure how to connect to your **Myth of Empires** server or what you need to get started? No worries, we’ve got you covered! We will walk you through everything you need – from the required tools and information to the actual connection process, along with key considerations to ensure a smooth and trouble-free connection experience. Follow our guide and you'll be connected in no time!
+Not sure how to connect to your **Garry's Mod** server or what you need to get started? No worries, we’ve got you covered! We will walk you through everything you need – from the required tools and information to the actual connection process, along with key considerations to ensure a smooth and trouble-free connection experience. Follow our guide and you'll be connected in no time!
 
 <InlineVoucher />
 
@@ -32,7 +32,7 @@ You will require all the relevant information necessary to connect to your serve
 
 Using the information mentioned above, you should be able to locate your server and ensure that you connect to the correct server.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/kfGanQbZWGzkC9A/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/5N3QkkcHneBCai4/preview)
 
 ## Establish server connection
 
@@ -42,13 +42,35 @@ The connection to a game server can often be established in one or more ways. Av
 <Tabs>
     <TabItem value="connect_solution_server_browser_ingame" label="Server Browser (In game)" default>
 
-To connect to your server via the in game server browser, open the server browser in the main menu. Click on **Custom Server** for this. Search for your server using the server name and the search field. Then select your server and click on **Connect** to establish the connection. 
+To connect to your server via the in game server browser, open the server browser in the main menu. To do this, click on **Find Multiplayer Game** and then open the **Legacy Browser**. Once you are there, search for your server using the **search field** and your server name and then click on **Connect**.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/Yo8YfRbtHS2cAnF/download)
+![img](https://screensaver01.zap-hosting.com/index.php/s/XFpND5FA4ZAxfHq/download)
 
 </TabItem>
 
+<TabItem value="connect_solution_server_browser_steam" label="Server Browser (Steam)">
 
+
+
+To connect to your server via the Steam server browser, open the server browser from Steam. Click on `View` at the top of the Steam navigation and then on the `Game Server` section to open it. 
+
+Search or add your server via the Steam browser by using the `IP address` and `Port` of your game server. To do this, select the `Favorites` tab in the server list and click on the plus symbol at the bottom. A pop-up window will open in which you specify your server information. 
+
+![img](https://screensaver01.zap-hosting.com/index.php/s/MMsokw2ZyCreeCN/download)
+
+</TabItem>
+
+<TabItem value="connect_solution3" label="Console (In game)">
+
+To connect to your server via console, open the console with the `~` key. Once the console is open, execute the following command: 
+
+```
+connect IP:Port
+```
+
+![img](https://screensaver01.zap-hosting.com/index.php/s/gpqBB72jx7r2A48/preview)
+
+</TabItem>
 </Tabs>
 
 

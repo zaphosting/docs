@@ -1,7 +1,7 @@
 ---
-id: moe-firststeps-connect
-title: "Myth of Empires: Zum Server verbinden"
-description: Informationen über verschiedene Möglichkeiten, wie du dich mit deinem Myth of Empires Server von ZAP-Hosting verbinden kannst - ZAP-Hosting Dokumentation
+id: bob-firststeps-connect
+title: "Beasts of Bermuda: Zum Server verbinden"
+description: Informationen über verschiedene Möglichkeiten, wie du dich mit deinem Beasts of Bermuda Server von ZAP-Hosting verbinden kannst - ZAP-Hosting Dokumentation
 sidebar_label: Zum Server verbinden
 services:
   - gameserver
@@ -15,7 +15,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Unsicher, wie du dich mit deinem **Myth of Empires** Server verbinden kannst oder was du dafür benötigst? Kein Problem, wir helfen dir weiter! Wir führen dich durch alles, was du benötigst - von den erforderlichen Werkzeugen und Informationen bis hin zum eigentlichen Verbindungsprozess und den wesentlichen Punkten, die für eine reibungslose und störungsfreie Verbindung erforderlich sind. Befolge unsere Anleitung und du wirst in kürzester Zeit verbunden sein!
+Unsicher, wie du dich mit deinem **Beasts of Bermuda** Server verbinden kannst oder was du dafür benötigst? Kein Problem, wir helfen dir weiter! Wir führen dich durch alles, was du benötigst - von den erforderlichen Werkzeugen und Informationen bis hin zum eigentlichen Verbindungsprozess und den wesentlichen Punkten, die für eine reibungslose und störungsfreie Verbindung erforderlich sind. Befolge unsere Anleitung und du wirst in kürzester Zeit verbunden sein!
 
 <InlineVoucher />
 
@@ -25,13 +25,11 @@ Unsicher, wie du dich mit deinem **Myth of Empires** Server verbinden kannst ode
 
 Du benötigst alle relevanten Informationen, um dich mit deinem Server zu verbinden. Die Informationen zu deinem Server findest du im Dashboard des Webinterfaces deines Gameservers. Zu den wichtigen Informationen gehören die folgenden: 
 
-- IP-Adresse und Port
 - Name des Servers
-- Server-Passwort (optional)
 
 Anhand der oben genannten Informationen solltest du in der Lage sein, deinen Server zu finden und sicherzustellen, dass du dich mit dem richtigen Server verbindest. 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/y8HC9RjnHqyA7Jc/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/4SnSTDKaBCxo2cJ/preview)
 
 ## Verbindung zum Server herstellen
 
@@ -40,9 +38,9 @@ Die Verbindung zu einem Gameserver kann häufig auf eine oder mehrere Arten herg
 <Tabs>
     <TabItem value="connect_solution_server_browser_ingame" label="Server Browser (Im Spiel)" default>
 
-Um eine Verbindung zu deinem Server über den Server-Browser im Spiel herzustellen, öffne den Server-Browser im Hauptmenü. Klicke dazu auf **Custom Server**. Such anhand des Servernamen und der Verwendung des Suchfelds nach deinem Server. Wähle anschließend deinen Server aus und klicke auf **Connect**, um die Verbindung herzustellen. 
+Um eine Verbindung zu deinem Server über den Server-Browser im Spiel herzustellen, öffne den Server-Browser im Hauptmenü. Klicke auf **Multiplayer** und suche deinen Server anhand des Servernamen in der Serverliste.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/Yo8YfRbtHS2cAnF/download)
+![img](https://screensaver01.zap-hosting.com/index.php/s/qsoKqWwwzgJexKN/download)
 
 </TabItem>
 
@@ -70,3 +68,6 @@ Hast du nach der Fehlersuche weiterhin Probleme? In diesem Fall steht unser Supp
 ## Abschluss
 
 Glückwunsch, vorausgesetzt, dass du alle Schritte befolgt hast, solltest du erfolgreich eine Verbindung zum Server hergestellt haben. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+
+
+

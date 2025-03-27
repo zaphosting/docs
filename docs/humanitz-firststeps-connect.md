@@ -1,7 +1,7 @@
 ---
-id: moe-firststeps-connect
-title: "Myth of Empires: Connect to the server"
-description: Information about various ways on how to connect to your Myth of Empires server from ZAP-Hosting - ZAP-Hosting.com Documentation
+id: humanitz-firststeps-connect
+title: "HumanitZ: Connect to the server"
+description: Information about various ways on how to connect to your HumanitZ server from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Connect to the server
 services:
   - gameserver
@@ -14,7 +14,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Introduction
-Not sure how to connect to your **Myth of Empires** server or what you need to get started? No worries, we’ve got you covered! We will walk you through everything you need – from the required tools and information to the actual connection process, along with key considerations to ensure a smooth and trouble-free connection experience. Follow our guide and you'll be connected in no time!
+Not sure how to connect to your **HumanitZ** server or what you need to get started? No worries, we’ve got you covered! We will walk you through everything you need – from the required tools and information to the actual connection process, along with key considerations to ensure a smooth and trouble-free connection experience. Follow our guide and you'll be connected in no time!
 
 <InlineVoucher />
 
@@ -32,7 +32,7 @@ You will require all the relevant information necessary to connect to your serve
 
 Using the information mentioned above, you should be able to locate your server and ensure that you connect to the correct server.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/kfGanQbZWGzkC9A/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/g8peYsfZbCrrifN/preview)
 
 ## Establish server connection
 
@@ -42,9 +42,9 @@ The connection to a game server can often be established in one or more ways. Av
 <Tabs>
     <TabItem value="connect_solution_server_browser_ingame" label="Server Browser (In game)" default>
 
-To connect to your server via the in game server browser, open the server browser in the main menu. Click on **Custom Server** for this. Search for your server using the server name and the search field. Then select your server and click on **Connect** to establish the connection. 
+To connect to your server via the in game server browser, open the server browser in the main menu. To do this, click on **Play**, go to **Multiplayer** and press on **Find Server**. Once you are there, search for your server using your server name and then click on **Join Server**.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/Yo8YfRbtHS2cAnF/download)
+![img](https://screensaver01.zap-hosting.com/index.php/s/LxqpeHckmkrQaYG/download)
 
 </TabItem>
 
