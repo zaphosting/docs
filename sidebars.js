@@ -1584,6 +1584,7 @@ const sidebars = {
           label: "First Steps",
           items: [
             "necesse-firststeps-dashboard",
+            "necesse-firststeps-connect",
           ]
         },
       ],
