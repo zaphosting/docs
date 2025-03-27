@@ -1016,7 +1016,8 @@ const sidebars = {
           type: "category",
           label: "First Steps",
           items: [
-            "dst-firststeps-dashboard"
+            "dst-firststeps-dashboard",
+            "dst-firststeps-connect"
           ]
         },
         "dst-create-cave"
