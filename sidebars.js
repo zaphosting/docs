@@ -796,6 +796,7 @@ const sidebars = {
           label: "First Steps",
           items: [
             "conan-firststeps-dashboard",
+            "conan-firststeps-connect",
           ]
         },
         "conan-becomeadmin",
