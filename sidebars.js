@@ -782,6 +782,7 @@ const sidebars = {
           label: "First Steps",
           items: [
             "colonysurvival-firststeps-dashboard",
+            "colonysurvival-firststeps-connect",
           ]
         },
       ],
