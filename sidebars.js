@@ -853,6 +853,7 @@ const sidebars = {
           label: "First Steps",
           items: [
             "cryofall-firststeps-dashboard",
+            "cryofall-firststeps-connect",
           ]
         },
       ],
