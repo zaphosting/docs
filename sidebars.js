@@ -990,6 +990,7 @@ const sidebars = {
           label: "First Steps",
           items: [
             "ddracenetwork-firststeps-dashboard",
+            "ddracenetwork-firststeps-connect",
           ]
         },
       ],
