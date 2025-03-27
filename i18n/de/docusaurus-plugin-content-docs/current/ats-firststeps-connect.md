@@ -25,9 +25,8 @@ Unsicher, wie du dich mit deinem **American Truck Simulator** Server verbinden k
 
 Du benötigst alle relevanten Informationen, um dich mit deinem Server zu verbinden. Die Informationen zu deinem Server findest du im Dashboard des Webinterfaces deines Gameservers. Zu den wichtigen Informationen gehören die folgenden: 
 
-- IP-Adresse und Port
 - Name des Servers
-- Server-Passwort (optional)
+ - Search Session ID (Live Konsole)
 
 Anhand der oben genannten Informationen solltest du in der Lage sein, deinen Server zu finden und sicherzustellen, dass du dich mit dem richtigen Server verbindest. 
 
@@ -40,31 +39,17 @@ Die Verbindung zu einem Gameserver kann häufig auf eine oder mehrere Arten herg
 <Tabs>
     <TabItem value="connect_solution_server_browser_ingame" label="Server Browser (Im Spiel)" default>
 
-Um eine Verbindung zu deinem Server über den Server-Browser im Spiel herzustellen, öffne den Server-Browser im Hauptmenü.
+Um eine Verbindung zu deinem Server herzustellen, musst du deine Karriere im Spiel beginnen oder fortsetzen. Klicke dann auf **Convoy** und rufe **Convoy Lobby** auf. Es öffnet sich die Serverliste, in der du anhand des Servernamens nach deinem Server suchen kannst.
+
+:::warning Server nicht sichtbar?
+ Wenn du deinen Server nicht über den Servernamen finden kannst, kannst du alternativ nach der Session Search ID in der Live-Konsole suchen und diese verwenden, um deinen Server zu suchen und zu finden. Kopieren die Search Session ID ohne den Teil „/101“. 
+:::
+
+![img](https://screensaver01.zap-hosting.com/index.php/s/DEFXR75KxXAybxG/download)
 
 </TabItem>
 
-<TabItem value="connect_solution_server_browser_steam" label="Server Browser (Steam)">
 
-
-
-Um eine Verbindung zu deinem Server über den Steam-Server-Browser herzustellen, öffne den Server-Browser von Steam. Klicke oben in der Steam-Navigation auf `Ansicht` und dann auf den Abschnitt `Spielserver`, um diese zu öffnen. 
-
-Suche oder füge deinen Server über den Steam-Browser hinzu, indem du die `IP-Adresse` und den `Port` deines Gameservers verwendest. Wähle dazu in der Serverliste den Reiter `Favoriten` aus und klicke auf das Plus-Symbol unten. Es öffnet sich ein Pop-up-Fenster, in dem du deine Serverinformationen angibst. 
-
-![img](https://screensaver01.zap-hosting.com/index.php/s/J6JsAwtSiXYjM4p/download)
-
-</TabItem>
-
-<TabItem value="connect_solution3" label="Konsole (Im Spiel)">
-
-Um eine Verbindung zu deinem Server über die Konsole herzustellen, öffne die Konsole mit der Taste `KEY_XY`. Sobald die Konsole geöffnet ist, führe den folgenden Befehl aus: 
-
-```
-Placeholder
-```
-
-</TabItem>
 </Tabs>
 
 
