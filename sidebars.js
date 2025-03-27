@@ -1524,6 +1524,7 @@ const sidebars = {
           label: "First Steps",
           items: [
             "miscreated-firststeps-dashboard",
+            "miscreated-firststeps-connect",
           ]
         },
       ],
