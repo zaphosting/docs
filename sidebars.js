@@ -1216,7 +1216,8 @@ const sidebars = {
           type: "category",
           label: "First Steps",
           items: [
-            "gmod-firststeps-dashboard"
+            "gmod-firststeps-dashboard",
+            "gmod-firststeps-connect"
           ]
         },
         "gmod-servercfg",
