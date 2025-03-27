@@ -1292,6 +1292,7 @@ const sidebars = {
           label: "First Steps",
           items: [
             "humanitz-firststeps-dashboard",
+            "humanitz-firststeps-connect",
           ]
         },
       ],
