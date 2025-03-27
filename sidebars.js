@@ -1079,6 +1079,7 @@ const sidebars = {
           label: "First Steps",
           items: [
             "ets2-firststeps-dashboard",
+            "ets2-firststeps-connect",
           ]
         },
         "ets2-server-modding"
