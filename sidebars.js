@@ -839,6 +839,7 @@ const sidebars = {
           label: "First Steps",
           items: [
             "craftopia-firststeps-dashboard",
+            "craftopia-firststeps-connect",
           ]
         },
       ],
