@@ -1775,6 +1775,7 @@ const sidebars = {
           label: "First Steps",
           items: [
             "portalknights-firststeps-dashboard",
+            "portalknights-firststeps-connect",
           ]
         },
       ],
