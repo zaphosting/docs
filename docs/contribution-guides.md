@@ -63,22 +63,22 @@ Ensure that you have created a suggestion on our [GitHub Repository](https://git
 **Prerequisites:**
 - [GitHub Account](https://github.com/)
 
-The first step is to create your own fork of the ZAP-Hosting documentation repository from GitHub. You can do this by heading over to the [ZAP Docs GitHub repository](https://github.com/zaphosting/docs) and pressing the **Fork** button at the top of the page. 
+The first step is to create your own fork of the ZAP-Docs repository from GitHub. You can do this by heading over to the [ZAP Docs GitHub repository](https://github.com/zaphosting/docs) and pressing the **Fork** button at the top of the page. 
 
-![](https://github.com/zaphosting/docs/assets/42719082/9bc28311-0a4c-4c25-9736-9d0eab932689)
+![](https://screensaver01.zap-hosting.com/index.php/s/3AGoSTE7dGTsdz7/preview)
 
-You should name the repository based on the suggestion that was accepted and tick the `Copy the master branch only` text. Next, press the create button and await a few seconds until it has successfully forked. 
+You should name the repository based on the suggestion that was accepted and tick the `Copy the master branch only` text. Next, press the create button and await a few seconds until it has successfully forked.
 
-Now you can head over to the next section to create or edit content. For more advanced users, creating locally may make more sense as you can test it easily and on the go.
+With your own repository fork ready, you can now proceed to the following section to complete your contribution. There are two main methods of producing content, either directly through the GitHub website or cloning the repository locally. The benefit of the first is that it is much more user-friendly, where as the benefit of locally is that you can test run Docusaurus beforehand to view live changes.
+
+:::tip
+For beginners or those without much experience with Git, we recommend using **Method 1** to write your content as it is more user-friendly, faster and all done through a web browser via the GitHub website. This approach is much more hassle-free as it requires no local setup.
+:::
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
 ### Methods of Creating Guides
-
-:::tip
-We recommend using **Method 1** to write your content, as this method is faster and more user-friendly, especially for new writers.
-:::
 
 <Tabs>
 <TabItem value="direct" label="Method 1: Directly via GitHub Website" default>
@@ -87,62 +87,89 @@ The easiest and recommended way to create content is to do so through the GitHub
 
 To begin, head over to the Fork that you have created in the previous step. Once you are on your ZAP Docs fork, you can access all of the documentation guides through the **docs** folder.
 
-![](https://github.com/zaphosting/docs/assets/42719082/6a91889f-891d-440d-a5d3-720afc5d8abc)
+![](https://screensaver01.zap-hosting.com/index.php/s/dqptZFrSTrBBHAJ/preview)
 
-The documentation files are named in a simple convention, where the first word refers to the type of guide, typically a game, product or section and any following words refer to the specific section. For example `dedicated-windows.md` refers to the Dedicated Server section, specifically for the Windows OS.
+The documentation files are named in a simple convention, where the first word refers to the type of guide, typically a game, product or section and any following words refer to the specific section. We recommend looking at our current live [ZAP-Docs Website](https://zap-hosting.com/guides) to browse and find the correct area a guide would belong in. As an example, `dedicated-windows.md` refers to the Dedicated Server section, specifically for the Windows OS.
 
-Now you will either have to open an existing guide file or create a new one if you are creating new content. Use the appropriate heading below to continue.
+Now you will either have to open an existing guide file or create a new one based on whether your contribution is relevant to updating a guide or creating a new guide. Use the appropriate tab below to get the relevant instructions, as a new guide requires some extra file preparation.
 
 <Tabs>
 <TabItem value="direct_new" label="Create a new guide file" default>
 
-In this case, head over to the top right whilst you are in the `/docs` folder, and press **Add File**. In the menu, you should press **Create new file** which will open a new page.
+In this example, our suggestion was to create a new guide for the game Rust, specifically about commands that the game provides. From checking the ZAP-Docs website and/or the repository, we can see that a **Rust** section already exists under the game servers product category. Based on the naming convention mentioned previously and the existing guides, we can infer that the new guide should be called `rust-commands.md`.
 
-![](https://github.com/zaphosting/docs/assets/42719082/5a980882-4b47-4e40-9d15-b3b9ea2fe650)
+Now to create a new file, head over to the [GitHub Repository](https://github.com/zaphosting/docs), open the **docs** folder and on the right-hand side of the screen, select **Add File**. In the meny, you should press the **Create new file** option which will open a new tab.
 
-On this page, you can set a name for your new guide at the top directory and simply begin writing your content.
+![](https://screensaver01.zap-hosting.com/index.php/s/xgL3QF9HzJnwARA/preview)
 
-:::tip
-Make sure that you don't forget to add `.md` as the file extension.
+At the top of the page within the file path directory, you can set the name of the file. As we have established before, this will be `rust-commands.md` in our example.
+
+:::info
+Please ensure that you add the `.md` file extension as all guides are in the Markdown format.
 :::
 
-![](https://github.com/zaphosting/docs/assets/42719082/562269e1-aaf7-4b07-9bbe-5641e3b54274)
+Now the next part involves adding key metadata at the beginning of the file. The easiest way to do this is by going into another file such as `rust-plugins.md` and copying over the top metadata tags. Then you can simply adjust each value to match your new guide, with the most important one being the `id` field which **must** match your file name (without `.md`).
+
+Using our example, the file should now contain the following:
+```
+---
+id: rust-commands
+title: "Rust: Admin Commands"
+description: Information on Admin commands for Rust from ZAP-Hosting - ZAP-Hosting.com documentation
+sidebar_label: Admin Commands
+services:
+  - gameserver
+---
+```
+
+:::note
+We double check the metadata during our review process, so don't worry if you are facing troubles with this and simply proceed.
+:::
+
+![](https://screensaver01.zap-hosting.com/index.php/s/2CJFHoc5LeD4YSn/preview)
 
 </TabItem>
 
 <TabItem value="direct_existing" label="Edit an existing guide file" default>
 
-In this case, open up the target file that you wish to edit, in this example, we will use `dedicated-windows.md`. Now that you have opened the file, you will see a rough preview of how it looks based on Markdown (the layout may be slightly different due to beta).
+In this case, you will have to open up the target file that you wish to edit. In this example, we will use `dedicated-linux-satisfactory.md` which you can find in the `/docs` folder on the repository. Now that you have opened the file, you will see a rough preview of how it looks based on Markdown.
 
-Head over to the top right of the file and press the edit (pen) icon. This will open up an edit window where you can perform any changes that you have previously suggested and which have been accepted.
+Head over to the top right of the file and press the edit (pen) icon. This will open up a new tab where you can edit the file directly.
 
-![](https://github.com/zaphosting/docs/assets/42719082/49570185-b495-42d2-b74a-0b9300922758)
+![](https://screensaver01.zap-hosting.com/index.php/s/SZTsAikipzCZcg3/preview)
 
 </TabItem>
 </Tabs>
 
 #### Continue: Creating content
 
-Now that your file is ready, you can proceed to write the content that was agreed upon in your suggestion. We recommend saving or committing regularly to ensure that you do not potentially lose some of your work.
+Now that you have prepared and opened your file, you can proceed to write the content that was agreed upon in your suggestion. We recommend saving or committing regularly to ensure that you do not potentially lose some of your work.
+
+:::tip Keep Your Work Safe
+Whilst writing your content, please ensure that you regularly commit or make copies of the content as the editor on GitHub does not have any auto-save functionality, meaning if you close a browser tab or something occurs, you may lose progress.
+
+We can **highly recommend** using the Markdown tool **[StackEdit](https://stackedit.io/app#)** to write your content as this allows you to store progress locally and even sync it to your drive or various accounts if you wish. Once you are finished, you can then simply copy and paste the contents into the file on the GitHub website and commit.
+:::
 
 You can use the **Preview** button at the top of the edit window to switch to the preview mode which will display the rough preview and switch back again via the **Edit** button.
 
-![](https://github.com/zaphosting/docs/assets/42719082/711ae450-e8c7-4a03-b358-4c5cf2caa7ba)
+![](https://screensaver01.zap-hosting.com/index.php/s/4YcQo6q3iAAGYkZ/preview)
 
-:::note
-Please keep in mind that some Docusaurus-specific elements such as admonitions (tags like `:::note`, `:::tip` etc.) may not show up correctly when previewing through GitHub. This is because they aren't part of traditional Markdown, however, they will display correctly during local testing and production.
+:::note Docusaurus Elements
+Please keep in mind that some Docusaurus-specific elements such as admonitions (tags like `:::note`, `:::tip` etc.) or tabs may not show up correctly when previewing through GitHub. This is because they aren't part of traditional Markdown, however, they will display correctly during local testing and production.
 :::
 
+:::info Follow our Guidelines
 Please refer to the [Guidelines](contribution-guides-guidelines.md) for everything regarding Markdown, structure, terminology and more.
+:::
 
 Once you have performed your changes, use the **Commit changes...** button which will display a prompt.
 
-![](https://github.com/zaphosting/docs/assets/42719082/1c401a6f-71ef-4853-8d9e-3f5e400f2c2c)
+![](https://screensaver01.zap-hosting.com/index.php/s/2iQCZzzAHsHS2rt/preview)
 
-Enter a useful commit message that explains what you have done and an extended description where appropriate. Finally, commit the changes. This will commit it to your fork of the docs. You may now head over to the **Submitting Content** section to create a Pull Request to submit the content to our main ZAP-Hosting Docs Repository.
+Enter a useful commit message that explains what you have done and an extended description where appropriate. Finally, commit the changes. This will commit it to your fork of the docs. You may now head over to the **[Submitting Content](#step-3-submitting-content)** section to create a Pull Request to submit the content to our main ZAP-Docs Repository.
 
 </TabItem>
-
 
 <TabItem value="local" label="Method 2: Locally via IDE (git cloning)">
 
@@ -150,36 +177,52 @@ You may prefer to write content locally via an IDE or editor such as Visual Stud
 
 **Prerequisites:**
 - IDE of choice, in this example we will use [Visual Studio Code](https://code.visualstudio.com/)
-- [GitHub Desktop](https://desktop.github.com/)
+- [GitHub Desktop](https://desktop.github.com/) (or anything else with Git functionality)
 
-The first part of the process is to clone your fork repository. The simpler and more user-friendly way of doing this is through GitHub Desktop by selecting **Add**, followed by **Clone repository** and choosing your fork repository. You may also do this directly through the Visual Studio Code application.
+The first part of the process is to clone your fork repository. The simpler and more user-friendly way of doing this is through GitHub Desktop by selecting **Add**, followed by **Clone repository** and choosing your fork repository. You may also do this directly through the IDE if it has Git functionality.
 
-![](https://github.com/zaphosting/docs/assets/42719082/75f02edb-0b46-4c5a-a4ca-c1fd2f49a1c3)
+![](https://screensaver01.zap-hosting.com/index.php/s/g8AwEcGa6mBrQ75/preview)
 
 Next, open up the repository folder within Visual Studio Code. On the **Explorer** left tab you should see all of the folders within the repository.
 
-The documentation files are named in a simple convention, where the first word refers to the type of guide, typically a game, product or section and any following words refer to the specific section. We recommend looking at the current website to find the correct place in which your suggested guide will fit.
+The documentation files are named in a simple convention, where the first word refers to the type of guide, typically a game, product or section and any following words refer to the specific section. We recommend looking at our current live [ZAP-Docs Website](https://zap-hosting.com/guides) to browse and find the correct area a guide would belong in. As an example, `dedicated-windows.md` refers to the Dedicated Server section, specifically for the Windows OS.
+
+Now you will either have to open an existing guide file or create a new one based on whether your contribution is relevant to updating a guide or creating a new guide. Use the appropriate tab below to get the relevant instructions, as a new guide requires some extra file preparation.
 
 <Tabs>
 <TabItem value="local_new" label="Create a new guide file" default>
 
-In this case, we suggested in our issue that we want to create a new guide about the game Rust containing a range of useful commands. From the website, we can see that there is already an existing **Rust** section under gameservers, so we can check within the **docs** folder in our IDE to find the correct naming convention. This means that the file name of the guide will be `rust-commands.md`. Create this file within the **docs** folder.
+In this example, our suggestion was to create a new guide for the game Rust, specifically about commands that the game provides. From checking the ZAP-Docs website and/or the repository, we can see that a **Rust** section already exists under the game servers product category. Based on the naming convention mentioned previously and the existing guides, we can infer that the new guide should be called `rust-commands.md`.
 
-The next part involves placing the top file metadata. The easiest way of doing this, is by heading over to another file, for example `rust-plugins.md`. From this file, copy and paste the top metadata tags into your new file. You should edit the `id` tag to match the name of your file, in this case `rust-commands`, and edit the other metadata based on your accepted suggestion for the new guide.
+Open up the `/docs` folder in your IDE and create a new file with the approrpiate name for your new guide.
 
-The file should now begin with (following the example):
+:::info
+Please ensure that you add the `.md` file extension as all guides are in the Markdown format.
+:::
+
+Now the next part involves adding key metadata at the beginning of the file. The easiest way to do this is by going into another file such as `rust-plugins.md` and copying over the top metadata tags. Then you can simply adjust each value to match your new guide, with the most important one being the `id` field which **must** match your file name (without `.md`).
+
+Using our example, the file should now contain the following:
 ```
 ---
 id: rust-commands
-title: Admin Commands
+title: "Rust: Admin Commands"
 description: Information on Admin commands for Rust from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Admin Commands
+services:
+  - gameserver
 ---
 ```
 
-The final step for ensuring that your newly created page shows up on the sidebar is to add it to the `sidebar.js` file in the correct place. Since the **Rust** section already exists, we can find it using `CTRL+F` and searching for rust. Under the last item, you should create a new line and enter the name of your file, in this example, it will be `rust-commands`.
+:::note
+We double check the metadata during our review process, so don't worry if you are facing troubles with this and simply proceed.
+:::
 
-![](https://github.com/zaphosting/docs/assets/42719082/c5480a84-1778-4c62-928a-928fd4da962e)
+The final step for ensuring that your newly created page shows up on the sidebar on Docusuarus, is to add it to the `sidebar.js` file in the correct section. Since the **Rust** section already exists, we can find it using `CTRL+F` and searching for rust.
+
+Under the last item, you should create a new line and enter the name of your file, in our example, this is `rust-commands`. If an appropriate section doesn't exist yet, you can simply follow the formatting from other sections to add a new section.
+
+![](https://screensaver01.zap-hosting.com/index.php/s/TwKjWmCofG5Rs8f/preview)
 
 :::note
 Ensure that you add a comma (`,`) on the line before your new line so that the syntax is correct. 
@@ -200,20 +243,26 @@ Simply open up the target guide file that you wish to edit within the `/docs` fo
 
 Now that your file is ready, you can proceed to write the content that was agreed upon in your suggestion. We recommend saving or committing regularly to ensure that you do not potentially lose some of your work.
 
-You can use `CTRL+SHIFT+V` or press the preview icon in the top right of the editor to split view the IDE which will let you see your Markdown changes live. 
+You can use the `CTRL+SHIFT+V` shortcut or press the preview icon in the top right of the editor to split view the IDE which will let you see your Markdown changes live as you edit.
 
-:::note
+:::note Docusaurus Elements
 Please keep in mind that some Docusaurus-specific elements such as admonitions (tags like `:::note`, `:::tip` etc.) may not show up correctly when previewing through GitHub. This is because they aren't part of traditional Markdown, however, they will display correctly during local testing and production.
 :::
 
-![](https://github.com/zaphosting/docs/assets/42719082/95effdaa-ab2d-4556-832c-dad33834d636)
+![](https://screensaver01.zap-hosting.com/index.php/s/cXgQEswNsbpGMsR/preview)
 
+:::info Follow our Guidelines
 Please refer to the [Guidelines](contribution-guides-guidelines.md) for everything regarding Markdown, structure, terminology and more.
+:::
 
-Once you are finished with the changes to your guide, the last step of the entire process is to push a commit to your fork repository and submit a Pull Request. You can create a commit through the GitHub Desktop by adding an appropriate title and description and pushing via the top button. Likewise, you can do this directly through Visual Studio Code if you prefer. You may now head over to the **Submitting Content** section to create a Pull Request to submit the content to our ZAP-Hosting Docs Repository.
+Once you are finished with the changes to your guide, the last step of the entire process is to push a commit to your fork repository and submit a Pull Request. You can create a commit through GitHub Desktop (or any other Git application) by adding an appropriate title and description and pushing via the top button.
+
+![](https://screensaver01.zap-hosting.com/index.php/s/tFdrLknnXn62sZc/preview)
+
+You may now head over to the **[Submitting Content](#step-3-submitting-content)** section to create a Pull Request to submit the content to our ZAP-Docs Repository.
 
 :::tip
-We recommend that you also read the optional **Testing build locally** section, as you can pair this section with testing locally to create an optimal workflow where changes are updated on your local build on-the-go which is proven to be very useful. However, this is not necessary.
+We recommend that you also read the optional **[Testing build locally](#optional-testing-build-locally)** section, as you can pair this section with testing locally to create an optimal workflow where changes are updated on your local build on-the-go which is proven to be very useful. However, this is not necessary.
 :::
 
 </TabItem>
@@ -262,7 +311,7 @@ Once you are satisfied with your changes, you may now head over to the next sect
 
 Once you have made your necessary contributions which you believe follow our guidelines closely and are of the highest standard, you may create a Pull Request. You can do this by heading over to your fork of the ZAP Docs repository, pressing the **Contribute** text found below the primary buttons and opening a pull request.
 
-![](https://github.com/zaphosting/docs/assets/42719082/d08ce65e-2c21-4110-97d4-a15588172db4)
+![](https://screensaver01.zap-hosting.com/index.php/s/GLjSno3Ltz3zFpZ/preview)
 
 A new page will open up where you can view the changes that you have produced. By default, the description will contain a small checklist to ensure that you have done everything correctly and comprehensively. You may delete this template once you have browsed it as it is not needed.
 
@@ -270,9 +319,9 @@ Next, please set an appropriate title that explains what has been done. Within t
 
 Once you have populated the title, description and ensured that the changes are correct, you may create your pull request via the button to submit it to our Repository.
 
-![](https://github.com/zaphosting/docs/assets/42719082/fc04a359-bffc-459b-89fd-94eee74e4a71)
+![](https://screensaver01.zap-hosting.com/index.php/s/mrGm5f2WMttYzFT/preview)
 
-Our system will ensure that your changes pass a range of syntax and quality checks. If both of these checks pass successfully, your Pull Request will finally be reviewed by the ZAP-Hosting docs team within a couple of days. 
+Our system will ensure that your changes pass a range of syntax and quality checks. If both of these checks pass successfully, your Pull Request will finally be reviewed by the ZAP-Docs team within a couple of days. 
 
 Upon review of your Pull Request, we may ask you to produce a few changes that we feel are necessary. We may also make some changes ourselves where we believe it is appropriate. Once any additional changes are completed, we will approve your change so that it is ready to be published.
 
