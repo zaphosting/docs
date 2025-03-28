@@ -21,23 +21,16 @@ Unsicher, wie du dich mit deinem **Nienix** Server verbinden kannst oder was du 
 
 
 
-## Voraussetzungen (Optional)
-
-Für die Verbindung mit dem Gameserver ist zusätzliche Software für dieses Spiel erforderlich. Nienix erfordert, dass du XY verwendest. 
-
-
-
 ## Server-Details abrufen
 
 Du benötigst alle relevanten Informationen, um dich mit deinem Server zu verbinden. Die Informationen zu deinem Server findest du im Dashboard des Webinterfaces deines Gameservers. Zu den wichtigen Informationen gehören die folgenden: 
 
 - IP-Adresse und Port
 - Name des Servers
-- Server-Passwort (optional)
 
 Anhand der oben genannten Informationen solltest du in der Lage sein, deinen Server zu finden und sicherzustellen, dass du dich mit dem richtigen Server verbindest. 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/r5MiCoDZqNTcGXf/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/6DB4d6sWkFGek92/preview)
 
 ## Verbindung zum Server herstellen
 
