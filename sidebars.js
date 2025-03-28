@@ -1611,6 +1611,7 @@ const sidebars = {
           label: "First Steps",
           items: [
             "nienix-firststeps-dashboard",
+            "nienix-firststeps-connect",
           ]
         },
       ],
