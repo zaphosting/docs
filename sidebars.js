@@ -1333,6 +1333,7 @@ const sidebars = {
           label: "First Steps",
           items: [
             "insurgency-firststeps-dashboard",
+            "insurgency-firststeps-connect",
           ]
         },
       ],
