@@ -28,7 +28,7 @@ The structure that we typically expect to see would have the following headings:
 
 - **Page Title** (H1) - This is set via the `title` metadata at the top of the page.
 - **Introduction** (H2) - Brief 1-2 sentences which explains the topic of the guide and most importantly explains what the guide aims to achieve.
-- **Preparation** (H2) - This heading is **optional**. It is only needed if there are certain prerequisites or preparation steps that need to be performed before the guide can be followed by a reader. For example, here you could reference our SSH Initial Access guide if the user must login to their server first. Or you may present any software and/or hardware requirements needed. Or you may provide some quick instructions on how to prepare some software, such as a firewall. We recommend browsing our ZAP-Docs website to see if there are any guides that may cover these steps and if so link to them.
+- **Preparation** (H2) - This heading is **optional**. It is only needed if there are certain prerequisites or preparation steps that need to be performed before the guide can be followed by a reader. For example, here you could reference our [SSH Initial Access](vserver-linux-ssh.md) guide if the user must login to their server first. Or you may present any software and/or hardware requirements needed. Or you may provide some quick instructions on how to prepare some software, such as a firewall. We recommend browsing our [ZAP-Docs website](https://zap-hosting.com/guides) to see if there are any guides that may cover these steps and if so link to them.
 - **Main Topic** (H2) - This is your first main section of the guide. In many cases, this would likely be set to **Installation**, which would be followed by various sub-sections for each part of the process. But this may not always be the case, for example informational guides may have a different main topic.
 - Optional: **Sub-topic 1** (H3)
 - Optional: **Sub-topic 2** (H3)
@@ -69,7 +69,7 @@ As seen in the example, it briefly summarises both the relevant topics of this g
 
 The preparation section is useful in clarifying any necessary prerequisites that the reader must fulfil before being able to follow the guide. This could be software or hardware requirements, instructions on preparing some software such as a firewall or simply guiding the user to login to their server via SSH or RDP.
 
-We strongly recommend browsing our ZAP-Docs website to search for guides that may cover or relate to any preparation steps you plan to include. If there is a guide covering a topic, for example SSH Initial Access, you should link the guide and inform the reader to follow along before proceeding.
+We strongly recommend browsing our [ZAP-Docs website](https://zap-hosting.com/guides) to search for guides that may cover or relate to any preparation steps you plan to include. If there is a guide covering a topic, for example [SSH Initial Access](vserver-linux-ssh.md), you should link the guide and inform the reader to follow along before proceeding.
 
 Common prerequisites for guides include:
 
