@@ -241,38 +241,38 @@ Within your content, you may decide to use an admonition to highlight certain in
 The syntax for using each admonition is the same, replacing the keyword with the type you would like to use. Here's an example of usage:
 
 ```
-:::note
-This is a note!
-Replace the above keyword to change the type.
+:::note I'm using a Note!
+This is a note! Replace the above keyword to change the type.
+:::
 ```
 
 #### Note
 
-:::note
+:::note Note Title! (Optional)
 You should use this tag to display additional notes that may be useful but aren't directly important.
 :::
 
 #### Tip
 
-:::tip
+:::tip Tip Title! (Optional)
 Place any tips that you have from experience in this tag.
 :::
 
 #### Info
 
-:::info
+:::info Info Title! (Optional)
 If there is important information that the user should know about, place it within this tag.
 :::
 
 #### Caution
 
-:::caution
+:::caution Caution Title! (Optional)
 Is there something in your guide that the user should be warned and cautious about whilst following the guide? Use this tag to highlight it.
 :::
 
 #### Danger
 
-:::danger
+:::danger Danger Title! (Optional)
 You should use the danger admonition where crucial information needs highlighting. In particular, this should be used to make the user aware of known bugs or deprecated features.
 :::
 
