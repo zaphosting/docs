@@ -15,7 +15,7 @@ You'll learn how to download and install a Mod / Modpack on your Minecraft serve
 
 <InlineVoucher />
 
-## Prerequisites
+## Preparation
 
 - A Gameserver ([you can get one here](https://zap-hosting.com/en/gameserver-hosting/))
 - An FTP-Client (e.g. WinSCP, FileZilla)

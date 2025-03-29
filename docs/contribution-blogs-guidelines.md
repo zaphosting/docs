@@ -51,7 +51,7 @@ Try answering a few of the following questions:
 
 The answers to these questions should help you write up a short and concise introduction for your blog post, covering the key points of your blog post.
 
-### Prerequisites
+### Preparation
 
 This section is only necessary if your blog post relates to providing procedural step-by-step information or tutorials, such as scripting or something creative. The purpose of this is to let the reader know what is required before they begin following your blog post, a bit like a checklist before completion.
 

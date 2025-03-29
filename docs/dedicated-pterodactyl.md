@@ -17,7 +17,7 @@ In this guide, we will explore the steps necessary to setup your own Pterodactyl
 
 <InlineVoucher />
 
-## Prerequisites
+## Preparation
 
 You will need a dedicated server running Linux to install the Pterodactyl Panel. You should use one of the compatible operating systems found in the table below.
 

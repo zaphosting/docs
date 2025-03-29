@@ -15,7 +15,7 @@ Sunkenland servers require a quick first-time setup in order for the server to f
 
 <InlineVoucher />
 
-## Prerequisites
+## Preparation
 Before proceeding, you will have to first launch Sunkenland and create a world save file. Ensure that you save the world before proceeding.
 
 In order to access your server files later in the guide, you will also require an FTP Client such as [WinSCP](https://winscp.net/eng/index.php) or [FileZilla](https://filezilla-project.org/) which are both open-source and free to download.

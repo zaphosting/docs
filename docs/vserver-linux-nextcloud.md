@@ -19,7 +19,7 @@ In order to achieve optimal performance, stability and functionality, the follow
 
 <InlineVoucher />
 
-## Prerequisites
+## Preparation
 
 The following requirements are recommended by the developers and are based on our own experience. You may face issues if you do not meet these prerequisites.
 

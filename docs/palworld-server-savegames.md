@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 In this guide, we will explore how to manage your Palworld Gamesaves on your game server, including backing up your local and server savegames as well as uploading it to your server.
 
-## Prerequisites
+## Preparation
 
 In order to access your server files, you will require an FTP Client such as [WinSCP](https://winscp.net/eng/index.php) or [FileZilla](https://filezilla-project.org/) which are both open-source and free to download.
 

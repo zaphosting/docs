@@ -14,7 +14,7 @@ Setting up a server for Farming Simulator 22 Epic Games version differs slightly
 
 <InlineVoucher />
 
-## Prerequisites
+## Preparation
 
 Before starting, ensure that your setup meets the following requirements:
 - **Operating System:** Windows Server 2016/2019 (64-bit)

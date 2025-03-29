@@ -11,7 +11,7 @@ services:
 
 Traditionally playing together across both Minecraft Java and Bedrock editions has not been possible as both editions are considered complete separate platforms. Luckily in modern times you can make crossplay possible by utilising specific plugins for Java Edition servers which enable Bedrock edition players to play. In this guide, we will explore the process of installing and setting up the GeyserMC plugin alongside the Floodgate plugin to make crossplay between both platforms possible and simple.
 
-## Prerequisites
+## Preparation
 
 In order to set up crossplay, you need to have a Minecraft server running one of the compatible Java server software. We recommend using either Paper, Spigot or Bukkit which are the most popular options.
 
