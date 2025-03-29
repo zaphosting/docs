@@ -33,7 +33,7 @@ The structure that we typically expect to see would have the following headings:
 - Optional: **Sub-topic 1** (H3)
 - Optional: **Sub-topic 2** (H3)
 - ...
-- **Another Topic** (H2)
+- Optional: **Another Topic** (H2)
 - **Conclusion** (H2) - As a final part of the guide, you should close off the guide in 1-3 sentences explaining what the reader has successfully accomplished and provide a reference to our Support Team if the reader is still facing troubles.
 
 :::info Use of Sub-Headings (H3 & H4)
@@ -52,7 +52,7 @@ Titles for your guide should be short and based on the overall aim of the guide 
 
 The title should be prefixed with the product category that the guide relates to, which should also be where you have placed the guide in the sidebar. You can easily check other guides in the same section to view their prefix.
 
-An example of a good title for a guide relating to the VPS product would be: **VPS: SteamCMD Linux Setup**
+An example of a good title for a guide relating to the VPS product would be: `VPS: SteamCMD Linux Setup`
 
 ### Introduction
 
@@ -60,8 +60,8 @@ Introductions for your guide should be relatively short and to the point, typica
 
 An example of an ideal introduction for a guide relating to SteamCMD would be:
 
-- 1st Sentence: SteamCMD is an essential tool that is necessary for installing dedicated servers for a wide variety of games including Palworld, Enshrouded and more.
-- 2nd Sentence: In this guide, we will explore the first-time setup process for installing SteamCMD to your Linux server. We will be using Ubuntu in the examples, but the process should be very similar for other distributions.
+- **1st Sentence**: SteamCMD is an essential tool that is necessary for installing dedicated servers for a wide variety of games including Palworld, Enshrouded and more.
+- **2nd Sentence**: In this guide, we will explore the first-time setup process for installing SteamCMD to your Linux server. We will be using Ubuntu in the examples, but the process should be very similar for other distributions.
 
 As seen in the example, it briefly summarises both the relevant topics of this guide and presents the overall goal for the reader when fulfilling this guide.
 
@@ -93,8 +93,8 @@ Within each section, it is typically advised to add brief entry and closing tran
 
 An example of such statements is:
 
-- Entry Statement: In this section, you will go through the configuration process to customise the software to your likings.
-- Closing Statement: With the configuration prepared and the file saved, head over to the following section to setup the administrator account and start using the software.
+- **Entry Statement**: In this section, you will go through the configuration process to customise the software to your likings.
+- **Closing Statement**: With the configuration prepared and the file saved, head over to the following section to setup the administrator account and start using the software.
 
 Through these transition statements, the reader is provided with important context which ensures that the guide flows well. Remember, you should always use the second person tense (e.g. "You will create) rather than first person when writing your content and transitions.
 
@@ -158,23 +158,23 @@ If you are using subheaders (e.g. H3 headers below main H2 headers), please ensu
 Here is a quick example of how to use headers:
 
 ```
-## Setting up mods
-H2 main section header
+## Installation
+H2 - Main Section
 
-### Downloading the mods
-H3 subheader
+### Downloading Game Files
+H3 - Sub-section of H2
 
-#### Through Steam Workshop
-H4 subheader
+#### Via SteamCMD
+H4 - Sub-section of H3
 
-#### Manually via SteamCMD
-H4 subheader
+#### Manually via GitHub
+H4 - Sub-section of H3
 
-### Preparing the correct structure
-H3 subheader
+### Preparing Configuration
+H3 - Sub-section of H2
 
-### Installing the mods to your server
-H3 subheader
+### Starting Server
+H3 - Sub-section of H2
 ```
 
 ### In-line markdown
@@ -201,7 +201,7 @@ To use italics, you simply have to place a single asterisk outside of the target
 
 In-line code formatting is primarily used to display more technical information such as URLs. A more comprehensive list of examples includes:
 
-- File names and paths (e.g. `C:/User/[YourName]/AppData....test.png`)
+- File names and paths (e.g. `C:/User/[your_name]/AppData....test.png`)
 - URLs (e.g. `https://zap-hosting.com`)
 - Ports (e.g. `:30120`)
 - Commands (e.g. `ipconfig `)
@@ -241,7 +241,7 @@ Within your content, you may decide to use an admonition to highlight certain in
 The syntax for using each admonition is the same, replacing the keyword with the type you would like to use. Here's an example of usage:
 
 ```
-:::note I'm using a Note!
+:::note
 This is a note! Replace the above keyword to change the type.
 :::
 ```
