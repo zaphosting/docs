@@ -170,8 +170,11 @@ const sidebars = {
           label: "First Steps",
           items: [
             "fivem-dashboard",
-            "fivem-firststeps-connect",
             "fivem-upvotes",
+            "fivem-txadmin-setup",
+            "fivem-txadmin-features",
+            "fivem-txadmin-import-server-base",
+            "fivem-firststeps-connect",
           ]
         },
         {
@@ -231,15 +234,6 @@ const sidebars = {
                 "fivem-qbcore-spawnpoints"
               ]
             }
-          ]
-        },
-        {
-          type: "category",
-          label: "txAdmin",
-          items: [
-            "fivem-txadmin-setup",
-            "fivem-txadmin-features",
-            "fivem-txadmin-import-server-base"
           ]
         },
         {
@@ -1111,8 +1105,11 @@ const sidebars = {
           label: "First Steps",
           items: [
             "fivem-dashboard",
-            "fivem-firststeps-connect",
             "fivem-upvotes",
+            "fivem-txadmin-setup",
+            "fivem-txadmin-features",
+            "fivem-txadmin-import-server-base",
+            "fivem-firststeps-connect",
           ]
         },
         {
@@ -1172,15 +1169,6 @@ const sidebars = {
                 "fivem-qbcore-spawnpoints"
               ]
             }
-          ]
-        },
-        {
-          type: "category",
-          label: "txAdmin",
-          items: [
-            "fivem-txadmin-setup",
-            "fivem-txadmin-features",
-            "fivem-txadmin-import-server-base"
           ]
         },
         {
