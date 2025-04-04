@@ -1,209 +1,237 @@
 ---
 id: contribution-guides-guidelines
 title: Richtlinien für Anleitungen
-description: Richtlinien für den Abschnitt Guides des ZAP-Hosting Beitragsprogramms - ZAP-Hosting.com Dokumentation
+description: Richtlinien für den Abschnitt Anleitungen des ZAP-Hosting Beitragsprogramms - ZAP-Hosting.com Dokumentation
 sidebar_label: Richtlinien
 ---
 
 ![Guides Banner](https://screensaver01.zap-hosting.com/index.php/s/4aaqq3zctZFW4JJ/preview)
 
+Um sicherzustellen, dass die Inhalte in unserer ZAP-Docs immer einheitlich in Qualität und Stil sind, haben wir eine Reihe von Richtlinien erstellt, die bei der Erstellung oder Bearbeitung von Inhalten für unsere Dokumentation zu beachten sind. Du **musst** dich genau an unsere Richtlinien halten, um sicherzustellen, dass dein Vorschlag und dein finaler Pull Request zügig bearbeitet werden. Noch wichtiger ist jedoch, dass dies unseren Lesern ein besseres und konsistentes Qualitätserlebnis beim Lesen und Verfolgen der Anleitungen bietet.
 
-Um sicherzustellen, dass die ZAP-Hosting-Dokumentationsseiten eine einheitliche Qualität und einen einheitlichen Stil aufweisen, haben wir eine Reihe von Richtlinien erstellt, die du bei der Erstellung oder Bearbeitung von Inhalten für unsere Dokumentation beachten solltest. Du musst dich genau an unsere Richtlinien halten, damit dein Vorschlag und dein endgültiger Pull Request zügig bearbeitet werden können. Noch wichtiger ist aber, dass unsere Leserinnen und Leser beim Lesen und Verfolgen der Anleitungen eine bessere und einheitlichere Qualitätserfahrung machen können.
+Unsere Richtlinien für die Beiträge zu den Anleitungen lassen sich in die folgenden Abschnitte unterteilen:
 
+- [Struktur](#struktur)
+- [Stil](#stil)
+- [Formatierung](#formatierung)
+- [Terminologie](#terminologie)
 
-Die Richtlinien für die Beiträge in unseren Anleitungen lassen sich in die folgenden Hauptabschnitte unterteilen:
-
-- Struktur
-- Stil
-- Formatierung
-- Terminologie
+Wir empfehlen, diese Abschnitte mindestens einmal durchzusehen, bevor du mit dem Schreiben von Inhalten beginnst. Es ist außerdem eine nützliche Anlaufstelle, wenn du dir nicht sicher bist, wie du etwas während des Erstellungsprozesses angehen sollst.
 
 ## Struktur
 
-Unsere Anleitungen in den ZAP Docs folgen einer relativ einheitlichen Struktur, die den Leser in chronologischer Reihenfolge und mit entsprechenden Überschriften durch das Ziel des Anleitung führt. Die Struktur kann je nach Art des Anleitung, die du schreibst, geändert werden und liegt in deinem Ermessen, wenn du sie für angemessen hältst. Das ZAP Docs Team wird mit dir als Autor zusammenarbeiten, um sicherzustellen, dass die Anleitung korrekt ist.
+Alle unsere Anleitungen in unseren ZAP-Docs folgen einer relativ einheitlichen Struktur, die mit einer kurzen Einleitung sowie etwaigen Vorbereitungen und Voraussetzungen beginnt, gefolgt vom Hauptinhalt und einer kurzen Schlussfolgerung.
 
-Verfahrensanleitungen, die veröffentlicht werden, sollten den Leser Schritt für Schritt durch das jeweilige Thema führen, so dass er es am Ende vollständig beherrscht. Die Struktur dafür wäre/sollte sein:
+Je nach Art der erstellten Anleitung kann die Struktur gelegentlich geändert werden. Dies kann im Rahmen deines ersten Vorschlags mit dem ZAP-Docs-Team besprochen werden. Du kannst dir ansehen, wie du Überschriften über den Abschnitt [Titel](#titel) verwendest, dies geschieht durch herkömmliches Markdown.
 
-- Seitentitel (H1-Überschrift - wird über die Metadaten "Titel" oben auf der Seite festgelegt)
-- Einführungstext
-- Voraussetzungen (H2 Überschrift)
-- Schritt 1 (H2 Überschrift)
-- Schritt 2 (H2 Überschrift)
+Die Struktur, die wir typischerweise erwarten, würde die folgenden Überschriften umfassen:
+
+- **Seitentitel** (H1) - Dieser wird über die Metadaten „Titel“ oben auf der Seite festgelegt.
+- **Einleitung** (H2) - Kurze 1-2 Sätze, die das Thema der Anleitung erläutern und vor allem erklären, was mit der Anleitung erreicht werden soll.
+- **Vorbereitung** (H2) - Diese Überschrift ist **optional**. Sie wird nur benötigt, wenn es bestimmte Voraussetzungen oder Vorbereitungsschritte gibt, die durchgeführt werden müssen, bevor der Leser der Anleitung folgen kann. Zum Beispiel könntest du hier auf unsere Anleitung [SSH-Erstzugang](vserver-linux-ssh.md) verweisen, wenn der Benutzer sich zuerst bei seinem Server einloggen muss. Oder du könntest alle erforderlichen Software- und/oder Hardware-Anforderungen angeben. Alternativ kannst du auch eine kurze Anleitung zur Vorbereitung einer Software, wie z.B. einer Firewall, bereitstellen. Wir raten dazu, unsere [ZAP-Docs-Website](https://zap-hosting.com/guides) zu durchsuchen, um zu sehen, ob es Anleitungen gibt, die diese Schritte abdecken, und wenn ja, auf diese zu verweisen.
+- **Hauptthema** (H2) - Dies ist der erste Hauptabschnitt der Anleitung. In vielen Fällen wird dies wahrscheinlich **Installation** sein, gefolgt von verschiedenen Unterabschnitten für jeden Teil des Prozesses. Dies ist jedoch nicht immer der Fall, z. B. können Informationsanleitungen ein anderes Hauptthema haben.
+- Optional: **Unterthema 1** (H3)
+- Optional: **Unterthema 2** (H3)
 - ...
-- Schritt x (H2 Überschrift)
-- Schlussfolgerung (H2 Überschrift)
+- Optional: **Another Topic** (H2)
+- **Abschluss** (H2) - Als letzter Teil der Anleitung solltest du in 1-3 Sätzen erklären, was der Leser erfolgreich erreicht hat und einen Verweis auf unser Support-Team geben, falls der Leser noch Probleme hat.
 
-Informative Anleitungen, die Informationen und Wissen vermitteln, sollten die folgende Struktur verwenden:
+:::info Verwendung von Unterüberschriften (H3 & H4)
+Wir empfehlen dir, H3-Überschriften zu verwenden, um Unterabschnitte innerhalb der H2-Hauptabschnitte zu erstellen und so größere Inhaltsblöcke in geordnete Abschnitte zu gliedern. Ein Beispiel hierfür ist der Abschnitt **Hauptthema** oben.
 
-- Seitentitel (H1-Überschrift - wird über die `title`-Metadaten oben auf der Seite festgelegt)
-- Einführungstext
-- Hauptthema 1 (H2 Überschrift)
-- Hauptthema 2 (H2 Überschrift)
-- Optional: Unterthema 2.1 (H3 Überschrift)
-- Fakultativ: Unterthema 2.2 (H3 Überschrift)
-- ...
-- Hauptthema x (H2 Überschrift)
-- Schlussfolgerung (H2 Überschrift)
+Du kannst auch H4-Überschriften verwenden. Diese sind nützlich, wenn du einen weiteren Unterabschnitt erstellen möchtest, ohne ihn auf der rechten Seite der Abschnittsgliederung eines Leitfadens anzuzeigen. Sie sind auch nützlich, wenn du einen H3-Abschnitt in noch kleinere Abschnitte aufteilen möchtest.
 
-:::info
-Denke daran, dass du, wenn es sinnvoll ist, H3-Überschriften verwenden kannst, um Unterthemen innerhalb von H2-Hauptüberschriften zu erstellen. Im obigen Beispiel ist dies innerhalb des Hauptthemas **Hauptthema 2** zu sehen. Wenn du Unterüberschriften verwendest, achte bitte darauf, dass es innerhalb des Abschnitts zwei oder mehr Überschriften der gleichen Ebene gibt, sonst wäre das eine falsche Verwendung.
+Wenn du Unterüberschriften verwendest, ist es in der Regel sinnvoll, mindestens zwei oder mehr Unterüberschriften innerhalb der übergeordneten Überschrift zu haben, andernfalls ist es normalerweise nicht sinnvoll, nur eine Unterüberschrift innerhalb einer Hauptüberschrift zu haben.
 :::
 
-In Zukunft werden wir Vorlagen mit vorgefertigtem Markdown für dich hinzufügen, die ein nützlicher Ausgangspunkt für die Erstellung neuer Seiten sein werden. Diese werden bald hinzugefügt.
+In Zukunft werden wir Vorlagen mit vorbereiteten Markdown-Texten hinzufügen, die einen nützlichen Ausgangspunkt für die Erstellung neuer Seiten darstellen. Dies wird in Kürze hinzugefügt werden.
 
-### Überschriften
+### Titel
 
-Wenn du einen Titel erstellst, solltest du das Ziel deiner Anleitung berücksichtigen. Überlege dir genau, was der Leser erreichen soll, wenn er deinem Anleitung folgt. Ein typischer Verfahrensanleitung hat das folgende Titelformat: **Wie man [Aufgabe] mit [Software]** erledigt. Ein typischer informativer Anleitung hat die folgende Überschrift: **Informationen zu [Anleitung-Info]**.
+Die Titel deiner Anleitung sollten kurz sein und sich auf das allgemeine Ziel der von dir geschriebenen Anleitung beziehen. Überlege dir genau, was der Leser am Ende der Anleitung erreichen soll, z. B. die Installation einer Software oder Informationen zu einem bestimmten Thema.
+
+Dem Titel sollte die Produktkategorie vorangestellt werden, auf die sich die Anleitung bezieht, und das sollte auch der Ort sein, an dem du die Anleitung in der Sidebar platzierst. Du kannst ganz einfach andere Anleitungen im selben Bereich ansehen, um deren Präfix zu erkennen.
+
+Ein Beispiel für einen guten Titel einer Anleitung, die sich auf das Produkt VPS bezieht wäre: `VPS: SteamCMD Linux-Einrichtung`.
+
 
 ### Einführung
 
-Einführungen in Anleitungen sollten relativ kurz sein und einfach erklären, was die Anleitung vermitteln soll und was das Ergebnis ist, wenn es sich um eine Anleitung handelt. Ein paar Fragen, die du dir stellen solltest:
+Die Einleitung deiner Anleitung sollte relativ kurz und prägnant sein und in der Regel 1-2 Sätze umfassen. Im Inhalt solltest du darauf abzielen, das jeweilige Themengebiet kurz zu beschreiben und vor allem zu erklären, was die Anleitung dem Leser präsentiert und ihn über das Endziel informiert.
 
-- Worum geht es in deiner Anleitung?
-- Was soll der Leser aus dieser Anleitung lernen?
-- Was wird er am Ende der Anleitung erreicht haben?
+Ein Beispiel für eine ideale Einleitung für einen Leitfaden zum Thema SteamCMD wäre:
 
+- **1. Satz**: SteamCMD ist ein unentbehrliches Tool, das für die Installation von dedizierten Servern für eine Vielzahl von Spielen wie Palworld, Enshrouded und anderen benötigt wird.
+- **2. Satz**: In dieser Anleitung werden wir uns mit der erstmaligen Installation von SteamCMD auf einem Linux-Server beschäftigen. Wir werden in den Beispielen Ubuntu verwenden, aber der Prozess sollte für andere Distributionen sehr ähnlich sein.
 
-Die Beantwortung dieser Fragen sollte dir helfen, eine kurze und prägnante Einführung für deine Anleitung zu verfassen.
+Wie im Beispiel zu sehen, fasst es sowohl die relevanten Themen dieser Anleitung kurz zusammen als auch das Gesamtziel für den Leser, wenn er diese Anleitung erfüllt.
 
-### Voraussetzungen
+### Vorbereitung
 
-Der Abschnitt "Voraussetzungen" wird hauptsächlich für Schritt-für-Schritt-Anleitungen verwendet. Er dient dazu, dem Leser mitzuteilen, was er wissen muss, bevor er die Anleitung durcharbeiten kann, ähnlich wie eine Checkliste vor der Fertigstellung.
+Der Abschnitt „Vorbereitung“ ist nützlich, um alle notwendigen Voraussetzungen zu klären, die der Leser erfüllen muss, bevor er der Anleitung folgen kann. Dabei kann es sich um Software- oder Hardwareanforderungen handeln, um Anweisungen zur Vorbereitung einer Software wie einer Firewall oder einfach um eine Anleitung, wie man sich über SSH oder RDP auf dem Server anmeldet.
 
-Übliche Voraussetzungen für Anleitungen sind zum Beispiel:
+Wir raten dringend dazu, auf unserer [ZAP-Docs-Website](https://zap-hosting.com/guides) nach Anleitungen zu suchen, die sich auf die von dir geplanten Vorbereitungsschritte beziehen oder diese abdecken. Wenn es eine Anleitung gibt, die ein Thema abdeckt, zum Beispiel [SSH-Erstzugang](vserver-linux-ssh.md), solltest du die Anleitung verlinken und den Leser darauf hinweisen, ihr zu folgen, bevor du fortfährst.
+
+Übliche Voraussetzungen für Anleitungen sind:
 
 - Erforderliche Software (z. B. Git, Node.js, Python, Docker)
-- Tutorials, die dem Leser helfen, Grundkenntnisse zu erwerben (z. B. eine andere ZAP Docs-Seite)
-- Benutzerkonten wie z. B. APIs
-- Erforderliche Einstellungen (z. B. DNS/SSL)
+- Tutorials, die dem Leser helfen können, Grundkenntnisse zu erwerben (z. B. eine andere ZAP-Docs-Seite)
+- Benutzerkonten wie z.B. APIs
+- Erforderliche Einstellungen (z.B. DNS/SSL)
 
-Du solltest eine Aufzählung dieser Voraussetzungen unter der Abschnittsüberschrift angeben.
+Ein Beispiel für einen Reverse Proxy Anleitung wäre dies:
+```
+Um einen Reverse Proxy einzurichten, benötigst du einen Linux-Server, auf dem dein Proxy-Server läuft und mit dem du dich verbinden solltest. Benutze unsere [SSH Erstzugang](vserver-linux-ssh.md) Anleitung, wenn du Hilfe dabei brauchst. Darüber hinaus benötigst du Zugang zu einer Domain, die du besitzt. Für jede Subdomain, die du verwenden möchtest, solltest du einen `A` DNS-Eintrag erstellen, der auf die IP-Adresse deines Linux-Servers zeigt.
+```
 
-### Schritte
+### Hauptthema
 
-Der Abschnitt Schritte ist der Teil einer Anleitung, in dem du beschreibst, was die Leser/innen tun müssen und warum. Jeder Schritt sollte auf die Überschrift H2 folgen. Du kannst die Nummer des Schritts erwähnen, bevor du den Schritt beschreibst, z.B. wäre **Schritt 1 - Einrichten des API-Kontos** eine passende Schrittüberschrift. Nach dieser Überschrift solltest du kurz und knapp beschreiben, was der Leser in diesem Schritt tun wird, um ein Gesamtziel zu erreichen. Wie bereits erwähnt, solltest du die Zeitform der zweiten Person verwenden (z. B. "Du wirst erstellen") und nicht die erste Person.
+Nun ist es an der Zeit, den Hauptteil deiner Anleitung zu schreiben. Du kannst gerne verschiedene H2, H3 und H4 Überschriften verwenden, um deine Anleitung angemessen zu strukturieren. Es wäre sinnvoll, H2-Überschriften für große Abschnitte zu verwenden und diese mit H3- und/oder H4-Überschriften in Unterabschnitte aufzuteilen.
 
-Zwischen den einzelnen Schritten solltest du eine kurze Einführung und eine abschließende Überleitung einbauen, um den Leser/die Leserin darüber zu informieren, was er/sie bisher getan hat und was in den nächsten Schritten passieren wird. Diese Übergänge bieten dem Leser einen wichtigen Kontext. Versuche, Wiederholungen zu vermeiden und verwende eine Reihe von Begriffen, um Wiederholungen von Schritten zu vermeiden.
+In vielen Fällen, insbesondere bei Anleitungen, die sich mit der Einrichtung von Software befassen, wirst du wahrscheinlich eine Überschrift **Installation** verwenden, die in verschiedene H3-Unterabschnitte aufgeteilt ist. Wenn du Schwierigkeiten hast, eine korrekte Struktur zu finden, mach dir keine Sorgen, denn wir arbeiten mit dir in der Vorschlagsphase deines Beitrags zusammen, um eine abgerundete Struktur für deine Anleitung zu finden.
 
-### Schlussfolgerung
+In der Regel empfiehlt es sich, innerhalb jedes Abschnitts kurze einleitende und abschließende Überleitungssätze einzufügen, damit der Leser jederzeit weiß, was er bisher getan hat und was er als nächstes tun wird. Dies gilt natürlich mit Ausnahme des letzten Hauptabschnitts, der nicht unbedingt eine abschließende Aussage erfordert, da dieser ganz natürlich in die Schlussfolgerung übergehen würde.
 
-Die Schlussfolgerung deiner Anleitung sollte zusammenfassen, was der Leser während der Anleitung erreicht hat. Er sollte auch die nächsten Schritte, Anwendungsfälle oder Funktionen aufzeigen, die der Leser nutzen kann, wenn er sein Wissen über das Thema weiter vertiefen möchte. Wenn es bereits einen ZAP Docs Anleitung gibt, der auf dem Anleitung aufbaut, wäre dies ein guter Ort, um ihn zu verlinken.
+Ein Beispiel für eine solche Aussage ist:
+
+- **Einstiegserklärung**: In diesem Abschnitt wirst du den Konfigurationsprozess durchlaufen, um die Software nach deinen Wünschen zu gestalten.
+- **Schlussbemerkung**: Nachdem du die Konfiguration vorgenommen und die Datei gespeichert hast, kannst du im folgenden Abschnitt das Administratorkonto einrichten und die Software verwenden.
+
+Durch diese Überleitungen erhält der Leser einen wichtigen Kontext, der für einen guten Fluss der Anleitung sorgt. Denke daran, dass du beim Schreiben deines Inhalts und der Übergänge immer die Zeitform der zweiten Person verwenden solltest (z. B. „Du wirst erstellen“) und nicht die erste Person.
+
+### Abschluss
+
+Der letzte Abschnitt ist der Abschluss der Anleitung. Dieser Abschnitt sollte die Anleitung in 1 bis 3 Sätzen abschließen, in denen erklärt wird, was der Leser erfolgreich erreicht hat und Verweise auf weiterführende Lektüre oder Anleitungen enthalten, mit denen der Leser sein Wissen über das Thema erweitern kann. 
+
+Es wäre gut, hier auf bestehende ZAP-Docs-Anleitungen zu verweisen, vor allem, wenn diese natürlich an deine Anleitung anknüpfen. Wir empfehlen auch einen Verweis auf unser Support-Team, falls der Leser noch Probleme hat.
+
+Ein Beispiel für einen guten Abschluss ist:
+```
+Du hast nun erfolgreich die Software auf deinem Linux-Server eingerichtet! Wir empfehlen dir, unsere Linux-Service-Anleitungen in diesem Abschnitt zu lesen, um weitere Dienste zu installieren.
+
+ Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+```
 
 ## Stil
-Der Schreibstil für die ZAP-Hosting Docs folgt unserer Überzeugung, qualitativ hochwertige, praktische und leicht zugängliche Anleitungen zu erstellen, die ein breites Spektrum an Themen abdecken und Leser mit unterschiedlichem Erfahrungsstand unterstützen. 
+
+Der Schreibstil der ZAP-Hosting-Dokumente folgt unserer Überzeugung, qualitativ hochwertige, praktische und leicht zugängliche Anleitungen zu erstellen, die ein breites Spektrum an Themen abdecken und Leser aller Erfahrungsstufen zu unterstützen. 
 
 ### Technisch & korrekt
 
-Unsere Anleitungen sollen technisch so korrekt wie möglich und auf dem neuesten Stand der Branche sein. Wir erwarten, dass die Anleitungen es dem Nutzer nicht nur ermöglichen, das Ziel zu erreichen, etwas Neues zu lernen, zu bauen oder einzurichten, sondern dass er auch lernt und versteht, was er während des Anleitung getan hat. Jeder Schritt, den du als Autorin oder Autor in einer Anleitung machst, sollte einen klaren Zweck und eine Erklärung haben und gegebenenfalls zusätzliche Optionen und/oder Hinweise enthalten. Du solltest den Leser immer darüber auf dem Laufenden halten, was er tut und warum er die Aktionen von diesem Teil der Anleitung durchführt.
+Unsere Artikel sollen technisch so genau wie möglich und auf dem neuesten Stand der Industrieinformationen sein. Wir erwarten, dass der Nutzer in den Artikeln nicht nur das Ziel erreicht, etwas Neues zu lernen, zu bauen oder einzurichten, sondern auch zu lernen und zu verstehen, was er während des Artikels getan hat. Jeder Schritt, den du als Verfasser einer Anleitung machst, sollte einen klaren Zweck und eine klare Erklärung haben und gegebenenfalls zusätzliche Optionen und/oder Markierungen enthalten. Du solltest den Leser immer darüber auf dem Laufenden halten, was er tut und warum er die Aktionen, die Teil der Anleitung sind, durchführt.
 
-Autoren sollten ihre Anleitungen immer Korrektur lesen und testen, um sicherzustellen, dass alles technisch korrekt ist und wie beabsichtigt funktioniert, bevor sie einen Pull Request einreichen. Das ZAP-Hosting Docs-Team wird deine Anleitung gegebenenfalls durchlesen und testen, um sicherzustellen, dass diese konsistent und sachlich korrekt ist, oder um Verbesserungen zu besprechen, wenn ein Fehler festgestellt wird.
+Verfasser sollten ihre Anleitungen immer Korrektur lesen und testen, um sicherzustellen, dass alles technisch korrekt ist und wie beabsichtigt funktioniert, bevor sie einen Pull Request einreichen. Das ZAP-Hosting Docs Team wird deine Anleitung durchlesen und testen, um sicherzustellen, dass sie konsistent und sachlich korrekt ist oder um Verbesserungen zu besprechen, wenn ein Fehler festgestellt wird.
 
 :::tip
-Wir empfehlen unseren Autoren immer, deinen Inhalt durch ein Rechtschreibprüfungsprogramm laufen zu lassen, um sicherzustellen, dass SPAG korrekt ist, bevor sie einen Pull Request erstellen. Eine nützliche Website dafür ist: https://languagetool.org/
+Wir empfehlen unseren Verfassern immer, Ihren Inhalt durch ein Rechtschreibprüfungstool zu prüfen, um sicherzustellen, dass die Rechtschreibung korrekt ist, bevor Sie einen Pull Request erstellen. Eine nützliche Website dafür ist: https://languagetool.org/
 :::
 
-### Praktisch & nützlich
 
-Wenn ein Leser oder eine Leserin einen Artikel beendet hat, sollte er oder sie etwas von Anfang bis Ende gelernt, gebaut oder eingerichtet haben. Unsere Anleitungen zielen darauf ab, Leser/innen aller Erfahrungsstufen zu unterstützen. Deshalb sollten deine Beiträge das jeweilige Thema vollständig erforschen, um sicherzustellen, dass der/die Leser/in Wissen erlangt und/oder etwas erreicht hat. Das bedeutet, dass du als Autorin oder Autor dein Thema gründlich behandeln musst, indem du alle notwendigen Details und Voraussetzungen erwähnst. Als Autor/in solltest du Leser/innen nur dann auf externe Websites weiterleiten, wenn es in den ZAP Docs keine Dokumentation zu diesem Thema gibt oder wenn es darum geht, dass der/die Nutzer/in zusätzliche Details erfährt, die für deinen Artikel nicht erforderlich sind, aber für den Aufbau seines/ihres Fachwissens nützlich sein können. Externe Links sollten nicht auf Dokumentationen von Wettbewerbern weiterleiten.
+### Praktisch & hilfreich
 
-### Freundlich, formell und umfassend
-
-Wir erwarten, dass unsere Dokumentation zukunftsorientiert und freundlich ist, damit sie für jeden Leser zugänglich ist, aber gleichzeitig formell bleibt. Unser Ziel ist es, dass der Ton unseres Anleitungs für alle Leserinnen und Leser akzeptabel ist, unabhängig von ihrer Erfahrung oder den bestehenden Sprachgrenzen.
+Wenn ein Leser einen Artikel beendet hat, sollte er von Anfang bis Ende etwas gelernt, gebaut oder eingerichtet haben. Unsere Anleitungen zielen darauf ab, Leser aller Erfahrungsstufen zu unterstützen. Daher sollten deine Beiträge das jeweilige Thema umfassend behandeln, um sicherzustellen, dass der Leser etwas lernt und/oder etwas erreicht hat. Das bedeutet, dass du als Verfasser dein Thema gründlich behandeln musst, indem du alle notwendigen Details, einschließlich der Voraussetzungen, erwähnst. Als Verfasser solltest du die Leser nur dann auf externe Websites verweisen, wenn es in der ZAP-Docs keine Dokumentation zu diesem Thema gibt, oder wenn es darum geht, dass der Benutzer zusätzliche Details erfährt, die für deinen Artikel nicht erforderlich sind, aber für den Aufbau seines technischen Wissens von Nutzen sein können. Externe Links sollten nicht auf Dokumentationen von Wettbewerbern verweisen.
 
 
-Da es in diesen Anleitungen in erster Linie darum geht, den Leser zu unterstützen, sich zu bilden und ein Ergebnis zu erzielen, erwarten wir von den Autoren, dass sie in der zweiten Person (z. B. "Du musst...") und nicht in der ersten Person (z. B. "Ich denke...") schreiben, um den Leser bei der Stange zu halten und den Fokus auf ihn zu richten.
+### Freundlich, formal & verständlich
 
-Schließlich müssen alle Schreiber/innen unseren Verhaltenskodex befolgen, um sicherzustellen, dass unsere Anleitungen jeden akzeptieren, unabhängig von Alter, ethnischer Zugehörigkeit, Geschlechtsidentität, Erfahrungsgrad, Nationalität, Religion, politischer Zugehörigkeit, sexueller Orientierung, sozioökonomischem Status oder technologischen Entscheidungen. Du musst jede potenziell beleidigende Sprache und jeden anderen Inhalt vermeiden, der sich auf die oben genannten Themen bezieht.
+Wir erwarten, dass unsere Dokumentation zukunftsorientiert und freundlich ist, damit sie für jeden Leser zugänglich ist, aber gleichzeitig formell bleibt. Wir möchten, dass der Ton unserer Anleitungen für alle Leser akzeptabel ist, unabhängig von ihrer Erfahrung oder bestehenden Sprachbarrieren.
+
+Da diese Anleitungen in erster Linie darauf abzielen, den Leser zu unterstützen und ihm zu ermöglichen, ein Ergebnis zu erzielen, erwarten wir von den Verfassern, dass sie in der zweiten Person (z. B. „ Du musst...“) und nicht in der ersten Person (z. B. „Ich denke...“) schreiben, um den Leser bei der Sache zu halten und den Fokus auf ihn zu richten.
+
+Abschließend müssen alle Verfasser unseren Verhaltensrichtlinien folgen, um sicherzustellen, dass unsere Anleitungen für jeden akzeptabel sind, unabhängig von Alter, ethnischer Zugehörigkeit, Geschlechtsidentität, Erfahrungsgrad, Nationalität, Religion, politischer Zugehörigkeit, sexueller Orientierung, sozioökonomischem Status oder technologischer Wahl. Du musst jede potenziell beleidigende Sprache und jeden anderen Inhalt, der sich auf die oben genannten Themen bezieht, vermeiden.
 
 ## Formatierung
-Unsere Dokumentation ist mit der Markdown-Auszeichnungssprache formatiert, die weit verbreitet und relativ einfach zu verwenden ist. In den folgenden Abschnitten erfährst du, welche Sprache wir verwenden und wie sie genutzt wird.
+
+Unsere Dokumentation ist in der Markdown-Auszeichnungssprache formatiert, die weit verbreitet und relativ einfach zu verwenden ist. In den folgenden Abschnitten erfährst du, welche Sprache wir verwenden und wie sie genutzt wird.
 
 :::tip
 Weitere Beispiele und ausführliche Erklärungen zu den Funktionen von Markdown findest du in der [Markdown Anleitung](https://www.markdownguide.org/cheat-sheet/), die weitere Informationen enthält.
 :::
 
-### Kopfzeilen
+### Überschriften
 
-Überschriften sind eine der wichtigsten Formatierungsoptionen, um die Seiten übersichtlich und logisch zu trennen. Die Hauptüberschrift besteht aus der H1-Überschrift, allerdings solltest du diese nie im Text verwenden. Stattdessen solltest du die Metadaten `title` am Anfang der Anleitung-Datei verwenden, die dafür zuständig sind. 
+Überschriften sind eine der wichtigsten Formatierungsoptionen, um die Seiten übersichtlich und logisch zu trennen. Der Haupttitel besteht aus der H1-Überschrift, die Sie jedoch niemals im Text verwenden sollten. Stattdessen solltest du die Metadaten `title` am Anfang der Anleitung verwenden, die dafür zuständig sind. 
 
-In allen unseren Anleitungen sollten H2-Überschriften verwendet werden, um den Anleitung in seine Hauptabschnitte zu unterteilen. Danach sollten H3-Kopfzeilen verwendet werden, um die Hauptabschnitte in Unterabschnitte zu unterteilen. Das kann zum Beispiel dann sinnvoll sein, wenn ein Hauptabschnitt in mehrere Schritte unterteilt wird, um das Verfolgen der Anleitung zu erleichtern. Schließlich gibt es noch ein H4-Tag, das in unserer Dokumentation seltener verwendet wird, aber demselben Zweck dient, nämlich der Aufteilung in Unterabschnitte, aber nicht speziell in der Struktur der Anleitung angezeigt wird.
+In allen unseren Anleitungen sollten H2-Überschriften verwendet werden, um die Anleitung in ihre Hauptabschnitte zu unterteilen. Anschließend sollten H3-Kopfzeilen verwendet werden, um die Hauptabschnitte in Unterabschnitte zu unterteilen. Ein Beispiel für eine solche Aufteilung ist die Aufteilung eines Hauptabschnitts in mehrere Schritte, um das Verfolgen der Anleitung zu erleichtern. Schließlich gibt es noch ein H4-Tag, das in unserer Dokumentation seltener verwendet wird, aber dem gleichen Zweck der Aufteilung in Unterabschnitte dient, aber nicht speziell in der Anleitungsstruktur angezeigt wird.
 
 :::info
-Wenn du Unterüberschriften verwendest (z. B. H3-Überschriften unter den H2-Hauptüberschriften), stelle bitte sicher, dass es innerhalb des Abschnitts zwei oder mehr Überschriften der gleichen Ebene gibt, da dies sonst eine falsche Verwendung ist.
+Wenn du Unterüberschriften verwendest (z.B. H3-Überschriften unter H2-Hauptüberschriften), vergewissere dich bitte, dass es zwei oder mehr Überschriften der gleichen Ebene innerhalb des Abschnitts gibt, sonst wäre dies eine falsche Verwendung.
 :::
 
 Hier ist ein kurzes Beispiel für die Verwendung von Überschriften:
 
 ```
-## Einrichten von Mods
-H2 Hauptabschnitt Überschrift
+## Installation
+H2 - Hauptabschnitt
 
-### Herunterladen der Mods
-H3 Unterüberschrift
+### Herunterladen von Spieldateien
+H3 - Unterabschnitt von H2
 
-#### Über Steam Workshop
-H4 Zwischenüberschrift
+#### Über SteamCMD
+H4 - Unterabschnitt von H3
 
-#### Manuell über SteamCMD
-H4 subheader
+#### Manuell über GitHub
+H4 - Unterabschnitt von H3
 
-### Die richtige Struktur vorbereiten
-H3 subheader
+### Konfiguration vorbereiten
+H3 - Unterabschnitt von H2
 
-### Installieren der Mods auf deinem Server
-H3 subheader
+### Server starten
+H3 - Unterabschnitt von H2
 ```
 
-### Inline-Markdown
+### Inline markdown
 
-Wir verwenden eine Reihe von Inline-Formatierungen, um die Lesbarkeit unserer Anleitungen zu verbessern und Leser mit unterschiedlichen technischen Kenntnissen anzusprechen. Lies dir den folgenden Abschnitt durch, um zu verstehen, wie die einzelnen Formatierungen verwendet werden.
+Wir verwenden eine Reihe von Inline-Formatierungen, um die Lesbarkeit unserer Docs-Beiträge zu verbessern und Leser mit unterschiedlichen technischen Kenntnissen anzusprechen. Bitte lese den folgenden Abschnitt durch, um die Verwendung der einzelnen Formatierungen zu verstehen.
+
 
 #### Fettgedruckter Text
 
-Fett gedruckter Text wird hauptsächlich verwendet, um Informationen hervorzuheben. Beispiele hierfür sind:
+Der Hauptverwendungszweck von fettgedrucktem Text ist die Hervorhebung von Informationen. Beispiele hierfür sind:
 
-- Wechsel des Kontexts zwischen den Schritten
-- Hostnamen, Anmeldedaten und Benutzernamen
+- Änderung des Kontexts zwischen den Schritten
+- Hostnamen, Berechtigungsnachweise und Benutzernamen
 - Wichtige Terminologie
 
-Du kannst einfach ein doppeltes Sternchen außerhalb des Zieltextes verwenden, um den Text fett zu machen, z. B. `**Hallo dort**` ergibt **Hallo dort**.
+Du kannst einfach ein doppeltes Sternchen außerhalb des Zieltextes verwenden, um den Text fett zu machen, z. B. ergibt `**Hallo dort**` **Hallo dort**.
 
 #### Kursivschrift
 
-Kursivschrift wird in erster Linie verwendet, um neue technische Schlüsselwörter in deiner Anleitung einzuführen. Zum Beispiel werden wir heute einen *Reverse Proxy* einrichten.
+Die kursive Schrift dient in erster Linie dazu, neue technische Schlüsselwörter in deinem Beitrag einzuführen. Zum Beispiel: Wir werden heute einen *Reverse Proxy* einrichten.
 
-Um Kursivschrift zu verwenden, musst du einfach ein einzelnes Sternchen außerhalb des Zieltextes setzen, z.B. `*ZAP-Hosting - More POWER!*` ergibt *ZAP-Hosting - More Power!*.
+Um Kursivschrift zu verwenden, musst du einfach ein einzelnes Sternchen außerhalb des Zieltextes platzieren, z. B. `*ZAP-Hosting - More POWER!*` ergibt *ZAP-Hosting - More Power!*.
 
-#### In-line Code
+#### Inline code
 
-Die Formatierung von Inline-Code wird vor allem verwendet, um technischere Informationen wie URLs anzuzeigen. Eine umfangreichere Liste von Beispielen umfasst:
+Die Inline-Code-Formatierung wird in erster Linie zur Anzeige technischer Informationen wie URLs verwendet. Eine umfangreichere Liste von Beispielen umfasst:
 
-- Dateinamen und Pfade (z. B. `C:/Benutzer/[IhrName]/AppData....test.png`)
-- URLs (z.B. `https://zap-hosting.com`)
-- Ports (z.B. `:30120`)
+- Dateinamen und -pfade (z. B. `C:/Benutzer/[IhrName]/AppData....test.png`)
+- URLs (z. B. `https://zap-hosting.com`)
+- Ports (z. B. `:30120`)
 - Befehle (z.B. `ipconfig`)
 - SQL-Abfragen (z. B. `SELECT * FROM servers`)
 - Tastenkombinationen und Tastendrücke (z.B. `ENTER` oder `CTRL + C`)
 
 #### Tabellen
 
-Eine weitere nützliche Funktion von Markdown sind Tabellen. Diese können besonders nützlich sein, wenn du eine große Menge an sich wiederholenden Informationen anzeigen musst, z. B. die Befehle, Beschreibungen und Verwendungen, die in einem Spiel verfügbar sind. Im Folgenden findest du ein Beispiel für die Verwendung von Tabellen:
+Eine weitere nützliche Funktion von Markdown sind Tabellen. Diese können besonders nützlich sein, wenn du eine große Menge an sich wiederholenden Informationen anzeigen musst, zum Beispiel die Befehle, Beschreibungen und Verwendungen, die in einem Spiel verfügbar sind. Nachfolgend ein Beispiel für die Verwendung von Tabellen:
 
 ```
 | Befehl | Beschreibung | Verwendung |
 | ----------- | ------------------------ | --------------------- |
-| /help | Sendet einen Hilfebefehl | /help [Kategorie] |
+| /help | Sendet Hilfebefehl | /help [Kategorie] |
 | /stop | Stoppt den Server | /stop [true/false] |
 ```
 
-#### Codeblöcke
+#### Code-Blöcke
 
-Ein weiteres sehr nützliches Markdown-Formatierungstool sind Codeblöcke. Sie eignen sich besonders für Anleitungen, in denen Befehle, Skripte, Terminalausgaben und mehr verwendet werden. 
+Ein weiteres sehr nützliches Markdown-Formatierungstool sind Codeblöcke. Diese sind besonders nützlich für Anleitungen, die die Verwendung von Befehlen, Skripten, Terminalausgaben und mehr beinhalten. 
 
-Um einen Codeblock zu verwenden, setzt du einfach ` ``` ` außerhalb des Textblocks ein, den du in einen Block einfügen möchtest. Du kannst auch die Sprache neben dem ersten Satz von dreifachen Anführungszeichen angeben, um die Programmiersprache richtig zu formatieren. Nachfolgend ein Beispiel für die Verwendung von Codeblöcken unter Verwendung von ` ```js ` für die Sprache JavaScript.
+Um einen Codeblock zu verwenden, setze einfach das Zeichen `` ```` außerhalb des Textblocks ein, den du in einen Block setzen möchtest. Du kannst auch die Sprache neben dem ersten Satz von dreifachen Anführungszeichen angeben, um die Programmiersprache richtig zu formatieren. Nachfolgend ein Beispiel für die Verwendung von Codeblöcken unter Verwendung von ```js` für die Sprache JavaScript.
+
 
 ```js
-function hello(name) {
+function hallo(name) {
     console.log(name)
 }
 
@@ -211,81 +239,80 @@ var server = "ZAP-Hosting"
 hallo(server)
 ```
 
-### Verwendung von Ermahnungen
+### Nutzung von Admonitions
 
-Innerhalb deines Inhalts kannst du eine Ermahnung verwenden, um bestimmte Informationen unter einem der 5 möglichen Labels hervorzuheben, die im Folgenden erläutert werden.
+Innerhalb deines Inhalts kannst du entscheiden, eine Admonition zu verwenden, um bestimmte Informationen unter einer der 5 möglichen Bezeichnungen hervorzuheben, die im Folgenden erläutert werden.
 
-Die Syntax für die Verwendung jeder Ermahnung ist dieselbe: Ersetze das Schlüsselwort durch den Typ, den du verwenden möchtest. Hier ist ein Beispiel für die Verwendung:
+Die Syntax für die Verwendung jeder Admonition ist dieselbe: Ersetze das Schlüsselwort durch den Typ, den du verwenden möchtest. Hier ist ein Beispiel für die Verwendung:
 
 ```
 :::note
-Dies ist eine Notiz!
-Ersetze das obige Schlüsselwort, um den Typ zu ändern.
+Dies ist eine Notiz! Ersetze das obige Schlüsselwort, um den Typ zu ändern.
+:::
 ```
 
-#### Notiz
+#### Note
 
-:::note
+:::note Notiz Titel! (Optional)
 Du solltest dieses Tag verwenden, um zusätzliche Notizen anzuzeigen, die zwar nützlich, aber nicht direkt wichtig sind.
 :::
 
-#### Tipp
+#### Tip
 
-:::tip
-In diesem Tag kannst du alle Tipps eintragen, die du aus Erfahrung kennst.
+:::tip Tipp Titel! (Optional)
+Füge alle Tipps, die du aus Erfahrung hast, in dieses Feld ein.
 :::
 
 #### Info
 
-:::info
-Wenn es wichtige Informationen gibt, die der/die Nutzer/in wissen sollte, füge sie in diesen Tag ein.
+:::info Info Titel! (Optional)
+Wenn es wichtige Informationen gibt, die der Benutzer wissen sollte, platzieren diese in diesem Tag.
 :::
 
-#### Warnung
+#### Caution
 
-:::caution
-Gibt es in deiner Anleitung etwas, wovor der/die Nutzer/in gewarnt werden sollte und wovor er/sie sich in Acht nehmen sollte, während er/sie dem Anleitung folgt? Verwende dieses Tag, um es hervorzuheben.
+:::caution Achtung Titel! (Optional)
+Gibt es in deiner Anleitung etwas, wovor der Benutzer gewarnt werden sollte und worauf er achten sollte, wenn er der Anleitung folgt? Dann verwende diesen Tag, um es hervorzuheben.
 :::
 
-#### Gefahr
+#### Danger
 
-:::danger
-Du solltest die Gefahrenwarnung verwenden, wenn wichtige Informationen hervorgehoben werden müssen. Vor allem solltest du damit auf bekannte Fehler oder veraltete Funktionen aufmerksam machen.
+:::danger Gefahrentitel! (Optional)
+Du solltest die Gefahrenwarnung verwenden, wenn wichtige Informationen hervorgehoben werden müssen. Insbesondere sollte dies verwendet werden, um den Benutzer auf bekannte Fehler oder veraltete Funktionen aufmerksam zu machen.
 :::
 
 ### Screenshots
 
-Screenshots sind eine äußerst nützliche Methode, um die Leser/innen visuell durch die Schritte zu führen, und wir empfehlen, diese zu verwenden, wo es angebracht ist.
+Screenshots sind eine äußerst nützliche Methode, um die Leser visuell durch die Schritte zu führen und wir empfehlen diese unbedingt zu verwenden, wo es angebracht ist.
 
-Um dem deutschen Abschnitt gerecht zu werden, erwarten wir von dir, dass du bei der Erstellung eines Screenshots sowohl eine englische als auch eine deutsche Version hinzufügst, um sicherzustellen, dass die Screenshots einheitlich sind. In deiner Anleitung kannst du sie direkt nebeneinander platzieren. Die deutschen Screenshots werden entfernt und verwendet, sobald das ZAP Docs Team deinen Beitrage übersetzt hat.
+Um den deutschen Abschnitt zu berücksichtigen, erwarten wir, dass du beim Erstellen eines Screenshots sowohl eine englische als auch eine deutsche Version hinzufügst, um sicherzustellen, dass die Screenshots konsistent sind. In deiner Anleitung kannst du sie direkt hintereinander platzieren. Die deutschen Screenshots werden entfernt und verwendet, sobald das ZAP-Docs-Team deinen Beitrag übersetzt hat.
 
-
-Du kannst die folgende Syntax verwenden, um einen Screenshot zu deinem Inhalt hinzuzufügen. Ersetze dabei `Deine_Url` durch die URL des Bildes:
+Du kannst die folgende Syntax verwenden, um einen Screenshot zu deinem Inhalt hinzuzufügen, indem du „deine_url“ durch die URL des Bildes ersetzt:
 ```
-![Bild](Deine_Url)
+![]( deine_url)
 ```
 
-Am besten verwendest du eine Website wie Imgur, um das Bild hochzuladen und zu verwenden. Alternativ kannst du es auch direkt in das Bearbeitungsfeld ziehen, wenn du die GitHub-Website zum Erstellen deiner Inhalte nutzt, um es automatisch für dich hochzuladen.
+Am besten verwendest du eine Website wie Imgur, um das Bild hochzuladen und zu verwenden. Alternativ kannst du es auch direkt in das Bearbeitungsfeld ziehen, wenn du die GitHub-Website zum Erstellen deiner Inhalte verwendest, um es automatisch für dich hochzuladen.
 
 ## Terminologie
 
-In der gesamten Dokumentation wird eine Vielzahl von Fachbegriffen verwendet. Wir erwarten von dir, dass du in der gesamten Dokumentation die US-englische Schreibweise verwendest, um die Konsistenz aller Anleitungen zu gewährleisten. In diesem Abschnitt versuchen wir, einige der wahrscheinlich häufig verwendeten Begriffe zu vereinheitlichen.
+Bei unseren Dokumentation  wird eine breite Palette von Schlüsselbegriffen verwendet. Wir erwarten von dir, dass du in deinem Blogbeitrag die US-englische, lokalisierte Schreibweise verwendest, um die Konsistenz in allen unseren Blogbeiträgen zu gewährleisten. In diesem Abschnitt möchten wir einige der wahrscheinlich am häufigsten verwendeten Begriffe vereinheitlichen.
+
 
 ### ZAP-Hosting Produkte
 
-Wenn du dich auf ein ZAP-Hosting-Produkt beziehst, solltest du immer sicherstellen, dass der richtige Name, die richtige Schreibweise und die richtige Großschreibung verwendet werden. Du kannst dies überprüfen, indem du auf die [ZAP-Hosting-Website](https://zap-hosting.com) gehst und nachschaust, wie das Produkt auf der entsprechenden Produktseite referenziert wird.
+Wenn du dich auf ein ZAP-Hosting Produkt beziehst, solltest du immer sicherstellen, dass der richtige Name, die richtige Schreibweise und die richtige Großschreibung verwendet werden. Um dies zu überprüfen, gehe auf die [ZAP-Hosting-Website](https://zap-hosting.com) und schaue nach, wie das Produkt auf der entsprechenden Produktseite genannt wird.
 
 ### Benutzerdefinierte Attribute
 
-In den meisten Anleitungen werden Konfigurationsoptionen für Elemente wie Benutzer, Hostnamen, Domänen, IP-Adressen und URLs benötigt, bei denen der Leser seine eigenen Angaben anstelle unserer Platzhalter verwenden muss.
+In einigen Anleitungen können Konfigurationsoptionen für Elemente wie Benutzer, Hostnamen, Domänen, IP-Adressen und URLs erforderlich sein, wobei der Leser seine eigenen Angaben anstelle unserer Platzhalter verwenden muss.
 
-Standardmäßig solltest du immer `[dein_Attribut]` verwenden, um zwischen statischen Elementen und eindeutigen Elementen zu unterscheiden, wobei `Attribut` durch den Typ des Attributs ersetzt werden sollte. Wenn du zum Beispiel eine IP-Adresse angibst, solltest du in deiner Anleitung `[your_server_ip]` angeben, oder wenn du eine URL angibst, solltest du `http://[your_server_ip]:30120` angeben. Dadurch werden die Attribute, die der Leser aufgrund seiner eigenen Konfiguration ändern muss, klar unterschieden. Um sicherzustellen, dass alles verstanden wird, solltest du bei der ersten Erwähnung der Anleitung eine Erklärung oder einen Hinweis darauf geben, welche Attribute sie ändern müssen.
+Standardmäßig solltest du immer `[dein_Attribut]` verwenden, um zwischen statischen Elementen und eindeutigen Elementen zu unterscheiden, wobei `[Attribut]` durch die Art des Attributs ersetzt werden sollte. Wenn du zum Beispiel eine IP-Adresse nennst, solltest du `[deine_server_ip]` in deinem Blogpost angeben, oder wenn du eine URL nennst, solltest du `http://[deine_server_ip]:30120` angeben. Dadurch werden die Attribute, die der Leser aufgrund seiner eigenen Konfiguration ändern muss, klar unterschieden. Außerdem solltest du dem Leser bei der ersten Erwähnung des Blogposts eine Erklärung oder einen Hinweis geben, welche Attribute er ändern muss, um sicherzustellen, dass alles verstanden wird.
 
 Du solltest `zaphosting` als Standard-Hostname, -Benutzername oder -Datenbankname verwenden.
 
 ### Software
 
-Wenn du Software in deiner Anleitung erwähnst, solltest du darauf achten, dass du die korrekte Schreibweise und Großschreibung des Namens der Software beachtest. Wenn die Software-Website die Groß- und Kleinschreibung nicht beibehält, solltest du die gleiche Groß- und Kleinschreibung in einer Anleitung verwenden, um die Konsistenz zu wahren.
+Wenn du in deiner Anleitung Software erwähnst, solltest du sicherstellen, dass du die korrekte Schreibweise und Großschreibung für den Namen der Software einhältst. Wenn die Software-Website die Groß- und Kleinschreibung nicht einheitlich handhabt, solltest du darauf achten, dass du innerhalb eines Artikels dieselbe Groß- und Kleinschreibung verwendest, um die Konsistenz zu wahren.
 
-
-Wenn du die Software zum ersten Mal erwähnst, solltest du einen Hyperlink auf die Website der Software setzen, sofern eine offizielle Website vorhanden ist.
+Wenn du die Software zum ersten Mal erwähnst, solltest du einen Hyperlink zur Website der Software setzen, sofern eine offizielle Website vorhanden ist.
