@@ -16,8 +16,6 @@ Ressourcen können verwendet werden, um deinen FiveM Server um zusätzliche Funk
 
 FiveM beziehungsweise dessen Community bietet hierbei eine große Auswahl an Ressourcen an. Eine Übersicht mit den beliebtesten Ressourcen findest du im Cfx.re Forum: https://forum.cfx.re/c/development/releases/7
 
-<YouTube videoId="V7us5V6KLho" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/pz2oDYMS7ERAdSs/preview" title="How to Add Resources to a FiveM Server" description="Hast du das Gefühl, dass du etwas besser verstehst, wenn du es in Aktion siehst? Wir haben etwas für dich! Tauche ab in unser Video, welches alles für dich zusammenfasst. Egal, ob du es eilig hast oder einfach nur Informationen auf möglichst verständliche Art und Weise aufnehmen möchtest!"/>
-
 <InlineVoucher />
 
 ## Vorbereitung
@@ -35,18 +33,9 @@ Falls diese Dateien nicht vorhanden sind, kann es sein, dass sie sich in einem U
 
 ### Dateien hochladen
 
-Du musst nun die zuvor unkomprimierten Dateien als einen einzelnen Ordner hochladen (falls noch nicht geschehen). Dein Ordner muss in das `Ressource`-Verzeichnis des Servers hochgeladen werden.
+Du musst nun die zuvor unkomprimierten Dateien als einen einzelnen Ordner hochladen (falls noch nicht geschehen). Dein Ordner muss in das `Ressource`-Verzeichnis des Servers hochgeladen werden. Die Verzeichnisstruktur sieht normalerweise wie folgt aus: `/gXXXXXX/fivem/DEIN_FRAMEWORK/resources`
 
-![](https://github.com/zaphosting/docs/assets/42719082/85a508ac-fd43-401f-9fc6-cffd538e34f0)
-
-Die Verzeichnisstruktur sieht normalerweise wie folgt aus:
-```
-/gXXXXXX/gta5-fivem/server-data/resources
-```
-
-:::info
-Die Verzeichnisstruktur des FiveM TxAdmin Gameservers unterscheidet sich von den übrigen FiveM Produkten, da diese ein eigenes Template-Verzeichnis enthalten. Die Ressourcen befinden sich ebenfalls im Template-Verzeichnis.
-:::
+![img](https://screensaver01.zap-hosting.com/index.php/s/9ZEX32BSrwGDjEc/preview)
 
 Bestimmte Ressourcen kooperieren mit einer Datenbank und enthalten daher oft bereits SQL-Dateien, die in die Datenbank importiert werden müssen. Wenn dies der Fall ist, dann lese unsere Anleitung [SQL-Datei importieren](fivem-sql-file-import.md), um mehr darüber zu erfahren, wie du dies tun kannst.
 
@@ -59,11 +48,16 @@ Wenn du zum Beispiel die Ressource mit dem Ordnernamen `eup-ui` hochgeladen hast
 start eup-ui
 ```
 
-Du kannst auf deine "server.cfg"-Datei entweder per FTP (siehe oben) oder über den Abschnitt **Configs** im Webinterface deines Gameservers zugreifen.
+Du kannst auf deine `server.cfg` Konfigurationsdatei über den CFG Editor im txAdmin interface zugreifen.
 
 :::info
 Bitte vergewissern dich, dass der Name des zuvor erstellten Ordners mit dem Namen übereinstimmt, der im Startbefehl angegeben ist. Dabei ist auch die Groß- und Kleinschreibung zu beachten.
 :::
 
-Abschließend kannst du deinen Server neu starten. Die installierte Ressource sollte nun geladen werden, wenn dein Server das nächste Mal vollständig gestartet ist. Du hast erfolgreich eine Ressource auf deinem FiveM Gameserver installiert!
 
+
+
+
+## Abschluss
+
+Abschließend kannst du deinen Server neu starten. Die installierte Ressource sollte nun geladen werden, wenn dein Server das nächste Mal vollständig gestartet ist. Du hast erfolgreich eine Ressource auf deinem FiveM Gameserver installiert.  Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
