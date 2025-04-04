@@ -9,6 +9,16 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
+
+
+:::warning Archivierte Anleitung
+Dieses Dokument wurde archiviert. Dokumente werden archiviert, wenn sie nicht mehr relevant, nicht mehr korrekt oder nicht mehr auf dem neuesten Stand sind. Es wurde aus den folgenden Gründen archiviert:
+
+**Grund**: Verschiedene FiveM-Varianten existieren nicht mehr. Alle bestehenden Pakete wurden zu einem einzigen zusammengeführt, das unter dem Namen **FiveM** verwaltet wird. 
+::::
+
+
+
 <InlineVoucher />
 
 ## Der Wechsel zwischen FiveM-Versionen

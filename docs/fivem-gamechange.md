@@ -9,6 +9,16 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
+
+
+:::warning Archived Guide
+This document has been archived. Documents are archived if they are no longer relevant, incorrect or up to date. It has been archived for the following reasons:
+
+**Reason**: Different FiveM variants no longer exist. All existing packages have been merged into one, which is managed under the name **FiveM**. 
+::::
+
+
+
 <InlineVoucher />
 
 ## Changing your FiveM Version
