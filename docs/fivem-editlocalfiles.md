@@ -23,11 +23,11 @@ Would you like to change the language variables of a resource or add further lan
 
 The locale files must be edited using an FTP client. If you are new to using FTP, we recommend reading the [FTP access](gameserver-ftpaccess.md) guide first. Once you are connected, navigate to the ESX resource directory of the resource you want to edit. Open the locales directory in the resource directory. 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/3ACw8DJ5MpetEw6/download)
+![img](https://screensaver01.zap-hosting.com/index.php/s/wZmADsGGNzEseH4/download)
 
 Within the locales directory you will find all language files that exist for this resource. From here you can either edit an existing one or copy an existing one with a new name for a new language, which you can then edit. 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/qfCxXFidseoqLAs/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/5GxWeFRZSxRDn3w/preview)
 
 ## Edit Locales File
 
