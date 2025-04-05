@@ -22,7 +22,7 @@ txAdmin is a completely free to use, full-featured web panel to Manage & Monitor
 
 You can find a link and the access data to access txAdmin in the txAdmin area of your game server's dashboard. This gives you the information you need to easily access the txAdmin interface and start setting it up.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/wzcQqB3MY7k28rZ/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/69LdTK3FyNZNXid/download)
 
 Copy the information for the user name and password and click on the link (IP address:port) to access the txAdmin interface and log in. The txAdmin interface will then open in a new window, where you have to log in with the given access data. 
 
@@ -64,9 +64,9 @@ Popular Templates are pre-made packages that can be used immediately, making thi
 
 ### Existing Server Data
 
-You should use this option if you have already operated a server with txAdmin and now wish to host it with us. In this case, you can simply upload the server data via FTP and specify the path during the setup process. If you're not yet familiar with how to use FTP in general, it would be worthwhile to take a look at our [Access via FTP](gameserver-ftpaccess.md) guide. This guide will walk you through the steps to ensure a smooth transfer of your server files, allowing you to get your server up and running quickly on our platform.
+You should use this option if you have already operated a server with txAdmin and now wish to host it with us. In this case, you can simply upload the server data via FTP and specify the path during the setup process. If you're not yet familiar with how to use FTP in general, it would be worthwhile to take a look at our [FTP access](gameserver-ftpaccess.md) guide. This guide will walk you through the steps to ensure a smooth transfer of your server files, allowing you to get your server up and running quickly on our platform.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/DJtoBPqmBLSDdXZ/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/KS4raRtHWmmw5iN/preview)
 
 
 

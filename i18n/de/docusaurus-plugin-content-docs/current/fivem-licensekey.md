@@ -45,26 +45,12 @@ In der Tabelle sollte nun ein neuer Eintrag mit einem Schlüssel erscheinen, den
 
 ## Schlüssel zum Server hinzufügen
 
-Nachdem du den Lizenzschlüssel vorbereitet hast, musst du nun den bestehenden Lizenzschlüssel auf deinem FiveM Gameserver anpassen und durch den neu erstellten Schlüssel ersetzen. Wenn du die Spielversion **txAdmin FiveM** verwendest, solltest du den Abschnitt [dedicated txAdmin](#txadmin-fivem-version) verwenden, da die Anweisungen etwas anders sind.
-
-### Allgemeine FiveM Server
-
-Der einfachste Weg, einen eigenen Lizenzschlüssel festzulegen, ist der Abschnitt **Einstellungen** in der Weboberfläche. Du könntest die Datei `server.cfg` auch manuell per FTP oder über den Bereich **Configs** im Webinterface anpassen, aber wir empfehlen dir die einfachere Variante und stellen sie daher im Folgenden vor.
-
-Rufe das Webinterface deines FiveM-Spielservers auf und gehe zum Abschnitt **Einstellungen** auf der linken Seite. Durchsuche die Seite und finde das Feld **Benutzerdefinierter Lizenzschlüssel**. Gib deinen benutzerdefinierten Lizenzschlüssel dort ein und bestätige die Änderungen mit einem Klick auf den grünen Speichern-Button.
-
-![](https://screensaver01.zap-hosting.com/index.php/s/8SAf9yD4ztbEbZz/preview)
-
-### txAdmin FiveM Version
-
-Für Leser, die die Spielversion **FiveM: txAdmin** verwenden, musst du auf das txAdmin-Panel deines FiveM-Spielservers zugreifen, um die notwendigen Anpassungen vorzunehmen. Dieses findest du auf dem Dashboard der Weboberfläche deines Spieleservers. Verwende die Anmeldedaten auf der Seite, um dich in das Panel einzuloggen.
-
-![](https://screensaver01.zap-hosting.com/index.php/s/2Rjx8sCFG6eteMD/preview)
-
-Auf der txAdmin-Oberfläche navigierst du zum **CFG-Editor** auf der linken Seite, um auf die Datei `server.cfg` zuzugreifen. Suche im Editor die Zeile mit dem Parameter `sv_licensekey` und füge dort deinen eigenen Lizenzschlüssel ein. Klicke anschließend auf den Button Speichern, um die Änderungen zu speichern.
+Nachdem du den Lizenzschlüssel vorbereitet hast, musst du nun den bestehenden Lizenzschlüssel auf deinem FiveM Gameserver anpassen und durch den neu erstellten Schlüssel ersetzen. Sobald du dich in der txAdmin-Oberfläche befindest, navigierst du zum **CFG-Editor** auf der linken Seite, um auf die Datei `server.cfg` zuzugreifen. Suche im Editor die Zeile mit dem Parameter `sv_licensekey` und füge dort deinen eigenen Lizenzschlüssel ein. Klicke anschließend auf den Button Speichern, um die Änderungen zu speichern.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/2E8j9jtykcjwF7L/preview)
 
-## Fazit
 
-Nachdem du den benutzerdefinierten Lizenzschlüssel eingerichtet hast, starte deinen Server neu, um ihn zu nutzen. Du hast erfolgreich einen benutzerdefinierten Lizenzschlüssel zu deinem FiveM Gameserver hinzugefügt.
+
+## Abschluss
+
+Nachdem du den benutzerdefinierten Lizenzschlüssel eingerichtet hast, starte deinen Server neu, um ihn zu nutzen. Du hast erfolgreich einen benutzerdefinierten Lizenzschlüssel zu deinem FiveM Gameserver hinzugefügt. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂

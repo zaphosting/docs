@@ -23,13 +23,15 @@ Die Konfiguration der Flagge und Sprache des Servers erfolgt über die Locales O
 
 
 
-## Schritt 1 - Server Konfigurationsdatei aufrufen
+### Server Konfigurationsdatei aufrufen
 
-Die Server Konfigurationsdatei (server.cfg) kann in der Gameserver Verwaltung unter Configs aufgerufen werden. Bei FiveM Server mit der Verwendung von txAdmin besteht ebenfalls die Möglichkeit diese direkt in TxAdmin aufzurufen.
+Die Server Konfigurationsdatei `server.cfg` kann in der txAdmin Verwaltung unter `CFG- Editor` aufgerufen werden.
+
+![img](https://screensaver01.zap-hosting.com/index.php/s/qDsN5ggCjaaJLS5/preview)
 
 
 
-## Schritt 2 - Locale-/Sprachcode für deine Sprache suchen
+### Locale-/Sprachcode für deine Sprache suchen
 
 Die Definition der Sprache/Anzeige erfolgt über die Locales (Sprachcodes/Ländercodes) basierend auf den Normen ISO 639-1/ISO 3166-1. Im folgenden haben wir eine kleine Auflistung der relevantesten Länder/Sprachen verfasst. Die tatsächliche Liste natürlich deutlich größer:
 
@@ -56,7 +58,7 @@ Die Anzeige der Serverflagge wird prinzipiell von allen verfügbaren Ländern un
 
 
 
-## Schritt 3 - Inhalt der  Server Konfigurationsdatei anpassen
+### Inhalt der  Server Konfigurationsdatei anpassen
 
 Nachdem die Konfigurationsdatei aufgerufen und du dich um die Locale-/Sprachcode gekümmert hast, kann nun die Konfiguration vorgenommen werden.  Zunächst muss geprüft werden, ob der **sets locale** Befehl bereits vorhanden ist. Falls nicht sieht der Eintrag dafür wie folgt aus:
 
@@ -70,7 +72,6 @@ sets locale "root-AQ"
 Der Wert vom **sets-locale** Befehl hat standardmäßig den **root-AQ** Wert. Dieser muss nun angepasst werden. Wenn du beispielsweise die USA als Flagge und Englisch als Sprache verwenden möchtest, dann würdest du in diesem Fall **en_US** als Wert verwenden. Speichere die vorgenommene Änderung. 
 
 
+## Abschluss
 
-## Schritt 4 - Server neu starten und testen
-
-Als letztes muss der Server noch einmal neu gestartet werden, damit die Änderung übernommen wird. Im Anschluss kannst du die Serverliste in deinem FiveM Client neuladen und solltest die vorgenommene Änderung sehen. :)
+Als letztes muss der Server noch einmal neu gestartet werden, damit die Änderung übernommen wird. Im Anschluss kannst du die Serverliste in deinem FiveM Client neuladen und solltest die vorgenommene Änderung sehen. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂

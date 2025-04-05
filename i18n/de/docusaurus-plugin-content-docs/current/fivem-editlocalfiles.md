@@ -22,11 +22,11 @@ Möchtest du die Sprachvariablen einer Ressource ändern oder der Ressource weit
 ## Locales Files finden
 Die Locale-Dateien müssen mit einem FTP-Client bearbeitet werden. Wenn die Nutzung von FTP für dich neu ist, empfehlen wir dir, zuerst die [FTP- Zugriff](gameserver-ftpaccess.md) Anleitung zu lesen. Sobald du verbunden bist, navigiere zum Verzeichnis der ESX-Ressource, die du bearbeiten möchtest. Öffne das Verzeichnis locales im Ressourcenverzeichnis.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/3ACw8DJ5MpetEw6/download)
+![img](https://screensaver01.zap-hosting.com/index.php/s/wZmADsGGNzEseH4/download)
 
 In dem Verzeichnis locales findest du alle Sprachdateien, die für diese Ressource existieren. Von hier aus kannst du entweder eine bestehende Datei bearbeiten oder eine bestehende Datei mit einem neuen Namen für eine neue Sprache kopieren, die du dann bearbeiten kannst.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/qfCxXFidseoqLAs/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/5GxWeFRZSxRDn3w/preview)
 
 
 

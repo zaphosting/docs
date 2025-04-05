@@ -16,7 +16,7 @@ Du bist an einem **FIVE: FiveM Server** interessiert oder besitzt bereits einen,
 
 Nachdem du diese Anleitung durchgegangen bist, wirst du problemlos in der Lage sein, deinen Server effizient zu verwalten und alle erforderlichen Optionen sowie Features zügig und unkompliziert zu finden. Hier erhältst du einen strukturierten Überblick, der dir Schritt für Schritt hilft, dich mit der Serververwaltung vertraut zu machen und dein Wissen gezielt zu erweitern. So kannst du sicherstellen, dass dein **FIVE: FiveM Server** optimal auf deine Bedürfnisse abgestimmt ist und du das Beste aus den vorhandenen Möglichkeiten herausholst.
 
-<YouTube videoId="" title="Setup FiveM server in just a MINUTE!" description="Hast du das Gefühl, dass du etwas besser verstehst, wenn du es in Aktion siehst? Wir haben etwas für dich! Tauche ab in unser Video, welches alles für dich zusammenfasst. Egal, ob du es eilig hast oder einfach nur Informationen auf möglichst verständliche Art und Weise aufnehmen möchtest!"/>
+
 
 <InlineVoucher />
 
@@ -31,7 +31,7 @@ In dem Abschnitt **Produkt Administration** wirst du alle notwendigen Seiten fin
 
 Das **Dashboard** deines Servers stellt das Herzstück für die Verwaltung dar. Hier werden alle grundlegenden und essenziellen Informationen zu deinem Dienst übersichtlich präsentiert. Dazu zählen beispielsweise Angaben zum Standort, Status, IP:Port, genutzter Speicherplatz, aktuell laufendes Spiel, Servername, Karte und die Anzahl der verfügbaren Slots. Zudem werden auch die Auslastungen der CPU, des Arbeitsspeichers und des RAM dargestellt.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SbJS6PL6pwfCjSr/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/LkTsWz9fRG4gPxQ/preview)
 
 Im Dashboard hast du außerdem die Möglichkeit, deinen Dienst zu starten, zu stoppen oder neu zu starten, um so die volle Kontrolle über dessen Betrieb zu haben. Weiterhin kannst du die Live-Konsole aufrufen, um Echtzeitinformationen über den Serverzustand zu erhalten und gegebenenfalls direkte Eingriffe vorzunehmen.
 
@@ -138,15 +138,6 @@ In dem Abschnitt **Einstellungen** wirst du alle notwendigen Seiten finden, die 
 
 Unter den Einstellungen findest du eine Übersicht der gängingsten Einstellungsoptionen zu deinem Server. Diese beinhalten ebenfalls jeweils eine kurze Erläutern. Die Nutzung der Einstellungsseite ist gerade für Neulinge in der Serververwaltung empfehlenswert. 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/ymWyNMMmRS2iojG/preview)
-
-Hier kannst du beispielsweise folgende Anpassungen vornehmen: 
-
-- Basiseinstellungen (Servername, Projekt-Name, Projekt-Beschreibung, Admins, usw.)
-- EasyAdmin (Sprache, Menü Button, Discord Webhook, Report und Admin Befehls)
-- FiveM(Koordinaten Anzeigen, Player vs. Player (PVP))
-- Loading Screen (Youtube Video ID)
-
 Solltest du dir doch mehr zutrauen und präzisere Änderungen vornehmen wollen, so empfehlen wir stattdessen den Config-Editor zu verwenden. Mehr dazu findest du unter der Kategorie **Configs**.
 
 
@@ -178,16 +169,6 @@ Unter **Versionen** hast du die Möglichkeit, die aktuelle Version deines Spiels
 ![](https://screensaver01.zap-hosting.com/index.php/s/Sn83EpMxw7CDcDz/preview)
 
 Darüber hinaus kannst du auch die E-Mail-Benachrichtigungsfunktion für automatische Updates aktivieren, um dich über Aktualisierungen zu informieren und sicherzustellen, dass du immer auf dem neuesten Stand bist. 
-
-
-
-### Ressources
-
-Für dieses Spiel bieten wir unter **Ressources** die Möglichkeit, bekannte und beliebte Ressources mit nur einem Klick einfach zu installieren. In der Übersicht findest du eine Auswahl der verfügbaren Inhalte, die du durch Betätigen des Installationsbuttons hinzufügen kannst. Nach einem Neustart des Servers werden diese Ressourcen installiert, aktiviert und stehen dir zur Verfügung.
-
-![](https://screensaver01.zap-hosting.com/index.php/s/4HM49T33EmL5dZq/preview)
-
-Durch die Nutzung dieser Funktion kannst du deinen Gameserver schnell und unkompliziert Inhalten erweitern, ohne selbständig Anpassungen vornehmen zu müssen. Dies spart Zeit und reduziert das Risiko von Fehlern oder Kompatibilitätsproblemen.
 
 
 

@@ -16,7 +16,7 @@ You are interested in an **FIVE: FiveM server** or already own one, but you stil
 
 After going through this guide, you will easily be able to manage your server efficiently and find all the necessary options and features quickly and easily. Here, you will get a structured overview that will help you step by step to get familiar with the server administration and expand your knowledge in a targeted manner. This way, you can ensure that your **FIVE: FiveM server** is optimally adapted to your needs and that you get the most out of the available options.
 
-<YouTube videoId="HHu-N50uaRQ" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/pffSHNBHrS6o3wk/preview" title="Setup FiveM server in just a MINUTE!" description="Feel like you understand better when you see things in action? We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
+
 
 <InlineVoucher />
 
@@ -30,7 +30,7 @@ In the **Product Administration** section, you will find all the necessary pages
 
 The **Dashboard** of your server is the heart of the administration. All basic and essential information about your service is clearly presented here. This includes, for example, information about the location, status, IP: Port, used memory, game in progress, server name, map and the number of available slots. In addition, the utilization of the CPU, memory and RAM is also displayed.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/r5MiCoDZqNTcGXf/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/yRMWxYtmWF7Xwxe/preview)
 
 In the dashboard you also have the option of starting, stopping or restarting your service, to have full control over its operation. Furthermore, you can access the live console to get real-time information about the server's state and take direct action if necessary.
 
@@ -133,15 +133,6 @@ In the **Settings** section, you will find all the necessary pages for configuri
 
 Under the settings you will find an overview of the most common setting options for your server. These also include a short explanation. The use of the settings page is especially recommended for newcomers to server administration.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/4X7ERpBn7y9XW4e/preview)
-
-Here you can make for example the following adjustments: 
-
-- Basic settings (Servername, Project name, Project description and more)
-- EasyAdmin (Language, Menu Button, Discord Webhook, Report and Admin Commands)
-- RedM settings (Coordinates display, PVP)
-- Loading Screen (Youtube Video ID)
-
 If you are more confident and want to make more precise changes, we recommend using the Config Editor instead. You can find more information about this in the **Configs** category.
 
 
@@ -173,16 +164,6 @@ Under **Versions** you have the possibility to view and manage the current versi
 ![](https://screensaver01.zap-hosting.com/index.php/s/HdY9zcZy3HtiA2C/preview)
 
 Moreover, you can also enable the email notification feature for automatic updates to keep you informed about updates and ensure that you are always up-to-date.
-
-
-
-### Resources
-
-For this game, we offer the possibility to easily install well-known and popular resources/plugins with just one click under **Resources**. In the overview, you will find a selection of the available content that you can add by clicking the installation button. After restarting the server, these resources will be installed, activated and available to you.
-
-![](https://screensaver01.zap-hosting.com/index.php/s/jwiXtcimtiNeEQ8/preview)
-
-By using this feature, you can quickly and easily expand your game server's content without having to make adjustments independently. This saves time and reduces the risk of errors or compatibility issues.
 
 
 
