@@ -21,7 +21,7 @@ Since recent SCP Updates, the password login is no longer functional. Please use
 
 ## Configuration for the Remote Admin Config
 
-### Prerequisites
+### Preparation
 
 Firstly, you would need to locate your Steam64ID.
 You can use the following tool: [SteamID Lookup](https://steamid.io/lookup).

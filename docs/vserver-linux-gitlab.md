@@ -19,7 +19,7 @@ GitLab is a comprehensive DevOps platform that enables teams to collaborate on c
 
 <InlineVoucher />
 
-## Prerequisites
+## Preparation
 
 The following requirements are recommended by the official [GitLab Team](https://docs.gitlab.com/ee/install/requirements.html) and it's highly recommended to follow the prerequisites to avoid inconveniences and issues later down the line.
 

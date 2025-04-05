@@ -16,7 +16,7 @@ Having multiple IP addresses on a server can be beneficial for several reasons, 
 <InlineVoucher />
 
 
-## Prerequisites
+## Preparation
 
 The use of multiple IP addresses assumes that your server package includes them. If you haven't booked any additional IP addresses by default, you would need to add them via an upgrade first. Then, connect to your server via [RDP](vserver-windows-userdp).
 

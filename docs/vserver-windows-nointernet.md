@@ -14,7 +14,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 An interrupted or faulty internet connection can be caused by various reasons, such as incorrect IP address, subnet mask, gateway, DNS server or firewall settings. In this guide, we will explain how you can troubleshoot and resolve potential network issues.
 
-<YouTube videoId="VfZyNge5ikA" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/GLDdSYoaE6jeW9K/preview" title="How to Fix Internet Connection Issues on Windows VPS" description="Feel like you understand better when you see things in action? We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
+<YouTube videoId="VfZyNge5ikA" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/pqpjBWoHGJWztQG/preview" title="How to Fix Internet Connection Issues on Windows VPS" description="Feel like you understand better when you see things in action? We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
 
 
 

@@ -15,7 +15,7 @@ This guide provides steps for the installation of Node.js, Deno and Bun. These c
 
 <InlineVoucher />
 
-## Prerequisites
+## Preparation
 
 Before you install anything on a server, it is recommended to run the update command corresponding to your operating system to keep your server secure.
 

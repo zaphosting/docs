@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 Setting up a server for Farming Simulator 22 Epic Games version differs slightly from the process for a standard server. This guide will walk you through the process, focusing on the unique aspects of the Epic Games version.
 <InlineVoucher />
 
-## Prerequisites
+## Preparation
 
 Before starting, ensure that your setup meets the following requirements:
 - **Operating System:** Windows Server 2016/2019 (64-bit)

@@ -11,25 +11,30 @@ In order to ensure that all ZAP-Hosting Blog Posts are consistent in quality and
 
 Our blog contribution guidelines can be split into a few major sections, which are:
 
-- Structure
-- Style
-- Formatting
-- Terminology
+- [Structure](#structure)
+- [Style](#style)
+- [Formatting](#formatting)
+- [Terminology](#terminology)
 
 ## Structure
 
 Our blog posts across our contribution program should follow a relatively consistent structure, creating reader interest and providing information and news for the reader. The ZAP Contribution Team will work with you to ensure your structure is appropriate when creating a blog suggestion.
 
-- Blog Title (H1 Heading)
-- Introduction text
-- Optional: Prerequisites (H2 Heading)
-- Main topic 1 (H2 Heading)
-- Main topic 2 (H2 Heading)
-- Optional: Sub-topic 2.1 (H3 Heading)
-- Optional: Sub-topic 2.2 (H3 Heading)
+- **Page Title** (H1)
+- **Introduction** (H2) 
+- **Preparation** (H2)
+- **Main Topic** (H2)
+- Optional: **Sub-topic 1** (H3)
+- Optional: **Sub-topic 2** (H3)
 - ...
-- Main topic x (H2 Heading)
-- Conclusion (H2 Heading)
+- Optional: **Another Topic** (H2)
+- **Conclusion** (H2)
+
+:::info Use of Sub-Headings (H3 & H4)
+You are encouraged to use H3 headings to create sub-sections within main H2 sections to further organise bigger chunks of content into organised sections. An example can be seen with the **Main Topic** section above.
+
+If you are using subheadings, it usually makes sense to have at least two or more subheadings within the parent heading, otherwise it typically makes no sense to have only one subheading within a main heading.
+:::
 
 :::info
 Keep in mind that the above is a rough reference. The main body of your blog post may have different headings depending on what is appropriate for your content, but all blog posts should consistently have a title, introduction and conclusion surrounding the main body content.
@@ -41,40 +46,47 @@ The title for your blog post should be short, clear and snappy to grab the reade
 
 ### Introduction
 
-The introduction for your blog post should be relatively short and should provide an insight into what your blog post will be exploring. For typical blog posts, this should be no longer than 2 sentences as a rough idea.
+Introductions for your blog post should be relatively short and to the point, typically spanning 1-2 sentences. In the content you should aim to briefly describe the topic area at hand and most importantly explain what the blog post will present to the reader, informing them of the end goal.
 
-Try answering a few of the following questions:
+An example of an ideal introduction for a blog post relating to SteamCMD would be:
 
-- What is your blog post about?
-- What is the purpose of this post?
-- What information will the reader gain?
+- **1st Sentence**: SteamCMD is an essential tool that is necessary for installing dedicated servers for a wide variety of games including Palworld, Enshrouded and more.
+- **2nd Sentence**: In this blog post, we will explore the first-time setup process for installing SteamCMD to your Linux server. We will be using Ubuntu in the examples, but the process should be very similar for other distributions.
 
-The answers to these questions should help you write up a short and concise introduction for your blog post, covering the key points of your blog post.
+As seen in the example, it briefly summarises both the relevant topics of this blog post and presents the overall goal for the reader when fulfilling this blog post.
 
-### Prerequisites
+### Preparation
 
-This section is only necessary if your blog post relates to providing procedural step-by-step information or tutorials, such as scripting or something creative. The purpose of this is to let the reader know what is required before they begin following your blog post, a bit like a checklist before completion.
+The preparation section is useful in clarifying any necessary prerequisites that the reader must fulfil before being able to follow the blog post. This could be software or hardware requirements, instructions on preparing some software such as a firewall or simply guiding the user to login to their server via SSH or RDP.
 
-For example, some prerequisites for blog post tutorials may include:
+We strongly recommend browsing our [ZAP-Docs website](https://zap-hosting.com/guides) to search for guides that may cover or relate to any preparation steps you plan to include. If there is a guide covering a topic, for example [SSH Initial Access](vserver-linux-ssh.md), you should link the guide and inform the reader to follow along before proceeding.
+
+Common prerequisites for blog posts include:
 
 - Software required (e.g. Git, Node.js, Python, Docker)
-- Tutorials that may help the reader get basic knowledge (e.g. Another ZAP Docs page)
+- Tutorials that may help the reader get basic knowledge (e.g. Another ZAP-Docs page)
 - User Accounts such as APIs
 - Required settings (e.g. DNS/SSL)
 
-You should provide a bullet-point list of these prerequisites under the section heading. Once again keep in mind that this is typically **not needed**.
+An example of this for a Reverse Proxy blog post would be:
+```
+In order to setup a reverse proxy you will require a Linux Server to host your proxy server and you should connect to it. Use our [SSH Initial Access](vserver-linux-ssh.md) guide if you need help doing this. You will also require access to a Domain that you own. For each subdomain that you plan to use, you should create an `A` DNS record, pointing at the IP Address of your Linux Server.
+```
 
-### Main Topics
+### Main Topic
 
-Within these topics is where you write the main body of your blog post. We recommend splitting the blog post into a few sections to help the reader remain engaged with the content. There is no strict prerequisite for how these should be split, but as a general rule of thumb, you should try to split your content into a few headings. The ZAP Contributions Team will help you out with this throughout the process.
+Now it is time to write the main bulk of your blog post. We recommend splitting the blog post into a few sections to help the reader remain engaged with the content. There is no strict requirements for how these should be split, but as a general rule of thumb, you should try to split large amounts of content into a few headings. The ZAP Contributions Team will help you out with this throughout the process.
 
 If your blog post provides procedural step-by-step information or tutorials, it would make sense to include the step number and provide a short step description within the main topic heading, for example **Step 1 - Creating the folder**. You should briefly describe what the reader is doing in the step to provide an overall goal in the first sentence. Between steps, you should aim to create a brief introduction and closing transition statements to let the reader know what they have done so far and what will be happening in the following steps. These transitions provide important context for the reader. Try to avoid repetition and use a range of terms to avoid reiterating steps.
 
 ### Conclusion
 
-Finally, the conclusion should summarise the information that you have explored within your blog post. This can be in the form of a short sentence or two, or bullet points where you believe it may be appropriate. You could also link any additional information that you recommend reading, for example, a ZAP Docs guide regarding your topic.
+Finally, the last section is the conclusion of the blog post. This section should close off the guide in 1-3 sentences explaining what the reader has successfully accomplished, learnt or to provide a conclusion to an informative guide. 
+
+It would also make sense to provide references to further reading or other blog posts or guides which the user can follow to expand their knowledge in the topic. You should link to any existing ZAP-Docs guides or blogs posts here, especially if they naturally following along from your guide.
 
 ## Style
+
 The style of writing for the ZAP-Hosting docs follows our belief in producing high-quality, practical and easily accessible blog posts to support a wide range of topics and support readers from any experience level. 
 
 ### Technical & correct
@@ -122,18 +134,23 @@ If you are using subheaders (e.g. H3 headers below main H2 headers), please ensu
 Here is a quick example of how to use headers:
 
 ```
-## Setting up mods
-H2 main section header
-### Downloading the mods
-H3 subheader
-#### Through Steam Workshop
-H4 subheader
-#### Manually via SteamCMD
-H4 subheader
-### Preparing the correct structure
-H3 subheader
-### Installing the mods to your server
-H3 subheader
+## Installation
+H2 - Main Section
+
+### Downloading Game Files
+H3 - Sub-section of H2
+
+#### Via SteamCMD
+H4 - Sub-section of H3
+
+#### Manually via GitHub
+H4 - Sub-section of H3
+
+### Preparing Configuration
+H3 - Sub-section of H2
+
+### Starting Server
+H3 - Sub-section of H2
 ```
 
 ### In-line markdown

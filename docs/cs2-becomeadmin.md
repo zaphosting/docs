@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 The assignment of administrator permissions allows you simple and comprehensive administration with full control of your server. As an administrator, you have the option of using all available options and functions provided by the game directly in the game. All the steps you need to take to assign administrator permissions for your server will be described below. 
 <InlineVoucher />
 
-## Prerequisites
+## Preparation
 To use administrator privileges, a foundation must first be established. By default, CS2 does not offer comprehensive administration management. However, there are frameworks for this purpose, such as CounterStrikeSharp. The framework must be installed for configuration. If you have not installed it yet, feel free to check out our [Install Plugins](cs2-plugins) guide.
 
 ## Defining Admins

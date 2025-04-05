@@ -17,7 +17,7 @@ In Assetto Corsa, 10 slots can be used correctly without any further modificatio
 
 <InlineVoucher />
 
-## Prerequisites and Slot Limits
+## Preparation and Slot Limits
 
 To use more than 10 slots, the values **"trackMedalsRequirement": X,** and **"safetyRatingRequirement": X,** have to be adjusted.
 How high these must be set can be calculated by the following formula. 
