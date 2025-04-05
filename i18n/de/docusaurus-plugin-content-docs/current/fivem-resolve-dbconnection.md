@@ -21,15 +21,11 @@ In diese Anleitung werden wir untersuchen, wie du Probleme mit der Datenbankverb
 
 ## Automatische Methode
 
-:::info
-Diese Methode ist derzeit nur für die Spielversion **FiveM: txAdmin** verfügbar. Wenn du eine andere Spielversion verwendest, gehe zum nächsten Abschnitt über, in dem beschrieben wird, wie du den Verbindungsstring manuell anpasst.
-:::
-
 Öffne zunächst das Webinterface deines Servers auf der Website und gehe in den Bereich **Einstellungen**.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/JW4XHRd8d2n7Ljm/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/JDat2JBPe2ddQ4w/download)
 
-Scrolle auf dieser Seite ganz nach unten, wo du die Schaltflächen **Aktionen** findest. Benutze einfach den Button **Reconfigure mysql connection string** und starte deinen Server neu, um sicherzustellen, dass die Änderungen verarbeitet werden.
+Scrolle auf dieser Seite ganz nach unten, wo du die Schaltflächen **Aktionen** findest. Benutze einfach den Button **Reconfigure MySQL connection string** und starte deinen Server neu, um sicherzustellen, dass die Änderungen verarbeitet werden.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/eZoSBJcbCr7422K/preview)
 
@@ -37,13 +33,7 @@ Dadurch wird deine Datei `server.cfg` automatisch mit den korrekten aktuellen An
 
 ## Manuelle Methode
 
-Um das Problem manuell zu beheben, brauchst du Zugang zu deiner Datei `server.cfg`, in der du den Verbindungsstring manuell mit den Anmeldedaten anpasst, die du in deinem Webinterface angegeben hast.
-
-Öffne zunächst das Webinterface deines Servers und gehe in den Bereich **Einstellungen->Configs**. Auf dieser Seite kannst du das Bearbeitungssymbol verwenden, um einen Webeditor zu öffnen.
-
-![](https://screensaver01.zap-hosting.com/index.php/s/W7JLKJoSFHy4kif/preview)
-
-Gehe in einem anderen Tab zum Bereich **Tools->Datenbanken**, wo du deine bestehenden Anmeldedaten einsehen kannst.
+Um das Problem manuell zu beheben, brauchst du Zugang zu deiner Datei `server.cfg`, in der du den Verbindungsstring manuell mit den Anmeldedaten anpasst, die du in deinem Webinterface angegeben hast. Melden dich im txAdmin Interface an und öffne den CFG-Editor. Gehe in einem anderen Tab zum Bereich **Tools->Datenbanken**, wo du deine bestehenden Anmeldedaten einsehen kannst.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/TyBqiixBS5wd6bP/preview)
 
