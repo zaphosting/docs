@@ -13,10 +13,6 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 ## Einführung
 txAdmin ist ein komplett kostenloses, voll ausgestattetes Web-Panel, um deinen RedM-Server zu verwalten und zu überwachen. Es bietet eine Vielzahl von Funktionen, die darauf ausgelegt sind, die Verwaltung eines RedM-Servers so einfach wie möglich zu machen. Die Einrichtung von txAdmin ist völlig kostenlos, beginne deine Reise mit dem einfachsten und doch funktionalsten Web-Panel für RedM-Server.
 
-:::warning Wähle die richtige Spielvariante von RedM
-Für die Verwendung des zusätzlichen txAdmin Interface ist die Nutzung des Spiels **Five: txAdmin** notwendig. Die Standard Variante **RedM** beinhaltet dies nicht. Solltest du noch nicht das korrekte Spiel verwenden, so kannst du es über die Spielwechsel Option ändern. 
-:::
-
 <InlineVoucher />
 
 
@@ -25,11 +21,7 @@ Für die Verwendung des zusätzlichen txAdmin Interface ist die Nutzung des Spie
 
 Über das Dashboard deines Game-Servers findest du im txAdmin-Bereich einen Link sowie die Zugangsdaten zum Zugriff auf txAdmin. Dies gibt dir die notwendigen Informationen, um einfach auf die txAdmin-Oberfläche zuzugreifen und mit der Einrichtung zu beginnen.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/aTQeF69ojtqM9iX/preview)
-
-
-
-![](https://screensaver01.zap-hosting.com/index.php/s/wzcQqB3MY7k28rZ/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/6gJa3qsymE2kzCi/download)
 
 Kopiere die Informationen zum Benutzer und Passwort und klicke auf den Link (IP-Adresse:Port), um das txAdmin Interface aufzurufen und dich einzuloggen. Im Anschluss öffnet sich das txAdmin Interface in einem neuen Fenster, wo du dich mit den vorgegebenen Zugangsdaten einloggen musst. 
 
@@ -71,9 +63,9 @@ Popular Templates sind vorgefertigte Pakete, die direkt verwendet werden können
 
 ### Existing Server Data
 
-Diese Einstellung solltest du verwenden, falls du bereits einen Server mit txAdmin betrieben hast und diesen nun bei uns hosten möchtest. In diesem Fall kannst du die Serverdaten einfach per FTP hochladen und den Pfad während des Setups angeben. Solltest du noch nicht wissen, wie du FTP allgemein benutzt, lohnt es sich, einen Blick in unsere Anleitung [Zugriff per FTP](gameserver-ftpaccess.md) zu werfen.
+Diese Einstellung solltest du verwenden, falls du bereits einen Server mit txAdmin betrieben hast und diesen nun bei uns hosten möchtest. In diesem Fall kannst du die Serverdaten einfach per FTP hochladen und den Pfad während des Setups angeben. Solltest du noch nicht wissen, wie du FTP allgemein benutzt, lohnt es sich, einen Blick in unsere Anleitung [FTP-Zugriff](gameserver-ftpaccess.md) zu werfen.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/DJtoBPqmBLSDdXZ/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/jCZ4DffkkAHA6dj/preview)
 
 
 
