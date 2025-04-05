@@ -167,7 +167,7 @@ Wenn du deine Änderungen vorgenommen hast, klicke auf den Button **Commit chang
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/2iQCZzzAHsHS2rt/preview)
 
-Gebe eine sinnvolle Commit-Nachricht ein, die erklärt, was du getan hast, und gegebenenfalls eine erweiterte Beschreibung. Übertrage schließlich die Änderungen. Damit werden die Änderungen in deinem Fork der Dokumente übertragen. Du kannst nun zum **[Inhalte einreichen](#step-3-submitting-content)** Abschnitt gehen, um einen Pull Request zu erstellen, um die Inhalte an unser Haupt-ZAP-Docs Repository zu übermitteln.
+Gebe eine sinnvolle Commit-Nachricht ein, die erklärt, was du getan hast, und gegebenenfalls eine erweiterte Beschreibung. Übertrage schließlich die Änderungen. Damit werden die Änderungen in deinem Fork der Dokumente übertragen. Du kannst nun zum **[Inhalte einreichen](#schritt-3-inhalte-einreichen)** Abschnitt gehen, um einen Pull Request zu erstellen, um die Inhalte an unser Haupt-ZAP-Docs Repository zu übermitteln.
 
 </TabItem>
 
@@ -260,10 +260,11 @@ Wenn du mit den Änderungen an deiner Anleitung fertig bist, besteht der letzte 
 ![](https://screensaver01.zap-hosting.com/index.php/s/tFdrLknnXn62sZc/preview)
 
 
-Du kannst nun im Abschnitt **[[Inhalte einreichen](#step-3-submitting-content)** einen Pull Request erstellen, um die Inhalte an unser ZAP-Docs Repository zu übermitteln.
+Du kannst nun im Abschnitt **[[Inhalte einreichen](#schritt-3-inhalte-einreichen)** einen Pull Request erstellen, um die Inhalte an unser ZAP-Docs Repository zu übermitteln.
+
 
 :::tip
-Wir empfehlen dir, auch den optionalen **[Lokales Testen des Builds](#optional-testing-build-locally)** Abschnitt zu lesen, da du diesen Abschnitt mit dem lokalen Testen koppeln kannst, um einen optimalen Arbeitsablauf zu schaffen, bei dem Änderungen auf deinem lokalen Build on-the-go aktualisiert werden, was sich als sehr nützlich erwiesen hat. Dies ist jedoch nicht notwendig.
+Wir empfehlen dir, auch den optionalen **[Lokales Testen des Builds](#optional-lokales-testen-des-builds)** Abschnitt zu lesen, da du diesen Abschnitt mit dem lokalen Testen koppeln kannst, um einen optimalen Arbeitsablauf zu schaffen, bei dem Änderungen auf deinem lokalen Build on-the-go aktualisiert werden, was sich als sehr nützlich erwiesen hat. Dies ist jedoch nicht notwendig.
 :::
 
 </TabItem>
