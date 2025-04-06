@@ -1,7 +1,7 @@
 ---
 id: redm-firststeps-dashboard
 title: "RedM: Dashboard Übersicht"
-description: Informationen zum Dashboard eines FIVE RedM Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
+description: Informationen zum Dashboard eines RedM Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Dashboard
 services:
   - gameserver
@@ -12,11 +12,11 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Du bist an einem **FIVE: RedM Server** interessiert oder besitzt bereits einen, doch dir fehlt noch ein umfassender Überblick über die Verwaltung und die Auffindbarkeit aller notwendigen Optionen? Gerade zu Beginn kann dies eine Herausforderung darstellen. Aber keine Sorge, im Folgenden bieten wir dir eine ausführliche Einführung zur Verwaltung deines Dienstes, damit du den optimalen Durchblick hast.
+Du bist an einem **RedM Server** interessiert oder besitzt bereits einen, doch dir fehlt noch ein umfassender Überblick über die Verwaltung und die Auffindbarkeit aller notwendigen Optionen? Gerade zu Beginn kann dies eine Herausforderung darstellen. Aber keine Sorge, im Folgenden bieten wir dir eine ausführliche Einführung zur Verwaltung deines Dienstes, damit du den optimalen Durchblick hast.
 
-Nachdem du diese Anleitung durchgegangen bist, wirst du problemlos in der Lage sein, deinen Server effizient zu verwalten und alle erforderlichen Optionen sowie Features zügig und unkompliziert zu finden. Hier erhältst du einen strukturierten Überblick, der dir Schritt für Schritt hilft, dich mit der Serververwaltung vertraut zu machen und dein Wissen gezielt zu erweitern. So kannst du sicherstellen, dass dein **FIVE: RedM Server** optimal auf deine Bedürfnisse abgestimmt ist und du das Beste aus den vorhandenen Möglichkeiten herausholst.
+Nachdem du diese Anleitung durchgegangen bist, wirst du problemlos in der Lage sein, deinen Server effizient zu verwalten und alle erforderlichen Optionen sowie Features zügig und unkompliziert zu finden. Hier erhältst du einen strukturierten Überblick, der dir Schritt für Schritt hilft, dich mit der Serververwaltung vertraut zu machen und dein Wissen gezielt zu erweitern. So kannst du sicherstellen, dass dein **RedM Server** optimal auf deine Bedürfnisse abgestimmt ist und du das Beste aus den vorhandenen Möglichkeiten herausholst.
 
-<YouTube videoId="afcSeH3AmAc" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/ZnZ4AoqsyydjBzL/preview" title="Setup RedM server in just a MINUTE!" description="Hast du das Gefühl, dass du etwas besser verstehst, wenn du es in Aktion siehst? Wir haben etwas für dich! Tauche ab in unser Video, welches alles für dich zusammenfasst. Egal, ob du es eilig hast oder einfach nur Informationen auf möglichst verständliche Art und Weise aufnehmen möchtest!"/>
+
 
 <InlineVoucher />
 
@@ -31,7 +31,7 @@ In dem Abschnitt **Produkt Administration** wirst du alle notwendigen Seiten fin
 
 Das **Dashboard** deines Servers stellt das Herzstück für die Verwaltung dar. Hier werden alle grundlegenden und essenziellen Informationen zu deinem Dienst übersichtlich präsentiert. Dazu zählen beispielsweise Angaben zum Standort, Status, IP:Port, genutzter Speicherplatz, aktuell laufendes Spiel, Servername, Karte und die Anzahl der verfügbaren Slots. Zudem werden auch die Auslastungen der CPU, des Arbeitsspeichers und des RAM dargestellt.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/yrC6izsJY3w848e/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/FgXYcYgoiCwbCT6/preview)
 
 Im Dashboard hast du außerdem die Möglichkeit, deinen Dienst zu starten, zu stoppen oder neu zu starten, um so die volle Kontrolle über dessen Betrieb zu haben. Weiterhin kannst du die Live-Konsole aufrufen, um Echtzeitinformationen über den Serverzustand zu erhalten und gegebenenfalls direkte Eingriffe vorzunehmen.
 

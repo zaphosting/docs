@@ -1787,10 +1787,12 @@ const sidebars = {
           label: "First Steps",
           items: [
             "redm-firststeps-dashboard",
+            'redm-upvotes',
+            "redm-txadmin-setup",
+            "redm-txadmin-features",
             "redm-firststeps-connect"
           ]
         },
-        'redm-upvotes',
         {
           type: "category",
           label: "Configuration & Administration",
@@ -1803,12 +1805,11 @@ const sidebars = {
             "redm-steam-web-api-key",
             "redm-locale",
             "redm-devtools",
-            "redm-prohibited-resources"
           ]
         },
         {
           type: "category",
-          label: "Resources & Mods",
+          label: "Resources",
           items: [
             "redm-installresources",
             "redm-sql-file-import"
@@ -1816,10 +1817,10 @@ const sidebars = {
         },
         {
           type: "category",
-          label: "txAdmin",
+          label: "Troubleshooting",
           items: [
-            "redm-txadmin-setup",
-            "redm-txadmin-features",
+            "redm-prohibited-resources"
+
           ]
         },
       ],
