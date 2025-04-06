@@ -1809,7 +1809,7 @@ const sidebars = {
         },
         {
           type: "category",
-          label: "Resources & Mods",
+          label: "Resources",
           items: [
             "redm-installresources",
             "redm-sql-file-import"
