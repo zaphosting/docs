@@ -1,8 +1,8 @@
 ---
 id: redm-gamebuild
-title: "RedM: Enable DLC Content"
-description: Information on how to enable a DLC gamebuild for RedM servers - ZAP-Hosting.com
-sidebar_label: Enable DLC Gamebuild
+title: "RedM: DLC-Inhalte aktivieren"
+description: Informationen zur Aktivierung eines DLC Game Builds für RedM Server - ZAP-Hosting.com - Dokumentation
+sidebar_label: DLC-Inhalte aktivieren
 services:
   - gameserver
 ---
@@ -11,15 +11,32 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Die Erzwingung des Game Builds ermöglicht es dir, eine bestimmte DLC-Version auf deinem Server zu erzwingen, sodass du mit den neuesten Karten, Kleidungsstücken, Fahrzeugen und mehr spielen kannst! Du kannst dies einfach umsetzen, indem du die unten stehenden Abschnitte für deinen Gameserver-Typ aktivierst.
+Die Erzwingung des Game Builds ermöglicht es dir, eine bestimmte DLC-Version auf deinem Server zu erzwingen, sodass du mit den neuesten Karten, Kleidungsstücken, Fahrzeugen und mehr spielen kannst! 
 
 <InlineVoucher />
 
-## Buld aktivieren
-Um zusätzliche DLC-Inhalte wie Cayo Perico, den Tuner-DLC oder Los Santos Summer Special zu verwenden, musst du diese in den Einstellungen deines Servers festlegen. Du kannst dies entweder direkt tun, indem du die Datei `server.cfg` bearbeitest, oder der einfachere Weg ist, dies über den Abschnitt **Settings** im Webinterface deines Gameservers zu ändern.
+## Verfügbare Gamebuilds
 
-![](https://github.com/zaphosting/docs/assets/42719082/e486c273-9137-45cf-9370-334fca7d98e2)
+Hier findest du eine Übersicht über alle verfügbaren DLCs und dessen Build-IDs:
 
-Du solltest nun entweder nach "Game Build" suchen oder einfach nach unten scrollen, bis du den Unterabschnitt **Enforce Game Build** findest. Hier kannst du über das Dropdown-Menü auswählen, mit welchem DLC-Build du deinen Server betreiben möchtest. 
+| Build ID |                          Build Name                          |
+| :------: | :----------------------------------------------------------: |
+|   1311   | Mid 2020 update, not compatible with Red Dead Online licenses. |
+|   1355   | December 2020 update, works with newer game editions such as RDO. |
+|   1436   | July 2021 update, includes new content from Blood Money DLC. |
+|   1491   |       September 2022 update, limited content/changes.        |
 
-Wenn du deine Wahl getroffen hast, gehe zum Ende der Seite und drücke den Button **Speichern**, dann starte deinen FiveM Server neu. Dein Server wird jetzt mit dem angegebenen DLC-Build starten. Du hast erfolgreich ein Gamebuild für deinen FiveM Gameserver eingestellt!
+
+## Build aktivieren
+
+Um zusätzliche DLC-Inhalte wie Blood Money DLC zu verwenden, musst du dies in der Konfiguration deines Servers festlegen. Um den DLC Build zu setzen, musst du dein txAdmin Interface öffnen und zum CFG Editor navigieren. Stelle nun einfach dein gewünschtes Spiel Build über den Befehl `sv_enforceGameBuld` mit einem der Builds aus der Tabelle ein.
+
+![img](https://screensaver01.zap-hosting.com/index.php/s/YoRFMoHxdSNydoD/preview)
+
+
+
+
+
+## Abschluss
+
+Wenn du deine Wahl getroffen hast, starte deinen RedM Server neu. Dein Server startet nun mit dem angegebenen DLC-Build. Du hast erfolgreich ein Game Build für deinen RedM Gameserver eingestellt. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
