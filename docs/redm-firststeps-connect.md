@@ -37,7 +37,7 @@ You will require all the relevant information necessary to connect to your serve
 
 Using the information mentioned above, you should be able to locate your server and ensure that you connect to the correct server.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/aL7Mcsridji4pML/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/9wWySCZdiHQt8Sj/preview)
 
 ## Establish server connection
 
