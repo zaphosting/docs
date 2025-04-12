@@ -55,7 +55,7 @@ Wenn du **Banner** gewählt hast, musst du eine Vorlage auswählen. Du kannst da
 
 Wenn du hingegen **Link** gewählt hast, kannst du einen Linktext angeben, der verwendet wird, um den HTML-Code für deinen Link zu erzeugen. Wenn du z.B. "klick das" auswählst, zeigt der erzeugte HTML-Code den Text "klick mich" an, der mit dem Partnerlink, den du erstellst, verlinkt ist. 
 
-Du kannst das hier sehen: `<a href="https://zap-hosting.com/diesisteinaffiliatelink">Klick mich</a>`
+Du kannst das hier sehen: `<a href="https://zap-hosting.com/[deine_affiliate_link]">Klick mich</a>`
 
 #### Auswählen des Zielprodukts
 
