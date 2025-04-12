@@ -55,7 +55,7 @@ If you picked **banner**, you will have to choose a template. You can do so by u
 
 On the other hand, if you picked **link**, you can specify a linktext which will be used to generate HTML code for your link. For example, if you pick `click this`, the HTML code created will display the text `click me` which is hyperlinked to the affiliate link you are creating. 
 
-You can see this here: `<a href="https://zap-hosting.com/diesisteinaffiliatelink">click me</a>`
+You can see this here: `<a href="https://zap-hosting.com/[your_affiliate_link]">click me</a>`
 
 #### Selecting the target product
 
