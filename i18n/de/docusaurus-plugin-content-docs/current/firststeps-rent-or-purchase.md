@@ -56,8 +56,6 @@ Das Angebot der Miet- als auch der Lifetime Kaufoption gibt es für einen Großt
 | Dedicated Server  | ✓      | ✓              |
 | Domain            | ✓      | X              |
 | Webspace          | ✓      | ✓              |
-| Plesk License     | ✓      | X              |
 | Voicebot          | ✓      | ✓              |
 | Voiceserver       | ✓      | ✓              |
-| Jitsi Meet Server | ✓      | X              |
 | FiveM Upvotes     | ✓      | X              |

@@ -56,8 +56,6 @@ Both rental and lifetime options are available for the majority of our products.
 | Dedicated Server  | ✓    | ✓        |
 | Domain            | ✓    | X        |
 | Webspace          | ✓    | ✓        |
-| Plesk License     | ✓    | X        |
 | Voicebot          | ✓    | ✓        |
 | Voiceserver       | ✓    | ✓        |
-| Jitsi Meet Server | ✓    | X        |
 | FiveM Upvotes     | ✓    | X        |
