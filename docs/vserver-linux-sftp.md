@@ -1,7 +1,7 @@
 ---
 id: vserver-linux-sftp
-title: "VPS: Connecting to Linux Server via SFTP"
-description: Information on how to connect via SFTP to your Linux VPS from ZAP-Hosting - ZAP-Hosting.com documentation
+title: "VPS: Establish connection via SFTP"
+description: Information on how to establish a connection via SFTP on your Linux VPS from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: SFTP Connection
 services:
   - vserver
@@ -9,25 +9,42 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
+
+
+
+
+## Introduction
+
+SFTP is a secure protocol for transferring files between computers via the Internet or a network. It stands for **“SSH File Transfer Protocol ”** or **“Secure File Transfer Protocol ”** and is based on the **SSH protocol (Secure Shell)**.
+
+In contrast to FTP (File Transfer Protocol), where data is transferred unencrypted, SFTP ensures that all data is encrypted and therefore protected from unauthorized access.
+
 <InlineVoucher />
 
-## How do I connect via SFTP?
-
-To connect via SFTP, you have to switch to SFTP in Winscp: 
-
-![](https://screensaver01.zap-hosting.com/index.php/s/R5QRq5t8spGezE9/download/vps-sftp-3.gif)
-
-![](https://screensaver01.zap-hosting.com/index.php/s/7HYF3ngpfcKXLZ9/preview)
-
-Then enter the connection data. As server address you use the **Ip** of your **server**. As **username** **root** and then the **password** of your **root user**.
-
-![](https://screensaver01.zap-hosting.com/index.php/s/boGkPkqF58CjxkD/preview)
-
-The following window has to be confirmed:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/TQ9abPjsCXRqTGG/preview)
 
 
-Now you are connected to your server via SFTP: 
+## Establish connection
 
-![](https://screensaver01.zap-hosting.com/index.php/s/xA44qPQB6zcFc75/preview)
+For the connection via **SFTP**, the login details of the root user are used. This example shows the connection setup with the WinSCP application. Create a **New session** in WinSCP.
+
+![img](https://screensaver01.zap-hosting.com/index.php/s/HDsMr5mnJpC7FtM/download)
+
+Choose `SFTP` as **transfer protocol** in the configuration window of the new session. Next, enter the **IP address** of your server and the port **22**. For the username and password, use the login details of your `root` user.
+
+![img](https://screensaver01.zap-hosting.com/index.php/s/Wq59YHDnirKYkDr/download)
+
+:::warning Use of SSH keys
+If you are using an SSH key instead of the simple password option, click on **Advanced** and navigate to **SSH -> Authentication**. You can save your SSH key there.
+:::
+
+The first time you connect via SFTP, this message appears because your computer does not yet know the server. Confirm with **“Yes ”** if you trust the server. This will save its security key and you will not be asked again for future connections. This is a normal step when connecting to a new server for the first time.
+
+![img](https://screensaver01.zap-hosting.com/index.php/s/DxErsePZJnkxyCp/download)
+
+
+
+
+
+## Conclusion
+
+Provided that you have followed all the steps, you have successfully established an SFTP connection to your server. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
