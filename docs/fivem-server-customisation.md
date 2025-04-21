@@ -31,7 +31,7 @@ There are a range of colors that you can add to your server name. These can be s
 In order to use colours in your server name, you must have a valid [Cfx.re subscription](https://portal.cfx.re/subscriptions) which includes the benefit. If you do but it still doesn't work, ensure that you have set a [Own License Key](fivem-licensekey.md).
 :::
 
-Now you can change your server's name, through one of the three methods described in the accessing configuration section. Here is an example of using colors and the outcome they produce:
+Now you can change the name of your server by opening the CFG Editor in txAdmin, searching for `sv_hostname` and customizing it to your needs. Here is an example of the use of colors and the result:
 ```
 sv_hostname "^2ZAP-Hosting ^0| ^4Official Community Server ^0- ^1Events coming ^8soon^1!"
 ```

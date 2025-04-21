@@ -29,7 +29,7 @@ Es gibt eine Reihe von Farben, die du zu deinem Servernamen hinzufügen kannst. 
 Um Farben in deinem Servernamen verwenden zu können, musst du ein gültiges [FiveM Subscription](https://portal.cfx.re/subscriptions) haben, das den Vorteil beinhaltet. Wenn das der Fall ist und es trotzdem nicht funktioniert, vergewissere dich, dass du einen [Eigener Lizenzschlüssel](fivem-licensekey.md) eingestellt hast.
 :::
 
-Nun kannst du den Namen deines Servers ändern, indem du eine der drei Methoden anwendest, die im Abschnitt Zugriff auf die Konfiguration beschrieben sind. Hier ist ein Beispiel für die Verwendung von Farben und das Ergebnis:
+Nun kannst du den Namen deines Servers ändern, indem du in txAdmin den CFG Editor öffnest und dort dann nach `sv_hostname` suchst und nach deinen Wünschen anpasst. Hier ist ein Beispiel für die Verwendung von Farben und das Ergebnis:
 
 ```
 sv_hostname "^2ZAP-Hosting ^0| ^4Official Community Server ^0- ^1Events coming ^8soon^1!"
