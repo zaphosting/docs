@@ -1011,7 +1011,7 @@ const sidebars = {
           label: "First Steps",
           items: [
             "deadpoly-firststeps-dashboard",
-            "deadlock-firststeps-connect",
+            "deadpoly-firststeps-connect",
           ]
         },
       ],

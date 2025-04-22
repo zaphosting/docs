@@ -67,25 +67,15 @@ Die letzte Methode, um auf die Rohdatei zuzugreifen, ist über FTP. Wenn du dich
 
 ## Server-Konfigurationsoptionen
 
-### Aktiviere den Xbox-Modus
+### Aktiviere Crossplay Modus
 
-:::tip
-Wir haben jetzt eine separate **Palword (Xbox)** Spielversion auf unseren Gameservern, die dies automatisch für dich einrichtet! Schau dir unsere [Spielwechsel](gameserver-gameswitch.md) an, um zu erfahren, wie du ganz einfach umschalten kannst. Stelle sicher, dass du deine Spielstände wie immer sicherst.
+Palworld unterstützt die Verwendung von mehreren Plattformen, sodass du Crossplay verwenden kannst. Standardmäßig ist die Steam Platform gesetzt. Wenn du den Support für Xbox, PS5 und Mac aktivieren möchtest, dann kannst du das in der Gameserver Verwaltung unter den Einstellungen umsetzen. 
+
+![img](https://screensaver01.zap-hosting.com/index.php/s/nD5kBoNH2JBfoxF/preview)
+
+:::info
+Crossplay zwischen Steam & Microsoft Store/Xbox Spielversionen ist immer noch nicht möglich. Dein Server kann entweder für Steam oder für Microsoft Store/Xbox eingestellt werden.
 :::
-
-Die Palworld Dedicated Server können jetzt auch als Microsoft Store/Xbox Dedicated Server umgestellt werden, damit Xbox-Spieler und Microsoft Store PC-Spieler gemeinsam auf ihrem eigenen Server spielen können.
-
-:::note
-Cross-Play zwischen Steam & Microsoft Store/Xbox Spielversionen ist immer noch nicht möglich. Dein Server kann entweder für Steam oder für Microsoft Store/Xbox eingestellt werden.
-:::
-
-Rufe die Datei **PalWorldSettings.ini** auf deinem Server auf und füge den folgenden Ausschnitt hinzu, um den Xbox-Modus zu aktivieren:
-```
-[/Script/Pal.PalGameWorldSettings]
-OptionSettings=(AllowConnectPlatform=Xbox)
-```
-
-Speichere die Datei und das nächste Mal, wenn du den Server startest, wird er im Xbox-Modus sein.
 
 :::info
 Auf Xbox-Konsolen kannst du dich nicht direkt über die IP-Adresse verbinden. Wenn du also auf Xbox-Konsolen spielen willst, musst du deinen dedizierten Server öffentlich machen.
