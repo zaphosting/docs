@@ -1004,6 +1004,19 @@ const sidebars = {
     },
     {
       type: "category",
+      label: "DeadPoly",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "deadpoly-firststeps-dashboard",
+          ]
+        },
+      ],
+    },
+    {
+      type: "category",
       label: "Don't Starve Together",
       items: [
         {
