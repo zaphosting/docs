@@ -9,33 +9,34 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
-:::info
-ESX muss installiert sein
-:::
+
+
+## Einführung
+
+Möchtest du die verfügbaren Fahrzeuge in deinen Jobgaragen ändern oder erweitern? Im Folgenden erklären wir dir, wie du das machen kannst und welche Schritte du dabei beachten musst!
 
 <InlineVoucher />
 
-## Vorbereitungen
-
-Wir müssen zuerst sichergehen, dass "Überschreiben erzwingen" deaktiviert ist. Dafür gehen wir auf den Tab "Ressourcen".
-
-![](https://screensaver01.zap-hosting.com/index.php/s/S4yZkRDjkBjWrHN/preview)
-
-Dort entfernen wir dir dann den Haken.
-
-![](https://screensaver01.zap-hosting.com/index.php/s/PwAEFiyArJrsLif/preview)
 
 
-## Configs einstellen
+## Konfiguration
 
-Nun öffnen wir das "Configs" Tab.
+Zusätzliche Autos werden den Job-Garagen per FTP hinzugefügt. Verbinde dich dementsprechend per FTP mit deinem Gameserver. Solltest du noch nicht wissen, wie du FTP verwendest, dann schaue dir unsere [FTP-Zugriff](gameserver-ftpaccess.md) Anleitung an. 
 
-Dort warten wir nun, bis alle Configs erschienen sind, nachdem alle Configs geladen wurden, öffnen wir entweder die `esx_policejob/config.lua` oder `esx_ambulancejob/config.lua` Datei, je nachdem welche Job-Garage wir ändern können.
+Sobald du über FTP verbunden bist, navigiere zum ESX-Ressourcenordner und öffne den Ordner esx_addons. Die Ordnerstruktur sollte wie folgt aussehen: `/gXXXXXX/fivem/ESXLegacy_XXXXXX.base/resources/[esx_addons]`
 
-Hier suchen wir nach der `Config.AuthorizedVehicles` Zeile, hier sind alle Autos gelistet, welche für die verschiedenen Job-Ranks zur Verfügung stehen.
+Wähle nun z.B. den Ambulance- oder Police-Job und öffne die `config.lua` Konfigurationsdatei in den Ressourcen.
 
-:::info
-Gehe sicher, dass du am Ende der vorherigen Zeile ein Komma hast, wenn du neue Fahrzeuge einfügst, ansonsten kann es zu Problemen kommen.
+![img](https://screensaver01.zap-hosting.com/index.php/s/xQYbzYs2xAkb5fp/preview)
+
+In der Konfigurationsdatei muss der Abschnitt von Config.AuthorizedVehicles angepasst werden. Du kannst diesen über die Suchfunktion suchen und dann nach deinen Wünschen anpassen oder erweitern:
+
+![img](https://screensaver01.zap-hosting.com/index.php/s/eyK7q78aewrpJtx/preview)
+
+:::warning
+Stelle sicher, dass du ein Komma am Ende der vorherigen Zeile setzt, wenn du neue Fahrzeuge hinzufügst, sonst kann es zu Problemen kommen.
 :::
 
-Fertig! Nun können wir den Server neu starten, und die Änderung wird im Spiel erscheinen.
+## Abschluss
+Vorausgesetzt, dass du alle Schritte befolgt hast, solltest du deine Jobs-Garage nun erfolgreich angepasst oder erweitert haben. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+

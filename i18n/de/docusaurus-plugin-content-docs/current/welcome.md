@@ -22,7 +22,7 @@ Wir decken eine breite Palette an Themen ab und aktualisieren unsere Inhalte reg
 Perfektioniere und Nutze den vollen Umfang deines Gameservers. Mit unserer Expertise bringen wir dein Gaming auf ein neues Level. Unsere detaillierten Anleitungen für über 100 verschiedene Spiele und die dazugehörigen Erweiterungen/Modifikationen ermöglichen es dir, ein tiefgreifendes Verständnis für die Konfiguration und Verwaltung deiner Gameserver zu entwickeln.
 
 <Cards>
-    <Card title="FiveM" description="Placeholder" link="https://zap-hosting.com/guides/de/docs/fivem-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/PQKfzYiMAmSjXNz/preview"/>
+    <Card title="FiveM" description="Placeholder" link="https://zap-hosting.com/guides/de/docs/fivem-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/fA3eHHpGLYo74ra"/>
     <Card title="Minecraft" description="Placeholder" link="https://zap-hosting.com/guides/de/docs/minecraft-firststeps-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/e6BtaFzTZ7czqXy/preview"/>
     <Card title="SCP: Secret Laboratory" description="Placeholder" link="https://zap-hosting.com/guides/de/docs/scp-firststeps-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/b5qWPyQeoB5wN8s/preview"/>
     <Card title="Satisfactory" description="Placeholder" link="https://zap-hosting.com/guides/de/docs/satisfactory-firststeps-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/sB4kXbCDcrq77Ki/preview"/>
@@ -103,7 +103,7 @@ Perfektioniere und Nutze den vollen Umfang deines Gameservers. Mit unserer Exper
     <Card title="PixARK" description="Placeholder" link="https://zap-hosting.com/guides/de/docs/pixark-firststeps-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/QFoBF5Ttj7MLkYj/preview"/>
     <Card title="Portal Knights" description="Placeholder" link="https://zap-hosting.com/guides/de/docs/portalknights-firststeps-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/RgwDNq5YYcebjaD/preview"/>
     <Card title="Project Zomboid" description="Placeholder" link="https://zap-hosting.com/guides/de/docs/projectzomboid-firststeps-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/tYJB3JWdG9ewAmf/preview"/>
-    <Card title="RedM" description="Placeholder" link="https://zap-hosting.com/guides/de/docs/redm-firststeps-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/kbigpfsqHDsJYA4/preview"/>
+    <Card title="RedM" description="Placeholder" link="https://zap-hosting.com/guides/de/docs/redm-firststeps-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/xZqDaZo3BjtZZL8"/>
     <Card title="Reign of Kings" description="Placeholder" link="https://zap-hosting.com/guides/de/docs/reignofkings-firststeps-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/7e2dTHedn7ttHHY/preview"/>
     <Card title="RimWorld Together" description="Placeholder" link="https://zap-hosting.com/guides/de/docs/rimworldtogether-firststeps-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/7PBDBpc2ysJPWdA/preview"/>
     <Card title="Rising Storm 2" description="Placeholder" link="https://zap-hosting.com/guides/de/docs/risingstorm2-firststeps-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/ABacBei4XPSPjbS/preview"/>

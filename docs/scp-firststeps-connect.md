@@ -17,7 +17,7 @@ Are you unsure about what you need to connect to your server in general or how t
 
 <InlineVoucher />
 
-## Prerequisites
+## Preparation
 
 First of all, it is necessary to clarify which prerequisites have to be met so that a connection to the server is possible. This includes, for example, the game, additional content (extensions) and the general server information such as IP address, port and server name.
 

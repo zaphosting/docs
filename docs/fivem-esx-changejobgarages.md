@@ -9,32 +9,36 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
-:::info
-ESX must be installed
-:::
+## Introduction
+
+Would you like to change or extend the available cars in your job garages? Below we'll explain how to do this and what steps you have to follow!
 
 <InlineVoucher />
 
-## Preparations
-
-First we have to make sure that "Force overwrite" is disabled.
-To do this, we go to the Resources tab.
-
-![](https://screensaver01.zap-hosting.com/index.php/s/rtFRtmGxJcrGGQj/preview)
-
-There we will remove the checkmark.
 
 
-## Configs Setting
+## Configuration
 
-Now we open the "Configs" tab.
+Additional cars are added to the job garages via FTP. To do this, connect to your game server via FTP. If you don't know how to use FTP yet, please have a look at our [FTP access](gameserver-ftpaccess.md) guide. 
 
-There we wait until all Configs have appeared, after all Configs are loaded we open either the `esx_policejob/config.lua` or `esx_ambulancejob/config.lua` file, depending on which job garage we want to change.
+Once you are connected via FTP, navigate to the ESX resource folder and open the esx_addons folder. The folder structure should look like this: `/gXXXXXX/fivem/ESXLegacy_XXXXXX.base/resources/[esx_addons]`
 
-Here we look for the `Config.AuthorizedVehicles` line, here all cars are listed which are available for the different job ranks.
+Now select either the Ambulance or Police job, for example, and open the `config.lua` configuration file from the resources.
 
-:::info
-Make sure that you have a comma at the end of the previous line when you add new vehicles, otherwise there may be problems.
+![img](https://screensaver01.zap-hosting.com/index.php/s/xQYbzYs2xAkb5fp/preview)
+
+
+
+In the configuration file, the section of `Config.AuthorizedVehicles` has to be adjusted. You can search for it using the search feature and then adjust or extend it according to your wishes: 
+
+![img](https://screensaver01.zap-hosting.com/index.php/s/eyK7q78aewrpJtx/preview)
+
+:::warning 
+Make sure that you have a comma at the end of the previous line when you add new vehicles, otherwise issues may occur.
 :::
 
-Done! Now we can restart the server, and the change will appear ingame.
+
+
+## Conclusion
+
+Provided you have followed all the steps, you should now have successfully customized or extended your Jobs garage. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂

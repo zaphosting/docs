@@ -11,7 +11,7 @@ services:
 
 Screen is a terminal multiplexer for Unix-like operating systems, like Linux. It allows users to manage multiple terminal sessions within a single window or remote connection. In this guide, we will cover the installation steps and provide usage guidance to make you more familiar with screen.
 
-## Prerequisites
+## Preparation
 
 Before you install anything on a server, it is recommended to run the update command corresponding to your operating system to keep your server secure.
 

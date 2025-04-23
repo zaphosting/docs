@@ -10,19 +10,21 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
-## AMXmodX / Metamod installation
+## Introduction
 
 **AMXmodX** and **Metamod** is necessary to use plugins on a Counter-Strike 1.6 server. These are two Half Life extensions that allow you to customize the server even more than usual. This includes for example the use of plugins and an extended administration of your server.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/ffQxkTHtcwFo5Ea/preview)
-
 <InlineVoucher />
+
+
+
+## AMXmodX / Metamod installation
 
 ### Preparation
 
-First of all, the actual extensions are needed. The extensions can be downloaded from [amxmodx.org](https://www.amxmodx.org/downloads.php). Please always use the latest versions (**stable**), so that they are still fully functional and compatible.
+First of all, the actual extensions are needed. The extensions can be downloaded from [amxmodx.org](https://amxmodx.org/downloads-new.php). Please always use the latest versions (**stable**), so that they are still fully functional and compatible.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/XYTFC2bAAR5BFWb/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/SxJaFb7Cz79c7ER/preview)
 
 You need the Linux packages **AMX Mod X Base, Counter-Strike Addon and Metamod**. Those can be downloaded from there. Afterwards three packed files should have been downloaded. Unzip them on your computer. This should give you an **addons** folder which contains an **amxmodx** and **metamod** folder: 
 
@@ -70,3 +72,11 @@ Now when the desired plugins have been downloaded, then the actual installation 
 
 
 The next time the server starts, the uploaded plugins should then be loaded automatically. 
+
+
+
+
+
+## Conclusion
+
+Provided you have followed all the steps, you should have successfully installed AMXmodX / Metamod and your desired plugins. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂

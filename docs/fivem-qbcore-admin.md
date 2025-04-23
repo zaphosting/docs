@@ -1,7 +1,7 @@
 ---
 id: fivem-qbcore-admin
-title: "FiveM: QBCore Server Become admin"
-description: Information on how to become admin on your FiveM QBCore server. - ZAP-Hosting.com documentation
+title: "FiveM: Become admin using QBCore"
+description: Information on how to become admin using QBCore on your FiveM server - ZAP-Hosting.com documentation
 sidebar_label: Become admin
 services:
   - gameserver
@@ -14,35 +14,37 @@ The assignment of administrator permissions allows you simple and comprehensive 
 
 <InlineVoucher />
 
+
+
 ## Configuration
 
-Thanks to our web interface you can quickly and easily become an admin.
-Open the settings of your server:
+The configuration of the administrator permissions is done via the ``server.cfg`` configuration file. To do this, log into the txAdmin interface and open the CFG Editor. Then navigate to the end of the configuration file until you reach `Permissions`.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/5REAZ9XS44M8KnK/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/KPRTmPoYdsCWjGd/preview)
 
-there look for the option "Admins - Steam64 IDs (e.g. for Nucleus, vMenu, EasyAdmin)".
+QBCore supports several player identifiers, including FiveM IDs (`identifier.fivem:`), Rockstar licenses (`identifier.license:`), and Discord IDs (`identifier.discord:`). These identifiers can be retrieved directly from your txAdmin interface. In doing so, you can decide whether you want to give them GOD, Admin or Mod status.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/Ybex9S2zC6bH96D/preview)
+Once you have obtained the identifiers and decided that status you want to set, you can assign individual player permissions by adding them to your `server.cfg`. To do this, add one of these three available options as a new entry under the permissions section:
 
-in the next step you have to find out your STEAM64 ID, open one of the following pages:
+```
+add_principal identifier.license:xxxxxx qbcore.god   # Player Name
+add_principal identifier.license:xxxxxx qbcore.admin # Player Name
+add_principal identifier.license:xxxxxx qbcore.mod   # Player Name
+```
 
-- https://steamrep.com/
-- https://steamidfinder.com/
-- https://steamid.io/
+The final result could look like this, for example:
 
-in this example we use steamid.io, log in there via STEAM:
+```
+## Permissions ##
+add_ace group.admin command allow # allow all commands
+# Deployer Note: this admin master has no identifiers to be automatically added.
+# add_principal identifier.discord:111111111111111111 group.admin #example
 
-![](https://screensaver01.zap-hosting.com/index.php/s/bXtwxxgZRndBc2T/preview)
+add_principal identifier.fivem:16219250 qbcore.admin # Player Name
+```
 
-now copy your STEAM64 ID and paste it into the admins:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/kqLwo9LZd9Ce6B4/preview)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/6Z5fJR4xcTWATiF/preview)
+## Conclusion
 
-Now scroll to the end of the page and click save.
-
-:::info
-⚡ Restart your server now, then you can open the QBCore admin menu with /admin.
-:::
+Provided that you have successfully followed all the steps, you are now an admin on your own server. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂

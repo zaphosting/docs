@@ -57,49 +57,49 @@ Under the Admins section, administrators can be specified and managed. New admin
 
 ### Settings
 
-In the Settings section, you can configure a wide range of options for both txAdmin and the server itself. Due to the large number of settings available, they are categorized into the following sections: **Global**, **FXServer**, **Restarter**, **Player Manager**, **Discord**, and **Game**. Each of these will be explained in more detail below.
+In the Settings section, you can configure a wide range of options for both txAdmin and the server itself. Due to the large number of settings available, they are categorized into the following sections: **General**, **FXServer**, **Restarter**, **Player Manager**, **Discord**, and **Game**. Each of these will be explained in more detail below.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/PBE9sSfTXgsejqj/download)
+![img](https://screensaver01.zap-hosting.com/index.php/s/9r44PictxZLad6c/download)
 
-#### Global
+#### General
 
-Settings for the server name, chat/Discord message language, and ban templates can be configured under the Global section.
+Settings for the server name, chat/Discord message language, and ban templates can be configured under the General section.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/y3WMSp5PPKyyDC2/preview)
+
+
 
 #### FXServer
 
 Settings for the Server Data Folder and CFG File Path, as well as additional arguments such as activating gamemodes/DLCs, enabling/disabling OneSync, Autostart, and Quietmode, can be configured under the FXServer section.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/Gxd2LTaYCwzNN2R/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/8s5rBzAN7nsRtqe/preview)
 
 
 
-#### Restarter
+#### Bans
 
-Scheduled restarts can be configured under the Restarter section. You can also define how long to wait before starting the resources after a restart.
+In the Bans section, you can manage the ban feature. Define whether accounts are actively checked for their ban status and which message should be displayed if the connection is rejected due to a ban.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/qP27oGX8ix6gNQc/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/fTjM4EFbtB7cw4q/preview)
 
+#### Whitelist
 
+In the Whitelist section, you can manage the whitelist feature. Define whether you want to activate or deactivate the whitelist and which message should be displayed if the connection is rejected due to a missing whitelist record.
 
-#### Player Manager
-
-Settings for whitelist mode, whitelist notifications, whitelist roles, and ban checking can be configured through the Player Manager.
-
-![](https://screensaver01.zap-hosting.com/index.php/s/NK9QgdAnmoKE8Q3/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/6MyaBwRnroTSHbK/preview)
 
 #### Discord
 
 Discord integration can be activated under the Discord section, allowing information to be automatically transmitted to the linked Discord server. To enable this, the necessary details for the Discord bot must be configured.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/4FCaKgsDFH5k8qK/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/jSbXE9c23wjiKRf/preview)
 
 #### Game
 
 Under game, you can enable the txAdmin Menu for in-game use, allowing admins to access and manage the menu using the /tx command. Additional customization options for layout, button configuration for toggling switches, and notifications/warnings can also be defined.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/X5xtGGeoGq5W4Ct/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/fLo976YMdbYkHts/preview)
 
 ### System
 

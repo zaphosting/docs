@@ -39,7 +39,7 @@ Du benötigst alle relevanten Informationen, um dich mit deinem Server zu verbin
 
 Anhand der oben genannten Informationen solltest du in der Lage sein, deinen Server zu finden und sicherzustellen, dass du dich mit dem richtigen Server verbindest. 
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/3Rs26cDzCZfAP8Q/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/FgXYcYgoiCwbCT6/preview)
 
 ## Verbindung zum Server herstellen
 

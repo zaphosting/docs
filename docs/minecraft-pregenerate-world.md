@@ -16,7 +16,7 @@ Do you want to generate your world quickly, efficiently and safely in advance, r
 
 
 
-## Prerequisites
+## Preparation
 
 First of all, you must ensure that your server is designed for the use of plugins or mods. The use of one of the following Minecraft variants is required for use: 
 

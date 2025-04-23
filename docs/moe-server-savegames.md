@@ -15,7 +15,7 @@ In this guide, you will explore how to manage your Myth of Empires Gamesaves on 
 
 <InlineVoucher />
 
-## Prerequisites
+## Preparation
 
 In order to access your server files, you will require an FTP Client such as [WinSCP](https://winscp.net/eng/index.php) or [FileZilla](https://filezilla-project.org/) which are both open-source and free to download.
 

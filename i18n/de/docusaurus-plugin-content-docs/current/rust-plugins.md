@@ -9,13 +9,13 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
-## Plugins installieren
+## Einführung
 
-Mit Plugins hast du die Möglichkeit, deinen Server noch individueller anzupassen. Im Folgenden wird erklärt, wo du die beliebtesten Servers-Plugins finden kannst und wie du diese eingerichtet werden. 
+Plugins ermöglichen es dir, deinen Server noch weiter zu erweitern und individuell anzupassen. Im Folgenden erklären wir dir, wo du die am häufigsten genutzten Plugins findest und wie du sie einrichtest.
 
 <InlineVoucher />
 
-### Vorbereitung
+## Vorbereitung
 
 Zunächst einmal müssen die Plugins heruntergeladen werden, die auf dem Server installiert werden sollen. Eine große Auswahl an Plugins findest du unter [umod.org (ehemals OXIDE)](https://umod.org/plugins). Beim Download erhältst du dann eine **.cs** Datei. 
 
@@ -23,15 +23,13 @@ Zunächst einmal müssen die Plugins heruntergeladen werden, die auf dem Server 
 
 
 
-### Installation
+## Installation
 
-Nun, wenn die gewünschten Plugins heruntergeladen wurden, dann kann mit der eigentlichen Installation der Plugins angefangen werden. Die Einrichtung der Plugins erfolgt per FTP. Um Dateien auf deinen Server hochladen zu können, benötigst du einen FTP-Client. Falls du noch nicht weißt, was FTP ist und wie es funktioniert, dann schaue dir am besten die folgende Anleitung an: [Zugriff per FTP](gameserver-ftpaccess.md)
+Sobald die gewünschten Plugins heruntergeladen worden sind, kannst du mit der Installation fortfahren. Dies geschieht über **FTP**, daher benötigst du einen FTP-Client, um die Dateien auf deinen Server hochzuladen. Falls du noch nicht mit FTP und dessen Funktionsweise vertraut bist, schaue dir bitte die [FTP Zugang](gameserver-ftpaccess.md) Anleitung an.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/BJ5m72WYox4wRdC/preview)
+Das richtige Plugin Verzeichnis findest du unter: `/gXXXXXX/rust-oxide/oxide/plugins`. Lade einfach die heruntergeladenen `.cs` Plugin-Dateien in diesen Ordner hoch. Nach dem Hochladen sollte es ungefähr so aussehen:
 
-Unter dem ``/gXXXXXX/rust-oxide/oxide`` Verzeichnis findest du den **Plugins** Ordner. Dort werden deine ausgewählten Plugins dann in das Verzeichnis hochgeladen. Das Ganze kann dann wie folgt aussehen:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/9XfHDR7WN7cfCRF/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/G8iWxrxrc7zw4QK/preview)
 
 Mehr muss nicht gemacht werden. Damit ist die Installation bereits abgeschlossen. Im Anschluss kannst du in der Live-Konsole nachschauen, ob das Plugin erfolgreich kompiliert und geladen wurde. Die Ausgabe sollte dann wie folgt aussehen:
 
@@ -43,3 +41,8 @@ Loaded plugin Admin Logger v2.3.4 by AK
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 ```
 
+
+
+## Abschluss
+
+Wenn du alle Schritte befolgt hast, solltest du dein Plugin erfolgreich installiert haben. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂

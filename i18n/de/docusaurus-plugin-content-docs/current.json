@@ -706,5 +706,13 @@
   "sidebar.gameserverSidebar.category.Bedrock": {
     "message": "Bedrock",
     "description": "The label for category Bedrock in sidebar gameserverSidebar"
+  },
+  "sidebar.gameserverSidebar.category.Wreckfest 2": {
+    "message": "Wreckfest 2",
+    "description": "The label for category Wreckfest 2 in sidebar gameserverSidebar"
+  },
+  "sidebar.gameserverSidebar.category.DeadPoly": {
+    "message": "DeadPoly",
+    "description": "The label for category DeadPoly in sidebar gameserverSidebar"
   }
 }

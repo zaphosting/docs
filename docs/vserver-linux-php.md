@@ -15,7 +15,7 @@ PHP is a popular general-purpose programming language with significant usage in 
 
 <InlineVoucher />
 
-## Prerequisites
+## Preparation
 
 Begin by connecting to your server via SSH. If you don't know how to do this, please have a look at our [Initial access (SSH)](vserver-linux-ssh.md) guide.
 

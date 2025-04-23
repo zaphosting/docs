@@ -15,7 +15,7 @@ Windows OS provides built-in user management allowing you to easily manage addit
 
 <InlineVoucher />
 
-## Prerequisites
+## Preparation
 
 Begin by connecting to your Windows server via RDP. If you need help doing this, please refer to our [Initial Access (RDP)](vserver-windows-userdp.md) guide.
 

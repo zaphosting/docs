@@ -16,7 +16,7 @@ Are you interested in our powerful webspace product offerings and are looking to
 
 <InlineVoucher />
 
-## Prerequisites
+## Preparation
 
 Before continuing with the guide, ensure that you have the following prepared:
 - A domain, with admin access to manage DNS Settings.

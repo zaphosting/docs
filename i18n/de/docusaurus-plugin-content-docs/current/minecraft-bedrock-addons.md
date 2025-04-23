@@ -18,7 +18,7 @@ Minecraft Bedrock Edition bietet native Modding-Unterstützung und eine große C
 
 ## Vorbereitung
 
-Um ein Addon auf deinem Minecraft: Bedrock Server zu installieren, musst du dich per FTP mit dem Server verbinden. Falls du damit nicht vertraut bist, empfehlen wir dir, einen Blick in die [FTP-Zugriff](gameserver-ftpaccess.md) Anleitung zu werfen.
+Um ein Addon auf deinem Minecraft: Bedrock Server zu installieren, musst du dich per FTP verbinden. Falls du damit nicht vertraut bist, empfehlen wir dir, einen Blick in die [FTP-Zugriff](gameserver-ftpaccess.md) Anleitung zu werfen.
 
 Bevor du mit der Installation fortfährst, musst du auch Addons finden, die du auf deinem Server installieren möchtest. Wir empfehlen dir, auf [CurseForge](https://www.curseforge.com/minecraft-bedrock) zu stöbern, da sie eine riesige Bibliothek von Ressourcenpaketen und Verhaltenspaketen bieten, die von der Community erstellt wurden.
 

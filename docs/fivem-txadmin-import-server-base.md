@@ -14,9 +14,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Have you found a ready-made server on the Internet and want to upload it to your own server? No problem! With txAdmin, you can import a ready-made server quickly and easily - provided you take care of a few important requirements and details. In this guide, we will show how you can import a server base.
 
-:::warning txAdmin required
-If your game server **does not contain** TxAdmin, you can change the game to **Five: txAdmin** in the game server administration under Games. See our [Game Change](gameserver-gameswitch.md) guide for futher help.
-:::
+
 
 <InlineVoucher />
 
@@ -33,17 +31,17 @@ The content of a server base may differ depending on the type and content of the
 The **data (`server.cfg`, `resources`)** of your downloaded server base must be uploaded to your game server. The **SQL file** must be imported into the ZAP database provided by us. 
 
 ### Server files
-The upload of your Server Base data is realized via FTP. If you don't yet know exactly how this works, then have a look at the following guide: [Access via FTP](gameserver-ftpaccess.md)
+The upload of your Server Base data is realized via FTP. If you don't yet know exactly how this works, then have a look at the following guide: [FTP access](gameserver-ftpaccess.md)
 
-Connect to your game server via FTP and navigate to the `gta5-fivem-txadmin` folder. Create a folder for your server base there, if it doesn't exist yet. In this example, the name **ExampleServer** is used for the finished server base.
+Connect to your game server via FTP and navigate to the `fivem` folder. Create a folder for your server base there, if it doesn't exist yet. In this example, the name **ExampleServer** is used for the finished server base.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/RaryRsewG8xnqDa/download)
+![img](https://screensaver01.zap-hosting.com/index.php/s/HzDrADKgK3rqfKm/download)
 
 
 
 Once the folder has been created, the Server Base data must now be uploaded. To do this, navigate to your newly created folder and upload the resource folder and your server config. The result should look like this:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/BpsWZrBWsxbJzRm/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/xyAZyt8W5XcxGaF/preview)
 
  
 
@@ -81,11 +79,11 @@ Under Deployment Type, you now need to choose how you would like to set up your 
 
 ### Selecting the Paths
 
-Next, the path where your server base is located must be specified. The folder structure starts as follows and must also be extended with your defined server base name: `/home/zapXXXXX/gXXXXXXXX/gta5-fivem-txadmin/ExampleServer`.
+Next, the path where your server base is located must be specified. The folder structure starts as follows and must also be extended with your defined server base name: `/home/zapXXXXX/gXXXXXXXX/fivem/ExampleServer`.
 
 You can simply copy and paste the specified folder structure as shown in the screenshot and then add the name of your previously created Server Base folder. The result should look like this:
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/acsKPmPt2xpjPqm/download)
+![img](https://screensaver01.zap-hosting.com/index.php/s/eDPeDzSqfMbk7Tg/download)
 
 
 

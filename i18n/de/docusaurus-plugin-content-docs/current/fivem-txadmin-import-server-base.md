@@ -14,10 +14,6 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Du hast einen vorgefertigten Server im Internet gefunden und möchtest ihn bei deinem eigenen Server hochladen? Kein Problem! Mit txAdmin kannst du schnell und unkompliziert einen vorgefertigten Server importieren – vorausgesetzt, du beachtest einige wichtige Anforderungen und Details. Wir zeigen dir, worauf du achten musst und wie der Import Vorgang genau umgesetzt wird.
 
-:::warning txAdmin benötigt
-Wenn dein Gameserver **nicht** TxAdmin enthält, kannst du das Spiel in der Gameserververwaltung unter Spiele auf **Five: txAdmin** ändern. Mehr dazu findest du in der [Spielwechsel](gameserver-gameswitch.md) Anleitung.
-:::
-
 <InlineVoucher />
 
 ## Vorbereitung
@@ -33,17 +29,17 @@ Der Inhalt einer Server Base kann sich je nach Art und Inhalt des Servers von de
 Die **Daten (`server.cfg`, `resources`)**  deiner heruntergeladenen Server Base müssen bei deinem Gameserver hochgeladen werden. Die **SQL-Datei** muss wiederum in die von uns bereitgestellten ZAP-Datenbank importiert werden. 
 
 ### Server Dateien
-Das Hochladen der Daten deiner Server Base wird per FTP realisiert. Solltest du noch nicht wissen, wie das genau funktioniert, dann schaue dir dazu am besten die folgende Anleitung an: [Zugriff per FTP](gameserver-ftpaccess.md)
+Das Hochladen der Daten deiner Server Base wird per FTP realisiert. Solltest du noch nicht wissen, wie das genau funktioniert, dann schaue dir dazu am besten die folgende Anleitung an: [FTP-Zugriff](gameserver-ftpaccess.md)
 
-Verbinde dich per FTP mit deinem Gameserver und navigiere zum `gta5-fivem-txadmin` Ordner. Erstelle dort einen Ordner für deine Server Base, sofern noch nicht vorhanden. In diesem Beispiel wird für die fertige Server Base der Name **ExampleServer** verwendet.
+Verbinde dich per FTP mit deinem Gameserver und navigiere zum `fivem` Ordner. Erstelle dort einen Ordner für deine Server Base, sofern noch nicht vorhanden. In diesem Beispiel wird für die fertige Server Base der Name **ExampleServer** verwendet.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/RaryRsewG8xnqDa/download)
+![img](https://screensaver01.zap-hosting.com/index.php/s/HzDrADKgK3rqfKm/download)
 
 
 
 Nach Erstellung des Ordners müssen nun die Daten der Server Base hochgeladen. Navigiere dazu in deinen neu angelegten Ordner und lade den Resource Ordner und deine Server Konfigurationsdatei hoch. Das Ergebnis sollte im Anschluss wie folgt aussehen:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/BpsWZrBWsxbJzRm/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/xyAZyt8W5XcxGaF/preview)
 
  
 
@@ -81,11 +77,11 @@ Beim Deployment Type musst du nun auswählen, wie du deinen Server einrichten m�
 
 ### Auswahl des Verzeichnis
 
-Als Nächstes muss der Pfad angegeben, wo sich deine Server Base befindet. Die Verzeichnisstruktur beginnt wie folgt und muss mit deinem definierten Server Base Namen zusätzlich ergänzt werden: `/home/zapXXXXX/gXXXXXX/gta5-fivem-txadmin/ExampleServer`
+Als Nächstes muss der Pfad angegeben, wo sich deine Server Base befindet. Die Verzeichnisstruktur beginnt wie folgt und muss mit deinem definierten Server Base Namen zusätzlich ergänzt werden: `/home/zapXXXXX/gXXXXXX/fivem/ExampleServer`
 
 Die vorgegebene Verzeichnisstruktur kannst du wie im Screenshot dargestellt einfach kopieren, einfügen und dann mit dem Namen deines zuvor angelegten Server Base Ordners im Anschluss ergänzen. Das Ergebnis sollte wie folgt aussehen:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/acsKPmPt2xpjPqm/download)
+![img](https://screensaver01.zap-hosting.com/index.php/s/eDPeDzSqfMbk7Tg/download)
 
 
 
