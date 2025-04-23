@@ -239,7 +239,9 @@ const sidebars = {
           items: [
             "fivem-txadmin-setup",
             "fivem-txadmin-features",
+            "fivem-txadmin-discord-bot",
             "fivem-txadmin-import-server-base"
+            
           ]
         },
         {
