@@ -18,7 +18,7 @@ In dieser Anleitung lernst du, wie du eine Firewall einrichtest und diese Verbin
 
 ## Vorbereitung
 
-Um die Firewall zu installieren, musst du dich per SSH mit deinem Server verbinden. Falls du nicht weißt wie, schau dir unsere [Zugriffsanleitung](vserver-linux-ssh.md) an.  
+Um die Firewall zu installieren, musst du dich per SSH mit deinem Server verbinden. Falls du nicht weißt wie, schau dir unsere [Erstzugriff via SSH Anleitung](vserver-linux-ssh.md) an.  
 Nachdem du verbunden bist, solltest du den Server mit `apt update` und `apt upgrade` aktualisieren.
 
 ## Nutzung von UFW (Einfach)
