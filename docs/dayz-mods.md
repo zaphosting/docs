@@ -27,10 +27,8 @@ The next step is to start installing the mods. Thanks to the Steam Workshop opti
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/j8ki4CQ6MALAgcX/preview)
 
-Following this, the mods need to be registered in the settings of your game server management. Enter the added mods into the Mods field and click Save.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/mBKesk6yFBFt35z/preview)
 
 ## Conclusion
 
-With the next server restart, the mods will be automatically downloaded, installed, and immediately available for use!
+Provided that you have followed all the steps, you have successfully installed the mods on your server. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
