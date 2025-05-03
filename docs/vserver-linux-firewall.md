@@ -18,7 +18,7 @@ In this guide, you will learn how to set up a firewall and allow those connectio
 
 ## Preparation
 
-To install the firewall, you need to connect to your server via SSH. If you don't know how, you can look at our [initial access guide](vserver-linux-ssh.md).
+To install the firewall, you need to connect to your server via SSH. If you don't know how, you can look at our [initial access](vserver-linux-ssh.md) guide.
 After connecting, you should update the server by using `apt update` and `apt upgrade`.
 
 ## Using UFW (Easy) 
@@ -48,9 +48,7 @@ Now you should allow the SSH connection and any other port you want to open now:
 `sudo ufw allow 25565` example for a Minecraft Server
 
 
-To enable UFW, you have to run `sudo ufw enable`.
-
-You can always open more ports, if needed, using `sudo ufw allow PORT`
+To enable UFW, you have to run `sudo ufw enable`. You can always open more ports, if needed, using `sudo ufw allow PORT`
 
 
 ### Add Port Forwardings
@@ -71,11 +69,9 @@ Example: `sudo ufw allow 9987/udp` for a TeamSpeak 3 server
 
 ### List and remove Port Forwardings
 
-To display all port rules, you can run `sudo ufw status numbered`
+To display all port rules, you can run `sudo ufw status numbered`. If you want to remove a rule, you can `sudo ufw delete NUMBER`, using the number of the rule in the list.
 
-If you want to remove a rule, you can `sudo ufw delete NUMBER`, using the number of the rule in the list.
-
-## Installing IPTables (Complicated)
+## Installing IPTables (Advanced)
 
 Most System already include IPTables by default, but to make sure you can run `sudo apt install iptables`.
 
@@ -101,13 +97,7 @@ Now you should allow the SSH connection and any other port you want to open now:
 
 `sudo iptables -A INPUT -p tcp --dport 25565 -j ACCEPT` example for a Minecraft Server
 
-Then you have to make the rules persistent, so they are still active after you restart the server.
-
-Install the IPTables persistent package using `sudo apt install iptables-persistent`.
-
-Then apply it using `sudo netfilter-persistent save`.
-
-And add it to the autostart with `sudo systemctl enable netfilter-persistent`.
+Then you have to make the rules persistent, so they are still active after you restart the server. Install the IPTables persistent package using `sudo apt install iptables-persistent`. Then apply it using `sudo netfilter-persistent save`. And add it to the autostart with `sudo systemctl enable netfilter-persistent`.
 
 ### Add Port Forwardings
 
@@ -128,9 +118,7 @@ Example: `sudo iptables -A INPUT -p udp --dport 9987 -j ACCEPT` for a TeamSpeak 
 
 ### List and remove Port Forwardings
 
-You can display all rules using this command: `sudo iptables -L --line-numbers`
-
-If you want to remove a rule, you use `sudo iptables -D INPUT NUMBER` replacing `NUMBER` with the one from the list you want to remove.
+You can display all rules using this command: `sudo iptables -L --line-numbers`. If you want to remove a rule, you use `sudo iptables -D INPUT NUMBER` replacing `NUMBER` with the one from the list you want to remove.
 
 ## Conclusion
 
