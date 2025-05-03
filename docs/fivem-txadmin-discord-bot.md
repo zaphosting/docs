@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
 ## Introduction
-The txAdmin panel brings a lot of features for your FiveM or RedM server, including a Discord bot integration.
+The txAdmin panel brings a lot of features for your FiveM server, including a Discord bot integration.
 In this guide, we will show you how to set the Discord bot up and how to use it.
 
 <InlineVoucher />
@@ -21,7 +21,7 @@ In this guide, we will show you how to set the Discord bot up and how to use it.
 To set up the Discord bot for your txAdmin server, you first have to login to your txAdmin Panel.
 The login information is displayed on the server's overview page, as shown here:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/eMFXwb5pQA8HEbF/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/69LdTK3FyNZNXid/download)
 
 :::info
 
@@ -60,11 +60,10 @@ On the same page, you have to scroll a little down and enable the "Server Member
 
 ### Inviting Bot to your Discord
 
-To invite the bot, you have to insert the previously noted client ID in the following link at the appropriate place and then open the link in your browser and add the bot to your Discord server.
-
-It should look like this example:
-
-**https://discordapp.com/oauth2/authorize?&client_id=1364549558197026816&scope=bot&permissions=18432**
+To invite the bot, you have to insert the previously noted client ID in the following link at the appropriate place and then open the link in your browser and add the bot to your Discord server. It should look like this example:
+```
+https://discordapp.com/oauth2/authorize?&client_id=1364549558197026816&scope=bot&permissions=18432
+```
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/yKX4ocRtrZ7zLWB/preview)
 
@@ -104,4 +103,4 @@ Everything in that message can be customized on the Discord settings page within
 
 ## Conclusion
 
-Setting up a Discord bot for txAdmin allows you to easily display your FiveM or RedM server status and other information in your Discord server. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
+Setting up a Discord bot for txAdmin allows you to easily display your FiveM server status and other information in your Discord server. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
