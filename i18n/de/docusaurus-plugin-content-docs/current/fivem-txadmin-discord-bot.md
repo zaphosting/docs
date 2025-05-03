@@ -1,6 +1,6 @@
 ---
 
-id: fivem-txadmin-discord-Bot  
+id: fivem-txadmin-discord-bot
 title: "FiveM: txAdmin Discord Bot"  
 description: Informationen zur Einrichtung des Discord Bots für einen FiveM txAdmin Server von ZAP-Hosting – ZAP-Hosting.com Dokumentation  
 sidebar_label: txAdmin Discord Bot  
@@ -94,6 +94,6 @@ Du kannst optional eine Statusnachricht senden lassen, die den aktuellen Servers
 
 Alles in dieser Nachricht kannst du in den Discord-Einstellungen innerhalb von txAdmin anpassen.
 
-## Fazit
+## Abschluss
 
 Die Einrichtung eines Discord Bots für txAdmin ermöglicht es dir, den Status deines FiveM Servers sowie weitere Informationen direkt auf deinem Discord-Server anzuzeigen. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
