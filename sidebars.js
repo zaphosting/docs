@@ -2445,6 +2445,7 @@ const sidebars = {
         'vserver-linux-sshkey',
         'vserver-linux-ssh2fa',
         'vserver-ssh-default',
+        'vserver-linux-firewall',
         'vserver-linux-password-change',
         'vserver-linux-gs-interface',
         'vserver-linux-add-ip',
