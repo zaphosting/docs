@@ -27,12 +27,8 @@ Im nächsten Schritt kann mit der Installation der Mods begonnen werden. Die Ins
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/WoSs87dc7RZ3pEC/preview)
 
-Im Anschluss müssen nun noch die Mods unter den Einstellungen in deiner Gameserver Verwaltung hinterlegt werden. Trage dafür die hinzugefügten Mods in das Mods Feld ein und klicke auf Speichern. 
 
 
+## Abschluss
 
-![](https://screensaver01.zap-hosting.com/index.php/s/mBKesk6yFBFt35z/preview)
-
-## Ergebnis
-
-Mit dem nächsten Serverstart werden die Mods automatisch heruntergeladen, installiert und können von dir umgehend verwendet werden! 
+Vorausgesetzt, dass du alle Schritte befolgt hast, hast du die Mods erfolgreich auf deinem Server installiert. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
