@@ -33,6 +33,6 @@ Im Anschluss müssen nun noch die Mods unter den Einstellungen in deiner Gameser
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/mBKesk6yFBFt35z/preview)
 
-## Ergebnis
+## Abschluss
 
-Mit dem nächsten Serverstart werden die Mods automatisch heruntergeladen, installiert und können von dir umgehend verwendet werden! 
+Vorausgesetzt, dass du alle Schritte befolgt hast, hast du die Mods erfolgreich auf deinem Server installiert. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
