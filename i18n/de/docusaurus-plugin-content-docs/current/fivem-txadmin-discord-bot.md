@@ -52,7 +52,7 @@ Gib den Bot Token niemals weiter, damit dein Bot störungsfrei funktioniert und 
 
 Auf derselben Seite musst du etwas nach unten scrollen und die Option „Server Members Intent“ aktivieren. Vergiss nicht, deine Änderungen zu speichern:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/5ypmywwPJxRAFax/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/c5SnKpn4GXtGM38/preview)
 
 ### Bot zu deinem Discord einladen
 

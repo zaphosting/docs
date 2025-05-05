@@ -11,59 +11,80 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 <InlineVoucher />
 
-## Voiceserver mit deinem TeamSpeak verbinden
+## Bot mit deinem TeamSpeak verbinden
 
-Um deinen Voicebot mit deinem Ts3 zu verbinden, musst du diesen im Interface aufrufen. Im Anschluss gehst du links auf die **Server-Einstellungen**.
+Um deinen Voicebot mit deinem TeamSpeak 3 Server zu verbinden, musst du ihn im Webinterface aufrufen. Danach gehst du links auf **Server-Einstellungen**, wie unten gezeigt:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/33GFSgBFt7EqE8r/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/wp2ttHJyJeWbS44/preview)
 
-Nun kannst du unter **Server-Einstellungen** einen Ts3 auswählen, falls dieser ebenfalls mit deinem Account gebucht worden ist. Sollte dieser extern gehostet sein, kannst du dort **Anderer Teamspeak Server** auswählen.
+Jetzt kannst du unter **Server-Einstellungen** einen TeamSpeak auswählen, falls dieser ebenfalls mit deinem Account gebucht wurde. Falls dieser extern gehostet ist, kannst du dort auch **Anderer Teamspeak Server** auswählen.
 
-Im Anschluss können unten die Daten eingetragen werden. Dann nur noch abspeichern und schon verbindet sich der Voicebot mit deinem Ts3 Server.
+Die Daten können dann unten eingetragen werden, einfach speichern und der Voicebot verbindet sich mit deinem TeamSpeak 3 Server, hier ein Beispiel:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/DP3FmBCPTqorRDt/preview)
-
-
-## Voicebot mit deinem Discord verbinden
-
-Um deinen Voicebot mit deinem Discord zu verbinden, musst du dich in die Servereinstellungen begeben. Unter **Server-Einstellungen** musst du dann **Discord** auswählen.
+![](https://screensaver01.zap-hosting.com/index.php/s/fB7bF4XdcxPsjfm/preview)
 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/pCKXSZFoibySJBD/preview)
+## Bot mit deinem Discord verbinden
 
-Im Anschluss muss der **Discord Bot Token** und die **Discord Bot Client-ID** eingetragen werden. Anschließend verbindet sich der Voicebot mit deinem Discordserver.
+Um deinen Voicebot mit deinem Discord zu verbinden, musst du auf **Server-Einstellungen** gehen, dann musst du **Discord** auswählen.
 
+![](https://screensaver01.zap-hosting.com/index.php/s/fCDKT64FHF4DN5j/preview)
 
-## Discord Bot Token/Id besorgen
-
-Da dein Discordserver keine direkte IP-Adresse oder einen Port hat, sind ein paar Schritte zur Vorbereitung notwendig, bevor du deinen Bot auf einem Discordserver verwenden kannst.
-
-### Schritt 1: Eine Discord-Anwendung erstellen
-Als Erstes musst du eine Discord-Anwendung erstellen. Dein Bot wird dieser anschließend zugeordnet und agiert unter deren Namen. Um eine solche Anwendung zu erstellen, klicke bitte auf diesen Link: https://discordapp.com/developers/applications/me/
-
-Nun erstellst du per Klick auf **New App** eine neue Anwendung.
-Jetzt kannst du einen Namen vergeben:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/eFMoxX5pjrwoMcP/preview)
-
-Anschließend erstellst du die App mit einem Klick auf **Create App**. Für die folgenden Schritte notiere dir bitte schon jetzt die Client-ID:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/NXH4m7CLEQkNq6x/preview)
+Der **Discord Bot Token** und die **Discord Bot Client ID** müssen dann eingetragen werden. Danach verbindet sich der Voicebot mit deinem Discord-Server.
 
 
-### Schritt 2: Einen Bot-User erstellen
-Deine Anwendung braucht jetzt noch einen User, den der Bot nutzen kann, um sich mit deinem Server zu verbinden.
-Diesen erstellst du ganz einfach per Klick auf **Create a Bot User**. Dann erhältst du einen User-Token. Bitte notiere dir auch diesen:
+## Deinen Discord Bot Token und die Client ID erhalten
 
-![](https://screensaver01.zap-hosting.com/index.php/s/kDPgqQSEe3FJZd8/preview)
+Da dein Discord-Server keine direkte IP-Adresse oder Port hat, gibt es ein paar Schritte zur Vorbereitung, bevor du deinen Bot auf einem Discord-Server nutzen kannst.
 
->**Wichtig: Bitte verrate den Bot-Token niemandem, damit dein Bot ungestört arbeiten kann. Der Token ist wie ein geheimer Schlüssel.**
 
-### Schritt 3: Den Bot zum Server einladen
-Um den Bot einzuladen, musst du die vorher notierte Client-ID in folgenden Link an der entsprechenden Stelle einfügen und den Link dann in deinem Browser aufrufen:
+### Eine Discord-Anwendung erstellen
 
->**https://discordapp.com/oauth2/authorize?&client_id=CLIENT_ID&scope=bot&permissions=0**
+Zuerst musst du eine Discord-Anwendung erstellen. Dein Bot wird dieser dann zugewiesen und agiert unter deren Namen. Um so eine Anwendung zu erstellen, rufe bitte das [Discord Developer Portal](https://discord.com/developers/applications/) auf.
 
-### Schritt 4: Das Webinterface konfigurieren
-Nun fügst du den vorher notierten Token sowie die Client-ID noch in die dafür vorgesehenen Felder im ZAP-Hosting Webinterface ein und drückst auf **Speichern**.
-Anschließend kannst du den Bot starten. Er sollte sich dann innerhalb von ca. 10 Sekunden mit deinem Discord-Server verbinden. Falls du Hilfe brauchst, wende dich gerne an unseren Support!
+Jetzt erstellst du eine neue Anwendung, indem du auf **New Application** klickst und kannst nun einen Namen vergeben, wie unten zu sehen:
+
+![](https://screensaver01.zap-hosting.com/index.php/s/YPbPtRaPEHZ7pB4/preview)
+
+Dann erstellst du die Anwendung mit einem Klick auf **Create**. Für die folgenden Schritte notiere dir bitte jetzt die Application ID:
+
+![](https://screensaver01.zap-hosting.com/index.php/s/tzBNzKBGzX8j4EK/preview)
+
+
+### Bot konfigurieren und Token erhalten
+
+Beim Erstellen einer Anwendung wird automatisch auch ein Bot erstellt. Du kannst ganz einfach den Token erhalten, indem du auf **Reset Token** klickst. Danach bekommst du einen Nutzer-Token, den du dir ebenfalls notieren oder irgendwo aufschreiben solltest:
+
+![](https://screensaver01.zap-hosting.com/index.php/s/5ypmywwPJxRAFax/preview)
+
+:::caution
+Gib den Bot-Token niemandem weiter, damit dein Bot ungestört funktioniert und kein Sicherheitsproblem entsteht. Der Token ist wie ein geheimer Schlüssel und sollte nicht weitergegeben werden.
+:::
+
+Auf derselben Seite musst du etwas nach unten scrollen und die Optionen **Presence Intent**, **Server Members Intent** und **Message Content Intent** aktivieren, danach speicherst du deine Änderungen:
+
+![](https://screensaver01.zap-hosting.com/index.php/s/3Lkbs5Yb9grgrJ7/preview)
+
+
+### Bot zu deinem Discord einladen
+
+Um den Bot einzuladen, musst du die zuvor notierte Client ID an der passenden Stelle in den folgenden Link einfügen, den Link dann im Browser öffnen und den Bot zu deinem Discord-Server hinzufügen. Der Link sollte so aussehen wie in diesem Beispiel:
+
+```
+https://discordapp.com/oauth2/authorize?&client_id=1364549558197026816&scope=bot&permissions=0
+```
+
+![](https://screensaver01.zap-hosting.com/index.php/s/yKX4ocRtrZ7zLWB/preview)
+
+
+### Bot im Panel konfigurieren
+
+Jetzt trägst du den zuvor notierten Token und die Client ID in die dafür vorgesehenen Felder im ZAP-Hosting Webinterface ein und klickst unten auf **Speichern**:
+
+![](https://screensaver01.zap-hosting.com/index.php/s/TF8wdNbYJssrKXQ/preview)
+
+Danach kannst du den Bot starten. Er sollte sich dann innerhalb von ca. 10 Sekunden mit deinem Discord-Server verbinden. 
+
+## Fazit
+
+Der Voicebot ist ein sehr nützliches und spaßiges Produkt für viele Leute. Du kannst ihn entweder auf einem TeamSpeak-Server oder auf Discord verwenden. Bei weiteren Fragen oder wenn du Hilfe brauchst, kannst du dich jederzeit an unser Support-Team wenden – wir sind jederzeit für dich da! 🙂

@@ -56,7 +56,7 @@ Do not reveal the bot token to anyone so that your bot can work undisturbed and 
 
 On the same page, you have to scroll a little down and enable the "Server Members Intent" and save your changes:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/5ypmywwPJxRAFax/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/c5SnKpn4GXtGM38/preview)
 
 ### Inviting Bot to your Discord
 
