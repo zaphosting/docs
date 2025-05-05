@@ -21,26 +21,6 @@ In many cases, one or more files with the file extension **.sql** will be enclos
 
 <InlineVoucher />
 
-## Preparation of your database
-
-To begin, you must access the **Settings** section on your game server webinterface.
-
-![](https://github.com/zaphosting/docs/assets/42719082/9947f778-770c-48ae-89c3-04f455862515)
-
-You must active the **Configure database** section. By default, this should be enabled. However, check this by scrolling down, finding the correct subsection and setting this to `Yes, configure automatically!` if it's not set yet. Now scroll to the bottom of the page and ensure that you press the **Save** button.
-
-![](https://github.com/zaphosting/docs/assets/42719082/8540c281-1ded-45c9-8a56-e0e429445b62)
-
-:::important
-Ensure that you scroll to the bottom of the page and press the **Save** button, otherwise your changes might not be saved.
-:::
-
-Now, you must navigate to the **Resources** section on your game server webinterface. Here, you must install the `MySQL-Async` resource if it's not installed yet. This must be installed in order to allow the server to communicate with your database.
-
-![](https://github.com/zaphosting/docs/assets/42719082/7fd2f70a-bd2e-4235-adcf-8801c6b1388b)
-
-You have now configured your database to work with your game server and it is ready to be used.
-
 ## Preparing the SQL file
 
 In this example, we will be importing the SQL file for **ESX**. You should prepare the SQL file for the resource that you want to import it for. You can do this by opening the folder of your resource which requires a database and finding a file with the **.sql** file extension.
@@ -89,4 +69,6 @@ Finally, press the **Import** button at the bottom of the page to start the impo
 
 ![](https://github.com/zaphosting/docs/assets/42719082/5fef5d58-78f1-4b59-bc3e-1e0af2ff981b)
 
-You have successfully imported an SQL file to your game server's database!
+## Conclusion
+
+Importing an SQL File for your FiveM server is necessary to use a lot of resources without any problems. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂

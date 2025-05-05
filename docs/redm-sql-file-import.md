@@ -21,26 +21,6 @@ Not all resources require a database to function! When you download a resource, 
 
 In many cases, one or more files with the file extension **.sql** will be enclosed within the download files for the resource. These must be imported into the database.
 
-## Preparation of your database
-
-To begin, you must access the **Settings** section on your game server webinterface.
-
-![](https://github.com/zaphosting/docs/assets/42719082/a9d59d0b-3b6c-4e1b-be73-2e3609418169)
-
-You must active the **Configure database** section. By default, this should be enabled. However, check this by scrolling down, finding the correct subsection and setting this to `Yes, configure automatically!` if it's not set yet. Now scroll to the bottom of the page and ensure that you press the **Save** button.
-
-![](https://github.com/zaphosting/docs/assets/42719082/4435a48e-6998-459f-8377-15ff8b97f055)
-
-:::important
-Ensure that you scroll to the bottom of the page and press the **Save** button, otherwise your changes might not be saved.
-:::
-
-Now, you must navigate to the **Resources** section on your game server webinterface. Here, you must install the `MySQL-Async` resource if it's not installed yet. This must be installed in order to allow the server to communicate with your database.
-
-![](https://github.com/zaphosting/docs/assets/42719082/60dcb5f0-5bd9-4955-bc11-551082e1ab91)
-
-You have now configured your database to work with your game server and it is ready to be used.
-
 ## Preparing the SQL file
 
 In this example, we will be importing the SQL file for the RP framework **RedEM**. You should prepare the SQL file for the resource that you want to import it for. You can do this by opening the folder of your resource which requires a database and finding a file with the **.sql** file extension.
@@ -91,3 +71,8 @@ Finally, press the **Import** button at the bottom of the page to start the impo
 ![](https://github.com/zaphosting/docs/assets/42719082/5fef5d58-78f1-4b59-bc3e-1e0af2ff981b)
 
 You have successfully imported an SQL file to your game server's database!
+
+
+## Conclusion
+
+Importing an SQL File for your RedM server is necessary to use a lot of resources without any problems. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
