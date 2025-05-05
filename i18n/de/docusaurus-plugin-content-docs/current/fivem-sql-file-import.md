@@ -13,7 +13,8 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Viele der Ressourcen für FiveM benötigen eine Datenbank, um ordnungsgemäß zu funktionieren. Daher ist es wichtig, dass du die mit deinen Ressourcen gelieferten SQL-Dateien korrekt in deine Datenbank importierst, um sicherzustellen, dass die Ressourcen Einträge in deiner Datenbank erstellen können und wie erwartet funktionieren.
 
-:::info Nicht alle Ressourcen benötigen eine Datenbank, um zu funktionieren! Wenn du eine Ressource herunterlädst, überprüfe die Beschreibung oder Dokumentation, um herauszufinden, ob du eine SQL-Datei importieren musst.
+:::info 
+Nicht alle Ressourcen benötigen eine Datenbank, um zu funktionieren! Wenn du eine Ressource herunterlädst, überprüfe die Beschreibung oder Dokumentation, um herauszufinden, ob du eine SQL-Datei importieren musst.
 :::
 
 In vielen Fällen sind in den Download-Dateien für die Ressource eine oder mehrere Dateien mit der Dateierweiterung **.sql** enthalten. Diese müssen in die Datenbank importiert werden.
@@ -34,8 +35,7 @@ Bevor du mit dem Import fortfährst, solltest du die .sql-Datei mit einem belieb
 
 Wenn diese in deiner .sql Datei vorhanden ist, stelle sicher, dass du die `CREATE` und `USE` Datenbankzeilen entfernst und die Datei speicherst, sonst kann die SQL Datei nicht importiert werden. 
 
-Das liegt daran, dass die erste Zeile angibt, dass eine neue Datenbank erstellt werden soll, die du aber nicht brauchst, da dein FiveM Gameserver bereits eine Datenbank mit einem anderen Namen hat. In der zweiten Zeile wird angegeben, dass die Datenbank mit dem Namen `essentialmode` für den Import verwendet werden soll, aber auch dies ist nicht notwendig, da es bereits eine Datenbank gibt, die du zum Importieren verwenden wirst
-
+Das liegt daran, dass die erste Zeile angibt, dass eine neue Datenbank erstellt werden soll, die du aber nicht brauchst, da dein FiveM Gameserver bereits eine Datenbank mit einem anderen Namen hat. In der zweiten Zeile wird angegeben, dass die Datenbank mit dem Namen `essentialmode` für den Import verwendet werden soll, aber auch dies ist nicht notwendig, da es bereits eine Datenbank gibt, die du zum Importieren verwenden wirst.
 :::
 
 ## Importieren der SQL-Datei in deine Datenbank
