@@ -20,25 +20,6 @@ In vielen Fällen sind in den Download-Dateien für die Ressource eine oder mehr
 
 <InlineVoucher />
 
-## Vorbereitung der Datenbank
-
-Um zu beginnen, musst du den Bereich **Einstellungen** in deinem Gameserver-Webinterface aufrufen.![](https://github.com/zaphosting/docs/assets/42719082/a9d59d0b-3b6c-4e1b-be73-2e3609418169)
-
-Du musst den Abschnitt **Datenbank konfigurieren** aktivieren. Standardmäßig sollte dies aktiviert sein. Überprüfen dies jedoch, indem du nach unten scrollst, den richtigen Unterabschnitt findest und diesen auf "Ja, automatisch konfigurieren" setzt, falls er noch nicht eingestellt ist. Scrolle nun zum Ende der Seite und klicke auf den Button **Speichern**.
-
-![](https://github.com/zaphosting/docs/assets/42719082/4435a48e-6998-459f-8377-15ff8b97f055)
-
-:::important
-Stelle sicher, dass du bis zum Ende der Seite scrollst und auf den Button **Speichern** klickst, da ansonsten deine Änderungen möglicherweise nicht gespeichert werden.
-:::
-
-Navigiere nun zum Abschnitt **Ressourcen** beim Webinterface deines Gameservers. Hier musst du die Ressource `MySQL-Async` installieren, falls du dies noch nicht installiert hast. Diese muss installiert werden, damit der Server mit deiner Datenbank kommunizieren kann.
-
-![](https://github.com/zaphosting/docs/assets/42719082/60dcb5f0-5bd9-4955-bc11-551082e1ab91)
-
-Du hast nun deine Datenbank so konfiguriert, dass sie mit deinem Gameserver zusammenarbeitet, und sie ist bereit, benutzt zu werden.
-
-
 
 ## Vorbereiten der SQL-Datei
 
@@ -87,4 +68,6 @@ Klicke abschließend auf den Button **Importieren** am unteren Ende der Seite, u
 
 ![](https://github.com/zaphosting/docs/assets/42719082/5fef5d58-78f1-4b59-bc3e-1e0af2ff981b)
 
-Du hast erfolgreich eine SQL-Datei in die Datenbank deines Gameservers importiert!
+## Abschluss
+
+Das Importieren von SQL Dateien für deinen FiveM Server ist nötig, um viele ressourcen problemlos nutzen zu könnnen. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
