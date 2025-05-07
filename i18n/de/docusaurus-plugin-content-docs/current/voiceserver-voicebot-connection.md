@@ -9,6 +9,12 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
+
+
+## Einführung
+
+Du möchtest deinen Voicebot mit deinem Teamspeak Server verbinden, weißt aber noch nicht so wirklich wie das geht? Keine Sorge, im Folgenden erläutern wir dir im Detail, wie du dies genau umsetzt!
+
 <InlineVoucher />
 
 ## Bot mit deinem TeamSpeak verbinden
@@ -85,6 +91,8 @@ Jetzt trägst du den zuvor notierten Token und die Client ID in die dafür vorge
 
 Danach kannst du den Bot starten. Er sollte sich dann innerhalb von ca. 10 Sekunden mit deinem Discord-Server verbinden. 
 
-## Fazit
 
-Der Voicebot ist ein sehr nützliches und spaßiges Produkt für viele Leute. Du kannst ihn entweder auf einem TeamSpeak-Server oder auf Discord verwenden. Bei weiteren Fragen oder wenn du Hilfe brauchst, kannst du dich jederzeit an unser Support-Team wenden – wir sind jederzeit für dich da! 🙂
+
+## Abschluss
+
+Der Voicebot ist ein sehr nützliches und spaßiges Produkt für viele Leute. Du kannst ihn entweder auf einem TeamSpeak-Server oder auf Discord verwenden. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
