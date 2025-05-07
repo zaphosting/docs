@@ -220,6 +220,32 @@ article img {
   display: none;
 }
 
+details {
+  background-color: white !important;
+  border: 1px solid lightgrey !important;
+  padding: 15px !important;
+}
+
+[data-theme='dark'] details {
+  background-color: rgb(38 38 38) !important;
+  border: 1px solid lightgrey !important;
+  padding: 15px !important;
+}
+
+details summary {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+details > summary::before {
+  border-color: transparent transparent transparent var(--ifm-color-primary) !important;
+}
+
+details .collapsibleContent_i85q {
+  border: 0 !important;
+  padding: 0 !important;
+}
+
 /* Navigation Bar Scaling */
 @media (max-width: 1550px) and (min-width: 996px){
   .navbar {
