@@ -21,15 +21,7 @@ Docker is a lightweight, open source virtualization software to provide services
 
 To begin, you must connect to your Linux server via SSH. Please have a look at our [Initial access (SSH)](vserver-linux-ssh.md) guide if you require assistance with this. Throughout this guide, we will be using Ubuntu as the Linux distribution.
 
-### Enable Docker Compatibility
 
-You must enable **Docker Compatibility** on your web interface in order to allow Docker containers to work, otherwise you will receive `Permission Denied` errors.
-
-Head over to the **Settings** section on your server's web interface panel, enable the **Docker Compatibility** option and save.
-
-![](https://screensaver01.zap-hosting.com/index.php/s/o5t82kKM38r2MwY/preview)
-
-Once saved, ensure that you restart your server before proceeding.
 
 ## Installation
 
