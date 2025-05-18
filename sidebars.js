@@ -2367,7 +2367,6 @@ const sidebars = {
         "vrising-configuration",
         "vrising-server-savegames",
         "vrising-becomeadmin",
-        "vrising-plugins-bepinex"
       ],
     },
         {

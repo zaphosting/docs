@@ -9,6 +9,14 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
+
+
+:::warning Archived Guide
+This document has been archived. Documents are archived if they are no longer relevant, incorrect or up to date. It has been archived for the following reasons:
+
+**Reason**: The product V Rising with BepInEx is no longer functional and has therefore been removed from the shop. 
+::::
+
 ## Introduction
 BepInEx is a highly popular open-source plugin and modding framework which enables players to add mods to a range of games that traditionally do not support official modding. In this guide, we will show how you can install plugins through BepInEx on V Rising.
 <InlineVoucher />
