@@ -707,6 +707,10 @@
     "message": "Bedrock",
     "description": "The label for category Bedrock in sidebar gameserverSidebar"
   },
+    "sidebar.gameserverSidebar.category.Wreckfest": {
+    "message": "Wreckfest",
+    "description": "The label for category Wreckfest in sidebar gameserverSidebar"
+  },
   "sidebar.gameserverSidebar.category.Wreckfest 2": {
     "message": "Wreckfest 2",
     "description": "The label for category Wreckfest 2 in sidebar gameserverSidebar"
@@ -715,8 +719,9 @@
     "message": "DeadPoly",
     "description": "The label for category DeadPoly in sidebar gameserverSidebar"
   },
-  "sidebar.dedicatedserverSidebar.category.Install Windows": {
-    "message": "Install Windows",
+  "sidebar.dedicatedserverSidebar.category.
+  ": {
+    "message": "Windows installieren",
     "description": "The label for category Install Windows in sidebar dedicatedserverSidebar"
   }
 }
