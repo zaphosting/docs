@@ -24,8 +24,8 @@ Mit dem benutzerfreundlichen GS/TS3 Interface kannst du mit nur wenigen Klicks e
 :::warning
 Das GS/TS3- Interface Feature kann mit den folgenden Betriebssystemen verwendet werden:
 
-Debian: 10, 11
-Ubuntu: 20.04
+Debian: 10, 11, 12
+Ubuntu: 20.04, 22.04
 (*) Wir arbeiten bereits daran, andere und neuere Betriebssysteme und (Versionen) in naher Zukunft bereitzustellen.
 :::
 
