@@ -24,8 +24,8 @@ With the user-friendly GS/TS3 interface, you can install Teamspeak 3 or other se
 :::warning
 The GS/TS3 interface feature can be used with the following operating systems:
 
-- Debian: 10, 11
-- Ubuntu: 20.04
+- Debian: 10, 11, 12
+- Ubuntu: 20.04, 22.04
 
 (*) We are already working on making other and newer operating systems and (versions) available in the near future.
 :::
