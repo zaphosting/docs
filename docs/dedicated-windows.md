@@ -1,8 +1,8 @@
 ---
 id: dedicated-windows
-title: "Dedicated Server: Installation of Windows Server"
-description: Information on how to install the Windows operating system on your dedicated server from ZAP-Hosting - ZAP-Hosting.com documentation
-sidebar_label: Install Windows
+title: "Dedicated Server: Installation of Windows Server 2025"
+description: Information on how to install the Windows Server 2025 operating system on your dedicated server from ZAP-Hosting - ZAP-Hosting.com documentation
+sidebar_label: Windows Server 2025
 services:
   - dedicated
 ---
@@ -19,6 +19,8 @@ The following will explain to you step by step how to install and configure the 
 
 The setup steps and demonstration in this guide is based on the **Windows Server 2025** operating system. **Older OS versions** may differ in terms of **structure** and **appearance**. However, the procedure is similar.  
 :::
+
+
 
 <InlineVoucher />
 
@@ -73,4 +75,4 @@ Once the operating system has been set up, it is necessary to activate RDP acces
 
 
 ## Conclusion
-Congratulations, you have successfully installed the Windows Server operating system on your dedicated server. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
+Congratulations, you have successfully installed the Windows Server 2025 operating system on your dedicated server. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂

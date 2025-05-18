@@ -714,5 +714,9 @@
   "sidebar.gameserverSidebar.category.DeadPoly": {
     "message": "DeadPoly",
     "description": "The label for category DeadPoly in sidebar gameserverSidebar"
+  },
+  "sidebar.dedicatedserverSidebar.category.Install Windows": {
+    "message": "Install Windows",
+    "description": "The label for category Install Windows in sidebar dedicatedserverSidebar"
   }
 }

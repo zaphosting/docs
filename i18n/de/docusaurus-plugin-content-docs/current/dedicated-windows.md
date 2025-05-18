@@ -1,8 +1,8 @@
 ---
 id: dedicated-windows
-title: "Dedicated Server: Installation von Windows Server"
-description: Informationen, wie du das Windows Betriebssystem auf deinem Dedicated Server von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentation
-sidebar_label: Windows installieren
+title: "Dedicated Server: Installation von Windows Server 2025"
+description: Informationen, wie du das Windows Server 2025 Betriebssystem auf deinem Dedicated Server von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentation
+sidebar_label: Windows Server 2025
 services:
   - dedicated
 ---
@@ -73,4 +73,4 @@ Nach der Einrichtung des Betriebssystems ist es erforderlich, den RDP-Zugang zu 
 
 
 ## Abschluss
-Glückwunsch, du hast das Windows Server Betriebssystem erfolgreich  auf deinem Dedicated Server installiert. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+Glückwunsch, du hast das Windows Server 2025 Betriebssystem erfolgreich  auf deinem Dedicated Server installiert. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
