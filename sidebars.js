@@ -2370,6 +2370,20 @@ const sidebars = {
         "vrising-plugins-bepinex"
       ],
     },
+        {
+      type: "category",
+      label: "Wreckfest",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "wreckfest-firststeps-dashboard",
+            "wreckfest-firststeps-connect",
+          ]
+        },
+      ],
+    },
     {
       type: "category",
       label: "Wreckfest 2",
