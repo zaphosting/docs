@@ -719,8 +719,7 @@
     "message": "DeadPoly",
     "description": "The label for category DeadPoly in sidebar gameserverSidebar"
   },
-  "sidebar.dedicatedserverSidebar.category.
-  ": {
+  "sidebar.dedicatedserverSidebar.category.Install Windows": {
     "message": "Windows installieren",
     "description": "The label for category Install Windows in sidebar dedicatedserverSidebar"
   }
