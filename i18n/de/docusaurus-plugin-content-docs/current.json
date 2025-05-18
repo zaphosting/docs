@@ -707,7 +707,7 @@
     "message": "Bedrock",
     "description": "The label for category Bedrock in sidebar gameserverSidebar"
   },
-    "sidebar.gameserverSidebar.category.Wreckfest": {
+  "sidebar.gameserverSidebar.category.Wreckfest": {
     "message": "Wreckfest",
     "description": "The label for category Wreckfest in sidebar gameserverSidebar"
   },
