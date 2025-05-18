@@ -714,5 +714,9 @@
   "sidebar.gameserverSidebar.category.DeadPoly": {
     "message": "DeadPoly",
     "description": "The label for category DeadPoly in sidebar gameserverSidebar"
+  },
+  "sidebar.gameserverSidebar.category.Wreckfest": {
+    "message": "Wreckfest",
+    "description": "The label for category Wreckfest in sidebar gameserverSidebar"
   }
 }
