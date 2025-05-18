@@ -1,7 +1,7 @@
 ---
 id: wreckfest-firststeps-dashboard
-title: "Wreckfest 2: Dashboard Übersicht"
-description: Informationen zum Dashboard eines Wreckfest 2 Server von ZAP-Hosting - ZAP-Hosting.com Dokumentationen
+title: "Wreckfest: Dashboard Übersicht"
+description: Informationen zum Dashboard eines Wreckfest Server von ZAP-Hosting - ZAP-Hosting.com Dokumentationen
 sidebar_label: Dashboard
 services:
   - gameserver
@@ -12,13 +12,11 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Du bist an einem **Wreckfest 2 Server** interessiert oder besitzt bereits einen, doch dir fehlt noch ein umfassender Überblick über die Verwaltung und die Auffindbarkeit aller notwendigen Optionen? Gerade zu Beginn kann dies eine Herausforderung darstellen. Aber keine Sorge, im Folgenden bieten wir dir eine ausführliche Einführung zur Verwaltung deines Dienstes, damit du den optimalen Durchblick hast.
+Du bist an einem **Wreckfest Server** interessiert oder besitzt bereits einen, doch dir fehlt noch ein umfassender Überblick über die Verwaltung und die Auffindbarkeit aller notwendigen Optionen? Gerade zu Beginn kann dies eine Herausforderung darstellen. Aber keine Sorge, im Folgenden bieten wir dir eine ausführliche Einführung zur Verwaltung deines Dienstes, damit du den optimalen Durchblick hast.
 
-Nachdem du diese Anleitung durchgegangen bist, wirst du problemlos in der Lage sein, deinen Server effizient zu verwalten und alle erforderlichen Optionen sowie Features zügig und unkompliziert zu finden. Hier erhältst du einen strukturierten Überblick, der dir Schritt für Schritt hilft, dich mit der Serververwaltung vertraut zu machen und dein Wissen gezielt zu erweitern. So kannst du sicherstellen, dass dein **Wreckfest 2 Server** optimal auf deine Bedürfnisse abgestimmt ist und du das Beste aus den vorhandenen Möglichkeiten herausholst.
+Nachdem du diese Anleitung durchgegangen bist, wirst du problemlos in der Lage sein, deinen Server effizient zu verwalten und alle erforderlichen Optionen sowie Features zügig und unkompliziert zu finden. Hier erhältst du einen strukturierten Überblick, der dir Schritt für Schritt hilft, dich mit der Serververwaltung vertraut zu machen und dein Wissen gezielt zu erweitern. So kannst du sicherstellen, dass dein **Wreckfest Server** optimal auf deine Bedürfnisse abgestimmt ist und du das Beste aus den vorhandenen Möglichkeiten herausholst.
 
-
-
-<YouTube videoId="9cuWAwFJrJk" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/ZaGBHYwLL2PXzWN/preview" title="Setup Wreckfest server in just a MINUTE!" description="Hast du das Gefühl, dass du etwas besser verstehst, wenn du es in Aktion siehst? Wir haben etwas für dich! Tauche ab in unser Video, welches alles für dich zusammenfasst. Egal, ob du es eilig hast oder einfach nur Informationen auf möglichst verständliche Art und Weise aufnehmen möchtest!"/>
+<YouTube videoId="f1Xr3pD4kG8" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/wdTPGCHr9RymrNN/preview" title="Setup Wreckfest server in just a MINUTE!" description="Hast du das Gefühl, dass du etwas besser verstehst, wenn du es in Aktion siehst? Wir haben etwas für dich! Tauche ab in unser Video, welches alles für dich zusammenfasst. Egal, ob du es eilig hast oder einfach nur Informationen auf möglichst verständliche Art und Weise aufnehmen möchtest!"/>
 
 <InlineVoucher />
 
@@ -33,7 +31,7 @@ In dem Abschnitt **Produkt Administration** wirst du alle notwendigen Seiten fin
 
 Das **Dashboard** deines Servers stellt das Herzstück für die Verwaltung dar. Hier werden alle grundlegenden und essenziellen Informationen zu deinem Dienst übersichtlich präsentiert. Dazu zählen beispielsweise Angaben zum Standort, Status, IP:Port, genutzter Speicherplatz, aktuell laufendes Spiel, Servername, Karte und die Anzahl der verfügbaren Slots. Zudem werden auch die Auslastungen der CPU, des Arbeitsspeichers und des RAM dargestellt.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/3XG3esspL6dgQpP/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/D83Lcr6D29KmTQS/preview)
 
 Im Dashboard hast du außerdem die Möglichkeit, deinen Dienst zu starten, zu stoppen oder neu zu starten, um so die volle Kontrolle über dessen Betrieb zu haben. Weiterhin kannst du die Live-Konsole aufrufen, um Echtzeitinformationen über den Serverzustand zu erhalten und gegebenenfalls direkte Eingriffe vorzunehmen.
 
@@ -44,16 +42,6 @@ Im Dashboard hast du außerdem die Möglichkeit, deinen Dienst zu starten, zu st
 
 
 
-
-
-
-### Statistiken
-
-Unter den **Statistiken** erhältst du eine umfassende Übersicht über die Auslastungswerte deines Servers. Dort findest du Informationen zu verschiedenen Aspekten wie etwa der Auslastung der verfügbaren Slots, der CPU und dem Arbeitsspeicher. Du kannst dir diese Daten für verschiedene Zeiträume anzeigen lassen, zum Beispiel für die letzten **60 Minuten, 24 Stunden, 3 Tage, 7 Tage** oder **30 Tage.**
-
-![](https://screensaver01.zap-hosting.com/index.php/s/r7gi2dwayMXCk7N/preview)
-
-Dank dieser Informationen bekommst du einen guten Einblick in den Verbrauch deines Servers. Zudem sind diese Statistiken oft hilfreich, um mögliche Performance-Probleme zu identifizieren und deren Ursachen einzugrenzen. Du kannst beispielsweise nachvollziehen, seit wann die Auslastung angestiegen ist und ob dies mit bestimmten Ereignissen oder Änderungen zusammenhängt. Dies ist insbesondere dann wichtig, wenn plötzlich Probleme auftreten, da es dir ermöglicht, gezielte Schritte zur Problemlösung zu unternehmen und mögliche Ursachen systematisch zu analysieren.
 
 
 
@@ -75,6 +63,8 @@ Die Verwendung des DDoS-Managers ist ausschließlich möglich, wenn entweder ein
 :::
 
 
+
+
 ### Log-Dateien
 
 Tritt ein technisches Problem auf und du bist unsicher über dessen Ursache? Eine erste mögliche Lösungsstrategie besteht darin, die **Log-Dateien** zu überprüfen. In diesen Dateien sind zahlreiche Informationen über den Server enthalten, wie beispielsweise aktuelle Geschehnisse, Hinweise oder Fehlermeldungen.
@@ -83,7 +73,7 @@ Insbesondere Fehlermeldungen können dabei helfen, die Ursache eines Problems zu
 
 :::warning
 Die dort zu findenden Informationen helfen nicht weiter oder du verstehst diese nicht? Keine Sorge! In dem Fall stehen wir dir auch im Support täglich zur Verfügung. Erstelle dazu einfach ein **[Ticket](https://zap-hosting.com/de/customer/support/)** und erläutere uns dein Problem. Wir werden uns dies dann so schnell wie möglich anschauen und dir bei der Lösung des Problems entsprechend weiterhelfen! :)
-
+:::
 
 
 ### Ereignislog
@@ -93,14 +83,6 @@ Die **Ereignislog** bietet dir einen umfassenden Überblick über sämtliche Akt
 ![](https://screensaver01.zap-hosting.com/index.php/s/Sya5d9aJMw25xwZ/preview)
 
 
-
-### Live Konsole
-
-Die **Live-Konsole** bietet dir eine Echtzeit-Ansicht aller aktuellen Ereignisse auf deinem Server. Hier kannst du sowohl Informationen zu den Aktivitäten der Spieler als auch mögliche Fehlermeldungen und Systemnachrichten einsehen. Diese Übersicht ermöglicht es dir, einen umfassenden Einblick in das Geschehen auf deinem Server zu erhalten und eventuelle Probleme frühzeitig zu erkennen.
-
-![](https://screensaver01.zap-hosting.com/index.php/s/bDqw5G9fLi5mxAg/preview)
-
-Zusätzlich zur Beobachtung der Ereignisse kannst du in der **Live-Konsole** auch direkt Befehle an den Server senden. Dies kann nützlich sein, um Einstellungen anzupassen, bestimmte Aktionen auszuführen oder um schnell auf auftretende Probleme zu reagieren.
 
 
 
@@ -170,6 +152,7 @@ Darüber hinaus kannst du auch die E-Mail-Benachrichtigungsfunktion für automat
 Du möchtest deinen Server zu bestimmten Uhrzeiten neu starten? Der Restart-Planer ermöglicht dir, geplante automatische Neustarts deines Gameservers einzurichten. Mit dieser Funktion kannst du Neustarts zu bestimmten Zeiten oder in regelmäßigen Intervallen einstellen.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/k4k9TJTcP9WYx6n/preview)
+
 
 ### DNS Einstellungen
 

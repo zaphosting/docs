@@ -1,7 +1,7 @@
 ---
 id: wreckfest-firststeps-dashboard
 title: "Wreckfest: Dashboard Overview"
-description: Information about the dashboard of a Wreckfest Server from ZAP-Hosting - ZAP-Hosting.com Documentation
+description: Information about the dashboard of a Wreckfest server from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Dashboard
 services:
   - gameserver
@@ -12,13 +12,11 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
-You are interested in an **Wreckfest Server** or already own one, but you still lack a comprehensive overview of the administration and the findability of all necessary options? Especially at the beginning, this can be a challenge. But don't worry, we'll provide you with a detailed introduction to the administration of your service below, so you'll have the best possible overview.
+You are interested in an **Wreckfest server** or already own one, but you still lack a comprehensive overview of the administration and the findability of all necessary options? Especially at the beginning, this can be a challenge. But don't worry, we'll provide you with a detailed introduction to the administration of your service below, so you'll have the best possible overview.
 
-After going through this guide, you will easily be able to manage your server efficiently and find all the necessary options and features quickly and easily. Here, you will get a structured overview that will help you step by step to get familiar with the server administration and expand your knowledge in a targeted manner. This way, you can ensure that your **Wreckfest Server** is optimally adapted to your needs and that you get the most out of the available options.
+After going through this guide, you will easily be able to manage your server efficiently and find all the necessary options and features quickly and easily. Here, you will get a structured overview that will help you step by step to get familiar with the server administration and expand your knowledge in a targeted manner. This way, you can ensure that your **Wreckfest server** is optimally adapted to your needs and that you get the most out of the available options.
 
-<YouTube videoId="9cuWAwFJrJk" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/ZaGBHYwLL2PXzWN/preview" title="Setup Wreckfest server in just a MINUTE!" description="Feel like you understand better when you see things in action? We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
-
-
+<InlineVoucher />
 
 ## Product Administration
 
@@ -30,22 +28,12 @@ In the **Product Administration** section, you will find all the necessary pages
 
 The **Dashboard** of your server is the heart of the administration. All basic and essential information about your service is clearly presented here. This includes, for example, information about the location, status, IP: Port, used memory, game in progress, server name, map and the number of available slots. In addition, the utilization of the CPU, memory and RAM is also displayed.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/PG3CHb4CS5xx4sR/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/jXbFRcDJR3xLwiL/preview)
 
 In the dashboard you also have the option of starting, stopping or restarting your service, to have full control over its operation. Furthermore, you can access the live console to get real-time information about the server's state and take direct action if necessary.
 
 
 
-
-
-
-### Statistics
-
-Under the **Statistics** you get a comprehensive overview of the load values of your server. There you will find information about various aspects such as the load of the available slots, the CPU and the memory. You can view this data for different time periods, for example for the last **60 minutes, 24 hours, 3 days, 7 days** or **30 days.**
-
-![](https://screensaver01.zap-hosting.com/index.php/s/N8jcmdqqG2Xt4Bk/preview)
-
-Thanks to this information, you get a good insight into the usage of your server. Additionally, these statistics are often helpful to identify possible performance issues and narrow down their causes. For example, you can trace back when the utilization has increased and whether this is related to certain events or changes. This is particularly important when sudden problems arise, as it allows you to take targeted steps to troubleshoot and systematically analyze possible causes.
 
 
 
@@ -65,8 +53,6 @@ These customization options allow you to adjust the DDoS protection to your indi
 :::warning
 The use of the DDoS Manager is only possible if either an own IP address or the option "DDoS Manager Overview" has been booked as an additional option. If these components are missing from your current package, you can add them at any time by upgrading.
 :::
-
-
 
 
 
@@ -91,6 +77,10 @@ The **Event Log** provides you with a comprehensive overview of all activities r
 
 
 
+Additionally to monitoring the events, you can also send commands directly to the server in the **Live Console**. This can be useful to adjust settings, perform certain actions, or respond quickly to problems that arise.
+
+
+
 ### Service Interruptions
 
 Your server was temporarily offline and you can't explain why? A look into the event log and log files did not provide any information either? It could be that the cause of the problem does not lie directly with your server, but with the host system on which your server is operated.
@@ -98,6 +88,16 @@ Your server was temporarily offline and you can't explain why? A look into the e
 If our monitoring system detects a general interruption, our technicians are automatically notified and take care of the problem as soon as possible.
 
 In this section you will find an overview of the interruptions history of the host system on which your game server service is running. You can find more information and the latest version of our service status on our new [status page](https://status.zap-hosting.com/).
+
+
+
+
+
+
+
+
+
+
 
 
 ## Settings
@@ -109,6 +109,8 @@ In the **Settings** section, you will find all the necessary pages for configuri
 ### Settings
 
 Under the settings you will find an overview of the most common setting options for your server. These also include a short explanation. The use of the settings page is especially recommended for newcomers to server administration.
+
+If you are more confident and want to make more precise changes, we recommend using the Config Editor instead. You can find more information about this in the **Configs** category.
 
 
 
@@ -150,7 +152,6 @@ Do you want to schedule server restarts at specific times? The Restart Planner a
 ### DNS settings
 With the ZAP DNS settings, you can create easy-to-remember addresses for your service. You can either use a subdomain of one of our domains or you can create a DNS entry on your own domains and thus have an address that can be better associated with you as a person.
 ![](https://screensaver01.zap-hosting.com/index.php/s/tM5FGTHRSbZA5rN/preview)
-
 
 ## Tools
 
