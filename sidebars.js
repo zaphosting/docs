@@ -2617,7 +2617,16 @@ const sidebars = {
       })(),
       defaultStyle: true,
     },
-    'dedicated-windows',
+     {
+      type: "category",
+      label: "Install Windows",
+      items: [
+      'dedicated-windows',
+      'dedicated-windows-2022',
+      'dedicated-windows-2019',
+      'dedicated-windows-2016',
+      ],
+    },
     'dedicated-linux-debian',
     'dedicated-linux-ubuntu',		
     'dedicated-freebsd',		
