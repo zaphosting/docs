@@ -31,7 +31,7 @@ Before you start, make sure you have downloaded and installed the necessary tool
 ## Configuration
 Once you have downloaded and installed the necessary tools, you can begin editing the textures. Locate the .ytd file of your mod in OpenIV and open it to access the textures. 
 
-![OpenIV Texture Dictionary](https://forum.cfx.re/uploads/default/optimized/4X/d/9/1/d91c308f849ed326be0324695c3d0897d486ef01_2_505x271.png) 
+![OpenIV Texture Dictionary](https://screensaver01.zap-hosting.com/index.php/s/K879XfYoR4sqN6d/preview) 
 
 In OpenIV, you will find the option "Export all textures" at the bottom left. Click on it to export all the textures of your mod. Save them in a folder within your vehicle mod directory, for example under "textures". 
 
@@ -41,13 +41,13 @@ In OpenIV, you will find the option "Export all textures" at the bottom left. Cl
 
 Now that you have exported all the textures, it's time to edit and resize them. Start XnResize on your computer. Drag all the exported .dds files into the XnResize window. You should now see all your textures within the application. In the "Action" tab of XnResize, set the width and height to percent and reduce the size of the textures to 50% of their original size. Make sure to maintain the ratio.
 
-![XnResize Action Tab](https://forum.cfx.re/uploads/default/original/4X/4/c/f/4cfccc99c913b0072787f90a705ae383ba482368.png)
+![XnResize Action Tab](https://screensaver01.zap-hosting.com/index.php/s/sQMq7goPYDb89cM/preview)
 
 
 
 In the "Output" tab, select a target folder for the edited textures, for example, "textures_resized", and set the format to DDS - Direct Draw Surface.
 
-![XnResize Output Tab](https://forum.cfx.re/uploads/default/original/4X/6/9/b/69b93dac616de807d4496f53363f1792646046b5.png)
+![XnResize Output Tab](https://screensaver01.zap-hosting.com/index.php/s/Do927b2WQsYTszN/preview)
 
 
 
