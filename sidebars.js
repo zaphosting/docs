@@ -2798,6 +2798,7 @@ const sidebars = {
       defaultStyle: true,
     },
     'domain-introduction',
+    'domain-dashboard',
     'domain-order',
     'domain-transfer',
     'domain-easydns',
