@@ -2832,6 +2832,7 @@ const sidebars = {
       defaultStyle: true,
     },
     'webspace-introduction',
+    'webspace-dashboard',
     'webspace-adddomain',
     'webspace-backups',
     'webspace-subdomain',
