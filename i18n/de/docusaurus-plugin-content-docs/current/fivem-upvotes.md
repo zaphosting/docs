@@ -29,16 +29,13 @@ FiveM Upvotes und FiveM Burst Upvotes sind beides Methoden, um die Sichtbarkeit 
 
 Die FiveM Upvotes können in [unserem Shop](https://zap-hosting.com/de/shop/product/fivem-upvotes/) erworben werden. Während des Bestellvorgangs hast du die Möglichkeit, die Anzahl der Upvotes, Laufzeit, FiveM Benutzername und Abrechnungsart zu bestimmen. 
 
-:::info
-Warnung zum Zahlungsvorgang
+:::warning Warnung zum Zahlungsvorgang
 FiveM Upvotes können nicht mit ZAP Coins erworben werden, da es sich um ein externes Produkt handelt. Die Bezahlung muss über gängige Zahlungsmethoden wie PayPal oder Kreditkarte erfolgen.
 :::
 
 Für die Verwendung der FiveM Upvotes ist die Verknüpfung zu deinem FiveM Account notwendig. Denn die Upvotes werden diesem Account zugewiesen, worüber du dann im Anschluss die Upvotes im Spiel nach deinen Wünschen zuweisen kannst. 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/iDk5NoM2gpWs3Ay/preview)
-
-![](https://screensaver01.zap-hosting.com/index.php/s/BX2rZtJex6fqepS/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/2fT6CyCfzo4wEe5/download)
 
 Nachdem dies bestätigt wurde, kann die Bestellung abgeschlossen werden. Die Informationen werden im Anschluss umgehend an FiveM übermittelt und dort verarbeitet. Sobald dieser Vorgang abgeschlossen wurde, stehen dir die Upvotes bei uns zur Verfügung und können über das Interface verwaltet werden. Ab diesem Zeitpunkt beginnt ebenfalls die Laufzeit der Upvotes. 
 
@@ -47,22 +44,16 @@ Nachdem dies bestätigt wurde, kann die Bestellung abgeschlossen werden. Die Inf
 ## Upvotes zuweisen
 
 Sobald die Upvotes im Webinterface sichtbar sind, können diese über den FiveM Client zugewiesen werden. Klicke dafür in der Serverliste bei dem Server deiner Wahl auf das Upvotes Icon. 
-
-![](https://screensaver01.zap-hosting.com/index.php/s/eyCidKx9eJenF6m/preview)
-
-
-
 Als Bestätigung sollte sich nun ein Pop-up öffnen, in dem bestätigt wird, dass die Upvotes erfolgreich zugewiesen wurden. 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/oA4xPReeaoJ8XXa/preview)
-
+![](https://screensaver01.zap-hosting.com/index.php/s/onkKXJGpWoGYWa2/download)
 
 
 ## Upvotes zurücksetzen
 
 alls die Upvotes an einen anderen Server zugewiesen werden sollen oder beim Zuweisen der Upvotes ein Fehler aufgetreten ist, können diese über das Dashboard zurückgesetzt werden. Das Zurücksetzen der Upvotes wird ein paar Minuten dauern, bis es von Cfx.re übernommen wurde.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/mCsTDgLSZqFyXrL/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/LjcYptAkZ6dfH8Y/preview)
 
 :::danger Reset Cooldown Zeitraum
 Cfx.re setzt eine Upvote **Cooldown-Periode** voraus. Die Zuweisung von Upvotes ist daher nur einmal pro Tag für einen Server deiner Wahl möglich. Nach der Zuweisung musst du **24 Stunden** warten, bis du diese erneut zuweisen kannst. 
