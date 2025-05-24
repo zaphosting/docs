@@ -1,43 +1,39 @@
 ---
 id: fivem-installeup
-title: "FiveM: Install EUP on server"
+title: "FiveM: Install EUP (Emergency Uniform Pack)"
 description: Information on how to install EUP on your FiveM server from ZAP-Hosting.com - ZAP-Hosting.com documentation
 sidebar_label: Install EUP
 services:
   - gameserver
 ---
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
-:::info
-To install the EUP a Fivem Element Argentum (or higher) key is required [Fivem Patreon](https://www.patreon.com/fivem)
+
+
+## Introduction
+
+**EUP** also known as Emergency Uniform Pack allows you to have Emergency Services Uniforms on a free mode character. The following explains in detail how exactly you can install this. 
+
+:::warning Element Club Subscription required
+In order to install and use EUP, an Element Club subscription is required. Get your own subscription at the [Cfx.re Portal](https://portal.cfx.re/subscriptions/element-club)! 
 :::
 
 <InlineVoucher />
 
-## Connect to FTP
 
-Before EUP can be installed, the [Access via FTP](gameserver-ftpaccess.md) must be set up
-
-After this has been set up, you can now connect and open the server folder.
-
-![](https://screensaver01.zap-hosting.com/index.php/s/RpZGaJ6W3HMgmtg/preview)
 
 ## Preparation
 
-Now we download EUP from the [FiveM Forums](https://forum.cfx.re/t/emergency-uniform-pack-client-server-sided-easy-install-update-5-0-announcement/97599)
+To start the installation of **EUP**, a few preparations must first be made. To do this, [EUP](https://forum.cfx.re/t/emergency-uniform-pack-client-server-sided-easy-install-update-5-0-announcement/97599) and [NativeUI](https://github.com/FrazzIe/NativeUILua/archive/master.zip) must be downloaded and unpacked on your own computer. Once you have downloaded the files, you should have received the following ZIP files:
 
-We also need to [download NativeUI](https://github.com/FrazzIe/NativeUILua/archive/master.zip)
+- `eup-ui.7z`
+- `eup-stream.7z` 
+- `NativeUI-master.zip`
 
-after we have downloaded the `eup-ui.7z`, `eup-stream.7z` and `NativeUI-master.zip`, we have to unzip them
-
-![](https://screensaver01.zap-hosting.com/index.php/s/D5XMadzJ2NwpLgq/preview)
-
-:::info
-Note: For NativeUI, you have to open the "NativeUI-master" folder first, there you will find the correct scripts.
-:::
-
-After unzipping the resource, it should now contain a __resource.lua or fxmanifest.lua and script files/folders.
+Now unpack these files locally on your computer. It should now contain a `__resource.lua` or `fxmanifest.lua` and `script files/folders`.
 
 **eup-ui**
 ![](https://screensaver01.zap-hosting.com/index.php/s/PjXPtC49ZAkiD87/preview)
@@ -49,23 +45,29 @@ After unzipping the resource, it should now contain a __resource.lua or fxmanife
 ![](https://screensaver01.zap-hosting.com/index.php/s/EwdgkfA5qjWNAYj/preview)
 
 :::info
-If this is not the case, they may be in a subfolder, usually with the same name.
+For NativeUI, you have to open the "NativeUI-master" folder first, there you will find the correct scripts. If this is not the case, they may be in a subfolder, usually with the same name.
 :::
 
-## Upload resources
+## Installation
+Now you are ready to start the installation. To do this, connect to your server via [FTP](gameserver-ftpaccess.md) and upload the files. The files/folders must be uploaded to the `resources` directory. You will find the directory under the following directory structure: 
 
-
-Now we install the resources, in our example via WinSCP, we can upload them via drag&drop into the "resources" folder
+```
+/gxxxxxx/fivem/YourFramework/resources/
+```
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/qFtS6sJHy67Y773/preview)
 
-After this has been uploaded, the server.cfg must be opened in the server-data folder:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/TaLNK6SP8jwCJYT/preview)
-
-Among the remaining start entries for resources you can now add the entry for our resources, in this case "NativeUI", "eup-stream" and "eup-ui":
-
-![](https://screensaver01.zap-hosting.com/index.php/s/zdMYkpoSnP8mjHM/preview)
 
 
-After that the server can be restarted and EUP ingame should be available via the `/eup` command!
+## Configuration
+
+In order for the installed resources to be loaded, they must be specified in the server configuration file. To do this, log into the txAdmin interface and navigate to the CFG Editor. 
+
+![img](https://screensaver01.zap-hosting.com/index.php/s/xQgkC5npHji4ArM/download)
+
+
+
+## Conclusion
+
+You have successfully installed EUP on your FiveM server. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
+
