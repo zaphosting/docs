@@ -19,7 +19,7 @@ WordPress is a popular web content management system used for managing and publi
 
 ## Preparation
 
-Begin by connecting to your server via SSH. If you don't know how to do this, please have a look at our [Initial access (SSH)](vserver-linux-ssh.md) guide.
+Begin by connecting to your server via SSH. If you don't know how to do this, please have a look at our [Initial access (SSH)](dedicated-linux-ssh.md) guide.
 
 :::info
 In this guide, we will be using the Ubuntu distro, paired with Apache as the web server, MySQL for database and PHP as the core dependency. This is known as the LAMP stack: Linux, Apache, MySQL and PHP.
@@ -175,11 +175,9 @@ And just like that, upon successful login you will now be on your WordPress pane
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/r26L7xASWY3d5Z5/preview)
 
-For future reading and further setup, we highly recommend having a browse through our [WordPress Plugins](webspace-wordpress-plugins.md) and [WordPress Elementor](webspace-wordpress-elementor.md) guides which explore the process of installing plugins and using a popular user-friendly page builder named Elementor.
-
 ## Conclusion
 
-Congratulations, you have successfully installed and configured WordPress! As the next step, we **highly recommend** setting up a domain and **SSL certificate** to ensure that data is transmitted securely and make the WordPress panel easier to access. Please view our [Certbot guide](vserver-linux-certbot.md#webroot-plugin) with a focus on the **Apache Plugin** and follow the interactive setup to quickly and easily setup a certificate for your chosen domain.
+Congratulations, you have successfully installed and configured WordPress! As the next step, we **highly recommend** setting up a domain and **SSL certificate** to ensure that data is transmitted securely and make the WordPress panel easier to access. Please view our [Certbot guide](dedicated-linux-certbot.md#webroot-plugin) with a focus on the **Apache Plugin** and follow the interactive setup to quickly and easily setup a certificate for your chosen domain.
 
 For future reading and further setup, we highly recommend having a browse through our [WordPress Plugins](webspace-wordpress-plugins.md) and [WordPress Elementor](webspace-wordpress-elementor.md) guides which explore the process of installing plugins and using a popular user-friendly page builder named Elementor.
 
