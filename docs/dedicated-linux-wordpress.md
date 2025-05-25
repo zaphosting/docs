@@ -179,7 +179,7 @@ For future reading and further setup, we highly recommend having a browse throug
 
 ## Conclusion
 
-Congratulations, you have successfully installed and configured Plesk! As the next step, we **highly recommend** setting up a domain and **SSL certificate** to ensure that data is transmitted securely and make the WordPress panel easier to access. Please view our [Certbot guide](vserver-linux-certbot.md#webroot-plugin) with a focus on the **Apache Plugin** and follow the interactive setup to quickly and easily setup a certificate for your chosen domain.
+Congratulations, you have successfully installed and configured WordPress! As the next step, we **highly recommend** setting up a domain and **SSL certificate** to ensure that data is transmitted securely and make the WordPress panel easier to access. Please view our [Certbot guide](vserver-linux-certbot.md#webroot-plugin) with a focus on the **Apache Plugin** and follow the interactive setup to quickly and easily setup a certificate for your chosen domain.
 
 For future reading and further setup, we highly recommend having a browse through our [WordPress Plugins](webspace-wordpress-plugins.md) and [WordPress Elementor](webspace-wordpress-elementor.md) guides which explore the process of installing plugins and using a popular user-friendly page builder named Elementor.
 
