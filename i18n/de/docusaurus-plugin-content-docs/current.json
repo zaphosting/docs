@@ -724,7 +724,7 @@
     "description": "The label for category Install Windows in sidebar dedicatedserverSidebar"
   },
   "sidebar.dedicatedserverSidebar.category.Install Ubuntu": {
-    "message": "Install Ubuntu",
+    "message": "Ubuntu installieren",
     "description": "The label for category Install Ubuntu in sidebar dedicatedserverSidebar"
   }
 }

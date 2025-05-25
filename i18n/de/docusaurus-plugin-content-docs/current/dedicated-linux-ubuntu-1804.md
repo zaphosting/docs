@@ -1,5 +1,5 @@
 ---
-id: dedicated-linux-ubuntu-2204
+id: dedicated-linux-ubuntu-1804
 title: "Dedicated Server: Installation von Ubuntu 18.04"
 description: Informationen zur Installation des Betriebssystems Ubuntu 18.04 auf deinem dedizierten Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Ubuntu 18.04
