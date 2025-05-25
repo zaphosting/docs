@@ -17,7 +17,7 @@ The following will explain to you step by step how to install and configure the 
 
 :::warning Newer version available / EOL details
 
-The latest version of Ubuntu is the [18.04](http://localhost:3000/guides/docs/dedicated-ubuntu) version. We recommend using the latest version for long-term projects.
+The latest version of Ubuntu is the [24.04](http://localhost:3000/guides/docs/dedicated-ubuntu) version. We recommend using the latest version for long-term projects.
 
 Support for older Ubuntu versions will be discontinued sooner or later. The following deadlines are scheduled for the 18.04 version:
 
