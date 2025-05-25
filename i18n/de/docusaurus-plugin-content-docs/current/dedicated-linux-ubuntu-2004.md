@@ -1,8 +1,8 @@
 ---
-id: dedicated-linux-ubuntu
-title: "Dedicated Server: Installation von Ubuntu 24.04"
-description: Informationen zur Installation des Betriebssystems Ubuntu 24.04 auf deinem dedizierten Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
-sidebar_label: Ubuntu 24.04
+id: dedicated-linux-ubuntu-2004
+title: "Dedicated Server: Installation von Ubuntu 22.04"
+description: Informationen zur Installation des Betriebssystems Ubuntu 22.04 auf deinem dedizierten Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
+sidebar_label: Ubuntu 22.04
 services:
   - dedicated
 
@@ -15,6 +15,19 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 Im Folgenden wird dir Schritt für Schritt erklärt, wie du das Debian Betriebssystem auf deinem Dedicated Server installieren und konfigurieren kannst. Folge diesen Anweisungen sorgfältig, um sicherzustellen, dass du das Betriebssystem erfolgreich einrichtest und optimal nutzt.
 
 
+
+:::warning Neuere Version verfügbar / EOL Details
+
+Die neueste Version von Ubuntu ist die [24.04](https://zap-hosting.com/guides/de/docs/dedicated-ubuntu) Version. Wir empfehlen, die neueste Version für langfristige Projekte zu verwenden.
+
+Der Support für ältere Ubuntu Versionen wird früher oder später eingestellt werden. Die folgenden Termine sind für Ubuntu 20.04 vorgesehen:
+
+- Ende des Standard Support: 01.05.2025
+- Ende des  Ubuntu Pro Support: 01.04.2030
+- Ende des Legacy Support: 01.04.2032
+
+Mehr Informationen können auf der [offiziellen Website](https://ubuntu.com/about/release-cycle) abgerufen werden.
+:::
 
 <InlineVoucher />
 
@@ -104,7 +117,7 @@ Du kannst das Passwort des Root-Benutzers einfach ändern. Führe `sudo su` aus 
 
 ## Abschluss
 
-Glückwunsch, du hast das Ubuntu 24.04 Betriebssystem erfolgreich installiert. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+Glückwunsch, du hast das Ubuntu 22.04 Betriebssystem erfolgreich installiert. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
 
 
 
