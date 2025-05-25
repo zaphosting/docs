@@ -18,7 +18,7 @@ Im Folgenden wird dir Schritt für Schritt erklärt, wie du das Debian Betriebss
 
 :::warning Neuere Version verfügbar / EOL Details
 
-Die neueste Version von Ubuntu ist die [24.04](https://zap-hosting.com/guides/de/docs/dedicated-ubuntu) Version. Wir empfehlen, die neueste Version für langfristige Projekte zu verwenden.
+Die neueste Version von Ubuntu ist die [24.04](dedicated-linux-ubuntu.md) Version. Wir empfehlen, die neueste Version für langfristige Projekte zu verwenden.
 
 Der Support für ältere Ubuntu Versionen wird früher oder später eingestellt werden. Die folgenden Termine sind für Ubuntu 18.04 vorgesehen:
 
