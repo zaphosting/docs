@@ -2641,7 +2641,17 @@ const sidebars = {
       ],
     },
     'dedicated-linux-debian',
-    'dedicated-linux-ubuntu',		
+         {
+      type: "category",
+      label: "Install Ubuntu",
+      items: [
+      'dedicated-linux-ubuntu',
+      'dedicated-linux-ubuntu-2204',
+      'dedicated-linux-ubuntu-2004',
+      'dedicated-linux-ubuntu-1804',
+
+      ],
+    },
     'dedicated-freebsd',		
     'dedicated-centos',		
     'dedicated-proxmox',
