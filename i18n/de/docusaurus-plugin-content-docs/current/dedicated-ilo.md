@@ -9,12 +9,12 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
-## Was ist das und was kann es?
+## Einführung
 Auf unseren Enterprise Dedicated Servern wird die Verwaltungsoberfläche iLO eingesetzt, sie ermöglicht eine uneingeschränkte volle Verwaltbarkeit deines Servers. Zu ihren Funktionsumfängen zählen z.B. Server Start/Stop/Reboot, Management-Consolen über Java oder HTML5 und das Einbinden von Bootmedien (ISOs). Du solltest mit einer grundsätzlichen Vorsicht dort Einstellungen verändern, bei falschen Änderungen könnte dies Probleme hervorrufen.
 
 <InlineVoucher />
 
-## Wie komme ich in die iLO?
+## iLO Zugriff
 Öffne mit einem Browser deiner Wahl das Server Dashboard deines ZAP Dedicated Servers. Dort findest du bereits die wichtigsten Informationen zu deiner iLO. Um die iLO zu aktivieren, klicke ganz einfach auf "iLO aktivieren".
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/qYPEPiwCKKrzLDL/preview)
@@ -164,6 +164,8 @@ Bei der eingesetzten Enterprise Hardware ist eine lange Bootzeit völlig normal,
 Stelle sicher, dass die iLO in deinem Server Dashboard aktiviert ist, aus Sicherheitsgründen schaltet sich die Verwaltungsoberfläche nach einiger Zeit automatisiert ab.
 Du kannst selbstverständlich auch die iLO nochmals deaktivieren und wieder aktivieren. (Warte mindestens 5 Minuten nach dem Aktivieren)
 
-:::info
-Bei weiteren Fragen und Problemen steht dir unser Support jederzeit gerne mit Rat & Tat zur Verfügung!
-:::
+
+
+## Abschluss
+
+Die Verwaltung sollte dir damit nun um ein ganzes Stück einfacher fallen, wenn du dir alles ausführlich durchgelesen hast. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂

@@ -9,14 +9,14 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
-## What is it and what can it do?
+## Introduction
 On our Enterprise Dedicated Servers we use the management interface iLo, it allows unrestricted full manageability of your server.
 Its functionalities include server start/stop/reboot, management console via Java or HTML5, mounting of boot media (ISOs).
 You should modify the settings carefully, in case of wrong changes it can cause big problems.
 
 <InlineVoucher />
 
-## How do I get into the iLO?
+## iLO access
 Open the server dashboard of your ZAP Dedicated Server with a browser of your choice. There you will already find the most important information about your iLO.
 To activate the iLO simply click on "Activate iLO".
 ![](https://screensaver01.zap-hosting.com/index.php/s/grj9PxttLKiZg6m/preview)
@@ -167,3 +167,9 @@ The used Enterprise hardware takes a long time to boot, this is fully normal. It
 * I can't open the iLO anymore
 Make sure that the iLO is enabled in your server dashboard, for security reasons the management interface will automatically shut down after some time.
 You can of course disable the iLO again and enable it again. (Wait at least 5 minutes after activating)
+
+
+
+## Conclusion
+
+This should make your administration a lot easier once you have read through everything in detail. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
