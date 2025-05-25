@@ -1,7 +1,7 @@
 ---
 id: wreckfest-firststeps-dashboard
-title: "Wreckfest 2: Dashboard Übersicht"
-description: Informationen zum Dashboard eines Wreckfest 2 Server von ZAP-Hosting - ZAP-Hosting.com Dokumentationen
+title: "Wreckfest: Dashboard Übersicht"
+description: Informationen zum Dashboard eines Wreckfest Server von ZAP-Hosting - ZAP-Hosting.com Dokumentationen
 sidebar_label: Dashboard
 services:
   - gameserver
@@ -12,9 +12,9 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Du bist an einem **Wreckfest 2 Server** interessiert oder besitzt bereits einen, doch dir fehlt noch ein umfassender Überblick über die Verwaltung und die Auffindbarkeit aller notwendigen Optionen? Gerade zu Beginn kann dies eine Herausforderung darstellen. Aber keine Sorge, im Folgenden bieten wir dir eine ausführliche Einführung zur Verwaltung deines Dienstes, damit du den optimalen Durchblick hast.
+Du bist an einem **Wreckfest Server** interessiert oder besitzt bereits einen, doch dir fehlt noch ein umfassender Überblick über die Verwaltung und die Auffindbarkeit aller notwendigen Optionen? Gerade zu Beginn kann dies eine Herausforderung darstellen. Aber keine Sorge, im Folgenden bieten wir dir eine ausführliche Einführung zur Verwaltung deines Dienstes, damit du den optimalen Durchblick hast.
 
-Nachdem du diese Anleitung durchgegangen bist, wirst du problemlos in der Lage sein, deinen Server effizient zu verwalten und alle erforderlichen Optionen sowie Features zügig und unkompliziert zu finden. Hier erhältst du einen strukturierten Überblick, der dir Schritt für Schritt hilft, dich mit der Serververwaltung vertraut zu machen und dein Wissen gezielt zu erweitern. So kannst du sicherstellen, dass dein **Wreckfest 2 Server** optimal auf deine Bedürfnisse abgestimmt ist und du das Beste aus den vorhandenen Möglichkeiten herausholst.
+Nachdem du diese Anleitung durchgegangen bist, wirst du problemlos in der Lage sein, deinen Server effizient zu verwalten und alle erforderlichen Optionen sowie Features zügig und unkompliziert zu finden. Hier erhältst du einen strukturierten Überblick, der dir Schritt für Schritt hilft, dich mit der Serververwaltung vertraut zu machen und dein Wissen gezielt zu erweitern. So kannst du sicherstellen, dass dein **Wreckfest Server** optimal auf deine Bedürfnisse abgestimmt ist und du das Beste aus den vorhandenen Möglichkeiten herausholst.
 
 
 
@@ -83,6 +83,7 @@ Insbesondere Fehlermeldungen können dabei helfen, die Ursache eines Problems zu
 
 :::warning
 Die dort zu findenden Informationen helfen nicht weiter oder du verstehst diese nicht? Keine Sorge! In dem Fall stehen wir dir auch im Support täglich zur Verfügung. Erstelle dazu einfach ein **[Ticket](https://zap-hosting.com/de/customer/support/)** und erläutere uns dein Problem. Wir werden uns dies dann so schnell wie möglich anschauen und dir bei der Lösung des Problems entsprechend weiterhelfen! :)
+:::
 
 
 
