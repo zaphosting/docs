@@ -1,10 +1,11 @@
 ---
 id: dedicated-linux-ubuntu
-title: "Dedicated Server: Installation von Ubuntu"
-description: Informationen zu der Installation des Ubuntu Betriebssystem auf deinem Dedicated Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
-sidebar_label: Ubuntu installieren
+title: "Dedicated Server: Installation von Ubuntu 24.04"
+description: Informationen zur Installation des Betriebssystems Ubuntu 24.04 auf deinem dedizierten Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
+sidebar_label: Ubuntu 24.04
 services:
   - dedicated
+
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
@@ -13,11 +14,10 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Im Folgenden wird dir Schritt für Schritt erklärt, wie du das Debian Betriebssystem auf deinem Dedicated Server installieren und konfigurieren kannst. Folge diesen Anweisungen sorgfältig, um sicherzustellen, dass du das Betriebssystem erfolgreich einrichtest und optimal nutzt.
 
-:::info
-Der Aufbau der Anleitung basiert auf der Verwendung des Ubuntu 20.04 Betriebssystems. Installationen von früheren oder neueren Versionen können hinsichtlich des Prozesses leicht abweichen. 
-:::
+
 
 <InlineVoucher />
+
 
 ## Vorbereitung
 
@@ -32,92 +32,81 @@ Solltest du mit dem Mounten einer ISO-Datei noch nicht vertraut sein, dann schau
 
 
 ## Installation
-Wenn die ISO erfolgreich geladen wurde, ist der Server erfolgreich im Setup.
+
+Sobald die ISO-Datei erfolgreich gemountet und geladen wurde, sollte sich der Server im Setup-Prozess befinden. Die Sprache, die du für dein Betriebssystem verwenden möchtest, wird zu Beginn des Setups festgelegt. Wähle eine der verfügbaren Sprachen und bestätige die Auswahl mit der `Enter` Taste. 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/yrHMNzstM23XZH6/preview)
 
-Wähle deine gewünschte Sprache des Systems aus und bestätige mit Enter.
-
-:::info
-Du kannst mit Tab zwischen den Menüpunkten wechseln und die Auswahl der verschiedenen Sprachen mit "Enter" öffnen
-:::
+Als nächstes muss das passende Tastaturlayout ausgewählt und für die Sprache eingestellt werden. Wähle auch hier die für dich passende Tastaturbelegung. 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/x9kYGEWS5fy7Wjp/preview)
 
-Wähle dein gewünschtes Tastaturlayout und bestätige deine Eingabe mit "Done".
-
-:::info
-Du kannst mit Tab wischen den Menüpunkten wechseln und die Auswahl der verschiedenen Layouts mit "Enter" öffnen
-:::
+Anschließend erfolgt die Netzwerkkonfiguration. Der Server wird standardmäßig über DHCP konfiguriert. Der Standard-Netzwerkadapter ist `eno1`. Bestätige die Standardeinstellungen und fahre fort. 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/6mr5kAKJQ39iJt5/preview)
 
-Dein Server konfiguriert seine Netzwerkschnittstelle automatisiert durch DHCP. Der Adapter `eno1`  ist der Netzwerkadapter deines ZAP Dedicated Servers.Wir bestätigen alles mit "Done".
-
-***
+Optional kann ein zusätzlicher Proxy konfiguriert werden. Dies ist jedoch nicht unbedingt erforderlich. Wenn du das nicht benötigst, dann überspringe diesen Schritt einfach. 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/tz97Ee8ZQkxAGGb/preview)
 
-Wenn du einen Proxy nutzen möchtest, könntest du dies hier einstellen. Ein Proxy ist nicht notwendig.
-
-***
+Nun wird der Ubuntu Archive Mirror (Download-Server für Pakete) definiert. Unsere dedizierten Server befinden sich in Deutschland, daher empfehlen wir, den deutschen Mirror-Standort zu wählen, um die bestmögliche Download Geschwindigkeit zu erreichen.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/xNknNyWAbd5DnsZ/preview)
 
-Unser dedizierter Server steht in Deutschland, somit wählen wir auch den deutschen Mirror-Standort, um die bestmögliche Download-Rate zu erreichen.
-
-***
+Die Partitionen können nun in der Speicherkonfiguration definiert werden. Du kannst entweder eine große Partition verwenden oder sie bei Bedarf unterteilen. Wenn du nur die gesamte SSD als eine Partition verwenden möchtest, wähle einfach `Use an entire disk` und fahre fort.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/2dJ9oeMGjpWn6cZ/preview)
 
-In diesem Schritt kannst du die Partitionen deines Systems anpassen, sofern du nur eine große Partition möchtest, wähle einfach "Use an entires disk".
+Das Setup erstellt automatisch die Volumes und du kannst fortfahren, indem du die `Done` Option wählst.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/WXfzt57Rtm2SQLD/preview)
 
-Das Setup erstellt automatisch die Partitionen, wir bestätigen das, indem wir "Done" auswählen.
+Bevor der Vorgang eingeleitet wird, wirst du darauf hingewiesen, dass bei diesem Vorgang alle vorhandenen Daten gelöscht werden. Diese Meldung muss mit der Option `Continue` bestätigt werden. 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/L3YcGNbYWpMmaDj/preview)
 
-Das Setup vernichtet natürlich alle bestehenden Daten, das akzeptieren wir mit "Continue" und drücken Enter.
+Bitte konfiguriere dein Benutzerkonto nach deinen Wünschen, du kannst auch das Root-Konto verwenden, indem du das Passwort änderst.
+Du kannst mit der Tabulatortaste oder den Pfeiltasten durch die Optionen navigieren. Sobald du fertig bist, kannst du mit einem Klick auf `Done` fortfahren.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/mqrjmF2ZmA2Qj9z/preview)
 
-Hier können die Zugangsdaten für deinen Account erstellt werden, du kannst durch die verschiedenen Menüpunkte mit TAB oder den Pfeiltasten navigieren. Wenn du alles eingestellt hast, bitte mit "Done" bestätigen.
+
+
+
+
+Die Installation der SSH-Einrichtung wird empfohlen. Wenn du den Server per SSH verwalten willst, wähle die Option zur Installation aus und bestätige den Vorgang.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/Xz3zzMdZ6C523ip/preview)
 
-Um deinen Server auch beispielsweise per PuTTY erreichen zu können, muss ein OpenSSH-Server installiert werden.
+Ubuntu bietet dir ein paar Paketsammlungen aus, sofern du etwas davon nutzen möchtest, wähle diese einfach aus.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/wcGiSwX935jXeex/preview)
 
-Ubuntu bietet dir ein paar Paketsammlungen aus, sofern du etwas davon nutzen möchtest, wähle diese einfach aus.
-
-:::info
-🎉 Der Server installiert nun das Betriebssystem, nach diesem Schritt ist das Setup beendet.
-:::
+Um den Vorgang abzuschließen, muss die ISO-Datei ausgeworfen werden, damit sie beim Neustart des Servers nicht erneut geladen wird. Starte den Server einmal neu, um den Vorgang abzuschließen. 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/SzrxCtJTx2S8Nef/preview)
 
-Bitte entferne jetzt die ISO-Datei in deiner iLO, damit dein Server bei einem Neustart nicht wieder das Setup läd.
 
-***
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/x3BRLSepSDFnYGA/preview)
-
-Wähle "Reboot now" und bestätige, dass du die ISO-Datei entfernt hast.
 
 
 
 ## Konfiguration
 
+
+
 ### Passwortänderung des Root Benutzers
 
-Das Passwort des Root-Nutzers kann einfach geändert werden. Trage in der Console `sudo su -` ein und gib dein vorhin gesetztes Passwort ein, danach `sudo passwd root` um das Passwort zu ändern. Gib nun das neue Passwort für deinen Root-Nutzer ein.
-
-Fertig! Du kannst dich jetzt mit dem gesetzten Passwort als `root` anmelden.
+Du kannst das Passwort des Root-Benutzers einfach ändern. Führe `sudo su` aus und gib dein Passwort ein. Führe danach `sudo passwd` aus, um das Passwort zu ändern. Gib nun das neue gewünschte Passwort für den Root-Benutzer ein. Das war's, du kannst dich jetzt mit deinem Benutzeraccount `root` anmelden.
 
 
 
 ## Abschluss
 
-Glückwunsch, du hast das Ubuntu Betriebssystem erfolgreich installiert. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+Glückwunsch, du hast das Ubuntu 24.04 Betriebssystem erfolgreich installiert. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+
+
+
+
+

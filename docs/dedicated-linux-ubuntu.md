@@ -1,8 +1,8 @@
 ---
 id: dedicated-linux-ubuntu
-title: "Dedicated Server: Installation of Ubuntu"
-description: Information about installing the Ubuntu operating system on your dedicated server from ZAP-Hosting - ZAP-Hosting.com documentation
-sidebar_label: Install Ubuntu
+title: "Dedicated Server: Installation of Ubuntu 24.04"
+description: Information about installing the Ubuntu 24.04 operating system on your dedicated server from ZAP-Hosting - ZAP-Hosting.com documentation
+sidebar_label: Ubuntu 24.04
 services:
   - dedicated
 ---
@@ -12,12 +12,6 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 ## Introduction
 
 The following will explain to you step by step how to install and configure the Ubuntu operating system on your dedicated server. Follow these instructions carefully to ensure that you set up the operating system successfully and utilize it optimally.
-
-:::info
-
-The structure of the guide is based on the use of the Ubunut 20.04 operating system. Installations from previous or newer versions may differ slightly in terms of the process.
-
-:::
 
 <InlineVoucher />
 
@@ -35,64 +29,62 @@ If you are not familiar with mounting an ISO file yet, it's best to refer to our
 
 ## Installation
 
-When the ISO is successfully loaded, the server is in the setup process.
+Once the ISO has been successfully mounted and loaded, the server should be in the setup process. The language you want to use for your OS will be defined at the beginning of the setup. Select one of the available languages and confirm the selection with the `Enter` key. 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/yrHMNzstM23XZH6/preview)
 
-Choose your desired language and proceed by pressing enter.
+Next, the appropriate keyboard layout must be selected and set for the language. Select the keyboard layout that is suitable for you here too. 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/x9kYGEWS5fy7Wjp/preview)
 
-Choose your desired keyboard layout and proceed by ticking "Done".
+Following this, the network configuration takes place. The server is configured via DHCP by default. The default network adapter is `eno1`. Confirm the default settings and continue. 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/6mr5kAKJQ39iJt5/preview)
 
-Your server configures its network interface automatically by using DHCP. The adapter `eno1` is the default network adapter of your ZAP Dedicated Server. We proceed by ticking "Done"
-
-***
+An additional proxy can be configured as an option. However, this is not essential. If you do not need this, simply skip this step. 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/tz97Ee8ZQkxAGGb/preview)
 
-If you'd like to use a proxy, you could configure it here. A proxy is not required.
+Now the Ubuntu Archive Mirror (download server for packages) is defined. Our dedicated servers are located in Germany, so it's recommended to choose the German mirror location to achieve the best possible download speed rates.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/xNknNyWAbd5DnsZ/preview)
 
-Our dedicated servers are located in Germany, so it's recommended to choose the German mirror location to achieve the best possible download speed rates.
+The partitions can now be defined in the storage configuration. You can either use one large partition or subdivide it if needed. If you'd like to use just the whole SSD as one partition just pick `Use an entire disk` and continue.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/2dJ9oeMGjpWn6cZ/preview)
 
-In this step you can create different partitions for your system, if you'd like to use just the whole SSD as one partition just pick "Use an entire disk".
+The setup automatically creates the volumes and you can proceed by choosing  the `Done` option.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/WXfzt57Rtm2SQLD/preview)
 
-The setup automatically creates the volumes and you can proceed by choosing "Done".
+Before the process is initiated, you will be informed that this process will delete all existing data. This message must be confirmed with the `Continue` option. 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/L3YcGNbYWpMmaDj/preview)
 
-The setup, of course, deletes all persisting data on the system, we accept that by ticking "Continue" and pressing enter.
+Please configure your user account to your like, you can also use the root account in the end by changing the password.
+You can navigate through the options with tab or your arrow keys. When you're done proceed by ticking `Done`.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/mqrjmF2ZmA2Qj9z/preview)
 
-Please configure your user account to your like, you can also use the root account in the end by changing the password.
-You can navigate through the options with tab or your arrow keys. When you're done proceed by ticking "Done".
+
+
+
+
+The installation of the SSH setup is recommended. If you want to manage the server via SSH, select the option to install and confirm the process.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/Xz3zzMdZ6C523ip/preview)
 
-We would recommend to enable the installation of the OpenSSH-Server if you'd like to connect to your server through for example, PuTTY.
+​	Ubuntu offers a few default snaps, if you'd like to use some of them, just tick the ones your like.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/wcGiSwX935jXeex/preview)
 
-Ubuntu offers a few default snaps, if you'd like to use some of them, just tick the ones your like.
+To complete the process, the ISO must be ejected to prevent it from being reloaded when the server is restarted. Restart the server once to finish the process. 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/SzrxCtJTx2S8Nef/preview)
 
-Please eject now the ISO File in your iLO to prevent the server from loading the setup again.
 
-***
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/x3BRLSepSDFnYGA/preview)
-
-choose "Reboot now" and verify by pressing enter that you have removed the ISO file.
 
 
 
@@ -102,17 +94,13 @@ choose "Reboot now" and verify by pressing enter that you have removed the ISO f
 
 ### Changing the password of the root user
 
-You can easily change the password of the root user:
-
-Write `sudo su`, and enter your password; then write `sudo passwd` to change the password. Now enter the new desired password for the root user. That's it - You can now login with your user account `root`
-
-
+You can easily change the password of the root user. Execute `sudo su`, and enter your password. After this, execute `sudo passwd` to change the password. Now enter the new desired password for the root user. That's it, you can now login with your user account `root`
 
 
 
 ## Conclusion
 
-Congratulations, you have successfully installed the Ubuntu operating system on your dedicated server. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
+Congratulations, you have successfully installed the Ubuntu 24.04 operating system on your dedicated server. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
 
 
 
