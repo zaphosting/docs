@@ -26,7 +26,7 @@ Certbot verfügt außerdem über zusätzliche Plugins, mit denen du ganz einfach
 
 Beginne mit der Installation des Open-Source-Pakets [**Certbot**](https://certbot.eff.org/), das du verwenden wirst, um kostenlose SSL-Zertifikate von **Let's Encrypt** anzufordern.
 ```
-sudo apt install certbot python3-certbot-nginx
+sudo apt install certbot
 ```
 
 Nachdem Certbot nun installiert ist, kannst du Zertifikate für deine Domain(s) anfordern. Let's Encrypt und Certbot bieten eine Vielzahl von ACME-Herausforderungen an, um den Besitz der Domain zu überprüfen.
@@ -99,12 +99,18 @@ Certbot enthält eine Reihe verschiedener zusätzlicher Webserver-Plugins, die d
 
 Beide Methoden verwenden die **HTTP-01**-Challenge und funktionieren im Wesentlichen auf die gleiche Weise. Wenn eines der Plugins verwendet wird, sucht Certbot zunächst nach dem entsprechenden Serverblock, der die angeforderte Domain als Parameter `server_name` enthält. Sobald er gefunden wurde, generiert Certbot eine ACME-Challenge und fügt einen temporären `location /.well-known/acme-challenge/...`-Location-Block zur entsprechenden Serverblockkonfiguration hinzu.
 
-Die Let's Encrypt-Server versuchen dann, diese von Ihrem Server abzurufen. Bei Erfolg wird Ihr Zertifikat generiert und Ihre Nginx-Serverblockkonfiguration wird automatisch bearbeitet, um die Verwendung von HTTPS (Port 443) anzupassen und Pfade zum neu generierten Zertifikat hinzuzufügen.
+Die Let's Encrypt-Server versuchen dann, das von deinem Server zu holen. Wenn das klappt, wird dein Zertifikat erstellt und die Serverblockkonfiguration für den ausgewählten Webserver automatisch angepasst, damit HTTPS (Port 443) verwendet wird und die Pfade zum neu erstellten Zertifikat hinzugefügt werden.
 
 <Tabs>
 <TabItem value="nginx" label="Nginx" default>
 
 ### Nginx-Plugin
+
+Bevor du das Plugin benutzt, check, ob es installiert ist.
+
+```
+sudo apt install python3-certbot-nginx
+```
 
 Um das Nginx-Plugin zu verwenden, solltest du den Parameter `--nginx` in deinem Befehl wie folgt verwenden.
 
@@ -128,6 +134,12 @@ Wenn du die automatische "Ein-Klick"-Anpassung der Server-Blockierung von Certbo
 <TabItem value="apache" label="Apache">
 
 ### Apache-Plugin
+
+Bevor du das Plugin benutzt, check, ob es installiert ist.
+
+```
+sudo apt install python3-certbot-apache
+```
 
 Um das Nginx-Plugin zu verwenden, solltest du den Parameter `--apache` in deinem Befehl wie folgt verwenden.
 
