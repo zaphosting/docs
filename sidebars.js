@@ -198,7 +198,7 @@ const sidebars = {
             "fivem-proxy"
           ]
         },
-                {
+        {
           type: "category",
           label: "Resources",
           items: [
@@ -262,7 +262,7 @@ const sidebars = {
         },
         {
           type: "category",
-          label: "Administration",
+          label: "Configuration",
           items: [
             "minecraft-commands",
             "minecraft-addop",
@@ -275,7 +275,6 @@ const sidebars = {
             "minecraft-whitelist",
             "minecraft-timings-report",
             "minecraft-server-optimize",
-            "minecraft-faultyworld"
           ]
         },
         {
@@ -307,6 +306,13 @@ const sidebars = {
             "minecraft-pluginuploader"
           ]
         },
+                {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "minecraft-faultyworld"
+          ]
+        },
       ],
     },
     {
@@ -321,11 +327,17 @@ const sidebars = {
             "scp-firststeps-connect",
           ]
         },
-        "scp-beta-version",		
-        "scp-becomeadmin",
-        "scp-newroles",
-        "scp-colored-servername",
-        "scp-pastebin",
+        {
+          type: "category",
+          label: "Configuration",
+          items: [
+            "scp-beta-version",		
+            "scp-becomeadmin",
+            "scp-newroles",
+            "scp-colored-servername",
+            "scp-pastebin",
+          ]
+        },
         {
           type: "category",
           label: "Exiled",
@@ -347,14 +359,26 @@ const sidebars = {
             "valheim-firststeps-connect",
           ]
         },
-        "valheim-savegame",
-        "valheim-backup-schedule",
-        "valheim-serverlisting",
-        "valheim-admin",
-        "valheim-plus",
-        "valheim-plugins-bepinex"
+        {
+          type: "category",
+          label: "Configuration",
+          items: [
+            "valheim-savegame",
+            "valheim-backup-schedule",
+            "valheim-admin",
+            "valheim-plus",
+            "valheim-plugins-bepinex"
+          ]
+        },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "valheim-serverlisting",
+          ]
+        },
       ],
-    },
+    },    
     {
       type: "category",
       label: "Ark: Survival Evolved",
@@ -367,11 +391,17 @@ const sidebars = {
             "ark-firststeps-connect"
           ]
         },
-        "ark-becomeadmin",
-        "ark-mods",
-        "ark-serverlisting",
-        "ark-configuration",
-        "ark-savegame"
+        {
+          type: "category",
+          label: "Configuration",
+          items: [
+            "ark-becomeadmin",
+            "ark-mods",
+            "ark-serverlisting",
+            "ark-configuration",
+            "ark-savegame"
+          ]
+        },
       ],
     },
     {
@@ -386,12 +416,18 @@ const sidebars = {
             "palworld-connect"
           ]
         },
-        "palworld-configuration",
-        "palworld-server-commands",
-        "palworld-server-savegames",
-        "palworld-server-modding",
-        "palworld-admin",
-        "palworld-rcon"
+        {
+          type: "category",
+          label: "Configuration",
+          items: [
+            "palworld-configuration",
+            "palworld-server-commands",
+            "palworld-server-savegames",
+            "palworld-server-modding",
+            "palworld-admin",
+            "palworld-rcon"
+          ]
+        },
       ],
     },
     {
@@ -406,8 +442,14 @@ const sidebars = {
             "enshrouded-firststeps-connect"
           ]
         },
-        "enshrouded-configuration",
-        "enshrouded-server-savegames"
+        {
+          type: "category",
+          label: "Configuration",
+          items: [
+          "enshrouded-configuration",
+          "enshrouded-server-savegames"
+          ]
+        },
       ],
     },
     {
@@ -433,9 +475,15 @@ const sidebars = {
             "7d2d-firststeps-connect"
           ]
         },
-        "7d2d-becomeadmin",
-        "7d2d-mods",
-        "7d2d-commands",
+        {
+          type: "category",
+          label: "Configuration",
+          items: [
+            "7d2d-becomeadmin",
+            "7d2d-mods",
+            "7d2d-commands",
+          ]
+        },
       ],
     },
     {
@@ -450,8 +498,14 @@ const sidebars = {
             "abioticfactor-firststeps-connect",
           ]
         },
-        "abioticfactor-configuration",
-        "abioticfactor-server-savegames",
+        {
+          type: "category",
+          label: "Configuration",
+          items: [
+            "abioticfactor-configuration",
+            "abioticfactor-server-savegames",
+          ]
+        },
       ],
     },
     {
@@ -480,7 +534,13 @@ const sidebars = {
             "ats-firststeps-connect",
           ]
         },
-        "ats-server-modding"
+        {
+          type: "category",
+          label: "Configuration",
+          items: [
+            "ats-server-modding"
+          ]
+        },
       ],
     },
     {
@@ -492,9 +552,9 @@ const sidebars = {
           label: "First Steps",
           items: [
             "amongus-firststeps-dashboard",
+            "amongus-connection"
           ]
         },
-        "amongus-connection"
       ],
     },
     {
@@ -536,11 +596,17 @@ const sidebars = {
             "ark-firststeps-connect"
           ]
         },
-        "ark-becomeadmin",
-        "ark-mods",
-        "ark-serverlisting",
-        "ark-configuration",
-        "ark-savegame"
+        {
+          type: "category",
+          label: "Configuration",
+          items: [
+            "ark-becomeadmin",
+            "ark-mods",
+            "ark-serverlisting",
+            "ark-configuration",
+            "ark-savegame"
+          ]
+        },
       ],
     },
     {
@@ -555,11 +621,17 @@ const sidebars = {
             "arma3-firststeps-connect"
           ]
         },
-        "arma3-serverconfig",
-        "arma3-mods",
-        "arma3-altislife-ranks",
-        "arma3-gamemode",
-        "arma3-missionfile"
+        {
+          type: "category",
+          label: "Configuration",
+          items: [
+            "arma3-serverconfig",
+            "arma3-mods",
+            "arma3-altislife-ranks",
+            "arma3-gamemode",
+            "arma3-missionfile"
+          ]
+        },
       ]
     },
     {
@@ -588,9 +660,15 @@ const sidebars = {
             "assettocorsa-firststeps-connect"
           ]
         },
-        "assettocorsa-configure",
-        "assettocorsa-contentmanager",
-        "assettocorsa-mods"
+        {
+          type: "category",
+          label: "Configuration",
+          items: [
+            "assettocorsa-configure",
+            "assettocorsa-contentmanager",
+            "assettocorsa-mods"
+          ]
+        },
       ],
     },
     {
@@ -605,8 +683,14 @@ const sidebars = {
             "assetto-competizione-firststeps-connect",
           ]
         },
-        "assetto-competizione-becomeadmin",
-        "assetto-competizione-slot-requirement",
+        {
+          type: "category",
+          label: "Configuration",
+          items: [
+            "assetto-competizione-becomeadmin",
+            "assetto-competizione-slot-requirement",
+          ]
+        },
       ],
     },
     {
@@ -635,7 +719,13 @@ const sidebars = {
             "avorion-firststeps-connect",
           ]
         },
-        "avorion-becomeadmin",
+        {
+          type: "category",
+          label: "Configuration",
+          items: [
+            "avorion-becomeadmin",
+          ]
+        },
       ],
     },
     {
@@ -664,7 +754,13 @@ const sidebars = {
             "barotrauma-firststeps-connect",
           ]
         },
-        "barotrauma-becomeadmin"
+        {
+          type: "category",
+          label: "Configuration",
+          items: [
+            "barotrauma-becomeadmin"
+          ]
+        },
       ],
     },
     {
@@ -706,9 +802,15 @@ const sidebars = {
             "beammp-firststeps-dashboard"
           ]
         },
-        "beammp-authkey",
-        "beammp-mods",
-        "beammp-addon-map"
+        {
+          type: "category",
+          label: "Configuration",
+          items: [
+            "beammp-authkey",
+            "beammp-mods",
+            "beammp-addon-map"
+          ]
+        },
       ],
     },
     {
@@ -793,8 +895,14 @@ const sidebars = {
             "conan-firststeps-connect",
           ]
         },
-        "conan-becomeadmin",
-        "conan-configuration"
+        {
+          type: "category",
+          label: "Configuration",
+          items: [
+            "conan-becomeadmin",
+            "conan-configuration"
+          ]
+        },
       ],
     },
     {
@@ -864,8 +972,14 @@ const sidebars = {
             "cs16-firststeps-connect"
           ]
         },
-        "cs16-becomeadmin",
-        "cs16-plugins"
+        {
+          type: "category",
+          label: "Configuration",
+          items: [
+            "cs16-becomeadmin",
+            "cs16-plugins"
+          ]
+        },
       ],
     },
     {
@@ -880,7 +994,13 @@ const sidebars = {
             "css-firststeps-connect"
           ]
         },
-        "source-gsltoken",
+        {
+          type: "category",
+          label: "Configuration",
+          items: [
+            "source-gsltoken",
+          ]
+        },
         {
           type: "category",
           label: "Sourcemod / Metamod (Plugins)",
@@ -906,7 +1026,7 @@ const sidebars = {
         },
         {
           type: "category",
-          label: "Configuration & Administration",
+          label: "Configuration",
           items: [
             "cs2-configuration",
             "cs2-cstv",
@@ -920,7 +1040,6 @@ const sidebars = {
             "cs2-plugins"
           ]
         },
-        
       ],
     },
     {
@@ -971,8 +1090,14 @@ const sidebars = {
             "dayz-firststeps-connect"
           ]
         },
-        "dayz-becomeadmin",
-        "dayz-mods",
+        {
+          type: "category",
+          label: "Configuration",
+          items: [
+            "dayz-becomeadmin",
+            "dayz-mods",
+          ]
+        },
       ],
     },
     {
@@ -1029,7 +1154,13 @@ const sidebars = {
             "dst-firststeps-connect"
           ]
         },
-        "dst-create-cave"
+        {
+          type: "category",
+          label: "Configuration",
+          items: [
+            "dst-create-cave"
+          ]
+        },
       ],
     },
     {
@@ -1044,8 +1175,14 @@ const sidebars = {
             "eco-firststeps-connect"
           ]
         },
-        "eco-becomeadmin",
-        "eco-whitelist"
+        {
+          type: "category",
+          label: "Configuration",
+          items: [
+            "eco-becomeadmin",
+            "eco-whitelist"
+          ]
+        },
       ],
     },
     {
@@ -1060,10 +1197,16 @@ const sidebars = {
             "empyrion-firststeps-connect"
           ]
         },
-        "empyrion-becomeadmin"
+        {
+          type: "category",
+          label: "Configuration",
+          items: [
+            "empyrion-becomeadmin"
+          ]
+        },
       ],
     },
-    {
+{
       type: "category",
       label: "Enshrouded",
       items: [
@@ -1075,8 +1218,14 @@ const sidebars = {
             "enshrouded-firststeps-connect"
           ]
         },
-        "enshrouded-configuration",
-        "enshrouded-server-savegames"
+        {
+          type: "category",
+          label: "Configuration",
+          items: [
+          "enshrouded-configuration",
+          "enshrouded-server-savegames"
+          ]
+        },
       ],
     },
     {
@@ -1091,7 +1240,13 @@ const sidebars = {
             "ets2-firststeps-connect",
           ]
         },
-        "ets2-server-modding"
+        {
+          type: "category",
+          label: "Configuration",
+          items: [
+            "ets2-server-modding"
+          ]
+        },
       ],
     },
     {
@@ -1106,8 +1261,14 @@ const sidebars = {
             "factorio-firststeps-connect"
           ]
         },
-        "factorio-becomeadmin",
-        "factorio-mods"
+        {
+          type: "category",
+          label: "Configuration",
+          items: [
+            "factorio-becomeadmin",
+            "factorio-mods"
+          ]
+        },
       ],
     },
     {
@@ -1208,9 +1369,14 @@ const sidebars = {
             "foundry-firststeps-connect"
           ]
         },
-        "foundry-configuration",
-        "foundry-server-savegames",
-        
+        {
+          type: "category",
+          label: "Configuration",
+          items: [
+            "foundry-configuration",
+            "foundry-server-savegames",
+          ]
+        },        
       ],
     },
     {
@@ -1225,8 +1391,14 @@ const sidebars = {
             "gmod-firststeps-connect"
           ]
         },
-        "gmod-servercfg",
-        "gmod-ttt"
+        {
+          type: "category",
+          label: "Configuration",
+          items: [
+            "gmod-servercfg",
+            "gmod-ttt"
+          ]
+        },
       ],
     }, 
     {
@@ -1391,8 +1563,14 @@ const sidebars = {
             "lastoasis-firststeps-dashboard"
           ]
         },
-        "lastoasis-createrealm",
-        "lastoasis-multiple-oases"
+        {
+          type: "category",
+          label: "Configuration",
+          items: [
+            "lastoasis-createrealm",
+            "lastoasis-multiple-oases"
+          ]
+        },
       ],
     },  
     {
@@ -1460,10 +1638,11 @@ const sidebars = {
         },
         {
           type: "category",
-          label: "Administration",
+          label: "Configuration",
           items: [
             "minecraft-commands",
             "minecraft-addop",
+            "minecraft-playermanagement",
             "minecraft-default-config",
             "minecraft-server-icon",
             "minecraft-add-own-world",
@@ -1472,7 +1651,6 @@ const sidebars = {
             "minecraft-whitelist",
             "minecraft-timings-report",
             "minecraft-server-optimize",
-            "minecraft-faultyworld"
           ]
         },
         {
@@ -1492,18 +1670,25 @@ const sidebars = {
         },
         {
           type: "category",
-          label: "Forge & Fabric",
+          label: "Forge & Fabric (Mods)",
           items: [
             "minecraft-forge-fabric-add-mods-modpacks"
           ]
         },
         {
           type: "category",
-          label: "Spigot & Bukkit",
+          label: "Spigot & Bukkit (Plugins)",
           items: [
             "minecraft-pluginuploader"
           ]
-        }
+        },
+                {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "minecraft-faultyworld"
+          ]
+        },
       ],
     },
     {
@@ -1557,7 +1742,13 @@ const sidebars = {
             "mta-firststeps-dashboard",
           ]
         },
-        "mta-becomeadmin"
+        {
+          type: "category",
+          label: "Configuration",
+          items: [
+            "mta-becomeadmin"
+          ]
+        },
       ],
     },
     {
@@ -1572,9 +1763,15 @@ const sidebars = {
             "moe-firststeps-connect"
           ]
         },
-        "moe-configuration",
-        "moe-server-savegames",
-        "moe-mods",
+        {
+          type: "category",
+          label: "Configuration",
+          items: [
+            "moe-configuration",
+            "moe-server-savegames",
+            "moe-mods",
+          ]
+        },
       ],
     },
     {
@@ -1677,9 +1874,15 @@ const sidebars = {
             "openmp-firststeps-dashboard",
           ]
         },
-        "openmp-configuration",
-        "openmp-server-commands",
-        "openmp-rcon"
+        {
+          type: "category",
+          label: "Configuration",
+          items: [
+            "openmp-configuration",
+            "openmp-server-commands",
+            "openmp-rcon"
+          ]
+        },
       ],
     },
     {
@@ -1721,7 +1924,7 @@ const sidebars = {
         },
       ],
     },
-    {
+{
       type: "category",
       label: "Palworld",
       items: [
@@ -1730,14 +1933,21 @@ const sidebars = {
           label: "First Steps",
           items: [
             "palworld-firststeps-dashboard",
-            "palworld-connect",
+            "palworld-connect"
           ]
         },
-        "palworld-configuration",
-        "palworld-server-commands",
-        "palworld-server-savegames",
-        "palworld-server-modding",
-        "palworld-admin"
+        {
+          type: "category",
+          label: "Configuration",
+          items: [
+            "palworld-configuration",
+            "palworld-server-commands",
+            "palworld-server-savegames",
+            "palworld-server-modding",
+            "palworld-admin",
+            "palworld-rcon"
+          ]
+        },
       ],
     },
     {
@@ -1751,7 +1961,13 @@ const sidebars = {
             "pathoftitans-firststeps-dashboard"
           ]
         },
-        "pathoftitans-becomeadmin",
+        {
+          type: "category",
+          label: "Configuration",
+          items: [
+            "pathoftitans-becomeadmin",
+          ]
+        },
       ],
     },
     {
@@ -1837,7 +2053,6 @@ const sidebars = {
           label: "Troubleshooting",
           items: [
             "redm-prohibited-resources"
-
           ]
         },
       ],
@@ -1866,9 +2081,15 @@ const sidebars = {
             "rimworldtogether-firststeps-dashboard"
           ]
         },
-        "rimworldtogether-configuration",
-        "rimworldtogether-server-savegames",
-        "rimworldtogether-mods"
+        {
+          type: "category",
+          label: "Configuration",
+          items: [
+            "rimworldtogether-configuration",
+            "rimworldtogether-server-savegames",
+            "rimworldtogether-mods"
+          ]
+        },
       ],
     },
     {
@@ -1919,13 +2140,20 @@ const sidebars = {
           label: "First Steps",
           items: [
             "rust-firststeps-dashboard",
-            "rust-firststeps-connect"          ]
+            "rust-firststeps-connect"          
+          ]
         },
-        "rust-becomeadmin",
-        "rust-connectrcon",
-        "rust-commands",
-        "rust-plugins",
-        "rust-decay"
+        {
+          type: "category",
+          label: "Configuration",
+          items: [
+            "rust-becomeadmin",
+            "rust-connectrcon",
+            "rust-commands",
+            "rust-plugins",
+            "rust-decay"
+          ]
+        },
       ],
     },
     {
@@ -1952,11 +2180,17 @@ const sidebars = {
             "satisfactory-firststeps-dashboard",
           ]
         },
-        "satisfactory-connect-experimental",
-        "satisfactory-savegame",
-        "satisfactory-switchexperimental",
-        "satisfactory-commands",
-        "satisfactory-mods"
+        {
+          type: "category",
+          label: "Configuration",
+          items: [
+            "satisfactory-connect-experimental",
+            "satisfactory-savegame",
+            "satisfactory-switchexperimental",
+            "satisfactory-commands",
+            "satisfactory-mods"
+          ]
+        },
       ],
     },
     {
@@ -1967,15 +2201,21 @@ const sidebars = {
           type: "category",
           label: "First Steps",
           items: [
-            "scp-firststeps-dashboard",
-            "scp-firststeps-connect"
+            'scp-firststeps-dashboard',
+            "scp-firststeps-connect",
           ]
-        },	
-        "scp-beta-version",	
-        "scp-becomeadmin",
-        "scp-newroles",
-        "scp-colored-servername",
-        "scp-pastebin",
+        },
+        {
+          type: "category",
+          label: "Configuration",
+          items: [
+            "scp-beta-version",		
+            "scp-becomeadmin",
+            "scp-newroles",
+            "scp-colored-servername",
+            "scp-pastebin",
+          ]
+        },
         {
           type: "category",
           label: "Exiled",
@@ -2036,8 +2276,14 @@ const sidebars = {
             "soulmask-firststeps-dashboard"
           ]
         },
-        "soulmask-configuration",
-        "soulmask-server-savegames",
+        {
+          type: "category",
+          label: "Configuration",
+          items: [
+            "soulmask-configuration",
+            "soulmask-server-savegames",
+          ]
+        },
       ],
     },
     {
@@ -2051,8 +2297,14 @@ const sidebars = {
             "spaceengineers-firststeps-dashboard"
           ]
         },
-        "spaceengineers-becomeadmin",
-        "spaceengineers-addmods"
+        {
+          type: "category",
+          label: "Configuration",
+          items: [
+            "spaceengineers-becomeadmin",
+            "spaceengineers-addmods"
+          ]
+        },
       ],
     },
     {
@@ -2119,7 +2371,13 @@ const sidebars = {
             "stormworks-firststeps-dashboard",
           ]
         },
-        "stormworks-becomeadmin"
+        {
+          type: "category",
+          label: "Configuration",
+          items: [
+            "stormworks-becomeadmin"
+          ]
+        },
       ],
     },
     {
@@ -2196,8 +2454,14 @@ const sidebars = {
             "terraria-firststeps-dashboard"
           ]
         },
-        "terraria-tshock-add-admin",
-        "terraria-tmodloader-installmod"
+        {
+          type: "category",
+          label: "Configuration",
+          items: [
+            "terraria-tshock-add-admin",
+            "terraria-tmodloader-installmod"
+          ]
+        },
       ],
     },
     {
@@ -2278,10 +2542,16 @@ const sidebars = {
             "unturned-firststeps-connect"
           ]
         },
-        "unturned-becomeadmin",
-        "unturned-workshop",
-        "unturned-firstthirdperson",
-        "unturned-whitelist",
+        {
+          type: "category",
+          label: "Configuration",
+          items: [
+            "unturned-becomeadmin",
+            "unturned-workshop",
+            "unturned-firstthirdperson",
+            "unturned-whitelist",
+          ]
+        },
         {
           type: "category",
           label: "RocketMod",
@@ -2292,7 +2562,7 @@ const sidebars = {
         }
       ],
     },
-    {
+        {
       type: "category",
       label: "Valheim",
       items: [
@@ -2304,14 +2574,26 @@ const sidebars = {
             "valheim-firststeps-connect",
           ]
         },
-        "valheim-savegame",
-        "valheim-backup-schedule",
-        "valheim-serverlisting",
-        "valheim-admin",
-        "valheim-plus",
-        "valheim-plugins-bepinex"
+        {
+          type: "category",
+          label: "Configuration",
+          items: [
+            "valheim-savegame",
+            "valheim-backup-schedule",
+            "valheim-admin",
+            "valheim-plus",
+            "valheim-plugins-bepinex"
+          ]
+        },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "valheim-serverlisting",
+          ]
+        },
       ],
-    },
+    },  
     {
       type: "category",
       label: "Vein",
@@ -2364,9 +2646,15 @@ const sidebars = {
             "vrising-firststeps-connect",
           ]
         },
-        "vrising-configuration",
-        "vrising-server-savegames",
-        "vrising-becomeadmin",
+        {
+          type: "category",
+          label: "Configuration",
+          items: [
+            "vrising-configuration",
+            "vrising-server-savegames",
+            "vrising-becomeadmin",
+          ]
+        },
       ],
     },
         {
