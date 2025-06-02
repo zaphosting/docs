@@ -980,6 +980,13 @@ const sidebars = {
             "cs16-plugins"
           ]
         },
+                {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "cs16-troubleshooting-segmentation-fault"
+          ]
+        },   
       ],
     },
     {
