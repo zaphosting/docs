@@ -2465,7 +2465,8 @@ const sidebars = {
         'vserver-linux-ssl',
         'vserver-linux-rsync',
         'vserver-linux-security-tips',
-        'vserver-linux-proxy'
+        'vserver-linux-proxy',
+        'vserver-linux-lamp-stack',
       ]
     },
     {
