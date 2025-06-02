@@ -1010,6 +1010,13 @@ const sidebars = {
             "source-metamod-plugins"
           ]
         },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "css-troubleshooting-segmentation-fault"
+          ]
+        },   
       ],
     },
     {
@@ -1040,6 +1047,13 @@ const sidebars = {
             "cs2-plugins"
           ]
         },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "cs2-troubleshooting-segmentation-fault"
+          ]
+        },   
       ],
     },
     {
