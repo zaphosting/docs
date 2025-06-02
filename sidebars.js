@@ -920,7 +920,13 @@ const sidebars = {
             "cs2-plugins"
           ]
         },
-        
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "cs2-troubleshooting-segmentation-fault"
+          ]
+        },        
       ],
     },
     {
