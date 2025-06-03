@@ -2462,6 +2462,13 @@ const sidebars = {
             "source-metamod-addadmins",
             "source-metamod-plugins"
           ]
+        },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "tf2-troubleshooting-segmentation-fault"
+          ]
         }, 
       ],
     },
