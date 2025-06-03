@@ -1863,6 +1863,13 @@ const sidebars = {
             "source-metamod-plugins"
           ]
         },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "nmrih-troubleshooting-segmentation-fault"
+          ]
+        },   
       ],
     },
     {
