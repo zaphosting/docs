@@ -1628,6 +1628,13 @@ const sidebars = {
             "source-metamod-plugins"
           ]
         },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "l4d2-troubleshooting-segmentation-fault"
+          ]
+        },  
       ],
     },
     {
