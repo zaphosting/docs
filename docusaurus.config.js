@@ -5,7 +5,6 @@ const {themes} = require('prism-react-renderer');
 const lightCodeTheme = themes.github;
 const darkCodeTheme = themes.dracula;
 
-
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'ZAP-Hosting Docs',
@@ -176,6 +175,10 @@ const config = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
+        gtag: {
+          trackingID: process.env.GA_TRACKING_ID || "N/A",
+          anonymizeIP: false,
+        }
       }),
     ],
   ],
