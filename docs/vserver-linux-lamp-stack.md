@@ -69,11 +69,15 @@ Ensure that you have a rule setup for SSH if you are using UFW Firewall! If you 
 Now create the rule to allow Apache and afterwards check to ensure that the rules are present.
 ```
 # Create a rule to allow Apache
-sudo ufw allow in "Apache"
+sudo ufw allow in "Apache Full"
 
 # Check the UFW firewall rules
 sudo ufw status
 ```
+
+:::tip
+You can view which profiles are available by running the `ufw app list` command. In the example above, using `Apache Full` means that both HTTP (port 80) and HTTPS (port 443) rules are created.
+:::
 
 You should see `Apache` and `Apache (v6)` rules with `ALLOW` actions set, which confirms that the firewall is ready. You should also other rules that you may have previously setup, including the SSH rule.
 
