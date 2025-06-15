@@ -48,19 +48,71 @@ sudo apt install apache2 \
                  php-zip
 ```
 
-With the dependencies installed, you are now ready to proceed with the main installation of the WordPress CRM. Before proceeding, we recommend verifying the core LAMP dependencies in the sub-section below to ensure everything was setup successfully.
+With the dependencies installed, there are a few small recommended setup steps you should follow to ensure that all core depdendencies of the LAMP stack are functional.
 
-### Verifying Dependencies
+### Apache & Firewall
 
-To begin, you should ensure that the Apache web server is functional. You can do this by attempting to access your IP address in a browser, as following: `http://[your_ipaddress]`
+To begin, you will need to setup the firewall to allow the Apache web server to communicate with the internet and ensure that it is functional. It is important that the appropriate firewall rules are created to ensure that the web server is accessible to the internet.
+
+In this example, we will use the **UFW Firewall** since Apache has a registered application for this. If you are using a different firewall, ensure that you allow port 80 (HTTP) through the firewall. You can learn more about firewalls in Linux via our [Manage Firewall](vserver-linux-firewall.md) guide.
+
+Ensure that UFW firewall is enabled and also ensure that a rule for SSH is created.
+```
+# Create a rule to allow SSH
+sudo ufw allow OpenSSH
+
+# Enable UFW Firewall
+sudo ufw enable
+```
+
+:::caution
+Ensure that you have a rule setup for SSH if you are using UFW Firewall! If you do not, you will **not** be able to SSH into the server again if you lose connection to your current session!
+:::
+
+Now create the rule to allow Apache and afterwards check to ensure that the rules are present.
+```
+# Create a rule to allow Apache
+sudo ufw allow in "Apache Full"
+
+# Check the UFW firewall rules
+sudo ufw status
+```
+
+:::tip
+You can view which profiles are available by running the `ufw app list` command. In the example above, using `Apache Full` means that both HTTP (port 80) and HTTPS (port 443) rules are created.
+:::
+
+You should see `Apache` and `Apache (v6)` rules with `ALLOW` actions set, which confirms that the firewall is ready. You should also other rules that you may have previously setup, including the SSH rule.
+
+![](https://screensaver01.zap-hosting.com/index.php/s/o8NDBppnTwHdSgf/preview)
+
+With the firewall opened up for Apache, you should now ensure that Apache is functional. You can do this by attempting to access your IP address in a browser, as following: `http://[your_ipaddress]`
 
 If it is functional, you should see a default welcome page. If you cannot, check the status of the service using the following command: `systemctl status apache2`
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/irmnDDNi436HH4c/preview)
 
+### MySQL Setup
+
+The next part is performing a first-time setup for MySQL. It is recommended to run a secure installation script which ensures that your MySQL server instance remains secure. This is optional but highly recommended. You can run this via the `sudo mysql_secure_installation` command.
+
+This will take you through an interactive setup. At first, you will be prompted about password validation. We recommend selecting `Y` to ensure only secure passwords in the future are allowed and then selecting either `MEDIUM` via `1` or `STRONG` via `2`.
+
+![](https://screensaver01.zap-hosting.com/index.php/s/YF6N3iPaDWD4sgX/preview)
+
+Next you will be prompted about removing the `anonymous` user and disallowing root login remotely. For both we strongly recommend accepting via `Y` for security implications. This ensures that the test user is removed and that the master `root` user can only be used locally via SSH and not anywhere else, reducing risk.
+
+![](https://screensaver01.zap-hosting.com/index.php/s/ka6GKkojRPRycZB/preview)
+
+Finally, you will be prompted about removing the `test` database and reloading the privilege tables. Once again we recommend accepting via `Y` since the test table is not needed and you need to reload the privilege table for adjustments to take place.
+
+![](https://screensaver01.zap-hosting.com/index.php/s/42cYTkPaEfo3Jbq/preview)
+
 Now check if the MySQL database is running using the following command to attempt to login: `sudo mysql -u root`. If successful, you should see a welcome message appear. You can exit it using the `quit` command once ready.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/gFKBAZyaFiHgrCz/preview)
+
+### Testing PHP
 
 Lastly you should ensure PHP is functioning as expected. To do this, you should create an `info.php` file in your Apache `/var/www/html/` directory with PHP contents to run the `phpinfo()` command.
 ```
