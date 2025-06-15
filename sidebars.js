@@ -2467,6 +2467,7 @@ const sidebars = {
         'vserver-linux-security-tips',
         'vserver-linux-proxy',
         'vserver-linux-lamp-stack',
+        'vserver-linux-lemp-stack',
       ]
     },
     {
