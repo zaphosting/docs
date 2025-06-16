@@ -79,7 +79,14 @@ const sidebars = {
       })(),
       defaultStyle: true,
     },
-    "account-affiliate",
+    {
+      type: 'category',
+      label: 'Affiliate Program',
+      items: [
+        "account-affiliate",
+        "affiliate-minecraft-mod",
+      ]
+    },
     {
       type: 'category',
       label: 'Partner Program',
