@@ -79,7 +79,14 @@ const sidebars = {
       })(),
       defaultStyle: true,
     },
-    "account-affiliate",
+    {
+      type: 'category',
+      label: 'Affiliate Program',
+      items: [
+        "account-affiliate",
+        "affiliate-minecraft-mod",
+      ]
+    },
     {
       type: 'category',
       label: 'Partner Program',
@@ -2795,7 +2802,9 @@ const sidebars = {
         'vserver-linux-ssl',
         'vserver-linux-rsync',
         'vserver-linux-security-tips',
-        'vserver-linux-proxy'
+        'vserver-linux-proxy',
+        'vserver-linux-lamp-stack',
+        'vserver-linux-lemp-stack',
       ]
     },
     {
@@ -2821,6 +2830,7 @@ const sidebars = {
         'vserver-linux-screen',
         'vserver-linux-ssh-server',
         'vserver-linux-webserver',
+        'vserver-linux-wordpress',
         'vserver-linux-xrdp',
       ],
     },
@@ -3022,6 +3032,7 @@ const sidebars = {
         'dedicated-linux-screen',
         'dedicated-linux-ssh-server',
         'dedicated-linux-webserver',
+        'dedicated-linux-wordpress',
         'dedicated-linux-xrdp',
       ],
     },

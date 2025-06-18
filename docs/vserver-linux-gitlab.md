@@ -45,8 +45,6 @@ The following requirements are recommended by the official [GitLab Team](https:/
 For the most accurate and up-to-date specification information, please refer to GitLab's official [Hardware Requirements](https://docs.gitlab.com/ee/install/requirements.html) documentation.
 :::
 
-## Preparation
-
 A connection has to be established via a SSH client in order to install GitLab on your Linux server. Please view our [Initial access (SSH)](vserver-linux-ssh.md) guide to learn more about this.
 
 Once the connection is established, you can begin to install the necessary packages that are required for the actual installation of GitLab.
