@@ -461,6 +461,7 @@ const sidebars = {
           label: "First Steps",
           items: [
             'scum-firststeps-dashboard',
+            'scum-firststeps-connect',
           ]
         },        
       ],
@@ -2296,6 +2297,7 @@ const sidebars = {
           label: "First Steps",
           items: [
             'scum-firststeps-dashboard',
+            'scum-firststeps-connect',
           ]
         },        
       ],
