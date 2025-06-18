@@ -17,7 +17,7 @@ Domains can be configured easily by utilising a wide variety of DNS record types
 
 ## Configuration
 
-You can configure the domain records in your domain administration under DNS administration. To do this, click on the green **New entry** button. This will open a popup window. From there you can configure and create new records as you wish. 
+You can configure the domain records in your domain administration under DNS administration. To do this, click on the green **New entry** button. This will open a popup window. From there you can configure and create new records as you wish. 
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/5qGjz8jDi4sNGcQ/download)
 
@@ -49,7 +49,7 @@ An AAAA record is used to create a forwarding of a "**sub**" or "**main domain**
 
 | Name (Example)   | Type | Value (Example) | TTL  | Priority |
 | ---------------- | ---- | --------------- | ---- | -------- |
-| zap-hosting.com. | AAA  | IPv6-Adresse    | 1440 | 0        |
+| zap-hosting.com. | AAAA | IPv6-Adresse    | 1440 | 0        |
 
 
 ### CNAME Records
