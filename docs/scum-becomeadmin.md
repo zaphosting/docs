@@ -49,4 +49,4 @@ Below you'll find a list of common admin commands that you can use as an admin o
 
 ## Conclusion
 
-Congratulations, provided you have followed everything, you should have successfully configuration the admin permissions for your server. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
+Congratulations, provided you have followed everything, you should have successfully configurated the admin permissions for your server. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
