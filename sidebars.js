@@ -463,7 +463,14 @@ const sidebars = {
             'scum-firststeps-dashboard',
             'scum-firststeps-connect',
           ]
-        },        
+        },
+        {
+          type: "category",
+          label: "Configuration",
+          items: [
+            'scum-becomeadmin',
+          ]
+        },          
       ],
     },
     {
@@ -2298,6 +2305,13 @@ const sidebars = {
           items: [
             'scum-firststeps-dashboard',
             'scum-firststeps-connect',
+          ]
+        }, 
+        {
+          type: "category",
+          label: "Configuration",
+          items: [
+            'scum-becomeadmin',
           ]
         },        
       ],
