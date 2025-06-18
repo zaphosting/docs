@@ -453,6 +453,27 @@ const sidebars = {
       ],
     },
     {
+      type: "category",
+      label: "SCUM",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            'scum-firststeps-dashboard',
+            'scum-firststeps-connect',
+          ]
+        },
+        {
+          type: "category",
+          label: "Configuration",
+          items: [
+            'scum-becomeadmin',
+          ]
+        },          
+      ],
+    },
+    {
       type: 'html',
       className: 'sidebar-title',
       value: (() => {
@@ -2260,6 +2281,7 @@ const sidebars = {
         }
       ],
     },
+
     {
       type: "category",
       label: "SCP: 5K",
@@ -2271,6 +2293,27 @@ const sidebars = {
             "scp5k-firststeps-dashboard"
           ]
         },
+      ],
+    },
+    {
+      type: "category",
+      label: "SCUM",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            'scum-firststeps-dashboard',
+            'scum-firststeps-connect',
+          ]
+        }, 
+        {
+          type: "category",
+          label: "Configuration",
+          items: [
+            'scum-becomeadmin',
+          ]
+        },        
       ],
     },
     {
