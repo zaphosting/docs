@@ -16,7 +16,7 @@ Backups von einem Webspace sind wie eine Sicherheitskopie deiner Webpräsenz. We
 
 
 
-## Backups erstellen
+## Manuelle Backups erstellen
 
 Wähle die Webseite (Domain) aus, von der du ein Backup erstellen möchtest. Navigiere zu dem Punkt Dashboard und klicke auf **Backup und Wiederherstellen**. Bei erstellung des Backups kannst du auswählen was alles gesichert werden soll. Du kannst hierbei zwischen den Optionen **Konfiguration**, **E-Mail-Nachrichten**, **Benutzerdateien** und **Datenbanken** auswählen. 
 
@@ -30,7 +30,11 @@ Im nächsten Schritt kannst du auswählen, ob das Backup direkt lokal hinterlegt
 
 
 
+## Automatische Backups erstellen
 
+Neben der Möglichkeit, manuelle Backups zu erstellen, kannst du auch automatische Backups erstellen. So kann zu bestimmten Zeiten automatisch ein Backup erstellt werden. Wähle zwischen täglichen, wöchentlichen oder monatlichen Backups. Wenn du möchtest, kannst du auch auswählen, ob nur neu veränderte Daten gesichert werden sollen oder ob ein komplettes Backup erstellt werden soll.
+
+![img](https://screensaver01.zap-hosting.com/index.php/s/8tt5SWaToyqPNTM/preview)
 
 
 

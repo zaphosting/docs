@@ -48,7 +48,7 @@ Mit einem AAAA Record wird eine Weiterleitung von einer "**Sub-**" oder "**Haupt
 
 | Name (Beispiel)   | Typ | Wert (Beispiel) | TTL  | Priorität |
 | ---------------- | ---- | --------------- | ---- | -------- |
-| zap-hosting.com. | AAA  | IPv6-Adresse    | 1440 | 0        |
+| zap-hosting.com. | AAAA | IPv6-Adresse    | 1440 | 0        |
 
 ### CNAME Records
 
