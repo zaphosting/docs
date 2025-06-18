@@ -19,7 +19,7 @@ The **LEMP** stack is a popular selection of open-source software which are setu
 
 ## Preparation
 
-Begin by connecting to your server via SSH. If you don't know how to do this, please have a look at our [Initial access (SSH)](dedicated-linux-ssh.md) guide.
+Begin by connecting to your server via SSH. If you don't know how to do this, please have a look at our [Initial access (SSH)](vserver-linux-ssh.md) guide.
 
 In this guide, we will be using Ubuntu as the Linux distribution. The instructions are the same for Debian and should be similar for other distributions, but the syntax of commands for example may vary slightly. Ensure that you have an OS installed and are connected to the server via SSH.
 
@@ -142,7 +142,7 @@ With the installation of each LEMP dependency now complete, we will now create a
 
 In this example, we will create a small to-do list website via PHP which will fetch and return to-do entries. This will be stored on a MySQL database table and will be served through Nginx.
 
-We will also be using a test domain of `zapdocs.example.com` throughout, since in a real-world scenario you would likely utilise a domain. You **must** setup an `A` type DNS record for the domain which points at the IP Address of your server. If you require help with this, please browse our [Domain Records](domain-records#a-records.md) guide.
+We will also be using a test domain of `zapdocs.example.com` throughout, since in a real-world scenario you would likely utilise a domain. You **must** setup an `A` type DNS record for the domain which points at the IP Address of your server. If you require help with this, please browse our [Domain Records](domain-records.md#a-records) guide.
 
 :::note
 You can choose not to use a domain and replace mentions of `[your_domain]` with a regular name. You would then access the website via the IP address. However, do note that when creating the server block file later on, you should remove the `server_name` parameter.
