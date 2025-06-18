@@ -980,6 +980,13 @@ const sidebars = {
             "cs16-plugins"
           ]
         },
+                {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "cs16-troubleshooting-segmentation-fault"
+          ]
+        },   
       ],
     },
     {
@@ -1010,6 +1017,13 @@ const sidebars = {
             "source-metamod-plugins"
           ]
         },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "css-troubleshooting-segmentation-fault"
+          ]
+        },   
       ],
     },
     {
@@ -1040,6 +1054,13 @@ const sidebars = {
             "cs2-plugins"
           ]
         },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "cs2-troubleshooting-segmentation-fault"
+          ]
+        },   
       ],
     },
     {
@@ -1607,6 +1628,13 @@ const sidebars = {
             "source-metamod-plugins"
           ]
         },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "l4d2-troubleshooting-segmentation-fault"
+          ]
+        },  
       ],
     },
     {
@@ -1835,6 +1863,13 @@ const sidebars = {
             "source-metamod-plugins"
           ]
         },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "nmrih-troubleshooting-segmentation-fault"
+          ]
+        },   
       ],
     },
     {
@@ -2426,6 +2461,13 @@ const sidebars = {
             "source-metamod-installation",
             "source-metamod-addadmins",
             "source-metamod-plugins"
+          ]
+        },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "tf2-troubleshooting-segmentation-fault"
           ]
         }, 
       ],
