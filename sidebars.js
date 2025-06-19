@@ -469,6 +469,7 @@ const sidebars = {
           label: "Configuration",
           items: [
             'scum-becomeadmin',
+            'scum-server-wipe'
           ]
         },          
       ],
