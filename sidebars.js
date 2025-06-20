@@ -2271,7 +2271,8 @@ const sidebars = {
           type: "category",
           label: "First Steps",
           items: [
-            "scp-containmentbreach-firststeps-dashboard"
+            "scp-containmentbreach-firststeps-dashboard",
+            "scp-containmentbreach-firststeps-connect",            
           ]
         },
       ],
