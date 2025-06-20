@@ -2250,6 +2250,32 @@ const sidebars = {
         },
       ],
     },
+        {
+      type: "category",
+      label: "SCP: 5K",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "scp5k-firststeps-dashboard"
+          ]
+        },
+      ],
+    },
+    {
+      type: "category",
+      label: "SCP: Containment Breach",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "scp-containmentbreach-firststeps-dashboard"
+          ]
+        },
+      ],
+    },
     {
       type: "category",
       label: "SCP: Secret Laboratory",
@@ -2283,19 +2309,6 @@ const sidebars = {
       ],
     },
 
-    {
-      type: "category",
-      label: "SCP: 5K",
-      items: [
-        {
-          type: "category",
-          label: "First Steps",
-          items: [
-            "scp5k-firststeps-dashboard"
-          ]
-        },
-      ],
-    },
     {
       type: "category",
       label: "SCUM",
