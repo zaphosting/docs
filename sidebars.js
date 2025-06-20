@@ -717,6 +717,19 @@ const sidebars = {
     },
     {
       type: "category",
+      label: "Astro Colony",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "astrocolony-firststeps-dashboard",
+          ]
+        },
+      ],
+    },
+    {
+      type: "category",
       label: "ASTRONEER",
       items: [
         {
