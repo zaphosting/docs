@@ -1777,6 +1777,7 @@ const sidebars = {
           label: "First Steps",
           items: [
             "motortown-firststeps-dashboard",
+            "motortown-firststeps-connect",
           ]
         },
       ],
