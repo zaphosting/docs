@@ -3096,8 +3096,14 @@ const sidebars = {
       })(),
       defaultStyle: true,
     },
-    'dedicated-linux-gs-interface',
-    'dedicated-linux-proxy',
+    {
+      type: "category",
+      label: "General",
+      items: [
+      'dedicated-linux-gs-interface',
+      'dedicated-linux-proxy',
+      ]
+    },
     {
       type: "category",
       label: "Services",
@@ -3167,6 +3173,16 @@ const sidebars = {
         }
       })(),
       defaultStyle: true,
+    },
+    {
+      type: "category",
+      label: "General",
+      items: [
+      'dedicated-windows-userdp',
+      'dedicated-windows-port',
+      'dedicated-windows-addip',
+      'dedicated-windows-manage-users'
+      ]
     },
     {
       type: "category",
