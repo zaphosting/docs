@@ -746,5 +746,9 @@
   "sidebar.gameserverSidebar.category.SCP: Escape Together": {
     "message": "SCP: Escape Together",
     "description": "The label for category SCP: Escape Together in sidebar gameserverSidebar"
+  },
+  "sidebar.dedicatedserverSidebar.category.General": {
+    "message": "General",
+    "description": "The label for category General in sidebar dedicatedserverSidebar"
   }
 }
