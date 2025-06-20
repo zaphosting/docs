@@ -2277,6 +2277,19 @@ const sidebars = {
         },
       ],
     },
+        {
+      type: "category",
+      label: "SCP: Escape Together",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "scp-escapetogether-firststeps-dashboard",       
+          ]
+        },
+      ],
+    },
     {
       type: "category",
       label: "SCP: Secret Laboratory",
