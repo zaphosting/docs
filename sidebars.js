@@ -2286,6 +2286,7 @@ const sidebars = {
           label: "First Steps",
           items: [
             "scp-escapetogether-firststeps-dashboard",       
+            "scp-escapetogether-firststeps-connect",      
           ]
         },
       ],
