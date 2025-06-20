@@ -717,6 +717,20 @@ const sidebars = {
     },
     {
       type: "category",
+      label: "Astro Colony",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "astrocolony-firststeps-dashboard",
+            "astrocolony-firststeps-connect",
+          ]
+        },
+      ],
+    },
+    {
+      type: "category",
       label: "ASTRONEER",
       items: [
         {
@@ -1768,6 +1782,20 @@ const sidebars = {
         },
       ],
     },
+        {
+      type: "category",
+      label: "Motor Town: Behind The Wheel",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "motortown-firststeps-dashboard",
+            "motortown-firststeps-connect",
+          ]
+        },
+      ],
+    },
     {
       type: "category",
       label: "Mount & Blade",
@@ -2250,6 +2278,47 @@ const sidebars = {
         },
       ],
     },
+        {
+      type: "category",
+      label: "SCP: 5K",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "scp5k-firststeps-dashboard"
+          ]
+        },
+      ],
+    },
+    {
+      type: "category",
+      label: "SCP: Containment Breach",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "scp-containmentbreach-firststeps-dashboard",
+            "scp-containmentbreach-firststeps-connect",            
+          ]
+        },
+      ],
+    },
+        {
+      type: "category",
+      label: "SCP: Escape Together",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "scp-escapetogether-firststeps-dashboard",       
+            "scp-escapetogether-firststeps-connect",      
+          ]
+        },
+      ],
+    },
     {
       type: "category",
       label: "SCP: Secret Laboratory",
@@ -2283,19 +2352,6 @@ const sidebars = {
       ],
     },
 
-    {
-      type: "category",
-      label: "SCP: 5K",
-      items: [
-        {
-          type: "category",
-          label: "First Steps",
-          items: [
-            "scp5k-firststeps-dashboard"
-          ]
-        },
-      ],
-    },
     {
       type: "category",
       label: "SCUM",
