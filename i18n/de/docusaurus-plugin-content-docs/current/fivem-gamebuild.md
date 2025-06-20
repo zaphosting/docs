@@ -31,7 +31,7 @@ Hier findest du eine Übersicht über alle verfügbaren DLCs und dessen Build-ID
 |   3095   |       The Chop Shop       |
 |   3258   |  Bottom Dollar Bounties   |
 |   3407   |    Agents of Sabotage     |
-
+|   3570   |        Money Fronts       |
 
 ## Build aktivieren
 
