@@ -1768,6 +1768,19 @@ const sidebars = {
         },
       ],
     },
+        {
+      type: "category",
+      label: "Motor Town: Behind The Wheel",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "motortown-firststeps-dashboard",
+          ]
+        },
+      ],
+    },
     {
       type: "category",
       label: "Mount & Blade",
