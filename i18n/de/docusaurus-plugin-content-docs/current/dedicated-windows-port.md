@@ -1,113 +1,108 @@
 ---
 id: dedicated-windows-port
-title: "Dedicated Server: Ports bei Windows Servern freigeben"
-description: Informationen, wie du Ports bei deinem Windows Dedicated Server von ZAP-Hosting freigeben kannst - ZAP-Hosting.com Dokumentation
-sidebar_label: Port freigeben
+title: "Dedicated Server: Verwaltung von Windows Defender Firewall-Regeln"
+description: Informationen zur Verwaltung von Windows Defender Firewall-Regeln, einschließlich Portweiterleitung, auf deinem Windows Dedicated Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
+sidebar_label: Portweiterleitung (Firewall)
+services:
+  - dedicated
 ---
 
-## Die Firewall
+import InlineVoucher from '@site/src/components/InlineVoucher';
 
-Eine Firewall kontrolliert den ein- und ausgehenden Verkehr zwischen Server und Internet.
-Geöffnete Ports können ein Sicherheitsrisiko darstellen, aufgrund dessen wird nicht automatisch jeder Port geöffnet.
+## Einführung
 
-Wenn geblockte Ports für einen Spiele Server oder bestimmte Applikationen benötigt werden, muss eine Portfreigabe durchgeführt werden.
+Das Windows-Betriebssystem verfügt über eine eigene Windows Defender Firewall, die den ein- und ausgehenden Datenverkehr zwischen dem Server und dem Internet verwaltet. In diesem Anleitung gehen wir auf die Verwaltung der Firewall-Regeln und allgemeine Tipps zur Portweiterleitung ein.
 
-Zu Beginn muss die "**Windows Firewall mit erweiterter Sicherheit**" geöffnet werden.
-Diese kann nach einem Klick auf das Windows Logo gesucht werden
+<InlineVoucher />
 
-![](https://screensaver01.zap-hosting.com/index.php/s/cgTZwYcb5w2tGRs/preview)
+## Zugriff auf die Windows Defender Firewall
 
-***
+Das Windows-Betriebssystem enthält die Anwendung **Windows Defender Firewall mit erweiterter Sicherheit** als zentrale Systemanwendung, mit der du Firewall-Regeln ganz einfach an einem Ort verwalten kannst.
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
+Du kannst darauf zugreifen, indem du in der Windows-Suchleiste danach suchst oder indem du die Windows-Taste/das Windows-Symbol drückst und die Suchleiste im Startmenü verwendest.
 
-<Tabs>
+![](https://screensaver01.zap-hosting.com/index.php/s/Ppr6fwGmCArZHwk/preview)
 
-<TabItem value=" Programme in der Windows-Firewall freigeben" label=" Programme in der Windows-Firewall freigeben">
+## Regeln verwalten
 
-
-## Programme in der Windows-Firewall freigeben
-
-Die freigabe für die "**Ausgehende Regel**" funktioniert auf gleichem Wege wie für die "**Eingehende Regel**", wir zeigen in diesem Beispiel daher nur die Freigabe eines Programms für die "**Eingehende Regel**".
-
-Sobald in der Firewall Verwaltung die "**Eingehende Regel**" oder "**Ausgehende Regel**" ausgewählt wurde, muss bei diesem eine "**Neue Regel**" erstellt werden.
-
-![](https://screensaver01.zap-hosting.com/index.php/s/CmPdBRDbWGx69xa/preview)
-
-Bei dieser neuen Regel wird als "**Regeltyp**" "**Programm**" gewählt und mit "**Weiter >**" bestätigt
-
-![](https://screensaver01.zap-hosting.com/index.php/s/sfxa5xiaeSrY4z4/preview)
-
-Hier kann direkt nach unserem Programm gesucht werden, in unserem fall nehmen wir beispielweise Chrome:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/YQG2k2PyontxPno/preview)
-
-Nun kann gewählt werden ob der Server die Verbindung mit dem Programm erlaubt, nur unter bestimmten Voraussetzungen zulässt oder blockieren soll.
-
-![](https://screensaver01.zap-hosting.com/index.php/s/cr4q7rsLP3WoBam/preview)
-
-Dies wird erneut mit dem "**Weiter >**" bestätigt.
-
-In dem "**Profil**" kann nun gewählt werden, ob diese Regel nur für bestimmte Netzwerke oder alle aktiv sein soll. 
-
-![](https://screensaver01.zap-hosting.com/index.php/s/j27BXdzrgTFMtwM/preview)
-
-Bei "**Name**" muss nur noch ein Name für diese neue "**Regel**" eingetragen werden, dieser ist frei wählbar.
+Die meisten Anwendungen und Prozesse, vor allem solche, die über das Internet erreichbar sein müssen, wie z. B. Gameserver oder Webserver, benötigen eine Portweiterleitung, um sicherzustellen, dass die Clients mit deinem Server (dem Host) kommunizieren können.
 
 :::info
-Hierbei sollte ein Name gewählt werden der noch ungenutzt und eindeutig ist, damit dieser unter "**Eingehende Regel**" bzw. "**Ausgehende Regel**" wiedergefunden werden kann.
+In der Standardeinstellung öffnet Windows die Firewall nur für Anwendungen, die sie benötigen, und hält alle anderen Ports geschlossen. So wird verhindert, dass Ports unnötigerweise geöffnet werden, um das Risiko zu verringern. Das ist auch der Grund, warum du beim ersten Start von Spielen UAC-Eingabeaufforderungen siehst, um eine neue Firewall-Regel zu bestätigen.
 :::
 
-![](https://screensaver01.zap-hosting.com/index.php/s/ZR4qQFm8tHT2wRr/preview)
+In Windows können Regeln auf zwei Arten verwaltet werden: indem du Regeln für Programme erstellst oder indem du Regeln erstellst, die alle Ports abdecken (und damit alle Programme oder Prozesse, die sie benutzen).
 
-Sobald mit dem Button "**Fertig stellen**" bestätigt, wird die Regel aktiviert und der Port ist freigegeben.
+Es gibt zwei Arten von Regeln:
+- Eingehende Regel: Eine Regel, die die eingehende Kommunikation (vom Internet zu deinem Server) kontrolliert.
+- Ausgehende Regel: Eine Regel, die die ausgehende Kommunikation kontrolliert (von deinem Server ins Internet).
 
-</TabItem>
-<TabItem value=" Port in der Windows-Firewall freigeben" label=" Port in der Windows-Firewall freigeben">
+Normalerweise musst du bei der Portweiterleitung beide Arten von Regeln erstellen, um die Kommunikation mit den Clients zu ermöglichen. Dies hängt jedoch von deinem speziellen Anwendungsfall und deiner Einrichtung ab.
 
+![](https://screensaver01.zap-hosting.com/index.php/s/CXnoaSERDzWcCqA/preview)
 
-## Port in der Windows-Firewall freigeben
+### Programmregeln
 
+Die Erstellung einer Programmregel ist in der Regel die beste Wahl, da sie die Kommunikation auf ein bestimmtes Programm oder einen Prozess beschränkt und nicht auf einen ganzen Port, so dass jedes Programm/jeder Dienst über diesen Port kommunizieren kann.
 
-Bei der eingehenden Regel werden die Ports für Anwendungen freigegeben welche von außen versuchen mit dem Server zu kommunizieren.
-Bei der ausgehenden Regel werden die Ports für Anwendungen freigegeben welche vom Server nach außen kommunizieren möchten.
+Du wirst nun zwei Programmregeln erstellen, eine ausgehende und eine eingehende Regel, die beide eine Verbindung akzeptieren.
 
-Die Portfreigabe für die "**Ausgehende Regel**" funktioniert auf gleichem Wege wie für die "**Eingehende Regel**", wir zeigen in diesem Beispiel daher nur die Freigabe eines Ports für die "**Eingehende Regel**".
+Im folgenden Beispiel richtest du nur die **Eingangsregel** ein. Die Schritte sind genau dieselben, daher solltest du die Schritte wiederholen, um auch die Ausgangsregel selbst zu erstellen.
 
-Sobald in der Firewall Verwaltung die "**Eingehende Regel**" oder "**Ausgehende Regel**" ausgewählt wurde, muss bei diesem eine "**Neue Regel**" erstellt werden.
+Klicke zunächst mit der rechten Maustaste auf **Eingangsregeln** in der Seitenleiste und wähle die Option **Neue Regel...**.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/JcZF6iqMaE2nqs4/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/3C3cgLjSSriygfG/preview)
 
-Bei dieser neuen Regel wird als "**Regeltyp**" der "**Port**" gewählt und mit "**Weiter >**" bestätigt
+Im ersten Abschnitt wählst du die Option **Programm** als Regeltyp aus.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/mE68YpraZSFSFHc/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/NPm9ae8BsD78An9/preview)
 
-Je nach Anwendung muss nun "**TCP**" oder "**UDP**" gewählt werden. 
-Sobald herausgefunden und ausgewählt wurde welches der Beiden für die gewünschte Anwendung genutzt werden soll, muss nun bei "**Bestimmte lokale Ports:**" der Port eingetragen werden welcher freigegeben werden soll.
-Dies wird erneut mit dem "**Weiter >**" bestätigt.
+Jetzt musst du das Programm, für das du die Weiterleitungsregel erstellen möchtest, mit des Buttons Durchsuchen auswählen. In diesem Beispiel wurde der Mozilla Firefox Browser als Beispielanwendung ausgewählt.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/tGq9XsmctHkCfF5/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/XsS2iTa4JjXF8j5/preview)
 
-Nun kann gewählt werden ob der Server die Verbindung mit dem Port zulassen, nur unter bestimmten Voraussetzungen zulassen oder blockieren soll.
-Dies wird erneut mit dem "**Weiter >**" bestätigt.
+Im Abschnitt Aktion wählst du die Option **Verbindung zulassen**.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/CDkF4FT8sPbngZn/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/pnFz9EoxPqPT8xS/preview)
 
-In dem "**Profil**" kann nun gewählt werden, ob diese Regel nur für bestimmte Netzwerke oder alle aktiv sein soll. 
-Dies wird erneut mit dem "**Weiter >**" bestätigt.
+Lasse im Abschnitt Profil alle Optionen angekreuzt und fahre mit dem letzten Abschnitt fort. Hier solltest du einen aussagekräftigen Namen festlegen, mit dem du dich an die Regel erinnern kannst, und du kannst bei Bedarf eine optionale Beschreibung hinzufügen.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/YTX4NBqyRan3PiJ/preview)
+Wenn du fertig bist, klicke auf den Button **Finish**, um die Regel zu erstellen.
 
-Bei "**Name**" muss nur noch ein Name für diese neue "**Regel**" eingetragen werden, dieser ist frei wählbar.
+![](https://screensaver01.zap-hosting.com/index.php/s/dpWEYFYGtWQYkw3/preview)
 
-:::info
-Hierbei sollte ein Name gewählt werden der noch ungenutzt und eindeutig ist, damit dieser unter "**Eingehende Regel**" bzw. "**Ausgehende Regel**" wiedergefunden werden kann.
-:::
+Du hast erfolgreich deine eigene Programmregel für deinen Windows-Server erstellt. Wiederhole nun den Vorgang, um eine **Ausgangsregel** zu erstellen, indem du dieselben Schritte befolgst, sie aber unter dem Abschnitt Ausgangsregeln erstellst.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/29tFMeL7PazRtWB/preview)
+### Port-Regeln
 
-Sobald mit dem Button "**Fertig stellen**" bestätigt, wird die Regel aktiviert und der Port ist freigegeben.
+Das Erstellen einer allgemeinen Portregel kann ebenfalls für viele Anwendungsfälle nützlich sein und folgt ähnlichen Schritten wie zuvor.
 
-</TabItem>
-</Tabs>
+Du erstellst nun zwei Programmregeln, eine ausgehende und eine eingehende Regel, die beide eine Verbindung akzeptieren.
+
+Im folgenden Beispiel wirst du nur die Regel **Eingang** einrichten. Die Schritte sind genau dieselben, daher solltest du die Schritte wiederholen, um auch die Ausgangsregel selbst zu erstellen.
+
+Klicke zunächst mit der rechten Maustaste auf **Eingangsregeln** in der Seitenleiste und wähle die Option **Neue Regel...**.
+
+![](https://screensaver01.zap-hosting.com/index.php/s/3C3cgLjSSriygfG/preview)
+
+Im ersten Abschnitt wählst du die Option **Port** als Regeltyp aus.
+
+![](https://screensaver01.zap-hosting.com/index.php/s/eobA3wzbwQSqjpK/preview)
+
+Jetzt musst du den Port-Typ (TCP oder UDP) und den/die zugewiesenen Port(s) festlegen, die du weiterleiten möchtest. Wenn du sowohl TCP- als auch UDP-Ports weiterleiten willst, musst du zwei separate Regeln erstellen, eine für jeden Porttyp.
+
+In diesem Beispiel wurde Port 25565 (TCP) als Beispielport verwendet, der als Standardport für Minecraft verwendet wird.
+
+![](https://screensaver01.zap-hosting.com/index.php/s/yMco5L6ERWiLEHk/preview)
+
+Wähle im Abschnitt Aktion die Option **Verbindung zulassen**.
+
+![](https://screensaver01.zap-hosting.com/index.php/s/pnFz9EoxPqPT8xS/preview)
+
+Lasse im Abschnitt Profil alle Optionen angekreuzt und fahre mit dem letzten Abschnitt fort. Hier solltest du einen aussagekräftigen Namen festlegen, mit dem du dich an die Regel erinnern kannst, und du kannst bei Bedarf eine optionale Beschreibung hinzufügen.
+
+Wenn du fertig bist, klicke auf den Button **Finish**, um die Regel zu erstellen.
+
+![](https://screensaver01.zap-hosting.com/index.php/s/Ro5k6JgTF73exoH/preview)
+
+Du hast erfolgreich deine eigene Portregel für deinen Windows-Server erstellt. Wiederhole nun den Vorgang, um eine **Ausgangsregel** zu erstellen, indem du dieselben Schritte ausführst, sie aber im Abschnitt für ausgehende Regeln erstellst.
