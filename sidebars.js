@@ -724,6 +724,7 @@ const sidebars = {
           label: "First Steps",
           items: [
             "astrocolony-firststeps-dashboard",
+            "astrocolony-firststeps-connect",
           ]
         },
       ],
