@@ -730,5 +730,21 @@
   "sidebar.gameserverSidebar.category.SCUM": {
     "message": "SCUM",
     "description": "The label for category SCUM in sidebar gameserverSidebar"
+  },
+  "sidebar.gameserverSidebar.category.Astro Colony": {
+    "message": "Astro Colony",
+    "description": "The label for category Astro Colony in sidebar gameserverSidebar"
+  },
+  "sidebar.gameserverSidebar.category.Motor Town: Behind The Wheel": {
+    "message": "Motor Town: Behind The Wheel",
+    "description": "The label for category Motor Town: Behind The Wheel in sidebar gameserverSidebar"
+  },
+  "sidebar.gameserverSidebar.category.SCP: Containment Breach": {
+    "message": "SCP: Containment Breach",
+    "description": "The label for category SCP: Containment Breach in sidebar gameserverSidebar"
+  },
+  "sidebar.gameserverSidebar.category.SCP: Escape Together": {
+    "message": "SCP: Escape Together",
+    "description": "The label for category SCP: Escape Together in sidebar gameserverSidebar"
   }
 }
