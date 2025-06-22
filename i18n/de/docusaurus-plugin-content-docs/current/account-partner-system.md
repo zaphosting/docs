@@ -1,6 +1,6 @@
 ---
 id: account-partner-system
-title: Einführung in das ZAP-Hosting Partnerprogramm
+title: ZAP-Hosting Partnerprogramm
 description: Informationen zur Bewerbung als ZAP-Hosting-Partner, einschließlich der Anforderungen, Vorteile und des Bewerbungsverfahrens - ZAP-Hosting.com-Dokumentation
 sidebar_label: Einführung
 ---
