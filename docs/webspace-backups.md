@@ -18,7 +18,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 Backups of a webspace are like a backup copy of your website. If something goes wrong, for example due to an error, you can use a backup to restore everything without losing your progress. A backup allows you to save all relevant components of your website, including important configuration settings, email communication, website content and databases, allowing you to restore them if necessary.
 
 
-## Create Backups
+## Create manual Backups
 
 Select the website (domain) from which you would like to create a backup. Navigate to the Dashboard section and click on **Backup and restore**. When creating the backup, you can select what should be backed up. You can choose between the options **Configuration**, **E-mail messages**, **User files** and **Databases**. 
 
@@ -31,6 +31,12 @@ In the next step, you can select whether the backup should be stored locally or 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/gMdpdnqiBWBeZm3/preview)
 
 
+
+## Create automatic Backups
+
+Along with the option of creating manual backups, automatic backups can also be created. This allows a backup to be created automatically at specific times. Choose between daily, weekly or monthly backups. If you wish, you can also select whether only newly changed data should be backed up or whether a complete backup should be created.
+
+![img](https://screensaver01.zap-hosting.com/index.php/s/JngcgyR8JyZ4Qoe/preview)
 
 
 

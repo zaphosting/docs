@@ -1,8 +1,8 @@
 ---
-id: dedicated-linux-ubuntu
-title: "Dedicated Server: Installation of Ubuntu 24.04"
-description: Information about installing the Ubuntu 24.04 operating system on your dedicated server from ZAP-Hosting - ZAP-Hosting.com documentation
-sidebar_label: Ubuntu 24.04
+id: dedicated-linux-ubuntu-2204
+title: "Dedicated Server: Installation of Ubuntu 22.04"
+description: Information about installing the Ubuntu 22.04 operating system on your dedicated server from ZAP-Hosting - ZAP-Hosting.com documentation
+sidebar_label: Ubuntu 22.04
 services:
   - dedicated
 ---
@@ -12,6 +12,22 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 ## Introduction
 
 The following will explain to you step by step how to install and configure the Ubuntu operating system on your dedicated server. Follow these instructions carefully to ensure that you set up the operating system successfully and utilize it optimally.
+
+
+
+:::warning Newer version available / EOL details
+
+The latest version of Ubuntu is the [24.04](dedicated-linux-ubuntu.md) version. We recommend using the latest version for long-term projects.
+
+Support for older Ubuntu versions will be discontinued sooner or later. The following deadlines are scheduled for the 22.04 version:
+
+- End of Standard Support: 01.04.2027
+- End of Ubuntu Pro Support: 01.04.2032
+- End of Legacy Support: 01.04.2034
+
+More information can be found on the [official website](https://ubuntu.com/about/release-cycle).
+:::
+
 
 <InlineVoucher />
 
@@ -100,7 +116,7 @@ You can easily change the password of the root user. Execute `sudo su`, and ente
 
 ## Conclusion
 
-Congratulations, you have successfully installed the Ubuntu 24.04 operating system on your dedicated server. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
+Congratulations, you have successfully installed the Ubuntu 22.04 operating system on your dedicated server. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
 
 
 

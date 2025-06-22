@@ -726,5 +726,33 @@
   "sidebar.guidesSidebar.category.Affiliate Program": {
     "message": "Affiliate Program",
     "description": "The label for category Affiliate Program in sidebar guidesSidebar"
+  },
+  "sidebar.dedicatedserverSidebar.category.Install Ubuntu": {
+    "message": "Ubuntu installieren",
+    "description": "The label for category Install Ubuntu in sidebar dedicatedserverSidebar"
+  },
+  "sidebar.gameserverSidebar.category.SCUM": {
+    "message": "SCUM",
+    "description": "The label for category SCUM in sidebar gameserverSidebar"
+  },
+  "sidebar.gameserverSidebar.category.Astro Colony": {
+    "message": "Astro Colony",
+    "description": "The label for category Astro Colony in sidebar gameserverSidebar"
+  },
+  "sidebar.gameserverSidebar.category.Motor Town: Behind The Wheel": {
+    "message": "Motor Town: Behind The Wheel",
+    "description": "The label for category Motor Town: Behind The Wheel in sidebar gameserverSidebar"
+  },
+  "sidebar.gameserverSidebar.category.SCP: Containment Breach": {
+    "message": "SCP: Containment Breach",
+    "description": "The label for category SCP: Containment Breach in sidebar gameserverSidebar"
+  },
+  "sidebar.gameserverSidebar.category.SCP: Escape Together": {
+    "message": "SCP: Escape Together",
+    "description": "The label for category SCP: Escape Together in sidebar gameserverSidebar"
+  },
+  "sidebar.dedicatedserverSidebar.category.General": {
+    "message": "General",
+    "description": "The label for category General in sidebar dedicatedserverSidebar"
   }
 }
