@@ -1,15 +1,15 @@
 ---
 id: account-affiliate
-title:  Affiliate Programm
+title: ZAP-Hosting Affiliate Programm
 description: Wie du mit ZAP-Hosting über das Partnerprogramm Geld verdienen kannst - ZAP-Hosting.com Dokumentation
-sidebar_label: Affiliate Programm
+sidebar_label: Einführung
 ---
 
 ![Affiliate Program](https://screensaver01.zap-hosting.com/index.php/s/GoXwRnHrRARc4jk/preview)
 
 ## Einführung
 
-Unser Partnerprogramm ermöglicht es dir, kostenlos Geld zu verdienen, indem du neue Kunden an ZAP-Hosting vermittelst. Du kannst darauf zugreifen, indem du auf die [Affiliate-Seite](https://zap-hosting.com/en/customer/affiliate/) auf unserer Website gehst.
+Mit unserem Partnerprogramm kannst du Geld verdienen, indem du neue Kunden an ZAP-Hosting weiterempfiehlst. Du findest das Programm auf unserer Website unter [Partner-Dashboard](https://zap-hosting.com/en/customer/affiliate/).
 
 Auf der Affiliate-Seite kannst du Affiliate-Links und Banner verwalten und auf deinen eigenen Affiliate-Gutscheincode zugreifen, mit dem neue Kunden für die gesamte Laufzeit des Programms einen Rabatt von **20%** auf deren Serverpreis erhalten.
 

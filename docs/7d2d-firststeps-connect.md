@@ -35,7 +35,7 @@ Using the information mentioned above, you should be able to locate your server 
 The connection to a game server can often be established in one or more ways. Available methods are described and explained in detail below.
 
 <Tabs>
-    <TabItem value="connect_solution_server_direct" label="Dicect connect (In game)" default>
+    <TabItem value="connect_solution_server_direct" label="Direct connect (In game)" default>
 
 To connect to your server open the game. Once in the game, click on **Join a game**. Click **Connect to IP** at the bottom and enter the IP address and port of the server in the window. 
 

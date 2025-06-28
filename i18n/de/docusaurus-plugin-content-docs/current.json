@@ -723,6 +723,10 @@
     "message": "Windows installieren",
     "description": "The label for category Install Windows in sidebar dedicatedserverSidebar"
   },
+  "sidebar.guidesSidebar.category.Affiliate Program": {
+    "message": "Affiliate Program",
+    "description": "The label for category Affiliate Program in sidebar guidesSidebar"
+  },
   "sidebar.dedicatedserverSidebar.category.Install Ubuntu": {
     "message": "Ubuntu installieren",
     "description": "The label for category Install Ubuntu in sidebar dedicatedserverSidebar"
