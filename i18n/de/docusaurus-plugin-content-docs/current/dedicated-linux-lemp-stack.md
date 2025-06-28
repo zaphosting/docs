@@ -1,10 +1,10 @@
 ---
-id: vserver-linux-lemp-stack
-title: "vServer: LEMP-Stack einrichten – Linux, Nginx, MySQL, PHP"
+id: dedicated-linux-lemp-stack
+title: "Dedicated Server: LEMP-Stack einrichten – Linux, Nginx, MySQL, PHP"
 description: Infos zum Einrichten eines LEMP-Stacks (Linux, Nginx, MySQL, PHP) auf deinem Linux-VPS von ZAP-Hosting – ZAP-Hosting.com Dokumentation
 sidebar_label: Web LEMP stack
 services:
-  - vserver
+  - dedicated
 ---
 
 import Tabs from '@theme/Tabs';
@@ -13,13 +13,13 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Der **LEMP**-Stack ist eine beliebte Auswahl an Open-Source-Software, die zusammen eingerichtet wird, um einfaches dynamisches Website-Hosting zu ermöglichen, mit einem besonderen Fokus auf PHP-Websites und -Apps. Das Akronym steht für: **L**inux als Betriebssystem, **E**ngine x (nginx) als Webserver, **M**ySQL als Datenbank und schließlich **P**HP für die Verarbeitung. In dieser Anleitung zeigen wir dir, wie du einen LEMP-Stack auf einem Linux-VPS einrichtest, mit einer detaillierten Beschreibung und einem Beispiel für die Einrichtung einer To-Do-Liste-Website.
+Der **LEMP**-Stack ist eine beliebte Auswahl an Open-Source-Software, die zusammen eingerichtet wird, um einfaches dynamisches Website-Hosting zu ermöglichen, mit einem besonderen Fokus auf PHP-Websites und -Apps. Das Akronym steht für: **L**inux als Betriebssystem, **E**ngine x (nginx) als Webserver, **M**ySQL als Datenbank und schließlich **P**HP für die Verarbeitung. In dieser Anleitung zeigen wir dir, wie du einen LEMP-Stack auf einem Linux Dedicated Server einrichtest, mit einer detaillierten Beschreibung und einem Beispiel für die Einrichtung einer To-Do-Liste-Website.
 
 <InlineVoucher />
 
 ## Vorbereitung
 
-Verbinde dich erst mal über SSH mit deinem Server. Wenn du nicht weißt, wie das geht, schau dir unsere Anleitung [Erstzugriff (SSH)](vserver-linux-ssh.md) an.
+Verbinde dich erst mal über SSH mit deinem Server. Wenn du nicht weißt, wie das geht, schau dir unsere Anleitung [Erstzugriff (SSH)](Dedicated Server-linux-ssh.md) an.
 
 In dieser Anleitung verwenden wir Ubuntu als Linux-Distribution. Die Anweisungen sind für Debian identisch und sollten für andere Distributionen ähnlich sein, allerdings kann die Syntax der Befehle leicht abweichen. Vergewissere dich, dass du ein Betriebssystem installiert hast und über SSH mit dem Server verbunden bist.
 
@@ -51,7 +51,7 @@ sudo apt install nginx
 
 Nach der Installation solltest du sicherstellen, dass die richtigen Firewall-Regeln eingerichtet sind, damit der Webserver über das Internet erreichbar ist. In diesem Beispiel verwenden wir die **UFW-Firewall**, da Nginx dafür eine registrierte Anwendung hat.
 
-Wenn du eine andere Firewall benutzt, stell sicher, dass Port 80 (HTTP) durch die Firewall geht. Mehr über Firewalls in Linux erfährst du in unserem Handbuch [Firewall verwalten](vserver-linux-firewall.md).
+Wenn du eine andere Firewall benutzt, stell sicher, dass Port 80 (HTTP) durch die Firewall geht. Mehr über Firewalls in Linux erfährst du in unserem Handbuch [Firewall verwalten](Dedicated Server-linux-firewall.md).
 
 Stell sicher, dass die UFW-Firewall aktiviert ist und dass eine Regel für SSH erstellt wurde.
 ```
@@ -307,7 +307,7 @@ $result = $conn->query($sql);
   </head>
   <body>
       <h1>Awesome To-Do List :D</h1>
-      <p>For our awesome ZAP-Hosting guide: <a href="https://zap-hosting.com/guides/docs/vserver-linux-lemp-stack">https://zap-hosting.com/guides/docs/vserver-linux-lemp-stack</a></p>
+      <p>For our awesome ZAP-Hosting guide: <a href="https://zap-hosting.com/guides/docs/Dedicated Server-linux-lemp-stack">https://zap-hosting.com/guides/docs/Dedicated Server-linux-lemp-stack</a></p>
       <ul>
           <?php
           // Check whether there are any results
@@ -354,6 +354,6 @@ Du hast alles richtig gemacht und eine Test-To-Do-Website eingerichtet, die alle
 
 ## Abschluss
 
-Glückwunsch, du hast den LEMP-Stack erfolgreich installiert und eingerichtet! Als nächsten Schritt empfehlen wir dir dringend, eine Domain und ein **SSL-Zertifikat** einzurichten, um sicherzustellen, dass Daten sicher auf deine Websites übertragen werden. Schau dir unsere [Certbot-Anleitung](vserver-linux-certbot.md#webroot-plugin) an, insbesondere den Abschnitt zum **Nginx-Plugin**, und folge den interaktiven Einrichtungsanweisungen, um schnell und einfach ein Zertifikat für deine Domain einzurichten.
+Glückwunsch, du hast den LEMP-Stack erfolgreich installiert und eingerichtet! Als nächsten Schritt empfehlen wir dir dringend, eine Domain und ein **SSL-Zertifikat** einzurichten, um sicherzustellen, dass Daten sicher auf deine Websites übertragen werden. Schau dir unsere [Certbot-Anleitung](Dedicated Server-linux-certbot.md#webroot-plugin) an, insbesondere den Abschnitt zum **Nginx-Plugin**, und folge den interaktiven Einrichtungsanweisungen, um schnell und einfach ein Zertifikat für deine Domain einzurichten.
 
 Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂

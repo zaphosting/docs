@@ -1,10 +1,10 @@
 ---
-id: vserver-linux-lemp-stack
-title: "VPS: Setup LEMP stack - Linux, Nginx, MySQL, PHP"
-description: Information on how to setup a LEMP (Linux, Nginx, MySQL, PHP) stack on your Linux VPS from ZAP-Hosting - ZAP-Hosting.com documentation
-sidebar_label: Web LEMP stack
+id: dedicated-linux-lamp-stack
+title: "Dedicated Server: Setup LAMP stack - Linux, Apache, MySQL, PHP"
+description: Information on how to setup a LAMP (Linux, Apache, MySQL, PHP) stack on your Linux Dedicated Server from ZAP-Hosting - ZAP-Hosting.com documentation
+sidebar_label: Web LAMP stack
 services:
-  - vserver
+  - dedicated
 ---
 
 import Tabs from '@theme/Tabs';
@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
-The **LEMP** stack is a popular selection of open-source software which are setup together to allow for simple dynamic website hosting, with a particular focus on PHP websites and apps. The acronym stands for: **L**inux as the OS (operating system), "**E**ngine x" (nginx) as the web server, **M**ySQL as the database and lastly **P**HP for processing. In this guide, we will cover the process of setting up a LEMP stack on a Linux VPS, with a detailed breakdown and example of setting up a to-do list website.
+The **LAMP** stack is a popular selection of open-source software which are setup together to allow for simple dynamic website hosting, with a particular focus on PHP websites and apps. The acronym stands for: **L**inux as the OS (operating system), **A**pache as the web server, **M**ySQL as the database and lastly **P**HP for processing. In this guide, we will cover the process of setting up a LAMP stack on a Linux Dedicated Server, with a detailed breakdown and example of setting up a to-do list website. 
 
 <InlineVoucher />
 
@@ -40,16 +40,16 @@ sudo dnf upgrade --refresh
 
 ## Installation
 
-The installation can be split up easily into each core LEMP dependency, beginning with the Nginx web server, followed by MySQL database and lastly PHP. Throughout the installation, we will setup a test website which is written in PHP and will access the MySQL database. Lastly each web request will be processed and served through the Nginx web server.
+The installation can be split up easily into each core LAMP dependency, beginning with the Apache web server, followed by MySQL database and lastly PHP. Throughout the installation, we will setup a test website which is written in PHP and will access the MySQL database. Lastly each web request will be processed and served through the Apache web server.
 
-### Setting up Nginx
+### Setting up Apache
 
-Nginx is the web server that will be used to process incoming web requests and serve responses. Install it with the following command.
+Apache is the web server that will be used to process incoming web requests and serve responses. Install it with the following command.
 ```
-sudo apt install nginx
+sudo apt install apache2
 ```
 
-Once installed, you should ensure that the appropriate firewall rules are created to ensure that the web server is accessible to the internet. In this example, we will use the **UFW Firewall** since Nginx has a registered application for this. 
+Once installed, you should ensure that the appropriate firewall rules are created to ensure that the web server is accessible to the internet. In this example, we will use the **UFW Firewall** since Apache has a registered application for this. 
 
 If you are using a different firewall, ensure that you allow port 80 (HTTP) through the firewall. You can learn more about firewalls in Linux via our [Manage Firewall](vserver-linux-firewall.md) guide.
 
@@ -66,28 +66,28 @@ sudo ufw enable
 Ensure that you have a rule setup for SSH if you are using UFW Firewall! If you do not, you will **not** be able to SSH into the server again if you lose connection to your current session!
 :::
 
-Now create the rule to allow Nginx and afterwards check to ensure that the rules are present.
+Now create the rule to allow Apache and afterwards check to ensure that the rules are present.
 ```
-# Create a rule to allow Nginx
-sudo ufw allow in "Nginx Full"
+# Create a rule to allow Apache
+sudo ufw allow in "Apache Full"
 
 # Check the UFW firewall rules
 sudo ufw status
 ```
 
 :::tip
-You can view which profiles are available by running the `ufw app list` command. In the example above, using `Nginx Full` means that both HTTP (port 80) and HTTPS (port 443) rules are created.
+You can view which profiles are available by running the `ufw app list` command. In the example above, using `Apache Full` means that both HTTP (port 80) and HTTPS (port 443) rules are created.
 :::
 
-You should see `Nginx` and `Nginx (v6)` rules with `ALLOW` actions set, which confirms that the firewall is ready. You should also see other rules that you may have previously setup, including the SSH rule.
+You should see `Apache` and `Apache (v6)` rules with `ALLOW` actions set, which confirms that the firewall is ready. You should also see other rules that you may have previously setup, including the SSH rule.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/A36rfRzL3gFGq9x/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/o8NDBppnTwHdSgf/preview)
 
-With the firewall opened up for Nginx, you should now ensure that Nginx is functional. You can do this by attempting to access your IP address in a browser, as following: `http://[your_ipaddress]`
+With the firewall opened up for Apache, you should now ensure that Apache is functional. You can do this by attempting to access your IP address in a browser, as following: `http://[your_ipaddress]`
 
-If it is functional, you should see a default welcome page. If you cannot, check the status of the service using the following command: `systemctl status nginx`
+If it is functional, you should see a default welcome page. If you cannot, check the status of the service using the following command: `systemctl status apache2`
 
-![](https://screensaver01.zap-hosting.com/index.php/s/EqFoyXMJMaHc3dc/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/irmnDDNi436HH4c/preview)
 
 ### Setting up MySQL
 
@@ -114,11 +114,9 @@ Now check if the MySQL database is running using the following command to attemp
 
 ### Setting up PHP
 
-The final LEMP dependency is PHP and for nginx, this requires utilising an external program called `php-fpm` (PHP fastCGI process manager). Nginx would then be configured to pass requests to `php-fpm` before responding to requests later on when utilising server blocks.
-
-The following command installs the latest version of php-fpm alongside a PHP plugin for MySQL, to allow for Nginx to work with PHP and to allow PHP to use MySQL.
+The final LAMP dependency is PHP and this is quite simple to install. The following command installs PHP alongside a plugin for Apache and MySQL, to allow for Apache to work with PHP and to allow PHP to use MySQL.
 ```
-sudo apt install php-fpm php-mysql
+sudo apt install php libapache2-mod-php php-mysql
 ```
 
 Confirm that the installation was successful by checking the version. If you see a version output, this means that PHP is functioning correctly.
@@ -136,82 +134,74 @@ sudo apt install [php_extension] [...]
 ```
 :::
 
+We recommend adjusting the directory index to ensure that `index.php` files take precedence over the default `.html`. Open the file using the following command.
+```
+sudo nano /etc/apache2/mods-enabled/dir.conf
+```
+
+In the nano editor, remove `index.php` and move it to the front of the list, as following:
+```
+DirectoryIndex index.php index.html index.cgi index.pl index.xhtml index.htm
+```
+
+Save the file and quit nano by using `CTRL + X`, followed by `Y` to confirm and lastly `ENTER`. Now restart Apache for this to take effect using `sudo systemctl restart apache2`.
+
 ### Creating Test Website
 
-With the installation of each LEMP dependency now complete, we will now create a test website to present how the LEMP stack works together to form a great dynamic website solution. This is completely optional, but it is useful to understand how you can utilise these tools to setup your own websites.
+With the installation of each LAMP dependency now complete, we will now create a test website to present how the LAMP stack works together to form a great dynamic website solution. This is completely optional, but it is useful to understand how you can utilise these tools to setup your own websites.
 
-In this example, we will create a small to-do list website via PHP which will fetch and return to-do entries. This will be stored on a MySQL database table and will be served through Nginx.
+In this example, we will create a small to-do list website via PHP which will fetch and return to-do entries. This will be stored on a MySQL database table and will be served through Apache.
 
 We will also be using a test domain of `zapdocs.example.com` throughout, since in a real-world scenario you would likely utilise a domain. You **must** setup an `A` type DNS record for the domain which points at the IP Address of your server. If you require help with this, please browse our [Domain Records](domain-records.md#a-records) guide.
 
 :::note
-You can choose not to use a domain and replace mentions of `[your_domain]` with a regular name. You would then access the website via the IP address. However, do note that when creating the server block file later on, you should remove the `server_name` parameter.
+You can choose not to use a domain and replace mentions of `[your_domain]` with a regular name. You would then access the website via the IP address. However, do note that when creating the virtual host file later on, you should remove the `ServerName` parameter.
 :::
 
-#### Setting up Nginx
+#### Setting up Apache
 
-Typically across web servers, all website files and data is stored under the `/var/www` directory. By default, Nginx usually comes with a `html` directory which contains a default page. To ensure that everything is organised especially when hosting many websites on a single Nginx instance, we recommend setting up each website in an individual directory or folder.
+Typically across web servers, all website files and data is stored under the `/var/www` directory. By default, Apache usually comes with a `html` directory which contains a default page. To ensure that everything is organised especially when hosting many websites on a single Apache instance, we recommend setting up each website in an individual directory or folder.
 
 To do this, you can simply create a new folder in the `/var/www/[your_domain]` directory for each website domain. In this example, this will be `/var/www/zapdocs.example.com`.
 ```
 sudo mkdir /var/www/[your_domain]
 ```
 
-Now you will create a new Nginx server block configuration file in the `sites-available` directory for this domain and folder.
+Now you will create a new Apache virtual host configuration file in the `sites-available` directory for this domain and folder.
 ```
-sudo nano /etc/nginx/sites-available/[your_domain].conf
+sudo nano /etc/apache2/sites-available/[your_domain].conf
 ```
 
 Use the template below and copy it into the nano editor, replacing `[your_domain]` with the domain you are using.
 ```
-server {
-    listen 80;
-    server_name [your_domain] www.[your_domain];
-    root /var/www/[your_domain];
-
-    index index.php index.html index.htm;
-
-    location / {
-        try_files $uri $uri/ =404;
-    }
-
-    location ~ \.php$ {
-        include snippets/fastcgi-php.conf;
-        fastcgi_pass unix:/var/run/php/php[your_phpversion]-fpm.sock;
-     }
-
-    location ~ /\.ht {
-        deny all;
-    }
-}
+<VirtualHost *:80>
+    ServerName [your_domain]
+    ServerAlias www.[your_domain]
+    ServerAdmin webmaster@localhost
+    DocumentRoot /var/www/[your_domain]
+    ErrorLog ${APACHE_LOG_DIR}/error.log
+    CustomLog ${APACHE_LOG_DIR}/access.log combined
+</VirtualHost>
 ```
 
-:::important PHP Version
-It is important to change the `[your_phpversion]` to the current PHP version installed. To check this, run `php -v` which should return a version, for example: `PHP 8.3.6 (cli) (built: Mar 19 2025 10:08:38) (NTS)`.
+This new virtual host file handles port 80 (HTTP) requests and checks whether the request matches the `ServerName` specified, in this case your domain. It also points that the `/var/www/[your_domain]` folder that you created previously should be used to serve files.
 
-In this example, you would place `8.3` as the major sub-version, so the line reads: `fastcgi_pass unix:/var/run/php/php8.3-fpm.sock;`
-:::
+Save the file and quit nano by using `CTRL + X`, followed by `Y` to confirm and lastly `ENTER`. We recommend using the `sudo apache2ctl configtest` command to ensure that the file doesn't contain any syntax errors.
 
-This new server block file handles port 80 (HTTP) requests and checks whether the request matches the `server_name` specified, in this case your domain. It also points that the `/var/www/[your_domain]` folder that you created previously should be used to serve files.
-
-Save the file and quit nano by using `CTRL + X`, followed by `Y` to confirm and lastly `ENTER`.
-
-The final step for Nginx configuration is to activate the configuration by liking the file from the `sites-enabled` directory.
+The final step for Apache configuration is to enable the new virtual host by using `a2ensite`.
 ```
-sudo ln -s /etc/nginx/sites-available/[your_domain].conf /etc/nginx/sites-enabled/
+sudo a2ensite [your_domain]
 ```
 
 :::note No Domain Used
-If you are **not** using a domain, remove the `server_name` line or uncomment by prefixing it with a `#` hashtag. You will also have to disable the default server block by using the `sudo unlink /etc/nginx/sites-enabled/default` command.
+If you are **not** using a domain, remove the `ServerName` line or uncomment by prefixing it with a `#` hashtag. You will also have to disable the default virtual host by using the `sudo a2dissite 000-default` command.
 :::
 
-We recommend using the `sudo nginx -t` command to ensure that the file doesn't contain any syntax errors.
-
-Finally restart Nginx for the new virthual host to take effect using the following command: `sudo systemctl reload nginx`.
+Finally restart Apache for the new virthual host to take effect using the following command: `sudo systemctl restart apache2`.
 
 #### Creating Website
 
-Now that you have configured Nginx through the new server block and document folder, it is time to create the actual website that will be served. At the moment, the folder is empty therefore nothing will be served. We will be creating a small to-do website as previously mentioned for this domain.
+Now that you have configured Apache through the new virtual host and document folder, it is time to create the actual website that will be served. At the moment, the folder is empty therefore nothing will be served. We will be creating a small to-do website as previously mentioned for this domain.
 
 ##### Preparing Database
 
@@ -307,7 +297,7 @@ $result = $conn->query($sql);
   </head>
   <body>
       <h1>Awesome To-Do List :D</h1>
-      <p>For our awesome ZAP-Hosting guide: <a href="https://zap-hosting.com/guides/docs/vserver-linux-lemp-stack">https://zap-hosting.com/guides/docs/vserver-linux-lemp-stack</a></p>
+      <p>For our awesome ZAP-Hosting guide: <a href="https://zap-hosting.com/guides/docs/vserver-linux-lamp-stack">https://zap-hosting.com/guides/docs/vserver-linux-lamp-stack</a></p>
       <ul>
           <?php
           // Check whether there are any results
@@ -348,14 +338,14 @@ Once you have copied this into the nano editor, save the file and quit nano by u
 
 #### Testing the Website
 
-You have successfully followed along and setup a test to-do website which utilises all of the aspects of the LEMP stack!
+You have successfully followed along and setup a test to-do website which utilises all of the aspects of the LAMP stack!
 
-You should now be able to access the website via the domain (using `http`/port 80) you have defined previously in the server block file, with this being `zapdocs.example.com` in this example. The end result should look like the following: 
+You should now be able to access the website via the domain (using `http`/port 80) you have defined previously in the virtual host file, with this being `zapdocs.example.com` in this example. The end result should look like the following:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/NgK2n8xN3wZPLeP/preview)
 
 ## Conclusion
 
-Congratulations, you have successfully installed and setup the LEMP stack! As the next step, we **highly recommend** setting up a domain and **SSL certificate** to ensure that data is transmitted securely to your websites. Please view our [Certbot guide](vserver-linux-certbot.md#webroot-plugin) with a focus on the **Nginx Plugin** and follow the interactive setup to quickly and easily setup a certificate for your chosen domain.
+Congratulations, you have successfully installed and setup the LAMP stack! As the next step, we **highly recommend** setting up a domain and **SSL certificate** to ensure that data is transmitted securely to your websites. Please view our [Certbot guide](vserver-linux-certbot.md#webroot-plugin) with a focus on the **Apache Plugin** and follow the interactive setup to quickly and easily setup a certificate for your chosen domain.
 
 For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂

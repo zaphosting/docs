@@ -2,7 +2,7 @@
 id: dedicated-linux-ssl
 title: "Dedicated Server: SSL-Zertifikat (Let's Encrypt) für Linux Server erstellen"
 description: Informationen, wie du ein SSL-Zertifikat mit Let's Encrypt für deinen Linux Dedicated Server von ZAP-Hosting erstellen kannst - ZAP-Hosting.com Dokumentation
-sidebar_label: SSL-Zertifikat (Let's Encrypt)
+sidebar_label: SSL-Zertifikat (Let's Encrypt) installieren
 services:
   - dedicated
 ---

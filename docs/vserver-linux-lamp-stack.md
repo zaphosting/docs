@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
-The **LAMP** stack is a popular selection of open-source software which are setup together to allow for simple dynamic website hosting, with a particular focus on PHP websites and apps. The acronym stands for: **L**inux as the OS (operating system), **A**pache as the web server, **M**ySQL as the database and lastly **P**HP for processing. In this guide, we will cover the process of setting up a LAMP stack on a Linux VPS, with a detailed breakdown and example of setting up a to-do list website.
+The **LAMP** stack is a popular selection of open-source software which are setup together to allow for simple dynamic website hosting, with a particular focus on PHP websites and apps. The acronym stands for: **L**inux as the OS (operating system), **A**pache as the web server, **M**ySQL as the database and lastly **P**HP for processing. In this guide, we will cover the process of setting up a LAMP stack on a Linux VPS, with a detailed breakdown and example of setting up a to-do list website. 
 
 <InlineVoucher />
 
@@ -79,7 +79,7 @@ sudo ufw status
 You can view which profiles are available by running the `ufw app list` command. In the example above, using `Apache Full` means that both HTTP (port 80) and HTTPS (port 443) rules are created.
 :::
 
-You should see `Apache` and `Apache (v6)` rules with `ALLOW` actions set, which confirms that the firewall is ready. You should also other rules that you may have previously setup, including the SSH rule.
+You should see `Apache` and `Apache (v6)` rules with `ALLOW` actions set, which confirms that the firewall is ready. You should also see other rules that you may have previously setup, including the SSH rule.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/o8NDBppnTwHdSgf/preview)
 
@@ -340,7 +340,7 @@ Once you have copied this into the nano editor, save the file and quit nano by u
 
 You have successfully followed along and setup a test to-do website which utilises all of the aspects of the LAMP stack!
 
-You should now be able to access the website via the domain (using `http`/port 80) you have defined previously in the virtual host file, with this being `zapdocs.example.com` in this example. The end result should look like the following. 
+You should now be able to access the website via the domain (using `http`/port 80) you have defined previously in the virtual host file, with this being `zapdocs.example.com` in this example. The end result should look like the following:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/NgK2n8xN3wZPLeP/preview)
 
@@ -348,4 +348,4 @@ You should now be able to access the website via the domain (using `http`/port 8
 
 Congratulations, you have successfully installed and setup the LAMP stack! As the next step, we **highly recommend** setting up a domain and **SSL certificate** to ensure that data is transmitted securely to your websites. Please view our [Certbot guide](vserver-linux-certbot.md#webroot-plugin) with a focus on the **Apache Plugin** and follow the interactive setup to quickly and easily setup a certificate for your chosen domain.
 
-If you have any further questions or problems, please contact our support team, who are available to help you every day!
+For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂

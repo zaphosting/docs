@@ -2,7 +2,7 @@
 id: dedicated-linux-ssl
 title: "Dedicated Server: Create SSL certificate (Let's Encrypt) for Linux server"
 description: Information on how to create an SSL certificate with Let's Encrypt for your Linux Dedicated Server from ZAP-Hosting - ZAP-Hosting.com documentation
-sidebar_label: SSL Certificate (Let's Encrypt)
+sidebar_label: Install SSL Certificate (Let's Encrypt)
 services:
   - dedicated
 ---
@@ -182,7 +182,7 @@ certbot --webroot -w [your_webserver_path]
 ```
 
 :::tip
-One of thse most common web root location is `/var/www/html`. You could also do this for web servers such as Nginx or Apache in cases where you wish to utilise the web server, without having automatic server block adjustments like the native plugins provide.
+One of these most common web root location is `/var/www/html`. You could also do this for web servers such as Nginx or Apache in cases where you wish to utilise the web server, without having automatic server block adjustments like the native plugins provide.
 :::
 
 </TabItem>
@@ -190,7 +190,7 @@ One of thse most common web root location is `/var/www/html`. You could also do 
 
 ## Automatic Renewal
 
-In most cases, Certbot should automatically setup certificate renewal for you through the use of cronjob and/or systemd timer. You can confirm this by running the following command which utilises the `--dry-run` parameter to test the process.
+In most cases, Certbot should automatically setup certificate renewal for you through the use of cronjob and/or systemd timer. You can confirm this by running the following command, which utilises the `--dry-run` parameter to test the process.
 ```
 certbot renew --dry-run
 ```
@@ -203,7 +203,7 @@ This should be successful if everything is as expected. If you wish to view or m
 
 ### Manual Cronjob Setup
 
-If for some reason automatic renewal is not setup for you, you can add this yourself via cronjob. Open the crontab menu using `crontab -e`. If this is your first time doing this, you may be prompted to select an editor. Select the first option which should be `/bin/nano`.
+If for some reason automatic renewal is not setup for you, you can add this yourself via cronjob. Open the crontab menu using `crontab -e`. If this is your first time doing this, you may be prompted to select an editor. Select the first option, which should be `/bin/nano`.
 
 With the file now open in nano, simply add the following line to run the renewal every day at 6am local time.
 

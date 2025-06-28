@@ -48,7 +48,7 @@ sudo apt install apache2 \
                  php-zip
 ```
 
-With the dependencies installed, there are a few small recommended setup steps you should follow to ensure that all core depdendencies of the LAMP stack are functional.
+With the dependencies installed, there are a few small recommended setup steps you should follow to ensure that all core dependencies of the LAMP stack are functional.
 
 ### Apache & Firewall
 
@@ -82,7 +82,7 @@ sudo ufw status
 You can view which profiles are available by running the `ufw app list` command. In the example above, using `Apache Full` means that both HTTP (port 80) and HTTPS (port 443) rules are created.
 :::
 
-You should see `Apache` and `Apache (v6)` rules with `ALLOW` actions set, which confirms that the firewall is ready. You should also other rules that you may have previously setup, including the SSH rule.
+You should see `Apache` and `Apache (v6)` rules with `ALLOW` actions set, which confirms that the firewall is ready. You should also see other rules that you may have previously setup, including the SSH rule.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/o8NDBppnTwHdSgf/preview)
 
@@ -94,7 +94,7 @@ If it is functional, you should see a default welcome page. If you cannot, check
 
 ### MySQL Setup
 
-The next part is performing a first-time setup for MySQL. It is recommended to run a secure installation script which ensures that your MySQL server instance remains secure. This is optional but highly recommended. You can run this via the `sudo mysql_secure_installation` command.
+The next part is performing a first-time setup for MySQL. It is recommended to run a secure installation script, which ensures that your MySQL server instance remains secure. This is optional but highly recommended. You can run this via the `sudo mysql_secure_installation` command.
 
 This will take you through an interactive setup. At first, you will be prompted about password validation. We recommend selecting `Y` to ensure only secure passwords in the future are allowed and then selecting either `MEDIUM` via `1` or `STRONG` via `2`.
 
@@ -233,4 +233,4 @@ Congratulations, you have successfully installed and configured WordPress! As th
 
 For future reading and further setup, we highly recommend having a browse through our [WordPress Plugins](webspace-wordpress-plugins.md) and [WordPress Elementor](webspace-wordpress-elementor.md) guides which explore the process of installing plugins and using a popular user-friendly page builder named Elementor.
 
-If you have any further questions or problems, please contact our support team, who are available to help you every day!
+For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂

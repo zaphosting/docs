@@ -48,7 +48,7 @@ Ensure that you turn the server off before proceeding to ensure that there are n
 <Tabs>
 <TabItem value="converting-from-vanilla" label="Convert from Vanilla" default>
 
-To convert a world from vanilla to server platform format, you will have too extract certain folders to create new invididual worlds for each dimension. Of course, it is expected that you would move all worlds onto a new server that is running a server platform such as Spigot, PaperMC or Bukkit.
+To convert a world from vanilla to server platform format, you will have to extract certain folders to create new individual  worlds for each dimension. Of course, it is expected that you would move all worlds onto a new server that is running a server platform such as Spigot, PaperMC or Bukkit.
 
 Access your server through FTP and follow the path `../vanilla/[your_world]` to access the world save that you wish to convert. Locate the **DIM1** and **DIM-1** folders.
 
@@ -160,7 +160,7 @@ You can easily access this path directly by pressing `CTRL` + `R` at the same ti
 ![](https://screensaver01.zap-hosting.com/index.php/s/jfrnkXX6XtwniEL/preview)
 :::
 
-In this folder, you will able to see all local world saves in one place.
+In this folder, you will be able to see all local world saves in one place.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/Li7Qn23Ej6Yiomc/preview)
 
@@ -172,11 +172,11 @@ Backing up your world save from the server is simple. Once you have connected to
 
 ### Automatic Backup
 
-We also provide an option to automatically backup your world save (and configuration file) directly through our webinterface. Simply head over to your game server's webinterface and go to the **Tools->Backups** section. Here you can configure a variety of options to schedule automatic backups for your server. We provide you with 10gb free backup storage which your backups will be stored in. For further information regarding backups, have a look at our dedicated [Backups](gameserver-backups.md) guide for this topic.
+We also provide an option to automatically back up your world save (and configuration file) directly through our webinterface. Simply head over to your game server's webinterface and go to the **Tools->Backups** section. Here you can configure a variety of options to schedule automatic backups for your server. We provide you with 10gb free backup storage which your backups will be stored in. For further information regarding backups, have a look at our dedicated [Backups](gameserver-backups.md) guide for this topic.
 
 ## Uploading World Save
 
-Similarly to backing up, uploading your world save is simple. First ensure that you connect to your game server through an FTP Client. Once you are ready, head over to the root path of the server platform you are utilising.
+Similarly to backing up, uploading your world save is simple. First, ensure that you connect to your game server through an FTP Client. Once you are ready, head over to the root path of the server platform you are utilising.
 
 :::info Vanilla & Server Platform Worlds
 Remember that the vanilla server and server platforms store worlds in a slightly different format.
@@ -199,3 +199,13 @@ You can do this either through the **Configs** section on your server's web inte
 ![](https://screensaver01.zap-hosting.com/index.php/s/ziTZ3Jax8CD3jg6/preview)
 
 In the file, find the `level-name` parameter and edit it to match the folder name of your world save. If you are using a server platform, use the main folder name and not the `_nether` or `_the_end` folders.
+
+
+
+
+
+## Conclusion
+
+You now understand how to handle your Minecraft worlds with confidence. From converting saves between vanilla and server platforms, to generating new worlds, regenerating old ones using seeds, making reliable backups, uploading custom worlds, and activating them on your server. With this knowledge, you’re ready to manage your worlds smoothly and keep your adventures safe and organized. 
+
+For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂

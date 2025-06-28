@@ -340,12 +340,12 @@ Wenn du das in den Nano-Editor kopiert hast, speicher die Datei und beende Nano 
 
 Du hast alles richtig gemacht und eine Test-To-Do-Website eingerichtet, die alle Teile des LAMP-Stacks nutzt!
 
-Jetzt solltest du über die Domain (mit `http`/Port 80), die du vorher in der virtuellen Hostdatei festgelegt hast, auf die Website zugreifen können. In diesem Beispiel ist das `zapdocs.example.com`. Das Endergebnis sollte so aussehen.
+Jetzt solltest du über die Domain (mit `http`/Port 80), die du vorher in der virtuellen Hostdatei festgelegt hast, auf die Website zugreifen können. In diesem Beispiel ist das `zapdocs.example.com`. Das Endergebnis sollte so aussehen:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/NgK2n8xN3wZPLeP/preview)
 
 ## Abschluss
 
-Herzlichen Glückwunsch, du hast den LAMP-Stack erfolgreich installiert und eingerichtet! Als nächsten Schritt empfehlen wir dir dringend, eine Domain und ein **SSL-Zertifikat** einzurichten, um sicherzustellen, dass Daten sicher auf deine Websites übertragen werden. Schau dir unsere [Certbot-Anleitung](vserver-linux-certbot.md#webroot-plugin) an, insbesondere den Abschnitt zum **Apache-Plugin**, und folge den interaktiven Einrichtungsanweisungen, um schnell und einfach ein Zertifikat für deine Domain einzurichten.
+Glückwunsch, du hast den LAMP-Stack erfolgreich installiert und eingerichtet! Als nächsten Schritt empfehlen wir dir dringend, eine Domain und ein **SSL-Zertifikat** einzurichten, um sicherzustellen, dass Daten sicher auf deine Websites übertragen werden. Schau dir unsere [Certbot-Anleitung](vserver-linux-certbot.md#webroot-plugin) an, insbesondere den Abschnitt zum **Apache-Plugin**, und folge den interaktiven Einrichtungsanweisungen, um schnell und einfach ein Zertifikat für deine Domain einzurichten.
 
-Wenn du weitere Fragen oder Probleme hast, wende dich bitte an unser Support-Team, das dir jeden Tag gerne weiterhilft!
+Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂

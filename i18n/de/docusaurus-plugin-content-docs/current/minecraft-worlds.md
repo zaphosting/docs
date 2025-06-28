@@ -19,9 +19,9 @@ Im Grunde speichert Minecraft Spielstände als **Welten**, wobei jede Welt ein e
 
 ## Vorbereitung
 
-Um deine Welten zu verwalten, musst du erst mal über FTP auf deinen Minecraft-Spielserver zugreifen. Wenn du nicht weißt, wie FTP funktioniert, schau dir unsere Anleitung [Zugriff über FTP](gameserver-ftpaccess.md) an.
+Um deine Welten zu verwalten, musst du erst mal über FTP auf deinen Minecraft-Spielserver zugreifen. Wenn du nicht weißt, wie FTP funktioniert, schau dir unsere Anleitung [Zugriff per FTP](gameserver-ftpaccess.md) an.
 
-## Unterschiede zwischen den Plattformen vergleichen
+## Vergleich der Plattformunterschiede
 
 Ein wichtiger Unterschied zwischen Vanilla-Servern und Serverplattformen ist, dass Vanilla-Server die normale Welt, die Nether- und die End-Dimensionen in einem einzigen Speicher kombinieren.
 
@@ -95,7 +95,7 @@ Die kombinierte Welt kann jetzt auf einem Vanilla-Server genutzt werden.
 </TabItem>
 </Tabs>
 
-## Welten erschaffen
+## Welten generieren
 
 Das Erstellen von Welten ist ganz einfach. Du kannst entweder eine komplett neue Welt erstellen oder die aktuelle Welt neu generieren. Minecraft nutzt ein **Seed**-System, bei dem jede Welt einen einzigartigen Seed hat. Das heißt, dass du mit dem Seed allein eine exakte Kopie einer Welt erstellen kannst.
 
@@ -110,9 +110,7 @@ Um jetzt eine neue Welt zu erstellen, hast du zwei Möglichkeiten:
 - Such über FTP die Welt, die genauso heißt wie der Parameter `level-name` in der Konfigurationsdatei, und lösche sie.
 - Ändere den Parameter `level-name` in der Konfigurationsdatei und speichere die Datei.
 
-Wenn du die alte Speicherdatei behalten willst, empfehlen wir Option 2, da die Welt auf dem Server bleibt, aber "inaktiv" ist.
-
-Starte jetzt den Server neu. Der Server merkt, dass die Welt mit dem Namen `level-name` fehlt, und erstellt eine neue Welt mit einem neuen Seed.
+Wenn du die alte Speicherdatei behalten willst, empfehlen wir Option 2, da die Welt auf dem Server bleibt, aber "inaktiv" ist. Starte jetzt den Server neu. Der Server merkt, dass die Welt mit dem Namen `level-name` fehlt, und erstellt eine neue Welt mit einem neuen Seed.
 
 </TabItem>
 
@@ -147,7 +145,7 @@ Jetzt startest du den Server nochmal und er merkt, dass die Welt mit dem Namen `
 </TabItem>
 </Tabs>
 
-## Backup World speichert
+## Backup World Sicherungen
 
 ### Lokale Speicher
 Lokale Spielstände sind die, die du im Einzelspielermodus erstellt hast. Du findest sie in deinen Windows-AppData, genauer gesagt unter folgendem Pfad:
@@ -165,7 +163,7 @@ In diesem Ordner kannst du alle lokalen Spielstände an einem Ort sehen.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/Li7Qn23Ej6Yiomc/preview)
 
-### Zugriff auf gespeicherte Daten über FTP
+### Zugriff auf gespeicherte Daten perFTP
 
 Das Sichern deiner Weltspeicherstände vom Server ist ganz einfach. Sobald du über einen FTP-Client mit deinem Spielserver verbunden bist, geh einfach in den Stammordner der Serverplattform, die du benutzt. Die Weltspeicherstände findest du direkt dort, wobei der Standardname für die Welt `world` lautet.
 
@@ -175,7 +173,7 @@ Das Sichern deiner Weltspeicherstände vom Server ist ganz einfach. Sobald du ü
 
 Wir bieten auch die Möglichkeit, ein automatisches Backup deines Savegames (und deiner Konfigurationsdatei) direkt über unser Webinterface zu erstellen. Rufe einfach das Webinterface deines Gameservers auf und gehe in den Bereich **Tools->Backups**. Hier kannst du eine Reihe von Optionen konfigurieren, um automatische Backups für deinen Server zu planen. Wir stellen dir 10gb kostenlosen Backup-Speicher zur Verfügung, in dem deine Backups gespeichert werden. Weitere Informationen zu Backups findest du in unserer [Backups](gameserver-backups.md) zu diesem Thema.
 
-## Welt-Speicherstand hochladen
+## Welt-Spielstand hochladen
 
 Genau wie beim Backup ist auch das Hochladen deiner gespeicherten Welt ganz einfach. Stell zuerst sicher, dass du über einen FTP-Client mit deinem Spielserver verbunden bist. Wenn du bereit bist, geh zum Stammverzeichnis der Serverplattform, die du benutzt.
 
@@ -191,12 +189,18 @@ Zieh einfach deine gespeicherten Welten über deinen FTP-Client in den Stammordn
 Es kann hilfreich sein, den Namen des Gamesave-Ordners zu kopieren, den du hochgeladen hast, da du ihn brauchst, wenn du ihn im nächsten Abschnitt aktivieren möchtest.
 :::
 
-## Welt-Speicher aktivieren
+## Welt-Spielstand aktivieren
 
-Um einen bestimmten Spielstand zu speichern, musst du die Konfigurationsdatei `server.properties` bearbeiten, genauer gesagt den Parameter `level-name`.
-
-Das kannst du entweder über den Abschnitt **Configs** im Webinterface deines Servers oder per FTP machen.
+Um einen bestimmten Spielstand zu speichern, musst du die Konfigurationsdatei `server.properties` bearbeiten, genauer gesagt den Parameter `level-name`. Das kannst du entweder über den Abschnitt **Configs** im Webinterface deines Servers oder per FTP machen.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/ziTZ3Jax8CD3jg6/preview)
 
 Such in der Datei den Parameter `level-name` und ändere ihn so, dass er mit dem Namen des Ordners übereinstimmt, in dem deine Welt gespeichert ist. Wenn du eine Serverplattform verwendest, nimm den Namen des Hauptordners und nicht den der Ordner `_nether` oder `_the_end`.
+
+
+
+## Abschluss
+
+Du weißt jetzt, wie du deine Minecraft-Welten sicher verwalten kannst. Von der Konvertierung von Spielständen zwischen Vanilla- und Server-Plattformen bis hin zur Erstellung neuer Welten, der Regeneration alter Welten mithilfe von Seeds, der Erstellung zuverlässiger Backups, dem Hochladen benutzerdefinierter Welten und deren Aktivierung auf deinem Server. Mit diesem Wissen bist du bereit, deine Welten reibungslos zu verwalten und deine Abenteuer sicher und organisiert zu halten.
+
+Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂

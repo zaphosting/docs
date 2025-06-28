@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
-Windows OS provides built-in disk and partition management allowing you to easily perform a wide variety of disk management actions including extending partitions, splitting disks and more. Part of this is the ability to extend partitions which is particularly important after upgrading storage capacity for your Windows server. In this guide, we will cover the process of extending a partition on your Windows server.
+Windows OS provides built-in disk and partition management allowing you to easily perform a wide variety of disk management actions including extending partitions, splitting disks and more. Part of this is the ability to extend partitions, which is particularly important after upgrading storage capacity for your Windows server. In this guide, we will cover the process of extending a partition on your Windows server.
 
 <InlineVoucher />
 
@@ -21,11 +21,11 @@ Windows OS provides built-in disk and partition management allowing you to easil
 
 Begin by connecting to your Windows server via RDP. If you need help doing this, please refer to our [Initial Access (RDP)](vserver-windows-userdp.md) guide.
 
-There are two methods of managing disks and partitions, one is through the **Disk Management** utility tool and the other is through **diskpart** CLI. The **Disk Management** tool provides a GUI version of diskpart which can perform most of the common actions, including extending partitions. However for advanced users, `diskpart` could be utilised as it is much more extensive and powerful versus the tool.
+There are two methods of managing disks and partitions, one is through the **Disk Management** utility tool and the other is through **diskpart** CLI. The **Disk Management** tool provides a GUI version of Diskpart which can perform most of the common actions, including extending partitions. However, for advanced users, `diskpart` could be utilised as it is much more extensive and powerful versus the tool.
 
 ## Extending Partition
 
-In various scenarios it may be necessary to extend your existing partition to make use of new disk space. One of these scenarios is upgrading your server's disk space which by default will not be assigned until you extend your main drive partition.
+In various scenarios, it may be necessary to extend your existing partition to make use of new disk space. One of these scenarios is upgrading your server's disk space which by default will not be assigned until you extend your main drive partition.
 
 We recommend following the **Disk Management** utility tool method as it is much easier, especially for beginners. This process is safe and does not affect data at all.
 

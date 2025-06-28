@@ -1,10 +1,10 @@
 ---
-id: vserver-linux-lemp-stack
-title: "VPS: Setup LEMP stack - Linux, Nginx, MySQL, PHP"
-description: Information on how to setup a LEMP (Linux, Nginx, MySQL, PHP) stack on your Linux VPS from ZAP-Hosting - ZAP-Hosting.com documentation
+id: dedicated-linux-lemp-stack
+title: "Dedicated Server: Setup LEMP stack - Linux, Nginx, MySQL, PHP"
+description: Information on how to setup a LEMP (Linux, Nginx, MySQL, PHP) stack on your Linux Dedicated Server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Web LEMP stack
 services:
-  - vserver
+  - dedicated
 ---
 
 import Tabs from '@theme/Tabs';
@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
-The **LEMP** stack is a popular selection of open-source software which are setup together to allow for simple dynamic website hosting, with a particular focus on PHP websites and apps. The acronym stands for: **L**inux as the OS (operating system), "**E**ngine x" (nginx) as the web server, **M**ySQL as the database and lastly **P**HP for processing. In this guide, we will cover the process of setting up a LEMP stack on a Linux VPS, with a detailed breakdown and example of setting up a to-do list website.
+The **LEMP** stack is a popular selection of open-source software which are setup together to allow for simple dynamic website hosting, with a particular focus on PHP websites and apps. The acronym stands for: **L**inux as the OS (operating system), "**E**ngine x" (nginx) as the web server, **M**ySQL as the database and lastly **P**HP for processing. In this guide, we will cover the process of setting up a LEMP stack on a Linux Dedicated Server, with a detailed breakdown and example of setting up a to-do list website.
 
 <InlineVoucher />
 
