@@ -3112,6 +3112,8 @@ const sidebars = {
       items: [
       'dedicated-linux-gs-interface',
       'dedicated-linux-proxy',
+      'vserver-linux-lamp-stack',
+      'vserver-linux-lemp-stack',
       ]
     },
     {
@@ -3119,6 +3121,7 @@ const sidebars = {
       label: "Services",
       items: [
         'dedicated-linux-certbot',
+        'dedicated-linux-ssl',
         'dedicated-linux-cockpit',	
         'dedicated-linux-databases',
         'dedicated-linux-docker',
