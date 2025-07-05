@@ -152,6 +152,13 @@ Darüber hinaus kannst du auch die E-Mail-Benachrichtigungsfunktion für automat
 
 
 
+
+### Geplante Aufgaben
+
+Erstelle geplante Tasks, die automatisch zu festgelegten Zeiten ausgeführt werden, um verschiedene Prozesse auf deinem Server zu automatisieren. Du kannst festlegen, ob ein Task einmalig oder wiederholt ausgeführt werden soll. Unterstützte Task-Typen sind das Starten, Stoppen oder Neustarten von Services, das Neustarten des Servers (nur wenn er online ist), das Erstellen von Backups oder das Ausführen von benutzerdefinierten Commands.
+
+https://screensaver01.zap-hosting.com/index.php/s/P6DeWiRC3tDqG2z/preview
+
 ### Restart Planer
 
 Du möchtest deinen Server zu bestimmten Uhrzeiten neu starten? Der Restart-Planer ermöglicht dir, geplante automatische Neustarts deines Gameservers einzurichten. Mit dieser Funktion kannst du Neustarts zu bestimmten Zeiten oder in regelmäßigen Intervallen einstellen.
