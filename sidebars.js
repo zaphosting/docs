@@ -2626,6 +2626,19 @@ const sidebars = {
         },
       ],
     },
+        {
+      type: "category",
+      label: "The Bus",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "thebus-firststeps-dashboard"
+          ]
+        },
+      ],
+    },
     {
       type: "category",
       label: "The Front",
