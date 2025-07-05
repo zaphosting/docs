@@ -160,6 +160,12 @@ Under **Versions** you have the possibility to view and manage the current versi
 Moreover, you can also enable the email notification feature for automatic updates to keep you informed about updates and ensure that you are always up-to-date.
 
 
+### Scheduled Tasks
+
+Create scheduled tasks that run automatically at defined times to automate various processes on your server. You can set whether a task should run once or repeat as needed. Supported task types include starting, stopping or restarting services, restarting the server if it’s online, creating backups or executing custom commands. 
+
+![](https://screensaver01.zap-hosting.com/index.php/s/P6DeWiRC3tDqG2z/preview)
+
 
 ### Restart planner
 
