@@ -2882,6 +2882,7 @@ const sidebars = {
       defaultStyle: true,
     },
     'vserver-introduction',
+    'vserver-dashboard',
     'vserver-reset',
     'vserver-vnc',
     'vserver-root-difference',
