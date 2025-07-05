@@ -115,7 +115,7 @@ With the VNC Console you can interact with your server as if you were directly a
 
 Track how much of your monthly traffic quota you’ve used so far for your service. If your included traffic is used up early, you can reset it for a fee to avoid interruptions and keep your server running smoothly.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/5Z38eyRdntF6ict/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/XJ457EdCtDX7545/preview)
 
 
 

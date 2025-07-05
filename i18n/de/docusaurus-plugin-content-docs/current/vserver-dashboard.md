@@ -108,7 +108,7 @@ Mit der VNC-Console kannst du deinen Server so steuern, als würdest du direkt d
 
 Behalte im Blick, wie viel deines monatlichen Traffic-Kontingents du bereits für deinen Service verbraucht hast. Sollte dein inkludierter Traffic vorzeitig aufgebraucht sein, kannst du ihn gegen eine Gebühr zurücksetzen, um Einschränkungen zu vermeiden und deinen Server reibungslos weiterlaufen zu lassen.
 
-![img](https://screensaver01.zap-hosting.com/index.php/s/5Z38eyRdntF6ict/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/XJ457EdCtDX7545/preview)
 
 
 
