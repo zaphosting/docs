@@ -190,6 +190,7 @@ const sidebars = {
           items: [
             "fivem-change-servericon",
             "fivem-server-customisation",
+            "fivem-serverbanner",
             "fivem-rcon",
             "fivem-licensekey",
             "fivem-txadmin-discord-bot",
@@ -1357,6 +1358,7 @@ const sidebars = {
           items: [
             "fivem-change-servericon",
             "fivem-server-customisation",
+            "fivem-serverbanner",
             "fivem-rcon",
             "fivem-licensekey",
             "fivem-txadmin-discord-bot",
@@ -1372,7 +1374,7 @@ const sidebars = {
             "fivem-proxy"
           ]
         },
-                {
+        {
           type: "category",
           label: "Resources",
           items: [
