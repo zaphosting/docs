@@ -1720,6 +1720,7 @@ const sidebars = {
             "minecraft-server-icon",
             "minecraft-add-own-world",
             "minecraft-worlds",
+            "minecraft-custom-seed",
             "minecraft-rcon",
             "minecraft-whitelist",
             "minecraft-timings-report",
