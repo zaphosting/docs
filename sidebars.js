@@ -3114,6 +3114,7 @@ const sidebars = {
       'dedicated-linux-proxy',
       'vserver-linux-lamp-stack',
       'vserver-linux-lemp-stack',
+      'dedicated-linux-rescue'
       ]
     },
     {
@@ -3195,7 +3196,8 @@ const sidebars = {
       'dedicated-windows-userdp',
       'dedicated-windows-port',
       'dedicated-windows-addip',
-      'dedicated-windows-manage-users'
+      'dedicated-windows-manage-users',
+      'dedicated-linux-rescue'
       ]
     },
     {
