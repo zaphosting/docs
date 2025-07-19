@@ -2868,6 +2868,7 @@ const sidebars = {
     'vserver-reset',
     'vserver-vnc',
     'vserver-root-difference',
+    'vserver-ballooning', 
     {
       type: "category",
       label: "Troubleshooting",
