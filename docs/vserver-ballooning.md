@@ -29,7 +29,7 @@ This approach leads to a more reliable infrastructure where all customers enjoy 
 
 ## Configure ballooning
 
-If your application requires fixed and guaranteed memory without dynamic adjustments, you can disable ballooning directly in your **Server Dashboard** under **Settings → Disable ballooning**.
+If your application requires fixed and guaranteed memory without dynamic adjustments, you can disable ballooning directly in your **Server Dashboard** under **Settings → Disable ballooning**. Restart the server via the web interface afterwards to apply the change.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/zK92KzbQ7LQe79d/download)
 
