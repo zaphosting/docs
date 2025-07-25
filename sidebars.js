@@ -247,9 +247,9 @@ const sidebars = {
           type: "category",
           label: "Troubleshooting",
           items: [
+            "fivem-troubleshooting-common-issues",
             "fivem-resolve-dbconnection",
             "fivem-prohibited-resources"
-
           ]
         },
       ],
@@ -313,10 +313,11 @@ const sidebars = {
             "minecraft-pluginuploader"
           ]
         },
-                {
+        {
           type: "category",
           label: "Troubleshooting",
           items: [
+            "minecraft-troubleshooting-common-issues",
             "minecraft-faultyworld"
           ]
         },
@@ -351,7 +352,14 @@ const sidebars = {
           items: [
             "exiled-plugins"
           ]
-        }
+        },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "scp-troubleshooting-common-issues",
+          ]
+        },
       ],
     },
     {
@@ -381,6 +389,7 @@ const sidebars = {
           type: "category",
           label: "Troubleshooting",
           items: [
+            "valheim-troubleshooting-common-issues",
             "valheim-serverlisting",
           ]
         },
@@ -404,9 +413,17 @@ const sidebars = {
           items: [
             "ark-becomeadmin",
             "ark-mods",
-            "ark-serverlisting",
+
             "ark-configuration",
             "ark-savegame"
+          ]
+        },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "ark-troubleshooting-common-issues",
+            "ark-serverlisting",
           ]
         },
       ],
@@ -435,6 +452,13 @@ const sidebars = {
             "palworld-rcon"
           ]
         },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "palworld-troubleshooting-common-issues",
+          ]
+        },
       ],
     },
     {
@@ -457,6 +481,13 @@ const sidebars = {
           "enshrouded-server-savegames"
           ]
         },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "enshrouded-troubleshooting-common-issues",
+          ]
+        },
       ],
     },
     {
@@ -477,6 +508,13 @@ const sidebars = {
           items: [
             'scum-becomeadmin',
             'scum-server-wipe'
+          ]
+        },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "scum-troubleshooting-common-issues",
           ]
         },          
       ],
@@ -513,6 +551,13 @@ const sidebars = {
             "7d2d-commands",
           ]
         },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "7d2d-troubleshooting-common-issues",
+          ]
+        },
       ],
     },
     {
@@ -535,6 +580,13 @@ const sidebars = {
             "abioticfactor-server-savegames",
           ]
         },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "abioticfactor-troubleshooting-common-issues",
+          ]
+        },
       ],
     },
     {
@@ -547,6 +599,13 @@ const sidebars = {
           items: [
             "afterinfection-firststeps-dashboard",
             "afterinfection-firststeps-connect"
+          ]
+        },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "afterinfection-troubleshooting-common-issues",
           ]
         },
       ],
@@ -570,6 +629,13 @@ const sidebars = {
             "ats-server-modding"
           ]
         },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "ats-troubleshooting-common-issues",
+          ]
+        },
       ],
     },
     {
@@ -582,6 +648,13 @@ const sidebars = {
           items: [
             "amongus-firststeps-dashboard",
             "amongus-connection"
+          ]
+        },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "amongus-troubleshooting-common-issues",
           ]
         },
       ],
@@ -598,6 +671,13 @@ const sidebars = {
             "animalia-survival-firststeps-connect",
           ]
         },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "animalia-survival-troubleshooting-common-issues",
+          ]
+        },
       ],
     },
     {
@@ -609,6 +689,13 @@ const sidebars = {
           label: "First Steps",
           items: [
             "argo-firststeps-dashboard",
+          ]
+        },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "argo-troubleshooting-common-issues",
           ]
         },
       ],
@@ -631,9 +718,16 @@ const sidebars = {
           items: [
             "ark-becomeadmin",
             "ark-mods",
-            "ark-serverlisting",
             "ark-configuration",
             "ark-savegame"
+          ]
+        },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "ark-troubleshooting-common-issues",
+            "ark-serverlisting"
           ]
         },
       ],
@@ -661,6 +755,13 @@ const sidebars = {
             "arma3-missionfile"
           ]
         },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "arma3-troubleshooting-common-issues",
+          ]
+        },
       ]
     },
     {
@@ -673,6 +774,13 @@ const sidebars = {
           items: [
             "arma-reforger-firststeps-dashboard",
             "arma-reforger-firststeps-connect"
+          ]
+        },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "arma-reforger-troubleshooting-common-issues",
           ]
         },
       ]
@@ -698,6 +806,13 @@ const sidebars = {
             "assettocorsa-mods"
           ]
         },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "assettocorsa-troubleshooting-common-issues",
+          ]
+        },
       ],
     },
     {
@@ -720,6 +835,13 @@ const sidebars = {
             "assetto-competizione-slot-requirement",
           ]
         },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "assetto-competizione-troubleshooting-common-issues",
+          ]
+        },
       ],
     },
     {
@@ -734,6 +856,13 @@ const sidebars = {
             "astrocolony-firststeps-connect",
           ]
         },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "astrocolony-troubleshooting-common-issues",
+          ]
+        },
       ],
     },
     {
@@ -746,6 +875,13 @@ const sidebars = {
           items: [
             "astroneer-firststeps-dashboard",
             "astroneer-firststeps-connect",
+          ]
+        },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "astroneer-troubleshooting-common-issues",
           ]
         },
       ],
@@ -769,6 +905,13 @@ const sidebars = {
             "avorion-becomeadmin",
           ]
         },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "avorion-troubleshooting-common-issues",
+          ]
+        },
       ],
     },
     {
@@ -781,6 +924,13 @@ const sidebars = {
           items: [
             "bananashooter-firststeps-dashboard",
             "bananashooter-firststeps-connect",
+          ]
+        },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "bananashooter-troubleshooting-common-issues",
           ]
         },
       ],
@@ -804,6 +954,13 @@ const sidebars = {
             "barotrauma-becomeadmin"
           ]
         },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "barotrauma-troubleshooting-common-issues",
+          ]
+        },
       ],
     },
     {
@@ -818,6 +975,13 @@ const sidebars = {
             "battalion1944-firststeps-connect"
           ]
         },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "battalion1944-troubleshooting-common-issues",
+          ]
+        },
       ],
     },
     {
@@ -830,6 +994,13 @@ const sidebars = {
           items: [
             "battlegrounds3-firststeps-dashboard",
             "battlegrounds3-firststeps-connect",
+          ]
+        },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "battlegrounds3-troubleshooting-common-issues",
           ]
         },
       ],
@@ -854,6 +1025,13 @@ const sidebars = {
             "beammp-addon-map"
           ]
         },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "beammp-troubleshooting-common-issues",
+          ]
+        },
       ],
     },
     {
@@ -866,6 +1044,13 @@ const sidebars = {
           items: [
             "bob-firststeps-dashboard",
             "bob-firststeps-connect",
+          ]
+        },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "bob-troubleshooting-common-issues",
           ]
         },
       ],
@@ -882,6 +1067,13 @@ const sidebars = {
             "beyondthewire-firststeps-connect",
           ]
         },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "beyondthewire-troubleshooting-common-issues",
+          ]
+        },
       ],
     },
     {
@@ -894,6 +1086,13 @@ const sidebars = {
           items: [
             "brokeprotocol-firststeps-dashboard",
             "brokeprotocol-firststeps-connect",
+          ]
+        },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "brokeprotocol-troubleshooting-common-issues",
           ]
         },
       ],
@@ -910,6 +1109,13 @@ const sidebars = {
             "citadel-forgedwithfire-firststeps-connect",
           ]
         },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "citadel-forgedwithfire-troubleshooting-common-issues",
+          ]
+        },
       ],
     },
     {
@@ -922,6 +1128,13 @@ const sidebars = {
           items: [
             "colonysurvival-firststeps-dashboard",
             "colonysurvival-firststeps-connect",
+          ]
+        },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "colonysurvival-troubleshooting-common-issues",
           ]
         },
       ],
@@ -946,6 +1159,13 @@ const sidebars = {
             "conan-configuration"
           ]
         },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "conan-troubleshooting-common-issues",
+          ]
+        },
       ],
     },
     {
@@ -957,6 +1177,13 @@ const sidebars = {
           label: "First Steps",
           items: [
             "contagion-firststeps-dashboard",
+          ]
+        },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "contagion-troubleshooting-common-issues",
           ]
         },
       ],
@@ -972,7 +1199,14 @@ const sidebars = {
             "corekeeper-firststeps-dashboard",
             "corekeeper-firststeps-connect"
           ]
-        }
+        },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "corekeeper-troubleshooting-common-issues",
+          ]
+        },
       ],
     },
     {
@@ -987,6 +1221,13 @@ const sidebars = {
             "craftopia-firststeps-connect",
           ]
         },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "craftopia-troubleshooting-common-issues",
+          ]
+        },
       ],
     },
     {
@@ -999,6 +1240,13 @@ const sidebars = {
           items: [
             "cryofall-firststeps-dashboard",
             "cryofall-firststeps-connect",
+          ]
+        },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "cryofall-troubleshooting-common-issues",
           ]
         },
       ],
@@ -1027,6 +1275,7 @@ const sidebars = {
           type: "category",
           label: "Troubleshooting",
           items: [
+            "cs16-troubleshooting-common-issues",
             "cs16-troubleshooting-segmentation-fault"
           ]
         },   
@@ -1064,6 +1313,7 @@ const sidebars = {
           type: "category",
           label: "Troubleshooting",
           items: [
+            "css-troubleshooting-common-issues",
             "css-troubleshooting-segmentation-fault"
           ]
         },   
@@ -1101,6 +1351,7 @@ const sidebars = {
           type: "category",
           label: "Troubleshooting",
           items: [
+            "cs2-troubleshooting-common-issues",
             "cs2-troubleshooting-segmentation-fault"
           ]
         },   
@@ -1127,6 +1378,13 @@ const sidebars = {
             "source-metamod-plugins"
           ]
         },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "dods-troubleshooting-common-issues",
+          ]
+        },
       ],
     },
     {
@@ -1138,6 +1396,13 @@ const sidebars = {
           label: "First Steps",
           items: [
             "dayofinfamy-firststeps-dashboard",
+          ]
+        },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "dayofinfamy-troubleshooting-common-issues",
           ]
         },
       ],
@@ -1162,6 +1427,13 @@ const sidebars = {
             "dayz-mods",
           ]
         },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "dayz-troubleshooting-common-issues",
+          ]
+        },
       ],
     },
     {
@@ -1174,6 +1446,13 @@ const sidebars = {
           items: [
             "ddracenetwork-firststeps-dashboard",
             "ddracenetwork-firststeps-connect",
+          ]
+        },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "ddracenetwork-troubleshooting-common-issues",
           ]
         },
       ],
@@ -1190,6 +1469,13 @@ const sidebars = {
             "deadlock-firststeps-connect",
           ]
         },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "deadlock-troubleshooting-common-issues",
+          ]
+        },
       ],
     },
     {
@@ -1202,6 +1488,13 @@ const sidebars = {
           items: [
             "deadpoly-firststeps-dashboard",
             "deadpoly-firststeps-connect",
+          ]
+        },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "deadpoly-troubleshooting-common-issues",
           ]
         },
       ],
@@ -1223,6 +1516,13 @@ const sidebars = {
           label: "Configuration",
           items: [
             "dst-create-cave"
+          ]
+        },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "dst-troubleshooting-common-issues",
           ]
         },
       ],
@@ -1247,6 +1547,13 @@ const sidebars = {
             "eco-whitelist"
           ]
         },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "eco-troubleshooting-common-issues",
+          ]
+        },
       ],
     },
     {
@@ -1266,6 +1573,13 @@ const sidebars = {
           label: "Configuration",
           items: [
             "empyrion-becomeadmin"
+          ]
+        },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "empyrion-troubleshooting-common-issues",
           ]
         },
       ],
@@ -1290,6 +1604,13 @@ const sidebars = {
           "enshrouded-server-savegames"
           ]
         },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "enshrouded-troubleshooting-common-issues",
+          ]
+        },
       ],
     },
     {
@@ -1309,6 +1630,13 @@ const sidebars = {
           label: "Configuration",
           items: [
             "ets2-server-modding"
+          ]
+        },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "ets2-troubleshooting-common-issues",
           ]
         },
       ],
@@ -1331,6 +1659,13 @@ const sidebars = {
           items: [
             "factorio-becomeadmin",
             "factorio-mods"
+          ]
+        },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "factorio-troubleshooting-common-issues",
           ]
         },
       ],
@@ -1372,7 +1707,7 @@ const sidebars = {
             "fivem-proxy"
           ]
         },
-                {
+        {
           type: "category",
           label: "Resources",
           items: [
@@ -1414,6 +1749,7 @@ const sidebars = {
           type: "category",
           label: "Troubleshooting",
           items: [
+            "fivem-troubleshooting-common-issues",
             "fivem-resolve-dbconnection",
             "fivem-prohibited-resources"
 
@@ -1440,7 +1776,14 @@ const sidebars = {
             "foundry-configuration",
             "foundry-server-savegames",
           ]
-        },        
+        },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "foundry-troubleshooting-common-issues",
+          ]
+        },       
       ],
     },
     {
@@ -1463,6 +1806,13 @@ const sidebars = {
             "gmod-ttt"
           ]
         },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "gmod-troubleshooting-common-issues",
+          ]
+        },
       ],
     }, 
     {
@@ -1475,6 +1825,13 @@ const sidebars = {
           items: [
             "groundbranch-firststeps-dashboard",
             "groundbranch-firststeps-connect",
+          ]
+        },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "groundbranch-troubleshooting-common-issues",
           ]
         },
       ],
@@ -1491,6 +1848,13 @@ const sidebars = {
             "hl1-firststeps-connect",
           ]
         },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "hl1-troubleshooting-common-issues",
+          ]
+        },
       ],
     },
     {
@@ -1503,6 +1867,13 @@ const sidebars = {
           items: [
             "hl2-firststeps-dashboard",
             "hl2-firststeps-connect",
+          ]
+        },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "hl2-troubleshooting-common-issues",
           ]
         },
       ],
@@ -1519,6 +1890,13 @@ const sidebars = {
             "holdfast-firststeps-connect",
           ]
         },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "holdfast-troubleshooting-common-issues",
+          ]
+        },
       ],
     },
     {
@@ -1533,6 +1911,13 @@ const sidebars = {
             "humanitz-firststeps-connect",
           ]
         },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "humanitz-troubleshooting-common-issues",
+          ]
+        },
       ],
     },
     {
@@ -1544,6 +1929,13 @@ const sidebars = {
           label: "First Steps",
           items: [
             "hurtworld-firststeps-dashboard",
+          ]
+        },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "hurtworld-troubleshooting-common-issues",
           ]
         },
       ],
@@ -1560,6 +1952,13 @@ const sidebars = {
             "icarus-firststeps-connect"
           ]
         },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "icarus-troubleshooting-common-issues",
+          ]
+        },
       ],
     },
     {
@@ -1571,6 +1970,13 @@ const sidebars = {
           label: "First Steps",
           items: [
             "insurgency-firststeps-dashboard",
+          ]
+        },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "insurgency-troubleshooting-common-issues",
           ]
         },
       ],
@@ -1587,6 +1993,13 @@ const sidebars = {
             "ironarmada-firststeps-connect",
           ]
         },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "ironarmada-troubleshooting-common-issues",
+          ]
+        },
       ],
     },
     {
@@ -1598,6 +2011,13 @@ const sidebars = {
           label: "First Steps",
           items: [
             "jol-firststeps-dashboard",
+          ]
+        },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "jol-troubleshooting-common-issues",
           ]
         },
       ],
@@ -1612,6 +2032,13 @@ const sidebars = {
           items: [
             "killingfloor2-firststeps-dashboard",
             "killingfloor2-firststeps-connect"
+          ]
+        },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "killingfloor2-troubleshooting-common-issues",
           ]
         },
       ],
@@ -1635,6 +2062,13 @@ const sidebars = {
             "lastoasis-multiple-oases"
           ]
         },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "lastoasis-troubleshooting-common-issues",
+          ]
+        },
       ],
     },  
     {
@@ -1646,6 +2080,13 @@ const sidebars = {
           label: "First Steps",
           items: [
             "leap-firststeps-dashboard",
+          ]
+        },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "leap-troubleshooting-common-issues",
           ]
         },
       ],
@@ -1675,6 +2116,7 @@ const sidebars = {
           type: "category",
           label: "Troubleshooting",
           items: [
+            "l4d2-troubleshooting-common-issues",
             "l4d2-troubleshooting-segmentation-fault"
           ]
         },  
@@ -1690,6 +2132,13 @@ const sidebars = {
           items: [
             "longvinter-firststeps-dashboard",
             "longvinter-firststeps-connect",
+          ]
+        },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "longvinter-troubleshooting-common-issues",
           ]
         },
       ],
@@ -1753,10 +2202,11 @@ const sidebars = {
             "minecraft-pluginuploader"
           ]
         },
-                {
+        {
           type: "category",
           label: "Troubleshooting",
           items: [
+            "minecraft-troubleshooting-common-issues",
             "minecraft-faultyworld"
           ]
         },
@@ -1771,6 +2221,13 @@ const sidebars = {
           label: "First Steps",
           items: [
             "minetest-firststeps-dashboard",
+          ]
+        },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "minetest-troubleshooting-common-issues",
           ]
         },
       ],
@@ -1789,7 +2246,7 @@ const sidebars = {
         },
       ],
     },
-        {
+    {
       type: "category",
       label: "Motor Town: Behind The Wheel",
       items: [
@@ -1799,6 +2256,13 @@ const sidebars = {
           items: [
             "motortown-firststeps-dashboard",
             "motortown-firststeps-connect",
+          ]
+        },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "motortown-troubleshooting-common-issues",
           ]
         },
       ],
@@ -1812,6 +2276,13 @@ const sidebars = {
           label: "First Steps",
           items: [
             "mountandblade-firststeps-dashboard",
+          ]
+        },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "mountandblade-troubleshooting-common-issues",
           ]
         },
       ],
@@ -1832,6 +2303,13 @@ const sidebars = {
           label: "Configuration",
           items: [
             "mta-becomeadmin"
+          ]
+        },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "mta-troubleshooting-common-issues",
           ]
         },
       ],
@@ -1857,6 +2335,13 @@ const sidebars = {
             "moe-mods",
           ]
         },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "moe-troubleshooting-common-issues",
+          ]
+        },
       ],
     },
     {
@@ -1869,6 +2354,13 @@ const sidebars = {
           items: [
             "necesse-firststeps-dashboard",
             "necesse-firststeps-connect",
+          ]
+        },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "necesse-troubleshooting-common-issues",
           ]
         },
       ],
@@ -1884,6 +2376,13 @@ const sidebars = {
             "nstp-firststeps-dashboard",
           ]
         },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "nstp-troubleshooting-common-issues",
+          ]
+        },
       ],
     },
     {
@@ -1895,6 +2394,13 @@ const sidebars = {
           label: "First Steps",
           items: [
             "nienix-firststeps-dashboard",
+          ]
+        },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "nienix-troubleshooting-common-issues",
           ]
         },
       ],
@@ -1924,6 +2430,7 @@ const sidebars = {
           type: "category",
           label: "Troubleshooting",
           items: [
+            "nmrih-troubleshooting-common-issues",
             "nmrih-troubleshooting-segmentation-fault"
           ]
         },   
@@ -1940,6 +2447,13 @@ const sidebars = {
             "noonesurvived-firststeps-dashboard",
           ]
         },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "noonesurvived-troubleshooting-common-issues",
+          ]
+        },
       ],
     },
     {
@@ -1951,6 +2465,13 @@ const sidebars = {
           label: "First Steps",
           items: [
             "ohol-firststeps-dashboard",
+          ]
+        },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "ohol-troubleshooting-common-issues",
           ]
         },
       ],
@@ -1975,6 +2496,13 @@ const sidebars = {
             "openmp-rcon"
           ]
         },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "openmp-troubleshooting-common-issues",
+          ]
+        },
       ],
     },
     {
@@ -1986,6 +2514,13 @@ const sidebars = {
           label: "First Steps",
           items: [
             "openttd-firststeps-dashboard",
+          ]
+        },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "openttd-troubleshooting-common-issues",
           ]
         },
       ],
@@ -2001,6 +2536,13 @@ const sidebars = {
             "ohd-firststeps-dashboard",
           ]
         },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "ohd-troubleshooting-common-issues",
+          ]
+        },
       ],
     },
     {
@@ -2012,6 +2554,13 @@ const sidebars = {
           label: "First Steps",
           items: [
             "ootow-firststeps-dashboard",
+          ]
+        },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "ootow-troubleshooting-common-issues",
           ]
         },
       ],
@@ -2040,6 +2589,13 @@ const sidebars = {
             "palworld-rcon"
           ]
         },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "palworld-troubleshooting-common-issues",
+          ]
+        },
       ],
     },
     {
@@ -2060,6 +2616,13 @@ const sidebars = {
             "pathoftitans-becomeadmin",
           ]
         },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "pathoftitans-troubleshooting-common-issues",
+          ]
+        },
       ],
     },
     {
@@ -2071,6 +2634,13 @@ const sidebars = {
           label: "First Steps",
           items: [
             "pixark-firststeps-dashboard",
+          ]
+        },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "pixark-troubleshooting-common-issues",
           ]
         },
       ],
@@ -2086,6 +2656,13 @@ const sidebars = {
             "portalknights-firststeps-dashboard",
           ]
         },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "portalknights-troubleshooting-common-issues",
+          ]
+        },
       ],
     },
     {
@@ -2099,7 +2676,14 @@ const sidebars = {
             "projectzomboid-firststeps-dashboard",
             "projectzomboid-firststeps-connect"
           ]
-        }
+        },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "projectzomboid-troubleshooting-common-issues",
+          ]
+        },
       ],
     },
     {
@@ -2144,6 +2728,7 @@ const sidebars = {
           type: "category",
           label: "Troubleshooting",
           items: [
+            "redm-troubleshooting-common-issues",
             "redm-prohibited-resources"
           ]
         },
@@ -2158,6 +2743,13 @@ const sidebars = {
           label: "First Steps",
           items: [
             "reignofkings-firststeps-dashboard",
+          ]
+        },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "reignofkings-troubleshooting-common-issues",
           ]
         },
       ],
@@ -2182,6 +2774,13 @@ const sidebars = {
             "rimworldtogether-mods"
           ]
         },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "rimworldtogether-troubleshooting-common-issues",
+          ]
+        },
       ],
     },
     {
@@ -2193,6 +2792,13 @@ const sidebars = {
           label: "First Steps",
           items: [
             "risingstorm2-firststeps-dashboard",
+          ]
+        },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "risingstorm2-troubleshooting-common-issues",
           ]
         },
       ],
@@ -2208,6 +2814,13 @@ const sidebars = {
             "riskofrain2-firststeps-dashboard",
           ]
         },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "riskofrain2-troubleshooting-common-issues",
+          ]
+        },
       ],
     },
     {
@@ -2219,6 +2832,13 @@ const sidebars = {
           label: "First Steps",
           items: [
             "risingworld-firststeps-dashboard",
+          ]
+        },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "risingworld-troubleshooting-common-issues",
           ]
         },
       ],
@@ -2246,6 +2866,13 @@ const sidebars = {
             "rust-decay"
           ]
         },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "rust-troubleshooting-common-issues",
+          ]
+        },
       ],
     },
     {
@@ -2257,6 +2884,13 @@ const sidebars = {
           label: "First Steps",
           items: [
             "sanctuaryisland-firststeps-dashboard",
+          ]
+        },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "sanctuaryisland-troubleshooting-common-issues",
           ]
         },
       ],
@@ -2283,6 +2917,13 @@ const sidebars = {
             "satisfactory-mods"
           ]
         },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "satisfactory-troubleshooting-common-issues",
+          ]
+        },
       ],
     },
         {
@@ -2294,6 +2935,13 @@ const sidebars = {
           label: "First Steps",
           items: [
             "scp5k-firststeps-dashboard"
+          ]
+        },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "scp5k-troubleshooting-common-issues",
           ]
         },
       ],
@@ -2310,6 +2958,13 @@ const sidebars = {
             "scp-containmentbreach-firststeps-connect",            
           ]
         },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "scp-containmentbreach-troubleshooting-common-issues",
+          ]
+        },
       ],
     },
         {
@@ -2322,6 +2977,13 @@ const sidebars = {
           items: [
             "scp-escapetogether-firststeps-dashboard",       
             "scp-escapetogether-firststeps-connect",      
+          ]
+        },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "scp-escapetogether-troubleshooting-common-issues",
           ]
         },
       ],
@@ -2355,7 +3017,14 @@ const sidebars = {
           items: [
             "exiled-plugins"
           ]
-        }
+        },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "scp-troubleshooting-common-issues",
+          ]
+        },
       ],
     },
 
@@ -2377,7 +3046,14 @@ const sidebars = {
           items: [
             'scum-becomeadmin',
           ]
-        },        
+        },     
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "scum-troubleshooting-common-issues",
+          ]
+        },   
       ],
     },
     {
@@ -2389,6 +3065,13 @@ const sidebars = {
           label: "First Steps",
           items: [
             "soldat-firststeps-dashboard",
+          ]
+        },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "soldat-troubleshooting-common-issues",
           ]
         },
       ],
@@ -2403,6 +3086,13 @@ const sidebars = {
           items: [
             "sonsoftheforest-firststeps-dashboard",
             "sonsoftheforest-firststeps-connect",
+          ]
+        },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "sonsoftheforest-troubleshooting-common-issues",
           ]
         },
       ],
@@ -2426,6 +3116,13 @@ const sidebars = {
             "soulmask-server-savegames",
           ]
         },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "soulmask-troubleshooting-common-issues",
+          ]
+        },
       ],
     },
     {
@@ -2447,6 +3144,13 @@ const sidebars = {
             "spaceengineers-addmods"
           ]
         },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "spaceengineers-troubleshooting-common-issues",
+          ]
+        },
       ],
     },
     {
@@ -2459,6 +3163,13 @@ const sidebars = {
           items: [
             "squad-firststeps-dashboard",
             "squad-firststeps-connect",
+          ]
+        },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "squad-troubleshooting-common-issues",
           ]
         },
       ],
@@ -2474,6 +3185,13 @@ const sidebars = {
             "starbound-firststeps-dashboard",
           ]
         },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "starbound-troubleshooting-common-issues",
+          ]
+        },
       ],
     },
     {
@@ -2487,6 +3205,13 @@ const sidebars = {
             "starmade-firststeps-dashboard",
           ]
         },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "starmade-troubleshooting-common-issues",
+          ]
+        },
       ],
     },
     {
@@ -2498,6 +3223,13 @@ const sidebars = {
           label: "First Steps",
           items: [
             "staxel-firststeps-dashboard",
+          ]
+        },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "staxel-troubleshooting-common-issues",
           ]
         },
       ],
@@ -2520,6 +3252,13 @@ const sidebars = {
             "stormworks-becomeadmin"
           ]
         },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "stormworks-troubleshooting-common-issues",
+          ]
+        },
       ],
     },
     {
@@ -2531,6 +3270,13 @@ const sidebars = {
           label: "First Steps",
           items: [
             "subsistence-firststeps-dashboard",
+          ]
+        },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "subsistence-troubleshooting-common-issues",
           ]
         },
       ],
@@ -2545,6 +3291,13 @@ const sidebars = {
           items: [
             "sunkenland-firststeps-dashboard",
             "sunkenland-setup-server",
+          ]
+        },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "sunkenland-troubleshooting-common-issues",
           ]
         },
       ],
@@ -2574,6 +3327,7 @@ const sidebars = {
           type: "category",
           label: "Troubleshooting",
           items: [
+            "tf2-troubleshooting-common-issues",
             "tf2-troubleshooting-segmentation-fault"
           ]
         }, 
@@ -2588,6 +3342,13 @@ const sidebars = {
           label: "First Steps",
           items: [
             "teeworlds-firststeps-dashboard",
+          ]
+        },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "teeworlds-troubleshooting-common-issues",
           ]
         },
       ],
@@ -2611,6 +3372,13 @@ const sidebars = {
             "terraria-tmodloader-installmod"
           ]
         },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "terraria-troubleshooting-common-issues",
+          ]
+        },
       ],
     },
     {
@@ -2622,6 +3390,13 @@ const sidebars = {
           label: "First Steps",
           items: [
             "terratech-worlds-firststeps-dashboard"
+          ]
+        },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "terratech-worlds-troubleshooting-common-issues",
           ]
         },
       ],
@@ -2637,6 +3412,13 @@ const sidebars = {
             "thefront-firststeps-dashboard",
           ]
         },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "thefront-troubleshooting-common-issues",
+          ]
+        },        
       ],
     },
     {
@@ -2648,6 +3430,13 @@ const sidebars = {
           label: "First Steps",
           items: [
             "theisle-firststeps-dashboard",
+          ]
+        },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "theisle-troubleshooting-common-issues",
           ]
         },
       ],
@@ -2664,6 +3453,13 @@ const sidebars = {
             "lotr-rtm-firststeps-connect"
           ]
         },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "lotr-rtm-troubleshooting-common-issues",
+          ]
+        },
       ],
     },
     {
@@ -2675,6 +3471,13 @@ const sidebars = {
           label: "First Steps",
           items: [
             "unfortunate-spacemen-firststeps-dashboard",
+          ]
+        },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "unfortunate-spacemen-troubleshooting-common-issues",
           ]
         },
       ],
@@ -2708,7 +3511,14 @@ const sidebars = {
             "unturned-rocketmod-plugins",
             "unturned-rocketmod-permissions"
           ]
-        }
+        },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "unturned-troubleshooting-common-issues",
+          ]
+        },
       ],
     },
         {
@@ -2738,6 +3548,7 @@ const sidebars = {
           type: "category",
           label: "Troubleshooting",
           items: [
+            "valheim-troubleshooting-common-issues",
             "valheim-serverlisting",
           ]
         },
@@ -2754,7 +3565,13 @@ const sidebars = {
             "vein-firststeps-dashboard",
           ]
         },
-        
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "vein-troubleshooting-common-issues",
+          ]
+        },
       ],
     },
     {
@@ -2768,6 +3585,13 @@ const sidebars = {
             "veloren-firststeps-dashboard",
           ]
         },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "veloren-troubleshooting-common-issues",
+          ]
+        },
       ],
     },
     {
@@ -2779,6 +3603,13 @@ const sidebars = {
           label: "First Steps",
           items: [
             "vintagestory-firststeps-dashboard",
+          ]
+        },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "vintagestory-troubleshooting-common-issues",
           ]
         },
       ],
@@ -2804,6 +3635,13 @@ const sidebars = {
             "vrising-becomeadmin",
           ]
         },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "vrising-troubleshooting-common-issues",
+          ]
+        },
       ],
     },
         {
@@ -2816,6 +3654,13 @@ const sidebars = {
           items: [
             "wreckfest-firststeps-dashboard",
             "wreckfest-firststeps-connect",
+          ]
+        },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "wreckfest-troubleshooting-common-issues",
           ]
         },
       ],
@@ -2832,6 +3677,13 @@ const sidebars = {
             "wreckfest2-firststeps-connect",
           ]
         },
+                {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "wreckfest2-troubleshooting-common-issues",
+          ]
+        },
       ],
     },
     {
@@ -2843,6 +3695,13 @@ const sidebars = {
           label: "First Steps",
           items: [
             "wurmunlimited-firststeps-dashboard",
+          ]
+        },
+                {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "wurmunlimited-troubleshooting-common-issues",
           ]
         },
       ],
