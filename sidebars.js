@@ -4233,6 +4233,7 @@ const sidebars = {
       defaultStyle: true,
     },
     'voicebot-introduction',
+    'voicebot-dashboard',
     {
       type: "category",
       label: "Discord Bot",
