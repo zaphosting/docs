@@ -178,6 +178,7 @@ const sidebars = {
           items: [
             "fivem-dashboard",
             "fivem-upvotes",
+            "fivem-frameworks-comparison",
             "fivem-txadmin-setup",
             "fivem-txadmin-features",
             "fivem-txadmin-import-server-base",
@@ -1682,6 +1683,7 @@ const sidebars = {
           items: [
             "fivem-dashboard",
             "fivem-upvotes",
+            "fivem-frameworks-comparison",
             "fivem-txadmin-setup",
             "fivem-txadmin-features",
             "fivem-txadmin-import-server-base",
