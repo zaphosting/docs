@@ -4189,6 +4189,7 @@ const sidebars = {
     'webspace-introduction',
     'webspace-dashboard',
     'webspace-adddomain',
+    'webspace-external-domain',
     'webspace-backups',
     'webspace-subdomain',
     'webspace-plesk-ftp',
