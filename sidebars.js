@@ -3929,6 +3929,7 @@ const sidebars = {
       defaultStyle: true,
     },
     'dedicated-introduction',
+    'dedicated-dashboard',
     'dedicated-setup',
     'dedicated-ilo',
     'dedicated-iso',
