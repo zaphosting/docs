@@ -178,6 +178,7 @@ const sidebars = {
           items: [
             "fivem-dashboard",
             "fivem-upvotes",
+            "fivem-frameworks-comparison",
             "fivem-txadmin-setup",
             "fivem-txadmin-features",
             "fivem-txadmin-import-server-base",
@@ -190,6 +191,7 @@ const sidebars = {
           items: [
             "fivem-change-servericon",
             "fivem-server-customisation",
+            "fivem-serverbanner",
             "fivem-rcon",
             "fivem-licensekey",
             "fivem-txadmin-discord-bot",
@@ -278,6 +280,7 @@ const sidebars = {
             "minecraft-server-icon",
             "minecraft-add-own-world",
             "minecraft-worlds",
+            "minecraft-custom-seed",
             "minecraft-rcon",
             "minecraft-whitelist",
             "minecraft-timings-report",
@@ -1680,6 +1683,7 @@ const sidebars = {
           items: [
             "fivem-dashboard",
             "fivem-upvotes",
+            "fivem-frameworks-comparison",
             "fivem-txadmin-setup",
             "fivem-txadmin-features",
             "fivem-txadmin-import-server-base",
@@ -1692,6 +1696,7 @@ const sidebars = {
           items: [
             "fivem-change-servericon",
             "fivem-server-customisation",
+            "fivem-serverbanner",
             "fivem-rcon",
             "fivem-licensekey",
             "fivem-txadmin-discord-bot",
@@ -2167,6 +2172,7 @@ const sidebars = {
             "minecraft-server-icon",
             "minecraft-add-own-world",
             "minecraft-worlds",
+            "minecraft-custom-seed",
             "minecraft-rcon",
             "minecraft-whitelist",
             "minecraft-timings-report",
@@ -2914,7 +2920,8 @@ const sidebars = {
             "satisfactory-savegame",
             "satisfactory-switchexperimental",
             "satisfactory-commands",
-            "satisfactory-mods"
+            "satisfactory-mods",
+            "satisfactory-blueprints"
           ]
         },
         {
@@ -3401,6 +3408,27 @@ const sidebars = {
         },
       ],
     },
+        {
+      type: "category",
+      label: "The Bus",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "thebus-firststeps-dashboard",
+            "thebus-firststeps-connect"
+          ]
+        },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "thebus-troubleshooting-common-issues",
+          ]
+        },  
+      ],
+    },
     {
       type: "category",
       label: "The Front",
@@ -3724,6 +3752,7 @@ const sidebars = {
       defaultStyle: true,
     },
     'vserver-introduction',
+    'vserver-dashboard',
     'vserver-reset',
     'vserver-vnc',
     'vserver-root-difference',
@@ -3907,6 +3936,7 @@ const sidebars = {
       defaultStyle: true,
     },
     'dedicated-introduction',
+    'dedicated-dashboard',
     'dedicated-setup',
     'dedicated-ilo',
     'dedicated-iso',
@@ -4166,6 +4196,7 @@ const sidebars = {
     'webspace-introduction',
     'webspace-dashboard',
     'webspace-adddomain',
+    'webspace-external-domain',
     'webspace-backups',
     'webspace-subdomain',
     'webspace-plesk-ftp',
@@ -4212,6 +4243,7 @@ const sidebars = {
       defaultStyle: true,
     },
     'voicebot-introduction',
+    'voicebot-dashboard',
     {
       type: "category",
       label: "Discord Bot",
@@ -4238,6 +4270,7 @@ const sidebars = {
       defaultStyle: true,
     },    
     'voiceserver-introduction',
+    'voiceserver-dashboard',
     'voiceserver-ts3backup',
     'voiceserver-subdomain',
     'voiceserver-becomeadmin',
