@@ -16,7 +16,7 @@ You are interested in a **Dedicated Server** or already own one, but you still l
 
 After going through this guide, you will easily be able to manage your Dedicated Server efficiently and find all the necessary options and features quickly and easily. Here, you will get a structured overview that will help you step by step to get familiar with the Dedicated Server administration and expand your knowledge in a targeted manner. This way, you can ensure that your **Dedicated Server** is optimally configured to your needs and that you get the most out of the available options.
 
-
+<InlineVoucher />
 
 ## Product Administration
 

@@ -4,7 +4,7 @@ title: "Voiceserver: Dashboard Overview"
 description: Information about the dashboard of a Voiceserver product from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Dashboard
 services:
-  - Voiceserver
+  - voiceserver
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';

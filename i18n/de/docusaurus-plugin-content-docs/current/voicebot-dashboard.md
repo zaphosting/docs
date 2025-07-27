@@ -4,7 +4,7 @@ title: "Voicebot: Dashboard Übersicht"
 description: Informationen über das Dashboard eines Voicebot-Produkts von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Dashboard
 services:
-  - Voicebot
+  - voicebot
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';
@@ -16,7 +16,7 @@ Du bist an einer **Voicebot** interessiert oder besitzt bereits eine, doch dir f
 
 Nachdem du diese Anleitung durchgegangen bist, wirst du problemlos in der Lage sein, deine Voicebot effizient zu verwalten und alle erforderlichen Optionen sowie Features zügig und unkompliziert zu finden. Hier erhältst du einen strukturierten Überblick, der dir Schritt für Schritt hilft, dich mit der Voicebotverwaltung vertraut zu machen und dein Wissen gezielt zu erweitern. So kannst du sicherstellen, dass deine **Voicebot** optimal auf deine Bedürfnisse abgestimmt ist und du das Beste aus den vorhandenen Möglichkeiten herausholst.
 
-
+<InlineVoucher />
 
 ## Produktverwaltung
 

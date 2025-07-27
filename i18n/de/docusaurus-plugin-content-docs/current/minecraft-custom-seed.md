@@ -35,7 +35,7 @@ Ersetze `12345' durch deinen eigenen Seed-Code. Dies kann eine beliebige Zahl od
 
 Der einfachste Weg, dies zu tun, ist, den `Level-Namen` in den **Einstellungen** in einen neuen, unbenutzten Namen zu ändern, zum Beispiel `world1`. Dadurch wird sichergestellt, dass Minecraft einen neuen Weltordner mit deinem neuen Seed erstellt.
 
-Wenn du mehr darüber wissen möchtest, wie du eine bestehende Welt neu erstellst, kannst du in unserer [Welten generieren](minecraft-worlds.md#welten-generieren) Anleitung nachlesen, wie das geht. Starte schließlich deinen Server neu. Minecraft wird nun eine neue Welt mit deinem benutzerdefinierten Seed erstellen.
+Wenn du mehr darüber wissen möchtest, wie du eine bestehende Welt neu erstellst, kannst du in unserer [Welten generieren](minecraft-worlds.md) Anleitung nachlesen, wie das geht. Starte schließlich deinen Server neu. Minecraft wird nun eine neue Welt mit deinem benutzerdefinierten Seed erstellen.
 
 ## Abschluss
 

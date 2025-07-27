@@ -35,7 +35,7 @@ Replace `12345` with your own seed code. This can be any number or text string y
 
 The easiest way to do this is to change the `level-name` in the **Settings** to a new, unused name, for example `world1`. This ensures that Minecraft creates a fresh world folder with your new seed.
 
-If you want to know more about how to recreate an existing world, you can check our [Recreate World](minecraft-worlds.md#recreate-the-world) guide for detailed instructions. Finally, start your server again. Minecraft will now generate a new world using your custom seed.
+If you want to know more about how to recreate an existing world, you can check our [Recreate World](minecraft-worlds.md) guide for detailed instructions. Finally, start your server again. Minecraft will now generate a new world using your custom seed.
 
 ## Conclusion
 
