@@ -3403,7 +3403,7 @@ const sidebars = {
     },
         {
       type: "category",
-      label: "Terratech Worlds",
+      label: "The Bus",
       items: [
         {
           type: "category",
@@ -3413,6 +3413,13 @@ const sidebars = {
             "thebus-firststeps-connect"
           ]
         },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "thebus-troubleshooting-common-issues",
+          ]
+        },  
       ],
     },
     {
