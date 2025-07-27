@@ -3409,7 +3409,8 @@ const sidebars = {
           type: "category",
           label: "First Steps",
           items: [
-            "thebus-firststeps-dashboard"
+            "thebus-firststeps-dashboard",
+            "thebus-firststeps-connect"
           ]
         },
       ],
