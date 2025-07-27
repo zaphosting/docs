@@ -754,5 +754,9 @@
   "sidebar.dedicatedserverSidebar.category.General": {
     "message": "General",
     "description": "The label for category General in sidebar dedicatedserverSidebar"
+  },
+  "sidebar.gameserverSidebar.category.The Bus": {
+    "message": "The Bus",
+    "description": "The label for category The Bus in sidebar gameserverSidebar"
   }
 }
