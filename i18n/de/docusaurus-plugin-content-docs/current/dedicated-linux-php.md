@@ -57,7 +57,7 @@ sudo dnf update
 
 ## Installation
 
-Es gibt zwei Möglichkeiten, PHP auf Ihrem Linux-Server zu installieren: entweder als eigenständiges Paket oder als zusätzliches Paket für Apache. Wenn Sie Ihren eigenen Webserver verwenden, der nicht Apache ist, oder für allgemeine Aufgaben, empfehlen wir die eigenständige Methode. Andernfalls verwenden Sie für die Verwendung mit dem Apache-Webserver die Apache-Methode, um PHP als zusätzliches Paket zu installieren.
+Es gibt zwei Möglichkeiten, PHP auf deinem Linux-Server zu installieren: entweder als eigenständiges Paket oder als zusätzliches Paket für Apache. Wenn du deinen eigenen Webserver verwendest, der nicht Apache ist, oder für allgemeine Aufgaben, empfehlen wir die eigenständige Methode. Andernfalls verwende für die Verwendung mit dem Apache-Webserver die Apache-Methode, um PHP als zusätzliches Paket zu installieren.
 
 ## Standalone
 

@@ -63,7 +63,7 @@ Jeder FiveM Server benötigt seinen eigenen Lizenzschlüssel, der über das neue
 
 ## Konfiguration
 
-Nun kann mit der Installation des FiveM Server und txAdmin begonnen werden. Um mit diesem Schritt zu starten, rufe erneut dein FiveM Server Verzeichnis auf und führe die `FXServer.exe` Anwendung aus. Nachdem die Serveranwendung ausgeführt wurde, öffnen sich die Server Konsole und die txAdmin-Oberfläche. Dort müssen Sie Ihr CFX-Konto verknüpfen. 
+Nun kann mit der Installation des FiveM Server und txAdmin begonnen werden. Um mit diesem Schritt zu starten, rufe erneut dein FiveM Server Verzeichnis auf und führe die `FXServer.exe` Anwendung aus. Nachdem die Serveranwendung ausgeführt wurde, öffnen sich die Server Konsole und die txAdmin-Oberfläche. Dort musst du dein CFX-Konto verknüpfen. 
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/aSEbx3LnJe2rZpd/download)
 

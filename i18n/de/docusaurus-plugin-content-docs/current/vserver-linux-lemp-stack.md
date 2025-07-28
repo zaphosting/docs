@@ -51,7 +51,7 @@ sudo apt install nginx
 
 Nach der Installation solltest du sicherstellen, dass die richtigen Firewall-Regeln eingerichtet sind, damit der Webserver über das Internet erreichbar ist. In diesem Beispiel verwenden wir die **UFW-Firewall**, da Nginx dafür eine registrierte Anwendung hat.
 
-Wenn du eine andere Firewall benutzt, stell sicher, dass Port 80 (HTTP) durch die Firewall geht. Mehr über Firewalls in Linux erfährst du in unserem Handbuch [Firewall verwalten](vserver-linux-firewall.md).
+Wenn du eine andere Firewall benutzt, stell sicher, dass Port 80 (HTTP) durch die Firewall geht. Mehr über Firewalls in Linux erfährst du in unserer Anleitung [Firewall verwalten](vserver-linux-firewall.md).
 
 Stell sicher, dass die UFW-Firewall aktiviert ist und dass eine Regel für SSH erstellt wurde.
 ```

@@ -232,7 +232,7 @@
     "description": "The label for category Myth of Empires in sidebar gameserverSidebar"
   },
   "sidebar.guidesSidebar.category.Contribution Program": {
-    "message": "Beitragsprogramm",
+    "message": "Beitrags Programm",
     "description": "The label for category Contribution Program in sidebar guidesSidebar"
   },
   "sidebar.gameserverSidebar.category.Forge & Fabric": {
@@ -240,7 +240,7 @@
     "description": "The label for category Forge & Fabric in sidebar gameserverSidebar"
   },
   "sidebar.guidesSidebar.category.Partner Program": {
-    "message": "Partnerprogramm",
+    "message": "Partner Programm",
     "description": "The label for category Partner Program in sidebar guidesSidebar"
   },
   "sidebar.gameserverSidebar.category.CS 1.6": {
@@ -688,7 +688,7 @@
     "description": "The label for category The Lord of the Rings: RTM in sidebar gameserverSidebar"
   },
   "sidebar.gameserverSidebar.category.Configuration": {
-    "message": "Configuration",
+    "message": "Konfiguration",
     "description": "The label for category Configuration in sidebar gameserverSidebar"
   },
   "sidebar.gameserverSidebar.category.Resources": {
@@ -724,7 +724,7 @@
     "description": "The label for category Install Windows in sidebar dedicatedserverSidebar"
   },
   "sidebar.guidesSidebar.category.Affiliate Program": {
-    "message": "Affiliate Program",
+    "message": "Affiliate Programm",
     "description": "The label for category Affiliate Program in sidebar guidesSidebar"
   },
   "sidebar.dedicatedserverSidebar.category.Install Ubuntu": {
@@ -752,7 +752,7 @@
     "description": "The label for category SCP: Escape Together in sidebar gameserverSidebar"
   },
   "sidebar.dedicatedserverSidebar.category.General": {
-    "message": "General",
+    "message": "Allgemein",
     "description": "The label for category General in sidebar dedicatedserverSidebar"
   },
   "sidebar.gameserverSidebar.category.The Bus": {

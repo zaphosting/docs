@@ -180,7 +180,7 @@ Genau wie beim Backup ist auch das Hochladen deiner gespeicherten Welt ganz einf
 :::info Vanilla- und Server-Plattform-Welten
 Denk dran, dass der Vanilla-Server und die Server-Plattformen Welten in einem etwas anderen Format speichern.
 
-Wenn du einen Spielstand von Vanilla auf eine Server-Plattform wie PaperMC verschieben willst oder umgekehrt, schau dir bitte den Abschnitt [Welten konvertieren](#welten-umwandeln) im Handbuch an.
+Wenn du einen Spielstand von Vanilla auf eine Server-Plattform wie PaperMC verschieben willst oder umgekehrt, schau dir bitte den Abschnitt in der [Welten konvertieren](#welten-umwandeln) Anleitung an.
 :::
 
 Zieh einfach deine gespeicherten Welten über deinen FTP-Client in den Stammordner und sie werden auf deinen Server hochgeladen.

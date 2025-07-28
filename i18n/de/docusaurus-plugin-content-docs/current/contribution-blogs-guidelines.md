@@ -98,7 +98,7 @@ Unsere Blog-Beiträge sollen technisch so genau wie möglich sein und die neuest
 Verfasser sollten ihre Blogeinträge stets Korrektur lesen und testen, um sicherzustellen, dass alles technisch korrekt ist und wie beabsichtigt funktioniert, bevor sie den Entwurf einreichen. Das ZAP-Beitragsteam wird deinen Blogbeitrag durchlesen und prüfen, um sicherzustellen, dass er konsistent und sachlich korrekt ist, oder um Verbesserungen zu besprechen, wenn ein Fehler festgestellt wird.
 
 :::tip
-Wir empfehlen unseren Schreibern immer, Ihren Inhalt durch ein Rechtschreibprüfungstool zu prüfen, um sicherzustellen, dass die Rechtschreibung korrekt ist, bevor der Entwurf eingereicht wird. Eine nützliche Website hierfür ist: https://languagetool.org/
+Wir empfehlen unseren Schreibern immer, den Inhalt durch ein Rechtschreibprüfungstool zu prüfen, um sicherzustellen, dass die Rechtschreibung korrekt ist, bevor der Entwurf eingereicht wird. Eine nützliche Website hierfür ist: https://languagetool.org/
 :::
 
 

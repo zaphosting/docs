@@ -110,19 +110,6 @@ In dem Abschnitt **Einstellungen** wirst du alle notwendigen Seiten finden, die 
 
 Unter den Einstellungen findest du eine Übersicht der gängingsten Einstellungsoptionen zu deinem Server. Diese beinhalten ebenfalls jeweils eine kurze Erläutern. Die Nutzung der Einstellungsseite ist gerade für Neulinge in der Serververwaltung empfehlenswert. 
 
-Solltest du dir doch mehr zutrauen und präzisere Änderungen vornehmen wollen, so empfehlen wir stattdessen den Config-Editor zu verwenden. Mehr dazu findest du unter der Kategorie **Configs**.
-
-
-
-### Configs
-
-Der Editor für die Config-Dateien ermöglicht dir, die Konfigurationsdateien direkt über die Webseite auf klassische Weise, also ohne vereinfachte Ansicht, zu bearbeiten. Mit dieser Option kannst du die Einstellungen deines Servers individuell anpassen und nach deinen persönlichen Wünschen konfigurieren.
-
-Durch die Verwendung des Editors erhältst du direkten Zugriff auf alle verfügbaren Optionen und kannst diese präzise anpassen. Dies ist besonders nützlich für fortgeschrittene Benutzer, die eine umfassende Kontrolle über ihre Servereinstellungen wünschen und genau wissen, welche Änderungen sie vornehmen möchten.
-
-:::warning
-Hast du festgestellt, dass einige deiner Änderungen teilweise überschrieben werden? Bitte beachte, dass bestimmte Optionenwerte von der Einstellungsseite herangezogen werden. Wenn du diese Änderungen direkt in der Config vornehmen möchtest, solltest du zuerst die betreffenden Optionen auf der Einstellungsseite deaktivieren.
-:::
 
 
 ### Spiele
