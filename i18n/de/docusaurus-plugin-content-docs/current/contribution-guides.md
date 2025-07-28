@@ -50,7 +50,7 @@ Nachdem du deinen Vorschlag eingereicht hast, versuchen wir, uns innerhalb von 3
 **Hast du mit Problemen zu kämpfen?** Du kannst unserem [ZAP-Hosting Discord Server](https://zap-hosting.com/discord) beitreten, wo wir und die ZAP-Community dir gerne bei allen Fragen helfen. Alternativ kannst du uns auch über ein [Ticket auf unserer Website](https://zap-hosting.com/en/customer/support/) kontaktieren und in deiner Nachricht „Contribution Program - Guides“ angeben, damit sie an das ZAP-Hosting Contributions Team weitergeleitet wird.
 :::
 
-In unserer Antwort geben wir dir zusätzliches Feedback oder Details, die wir bezüglich deines Vorschlags anpassen möchten. Wenn es ein Problem gibt, werden wir dies direkt in Ihrem GitHub-Problem ansprechen.
+In unserer Antwort geben wir dir zusätzliches Feedback oder Details, die wir bezüglich deines Vorschlags anpassen möchten. Wenn es ein Problem gibt, werden wir dies direkt in deinem GitHub-Issue ansprechen.
 
 ## Schritt 2: Schreiben der Anleitung
 
@@ -306,7 +306,7 @@ Der letzte Schritt besteht darin, die Dokumentationsseite lokal auszuführen. Ve
 npm start
 ```
 
-Sobald dies abgeschlossen ist, sollte sich automatisch eine lokale Version der Website in Ihrem Standardbrowser auf dem Port `3000` öffnen. Diese lokale Version ist genau so, wie die Dokumentation während der Produktion aussehen wird, und hier kannst du alles ausprobieren, wie du möchtest!
+Sobald dies abgeschlossen ist, sollte sich automatisch eine lokale Version der Website in deinem Standardbrowser auf dem Port `3000` öffnen. Diese lokale Version ist genau so, wie die Dokumentation während der Produktion aussehen wird, und hier kannst du alles ausprobieren, wie du möchtest!
 
 Wenn du mit deinen Änderungen zufrieden bist, kannst du im nächsten Abschnitt einen Pull Request erstellen, um den Inhalt an das Hauptdokumentations-Repository zu übermitteln.
 

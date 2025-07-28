@@ -85,7 +85,7 @@ Sobald die Installation abgeschlossen ist, gibst du den folgenden Befehl ein, um
 mysql_secure_installation
 ```
 
-Nun kannst du deinen MariaDB (MySQL)-Server konfigurieren, indem du den Eingabeaufforderungen folgst und ein Passwort für Ihren Server festlegen. Bei der folgenden Aufforderung können Sie die Eingabe vorerst überspringen, indem Sie **Enter** drücken.
+Nun kannst du deinen MariaDB (MySQL)-Server konfigurieren, indem du den Eingabeaufforderungen folgst und ein Passwort für deinen Server festlegen. Bei der folgenden Aufforderung können Sie die Eingabe vorerst überspringen, indem Sie **Enter** drücken.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/oEjbWX9nK3d7F6q/preview)
 
@@ -183,7 +183,7 @@ MongoDB ist eine dokumentenorientierte NoSQL-Datenbank, die auf Skalierbarkeit u
 
 ## MongoDB Installation
 
-Wähle auf den folgenden Registerkarten Ihr Betriebssystem aus, um die entsprechende Anleitung anzuzeigen.
+Wähle auf den folgenden Registerkarten dein Betriebssystem aus, um die entsprechende Anleitung anzuzeigen.
 
 <Tabs>
 <TabItem value="mongodb-ubuntu-debian" label="Ubuntu & Debian">

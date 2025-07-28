@@ -52,7 +52,7 @@ Dieser Befehl listet alle erkannten Laufwerke zusammen mit ihren Partitionsdetai
 - Verfügbare Partitionen (z.B. `/dev/sda1`, `/dev/sda2`, ...),
 - Der Dateisystemtyp (falls erkannt).
 
-In diesem Beispiel hat das Laufwerk `/dev/sda` drei Partitionen: `/dev/sda1`, `/dev/sda2` und `/dev/sda3`. Stelle sicher, dass du die richtige Partition auswählst, bevor du sie einhängst. Die Ausgabe von `fdisk -l` hilft Ihnen, Fehler zu vermeiden, indem sie eindeutig anzeigt, welches Laufwerk welche Daten enthält. Beispiel:
+In diesem Beispiel hat das Laufwerk `/dev/sda` drei Partitionen: `/dev/sda1`, `/dev/sda2` und `/dev/sda3`. Stelle sicher, dass du die richtige Partition auswählst, bevor du sie einhängst. Die Ausgabe von `fdisk -l` hilft dir, Fehler zu vermeiden, indem sie eindeutig anzeigt, welches Laufwerk welche Daten enthält. Beispiel:
 
 ```
 Disk /dev/sda: 111.76 GiB, 119998201240 bytes, 234373120 sectors

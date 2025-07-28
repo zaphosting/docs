@@ -1,7 +1,7 @@
 ---
 id: dedicated-windows-manage-users
 title: "Dedicated Server: Verwalten von Benutzern auf Windows Server"
-description: Informationen zum Hinzufügen und Verwalten zusätzlicher Benutzer auf Ihrem Windows Dedicated Server von ZAP-Hosting - ZAP-Hosting.com-Dokumentation
+description: Informationen zum Hinzufügen und Verwalten zusätzlicher Benutzer bei deinem Windows Dedicated Server von ZAP-Hosting - ZAP-Hosting.com-Dokumentation
 sidebar_label: Benutzer hinzufügen und verwalten
 services:
   - dedicated
@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Das Windows-Betriebssystem bietet eine integrierte Benutzerverwaltung, mit der sich zusätzliche Benutzer einfach verwalten lassen. Zu den Vorteilen der Verwendung einzelner Benutzer gehören der gleichzeitige (bis zu 2) Remote-Desktop-Zugriff über eigene Anmeldeinformationen, der individuelle Desktop- und Dateizugriff sowie ein einfaches Berechtigungssystem. In diesem Handbuch wird der Prozess der Benutzerverwaltung auf Ihrem Windows-Server behandelt.
+Das Windows-Betriebssystem bietet eine integrierte Benutzerverwaltung, mit der sich zusätzliche Benutzer einfach verwalten lassen. Zu den Vorteilen der Verwendung einzelner Benutzer gehören der gleichzeitige (bis zu 2) Remote-Desktop-Zugriff über eigene Anmeldeinformationen, der individuelle Desktop- und Dateizugriff sowie ein einfaches Berechtigungssystem. In dieser Anleitung wird der Prozess der Benutzerverwaltung bei deinem Windows-Server behandelt.
 
 <InlineVoucher />
 

@@ -54,7 +54,7 @@ Jetzt musst du die neueste Version aus dem [open.mp GitHub Repository](https://g
 wget [link]
 ```
 
-Dadurch wird die `.zip`-Datei an den aktuellen Speicherort heruntergeladen, der sich in Ihrem neuen `OpenMP-Server`-Ordner befinden sollte. Fahren Sie mit dem folgenden Befehl fort, um die Dateien im Ordner zu entpacken und zu extrahieren.
+Dadurch wird die `.zip`-Datei an den aktuellen Speicherort heruntergeladen, der sich in deinem neuen `OpenMP-Server`-Ordner befinden sollte. Fahre mit dem folgenden Befehl fort, um die Dateien im Ordner zu entpacken und zu extrahieren.
 ```
 tar -xvzf open.mp-linux-x86.tar.gz
 ```

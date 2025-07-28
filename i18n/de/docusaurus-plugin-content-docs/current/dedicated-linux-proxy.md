@@ -64,7 +64,7 @@ http://[deine_serverip]
 
 Ein Reverse-Proxy für Websites kann aus verschiedenen Gründen sehr nützlich sein, z. B. für die Umleitung zu internen Serverressourcen wie einer Vaultwarden-Instanz (ohne dass der Port in der URL angegeben werden muss) oder für die Weiterleitung des Benutzers an externe Inhalte, was für die Lastverteilung und den Schutz nützlich ist.
 
-Einer der größten Vorteile besteht darin, dass Ihr Server Anfragen von beliebig vielen Quellen/Domains verarbeiten kann, im Gegensatz zu einem einzelnen Webserver, der auf Port 80/443 läuft.
+Einer der größten Vorteile besteht darin, dass dein Server Anfragen von beliebig vielen Quellen/Domains verarbeiten kann, im Gegensatz zu einem einzelnen Webserver, der auf Port 80/443 läuft.
 
 ### Nginx-Einrichtung
 

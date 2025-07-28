@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-OpenVPN ist eine leistungsstarke und vielseitige VPN-Software, die eine sichere Verbindung über das Internet ermöglicht. Es handelt sich um eine Open-Source-Lösung, die eine robuste und konfigurierbare VPN-Technologie bietet, um eine verschlüsselte Verbindung zwischen Ihrem Gerät und einem VPN-Server herzustellen. Durch die Verwendung von OpenVPN können Nutzer ihre Internetverbindung sichern, ihre Online-Privatsphäre schützen und auf geografisch eingeschränkte Inhalte zugreifen, unabhängig davon, wo sie sich auf der Welt befinden. In dieser Anleitung werden wir uns mit der Installation und Konfiguration des **OpenVPN**-Dienstes auf einem Linux-Server beschäftigen.
+OpenVPN ist eine leistungsstarke und vielseitige VPN-Software, die eine sichere Verbindung über das Internet ermöglicht. Es handelt sich um eine Open-Source-Lösung, die eine robuste und konfigurierbare VPN-Technologie bietet, um eine verschlüsselte Verbindung zwischen deinem Gerät und einem VPN-Server herzustellen. Durch die Verwendung von OpenVPN können Nutzer ihre Internetverbindung sichern, ihre Online-Privatsphäre schützen und auf geografisch eingeschränkte Inhalte zugreifen, unabhängig davon, wo sie sich auf der Welt befinden. In dieser Anleitung werden wir uns mit der Installation und Konfiguration des **OpenVPN**-Dienstes auf einem Linux-Server beschäftigen.
 
 <InlineVoucher />
 

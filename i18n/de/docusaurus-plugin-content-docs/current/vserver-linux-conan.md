@@ -48,14 +48,14 @@ Bitte habe etwas Geduld, während der Download abgeschlossen wird, denn bei grö
 
 ## Konfiguration
 
-In diesem Stadium haben Sie die Einrichtung Ihres Conan Exiles-Servers abgeschlossen. Sie können weitere Serverkonfigurationen über eine Konfigurationsdatei im Verzeichnis Ihres Servers vornehmen.
+In diesem Stadium hast du die Einrichtung deines Conan Exiles-Servers abgeschlossen. Du kannst weitere Serverkonfigurationen über eine Konfigurationsdatei im Verzeichnis deines Servers vornehmen.
 
-Sie können alle Konfigurationsparameter anpassen, indem Sie auf die Konfigurationsdatei **WindowsServerEngine.ini** zugreifen und diese im folgenden Verzeichnis bearbeiten.
+Du kannst alle Konfigurationsparameter anpassen, indem Sie auf die Konfigurationsdatei **WindowsServerEngine.ini** zugreifen und diese im folgenden Verzeichnis bearbeiten.
 ```
 nano /home/steam/Conan-Server/Engine/Config/Windows/WindowsServerEngine.ini
 ```
 
-Sie können Konfigurationsoptionen hinzufügen, indem Sie bestimmte Parameter hinzufügen. Um beispielsweise einen Servernamen, ein Passwort und ein Admin-Passwort hinzuzufügen, würden Sie Folgendes zur Datei hinzufügen.
+Du kannst Konfigurationsoptionen hinzufügen, indem du bestimmte Parameter hinzufügen. Um beispielsweise einen Servernamen, ein Passwort und ein Admin-Passwort hinzuzufügen, würdest du Folgendes zur Datei hinzufügen.
 ```
 [OnlineSubsystem]
 ServerName=[your_servername]
@@ -69,12 +69,12 @@ Wir empfehlen, im [Conan Exiles Wiki](https://conanexiles.fandom.com/wiki/Server
 
 ## Starten und Verbinden mit deinem Server
 
-Jetzt ist es an der Zeit, Ihren Server zu starten. Gehen Sie zum Hauptverzeichnis des Spiels und führen Sie die ausführbare Datei **ConanSandboxServer.exe** mit dem folgenden Befehl aus. Achten Sie darauf, die Befehle **xvfb-run** und **wine64** hinzuzufügen, um sie über die Wine-Kompatibilitätsschicht auszuführen.
+Jetzt ist es an der Zeit, deinen Server zu starten. Gehe  zum Hauptverzeichnis des Spiels und führe die ausführbare Datei **ConanSandboxServer.exe** mit dem folgenden Befehl aus. Achte darauf, die Befehle **xvfb-run** und **wine64** hinzuzufügen, um sie über die Wine-Kompatibilitätsschicht auszuführen.
 ```
 xvfb-run wine64 /home/steam/Conan-Server/ConanSandboxServer.exe
 ```
 
-In Ihrer Eingabeaufforderung sollten nun viele Protokolle angezeigt werden, die darauf hinweisen, dass der Server gestartet wird. Sie können eine direkte Verbindung herstellen, indem Sie in der Serverliste nach dem Server suchen oder eine direkte Verbindung über: `[your_ip_address]:7777` herstellen.
+In deiner Eingabeaufforderung sollten nun viele Protokolle angezeigt werden, die darauf hinweisen, dass der Server gestartet wird. Du kannst eine direkte Verbindung herstellen, indem du in der Serverliste nach dem Server suchen oder eine direkte Verbindung über: `[your_ip_address]:7777` herstellen.
 
 ## Abschluss
 
