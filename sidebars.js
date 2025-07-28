@@ -579,6 +579,8 @@ const sidebars = {
           type: "category",
           label: "Configuration",
           items: [
+            "abioticfactor-crossplay",
+            "abioticfactor-becomeadmin",
             "abioticfactor-configuration",
             "abioticfactor-server-savegames",
           ]
