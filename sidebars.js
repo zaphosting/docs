@@ -625,6 +625,7 @@ const sidebars = {
           items: [
             "ats-firststeps-dashboard",
             "ats-firststeps-connect",
+            "ats-gslt",
           ]
         },
         {
@@ -1626,6 +1627,7 @@ const sidebars = {
           items: [
             "ets2-firststeps-dashboard",
             "ets2-firststeps-connect",
+            "ets2-gslt",
           ]
         },
         {
