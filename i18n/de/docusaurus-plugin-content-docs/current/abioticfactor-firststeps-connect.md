@@ -1,60 +1,81 @@
 ---
-id: abioticfactor-firststeps-connect
-title: "Abiotic Factor: Verbinden mit Abiotic Factor Server"
-description: Informationen zur Verbindung mit einem Abiotic Factor Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
-sidebar_label: Mit dem Server verbinden
+id: abioticfactor-firststeps-connect.md
+title: "Abiotic Factor: Zum Server verbinden"
+description: Informationen über verschiedene Möglichkeiten, wie du dich mit deinem Abiotic Factor Server von ZAP-Hosting verbinden kannst - ZAP-Hosting Dokumentation
+sidebar_label: Zum Server verbinden
 services:
   - gameserver
 ---
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 import InlineVoucher from '@site/src/components/InlineVoucher';
+
 
 ## Einführung
 
-In dieser Anleitung erfährst du, wie du dich mit deinem Abiotic Factor Server verbinden kannst. Es gibt zwei Möglichkeiten, sich zu verbinden: entweder direkt über die IP-Adresse deines Servers oder über die Serverliste. Wir empfehlen, den Server vorher nach deinen Wünschen zu konfigurieren. Mehr dazu erfährst du in unserer [Server-Konfiguration](abioticfactor-configuration.md) Anleitung.
+Unsicher, wie du dich mit deinem **Abiotic Factor** Server verbinden kannst oder was du dafür benötigst? Kein Problem, wir helfen dir weiter! Wir führen dich durch alles, was du benötigst - von den erforderlichen Werkzeugen und Informationen bis hin zum eigentlichen Verbindungsprozess und den wesentlichen Punkten, die für eine reibungslose und störungsfreie Verbindung erforderlich sind. Befolge unsere Anleitung und du wirst in kürzester Zeit verbunden sein!
 
 <InlineVoucher />
 
-## Direktverbindung über IP
 
-### Server-IP abfragen
 
-Zunächst musst du die IP und den Port deines Abiotic Factor-Servers kennen, um eine direkte Verbindung herstellen zu können. Gehe einfach zu deinem [ZAP-Hosting Webinterface](https://zap-hosting.com/en/customer/) auf der Website und halte die vollständige IP und den Port bereit.
+## Server-Details abrufen
 
-![](https://screensaver01.zap-hosting.com/index.php/s/P2GPRPcTPAytK2z/preview)
+Du benötigst alle relevanten Informationen, um dich mit deinem Server zu verbinden. Die Informationen zu deinem Server findest du im Dashboard des Webinterfaces deines Gameservers. Zu den wichtigen Informationen gehören die folgenden: 
 
-Wenn du deinen Abiotic Factor Server als externen dedizierten Server betreibst, ist die IP die des Host-Rechners und der Port derjenige, den du in deiner Konfigurationsdatei eingestellt hast (standardmäßig ist das 7777). In unserer [Server-Konfiguration](abioticfactor-configuration.md) Anleitung findest du weitere Informationen zum Port.
+- IP-Adresse und Port
+- Name des Servers
+- Server-Passwort
 
-### Verbinden im Spiel
+Anhand der oben genannten Informationen solltest du in der Lage sein, deinen Server zu finden und sicherzustellen, dass du dich mit dem richtigen Server verbindest. 
 
-Abiotic Factor nutzt Steam Serves, d.h. du kannst die IP-Adresse deines Gameservers verwenden, um deinen Server direkt hinzuzufügen.
+![img](https://screensaver01.zap-hosting.com/index.php/s/xTPxqydRCDtFy2e/preview)
 
-Öffne Steam und gehe auf die Registerkarte **View->Game Server**.
+## Verbindung zum Server herstellen
 
-![](https://screensaver01.zap-hosting.com/index.php/s/9Yi2ymdSRj3WDbx/preview)
+Die Verbindung zu einem Gameserver kann häufig auf eine oder mehrere Arten hergestellt werden. Die verfügbaren Methoden werden im Folgenden ausführlich beschrieben und erklärt. 
 
-Gehe nun zum Abschnitt **Favorites** und drücke unten auf das Plus-Symbol, um das Menü Direct IP zu öffnen.
+<Tabs>
+    <TabItem value="connect_solution_server_browser_ingame" label="Server Browser (Im Spiel)" default>
 
-![](https://screensaver01.zap-hosting.com/index.php/s/7dFW9ANQmeTNdz9/preview)
+Um dich mit deinem Server zu verbinden, starte das Spiel und gehe im Hauptmenü auf **Enter the Facility**. Klicke danach auf **Join a Server**. Die Serverliste wird geöffnet. Gib den Namen deines Servers in das Suchfeld ein, suche danach und klicke anschließend auf **Join**, um die Verbindung herzustellen.
 
-In der neuen Eingabeaufforderung gibst du die IP-Adresse und den Port deines Servers im folgenden Format ein: `[Deine_IP-Adresse]:[Dein_Port]`. Drücke **OK**, wenn du fertig bist und der Server sollte zu deiner Liste hinzugefügt werden. Wenn du eine Fehlermeldung erhältst, vergewissere dich, dass du beide Teile der direkten IP richtig eingegeben hast.
+![img](https://screensaver01.zap-hosting.com/index.php/s/AScDLr65YwcAwBn/download)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/ir5Hy54fc95CDbs/preview)
+</TabItem>
 
-Jetzt solltest du deinen Abiotic Factor-Server in der Liste der Steam Game Servers sehen können. Wähle einfach den Server aus und benutze den Button **Verbinden** unten im Menü, um dich mit deinem Server zu verbinden.
+<TabItem value="connect_solution_server_direct" label="Direktverbindung (Im Spiel)">
 
-## Verbinden über Serverliste
+Um dich direkt mit deinem Server zu verbinden, starte das Spiel und gehe im Hauptmenü auf **Enter the Facility**. Klicke anschließend auf **Join a Server**, um die Serverliste zu öffnen. Wähle dort **Direct Connect** aus. Gib die IP-Adresse und den Port deines Servers ein und klicke auf **Join**, um die Verbindung herzustellen.
 
-Die einfachere Möglichkeit, sich mit deinem Server zu verbinden, ist über die Serverliste. Stelle sicher, dass du einen passenden Servernamen einstellst, indem du im Webinterface deines Gameservers den Bereich **Einstellungen** aufrufst.
+![img](https://screensaver01.zap-hosting.com/index.php/s/fdHHa5fNS2siR78/download)
 
-Wir empfehlen dir außerdem, im gleichen Bereich ein Passwort festzulegen, um deinen Server zu sichern. Sobald du fertig bist, starte deinen Server neu, damit die neuen Optionen in Kraft treten.
+</TabItem>
 
-Gehe nun zu deinem Spiel und wähle **Einrichtung betreten** und anschließend **Server beitreten**. Auf dieser Seite kannst du in der oberen Suchleiste nach dem Namen deines Servers suchen.
+</Tabs>
 
-:::info
-Es kann einige Zeit dauern, bis die Suchergebnisse angezeigt werden. Alternativ kannst du dich auch wie oben beschrieben über Direct IP verbinden.
 
-Vergewissere dich, dass das Kontrollkästchen **Show Dedicated** angekreuzt ist, sonst wird dein Server nicht angezeigt.
-:::
 
-![](https://screensaver01.zap-hosting.com/index.php/s/B5JjGR93qkp9WXK/preview)
+## Mögliche Probleme und Lösungen
+
+Die Verbindung zum Server kann nicht wie erwartet hergestellt werden? Dies kann in bestimmten Situationen vorkommen, z. B. wenn die Verbindung aufgrund von technischen Problemen fehlschlägt. Im Folgenden haben wir die häufigsten Probleme und ihre Lösungen aufgeführt:
+
+#### Nicht sichtbar
+
+Eine fehlende Sichtbarkeit des Servers kann auftreten, wenn die Initialisierung nicht erfolgreich abgeschlossen wurde. Dies kann beispielsweise auf eine fehlerhafte Konfiguration oder beschädigte Dateien zurückzuführen sein. Weitere Informationen können in der Regel in der Serverkonsole oder in den Logdateien nachvollzogen werden.
+
+
+
+#### Fehlende Lösung oder nicht hilfreich
+
+Hast du nach der Fehlersuche weiterhin Probleme? In diesem Fall steht unser Support-Team täglich zur Verfügung, um dir zu helfen. Erstelle einfach ein **[Ticket](https://zap-hosting.com/en/customer/support/)** auf unserer Website und erkläre uns dein Problem mit so vielen Einzelheiten wie möglich. Wir werden uns so schnell wie möglich darum kümmern und dir bei der Lösung des Problems helfen!
+
+
+
+## Abschluss
+
+Glückwunsch, vorausgesetzt, dass du alle Schritte befolgt hast, solltest du erfolgreich eine Verbindung zum Server hergestellt haben. Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
+
+
+
