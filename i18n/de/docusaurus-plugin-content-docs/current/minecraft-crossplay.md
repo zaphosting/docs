@@ -1,7 +1,7 @@
 ---
 id: minecraft-crossplay
 title: "Minecraft: Crossplay zwischen Minecraft Java und Bedrock-Editionen einrichten"
-description: Informationen zum Einrichten von Crossplay zwischen Minecraft Java & Bedrock Editionen auf Ihrem Minecraft-Server von ZAP-Hosting – ZAP-Hosting.com-Dokumentation
+description: Informationen zum Einrichten von Crossplay zwischen Minecraft Java & Bedrock Editionen bei deinem Minecraft-Server von ZAP-Hosting – ZAP-Hosting.com-Dokumentation
 sidebar_label: Java & Bedrock Crossplay
 services:
   - gameserver

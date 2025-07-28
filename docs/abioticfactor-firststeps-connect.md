@@ -1,60 +1,87 @@
 ---
 id: abioticfactor-firststeps-connect
-title: "Abiotic Factor: Connect to Abiotic Factor Server"
-description: Information about connecting to a Abiotic Factor server from ZAP-Hosting - ZAP-Hosting.com documentation
-sidebar_label: Connect to Server
+title: "Abiotic Factor: Connect to the server"
+description: Information about various ways on how to connect to your Abiotic Factor server from ZAP-Hosting - ZAP-Hosting.com Documentation
+sidebar_label: Connect to the server
 services:
   - gameserver
 ---
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
-## Introduction
 
-In this guide, we will explore how to connect to your Abiotic Factor server. There are two methods of connecting, either directly via the IP address of your server or through the server list. We recommend configurating the server to your likings beforehand, learn more about this through our [Server Configuration](abioticfactor-configuration.md) guide.
+## Introduction
+Not sure how to connect to your **Abiotic Factor** server or what you need to get started? No worries, we’ve got you covered! We will walk you through everything you need – from the required tools and information to the actual connection process, along with key considerations to ensure a smooth and trouble-free connection experience. Follow our guide and you'll be connected in no time!
 
 <InlineVoucher />
 
-## Direct Connect via IP
 
-### Obtaining Server IP
 
-Firstly, you need to know the IP and Port of your Abiotic Factor server in order to be able to direct connect. Simply head over to your [ZAP-Hosting webinterface](https://zap-hosting.com/en/customer/) on the site, and have the full IP and Port on hand.
+## Obtain server details
 
-![](https://screensaver01.zap-hosting.com/index.php/s/FYdNBfyWHb6g9MJ/preview)
 
-If you are running your Abiotic Factor server as an external dedicated server, your IP will be of the host machine and the Port will be the one which you have set in your configuration file (by default this is 7777). Check out our [Server Configuration](abioticfactor-configuration.md) guide for more information about the port.
+You will require all the relevant information necessary to connect to your server. The information about your server can be found on the dashboard of your game server's web interface panel. Important information includes the following:
 
-### Connecting in-game
+- IP address and port
+- Server name
+- Server password 
 
-Abiotic Factor makes use of Steam Serves which means you can use your gameserver's IP Address to directly add your server.
 
-Open up Steam and head over to the **View->Game Servers** tab.
+Using the information mentioned above, you should be able to locate your server and ensure that you connect to the correct server.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/9Yi2ymdSRj3WDbx/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/xTPxqydRCDtFy2e/preview)
 
-Now head over to the **Favorites** section and press the plus icon at the bottom to open the Direct IP menu.
+## Establish server connection
 
-![](https://screensaver01.zap-hosting.com/index.php/s/7dFW9ANQmeTNdz9/preview)
 
-Into the new prompt, input your server's IP Address and Port in the following format: `[your_ipaddress]:[your_port]`. Press **OK** when ready and it should add the server to your list. If you recieve an error, ensure that you have inputted both parts of the Direct IP correctly.
+The connection to a game server can often be established in one or more ways. Available methods are described and explained in detail below.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/ir5Hy54fc95CDbs/preview)
+<Tabs>
+    <TabItem value="connect_solution_server_browser_ingame" label="Server Browser (In game)" default>
 
-You should now be able to see your Abiotic Factor server in the Steam Game Servers list. Simply select the server and use the **Connect** button at the bottom of the menu to connect to your server.
+To connect to your server, launch the game and navigate to **Enter the Facility** from the main menu. Then click on **Join a Server** to open the server list. Use the search field to enter your server’s name, and once it appears, click **Join** to establish the connection.
 
-## Connect via Server List
+![img](https://screensaver01.zap-hosting.com/index.php/s/AScDLr65YwcAwBn/download)
 
-The easier option for connecting to your server is through the server list. Make sure to set an appropriate server name by heading over to the **Settings** section on your gameserver's webinterface.
+</TabItem>
 
-We also recommend setting up a password under the same area to secure your server. Once ready, restart your server to put the new options into effect.
+<TabItem value="connect_solution_server_direct" label="Direct connect (In game)">
 
-Now head over to your game, select **Enter the Facility** followed by **Join a Server**. On this page, use the top search bar to search for your server's name.
+To connect to your server, launch the game and navigate to **Enter the Facility** from the main menu. Then click on **Join a Server** to open the server list. Select **Direct Connect**, enter your server’s IP address and port, and click **Join** to establish the connection.
 
-:::info
-Be patient as it may take some time for the search results to appear, or alternatively connect through Direct IP as above.
+![img](https://screensaver01.zap-hosting.com/index.php/s/fdHHa5fNS2siR78/download)
 
-Ensure that the **Show Dedicated** toggle is ticked, otherwise your server won't display.
-:::
+</TabItem>
 
-![](https://screensaver01.zap-hosting.com/index.php/s/B5JjGR93qkp9WXK/preview)
+
+</Tabs>
+
+
+
+## Potential issues and solutions
+
+
+The connection to a game server can often be established in one or more ways. Available methods are described and explained in detail below.
+
+#### Not visible
+
+
+A lack of visibility of the server can occur if the initialization was not completed successfully. This may for example be due to a faulty configuration or corrupted files. Further information can usually be traced in the server console or log files.
+
+
+
+#### Missing solution or unhelpful
+
+
+Still facing issues after troubleshooting? In this case, our support team is available daily to provide assistance. Simply create a **[Ticket](https://zap-hosting.com/en/customer/support/)** on our website and explain your issue to us with as much details as possible. We will have a look at it as quickly as possible and assist you in solving the issue accordingly!
+
+
+
+## Conclusion
+
+Congratulations, provided you have followed everything, you should have successfully established a connection to the server. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
+
+
+

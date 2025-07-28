@@ -27,7 +27,7 @@ Darüber hinaus kannst du eine bestimmte Kategorie auswählen, unter der die Vor
 
 Generell kannst du jede Art von Vorschlägen zu unseren Diensten einreichen. Insbesondere freuen wir uns über neue Vorschläge für Spielwünsche und Funktionen des Webinterfaces.
 
-Wenn Sie einen Vorschlag zu anderen Bereichen wie unserer ZAP-Community oder zu Veranstaltungen haben, die nicht direkt mit unseren Diensten zu tun haben, freuen wir uns immer über Ihr Feedback auf unserem [ZAP-Hosting Discord Server] (https://discord.com/invite/zaphosting).
+Wenn du einen Vorschlag zu anderen Bereichen wie unserer ZAP-Community oder zu Veranstaltungen hast, die nicht direkt mit unseren Diensten zu tun haben, freuen wir uns immer über dein Feedback auf unserem [ZAP-Hosting Discord Server](https://discord.com/invite/zaphosting).
 
 #### Überlegungen zu neuen Spielvorschlägen
 
@@ -60,6 +60,6 @@ Wir empfehlen dir, dazu eingeloggt zu sein. Alternativ kannst du auch den E-Mail
 
 ### Nach der Einreichung des Vorschlags
 
-Nachdem Sie Ihren Vorschlag erfolgreich eingereicht haben, prüfen wir regelmäßig, ob neue Vorschläge eingegangen sind und entscheiden, ob wir sie genehmigen, wenn sie akzeptabel sind, oder ob wir sie gelegentlich sogar direkt umsetzen.
+Nachdem du deinen Vorschlag erfolgreich eingereicht hast, prüfen wir regelmäßig, ob neue Vorschläge eingegangen sind und entscheiden, ob wir diese genehmigen, wenn sie akzeptabel sind, oder ob wir sie gelegentlich sogar direkt umsetzen.
 
-Wie bereits in der Einführung erwähnt, können andere Mitglieder der ZAP-Community Ihren Vorschlag liken, um die Wichtigkeit des Vorschlags zu zeigen. Je mehr "Likes" ein Vorschlag erhält, desto wahrscheinlicher ist es, dass der Vorschlag in Zukunft berücksichtigt und bearbeitet wird.
+Wie bereits in der Einführung erwähnt, können andere Mitglieder der ZAP-Community deinen Vorschlag liken, um die Wichtigkeit des Vorschlags zu zeigen. Je mehr "Likes" ein Vorschlag erhält, desto wahrscheinlicher ist es, dass der Vorschlag in Zukunft berücksichtigt und bearbeitet wird.

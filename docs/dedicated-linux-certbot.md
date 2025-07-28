@@ -28,7 +28,7 @@ Certbot also had additional plugins which allows you to easily "one-click" setup
 Begin by installing the open-source [**Certbot**](https://certbot.eff.org/) package, which you will be using to request free SSL certificates from **Let's Encrypt**.
 
 ```
-sudo apt install certbot python3-certbot-nginx
+sudo apt install certbot
 ```
 
 With Certbot now installed, you can proceed to request certificates for your domain(s). Let's Encrypt and Certbot provide a variety of ACME Challenges to verify ownership of the domain.
@@ -101,12 +101,18 @@ Certbot contains a range of different additional web server plugins which makes 
 
 Both of these methods utilise the **HTTP-01** challenge and work in essentially the same manner. When one of the plugins is used, Certbot will first search for the relevant server block that includes the requested domain as the `server_name` parameter. Once found, Certbot will generate an ACME Challenge and add a temporary `location /.well-known/acme-challenge/...` location block to the relevant server block config.
 
-The Let's Encrypt servers will then attempt to fetch this from your server and upon success your certificate will be generated and your Nginx server block configuration will be automatically edited to adjust to using HTTPS (port 443) and to add paths to the newly generated certificate.
+The Let's Encrypt servers will then attempt to fetch this from your server and upon success your certificate will be generated and the server block configuration for the selected web server will be automatically edited to adjust to using HTTPS (port 443) and to add paths to the newly generated certificate.
 
 <Tabs>
 <TabItem value="nginx" label="Nginx" default>
 
 ### Nginx Plugin
+
+Before utilising the plugin, ensure that it is installed.
+
+```
+sudo apt install python3-certbot-nginx
+```
 
 To make use of the Nginx plugin, you should use the `--nginx` parameter within your command as following.
 
@@ -130,6 +136,12 @@ If you wish to disable automatic "one-click" server block adjustments from Certb
 <TabItem value="apache" label="Apache">
 
 ### Apache Plugin
+
+Before utilising the plugin, ensure that it is installed.
+
+```
+sudo apt install python3-certbot-apache
+```
 
 To make use of the Nginx plugin, you should use the `--apache` parameter within your command as following.
 

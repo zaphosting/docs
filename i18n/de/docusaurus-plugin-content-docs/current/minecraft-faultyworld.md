@@ -19,7 +19,7 @@ Deine Welt ist teilweise überladen oder fehlerhaft und das schränkt das Spielg
 
 Es gibt verschiedene Tools, mit denen man Minecraft-Welten bearbeiten kann. Eines der gängigsten Tools ist [MCA Selector] (https://github.com/Querz/mcaselector), welches für diese Anleitung verwendet wird. Lade dazu die Datei `MCA_Selector_Setup.exe` herunter.
 
-Außerdem benötigen Sie die Dateien aus Ihrer Welt auf Ihrem Computer. Die Welt kann über FTP heruntergeladen werden. Wenn Sie mit der Verwendung von FTP nicht vertraut sind, empfehlen wir Ihnen, einen Blick in unsere Anleitung [Zugriff per FTP](gameserver-ftpaccess.md) zu werfen. Laden Sie das Verzeichnis `world` aus dem Verzeichnis des Spieleservers herunter. 
+Außerdem benötigst du die Dateien aus deiner Welt auf deinem Computer. Die Welt kann über FTP heruntergeladen werden. Wenn du mit der Verwendung von FTP nicht vertraut sind, empfehlen wir dir, einen Blick in unsere Anleitung [Zugriff per FTP](gameserver-ftpaccess.md) zu werfen. Lade das Verzeichnis `world` aus dem Verzeichnis des Spieleservers herunter. 
 
 
 

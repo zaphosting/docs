@@ -54,20 +54,19 @@ Dank dieser Informationen bekommst du einen guten Einblick in den Verbrauch dein
 
 ### DDoS Manager
 
-Der **DDoS-Manager** ermöglicht es dir, vergangene Attacken einzusehen und dadurch einen besseren Überblick für potenzielle Bedrohungen zu erhalten. Zusätzlich hast du die Option, Benachrichtigungen für laufende DDoS-Angriffe auf deinem Server zu aktivieren, um schnell auf solche Vorfälle reagieren zu können.
+Zeige dir vergangene DDoS-Angriffe an, um potenzielle Bedrohungen und Muster besser einschätzen zu können. Aktiviere Benachrichtigungen über laufende DDoS-Angriffe auf deinen Server, um schnell zu reagieren, wenn ein Vorfall eintritt.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/m5DJq2WFa97r7Sf/preview)
+Je nach Serverstandort und dem dort zur Verfügung stehenden DDoS-Schutz kannst du auch aktive Angriffe in Echtzeit überwachen. Dazu gehören detaillierte Einblicke in den Datenverkehr, die sowohl den legitimen Datenverkehr als auch die Menge des von den Schutzsystemen blockierten Datenverkehrs anzeigen. Dieses Maß an Transparenz hilft dir zu verstehen, wie der Schutz funktioniert und ermöglicht es dir, potenzielle Risiken frühzeitig zu erkennen.
 
-Darüber hinaus kannst du den Schutz anpassen, sofern du eine eigene IP-Adresse gebucht hast. Dabei stehen dir zwei verschiedene Optionen zur Verfügung:
-
-- **Sensor Mode:** In diesem Modus ist der Schutz scharf geschaltet, jedoch inaktiv. Sobald ein Angriff erkannt wird, wird der Schutz aktiviert und filtert den Angriff, um die Stabilität deines Servers zu gewährleisten.
-- **Permanent:** Bei dieser Einstellung ist der Schutz dauerhaft aktiv und scharf geschaltet. Alle eingehenden Angriffe werden kontinuierlich gefiltert, um dein System vor möglichen DDoS-Angriffen zu schützen. (Nur empfehlenswert bei regelmäßigen Angriffen)
-
-Mit diesen Anpassungsmöglichkeiten kannst du den DDoS-Schutz individuell auf deine Bedürfnisse abstimmen und somit die Sicherheit deines Servers erhöhen.
-
-:::warning
-Die Verwendung des DDoS-Managers ist ausschließlich möglich, wenn entweder eine eigene IP-Adresse oder die Option "DDoS-Manager-Übersicht" zusätzlich gebucht wurde. Falls diese Komponenten in deinem aktuellen Paket fehlen, kannst du sie jederzeit nachträglich durch ein Upgrade hinzufügen.
+:::info DDoS Manager Zugang fehlt?
+Die Nutzung des DDoS Managers erfordert entweder eine dedizierte IP-Adresse oder die Zusatzoption "DDoS Manager Overview". Wenn dein aktuelles Paket diese Komponenten nicht enthält, dann kannst du es jederzeit durch ein Upgrade deines Dienstes hinzufügen.
 :::
+
+
+
+![](https://screensaver01.zap-hosting.com/index.php/s/ScCCCY52CMLgfyE/preview)
+
+
 
 
 ### Log-Dateien
@@ -159,6 +158,13 @@ Unter **Versionen** hast du die Möglichkeit, die aktuelle Version deines Spiels
 Darüber hinaus kannst du auch die E-Mail-Benachrichtigungsfunktion für automatische Updates aktivieren, um dich über Aktualisierungen zu informieren und sicherzustellen, dass du immer auf dem neuesten Stand bist. 
 
 
+
+
+### Geplante Aufgaben
+
+Erstelle geplante Tasks, die automatisch zu festgelegten Zeiten ausgeführt werden, um verschiedene Prozesse auf deinem Server zu automatisieren. Du kannst festlegen, ob ein Task einmalig oder wiederholt ausgeführt werden soll. Unterstützte Task-Typen sind das Starten, Stoppen oder Neustarten von Services, das Neustarten des Servers (nur wenn er online ist), das Erstellen von Backups oder das Ausführen von benutzerdefinierten Commands.
+
+https://screensaver01.zap-hosting.com/index.php/s/P6DeWiRC3tDqG2z/preview
 
 ### Restart Planer
 

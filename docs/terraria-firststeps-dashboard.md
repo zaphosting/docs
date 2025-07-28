@@ -41,20 +41,20 @@ In the dashboard you also have the option of starting, stopping or restarting yo
 
 ### DDoS Manager
 
-The **DDoS Manager** allows you to view past attacks and thus get a better overview of potential threats. Furthermore, you have the option to activate notifications for ongoing DDoS attacks on your server to be able to react quickly to such incidents.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/pertwX6DzWXECyx/preview)
+View past DDoS attacks to better assess potential threats and patterns. Enable notifications for ongoing DDoS attacks on your server to react quickly when an incident occurs.
 
-Moreover, you can customize the protection provided that you have booked your own IP address. There are two different options available:
+Depending on the server location and the DDoS protection available there, you can also monitor active attacks in real time. This includes detailed traffic insights, showing both legitimate traffic and the amount of traffic blocked by the mitigation systems. This level of transparency helps you understand how the protection is working and enables you to identify potential risks early.
 
-- **Sensor Mode:** In this mode the protection is enabled, but inactive. As soon as an attack is detected, the protection becomes active and filters the attack to ensure the stability of your server.
-- **Permanent:** This setting means that the protection is permanently active and enabled. All incoming attacks are continuously filtered to protect your system from possible DDoS attacks. (Only recommended for continuous attacks)
-
-These customization options allow you to adjust the DDoS protection to your individual needs and thus increase the security of your server.
-
-:::info
-The use of the DDoS Manager is only possible if either an own IP address or the option "DDoS Manager Overview" has been booked as an additional option. If these components are missing from your current package, you can add them at any time by upgrading.
+:::info DDoS manager access missing?
+Use of the DDoS Manager requires either a dedicated IP address or the additional option "DDoS Manager Overview". If your current package does not include these components, you can add them at any time by upgrading your service.
 :::
+
+![](https://screensaver01.zap-hosting.com/index.php/s/ScCCCY52CMLgfyE/preview)
+
+
+
+
 
 
 
@@ -154,6 +154,12 @@ Moreover, you can also enable the email notification feature for automatic updat
 
 
 
+
+### Scheduled Tasks
+
+Create scheduled tasks that run automatically at defined times to automate various processes on your server. You can set whether a task should run once or repeat as needed. Supported task types include starting, stopping or restarting services, restarting the server if it’s online, creating backups or executing custom commands. 
+
+![](https://screensaver01.zap-hosting.com/index.php/s/P6DeWiRC3tDqG2z/preview)
 
 ### Restart planner
 
