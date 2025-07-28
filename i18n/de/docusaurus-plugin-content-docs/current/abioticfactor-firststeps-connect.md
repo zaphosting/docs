@@ -1,5 +1,5 @@
 ---
-id: abioticfactor-firststeps-connect.md
+id: abioticfactor-firststeps-connect
 title: "Abiotic Factor: Zum Server verbinden"
 description: Informationen über verschiedene Möglichkeiten, wie du dich mit deinem Abiotic Factor Server von ZAP-Hosting verbinden kannst - ZAP-Hosting Dokumentation
 sidebar_label: Zum Server verbinden
