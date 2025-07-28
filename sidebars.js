@@ -625,6 +625,7 @@ const sidebars = {
           items: [
             "ats-firststeps-dashboard",
             "ats-firststeps-connect",
+            "ats-gslt",
           ]
         },
         {
@@ -929,6 +930,7 @@ const sidebars = {
           items: [
             "bananashooter-firststeps-dashboard",
             "bananashooter-firststeps-connect",
+            "bananashooter-gslt"
           ]
         },
         {
@@ -1295,16 +1297,11 @@ const sidebars = {
           label: "First Steps",
           items: [
             "css-firststeps-dashboard",
-            "css-firststeps-connect"
+            "css-firststeps-connect",
+            "css-gslt",
           ]
         },
-        {
-          type: "category",
-          label: "Configuration",
-          items: [
-            "source-gsltoken",
-          ]
-        },
+
         {
           type: "category",
           label: "Sourcemod / Metamod (Plugins)",
@@ -1333,7 +1330,8 @@ const sidebars = {
           label: "First Steps",
           items: [
             "cs2-firststeps-dashboard",
-            "cs2-firststeps-connect"
+            "cs2-firststeps-connect",
+            "cs2-gslt",
           ]
         },
         {
@@ -1372,6 +1370,7 @@ const sidebars = {
           items: [
             "dods-firststeps-dashboard",
             "dods-firststeps-connect",
+            "dods-gslt",
           ]
         },
         {
@@ -1628,6 +1627,7 @@ const sidebars = {
           items: [
             "ets2-firststeps-dashboard",
             "ets2-firststeps-connect",
+            "ets2-gslt",
           ]
         },
         {
@@ -1802,7 +1802,8 @@ const sidebars = {
           label: "First Steps",
           items: [
             "gmod-firststeps-dashboard",
-            "gmod-firststeps-connect"
+            "gmod-firststeps-connect",
+            "gmod-gslt",
           ]
         },
         {
@@ -1874,6 +1875,7 @@ const sidebars = {
           items: [
             "hl2-firststeps-dashboard",
             "hl2-firststeps-connect",
+            "hl2-gslt",
           ]
         },
         {
@@ -1977,6 +1979,7 @@ const sidebars = {
           label: "First Steps",
           items: [
             "insurgency-firststeps-dashboard",
+            "insurgency-gslt",
           ]
         },
         {
@@ -2107,7 +2110,8 @@ const sidebars = {
           label: "First Steps",
           items: [
             "l4d2-firststeps-dashboard",
-            "l4d2-firststeps-connect"
+            "l4d2-firststeps-connect",
+            "l4d2-gslt",
           ]
         },
         {
@@ -3320,7 +3324,8 @@ const sidebars = {
           label: "First Steps",
           items: [
             "tf2-firststeps-dashboard",
-            "tf2-firststeps-connect"
+            "tf2-firststeps-connect",
+            "tf2-gslt",
           ]
         },
         {
