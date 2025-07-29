@@ -15,6 +15,8 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Mit den sogenannten RedM Upvotes hast du die Möglichkeit deinen eigenen oder einen beliebigen Server in der Serverliste höher platzieren zu lassen. So mehr aktive Upvote-Punkte ein Server hat, desto höher wird dieser eingestuft. 
 
+<YouTube videoId="H-bdMJTQkSM" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/3NafFXm8AdQoyWM/preview" title="Get RedM Upvotes FAST!" description="Hast du das Gefühl, dass du etwas besser verstehst, wenn du es in Aktion siehst? Wir haben etwas für dich! Tauche ab in unser Video, welches alles für dich zusammenfasst. Egal, ob du es eilig hast oder einfach nur Informationen auf möglichst verständliche Art und Weise aufnehmen möchtest!"/>
+
 
 
 ## Upvotes vs Burst Upvotes
@@ -27,8 +29,6 @@ RedM Upvotes und RedM Burst Upvotes sind beides Methoden, um die Sichtbarkeit un
 
 Die RedM Upvotes können in [unserem Shop](https://zap-hosting.com/de/shop/product/fivem-upvotes/) erworben werden. Während des Bestellvorgangs hast du die Möglichkeit, die Anzahl der Upvotes, Laufzeit, RedM Benutzername und Abrechnungsart zu bestimmen. 
 
-
-
 :::info Produktname
 Die Upvotes wurden ursprünglich für FiveM implementiert und heißen daher auch bis heute **FiveM Upvotes**. Diese können jedoch auch für **RedM** verwendet werden.
 :::
@@ -39,9 +39,7 @@ RedM Upvotes können nicht mit ZAP Coins erworben werden, da es sich um ein exte
 
 Für die Verwendung der RedM Upvotes ist die Verknüpfung zu deinem RedM Account notwendig. Denn die Upvotes werden diesem Account zugewiesen, worüber du dann im Anschluss die Upvotes im Spiel nach deinen Wünschen zuweisen kannst. 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/iDk5NoM2gpWs3Ay/preview)
-
-![](https://screensaver01.zap-hosting.com/index.php/s/BX2rZtJex6fqepS/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/2fT6CyCfzo4wEe5/download)
 
 Nachdem dies bestätigt wurde, kann die Bestellung abgeschlossen werden. Die Informationen werden im Anschluss umgehend an RedM übermittelt und dort verarbeitet. Sobald dieser Vorgang abgeschlossen wurde, stehen dir die Upvotes bei uns zur Verfügung und können über das Interface verwaltet werden. Ab diesem Zeitpunkt beginnt ebenfalls die Laufzeit der Upvotes. 
 
@@ -50,28 +48,21 @@ Nachdem dies bestätigt wurde, kann die Bestellung abgeschlossen werden. Die Inf
 ## Upvotes zuweisen
 
 Sobald die Upvotes im Webinterface sichtbar sind, können diese über den RedM Client zugewiesen werden. Klicke dafür in der Serverliste bei dem Server deiner Wahl auf das Upvotes Icon. 
-
-![](https://screensaver01.zap-hosting.com/index.php/s/eyCidKx9eJenF6m/preview)
-
-
-
 Als Bestätigung sollte sich nun ein Pop-up öffnen, in dem bestätigt wird, dass die Upvotes erfolgreich zugewiesen wurden. 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/oA4xPReeaoJ8XXa/preview)
-
+![](https://screensaver01.zap-hosting.com/index.php/s/zD7b9awkCDW7bcx/download)
 
 
 ## Upvotes zurücksetzen
 
-Falls die Upvotes an einen anderen Server zugewiesen werden sollen oder beim Zuweisen der Upvotes ein Fehler aufgetreten ist, können diese über das Dashboard zurückgesetzt werden. Das Zurücksetzen der Upvotes wird ein paar Minuten dauern, bis es von Cfx.re übernommen wurde.
+alls die Upvotes an einen anderen Server zugewiesen werden sollen oder beim Zuweisen der Upvotes ein Fehler aufgetreten ist, können diese über das Dashboard zurückgesetzt werden. Das Zurücksetzen der Upvotes wird ein paar Minuten dauern, bis es von Cfx.re übernommen wurde.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/mCsTDgLSZqFyXrL/preview)
-
-
+![](https://screensaver01.zap-hosting.com/index.php/s/LjcYptAkZ6dfH8Y/preview)
 
 :::danger Reset Cooldown Zeitraum
 Cfx.re setzt eine Upvote **Cooldown-Periode** voraus. Die Zuweisung von Upvotes ist daher nur einmal pro Tag für einen Server deiner Wahl möglich. Nach der Zuweisung musst du **24 Stunden** warten, bis du diese erneut zuweisen kannst. 
 :::
+
 
 
 ## Abschluss
