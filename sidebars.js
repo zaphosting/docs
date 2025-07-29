@@ -49,6 +49,7 @@ const sidebars = {
       type: 'category',
       label: 'Account',
       items: [
+        "account-change-password",
         "account-restore-access",
         "account-contractsandprepaid",
         "account-termination-and-cancellation-period",
