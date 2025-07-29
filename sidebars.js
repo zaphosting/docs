@@ -31,6 +31,7 @@ const sidebars = {
     'welcome',
     'firststeps-register',
     'firststeps-locations',
+    'ddos-protection',
     'preorders',
     'firststeps-rent-or-purchase',
     'firststeps-rent-contractorprepaid',
