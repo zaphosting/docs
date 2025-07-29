@@ -15,7 +15,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 RedM Upvotes/Burst Upvotes provide an opportunity to boost the ranking of your own server or another server on the server list. The more upvote points a server accumulates, the higher it will be positioned in the rankings.
 
-<YouTube videoId="H-bdMJTQkSM" imageSrc="https://img.youtube.com/vi/H-bdMJTQkSM/maxresdefault.jpg" title="Get RedM Upvotes FAST!" description="Feel like you understand better when you see things in action? We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
+<YouTube videoId="H-bdMJTQkSM" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/3NafFXm8AdQoyWM/preview" title="Get RedM Upvotes FAST!" description="Feel like you understand better when you see things in action? We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
 
 
 
