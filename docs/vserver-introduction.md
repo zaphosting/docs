@@ -29,10 +29,10 @@ We offer various configuration options for our VPS and root server products, whi
 
 |                                  | VPS          | Root server |
 | -------------------------------- | ------------------------- | ------------------------- |
-| **CPU** | Intel Xeon-E5 Sixcore Processors | Intel Xeon-E5 Sixcore Processors (Higher clock rate) |
+| **CPU** | AMD EPYC 7000 series | Intel Xeon-E5 Sixcore Processors |
 | **CPU Cores**              | up to 16           | up to 12                                             |
 | **Memory**              | up to 32 GB RAM         | up to 64 GB RAM       |
-| **Disk space**               | 25-200 GB                                        | 60-480 GB |
+| **Disk space**               | 50-200 GB                                       | 60-480 GB |
 | **Operating system** | Debian, Ubuntu, Windows Server, OpenSuse, Fedora | Debian, Ubuntu, Windows Server |
 | **IP-Addresses** | up to 10 IP-Addresses   | up to 10 IP-Addresses    |
 | **Bandwidth**     | up to 2.000 Mbit/s up/down | up to 2.000 Mbit/s up/down |
