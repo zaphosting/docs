@@ -31,9 +31,9 @@ Für unsere Dedicated Server bieten wir zahlreiche Konfigurationsvarianten an, w
 
 | Hardware Komponenten | Verfügbare Optionen                                          |
 | -------------------- | ------------------------------------------------------------ |
-| CPU                  | Intel Xeon E5-2609v2, Intel Xeon E5-2640v2, Intel Xeon E5-2609v2, Intel Xeon E5-2637v2, Intel Xeon E5-2630v2, Intel Xeon E5-2650v2, Intel Xeon E5-2651v2, Intel Xeon E5-2667v2, Intel Xeon E5-2637v2, Intel Xeon E5-2680v2 |
+| CPU                  | Intel Xeon E5-2609v2, Intel Xeon E5-2640v2, Intel Xeon E5-2609v2, Intel Xeon E5-2637v2, Intel Xeon E5-2630v2, Intel Xeon E5-2650v2, Intel Xeon E5-2651v2, Intel Xeon E5-2667v2, Intel Xeon E5-2637v2, Intel Xeon E5-2680v2, Intel Xeon E5-2640v4, Intel Xeon E5-2650v4, Intel Xeon E5-2667v4, Intel Xeon E5-2680v4 |
 | RAM                  | Bis zu 256 GB Arbeitsspeicher                                |
-| DISK                 | Von 500 GB bis zu 2x 2 TB SSD Festplattenspeicherplatz       |
+| DISK                 | Von 500 GB bis zu 2x 1 TB SSD Festplattenspeicherplatz       |
 
 :::info 
 Zum derzeitigen Zeitpunkt kommen wir auf ein Angebot von 49 verschiedenen Dedicated Server Konfiguration zwischen denen du auswählen kannst! 
