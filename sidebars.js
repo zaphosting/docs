@@ -52,6 +52,7 @@ const sidebars = {
         "account-restore-access",
         "account-change-password",
         "account-change-email",
+        "account-change-language",
         "account-contractsandprepaid",
         "account-termination-and-cancellation-period",
         "account-paymentoptions",
