@@ -149,9 +149,6 @@ const config = {
           {
             to: '/docs/minecraft-forge-fabric-add-mods-modpacks', from: '/docs/minecraft_forge_add_mods',
           },
-          {
-            to: '/docs/vserver-dedicated-comparison', from: '/docs/vserver-root-difference',
-          }
         ],
       },
     ],
