@@ -31,6 +31,7 @@ const sidebars = {
     'welcome',
     'firststeps-register',
     'firststeps-locations',
+    'ddos-protection',
     'preorders',
     'firststeps-rent-or-purchase',
     'firststeps-rent-contractorprepaid',
@@ -49,6 +50,10 @@ const sidebars = {
       label: 'Account',
       items: [
         "account-restore-access",
+        "account-change-password",
+        "account-change-email",
+        "account-change-language",
+        "account-data-information",
         "account-contractsandprepaid",
         "account-termination-and-cancellation-period",
         "account-paymentoptions",
@@ -1275,7 +1280,8 @@ const sidebars = {
           label: "Configuration",
           items: [
             "cs16-becomeadmin",
-            "cs16-plugins"
+            "cs16-plugins",
+            "cs16-fastdl"
           ]
         },
                 {
@@ -1301,7 +1307,13 @@ const sidebars = {
             "css-gslt",
           ]
         },
-
+        {
+          type: "category",
+          label: "Configuration",
+          items: [
+            "css-fastdl"
+          ]
+        },
         {
           type: "category",
           label: "Sourcemod / Metamod (Plugins)",
@@ -1340,7 +1352,8 @@ const sidebars = {
           items: [
             "cs2-configuration",
             "cs2-cstv",
-            "cs2-becomeadmin"
+            "cs2-becomeadmin",
+            "cs2-fastdl"
           ]
         },
         {
@@ -1371,6 +1384,13 @@ const sidebars = {
             "dods-firststeps-dashboard",
             "dods-firststeps-connect",
             "dods-gslt",
+          ]
+        },
+        {
+          type: "category",
+          label: "Configuration",
+          items: [
+            "dods-fastdl"
           ]
         },
         {
@@ -1811,7 +1831,8 @@ const sidebars = {
           label: "Configuration",
           items: [
             "gmod-servercfg",
-            "gmod-ttt"
+            "gmod-ttt",
+            "gmod-fastdl"
           ]
         },
         {
@@ -1858,6 +1879,13 @@ const sidebars = {
         },
         {
           type: "category",
+          label: "Configuration",
+          items: [
+            "hl1-fastdl"
+          ]
+        },
+        {
+          type: "category",
           label: "Troubleshooting",
           items: [
             "hl1-troubleshooting-common-issues",
@@ -1876,6 +1904,13 @@ const sidebars = {
             "hl2-firststeps-dashboard",
             "hl2-firststeps-connect",
             "hl2-gslt",
+          ]
+        },
+        {
+          type: "category",
+          label: "Configuration",
+          items: [
+            "hl2-fastdl"
           ]
         },
         {
@@ -2112,6 +2147,13 @@ const sidebars = {
             "l4d2-firststeps-dashboard",
             "l4d2-firststeps-connect",
             "l4d2-gslt",
+          ]
+        },
+                {
+          type: "category",
+          label: "Configuration",
+          items: [
+            "l4d2-fastdl"
           ]
         },
         {
@@ -2427,6 +2469,13 @@ const sidebars = {
           items: [
             "nmrih-firststeps-dashboard",
             "nmrih-firststeps-connect"
+          ]
+        },
+        {
+          type: "category",
+          label: "Configuration",
+          items: [
+            "nmrih-fastdl"
           ]
         },
         {
@@ -3330,6 +3379,13 @@ const sidebars = {
         },
         {
           type: "category",
+          label: "Configuration",
+          items: [
+            "tf2-fastdl"
+          ]
+        },
+        {
+          type: "category",
           label: "Sourcemod / Metamod (Plugins)",
           items: [
             "source-metamod-installation",
@@ -4170,6 +4226,7 @@ const sidebars = {
     'domain-dashboard',
     'domain-order',
     'domain-transfer',
+    'domain-handle-management',
     'domain-easydns',
     'domain-profidns',
     'domain-expertdns',
