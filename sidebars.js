@@ -4175,6 +4175,7 @@ const sidebars = {
     'domain-dashboard',
     'domain-order',
     'domain-transfer',
+    'domain-handle-management',
     'domain-easydns',
     'domain-profidns',
     'domain-expertdns',
