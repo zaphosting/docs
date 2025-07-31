@@ -38,9 +38,7 @@ Wir bieten verschiedene Konfigurationsoptionen für unsere vServer- und Rootserv
 | **Bandbreite**     | bis zu 2.000 Mbit/s up/down | bis zu 2.000 Mbit/s up/down |
 | **Traffic**                      | 5000 GB/Monat       | 5000 GB/Monat       |
 
-:::info
-Für detailliertere Informationen über die anderen Unterschiede zwischen dem vServer- und Rootserver Produkt in Bezug auf Leistung, Virtualisierung und so weiter, siehe dir die [Unterschied Rootserver / V-Server](vserver-root-difference.md). Anleitung an
-:::
+
 
 ## Anwendungsbereiche
 

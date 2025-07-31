@@ -3762,7 +3762,7 @@ const sidebars = {
     'vserver-dashboard',
     'vserver-reset',
     'vserver-vnc',
-    'vserver-root-difference',
+    'vserver-dedicated-comparison',
     'vserver-ballooning', 
     {
       type: "category",

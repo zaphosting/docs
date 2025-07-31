@@ -38,10 +38,6 @@ We offer various configuration options for our VPS and root server products, whi
 | **Bandwidth**     | up to 2.000 Mbit/s up/down | up to 2.000 Mbit/s up/down |
 | **Traffic**                      | 5000 GB/month       | 5000 GB/month       |
 
-:::info
-For more detailed information on the other differences between the VPS and root server product in terms of performance, virtualization and so on, please refer to the [Root server versus VPS](vserver-root-difference.md) guide. 
-:::
-
 
 
 ## Areas of application
