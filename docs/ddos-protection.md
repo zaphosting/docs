@@ -54,9 +54,9 @@ While all providers offer strong baseline protection, there are differences in s
 | No downtime during mitigation                      |   ✓   |     *     |  ✓   |
 | Real-time Monitoring Visualization in DDoS Manager |   ✓   |     X     |  X   |
 
-<p style={{  textAlign: 'center', fontSize: '0.7em', color: '#666',  }}>
+<div style={{ textAlign: 'center', fontSize: '0.7em', color: '#666' }}>
   ✓ = Feature is fully supported &nbsp;|&nbsp; X = Feature not available &nbsp;|&nbsp; * = Feature not available or only partially available depending on configuration
-</p>
+</div>
 
 
 

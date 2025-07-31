@@ -54,9 +54,10 @@ Zwar bieten alle Anbieter einen starken Basisschutz, doch gibt es je nach Infras
 | Keine Ausfallzeiten während der Mitigation              |   ✓   |     *     |  ✓   |
 | Visualisierung der Echtzeit-Überwachung im DDoS Manager |   ✓   |     X     |  X   |
 
-<p style={{  textAlign: 'center', fontSize: '0.7em', color: '#666',  }}>
-  ✓ = Funktion wird vollständig unterstützt &nbsp;|&nbsp; X = Funktion ist nicht verfügbar &nbsp;|&nbsp; * = Funktion ist nicht oder nur teilweise verfügbar je nach Konfiguration
-</p>
+<div style={{ textAlign: 'center', fontSize: '0.7em', color: '#666' }}>
+  ✓ = Feature is fully supported &nbsp;|&nbsp; X = Feature not available &nbsp;|&nbsp; * = Feature not available or only partially available depending on configuration
+</div>
+
 
 
 
