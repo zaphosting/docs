@@ -2149,6 +2149,13 @@ const sidebars = {
             "l4d2-gslt",
           ]
         },
+                {
+          type: "category",
+          label: "Configuration",
+          items: [
+            "l4d2-fastdl"
+          ]
+        },
         {
           type: "category",
           label: "Sourcemod / Metamod (Plugins)",
