@@ -29,18 +29,16 @@ Wir bieten verschiedene Konfigurationsoptionen für unsere vServer- und Rootserv
 
 |                                  | vServer          | Rootserver |
 | -------------------------------- | ------------------------- | ------------------------- |
-| **CPU** | Intel Xeon-E5 Sechskern-Prozessoren | Intel Xeon-E5 Sechskern-Prozessoren (höhere Taktrate) |
+| **CPU** | AMD EPYC 7000 Serie | Intel Xeon-E5 Sixcore-Prozessoren |
 | **CPU-Kerne**              | bis zu 16           | bis zu 12                                             |
 | **Speicher**              | bis zu 32 GB RAM         | bis zu 64 GB RAM       |
-| **Speicherplatz**               | 25-200 GB                                        | 60-480 GB |
+| **Speicherplatz**               | 50-200 GB                                       | 60-480 GB |
 | **Betriebssystem** | Debian, Ubuntu, Windows Server, OpenSuse, Fedora | Debian, Ubuntu, Windows Server |
 | **IP-Adressen** | bis zu 10 IP-Adressen   | bis zu 10 IP-Adressen    |
 | **Bandbreite**     | bis zu 2.000 Mbit/s up/down | bis zu 2.000 Mbit/s up/down |
 | **Traffic**                      | 5000 GB/Monat       | 5000 GB/Monat       |
 
-:::info
-Für detailliertere Informationen über die anderen Unterschiede zwischen dem vServer- und Rootserver Produkt in Bezug auf Leistung, Virtualisierung und so weiter, siehe dir die [Unterschied Rootserver / V-Server](vserver-root-difference.md). Anleitung an
-:::
+
 
 ## Anwendungsbereiche
 

@@ -142,10 +142,10 @@ Perfect and utilize the full extent of your game server. With our expertise, we 
 Utilize the full extent of your vRoot server (VPS/Root server) with our comprehensive guides. Whether you prefer Linux or Windows, our guides help you efficiently set up and manage your server.
 
 <Cards>
-    <Card title="VPS (Linux)" description="Placeholder" link="https://zap-hosting.com/guides/docs/vserver-root-difference" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
-    <Card title="VPS (Windows)" description="Placeholder" link="https://zap-hosting.com/guides/docs/vserver-root-difference" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
-    <Card title="Root server (Linux)" description="Placeholder" link="https://zap-hosting.com/guides/docs/vserver-root-difference" image="https://screensaver01.zap-hosting.com/index.php/s/fqn5SZYRJjoikXa/preview" type="product-categories"/>
-    <Card title="Root server (Windows)" description="Placeholder" link="https://zap-hosting.com/guides/docs/vserver-root-difference" image="https://screensaver01.zap-hosting.com/index.php/s/fqn5SZYRJjoikXa/preview" type="product-categories"/>
+    <Card title="VPS (Linux)" description="Placeholder" link="https://zap-hosting.com/guides/docs/vserver-introduction" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
+    <Card title="VPS (Windows)" description="Placeholder" link="https://zap-hosting.com/guides/docs/vserver-introduction" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
+    <Card title="Root server (Linux)" description="Placeholder" link="https://zap-hosting.com/guides/docs/vserver-introduction" image="https://screensaver01.zap-hosting.com/index.php/s/fqn5SZYRJjoikXa/preview" type="product-categories"/>
+    <Card title="Root server (Windows)" description="Placeholder" link="https://zap-hosting.com/guides/docs/vserver-introduction" image="https://screensaver01.zap-hosting.com/index.php/s/fqn5SZYRJjoikXa/preview" type="product-categories"/>
 </Cards>
 
 ## Dedicated Server
