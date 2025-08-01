@@ -1,44 +1,75 @@
 ---
 id: minecraft-rcon
-title: "Minecraft: Server RCON verwenden"
-description: Informationen, wie du RCON mit deinem Minecraft-Server von ZAP-Hosting verwendest, um deinen Server zu verwalten - ZAP-Hosting.com Dokumentation
+title: "Minecraft: RCON"
+description: "Erfahre, wie du RCON für Minecraft verwendest – ZAP-Hosting Dokumentation"
 sidebar_label: RCON
-services:
-  - gameserver
 ---
 
+import YouTube from '@site/src/components/YouTube/YouTube';
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
-## Was ist RCON?
-RCON ist eine Schnittstelle in verschiedenen Programmen, wie also auch Gameservern, 
-mit der Fernwartungen wie auch Fernverwaltungen durchgeführt werden können.
-Mit dieser Schnittstelle können Server verwaltet werden, die bereits laufen und erreichbar sind.
-Mit einem bestimmten Fernwartungsprogramm kann dann auf die Schnittstelle zugegriffen werden
-und der Server somit verwaltet werden.
+## Einführung
+
+RCON (Remote Console) ist ein Netzwerkprotokoll zur Fernsteuerung von Gameservern. Es ermöglicht den Zugriff auf die Serverkonsole, ohne dass du direkt auf die Serverumgebung zugreifen musst. Dadurch kannst du administrative Befehle ausführen, Konfigurationsparameter anpassen oder den Serverstatus abfragen.
+
+In Minecraft wird RCON verwendet, um serverseitige Befehle auszuführen, zum Beispiel zur Verwaltung von Spielern, zur Änderung von Spieleinstellungen oder zum Abrufen von Diagnosedaten. Die Verbindung ist durch ein Passwort geschützt und erfolgt über einen definierten Port, der über kompatible RCON-Clients erreichbar ist.
+
+Ein wesentlicher Vorteil von RCON ist, dass du den Server verwalten kannst, **ohne selbst im Spiel verbunden zu sein**. Administratoren können Minecraft über externe Tools, Kommandozeilen-Interfaces oder Web-Dashboards überwachen und steuern, flexibel und ortsunabhängig.
 
 <InlineVoucher />
 
-## Wie benutze ich RCON bei Minecraft?
-Um bei Minecraft RCON nutzen zu können, muss es vorerst in der Datei `server.properties`
-aktiviert werden. Suche dazu die Zeile mit folgendem Inhalt auf:
-`enable-rcon=false`
 
-Entferne den Wert `false` und trage dort stattdessen `true` ein.
-Nun brauch die Schnittstelle noch ein Passwort, damit sich nicht jeder mit dieser
-Fernwartungsschnittstelle verbinden kann. Das Passwort dafür kann in der Zeile
-mit folgendem Inhalt eingetragen werden:
-`rcon.password=`
 
-Schreibe zum Festlegen des Kennworts hinter das Gleichheitszeichen dein gewünschtes Passwort.
-Ist das getan, musst du nur noch herausfinden, wie der Port deiner RCON Schnittstelle lautet.
-Dieser kann in der Zeile `rcon.port` abgelesen und festgelegt werden. Der Port besteht aus einer
-bis zu fünfstelligen Zahl zwischen `1` und `65534`.
+## Konfiguration
 
-Hast du den Port davon herausgefunden, öffne jetzt ein beliebiges RCON Programm, mit dem du dich auf die
-Schnittstelle verbinden kannst. Eine Empfehlung unsererseits für ein RCON-taugliches Programm wäre die [RCON Console](https://sourceforge.net/projects/rconconsole/).
-Trage jetzt die IP-Adresse deines Servers in das oben stehende Textfeld `Address` ein. Direkt daneben den
-RCON-Port deines Gameservers und dahinter das Passwort. Stelle nun sicher, dass dein Gameserver läuft
-und erreichbar ist und verbinde nun mit dem Programm per RCON auf deinen Server.
+Bevor RCON verwendet werden kann, muss es aktiviert und konfiguriert werden. Dies kann direkt in der Gameserververwaltung unter dem Reiter **Einstellungen** erfolgen. Dort findest du eine Option namens **RCON**, die aktiviert werden muss. Zusätzlich solltest du ein sicheres Passwort festlegen und einen gültigen Port definieren. Dies erfolgt über die Konfigurationsdatei, die du in der Gameserververwaltung unter **Configs** findest. In der Datei `server.properties` müssen folgende Einträge ergänzt oder angepasst werden:
 
-Bei erfolgreicher Verbindung kannst du nun Minecraft-Befehle an deinen Server senden. Trage dazu die Befehle in das
-untenstehende Textfeld deines RCON Programms ein und beachte die Rückgabe der Konsole in der Fenstermitte.
+```cfg
+enable-rcon=true
+rcon.port=<XXXXX>
+rcon.password=<define-your-password>
+```
+
+Der zugewiesene RCON-Port ist ebenfalls in der **Portübersicht** unten auf der Einstellungsseite zu finden und muss dort eingetragen sein.
+
+
+
+## Verbindung per RCON
+
+Um dich per RCON mit dem Minecraft Server zu verbinden, wird das Kommandozeilentool **rcon-cli** verwendet. Du kannst es aus dem offiziellen [GitHub-Repository](https://github.com/gorcon/rcon-cli) herunterladen. Nach dem Download und der lokalen Installation kann die Verbindung mit der IP-Adresse des Servers, dem RCON-Port und dem RCON-Passwort hergestellt werden.
+
+Den zugewiesenen Port findest du in der **Portübersicht** unten auf der Einstellungsseite in der Gameserververwaltung. Passwort und Port müssen mit den Werten übereinstimmen, die im Panel oder in der Konfigurationsdatei eingetragen sind. Verwende folgenden Befehl, um dich zu verbinden und direkt einen Befehl auszuführen:
+
+```
+rcon-cli -a <IP>:<PORT> -p <PASSWORD> command
+```
+
+
+
+## RCON-Befehle
+
+Sobald die Verbindung über RCON besteht, können verschiedene administrative und diagnostische Befehle auf dem Minecraft Server ausgeführt werden. Die verfügbaren Befehle hängen von der Game-Engine ab, beinhalten aber typischerweise Aktionen zur Spielersteuerung, Statusabfragen und Serverkontrolle.
+
+# Deutsch
+| Befehl         | Beschreibung                       |
+|----------------------|-----------------------------------------------|
+| `list`               | Zeigt verbundene Spieler                      |
+| `say <Nachricht>`    | Sendet eine Chatnachricht an alle Spieler     |
+| `kick <Spieler>`     | Spieler kicken                                |
+| `ban <Spieler>`      | Spieler bannen                                |
+| `pardon <Spieler>`   | Spieler vom Bann befreien                     |
+| `op <Spieler>`       | Spieler Operatorrechte vergeben               |
+| `deop <Spieler>`     | Operatorrechte entziehen                      |
+| `time set <Wert>`    | Weltzeit ändern (z. B. day, night, number)    |
+| `gamemode <Modus> <Spieler>` | Spielmodus festlegen               |
+| `weather <clear/rain/thunder>` | Wetter ändern                |
+| `stop`               | Server sauber beenden                         |
+
+
+
+
+## Abschluss
+
+RCON ist ein zentrales Werkzeug für die Fernadministration von Minecraft Gameservern. Es ermöglicht schnellen und direkten Zugriff auf administrative Funktionen und bietet gleichzeitig Zugriffsschutz durch Passwortauthentifizierung. Eine korrekte und sichere Konfiguration ist entscheidend, um die Stabilität des Servers zu gewährleisten und unbefugten Zugriff zu verhindern.
+
+Für weitere Fragen oder Hilfe zögere bitte nicht, unser Support-Team zu kontaktieren, das dir täglich zur Verfügung steht! 🙂
