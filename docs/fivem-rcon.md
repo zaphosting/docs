@@ -1,46 +1,77 @@
 ---
 id: fivem-rcon
-title: "FiveM: Use Rcon"
-description: Information on how to use Rcon on your FiveM server to send commands to the server - ZAP-Hosting.com documentation
-sidebar_label: Use Rcon
+title: "FiveM: RCON"
+description: "Learn how to use RCON for FiveM - ZAP-Hosting Documentation"
+sidebar_label: RCON
 services:
   - gameserver
 ---
 
+import YouTube from '@site/src/components/YouTube/YouTube';
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
-Rcon is a protocol for executing commands on the server without having direct access to the console.
+RCON (Remote Console) is a network protocol used to remotely control gameservers. It allows access to the server console without direct interaction with the server environment. This makes it possible to execute administrative commands, adjust configuration parameters, or retrieve server status information.
+
+In FiveM, RCON is used to execute server-side commands, such as managing players, changing gameplay settings, or accessing diagnostic outputs. The connection is protected by a password and operates over a specified port, accessible via compatible RCON clients.
+
+A key advantage of RCON is that it enables server management **without having to be connected to the game as a player**. Server administrators can monitor and control FiveM from external tools, command-line interfaces, or web dashboards, offering flexibility and convenience for remote operation.
+
+![img](https://screensaver01.zap-hosting.com/index.php/s/iEAHnZ6FnQdWn7e/preview)
 
 <InlineVoucher />
 
-## Preparation
-
-A suitable Rcon tool is required for the use. For example, the well-known Rcon tool Icecon can be used for this. This example is based on Icecon. The tool can be set up by downloading and executing the icecon_windows_amd64.exe.
-
-![](https://screensaver01.zap-hosting.com/index.php/s/EPWHiTeH3FBtozc/preview)
-
-An additional installation is not required. The program can be started right away. To establish the connection, the information about the IP address, port and rcon password is required.
-
 ## Configuration
-The rcon password can be defined in the server config. The value of the following command must be adjusted for this:
+
+Before RCON can be used, it must be enabled and configured. This is done in the **CFG Editor** section of the gameserver administration in **txAdmin**. To do so, make sure the following lines are added or adjusted in the configuration:
+
+```cfg
+ensure rconlog
+set rcon_password "your-secure-password"
 ```
-rcon_password "YourDesiredRconPassword"
-```
 
 
 
-## Usage
+## Connecting via RCON
 
-Once the password has been defined and the server has been restarted, the rcon connection can be established. To do this, complete the two fields IP:Port and Password (Rcon) with the information from your server and click on "OK". 
+To connect to the GameXY server via RCON, the Windows tool **IceCon** is used. It is available for download on the [GitHub repository](https://github.com/icedream/icecon). After installing the tool on your computer, create a new connection with the following information:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/XKLELNJDJXbXXfc/preview)
+- **Server IP address**  
+- **Game port**
+- **RCON password**
 
-The connection will be established afterwards and you can now execute your desired commands there!
+Once the connection is successfully established, IceCon provides a graphical interface for sending RCON commands to the FiveM server. You can issue standard RCON commands and view real-time command feedback directly in the tool.
+
+IceCon also includes additional features such as:
+
+- Command history and auto-completion  
+- Server log viewer  
+- Custom command buttons  
+- Connection profiles for managing multiple servers
+
+
+
+## RCON Commands
+
+Once connected via RCON, various administrative and diagnostic commands can be executed on the FiveM server. The available commands depend on the game engine but typically include actions for player management, status queries, and server control.
+
+| Command                   | Description                                       |
+| ------------------------- | ------------------------------------------------- |
+| `say <message>`           | Sends a message to all players in the chat        |
+| `start <resource-name>`   | Starts a specific server resource                 |
+| `stop <resource-name>`    | Stops a specific server resource                  |
+| `restart <resource-name>` | Restarts a specific server resource               |
+| `ensure <resource-name>`  | Starts resource only if it is not already running |
+| `refresh`                 | Reloads all resources from the resource directory |
+| `clear`                   | Clears the server console output                  |
+| `crash`                   | Forces a server crash (for debugging purposes)    |
+| `quit`                    | Shuts down the server cleanly                     |
 
 
 
 ## Conclusion
 
-Provided that you have followed all the steps, you have successfully configured and used the rcon feature. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
+RCON is a core tool for remote administration of FiveM game servers. It enables fast and direct access to administrative functionality while offering access control through password authentication. Proper and secure configuration is critical to ensure server stability and to protect against unauthorized access.
+
+For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
