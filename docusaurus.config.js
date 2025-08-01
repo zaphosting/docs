@@ -123,9 +123,6 @@ const config = {
             to: '/docs/contribution-guides-guidelines', from: '/docs/contribution-guidelines',
           },
           {
-            to: '/docs/vserver-root-difference', from: '/docs/vserver-root-unterschied',
-          },
-          {
             to: '/docs/ets2-server-modding', from: '/docs/trucksim-dlc',
           },
           {
