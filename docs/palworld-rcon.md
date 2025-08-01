@@ -1,101 +1,69 @@
 ---
 id: palworld-rcon
-title: "Palworld: Server Using RCON"
-description: Information on how to use RCON with your Palworld server from ZAP-Hosting to manage your server - ZAP-Hosting.com documentation
+title: "Palworld: RCON"
+description: "Learn how to use RCON for Palworld - ZAP-Hosting Documentation"
 sidebar_label: RCON
-services:
-  - gameserver
 ---
 
+import YouTube from '@site/src/components/YouTube/YouTube';
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
-## What is RCON?
+## Introduction
 
-RCON is an interface in various programs, such as game servers, with which remote maintenance and remote administration can be carried out. This interface can be used to manage servers that are already running and can be reached. The interface can then be accessed with a specific remote maintenance program and the server can thus be managed.
+RCON (Remote Console) is a network protocol used to remotely control gameservers. It allows access to the server console without direct interaction with the server environment. This makes it possible to execute administrative commands, adjust configuration parameters, or retrieve server status information.
+
+In Palworld, RCON is used to execute server-side commands, such as managing players, changing gameplay settings, or accessing diagnostic outputs. The connection is protected by a password and operates over a specified port, accessible via compatible RCON clients.
+
+A key advantage of RCON is that it enables server management **without having to be connected to the game as a player**. Server administrators can monitor and control Palworld from external tools, command-line interfaces, or web dashboards, offering flexibility and convenience for remote operation.
 
 <InlineVoucher />
 
-## Accessing your Configuration File
+## Configuration
 
-In order to use RCON, you will have to begin by accessing your server's configuration and enabling this feature. You can edit the configuration file either through your server's webinterface or directly through FTP.
+Before RCON can be used, it must be enabled and configured. This is done by editing the configuration file located under **Configs** in the gameserver management panel. In the file named `PalWorldSettings.ini`, the following entries must be added or modified:
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
-
-<Tabs>
-<TabItem value="configs" label="Via WI Config file">
-
-#### Via Webinterface Config File
-
-We recommend using this method as it is the easiest. 
-
-:::note
-The Server must be stopped before the config can be edited, editing the config and restarting the server will result in any changes being undone.
-:::
-
-Simply head over to the **Configs** section on your game server's webinterface and press the blue edit file button, as seen below:
-
-![](https://github.com/zaphosting/docs/assets/42719082/53c8acad-7347-4c3e-85bf-5ae0ad423fc6)
-
-A text editor will open up allowing you to directly edit the file. In the file, search for the `RCONEnabled` parameter and set this to `true`, for example: `RCONEnabled=True`. We recommend using `CTRL+F` to open your browser's search tool to help with this.
-
-Right beside it, there will also be an `RCONPort` parameter. This is the RCON interface port that you will use to connect later on.
-
-![](https://github.com/zaphosting/docs/assets/42719082/39871736-7ea1-4fb8-85b8-7f5e311cdba4)
-
-:::note
-We advise you not to change this value for your game server, as this is predefined and altering it may break functionality. For self-hosted Palworld servers on VPS products, you can edit this but ensure that you port forward the selected port.
-:::
-
-</TabItem>
-
-<TabItem value="ftp" label="Via FTP">
-
-#### Via FTP
-
-:::note
-The Server must be stopped before the config can be edited, editing the config and restarting the server will result in any changes being undone.
-:::
-
-Another method of editing your configuration file, is through FTP. If you are not familiar with using FTP, we recommend you to have a look at the [Access via FTP](gameserver-ftpaccess.md) guide. However, this method takes longer and if you wish to directly edit the file contents, we recommend simply using the **Configs** section on your game server's webinterface as mentioned.
-
-Once you have connected to your server through FTP, head over to the following directory:
+```cfg
+RCONEnabled=True,
+RCONPort=XXXXX,
+AdminPassword="define-your-password"
 ```
-../Pal/Saved/Config/WindowsServer/ # For Windows
-../Pal/Saved/Config/LinuxServer/ # For Linux
+The assigned RCON port can be found at the bottom of the settings page in the Port overview which must be specified there.
+
+
+
+## Connecting via RCON
+
+To connect to the Palworld server via RCON, the command-line tool **rcon-cli** is used. It can be downloaded from the official [GitHub repository](https://github.com/gorcon/rcon-cli). After downloading and installing the tool on your computer, a connection can be established using the server’s IP address, RCON port, and RCON password.
+
+The assigned port can be found in the **Port overview** at the bottom of the settings page in the gameserver administration.  The password and port must match the values configured in the panel or configuration file. Use the following command to connect and directly execute a command:
+
+```bash
+rcon-cli -a <IP>:<PORT> -p <PASSWORD> command
 ```
 
-Find the `PalWorldSettings.ini` file and open this. In the file, search for the `RCONEnabled` parameter and set this to `true`, for example: `RCONEnabled=True`.
 
-Right beside it, there will also be an `RCONPort` parameter. This is the RCON interface port that you will use to connect later on.
 
-:::note
-We advise you not to change this value for your game server, as this is predefined and altering it may break functionality. For self-hosted Palworld servers on VPS products, you can edit this but ensure that you port forward the selected port.
-:::
+## RCON Commands
 
-</TabItem>
-</Tabs>
+Once connected via RCON, various administrative and diagnostic commands can be executed on the Palworld server. The available commands depend on the game engine but typically include actions for player management, status queries, and server control.
 
-:::info
-Make sure to restart your server once you have adjusted your configuration details.
-:::
+| Command                                   | Description                                                 |
+|------------------------------------------|-------------------------------------------------------------|
+| `/Shutdown <seconds> <message>`          | Shuts down the server after a countdown with a message      |
+| `/DoExit`                                | Immediately stops the server                                |
+| `/Broadcast <message>`                   | Sends a message to all connected players                    |
+| `/KickPlayer <SteamID>`                  | Kicks a player by SteamID                                   |
+| `/BanPlayer <SteamID>`                   | Permanently bans a player                                   |
+| `/TeleportToPlayer <SteamID>`            | Teleports yourself to the specified player                  |
+| `/TeleportToMe <SteamID>`                | Teleports the specified player to your location             |
+| `/ShowPlayers`                           | Lists all currently connected players                       |
+| `/Info`                                  | Displays basic server information                           |
+| `/Save`                                  | Manually saves the world                                    |
 
-## Using RCON
 
-Now that you have you have enabled RCON in your server's configuration, you will be able to access Palworld's RCON interace via the port that was defined in the file.
 
-You will need to use an RCON program to connect to this. We recommend using [RCON Console](https://sourceforge.net/projects/rconconsole/) as it is open-source.
+## Conclusion
 
-In the RCON program of your choice, you will have to input the IP address of your server and the RCON port that was defined in the configuration file. Ensure that your game server is online and running.
+RCON is a core tool for remote administration of Palworld game servers. It enables fast and direct access to administrative functionality while offering access control through password authentication. Proper and secure configuration is critical to ensure server stability and to protect against unauthorized access.
 
-:::tip
-Ensure that you are entering the RCON Port you viewed in the configuration file and not the port that you connect to your server through. This is a common mistake.
-:::
-
-If the connection is successful, you will now be able to send commands to your Palworld sever through the RCON Console program that you chose.
-
-:::tip
-Check out our [Server Commands](palworld-server-commands.md) guide to view all the currently available commands that you can run through RCON.
-:::
-
-You have successfully enabled RCON on your Palworld server.
+For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
