@@ -3,6 +3,8 @@ id: gmod-rcon
 title: "Garry's Mod: RCON"
 description: "Learn how to use RCON for Garry's Mod - ZAP-Hosting Documentation"
 sidebar_label: RCON
+services:
+  - gameserver
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';

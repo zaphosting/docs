@@ -3,6 +3,8 @@ id: nmrih-rcon
 title: "No More Room In Hell: RCON"
 description: "Learn how to use RCON for No More Room In Hell - ZAP-Hosting Documentation"
 sidebar_label: RCON
+services:
+  - gameserver
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';

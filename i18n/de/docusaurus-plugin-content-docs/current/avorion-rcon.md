@@ -3,6 +3,8 @@ id: avorion-rcon
 title: "Avorion: RCON"
 description: "Erfahre, wie du RCON für Avorion verwendest – ZAP-Hosting Dokumentation"
 sidebar_label: RCON
+services:
+  - gameserver
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';

@@ -3,6 +3,8 @@ id: vrising-rcon
 title: "V Rising: RCON"
 description: "Erfahre, wie du RCON für V Rising verwendest – ZAP-Hosting Dokumentation"
 sidebar_label: RCON
+services:
+  - gameserver
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';

@@ -3,6 +3,8 @@ id: dayz-rcon
 title: "DayZ: RCON"
 description: "Erfahre, wie du RCON für DayZ verwendest – ZAP-Hosting Dokumentation"
 sidebar_label: RCON
+services:
+  - gameserver
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';

@@ -3,6 +3,8 @@ id: hl2-rcon
 title: "Half-Life 2: RCON"
 description: "Erfahre, wie du RCON für Half-Life 2 verwendest – ZAP-Hosting Dokumentation"
 sidebar_label: RCON
+services:
+  - gameserver
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';
@@ -22,7 +24,7 @@ Ein wesentlicher Vorteil von RCON ist, dass du den Server verwalten kannst, **oh
 
 ## Konfiguration
 
-Bevor RCON verwendet werden kann, muss es aktiviert und konfiguriert werden. Dies erfolgt über die Konfigurationsdatei, die du in der Gameserververwaltung unter **Configs** findest. In der Datei `xy.cfg` müssen folgende Einträge ergänzt oder angepasst werden:
+Bevor RCON verwendet werden kann, muss es aktiviert und konfiguriert werden. Dies erfolgt über die Konfigurationsdatei, die du in der Gameserververwaltung unter **Configs** findest. In der Datei `server.cfg` müssen folgende Einträge ergänzt oder angepasst werden:
 
 ```cfg
 rcon_password "define-your-password"

@@ -3,6 +3,8 @@ id: arma-reforger-rcon
 title: "Arma Reforger: RCON"
 description: "Erfahre, wie du RCON für Arma Reforger verwendest – ZAP-Hosting Dokumentation"
 sidebar_label: RCON
+services:
+  - gameserver
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';
@@ -51,7 +53,7 @@ Sobald die Verbindung steht, können RCON-Befehle über die grafische Oberfläch
 
 Sobald die Verbindung über RCON besteht, können verschiedene administrative und diagnostische Befehle auf dem Arma Reforger Server ausgeführt werden. Die verfügbaren Befehle hängen von der Game-Engine ab, beinhalten aber typischerweise Aktionen zur Spielersteuerung, Statusabfragen und Serverkontrolle.
 
-| Command                         | Beschreibung                                       |
+| Befehl                         | Beschreibung                                       |
 |----------------------------------|---------------------------------------------------|
 | `#login <Passwort>`             | Als Admin einloggen                               |
 | `#logout`                       | Adminstatus verlassen                              |

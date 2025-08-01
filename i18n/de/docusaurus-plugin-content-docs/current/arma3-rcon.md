@@ -3,6 +3,8 @@ id: arma3-rcon
 title: "Arma 3: RCON"
 description: "Erfahre, wie du RCON für Arma 3 verwendest – ZAP-Hosting Dokumentation"
 sidebar_label: RCON
+services:
+  - gameserver
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';

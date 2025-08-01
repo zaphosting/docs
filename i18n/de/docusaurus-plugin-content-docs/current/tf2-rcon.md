@@ -3,6 +3,8 @@ id: tf2-rcon
 title: "Team Fortress 2: RCON"
 description: "Erfahre, wie du RCON für Team Fortress 2 verwendest – ZAP-Hosting Dokumentation"
 sidebar_label: RCON
+services:
+  - gameserver
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';

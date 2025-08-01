@@ -3,6 +3,8 @@ id: dods-rcon
 title: "Day of Defeat: Source: RCON"
 description: "Erfahre, wie du RCON für Day of Defeat: Source verwendest – ZAP-Hosting Dokumentation"
 sidebar_label: RCON
+services:
+  - gameserver
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';
@@ -46,7 +48,7 @@ rcon-cli -a <IP>:<PORT> -p <PASSWORD> command
 
 Sobald die Verbindung über RCON besteht, können verschiedene administrative und diagnostische Befehle auf dem Day of Defeat: Source Server ausgeführt werden. Die verfügbaren Befehle hängen von der Game-Engine ab, beinhalten aber typischerweise Aktionen zur Spielersteuerung, Statusabfragen und Serverkontrolle.
 
-| Command                      | Description                                  |
+| Befehl                      | Description                                  |
 | ---------------------------- | -------------------------------------------- |
 | `rcon_password <password>`   | Authenticates for RCON access                |
 | `status`                     | Displays server and player information       |
