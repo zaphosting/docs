@@ -557,6 +557,7 @@ const sidebars = {
             "7d2d-becomeadmin",
             "7d2d-mods",
             "7d2d-commands",
+            "7d2d-rcon",
           ]
         },
         {
@@ -730,7 +731,8 @@ const sidebars = {
             "ark-becomeadmin",
             "ark-mods",
             "ark-configuration",
-            "ark-savegame"
+            "ark-savegame",
+            "7d2d-rcon",
           ]
         },
         {
@@ -759,6 +761,7 @@ const sidebars = {
           type: "category",
           label: "Configuration",
           items: [
+            "arma3-rcon",
             "arma3-serverconfig",
             "arma3-mods",
             "arma3-altislife-ranks",
@@ -785,6 +788,13 @@ const sidebars = {
           items: [
             "arma-reforger-firststeps-dashboard",
             "arma-reforger-firststeps-connect"
+          ]
+        },
+        {
+          type: "category",
+          label: "Configuration",
+          items: [
+            "arma-reforger-rcon",
           ]
         },
         {
@@ -914,6 +924,7 @@ const sidebars = {
           label: "Configuration",
           items: [
             "avorion-becomeadmin",
+            "avorion-rcon",
           ]
         },
         {
@@ -1168,7 +1179,8 @@ const sidebars = {
           label: "Configuration",
           items: [
             "conan-becomeadmin",
-            "conan-configuration"
+            "conan-configuration",
+            "conan-rcon",
           ]
         },
         {
@@ -1311,7 +1323,8 @@ const sidebars = {
           type: "category",
           label: "Configuration",
           items: [
-            "css-fastdl"
+            "css-fastdl",
+            "css-rcon",
           ]
         },
         {
@@ -1390,7 +1403,8 @@ const sidebars = {
           type: "category",
           label: "Configuration",
           items: [
-            "dods-fastdl"
+            "dods-fastdl",
+            "dods-rcon",
           ]
         },
         {
@@ -1449,6 +1463,7 @@ const sidebars = {
           items: [
             "dayz-becomeadmin",
             "dayz-mods",
+            "dayz-rcon",
           ]
         },
         {
@@ -1683,7 +1698,8 @@ const sidebars = {
           label: "Configuration",
           items: [
             "factorio-becomeadmin",
-            "factorio-mods"
+            "factorio-mods",
+            "factorio-rcon",
           ]
         },
         {
@@ -1832,7 +1848,8 @@ const sidebars = {
           items: [
             "gmod-servercfg",
             "gmod-ttt",
-            "gmod-fastdl"
+            "gmod-fastdl",
+            "gmod-rcon",
           ]
         },
         {
@@ -1910,7 +1927,8 @@ const sidebars = {
           type: "category",
           label: "Configuration",
           items: [
-            "hl2-fastdl"
+            "hl2-fastdl",
+            "hl2-rcon",
           ]
         },
         {
@@ -2153,7 +2171,8 @@ const sidebars = {
           type: "category",
           label: "Configuration",
           items: [
-            "l4d2-fastdl"
+            "l4d2-fastdl",
+            "l4d2-rcon",
           ]
         },
         {
@@ -2475,7 +2494,8 @@ const sidebars = {
           type: "category",
           label: "Configuration",
           items: [
-            "nmrih-fastdl"
+            "nmrih-fastdl",
+            "nmrih-rcon",
           ]
         },
         {
@@ -2736,6 +2756,13 @@ const sidebars = {
           items: [
             "projectzomboid-firststeps-dashboard",
             "projectzomboid-firststeps-connect"
+          ]
+        },
+                {
+          type: "category",
+          label: "Configuration",
+          items: [
+            "projectzomboid-rcon",
           ]
         },
         {
@@ -3381,7 +3408,8 @@ const sidebars = {
           type: "category",
           label: "Configuration",
           items: [
-            "tf2-fastdl"
+            "tf2-fastdl",
+            "tf2-rcon",
           ]
         },
         {
@@ -3724,6 +3752,7 @@ const sidebars = {
             "vrising-configuration",
             "vrising-server-savegames",
             "vrising-becomeadmin",
+            "vrising-rcon",
           ]
         },
         {
