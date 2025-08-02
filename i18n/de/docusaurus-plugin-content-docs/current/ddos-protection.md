@@ -51,13 +51,12 @@ Zwar bieten alle Anbieter einen starken Basisschutz, doch gibt es je nach Infras
 | Grundlegender Schutz für alle Dienste                   |   ✓   |     ✓     |  ✓   |
 | Netzwerk- und Anwendungsfilterung                       |   ✓   |     ✓     |  ✓   |
 | Zusätzliche spielspezifische Filterung                  |   ✓   |     ✓     |  ✓   |
-| Keine Ausfallzeiten während der Mitigation              |   ✓   |     *     |  ✓   |
+| Keine Ausfallzeiten während der Mitigation              |   ✓   |     ✓     |  ✓   |
 | Visualisierung der Echtzeit-Überwachung im DDoS Manager |   ✓   |     X     |  X   |
 
 <div style={{ textAlign: 'center', fontSize: '0.7em', color: '#666' }}>
   ✓ = Feature is fully supported &nbsp;|&nbsp; X = Feature not available &nbsp;|&nbsp; * = Feature not available or only partially available depending on configuration
 </div>
-
 
 
 
