@@ -51,7 +51,7 @@ While all providers offer strong baseline protection, there are differences in s
 | Baseline protection for all services               |   ✓   |     ✓     |  ✓   |
 | Network and Application filtering                  |   ✓   |     ✓     |  ✓   |
 | Additional Game specific filtering                 |   ✓   |     ✓     |  ✓   |
-| No downtime during mitigation                      |   ✓   |     *     |  ✓   |
+| No downtime during mitigation                      |   ✓   |     ✓     |  ✓   |
 | Real-time Monitoring Visualization in DDoS Manager |   ✓   |     X     |  X   |
 
 <div style={{ textAlign: 'center', fontSize: '0.7em', color: '#666' }}>
