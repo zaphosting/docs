@@ -479,14 +479,14 @@
   },
   "accordion.search.placeholder": {
     "message": "Durchsuchen...",
-    "description": "Placeholder text in the search field"
+    "description": "Placeholder text in the accordion search field"
   },
   "accordion.counter": {
     "message": "{shown} von {total} Inhalten werden angezeigt",
-    "description": "Amount of displayed vs. filtered items"
+    "description": "Amount of displayed vs. filtered accordion items"
   },
   "accordion.showMore": {
     "message": "Mehr anzeigen",
-    "description": "Button to display additional items"
+    "description": "Button to display additional accordion items"
   }
 }
