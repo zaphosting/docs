@@ -476,5 +476,17 @@
   "theme.navbar.mobileDropdown.collapseButton.collapseAriaLabel": {
     "message": "Collapse the dropdown",
     "description": "The ARIA label of the button to collapse the mobile dropdown navbar item"
+  },
+  "accordion.search.placeholder": {
+    "message": "Durchsuchen...",
+    "description": "Placeholder text in the search field"
+  },
+  "accordion.counter": {
+    "message": "{shown} von {total} Inhalten werden angezeigt",
+    "description": "Amount of displayed vs. filtered items"
+  },
+  "accordion.showMore": {
+    "message": "Mehr anzeigen",
+    "description": "Button to display additional items"
   }
 }
