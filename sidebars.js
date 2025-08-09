@@ -1308,6 +1308,19 @@ const sidebars = {
     },
     {
       type: "category",
+      label: "Counter-Strike: Condition Zero",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "cscz-firststeps-dashboard",
+          ]
+        }           
+      ],
+    },
+    {
+      type: "category",
       label: "Counter-Strike: Source",
       items: [
         {
@@ -2315,6 +2328,19 @@ const sidebars = {
           items: [
             "miscreated-firststeps-dashboard",
             "miscreated-firststeps-connect",
+          ]
+        },
+      ],
+    },
+        {
+      type: "category",
+      label: "Mordhau",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          items: [
+            "mordhau-firststeps-dashboard",
           ]
         },
       ],
