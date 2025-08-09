@@ -758,5 +758,13 @@
   "sidebar.gameserverSidebar.category.The Bus": {
     "message": "The Bus",
     "description": "The label for category The Bus in sidebar gameserverSidebar"
+  },
+  "sidebar.gameserverSidebar.category.Counter-Strike: Condition Zero": {
+    "message": "Counter-Strike: Condition Zero",
+    "description": "The label for category Counter-Strike: Condition Zero in sidebar gameserverSidebar"
+  },
+  "sidebar.gameserverSidebar.category.Mordhau": {
+    "message": "Mordhau",
+    "description": "The label for category Mordhau in sidebar gameserverSidebar"
   }
 }
