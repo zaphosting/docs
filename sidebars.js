@@ -2340,7 +2340,7 @@ const sidebars = {
           type: "category",
           label: "First Steps",
           items: [
-            "Mordhau-firststeps-dashboard",
+            "mordhau-firststeps-dashboard",
           ]
         },
       ],

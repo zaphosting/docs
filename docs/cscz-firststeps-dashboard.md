@@ -1,7 +1,7 @@
 ---
-id: cscz-firststeps-dashboard.md
+id: cscz-firststeps-dashboard
 title: "Counter-Strike: Condition Zero: Dashboard Overview"
-description: Information about the dashboard of an Counter-Strike: Condition Zero server from ZAP-Hosting - ZAP-Hosting.com Documentation
+description: "Information about the dashboard of an Counter-Strike: Condition Zero server from ZAP-Hosting - ZAP-Hosting.com Documentation"
 sidebar_label: Dashboard
 services:
   - gameserver
