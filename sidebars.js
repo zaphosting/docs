@@ -1315,8 +1315,17 @@ const sidebars = {
           label: "First Steps",
           items: [
             "cscz-firststeps-dashboard",
+            "cscz-firststeps-connect",
           ]
-        }           
+        },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          items: [
+            "cscz-troubleshooting-common-issues",
+            "cscz-troubleshooting-segmentation-fault"
+          ]
+        },          
       ],
     },
     {
@@ -1434,6 +1443,7 @@ const sidebars = {
           label: "Troubleshooting",
           items: [
             "dods-troubleshooting-common-issues",
+            "dods-troubleshooting-segmentation-fault"
           ]
         },
       ],
@@ -2341,6 +2351,7 @@ const sidebars = {
           label: "First Steps",
           items: [
             "mordhau-firststeps-dashboard",
+            "mordhau-firststeps-connect",
           ]
         },
       ],
