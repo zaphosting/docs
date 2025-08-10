@@ -2830,10 +2830,12 @@ const sidebars = {
           type: "category",
           label: "Configuration",
           items: [
+            
             "redm-change-servericon",
             "redm-server-customisation",
             "redm-licensekey",
             "redm-txadmin-discord-bot",
+            "redm-rcon",
             "redm-deletecache",
             "redm-gamebuild",
             "redm-steam-web-api-key",
