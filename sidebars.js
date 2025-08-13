@@ -1347,15 +1347,8 @@ const sidebars = {
           items: [
             "css-fastdl",
             "css-rcon",
-          ]
-        },
-        {
-          type: "category",
-          label: "Sourcemod / Metamod (Plugins)",
-          items: [
-            "source-metamod-installation",
-            "source-metamod-addadmins",
-            "source-metamod-plugins"
+            "css-becomeadmin",
+            "css-plugins",
           ]
         },
         {
@@ -1427,15 +1420,8 @@ const sidebars = {
           items: [
             "dods-fastdl",
             "dods-rcon",
-          ]
-        },
-        {
-          type: "category",
-          label: "Sourcemod / Metamod (Plugins)",
-          items: [
-            "source-metamod-installation",
-            "source-metamod-addadmins",
-            "source-metamod-plugins"
+            "dods-becomeadmin",
+            "dods-plugins",
           ]
         },
         {
@@ -1952,6 +1938,8 @@ const sidebars = {
           items: [
             "hl2-fastdl",
             "hl2-rcon",
+            "hl2-becomeadmin",
+            "hl2-plugins",
           ]
         },
         {
@@ -2196,15 +2184,8 @@ const sidebars = {
           items: [
             "l4d2-fastdl",
             "l4d2-rcon",
-          ]
-        },
-        {
-          type: "category",
-          label: "Sourcemod / Metamod (Plugins)",
-          items: [
-            "source-metamod-installation",
-            "source-metamod-addadmins",
-            "source-metamod-plugins"
+            "l4d2-becomeadmin",
+            "l4d2-plugins",
           ]
         },
         {
@@ -2533,15 +2514,8 @@ const sidebars = {
           items: [
             "nmrih-fastdl",
             "nmrih-rcon",
-          ]
-        },
-        {
-          type: "category",
-          label: "Sourcemod / Metamod (Plugins)",
-          items: [
-            "source-metamod-installation",
-            "source-metamod-addadmins",
-            "source-metamod-plugins"
+            "nmrih-becomeadmin",
+            "nmrih-plugins",
           ]
         },
         {
@@ -3449,15 +3423,8 @@ const sidebars = {
           items: [
             "tf2-fastdl",
             "tf2-rcon",
-          ]
-        },
-        {
-          type: "category",
-          label: "Sourcemod / Metamod (Plugins)",
-          items: [
-            "source-metamod-installation",
-            "source-metamod-addadmins",
-            "source-metamod-plugins"
+            "tf2-becomeadmin",
+            "tf2-plugins",
           ]
         },
         {
