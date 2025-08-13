@@ -8,6 +8,8 @@ services:
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
+import SearchableItemList from '@site/src/components/SearchableItemList/SearchableItemList';
+import items from '@site/data/lists/moe-mods.json';
 
 ## Einführung
 
@@ -27,8 +29,13 @@ Im nächsten Schritt kann mit der Installation der Mods begonnen werden. Die Ins
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/cja64fYyx5E85SX/preview)
 
+## Beliebte Mods
+
+Noch auf der Suche nach den perfekten Mods für deinen Server? Durchstöbere unsere sorgfältig zusammengestellte Liste mit den beliebtesten und am häufigsten empfohlenen Mods, um dein Spielerlebnis zu erweitern und deinem Server den letzten Feinschliff zu geben. Lass dich inspirieren und finde genau die Erweiterungen, die zu deinem Projekt passen.
+
+<SearchableItemList items={items} />
 
 
-## Ergebnis
+## Abschluss
 
 Mit dem nächsten Serverstart werden die Mods automatisch heruntergeladen, installiert und können von dir umgehend verwendet werden! 

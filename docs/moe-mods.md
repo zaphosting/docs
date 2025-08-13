@@ -8,6 +8,8 @@ services:
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
+import SearchableItemList from '@site/src/components/SearchableItemList/SearchableItemList';
+import items from '@site/data/lists/moe-mods.json';
 
 ## Introduction
 
@@ -26,6 +28,12 @@ Through the [Steam Workshop](https://steamcommunity.com/app/221100/workshop/), y
 Next, you can begin installing the mods. Installation is a breeze with the Steam Workshop option. Access your game server's management and navigate to Steam Workshop. There, you have the option to enter the mods in the designated field. Enter the Workshop IDs you noted earlier and add them there. If you are adding multiple mods, make sure to separate the mods with a comma symbol.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/MwT4zCxtJ3Jo6Md/preview)
+
+## Popular Mods
+
+Still looking for the perfect mods for your server? Browse through our carefully curated list of the most popular and highly recommended mods to enhance your gameplay and give your server the finishing touch it deserves. Get inspired and find exactly the additions that fit your project.
+
+<SearchableItemList items={items} />
 
 ## Conclusion
 
