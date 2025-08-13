@@ -1,0 +1,62 @@
+[
+  {
+    "title": "Instant Monster Loot Drop",
+    "description": "Causes monsters to drop their loot and poof immediately.",
+    "category": "Gameplay",
+    "link": "https://www.nexusmods.com/valheim/mods/164"
+  },
+  {
+    "title": "Trash Items",
+    "description": "This mod adds a trash can to your inventory screen where you can drag and drop your unneeded items to destroy them permanently. (With gamepad support)",
+    "category": "User Interface",
+    "link": "https://www.nexusmods.com/valheim/mods/441"
+  },
+  {
+    "title": "SkToolbox - Console Admin and Chat Functionality Extender",
+    "description": "Extends the functionality of the console and chat commands. Admin and trainer commands featured in this mod are all accessible from the console or chat, via a / prefix. This mod allows you to take control of your game-play regardless of cheats being enabled. Now includes terrain modification commands!",
+    "category": "Administration",
+    "link": "https://www.nexusmods.com/valheim/mods/8"
+  },
+  {
+    "title": "Equipment and Quick Slots",
+    "description": "Give equipped items their own dedicated inventory slots, plus three more hotkeyable quick slots.",
+    "category": "User Interface",
+    "link": "https://www.nexusmods.com/valheim/mods/92"
+  },
+  {
+    "title": "Epic Loot",
+    "description": "Adds loot drops, magic items, and enchanting to Valheim.",
+    "category": "Gameplay",
+    "link": "https://www.nexusmods.com/valheim/mods/387"
+  },
+  {
+    "title": "Plant Everything",
+    "description": "Rewrite of the Planting Plus mod by bkeyes93. Allows your cultivator to plant berry bushes, thistle, dandelions, mushrooms, previously unavailable tree types, and other decorative flora. Includes many other miscellaneous features (see description). Highly configurable with localization support.",
+    "category": "Gameplay",
+    "link": "https://www.nexusmods.com/valheim/mods/1042"
+  },
+  {
+    "title": "Better Archery",
+    "description": "Adds many features and changes to bow gameplay. Includes a new quiver system, retrievable arrows, better aim, and realistic arrow physics.",
+    "category": "Gameplay",
+    "link": "https://www.nexusmods.com/valheim/mods/348"
+  },
+  {
+    "title": "Craft Build Smelt Cook Fuel Pull From Containers",
+    "description": "Allows you to make use of resources in nearby containers when crafting, building, using smelters and kilns, refueling fires, cooking food, etc.",
+    "category": "Gameplay",
+    "link": "https://www.nexusmods.com/valheim/mods/40"
+  },
+  {
+    "title": "Configuration Manager",
+    "description": "An updated, expanded, customizable version of the BepInEx Configuration Manager, tweaked specifically for Valheim.",
+    "category": "Administration",
+    "link": "https://www.nexusmods.com/valheim/mods/740"
+  },
+  {
+    "title": "Loot Multiplier",
+    "description": "This is mod multiplies loot drops when you destroy, kill or pick up something. Drop multiplier can be configured.",
+    "category": "Gameplay",
+    "link": "https://www.nexusmods.com/valheim/mods/28"
+  }
+]

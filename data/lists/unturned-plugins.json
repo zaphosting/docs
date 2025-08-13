@@ -1,0 +1,442 @@
+[
+  {
+    "title": "AdminHelp",
+    "description": "https://dev.rocketmod.net/plugins/adminhelp/",
+    "link": "https://github.com/RocketModPlugins/AdminHelp"
+  },
+  {
+    "title": "AdminWarnings",
+    "description": "Unturned 3 Rocket Mod Plugin: Economy Plugin, Your own ingame currency & Shops",
+    "link": "https://github.com/RocketModPlugins/AdminWarnings"
+  },
+  {
+    "title": "AdvancedGodVanish",
+    "description": "RM4 - Fixed",
+    "link": "https://github.com/RocketModPlugins/AdvancedGodVanish"
+  },
+  {
+    "title": "AdvancedInvestigate",
+    "description": "Unturned 3 Rocket Mod Plugin: Economy Plugin, Your own ingame currency & Shops",
+    "link": "https://github.com/RocketModPlugins/AdvancedInvestigate"
+  },
+  {
+    "title": "Airdrop-Manager",
+    "description": "Unturned airdrop manager.",
+    "link": "https://github.com/RocketModPlugins/Airdrop-Manager"
+  },
+  {
+    "title": "AntiCombatLog",
+    "description": "A Rocket plug-in that punishes players who combat log.",
+    "link": "https://github.com/RocketModPlugins/AntiCombatLog"
+  },
+  {
+    "title": "AntiSuicide",
+    "description": "Unturned 3 Rocket Mod Plugin: Economy Plugin, Your own ingame currency & Shops",
+    "link": "https://github.com/RocketModPlugins/AntiSuicide"
+  },
+  {
+    "title": "AutoShutdown2",
+    "description": "",
+    "link": "https://github.com/RocketModPlugins/AutoShutdown2"
+  },
+  {
+    "title": "AviZebra",
+    "description": "RocketMod plugin for Unturned that manages whitelisting",
+    "link": "https://github.com/RocketModPlugins/AviZebra"
+  },
+  {
+    "title": "BonusXP",
+    "description": "Unturned RocketMod Plugin for extra XP",
+    "link": "https://github.com/RocketModPlugins/BonusXP"
+  },
+  {
+    "title": "Channels",
+    "description": "Unturned 3 Rocket Mod Plugin: Economy Plugin, Your own ingame currency & Shops",
+    "link": "https://github.com/RocketModPlugins/Channels"
+  },
+  {
+    "title": "ChatBot",
+    "description": "XMPP / Discord chatbot for Rocket.Unturned",
+    "link": "https://github.com/RocketModPlugins/ChatBot"
+  },
+  {
+    "title": "ChatControl",
+    "description": "Unturned 3 Rocket Mod Plugin. Badlist & Mute",
+    "link": "https://github.com/RocketModPlugins/ChatControl"
+  },
+  {
+    "title": "CommandLogger",
+    "description": "Log all abusive commands to see what your admins are up to",
+    "link": "https://github.com/RocketModPlugins/CommandLogger"
+  },
+  {
+    "title": "CustomKits",
+    "description": "Save & load custom inventories. Free. Available on RocketMod:",
+    "link": "https://github.com/RocketModPlugins/CustomKits"
+  },
+  {
+    "title": "CustomSpawnpoints",
+    "description": "",
+    "link": "https://github.com/RocketModPlugins/CustomSpawnpoints"
+  },
+  {
+    "title": "DeathEffects",
+    "description": "Made by IAmSilk",
+    "link": "https://github.com/RocketModPlugins/DeathEffects"
+  },
+  {
+    "title": "DeathManager",
+    "description": "",
+    "link": "https://github.com/RocketModPlugins/DeathManager"
+  },
+  {
+    "title": "DiagonalPvPManager",
+    "description": "Made by IAmSilk",
+    "link": "https://github.com/RocketModPlugins/DiagonalPvPManager"
+  },
+  {
+    "title": "DiagonalRPLicenses",
+    "description": "Made by IAmSilk",
+    "link": "https://github.com/RocketModPlugins/DiagonalRPLicenses"
+  },
+  {
+    "title": "DiagonalZAP",
+    "description": "Made by IAmSilk",
+    "link": "https://github.com/RocketModPlugins/DiagonalZAP"
+  },
+  {
+    "title": "DoorPlugin",
+    "description": "A Sexy DoorPlugin For A Sexy Game",
+    "link": "https://github.com/RocketModPlugins/DoorPlugin"
+  },
+  {
+    "title": "DropManager",
+    "description": "Unturned plugin, which lets you configure, which items player will drop after death",
+    "link": "https://github.com/RocketModPlugins/DropManager"
+  },
+  {
+    "title": "EasyAmmo",
+    "description": "EasyAmmo plugin for rocketmod unturned servers",
+    "link": "https://github.com/RocketModPlugins/EasyAmmo"
+  },
+  {
+    "title": "Events",
+    "description": "",
+    "link": "https://github.com/RocketModPlugins/Events"
+  },
+  {
+    "title": "FeexAFK",
+    "description": "Simple afk plugin.",
+    "link": "https://github.com/RocketModPlugins/FeexAFK"
+  },
+  {
+    "title": "FeexExp",
+    "description": "Simple plugin to give yourself or others experience with additional functions.",
+    "link": "https://github.com/RocketModPlugins/FeexExp"
+  },
+  {
+    "title": "FeexGeoBlock",
+    "description": "Geo IP Whitelist/Blacklist.",
+    "link": "https://github.com/RocketModPlugins/FeexGeoBlock"
+  },
+  {
+    "title": "FeexHitman",
+    "description": "Set bounties on other players.",
+    "link": "https://github.com/RocketModPlugins/FeexHitman"
+  },
+  {
+    "title": "FeexLimiter",
+    "description": "Limit accounts which are trying to connect to your server.",
+    "link": "https://github.com/RocketModPlugins/FeexLimiter"
+  },
+  {
+    "title": "FeexRanks",
+    "description": "MySQL based ranks with reward functions.",
+    "link": "https://github.com/RocketModPlugins/FeexRanks"
+  },
+  {
+    "title": "ForceDrop",
+    "description": "Unturned 3 Rocket Mod Plugin: Economy Plugin, Your own ingame currency & Shops",
+    "link": "https://github.com/RocketModPlugins/ForceDrop"
+  },
+  {
+    "title": "FPSCap",
+    "description": "This plugin reimpliments the TPS cap that the Unturned server's used to have, and allows you to be albe to modify the TPS the server runs at.",
+    "link": "https://github.com/RocketModPlugins/FPSCap"
+  },
+  {
+    "title": "GlobalBan",
+    "description": "Unturned 3 Rocket Mod Plugin: Ban users in a MySQL Database",
+    "link": "https://github.com/RocketModPlugins/GlobalBan"
+  },
+  {
+    "title": "GroupBank",
+    "description": "Rocket plugin for Unturned that allows players to store experience and money in their groupbank",
+    "link": "https://github.com/RocketModPlugins/GroupBank"
+  },
+  {
+    "title": "HealerBall",
+    "description": "Heals a buildables.",
+    "link": "https://github.com/RocketModPlugins/HealerBall"
+  },
+  {
+    "title": "HousePlugin",
+    "description": "",
+    "link": "https://github.com/RocketModPlugins/HousePlugin"
+  },
+  {
+    "title": "IsAbusing",
+    "description": "Unturned Rocket Plugin",
+    "link": "https://github.com/RocketModPlugins/IsAbusing"
+  },
+  {
+    "title": "ItemVault",
+    "description": "Unturned 3 Rocket Mod Plugin: Economy Plugin, Your own ingame currency & Shops",
+    "link": "https://github.com/RocketModPlugins/ItemVault"
+  },
+  {
+    "title": "JoinLeaveMessages",
+    "description": "Adds messages to the server when someone connects or disconnects to the server.",
+    "link": "https://github.com/RocketModPlugins/JoinLeaveMessages"
+  },
+  {
+    "title": "Kits",
+    "description": "Unturned 3 Rocket Mod Plugin: Give yourself a kit",
+    "link": "https://github.com/RocketModPlugins/Kits"
+  },
+  {
+    "title": "LeeIzaZombie.ItemRestrictions",
+    "description": "Made by IAmSilk",
+    "link": "https://github.com/RocketModPlugins/LeeIzaZombie.ItemRestrictions"
+  },
+  {
+    "title": "MathQuestions",
+    "description": "by CapScroLL",
+    "link": "https://github.com/RocketModPlugins/MathQuestions"
+  },
+  {
+    "title": "MessageAnnouncer",
+    "description": "Unturned 3 Rocket Mod Plugin: Automatic Message in a predefined interval",
+    "link": "https://github.com/RocketModPlugins/MessageAnnouncer"
+  },
+  {
+    "title": "MOTD",
+    "description": "Message of the Day for Unturned Rocket server",
+    "link": "https://github.com/RocketModPlugins/MOTD"
+  },
+  {
+    "title": "Observatory",
+    "description": "Placeholder repository for Bugtracking & Wiki",
+    "link": "https://github.com/RocketModPlugins/Observatory"
+  },
+  {
+    "title": "OwnerChecker",
+    "description": "Check the owner of any structure. : RM5 Ready",
+    "link": "https://github.com/RocketModPlugins/OwnerChecker"
+  },
+  {
+    "title": "PlayerInfoLib",
+    "description": "Adds a more advanced/detailed investigate command and provides an api for other plugin to get player.",
+    "link": "https://github.com/RocketModPlugins/PlayerInfoLib"
+  },
+  {
+    "title": "PLSTimedSpy",
+    "description": "Made by IAmSilk",
+    "link": "https://github.com/RocketModPlugins/PLSTimedSpy"
+  },
+  {
+    "title": "PublicRocketmodPlugins",
+    "description": "All public rocketmod plugins",
+    "link": "https://github.com/RocketModPlugins/PublicRocketmodPlugins"
+  },
+  {
+    "title": "PVEManager",
+    "description": "Allows Players to individually Be in PVE Mode",
+    "link": "https://github.com/RocketModPlugins/PVEManager"
+  },
+  {
+    "title": "ReputationManager",
+    "description": "Made by IAmSilk",
+    "link": "https://github.com/RocketModPlugins/ReputationManager"
+  },
+  {
+    "title": "ReservedSlots",
+    "description": "Readds the reserved slots feature, with some extra functionality.",
+    "link": "https://github.com/RocketModPlugins/ReservedSlots"
+  },
+  {
+    "title": "Rocket-Jobs",
+    "description": "Plugin for unturned",
+    "link": "https://github.com/RocketModPlugins/Rocket-Jobs"
+  },
+  {
+    "title": "Rocket.Rcon",
+    "description": "Rocket Rcon Plugin",
+    "link": "https://github.com/RocketModPlugins/Rocket.Rcon"
+  },
+  {
+    "title": "RocketMod4_TPA",
+    "description": "Made by LeeIzaZombie",
+    "link": "https://github.com/RocketModPlugins/RocketMod4_TPA"
+  },
+  {
+    "title": "RPEvents",
+    "description": "Show Events in RP Situations",
+    "link": "https://github.com/RocketModPlugins/RPEvents"
+  },
+  {
+    "title": "SayAs",
+    "description": "Unturned 3 Rocket Mod Plugin: Economy Plugin, Your own ingame currency & Shops",
+    "link": "https://github.com/RocketModPlugins/SayAs"
+  },
+  {
+    "title": "SelfDestroyer",
+    "description": "Made by IAmSilk",
+    "link": "https://github.com/RocketModPlugins/SelfDestroyer"
+  },
+  {
+    "title": "SimpleDeathMessages",
+    "description": "Show death messages in the server's chat!",
+    "link": "https://github.com/RocketModPlugins/SimpleDeathMessages"
+  },
+  {
+    "title": "Skills",
+    "description": "A simple plugin for managing player's skills with commands.",
+    "link": "https://github.com/RocketModPlugins/Skills"
+  },
+  {
+    "title": "SkillSets",
+    "description": "Rocket Plugins to set easily skillsets with permissions",
+    "link": "https://github.com/RocketModPlugins/SkillSets"
+  },
+  {
+    "title": "SmartSpawner",
+    "description": "A simple plugin for Rocket.Unturned that allows you to do manual or automatic loot reseting by the way it does when the server is rebooted.",
+    "link": "https://github.com/RocketModPlugins/SmartSpawner"
+  },
+  {
+    "title": "SpawnProtection",
+    "description": "",
+    "link": "https://github.com/RocketModPlugins/SpawnProtection"
+  },
+  {
+    "title": "SpyAll",
+    "description": "",
+    "link": "https://github.com/RocketModPlugins/SpyAll"
+  },
+  {
+    "title": "StaffHelp",
+    "description": "A Private chat with a Player and Admins",
+    "link": "https://github.com/RocketModPlugins/StaffHelp"
+  },
+  {
+    "title": "StatKeeper",
+    "description": "Track player stats in Unturned 3.0.",
+    "link": "https://github.com/RocketModPlugins/StatKeeper"
+  },
+  {
+    "title": "Switch-Position",
+    "description": "Thats it",
+    "link": "https://github.com/RocketModPlugins/Switch-Position"
+  },
+  {
+    "title": "TeleportUtil",
+    "description": "Teleportation utility commands for unturned.",
+    "link": "https://github.com/RocketModPlugins/TeleportUtil"
+  },
+  {
+    "title": "TemporaryDestruction",
+    "description": "Unturned 3 Rocket Mod Plugin: Economy Plugin, Your own ingame currency & Shops",
+    "link": "https://github.com/RocketModPlugins/TemporaryDestruction"
+  },
+  {
+    "title": "TPA",
+    "description": "Just like TPA in Minecraft, this allows players to request a teleport to other players and the other player can accept or deny their request.",
+    "link": "https://github.com/RocketModPlugins/TPA"
+  },
+  {
+    "title": "Uconomy",
+    "description": "Unturned 3 Rocket Mod Plugin: Economy Plugin, Your own ingame currency & Shops",
+    "link": "https://github.com/RocketModPlugins/Uconomy"
+  },
+  {
+    "title": "uEssentials",
+    "description": "uEssentials is a plugin that add new commands and features to Unturned Servers.",
+    "link": "https://github.com/RocketModPlugins/uEssentials"
+  },
+  {
+    "title": "uFly",
+    "description": "Rocket.Unturned Plugin",
+    "link": "https://github.com/RocketModPlugins/uFly"
+  },
+  {
+    "title": "VACKicker",
+    "description": "Rocket.Unturned Plugin",
+    "link": "https://github.com/RocketModPlugins/VACKicker"
+  },
+  {
+    "title": "Vaults",
+    "description": "A Rocket Mod plugin for the Steam game Unturned, allowing players to store items on a server for later access.",
+    "link": "https://github.com/RocketModPlugins/Vaults"
+  },
+  {
+    "title": "VoteRewards",
+    "description": "Receive rewards for voting!",
+    "link": "https://github.com/RocketModPlugins/VoteRewards"
+  },
+  {
+    "title": "Votifier",
+    "description": "Unturned 3 Rocket Mod Plugin: Vote on server lists to get a reward",
+    "link": "https://github.com/RocketModPlugins/Votifier"
+  },
+  {
+    "title": "VotifierRewardUconomy",
+    "description": "Rocket plugin to reward players with money when they vote",
+    "link": "https://github.com/RocketModPlugins/VotifierRewardUconomy"
+  },
+  {
+    "title": "Warps",
+    "description": "Adds named teleport points to a server.",
+    "link": "https://github.com/RocketModPlugins/Warps"
+  },
+  {
+    "title": "WebsiteCommand",
+    "description": "Rocket.Unturned Plugin",
+    "link": "https://github.com/RocketModPlugins/WebsiteCommand"
+  },
+  {
+    "title": "WreckingBall2",
+    "description": "Wrecking ball Ported to RM 5",
+    "link": "https://github.com/RocketModPlugins/WreckingBall2"
+  },
+  {
+    "title": "ZaupClearInventoryLib",
+    "description": "Unturned 3 Rocket Mod Plugin: Economy Plugin, Your own ingame currency & Shops",
+    "link": "https://github.com/RocketModPlugins/ZaupClearInventoryLib"
+  },
+  {
+    "title": "ZaupFeast",
+    "description": "Feast Rocket Plugin for Unturned 3.0",
+    "link": "https://github.com/RocketModPlugins/ZaupFeast"
+  },
+  {
+    "title": "ZaupHomeCommand",
+    "description": "Home Command Rocket Plugin for Unturned 3.0",
+    "link": "https://github.com/RocketModPlugins/ZaupHomeCommand"
+  },
+  {
+    "title": "ZaupShop",
+    "description": "Uconomy Shop Rocket Plugin for Unturned 3.0",
+    "link": "https://github.com/RocketModPlugins/ZaupShop"
+  },
+  {
+    "title": "ZaupUconomyEssentials",
+    "description": "Uconomy Essentials Rocket Plugin for Unturned 3.0",
+    "link": "https://github.com/RocketModPlugins/ZaupUconomyEssentials"
+  },
+  {
+    "title": "ZaupWhitelist",
+    "description": "Made by IAmSilk",
+    "link": "https://github.com/RocketModPlugins/ZaupWhitelist"
+  }
+]

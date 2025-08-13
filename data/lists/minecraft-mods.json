@@ -1,0 +1,527 @@
+[
+  {
+    "title": "Fabric API",
+    "description": "Lightweight and modular API providing common hooks and intercompatibility measures utilized by mods using the Fabric toolchain.",
+    "tags": [
+      "FABRIC"
+    ],
+    "category": "library",
+    "link": "https://modrinth.com/mod/fabric-api"
+  },
+  {
+    "title": "Sodium",
+    "description": "The fastest and most compatible rendering optimization mod for Minecraft. Now available for both NeoForge and Fabric!",
+    "tags": [
+      "FABRIC",
+      "NEOFORGE"
+    ],
+    "category": "optimization",
+    "link": "https://modrinth.com/mod/sodium"
+  },
+  {
+    "title": "Cloth Config API",
+    "description": "Configuration Library for Minecraft Mods",
+    "tags": [
+      "FABRIC",
+      "FORGE",
+      "NEOFORGE"
+    ],
+    "category": "library",
+    "link": "https://modrinth.com/mod/cloth-config"
+  },
+  {
+    "title": "Iris Shaders",
+    "description": "A modern shader pack loader for Minecraft intended to be compatible with existing OptiFine shader packs",
+    "tags": [
+      "FABRIC",
+      "NEOFORGE"
+    ],
+    "category": "decoration",
+    "link": "https://modrinth.com/mod/iris"
+  },
+  {
+    "title": "Entity Culling",
+    "description": "Using async path-tracing to hide Block-/Entities that are not visible",
+    "tags": [
+      "FABRIC",
+      "FORGE",
+      "NEOFORGE"
+    ],
+    "category": "optimization",
+    "link": "https://modrinth.com/mod/entityculling"
+  },
+  {
+    "title": "FerriteCore",
+    "description": "Memory usage optimizations",
+    "tags": [
+      "FABRIC",
+      "FORGE",
+      "NEOFORGE"
+    ],
+    "category": "optimization",
+    "link": "https://modrinth.com/mod/ferrite-core"
+  },
+  {
+    "title": "Mod Menu",
+    "description": "Adds a mod menu to view the list of mods you have installed.",
+    "tags": [
+      "FABRIC"
+    ],
+    "category": "utility",
+    "link": "https://modrinth.com/mod/modmenu"
+  },
+  {
+    "title": "Lithium",
+    "description": "No-compromises game logic optimization mod. Well suited for clients and servers of all kinds. Now available for Fabric and NeoForge!",
+    "tags": [
+      "FABRIC",
+      "NEOFORGE"
+    ],
+    "category": "optimization",
+    "link": "https://modrinth.com/mod/lithium"
+  },
+  {
+    "title": "ImmediatelyFast",
+    "description": "Speed up immediate mode rendering in Minecraft",
+    "tags": [
+      "FABRIC",
+      "FORGE",
+      "NEOFORGE"
+    ],
+    "category": "optimization",
+    "link": "https://modrinth.com/mod/immediatelyfast"
+  },
+  {
+    "title": "YetAnotherConfigLib (YACL)",
+    "description": "A builder-based configuration library for Minecraft.",
+    "tags": [
+      "FABRIC",
+      "FORGE",
+      "NEOFORGE"
+    ],
+    "category": "library",
+    "link": "https://modrinth.com/mod/yacl"
+  },
+  {
+    "title": "Architectury API",
+    "description": "An intermediary api aimed to ease developing multiplatform mods.",
+    "tags": [
+      "FABRIC",
+      "FORGE",
+      "NEOFORGE"
+    ],
+    "category": "library",
+    "link": "https://modrinth.com/mod/architectury-api"
+  },
+  {
+    "title": "Fabric Language Kotlin",
+    "description": "This is a mod that enables usage of the Kotlin programming language for Fabric mods.",
+    "tags": [
+      "FABRIC"
+    ],
+    "category": "library",
+    "link": "https://modrinth.com/mod/fabric-language-kotlin"
+  },
+  {
+    "title": "Xaero's Minimap",
+    "description": "Displays a map of the nearby world terrain, players, mobs, entities in the corner of your screen. Lets you create waypoints which help you find the locations you've marked.",
+    "tags": [
+      "FABRIC",
+      "FORGE",
+      "NEOFORGE"
+    ],
+    "category": "adventure",
+    "link": "https://modrinth.com/mod/xaeros-minimap"
+  },
+  {
+    "title": "Sodium Extra",
+    "description": "A Sodium addon that adds features that shouldn't be in Sodium.",
+    "tags": [
+      "FABRIC",
+      "NEOFORGE"
+    ],
+    "category": "cursed",
+    "link": "https://modrinth.com/mod/sodium-extra"
+  },
+  {
+    "title": "[ETF] Entity Texture Features",
+    "description": "Emissive, Random & Custom texture support for entities in resourcepacks just like Optifine but for Fabric",
+    "tags": [
+      "FABRIC",
+      "FORGE",
+      "NEOFORGE"
+    ],
+    "category": "decoration",
+    "link": "https://modrinth.com/mod/entitytexturefeatures"
+  },
+  {
+    "title": "ModernFix",
+    "description": "All-in-one mod that improves performance, reduces memory usage, and fixes many bugs. Compatible with all your favorite performance mods!",
+    "tags": [
+      "FABRIC",
+      "FORGE",
+      "NEOFORGE"
+    ],
+    "category": "optimization",
+    "link": "https://modrinth.com/mod/modernfix"
+  },
+  {
+    "title": "AppleSkin",
+    "description": "Food/hunger-related HUD improvements",
+    "tags": [
+      "FABRIC",
+      "FORGE",
+      "NEOFORGE"
+    ],
+    "category": "food",
+    "link": "https://modrinth.com/mod/appleskin"
+  },
+  {
+    "title": "Xaero's World Map",
+    "description": "Adds a full screen world map which shows you what you have explored in the world. Works great together with Xaero's Minimap.",
+    "tags": [
+      "FABRIC",
+      "FORGE",
+      "NEOFORGE"
+    ],
+    "category": "adventure",
+    "link": "https://modrinth.com/mod/xaeros-world-map"
+  },
+  {
+    "title": "[EMF] Entity Model Features",
+    "description": "EMF is an, OptiFine format, Custom Entity Model replacement mod available for Fabric and Forge.",
+    "tags": [
+      "FABRIC",
+      "FORGE",
+      "NEOFORGE"
+    ],
+    "category": "mobs",
+    "link": "https://modrinth.com/mod/entity-model-features"
+  },
+  {
+    "title": "Reese's Sodium Options",
+    "description": "Alternative Options Menu for Sodium",
+    "tags": [
+      "FABRIC",
+      "NEOFORGE"
+    ],
+    "category": "utility",
+    "link": "https://modrinth.com/mod/reeses-sodium-options"
+  },
+  {
+    "title": "Not Enough Animations",
+    "description": "Bringing first-person animations to the third-person",
+    "tags": [
+      "FABRIC",
+      "FORGE",
+      "NEOFORGE"
+    ],
+    "category": "adventure",
+    "link": "https://modrinth.com/mod/not-enough-animations"
+  },
+  {
+    "title": "Continuity",
+    "description": "A Minecraft mod that allows for efficient connected textures",
+    "tags": [
+      "FABRIC",
+      "FORGE",
+      "NEOFORGE"
+    ],
+    "category": "decoration",
+    "link": "https://modrinth.com/mod/continuity"
+  },
+  {
+    "title": "Dynamic FPS",
+    "description": "Reduce resource usage while Minecraft is in the background, idle, or on battery.",
+    "tags": [
+      "FABRIC",
+      "FORGE",
+      "NEOFORGE"
+    ],
+    "category": "management",
+    "link": "https://modrinth.com/mod/dynamic-fps"
+  },
+  {
+    "title": "Indium",
+    "description": "Sodium addon providing support for the Fabric Rendering API, based on Indigo",
+    "tags": [
+      "FABRIC"
+    ],
+    "category": "utility",
+    "link": "https://modrinth.com/mod/indium"
+  },
+  {
+    "title": "Collective",
+    "description": "🎓 Collective is a shared library with common code for all of Serilum's mods.",
+    "tags": [
+      "FABRIC",
+      "FORGE",
+      "NEOFORGE"
+    ],
+    "category": "library",
+    "link": "https://modrinth.com/mod/collective"
+  },
+  {
+    "title": "3D Skin Layers",
+    "description": "Render the player skin layer in 3d!",
+    "tags": [
+      "FABRIC",
+      "FORGE",
+      "NEOFORGE"
+    ],
+    "category": "adventure",
+    "link": "https://modrinth.com/mod/3dskinlayers"
+  },
+  {
+    "title": "No Chat Reports",
+    "description": "Makes chat unreportable (where possible)",
+    "tags": [
+      "FABRIC",
+      "FORGE",
+      "NEOFORGE"
+    ],
+    "category": "social",
+    "link": "https://modrinth.com/mod/no-chat-reports"
+  },
+  {
+    "title": "More Culling",
+    "description": "A mod that changes how multiple types of culling are handled in order to improve performance",
+    "tags": [
+      "FABRIC",
+      "NEOFORGE"
+    ],
+    "category": "library",
+    "link": "https://modrinth.com/mod/moreculling"
+  },
+  {
+    "title": "Simple Voice Chat",
+    "description": "A working voice chat in Minecraft!",
+    "tags": [
+      "FABRIC",
+      "FORGE",
+      "NEOFORGE"
+    ],
+    "category": "adventure",
+    "link": "https://modrinth.com/mod/simple-voice-chat"
+  },
+  {
+    "title": "Jade 🔍",
+    "description": "Shows information about what you are looking at. (Hwyla/Waila fork for Minecraft 1.16+)",
+    "tags": [
+      "FABRIC",
+      "FORGE",
+      "NEOFORGE"
+    ],
+    "category": "utility",
+    "link": "https://modrinth.com/mod/jade"
+  },
+  {
+    "title": "Zoomify",
+    "description": "A zoom mod with infinite customizability.",
+    "tags": [
+      "FABRIC"
+    ],
+    "category": "utility",
+    "link": "https://modrinth.com/mod/zoomify"
+  },
+  {
+    "title": "Memory Leak Fix",
+    "description": "A mod that fixes random memory leaks for both the client and server",
+    "tags": [
+      "FABRIC",
+      "FORGE"
+    ],
+    "category": "optimization",
+    "link": "https://modrinth.com/mod/memoryleakfix"
+  },
+  {
+    "title": "Forge Config API Port",
+    "description": "NeoForge's & Forge's config systems provided to other modding ecosystems. Designed for a multiloader architecture.",
+    "tags": [
+      "FABRIC",
+      "FORGE",
+      "NEOFORGE"
+    ],
+    "category": "library",
+    "link": "https://modrinth.com/mod/forge-config-api-port"
+  },
+  {
+    "title": "Puzzles Lib",
+    "description": "Why it's called Puzzles, you ask? That's the puzzle!",
+    "tags": [
+      "FABRIC",
+      "FORGE",
+      "NEOFORGE"
+    ],
+    "category": "library",
+    "link": "https://modrinth.com/mod/puzzles-lib"
+  },
+  {
+    "title": "Balm",
+    "description": "Abstraction Layer for Multiplatform Mods",
+    "tags": [
+      "FABRIC",
+      "FORGE",
+      "NEOFORGE"
+    ],
+    "category": "library",
+    "link": "https://modrinth.com/mod/balm"
+  },
+  {
+    "title": "Geckolib",
+    "description": "A 3D animation library for entities, blocks, items, armor, and more!",
+    "tags": [
+      "FABRIC",
+      "FORGE",
+      "NEOFORGE"
+    ],
+    "category": "game-mechanics",
+    "link": "https://modrinth.com/mod/geckolib"
+  },
+  {
+    "title": "Konkrete",
+    "description": "Just another boring library mod.",
+    "tags": [
+      "FABRIC",
+      "FORGE",
+      "NEOFORGE"
+    ],
+    "category": "library",
+    "link": "https://modrinth.com/mod/konkrete"
+  },
+  {
+    "title": "Sound Physics Remastered",
+    "description": "A Minecraft mod that provides realistic sound attenuation, reverberation, and absorption through blocks.",
+    "tags": [
+      "FABRIC",
+      "FORGE",
+      "NEOFORGE"
+    ],
+    "category": "adventure",
+    "link": "https://modrinth.com/mod/sound-physics-remastered"
+  },
+  {
+    "title": "LambDynamicLights",
+    "description": "Adds dynamic lights to Minecraft as the most feature-complete and optimized dynamic lighting mod for Fabric.",
+    "tags": [
+      "FABRIC"
+    ],
+    "category": "adventure",
+    "link": "https://modrinth.com/mod/lambdynamiclights"
+  },
+  {
+    "title": "Just Enough Items",
+    "description": "JEI - View Items and Recipes",
+    "tags": [
+      "FABRIC",
+      "FORGE",
+      "NEOFORGE"
+    ],
+    "category": "library",
+    "link": "https://modrinth.com/mod/jei"
+  },
+  {
+    "title": "FancyMenu",
+    "description": "Customize Minecraft's menus with ease!",
+    "tags": [
+      "FABRIC",
+      "FORGE",
+      "NEOFORGE"
+    ],
+    "category": "utility",
+    "link": "https://modrinth.com/mod/fancymenu"
+  },
+  {
+    "title": "CreativeCore",
+    "description": "A core mod",
+    "tags": [
+      "FABRIC",
+      "FORGE",
+      "NEOFORGE"
+    ],
+    "category": "library",
+    "link": "https://modrinth.com/mod/creativecore"
+  },
+  {
+    "title": "Mouse Tweaks",
+    "description": "Enhances inventory management by adding various functions to the mouse buttons. ",
+    "tags": [
+      "FABRIC",
+      "FORGE",
+      "NEOFORGE"
+    ],
+    "category": "storage",
+    "link": "https://modrinth.com/mod/mouse-tweaks"
+  },
+  {
+    "title": "Chat Heads",
+    "description": "See who you're chatting with!",
+    "tags": [
+      "FABRIC",
+      "FORGE",
+      "NEOFORGE"
+    ],
+    "category": "decoration",
+    "link": "https://modrinth.com/mod/chat-heads"
+  },
+  {
+    "title": "Bookshelf",
+    "description": "An open source library for other mods!",
+    "tags": [
+      "FABRIC",
+      "FORGE",
+      "NEOFORGE"
+    ],
+    "category": "library",
+    "link": "https://modrinth.com/mod/bookshelf-lib"
+  },
+  {
+    "title": "Model Gap Fix",
+    "description": "Fixes gaps in Block Models and Item Models",
+    "tags": [
+      "FABRIC",
+      "FORGE",
+      "NEOFORGE"
+    ],
+    "category": "optimization",
+    "link": "https://modrinth.com/mod/modelfix"
+  },
+  {
+    "title": "Veinminer",
+    "description": "Mine the whole vine on mining a single ore. Known feature by modpacks and pvp games like UHC (quick mine)",
+    "tags": [
+      "FABRIC",
+      "FORGE"
+    ],
+    "category": "equipment",
+    "link": "https://modrinth.com/mod/veinminer"
+  },
+  {
+    "title": "Language Reload",
+    "description": "Reduces load times and adds fallbacks for languages",
+    "tags": [
+      "FABRIC"
+    ],
+    "category": "optimization",
+    "link": "https://modrinth.com/mod/language-reload"
+  },
+  {
+    "title": "oωo (owo-lib)",
+    "description": "A general utility, GUI and config library for modding on Fabric and Quilt",
+    "tags": [
+      "FABRIC",
+      "NEOFORGE"
+    ],
+    "category": "library",
+    "link": "https://modrinth.com/mod/owo-lib"
+  },
+  {
+    "title": "Krypton",
+    "description": "A mod to optimize the Minecraft networking stack",
+    "tags": [
+      "FABRIC"
+    ],
+    "category": "optimization",
+    "link": "https://modrinth.com/mod/krypton"
+  }
+]

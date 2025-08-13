@@ -1,0 +1,92 @@
+[
+  {
+    "title": "AdminTools",
+    "description": "An SCP:SL EXILED plugin that gives server owners fun commands and logging functionality for their servers",
+    "category": "administration",
+    "link": "https://github.com/Exiled-Team/AdminTools"
+  },
+  {
+    "title": "BetterLockerRework",
+    "description": "",
+    "category": "mechanics",
+    "link": "https://github.com/reversum/BetterLockerRework"
+  },
+  {
+    "title": "CustomItems",
+    "description": "",
+    "category": "items",
+    "link": "https://github.com/Exiled-Team/CustomItems"
+  },
+  {
+    "title": "SerpentsHand",
+    "description": "EXILED [SCP:SL] Plugin that adds a new CH to the game [SCP/SH]",
+    "category": "mechanics",
+    "link": "https://github.com/Exiled-Team/SerpentsHand"
+  },
+  {
+    "title": "ScpReplacer",
+    "description": "An EXILED plugin for SCP: Secret Laboratory servers that allows players to volunteer to replace SCPs that quit at the beginning of a round",
+    "category": "administration",
+    "link": "https://github.com/jmoore34/ScpReplacer"
+  },
+  {
+    "title": "MapEditorReborn",
+    "description": "A map editor plugin for SCP: Secret Laboratory",
+    "category": "administration",
+    "link": "https://github.com/Michal78900/MapEditorReborn"
+  },
+  {
+    "title": "UncomplicatedCustomRoles",
+    "description": "UncomplicatedCustomRoles is a plugin and an API for EXILED who adds custom roles in the game in a better and more easy way.",
+    "category": "administration",
+    "link": "https://github.com/UncomplicatedCustomServer/UncomplicatedCustomRoles"
+  },
+  {
+    "title": "SCPDiscord",
+    "description": "A LabAPI plugin which adds remote interaction to an SCP:SL server through Discord.",
+    "category": "api",
+    "link": "https://github.com/KarlOfDuty/SCPDiscord"
+  },
+  {
+    "title": "UsefulHints",
+    "description": "An Exiled & LabAPI (SCP:SL) Plugin that display extra hint like a timers and notifications",
+    "category": "notifications",
+    "link": "https://github.com/Vretu-Dev/UsefulHints"
+  },
+  {
+    "title": "WelcomeMessage",
+    "description": "Sends a customizable join message to the joining user (works with the NwPluginAPI).",
+    "category": "notifications",
+    "link": "https://github.com/SpaceBuddy231/WelcomeMessage"
+  },
+  {
+    "title": "-SCPSL-DoorRestartSystem",
+    "description": "A plugin for SCP:SL Exiled (ExMod by ExTeam) that simulates a facility-wide door system restart, temporarily locking all doors before restoring access.",
+    "category": "mechanics",
+    "link": "https://github.com/iomatix/-SCPSL-DoorRestartSystem"
+  },
+  {
+    "title": "ElevatorBC",
+    "description": "Simple SCPSL Exiled plugin that show the name of the player who interacts with elevators or 914 knob",
+    "category": "mechanics",
+    "link": "https://github.com/Antoniofo/ElevatorBC"
+  },
+  {
+    "title": "Buddy",
+    "description": "A plugin to let you play on the same team as your friends",
+    "category": "communication",
+    "link": "https://github.com/PintTheDragon/Buddy"
+  },
+  {
+    "title": "ScpProximityChat",
+    "description": "Plugin that allows SCPs to talk with a proximity chat.",
+    "category": "communication",
+    "link": "https://github.com/BoltonDev/ScpProximityChat"
+  },
+  {
+    "title": "ItemUtils",
+    "description": "Exiled plugin allowing for extensive configuration of most base-game items",
+    "category": "administration",
+    "link": "https://github.com/rayzerbrain/ItemUtils"
+  }
+]

@@ -1,0 +1,293 @@
+[
+  {
+    "title": "Utility Objectify",
+    "description": "Utility Objectify is a simple but powerful system that lets you add custom behavior to entities in FiveM.",
+    "tags": ["Free"],
+    "link": "https://forum.cfx.re/t/utility-objectify/"
+  },
+  {
+    "title": "ZEN - Minimal Server Core (v0.1.0)",
+    "description": "ZEN is a minimal, modular server core built to give each player a clean, isolated Lua object.",
+    "tags": ["Free"],
+    "link": "https://forum.cfx.re/t/zen-minimal-server-core-v0-1-0/"
+  },
+  {
+    "title": "Player Info & Control Panel Script",
+    "description": "This script provides a comprehensive and easy-to-use admin control panel designed for ESX-based FiveM servers.",
+	"category": "ESX Framework",
+    "tags": ["ESX required","Free"],
+    "link": "https://forum.cfx.re/t/free-esx-player-info-control-panel-script-open-source/"
+  },
+  {
+    "title": "[FREE] X VALET | ESX & QB",
+    "description": "Take your RP server to the next level with X Valet, the ultimate valet service script. Call in your vehicle anytime, anywhere — and a stylish NPC valet brings it right to you. Smooth, immersive, and built for high-end roleplay.",
+    "tags": ["QBCore/ESX required", "Free"],
+    "link": "https://forum.cfx.re/t/free-x-valet-esx-qb/"
+  },
+  {
+    "title": "Business & Gang Operation Statistics (QB)",
+    "description": "This script is specifically designed for the QB- framework, providing comprehensive data analysis on business and gang operations to help administrators monitor operational dynamics and optimize management decisions.",
+	"category": "QBCore Framework",
+	"tags": ["QBCore required", "Free"],
+    "link": "https://forum.cfx.re/t/business-gang-operation-statistics-qb/"
+  },
+  {
+    "title": "[QBCore] [FREE] Advcanced Crafting",
+    "description": "This free Advanced Crafting script by PureScripts delivers a highly optimized, clean user interface with real‑time, synchronized crafting across players. Featuring lazy loading, a powerful blueprint and search system, customizable bench types, and extensive developer-friendly exports/events—designed for standalone, QBCore, and ESX setups.",
+	"category": "QBCore Framework",
+    "tags": ["QBCore required", "Free"],
+    "link": "https://forum.cfx.re/t/free-advanced-crafting-purescripts-standalone-qbcore-esx/"
+  },
+  {
+    "title": "The Beach House | MLO ",
+    "description": "",
+    "tags": ["Free"],
+    "link": "https://forum.cfx.re/t/the-beach-house-mlo-free/"
+  },
+  {
+    "title": "Fivem Spawn Selector Script | Sweepz Spawn Select",
+    "description": "",
+    "tags": ["Paid"],
+    "link": "https://forum.cfx.re/t/fivem-spawn-selector-script-sweepz-spawn-select/"
+  },
+  {
+    "title": "BLIPS CREATOR",
+    "description": "",
+    "tags": ["Paid"],
+    "link": "https://forum.cfx.re/t/blips-creator-paid/"
+  },
+  {
+    "title": "[WEAPON] Plunger",
+    "description": "",
+    "tags": ["Paid"],
+    "link": "https://forum.cfx.re/t/weapon-plunger/"
+  },
+  {
+    "title": "Mirror Park Rock Club",
+    "description": "",
+    "tags": ["Paid"],
+    "link": "https://forum.cfx.re/t/mirror-park-rock-club/"
+  },
+  {
+    "title": "Advanced Water Pumps",
+    "description": "",
+    "tags": ["Paid"],
+    "link": "https://forum.cfx.re/t/script-advanced-water-pumps/"
+  },
+  {
+    "title": "Advanced Money Laundering Script",
+    "description": "",
+	"category": "QBCore Framework",
+    "tags": ["Paid"],
+    "link": "https://forum.cfx.re/t/advanced-money-laundering-script-esx-qbcore-incity-development/"
+  },
+  {
+    "title": "Premium Deluxe Motorsport",
+    "description": "",
+	"category": "MLO",
+    "tags": ["Paid"],
+    "link": "https://forum.cfx.re/t/premium-deluxe-motorsport-dealership-mlo/"
+  },
+  {
+    "title": "Sandy Repair Warehouse + Hookah Bar with Barber",
+    "description": "",
+	"category": "MLO",
+    "tags": ["Paid"],
+    "link": "https://forum.cfx.re/t/sandy-repair-warehouse-hookah-bar-with-barber-mlo/"
+  },
+  {
+    "title": "Utility Vape",
+    "description": "",
+    "tags": ["Paid"],
+    "link": "https://forum.cfx.re/t/utility-vape/"
+  },
+  {
+    "title": "FISHING SCRIPT",
+    "description": "",
+	"category": "ESX Framework",
+    "tags": ["Paid"],
+    "link": "https://forum.cfx.re/t/fishing-script-esx-qb/"
+  },
+  {
+    "title": "[ESX] Realistic & clean FiveM HUD",
+    "description": "",
+	"category": "ESX Framework",
+    "tags": ["Paid"],
+    "link": "https://forum.cfx.re/t/esx-realistic-clean-fivem-hud/"
+  },
+  {
+    "title": "[PAID][ESX/QB] Resources Gathering + custom weapons",
+    "description": "",
+    "tags": ["Paid"],
+    "link": "https://forum.cfx.re/t/paid-esx-qb-resources-gathering-custom-weapons/"
+  },
+  {
+    "title": "Legion Square V3",
+    "description": "",
+    "tags": ["Paid"],
+    "link": "https://forum.cfx.re/t/legion-square-v3/"
+  },
+  {
+    "title": "[PAID] Ultra Garage Society",
+    "description": "",
+    "tags": ["Paid"],
+    "link": "https://forum.cfx.re/t/paid-ultra-garage-society/"
+  },
+  {
+    "title": "Drug Smuggling - [QB / QBOX / ESX]",
+    "description": "",
+    "tags": ["Paid"],
+    "link": "https://forum.cfx.re/t/drug-smuggling-qb-qbox-esx/"
+  },
+  {
+    "title": "Tunerchip System with 6 Modes",
+    "description": "",
+    "tags": ["Paid"],
+    "link": "https://forum.cfx.re/t/tunerchip-system-with-6-modes/"
+  },
+  {
+    "title": "[FREE] Emote Wheel",
+    "description": "",
+    "tags": ["Free"],
+    "link": "https://forum.cfx.re/t/free-emote-wheel/"
+  },
+  {
+    "title": "Sauna Script",
+    "description": "",
+    "tags": ["Free"],
+    "link": "https://forum.cfx.re/t/sauna-script/"
+  },
+  {
+    "title": "Rs-Jobcentre",
+    "description": "",
+    "tags": ["Free"],
+    "link": "https://forum.cfx.re/t/rs-jobcentre/"
+  },
+  {
+    "title": "[FREE] Warehouse System | Renovax Scripts [BETA]",
+    "description": "",
+    "tags": ["Free"],
+    "link": "https://forum.cfx.re/t/free-warehouse-system-renovax-scripts-beta/"
+  },
+  {
+    "title": "Robot Dog - Addon Robot Ped",
+    "description": "",
+    "tags": ["Free"],
+    "link": "https://forum.cfx.re/t/robot-dog-addon-robot-ped/"
+  },
+  {
+    "title": "[PAID] The Tomb Hearse Motorcycle | TOS & Lore Friendly",
+    "description": "",
+    "tags": ["Paid"],
+    "link": "https://forum.cfx.re/t/paid-the-tomb-hearse-motorcycle-tos-lore-friendly/"
+  },
+  {
+    "title": "Weed Production",
+    "description": "",
+    "tags": ["Paid"],
+    "link": "https://forum.cfx.re/t/weed-production/"
+  },
+  {
+    "title": "Sauna Script",
+    "description": "",
+    "tags": ["Free"],
+    "link": "https://forum.cfx.re/t/sauna-script/"
+  },
+  {
+    "title": "[Paid] [Clothes] Sleeping Kitty Top",
+    "description": "",
+	"category": "Clothes",
+    "tags": ["Paid"],
+    "link": "https://forum.cfx.re/t/paid-clothes-sleeping-kitty-top/"
+  },
+  {
+    "title": "[Paid] [Clothes] Night Out Dress",
+    "description": "",
+	"category": "Clothes",
+    "tags": ["Paid"],
+    "link": "https://forum.cfx.re/t/paid-clothes-night-out-dress/"
+  },
+  {
+    "title": "[Paid] [Clothes] Leather Set",
+    "description": "",
+	"category": "Clothes",
+    "tags": ["Paid"],
+    "link": "https://forum.cfx.re/t/paid-clothes-leather-set/"
+  },
+  {
+    "title": "[Paid] [Clothes] Edgy Skirt",
+    "description": "",
+	"category": "Clothes",
+    "tags": ["Paid"],
+    "link": "https://forum.cfx.re/t/paid-clothes-edgy-skirt/"
+  },
+  {
+    "title": "[Free] Private Worlds",
+    "description": "",
+    "tags": ["Paid"],
+    "link": "https://forum.cfx.re/t/five...private-worlds/"
+  },
+  {
+    "title": "[PAID] Add On Ped Bundle",
+    "description": "",
+    "tags": ["Paid"],
+    "link": "https://forum.cfx.re/t/jack-jill-the-jackrabbits-addon-ped-bundle/"
+  },
+  {
+    "title": "Advanced Dispatch V2 | Dispatch and GPS system.",
+    "description": "",
+    "tags": ["Paid"],
+    "link": "https://forum.cfx.re/t/advanced-dispatch-v2-dispatch-and-gps-system/"
+  },
+  {
+    "title": "[FREE] SimpleCarlock",
+    "description": "",
+    "tags": ["Free"],
+    "link": "https://forum.cfx.re/t/simplecarlock/"
+  },
+  {
+    "title": "[Free] Compact Apartment Shell",
+    "description": "",
+    "tags": ["Free"],
+    "link": "https://forum.cfx.re/t/compact-apartment-shell/"
+  },
+  {
+    "title": "[QBCore] Fishing | Nets, tournaments, leaderboards and more",
+    "description": "",
+	"category": "QBCore Framework",
+    "tags": ["Paid"],
+    "link": "https://forum.cfx.re/t/qbcore-fishing-nets-tournaments-leaderboards/"
+  },
+  {
+    "title": "[PAID] Advanced Tape Script",
+    "description": "",
+    "tags": ["Paid"],
+    "link": "https://forum.cfx.re/t/advanced-tape-script/"
+  },
+  {
+    "title": "[FREE] [ESX/QBCORE] Phone Charger",
+    "description": "",
+	"category": "QBCore Framework",
+    "tags": ["Free"],
+    "link": "https://forum.cfx.re/t/free-esx-qbcore-phone-charger/"
+  },
+  {
+    "title": "Prop items for ox_inventory (ESX, QB, OX, ND)",
+    "description": "",
+    "tags": ["Free"],
+    "link": "https://forum.cfx.re/t/prop-items-for-ox_inventory/"
+  },
+  {
+    "title": "[PAID] Triad’s Gang Coats Clothing Package!",
+    "description": "",
+    "tags": ["Paid"],
+    "link": "https://forum.cfx.re/t/triads-gang-coats-clothing-package/"
+  },
+  {
+    "title": "Anti-AFK Captcha System",
+    "description": "",
+	"category": "QBCore Framework",
+    "tags": ["Free"],
+    "link": "https://forum.cfx.re/t/anti-afk-captcha-system/"
+  }
+]

@@ -1,0 +1,182 @@
+[ 
+	{
+		"title": "Stack Size Controller",
+		"description": "Allows setting the max stack size of every item",
+		"category": "inventory",
+		"link": "https://umod.org/plugins/stack-size-controller"
+	},
+	{
+		"title": "Gather Manager",
+		"description": "Increases the amount of items gained from gathering resources",
+		"category": "mechanics",
+		"link": "https://umod.org/plugins/gather-manager"
+	},
+	{
+		"title": "Vanish",
+		"description": "Allows players with permission to become truly invisible",
+		"category": "administration",
+		"link": "https://umod.org/plugins/vanish"
+	},
+	{
+		"title": "NTeleportation",
+		"description": "Multiple teleportation systems for admin and players",
+		"category": "teleport",
+		"link": "https://umod.org/plugins/nteleportation"
+	},
+	{
+		"title": "Rust Kits",
+		"description": "Item kits, autokits, kit cooldowns, and more",
+		"category": "administration",
+		"link": "https://umod.org/plugins/rust-kits"
+	},
+	{
+		"title": "Admin Radar",
+		"description": "Item kits, autokits, kit cooldowns, and more",
+		"category": "administration",
+		"link": "https://umod.org/plugins/admin-radar"
+	},
+	{
+		"title": "Remover Tool",
+		"description": "Building and entity removal tool",
+		"category": "administration",
+		"link": "https://umod.org/plugins/remover-tool"
+	},
+	{
+		"title": "Image Library",
+		"description": "Plugin API for managing images",
+		"category": "api",
+		"link": "https://umod.org/plugins/image-library"
+	},
+	{
+		"title": "Backpacks",
+		"description": "Allows players to have backpacks that provide them with extra inventory space",
+		"category": "inventory",
+		"link": "https://umod.org/plugins/backpacks"
+	},
+	{
+		"title": "No Give Notices",
+		"description": "Prevents F1 item giving notices from showing in the chat",
+		"category": "administration",
+		"link": "https://umod.org/plugins/no-give-notices"
+	},
+	{
+		"title": "Quick Smelt",
+		"description": "Prevents F1 item giving notices from showing in the chat",
+		"category": "mechanics",
+		"link": "https://umod.org/plugins/quick-smelt"
+	},
+	{
+		"title": "Furnace Splitter",
+		"description": "Splits up ores into equal stacks when you put them into furnaces",
+		"category": "mechanics",
+		"link": "https://umod.org/plugins/furnace-splitter"
+	},
+	{
+		"title": "Better Loot",
+		"description": "A complete re-implementation of the drop system",
+		"category": "mechanics",
+		"link": "https://umod.org/plugins/better-loot"
+	},
+	{
+		"title": "Copy Paste",
+		"description": "Copy and paste your buildings to save them or move them",
+		"category": "building",
+		"link": "https://umod.org/plugins/copy-paste"
+	},
+	{
+		"title": "Death Notes",
+		"description": "Broadcasts deaths to chat along with detailed information.",
+		"category": "notifications",
+		"link": "https://umod.org/plugins/death-notes"
+	},
+	{
+		"title": "Info Panel",
+		"description": "GUI panel with in-game clock, online players, sleepers and custom messages, etc.",
+		"category": "gui",
+		"link": "https://umod.org/plugins/info-panels"
+	},
+	{
+		"title": "Admin Panel",
+		"description": "A small GUI panel of clickable commands for admins",
+		"category": "administration",
+		"link": "https://umod.org/plugins/admin-panel"
+	},
+	{
+		"title": "Instant Craft",
+		"description": "Allows players to instantly craft items with features",
+		"category": "crafting",
+		"link": "https://umod.org/plugins/instant-craft"
+	},
+	{
+		"title": "Time Of Day",
+		"description": "Alters the day and night duration",
+		"category": "administration",
+		"link": "https://umod.org/plugins/time-of-day"
+	},
+	{
+		"title": "ZLevels Remastered",
+		"description": "Alters the day and night duration",
+		"category": "leveling",
+		"link": "https://umod.org/plugins/zlevels-remastered"
+	},
+	{
+	  "title": "Skins",
+	  "description": "Change workshop skins of items easily",
+	  "category": "skins",
+	  "link": "https://umod.org/plugins/skins"
+	},
+	{
+	  "title": "Crafting Controller",
+	  "description": "Allows you to modify the time spend crafting and which items can be crafted",
+	  "category": "crafting",
+	  "link": "https://umod.org/plugins/crafting-controller"
+	},
+	{
+	  "title": "Zone Manager",
+	  "description": "Advanced zone manager for creating in-game zones",
+	  "category": "zones",
+	  "link": "https://umod.org/plugins/zone-manager"
+	},
+	{
+	  "title": "Magic Loot",
+	  "description": "Simple components multiplier and loot system",
+	  "category": "loot",
+	  "link": "https://umod.org/plugins/magic-loot"
+	},
+	{
+	  "title": "Player Administration",
+	  "description": "Player Administration provides a simple-to-use GUI that helps admins moderate users.",
+	  "category": "administration",
+	  "link": "https://umod.org/plugins/player-administration"
+	},
+	{
+	  "title": "Auto Doors",
+	  "description": "Automatically closes doors behind players after the default amount of seconds or as set by them.",
+	  "category": "mechanics",
+	  "link": "https://umod.org/plugins/auto-doors"
+	},
+	{
+	  "title": "True PVE",
+	  "description": "True PVE is a damage control plugin originally intended to improve the default server PVE mode (server.pve = true) for servers who wish to truly be PVE. This plugin can be used to fine-tune PVP behavior as well, enabling a range of damage control configurations to be implemented to customize PVP, PVE, and anything in between.",
+	  "category": "pve",
+	  "link": "https://umod.org/plugins/true-pve"
+	},
+	{
+	  "title": "BGrade",
+	  "description": "This plugin can automatically upgrade building blocks upon placement. Allowing players to upgrade their building blocks with ease, preventing the needed use of the Hammer.",
+	  "category": "mechanics",
+	  "link": "https://umod.org/plugins/bgrade"
+	},
+	{
+	  "title": "Raidable Bases",
+	  "description": "Create fully automated raidable bases with NPCs",
+	  "category": "raid",
+	  "link": "https://umod.org/plugins/raidable-bases"
+	},
+	{
+	  "title": "Blueprint Manager",
+	  "description": "This plugin allows server owners to create a highly customizable blueprint experience. Allowing for on demand BP access via commands, permission and timed access after wipe.",
+	  "category": "mechanics",
+	  "link": "https://umod.org/plugins/blueprint-manager"
+	}
+]

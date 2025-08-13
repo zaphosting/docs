@@ -1,0 +1,122 @@
+[
+  {
+    "title": "Alien Biomes",
+    "description": "A collection of additional biomes: Snow, Volcanic, Crater, various colors of Dirt, Sand and Grass. Includes new tree and decorative variants. There are planet controls in the mod options. When used with Space Age, only Nauvis will be affected.",
+    "category": "Tweaks",
+    "link": "https://mods.factorio.com/mod/alien-biomes"
+  },
+  {
+    "title": "Earendel",
+    "description": "The helpful information directory and guide to the galaxy. Allows mods to put help and documentation pages in game. Default hotkey is I.",
+    "category": "Utilities",
+    "link": "https://mods.factorio.com/user/Earendel"
+  },
+  {
+    "title": "Informatron",
+    "description": "Lets you build jetpack equipment that lets you rocket at high speeds to fly over buildings and water.",
+    "category": "Content",
+    "link": "https://mods.factorio.com/mod/informatron"
+  },
+  {
+    "title": "Earendel",
+    "description": "A set of containers in the Factorio style with multiple options for inventory sizes. Chest 1x1, Strongbox 2x2, Storehouse 4x4, and Warehouse 6x6. Logistic and non-logistic variants of all. Container colour uses masks so other mods can modify the tint (for colour blindness etc).",
+    "category": "Content",
+    "link": "https://mods.factorio.com/user/Earendel"
+  },
+  {
+    "title": "Jetpack",
+    "description": "The industry part of Advanced Autonomous Industries. Adds burner machines, some new intermediate ingredients, powered offshore pumps, and more. Alters tech and recipes. Other AAI mods are not required.",
+    "category": "Content",
+    "link": "https://mods.factorio.com/mod/jetpack"
+  },
+  {
+    "title": "Earendel",
+    "description": "Projects an energy shield in an arc, a wall that only needs energy to sustain it. Designed for Space Exploration & AAI Industry.\nSpace Age compatibility is not fully working yet! (See changelog)",
+    "category": "Content",
+    "link": "https://mods.factorio.com/user/Earendel"
+  },
+  {
+    "title": "AAI Containers & Warehouses",
+    "description": "Allows sending of signals from anywhere to anywhere, even between planets. Unlimited distances. No surface restrictions.",
+    "category": "Content",
+    "link": "https://mods.factorio.com/mod/aai-containers"
+  },
+  {
+    "title": "Earendel",
+    "description": "Very occasionally if you have heavy logistic bot congestion a logistic bot will crash. This means logistic bots are best used for higher value items like engines or power poles, using them for low value items like ore and copper wire is OK but less resource efficient. The goal is not to stop the use of bots, but to provide a small incentive to use belts in some situations late-game.",
+    "category": "Tweaks",
+    "link": "https://mods.factorio.com/user/Earendel"
+  },
+  {
+    "title": "AAI Industry",
+    "description": "Assistant for planning your factory. Can calculate required ingredients, products, machines, modules, and beacons. Can also calculate power production / consumption.",
+    "category": "Utilities",
+    "link": "https://mods.factorio.com/mod/aai-industry"
+  },
+  {
+    "title": "Earendel",
+    "description": "Modifies CTRL + Click Drag to evenly distribute the items over multiple buildings.\n\nAlso adds Inventory Cleanup hotkey (SHIFT+C) which evenly distributes unneeded items from inventory into nearby machines.",
+    "category": "Utilities",
+    "link": "https://mods.factorio.com/user/Earendel"
+  },
+  {
+    "title": "Shield Projector",
+    "description": "Adds bullet trails to machine gun type bullets. Works with gun turrets, guns, vehicle-mounted guns, and anything else that uses that type of ammo.",
+    "category": "Tweaks",
+    "link": "https://mods.factorio.com/mod/shield-projector"
+  },
+  {
+    "title": "Earendel",
+    "description": "Adds hotkeys and a GUI to adjust inserter pickup and drop locations.",
+    "category": "Tweaks",
+    "link": "https://mods.factorio.com/user/Earendel"
+  },
+  {
+    "title": "AAI Signal Transmission",
+    "description": "An overhaul mod focusing on end-game technologies and moderately increased complexity.",
+    "category": "Overhaul",
+    "link": "https://mods.factorio.com/mod/aai-signal-transmission"
+  },
+  {
+    "title": "Earendel",
+    "description": "FNEI mod. All recipes for items and usage for them.",
+    "category": "Utilities",
+    "link": "https://mods.factorio.com/user/Earendel"
+  },
+  {
+    "title": "Robot Attrition",
+    "description": "Calculate maximum production and consumption rates for the selected machines.",
+    "category": "Utilities",
+    "link": "https://mods.factorio.com/mod/robot_attrition"
+  },
+  {
+    "title": "Earendel",
+    "description": "This mod marks drills that have no more resources to mine for deconstruction.",
+    "category": "Utilities",
+    "link": "https://mods.factorio.com/user/Earendel"
+  },
+  {
+    "title": "Helmod: Assistant for planning your factory",
+    "description": "Overhauls certain combat mechanics. Walls block most enemy projectiles such as spitters and enemy shotgun shells. Your projectiles can still go over your own walls. Units and structures are assigned the appropriate biological/mechanical and flying/ground-unit/ground-static tags so that can be affected by or immune to certain effects. Has multiple mod options including things like flying units and vehicles to not be affected by acid pools on the ground.",
+    "category": "Tweaks",
+    "link": "https://mods.factorio.com/mod/helmod"
+  },
+  {
+    "title": "Helfima",
+    "description": "Adds logistic related things.",
+    "category": "Content",
+    "link": "https://mods.factorio.com/user/Helfima"
+  },
+  {
+    "title": "Even Distribution",
+    "description": "Fire a grapple, if it finds a suitable location near the target position the player will be pulled to that location. Can be used to jump over buildings and cross water. If used with the Space Exploration, it can be used to pull yourself back to your space station if you fall off.",
+    "category": "Content",
+    "link": "https://mods.factorio.com/mod/even-distribution"
+  },
+  {
+    "title": "321freddy",
+    "description": "Text shaped metal plates for signs and labels. Letters, numbers and symbols. Iron, copper, large and small variants.",
+    "category": "Utilities",
+    "link": "https://mods.factorio.com/user/321freddy"
+  }
+]
