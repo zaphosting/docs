@@ -8,6 +8,8 @@ services:
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
+import SearchableAccordion from '@site/src/components/SearchableAccordion/SearchableAccordion';
+import items from '@site/data/faqs/webspace-introduction-en.json';
 
 ## Introduction
 
@@ -52,3 +54,8 @@ Due to the favorable price, performance, extensive access permissions, and the a
 - Websites
 - Databases
 - Mail traffic
+
+
+## Frequently Asked Questions
+Got more questions about our Webspace product? Get answers to everything you want to know about features, benefits, setup and how to use it effectively. This way you get the info you need to make the most of our Webspace product. And if something is still unclear, just reach out and we are here to help you right away.
+<SearchableAccordion items={items} />

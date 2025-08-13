@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Was ist der Unterschied zwischen dem TeamSpeak MyMusicBot und einem Discord Bot Server?",
+    "content": "Der TeamSpeak MyMusicBot ist ein spezialisierter Voice-Bot für TS3/Discord, der Musik abspielt – inklusive YouTube-Browser, Shoutcast-Support, Text-to-Speech und Begrüßungsnachrichten – alles über eine elegante Weboberfläche. Ein Discord Bot Server hingegen stellt eine vollwertige Hosting-Umgebung (Node.js, Java oder Python) bereit, auf der du deine eigenen Discord-Bots dauerhaft betreiben kannst – inklusive FTP-Zugriff und DDoS-Schutz."
+  },
+  {
+    "title": "Kann ich Musik und Playlists in den MusicBot hochladen?",
+    "content": "Ja. Dir stehen bis zu 50 GB SSD-Speicher zur Verfügung, um Musik hochzuladen. Du kannst YouTube oder Shoutcast direkt in der Oberfläche durchsuchen, Playlists verwalten, Begrüßungsnachrichten setzen oder TTS nutzen – alles über ein einfaches GUI."
+  },
+  {
+    "title": "Welche Programmiersprachen werden vom Discord Bot Server unterstützt?",
+    "content": "Der Discord Bot Server unterstützt Node.js, Java und Python. Du wählst die Sprache im Webinterface, lädst deine Bot-Dateien via FTP hoch und lässt deinen Bot durchgehend laufen – inklusive DDoS-Schutz."
+  },
+  {
+    "title": "Wie schnell ist mein VoiceBot-Produkt nach der Bestellung einsatzbereit?",
+    "content": "Der Setup erfolgt vollständig automatisch. Nach Bestellung und Zahlung ist dein VoiceBot (MyMusicBot oder Discord Bot Server) innerhalb weniger Minuten einsatzbereit."
+  },
+  {
+    "title": "Ist der VoiceBot gegen DDoS-Angriffe geschützt?",
+    "content": "Ja. Alle VoiceBot-Dienste von ZAP-Hosting, einschließlich MyMusicBot und Discord Bot Server, besitzen einen starken DDoS-Schutz für maximale Stabilität und Uptime."
+  },
+  {
+    "title": "Kann ich zwischen Prepaid- und Vertragsabwicklung wählen?",
+    "content": "Ja. Du kannst zwischen Prepaid-Abwicklung (Einmalzahlung) und Vertrag wählen. Bei Prepaid endet der Dienst, wenn du ihn nicht manuell verlängerst. Vertragsprodukte verlängern sich automatisch."
+  },
+  {
+    "title": "Wie lade ich meine Bot- oder Musikdaten hoch?",
+    "content": "Du lädst deine Dateien per FTP hoch. Für Discord Bot Server überträgst du die Bot-Skripte und Abhängigkeiten; für MyMusicBot deine Musikdateien. Beide Produkte bieten vollen FTP-Zugriff."
+  },
+  {
+    "title": "Kann ich später Ressourcen wie RAM oder Speicher erweitern?",
+    "content": "Ja, Upgrades sind jederzeit über das Webinterface möglich. Wenn dein Bot mehr Arbeitsspeicher oder Speicherplatz benötigt, kannst du das mit wenigen Klicks erweitern."
+  },
+  {
+    "title": "Unterstützt der MusicBot Text-to-Speech und Begrüßungsnachrichten?",
+    "content": "Ja. Der MyMusicBot bietet Text-to-Speech, anpassbare Begrüßungsnachrichten, YouTube-Browser, Shoutcast-Integration und weitere Funktionen."
+  },
+  {
+    "title": "Gibt es eine Beschränkung für SSD-Speicher oder Bandbreite beim VoiceBot?",
+    "content": "Der MusicBot bietet bis zu 50 GB SSD-Speicher. Discord Bot Server haben innerhalb der Fair-Use-Richtlinie keine Speicherbeschränkung; Speicherplatz ist im Allgemeinen unbegrenzt, sofern du nicht upgraden willst."
+  }
+]

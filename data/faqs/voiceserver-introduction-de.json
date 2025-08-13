@@ -1,0 +1,34 @@
+[
+  {
+    "title": "Kann ich die Slotanzahl nach der Miete ändern?",
+    "content": "Ja, die Slots können jederzeit über unsere Upgrade-/Downgrade-Funktion angepasst werden."
+  },
+  {
+    "title": "Kann ich meinen Teamspeak 3 Server mit meiner eigenen Domain verbinden?",
+    "content": "Ja. Für Domains bei uns gibt es eine Anleitung zur TS-Weiterleitung. Bei anderen Anbietern bitte dort nach den passenden Einstellungen fragen. Anleitung: https://zap-hosting.com/guides/docs/en/domain_teamspeak_redirect/"
+  },
+  {
+    "title": "Bietet ihr Teamspeak 5 Server an?",
+    "content": "Ja, diese sind bald verfügbar und laufen immer mit der neuesten Version. Mehr Infos: https://zap-hosting.com/en/teamspeak-5-server-hosting/"
+  },
+  {
+    "title": "Kann ich Kanälen auf meinem Teamspeak-Server Speechpower zuweisen?",
+    "content": "Ja, dies lässt sich in den Kanaleinstellungen festlegen, wenn du einen TS3-Server bei uns mietest."
+  },
+  {
+    "title": "Endet ein Prepaid-Server automatisch nach Ablauf der Laufzeit?",
+    "content": "Ja. Nach Ablauf wird er automatisch gesperrt. Du hast 14 Tage Zeit zur Verlängerung, bevor er gelöscht wird."
+  },
+  {
+    "title": "Wie verlängere ich meinen Prepaid-Teamspeak-Server?",
+    "content": "Vor Ablauf erhältst du Erinnerungs-E-Mails. Die Verlängerung ist über das Webinterface und bis zu 14 Tage nach Ablauf möglich."
+  },
+  {
+    "title": "Gibt es unbegrenzten Datei-Upload/-Download auf TS3-Servern?",
+    "content": "Es gilt ein Softlimit von 50 GB. Bei Überschreitung erhältst du eine Warnung und hast 3 Tage Zeit zur Reduzierung. Auf eigenen Servern gelten die Limits des gebuchten Systems."
+  },
+  {
+    "title": "Kann ich einen Prepaid-Server mit einer anderen Laufzeit verlängern?",
+    "content": "Ja. Nach Ablauf kannst du für die Verlängerung eine neue Abrechnungsperiode wählen. Bei Vertragsservern nicht möglich."
+  }
+]

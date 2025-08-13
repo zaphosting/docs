@@ -8,6 +8,8 @@ services:
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
+import SearchableAccordion from '@site/src/components/SearchableAccordion/SearchableAccordion';
+import items from '@site/data/faqs/voicebot-introduction-de.json';
 
 ## Einführung
 
@@ -24,3 +26,7 @@ Der Bestellvorgang ist ganz einfach. Wähle deine Wunschkonfiguration für deine
 
 ## Anwendungsbereiche
 Der Voicebot für Teamspeak 3 und Discord ist ein vielseitiges Tool, das für die Wiedergabe von Musik in Sprachkanälen verwendet wird. Verwende deinen Voicebot für Musik, Moderation, Interaktionen und vieles mehr! 
+
+## Häufig gestellte Fragen
+Du hast noch offene Fragen zu unserem Voicebot Produkt? Hier findest du Antworten auf alles, was dich rund um Funktionen, Vorteile, Einrichtung und Nutzung interessiert. So bekommst du schnell die Infos, die du brauchst, um unser Voicebot Produkt bestmöglich zu nutzen. Und wenn doch noch etwas unklar ist, melde dich einfach bei uns und wir helfen dir sofort weiter.
+<SearchableAccordion items={items} />

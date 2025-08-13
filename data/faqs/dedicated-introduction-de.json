@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Was passiert, wenn die Server-Hardware ausfällt?",
+    "content": "Im Falle eines Hardwaredefekts tauschen wir das betroffene Teil kostenlos aus."
+  },
+  {
+    "title": "Gibt es Unterschiede zwischen Lifetime- und Miet-Servern?",
+    "content": "Technisch gibt es keine Unterschiede. Bei längerer Inaktivität (kein Aufruf im Webinterface) kann der Server laut unseren AGB gestoppt oder gesperrt werden."
+  },
+  {
+    "title": "Kann ich später weitere IP-Adressen zu meinem Lifetime-Server hinzufügen?",
+    "content": "Ja, zusätzliche IP-Adressen können über die Upgrade-Funktion gebucht werden. Ein Downgrade ist nicht möglich."
+  },
+  {
+    "title": "Muss ich defekte Hardware bei einem Lifetime-Server selbst bezahlen?",
+    "content": "Nein. Defekte Hardware wird kostenlos ersetzt."
+  },
+  {
+    "title": "Kann ich eine individuelle Serverkonfiguration bestellen?",
+    "content": "Falls die gewünschte Konfiguration nicht verfügbar ist, können wir diese als Miet-Server zusammenstellen. Hardware-Upgrades für bestehende Systeme sind derzeit nicht möglich."
+  },
+  {
+    "title": "Bietet ihr Floating-IPs für Dedicated Server an?",
+    "content": "Nein, Floating-IPs sind derzeit für Dedicated Server nicht verfügbar."
+  },
+  {
+    "title": "Kann ich meinen Dedicated Server später aufrüsten?",
+    "content": "Ein späteres Hardware-Upgrade ist aktuell nicht möglich. Falls die gewünschte Konfiguration fehlt, können wir sie als Miet-Server für dich zusammenstellen."
+  },
+  {
+    "title": "Wie lange dauert die Bereitstellung eines Dedicated Servers?",
+    "content": "Lagernde Systeme sind meist innerhalb weniger Minuten einsatzbereit. Muss der Server erst gebaut werden, kann es bis zu 5 Tage dauern."
+  },
+  {
+    "title": "Wie viel Traffic ist bei Dedicated Servern enthalten?",
+    "content": "Es sind monatlich 5 TB Traffic nach Fair-Use-Bedingungen enthalten. Ein Zurücksetzen des Zählers kostet 9,99 €."
+  },
+  {
+    "title": "Habe ich vollen Zugriff und darf den Server weiterverkaufen?",
+    "content": "Du erhältst Zugriff über die iLO-Oberfläche und kannst das gewünschte Betriebssystem installieren. Lizenzen müssen ggf. separat gekauft werden. Account-Weitergabe ist nicht erlaubt, aber zusätzliche Nutzer können hinzugefügt werden und eine kommerzielle Nutzung wie die Vermietung virtueller Server ist gestattet."
+  }
+]

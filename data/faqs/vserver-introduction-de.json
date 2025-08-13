@@ -1,0 +1,62 @@
+[
+  {
+    "title": "Welche Vorteile hat ein VPS?",
+    "content": "Ein VPS ist eine kostengünstige Alternative zu einem Dedicated Server, da sich mehrere VPS-Instanzen die Hardware teilen. Dennoch erhält jeder VPS garantierte Ressourcen und volle Konfigurationsfreiheit, was ihn für anspruchsvolle Projekte wie Online-Shops oder individuelle Webservices geeignet macht."
+  },
+  {
+    "title": "Was genau ist ein VPS?",
+    "content": "Ein VPS (Virtual Private Server) ist eine virtuelle Maschine auf einem physischen Server. Jeder VPS hat ein eigenes Betriebssystem, eine eigene IP-Adresse und kann unabhängig verwaltet werden, teilt sich jedoch die Hardware-Ressourcen mit anderen VPS-Instanzen."
+  },
+  {
+    "title": "Wie funktioniert ein Upgrade bei langfristiger VPS-Miete?",
+    "content": "Ein Upgrade ist jederzeit über die Upgrade-/Downgrade-Funktion möglich. Der Preis wird entsprechend angepasst, und für den laufenden Abrechnungszeitraum zahlst du den anteiligen Differenzbetrag."
+  },
+  {
+    "title": "Wird CPU-Virtualisierung auf VPS unterstützt?",
+    "content": "Nein, CPU-Virtualisierung (VMX oder ähnlich) erfordert einen Dedicated Server."
+  },
+  {
+    "title": "Kann ich Websites oder SaaS-Dienste auf einem Lifetime-VPS hosten?",
+    "content": "Ja, es ist möglich, E-Commerce-Seiten, APIs, Blogs oder SaaS-Plattformen zu betreiben."
+  },
+  {
+    "title": "Kann ich Ubuntu per ISO auf einem Windows-VPS installieren?",
+    "content": "Nein, das ist nicht möglich."
+  },
+  {
+    "title": "Haben Rootserver die neueste Ubuntu-Version?",
+    "content": "Verfügbare Versionen können bei der Bestellung oder im Webinterface ausgewählt werden. Die neueste Version wird bald verfügbar sein."
+  },
+  {
+    "title": "Was passiert, wenn ich das 5-TB-Traffic-Limit überschreite?",
+    "content": "Der Traffic wird auf 10 Mbit/s gedrosselt, bis das Limit erhöht oder ein neuer Abrechnungszeitraum beginnt."
+  },
+  {
+    "title": "Kann ich die Hardware eines Lifetime-VPS aufrüsten?",
+    "content": "Bezahlte Upgrades (z. B. mehr RAM oder CPU-Kerne) sind möglich. Downgrades sind nicht verfügbar und Upgrades können nicht mit ZAP Coins bezahlt werden."
+  },
+  {
+    "title": "Was bedeutet Lifetime/Einmalzahlung bei einem VPS?",
+    "content": "Du zahlst einmal für einen Lifetime-VPS, und er bleibt verfügbar, solange du dich mindestens alle 3 Monate im Webinterface einloggst."
+  },
+  {
+    "title": "Kann ich meine Daten vor Ablauf eines Prepaid-VPS sichern?",
+    "content": "Ja, du kannst einen FTP-Server oder Backup-Lösungen verwenden, um deine Daten vor Vertragsende herunterzuladen."
+  },
+  {
+    "title": "Wird mein Windows-VPS wegen Updates neu gestartet?",
+    "content": "Automatische Updates können deaktiviert werden, jedoch kann Windows bei kritischen Patches trotzdem einen Neustart erzwingen. Manuelle Updates werden empfohlen."
+  },
+  {
+    "title": "Wie werden die Spielerslots auf einem VPS festgelegt?",
+    "content": "Die Slots können frei festgelegt werden, solange die gebuchte Hardware dafür ausreicht."
+  },
+  {
+    "title": "Gibt es eine Begrenzung für die Anzahl installierbarer Gameserver?",
+    "content": "Es gibt keine feste Begrenzung. Entscheidend ist vor allem der verfügbare Speicherplatz. Docker wird unterstützt, und Plugins können auf Spigot-Servern installiert werden."
+  },
+  {
+    "title": "Kann ich die IP meines VPS-Gameservers ändern?",
+    "content": "Du kannst eine Domain mit der IP deines Servers verknüpfen. Eine Anleitung dazu findest du in unserer Dokumentation."
+  }
+]

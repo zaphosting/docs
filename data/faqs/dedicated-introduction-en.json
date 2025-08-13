@@ -1,0 +1,42 @@
+[
+  {
+    "title": "What happens if the server hardware fails?",
+    "content": "In the event of hardware failure, we will replace the defective component at no cost."
+  },
+  {
+    "title": "Are there differences between Lifetime and rented Dedicated Servers?",
+    "content": "There are no technical differences. However, if a Lifetime Server remains inactive for an extended period (no access via the web interface), it may be stopped or blocked according to our terms."
+  },
+  {
+    "title": "Can I add more IP addresses to my Lifetime Server later?",
+    "content": "Yes, you can add IP addresses later via the upgrade function, but downgrades are not possible."
+  },
+  {
+    "title": "Do I have to pay for hardware replacement on a Lifetime Server?",
+    "content": "No. Any defective hardware components will be replaced free of charge."
+  },
+  {
+    "title": "Can I order a custom server configuration?",
+    "content": "If your desired configuration is not available, we can assemble it for you as a dedicated server for rental. Hardware upgrades for existing systems are currently not possible."
+  },
+  {
+    "title": "Do you offer floating IPs for Dedicated Servers?",
+    "content": "No, floating IPs are currently not available for dedicated server rentals."
+  },
+  {
+    "title": "Can I upgrade my dedicated server later?",
+    "content": "Upgrades of existing hardware are currently not possible. If the desired configuration is not available, we can build it for you as a rental."
+  },
+  {
+    "title": "How long does it take to set up a dedicated server?",
+    "content": "If the server is in stock, it is usually ready within minutes. If it needs to be assembled, it may take up to 5 days."
+  },
+  {
+    "title": "How much traffic is included with dedicated servers?",
+    "content": "Dedicated servers include 5 TB of monthly traffic under fair use. Additional traffic resets cost €9.99."
+  },
+  {
+    "title": "Do I have full access and can I resell my server?",
+    "content": "You have access via the iLO interface to install your preferred OS. OS licenses must be purchased separately if needed. Account sharing is not allowed, but additional users can be added for management and commercial use such as reselling virtual servers is permitted."
+  }
+]

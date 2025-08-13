@@ -1,0 +1,34 @@
+[
+  {
+    "title": "Does the MySQL database support SSL and multiple users?",
+    "content": "Plesk does not currently support SSL encryption for MySQL. However, you can create and manage multiple database users directly in Plesk."
+  },
+  {
+    "title": "Can I use an external domain with my webspace via Cloudflare?",
+    "content": "Yes. Add your webspace IP (DNS A record) in the domain settings and include the domain in Plesk. Guide: https://zap-hosting.com/guides/en/docs/webspace-adddomain"
+  },
+  {
+    "title": "What happens if I exceed the 500 GB traffic limit?",
+    "content": "If the limit is exceeded, the webspace will be blocked. Contact support to reactivate it."
+  },
+  {
+    "title": "Can I set up cron jobs with my webspace?",
+    "content": "Yes, cron jobs are available with all webspace packages."
+  },
+  {
+    "title": "Can the database be reached via IP?",
+    "content": "Yes, databases can generally be accessed via IP. If it doesn't work, support can help."
+  },
+  {
+    "title": "Is a Plesk license included?",
+    "content": "Yes, the Plesk license is included with your webspace package."
+  },
+  {
+    "title": "Can I connect external domains using nameservers?",
+    "content": "Yes. Guide: https://zap-hosting.com/guides/docs/en/webspace_adddomain/"
+  },
+  {
+    "title": "Can the database be used externally?",
+    "content": "Yes, your webspace database can also be accessed externally."
+  }
+]
