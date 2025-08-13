@@ -8,6 +8,8 @@ services:
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
+import SearchableItemList from '@site/src/components/SearchableItemList/SearchableItemList';
+import items from '@site/data/lists/rimworldtogether-mods.json';
 
 
 
@@ -80,3 +82,9 @@ Der Server muss angehalten werden, bevor du Mods hinzufügst oder bearbeitest, d
 Wenn du die gewünschten Plugins hochgeladen hast, starte deinen Server einfach wieder. Wenn dein Server das nächste Mal startet, sollten alle Mods, die du hinzugefügt hast, jetzt zum Server hinzugefügt sein.
 
 Du hast erfolgreich neue Mods auf deinem RimWorld Together Gameserver installiert!
+
+## Beliebte Mods
+
+Noch auf der Suche nach den perfekten Mods für deinen Server? Durchstöbere unsere sorgfältig zusammengestellte Liste mit den beliebtesten und am häufigsten empfohlenen Mods, um dein Spielerlebnis zu erweitern und deinem Server den letzten Feinschliff zu geben. Lass dich inspirieren und finde genau die Erweiterungen, die zu deinem Projekt passen.
+
+<SearchableItemList items={items} />
