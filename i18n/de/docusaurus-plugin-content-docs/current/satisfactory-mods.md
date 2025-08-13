@@ -8,6 +8,8 @@ services:
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
+import SearchableItemList from '@site/src/components/SearchableItemList/SearchableItemList';
+import items from '@site/data/lists/satisfactory-mods.json';
 
 ## Einführung
 
@@ -70,6 +72,12 @@ Sobald dies erledigt ist, stelle das Spielinstallationsprofil in der Satisfactor
 ![](https://screensaver01.zap-hosting.com/index.php/s/AfwKqcTetZgTQim/preview)
 
 Du solltest dich jetzt wie gewohnt über den Bereich **Server Manager** im Hauptmenü mit deinem Server verbinden können.
+
+## Beliebte Mods
+
+Noch auf der Suche nach den perfekten Mods für deinen Server? Durchstöbere unsere sorgfältig zusammengestellte Liste mit den beliebtesten und am häufigsten empfohlenen Mods, um dein Spielerlebnis zu erweitern und deinem Server den letzten Feinschliff zu geben. Lass dich inspirieren und finde genau die Erweiterungen, die zu deinem Projekt passen.
+
+<SearchableItemList items={items} />
 
 ## Abschluss
 
