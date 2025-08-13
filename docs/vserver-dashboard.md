@@ -102,6 +102,16 @@ Keep an eye on your monthly traffic usage. This section shows how much of your i
 
 
 
+## Resource Monitor
+
+Monitoring dashboard for your virtual server with live performance metrics: CPU usage, memory consumption, network throughput, and disk I/O statistics.
+
+![img](https://screensaver01.zap-hosting.com/index.php/s/aQWRa6yEbF7BbEC/preview)
+
+
+
+
+
 ### DDoS Manager
 
 View past DDoS attacks to better assess potential threats and patterns. Enable notifications for ongoing DDoS attacks on your server to react quickly when an incident occurs.

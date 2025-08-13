@@ -102,6 +102,14 @@ Behalte deinen monatlichen Trafficverbrauch im Auge. In diesem Abschnitt wird di
 
 
 
+## Resourcen-Monitor
+
+Monitoring-Dashboard für deinen vServer mit Live-Performance-Metriken: CPU-Auslastung, Speicherverbrauch, Netzwerk-Durchsatz und Disk-I/O-Statistiken.
+
+![img](https://screensaver01.zap-hosting.com/index.php/s/aQWRa6yEbF7BbEC/preview)
+
+
+
 ### DDoS Manager
 
 Zeige dir vergangene DDoS-Angriffe an, um potenzielle Bedrohungen und Muster besser einschätzen zu können. Aktiviere Benachrichtigungen über laufende DDoS-Angriffe auf deinen Server, um schnell zu reagieren, wenn ein Vorfall eintritt.
