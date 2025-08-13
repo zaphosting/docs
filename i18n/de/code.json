@@ -488,5 +488,29 @@
   "accordion.showMore": {
     "message": "Mehr anzeigen",
     "description": "Button to display additional accordion items"
+  },
+  "searchableItemList.all": {
+    "message": "Alle"
+  },
+  "searchableItemList.uncategorized": {
+    "message": "Uncategorized"
+  },
+  "searchableItemList.searchPlaceholder": {
+    "message": "Durchsuchen..."
+  },
+  "searchableItemList.showLess": {
+    "message": "Weniger anzeigen"
+  },
+  "searchableItemList.showMore": {
+    "message": "Mehr anzeigen"
+  },
+  "searchableItemList.openWebsite": {
+    "message": "Webseite öffnen"
+  },
+  "searchableItemList.counter": {
+    "message": "{shown} von {total} Inhalten werden angezeigt"
+  },
+  "searchableItemList.showMoreBtn": {
+    "message": "Mehr anzeigen"
   }
 }
