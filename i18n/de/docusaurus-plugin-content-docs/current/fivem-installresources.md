@@ -9,6 +9,9 @@ services:
 
 import YouTube from '@site/src/components/YouTube/YouTube';
 import InlineVoucher from '@site/src/components/InlineVoucher';
+import SearchableItemList from '@site/src/components/SearchableItemList/SearchableItemList';
+import items from '@site/data/lists/fivem-resources.json';
+
 
 ## Einführung
 
@@ -55,7 +58,11 @@ Bitte vergewissern dich, dass der Name des zuvor erstellten Ordners mit dem Name
 :::
 
 
+## Beliebte Ressourcen
 
+Noch auf der Suche nach den perfekten Ressourcen für deinen Server? Durchstöbere unsere sorgfältig zusammengestellte Liste mit den beliebtesten und am häufigsten empfohlenen Ressourcen, um dein Spielerlebnis zu erweitern und deinem Server den letzten Feinschliff zu geben. Lass dich inspirieren und finde genau die Erweiterungen, die zu deinem Projekt passen.
+
+<SearchableItemList items={items} />
 
 
 ## Abschluss
