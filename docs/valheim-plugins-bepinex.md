@@ -57,7 +57,7 @@ Some plugins may require being installed client-side on your PC too. Please refe
 
 You have successfully installed new BepInEx plugins to your Valheim gameserver!
 
-## Common Plugins
+## Popular Plugins
 
 Still looking for the perfect plugins for your server?
 

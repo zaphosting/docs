@@ -47,7 +47,7 @@ Loaded plugin Admin Logger v2.3.4 by AK
 
 
 
-## Common Plugins
+## Popular Plugins
 
 Still looking for the perfect plugins for your server?
 

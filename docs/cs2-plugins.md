@@ -31,7 +31,7 @@ The information about this is currently very limited and unclear. The current si
 However, apart from Sourcemod/Metamod, other projects are also being developed at the moment. One of these projects is [ResourceMod](https://resourcemod.net/) for example, which was recently presented on Reddit. However, the project is still under development and cannot be used at the moment. 
 
 
-## Common Plugins
+## Popular Plugins
 
 <SearchableItemList items={items} />
 
