@@ -502,8 +502,7 @@
     "message": "Weniger anzeigen"
   },
   "searchableItemList.showMore": {
-    "message": "Mehr anzeigen",
-    "description": "Button to display additional items"
+    "message": "Mehr anzeigen"
   },
   "searchableItemList.openWebsite": {
     "message": "Webseite öffnen"
