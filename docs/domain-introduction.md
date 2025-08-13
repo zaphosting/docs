@@ -8,6 +8,8 @@ services:
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
+import SearchableAccordion from '@site/src/components/SearchableAccordion/SearchableAccordion';
+import items from '@site/data/faqs/domain-introduction-en.json';
 
 ## Introduction
 
@@ -59,3 +61,7 @@ Due to the favorable price, administration and associated possibilities, a Domai
 - Mail service
 - Company identity and branding
 - Digital marketing and advertising
+
+## Frequently Asked Questions
+Got more questions about our Domain product? Get answers to everything you want to know about features, benefits, setup and how to use it effectively. This way you get the info you need to make the most of our Domain product. And if something is still unclear, just reach out and we are here to help you right away.
+<SearchableAccordion items={items} />

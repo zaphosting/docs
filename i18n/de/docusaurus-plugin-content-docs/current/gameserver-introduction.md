@@ -8,6 +8,8 @@ services:
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
+import SearchableAccordion from '@site/src/components/SearchableAccordion/SearchableAccordion';
+import items from '@site/data/faqs/gameserver-introduction-de.json';
 
 ## Einführung
 
@@ -41,3 +43,7 @@ Wir bieten eine breite Palette von Spielen an. Du findest die beliebtesten Spiel
 
 Neben beliebten Spielen wie **FiveM**, **Minecraft**, **SCP: Secret Laboratory**, **Valheim**, **ARK**,
 **Palworld**, **Enshrouded** bieten wir auch zahlreiche andere Spiele an wie **7 Days to Die**, **Alt:V**, **American Truck Simulator**, **Among Us**, **Arma 3**, **Assetto Corsa**, **Assetto Corsa Competizione**, **Avorion**, **Barotrauma**, **BeamMP**, **Conan Exiles**, **Core Keeper**, **CS 1.6**, **CS:GO**, **CS:S**, **CS2**, **DayZ**, **Don't Starve Together**, **ECO**, **Empyrion**, **Euro Truck Simulator**, **Factorio**, **Foundry**, **Garry's Mod**, **Last Oasis**, **Multi Theft Auto**, **Myth of Empires**, **Open.mp**, **Path of Titans**, **Project Zomboid**, **RageMP**, **RedM**, **Rust**, **Satisfactory**, **Space Engineers**, **Stormworks**, **Sunkenland**, **Terraria**, **Terratech Worlds**, **Unturned**, **Vein**, **V Rising** und viele mehr.
+
+## Häufig gestellte Fragen
+Du hast noch offene Fragen zu unserem Gameserver Produkt? Hier findest du Antworten auf alles, was dich rund um Funktionen, Vorteile, Einrichtung und Nutzung interessiert. So bekommst du schnell die Infos, die du brauchst, um unser Gameserver Produkt bestmöglich zu nutzen. Und wenn doch noch etwas unklar ist, melde dich einfach bei uns und wir helfen dir sofort weiter.
+<SearchableAccordion items={items} />

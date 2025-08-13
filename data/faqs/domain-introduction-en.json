@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Will my domain be extended when transferring to ZAP?",
+    "content": "Yes. When you transfer a domain to us, it will be renewed for one year starting from the transfer date."
+  },
+  {
+    "title": "Are domains included in the Webspace XtraXtra Large plan?",
+    "content": "No. Domains are not part of the package and must be purchased separately."
+  },
+  {
+    "title": "How can I protect my WHOIS contact details?",
+    "content": "You can manage and add alternative contact handles via the 'Handle Management' section in our web interface."
+  },
+  {
+    "title": "Is there a limit to the number of subdomains I can create?",
+    "content": "No. There is no restriction from our side on how many subdomains you can set up."
+  },
+  {
+    "title": "How can I connect my domain to my Minecraft server?",
+    "content": "If your domain is registered with us, you can link it to your Minecraft server using our EasyDNS module. Simply choose your server as the target."
+  },
+  {
+    "title": "Which nameservers should I use for an external domain?",
+    "content": "If you manage your domain externally, you should continue to use the nameservers provided by your external host."
+  },
+  {
+    "title": "Is HTTP or frame forwarding supported for domains?",
+    "content": "No. These types of redirects are not supported for domains. You would need a VPS, Root Server, or Dedicated Server to configure such forwarding."
+  },
+  {
+    "title": "Do webspace packages include DynDNS?",
+    "content": "No. Our webspace is managed with Plesk, which does not support DynDNS."
+  },
+  {
+    "title": "Why does my domain only have 360 days instead of 365?",
+    "content": "We calculate our annual billing cycle based on the German bank year, which consists of 360 days."
+  },
+  {
+    "title": "Are email addresses included with my domain?",
+    "content": "No. Ordering a domain does not include email services. You need webspace or a server to set up email accounts."
+  }
+]

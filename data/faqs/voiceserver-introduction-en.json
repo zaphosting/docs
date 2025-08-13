@@ -1,0 +1,34 @@
+[
+  {
+    "title": "Can I change the number of slots after renting the server?",
+    "content": "Yes, you can increase or decrease the number of slots anytime via our upgrade/downgrade feature."
+  },
+  {
+    "title": "Can I connect my Teamspeak 3 server to my own domain?",
+    "content": "Yes. For domains hosted with us, we provide a guide for TS forwarding. For other providers, contact them if settings differ. Guide: https://zap-hosting.com/guides/docs/en/domain_teamspeak_redirect/"
+  },
+  {
+    "title": "Do you offer Teamspeak 5 servers?",
+    "content": "Yes, they will be available soon and always run on the latest version for the best performance. Learn more here: https://zap-hosting.com/en/teamspeak-5-server-hosting/"
+  },
+  {
+    "title": "Can I assign Speechpower to channels on my Teamspeak server?",
+    "content": "Yes, this can be configured in the channel settings when renting a TS3 server from us."
+  },
+  {
+    "title": "Does a prepaid server end automatically after its term?",
+    "content": "Yes. It will lock automatically after the booked period ends. You have 14 days to renew before it is deleted."
+  },
+  {
+    "title": "How can I extend my prepaid Teamspeak server?",
+    "content": "You will receive reminder emails before expiration. Renewal is possible via the web interface and up to 14 days after the term ends."
+  },
+  {
+    "title": "Is there unlimited file upload/download on TS3 servers?",
+    "content": "Disk space is limited to 50 GB (soft limit). You get a warning if exceeded and have 3 days to reduce usage. Running TS3 on your own server follows that server’s limits."
+  },
+  {
+    "title": "Can I renew a prepaid server with a different term?",
+    "content": "Yes. After the term ends, you can choose a new billing cycle. Not available for contract servers."
+  }
+]

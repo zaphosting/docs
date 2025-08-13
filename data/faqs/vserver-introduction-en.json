@@ -1,0 +1,62 @@
+[
+  {
+    "title": "What are the benefits of using a VPS?",
+    "content": "A VPS offers a cost-effective alternative to a dedicated server, as the physical hardware is shared between multiple VPS instances. Each VPS still has guaranteed resources and full configuration freedom, making it suitable for demanding projects like online shops or custom web services."
+  },
+  {
+    "title": "What is a VPS exactly?",
+    "content": "A VPS (Virtual Private Server) is a virtual machine running on a physical server. Each VPS has its own operating system, IP address, and can be managed independently, while sharing hardware resources with other VPS instances."
+  },
+  {
+    "title": "How does upgrading work if I buy a VPS long-term?",
+    "content": "You can upgrade at any time via our upgrade/downgrade function. The monthly price will adjust accordingly, and for the current billing period, you'll pay the difference for the remaining days."
+  },
+  {
+    "title": "Is CPU virtualization supported on VPS?",
+    "content": "No, CPU virtualization (VMX or similar) requires a dedicated server."
+  },
+  {
+    "title": "Can I host websites or SaaS services on a lifetime VPS?",
+    "content": "Yes, hosting e-commerce sites, APIs, blogs, or SaaS platforms is possible."
+  },
+  {
+    "title": "Can I install Ubuntu on a Windows VPS via ISO?",
+    "content": "No, this is not supported."
+  },
+  {
+    "title": "Do root servers come with the latest Ubuntu version?",
+    "content": "Available versions can be selected during ordering or in the web interface. The latest version will be offered soon."
+  },
+  {
+    "title": "What happens if I exceed the 5TB traffic limit?",
+    "content": "Traffic is throttled to 10 Mbit/s until the limit is increased or the new billing period starts."
+  },
+  {
+    "title": "Can I upgrade hardware on a lifetime VPS?",
+    "content": "Paid upgrades (e.g., more RAM or CPU cores) are possible. Downgrades are not available and upgrades cannot be paid with ZAP Coins."
+  },
+  {
+    "title": "What does lifetime/once payment mean for a VPS?",
+    "content": "You pay once for a lifetime VPS, and it remains available as long as you log into the web interface at least once every 3 months."
+  },
+  {
+    "title": "Can I download my data before my prepaid VPS ends?",
+    "content": "Yes, you can use an FTP server or backup solutions to download your data before the contract ends."
+  },
+  {
+    "title": "Will my Windows VPS restart due to updates?",
+    "content": "You can disable automatic updates, but Windows may still force reboots for critical patches. Manual updates are recommended."
+  },
+  {
+    "title": "How are player slots determined on a VPS?",
+    "content": "Slots can be freely set, but you must ensure your booked hardware is sufficient."
+  },
+  {
+    "title": "Are there limits on the number of game servers I can install?",
+    "content": "No fixed limit. The main restriction is disk space. Docker is supported, and plugins can be installed on Spigot servers."
+  },
+  {
+    "title": "Can I change the IP for my VPS game server?",
+    "content": "You can link a domain to your server's IP address using our documentation."
+  }
+]
