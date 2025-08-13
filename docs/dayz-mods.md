@@ -8,6 +8,8 @@ services:
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
+import SearchableItemList from '@site/src/components/SearchableItemList/SearchableItemList';
+import items from '@site/data/lists/dayz-mods.json';
 
 ## Introduction
 
@@ -28,6 +30,11 @@ The next step is to start installing the mods. Thanks to the Steam Workshop opti
 ![](https://screensaver01.zap-hosting.com/index.php/s/j8ki4CQ6MALAgcX/preview)
 
 
+## Popular Mods
+
+Still looking for the perfect mods for your server? Browse through our carefully curated list of the most popular and highly recommended mods to enhance your gameplay and give your server the finishing touch it deserves. Get inspired and find exactly the additions that fit your project.
+
+<SearchableItemList items={items} />
 
 ## Conclusion
 
