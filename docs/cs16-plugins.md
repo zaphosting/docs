@@ -9,14 +9,14 @@ services:
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
+import SearchableItemList from '@site/src/components/SearchableItemList/SearchableItemList';
+import items from '@site/data/lists/cs16-plugins.json';
 
 ## Introduction
 
 **AMXmodX** and **Metamod** is necessary to use plugins on a Counter-Strike 1.6 server. These are two Half Life extensions that allow you to customize the server even more than usual. This includes for example the use of plugins and an extended administration of your server.
 
 <InlineVoucher />
-
-
 
 ## AMXmodX / Metamod installation
 
@@ -75,7 +75,12 @@ The next time the server starts, the uploaded plugins should then be loaded auto
 
 
 
+## Common Plugins
 
+Still looking for the perfect plugins for your server?
+ Browse through our carefully curated list of the most popular and highly recommended plugins to enhance your gameplay and give your server the finishing touch it deserves. Get inspired and find exactly the additions that fit your project.
+
+<SearchableItemList items={items} />
 
 ## Conclusion
 
