@@ -1,0 +1,38 @@
+[
+  {
+    "title": "ESX",
+    "description": "Das Framework ESX wurde 2017 von Taerox entwickelt und basiert auf dem früheren EssentialMode-Framework, das vom Entwickler kanersps stammt. EssentialMode gehörte zu den ersten Frameworks für FiveM. ESX entwickelte sich rasch zum beliebtesten Rollenspiel-Framework der Community.",
+    "category": "Roleplay",
+    "tags": [
+      "ROLEPLAY"
+    ],
+    "link": "https://github.com/esx-framework/esx_core"
+  },
+  {
+    "title": "QBCore",
+    "category": "Roleplay",
+    "description": "QBCore wurde 2021 von Kakarot veröffentlicht und stellt im Vergleich zu ESX ein deutlich jüngeres Framework dar. Es zeichnet sich durch moderne Strukturen und eine stetig wachsende Entwicklergemeinschaft aus.",
+    "tags": [
+      "ROLEPLAY"
+    ],
+    "link": "https://github.com/qbcore-framework/qb-core"
+  },
+  {
+    "title": "vRP",
+    "category": "Roleplay",
+    "description": "Das Framework vRP wurde 2017 von ImagicTheCat entwickelt und zählt zu den ersten Rollenspiel-Frameworks für FiveM. Es wurde über mehrere Jahre hinweg genutzt, gilt heute jedoch als veraltet.",
+    "tags": [
+      "ROLEPLAY"
+    ],
+    "link": "https://github.com/vRP-framework/vRP"
+  },
+  {
+    "title": "Dunko's vRP",
+    "category": "Roleplay",
+    "description": "Dunko's vRP entstand Anfang 2018 durch die Arbeit von Dunko und basiert auf dem ursprünglichen vRP-Framework. Auch dieses Framework war früh verbreitet, wird aber inzwischen als veraltet eingestuft.",
+    "tags": [
+      "ROLEPLAY"
+    ],
+    "link": "https://github.com/qbcore-framework/qb-core"
+  }
+]
