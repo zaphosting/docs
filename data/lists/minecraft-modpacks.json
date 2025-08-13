@@ -1,0 +1,702 @@
+[
+  {
+    "title": "Fabulously Optimized",
+    "description": "Beautiful graphics, speedy performance and familiar features in a simple package. 1.21.8 alpha!",
+    "tags": [],
+    "category": "lightweight",
+    "link": "https://modrinth.com/modpack/fabulously-optimized"
+  },
+  {
+    "title": "Zombie Invade 100 Days",
+    "description": "僵尸入侵 100 天（高版本惊变重制）—— Same as Forge Labs 100 Days Zombie Apocalypse in new Minecraft",
+    "tags": [],
+    "category": "challenging",
+    "link": "https://modrinth.com/modpack/zombie-invade-100-days"
+  },
+  {
+    "title": "Cobblemon Official Modpack [Fabric]",
+    "description": "The official modpack of the Cobblemon mod, for Fabric!",
+    "tags": [],
+    "category": "adventure",
+    "link": "https://modrinth.com/modpack/cobblemon-fabric"
+  },
+  {
+    "title": "Simply Optimized",
+    "description": "The leading, well-researched optimization modpack with a focus on pure performance.",
+    "tags": [],
+    "category": "lightweight",
+    "link": "https://modrinth.com/modpack/sop"
+  },
+  {
+    "title": "Sodium Plus",
+    "description": "A client-side optimization modpack with a few extra tweaks.",
+    "tags": [],
+    "category": "lightweight",
+    "link": "https://modrinth.com/modpack/sodiumplus"
+  },
+  {
+    "title": "The Pixelmon Modpack",
+    "description": "This Modpack includes everything you need as a pre-built Pixelmon exerience - The Pixelmon Mod, The Pixelmon OST, Journeymap, BYG, Natures/Explorers Compass.",
+    "tags": [],
+    "category": "adventure",
+    "link": "https://modrinth.com/modpack/the-pixelmon-modpack"
+  },
+  {
+    "title": "Better MC [FABRIC] - BMC2",
+    "description": "Version 1.20 | A Proper Vanilla+ Modpack | Don't play Vanilla play this!",
+    "tags": [],
+    "category": "adventure",
+    "link": "https://modrinth.com/modpack/better-mc-fabric-bmc2"
+  },
+  {
+    "title": "Pokemon Elysium",
+    "description": "Modpack originally made for the Pokemon Elysium server, a Cobblemon-focused pack with hints of low-tech steampunk.",
+    "tags": [],
+    "category": "adventure",
+    "link": "https://modrinth.com/modpack/pokemon-elysium"
+  },
+  {
+    "title": "OptiFabric",
+    "description": "Best alternative to OptiFine [1.16.5 - 1.21.8]",
+    "tags": [],
+    "category": "lightweight",
+    "link": "https://modrinth.com/modpack/optifabric-modpack"
+  },
+  {
+    "title": "Slimes Adventure",
+    "description": "that time i got reincarnated as a slime modpack for minecraft",
+    "tags": [],
+    "category": "adventure",
+    "link": "https://modrinth.com/modpack/slimes-adventure"
+  },
+  {
+    "title": "Vanilla Perfected",
+    "description": "A compilation of Vanilla Plus mods & packs to perfect the Minecraft experience without drifting too far from the feel of the base game!",
+    "tags": [],
+    "category": "adventure",
+    "link": "https://modrinth.com/modpack/vanilla-perfected"
+  },
+  {
+    "title": "Prominence II: Hasturian Era",
+    "description": "Content rich RPG focusing on balance. Full of custom content, 1000+ quests, and a story campaign!",
+    "tags": [],
+    "category": "quests",
+    "link": "https://modrinth.com/modpack/prominence-2-fabric"
+  },
+  {
+    "title": "Hoplite for Lunar Client",
+    "description": "Tailor-made list of popular mods to enhance your gameplay experience on Hoplite through Lunar Client, including in-game proximity voice chat.",
+    "tags": [],
+    "category": "combat",
+    "link": "https://modrinth.com/modpack/hoplite-for-lunar-client"
+  },
+  {
+    "title": "Aged",
+    "description": "realistic / medieval / progression based modpack for Fabric 1.20.1",
+    "tags": [],
+    "category": "adventure",
+    "link": "https://modrinth.com/modpack/aged"
+  },
+  {
+    "title": "Better MC [FORGE] - BMC4",
+    "description": "Version 1.20.1 | A Proper Vanilla+ Modpack | Don't play Vanilla play this!",
+    "tags": [],
+    "category": "adventure",
+    "link": "https://modrinth.com/modpack/better-mc-forge-bmc4"
+  },
+  {
+    "title": "红石生电优化【Redstone Survival Optimization】",
+    "description": "一个红石玩家必备的整合包，轻，快，小，是他的特点！A must-have integration package for a Redstone player, light, fast, and small, are his characteristics!",
+    "tags": [],
+    "category": "lightweight",
+    "link": "https://modrinth.com/modpack/rso"
+  },
+  {
+    "title": "Cobblemon Delta",
+    "description": "Pokemon Cobblemon Pack - QoL and Performance mods! The server included in the pack has Mega Evolution, Paradox Pokemon, Area Zero, Real Player Gyms, Raids, Dungeons, Pokemon Fishing!\n\nUpdated to 1.6!",
+    "tags": [],
+    "category": "adventure",
+    "link": "https://modrinth.com/modpack/cobblemondelta"
+  },
+  {
+    "title": "Remarkably Optimized",
+    "description": "1.16.5-1.21.8 | A performance mod pack to save your computer from doubling as a starchy spud with a remarkably optimized collection of mods!",
+    "tags": [],
+    "category": "lightweight",
+    "link": "https://modrinth.com/modpack/remarkably"
+  },
+  {
+    "title": "COBBLEVERSE - Pokemon Adventure [Cobblemon]",
+    "description": "Start a true Pokémon adventure in Minecraft: Cobblemon | ALL 1025 Pokémon! | Mega Evolutions | Gyms & Badges | Starter Kit | Unique Structures | Custom Music | Shaders | Optimized | So much more! [1.21.1]",
+    "tags": [],
+    "category": "adventure",
+    "link": "https://modrinth.com/modpack/cobbleverse"
+  },
+  {
+    "title": "Landscapes Reimagined Genesis",
+    "description": "Dive into adventure with our mod pack! Explore Terralith, marvel at YUNG's, MES, and MVS Structures; embrace the iconic Create mod and addons, pristine performance mods, embark on a captivating questline, and more!",
+    "tags": [],
+    "category": "adventure",
+    "link": "https://modrinth.com/modpack/landscapes-reimagined-genesis"
+  },
+  {
+    "title": "RealisticCraft",
+    "description": "Taking Minecraft realism to the next level.",
+    "tags": [],
+    "category": "adventure",
+    "link": "https://modrinth.com/modpack/realisticcraft"
+  },
+  {
+    "title": "FPS Modpack",
+    "description": "Minimal modpack optimized for improving game performance. \n\nIncludes only essential mods to boost FPS and reduce system load while maintaining stability and smooth gameplay.",
+    "tags": [],
+    "category": "lightweight",
+    "link": "https://modrinth.com/modpack/fps"
+  },
+  {
+    "title": "Skyblocker Modpack - Hypixel Skyblock",
+    "description": "[Hypixel Skyblock Modpack] This modpack includes common clientside utilities along with the skyblocker liap mod.",
+    "tags": [],
+    "category": "lightweight",
+    "link": "https://modrinth.com/modpack/skyblocker-modpack"
+  },
+  {
+    "title": "Cobblemon Official Modpack [NeoForge]",
+    "description": "The official modpack of the Cobblemon mod, for NeoForge!",
+    "tags": [],
+    "category": "adventure",
+    "link": "https://modrinth.com/modpack/cobblemon-forge"
+  },
+  {
+    "title": "the horrors in the fog",
+    "description": "a horror mod pack that is spooky",
+    "tags": [],
+    "category": "adventure",
+    "link": "https://modrinth.com/modpack/the-horrors-in-the-fog"
+  },
+  {
+    "title": "月亮工厂MCF 【Moon Create factory】",
+    "description": "以机械动力和社交为核心的整合包，通过机械设备和你朋友一起创造快乐的世界。体验更加浓厚的科技机械之美。\n\nAn integrated package centered on mechanical power and social interaction, creating a happy world with your friends through mechanical devices. Experience a stronger beauty of technology and machinery.",
+    "tags": [],
+    "category": "adventure",
+    "link": "https://modrinth.com/modpack/mcf"
+  },
+  {
+    "title": "Re-Console",
+    "description": "The flagship Console Edition modpack blending the classic console feel with  modern features. Now supports 1.20.1-1.21.8!",
+    "tags": [],
+    "category": "lightweight",
+    "link": "https://modrinth.com/modpack/legacy-minecraft"
+  },
+  {
+    "title": "Wynncraft for Lunar Client",
+    "description": "Tailor-made list of popular mods to enhance your gameplay experience while playing Wynncraft on Lunar Client.",
+    "tags": [],
+    "category": "combat",
+    "link": "https://modrinth.com/modpack/wynncraft-for-lunar-client"
+  },
+  {
+    "title": "THE DWELLERS",
+    "description": "Horror modpack adding multiple dwellers, Herobrine, and numerous horror and immersion mechanics to the game",
+    "tags": [],
+    "category": "adventure",
+    "link": "https://modrinth.com/modpack/dwellers-modpack"
+  },
+  {
+    "title": "Haste",
+    "description": "Designed Optimization for PojavLauncher\n\n✉️Notice Board✉️\nSupport Minecraft 1.21.1\nSupport Minecraft 1.21\nSupport Minecraft 1.20.6\nUpdate Minecraft 1.20.4\nUpdate Minecraft 1.20.2\nUpdate Minecraft 1.20.1\n\n2024.8.17",
+    "tags": [],
+    "category": "lightweight",
+    "link": "https://modrinth.com/modpack/plo"
+  },
+  {
+    "title": "ArdaCraft",
+    "description": "The modpack for the ArdaCraft server, a Lord of the Rings project re-creating J.R.R. Tolkien's Middle-earth in Minecraft.",
+    "tags": [],
+    "category": "multiplayer",
+    "link": "https://modrinth.com/modpack/ardacraft"
+  },
+  {
+    "title": "MCC Island for Lunar Client",
+    "description": "Tailor-made list of popular mods to enhance your gameplay experience on MCC Island through Lunar Client.",
+    "tags": [],
+    "category": "combat",
+    "link": "https://modrinth.com/modpack/mcc-island-for-lunar-client"
+  },
+  {
+    "title": "Additive",
+    "description": "1.21.7 beta - Simple and fast open-source OptiFine alternative for modern loaders. Designed for players, content creators, and more",
+    "tags": [],
+    "category": "lightweight",
+    "link": "https://modrinth.com/modpack/additive"
+  },
+  {
+    "title": "Distant Horizons & Iris Shaders",
+    "description": "A STABLE, 100 PERCENT WORKING modpack for Distant Horizons & Iris Shaders compatibility.",
+    "tags": [],
+    "category": "optimization",
+    "link": "https://modrinth.com/modpack/distant-horizons-iris-shaders"
+  },
+  {
+    "title": "Servidor Jornadas Cobblemon",
+    "description": "Modpack oficial do servidor Jornadas Cobblemon.",
+    "tags": [],
+    "category": "adventure",
+    "link": "https://modrinth.com/modpack/jornadas-cobblemon"
+  },
+  {
+    "title": "Optimized fps",
+    "description": "Modpack Featuring Performance Mods on (Neo)Forge",
+    "tags": [],
+    "category": "lightweight",
+    "link": "https://modrinth.com/modpack/optimized-fps"
+  },
+  {
+    "title": "最小的机械动力",
+    "description": "一个机械动力玩家必备的整合包，轻，快，小是它的特点！",
+    "tags": [],
+    "category": "lightweight",
+    "link": "https://modrinth.com/modpack/minimalcreate"
+  },
+  {
+    "title": "Low Res Trailer Recreation",
+    "description": "This pack aims to recreate the amazing visuals of the Minecraft Trailers inside the vanilla game.",
+    "tags": [],
+    "category": "optimization",
+    "link": "https://modrinth.com/modpack/low-res-trailer-recreation"
+  },
+  {
+    "title": "BlockFront",
+    "description": "Official mod pack for the BlockFront mod",
+    "tags": [],
+    "category": "challenging",
+    "link": "https://modrinth.com/modpack/blockfront-mod-pack"
+  },
+  {
+    "title": "XPlus PerioTable Modpack (Fabric)",
+    "description": "A modpack contains mods that improve the vanilla game experience without changing the game's mechanism.",
+    "tags": [],
+    "category": "adventure",
+    "link": "https://modrinth.com/modpack/xplus-2.0-modpack-global"
+  },
+  {
+    "title": "Cobblemon Brasil [Mobile]",
+    "description": "Mod optimized and translated into PT-BR, made to run Cobblemon on Mobile with Pojav.",
+    "tags": [],
+    "category": "adventure",
+    "link": "https://modrinth.com/modpack/brasil-cobblemon-mobile"
+  },
+  {
+    "title": "The Lost Era Modpack",
+    "description": "Designed for players of all skill levels to fully utilize modded content, be it Magic, Tech, and more.",
+    "tags": [],
+    "category": "kitchen-sink",
+    "link": "https://modrinth.com/modpack/the-lost-era"
+  },
+  {
+    "title": "Cave Horror Project 1",
+    "description": "Forge 1.20.1 | Version 3.0 now out! | Best horror modpack with quests and story! PLAY NOW!",
+    "tags": [],
+    "category": "adventure",
+    "link": "https://modrinth.com/modpack/cave-horror-project-modpack"
+  },
+  {
+    "title": "Create Live 5",
+    "description": "Skyblock Modpack, which is all about the Mod Create",
+    "tags": [],
+    "category": "challenging",
+    "link": "https://modrinth.com/modpack/create-live-5"
+  },
+  {
+    "title": "Cobblemon Expanded (by Jonathan)",
+    "description": "Cobblemon with missing features added in! Pokémon Towns, rideable Pokémon, Mega Evolutions, Gym Leaders, Pokémon plushies, and more!",
+    "tags": [],
+    "category": "adventure",
+    "link": "https://modrinth.com/modpack/jonathans-cobblemon-pack"
+  },
+  {
+    "title": "Adrenaline",
+    "description": "1.21.7 beta - Leading, lightweight performance modpack with no QoL features, now with server support!",
+    "tags": [],
+    "category": "lightweight",
+    "link": "https://modrinth.com/modpack/adrenaline"
+  },
+  {
+    "title": "Parasites: Reloaded",
+    "description": "You're thrown into a post-nuclear world overrun by parasitic creatures focused on consuming what's left of humanity. The world will push you to your limits as you fight to survive against the relentless onslaught of these horrifying parasites.",
+    "tags": [],
+    "category": "adventure",
+    "link": "https://modrinth.com/modpack/parasites-reloaded"
+  },
+  {
+    "title": "Versatile",
+    "description": "Versatile is a combination of all the Luna Pixel Studios Modpacks & more!",
+    "tags": [],
+    "category": "adventure",
+    "link": "https://modrinth.com/modpack/versatile"
+  },
+  {
+    "title": "SVC for Lunar Client",
+    "description": "A light-weight modpack to jump straight into a world with friends, using Simple Voice Chat, on Lunar Client.",
+    "tags": [],
+    "category": "lightweight",
+    "link": "https://modrinth.com/modpack/svc-for-lunar-client"
+  },
+  {
+    "title": "Elysium Days",
+    "description": "A modpack that tries to make Minecraft fun again!",
+    "tags": [],
+    "category": "adventure",
+    "link": "https://modrinth.com/modpack/elysium-days"
+  },
+  {
+    "title": "HORIZONS",
+    "description": "The Horizons Project is a modpack created for rubius. Released so that others can enjoy the same experience as well.",
+    "tags": [],
+    "category": "adventure",
+    "link": "https://modrinth.com/modpack/horizons1"
+  },
+  {
+    "title": "Optimization",
+    "description": "🪽 Maximum performance, eliminates stuttering, and speeds up anything while not breaking vanilla. Sodium, Vulkan, Embeddium and Nothirium. Used to be called Wing.",
+    "tags": [],
+    "category": "lightweight",
+    "link": "https://modrinth.com/modpack/optimizationn"
+  },
+  {
+    "title": "Official HeroPack-Verse SuperHeroes Server",
+    "description": "A Server for the FiskHeroes / Fisk's SuperHeroes mod that utilizes Official HeroPacks",
+    "tags": [],
+    "category": "adventure",
+    "link": "https://modrinth.com/modpack/heropack-verse-fiskheroes-server"
+  },
+  {
+    "title": "Performium",
+    "description": "The only performance modpack you'll ever need.",
+    "tags": [],
+    "category": "lightweight",
+    "link": "https://modrinth.com/modpack/performium-was-taken"
+  },
+  {
+    "title": "AnimateCraft: Lankeren",
+    "description": "Make the game more animation-like and immersive, with the an Original Story about  Minecraft epic history and your RPG adventure, and beyond.",
+    "tags": [],
+    "category": "adventure",
+    "link": "https://modrinth.com/modpack/animatecraft-lankeren"
+  },
+  {
+    "title": "Fresh & Smooth",
+    "description": "Making Minecraft As Animated, and As Fresh As possible (similar to Actions & Stuff pack)",
+    "tags": [],
+    "category": "adventure",
+    "link": "https://modrinth.com/modpack/fresh-smooth"
+  },
+  {
+    "title": "Cobblemon Optimized (Pokemon Modpack)",
+    "description": "Lag free Cobblemon Experience!",
+    "tags": [],
+    "category": "adventure",
+    "link": "https://modrinth.com/modpack/cobblemon-opted"
+  },
+  {
+    "title": "Create+",
+    "description": "A truly vanilla+ modpack with a focus on Create and its addons as well as your experience playing with them.",
+    "tags": [],
+    "category": "lightweight",
+    "link": "https://modrinth.com/modpack/create_plus"
+  },
+  {
+    "title": "Chaseter's Spoopy Modpack",
+    "description": "A modpack for Chaseter's Spoopy challenge video!",
+    "tags": [],
+    "category": "adventure",
+    "link": "https://modrinth.com/modpack/chaseters-spoopy-modpack"
+  },
+  {
+    "title": "Hope and despair",
+    "description": "The high version of the popular gameplay \"100 Days of Shock\" is remastered and unique!",
+    "tags": [],
+    "category": "challenging",
+    "link": "https://modrinth.com/modpack/hope-and-despair"
+  },
+  {
+    "title": "Conquest Reforged Modpack (Fabric)",
+    "description": "The official Conquest Reforged modpack, for Fabric!",
+    "tags": [],
+    "category": "adventure",
+    "link": "https://modrinth.com/modpack/conquest-reforged-modpack"
+  },
+  {
+    "title": "RTX ON",
+    "description": "Insane graphics, insane physics, even able to play on VR, perfect. Optimise your minecraft to be like the minecraft 'insane graphics' tiktoks that you might have seen.",
+    "tags": [],
+    "category": "optimization",
+    "link": "https://modrinth.com/modpack/rtx-on"
+  },
+  {
+    "title": "DB's Minecraft PLUS",
+    "description": "A collection of mods that improve every aspect of Minecraft, while keeping a vanilla feel. Mods enhance the UI, Sounds, QOL, Exploration and plenty more.",
+    "tags": [],
+    "category": "adventure",
+    "link": "https://modrinth.com/modpack/dbs-minecraft-plus"
+  },
+  {
+    "title": "Remade & Remastered: Snowflakes & Sleigh Rides",
+    "description": "For the people who want to play completely vanilla, in a brand new way.",
+    "tags": [],
+    "category": "adventure",
+    "link": "https://modrinth.com/modpack/remade-remastered"
+  },
+  {
+    "title": "Vulkan Optimized",
+    "description": "Tired of lag? Vulkan Optimized transforms Minecraft on older hardware. By switching to the Vulkan renderer and carefully chosen optimization mods, it delivers massive FPS boosts, silky smoothness, and quick loading – without unnecessary extras.",
+    "tags": [],
+    "category": "lightweight",
+    "link": "https://modrinth.com/modpack/vulkan-optimized"
+  },
+  {
+    "title": "Shingeki no Craft Official Modpack",
+    "description": "Attack on Titan in Minecraft! Shingeki no Craft: Official Modpack!",
+    "tags": [],
+    "category": "adventure",
+    "link": "https://modrinth.com/modpack/shingeki-no-craft-modpack"
+  },
+  {
+    "title": "The Farm",
+    "description": "[1.19.2]! Carefully selected mods put together to experience the perfect ambience in minecraft.",
+    "tags": [],
+    "category": "adventure",
+    "link": "https://modrinth.com/modpack/the-farm"
+  },
+  {
+    "title": "Spunky Boost",
+    "description": "The Best Modpack to optimize PojavLauncher's performance! Available in all versions",
+    "tags": [],
+    "category": "lightweight",
+    "link": "https://modrinth.com/modpack/spunky-boost"
+  },
+  {
+    "title": "Sodi-Fine",
+    "description": "A modpack that brings most features of optifine into a sodium modpack.",
+    "tags": [],
+    "category": "lightweight",
+    "link": "https://modrinth.com/modpack/sodifine"
+  },
+  {
+    "title": "Better MC [FABRIC] - BMC3",
+    "description": "Version 1.21 | Vanilla+ Experience With The Player in Mind | A New Era of Better MC!",
+    "tags": [],
+    "category": "adventure",
+    "link": "https://modrinth.com/modpack/better-mc-fabric-bmc3"
+  },
+  {
+    "title": "Fresh Animatons \"Fabric\"ated",
+    "description": "In this modpack you can use fresh animations on fabric without Optifine",
+    "tags": [],
+    "category": "adventure",
+    "link": "https://modrinth.com/modpack/fresh-animatons-\"fabric\"ated"
+  },
+  {
+    "title": "Cobblemon GG",
+    "description": "Step into a world where survival meets the thrilling universe of Pokémon. Welcome to CobblemonGG, your premier destination for an unparalleled Minecraft – Cobblemon – Pokémon experience!",
+    "tags": [],
+    "category": "adventure",
+    "link": "https://modrinth.com/modpack/cobblemongg"
+  },
+  {
+    "title": "FPS Essentials",
+    "description": "A modpack full of the main FPS boosters in the community. Perfect for low-end laptops and computers. It also allows running shaders with little to no lag.",
+    "tags": [],
+    "category": "lightweight",
+    "link": "https://modrinth.com/modpack/fps-essentials"
+  },
+  {
+    "title": "Supernova Empires 2",
+    "description": "A Totaly reformed modpack from the previous, based on ProjectE and with other mods",
+    "tags": [],
+    "category": "adventure",
+    "link": "https://modrinth.com/modpack/supernova-empires-2"
+  },
+  {
+    "title": "uku's pvp modpack",
+    "description": "small but efficient pvp modpack",
+    "tags": [],
+    "category": "combat",
+    "link": "https://modrinth.com/modpack/ukupvp"
+  },
+  {
+    "title": "Realistic Minecraft",
+    "description": "This Modpack Aims to Make Minecraft Realistic",
+    "tags": [],
+    "category": "adventure",
+    "link": "https://modrinth.com/modpack/realisticminecraft"
+  },
+  {
+    "title": "Spunky Optimized",
+    "description": "One of The Best optimization modpack for Minecraft designed to enhance performance and improve gameplay experience.",
+    "tags": [],
+    "category": "combat",
+    "link": "https://modrinth.com/modpack/spunky-optimized"
+  },
+  {
+    "title": "Backrooms: Found Footage",
+    "description": "The Best Backrooms Experience for Minecraft",
+    "tags": [],
+    "category": "adventure",
+    "link": "https://modrinth.com/modpack/backroomsff"
+  },
+  {
+    "title": "Better Adventures++",
+    "description": "A modified version of Flowstate's Better Adventures+ modpack that adds a few mods I feel keep the spirit of the original, while adding extra content, features, and structures",
+    "tags": [],
+    "category": "adventure",
+    "link": "https://modrinth.com/modpack/better-adventures++"
+  },
+  {
+    "title": "Shalz One Block Survival Create",
+    "description": "Create Pack used by Shalz in his One block survival Create mod series.",
+    "tags": [],
+    "category": "challenging",
+    "link": "https://modrinth.com/modpack/shalz-one-block-survival-create"
+  },
+  {
+    "title": "Thunder",
+    "description": "[1.21.7 available]\nBoost FPS, reduce lag, speed up load times, and save resources with this modpack! Perfect for low-end computers. Supports Minecraft 1.16.5+, Fabric, Quilt and even Snapshots. No extra mods, just pure performance improvement.",
+    "tags": [],
+    "category": "optimization",
+    "link": "https://modrinth.com/modpack/thunder"
+  },
+  {
+    "title": "SkyBlock Plus",
+    "description": "Server-side modpack for skyblock with some vanilla+ features",
+    "tags": [],
+    "category": "adventure",
+    "link": "https://modrinth.com/modpack/skyblock-plus"
+  },
+  {
+    "title": "Flooded City",
+    "description": "Something terrible has happened and the city is in ruins. When trying to gather your thoughts it seems you aren't too safe yet as the water levels are rising.",
+    "tags": [],
+    "category": "adventure",
+    "link": "https://modrinth.com/modpack/flooded-city"
+  },
+  {
+    "title": "The Minehattan Project",
+    "description": "Plutonium, pulverisers, and pointed sticks: war never changes.",
+    "tags": [],
+    "category": "combat",
+    "link": "https://modrinth.com/modpack/minehattan-project"
+  },
+  {
+    "title": "Cobblemon Islands (Pokemon Modpack)",
+    "description": "Pokémon in Minecraft! Play the Cobblemon Mod at it's best with this Server Modpack for Cobblemon Islands\n\nThe server included in this pack has EVERY Pokemon Model, Megas, Z-Moves, Terastalization, Raids, Expeditions, Dens and more!",
+    "tags": [],
+    "category": "adventure",
+    "link": "https://modrinth.com/modpack/cobblemon-island"
+  },
+  {
+    "title": "Technical Electrical",
+    "description": "Technical Electrical is a 1.21 sandbox style NeoForge modpack about relaxing and having fun alone or with friends! Build, Destroy or Control the world, with tech or magic! (Includes Public Dedicated SMP Server!)",
+    "tags": [],
+    "category": "kitchen-sink",
+    "link": "https://modrinth.com/modpack/technical-electrical"
+  },
+  {
+    "title": "Gensokyo Reimagined QOL",
+    "description": "Quality of Life mods curated by the Gensokyo Reimagined Team to improve your experience on the server!",
+    "tags": [],
+    "category": "lightweight",
+    "link": "https://modrinth.com/modpack/gensokyo-reimagined-qol"
+  },
+  {
+    "title": "Prehistoric World",
+    "description": "Live a real prehistoric experience surrounded by impressive and realistic dinosaurs!",
+    "tags": [],
+    "category": "adventure",
+    "link": "https://modrinth.com/modpack/prehistoric-world-modpack"
+  },
+  {
+    "title": "FPSBOOST",
+    "description": "FPSBOOST – это мощный набор оптимизаций для Minecraft на Fabric, который значительно повышает FPS, уменьшает лаги и делает игровой процесс максимально плавным.",
+    "tags": [],
+    "category": "lightweight",
+    "link": "https://modrinth.com/modpack/fpsboost"
+  },
+  {
+    "title": "Create & Explore (C&E)",
+    "description": "This Modpack is based around Create, while also improving Minecrafts overworld Exploration aswell as adding Quality of Life Improvements.",
+    "tags": [],
+    "category": "adventure",
+    "link": "https://modrinth.com/modpack/create-explore-(ce)"
+  },
+  {
+    "title": "Arcomua Cloth",
+    "description": "A beautiful and high-performance modpack with lots of optimizations, utilities and QoLs to the vanilla. No content mods and gameplay modifications.",
+    "tags": [],
+    "category": "lightweight",
+    "link": "https://modrinth.com/modpack/arcomua"
+  },
+  {
+    "title": "Winter Zombies",
+    "description": "The Mustard Virus has gone global and wiped out humanity. In cooler climates, the virus has become immune to the cold. You on the other hand are still vulnerable to these harsh conditions. Will frostbite get you first, or will you succumb to the virus?",
+    "tags": [],
+    "category": "adventure",
+    "link": "https://modrinth.com/modpack/winter-zombies"
+  },
+  {
+    "title": "Rising Legends",
+    "description": "[1.20.1] RLCraft Recreated For Modern Minecraft Versions! Includes (almost) all features from the original modpack.",
+    "tags": [],
+    "category": "adventure",
+    "link": "https://modrinth.com/modpack/rl-craft"
+  },
+  {
+    "title": "Lucky Block Challenge",
+    "description": "Chance Cubes, Chaos Awakens, MCA, what more could you ask for? Jump into this new world of adventure and explore vast lands filled with a variety of monsters from different dimensions.",
+    "tags": [],
+    "category": "adventure",
+    "link": "https://modrinth.com/modpack/lucky-block-challenge"
+  },
+  {
+    "title": "OptiFine for Fabric",
+    "description": "OptiFine features for Fabric! Experience high performance - even on low end systems. 1.21.7 alpha!",
+    "tags": [],
+    "category": "kitchen-sink",
+    "link": "https://modrinth.com/modpack/optifine-for-fabric"
+  },
+  {
+    "title": "SuperHeroes",
+    "description": "A modpack about superheroes, magic, and tech!",
+    "tags": [],
+    "category": "adventure",
+    "link": "https://modrinth.com/modpack/superheroes"
+  },
+  {
+    "title": "Medieval MC [FORGE] - MMC4",
+    "description": "Version 1.20 | Medieval Fantasy RPG Adventure & Exploration Modpack everyone wants!",
+    "tags": [],
+    "category": "adventure",
+    "link": "https://modrinth.com/modpack/medieval-mc-forge-mmc4"
+  },
+  {
+    "title": "Utopia (femboy Edition)",
+    "description": "This is the official server modpack for Utopia server(still under construction) Feel free to use it! We dont have a Discord yet or a time frame when the server will start but feel free to stick around :3 This modpack was inspired by the Aged modpack",
+    "tags": [],
+    "category": "adventure",
+    "link": "https://modrinth.com/modpack/utopia-(femboy-edition)"
+  },
+  {
+    "title": "MAX FPS: Optimized",
+    "description": "🚀 MAX FPS WITHOUT UNNECESSARY MODS! Only 18 optimization mods - NOTHING EXTRA!  \n✅ ALL MAJOR VERSIONS\n⚡ INSTALLS ON ANY LAUNCHER! (Guide below) • FULL LAUNCHER SUPPORT! • v5.0",
+    "tags": [],
+    "category": "lightweight",
+    "link": "https://modrinth.com/modpack/max-fps-optimized"
+  },
+  {
+    "title": "Essentials++",
+    "description": "Essentials for playing Minecraft Java Edition at it's full potential.",
+    "tags": [],
+    "category": "lightweight",
+    "link": "https://modrinth.com/modpack/essentials++"
+  }
+]
