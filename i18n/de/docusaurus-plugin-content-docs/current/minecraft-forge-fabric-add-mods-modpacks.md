@@ -8,6 +8,9 @@ services:
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
+import SearchableItemList from '@site/src/components/SearchableItemList/SearchableItemList';
+import mods from '@site/data/lists/minecraft-mods.json';
+import modpacks from '@site/data/lists/minecraft-modpacks.json';
 
 ## Einführung
 
@@ -122,3 +125,16 @@ Sobald du verbunden bist, navigiere zu deinem Spielordner (z.B. minecraft-forge,
 ![](https://github.com/Yoshlix/docs/assets/26007280/1424a94d-aa96-40ca-8b30-7c1905e67c21)
 
 Wenn der Upload abgeschlossen ist, kannst du deinen Server starten.
+
+
+## Beliebte Mods
+
+Noch auf der Suche nach den perfekten Mods für deinen Server? Durchstöbere unsere sorgfältig zusammengestellte Liste mit den beliebtesten und am häufigsten empfohlenen Mods, um dein Spielerlebnis zu erweitern und deinem Server den letzten Feinschliff zu geben. Lass dich inspirieren und finde genau die Erweiterungen, die zu deinem Projekt passen.
+
+<SearchableItemList items={mods} />
+
+## Beliebte Modpacks
+
+Noch auf der Suche nach den perfekten Mods für deinen Server? Durchstöbere unsere sorgfältig zusammengestellte Liste mit den beliebtesten und am häufigsten empfohlenen Mods, um dein Spielerlebnis zu erweitern und deinem Server den letzten Feinschliff zu geben. Lass dich inspirieren und finde genau die Erweiterungen, die zu deinem Projekt passen.
+
+<SearchableItemList items={modpacks} />

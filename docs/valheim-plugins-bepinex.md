@@ -8,6 +8,8 @@ services:
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
+import SearchableItemList from '@site/src/components/SearchableItemList/SearchableItemList';
+import items from '@site/data/lists/valheim-plugins.json';
 
 ## Introduction
 BepInEx is a highly popular open-source plugin and modding framework which enables players to add mods to a range of games that traditionally do not support official modding. In this guide, we will show how you can install plugins through BepInEx on Valheim.
@@ -54,3 +56,11 @@ Some plugins may require being installed client-side on your PC too. Please refe
 :::
 
 You have successfully installed new BepInEx plugins to your Valheim gameserver!
+
+## Popular Plugins
+
+Still looking for the perfect plugins for your server?
+
+ Browse through our carefully curated list of the most popular and highly recommended plugins to enhance your gameplay and give your server the finishing touch it deserves. Get inspired and find exactly the additions that fit your project.
+
+<SearchableItemList items={items} />

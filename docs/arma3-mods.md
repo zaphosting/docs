@@ -8,6 +8,9 @@ services:
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
+import SearchableItemList from '@site/src/components/SearchableItemList/SearchableItemList';
+import items from '@site/data/lists/arma3-mods.json';
+
 
 ## Introduction
 
@@ -26,6 +29,14 @@ Through the [Steam Workshop](https://steamcommunity.com/app/107410/workshop/), y
 The next step is to start installing the mods. Thanks to the Steam Workshop option, installation is straightforward. Access the management of your game server and navigate to Steam Workshop. There, you have the option to enter the mods into the provided field. Enter the Workshop IDs you have previously noted and add them there. If you are adding multiple mods, ensure that the mods are separated by a comma symbol.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/j8ki4CQ6MALAgcX/preview)
+
+
+
+## Popular Mods
+
+Still looking for the perfect mods for your server? Browse through our carefully curated list of the most popular and highly recommended mods to enhance your gameplay and give your server the finishing touch it deserves. Get inspired and find exactly the additions that fit your project.
+
+<SearchableItemList items={items} />
 
 
 

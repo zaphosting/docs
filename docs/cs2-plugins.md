@@ -8,6 +8,8 @@ services:
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
+import SearchableItemList from '@site/src/components/SearchableItemList/SearchableItemList';
+import items from '@site/data/lists/cs2-plugins.json';
 
 ## Introduction
 
@@ -29,10 +31,11 @@ The information about this is currently very limited and unclear. The current si
 However, apart from Sourcemod/Metamod, other projects are also being developed at the moment. One of these projects is [ResourceMod](https://resourcemod.net/) for example, which was recently presented on Reddit. However, the project is still under development and cannot be used at the moment. 
 
 
+## Popular Plugins
 
-## What's next?
+<SearchableItemList items={items} />
 
-We will keep an eye on the current situation in this regard. If something new develops here, we will adopt this to our services and extend the guide for installing plugins for CS2 accordingly. 
+
 
 
 

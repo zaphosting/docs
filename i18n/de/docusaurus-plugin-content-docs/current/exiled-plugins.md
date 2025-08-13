@@ -9,6 +9,8 @@ services:
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
+import SearchableItemList from '@site/src/components/SearchableItemList/SearchableItemList';
+import items from '@site/data/lists/scp-plugins.json';
 
 ## Einführung
 
@@ -47,6 +49,12 @@ Das richtige Plugin Verzeichnis findest du unter:
 Damit ist die Installation abgeschlossen. Abschließend solltest du noch in der **Live-Konsole** überprüfen, ob das Plugin erfolgreich kompiliert und geladen wurde. Die Bestätigung sieht ungefähr so aus:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/NtN6T5fPif3ngEW/preview)
+
+## Beliebte Plugins
+
+Noch auf der Suche nach den perfekten Plugins für deinen Server? Durchstöbere unsere sorgfältig zusammengestellte Liste mit den beliebtesten und am häufigsten empfohlenen Plugins, um dein Spielerlebnis zu erweitern und deinem Server den letzten Feinschliff zu geben. Lass dich inspirieren und finde genau die Erweiterungen, die zu deinem Projekt passen.
+
+<SearchableItemList items={items} />
 
 ## Abschluss
 

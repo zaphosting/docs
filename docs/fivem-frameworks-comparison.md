@@ -8,6 +8,8 @@ services:
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
+import SearchableItemList from '@site/src/components/SearchableItemList/SearchableItemList';
+import items from '@site/data/lists/fivem-frameworks-en.json';
 
 ## Introduction
 
@@ -20,17 +22,7 @@ During this time, numerous roleplay frameworks for FiveM have been established, 
 ## Available Frameworks
 The development of frameworks for FiveM has resulted in a wide variety of solutions. Some stand out due to innovative features and an active community, while others have become less relevant over time. The following frameworks have proven particularly influential in recent years.
 
-### ESX
-ESX was introduced in 2017 by the developer Taerox and is based on the earlier EssentialMode framework created by kanersps. EssentialMode was one of the first frameworks for FiveM. ESX quickly became the most popular roleplay framework in the community.
-
-### QBCore
-QBCore was launched in 2021 by the developer Kakarot and is a relatively new framework compared to ESX. It features a modern structure and is supported by a growing developer community.
-
-### vRP (deprecated)
-The vRP framework was created in 2017 by ImagicTheCat and was among the first roleplay frameworks for FiveM. Although it was widely used for years, it is now considered deprecated.
-
-### Dunko's vRP (deprecated)
-Dunko's vRP was developed in early 2018 by Dunko and is based on the original vRP framework. It was also one of the early solutions for FiveM roleplay servers but is now outdated.
+<SearchableItemList items={items} />
 
 
 

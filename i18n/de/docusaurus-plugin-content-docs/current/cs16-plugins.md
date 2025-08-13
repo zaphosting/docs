@@ -8,9 +8,8 @@ services:
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
-
-
-
+import SearchableItemList from '@site/src/components/SearchableItemList/SearchableItemList';
+import items from '@site/data/lists/cs16-plugins.json';
 
 
 ## Einführung
@@ -20,8 +19,6 @@ Um Plugins auf einem Counter-Strike 1.6 Server zu installieren wird **AMXmodX** 
 <InlineVoucher />
 
 
-
-## 
 
 ### Vorbereitung
 
@@ -78,6 +75,12 @@ Nun wenn die gewünschten Plugins heruntergeladen wurden, dann kann mit der eige
 ![](https://screensaver01.zap-hosting.com/index.php/s/9knJkP4KakESNi4/preview)
 
 Beim nächsten Serverstart sollten die hochgeladenen Plugins dann automatisch geladen werden. 
+
+## Beliebte Plugins
+
+Noch auf der Suche nach den perfekten Plugins für deinen Server? Durchstöbere unsere sorgfältig zusammengestellte Liste mit den beliebtesten und am häufigsten empfohlenen Plugins, um dein Spielerlebnis zu erweitern und deinem Server den letzten Feinschliff zu geben. Lass dich inspirieren und finde genau die Erweiterungen, die zu deinem Projekt passen.
+
+<SearchableItemList items={items} />
 
 
 

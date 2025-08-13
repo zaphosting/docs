@@ -9,6 +9,8 @@ services:
 
 import YouTube from '@site/src/components/YouTube/YouTube';
 import InlineVoucher from '@site/src/components/InlineVoucher';
+import SearchableItemList from '@site/src/components/SearchableItemList/SearchableItemList';
+import items from '@site/data/lists/fivem-resources.json';
 
 ## Introduction
 
@@ -57,6 +59,12 @@ You can access your `server.cfg` file through the CFG Editor in txAdmin interfac
 Please ensure that the name of the previously created folder is the same as what is found in the start command. This includes being case sensitive.
 :::
 
+
+## Popular Resources
+
+Still looking for the perfect resources for your server? Browse through our carefully curated list of the most popular and highly recommended resources to enhance your gameplay and give your server the finishing touch it deserves. Get inspired and find exactly the additions that fit your project.
+
+<SearchableItemList items={items} />
 
 
 ## Conclusion

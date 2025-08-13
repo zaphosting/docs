@@ -8,6 +8,8 @@ services:
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
+import SearchableItemList from '@site/src/components/SearchableItemList/SearchableItemList';
+import items from '@site/data/lists/fivem-frameworks-de.json';
 
 ## Einführung
 
@@ -20,23 +22,7 @@ In diesem Zeitraum entstanden zahlreiche Roleplay-Frameworks, die in der Communi
 ## Verfügbare Frameworks
 Die Entwicklung von Frameworks für FiveM hat zu einer bemerkenswerten Bandbreite an Lösungen geführt. Einige haben sich durch innovative Funktionen und eine aktive Community hervorgetan, während andere im Laufe der Zeit an Bedeutung verloren haben. Im Folgenden werden Frameworks vorgestellt, die in den vergangenen Jahren besonders prägend und einflussreich waren.
 
-### ESX
-
-Das Framework ESX wurde 2017 von Taerox entwickelt und basiert auf dem früheren EssentialMode-Framework, das vom Entwickler kanersps stammt. EssentialMode gehörte zu den ersten Frameworks für FiveM. ESX entwickelte sich rasch zum beliebtesten Rollenspiel-Framework der Community.
-
-### QBCore
-
-QBCore wurde 2021 von Kakarot veröffentlicht und stellt im Vergleich zu ESX ein deutlich jüngeres Framework dar. Es zeichnet sich durch moderne Strukturen und eine stetig wachsende Entwicklergemeinschaft aus.
-
-### vRP (veraltet)
-
-Das Framework vRP wurde 2017 von ImagicTheCat entwickelt und zählt zu den ersten Rollenspiel-Frameworks für FiveM. Es wurde über mehrere Jahre hinweg genutzt, gilt heute jedoch als veraltet.
-
-### Dunko's vRP (veraltet)
-
-Dunko's vRP entstand Anfang 2018 durch die Arbeit von Dunko und basiert auf dem ursprünglichen vRP-Framework. Auch dieses Framework war früh verbreitet, wird aber inzwischen als veraltet eingestuft.
-
-
+<SearchableItemList items={items} />
 
 ## Features
 Jedes Framework bietet eigene Konzepte und technische Schwerpunkte, die sich direkt auf die Gestaltung und Verwaltung eines FiveM-Roleplay-Servers auswirken. Ein Vergleich der verschiedenen Ansätze hilft bei der Entscheidung, welches System den individuellen Anforderungen am besten entspricht.

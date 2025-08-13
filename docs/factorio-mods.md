@@ -9,6 +9,8 @@ services:
 
 import YouTube from '@site/src/components/YouTube/YouTube';
 import InlineVoucher from '@site/src/components/InlineVoucher';
+import SearchableItemList from '@site/src/components/SearchableItemList/SearchableItemList';
+import items from '@site/data/lists/factorio-mods.json';
 
 ## Introduction
 
@@ -57,6 +59,14 @@ When modding, the mods must be synced between the client and the server. Factori
 :::
 
 Finally, restart your server in order to automatically activate and install the mods on your Factorio server. If you are facing any errors, such as the server automatically shutting down, please check the **Information->Event Log** section on your web interface to view any errors. It is likely that a version mismatch could such issues.
+
+
+
+## Popular Mods
+
+Still looking for the perfect mods for your server? Browse through our carefully curated list of the most popular and highly recommended mods to enhance your gameplay and give your server the finishing touch it deserves. Get inspired and find exactly the additions that fit your project.
+
+<SearchableItemList items={items} />
 
 
 

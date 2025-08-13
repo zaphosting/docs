@@ -8,6 +8,10 @@ services:
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
+import SearchableItemList from '@site/src/components/SearchableItemList/SearchableItemList';
+import mods from '@site/data/lists/minecraft-mods.json';
+import modpacks from '@site/data/lists/minecraft-modpacks.json';
+
 
 ## Introduction
 
@@ -21,7 +25,9 @@ You'll learn how to download and install a Mod / Modpack on your Minecraft serve
 - An FTP-Client (e.g. WinSCP, FileZilla)
 - Connect to your server via FTP: ([Access via FTP](gameserver-ftpaccess.md))
 
-## Step 1 - Finding & downloading mods or modpacks
+
+
+## Finding & downloading mods or modpacks
 
 There are many places on the internet to find mods / modpacks. The largest platform for mods and modpacks is CurseForge. Almost 99% of all mods / modpacks for Minecraft can be found there and downloaded with just a few clicks. This guide will focus on the use of CurseForge. You can search for mods [here](https://www.curseforge.com/minecraft/mc-mods) and for modpacks [here](https://curseforge.com/minecraft/modpacks).
 
@@ -124,3 +130,17 @@ When you are connected, navigate into your game folder (e.g. minecraft-forge, mi
 ![](https://github.com/Yoshlix/docs/assets/26007280/1424a94d-aa96-40ca-8b30-7c1905e67c21)
 
 Once the upload has completed, you can start your server.
+
+
+
+## Popular Mods
+
+Still looking for the perfect mods for your server? Browse through our carefully curated list of the most popular and highly recommended mods to enhance your gameplay and give your server the finishing touch it deserves. Get inspired and find exactly the additions that fit your project.
+
+<SearchableItemList items={mods} />
+
+## Popular Modpacks
+
+Still looking for the perfect mods for your server? Browse through our carefully curated list of the most popular and highly recommended mods to enhance your gameplay and give your server the finishing touch it deserves. Get inspired and find exactly the additions that fit your project.
+
+<SearchableItemList items={modpacks} />

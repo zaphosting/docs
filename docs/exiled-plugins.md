@@ -9,6 +9,9 @@ services:
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
+import SearchableItemList from '@site/src/components/SearchableItemList/SearchableItemList';
+import items from '@site/data/lists/scp-plugins.json';
+
 
 ## Introduction
 
@@ -49,6 +52,12 @@ Once this step is complete, the plugin installation is finished. Finally, check 
 ![](https://screensaver01.zap-hosting.com/index.php/s/NtN6T5fPif3ngEW/preview)
 
 
+
+## Popular Plugins
+
+Still looking for the perfect plugins for your server? Browse through our carefully curated list of the most popular and highly recommended plugins to enhance your gameplay and give your server the finishing touch it deserves. Get inspired and find exactly the additions that fit your project.
+
+<SearchableItemList items={items} />
 
 
 ## Conclusion
