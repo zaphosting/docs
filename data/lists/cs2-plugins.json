@@ -1,0 +1,1500 @@
+[
+  {
+    "title": "cs2-instaplant",
+    "description": "Plants the bomb instantly as T. To be used with cs2-retakes.",
+    "category": "Gameplay",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ],
+    "link": "https://github.com/B3none/cs2-instaplant"
+  },
+  {
+    "title": "SLAYER_1HitKill",
+    "description": "Allows players to kill each other in 1 hit.",
+    "category": "Gameplay",
+    "link": "https://github.com/zakriamansoor47/SLAYER_1HitKill",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "SLAYER_UnrestrictedFOV",
+    "description": "This simple plugin allow players to Change their FOV.",
+    "category": "Gameplay",
+    "link": "https://github.com/zakriamansoor47/SLAYER_UnrestrictedFOV",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "cssharp-soccerball",
+    "description": "Spawn scoccerballs in CS2.",
+    "category": "Fun",
+    "link": "https://github.com/newix1/cssharp-soccerball",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "cs2-gungame",
+    "description": "Gun Game Mode for CS2.",
+    "category": "Gameplay",
+    "link": "https://github.com/ssypchenko/cs2-gungame",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "cs2-Chat-Logger",
+    "description": "Log any chat to discord or text.",
+    "category": "Administration",
+    "link": "https://github.com/oqyh/cs2-Chat-Logger",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "cs2-Kill-Sound",
+    "description": "play a sound when a kill is made.",
+    "category": "Fun",
+    "link": "https://github.com/oqyh/cs2-Kill-Sound",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "cs2-Connect-Disconnect-Sound",
+    "description": "Messages sent when certian events happen.",
+    "category": "Fun",
+    "link": "https://github.com/oqyh/cs2-Connect-Disconnect-Sound",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "cs2-instadefuse",
+    "description": "Instantly defuse the bomb once conditions are met. To be used with cs2-retakes.",
+    "category": "Gameplay",
+    "link": "https://github.com/B3none/cs2-instadefuse",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "CS2-Autoplant",
+    "description": "Automatically plant the bomb after freezetime ends.",
+    "category": "Gameplay",
+    "link": "https://github.com/zwolof/CS2-Autoplant",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "cs2-retakes",
+    "description": "CS2 implementation of retakes. Based on the version for CS:GO by Splewis.",
+    "category": "Gameplay",
+    "link": "https://github.com/B3none/cs2-retakes/releases",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "cs2-Game-Manager",
+    "description": "Block/Hide, Messages Ping, Radio, Connect, Disconnect, Sounds, Restart On Last Player Disconnect, And More.",
+    "category": "Administration",
+    "link": "https://github.com/oqyh/cs2-Game-Manager",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "CS2-One-In-The-Chamber",
+    "description": "Everyone has a deagle that will insta kill other players.",
+    "category": "Fun",
+    "link": "https://github.com/ddfigueiras/CS2-One-In-The-Chamber",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "CS2-Deathmatch",
+    "description": "Custom Deathmatch CS2 plugin. Includes custom spawnpoints, multicfg, gun selection, spawn protection, etc.",
+    "category": "Gameplay",
+    "link": "https://github.com/NockyCZ/CS2-Deathmatch",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "LanguageManagerPlugin",
+    "description": "Changes the players language based on their location.",
+    "category": "Administration",
+    "link": "https://github.com/aprox2/GeoLocationLanguageManagerPlugin",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "cs2-VIPCore",
+    "description": "VIP API for other VIP plugins.",
+    "category": "Administration",
+    "link": "https://github.com/partiusfabaa/cs2-VIPCore",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "cs2-simple-discord-report",
+    "description": "Send player !report directly to Discord.",
+    "category": "Administration",
+    "link": "https://github.com/onurcanertekin/cs2-simple-discord-report",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "CS2_AntiVPN",
+    "description": "Block players from specific countries or VPN users.",
+    "category": "Administration",
+    "link": "https://github.com/NockyCZ/CS2_AntiVPN",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "NameChecker-cs2",
+    "description": "Checks the names of the players when connecting.",
+    "category": "Administration",
+    "link": "https://github.com/Iksix/NameChecker-cs2",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "CS2-RecordAbuse",
+    "description": "Allows admins to record demos with a command.",
+    "category": "Administration",
+    "link": "https://github.com/daffyyyy/CS2-RecordAbuse",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "ZombieSharp",
+    "description": "Zombie Escape Gamemode plugin for Counter-Strike 2.",
+    "category": "Gameplay",
+    "link": "https://github.com/oylsister/ZombieSharp/",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "cs2-css-flashlight",
+    "description": "Adds a flashlight to the server.",
+    "category": "Gameplay",
+    "link": "https://github.com/creazy231/cs2-css-flashlight",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "NightVip",
+    "description": "Gives player basic VIP privileges, but for a certain period of time. ",
+    "category": "Administration",
+    "link": "https://github.com/jockii/NightVip",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "cs2-hideadmin",
+    "description": "Hide admins from the player list.",
+    "category": "Administration",
+    "link": "https://github.com/DeadSwimek/cs2-hideadmin",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "cs2-ctban",
+    "description": "Can ban player from connecting to CTs.",
+    "category": "Gameplay",
+    "link": "https://github.com/DeadSwimek/cs2-ctban",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "Cs2Telegram",
+    "description": "Manage your CS2 server using a telegram bot.",
+    "category": "Administration",
+    "link": "https://github.com/prethink/Cs2Telegram/",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "cs2-simple-guns-menu",
+    "description": "Add a chat gun menu to your server.",
+    "category": "Gameplay",
+    "link": "https://github.com/onurcanertekin/cs2-simple-guns-menu",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "CS2-DeleteLogs",
+    "description": "Automatically delete logs from your server.",
+    "category": "Administration",
+    "link": "https://github.com/daffyyyy/CS2-DeleteLogs",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "CS2-ShowDamage",
+    "description": "Displays information about inflicted damage on the screen.",
+    "category": "Fun",
+    "link": "https://github.com/ABKAM2023/CS2-ShowDamage",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "cs2_teleportprotection",
+    "description": "Protect players for X seconds when they touch trigger_teleport.",
+    "category": "Gameplay",
+    "link": "https://github.com/Cruze03/cs2_teleportprotection",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "cs2-mapchooser",
+    "description": "This plugin handles basic map voting features like nominate, rtv, extend and end of map voting.",
+    "category": "Administration",
+    "link": "https://github.com/justinnobledev/cs2-mapchooser",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "CS2-Check-Cheats",
+    "description": "Assist administrators in checking suspicious players for the use of cheats.",
+    "category": "Administration",
+    "link": "https://github.com/ABKAM2023/CS2-Check-Cheats",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "cs2-deathrun-manager",
+    "description": "Deathrun Manager for COUNTERSTRIKESHARP Framework CS2.",
+    "category": "Gameplay",
+    "link": "https://github.com/leoskiline/cs2-deathrun-manager",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "cs2-Adminchat",
+    "description": "Allow admins to chat with each other.",
+    "category": "Administration",
+    "link": "https://github.com/johnoclockdk/cs2-Adminchat",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "SuperheroPlugin",
+    "description": "CSS based superhero plugin.",
+    "category": "Fun",
+    "link": "https://github.com/aprox2/SuperheroPlugin",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "SLAYER_Noscope",
+    "description": "This plugin disables scope of weapons like AWP, scout, etc.",
+    "category": "Gameplay",
+    "link": "https://github.com/zakriamansoor47/SLAYER_Noscope",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "DiscordStatus",
+    "description": "Monitor your server by sending cute embeds to Discord.",
+    "category": "Fun",
+    "link": "https://github.com/Tian7777/DiscordStatus",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "CS2-WarnSystem",
+    "description": "Issue warnings to players who violate the rules",
+    "category": "Administration",
+    "link": "https://github.com/ABKAM2023/CS2-WarnSystem",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "cs2_IPBlocker",
+    "description": "Blocks messages that contains an IP.",
+    "category": "Administration",
+    "link": "https://github.com/PhantomYopta/cs2_IPBlocker",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "CS2-SimpleAdmin",
+    "description": "Manage your Counter-Strike 2 server by simple commands.",
+    "category": "Administration",
+    "link": "https://github.com/daffyyyy/CS2-SimpleAdmin",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "Welcome",
+    "description": "Send a welcome message when the player joins the server.",
+    "category": "Fun",
+    "link": "https://github.com/Klayeryt/Welcome",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "CS2-AntiTeamFlash",
+    "description": "Simple anti team flash plugin.",
+    "category": "Gameplay",
+    "link": "https://github.com/Franc1sco/CS2-AntiTeamFlash",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "cs2-countdown",
+    "description": "A simple countdown for admins.",
+    "category": "Fun",
+    "link": "https://github.com/DeadSwimek/cs2-countdown",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "flashbattles",
+    "description": "Makes you swap with the flasher if you get flashed.",
+    "category": "Fun",
+    "link": "https://github.com/Siomek101/flashbattles",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "IgnoreMessages",
+    "description": "This plugin can remove the messages from the chat like an auto moderator.",
+    "category": "Administration",
+    "link": "https://github.com/KillStr3aK/IgnoreMessages",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "cs2-BlockerPasses",
+    "description": "Blocks passages if there are not a certain number of players on the server.",
+    "category": "Gameplay",
+    "link": "https://github.com/partiusfabaa/cs2-BlockerPasses",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "CS2-SteamGroupRestrict",
+    "description": "Restrict commands for players who are not in your Steam group.",
+    "category": "Administration",
+    "link": "https://github.com/BMathers35/CS2-SteamGroupRestrict",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "cm-cs2-colorsay",
+    "description": "Adds color to your chat messages.",
+    "category": "Fun",
+    "link": "https://github.com/Challengermode/cm-cs2-colorsay",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "cs2-specialrounds",
+    "description": "Randomly generates special rounds.",
+    "category": "Fun",
+    "link": "https://github.com/DeadSwimek/cs2-specialrounds",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "CSS-CreateCustomCommands",
+    "description": "Create custom responses for messages such as !discord or !help.",
+    "category": "Administration",
+    "link": "https://github.com/HerrMagiic/CSS-CreateCustomCommands",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "cm-cs2-defaultskins",
+    "description": "Enforce default skins on players.",
+    "category": "Gameplay",
+    "link": "https://github.com/Challengermode/cm-cs2-defaultskins",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "Economy",
+    "description": "Plugin for creating economic relations between players on cs2 servers.",
+    "category": "Fun",
+    "link": "https://github.com/gerod220/Economy",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "ResourcePrecacher",
+    "description": "Precache any Resource in CS2.",
+    "category": "Administration",
+    "link": "https://github.com/KillStr3aK/ResourcePrecacher",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "cs2_chat2vk",
+    "description": "Send chat messages to VK.",
+    "category": "Administration",
+    "link": "https://github.com/xtance/cs2_chat2vk",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "CSS-Regenerate-Health",
+    "description": "!medic, !heal or !regen to regenerate your health to full.",
+    "category": "Fun",
+    "link": "https://github.com/HerrMagiic/CSS-Regenerate-Health",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "Medic",
+    "description": "Allows you to refill your health.",
+    "category": "Fun",
+    "link": "https://github.com/Quake1011/Medic",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "CS2-ChatManager",
+    "description": "Allows managing CS2 chat messages.",
+    "category": "Administration",
+    "link": "https://github.com/BMathers35/CS2-ChatManager",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "cs2-spawntools",
+    "description": "Dynamically create spawns per map.",
+    "category": "Gameplay",
+    "link": "https://github.com/justinnobledev/cs2-spawntools",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "deleteBuyZones",
+    "description": "Delete all buyzones for a map.",
+    "category": "Administration",
+    "link": "https://github.com/ItsChase88/deleteBuyZones",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "Force-AllTalk",
+    "description": "A very simple plugin that enables every 'talk' related convar.",
+    "category": "Administration",
+    "link": "https://github.com/hg-fortis/Force-AllTalk",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "WeaponPurchaseCommand",
+    "description": "Buy weapons using commands.",
+    "category": "Gameplay",
+    "link": "https://github.com/oylsister/CS2-WeaponPurchaseCommand",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "CS2_BombsitesRestrict",
+    "description": "Restricts the random bombsite of each round.",
+    "category": "Gameplay",
+    "link": "https://github.com/NockyCZ/CS2_BombsitesRestrict",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "CS2-Parachute",
+    "description": "Parachute when you press E in the air.",
+    "category": "Fun",
+    "link": "https://github.com/Franc1sco/CS2-Parachute",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "PugPlugin-CSSharp",
+    "description": "CS2 PugPlugin for setting up 10man servers.",
+    "category": "Modes",
+    "link": "https://github.com/CharlesBarone/PugPlugin-CSSharp",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "CS2_DiscordRelayEnhanced",
+    "description": "This plugin sends chat messages from players to your Discord channel.",
+    "category": "Administration",
+    "link": "https://github.com/hobsRKM/CS2_DiscordRelayEnhanced",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "VoteBKM",
+    "description": "Plugin for blocking players by voting.",
+    "category": "Administration",
+    "link": "https://github.com/ebpnk/VoteBKM",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "Weapon-Spawner",
+    "description": "Gives players weapons from a chat command.",
+    "category": "Gameplay",
+    "link": "https://github.com/ebpnk/Weapon-Spawner",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "CS2-VipManager",
+    "description": "Plugin for CS2 that stores admins in mysql and apply permissions on the game.",
+    "category": "Administration",
+    "link": "https://github.com/1Mack/CS2-VipManager",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "cs2_Setbothp",
+    "description": "Just set your HP value for bots.",
+    "category": "Gameplay",
+    "link": "https://github.com/jackson-tougher/cs2_Setbothp",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "ScoutsNKnives",
+    "description": "Classic ScoutsNKnives with a bit of customization.",
+    "category": "Modes",
+    "link": "https://github.com/hg-fortis/ScoutsNKnives",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "CS2-Tags",
+    "description": "Adds tags before player names in chat and the scoreboard.",
+    "category": "Fun",
+    "link": "https://github.com/daffyyyy/CS2-Tags",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "CS2-RanksPoints",
+    "description": "RanksPoints system is based on a simple principle: players perform various actions in the game, resulting in either gaining or losing experience points.",
+    "category": "Stats",
+    "link": "https://github.com/ABKAM2023/CS2-RanksPoints",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "cs2-vip",
+    "description": "A VIP system for CS2.",
+    "category": "Administration",
+    "link": "https://github.com/DeadSwimek/cs2-vip/",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "CS2-CallAdmin",
+    "description": "Plugin for CS2 that reports a player on game and send a webhook message to discord.",
+    "category": "Administration",
+    "link": "https://github.com/1Mack/CS2-CallAdmin",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "css-C4-Timer",
+    "description": "This plugin adds countdown to c4 bomb explosion to your server.",
+    "category": "Fun",
+    "link": "https://github.com/R0mz1k/css-C4-Timer",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "cs2-ranks",
+    "description": "An in depth ranking system for CS2. Simmilar to Levels Ranks for CSGO.",
+    "category": "Stats",
+    "link": "https://github.com/partiusfabaa/cs2-ranks",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "CS2-BotSlay",
+    "description": "Slay all bots when the last player dies.",
+    "category": "Gameplay",
+    "link": "https://github.com/Dliix66/CS2-BotSlay",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "cs2-rockthevote",
+    "description": "Players can !rtv using the stock CS2 map chooser.",
+    "category": "Administration",
+    "link": "https://github.com/abnerfs/cs2-rockthevote",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "css-basic-admin",
+    "description": "A basic admin plugin for CSSharp.",
+    "category": "Administration",
+    "link": "https://github.com/Hackmastr/css-basic-admin",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "CS2-PlayersBet",
+    "description": "Allows players to bet on the next winning team.",
+    "category": "Fun",
+    "link": "https://github.com/Dliix66/CS2-PlayersBet",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "SharpTimer",
+    "description": "A timer for Surf, Bhop, KZ and MG maps.",
+    "category": "Modes",
+    "link": "https://github.com/DEAFPS/SharpTimer/",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "cs2_ShowPlayersInfo",
+    "description": "Show info about players in game chat(UserID, Name, SteamID64)",
+    "category": "Administration",
+    "link": "https://github.com/jackson-tougher/cs2_ShowPlayersInfo",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "CS2_SteamRestrict",
+    "description": "Enforce minimum CS2 playtime and Steam level requirements, and customize restrictions for Prime and non-Prime players.",
+    "category": "Administration",
+    "link": "https://github.com/K4ryuu/CS2_SteamRestrict",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "CS2-Kill-Plugin",
+    "description": "Allows players to suicide via chat by entering \"!suicide\" or \"/suicide\"",
+    "category": "Fun",
+    "link": "https://github.com/Quantor97/CS2-Kill-Plugin",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "cs2-SimpleResetScore",
+    "description": "This plugin resets your score with command !rs",
+    "category": "Stats",
+    "link": "https://github.com/stefanx111/cs2-SimpleResetScore",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "cs2_blockradiocommands",
+    "description": "A CSSharp plugin to block all radio commands.",
+    "category": "Administration",
+    "link": "https://github.com/Cruze03/cs2_blockradiocommands",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "CS2-AutoUpdater",
+    "description": "Automatically checks for a server update and restarts your server while notifying players in game.",
+    "category": "Administration",
+    "link": "https://github.com/dran1x/CS2-AutoUpdater",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "CS2-Practice-Plugin",
+    "description": "Open Source Plugin for Counterstrike 2 based on COUNTERSTRIKESHARP",
+    "category": "Modes",
+    "link": "https://github.com/CHR15cs/CS2-Practice-Plugin",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "Discord-cs2-ReportSystem",
+    "description": "Allows players to send reports (complaints) about other players straight to a Discord channel.",
+    "category": "Administration",
+    "link": "https://github.com/PhantomYopta/-Discord-cs2-ReportSystem",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "CS2_DiscordRelay",
+    "description": "This plugin sends chat messages from players to your Discord channel.",
+    "category": "Administration",
+    "link": "https://github.com/K4ryuu/CS2_DiscordRelay",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "CS2 Simple Ranks",
+    "description": "Allows you to create an unlimited number of ranks with customizable experience thresholds and rank colors.",
+    "category": "Stats",
+    "link": "https://github.com/K4ryuu/CS2_SimpleRanks",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "MatchZy",
+    "description": "For running and managing practice/pugs/scrims/matches with easy configuration!",
+    "category": "Modes",
+    "link": "https://github.com/shobhit-pathak/MatchZy",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "CS2 Damage Info",
+    "description": "Displays the amount of damage players have inflicted on the victim's HP and Armor, as well as the hit groups they have hit.",
+    "category": "Gameplay",
+    "link": "https://github.com/K4ryuu/CS2_DamageInfo",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "CS2_PlaytimeTracker",
+    "description": "This plugin allows the players to check their playtime, team-specific playtime, and death or alive playtime.",
+    "category": "Stats",
+    "link": "https://github.com/K4ryuu/CS2_PlaytimeTracker",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "CS2 Connection Logs",
+    "description": "This plugin adds players to a database to track when they join with their IP. It prints to discord through a webhook when a player join (with their IP) and leaves.",
+    "category": "Administration",
+    "link": "https://github.com/WidovV/cs2-connectionlogs",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "cs2-LiteVIP",
+    "description": "Plugin for CS2 with basic VIP functions.",
+    "category": "Administration",
+    "link": "https://github.com/partiusfabaa/cs2-LiteVIP/",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "Get SteamID",
+    "description": "A simple plugin that adds display of all types of Steam IDs to chat.",
+    "category": "Administration",
+    "link": "https://csdevs.net/resources/get-steamid.465/",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "AFKManager",
+    "description": "A simple AFK Manager plugin for CS2.",
+    "category": "Gameplay",
+    "link": "https://github.com/NiGHT757/AFKManager",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "Lite MapChooser",
+    "description": "The most lightweight and functional plugin for changing maps, rtv and nominations",
+    "category": "Administration",
+    "link": "https://github.com/PhantomYopta/LiteMapChooser",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "Auto Map Changer",
+    "description": "Automatically changes the map when not active to the one specified in the config.",
+    "category": "Administration",
+    "link": "https://github.com/skaen/Auto-Map-Changer/",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "ColoredSmokeTeam",
+    "description": "Allows you to change the color of smoke grenades.",
+    "category": "Fun",
+    "link": "https://csdevs.net/resources/coloredsmoketeam.458/",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "ResetScore",
+    "description": "Reset statistics (kills, deaths, assists, head-killers, damage). The same as !rs on CSGO.",
+    "category": "Stats",
+    "link": "https://csdevs.net/resources/resetscore.456/",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "Connect Info",
+    "description": "Displays a message to everyone in the chat when a player connects (with information about the city and country) and disconnects.",
+    "category": "Administration",
+    "link": "https://csdevs.net/resources/connect-info-geolite-28-10-2023.453/",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "RandomStartMap",
+    "description": "Sets a random map when the server is started.",
+    "category": "Administration",
+    "link": "https://csdevs.net/resources/randomstartmap.444/",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "PugSharp",
+    "description": "PugSharp is a PUG System Plugin for CS2 based on the awesome COUNTERSTRIKESHARP.",
+    "category": "Modes",
+    "link": "https://github.com/Lan2Play/PugSharp",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "AutoClearMaps",
+    "description": "Automatically deletes the default maps to save disk space.",
+    "category": "Administration",
+    "link": "https://csdevs.net/resources/autoclearmaps.466/",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "cs2-advertisement",
+    "description": "A plugin for cs2 that allows you to show ads in chat/center/panel",
+    "category": "Administration",
+    "link": "https://github.com/partiusfabaa/cs2-advertisement",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "CS2_Speedometer",
+    "description": "Just a speedometer for CS2",
+    "category": "Gameplay",
+    "link": "https://github.com/PhantomYopta/CS2_Speedometer",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "CS2Retake",
+    "description": "Implementation of a Retake plugin for CS2 using COUNTERSTRIKESHARP",
+    "category": "Modes",
+    "link": "https://github.com/LordFetznschaedl/CS2Retake",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "Weapon-Restrict",
+    "description": "Allows CS2 server owners to block/whitelist players from a country based on IP",
+    "category": "Gameplay",
+    "link": "https://github.com/Quake1011/Weapon-Restrict",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "CS2 Mini Admin",
+    "description": "Adds basic administrator functions",
+    "category": "Administration",
+    "link": "https://github.com/partiusfabaa/cs2-MiniAdmin",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "CS2 Instant Defuse",
+    "description": "This plugin allows the bomb to be instantly defused",
+    "category": "Gameplay",
+    "link": "https://github.com/LordFetznschaedl/CS2InstantDefuse",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "CS2 Rcon",
+    "description": "Enables RCON inside CS2",
+    "category": "Administration",
+    "link": "https://github.com/LordFetznschaedl/CS2Rcon",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "MapConfigurator",
+    "description": "Easily create unique configuration files on a per-map basis.",
+    "category": "Administration",
+    "link": "https://github.com/ManifestManah/MapConfigurator",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "NoBlock",
+    "description": "Players will then be allowed to walk through each other without being stopped due to collision settings, regardless of their team affiliation.",
+    "category": "Gameplay",
+    "link": "https://github.com/ManifestManah/NoBlock",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "MetaCommandsBlocker",
+    "description": "Block your server's Metamod, plugins and modules version from players.",
+    "category": "Administration",
+    "link": "https://github.com/ManifestManah/MetaCommandsBlocker",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "CS2_Whitelist",
+    "description": "Restricts access to the server for Steam IDs listed in the whitelist.",
+    "category": "Administration",
+    "link": "https://github.com/PhantomYopta/CS2_WhiteList",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "DeathmatchPlugin",
+    "description": "Deathmatch plugin, with player configurable loadouts, killstreaks, and a (mid) buy menu integration.",
+    "category": "Modes",
+    "link": "https://github.com/charliethomson/DeathmatchPlugin",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "K4-System",
+    "description": "Playtime tracker, statistical records, and player ranks. Additionally, it includes VIP functions and admin commands for added functionality.",
+    "category": "Stats",
+    "link": "https://github.com/K4ryuu/K4-System",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "DisableWeapons",
+    "description": "Add the weapons you want to be completely restricted from the game.",
+    "category": "Gameplay",
+    "link": "https://github.com/sphaxa/DisableWeaponsPRG",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "cs2_Advertisements_Database",
+    "description": "Advertisements plugin with database for multiple server",
+    "category": "Administration",
+    "link": "https://github.com/johnoclockdk/cs2_Advertisements_Database",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "CS2 Jailbreak",
+    "description": "Jailbreak plugin for CS2",
+    "category": "Modes",
+    "link": "https://github.com/destoer/Cs2Jailbreak",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "cs2-vipguns",
+    "description": "Allow players with VIP to buy specific guns",
+    "category": "Administration",
+    "link": "https://github.com/DeadSwimek/cs2-vipguns",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "cs2-showdamage",
+    "description": "Simple show damage plugin for CS2",
+    "category": "Gameplay",
+    "link": "https://github.com/abnerfs/cs2-showdamage",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "CS2-AutoBalancePlugin",
+    "description": "Auto Balance Plugin for CS2 using COUNTERSTRIKESHARP",
+    "category": "Gameplay",
+    "link": "https://github.com/GabrielBigardi/CS2-AutoBalancePlugin",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "cs2-chatspy",
+    "description": "Catches the enemy team's message and sends them to the administrators",
+    "category": "Administration",
+    "link": "https://github.com/skaen/cs2-chatspy",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "CS2 Teleport",
+    "description": "Advanced teleport command plugin",
+    "category": "Gameplay",
+    "link": "https://github.com/oylsister/CS2-TeleportCommand/",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "cs2-killfeed-filter",
+    "description": "Show players only their own killfeed. Perfect for deathmatch servers.",
+    "category": "Gameplay",
+    "link": "https://github.com/abnerfs/cs2-killfeed-filter",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "SimpleAdmin",
+    "description": "This is a very basic ban/unban/kick plugin for COUNTERSTRIKESHARP that uses SQLite.",
+    "category": "Administration",
+    "link": "https://github.com/connercsbn/SimpleAdmin",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "GoSpec",
+    "description": "Allows players to type !spec in chat",
+    "category": "Gameplay",
+    "link": "https://github.com/joahreason/GoSpec",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "NoKnifeDamage",
+    "description": "Stops players from taking knife damage. Perfect for AWP servers.",
+    "category": "Gameplay",
+    "link": "https://github.com/Precision-Gaming/NoKnifeDamagePRG",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "WorkshopDefaultMap",
+    "description": "Allows you to choose your own CS2 start workshop map.",
+    "category": "Administration",
+    "link": "https://github.com/Cruze03/cs2_WorkshopDefaultMap/",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "TeamBets",
+    "description": "Place a bet on what team you think is going to win.",
+    "category": "Fun",
+    "link": "https://github.com/NiGHT757/TeamBets",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "Weapon-Restrict",
+    "description": "Allows CS2 server owners to block/whitelist players from a country based on IP",
+    "category": "Gameplay",
+    "link": "https://github.com/Quake1011/Weapon-Restrict",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "Simple Spawn Protection",
+    "description": "Grants spawn protection to players",
+    "category": "Gameplay",
+    "link": "https://github.com/Hackmastr/css-spawn-protection",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "No Zoom Rounds",
+    "description": "Allows players to vote for no zoom rounds.",
+    "category": "Fun",
+    "link": "https://github.com/PhantomYopta/CS2_Nozoom-rounds-voting",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "BOTiki",
+    "description": "Add or remove bots depending on the number of players",
+    "category": "Gameplay",
+    "link": "https://github.com/jackson-tougher/cs2_BOTiki",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "Admin List",
+    "description": "Simple admin list plugin",
+    "category": "Administration",
+    "link": "https://github.com/Quake1011/Admin-List",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "CS2 Hide Lower Body Plugin",
+    "description": "Hide player's lower body by using the command !legs",
+    "category": "Gameplay",
+    "link": "https://github.com/dran1x/CS2-HideLowerBody",
+    "tags": [
+      "COUNTERSTRIKESHARP",
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "cs2-weapon-skin",
+    "description": "Allows you to use !ws and change skins on your CS2 server.",
+    "category": "Category",
+    "link": "https://github.com/yuzhouUvU/cs2_weapons_skin",
+    "tags": [
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "mm-cs2-coach",
+    "description": "This Metamod add-on ONLY adds the workaround to set a player as a coach on competitive matches.",
+    "category": "Category",
+    "link": "https://github.com/marqdevx/mm-cs2-coach",
+    "tags": [
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "cs2-bans",
+    "description": "A Metamod plugin that allows server administrators to manage bans, designed specifically for CS2.",
+    "category": "Category",
+    "link": "https://github.com/Pisex/cs2-bans",
+    "tags": [
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "mm-cs2-scrim",
+    "description": "This Metamod add-on is tailored for CS2, facilitating competitive teams by adding essential features.",
+    "category": "Category",
+    "link": "https://github.com/marqdevx/mm-cs2-scrim",
+    "tags": [
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "MiniVIP",
+    "description": "A Metamod:Source plugin that introduces basic VIP player features in CS2, enhancing the gaming experience.",
+    "category": "Category",
+    "link": "https://github.com/komashchenko/MiniVIP",
+    "tags": [
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "MovementUnlocker",
+    "description": "Placeholder",
+    "category": "Category",
+    "link": "https://github.com/Source2ZE/MovementUnlocker",
+    "tags": [
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "advertising",
+    "description": "Placeholder",
+    "category": "Category",
+    "link": "https://github.com/NapasP/advertising",
+    "tags": [
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "cs2-fake-rcon",
+    "description": "Placeholder",
+    "category": "Category",
+    "link": "https://github.com/Salvatore-Als/cs2-fake-rcon",
+    "tags": [
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "cs2kz",
+    "description": "Placeholder",
+    "category": "Category",
+    "link": "https://github.com/zer0k-z/cs2kz_metamod",
+    "tags": [
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "AcceleratorLocal",
+    "description": "Placeholder",
+    "category": "Category",
+    "link": "https://github.com/komashchenko/AcceleratorLocal",
+    "tags": [
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "surfcombat-metamod-cs2",
+    "description": "Placeholder",
+    "category": "Category",
+    "link": "https://github.com/mEldevlp/surfcombat-metamod-cs2",
+    "tags": [
+      "METAMOD"
+    ]
+  },
+  {
+    "title": "CS2Fixes",
+    "description": "Placeholder",
+    "category": "Category",
+    "link": "https://github.com/Source2ZE/CS2Fixes",
+    "tags": [
+      "METAMOD"
+    ]
+  }
+]

@@ -1,0 +1,1035 @@
+[
+  {
+    "title": "Simple Voice Chat",
+    "description": "A working voice chat in Minecraft!",
+    "tags": [
+      "BUKKIT",
+      "PAPER",
+      "SPIGOT"
+    ],
+    "category": "adventure",
+    "link": "https://modrinth.com/plugin/simple-voice-chat"
+  },
+  {
+    "title": "Veinminer",
+    "description": "Mine the whole vine on mining a single ore. Known feature by modpacks and pvp games like UHC (quick mine)",
+    "tags": [
+      "BUKKIT",
+      "PAPER",
+      "SPIGOT"
+    ],
+    "category": "equipment",
+    "link": "https://modrinth.com/plugin/veinminer"
+  },
+  {
+    "title": "Veinminer Enchantment",
+    "description": "Veinminer Addon - Adds vineminer enchantment to enchanting tables. Only tools with the enchantment can veinmine",
+    "tags": [
+      "PAPER"
+    ],
+    "category": "equipment",
+    "link": "https://modrinth.com/plugin/veinminer-enchantment"
+  },
+  {
+    "title": "Let Me Despawn",
+    "description": "Improves performance by tweaking mob despawn rules. Say bye to pesky unintentional persistent mobs.",
+    "tags": [
+      "BUKKIT",
+      "PAPER"
+    ],
+    "category": "optimization",
+    "link": "https://modrinth.com/plugin/lmd"
+  },
+  {
+    "title": "Chunky",
+    "description": "Pre-generates chunks, quickly and efficiently",
+    "tags": [
+      "BUKKIT",
+      "PAPER",
+      "SPIGOT"
+    ],
+    "category": "optimization",
+    "link": "https://modrinth.com/plugin/chunky"
+  },
+  {
+    "title": "WorldEdit",
+    "description": "A Minecraft Map Editor... that runs in-game!\nWith selections, schematics, copy and paste, brushes, and scripting.\nUse it in creative, or use it temporarily in survival.",
+    "tags": [
+      "BUKKIT",
+      "PAPER",
+      "SPIGOT"
+    ],
+    "category": "library",
+    "link": "https://modrinth.com/plugin/worldedit"
+  },
+  {
+    "title": "Emotecraft",
+    "description": "Create your own emotes in Minecraft.",
+    "tags": [
+      "BUKKIT",
+      "PAPER",
+      "SPIGOT"
+    ],
+    "category": "decoration",
+    "link": "https://modrinth.com/plugin/emotecraft"
+  },
+  {
+    "title": "Plasmo Voice",
+    "description": "A proximity voice chat mod with audio positioning and lots of features",
+    "tags": [
+      "BUKKIT",
+      "PAPER",
+      "SPIGOT"
+    ],
+    "category": "adventure",
+    "link": "https://modrinth.com/plugin/plasmo-voice"
+  },
+  {
+    "title": "CalcMod",
+    "description": "A calculator in your chat with shortcuts designed for Minecraft",
+    "tags": [
+      "PAPER"
+    ],
+    "category": "utility",
+    "link": "https://modrinth.com/plugin/calcmod"
+  },
+  {
+    "title": "Customizable Player Models",
+    "description": "Customize your minecraft avatar!",
+    "tags": [
+      "BUKKIT",
+      "PAPER",
+      "SPIGOT"
+    ],
+    "category": "decoration",
+    "link": "https://modrinth.com/plugin/custom-player-models"
+  },
+  {
+    "title": "ItemSwapper",
+    "description": "Inventory update concept for hotswapping items.",
+    "tags": [
+      "BUKKIT",
+      "PAPER",
+      "SPIGOT"
+    ],
+    "category": "game-mechanics",
+    "link": "https://modrinth.com/plugin/itemswapper"
+  },
+  {
+    "title": "ViaVersion",
+    "description": "Allow newer clients to connect to older servers.",
+    "tags": [
+      "PAPER"
+    ],
+    "category": "utility",
+    "link": "https://modrinth.com/plugin/viaversion"
+  },
+  {
+    "title": "LuckPerms",
+    "description": "A permissions plugin/mod for Minecraft servers.",
+    "tags": [
+      "BUKKIT",
+      "PAPER",
+      "SPIGOT"
+    ],
+    "category": "management",
+    "link": "https://modrinth.com/plugin/luckperms"
+  },
+  {
+    "title": "ViaBackwards",
+    "description": "Allow older clients to connect to newer servers.",
+    "tags": [
+      "PAPER"
+    ],
+    "category": "utility",
+    "link": "https://modrinth.com/plugin/viabackwards"
+  },
+  {
+    "title": "TAB",
+    "description": "An all-in-one solution that works",
+    "tags": [
+      "BUKKIT",
+      "PAPER",
+      "SPIGOT"
+    ],
+    "category": "decoration",
+    "link": "https://modrinth.com/plugin/tab-was-taken"
+  },
+  {
+    "title": "Terra",
+    "description": "World generation modding/configuration platform",
+    "tags": [
+      "BUKKIT",
+      "PAPER",
+      "SPIGOT"
+    ],
+    "category": "adventure",
+    "link": "https://modrinth.com/plugin/terra"
+  },
+  {
+    "title": "Dynmap®",
+    "description": "A Google Maps-like map for your Minecraft server that can be viewed in a browser. Easy to set up when making use of Dynmap's integrated webserver, while also supporting advanced deployment with Apache and other web servers.",
+    "tags": [
+      "BUKKIT",
+      "PAPER",
+      "SPIGOT"
+    ],
+    "category": "decoration",
+    "link": "https://modrinth.com/plugin/dynmap"
+  },
+  {
+    "title": "Geyser",
+    "description": "A bridge/proxy allowing you to connect to Minecraft: Java Edition servers with Minecraft: Bedrock Edition.",
+    "tags": [
+      "PAPER",
+      "SPIGOT"
+    ],
+    "category": "utility",
+    "link": "https://modrinth.com/plugin/geyser"
+  },
+  {
+    "title": "DiscordSRV",
+    "description": "The most powerful, configurable, open-source Discord to Minecraft bridging plugin available.",
+    "tags": [
+      "BUKKIT",
+      "PAPER",
+      "SPIGOT"
+    ],
+    "category": "management",
+    "link": "https://modrinth.com/plugin/discordsrv"
+  },
+  {
+    "title": "Multiverse-Core",
+    "description": "The Bukkit World Management Plugin.",
+    "tags": [
+      "BUKKIT",
+      "PAPER",
+      "SPIGOT"
+    ],
+    "category": "management",
+    "link": "https://modrinth.com/plugin/multiverse-core"
+  },
+  {
+    "title": "NBT-API",
+    "description": "Add custom NBT tags to Items/Tiles/Entities without NMS",
+    "tags": [
+      "BUKKIT",
+      "PAPER",
+      "SPIGOT"
+    ],
+    "category": "library",
+    "link": "https://modrinth.com/plugin/nbtapi"
+  },
+  {
+    "title": "CrazyCrates",
+    "description": "Add unlimited crates to your server with 11 different crate types to choose from!",
+    "tags": [
+      "PAPER",
+      "SPIGOT"
+    ],
+    "category": "adventure",
+    "link": "https://modrinth.com/plugin/crazycrates"
+  },
+  {
+    "title": "Raknetify",
+    "description": "A Fabric mod / BungeeCord plugin that uses RakNet to improve multiplayer experience significantly under unreliable and rate-limited connections.",
+    "tags": [],
+    "category": "optimization",
+    "link": "https://modrinth.com/plugin/raknetify"
+  },
+  {
+    "title": "ViaRewind",
+    "description": "ViaVersion addon to allow 1.8.x and 1.7.x clients on newer server versions.",
+    "tags": [
+      "PAPER"
+    ],
+    "category": "utility",
+    "link": "https://modrinth.com/plugin/viarewind"
+  },
+  {
+    "title": "CoreProtect",
+    "description": "CoreProtect is a fast, efficient, data logging and anti-griefing tool. Rollback and restore any amount of damage. Designed with large servers in mind, CoreProtect will record and manage data without impacting your server performance.",
+    "tags": [
+      "BUKKIT",
+      "PAPER",
+      "SPIGOT"
+    ],
+    "category": "management",
+    "link": "https://modrinth.com/plugin/coreprotect"
+  },
+  {
+    "title": "SkinsRestorer",
+    "description": "🎨 Ability to restore/change skins on servers! (Offline and Online Mode)",
+    "tags": [
+      "BUKKIT",
+      "PAPER",
+      "SPIGOT"
+    ],
+    "category": "management",
+    "link": "https://modrinth.com/plugin/skinsrestorer"
+  },
+  {
+    "title": "PowerRanks",
+    "description": "Rank-based permission manager for servers.",
+    "tags": [
+      "BUKKIT",
+      "PAPER",
+      "SPIGOT"
+    ],
+    "category": "management",
+    "link": "https://modrinth.com/plugin/powerranks"
+  },
+  {
+    "title": "EssentialsX",
+    "description": "The essential plugin suite for Paper and Spigot servers.",
+    "tags": [
+      "BUKKIT",
+      "PAPER",
+      "SPIGOT"
+    ],
+    "category": "economy",
+    "link": "https://modrinth.com/plugin/essentialsx"
+  },
+  {
+    "title": "LifeStealZ",
+    "description": "LifeStealZ - The Ultimate LifeSteal SMP Plugin!",
+    "tags": [
+      "PAPER",
+      "SPIGOT"
+    ],
+    "category": "adventure",
+    "link": "https://modrinth.com/plugin/lifestealz"
+  },
+  {
+    "title": "Chunky Border",
+    "description": "An add-on for Chunky which lets you create and manage world borders",
+    "tags": [
+      "BUKKIT",
+      "PAPER",
+      "SPIGOT"
+    ],
+    "category": "game-mechanics",
+    "link": "https://modrinth.com/plugin/chunkyborder"
+  },
+  {
+    "title": "PacketEvents",
+    "description": "A powerful networking library for Minecraft packet processing and manipulation.",
+    "tags": [
+      "BUKKIT",
+      "PAPER",
+      "SPIGOT"
+    ],
+    "category": "library",
+    "link": "https://modrinth.com/plugin/packetevents"
+  },
+  {
+    "title": "BlueMap",
+    "description": "A Minecraft mapping tool that creates 3D models of your Minecraft worlds and displays them in a web viewer.",
+    "tags": [
+      "PAPER",
+      "SPIGOT"
+    ],
+    "category": "utility",
+    "link": "https://modrinth.com/plugin/bluemap"
+  },
+  {
+    "title": "FastAsyncWorldEdit",
+    "description": "Blazingly fast world manipulation for artists, builders and everyone else",
+    "tags": [
+      "BUKKIT",
+      "PAPER",
+      "SPIGOT"
+    ],
+    "category": "management",
+    "link": "https://modrinth.com/plugin/fastasyncworldedit"
+  },
+  {
+    "title": "TabTPS",
+    "description": "Monitor your server's performance in the tab menu, boss bar, and action bar",
+    "tags": [
+      "PAPER"
+    ],
+    "category": "utility",
+    "link": "https://modrinth.com/plugin/tabtps"
+  },
+  {
+    "title": "Advanced Backups",
+    "description": "The backup mod to solve all your problems - actively maintained for almost any minecraft version!",
+    "tags": [
+      "PAPER",
+      "SPIGOT"
+    ],
+    "category": "management",
+    "link": "https://modrinth.com/plugin/advanced-backups"
+  },
+  {
+    "title": "Villager In A Bucket",
+    "description": "Pick up a villager in a bucket!",
+    "tags": [
+      "BUKKIT",
+      "PAPER",
+      "SPIGOT"
+    ],
+    "category": "cursed",
+    "link": "https://modrinth.com/plugin/villager-in-a-bucket"
+  },
+  {
+    "title": "WorldGuard",
+    "description": "WorldGuard lets you and players guard areas of land against griefers and undesirables as well as tweak and disable various gameplay features of Minecraft.",
+    "tags": [
+      "BUKKIT",
+      "PAPER",
+      "SPIGOT"
+    ],
+    "category": "library",
+    "link": "https://modrinth.com/plugin/worldguard"
+  },
+  {
+    "title": "mclo.gs",
+    "description": "Paste, share & analyse your Minecraft logs",
+    "tags": [
+      "PAPER",
+      "SPIGOT"
+    ],
+    "category": "management",
+    "link": "https://modrinth.com/plugin/mclogs"
+  },
+  {
+    "title": "Discord Integration",
+    "description": "This mod links your server chat with a channel on your discord server",
+    "tags": [
+      "PAPER",
+      "SPIGOT"
+    ],
+    "category": "management",
+    "link": "https://modrinth.com/plugin/dcintegration"
+  },
+  {
+    "title": "CustomCrafting",
+    "description": "Easily create custom recipes via an in-game GUI, including Crafting, Cooking, Smithing, etc.\nUse advanced config features to merge/copy NBT from ingredients to results, and run Extensions on recipe completion.",
+    "tags": [
+      "BUKKIT",
+      "PAPER",
+      "SPIGOT"
+    ],
+    "category": "game-mechanics",
+    "link": "https://modrinth.com/plugin/customcrafting"
+  },
+  {
+    "title": "CrazyEnchantments",
+    "description": "Adds over 80 unique enchantments to your server and more! ",
+    "tags": [
+      "PAPER",
+      "SPIGOT"
+    ],
+    "category": "magic",
+    "link": "https://modrinth.com/plugin/crazyenchantments"
+  },
+  {
+    "title": "QuickShop-Hikari",
+    "description": "A shop plugin that allows players to easily sell/buy any items from a chest without any commands.",
+    "tags": [
+      "BUKKIT",
+      "PAPER",
+      "SPIGOT"
+    ],
+    "category": "economy",
+    "link": "https://modrinth.com/plugin/quickshop-hikari"
+  },
+  {
+    "title": "OneBlock",
+    "description": "OneBlock Minecraft Bukkit plugin",
+    "tags": [
+      "BUKKIT",
+      "PAPER",
+      "SPIGOT"
+    ],
+    "category": "game-mechanics",
+    "link": "https://modrinth.com/plugin/oneblock_bukkit"
+  },
+  {
+    "title": "AuraSkills",
+    "description": "The ultra-versatile RPG skills plugin",
+    "tags": [
+      "PAPER",
+      "SPIGOT"
+    ],
+    "category": "adventure",
+    "link": "https://modrinth.com/plugin/auraskills"
+  },
+  {
+    "title": "FancyNpcs",
+    "description": "Simple, lightweight and fast NPC plugin using packets",
+    "tags": [
+      "PAPER"
+    ],
+    "category": "decoration",
+    "link": "https://modrinth.com/plugin/fancynpcs"
+  },
+  {
+    "title": "PlayerKits 2",
+    "description": "An easy to use but powerful plugin to create survival kits and claim them on a GUI.",
+    "tags": [
+      "PAPER",
+      "SPIGOT"
+    ],
+    "category": "equipment",
+    "link": "https://modrinth.com/plugin/playerkits-2"
+  },
+  {
+    "title": "LagFixer",
+    "description": "⚡️ Best Performance Solution! 🗄️Trusted by 2000+ servers! ✅ Lightweight and highly Asynchronous!",
+    "tags": [
+      "BUKKIT",
+      "PAPER",
+      "SPIGOT"
+    ],
+    "category": "mobs",
+    "link": "https://modrinth.com/plugin/lagfixer"
+  },
+  {
+    "title": "HuskHomes",
+    "description": "The powerful & intuitive set homes, warps, and teleports plugin/mod",
+    "tags": [
+      "PAPER",
+      "SPIGOT"
+    ],
+    "category": "management",
+    "link": "https://modrinth.com/plugin/huskhomes"
+  },
+  {
+    "title": "PatPat [Mod & Plugin]",
+    "description": "Simple Fabric Mod which allows you to pat ANY loved and unloved living mobs in Minecraft! Server-Side is optional.",
+    "tags": [
+      "BUKKIT",
+      "PAPER",
+      "SPIGOT"
+    ],
+    "category": "cursed",
+    "link": "https://modrinth.com/plugin/patpat"
+  },
+  {
+    "title": "NoEmotecraft",
+    "description": "Emotecraft fork with 1.21.x update",
+    "tags": [
+      "BUKKIT",
+      "PAPER",
+      "SPIGOT"
+    ],
+    "category": "decoration",
+    "link": "https://modrinth.com/plugin/noemotecraft"
+  },
+  {
+    "title": "Multiverse-Inventories",
+    "description": "An inventory management plugin created to intertwine with Multiverse-Core",
+    "tags": [
+      "BUKKIT",
+      "PAPER",
+      "SPIGOT"
+    ],
+    "category": "management",
+    "link": "https://modrinth.com/plugin/multiverse-inventories"
+  },
+  {
+    "title": "Axiom Paper Plugin",
+    "description": "The Paper Plugin of the server-side implementation for Axiom, the all in one tool for editing Minecraft worlds.",
+    "tags": [
+      "PAPER"
+    ],
+    "category": "management",
+    "link": "https://modrinth.com/plugin/axiom-paper-plugin"
+  },
+  {
+    "title": "WolfyUtils",
+    "description": "Core API & Utils for Spigot based plugins. Inventory GUI, Language, JSON (Jackson), and many more utils",
+    "tags": [
+      "BUKKIT",
+      "PAPER",
+      "SPIGOT"
+    ],
+    "category": "library",
+    "link": "https://modrinth.com/plugin/wolfyutils"
+  },
+  {
+    "title": "Sit",
+    "description": "Simple stair sitting plugin.",
+    "tags": [
+      "PAPER",
+      "SPIGOT"
+    ],
+    "category": "decoration",
+    "link": "https://modrinth.com/plugin/stairsit"
+  },
+  {
+    "title": "SetSpawn",
+    "description": "Set your servers spawn and teleport back to it!",
+    "tags": [
+      "BUKKIT",
+      "PAPER",
+      "SPIGOT"
+    ],
+    "category": "game-mechanics",
+    "link": "https://modrinth.com/plugin/setspawn"
+  },
+  {
+    "title": "Infinite Villager Trading",
+    "description": "A spigot plugin that allows villagers to trade infinitely",
+    "tags": [
+      "PAPER",
+      "SPIGOT"
+    ],
+    "category": "game-mechanics",
+    "link": "https://modrinth.com/plugin/infinite-villager-trading"
+  },
+  {
+    "title": "ImageFrame",
+    "description": "Put images on maps and walls!",
+    "tags": [
+      "PAPER",
+      "SPIGOT"
+    ],
+    "category": "decoration",
+    "link": "https://modrinth.com/plugin/imageframe"
+  },
+  {
+    "title": "Bending",
+    "description": "Experience the universe of Avatar: The Last Airbender in minecraft.",
+    "tags": [
+      "PAPER"
+    ],
+    "category": "game-mechanics",
+    "link": "https://modrinth.com/plugin/bending"
+  },
+  {
+    "title": "Server Redirect",
+    "description": "This mod provides a lightweight way for servers to transfer players to another server address, without the use of a proxy server.",
+    "tags": [
+      "BUKKIT",
+      "SPIGOT"
+    ],
+    "category": "utility",
+    "link": "https://modrinth.com/plugin/server-redirect"
+  },
+  {
+    "title": "MiniMOTD",
+    "description": "Minecraft plugin/mod to set the server list MOTD using MiniMessage for formatting, supporting RGB colors. ",
+    "tags": [
+      "PAPER"
+    ],
+    "category": "decoration",
+    "link": "https://modrinth.com/plugin/minimotd"
+  },
+  {
+    "title": "Typewriter",
+    "description": "Typewriter is a plugin for paper Minecraft servers that allows for custom player interactions such as Quests,\nNPC chat, Create branching story with ease, and more. Configurable using the web panel custom designed.",
+    "tags": [
+      "PAPER"
+    ],
+    "category": "adventure",
+    "link": "https://modrinth.com/plugin/typewriter"
+  },
+  {
+    "title": "InvSee++",
+    "description": "A bukkit plugin for manipulating player inventories.",
+    "tags": [
+      "BUKKIT",
+      "PAPER",
+      "SPIGOT"
+    ],
+    "category": "library",
+    "link": "https://modrinth.com/plugin/invsee++"
+  },
+  {
+    "title": "Beenfo",
+    "description": "Show number of bees and honey level in hives and nests",
+    "tags": [
+      "PAPER",
+      "SPIGOT"
+    ],
+    "category": "utility",
+    "link": "https://modrinth.com/plugin/beenfo"
+  },
+  {
+    "title": "FancyHolograms",
+    "description": "Create fancy looking text, item or block holograms with the new 1.19.4 text display entities",
+    "tags": [
+      "PAPER"
+    ],
+    "category": "decoration",
+    "link": "https://modrinth.com/plugin/fancyholograms"
+  },
+  {
+    "title": "Simple Voice Chat Discord Bridge",
+    "description": "A mod and plugin to make a bridge between Simple Voice Chat and Discord to allow for players without the mod to hear and speak.",
+    "tags": [
+      "BUKKIT",
+      "PAPER",
+      "SPIGOT"
+    ],
+    "category": "adventure",
+    "link": "https://modrinth.com/plugin/simple-voice-chat-discord-bridge"
+  },
+  {
+    "title": "Quests",
+    "description": "An extensive questing system",
+    "tags": [
+      "PAPER",
+      "SPIGOT"
+    ],
+    "category": "adventure",
+    "link": "https://modrinth.com/plugin/quests.classic"
+  },
+  {
+    "title": "FreedomChat",
+    "description": "Liberate your server from the chat-reporting bourgeoisie! The best paper chat report disabler this side of the Mississippi",
+    "tags": [
+      "BUKKIT",
+      "PAPER",
+      "SPIGOT"
+    ],
+    "category": "game-mechanics",
+    "link": "https://modrinth.com/plugin/freedomchat"
+  },
+  {
+    "title": "GeyserExtras",
+    "description": "A plugin which attempts to unify feature parity for Bedrock Edition players on Java Edition Servers with GeyserMC.",
+    "tags": [
+      "PAPER",
+      "SPIGOT"
+    ],
+    "category": "game-mechanics",
+    "link": "https://modrinth.com/plugin/geyserextras"
+  },
+  {
+    "title": "Click Villagers",
+    "description": "Click to pick up villagers, see their trades, change their biomes, claim them and much more!",
+    "tags": [
+      "BUKKIT",
+      "PAPER",
+      "SPIGOT"
+    ],
+    "category": "game-mechanics",
+    "link": "https://modrinth.com/plugin/clickvillagers"
+  },
+  {
+    "title": "SetHome",
+    "description": "SetHome is a plugin that allows you to easily create homes",
+    "tags": [
+      "BUKKIT",
+      "PAPER",
+      "SPIGOT"
+    ],
+    "category": "",
+    "link": "https://modrinth.com/plugin/sethome"
+  },
+  {
+    "title": "BuildPaste - Instant Structures",
+    "description": "Build your dream world in seconds with 4700+ instant structures",
+    "tags": [
+      "BUKKIT",
+      "SPIGOT"
+    ],
+    "category": "decoration",
+    "link": "https://modrinth.com/plugin/buildpaste"
+  },
+  {
+    "title": "Xaero Map Spigot",
+    "description": "Adds server side support for Xaero's World Map and Minimap to your spigot server!",
+    "tags": [
+      "BUKKIT",
+      "PAPER",
+      "SPIGOT"
+    ],
+    "category": "utility",
+    "link": "https://modrinth.com/plugin/xaero-map-spigot"
+  },
+  {
+    "title": "CrazyAuctions",
+    "description": "Auction your items off in style!",
+    "tags": [
+      "PAPER",
+      "SPIGOT"
+    ],
+    "category": "economy",
+    "link": "https://modrinth.com/plugin/crazyauctions"
+  },
+  {
+    "title": "TPS HUD",
+    "description": "A fully customizable mod for fabric that displays the servers tps.",
+    "tags": [
+      "BUKKIT",
+      "PAPER",
+      "SPIGOT"
+    ],
+    "category": "utility",
+    "link": "https://modrinth.com/plugin/tps-hud"
+  },
+  {
+    "title": "AuthMe ReReloaded(Fork)",
+    "description": "A reliable, stable fork of AuthMe with various bug fixes, new exciting features and Folia support",
+    "tags": [
+      "BUKKIT",
+      "PAPER",
+      "SPIGOT"
+    ],
+    "category": "management",
+    "link": "https://modrinth.com/plugin/authmerereloaded"
+  },
+  {
+    "title": "AxGraves",
+    "description": "A lightweight grave (death chest) plugin focused on performance & compatibility.",
+    "tags": [
+      "BUKKIT",
+      "PAPER",
+      "SPIGOT"
+    ],
+    "category": "game-mechanics",
+    "link": "https://modrinth.com/plugin/axgraves"
+  },
+  {
+    "title": "Vanish",
+    "description": "Make yourself completely invisible with /vanish",
+    "tags": [
+      "BUKKIT",
+      "PAPER",
+      "SPIGOT"
+    ],
+    "category": "magic",
+    "link": "https://modrinth.com/plugin/provanish"
+  },
+  {
+    "title": "LibreLogin",
+    "description": "Open-source, multiplatform, and highly customizable authentication plugin with outstanding features.",
+    "tags": [
+      "BUKKIT",
+      "PAPER"
+    ],
+    "category": "management",
+    "link": "https://modrinth.com/plugin/libre-login"
+  },
+  {
+    "title": "Just TPA",
+    "description": "JustTPA is a simple tpa plugin where players can ask other players if they can teleport to them.",
+    "tags": [
+      "BUKKIT",
+      "PAPER",
+      "SPIGOT"
+    ],
+    "category": "game-mechanics",
+    "link": "https://modrinth.com/plugin/just-tpa"
+  },
+  {
+    "title": "Orebfuscator",
+    "description": "High-Performance Anti X-Ray plugin",
+    "tags": [
+      "BUKKIT",
+      "PAPER",
+      "SPIGOT"
+    ],
+    "category": "utility",
+    "link": "https://modrinth.com/plugin/orebfuscator"
+  },
+  {
+    "title": "PowerGems",
+    "description": "A very customisable plugin that adds gems with powerful abilities!",
+    "tags": [
+      "PAPER",
+      "SPIGOT"
+    ],
+    "category": "equipment",
+    "link": "https://modrinth.com/plugin/powergems"
+  },
+  {
+    "title": "Advanced Portals",
+    "description": "Advanced Portals is a portal plugin for bukkit designed to have a wide range of features which are easy to use.",
+    "tags": [
+      "BUKKIT",
+      "PAPER",
+      "SPIGOT"
+    ],
+    "category": "transportation",
+    "link": "https://modrinth.com/plugin/advanced-portals"
+  },
+  {
+    "title": "SkBee",
+    "description": "A Skript addon that picks up where Skript left off.",
+    "tags": [
+      "PAPER",
+      "SPIGOT"
+    ],
+    "category": "utility",
+    "link": "https://modrinth.com/plugin/skbee"
+  },
+  {
+    "title": "Bedrock Parity",
+    "description": "A Third-Party Spigot Plugin for GeyserMC Servers that bridges the Parity between Bedrock and Java-exclusive features.",
+    "tags": [
+      "PAPER",
+      "SPIGOT"
+    ],
+    "category": "game-mechanics",
+    "link": "https://modrinth.com/plugin/bedrockparity"
+  },
+  {
+    "title": "Gunshell",
+    "description": "With this plugin you can add guns, ammo, throwables and melee weapons to your server.",
+    "tags": [
+      "PAPER",
+      "SPIGOT"
+    ],
+    "category": "game-mechanics",
+    "link": "https://modrinth.com/plugin/gunshell"
+  },
+  {
+    "title": "Grim Anticheat",
+    "description": "Fully async, multithreaded, predictive, open source, 3.01 reach, 1.005 timer, 0.01% speed, 99.99% antikb, \"bypassable\" 1.8-1.21 anticheat",
+    "tags": [
+      "BUKKIT",
+      "PAPER",
+      "SPIGOT"
+    ],
+    "category": "game-mechanics",
+    "link": "https://modrinth.com/plugin/grimac"
+  },
+  {
+    "title": "squaremap",
+    "description": "squaremap is a minimalistic & lightweight world map viewer for Minecraft servers, using the vanilla map rendering style",
+    "tags": [
+      "PAPER"
+    ],
+    "category": "decoration",
+    "link": "https://modrinth.com/plugin/squaremap"
+  },
+  {
+    "title": "nightcore",
+    "description": "A lightweight library for faster and more efficient plugin development.",
+    "tags": [
+      "PAPER",
+      "SPIGOT"
+    ],
+    "category": "library",
+    "link": "https://modrinth.com/plugin/nightcore"
+  },
+  {
+    "title": "UberEnchant",
+    "description": "UberEnchant adds the ability for servers to enchant any item with any enchantment up to level 255 (since 1.17), add names and lore to items (color support), add potion effects to items, extract enchantments to books, and economy support.",
+    "tags": [
+      "BUKKIT",
+      "PAPER",
+      "SPIGOT"
+    ],
+    "category": "equipment",
+    "link": "https://modrinth.com/plugin/uberenchant"
+  },
+  {
+    "title": "AdvancedServerList",
+    "description": "A plugin to display a custom MOTD, Player count text, player count hover and Favicon using conditions and priorities.",
+    "tags": [
+      "PAPER",
+      "SPIGOT"
+    ],
+    "category": "utility",
+    "link": "https://modrinth.com/plugin/advancedserverlist"
+  },
+  {
+    "title": "DecentHolograms",
+    "description": "A lightweight yet very powerful hologram plugin with many features and configuration options.",
+    "tags": [
+      "PAPER",
+      "SPIGOT"
+    ],
+    "category": "decoration",
+    "link": "https://modrinth.com/plugin/decentholograms"
+  },
+  {
+    "title": "Pl3xMap",
+    "description": "Pl3xMap is a minimalistic and lightweight world map viewer for Minecraft servers using the vanilla Minecraft rendering style",
+    "tags": [
+      "BUKKIT",
+      "PAPER",
+      "SPIGOT"
+    ],
+    "category": "adventure",
+    "link": "https://modrinth.com/plugin/pl3xmap"
+  },
+  {
+    "title": "pv-addon-sculk",
+    "description": "With this add-on warder and skulk sensors are triggered by proximity voice chat.",
+    "tags": [
+      "PAPER"
+    ],
+    "category": "game-mechanics",
+    "link": "https://modrinth.com/plugin/pv-addon-sculk"
+  },
+  {
+    "title": "Waypoints",
+    "description": "Always find your way back home with SMP friendly server-side waypoints",
+    "tags": [
+      "PAPER",
+      "SPIGOT"
+    ],
+    "category": "adventure",
+    "link": "https://modrinth.com/plugin/waypoints"
+  },
+  {
+    "title": "FeatherMorph",
+    "description": "Yet another disguise plugin. Disguise as mobs and players, then acquire unique skills and abilities!",
+    "tags": [
+      "PAPER"
+    ],
+    "category": "adventure",
+    "link": "https://modrinth.com/plugin/feathermorph"
+  },
+  {
+    "title": "pv-addon-lavaplayer-lib",
+    "description": "Add-on library with bundled needed for some Plasmo Voice add-ons.",
+    "tags": [
+      "PAPER",
+      "SPIGOT"
+    ],
+    "category": "library",
+    "link": "https://modrinth.com/plugin/pv-addon-lavaplayer-lib"
+  },
+  {
+    "title": "Multiverse-Portals",
+    "description": "Jump through a portal in to any Multiverse destination imaginable",
+    "tags": [
+      "BUKKIT",
+      "PAPER",
+      "SPIGOT"
+    ],
+    "category": "game-mechanics",
+    "link": "https://modrinth.com/plugin/multiverse-portals"
+  },
+  {
+    "title": "CommandWhitelist",
+    "description": "You decide what commands players can use or tab complete on your server!",
+    "tags": [
+      "BUKKIT",
+      "PAPER",
+      "SPIGOT"
+    ],
+    "category": "management",
+    "link": "https://modrinth.com/plugin/commandwhitelist"
+  },
+  {
+    "title": "AFK Rewards Lite",
+    "description": "Give Rewards to Players inside a region | 1.8.x - 1.20.x",
+    "tags": [
+      "BUKKIT",
+      "PAPER",
+      "SPIGOT"
+    ],
+    "category": "economy",
+    "link": "https://modrinth.com/plugin/afk-rewards-free"
+  },
+  {
+    "title": "Streamotes: Streamer Emotes",
+    "description": "Integrate popular emote/emoji systems from your favorite streamers into Minecraft chat! Twitch, BTTV, FFZ, 7tv, now with server config support!",
+    "tags": [
+      "PAPER"
+    ],
+    "category": "cursed",
+    "link": "https://modrinth.com/plugin/streamotes"
+  }
+]

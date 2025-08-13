@@ -1,0 +1,584 @@
+[
+  {
+    "title": "Refined Power",
+    "description": "A Satisfactory Mod that adds 30+ hand made buildings to produce power!",
+    "category": "items",
+    "link": "https://ficsit.app/mod/RefinedPower"
+  },
+  {
+    "title": "Smart! [On Hiatus]",
+    "description": "The mod that does things other's can't!",
+    "category": "buildgun",
+    "link": "https://ficsit.app/mod/SmartFoundations"
+  },
+  {
+    "title": "Additional 300 Inventory Slots",
+    "description": "This mod adds an extra 300 inventory slots for FREE!",
+    "category": "inventory",
+    "link": "https://ficsit.app/mod/Additional_300_Inventory_Slots"
+  },
+  {
+    "title": "Structural Solutions",
+    "description": "Structural Solutions adds 300+ new buildable objects to Satisfactory.",
+    "category": "Other",
+    "link": "https://ficsit.app/mod/SS_Mod"
+  },
+  {
+    "title": "Infinite Zoop",
+    "description": "Upgrade your max Zoop count and Zoop in two dimensions!",
+    "category": "buildgun",
+    "link": "https://ficsit.app/mod/InfiniteZoop"
+  },
+  {
+    "title": "Pak Utility Mod",
+    "description": "Utility Mod, but compatible with other mods",
+    "category": "Other",
+    "link": "https://ficsit.app/mod/UtilityMod"
+  },
+  {
+    "title": "Satisfactory Mod Loader",
+    "description": "Mod loading and compatibility API for Satisfactory",
+    "category": "library",
+    "link": "https://ficsit.app/mod/SML"
+  },
+  {
+    "title": "Mk++",
+    "description": "Add Mk.2, Mk.3 and Mk.4 for Assembler, Refinery, Foundry, Constructor, Smelter, Manufacturer...",
+    "category": "machines",
+    "link": "https://ficsit.app/mod/MK22k20"
+  },
+  {
+    "title": "Linear Motion",
+    "description": "Elevators and More!",
+    "category": "Other",
+    "link": "https://ficsit.app/mod/LinearMotion"
+  },
+  {
+    "title": "Efficiency Checker Mod",
+    "description": "See if your production is underflowing! Now with a hand tool, too!",
+    "category": "Other",
+    "link": "https://ficsit.app/mod/EfficiencyCheckerMod"
+  },
+  {
+    "title": "Ficsit Farming",
+    "description": "Get your Fingers Dirty with the ficsit farming mod!",
+    "category": "machines",
+    "link": "https://ficsit.app/mod/FicsitFarming"
+  },
+  {
+    "title": "Storage Teleporter",
+    "description": "Teleport your storage from one side of the map to the other",
+    "category": "machines",
+    "link": "https://ficsit.app/mod/StorageTeleporter"
+  },
+  {
+    "title": "Modular Load Balancers",
+    "description": "Modular buildable that can be snapped together to form load balancers of any size",
+    "category": "logistics",
+    "link": "https://ficsit.app/mod/LoadBalancers"
+  },
+  {
+    "title": "Fluid Extras",
+    "description": "Several new pipe junctions, alternate Mini Water Extractor, and new A.I. Packing machine.",
+    "category": "machines",
+    "link": "https://ficsit.app/mod/AB_FluidExtras"
+  },
+  {
+    "title": "PowerSuit",
+    "description": "A powered Suit with an internal Inventory that allows Modules to modify the Bonuses the Suit provides.",
+    "category": "library",
+    "link": "https://ficsit.app/mod/PowerSuit"
+  },
+  {
+    "title": "Floor Hole Ceiling Logistics",
+    "description": "Pass Conveyors, Pipes, Power and Hypertubes through Foundations and Ceilings.",
+    "category": "Other",
+    "link": "https://ficsit.app/mod/FloorHole"
+  },
+  {
+    "title": "ContentLib",
+    "description": "Easily create or modify Items, Recipes, and more via JSON for any machine and any mod!",
+    "category": "library",
+    "link": "https://ficsit.app/mod/ContentLib"
+  },
+  {
+    "title": "Teleporter",
+    "description": "Teleport you from a teleporter to another one! Works in Multiplayer",
+    "category": "mobility",
+    "link": "https://ficsit.app/mod/Teleporter"
+  },
+  {
+    "title": "PowerSuit Modules Base Mod",
+    "description": "Expand your equipment options with a PowerSuit! Highly customizable and configurable.",
+    "category": "expansion",
+    "link": "https://ficsit.app/mod/ArmorModules"
+  },
+  {
+    "title": "Daisy Chain Smart Input Factory",
+    "description": "Adds new machines that has 4 power connections and will only store the triple of resources needed by each production cycle.",
+    "category": "Other",
+    "link": "https://ficsit.app/mod/DaisyChainPowerCables"
+  },
+  {
+    "title": "Conveyor Wall Hole",
+    "description": "Put a hole in the wall for conveyors wherever you want.",
+    "category": "Other",
+    "link": "https://ficsit.app/mod/WallHoleConveyor"
+  },
+  {
+    "title": "EasyCheat",
+    "description": "A quick way to do some cheats.",
+    "category": "Other",
+    "link": "https://ficsit.app/mod/EasyCheat"
+  },
+  {
+    "title": "Big Storage Tank and MegaPump",
+    "description": "A Tier 7 Big Storage tank to store 25.000 Fluids and a Strong Pump.",
+    "category": "Other",
+    "link": "https://ficsit.app/mod/BigStorageTank"
+  },
+  {
+    "title": "MiniMap",
+    "description": "Shows a minimap on your hud",
+    "category": "qol",
+    "link": "https://ficsit.app/mod/MiniMap"
+  },
+  {
+    "title": "Item Dispenser",
+    "description": "A special storage container that can place stacks of items directly in your inventory.",
+    "category": "Other",
+    "link": "https://ficsit.app/mod/Dispenser"
+  },
+  {
+    "title": "Infinite Nudge",
+    "description": "Nudge in smaller increments, scale, and rotate on any axis. Also nudge extractors!",
+    "category": "qol",
+    "link": "https://ficsit.app/mod/InfiniteNudge"
+  },
+  {
+    "title": "Power Checker",
+    "description": "Check if your fuses can blow!",
+    "category": "qol",
+    "link": "https://ficsit.app/mod/PowerChecker"
+  },
+  {
+    "title": "Magic Machines",
+    "description": "SANDBOX. A lot of Fluids, Solids and Energy Spawner and Sink.",
+    "category": "Other",
+    "link": "https://ficsit.app/mod/MagicMachine"
+  },
+  {
+    "title": "PSM: Fresh from RnD",
+    "description": "These special-purpose Modules are fresh from R&D, offering interesting solutions to interesting problems.",
+    "category": "equipment",
+    "link": "https://ficsit.app/mod/ArmorModules_Special"
+  },
+  {
+    "title": "Area Actions",
+    "description": "Do stuff that usually takes too long, with just a few clicks",
+    "category": "Other",
+    "link": "https://ficsit.app/mod/AreaActions"
+  },
+  {
+    "title": "Modpack: All PowerSuit Modules",
+    "description": "Conveniently install the entire PowerSuit Modules collection of mods!",
+    "category": "expansion",
+    "link": "https://ficsit.app/mod/ArmorModules__Modpack_All"
+  },
+  {
+    "title": "PSM: Mobility",
+    "description": "Modules to help you move around on land, power line, tube, and more.",
+    "category": "equipment",
+    "link": "https://ficsit.app/mod/ArmorModules_Mobility"
+  },
+  {
+    "title": "Container Screens and more",
+    "description": "Automatically adds a customizable screen in all Containers showing whats inside. Now with buildable to see all other machines.",
+    "category": "Other",
+    "link": "https://ficsit.app/mod/ContainerScreen"
+  },
+  {
+    "title": "PSM: Flight",
+    "description": "Modules that help you get up into the air and stay there!",
+    "category": "equipment",
+    "link": "https://ficsit.app/mod/ArmorModules_Flight"
+  },
+  {
+    "title": "PSM: Power Generation",
+    "description": "Modules that produce vital Power for your other modules to operate with.",
+    "category": "equipment",
+    "link": "https://ficsit.app/mod/ArmorModules_PowerGeneration"
+  },
+  {
+    "title": "PSM: Suit Regulation",
+    "description": "Modules that allow you to fine-tune the operation of your Suit's Power and Fuel systems.",
+    "category": "equipment",
+    "link": "https://ficsit.app/mod/ArmorModules_SuitRegulation"
+  },
+  {
+    "title": "Unlock All Alternate Recipes",
+    "description": "CHEAT. Gives you everything that Hard Drives gives you: 70 Alternate Recipes + 10 Inventory Slots.",
+    "category": "Other",
+    "link": "https://ficsit.app/mod/UnlockAllAlternateRecipes"
+  },
+  {
+    "title": "ExoSuit Mod",
+    "description": "Adds an 'ExoSuit' which functions as the jetpack and blade runners",
+    "category": "Other",
+    "link": "https://ficsit.app/mod/ExoSuitMod"
+  },
+  {
+    "title": "PSM: Pioneer Protection",
+    "description": "Protect yourself from the environment (and your fellow Pioneers) with this line of Modules.",
+    "category": "equipment",
+    "link": "https://ficsit.app/mod/ArmorModules_Defense"
+  },
+  {
+    "title": "FICSIT Blueprints Extensions",
+    "description": "Add 3 new Blueprint Designer Tiers to the game!",
+    "category": "Other",
+    "link": "https://ficsit.app/mod/KBlueprintDesignPlus"
+  },
+  {
+    "title": "Advanced Logistics",
+    "description": "Adds a ratio adjustable splitter and merger",
+    "category": "Other",
+    "link": "https://ficsit.app/mod/AdvancedLogistics"
+  },
+  {
+    "title": "Huge Storage",
+    "description": "Huge Storage adds storage containers with more slots!",
+    "category": "Other",
+    "link": "https://ficsit.app/mod/HugeStorage"
+  },
+  {
+    "title": "Flex Splines - Longer Belts",
+    "description": "Allows you to build longer VANILLA Conveyors, Pipes, Tracks, Powerlines and Hypertubes. And more flexible modded builds.",
+    "category": "logistics",
+    "link": "https://ficsit.app/mod/FlexSplines"
+  },
+  {
+    "title": "FicsIt-Networks",
+    "description": "Upgrade Satisfactory with customizable computers, smart networking and custom scripting for unparalleled factory control!",
+    "category": "expansion",
+    "link": "https://ficsit.app/mod/FicsItNetworks"
+  },
+  {
+    "title": "Faster Manual Crafting Redux",
+    "description": "Are you tired of the early game crafting grind? Speed up your manual crafting!",
+    "category": "mechanics",
+    "link": "https://ficsit.app/mod/FasterManualCraftingRedux"
+  },
+  {
+    "title": "Light It Up",
+    "description": "A Satisfactory Mod which adds a couple of Lamps to the game.",
+    "category": "Other",
+    "link": "https://ficsit.app/mod/LightItUp"
+  },
+  {
+    "title": "PermaDay",
+    "description": "A basic mod that makes your wonderful day last forever !",
+    "category": "Other",
+    "link": "https://ficsit.app/mod/PermaDay"
+  },
+  {
+    "title": "Upside Down Foundations More",
+    "description": "Grass, emissives, rock, and more foundations and walls.",
+    "category": "architecture",
+    "link": "https://ficsit.app/mod/UpsideDownFoundations"
+  },
+  {
+    "title": "Throughput Counter and Limiter",
+    "description": "Belt attachment that displays the actual item throughput per minute. Can optionally limit the IPM.",
+    "category": "qol",
+    "link": "https://ficsit.app/mod/CounterLimiter"
+  },
+  {
+    "title": "Micro Manage",
+    "description": "TOOL: Visually Copy, Delete, Move, Rotate, & Resize selections of buildable objects in your factory",
+    "category": "Other",
+    "link": "https://ficsit.app/mod/MicroManage"
+  },
+  {
+    "title": "MoarFactory",
+    "description": "MoarFactory is more Factory... Buildings, Walls, Stairs and many moar",
+    "category": "Other",
+    "link": "https://ficsit.app/mod/MoarFactory"
+  },
+  {
+    "title": "X3-Roads",
+    "description": "X3-Roads is a mod for creating flat and ramped roads. The mod comes with 100+ parts. WITH ZOOP",
+    "category": "decoration",
+    "link": "https://ficsit.app/mod/x3_roads"
+  },
+  {
+    "title": "Item Spawner",
+    "description": "Allows spawning of items in game via GUI for those creative only users",
+    "category": "mechanics",
+    "link": "https://ficsit.app/mod/ItemSpawner"
+  },
+  {
+    "title": "X3-Signs V2",
+    "description": "X3-Signs is a mod for using different signs, which can be fully customized.",
+    "category": "Other",
+    "link": "https://ficsit.app/mod/x3_signs"
+  },
+  {
+    "title": "Covered Conveyor Belts",
+    "description": "A variety of Covered Conveyor Belts Mk1-6! (+ coloured-belt standard conveyors Mk 1-6!)",
+    "category": "Other",
+    "link": "https://ficsit.app/mod/CoveredConveyor"
+  },
+  {
+    "title": "Stack Overflow",
+    "description": "Makes all items stack to 500 ! Or much, much more",
+    "category": "Other",
+    "link": "https://ficsit.app/mod/StackOverload"
+  },
+  {
+    "title": "Wall Pipe Supports",
+    "description": "Additional variants of the wall pipe support",
+    "category": "qol",
+    "link": "https://ficsit.app/mod/WallPipeSupports"
+  },
+  {
+    "title": "Circuitry - Logic gates and More",
+    "description": "Allows you to create circuits to control your factory in any way you want",
+    "category": "Other",
+    "link": "https://ficsit.app/mod/FicsitWiremod"
+  },
+  {
+    "title": "All Nodes Pure",
+    "description": "ALL nodes of the world are pure.",
+    "category": "Other",
+    "link": "https://ficsit.app/mod/AllNodesPure"
+  },
+  {
+    "title": "Just Fly",
+    "description": "Mod just for flying, focused on ergonomics",
+    "category": "Other",
+    "link": "https://ficsit.app/mod/JustFly"
+  },
+  {
+    "title": "Resource Node Creator",
+    "description": "You can create Resource Nodes with Power Shards",
+    "category": "Other",
+    "link": "https://ficsit.app/mod/ResourceNodeCreator"
+  },
+  {
+    "title": "Inventory Slots 150",
+    "description": "Get 150 more inventory slots.",
+    "category": "Other",
+    "link": "https://ficsit.app/mod/InventorySpace3"
+  },
+  {
+    "title": "Better BladeRunners",
+    "description": "Run faster with this Blade Runner ! Working on Multiplayer",
+    "category": "Other",
+    "link": "https://ficsit.app/mod/bladerunner"
+  },
+  {
+    "title": "Faster Full Health Regeneration",
+    "description": "With this mod you will regenerate the full health faster",
+    "category": "Other",
+    "link": "https://ficsit.app/mod/RegenAllHealth"
+  },
+  {
+    "title": "Underground Belts",
+    "description": "You could place as many \"x\" inputs for \"1\" output and vice versa.",
+    "category": "Other",
+    "link": "https://ficsit.app/mod/UndergroundBelts"
+  },
+  {
+    "title": "RSS2 / Really Simple Signs",
+    "description": "Adds a variety of signs for your factory. Fully MP compatible!",
+    "category": "Other",
+    "link": "https://ficsit.app/mod/RSS"
+  },
+  {
+    "title": "Additional 500 Inventory Slots",
+    "description": "Gives you 500 Inventory Slots",
+    "category": "inventory",
+    "link": "https://ficsit.app/mod/Additional500InventorySlots"
+  },
+  {
+    "title": "Item Hopper",
+    "description": "A special storage container that can extract items from your inventory.",
+    "category": "Other",
+    "link": "https://ficsit.app/mod/Hopper"
+  },
+  {
+    "title": "Multi Splitter/MergerBalancer",
+    "description": "You can merge, split or balance 12 Inputs/Outputs. It will not split equally.",
+    "category": "Other",
+    "link": "https://ficsit.app/mod/MultiSplitterAndMerger"
+  },
+  {
+    "title": "Awesome Points x100",
+    "description": "CHEAT. All Awesome Points you get on Resource Sink is multiplied by 100.",
+    "category": "Other",
+    "link": "https://ficsit.app/mod/HundredTimesAwesomePoints"
+  },
+  {
+    "title": "Cheap Power Shards",
+    "description": "CHEAT. A Tier 2 very cheap recipe for you to produce your own Power Shards.",
+    "category": "Other",
+    "link": "https://ficsit.app/mod/CheapPowerShard"
+  },
+  {
+    "title": "Crash Site Beacons",
+    "description": "Places map markers at every crash site.",
+    "category": "qol",
+    "link": "https://ficsit.app/mod/CrashSiteBeacons"
+  },
+  {
+    "title": "Huge Inventory ( +100 slots)",
+    "description": "Add you 100 Inventory Slots [ MP SUPPORTED]",
+    "category": "Other",
+    "link": "https://ficsit.app/mod/HugeInventory"
+  },
+  {
+    "title": "Fluid Sink and more",
+    "description": "A Fluid Sink to vanish fluids, Valve Overflow, Ground Water Drill, Multi Pipe Junction and Mini Storage Tank.",
+    "category": "Other",
+    "link": "https://ficsit.app/mod/FluidSink"
+  },
+  {
+    "title": "Factory Props",
+    "description": "Your Ultimate Decorating Toolkit!",
+    "category": "expansion",
+    "link": "https://ficsit.app/mod/Factory_Prop_Mod"
+  },
+  {
+    "title": "Daisy Chain Everything",
+    "description": "Increases the number of power connections on all buildings, both vanilla and modded",
+    "category": "qol",
+    "link": "https://ficsit.app/mod/DaisyChainEverything"
+  },
+  {
+    "title": "Production Stats",
+    "description": "See production and consumption statistics.",
+    "category": "Other",
+    "link": "https://ficsit.app/mod/Stats"
+  },
+  {
+    "title": "Decoration",
+    "description": "Environment items that you can place on your Factory.",
+    "category": "Other",
+    "link": "https://ficsit.app/mod/Decoration"
+  },
+  {
+    "title": "Inventory Slots 50",
+    "description": "Automatically gives you 50 more inventory slots.",
+    "category": "Other",
+    "link": "https://ficsit.app/mod/InventorySpace2"
+  },
+  {
+    "title": "Power Control Room",
+    "description": "Some tools to deal with the power management.",
+    "category": "Other",
+    "link": "https://ficsit.app/mod/PowerControlRoom"
+  },
+  {
+    "title": "Industrial Evolution",
+    "description": "A feature-rich mod based on Mk++ and X3's Better Vehicles with many quality of life improvements",
+    "category": "expansion",
+    "link": "https://ficsit.app/mod/MkPlus"
+  },
+  {
+    "title": "Fast Craft Bench",
+    "description": "Very fast Craft Bench recipes for Tier 1 Items with 20% loss of materials.",
+    "category": "Other",
+    "link": "https://ficsit.app/mod/FastCraftBench"
+  },
+  {
+    "title": "Easy Hard Drives",
+    "description": "If you don't wanna explore in this gameplay, just make your hard drives in your workbench.",
+    "category": "Other",
+    "link": "https://ficsit.app/mod/HardDriveCheat"
+  },
+  {
+    "title": "SkyUI",
+    "description": "Time Perception Configurator",
+    "category": "Other",
+    "link": "https://ficsit.app/mod/SkyUI"
+  },
+  {
+    "title": "X3 Better Vehicles & Drones",
+    "description": "Better Vehicles is a mod with multiple type of vehicle and stations modified available in Tier 3",
+    "category": "Other",
+    "link": "https://ficsit.app/mod/x3_mavegrag"
+  },
+  {
+    "title": "Super Chainsaw",
+    "description": "Chop all of the things!",
+    "category": "Other",
+    "link": "https://ficsit.app/mod/SuperChainsaw"
+  },
+  {
+    "title": "Hyper Boosters",
+    "description": "Adds \"Hyper Boosters\", Hypertube entrances that boost you very fast",
+    "category": "qol",
+    "link": "https://ficsit.app/mod/HyperBoosters"
+  },
+  {
+    "title": "NoFog",
+    "description": "Remove Fog from the game",
+    "category": "Other",
+    "link": "https://ficsit.app/mod/NoFog"
+  },
+  {
+    "title": "Passive Mode",
+    "description": "Removes all enemies and gas clouds from the game!",
+    "category": "Other",
+    "link": "https://ficsit.app/mod/Passivemode"
+  },
+  {
+    "title": "GameTime",
+    "description": "Have the game time, system time and session time always on your screen.",
+    "category": "Other",
+    "link": "https://ficsit.app/mod/GameTime"
+  },
+  {
+    "title": "More Decorations",
+    "description": "More useless things for beautify your factory. Better with Micro Manage!",
+    "category": "Other",
+    "link": "https://ficsit.app/mod/MoreDecorations"
+  },
+  {
+    "title": "No Fall Damage",
+    "description": "Dying while falling is frustrating, this mod removes all fall damage",
+    "category": "Other",
+    "link": "https://ficsit.app/mod/nofalldamage"
+  },
+  {
+    "title": "Wall Conveyor Supports",
+    "description": "Additional variants of the wall conveyor support",
+    "category": "qol",
+    "link": "https://ficsit.app/mod/WallConveyorSupports"
+  },
+  {
+    "title": "Belt and Miner (BAM)",
+    "description": "add 6 belt and correspondant lift also some factory building",
+    "category": "Other",
+    "link": "https://ficsit.app/mod/minerplus"
+  },
+  {
+    "title": "Programmable Elevators",
+    "description": "Elevators that can jump between multiple floors",
+    "category": "Other",
+    "link": "https://ficsit.app/mod/ProgrammableElevatorMod"
+  },
+  {
+    "title": "Road Tool",
+    "description": "Build straight, curved, uphill or downhill streets easily with this tool.",
+    "category": "Other",
+    "link": "https://ficsit.app/mod/RoadSplineTool"
+  },
+  {
+    "title": "Small Awesome Sink",
+    "description": "Its a Small Awesome Sink Terminal with a belt input.",
+    "category": "sink",
+    "link": "https://ficsit.app/mod/SmallAwesomeSink"
+  }
+]
