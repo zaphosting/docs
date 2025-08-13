@@ -25,7 +25,7 @@ Mit Sourcemod und Metamod kannst du Plugins hinzufügen, besondere Funktionen ak
 
 ### Vorbereitung
 
-Die erforderlichen Erweiterungen können von [Sourcemod](sourcemod.net) und [Metamod](https://www.sourcemm.net/downloads.php?branch=stable) heruntergeladen werden. Verwende immer die neuesten **stabilen** Versionen, um volle Funktionalität und Kompatibilität sicherzustellen.
+Die erforderlichen Erweiterungen können von [Sourcemod](https://sourcemod.net/) und [Metamod](https://www.sourcemm.net/downloads.php?branch=stable) heruntergeladen werden. Verwende immer die neuesten **stabilen** Versionen, um volle Funktionalität und Kompatibilität sicherzustellen.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/STp7pRgjYS4c4yg/preview)
 
@@ -76,7 +76,7 @@ Wenn die Meldung **Unknown command** angezeigt wird, ist bei der Installation et
 
 ### Vorbereitung
 
-Sobald Sourcemod und Metamod installiert sind und korrekt funktionieren, kannst du mit dem Hinzufügen von Plugins beginnen. Lade die Plugins, die du auf deinem Server installieren möchtest, von [sourcemod.net](sourcemod.net) herunter. Dort findest du eine große und stetig wachsende Sammlung, die über die Jahre veröffentlicht wurde. Achte bei jedem Plugin darauf, die zugehörige .smx Datei zu erhalten.
+Sobald Sourcemod und Metamod installiert sind und korrekt funktionieren, kannst du mit dem Hinzufügen von Plugins beginnen. Lade die Plugins, die du auf deinem Server installieren möchtest, von [Sourcemod](https://sourcemod.net/) herunter. Dort findest du eine große und stetig wachsende Sammlung, die über die Jahre veröffentlicht wurde. Achte bei jedem Plugin darauf, die zugehörige .smx Datei zu erhalten.
 
 ### Installation
 

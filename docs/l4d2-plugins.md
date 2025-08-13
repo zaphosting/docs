@@ -26,7 +26,7 @@ With Sourcemod and Metamod, you can add plugins, enable special features, and ta
 
 ### Preparation
 
-The required extensions can be downloaded from [Sourcemod](sourcemod.net) and [Metamod](https://www.sourcemm.net/downloads.php?branch=stable). Always use the latest **stable** versions to ensure full functionality and compatibility.
+The required extensions can be downloaded from [Sourcemod](https://sourcemod.net/) and [Metamod](https://www.sourcemm.net/downloads.php?branch=stable). Always use the latest **stable** versions to ensure full functionality and compatibility.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/STp7pRgjYS4c4yg/preview)
 
@@ -77,7 +77,7 @@ If the message **Unknown command** is displayed, then something went wrong durin
 
 ### Preparation
 
-Once Sourcemod and Metamod are installed and working properly, you can begin adding plugins. Download the plugins you want to install on your server from [sourcemod.net](sourcemod.net), where you’ll find a large and growing collection published over the years. For each plugin, make sure to obtain the corresponding .smx file.
+Once Sourcemod and Metamod are installed and working properly, you can begin adding plugins. Download the plugins you want to install on your server from [Sourcemod](https://sourcemod.net/), where you’ll find a large and growing collection published over the years. For each plugin, make sure to obtain the corresponding .smx file.
 
 ### Installation
 
