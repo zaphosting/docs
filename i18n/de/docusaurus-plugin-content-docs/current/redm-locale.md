@@ -4,7 +4,7 @@ title: "RedM: Sprache / Standort (Flagge) ändern"
 description: Informationen, wie du die Sprache und den Standort (Flagge) bei einem RedM Server anpassen kannst. - ZAP-Hosting.com Dokumentation
 sidebar_label: Sprache / Standort (Flagge)
 services:
-  - gameserver
+  - gameserver-redm
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

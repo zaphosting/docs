@@ -4,7 +4,7 @@ title: "Day of Defeat: Source: RCON"
 description: "Erfahre, wie du RCON für Day of Defeat: Source verwendest – ZAP-Hosting Dokumentation"
 sidebar_label: RCON
 services:
-  - gameserver
+  - gameserver-dods
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';

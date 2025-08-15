@@ -4,7 +4,7 @@ title: "Minecraft: Server Config-Einstellungen"
 description: Informationen zu den Server Config-Einstellungen deines Minecraft-Servers von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Server Config
 services:
-  - gameserver
+  - gameserver-minecraft
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

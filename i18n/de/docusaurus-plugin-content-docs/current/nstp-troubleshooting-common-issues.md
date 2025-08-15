@@ -4,7 +4,7 @@ title: "Never Split the Party: Häufige Probleme"
 description: "Informationen zur Behebung häufiger Probleme bei Never Split the Party Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation"
 sidebar_label: Häufige Probleme
 services:
-  - gameserver
+  - gameserver-nstp-nstp
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

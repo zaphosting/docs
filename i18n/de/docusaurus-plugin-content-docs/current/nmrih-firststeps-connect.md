@@ -4,7 +4,7 @@ title: "No More Room in Hell: Zum Server verbinden"
 description: Informationen über verschiedene Möglichkeiten, wie du dich mit deinem No More Room in Hell Server von ZAP-Hosting verbinden kannst - ZAP-Hosting Dokumentation
 sidebar_label: Zum Server verbinden
 services:
-  - gameserver
+  - gameserver-nmrih
 ---
 
 import Tabs from '@theme/Tabs';

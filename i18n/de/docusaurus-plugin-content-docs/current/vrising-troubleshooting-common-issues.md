@@ -4,7 +4,7 @@ title: "V Rising: Häufige Probleme"
 description: "Informationen zur Behebung häufiger Probleme bei V Rising Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation"
 sidebar_label: Häufige Probleme
 services:
-  - gameserver
+  - gameserver-vrising
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

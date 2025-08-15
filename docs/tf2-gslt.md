@@ -4,7 +4,7 @@ title: "Team Fortress 2: Create a GSLT (Steam Game Server Login Token)"
 description: "Information about the creation and use of GSLT for Team Fortress 2 server from ZAP-Hosting - ZAP-Hosting.com documentation"
 sidebar_label: Create GSLT
 services:
-  - gameserver
+  - gameserver-tf2
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

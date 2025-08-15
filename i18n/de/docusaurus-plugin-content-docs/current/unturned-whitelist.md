@@ -4,7 +4,7 @@ title: "Unturned: Whitelist auf Server aktivieren und bearbeiten"
 description: Informationen, wie du eine Whitelist auf deinen Unturned-Server von ZAP-Hosting aktivieren und bearbeiten kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Whitelist
 services:
-  - gameserver
+  - gameserver-unturned
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

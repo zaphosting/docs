@@ -4,7 +4,7 @@ title: "Conan Exiles: Häufige Probleme"
 description: "Informationen zur Behebung häufiger Probleme bei Conan Exiles Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation"
 sidebar_label: Häufige Probleme
 services:
-  - gameserver
+  - gameserver-conan-conan
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

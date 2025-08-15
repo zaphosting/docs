@@ -4,7 +4,7 @@ title: "Animalia Survival: Dashboard Übersicht"
 description: Informationen zum Dashboard eines Animalia Survival Server von ZAP-Hosting - ZAP-Hosting.com Dokumentationen
 sidebar_label: Dashboard
 services:
-  - gameserver
+  - gameserver-animalia-survival
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';

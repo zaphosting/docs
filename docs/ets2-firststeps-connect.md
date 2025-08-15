@@ -4,7 +4,7 @@ title: "Euro Truck Simulator 2: Connect to the server"
 description: Information about various ways on how to connect to your Euro Truck Simulator 2 server from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Connect to the server
 services:
-  - gameserver
+  - gameserver-ets2
 ---
 
 import Tabs from '@theme/Tabs';

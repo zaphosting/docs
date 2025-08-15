@@ -4,7 +4,7 @@ title: "RedM: Dashboard Overview"
 description: Information about the dashboard of a RedM server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Dashboard
 services:
-  - gameserver
+  - gameserver-redm
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';

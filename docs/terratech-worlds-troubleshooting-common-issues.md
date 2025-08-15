@@ -4,7 +4,7 @@ title: "Terratech Worlds: Common issues"
 description: "Information on how to resolve common issues on a Terratech Worlds server from ZAP-Hosting - ZAP-Hosting.com documentation"
 sidebar_label: Common issues
 services:
-  - gameserver
+  - gameserver-terratech-worlds
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

@@ -4,7 +4,7 @@ title: "Myth of Empires: Server Configuration"
 description: Information about configuring a Myth of Empires game server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Server Configuration
 services:
-  - gameserver
+  - gameserver-moe
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';

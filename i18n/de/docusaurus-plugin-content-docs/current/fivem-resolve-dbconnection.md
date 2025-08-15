@@ -4,7 +4,7 @@ title: "FiveM: Datenbankverbindung auflösen"
 description: Informationen darüber, wie man Probleme mit der oxmysql-Datenbankverbindung auf einem FiveM von ZAP-Hosting behebt - ZAP-Hosting.com Dokumentation
 sidebar_label: Resolve DB Connection
 services:
-  - gameserver
+  - gameserver-fivem
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

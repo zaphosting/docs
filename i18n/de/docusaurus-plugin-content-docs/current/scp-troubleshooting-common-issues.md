@@ -4,7 +4,7 @@ title: "SCP: Secret Laboratory: Häufige Probleme"
 description: "Informationen zur Behebung häufiger Probleme bei SCP: Secret Laboratory Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation"
 sidebar_label: Häufige Probleme
 services:
-  - gameserver
+  - gameserver-scp
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

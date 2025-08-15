@@ -4,7 +4,7 @@ title: "DayZ: Dashboard Overview"
 description: Information about the dashboard of a DayZ server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Dashboard
 services:
-  - gameserver
+  - gameserver-dayz
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';

@@ -4,7 +4,7 @@ title: "Last Oasis: Verbinden mehrerer Oasen"
 description: Informationen zur Einrichtung mehrerer Oasen für deinen Last Oasis Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Mehrere Oasen
 services:
-  - gameserver
+  - gameserver-lastoasis
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

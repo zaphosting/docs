@@ -4,7 +4,7 @@ title: "SCP: Escape Together: Connect to the server"
 description: "Information about various ways on how to connect to your SCP: Escape Together server from ZAP-Hosting - ZAP-Hosting.com Documentation"
 sidebar_label: Connect to the server
 services:
-  - gameserver
+  - gameserver-scp-escapetogether
 ---
 
 import Tabs from '@theme/Tabs';

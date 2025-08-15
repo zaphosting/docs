@@ -4,7 +4,7 @@ title: "Mordhau: Dashboard Overview"
 description: Information about the dashboard of a Mordhau server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Dashboard
 services:
-  - gameserver
+  - gameserver-motortown-mordhau
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';

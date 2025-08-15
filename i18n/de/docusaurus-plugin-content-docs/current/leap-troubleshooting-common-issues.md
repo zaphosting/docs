@@ -4,7 +4,7 @@ title: "Leap: Häufige Probleme"
 description: "Informationen zur Behebung häufiger Probleme bei Leap Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation"
 sidebar_label: Häufige Probleme
 services:
-  - gameserver
+  - gameserver-leap
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

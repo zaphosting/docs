@@ -4,7 +4,7 @@ title: "ARK: Dashboard Overview"
 description: Information about the dashboard of an ARK server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Dashboard
 services:
-  - gameserver
+  - gameserver-ark
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';

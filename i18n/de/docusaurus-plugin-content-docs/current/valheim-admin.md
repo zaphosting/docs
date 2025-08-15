@@ -4,7 +4,7 @@ title: "Valheim: Server Admin Befehle title: Server Admin Befehle & Cheats"
 description: Informationen zu Admin Befehlen und Cheats für deinen Valheim-Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Admin Befehls & Cheats
 services:
-  - gameserver
+  - gameserver-valheim
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

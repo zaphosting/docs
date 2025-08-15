@@ -4,7 +4,7 @@ title: "The Front: Dashboard overview"
 description: Information about the dashboard of an The Front server from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Dashboard
 services:
-  - gameserver
+  - gameserver-thefront
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

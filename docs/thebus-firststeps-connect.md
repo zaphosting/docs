@@ -4,7 +4,7 @@ title: "The Bus: Connect to the server"
 description: Information about various ways on how to connect to your The Bus server from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Connect to the server
 services:
-  - gameserver
+  - gameserver-thebus
 ---
 
 import Tabs from '@theme/Tabs';

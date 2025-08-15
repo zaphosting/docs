@@ -4,7 +4,7 @@ title: "Half-Life 2: Admin werden"
 description: "Informationen darüber, wie du auf deinem Half-Life 2 Server Admin werden kannst – ZAP-Hosting.com Dokumentation"
 sidebar_label: "Admin werden"
 services:
-  - gameserver
+  - gameserver-hl2
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

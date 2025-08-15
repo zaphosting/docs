@@ -4,7 +4,7 @@ title: "Satisfactory: Verwalten von Blueprints (Import/Export)"
 description: Informationen über die Verwaltung von Blueprints für deinen Satisfactory Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label:  Blueprints verwalten
 services:
-  - gameserver
+  - gameserver-satisfactory
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

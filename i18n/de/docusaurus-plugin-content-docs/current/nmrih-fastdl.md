@@ -3,6 +3,8 @@ id: nmrih-fastdl
 title: "No More Room In Hell: FastDL einrichten"
 description: "Anleitung zur Einrichtung von FastDL mit Webspace für No More Room In Hell Server bei ZAP-Hosting - ZAP-Hosting Dokumentation"
 sidebar_label: FastDL
+services:
+  - gameserver-nmrih
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

@@ -4,7 +4,7 @@ title: "Sunkenland: Sunkenland Server Einrichtung"
 description: Informationen zur Einrichtung deines Sunkenland Gameservers von ZAP-Hosting - ZAP-Hosting.com dokumentation
 sidebar_label: Server Einrichtung
 services:
-  - gameserver
+  - gameserver-sunkenland
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

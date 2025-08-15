@@ -4,7 +4,7 @@ title: "Don't Starve Together: Dashboard Übersicht"
 description: Informationen zum Dashboard eines Don't Starve Together Server von ZAP-Hosting - ZAP-Hosting.com Dokumentationen
 sidebar_label: Dashboard
 services:
-  - gameserver
+  - gameserver-dst
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';

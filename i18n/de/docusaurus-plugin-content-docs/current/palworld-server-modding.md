@@ -4,7 +4,7 @@ title: "Palworld: Installieren von Mods für Palworld"
 description: Informationen über die Installation von Mods auf deinem Palworld-Server oder Spiel-Client von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Mods installieren
 services:
-  - gameserver
+  - gameserver-palworld
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';

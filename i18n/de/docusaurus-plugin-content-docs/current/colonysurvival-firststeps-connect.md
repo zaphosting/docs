@@ -4,7 +4,7 @@ title: "Colony Survival: Zum Server verbinden"
 description: Informationen über verschiedene Möglichkeiten, wie du dich mit deinem Colony Survival Server von ZAP-Hosting verbinden kannst - ZAP-Hosting Dokumentation
 sidebar_label: Zum Server verbinden
 services:
-  - gameserver
+  - gameserver-colonysurvival
 ---
 
 import Tabs from '@theme/Tabs';

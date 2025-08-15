@@ -4,7 +4,7 @@ title: "Garry's Mod: Zum Server verbinden"
 description: Informationen über verschiedene Möglichkeiten, wie du dich mit deinem Garry's Mod Server von ZAP-Hosting verbinden kannst - ZAP-Hosting Dokumentation
 sidebar_label: Zum Server verbinden
 services:
-  - gameserver
+  - gameserver-gmod
 ---
 
 import Tabs from '@theme/Tabs';

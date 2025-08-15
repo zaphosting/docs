@@ -4,7 +4,7 @@ title: "PixARK: Dashboard overview"
 description: Information about the dashboard of an PixARK server from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Dashboard
 services:
-  - gameserver
+  - gameserver-pixark
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';

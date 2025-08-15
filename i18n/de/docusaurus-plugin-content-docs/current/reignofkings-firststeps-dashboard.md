@@ -4,7 +4,7 @@ title: "Reign of Kings: Dashboard Übersicht"
 description: Informationen zum Dashboard eines Reign of Kings Server von ZAP-Hosting - ZAP-Hosting.com Dokumentationen
 sidebar_label: Dashboard
 services:
-  - gameserver
+  - gameserver-reignofkings
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';

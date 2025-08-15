@@ -4,7 +4,7 @@ title: "Myth of Empires: Installation of Mods"
 description: Information on installing mods on your Myth of Empires game server from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Install Mods
 services:
-  - gameserver
+  - gameserver-moe
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

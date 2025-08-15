@@ -4,7 +4,7 @@ title: "Broke Protocol: Dashboard overview"
 description: Information about the dashboard of an Broke Protocol server from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Dashboard
 services:
-  - gameserver
+  - gameserver-brokeprotocol
 ---
 
 

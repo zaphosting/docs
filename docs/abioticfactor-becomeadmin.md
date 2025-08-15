@@ -4,7 +4,7 @@ title: "Abiotic Factor: Become admin"
 description: Information about how to become an admin on an Abiotic Factor game server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Become admin
 services:
-  - gameserver
+  - gameserver-abioticfactor
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

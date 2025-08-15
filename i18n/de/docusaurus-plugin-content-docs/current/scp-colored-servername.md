@@ -4,7 +4,7 @@ title: "SCP Secret Laboratory: Farbiger Servername"
 description: Information, wie du den Servernamen bei deinem SCP Server von ZAP-Hosting färben kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Farbiger Servername
 services:
-  - gameserver
+  - gameserver-scp
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

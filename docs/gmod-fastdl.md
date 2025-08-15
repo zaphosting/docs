@@ -4,7 +4,7 @@ title: "Garry's Mod: Setting up FastDL"
 description: "How to set up FastDL with webspace for Garry's Mod servers at ZAP-Hosting - ZAP-Hosting Documentation"
 sidebar_label: FastDL
 services:
-  - gameserver
+  - gameserver-gmod
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

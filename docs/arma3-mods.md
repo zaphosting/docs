@@ -4,7 +4,7 @@ title: "Arma 3: Installation of Mods"
 description: Information on installing mods on your Arma 3 game server from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Install Mods
 services:
-  - gameserver
+  - gameserver-arma3
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

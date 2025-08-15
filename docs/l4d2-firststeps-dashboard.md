@@ -4,7 +4,7 @@ title: "Left 4 Dead 2: Dashboard overview"
 description: Information about the dashboard of an Left 4 Dead 2 server from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Dashboard
 services:
-  - gameserver
+  - gameserver-l4d2
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';

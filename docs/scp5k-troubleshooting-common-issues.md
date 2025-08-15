@@ -4,7 +4,7 @@ title: "SCP: 5K: Common issues"
 description: "Information on how to resolve common issues on a SCP: 5K server from ZAP-Hosting - ZAP-Hosting.com documentation"
 sidebar_label: Common issues
 services:
-  - gameserver
+  - gameserver-scp5k
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

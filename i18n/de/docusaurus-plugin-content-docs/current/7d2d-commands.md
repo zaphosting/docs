@@ -4,7 +4,7 @@ title: "7 Days to Die: Befehle ausführen"
 description: Information, wie du Server Befehle bei deinem 7 Days to Die Server von ZAP-Hosting ausführen kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Befehle ausführen
 services:
-  - gameserver
+  - gameserver-7d2d
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

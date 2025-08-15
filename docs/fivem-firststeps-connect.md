@@ -4,7 +4,7 @@ title: "FiveM: Connect to the server"
 description: Information about various ways to connect to your FiveM server from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Connect to the server
 services:
-  - gameserver
+  - gameserver-fivem
 ---
 
 import Tabs from '@theme/Tabs';

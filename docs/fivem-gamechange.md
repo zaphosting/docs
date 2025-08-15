@@ -4,7 +4,7 @@ title: "FiveM: Gamechange"
 description: Change your FiveM Version
 sidebar_label: Gamechange
 services:
-  - gameserver
+  - gameserver-fivem
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

@@ -4,7 +4,7 @@ title: "Day of Defeat: Source: Segmentation Fault"
 description: "Informationen zur Behebung des Segmentation Fault Fehlers bei einem Day of Defeat: Source Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation"
 sidebar_label: Segmentation Fault
 services:
-  - gameserver
+  - gameserver-dods
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

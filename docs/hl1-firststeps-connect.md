@@ -4,7 +4,7 @@ title: "Half-Life 1: Connect to the server"
 description: Information about various ways on how to connect to your Half-Life 1 server from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Connect to the server
 services:
-  - gameserver
+  - gameserver-hl1
 ---
 
 import Tabs from '@theme/Tabs';

@@ -4,7 +4,7 @@ title: "SCP: Containment Breach: Häufige Probleme"
 description: "Informationen zur Behebung häufiger Probleme bei SCP: Containment Breach Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation"
 sidebar_label: Häufige Probleme
 services:
-  - gameserver
+  - gameserver-scp-containmentbreach
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

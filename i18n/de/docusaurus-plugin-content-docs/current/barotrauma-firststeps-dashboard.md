@@ -4,7 +4,7 @@ title: "Barotrauma: Dashboard Übersicht"
 description: Informationen zum Dashboard eines Barotrauma Server von ZAP-Hosting - ZAP-Hosting.com Dokumentationen
 sidebar_label: Dashboard
 services:
-  - gameserver
+  - gameserver-barotrauma
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';

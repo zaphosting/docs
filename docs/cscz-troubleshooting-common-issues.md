@@ -4,7 +4,7 @@ title: "Counter-Strike: Condition Zero: Common issues"
 description: "Information on how to resolve common issues on a Counter-Strike: Condition Zero server from ZAP-Hosting - ZAP-Hosting.com documentation"
 sidebar_label: Common issues
 services:
-  - gameserver
+  - gameserver-cscz
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

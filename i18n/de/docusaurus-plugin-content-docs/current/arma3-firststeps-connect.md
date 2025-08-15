@@ -4,7 +4,7 @@ title: "Arma 3: Zum Server verbinden"
 description: Informationen über verschiedene Möglichkeiten, wie du dich mit deinem Arma 3 Server von ZAP-Hosting verbinden kannst - ZAP-Hosting Dokumentation
 sidebar_label: Zum Server verbinden
 services:
-  - gameserver
+  - gameserver-arma3
 ---
 
 import Tabs from '@theme/Tabs';

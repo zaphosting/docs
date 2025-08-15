@@ -4,7 +4,7 @@ title: "Motor Town: Behind The Wheel: Häufige Probleme"
 description: "Informationen zur Behebung häufiger Probleme bei Motor Town: Behind The Wheel Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation"
 sidebar_label: Häufige Probleme
 services:
-  - gameserver
+  - gameserver-motortown
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

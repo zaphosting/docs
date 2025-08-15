@@ -4,7 +4,7 @@ title: "Minecraft: Dashboard Overview"
 description: Information about the dashboard of an Minecraft server from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Dashboard
 services:
-  - gameserver
+  - gameserver-minecraft
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';

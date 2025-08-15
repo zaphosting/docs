@@ -4,7 +4,7 @@ title: "Abiotic Factor: Häufige Probleme"
 description: "Informationen zur Behebung häufiger Probleme bei Abiotic Factor Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation"
 sidebar_label: Häufige Probleme
 services:
-  - gameserver
+  - gameserver-abioticfactor
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

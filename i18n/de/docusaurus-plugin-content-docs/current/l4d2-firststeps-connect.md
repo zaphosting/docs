@@ -4,7 +4,7 @@ title: "Left 4 Dead 2: Zum Server verbinden"
 description: Informationen über verschiedene Möglichkeiten, wie du dich mit deinem Left 4 Dead 2 Server von ZAP-Hosting verbinden kannst - ZAP-Hosting Dokumentation
 sidebar_label: Zum Server verbinden
 services:
-  - gameserver
+  - gameserver-l4d2
 ---
 
 import Tabs from '@theme/Tabs';

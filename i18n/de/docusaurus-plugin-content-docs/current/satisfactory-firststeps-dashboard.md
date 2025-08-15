@@ -4,7 +4,7 @@ title: "Satisfactory: Dashboard Übersicht"
 description: Informationen zum Dashboard eines Satisfactory Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Dashboard
 services:
-  - gameserver
+  - gameserver-satisfactory
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';

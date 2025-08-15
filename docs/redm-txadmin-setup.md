@@ -4,7 +4,7 @@ title: "RedM: txAdmin Setup"
 description: Information on how to set up the TxAdmin interface for RedM game servers from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: txAdmin Setup
 services:
-  - gameserver
+  - gameserver-redm
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';

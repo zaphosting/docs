@@ -4,7 +4,7 @@ title: "Minecraft: Zum Server verbinden"
 description: Informationen über verschiedene Möglichkeiten, wie du dich mit deinem Minecraft Server von ZAP-Hosting verbinden kannst - ZAP-Hosting Dokumentation
 sidebar_label: Zum Server verbinden
 services:
-  - gameserver
+  - gameserver-minecraft
 ---
 
 import Tabs from '@theme/Tabs';

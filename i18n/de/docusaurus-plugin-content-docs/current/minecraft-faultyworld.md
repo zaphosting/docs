@@ -4,7 +4,7 @@ title: "Minecraft: Fehlerhafte Chunks aus der Welt entfernen"
 description:  Informationen darüber, wie man fehlerhafte Chunks aus seiner Minecraft-Welt  von ZAP-Hosting entfernt - ZAP-Hosting.com Dokumentation
 sidebar_label: Fehlerhafte World (Chunks)
 services:
-  - gameserver
+  - gameserver-minecraft
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

@@ -4,7 +4,7 @@ title: "Garry's Mod: Server.cfg settings"
 description: Information about the server.cfg settings for your Garry's Mod server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Garry's Mod Server.cfg Modification
 services:
-  - gameserver
+  - gameserver-gmod
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

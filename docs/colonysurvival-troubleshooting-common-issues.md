@@ -4,7 +4,7 @@ title: "Colony Survival: Common issues"
 description: "Information on how to resolve common issues on a Colony Survival server from ZAP-Hosting - ZAP-Hosting.com documentation"
 sidebar_label: Common issues
 services:
-  - gameserver
+  - gameserver-colonysurvival
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

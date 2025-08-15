@@ -4,7 +4,7 @@ title: "Factorio: Admin werden"
 description: Informationen, wie du Admin auf deinem Factorio-Server bei ZAP-Hosting wirst - ZAP-Hosting.com Dokumentation
 sidebar_label: Admin werden
 services:
-  - gameserver
+  - gameserver-factorio
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

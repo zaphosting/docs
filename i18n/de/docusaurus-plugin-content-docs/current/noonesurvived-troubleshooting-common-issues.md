@@ -4,7 +4,7 @@ title: "No One Survived: Häufige Probleme"
 description: "Informationen zur Behebung häufiger Probleme bei No One Survived Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation"
 sidebar_label: Häufige Probleme
 services:
-  - gameserver
+  - gameserver-ohol-noonesurvived
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

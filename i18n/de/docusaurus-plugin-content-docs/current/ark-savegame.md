@@ -4,7 +4,7 @@ title: "ARK: Eigenes Savegame (Welt) importieren"
 description: Informationen, wie du ein eigenes Savegame bei deinem ARK-Server von ZAP-Hosting importieren kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Savegame (Welt) importieren
 services:
-  - gameserver
+  - gameserver-ark
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';

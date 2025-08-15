@@ -4,7 +4,7 @@ title: "RedM: Installation of resources"
 description: Information on how to install resources on your RedM server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Install resources
 services:
-  - gameserver
+  - gameserver-redm
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';

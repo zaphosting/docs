@@ -4,7 +4,7 @@ title: "FiveM: Enable DLC Content"
 description: Information on how to enable a DLC game build for FiveM servers - ZAP-Hosting.com - Documentation
 sidebar_label: Enable DLC game build
 services:
-  - gameserver
+  - gameserver-fivem
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

@@ -4,7 +4,7 @@ title: "Satisfactory: Häufige Probleme"
 description: "Informationen zur Behebung häufiger Probleme bei Satisfactory Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation"
 sidebar_label: Häufige Probleme
 services:
-  - gameserver
+  - gameserver-satisfactory
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

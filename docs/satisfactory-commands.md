@@ -4,7 +4,7 @@ title: "Satisfactory: Console Commands"
 description: Information about possible console commands for your Satisfactory server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Console Commands
 services:
-  - gameserver
+  - gameserver-satisfactory
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

@@ -4,7 +4,7 @@ title: "DayZ: Become an Admin"
 description: Information on becoming an admin for your DayZ game server from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Become an Admin
 services:
-  - gameserver
+  - gameserver-dayz
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

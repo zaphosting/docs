@@ -4,7 +4,7 @@ title: "7 Days to Die: Commands"
 description: Information on how to execute server commands on your 7 Days to Die server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Commands
 services:
-  - gameserver
+  - gameserver-7d2d
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

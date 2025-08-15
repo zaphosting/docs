@@ -4,7 +4,7 @@ title: "FiveM: txAdmin Import server base"
 description: Information on how to import your own server base into a FiveM txAdmin Server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Import server base
 services:
-  - gameserver
+  - gameserver-fivem
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

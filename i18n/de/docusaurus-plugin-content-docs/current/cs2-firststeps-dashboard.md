@@ -4,7 +4,7 @@ title: "Counter-Stike 2: Dashboard Übersicht"
 description: Informationen zum Dashboard eines CS2 Server von ZAP-Hosting - ZAP-Hosting.com Dokumentationen
 sidebar_label: Dashboard
 services:
-  - gameserver
+  - gameserver-cs2
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';

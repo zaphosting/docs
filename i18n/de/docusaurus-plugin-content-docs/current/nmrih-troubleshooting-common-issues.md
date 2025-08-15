@@ -4,7 +4,7 @@ title: "No More Room In Hell: Häufige Probleme"
 description: "Informationen zur Behebung häufiger Probleme bei No More Room In Hell Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation"
 sidebar_label: Häufige Probleme
 services:
-  - gameserver
+  - gameserver-nmrih
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

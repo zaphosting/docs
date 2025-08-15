@@ -4,7 +4,7 @@ title: "Counter-Strike: Condition Zero: Zum Server verbinden"
 description: "Informationen über verschiedene Möglichkeiten, wie du dich mit deinem Counter-Strike: Condition Zero Server von ZAP-Hosting verbinden kannst - ZAP-Hosting.com Dokumentation"
 sidebar_label: Zum Server verbinden
 services:
-  - gameserver
+  - gameserver-cscz
 ---
 
 import Tabs from '@theme/Tabs';

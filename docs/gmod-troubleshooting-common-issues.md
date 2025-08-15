@@ -4,7 +4,7 @@ title: "Garry's Mod: Common issues"
 description: "Information on how to resolve common issues on a Garry's Mod server from ZAP-Hosting - ZAP-Hosting.com documentation"
 sidebar_label: Common issues
 services:
-  - gameserver
+  - gameserver-gmod
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

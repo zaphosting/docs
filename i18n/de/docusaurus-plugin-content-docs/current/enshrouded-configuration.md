@@ -4,7 +4,7 @@ title: "Enshrouded: Enshrouded Server-Konfiguration"
 description: Informationen zur Konfiguration eines Enshrouded Gameservers von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Server Konfiguration
 services:
-  - gameserver
+  - gameserver-enshrouded
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';

@@ -4,7 +4,7 @@ title: "V Rising: Managing V Rising Savegames"
 description: Information on how to manage savegames on your V Rising server from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Manage Savegames
 services:
-  - gameserver
+  - gameserver-vrising
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

@@ -4,7 +4,7 @@ title: "RedM: Zum Server verbinden"
 description: Informationen über verschiedene Wege, sich mit deinem RedM Server von ZAP-Hosting zu verbinden - ZAP-Hosting.com Dokumentation
 sidebar_label: Zum Server verbinden
 services:
-  - gameserver
+  - gameserver-redm
 ---
 
 import Tabs from '@theme/Tabs';

@@ -4,7 +4,7 @@ title: "Assetto Corsa Competizione: Häufige Probleme"
 description: "Informationen zur Behebung häufiger Probleme bei Assetto Corsa Competizione Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation"
 sidebar_label: Häufige Probleme
 services:
-  - gameserver
+  - gameserver-assetto-competizione
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

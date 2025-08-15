@@ -4,7 +4,7 @@ title: "BeamMP: Addon Map installieren"
 description: Informationen, wie du eine Addon Map für deinen BeamMP Server von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Addon Map installieren
 services:
-  - gameserver
+  - gameserver-beammp
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

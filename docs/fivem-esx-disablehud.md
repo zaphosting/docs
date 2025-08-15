@@ -4,7 +4,7 @@ title: "FiveM: Disable/enable HUD"
 description: Information on how to disable/enable the HUD on your FiveM server running ESX from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Disable HUD
 services:
-  - gameserver
+  - gameserver-fivem
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

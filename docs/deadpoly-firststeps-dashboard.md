@@ -4,7 +4,7 @@ title: "DeadPoly: Dashboard Overview"
 description: Information about the dashboard of an DeadPoly Server from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Dashboard
 services:
-  - gameserver
+  - gameserver-deadpoly
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';

@@ -4,7 +4,7 @@ title: "Citadel: Forged With Fire: Zum Server verbinden"
 description: "Informationen über verschiedene Möglichkeiten, wie du dich mit deinem Citadel: Forged With Fire Server von ZAP-Hosting verbinden kannst - ZAP-Hosting Dokumentation"
 sidebar_label: Zum Server verbinden
 services:
-  - gameserver
+  -   - gameserver-citadel-citadel
 ---
 
 import Tabs from '@theme/Tabs';
@@ -23,7 +23,7 @@ Unsicher, wie du dich mit deinem **Citadel: Forged With Fire** Server verbinden 
 
 ## Server-Details abrufen
 
-Du benötigst alle relevanten Informationen, um dich mit deinem Server zu verbinden. Die Informationen zu deinem Server findest du im Dashboard des Webinterfaces deines Gameservers. Zu den wichtigen Informationen gehören die folgenden: 
+Du benötigst alle relevanten Informationen, um dich mit deinem Server zu verbinden. Die Informationen zu deinem Server findest du im Dashboard des Webinterfaces deines   - gameserver-citadel-citadels. Zu den wichtigen Informationen gehören die folgenden: 
 
 - IP-Adresse und Port
 - Name des Servers
@@ -35,7 +35,7 @@ Anhand der oben genannten Informationen solltest du in der Lage sein, deinen Ser
 
 ## Verbindung zum Server herstellen
 
-Die Verbindung zu einem Gameserver kann häufig auf eine oder mehrere Arten hergestellt werden. Die verfügbaren Methoden werden im Folgenden ausführlich beschrieben und erklärt. 
+Die Verbindung zu einem   - gameserver-citadel-citadel kann häufig auf eine oder mehrere Arten hergestellt werden. Die verfügbaren Methoden werden im Folgenden ausführlich beschrieben und erklärt. 
 
 <Tabs>
 <TabItem value="connect_solution_server_browser_ingame" label="Server Browser (Im Spiel)" default>

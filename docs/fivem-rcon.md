@@ -4,7 +4,7 @@ title: "FiveM: RCON"
 description: "Learn how to use RCON for FiveM - ZAP-Hosting Documentation"
 sidebar_label: RCON
 services:
-  - gameserver
+  - gameserver-fivem
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';

@@ -4,7 +4,7 @@ title: "RedM: DLC-Inhalte aktivieren"
 description: Informationen zur Aktivierung eines DLC Game Builds für RedM Server - ZAP-Hosting.com - Dokumentation
 sidebar_label: DLC-Inhalte aktivieren
 services:
-  - gameserver
+  - gameserver-redm
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

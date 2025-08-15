@@ -4,7 +4,7 @@ title: "Palworld: Häufige Probleme"
 description: "Informationen zur Behebung häufiger Probleme bei Palworld Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation"
 sidebar_label: Häufige Probleme
 services:
-  - gameserver
+  - gameserver-palworld
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

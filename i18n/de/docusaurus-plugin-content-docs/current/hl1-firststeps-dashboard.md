@@ -4,7 +4,7 @@ title: "Half-Life 1: Dashboard Übersicht"
 description: Informationen zum Dashboard eines Half-Life 1 Server von ZAP-Hosting - ZAP-Hosting.com Dokumentationen
 sidebar_label: Dashboard
 services:
-  - gameserver
+  - gameserver-hl1
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

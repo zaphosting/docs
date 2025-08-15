@@ -4,7 +4,7 @@ title: "Factorio: Dashboard Overview"
 description: Information about the dashboard of a Factorio server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Dashboard
 services:
-  - gameserver
+  - gameserver-factorio
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';

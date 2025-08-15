@@ -4,7 +4,7 @@ title: "7 Days to Die: Häufige Probleme"
 description: "Informationen zur Behebung häufiger Probleme bei 7 Days to Die Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation"
 sidebar_label: Häufige Probleme
 services:
-  - gameserver
+  - gameserver-7d2d
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

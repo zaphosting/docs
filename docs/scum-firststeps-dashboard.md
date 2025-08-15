@@ -4,7 +4,7 @@ title: "SCUM: Dashboard Overview"
 description: Information about the dashboard of an SCUM Vanilla server from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Dashboard
 services:
-  - gameserver
+  - gameserver-scum
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';

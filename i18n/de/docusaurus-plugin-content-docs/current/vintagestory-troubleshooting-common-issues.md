@@ -4,7 +4,7 @@ title: "Vintage Story: Häufige Probleme"
 description: "Informationen zur Behebung häufiger Probleme bei Vintage Story Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation"
 sidebar_label: Häufige Probleme
 services:
-  - gameserver
+  - gameserver-vintagestory
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

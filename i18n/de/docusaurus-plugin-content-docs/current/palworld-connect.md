@@ -4,7 +4,7 @@ title: "Palworld: Mit Palworld Server verbinden"
 description: Informationen zur Verbindung mit einem Palworld-Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Mit dem Server verbinden
 services:
-  - gameserver
+  - gameserver-palworld
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';

@@ -4,7 +4,7 @@ title: "Broke Protocol: Common issues"
 description: "Information on how to resolve common issues on a Broke Protocol server from ZAP-Hosting - ZAP-Hosting.com documentation"
 sidebar_label: Common issues
 services:
-  - gameserver
+  - gameserver-brokeprotocol
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

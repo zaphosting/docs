@@ -4,7 +4,7 @@ title: "Minecraft: Bungeecord Server Server Config-Einstellungen"
 description: Informationen den den Server Config-Einstellungen für deinen Bungeecord-Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Server Config
 services:
-  - gameserver
+  - gameserver-minecraft
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

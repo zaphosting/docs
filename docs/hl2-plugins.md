@@ -4,7 +4,7 @@ title: "Half-Life 2: Install plugins on your own server"
 description: "Information on how to install plugins on your Half-Life 2 server from ZAP-Hosting - ZAP-Hosting.com documentation"
 sidebar_label: Install Plugins
 services:
-  - gameserver
+  - gameserver-hl2
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

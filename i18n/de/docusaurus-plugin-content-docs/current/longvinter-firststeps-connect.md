@@ -4,7 +4,7 @@ title: "Longvinter: Zum Server verbinden"
 description: Informationen über verschiedene Möglichkeiten, wie du dich mit deinem Longvinter Server von ZAP-Hosting verbinden kannst - ZAP-Hosting Dokumentation
 sidebar_label: Zum Server verbinden
 services:
-  - gameserver
+  - gameserver-longvinter
 ---
 
 import Tabs from '@theme/Tabs';

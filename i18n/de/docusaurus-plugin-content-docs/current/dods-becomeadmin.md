@@ -4,7 +4,7 @@ title: "Day of Defeat: Source: Admin werden"
 description: "Informationen darüber, wie du auf deinem Day of Defeat: Source Server Admin werden kannst – ZAP-Hosting.com Dokumentation"
 sidebar_label: "Admin werden"
 services:
-  - gameserver
+  - gameserver-dods
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

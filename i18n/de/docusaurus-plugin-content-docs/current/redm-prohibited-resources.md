@@ -4,7 +4,7 @@ title: "RedM: 'Resource contains prohibited logic?'"
 description: Informationen zur Fehlermeldung "Ressource contains prohibited logic" bei RedM-Server - ZAP-Hosting.com Dokumentation
 sidebar_label: Resource contains prohibited logic
 services:
-  - gameserver
+  - gameserver-redm
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

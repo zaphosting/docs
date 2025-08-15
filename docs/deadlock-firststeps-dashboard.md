@@ -4,7 +4,7 @@ title: "Deadlock: Dashboard overview"
 description: Information about the dashboard of an Deadlock server from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Dashboard
 services:
-  - gameserver
+  - gameserver-deadlock
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

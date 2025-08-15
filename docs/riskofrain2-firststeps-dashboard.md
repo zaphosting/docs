@@ -4,7 +4,7 @@ title: "Risk of Rain 2: Dashboard overview"
 description: Information about the dashboard of an Risk of Rain 2 server from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Dashboard
 services:
-  - gameserver
+  - gameserver-riskofrain2
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

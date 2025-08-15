@@ -4,7 +4,7 @@ title: "Risk of Rain 2: Häufige Probleme"
 description: "Informationen zur Behebung häufiger Probleme bei Risk of Rain 2 Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation"
 sidebar_label: Häufige Probleme
 services:
-  - gameserver
+  - gameserver-riskofrain2
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

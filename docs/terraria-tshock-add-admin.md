@@ -4,7 +4,7 @@ title: "Terraria: Become a server admin (tShock)"
 description: Information on how to become an admin on your Terraria server with tShock from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Become admin (tShock)
 services:
-  - gameserver
+  - gameserver-terraria
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

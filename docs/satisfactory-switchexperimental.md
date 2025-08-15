@@ -4,7 +4,7 @@ title: "Satisfactory: Experimental Build"
 description: Information on Experimental Build for Satisfactory from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Experimental Build
 services:
-  - gameserver
+  - gameserver-satisfactory
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

@@ -4,7 +4,7 @@ title: "Arma Reforger: RCON"
 description: "Erfahre, wie du RCON für Arma Reforger verwendest – ZAP-Hosting Dokumentation"
 sidebar_label: RCON
 services:
-  - gameserver
+  - gameserver-arma-reforger
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';

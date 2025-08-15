@@ -4,7 +4,7 @@ title: "Day of Defeat: Source: Create a GSLT (Steam Game Server Login Token)"
 description: "Information about the creation and use of GSLT for Day of Defeat: Source server from ZAP-Hosting - ZAP-Hosting.com documentation"
 sidebar_label: Create GSLT
 services:
-  - gameserver
+  - gameserver-dods
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

@@ -4,7 +4,7 @@ title: "7 Days to Die: Dashboard Overview"
 description: Information about the dashboard of a 7 Days to Die server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Dashboard
 services:
-  - gameserver
+  - gameserver-7d2d
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';

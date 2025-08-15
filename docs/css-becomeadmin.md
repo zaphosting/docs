@@ -4,7 +4,7 @@ title: "Counter-Strike: Source: Become an admin"
 description: "Information on how to become an admin on your Counter-Strike: Source server from ZAP-Hosting - ZAP-Hosting.com documentation"
 sidebar_label: Become admin
 services:
-  - gameserver
+  - gameserver-css
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

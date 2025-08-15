@@ -4,7 +4,7 @@ title: "Valheim: Dashboard Overview"
 description: Information about the dashboard of an Valheim server from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Dashboard
 services:
-  - gameserver
+  - gameserver-valheim
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';

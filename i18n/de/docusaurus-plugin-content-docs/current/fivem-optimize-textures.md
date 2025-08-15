@@ -4,7 +4,7 @@ title: "FiveM: Texturen optimieren"
 description: Wie du Texturen bei deinem FiveM Server von ZAP-Hosting optimieren kannst - ZAP-Hosting.com - Dokumentation
 sidebar_label: Texturen optimieren
 services:
-  - gameserver
+  - gameserver-fivem
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

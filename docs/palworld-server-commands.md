@@ -4,7 +4,7 @@ title: "Palworld: Palworld Server Commands"
 description: Information on useful commands for Palworld game from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Server Commands
 services:
-  - gameserver
+  - gameserver-palworld
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';

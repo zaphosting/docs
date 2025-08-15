@@ -4,7 +4,7 @@ title: "Conan Exiles: Zum Server verbinden"
 description: Informationen über verschiedene Möglichkeiten, wie du dich mit deinem Conan Exiles Server von ZAP-Hosting verbinden kannst - ZAP-Hosting Dokumentation
 sidebar_label: Zum Server verbinden
 services:
-  - gameserver
+  - gameserver-conan
 ---
 
 import Tabs from '@theme/Tabs';

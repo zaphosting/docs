@@ -4,7 +4,7 @@ title: "Counter-Strike Source: Dashboard Overview"
 description: Information about the dashboard of an Counter-Strike Source server from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Dashboard
 services:
-  - gameserver
+  - gameserver-cs2-css
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

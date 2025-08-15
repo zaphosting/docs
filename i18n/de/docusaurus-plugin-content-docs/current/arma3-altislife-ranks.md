@@ -4,7 +4,7 @@ title: "Arma 3: Ränge bei einem Altis Life Server hinzufügen"
 description: Informationen, wie du Ränge auf deinem Altis Life-Server von ZAP-Hosting hinzufügen kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Altis Life Ränge
 services:
-  - gameserver
+  - gameserver-arma3
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

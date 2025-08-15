@@ -4,7 +4,7 @@ title: "Soulmask: Soulmask Savegames verwalten"
 description: Informationen über die Verwaltung von Savegames auf deinem Soulmask-Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Savegames verwalten
 services:
-  - gameserver
+  - gameserver-soulmask
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

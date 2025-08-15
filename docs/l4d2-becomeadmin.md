@@ -4,7 +4,7 @@ title: "Left 4 Dead 2: Become an admin"
 description: "Information on how to become an admin on your Left 4 Dead 2 server from ZAP-Hosting - ZAP-Hosting.com documentation"
 sidebar_label: Become admin
 services:
-  - gameserver
+  - gameserver-l4d2
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

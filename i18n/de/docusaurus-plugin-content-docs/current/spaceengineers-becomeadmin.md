@@ -4,7 +4,7 @@ title: "Space Engineers: Server-Admin werden"
 description: Informationen, wie du dich um Admin auf deinem Space Engineers-Server von ZAP-Hosting machen kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Admin werden
 services:
-  - gameserver
+  - gameserver-spaceengineers
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

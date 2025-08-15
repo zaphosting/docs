@@ -4,7 +4,7 @@ title: "No One Survived: Dashboard Übersicht"
 description: Informationen zum Dashboard eines No One Survived Server von ZAP-Hosting - ZAP-Hosting.com Dokumentationen
 sidebar_label: Dashboard
 services:
-  - gameserver
+  - gameserver-noonesurvived
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

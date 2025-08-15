@@ -4,7 +4,7 @@ title: "Minecraft: Custom world seed"
 description: Information on how to setup a custom world seed for your Minecraft server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Custom world seed
 services:
-  - gameserver
+  - gameserver-minecraft
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

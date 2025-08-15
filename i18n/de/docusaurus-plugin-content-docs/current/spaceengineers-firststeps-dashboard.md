@@ -4,7 +4,7 @@ title: "Space Engineers: Dashboard Übersicht"
 description: Informationen zum Dashboard eines Space Engineers Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Dashboard
 services:
-  - gameserver
+  - gameserver-spaceengineers
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';

@@ -4,7 +4,7 @@ title: "SCP Secret Laboratory: Using the Beta Version"
 description: Information on how to select and install the beta version of SCP Secret Laboratory from ZAP-Hostingg - ZAP-Hosting.com Documentation
 sidebar_label: Beta Version
 services:
-  - gameserver
+  - gameserver-scp
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';

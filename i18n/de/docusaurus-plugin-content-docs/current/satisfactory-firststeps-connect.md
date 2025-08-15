@@ -4,7 +4,7 @@ title: "Satisfactory: "
 description: Informationenen zum Verbindungsaufbau eines Satisfactory Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Zum Server verbinden
 services:
-  - gameserver
+  - gameserver-satisfactory
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

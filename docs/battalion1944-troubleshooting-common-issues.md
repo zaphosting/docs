@@ -4,7 +4,7 @@ title: "Battalion 1944: Common issues"
 description: "Information on how to resolve common issues on a Battalion 1944 server from ZAP-Hosting - ZAP-Hosting.com documentation"
 sidebar_label: Common issues
 services:
-  - gameserver
+  - gameserver-beammp-battalion1944
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

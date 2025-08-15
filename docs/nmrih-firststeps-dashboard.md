@@ -4,7 +4,7 @@ title: "No More Room In Hell: Dashboard overview"
 description: Information about the dashboard of an No More Room In Hell server from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Dashboard
 services:
-  - gameserver
+  - gameserver-nmrih
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';

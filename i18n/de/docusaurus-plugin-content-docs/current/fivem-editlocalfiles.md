@@ -4,7 +4,7 @@ title: "FiveM: Locales Dateien (Sprachvariablen)"
 description: Informationen, wie du die Locales-Dateien deines FiveM-Server mit ESX von ZAP-Hosting bearbeiten kannstkannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Locales Dateien (Sprachvariablen)
 services:
-  - gameserver
+  - gameserver-fivem
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

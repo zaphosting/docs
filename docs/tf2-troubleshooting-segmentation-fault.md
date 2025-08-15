@@ -4,7 +4,7 @@ title: "Team Fortress 2: Segmentation Fault"
 description: Information on how to resolve the segmentation fault error on a Team Fortress 2 server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Segmentation Fault
 services:
-  - gameserver
+  - gameserver-tf2
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

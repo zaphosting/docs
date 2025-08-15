@@ -4,7 +4,7 @@ title: "Assetto Corsa: Dashboard Übersicht"
 description: Informationen zum Dashboard eines Assetto Corsa Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Dashboard
 services:
-  - gameserver
+  - gameserver-assettocorsa
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';

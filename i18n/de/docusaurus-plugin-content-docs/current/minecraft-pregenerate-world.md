@@ -4,7 +4,7 @@ title: "Minecraft: Welt vorgenerieren (Chunks)"
 description: Informationen darüber, wie du deine Welt (Chunks) auf deinem Minecraft-Server von ZAP-Hosting vorgenerieren kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Welt vorgenerieren (Chunks)
 services:
-  - gameserver
+  - gameserver-minecraft
 ---
 
 import Tabs from '@theme/Tabs';

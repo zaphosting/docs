@@ -4,7 +4,7 @@ title: "FiveM: txAdmin Interface"
 description: Overview of TxAdmin interface configuration options for FiveM game servers from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: txAdmin Interface
 services:
-  - gameserver
+  - gameserver-fivem
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

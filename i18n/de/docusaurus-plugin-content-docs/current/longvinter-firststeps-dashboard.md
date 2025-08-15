@@ -4,7 +4,7 @@ title: "Longvinter: Dashboard Übersicht"
 description: Informationen zum Dashboard eines Longvinter Server von ZAP-Hosting - ZAP-Hosting.com Dokumentationen
 sidebar_label: Dashboard
 services:
-  - gameserver
+  - gameserver-longvinter
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';

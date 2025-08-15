@@ -4,7 +4,7 @@ title: "Argo: Dashboard overview"
 description: Information about the dashboard of an Argo server from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Dashboard
 services:
-  - gameserver
+  - gameserver-argo
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

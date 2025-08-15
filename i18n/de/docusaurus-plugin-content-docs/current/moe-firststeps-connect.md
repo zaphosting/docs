@@ -4,7 +4,7 @@ title: "Myth of Empires: Zum Server verbinden"
 description: Informationen über verschiedene Möglichkeiten, wie du dich mit deinem Myth of Empires Server von ZAP-Hosting verbinden kannst - ZAP-Hosting Dokumentation
 sidebar_label: Zum Server verbinden
 services:
-  - gameserver
+  - gameserver-moe
 ---
 
 import Tabs from '@theme/Tabs';

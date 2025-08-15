@@ -4,7 +4,7 @@ title: "7 Days to Die: RCON"
 description: "Erfahre, wie du RCON für 7 Days to Die verwendest – ZAP-Hosting Dokumentation"
 sidebar_label: RCON
 services:
-  - gameserver
+  - gameserver-7d2d
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';

@@ -4,7 +4,7 @@ title: "Banana Shooter: Connect to the server"
 description: Information about various ways on how to connect to your Banana Shooter server from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Connect to the server
 services:
-  - gameserver
+  - gameserver-bananashooter
 ---
 
 import Tabs from '@theme/Tabs';

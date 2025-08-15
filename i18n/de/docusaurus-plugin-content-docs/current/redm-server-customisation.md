@@ -4,7 +4,7 @@ title: "RedM: Customise server details"
 description: Information on how to customise server details displayed in the server list for RedM servers - ZAP-Hosting.com 
 sidebar_label: Customise Server Details
 services:
-  - gameserver
+  - gameserver-redm
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';

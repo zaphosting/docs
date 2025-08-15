@@ -4,7 +4,7 @@ title: "RedM: Cache leeren"
 description: Informationen, wie du den Cache deines RedM Server von ZAP-Hosting leeren kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Cache leeren
 services:
-  - gameserver
+  - gameserver-redm
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

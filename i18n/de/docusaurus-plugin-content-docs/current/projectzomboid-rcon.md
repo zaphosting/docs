@@ -4,7 +4,7 @@ title: "Project Zomboid: RCON"
 description: "Erfahre, wie du RCON für Project Zomboid verwendest – ZAP-Hosting Dokumentation"
 sidebar_label: RCON
 services:
-  - gameserver
+  - gameserver-projectzomboid
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';

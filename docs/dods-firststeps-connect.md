@@ -4,7 +4,7 @@ title: "Day of Defeat Source: Connect to the server"
 description: "Information about various ways on how to connect to your Day of Defeat: Source server from ZAP-Hosting - ZAP-Hosting.com Documentation"
 sidebar_label: Connect to the server
 services:
-  - gameserver
+  - gameserver-dods
 ---
 
 import Tabs from '@theme/Tabs';

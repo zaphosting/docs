@@ -4,7 +4,7 @@ title: "FiveM:  Change icon for server list"
 description: Information on how to change the server icon for FiveM servers from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Change server icon
 services:
-  - gameserver
+  - gameserver-fivem
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';

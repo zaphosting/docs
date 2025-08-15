@@ -4,7 +4,7 @@ title: "Half-Life 1: Common issues"
 description: "Information on how to resolve common issues on a Half-Life 1 server from ZAP-Hosting - ZAP-Hosting.com documentation"
 sidebar_label: Common issues
 services:
-  - gameserver
+  - gameserver-hl1
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

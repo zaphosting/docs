@@ -4,7 +4,7 @@ title: "Empyrion: Admin werden"
 description: Informationen, wie du Admin auf deinem Empyrion-Server bei ZAP-Hosting wirst - ZAP-Hosting.com Dokumentation
 sidebar_label: Admin werden
 services:
-  - gameserver
+  - gameserver-empyrion
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

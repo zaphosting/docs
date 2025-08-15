@@ -4,7 +4,7 @@ title: "Foundry: Managing Foundry Savegames"
 description: Information on how to manage savegames on your Foundry server from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Manage Savegames
 services:
-  - gameserver
+  - gameserver-foundry
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

@@ -4,7 +4,7 @@ title: "Operation: Harsh Doorstop: Dashboard overview"
 description: "Information about the dashboard of an Operation: Harsh Doorstop server from ZAP-Hosting - ZAP-Hosting.com Documentation"
 sidebar_label: Dashboard
 services:
-  - gameserver
+  - gameserver-ohd
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';

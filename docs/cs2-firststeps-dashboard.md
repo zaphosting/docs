@@ -4,7 +4,7 @@ title: "Counter-Strike 2: Dashboard Overview"
 description: Information about the dashboard of an CS2 server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Dashboard
 services:
-  - gameserver
+  - gameserver-cs2
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';

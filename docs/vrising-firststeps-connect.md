@@ -4,7 +4,7 @@ title: "V Rising: Connect to V Rising Server"
 description: Information about connecting to a V Rising server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Connect to Server
 services:
-  - gameserver
+  - gameserver-vrising
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

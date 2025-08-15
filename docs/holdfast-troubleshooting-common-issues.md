@@ -4,7 +4,7 @@ title: "Holdfast: Nations At War: Common issues"
 description: "Information on how to resolve common issues on a Holdfast: Nations At War server from ZAP-Hosting - ZAP-Hosting.com documentation"
 sidebar_label: Common issues
 services:
-  - gameserver
+  - gameserver-holdfast
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

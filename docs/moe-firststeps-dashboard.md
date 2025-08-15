@@ -4,7 +4,7 @@ title: "Myth of Empires: Dashboard Overview"
 description: Information about the dashboard of an Myth of Empires from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Dashboard
 services:
-  - gameserver
+  - gameserver-moe
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';

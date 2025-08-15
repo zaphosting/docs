@@ -4,7 +4,7 @@ title: "SCP: Escape Together: Dashboard Overview"
 description: "Information about the dashboard of a SCP: Escape Together server from ZAP-Hosting - ZAP-Hosting.com Documentation"
 sidebar_label: Dashboard
 services:
-  - gameserver
+  - gameserver-scp-escapetogether
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';

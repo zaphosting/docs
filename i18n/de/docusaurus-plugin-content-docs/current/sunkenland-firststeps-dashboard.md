@@ -4,7 +4,7 @@ title: "Sunkenland: Dashboard Übersicht"
 description: Informationen zum Dashboard eines Sunkenland Server von ZAP-Hosting - ZAP-Hosting.com Dokumentationen
 sidebar_label: Dashboard
 services:
-  - gameserver
+  - gameserver-sunkenland
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';

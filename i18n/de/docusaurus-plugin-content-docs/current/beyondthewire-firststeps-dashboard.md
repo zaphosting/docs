@@ -4,7 +4,7 @@ title: "Beyond the Wire: Dashboard Übersicht"
 description: Informationen zum Dashboard eines Beyond the Wire Server von ZAP-Hosting - ZAP-Hosting.com Dokumentationen
 sidebar_label: Dashboard
 services:
-  - gameserver
+  - gameserver-beyondthewire
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';

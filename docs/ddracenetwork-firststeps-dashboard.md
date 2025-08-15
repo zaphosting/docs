@@ -4,7 +4,7 @@ title: "DDraceNetwork: Dashboard overview"
 description: Information about the dashboard of an DDraceNetwork server from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Dashboard
 services:
-  - gameserver
+  - gameserver-ddracenetwork
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';

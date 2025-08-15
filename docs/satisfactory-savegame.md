@@ -4,7 +4,7 @@ title: "Satisfactory: Manage Savegames"
 description: Information on how to manage savegames on your Satisfactory server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Managing Savegames
 services:
-  - gameserver
+  - gameserver-satisfactory
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';

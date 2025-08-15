@@ -4,7 +4,7 @@ title: "No More Room In Hell: Segmentation Fault"
 description: Informationen zur Behebung des Segmentation Fault Fehlers bei einem No More Room In Hell Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Segmentation Fault
 services:
-  - gameserver
+  - gameserver-nmrih
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

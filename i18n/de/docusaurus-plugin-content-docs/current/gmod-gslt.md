@@ -4,7 +4,7 @@ title: "Garry’s Mod:  GSLT erstellen (Steam Game Server Login Token)"
 description: "Informationen zur Erstellung und Verwendung von GSLT für Garry’s Mod Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation"
 sidebar_label: GSLT erstellen
 services:
-  - gameserver
+  - gameserver-gmod
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

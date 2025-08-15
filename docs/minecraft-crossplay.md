@@ -4,7 +4,7 @@ title: "Minecraft: Setting up crossplay between Minecraft Java & Bedrock Edition
 description: Information about setting up crosssplay between Minecraft Java & Bedrock editions on your Minecraft server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Java & Bedrock Crossplay
 services:
-  - gameserver
+  - gameserver-minecraft
 ---
 
 ## Introduction

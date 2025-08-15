@@ -4,7 +4,7 @@ title: "Among Us: Common issues"
 description: "Information on how to resolve common issues on a Among Us server from ZAP-Hosting - ZAP-Hosting.com documentation"
 sidebar_label: Common issues
 services:
-  - gameserver
+  - gameserver-amongus
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

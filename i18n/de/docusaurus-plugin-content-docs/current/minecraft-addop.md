@@ -4,7 +4,7 @@ title: "Minecraft: Server OP-Rechte vergeben"
 description: Informationen, wie du OP-Rechte für deinen Minecraft-Server von ZAP-Hosting.com vergeben und bearbeiten kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: OP-Rechte
 services:
-  - gameserver
+  - gameserver-minecraft
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

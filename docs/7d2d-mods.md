@@ -4,7 +4,7 @@ title: "7 Days to Die: Installation of mods"
 description: How to install mods on a 7 Days to Die game server - ZAP-Hosting.com documentation 
 sidebar_label: Install mods
 services:
-  - gameserver
+  - gameserver-7d2d
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

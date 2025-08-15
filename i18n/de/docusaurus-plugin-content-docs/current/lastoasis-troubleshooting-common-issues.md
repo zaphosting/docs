@@ -4,7 +4,7 @@ title: "Last Oasis: Häufige Probleme"
 description: "Informationen zur Behebung häufiger Probleme bei Last Oasis Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation"
 sidebar_label: Häufige Probleme
 services:
-  - gameserver
+  - gameserver-lastoasis
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

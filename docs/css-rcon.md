@@ -4,7 +4,7 @@ title: "Counter-Strike: Source: RCON"
 description: "Learn how to use RCON for Counter-Strike: Source - ZAP-Hosting Documentation"
 sidebar_label: RCON
 services:
-  - gameserver
+  - gameserver-css
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';

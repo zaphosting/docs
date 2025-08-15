@@ -4,7 +4,7 @@ title: "DDraceNetwork: Common issues"
 description: "Information on how to resolve common issues on a DDraceNetwork server from ZAP-Hosting - ZAP-Hosting.com documentation"
 sidebar_label: Common issues
 services:
-  - gameserver
+  - gameserver-ddracenetwork
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

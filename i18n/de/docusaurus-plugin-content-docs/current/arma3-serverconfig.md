@@ -4,7 +4,7 @@ title: "Arma 3: Serverkonfigurationsdatei bearbeiten"
 description: Informationen zu den Einstellungen und Konfigurationsmöglichkeiten der server.cfg-Datei deines Arma-3 Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Server.cfg
 services:
-  - gameserver
+  - gameserver-arma3
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

@@ -4,7 +4,7 @@ title: "Empyrion: Dashboard Overview"
 description: Information about the dashboard of an Empyrion from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Dashboard
 services:
-  - gameserver
+  - gameserver-empyrion
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';

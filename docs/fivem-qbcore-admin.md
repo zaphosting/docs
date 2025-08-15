@@ -4,7 +4,7 @@ title: "FiveM: Become admin using QBCore"
 description: Information on how to become admin using QBCore on your FiveM server - ZAP-Hosting.com documentation
 sidebar_label: Become admin
 services:
-  - gameserver
+  - gameserver-fivem
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

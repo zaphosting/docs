@@ -4,7 +4,7 @@ title: "Day of Infamy: Dashboard overview"
 description: Information about the dashboard of an Day of Infamy server from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Dashboard
 services:
-  - gameserver
+  - gameserver-dayofinfamy
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

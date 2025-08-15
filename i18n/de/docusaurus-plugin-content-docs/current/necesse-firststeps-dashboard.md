@@ -4,7 +4,7 @@ title: "Necesse: Dashboard Übersicht"
 description: Informationen zum Dashboard eines Necesse Server von ZAP-Hosting - ZAP-Hosting.com Dokumentationen
 sidebar_label: Dashboard
 services:
-  - gameserver
+  - gameserver-necesse
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

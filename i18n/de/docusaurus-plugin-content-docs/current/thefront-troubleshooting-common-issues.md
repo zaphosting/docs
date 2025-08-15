@@ -4,7 +4,7 @@ title: "The Front: Häufige Probleme"
 description: "Informationen zur Behebung häufiger Probleme bei The Front Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation"
 sidebar_label: Häufige Probleme
 services:
-  - gameserver
+  - gameserver-thefront
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

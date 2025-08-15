@@ -4,7 +4,7 @@ title: "Contagion: Dashboard Übersicht"
 description: Informationen zum Dashboard eines Contagion Server von ZAP-Hosting - ZAP-Hosting.com Dokumentationen
 sidebar_label: Dashboard
 services:
-  - gameserver
+  -   - gameserver-corekeeper-contagion
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
@@ -94,7 +94,7 @@ Dein Server war zeitweise offline und du kannst dir nicht erklären, warum? Ein 
 
 Wenn unser Monitoring System eine allgemeine Störung erkennt, werden unsere Techniker automatisch benachrichtigt und kümmern sich schnellstmöglich um die Behebung des Problems.
 
-In diesem Bereich findest du eine Übersicht über die Störungshistorie des Hostsystems, auf dem dein Gameserver-Dienst betrieben wird. Weitere Informationen und die aktuellere Version unseres Dienststatus findest du über unsere neue [Status Seite](https://status.zap-hosting.com/). 
+In diesem Bereich findest du eine Übersicht über die Störungshistorie des Hostsystems, auf dem dein   - gameserver-corekeeper-Dienst betrieben wird. Weitere Informationen und die aktuellere Version unseres Dienststatus findest du über unsere neue [Status Seite](https://status.zap-hosting.com/). 
 
 
 
@@ -133,7 +133,7 @@ Hast du festgestellt, dass einige deiner Änderungen teilweise überschrieben we
 
 ### Spiele
 
-Unter **Spiele** hast du jederzeit die Möglichkeit die Spielvariante deines bestehenden Spiels zu verändern oder generell ein anderes Spiel zu installieren.  Spiele die den gleichen Slotpreis beinhalten kannst du direkt unter **Verfügbare Spiele** auswählen. Für alle weiteren Spiele wird zunächst eine Anpassung des Slotpreises benötigt. Mehr dazu findest du in der [Spielwechsel](gameserver-gameswitch.md) Anleitung. 
+Unter **Spiele** hast du jederzeit die Möglichkeit die Spielvariante deines bestehenden Spiels zu verändern oder generell ein anderes Spiel zu installieren.  Spiele die den gleichen Slotpreis beinhalten kannst du direkt unter **Verfügbare Spiele** auswählen. Für alle weiteren Spiele wird zunächst eine Anpassung des Slotpreises benötigt. Mehr dazu findest du in der [Spielwechsel](  - gameserver-corekeeper-gameswitch.md) Anleitung. 
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/xkkECw7o52fAMWk/preview)
 
@@ -158,7 +158,7 @@ https://screensaver01.zap-hosting.com/index.php/s/P6DeWiRC3tDqG2z/preview
 
 ### Restart Planer
 
-Du möchtest deinen Server zu bestimmten Uhrzeiten neu starten? Der Restart-Planer ermöglicht dir, geplante automatische Neustarts deines Gameservers einzurichten. Mit dieser Funktion kannst du Neustarts zu bestimmten Zeiten oder in regelmäßigen Intervallen einstellen.
+Du möchtest deinen Server zu bestimmten Uhrzeiten neu starten? Der Restart-Planer ermöglicht dir, geplante automatische Neustarts deines   - gameserver-corekeepers einzurichten. Mit dieser Funktion kannst du Neustarts zu bestimmten Zeiten oder in regelmäßigen Intervallen einstellen.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/k4k9TJTcP9WYx6n/preview)
 
@@ -172,7 +172,7 @@ Im Abschnitt **Werkzeuge** deines Navigationspanels findest du eine Reihe von Un
 
 ### FTP-Browser
 
-Über den **FTP-Browser** erhältst du alle erforderlichen Informationen, um eine Verbindung zum FTP-Zugang herzustellen. Der FTP-Zugang ermöglicht dir einen direkten Zugriff auf die Dateien deines Gameservers. Wir empfehlen die Verwendung eines externen FTP-Programms wie **Filezilla** oder **WinSCP** für eine optimale Nutzung. Wenn du nicht weißt, wie man FTP verwendet, dann kann dir ein Blick in die folgende [Anleitung](gameserver-ftpaccess.md) weiterhelfen.
+Über den **FTP-Browser** erhältst du alle erforderlichen Informationen, um eine Verbindung zum FTP-Zugang herzustellen. Der FTP-Zugang ermöglicht dir einen direkten Zugriff auf die Dateien deines   - gameserver-corekeepers. Wir empfehlen die Verwendung eines externen FTP-Programms wie **Filezilla** oder **WinSCP** für eine optimale Nutzung. Wenn du nicht weißt, wie man FTP verwendet, dann kann dir ein Blick in die folgende [Anleitung](  - gameserver-corekeeper-ftpaccess.md) weiterhelfen.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/aXjfGiX48Yqzy75/preview)
 
@@ -184,7 +184,7 @@ Im Abschnitt **Werkzeuge** deines Navigationspanels findest du eine Reihe von Un
 
 ### Datenbanken
 
-Zu unseren Gameserver Produkten bieten wir auch 10 Datenbanken inklusive an. Diese sind beispielsweise dann notwendig, wenn Daten in einer Datenbank hinterlegt werden müssen. Unter **Datenbanken** kannst du eine Datenbank anlegen und die Zugangsdaten einsehen. Ebenfalls hast du dort auch die Möglichkeit die Backup Option zu aktivieren und bestehende Datenbank Backups zu importieren. 
+Zu unseren   - gameserver-corekeeper Produkten bieten wir auch 10 Datenbanken inklusive an. Diese sind beispielsweise dann notwendig, wenn Daten in einer Datenbank hinterlegt werden müssen. Unter **Datenbanken** kannst du eine Datenbank anlegen und die Zugangsdaten einsehen. Ebenfalls hast du dort auch die Möglichkeit die Backup Option zu aktivieren und bestehende Datenbank Backups zu importieren. 
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/HmHnWKoMKx2XSsc/preview)
 
@@ -198,7 +198,7 @@ In den Einstellungen kannst du festlegen, ob Backups automatisch erstellt werden
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/MpqkKaQrLowFxqQ/preview)
 
-Wir stellen für unsere Gameserver Produkte standardmäßig 10 GB Speicherplatz auf dem Storage Server für Backups zur Verfügung. Solltest du mehr Speicherplatz benötigen, so kann dieser kostenpflichtig per Upgrade erweitert werden. So stellst du sicher, dass du stets genügend Platz für deine Backups hast und bei Bedarf auf ältere Backups zugreifen kannst.
+Wir stellen für unsere   - gameserver-corekeeper Produkte standardmäßig 10 GB Speicherplatz auf dem Storage Server für Backups zur Verfügung. Solltest du mehr Speicherplatz benötigen, so kann dieser kostenpflichtig per Upgrade erweitert werden. So stellst du sicher, dass du stets genügend Platz für deine Backups hast und bei Bedarf auf ältere Backups zugreifen kannst.
 
 ## Weiterführende Links
 In dem Abschnitt **Weiterführende Links** findest du weitere Links, die für dein Produkt relevant sind. 

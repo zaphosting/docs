@@ -4,7 +4,7 @@ title: "Conan Exiles: RCON"
 description: "Erfahre, wie du RCON für Conan Exiles verwendest – ZAP-Hosting Dokumentation"
 sidebar_label: RCON
 services:
-  - gameserver
+  - gameserver-conan
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';

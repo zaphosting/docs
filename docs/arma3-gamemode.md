@@ -4,7 +4,7 @@ title: "Arma 3: Change game mode"
 description: Information on how to change the game mode on your Arma 3 server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Change game mode
 services:
-  - gameserver
+  - gameserver-arma3
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

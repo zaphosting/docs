@@ -4,7 +4,7 @@ title: "Left 4 Dead 2: Install plugins on your own server"
 description: "Information on how to install plugins on your Left 4 Dead 2 server from ZAP-Hosting - ZAP-Hosting.com documentation"
 sidebar_label: Install Plugins
 services:
-  - gameserver
+  - gameserver-l4d2
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

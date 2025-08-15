@@ -4,7 +4,7 @@ title: "Day of Defeat: Source: Common issues"
 description: "Information on how to resolve common issues on a Day of Defeat: Source server from ZAP-Hosting - ZAP-Hosting.com documentation"
 sidebar_label: Common issues
 services:
-  - gameserver
+  - gameserver-dods
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

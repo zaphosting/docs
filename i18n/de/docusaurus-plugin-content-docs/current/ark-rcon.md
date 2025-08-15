@@ -4,7 +4,7 @@ title: "ARK: Survival Evolved: RCON"
 description: "Erfahre, wie du RCON für ARK: Survival Evolved verwendest – ZAP-Hosting Dokumentation"
 sidebar_label: RCON
 services:
-  - gameserver
+  - gameserver-ark
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';

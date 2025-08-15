@@ -4,7 +4,7 @@ title: "FiveM: Comprehensive Frameworks comparison"
 description: Discover the significant differences, advantages and disadvantages of the available FiveM frameworks - ZAP-Hosting.com - Documentation
 sidebar_label: Frameworks comparison
 services:
-  - gameserver
+  - gameserver-fivem
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

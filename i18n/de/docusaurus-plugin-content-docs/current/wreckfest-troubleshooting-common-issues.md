@@ -4,7 +4,7 @@ title: "Wreckfest: Häufige Probleme"
 description: "Informationen zur Behebung häufiger Probleme bei Wreckfest Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation"
 sidebar_label: Häufige Probleme
 services:
-  - gameserver
+  - gameserver-wreckfest
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

@@ -4,7 +4,7 @@ title: "SCP: Containment Breach: Dashboard Overview"
 description: "Information about the dashboard of a SCP: Containment Breach server from ZAP-Hosting - ZAP-Hosting.com Documentation"
 sidebar_label: Dashboard
 services:
-  - gameserver
+  - gameserver-scp-containmentbreach
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';

@@ -4,7 +4,7 @@ title: "Wreckfest 2: Dashboard Übersicht"
 description: Informationen zum Dashboard eines Wreckfest 2 Server von ZAP-Hosting - ZAP-Hosting.com Dokumentationen
 sidebar_label: Dashboard
 services:
-  - gameserver
+  - gameserver-wreckfest2
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';

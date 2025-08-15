@@ -4,7 +4,7 @@ title: "SCUM: Server wipe (Partial, Gold, Full)"
 description: Informationen wie du deinen SCUM Servers von ZAP-Hosting wipen kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Server wipe
 services:
-  - gameserver
+  - gameserver-scum
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

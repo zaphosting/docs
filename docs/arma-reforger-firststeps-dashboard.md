@@ -4,7 +4,7 @@ title: "Arma Reforger: Dashboard Overview"
 description: Information about the dashboard of an Arma Reforger Server from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Dashboard
 services:
-  - gameserver
+  - gameserver-arma-reforger
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';

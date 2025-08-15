@@ -4,7 +4,7 @@ title: "CS2: Admin werden"
 description: Information darüber, wie du bei deinem CS2 Server von ZAP-Hosting Admin wirst - ZAP-Hosting.com documentation
 sidebar_label: Admin werden
 services:
-  - gameserver
+  - gameserver-cs2
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

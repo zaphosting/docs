@@ -4,7 +4,7 @@ title: "Avorion: Dashboard Übersicht"
 description: Informationen zum Dashboard eines Avorion Server von ZAP-Hosting - ZAP-Hosting.com Dokumentationen
 sidebar_label: Dashboard
 services:
-  - gameserver
+  - gameserver-avorion
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

@@ -4,7 +4,7 @@ title: "Vintage Story: Dashboard Übersicht"
 description: Informationen zum Dashboard eines Vintage Story Server von ZAP-Hosting - ZAP-Hosting.com Dokumentationen
 sidebar_label: Dashboard
 services:
-  - gameserver
+  - gameserver-vintagestory
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';

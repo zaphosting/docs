@@ -4,7 +4,7 @@ title: "Assetto Corsa Competizione: Dashboard Overview"
 description: Information about the dashboard of an Assetto Corsa Competizione Server from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Dashboard
 services:
-  - gameserver
+  - gameserver-assetto-competizione
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

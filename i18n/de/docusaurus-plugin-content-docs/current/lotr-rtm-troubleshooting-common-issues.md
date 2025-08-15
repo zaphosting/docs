@@ -4,7 +4,7 @@ title: "The Lord of the Rings: RTM: Häufige Probleme"
 description: "Informationen zur Behebung häufiger Probleme bei The Lord of the Rings: RTM Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation"
 sidebar_label: Häufige Probleme
 services:
-  - gameserver
+  - gameserver-lotr-rtm
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

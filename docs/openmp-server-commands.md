@@ -4,7 +4,7 @@ title: "Open.mp: Open.mp Server Commands"
 description: Information on useful commands for Open.mp game from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Server Commands
 services:
-  - gameserver
+  - gameserver-openmp
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
