@@ -4,7 +4,7 @@ title: "Counter-Strike: 1.6: Segmentation Fault"
 description: "Information on how to resolve the segmentation fault error on a Counter-Strike: 1.6 server from ZAP-Hosting - ZAP-Hosting.com documentation"
 sidebar_label: Segmentation Fault
 services:
-  - gameserver
+  - gameserver-cs16
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

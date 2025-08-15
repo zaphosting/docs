@@ -4,7 +4,7 @@ title: "Enshrouded: Managing Enshrouded Savegames"
 description: Information on how to manage savegames on your Enshrouded server from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Manage Savegames
 services:
-  - gameserver
+  - gameserver-enshrouded
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

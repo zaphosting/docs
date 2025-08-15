@@ -4,7 +4,7 @@ title: "Foundry: Dashboard Übersicht"
 description: Informationen zum Dashboard eines Foundry Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Dashboard
 services:
-  - gameserver
+  - gameserver-foundry
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';

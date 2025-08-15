@@ -4,7 +4,7 @@ title: "Holdfast: Nations At War: Connect to the server"
 description: "Information about various ways on how to connect to your Holdfast: Nations At War server from ZAP-Hosting - ZAP-Hosting.com Documentation"
 sidebar_label: Connect to the server
 services:
-  - gameserver
+  - gameserver-holdfast
 ---
 
 import Tabs from '@theme/Tabs';

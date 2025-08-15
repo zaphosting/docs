@@ -4,7 +4,7 @@ title: "Soulmask: Server Configuration"
 description: Information about configuring a Soulmask game server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Server Configuration
 services:
-  - gameserver
+  - gameserver-soulmask
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

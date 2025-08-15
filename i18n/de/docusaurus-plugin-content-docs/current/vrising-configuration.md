@@ -4,7 +4,7 @@ title: "V Rising: Server-Konfiguration"
 description: Informationen zur Konfiguration eines V Rising-Spielservers von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Server-Konfiguration
 services:
-  - gameserver
+  - gameserver-vrising
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

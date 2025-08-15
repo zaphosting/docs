@@ -4,7 +4,7 @@ title: "Left 4 Dead 2: Häufige Probleme"
 description: "Informationen zur Behebung häufiger Probleme bei Left 4 Dead 2 Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation"
 sidebar_label: Häufige Probleme
 services:
-  - gameserver
+  - gameserver-l4d2
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

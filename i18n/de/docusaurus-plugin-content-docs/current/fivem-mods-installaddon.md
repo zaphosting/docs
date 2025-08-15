@@ -4,7 +4,7 @@ title: "FiveM: Addon Carmods auf Server installieren"
 description: Informationen, wie du Addon Carmods auf deinen FiveM-Server von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Addon Carmods installieren
 services:
-  - gameserver
+  - gameserver-fivem
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

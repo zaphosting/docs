@@ -4,7 +4,7 @@ title: "Stormworks: Stormworks Admin werden - Gameserver von ZAP-Hosting"
 description: Anleitung, wie du dich zum Admin für Stormworks Gameserver machst - ZAP-Hosting.com Dokumentation 
 sidebar_label: Admin werden
 services:
-  - gameserver
+  - gameserver-stormworks
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

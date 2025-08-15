@@ -4,7 +4,7 @@ title: "SCP Secret Laboratory: Zum Server verbinden"
 description: Informationenen zum Verbindungsaufbau eines SCP Secret Laboratory Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Zum Server verbinden
 services:
-  - gameserver
+  - gameserver-scp
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

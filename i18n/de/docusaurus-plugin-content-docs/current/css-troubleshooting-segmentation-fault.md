@@ -4,7 +4,7 @@ title: "Counter-Strike: Source: Segmentation Fault"
 description: "Informationen zur Behebung des Segmentation Fault Fehlers bei einem Counter-Strike: Source Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation"
 sidebar_label: Segmentation Fault
 services:
-  - gameserver
+  - gameserver-css
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

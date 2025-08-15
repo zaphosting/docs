@@ -4,7 +4,7 @@ title: "Satisfactory: Installieren von Mods auf deinem Satisfactory-Server"
 description: Informationen darüber, wie du Mods auf deinem Satisfactory-Server und im Spielclient von ZAP-Hosting installierst – ZAP-Hosting.com Dokumentation
 sidebar_label: Mods installieren
 services:
-  - gameserver
+  - gameserver-satisfactory
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

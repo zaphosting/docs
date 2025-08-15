@@ -4,7 +4,7 @@ title: "Never Split the Party: Dashboard Übersicht"
 description: Informationen zum Dashboard eines Never Split the Party Server von ZAP-Hosting - ZAP-Hosting.com Dokumentationen
 sidebar_label: Dashboard
 services:
-  - gameserver
+  - gameserver-nstp-nstp
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

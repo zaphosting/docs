@@ -4,7 +4,7 @@ title: "Beyond the Wire: Häufige Probleme"
 description: "Informationen zur Behebung häufiger Probleme bei Beyond the Wire Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation"
 sidebar_label: Häufige Probleme
 services:
-  - gameserver
+  - gameserver-beyondthewire
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

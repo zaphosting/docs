@@ -4,7 +4,7 @@ title: "Open.mp: Server mit RCON"
 description: Informationen darüber, wie du RCON mit deinem Open.mp-Server von ZAP-Hosting verwendest, um deinen Server zu verwalten - ZAP-Hosting.com Dokumentation
 sidebar_label: RCON
 services:
-  - gameserver
+  - gameserver-openmp
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

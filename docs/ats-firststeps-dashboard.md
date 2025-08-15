@@ -4,7 +4,7 @@ title: "American Truck Simulator: Dashboard Overview"
 description: Information about the dashboard of an American Truck Simulator server from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Dashboard
 services:
-  - gameserver
+  - gameserver-ats
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';

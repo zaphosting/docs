@@ -4,7 +4,7 @@ title: "Rust: Admin Commands"
 description: Information on Admin commands for Rust from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Admin Commands
 services:
-  - gameserver
+  - gameserver-rust
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

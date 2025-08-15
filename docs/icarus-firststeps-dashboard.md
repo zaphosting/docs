@@ -4,7 +4,7 @@ title: "Icarus: Dashboard overview"
 description: Information about the dashboard of an Icarus server from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Dashboard
 services:
-  - gameserver
+  - gameserver-icarus
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

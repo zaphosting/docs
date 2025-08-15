@@ -4,7 +4,7 @@ title: "The Lord of the Rings: Return to Moria: Zum Server verbinden"
 description: "Informationen über verschiedene Möglichkeiten, wie du dich mit deinem The Lord of the Rings: Return to Moria Server von ZAP-Hosting verbinden kannst - ZAP-Hosting Dokumentation"
 sidebar_label: Zum Server verbinden
 services:
-  - gameserver
+  - gameserver-lotr-rtm
 ---
 
 import Tabs from '@theme/Tabs';

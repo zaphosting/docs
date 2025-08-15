@@ -4,7 +4,7 @@ title: "Arma 3: Dashboard Overview"
 description: Information about the dashboard of an Arma 3 Server from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Dashboard
 services:
-  - gameserver
+  - gameserver-arma3
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';

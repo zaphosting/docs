@@ -4,7 +4,7 @@ title: "Broke Protocol: Häufige Probleme"
 description: "Informationen zur Behebung häufiger Probleme bei Broke Protocol Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation"
 sidebar_label: Häufige Probleme
 services:
-  - gameserver
+  - gameserver-brokeprotocol
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

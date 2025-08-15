@@ -4,7 +4,7 @@ title: "Journey of Life: Common issues"
 description: "Information on how to resolve common issues on a Journey of Life server from ZAP-Hosting - ZAP-Hosting.com documentation"
 sidebar_label: Common issues
 services:
-  - gameserver
+  - gameserver-jol
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

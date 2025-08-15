@@ -4,7 +4,7 @@ title: "Minecraft: server performance optimisation"
 description: Information on how to optimise your Minecraft server from ZAP-Hosting for better performance - ZAP-Hosting.com documentation
 sidebar_label: Minecraft-Server Optimization
 services:
-  - gameserver
+  - gameserver-minecraft
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

@@ -4,7 +4,7 @@ title: "Counter-Strike: Source: Install plugins on your own server"
 description: "Information on how to install plugins on your Counter-Strike: Source server from ZAP-Hosting - ZAP-Hosting.com documentation"
 sidebar_label: Install Plugins
 services:
-  - gameserver
+  - gameserver-css
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

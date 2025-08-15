@@ -4,7 +4,7 @@ title: "Don't Starve Together: Höhlen auf Server erstellen"
 description: Informationen wie du für Don't Starve Together Höhlen auf Servern erstellst und verwendest - ZAP-Hosting.com Dokumentation
 sidebar_label: Höhlen erstellen
 services:
-  - gameserver
+  - gameserver-dst
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

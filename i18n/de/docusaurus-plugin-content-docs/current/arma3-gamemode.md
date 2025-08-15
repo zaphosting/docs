@@ -4,7 +4,7 @@ title: "Arma 3: Spielmodus ändern"
 description: Information, wie du den Spielmodus bei deinem Arma 3 Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Spielmodus ändern
 services:
-  - gameserver
+  - gameserver-arma3
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

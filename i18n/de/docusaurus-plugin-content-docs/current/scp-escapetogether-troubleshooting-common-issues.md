@@ -4,7 +4,7 @@ title: "SCP: Escape Together: Häufige Probleme"
 description: "Informationen zur Behebung häufiger Probleme bei SCP: Escape Together Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation"
 sidebar_label: Häufige Probleme
 services:
-  - gameserver
+  - gameserver-scp-escapetogether
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

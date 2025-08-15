@@ -4,7 +4,7 @@ title: "Day of Defeat: Source: Setting up FastDL"
 description: "How to set up FastDL with webspace for Day of Defeat: Source servers at ZAP-Hosting - ZAP-Hosting Documentation"
 sidebar_label: FastDL
 services:
-  - gameserver
+  - gameserver-dods
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

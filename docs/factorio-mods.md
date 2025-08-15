@@ -4,7 +4,7 @@ title: "Factorio: Installing Mods/DLCs to your Factorio server"
 description: Information on how to install mods and DLCs to your Factorio server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Install Mods/DLCs
 services:
-  - gameserver
+  - gameserver-factorio
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';

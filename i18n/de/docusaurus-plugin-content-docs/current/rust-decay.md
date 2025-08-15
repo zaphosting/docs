@@ -4,7 +4,7 @@ title: "Rust: Decay verändern"
 description: Information, zur Anpassung des Decay bei deinem Rust Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Decay
 services:
-  - gameserver
+  - gameserver-rust
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

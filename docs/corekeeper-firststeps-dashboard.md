@@ -4,7 +4,7 @@ title: "Core Keeper: Dashboard Overview"
 description: Information about the dashboard of an Core Keeper server from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Dashboard
 services:
-  - gameserver
+  -   - gameserver-corekeeper
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';
@@ -137,7 +137,7 @@ Have you noticed that some of your changes are partially overwritten? Please be 
 
 ### Games
 
-Under **Games** you always have the possibility to change the game variant of your existing game or to install another game in general.  Games with the same slot price can be selected directly under **Available Games**. For all other games an adjustment of the slot price is required first. More information about this can be found in the [Game Change](gameserver-gameswitch.md) guide.
+Under **Games** you always have the possibility to change the game variant of your existing game or to install another game in general.  Games with the same slot price can be selected directly under **Available Games**. For all other games an adjustment of the slot price is required first. More information about this can be found in the [Game Change](  - gameserver-corekeeper-gameswitch.md) guide.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/xkkECw7o52fAMWk/preview)
 
@@ -177,7 +177,7 @@ In the **Tools** section of your navigation panel, you will find a range of sub-
 
 ### FTP-Browser
 
-Using the **FTP Browser**, you will get all the necessary information to establish a connection to the FTP access. The FTP access allows you direct access to the files of your game server. We recommend using an external FTP program such as **Filezilla** or **WinSCP** for optimal use. If you are not familiar with how to use FTP, then taking a look at the [Access via FTP](gameserver-ftpaccess.md) guide may help you.
+Using the **FTP Browser**, you will get all the necessary information to establish a connection to the FTP access. The FTP access allows you direct access to the files of your game server. We recommend using an external FTP program such as **Filezilla** or **WinSCP** for optimal use. If you are not familiar with how to use FTP, then taking a look at the [Access via FTP](  - gameserver-corekeeper-ftpaccess.md) guide may help you.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/sX85i9HyzR9wmAM/preview)
 

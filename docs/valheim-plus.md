@@ -4,7 +4,7 @@ title: "Valheim: Valheim Plus Server"
 description: Information about Valheim-Servers from ZAP-Hosting, on which the Valheim Plus Mod is preinstalled - ZAP-Hosting.com documentation
 sidebar_label: Valheim Plus
 services:
-  - gameserver
+  - gameserver-valheim
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

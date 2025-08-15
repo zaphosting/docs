@@ -4,7 +4,7 @@ title: "Open.mp: Open.mp Server-Befehle"
 description: Informationen über nützliche Befehle für das Open.mp-Spiel von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Server-Befehle
 services:
-  - gameserver
+  - gameserver-openmp
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

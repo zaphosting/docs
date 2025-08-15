@@ -4,7 +4,7 @@ title: "Unfortunate Spacemen: Dashboard overview"
 description: Information about the dashboard of an Unfortunate Spacemen server from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Dashboard
 services:
-  - gameserver
+  - gameserver-unfortunate-spacemen
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

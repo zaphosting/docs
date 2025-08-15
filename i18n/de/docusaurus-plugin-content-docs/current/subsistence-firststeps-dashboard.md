@@ -4,7 +4,7 @@ title: "Subsistence: Dashboard Übersicht"
 description: Informationen zum Dashboard eines Subsistence Server von ZAP-Hosting - ZAP-Hosting.com Dokumentationen
 sidebar_label: Dashboard
 services:
-  - gameserver
+  - gameserver-subsistence
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

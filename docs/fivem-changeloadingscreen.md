@@ -4,7 +4,7 @@ title: "FiveM: Installation of Custom Loading Screen"
 description: Information on how to install a Custom Loading Screen on a FiveM server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Install Custom Loading Screen
 services:
-  - gameserver
+  - gameserver-fivem
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

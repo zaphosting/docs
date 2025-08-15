@@ -4,7 +4,7 @@ title: "Last Oasis: Einen neuen Realm erstellen"
 description: Informationen zur Erstellung eines neuen Realms für deinen Last Oasis Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Realm erstellen
 services:
-  - gameserver
+  - gameserver-lastoasis
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

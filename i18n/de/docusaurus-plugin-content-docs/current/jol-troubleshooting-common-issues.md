@@ -4,7 +4,7 @@ title: "Journey of Life: Häufige Probleme"
 description: "Informationen zur Behebung häufiger Probleme bei Journey of Life Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation"
 sidebar_label: Häufige Probleme
 services:
-  - gameserver
+  - gameserver-jol
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

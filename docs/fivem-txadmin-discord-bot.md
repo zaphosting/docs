@@ -4,7 +4,7 @@ title: "FiveM: txAdmin Discord Bot"
 description: Information on how to set up the Discord bot for a FiveM txAdmin Server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: txAdmin Discord Bot
 services:
-  - gameserver
+  - gameserver-fivem
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

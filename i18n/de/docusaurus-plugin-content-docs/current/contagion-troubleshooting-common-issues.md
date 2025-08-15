@@ -4,7 +4,7 @@ title: "Contagion: Häufige Probleme"
 description: "Informationen zur Behebung häufiger Probleme bei Contagion Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation"
 sidebar_label: Häufige Probleme
 services:
-  - gameserver
+  -   - gameserver-corekeeper-contagion
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
@@ -93,7 +93,7 @@ ZAP-Hosting schlägt dir während der Bestellung eine passende Mindestkonfigurat
 
 Bitte halte dich an diese Empfehlungen oder erweitere sie bei Bedarf, um optimale Stabilität und das bestmögliche Erlebnis für dich und deine Spieler zu gewährleisten. Dies ist eine Mindestempfehlung.
 
-Je nach Umfang deines Projekts und der Menge an zusätzlichen Inhalten können die benötigten Ressourcen bereits von Anfang an höher sein oder im Laufe der Zeit ansteigen. In solchen Fällen ist ein Upgrade deines Gameserver-Pakets ein unkomplizierter Weg, um kontinuierliche Leistung und Stabilität zu gewährleisten.
+Je nach Umfang deines Projekts und der Menge an zusätzlichen Inhalten können die benötigten Ressourcen bereits von Anfang an höher sein oder im Laufe der Zeit ansteigen. In solchen Fällen ist ein Upgrade deines   - gameserver-corekeeper-Pakets ein unkomplizierter Weg, um kontinuierliche Leistung und Stabilität zu gewährleisten.
 
 </details>
 
@@ -134,7 +134,7 @@ Wenn du den Verdacht hast, dass Routing-Probleme oder externe Netzwerkprobleme z
 <details>
   <summary>DDoS und andere Netzwerk-Bedrohungen</summary>
 
-Gameserver können gelegentlich Ziel von böswilligen Netzwerkaktivitäten werden, vor allem von DDoS-Angriffen (Distributed Denial of Service). Diese Angriffe überschwemmen den Server mit übermäßigem Datenverkehr, was zu Verzögerungen, Verbindungsverlusten oder sogar kompletten Ausfällen führt. In anderen Fällen versuchen Angreifer, Schwachstellen im Netzwerk auszunutzen oder die Stabilität des Servers durch wiederholte Verbindungsversuche oder ungewöhnliche Datenmuster zu stören.
+  - gameserver-corekeeper können gelegentlich Ziel von böswilligen Netzwerkaktivitäten werden, vor allem von DDoS-Angriffen (Distributed Denial of Service). Diese Angriffe überschwemmen den Server mit übermäßigem Datenverkehr, was zu Verzögerungen, Verbindungsverlusten oder sogar kompletten Ausfällen führt. In anderen Fällen versuchen Angreifer, Schwachstellen im Netzwerk auszunutzen oder die Stabilität des Servers durch wiederholte Verbindungsversuche oder ungewöhnliche Datenmuster zu stören.
 
 Während die meisten dieser Bedrohungen außerhalb der Kontrolle des durchschnittlichen Benutzers liegen, bietet ZAP-Hosting integrierte Schutz- und Mitigationssysteme, um deinen Server vor allgemeinen und fortgeschrittenen Angriffen zu schützen. Wenn du den Verdacht hast, dass dein Server angegriffen wird und Probleme verursacht, wende dich an unser Support-Team, um Unterstützung und weitere Beratung zu erhalten.
 
@@ -147,7 +147,7 @@ Während die meisten dieser Bedrohungen außerhalb der Kontrolle des durchschnit
 
 ## Präventive Maßnahmen
 
-Regelmäßige Backups können eine Menge Stress und Sorgen vermeiden. Erstelle regelmäßig Backups, um sicherzustellen, dass du im Falle eines Problems immer noch ein Backup einer älteren Version hast, in der noch alles funktioniert hat. Wir bieten eine [Backup-Lösung](gameserver-backups.md) für unsere Contagion Gameserver an, mit der du entweder manuelle oder geplante automatische Backups erstellen kannst.
+Regelmäßige Backups können eine Menge Stress und Sorgen vermeiden. Erstelle regelmäßig Backups, um sicherzustellen, dass du im Falle eines Problems immer noch ein Backup einer älteren Version hast, in der noch alles funktioniert hat. Wir bieten eine [Backup-Lösung](  - gameserver-corekeeper-backups.md) für unsere Contagion   - gameserver-corekeeper an, mit der du entweder manuelle oder geplante automatische Backups erstellen kannst.
 
 
 

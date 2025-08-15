@@ -4,7 +4,7 @@ title: "Sunkenland: Sunkenland Server Setup"
 description: Information about setting up your Sunkenland game server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Server Setup
 services:
-  - gameserver
+  - gameserver-sunkenland
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

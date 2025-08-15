@@ -4,7 +4,7 @@ title: "FiveM: Resolve Database Connection issues"
 description: Information on how to resolve any issues with database connection on a FiveM from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Resolve DB Connection
 services:
-  - gameserver
+  - gameserver-fivem
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

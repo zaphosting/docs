@@ -4,7 +4,7 @@ title: "FiveM: Dev Tools für erweiterte Debugging-Informationen aktivieren"
 description: Informationen zur Aktivierung der FiveM Developer Tools - ZAP-Hosting.com Dokumentation
 sidebar_label: Dev-Tools aktivieren
 services:
-  - gameserver
+  - gameserver-fivem
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

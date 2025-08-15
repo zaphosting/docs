@@ -3,7 +3,7 @@ id: satisfactory-addmods
 title: "Satisfactory: Mods installieren"
 sidebar_label: Mods installieren
 services:
-  - gameserver
+  - gameserver-satisfactory
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

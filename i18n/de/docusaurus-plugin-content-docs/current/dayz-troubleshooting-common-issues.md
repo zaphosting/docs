@@ -4,7 +4,7 @@ title: "DayZ: Häufige Probleme"
 description: "Informationen zur Behebung häufiger Probleme bei DayZ Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation"
 sidebar_label: Häufige Probleme
 services:
-  - gameserver
+  - gameserver-dayz
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

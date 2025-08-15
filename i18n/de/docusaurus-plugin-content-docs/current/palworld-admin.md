@@ -4,7 +4,7 @@ title: "Palworld: Setup Admin"
 description: Informationen zum Einrichten und Hinzufügen von Administratoren für einen Palworld-Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Setup Admin
 services:
-  - gameserver
+  - gameserver-palworld
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

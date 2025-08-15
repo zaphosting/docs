@@ -4,7 +4,7 @@ title: "Euro Truck Simulator 2: Häufige Probleme"
 description: "Informationen zur Behebung häufiger Probleme bei Euro Truck Simulator 2 Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation"
 sidebar_label: Häufige Probleme
 services:
-  - gameserver
+  - gameserver-ets2
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

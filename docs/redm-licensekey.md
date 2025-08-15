@@ -4,7 +4,7 @@ title: "RedM: Add Custom License Key"
 description: Information on creating a custom license key and adding it to your RedM server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Own License Key
 services:
-  - gameserver
+  - gameserver-redm
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

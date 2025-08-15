@@ -4,7 +4,7 @@ title: "No More Room In Hell: Admin werden"
 description: "Informationen darüber, wie du auf deinem No More Room In Hell Server Admin werden kannst – ZAP-Hosting.com Dokumentation"
 sidebar_label: "Admin werden"
 services:
-  - gameserver
+  - gameserver-nmrih
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

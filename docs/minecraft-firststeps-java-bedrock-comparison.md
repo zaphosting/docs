@@ -4,7 +4,7 @@ title: "Minecraft: Java / Bedrock Comparison"
 description: Information on the similarities and differences between Minecraft Java and Bedrock edition game versions - ZAP-Hosting.com documentation
 sidebar_label: Java vs Bedrock
 services:
-  - gameserver
+  - gameserver-minecraft
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

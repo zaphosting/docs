@@ -4,7 +4,7 @@ title: "Unturned: Adjusting server permissions"
 description: Information on how to customise the permissions for your Unturned Rocketmod server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Adjust Permissions
 services:
-  - gameserver
+  - gameserver-unturned
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

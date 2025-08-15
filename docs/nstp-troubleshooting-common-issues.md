@@ -4,7 +4,7 @@ title: "Never Split the Party: Common issues"
 description: "Information on how to resolve common issues on a Never Split the Party server from ZAP-Hosting - ZAP-Hosting.com documentation"
 sidebar_label: Common issues
 services:
-  - gameserver
+  - gameserver-nstp-nstp
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

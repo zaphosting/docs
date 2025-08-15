@@ -4,7 +4,7 @@ title: "No More Room In Hell: Common issues"
 description: "Information on how to resolve common issues on a No More Room In Hell server from ZAP-Hosting - ZAP-Hosting.com documentation"
 sidebar_label: Common issues
 services:
-  - gameserver
+  - gameserver-nmrih
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

@@ -4,7 +4,7 @@ title: "Arma 3: Connect to the server"
 description: Information about various ways on how to connect to your Arma 3 server from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Connect to the server
 services:
-  - gameserver
+  - gameserver-arma3
 ---
 
 import Tabs from '@theme/Tabs';

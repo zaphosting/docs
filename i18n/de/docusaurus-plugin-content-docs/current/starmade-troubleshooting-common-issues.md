@@ -4,7 +4,7 @@ title: "Starmade: Häufige Probleme"
 description: "Informationen zur Behebung häufiger Probleme bei Starmade Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation"
 sidebar_label: Häufige Probleme
 services:
-  - gameserver
+  - gameserver-starmade
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

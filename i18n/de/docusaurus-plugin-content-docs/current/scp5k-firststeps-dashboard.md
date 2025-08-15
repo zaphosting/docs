@@ -4,7 +4,7 @@ title: "SCP 5K: Dashboard Übersicht"
 description: Informationen zum Dashboard eines SCP 5K Server von ZAP-Hosting - ZAP-Hosting.com Dokumentationen
 sidebar_label: Dashboard
 services:
-  - gameserver
+  - gameserver-scp5k
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';

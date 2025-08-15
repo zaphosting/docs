@@ -4,7 +4,7 @@ title: "OpenTTD: Dashboard Übersicht"
 description: Informationen zum Dashboard eines OpenTTD Server von ZAP-Hosting - ZAP-Hosting.com Dokumentationen
 sidebar_label: Dashboard
 services:
-  - gameserver
+  - gameserver-openttd
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';

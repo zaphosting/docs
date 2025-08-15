@@ -4,7 +4,7 @@ title: "Palworld: Managing Palworld Savegames"
 description: Information on how to manage savegames on your Palworld server from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Manage Savegames
 services:
-  - gameserver
+  - gameserver-palworld
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

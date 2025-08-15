@@ -4,7 +4,7 @@ title: "Minecraft: Verwalte deine Spieler mit wenigen Klicks"
 description: Informationen darüber, wie du deine Spieler für deinen Minecraft-Server von ZAP-Hosting einfach verwalten kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Spielerverwaltung
 services:
-  - gameserver
+  - gameserver-minecraft
 ---
 
 

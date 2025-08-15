@@ -4,7 +4,7 @@ title: "SCP Secret Laboratory: Neue Rollen hinzufügen"
 description: Informationen, wie du neue Rollen auf deinen SCP-Server von ZAP-Hosting hinzufügen kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Neue Rollen hinzufügen
 services:
-  - gameserver
+  - gameserver-scp
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

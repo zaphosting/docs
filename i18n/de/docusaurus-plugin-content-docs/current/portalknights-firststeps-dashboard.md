@@ -4,7 +4,7 @@ title: "Portal Knights: Dashboard Übersicht"
 description: Informationen zum Dashboard eines Portal Knights-Server von ZAP-Hosting - ZAP-Hosting.com Dokumentationen
 sidebar_label: Dashboard
 services:
-  - gameserver
+  - gameserver-projectzomboid-portalknights
 ---
 
 

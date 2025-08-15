@@ -4,7 +4,7 @@ title: "Assetto Corsa Competizione: Car Slot Prerequisite"
 description: Information on how to increase your Car Slots and set the Prerequisite correctly - ZAP-Hosting.com documentation
 sidebar_label: Car Slot Prerequisite
 services:
-  - gameserver
+  - gameserver-assetto-competizione
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

@@ -4,7 +4,7 @@ title: "Half-Life 2: Create a GSLT (Steam Game Server Login Token)"
 description: "Information about the creation and use of GSLT for Half-Life 2 server from ZAP-Hosting - ZAP-Hosting.com documentation"
 sidebar_label: Create GSLT
 services:
-  - gameserver
+  - gameserver-holdfast-hl2
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

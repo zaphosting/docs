@@ -4,7 +4,7 @@ title: "Abiotic Factor: Dashboard Übersicht"
 description: Informationen zum Dashboard eines Abiotic Factor Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Dashboard
 services:
-  - gameserver
+  - gameserver-abioticfactor
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';

@@ -4,7 +4,7 @@ title: "Day of Defeat: Source: Install plugins on your own server"
 description: "Information on how to install plugins on your Day of Defeat: Source server from ZAP-Hosting - ZAP-Hosting.com documentation"
 sidebar_label: Install Plugins
 services:
-  - gameserver
+  - gameserver-dods
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

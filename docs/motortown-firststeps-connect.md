@@ -4,7 +4,7 @@ title: "Motor Town: Behind The Wheel: Connect to the server"
 description: "Information about various ways on how to connect to your Motor Town: Behind The Wheel server from ZAP-Hosting - ZAP-Hosting.com Documentation"
 sidebar_label: Connect to the server
 services:
-  - gameserver
+  - gameserver-mountandblade-motortown
 ---
 
 import Tabs from '@theme/Tabs';

@@ -4,7 +4,7 @@ title: "Operation: Harsh Doorstop: Common issues"
 description: "Information on how to resolve common issues on a Operation: Harsh Doorstop server from ZAP-Hosting - ZAP-Hosting.com documentation"
 sidebar_label: Common issues
 services:
-  - gameserver
+  - gameserver-ohd
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

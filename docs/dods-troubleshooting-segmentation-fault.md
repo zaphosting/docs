@@ -4,7 +4,7 @@ title: "Day of Defeat: Source: Segmentation Fault"
 description: "Information on how to resolve the segmentation fault error on a Counter-Strike: Source server from ZAP-Hosting - ZAP-Hosting.com documentation"
 sidebar_label: Segmentation Fault
 services:
-  - gameserver
+  - gameserver-dods
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

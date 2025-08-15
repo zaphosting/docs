@@ -4,7 +4,7 @@ title: "One Hour One Life: Dashboard Übersicht"
 description: Informationen zum Dashboard eines One Hour One Life Server von ZAP-Hosting - ZAP-Hosting.com Dokumentationen
 sidebar_label: Dashboard
 services:
-  - gameserver
+  - gameserver-ohol
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';

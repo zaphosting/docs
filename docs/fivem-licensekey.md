@@ -4,7 +4,7 @@ title: "FiveM: Add Custom License Key"
 description: Information on creating a custom license key and adding it to your FiveM server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Own License Key
 services:
-  - gameserver
+  - gameserver-fivem
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

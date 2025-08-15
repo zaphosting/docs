@@ -4,7 +4,7 @@ title: "Vein: Common issues"
 description: "Information on how to resolve common issues on a Vein server from ZAP-Hosting - ZAP-Hosting.com documentation"
 sidebar_label: Common issues
 services:
-  - gameserver
+  - gameserver-vein
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

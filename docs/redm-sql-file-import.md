@@ -4,7 +4,7 @@ title: "RedM: SQL file import"
 description: Information on how to import SQL files into the database of your RedM server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: SQL File Import
 services:
-  - gameserver
+  - gameserver-redm
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

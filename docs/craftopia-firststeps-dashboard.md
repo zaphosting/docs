@@ -4,7 +4,7 @@ title: "Craftopia: Dashboard overview"
 description: Information about the dashboard of an Craftopia server from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Dashboard
 services:
-  - gameserver
+  - gameserver-craftopia
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

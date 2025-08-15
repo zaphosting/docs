@@ -4,7 +4,7 @@ title: "Core Keeper: Core Keeper connect to server"
 description: Instructions on how to connect to the Core Keeper server - ZAP-Hosting.com documentation 
 sidebar_label: Connect to the server
 services:
-  - gameserver
+  -   - gameserver-corekeeper
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

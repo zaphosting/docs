@@ -4,7 +4,7 @@ title: "Abiotic Factor: Server Configuration"
 description: Information about configuring a Abiotic Factor game server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Server Configuration
 services:
-  - gameserver
+  - gameserver-abioticfactor
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

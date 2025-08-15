@@ -4,7 +4,7 @@ title: "Minecraft: General Server Commands"
 description: Information about general commands you can use on your Minecraft server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: General commands
 services:
-  - gameserver
+  - gameserver-minecraft
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

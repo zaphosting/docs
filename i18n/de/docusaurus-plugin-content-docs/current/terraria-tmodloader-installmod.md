@@ -4,7 +4,7 @@ title: "Terraria: Installation von Mods (tModLoader)"
 description: Informationen, wie du Mods auf deinen Terraria-Server mit tModLoader installieren kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Mods installieren (tModLoader)
 services:
-  - gameserver
+  - gameserver-terraria
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

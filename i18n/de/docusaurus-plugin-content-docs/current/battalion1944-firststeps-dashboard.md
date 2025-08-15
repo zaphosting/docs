@@ -4,7 +4,7 @@ title: "Battalion 1944: Dashboard Übersicht"
 description: Informationen zum Dashboard eines Battalion 1944 Server von ZAP-Hosting - ZAP-Hosting.com Dokumentationen
 sidebar_label: Dashboard
 services:
-  - gameserver
+  - gameserver-beammp-battalion1944
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

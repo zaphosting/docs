@@ -4,7 +4,7 @@ title: "Nienix: Dashboard Übersicht"
 description: Informationen zum Dashboard eines Nienix Server von ZAP-Hosting - ZAP-Hosting.com Dokumentationen
 sidebar_label: Dashboard
 services:
-  - gameserver
+  - gameserver-nienix
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

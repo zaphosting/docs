@@ -4,7 +4,7 @@ title: "Terraria: Dashboard Overview"
 description: Information about the dashboard of an Terraria server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Dashboard
 services:
-  - gameserver
+  - gameserver-terraria
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';

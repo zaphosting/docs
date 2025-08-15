@@ -4,7 +4,7 @@ title: "SCP Secret Laboratory: Admin auf dem eigenen Server werden"
 description: Informationen, wie du dich zum Admin auf deinem SCP-Server von ZAP-Hosting.com machen kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Admin werden
 services:
-  - gameserver
+  - gameserver-scp
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

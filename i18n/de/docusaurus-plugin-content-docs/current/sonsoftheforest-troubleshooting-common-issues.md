@@ -4,7 +4,7 @@ title: "Sons of the Forest: Häufige Probleme"
 description: "Informationen zur Behebung häufiger Probleme bei Sons of the Forest Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation"
 sidebar_label: Häufige Probleme
 services:
-  - gameserver
+  - gameserver-sonsoftheforest
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

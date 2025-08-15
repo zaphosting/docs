@@ -4,7 +4,7 @@ title: "Garry's Mod: Dashboard Übersicht"
 description: Informationen zum Dashboard eines Garry's Mod Server von ZAP-Hosting - ZAP-Hosting.com Dokumentationen
 sidebar_label: Dashboard
 services:
-  - gameserver
+  - gameserver-gmod
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';

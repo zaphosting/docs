@@ -4,7 +4,7 @@ title: "No More Room In Hell: Install plugins on your own server"
 description: "Information on how to install plugins on your No More Room In Hell server from ZAP-Hosting - ZAP-Hosting.com documentation"
 sidebar_label: Install Plugins
 services:
-  - gameserver
+  - gameserver-nmrih
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

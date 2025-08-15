@@ -4,7 +4,7 @@ title: "FiveM: Change language / location (flag)"
 description: Information on how to customize the language and location (flag) on a FiveM server - ZAP-Hosting.com documentation
 sidebar_label: Language / location (flag)
 services:
-  - gameserver
+  - gameserver-fivem
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

@@ -4,7 +4,7 @@ title: "American Truck Simulator: Zum Server verbinden"
 description: Informationen über verschiedene Möglichkeiten, wie du dich mit deinem American Truck Simulator Server von ZAP-Hosting verbinden kannst - ZAP-Hosting Dokumentation
 sidebar_label: Zum Server verbinden
 services:
-  - gameserver
+  - gameserver-ats
 ---
 
 import Tabs from '@theme/Tabs';

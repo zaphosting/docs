@@ -4,7 +4,7 @@ title: "Left 4 Dead 2: RCON"
 description: "Learn how to use RCON for Left 4 Dead 2 - ZAP-Hosting Documentation"
 sidebar_label: RCON
 services:
-  - gameserver
+  - gameserver-l4d2
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';

@@ -4,7 +4,7 @@ title: "Day of Defeat Source: Dashboard Übersicht"
 description: "Informationen zum Dashboard eines Day of Defeat: Source Server von ZAP-Hosting - ZAP-Hosting.com Dokumentationen"
 sidebar_label: Dashboard
 services:
-  - gameserver
+  - gameserver-dods
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

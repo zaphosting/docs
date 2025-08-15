@@ -4,7 +4,7 @@ title: "Impostor Among Us: Dashboard Overview"
 description: Information about the dashboard of an Impostor Among Us Server from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Dashboard
 services:
-  - gameserver
+  - gameserver-amongus
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';

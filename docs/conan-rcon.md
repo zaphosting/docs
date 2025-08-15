@@ -4,7 +4,7 @@ title: "Conan Exiles: RCON"
 description: "Learn how to use RCON for Conan Exiles - ZAP-Hosting Documentation"
 sidebar_label: RCON
 services:
-  - gameserver
+  - gameserver-conan
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';

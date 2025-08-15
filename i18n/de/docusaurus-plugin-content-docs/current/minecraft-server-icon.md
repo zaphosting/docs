@@ -4,7 +4,7 @@ title: "Minecraft: Server Icon hinzufügen oder ändern"
 description: Informationen, wie du ein Server Icon für deinen Minecraft Server von ZAP-Hosting hinzufügen oder ändern kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Server Icon
 services:
-  - gameserver
+  - gameserver-minecraft
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';

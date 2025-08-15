@@ -4,7 +4,7 @@ title: "RedM: RCON"
 description: "Learn how to use RCON for RedM - ZAP-Hosting Documentation"
 sidebar_label: RCON
 services:
-  - gameserver
+  - gameserver-redm
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';

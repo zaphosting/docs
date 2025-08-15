@@ -4,7 +4,7 @@ title: "Broke Protocol: Dashboard Übersicht"
 description: Informationen zum Dashboard eines Broke Protocol Server von ZAP-Hosting - ZAP-Hosting.com Dokumentationen
 sidebar_label: Dashboard
 services:
-  - gameserver
+  - gameserver-brokeprotocol
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';

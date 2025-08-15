@@ -4,7 +4,7 @@ title: "Abiotic Factor: Configure Crossplay Support and Learn How to Connect via
 description: Information about how to configurate crossplay support for an Abiotic Factor game server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Crossplay
 services:
-  - gameserver
+  - gameserver-abioticfactor
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

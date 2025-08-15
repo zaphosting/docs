@@ -4,7 +4,7 @@ title: "Foundry: Zum Server verbinden"
 description: Informationen über verschiedene Möglichkeiten, wie du dich mit deinem Foundry Server von ZAP-Hosting verbinden kannst - ZAP-Hosting Dokumentation
 sidebar_label: Zum Server verbinden
 services:
-  - gameserver
+  - gameserver-foundry
 ---
 
 import Tabs from '@theme/Tabs';

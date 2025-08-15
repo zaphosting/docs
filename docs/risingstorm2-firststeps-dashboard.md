@@ -4,7 +4,7 @@ title: "Rising Storm 2: Vietnam: Dashboard overview"
 description: "Information about the dashboard of an Rising Storm 2: Vietnam server from ZAP-Hosting - ZAP-Hosting.com Documentation"
 sidebar_label: Dashboard
 services:
-  - gameserver
+  - gameserver-risingstorm2
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';

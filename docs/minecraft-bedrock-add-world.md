@@ -4,7 +4,7 @@ title: "Minecraft Bedrock: Import own World"
 description: Information on how to import an own world into your Minecraft Bedrock Server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Import own World
 services:
-  - gameserver
+  - gameserver-minecraft
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

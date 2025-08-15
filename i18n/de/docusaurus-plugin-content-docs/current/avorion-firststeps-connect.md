@@ -4,7 +4,7 @@ title: "Avorion: Zum Server verbinden"
 description: Informationen über verschiedene Möglichkeiten, wie du dich mit deinem Avorion Server von ZAP-Hosting verbinden kannst - ZAP-Hosting Dokumentation
 sidebar_label: Zum Server verbinden
 services:
-  - gameserver
+  - gameserver-avorion
 ---
 
 import Tabs from '@theme/Tabs';

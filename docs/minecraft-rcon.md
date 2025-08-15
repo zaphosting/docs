@@ -4,7 +4,7 @@ title: "Minecraft: RCON"
 description: "Learn how to use RCON for Minecraft - ZAP-Hosting Documentation"
 sidebar_label: RCON
 services:
-  - gameserver
+  - gameserver-minecraft
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';

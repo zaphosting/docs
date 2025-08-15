@@ -4,7 +4,7 @@ title: "V Rising: Admin werden"
 description: Informationen, wie du Admin auf deinem V Rising Server bei ZAP-Hosting wirst - ZAP-Hosting.com Dokumentation
 sidebar_label: Admin werden
 services:
-  - gameserver
+  - gameserver-vrising
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

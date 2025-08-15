@@ -4,7 +4,7 @@ title: "Outlaws of the Old West: Häufige Probleme"
 description: "Informationen zur Behebung häufiger Probleme bei Outlaws of the Old West Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation"
 sidebar_label: Häufige Probleme
 services:
-  - gameserver
+  - gameserver-ootow
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

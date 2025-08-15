@@ -4,7 +4,7 @@ title: "Minecraft: Allgemeine Server-Befehle"
 description: Informationen zu allgemeinen Befehlen, die du auf deinen Minecraft-Server von ZAP-Hosting benutzen kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Allgemeine Befehle
 services:
-  - gameserver
+  - gameserver-minecraft
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

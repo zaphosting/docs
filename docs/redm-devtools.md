@@ -4,7 +4,7 @@ title: "RedM: Enable Dev Tools for extended debugging information"
 description: Informations on how to activate the RedM Developer Tools - ZAP-Hosting.com documentation
 sidebar_label: Enable Dev Tools
 services:
-  - gameserver
+  - gameserver-redm
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

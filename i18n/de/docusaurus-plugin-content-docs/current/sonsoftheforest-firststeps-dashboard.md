@@ -4,7 +4,7 @@ title: "Sons of the Forest: Dashboard Übersicht"
 description: Informationen zum Dashboard eines Sons of the Forest Server von ZAP-Hosting - ZAP-Hosting.com Dokumentationen
 sidebar_label: Dashboard
 services:
-  - gameserver
+  - gameserver-sonsoftheforest
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

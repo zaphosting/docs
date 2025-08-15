@@ -4,7 +4,7 @@ title: Become admin
 description: Information on how to become an admin on your Path of Titans server at ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Become admin
 services:
-  - gameserver
+  - gameserver-pathoftitans
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

@@ -4,7 +4,7 @@ title: "FiveM: SQL file import"
 description: Information on how to import SQL files into the database of your FiveM server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: SQL File Import
 services:
-  - gameserver
+  - gameserver-fivem
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

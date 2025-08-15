@@ -4,7 +4,7 @@ title: "RedM: txAdmin Interface"
 description: Übersicht zu den Einstellungsmöglichkeiten des TxAdmin Interfaces für RedM Gameserver von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: txAdmin Interface
 services:
-  - gameserver
+  - gameserver-redm
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

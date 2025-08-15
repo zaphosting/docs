@@ -4,7 +4,7 @@ title: "Factorio: RCON"
 description: "Learn how to use RCON for Factorio - ZAP-Hosting Documentation"
 sidebar_label: RCON
 services:
-  - gameserver
+  - gameserver-factorio
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';

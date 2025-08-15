@@ -4,7 +4,7 @@ title: "Last Oasis: Dashboard Overview"
 description: Information about the dashboard of a Last Oasis server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Dashboard
 services:
-  - gameserver
+  - gameserver-lastoasis
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';

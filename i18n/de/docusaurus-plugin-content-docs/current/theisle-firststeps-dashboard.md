@@ -4,7 +4,7 @@ title: "XY: Dashboard Übersicht"
 description: Informationen zum Dashboard eines XY Server von ZAP-Hosting - ZAP-Hosting.com Dokumentationen
 sidebar_label: Dashboard
 services:
-  - gameserver
+  - gameserver-theisle
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

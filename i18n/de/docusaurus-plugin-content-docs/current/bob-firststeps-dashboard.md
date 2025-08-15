@@ -4,7 +4,7 @@ title: "Beasts of Bermuda: Dashboard Übersicht"
 description: Informationen zum Dashboard eines Beasts of Bermuda Server von ZAP-Hosting - ZAP-Hosting.com Dokumentationen
 sidebar_label: Dashboard
 services:
-  - gameserver
+  - gameserver-bob
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';

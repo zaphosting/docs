@@ -4,7 +4,7 @@ title: "Sunkenland: Häufige Probleme"
 description: "Informationen zur Behebung häufiger Probleme bei Sunkenland Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation"
 sidebar_label: Häufige Probleme
 services:
-  - gameserver
+  - gameserver-sunkenland
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

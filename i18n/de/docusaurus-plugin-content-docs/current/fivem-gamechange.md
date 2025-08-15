@@ -4,7 +4,7 @@ title: "FiveM: Spielwechsel"
 description: Wechsel zwischen den FiveM Versionen
 sidebar_label: Spielwechsel
 services:
-  - gameserver
+  - gameserver-fivem
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

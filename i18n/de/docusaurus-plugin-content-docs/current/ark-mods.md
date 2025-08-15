@@ -4,7 +4,7 @@ title: "ARK: Mods installieren"
 description: Informationen, wie du Mods auf deinem ARK-Server von ZAP-Hosting installieren kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Mods installieren
 services:
-  - gameserver
+  - gameserver-ark
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

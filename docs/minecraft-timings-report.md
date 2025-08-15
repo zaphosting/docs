@@ -4,7 +4,7 @@ title: "Minecraft: Identify server problems with timings report"
 description: Information on how to identify lag problems on your Minecraft server with a timings report - ZAP-Hosting.com documentation
 sidebar_label: Timings-Report
 services:
-  - gameserver
+  - gameserver-minecraft
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

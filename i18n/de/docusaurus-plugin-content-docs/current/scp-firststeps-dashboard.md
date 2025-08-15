@@ -4,7 +4,7 @@ title: "SCP Secret Laboratory: Dashboard Übersicht"
 description: Informationen zum Dashboard eines SCP Secret Laboratory Vanilla Server von ZAP-Hosting - ZAP-Hosting.com Dokumentationen
 sidebar_label: Dashboard
 services:
-  - gameserver
+  - gameserver-scp
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';

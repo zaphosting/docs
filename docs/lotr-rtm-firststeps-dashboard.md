@@ -4,7 +4,7 @@ title: "The Lord of the Rings: Return to Moria: Dashboard Overview"
 description: "Information about the dashboard of an The Lord of the Rings: Return to Moria Server from ZAP-Hosting - ZAP-Hosting.com Documentation"
 sidebar_label: Dashboard
 services:
-  - gameserver
+  - gameserver-lotr-rtm
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';

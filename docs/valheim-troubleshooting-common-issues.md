@@ -4,7 +4,7 @@ title: "Valheim: Common issues"
 description: "Information on how to resolve common issues on a Valheim server from ZAP-Hosting - ZAP-Hosting.com documentation"
 sidebar_label: Common issues
 services:
-  - gameserver
+  - gameserver-valheim
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

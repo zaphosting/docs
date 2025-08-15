@@ -4,7 +4,7 @@ title: "Minecraft Bedrock: Addons installieren"
 description: Informationen zur Installation von Addons auf deinem Minecraft Bedrock Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Addons installieren
 services:
-  - gameserver
+  - gameserver-minecraft
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

@@ -4,7 +4,7 @@ title: "Abiotic Factor: Verwalten von Abiotic Factor-Savegames"
 description: Informationen über die Verwaltung von Savegames auf deinem Abiotic Factor Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Savegames verwalten
 services:
-  - gameserver
+  - gameserver-abioticfactor
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

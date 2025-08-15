@@ -4,7 +4,7 @@ title: "Astro Colony: Dashboard Overview"
 description: Information about the dashboard of an Astro Colony server from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Dashboard
 services:
-  - gameserver
+  - gameserver-astrocolony
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';

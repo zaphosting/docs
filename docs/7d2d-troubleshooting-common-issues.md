@@ -4,7 +4,7 @@ title: "7 Days to Die: Common issues"
 description: "Information on how to resolve common issues on a 7 Days to Die server from ZAP-Hosting - ZAP-Hosting.com documentation"
 sidebar_label: Common issues
 services:
-  - gameserver
+  - gameserver-7d2d
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

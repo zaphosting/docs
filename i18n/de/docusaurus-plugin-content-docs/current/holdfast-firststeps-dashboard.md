@@ -4,7 +4,7 @@ title: "Holdfast: Dashboard Übersicht"
 description: Informationen zum Dashboard eines Holdfast Server von ZAP-Hosting - ZAP-Hosting.com Dokumentationen
 sidebar_label: Dashboard
 services:
-  - gameserver
+  - gameserver-holdfast
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';

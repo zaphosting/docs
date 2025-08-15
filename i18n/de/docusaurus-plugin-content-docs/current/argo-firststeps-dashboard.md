@@ -4,7 +4,7 @@ title: "Argo: Dashboard Übersicht"
 description: Informationen zum Dashboard eines Argo Server von ZAP-Hosting - ZAP-Hosting.com Dokumentationen
 sidebar_label: Dashboard
 services:
-  - gameserver
+  - gameserver-argo
 ---
 
 

@@ -4,7 +4,7 @@ title: Server konfigurieren mit Content Manager
 description: Information, wie du deinen Assetto Corsa Server von ZAP-Hosting mittels des Content-Managers konfigurieren kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Server konfigurieren mit Content Manager
 services:
-  - gameserver
+  - gameserver-assettocorsa
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

@@ -4,7 +4,7 @@ title: ARK Survival Evolved Import own save file
 description: Information about importing a save file to your ARK Survival Evolved game server - ZAP-Hosting.com documentation
 sidebar_label: Importing save file
 services:
-  - gameserver
+  - gameserver-ark
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';

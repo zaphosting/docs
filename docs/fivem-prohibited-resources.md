@@ -4,7 +4,7 @@ title: "FiveM: 'Resource contains prohibited logic?'"
 description: Information about the error "Resource contains prohibited logic" on a FiveM server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Resource contains prohibited logic
 services:
-  - gameserver
+  - gameserver-fivem
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

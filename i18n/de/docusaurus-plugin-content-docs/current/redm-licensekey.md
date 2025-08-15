@@ -4,7 +4,7 @@ title: "RedM: Benutzerdefinierten Lizenzschlüssel hinzufügen"
 description: Informationen zur Erstellung eines benutzerdefinierten Lizenzschlüssels und zum Hinzufügen zu deinem RedM-Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Eigener Lizenzschlüssel
 services:
-  - gameserver
+  - gameserver-redm
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

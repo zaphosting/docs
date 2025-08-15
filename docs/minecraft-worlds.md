@@ -4,7 +4,7 @@ title: "Minecraft: Manage world saves"
 description: Information on how to manage, convert and generate world saves on your Minecraft server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Manage Worlds
 services:
-  - gameserver
+  - gameserver-minecraft
 ---
 
 import Tabs from '@theme/Tabs';

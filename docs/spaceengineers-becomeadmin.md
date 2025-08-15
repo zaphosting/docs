@@ -4,7 +4,7 @@ title: "Space Engineers: Become a server admin"
 description: Information on how to become an admin on your Space Engineers server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Become admin
 services:
-  - gameserver
+  - gameserver-spaceengineers
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

@@ -4,7 +4,7 @@ title: "Team Fortress 2: Common issues"
 description: "Information on how to resolve common issues on a Team Fortress 2 server from ZAP-Hosting - ZAP-Hosting.com documentation"
 sidebar_label: Common issues
 services:
-  - gameserver
+  - gameserver-tf2
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

@@ -4,7 +4,7 @@ title: "Terratech Worlds: Dashboard Übersicht"
 description: Informationen zum Dashboard eines TerraTech Worlds Server von ZAP-Hosting - ZAP-Hosting.com Dokumentationen
 sidebar_label: Dashboard
 services:
-  - gameserver
+  - gameserver-terratech-worlds
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';

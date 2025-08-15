@@ -3,7 +3,7 @@ id: satisfactory-connect
 title: "Satisfactory: Connect to the Server"
 sidebar_label: Connect to the Server
 services:
-  - gameserver
+  - gameserver-satisfactory
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';

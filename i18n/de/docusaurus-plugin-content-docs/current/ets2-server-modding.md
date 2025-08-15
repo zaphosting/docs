@@ -4,7 +4,7 @@ title: "ETS2: Installiere Mods/DLCs auf deinem ETS2-Server"
 description: Informationen darüber, wie du Mods und DLCs auf deinem Euro Truck Simulator 2 (ETS2) Server oder Spielclient von ZAP-Hosting installierst - ZAP-Hosting.com Dokumentation
 sidebar_label: Mods/DLCs installieren
 services:
-  - gameserver
+  - gameserver-ets2
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

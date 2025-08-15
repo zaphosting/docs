@@ -4,7 +4,7 @@ title: "Banana Shooter: Common issues"
 description: "Information on how to resolve common issues on a Banana Shooter server from ZAP-Hosting - ZAP-Hosting.com documentation"
 sidebar_label: Common issues
 services:
-  - gameserver
+  - gameserver-bananashooter
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

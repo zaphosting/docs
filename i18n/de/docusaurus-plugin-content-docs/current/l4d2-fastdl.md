@@ -3,6 +3,8 @@ id: l4d2-fastdl
 title: "Left 4 Dead 2: FastDL einrichten"
 description: "Anleitung zur Einrichtung von FastDL mit Webspace für Left 4 Dead 2 Server bei ZAP-Hosting - ZAP-Hosting Dokumentation"
 sidebar_label: FastDL
+services:
+  - gameserver-l4d2
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

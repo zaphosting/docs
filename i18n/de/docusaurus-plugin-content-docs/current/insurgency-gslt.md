@@ -4,7 +4,7 @@ title: "Insurgency:  GSLT erstellen (Steam Game Server Login Token)"
 description: "Informationen zur Erstellung und Verwendung von GSLT für Insurgency Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation"
 sidebar_label: GSLT erstellen
 services:
-  - gameserver
+  - gameserver-insurgency
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

@@ -4,7 +4,7 @@ title: "Counter-Strike 1.6: Common issues"
 description: "Information on how to resolve common issues on a Counter-Strike 1.6 server from ZAP-Hosting - ZAP-Hosting.com documentation"
 sidebar_label: Common issues
 services:
-  - gameserver
+  - gameserver-cs16
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

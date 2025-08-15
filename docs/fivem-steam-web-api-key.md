@@ -4,7 +4,7 @@ title: "FiveM: Steam Web API Key setup"
 description: Information on setting up a Steam Web API key from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Steam Web API Key
 services:
-  - gameserver
+  - gameserver-fivem
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

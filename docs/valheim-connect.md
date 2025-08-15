@@ -4,7 +4,7 @@ title: "Valheim: Connecting to Valheim servers"
 description: Information on how to connect to your Valheim server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Connect to a Server
 services:
-  - gameserver
+  - gameserver-valheim
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

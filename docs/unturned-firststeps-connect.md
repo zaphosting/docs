@@ -4,7 +4,7 @@ title: "Unturned: Connect to the server"
 description: Information about various ways on how to connect to your Unturned server from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Connect to the server
 services:
-  - gameserver
+  - gameserver-unturned
 ---
 
 import Tabs from '@theme/Tabs';

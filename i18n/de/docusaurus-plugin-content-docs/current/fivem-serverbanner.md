@@ -4,7 +4,7 @@ title: "FiveM: Konfiguriere dein eigenen Server-Banner"
 description: Informationen zur Konfiguration eines eigenen Serverbanners für deinen FiveM Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Server-Banner konfigurieren
 services:
-  - gameserver
+  - gameserver-fivem
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

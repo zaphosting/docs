@@ -4,7 +4,7 @@ title: "Minecraft: Server Welten verwalten"
 description: Hier erfährst du, wie du mit ZAP-Hosting Welt-Saves auf deinem Minecraft-Server verwalten, konvertieren und erstellen kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Welten verwalten
 services:
-  - gameserver
+  - gameserver-minecraft
 ---
 
 import Tabs from '@theme/Tabs';

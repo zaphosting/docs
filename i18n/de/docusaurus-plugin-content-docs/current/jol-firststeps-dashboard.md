@@ -4,7 +4,7 @@ title: "Journey of Life: Dashboard Übersicht"
 description: Informationen zum Dashboard eines Journey of Life Server von ZAP-Hosting - ZAP-Hosting.com Dokumentationen
 sidebar_label: Dashboard
 services:
-  - gameserver
+  - gameserver-jol
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

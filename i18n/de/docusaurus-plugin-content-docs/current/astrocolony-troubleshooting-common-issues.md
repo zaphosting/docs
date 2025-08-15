@@ -4,7 +4,7 @@ title: "Astro Colony: Häufige Probleme"
 description: "Informationen zur Behebung häufiger Probleme bei Astro Colony Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation"
 sidebar_label: Häufige Probleme
 services:
-  - gameserver
+  - gameserver-astrocolony
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

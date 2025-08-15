@@ -4,7 +4,7 @@ title: "Valheim: Enable automated backups for servers"
 description: Information on how to enable and set up automated backups for your Valheim server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Automated Backups
 services:
-  - gameserver
+  - gameserver-valheim
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

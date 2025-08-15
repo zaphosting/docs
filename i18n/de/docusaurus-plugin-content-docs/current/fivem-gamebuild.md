@@ -4,7 +4,7 @@ title: "FiveM: DLC-Inhalte aktivieren"
 description: Informationen zur Aktivierung eines DLC Game Builds für FiveM Server - ZAP-Hosting.com - Dokumentation
 sidebar_label: DLC-Inhalte aktivieren
 services:
-  - gameserver
+  - gameserver-fivem
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

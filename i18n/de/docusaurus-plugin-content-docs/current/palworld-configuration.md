@@ -4,7 +4,7 @@ title: "Palworld: Palworld Server-Konfiguration"
 description: Informationen zur Konfiguration eines Palworld Gameservers von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Server Konfiguration
 services:
-  - gameserver
+  - gameserver-palworld
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';

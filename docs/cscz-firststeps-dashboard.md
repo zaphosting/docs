@@ -4,7 +4,7 @@ title: "Counter-Strike: Condition Zero: Dashboard Overview"
 description: "Information about the dashboard of an Counter-Strike: Condition Zero server from ZAP-Hosting - ZAP-Hosting.com Documentation"
 sidebar_label: Dashboard
 services:
-  - gameserver
+  - gameserver-css-cscz
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

@@ -4,7 +4,7 @@ title: "Conan Exiles: Dashboard Overview"
 description: Information about the dashboard of an Conan Exiles Server from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Dashboard
 services:
-  - gameserver
+  - gameserver-conan
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';

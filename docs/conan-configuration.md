@@ -4,7 +4,7 @@ title: "Conan Exiles: Configure your own server"
 description: Information on how to configure your Conan Exiles server from ZAP-Hosting via the web interface - ZAP-Hosting.com documentation
 sidebar_label: Server Configuration
 services:
-  - gameserver
+  - gameserver-conan
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

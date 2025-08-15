@@ -4,7 +4,7 @@ title: "Palworld: RCON"
 description: "Learn how to use RCON for Palworld - ZAP-Hosting Documentation"
 sidebar_label: RCON
 services:
-  - gameserver
+  - gameserver-palworld
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';

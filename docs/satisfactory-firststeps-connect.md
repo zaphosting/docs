@@ -4,7 +4,7 @@ title: "Satisfactory: Connect to the Server"
 description: Information about connecting to a Satisfactory Server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Connect to server
 services:
-  - gameserver
+  - gameserver-satisfactory
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

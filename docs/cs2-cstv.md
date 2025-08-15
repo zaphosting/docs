@@ -4,7 +4,7 @@ title: "CS2: CSTV "
 description:  Information about CSTV for CS2 Server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: CSTV
 services:
-  - gameserver
+  - gameserver-cs2
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

@@ -4,7 +4,7 @@ title: "VEIN: Dashboard Übersicht"
 description: Informationen zum Dashboard eines Vein Server von ZAP-Hosting - ZAP-Hosting.com Dokumentationen
 sidebar_label: Dashboard
 services:
-  - gameserver
+  - gameserver-vein
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';

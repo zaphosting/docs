@@ -4,7 +4,7 @@ title: "Assetto Corsa Competizione: Zum Server verbinden"
 description: Informationen über verschiedene Möglichkeiten, wie du dich mit deinem Assetto Corsa Competizione Server von ZAP-Hosting verbinden kannst - ZAP-Hosting Dokumentation
 sidebar_label: Zum Server verbinden
 services:
-  - gameserver
+  - gameserver-assetto-competizione
 ---
 
 import Tabs from '@theme/Tabs';

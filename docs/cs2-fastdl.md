@@ -4,7 +4,7 @@ title: "Counter-Strike 2: Setting up FastDL"
 description: "How to set up FastDL with webspace for Counter-Strike 2 servers at ZAP-Hosting - ZAP-Hosting Documentation"
 sidebar_label: FastDL
 services:
-  - gameserver
+  - gameserver-cs2
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

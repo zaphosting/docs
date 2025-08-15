@@ -144,7 +144,7 @@ const servicesMap: serviceMap = {
     },
         'gameserver-7d2d': {
         title: translate({
-            message: 'Cloud-Gameserver (7 Days to Die)',
+            message: '7 Days to Die Gameserver',
             id: 'service.gameserver-7d2d.title',
             description: 'Product name for the gameserver product',
         }),
@@ -156,7 +156,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-abioticfactor': {
         title: translate({
-            message: 'Cloud-Gameserver (Abiotic Factor)',
+            message: 'Abiotic Factor Gameserver',
             id: 'service.gameserver-abioticfactor.title',
             description: 'Product name for the gameserver product',
         }),
@@ -168,7 +168,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-afterinfection': {
         title: translate({
-            message: 'Cloud-Gameserver (Afterinfection)',
+            message: 'Afterinfection Gameserver',
             id: 'service.gameserver-afterinfection.title',
             description: 'Product name for the gameserver product',
         }),
@@ -180,7 +180,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-amongus': {
         title: translate({
-            message: 'Cloud-Gameserver (Among Us)',
+            message: 'Among Us Gameserver',
             id: 'service.gameserver-amongus.title',
             description: 'Product name for the gameserver product',
         }),
@@ -192,7 +192,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-animalia-survival': {
         title: translate({
-            message: 'Cloud-Gameserver (Animalia Survival)',
+            message: 'Animalia Survival Gameserver',
             id: 'service.gameserver-animalia-survival.title',
             description: 'Product name for the gameserver product',
         }),
@@ -204,7 +204,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-argo': {
         title: translate({
-            message: 'Cloud-Gameserver (Argo)',
+            message: 'Argo Gameserver',
             id: 'service.gameserver-argo.title',
             description: 'Product name for the gameserver product',
         }),
@@ -216,7 +216,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-ark': {
         title: translate({
-            message: 'Cloud-Gameserver (ARK: Survival Evolved)',
+            message: 'ARK: Survival Evolved Gameserver',
             id: 'service.gameserver-ark.title',
             description: 'Product name for the gameserver product',
         }),
@@ -228,7 +228,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-arma3': {
         title: translate({
-            message: 'Cloud-Gameserver (Arma 3)',
+            message: 'Arma 3 Gameserver',
             id: 'service.gameserver-arma3.title',
             description: 'Product name for the gameserver product',
         }),
@@ -240,7 +240,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-arma-reforger': {
         title: translate({
-            message: 'Cloud-Gameserver (Arma Reforger)',
+            message: 'Arma Reforger Gameserver',
             id: 'service.gameserver-arma-reforger.title',
             description: 'Product name for the gameserver product',
         }),
@@ -252,7 +252,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-assettocorsa': {
         title: translate({
-            message: 'Cloud-Gameserver (Assetto Corsa)',
+            message: 'Assetto Corsa Gameserver',
             id: 'service.gameserver-assettocorsa.title',
             description: 'Product name for the gameserver product',
         }),
@@ -264,7 +264,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-assetto-competizione': {
         title: translate({
-            message: 'Cloud-Gameserver (Assetto Corsa Competizione)',
+            message: 'Assetto Corsa Competizione Gameserver',
             id: 'service.gameserver-assetto-competizione.title',
             description: 'Product name for the gameserver product',
         }),
@@ -276,7 +276,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-astrocolony': {
         title: translate({
-            message: 'Cloud-Gameserver (Astro Colony)',
+            message: 'Astro Colony Gameserver',
             id: 'service.gameserver-astrocolony.title',
             description: 'Product name for the gameserver product',
         }),
@@ -288,7 +288,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-astroneer': {
         title: translate({
-            message: 'Cloud-Gameserver (ASTRONEER)',
+            message: 'ASTRONEER Gameserver',
             id: 'service.gameserver-astroneer.title',
             description: 'Product name for the gameserver product',
         }),
@@ -300,7 +300,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-avorion': {
         title: translate({
-            message: 'Cloud-Gameserver (Avorion)',
+            message: 'Avorion Gameserver',
             id: 'service.gameserver-avorion.title',
             description: 'Product name for the gameserver product',
         }),
@@ -312,7 +312,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-ats': {
         title: translate({
-            message: 'Cloud-Gameserver (American Truck Simulator)',
+            message: 'American Truck Simulator Gameserver',
             id: 'service.gameserver-ats.title',
             description: 'Product name for the gameserver product',
         }),
@@ -324,7 +324,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-bananashooter': {
         title: translate({
-            message: 'Cloud-Gameserver (Banana Shooter)',
+            message: 'Banana Shooter Gameserver',
             id: 'service.gameserver-bananashooter.title',
             description: 'Product name for the gameserver product',
         }),
@@ -336,7 +336,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-barotrauma': {
         title: translate({
-            message: 'Cloud-Gameserver (Barotrauma)',
+            message: 'Barotrauma Gameserver',
             id: 'service.gameserver-barotrauma.title',
             description: 'Product name for the gameserver product',
         }),
@@ -348,7 +348,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-battalion1944': {
         title: translate({
-            message: 'Cloud-Gameserver (Battalion 1944)',
+            message: 'Battalion 1944 Gameserver',
             id: 'service.gameserver-battalion1944.title',
             description: 'Product name for the gameserver product',
         }),
@@ -360,7 +360,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-battlegrounds3': {
         title: translate({
-            message: 'Cloud-Gameserver (Battle Grounds III)',
+            message: 'Battle Grounds III Gameserver',
             id: 'service.gameserver-battlegrounds3.title',
             description: 'Product name for the gameserver product',
         }),
@@ -372,7 +372,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-beammp': {
         title: translate({
-            message: 'Cloud-Gameserver (BeamMP)',
+            message: 'BeamMP Gameserver',
             id: 'service.gameserver-beammp.title',
             description: 'Product name for the gameserver product',
         }),
@@ -384,7 +384,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-bob': {
         title: translate({
-            message: 'Cloud-Gameserver (Beasts of Bermuda)',
+            message: 'Beasts of Bermuda Gameserver',
             id: 'service.gameserver-bob.title',
             description: 'Product name for the gameserver product',
         }),
@@ -396,7 +396,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-beyondthewire': {
         title: translate({
-            message: 'Cloud-Gameserver (Beyond the Wire)',
+            message: 'Beyond the Wire Gameserver',
             id: 'service.gameserver-beyondthewire.title',
             description: 'Product name for the gameserver product',
         }),
@@ -408,7 +408,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-brokeprotocol': {
         title: translate({
-            message: 'Cloud-Gameserver (Broke Protocol)',
+            message: 'Broke Protocol Gameserver',
             id: 'service.gameserver-brokeprotocol.title',
             description: 'Product name for the gameserver product',
         }),
@@ -420,7 +420,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-citadel-forgedwithfire': {
         title: translate({
-            message: 'Cloud-Gameserver (Citadel: Forged With Fire)',
+            message: 'Citadel: Forged With Fire Gameserver',
             id: 'service.gameserver-citadel-forgedwithfire.title',
             description: 'Product name for the gameserver product',
         }),
@@ -432,7 +432,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-colonysurvival': {
         title: translate({
-            message: 'Cloud-Gameserver (Colony Survival)',
+            message: 'Colony Survival Gameserver',
             id: 'service.gameserver-colonysurvival.title',
             description: 'Product name for the gameserver product',
         }),
@@ -444,7 +444,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-conan': {
         title: translate({
-            message: 'Cloud-Gameserver (Conan Exiles)',
+            message: 'Conan Exiles Gameserver',
             id: 'service.gameserver-conan.title',
             description: 'Product name for the gameserver product',
         }),
@@ -456,7 +456,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-contagion': {
         title: translate({
-            message: 'Cloud-Gameserver (Contagion)',
+            message: 'Contagion Gameserver',
             id: 'service.gameserver-contagion.title',
             description: 'Product name for the gameserver product',
         }),
@@ -468,7 +468,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-corekeeper': {
         title: translate({
-            message: 'Cloud-Gameserver (Core Keeper)',
+            message: 'Core Keeper Gameserver',
             id: 'service.gameserver-corekeeper.title',
             description: 'Product name for the gameserver product',
         }),
@@ -480,7 +480,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-craftopia': {
         title: translate({
-            message: 'Cloud-Gameserver (Craftopia)',
+            message: 'Craftopia Gameserver',
             id: 'service.gameserver-craftopia.title',
             description: 'Product name for the gameserver product',
         }),
@@ -492,7 +492,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-cryofall': {
         title: translate({
-            message: 'Cloud-Gameserver (Cryofall)',
+            message: 'Cryofall Gameserver',
             id: 'service.gameserver-cryofall.title',
             description: 'Product name for the gameserver product',
         }),
@@ -504,7 +504,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-cs16': {
         title: translate({
-            message: 'Cloud-Gameserver (Counter-Strike 1.6)',
+            message: 'Counter-Strike 1.6 Gameserver',
             id: 'service.gameserver-cs16.title',
             description: 'Product name for the gameserver product',
         }),
@@ -516,7 +516,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-cs2': {
         title: translate({
-            message: 'Cloud-Gameserver (Counter-Strike 2)',
+            message: 'Counter-Strike 2 Gameserver',
             id: 'service.gameserver-cs2.title',
             description: 'Product name for the gameserver product',
         }),
@@ -528,7 +528,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-css': {
         title: translate({
-            message: 'Cloud-Gameserver (Counter-Strike: Source)',
+            message: 'Counter-Strike: Source Gameserver',
             id: 'service.gameserver-css.title',
             description: 'Product name for the gameserver product',
         }),
@@ -540,7 +540,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-dayofinfamy': {
         title: translate({
-            message: 'Cloud-Gameserver (Day of Infamy)',
+            message: 'Day of Infamy Gameserver',
             id: 'service.gameserver-dayofinfamy.title',
             description: 'Product name for the gameserver product',
         }),
@@ -552,7 +552,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-dayz': {
         title: translate({
-            message: 'Cloud-Gameserver (DayZ)',
+            message: 'DayZ Gameserver',
             id: 'service.gameserver-dayz.title',
             description: 'Product name for the gameserver product',
         }),
@@ -564,7 +564,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-ddracenetwork': {
         title: translate({
-            message: 'Cloud-Gameserver (DDraceNetwork)',
+            message: 'DDraceNetwork Gameserver',
             id: 'service.gameserver-ddracenetwork.title',
             description: 'Product name for the gameserver product',
         }),
@@ -576,7 +576,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-deadlock': {
         title: translate({
-            message: 'Cloud-Gameserver (Deadlock)',
+            message: 'Deadlock Gameserver',
             id: 'service.gameserver-deadlock.title',
             description: 'Product name for the gameserver product',
         }),
@@ -588,7 +588,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-deadpoly': {
         title: translate({
-            message: 'Cloud-Gameserver (DeadPoly)',
+            message: 'DeadPoly Gameserver',
             id: 'service.gameserver-deadpoly.title',
             description: 'Product name for the gameserver product',
         }),
@@ -600,7 +600,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-dods': {
         title: translate({
-            message: 'Cloud-Gameserver (Day of Defeat: Source)',
+            message: 'Day of Defeat: Source Gameserver',
             id: 'service.gameserver-dods.title',
             description: 'Product name for the gameserver product',
         }),
@@ -612,7 +612,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-dst': {
         title: translate({
-            message: 'Cloud-Gameserver (Don\'t Starve Together)',
+            message: 'Don\'t Starve Together Gameserver',
             id: 'service.gameserver-dst.title',
             description: 'Product name for the gameserver product',
         }),
@@ -624,7 +624,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-eco': {
         title: translate({
-            message: 'Cloud-Gameserver (ECO)',
+            message: 'ECO Gameserver',
             id: 'service.gameserver-eco.title',
             description: 'Product name for the gameserver product',
         }),
@@ -636,7 +636,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-empyrion': {
         title: translate({
-            message: 'Cloud-Gameserver (Empyrion)',
+            message: 'Empyrion Gameserver',
             id: 'service.gameserver-empyrion.title',
             description: 'Product name for the gameserver product',
         }),
@@ -648,7 +648,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-enshrouded': {
         title: translate({
-            message: 'Cloud-Gameserver (Enshrouded)',
+            message: 'Enshrouded Gameserver',
             id: 'service.gameserver-enshrouded.title',
             description: 'Product name for the gameserver product',
         }),
@@ -660,7 +660,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-ets2': {
         title: translate({
-            message: 'Cloud-Gameserver (Euro Truck Simulator 2)',
+            message: 'Euro Truck Simulator 2 Gameserver',
             id: 'service.gameserver-ets2.title',
             description: 'Product name for the gameserver product',
         }),
@@ -672,7 +672,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-factorio': {
         title: translate({
-            message: 'Cloud-Gameserver (Factorio)',
+            message: 'Factorio Gameserver',
             id: 'service.gameserver-factorio.title',
             description: 'Product name for the gameserver product',
         }),
@@ -684,7 +684,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-fivem': {
         title: translate({
-            message: 'Cloud-Gameserver (FiveM)',
+            message: 'FiveM Gameserver',
             id: 'service.gameserver-fivem.title',
             description: 'Product name for the gameserver product',
         }),
@@ -696,7 +696,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-foundry': {
         title: translate({
-            message: 'Cloud-Gameserver (Foundry)',
+            message: 'Foundry Gameserver',
             id: 'service.gameserver-foundry.title',
             description: 'Product name for the gameserver product',
         }),
@@ -708,7 +708,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-gmod': {
         title: translate({
-            message: 'Cloud-Gameserver (Garry\'s Mod)',
+            message: 'Garry\'s Mod Gameserver',
             id: 'service.gameserver-gmod.title',
             description: 'Product name for the gameserver product',
         }),
@@ -720,7 +720,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-groundbranch': {
         title: translate({
-            message: 'Cloud-Gameserver (Ground Branch)',
+            message: 'Ground Branch Gameserver',
             id: 'service.gameserver-groundbranch.title',
             description: 'Product name for the gameserver product',
         }),
@@ -732,7 +732,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-hl1': {
         title: translate({
-            message: 'Cloud-Gameserver (Half-Life 1)',
+            message: 'Half-Life 1 Gameserver',
             id: 'service.gameserver-hl1.title',
             description: 'Product name for the gameserver product',
         }),
@@ -744,7 +744,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-hl2': {
         title: translate({
-            message: 'Cloud-Gameserver (Half-Life 2)',
+            message: 'Half-Life 2 Gameserver',
             id: 'service.gameserver-hl2.title',
             description: 'Product name for the gameserver product',
         }),
@@ -756,7 +756,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-holdfast': {
         title: translate({
-            message: 'Cloud-Gameserver (Holdfast: Nations At War)',
+            message: 'Holdfast: Nations At War Gameserver',
             id: 'service.gameserver-holdfast.title',
             description: 'Product name for the gameserver product',
         }),
@@ -768,7 +768,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-humanitz': {
         title: translate({
-            message: 'Cloud-Gameserver (HumanitZ)',
+            message: 'HumanitZ Gameserver',
             id: 'service.gameserver-humanitz.title',
             description: 'Product name for the gameserver product',
         }),
@@ -780,7 +780,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-hurtworld': {
         title: translate({
-            message: 'Cloud-Gameserver (Hurtworld)',
+            message: 'Hurtworld Gameserver',
             id: 'service.gameserver-hurtworld.title',
             description: 'Product name for the gameserver product',
         }),
@@ -792,7 +792,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-icarus': {
         title: translate({
-            message: 'Cloud-Gameserver (Icarus)',
+            message: 'Icarus Gameserver',
             id: 'service.gameserver-icarus.title',
             description: 'Product name for the gameserver product',
         }),
@@ -804,7 +804,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-insurgency': {
         title: translate({
-            message: 'Cloud-Gameserver (Insurgency: Sandstorm)',
+            message: 'Insurgency: Sandstorm Gameserver',
             id: 'service.gameserver-insurgency.title',
             description: 'Product name for the gameserver product',
         }),
@@ -816,7 +816,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-ironarmada': {
         title: translate({
-            message: 'Cloud-Gameserver (Iron Armada)',
+            message: 'Iron Armada Gameserver',
             id: 'service.gameserver-ironarmada.title',
             description: 'Product name for the gameserver product',
         }),
@@ -828,7 +828,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-jol': {
         title: translate({
-            message: 'Cloud-Gameserver (Journey of Life)',
+            message: 'Journey of Life Gameserver',
             id: 'service.gameserver-jol.title',
             description: 'Product name for the gameserver product',
         }),
@@ -840,7 +840,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-killingfloor2': {
         title: translate({
-            message: 'Cloud-Gameserver (Killing Floor 2)',
+            message: 'Killing Floor 2 Gameserver',
             id: 'service.gameserver-killingfloor2.title',
             description: 'Product name for the gameserver product',
         }),
@@ -852,7 +852,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-lastoasis': {
         title: translate({
-            message: 'Cloud-Gameserver (Last Oasis)',
+            message: 'Last Oasis Gameserver',
             id: 'service.gameserver-lastoasis.title',
             description: 'Product name for the gameserver product',
         }),
@@ -864,7 +864,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-leap': {
         title: translate({
-            message: 'Cloud-Gameserver (Leap)',
+            message: 'Leap Gameserver',
             id: 'service.gameserver-leap.title',
             description: 'Product name for the gameserver product',
         }),
@@ -876,7 +876,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-l4d2': {
         title: translate({
-            message: 'Cloud-Gameserver (Left 4 Dead 2)',
+            message: 'Left 4 Dead 2 Gameserver',
             id: 'service.gameserver-l4d2.title',
             description: 'Product name for the gameserver product',
         }),
@@ -888,7 +888,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-longvinter': {
         title: translate({
-            message: 'Cloud-Gameserver (Longvinter)',
+            message: 'Longvinter Gameserver',
             id: 'service.gameserver-longvinter.title',
             description: 'Product name for the gameserver product',
         }),
@@ -900,7 +900,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-minecraft': {
         title: translate({
-            message: 'Cloud-Gameserver (Minecraft)',
+            message: 'Minecraft Gameserver',
             id: 'service.gameserver-minecraft.title',
             description: 'Product name for the gameserver product',
         }),
@@ -912,7 +912,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-minetest': {
         title: translate({
-            message: 'Cloud-Gameserver (Minetest)',
+            message: 'Minetest Gameserver',
             id: 'service.gameserver-minetest.title',
             description: 'Product name for the gameserver product',
         }),
@@ -924,7 +924,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-miscreated': {
         title: translate({
-            message: 'Cloud-Gameserver (Miscreated)',
+            message: 'Miscreated Gameserver',
             id: 'service.gameserver-miscreated.title',
             description: 'Product name for the gameserver product',
         }),
@@ -936,7 +936,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-motortown': {
         title: translate({
-            message: 'Cloud-Gameserver (Motor Town: Behind The Wheel)',
+            message: 'Motor Town: Behind The Wheel Gameserver',
             id: 'service.gameserver-motortown.title',
             description: 'Product name for the gameserver product',
         }),
@@ -948,7 +948,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-mountandblade': {
         title: translate({
-            message: 'Cloud-Gameserver (Mount & Blade)',
+            message: 'Mount & Blade Gameserver',
             id: 'service.gameserver-mountandblade.title',
             description: 'Product name for the gameserver product',
         }),
@@ -960,7 +960,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-mta': {
         title: translate({
-            message: 'Cloud-Gameserver (Multi Theft Auto)',
+            message: 'Multi Theft Auto Gameserver',
             id: 'service.gameserver-mta.title',
             description: 'Product name for the gameserver product',
         }),
@@ -972,7 +972,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-moe': {
         title: translate({
-            message: 'Cloud-Gameserver (Myth of Empires)',
+            message: 'Myth of Empires Gameserver',
             id: 'service.gameserver-moe.title',
             description: 'Product name for the gameserver product',
         }),
@@ -984,7 +984,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-necesse': {
         title: translate({
-            message: 'Cloud-Gameserver (Necesse)',
+            message: 'Necesse Gameserver',
             id: 'service.gameserver-necesse.title',
             description: 'Product name for the gameserver product',
         }),
@@ -996,7 +996,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-nstp': {
         title: translate({
-            message: 'Cloud-Gameserver (Never Split the Party)',
+            message: 'Never Split the Party Gameserver',
             id: 'service.gameserver-nstp.title',
             description: 'Product name for the gameserver product',
         }),
@@ -1008,7 +1008,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-nienix': {
         title: translate({
-            message: 'Cloud-Gameserver (Nienix)',
+            message: 'Nienix Gameserver',
             id: 'service.gameserver-nienix.title',
             description: 'Product name for the gameserver product',
         }),
@@ -1020,7 +1020,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-nmrih': {
         title: translate({
-            message: 'Cloud-Gameserver (No More Room In Hell)',
+            message: 'No More Room In Hell Gameserver',
             id: 'service.gameserver-nmrih.title',
             description: 'Product name for the gameserver product',
         }),
@@ -1032,7 +1032,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-noonesurvived': {
         title: translate({
-            message: 'Cloud-Gameserver (No One Survived)',
+            message: 'No One Survived Gameserver',
             id: 'service.gameserver-noonesurvived.title',
             description: 'Product name for the gameserver product',
         }),
@@ -1044,7 +1044,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-ohol': {
         title: translate({
-            message: 'Cloud-Gameserver (One Hour One Life)',
+            message: 'One Hour One Life Gameserver',
             id: 'service.gameserver-ohol.title',
             description: 'Product name for the gameserver product',
         }),
@@ -1056,7 +1056,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-openmp': {
         title: translate({
-            message: 'Cloud-Gameserver (Open.mp)',
+            message: 'Open.mp Gameserver',
             id: 'service.gameserver-openmp.title',
             description: 'Product name for the gameserver product',
         }),
@@ -1068,7 +1068,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-openttd': {
         title: translate({
-            message: 'Cloud-Gameserver (OpenTTD)',
+            message: 'OpenTTD Gameserver',
             id: 'service.gameserver-openttd.title',
             description: 'Product name for the gameserver product',
         }),
@@ -1080,7 +1080,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-ohd': {
         title: translate({
-            message: 'Cloud-Gameserver (Operation: Harsh Doorstop)',
+            message: 'Operation: Harsh Doorstop Gameserver',
             id: 'service.gameserver-ohd.title',
             description: 'Product name for the gameserver product',
         }),
@@ -1092,7 +1092,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-ootow': {
         title: translate({
-            message: 'Cloud-Gameserver (Outlaws of the Old West)',
+            message: 'Outlaws of the Old West Gameserver',
             id: 'service.gameserver-ootow.title',
             description: 'Product name for the gameserver product',
         }),
@@ -1104,7 +1104,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-palworld': {
         title: translate({
-            message: 'Cloud-Gameserver (Palworld)',
+            message: 'Palworld Gameserver',
             id: 'service.gameserver-palworld.title',
             description: 'Product name for the gameserver product',
         }),
@@ -1116,7 +1116,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-pathoftitans': {
         title: translate({
-            message: 'Cloud-Gameserver (Path of Titans)',
+            message: 'Path of Titans Gameserver',
             id: 'service.gameserver-pathoftitans.title',
             description: 'Product name for the gameserver product',
         }),
@@ -1128,7 +1128,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-pixark': {
         title: translate({
-            message: 'Cloud-Gameserver (PixARK)',
+            message: 'PixARK Gameserver',
             id: 'service.gameserver-pixark.title',
             description: 'Product name for the gameserver product',
         }),
@@ -1140,7 +1140,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-portalknights': {
         title: translate({
-            message: 'Cloud-Gameserver (Portal Knights)',
+            message: 'Portal Knights Gameserver',
             id: 'service.gameserver-portalknights.title',
             description: 'Product name for the gameserver product',
         }),
@@ -1152,7 +1152,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-projectzomboid': {
         title: translate({
-            message: 'Cloud-Gameserver (Project Zomboid)',
+            message: 'Project Zomboid Gameserver',
             id: 'service.gameserver-projectzomboid.title',
             description: 'Product name for the gameserver product',
         }),
@@ -1164,7 +1164,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-redm': {
         title: translate({
-            message: 'Cloud-Gameserver (RedM)',
+            message: 'RedM Gameserver',
             id: 'service.gameserver-redm.title',
             description: 'Product name for the gameserver product',
         }),
@@ -1176,7 +1176,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-reignofkings': {
         title: translate({
-            message: 'Cloud-Gameserver (Reign of Kings)',
+            message: 'Reign of Kings Gameserver',
             id: 'service.gameserver-reignofkings.title',
             description: 'Product name for the gameserver product',
         }),
@@ -1188,7 +1188,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-rimworldtogether': {
         title: translate({
-            message: 'Cloud-Gameserver (RimWorld Together)',
+            message: 'RimWorld Together Gameserver',
             id: 'service.gameserver-rimworldtogether.title',
             description: 'Product name for the gameserver product',
         }),
@@ -1200,7 +1200,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-risingstorm2': {
         title: translate({
-            message: 'Cloud-Gameserver (Rising Storm 2)',
+            message: 'Rising Storm 2 Gameserver',
             id: 'service.gameserver-risingstorm2.title',
             description: 'Product name for the gameserver product',
         }),
@@ -1212,7 +1212,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-risingworld': {
         title: translate({
-            message: 'Cloud-Gameserver (Rising World)',
+            message: 'Rising World Gameserver',
             id: 'service.gameserver-risingworld.title',
             description: 'Product name for the gameserver product',
         }),
@@ -1224,7 +1224,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-riskofrain2': {
         title: translate({
-            message: 'Cloud-Gameserver (Risk of Rain 2)',
+            message: 'Risk of Rain 2 Gameserver',
             id: 'service.gameserver-riskofrain2.title',
             description: 'Product name for the gameserver product',
         }),
@@ -1236,7 +1236,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-rust': {
         title: translate({
-            message: 'Cloud-Gameserver (Rust)',
+            message: 'Rust Gameserver',
             id: 'service.gameserver-rust.title',
             description: 'Product name for the gameserver product',
         }),
@@ -1248,7 +1248,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-sanctuaryisland': {
         title: translate({
-            message: 'Cloud-Gameserver (Sanctuary Island)',
+            message: 'Sanctuary Island Gameserver',
             id: 'service.gameserver-sanctuaryisland.title',
             description: 'Product name for the gameserver product',
         }),
@@ -1260,7 +1260,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-satisfactory': {
         title: translate({
-            message: 'Cloud-Gameserver (Satisfactory)',
+            message: 'Satisfactory Gameserver',
             id: 'service.gameserver-satisfactory.title',
             description: 'Product name for the gameserver product',
         }),
@@ -1272,7 +1272,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-scp5k': {
         title: translate({
-            message: 'Cloud-Gameserver (SCP: 5K)',
+            message: 'SCP: 5K Gameserver',
             id: 'service.gameserver-scp5k.title',
             description: 'Product name for the gameserver product',
         }),
@@ -1284,7 +1284,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-scp-containmentbreach': {
         title: translate({
-            message: 'Cloud-Gameserver (SCP: Containment Breach)',
+            message: 'SCP: Containment Breach Gameserver',
             id: 'service.gameserver-scp-containmentbreach.title',
             description: 'Product name for the gameserver product',
         }),
@@ -1296,7 +1296,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-scp-escapetogether': {
         title: translate({
-            message: 'Cloud-Gameserver (SCP: Escape Together)',
+            message: 'SCP: Escape Together Gameserver',
             id: 'service.gameserver-scp-escapetogether.title',
             description: 'Product name for the gameserver product',
         }),
@@ -1308,7 +1308,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-scp': {
         title: translate({
-            message: 'Cloud-Gameserver (SCP: Secret Laboratory)',
+            message: 'SCP: Secret Laboratory Gameserver',
             id: 'service.gameserver-scp.title',
             description: 'Product name for the gameserver product',
         }),
@@ -1320,7 +1320,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-scum': {
         title: translate({
-            message: 'Cloud-Gameserver (SCUM)',
+            message: 'SCUM Gameserver',
             id: 'service.gameserver-scum.title',
             description: 'Product name for the gameserver product',
         }),
@@ -1332,7 +1332,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-soldat': {
         title: translate({
-            message: 'Cloud-Gameserver (Soldat)',
+            message: 'Soldat Gameserver',
             id: 'service.gameserver-soldat.title',
             description: 'Product name for the gameserver product',
         }),
@@ -1344,7 +1344,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-sonsoftheforest': {
         title: translate({
-            message: 'Cloud-Gameserver (Sons of the Forest)',
+            message: 'Sons of the Forest Gameserver',
             id: 'service.gameserver-sonsoftheforest.title',
             description: 'Product name for the gameserver product',
         }),
@@ -1356,7 +1356,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-soulmask': {
         title: translate({
-            message: 'Cloud-Gameserver (Soulmask)',
+            message: 'Soulmask Gameserver',
             id: 'service.gameserver-soulmask.title',
             description: 'Product name for the gameserver product',
         }),
@@ -1368,7 +1368,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-spaceengineers': {
         title: translate({
-            message: 'Cloud-Gameserver (Space Engineers)',
+            message: 'Space Engineers Gameserver',
             id: 'service.gameserver-spaceengineers.title',
             description: 'Product name for the gameserver product',
         }),
@@ -1380,7 +1380,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-squad': {
         title: translate({
-            message: 'Cloud-Gameserver (Squad)',
+            message: 'Squad Gameserver',
             id: 'service.gameserver-squad.title',
             description: 'Product name for the gameserver product',
         }),
@@ -1392,7 +1392,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-starbound': {
         title: translate({
-            message: 'Cloud-Gameserver (Starbound)',
+            message: 'Starbound Gameserver',
             id: 'service.gameserver-starbound.title',
             description: 'Product name for the gameserver product',
         }),
@@ -1404,7 +1404,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-starmade': {
         title: translate({
-            message: 'Cloud-Gameserver (Starmade)',
+            message: 'Starmade Gameserver',
             id: 'service.gameserver-starmade.title',
             description: 'Product name for the gameserver product',
         }),
@@ -1416,7 +1416,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-staxel': {
         title: translate({
-            message: 'Cloud-Gameserver (Staxel)',
+            message: 'Staxel Gameserver',
             id: 'service.gameserver-staxel.title',
             description: 'Product name for the gameserver product',
         }),
@@ -1428,7 +1428,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-stormworks': {
         title: translate({
-            message: 'Cloud-Gameserver (Stormworks)',
+            message: 'Stormworks Gameserver',
             id: 'service.gameserver-stormworks.title',
             description: 'Product name for the gameserver product',
         }),
@@ -1440,7 +1440,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-subsistence': {
         title: translate({
-            message: 'Cloud-Gameserver (Subsistence)',
+            message: 'Subsistence Gameserver',
             id: 'service.gameserver-subsistence.title',
             description: 'Product name for the gameserver product',
         }),
@@ -1452,7 +1452,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-sunkenland': {
         title: translate({
-            message: 'Cloud-Gameserver (Sunkenland)',
+            message: 'Sunkenland Gameserver',
             id: 'service.gameserver-sunkenland.title',
             description: 'Product name for the gameserver product',
         }),
@@ -1464,7 +1464,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-tf2': {
         title: translate({
-            message: 'Cloud-Gameserver (Team Fortress 2)',
+            message: 'Team Fortress 2 Gameserver',
             id: 'service.gameserver-tf2.title',
             description: 'Product name for the gameserver product',
         }),
@@ -1476,7 +1476,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-teeworlds': {
         title: translate({
-            message: 'Cloud-Gameserver (Teeworlds)',
+            message: 'Teeworlds Gameserver',
             id: 'service.gameserver-teeworlds.title',
             description: 'Product name for the gameserver product',
         }),
@@ -1488,7 +1488,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-terraria': {
         title: translate({
-            message: 'Cloud-Gameserver (Terraria)',
+            message: 'Terraria Gameserver',
             id: 'service.gameserver-terraria.title',
             description: 'Product name for the gameserver product',
         }),
@@ -1500,7 +1500,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-terratech-worlds': {
         title: translate({
-            message: 'Cloud-Gameserver (Terratech Worlds)',
+            message: 'Terratech Worlds Gameserver',
             id: 'service.gameserver-terratech-worlds.title',
             description: 'Product name for the gameserver product',
         }),
@@ -1512,7 +1512,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-thebus': {
         title: translate({
-            message: 'Cloud-Gameserver (The Bus)',
+            message: 'The Bus Gameserver',
             id: 'service.gameserver-thebus.title',
             description: 'Product name for the gameserver product',
         }),
@@ -1524,7 +1524,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-thefront': {
         title: translate({
-            message: 'Cloud-Gameserver (The Front)',
+            message: 'The Front Gameserver',
             id: 'service.gameserver-thefront.title',
             description: 'Product name for the gameserver product',
         }),
@@ -1536,7 +1536,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-theisle': {
         title: translate({
-            message: 'Cloud-Gameserver (The Isle)',
+            message: 'The Isle Gameserver',
             id: 'service.gameserver-theisle.title',
             description: 'Product name for the gameserver product',
         }),
@@ -1548,7 +1548,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-lotr-rtm': {
         title: translate({
-            message: 'Cloud-Gameserver (The Lord of the Rings: RTM)',
+            message: 'The Lord of the Rings: RTM Gameserver',
             id: 'service.gameserver-lotr-rtm.title',
             description: 'Product name for the gameserver product',
         }),
@@ -1560,7 +1560,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-unturned': {
         title: translate({
-            message: 'Cloud-Gameserver (Unturned)',
+            message: 'Unturned Gameserver',
             id: 'service.gameserver-unturned.title',
             description: 'Product name for the gameserver product',
         }),
@@ -1572,7 +1572,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-vrising': {
         title: translate({
-            message: 'Cloud-Gameserver (V Rising)',
+            message: 'V Rising Gameserver',
             id: 'service.gameserver-vrising.title',
             description: 'Product name for the gameserver product',
         }),
@@ -1584,7 +1584,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-valheim': {
         title: translate({
-            message: 'Cloud-Gameserver (Valheim)',
+            message: 'Valheim Gameserver',
             id: 'service.gameserver-valheim.title',
             description: 'Product name for the gameserver product',
         }),
@@ -1596,7 +1596,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-vein': {
         title: translate({
-            message: 'Cloud-Gameserver (Vein)',
+            message: 'Vein Gameserver',
             id: 'service.gameserver-vein.title',
             description: 'Product name for the gameserver product',
         }),
@@ -1608,7 +1608,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-veloren': {
         title: translate({
-            message: 'Cloud-Gameserver (Veloren)',
+            message: 'Veloren Gameserver',
             id: 'service.gameserver-veloren.title',
             description: 'Product name for the gameserver product',
         }),
@@ -1620,7 +1620,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-vintagestory': {
         title: translate({
-            message: 'Cloud-Gameserver (Vintage Story)',
+            message: 'Vintage Story Gameserver',
             id: 'service.gameserver-vintagestory.title',
             description: 'Product name for the gameserver product',
         }),
@@ -1632,7 +1632,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-wreckfest': {
         title: translate({
-            message: 'Cloud-Gameserver (Wreckfest)',
+            message: 'Wreckfest Gameserver',
             id: 'service.gameserver-wreckfest.title',
             description: 'Product name for the gameserver product',
         }),
@@ -1644,7 +1644,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-wreckfest2': {
         title: translate({
-            message: 'Cloud-Gameserver (Wreckfest 2)',
+            message: 'Wreckfest 2 Gameserver',
             id: 'service.gameserver-wreckfest2.title',
             description: 'Product name for the gameserver product',
         }),
@@ -1656,7 +1656,7 @@ const servicesMap: serviceMap = {
     },
     'gameserver-wurmunlimited': {
         title: translate({
-            message: 'Cloud-Gameserver (Wurm Unlimited)',
+            message: 'Wurm Unlimited Gameserver',
             id: 'service.gameserver-wurmunlimited.title',
             description: 'Product name for the gameserver product',
         }),

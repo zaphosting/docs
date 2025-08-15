@@ -4,7 +4,7 @@ title: "FiveM: Install EUP (Emergency Uniform Pack)"
 description: Information on how to install EUP on your FiveM server from ZAP-Hosting.com - ZAP-Hosting.com documentation
 sidebar_label: Install EUP
 services:
-  - gameserver
+  - gameserver-fivem
 ---
 
 import Tabs from '@theme/Tabs';

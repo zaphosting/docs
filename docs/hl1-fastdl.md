@@ -4,7 +4,7 @@ title: "Half-Life 1: Setting up FastDL"
 description: "How to set up FastDL with webspace for Half-Life 1 servers at ZAP-Hosting - ZAP-Hosting Documentation"
 sidebar_label: FastDL
 services:
-  - gameserver
+  - gameserver-hl1
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

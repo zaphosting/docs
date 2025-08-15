@@ -4,7 +4,7 @@ title: "Open.mp: Open.mp Server-Konfiguration"
 description: Informationen zur Konfiguration eines Open.mp Gameservers von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Server-Konfiguration
 services:
-  - gameserver
+  - gameserver-openmp
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

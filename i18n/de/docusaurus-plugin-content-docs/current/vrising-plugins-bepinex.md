@@ -4,7 +4,7 @@ title: "V Rising: Installation von Plugins auf dem Server (BepInEx)"
 description: Informationen über die Installation von Plugins auf deinem V Rising Server mit BepInEx (V Rising BepInEx Server) von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Plugins installieren (BepInEx)
 services:
-  - gameserver
+  - gameserver-vrising
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

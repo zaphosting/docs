@@ -4,7 +4,7 @@ title: "Half-Life 2: RCON"
 description: "Erfahre, wie du RCON für Half-Life 2 verwendest – ZAP-Hosting Dokumentation"
 sidebar_label: RCON
 services:
-  - gameserver
+  - gameserver-hl2
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';

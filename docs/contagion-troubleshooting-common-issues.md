@@ -4,7 +4,7 @@ title: "Contagion: Common issues"
 description: "Information on how to resolve common issues on a Contagion server from ZAP-Hosting - ZAP-Hosting.com documentation"
 sidebar_label: Common issues
 services:
-  - gameserver
+  -   - gameserver-corekeeper-contagion
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
@@ -145,7 +145,7 @@ While most of these threats are beyond the control of the average user, ZAP-Host
 
 ## Preventive Measures 
 
-Regular backups can avoid a lot of stress and worries. Create regular backups to ensure that in case of any issues you still have a backup of an older version when everything was still working. We offer a [backup solution](gameserver-backups.md) for our Contagion game servers, which you can use to create either manual or scheduled automatic backups. 
+Regular backups can avoid a lot of stress and worries. Create regular backups to ensure that in case of any issues you still have a backup of an older version when everything was still working. We offer a [backup solution](  - gameserver-corekeeper-backups.md) for our Contagion game servers, which you can use to create either manual or scheduled automatic backups. 
 
 
 

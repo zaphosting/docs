@@ -4,7 +4,7 @@ title: "Day of Defeat: Source: Häufige Probleme"
 description: "Informationen zur Behebung häufiger Probleme bei Day of Defeat: Source Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation"
 sidebar_label: Häufige Probleme
 services:
-  - gameserver
+  - gameserver-dods
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

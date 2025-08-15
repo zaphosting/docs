@@ -4,7 +4,7 @@ title: "CryoFall: Dashboard Übersicht"
 description: Informationen zum Dashboard eines CryoFall Server von ZAP-Hosting - ZAP-Hosting.com Dokumentationen
 sidebar_label: Dashboard
 services:
-  - gameserver
+  - gameserver-cryofall
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

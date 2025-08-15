@@ -4,7 +4,7 @@ title: "Abiotic Factor: Konfiguration der Crossplay-Unterstützung und das Herst
 description: Informationen über die Konfiguration der Crossplay-Unterstützung für einen Abiotic Factor Gameserver von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Crossplay
 services:
-  - gameserver
+  - gameserver-abioticfactor
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

@@ -4,7 +4,7 @@ title: "Team Fortress 2: Setting up FastDL"
 description: "How to set up FastDL with webspace for Team Fortress 2 servers at ZAP-Hosting - ZAP-Hosting Documentation"
 sidebar_label: FastDL
 services:
-  - gameserver
+  - gameserver-tf2
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

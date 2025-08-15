@@ -4,7 +4,7 @@ title: "ATS: Installing Mods/DLCs to your ATS server"
 description: Information on how to install mods and DLCs to your American Truck Simulator (ATS) server or game client from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Install Mods/DLCs
 services:
-  - gameserver
+  - gameserver-ats
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

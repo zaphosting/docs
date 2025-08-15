@@ -4,7 +4,7 @@ title: "Multi Theft Auto: Common issues"
 description: "Information on how to resolve common issues on a Multi Theft Auto server from ZAP-Hosting - ZAP-Hosting.com documentation"
 sidebar_label: Common issues
 services:
-  - gameserver
+  - gameserver-mta
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

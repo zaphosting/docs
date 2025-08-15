@@ -4,7 +4,7 @@ title: "7 Days To Die: Zum Server verbinden"
 description: Informationen über verschiedene Möglichkeiten, wie du dich mit deinem 7 Days To Die Server von ZAP-Hosting verbinden kannst - ZAP-Hosting Dokumentation
 sidebar_label: Zum Server verbinden
 services:
-  - gameserver
+  - gameserver-7d2d
 ---
 
 import Tabs from '@theme/Tabs';

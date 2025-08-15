@@ -4,7 +4,7 @@ title: "The Bus: Common issues"
 description: "Information on how to resolve common issues on a The Bus server from ZAP-Hosting - ZAP-Hosting.com documentation"
 sidebar_label: Common issues
 services:
-  - gameserver
+  - gameserver-thebus
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

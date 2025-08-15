@@ -4,7 +4,7 @@ title: "ARK: Survival Evolved: Common issues"
 description: "Information on how to resolve common issues on a ARK: Survival Evolved server from ZAP-Hosting - ZAP-Hosting.com documentation"
 sidebar_label: Common issues
 services:
-  - gameserver
+  - gameserver-ark
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

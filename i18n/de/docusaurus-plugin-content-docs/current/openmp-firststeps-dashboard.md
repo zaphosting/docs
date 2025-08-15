@@ -4,7 +4,7 @@ title: "Open.mp: Dashboard Übersicht"
 description: Informationen zum Dashboard eines Open.mp Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Dashboard
 services:
-  - gameserver
+  - gameserver-openmp
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

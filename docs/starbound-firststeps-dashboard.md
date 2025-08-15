@@ -4,7 +4,7 @@ title: "Starbound: Dashboard overview"
 description: Information about the dashboard of an Starbound server from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Dashboard
 services:
-  - gameserver
+  - gameserver-starbound
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

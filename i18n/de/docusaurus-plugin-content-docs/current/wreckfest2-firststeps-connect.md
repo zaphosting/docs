@@ -4,7 +4,7 @@ title: "Wreckfest2: Zum Server verbinden"
 description: Informationen über verschiedene Möglichkeiten, wie du dich mit deinem Wreckfest2 Server von ZAP-Hosting verbinden kannst - ZAP-Hosting Dokumentation
 sidebar_label: Zum Server verbinden
 services:
-  - gameserver
+  - gameserver-wreckfest2
 ---
 
 import Tabs from '@theme/Tabs';

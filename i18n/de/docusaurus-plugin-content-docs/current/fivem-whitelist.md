@@ -4,7 +4,7 @@ title: "FiveM: Whitelist"
 description: Informationen zur Nutzung einer Whitelist bei FiveM Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Whitelist
 services:
-  - gameserver
+  - gameserver-fivem
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';

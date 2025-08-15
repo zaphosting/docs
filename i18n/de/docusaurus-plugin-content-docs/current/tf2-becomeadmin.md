@@ -4,7 +4,7 @@ title: "Team Fortress 2: Admin werden"
 description: "Informationen darüber, wie du auf deinem Team Fortress 2 Server Admin werden kannst – ZAP-Hosting.com Dokumentation"
 sidebar_label: "Admin werden"
 services:
-  - gameserver
+  - gameserver-tf2
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

@@ -4,7 +4,7 @@ title: "Path of Titans: Dashboard Übersicht"
 description: Informationen zum Dashboard eines Path of Titans Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Dashboard
 services:
-  - gameserver
+  - gameserver-pathoftitans
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

@@ -4,7 +4,7 @@ title: "Unfortunate Spacemen: Common issues"
 description: "Information on how to resolve common issues on a Unfortunate Spacemen server from ZAP-Hosting - ZAP-Hosting.com documentation"
 sidebar_label: Common issues
 services:
-  - gameserver
+  - gameserver-unfortunate-spacemen
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

@@ -4,7 +4,7 @@ title: "Satisfactory: Installing Mods to your Satisfactory server"
 description: Information on how to install mods to your Satisfactory server and game client from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Install Mods
 services:
-  - gameserver
+  - gameserver-satisfactory
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

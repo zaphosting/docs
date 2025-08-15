@@ -5,7 +5,7 @@ title: "RedM: txAdmin Discord Bot"
 description: Informationen zur Einrichtung des Discord Bots für einen RedM txAdmin Server von ZAP-Hosting – ZAP-Hosting.com Dokumentation  
 sidebar_label: txAdmin Discord Bot  
 services:  
-  - gameserver  
+  - gameserver-redm  
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

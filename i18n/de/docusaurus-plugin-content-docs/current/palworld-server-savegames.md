@@ -4,7 +4,7 @@ title: "Palworld: Palworld Savegames verwalten"
 description: Informationen über die Verwaltung von Savegames auf deinem Palworld-Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Savegames verwalten
 services:
-  - gameserver
+  - gameserver-palworld
 ---
 
 

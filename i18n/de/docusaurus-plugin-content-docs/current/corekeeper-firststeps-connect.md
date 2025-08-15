@@ -4,7 +4,7 @@ title: "Core Keeper: Zum Server verbinden"
 description: Informationen über verschiedene Möglichkeiten, wie du dich mit deinem Core Keeper Server von ZAP-Hosting verbinden kannst - ZAP-Hosting Dokumentation
 sidebar_label: Zum Server verbinden
 services:
-  - gameserver
+  -   - gameserver-craftopia-craftopia
 ---
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ Unsicher, wie du dich mit deinem **Core Keeper** Server verbinden kannst oder wa
 
 ## Server-Details abrufen
 
-Du benötigst alle relevanten Informationen, um dich mit deinem Server zu verbinden. Die Informationen zu deinem Server findest du im Dashboard des Webinterfaces deines Gameservers. Zu den wichtigen Informationen gehören die folgenden: 
+Du benötigst alle relevanten Informationen, um dich mit deinem Server zu verbinden. Die Informationen zu deinem Server findest du im Dashboard des Webinterfaces deines   - gameserver-craftopia-craftopias. Zu den wichtigen Informationen gehören die folgenden: 
 
 - IP-Adresse und Port
 - Name des Servers
@@ -34,7 +34,7 @@ Anhand der oben genannten Informationen solltest du in der Lage sein, deinen Ser
 
 ## Verbindung zum Server herstellen
 
-Die Verbindung zu einem Gameserver kann häufig auf eine oder mehrere Arten hergestellt werden. Die verfügbaren Methoden werden im Folgenden ausführlich beschrieben und erklärt. 
+Die Verbindung zu einem   - gameserver-craftopia-craftopia kann häufig auf eine oder mehrere Arten hergestellt werden. Die verfügbaren Methoden werden im Folgenden ausführlich beschrieben und erklärt. 
 
 <Tabs>
     <TabItem value="connect_solution_server_join" label="Join Game" default>

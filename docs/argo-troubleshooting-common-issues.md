@@ -4,7 +4,7 @@ title: "Argo: Common issues"
 description: "Information on how to resolve common issues on a Argo server from ZAP-Hosting - ZAP-Hosting.com documentation"
 sidebar_label: Common issues
 services:
-  - gameserver
+  - gameserver-argo
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

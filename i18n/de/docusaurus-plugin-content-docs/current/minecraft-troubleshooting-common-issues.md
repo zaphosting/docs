@@ -4,7 +4,7 @@ title: "Minecraft: Häufige Probleme"
 description: "Informationen zur Behebung häufiger Probleme bei Minecraft Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation"
 sidebar_label: Häufige Probleme
 services:
-  - gameserver
+  - gameserver-minecraft
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

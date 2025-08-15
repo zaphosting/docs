@@ -4,7 +4,7 @@ title: "Ground Branch: Dashboard Übersicht"
 description: Informationen zum Dashboard eines Ground Branch Server von ZAP-Hosting - ZAP-Hosting.com Dokumentationen
 sidebar_label: Dashboard
 services:
-  - gameserver
+  - gameserver-groundbranch
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

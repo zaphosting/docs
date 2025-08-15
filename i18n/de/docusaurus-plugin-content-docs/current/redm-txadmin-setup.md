@@ -4,7 +4,7 @@ title: "RedM: txAdmin Einrichtung"
 description: Informationen zur Einrichtung des TxAdmin Interfaces für RedM Gameserver von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: txAdmin Einrichtung
 services:
-  - gameserver
+  - gameserver-redm
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';

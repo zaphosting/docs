@@ -4,7 +4,7 @@ title: "Reign of Kings: Häufige Probleme"
 description: "Informationen zur Behebung häufiger Probleme bei Reign of Kings Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation"
 sidebar_label: Häufige Probleme
 services:
-  - gameserver
+  - gameserver-reignofkings
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

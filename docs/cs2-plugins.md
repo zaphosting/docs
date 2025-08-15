@@ -4,7 +4,7 @@ title: "CS2: Installation of plugins"
 description: Information about installing plugins for CS2 Server from ZAP Hosting - ZAP-Hosting.com documentation
 sidebar_label: Install plugins
 services:
-  - gameserver
+  - gameserver-cs2
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

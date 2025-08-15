@@ -4,7 +4,7 @@ title: "7 Days to Die: How to become an admin for 7 Days to Die"
 description: How to become an admin for 7 Days to Die game servers - ZAP-Hosting.com documentation 
 sidebar_label: Become admin
 services:
-  - gameserver
+  - gameserver-7d2d
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

@@ -4,7 +4,7 @@ title: "Beyond the Wire: Common issues"
 description: "Information on how to resolve common issues on a Beyond the Wire server from ZAP-Hosting - ZAP-Hosting.com documentation"
 sidebar_label: Common issues
 services:
-  - gameserver
+  - gameserver-beyondthewire
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

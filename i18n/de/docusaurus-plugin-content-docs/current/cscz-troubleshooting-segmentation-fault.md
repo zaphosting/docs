@@ -4,7 +4,7 @@ title: "Counter-Strike: Condition Zero: Segmentation Fault"
 description: "Informationen zur Behebung des Segmentation Fault Fehlers bei einem Counter-Strike: Condition Zero Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation"
 sidebar_label: Segmentation Fault
 services:
-  - gameserver
+  - gameserver-cscz
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

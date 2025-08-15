@@ -4,7 +4,7 @@ title: "Project Zomboid: Dashboard Overview"
 description: Information about the dashboard of an Project Zomboid server from ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Dashboard
 services:
-  - gameserver
+  - gameserver-projectzomboid
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';

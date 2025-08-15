@@ -4,7 +4,7 @@ title: "Killing Floor 2: Dashboard overview"
 description: Information about the dashboard of an Killing Floor 2server from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Dashboard
 services:
-  - gameserver
+  - gameserver-lastoasis-killingfloor2
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

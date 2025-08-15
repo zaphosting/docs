@@ -4,7 +4,7 @@ title: "Arma 3: Common issues"
 description: "Information on how to resolve common issues on a Arma 3 server from ZAP-Hosting - ZAP-Hosting.com documentation"
 sidebar_label: Common issues
 services:
-  - gameserver
+  - gameserver-arma3
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

@@ -4,7 +4,7 @@ title: "Holdfast: Nations At War: Dashboard overview"
 description: "Information about the dashboard of an Holdfast: Nations At War server from ZAP-Hosting - ZAP-Hosting.com Documentation"
 sidebar_label: Dashboard
 services:
-  - gameserver
+  - gameserver-holdfast
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';

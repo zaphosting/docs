@@ -4,7 +4,7 @@ title: "Animalia Survival: Connect to the server"
 description: Information about various ways on how to connect to your Animalia Survival server from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Connect to the server
 services:
-  - gameserver
+  - gameserver-animalia-survival
 ---
 
 import Tabs from '@theme/Tabs';

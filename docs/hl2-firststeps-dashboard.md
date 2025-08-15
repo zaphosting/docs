@@ -4,7 +4,7 @@ title: "Half-Life 2: Dashboard Overview"
 description: Information about the dashboard of an Half-Life 2 server from ZAP-Hosting - ZAP-Hosting.com Documentation
 sidebar_label: Dashboard
 services:
-  - gameserver
+  - gameserver-hl2
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

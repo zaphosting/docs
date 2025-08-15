@@ -4,7 +4,7 @@ title: "Euro Truck Simulator 2: Dashboard Übersicht"
 description: Informationen zum Dashboard eines Euro Truck Simulator 2 Server von ZAP-Hosting - ZAP-Hosting.com Dokumentationen
 sidebar_label: Dashboard
 services:
-  - gameserver
+  - gameserver-ets2
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';

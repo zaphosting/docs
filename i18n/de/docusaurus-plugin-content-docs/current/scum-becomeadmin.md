@@ -4,7 +4,7 @@ title: "SCUM: Admin werden"
 description: Informationen darüber, wie du ein Admin auf deinem SCUM-Server von ZAP-Hosting wirst - ZAP-Hosting.com Dokumentation
 sidebar_label: Admin werden
 services:
-  - gameserver
+  - gameserver-scum
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

@@ -4,7 +4,7 @@ title: "Cryofall: Zum Server verbinden"
 description: Informationen über verschiedene Möglichkeiten, wie du dich mit deinem Cryofall Server von ZAP-Hosting verbinden kannst - ZAP-Hosting Dokumentation
 sidebar_label: Zum Server verbinden
 services:
-  - gameserver
+  - gameserver-cryofall
 ---
 
 import Tabs from '@theme/Tabs';

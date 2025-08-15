@@ -4,7 +4,7 @@ title: "Day of Infamy: Häufige Probleme"
 description: "Informationen zur Behebung häufiger Probleme bei Day of Infamy Server von ZAP-Hosting - ZAP-Hosting.com Dokumentation"
 sidebar_label: Häufige Probleme
 services:
-  - gameserver
+  - gameserver-dayofinfamy
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

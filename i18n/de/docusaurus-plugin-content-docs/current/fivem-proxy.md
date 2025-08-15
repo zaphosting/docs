@@ -4,7 +4,7 @@ title: "FiveM: Einen Reverse Proxy einrichten"
 description: Informationen, wie du einen Reverse Proxy für deinen FiveM-Server von ZAP-Hosting einrichtest - ZAP-Hosting.com Dokumentation
 sidebar_label: Reverse Proxy
 services:
-  - Gameserver
+  - gameserver-fivem
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

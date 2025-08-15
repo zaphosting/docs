@@ -4,7 +4,7 @@ title: "Valheim: Serverlisting Probleme bei Steam Spielen, die Steamworks nutzen
 description: Informationen zu dem Problem, dass Server für Steamworks-Spiele nicht in der Serverliste angezeigt werden - ZAP-Hosting.com Dokumentation
 sidebar_label: Serverlisting Probleme
 services:
-  - gameserver
+  - gameserver-valheim
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

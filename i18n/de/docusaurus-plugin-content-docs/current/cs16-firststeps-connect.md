@@ -4,7 +4,7 @@ title: "Counter-Strike 1.6: Zum Server verbinden"
 description: Informationen über verschiedene Möglichkeiten, wie du dich mit deinem Counter-Strike 1.6 Server von ZAP-Hosting verbinden kannst - ZAP-Hosting.com Dokumentation
 sidebar_label: Zum Server verbinden
 services:
-  - gameserver
+  - gameserver-cs16
 ---
 
 import Tabs from '@theme/Tabs';
